@@ -1,0 +1,20 @@
+{
+  "$schema": "https://raw.githubusercontent.com/continuedev/continue/main/extensions/vscode/config_schema.json",
+  "slashCommands": [
+    {
+      "name": "dfva",
+      "description": "Run a Degree Future-Viability Assessment",
+      "prompt": ".continue/prompts/dfva.md"
+    },
+    {
+      "name": "dfva-market",
+      "description": "Generate DFVA market-intelligence signals for job families and hiring trends",
+      "prompt": ".continue/prompts/dfva-market.md"
+    },
+    {
+      "name": "dfva-recommend",
+      "description": "Generate curriculum improvement recommendations from a DFVA report",
+      "prompt": ".continue/prompts/dfva-recommend.md"
+    }
+  ]
+}

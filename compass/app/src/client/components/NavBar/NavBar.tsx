@@ -1,0 +1,281 @@
+import { LogIn, Menu } from "lucide-react";
+import { Dispatch, SetStateAction, useEffect, useState } from "react";
+import { Link as ReactRouterLink } from "react-router";
+import { useAuth } from "wasp/client/auth";
+import { Link as WaspRouterLink, routes } from "wasp/client/router";
+import {
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "../../../client/components/ui/sheet";
+import { throttleWithTrailingInvocation } from "../../../shared/utils";
+import { UserDropdown } from "../../../user/UserDropdown";
+import { UserMenuItems } from "../../../user/UserMenuItems";
+import { cn } from "../../utils";
+import DarkModeSwitcher from "../DarkModeSwitcher";
+
+export interface NavigationItem {
+  name: string;
+  to: string;
+}
+
+export default function NavBar({
+  navigationItems,
+}: {
+  navigationItems: NavigationItem[];
+}) {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const throttledHandler = throttleWithTrailingInvocation(() => {
+      setIsScrolled(window.scrollY > 0);
+    }, 50);
+
+    window.addEventListener("scroll", throttledHandler);
+
+    return () => {
+      window.removeEventListener("scroll", throttledHandler);
+      throttledHandler.cancel();
+    };
+  }, []);
+
+  return (
+    <>
+      <header
+        className={cn(
+          "sticky top-0 z-50 transition-all duration-300",
+          isScrolled && "top-4",
+        )}
+      >
+        <div
+          className={cn("transition-all duration-300", {
+            "bg-background/90 border-border mx-4 rounded-full border pr-2 shadow-lg backdrop-blur-lg md:mx-20 lg:pr-0":
+              isScrolled,
+            "bg-background/80 border-border mx-0 border-b backdrop-blur-lg":
+              !isScrolled,
+          })}
+        >
+          <nav
+            className={cn(
+              "flex items-center justify-between transition-all duration-300",
+              {
+                "p-3 lg:px-6": isScrolled,
+                "p-6 lg:px-8": !isScrolled,
+              },
+            )}
+            aria-label="Global"
+          >
+            <div className="flex items-center gap-6">
+              <WaspRouterLink
+                to={routes.LandingPageRoute.to}
+                className="text-foreground hover:text-primary flex items-center transition-colors duration-300 ease-in-out"
+              >
+                <NavLogo isScrolled={isScrolled} />
+                <span
+                  className={cn(
+                    "text-foreground leading-6 font-semibold transition-all duration-300",
+                    {
+                      "ml-2 text-sm": !isScrolled,
+                      "ml-2 text-xs": isScrolled,
+                    },
+                  )}
+                >
+                  COMPASS
+                </span>
+              </WaspRouterLink>
+
+              <ul className="ml-4 hidden items-center gap-6 lg:flex">
+                {renderNavigationItems(navigationItems)}
+              </ul>
+            </div>
+            <NavBarMobileMenu
+              isScrolled={isScrolled}
+              navigationItems={navigationItems}
+            />
+            <NavBarDesktopUserDropdown isScrolled={isScrolled} />
+          </nav>
+        </div>
+      </header>
+    </>
+  );
+}
+
+function NavBarDesktopUserDropdown({ isScrolled }: { isScrolled: boolean }) {
+  const { data: user, isLoading: isUserLoading } = useAuth();
+
+  return (
+    <div className="hidden items-center justify-end gap-3 lg:flex lg:flex-1">
+      <ul className="flex items-center justify-center gap-2 sm:gap-4">
+        <DarkModeSwitcher />
+      </ul>
+      {isUserLoading ? null : !user ? (
+        <WaspRouterLink
+          to={routes.LoginRoute.to}
+          className={cn(
+            "ml-3 leading-6 font-semibold transition-all duration-300",
+            {
+              "text-sm": !isScrolled,
+              "text-xs": isScrolled,
+            },
+          )}
+        >
+          <div className="text-foreground hover:text-primary flex items-center transition-colors duration-300 ease-in-out">
+            Log in{" "}
+            <LogIn
+              size={isScrolled ? "1rem" : "1.1rem"}
+              className={cn("transition-all duration-300", {
+                "mt-[0.1rem] ml-1": !isScrolled,
+                "ml-1": isScrolled,
+              })}
+            />
+          </div>
+        </WaspRouterLink>
+      ) : (
+        <div className="ml-3">
+          <UserDropdown user={user} />
+        </div>
+      )}
+    </div>
+  );
+}
+
+function NavBarMobileMenu({
+  isScrolled,
+  navigationItems,
+}: {
+  isScrolled: boolean;
+  navigationItems: NavigationItem[];
+}) {
+  const { data: user, isLoading: isUserLoading } = useAuth();
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  return (
+    <div className="flex lg:hidden">
+      <Sheet open={mobileMenuOpen} onOpenChange={setMobileMenuOpen}>
+        <SheetTrigger asChild>
+          <button
+            type="button"
+            className={cn(
+              "text-muted-foreground hover:text-muted hover:bg-accent inline-flex items-center justify-center rounded-md transition-colors",
+            )}
+          >
+            <span className="sr-only">Open main menu</span>
+            <Menu
+              className={cn("transition-all duration-300", {
+                "size-8 p-1": !isScrolled,
+                "size-6 p-0.5": isScrolled,
+              })}
+              aria-hidden="true"
+            />
+          </button>
+        </SheetTrigger>
+        <SheetContent side="right" className="w-[300px] sm:w-[400px]">
+          <SheetHeader>
+            <SheetTitle className="flex items-center">
+              <WaspRouterLink to={routes.LandingPageRoute.to}>
+                <span className="sr-only">COMPASS</span>
+                <NavLogo isScrolled={false} />
+              </WaspRouterLink>
+            </SheetTitle>
+          </SheetHeader>
+          <div className="mt-6 flow-root">
+            <div className="divide-border -my-6 divide-y">
+              <ul className="space-y-2 py-6">
+                {renderNavigationItems(navigationItems, setMobileMenuOpen)}
+              </ul>
+              <div className="py-6">
+                {isUserLoading ? null : !user ? (
+                  <WaspRouterLink to={routes.LoginRoute.to}>
+                    <div className="text-foreground hover:text-primary flex items-center justify-end transition-colors duration-300 ease-in-out">
+                      Log in <LogIn size="1.1rem" className="ml-1" />
+                    </div>
+                  </WaspRouterLink>
+                ) : (
+                  <ul className="space-y-2">
+                    <UserMenuItems
+                      user={user}
+                      onItemClick={() => setMobileMenuOpen(false)}
+                    />
+                  </ul>
+                )}
+              </div>
+              <div className="py-6">
+                <DarkModeSwitcher />
+              </div>
+            </div>
+          </div>
+        </SheetContent>
+      </Sheet>
+    </div>
+  );
+}
+
+function renderNavigationItems(
+  navigationItems: NavigationItem[],
+  setMobileMenuOpen?: Dispatch<SetStateAction<boolean>>,
+) {
+  const menuStyles = cn({
+    "block rounded-lg px-3 py-2 text-sm font-medium leading-7 text-foreground hover:bg-accent hover:text-accent-foreground transition-colors":
+      !!setMobileMenuOpen,
+    "text-sm font-normal leading-6 text-foreground duration-300 ease-in-out hover:text-primary transition-colors":
+      !setMobileMenuOpen,
+  });
+
+  return navigationItems.map((item) => {
+    return (
+      <li key={item.name}>
+        <ReactRouterLink
+          to={item.to}
+          className={menuStyles}
+          onClick={setMobileMenuOpen && (() => setMobileMenuOpen(false))}
+          target={item.to.startsWith("http") ? "_blank" : undefined}
+        >
+          {item.name}
+        </ReactRouterLink>
+      </li>
+    );
+  });
+}
+
+const NavLogo = ({ isScrolled }: { isScrolled: boolean }) => (
+  <CompassSVG size={isScrolled ? 28 : 32} />
+);
+
+function CompassSVG({ size }: { size: number }) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 32 32"
+      fill="none"
+      aria-hidden="true"
+      className="transition-all duration-500 shrink-0"
+    >
+      {/* Outer ring */}
+      <circle cx="16" cy="16" r="13.5" stroke="currentColor" strokeWidth="1.5" strokeOpacity="0.4" />
+      {/* North tick — orange, most prominent */}
+      <line x1="16" y1="3.5" x2="16" y2="8" stroke="#f97316" strokeWidth="2" strokeLinecap="round" />
+      {/* E / S / W cardinal ticks */}
+      <line x1="28.5" y1="16" x2="24" y2="16" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeOpacity="0.45" />
+      <line x1="16" y1="28.5" x2="16" y2="24" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeOpacity="0.45" />
+      <line x1="3.5" y1="16" x2="8" y2="16" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeOpacity="0.45" />
+      {/* Intercardinal ticks — subtle */}
+      <line x1="25.55" y1="6.45" x2="24.49" y2="7.51" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeOpacity="0.25" />
+      <line x1="25.55" y1="25.55" x2="24.49" y2="24.49" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeOpacity="0.25" />
+      <line x1="6.45" y1="25.55" x2="7.51" y2="24.49" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeOpacity="0.25" />
+      <line x1="6.45" y1="6.45" x2="7.51" y2="7.51" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeOpacity="0.25" />
+      {/* Compass needle rotated 20° CW — looks actively in use */}
+      <g transform="rotate(20 16 16)">
+        {/* North half — orange */}
+        <polygon points="16,5.5 13.5,16 18.5,16" fill="#f97316" />
+        {/* South half — muted */}
+        <polygon points="16,26.5 13.5,16 18.5,16" fill="currentColor" fillOpacity="0.2" />
+      </g>
+      {/* Center bearing */}
+      <circle cx="16" cy="16" r="2.5" fill="#f97316" />
+      <circle cx="16" cy="16" r="1" fill="white" />
+    </svg>
+  );
+}

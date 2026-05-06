@@ -1,0 +1,33 @@
+import { LayoutDashboard, FileText, Settings, Shield } from "lucide-react";
+import { routes } from "wasp/client/router";
+
+export const userMenuItems = [
+  {
+    name: "Assess a Program",
+    to: "/assess",
+    icon: LayoutDashboard,
+    isAdminOnly: false,
+    isAuthRequired: false,
+  },
+  {
+    name: "Reports",
+    to: "/reports",
+    icon: FileText,
+    isAdminOnly: false,
+    isAuthRequired: false,
+  },
+  {
+    name: "Account Settings",
+    to: routes.AccountRoute.to,
+    icon: Settings,
+    isAuthRequired: false,
+    isAdminOnly: false,
+  },
+  {
+    name: "Admin Dashboard",
+    to: routes.AdminRoute.to,
+    icon: Shield,
+    isAuthRequired: false,
+    isAdminOnly: true,
+  },
+] as const;
