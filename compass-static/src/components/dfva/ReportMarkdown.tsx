@@ -216,12 +216,14 @@ function SmartCell({ children, textAlign }: { children: ReactNode; textAlign?: s
   }
 
   // Direction indicators (Market Intel table)
-  const dir = <DirectionCell text={text} />
-  if (dir) return <td className="px-3 py-2.5">{dir}</td>
+  if (/^(Up|Down|Emerging)$/.test(text)) {
+    return <td className="px-3 py-2.5"><DirectionCell text={text} /></td>
+  }
 
   // Status chips (Diagnostic Summary table)
-  const chip = <StatusChip text={text} />
-  if (chip) return <td className="px-3 py-2.5">{chip}</td>
+  if (text.includes('Critical gap') || text === 'Adequate') {
+    return <td className="px-3 py-2.5"><StatusChip text={text} /></td>
+  }
 
   // Standalone risk level (entire cell is just HIGH / MEDIUM / LOW)
   if (/^(LOW[–\-]MEDIUM|HIGH|MEDIUM|LOW)$/i.test(text)) {
