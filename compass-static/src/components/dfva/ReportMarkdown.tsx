@@ -334,7 +334,7 @@ const components: Components = {
 
   // Table wrapper — elevated card with refined borders
   table: ({ children }) => (
-    <div className="mb-5 mt-3 overflow-x-auto rounded-lg border border-border/80 shadow-sm">
+    <div className="mb-5 mt-2 overflow-x-auto rounded-lg border border-border/80 shadow-sm">
       <table className="w-full text-xs [&_thead]:border-b [&_thead]:border-border [&_thead]:bg-muted/50 [&_tbody_tr]:border-b [&_tbody_tr]:border-border/40 [&_tbody_tr:last-child]:border-0 [&_tbody_tr:hover]:bg-muted/30 [&_tbody_tr]:transition-colors">
         {children}
       </table>
