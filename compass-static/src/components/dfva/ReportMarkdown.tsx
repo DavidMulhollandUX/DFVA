@@ -194,11 +194,11 @@ function SectionHeader({ children }: { children: ReactNode }) {
 }
 
 // ─── smart table cell ─────────────────────────────────────────────────────────
-// align="right" comes from mdast-util-to-hast properties.align (not style.textAlign)
+// react-markdown v9 converts hast properties.align → style.textAlign on the td props
 
-function SmartCell({ children, align }: { children: ReactNode; align?: string }) {
+function SmartCell({ children, textAlign }: { children: ReactNode; textAlign?: string }) {
   const text = childText(children).trim()
-  const isRightAligned = align === 'right'
+  const isRightAligned = textAlign === 'right'
 
   // Right-aligned single digit 0–3 → score dots (score column)
   if (isRightAligned && /^[0-3]$/.test(text)) {
@@ -293,10 +293,10 @@ const components: Components = {
     </th>
   ),
 
-  // align comes through as an HTML attribute from mdast-util-to-hast properties.align
+  // react-markdown v9 passes alignment as style.textAlign, not as an align prop
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  td: ({ children, ...rest }: any) => (
-    <SmartCell align={rest.align}>{children}</SmartCell>
+  td: ({ children, style }: any) => (
+    <SmartCell textAlign={style?.textAlign}>{children}</SmartCell>
   ),
 
   strong: ({ children }) => {

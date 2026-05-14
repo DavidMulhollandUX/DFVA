@@ -1,0 +1,64 @@
+{
+  "hash": "09624b0d",
+  "configHash": "f39c6f1c",
+  "lockfileHash": "e3b0c442",
+  "browserHash": "588e2a0c",
+  "optimized": {
+    "lucide-react": {
+      "src": "../../compass-static/node_modules/lucide-react/dist/esm/lucide-react.js",
+      "file": "lucide-react.js",
+      "fileHash": "dad0675b",
+      "needsInterop": false
+    },
+    "react-dom/client": {
+      "src": "../../compass-static/node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "948e002f",
+      "needsInterop": true
+    },
+    "react-markdown": {
+      "src": "../../compass-static/node_modules/react-markdown/index.js",
+      "file": "react-markdown.js",
+      "fileHash": "05b9e78c",
+      "needsInterop": false
+    },
+    "react-router-dom": {
+      "src": "../../compass-static/node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "1965cacd",
+      "needsInterop": false
+    },
+    "react": {
+      "src": "../../compass-static/node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "8bd2445b",
+      "needsInterop": true
+    },
+    "react/jsx-dev-runtime": {
+      "src": "../../compass-static/node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "3c49fca7",
+      "needsInterop": true
+    },
+    "remark-gfm": {
+      "src": "../../compass-static/node_modules/remark-gfm/index.js",
+      "file": "remark-gfm.js",
+      "fileHash": "2c36fef3",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "lib-Dwf7Xm4g": {
+      "file": "lib-Dwf7Xm4g.js",
+      "isDynamicEntry": false
+    },
+    "react-DRTK7Pga": {
+      "file": "react-DRTK7Pga.js",
+      "isDynamicEntry": false
+    },
+    "react-dom-DIJHPEEa": {
+      "file": "react-dom-DIJHPEEa.js",
+      "isDynamicEntry": false
+    }
+  }
+}
