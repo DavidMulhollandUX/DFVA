@@ -76,6 +76,55 @@ Institution: [University / TAFE / Bootcamp / Online provider]
 Level: [Certificate / Diploma / Bachelor / Master / PhD]
 Duration: [Typical duration]
 
+### Threshold Question Format (COMPASS Renderer)
+
+Each threshold question MUST be written as a bold paragraph with the full question (ending with `?`) on one line, and the YES/NO/UNCERTAIN answer with rationale starting on the next line:
+
+```markdown
+**Q1: Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?**
+NO. The regulatory affairs, GMP compliance, and IP commercialisation domains require human sign-off and legal responsibility. AI can draft submissions — but a human must validate, own, and defend them.
+```
+
+The renderer splits at the `?` — everything up to and including the question mark becomes the card heading; the rest becomes the body. Do NOT put the answer on the same line as the question inside the bold markers.
+
+### Market Intelligence Report Format (COMPASS Renderer)
+
+Market intelligence reports (`dfva-market-*`) use Signal and Theme items. Each MUST follow this exact format:
+
+**Signal items** — bold title on one line, body paragraph on the next:
+```markdown
+**Signal 1 — RA and lab roles: cognitive layer compressing, physical layer stable.**
+ANZ research assistant and laboratory scientist postings (Q1 2026) increasingly specify: ability to validate AI-generated experimental outputs...
+```
+
+**Theme items** — bold title with body inline:
+```markdown
+**Theme 1 — Is the research assistant role already gone?** Active discourse: AI tools have absorbed the cognitive and some physical components of junior RA work. Counter-view: AI has created new RA work.
+```
+
+The renderer extracts the title up to the first `:`, `.`, `!`, or `?` after the em-dash (`—` U+2014). Use em-dash, not en-dash or hyphens.
+
+Evidence confidence notes use blockquotes (`>`) which render transparently (no special decoration).
+
+### Improvement Plan Report Format (COMPASS Renderer)
+
+Improvement plans (`dfva-recommend-*`) use these additional patterns:
+
+**Roadmap timeline items:**
+```markdown
+Month 1–3 — Foundation and Quick Wins: Update major selection advising with AI substitution pressure framing (P6). Initiate destination data system design (P5).
+```
+Renders as a timeline card with month badge and phase heading. Use middle dot `·` or sentence-ending periods to separate items within the body.
+
+**Measurement plan indicators** — use middle dot `·` as separator:
+```markdown
+AI unit live Sem 1 2027 · Student AI tool evaluation competency 80%+ · Science Communication unit approved Sem 2 2027 · Advisory panel constituted Month 6
+```
+
+**Score-to-action structured paragraphs** use the pattern `Title: intro. Label: detail; detail. Dimensions: D4, D5, B.` — semicolons create bullet sub-items, and `Dimensions:` values render as numbered circles.
+
+Do NOT include "Based on report:" metadata lines in improvement plans.
+
 ## Behavior Rules
 
 - If only a course name is provided, request or infer the official handbook URL and base the analysis on that source.
@@ -146,3 +195,101 @@ All COMPASS visualisations follow `.interface-design/system.md`:
 - Dimension scores as segmented step bars (`DimensionSteps`) and radar chart (`DimensionRadar`)
 - Threshold answers as coloured badges: YES = red (risk signal), NO = green, UNCERTAIN = amber
 - Do not use generic Tailwind colour utilities for risk-band elements — always use RISK_CONFIG
+
+## Content Formatting Rules for COMPASS Renderer
+
+The COMPASS frontend (`compass-static/src/components/dfva/ReportMarkdown.tsx`) auto-detects markdown patterns and renders them as polished UI components. All report content MUST follow these patterns to get correct visual treatment.
+
+### Detection Priority (evaluated in this order)
+
+1. **Score Summary Bar** — `TOTAL: N/36` with `Risk band: BAND_NAME`
+2. **Roadmap Timeline Card** — `Month N–M — Phase Name: body`
+3. **Verdict Callout** — paragraph >80 chars containing `HIGH RISK`, `MODERATE RISK`, `RESILIENT`, or `CRITICAL`
+4. **Signal / Theme Card** — `Signal N — Title.` or `Theme N — Title.`
+5. **Indicator Bullet Card** — paragraph containing `·` (middle dot) with a short title before first colon
+6. **Threshold Question Card** — `Q1: ...question?` through `Q3: ...question?`
+7. **Structured Section Card** — paragraph with `. UppercaseLabel: ` boundary pattern
+8. **Policy Label** — `**Short Title:** body text` (title <50 chars, body >50 chars)
+9. **Default paragraph** — plain text
+
+### Required Characters
+
+| Character | Unicode | Usage | Example |
+|---|---|---|---|
+| Em-dash | `—` U+2014 | Signal/Theme titles, Roadmap phase separator | `Signal 1 — Title` |
+| En-dash | `–` U+2013 | Score ranges, month ranges | `12–19`, `Month 1–3` |
+| Middle dot | `·` U+00B7 | Indicator list separator | `item · item · item` |
+| Semicolon | `;` | Sub-item separator inside StructuredCard sections | `validation; governance; review` |
+
+### Table Cell Smart Rendering
+
+Table cells are auto-enhanced based on content:
+
+| Cell Content | Renders As | Example |
+|---|---|---|
+| `D5, D1, B` or `1, 5, B` | Numbered circle badges | Dimension references |
+| `2/3` | Score dot indicators (filled/empty) | Dimension scores |
+| `HIGH` / `MEDIUM` / `LOW` / `LOW–MEDIUM` | Coloured risk badges | Substitution pressure |
+| `Up` / `Down` / `Emerging` | Directional icons with colour | Demand direction |
+| `Low` / `Medium` / `High` | Coloured effort badges | Effort estimates |
+| `Critical gap` / `Adequate` | Status chips | Dimension status |
+
+### Pattern Examples
+
+**Score summary (end of scorecard):**
+```markdown
+**TOTAL: 23/36**
+**Risk band: MODERATE RISK (20–27)**
+```
+
+**Threshold question:**
+```markdown
+**Q1: Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?**
+NO. The regulatory affairs and GMP compliance domains require human sign-off. AI can draft submissions — but a human must validate and defend them.
+```
+
+**Signal item (market report):**
+```markdown
+**Signal 2 — Data roles bifurcating sharply.**
+ANZ data hiring (Q1 2026) splitting into: (a) analytics engineering and ML engineering (growing), and (b) standard data analyst (declining, absorbed by AI tools).
+```
+
+**Theme item (market report):**
+```markdown
+**Theme 3 — AlphaFold didn't kill structural biology — it killed junior structural biology.** Remaining human work: experimental validation, failure-mode analysis, and judgment about when the model is wrong.
+```
+
+**Roadmap timeline (improvement plan):**
+```markdown
+Month 1–3 — Foundation and Quick Wins: Update advising with AI substitution framing (P6). Initiate destination data system (P5). Begin curriculum advisory panel formation (P7).
+```
+
+**Measurement indicators (improvement plan):**
+```markdown
+AI unit live Sem 1 2027 · Student competency 80%+ · Communication unit approved Sem 2 2027 · Panel constituted Month 6
+```
+
+**Structured section paragraph (improvement plan):**
+```markdown
+Example A: AI in Scientific Research — New Unit. Assessment 1 (40%): Select an AI tool in your domain; produce evaluation of training data, biases, and failure modes; validation requirements. Assessment 2 (60%): Governance brief using NIST AI RMF. Dimensions: D5, D9, B.
+```
+
+**Policy label paragraph:**
+```markdown
+**Structural advantage:** Unlike most science degrees, MC-SCIBIT explicitly targets the lab-to-market pipeline. The roles in this pipeline have legal accountability requirements that create structural automation resistance.
+```
+
+**Verdict paragraph:**
+```markdown
+The Master of Information Systems is HIGH RISK for 2027 labor-market viability as currently structured. The program has the architecture to be better: enterprise architecture, governance, and research methods units are legitimate differentiators.
+```
+
+### Anti-Patterns (DO NOT)
+
+- Do NOT put the threshold answer on the same line inside the bold markers: ~~`**Q1: question? YES**`~~
+- Do NOT use `--` or `–` in Signal/Theme titles — use em-dash `—` only
+- Do NOT use `-` as list separator in indicator lists — use middle dot `·`
+- Do NOT include `Based on report:` metadata lines in improvement plans
+- Do NOT use `>` blockquotes for decorative callouts — they render transparently
+- Do NOT use hyphens in dimension table references — use `D5, D1, B` not `D5-D1-B`
+- Do NOT put pipe characters `|` in the title portion of policy-label paragraphs
