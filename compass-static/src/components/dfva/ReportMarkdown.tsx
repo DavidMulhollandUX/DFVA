@@ -512,6 +512,30 @@ const components: Components = {
       )
     }
 
+    // Dense "Title: item · item · item" paragraph (measurement plan indicators)
+    if (text.includes('·')) {
+      const firstColon = text.indexOf(': ')
+      if (firstColon > 0 && firstColon < 80) {
+        const title = text.slice(0, firstColon).trim()
+        const items = text.slice(firstColon + 2).split(/\s*·\s*/).map(s => s.replace(/\.$/, '').trim()).filter(Boolean)
+        return (
+          <div className="mb-4 overflow-hidden rounded-lg border border-border bg-card shadow-sm">
+            <div className="border-b border-border bg-muted/50 px-4 py-2.5">
+              <span className="text-[11px] font-semibold uppercase tracking-widest text-foreground">{title}</span>
+            </div>
+            <ul className="space-y-1 px-4 py-3">
+              {items.map((item, i) => (
+                <li key={i} className="flex items-start gap-2 text-xs leading-relaxed text-muted-foreground">
+                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-muted-foreground/40" />
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )
+      }
+    }
+
     // Dense "Title: intro. Section: items; items. Dimensions: D4, D5." paragraph
     if (SECTION_BOUNDARY_RE.test(text)) {
       const firstColon = text.indexOf(': ')
