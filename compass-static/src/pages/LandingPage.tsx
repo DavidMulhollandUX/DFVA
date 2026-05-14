@@ -209,7 +209,7 @@ export default function LandingPage() {
             <a
               href="https://unimelb.edu.au"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="hover:text-foreground transition-colors"
             >
               University of Melbourne
