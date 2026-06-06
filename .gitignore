@@ -28,6 +28,9 @@ Thumbs.db
 screencapture-enterprise-services-group-github-io-DFVA-2026-05-14-16_01_31.png
 docs/workflow-sop.md
 
+# Claude Code — personal/local settings (keep out of the shared repo)
+.claude/settings.local.json
+
 # Scripts — intermediate outputs (not committed)
 scripts/node_modules/
 scripts/output/
