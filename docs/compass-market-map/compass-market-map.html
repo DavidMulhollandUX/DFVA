@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>COMPASS — Market System & Value Chain Map</title>
+<style>
+  :root{
+    --ink:#11151F; --ink-soft:#1E2533; --bg:#FCFCFC; --card:#FFFFFF;
+    --orange:#F97316; --orange-50:#FFF7ED; --orange-200:#FED7AA;
+    --muted:#6B7280; --muted-2:#9AA3B2; --border:#E5E7EB; --border-2:#EEF1F4;
+    --indigo:#4F46E5; --indigo-50:#EEF2FF;
+    --emerald:#16a34a; --emerald-50:#F0FDF4;
+    --slate:#64748B; --slate-50:#F1F5F9;
+    --resilient:#16a34a; --resilient-tr:#dcfce7;
+    --moderate:#d97706; --moderate-tr:#fef9c3;
+    --high:#ea580c; --high-tr:#ffedd5;
+    --critical:#dc2626; --critical-tr:#fee2e2;
+  }
+  @page { size: A4 landscape; margin: 0; }
+  *{ box-sizing:border-box; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  html,body{ margin:0; padding:0; background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+    font-feature-settings:'kern' 1,'liga' 1; -webkit-font-smoothing:antialiased; }
+  .page{ position:relative; width:297mm; height:210mm; padding:11mm 13mm 9mm;
+    page-break-after:always; overflow:hidden; display:flex; flex-direction:column; background:var(--bg); }
+  .page:last-child{ page-break-after:auto; }
+  .tnum{ font-variant-numeric:tabular-nums; }
+
+  /* ---- header ---- */
+  .phead{ display:flex; align-items:center; justify-content:space-between; margin-bottom:6px; flex:0 0 auto; }
+  .brand{ display:flex; align-items:center; gap:9px; }
+  .brand .name{ font-size:13px; font-weight:700; letter-spacing:.06em; color:var(--ink); }
+  .brand .sub{ font-size:9.5px; color:var(--muted); margin-top:1px; letter-spacing:.02em; }
+  .kicker{ font-size:9px; font-weight:700; text-transform:uppercase; letter-spacing:.18em; color:var(--muted-2); text-align:right; }
+  .pnum{ font-size:9px; color:var(--muted-2); font-weight:600; }
+  .ptitle{ font-size:21px; font-weight:800; letter-spacing:-.02em; color:var(--ink); margin:2px 0 0; }
+  .pintro{ font-size:10.5px; line-height:1.5; color:var(--muted); max-width:235mm; margin:5px 0 4px; }
+  .pbody{ flex:1 1 auto; min-height:0; display:flex; flex-direction:column; }
+  .map-wrap{ flex:1 1 auto; min-height:0; display:flex; align-items:center; justify-content:center; }
+  svg.map{ width:100%; height:100%; }
+  .pfoot{ flex:0 0 auto; display:flex; justify-content:space-between; align-items:center;
+    border-top:1px solid var(--border); padding-top:5px; margin-top:5px; font-size:8px; color:var(--muted-2); letter-spacing:.02em; }
+
+  /* legend chips */
+  .legend{ display:flex; gap:14px; flex-wrap:wrap; align-items:center; }
+  .lg{ display:flex; align-items:center; gap:5px; font-size:9px; color:var(--muted); font-weight:600; }
+  .dot{ width:9px; height:9px; border-radius:3px; }
+
+  /* ---- cover ---- */
+  .cover{ justify-content:space-between; padding:0; }
+  .cover-top{ background:var(--ink); color:#fff; padding:15mm 16mm 13mm; position:relative; overflow:hidden; }
+  .cover-top:after{ content:''; position:absolute; right:-60px; top:-60px; width:320px; height:320px;
+    background:radial-gradient(circle, rgba(249,115,22,.16), transparent 62%); }
+  .cover-badge{ display:inline-flex; align-items:center; gap:7px; border:1px solid rgba(255,255,255,.22);
+    background:rgba(255,255,255,.05); border-radius:999px; padding:6px 13px; font-size:10px; color:#D6DBE6; letter-spacing:.04em; }
+  .cover-h1{ font-size:43px; font-weight:800; letter-spacing:-.025em; line-height:1.04; margin:20px 0 0; max-width:235mm; }
+  .cover-h1 em{ font-style:italic; color:var(--orange); }
+  .cover-sub{ font-size:13.5px; color:#AEB6C6; margin-top:14px; max-width:200mm; line-height:1.55; }
+  .cover-mid{ padding:11mm 16mm; display:flex; gap:10px; }
+  .band{ flex:1; border-radius:11px; padding:13px 14px; border:1px solid var(--border); background:var(--card); }
+  .band .sc{ font-size:18px; font-weight:800; }
+  .band .nm{ font-size:9px; font-weight:700; text-transform:uppercase; letter-spacing:.08em; margin-top:3px; }
+  .cover-bot{ padding:0 16mm 12mm; display:flex; justify-content:space-between; align-items:flex-end; }
+  .cover-meta{ font-size:10.5px; color:var(--muted); line-height:1.7; }
+  .cover-meta b{ color:var(--ink); font-weight:700; }
+
+  /* generic small cards used in narrative pages */
+  .grid3{ display:grid; grid-template-columns:repeat(3,1fr); gap:9px; }
+  .ncard{ border:1px solid var(--border); border-radius:10px; background:var(--card); padding:11px 13px; }
+  .ncard h4{ margin:0; font-size:11px; font-weight:800; letter-spacing:.01em; color:var(--ink); display:flex; align-items:center; gap:7px; }
+  .ncard p{ margin:6px 0 0; font-size:9.6px; line-height:1.55; color:var(--muted); }
+  .tag{ display:inline-block; font-size:8px; font-weight:800; letter-spacing:.04em; text-transform:uppercase; padding:2px 7px; border-radius:999px; }
+</style>
+</head>
+<body>
+
+<!-- ============ COVER ============ -->
+<section class="page cover">
+  <div class="cover-top">
+    <div class="cover-badge">
+      <svg width="15" height="15" viewBox="0 0 32 32" fill="none">
+        <circle cx="16" cy="16" r="13.5" stroke="#fff" stroke-width="1.5" stroke-opacity=".4"/>
+        <line x1="16" y1="3.5" x2="16" y2="8" stroke="#f97316" stroke-width="2.4" stroke-linecap="round"/>
+        <g transform="rotate(20 16 16)"><polygon points="16,5.5 13.2,16 18.8,16" fill="#f97316"/><polygon points="16,26.5 13.2,16 18.8,16" fill="#fff" fill-opacity=".25"/></g>
+        <circle cx="16" cy="16" r="2.5" fill="#f97316"/><circle cx="16" cy="16" r="1" fill="#fff"/>
+      </svg>
+      COMPASS · Education Innovation · University of Melbourne
+    </div>
+    <h1 class="cover-h1">Market System &amp;<br><em>Value Chain</em> Map</h1>
+    <p class="cover-sub">Mapping the curriculum–labour&nbsp;market&nbsp;intelligence ecosystem in Australian higher education — the key players, how value flows between them, and where it is created, captured, and lost.</p>
+  </div>
+
+  <div class="cover-mid">
+    <div class="band" style="background:var(--resilient-tr); border-color:#bbf7d0;">
+      <div class="sc" style="color:var(--resilient)">Overview</div>
+      <div class="nm" style="color:#15803d">Ecosystem map</div>
+    </div>
+    <div class="band" style="background:var(--moderate-tr); border-color:#fde68a;">
+      <div class="sc" style="color:var(--moderate)">Flow</div>
+      <div class="nm" style="color:#92400e">Value chain &amp; the break</div>
+    </div>
+    <div class="band" style="background:var(--high-tr); border-color:#fed7aa;">
+      <div class="sc" style="color:var(--high)">Deep&nbsp;dive</div>
+      <div class="nm" style="color:#9a3412">Inside an LMI vendor</div>
+    </div>
+    <div class="band" style="background:var(--ink); border-color:var(--ink);">
+      <div class="sc" style="color:#fff">Read</div>
+      <div class="nm" style="color:var(--orange-200)">Where value is lost</div>
+    </div>
+  </div>
+
+  <div class="cover-bot">
+    <div class="cover-meta">
+      <b>Prepared by</b> David Mulholland · Service Experience &amp; Design, Enterprise Services Group<br>
+      <b>Method</b> MEC Define — System &amp; value-chain mapping (Steve Blank iterative approach)<br>
+      <b>Scope</b> Australian higher education · Labour market intelligence ↔ curriculum design
+    </div>
+    <div style="text-align:right; font-size:10.5px; color:var(--muted-2); font-weight:600;">
+      v1.0 · June 2026
+    </div>
+  </div>
+</section>
+
+<!-- ============ PAGE 1 — OVERVIEW ECOSYSTEM MAP ============ -->
+<section class="page">
+  <div class="phead">
+    <div class="brand">
+      <svg width="26" height="26" viewBox="0 0 32 32" fill="none">
+        <circle cx="16" cy="16" r="13.5" stroke="#11151F" stroke-width="1.5" stroke-opacity=".35"/>
+        <line x1="16" y1="3.5" x2="16" y2="8" stroke="#f97316" stroke-width="2.2" stroke-linecap="round"/>
+        <g transform="rotate(20 16 16)"><polygon points="16,5.5 13.2,16 18.8,16" fill="#f97316"/><polygon points="16,26.5 13.2,16 18.8,16" fill="#11151F" fill-opacity=".2"/></g>
+        <circle cx="16" cy="16" r="2.5" fill="#f97316"/><circle cx="16" cy="16" r="1" fill="#fff"/>
+      </svg>
+      <div><div class="name">COMPASS</div><div class="sub">Market System Map</div></div>
+    </div>
+    <div><div class="kicker">01 · Overview</div></div>
+  </div>
+  <h2 class="ptitle">The market and its key players</h2>
+  <p class="pintro">A first-pass map of the ecosystem surrounding a single decision: <b>what a university chooses to teach</b>. Four groups touch that decision — direct participants who build and sell into it, influencers who shape its rules and funding, the end users who live with it, and adjacent players who orbit it.</p>
+
+  <div class="pbody">
+    <div class="map-wrap">
+      <svg class="map" viewBox="0 0 1040 612" preserveAspectRatio="xMidYMid meet" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif">
+        <defs>
+          <marker id="aGrey" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L7,4 L0,8" fill="none" stroke="#C2C9D4" stroke-width="1.4"/></marker>
+        </defs>
+
+        <!-- connector lines center<->zones -->
+        <line x1="520" y1="300" x2="520" y2="150" stroke="#E2E6EC" stroke-width="1.6"/>
+        <line x1="520" y1="306" x2="520" y2="470" stroke="#E2E6EC" stroke-width="1.6"/>
+        <line x1="420" y1="306" x2="250" y2="306" stroke="#E2E6EC" stroke-width="1.6"/>
+        <line x1="620" y1="306" x2="790" y2="306" stroke="#E2E6EC" stroke-width="1.6"/>
+
+        <!-- ===== TOP: DIRECT PARTICIPANTS (orange) ===== -->
+        <g>
+          <rect x="222" y="14" width="596" height="128" rx="13" fill="#fff" stroke="#FED7AA" stroke-width="1.4"/>
+          <rect x="222" y="14" width="596" height="24" rx="13" fill="#FFF7ED"/>
+          <rect x="222" y="26" width="596" height="12" fill="#FFF7ED"/>
+          <circle cx="240" cy="26" r="4" fill="#F97316"/>
+          <text x="252" y="30" font-size="11.5" font-weight="800" fill="#9a3412" letter-spacing=".04em">DIRECT PARTICIPANTS</text>
+          <text x="806" y="30" font-size="9" fill="#C2855A" text-anchor="end">producers · suppliers · standard-setters</text>
+
+          <!-- three sub-clusters -->
+          <text x="238" y="56" font-size="8.5" font-weight="700" fill="#B45309" letter-spacing=".05em">LMI PLATFORMS</text>
+          <g font-size="9.5" font-weight="600" fill="#7c2d12">
+            <rect x="234" y="62" width="86" height="20" rx="5" fill="#FFF7ED" stroke="#FED7AA"/><text x="277" y="76" text-anchor="middle">Lightcast</text>
+            <rect x="234" y="86" width="86" height="20" rx="5" fill="#FFF7ED" stroke="#FED7AA"/><text x="277" y="100" text-anchor="middle">Faethm / Pearson</text>
+            <rect x="234" y="110" width="86" height="20" rx="5" fill="#FFF7ED" stroke="#FED7AA"/><text x="277" y="124" text-anchor="middle">QS LMI</text>
+          </g>
+
+          <text x="430" y="56" font-size="8.5" font-weight="700" fill="#B45309" letter-spacing=".05em">CURRICULUM MGMT SYSTEMS</text>
+          <g font-size="9.5" font-weight="600" fill="#7c2d12">
+            <rect x="426" y="62" width="178" height="20" rx="5" fill="#FFF1E6" stroke="#FED7AA"/><text x="515" y="76" text-anchor="middle">CourseLoop · TechnologyOne</text>
+            <rect x="426" y="86" width="86" height="20" rx="5" fill="#FFF7ED" stroke="#FED7AA"/><text x="469" y="100" text-anchor="middle">Akari</text>
+            <rect x="518" y="86" width="86" height="20" rx="5" fill="#FFF7ED" stroke="#FED7AA"/><text x="561" y="100" text-anchor="middle">Coursedog*</text>
+          </g>
+
+          <text x="636" y="56" font-size="8.5" font-weight="700" fill="#B45309" letter-spacing=".05em">QA &amp; ACCREDITATION</text>
+          <g font-size="9.5" font-weight="600" fill="#7c2d12">
+            <rect x="632" y="62" width="86" height="20" rx="5" fill="#FFF7ED" stroke="#FED7AA"/><text x="675" y="76" text-anchor="middle">TEQSA</text>
+            <rect x="722" y="62" width="80" height="20" rx="5" fill="#FFF7ED" stroke="#FED7AA"/><text x="762" y="76" text-anchor="middle">AACSB</text>
+            <rect x="632" y="86" width="86" height="20" rx="5" fill="#FFF7ED" stroke="#FED7AA"/><text x="675" y="100" text-anchor="middle">AMC</text>
+            <rect x="722" y="86" width="80" height="20" rx="5" fill="#FFF7ED" stroke="#FED7AA"/><text x="762" y="100" text-anchor="middle">Engineers Aus</text>
+          </g>
+          <text x="234" y="138" font-size="7.5" fill="#C2855A">*US-only; no Australian footprint</text>
+        </g>
+
+        <!-- ===== LEFT: INFLUENCERS (indigo) ===== -->
+        <g>
+          <rect x="14" y="170" width="232" height="272" rx="13" fill="#fff" stroke="#C7CCF7" stroke-width="1.4"/>
+          <rect x="14" y="170" width="232" height="24" rx="13" fill="#EEF2FF"/>
+          <rect x="14" y="182" width="232" height="12" fill="#EEF2FF"/>
+          <circle cx="32" cy="182" r="4" fill="#4F46E5"/>
+          <text x="44" y="186" font-size="11.5" font-weight="800" fill="#3730a3" letter-spacing=".04em">INFLUENCERS</text>
+
+          <text x="30" y="212" font-size="8.5" font-weight="700" fill="#4338ca" letter-spacing=".05em">GOVERNMENT</text>
+          <g font-size="9.5" font-weight="600" fill="#312e81">
+            <rect x="26" y="218" width="208" height="20" rx="5" fill="#EEF2FF" stroke="#C7CCF7"/><text x="130" y="232" text-anchor="middle">Dept of Education · JSA · ATEC</text>
+          </g>
+          <text x="30" y="256" font-size="8.5" font-weight="700" fill="#4338ca" letter-spacing=".05em">PEAK BODIES</text>
+          <g font-size="9.5" font-weight="600" fill="#312e81">
+            <rect x="26" y="262" width="208" height="20" rx="5" fill="#EEF2FF" stroke="#C7CCF7"/><text x="130" y="276" text-anchor="middle">Universities Australia</text>
+            <rect x="26" y="286" width="101" height="20" rx="5" fill="#EEF2FF" stroke="#C7CCF7"/><text x="76" y="300" text-anchor="middle">HERDSA</text>
+            <rect x="133" y="286" width="101" height="20" rx="5" fill="#EEF2FF" stroke="#C7CCF7"/><text x="183" y="300" text-anchor="middle">AAIR · NAGCAS</text>
+          </g>
+          <text x="30" y="330" font-size="8.5" font-weight="700" fill="#4338ca" letter-spacing=".05em">CAPITAL</text>
+          <g font-size="9.5" font-weight="600" fill="#312e81">
+            <rect x="26" y="336" width="208" height="20" rx="5" fill="#EEF2FF" stroke="#C7CCF7"/><text x="130" y="350" text-anchor="middle">KKR · Vista · JMI Equity</text>
+          </g>
+          <text x="30" y="380" font-size="8.5" font-weight="700" fill="#4338ca" letter-spacing=".05em">LABOUR</text>
+          <g font-size="9.5" font-weight="600" fill="#312e81">
+            <rect x="26" y="386" width="208" height="20" rx="5" fill="#EEF2FF" stroke="#C7CCF7"/><text x="130" y="400" text-anchor="middle">NTEU (union)</text>
+          </g>
+          <text x="26" y="428" font-size="7.5" fill="#8B90C9">regulators · funders · norm-setters</text>
+        </g>
+
+        <!-- ===== RIGHT: END USERS (emerald) ===== -->
+        <g>
+          <rect x="794" y="170" width="232" height="272" rx="13" fill="#fff" stroke="#A7F3C4" stroke-width="1.4"/>
+          <rect x="794" y="170" width="232" height="24" rx="13" fill="#F0FDF4"/>
+          <rect x="794" y="182" width="232" height="12" fill="#F0FDF4"/>
+          <circle cx="812" cy="182" r="4" fill="#16a34a"/>
+          <text x="824" y="186" font-size="11.5" font-weight="800" fill="#166534" letter-spacing=".04em">END USERS</text>
+
+          <text x="810" y="212" font-size="8.5" font-weight="700" fill="#15803d" letter-spacing=".05em">DECISION-MAKERS</text>
+          <g font-size="9.5" font-weight="600" fill="#14532d">
+            <rect x="806" y="218" width="208" height="20" rx="5" fill="#EDFBF1" stroke="#A7F3C4"/><text x="910" y="232" text-anchor="middle">DVC Academic / Education ★</text>
+            <rect x="806" y="242" width="208" height="20" rx="5" fill="#F0FDF4" stroke="#A7F3C4"/><text x="910" y="256" text-anchor="middle">Curriculum coordinators</text>
+          </g>
+          <text x="810" y="282" font-size="8.5" font-weight="700" fill="#15803d" letter-spacing=".05em">INTERNAL ANALYSTS</text>
+          <g font-size="9.5" font-weight="600" fill="#14532d">
+            <rect x="806" y="288" width="101" height="20" rx="5" fill="#F0FDF4" stroke="#A7F3C4"/><text x="856" y="302" text-anchor="middle">IR / IE office</text>
+            <rect x="913" y="288" width="101" height="20" rx="5" fill="#F0FDF4" stroke="#A7F3C4"/><text x="963" y="302" text-anchor="middle">Careers teams</text>
+          </g>
+          <text x="810" y="332" font-size="8.5" font-weight="700" fill="#15803d" letter-spacing=".05em">EXTERNAL DEMAND</text>
+          <g font-size="9.5" font-weight="600" fill="#14532d">
+            <rect x="806" y="338" width="208" height="20" rx="5" fill="#F0FDF4" stroke="#A7F3C4"/><text x="910" y="352" text-anchor="middle">Employers / industry partners</text>
+            <rect x="806" y="362" width="208" height="20" rx="5" fill="#F0FDF4" stroke="#A7F3C4"/><text x="910" y="376" text-anchor="middle">Prospective students &amp; families</text>
+          </g>
+          <text x="810" y="404" font-size="7.5" fill="#5FB47E">★ holds budget &amp; sign-off authority</text>
+        </g>
+
+        <!-- ===== CENTRE NODE: UNIVERSITY ===== -->
+        <g>
+          <rect x="402" y="258" width="236" height="96" rx="14" fill="#11151F"/>
+          <rect x="402" y="258" width="236" height="96" rx="14" fill="url(#none)"/>
+          <text x="520" y="288" font-size="13.5" font-weight="800" fill="#fff" text-anchor="middle" letter-spacing=".01em">AUSTRALIAN UNIVERSITY</text>
+          <text x="520" y="307" font-size="9.5" fill="#AEB6C6" text-anchor="middle">the curriculum decision —</text>
+          <text x="520" y="321" font-size="9.5" fill="#AEB6C6" text-anchor="middle">what gets taught, and whether it still</text>
+          <text x="520" y="335" font-size="9.5" fill="#AEB6C6" text-anchor="middle">holds value in an AI-augmented market</text>
+          <line x1="476" y1="343" x2="564" y2="343" stroke="#F97316" stroke-width="2" stroke-linecap="round"/>
+        </g>
+
+        <!-- ===== BOTTOM: ADJACENT (slate) ===== -->
+        <g>
+          <rect x="222" y="470" width="596" height="128" rx="13" fill="#fff" stroke="#D5DBE3" stroke-width="1.4"/>
+          <rect x="222" y="470" width="596" height="24" rx="13" fill="#F1F5F9"/>
+          <rect x="222" y="482" width="596" height="12" fill="#F1F5F9"/>
+          <circle cx="240" cy="482" r="4" fill="#64748B"/>
+          <text x="252" y="486" font-size="11.5" font-weight="800" fill="#334155" letter-spacing=".04em">ADJACENT PLAYERS</text>
+          <text x="806" y="486" font-size="9" fill="#94A3B8" text-anchor="end">involved, but not in the core chain</text>
+
+          <g font-size="9.5" font-weight="600" fill="#334155">
+            <text x="238" y="516" font-size="8.5" font-weight="700" fill="#475569" letter-spacing=".05em">PLATFORMS</text>
+            <rect x="234" y="522" width="128" height="20" rx="5" fill="#F1F5F9" stroke="#D5DBE3"/><text x="298" y="536" text-anchor="middle">LMS: Canvas · Moodle</text>
+            <rect x="234" y="546" width="128" height="20" rx="5" fill="#F1F5F9" stroke="#D5DBE3"/><text x="298" y="560" text-anchor="middle">HR tech: Workday</text>
+
+            <text x="372" y="516" font-size="8.5" font-weight="700" fill="#475569" letter-spacing=".05em">L&amp;D &amp; AI VENDORS</text>
+            <rect x="368" y="522" width="150" height="20" rx="5" fill="#F1F5F9" stroke="#D5DBE3"/><text x="443" y="536" text-anchor="middle">Go1 · Coursera · Degreed</text>
+            <rect x="368" y="546" width="150" height="20" rx="5" fill="#F1F5F9" stroke="#D5DBE3"/><text x="443" y="560" text-anchor="middle">Microsoft · OpenAI · Google</text>
+
+            <text x="528" y="516" font-size="8.5" font-weight="700" fill="#475569" letter-spacing=".05em">INTERMEDIARIES</text>
+            <rect x="524" y="522" width="280" height="20" rx="5" fill="#F1F5F9" stroke="#D5DBE3"/><text x="664" y="536" text-anchor="middle">Consultancies: Nous Group (DIMA) · Deloitte · PwC</text>
+            <rect x="524" y="546" width="280" height="20" rx="5" fill="#F1F5F9" stroke="#D5DBE3"/><text x="664" y="560" text-anchor="middle">Student recruitment: IDP · Navitas</text>
+          </g>
+        </g>
+      </svg>
+    </div>
+
+    <div class="pfoot">
+      <div class="legend">
+        <span class="lg"><span class="dot" style="background:#F97316"></span>Direct participants</span>
+        <span class="lg"><span class="dot" style="background:#4F46E5"></span>Influencers</span>
+        <span class="lg"><span class="dot" style="background:#16a34a"></span>End users</span>
+        <span class="lg"><span class="dot" style="background:#64748B"></span>Adjacent</span>
+      </div>
+      <div>COMPASS · Market System &amp; Value Chain Map · 01 Overview</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PAGE 2 — VALUE CHAIN & THE BREAK ============ -->
+<section class="page">
+  <div class="phead">
+    <div class="brand">
+      <svg width="26" height="26" viewBox="0 0 32 32" fill="none">
+        <circle cx="16" cy="16" r="13.5" stroke="#11151F" stroke-width="1.5" stroke-opacity=".35"/>
+        <line x1="16" y1="3.5" x2="16" y2="8" stroke="#f97316" stroke-width="2.2" stroke-linecap="round"/>
+        <g transform="rotate(20 16 16)"><polygon points="16,5.5 13.2,16 18.8,16" fill="#f97316"/><polygon points="16,26.5 13.2,16 18.8,16" fill="#11151F" fill-opacity=".2"/></g>
+        <circle cx="16" cy="16" r="2.5" fill="#f97316"/><circle cx="16" cy="16" r="1" fill="#fff"/>
+      </svg>
+      <div><div class="name">COMPASS</div><div class="sub">Value Chain Map</div></div>
+    </div>
+    <div><div class="kicker">02 · Flow of value</div></div>
+  </div>
+  <h2 class="ptitle">How value flows — and where the chain breaks</h2>
+  <p class="pintro">Labour-market signal travels through five stages from a raw job ad to the curriculum a student enrols in. Money concentrates early, at the <b>data layer</b>. But the chain has a structural break: intelligence reaches careers and analytics offices and <b>stops</b> — it rarely crosses into the curriculum decision itself.</p>
+
+  <div class="pbody">
+    <div class="map-wrap">
+      <svg class="map" viewBox="0 0 1040 580" preserveAspectRatio="xMidYMid meet" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif">
+        <defs>
+          <marker id="mOrange" markerWidth="9" markerHeight="9" refX="6.5" refY="4.5" orient="auto"><path d="M0,0 L8,4.5 L0,9 Z" fill="#F97316"/></marker>
+          <marker id="mIndigo" markerWidth="9" markerHeight="9" refX="6.5" refY="4.5" orient="auto"><path d="M0,0 L8,4.5 L0,9 Z" fill="#4F46E5"/></marker>
+          <marker id="mGap" markerWidth="9" markerHeight="9" refX="6.5" refY="4.5" orient="auto"><path d="M0,0 L8,4.5 L0,9 Z" fill="#dc2626"/></marker>
+          <marker id="mGrey" markerWidth="9" markerHeight="9" refX="6.5" refY="4.5" orient="auto"><path d="M0,0 L8,4.5 L0,9 Z" fill="#94A3B8"/></marker>
+        </defs>
+
+        <!-- ===== MONEY FLOW lane (top) ===== -->
+        <text x="14" y="104" font-size="9.5" font-weight="800" fill="#F97316" letter-spacing=".04em">&#9650; MONEY FLOW</text>
+        <text x="186" y="98" font-size="8" fill="#C2855A" text-anchor="middle">raw data sold in</text>
+        <line x1="142" y1="110" x2="252" y2="110" stroke="#F97316" stroke-width="2" marker-end="url(#mOrange)" opacity=".9"/>
+        <text x="408" y="98" font-size="8" fill="#C2855A" text-anchor="middle">thin subscription &#8594; careers / IR</text>
+        <line x1="320" y1="110" x2="492" y2="110" stroke="#F97316" stroke-width="1.6" stroke-dasharray="4 3" marker-end="url(#mOrange)" opacity=".65"/>
+
+        <!-- ===== STAGE BOXES (uniform 176 x 128, even spacing) ===== -->
+        <!-- STAGE 1 -->
+        <g>
+          <rect x="14" y="178" width="176" height="128" rx="12" fill="#fff" stroke="#E5E7EB" stroke-width="1.4"/>
+          <text x="32" y="201" font-size="9" font-weight="800" fill="#9AA3B2">STAGE 1</text>
+          <text x="32" y="220" font-size="13" font-weight="800" fill="#11151F">Raw signal</text>
+          <text x="32" y="246" font-size="9" fill="#6B7280">Job ads (SEEK,</text>
+          <text x="32" y="260" font-size="9" fill="#6B7280">LinkedIn, Indeed),</text>
+          <text x="32" y="274" font-size="9" fill="#6B7280">ABS / ANZSCO data</text>
+        </g>
+        <!-- STAGE 2 -->
+        <g>
+          <rect x="214" y="178" width="176" height="128" rx="12" fill="#FFF7ED" stroke="#FDBA74" stroke-width="1.8"/>
+          <text x="232" y="201" font-size="9" font-weight="800" fill="#C2855A">STAGE 2</text>
+          <text x="232" y="220" font-size="13" font-weight="800" fill="#9a3412">Aggregation</text>
+          <text x="232" y="246" font-size="9" fill="#7c2d12">LMI vendors clean,</text>
+          <text x="232" y="260" font-size="9" fill="#7c2d12">classify &amp; score:</text>
+          <text x="232" y="280" font-size="9" fill="#7c2d12" font-weight="700">Lightcast &#183; Faethm &#183; JSA</text>
+        </g>
+        <!-- STAGE 3 -->
+        <g>
+          <rect x="414" y="178" width="176" height="128" rx="12" fill="#fff" stroke="#E5E7EB" stroke-width="1.4"/>
+          <text x="432" y="201" font-size="9" font-weight="800" fill="#9AA3B2">STAGE 3</text>
+          <text x="432" y="220" font-size="13" font-weight="800" fill="#11151F">Institutional</text>
+          <text x="432" y="235" font-size="13" font-weight="800" fill="#11151F">access</text>
+          <text x="432" y="260" font-size="9" fill="#6B7280">IR / IE offices &amp;</text>
+          <text x="432" y="274" font-size="9" fill="#6B7280">careers teams read</text>
+          <text x="432" y="288" font-size="9" fill="#6B7280">&amp; interpret it</text>
+        </g>
+        <!-- STAGE 4 -->
+        <g>
+          <rect x="650" y="178" width="176" height="128" rx="12" fill="#fff" stroke="#E5E7EB" stroke-width="1.4"/>
+          <text x="668" y="201" font-size="9" font-weight="800" fill="#9AA3B2">STAGE 4</text>
+          <text x="668" y="220" font-size="13" font-weight="800" fill="#11151F">Curriculum</text>
+          <text x="668" y="235" font-size="13" font-weight="800" fill="#11151F">decision</text>
+          <text x="668" y="260" font-size="9" fill="#6B7280">Academic boards,</text>
+          <text x="668" y="274" font-size="9" fill="#6B7280">program directors,</text>
+          <text x="668" y="288" font-size="9" fill="#6B7280">DVC &#8212; on opinion</text>
+        </g>
+        <!-- STAGE 5 -->
+        <g>
+          <rect x="850" y="178" width="176" height="128" rx="12" fill="#fff" stroke="#E5E7EB" stroke-width="1.4"/>
+          <text x="868" y="201" font-size="9" font-weight="800" fill="#9AA3B2">STAGE 5</text>
+          <text x="868" y="220" font-size="13" font-weight="800" fill="#11151F">Publication</text>
+          <text x="868" y="246" font-size="9" fill="#6B7280">Handbook &amp; catalogue</text>
+          <text x="868" y="260" font-size="9" fill="#6B7280">(CourseLoop / Akari);</text>
+          <text x="868" y="274" font-size="9" fill="#6B7280">students choose from a</text>
+          <text x="868" y="288" font-size="9" fill="#6B7280">2&#8211;7 yr-old curriculum</text>
+        </g>
+
+        <!-- margin badge — clean tab centred on Stage 2 -->
+        <g transform="translate(302,168)">
+          <rect x="-82" y="-12" width="164" height="22" rx="11" fill="#F97316"/>
+          <text x="0" y="3" font-size="8.5" font-weight="800" fill="#fff" text-anchor="middle">&#9670; MARGIN CONCENTRATES HERE</text>
+        </g>
+
+        <!-- forward connectors (box centre y=242) -->
+        <line x1="192" y1="242" x2="212" y2="242" stroke="#94A3B8" stroke-width="2" marker-end="url(#mGrey)"/>
+        <line x1="392" y1="242" x2="412" y2="242" stroke="#94A3B8" stroke-width="2" marker-end="url(#mGrey)"/>
+        <line x1="828" y1="242" x2="848" y2="242" stroke="#94A3B8" stroke-width="2" marker-end="url(#mGrey)"/>
+
+        <!-- ===== THE BREAK (centred x=620) ===== -->
+        <text x="620" y="150" font-size="8.5" font-weight="800" fill="#dc2626" text-anchor="middle">&#9889; value stops here</text>
+        <!-- two torn zigzag edges spanning the box height -->
+        <path d="M615,170 l-7,16 l7,16 l-7,16 l7,16 l-7,16 l7,16 l-7,16 l7,16 l-7,16" fill="none" stroke="#dc2626" stroke-width="2.2" stroke-linecap="round" opacity=".82"/>
+        <path d="M625,170 l7,16 l-7,16 l7,16 l-7,16 l7,16 l-7,16 l7,16 l-7,16 l7,16" fill="none" stroke="#dc2626" stroke-width="2.2" stroke-linecap="round" opacity=".82"/>
+        <!-- red arrow: signal arrives at the break and stops (ends clear of the marker halo) -->
+        <path d="M591,236 l9,6 l-9,6 Z" fill="#dc2626" opacity=".9"/>
+        <!-- break label pill -->
+        <rect x="591" y="316" width="58" height="34" rx="8" fill="#fef2f2" stroke="#fecaca"/>
+        <text x="620" y="330" font-size="8" font-weight="800" fill="#991b1b" text-anchor="middle">THE</text>
+        <text x="620" y="342" font-size="8" font-weight="800" fill="#991b1b" text-anchor="middle">BREAK</text>
+        <!-- COMPASS bridge marker — canonical logo geometry on a dark disc, white halo clears the zigzag -->
+        <g transform="translate(620,242)">
+          <circle r="19" fill="#FCFCFC"/>
+          <circle r="15.5" fill="#11151F"/>
+          <g transform="translate(-16,-16)">
+            <circle cx="16" cy="16" r="13.5" fill="none" stroke="#ffffff" stroke-width="1.4" stroke-opacity="0.35"/>
+            <line x1="16" y1="3.8" x2="16" y2="8" stroke="#f97316" stroke-width="2.2" stroke-linecap="round"/>
+            <line x1="28.2" y1="16" x2="24" y2="16" stroke="#ffffff" stroke-width="1.4" stroke-linecap="round" stroke-opacity="0.4"/>
+            <line x1="16" y1="28.2" x2="16" y2="24" stroke="#ffffff" stroke-width="1.4" stroke-linecap="round" stroke-opacity="0.4"/>
+            <line x1="3.8" y1="16" x2="8" y2="16" stroke="#ffffff" stroke-width="1.4" stroke-linecap="round" stroke-opacity="0.4"/>
+            <g transform="rotate(20 16 16)">
+              <polygon points="16,5.8 13.5,16 18.5,16" fill="#f97316"/>
+              <polygon points="16,26.2 13.5,16 18.5,16" fill="#ffffff" fill-opacity="0.25"/>
+            </g>
+            <circle cx="16" cy="16" r="2.5" fill="#f97316"/>
+            <circle cx="16" cy="16" r="1" fill="#ffffff"/>
+          </g>
+        </g>
+
+        <!-- ===== INFORMATION FLOW lane (bottom) — single clean loop ===== -->
+        <text x="14" y="356" font-size="9.5" font-weight="800" fill="#4F46E5" letter-spacing=".04em">&#9660; INFORMATION FLOW &#8212; loops back to employers, not curriculum</text>
+        <path d="M302,378 C302,404 168,404 120,382" fill="none" stroke="#4F46E5" stroke-width="2" marker-end="url(#mIndigo)" opacity=".7"/>
+        <text x="214" y="418" font-size="8" fill="#7C7FD6" text-anchor="middle">intelligence sold back to the same employers &#8212; a closed loop</text>
+
+        <!-- ===== VALUE LOST callout ===== -->
+        <g transform="translate(620,430)">
+          <rect x="-272" y="0" width="544" height="122" rx="12" fill="#fef2f2" stroke="#fecaca" stroke-width="1.4"/>
+          <text x="-252" y="24" font-size="10.5" font-weight="800" fill="#991b1b">VALUE LOST AT THE BREAK</text>
+          <text x="-252" y="44" font-size="9.3" fill="#7f1d1d">&#8226; Curriculum is designed without the market signal that already exists upstream.</text>
+          <text x="-252" y="61" font-size="9.3" fill="#7f1d1d">&#8226; No Australian curriculum-management system ingests LMI data (CourseLoop, Akari: none).</text>
+          <text x="-252" y="78" font-size="9.3" fill="#7f1d1d">&#8226; Where LMI is bought (e.g. Melbourne since 2017) it sits in <tspan font-weight="800">careers</tspan>, not curriculum governance.</text>
+          <text x="-252" y="95" font-size="9.3" fill="#7f1d1d">&#8226; 30&#8211;40% of graduates report not fully using their education (QILT GOS-L 2024) &#8212; the unpriced cost.</text>
+          <text x="-252" y="113" font-size="8.5" font-style="italic" fill="#b91c1c">This break is the structural gap COMPASS is built to close &#8212; bridging Stage 3 intelligence into the Stage 4 decision.</text>
+        </g>
+      </svg>
+    </div>
+
+    <div class="pfoot">
+      <div class="legend">
+        <span class="lg"><span class="dot" style="background:#F97316"></span>Money</span>
+        <span class="lg"><span class="dot" style="background:#4F46E5"></span>Information</span>
+        <span class="lg"><span class="dot" style="background:#dc2626"></span>The break</span>
+        <span class="lg"><span class="dot" style="background:#11151F"></span>COMPASS bridge</span>
+      </div>
+      <div>COMPASS · Market System &amp; Value Chain Map · 02 Flow of value</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PAGE 3 — INTERNAL VALUE CHAIN: LMI VENDOR ============ -->
+<section class="page">
+  <div class="phead">
+    <div class="brand">
+      <svg width="26" height="26" viewBox="0 0 32 32" fill="none">
+        <circle cx="16" cy="16" r="13.5" stroke="#11151F" stroke-width="1.5" stroke-opacity=".35"/>
+        <line x1="16" y1="3.5" x2="16" y2="8" stroke="#f97316" stroke-width="2.2" stroke-linecap="round"/>
+        <g transform="rotate(20 16 16)"><polygon points="16,5.5 13.2,16 18.8,16" fill="#f97316"/><polygon points="16,26.5 13.2,16 18.8,16" fill="#11151F" fill-opacity=".2"/></g>
+        <circle cx="16" cy="16" r="2.5" fill="#f97316"/><circle cx="16" cy="16" r="1" fill="#fff"/>
+      </svg>
+      <div><div class="name">COMPASS</div><div class="sub">Internal Value Chain</div></div>
+    </div>
+    <div><div class="kicker">03 · Deep dive</div></div>
+  </div>
+  <h2 class="ptitle">Inside an LMI vendor — where the margin lives</h2>
+  <p class="pintro">Following the MEC method, a deep-dive into one organisation. The labour-market-intelligence vendor (e.g. <b>Lightcast</b>) is the system's "certifier": high margin, low capital, value built on proprietary <b>data and taxonomy</b>. Margin concentrates upstream at aggregation — and the most valuable output, reaching the curriculum, is the one part it doesn't serve.</p>
+
+  <div class="pbody">
+    <div class="map-wrap">
+      <svg class="map" viewBox="0 0 1040 580" preserveAspectRatio="xMidYMid meet" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif">
+        <defs>
+          <marker id="chev" markerWidth="9" markerHeight="9" refX="4" refY="4.5" orient="auto"><path d="M0,0 L8,4.5 L0,9 Z" fill="#11151F" opacity=".55"/></marker>
+        </defs>
+
+        <!-- SUPPORT ACTIVITIES (stacked bars top) -->
+        <text x="14" y="26" font-size="9" font-weight="800" fill="#9AA3B2" letter-spacing=".06em">SUPPORT ACTIVITIES — the moat</text>
+        <g>
+          <rect x="14" y="34" width="880" height="26" rx="7" fill="#EEF2FF" stroke="#C7CCF7"/>
+          <text x="28" y="51" font-size="9.6" font-weight="700" fill="#312e81">Proprietary skills &amp; occupation taxonomy — built over two decades (the real switching cost)</text>
+          <rect x="14" y="64" width="880" height="26" rx="7" fill="#EEF2FF" stroke="#C7CCF7"/>
+          <text x="28" y="81" font-size="9.6" font-weight="700" fill="#312e81">Data infrastructure &amp; AI skill-extraction models · 18B+ data points, 160+ countries</text>
+          <rect x="14" y="94" width="880" height="26" rx="7" fill="#EEF2FF" stroke="#C7CCF7"/>
+          <text x="28" y="111" font-size="9.6" font-weight="700" fill="#312e81">Enterprise sales, customer success &amp; consulting · KKR-backed; serial acquisitions</text>
+        </g>
+
+        <!-- PRIMARY ACTIVITIES (arrow chain) -->
+        <text x="14" y="150" font-size="9" font-weight="800" fill="#9AA3B2" letter-spacing=".06em">PRIMARY ACTIVITIES</text>
+        <!-- 5 chevrons -->
+        <g font-family="-apple-system,Arial,sans-serif">
+          <!-- a: ingest -->
+          <path d="M14,160 H180 l22,30 l-22,30 H14 Z" fill="#F8FAFC" stroke="#E5E7EB"/>
+          <text x="98" y="183" font-size="10" font-weight="800" fill="#334155" text-anchor="middle">Data</text>
+          <text x="98" y="197" font-size="10" font-weight="800" fill="#334155" text-anchor="middle">ingestion</text>
+          <!-- b: aggregate (hot) -->
+          <path d="M188,160 H354 l22,30 l-22,30 H188 l22,-30 Z" fill="#FFF7ED" stroke="#FDBA74" stroke-width="1.6"/>
+          <text x="285" y="183" font-size="10" font-weight="800" fill="#9a3412" text-anchor="middle">Aggregation</text>
+          <text x="285" y="197" font-size="10" font-weight="800" fill="#9a3412" text-anchor="middle">&amp; dedup</text>
+          <!-- c: normalise (hot) -->
+          <path d="M362,160 H528 l22,30 l-22,30 H362 l22,-30 Z" fill="#FFF1E6" stroke="#FDBA74" stroke-width="1.6"/>
+          <text x="459" y="183" font-size="10" font-weight="800" fill="#9a3412" text-anchor="middle">Taxonomy</text>
+          <text x="459" y="197" font-size="10" font-weight="800" fill="#9a3412" text-anchor="middle">normalisation</text>
+          <!-- d: platform -->
+          <path d="M536,160 H702 l22,30 l-22,30 H536 l22,-30 Z" fill="#F8FAFC" stroke="#E5E7EB"/>
+          <text x="633" y="183" font-size="10" font-weight="800" fill="#334155" text-anchor="middle">Platform &amp;</text>
+          <text x="633" y="197" font-size="10" font-weight="800" fill="#334155" text-anchor="middle">scoring</text>
+          <!-- e: reporting -->
+          <path d="M710,160 H854 l22,30 l-22,30 H710 l22,-30 Z" fill="#F8FAFC" stroke="#E5E7EB"/>
+          <text x="797" y="183" font-size="10" font-weight="800" fill="#334155" text-anchor="middle">Institutional</text>
+          <text x="797" y="197" font-size="10" font-weight="800" fill="#334155" text-anchor="middle">reporting</text>
+        </g>
+
+        <!-- MARGIN INTENSITY bars beneath each primary activity -->
+        <text x="14" y="246" font-size="9" font-weight="800" fill="#9AA3B2" letter-spacing=".06em">GROSS MARGIN INTENSITY</text>
+        <g>
+          <!-- baseline -->
+          <line x1="14" y1="330" x2="876" y2="330" stroke="#E5E7EB" stroke-width="1"/>
+          <!-- a low-mid -->
+          <rect x="50" y="296" width="96" height="34" rx="4" fill="#FDE7CF"/><text x="98" y="290" font-size="8" fill="#C2855A" text-anchor="middle" font-weight="700">moderate</text>
+          <!-- b high -->
+          <rect x="237" y="258" width="96" height="72" rx="4" fill="#F97316"/><text x="285" y="252" font-size="8" fill="#9a3412" text-anchor="middle" font-weight="800">HIGH</text>
+          <!-- c highest -->
+          <rect x="411" y="252" width="96" height="78" rx="4" fill="#EA580C"/><text x="459" y="246" font-size="8" fill="#9a3412" text-anchor="middle" font-weight="800">HIGHEST</text>
+          <!-- d low -->
+          <rect x="585" y="306" width="96" height="24" rx="4" fill="#FCD9B6"/><text x="633" y="300" font-size="8" fill="#C2855A" text-anchor="middle" font-weight="700">low</text>
+          <!-- e low -->
+          <rect x="749" y="310" width="96" height="20" rx="4" fill="#FCD9B6"/><text x="797" y="304" font-size="8" fill="#C2855A" text-anchor="middle" font-weight="700">low (service)</text>
+        </g>
+        <text x="14" y="352" font-size="8.6" fill="#6B7280">Margin concentrates where the work is <tspan font-weight="800">proprietary and non-replicable</tspan> — the data &amp; taxonomy layer. Delivery and reporting are commoditised, low-margin.</text>
+
+        <!-- THE UNSERVED LAST MILE: the chain should continue to curriculum, but the step is missing -->
+        <g>
+          <line x1="880" y1="190" x2="912" y2="190" stroke="#C2C9D4" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#chev)"/>
+          <path d="M918,166 H1008 l18,24 l-18,24 H918 l18,-24 Z" fill="#FAFAFA" stroke="#CBD5E1" stroke-width="1.4" stroke-dasharray="5 4"/>
+          <text x="963" y="186" font-size="9.5" font-weight="800" fill="#94A3B8" text-anchor="middle">Curriculum</text>
+          <text x="963" y="199" font-size="9.5" font-weight="800" fill="#94A3B8" text-anchor="middle">design</text>
+          <text x="971" y="232" font-size="8" font-style="italic" fill="#B6BECB" text-anchor="middle">the missing step</text>
+          <text x="14" y="386" font-size="9" font-weight="800" fill="#9AA3B2" letter-spacing=".06em">THE UNSERVED LAST MILE — the high-margin signal never reaches the curriculum decision</text>
+        </g>
+
+        <!-- bottom: end customers + the gap to curriculum -->
+        <g>
+          <!-- served customer -->
+          <rect x="14" y="400" width="300" height="150" rx="11" fill="#F0FDF4" stroke="#A7F3C4"/>
+          <text x="30" y="424" font-size="10.5" font-weight="800" fill="#166534">WHO IT'S SOLD TO TODAY</text>
+          <text x="30" y="446" font-size="9.4" fill="#14532d">• HR &amp; workforce-planning teams (primary)</text>
+          <text x="30" y="464" font-size="9.4" fill="#14532d">• Government skills agencies (e.g. JSA)</text>
+          <text x="30" y="482" font-size="9.4" fill="#14532d">• University <tspan font-weight="800">careers</tspan> &amp; IR offices (secondary)</text>
+          <text x="30" y="506" font-size="9.4" fill="#14532d">→ high retention, ~1% churn, strong margin</text>
+          <text x="30" y="530" font-size="8.4" fill="#5FB47E" font-style="italic">Lightcast AU footprint: Melbourne careers team since 2017</text>
+
+          <!-- the gap -->
+          <rect x="372" y="400" width="300" height="150" rx="11" fill="#fff" stroke="#E5E7EB"/>
+          <text x="388" y="424" font-size="10.5" font-weight="800" fill="#334155">WHO IT'S NOT SOLD TO</text>
+          <text x="388" y="446" font-size="9.4" fill="#475569">• Curriculum coordinators &amp; program teams</text>
+          <text x="388" y="464" font-size="9.4" fill="#475569">• Academic boards / curriculum governance</text>
+          <text x="388" y="482" font-size="9.4" fill="#475569">• No integration with CourseLoop / Akari</text>
+          <text x="388" y="506" font-size="9.4" fill="#475569">• Skillabi exists — but US/UK/Canada only</text>
+          <text x="388" y="530" font-size="8.4" fill="#9AA3B2" font-style="italic">A genuine gap — the demand exists, but no product reaches it in Australia</text>
+
+          <!-- COMPASS opportunity -->
+          <rect x="730" y="400" width="296" height="150" rx="11" fill="#11151F"/>
+          <g transform="translate(752,424)">
+            <circle r="14" fill="#f97316" fill-opacity="0.14"/>
+            <g transform="translate(-16,-16)">
+              <circle cx="16" cy="16" r="13.5" fill="none" stroke="#ffffff" stroke-width="1.4" stroke-opacity="0.32"/>
+              <line x1="16" y1="3.8" x2="16" y2="8" stroke="#f97316" stroke-width="2.2" stroke-linecap="round"/>
+              <line x1="28.2" y1="16" x2="24" y2="16" stroke="#ffffff" stroke-width="1.3" stroke-linecap="round" stroke-opacity="0.4"/>
+              <line x1="16" y1="28.2" x2="16" y2="24" stroke="#ffffff" stroke-width="1.3" stroke-linecap="round" stroke-opacity="0.4"/>
+              <line x1="3.8" y1="16" x2="8" y2="16" stroke="#ffffff" stroke-width="1.3" stroke-linecap="round" stroke-opacity="0.4"/>
+              <g transform="rotate(20 16 16)">
+                <polygon points="16,5.8 13.5,16 18.5,16" fill="#f97316"/>
+                <polygon points="16,26.2 13.5,16 18.5,16" fill="#ffffff" fill-opacity="0.25"/>
+              </g>
+              <circle cx="16" cy="16" r="2.5" fill="#f97316"/>
+              <circle cx="16" cy="16" r="1" fill="#ffffff"/>
+            </g>
+          </g>
+          <text x="772" y="424" font-size="10.5" font-weight="800" fill="#fff">THE COMPASS POSITION</text>
+          <text x="746" y="448" font-size="9.4" fill="#D6DBE6">Translate high-margin upstream</text>
+          <text x="746" y="464" font-size="9.4" fill="#D6DBE6">intelligence into the one output it</text>
+          <text x="746" y="480" font-size="9.4" fill="#D6DBE6">never reaches: a curriculum-ready,</text>
+          <text x="746" y="496" font-size="9.4" fill="#D6DBE6">decision-grade viability signal.</text>
+          <line x1="746" y1="512" x2="806" y2="512" stroke="#F97316" stroke-width="2" stroke-linecap="round"/>
+          <text x="746" y="532" font-size="8.4" fill="#F9A86B" font-style="italic">Decision-support, not decision-replacement</text>
+        </g>
+      </svg>
+    </div>
+
+    <div class="pfoot">
+      <div class="legend">
+        <span class="lg"><span class="dot" style="background:#EA580C"></span>High margin</span>
+        <span class="lg"><span class="dot" style="background:#FCD9B6"></span>Low margin</span>
+        <span class="lg"><span class="dot" style="background:#16a34a"></span>Served</span>
+        <span class="lg"><span class="dot" style="background:#11151F"></span>The opportunity</span>
+      </div>
+      <div>COMPASS · Market System &amp; Value Chain Map · 03 Deep dive</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PAGE 4 — READING THE MAP ============ -->
+<section class="page">
+  <div class="phead">
+    <div class="brand">
+      <svg width="26" height="26" viewBox="0 0 32 32" fill="none">
+        <circle cx="16" cy="16" r="13.5" stroke="#11151F" stroke-width="1.5" stroke-opacity=".35"/>
+        <line x1="16" y1="3.5" x2="16" y2="8" stroke="#f97316" stroke-width="2.2" stroke-linecap="round"/>
+        <g transform="rotate(20 16 16)"><polygon points="16,5.5 13.2,16 18.8,16" fill="#f97316"/><polygon points="16,26.5 13.2,16 18.8,16" fill="#11151F" fill-opacity=".2"/></g>
+        <circle cx="16" cy="16" r="2.5" fill="#f97316"/><circle cx="16" cy="16" r="1" fill="#fff"/>
+      </svg>
+      <div><div class="name">COMPASS</div><div class="sub">Reading the Map</div></div>
+    </div>
+    <div><div class="kicker">04 · Synthesis</div></div>
+  </div>
+  <h2 class="ptitle">Where value is created, captured &amp; lost</h2>
+  <p class="pintro">The MEC questions, answered against the map: where is value created and captured, where is it lost, which areas look promising for a venture — and where are the tensions and untapped potential?</p>
+
+  <div class="pbody" style="gap:9px;">
+    <div class="grid3" style="flex:0 0 auto;">
+      <div class="ncard" style="border-color:#A7F3C4;">
+        <h4><span class="tag" style="background:var(--resilient-tr);color:#15803d;">Created</span></h4>
+        <p>Real value is created upstream, where raw job-market noise is turned into structured, scored intelligence. This is genuine, defensible knowledge work.</p>
+      </div>
+      <div class="ncard" style="border-color:#FED7AA;">
+        <h4><span class="tag" style="background:var(--high-tr);color:#9a3412;">Captured</span></h4>
+        <p>Captured by the LMI vendor at the data &amp; taxonomy layer — high margin, low capital, ~1% churn — and by the CMS owner (TechnologyOne) that holds the curriculum workflow.</p>
+      </div>
+      <div class="ncard" style="border-color:#fecaca;">
+        <h4><span class="tag" style="background:var(--critical-tr);color:#991b1b;">Lost</span></h4>
+        <p>Lost at the break between intelligence and the curriculum decision — and again downstream, borne by graduates in roles that under-use their degree. An unpriced externality.</p>
+      </div>
+    </div>
+
+    <div class="grid3" style="flex:1 1 auto; min-height:0;">
+      <div class="ncard" style="background:#11151F; border-color:#11151F;">
+        <h4 style="color:#fff;"><span style="color:var(--orange)">◆</span>&nbsp; Promising area</h4>
+        <p style="color:#C7CDD8;">The <b style="color:#fff">last mile</b>: translating existing upstream intelligence into a curriculum-ready signal. The data is already produced and paid for; nobody delivers it to the curriculum decision in Australia.</p>
+        <p style="color:#C7CDD8;">The need is real and the signal already exists — the gap persists only because <b style="color:#fff">no player yet translates it</b> into the curriculum decision.</p>
+      </div>
+      <div class="ncard">
+        <h4>⚖&nbsp; Tensions to resolve</h4>
+        <p><b>Demand is latent, not regulated.</b> TEQSA polices assessment integrity, not curriculum-market durability — so adoption needs a DVC champion, not a compliance trigger.</p>
+        <p><b>Politics.</b> The NTEU favours staff autonomy — a decision-<i>support</i> tool is compatible; a decision-<i>replacement</i> tool invites disputes.</p>
+        <p><b>Gatekeeper.</b> TechnologyOne owns the curriculum workflow with no LMI partner — an unoccupied adjacency, and a make-or-buy question.</p>
+      </div>
+      <div class="ncard">
+        <h4>◇&nbsp; Untapped potential</h4>
+        <p><b>Accreditation pull.</b> AACSB Standard 4.1 (15 AU business schools) and the AMC's 2024 digital-health standard already demand evidence of market-aligned, technology-current curricula.</p>
+        <p><b>Council attention.</b> The relevance of the degree and the future of graduate jobs are now live questions at University Council — top-down demand for exactly this evidence.</p>
+        <p><b>No incumbent here.</b> Skillabi &amp; Mapademics are US-only; no Australian product exists.</p>
+      </div>
+    </div>
+
+    <div class="pfoot">
+      <div style="font-style:italic; color:#6B7280; font-size:8.6px; max-width:200mm;">
+        Sources: COMPASS problem-tree, stakeholder &amp; competitive-strategic intelligence (2026); WEF Future of Jobs 2025; QILT GOS-L 2024; TechnologyOne ASX filings; Lightcast / Rutgers EERC. Full citations in the companion research documents.
+      </div>
+      <div>COMPASS · 04 Synthesis</div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>

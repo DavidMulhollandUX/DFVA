@@ -1,0 +1,182 @@
+<svg width="1500" height="970" viewBox="0 0 1500 970" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1500" height="970" fill="#F5F4EF"/>
+
+  <!-- Zone tints -->
+  <rect x="0" y="0" width="1500" height="455" fill="#F0FDF4" opacity="0.55"/>
+  <rect x="0" y="545" width="1500" height="425" fill="#FFFBEB" opacity="0.55"/>
+
+  <!-- Zone dividers -->
+  <line x1="0" y1="455" x2="1500" y2="455" stroke="#BBF7D0" stroke-width="1" stroke-dasharray="5 8"/>
+  <line x1="0" y1="545" x2="1500" y2="545" stroke="#FDE68A" stroke-width="1" stroke-dasharray="5 8"/>
+
+  <!-- Title -->
+  <text x="750" y="26" font-size="15" font-weight="700" fill="#374151" text-anchor="middle" letter-spacing="0.3">Problem Tree — AI Disruption of the University Sector</text>
+
+  <!-- Zone labels -->
+  <text x="32" y="52" font-size="10.5" font-weight="700" fill="#047857" letter-spacing="1.5">EFFECTS / CONSEQUENCES  ↑</text>
+  <text x="32" y="924" font-size="10.5" font-weight="700" fill="#92400E" letter-spacing="1.5">ROOT CAUSES  ↓</text>
+
+  <!-- ═══════════════════════════════ -->
+  <!-- EFFECT CONNECTING LINES (green) -->
+  <!-- from core box top (750, 455)    -->
+  <!-- ═══════════════════════════════ -->
+
+  <!-- → E1 bottom-centre (130, 248) -->
+  <path d="M 750 455 C 750 375 130 375 130 248" stroke="#059669" stroke-width="2.5" fill="none" opacity="0.45"/>
+
+  <!-- → E2 bottom-centre (440, 188) -->
+  <path d="M 750 455 C 750 355 440 310 440 188" stroke="#059669" stroke-width="2.5" fill="none" opacity="0.45"/>
+
+  <!-- → E3 bottom-centre (750, 138) -->
+  <path d="M 750 455 C 750 320 750 215 750 138" stroke="#059669" stroke-width="3" fill="none" opacity="0.55"/>
+
+  <!-- → E4 bottom-centre (1060, 188) -->
+  <path d="M 750 455 C 750 355 1060 310 1060 188" stroke="#059669" stroke-width="2.5" fill="none" opacity="0.45"/>
+
+  <!-- → E5 bottom-centre (1370, 248) -->
+  <path d="M 750 455 C 750 375 1370 375 1370 248" stroke="#059669" stroke-width="2.5" fill="none" opacity="0.45"/>
+
+  <!-- ════════════════════════════════ -->
+  <!-- ROOT CONNECTING LINES (amber)   -->
+  <!-- from core box bottom (750, 545) -->
+  <!-- ════════════════════════════════ -->
+
+  <!-- → R1 top-centre (120, 675) -->
+  <path d="M 750 545 C 750 625 120 620 120 675" stroke="#D97706" stroke-width="2.5" fill="none" opacity="0.45"/>
+
+  <!-- → R2 top-centre (380, 755) -->
+  <path d="M 750 545 C 750 625 380 700 380 755" stroke="#D97706" stroke-width="2.5" fill="none" opacity="0.45"/>
+
+  <!-- → R3 top-centre (610, 815) -->
+  <path d="M 750 545 C 750 660 610 755 610 815" stroke="#D97706" stroke-width="2.5" fill="none" opacity="0.45"/>
+
+  <!-- → R4 top-centre (890, 815) -->
+  <path d="M 750 545 C 750 660 890 755 890 815" stroke="#D97706" stroke-width="2.5" fill="none" opacity="0.45"/>
+
+  <!-- → R5 top-centre (1120, 755) -->
+  <path d="M 750 545 C 750 625 1120 700 1120 755" stroke="#D97706" stroke-width="2.5" fill="none" opacity="0.45"/>
+
+  <!-- → R6 top-centre (1380, 675) -->
+  <path d="M 750 545 C 750 625 1380 620 1380 675" stroke="#D97706" stroke-width="2.5" fill="none" opacity="0.45"/>
+
+  <!-- ═══════════════ -->
+  <!-- CORE PROBLEM    -->
+  <!-- rect x=530 y=455 w=440 h=90 -->
+  <!-- ═══════════════ -->
+  <rect x="533" y="458" width="440" height="90" rx="10" fill="rgba(0,0,0,0.18)"/>
+  <rect x="530" y="455" width="440" height="90" rx="10" fill="#1E1B4B"/>
+  <text x="750" y="473" font-size="9" fill="#A5B4FC" text-anchor="middle" font-weight="600" letter-spacing="1.5">CORE PROBLEM</text>
+  <text x="750" y="490" font-size="12.5" fill="white" text-anchor="middle" font-weight="700">University degrees failing to maintain economic value</text>
+  <text x="750" y="507" font-size="12.5" fill="white" text-anchor="middle" font-weight="700">in an AI-augmented labour market</text>
+  <text x="750" y="522" font-size="10" fill="#C7D2FE" text-anchor="middle">Institutions lack mechanisms to detect or respond before it compounds</text>
+
+  <!-- ════════════════════════════ -->
+  <!-- EFFECT BOXES                -->
+  <!-- fill #065F46 (dark emerald) -->
+  <!-- ════════════════════════════ -->
+
+  <!-- E1  cx=130  rect x=22 y=175 w=216 h=73 -->
+  <rect x="25" y="178" width="216" height="73" rx="7" fill="rgba(0,0,0,0.15)"/>
+  <rect x="22" y="175" width="216" height="73" rx="7" fill="#065F46"/>
+  <text x="130" y="189" font-size="8.5" fill="#6EE7B7" text-anchor="middle" font-weight="600" letter-spacing="1">EFFECT</text>
+  <text x="130" y="204" font-size="11" fill="white" text-anchor="middle" font-weight="700">Graduates enter AI roles</text>
+  <text x="130" y="219" font-size="11" fill="white" text-anchor="middle" font-weight="700">underprepared</text>
+  <text x="130" y="235" font-size="9" fill="#A7F3D0" text-anchor="middle">Employers absorb retraining costs</text>
+
+  <!-- E2  cx=440  rect x=325 y=115 w=230 h=73 -->
+  <rect x="328" y="118" width="230" height="73" rx="7" fill="rgba(0,0,0,0.15)"/>
+  <rect x="325" y="115" width="230" height="73" rx="7" fill="#065F46"/>
+  <text x="440" y="129" font-size="8.5" fill="#6EE7B7" text-anchor="middle" font-weight="600" letter-spacing="1">EFFECT</text>
+  <text x="440" y="144" font-size="11" fill="white" text-anchor="middle" font-weight="700">Students commit $40K+</text>
+  <text x="440" y="159" font-size="11" fill="white" text-anchor="middle" font-weight="700">with no viability evidence</text>
+  <text x="440" y="175" font-size="9" fill="#A7F3D0" text-anchor="middle">Uninformed enrolment decisions</text>
+
+  <!-- E3  cx=750  rect x=630 y=65 w=240 h=73 -->
+  <rect x="633" y="68" width="240" height="73" rx="7" fill="rgba(0,0,0,0.15)"/>
+  <rect x="630" y="65" width="240" height="73" rx="7" fill="#065F46"/>
+  <text x="750" y="79" font-size="8.5" fill="#6EE7B7" text-anchor="middle" font-weight="600" letter-spacing="1">EFFECT</text>
+  <text x="750" y="94" font-size="11" fill="white" text-anchor="middle" font-weight="700">Curriculum review is anecdotal,</text>
+  <text x="750" y="109" font-size="11" fill="white" text-anchor="middle" font-weight="700">slow and opinion-heavy</text>
+  <text x="750" y="125" font-size="9" fill="#A7F3D0" text-anchor="middle">No evidence-based redesign process</text>
+
+  <!-- E4  cx=1060  rect x=945 y=115 w=230 h=73 -->
+  <rect x="948" y="118" width="230" height="73" rx="7" fill="rgba(0,0,0,0.15)"/>
+  <rect x="945" y="115" width="230" height="73" rx="7" fill="#065F46"/>
+  <text x="1060" y="129" font-size="8.5" fill="#6EE7B7" text-anchor="middle" font-weight="600" letter-spacing="1">EFFECT</text>
+  <text x="1060" y="144" font-size="11" fill="white" text-anchor="middle" font-weight="700">Misalignment discovered</text>
+  <text x="1060" y="159" font-size="11" fill="white" text-anchor="middle" font-weight="700">only at graduation</text>
+  <text x="1060" y="175" font-size="9" fill="#A7F3D0" text-anchor="middle">Declining employment rates</text>
+
+  <!-- E5  cx=1370  rect x=1262 y=175 w=216 h=73 -->
+  <rect x="1265" y="178" width="216" height="73" rx="7" fill="rgba(0,0,0,0.15)"/>
+  <rect x="1262" y="175" width="216" height="73" rx="7" fill="#065F46"/>
+  <text x="1370" y="189" font-size="8.5" fill="#6EE7B7" text-anchor="middle" font-weight="600" letter-spacing="1">EFFECT</text>
+  <text x="1370" y="204" font-size="11" fill="white" text-anchor="middle" font-weight="700">Portfolio misalignment</text>
+  <text x="1370" y="219" font-size="11" fill="white" text-anchor="middle" font-weight="700">compounds invisibly</text>
+  <text x="1370" y="235" font-size="9" fill="#A7F3D0" text-anchor="middle">Reputational and financial risk</text>
+
+  <!-- ════════════════════════════ -->
+  <!-- ROOT CAUSE BOXES            -->
+  <!-- fill #7C2D12 (dark rust)    -->
+  <!-- ════════════════════════════ -->
+
+  <!-- R1  cx=120  rect x=15 y=675 w=210 h=88 -->
+  <rect x="18" y="678" width="210" height="88" rx="7" fill="rgba(0,0,0,0.18)"/>
+  <rect x="15" y="675" width="210" height="88" rx="7" fill="#7C2D12"/>
+  <text x="120" y="689" font-size="8.5" fill="#FED7AA" text-anchor="middle" font-weight="600" letter-spacing="1">ROOT CAUSE 1</text>
+  <text x="120" y="704" font-size="11" fill="white" text-anchor="middle" font-weight="700">Governance cycles</text>
+  <text x="120" y="719" font-size="11" fill="white" text-anchor="middle" font-weight="700">(5–7 yr) lag market</text>
+  <text x="120" y="734" font-size="11" fill="white" text-anchor="middle" font-weight="700">change (12–18 mo)</text>
+  <text x="120" y="752" font-size="8.5" fill="#FFEDD5" text-anchor="middle">Designed for stability, not adaptability</text>
+
+  <!-- R2  cx=380  rect x=275 y=755 w=210 h=88 -->
+  <rect x="278" y="758" width="210" height="88" rx="7" fill="rgba(0,0,0,0.18)"/>
+  <rect x="275" y="755" width="210" height="88" rx="7" fill="#7C2D12"/>
+  <text x="380" y="769" font-size="8.5" fill="#FED7AA" text-anchor="middle" font-weight="600" letter-spacing="1">ROOT CAUSE 2</text>
+  <text x="380" y="784" font-size="11" fill="white" text-anchor="middle" font-weight="700">Employer→curriculum</text>
+  <text x="380" y="799" font-size="11" fill="white" text-anchor="middle" font-weight="700">feedback loop has a</text>
+  <text x="380" y="814" font-size="11" fill="white" text-anchor="middle" font-weight="700">5–7 yr structural lag</text>
+  <text x="380" y="832" font-size="8.5" fill="#FFEDD5" text-anchor="middle">Non-systematic, infrequent signals</text>
+
+  <!-- R3  cx=610  rect x=505 y=815 w=210 h=88 -->
+  <rect x="508" y="818" width="210" height="88" rx="7" fill="rgba(0,0,0,0.18)"/>
+  <rect x="505" y="815" width="210" height="88" rx="7" fill="#7C2D12"/>
+  <text x="610" y="829" font-size="8.5" fill="#FED7AA" text-anchor="middle" font-weight="600" letter-spacing="1">ROOT CAUSE 3</text>
+  <text x="610" y="844" font-size="11" fill="white" text-anchor="middle" font-weight="700">Students decide on</text>
+  <text x="610" y="859" font-size="11" fill="white" text-anchor="middle" font-weight="700">incomplete, backwards-</text>
+  <text x="610" y="874" font-size="11" fill="white" text-anchor="middle" font-weight="700">looking information</text>
+  <text x="610" y="892" font-size="8.5" fill="#FFEDD5" text-anchor="middle">No forward-looking outcome data</text>
+
+  <!-- R4  cx=890  rect x=785 y=815 w=210 h=88 -->
+  <rect x="788" y="818" width="210" height="88" rx="7" fill="rgba(0,0,0,0.18)"/>
+  <rect x="785" y="815" width="210" height="88" rx="7" fill="#7C2D12"/>
+  <text x="890" y="829" font-size="8.5" fill="#FED7AA" text-anchor="middle" font-weight="600" letter-spacing="1">ROOT CAUSE 4</text>
+  <text x="890" y="844" font-size="11" fill="white" text-anchor="middle" font-weight="700">Accreditation assesses</text>
+  <text x="890" y="859" font-size="11" fill="white" text-anchor="middle" font-weight="700">compliance, not</text>
+  <text x="890" y="874" font-size="11" fill="white" text-anchor="middle" font-weight="700">curriculum durability</text>
+  <text x="890" y="892" font-size="8.5" fill="#FFEDD5" text-anchor="middle">TEQSA integrity focus, not market align.</text>
+
+  <!-- R5  cx=1120  rect x=1015 y=755 w=210 h=88 -->
+  <rect x="1018" y="758" width="210" height="88" rx="7" fill="rgba(0,0,0,0.18)"/>
+  <rect x="1015" y="755" width="210" height="88" rx="7" fill="#7C2D12"/>
+  <text x="1120" y="769" font-size="8.5" fill="#FED7AA" text-anchor="middle" font-weight="600" letter-spacing="1">ROOT CAUSE 5</text>
+  <text x="1120" y="784" font-size="11" fill="white" text-anchor="middle" font-weight="700">Funding rewards enrolment</text>
+  <text x="1120" y="799" font-size="11" fill="white" text-anchor="middle" font-weight="700">volume, not graduate</text>
+  <text x="1120" y="814" font-size="11" fill="white" text-anchor="middle" font-weight="700">outcome quality</text>
+  <text x="1120" y="832" font-size="8.5" fill="#FFEDD5" text-anchor="middle">CSPs linked to enrolment, not outcomes</text>
+
+  <!-- R6  cx=1380  rect x=1275 y=675 w=210 h=88 -->
+  <rect x="1278" y="678" width="210" height="88" rx="7" fill="rgba(0,0,0,0.18)"/>
+  <rect x="1275" y="675" width="210" height="88" rx="7" fill="#7C2D12"/>
+  <text x="1380" y="689" font-size="8.5" fill="#FED7AA" text-anchor="middle" font-weight="600" letter-spacing="1">ROOT CAUSE 6</text>
+  <text x="1380" y="704" font-size="11" fill="white" text-anchor="middle" font-weight="700">Faculty lack capability</text>
+  <text x="1380" y="719" font-size="11" fill="white" text-anchor="middle" font-weight="700">to redesign curricula</text>
+  <text x="1380" y="734" font-size="11" fill="white" text-anchor="middle" font-weight="700">for AI-augmented work</text>
+  <text x="1380" y="752" font-size="8.5" fill="#FFEDD5" text-anchor="middle">AI literacy gap across disciplines</text>
+
+  <!-- Footer -->
+  <text x="750" y="960" font-size="9.5" fill="#9CA3AF" text-anchor="middle">COMPASS Problem Tree Analysis — AI Disruption of the University Sector — Service Design, CX &amp; AI, Higher Education — June 2026</text>
+
+</svg>
