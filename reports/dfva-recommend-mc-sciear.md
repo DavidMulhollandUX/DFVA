@@ -6,7 +6,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY
 
-The Master of Science (Earth Sciences) scores 24/36 (MODERATE RISK). Its fundamental architecture is strong: a 125-point research project creates genuine automation resistance, deep domain specialization in both streams provides durable expertise, and physical fieldwork requirements make graduates structurally difficult to replace with AI. The program's weaknesses are concentrated in two dimensions: AI Literacy (1/3) and Human & Relational Capability (1/3), with Outcome Evidence (1/3) as a third gap. These are addressable without restructuring the program's core research architecture.
+The Master of Science (Earth Sciences) scores 24/36 (MODERATE RISK). Its fundamental architecture is strong: a 125-point research project creates genuine automation resistance, deep domain specialisation in both streams provides durable expertise, and physical fieldwork requirements make graduates structurally difficult to replace with AI. The program's weaknesses are concentrated in two dimensions: AI Literacy (1/3) and Human & Relational Capability (1/3), with Outcome Evidence (1/3) as a third gap. These are addressable without restructuring the program's core research architecture.
 
 **Key gaps by dimension:**
 - D5 (AI Literacy): No mandatory AI governance unit. LAWS90203 not available. Graduates enter a discipline increasingly using AI tools (automated logging, ML-assisted modelling) without training in tool evaluation or responsible deployment.
@@ -18,7 +18,7 @@ The Master of Science (Earth Sciences) scores 24/36 (MODERATE RISK). Its fundame
 
 ## 2. SCORE-TO-ACTION MAPPING
 
-**Dimensions scoring 3/3 (protect and maintain):** D1 Automation Exposure, D3 Technical Depth, D4 Decision-Making Under Uncertainty, D6 Domain Depth, D7 Research Methods Rigor. Action: No changes needed. These scores reflect genuine structural strengths of the research-intensive earth science model. Protect the 125pt research project and fieldwork requirements — these ARE the program's competitive advantage.
+**Dimensions scoring 3/3 (protect and maintain):** D1 Automation Exposure, D3 Technical Depth, D4 Decision-Making Under Uncertainty, D6 Domain Depth, D7 Research Methods Rigour. Action: No changes needed. These scores reflect genuine structural strengths of the research-intensive earth science model. Protect the 125pt research project and fieldwork requirements — these ARE the program's competitive advantage.
 
 **Dimensions scoring 2/3 (enhance):** D2 Systems Thinking, D9 Curriculum Currency. Action: Make systems reasoning explicit in assessment criteria for existing subjects. Update subject availability and add AI content to discipline core. Dimensions: D2, D9.
 
@@ -106,7 +106,7 @@ The Master of Science (Earth Sciences) scores 24/36 (MODERATE RISK). Its fundame
 
 LAWS90203 live Sem 1 2027 · SCIE90013 compulsory from 2027 cohort · AI methodology chapter mandatory from 2027 thesis submissions · Advisory panel constituted by Month 6 · Graduate destination survey deployed Month 10 · First outcome data published Month 18 · Student AI evaluation competency assessed in discipline core subjects · Target: score improvement from 24/36 to 28+/36 within 24 months
 
-**Leading indicators:** Student enrollment in COMP90072 (should increase with stronger recommendation) · Advisory panel meeting frequency (quarterly) · AI chapter quality in thesis submissions (rubric-assessed) · LAWS90203 enrollment and completion rates
+**Leading indicators:** Student enrolment in COMP90072 (should increase with stronger recommendation) · Advisory panel meeting frequency (quarterly) · AI chapter quality in thesis submissions (rubric-assessed) · LAWS90203 enrolment and completion rates
 
 **Lagging indicators:** Graduate employment rate at 6 months by stream · Proportion of graduates in field-intensive vs desktop-only roles · Employer satisfaction survey scores · Time-to-employment by stream
 

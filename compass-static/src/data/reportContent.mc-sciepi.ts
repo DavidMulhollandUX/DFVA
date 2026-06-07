@@ -46,8 +46,8 @@ The Master of Science (Epidemiology) (MC-SCIEPI) is a 200-credit-point coursewor
 | 3 | Technical and Quantitative Depth | 3/3 | Exceptionally strong: Biostatistics, Regression Methods, Survival Analysis, Epidemiology 2, plus Statistical Computing options. One of the most quantitatively rigorous programs in the Faculty. |
 | 4 | Decision-Making Under Uncertainty | 2/3 | Research project (25 or 50pts) requires original research. Epidemiology in Practice involves applied decision-making. Core subjects teach uncertainty quantification. However, no evidence of live-stakes capstones with genuine external accountability. |
 | 5 | AI Literacy and Governance | 1/3 | No mandatory AI governance unit. SCIE90005 not available 2025. AI rapidly transforming epidemiological practice but program does not explicitly address this. |
-| 6 | Domain Depth and Specialization | 3/3 | Deep specialization with extensive elective pathways (genetic epidemiology, infectious disease, health economics, qualitative methods). Produces specialists in the full epidemiological toolkit. |
-| 7 | Research Methods Rigor | 3/3 | The entire discipline core IS research methods \u2014 study design, bias control, causal inference. Biostatistics + Regression + Survival Analysis + Epidemiology 1&2 constitute a comprehensive methods curriculum. Research project produces original research. |
+| 6 | Domain Depth and Specialisation | 3/3 | Deep specialisation with extensive elective pathways (genetic epidemiology, infectious disease, health economics, qualitative methods). Produces specialists in the full epidemiological toolkit. |
+| 7 | Research Methods Rigour | 3/3 | The entire discipline core IS research methods \u2014 study design, bias control, causal inference. Biostatistics + Regression + Survival Analysis + Epidemiology 1&2 constitute a comprehensive methods curriculum. Research project produces original research. |
 | 8 | Human and Relational Capability | 2/3 | POPH90270 Bioethics in Practice (elective), POPH90020 Health Promotion involves community engagement, POPH90206 Health Policy requires stakeholder reasoning. Discipline requires ethics committee engagement. Not compulsory though. |
 | 9 | Curriculum Currency and Adaptability | 2/3 | Updated November 2025. Dual-delivery mode. Infectious Diseases Modelling shows post-pandemic response. No AI content in core subjects despite AI transforming the field. |
 | 10 | Graduate Outcome Evidence | 1/3 | No publicly available destination data at program level. |
@@ -61,7 +61,7 @@ The Master of Science (Epidemiology) (MC-SCIEPI) is a 200-credit-point coursewor
 ### 4. THREE THRESHOLD QUESTIONS
 
 **Q1: Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?**
-UNCERTAIN. AI can run standard statistical analyses and draft methods sections. But it cannot assess whether a study design adequately controls for confounding, whether observed associations are causal, or whether findings generalize to target populations. The 80% threshold is borderline \u2014 routine data work is automating, but the epidemiological reasoning that contextualizes it is not.
+UNCERTAIN. AI can run standard statistical analyses and draft methods sections. But it cannot assess whether a study design adequately controls for confounding, whether observed associations are causal, or whether findings generalise to target populations. The 80% threshold is borderline \u2014 routine data work is automating, but the epidemiological reasoning that contextualises it is not.
 
 **Q2: Does this program train graduates to design systems, own decisions, or generate original insight?**
 YES. Epidemiological study design IS the art of generating original insight from observational data. Core subjects teach how to frame research questions, design studies that control bias, and interpret results causally. The research project produces original findings.
@@ -73,7 +73,7 @@ YES. Pandemic preparedness investment, climate-health surveillance, aging popula
 
 ### 5. ANALOGUE GRADUATE PROFILE
 
-Most threatened entry-level profile: **"Junior health data analyst"** \u2014 roles focused on running pre-specified analyses on existing datasets, producing standardized surveillance reports, and managing databases without design input.
+Most threatened entry-level profile: **"Junior health data analyst"** \u2014 roles focused on running pre-specified analyses on existing datasets, producing standardised surveillance reports, and managing databases without design input.
 
 Threatening tool classes: AI-powered automated surveillance dashboards, LLM-based systematic review tools, ML-based disease detection from electronic health records, automated statistical analysis pipelines.
 
@@ -83,7 +83,7 @@ Graduates who move into study design, causal inference, policy advisory, and AI 
 
 ### 6. VERDICT
 
-The Master of Science (Epidemiology) is MODERATE RISK for 2027 labor-market viability. The program produces graduates with genuine quantitative rigor and deep methodological expertise. The structural demand for epidemiologists is strong and growing across pandemic preparedness, climate health, aging populations, and health AI governance.
+The Master of Science (Epidemiology) is MODERATE RISK for 2027 labour-market viability. The program produces graduates with genuine quantitative rigour and deep methodological expertise. The structural demand for epidemiologists is strong and growing across pandemic preparedness, climate health, aging populations, and health AI governance.
 
 The risk is from two program-level gaps: (1) no AI literacy training means graduates enter a discipline being rapidly transformed by AI without explicit training in evaluating those tools, and (2) the lower research project weighting option (25pts) means decision-making under uncertainty is less distinctive than it could be. At 23/36, the program has clear interventions to reach RESILIENT.
 
@@ -104,7 +104,7 @@ The risk is from two program-level gaps: (1) no AI literacy training means gradu
 
 ### 8. THE REDESIGNED GRADUATE PROFILE
 
-A resilient MC-SCIEPI graduate in 2027 designs studies, interprets causal evidence, and validates AI health tools using rigorous population health methodology. They combine deep quantitative expertise with the emerging capability to audit AI diagnostic and surveillance systems for validity, fairness, and population generalizability. Their research project demonstrates original insight generation. Their AI Validation training means they can evaluate whether ML-based tools perform equitably across populations. This positions them not as data processors competing with AI, but as the professionals who determine whether AI health tools are safe, valid, and fair.
+A resilient MC-SCIEPI graduate in 2027 designs studies, interprets causal evidence, and validates AI health tools using rigorous population health methodology. They combine deep quantitative expertise with the emerging capability to audit AI diagnostic and surveillance systems for validity, fairness, and population generalisability. Their research project demonstrates original insight generation. Their AI Validation training means they can evaluate whether ML-based tools perform equitably across populations. This positions them not as data processors competing with AI, but as the professionals who determine whether AI health tools are safe, valid, and fair.
 `,
   },
 
@@ -154,7 +154,7 @@ My Health Record expansion and state health data linkage infrastructure creating
 
 ### 3. CURRENT DISCUSSION SIGNALS (X)
 
-**Theme 1 \u2014 AI can run your regression but can't design your study.** Professional discourse emphasizes that AI tools accelerate epidemiological workflow but cannot replace core skills: deciding what question to ask, what study design answers it validly, and what biases threaten validity.
+**Theme 1 \u2014 AI can run your regression but can't design your study.** Professional discourse emphasises that AI tools accelerate epidemiological workflow but cannot replace core skills: deciding what question to ask, what study design answers it validly, and what biases threaten validity.
 
 **Theme 2 \u2014 Who validates the AI health tools?** Growing discussion about the need for epidemiologically-trained professionals to validate AI diagnostic and surveillance tools using rigorous methodology.
 
@@ -214,7 +214,7 @@ My Health Record expansion and state health data linkage infrastructure creating
 | Biostatistician shortage | High | Consistent industry reports |
 | Graduate outcomes | Low | No program-specific data |
 
-> Evidence confidence for this report: Medium\u2013High. Epidemiology labor market demand is strongly evidenced through government policy, pharmaceutical industry growth, and emerging AI governance needs.
+> Evidence confidence for this report: Medium\u2013High. Epidemiology labour market demand is strongly evidenced through government policy, pharmaceutical industry growth, and emerging AI governance needs.
 `,
   },
 
@@ -229,13 +229,13 @@ My Health Record expansion and state health data linkage infrastructure creating
 
 ### 1. DIAGNOSTIC SUMMARY
 
-The Master of Science (Epidemiology) scores 23/36 (MODERATE RISK). The program has exceptional quantitative depth (3/3) and research methods rigor (3/3). Domain depth (3/3) is also strong. The gaps are concentrated in: AI Literacy (1/3), Outcome Evidence (1/3), and moderate weaknesses in Automation Exposure (2/3) and Decision-Making Under Uncertainty (2/3).
+The Master of Science (Epidemiology) scores 23/36 (MODERATE RISK). The program has exceptional quantitative depth (3/3) and research methods rigour (3/3). Domain depth (3/3) is also strong. The gaps are concentrated in: AI Literacy (1/3), Outcome Evidence (1/3), and moderate weaknesses in Automation Exposure (2/3) and Decision-Making Under Uncertainty (2/3).
 
 ---
 
 ### 2. SCORE-TO-ACTION MAPPING
 
-**Dimensions scoring 3/3 (protect):** D3 Technical Depth, D6 Domain Depth, D7 Research Methods Rigor. Action: Protect the quantitative core. These are the source of automation resistance. Dimensions: D3, D6, D7.
+**Dimensions scoring 3/3 (protect):** D3 Technical Depth, D6 Domain Depth, D7 Research Methods Rigour. Action: Protect the quantitative core. These are the source of automation resistance. Dimensions: D3, D6, D7.
 
 **Dimensions scoring 2/3 (enhance):** D1 Automation Exposure, D2 Systems Thinking, D4 Decision-Making, D8 Human & Relational, D9 Curriculum Currency. Action: Strengthen applied decision-making, encourage major research project, make communication compulsory. Dimensions: D1, D2, D4, D8, D9.
 
@@ -250,7 +250,7 @@ The Master of Science (Epidemiology) scores 23/36 (MODERATE RISK). The program h
 | Australian CDC hiring permanently | Ensure infectious disease epi available | High |
 | Pharma RWE growing 25\u201330% YoY | Strengthen causal inference teaching | High |
 | Health AI governance emerging | Add AI validation methodology | High |
-| Biostatistician shortage persisting | Maintain quantitative rigor | Ongoing |
+| Biostatistician shortage persisting | Maintain quantitative rigour | Ongoing |
 | Epidemiologist as AI auditor | Strategic opportunity \u2014 lean in | High |
 
 ---

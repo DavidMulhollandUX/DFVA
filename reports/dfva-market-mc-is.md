@@ -8,7 +8,7 @@
 ---
 
 > **Evidence Confidence Note — Read First**
-> Live job-ad retrieval and real-time X/social signal scraping are not available in this session. All job-family profiles, hiring signals, and discussion themes below are constructed from: (a) structured knowledge of IS labor markets to early 2026, (b) publicly documented hiring trend reports (WEF Future of Jobs 2025, LinkedIn Jobs on the Rise 2025, McKinsey AI and the workforce 2024–2025), and (c) pattern inference from the MC-IS curriculum structure. Where live evidence would change a signal, this is flagged explicitly. Confidence levels are stated per section.
+> Live job-ad retrieval and real-time X/social signal scraping are not available in this session. All job-family profiles, hiring signals, and discussion themes below are constructed from: (a) structured knowledge of IS labour markets to early 2026, (b) publicly documented hiring trend reports (WEF Future of Jobs 2025, LinkedIn Jobs on the Rise 2025, McKinsey AI and the workforce 2024–2025), and (c) pattern inference from the MC-IS curriculum structure. Where live evidence would change a signal, this is flagged explicitly. Confidence levels are stated per section.
 
 ---
 
@@ -20,7 +20,7 @@
 | IT Project Manager / Delivery Lead | Junior Project Manager, Delivery Coordinator, Scrum Master, PMO Analyst | Sprint facilitation, risk registers, status reporting, stakeholder communication, resource scheduling | **HIGH** (coordination); **MEDIUM** (governance) | AI-assisted project tooling, risk judgment, vendor AI governance, cross-functional facilitation | PMI 2025 Pulse of the Profession: 68% of PMOs using AI for status reporting. Entry PM roles down 14% YoY ANZ (Seek Q4 2025) |
 | Enterprise Architect / Solutions Architect | Junior Solutions Architect, IT Architect Analyst, Enterprise Architecture Analyst | Architecture pattern selection, system integration design, capability mapping, technical roadmapping | **LOW–MEDIUM** | Cloud-native architecture, AI system design, API governance, platform thinking, security-by-design | Gartner 2025: EA roles growing 9% CAGR but entry now requires cloud + AI platform fluency. TOGAF declining as employer requirement |
 | Data Analyst / BI Analyst | Data Analyst, BI Analyst, Reporting Analyst, Insights Analyst | Dashboard build, SQL querying, data wrangling, stakeholder reporting, KPI design | **HIGH** (standard dashboards); **MEDIUM** (complex analysis) | Python/R, dbt, data storytelling, AI-assisted analysis validation, semantic layer design | LinkedIn Workforce Report Q1 2026: "Reporting Analyst" postings down 22% YoY; "Analytics Engineer" up 31% |
-| IT Consultant (Big 4 / Boutique) | Analyst, Consultant (Technology Advisory), Technology Graduate | Client discovery, current-state analysis, recommendation decks, vendor evaluation, change readiness assessments | **MEDIUM** (documents); **LOW** (client judgment) | AI transformation advisory, change management for AI adoption, data-driven storytelling, sector specialization | Big 4 ANZ 2026 grad ads explicitly requiring "AI literacy" and "automation advisory" |
+| IT Consultant (Big 4 / Boutique) | Analyst, Consultant (Technology Advisory), Technology Graduate | Client discovery, current-state analysis, recommendation decks, vendor evaluation, change readiness assessments | **MEDIUM** (documents); **LOW** (client judgment) | AI transformation advisory, change management for AI adoption, data-driven storytelling, sector specialisation | Big 4 ANZ 2026 grad ads explicitly requiring "AI literacy" and "automation advisory" |
 | AI Product Owner / Automation Analyst | AI Product Owner, Intelligent Automation Analyst, RPA/AI Workflow Specialist | AI workflow scoping, automation ROI analysis, bot governance, human-in-the-loop design | **LOW** | Process mining, LLM prompt engineering, AI governance frameworks, workflow orchestration | Seek.com.au: "Automation Analyst" postings +47% YoY (Q1 2026). "AI Governance Analyst" — 34 new ANZ postings Q4 2025 |
 | Digital Transformation / Change Manager | Change Analyst, Transformation Analyst, Organisational Change Consultant | Stakeholder impact analysis, communications planning, training needs analysis, adoption measurement | **MEDIUM** | AI adoption facilitation, psychological safety, measurement and feedback loop design | PROSCI 2025: AI adoption projects now 61% of active change management engagements, up from 31% in 2023 |
 | IT Governance / GRC Analyst | GRC Analyst, IT Risk Analyst, IT Compliance Analyst | Risk assessments, policy documentation, audit support, vendor risk review, compliance monitoring | **LOW–MEDIUM** | AI risk frameworks (NIST AI RMF, ISO 42001), data privacy law, third-party AI vendor assessment | ISACA State of Cybersecurity 2025: AI governance skills listed as #1 emerging requirement across GRC roles. ISO 42001 demand tripling YoY |
@@ -66,7 +66,7 @@ Atlassian Intelligence features absorbing ticket writing, sprint summaries, and 
 Growing thread activity from IS practitioners reframing toward ISO 42001, NIST AI RMF, and responsible AI frameworks as the durable career path.
 
 **Theme 4 — Enterprise architecture revival**
-EA practitioners reporting increased demand as organizations need principled guidance on AI platform integration and vendor lock-in risk. Dominant framing: *"EA was declining; AI complexity brought it back."*
+EA practitioners reporting increased demand as organisations need principled guidance on AI platform integration and vendor lock-in risk. Dominant framing: *"EA was declining; AI complexity brought it back."*
 
 **Theme 5 — Consulting firms raising the floor**
 Big 4 graduate cohorts noting AI literacy is now a live expectation at intake. Recurring advice: *"learn the tools before you start, not after."*
@@ -97,7 +97,7 @@ Big 4 graduate cohorts noting AI literacy is now a live expectation at intake. R
 | CI-2 | Replace static process mapping assessments with automation candidate evaluations | D4, D1 | Redesign SA&D assessment to automation audit format |
 | CI-3 | Add data engineering elective pathway | D3 | dbt, SQL depth, Python for data — distinct from BI consumption |
 | CI-4 | Introduce enterprise AI implementation capstone | D4, B | Real-client, real uncertainty, includes failure modes and governance |
-| CI-5 | Embed sector specialization requirements | D6 | Health IT, fintech, or govtech cluster with domain regulatory content |
+| CI-5 | Embed sector specialisation requirements | D6 | Health IT, fintech, or govtech cluster with domain regulatory content |
 | CI-6 | Publish granular graduate outcome data | D10 | Role-title, industry, salary-band within 12 months of graduation |
 | CI-7 | Reposition career framing | D1 | AI workflow architect, not BA/PM/coordinator |
 

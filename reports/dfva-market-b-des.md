@@ -46,7 +46,7 @@
 ### 6. EVIDENCE CONFIDENCE + GAPS
 - **Confidence level:** Medium.
 - **What is strong:** Directional trend consistency across mainstream job-market and professional discourse signals.
-- **What is limited:** No direct API-fed count extraction in this run; signals are synthesized and indicative.
+- **What is limited:** No direct API-fed count extraction in this run; signals are synthesised and indicative.
 - **How to improve next run:** Add structured scraping/API pipeline for dated posting counts by role family and region.
 
 ---

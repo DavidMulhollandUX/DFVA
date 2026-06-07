@@ -52,8 +52,8 @@ The program is a pathway to PhD study or to the workforce, and operates within a
 | 3 | Technical and Quantitative Depth | 3/3 | Strong quantitative core throughout: ATOC90010 Statistics in Climate Dynamics, MAST90007 Statistics for Research Workers, ATOC90012 Advanced Dynamical Meteorology (mathematical physics), Atmospheric Modelling (numerical methods), Ore Reserve Estimation (geostatistics), Geochronology (isotope geochemistry and dating methods). COMP90072 The Art of Scientific Computation available. |
 | 4 | Decision-Making Under Uncertainty | 3/3 | The 125-point research project (62.5% of degree) requires designing original research, interpreting ambiguous data, defending methodology under examination, and producing work of publishable quality. Semester hurdle reviews create ongoing accountability. |
 | 5 | AI Literacy and Governance | 1/3 | LAWS90203 Science & AI: Legal & Ethical Challenges exists in the professional skills list but was "not available in 2025". No mandatory unit addresses AI tool supervision, limitations, or responsible deployment in earth science contexts. |
-| 6 | Domain Depth and Specialization | 3/3 | Exceptional domain depth. Geology stream covers mineralogy, geochemistry, geochronology, structural geology, ore deposits, field techniques, mine safety. Atmospheric Science stream covers dynamical meteorology, climate modelling, data assimilation. Multi-institutional VIEPS collaboration provides access to the broadest array of advanced earth science coursework nationally. |
-| 7 | Research Methods Rigor | 3/3 | 125 points of original research (62.5% of degree). Students generate primary data and defend methods under scrutiny. Assessment includes literature review, research presentations, oral examination, and thesis of publishable quality. Semester-end hurdle reviews ensure ongoing research quality. |
+| 6 | Domain Depth and Specialisation | 3/3 | Exceptional domain depth. Geology stream covers mineralogy, geochemistry, geochronology, structural geology, ore deposits, field techniques, mine safety. Atmospheric Science stream covers dynamical meteorology, climate modelling, data assimilation. Multi-institutional VIEPS collaboration provides access to the broadest array of advanced earth science coursework nationally. |
+| 7 | Research Methods Rigour | 3/3 | 125 points of original research (62.5% of degree). Students generate primary data and defend methods under scrutiny. Assessment includes literature review, research presentations, oral examination, and thesis of publishable quality. Semester-end hurdle reviews ensure ongoing research quality. |
 | 8 | Human and Relational Capability | 1/3 | SCIE90013 Communication for Research Scientists and SCIE90012 Science Communication are available as professional skills options but not compulsory. Oral presentations exist (10% of research project assessment). No substantial clinical, care, interpersonal accountability, or stakeholder engagement components. |
 | 9 | Curriculum Currency and Adaptability | 2/3 | Handbook last updated 6 November 2025. Program includes contemporary topics: critical minerals (GEOL90052), climate extremes, data assimilation. However, several subjects listed as "not available in 2025" or "no longer available." LAWS90203 AI ethics not available. Fundamentally sound disciplinary content but incomplete adaptation to AI era. |
 | 10 | Graduate Outcome Evidence | 1/3 | No publicly available destination data at program level. No granular role-title, salary, or time-to-employment data published. |
@@ -79,7 +79,7 @@ UNCERTAIN. Demand for earth scientists is structurally supported by critical min
 
 ### 5. ANALOGUE GRADUATE PROFILE
 
-Most threatened entry-level profile: **"Desktop climate data analyst"** or **"office-based resource estimation analyst"** \u2014 roles where the graduate primarily processes existing datasets, runs established model configurations, and produces standardized reports without fieldwork or original experimental design.
+Most threatened entry-level profile: **"Desktop climate data analyst"** or **"office-based resource estimation analyst"** \u2014 roles where the graduate primarily processes existing datasets, runs established model configurations, and produces standardised reports without fieldwork or original experimental design.
 
 Threatening tool classes: AI-powered climate model post-processing and bias correction tools, automated geological logging from drill core imagery, LLM-based report generation from structured geological data, ML-driven resource estimation from geophysical datasets.
 
@@ -89,7 +89,7 @@ Graduates in field-intensive roles (exploration geologist, field-based environme
 
 ### 6. VERDICT
 
-The Master of Science (Earth Sciences) is MODERATE RISK for 2027 labor-market viability. The program's core strength \u2014 a 125-point original research project combined with deeply specialized discipline coursework and physical fieldwork requirements \u2014 creates genuine structural automation resistance that most coursework-only programs lack. Graduates who enter field-intensive or research-intensive roles are well-protected.
+The Master of Science (Earth Sciences) is MODERATE RISK for 2027 labour-market viability. The program's core strength \u2014 a 125-point original research project combined with deeply specialised discipline coursework and physical fieldwork requirements \u2014 creates genuine structural automation resistance that most coursework-only programs lack. Graduates who enter field-intensive or research-intensive roles are well-protected.
 
 The risk sits in two gaps: (1) the complete absence of AI literacy and governance training means graduates cannot critically evaluate or supervise AI tools increasingly used in their own discipline, and (2) the limited professional skills and communication training means graduates may lack the interpersonal capability to move beyond individual contributor roles.
 
@@ -162,17 +162,17 @@ Major mining companies (BHP, Rio Tinto, FMG, Newmont) graduate programs specify 
 State government and consultancy hydrogeology postings (VIC, SA, WA) increased 20\u201330% in 2025\u20132026, driven by drought adaptation, MAR projects, and PFAS remediation. All require physical bore installation supervision and aquifer testing that is embodied work.
 
 **Signal 6 \u2014 Carbon capture and storage (CCS) creating new geoscience hiring pipeline.**
-CCS projects (Gorgon, CarbonNet, Browse) are hiring geologists for subsurface characterization. Postings specify reservoir geology, seismic interpretation, and CO2 plume monitoring \u2014 roles that combine computational modelling with subsurface physical understanding.
+CCS projects (Gorgon, CarbonNet, Browse) are hiring geologists for subsurface characterisation. Postings specify reservoir geology, seismic interpretation, and CO2 plume monitoring \u2014 roles that combine computational modelling with subsurface physical understanding.
 
 ---
 
 ### 3. CURRENT DISCUSSION SIGNALS (X)
 
-**Theme 1 \u2014 AlphaFold didn't kill structural biology \u2014 and AI won't kill geology.** Repeated professional discourse emphasizes that AI tools accelerate geological interpretation but cannot replace physical ground-truth. The consensus: AI is a powerful assistant for desktop geology, but the profession's value sits in field validation, regulatory accountability, and physical sample integrity.
+**Theme 1 \u2014 AlphaFold didn't kill structural biology \u2014 and AI won't kill geology.** Repeated professional discourse emphasises that AI tools accelerate geological interpretation but cannot replace physical ground-truth. The consensus: AI is a powerful assistant for desktop geology, but the profession's value sits in field validation, regulatory accountability, and physical sample integrity.
 
 **Theme 2 \u2014 Climate science PhD glut vs industry placement shortage.** Ongoing discussion about oversupply of climate PhDs relative to permanent research positions, while industry (energy transition, consulting, government) cannot find enough graduates willing to leave academia for applied roles. Masters-level graduates with industry orientation may be better positioned than PhDs for non-academic pathways.
 
-**Theme 3 \u2014 Automated drill core logging is compressing junior geological logging roles.** AI-powered core photography and ML-based lithology identification (e.g., Imago, DeepCore) are reducing time needed for routine logging. Professional discourse acknowledges this changes junior geologist workflow but emphasizes that interpretation, structural context, and field mapping remain human-owned.
+**Theme 3 \u2014 Automated drill core logging is compressing junior geological logging roles.** AI-powered core photography and ML-based lithology identification (e.g., Imago, DeepCore) are reducing time needed for routine logging. Professional discourse acknowledges this changes junior geologist workflow but emphasises that interpretation, structural context, and field mapping remain human-owned.
 
 **Theme 4 \u2014 The geologist of 2030 is a data scientist who can swing a hammer.** Emerging consensus that future geologists need computational skills (Python, GIS, ML) alongside traditional field skills. Programs that don't integrate both are producing incomplete graduates. Discussion frames this as opportunity, not threat \u2014 AI makes geologists more productive, not redundant.
 
@@ -180,7 +180,7 @@ CCS projects (Gorgon, CarbonNet, Browse) are hiring geologists for subsurface ch
 
 **Theme 6 \u2014 Environmental regulatory tightening increasing demand for qualified assessors.** PFAS, mine rehabilitation, and biodiversity offset regulations are creating sustained demand for qualified environmental scientists who can conduct field assessments and sign regulatory reports. AI cannot hold professional accreditation or legal liability.
 
-**Theme 7 \u2014 Atmospheric science graduates face model operator vs model critic bifurcation.** Discussion notes that running existing climate models is becoming commoditized (AI can configure and execute standard runs), while validating models against observations, diagnosing failures, and communicating uncertainty to decision-makers remains human work.
+**Theme 7 \u2014 Atmospheric science graduates face model operator vs model critic bifurcation.** Discussion notes that running existing climate models is becoming commoditised (AI can configure and execute standard runs), while validating models against observations, diagnosing failures, and communicating uncertainty to decision-makers remains human work.
 
 ---
 
@@ -193,7 +193,7 @@ CCS projects (Gorgon, CarbonNet, Browse) are hiring geologists for subsurface ch
 | Routine drill core logging and description | AI-powered core photography and ML lithology identification | Automated logging systems (Imago, DeepCore) |
 | Standard climate model execution | AI agents can configure and run established model configurations | Automated model pipelines with parameter tuning |
 | Desktop-only resource estimation | ML-based geostatistical estimation increasingly automated | AI-assisted block modelling tools |
-| Manual GIS digitization | Automated feature extraction from satellite/drone imagery | ML-powered geospatial analysis |
+| Manual GIS digitisation | Automated feature extraction from satellite/drone imagery | ML-powered geospatial analysis |
 | Routine environmental monitoring report writing | LLM-based report generation from structured data | AI report drafters with template compliance |
 
 **Rising Demand**
@@ -202,9 +202,9 @@ CCS projects (Gorgon, CarbonNet, Browse) are hiring geologists for subsurface ch
 |---|---|---|
 | AI output validation and quality assurance | All automated geological/climate outputs require expert human review | Train graduates to critique AI-generated geological interpretations |
 | Critical minerals exploration expertise | National sovereignty and energy transition driving sustained demand | Ensure GEOL90052 Precious & Critical Minerals remains core and current |
-| Field-based environmental assessment with regulatory sign-off | Tightening regulation requires qualified human assessors on-site | Emphasize field techniques and professional accreditation pathways |
+| Field-based environmental assessment with regulatory sign-off | Tightening regulation requires qualified human assessors on-site | Emphasise field techniques and professional accreditation pathways |
 | Climate uncertainty communication to non-scientists | Decision-makers need translated climate science, not raw model output | Strengthen SCIE90013 Communication for Research Scientists as compulsory |
-| CCS subsurface characterization | Massive pipeline of carbon storage projects requiring geological expertise | Consider adding CCS-specific elective or integrating into existing subjects |
+| CCS subsurface characterisation | Massive pipeline of carbon storage projects requiring geological expertise | Consider adding CCS-specific elective or integrating into existing subjects |
 | Computational geology (Python, ML, geostatistics) | Geologist of 2030 requires hybrid field + computational capability | Promote COMP90072 and COMP90059 more strongly within professional skills |
 | Cross-disciplinary systems integration | Climate-geology-hydrology-ecology interfaces creating new roles | Encourage cross-stream elective pathways and interdisciplinary projects |
 
@@ -235,7 +235,7 @@ CCS projects (Gorgon, CarbonNet, Browse) are hiring geologists for subsurface ch
 | CCS pipeline hiring | Medium | Projects are funded and progressing but some face delays |
 | Graduate destination outcomes | Low | No program-specific data available; inferred from sector-level patterns |
 
-> Evidence confidence for this report: Medium\u2013High. Earth sciences labor market signals are unusually clear due to the physical-embodied nature of the work and strong government/industry demand drivers. The main uncertainty is around the computational-only career pathways within Atmospheric Science.
+> Evidence confidence for this report: Medium\u2013High. Earth sciences labour market signals are unusually clear due to the physical-embodied nature of the work and strong government/industry demand drivers. The main uncertainty is around the computational-only career pathways within Atmospheric Science.
 `,
   },
 
@@ -250,13 +250,13 @@ CCS projects (Gorgon, CarbonNet, Browse) are hiring geologists for subsurface ch
 
 ### 1. DIAGNOSTIC SUMMARY
 
-The Master of Science (Earth Sciences) scores 24/36 (MODERATE RISK). Its fundamental architecture is strong: a 125-point research project creates genuine automation resistance, deep domain specialization in both streams provides durable expertise, and physical fieldwork requirements make graduates structurally difficult to replace with AI. The program's weaknesses are concentrated in two dimensions: AI Literacy (1/3) and Human & Relational Capability (1/3), with Outcome Evidence (1/3) as a third gap.
+The Master of Science (Earth Sciences) scores 24/36 (MODERATE RISK). Its fundamental architecture is strong: a 125-point research project creates genuine automation resistance, deep domain specialisation in both streams provides durable expertise, and physical fieldwork requirements make graduates structurally difficult to replace with AI. The program's weaknesses are concentrated in two dimensions: AI Literacy (1/3) and Human & Relational Capability (1/3), with Outcome Evidence (1/3) as a third gap.
 
 ---
 
 ### 2. SCORE-TO-ACTION MAPPING
 
-**Dimensions scoring 3/3 (protect and maintain):** D1 Automation Exposure, D3 Technical Depth, D4 Decision-Making Under Uncertainty, D6 Domain Depth, D7 Research Methods Rigor. Action: No changes needed. These scores reflect genuine structural strengths of the research-intensive earth science model. Protect the 125pt research project and fieldwork requirements. Dimensions: D1, D3, D4, D6, D7.
+**Dimensions scoring 3/3 (protect and maintain):** D1 Automation Exposure, D3 Technical Depth, D4 Decision-Making Under Uncertainty, D6 Domain Depth, D7 Research Methods Rigour. Action: No changes needed. These scores reflect genuine structural strengths of the research-intensive earth science model. Protect the 125pt research project and fieldwork requirements. Dimensions: D1, D3, D4, D6, D7.
 
 **Dimensions scoring 2/3 (enhance):** D2 Systems Thinking, D9 Curriculum Currency. Action: Make systems reasoning explicit in assessment criteria. Update subject availability and add AI content to discipline core. Dimensions: D2, D9.
 

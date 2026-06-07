@@ -41,7 +41,7 @@ My Health Record expansion and state health data linkage infrastructure (SAIL, S
 
 ## 3. CURRENT DISCUSSION SIGNALS (X)
 
-**Theme 1 — AI can run your regression but can't design your study.** Dominant professional discourse emphasizes that AI tools (automated statistical analysis, LLM-assisted literature reviews) accelerate epidemiological workflow but cannot replace the core skill: deciding what question to ask, what study design answers it validly, and what biases threaten validity. The consensus is clear: AI is making epidemiologists more productive, not redundant.
+**Theme 1 — AI can run your regression but can't design your study.** Dominant professional discourse emphasises that AI tools (automated statistical analysis, LLM-assisted literature reviews) accelerate epidemiological workflow but cannot replace the core skill: deciding what question to ask, what study design answers it validly, and what biases threaten validity. The consensus is clear: AI is making epidemiologists more productive, not redundant.
 
 **Theme 2 — Who validates the AI health tools?** Growing discussion about the need for epidemiologically-trained professionals to validate AI diagnostic, prognostic, and surveillance tools. The argument: clinical AI validation requires epidemiological methodology (sensitivity, specificity, predictive values, calibration, external validity) — and most AI developers lack this training.
 
@@ -105,7 +105,7 @@ My Health Record expansion and state health data linkage infrastructure (SAIL, S
 | Clinical trials biostatistician shortage | High | Consistent industry reports over 5+ years |
 | Graduate destination outcomes | Low | No program-specific data; inferred from sector patterns |
 
-> Evidence confidence for this report: Medium–High. Epidemiology labor market demand is strongly evidenced through government policy investment, pharmaceutical industry growth, and emerging AI governance needs. The main uncertainty is around the speed at which AI governance roles will scale from emerging to mainstream.
+> Evidence confidence for this report: Medium–High. Epidemiology labour market demand is strongly evidenced through government policy investment, pharmaceutical industry growth, and emerging AI governance needs. The main uncertainty is around the speed at which AI governance roles will scale from emerging to mainstream.
 
 ---
 

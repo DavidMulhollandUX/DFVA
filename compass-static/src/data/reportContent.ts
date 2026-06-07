@@ -23,19 +23,19 @@ export const REPORT_CONTENT: Record<
 
 ### 1. PROGRAM PROFILE
 The program is a multidisciplinary design degree aimed at built-environment and design-adjacent pathways (for example architecture, landscape, construction/property, and visual/communication design pathways).
-Typical early-career roles include junior designer, design assistant, documentation/visualization support, project coordination support, and graduate analyst roles in design/property workflows.
+Typical early-career roles include junior designer, design assistant, documentation/visualisation support, project coordination support, and graduate analyst roles in design/property workflows.
 
 ### 2. AUTOMATION EXPOSURE PROFILE
 Market signals for design-adjacent job families show strong compression of routine junior production tasks and rising demand for decision ownership, systems fluency, and AI workflow governance.
-Recent hiring patterns (UX/Product, Brand/Digital Content, Service Design/CX, Built Environment Support, Design Ops/Research) consistently favor candidates who can explain design decisions, validate outputs, and work cross-functionally, not only produce artifacts quickly.
-Net exposure remains **high** for graduates focused on template/asset execution; exposure decreases where roles require stakeholder accountability, regulatory interpretation, research rigor, and system-level decision making.
+Recent hiring patterns (UX/Product, Brand/Digital Content, Service Design/CX, Built Environment Support, Design Ops/Research) consistently favour candidates who can explain design decisions, validate outputs, and work cross-functionally, not only produce artifacts quickly.
+Net exposure remains **high** for graduates focused on template/asset execution; exposure decreases where roles require stakeholder accountability, regulatory interpretation, research rigour, and system-level decision making.
 
 ### 3. MARKET EVIDENCE SNAPSHOT
 | Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Implication |
 |---|---|---|---|
 | UX/Product Design | Junior postings increasingly request AI-assisted prototyping plus measurable UX outcomes | "Prompt operator" vs "decision owner" remains a dominant theme | Assess decision quality and impact metrics, not just prototype output |
-| Digital Content and Brand | Continued demand for high-volume multi-format output with automation expected | Ongoing concern over commoditization of pure production tasks | Reduce template-only assessment; add governance and QA evidence requirements |
-| Service Design / CX | More roles require process design with stakeholder and operational constraints | Discussions emphasize systems literacy in design teams | Add systems mapping, trade-off defense, and service constraints into core studio work |
+| Digital Content and Brand | Continued demand for high-volume multi-format output with automation expected | Ongoing concern over commoditisation of pure production tasks | Reduce template-only assessment; add governance and QA evidence requirements |
+| Service Design / CX | More roles require process design with stakeholder and operational constraints | Discussions emphasise systems literacy in design teams | Add systems mapping, trade-off defense, and service constraints into core studio work |
 | Built Environment Support | Tool-accelerated documentation remains common in early-career pathways | Increased discussion on BIM-assist and workflow automation | Increase regulatory and technical interpretation depth to reduce substitution risk |
 | Design Ops / Research | Signals rising for research ops, design systems, and governance ownership | Repeated emphasis on verification and trust in AI-assisted pipelines | Require primary research evidence and repeatable governance practice |
 
@@ -44,11 +44,11 @@ Net exposure remains **high** for graduates focused on template/asset execution;
 |---|---|---:|---|
 | 1 | Automation Exposure of Roles | 1 | Market signals show junior production tasks are rapidly automated and bundled, increasing substitution risk for artifact-only roles. |
 | 2 | Systems Thinking and Problem Framing | 2 | System framing appears in design pedagogy, but hiring signals indicate stronger explicit systems accountability is now expected. |
-| 3 | Technical and Quantitative Depth | 1 | Job-family signals increasingly favor hybrid design + analytics/technical literacy beyond current baseline undergraduate depth. |
+| 3 | Technical and Quantitative Depth | 1 | Job-family signals increasingly favour hybrid design + analytics/technical literacy beyond current baseline undergraduate depth. |
 | 4 | Decision-Making Under Uncertainty | 2 | Demand for defended trade-offs is increasing; current evidence suggests partial but uneven preparation. |
 | 5 | AI Literacy and Governance | 1 | Hiring and discourse both indicate governance and verification are becoming core, yet this is not consistently embedded as mandatory capability. |
-| 6 | Domain Depth and Specialization | 2 | Clear pathway specialization exists, but undergraduate level limits full professional depth. |
-| 7 | Research Methods Rigor | 1 | Market demand for evidence-backed design decisions is rising; primary-method rigor remains inconsistent across pathways. |
+| 6 | Domain Depth and Specialisation | 2 | Clear pathway specialisation exists, but undergraduate level limits full professional depth. |
+| 7 | Research Methods Rigour | 1 | Market demand for evidence-backed design decisions is rising; primary-method rigour remains inconsistent across pathways. |
 | 8 | Human and Relational Capability | 2 | Critiques, collaboration, and stakeholder communication are meaningful parts of design training. |
 | 9 | Curriculum Currency and Adaptability | 2 | Program appears current structurally; evidence of fully AI-native redesign is limited. |
 | 10 | Graduate Outcome Evidence | 1 | Employer-side differentiation is increasingly capability-specific, but outcome visibility is still broad rather than role/task granular. |
@@ -63,20 +63,20 @@ Net exposure remains **high** for graduates focused on template/asset execution;
 - **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?
   **UNCERTAIN** — there are foundations in studio/problem framing, but market evidence indicates stronger explicit systems/governance capability is now required than currently guaranteed.
 - **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?
-  **NO** (baseline trajectory) — unless curriculum shifts toward technical depth, AI governance, research rigor, and measurable decision impact.
+  **NO** (baseline trajectory) — unless curriculum shifts toward technical depth, AI governance, research rigour, and measurable decision impact.
 
 ### 6. ANALOGUE GRADUATE PROFILE
 Most threatened entry-level profile: **"AI-augmented junior production designer"** whose work is primarily concept variation, formatting, visual generation, and documentation assembly.
 Threatening tool classes: multimodal generative design/image systems, LLM-based research/brief synthesis, presentation automation, and workflow copilots integrated into design suites.
 
 ### 7. VERDICT
-This degree remains academically credible, but market evidence indicates its **default labor-market durability by 2027 is weak unless re-engineered around decision ownership and governance**. Hiring signals and current professional discourse both point to compression of routine production roles and expansion of hybrid expectations: systems thinking, validated AI-assisted workflows, stakeholder accountability, and evidence-backed outcomes. Without these shifts in core assessment and capability architecture, graduates are exposed to role commoditization in their first 2–5 years.
+This degree remains academically credible, but market evidence indicates its **default labour-market durability by 2027 is weak unless re-engineered around decision ownership and governance**. Hiring signals and current professional discourse both point to compression of routine production roles and expansion of hybrid expectations: systems thinking, validated AI-assisted workflows, stakeholder accountability, and evidence-backed outcomes. Without these shifts in core assessment and capability architecture, graduates are exposed to role commoditisation in their first 2–5 years.
 
 ### 8. RECOMMENDATIONS
 | Priority | Action | Dimension | Market Signal Link | Effort |
 |---|---|---|---|---|
 | P1 | Make AI workflow design + governance a core requirement in all pathways | 5, 1 | Junior hiring signals increasingly require AI-assisted workflow ownership, verification, and quality controls | Medium |
-| P1 | Shift assessment from artifact production to defended decisions under constraints | 4, 2 | Design labor market is rewarding accountable decision quality over raw output volume | Medium |
+| P1 | Shift assessment from artifact production to defended decisions under constraints | 4, 2 | Design labour market is rewarding accountable decision quality over raw output volume | Medium |
 | P1 | Require industry-linked projects with real client/accountability exposure | 4, 8, 10 | Role descriptions show stronger demand for stakeholder-facing delivery and cross-functional execution | High |
 | P2 | Add technical depth tracks (data, simulation, digital fabrication, regulation analytics) | 3, 6 | Rising demand for hybrid design + technical profiles across product, service, and built-environment pathways | High |
 | P2 | Publish granular outcome data by pathway/role/task mix | 10 | Employers increasingly differentiate candidates by demonstrated role-specific capability rather than degree label | Medium |
@@ -130,8 +130,8 @@ Core risk: The early-career cluster sits squarely in human middleware territory 
 | 3 | Technical and Quantitative Depth | 2 | *Business Intelligence Systems* and *IT Infrastructure* provide solid grounding; coding depth is light unless electives selected deliberately |
 | 4 | Decision-Making Under Uncertainty | 2 | Capstone and project management units include defended trade-offs; non-research track limits live uncertainty exposure |
 | 5 | AI Literacy and Governance | 1 | No dedicated AI governance unit visible in core structure; AI tools may appear in *Business Intelligence Systems* but not as a governed curriculum pillar |
-| 6 | Domain Depth and Specialization | 2 | IS is a defined domain; enterprise architecture and governance provide specialist grounding, but dual-stream design dilutes depth |
-| 7 | Research Methods Rigor | 2 | *Research Methods in IS* exists on research track; coursework-only track has weaker exposure |
+| 6 | Domain Depth and Specialisation | 2 | IS is a defined domain; enterprise architecture and governance provide specialist grounding, but dual-stream design dilutes depth |
+| 7 | Research Methods Rigour | 2 | *Research Methods in IS* exists on research track; coursework-only track has weaker exposure |
 | 8 | Human and Relational Capability | 2 | Stakeholder management and change management appear in project management units; no clinical or physical accountability layer |
 | 9 | Curriculum Currency and Adaptability | 2 | 2026 handbook reflects recent review; no explicit AI core units visible — a currency gap for a 2026 program |
 | 10 | Graduate Outcome Evidence | 1 | UniMelb publishes aggregate graduate outcome data; granular role/salary/time-to-employment data for MC-IS not prominently available |
@@ -152,7 +152,7 @@ Core risk: The early-career cluster sits squarely in human middleware territory 
 The MIS graduate mirrors the **Business Analyst of 2019**: a valued bridge between business and technology who organised information, translated requirements, and coordinated delivery. That role is now the primary target of GitHub Copilot/Cursor, Notion AI/Confluence AI, process mining tools (Celonis, UiPath), agentic project managers (Linear AI, Asana AI), and BI co-pilots (Power BI Copilot, Tableau AI).
 
 ### 6. VERDICT
-**The Master of Information Systems is HIGH RISK for 2027 labor-market viability as currently structured.** The program has the architecture to be better: enterprise architecture, governance, and research methods units are legitimate differentiators. But without a mandatory AI governance and deployment pillar, stronger technical depth requirements, and explicit positioning of graduates as AI workflow supervisors rather than IS coordinators, the degree is producing graduates for a shrinking role category. **Enroll with a clear upskilling plan, not as a standalone credential.**
+**The Master of Information Systems is HIGH RISK for 2027 labour-market viability as currently structured.** The program has the architecture to be better: enterprise architecture, governance, and research methods units are legitimate differentiators. But without a mandatory AI governance and deployment pillar, stronger technical depth requirements, and explicit positioning of graduates as AI workflow supervisors rather than IS coordinators, the degree is producing graduates for a shrinking role category. **Enrol with a clear upskilling plan, not as a standalone credential.**
 
 ### 7. RECOMMENDATIONS
 | Priority | Action | Dimension | Effort |
@@ -161,12 +161,12 @@ The MIS graduate mirrors the **Business Analyst of 2019**: a valued bridge betwe
 | 2 | Mandate real-client AI implementation capstone for all tracks | D4, D1, B | High |
 | 3 | Redesign SA&D assessment from BRD production to automation audit with governance recommendation | D2, D4, D1 | Medium |
 | 4 | Add mandatory data engineering elective pathway (SQL depth, Python, dbt) | D3, B | Medium |
-| 5 | Introduce sector specialization requirement (health IT, fintech, or govtech cluster) | D6, B | Medium |
+| 5 | Introduce sector specialisation requirement (health IT, fintech, or govtech cluster) | D6, B | Medium |
 | 6 | Publish granular graduate destination data (role-title, industry, salary, time-to-employment) | D10 | Medium |
 | 7 | Update program marketing and careers framing to AI workflow architect / automation governance analyst | D1 | Low |
 
 ### 8. THE REDESIGNED GRADUATE PROFILE
-The viable 2027 MIS graduate is not an information broker — they are an **AI workflow architect with governance accountability**. They enter an organization and immediately identify which IS processes are candidates for AI augmentation, which carry unacceptable risk if automated, and how to instrument the boundary between human and machine decision-making. They hold sector-specific regulatory knowledge, can brief an engineering team on data pipeline requirements, and have a real-client capstone artifact demonstrating AI governance in practice. They do not use AI tools. They govern, supervise, and redesign them.
+The viable 2027 MIS graduate is not an information broker — they are an **AI workflow architect with governance accountability**. They enter an organisation and immediately identify which IS processes are candidates for AI augmentation, which carry unacceptable risk if automated, and how to instrument the boundary between human and machine decision-making. They hold sector-specific regulatory knowledge, can brief an engineering team on data pipeline requirements, and have a real-client capstone artifact demonstrating AI governance in practice. They do not use AI tools. They govern, supervise, and redesign them.
 `,
   },
 
@@ -179,7 +179,7 @@ The viable 2027 MIS graduate is not an information broker — they are an **AI w
 **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-is/
 **Prompt version:** DFVA-COPILOT-MARKET-v1
 
-> **Evidence confidence note:** Live job-ad retrieval and real-time X/social signal scraping are not available in this session. Signals are constructed from structured knowledge of IS labor markets to early 2026, documented hiring trend reports (WEF Future of Jobs 2025, LinkedIn Jobs on the Rise 2025, McKinsey AI and the Workforce 2024–2025), and pattern inference from the MC-IS curriculum structure.
+> **Evidence confidence note:** Live job-ad retrieval and real-time X/social signal scraping are not available in this session. Signals are constructed from structured knowledge of IS labour markets to early 2026, documented hiring trend reports (WEF Future of Jobs 2025, LinkedIn Jobs on the Rise 2025, McKinsey AI and the Workforce 2024–2025), and pattern inference from the MC-IS curriculum structure.
 
 ### 1. JOB FAMILY MAP
 | Job Family | Typical Entry Titles | Core Tasks | AI Substitution Pressure | Skills Increasing in Demand | Evidence Notes |
@@ -226,14 +226,14 @@ The viable 2027 MIS graduate is not an information broker — they are an **AI w
 2. Replace static process mapping assessments with automation audit format: identify substitution candidates, specify human-in-the-loop boundary, defend governance recommendation.
 3. Add data engineering elective pathway (dbt, SQL depth, Python for data) distinct from BI tool consumption.
 4. Introduce enterprise AI implementation capstone with real client, real uncertainty, failure modes, and compliance check.
-5. Embed sector specialization requirements (health IT, fintech, or govtech) with domain regulatory content.
+5. Embed sector specialisation requirements (health IT, fintech, or govtech) with domain regulatory content.
 6. Publish granular graduate outcome data: role-title, industry, salary-band within 12 months of graduation.
 7. Reposition career framing from BA/PM/coordinator to AI workflow architect and automation governance analyst.
 
 ### 6. EVIDENCE CONFIDENCE + GAPS
 - **Confidence level:** Medium.
 - **What is strong:** Directional trend consistency across mainstream job-market signals (WEF, LinkedIn, McKinsey, ISACA, PMI, Gartner).
-- **What is limited:** No live ANZ job-ad scrape in this run; signals are synthesized and indicative. ANZ market may lag US/UK by 6–12 months.
+- **What is limited:** No live ANZ job-ad scrape in this run; signals are synthesised and indicative. ANZ market may lag US/UK by 6–12 months.
 - **Critical gaps:** Live ANZ job-ad scrape (last 90 days); UniMelb MC-IS granular graduate destination data; employer interviews from 3–5 regular MC-IS hiring organisations.
 `,
   },
@@ -272,7 +272,7 @@ The MC-IS scored **18/36 — HIGH RISK**. One point below the MODERATE RISK thre
 | D10 — Graduate Outcome Evidence | 1/3 | Aggregate data only; no role-title or salary granularity for MC-IS | Publish cohort-level destination data within 12 months; implement alumni tracking |
 | D4 — Decision-Making | 2/3 | Non-research track limits live uncertainty exposure | Mandate real-client capstone for all tracks |
 | D3 — Technical Depth | 2/3 | Coding depth light without deliberate elective selection | Introduce mandatory data engineering elective pathway (SQL, Python, dbt) |
-| D6 — Domain Depth | 2/3 | Dual-stream design dilutes specialization | Require sector elective cluster (health IT, fintech, or govtech) |
+| D6 — Domain Depth | 2/3 | Dual-stream design dilutes specialisation | Require sector elective cluster (health IT, fintech, or govtech) |
 | D9 — Curriculum Currency | 2/3 | No AI core units visible in 2026 handbook | Establish employer advisory panel with annual curriculum signal review |
 | B — Irreplaceability Premium | 1/3 | Business/technology bridging value is common and undifferentiated | Build rare integration: AI governance + sector depth + data engineering |
 
@@ -283,7 +283,7 @@ The MC-IS scored **18/36 — HIGH RISK**. One point below the MODERATE RISK thre
 | 2 | Mandate real-client AI implementation capstone for all tracks | D4, D1, B | Seek: Automation Analyst +47% YoY; AI Governance Analyst emerging ANZ title | HIGH | HIGH | Capstone Coordinator + Industry Partnerships | Months 4–12 | 100% graduates completing real-client capstone by 2028 |
 | 3 | Redesign SA&D assessment: replace BRD with automation audit + governance recommendation | D2, D4, D1 | ANZ BA job ad language shifting; BA entry roles down 18–22% YoY | HIGH | MEDIUM | SA&D Unit Coordinator | Months 2–6 | 90%+ graduates demonstrating automation audit methodology |
 | 4 | Add mandatory data engineering elective pathway (SQL, Python, dbt) | D3, B | LinkedIn: Analytics Engineer +31% YoY; Reporting Analyst -22% | HIGH | MEDIUM | School of CIS + Elective Coordinator | Months 3–9 design; Sem 2 2027 | 60%+ graduates completing data engineering elective by 2028 |
-| 5 | Introduce sector specialization requirement (health IT, fintech, or govtech cluster) | D6, B | Regulated sector IS graduates outperforming generalists | HIGH | MEDIUM | Program Director + Faculty Elective Coordinators | Months 6–12 | 100% graduates completing sector cluster by 2028 |
+| 5 | Introduce sector specialisation requirement (health IT, fintech, or govtech cluster) | D6, B | Regulated sector IS graduates outperforming generalists | HIGH | MEDIUM | Program Director + Faculty Elective Coordinators | Months 6–12 | 100% graduates completing sector cluster by 2028 |
 | 6 | Implement granular graduate destination tracking | D10 | No current granular data; COMPASS requires this for quality evidence | MEDIUM | MEDIUM | Program Director + Careers Team | Months 1–6 system; Month 12 publish | First cohort destination report by end of 2027 |
 | 7 | Establish employer advisory panel with annual curriculum review | D9, D10 | Big 4 hiring expectations changed 2023→2026 without curriculum response | MEDIUM | MEDIUM | Program Director + Industry Engagement Lead | Months 3–6 | Panel constituted Month 6; 2 curriculum changes traceable to panel by Month 18 |
 | 8 | Update marketing and careers framing to AI workflow architect / automation governance analyst | D1 | Seek: AI Governance Analyst, Automation CoE Analyst growing; BA/PM entry down 14–22% | MEDIUM | LOW | Marketing + Careers Team | Months 1–3 | 40%+ graduates targeting new role titles by 2028 |
@@ -307,7 +307,7 @@ The MC-IS scored **18/36 — HIGH RISK**. One point below the MODERATE RISK thre
 ### 6. ASSESSMENT REDESIGN EXAMPLES
 **SA&D — Redesigned:** Conduct an automation audit of three nominated business processes. For each: (1) identify AI substitution candidates with justification; (2) specify the human-in-the-loop boundary; (3) design a governance framework including failure-mode analysis and escalation protocols; (4) produce a change readiness brief for the executive sponsor. Defend in a 15-minute panel review.
 
-**Capstone — Redesigned (all tracks):** Working with a confirmed industry client, design and document an AI workflow implementation. Deliverables: current-state automation audit; proposed AI workflow design with human-in-the-loop specification; governance and compliance framework (NIST AI RMF, ISO 42001, applicable sector regulation); change management plan; failure-mode and risk register; post-implementation measurement plan. Client must confirm the project addressed a real organizational problem.
+**Capstone — Redesigned (all tracks):** Working with a confirmed industry client, design and document an AI workflow implementation. Deliverables: current-state automation audit; proposed AI workflow design with human-in-the-loop specification; governance and compliance framework (NIST AI RMF, ISO 42001, applicable sector regulation); change management plan; failure-mode and risk register; post-implementation measurement plan. Client must confirm the project addressed a real organisational problem.
 
 ### 7. MEASUREMENT PLAN
 **Leading indicators (12 months):** AI Governance unit live (Sem 1 2027) · Student governance competency 80%+ · SA&D automation audit deployed (Sem 2 2026) · Employer panel constituted (Month 6) · Destination tracking operational (Month 6) · Updated marketing published (Month 3)
@@ -349,11 +349,11 @@ The Bachelor of Science at the University of Melbourne offers majors across biol
 |---|---|---|---|
 | 1 | Automation Exposure of Roles | 2/3 | Cluster B graduates land in computational roles with judgment requirements; Cluster A and C face higher early-career routine work exposure. Mixed profile \u2014 entry is uneven. |
 | 2 | Systems Thinking and Problem Framing | 2/3 | Science methodology teaches hypothesis formation and experimental design \u2014 genuine systems thinking. Trade-off reasoning and failure-mode analysis not consistently integrated across all majors. |
-| 3 | Technical and Quantitative Depth | 3/3 | Strongest dimension. Majors in Mathematics, Statistics, Physics, and Chemistry carry genuine technical rigor. Third-year units are substantively demanding. |
+| 3 | Technical and Quantitative Depth | 3/3 | Strongest dimension. Majors in Mathematics, Statistics, Physics, and Chemistry carry genuine technical rigour. Third-year units are substantively demanding. |
 | 4 | Decision-Making Under Uncertainty | 2/3 | Experimental science involves uncertainty. Research Project provides authentic exposure but is optional \u2014 many students graduate without a live high-stakes assessment. |
 | 5 | AI Literacy and Governance | 1/3 | No mandatory AI literacy or governance unit across the degree. AI appears in computational majors as tooling but no governance framework is embedded at degree level. |
-| 6 | Domain Depth and Specialization | 3/3 | Major structure provides genuine specialization. Third-year depth in Physics, Chemistry, Biochemistry, or Mathematics is substantive and not easily replicated. |
-| 7 | Research Methods Rigor | 3/3 | Scientific method is core curriculum. All majors include experimental design, data collection, and interpretation. Honours stream adds full research methodology rigor. |
+| 6 | Domain Depth and Specialisation | 3/3 | Major structure provides genuine specialisation. Third-year depth in Physics, Chemistry, Biochemistry, or Mathematics is substantive and not easily replicated. |
+| 7 | Research Methods Rigour | 3/3 | Scientific method is core curriculum. All majors include experimental design, data collection, and interpretation. Honours stream adds full research methodology rigour. |
 | 8 | Human and Relational Capability | 1/3 | Science degrees historically under-invest in interpersonal, ethical, and stakeholder capability. Breadth subjects provide exposure but not core assessment. |
 | 9 | Curriculum Currency and Adaptability | 2/3 | 2026 handbook reflects ongoing review; some majors integrated data science tools. No degree-level AI core unit visible \u2014 significant currency gap. |
 | 10 | Graduate Outcome Evidence | 2/3 | Faculty-level destination data published; major-level role-title and salary granularity not available. Partial transparency. |
@@ -366,7 +366,7 @@ The Bachelor of Science at the University of Melbourne offers majors across biol
 UNCERTAIN \u2014 highly major-dependent. For Cluster A research assistant roles: YES for documentation, literature review, data entry, and routine analysis. For Cluster B data analyst roles: YES for standard analysis and dashboard production. For Cluster C specialist geoscience/chemistry roles: NO \u2014 domain knowledge and instrument expertise create genuine automation friction.
 
 **Q2: Does this program train graduates to design systems, own decisions, or generate original insight?**
-YES \u2014 conditionally. The scientific method is fundamentally about generating original insight. This capability is fully realized only in students who complete third-year research projects and proceed to honours. Three-year graduates who have not engaged with the Research Project have weaker evidence.
+YES \u2014 conditionally. The scientific method is fundamentally about generating original insight. This capability is fully realised only in students who complete third-year research projects and proceed to honours. Three-year graduates who have not engaged with the Research Project have weaker evidence.
 
 **Q3: Will these graduates be more employable in 5 years than today, given AI trends?**
 YES \u2014 for Cluster B and Cluster C specialists. UNCERTAIN \u2014 for Cluster A generalists. Graduates with deep quantitative, computational, or physical science expertise are increasingly valuable as the humans who can validate, interpret, and govern AI-generated scientific outputs.
@@ -379,7 +379,7 @@ The most exposed B-Sci graduate is the **General Science Graduate of 2021**: bro
 
 **The Bachelor of Science is MODERATE RISK \u2014 a degree with genuine strengths that are unevenly distributed across its graduate population.**
 
-Technical and quantitative rigor (D3: 3/3), domain depth (D6: 3/3), and research methods rigor (D7: 3/3) are legitimate and durable differentiators \u2014 fully realized only for graduates who specialize deeply and continue to postgraduate study.
+Technical and quantitative rigour (D3: 3/3), domain depth (D6: 3/3), and research methods rigour (D7: 3/3) are legitimate and durable differentiators \u2014 fully realised only for graduates who specialise deeply and continue to postgraduate study.
 
 Two critical gaps undermine the credential: **D5 \u2014 AI Literacy (1/3)**: a science degree in 2026 with no mandatory AI governance unit is a curriculum currency failure. **D8 \u2014 Human and Relational Capability (1/3)**: as AI absorbs the technical execution layer, interpersonal judgment and stakeholder communication become the primary human value-add \u2014 and the degree does not assess this.
 
@@ -389,7 +389,7 @@ The degree is a strong foundation that requires deliberate completion. Students 
 
 | Priority | Action | Dimension | Effort |
 |---|---|---|---|
-| 1 | Select a major with genuine technical depth \u2014 Mathematics, Statistics, Physics, Chemistry, or Computing and Software Systems | D6, D3 | Low (decision at enrollment) |
+| 1 | Select a major with genuine technical depth \u2014 Mathematics, Statistics, Physics, Chemistry, or Computing and Software Systems | D6, D3 | Low (decision at enrolment) |
 | 2 | Complete the Research Project \u2014 optional but the single most important differentiator | D4, D7 | Medium |
 | 3 | Build AI literacy deliberately: complete an AI governance certification (AWS AI Practitioner, Google AI Essentials) \u2014 the degree does not provide this | D5 | Low\u2013Medium |
 | 4 | Proceed to honours or postgraduate study for research, clinical, or specialist consulting roles | D1, D6 | High |
@@ -400,7 +400,7 @@ The degree is a strong foundation that requires deliberate completion. Students 
 
 ### 8. THE REDESIGNED GRADUATE PROFILE
 
-The 2027-ready B-Sci graduate chose a major with genuine technical depth and completed it at the hardest available level. They did the Research Project in third year \u2014 primary data, defended methodology, genuine uncertainty about whether their results were correct. They understand AI tools as systems with failure modes, training biases, and governance requirements. They have a domain: not science in the broad sense, but a specific regulatory environment, instrument limitation set, or physical system. That domain knowledge is what makes their judgment non-replicable by a general-purpose agent. They can explain their work to a non-scientist \u2014 because in 2027, the value of scientific expertise is realized through collaboration, governance, and communication, not through technical execution alone.
+The 2027-ready B-Sci graduate chose a major with genuine technical depth and completed it at the hardest available level. They did the Research Project in third year \u2014 primary data, defended methodology, genuine uncertainty about whether their results were correct. They understand AI tools as systems with failure modes, training biases, and governance requirements. They have a domain: not science in the broad sense, but a specific regulatory environment, instrument limitation set, or physical system. That domain knowledge is what makes their judgment non-replicable by a general-purpose agent. They can explain their work to a non-scientist \u2014 because in 2027, the value of scientific expertise is realised through collaboration, governance, and communication, not through technical execution alone.
 
 ---
 **Assessment Date:** 2026-05-13 | **Source URL:** https://handbook.unimelb.edu.au/2026/courses/b-sci | **Prompt Version:** DFVA-COPILOT-PROMPT-v1
@@ -525,7 +525,7 @@ Seek ANZ new title appearances (Q4 2025\u2013Q1 2026): AI Research Scientist (Li
 **Prompt version:** DFVA-COPILOT-RECOMMENDER-v1
 
 ### 1. DIAGNOSTIC SUMMARY
-The B-Sci scored **23/36 \u2014 MODERATE RISK**. Three strong scores (D3, D6, D7: each 3/3) are real and defensible \u2014 but fully realized only for graduates who specialize deeply and proceed to honours or postgraduate study. The two critical 1/3 scores define the primary intervention targets.
+The B-Sci scored **23/36 \u2014 MODERATE RISK**. Three strong scores (D3, D6, D7: each 3/3) are real and defensible \u2014 but fully realised only for graduates who specialise deeply and proceed to honours or postgraduate study. The two critical 1/3 scores define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
@@ -534,8 +534,8 @@ The B-Sci scored **23/36 \u2014 MODERATE RISK**. Three strong scores (D3, D6, D7
 | D3 \u2014 Technical and Quantitative Depth | 3/3 | Strong |
 | D4 \u2014 Decision-Making Under Uncertainty | 2/3 | Adequate |
 | D5 \u2014 AI Literacy and Governance | 1/3 | Critical gap |
-| D6 \u2014 Domain Depth and Specialization | 3/3 | Strong |
-| D7 \u2014 Research Methods Rigor | 3/3 | Strong |
+| D6 \u2014 Domain Depth and Specialisation | 3/3 | Strong |
+| D7 \u2014 Research Methods Rigour | 3/3 | Strong |
 | D8 \u2014 Human and Relational Capability | 1/3 | Critical gap |
 | D9 \u2014 Curriculum Currency | 2/3 | Adequate |
 | D10 \u2014 Graduate Outcome Evidence | 2/3 | Adequate |
@@ -549,7 +549,7 @@ The B-Sci scored **23/36 \u2014 MODERATE RISK**. Three strong scores (D3, D6, D7
 | D5 \u2014 AI Literacy and Governance | 1/3 | No mandatory AI governance unit. AI appears in computational majors as tooling but not as a governed, critically evaluated system. | Create mandatory core unit: AI in Scientific Research (tool evaluation, model limitation analysis, NIST AI RMF applied to research contexts). |
 | D8 \u2014 Human and Relational Capability | 1/3 | Science degrees systematically under-invest in communication, ethical reasoning, and stakeholder engagement. As AI absorbs technical execution, this gap becomes structurally dangerous. | Create mandatory science communication and ethics unit with stakeholder-facing assessed deliverable. |
 | D4 \u2014 Decision-Making | 2/3 | Research Project provides authentic uncertainty exposure but is not mandatory. Many graduates complete without a live high-stakes assessment. | Mandate Research Project for all students. Require Science Internship with assessed decision-making reflection. |
-| D3 \u2014 Technical Depth | 3/3 | Strong. Risk is in Cluster A majors where quantitative rigor is lighter. | Maintain and defend. Audit quantitative requirements in life sciences majors. |
+| D3 \u2014 Technical Depth | 3/3 | Strong. Risk is in Cluster A majors where quantitative rigour is lighter. | Maintain and defend. Audit quantitative requirements in life sciences majors. |
 | D6 \u2014 Domain Depth | 3/3 | Strong. Risk is students selecting shallow majors to avoid difficulty. | Maintain depth requirements. Introduce major selection advising mapping AI substitution pressure to major choice. |
 | D9 \u2014 Curriculum Currency | 2/3 | No degree-level AI governance content visible despite recent review. | Establish science curriculum advisory panel with annual review cycle and documented change tracking. |
 | D10 \u2014 Graduate Outcome Evidence | 2/3 | Faculty-level data only; major-level granularity unavailable. | Publish major-level graduate destination data: role titles, salary bands, postgraduate study rates within 12 months. |
@@ -557,18 +557,18 @@ The B-Sci scored **23/36 \u2014 MODERATE RISK**. Three strong scores (D3, D6, D7
 ### 3. PRIORITISED INTERVENTIONS TABLE
 | Priority | Action | Target Dimensions | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Create mandatory core unit: AI in Scientific Research (tool evaluation, model limitation analysis, research integrity, NIST AI RMF applied to research) | D5, D9, B | Seek ANZ: AI tool literacy in 34% of science-adjacent postings (up from 11% in 2024); CSIRO and APS science roles requiring ability to evaluate AI model outputs | HIGH | HIGH | Faculty of Science Dean of Teaching + School of CIS (co-design) | Months 1\u20139 design; Sem 1 2027 delivery | Unit live Sem 1 2027; 100% enrollment; 80%+ student proficiency on AI tool evaluation |
+| 1 | Create mandatory core unit: AI in Scientific Research (tool evaluation, model limitation analysis, research integrity, NIST AI RMF applied to research) | D5, D9, B | Seek ANZ: AI tool literacy in 34% of science-adjacent postings (up from 11% in 2024); CSIRO and APS science roles requiring ability to evaluate AI model outputs | HIGH | HIGH | Faculty of Science Dean of Teaching + School of CIS (co-design) | Months 1\u20139 design; Sem 1 2027 delivery | Unit live Sem 1 2027; 100% enrolment; 80%+ student proficiency on AI tool evaluation |
 | 2 | Mandate Research Project for all students (primary data, defended methodology, failure-mode analysis, AI tool use reflection) | D4, D1, D7, B | RA postings requiring demonstrated primary research experience; junior research roles compressing as AI handles literature synthesis | HIGH | HIGH | Faculty Curriculum Committee + Major Coordinators | Months 3\u201312 redesign; Sem 1 2028 implementation | 100% graduates completing Research Project by 2028 |
 | 3 | Create mandatory science communication and ethics unit (stakeholder-facing deliverable: policy brief, public explainer, or client report) | D8, D5, B | APS requiring evidence translation for non-specialist audiences; ANZ biotech citing communication as graduate gap | HIGH | MEDIUM | Faculty of Science + School of Historical and Philosophical Studies (co-design) | Months 2\u20138 design; Sem 2 2027 delivery | Unit live Sem 2 2027; 90%+ graduates completing stakeholder deliverable |
 | 4 | Make Science Internship a core elective requirement (decision-making reflection, AI tool use log, accountability statement) | D4, D8, D1 | AECOM, GHD, WSP ANZ adding AI-assisted modelling tools to graduate requirements; biotech explicitly valuing internship-evidenced domain application | HIGH | MEDIUM | Faculty Careers and Industry Engagement | Months 4\u201310 redesign; Sem 1 2027 mandate | 80%+ graduates completing Science Internship by 2028 |
 | 5 | Publish major-level graduate destination data (role-title, industry, salary band, postgraduate study rate) | D10, D1 | Students cannot make evidence-based major selection decisions; major-level data directly addresses Cluster A/B/C divergence | MEDIUM | MEDIUM | Faculty + Careers and Employability + Institutional Research | Months 1\u20136 system; Month 12 publish | First major-level destination report by end of 2027 |
-| 6 | Introduce AI substitution pressure framing into major selection advising | D1, D9 | Junior lab technician and RA roles compressing; students currently choosing majors without labor-market durability information | MEDIUM | LOW | Faculty Marketing + Careers Team | Months 1\u20133 | Updated advising materials published by Month 3 |
+| 6 | Introduce AI substitution pressure framing into major selection advising | D1, D9 | Junior lab technician and RA roles compressing; students currently choosing majors without labour-market durability information | MEDIUM | LOW | Faculty Marketing + Careers Team | Months 1\u20133 | Updated advising materials published by Month 3 |
 | 7 | Establish Faculty curriculum advisory panel (CSIRO, APS, ANZ biotech/pharma, environmental consulting, AI research institute) | D9, D10 | Government science agencies showing AI literacy as new baseline requirement \u2014 curriculum lag is the structural problem | MEDIUM | MEDIUM | Faculty Dean + Industry Engagement Office | Months 3\u20136 formation | Panel constituted by Month 6; 2 curriculum changes traceable to panel by Month 18 |
 | 8 | Introduce graduation portfolio requirement (one research artifact, one AI governance reflection, one stakeholder communication piece) | D4, D8, B | CSIRO and university AI research roles requiring evidence of domain science depth + AI critique capability | MEDIUM | MEDIUM | Faculty + Academic Board | Months 6\u201312 design; Sem 1 2028 implementation | 100% graduates completing portfolio by 2028 |
 
 ### 4. 12-MONTH IMPLEMENTATION ROADMAP
 
-**Month 1\u20133 \u2014 Foundation and Quick Wins:** Update major selection advising with AI substitution pressure framing (P6). Initiate major-level graduate destination data system design (P5). Begin curriculum advisory panel formation (P7). Scope AI in Scientific Research unit: assign coordinator, draft learning outcomes, identify co-design partner in Computing and Information Systems (P1). Commission audit of Research Project enrollment rates and barriers (P2 groundwork).
+**Month 1\u20133 \u2014 Foundation and Quick Wins:** Update major selection advising with AI substitution pressure framing (P6). Initiate major-level graduate destination data system design (P5). Begin curriculum advisory panel formation (P7). Scope AI in Scientific Research unit: assign coordinator, draft learning outcomes, identify co-design partner in Computing and Information Systems (P1). Commission audit of Research Project enrolment rates and barriers (P2 groundwork).
 
 **Month 3\u20136 \u2014 Design Sprint:** AI in Scientific Research unit: full outline, assessment design, and resource list complete (P1). Science Communication and Ethics unit: outline drafted, stakeholder deliverable format confirmed (P3). Curriculum advisory panel constituted; first briefing session (P7). Science Internship redesign: new assessment requirements drafted \u2014 decision log, AI tool use log, accountability statement (P4). Graduate destination data: collection instruments and reporting system in place (P5).
 
@@ -596,7 +596,7 @@ The B-Sci scored **23/36 \u2014 MODERATE RISK**. Three strong scores (D3, D6, D7
 
 **Leading indicators (12 months):** AI in Scientific Research unit live Sem 1 2027 \u00b7 Student AI tool evaluation competency 80%+ \u00b7 Science Communication and Ethics unit approved Sem 2 2027 \u00b7 Major selection advising updated Month 3 \u00b7 Curriculum advisory panel constituted Month 6 \u00b7 Graduate destination tracking operational Month 6 \u00b7 Research Project mandate proposal submitted Month 9.
 
-**Lagging indicators (12\u201324 months):** Graduate placement in AI-governance or specialist science roles 25%+ of cohort by 2028 \u00b7 Employer satisfaction with AI governance readiness 75%+ rating well prepared \u00b7 DFVA score 26\u201327 by Month 12; 31\u201333 by Month 24 \u00b7 Research Project completion rate 100% by 2028 \u00b7 Science Internship completion rate 80%+ by 2028 \u00b7 Time-to-employment median 90 days \u00b7 Cluster B major enrollment up 15%+ by 2028.
+**Lagging indicators (12\u201324 months):** Graduate placement in AI-governance or specialist science roles 25%+ of cohort by 2028 \u00b7 Employer satisfaction with AI governance readiness 75%+ rating well prepared \u00b7 DFVA score 26\u201327 by Month 12; 31\u201333 by Month 24 \u00b7 Research Project completion rate 100% by 2028 \u00b7 Science Internship completion rate 80%+ by 2028 \u00b7 Time-to-employment median 90 days \u00b7 Cluster B major enrolment up 15%+ by 2028.
 
 ### 8. REDESIGNED GRADUATE PROFILE (2027 READY)
 The 2027-ready B-Sci graduate did not coast through a broad science degree hoping that scientific literacy would be enough. They chose a major with genuine technical depth, completed a primary research project with pre-registration and a defended methodology, and finished their degree able to look at an AI tool in their domain and tell you exactly where it fails. They completed a Science Internship in a regulated or high-stakes environment. Their graduation portfolio has three artifacts that no AI can produce for them: a primary research dataset with a defended methodology, an AI governance brief for a tool in their domain, and a stakeholder communication piece reviewed by a non-specialist panel. They are the person their research group or employer relies on to decide which AI outputs to trust \u2014 and why.
@@ -788,7 +788,7 @@ They are the graduate that a design strategy team, a service design consultancy,
 ### 6. EVIDENCE CONFIDENCE + GAPS
 - **Confidence level:** Medium.
 - **What is strong:** Directional trend consistency across mainstream job-market and professional discourse signals.
-- **What is limited:** No direct API-fed count extraction in this run; signals are synthesized and indicative.
+- **What is limited:** No direct API-fed count extraction in this run; signals are synthesised and indicative.
 - **How to improve next run:** Add structured scraping/API pipeline for dated posting counts by role family and region.
 
 ---

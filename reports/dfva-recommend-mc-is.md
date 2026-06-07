@@ -8,7 +8,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY
 
-The MC-IS scored **18/36 — HIGH RISK**. One point below the MODERATE RISK threshold. The score distribution reveals a structurally uneven program: adequate breadth across systems thinking, domain grounding, and human capability, but critically weak on the dimensions that determine 2027 labor-market durability.
+The MC-IS scored **18/36 — HIGH RISK**. One point below the MODERATE RISK threshold. The score distribution reveals a structurally uneven program: adequate breadth across systems thinking, domain grounding, and human capability, but critically weak on the dimensions that determine 2027 labour-market durability.
 
 | Dimension | Score | Status |
 |---|---|---|
@@ -17,8 +17,8 @@ The MC-IS scored **18/36 — HIGH RISK**. One point below the MODERATE RISK thre
 | D3 — Technical and Quantitative Depth | 2/3 | Adequate |
 | D4 — Decision-Making Under Uncertainty | 2/3 | Adequate |
 | D5 — AI Literacy and Governance | 1/3 | ⚠️ Critical gap |
-| D6 — Domain Depth and Specialization | 2/3 | Adequate |
-| D7 — Research Methods Rigor | 2/3 | Adequate |
+| D6 — Domain Depth and Specialisation | 2/3 | Adequate |
+| D7 — Research Methods Rigour | 2/3 | Adequate |
 | D8 — Human and Relational Capability | 2/3 | Adequate |
 | D9 — Curriculum Currency and Adaptability | 2/3 | Adequate |
 | D10 — Graduate Outcome Evidence | 1/3 | ⚠️ Critical gap |
@@ -38,7 +38,7 @@ The MC-IS scored **18/36 — HIGH RISK**. One point below the MODERATE RISK thre
 | D3 — Technical Depth | 2/3 | BI and IT Infrastructure provide grounding; coding depth light without deliberate elective selection | Introduce mandatory data engineering elective pathway (SQL, Python, dbt) |
 | D4 — Decision-Making | 2/3 | Capstone includes defended trade-offs; non-research track limits live uncertainty exposure | Mandate real-client capstone for all tracks |
 | D5 — AI Literacy and Governance | 1/3 | No dedicated AI governance unit in core curriculum | Create mandatory core unit: AI Governance and Deployment |
-| D6 — Domain Depth | 2/3 | Dual-stream design dilutes specialization depth | Require sector elective cluster (health IT, fintech, or govtech) |
+| D6 — Domain Depth | 2/3 | Dual-stream design dilutes specialisation depth | Require sector elective cluster (health IT, fintech, or govtech) |
 | D7 — Research Methods | 2/3 | Research Methods exists on research track; coursework-only track has weak exposure | Mandate condensed research methods module in coursework track |
 | D8 — Human and Relational | 2/3 | Stakeholder management present; no physical accountability layer | Strengthen AI adoption change management content; require live stakeholder engagement deliverable |
 | D9 — Curriculum Currency | 2/3 | 2026 handbook recent; no AI core units visible | Establish employer advisory panel with annual curriculum signal review |
@@ -70,7 +70,7 @@ The MC-IS scored **18/36 — HIGH RISK**. One point below the MODERATE RISK thre
 | 2 | Mandate real-client AI implementation capstone for all tracks | D4, D1, B | Seek: Automation Analyst +47% YoY; AI Governance Analyst emerging ANZ title | HIGH | HIGH | Capstone Coordinator + Industry Partnerships | Months 4–12 redesign + partner sourcing | 100% graduates completing real-client capstone by 2028 |
 | 3 | Redesign SA&D assessment: replace BRD with automation audit + governance recommendation | D2, D4, D1 | ANZ BA job ad language shifting; BA entry roles down 18–22% YoY | HIGH | MEDIUM | SA&D Unit Coordinator | Months 2–6 | 90%+ graduates demonstrating automation audit methodology |
 | 4 | Add mandatory data engineering elective pathway (SQL, Python, dbt) | D3, B | LinkedIn: Analytics Engineer +31% YoY; Reporting Analyst -22% | HIGH | MEDIUM | School of CIS + Elective Coordinator | Months 3–9 design; Sem 2 2027 delivery | 60%+ graduates completing data engineering elective by 2028 |
-| 5 | Introduce sector specialization requirement (health IT, fintech, or govtech cluster) | D6, B | Regulated sector IS graduates outperforming generalists; strongest IS hiring growth in health IT, fintech, govtech | HIGH | MEDIUM | Program Director + Faculty Elective Coordinators | Months 6–12 | 100% graduates completing sector cluster by 2028 |
+| 5 | Introduce sector specialisation requirement (health IT, fintech, or govtech cluster) | D6, B | Regulated sector IS graduates outperforming generalists; strongest IS hiring growth in health IT, fintech, govtech | HIGH | MEDIUM | Program Director + Faculty Elective Coordinators | Months 6–12 | 100% graduates completing sector cluster by 2028 |
 | 6 | Implement granular graduate destination tracking | D10 | No current granular data; COMPASS requires this for program quality evidence | MEDIUM | MEDIUM | Program Director + Careers Team | Months 1–6 system; Month 12 first publish | First cohort destination report by end of 2027 |
 | 7 | Establish employer advisory panel with annual curriculum review | D9, D10 | Big 4 hiring expectations changed 2023→2026 without curriculum response | MEDIUM | MEDIUM | Program Director + Industry Engagement Lead | Months 3–6 | Panel constituted Month 6; 2 curriculum changes traceable to panel by Month 18 |
 | 8 | Update marketing and careers framing to AI workflow architect / automation governance analyst | D1 | Seek: AI Governance Analyst, Automation CoE Analyst growing; BA/PM entry down 14–22% | MEDIUM | LOW | Marketing + Careers Team | Months 1–3 | 40%+ graduates targeting new role titles by 2028 |
@@ -123,7 +123,7 @@ Goal: Close three critical 1/3 scores
 MONTHS 13–18: Depth and Differentiation
 Goal: Convert adequate scores to strong
   Data engineering elective live             D3: 2 → 3
-  Sector specialization clusters operational D6: 2 → 3
+  Sector specialisation clusters operational D6: 2 → 3
   Employer advisory panel first full cycle   D9: 2 → 3
   Real-client capstone first full cohort     D4: 2 → 3   B: 1 → 2
 
@@ -169,7 +169,7 @@ Goal: Demonstrate outcomes; establish COMPASS-aligned measurement
 > Research project on an IS topic of your choice. Produce a thesis or extended research paper.
 
 **Redesigned (all tracks):**
-> Working with a confirmed industry client, design and document an AI workflow implementation. Deliverables: (1) current-state automation audit; (2) proposed AI workflow design with human-in-the-loop specification; (3) governance and compliance framework (NIST AI RMF, ISO 42001, applicable sector regulation); (4) change management plan; (5) failure-mode and risk register; (6) post-implementation measurement plan. Present to client and academic panel. Client must confirm the project addressed a real organizational problem.
+> Working with a confirmed industry client, design and document an AI workflow implementation. Deliverables: (1) current-state automation audit; (2) proposed AI workflow design with human-in-the-loop specification; (3) governance and compliance framework (NIST AI RMF, ISO 42001, applicable sector regulation); (4) change management plan; (5) failure-mode and risk register; (6) post-implementation measurement plan. Present to client and academic panel. Client must confirm the project addressed a real organisational problem.
 
 **Dimensions targeted:** D1, D4, D5, D6, B
 
