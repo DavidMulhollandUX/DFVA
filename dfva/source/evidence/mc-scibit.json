@@ -1,0 +1,204 @@
+{
+  "code": "mc-scibit",
+  "programSlug": "dfva-mc-scibit",
+  "byDimension": {
+    "D1": {
+      "rationale": "Regulatory affairs, GMP, and commercialisation roles carry genuine automation resistance. Documentation and routine compliance work is compressing. Entry-level QA and regulatory assistant roles face moderate AI substitution but accountability layer is structural protection.",
+      "recommendations": [
+        {
+          "action": "Update careers advising — reframe value as regulatory judgment and AI governance, not document production; publish AI tool landscape threat map for regulatory affairs, QA, and clinical trials roles",
+          "priority": "P8",
+          "effort": "Low",
+          "dimRefs": [
+            "D1",
+            "D9"
+          ]
+        }
+      ]
+    },
+    "D2": {
+      "rationale": "LAWS90003 Regulation of Biotechnology and MKTG90022 Commercialisation of Science together require understanding of complex regulatory, commercial, and scientific systems. Industry Project requires navigating real organisational constraints. Trade-off reasoning not explicitly assessed.",
+      "recommendations": []
+    },
+    "D3": {
+      "rationale": "MAST90072 Data and Decision Making provides genuine quantitative grounding. Electives include Genomics and Bioinformatics, Computational Genomics, Data Science for Biologists. Depth is solid but variable — depends heavily on elective choices. Not all students take computational electives.",
+      "recommendations": [
+        {
+          "action": "Mandate minimum one computational elective (12.5cp) from: BTCH90009 Genomics and Bioinformatics, COMP90016 Computational Genomics, BIOL90041 Data Science for Biologists",
+          "priority": "P2",
+          "effort": "Low",
+          "dimRefs": [
+            "D3",
+            "B"
+          ]
+        }
+      ]
+    },
+    "D4": {
+      "rationale": "SCIE90015 Industry Project is mandatory — real external company, real constraints, real accountability, group work, year-long commitment. Commercialisation and Regulation units require navigating genuine regulatory and commercial uncertainty. Authentic live-stakes experience embedded by design.",
+      "recommendations": [
+        {
+          "action": "Add AI tool use reflection and AI output validation statement as mandatory components of SCIE90015 Industry Project — document which AI tools were used by industry partner, how outputs were validated, what required human judgment",
+          "priority": "P3",
+          "effort": "Low",
+          "dimRefs": [
+            "D4",
+            "D5"
+          ]
+        }
+      ]
+    },
+    "D5": {
+      "rationale": "No mandatory AI governance unit. SCIE90005 Ethics and Responsibility in Science not available 2026. Biotechnology sector is among the most AI-disrupted (AlphaFold, AI drug discovery, AI regulatory submission tools) — the absence of an AI governance pillar is a significant curriculum currency gap.",
+      "recommendations": [
+        {
+          "action": "Create mandatory unit: AI in Biotechnology — AI tool evaluation in regulated research and commercial contexts; TGA/FDA AI guidance navigation; AlphaFold and AI drug discovery validation; NIST AI RMF applied to GMP and regulatory submission contexts; AI inventorship and IP implications",
+          "priority": "P1",
+          "effort": "High",
+          "dimRefs": [
+            "D5",
+            "D9",
+            "B"
+          ]
+        },
+        {
+          "action": "Add AI tool use reflection and AI output validation statement as mandatory components of SCIE90015 Industry Project — document which AI tools were used by industry partner, how outputs were validated, what required human judgment",
+          "priority": "P3",
+          "effort": "Low",
+          "dimRefs": [
+            "D4",
+            "D5"
+          ]
+        },
+        {
+          "action": "Integrate AI ethics and governance module into BTCH90010 Biotechnology Impacts in Society — AI bias in research, AI in clinical decision-making ethics, AI governance frameworks for biotechnology",
+          "priority": "P5",
+          "effort": "Low",
+          "dimRefs": [
+            "D5",
+            "D9"
+          ]
+        },
+        {
+          "action": "Integrate AI regulatory law content into LAWS90003 Regulation of Biotechnology — TGA AI guidance for medical devices and therapeutics, FDA AI action plan implications, AI inventorship legal uncertainty",
+          "priority": "P6",
+          "effort": "Low-Medium",
+          "dimRefs": [
+            "D5",
+            "D6"
+          ]
+        }
+      ]
+    },
+    "D6": {
+      "rationale": "LAWS90003 Regulation of Biotechnology is genuine regulatory expertise — TGA, FDA, IP, GMP. MKTG90022 Commercialisation of Science adds commercial domain depth. Technical electives (Cell and Gene Therapies, Computational Genomics, Systems and Synthetic Biology, Clinical Trial Design) create specialist depth. This is the degree's primary strength.",
+      "recommendations": [
+        {
+          "action": "Integrate AI regulatory law content into LAWS90003 Regulation of Biotechnology — TGA AI guidance for medical devices and therapeutics, FDA AI action plan implications, AI inventorship legal uncertainty",
+          "priority": "P6",
+          "effort": "Low-Medium",
+          "dimRefs": [
+            "D5",
+            "D6"
+          ]
+        }
+      ]
+    },
+    "D7": {
+      "rationale": "MAST90072 Data and Decision Making provides applied quantitative methods. Industry Project involves applied research methodology. Optional Biotechnology Research Project available for outstanding students. No mandatory primary research methods unit — professional coursework framing limits rigour to applied contexts.",
+      "recommendations": []
+    },
+    "D8": {
+      "rationale": "SCIE90034 Communicating Science at Work (mandatory), MGMT90171 Leadership in Science (mandatory), SKIL90004 Project Management in Science (mandatory). Industry Project requires working with external industry partners in a real professional context. Teamwork and communication explicitly in learning outcomes. Genuinely strong.",
+      "recommendations": []
+    },
+    "D9": {
+      "rationale": "Handbook updated 4 May 2026. Computational and bioinformatics electives available. SCIE90005 Ethics and Responsibility in Science not available 2026 — a notable gap. No AI literacy unit despite biotechnology sector's rapid AI adoption. Shows awareness of computational direction but incomplete AI governance integration.",
+      "recommendations": [
+        {
+          "action": "Create mandatory unit: AI in Biotechnology — AI tool evaluation in regulated research and commercial contexts; TGA/FDA AI guidance navigation; AlphaFold and AI drug discovery validation; NIST AI RMF applied to GMP and regulatory submission contexts; AI inventorship and IP implications",
+          "priority": "P1",
+          "effort": "High",
+          "dimRefs": [
+            "D5",
+            "D9",
+            "B"
+          ]
+        },
+        {
+          "action": "Integrate AI ethics and governance module into BTCH90010 Biotechnology Impacts in Society — AI bias in research, AI in clinical decision-making ethics, AI governance frameworks for biotechnology",
+          "priority": "P5",
+          "effort": "Low",
+          "dimRefs": [
+            "D5",
+            "D9"
+          ]
+        },
+        {
+          "action": "Establish MC-SCIBIT industry advisory panel — 6–8 members from CSL, Telix, Pfizer ANZ, NHMRC, TGA, AusBiotech, university TTO offices, with bi-annual curriculum review mandate",
+          "priority": "P7",
+          "effort": "Medium",
+          "dimRefs": [
+            "D9",
+            "D10"
+          ]
+        },
+        {
+          "action": "Update careers advising — reframe value as regulatory judgment and AI governance, not document production; publish AI tool landscape threat map for regulatory affairs, QA, and clinical trials roles",
+          "priority": "P8",
+          "effort": "Low",
+          "dimRefs": [
+            "D1",
+            "D9"
+          ]
+        }
+      ]
+    },
+    "D10": {
+      "rationale": "No publicly available destination data at program level. NPSMA accreditation implies employability standards but no granular role-title, salary, or time-to-employment data published.",
+      "recommendations": [
+        {
+          "action": "Publish program-level graduate destination data — role titles, industries, salary bands, time-to-employment within 12 months of each graduating cohort",
+          "priority": "P4",
+          "effort": "Medium",
+          "dimRefs": [
+            "D10"
+          ]
+        },
+        {
+          "action": "Establish MC-SCIBIT industry advisory panel — 6–8 members from CSL, Telix, Pfizer ANZ, NHMRC, TGA, AusBiotech, university TTO offices, with bi-annual curriculum review mandate",
+          "priority": "P7",
+          "effort": "Medium",
+          "dimRefs": [
+            "D9",
+            "D10"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "rationale": "The combination is genuinely rare: biotechnology technical depth + mandatory regulatory expertise (LAWS90003) + commercialisation and IP knowledge (MKTG90022) + mandatory industry project accountability + science communication and leadership. AI cannot substitute for TGA/FDA regulatory judgment and legal sign-off.",
+      "recommendations": [
+        {
+          "action": "Create mandatory unit: AI in Biotechnology — AI tool evaluation in regulated research and commercial contexts; TGA/FDA AI guidance navigation; AlphaFold and AI drug discovery validation; NIST AI RMF applied to GMP and regulatory submission contexts; AI inventorship and IP implications",
+          "priority": "P1",
+          "effort": "High",
+          "dimRefs": [
+            "D5",
+            "D9",
+            "B"
+          ]
+        },
+        {
+          "action": "Mandate minimum one computational elective (12.5cp) from: BTCH90009 Genomics and Bioinformatics, COMP90016 Computational Genomics, BIOL90041 Data Science for Biologists",
+          "priority": "P2",
+          "effort": "Low",
+          "dimRefs": [
+            "D3",
+            "B"
+          ]
+        }
+      ]
+    }
+  }
+}

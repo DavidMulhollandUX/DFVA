@@ -46,7 +46,7 @@ Apply the full DFVA rubric from `.github/copilot-instructions.md`. Score all 10 
 7. RECOMMENDATIONS (table: Priority / Action / Dimension / Effort)
 8. THE REDESIGNED GRADUATE PROFILE (~200 words)
 
-**Risk bands:** 28–36 RESILIENT · 20–27 MODERATE RISK · 12–19 HIGH RISK · 0–11 CRITICAL
+**Risk bands:** see `.github/copilot-instructions.md` (Risk Bands).
 
 ---
 

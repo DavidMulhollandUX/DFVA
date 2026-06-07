@@ -1,0 +1,243 @@
+{
+  "code": "mc-sciear",
+  "programSlug": "dfva-mc-sciear",
+  "byDimension": {
+    "D1": {
+      "rationale": "Graduate roles require physical fieldwork (Geology stream: field mapping, drilling, sampling), instrument operation, and original data interpretation from day one. Atmospheric Science graduates validate computational models against observations — requiring judgment about when models are wrong. AI accelerates analysis but cannot replace embodied field presence or observational judgment.",
+      "recommendations": [
+        {
+          "action": "Add AI tool evaluation module within discipline core — train students to critically assess AI-generated geological logs, climate model outputs, and automated resource estimates",
+          "priority": "P1",
+          "effort": "Medium",
+          "dimRefs": [
+            "D5",
+            "D1"
+          ]
+        },
+        {
+          "action": "Add \"AI in Earth Sciences\" module within discipline core subjects — critical evaluation of AI-generated geological logs, climate model outputs, automated resource estimates",
+          "priority": "P2",
+          "effort": "Medium",
+          "dimRefs": [
+            "D5",
+            "D1",
+            "B"
+          ]
+        }
+      ]
+    },
+    "D2": {
+      "rationale": "Atmospheric Modelling, Data Assimilation, Climate Science for Decision-Making, and Sedimentary Basins and Resource Analysis all require systems-level reasoning. Climate system feedback loops and geological basin analysis are inherently systems problems. Not explicitly labelled \"systems thinking\" but embedded in discipline practice. Trade-off reasoning present but not formally assessed as a standalone competency.",
+      "recommendations": []
+    },
+    "D3": {
+      "rationale": "Strong quantitative core throughout: ATOC90010 Statistics in Climate Dynamics, MAST90007 Statistics for Research Workers, ATOC90012 Advanced Dynamical Meteorology (mathematical physics), Atmospheric Modelling (numerical methods), Ore Reserve Estimation (geostatistics), Geochronology (isotope geochemistry and dating methods). COMP90072 The Art of Scientific Computation available. Rigorous technical depth is structural to the program.",
+      "recommendations": [
+        {
+          "action": "Formally designate COMP90072 The Art of Scientific Computation as \"strongly recommended\" in both streams (currently just listed)",
+          "priority": "P6",
+          "effort": "Low",
+          "dimRefs": [
+            "D3",
+            "D5",
+            "B"
+          ]
+        }
+      ]
+    },
+    "D4": {
+      "rationale": "The 125-point research project (62.5% of degree) requires designing original research, interpreting ambiguous data, defending methodology under examination, and producing work of publishable quality. Semester hurdle reviews create ongoing accountability. The research thesis must demonstrate \"appropriate level of insight and scientific interpretation\" — this is genuine decision-making under genuine uncertainty.",
+      "recommendations": [
+        {
+          "action": "Integrate AI-assisted data analysis workflows into research project methodology (students must demonstrate when AI is appropriate and when it fails)",
+          "priority": "P3",
+          "effort": "Medium",
+          "dimRefs": [
+            "D5",
+            "D4"
+          ]
+        },
+        {
+          "action": "Add AI methodology chapter requirement to 125pt research project — students must document where they used AI tools, where tools failed, and how they validated outputs",
+          "priority": "P4",
+          "effort": "Low",
+          "dimRefs": [
+            "D5",
+            "D4",
+            "D7"
+          ]
+        }
+      ]
+    },
+    "D5": {
+      "rationale": "LAWS90203 Science & AI: Legal & Ethical Challenges exists in the professional skills list but was \"not available in 2025\". COMP90059 Introduction to Programming and COMP90072 The Art of Scientific Computation provide computational capability but not AI governance or literacy. No mandatory unit addresses AI tool supervision, limitations, or responsible deployment in earth science contexts.",
+      "recommendations": [
+        {
+          "action": "Make LAWS90203 Science & AI: Legal & Ethical Challenges available and mandatory (12.5pts from professional skills allocation)",
+          "priority": "P1",
+          "effort": "Low",
+          "dimRefs": [
+            "D5",
+            "D9"
+          ]
+        },
+        {
+          "action": "Add AI tool evaluation module within discipline core — train students to critically assess AI-generated geological logs, climate model outputs, and automated resource estimates",
+          "priority": "P1",
+          "effort": "Medium",
+          "dimRefs": [
+            "D5",
+            "D1"
+          ]
+        },
+        {
+          "action": "Integrate AI-assisted data analysis workflows into research project methodology (students must demonstrate when AI is appropriate and when it fails)",
+          "priority": "P3",
+          "effort": "Medium",
+          "dimRefs": [
+            "D5",
+            "D4"
+          ]
+        },
+        {
+          "action": "Add \"AI in Earth Sciences\" module within discipline core subjects — critical evaluation of AI-generated geological logs, climate model outputs, automated resource estimates",
+          "priority": "P2",
+          "effort": "Medium",
+          "dimRefs": [
+            "D5",
+            "D1",
+            "B"
+          ]
+        },
+        {
+          "action": "Add AI methodology chapter requirement to 125pt research project — students must document where they used AI tools, where tools failed, and how they validated outputs",
+          "priority": "P4",
+          "effort": "Low",
+          "dimRefs": [
+            "D5",
+            "D4",
+            "D7"
+          ]
+        },
+        {
+          "action": "Formally designate COMP90072 The Art of Scientific Computation as \"strongly recommended\" in both streams (currently just listed)",
+          "priority": "P6",
+          "effort": "Low",
+          "dimRefs": [
+            "D3",
+            "D5",
+            "B"
+          ]
+        }
+      ]
+    },
+    "D6": {
+      "rationale": "Exceptional domain depth. Geology stream covers mineralogy, geochemistry, geochronology, structural geology, ore deposits, field techniques, mine safety — highly specialised regulatory and scientific expertise. Atmospheric Science stream covers dynamical meteorology, climate modelling, data assimilation — deep quantitative specialisation. Multi-institutional VIEPS collaboration provides access to the broadest array of advanced earth science coursework nationally.",
+      "recommendations": []
+    },
+    "D7": {
+      "rationale": "125 points of original research (62.5% of degree). Students generate primary data and defend methods under scrutiny. Assessment includes literature review, research presentations, oral examination, and thesis of publishable quality. Semester-end hurdle reviews ensure ongoing research quality. This is among the strongest research method rigour scores possible for a coursework masters.",
+      "recommendations": [
+        {
+          "action": "Add AI methodology chapter requirement to 125pt research project — students must document where they used AI tools, where tools failed, and how they validated outputs",
+          "priority": "P4",
+          "effort": "Low",
+          "dimRefs": [
+            "D5",
+            "D4",
+            "D7"
+          ]
+        }
+      ]
+    },
+    "D8": {
+      "rationale": "SCIE90013 Communication for Research Scientists and SCIE90012 Science Communication are available as professional skills options but not compulsory. Oral presentations exist (10% of research project assessment). No substantial clinical, care, interpersonal accountability, or stakeholder engagement components. The program is primarily individual research with limited collaborative or client-facing requirements.",
+      "recommendations": [
+        {
+          "action": "Make SCIE90013 Communication for Research Scientists compulsory rather than optional",
+          "priority": "P2",
+          "effort": "Low",
+          "dimRefs": [
+            "D8"
+          ]
+        }
+      ]
+    },
+    "D9": {
+      "rationale": "Handbook last updated 6 November 2025. Program includes contemporary topics: critical minerals (GEOL90052), climate extremes, data assimilation. However, several subjects listed as \"not available in 2025\" or \"no longer available\" — suggesting uneven curation. LAWS90203 AI ethics not available. No AI literacy integrated into core discipline units. Fundamentally sound disciplinary content but incomplete adaptation to AI era.",
+      "recommendations": [
+        {
+          "action": "Make LAWS90203 Science & AI: Legal & Ethical Challenges available and mandatory (12.5pts from professional skills allocation)",
+          "priority": "P1",
+          "effort": "Low",
+          "dimRefs": [
+            "D5",
+            "D9"
+          ]
+        },
+        {
+          "action": "Add industry advisory panel with annual curriculum review to ensure subject availability matches sector demand (address \"not available\" subjects)",
+          "priority": "P3",
+          "effort": "Medium",
+          "dimRefs": [
+            "D9"
+          ]
+        },
+        {
+          "action": "Establish industry advisory panel (mining, consulting, BoM/CSIRO, geological surveys) with annual curriculum review cycle",
+          "priority": "P7",
+          "effort": "Medium",
+          "dimRefs": [
+            "D9"
+          ]
+        }
+      ]
+    },
+    "D10": {
+      "rationale": "No publicly available destination data at program level. No granular role-title, salary, or time-to-employment data published. Generic Faculty of Science outcomes exist but are not specific to this specialisation.",
+      "recommendations": [
+        {
+          "action": "Publish granular graduate destination data by stream (Atmospheric Science vs Geology) with role titles, industries, and time-to-employment",
+          "priority": "P2",
+          "effort": "Medium",
+          "dimRefs": [
+            "D10"
+          ]
+        },
+        {
+          "action": "Build and publish graduate destination tracking system with stream-level granularity (Atmospheric Science vs Geology)",
+          "priority": "P5",
+          "effort": "Medium",
+          "dimRefs": [
+            "D10"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "rationale": "The combination of physical fieldwork capability + advanced quantitative modelling + original research + deep domain expertise creates a genuine dual-skill value proposition. A geology graduate who can both conduct fieldwork and model geological systems computationally occupies a position difficult to replicate by AI alone. Not scored 3/3 because the combination (science + research + fieldwork) is standard for earth science programs nationally — it's durable but not uniquely rare.",
+      "recommendations": [
+        {
+          "action": "Add \"AI in Earth Sciences\" module within discipline core subjects — critical evaluation of AI-generated geological logs, climate model outputs, automated resource estimates",
+          "priority": "P2",
+          "effort": "Medium",
+          "dimRefs": [
+            "D5",
+            "D1",
+            "B"
+          ]
+        },
+        {
+          "action": "Formally designate COMP90072 The Art of Scientific Computation as \"strongly recommended\" in both streams (currently just listed)",
+          "priority": "P6",
+          "effort": "Low",
+          "dimRefs": [
+            "D3",
+            "D5",
+            "B"
+          ]
+        }
+      ]
+    }
+  }
+}

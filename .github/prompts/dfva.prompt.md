@@ -39,10 +39,7 @@ Duration: [Typical duration]
 
 Scoring and risk mapping:
 
-- 28-36: RESILIENT
-- 20-27: MODERATE RISK
-- 12-19: HIGH RISK
-- 0-11: CRITICAL
+Map the total to the risk band defined in `.github/copilot-instructions.md` (Risk Bands).
 
 Behavior constraints:
 
