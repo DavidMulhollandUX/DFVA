@@ -1,10 +1,6 @@
 import type { DimensionScore } from '../../data/programData'
 import { RISK_CONFIG, type RiskBand } from './ScoreArc'
-
-const RADAR_LABELS = [
-  'Auto', 'Systems', 'Tech', 'Decide', 'AI Lit',
-  'Domain', 'Rsch', 'Human', 'Curric', 'Outcome',
-]
+import { RADAR_LABELS } from '../../data/rubric'
 
 interface DimensionRadarProps {
   /** Pass only the 10 core dimensions (no bonus) */
