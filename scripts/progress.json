@@ -1,75 +1,3 @@
-                        ,
-                        "mc-nursc": {
-                          "status": "blocked",
-                          "reason": "handbook fetch failed",
-                          "date": "2026-05-15"
-                        }
-                      ,
-                      "439fs": {
-                        "status": "blocked",
-                        "reason": "handbook fetch failed",
-                        "date": "2026-05-15"
-                      }
-                    ,
-                    "mc-gencoun": {
-                      "status": "blocked",
-                      "reason": "handbook fetch failed",
-                      "date": "2026-05-15"
-                    }
-                  ,
-                  "mc-actsc": {
-                    "status": "blocked",
-                    "reason": "handbook fetch failed",
-                    "date": "2026-05-15"
-                  }
-                ,
-                "mc-bmedsc": {
-                  "status": "blocked",
-                  "reason": "handbook fetch failed",
-                  "date": "2026-05-15"
-                }
-              ,
-              "mc-datasc": {
-                "status": "blocked",
-                "reason": "handbook fetch failed",
-                "date": "2026-05-15"
-              }
-            ,
-            "mc-cs": {
-              "status": "blocked",
-              "reason": "handbook fetch failed",
-              "date": "2026-05-15"
-            }
-          ,
-          "mc-climsci": {
-            "status": "blocked",
-            "reason": "handbook fetch failed",
-            "date": "2026-05-15"
-          }
-        ,
-        "mc-envsc": {
-          "status": "blocked",
-          "reason": "handbook fetch failed",
-          "date": "2026-05-15"
-        }
-      ,
-      "mc-scibif": {
-        "status": "blocked",
-        "reason": "handbook fetch failed",
-        "date": "2026-05-15"
-      }
-    ,
-    "mc-sciche": {
-      "status": "blocked",
-      "reason": "handbook fetch failed",
-      "date": "2026-05-15"
-    }
-  ,
-  "mc-scibio": {
-    "status": "blocked",
-    "reason": "handbook fetch failed",
-    "date": "2026-05-15"
-  }
 {
   "mc-sciear": {
     "status": "complete",
@@ -82,11 +10,70 @@
     "date": "2026-05-15",
     "score": 23,
     "riskBand": "MODERATE RISK"
-  }
-  ,
+  },
   "mc-sciphy": {
     "status": "blocked",
     "reason": "handbook fetch failed",
     "date": "2026-05-15"
+  },
+  "mc-scibio": {
+    "status": "blocked",
+    "reason": "handbook fetch failed",
+    "date": "2026-05-15"
+  },
+  "mc-sciche": {
+    "status": "blocked",
+    "reason": "handbook fetch failed",
+    "date": "2026-05-15"
+  },
+  "mc-scibif": {
+    "status": "blocked",
+    "reason": "handbook fetch failed (anti-bot)",
+    "date": "2026-05-16"
+  },
+  "mc-envsc": {
+    "status": "blocked",
+    "reason": "handbook fetch failed (anti-bot)",
+    "date": "2026-05-16"
+  },
+  "mc-climsci": {
+    "status": "blocked",
+    "reason": "handbook fetch failed (anti-bot)",
+    "date": "2026-05-16"
+  },
+  "mc-cs": {
+    "status": "blocked",
+    "reason": "handbook fetch failed (anti-bot)",
+    "date": "2026-05-16"
+  },
+  "mc-datasc": {
+    "status": "blocked",
+    "reason": "handbook fetch failed (anti-bot)",
+    "date": "2026-05-16"
+  },
+  "mc-bmedsc": {
+    "status": "blocked",
+    "reason": "handbook fetch failed (anti-bot)",
+    "date": "2026-05-16"
+  },
+  "mc-actsc": {
+    "status": "blocked",
+    "reason": "handbook fetch failed (anti-bot)",
+    "date": "2026-05-16"
+  },
+  "mc-gencoun": {
+    "status": "blocked",
+    "reason": "handbook fetch failed (anti-bot)",
+    "date": "2026-05-16"
+  },
+  "439fs": {
+    "status": "blocked",
+    "reason": "handbook fetch failed (anti-bot)",
+    "date": "2026-05-16"
+  },
+  "mc-nursc": {
+    "status": "blocked",
+    "reason": "handbook fetch failed (anti-bot)",
+    "date": "2026-05-16"
   }
 }
