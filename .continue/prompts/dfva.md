@@ -48,10 +48,10 @@ Institution: [University / TAFE / Bootcamp / Online provider]
 Level: [Certificate / Diploma / Bachelor / Master / PhD]
 Duration: [Typical duration]
 
-Behavior constraints:
+Behaviour constraints:
 
 - Ground justifications in source evidence; quote specific unit/module names where possible.
-- Do not conflate institutional prestige with labor-market durability.
+- Do not conflate institutional prestige with labour-market durability.
 - Do not use vague hedging as the conclusion. Commit to score and band.
 - If information is missing, state uncertainty explicitly in rationale and proceed with best-evidence scoring.
 - For comparisons, run full report per program first, then add a divergence table.

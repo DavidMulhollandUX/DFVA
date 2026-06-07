@@ -51,8 +51,8 @@ Key named units include:
 | 3 | Technical and Quantitative Depth | 2 | *Business Intelligence Systems* and *IT Infrastructure* provide solid grounding; coding depth is light unless electives selected deliberately |
 | 4 | Decision-Making Under Uncertainty | 2 | Capstone and project management units include defended trade-offs; non-research track limits live uncertainty exposure |
 | 5 | AI Literacy and Governance | 1 | No dedicated AI governance unit visible in core structure; AI tools may appear in *Business Intelligence Systems* but not as a governed curriculum pillar |
-| 6 | Domain Depth and Specialization | 2 | IS is a defined domain; enterprise architecture and governance provide specialist grounding, but dual-stream design dilutes depth |
-| 7 | Research Methods Rigor | 2 | *Research Methods in IS* exists on research track; coursework-only track has weaker exposure. Score reflects research track access |
+| 6 | Domain Depth and Specialisation | 2 | IS is a defined domain; enterprise architecture and governance provide specialist grounding, but dual-stream design dilutes depth |
+| 7 | Research Methods Rigour | 2 | *Research Methods in IS* exists on research track; coursework-only track has weaker exposure. Score reflects research track access |
 | 8 | Human and Relational Capability | 2 | Stakeholder management and change management appear in project management units; no clinical or physical accountability layer |
 | 9 | Curriculum Currency and Adaptability | 2 | 2026 handbook reflects recent review; no explicit AI core units visible — a currency gap for a 2026 program |
 | 10 | Graduate Outcome Evidence | 1 | UniMelb publishes aggregate graduate outcome data; granular role/salary/time-to-employment data for MC-IS not prominently available |
@@ -78,7 +78,7 @@ Key named units include:
 
 ## 5. ANALOGUE GRADUATE PROFILE
 
-The MIS graduate mirrors the **Business Analyst of 2019**: a valued bridge between business and technology who organized information, translated requirements, and coordinated delivery. That role is now the primary target of:
+The MIS graduate mirrors the **Business Analyst of 2019**: a valued bridge between business and technology who organised information, translated requirements, and coordinated delivery. That role is now the primary target of:
 
 - **GitHub Copilot / Cursor** — replacing code-adjacent documentation and technical spec writing
 - **Notion AI / Confluence AI** — absorbing requirements documentation and meeting summaries
@@ -92,13 +92,13 @@ The MIS graduate is trained for roles that AI tooling is actively dismantling at
 
 ## 6. VERDICT
 
-**The Master of Information Systems is HIGH RISK for 2027 labor-market viability as currently structured.**
+**The Master of Information Systems is HIGH RISK for 2027 labour-market viability as currently structured.**
 
 The program produces well-rounded IS professionals but anchors early-career outcomes in human middleware tasks — documentation, requirements analysis, coordination, and reporting — that are the current front line of AI-driven role compression. The University of Melbourne brand provides hiring access, but prestige does not insulate graduates from structural role reduction.
 
 The program has the architecture to be better: enterprise architecture, governance, and research methods units are legitimate differentiators. But without a mandatory AI governance and deployment pillar, stronger technical depth requirements, and explicit positioning of graduates as AI workflow supervisors rather than IS coordinators, the degree is producing graduates for a shrinking role category.
 
-**Enroll with a clear upskilling plan, not as a standalone credential.**
+**Enrol with a clear upskilling plan, not as a standalone credential.**
 
 ---
 
@@ -110,7 +110,7 @@ The program has the architecture to be better: enterprise architecture, governan
 | 2 | Mandate real-client AI implementation capstone for all tracks | D4, D1, B | High |
 | 3 | Redesign SA&D assessment from BRD production to automation audit with governance recommendation | D2, D4, D1 | Medium |
 | 4 | Add mandatory data engineering elective pathway (SQL depth, Python, dbt) | D3, B | Medium |
-| 5 | Introduce sector specialization requirement (health IT, fintech, or govtech cluster) | D6, B | Medium |
+| 5 | Introduce sector specialisation requirement (health IT, fintech, or govtech cluster) | D6, B | Medium |
 | 6 | Publish granular graduate destination data (role-title, industry, salary, time-to-employment) | D10 | Medium |
 | 7 | Update program marketing and careers framing to AI workflow architect / automation governance analyst | D1 | Low |
 
@@ -120,9 +120,9 @@ The program has the architecture to be better: enterprise architecture, governan
 
 The viable 2027 MIS graduate is not an information broker — they are an **AI workflow architect with governance accountability**.
 
-This graduate enters an organization and immediately asks: *which of our current IS processes are candidates for AI augmentation, which carry unacceptable risk if automated, and how do we instrument the boundary between human and machine decision-making?* They can build that argument in a boardroom, specify the data requirements for a pilot, and write the governance framework that satisfies the compliance team.
+This graduate enters an organisation and immediately asks: *which of our current IS processes are candidates for AI augmentation, which carry unacceptable risk if automated, and how do we instrument the boundary between human and machine decision-making?* They can build that argument in a boardroom, specify the data requirements for a pilot, and write the governance framework that satisfies the compliance team.
 
-Technically, they are fluent enough in data pipelines and API integration to brief an engineering team without an intermediary. They have run a live capstone with a real organization under real uncertainty — not a case study with a known answer. They have designed at least one AI-augmented workflow and documented its failure modes.
+Technically, they are fluent enough in data pipelines and API integration to brief an engineering team without an intermediary. They have run a live capstone with a real organisation under real uncertainty — not a case study with a known answer. They have designed at least one AI-augmented workflow and documented its failure modes.
 
 Their domain is not "IT" in the generic sense — it is a regulated or high-stakes vertical: health informatics, financial systems, government services, or infrastructure. That domain specificity means their judgment cannot be replicated by a general-purpose agent.
 

@@ -45,7 +45,7 @@ Read `.github/copilot-instructions.md` to load the full DFVA rubric. Apply the r
 
 - Score all 10 dimensions plus bonus (0–3 each)
 - Compute total /36
-- Map to risk band: 28–36 RESILIENT · 20–27 MODERATE RISK · 12–19 HIGH RISK · 0–11 CRITICAL
+- Map to the risk band defined in `.github/copilot-instructions.md` (Risk Bands)
 
 **Required output sections (exact order):**
 1. PROGRAM PROFILE

@@ -1,0 +1,16 @@
+# Scope for the graphify knowledge graph (outputs in graphify-out/).
+# graphify already auto-excludes: node_modules/, dist/, build/, target/, out/, .git/
+
+# Vite dependency cache — bundled/minified, not source
+.vite/
+
+# Image & media assets — skip the vision pass over UI/marketing media.
+# These add isolated caption nodes to a code+docs graph. To include them
+# (e.g. to extract architecture diagrams), delete the lines below and re-run `graphify .`
+*.webp
+*.svg
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.ico

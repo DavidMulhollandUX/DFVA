@@ -44,7 +44,7 @@ Key structural features:
 **Structural risk:** A significant portion of B-Sci graduates do not proceed to honours or postgraduate study and enter the workforce with a generalist three-year science credential. Without a defined specialist domain or postgraduate depth, this cohort is particularly exposed — the degree signals broad scientific literacy but does not confer the deep technical or clinical expertise that creates genuine automation resistance.
 
 **Cluster divergence:**
-- **Cluster B** graduates (computational/mathematical) have the strongest standalone labor-market durability but face rapid AI tool compression at junior data/analyst levels
+- **Cluster B** graduates (computational/mathematical) have the strongest standalone labour-market durability but face rapid AI tool compression at junior data/analyst levels
 - **Cluster A** graduates face a credential problem — most high-value roles require honours or postgraduate study; those who stop at three years often land in roles below their credential level
 - **Cluster C** graduates have the most stable specialist niches (geoscience, environmental science, chemistry) but niche volume is limited
 
@@ -56,11 +56,11 @@ Key structural features:
 |---|---|---|---|
 | 1 | Automation Exposure of Roles | 2/3 | Cluster B graduates land in data/computational roles with meaningful judgment requirements; Cluster A and C graduates face higher early-career routine work exposure. Overall: mixed profile — not all templated, but entry is uneven. |
 | 2 | Systems Thinking and Problem Framing | 2/3 | Science methodology teaches hypothesis formation and experimental design — genuine systems thinking. However, integration across the degree varies by major; not all majors embed failure-mode or trade-off reasoning consistently. |
-| 3 | Technical and Quantitative Depth | 3/3 | This is the degree's strongest dimension. Majors in Mathematics, Statistics, Physics, and Chemistry carry genuine technical rigor assessed at depth. Even life sciences majors require quantitative methods. Third-year units are substantively demanding. |
+| 3 | Technical and Quantitative Depth | 3/3 | This is the degree's strongest dimension. Majors in Mathematics, Statistics, Physics, and Chemistry carry genuine technical rigour assessed at depth. Even life sciences majors require quantitative methods. Third-year units are substantively demanding. |
 | 4 | Decision-Making Under Uncertainty | 2/3 | Experimental science inherently involves uncertainty. However, authentic capstone projects with real stakes are not mandatory — the Research Project is available but not required. Many students graduate without a live uncertainty assessment. |
 | 5 | AI Literacy and Governance | 1/3 | No mandatory AI literacy or governance unit across the degree. AI appears in some computational majors (Computing and Software Systems, Data Science major) as tooling, but no governance or deployment framework is embedded at degree level. |
-| 6 | Domain Depth and Specialization | 3/3 | The major structure provides genuine specialization. Third-year depth in Physics, Chemistry, Biochemistry, or Mathematics is substantive and not easily replicated. Domain depth is a real differentiator — especially for Cluster B and Cluster C. |
-| 7 | Research Methods Rigor | 3/3 | Scientific method is core curriculum. All majors include experimental design, data collection, and interpretation. Third-year research projects and laboratory units involve primary data generation. Honours stream adds full research methodology rigor. |
+| 6 | Domain Depth and Specialisation | 3/3 | The major structure provides genuine specialisation. Third-year depth in Physics, Chemistry, Biochemistry, or Mathematics is substantive and not easily replicated. Domain depth is a real differentiator — especially for Cluster B and Cluster C. |
+| 7 | Research Methods Rigour | 3/3 | Scientific method is core curriculum. All majors include experimental design, data collection, and interpretation. Third-year research projects and laboratory units involve primary data generation. Honours stream adds full research methodology rigour. |
 | 8 | Human and Relational Capability | 1/3 | Science degrees historically under-invest in interpersonal, ethical, and stakeholder capability. Breadth subjects provide some exposure but this is not assessed as a core competency. Ethics appears in some majors (genetics, ecology) but lightly. |
 | 9 | Curriculum Currency and Adaptability | 2/3 | 2026 handbook reflects ongoing review; some majors have integrated data science and computational tools. However, no degree-level AI core unit is visible — a significant currency gap given the pace of AI tooling in scientific research. |
 | 10 | Graduate Outcome Evidence | 2/3 | UniMelb publishes graduate outcome data at faculty level; Science faculty data shows destination distribution but lacks role-title and salary granularity at major level. Partial transparency. |
@@ -81,7 +81,7 @@ For a Cluster C graduate in a specialist geoscience or chemistry role: **NO** �
 
 **Q2: Does this program train graduates to design systems, own decisions, or generate original insight?**
 **YES — conditionally.**
-The scientific method is fundamentally about generating original insight. Experimental design, hypothesis testing, and primary data collection are core to the degree. However, this capability is only fully realized in students who complete third-year research projects and proceed to honours. Three-year graduates who have not engaged with the Research Project option have weaker evidence of this capability.
+The scientific method is fundamentally about generating original insight. Experimental design, hypothesis testing, and primary data collection are core to the degree. However, this capability is only fully realised in students who complete third-year research projects and proceed to honours. Three-year graduates who have not engaged with the Research Project option have weaker evidence of this capability.
 
 **Q3: Will these graduates be more employable in 5 years than today, given AI trends?**
 **YES — for Cluster B and Cluster C specialists. UNCERTAIN — for Cluster A generalists.**
@@ -103,7 +103,7 @@ Specific threats by cluster:
 
 **Cluster B — Computational/Mathematical:**
 - **GitHub Copilot / Cursor** — replacing junior code production and documentation
-- **AI data analysts (Julius, ChatGPT Advanced Data Analysis)** — replacing standard data wrangling and visualization
+- **AI data analysts (Julius, ChatGPT Advanced Data Analysis)** — replacing standard data wrangling and visualisation
 - **Automated statistical reporting tools** — replacing templated analysis pipelines
 
 **Cluster C — Physical/Earth Sciences:**
@@ -117,9 +117,9 @@ Specific threats by cluster:
 
 **The Bachelor of Science is MODERATE RISK — a degree with genuine strengths that are unevenly distributed across its graduate population.**
 
-The degree's technical and quantitative rigor (D3: 3/3) and domain depth (D6: 3/3) are legitimate and durable differentiators. Scientific method and research rigor (D7: 3/3) are not easily replicated by AI — they require training, judgment, and domain knowledge that takes years to develop. These strengths are real.
+The degree's technical and quantitative rigour (D3: 3/3) and domain depth (D6: 3/3) are legitimate and durable differentiators. Scientific method and research rigour (D7: 3/3) are not easily replicated by AI — they require training, judgment, and domain knowledge that takes years to develop. These strengths are real.
 
-The problem is that these strengths are fully realized **only for graduates who specialize deeply and continue to postgraduate study**. The three-year generalist graduate — particularly from life sciences majors — exits with a credential that signals broad scientific capability without conferring the specialist depth that creates automation resistance. That graduate is competing for roles that AI tooling is actively compressing.
+The problem is that these strengths are fully realised **only for graduates who specialise deeply and continue to postgraduate study**. The three-year generalist graduate — particularly from life sciences majors — exits with a credential that signals broad scientific capability without conferring the specialist depth that creates automation resistance. That graduate is competing for roles that AI tooling is actively compressing.
 
 Two specific gaps are structurally significant:
 
@@ -127,7 +127,7 @@ Two specific gaps are structurally significant:
 
 **Gap 2 — Human and Relational Capability (D8: 1/3).** Science graduates consistently underperform in roles that require stakeholder communication, ethical reasoning, and relational accountability. This gap becomes more visible as AI absorbs the technical execution layer, leaving interpersonal and ethical judgment as the primary human value-add.
 
-**The degree is a strong foundation that requires deliberate completion.** Students who select a computationally intensive or specialist domain major, complete a research project, proceed to honours or postgraduate study, and actively build AI literacy alongside their degree will be well-positioned in 2027. Students who do none of these things face meaningful labor-market risk.
+**The degree is a strong foundation that requires deliberate completion.** Students who select a computationally intensive or specialist domain major, complete a research project, proceed to honours or postgraduate study, and actively build AI literacy alongside their degree will be well-positioned in 2027. Students who do none of these things face meaningful labour-market risk.
 
 ---
 
@@ -135,7 +135,7 @@ Two specific gaps are structurally significant:
 
 | Priority | Action | Dimension | Effort |
 |---|---|---|---|
-| 1 | Select a major with genuine technical depth — Mathematics, Statistics, Physics, Chemistry, or Computing and Software Systems — not a generalist or combined major that dilutes specialization | D6, D3 | Low (decision at enrollment) |
+| 1 | Select a major with genuine technical depth — Mathematics, Statistics, Physics, Chemistry, or Computing and Software Systems — not a generalist or combined major that dilutes specialisation | D6, D3 | Low (decision at enrolment) |
 | 2 | Complete the Research Project (third-year capstone) — this is optional but the single most important differentiator between a three-year graduate with and without autonomous research capability | D4, D7 | Medium |
 | 3 | Build AI literacy deliberately: complete at least one external AI governance or deployment certification (AWS AI Practitioner, Google AI Essentials, or equivalent) — the degree does not provide this | D5 | Low–Medium |
 | 4 | Proceed to honours or postgraduate study if targeting research, clinical, or specialist consulting roles — the three-year credential alone is insufficient for most high-value paths | D1, D6 | High |
@@ -156,4 +156,4 @@ They understand AI tools not as productivity shortcuts but as systems with failu
 
 They have a domain. Not "science" in the broad sense — they know the regulatory environment of clinical trials, or the instrument limitations of mass spectrometry, or the assumptions embedded in climate models. That domain knowledge is what makes their judgment non-replicable by a general-purpose agent.
 
-They can explain their work to a non-scientist. Not as a simplification, but as a genuine translation — because they know that in 2027, the value of scientific expertise is increasingly realized through collaboration, governance, and communication, not through technical execution alone.
+They can explain their work to a non-scientist. Not as a simplification, but as a genuine translation — because they know that in 2027, the value of scientific expertise is increasingly realised through collaboration, governance, and communication, not through technical execution alone.

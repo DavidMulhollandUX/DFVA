@@ -11,6 +11,9 @@ compass/e2e-tests/node_modules/
 compass/app/.wasp/
 compass/blog/dist/
 
+# graphify — generated knowledge graph (regenerable via `graphify update`)
+graphify-out/
+
 # Environment files
 .env
 .env.local

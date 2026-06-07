@@ -46,7 +46,7 @@ export default function ReportsPage() {
                   Dimension Scores
                 </p>
                 <div className="grid grid-cols-1 items-start gap-6 sm:grid-cols-[1fr_auto]">
-                  <DimensionSteps dimensions={coreDims} />
+                  <DimensionSteps dimensions={coreDims} programSlug={p.assessmentSlug} />
                   <div className="hidden sm:block">
                     <DimensionRadar dimensions={coreDims} band={p.riskBand} size={180} />
                   </div>

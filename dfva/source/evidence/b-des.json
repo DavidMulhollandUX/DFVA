@@ -1,0 +1,217 @@
+{
+  "code": "b-des",
+  "programSlug": "dfva-b-des",
+  "byDimension": {
+    "D1": {
+      "rationale": "Market signals show junior production tasks are rapidly automated and bundled, increasing substitution risk for artifact-only roles.",
+      "recommendations": [
+        {
+          "action": "Require industry-linked projects with real client/accountability exposure (mandate live-client capstone for all students)",
+          "priority": "P3",
+          "effort": "High",
+          "dimRefs": [
+            "D4",
+            "D1",
+            "B"
+          ]
+        },
+        {
+          "action": "Update careers advising framing to AI workflow director / design strategist / AI product designer, away from junior graphic/UX designer destinations",
+          "priority": "P8",
+          "effort": "Low",
+          "dimRefs": [
+            "D1",
+            "D9"
+          ]
+        }
+      ]
+    },
+    "D2": {
+      "rationale": "System framing appears in design pedagogy, but hiring signals indicate stronger explicit systems accountability is now expected.",
+      "recommendations": []
+    },
+    "D3": {
+      "rationale": "Job-family signals increasingly favour hybrid design + analytics/technical literacy beyond current baseline undergraduate depth.",
+      "recommendations": [
+        {
+          "action": "Create mandatory unit Design and Technology Integration: prototyping tools (Figma advanced, Framer, Webflow), front-end literacy (HTML/CSS/JS concepts), data visualisation, design systems governance",
+          "priority": "P2",
+          "effort": "High",
+          "dimRefs": [
+            "D3",
+            "B"
+          ]
+        },
+        {
+          "action": "Add quantitative design research component to research methods unit: usability testing statistics, survey design and analysis, A/B test interpretation, analytics literacy",
+          "priority": "P5",
+          "effort": "Medium",
+          "dimRefs": [
+            "D7",
+            "D3"
+          ]
+        },
+        {
+          "action": "Audit and strengthen Interaction Design specialisation: add WCAG 2.2 AA, platform design systems, and AI interaction pattern design",
+          "priority": "P6",
+          "effort": "Medium",
+          "dimRefs": [
+            "D6",
+            "D3"
+          ]
+        }
+      ]
+    },
+    "D4": {
+      "rationale": "Demand for defended trade-offs is increasing; current evidence suggests partial but uneven preparation.",
+      "recommendations": [
+        {
+          "action": "Require industry-linked projects with real client/accountability exposure (mandate live-client capstone for all students)",
+          "priority": "P3",
+          "effort": "High",
+          "dimRefs": [
+            "D4",
+            "D1",
+            "B"
+          ]
+        }
+      ]
+    },
+    "D5": {
+      "rationale": "Hiring and discourse both indicate governance and verification are becoming core, yet this is not consistently embedded as mandatory capability.",
+      "recommendations": [
+        {
+          "action": "Create mandatory core unit AI in Design Practice: AI tool evaluation, AI output critique, prompt governance, IP and copyright in AI-assisted design, human-centred AI workflow design, ethical frameworks",
+          "priority": "P1",
+          "effort": "High",
+          "dimRefs": [
+            "D5",
+            "D9",
+            "B"
+          ]
+        }
+      ]
+    },
+    "D6": {
+      "rationale": "Clear pathway specialisation exists, but undergraduate level limits full professional depth.",
+      "recommendations": [
+        {
+          "action": "Audit and strengthen Interaction Design specialisation: add WCAG 2.2 AA, platform design systems, and AI interaction pattern design",
+          "priority": "P6",
+          "effort": "Medium",
+          "dimRefs": [
+            "D6",
+            "D3"
+          ]
+        }
+      ]
+    },
+    "D7": {
+      "rationale": "Market demand for evidence-backed design decisions is rising; primary-method rigour remains inconsistent across pathways.",
+      "recommendations": [
+        {
+          "action": "Add quantitative design research component to research methods unit: usability testing statistics, survey design and analysis, A/B test interpretation, analytics literacy",
+          "priority": "P5",
+          "effort": "Medium",
+          "dimRefs": [
+            "D7",
+            "D3"
+          ]
+        }
+      ]
+    },
+    "D8": {
+      "rationale": "Critiques, collaboration, and stakeholder communication are meaningful parts of design training.",
+      "recommendations": []
+    },
+    "D9": {
+      "rationale": "Program appears current structurally; evidence of fully AI-native redesign is limited.",
+      "recommendations": [
+        {
+          "action": "Create mandatory core unit AI in Design Practice: AI tool evaluation, AI output critique, prompt governance, IP and copyright in AI-assisted design, human-centred AI workflow design, ethical frameworks",
+          "priority": "P1",
+          "effort": "High",
+          "dimRefs": [
+            "D5",
+            "D9",
+            "B"
+          ]
+        },
+        {
+          "action": "Establish MSD design industry advisory panel (8-10 members from design consultancies, tech product companies, government design teams, creative agencies, AI product companies)",
+          "priority": "P7",
+          "effort": "Medium",
+          "dimRefs": [
+            "D9",
+            "D10"
+          ]
+        },
+        {
+          "action": "Update careers advising framing to AI workflow director / design strategist / AI product designer, away from junior graphic/UX designer destinations",
+          "priority": "P8",
+          "effort": "Low",
+          "dimRefs": [
+            "D1",
+            "D9"
+          ]
+        }
+      ]
+    },
+    "D10": {
+      "rationale": "Employer-side differentiation is increasingly capability-specific, but outcome visibility is still broad rather than role/task granular.",
+      "recommendations": [
+        {
+          "action": "Publish specialisation-level graduate destination data: role titles, industries, salary bands, time-to-employment within 12 months of each graduating cohort",
+          "priority": "P4",
+          "effort": "Medium",
+          "dimRefs": [
+            "D10"
+          ]
+        },
+        {
+          "action": "Establish MSD design industry advisory panel (8-10 members from design consultancies, tech product companies, government design teams, creative agencies, AI product companies)",
+          "priority": "P7",
+          "effort": "Medium",
+          "dimRefs": [
+            "D9",
+            "D10"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "rationale": "Cross-domain design + contextual judgment can differentiate graduates when developed intentionally.",
+      "recommendations": [
+        {
+          "action": "Create mandatory core unit AI in Design Practice: AI tool evaluation, AI output critique, prompt governance, IP and copyright in AI-assisted design, human-centred AI workflow design, ethical frameworks",
+          "priority": "P1",
+          "effort": "High",
+          "dimRefs": [
+            "D5",
+            "D9",
+            "B"
+          ]
+        },
+        {
+          "action": "Create mandatory unit Design and Technology Integration: prototyping tools (Figma advanced, Framer, Webflow), front-end literacy (HTML/CSS/JS concepts), data visualisation, design systems governance",
+          "priority": "P2",
+          "effort": "High",
+          "dimRefs": [
+            "D3",
+            "B"
+          ]
+        },
+        {
+          "action": "Require industry-linked projects with real client/accountability exposure (mandate live-client capstone for all students)",
+          "priority": "P3",
+          "effort": "High",
+          "dimRefs": [
+            "D4",
+            "D1",
+            "B"
+          ]
+        }
+      ]
+    }
+  }
+}

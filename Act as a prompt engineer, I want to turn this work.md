@@ -17,6 +17,8 @@ Here are the full, detailed instructions for packaging this workflow as a reusab
 
 This guide packages the **Degree Future-Viability Assessor (DFVA)** workflow into a VS Code skill using **GitHub Copilot Chat** (with custom instructions) or **Continue.dev** (open-source AI coding assistant). Both approaches let you invoke the DFVA analysis directly from your editor with a single command, feeding handbook URLs and returning structured Markdown reports into your workspace.
 
+> **⚠️ Historical document — the DFVA instrument shown below is superseded.** The rubric, risk bands, and threshold questions are now defined once in `dfva/source/rubric.ts` and generated into `.github/copilot-instructions.md`, `.continue/prompts/dfva.md`, and the COMPASS demo via `npm --prefix scripts run dfva:gen`. The instrument blocks embedded below are a **stale snapshot — do not copy them**; use the generated files. This guide is kept only for the Option A–D packaging walkthrough.
+
 ***
 
 ## Prerequisites
@@ -98,38 +100,19 @@ When the user provides a course name, description, curriculum, or URL:
 
 ## DFVA RUBRIC (Score 0–3 per dimension)
 
-| # | Dimension | 0 | 1 | 2 | 3 |
-|---|---|---|---|---|---|
-| 1 | Automation Exposure of Roles | First 3–5 yrs on data entry, template reports, routine content | Some judgment, but majority templated | Mix of routine/non-routine; clear exit within 2 yrs | Roles defined by judgment, design, accountability, or physical/relational skill from day one |
-| 2 | Systems Thinking & Problem Framing | Purely tool/process execution | Mentioned but not assessed | Dedicated units with authentic assessments | Thread throughout; graduates reason about failure modes, trade-offs, emergent behaviour |
-| 3 | Technical & Quantitative Depth | No meaningful quantitative/technical rigour | Introductory stats or basic digital tools | Solid grounding in stats/data/coding/domain science | Strong technical core embedded and assessed throughout |
-| 4 | Decision-Making Under Uncertainty | Purely recall-based or scripted scenarios | Some case-based work, scripted answers | Assessments require defending positions, justifying trade-offs | Simulations, capstones, or live projects with genuine uncertainty and accountability |
-| 5 | AI Literacy & Governance | No AI coverage | AI mentioned in one elective | AI tools used in coursework; limitations discussed | Graduates can design, deploy, supervise, and critique AI-enabled workflows incl. ethics and governance |
-| 6 | Domain Depth & Specialisation | Generic and interchangeable | Mild specialisation; breadth > depth | Clear domain focus with meaningful specialist knowledge | Deep domain expertise — regulatory, scientific, clinical, or physical — requiring years to develop |
-| 7 | Rigorous, Authentic Research Methods | Literature reviews or secondary source summarising only | Basic introductory research unit | Graduates can design and conduct research; capstone/thesis present | Routinely generate original primary data and defend methodology under scrutiny |
-| 8 | Human & Relational Capability | No interpersonal, ethical, or physical dimension | Ethics mentioned but not explored; no practice | Meaningful professional ethics, stakeholder engagement, or supervised practice | Substantial physical skill, clinical/care practice, or interpersonal accountability |
-| 9 | Curriculum Currency & Adaptability | No curriculum review in 3+ years; no AI content | Minor updates; AI awareness added but structure unchanged | Meaningful refresh in last 2 years; AI in core units | Living curriculum with advisory boards, regular reviews, and outcome tracking |
-| 10 | Graduate Outcome Evidence | No published destination data | Generic satisfaction surveys only | Destination data published but not broken down by role/industry | Granular data: roles, industries, salary bands, time to employment |
-| B | Irreplaceability Premium (BONUS) | Substitutable by adjacent graduates or current AI tools | One distinctive skill, easily unbundled | Clear dual-skill or cross-domain value proposition | Rare integration of technical depth, domain expertise, and human judgment |
+> **Superseded — table removed.** The canonical 0–3 rubric is generated into `.github/copilot-instructions.md` from `dfva/source/rubric.ts`. (The copy that was here had drifted — e.g. D7 mis-named "Rigorous, Authentic Research Methods" vs canonical "Research Methods Rigour".)
 
 ---
 
 ## RISK BANDS
 
-| Score | Band |
-|---|---|
-| 28–36 | 🟢 RESILIENT — AI augments rather than displaces |
-| 20–27 | 🟡 MODERATE RISK — pivot required |
-| 12–19 | 🟠 HIGH RISK — value proposition eroding |
-| 0–11 | 🔴 CRITICAL — human middleware |
+> **Superseded — table removed.** Risk bands are generated from `dfva/source/rubric.ts` — see `.github/copilot-instructions.md` (Risk Bands).
 
 ---
 
 ## THREE THRESHOLD QUESTIONS
 
-Q1: Could a well-prompted AI agent produce 80% of what this graduate produces in their first two years of work?
-Q2: Does this degree teach graduates to design systems, own decisions, or generate original insight?
-Q3: Would this degree's graduates be MORE employable in 5 years than today, given AI trends?
+> **Superseded — questions removed.** The three threshold questions are generated from `dfva/source/rubric.ts` — see `.github/copilot-instructions.md` (Three Threshold Questions).
 
 ---
 
@@ -269,7 +252,7 @@ You are the Degree Future-Viability Assessor (DFVA). Using the course URL, name,
 1. Fetch the course handbook page if a URL is provided. For UniMelb courses, the URL pattern is: https://handbook.unimelb.edu.au/2025/courses/[CODE]
 2. Extract the program overview, majors/specialisations, credit points, duration, learning outcomes, and any named subjects or capstone requirements.
 3. Score the program across all 10 DFVA dimensions plus the Bonus dimension (0–3 each) with handbook-grounded justifications.
-4. Calculate the total score and assign a risk band: 28–36 🟢 RESILIENT / 20–27 🟡 MODERATE RISK / 12–19 🟠 HIGH RISK / 0–11 🔴 CRITICAL
+4. Calculate the total score and assign a risk band (the four bands are defined in `.github/copilot-instructions.md`, generated from `dfva/source/rubric.ts`).
 5. Answer the Three Threshold Questions with YES / NO / UNCERTAIN + rationale.
 6. Write a frank, single-paragraph Verdict on viability by 2027.
 7. Produce a prioritised Recommendations Table (5 actions minimum).

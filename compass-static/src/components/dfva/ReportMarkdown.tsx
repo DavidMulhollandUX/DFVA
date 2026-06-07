@@ -2,6 +2,7 @@ import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import { TrendingUp, TrendingDown, Sparkles } from 'lucide-react'
 import { RISK_CONFIG } from './ScoreArc'
+import { DOT_COLOR } from './dimensionColors'
 import type { Components } from 'react-markdown'
 import type { ReactNode } from 'react'
 
@@ -50,9 +51,7 @@ function splitRisk(text: string): [string, string] | null {
 
 // ─── score dots ───────────────────────────────────────────────────────────────
 
-const DOT_COLOR: Record<number, string> = {
-  3: '#16a34a', 2: '#d97706', 1: '#ea580c', 0: '#e5e7eb',
-}
+// DOT_COLOR is shared via ./dimensionColors (deduped with DimensionSteps + the popover).
 
 function ScoreDots({ score }: { score: number }) {
   return (

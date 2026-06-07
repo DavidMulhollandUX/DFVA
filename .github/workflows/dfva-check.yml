@@ -1,0 +1,30 @@
+name: DFVA drift check
+
+on:
+  pull_request:
+    paths:
+      - 'dfva/source/**'
+      - 'scripts/dfva-*.ts'
+      - '.github/copilot-instructions.md'
+      - '.continue/prompts/dfva.md'
+      - 'compass-static/src/data/rubric.ts'
+      - 'compass-static/src/data/dimensionEvidence.ts'
+  push:
+    paths:
+      - 'dfva/source/**'
+      - 'scripts/dfva-*.ts'
+      - '.github/copilot-instructions.md'
+      - '.continue/prompts/dfva.md'
+      - 'compass-static/src/data/rubric.ts'
+      - 'compass-static/src/data/dimensionEvidence.ts'
+
+jobs:
+  dfva-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm --prefix scripts install
+      - run: npm --prefix scripts run dfva:check

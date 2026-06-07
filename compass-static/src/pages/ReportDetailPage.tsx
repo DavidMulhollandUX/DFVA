@@ -2,7 +2,7 @@ import { useParams, Link } from 'react-router-dom'
 import { ArrowLeft, BarChart2, ClipboardList, TrendingUp } from 'lucide-react'
 import { REPORT_CONTENT } from '../data/reportContent'
 import { getProgramBySlug } from '../data/programData'
-import { ScoreArc, DimensionRadar, ThresholdPanel, RISK_CONFIG, ReportMarkdown } from '../components/dfva'
+import { ScoreArc, DimensionRadar, DimensionSteps, ThresholdPanel, RISK_CONFIG, ReportMarkdown } from '../components/dfva'
 
 const NAV_TABS = [
   { type: 'assessment' as const, label: 'Assessment', icon: BarChart2 },
@@ -97,11 +97,22 @@ export default function ReportDetailPage() {
           style={{}}
         >
           <DimensionRadar dimensions={coreDims} band={program.riskBand} size={220} />
-          <div className="flex flex-col justify-center">
-            <p className="mb-4 text-xs font-semibold uppercase tracking-widest text-muted-foreground">
-              Threshold Questions
-            </p>
-            <ThresholdPanel thresholds={program.thresholds} />
+          <div className="flex flex-col justify-center gap-6">
+            <div>
+              <p className="mb-3 text-xs font-semibold uppercase tracking-widest text-muted-foreground">
+                Dimension Scores
+                <span className="ml-1 font-normal normal-case tracking-normal text-muted-foreground/70">
+                  · click any dimension for its rubric &amp; evidence
+                </span>
+              </p>
+              <DimensionSteps dimensions={coreDims} programSlug={slugsByType.assessment} />
+            </div>
+            <div>
+              <p className="mb-3 text-xs font-semibold uppercase tracking-widest text-muted-foreground">
+                Threshold Questions
+              </p>
+              <ThresholdPanel thresholds={program.thresholds} />
+            </div>
           </div>
         </div>
       )}

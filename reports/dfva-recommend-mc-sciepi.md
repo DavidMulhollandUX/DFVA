@@ -6,7 +6,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY
 
-The Master of Science (Epidemiology) scores 23/36 (MODERATE RISK). The program has exceptional quantitative depth (3/3) and research methods rigor (3/3) — the core discipline subjects constitute one of the strongest methods curricula in the Faculty. Domain depth (3/3) is also strong. The gaps are concentrated in: AI Literacy (1/3), Outcome Evidence (1/3), and moderate weaknesses in Automation Exposure (2/3) and Decision-Making Under Uncertainty (2/3). The D4 score is limited by the option to take only a 25pt minor research project (12.5% of degree), which reduces the guaranteed live-stakes decision accountability.
+The Master of Science (Epidemiology) scores 23/36 (MODERATE RISK). The program has exceptional quantitative depth (3/3) and research methods rigour (3/3) — the core discipline subjects constitute one of the strongest methods curricula in the Faculty. Domain depth (3/3) is also strong. The gaps are concentrated in: AI Literacy (1/3), Outcome Evidence (1/3), and moderate weaknesses in Automation Exposure (2/3) and Decision-Making Under Uncertainty (2/3). The D4 score is limited by the option to take only a 25pt minor research project (12.5% of degree), which reduces the guaranteed live-stakes decision accountability.
 
 **Key strengths to protect:**
 - Quantitative core: Biostatistics + Regression + Survival Analysis is nationally distinctive
@@ -22,7 +22,7 @@ The Master of Science (Epidemiology) scores 23/36 (MODERATE RISK). The program h
 
 ## 2. SCORE-TO-ACTION MAPPING
 
-**Dimensions scoring 3/3 (protect and maintain):** D3 Technical Depth, D6 Domain Depth, D7 Research Methods Rigor. Action: Protect the quantitative core and methods curriculum. These are the program's competitive advantage and the source of its automation resistance. Do not dilute to make room for new content. Dimensions: D3, D6, D7.
+**Dimensions scoring 3/3 (protect and maintain):** D3 Technical Depth, D6 Domain Depth, D7 Research Methods Rigour. Action: Protect the quantitative core and methods curriculum. These are the program's competitive advantage and the source of its automation resistance. Do not dilute to make room for new content. Dimensions: D3, D6, D7.
 
 **Dimensions scoring 2/3 (enhance):** D1 Automation Exposure, D2 Systems Thinking, D4 Decision-Making, D8 Human & Relational, D9 Curriculum Currency. Action: Strengthen applied decision-making, encourage major research project, make communication compulsory, integrate AI awareness into existing methods teaching. Dimensions: D1, D2, D4, D8, D9.
 
@@ -38,7 +38,7 @@ The Master of Science (Epidemiology) scores 23/36 (MODERATE RISK). The program h
 | Pharmaceutical RWE growing 25–30% YoY | Strengthen causal inference from observational data (target trial emulation) | High |
 | AI health governance emerging as new job family | Add AI validation methodology module | High |
 | Climate-health surveillance positions emerging | Add climate-health epidemiology cases | Medium |
-| Biostatistician supply-demand gap persisting | Program is well-positioned; maintain quantitative rigor | Ongoing |
+| Biostatistician supply-demand gap persisting | Program is well-positioned; maintain quantitative rigour | Ongoing |
 | Epidemiologist as AI auditor positioning | This is the program's strategic opportunity — lean into it | High |
 
 ---
@@ -107,7 +107,7 @@ The Master of Science (Epidemiology) scores 23/36 (MODERATE RISK). The program h
 
 AI Validation module live Sem 2 2027 · SCIE90013 compulsory from 2027 cohort · Major project uptake rate tracked (target: 70%+ choose 50pt pathway) · Advisory panel constituted by Month 6 · Graduate destination survey deployed Month 10 · First outcome data published Month 18 · Biostatistics AI exercise piloted Sem 1 2027 · Target: score improvement from 23/36 to 27+/36 within 24 months
 
-**Leading indicators:** Proportion choosing major research project (50pts) · Enrollment in AI Validation module · Advisory panel engagement frequency · Student competency in AI evaluation (assessed in Biostatistics)
+**Leading indicators:** Proportion choosing major research project (50pts) · Enrolment in AI Validation module · Advisory panel engagement frequency · Student competency in AI evaluation (assessed in Biostatistics)
 
 **Lagging indicators:** Graduate employment rate at 6 months by sector · Proportion entering AI governance roles · Employer satisfaction scores · Time-to-employment by role type
 
@@ -133,8 +133,8 @@ AI Validation module live Sem 2 2027 · SCIE90013 compulsory from 2027 cohort ·
 
 ## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
 
-The 2027 MC-SCIEPI graduate is an epidemiological scientist who designs studies, interprets causal evidence, and validates AI health tools using rigorous population health methodology. They combine deep quantitative expertise (biostatistics, regression, survival analysis, causal inference) with the emerging capability to audit AI diagnostic and surveillance systems for validity, fairness, and population generalizability.
+The 2027 MC-SCIEPI graduate is an epidemiological scientist who designs studies, interprets causal evidence, and validates AI health tools using rigorous population health methodology. They combine deep quantitative expertise (biostatistics, regression, survival analysis, causal inference) with the emerging capability to audit AI diagnostic and surveillance systems for validity, fairness, and population generalisability.
 
 Their major research project demonstrates they can frame original research questions, design observational studies that control for confounding, and generate publishable insights from complex health data. Their AI Validation training means they can evaluate whether an ML-based diagnostic tool performs equitably across population subgroups — applying epidemiological methods (sensitivity, specificity, predictive values, calibration) to a new class of health intervention.
 
-This graduate enters a labor market with structural demand across multiple growth sectors: government pandemic preparedness (Australian CDC, state health departments), pharmaceutical real-world evidence (post-market surveillance, pharmacoepidemiology), clinical trial design (biostatistician shortage), and the emerging field of health AI governance. Their combination of methodological rigor, domain expertise, and AI validation capability positions them not as data processors who compete with AI, but as the professionals who determine whether AI health tools are safe, valid, and fair.
+This graduate enters a labour market with structural demand across multiple growth sectors: government pandemic preparedness (Australian CDC, state health departments), pharmaceutical real-world evidence (post-market surveillance, pharmacoepidemiology), clinical trial design (biostatistician shortage), and the emerging field of health AI governance. Their combination of methodological rigour, domain expertise, and AI validation capability positions them not as data processors who compete with AI, but as the professionals who determine whether AI health tools are safe, valid, and fair.

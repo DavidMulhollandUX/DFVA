@@ -1,0 +1,276 @@
+{
+  "code": "b-sci",
+  "programSlug": "dfva-b-sci",
+  "byDimension": {
+    "D1": {
+      "rationale": "Cluster B graduates land in data/computational roles with meaningful judgment requirements; Cluster A and C graduates face higher early-career routine work exposure. Overall: mixed profile — not all templated, but entry is uneven.",
+      "recommendations": [
+        {
+          "action": "Mandate the Research Project for all students — require primary data generation, defended methodology, failure-mode and limitation analysis, and one AI-tool use reflection",
+          "priority": "P2",
+          "effort": "High",
+          "dimRefs": [
+            "D4",
+            "D1",
+            "D7",
+            "B"
+          ]
+        },
+        {
+          "action": "Make Science Internship a core elective requirement — require decision-making reflection, AI tool use log, and client or supervisor accountability statement",
+          "priority": "P4",
+          "effort": "Medium",
+          "dimRefs": [
+            "D4",
+            "D8",
+            "D1"
+          ]
+        },
+        {
+          "action": "Publish major-level graduate destination data — role-title, industry, salary band, and postgraduate study rate at major level within 12 months of graduation cohort",
+          "priority": "P5",
+          "effort": "Medium",
+          "dimRefs": [
+            "D10",
+            "D1"
+          ]
+        },
+        {
+          "action": "Introduce AI substitution pressure framing into major selection advising — update all major selection guides and careers advising to address automation exposure by cluster",
+          "priority": "P6",
+          "effort": "Low",
+          "dimRefs": [
+            "D1",
+            "D9"
+          ]
+        }
+      ]
+    },
+    "D2": {
+      "rationale": "Science methodology teaches hypothesis formation and experimental design — genuine systems thinking. However, integration across the degree varies by major; not all majors embed failure-mode or trade-off reasoning consistently.",
+      "recommendations": []
+    },
+    "D3": {
+      "rationale": "This is the degree's strongest dimension. Majors in Mathematics, Statistics, Physics, and Chemistry carry genuine technical rigour assessed at depth. Even life sciences majors require quantitative methods. Third-year units are substantively demanding.",
+      "recommendations": []
+    },
+    "D4": {
+      "rationale": "Experimental science inherently involves uncertainty. However, authentic capstone projects with real stakes are not mandatory — the Research Project is available but not required. Many students graduate without a live uncertainty assessment.",
+      "recommendations": [
+        {
+          "action": "Mandate the Research Project for all students — require primary data generation, defended methodology, failure-mode and limitation analysis, and one AI-tool use reflection",
+          "priority": "P2",
+          "effort": "High",
+          "dimRefs": [
+            "D4",
+            "D1",
+            "D7",
+            "B"
+          ]
+        },
+        {
+          "action": "Make Science Internship a core elective requirement — require decision-making reflection, AI tool use log, and client or supervisor accountability statement",
+          "priority": "P4",
+          "effort": "Medium",
+          "dimRefs": [
+            "D4",
+            "D8",
+            "D1"
+          ]
+        },
+        {
+          "action": "Introduce graduation portfolio requirement — graduates document one primary research artifact, one AI tool governance reflection, and one stakeholder communication piece before graduation",
+          "priority": "P8",
+          "effort": "Medium",
+          "dimRefs": [
+            "D4",
+            "D8",
+            "B"
+          ]
+        }
+      ]
+    },
+    "D5": {
+      "rationale": "No mandatory AI literacy or governance unit across the degree. AI appears in some computational majors (Computing and Software Systems, Data Science major) as tooling, but no governance or deployment framework is embedded at degree level.",
+      "recommendations": [
+        {
+          "action": "Create mandatory core unit: AI in Scientific Research — AI tool evaluation methodology, model limitation and bias analysis, research integrity in AI-assisted science, reproducibility requirements, and NIST AI RMF applied to research contexts",
+          "priority": "P1",
+          "effort": "High",
+          "dimRefs": [
+            "D5",
+            "D9",
+            "B"
+          ]
+        },
+        {
+          "action": "Create mandatory science communication and ethics unit — assessed through a stakeholder-facing deliverable (policy brief, public explainer, or client-facing research translation report)",
+          "priority": "P3",
+          "effort": "Medium",
+          "dimRefs": [
+            "D8",
+            "D5",
+            "B"
+          ]
+        }
+      ]
+    },
+    "D6": {
+      "rationale": "The major structure provides genuine specialisation. Third-year depth in Physics, Chemistry, Biochemistry, or Mathematics is substantive and not easily replicated. Domain depth is a real differentiator — especially for Cluster B and Cluster C.",
+      "recommendations": []
+    },
+    "D7": {
+      "rationale": "Scientific method is core curriculum. All majors include experimental design, data collection, and interpretation. Third-year research projects and laboratory units involve primary data generation. Honours stream adds full research methodology rigour.",
+      "recommendations": [
+        {
+          "action": "Mandate the Research Project for all students — require primary data generation, defended methodology, failure-mode and limitation analysis, and one AI-tool use reflection",
+          "priority": "P2",
+          "effort": "High",
+          "dimRefs": [
+            "D4",
+            "D1",
+            "D7",
+            "B"
+          ]
+        }
+      ]
+    },
+    "D8": {
+      "rationale": "Science degrees historically under-invest in interpersonal, ethical, and stakeholder capability. Breadth subjects provide some exposure but this is not assessed as a core competency. Ethics appears in some majors (genetics, ecology) but lightly.",
+      "recommendations": [
+        {
+          "action": "Create mandatory science communication and ethics unit — assessed through a stakeholder-facing deliverable (policy brief, public explainer, or client-facing research translation report)",
+          "priority": "P3",
+          "effort": "Medium",
+          "dimRefs": [
+            "D8",
+            "D5",
+            "B"
+          ]
+        },
+        {
+          "action": "Make Science Internship a core elective requirement — require decision-making reflection, AI tool use log, and client or supervisor accountability statement",
+          "priority": "P4",
+          "effort": "Medium",
+          "dimRefs": [
+            "D4",
+            "D8",
+            "D1"
+          ]
+        },
+        {
+          "action": "Introduce graduation portfolio requirement — graduates document one primary research artifact, one AI tool governance reflection, and one stakeholder communication piece before graduation",
+          "priority": "P8",
+          "effort": "Medium",
+          "dimRefs": [
+            "D4",
+            "D8",
+            "B"
+          ]
+        }
+      ]
+    },
+    "D9": {
+      "rationale": "2026 handbook reflects ongoing review; some majors have integrated data science and computational tools. However, no degree-level AI core unit is visible — a significant currency gap given the pace of AI tooling in scientific research.",
+      "recommendations": [
+        {
+          "action": "Create mandatory core unit: AI in Scientific Research — AI tool evaluation methodology, model limitation and bias analysis, research integrity in AI-assisted science, reproducibility requirements, and NIST AI RMF applied to research contexts",
+          "priority": "P1",
+          "effort": "High",
+          "dimRefs": [
+            "D5",
+            "D9",
+            "B"
+          ]
+        },
+        {
+          "action": "Introduce AI substitution pressure framing into major selection advising — update all major selection guides and careers advising to address automation exposure by cluster",
+          "priority": "P6",
+          "effort": "Low",
+          "dimRefs": [
+            "D1",
+            "D9"
+          ]
+        },
+        {
+          "action": "Establish Faculty of Science curriculum advisory panel — 8–10 members from CSIRO, APS, ANZ biotech/pharma, environmental consulting, AI research institute, and science communication",
+          "priority": "P7",
+          "effort": "Medium",
+          "dimRefs": [
+            "D9",
+            "D10"
+          ]
+        }
+      ]
+    },
+    "D10": {
+      "rationale": "UniMelb publishes graduate outcome data at faculty level; Science faculty data shows destination distribution but lacks role-title and salary granularity at major level. Partial transparency.",
+      "recommendations": [
+        {
+          "action": "Publish major-level graduate destination data — role-title, industry, salary band, and postgraduate study rate at major level within 12 months of graduation cohort",
+          "priority": "P5",
+          "effort": "Medium",
+          "dimRefs": [
+            "D10",
+            "D1"
+          ]
+        },
+        {
+          "action": "Establish Faculty of Science curriculum advisory panel — 8–10 members from CSIRO, APS, ANZ biotech/pharma, environmental consulting, AI research institute, and science communication",
+          "priority": "P7",
+          "effort": "Medium",
+          "dimRefs": [
+            "D9",
+            "D10"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "rationale": "The B-Sci carries genuine dual-skill value for Cluster B graduates (quantitative + domain science). Physical and life science graduates have domain depth that creates non-trivial automation resistance in specialist roles. Generalist graduates without postgrad study are weakly differentiated.",
+      "recommendations": [
+        {
+          "action": "Create mandatory core unit: AI in Scientific Research — AI tool evaluation methodology, model limitation and bias analysis, research integrity in AI-assisted science, reproducibility requirements, and NIST AI RMF applied to research contexts",
+          "priority": "P1",
+          "effort": "High",
+          "dimRefs": [
+            "D5",
+            "D9",
+            "B"
+          ]
+        },
+        {
+          "action": "Mandate the Research Project for all students — require primary data generation, defended methodology, failure-mode and limitation analysis, and one AI-tool use reflection",
+          "priority": "P2",
+          "effort": "High",
+          "dimRefs": [
+            "D4",
+            "D1",
+            "D7",
+            "B"
+          ]
+        },
+        {
+          "action": "Create mandatory science communication and ethics unit — assessed through a stakeholder-facing deliverable (policy brief, public explainer, or client-facing research translation report)",
+          "priority": "P3",
+          "effort": "Medium",
+          "dimRefs": [
+            "D8",
+            "D5",
+            "B"
+          ]
+        },
+        {
+          "action": "Introduce graduation portfolio requirement — graduates document one primary research artifact, one AI tool governance reflection, and one stakeholder communication piece before graduation",
+          "priority": "P8",
+          "effort": "Medium",
+          "dimRefs": [
+            "D4",
+            "D8",
+            "B"
+          ]
+        }
+      ]
+    }
+  }
+}

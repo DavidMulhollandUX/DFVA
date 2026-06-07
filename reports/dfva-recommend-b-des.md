@@ -15,8 +15,8 @@ The Bachelor of Design scored **17/36 — HIGH RISK**. Three critical 1/3 scores
 | D3 — Technical and Quantitative Depth | 1/3 | ⚠️ Critical gap |
 | D4 — Decision-Making Under Uncertainty | 2/3 | Adequate |
 | D5 — AI Literacy and Governance | 1/3 | ⚠️ Critical gap |
-| D6 — Domain Depth and Specialization | 2/3 | Adequate |
-| D7 — Research Methods Rigor | 2/3 | Adequate |
+| D6 — Domain Depth and Specialisation | 2/3 | Adequate |
+| D7 — Research Methods Rigour | 2/3 | Adequate |
 | D8 — Human and Relational Capability | 3/3 | ✅ Strong |
 | D9 — Curriculum Currency and Adaptability | 2/3 | Adequate |
 | D10 — Graduate Outcome Evidence | 1/3 | ⚠️ Critical gap |

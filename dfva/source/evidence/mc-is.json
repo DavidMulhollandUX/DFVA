@@ -1,0 +1,219 @@
+{
+  "code": "mc-is",
+  "programSlug": "dfva-mc-is",
+  "byDimension": {
+    "D1": {
+      "rationale": "First 2–3 years dominated by BA documentation, requirements writing, and process analysis — templated tasks with limited decision ownership.",
+      "recommendations": [
+        {
+          "action": "Create mandatory core unit: AI Governance and Deployment (NIST AI RMF, ISO 42001, human-in-the-loop design, vendor assessment)",
+          "priority": "P1",
+          "effort": "High",
+          "dimRefs": [
+            "D5",
+            "D1",
+            "B"
+          ]
+        },
+        {
+          "action": "Mandate real-client AI implementation capstone for all tracks",
+          "priority": "P2",
+          "effort": "High",
+          "dimRefs": [
+            "D4",
+            "D1",
+            "B"
+          ]
+        },
+        {
+          "action": "Redesign SA&D assessment: replace BRD with automation audit + governance recommendation",
+          "priority": "P3",
+          "effort": "Medium",
+          "dimRefs": [
+            "D2",
+            "D4",
+            "D1"
+          ]
+        },
+        {
+          "action": "Update marketing and careers framing to AI workflow architect / automation governance analyst",
+          "priority": "P8",
+          "effort": "Low",
+          "dimRefs": [
+            "D1"
+          ]
+        }
+      ]
+    },
+    "D2": {
+      "rationale": "Enterprise Architecture and Governance and Systems Analysis and Design include trade-off framing; not consistently integrated across all units.",
+      "recommendations": [
+        {
+          "action": "Redesign SA&D assessment: replace BRD with automation audit + governance recommendation",
+          "priority": "P3",
+          "effort": "Medium",
+          "dimRefs": [
+            "D2",
+            "D4",
+            "D1"
+          ]
+        }
+      ]
+    },
+    "D3": {
+      "rationale": "Business Intelligence Systems and IT Infrastructure provide solid grounding; coding depth is light unless electives selected deliberately.",
+      "recommendations": [
+        {
+          "action": "Add mandatory data engineering elective pathway (SQL, Python, dbt)",
+          "priority": "P4",
+          "effort": "Medium",
+          "dimRefs": [
+            "D3",
+            "B"
+          ]
+        }
+      ]
+    },
+    "D4": {
+      "rationale": "Capstone and project management units include defended trade-offs; non-research track limits live uncertainty exposure.",
+      "recommendations": [
+        {
+          "action": "Mandate real-client AI implementation capstone for all tracks",
+          "priority": "P2",
+          "effort": "High",
+          "dimRefs": [
+            "D4",
+            "D1",
+            "B"
+          ]
+        },
+        {
+          "action": "Redesign SA&D assessment: replace BRD with automation audit + governance recommendation",
+          "priority": "P3",
+          "effort": "Medium",
+          "dimRefs": [
+            "D2",
+            "D4",
+            "D1"
+          ]
+        }
+      ]
+    },
+    "D5": {
+      "rationale": "No dedicated AI governance unit visible in core structure; AI tools may appear in Business Intelligence Systems but not as a governed curriculum pillar.",
+      "recommendations": [
+        {
+          "action": "Create mandatory core unit: AI Governance and Deployment (NIST AI RMF, ISO 42001, human-in-the-loop design, vendor assessment)",
+          "priority": "P1",
+          "effort": "High",
+          "dimRefs": [
+            "D5",
+            "D1",
+            "B"
+          ]
+        }
+      ]
+    },
+    "D6": {
+      "rationale": "IS is a defined domain; enterprise architecture and governance provide specialist grounding, but dual-stream design dilutes depth.",
+      "recommendations": [
+        {
+          "action": "Introduce sector specialisation requirement (health IT, fintech, or govtech cluster)",
+          "priority": "P5",
+          "effort": "Medium",
+          "dimRefs": [
+            "D6",
+            "B"
+          ]
+        }
+      ]
+    },
+    "D7": {
+      "rationale": "Research Methods in IS exists on research track; coursework-only track has weaker exposure. Score reflects research track access.",
+      "recommendations": []
+    },
+    "D8": {
+      "rationale": "Stakeholder management and change management appear in project management units; no clinical or physical accountability layer.",
+      "recommendations": []
+    },
+    "D9": {
+      "rationale": "2026 handbook reflects recent review; no explicit AI core units visible — a currency gap for a 2026 program.",
+      "recommendations": [
+        {
+          "action": "Establish employer advisory panel with annual curriculum review",
+          "priority": "P7",
+          "effort": "Medium",
+          "dimRefs": [
+            "D9",
+            "D10"
+          ]
+        }
+      ]
+    },
+    "D10": {
+      "rationale": "UniMelb publishes aggregate graduate outcome data; granular role/salary/time-to-employment data for MC-IS not prominently available.",
+      "recommendations": [
+        {
+          "action": "Implement granular graduate destination tracking",
+          "priority": "P6",
+          "effort": "Medium",
+          "dimRefs": [
+            "D10"
+          ]
+        },
+        {
+          "action": "Establish employer advisory panel with annual curriculum review",
+          "priority": "P7",
+          "effort": "Medium",
+          "dimRefs": [
+            "D9",
+            "D10"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "rationale": "Some dual-skill value (business + technology bridge), but this profile is common and not deeply differentiated.",
+      "recommendations": [
+        {
+          "action": "Create mandatory core unit: AI Governance and Deployment (NIST AI RMF, ISO 42001, human-in-the-loop design, vendor assessment)",
+          "priority": "P1",
+          "effort": "High",
+          "dimRefs": [
+            "D5",
+            "D1",
+            "B"
+          ]
+        },
+        {
+          "action": "Mandate real-client AI implementation capstone for all tracks",
+          "priority": "P2",
+          "effort": "High",
+          "dimRefs": [
+            "D4",
+            "D1",
+            "B"
+          ]
+        },
+        {
+          "action": "Add mandatory data engineering elective pathway (SQL, Python, dbt)",
+          "priority": "P4",
+          "effort": "Medium",
+          "dimRefs": [
+            "D3",
+            "B"
+          ]
+        },
+        {
+          "action": "Introduce sector specialisation requirement (health IT, fintech, or govtech cluster)",
+          "priority": "P5",
+          "effort": "Medium",
+          "dimRefs": [
+            "D6",
+            "B"
+          ]
+        }
+      ]
+    }
+  }
+}

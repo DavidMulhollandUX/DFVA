@@ -37,17 +37,17 @@ Major mining companies (BHP, Rio Tinto, FMG, Newmont) graduate programs specify 
 State government and consultancy hydrogeology postings (VIC, SA, WA) increased 20–30% in 2025–2026, driven by drought adaptation, MAR projects, and PFAS remediation. All require physical bore installation supervision and aquifer testing that is embodied work.
 
 **Signal 6 — Carbon capture and storage (CCS) creating new geoscience hiring pipeline.**
-CCS projects (Gorgon, CarbonNet, Browse) are hiring geologists for subsurface characterization. Postings specify reservoir geology, seismic interpretation, and CO2 plume monitoring — roles that combine computational modelling with subsurface physical understanding.
+CCS projects (Gorgon, CarbonNet, Browse) are hiring geologists for subsurface characterisation. Postings specify reservoir geology, seismic interpretation, and CO2 plume monitoring — roles that combine computational modelling with subsurface physical understanding.
 
 ---
 
 ## 3. CURRENT DISCUSSION SIGNALS (X)
 
-**Theme 1 — "AlphaFold didn't kill structural biology — and AI won't kill geology."** Repeated professional discourse emphasizes that AI tools accelerate geological interpretation but cannot replace physical ground-truth. The consensus: AI is a powerful assistant for desktop geology, but the profession's value sits in field validation, regulatory accountability, and physical sample integrity.
+**Theme 1 — "AlphaFold didn't kill structural biology — and AI won't kill geology."** Repeated professional discourse emphasises that AI tools accelerate geological interpretation but cannot replace physical ground-truth. The consensus: AI is a powerful assistant for desktop geology, but the profession's value sits in field validation, regulatory accountability, and physical sample integrity.
 
 **Theme 2 — Climate science PhD glut vs industry placement shortage.** Ongoing discussion about oversupply of climate PhDs relative to permanent research positions, while industry (energy transition, consulting, government) cannot find enough graduates willing to leave academia for applied roles. Masters-level graduates with industry orientation may be better positioned than PhDs for non-academic pathways.
 
-**Theme 3 — Automated drill core logging is compressing junior geological logging roles.** AI-powered core photography and ML-based lithology identification (e.g., Imago, DeepCore) are reducing time needed for routine logging. Professional discourse acknowledges this changes junior geologist workflow but emphasizes that interpretation, structural context, and field mapping remain human-owned.
+**Theme 3 — Automated drill core logging is compressing junior geological logging roles.** AI-powered core photography and ML-based lithology identification (e.g., Imago, DeepCore) are reducing time needed for routine logging. Professional discourse acknowledges this changes junior geologist workflow but emphasises that interpretation, structural context, and field mapping remain human-owned.
 
 **Theme 4 — "The geologist of 2030 is a data scientist who can swing a hammer."** Emerging consensus that future geologists need computational skills (Python, GIS, ML) alongside traditional field skills. Programs that don't integrate both are producing incomplete graduates. Discussion frames this as opportunity, not threat — AI makes geologists more productive, not redundant.
 
@@ -55,7 +55,7 @@ CCS projects (Gorgon, CarbonNet, Browse) are hiring geologists for subsurface ch
 
 **Theme 6 — Environmental regulatory tightening increasing demand for qualified assessors.** PFAS, mine rehabilitation, and biodiversity offset regulations are creating sustained demand for qualified environmental scientists who can conduct field assessments and sign regulatory reports. AI cannot hold professional accreditation or legal liability.
 
-**Theme 7 — Atmospheric science graduates face "model operator vs model critic" bifurcation.** Discussion notes that running existing climate models is becoming commoditized (AI can configure and execute standard runs), while validating models against observations, diagnosing failures, and communicating uncertainty to decision-makers remains human work. The Masters-level graduate must position as the latter.
+**Theme 7 — Atmospheric science graduates face "model operator vs model critic" bifurcation.** Discussion notes that running existing climate models is becoming commoditised (AI can configure and execute standard runs), while validating models against observations, diagnosing failures, and communicating uncertainty to decision-makers remains human work. The Masters-level graduate must position as the latter.
 
 ---
 
@@ -68,7 +68,7 @@ CCS projects (Gorgon, CarbonNet, Browse) are hiring geologists for subsurface ch
 | Routine drill core logging and description | AI-powered core photography and ML lithology identification | Automated logging systems (Imago, DeepCore) |
 | Standard climate model execution | AI agents can configure and run established model configurations | Automated model pipelines with parameter tuning |
 | Desktop-only resource estimation | ML-based geostatistical estimation increasingly automated | AI-assisted block modelling tools |
-| Manual GIS digitization | Automated feature extraction from satellite/drone imagery | ML-powered geospatial analysis |
+| Manual GIS digitisation | Automated feature extraction from satellite/drone imagery | ML-powered geospatial analysis |
 | Routine environmental monitoring report writing | LLM-based report generation from structured data | AI report drafters with template compliance |
 
 ### Rising Demand
@@ -77,9 +77,9 @@ CCS projects (Gorgon, CarbonNet, Browse) are hiring geologists for subsurface ch
 |---|---|---|
 | AI output validation and quality assurance | All automated geological/climate outputs require expert human review | Train graduates to critique AI-generated geological interpretations |
 | Critical minerals exploration expertise | National sovereignty and energy transition driving sustained demand | Ensure GEOL90052 Precious & Critical Minerals remains core and current |
-| Field-based environmental assessment with regulatory sign-off | Tightening regulation requires qualified human assessors on-site | Emphasize field techniques and professional accreditation pathways |
+| Field-based environmental assessment with regulatory sign-off | Tightening regulation requires qualified human assessors on-site | Emphasise field techniques and professional accreditation pathways |
 | Climate uncertainty communication to non-scientists | Decision-makers need translated climate science, not raw model output | Strengthen SCIE90013 Communication for Research Scientists as compulsory |
-| CCS subsurface characterization | Massive pipeline of carbon storage projects requiring geological expertise | Consider adding CCS-specific elective or integrating into existing subjects |
+| CCS subsurface characterisation | Massive pipeline of carbon storage projects requiring geological expertise | Consider adding CCS-specific elective or integrating into existing subjects |
 | Computational geology (Python, ML, geostatistics) | "Geologist of 2030" requires hybrid field + computational capability | Promote COMP90072 and COMP90059 more strongly within professional skills |
 | Cross-disciplinary systems integration | Climate-geology-hydrology-ecology interfaces creating new roles | Encourage cross-stream elective pathways and interdisciplinary projects |
 
@@ -116,7 +116,7 @@ CCS projects (Gorgon, CarbonNet, Browse) are hiring geologists for subsurface ch
 - No data on proportion of graduates entering field-intensive vs desktop-intensive roles
 - Internship placement rates (SCIE90017) not publicly reported
 
-> Evidence confidence for this report: Medium–High. Earth sciences labor market signals are unusually clear due to the physical-embodied nature of the work and strong government/industry demand drivers. The main uncertainty is around the computational-only career pathways within Atmospheric Science.
+> Evidence confidence for this report: Medium–High. Earth sciences labour market signals are unusually clear due to the physical-embodied nature of the work and strong government/industry demand drivers. The main uncertainty is around the computational-only career pathways within Atmospheric Science.
 
 ---
 

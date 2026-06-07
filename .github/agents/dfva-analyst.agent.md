@@ -39,7 +39,7 @@ When given a program URL or course code, run all five stages in order. Do not sk
 
 Apply the DFVA rubric exactly. Score all 10 dimensions plus bonus (0–3 each). Compute total /36. Map to risk band.
 
-**Risk bands:** 28–36 RESILIENT · 20–27 MODERATE RISK · 12–19 HIGH RISK · 0–11 CRITICAL
+**Risk bands:** see `.github/copilot-instructions.md` (Risk Bands).
 
 **Output header:**
 ```
