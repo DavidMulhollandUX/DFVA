@@ -5,7 +5,7 @@ import {
   CardHeader,
   CardTitle,
 } from "../client/components/ui/card";
-import { ArrowRight, BarChart2, ClipboardList, TrendingUp } from "lucide-react";
+import { ArrowRight, BarChart2, ClipboardList, Loader2, TrendingUp } from "lucide-react";
 import {
   PROGRAMS,
   riskBandConfig,
@@ -14,6 +14,7 @@ import {
   type DimensionScore,
 } from "./sharedProgramData";
 import type { ProgramReport } from "./sharedProgramData";
+import { useReportsData } from "./useReportsData";
 
 function ScoreGauge({
   score,
@@ -114,6 +115,8 @@ function ThresholdPills({
 }
 
 export default function ReportsPage() {
+  const { reports, isLoading } = useReportsData();
+
   return (
     <div className="mx-auto max-w-3xl px-4 py-16">
       <div className="mb-10">
@@ -126,8 +129,18 @@ export default function ReportsPage() {
         </p>
       </div>
 
-      <div className="flex flex-col gap-6">
-        {PROGRAMS.map((p) => {
+      {isLoading ? (
+        <div className="flex items-center justify-center py-24">
+          <Loader2 className="h-6 w-6 animate-spin text-muted-foreground" />
+        </div>
+      ) : reports.length === 0 ? (
+        <div className="flex flex-col items-center justify-center py-24 text-center text-muted-foreground">
+          <BarChart2 className="h-10 w-10 opacity-20 mb-4" />
+          <p className="text-sm">No assessment reports yet.</p>
+        </div>
+      ) : (
+        <div className="flex flex-col gap-6">
+          {reports.map((p) => {
           const cfg = riskBandConfig[p.riskBand];
           return (
             <Card
