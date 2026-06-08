@@ -15,7 +15,19 @@ export default function LandingPage() {
     <div className="bg-background text-foreground">
       <main className="isolate">
         <Hero />
-        <FeaturesGrid features={features} />
+        <FeaturesGrid
+          features={features}
+          title={
+            <>
+              <p className="text-center text-xs font-semibold uppercase tracking-widest text-muted-foreground">
+                What COMPASS assesses
+              </p>
+              <h3 className="text-foreground mt-3 text-center text-3xl font-bold">
+                Built for curriculum committees
+              </h3>
+            </>
+          }
+        />
         <Testimonials testimonials={testimonials} />
         <FAQ faqs={faqs} />
       </main>

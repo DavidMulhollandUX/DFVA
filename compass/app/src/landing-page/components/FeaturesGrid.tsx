@@ -1,4 +1,5 @@
 import React from "react";
+import { Link as RouterLink } from "react-router";
 import {
   Card,
   CardContent,
@@ -21,17 +22,19 @@ export interface GridFeature extends Omit<Feature, "icon"> {
 interface FeaturesGridProps {
   features: GridFeature[];
   className?: string;
+  title?: string;
+  description?: string;
 }
 
-const FeaturesGrid = ({ features, className = "" }: FeaturesGridProps) => {
+const FeaturesGrid = ({ features, className = "", title, description }: FeaturesGridProps) => {
   return (
     <div
       className="mx-auto my-16 flex max-w-7xl flex-col gap-4 md:my-24 lg:my-40"
       id="features"
     >
       <SectionTitle
-        title="Features"
-        description="These are some of the features of the product."
+        title={title || "Features"}
+        description={description || "These are some of the features of the product."}
       />
       <div
         className={cn(
@@ -137,14 +140,12 @@ function FeaturesGridItem({
 
   if (href) {
     return (
-      <a
-        href={href}
-        target="_blank"
-        rel="noopener noreferrer"
+      <RouterLink
+        to={href}
         className={gridFeatureSizeToClasses[size]}
       >
         {gridFeatureCard}
-      </a>
+      </RouterLink>
     );
   }
 
