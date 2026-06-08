@@ -12,8 +12,8 @@ import {
   thresholdConfig,
   dimBarColor,
   type DimensionScore,
-  type ProgramReport,
 } from "./sharedProgramData";
+import type { ProgramReport } from "./sharedProgramData";
 
 function ScoreGauge({
   score,
@@ -22,7 +22,7 @@ function ScoreGauge({
 }: {
   score: number;
   max: number;
-  band: string;
+  band: ProgramReport["riskBand"];
 }) {
   const cfg = riskBandConfig[band];
   const pct = Math.round((score / max) * 100);
@@ -90,7 +90,7 @@ function DimensionBars({ dimensions }: { dimensions: DimensionScore[] }) {
 function ThresholdPills({
   thresholds,
 }: {
-  thresholds: { q1: string; q2: string; q3: string };
+  thresholds: { q1: "YES" | "NO" | "UNCERTAIN"; q2: "YES" | "NO" | "UNCERTAIN"; q3: "YES" | "NO" | "UNCERTAIN" };
 }) {
   const items = [
     { label: "AI replaces output?", value: thresholds.q1 },
@@ -175,7 +175,7 @@ export default function ReportsPage() {
                 >
                   <Link
                     to={`/reports/${p.assessmentSlug}`}
-                    className={`flex items-center gap-2 px-4 py-3 text-sm font-medium ${cfg.text} hover:${cfg.bg} transition-colors`}
+                    className={`flex items-center gap-2 px-4 py-3 text-sm font-medium ${cfg.text} ${cfg.hoverBg} transition-colors`}
                   >
                     <BarChart2 className="h-4 w-4 shrink-0" />
                     <span>DFVA Assessment</span>
@@ -183,7 +183,7 @@ export default function ReportsPage() {
                   </Link>
                   <Link
                     to={`/reports/${p.marketSlug}`}
-                    className={`flex items-center gap-2 px-4 py-3 text-sm font-medium ${cfg.text} hover:${cfg.bg} transition-colors`}
+                    className={`flex items-center gap-2 px-4 py-3 text-sm font-medium ${cfg.text} ${cfg.hoverBg} transition-colors`}
                   >
                     <TrendingUp className="h-4 w-4 shrink-0" />
                     <span>Market Intelligence</span>
@@ -192,7 +192,7 @@ export default function ReportsPage() {
                   {p.recommendSlug && (
                     <Link
                       to={`/reports/${p.recommendSlug}`}
-                      className={`flex items-center gap-2 px-4 py-3 text-sm font-medium ${cfg.text} hover:${cfg.bg} transition-colors`}
+                      className={`flex items-center gap-2 px-4 py-3 text-sm font-medium ${cfg.text} ${cfg.hoverBg} transition-colors`}
                     >
                       <ClipboardList className="h-4 w-4 shrink-0" />
                       <span>Improvement Plan</span>

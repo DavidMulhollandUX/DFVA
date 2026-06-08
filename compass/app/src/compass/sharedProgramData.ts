@@ -12,7 +12,7 @@ export interface ProgramReport {
   score: number;
   maxScore: number;
   riskBand: "RESILIENT" | "MODERATE RISK" | "HIGH RISK" | "CRITICAL";
-  thresholds: { q1: string; q2: string; q3: string };
+  thresholds: { q1: "YES" | "NO" | "UNCERTAIN"; q2: "YES" | "NO" | "UNCERTAIN"; q3: "YES" | "NO" | "UNCERTAIN" };
   dimensions: DimensionScore[];
   assessmentSlug: string;
   marketSlug: string;
@@ -187,7 +187,7 @@ export const PROGRAMS: ProgramReport[] = [
 
 export const riskBandConfig: Record<
   string,
-  { bg: string; text: string; border: string; bar: string; label: string }
+  { bg: string; text: string; border: string; bar: string; label: string; hoverBg: string }
 > = {
   RESILIENT: {
     bg: "bg-emerald-50 dark:bg-emerald-900/20",
@@ -195,6 +195,7 @@ export const riskBandConfig: Record<
     border: "border-emerald-200 dark:border-emerald-800",
     bar: "bg-emerald-500",
     label: "Resilient",
+    hoverBg: "hover:bg-emerald-100 dark:hover:bg-emerald-900/40",
   },
   "MODERATE RISK": {
     bg: "bg-yellow-50 dark:bg-yellow-900/20",
@@ -202,6 +203,7 @@ export const riskBandConfig: Record<
     border: "border-yellow-200 dark:border-yellow-800",
     bar: "bg-yellow-500",
     label: "Moderate Risk",
+    hoverBg: "hover:bg-yellow-100 dark:hover:bg-yellow-900/40",
   },
   "HIGH RISK": {
     bg: "bg-orange-50 dark:bg-orange-900/20",
@@ -209,6 +211,7 @@ export const riskBandConfig: Record<
     border: "border-orange-200 dark:border-orange-800",
     bar: "bg-orange-500",
     label: "High Risk",
+    hoverBg: "hover:bg-orange-100 dark:hover:bg-orange-900/40",
   },
   CRITICAL: {
     bg: "bg-red-50 dark:bg-red-900/20",
@@ -216,6 +219,7 @@ export const riskBandConfig: Record<
     border: "border-red-200 dark:border-red-800",
     bar: "bg-red-500",
     label: "Critical",
+    hoverBg: "hover:bg-red-100 dark:hover:bg-red-900/40",
   },
 };
 
