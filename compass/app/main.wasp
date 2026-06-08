@@ -323,6 +323,21 @@ route ReportDetailRoute { path: "/reports/:reportSlug", to: ReportDetailPage }
 page ReportDetailPage {
   component: import ReportDetailPage from "@src/compass/ReportDetailPage"
 }
+
+action assessProgram {
+  fn: import { assessProgram } from "@src/compass/operations",
+  entities: [AssessmentJob, User]
+}
+
+query getAssessmentJobs {
+  fn: import { getAssessmentJobs } from "@src/compass/operations",
+  entities: [AssessmentJob]
+}
+
+query getAssessmentJob {
+  fn: import { getAssessmentJob } from "@src/compass/operations",
+  entities: [AssessmentJob]
+}
 //#endregion
 
 //#region Contact Form Messages
