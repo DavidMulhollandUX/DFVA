@@ -117,30 +117,24 @@ function ThresholdPills({
 export default function ReportsPage() {
   const { reports, isLoading } = useReportsData();
 
-  return (
-    <div className="mx-auto max-w-3xl px-4 py-16">
-      <div className="mb-10">
-        <h1 className="text-3xl font-bold tracking-tight text-foreground">
-          Assessment Reports
-        </h1>
-        <p className="mt-2 text-muted-foreground">
-          DFVA reports generated to date. Each card includes the full scorecard
-          assessment and companion market intelligence.
-        </p>
+  let content: React.ReactNode;
+  if (isLoading) {
+    content = (
+      <div className="flex items-center justify-center py-24">
+        <Loader2 className="h-6 w-6 animate-spin text-muted-foreground" />
       </div>
-
-      {isLoading ? (
-        <div className="flex items-center justify-center py-24">
-          <Loader2 className="h-6 w-6 animate-spin text-muted-foreground" />
-        </div>
-      ) : reports.length === 0 ? (
-        <div className="flex flex-col items-center justify-center py-24 text-center text-muted-foreground">
-          <BarChart2 className="h-10 w-10 opacity-20 mb-4" />
-          <p className="text-sm">No assessment reports yet.</p>
-        </div>
-      ) : (
-        <div className="flex flex-col gap-6">
-          {reports.map((p) => {
+    );
+  } else if (reports.length === 0) {
+    content = (
+      <div className="flex flex-col items-center justify-center py-24 text-center text-muted-foreground">
+        <BarChart2 className="h-10 w-10 opacity-20 mb-4" />
+        <p className="text-sm">No assessment reports yet.</p>
+      </div>
+    );
+  } else {
+    content = (
+      <div className="flex flex-col gap-6">
+        {reports.map((p) => {
           const cfg = riskBandConfig[p.riskBand];
           return (
             <Card
@@ -218,6 +212,21 @@ export default function ReportsPage() {
           );
         })}
       </div>
+    );
+  }
+
+  return (
+    <div className="mx-auto max-w-3xl px-4 py-16">
+      <div className="mb-10">
+        <h1 className="text-3xl font-bold tracking-tight text-foreground">
+          Assessment Reports
+        </h1>
+        <p className="mt-2 text-muted-foreground">
+          DFVA reports generated to date. Each card includes the full scorecard
+          assessment and companion market intelligence.
+        </p>
+      </div>
+      {content}
     </div>
   );
 }
