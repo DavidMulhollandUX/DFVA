@@ -24,36 +24,67 @@ export async function fetchCourseAttributes(courseCode: string): Promise<Handboo
   return fetchPage(url);
 }
 
+function isCloudflareBlock(content: string): boolean {
+  return content.includes('Pardon Our Interruption') || content.includes('make us think you were a bot');
+}
+
 async function fetchPage(url: string): Promise<HandbookPage> {
+  // Check cache — skip Cloudflare-blocked entries
   const cached = await handbookCache.get(url);
-  if (cached) {
+  if (cached && !isCloudflareBlock(cached.content)) {
     return { url, title: cached.title, content: cached.content, fromCache: true };
   }
 
-  const response = await fetch(url, {
-    headers: {
-      'User-Agent':
-        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
-      Accept: 'text/html,application/xhtml+xml',
-    },
-  });
+  // Try direct fetch first
+  let html = '';
+  try {
+    const response = await fetch(url, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
+        Accept: 'text/html,application/xhtml+xml',
+      },
+    });
+    if (response.ok) html = await response.text();
+  } catch {}
 
-  if (!response.ok) {
-    throw new Error(`Handbook fetch failed: ${response.status} for ${url}`);
+  // If direct fetch failed or got Cloudflare-blocked, try Playwright
+  if (!html || isCloudflareBlock(html)) {
+    try {
+      html = await fetchViaPlaywright(url);
+    } catch (e: any) {
+      throw new Error(`Handbook fetch failed for ${url}: ${e.message}`);
+    }
   }
 
-  const html = await response.text();
   const { title, content } = extractContent(html, url);
 
-  await handbookCache.set(url, content, title);
+  // Only cache real content
+  if (!isCloudflareBlock(content)) {
+    await handbookCache.set(url, content, title);
+  }
 
   return { url, title, content, fromCache: false };
 }
 
-function extractContent(
-  html: string,
-  url: string
-): { title: string; content: string } {
+async function fetchViaPlaywright(url: string): Promise<string> {
+  // Dynamic import to avoid requiring playwright at module load
+  const { chromium } = await import('playwright');
+  const browser = await chromium.launch({ headless: true });
+  try {
+    const page = await browser.newPage();
+    await page.setExtraHTTPHeaders({
+      'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
+      'Accept': 'text/html,application/xhtml+xml',
+    });
+    await page.goto(url, { waitUntil: 'networkidle', timeout: 30000 });
+    const html = await page.content();
+    return html;
+  } finally {
+    await browser.close();
+  }
+}
+
+function extractContent(html: string, url: string): { title: string; content: string } {
   const titleMatch = html.match(/<title>(.*?)<\/title>/);
   const title = titleMatch
     ? titleMatch[1].replace(' — The University of Melbourne Handbook', '')
