@@ -22,7 +22,7 @@ export interface GridFeature extends Omit<Feature, "icon"> {
 interface FeaturesGridProps {
   features: GridFeature[];
   className?: string;
-  title?: string;
+  title?: React.ReactNode;
   description?: string;
 }
 

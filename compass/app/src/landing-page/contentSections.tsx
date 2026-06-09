@@ -11,14 +11,14 @@ export const features: GridFeature[] = [
   },
   {
     name: "Risk Band Classification",
-    description: "RESILIENT, MODERATE RISK, HIGH RISK, or CRITICAL — giving committees a clear signal for where to act before the next accreditation cycle.",
+    description: "RESILIENT, MODERATE RISK, HIGH RISK, or CRITICAL — a direct, unambiguous signal that gives committees the language and evidence to act, not another hedged review.",
     emoji: "📊",
     href: "/reports",
     size: "small",
   },
   {
     name: "Labour Market Intelligence",
-    description: "Job-family hiring signals mapped directly to curriculum outcomes so academic staff can see which graduate capabilities are compressing under AI pressure.",
+    description: "Job-family hiring signals mapped directly to curriculum outcomes — including which human, relational, and judgment-intensive capabilities are growing in value as AI pressure compresses adjacent roles.",
     emoji: "📈",
     href: "/reports",
     size: "small",
@@ -32,7 +32,7 @@ export const features: GridFeature[] = [
   },
   {
     name: "Redesign Roadmap",
-    description: "Prioritised recommendations table linked to specific dimensions, with effort ratings and market signal evidence — ready to take to a curriculum committee.",
+    description: "Evidence that sits in a report and goes nowhere is wasted. COMPASS converts findings into a prioritised recommendations table — with effort ratings, market signal rationale, and owners — ready to take into a curriculum committee.",
     emoji: "🔧",
     href: "/assess",
     size: "medium",
@@ -83,7 +83,7 @@ export const faqs = [
     id: 1,
     question: "Who is COMPASS for?",
     answer:
-      "Program directors, curriculum committees, academic quality assurance teams, careers services, and faculty leadership who need to make evidence-based decisions about curriculum relevance in an AI-augmented labour market.",
+      "Program directors, curriculum committees, academic quality assurance teams, faculty leadership, and those taking on curriculum reform mandates who need to make evidence-based decisions about relevance in an AI-augmented labour market. It's especially useful for established programs — the ones with the most credibility are often the least likely to receive an honest external signal about drift.",
     href: "/assess",
   },
   {
@@ -97,7 +97,7 @@ export const faqs = [
     id: 3,
     question: "What evidence does COMPASS use?",
     answer:
-      "COMPASS combines your published handbook curriculum with current labour market hiring signals and professional discourse analysis. Each dimension score includes curriculum evidence and market signal rationale — not opinion.",
+      "COMPASS combines your published handbook curriculum with current labour market hiring signals and professional discourse analysis. Each dimension score includes curriculum evidence and market signal rationale — not opinion. The assessment is designed to give curriculum leaders the same quality of honest, direct signal that they would want from a trusted external advisor.",
     href: "/assess",
   },
   {
@@ -105,6 +105,13 @@ export const faqs = [
     question: "How does this support accreditation and quality cycles?",
     answer:
       "The 2027 Graduate Profile output is designed to function as a program learning outcome statement. The recommendations table maps directly to accreditation dimensions and includes effort ratings, making it straightforward to incorporate into a periodic program review.",
+    href: "/assess",
+  },
+  {
+    id: 5,
+    question: "Can I run COMPASS on the same program more than once?",
+    answer:
+      "Yes — and you should. Curriculum relevance isn't a fixed point. Running COMPASS annually or at the start of each planning cycle lets you track whether targeted changes have moved the needle. A living curriculum needs a living feedback loop, not a one-time audit.",
     href: "/assess",
   },
 ];

@@ -20,7 +20,7 @@ export default function Hero() {
             <p className="text-muted-foreground mx-auto mt-6 max-w-2xl text-lg leading-8">
               COMPASS gives program directors, curriculum committees, and quality assurance teams
               an evidence-based scorecard to assess labour-market durability — and a prioritised
-              redesign roadmap — before the next accreditation cycle.
+              redesign roadmap that turns findings into decisions, not shelf documents.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Button size="lg" variant="default" asChild>
