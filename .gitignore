@@ -37,6 +37,9 @@ docs/workflow-sop.md
 # Hermes Agent — personal/local (keep out of the shared repo)
 .hermes/
 
+# Handbook cache (on-demand fetches)
+.handbook-cache/
+
 # Scripts — intermediate outputs (not committed)
 scripts/node_modules/
 scripts/output/
