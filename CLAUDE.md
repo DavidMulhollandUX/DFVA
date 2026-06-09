@@ -7,12 +7,12 @@
 ## Quick start
 ```bash
 cd compass/app
-wasp start db          # terminal 1
-wasp db migrate-dev    # name: add_assessment_job
-wasp start             # terminal 2 → http://localhost:3000
+wasp start             # single command — manages DB, server (3001), client (3000)
 ```
+**DB:** Wasp's managed PostgreSQL (Docker). `DATABASE_URL` in `.env.server` is required for direct Prisma commands.
+**Migrations:** `echo "name" | wasp db migrate-dev` (DB must be running: `wasp start db` in another terminal).
 **Smoke test runbook:** `.hermes/smoke-test-runbook.md`
-**Env:** `.env.server` has DFVA_MOCK=true + dummy keys for OpenSaaS services (OpenAI, Stripe, S3)
+**Env:** `.env.server` has DFVA_MOCK=true + dummy keys for OpenSaaS services (OpenAI, Stripe, S3) + DATABASE_URL.
 
 ## Context
 Part of the SXD-Github workspace at University of Melbourne.
