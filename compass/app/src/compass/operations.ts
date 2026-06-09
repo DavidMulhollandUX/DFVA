@@ -30,36 +30,38 @@ export const assessProgram: AssessProgram<{ handbookUrl: string }, AssessmentJob
     },
   });
 
-  try {
-    const service = getAssessmentService();
-    const result = await service.assess(handbookUrl);
-
-    const updated = await context.entities.AssessmentJob.update({
-      where: { id: job.id },
-      data: {
-        status: 'complete',
-        courseCode: result.courseCode,
-        programName: result.programName,
-        score: result.score,
-        maxScore: result.maxScore,
-        riskBand: result.riskBand,
-        thresholds: result.thresholds as any,
-        dimensions: result.dimensions as any,
-        reportJson: result.reportJson as any,
-      },
+  // Run assessment in background so the UI can show "Processing..." immediately.
+  // The client polls getAssessmentJobs to see when status changes to complete/failed.
+  const service = getAssessmentService();
+  service.assess(handbookUrl)
+    .then(async (result) => {
+      await context.entities.AssessmentJob.update({
+        where: { id: job.id },
+        data: {
+          status: 'complete',
+          courseCode: result.courseCode,
+          programName: result.programName,
+          score: result.score,
+          maxScore: result.maxScore,
+          riskBand: result.riskBand,
+          thresholds: result.thresholds as any,
+          dimensions: result.dimensions as any,
+          reportJson: result.reportJson as any,
+        },
+      });
+    })
+    .catch(async (error: any) => {
+      await context.entities.AssessmentJob.update({
+        where: { id: job.id },
+        data: {
+          status: 'failed',
+          errorMessage: error.message ?? 'Unknown error',
+        },
+      });
     });
 
-    return updated;
-  } catch (error: any) {
-    await context.entities.AssessmentJob.update({
-      where: { id: job.id },
-      data: {
-        status: 'failed',
-        errorMessage: error.message ?? 'Unknown error',
-      },
-    });
-    throw new HttpError(500, `Assessment failed: ${error.message}`);
-  }
+  // Return job immediately while assessment runs in background
+  return job;
 };
 
 /**
