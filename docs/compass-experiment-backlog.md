@@ -25,7 +25,7 @@ Three factors, in order: **(1) existential risk** — does failure reshape or ki
 | EXP | Experiment | Lever(s) | Hyp. | FQ | Priority | Wave | Primary targets (from the 22-list) |
 |---|---|---|---|---|:--:|:--:|---|
 | **01** | Independent-score **acceptance** test | P2, P3, P5 | **H1** | 1 | **P0** | 1 | #1 Council member · #2 Dir T&L · #9/#10 DVCs |
-| **02** | **Gatekeeper-closing** test | P9, P1, P8 | **H4** | 2 | **P0** ⏱ | 3→*now* | #16 Brian Clark (TechnologyOne) · #17 Lightcast · #18 Akari |
+| **02** | **Gatekeeper-closing** test ✅*desk-run* | P9, P1, P8 | **H4** | 2 | **P0** ⏱ | 3→*now* | #16 Brian Clark (TechnologyOne) · #17 Lightcast · #18 Akari |
 | **03** | **Standing** test | P4, P5, P7 | **H2** | 7 | **P0** | 1–2 | #8 CSHE · #7 LH Martin · #15 ACSES · #19 AACSB · #21 TEQSA-adj. |
 | **04** | **Causal-credibility** foundation ✅*run* | P12 | **H2** | — | **P0** | 1 (desk) | → [compass-exp04-causal-evidence.md](compass-exp04-causal-evidence.md) |
 | **05** | User **burden & trust** test | P3, P11 | H1 | 8 | P1 | 1 | #6 Program Director · #5 academic developer |
@@ -61,6 +61,7 @@ Three factors, in order: **(1) existential risk** — does failure reshape or ki
 - **Probe:** *"Is LMI integration into CourseLoop on the 2026 roadmap — and if not, what's the stated position on it as a feature?"* → *"If a third party built the durability layer on top of CourseLoop, partner or threat?"*
 - ✅ **Survives if:** no LMI on the 2026 roadmap **and** a "we'd partner, not build" posture. ❌ **Killed if:** LMI integration is scoped/contracted → the wedge disappears; pivot immediately to partner/acquire-target positioning.
 - **Why now, not Wave 3:** it's a cold target but **gates the entire speed-to-sponsor thesis**. **Recommendation: fast-track via UniMelb's existing TechnologyOne relationship** rather than waiting for Wave 3.
+- ✅ **DESK-RUN → [compass-exp02-gatekeeper-evidence.md](compass-exp02-gatekeeper-evidence.md).** Verdict: **ABSENT** (moderate-to-high confidence) — no public evidence TNE/CourseLoop has scoped LMI/skills into the 2026 roadmap; the CourseLoop **26.1 release note (16 Mar 2026)** and **H1 FY26 earnings call (19 May 2026)** were read directly and are clean. **Kill-signal NOT tripped → H4 survives → proceed, no pivot.** *Time-limited:* the likeliest closer is a fast-follow **partnership** (Coursedog shipped LMI-in-workflow via Mapademics, 22 May 2026), so the verbal half (#16 Brian Clark) + seven monitoring tripwires stay live. Also resolved (§1.5): **UoM uses in-house CAPS, not CourseLoop**; Lightcast **Skillabi is not yet sold in ANZ**.
 
 **EXP-03 · Standing test** — *the H2 core*
 - **Levers:** P4 (own the durability standard), P5, P7 (regulatory window). · **Hyp:** H2 (trust & standing). · **FQ7.**

@@ -261,7 +261,7 @@ Either way, the network you build here *is* career capital in the sector, regard
 
 ## Where this leaves us (the loop continues)
 
-The desk research has taken COMPASS as far as desk research can. Four of eight market signals are green, four are amber, none is red — and the amber four resolve to the same two load-bearing assumptions the Vision named: **will decision-makers want and pay for the signal (H1, H3)**, and **can an independent layer earn the standing to make it expected (H2)** — with **H4 (the unoccupied adjacency)** as the time-sensitive wildcard that one conversation with TechnologyOne could settle.
+The desk research has taken COMPASS as far as desk research can. Four of eight market signals are green, four are amber, none is red — and the amber four resolve to the same two load-bearing assumptions the Vision named: **will decision-makers want and pay for the signal (H1, H3)**, and **can an independent layer earn the standing to make it expected (H2)** — with **H4 (the unoccupied adjacency)** as the time-sensitive wildcard that one conversation with TechnologyOne could settle. *(Update 2026-06-07: the **desk half of H4 is now run** — [EXP-02](compass-exp02-gatekeeper-evidence.md) finds no public LMI roadmap on CourseLoop (verdict ABSENT, moderate-to-high confidence), so **H4 survives on the desk side**; the #16 Brian Clark conversation and tripwire monitoring remain to close it.)*
 
 The next move is not more analysis. It is to send the Wave-1 messages this week, treat Council's questions as the open door they are, and let the experts try to break it. The hypothesis that survives is the one worth building.
 

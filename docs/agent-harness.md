@@ -28,6 +28,10 @@ This document is the complete reference for AI-agent-driven venture analysis. It
 
 *Plus [§17 — Manual Authoring Methods & Workbook Upkeep](#17-addendum--manual-authoring-methods--workbook-upkeep): the inline, by-hand methods for the Step-3 Vision checkpoint and the Expert Conversation Guide, the Mom-Test interview discipline, and how they relate to the script-based workflows §7 and §8. Not all good artefacts come from a fan-out.*
 
+*Plus [§18 — The Self-Correcting Workbook](#18-addendum--the-self-correcting-workbook-when-a-workflow-refutes-the-base-audits-the-instrument-or-exposes-a-coverage-gap): the second-order disciplines for when a workflow's output **refutes a load-bearing claim**, **audits the instrument** the venture sells, or **exposes a coverage gap** — reframe-and-propagate, measurement-as-QA, and coverage-audit-every-list. Extracted from the EXP-04 and EXP-13 runs; portable to any venture.*
+
+*Plus [§19 — MEC Define Steps 1–2: Market Discovery](#19-addendum--mec-define-steps-12-market-discovery-problem-tree--system-map--value-chain--stakeholders--institutional-alignment): the **front of the Define process** that runs before §7/§8 — the **problem tree** (find a root cause, convert it to a market), the **Steve-Blank iterative system & value-chain maps** (the four participant groups, where margin concentrates, "the break", the certifier deep-dive), the **stakeholder analysis**, and **honest institutional-alignment scoping**. Plus two new patterns (§13.11–§13.12) for designed HTML/SVG→PDF deliverables on the venture's own design system.*
+
 ---
 
 ## 1. Market Sizing Workflow
@@ -2236,10 +2240,17 @@ When written up, the `targets[]` array renders as a priority-flagged table — `
 
 ### Recommended order for a new venture
 
-The workflows form a natural dependency chain. Run them in this sequence:
+The workflows form a natural dependency chain. The full MEC Define journey now begins one step earlier than the research half — with **Steps 1–2 market discovery (§19)** — then runs the front half below, then the strategy/validation back half:
 
 ```
-1. Problem Framing (manual / with Claude in chat)
+0. Market Discovery — MEC Define Steps 1–2 (§19; hybrid: maps authored inline, evidence via §2/§13.9 fan-out)
+   → Problem tree → pick a root cause → convert it to a market (§19.1)
+   → System map → value chain → "the break" → certifier deep-dive (§19.2)
+   → Stakeholder analysis (§19.3) + honest institutional-alignment scoping (§19.4)
+   → Produces: compass-problem-tree.md (+ .svg), compass-stakeholder-analysis.md,
+     compass-council-alignment.md, research-plan.md, compass-market-map/ (designed PDF — §13.11)
+
+1. Problem Framing (manual / with Claude in chat; the full problem-tree method is §19.1)
    → Produces: compass-problem-tree.md
    
 2. Systems Thinking (Workflow 4)
@@ -2277,8 +2288,8 @@ The workflows form a natural dependency chain. Run them in this sequence:
 
 The chain above stops at first-pass positioning. The full MEC Define journey continues into the strategy/validation/evidence half:
 
-- **5b. Stakeholder / System analysis** → `compass-stakeholder-analysis.md` (actors, decision authority, value/information flows, user-vs-buyer)
-- **5c. Strategic-intelligence sweep** → `compass-competitive-strategic-intelligence.md` (multi-track: landscape, regulators/accreditors, case studies, incumbents)
+- **5b. Stakeholder / System analysis** → `compass-stakeholder-analysis.md` (actors, decision authority, value/information flows, user-vs-buyer) — *the full method is §19.3; already produced if §19 was run up front*
+- **5c. Strategic-intelligence sweep** → `compass-competitive-strategic-intelligence.md` (multi-track: landscape, regulators/accreditors, case studies, incumbents) — *the §2 / §13.9 multi-track shape, feeding §19.2's map questions*
 - **6. Deeper Perspective (Workflow 7)** → `compass-deeper-perspective.md` (+ `compass-vision.md`): systemic structures → mental models (adversarially verified) → vision (generate-and-judge)
 - **7. Validate (Workflow 8)** → `compass-validate.md`: hypotheses + market-signals scorecard + 20+ expert list + interview guides
 - **8. Expert Sourcing (Workflow 11)** → fills the 20+ list / any experiment's targets
@@ -2553,6 +2564,33 @@ const verifiedClean = verified.filter(Boolean)   // guard: empty salvage degrade
 
 ---
 
+### 13.11 Designed visual deliverable — HTML + inline SVG → PDF, on the venture's own design system
+
+Some outputs need to *look* like the venture, not read like a markdown dump — a market map, a board one-pager, a stakeholder map for an office-hours upload. The reliable pipeline is **one self-contained HTML file rendered by headless Chromium**, not a markdown→PDF converter (which mangles SVG and ignores print CSS).
+
+**Pipeline.**
+1. **Extract the design tokens from the live product — don't invent them.** For COMPASS they came straight out of `compass-static` (Tailwind/shadcn): ink-navy `#11151F`, signature orange `#F97316`, the four risk-band colours (RESILIENT `#16a34a` · MODERATE `#d97706` · HIGH `#ea580c` · CRITICAL `#dc2626`), the compass-rose logo geometry, card radius `0.625rem`. Put them in `:root` CSS variables so every page is on-brand by construction.
+2. **One HTML file, inline everything** — `@page { size: A4 landscape; margin: 0 }`, `-webkit-print-color-adjust:exact`, one `.page` per slide (fixed 297×210mm), inline `<svg>` diagrams, system font stack. No external assets.
+3. **Render with Playwright/Chromium** (both present on the Mac): `page.pdf(landscape=True, format="A4", print_background=True, prefer_css_page_size=True)`. Keep the tiny `render.py` next to the HTML so the PDF is reproducible after any edit.
+
+**Two SVG authoring gotchas that *will* bite (both hit this session):**
+- **Never put HTML tags inside an SVG `<text>`.** `<b>`/`<i>` are not SVG elements; a single one inside inline SVG closes the SVG early and the rest of the diagram reflows as raw HTML — the whole map collapses. Use `<tspan font-weight="800">…</tspan>` for emphasis. One stray `<b>` silently corrupted **two full pages** before it was caught.
+- **Reuse the canonical logo geometry; don't hand-code it.** A from-scratch compass needle rendered as an unrecognisable orange blob across three attempts. The fix was to drop in the *exact* SVG paths the product already ships (recentred onto the marker, with a white halo to clear an overlapping line) — the geometry that demonstrably renders in the header/cover is the geometry to reuse. Hand-coded icon geometry is a reliable source of glitches.
+
+Output convention: a **folder** `docs/<name>-map/` holding `<name>.html` + `<NAME>.pdf` + `render.py` (e.g. `compass-market-map/`).
+
+### 13.12 Visual QA loop — render → rasterise → inspect → fix → re-render
+
+A designed PDF is **never shipped unseen**. The loop that caught every glitch this session:
+1. **Rasterise** the PDF to PNG — `pdftoppm -png -r 96 file.pdf pg` (bump to `-r 220` for a tight region).
+2. **Read the PNG as an image and actually look** — alignment, overlaps, arrowheads, text fit. The model can see the render; use it. Re-reading the *source* does not catch visual glitches.
+3. **Zoom-crop suspect regions** with PIL (`Image.crop`) at high DPI to diagnose precisely — the malformed compass and the colliding badge were only diagnosable zoomed in.
+4. **Fix in the HTML, re-render, re-inspect** until clean; then delete the scratch PNGs.
+
+Worked examples from the COMPASS market map, each found only by looking: a margin badge colliding with a money-flow arrow (→ moved to a clean tab on the box); a stubby disconnected arrow before "the break" (→ given a real arrowhead); an info-flow arrow with a detached head and a tangled duplicate (→ collapsed to one clean arc); uneven stage boxes (→ re-laid to a uniform grid with even gaps); a zigzag cutting through the compass marker (→ white halo); the blob compass (→ canonical geometry). **Portable rule:** *if a deliverable is visual, verifying it means looking at the pixels, not re-reading the markup — the same "look before you assert" discipline the harness applies to claims, applied to renders.*
+
+---
+
 ## 14. Agent Prompt Library
 
 Collected prompt templates for direct reuse. Replace `[BRACKETS]` with venture-specific values.
@@ -2601,6 +2639,11 @@ Collected prompt templates for direct reuse. Replace `[BRACKETS]` with venture-s
 | `target-source` | Source named/role interview targets with warm paths |
 | `mom-test-interview` | De-bias interview questions to past-behaviour; aim to be proven wrong (§17.3) |
 | `assumptions-to-conversation` | A vision's load-bearing assumptions → a falsifiable conversation plan on an *existing* interview list (§17.2) |
+| `problem-tree` | Vague problem → root-cause tree (structural vs mental-model) → pick a root cause → convert to a market (§19.1) |
+| `system-map-research` | A map's open questions → parallel web-research agents that fill them (§19.2; §2/§13.9 shape) |
+| `value-chain` | Trace money / products / decision-rights / hidden flows; find where margin concentrates and where value breaks (§19.2) |
+| `stakeholder-profile` | Per-stakeholder cares-most / frustrated-by / power-and-influence, sourced (§19.3) |
+| `institutional-align` | Map the venture to leadership's own questions — direct / partial / out-of-scope, honestly (§19.4) |
 
 ---
 
@@ -2613,7 +2656,7 @@ Collected prompt templates for direct reuse. Replace `[BRACKETS]` with venture-s
 | AI feature review | `compass-ai-feature-review.md` | — |
 | Systems thinking | `compass-systems-thinking.md` | — |
 | Vision | `compass-vision.md` | — |
-| Problem tree | `compass-problem-tree.md` | — |
+| Problem tree | `compass-problem-tree.md` | + `compass-problem-tree.svg` (designed, §13.11) |
 | Validate pack | `compass-validate.md` | — |
 | Outreach email template | `email-[audience]-[purpose].md` | `email-liz-malloy-intro.md` |
 | Calendar invite | `calendar-invite-[audience].md` | `calendar-invite-malloy.md` |
@@ -2681,6 +2724,7 @@ builds-on: [list of prior docs this document relies on]
 - "Founder's call" framing where there's genuine uncertainty (name the uncertainty, state the call)
 - No bullet points that could be prose — use bullets only for genuinely list-like content
 - Numbers wherever possible (%, $, counts, dates)
+- **Designed deliverables (§13.11):** when an output is for an external or leadership audience (a market map, a board one-pager), render it on the **product's own design tokens**, not a generic theme — and run the §13.12 visual-QA loop (render → rasterise → *look* → fix) before shipping
 
 ---
 
@@ -2752,3 +2796,83 @@ This is the cheapest, highest-trust way to evolve the workbook: each doc stays a
 ---
 
 *§17 added from the 2026-06-06 session that authored the Step-3 Vision checkpoint and the Expert Conversation Guide by hand. The portable extractions are §17.3 (Mom-Test interview discipline) and §17.4 (workbook upkeep); §17.1–17.2 document manual methods that the script-based §7 and §8 can supersede or absorb.*
+
+---
+
+## 18. Addendum — The Self-Correcting Workbook (when a workflow refutes the base, audits the instrument, or exposes a coverage gap)
+
+§17 covered how artefacts are *authored and maintained*. This section covers the **second-order** discipline the back half forces: a workflow run in earnest does not just add a new artefact — it can **overturn a claim the earlier docs were built on, expose a bug in the very product the venture sells, or reveal a whole missing class in a list you thought was complete.** Catching and propagating those corrections is what keeps a growing workbook from quietly contradicting itself. All three disciplines below are extractions from the **EXP-04 (Evidence, §10)** and **EXP-13 (Sourcing, §11)** runs, and all are portable to any venture.
+
+The framing to internalise first: **the back half is *supposed* to overturn the front half.** Finding you were wrong on a desk experiment is the cheap version of finding out in market. A refutation is the workflow *working*, not failing — so the reflex on hitting one is to harvest it, not bury it.
+
+### 18.1 Refutation propagation — reframe to the narrower claim, then propagate it everywhere
+
+When an evidence or verification workflow refutes a claim earlier docs asserted as fact, three moves follow, in order:
+
+1. **Reframe, don't delete — find the narrower claim that survives.** A refuted absolute almost always has a defensible core. EXP-04 set out to confirm COMPASS's load-bearing line — *"the category 'causally-demonstrated outcome from LMI-informed curriculum revision' is empty"* — and **retired it**: German/Swiss VET difference-in-differences (Salomons et al. 2025; +3.3–5.5% wages) shows demand-aligned curriculum revision *causally raises wages*. But a **sharper moat survived**: no study validates a *scored durability instrument*, in *higher education*, against *QILT*, in *Australia* (the one clean HE-curriculum DiD is a null). The reframed claim is both more honest and more useful — it concedes the mechanism (strengthening "why now") while naming the precise, ownable gap.
+2. **Re-read the refutation as information value — it is often a tailwind.** `compass-deeper-perspective.md` had filed the empty category as COMPASS's "largest credibility risk." Half of that risk *evaporated* once the mechanism was evidenced: the open question shifted from "does any of this work?" to "does *our instrument* work *here*?" — a far better place to stand. A refutation that shrinks a risk is a gain; record it as one.
+3. **Propagate the corrected claim to every dependent doc — name them.** The retired claim had been repeated across `compass-competitive-strategic-intelligence.md`, `compass-deeper-perspective.md`, and `compass-validate.md`. A correction that lives only in the doc that found it leaves the workbook contradicting itself. The discipline: when a claim is overturned, **grep the workbook for it and update every instance to the narrower version**, with a one-line "(corrected by EXP-04, 2026-06-05)" pointer back to the source.
+
+**Portable rule.** *A back-half finding that contradicts a front-half assertion is not an embarrassment to bury — it is among the highest-value outputs the back half produces. Reframe to the surviving core, bank the risk reduction, and propagate the correction to every doc that inherited the old claim.*
+
+### 18.2 Measurement design is an instrument audit — when the venture *is* a score
+
+When the venture's core artefact is a quantitative instrument, the act of **operationalising it for external registration forces an exactness the live product can quietly avoid** — and that exactness surfaces latent bugs. Drafting the EXP-04 Step-0 freeze (§10 Phase 3) required declaring the *exact* scoring function before hashing it. Doing so exposed a real inconsistency in the shipped product: `compass-static/src/data/programData.ts` declares `maxScore: 36`, but 11 items × max 3 sum to **33 achievable** (the Bachelor of Design dimensions sum to exactly its reported 17), and whether the Irreplaceability *bonus* is additive or weighted was never pinned. The product had carried an off-by-3 denominator silently because nothing had ever forced the question; a pre-registration's freeze did.
+
+**Portable rule.** *Any time you must freeze, hash, or externally register a quantitative artefact, treat it as a QA pass on the artefact itself. Reconcile three numbers that should agree but often don't — the spec (the doc's "/36"), the implementation (`maxScore` in code), and the achievable maximum (Σ item maxima). A measurement-design pass on a scoring venture is never only about the study; it audits the instrument.* (For COMPASS, locking total/33-vs-/36 normalisation and the bonus rule is now a pre-lodgement blocker, not a footnote — `compass-exp04-preregistration.md` §14.)
+
+### 18.3 Coverage-audit every enumeration, not just the interview plan
+
+§17.4 introduced *decompose-to-find-a-gap* against the **interview plan** (the assumptions→evidence map exposed that no interview tested trust & standing → added `research-plan.md` interview 2.7). The same audit applies to **every list the venture leans on**, and the next run found a second hole in a *different* list. EXP-13 (Sourcing, §11) audited the §8 Validate **target list** against the hypotheses and found the 22-person roster had **no hiring-employer** at all — a whole stakeholder class absent from a list that claimed to test demand — and added a warm-first employer cohort (the live MinterEllison graduate-intake-cut case as the standout, PwC via the MBS board as the warmest path).
+
+**Portable rule.** *Run the coverage audit against each enumeration the venture relies on — the hypothesis set, the interview plan, the target list, the scoring dimensions. Any hypothesis with no experiment or target touching it, or any stakeholder class named in the analysis but absent from the outreach list, is a coverage hole. Close it where it lives — a new row in the existing doc (§17.4) — don't regenerate.*
+
+---
+
+*§18 added 2026-06-06 from the EXP-04 (Evidence, §10) and EXP-13 (Sourcing, §11) runs. Where §17 documents how artefacts are authored, §18 documents how the workbook corrects itself when a workflow's output refutes a claim, audits the instrument, or exposes a coverage gap. All three disciplines are portable to any venture; the COMPASS instances (the retired empty-category claim, the `maxScore` 36-vs-33 bug, the missing employer class) are the worked examples.*
+
+---
+
+## 19. Addendum — MEC Define Steps 1–2: Market Discovery (Problem Tree · System Map · Value Chain · Stakeholders · Institutional Alignment)
+
+The harness documents MEC Define **Step 3** (§7 Deeper Perspective) and **Step 5** (§8 Validate). This addendum documents the **front of the Define process** — the Steps 1–2 market-discovery phase that runs *before* them — executed in full this session for the COMPASS curriculum–labour-market-intelligence venture. The methods are the MEC course methods (problem tree; Steve Blank's iterative industry mapping; value-chain analysis); the **portable extractions** are the iterative question-led mapping discipline (19.2), the honest institutional-scoping rule (19.4), and the designed-deliverable patterns (§13.11–§13.12). Outputs: `compass-problem-tree.md` (problem tree → system map → value chain → secondary-research findings, one large living doc) + `compass-problem-tree.svg`, `compass-stakeholder-analysis.md`, `compass-competitive-strategic-intelligence.md`, `compass-council-alignment.md`, `research-plan.md`, and the designed `compass-market-map/` PDF.
+
+Honesty note up front: like §5/§6/§17, the *maps, stakeholder analysis, and council-alignment were authored inline by hand* — the **evidence behind them came from fan-out research workflows** (the §2/§13.9 shape). The split is called out per artefact in 19.5.
+
+### 19.1 Step 1 — Problem Tree (find a root cause, convert it to a market)
+
+The opening MEC move: take a vague problem ("AI is disrupting universities") and use a **problem tree** to get specific. **Trunk** = the core problem; **roots** = root causes (split *structural* vs *mental-model*); **branches** = effects (near / medium / long-term). Then **pick the one root cause the team finds most interesting *and* highest-leverage**, and **convert it into a market to investigate** — "is there a relevant existing market for X?", then name the analogous *mature* market to learn from (for COMPASS: labour-market-intelligence platforms). When the tree feels thin, **reverse-brainstorm** ("how would we *cause* this problem on purpose?") to surface root causes you missed.
+
+- **Discipline:** act as a **research tool, not a pitch** — root causes are referenced and evidenced, no solution is asserted yet. Each root cause is given *the existing market to research*, *how it overlaps the team's expertise*, and *where the team would need outside help*. (Six root causes for COMPASS; the chosen one — *"no fast, evidence-based, repeatable way to assess a degree's labour-market durability"* — is the market COMPASS now investigates.)
+- **Output:** `compass-problem-tree.md` + a designed `compass-problem-tree.svg` rendered on the §13.11 design system.
+
+### 19.2 Step 2 — System Map & Value Chain (Steve Blank, iterative)
+
+Map the market before trying to disrupt it. The method is **Steve Blank's "write down what you already know, then let your own open questions drive the gap-filling"** — a first-pass napkin map, then iterative rounds, each adding the answers to the questions the last round raised. *The loop is not linear; follow curiosity.*
+
+- **Overview ecosystem map** — four participant categories: **direct participants** (producers / suppliers / distributors / standard-setters), **influencers** (regulators / investors / research bodies / unions), **end users** (segmented by type), **adjacent players**. For each group: who they are, what they care about most, what frustrates them, how much power they hold.
+- **Value-chain map** — follow value from raw input to end user, mapping four flows: **money** (who pays whom; where margin concentrates), **products/services** (origin → end user), **decision-making power** (who can say yes/no), and **what is hidden** (commercial-in-confidence, informal relationships, externalities). The signature COMPASS finding is **"the break"** — the stage where labour-market intelligence reaches careers/IR offices and *stops*, never crossing into the curriculum decision; the structural gap the venture exists to close.
+- **Internal value-chain deep-dive** — drill into the single most interesting organisation (the MEC "certifier" move: high margin, low capital, value built on proprietary knowledge/data, feasible at low volume). For COMPASS that is the LMI vendor (Lightcast): margin concentrates at the proprietary data/taxonomy layer; the "last mile" to curriculum is the unserved gap.
+
+**How the maps actually got filled — the hybrid.** The open questions written on each map became the prompts for **parallel-research fan-out workflows** (the §2 / §13.9 shape: N parallel agents, schema-less web search → schema synthesis). This session ran several: Faethm/Pearson + faculty-PD deep research; a 4-track secondary sweep (AU curriculum-management systems · AusTender procurement · TEQSA action plans · vendor AU presence); a 3-track stakeholder sweep; a 4-track competitive / accreditation / international-cases / incumbent sweep. Each closed a *named* set of map questions, wrote findings back into the living docs, and ended with a **five-falsifiable-claims** hand-off to the Validate interviews. **The pattern to reuse: inline authoring for the map's skeleton; fan-out workflows for the evidence; §13.11 for the designed deliverable.**
+
+### 19.3 Stakeholder analysis (the people layer of the value chain)
+
+A focused companion to the system map — `compass-stakeholder-analysis.md` — structured in four parts: (1) a **terms-and-acronyms primer** for the market; (2) the **four stakeholder groups**, each member profiled on **cares-most / frustrated-by / power-and-influence**, with sourced evidence; (3) **how value flows** (money, products, decision rights, and explicitly *what is hidden from public view*); (4) **recent reports** — verified, ≤12 months old, each with a one-line finding and a working URL. Run it under the same research-tool discipline (third-person, referenced, no pitch). It feeds both the Validate target list (§8/§11) and the designed map (§13.11).
+
+### 19.4 Institutional-alignment & honest scoping — map the venture to the institution's *own* questions
+
+When the institution names its own strategic questions (here: four University Council questions — relevance of the university, the value of a degree, the graduate jobs that motivate study, research integrity), map the venture onto them **honestly**, and resist the strong pull to claim it answers all of them. `compass-council-alignment.md` graded COMPASS **direct** (Q2 degree value, Q3 graduate jobs — its home ground, richest evidence) · **partial** (Q1 relevance — the *economic* dimension only, explicitly **not** formation / community / mentorship) · **out-of-scope** (Q4 research integrity — a sibling problem on the same iceberg, different mechanism), with the evidence already gathered behind each grade.
+
+**Portable rule.** *When leadership's own questions overlap the venture, the highest-trust move is to state coverage precisely — what it answers, what it partly informs, what it does not — and to name the framing risk (a labour-market-durability tool can read as reductive about the university's non-economic value). Naming the boundary is what earns the room; claiming the whole forfeits the evidentiary credibility that is the venture's reason to exist.* This is the §17/§18 honesty stance applied to **positioning**: the same reflex that makes the back half try to kill the venture makes the pitch concede its own edges.
+
+### 19.5 Relationship to the rest of the harness
+
+- **Feeds Step 3 (§7).** The problem tree's chosen root cause and the system map's mental-model candidates seed the Deeper Perspective lenses.
+- **Feeds Step 5 (§8 / §11).** The stakeholder analysis and the maps' open questions become the warm-first target list and the falsifiable interview claims; `research-plan.md` (Track 1 secondary, Track 2 interviews, eight priority falsifiable questions) is the bridge.
+- **Uses §13.11–§13.12** for the designed `compass-market-map/` PDF (cover · ecosystem map · value chain & the break · internal value chain · synthesis), and ran the §13.12 visual-QA loop repeatedly.
+- **Provenance (per artefact):** problem-tree framing, the three maps, stakeholder analysis, council-alignment — **manual/inline**; all secondary-research findings inside them — **fan-out workflows** (§2 / §13.7–§13.9 shape); the PDF — **§13.11 pipeline**.
+
+---
+
+*§19 added 2026-06-06 from the session that ran MEC Define Steps 1–2 for COMPASS — the problem tree, the Steve-Blank system & value-chain maps, the stakeholder analysis, the Council-question alignment, and the designed market-map PDF. The portable extractions are 19.2 (iterative question-led mapping), 19.4 (honest institutional scoping), and the §13.11–§13.12 designed-deliverable patterns. The maps and analyses were authored inline; the evidence behind them came from fan-out research workflows.*

@@ -62,15 +62,15 @@
 ---
 
 ### 1.5 Outstanding Secondary Research Questions
-**Status:** [ ] Not started — some require primary research; others targeted secondary searches
+**Status:** [~] Partially resolved — **4 of 7 answered by the EXP-02 desk experiment (2026-06-07)**; see [compass-exp02-gatekeeper-evidence.md](compass-exp02-gatekeeper-evidence.md)
 
-- [ ] Which specific AU/NZ universities have active Labour Insight (ANZ) subscriptions beyond University of Melbourne? (requires direct outreach to Lightcast or university procurement)
-- [ ] Does TechnologyOne have an announced or in-development LMI integration roadmap for CourseLoop? (requires vendor outreach or ATEM conference monitoring)
-- [ ] Which CMS does the University of Melbourne use? (TechnologyOne SIS client but CMS vendor unconfirmed)
+- [x] **Does TechnologyOne have an LMI integration roadmap for CourseLoop?** → **No public evidence as of mid-2026** (verdict ABSENT, moderate-to-high confidence). The CourseLoop 26.1 release note (16 Mar 2026) and H1 FY26 earnings call (19 May 2026) are clean; no skills/LMI hires, trademarks, or partnerships. Time-limited — monitor the tripwires. ([EXP-02](compass-exp02-gatekeeper-evidence.md))
+- [x] **Which CMS does the University of Melbourne use?** → **In-house CAPS (Curriculum Approval and Publication System) + StudentOne — *not* CourseLoop** (and not Kuali/Coursedog). ([EXP-02](compass-exp02-gatekeeper-evidence.md))
+- [x] **Has any Australian university used Faethm/Pearson ELS for curriculum alignment?** → **Qualified yes — Deakin, via DeakinCo** — but for professional short courses / micro-credentials, not accredited degree curriculum. No degree-curriculum example found. ([EXP-02](compass-exp02-gatekeeper-evidence.md))
+- [~] **Which AU/NZ universities have Labour Insight (ANZ) subscriptions beyond UoM?** → **No second university publicly nameable** (evidence gap, not confirmed absence); named non-university ANZ clients include JSA and TAFE NSW; UoM is the only named *university* case study. Best route to names: AusTender / state procurement. ([EXP-02](compass-exp02-gatekeeper-evidence.md))
 - [ ] Who operates Lightcast's NZ office and do they cover the Australian HE market?
 - [ ] Are there earlier AusTender contracts for Economic Modeling LLC / Lightcast predating November 2024?
 - [ ] Does Nous Group's DIMA platform formally license Lightcast data commercially for AU university clients?
-- [ ] Has any Australian university used Faethm/Pearson ELS for curriculum alignment? (ADHA case suggests AU government is the more natural Faethm buyer)
 
 ---
 
