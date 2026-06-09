@@ -304,6 +304,7 @@ page NotFoundPage {
 //#region COMPASS
 route AssessRoute { path: "/assess", to: AssessorPage }
 page AssessorPage {
+  authRequired: true,
   component: import AssessorPage from "@src/compass/AssessorPage"
 }
 

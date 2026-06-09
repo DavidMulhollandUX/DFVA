@@ -20,11 +20,13 @@ export const assessProgram: AssessProgram<{ handbookUrl: string }, AssessmentJob
     throw new HttpError(400, 'Invalid handbook URL');
   }
 
+  if (!context.user) throw new HttpError(401, 'Authentication required');
+
   const job = await context.entities.AssessmentJob.create({
     data: {
       handbookUrl,
       status: 'processing',
-      userId: context.user?.id ?? null,
+      userId: context.user.id,
     },
   });
 
