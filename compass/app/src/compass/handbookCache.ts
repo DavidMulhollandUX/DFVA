@@ -1,5 +1,9 @@
-import { promises as fs } from 'node:fs';
+import { promises as fs, existsSync } from 'node:fs';
 import * as path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // Cache lives in compass/app/.handbook-cache/ relative to the project.
 // Resolved from the Wasp SDK output dir or the source dir depending on runtime.
@@ -8,8 +12,7 @@ const CACHE_DIR = (() => {
   const srcDir = path.resolve(__dirname, '../../.handbook-cache');
   // Fall back to Wasp SDK output dir
   const sdkDir = path.resolve(__dirname, '../../../../../.handbook-cache');
-  // Use whichever exists, preferring the app-level cache
-  return require('fs').existsSync(srcDir) ? srcDir : sdkDir;
+  return existsSync(srcDir) ? srcDir : sdkDir;
 })();
 
 interface CacheEntry {
