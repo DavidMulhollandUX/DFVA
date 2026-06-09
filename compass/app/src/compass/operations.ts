@@ -41,9 +41,9 @@ export const assessProgram: AssessProgram<{ handbookUrl: string }, AssessmentJob
         score: result.score,
         maxScore: result.maxScore,
         riskBand: result.riskBand,
-        thresholds: result.thresholds,
-        dimensions: result.dimensions,
-        reportJson: result.reportJson,
+        thresholds: result.thresholds as any,
+        dimensions: result.dimensions as any,
+        reportJson: result.reportJson as any,
       },
     });
 
