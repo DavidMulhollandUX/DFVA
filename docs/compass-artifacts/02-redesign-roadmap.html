@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>COMPASS — Curriculum Redesign Roadmap (MC-IS)</title>
+<style>
+  :root{
+    --ink:#11151F; --ink-soft:#1E2533; --bg:#FCFCFC; --card:#FFFFFF;
+    --orange:#F97316; --orange-50:#FFF7ED; --orange-200:#FED7AA;
+    --muted:#6B7280; --muted-2:#9AA3B2; --border:#E5E7EB; --border-2:#EEF1F4;
+    --resilient:#16a34a; --resilient-tr:#dcfce7; --resilient-tx:#15803d;
+    --moderate:#d97706; --moderate-tr:#fef9c3; --moderate-tx:#92400e;
+    --high:#ea580c; --high-tr:#ffedd5; --high-tx:#9a3412;
+    --critical:#dc2626; --critical-tr:#fee2e2; --critical-tx:#991b1b;
+  }
+  @page{ size:A4 portrait; margin:0; }
+  *{ box-sizing:border-box; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  html,body{ margin:0; padding:0; background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+    font-feature-settings:'kern' 1,'liga' 1; -webkit-font-smoothing:antialiased; }
+  .tnum{ font-variant-numeric:tabular-nums; }
+  .sheet{ width:210mm; min-height:297mm; padding:14mm 15mm 11mm; display:flex; flex-direction:column; }
+
+  .top{ display:flex; align-items:flex-end; justify-content:space-between; gap:16px; border-bottom:2px solid var(--ink); padding-bottom:10px; }
+  .brand{ display:flex; align-items:center; gap:9px; }
+  .mark{ width:22px; height:22px; }
+  .brand .name{ font-size:15px; font-weight:800; letter-spacing:.16em; }
+  .brand .sub{ font-size:9px; color:var(--muted); letter-spacing:.04em; margin-top:1px; }
+  .kicker{ text-align:right; font-size:9px; font-weight:700; text-transform:uppercase; letter-spacing:.12em; color:var(--muted-2); line-height:1.5; }
+
+  h1.title{ margin:13px 0 2px; font-size:23px; font-weight:800; letter-spacing:-.015em; }
+  .subtitle{ font-size:11px; color:var(--muted); line-height:1.5; }
+  .subtitle b{ color:var(--ink-soft); }
+
+  .seclabel{ font-size:9.5px; font-weight:800; text-transform:uppercase; letter-spacing:.14em; color:var(--orange); margin:18px 0 8px; }
+
+  /* diagnosis */
+  .diag{ display:flex; gap:12px; align-items:stretch; }
+  .diagscore{ flex:none; width:120px; border:1px solid var(--high-tr); background:#fffaf6; border-radius:11px; padding:12px; text-align:center; display:flex; flex-direction:column; align-items:center; justify-content:center; }
+  .diagscore .big{ font-size:40px; font-weight:800; color:var(--high-tx); line-height:1; }
+  .diagscore .max{ font-size:12px; color:var(--muted-2); font-weight:600; }
+  .diagscore .pill{ margin-top:7px; font-size:9px; font-weight:800; letter-spacing:.04em; border-radius:999px; padding:3px 10px; text-transform:uppercase; background:var(--high-tr); color:var(--high-tx); }
+  .diagbody{ flex:1; border:1px solid var(--border); border-radius:11px; background:var(--card); padding:13px 15px; }
+  .diagbody p{ margin:0 0 9px; font-size:11px; line-height:1.55; color:var(--ink-soft); }
+  .gaps{ display:flex; gap:8px; }
+  .gap{ flex:1; border-radius:8px; background:var(--critical-tr); padding:7px 9px; }
+  .gap .d{ font-size:8px; font-weight:800; letter-spacing:.06em; color:var(--critical-tx); text-transform:uppercase; }
+  .gap .n{ font-size:10px; font-weight:700; color:var(--ink); margin-top:2px; }
+  .gap .s{ font-size:8.5px; color:var(--critical); font-weight:800; }
+
+  /* trajectory */
+  .traj{ display:flex; align-items:stretch; gap:0; }
+  .station{ flex:1; border-radius:11px; padding:12px 13px; position:relative; }
+  .st-now{ background:var(--high-tr); border:1px solid #f7c9a6; }
+  .st-mid{ background:var(--moderate-tr); border:1px solid #f1de8a; }
+  .st-end{ background:var(--resilient-tr); border:1px solid #a7e3bd; }
+  .station .when{ font-size:8px; font-weight:800; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); }
+  .station .sc{ font-size:26px; font-weight:800; line-height:1.05; margin-top:3px; }
+  .st-now .sc{ color:var(--high-tx); } .st-mid .sc{ color:var(--moderate-tx); } .st-end .sc{ color:var(--resilient-tx); }
+  .station .bnd{ font-size:8.5px; font-weight:800; text-transform:uppercase; letter-spacing:.04em; }
+  .st-now .bnd{ color:var(--high-tx);} .st-mid .bnd{ color:var(--moderate-tx);} .st-end .bnd{ color:var(--resilient-tx);}
+  .station .gl{ font-size:9px; color:var(--ink-soft); line-height:1.45; margin-top:6px; }
+  .arrow{ flex:none; width:26px; display:flex; align-items:center; justify-content:center; color:var(--muted-2); font-size:18px; }
+
+  /* priorities table */
+  table{ width:100%; border-collapse:collapse; }
+  thead th{ font-size:8px; font-weight:800; text-transform:uppercase; letter-spacing:.08em; color:var(--muted-2); text-align:left; padding:0 8px 6px; border-bottom:1.5px solid var(--border); }
+  tbody td{ font-size:10px; color:var(--ink-soft); padding:8px; border-bottom:1px solid var(--border-2); vertical-align:top; line-height:1.4; }
+  tbody tr:last-child td{ border-bottom:none; }
+  .pnum{ font-weight:800; color:var(--orange); font-size:11px; }
+  .act{ color:var(--ink); font-weight:600; }
+  .tg{ display:inline-block; font-size:7.5px; font-weight:700; color:var(--ink-soft); background:var(--border-2); border-radius:4px; padding:1px 5px; margin:1px 2px 1px 0; letter-spacing:.02em; }
+  .tag{ display:inline-block; font-size:8px; font-weight:800; border-radius:999px; padding:2px 8px; letter-spacing:.03em; }
+  .imp-h{ background:#fee2e2; color:#991b1b; } .imp-m{ background:#fef9c3; color:#92400e; }
+  .eff-h{ background:#ede9fe; color:#5b21b6; } .eff-m{ background:#e0f2fe; color:#075985; } .eff-l{ background:#dcfce7; color:#15803d; }
+  .when2{ font-size:8.5px; color:var(--muted); white-space:nowrap; }
+
+  .foot{ margin-top:auto; border-top:1px solid var(--border); padding-top:8px; font-size:8px; color:var(--muted-2); line-height:1.5; }
+  .foot b{ color:var(--muted); }
+</style>
+</head>
+<body>
+<div class="sheet">
+  <div class="top">
+    <div class="brand">
+      <svg class="mark" viewBox="0 0 32 32" fill="none">
+        <circle cx="16" cy="16" r="15" stroke="#11151F" stroke-width="2"/>
+        <path d="M16 5 L20 16 L16 27 L12 16 Z" fill="#F97316"/>
+        <circle cx="16" cy="16" r="2.4" fill="#11151F"/>
+      </svg>
+      <div><div class="name">COMPASS</div><div class="sub">AI-era curriculum viability</div></div>
+    </div>
+    <div class="kicker">Curriculum redesign roadmap<br>Generated from the COMPASS assessment</div>
+  </div>
+
+  <h1 class="title">What to change — Master of Information Systems</h1>
+  <p class="subtitle">A prioritised, evidence-linked redesign that moves MC-IS from <b>HIGH RISK to RESILIENT in 24 months</b> — derived directly from its durability score and the labour-market signals behind each gap. University of Melbourne · assessed May 2026.</p>
+
+  <div class="seclabel">The diagnosis</div>
+  <div class="diag">
+    <div class="diagscore">
+      <div class="big tnum">18<span class="max">/36</span></div>
+      <div class="pill">High Risk</div>
+    </div>
+    <div class="diagbody">
+      <p>The program is <b>not broken</b> — it is structurally uneven. Breadth is adequate across systems thinking, domain grounding and human capability, but three dimensions that most directly determine 2027 labour-market durability score <b>1/3</b>. The redesign task is narrow and specific: close these three gaps, then convert "adequate" to "strong".</p>
+      <div class="gaps">
+        <div class="gap"><div class="d">D5 · AI Literacy</div><div class="n">No core AI-governance unit</div><div class="s">1 / 3</div></div>
+        <div class="gap"><div class="d">D1 · Automation</div><div class="n">BA/PM spine is AI-substitutable</div><div class="s">1 / 3</div></div>
+        <div class="gap"><div class="d">D10 · Outcomes</div><div class="n">No role-level destination data</div><div class="s">1 / 3</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="seclabel">The 24-month trajectory</div>
+  <div class="traj">
+    <div class="station st-now">
+      <div class="when">Today</div><div class="sc tnum">18</div><div class="bnd">High Risk</div>
+      <div class="gl">Three critical 1/3 gaps; career spine pointed at the most AI-exposed roles.</div>
+    </div>
+    <div class="arrow">→</div>
+    <div class="station st-mid">
+      <div class="when">Months 1–12 · structural fix</div><div class="sc tnum">23–24</div><div class="bnd">Moderate Risk</div>
+      <div class="gl">AI-governance unit live (D5 1→3); SA&amp;D + capstone redesigned (D1 1→2, D4 2→3); destination tracking on (D10 1→2).</div>
+    </div>
+    <div class="arrow">→</div>
+    <div class="station st-end">
+      <div class="when">Months 13–24 · depth + evidence</div><div class="sc tnum">28–30</div><div class="bnd">Resilient</div>
+      <div class="gl">Data-engineering &amp; sector electives (D3, D6 →3); employer panel (D9 →3); cohort outcomes &amp; portfolio (D10, B →3).</div>
+    </div>
+  </div>
+
+  <div class="seclabel">Priority moves — sequenced by impact, effort and accreditation leverage</div>
+  <table>
+    <thead><tr><th style="width:18px"></th><th>Intervention</th><th style="width:96px">Targets</th><th style="width:54px">Impact</th><th style="width:62px">Effort</th><th style="width:64px">When</th></tr></thead>
+    <tbody>
+      <tr><td class="pnum">1</td><td><span class="act">Create a mandatory core unit — AI Governance &amp; Deployment</span> (NIST AI RMF, ISO 42001, human-in-the-loop design, vendor assessment).</td><td><span class="tg">D5</span><span class="tg">D1</span><span class="tg">✦</span></td><td><span class="tag imp-h">High</span></td><td><span class="tag eff-h">High</span></td><td class="when2">Sem 1 2027</td></tr>
+      <tr><td class="pnum">2</td><td><span class="act">Mandate a real-client AI-implementation capstone</span> for all tracks — defended trade-offs on a live brief.</td><td><span class="tg">D4</span><span class="tg">D1</span><span class="tg">✦</span></td><td><span class="tag imp-h">High</span></td><td><span class="tag eff-h">High</span></td><td class="when2">Months 4–12</td></tr>
+      <tr><td class="pnum">3</td><td><span class="act">Redesign the Systems Analysis &amp; Design assessment</span> — replace the requirements document with an automation audit + governance recommendation.</td><td><span class="tg">D2</span><span class="tg">D4</span><span class="tg">D1</span></td><td><span class="tag imp-h">High</span></td><td><span class="tag eff-m">Medium</span></td><td class="when2">Months 2–6</td></tr>
+      <tr><td class="pnum">4</td><td><span class="act">Add a data-engineering elective pathway</span> (SQL, Python, dbt) — build the data product, not just consume the report.</td><td><span class="tg">D3</span><span class="tg">✦</span></td><td><span class="tag imp-h">High</span></td><td><span class="tag eff-m">Medium</span></td><td class="when2">Sem 2 2027</td></tr>
+      <tr><td class="pnum">5</td><td><span class="act">Introduce a sector-specialisation cluster</span> (health IT, fintech, or govtech) to deepen domain value.</td><td><span class="tg">D6</span><span class="tg">✦</span></td><td><span class="tag imp-h">High</span></td><td><span class="tag eff-m">Medium</span></td><td class="when2">Months 6–12</td></tr>
+      <tr><td class="pnum">6</td><td><span class="act">Stand up granular graduate-destination tracking</span> — role titles &amp; salary, published at cohort level.</td><td><span class="tg">D10</span></td><td><span class="tag imp-m">Med</span></td><td><span class="tag eff-m">Medium</span></td><td class="when2">First report 2027</td></tr>
+      <tr><td class="pnum">7</td><td><span class="act">Convene an employer advisory panel</span> with an annual curriculum-signal review.</td><td><span class="tg">D9</span><span class="tg">D10</span></td><td><span class="tag imp-m">Med</span></td><td><span class="tag eff-m">Medium</span></td><td class="when2">Panel by Mo 6</td></tr>
+      <tr><td class="pnum">8</td><td><span class="act">Re-frame careers &amp; marketing</span> toward AI-workflow architect / automation-governance analyst.</td><td><span class="tg">D1</span></td><td><span class="tag imp-m">Med</span></td><td><span class="tag eff-l">Low</span></td><td class="when2">Months 1–3</td></tr>
+    </tbody>
+  </table>
+
+  <div class="foot">
+    <b>How this was produced.</b> COMPASS scored the MC-IS curriculum on ten durability dimensions plus an Irreplaceability premium, mapped each gap to current ANZ hiring signals (e.g. Automation Analyst postings +47% YoY; AI-Governance Analyst an emerging title; BA/PM entry roles down 14–22%), and sequenced interventions by impact × effort × accreditation leverage. Targets: D1 Automation · D2 Systems · D3 Technical · D4 Decisions · D5 AI Literacy · D6 Domain · D9 Currency · D10 Outcomes · ✦ Irreplaceability. Illustrative artefact for discussion — not a faculty directive.
+  </div>
+</div>
+</body>
+</html>

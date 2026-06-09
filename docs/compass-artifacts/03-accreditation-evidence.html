@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>COMPASS — Accreditation-Ready Durability Evidence</title>
+<style>
+  :root{
+    --ink:#11151F; --ink-soft:#1E2533; --bg:#FCFCFC; --card:#FFFFFF;
+    --orange:#F97316; --orange-50:#FFF7ED; --orange-200:#FED7AA;
+    --muted:#6B7280; --muted-2:#9AA3B2; --border:#E5E7EB; --border-2:#EEF1F4;
+    --indigo:#4F46E5; --indigo-50:#EEF2FF;
+    --resilient:#16a34a; --resilient-tr:#dcfce7; --resilient-tx:#15803d;
+    --moderate:#d97706; --moderate-tr:#fef9c3; --moderate-tx:#92400e;
+    --high:#ea580c; --high-tr:#ffedd5; --high-tx:#9a3412;
+    --critical:#dc2626; --critical-tr:#fee2e2; --critical-tx:#991b1b;
+  }
+  @page{ size:A4 portrait; margin:0; }
+  *{ box-sizing:border-box; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  html,body{ margin:0; padding:0; background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+    font-feature-settings:'kern' 1,'liga' 1; -webkit-font-smoothing:antialiased; }
+  .tnum{ font-variant-numeric:tabular-nums; }
+  .sheet{ width:210mm; min-height:297mm; padding:14mm 15mm 11mm; display:flex; flex-direction:column; }
+
+  .top{ display:flex; align-items:flex-end; justify-content:space-between; gap:16px; border-bottom:2px solid var(--ink); padding-bottom:10px; }
+  .brand{ display:flex; align-items:center; gap:9px; }
+  .mark{ width:22px; height:22px; }
+  .brand .name{ font-size:15px; font-weight:800; letter-spacing:.16em; }
+  .brand .sub{ font-size:9px; color:var(--muted); letter-spacing:.04em; margin-top:1px; }
+  .kicker{ text-align:right; font-size:9px; font-weight:700; text-transform:uppercase; letter-spacing:.12em; color:var(--muted-2); line-height:1.5; }
+
+  h1.title{ margin:13px 0 2px; font-size:22px; font-weight:800; letter-spacing:-.015em; }
+  .subtitle{ font-size:10.5px; color:var(--muted); line-height:1.55; }
+  .subtitle b{ color:var(--ink-soft); }
+
+  .seclabel{ font-size:9px; font-weight:800; text-transform:uppercase; letter-spacing:.14em; color:var(--orange); margin:15px 0 7px; }
+  .two{ display:grid; grid-template-columns:1fr 1fr; gap:11px; }
+  .box{ border:1px solid var(--border); border-radius:10px; background:var(--card); padding:12px 13px; }
+  .box h3{ margin:0 0 6px; font-size:11px; font-weight:800; color:var(--ink); letter-spacing:.01em; }
+  .box p{ margin:0 0 7px; font-size:9.7px; line-height:1.5; color:var(--ink-soft); }
+  .box p:last-child{ margin-bottom:0; }
+  .box b{ color:var(--ink); font-weight:700; }
+
+  /* instrument grid */
+  .rubric{ display:flex; flex-wrap:wrap; gap:4px; margin-bottom:8px; }
+  .rb{ font-size:8px; font-weight:700; color:var(--ink-soft); background:var(--border-2); border-radius:5px; padding:3px 7px; }
+  .scale{ display:flex; gap:3px; }
+  .scale .b{ flex:1; text-align:center; font-size:7.5px; font-weight:800; color:#fff; border-radius:5px; padding:3px 2px; letter-spacing:.02em; }
+
+  /* claim */
+  .claim{ border-left:3px solid var(--orange); background:var(--orange-50); border-radius:0 8px 8px 0; padding:9px 12px; margin-bottom:2px; }
+  .claim .old{ font-size:9.5px; color:var(--muted-2); text-decoration:line-through; }
+  .claim .new{ font-size:10px; color:var(--ink); font-weight:600; line-height:1.5; margin-top:3px; }
+
+  /* protocol steps */
+  .steps{ display:flex; flex-direction:column; gap:7px; }
+  .step{ display:flex; gap:10px; align-items:flex-start; border:1px solid var(--border); border-radius:9px; background:var(--card); padding:9px 12px; }
+  .step .no{ flex:none; width:22px; height:22px; border-radius:6px; background:var(--ink); color:#fff; font-size:10px; font-weight:800; display:flex; align-items:center; justify-content:center; }
+  .step .bd{ flex:1; }
+  .step .t{ font-size:10px; font-weight:800; color:var(--ink); }
+  .step .t .when{ font-weight:700; color:var(--indigo); font-size:8.5px; letter-spacing:.02em; }
+  .step .d{ font-size:9.3px; color:var(--ink-soft); line-height:1.45; margin-top:2px; }
+
+  /* safeguards */
+  .safe{ display:grid; grid-template-columns:1fr 1fr; gap:7px; }
+  .sf{ display:flex; gap:8px; align-items:flex-start; }
+  .sf .tick{ flex:none; width:15px; height:15px; border-radius:50%; background:var(--resilient-tr); color:var(--resilient-tx); font-size:9px; font-weight:800; display:flex; align-items:center; justify-content:center; margin-top:1px; }
+  .sf .x{ font-size:9.3px; color:var(--ink-soft); line-height:1.4; }
+  .sf .x b{ color:var(--ink); font-weight:700; }
+
+  /* standards table */
+  table{ width:100%; border-collapse:collapse; }
+  thead th{ font-size:7.5px; font-weight:800; text-transform:uppercase; letter-spacing:.07em; color:var(--muted-2); text-align:left; padding:0 8px 5px; border-bottom:1.5px solid var(--border); }
+  tbody td{ font-size:9.3px; color:var(--ink-soft); padding:7px 8px; border-bottom:1px solid var(--border-2); vertical-align:top; line-height:1.4; }
+  tbody tr:last-child td{ border-bottom:none; }
+  td .std{ font-weight:800; color:var(--ink); }
+
+  .foot{ margin-top:auto; border-top:1px solid var(--border); padding-top:8px; font-size:8px; color:var(--muted-2); line-height:1.5; }
+  .foot b{ color:var(--muted); }
+</style>
+</head>
+<body>
+<div class="sheet">
+  <div class="top">
+    <div class="brand">
+      <svg class="mark" viewBox="0 0 32 32" fill="none">
+        <circle cx="16" cy="16" r="15" stroke="#11151F" stroke-width="2"/>
+        <path d="M16 5 L20 16 L16 27 L12 16 Z" fill="#F97316"/>
+        <circle cx="16" cy="16" r="2.4" fill="#11151F"/>
+      </svg>
+      <div><div class="name">COMPASS</div><div class="sub">AI-era curriculum viability</div></div>
+    </div>
+    <div class="kicker">Accreditation-ready evidence<br>Illustrative artefact · for panel discussion</div>
+  </div>
+
+  <h1 class="title">Durability as defensible evidence</h1>
+  <p class="subtitle">What it would take for an accreditation panel to treat a curriculum-durability signal as <b>evidence</b>, not vendor opinion — a defined instrument, an honest claim, and a pre-registered measurement programme that validates the score against graduate outcomes. <b>Worked against Master of Information Systems (18/36, HIGH RISK).</b></p>
+
+  <div class="two">
+    <div>
+      <div class="seclabel">1 · The instrument</div>
+      <div class="box">
+        <h3>A frozen, transparent rubric</h3>
+        <p>Ten durability dimensions plus an Irreplaceability premium, each scored <b>0–3</b> against published descriptors, to a <b>/36</b> total on a four-band scale. The schema is version-pinned and timestamped.</p>
+        <div class="rubric">
+          <span class="rb">D1 Automation</span><span class="rb">D2 Systems</span><span class="rb">D3 Technical</span><span class="rb">D4 Decisions</span><span class="rb">D5 AI Literacy</span><span class="rb">D6 Domain</span><span class="rb">D7 Research</span><span class="rb">D8 Human</span><span class="rb">D9 Currency</span><span class="rb">D10 Outcomes</span><span class="rb">✦ Irreplaceability</span>
+        </div>
+        <div class="scale">
+          <span class="b" style="background:#dc2626">Critical 0–11</span>
+          <span class="b" style="background:#ea580c">High 12–19</span>
+          <span class="b" style="background:#d97706">Moderate 20–27</span>
+          <span class="b" style="background:#16a34a">Resilient 28–36</span>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="seclabel">2 · The evidence base (stated honestly)</div>
+      <div class="box">
+        <h3>The mechanism is evidenced; the instrument is the open question</h3>
+        <div class="claim">
+          <div class="old">"No causal evidence links labour-market-informed curriculum revision to graduate outcomes."</div>
+          <div class="new">Demand-aligned curriculum revision is now <b>causally evidenced to raise wages</b> (Salomons et al. 2025 — difference-in-differences over 365 German VET updates, ~+3.3% entry wages). <b>What no study yet validates</b> is that a <b>scored durability instrument</b> predicts <b>QILT</b> outcomes for <b>Australian university</b> programs — the evidence COMPASS can be first to produce.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="seclabel">3 · The measurement protocol — PROSPECT-DiD (one staged study, one pre-registration)</div>
+  <div class="steps">
+    <div class="step"><div class="no">0</div><div class="bd"><div class="t">Pre-register &amp; freeze <span class="when">· months 0–3 · ~free</span></div><div class="d">Lodge a public pre-registration (OSF/AEA) declaring the rubric, the matching protocol (6-digit ASCED field + level + intake), the estimand (ATT, Callaway–Sant'Anna), the primary outcome (GOS full-time employment), and the inference plan. <b>Cryptographically freeze and timestamp baseline scores</b> — this defeats score→outcome leakage and is itself the artefact a panel rewards, available before any outcome lands.</div></div></div>
+    <div class="step"><div class="no">1</div><div class="bd"><div class="t">Back-test predictive validity <span class="when">· months 3–9 · first publishable signal &lt;1 yr</span></div><div class="d">Under one HREC secondary-use approval, join frozen scores to the institution's <b>own existing GOS/GOS-L unit records</b> at 6-digit ASCED; pool 3–5 cohorts; report calibration, discrimination (AUC) and incremental ΔAUC over a confounder-only baseline. Positive = the score validates; near-zero = a clean, publishable null. Either way is the highest-value result.</div></div></div>
+    <div class="step"><div class="no">2</div><div class="bd"><div class="t">Embedded difference-in-differences <span class="when">· years 2–7 · confirmatory</span></div><div class="d">Let a staggered-adoption DiD mature as COMPASS-redesigned cohorts reach GOS then GOS-L, reporting event-study pre-trends as they accrue. Upgrade to PLIDA/BLADE ATO-linked verified earnings only once Step 1 shows signal worth scaling.</div></div></div>
+  </div>
+
+  <div class="two" style="margin-top:13px">
+    <div>
+      <div class="seclabel">4 · Why a panel can rely on it</div>
+      <div class="box">
+        <div class="safe">
+          <div class="sf"><div class="tick">✓</div><div class="x"><b>Pre-registered</b> — hypotheses &amp; analysis fixed before outcomes are seen.</div></div>
+          <div class="sf"><div class="tick">✓</div><div class="x"><b>Frozen baseline</b> — timestamped scores defeat hindsight fitting.</div></div>
+          <div class="sf"><div class="tick">✓</div><div class="x"><b>Standard estimator</b> — Callaway–Sant'Anna DiD, not cross-sectional correlation.</div></div>
+          <div class="sf"><div class="tick">✓</div><div class="x"><b>Stays in-institution</b> — unit-record joins run inside the university; nothing exported.</div></div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="seclabel">5 · Illustrative standards mapping</div>
+      <div class="box" style="padding:8px 11px">
+        <table>
+          <thead><tr><th>Standard</th><th>What COMPASS evidence provides</th></tr></thead>
+          <tbody>
+            <tr><td><span class="std">AACSB 2020 · Std 4</span><br>Curriculum</td><td>A documented, labour-market-referenced basis for currency and relevance of program content.</td></tr>
+            <tr><td><span class="std">TEQSA HESF · 3.1</span><br>Course Design</td><td>Outcomes reflect current and emerging employment skills, with an external reference point.</td></tr>
+            <tr><td><span class="std">TEQSA HESF · 5.3</span><br>Monitoring &amp; Review</td><td>A repeatable, external benchmark for the periodic review-and-improvement cycle.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="foot">
+    <b>Provenance &amp; honest limits.</b> Evidence base from the COMPASS EXP-04 desk experiment (15-agent research workflow); confidence <b>medium</b> — the frontier wage-effect study is a 2025 working paper and several databases were not systematically searched. The standards mapping is <b>illustrative</b> and would be confirmed with the relevant body. The protocol's first signal is a predictive back-test, not yet a causal proof. Instrument: COMPASS 10+1 durability rubric (frozen in programData.ts). Worked example: MC-IS, University of Melbourne, assessed May 2026.
+  </div>
+</div>
+</body>
+</html>

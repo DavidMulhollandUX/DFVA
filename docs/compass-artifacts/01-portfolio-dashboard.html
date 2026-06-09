@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>COMPASS — Portfolio Durability Read</title>
+<style>
+  :root{
+    --ink:#11151F; --ink-soft:#1E2533; --bg:#FCFCFC; --card:#FFFFFF;
+    --orange:#F97316; --orange-50:#FFF7ED;
+    --muted:#6B7280; --muted-2:#9AA3B2; --border:#E5E7EB; --border-2:#EEF1F4;
+    --resilient:#16a34a; --resilient-tr:#dcfce7; --resilient-tx:#15803d;
+    --moderate:#d97706; --moderate-tr:#fef9c3; --moderate-tx:#92400e;
+    --high:#ea580c;     --high-tr:#ffedd5;     --high-tx:#9a3412;
+    --critical:#dc2626; --critical-tr:#fee2e2; --critical-tx:#991b1b;
+  }
+  @page{ size:A4 landscape; margin:0; }
+  *{ box-sizing:border-box; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  html,body{ margin:0; padding:0; background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+    font-feature-settings:'kern' 1,'liga' 1; -webkit-font-smoothing:antialiased; }
+  .tnum{ font-variant-numeric:tabular-nums; }
+  .sheet{ width:297mm; height:210mm; padding:11mm 12mm 9mm; display:flex; flex-direction:column; }
+
+  /* header */
+  .top{ display:flex; align-items:flex-end; justify-content:space-between; gap:16px;
+    border-bottom:2px solid var(--ink); padding-bottom:9px; }
+  .brand{ display:flex; align-items:center; gap:9px; }
+  .mark{ width:21px; height:21px; }
+  .brand .name{ font-size:15px; font-weight:800; letter-spacing:.16em; color:var(--ink); }
+  .brand .sub{ font-size:9px; color:var(--muted); letter-spacing:.04em; margin-top:1px; }
+  .title{ text-align:center; }
+  .title h1{ margin:0; font-size:20px; font-weight:800; letter-spacing:-.01em; color:var(--ink); }
+  .title .pre{ font-size:8.5px; font-weight:700; text-transform:uppercase; letter-spacing:.2em; color:var(--orange); }
+  .kicker{ text-align:right; font-size:8.5px; font-weight:700; text-transform:uppercase; letter-spacing:.13em; color:var(--muted-2); line-height:1.5; }
+
+  .intro{ font-size:10px; line-height:1.5; color:var(--muted); margin:8px 2px 9px; max-width:250mm; }
+  .intro b{ color:var(--ink-soft); font-weight:700; }
+
+  /* grid of cards */
+  .grid{ flex:1; display:grid; grid-template-columns:repeat(3,1fr); grid-template-rows:1fr 1fr; gap:7px; }
+  .card{ border:1px solid var(--border); border-radius:10px; background:var(--card); padding:11px 12px 10px;
+    display:flex; flex-direction:column; }
+  .card .head{ display:flex; align-items:flex-start; justify-content:space-between; gap:8px; }
+  .pname{ font-size:12.5px; font-weight:800; line-height:1.15; color:var(--ink); }
+  .pmeta{ font-size:8px; color:var(--muted-2); margin-top:2px; letter-spacing:.01em; }
+  .gauge{ flex:none; text-align:center; }
+  .pill{ display:inline-block; margin-top:3px; font-size:7.5px; font-weight:800; letter-spacing:.04em;
+    border-radius:999px; padding:2px 7px; text-transform:uppercase; }
+
+  .seclabel{ font-size:7px; font-weight:700; text-transform:uppercase; letter-spacing:.12em; color:var(--muted-2); margin:9px 0 3px; }
+  .pnote{ font-size:8.5px; line-height:1.5; color:var(--ink-soft); margin-top:10px; }
+  .pnote b{ color:var(--ink); font-weight:800; }
+
+  /* fingerprint equaliser */
+  .fp{ display:flex; align-items:flex-end; gap:3px; height:30px; }
+  .fp .col{ flex:1; display:flex; flex-direction:column; align-items:center; gap:2px; }
+  .fp .barwrap{ width:100%; height:24px; display:flex; align-items:flex-end; }
+  .fp .bar{ width:100%; border-radius:2px 2px 0 0; }
+  .fp .code{ font-size:6px; color:var(--muted-2); font-weight:600; }
+
+  /* threshold chips */
+  .thr{ display:flex; gap:5px; margin-top:auto; padding-top:9px; }
+  .chip{ flex:1; border-radius:6px; padding:4px 6px; }
+  .chip .q{ font-size:6.5px; color:var(--muted); line-height:1.2; display:block; }
+  .chip .a{ font-size:8.5px; font-weight:800; letter-spacing:.02em; margin-top:1px; display:block; }
+
+  /* footer legend */
+  .foot{ margin-top:8px; border-top:1px solid var(--border); padding-top:7px;
+    display:flex; align-items:center; justify-content:space-between; gap:14px; }
+  .legends{ display:flex; gap:18px; align-items:center; flex-wrap:wrap; }
+  .leg{ display:flex; align-items:center; gap:9px; }
+  .leg .lt{ font-size:7px; font-weight:700; text-transform:uppercase; letter-spacing:.1em; color:var(--muted-2); }
+  .leg .it{ display:flex; align-items:center; gap:4px; font-size:8px; color:var(--ink-soft); }
+  .sw{ width:10px; height:10px; border-radius:2px; display:inline-block; }
+  .prov{ font-size:7.5px; color:var(--muted-2); text-align:right; line-height:1.5; }
+</style>
+</head>
+<body>
+<div class="sheet">
+  <div class="top">
+    <div class="brand">
+      <svg class="mark" viewBox="0 0 32 32" fill="none">
+        <circle cx="16" cy="16" r="15" stroke="#11151F" stroke-width="2"/>
+        <path d="M16 5 L20 16 L16 27 L12 16 Z" fill="#F97316"/>
+        <circle cx="16" cy="16" r="2.4" fill="#11151F"/>
+      </svg>
+      <div>
+        <div class="name">COMPASS</div>
+        <div class="sub">AI-era curriculum viability</div>
+      </div>
+    </div>
+    <div class="title">
+      <div class="pre">Portfolio Durability Read</div>
+      <h1>How will this portfolio hold up to AI?</h1>
+    </div>
+    <div class="kicker">University of Melbourne<br>10 + 1 rubric · scored 0–36<br>Independent assessment</div>
+  </div>
+
+  <p class="intro">Six programs scored on the COMPASS durability rubric — ten dimensions plus an <b>Irreplaceability</b> premium, each <b>0–3</b>, to a <b>/36</b> total mapped to a four-band risk scale. <b>Two programs sit in HIGH RISK; four in MODERATE.</b> Not one reaches RESILIENT. The single dimension flat across the whole portfolio is <b>AI Literacy &amp; Governance (D5)</b> — 1/3 everywhere.</p>
+
+  <div class="grid" id="grid"></div>
+
+  <div class="foot">
+    <div class="legends">
+      <div class="leg">
+        <span class="lt">Dimension score</span>
+        <span class="it"><span class="sw" style="background:#e5e7eb"></span>0</span>
+        <span class="it"><span class="sw" style="background:#ea580c"></span>1</span>
+        <span class="it"><span class="sw" style="background:#d97706"></span>2</span>
+        <span class="it"><span class="sw" style="background:#16a34a"></span>3</span>
+      </div>
+      <div class="leg">
+        <span class="lt">Risk band</span>
+        <span class="it"><span class="sw" style="background:#dc2626"></span>Critical 0–11</span>
+        <span class="it"><span class="sw" style="background:#ea580c"></span>High 12–19</span>
+        <span class="it"><span class="sw" style="background:#d97706"></span>Moderate 20–27</span>
+        <span class="it"><span class="sw" style="background:#16a34a"></span>Resilient 28–36</span>
+      </div>
+    </div>
+    <div class="prov">D1 Automation · D2 Systems · D3 Technical · D4 Decisions · D5 AI Literacy · D6 Domain · D7 Research · D8 Human · D9 Currency · D10 Outcomes · ✦ Irreplaceability</div>
+  </div>
+</div>
+
+<script>
+const BANDS = {
+  'RESILIENT':     {c:'#16a34a', tr:'#dcfce7', tx:'#15803d', label:'Resilient'},
+  'MODERATE RISK': {c:'#d97706', tr:'#fef9c3', tx:'#92400e', label:'Moderate Risk'},
+  'HIGH RISK':     {c:'#ea580c', tr:'#ffedd5', tx:'#9a3412', label:'High Risk'},
+  'CRITICAL':      {c:'#dc2626', tr:'#fee2e2', tx:'#991b1b', label:'Critical'},
+};
+const CODES = ['D1','D2','D3','D4','D5','D6','D7','D8','D9','D10','✦'];
+function stepColor(s){ return s===3?'#16a34a':s===2?'#d97706':s===1?'#ea580c':'#e5e7eb'; }
+// threshold answer colours — q1 is a risk question (YES is bad); q2/q3 positive (YES good)
+const ANS = {
+  risk:     {YES:{c:'#dc2626',bg:'#fef2f2'}, NO:{c:'#16a34a',bg:'#f0fdf4'}, UNCERTAIN:{c:'#d97706',bg:'#fffbeb'}},
+  positive: {YES:{c:'#16a34a',bg:'#f0fdf4'}, NO:{c:'#dc2626',bg:'#fef2f2'}, UNCERTAIN:{c:'#d97706',bg:'#fffbeb'}},
+};
+
+const PROGRAMS = [
+  {program:'Master of Information Systems', level:'Master · 1.5–2 yrs', date:'May 2026', score:18, band:'HIGH RISK',
+   dims:[1,2,2,2,1,2,2,2,2,1,1], thr:{q1:'YES',q2:'UNCERTAIN',q3:'NO'},
+   note:'<b>Critical gaps:</b> AI literacy, automation exposure &amp; graduate-outcome evidence — all 1/3. The BA/PM career spine is the most AI-exposed.'},
+  {program:'Bachelor of Design', level:'Bachelor · 3 yrs', date:'Apr 2026', score:17, band:'HIGH RISK',
+   dims:[1,2,1,2,1,2,1,2,2,1,2], thr:{q1:'YES',q2:'UNCERTAIN',q3:'NO'},
+   note:'<b>Critical gaps:</b> technical depth, AI literacy, research rigour &amp; outcomes. Studio strengths can\'t offset rising automation exposure.'},
+  {program:'Master of Biotechnology', level:'Master · 2 yrs', date:'May 2026', score:24, band:'MODERATE RISK',
+   dims:[2,2,2,3,1,3,2,3,2,1,3], thr:{q1:'NO',q2:'YES',q3:'YES'},
+   note:'<b>Edge:</b> irreplaceability, decisions, domain, human (3/3). <b>Drag:</b> AI literacy &amp; outcome evidence (1/3).'},
+  {program:'Master of Science (Earth Sciences)', level:'Master · 2 yrs', date:'May 2026', score:24, band:'MODERATE RISK',
+   dims:[3,2,3,3,1,3,3,1,2,1,2], thr:{q1:'NO',q2:'YES',q3:'UNCERTAIN'},
+   note:'<b>Edge:</b> automation resilience, technical, decisions, rigour (3/3). <b>Drag:</b> AI literacy, human/relational &amp; outcomes.'},
+  {program:'Master of Science (Epidemiology)', level:'Master · 2 yrs', date:'May 2026', score:23, band:'MODERATE RISK',
+   dims:[2,2,3,2,1,3,3,2,2,1,2], thr:{q1:'UNCERTAIN',q2:'YES',q3:'YES'},
+   note:'<b>Edge:</b> technical, domain &amp; research rigour (3/3). <b>Drag:</b> AI literacy &amp; outcome evidence (1/3).'},
+  {program:'Bachelor of Science', level:'Bachelor · 3 yrs', date:'May 2026', score:23, band:'MODERATE RISK',
+   dims:[2,2,3,2,1,3,3,1,2,2,2], thr:{q1:'UNCERTAIN',q2:'YES',q3:'UNCERTAIN'},
+   note:'<b>Edge:</b> technical, domain &amp; research rigour (3/3). <b>Drag:</b> AI literacy &amp; human/relational capability.'},
+];
+
+function scoreArc(score, band){
+  const b = BANDS[band]; const size=70, sw=6, r=(size-sw*2)/2, cx=size/2, cy=size/2;
+  const C = 2*Math.PI*r, A = C*(300/360), filled = A*(score/36), rot = 120;
+  return `<svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">
+    <circle cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="${b.tr}" stroke-width="${sw}"
+      stroke-dasharray="${A.toFixed(2)} ${C.toFixed(2)}" stroke-linecap="round" transform="rotate(${rot} ${cx} ${cy})"/>
+    <circle cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="${b.c}" stroke-width="${sw}"
+      stroke-dasharray="${filled.toFixed(2)} ${C.toFixed(2)}" stroke-linecap="round" transform="rotate(${rot} ${cx} ${cy})"/>
+    <text x="${cx}" y="${cy+1}" text-anchor="middle" dominant-baseline="middle" font-size="19" font-weight="800" fill="${b.tx}" class="tnum">${score}</text>
+    <text x="${cx}" y="${cy+13}" text-anchor="middle" dominant-baseline="middle" font-size="8" fill="#9AA3B2">/36</text>
+  </svg>`;
+}
+function fingerprint(dims){
+  return `<div class="fp">` + dims.map((s,i)=>{
+    const h = s===0 ? 3 : (s/3*24);
+    return `<div class="col"><div class="barwrap"><div class="bar" style="height:${h}px;background:${stepColor(s)}"></div></div><div class="code">${CODES[i]}</div></div>`;
+  }).join('') + `</div>`;
+}
+function chips(thr){
+  const items = [
+    {q:'AI ≥80% of early output?', a:thr.q1, pol:'risk'},
+    {q:'Trains higher-order capability?', a:thr.q2, pol:'positive'},
+    {q:'More employable in 5 yrs?', a:thr.q3, pol:'positive'},
+  ];
+  return `<div class="thr">` + items.map(it=>{
+    const cfg = ANS[it.pol][it.a] || {c:'#374151',bg:'#f3f4f6'};
+    return `<div class="chip" style="background:${cfg.bg}"><span class="q">${it.q}</span><span class="a" style="color:${cfg.c}">${it.a}</span></div>`;
+  }).join('') + `</div>`;
+}
+function card(p){
+  const b = BANDS[p.band];
+  return `<div class="card">
+    <div class="head">
+      <div><div class="pname">${p.program}</div><div class="pmeta">${p.level} · ${p.date}</div></div>
+      <div class="gauge">${scoreArc(p.score,p.band)}<div class="pill" style="background:${b.tr};color:${b.tx}">${b.label}</div></div>
+    </div>
+    <div class="seclabel">Dimension fingerprint</div>
+    ${fingerprint(p.dims)}
+    ${p.note ? `<div class="pnote">${p.note}</div>` : ''}
+    ${chips(p.thr)}
+  </div>`;
+}
+document.getElementById('grid').innerHTML = PROGRAMS.map(card).join('');
+</script>
+</body>
+</html>
