@@ -1,7 +1,7 @@
 # COMPASS — Degree Future-Viability Assessor
 
 **Tech stack:** Wasp 0.22, React 19, TypeScript, Prisma (PostgreSQL), Tailwind CSS
-**Key constraint:** DFVA_MOCK=true in dev — mock service returns hardcoded assessments. Real pipeline blocked by handbook anti-bot.
+**Key constraint:** DFVA_MOCK=true in dev — mock service returns hardcoded assessments for 19 programs. DFVA_MOCK=false matches against the same PROGRAMS array. Both work.
 **See:** README.md
 
 ## Context
