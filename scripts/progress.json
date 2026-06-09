@@ -12,68 +12,68 @@
     "riskBand": "MODERATE RISK"
   },
   "mc-sciphy": {
-    "status": "blocked",
-    "reason": "handbook fetch failed",
-    "date": "2026-05-15"
+    "status": "ready",
+    "reason": "curriculum fetched via web_extract 2026-06-08; pending DFVA assessment",
+    "date": "2026-06-08"
   },
   "mc-scibio": {
-    "status": "blocked",
-    "reason": "handbook fetch failed",
-    "date": "2026-05-15"
+    "status": "ready",
+    "reason": "curriculum fetched via web_extract 2026-06-08; pending DFVA assessment",
+    "date": "2026-06-08"
   },
   "mc-sciche": {
-    "status": "blocked",
-    "reason": "handbook fetch failed",
-    "date": "2026-05-15"
+    "status": "ready",
+    "reason": "curriculum fetched via web_extract 2026-06-08; pending DFVA assessment",
+    "date": "2026-06-08"
   },
   "mc-scibif": {
-    "status": "blocked",
-    "reason": "handbook fetch failed (anti-bot)",
-    "date": "2026-05-16"
+    "status": "ready",
+    "reason": "curriculum fetched via web_extract 2026-06-08; pending DFVA assessment",
+    "date": "2026-06-08"
   },
   "mc-envsc": {
-    "status": "blocked",
-    "reason": "handbook fetch failed (anti-bot)",
-    "date": "2026-05-16"
+    "status": "ready",
+    "reason": "curriculum fetched via web_extract 2026-06-08; pending DFVA assessment",
+    "date": "2026-06-08"
   },
   "mc-climsci": {
-    "status": "blocked",
-    "reason": "handbook fetch failed (anti-bot)",
-    "date": "2026-05-16"
+    "status": "ready",
+    "reason": "curriculum fetched via web_extract 2026-06-08; pending DFVA assessment",
+    "date": "2026-06-08"
   },
   "mc-cs": {
-    "status": "blocked",
-    "reason": "handbook fetch failed (anti-bot)",
-    "date": "2026-05-16"
+    "status": "ready",
+    "reason": "curriculum fetched via web_extract 2026-06-08; pending DFVA assessment",
+    "date": "2026-06-08"
   },
   "mc-datasc": {
-    "status": "blocked",
-    "reason": "handbook fetch failed (anti-bot)",
-    "date": "2026-05-16"
+    "status": "ready",
+    "reason": "curriculum fetched via web_extract 2026-06-08; pending DFVA assessment",
+    "date": "2026-06-08"
   },
   "mc-bmedsc": {
-    "status": "blocked",
-    "reason": "handbook fetch failed (anti-bot)",
-    "date": "2026-05-16"
+    "status": "ready",
+    "reason": "curriculum fetched via web_extract 2026-06-08; pending DFVA assessment",
+    "date": "2026-06-08"
   },
   "mc-actsc": {
-    "status": "blocked",
-    "reason": "handbook fetch failed (anti-bot)",
-    "date": "2026-05-16"
+    "status": "ready",
+    "reason": "curriculum fetched via web_extract 2026-06-08; pending DFVA assessment",
+    "date": "2026-06-08"
   },
   "mc-gencoun": {
-    "status": "blocked",
-    "reason": "handbook fetch failed (anti-bot)",
-    "date": "2026-05-16"
+    "status": "ready",
+    "reason": "curriculum fetched via web_extract 2026-06-08; pending DFVA assessment",
+    "date": "2026-06-08"
   },
   "439fs": {
-    "status": "blocked",
-    "reason": "handbook fetch failed (anti-bot)",
-    "date": "2026-05-16"
+    "status": "ready",
+    "reason": "curriculum fetched via web_extract 2026-06-08; pending DFVA assessment",
+    "date": "2026-06-08"
   },
   "mc-nursc": {
-    "status": "blocked",
-    "reason": "handbook fetch failed (anti-bot)",
-    "date": "2026-05-16"
+    "status": "ready",
+    "reason": "curriculum fetched via web_extract 2026-06-08; pending DFVA assessment",
+    "date": "2026-06-08"
   }
 }
