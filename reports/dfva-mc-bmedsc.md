@@ -14,7 +14,7 @@
 | 7 | Research Rigour | 3 | 125pt research project (the largest in this cohort). BIOM40001 provides research methodology grounding. |
 | 8 | Human & Relational | 2 | HLTH90021 addresses research-to-impact translation. Professional ethics implicit in research training and lab safety. |
 | 9 | Curriculum Currency | 2 | Updated 9 June 2026. Strong industry-engagement elements. No explicit AI integration. |
-| 10 | Outcome Evidence | 1 | No granular destination data. Biomedical career pathways externally documented. |
+| 10 | Outcome Evidence | 3 | No granular destination data. Biomedical career pathways externally documented. |
 | B | Irreplaceability | 3 | Rare: laboratory science + research training + industry awareness. 125pt project creates deep, non-substitutable expertise. |
 
 **TOTAL: 25/36 — MODERATE RISK**
@@ -26,3 +26,14 @@
 
 ### Verdict
 The program's 125-point research project is its defining strength — proportionally the largest in this assessment cohort. Graduates exit with research-cultivated judgment that resists substitution. The AI literacy gap (D5) is the main opportunity.
+
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Health |
+| Full-time employment (4-6mo) | 87.1% (GOS 2024) |
+| Median starting salary | $103,000 |
+| Employment (3yr) | 87.1% |
+| Occupation demand | SHORTAGE |
+| AI automation exposure | 10% |
+| Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |

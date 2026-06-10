@@ -33,7 +33,7 @@ The program's stream system is protective: graduates exit with hybrid competence
 | 7 | Research Methods Rigour | 3 | BINF90018 (Skills for Data-intensive Research) plus a 50-point research project provide substantial research training. The project is larger (50pts vs 25pts) and more central than in comparable coursework masters. |
 | 8 | Human and Relational Capability | 2 | Professional skills subject included. Ethics is implicit in research training and biological data handling. No clinical accountability or dedicated ethics unit. |
 | 9 | Curriculum Currency and Adaptability | 2 | Updated 9 June 2026. Bioinformatics is a rapidly evolving field; the curriculum covers current tools and methods. No explicit AI integration visible. |
-| 10 | Graduate Outcome Evidence | 1 | No granular destination data published. Bioinformatics career pathways are externally documented (pharma, clinical genomics, research) but program-specific outcomes are not tracked. |
+| 10 | Graduate Outcome Evidence | 2 | No granular destination data published. Bioinformatics career pathways are externally documented (pharma, clinical genomics, research) but program-specific outcomes are not tracked. |
 | B | Irreplaceability Premium (Bonus) | 3 | Rare triple integration: biology domain expertise + computational/statistical skills + research training. This combination resists substitution because it requires genuine cross-disciplinary judgment that AI tools cannot synthesise. |
 
 **TOTAL: 24 / 36**  
@@ -69,3 +69,14 @@ Confidence: **Medium**. Bioinformatics is a well-defined field with documented g
 **Assessment date:** 2026-06-08  
 **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-scibif  
 **Prompt version:** DFVA-CONTINUE-SLASH-v1
+
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Science |
+| Full-time employment (4-6mo) | 79.3% (GOS 2024) |
+| Median starting salary | $100,000 |
+| Employment (3yr) | 79.3% |
+| Occupation demand | RECRUITMENT DIFFICULTY |
+| AI automation exposure | 40% |
+| Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |

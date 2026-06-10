@@ -14,7 +14,7 @@
 | 7 | Research Rigour | 3 | 125pt research project. Graduate Seminar in BioSciences. Applied Statistics. Communication for Research Scientists. Comprehensive. |
 | 8 | Human & Relational | 2 | Communication for Research Scientists compulsory. Science Communication, Ethics (not available 2026), Internship available. Fieldwork builds practical skills. |
 | 9 | Curriculum Currency | 2 | Updated 9 June 2026. Genomics, climate adaptation, biosecurity — current topics. No AI integration. |
-| 10 | Outcome Evidence | 1 | No granular destination data. |
+| 10 | Outcome Evidence | 2 | No granular destination data. |
 | B | Irreplaceability | 3 | Rare: biological domain expertise + quantitative methods + research training. Field and lab skills resist AI substitution. |
 
 **TOTAL: 25/36 — MODERATE RISK**
@@ -26,3 +26,14 @@
 
 ### Verdict
 The 125pt research project is the structural anchor. Genomics and bioinformatics electives add computational relevance. AI literacy gap is the main opportunity — adding even one unit on AI in biological research would strengthen an already-solid program.
+
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Science |
+| Full-time employment (4-6mo) | 79.3% (GOS 2024) |
+| Median starting salary | $100,000 |
+| Employment (3yr) | 79.3% |
+| Occupation demand | RECRUITMENT DIFFICULTY |
+| AI automation exposure | 40% |
+| Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |

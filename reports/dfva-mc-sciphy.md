@@ -14,7 +14,7 @@
 | 7 | Research Rigour | 3 | 100pt research project with literature survey, research plan, progress reviews, major thesis, oral presentation, and supervisor-assessed performance. |
 | 8 | Human & Relational | 2 | Communication for Research Scientists + Science Communication available. Group seminar presentation. No ethics unit available in 2026. |
 | 9 | Curriculum Currency | 2 | Updated 22 Jan 2026. Advanced QFT, Quantum Computing are current. Core is traditional physics — structurally slow to change. |
-| 10 | Outcome Evidence | 1 | No granular destination data. Physics career pathways well-documented externally. |
+| 10 | Outcome Evidence | 2 | No granular destination data. Physics career pathways well-documented externally. |
 | B | Irreplaceability | 3 | Rare: advanced theoretical physics + research training. Quantum computing elective adds emerging-field relevance. |
 
 **TOTAL: 25/36 — MODERATE RISK**
@@ -26,3 +26,14 @@
 
 ### Verdict
 Physics research training is structurally durable. The 100pt project + professional skills component creates well-rounded researchers. The AI literacy gap exists but is less acute than in applied fields — physics graduates operate at a conceptual level AI tools don't reach. Quantum computing elective positions graduates at an emerging frontier.
+
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Science |
+| Full-time employment (4-6mo) | 79.3% (GOS 2024) |
+| Median starting salary | $100,000 |
+| Employment (3yr) | 79.3% |
+| Occupation demand | RECRUITMENT DIFFICULTY |
+| AI automation exposure | 40% |
+| Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |

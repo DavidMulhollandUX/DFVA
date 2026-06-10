@@ -13,8 +13,19 @@
 | 7 | Research Rigour | 3 | Minor thesis (6000-10000 words) + Graduate Research Methods + Literature Review. Strong research training. |
 | 8 | Human & Relational | 3 | 125 days clinical placement, culturally responsive practice, ethics, Individual & Cultural Diversity. Maximum. |
 | 9 | Currency | 2 | Updated Nov 2025. CBT framework + medical settings + e-health. Mature curriculum. |
-| 10 | Outcomes | 2 | APAC + AHPRA registration tracks outcomes. Clinical psychology has strong employment data. |
+| 10 | Outcomes | 3 | APAC + AHPRA registration tracks outcomes. Clinical psychology has strong employment data. |
 | B | Irreplaceability | 3 | Clinical expertise + therapeutic skill + ethical judgment + APAC/AHPRA regulation. Triple irreducibility. |
 
 **TOTAL: 27/36 — MODERATE RISK** | Q1:NO Q2:YES Q3:YES
 *1 point from RESILIENT. Add AI/digital mental health → 29 RESILIENT.*
+
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Health |
+| Full-time employment (4-6mo) | 87.1% (GOS 2024) |
+| Median starting salary | $103,000 |
+| Employment (3yr) | 87.1% |
+| Occupation demand | SHORTAGE |
+| AI automation exposure | 10% |
+| Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |

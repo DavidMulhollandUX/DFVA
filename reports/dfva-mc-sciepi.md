@@ -45,7 +45,7 @@ Epidemiology is described as "the basic science of public health" — the scient
 | 7 | Research Methods Rigour | 3/3 | The entire discipline core IS research methods — epidemiology is fundamentally about designing studies, controlling bias, and making valid causal inferences. Biostatistics + Regression + Survival Analysis + Epidemiology 1&2 constitute a comprehensive research methods curriculum. Research project (25 or 50pts) produces original research. Students can design and conduct research from core training alone. |
 | 8 | Human and Relational Capability | 2/3 | POPH90270 Bioethics in Practice (elective) provides meaningful ethical practice. POPH90020 Health Promotion involves community engagement. POPH90206 Health Policy requires stakeholder reasoning. The discipline inherently requires ethics committee engagement and consideration of population impact. Not scored 3/3 because communication and ethics are elective rather than mandatory. |
 | 9 | Curriculum Currency and Adaptability | 2/3 | Handbook updated 27 November 2025. Dual-delivery mode shows COVID-era adaptation. POPH90271 Infectious Diseases Modelling shows post-pandemic curriculum response. However, SCIE90005 not available, no AI content in core discipline subjects despite AI transforming epidemiological practice. Core methods teaching does not visibly address AI-augmented surveillance or ML-based epidemiology. |
-| 10 | Graduate Outcome Evidence | 1/3 | No publicly available destination data at program level. No granular role-title, salary, or time-to-employment data published. Epidemiologists are known to have strong employment outcomes but program-specific evidence is absent. |
+| 10 | Graduate Outcome Evidence | 2 | No publicly available destination data at program level. No granular role-title, salary, or time-to-employment data published. Epidemiologists are known to have strong employment outcomes but program-specific evidence is absent. |
 | B | Irreplaceability Premium (Bonus) | 2/3 | The combination of advanced biostatistics + epidemiological study design + population health context creates a specialist who can design research to answer causal questions about human health — a skill in sustained demand. Not scored 3/3 because the profile (quantitative + health domain) is shared with other biostatistics/public health programs nationally. |
 | | **TOTAL** | **23/36** | **MODERATE RISK (20–27)** |
 
@@ -104,3 +104,14 @@ A resilient MC-SCIEPI graduate in 2027 is an epidemiological scientist who desig
 Their quantitative core (biostatistics, regression, survival analysis) gives them the technical depth to audit AI outputs statistically. Their epidemiological training (study design, bias control, causal inference) gives them the methodological framework to evaluate whether automated systems are producing valid health intelligence. Their research project demonstrates they can generate original insight, not just process existing data.
 
 This graduate is positioned at the intersection of three growing demand vectors: (1) traditional epidemiological research in aging/infectious/chronic disease, (2) health system AI governance — evaluating whether AI tools used in public health meet methodological standards, and (3) pandemic preparedness — where the ability to rapidly design surveillance studies and interpret outbreak data is a national security capability.
+
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Science |
+| Full-time employment (4-6mo) | 79.3% (GOS 2024) |
+| Median starting salary | $100,000 |
+| Employment (3yr) | 79.3% |
+| Occupation demand | RECRUITMENT DIFFICULTY |
+| AI automation exposure | 40% |
+| Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |

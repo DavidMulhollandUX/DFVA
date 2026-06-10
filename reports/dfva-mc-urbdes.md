@@ -24,7 +24,7 @@ The structural defence is the studio + thesis model: 125 of 200 points are studi
 | 7 | Research Methods Rigour | 3 | Urban Design Thesis (25pt) provides genuine research training. Studios use design-research methodology. |
 | 8 | Human and Relational Capability | 3 | Fieldwork, community involvement, Participatory Planning elective embed stakeholder engagement. Program's defining non-technical strength. |
 | 9 | Curriculum Currency and Adaptability | 2 | Updated Dec 2025. Climate-resilient design, computational methods — current. Several electives not available in 2026. |
-| 10 | Graduate Outcome Evidence | 1 | No granular destination data. PIA accreditation provides external validation. |
+| 10 | Graduate Outcome Evidence | 2 | No granular destination data. PIA accreditation provides external validation. |
 | B | Irreplaceability Premium (Bonus) | 3 | Rare: design creativity + urban systems + community engagement + PIA accreditation. Physical/creative/relational skills resist AI. |
 
 **TOTAL: 26 / 36 — MODERATE RISK**
@@ -52,3 +52,14 @@ This program's structural strength is its studio model. Four sequential design s
 **Assessment date:** 2026-06-09
 **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-urbdes
 **Prompt version:** DFVA-HERMES-v1 (live Hermes LLM scoring)
+
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Architecture & Building |
+| Full-time employment (4-6mo) | 74.8% (GOS 2024) |
+| Median starting salary | $84,500 |
+| Employment (3yr) | 74.8% |
+| Occupation demand | RECRUITMENT DIFFICULTY |
+| AI automation exposure | 30% |
+| Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |

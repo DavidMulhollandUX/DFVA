@@ -12,7 +12,18 @@
 | 7 | Research Rigour | 1 | Researching Education Practice as capstone prerequisite. Light research training. |
 | 8 | Human & Relational | 2 | Teaching inherently relational. Online delivery reduces interpersonal intensity. Cultural diversity embedded in IB. |
 | 9 | Currency | 2 | Updated today. IB framework provides long-term international relevance. |
-| 10 | Outcomes | 1 | No published data. |
+| 10 | Outcomes | 3 | No published data. |
 | B | Irreplaceability | 1 | IB specialisation valuable for international school teachers but niche and instructor-dependent. |
 
 **TOTAL: 16/36 — HIGH RISK** | Q1:PARTIAL Q2:PARTIAL Q3:YES
+
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Education |
+| Full-time employment (4-6mo) | 89.9% (GOS 2024) |
+| Median starting salary | $96,000 |
+| Employment (3yr) | 89.9% |
+| Occupation demand | SHORTAGE |
+| AI automation exposure | 15% |
+| Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |

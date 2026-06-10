@@ -33,7 +33,7 @@ The structural defence is the professional accreditation pathway — actuaries o
 | 7 | Research Methods Rigour | 1 | No research project component. This is a professional coursework degree. Statistical Techniques in Insurance provides some methodological exposure. |
 | 8 | Human and Relational Capability | 2 | Professional ethics is implicit in the accreditation framework. The optional Business and Economics Internship provides workplace exposure. No dedicated ethics or communication unit. |
 | 9 | Curriculum Currency and Adaptability | 2 | Updated 6 January 2026. Data Analytics in Insurance and Statistical Techniques add modern elements. The core remains traditional actuarial mathematics — structurally resistant to rapid change. |
-| 10 | Graduate Outcome Evidence | 1 | No granular destination data published. The actuarial profession tracks qualification outcomes externally, but program-specific employment data is not published. |
+| 10 | Graduate Outcome Evidence | 2 | No granular destination data published. The actuarial profession tracks qualification outcomes externally, but program-specific employment data is not published. |
 | B | Irreplaceability Premium (Bonus) | 2 | Professional accreditation + mathematical depth creates a clear dual-skill value. However, the traditional actuarial model faces structural disruption from AI/automation of the very techniques the program teaches as its core. |
 
 **TOTAL: 20 / 36**  
@@ -73,3 +73,14 @@ Confidence: **Medium-High**. Actuarial automation is well-documented in industry
 **Assessment date:** 2026-06-08  
 **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-actsc  
 **Prompt version:** DFVA-CONTINUE-SLASH-v1
+
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Science |
+| Full-time employment (4-6mo) | 79.3% (GOS 2024) |
+| Median starting salary | $100,000 |
+| Employment (3yr) | 79.3% |
+| Occupation demand | RECRUITMENT DIFFICULTY |
+| AI automation exposure | 40% |
+| Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |

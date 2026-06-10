@@ -24,7 +24,7 @@ The 300 hours of supervised placement create a structural defence: graduates mus
 | 7 | Research Rigour | 2 | 25pt research thesis + Advanced Design and Data Analysis. Smaller than research MSc but APAC-compliant. |
 | 8 | Human & Relational | 3 | Program's defining dimension. 300hr placement, therapeutic relationships, culturally sensitive practice, ethics, diversity. Maximum clinical capability. |
 | 9 | Curriculum Currency | 2 | Updated Dec 2025. Sequential all-compulsory ensures currency. No AI/digital health. |
-| 10 | Outcome Evidence | 2 | APAC + PsyBA registration provides external tracking. 5+1 completion rates publicly available. |
+| 10 | Outcome Evidence | 3 | APAC + PsyBA registration provides external tracking. 5+1 completion rates publicly available. |
 | B | Irreplaceability | 3 | Clinical psychology: scientific knowledge + therapeutic skill + ethical judgment + cultural competence. APAC/PsyBA regulation creates structural barriers to AI substitution. |
 
 **TOTAL: 26 / 36 — MODERATE RISK**
@@ -50,3 +50,14 @@ Clinical psychology's regulatory and practical barriers create one of the strong
 **Assessment date:** 2026-06-09
 **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-propsyc
 **Prompt version:** DFVA-HERMES-v1
+
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Health |
+| Full-time employment (4-6mo) | 87.1% (GOS 2024) |
+| Median starting salary | $103,000 |
+| Employment (3yr) | 87.1% |
+| Occupation demand | SHORTAGE |
+| AI automation exposure | 10% |
+| Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |

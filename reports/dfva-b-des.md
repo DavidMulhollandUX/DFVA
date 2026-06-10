@@ -37,7 +37,7 @@ Net exposure remains **high** for graduates focused on template/asset execution;
 | 7 | Research Methods Rigour | 1 | Market demand for evidence-backed design decisions is rising; primary-method rigour remains inconsistent across pathways. |
 | 8 | Human and Relational Capability | 2 | Critiques, collaboration, and stakeholder communication are meaningful parts of design training. |
 | 9 | Curriculum Currency and Adaptability | 2 | Program appears current structurally; evidence of fully AI-native redesign is limited. |
-| 10 | Graduate Outcome Evidence | 1 | Employer-side differentiation is increasingly capability-specific, but outcome visibility is still broad rather than role/task granular. |
+| 10 | Graduate Outcome Evidence | 2 | Employer-side differentiation is increasingly capability-specific, but outcome visibility is still broad rather than role/task granular. |
 | B | Irreplaceability Premium (Bonus) | 2 | Cross-domain design + contextual judgment can differentiate graduates when developed intentionally. |
 
 **TOTAL: 17 / 36**  
@@ -77,3 +77,14 @@ In practice, they can move from "produce slides/renderings/specs" to "define pro
 - Confidence level for market signals in this report: **Medium**.
 - Market evidence is integrated as core analysis and is based on directional synthesis of job-family hiring patterns and current professional discussion themes.
 - For high-stakes curriculum redesign decisions, add quarterly dated extraction of posting counts and requirement shifts by pathway.
+
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Architecture & Building |
+| Full-time employment (4-6mo) | 74.8% (GOS 2024) |
+| Median starting salary | $84,500 |
+| Employment (3yr) | 74.8% |
+| Occupation demand | RECRUITMENT DIFFICULTY |
+| AI automation exposure | 30% |
+| Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |

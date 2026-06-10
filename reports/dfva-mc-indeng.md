@@ -14,10 +14,21 @@
 | 7 | Research Rigour | 2 | Capstone project provides project-based research skills. No formal thesis but strong applied methodology. |
 | 8 | Human & Relational | 1 | Leadership and Strategy Execution available as electives only. Core is entirely technical. Ethical/professional practice only via Engineering Practice hurdle. |
 | 9 | Currency | 2 | Industry Digital Transformation + Sustainable Engineering — current topics. Updated Dec 2025. Forward-looking manufacturing focus. |
-| 10 | Outcomes | 1 | No published destination data. |
+| 10 | Outcomes | 3 | No published destination data. |
 | B | Irreplaceability | 2 | Industrial engineering + digital manufacturing creates industry-relevant combination. Systems optimization skills transfer across sectors. |
 
 **TOTAL: 22/36 — MODERATE RISK**
 
 ### VERDICT
 This program's exceptional systems thinking (D2:3) and technical depth (D3:3) create genuine analytical capability. Industry Digital Transformation signals forward-looking curriculum design. The primary vulnerability is early-career automation exposure — AI increasingly handles the process optimization and simulation tasks that junior IEs perform. Strengthening the human/relational dimension and adding explicit AI governance would push this into RESILIENT territory. Q1=YES (early-career IE work automatable). Q2=YES (capstone builds decision ownership). Q3=YES (manufacturing + digital transformation = durable demand).
+
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Engineering |
+| Full-time employment (4-6mo) | 88.3% (GOS 2024) |
+| Median starting salary | $111,000 |
+| Employment (3yr) | 88.3% |
+| Occupation demand | SHORTAGE |
+| AI automation exposure | 40% |
+| Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |

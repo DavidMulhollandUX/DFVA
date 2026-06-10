@@ -14,7 +14,7 @@
 | 7 | Research Rigour | 2 | Evidence in Practice + Nursing Research. Evidence-based practice is embedded. Less research-intensive than research MSc programs. |
 | 8 | Human & Relational | 3 | This is nursing's structural core. Indigenous Health, Mental Health Nursing, clinical placements — sustained patient interaction assessed as competency. NMBA standards require demonstrated interpersonal capability. |
 | 9 | Curriculum Currency | 2 | Updated 8 Jan 2026. Digital Transformation of Health, Indigenous Data Governance — current topics. Core remains traditional clinical nursing. |
-| 10 | Outcome Evidence | 2 | NMBA registration provides external outcome verification. Employment outcomes are strong and publicly visible. Program-specific data not granularly published. |
+| 10 | Outcome Evidence | 3 | NMBA registration provides external outcome verification. Employment outcomes are strong and publicly visible. Program-specific data not granularly published. |
 | B | Irreplaceability | 3 | Maximum: clinical nursing combines physical care, clinical judgment, emotional support, and ethical practice. AI cannot replicate any of these at the point of care. |
 
 **TOTAL: 26/36 — MODERATE RISK** (upper boundary)
@@ -24,3 +24,14 @@
 
 ### Verdict
 Nursing is among the most AI-resistant professions assessed. The program's structural defences are regulatory (NMBA accreditation), practical (physical patient care), and relational (empathy, communication, clinical judgment). The score (26/36) reflects strong core protection with room to improve AI literacy for the digital health tools nurses increasingly use. But the program's fundamentals are sound — nursing graduates face AI augmentation of their tools, not substitution of their role.
+
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Health |
+| Full-time employment (4-6mo) | 87.1% (GOS 2024) |
+| Median starting salary | $103,000 |
+| Employment (3yr) | 87.1% |
+| Occupation demand | SHORTAGE |
+| AI automation exposure | 10% |
+| Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |

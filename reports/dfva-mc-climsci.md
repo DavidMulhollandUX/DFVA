@@ -14,7 +14,7 @@
 | 7 | Research Rigour | 2 | 25pt project is smaller than lab-science MSc equivalents. Statistics in Climate Dynamics (not available 2026) would have strengthened this. |
 | 8 | Human & Relational | 2 | Climate Change Politics and Policy, Climate Change Mitigation — policy/stakeholder dimensions. Science Communication available. |
 | 9 | Curriculum Currency | 3 | Climate science is inherently current. Updated 16 Feb 2026. Climate Change Mitigation, Weather and Climate Extremes — directly relevant to 2026. |
-| 10 | Outcome Evidence | 1 | No granular destination data. Climate careers are growing but program-specific outcomes not tracked. |
+| 10 | Outcome Evidence | 2 | No granular destination data. Climate careers are growing but program-specific outcomes not tracked. |
 | B | Irreplaceability | 3 | Rare: climate science + policy translation + quantitative modelling. Growing field with structural demand drivers (regulation, disclosure, adaptation). |
 
 **TOTAL: 26/36 — MODERATE RISK** (upper boundary)
@@ -24,3 +24,14 @@
 
 ### Verdict
 Climate science is one of the most structurally durable disciplines assessed. The field is growing, the physical science is irreducible, and the policy interface creates demand for translation skills that resist automation. The AI/ML gap is real (climate science increasingly uses ML) but non-critical — the program's core value is physical understanding, not tool operation.
+
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Science |
+| Full-time employment (4-6mo) | 79.3% (GOS 2024) |
+| Median starting salary | $100,000 |
+| Employment (3yr) | 79.3% |
+| Occupation demand | RECRUITMENT DIFFICULTY |
+| AI automation exposure | 40% |
+| Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |

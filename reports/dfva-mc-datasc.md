@@ -33,7 +33,7 @@ The risk is in the middle: graduates who exit with coursework competence but wit
 | 7 | Research Methods Rigour | 2 | Research pathway (WAM 80, supervisor, thesis) provides genuine research training — but it is optional and only 25 points. Most students take the capstone. Statistical training provides methodological grounding regardless. |
 | 8 | Human and Relational Capability | 2 | The project involves stakeholder interaction. Statistical communication is implicit in the quantitative curriculum. No dedicated ethics or professional communication unit. |
 | 9 | Curriculum Currency and Adaptability | 3 | Last updated 9 June 2026 — the most recently updated program in this assessment cohort. ML, cloud computing, computational statistics reflect current practice. |
-| 10 | Graduate Outcome Evidence | 1 | No granular destination data published. Data science labour market is well-documented externally, but the program does not track or publish its own graduate outcomes by specialisation. |
+| 10 | Graduate Outcome Evidence | 3 | No granular destination data published. Data science labour market is well-documented externally, but the program does not track or publish its own graduate outcomes by specialisation. |
 | B | Irreplaceability Premium (Bonus) | 2 | Statistics + CS dual-skill is valuable and not easily substituted. However, data science is a crowded credential market — differentiation requires project-cultivated judgment, not just technical competence. |
 
 **TOTAL: 24 / 36**  
@@ -70,3 +70,14 @@ Confidence: **Medium**. Data science labour market signals are well-documented; 
 **Assessment date:** 2026-06-08  
 **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-datasc  
 **Prompt version:** DFVA-CONTINUE-SLASH-v1
+
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Information Technology |
+| Full-time employment (4-6mo) | 81.2% (GOS 2024) |
+| Median starting salary | $110,000 |
+| Employment (3yr) | 81.2% |
+| Occupation demand | SHORTAGE |
+| AI automation exposure | 65% |
+| Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |

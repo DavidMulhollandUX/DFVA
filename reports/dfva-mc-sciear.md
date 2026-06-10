@@ -49,7 +49,7 @@ The program is a pathway to PhD study or to the workforce, and operates within a
 | 7 | Research Methods Rigour | 3/3 | 125 points of original research (62.5% of degree). Students generate primary data and defend methods under scrutiny. Assessment includes literature review, research presentations, oral examination, and thesis of publishable quality. Semester-end hurdle reviews ensure ongoing research quality. This is among the strongest research method rigour scores possible for a coursework masters. |
 | 8 | Human and Relational Capability | 1/3 | SCIE90013 Communication for Research Scientists and SCIE90012 Science Communication are available as professional skills options but not compulsory. Oral presentations exist (10% of research project assessment). No substantial clinical, care, interpersonal accountability, or stakeholder engagement components. The program is primarily individual research with limited collaborative or client-facing requirements. |
 | 9 | Curriculum Currency and Adaptability | 2/3 | Handbook last updated 6 November 2025. Program includes contemporary topics: critical minerals (GEOL90052), climate extremes, data assimilation. However, several subjects listed as "not available in 2025" or "no longer available" — suggesting uneven curation. LAWS90203 AI ethics not available. No AI literacy integrated into core discipline units. Fundamentally sound disciplinary content but incomplete adaptation to AI era. |
-| 10 | Graduate Outcome Evidence | 1/3 | No publicly available destination data at program level. No granular role-title, salary, or time-to-employment data published. Generic Faculty of Science outcomes exist but are not specific to this specialisation. |
+| 10 | Graduate Outcome Evidence | 2 | No publicly available destination data at program level. No granular role-title, salary, or time-to-employment data published. Generic Faculty of Science outcomes exist but are not specific to this specialisation. |
 | B | Irreplaceability Premium (Bonus) | 2/3 | The combination of physical fieldwork capability + advanced quantitative modelling + original research + deep domain expertise creates a genuine dual-skill value proposition. A geology graduate who can both conduct fieldwork and model geological systems computationally occupies a position difficult to replicate by AI alone. Not scored 3/3 because the combination (science + research + fieldwork) is standard for earth science programs nationally — it's durable but not uniquely rare. |
 | | **TOTAL** | **24/36** | **MODERATE RISK (20–27)** |
 
@@ -108,3 +108,14 @@ A resilient MC-SCIEAR graduate in 2027 combines deep earth science expertise wit
 In the Atmospheric Science stream, they design and validate climate models, understand the limitations of AI-driven weather prediction, and communicate forecast uncertainty to decision-makers in government and industry. They don't just run models — they diagnose model failures, design observational campaigns to test hypotheses, and own the scientific conclusions they present.
 
 Both streams produce graduates who are creators of primary knowledge, not processors of existing data. Their 25,000-word thesis demonstrates that they can frame original questions, design methodology, generate data, and defend conclusions. The addition of mandatory AI governance training means they enter the workforce able to deploy AI tools responsibly while maintaining scientific integrity — a combination that makes them supervisors of AI, not competitors with it.
+
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Science |
+| Full-time employment (4-6mo) | 79.3% (GOS 2024) |
+| Median starting salary | $100,000 |
+| Employment (3yr) | 79.3% |
+| Occupation demand | RECRUITMENT DIFFICULTY |
+| AI automation exposure | 40% |
+| Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |

@@ -43,7 +43,7 @@ The Master of Biotechnology (MC-SCIBIT) is a 200-credit-point professional scien
 | 7 | Research Methods Rigour | 2/3 | MAST90072 Data and Decision Making provides applied quantitative methods. Industry Project involves applied research methodology. Optional Biotechnology Research Project available for outstanding students. No mandatory primary research methods unit — professional coursework framing limits rigour to applied contexts. |
 | 8 | Human and Relational Capability | 3/3 | SCIE90034 Communicating Science at Work (mandatory), MGMT90171 Leadership in Science (mandatory), SKIL90004 Project Management in Science (mandatory). Industry Project requires working with external industry partners in a real professional context. Teamwork and communication explicitly in learning outcomes. Genuinely strong. |
 | 9 | Curriculum Currency and Adaptability | 2/3 | Handbook updated 4 May 2026. Computational and bioinformatics electives available. SCIE90005 Ethics and Responsibility in Science not available 2026 — a notable gap. No AI literacy unit despite biotechnology sector's rapid AI adoption. Shows awareness of computational direction but incomplete AI governance integration. |
-| 10 | Graduate Outcome Evidence | 1/3 | No publicly available destination data at program level. NPSMA accreditation implies employability standards but no granular role-title, salary, or time-to-employment data published. |
+| 10 | Graduate Outcome Evidence | 2 | No publicly available destination data at program level. NPSMA accreditation implies employability standards but no granular role-title, salary, or time-to-employment data published. |
 | B | Irreplaceability Premium (Bonus) | 3/3 | The combination is genuinely rare: biotechnology technical depth + mandatory regulatory expertise (LAWS90003) + commercialisation and IP knowledge (MKTG90022) + mandatory industry project accountability + science communication and leadership. AI cannot substitute for TGA/FDA regulatory judgment and legal sign-off. |
 | **TOTAL** | | **24/36 — MODERATE RISK** | |
 
@@ -106,3 +106,14 @@ They are the regulatory affairs professional, the technology transfer officer, a
 ---
 
 **Assessment Date:** 2026-05-13 | **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-scibit | **Prompt Version:** DFVA-COPILOT-PROMPT-v1
+
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Science |
+| Full-time employment (4-6mo) | 79.3% (GOS 2024) |
+| Median starting salary | $100,000 |
+| Employment (3yr) | 79.3% |
+| Occupation demand | RECRUITMENT DIFFICULTY |
+| AI automation exposure | 40% |
+| Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |

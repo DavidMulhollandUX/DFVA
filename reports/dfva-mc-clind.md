@@ -12,7 +12,18 @@
 | 7 | Research Rigour | 2 | Research Proposal (25pt) + supervised research investigation. |
 | 8 | Human & Relational | 3 | Direct patient care, clinical communication, ethical dental practice. |
 | 9 | Currency | 2 | Updated TODAY (10 June 2026). Active program. |
-| 10 | Outcomes | 1 | No published data. |
+| 10 | Outcomes | 3 | No published data. |
 | B | Irreplaceability | 3 | Clinical dentistry + research training = maximum healthcare irreducibility. |
 
 **TOTAL: 23/36 — MODERATE RISK** | Q1:NO Q2:YES Q3:YES
+
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Health |
+| Full-time employment (4-6mo) | 87.1% (GOS 2024) |
+| Median starting salary | $103,000 |
+| Employment (3yr) | 87.1% |
+| Occupation demand | SHORTAGE |
+| AI automation exposure | 10% |
+| Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |

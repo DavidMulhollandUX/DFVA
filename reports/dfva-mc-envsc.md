@@ -14,7 +14,7 @@
 | 7 | Research Rigour | 2 | Industry Project (default) or Research Project (outstanding students). Environmental Risk Assessment provides methodological grounding. Less research-heavy than lab-science MSc programs. |
 | 8 | Human & Relational | 2 | Stakeholder engagement implicit in environmental practice. Professional skills subjects available. No dedicated ethics/communication requirement. |
 | 9 | Curriculum Currency | 2 | Updated 26 March 2026. Climate impacts, biosecurity, spatial tools — current topics. No AI integration. |
-| 10 | Outcome Evidence | 1 | No granular destination data. |
+| 10 | Outcome Evidence | 2 | No granular destination data. |
 | B | Irreplaceability | 2 | Environmental science + policy integration is valuable. Field skills resist AI. Less deeply specialised than lab-science MSc programs. |
 
 **TOTAL: 23/36 — MODERATE RISK**
@@ -24,3 +24,14 @@
 
 ### Verdict
 The industry project orientation is a strength — graduates exit with stakeholder-facing experience. The systems-thinking integration across the curriculum is genuine. The program would benefit from explicit AI/data-science integration given the field's increasing reliance on remote sensing, environmental modelling, and spatial analysis.
+
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Science |
+| Full-time employment (4-6mo) | 79.3% (GOS 2024) |
+| Median starting salary | $100,000 |
+| Employment (3yr) | 79.3% |
+| Occupation demand | RECRUITMENT DIFFICULTY |
+| AI automation exposure | 40% |
+| Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |

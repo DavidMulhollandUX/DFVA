@@ -63,7 +63,7 @@ Key structural features:
 | 7 | Research Methods Rigour | 3/3 | Scientific method is core curriculum. All majors include experimental design, data collection, and interpretation. Third-year research projects and laboratory units involve primary data generation. Honours stream adds full research methodology rigour. |
 | 8 | Human and Relational Capability | 1/3 | Science degrees historically under-invest in interpersonal, ethical, and stakeholder capability. Breadth subjects provide some exposure but this is not assessed as a core competency. Ethics appears in some majors (genetics, ecology) but lightly. |
 | 9 | Curriculum Currency and Adaptability | 2/3 | 2026 handbook reflects ongoing review; some majors have integrated data science and computational tools. However, no degree-level AI core unit is visible — a significant currency gap given the pace of AI tooling in scientific research. |
-| 10 | Graduate Outcome Evidence | 2/3 | UniMelb publishes graduate outcome data at faculty level; Science faculty data shows destination distribution but lacks role-title and salary granularity at major level. Partial transparency. |
+| 10 | Graduate Outcome Evidence | 2 | UniMelb publishes graduate outcome data at faculty level; Science faculty data shows destination distribution but lacks role-title and salary granularity at major level. Partial transparency. |
 | B | Irreplaceability Premium (Bonus) | 2/3 | The B-Sci carries genuine dual-skill value for Cluster B graduates (quantitative + domain science). Physical and life science graduates have domain depth that creates non-trivial automation resistance in specialist roles. Generalist graduates without postgrad study are weakly differentiated. |
 | **TOTAL** | | **23/36** | |
 
@@ -157,3 +157,14 @@ They understand AI tools not as productivity shortcuts but as systems with failu
 They have a domain. Not "science" in the broad sense — they know the regulatory environment of clinical trials, or the instrument limitations of mass spectrometry, or the assumptions embedded in climate models. That domain knowledge is what makes their judgment non-replicable by a general-purpose agent.
 
 They can explain their work to a non-scientist. Not as a simplification, but as a genuine translation — because they know that in 2027, the value of scientific expertise is increasingly realised through collaboration, governance, and communication, not through technical execution alone.
+
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Science |
+| Full-time employment (4-6mo) | 79.3% (GOS 2024) |
+| Median starting salary | $100,000 |
+| Employment (3yr) | 79.3% |
+| Occupation demand | RECRUITMENT DIFFICULTY |
+| AI automation exposure | 40% |
+| Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |

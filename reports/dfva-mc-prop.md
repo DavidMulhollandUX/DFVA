@@ -1,1 +1,88 @@
-{"score":23,"riskBand":"MODERATE RISK","dimensions":[{"label":"Automation Exposure","score":2,"rationale":"Property valuation and market analysis are increasingly AI-augmented but require physical inspection, client negotiation, and regulatory judgment."},{"label":"Systems Thinking","score":2,"rationale":"Full property cycle: development, investment, finance, valuation, management. Systems integration across project lifecycle."},{"label":"Technical Depth","score":2,"rationale":"300pt program. Financial modeling, feasibility analysis, valuation methods. API/RICS accreditation requires technical competence."},{"label":"Decision-Making","score":2,"rationale":"Risk allocation, viability assessment, project evaluation — professional judgment required. Capstone research project available."},{"label":"AI Literacy","score":1,"rationale":"No AI-specific content. Data management and software skills mentioned but AI/proptech not explicit."},{"label":"Domain Depth","score":3,"rationale":"300pt professional degree with dual API/RICS accreditation. 225pt core. Clear property specialist pathway."},{"label":"Research Rigour","score":2,"rationale":"Research project/capstone available. PhD pathway mentioned. Research principles in property practice taught."},{"label":"Human & Relational","score":2,"rationale":"Negotiation, communication, client management skills explicit. Professional practice component. Not clinical-level."},{"label":"Curriculum Currency","score":2,"rationale":"Updated June 2026. Property industry current. Limited AI/proptech/digital innovation visibility."},{"label":"Outcome Evidence","score":2,"rationale":"API/RICS accreditation provides external validation. Property industry employment trackable."}],"thresholds":{"q1":"NO","q2":"YES","q3":"YES"},"programName":"Master of Property","courseCode":"MC-PROP"}
+{
+  "score": 23,
+  "riskBand": "MODERATE RISK",
+  "dimensions": [
+    {
+      "label": "Automation Exposure",
+      "score": 2,
+      "rationale": "Property valuation and market analysis are increasingly AI-augmented but require physical inspection, client negotiation, and regulatory judgment."
+    },
+    {
+      "label": "Systems Thinking",
+      "score": 2,
+      "rationale": "Full property cycle: development, investment, finance, valuation, management. Systems integration across project lifecycle."
+    },
+    {
+      "label": "Technical Depth",
+      "score": 2,
+      "rationale": "300pt program. Financial modeling, feasibility analysis, valuation methods. API/RICS accreditation requires technical competence."
+    },
+    {
+      "label": "Decision-Making",
+      "score": 2,
+      "rationale": "Risk allocation, viability assessment, project evaluation — professional judgment required. Capstone research project available."
+    },
+    {
+      "label": "AI Literacy",
+      "score": 1,
+      "rationale": "No AI-specific content. Data management and software skills mentioned but AI/proptech not explicit."
+    },
+    {
+      "label": "Domain Depth",
+      "score": 3,
+      "rationale": "300pt professional degree with dual API/RICS accreditation. 225pt core. Clear property specialist pathway."
+    },
+    {
+      "label": "Research Rigour",
+      "score": 2,
+      "rationale": "Research project/capstone available. PhD pathway mentioned. Research principles in property practice taught."
+    },
+    {
+      "label": "Human & Relational",
+      "score": 2,
+      "rationale": "Negotiation, communication, client management skills explicit. Professional practice component. Not clinical-level."
+    },
+    {
+      "label": "Curriculum Currency",
+      "score": 2,
+      "rationale": "Updated June 2026. Property industry current. Limited AI/proptech/digital innovation visibility."
+    },
+    {
+      "label": "Outcome Evidence",
+      "score": 2,
+      "rationale": "API/RICS accreditation provides external validation. Property industry employment trackable."
+    }
+  ],
+  "thresholds": {
+    "q1": "NO",
+    "q2": "YES",
+    "q3": "YES"
+  },
+  "programName": "Master of Property",
+  "courseCode": "MC-PROP",
+  "market": {
+    "field": "Architecture & Building",
+    "employmentRate": 0.748,
+    "medianSalary": 84500,
+    "employmentRate3yr": 0.748,
+    "medianSalary3yr": 84500,
+    "occupationDemand": "RECRUITMENT_DIFFICULTY",
+    "aiExposure": 0.3,
+    "sources": [
+      "QILT GOS 2024 National Report Tables",
+      "JSA Skills Priority List 2025"
+    ],
+    "year": 2024
+  }
+}
+
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Architecture & Building |
+| Full-time employment (4-6mo) | 74.8% (GOS 2024) |
+| Median starting salary | $84,500 |
+| Employment (3yr) | 74.8% |
+| Occupation demand | RECRUITMENT DIFFICULTY |
+| AI automation exposure | 30% |
+| Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |

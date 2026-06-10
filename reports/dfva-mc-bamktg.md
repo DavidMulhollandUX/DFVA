@@ -14,10 +14,21 @@
 | 7 | Research Rigour | 1 | Consumer Behaviour and Marketing Research — applied, not research-methods training. No thesis. |
 | 8 | Human & Relational | 2 | Leadership and Change, Negotiations, consulting practicum, diverse teams. Ethical leadership embedded in outcomes. |
 | 9 | Currency | 2 | Digital Product Management added. Updated Nov 2025. Several electives "not available in 2026" signals transition. |
-| 10 | Outcomes | 1 | No published destination data. |
+| 10 | Outcomes | 3 | No published destination data. |
 | B | Irreplaceability | 2 | Dual degree creates versatile managers. General management + marketing = adaptable but not irreplaceable. |
 
 **TOTAL: 17/36 — HIGH RISK**
 
 ### VERDICT
 The dual MBA/Marketing creates versatile generalist managers but lacks the technical depth or domain specialization that resists AI substitution. Early-career MBA work (analysis, reporting, strategy decks) is heavily automatable. The consulting capstones and leadership training add value but don't offset the AI exposure of core management tasks. Q1=YES (AI can produce 80% of first-two-year output). Q2=YES (capstones build decision ownership). Q3=UNCERTAIN (management demand is durable but AI-augmented management reduces headcount).
+
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Business & Management |
+| Full-time employment (4-6mo) | 92.3% (GOS 2024) |
+| Median starting salary | $124,000 |
+| Employment (3yr) | 92.3% |
+| Occupation demand | MET |
+| AI automation exposure | 55% |
+| Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |

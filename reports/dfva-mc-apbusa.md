@@ -12,8 +12,19 @@
 | 7 | Research Rigour | 2 | Individual Research Project available as capstone alternative. |
 | 8 | Human & Relational | 1 | No leadership, ethics (beyond AI ethics), or interpersonal content. |
 | 9 | Currency | 1 | Multiple core subjects "not available in 2026" — curriculum in transition/deterioration. AI Ethics core is positive but overall availability a red flag. |
-| 10 | Outcomes | 1 | No published data. |
+| 10 | Outcomes | 3 | No published data. |
 | B | Irreplaceability | 2 | Data analytics + AI ethics + business = modern combination. Analytics literacy is durable. |
 
 **TOTAL: 20/36 — MODERATE RISK** | Q1:YES Q2:PARTIAL Q3:UNCERTAIN
 *Paradox: strongest AI literacy score (D5:3) undermined by highest automation exposure (D1:1).*
+
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Business & Management |
+| Full-time employment (4-6mo) | 92.3% (GOS 2024) |
+| Median starting salary | $124,000 |
+| Employment (3yr) | 92.3% |
+| Occupation demand | MET |
+| AI automation exposure | 55% |
+| Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |

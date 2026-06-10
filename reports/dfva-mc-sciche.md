@@ -14,7 +14,7 @@
 | 7 | Research Rigour | 3 | 125pt research project. Research Methods for Life Sciences available. Statistics for Research Workers. Strong methodological training. |
 | 8 | Human & Relational | 2 | Chemical Regulations and Safety, Leadership in Science, Science Communication, Internship available. Lab safety builds professional responsibility. |
 | 9 | Curriculum Currency | 2 | Updated 28 May 2026. Many units not available in 2026 — suggests curriculum transition or staffing constraints. Theoretical Chemistry, Advanced Materials are current. |
-| 10 | Outcome Evidence | 1 | No granular destination data. |
+| 10 | Outcome Evidence | 2 | No granular destination data. |
 | B | Irreplaceability | 3 | Rare: laboratory chemistry + instrumentation expertise + research training. Physical lab skills resist AI substitution. |
 
 **TOTAL: 25/36 — MODERATE RISK**
@@ -26,3 +26,14 @@
 
 ### Verdict
 Chemistry's physical lab requirement is a structural moat against AI substitution. The 125pt research project and specialist instrumentation training create graduates whose core capability — designing and executing chemical experiments — AI cannot replicate. The multiple "not available in 2026" units are a concern for curriculum stability. The AI literacy gap is real but less acute than in non-lab fields. Adding computational chemistry with AI methods would modernise without compromising the core.
+
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Science |
+| Full-time employment (4-6mo) | 79.3% (GOS 2024) |
+| Median starting salary | $100,000 |
+| Employment (3yr) | 79.3% |
+| Occupation demand | RECRUITMENT DIFFICULTY |
+| AI automation exposure | 40% |
+| Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |

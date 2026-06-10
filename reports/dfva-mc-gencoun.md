@@ -14,7 +14,7 @@
 | 7 | Research Rigour | 2 | Healthcare Research Principles + Research Project in Human Genomics 1 & 2 (37.5pt total). Research-engaged but clinically focused. |
 | 8 | Human & Relational | 3 | This is the program's defining dimension. Foundational + Advanced Counselling Practice, two Genetic Counselling Practice subjects, 37.5pt clinical placement. HGSA certification requires demonstrated clinical competence. |
 | 9 | Curriculum Currency | 2 | Updated 19 Nov 2025. Clinical Genomics, Societal Implications of Genomics — current. No AI/genomics integration. |
-| 10 | Outcome Evidence | 2 | HGSA certification pathway provides external outcome tracking. Program-specific destination data not published. |
+| 10 | Outcome Evidence | 3 | HGSA certification pathway provides external outcome tracking. Program-specific destination data not published. |
 | B | Irreplaceability | 3 | Rare: clinical genetics + counselling + empathy + ethics. The combination resists AI substitution at every level. |
 
 **TOTAL: 26/36 — MODERATE RISK** (upper boundary)
@@ -24,3 +24,14 @@
 
 ### Verdict
 The program's structural defence is its clinical core. Genetic counselling sits at the human edge of genomic medicine — where scientific knowledge meets family communication, ethical judgment, and emotional support. AI can assist with variant interpretation but cannot conduct a genetic counselling session. The ≥70% progression hurdle, HGSA accreditation pathway, and 37.5pt clinical placement create a program whose graduates are among the least AI-exposed in this entire assessment cohort. The AI literacy gap is real for the genomics tools the profession increasingly uses, but it doesn't threaten the core value proposition.
+
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Health |
+| Full-time employment (4-6mo) | 87.1% (GOS 2024) |
+| Median starting salary | $103,000 |
+| Employment (3yr) | 87.1% |
+| Occupation demand | SHORTAGE |
+| AI automation exposure | 10% |
+| Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |

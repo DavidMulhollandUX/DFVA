@@ -14,7 +14,7 @@
 | 7 | Research Rigour | 2 | 25-50pt research project + Research Methods for Life Sciences. Smaller project than lab-science MSc equivalents. |
 | 8 | Human & Relational | 2 | Food Safety and Quality involves regulatory and consumer dimensions. Professional skills via electives. No dedicated ethics unit. |
 | 9 | Curriculum Currency | 2 | Updated 29 Jan 2026. Sustainable Food Production, Plant Food Products — current trends. Sensory Evaluation not available 2026. |
-| 10 | Outcome Evidence | 1 | No granular destination data. Food industry employment is stable but program-specific outcomes not tracked. |
+| 10 | Outcome Evidence | 3 | No granular destination data. Food industry employment is stable but program-specific outcomes not tracked. |
 | B | Irreplaceability | 2 | Applied food science across the supply chain. Valuable but less rare than research-intensive MSc specialisations. |
 
 **TOTAL: 21/36 — MODERATE RISK**
@@ -24,3 +24,14 @@
 
 ### Verdict
 A solid industry-oriented program with comprehensive food supply chain coverage. The flexible research project (25-50pt) means graduate differentiation depends on project depth chosen. The program would benefit from explicit food-tech/AI integration given rapid innovation in alternative proteins, precision fermentation, and smart food processing.
+
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Health |
+| Full-time employment (4-6mo) | 87.1% (GOS 2024) |
+| Median starting salary | $103,000 |
+| Employment (3yr) | 87.1% |
+| Occupation demand | SHORTAGE |
+| AI automation exposure | 10% |
+| Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |

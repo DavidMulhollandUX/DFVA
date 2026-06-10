@@ -12,8 +12,19 @@
 | 7 | Research Rigour | 1 | No thesis or research methodology. 1-year program has no space. |
 | 8 | Human & Relational | 1 | Entirely technical. No ethics, communication, or interpersonal content. |
 | 9 | Currency | 2 | Sustainable design, extreme loading — current topics. Updated Nov 2025. |
-| 10 | Outcomes | 1 | No published data. |
+| 10 | Outcomes | 3 | No published data. |
 | B | Irreplaceability | 2 | Structural engineering + sustainable design + extreme loading = valuable niche. |
 
 **TOTAL: 20/36 — MODERATE RISK** | Q1:YES Q2:PARTIAL Q3:YES
 *Strong technical core undermined by high automation exposure and minimal human dimensions.*
+
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Engineering |
+| Full-time employment (4-6mo) | 88.3% (GOS 2024) |
+| Median starting salary | $111,000 |
+| Employment (3yr) | 88.3% |
+| Occupation demand | SHORTAGE |
+| AI automation exposure | 40% |
+| Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |

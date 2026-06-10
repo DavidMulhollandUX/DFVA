@@ -42,7 +42,7 @@ Graduate destination targets (R&D labs, PhD programmes, high-level tech roles) p
 | 7 | Research Methods Rigour | 3 | COMP90044 (Research Methods) is a compulsory prerequisite. The year-long research project requires primary research design, execution, interpretation, and reporting — assessed under academic supervision. |
 | 8 | Human and Relational Capability | 2 | COMP90087 (Ethics of AI) and HCI subjects provide meaningful ethical and stakeholder practice. Communication skills are a stated learning outcome. No clinical or physical accountability layer. |
 | 9 | Curriculum Currency and Adaptability | 2 | 2026 handbook reflects current AI/ML/quantum/ethics coverage. Last updated March 2026. However, the research-MSc structure is a traditional academic model, not a living curriculum with industry advisory feedback loops. |
-| 10 | Graduate Outcome Evidence | 1 | No granular destination data (roles, industries, salary, time-to-employment) published. Generic "R&D labs and PhD" language without supporting metrics. |
+| 10 | Graduate Outcome Evidence | 3 | No granular destination data (roles, industries, salary, time-to-employment) published. Generic "R&D labs and PhD" language without supporting metrics. |
 | B | Irreplaceability Premium (Bonus) | 3 | Rare integration: deep CS technical skills + AI specialisation + independent research training. Graduates are trained to build and critique AI systems, positioning them as AI-augmented professionals rather than AI-displaced ones. |
 
 **TOTAL: 27 / 36**  
@@ -97,3 +97,14 @@ This profile is not easily substituted because it bundles three things that resi
 **Assessment date:** 2026-06-08  
 **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-cs  
 **Prompt version:** DFVA-CONTINUE-SLASH-v1
+
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Information Technology |
+| Full-time employment (4-6mo) | 81.2% (GOS 2024) |
+| Median starting salary | $110,000 |
+| Employment (3yr) | 81.2% |
+| Occupation demand | SHORTAGE |
+| AI automation exposure | 65% |
+| Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |

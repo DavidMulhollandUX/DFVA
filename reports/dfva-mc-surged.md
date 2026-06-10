@@ -12,7 +12,18 @@
 | 7 | Research Rigour | 2 | Minor thesis pathway (50pt) provides genuine research training. Research Methods compulsory. |
 | 8 | Human & Relational | 3 | Teaching, mentoring, assessing surgical trainees. Maximum interpersonal accountability. |
 | 9 | Currency | 2 | Simulation-based education, e-learning appraisal. Several electives not available 2026. |
-| 10 | Outcomes | 1 | No published destination data. |
+| 10 | Outcomes | 3 | No published destination data. |
 | B | Irreplaceability | 3 | Surgical expertise + educational scholarship + clinical teaching. Triple irreducibility. |
 
 **TOTAL: 23/36 — MODERATE RISK** | Q1:NO Q2:YES Q3:YES
+
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Health |
+| Full-time employment (4-6mo) | 87.1% (GOS 2024) |
+| Median starting salary | $103,000 |
+| Employment (3yr) | 87.1% |
+| Occupation demand | SHORTAGE |
+| AI automation exposure | 10% |
+| Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |

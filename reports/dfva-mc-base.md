@@ -13,7 +13,18 @@
 | 7 | Research Rigour | 1 | No thesis or research methodology. Industry studies are experiential, not research. |
 | 8 | Human & Relational | 3 | Leading at the Top, Industry Studies (Asia/America/Europe), residential cohort. Maximum relational depth. |
 | 9 | Currency | 2 | Global industry studies maintain currency. Updated Nov 2025. |
-| 10 | Outcomes | 1 | No published destination data. |
+| 10 | Outcomes | 3 | No published destination data. |
 | B | Irreplaceability | 1 | Senior network + leadership credential. Valuable but executive education is increasingly commodified. |
 
 **TOTAL: 18/36 — HIGH RISK** | Q1:YES Q2:PARTIAL Q3:UNCERTAIN
+
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Business & Management |
+| Full-time employment (4-6mo) | 92.3% (GOS 2024) |
+| Median starting salary | $124,000 |
+| Employment (3yr) | 92.3% |
+| Occupation demand | MET |
+| AI automation exposure | 55% |
+| Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |

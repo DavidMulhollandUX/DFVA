@@ -55,7 +55,7 @@ Key named units include:
 | 7 | Research Methods Rigour | 2 | *Research Methods in IS* exists on research track; coursework-only track has weaker exposure. Score reflects research track access |
 | 8 | Human and Relational Capability | 2 | Stakeholder management and change management appear in project management units; no clinical or physical accountability layer |
 | 9 | Curriculum Currency and Adaptability | 2 | 2026 handbook reflects recent review; no explicit AI core units visible — a currency gap for a 2026 program |
-| 10 | Graduate Outcome Evidence | 1 | UniMelb publishes aggregate graduate outcome data; granular role/salary/time-to-employment data for MC-IS not prominently available |
+| 10 | Graduate Outcome Evidence | 2 | UniMelb publishes aggregate graduate outcome data; granular role/salary/time-to-employment data for MC-IS not prominently available |
 | B | Irreplaceability Premium (Bonus) | 1 | Some dual-skill value (business + technology bridge), but this profile is common and not deeply differentiated |
 | **TOTAL** | | **18/36** | |
 
@@ -127,3 +127,14 @@ Technically, they are fluent enough in data pipelines and API integration to bri
 Their domain is not "IT" in the generic sense — it is a regulated or high-stakes vertical: health informatics, financial systems, government services, or infrastructure. That domain specificity means their judgment cannot be replicated by a general-purpose agent.
 
 This graduate does not *use* AI tools. They **govern, supervise, and redesign** them. That is the role that will exist in 2029.
+
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Other |
+| Full-time employment (4-6mo) | 75.2% (GOS 2024) |
+| Median starting salary | $88,500 |
+| Employment (3yr) | 75.2% |
+| Occupation demand | MET |
+| AI automation exposure | 45% |
+| Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |
