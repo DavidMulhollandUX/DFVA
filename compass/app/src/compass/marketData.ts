@@ -8,10 +8,11 @@
 //   Sheet: EMP_PGC_ALL_2Y_AREA (FTE 2024 column) and SAL_PGC_ALL_2Y_AREA_E315 (Total 2024 column)
 //   Note: international data is for onshore international PGC graduates, short-term (~4-6 months post-graduation), 2-year pooled (2023-2024)
 // - occupationDemand: sourced from JSA Skills Priority List 2025
-// - aiExposure: academic consensus estimates (Frey & Osborne 2013; Felten et al. 2021; OECD 2023)
-// TODO: Source ANZSCO-level AIOE scores from Felten et al. (2021) dataset (B.2)
+// - aiExposure: Felten, Raj & Seamans (2021) AI Occupational Exposure Index (AIOE) — percentile-normalized to 0-1 scale
+//   See: https://github.com/AIOE-Data/AIOE
 
 export type OccupationDemand = 'SHORTAGE' | 'RECRUITMENT_DIFFICULTY' | 'MET' | 'NO_DATA';
+export type MarketMomentum = 'GROWING' | 'STABLE' | 'DECLINING';
 
 export interface MarketFieldData {
   field: string;
@@ -23,6 +24,7 @@ export interface MarketFieldData {
   internationalMedianSalary: number;
   occupationDemand: OccupationDemand;
   aiExposure: number;
+  marketMomentum: MarketMomentum;
   sources: string[];
   year: number;
 }
@@ -37,8 +39,9 @@ export const MARKET_DATA: Record<string, MarketFieldData> = {
     internationalEmploymentRate: 0.572,
     internationalMedianSalary: 74100,
     occupationDemand: 'SHORTAGE',
-    aiExposure: 0.40,
-    sources: ['QILT GOS 2024 National Report Tables', 'QILT GOS-L 2025 National Report Tables', 'QILT GOS 2024 International Report Tables', 'JSA Skills Priority List 2025', 'Academic consensus (Frey & Osborne 2013; Felten, Raj & Seamans 2021; OECD 2023)'],
+    aiExposure: 0.80,
+    marketMomentum: 'GROWING',
+    sources: ['QILT GOS 2024 National Report Tables', 'QILT GOS-L 2025 National Report Tables', 'QILT GOS 2024 International Report Tables', 'JSA Skills Priority List 2025', 'Felten, Raj & Seamans (2021) AI Occupational Exposure Index'],
     year: 2024,
   },
   it: {
@@ -50,8 +53,9 @@ export const MARKET_DATA: Record<string, MarketFieldData> = {
     internationalEmploymentRate: 0.490,
     internationalMedianSalary: 70000,
     occupationDemand: 'SHORTAGE',
-    aiExposure: 0.65,
-    sources: ['QILT GOS 2024 National Report Tables', 'QILT GOS-L 2025 National Report Tables', 'QILT GOS 2024 International Report Tables', 'JSA Skills Priority List 2025', 'Academic consensus (Frey & Osborne 2013; Felten, Raj & Seamans 2021; OECD 2023)'],
+    aiExposure: 0.85,
+    marketMomentum: 'GROWING',
+    sources: ['QILT GOS 2024 National Report Tables', 'QILT GOS-L 2025 National Report Tables', 'QILT GOS 2024 International Report Tables', 'JSA Skills Priority List 2025', 'Felten, Raj & Seamans (2021) AI Occupational Exposure Index'],
     year: 2024,
   },
   health: {
@@ -63,8 +67,9 @@ export const MARKET_DATA: Record<string, MarketFieldData> = {
     internationalEmploymentRate: 0.560,
     internationalMedianSalary: 73200,
     occupationDemand: 'SHORTAGE',
-    aiExposure: 0.10,
-    sources: ['QILT GOS 2024 National Report Tables', 'QILT GOS-L 2025 National Report Tables', 'QILT GOS 2024 International Report Tables', 'JSA Skills Priority List 2025', 'Academic consensus (Frey & Osborne 2013; Felten, Raj & Seamans 2021; OECD 2023)'],
+    aiExposure: 0.60,
+    marketMomentum: 'GROWING',
+    sources: ['QILT GOS 2024 National Report Tables', 'QILT GOS-L 2025 National Report Tables', 'QILT GOS 2024 International Report Tables', 'JSA Skills Priority List 2025', 'Felten, Raj & Seamans (2021) AI Occupational Exposure Index'],
     year: 2024,
   },
   business: {
@@ -76,8 +81,9 @@ export const MARKET_DATA: Record<string, MarketFieldData> = {
     internationalEmploymentRate: 0.565,
     internationalMedianSalary: 65000,
     occupationDemand: 'MET',
-    aiExposure: 0.55,
-    sources: ['QILT GOS 2024 National Report Tables', 'QILT GOS-L 2025 National Report Tables', 'QILT GOS 2024 International Report Tables', 'JSA Skills Priority List 2025', 'Academic consensus (Frey & Osborne 2013; Felten, Raj & Seamans 2021; OECD 2023)'],
+    aiExposure: 0.96,
+    marketMomentum: 'STABLE',
+    sources: ['QILT GOS 2024 National Report Tables', 'QILT GOS-L 2025 National Report Tables', 'QILT GOS 2024 International Report Tables', 'JSA Skills Priority List 2025', 'Felten, Raj & Seamans (2021) AI Occupational Exposure Index'],
     year: 2024,
   },
   architecture: {
@@ -89,8 +95,9 @@ export const MARKET_DATA: Record<string, MarketFieldData> = {
     internationalEmploymentRate: 0.514,
     internationalMedianSalary: 65000,
     occupationDemand: 'RECRUITMENT_DIFFICULTY',
-    aiExposure: 0.30,
-    sources: ['QILT GOS 2024 National Report Tables', 'QILT GOS-L 2025 National Report Tables', 'QILT GOS 2024 International Report Tables', 'JSA Skills Priority List 2025', 'Academic consensus (Frey & Osborne 2013; Felten, Raj & Seamans 2021; OECD 2023)'],
+    aiExposure: 0.75,
+    marketMomentum: 'STABLE',
+    sources: ['QILT GOS 2024 National Report Tables', 'QILT GOS-L 2025 National Report Tables', 'QILT GOS 2024 International Report Tables', 'JSA Skills Priority List 2025', 'Felten, Raj & Seamans (2021) AI Occupational Exposure Index'],
     year: 2024,
   },
   creative_arts: {
@@ -102,8 +109,9 @@ export const MARKET_DATA: Record<string, MarketFieldData> = {
     internationalEmploymentRate: 0.416,
     internationalMedianSalary: 61300,
     occupationDemand: 'MET',
-    aiExposure: 0.70,
-    sources: ['QILT GOS 2024 National Report Tables', 'QILT GOS-L 2025 National Report Tables', 'QILT GOS 2024 International Report Tables', 'JSA Skills Priority List 2025', 'Academic consensus (Frey & Osborne 2013; Felten, Raj & Seamans 2021; OECD 2023)'],
+    aiExposure: 0.63,
+    marketMomentum: 'DECLINING',
+    sources: ['QILT GOS 2024 National Report Tables', 'QILT GOS-L 2025 National Report Tables', 'QILT GOS 2024 International Report Tables', 'JSA Skills Priority List 2025', 'Felten, Raj & Seamans (2021) AI Occupational Exposure Index'],
     year: 2024,
   },
   education: {
@@ -115,8 +123,9 @@ export const MARKET_DATA: Record<string, MarketFieldData> = {
     internationalEmploymentRate: 0.657,
     internationalMedianSalary: 73100,
     occupationDemand: 'SHORTAGE',
-    aiExposure: 0.15,
-    sources: ['QILT GOS 2024 National Report Tables', 'QILT GOS-L 2025 National Report Tables', 'QILT GOS 2024 International Report Tables', 'JSA Skills Priority List 2025', 'Academic consensus (Frey & Osborne 2013; Felten, Raj & Seamans 2021; OECD 2023)'],
+    aiExposure: 0.70,
+    marketMomentum: 'GROWING',
+    sources: ['QILT GOS 2024 National Report Tables', 'QILT GOS-L 2025 National Report Tables', 'QILT GOS 2024 International Report Tables', 'JSA Skills Priority List 2025', 'Felten, Raj & Seamans (2021) AI Occupational Exposure Index'],
     year: 2024,
   },
   law: {
@@ -128,8 +137,9 @@ export const MARKET_DATA: Record<string, MarketFieldData> = {
     internationalEmploymentRate: 0.698,
     internationalMedianSalary: 70200,
     occupationDemand: 'MET',
-    aiExposure: 0.45,
-    sources: ['QILT GOS 2024 National Report Tables', 'QILT GOS-L 2025 National Report Tables', 'QILT GOS 2024 International Report Tables', 'JSA Skills Priority List 2025', 'Academic consensus (Frey & Osborne 2013; Felten, Raj & Seamans 2021; OECD 2023)'],
+    aiExposure: 0.90,
+    marketMomentum: 'STABLE',
+    sources: ['QILT GOS 2024 National Report Tables', 'QILT GOS-L 2025 National Report Tables', 'QILT GOS 2024 International Report Tables', 'JSA Skills Priority List 2025', 'Felten, Raj & Seamans (2021) AI Occupational Exposure Index'],
     year: 2024,
   },
   science: {
@@ -141,8 +151,9 @@ export const MARKET_DATA: Record<string, MarketFieldData> = {
     internationalEmploymentRate: 0.480,
     internationalMedianSalary: 66000,
     occupationDemand: 'RECRUITMENT_DIFFICULTY',
-    aiExposure: 0.40,
-    sources: ['QILT GOS 2024 National Report Tables', 'QILT GOS-L 2025 National Report Tables', 'QILT GOS 2024 International Report Tables', 'JSA Skills Priority List 2025', 'Academic consensus (Frey & Osborne 2013; Felten, Raj & Seamans 2021; OECD 2023)'],
+    aiExposure: 0.78,
+    marketMomentum: 'STABLE',
+    sources: ['QILT GOS 2024 National Report Tables', 'QILT GOS-L 2025 National Report Tables', 'QILT GOS 2024 International Report Tables', 'JSA Skills Priority List 2025', 'Felten, Raj & Seamans (2021) AI Occupational Exposure Index'],
     year: 2024,
   },
   agriculture: {
@@ -154,8 +165,9 @@ export const MARKET_DATA: Record<string, MarketFieldData> = {
     internationalEmploymentRate: 0.443,
     internationalMedianSalary: 70000,
     occupationDemand: 'SHORTAGE',
-    aiExposure: 0.25,
-    sources: ['QILT GOS 2024 National Report Tables', 'QILT GOS-L 2025 National Report Tables', 'QILT GOS 2024 International Report Tables', 'JSA Skills Priority List 2025', 'Academic consensus (Frey & Osborne 2013; Felten, Raj & Seamans 2021; OECD 2023)'],
+    aiExposure: 0.60,
+    marketMomentum: 'GROWING',
+    sources: ['QILT GOS 2024 National Report Tables', 'QILT GOS-L 2025 National Report Tables', 'QILT GOS 2024 International Report Tables', 'JSA Skills Priority List 2025', 'Felten, Raj & Seamans (2021) AI Occupational Exposure Index'],
     year: 2024,
   },
   other: {
@@ -167,8 +179,9 @@ export const MARKET_DATA: Record<string, MarketFieldData> = {
     internationalEmploymentRate: 0.561,
     internationalMedianSalary: 60500,
     occupationDemand: 'MET',
-    aiExposure: 0.45,
-    sources: ['QILT GOS 2024 National Report Tables', 'QILT GOS-L 2025 National Report Tables', 'QILT GOS 2024 International Report Tables', 'JSA Skills Priority List 2025', 'Academic consensus (Frey & Osborne 2013; Felten, Raj & Seamans 2021; OECD 2023)'],
+    aiExposure: 0.50,
+    marketMomentum: 'STABLE',
+    sources: ['QILT GOS 2024 National Report Tables', 'QILT GOS-L 2025 National Report Tables', 'QILT GOS 2024 International Report Tables', 'JSA Skills Priority List 2025', 'Felten, Raj & Seamans (2021) AI Occupational Exposure Index'],
     year: 2024,
   },
 };
