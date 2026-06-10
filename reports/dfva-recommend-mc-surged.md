@@ -1,4 +1,4 @@
-## DFVA IMPROVEMENT ROADMAP: University of Melbourne (MC-SCIEPI)
+## DFVA IMPROVEMENT ROADMAP: UniMelb (MC-SURGED)
 **Current:** 23/36 MODERATE RISK | **Target:** RESILIENT (28+) | **Gap:** 5 pts
 
 ### Priority Actions
@@ -6,7 +6,7 @@
 | Priority | Dimension | Current | Action | Impact | New Total |
 |----------|-----------|---------|--------|--------|----------|
 | P1 | AI Literacy | 1/3 | Add AI literacy module: AI capabilities and limitations, prompt engineering, AI governance and ethics, AI-augmented workflow design | +1 | 24/36 |
-| P2 | Automation Exposure | 2/3 | Add real-world capstone project with industry partner requiring independent judgment and decision ownership | +1 | 25/36 |
+| P2 | Technical Depth | 1/3 | Add quantitative methods / data analysis / computational thinking core requirement | +1 | 25/36 |
 | P3 | Systems Thinking | 2/3 | Integrate cross-disciplinary systems analysis modules with trade-off reasoning and failure-mode analysis | +1 | 26/36 |
 
 ### Outcome

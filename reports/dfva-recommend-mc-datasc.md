@@ -1,12 +1,18 @@
-# DFVA CURRICULUM IMPROVEMENT PLAN: Master of Data Science (MC-DATASC)
-**Score:** 24/36 MODERATE RISK | **Date:** 2026-06-09
+## DFVA IMPROVEMENT ROADMAP: MC-DATASC (MC-DATASC)
+**Current:** 24/36 MODERATE RISK | **Target:** RESILIENT (28+) | **Gap:** 4 pts
 
-## Priority Actions
-| Priority | Action | Dimensions | Effort |
-|---|---|---|---|
-| **P1** | Publish graduate destination data by specialisation | D10 | Medium |
-| **P1** | Add AI ethics and governance to compulsory core | D5 | Medium |
-| **P2** | Increase project to 50pt or add second project assessment | D4, D7 | High |
-| **P2** | Add causal inference to Statistical Modelling | D4 | Medium |
+### Priority Actions
 
-**Path to RESILIENT:** P1 → 26. P1+P2 → 28-29.
+| Priority | Dimension | Current | Action | Impact | New Total |
+|----------|-----------|---------|--------|--------|----------|
+| P1 | AI Literacy | 2/3 | Add AI literacy module: AI capabilities and limitations, prompt engineering, AI governance and ethics, AI-augmented workflow design | +1 | 25/36 |
+| P2 | Automation Exposure | 2/3 | Add real-world capstone project with industry partner requiring independent judgment and decision ownership | +1 | 26/36 |
+| P3 | Systems Thinking | 2/3 | Integrate cross-disciplinary systems analysis modules with trade-off reasoning and failure-mode analysis | +1 | 27/36 |
+
+### Outcome
+After all priority actions: **27/36 MODERATE RISK** (1 pts from RESILIENT)
+
+### Implementation Notes
+- P1 actions can typically be implemented in one academic cycle (6-12 months)
+- P2 and P3 actions may require curriculum committee approval and 12-24 month lead time
+- AI Literacy module is the single highest-impact intervention across all programs

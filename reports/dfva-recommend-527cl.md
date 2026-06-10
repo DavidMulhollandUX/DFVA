@@ -1,13 +1,13 @@
-## DFVA IMPROVEMENT ROADMAP: MC-CS (MC-CS)
+## DFVA IMPROVEMENT ROADMAP: UniMelb (527CL)
 **Current:** 27/36 MODERATE RISK | **Target:** RESILIENT (28+) | **Gap:** 1 pts
 
 ### Priority Actions
 
 | Priority | Dimension | Current | Action | Impact | New Total |
 |----------|-----------|---------|--------|--------|----------|
-| P1 | Automation Exposure | 2/3 | Add real-world capstone project with industry partner requiring independent judgment and decision ownership | +1 | 28/36 |
+| P1 | AI Literacy | 1/3 | Add AI literacy module: AI capabilities and limitations, prompt engineering, AI governance and ethics, AI-augmented workflow design | +1 | 28/36 |
 | P2 | Systems Thinking | 2/3 | Integrate cross-disciplinary systems analysis modules with trade-off reasoning and failure-mode analysis | +1 | 29/36 |
-| P3 | Human & Relational | 2/3 | Add clinical placement, community engagement, or professional practice requiring interpersonal accountability | +1 | 30/36 |
+| P3 | Technical Depth | 2/3 | Add quantitative methods / data analysis / computational thinking core requirement | +1 | 30/36 |
 
 ### Outcome
 After all priority actions: **30/36 RESILIENT** ✅

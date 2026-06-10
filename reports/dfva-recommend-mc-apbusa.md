@@ -1,13 +1,13 @@
-## DFVA IMPROVEMENT ROADMAP: MC-ACTSC (MC-ACTSC)
+## DFVA IMPROVEMENT ROADMAP: Applied Business Analytics (MC-APBUSA)
 **Current:** 20/36 MODERATE RISK | **Target:** RESILIENT (28+) | **Gap:** 8 pts
 
 ### Priority Actions
 
 | Priority | Dimension | Current | Action | Impact | New Total |
 |----------|-----------|---------|--------|--------|----------|
-| P1 | AI Literacy | 1/3 | Add AI literacy module: AI capabilities and limitations, prompt engineering, AI governance and ethics, AI-augmented workflow design | +1 | 21/36 |
-| P2 | Automation Exposure | 1/3 | Add real-world capstone project with industry partner requiring independent judgment and decision ownership | +1 | 22/36 |
-| P3 | Research Rigour | 1/3 | Add research methods core or expand existing thesis/capstone research requirements | +1 | 23/36 |
+| P1 | Automation Exposure | 1/3 | Add real-world capstone project with industry partner requiring independent judgment and decision ownership | +1 | 21/36 |
+| P2 | Human & Relational | 1/3 | Add clinical placement, community engagement, or professional practice requiring interpersonal accountability | +1 | 22/36 |
+| P3 | Curriculum Currency | 1/3 | Establish annual curriculum review with industry advisory panel; add AI and digital transformation content | +1 | 23/36 |
 
 ### Outcome
 After all priority actions: **23/36 MODERATE RISK** (5 pts from RESILIENT)

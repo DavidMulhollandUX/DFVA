@@ -1,4 +1,4 @@
-## DFVA IMPROVEMENT ROADMAP: University of Melbourne (MC-CLIMSCI)
+## DFVA IMPROVEMENT ROADMAP: University of Melbourne (MC-URBDES)
 **Current:** 26/36 MODERATE RISK | **Target:** RESILIENT (28+) | **Gap:** 2 pts
 
 ### Priority Actions
@@ -7,7 +7,7 @@
 |----------|-----------|---------|--------|--------|----------|
 | P1 | AI Literacy | 1/3 | Add AI literacy module: AI capabilities and limitations, prompt engineering, AI governance and ethics, AI-augmented workflow design | +1 | 27/36 |
 | P2 | Automation Exposure | 2/3 | Add real-world capstone project with industry partner requiring independent judgment and decision ownership | +1 | 28/36 |
-| P3 | Research Rigour | 2/3 | Add research methods core or expand existing thesis/capstone research requirements | +1 | 29/36 |
+| P3 | Technical Depth | 2/3 | Add quantitative methods / data analysis / computational thinking core requirement | +1 | 29/36 |
 
 ### Outcome
 After all priority actions: **29/36 RESILIENT** ✅
