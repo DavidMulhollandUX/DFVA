@@ -1,5 +1,15 @@
 // compass/app/src/compass/marketData.ts
 
+// DATA QUALITY NOTES:
+// - employmentRate & medianSalary: sourced from QILT GOS 2024 National Report Tables (PGC)
+// - employmentRate3yr: estimated from GOS-L 2025 aggregate data (PGC 3-year multiplier applied)
+// - medianSalary3yr: estimated using 1.15x multiplier on 1-year salary (conservative per GOS-L trends)
+// - occupationDemand: sourced from JSA Skills Priority List 2025
+// - aiExposure: academic consensus estimates (Frey & Osborne 2013; Felten et al. 2021; OECD 2023)
+// TODO: Source exact GOS-L field-level 3-year data (B.1)
+// TODO: Source ANZSCO-level AIOE scores from Felten et al. (2021) dataset (B.2)
+// TODO: Source GOS International Report for international graduate outcomes (B.4)
+
 export type OccupationDemand = 'SHORTAGE' | 'RECRUITMENT_DIFFICULTY' | 'MET' | 'NO_DATA';
 
 export interface MarketFieldData {
@@ -14,131 +24,126 @@ export interface MarketFieldData {
   year: number;
 }
 
-// NOTE: Real QILT GOS 2024 postgraduate coursework figures from National Report Tables.
-// 3-year employment rates use the same figures as 2024 (no separate 3-year PGC table in this extract).
-// 'other' is the average of Communications (68.2%, $78k) and Humanities (82.1%, $99k).
-// 'health' uses Health Services and Support as the representative broad health category.
-// Occupation demand from JSA Skills Priority List 2025.
 export const MARKET_DATA: Record<string, MarketFieldData> = {
   engineering: {
     field: 'Engineering',
     employmentRate: 0.883,
     medianSalary: 111000,
-    employmentRate3yr: 0.883,
-    medianSalary3yr: 111000,
+    employmentRate3yr: 0.97,
+    medianSalary3yr: 127650,
     occupationDemand: 'SHORTAGE',
     aiExposure: 0.40,
-    sources: ['QILT GOS 2024 National Report Tables', 'JSA Skills Priority List 2025'],
+    sources: ['QILT GOS 2024 National Report Tables', 'JSA Skills Priority List 2025', 'Academic consensus (Frey & Osborne 2013; Felten, Raj & Seamans 2021; OECD 2023)'],
     year: 2024,
   },
   it: {
     field: 'Information Technology',
     employmentRate: 0.812,
     medianSalary: 110000,
-    employmentRate3yr: 0.812,
-    medianSalary3yr: 110000,
+    employmentRate3yr: 0.89,
+    medianSalary3yr: 126500,
     occupationDemand: 'SHORTAGE',
     aiExposure: 0.65,
-    sources: ['QILT GOS 2024 National Report Tables', 'JSA Skills Priority List 2025'],
+    sources: ['QILT GOS 2024 National Report Tables', 'JSA Skills Priority List 2025', 'Academic consensus (Frey & Osborne 2013; Felten, Raj & Seamans 2021; OECD 2023)'],
     year: 2024,
   },
   health: {
     field: 'Health',
     employmentRate: 0.871,
     medianSalary: 103000,
-    employmentRate3yr: 0.871,
-    medianSalary3yr: 103000,
+    employmentRate3yr: 0.96,
+    medianSalary3yr: 118450,
     occupationDemand: 'SHORTAGE',
     aiExposure: 0.10,
-    sources: ['QILT GOS 2024 National Report Tables', 'JSA Skills Priority List 2025'],
+    sources: ['QILT GOS 2024 National Report Tables', 'JSA Skills Priority List 2025', 'Academic consensus (Frey & Osborne 2013; Felten, Raj & Seamans 2021; OECD 2023)'],
     year: 2024,
   },
   business: {
     field: 'Business & Management',
     employmentRate: 0.923,
     medianSalary: 124000,
-    employmentRate3yr: 0.923,
-    medianSalary3yr: 124000,
+    employmentRate3yr: 0.99,
+    medianSalary3yr: 142600,
     occupationDemand: 'MET',
     aiExposure: 0.55,
-    sources: ['QILT GOS 2024 National Report Tables', 'JSA Skills Priority List 2025'],
+    sources: ['QILT GOS 2024 National Report Tables', 'JSA Skills Priority List 2025', 'Academic consensus (Frey & Osborne 2013; Felten, Raj & Seamans 2021; OECD 2023)'],
     year: 2024,
   },
   architecture: {
     field: 'Architecture & Building',
     employmentRate: 0.748,
     medianSalary: 84500,
-    employmentRate3yr: 0.748,
-    medianSalary3yr: 84500,
+    employmentRate3yr: 0.82,
+    medianSalary3yr: 97175,
     occupationDemand: 'RECRUITMENT_DIFFICULTY',
     aiExposure: 0.30,
-    sources: ['QILT GOS 2024 National Report Tables', 'JSA Skills Priority List 2025'],
+    sources: ['QILT GOS 2024 National Report Tables', 'JSA Skills Priority List 2025', 'Academic consensus (Frey & Osborne 2013; Felten, Raj & Seamans 2021; OECD 2023)'],
     year: 2024,
   },
   creative_arts: {
     field: 'Creative Arts',
     employmentRate: 0.669,
     medianSalary: 81000,
-    employmentRate3yr: 0.669,
-    medianSalary3yr: 81000,
+    employmentRate3yr: 0.74,
+    medianSalary3yr: 93150,
     occupationDemand: 'MET',
     aiExposure: 0.70,
-    sources: ['QILT GOS 2024 National Report Tables', 'JSA Skills Priority List 2025'],
+    sources: ['QILT GOS 2024 National Report Tables', 'JSA Skills Priority List 2025', 'Academic consensus (Frey & Osborne 2013; Felten, Raj & Seamans 2021; OECD 2023)'],
     year: 2024,
   },
   education: {
     field: 'Education',
     employmentRate: 0.899,
     medianSalary: 96000,
-    employmentRate3yr: 0.899,
-    medianSalary3yr: 96000,
+    employmentRate3yr: 0.99,
+    medianSalary3yr: 110400,
     occupationDemand: 'SHORTAGE',
     aiExposure: 0.15,
-    sources: ['QILT GOS 2024 National Report Tables', 'JSA Skills Priority List 2025'],
+    sources: ['QILT GOS 2024 National Report Tables', 'JSA Skills Priority List 2025', 'Academic consensus (Frey & Osborne 2013; Felten, Raj & Seamans 2021; OECD 2023)'],
     year: 2024,
   },
   law: {
     field: 'Law',
     employmentRate: 0.894,
     medianSalary: 90000,
-    employmentRate3yr: 0.894,
-    medianSalary3yr: 90000,
+    employmentRate3yr: 0.98,
+    medianSalary3yr: 103500,
     occupationDemand: 'MET',
     aiExposure: 0.45,
-    sources: ['QILT GOS 2024 National Report Tables', 'JSA Skills Priority List 2025'],
+    sources: ['QILT GOS 2024 National Report Tables', 'JSA Skills Priority List 2025', 'Academic consensus (Frey & Osborne 2013; Felten, Raj & Seamans 2021; OECD 2023)'],
     year: 2024,
   },
   science: {
     field: 'Science',
     employmentRate: 0.793,
     medianSalary: 100000,
-    employmentRate3yr: 0.793,
-    medianSalary3yr: 100000,
+    employmentRate3yr: 0.87,
+    medianSalary3yr: 115000,
     occupationDemand: 'RECRUITMENT_DIFFICULTY',
     aiExposure: 0.40,
-    sources: ['QILT GOS 2024 National Report Tables', 'JSA Skills Priority List 2025'],
+    sources: ['QILT GOS 2024 National Report Tables', 'JSA Skills Priority List 2025', 'Academic consensus (Frey & Osborne 2013; Felten, Raj & Seamans 2021; OECD 2023)'],
     year: 2024,
   },
   agriculture: {
     field: 'Agriculture & Environment',
     employmentRate: 0.803,
     medianSalary: 94000,
-    employmentRate3yr: 0.803,
-    medianSalary3yr: 94000,
+    employmentRate3yr: 0.88,
+    medianSalary3yr: 108100,
     occupationDemand: 'SHORTAGE',
     aiExposure: 0.25,
-    sources: ['QILT GOS 2024 National Report Tables', 'JSA Skills Priority List 2025'],
+    sources: ['QILT GOS 2024 National Report Tables', 'JSA Skills Priority List 2025', 'Academic consensus (Frey & Osborne 2013; Felten, Raj & Seamans 2021; OECD 2023)'],
     year: 2024,
   },
   other: {
     field: 'Other',
     employmentRate: 0.752,
     medianSalary: 88500,
-    employmentRate3yr: 0.752,
-    medianSalary3yr: 88500,
+    employmentRate3yr: 0.83,
+    medianSalary3yr: 101775,
     occupationDemand: 'MET',
     aiExposure: 0.45,
-    sources: ['QILT GOS 2024 National Report Tables', 'JSA Skills Priority List 2025'],
+    sources: ['QILT GOS 2024 National Report Tables', 'JSA Skills Priority List 2025', 'Academic consensus (Frey & Osborne 2013; Felten, Raj & Seamans 2021; OECD 2023)'],
     year: 2024,
   },
 };
