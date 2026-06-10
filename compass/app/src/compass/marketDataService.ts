@@ -47,6 +47,8 @@ export function enrichWithMarketData(result: AssessmentResult): MarketEnrichedRe
         medianSalary: data.medianSalary,
         employmentRate3yr: data.employmentRate3yr,
         medianSalary3yr: data.medianSalary3yr,
+        internationalEmploymentRate: data.internationalEmploymentRate,
+        internationalMedianSalary: data.internationalMedianSalary,
         occupationDemand: data.occupationDemand,
         aiExposure: data.aiExposure,
         sources: data.sources,
