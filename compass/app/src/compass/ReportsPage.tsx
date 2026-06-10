@@ -1,3 +1,4 @@
+import { useState, useMemo } from "react";
 import { Link } from "react-router";
 import {
   Card,
@@ -114,8 +115,46 @@ function ThresholdPills({
   );
 }
 
+function getFaculty(program: string): string {
+  const n = program.toLowerCase();
+  if (/engineering|structures|industrial eng/i.test(n)) return 'Engineering';
+  if (/computer|data sci|information tech|software|analytics|business analy/i.test(n)) return 'IT & Analytics';
+  if (/psycholog|nursing|dentist|health|medicine|physio|surg|genetic|social work|optom|pharm|vet|audiology|speech|food sci/i.test(n)) return 'Health';
+  if (/business|mba|marketing|finance|econom|management|enterprise|entrepreneur|supply/i.test(n)) return 'Business';
+  if (/urban|architect|design|property|landscap|construct|horticult/i.test(n)) return 'Built Environment';
+  if (/law|legal|tax/i.test(n)) return 'Law';
+  if (/educat|teach|tesol|ib\b/i.test(n)) return 'Education';
+  if (/art|music|film|screen|journal|curat|creative|writing/i.test(n)) return 'Creative Arts';
+  if (/scien|physics|chemistry|biology|math|environ|climat|food|agric|forest|animal/i.test(n)) return 'Science & Environment';
+  return 'Other';
+}
+
 export default function ReportsPage() {
   const { reports, isLoading } = useReportsData();
+
+  const [facultyFilter, setFacultyFilter] = useState<string>('all');
+  const [riskFilter, setRiskFilter] = useState<string>('all');
+  const [sortBy, setSortBy] = useState<string>('score-desc');
+
+  const faculties = [...new Set(reports.map(p => getFaculty(p.program)))].sort();
+
+  const filteredReports = useMemo(() => {
+    let result = [...reports];
+    if (facultyFilter !== 'all') result = result.filter(p => getFaculty(p.program) === facultyFilter);
+    if (riskFilter !== 'all') result = result.filter(p => p.riskBand === riskFilter);
+
+    switch (sortBy) {
+      case 'score-desc': result.sort((a, b) => b.score - a.score); break;
+      case 'score-asc': result.sort((a, b) => a.score - b.score); break;
+      case 'name': result.sort((a, b) => a.program.localeCompare(b.program)); break;
+      case 'risk': {
+        const order = { 'CRITICAL': 0, 'HIGH RISK': 1, 'MODERATE RISK': 2, 'RESILIENT': 3 };
+        result.sort((a, b) => (order[a.riskBand] ?? 2) - (order[b.riskBand] ?? 2));
+        break;
+      }
+    }
+    return result;
+  }, [reports, facultyFilter, riskFilter, sortBy]);
 
   let content: React.ReactNode;
   if (isLoading) {
@@ -134,7 +173,7 @@ export default function ReportsPage() {
   } else {
     content = (
       <div className="flex flex-col gap-6">
-        {reports.map((p) => {
+        {filteredReports.map((p) => {
           const cfg = riskBandConfig[p.riskBand];
           return (
             <Card
@@ -226,6 +265,47 @@ export default function ReportsPage() {
           assessment and companion market intelligence.
         </p>
       </div>
+
+      {!isLoading && reports.length > 0 && (
+        <div className="flex flex-wrap items-center gap-3 mb-6">
+          <select
+            value={facultyFilter}
+            onChange={e => setFacultyFilter(e.target.value)}
+            className="rounded-lg border border-border bg-background px-3 py-2 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-primary/20"
+          >
+            <option value="all">All Faculties</option>
+            {faculties.map(f => <option key={f} value={f}>{f}</option>)}
+          </select>
+
+          <select
+            value={riskFilter}
+            onChange={e => setRiskFilter(e.target.value)}
+            className="rounded-lg border border-border bg-background px-3 py-2 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-primary/20"
+          >
+            <option value="all">All Risk Bands</option>
+            <option value="RESILIENT">RESILIENT</option>
+            <option value="MODERATE RISK">MODERATE RISK</option>
+            <option value="HIGH RISK">HIGH RISK</option>
+            <option value="CRITICAL">CRITICAL</option>
+          </select>
+
+          <select
+            value={sortBy}
+            onChange={e => setSortBy(e.target.value)}
+            className="rounded-lg border border-border bg-background px-3 py-2 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-primary/20"
+          >
+            <option value="score-desc">Score: High → Low</option>
+            <option value="score-asc">Score: Low → High</option>
+            <option value="name">Name: A–Z</option>
+            <option value="risk">Risk Band</option>
+          </select>
+
+          <span className="text-xs text-muted-foreground ml-auto">
+            {filteredReports.length} of {reports.length} programs
+          </span>
+        </div>
+      )}
+
       {content}
     </div>
   );
