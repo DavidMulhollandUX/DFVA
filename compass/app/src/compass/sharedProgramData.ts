@@ -557,6 +557,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Irreplaceability (bonus)", score: 3, max: 3 }
     ],
     assessmentSlug: "dfva-527cl",
+    recommendSlug: "dfva-recommend-527cl",
     marketSlug: "dfva-market-527cl",
     
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/527cl",
@@ -584,6 +585,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Irreplaceability (bonus)", score: 2, max: 3 }
     ],
     assessmentSlug: "dfva-746st",
+    recommendSlug: "dfva-recommend-746st",
     marketSlug: "dfva-market-746st",
     
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/746st",
@@ -611,6 +613,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Irreplaceability (bonus)", score: 2, max: 3 }
     ],
     assessmentSlug: "dfva-mc-apbusa",
+    recommendSlug: "dfva-recommend-mc-apbusa",
     marketSlug: "dfva-market-mc-apbusa",
     
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-apbusa",
@@ -638,6 +641,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Irreplaceability (bonus)", score: 3, max: 3 }
     ],
     assessmentSlug: "dfva-mc-arch",
+    recommendSlug: "dfva-recommend-mc-arch",
     marketSlug: "dfva-market-mc-arch",
     
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-arch",
@@ -665,6 +669,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Irreplaceability (bonus)", score: 3, max: 3 }
     ],
     assessmentSlug: "dfva-mc-ba",
+    recommendSlug: "dfva-recommend-mc-ba",
     marketSlug: "dfva-market-mc-ba",
     
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-ba",
@@ -692,6 +697,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Irreplaceability (bonus)", score: 2, max: 3 }
     ],
     assessmentSlug: "dfva-mc-bamktg",
+    recommendSlug: "dfva-recommend-mc-bamktg",
     marketSlug: "dfva-market-mc-bamktg",
     
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-bamktg",
@@ -719,6 +725,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Irreplaceability (bonus)", score: 1, max: 3 }
     ],
     assessmentSlug: "dfva-mc-base",
+    recommendSlug: "dfva-recommend-mc-base",
     marketSlug: "dfva-market-mc-base",
     
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-base",
@@ -746,6 +753,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Irreplaceability (bonus)", score: 3, max: 3 }
     ],
     assessmentSlug: "dfva-mc-busana",
+    recommendSlug: "dfva-recommend-mc-busana",
     marketSlug: "dfva-market-mc-busana",
     
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-busana",
@@ -773,6 +781,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Irreplaceability (bonus)", score: 3, max: 3 }
     ],
     assessmentSlug: "dfva-mc-clind",
+    recommendSlug: "dfva-recommend-mc-clind",
     marketSlug: "dfva-market-mc-clind",
     
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-clind",
@@ -800,6 +809,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Irreplaceability (bonus)", score: 3, max: 3 }
     ],
     assessmentSlug: "dfva-mc-ed",
+    recommendSlug: "dfva-recommend-mc-ed",
     marketSlug: "dfva-market-mc-ed",
     
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-ed",
@@ -827,6 +837,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Irreplaceability (bonus)", score: 2, max: 3 }
     ],
     assessmentSlug: "dfva-mc-envlaw",
+    recommendSlug: "dfva-recommend-mc-envlaw",
     marketSlug: "dfva-market-mc-envlaw",
     
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-envlaw",
@@ -854,6 +865,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Irreplaceability (bonus)", score: 2, max: 3 }
     ],
     assessmentSlug: "dfva-mc-indeng",
+    recommendSlug: "dfva-recommend-mc-indeng",
     marketSlug: "dfva-market-mc-indeng",
     
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-indeng",
@@ -881,6 +893,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Irreplaceability (bonus)", score: 1, max: 3 }
     ],
     assessmentSlug: "dfva-mc-intedib",
+    recommendSlug: "dfva-recommend-mc-intedib",
     marketSlug: "dfva-market-mc-intedib",
     
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-intedib",
@@ -908,6 +921,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Irreplaceability (bonus)", score: 2, max: 3 }
     ],
     assessmentSlug: "dfva-mc-journ",
+    recommendSlug: "dfva-recommend-mc-journ",
     marketSlug: "dfva-market-mc-journ",
     
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-journ",
@@ -935,6 +949,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Irreplaceability (bonus)", score: 3, max: 3 }
     ],
     assessmentSlug: "dfva-mc-phtyph",
+    recommendSlug: "dfva-recommend-mc-phtyph",
     marketSlug: "dfva-market-mc-phtyph",
     
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-phtyph",
@@ -962,6 +977,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Irreplaceability (bonus)", score: 2, max: 3 }
     ],
     assessmentSlug: "dfva-mc-prop",
+    recommendSlug: "dfva-recommend-mc-prop",
     marketSlug: "dfva-market-mc-prop",
     
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-prop",
@@ -989,6 +1005,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Irreplaceability (bonus)", score: 3, max: 3 }
     ],
     assessmentSlug: "dfva-mc-propsyc",
+    recommendSlug: "dfva-recommend-mc-propsyc",
     marketSlug: "dfva-market-mc-propsyc",
     
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-propsyc",
@@ -1016,6 +1033,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Irreplaceability (bonus)", score: 1, max: 3 }
     ],
     assessmentSlug: "dfva-mc-scwr",
+    recommendSlug: "dfva-recommend-mc-scwr",
     marketSlug: "dfva-market-mc-scwr",
     
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-scwr",
@@ -1043,6 +1061,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Irreplaceability (bonus)", score: 3, max: 3 }
     ],
     assessmentSlug: "dfva-mc-surged",
+    recommendSlug: "dfva-recommend-mc-surged",
     marketSlug: "dfva-market-mc-surged",
     
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-surged",
@@ -1069,6 +1088,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Outcome Evidence", score: 3, max: 3 }
     ],
     assessmentSlug: "dfva-mc-tesol",
+    recommendSlug: "dfva-recommend-mc-tesol",
     marketSlug: "dfva-market-mc-tesol",
     
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-tesol",
@@ -1096,6 +1116,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Irreplaceability (bonus)", score: 3, max: 3 }
     ],
     assessmentSlug: "dfva-mc-urbdes",
+    recommendSlug: "dfva-recommend-mc-urbdes",
     marketSlug: "dfva-market-mc-urbdes",
     
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-urbdes",
@@ -1122,6 +1143,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Outcome Evidence", score: 2, max: 3 }
     ],
     assessmentSlug: "dfva-mc-urbhort",
+    recommendSlug: "dfva-recommend-mc-urbhort",
     marketSlug: "dfva-market-mc-urbhort",
     
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-urbhort",

@@ -1,18 +1,23 @@
-## DFVA IMPROVEMENT ROADMAP: University of Melbourne (MC-INDENG)
-**Current:** 22/36 MODERATE RISK | **Target:** RESILIENT (28+) | **Gap:** 6 pts
+## IMPROVEMENT PLAN: MC-INDENG
 
-### Priority Actions
+**Current:** 22/36 MODERATE RISK | **Duration:** 2 years (200 pts)
+**Target:** 28/36 RESILIENT | **Gap:** 6 points
 
-| Priority | Dimension | Current | Action | Impact | New Total |
-|----------|-----------|---------|--------|--------|----------|
-| P1 | AI Literacy | 2/3 | Add AI literacy module: AI capabilities and limitations, prompt engineering, AI governance and ethics, AI-augmented workflow design | +1 | 23/36 |
-| P2 | Automation Exposure | 1/3 | Add real-world capstone project with industry partner requiring independent judgment and decision ownership | +1 | 24/36 |
-| P3 | Human & Relational | 1/3 | Add clinical placement, community engagement, or professional practice requiring interpersonal accountability | +1 | 25/36 |
+---
 
-### Outcome
-After all priority actions: **25/36 MODERATE RISK** (3 pts from RESILIENT)
+### Priority 1 Actions (reach RESILIENT)
 
-### Implementation Notes
-- P1 actions can typically be implemented in one academic cycle (6-12 months)
-- P2 and P3 actions may require curriculum committee approval and 12-24 month lead time
-- AI Literacy module is the single highest-impact intervention across all programs
+| # | Dimension | Current → Target | Impact | Action | Effort |
+|---|-----------|-----------------|--------|--------|--------|
+| 1 | Technical Depth | 1 → 2 | +1 | Require technical-elective sequence (3+ units) with applied project | Low |
+| 2 | Decision-Making | 2 → 3 | +1 | Add capstone project requiring documented decision rationale | Low |
+| 3 | Curriculum Currency | 2 → 3 | +1 | Add emerging-trends module updated each intake | Low |
+| 4 | Automation Exposure | 1 → 2 | +1 | Require industry project with defended outputs and stakeholder presentation | Medium |
+| 5 | Research Rigour | 2 → 3 | +1 | Replace literature review with primary data collection requirement | Medium |
+
+### Score Impact
+
+| Scenario | Score | Band |
+|----------|-------|------|
+| Current | 22 | MODERATE RISK |
+| P1 only | 27 | MODERATE RISK |

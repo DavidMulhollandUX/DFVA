@@ -1,18 +1,32 @@
-## DFVA IMPROVEMENT ROADMAP: MC-ACTSC (MC-ACTSC)
-**Current:** 20/36 MODERATE RISK | **Target:** RESILIENT (28+) | **Gap:** 8 pts
+## IMPROVEMENT PLAN: Master of Actuarial Science
 
-### Priority Actions
+**Current:** 20/36 MODERATE RISK | **Duration:** 1.5 years (150 credit points)
+**Target:** 28/36 RESILIENT | **Gap:** 8 points
 
-| Priority | Dimension | Current | Action | Impact | New Total |
-|----------|-----------|---------|--------|--------|----------|
-| P1 | AI Literacy | 1/3 | Add AI literacy module: AI capabilities and limitations, prompt engineering, AI governance and ethics, AI-augmented workflow design | +1 | 21/36 |
-| P2 | Automation Exposure | 1/3 | Add real-world capstone project with industry partner requiring independent judgment and decision ownership | +1 | 22/36 |
-| P3 | Research Rigour | 1/3 | Add research methods core or expand existing thesis/capstone research requirements | +1 | 23/36 |
+---
 
-### Outcome
-After all priority actions: **23/36 MODERATE RISK** (5 pts from RESILIENT)
+### Priority 1 Actions (reach RESILIENT)
 
-### Implementation Notes
-- P1 actions can typically be implemented in one academic cycle (6-12 months)
-- P2 and P3 actions may require curriculum committee approval and 12-24 month lead time
-- AI Literacy module is the single highest-impact intervention across all programs
+| # | Dimension | Current → Target | Impact | Action | Effort |
+|---|-----------|-----------------|--------|--------|--------|
+| 1 | Systems Thinking | 2 → 3 | +1 | Integrate cross-disciplinary case studies into existing core units | Low |
+| 2 | Decision-Making | 2 → 3 | +1 | Add capstone project requiring documented decision rationale | Low |
+| 3 | Human & Relational | 2 → 3 | +1 | Integrate stakeholder engagement into existing project assessment | Low |
+| 4 | Curriculum Currency | 2 → 3 | +1 | Add emerging-trends module updated each intake | Low |
+| 5 | Outcome Evidence | 2 → 3 | +1 | Add QILT GOS data + 3-year outcomes to public program information | Low |
+| 6 | Automation Exposure | 1 → 2 | +1 | Require industry project with defended outputs and stakeholder presentation | Medium |
+| 7 | AI Literacy | 1 → 3 | +2 | Add dedicated AI in discipline core unit (12.5pt) | Medium |
+
+### Priority 2 Actions (bonus resilience)
+
+| # | Dimension | Current → Target | Impact | Action | Effort |
+|---|-----------|-----------------|--------|--------|--------|
+| 1 | Research Rigour | 1 → 3 | +2 | Introduce a minor thesis or capstone research project | High |
+
+### Score Impact
+
+| Scenario | Score | Band |
+|----------|-------|------|
+| Current | 20 | MODERATE RISK |
+| P1 only | 28 | RESILIENT |
+| All actions | 30 | RESILIENT |

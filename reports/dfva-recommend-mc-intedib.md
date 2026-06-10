@@ -1,18 +1,28 @@
-## DFVA IMPROVEMENT ROADMAP: International Education IB (MC-INTEDIB)
-**Current:** 16/36 HIGH RISK | **Target:** RESILIENT (28+) | **Gap:** 12 pts
+## IMPROVEMENT PLAN: MC-INTEDIB
 
-### Priority Actions
+**Current:** 16/36 HIGH RISK | **Duration:** N/A
+**Target:** 28/36 RESILIENT | **Gap:** 12 points
 
-| Priority | Dimension | Current | Action | Impact | New Total |
-|----------|-----------|---------|--------|--------|----------|
-| P1 | AI Literacy | 1/3 | Add AI literacy module: AI capabilities and limitations, prompt engineering, AI governance and ethics, AI-augmented workflow design | +1 | 17/36 |
-| P2 | Automation Exposure | 1/3 | Add real-world capstone project with industry partner requiring independent judgment and decision ownership | +1 | 18/36 |
-| P3 | Technical Depth | 1/3 | Add quantitative methods / data analysis / computational thinking core requirement | +1 | 19/36 |
+---
 
-### Outcome
-After all priority actions: **19/36 HIGH RISK** (9 pts from RESILIENT)
+### Priority 1 Actions (reach RESILIENT)
 
-### Implementation Notes
-- P1 actions can typically be implemented in one academic cycle (6-12 months)
-- P2 and P3 actions may require curriculum committee approval and 12-24 month lead time
-- AI Literacy module is the single highest-impact intervention across all programs
+| # | Dimension | Current → Target | Impact | Action | Effort |
+|---|-----------|-----------------|--------|--------|--------|
+| 1 | Technical Depth | 1 → 2 | +1 | Require technical-elective sequence (3+ units) with applied project | Low |
+| 2 | Systems Thinking | 2 → 3 | +1 | Integrate cross-disciplinary case studies into existing core units | Low |
+| 3 | Decision-Making | 2 → 3 | +1 | Add capstone project requiring documented decision rationale | Low |
+| 4 | Human & Relational | 2 → 3 | +1 | Integrate stakeholder engagement into existing project assessment | Low |
+| 5 | Curriculum Currency | 2 → 3 | +1 | Add emerging-trends module updated each intake | Low |
+| 6 | Automation Exposure | 1 → 2 | +1 | Require industry project with defended outputs and stakeholder presentation | Medium |
+| 7 | AI Literacy | 1 → 3 | +2 | Add dedicated AI in discipline core unit (12.5pt) | Medium |
+| 8 | Research Rigour | 1 → 3 | +2 | Introduce a minor thesis or capstone research project | High |
+| 9 | Irreplaceability (bonus) | 1 → 2 | +1 | Develop a dual-skill pathway (e.g., tech + domain, clinical + research) | High |
+| 10 | Domain Depth | 2 → 3 | +1 | Seek professional accreditation or industry partnership | High |
+
+### Score Impact
+
+| Scenario | Score | Band |
+|----------|-------|------|
+| Current | 16 | HIGH RISK |
+| P1 only | 28 | RESILIENT |

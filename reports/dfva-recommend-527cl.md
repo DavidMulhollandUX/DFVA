@@ -1,18 +1,27 @@
-## DFVA IMPROVEMENT ROADMAP: UniMelb (527CL)
-**Current:** 27/36 MODERATE RISK | **Target:** RESILIENT (28+) | **Gap:** 1 pts
+## IMPROVEMENT PLAN: 527CL
 
-### Priority Actions
+**Current:** 27/36 MODERATE RISK | **Duration:** 2y FT (200 pts)
+**Target:** 28/36 RESILIENT | **Gap:** 1 point
 
-| Priority | Dimension | Current | Action | Impact | New Total |
-|----------|-----------|---------|--------|--------|----------|
-| P1 | AI Literacy | 1/3 | Add AI literacy module: AI capabilities and limitations, prompt engineering, AI governance and ethics, AI-augmented workflow design | +1 | 28/36 |
-| P2 | Systems Thinking | 2/3 | Integrate cross-disciplinary systems analysis modules with trade-off reasoning and failure-mode analysis | +1 | 29/36 |
-| P3 | Technical Depth | 2/3 | Add quantitative methods / data analysis / computational thinking core requirement | +1 | 30/36 |
+---
 
-### Outcome
-After all priority actions: **30/36 RESILIENT** ✅
+### Priority 1 Actions (reach RESILIENT)
 
-### Implementation Notes
-- P1 actions can typically be implemented in one academic cycle (6-12 months)
-- P2 and P3 actions may require curriculum committee approval and 12-24 month lead time
-- AI Literacy module is the single highest-impact intervention across all programs
+| # | Dimension | Current → Target | Impact | Action | Effort |
+|---|-----------|-----------------|--------|--------|--------|
+| 1 | Systems Thinking | 2 → 3 | +1 | Integrate cross-disciplinary case studies into existing core units | Low |
+
+### Priority 2 Actions (bonus resilience)
+
+| # | Dimension | Current → Target | Impact | Action | Effort |
+|---|-----------|-----------------|--------|--------|--------|
+| 1 | AI Literacy | 1 → 3 | +2 | Add dedicated AI in discipline core unit (12.5pt) | Medium |
+| 2 | Technical Depth | 2 → 3 | +1 | Require technical-elective sequence (3+ units) with applied project | Low |
+
+### Score Impact
+
+| Scenario | Score | Band |
+|----------|-------|------|
+| Current | 27 | MODERATE RISK |
+| P1 only | 28 | RESILIENT |
+| All actions | 31 | RESILIENT |

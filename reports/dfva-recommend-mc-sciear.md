@@ -1,18 +1,21 @@
-## DFVA IMPROVEMENT ROADMAP: University of Melbourne (MC-SCIEAR)
-**Current:** 24/36 MODERATE RISK | **Target:** RESILIENT (28+) | **Gap:** 4 pts
+## IMPROVEMENT PLAN: Master of Science
 
-### Priority Actions
+**Current:** 24/36 MODERATE RISK | **Duration:** 2 years full-time / 4 years part-time
+**Target:** 28/36 RESILIENT | **Gap:** 4 points
 
-| Priority | Dimension | Current | Action | Impact | New Total |
-|----------|-----------|---------|--------|--------|----------|
-| P1 | AI Literacy | 1/3 | Add AI literacy module: AI capabilities and limitations, prompt engineering, AI governance and ethics, AI-augmented workflow design | +1 | 25/36 |
-| P2 | Human & Relational | 1/3 | Add clinical placement, community engagement, or professional practice requiring interpersonal accountability | +1 | 26/36 |
-| P3 | Systems Thinking | 2/3 | Integrate cross-disciplinary systems analysis modules with trade-off reasoning and failure-mode analysis | +1 | 27/36 |
+---
 
-### Outcome
-After all priority actions: **27/36 MODERATE RISK** (1 pts from RESILIENT)
+### Priority 1 Actions (reach RESILIENT)
 
-### Implementation Notes
-- P1 actions can typically be implemented in one academic cycle (6-12 months)
-- P2 and P3 actions may require curriculum committee approval and 12-24 month lead time
-- AI Literacy module is the single highest-impact intervention across all programs
+| # | Dimension | Current → Target | Impact | Action | Effort |
+|---|-----------|-----------------|--------|--------|--------|
+| 1 | Systems Thinking | 2 → 3 | +1 | Integrate cross-disciplinary case studies into existing core units | Low |
+| 2 | Outcome Evidence | 2 → 3 | +1 | Add QILT GOS data + 3-year outcomes to public program information | Low |
+| 3 | AI Literacy | 1 → 3 | +2 | Add dedicated AI in discipline core unit (12.5pt) | Medium |
+
+### Score Impact
+
+| Scenario | Score | Band |
+|----------|-------|------|
+| Current | 24 | MODERATE RISK |
+| P1 only | 28 | RESILIENT |

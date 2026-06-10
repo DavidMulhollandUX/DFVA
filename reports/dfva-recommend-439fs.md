@@ -1,18 +1,32 @@
-## DFVA IMPROVEMENT ROADMAP: University of Melbourne (439FS)
-**Current:** 21/36 MODERATE RISK | **Target:** RESILIENT (28+) | **Gap:** 7 pts
+## IMPROVEMENT PLAN: Master of Food Science
 
-### Priority Actions
+**Current:** 21/36 MODERATE RISK | **Duration:** 2 years (200 pts)
+**Target:** 28/36 RESILIENT | **Gap:** 7 points
 
-| Priority | Dimension | Current | Action | Impact | New Total |
-|----------|-----------|---------|--------|--------|----------|
-| P1 | AI Literacy | 1/3 | Add AI literacy module: AI capabilities and limitations, prompt engineering, AI governance and ethics, AI-augmented workflow design | +1 | 22/36 |
-| P2 | Automation Exposure | 2/3 | Add real-world capstone project with industry partner requiring independent judgment and decision ownership | +1 | 23/36 |
-| P3 | Systems Thinking | 2/3 | Integrate cross-disciplinary systems analysis modules with trade-off reasoning and failure-mode analysis | +1 | 24/36 |
+---
 
-### Outcome
-After all priority actions: **24/36 MODERATE RISK** (4 pts from RESILIENT)
+### Priority 1 Actions (reach RESILIENT)
 
-### Implementation Notes
-- P1 actions can typically be implemented in one academic cycle (6-12 months)
-- P2 and P3 actions may require curriculum committee approval and 12-24 month lead time
-- AI Literacy module is the single highest-impact intervention across all programs
+| # | Dimension | Current → Target | Impact | Action | Effort |
+|---|-----------|-----------------|--------|--------|--------|
+| 1 | Systems Thinking | 2 → 3 | +1 | Integrate cross-disciplinary case studies into existing core units | Low |
+| 2 | Technical Depth | 2 → 3 | +1 | Require technical-elective sequence (3+ units) with applied project | Low |
+| 3 | Decision-Making | 2 → 3 | +1 | Add capstone project requiring documented decision rationale | Low |
+| 4 | Human & Relational | 2 → 3 | +1 | Integrate stakeholder engagement into existing project assessment | Low |
+| 5 | Curriculum Currency | 2 → 3 | +1 | Add emerging-trends module updated each intake | Low |
+| 6 | AI Literacy | 1 → 3 | +2 | Add dedicated AI in discipline core unit (12.5pt) | Medium |
+
+### Priority 2 Actions (bonus resilience)
+
+| # | Dimension | Current → Target | Impact | Action | Effort |
+|---|-----------|-----------------|--------|--------|--------|
+| 1 | Automation Exposure | 2 → 3 | +1 | Require industry project with defended outputs and stakeholder presentation | Medium |
+| 2 | Research Rigour | 2 → 3 | +1 | Replace literature review with primary data collection requirement | Medium |
+
+### Score Impact
+
+| Scenario | Score | Band |
+|----------|-------|------|
+| Current | 21 | MODERATE RISK |
+| P1 only | 28 | RESILIENT |
+| All actions | 30 | RESILIENT |

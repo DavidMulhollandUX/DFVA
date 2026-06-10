@@ -1,18 +1,27 @@
-## DFVA IMPROVEMENT ROADMAP: MC-CS (MC-CS)
-**Current:** 27/36 MODERATE RISK | **Target:** RESILIENT (28+) | **Gap:** 1 pts
+## IMPROVEMENT PLAN: Master of Computer Science
 
-### Priority Actions
+**Current:** 27/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
+**Target:** 28/36 RESILIENT | **Gap:** 1 point
 
-| Priority | Dimension | Current | Action | Impact | New Total |
-|----------|-----------|---------|--------|--------|----------|
-| P1 | Automation Exposure | 2/3 | Add real-world capstone project with industry partner requiring independent judgment and decision ownership | +1 | 28/36 |
-| P2 | Systems Thinking | 2/3 | Integrate cross-disciplinary systems analysis modules with trade-off reasoning and failure-mode analysis | +1 | 29/36 |
-| P3 | Human & Relational | 2/3 | Add clinical placement, community engagement, or professional practice requiring interpersonal accountability | +1 | 30/36 |
+---
 
-### Outcome
-After all priority actions: **30/36 RESILIENT** ✅
+### Priority 1 Actions (reach RESILIENT)
 
-### Implementation Notes
-- P1 actions can typically be implemented in one academic cycle (6-12 months)
-- P2 and P3 actions may require curriculum committee approval and 12-24 month lead time
-- AI Literacy module is the single highest-impact intervention across all programs
+| # | Dimension | Current → Target | Impact | Action | Effort |
+|---|-----------|-----------------|--------|--------|--------|
+| 1 | Systems Thinking | 2 → 3 | +1 | Integrate cross-disciplinary case studies into existing core units | Low |
+
+### Priority 2 Actions (bonus resilience)
+
+| # | Dimension | Current → Target | Impact | Action | Effort |
+|---|-----------|-----------------|--------|--------|--------|
+| 1 | Automation Exposure | 2 → 3 | +1 | Require industry project with defended outputs and stakeholder presentation | Medium |
+| 2 | Human & Relational | 2 → 3 | +1 | Integrate stakeholder engagement into existing project assessment | Low |
+
+### Score Impact
+
+| Scenario | Score | Band |
+|----------|-------|------|
+| Current | 27 | MODERATE RISK |
+| P1 only | 28 | RESILIENT |
+| All actions | 30 | RESILIENT |

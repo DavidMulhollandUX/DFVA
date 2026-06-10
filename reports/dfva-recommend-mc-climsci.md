@@ -1,18 +1,29 @@
-## DFVA IMPROVEMENT ROADMAP: University of Melbourne (MC-CLIMSCI)
-**Current:** 26/36 MODERATE RISK | **Target:** RESILIENT (28+) | **Gap:** 2 pts
+## IMPROVEMENT PLAN: Master of Climate Science
 
-### Priority Actions
+**Current:** 26/36 MODERATE RISK | **Duration:** 2 years (200 pts)
+**Target:** 28/36 RESILIENT | **Gap:** 2 points
 
-| Priority | Dimension | Current | Action | Impact | New Total |
-|----------|-----------|---------|--------|--------|----------|
-| P1 | AI Literacy | 1/3 | Add AI literacy module: AI capabilities and limitations, prompt engineering, AI governance and ethics, AI-augmented workflow design | +1 | 27/36 |
-| P2 | Automation Exposure | 2/3 | Add real-world capstone project with industry partner requiring independent judgment and decision ownership | +1 | 28/36 |
-| P3 | Research Rigour | 2/3 | Add research methods core or expand existing thesis/capstone research requirements | +1 | 29/36 |
+---
 
-### Outcome
-After all priority actions: **29/36 RESILIENT** ✅
+### Priority 1 Actions (reach RESILIENT)
 
-### Implementation Notes
-- P1 actions can typically be implemented in one academic cycle (6-12 months)
-- P2 and P3 actions may require curriculum committee approval and 12-24 month lead time
-- AI Literacy module is the single highest-impact intervention across all programs
+| # | Dimension | Current → Target | Impact | Action | Effort |
+|---|-----------|-----------------|--------|--------|--------|
+| 1 | Human & Relational | 2 → 3 | +1 | Integrate stakeholder engagement into existing project assessment | Low |
+| 2 | Outcome Evidence | 2 → 3 | +1 | Add QILT GOS data + 3-year outcomes to public program information | Low |
+
+### Priority 2 Actions (bonus resilience)
+
+| # | Dimension | Current → Target | Impact | Action | Effort |
+|---|-----------|-----------------|--------|--------|--------|
+| 1 | AI Literacy | 1 → 3 | +2 | Add dedicated AI in discipline core unit (12.5pt) | Medium |
+| 2 | Automation Exposure | 2 → 3 | +1 | Require industry project with defended outputs and stakeholder presentation | Medium |
+| 3 | Research Rigour | 2 → 3 | +1 | Replace literature review with primary data collection requirement | Medium |
+
+### Score Impact
+
+| Scenario | Score | Band |
+|----------|-------|------|
+| Current | 26 | MODERATE RISK |
+| P1 only | 28 | RESILIENT |
+| All actions | 32 | RESILIENT |

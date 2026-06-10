@@ -1,6 +1,7 @@
 import { REPORT_CONTENT_MC_SCIBIT } from './reportContent.mc-scibit';
 import { REPORT_CONTENT_MC_SCIEAR } from './reportContent.mc-sciear';
 import { REPORT_CONTENT_MC_SCIEPI } from './reportContent.mc-sciepi';
+import { RECOMMEND_CONTENT_ALL } from './reportContent.recommend-all';
 
 export const REPORT_CONTENT: Record<
   string,
