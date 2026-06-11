@@ -1,5 +1,7 @@
 # DFVA App — Next Steps (2026-06-08)
 
+> **Superseded by [next-steps-2026-06-12.md](next-steps-2026-06-12.md).** The migration/smoke-test blockers below were resolved on 2026-06-10→12; commits referenced here are all pushed.
+
 ## What was built (7/8 tasks complete, all committed)
 
 | # | Task | Commit | Status |
