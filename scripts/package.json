@@ -7,7 +7,8 @@
     "validate": "npx tsx validate-reports.ts",
     "validate:verbose": "npx tsx validate-reports.ts --verbose",
     "dfva:gen": "npx tsx dfva-generate.ts",
-    "dfva:check": "npx tsx dfva-check.ts",
+    "dfva:check": "npx tsx dfva-check.ts && npx tsx dfva-registry-check.ts",
+    "dfva:check-registry": "npx tsx dfva-registry-check.ts",
     "dfva:sync-skill": "cp ../dfva/dist/claude-skill/SKILL.md ~/.claude/skills/dfva/SKILL.md"
   },
   "devDependencies": {

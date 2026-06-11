@@ -9,6 +9,11 @@ on:
       - '.continue/prompts/dfva.md'
       - 'compass-static/src/data/rubric.ts'
       - 'compass-static/src/data/dimensionEvidence.ts'
+      - 'compass-static/src/data/programData.ts'
+      - 'compass/app/src/compass/sharedProgramData.ts'
+      - 'compass/app/src/compass/reportContent*.ts'
+      - 'compass/app/src/compass/ReportDetailPage.tsx'
+      - 'reports/**'
   push:
     paths:
       - 'dfva/source/**'
@@ -17,6 +22,11 @@ on:
       - '.continue/prompts/dfva.md'
       - 'compass-static/src/data/rubric.ts'
       - 'compass-static/src/data/dimensionEvidence.ts'
+      - 'compass-static/src/data/programData.ts'
+      - 'compass/app/src/compass/sharedProgramData.ts'
+      - 'compass/app/src/compass/reportContent*.ts'
+      - 'compass/app/src/compass/ReportDetailPage.tsx'
+      - 'reports/**'
 
 jobs:
   dfva-check:
