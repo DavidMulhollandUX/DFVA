@@ -1,27 +1,14 @@
 import { useMemo } from 'react';
-import { Link } from 'react-router';
+import { Link, useParams } from 'react-router';
 import { PROGRAMS, type ProgramReport } from './sharedProgramData';
-import { ArrowRight, Building2, TrendingUp, AlertTriangle } from 'lucide-react';
+import { getFaculty, facultySlug } from './faculty';
+import { Building2, AlertTriangle } from 'lucide-react';
 import {
   Card,
   CardContent,
   CardHeader,
   CardTitle,
 } from '../client/components/ui/card';
-
-function getFaculty(program: string): string {
-  const n = program.toLowerCase();
-  if (/engineering|structures|industrial eng/i.test(n)) return 'Engineering';
-  if (/computer|data sci|information tech|software|analytics|business analy/i.test(n)) return 'IT & Analytics';
-  if (/psycholog|nursing|dentist|health|medicine|physio|surg|genetic|social work|optom|pharm|vet|audiology|speech|food sci/i.test(n)) return 'Health';
-  if (/business|mba|marketing|finance|econom|management|enterprise|entrepreneur|supply/i.test(n)) return 'Business';
-  if (/urban|architect|design|property|landscap|construct|horticult/i.test(n)) return 'Built Environment';
-  if (/law|legal|tax/i.test(n)) return 'Law';
-  if (/educat|teach|tesol|ib\b/i.test(n)) return 'Education';
-  if (/art|music|film|screen|journal|curat|creative|writing/i.test(n)) return 'Creative Arts';
-  if (/scien|physics|chemistry|biology|math|environ|climat|food|agric|forest|animal/i.test(n)) return 'Science & Environment';
-  return 'Other';
-}
 
 const DIM_LABELS = [
   'Automation Exposure', 'Systems Thinking', 'Technical Depth',
@@ -95,7 +82,12 @@ function scoreBg(score: number): string {
 }
 
 export default function FacultyDashboard() {
+  const { facultySlug: selectedSlug } = useParams<{ facultySlug: string }>();
   const faculties = useMemo(() => computeFacultyStats(), []);
+  const aiLiteracyAvg = useMemo(() => {
+    const scores = PROGRAMS.map(p => p.dimensions.find(d => d.label === 'AI Literacy')?.score ?? 0);
+    return scores.reduce((s, v) => s + v, 0) / scores.length;
+  }, []);
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-16">
@@ -136,7 +128,7 @@ export default function FacultyDashboard() {
           </CardHeader>
           <CardContent>
             <div className="text-2xl font-bold text-red-600 dark:text-red-400">
-              1.1 <span className="text-sm font-normal text-muted-foreground">/ 3</span>
+              {aiLiteracyAvg.toFixed(1)} <span className="text-sm font-normal text-muted-foreground">/ 3</span>
             </div>
             <div className="text-xs text-muted-foreground">university-wide average</div>
           </CardContent>
@@ -161,7 +153,14 @@ export default function FacultyDashboard() {
             </thead>
             <tbody>
               {faculties.map((f) => (
-                <tr key={f.name} className="border-b border-border hover:bg-muted/30 transition-colors">
+                <tr
+                  key={f.name}
+                  className={`border-b border-border transition-colors ${
+                    selectedSlug && facultySlug(f.name) === selectedSlug
+                      ? 'bg-primary/5'
+                      : 'hover:bg-muted/30'
+                  }`}
+                >
                   <td className="px-4 py-3 font-medium">
                     <Link to="/reports" className="hover:text-primary transition-colors">
                       {f.name}

@@ -1,6 +1,4 @@
 // compass/app/src/client/components/ProgramRadar.tsx
-import { useState } from 'react';
-
 export interface RadarDimension {
   label: string;
   score: number;
@@ -104,7 +102,7 @@ export function ProgramRadar({ dimensions, size = 280, showTarget = false, class
         className="fill-muted-foreground"
         transform={`rotate(${rotation}, ${pt.x}, ${pt.y})`}
       >
-        {d.label.length > 12 ? d.label.slice(0, 11) + '…' : d.label}
+        {d.label.length > 18 ? d.label.slice(0, 17) + '…' : d.label}
       </text>
     );
   });

@@ -4,6 +4,8 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { ArrowLeft, BarChart2, ClipboardList, TrendingUp } from "lucide-react";
 import { REPORT_CONTENT } from "./reportContent";
+import { PROGRAMS } from "./sharedProgramData";
+import { ProgramRadar } from "../client/components/ProgramRadar";
 
 const riskBandStyles: Record<string, string> = {
   RESILIENT:
@@ -43,7 +45,7 @@ const reportMeta: Record<
   "dfva-recommend-mc-actsc": { score: null, riskBand: null },
   "dfva-mc-apbusa": { score: "20 / 36", riskBand: "MODERATE RISK" },
   "dfva-market-mc-apbusa": { score: null, riskBand: null },
-  "dfva-mc-arch": { score: "28 / 36", riskBand: "MODERATE RISK" },
+  "dfva-mc-arch": { score: "28 / 36", riskBand: "RESILIENT" },
   "dfva-market-mc-arch": { score: null, riskBand: null },
   "dfva-mc-ba": { score: "25 / 36", riskBand: "MODERATE RISK" },
   "dfva-market-mc-ba": { score: null, riskBand: null },
@@ -122,6 +124,91 @@ const reportMeta: Record<
   "dfva-market-mc-urbhort": { score: null, riskBand: null },
 };
 
+// Eight round-2 batch reports are raw JSON (assessment object) followed by a
+// markdown MARKET DATA section. Render those as a structured table instead of
+// piping JSON through ReactMarkdown; anything unparseable falls back to markdown.
+interface StructuredReport {
+  score: number;
+  maxScore: number;
+  riskBand: string;
+  dimensions: { label: string; score: number; max: number; rationale?: string }[];
+  thresholds?: Record<string, string>;
+}
+
+function parseStructured(markdown: string): { data: StructuredReport; rest: string } | null {
+  if (!markdown.trimStart().startsWith("{")) return null;
+  const idx = markdown.indexOf("\n}");
+  if (idx === -1) return null;
+  try {
+    const data = JSON.parse(markdown.slice(0, idx + 2)) as StructuredReport;
+    if (!Array.isArray(data.dimensions)) return null;
+    return { data, rest: markdown.slice(idx + 2) };
+  } catch {
+    return null;
+  }
+}
+
+const THRESHOLD_QUESTIONS: Record<string, string> = {
+  q1: "Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?",
+  q2: "Does this program train graduates to design systems, own decisions, or generate original insight?",
+  q3: "Will these graduates be more employable in 5 years than today, given AI trends?",
+};
+
+function dimScoreClasses(score: number, max: number): string {
+  const pct = score / max;
+  if (pct >= 0.83) return "bg-emerald-100 text-emerald-800 dark:bg-emerald-900/30 dark:text-emerald-300";
+  if (pct >= 0.5) return "bg-yellow-100 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-300";
+  return "bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-300";
+}
+
+function StructuredAssessment({ data, rest }: { data: StructuredReport; rest: string }) {
+  return (
+    <div>
+      {data.thresholds && (
+        <div className="mb-6 space-y-2">
+          {Object.entries(data.thresholds).map(([q, answer]) => (
+            <div key={q} className="flex items-start gap-3 text-sm">
+              <span className="inline-flex shrink-0 rounded-full border border-border px-2 py-0.5 text-xs font-semibold uppercase text-muted-foreground">
+                {q} · {answer}
+              </span>
+              <span className="text-muted-foreground">{THRESHOLD_QUESTIONS[q] ?? ""}</span>
+            </div>
+          ))}
+        </div>
+      )}
+      <div className="overflow-x-auto rounded-lg border border-border">
+        <table className="w-full text-sm">
+          <thead>
+            <tr className="border-b border-border bg-muted/50">
+              <th className="px-3 py-2 text-left font-semibold">Dimension</th>
+              <th className="px-3 py-2 text-center font-semibold">Score</th>
+              <th className="px-3 py-2 text-left font-semibold">Rationale</th>
+            </tr>
+          </thead>
+          <tbody>
+            {data.dimensions.map((d) => (
+              <tr key={d.label} className="border-b border-border last:border-0 align-top">
+                <td className="px-3 py-2 font-medium whitespace-nowrap">{d.label}</td>
+                <td className="px-3 py-2 text-center">
+                  <span className={`inline-flex rounded-full px-2 py-0.5 text-xs font-bold ${dimScoreClasses(d.score, d.max)}`}>
+                    {d.score}/{d.max}
+                  </span>
+                </td>
+                <td className="px-3 py-2 text-muted-foreground">{d.rationale ?? ""}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      {rest.trim() && (
+        <div className="prose prose-sm dark:prose-invert mt-8 max-w-none prose-table:text-xs prose-th:font-semibold prose-td:align-top">
+          <ReactMarkdown remarkPlugins={[remarkGfm]}>{rest}</ReactMarkdown>
+        </div>
+      )}
+    </div>
+  );
+}
+
 const NAV_TABS = [
   { type: "assessment" as const, label: "Assessment", icon: BarChart2 },
   { type: "market" as const, label: "Market Intelligence", icon: TrendingUp },
@@ -165,6 +252,7 @@ export default function ReportDetailPage() {
     market: "dfva-market-" + code,
     recommend: "dfva-recommend-" + code,
   };
+  const program = PROGRAMS.find(p => p.assessmentSlug === slugsByType.assessment);
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-12">
@@ -224,12 +312,30 @@ export default function ReportDetailPage() {
         </div>
       </div>
 
-      <div className="rounded-xl border border-border bg-card p-8">
-        <div className="prose prose-sm dark:prose-invert max-w-none prose-table:text-xs prose-th:font-semibold prose-td:align-top">
-          <ReactMarkdown remarkPlugins={[remarkGfm]}>
-            {report.markdown}
-          </ReactMarkdown>
+      {currentType === "assessment" && program && (
+        <div className="mb-6 rounded-xl border border-border bg-card p-6">
+          <h2 className="text-sm font-semibold text-center text-foreground">
+            Dimension Fingerprint
+          </h2>
+          <p className="text-xs text-muted-foreground text-center mb-2">
+            11 dimensions scored 0–3 · {program.score}/{program.maxScore} total
+          </p>
+          <ProgramRadar dimensions={program.dimensions} size={360} />
         </div>
+      )}
+
+      <div className="rounded-xl border border-border bg-card p-8">
+        {(() => {
+          const structured = parseStructured(report.markdown);
+          if (structured) return <StructuredAssessment data={structured.data} rest={structured.rest} />;
+          return (
+            <div className="prose prose-sm dark:prose-invert max-w-none prose-table:text-xs prose-th:font-semibold prose-td:align-top">
+              <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                {report.markdown}
+              </ReactMarkdown>
+            </div>
+          );
+        })()}
       </div>
     </div>
   );

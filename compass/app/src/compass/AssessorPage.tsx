@@ -11,7 +11,14 @@ export default function AssessorPage() {
   const [inputUrl, setInputUrl] = useState("");
   const [submitting, setSubmitting] = useState(false);
 
-  const { data: jobs = [], isLoading, refetch } = useQuery(getAssessmentJobs);
+  const { data: jobs = [], isLoading, refetch } = useQuery(getAssessmentJobs, undefined, {
+    // Poll while any job is still running so status badges flip to
+    // Complete/Failed without a manual refresh (react-query v4 signature).
+    refetchInterval: (data: any) =>
+      Array.isArray(data) && data.some((j: any) => j.status !== "complete" && j.status !== "failed")
+        ? 1500
+        : false,
+  });
   const submitAction = useAction(assessProgram);
 
   async function handleSubmit(e: React.FormEvent) {

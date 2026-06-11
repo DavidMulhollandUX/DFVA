@@ -11,27 +11,6 @@ import {
   CardTitle,
 } from '../client/components/ui/card';
 
-function getFaculty(program: string): string {
-  const n = program.toLowerCase();
-  if (/engineering|structures|industrial eng/i.test(n)) return 'Engineering';
-  if (/computer|data sci|information tech|software|analytics|business analy/i.test(n)) return 'IT & Analytics';
-  if (/psycholog|nursing|dentist|health|medicine|physio|surg|genetic|social work|optom|pharm|vet|audiology|speech|food sci/i.test(n)) return 'Health';
-  if (/business|mba|marketing|finance|econom|management|enterprise|entrepreneur|supply/i.test(n)) return 'Business';
-  if (/urban|architect|design|property|landscap|construct|horticult/i.test(n)) return 'Built Environment';
-  if (/law|legal|tax/i.test(n)) return 'Law';
-  if (/educat|teach|tesol|ib\b/i.test(n)) return 'Education';
-  if (/art|music|film|screen|journal|curat|creative|writing/i.test(n)) return 'Creative Arts';
-  if (/scien|physics|chemistry|biology|math|environ|climat|food|agric|forest|animal/i.test(n)) return 'Science & Environment';
-  return 'Other';
-}
-
-const DIM_LABELS = [
-  'Automation Exposure', 'Systems Thinking', 'Technical Depth',
-  'Decision-Making', 'AI Literacy', 'Domain Depth', 'Research Rigour',
-  'Human & Relational', 'Curriculum Currency', 'Outcome Evidence',
-  'Irreplaceability (bonus)',
-];
-
 export default function PortfolioHealthPage() {
   const stats = useMemo(() => {
     const bands: Record<string, number> = {};
@@ -146,7 +125,7 @@ export default function PortfolioHealthPage() {
                 <div className="flex items-start gap-2">
                   <CheckCircle2 className="h-4 w-4 text-emerald-500 mt-0.5 shrink-0" />
                   <div className="text-sm">
-                    <span className="font-medium">83% of programs</span> cluster in MODERATE RISK — stable but not resilient
+                    <span className="font-medium">{((moderateCount / total) * 100).toFixed(0)}% of programs</span> cluster in MODERATE RISK — stable but not resilient
                   </div>
                 </div>
               </div>

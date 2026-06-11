@@ -318,6 +318,22 @@ page ReportDetailPage {
   component: import ReportDetailPage from "@src/compass/ReportDetailPage"
 }
 
+route InsightsRoute { path: "/insights", to: InsightsPage }
+page InsightsPage {
+  component: import InsightsPage from "@src/compass/InsightsPage"
+}
+
+route PortfolioHealthRoute { path: "/insights/portfolio", to: PortfolioHealthPage }
+page PortfolioHealthPage {
+  component: import PortfolioHealthPage from "@src/compass/PortfolioHealthPage"
+}
+
+route FacultyComparisonRoute { path: "/insights/faculty", to: FacultyDashboardPage }
+route FacultyDetailRoute { path: "/insights/faculty/:facultySlug", to: FacultyDashboardPage }
+page FacultyDashboardPage {
+  component: import FacultyDashboard from "@src/compass/FacultyDashboard"
+}
+
 action assessProgram {
   fn: import { assessProgram } from "@src/compass/operations",
   entities: [AssessmentJob, User]

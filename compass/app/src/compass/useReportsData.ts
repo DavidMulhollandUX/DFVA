@@ -16,15 +16,20 @@ export function useReportsData(): {
   const { data: jobs = [], isLoading } = useQuery(getAssessmentJobs);
 
   const reports = useMemo(() => {
-    // 1. Filter completed jobs and convert to ProgramReport shape
-    const fromDb: ProgramReport[] = jobs
-      .filter((j: any) => j.status === 'complete' && j.reportJson)
-      .map((j: any) => jobToReport(j));
+    // 1. Convert completed jobs to ProgramReport shape, keeping only the newest
+    //    job per assessmentSlug (jobs arrive most-recent-first; re-running an
+    //    assessment must not produce duplicate cards/keys).
+    const fromDb: ProgramReport[] = [];
+    const dbSlugs = new Set<string>();
+    for (const j of jobs as any[]) {
+      if (j.status !== 'complete' || !j.reportJson) continue;
+      const r = jobToReport(j);
+      if (dbSlugs.has(r.assessmentSlug)) continue;
+      dbSlugs.add(r.assessmentSlug);
+      fromDb.push(r);
+    }
 
-    // 2. Build set of slugs already covered by DB
-    const dbSlugs = new Set(fromDb.map(r => r.assessmentSlug));
-
-    // 3. Merge: DB first, then PROGRAMS entries not yet in DB
+    // 2. Merge: DB first, then PROGRAMS entries not yet in DB
     return [
       ...fromDb,
       ...PROGRAMS.filter(p => !dbSlugs.has(p.assessmentSlug)),
