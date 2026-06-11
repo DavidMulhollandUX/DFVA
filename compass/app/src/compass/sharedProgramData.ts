@@ -625,7 +625,7 @@ export const PROGRAMS: ProgramReport[] = [
     date: "2026-06-09",
     score: 28,
     maxScore: 36,
-    riskBand: "MODERATE RISK",
+    riskBand: "RESILIENT",
     thresholds: { q1: "NO", q2: "YES", q3: "YES" },
     dimensions: [
       { label: "Automation Exposure", score: 3, max: 3 },

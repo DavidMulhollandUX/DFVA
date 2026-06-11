@@ -7,6 +7,7 @@ export const REPORT_CONTENT: Record<
   string,
   { title: string; institution: string; markdown: string }
 > = {
+  ...RECOMMEND_CONTENT_ALL,
   ...REPORT_CONTENT_MC_SCIBIT,
   ...REPORT_CONTENT_MC_SCIEAR,
   ...REPORT_CONTENT_MC_SCIEPI,
@@ -1127,7 +1128,7 @@ Confidence: **Medium-High**. Actuarial automation is well-documented in industry
     markdown: `{
   "score": 28,
   "maxScore": 36,
-  "riskBand": "MODERATE RISK",
+  "riskBand": "RESILIENT",
   "dimensions": [
     {
       "label": "Automation Exposure",

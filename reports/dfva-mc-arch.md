@@ -1,7 +1,7 @@
 {
   "score": 28,
   "maxScore": 36,
-  "riskBand": "MODERATE RISK",
+  "riskBand": "RESILIENT",
   "dimensions": [
     {
       "label": "Automation Exposure",
