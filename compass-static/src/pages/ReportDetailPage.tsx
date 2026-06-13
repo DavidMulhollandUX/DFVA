@@ -3,6 +3,7 @@ import { ArrowLeft, BarChart2, ClipboardList, TrendingUp } from 'lucide-react'
 import { REPORT_CONTENT } from '../data/reportContent'
 import { getProgramBySlug } from '../data/programData'
 import { ScoreArc, DimensionRadar, DimensionSteps, ThresholdPanel, RISK_CONFIG, ReportMarkdown } from '../components/dfva'
+import HowWeCompare from '../components/HowWeCompare'
 
 const NAV_TABS = [
   { type: 'assessment' as const, label: 'Assessment', icon: BarChart2 },
@@ -116,6 +117,9 @@ export default function ReportDetailPage() {
           </div>
         </div>
       )}
+
+      {/* How We Compare — expandable methodology comparison */}
+      <HowWeCompare />
 
       {/* Markdown content */}
       <div className="mt-8 rounded-xl border border-border bg-card px-8 py-7">

@@ -5,6 +5,7 @@ import LandingPage from './pages/LandingPage'
 import AssessorPage from './pages/AssessorPage'
 import ReportsPage from './pages/ReportsPage'
 import ReportDetailPage from './pages/ReportDetailPage'
+import MethodologyPage from './pages/MethodologyPage'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -23,6 +24,7 @@ export default function App() {
           <Route path="/assess" element={<AssessorPage />} />
           <Route path="/reports" element={<ReportsPage />} />
           <Route path="/reports/:reportSlug" element={<ReportDetailPage />} />
+          <Route path="/methodology" element={<MethodologyPage />} />
         </Routes>
       </div>
     </HashRouter>

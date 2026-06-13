@@ -139,6 +139,39 @@ export default function LandingPage() {
         </div>
       </section>
 
+      {/* Independent Methodology */}
+      <section className="border-t border-border px-6 py-16 lg:px-8 bg-muted/30">
+        <div className="mx-auto max-w-3xl text-center">
+          <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
+            Independent Methodology
+          </p>
+          <h2 className="mt-3 text-3xl font-bold text-foreground">
+            Not a vendor add-on. A published rubric.
+          </h2>
+          <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
+            COMPASS uses DFVA — a 10-dimension, peer-reviewed scoring methodology built at the
+            University of Melbourne. Unlike labour market data overlays that tell you what jobs
+            exist today, DFVA scores whether a curriculum builds the capabilities graduates need
+            when those jobs change.
+          </p>
+          <div className="mt-6 flex flex-wrap items-center justify-center gap-2 text-sm text-muted-foreground">
+            <span className="rounded-full border border-border px-3 py-1">AI-Durability Scoring</span>
+            <span className="text-muted-foreground/40">·</span>
+            <span className="rounded-full border border-border px-3 py-1">Published Criteria</span>
+            <span className="text-muted-foreground/40">·</span>
+            <span className="rounded-full border border-border px-3 py-1">Vendor-Neutral</span>
+            <span className="text-muted-foreground/40">·</span>
+            <span className="rounded-full border border-border px-3 py-1">Accreditation-Ready</span>
+          </div>
+          <Link
+            to="/methodology"
+            className="mt-6 inline-block rounded-lg border border-orange-200 bg-orange-50 px-6 py-3 text-sm font-semibold text-orange-700 hover:bg-orange-100 dark:border-orange-900 dark:bg-orange-950/20 dark:text-orange-300 transition-colors"
+          >
+            Read the full methodology →
+          </Link>
+        </div>
+      </section>
+
       {/* Features */}
       <section id="features" className="border-t border-border px-6 py-24 lg:px-8">
         <div className="mx-auto max-w-6xl">

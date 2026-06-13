@@ -24,6 +24,30 @@ DFVA = Degree Future-Viability Assessment — the scoring methodology.
 - Test before committing. Lint before pushing.
 - For multi-step tasks, prefer inline Workflow scripts
 
+## Agent-First (MCP)
+
+COMPASS is now agent-first. Instead of visiting the website, agents consume DFVA context directly:
+
+### MCP Tools (dfva-mcp)
+- `get_assessment { programCode }` — full 11-dimension assessment
+- `query_assessments { faculty?, riskCategory?, minScore?, maxScore? }` — filtered query
+- `cross_program_analysis` — risk distribution, weakest dimension, near-resilient programs
+- `get_methodology` — scoring rubric and criteria
+- `list_programs` — all program codes with names
+- `get_report { programCode }` — full markdown report
+
+### Usage in Claude Code
+```
+Use dfva MCP: get_assessment mc-cs
+Use dfva MCP: query_assessments with faculty="Science", riskCategory="MODERATE RISK"
+Use dfva MCP: cross_program_analysis
+```
+
+### Running the MCP server
+```bash
+cd compass/mcp && npm run dev
+```
+
 ## Related
 - Hermes skills: ~/.hermes/skills/
 - Claude Code skills: ~/.claude/skills/
