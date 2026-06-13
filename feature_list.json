@@ -18,7 +18,7 @@
       "id": "feat-002",
       "name": "Coursedog LMI Fast-Follow Response",
       "description": "Coursedog shipped LMI-in-workflow via Mapademics (May 2026). DFVA must differentiate on methodology (AI-durability scoring vs generic LMI) and the independent-standard positioning. Consider: highlight scoring methodology as deeper than LMI data overlays; accelerate the independent-standard narrative (H2).",
-      "status": "in_progress",
+      "status": "done",
       "priority": "high",
       "score": 9,
       "source": "Coursedog via Mapademics case study",
@@ -64,8 +64,8 @@
       "specs_generated": 3
     },
     "dev_loop": {
-      "last_run": "2026-06-13",
-      "features_built": 1
+      "last_run": "2026-06-13T15:00:00+10:00",
+      "features_built": 2
     }
   }
 }
