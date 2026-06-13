@@ -11,14 +11,15 @@ test.describe('COMPASS pages', () => {
     await expect(page.locator('h1')).toContainText('Assessment Reports');
   });
 
-  test('/assess page loads with URL input', async ({ page }) => {
+  // /assess is authRequired:true — anonymous users are redirected to login.
+  // The authenticated assess+submit flow is covered by smoke-run.mjs.
+  test('/assess redirects anonymous users to login', async ({ page }) => {
     await page.goto('/assess');
-    await expect(page.locator('h1')).toContainText('Assess a Program');
-    await expect(page.locator('input[type="url"]')).toBeVisible();
-    await expect(page.locator('button[type="submit"]')).toBeVisible();
+    await page.waitForURL('**/login');
+    await expect(page).toHaveURL(/\/login/);
   });
 
-  test('all 19 programs appear on reports page', async ({ page }) => {
+  test('key programs appear on reports page', async ({ page }) => {
     await page.goto('/reports');
     await expect(page.locator('text=Bachelor of Design')).toBeVisible();
     await expect(page.locator('text=Master of Information Systems')).toBeVisible();
