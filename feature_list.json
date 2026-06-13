@@ -6,7 +6,7 @@
       "id": "feat-001",
       "name": "Auth on Assess",
       "description": "Add authRequired: true to AssessRoute so only authenticated users can submit assessments. Currently anyone can visit /assess and submit program URLs for analysis.",
-      "status": "in_progress",
+      "status": "done",
       "priority": "high",
       "score": 8,
       "source": "docs/next-steps-2026-06-08.md",
@@ -60,6 +60,6 @@
   },
   "loops": {
     "spec_loop": {"last_run": "2026-06-13", "specs_generated": 3},
-    "dev_loop": {"last_run": null, "features_built": 0}
+    "dev_loop": {"last_run": "2026-06-13", "features_built": 1}
   }
 }
