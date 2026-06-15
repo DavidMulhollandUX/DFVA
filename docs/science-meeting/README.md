@@ -9,7 +9,8 @@ All figures are generated from the canonical registry (`compass/app/src/compass/
 | `01-science-onepager.pdf` | A4 portrait — faculty durability read: stats, 11-program table, the twin gap, near-threshold callout | EXP-01 (portfolio read) |
 | `02-science-dashboard.pdf` | A4 landscape — per-program cards: score gauge, dimension fingerprint, threshold answers, distance-to-RESILIENT | EXP-01/07 |
 | `03-science-rollup.pdf` | A4 portrait — improvement priorities: two moves, illustrative projections, before→after portfolio shift | EXP-05 (redesign reaction) |
-| `04-science-deck.html` | 12-slide live deck (arrow keys · F = fullscreen · prints to PDF) — ends on the questions, not an ask | the whole session |
+| `04-science-deck.html` | 12-slide live deck (arrow keys · F = fullscreen) — ends on the questions, not an ask | the whole session |
+| `04-science-deck.pdf` | print/share export of the deck (12 × 16:9 pages) | backup leave-behind |
 
 ## Regenerate
 
