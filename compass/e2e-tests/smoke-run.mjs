@@ -84,10 +84,15 @@ record('portfolio health renders', await page.locator('text=Portfolio Health Rep
 record('portfolio: recommended actions', await page.locator('text=Recommended University-Wide Actions').count() > 0);
 await shot(page, 'insights-portfolio');
 
-await page.goto(`${BASE}/insights/faculty/health`, { waitUntil: 'networkidle' });
-record('faculty comparison renders via param route', await page.locator('text=Faculty Comparison').count() > 0);
-record('faculty comparison: selected row highlighted', await page.locator('tr.bg-primary\\/5').count() === 1);
-await shot(page, 'insights-faculty-health');
+await page.goto(`${BASE}/insights/faculty`, { waitUntil: 'networkidle' });
+record('faculty comparison table renders', await page.locator('text=Faculty Comparison').count() > 0);
+record('faculty comparison lists Science & Environment', await page.locator('text=Science & Environment').count() > 0);
+await shot(page, 'insights-faculty-comparison');
+
+await page.goto(`${BASE}/insights/faculty/science---environment`, { waitUntil: 'networkidle' });
+record('faculty drill-down renders Science detail', await page.locator('h1:has-text("Science & Environment")').count() > 0);
+record('faculty drill-down: programs table + back link', await page.locator('text=All faculties').count() > 0 && await page.locator('text=Risk distribution').count() > 0);
+await shot(page, 'insights-faculty-science');
 
 // --- 6. Auth: signup → verify (link from server log) → login -----------------
 const email = `smoke-${Date.now()}@example.com`;
