@@ -1,0 +1,236 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>COMPASS — Faculty of Science Portfolio Dashboard</title><style>
+    
+  :root{ --ink:#11151F; --ink-soft:#1E2533; --bg:#FCFCFC; --card:#FFFFFF;
+    --orange:#F97316; --orange-50:#FFF7ED; --muted:#6B7280; --muted-2:#9AA3B2;
+    --border:#E5E7EB; --border-2:#EEF1F4; }
+  *{ box-sizing:border-box; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  html,body{ margin:0; padding:0; background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+    font-feature-settings:'kern' 1,'liga' 1; -webkit-font-smoothing:antialiased; }
+  .tnum{ font-variant-numeric:tabular-nums; }
+  .mark{ width:21px; height:21px; }
+  .brand{ display:flex; align-items:center; gap:9px; }
+  .brand .name{ font-size:15px; font-weight:800; letter-spacing:.16em; }
+  .brand .sub{ font-size:9px; color:var(--muted); letter-spacing:.04em; margin-top:1px; }
+  .top{ display:flex; align-items:flex-end; justify-content:space-between; gap:16px;
+    border-bottom:2px solid var(--ink); padding-bottom:9px; }
+  .title{ text-align:center; }
+  .title h1{ margin:0; font-size:19px; font-weight:800; letter-spacing:-.01em; }
+  .title .pre{ font-size:8.5px; font-weight:700; text-transform:uppercase; letter-spacing:.2em; color:var(--orange); }
+  .kicker{ text-align:right; font-size:8.5px; font-weight:700; text-transform:uppercase; letter-spacing:.13em; color:var(--muted-2); line-height:1.5; }
+  .pill{ display:inline-block; font-size:7.5px; font-weight:800; letter-spacing:.04em; border-radius:999px; padding:2px 7px; text-transform:uppercase; }
+
+  .fp{ display:flex; align-items:flex-end; gap:3px; }
+  .fp .col{ flex:1; display:flex; flex-direction:column; align-items:center; gap:2px; }
+  .fp .barwrap{ width:100%; display:flex; align-items:flex-end; }
+  .fp .bar{ width:100%; border-radius:2px 2px 0 0; }
+  .fp .code{ font-size:6px; color:var(--muted-2); font-weight:600; }
+  .thr{ display:flex; gap:4px; margin-top:auto; padding-top:8px; }
+  .chip{ flex:1; border-radius:5px; padding:3px 5px; }
+  .chip .q{ font-size:5.5px; color:var(--muted); line-height:1.2; display:block; }
+  .chip .a{ font-size:7.5px; font-weight:800; letter-spacing:.02em; margin-top:1px; display:block; }
+    @page{ size:A4 landscape; margin:0; }
+    .sheet{ width:297mm; height:210mm; padding:9mm 11mm 7mm; display:flex; flex-direction:column; }
+    .intro{ font-size:9px; line-height:1.45; color:var(--muted); margin:6px 0 7px; }
+    .intro b{ color:var(--ink-soft); font-weight:700; }
+    .grid{ flex:1; display:grid; grid-template-columns:repeat(4,1fr); grid-auto-rows:1fr; gap:6px; }
+    .card{ border:1px solid var(--border); border-radius:9px; background:var(--card); padding:8px 10px; display:flex; flex-direction:column; }
+    .card .head{ display:flex; align-items:flex-start; justify-content:space-between; gap:6px; }
+    .pname{ font-size:10.5px; font-weight:800; line-height:1.12; } .pmeta{ font-size:7px; color:var(--muted-2); margin-top:2px; }
+    .midrow{ display:flex; align-items:center; justify-content:space-between; margin-top:5px; }
+    .dist{ font-size:7px; color:var(--muted); font-weight:700; text-transform:uppercase; letter-spacing:.04em; }
+    .seclabel{ font-size:6.5px; font-weight:700; text-transform:uppercase; letter-spacing:.1em; color:var(--muted-2); margin:7px 0 3px; }
+    .foot{ margin-top:7px; border-top:1px solid var(--border); padding-top:6px; }
+    .prov{ font-size:7px; color:var(--muted-2); line-height:1.5; }
+  </style></head><body><div class="sheet">
+    <div class="top"><div class="brand">
+  <svg class="mark" viewBox="0 0 32 32" fill="none">
+    <circle cx="16" cy="16" r="15" stroke="#11151F" stroke-width="2"/>
+    <path d="M16 5 L20 16 L16 27 L12 16 Z" fill="#F97316"/>
+    <circle cx="16" cy="16" r="2.4" fill="#11151F"/>
+  </svg>
+  <div><div class="name">COMPASS</div><div class="sub">AI-era curriculum viability</div></div>
+</div>
+      <div class="title"><div class="pre">Faculty of Science · Portfolio Dashboard</div><h1>11 programs, one durability scan</h1></div>
+      <div class="kicker">University of Melbourne<br>per-program fingerprint<br>scored 0–36</div>
+    </div>
+    <p class="intro">Each card: the program's <b>/36 score</b>, risk band, distance to RESILIENT, and its <b>dimension fingerprint</b> (D1–D10 + Irreplaceability). The flat bar across every card is <b>D5 AI Literacy</b>; the second recurring dip is <b>D10 Outcome Evidence</b>.</p>
+    <div class="grid"><div class="card">
+      <div class="head">
+        <div><div class="pname">Master of Climate Science</div><div class="pmeta">Master · 2 years</div></div>
+        <div class="gauge"><svg width="54" height="54" viewBox="0 0 54 54">
+    <circle cx="27" cy="27" r="22" fill="none" stroke="#fef9c3" stroke-width="5"
+      stroke-dasharray="115.19 138.23" stroke-linecap="round" transform="rotate(120 27 27)"/>
+    <circle cx="27" cy="27" r="22" fill="none" stroke="#d97706" stroke-width="5"
+      stroke-dasharray="83.19 138.23" stroke-linecap="round" transform="rotate(120 27 27)"/>
+    <text x="27" y="28" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="800" fill="#92400e" class="tnum">26</text>
+    <text x="27" y="37" text-anchor="middle" dominant-baseline="middle" font-size="6" fill="#9AA3B2">/36</text>
+  </svg></div>
+      </div>
+      <div class="midrow"><span class="pill" style="background:#fef9c3;color:#92400e">Moderate Risk</span><span class="dist">2 pts to resilient</span></div>
+      <div class="seclabel">Dimension fingerprint</div>
+      <div class="fp"><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D1</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">D2</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">D3</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">D4</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:7.333333333333333px;background:#ea580c"></div></div><div class="code">D5</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">D6</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D7</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D8</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">D9</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:7.333333333333333px;background:#ea580c"></div></div><div class="code">D10</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">✦</div></div></div>
+      <div class="thr"><div class="chip" style="background:#f0fdf4"><span class="q">AI ≥80% of early output?</span><span class="a" style="color:#16a34a">NO</span></div><div class="chip" style="background:#f0fdf4"><span class="q">Higher-order capability?</span><span class="a" style="color:#16a34a">YES</span></div><div class="chip" style="background:#f0fdf4"><span class="q">More employable in 5 yrs?</span><span class="a" style="color:#16a34a">YES</span></div></div>
+    </div><div class="card">
+      <div class="head">
+        <div><div class="pname">Master of Science (Physics)</div><div class="pmeta">Master · 2 years</div></div>
+        <div class="gauge"><svg width="54" height="54" viewBox="0 0 54 54">
+    <circle cx="27" cy="27" r="22" fill="none" stroke="#fef9c3" stroke-width="5"
+      stroke-dasharray="115.19 138.23" stroke-linecap="round" transform="rotate(120 27 27)"/>
+    <circle cx="27" cy="27" r="22" fill="none" stroke="#d97706" stroke-width="5"
+      stroke-dasharray="79.99 138.23" stroke-linecap="round" transform="rotate(120 27 27)"/>
+    <text x="27" y="28" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="800" fill="#92400e" class="tnum">25</text>
+    <text x="27" y="37" text-anchor="middle" dominant-baseline="middle" font-size="6" fill="#9AA3B2">/36</text>
+  </svg></div>
+      </div>
+      <div class="midrow"><span class="pill" style="background:#fef9c3;color:#92400e">Moderate Risk</span><span class="dist">3 pts to resilient</span></div>
+      <div class="seclabel">Dimension fingerprint</div>
+      <div class="fp"><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D1</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D2</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">D3</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">D4</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:7.333333333333333px;background:#ea580c"></div></div><div class="code">D5</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">D6</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">D7</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D8</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D9</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:7.333333333333333px;background:#ea580c"></div></div><div class="code">D10</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">✦</div></div></div>
+      <div class="thr"><div class="chip" style="background:#f0fdf4"><span class="q">AI ≥80% of early output?</span><span class="a" style="color:#16a34a">NO</span></div><div class="chip" style="background:#f0fdf4"><span class="q">Higher-order capability?</span><span class="a" style="color:#16a34a">YES</span></div><div class="chip" style="background:#f0fdf4"><span class="q">More employable in 5 yrs?</span><span class="a" style="color:#16a34a">YES</span></div></div>
+    </div><div class="card">
+      <div class="head">
+        <div><div class="pname">Master of Science (BioSciences)</div><div class="pmeta">Master · 2 years</div></div>
+        <div class="gauge"><svg width="54" height="54" viewBox="0 0 54 54">
+    <circle cx="27" cy="27" r="22" fill="none" stroke="#fef9c3" stroke-width="5"
+      stroke-dasharray="115.19 138.23" stroke-linecap="round" transform="rotate(120 27 27)"/>
+    <circle cx="27" cy="27" r="22" fill="none" stroke="#d97706" stroke-width="5"
+      stroke-dasharray="79.99 138.23" stroke-linecap="round" transform="rotate(120 27 27)"/>
+    <text x="27" y="28" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="800" fill="#92400e" class="tnum">25</text>
+    <text x="27" y="37" text-anchor="middle" dominant-baseline="middle" font-size="6" fill="#9AA3B2">/36</text>
+  </svg></div>
+      </div>
+      <div class="midrow"><span class="pill" style="background:#fef9c3;color:#92400e">Moderate Risk</span><span class="dist">3 pts to resilient</span></div>
+      <div class="seclabel">Dimension fingerprint</div>
+      <div class="fp"><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D1</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D2</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">D3</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">D4</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:7.333333333333333px;background:#ea580c"></div></div><div class="code">D5</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">D6</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">D7</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D8</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D9</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:7.333333333333333px;background:#ea580c"></div></div><div class="code">D10</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">✦</div></div></div>
+      <div class="thr"><div class="chip" style="background:#f0fdf4"><span class="q">AI ≥80% of early output?</span><span class="a" style="color:#16a34a">NO</span></div><div class="chip" style="background:#f0fdf4"><span class="q">Higher-order capability?</span><span class="a" style="color:#16a34a">YES</span></div><div class="chip" style="background:#f0fdf4"><span class="q">More employable in 5 yrs?</span><span class="a" style="color:#16a34a">YES</span></div></div>
+    </div><div class="card">
+      <div class="head">
+        <div><div class="pname">Master of Science (Chemistry)</div><div class="pmeta">Master · 2 years</div></div>
+        <div class="gauge"><svg width="54" height="54" viewBox="0 0 54 54">
+    <circle cx="27" cy="27" r="22" fill="none" stroke="#fef9c3" stroke-width="5"
+      stroke-dasharray="115.19 138.23" stroke-linecap="round" transform="rotate(120 27 27)"/>
+    <circle cx="27" cy="27" r="22" fill="none" stroke="#d97706" stroke-width="5"
+      stroke-dasharray="79.99 138.23" stroke-linecap="round" transform="rotate(120 27 27)"/>
+    <text x="27" y="28" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="800" fill="#92400e" class="tnum">25</text>
+    <text x="27" y="37" text-anchor="middle" dominant-baseline="middle" font-size="6" fill="#9AA3B2">/36</text>
+  </svg></div>
+      </div>
+      <div class="midrow"><span class="pill" style="background:#fef9c3;color:#92400e">Moderate Risk</span><span class="dist">3 pts to resilient</span></div>
+      <div class="seclabel">Dimension fingerprint</div>
+      <div class="fp"><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D1</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D2</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">D3</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">D4</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:7.333333333333333px;background:#ea580c"></div></div><div class="code">D5</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">D6</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">D7</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D8</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D9</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:7.333333333333333px;background:#ea580c"></div></div><div class="code">D10</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">✦</div></div></div>
+      <div class="thr"><div class="chip" style="background:#f0fdf4"><span class="q">AI ≥80% of early output?</span><span class="a" style="color:#16a34a">NO</span></div><div class="chip" style="background:#f0fdf4"><span class="q">Higher-order capability?</span><span class="a" style="color:#16a34a">YES</span></div><div class="chip" style="background:#f0fdf4"><span class="q">More employable in 5 yrs?</span><span class="a" style="color:#16a34a">YES</span></div></div>
+    </div><div class="card">
+      <div class="head">
+        <div><div class="pname">Master of Biotechnology</div><div class="pmeta">Master · 2 years</div></div>
+        <div class="gauge"><svg width="54" height="54" viewBox="0 0 54 54">
+    <circle cx="27" cy="27" r="22" fill="none" stroke="#fef9c3" stroke-width="5"
+      stroke-dasharray="115.19 138.23" stroke-linecap="round" transform="rotate(120 27 27)"/>
+    <circle cx="27" cy="27" r="22" fill="none" stroke="#d97706" stroke-width="5"
+      stroke-dasharray="76.79 138.23" stroke-linecap="round" transform="rotate(120 27 27)"/>
+    <text x="27" y="28" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="800" fill="#92400e" class="tnum">24</text>
+    <text x="27" y="37" text-anchor="middle" dominant-baseline="middle" font-size="6" fill="#9AA3B2">/36</text>
+  </svg></div>
+      </div>
+      <div class="midrow"><span class="pill" style="background:#fef9c3;color:#92400e">Moderate Risk</span><span class="dist">4 pts to resilient</span></div>
+      <div class="seclabel">Dimension fingerprint</div>
+      <div class="fp"><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D1</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D2</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D3</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">D4</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:7.333333333333333px;background:#ea580c"></div></div><div class="code">D5</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">D6</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D7</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">D8</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D9</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:7.333333333333333px;background:#ea580c"></div></div><div class="code">D10</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">✦</div></div></div>
+      <div class="thr"><div class="chip" style="background:#f0fdf4"><span class="q">AI ≥80% of early output?</span><span class="a" style="color:#16a34a">NO</span></div><div class="chip" style="background:#f0fdf4"><span class="q">Higher-order capability?</span><span class="a" style="color:#16a34a">YES</span></div><div class="chip" style="background:#f0fdf4"><span class="q">More employable in 5 yrs?</span><span class="a" style="color:#16a34a">YES</span></div></div>
+    </div><div class="card">
+      <div class="head">
+        <div><div class="pname">Master of Science (Earth Sciences)</div><div class="pmeta">Master · 2 years</div></div>
+        <div class="gauge"><svg width="54" height="54" viewBox="0 0 54 54">
+    <circle cx="27" cy="27" r="22" fill="none" stroke="#fef9c3" stroke-width="5"
+      stroke-dasharray="115.19 138.23" stroke-linecap="round" transform="rotate(120 27 27)"/>
+    <circle cx="27" cy="27" r="22" fill="none" stroke="#d97706" stroke-width="5"
+      stroke-dasharray="76.79 138.23" stroke-linecap="round" transform="rotate(120 27 27)"/>
+    <text x="27" y="28" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="800" fill="#92400e" class="tnum">24</text>
+    <text x="27" y="37" text-anchor="middle" dominant-baseline="middle" font-size="6" fill="#9AA3B2">/36</text>
+  </svg></div>
+      </div>
+      <div class="midrow"><span class="pill" style="background:#fef9c3;color:#92400e">Moderate Risk</span><span class="dist">4 pts to resilient</span></div>
+      <div class="seclabel">Dimension fingerprint</div>
+      <div class="fp"><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">D1</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D2</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">D3</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">D4</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:7.333333333333333px;background:#ea580c"></div></div><div class="code">D5</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">D6</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">D7</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:7.333333333333333px;background:#ea580c"></div></div><div class="code">D8</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D9</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:7.333333333333333px;background:#ea580c"></div></div><div class="code">D10</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">✦</div></div></div>
+      <div class="thr"><div class="chip" style="background:#f0fdf4"><span class="q">AI ≥80% of early output?</span><span class="a" style="color:#16a34a">NO</span></div><div class="chip" style="background:#f0fdf4"><span class="q">Higher-order capability?</span><span class="a" style="color:#16a34a">YES</span></div><div class="chip" style="background:#fffbeb"><span class="q">More employable in 5 yrs?</span><span class="a" style="color:#d97706">UNCERTAIN</span></div></div>
+    </div><div class="card">
+      <div class="head">
+        <div><div class="pname">Master of Data Science</div><div class="pmeta">Master · 2 years</div></div>
+        <div class="gauge"><svg width="54" height="54" viewBox="0 0 54 54">
+    <circle cx="27" cy="27" r="22" fill="none" stroke="#fef9c3" stroke-width="5"
+      stroke-dasharray="115.19 138.23" stroke-linecap="round" transform="rotate(120 27 27)"/>
+    <circle cx="27" cy="27" r="22" fill="none" stroke="#d97706" stroke-width="5"
+      stroke-dasharray="76.79 138.23" stroke-linecap="round" transform="rotate(120 27 27)"/>
+    <text x="27" y="28" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="800" fill="#92400e" class="tnum">24</text>
+    <text x="27" y="37" text-anchor="middle" dominant-baseline="middle" font-size="6" fill="#9AA3B2">/36</text>
+  </svg></div>
+      </div>
+      <div class="midrow"><span class="pill" style="background:#fef9c3;color:#92400e">Moderate Risk</span><span class="dist">4 pts to resilient</span></div>
+      <div class="seclabel">Dimension fingerprint</div>
+      <div class="fp"><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D1</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D2</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">D3</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D4</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D5</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">D6</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D7</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D8</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">D9</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:7.333333333333333px;background:#ea580c"></div></div><div class="code">D10</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">✦</div></div></div>
+      <div class="thr"><div class="chip" style="background:#fffbeb"><span class="q">AI ≥80% of early output?</span><span class="a" style="color:#d97706">UNCERTAIN</span></div><div class="chip" style="background:#f0fdf4"><span class="q">Higher-order capability?</span><span class="a" style="color:#16a34a">YES</span></div><div class="chip" style="background:#fffbeb"><span class="q">More employable in 5 yrs?</span><span class="a" style="color:#d97706">UNCERTAIN</span></div></div>
+    </div><div class="card">
+      <div class="head">
+        <div><div class="pname">Master of Science (Bioinformatics)</div><div class="pmeta">Master · 2 years</div></div>
+        <div class="gauge"><svg width="54" height="54" viewBox="0 0 54 54">
+    <circle cx="27" cy="27" r="22" fill="none" stroke="#fef9c3" stroke-width="5"
+      stroke-dasharray="115.19 138.23" stroke-linecap="round" transform="rotate(120 27 27)"/>
+    <circle cx="27" cy="27" r="22" fill="none" stroke="#d97706" stroke-width="5"
+      stroke-dasharray="76.79 138.23" stroke-linecap="round" transform="rotate(120 27 27)"/>
+    <text x="27" y="28" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="800" fill="#92400e" class="tnum">24</text>
+    <text x="27" y="37" text-anchor="middle" dominant-baseline="middle" font-size="6" fill="#9AA3B2">/36</text>
+  </svg></div>
+      </div>
+      <div class="midrow"><span class="pill" style="background:#fef9c3;color:#92400e">Moderate Risk</span><span class="dist">4 pts to resilient</span></div>
+      <div class="seclabel">Dimension fingerprint</div>
+      <div class="fp"><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D1</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D2</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">D3</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D4</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:7.333333333333333px;background:#ea580c"></div></div><div class="code">D5</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">D6</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">D7</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D8</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D9</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:7.333333333333333px;background:#ea580c"></div></div><div class="code">D10</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">✦</div></div></div>
+      <div class="thr"><div class="chip" style="background:#f0fdf4"><span class="q">AI ≥80% of early output?</span><span class="a" style="color:#16a34a">NO</span></div><div class="chip" style="background:#f0fdf4"><span class="q">Higher-order capability?</span><span class="a" style="color:#16a34a">YES</span></div><div class="chip" style="background:#f0fdf4"><span class="q">More employable in 5 yrs?</span><span class="a" style="color:#16a34a">YES</span></div></div>
+    </div><div class="card">
+      <div class="head">
+        <div><div class="pname">Bachelor of Science</div><div class="pmeta">Bachelor · 3 years</div></div>
+        <div class="gauge"><svg width="54" height="54" viewBox="0 0 54 54">
+    <circle cx="27" cy="27" r="22" fill="none" stroke="#fef9c3" stroke-width="5"
+      stroke-dasharray="115.19 138.23" stroke-linecap="round" transform="rotate(120 27 27)"/>
+    <circle cx="27" cy="27" r="22" fill="none" stroke="#d97706" stroke-width="5"
+      stroke-dasharray="73.59 138.23" stroke-linecap="round" transform="rotate(120 27 27)"/>
+    <text x="27" y="28" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="800" fill="#92400e" class="tnum">23</text>
+    <text x="27" y="37" text-anchor="middle" dominant-baseline="middle" font-size="6" fill="#9AA3B2">/36</text>
+  </svg></div>
+      </div>
+      <div class="midrow"><span class="pill" style="background:#fef9c3;color:#92400e">Moderate Risk</span><span class="dist">5 pts to resilient</span></div>
+      <div class="seclabel">Dimension fingerprint</div>
+      <div class="fp"><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D1</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D2</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">D3</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D4</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:7.333333333333333px;background:#ea580c"></div></div><div class="code">D5</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">D6</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">D7</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:7.333333333333333px;background:#ea580c"></div></div><div class="code">D8</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D9</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D10</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">✦</div></div></div>
+      <div class="thr"><div class="chip" style="background:#fffbeb"><span class="q">AI ≥80% of early output?</span><span class="a" style="color:#d97706">UNCERTAIN</span></div><div class="chip" style="background:#f0fdf4"><span class="q">Higher-order capability?</span><span class="a" style="color:#16a34a">YES</span></div><div class="chip" style="background:#fffbeb"><span class="q">More employable in 5 yrs?</span><span class="a" style="color:#d97706">UNCERTAIN</span></div></div>
+    </div><div class="card">
+      <div class="head">
+        <div><div class="pname">Master of Environmental Science</div><div class="pmeta">Master · 2 years</div></div>
+        <div class="gauge"><svg width="54" height="54" viewBox="0 0 54 54">
+    <circle cx="27" cy="27" r="22" fill="none" stroke="#fef9c3" stroke-width="5"
+      stroke-dasharray="115.19 138.23" stroke-linecap="round" transform="rotate(120 27 27)"/>
+    <circle cx="27" cy="27" r="22" fill="none" stroke="#d97706" stroke-width="5"
+      stroke-dasharray="73.59 138.23" stroke-linecap="round" transform="rotate(120 27 27)"/>
+    <text x="27" y="28" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="800" fill="#92400e" class="tnum">23</text>
+    <text x="27" y="37" text-anchor="middle" dominant-baseline="middle" font-size="6" fill="#9AA3B2">/36</text>
+  </svg></div>
+      </div>
+      <div class="midrow"><span class="pill" style="background:#fef9c3;color:#92400e">Moderate Risk</span><span class="dist">5 pts to resilient</span></div>
+      <div class="seclabel">Dimension fingerprint</div>
+      <div class="fp"><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D1</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">D2</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D3</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">D4</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:7.333333333333333px;background:#ea580c"></div></div><div class="code">D5</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">D6</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D7</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D8</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D9</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:7.333333333333333px;background:#ea580c"></div></div><div class="code">D10</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">✦</div></div></div>
+      <div class="thr"><div class="chip" style="background:#fffbeb"><span class="q">AI ≥80% of early output?</span><span class="a" style="color:#d97706">UNCERTAIN</span></div><div class="chip" style="background:#f0fdf4"><span class="q">Higher-order capability?</span><span class="a" style="color:#16a34a">YES</span></div><div class="chip" style="background:#f0fdf4"><span class="q">More employable in 5 yrs?</span><span class="a" style="color:#16a34a">YES</span></div></div>
+    </div><div class="card">
+      <div class="head">
+        <div><div class="pname">Master of Food Science</div><div class="pmeta">Master · 2 years</div></div>
+        <div class="gauge"><svg width="54" height="54" viewBox="0 0 54 54">
+    <circle cx="27" cy="27" r="22" fill="none" stroke="#fef9c3" stroke-width="5"
+      stroke-dasharray="115.19 138.23" stroke-linecap="round" transform="rotate(120 27 27)"/>
+    <circle cx="27" cy="27" r="22" fill="none" stroke="#d97706" stroke-width="5"
+      stroke-dasharray="67.20 138.23" stroke-linecap="round" transform="rotate(120 27 27)"/>
+    <text x="27" y="28" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="800" fill="#92400e" class="tnum">21</text>
+    <text x="27" y="37" text-anchor="middle" dominant-baseline="middle" font-size="6" fill="#9AA3B2">/36</text>
+  </svg></div>
+      </div>
+      <div class="midrow"><span class="pill" style="background:#fef9c3;color:#92400e">Moderate Risk</span><span class="dist">7 pts to resilient</span></div>
+      <div class="seclabel">Dimension fingerprint</div>
+      <div class="fp"><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D1</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D2</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D3</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D4</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:7.333333333333333px;background:#ea580c"></div></div><div class="code">D5</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:22px;background:#16a34a"></div></div><div class="code">D6</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D7</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D8</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">D9</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:7.333333333333333px;background:#ea580c"></div></div><div class="code">D10</div></div><div class="col"><div class="barwrap" style="height:22px"><div class="bar" style="height:14.666666666666666px;background:#d97706"></div></div><div class="code">✦</div></div></div>
+      <div class="thr"><div class="chip" style="background:#fffbeb"><span class="q">AI ≥80% of early output?</span><span class="a" style="color:#d97706">UNCERTAIN</span></div><div class="chip" style="background:#fffbeb"><span class="q">Higher-order capability?</span><span class="a" style="color:#d97706">UNCERTAIN</span></div><div class="chip" style="background:#fffbeb"><span class="q">More employable in 5 yrs?</span><span class="a" style="color:#d97706">UNCERTAIN</span></div></div>
+    </div></div>
+    <div class="foot"><div class="prov">D1 Automation · D2 Systems · D3 Technical · D4 Decisions · D5 AI Literacy · D6 Domain · D7 Research · D8 Human · D9 Currency · D10 Outcomes · ✦ Irreplaceability · scored 0–3 → /36 · bands: Resilient 28–36 / Moderate 20–27 / High 12–19 / Critical 0–11</div></div>
+  </div></body></html>

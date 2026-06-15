@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>COMPASS — Faculty of Science (working session)</title>
+<style>
+  :root{
+    --ink:#11151F; --ink-soft:#1E2533; --bg:#FCFCFC; --card:#FFFFFF;
+    --orange:#F97316; --orange-50:#FFF7ED; --muted:#6B7280; --muted-2:#9AA3B2;
+    --border:#E5E7EB; --border-2:#EEF1F4;
+    --resilient:#16a34a; --moderate:#d97706; --high:#ea580c; --critical:#dc2626;
+  }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  html,body{ height:100%; background:#0c0f16; overflow:hidden;
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased; font-feature-settings:'kern' 1,'liga' 1; }
+  .tnum{ font-variant-numeric:tabular-nums; }
+  .viewport{ position:fixed; inset:0; display:flex; align-items:center; justify-content:center; }
+  .stage{ width:1280px; height:720px; position:relative; transform-origin:center center; }
+  .slide{ position:absolute; inset:0; background:var(--bg); color:var(--ink);
+    padding:64px 76px; display:none; flex-direction:column; }
+  .slide.active{ display:flex; }
+  .slide.active > *{ animation:rise .5s cubic-bezier(.2,.7,.2,1) both; }
+  @keyframes rise{ from{ opacity:0; transform:translateY(14px); } to{ opacity:1; transform:none; } }
+  @media (prefers-reduced-motion:reduce){ .slide.active > *{ animation:none; } }
+
+  .kick{ font-size:13px; font-weight:800; letter-spacing:.22em; text-transform:uppercase; color:var(--orange); }
+  h1{ font-size:54px; font-weight:800; letter-spacing:-.02em; line-height:1.04; color:var(--ink); }
+  h2{ font-size:38px; font-weight:800; letter-spacing:-.015em; line-height:1.08; }
+  .lead{ font-size:20px; line-height:1.5; color:var(--muted); font-weight:400; }
+  .lead b{ color:var(--ink-soft); font-weight:700; }
+  .spacer{ flex:1; }
+  .foot{ display:flex; align-items:center; justify-content:space-between; font-size:12px; color:var(--muted-2); letter-spacing:.02em; }
+
+  .mark{ width:44px; height:44px; }
+  .brandrow{ display:flex; align-items:center; gap:14px; }
+  .brandrow .nm{ font-size:22px; font-weight:800; letter-spacing:.18em; }
+  .brandrow .sb{ font-size:12px; color:var(--muted); letter-spacing:.04em; }
+
+  /* band chips */
+  .bands{ display:flex; gap:10px; flex-wrap:wrap; }
+  .bchip{ border-radius:10px; padding:12px 16px; font-weight:800; font-size:15px; color:#fff; }
+  .bchip small{ display:block; font-weight:600; font-size:11px; opacity:.9; letter-spacing:.04em; margin-top:2px; }
+
+  /* stat grid */
+  .grid{ display:grid; gap:18px; }
+  .g4{ grid-template-columns:repeat(4,1fr); } .g3{ grid-template-columns:repeat(3,1fr); } .g2{ grid-template-columns:1fr 1fr; }
+  .stat{ background:var(--card); border:1px solid var(--border); border-radius:16px; padding:24px 26px; }
+  .stat .v{ font-size:52px; font-weight:800; line-height:1; letter-spacing:-.02em; }
+  .stat .v small{ font-size:22px; color:var(--muted-2); font-weight:700; }
+  .stat .l{ font-size:14px; color:var(--muted); margin-top:10px; line-height:1.4; }
+
+  /* distribution bar */
+  .distbar{ display:flex; height:64px; border-radius:12px; overflow:hidden; gap:3px; }
+  .seg{ display:flex; flex-direction:column; align-items:center; justify-content:center; color:#fff; font-weight:800; }
+  .seg .n{ font-size:24px; } .seg .t{ font-size:11px; font-weight:700; opacity:.95; letter-spacing:.03em; }
+
+  /* program list */
+  .plist{ display:grid; grid-template-columns:1fr 1fr; gap:9px 34px; }
+  .prow{ display:flex; align-items:center; gap:14px; }
+  .prow .nm{ flex:1; font-size:16px; font-weight:600; color:var(--ink-soft); }
+  .prow .track{ width:160px; height:9px; background:var(--border); border-radius:6px; overflow:hidden; }
+  .prow .fill{ display:block; height:100%; border-radius:6px; }
+  .prow .sc{ width:30px; text-align:right; font-weight:800; font-size:15px; }
+
+  /* two-col cards */
+  .cards2{ display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+  .bigcard{ background:var(--card); border:1px solid var(--border); border-radius:18px; padding:30px 32px; }
+  .bigcard.orange{ border-left:5px solid var(--orange); background:var(--orange-50); }
+  .bigcard .ch{ font-size:24px; font-weight:800; margin-bottom:10px; }
+  .bigcard .cb{ font-size:17px; line-height:1.55; color:var(--ink-soft); }
+  .bigcard .cb b{ font-weight:800; }
+  .big{ font-size:84px; font-weight:800; line-height:.9; letter-spacing:-.03em; }
+
+  /* is / is not */
+  .isnt{ display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+  .col{ border-radius:18px; padding:28px 30px; }
+  .col.is{ background:#f0fdf4; border:1px solid #bbf7d0; }
+  .col.isnot{ background:#fef2f2; border:1px solid #fecaca; }
+  .col .h{ font-size:15px; font-weight:800; text-transform:uppercase; letter-spacing:.1em; margin-bottom:14px; }
+  .col.is .h{ color:#15803d; } .col.isnot .h{ color:#991b1b; }
+  .col ul{ list-style:none; } .col li{ font-size:18px; line-height:1.5; padding:7px 0 7px 26px; position:relative; color:var(--ink-soft); }
+  .col.is li::before{ content:'✓'; position:absolute; left:0; color:#16a34a; font-weight:800; }
+  .col.isnot li::before{ content:'✕'; position:absolute; left:0; color:#dc2626; font-weight:800; }
+
+  /* questions */
+  .qlist{ display:flex; flex-direction:column; gap:16px; }
+  .q{ display:flex; gap:18px; align-items:flex-start; background:var(--card); border:1px solid var(--border); border-radius:14px; padding:20px 24px; }
+  .q .num{ font-size:22px; font-weight:800; color:var(--orange); line-height:1.2; }
+  .q .qt{ font-size:19px; line-height:1.45; color:var(--ink); font-weight:600; }
+  .q .qx{ font-size:13px; color:var(--muted); margin-top:3px; }
+
+  /* benchmark */
+  .bm{ display:flex; align-items:flex-end; gap:40px; height:300px; padding:0 30px; }
+  .bmcol{ flex:1; display:flex; flex-direction:column; align-items:center; justify-content:flex-end; gap:12px; }
+  .bmbar{ width:120px; border-radius:10px 10px 0 0; display:flex; align-items:flex-start; justify-content:center; padding-top:12px; color:#fff; font-size:30px; font-weight:800; }
+  .bmlab{ font-size:16px; font-weight:700; color:var(--ink-soft); } .bmsub{ font-size:12px; color:var(--muted-2); }
+
+  .closing{ background:var(--ink); color:#fff; }
+  .closing h1{ color:#fff; } .closing .lead{ color:#cbd2dd; } .closing .kick{ color:var(--orange); }
+  .closing .mark circle:first-child{ stroke:#fff; }
+
+  /* chrome */
+  .counter{ position:fixed; bottom:18px; right:22px; font-size:12px; color:#5b6472; letter-spacing:.08em; z-index:10; }
+  .progress{ position:fixed; bottom:0; left:0; height:3px; background:var(--orange); z-index:10; transition:width .3s; }
+  .hint{ position:fixed; bottom:16px; left:22px; font-size:11px; color:#3a414d; z-index:10; }
+
+  @media print{
+    html,body{ overflow:visible; background:#fff; }
+    .viewport{ position:static; display:block; }
+    .stage{ transform:none !important; width:100%; height:auto; }
+    .slide{ display:flex !important; position:relative; inset:auto; width:100%; height:720px; page-break-after:always; border-bottom:1px solid #eee; }
+    .slide.active > *{ animation:none; }
+    .counter,.progress,.hint{ display:none; }
+  }
+</style>
+</head>
+<body>
+<div class="viewport"><div class="stage" id="stage">
+
+  <!-- 1 COVER -->
+  <section class="slide active">
+    <div class="brandrow">
+      <svg class="mark" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="15" stroke="#11151F" stroke-width="2"/><path d="M16 5 L20 16 L16 27 L12 16 Z" fill="#F97316"/><circle cx="16" cy="16" r="2.4" fill="#11151F"/></svg>
+      <div><div class="nm">COMPASS</div><div class="sb">AI-era curriculum viability</div></div>
+    </div>
+    <div class="spacer"></div>
+    <div class="kick">Faculty of Science · working session</div>
+    <h1 style="margin:14px 0 18px; max-width:15ch">How will Science degrees hold up to AI?</h1>
+    <p class="lead" style="max-width:46ch">An independent durability read of the faculty's eleven programs — brought as a <b>discussion, not a verdict</b>. The point of today is to find where this is useful, and where it breaks.</p>
+    <div class="spacer"></div>
+    <div class="foot"><span>University of Melbourne · DFVA assessment</span><span>10 + 1 rubric · scored 0–36</span></div>
+  </section>
+
+  <!-- 2 WHAT DFVA IS -->
+  <section class="slide">
+    <div class="kick">What it measures</div>
+    <h2 style="margin:10px 0 8px">A durability score, not another ranking</h2>
+    <p class="lead" style="max-width:60ch">DFVA — Degree Future-Viability Assessment — scores a program on <b>eleven dimensions</b> (ten core + an Irreplaceability premium), each 0–3, to a <b>/36</b> total on a four-band scale. It's an <b>independent, evidence-based read that complements accreditation</b> — it does not replace it.</p>
+    <div class="spacer"></div>
+    <div class="bands">
+      <div class="bchip" style="background:var(--resilient)">RESILIENT<small>28–36 · AI augments graduates</small></div>
+      <div class="bchip" style="background:var(--moderate)">MODERATE<small>20–27 · pivot available</small></div>
+      <div class="bchip" style="background:var(--high)">HIGH RISK<small>12–19 · value eroding</small></div>
+      <div class="bchip" style="background:var(--critical)">CRITICAL<small>0–11 · rapid displacement</small></div>
+    </div>
+    <div class="spacer"></div>
+    <div class="foot"><span>Dimensions: Automation · Systems · Technical · Decisions · AI Literacy · Domain · Research · Human · Currency · Outcomes · ✦ Irreplaceability</span></div>
+  </section>
+
+  <!-- 3 UNIVERSITY PICTURE -->
+  <section class="slide">
+    <div class="kick">The university picture · 41 programs scored</div>
+    <h2 style="margin:10px 0 22px">Almost everything sits in the middle</h2>
+    <div class="distbar">
+      <div class="seg" style="flex:2;background:var(--resilient)"><span class="n">2</span><span class="t">RESILIENT</span></div>
+      <div class="seg" style="flex:33;background:var(--moderate)"><span class="n">33</span><span class="t">MODERATE · 80%</span></div>
+      <div class="seg" style="flex:5;background:var(--high)"><span class="n">5</span><span class="t">HIGH</span></div>
+      <div class="seg" style="flex:1;background:var(--critical)"><span class="n">1</span></div>
+    </div>
+    <div class="spacer"></div>
+    <div class="cards2">
+      <div class="bigcard orange"><div class="ch">AI Literacy is the near-universal gap</div><div class="cb">Average <b>1.22 / 3</b> across all 41 programs. Only <b>4</b> score the full 3. It is the single dimension holding the portfolio out of RESILIENT.</div></div>
+      <div class="bigcard"><div class="ch">The threshold is hard for one reason</div><div class="cb">Programs are strong on domain and technical depth. What separates MODERATE from RESILIENT is almost always <b>AI literacy and outcome evidence</b>.</div></div>
+    </div>
+    <div class="spacer"></div>
+    <div class="foot"><span>COMPASS DFVA · QILT GOS 2024 · JSA 2025</span></div>
+  </section>
+
+  <!-- 4 SCIENCE SNAPSHOT -->
+  <section class="slide">
+    <div class="kick">Faculty of Science · 11 programs</div>
+    <h2 style="margin:10px 0 20px">Strong programs, one narrow gap</h2>
+    <div class="grid g4">
+      <div class="stat"><div class="v tnum">11</div><div class="l">programs assessed</div></div>
+      <div class="stat"><div class="v tnum">24.0<small>/36</small></div><div class="l">average — all MODERATE, zero HIGH/CRITICAL</div></div>
+      <div class="stat"><div class="v tnum" style="color:var(--resilient)">3.0<small>/3</small></div><div class="l">Domain Depth — a perfect score</div></div>
+      <div class="stat"><div class="v tnum" style="color:var(--high)">1.1<small>/3</small></div><div class="l">AI Literacy — the weak point</div></div>
+    </div>
+    <div class="spacer"></div>
+    <p class="lead" style="max-width:64ch">These are <b>not failing degrees</b>. The faculty is structurally sound — deep, technical, research-rigorous. Two dimensions stand between <b>strong</b> and <b>resilient</b>: <b>AI Literacy (1.1)</b> and <b>Outcome Evidence (1.1)</b>.</p>
+    <div class="spacer"></div>
+    <div class="foot"><span>Leave-behind: the one-page Faculty of Science durability read</span></div>
+  </section>
+
+  <!-- 5 PROGRAMS AT A GLANCE -->
+  <section class="slide">
+    <div class="kick">The eleven, by score</div>
+    <h2 style="margin:10px 0 20px">All MODERATE — the spread is 21 to 26</h2>
+    <div class="plist" id="plist"></div>
+    <div class="spacer"></div>
+    <div class="foot"><span>Score /36 · all eleven in the MODERATE band (20–27)</span><span>Full per-program fingerprints on the dashboard leave-behind</span></div>
+  </section>
+
+  <!-- 6 TWIN GAP -->
+  <section class="slide">
+    <div class="kick">Where the points are</div>
+    <h2 style="margin:10px 0 22px">The twin gap — and one of them is nearly free</h2>
+    <div class="cards2" style="flex:1; align-content:center">
+      <div class="bigcard"><div class="big" style="color:var(--high)">10<span style="font-size:30px;color:var(--muted-2)">/11</span></div><div class="ch" style="margin-top:14px">AI Literacy at 1/3</div><div class="cb">Ten of eleven programs score 1 on AI literacy and governance. This is a genuine curriculum addition — but a well-scoped one.</div></div>
+      <div class="bigcard orange"><div class="big" style="color:var(--orange)">1<span style="font-size:30px;color:var(--muted-2)">/3</span></div><div class="ch" style="margin-top:14px">Outcome Evidence at 1/3</div><div class="cb">Low <b>despite</b> real QILT employment + salary data already in the system. This is a <b>data-folding gap, not an outcomes gap</b> — an easy lift.</div></div>
+    </div>
+    <div class="foot"><span>Closing both is what moves programs toward RESILIENT</span></div>
+  </section>
+
+  <!-- 7 CLOSEST + EXEMPLAR -->
+  <section class="slide">
+    <div class="kick">Closest to resilient · and the proof it's closable</div>
+    <h2 style="margin:10px 0 22px">The gap is addressable by curriculum</h2>
+    <div class="cards2" style="flex:1; align-content:center">
+      <div class="bigcard"><div class="ch">Master of Climate Science</div><div class="big" style="color:var(--moderate)">26<span style="font-size:30px;color:var(--muted-2)">/36</span></div><div class="cb" style="margin-top:14px"><b>Two points</b> from RESILIENT. Strong on systems, technical and domain — one AI-methods unit would cross the line.</div></div>
+      <div class="bigcard orange"><div class="ch">Master of Data Science — the exemplar</div><div class="big" style="color:var(--resilient)">2<span style="font-size:30px;color:var(--muted-2)">/3</span></div><div class="cb" style="margin-top:14px">The <b>only</b> Science program above the AI-literacy floor. Where computing is co-taught, the gap closes — proof this is a <b>curriculum</b> fix, not a structural one.</div></div>
+    </div>
+    <div class="foot"><span>Data Science is Science-owned (Melbourne Centre for Data Science), jointly delivered with Engineering & IT</span></div>
+  </section>
+
+  <!-- 8 TWO MOVES -->
+  <section class="slide">
+    <div class="kick">What would move the portfolio</div>
+    <h2 style="margin:10px 0 18px">Two moves, run faculty-wide</h2>
+    <div class="cards2" style="margin-bottom:22px">
+      <div class="bigcard"><div class="ch">1 · Embed AI literacy</div><div class="cb">A shared AI-literacy + governance core that every Science stream can draw on (D5 → 3).</div></div>
+      <div class="bigcard"><div class="ch">2 · Fold in outcome data</div><div class="cb">Score the QILT employment evidence already in the system into the assessment (D10 → 2+).</div></div>
+    </div>
+    <div class="spacer"></div>
+    <div style="display:flex;align-items:center;gap:24px">
+      <div class="big" style="color:var(--resilient)">4<span style="font-size:30px;color:var(--muted-2)">/11</span></div>
+      <p class="lead" style="margin:0;max-width:52ch"><b>reach RESILIENT</b> on an illustrative two-move pass. The interventions are <b>shared</b> — so a coordinated faculty initiative beats eleven separate fixes.</p>
+    </div>
+    <div class="spacer"></div>
+    <div class="foot"><span>Illustrative (D5→3, D10→2 where ≤1) · for discussion, not a commitment</span></div>
+  </section>
+
+  <!-- 9 GO8 BENCHMARK -->
+  <section class="slide">
+    <div class="kick">How Melbourne compares · same rubric, peer programs</div>
+    <h2 style="margin:10px 0 10px">Benchmarked against the Go8</h2>
+    <div class="bm">
+      <div class="bmcol"><div class="bmbar" style="height:230px;background:var(--resilient)">29</div><div class="bmlab">UniMelb</div><div class="bmsub">RESILIENT</div></div>
+      <div class="bmcol"><div class="bmbar" style="height:215px;background:var(--moderate)">27</div><div class="bmlab">UNSW</div><div class="bmsub">MODERATE</div></div>
+      <div class="bmcol"><div class="bmbar" style="height:152px;background:var(--high)">19</div><div class="bmlab">USyd</div><div class="bmsub">HIGH RISK</div></div>
+    </div>
+    <p class="lead" style="margin-top:8px;max-width:64ch;font-size:17px">Master of Computer Science, like-for-like. Worth naming the caveat: <b>public curriculum transparency correlates with higher scores</b> — open handbooks are easier to assess well.</p>
+    <div class="spacer"></div>
+    <div class="foot"><span>Source: DFVA Go8 comparison · illustrative of method, not a league table</span></div>
+  </section>
+
+  <!-- 10 IS / IS NOT -->
+  <section class="slide">
+    <div class="kick">Honest scope</div>
+    <h2 style="margin:10px 0 22px">What COMPASS is — and what it isn't</h2>
+    <div class="isnt" style="flex:1">
+      <div class="col is"><div class="h">It is</div><ul>
+        <li>An external durability signal for a program</li>
+        <li>A curriculum diagnosis — where to intervene, and the likely effect</li>
+        <li>Evidence-based and comparable across programs</li>
+      </ul></div>
+      <div class="col isnot"><div class="h">It is not</div><ul>
+        <li>Accreditation, or a substitute for it</li>
+        <li>A ranking or a league table</li>
+        <li>A replacement for academic judgement</li>
+      </ul></div>
+    </div>
+    <div class="foot"><span>Naming the boundary is the point — this earns a place in the conversation, not above it</span></div>
+  </section>
+
+  <!-- 11 WHAT I WANT TO LEARN -->
+  <section class="slide">
+    <div class="kick">The real purpose of today</div>
+    <h2 style="margin:10px 0 18px">What I want to learn from you</h2>
+    <div class="qlist">
+      <div class="q"><div class="num">01</div><div><div class="qt">When a Science program is reviewed, does current labour-market evidence actually reach the table?</div><div class="qx">Walk me through the last review you sat in — what was in the room?</div></div></div>
+      <div class="q"><div class="num">02</div><div><div class="qt">Would an independent durability signal ever be welcome here — or would it be intolerable?</div><div class="qx">What would make an outside number on your degrees acceptable, or not?</div></div></div>
+      <div class="q"><div class="num">03</div><div><div class="qt">Who would actually act on this — and is there budget for curriculum intelligence?</div><div class="qx">Distinct from what careers / IR already spend.</div></div></div>
+    </div>
+    <div class="spacer"></div>
+    <div class="foot"><span>I'm here to find the reasons this shouldn't exist — please try to talk me out of it</span></div>
+  </section>
+
+  <!-- 12 CLOSING -->
+  <section class="slide closing">
+    <div class="brandrow">
+      <svg class="mark" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="15" stroke="#fff" stroke-width="2"/><path d="M16 5 L20 16 L16 27 L12 16 Z" fill="#F97316"/><circle cx="16" cy="16" r="2.4" fill="#fff"/></svg>
+      <div><div class="nm" style="color:#fff">COMPASS</div></div>
+    </div>
+    <div class="spacer"></div>
+    <div class="kick">Thank you</div>
+    <h1 style="margin:14px 0 18px; max-width:18ch">This is a conversation, not a pitch. Try to break it.</h1>
+    <p class="lead" style="max-width:50ch">Take the one-pager and the dashboard with you. If a single program comes to mind that this would help — or expose — that's the next conversation.</p>
+    <div class="spacer"></div>
+    <div class="foot" style="color:#7c8595"><span>COMPASS · DFVA durability assessment</span><span>University of Melbourne</span></div>
+  </section>
+
+</div></div>
+
+<div class="progress" id="progress"></div>
+<div class="counter" id="counter"></div>
+<div class="hint">← → to navigate · F for fullscreen</div>
+
+<script>
+  // program list (slide 5) — data baked from the registry at build time
+  const PROGRAMS = [
+    ['Master of Climate Science',26],['Master of Science (Physics)',25],['Master of Science (BioSciences)',25],
+    ['Master of Science (Chemistry)',25],['Master of Biotechnology',24],['Master of Science (Earth Sciences)',24],
+    ['Master of Data Science',24],['Master of Science (Bioinformatics)',24],['Bachelor of Science',23],
+    ['Master of Environmental Science',23],['Master of Food Science',21],
+  ];
+  document.getElementById('plist').innerHTML = PROGRAMS.map(([nm,sc])=>{
+    const pct = Math.round(sc/36*100);
+    const col = sc>=28?'#16a34a':sc>=20?'#d97706':'#ea580c';
+    return `<div class="prow"><span class="nm">${nm}</span><span class="track"><span class="fill" style="width:${pct}%;background:${col}"></span></span><span class="sc tnum">${sc}</span></div>`;
+  }).join('');
+
+  // navigation
+  const slides = [...document.querySelectorAll('.slide')];
+  let i = 0;
+  const counter = document.getElementById('counter');
+  const progress = document.getElementById('progress');
+  function show(n){
+    i = Math.max(0, Math.min(slides.length-1, n));
+    slides.forEach((s,k)=>s.classList.toggle('active', k===i));
+    counter.textContent = `${i+1} / ${slides.length}`;
+    progress.style.width = `${(i+1)/slides.length*100}%`;
+  }
+  function fit(){
+    const s = Math.min(innerWidth/1280, innerHeight/720);
+    document.getElementById('stage').style.transform = `scale(${s})`;
+  }
+  addEventListener('keydown', e=>{
+    if(e.key==='ArrowRight'||e.key===' '||e.key==='PageDown'){ show(i+1); e.preventDefault(); }
+    else if(e.key==='ArrowLeft'||e.key==='PageUp'){ show(i-1); e.preventDefault(); }
+    else if(e.key==='Home'){ show(0); } else if(e.key==='End'){ show(slides.length-1); }
+    else if(e.key==='f'||e.key==='F'){ if(!document.fullscreenElement) document.documentElement.requestFullscreen(); else document.exitFullscreen(); }
+  });
+  addEventListener('click', e=>{ if(e.clientX < innerWidth*0.28) show(i-1); else show(i+1); });
+  addEventListener('resize', fit);
+  fit(); show(0);
+</script>
+</body>
+</html>
