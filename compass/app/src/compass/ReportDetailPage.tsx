@@ -6,6 +6,7 @@ import { ArrowLeft, BarChart2, ClipboardList, TrendingUp } from "lucide-react";
 import { REPORT_CONTENT } from "./reportContent";
 import { PROGRAMS } from "./sharedProgramData";
 import { ProgramRadar } from "../client/components/ProgramRadar";
+import { WhyThisMatters } from "./WhyThisMatters";
 
 const riskBandStyles: Record<string, string> = {
   RESILIENT:
@@ -337,6 +338,13 @@ export default function ReportDetailPage() {
           );
         })()}
       </div>
+
+      {currentType === "assessment" && (
+        <WhyThisMatters
+          testId="EXP-01"
+          title="Why This Matters"
+        />
+      )}
     </div>
   );
 }
