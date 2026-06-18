@@ -6,8 +6,8 @@
       "features_generated": 6
     },
     "dev_loop": {
-      "last_run": "2026-06-18",
-      "features_built": 1
+      "last_run": "2026-06-19",
+      "features_built": 2
     },
     "research_loop": {
       "last_run": "2026-06-18",
@@ -40,7 +40,7 @@
     {
       "id": "feat-003",
       "name": "Lightcast 2026 Workforce Alignment Validation",
-      "status": "in_progress",
+      "status": "done",
       "spec_file": "features/feat-003.md",
       "branch": "feat/feat-003",
       "created": "2026-06-13",
