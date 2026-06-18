@@ -71,7 +71,10 @@ export const getAssessmentJobs: GetAssessmentJobs<void, AssessmentJob[]> = async
   _args,
   context
 ) => {
+  if (!context.user) throw new HttpError(401, 'Authentication required');
+
   return context.entities.AssessmentJob.findMany({
+    where: { userId: context.user.id },
     orderBy: { createdAt: 'desc' },
     take: 50,
   });
@@ -84,7 +87,19 @@ export const getAssessmentJob: GetAssessmentJob<{ id: string }, AssessmentJob | 
   { id },
   context
 ) => {
-  return context.entities.AssessmentJob.findUnique({
+  if (!context.user) throw new HttpError(401, 'Authentication required');
+
+  const job = await context.entities.AssessmentJob.findUnique({
     where: { id },
   });
+
+  // Return null if job doesn't exist (not an auth issue)
+  if (!job) return null;
+
+  // If the job belongs to a different user, return 404 to hide its existence
+  if (job.userId !== context.user.id) {
+    throw new HttpError(404, 'Assessment job not found');
+  }
+
+  return job;
 };
