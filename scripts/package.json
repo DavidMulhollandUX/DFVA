@@ -12,6 +12,7 @@
     "dfva:sync-skill": "cp ../dfva/dist/claude-skill/SKILL.md ~/.claude/skills/dfva/SKILL.md"
   },
   "devDependencies": {
+    "@types/node": "^25.9.3",
     "tsx": "^4.7.0",
     "typescript": "^5.4.0"
   }

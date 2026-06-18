@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Loader2, CheckCircle2, XCircle } from 'lucide-react'
+import AgentBridge from '../components/AgentBridge'
 
 interface AssessmentJob {
   id: string
@@ -102,6 +103,12 @@ export default function AssessorPage() {
           ))}
         </div>
       )}
+
+      {/* AgentBridge — MCP query panel */}
+      <AgentBridge
+        programCode="mc-cs"
+        programName="Master of Computer Science"
+      />
     </div>
   )
 }
