@@ -1,65 +1,128 @@
 {
-  "project": "DFVA",
-  "updated": "2026-06-11",
+  "updated": "2026-06-18",
+  "loops": {
+    "spec_loop": {
+      "last_run": "2026-06-18",
+      "features_generated": 6
+    },
+    "dev_loop": {
+      "last_run": "2026-06-18",
+      "features_built": 1
+    },
+    "research_loop": {
+      "last_run": "2026-06-18",
+      "source": "forums",
+      "signals_found": 6,
+      "signals_promoted": 3
+    }
+  },
   "features": [
     {
       "id": "feat-001",
       "name": "Auth on Assess",
-      "description": "Add authRequired: true to AssessRoute so only authenticated users can submit assessments. Currently anyone can visit /assess and submit program URLs for analysis.",
       "status": "done",
-      "priority": "high",
-      "score": 8,
-      "source": "docs/next-steps-2026-06-08.md",
-      "type": "security_hardening",
       "spec_file": "features/feat-001.md",
-      "branch": "feat/feat-001"
+      "branch": "feat/feat-001",
+      "created": "2026-06-11",
+      "priority": "high"
     },
     {
       "id": "feat-002",
       "name": "Coursedog LMI Fast-Follow Response",
-      "description": "Coursedog shipped LMI-in-workflow via Mapademics (May 2026). DFVA must differentiate on methodology (AI-durability scoring vs generic LMI) and the independent-standard positioning. Consider: highlight scoring methodology as deeper than LMI data overlays; accelerate the independent-standard narrative (H2).",
       "status": "approved",
+      "spec_file": "features/feat-002.md",
+      "branch": null,
+      "created": "2026-06-12",
       "priority": "high",
       "score": 9,
-      "source": "Coursedog via Mapademics case study",
-      "type": "competitor_move",
-      "spec_file": "features/feat-002.md",
-      "branch": null
+      "type": "competitor_move"
     },
     {
       "id": "feat-003",
       "name": "Lightcast 2026 Workforce Alignment Validation",
-      "description": "Lightcast declares 2026 'escape velocity' for workforce-aligned higher ed — AI job postings up 109% YoY, AI fluency now a baseline expectation. This independently validates DFVA's core premise. Use this data in DFVA's narrative/marketing materials and as evidence for the EXP-01 acceptance test.",
-      "status": "draft",
-      "priority": "high",
-      "score": 8,
-      "source": "Lightcast 2026 Predictions blog",
-      "type": "emerging_trend",
+      "status": "approved",
       "spec_file": "features/feat-003.md",
-      "branch": null
+      "branch": null,
+      "created": "2026-06-13",
+      "priority": "medium"
     },
     {
       "id": "feat-004",
-      "name": "TechnologyOne Gatekeeper Window Still Open",
-      "description": "TechnologyOne's 2026A release includes AI-powered Plus ERP but NO LMI/skills integration in CourseLoop. The gatekeeper gap (EXP-02) remains open — but Coursedog is now the primary fast-follower threat. Monitor TechnologyOne quarterly releases for LMI signals.",
+      "name": "Industry-Wide Reporting & Analytics Gap — DFVA as Independent Analytics Standard",
+      "status": "approved",
+      "spec_file": "features/feat-004.md",
+      "branch": null,
+      "created": "2026-06-15",
+      "priority": "high",
+      "score": 9,
+      "type": "pain_point",
+      "source": "research-loop reviews",
+      "detail": "Confirmed across 3 competitors (CourseLeaf, CourseLoop, Coursedog): no curriculum platform delivers adequate reporting/analytics. ListEdTech: 'These are data questions, not workflow questions.' DFVA's scoring dashboards fill the gap as an independent analytics layer."
+    },
+    {
+      "id": "feat-005",
+      "name": "Lightcast Data Freshness — Real-Time LMI Alternative",
+      "status": "approved",
+      "spec_file": "features/feat-005.md",
+      "branch": null,
+      "created": "2026-06-15",
+      "priority": "high",
+      "score": 8,
+      "type": "competitor_weakness",
+      "source": "research-loop reviews",
+      "detail": "Gartner reviews confirm Lightcast data is 'years behind' and 'could be outdated.' Combined with high pricing, this creates an opening for DFVA to use fresher, supplementary data sources (real-time job postings, AI-synthesized demand signals)."
+    },
+    {
+      "id": "feat-006",
+      "name": "Market Convergence Validation — DFVA Thesis Confirmed by Third Independent Source",
+      "status": "draft",
+      "spec_file": "features/feat-006.md",
+      "branch": null,
+      "created": "2026-06-15",
+      "priority": "high",
+      "score": 8,
+      "type": "market_validation",
+      "source": "research-loop reviews",
+      "detail": "ListEdTech, RFP.wiki, and InnoTechToday all confirm the market is converging toward data-centric 'academic operations platforms.' No vendor owns the analytics layer. DFVA's independent scoring standard has a validated market window — but it's closing as Coursedog ships LMI."
+    },
+    {
+      "id": "feat-007",
+      "name": "Structured Curriculum Data as Market Differentiator — Incumbents Store Degrees as Unstructured HTML",
       "status": "planned",
+      "spec_file": null,
+      "branch": null,
+      "created": "2026-06-18",
+      "priority": "high",
+      "score": 9,
+      "type": "market_gap",
+      "source": "research-loop forums",
+      "detail": "GitHub coursedog-importer project (real university migration, 9 PRs Mar-Apr 2026) confirms both Coursedog and Modern Campus store degree requirements as freeform HTML blocks — NOT structured data. No curriculum platform in the market supports programmatic analysis of degree requirements. DFVA's structured assessment model is a fundamentally different data architecture, not just better analytics."
+    },
+    {
+      "id": "feat-008",
+      "name": "Data Portability as Competitive Weapon — Vendor Lock-in Confirmed in Curriculum Market",
+      "status": "planned",
+      "spec_file": null,
+      "branch": null,
+      "created": "2026-06-18",
+      "priority": "high",
+      "score": 8,
+      "type": "competitor_weakness",
+      "source": "research-loop forums",
+      "detail": "Modern Campus provides ZERO data export on migration — university had to manually save HTML pages from Chrome before site decommissioned, then build scraper from scratch (6 weeks of work). Confirms vendor lock-in as deliberate strategy. DFVA's clean data import/export + independent positioning addresses this directly."
+    },
+    {
+      "id": "feat-009",
+      "name": "API Maturity as Competitive Differentiator — Coursedog Requires Browser Reverse-Engineering",
+      "status": "planned",
+      "spec_file": null,
+      "branch": null,
+      "created": "2026-06-18",
       "priority": "medium",
       "score": 7,
-      "source": "TechnologyOne 2026A release notes",
-      "type": "competitor_move",
-      "spec_file": null,
-      "branch": null
+      "type": "competitor_weakness",
+      "source": "research-loop forums",
+      "detail": "Coursedog API docs are inaccurate (password field naming), dual-ID system confuses developers, undocumented required parameters (doIntegration=true), and non-standard response formats. Developers must inspect browser network tabs to use the API. Clean, well-documented DFVA API would contrast sharply."
     }
-  ],
-  "status_lifecycle": {
-    "planned": "Idea exists, no spec yet → spec loop will generate one",
-    "draft": "Spec generated by spec loop, awaiting review",
-    "approved": "You approved the spec → dev loop will build it",
-    "in_progress": "Dev loop is currently building",
-    "done": "Built, merged, deployed"
-  },
-  "loops": {
-    "spec_loop": {"last_run": "2026-06-13", "specs_generated": 3},
-    "dev_loop": {"last_run": "2026-06-13", "features_built": 1}
-  }
+  ]
 }
