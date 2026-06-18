@@ -40,9 +40,9 @@
     {
       "id": "feat-003",
       "name": "Lightcast 2026 Workforce Alignment Validation",
-      "status": "approved",
+      "status": "done",
       "spec_file": "features/feat-003.md",
-      "branch": null,
+      "branch": "feat/feat-003",
       "created": "2026-06-13",
       "priority": "medium"
     },
