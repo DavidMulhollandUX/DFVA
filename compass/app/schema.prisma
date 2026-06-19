@@ -131,4 +131,79 @@ model AssessmentJob {
   thresholds    Json?
   dimensions    Json?
   reportJson    Json?    // Full report content as JSON
+
+  // Snapshot tracking
+  snapshots     AssessmentSnapshot[]
+}
+
+// Cross-institutional benchmarking
+model Institution {
+  id            String   @id @default(uuid())
+  createdAt     DateTime @default(now())
+
+  name          String
+  code          String   @unique   // e.g. "unimelb", "usyd", "unsw"
+  country       String   @default("AU")
+
+  assessments   InstitutionalAssessment[]
+  apiKeys       ApiKey[]
+}
+
+model InstitutionalAssessment {
+  id            String   @id @default(uuid())
+  createdAt     DateTime @default(now())
+
+  institution   Institution @relation(fields: [institutionId], references: [id])
+  institutionId String
+
+  programName   String
+  programCode   String
+  level         String?            // Bachelor, Master, PhD
+  handbookUrl   String?
+
+  score         Int
+  maxScore      Int     @default(36)
+  riskBand      String
+  thresholds    Json?
+  dimensions    Json?
+  snapshotDate  DateTime @default(now())
+
+  @@unique([institutionId, programCode])
+}
+
+model AssessmentSnapshot {
+  id            String   @id @default(uuid())
+  createdAt     DateTime @default(now())
+
+  job           AssessmentJob @relation(fields: [jobId], references: [id])
+  jobId         String
+
+  programName   String
+  programCode   String?
+  score         Int
+  maxScore      Int
+  riskBand      String
+  thresholds    Json?
+  dimensions    Json?
+  snapshotDate  DateTime
+
+  @@index([jobId])
+  @@index([programCode])
+}
+
+model ApiKey {
+  id            String   @id @default(uuid())
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  institution   Institution @relation(fields: [institutionId], references: [id])
+  institutionId String
+
+  name          String             // e.g. "Production key for USyd"
+  keyHash       String   @unique   // bcrypt/scrypt hash of the API key
+  keyPrefix     String             // First 8 chars for display (e.g. "dfva_abc...")
+  isActive      Boolean  @default(true)
+  lastUsedAt    DateTime?
+
+  @@index([institutionId])
 }
