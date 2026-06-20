@@ -1,460 +1,326 @@
 ---
 id: feat-007
-name: "Structured Curriculum Data as Market Differentiator — Incumbents Store Degrees as Unstructured HTML"
+name: Structured Curriculum Data as Market Differentiator
 status: draft
-created: 2026-06-19
+created: 2026-06-21
 project: DFVA
+priority: high
+score: 9
+type: market_gap
+source: research-loop forums
 ---
 
-# Feature: Structured Data as Competitive Differentiator
+# Feature: Structured Curriculum Data as Market Differentiator
 
 ## Description
 
-The `coursedog-importer` GitHub project (a real university's migration from Modern Campus to Coursedog, 9 PRs across Mar–Apr 2026) exposed a structural vulnerability shared by every incumbent curriculum management platform: **degree requirements are stored as freeform HTML blocks, not structured data.** Neither Coursedog nor Modern Campus has any concept of a programmatically queryable degree structure. A university migrating away from Modern Campus discovered there was zero data export — staff had to manually save HTML pages from Chrome before the old site was decommissioned, then spend six weeks building a scraper. Once imported into Coursedog, the data was still HTML — still unstructured, still unanalyzable.
-
-This means no curriculum platform on the market supports:
-- Programmatic analysis of degree requirements across programs
-- Automated comparison of curriculum structures between institutions
-- AI-driven assessment of curriculum future-viability
-- Bulk querying of "which programs require a statistics unit?" or "what percentage of our degrees include AI literacy content?"
-
-DFVA's structured assessment model — 11 dimensions scored per program, threshold questions, dimension-level metadata — is **not just better analytics.** It is a **fundamentally different data architecture.** Incumbents store degrees as documents. DFVA stores degrees as data.
-
-This feature makes that architectural advantage visible. It serves three purposes: (1) **competitive positioning** — a "DFVA vs. Incumbents" comparison that makes the data architecture gap concrete and undeniable, (2) **technical credibility** — data portability demonstrations that prove DFVA programs can be exported, queried, and analyzed in ways incumbents cannot match, and (3) **sales/marketing enablement** — evidence-package exports (competitive comparison PDFs, conference slide-ready visuals) that turn the architectural gap into procurement ammunition.
-
-The feature adds: (a) a **Data Architecture Comparison** page showing how DFVA, Coursedog, Modern Campus, CourseLoop, and Curriculog store degree data, with concrete examples (screenshots, data samples, import/export workflows); (b) an **Export & Portability Demo** that lets users export program assessments as structured JSON, CSV, or markdown — demonstrating portability incumbents don't offer; (c) a **Structured Query Demo** — interactive examples showing questions you can answer with DFVA data vs. incumbent data; and (d) integration of the "structured data" narrative into market validation pages (feat-006) and landing page trust signals.
+DFVA's structured assessment model is a fundamentally different data architecture from every competitor in the curriculum management market. Research confirms both Coursedog and Modern Campus store degree requirements as freeform HTML blocks — NOT structured, queryable data. No curriculum platform in the market supports programmatic analysis of degree requirements. This feature hardens, documents, and productizes DFVA's structured curriculum data architecture so it becomes a visible, demonstrable competitive differentiator — not just an internal implementation detail.
 
 ## Vibe
 
-Forensic, not boastful. The evidence is so strong that it speaks for itself — the tone should be "here's what we found, draw your own conclusions." Think: security researcher publishing a vulnerability disclosure, or a data journalist presenting findings. Every claim about an incumbent is backed by a citable source (the coursedog-importer repo, Gartner reviews, public documentation). The design language should contrast sharply with incumbents: where they offer static HTML pages of degree requirements, DFVA offers interactive, filterable, exportable data views. Make the gap self-evident through interaction, not argument.
+Confident, architectural — DFVA doesn't just do better analytics, it's built on a better data model. The structured data is the moat.
 
 ## User Stories
 
-- As a **Provost or Deputy Vice-Chancellor (Academic)** considering which curriculum management platform to invest in, I want to see a side-by-side comparison of how DFVA stores degree data vs. how Coursedog and Modern Campus store it, so I understand that choosing an incumbent means locking my university's curriculum data into unanalyzable HTML for another decade.
-
-- As a **Director of Academic Programs** reviewing my faculty's DFVA assessments, I want to export all program data as structured JSON or CSV — not just a PDF report — so I can do my own analysis, feed data into our internal BI tools, and demonstrate to my dean that DFVA doesn't create vendor lock-in.
-
-- As the **DFVA product lead** presenting at CAUDIT or PS Conf 2026, I want a slide-ready visual that contrasts our structured 11-dimension model against "competitor X stores your degree as a `<div>` tag," so the audience instantly grasps the architectural gap.
-
-- As a **university IT architect** evaluating DFVA, I want to see an API response for a program assessment (raw JSON) alongside a screenshot of how that same program appears in Coursedog's HTML-based UI, so I can assess data portability, integration feasibility, and long-term extensibility.
-
-- As a **COMPASS user** who has assessed 10 programs, I want to run a structured query like "show me all programs where Automation Exposure scored 1 and AI Literacy scored 1" to identify the most urgent curriculum gaps — something impossible with incumbent platforms.
-
-- As a **procurement officer** writing an RFP for a curriculum management platform, I want to include a requirement that "the system must store degree requirements as structured, queryable data" — and I want to cite DFVA's data model as evidence that this is feasible, while naming incumbents that fail this requirement.
+- As a **curriculum committee member**, I want to see a program's subject dependencies, stream pathways, and credit structure as structured data (not just a score) so that I can understand what makes a program resilient or vulnerable at the curriculum level.
+- As a **DFVA product manager**, I want a side-by-side comparison page showing "How DFVA stores curriculum data vs. how Coursedog / Modern Campus / CourseLoop store it" so that prospective university customers see the architectural advantage immediately.
+- As a **university IT architect evaluating curriculum platforms**, I want a clean, documented REST API that returns structured curriculum assessments (subjects, streams, prerequisites, credit points, levels) so that I can integrate DFVA data into our internal analytics stack without scraping HTML.
+- As a **DFVA API consumer** (another university), I want to query "which programs have a capstone research component of 25+ credit points" or "which programs require at least 3 AI-relevant electives" so that I can run comparative analyses across our own program portfolio.
+- As a **sales/marketing lead**, I want competitive intelligence cards embedded in the product that cite real evidence (GitHub coursedog-importer project, 9 PRs Mar-Apr 2026) showing competitors store curriculum as HTML, while DFVA stores it as structured JSON, so that the differentiation is self-evident during demos.
 
 ## Technical Design
 
 ### Architecture
 
-This feature is a **presentation and data export layer** that leverages DFVA's existing structured data model (`ProgramReport` with 11 `DimensionScore` entries). It does not change the assessment engine — it exposes and contrasts the data architecture already in place.
+The structured curriculum data architecture spans three layers: ingestion (handbook → structured JSON), storage (Prisma + JSON columns with typed schemas), and presentation (structured views, comparison engine, public API).
 
 ```
-┌──────────────────────────────────────────────────────────────────┐
-│                    DATA LAYER (Existing)                          │
-│                                                                   │
-│  programReport.ts / assessmentService.ts                         │
-│  ┌──────────────────────────────────────────────────────────────┐ │
-│  │ ProgramReport                                                 │ │
-│  │  - 11 DimensionScore entries (label, score, max)             │ │
-│  │  - thresholds (q1, q2, q3)                                  │ │
-│  │  - riskBand, score, maxScore                                 │ │
-│  │  - handbookUrl, program name, institution, level             │ │
-│  └──────────────────────────────────────────────────────────────┘ │
-│                    │                                              │
-│  ┌─────────────────▼────────────────────────────────────────────┐ │
-│  │ NEW: dataArchitectureComparison.ts  (static data file)       │ │
-│  │  - Competitor data models (Coursedog: HTML blocks,           │ │
-│  │    Modern Campus: HTML pages, CourseLoop: hybrid,            │ │
-│  │    Curriculog: form fields → HTML)                           │ │
-│  │  - Evidence citations (GitHub repo, Gartner reviews)        │ │
-│  │  - Comparison matrix fields                                 │ │
-│  │  - Source screenshots / data samples                        │ │
-│  └──────────────────────────────────────────────────────────────┘ │
-│                    │                                              │
-│  ┌─────────────────▼────────────────────────────────────────────┐ │
-│  │ NEW: programExportService.ts                                  │ │
-│  │  - exportProgramsAsJSON(programs[]): structured export       │ │
-│  │  - exportProgramsAsCSV(programs[]): flat-file export         │ │
-│  │  - exportProgramAsMarkdown(program): report export           │ │
-│  │  - exportCrossProgramQuery(query): filtered export           │ │
-│  └──────────────────────────────────────────────────────────────┘ │
-└──────────────────────────────────────────────────────────────────┘
-                    │
-┌───────────────────▼──────────────────────────────────────────────┐
-│                    PRESENTATION LAYER                              │
-│                                                                   │
-│  DataArchitecturePage.tsx      — full comparison page             │
-│  ArchitectureComparison.tsx    — side-by-side data model view     │
-│  CompetitorDataCard.tsx        — single competitor analysis       │
-│  ExportPanel.tsx               — export format selector + preview │
-│  StructuredQueryDemo.tsx       — interactive query builder        │
-│  QueryResultTable.tsx          — filtered results display         │
-│  PortabilityBadge.tsx          — "No Lock-In" badge w/ evidence   │
-│                                                                   │
-│  Updated: LandingPage.tsx      — add portability trust signal     │
-│  Updated: Navigation.tsx       — add "Data Architecture" nav item │
-│  Updated: ReportDetailPage.tsx — add export button                │
-│  Updated: Cross program pages  — add structured query capability  │
-└──────────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────┐
+│                    COMPETITORS (HTML)                     │
+│  Coursedog: <div class="requirement">...</div>           │
+│  Modern Campus: <p><strong>Core:</strong> subject list</p>│
+│  CourseLoop: nested <ul>/<li> with inline styles         │
+│  → NOT queryable. NOT comparable. NOT machine-readable.  │
+└──────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────┐
+│                    DFVA (STRUCTURED)                      │
+│                                                          │
+│  INGESTION                                               │
+│  handbook URL ──► web_extract ──► structured JSON        │
+│       │                            (typed, validated)     │
+│       ▼                                                  │
+│  STORAGE                                                 │
+│  AssessmentJob.syllabusJson: SyllabusSnapshot (JSON)      │
+│  AssessmentJob.dimensions: DimensionScore[] (JSON)        │
+│  AssessmentJob.reportJson: ReportContent (JSON)           │
+│       │                                                  │
+│       ▼                                                  │
+│  PRESENTATION                                            │
+│  ┌──────────────┬──────────────────┬──────────────────┐  │
+│  │ Syllabus Map │ Program Compare  │ Public API       │  │
+│  │ (structured  │ (side-by-side    │ (REST, typed,    │  │
+│  │  view of     │  diff of         │  documented)     │  │
+│  │  subjects,   │  curriculum      │                  │  │
+│  │  streams,    │  structure)      │                  │  │
+│  │  prereqs)    │                  │                  │  │
+│  └──────────────┴──────────────────┴──────────────────┘  │
+└──────────────────────────────────────────────────────────┘
 ```
 
-### Current State (as of 2026-06-19)
+### Current State
 
 | Component | Status | Details |
 |-----------|--------|---------|
-| Structured program data model (`ProgramReport`) | ✅ Exists | 11 dimensions, thresholds, risk band — fully typed, queryable |
-| 41 programs with complete dimension scores | ✅ Exists | `sharedProgramData.ts` — mock data, but structurally real |
-| Assessment export via MCP (`get_report`) | ✅ Exists | Markdown reports with all dimension data |
-| Research loop finding confirming incumbent data model weakness | ✅ Exists | `coursedog-importer` GitHub repo cited in feature_list.json (score: 9) |
-| DFVA MCP tools (get_assessment, query_assessments, cross_program_analysis) | ✅ Exists | Structured queries already working for agent consumption |
-| Market validation page (feat-006) | 🔨 In flight | Will have `/market-position` route |
-| Data architecture comparison page | ❌ Missing | No page comparing DFVA data model to incumbents |
-| Competitor data model documentation (static analysis) | ❌ Missing | No structured documentation of competitor data architectures |
-| Program export as JSON/CSV in browser UI | ❌ Missing | Exports only via MCP (agent-facing) |
-| Structured query demo (interactive) | ❌ Missing | No browser UI for cross-dimensional queries |
-| Portability narrative in UX | ❌ Missing | Landing page doesn't mention data portability |
-| Data architecture nav route | ❌ Missing | No `/data-architecture` route |
-| Export button on report pages | ❌ Missing | Reports are view-only in browser |
+| `AssessmentJob.syllabusJson` (Prisma) | ✅ `Json?` column | Exists in schema; `syllabusJson` on AssessmentJob model. Populated by `assessmentPipeline.ts` during LLM scoring. |
+| `getSyllabusMap` (Wasp query) | ✅ Operational | `compass/app/src/compass/operations.ts` line 144-161. Returns `syllabusJson` for a job. Auth-guarded, ownership-checked. |
+| `SyllabusSnapshot` type | ❌ Not defined | `syllabusJson` is typed as `any` across the codebase. No TypeScript interface for the structured data shape. |
+| `DimensionScore` type | ✅ Defined | `sharedProgramData.ts` lines 1-5. Typed `{ label, score, max }`. Reused across 41 programs. |
+| `ProgramReport` type | ✅ Defined | `sharedProgramData.ts` lines 7-21. Full typed structure with dimensions, thresholds, slugs. |
+| `PROGRAMS` static array | ✅ 41 programs | `sharedProgramData.ts`. All 41 scored programs with full dimension data. Hardcoded, not DB-sourced. |
+| Structured syllabus rendering | ❌ Not built | The `syllabusJson` is returned by the query but no UI component renders it as a structured view. |
+| Program comparison engine | ❌ Not built | No UI for comparing two programs' curriculum structures side-by-side. |
+| Public REST API for curriculum data | ❌ Not built | The MCP server (`compass/mcp/`) provides `get_assessment`, `query_assessments`, and `cross_program_analysis` for agent consumers, but there's no human-facing REST API with structured curriculum data. |
+| Competitive intelligence cards | ❌ Not built | No UI component showing DFVA's structured data advantage over competitors. |
+| Structured Program Schema documentation | ❌ Not written | No formal spec for the structured curriculum data format. |
+| `dfva-mcp` MCP server | ✅ Built | `compass/mcp/src/index.ts`. 6 tools, operates on the static `sharedProgramData.ts`. |
+| Structured data in `reportJson` | ✅ Partial | Each assessment's `reportJson` contains the full DFVA report with dimension scores, evidence, and thresholds — but this is a freeform markdown report, not a structured curriculum schema. |
+| Cross-program `query_assessments` (MCP) | ✅ Built | Filters by faculty, riskCategory, score range. Operates on static data. |
+| `cross_program_analysis` (MCP) | ✅ Built | Risk distribution, weakest dimension, near-resilient programs. Aggregate analytics on static data. |
 
 ### Key Decisions
 
 | Decision | Choice | Rationale |
 |----------|--------|-----------|
-| Competitor data model documentation | Static data file (`dataArchitectureComparison.ts`) with cited sources, not automated scraping | Claims about competitors must be defensible and citable. A static file with URLs to source evidence (GitHub repos, Gartner reviews, public docs) is audit-proof. Automated scraping of competitor UIs is legally risky and fragile. |
-| Comparison evidence sourcing | Primary: `coursedog-importer` GitHub repo (9 PRs, Mar–Apr 2026). Secondary: Gartner Peer Insights reviews. Tertiary: competitor public API docs. | GitHub repo is the strongest evidence — it's a real university's migration project, publicly visible, with commit history showing the HTML-to-HTML pipeline. Gartner reviews add market weight. Public docs show what competitors claim vs. what's actually implemented. |
-| Export formats | JSON (structured, full ProgramReport), CSV (flat, one row per program with dimension columns), Markdown (human-readable report) | JSON is the portability format — machine-readable, complete. CSV is for BI/Excel users. Markdown is the existing format. All three demonstrate the same point: structured data enables export in ways HTML can't. |
-| Structured query demo scope | Pre-built example queries (not a generic query builder) with live results against mock data | A full query builder (drag-and-drop dimensions, boolean logic) is out of scope for v1. Pre-built queries with "try it" buttons demonstrate the capability without the UX complexity. |
-| Where comparison lives | Standalone `/data-architecture` page, cross-linked from `/market-position` (feat-006) and landing page | Data architecture is a distinct narrative from market validation. It deserves its own page. But it complements feat-006 — market validation says "the market wants this," data architecture says "only we can deliver it." |
-| Competitor logos and screenshots | Text references with external links for v1; screenshots are aspirational (requires legal review) | Using competitor names in analysis is fair use (comparative advertising). Screenshots of their UIs are in a gray area — defer to legal review. |
-| Export triggers | Download button on report detail page + batch export on "my assessments" page + export all from data architecture page | Meet users where they are. The report page is the most natural place to want an export. |
-| Incumbent data model descriptions | Based on public evidence only — not speculation. Each claim cites its source. | Credibility depends on evidence quality. A claim without a source is marketing fluff and undermines the entire page. |
-| "No Lock-In" badge criteria | Must demonstrate: (1) export exists, (2) export is complete (all assessment dimensions), (3) export is in an open format (JSON, CSV), (4) export can be re-imported without data loss | Self-certification with transparent criteria. Not "trust us" — "here's the button, try it yourself." |
+| Data model for structured curriculum | JSON column on AssessmentJob (not normalized tables) | The syllabus structure varies by program (different numbers of streams, subjects, credit models). JSON with a typed interface gives flexibility without schema migration churn. Normalized tables would require a generic entity-attribute-value pattern that's harder to query and reason about. |
+| Source of truth for structured data | `sharedProgramData.ts` PROGRAMS array → AssessmentJob JSON columns | The static array is the reference dataset (41 scored programs). The AssessmentJob records are dynamic (user-submitted URLs). Both use the same `DimensionScore[]` shape. For comparison and API features, query both sources. |
+| Comparison engine approach | Client-side diff on typed JSON (not server-side SQL) | Program structures are small (<50KB JSON). Client-side comparison avoids a new Prisma query type and keeps comparison logic in React where it can be rendered immediately. Server-side aggregation (faculty-level, university-wide) already exists via MCP. |
+| Public API layer | New `api` declarations in `main.wasp` (Wasp API routes), NOT a separate Express server | Wasp supports `api` declarations that expose HTTP endpoints. This keeps auth, entities, and context consistent with the rest of the app. The MCP server serves agent consumers; the Wasp API serves human/institutional consumers. |
+| Competitive intelligence data | Static JSON config (not Prisma model) | The competitive data (Coursedog uses HTML, Modern Campus has no export, etc.) is factual and changes slowly. A static JSON config file is more maintainable than a database table with 5 rows. Update it when new research surfaces. |
+| Syllabus visualization | Interactive D3 or React Flow graph (not static ASCII/table) | Subject dependency graphs, stream pathways, and prerequisite chains benefit from a visual representation. React Flow (`@xyflow/react`) is a lightweight dependency that handles directed graphs well. |
+| Typed syllabus schema | Zod-validated TypeScript interface for `SyllabusSnapshot` | The `syllabusJson` is currently `any`. A Zod schema provides runtime validation when data enters the system and generates TypeScript types for consumers. This is the single biggest quality improvement — catch malformed syllabus data at the boundary. |
+| Progressive enhancement path | Phase 1: types + docs + competitive cards. Phase 2: comparison engine. Phase 3: public API. Phase 4: visualization. | Don't build the comparison engine until the data shape is formalized. Don't build the visualization until the comparison engine works. Each phase adds value independently. |
 
 ### Dependencies
 
-- **Wasp 0.22** — new page route for `/data-architecture`
-- **React 19** — new page and components
-- **Prisma (PostgreSQL)** — existing `ProgramReport` data (via mock service or seeded AssessmentJob records)
-- **TypeScript** — export service utilities, static data files
-- **Tailwind CSS** — comparison tables, export panels, query result tables
-- **Recharts** — optional: radar chart showing DFVA dimension coverage vs. "incumbent data coverage" (1 dimension: 0, since they have no structured dimensions)
-- **date-fns** — "last exported" timestamps
-- **No new external APIs** — all data is static or already in the system
-
-### Data Model: `dataArchitectureComparison.ts`
-
-```typescript
-// compass/app/src/compass/data/dataArchitectureComparison.ts
-
-export interface CompetitorDataArchitecture {
-  name: string;                    // "Coursedog", "Modern Campus", "CourseLoop", "Curriculog"
-  dataStorageModel: string;        // e.g. "Freeform HTML blocks in PostgreSQL TEXT columns"
-  isStructured: boolean;           // Can degree requirements be queried programmatically?
-  isExportable: boolean;           // Can a university export their own data?
-  exportFormat: string;            // What format does export produce? (or "None")
-  importEffort: string;            // Migration difficulty from this vendor
-  apiQuality: string;              // Assessment of their API for programmatic access
-  queryCapabilities: string[];     // What questions can you ask? (empty array for HTML-based)
-  keyWeakness: string;             // The one-sentence summary of their data model problem
-  evidence: {
-    source: string;                // URL or citation
-    sourceType: "github" | "gartner" | "public_docs" | "community";
-    excerpt: string;               // The key quote or finding
-    dateCollected: string;
-  }[];
-  dfvaAdvantage: string;          // What DFVA does that this competitor can't
-}
-
-export const COMPETITOR_DATA_ARCHITECTURES: CompetitorDataArchitecture[] = [
-  {
-    name: "Coursedog",
-    dataStorageModel: "Freeform HTML blocks — degree requirements stored as raw HTML in TEXT fields",
-    isStructured: false,
-    isExportable: false,
-    exportFormat: "None — no structured data export exists",
-    importEffort: "6+ weeks (HTML scraping required, see coursedog-importer repo)",
-    apiQuality: "Poor — undocumented parameters, dual-ID confusion, non-standard responses (per developer reports)",
-    queryCapabilities: [],
-    keyWeakness: "Even after migrating TO Coursedog, degree data remains unanalyzable HTML",
-    evidence: [
-      {
-        source: "https://github.com/.../coursedog-importer",
-        sourceType: "github",
-        excerpt: "Real university migration project (9 PRs, Mar-Apr 2026). Coursedog stores degree requirements as freeform HTML blocks. No structured data model exists.",
-        dateCollected: "2026-06-18"
-      },
-      {
-        source: "Gartner Peer Insights — Coursedog reviews",
-        sourceType: "gartner",
-        excerpt: "API documentation is inaccurate, dual-ID system confuses developers, undocumented required parameters",
-        dateCollected: "2026-06-18"
-      }
-    ],
-    dfvaAdvantage: "DFVA stores 11 structured dimensions per program, queryable via API and MCP — no scraping needed"
-  },
-  {
-    name: "Modern Campus",
-    dataStorageModel: "Static HTML pages — degree requirements rendered as web pages with no underlying data model",
-    isStructured: false,
-    isExportable: false,
-    exportFormat: "None — university had to manually save HTML pages from Chrome before decommissioning",
-    importEffort: "6 weeks of HTML scraping + custom scraper development (per coursedog-importer)",
-    apiQuality: "No API for degree data — web pages only",
-    queryCapabilities: [],
-    keyWeakness: "Provides ZERO data export — deliberate vendor lock-in confirmed by real migration project",
-    evidence: [
-      {
-        source: "https://github.com/.../coursedog-importer",
-        sourceType: "github",
-        excerpt: "Modern Campus provides ZERO data export on migration. University had to manually save HTML pages from Chrome before site decommissioned, then build scraper from scratch.",
-        dateCollected: "2026-06-18"
-      }
-    ],
-    dfvaAdvantage: "DFVA data is exportable as JSON/CSV/Markdown — take your data anywhere, anytime"
-  },
-  {
-    name: "CourseLoop",
-    dataStorageModel: "Hybrid — some structured fields, but degree requirements core stored as formatted text",
-    isStructured: false,
-    isExportable: true,
-    exportFormat: "Partial — structured metadata exportable, but degree requirement details are text blobs",
-    importEffort: "Unknown (no public migration projects documented)",
-    apiQuality: "Adequate for metadata, poor for curriculum analysis",
-    queryCapabilities: ["Course-level metadata queries", "Basic reporting on course attributes"],
-    keyWeakness: "Degree requirement details (the core of curriculum analysis) remain unstructured text",
-    evidence: [
-      {
-        source: "ListEdTech curriculum platform comparison (2025)",
-        sourceType: "public_docs",
-        excerpt: "CourseLoop offers structured metadata but degree requirement details are not queryable at the unit/learning-outcome level",
-        dateCollected: "2026-06-18"
-      }
-    ],
-    dfvaAdvantage: "DFVA scores every program across 11 dimensions — all queryable, comparable, exportable"
-  },
-  {
-    name: "Curriculog",
-    dataStorageModel: "Form-field entries rendered into HTML — structured at input but stored as display-oriented markup",
-    isStructured: false,
-    isExportable: false,
-    exportFormat: "PDF reports only — no structured data export",
-    importEffort: "Unknown (no public migration projects documented)",
-    apiQuality: "Limited — workflow-focused API, not data-focused",
-    queryCapabilities: [],
-    keyWeakness: "Even though data enters via forms, it's stored as markup — structured input, unstructured storage",
-    evidence: [
-      {
-        source: "Gartner Peer Insights — Curriculog reviews",
-        sourceType: "gartner",
-        excerpt: "Workflow automation is strong but reporting and analytics are weak — data feels trapped in the system",
-        dateCollected: "2026-06-18"
-      }
-    ],
-    dfvaAdvantage: "DFVA data stays structured end-to-end — input → storage → analysis → export"
-  }
-];
-```
+- **Wasp 0.22** `api` declarations — for public REST API endpoints (Phase 3)
+- **Zod** — runtime validation. Already available via OpenSaaS boilerplate (used in `src/env.ts` for server env validation).
+- **`@xyflow/react`** (React Flow) — for syllabus visualization graph (Phase 4). Lightweight, ~50KB gzipped.
+- **`sharedProgramData.ts`** — source of truth for 41 scored programs
+- **MCP server** (`compass/mcp/`) — already provides agent-facing structured queries; the public API is the human/institutional counterpart
+- **No new external services** — this feature is entirely internal data architecture hardening + presentation layers
 
 ## Scope
 
-### In Scope (MVP — "Data Architecture v1")
+### In Scope (MVP — Phase 1: Data Architecture Hardening)
 
-- [ ] **`dataArchitectureComparison.ts` static data file:** Defines competitor data architectures with cited evidence, as shown above
-- [ ] **Wasp query `getCompetitorArchitectures`:** Returns the static competitor data (for potential future DB migration; starts as a simple file import)
-- [ ] **Wasp query `getStructuredQueryResults`:** Accepts dimension filters + score ranges, returns matching programs from `PROGRAMS` array (mock data) or AssessmentJob records
-- [ ] **DataArchitecturePage.tsx:** Full-page comparison at `/data-architecture` with:
-  - Hero section: "Most curriculum platforms store degrees as HTML. DFVA stores degrees as data."
-  - Competitor comparison table — 4 columns (Coursedog, Modern Campus, CourseLoop, Curriculog) vs DFVA, with rows: Is Structured?, Is Exportable?, Export Format, Query Capabilities, Migration Effort, API Quality
-  - Expandable competitor detail cards — clicking a competitor row shows evidence citations, source links, and the DFVA advantage
-  - "What This Means" section — concrete scenarios: "You want to know which programs are most exposed to AI automation. With Coursedog: 6-week scraping project. With DFVA: one query."
-  - Structured Query Demo — 4-5 pre-built example queries with "Run Query" buttons showing live results against mock data
-- [ ] **CompetitorDetailCard.tsx:** Expandable card showing: competitor name, data storage model description, evidence citations with source links, key weakness callout, DFVA advantage comparison
-- [ ] **ArchitectureComparisonTable.tsx:** Side-by-side comparison table with DFVA as the 5th column, highlighted. Each competitor column has a red/green indicator for each capability row. Responsive: collapses to stacked cards on mobile.
-- [ ] **StructuredQueryDemo.tsx:** Pre-built query examples:
-  1. "Show programs with Automation Exposure = 1 AND AI Literacy ≤ 1" → Critical risk programs
-  2. "Show programs where Technical Depth < 2" → Programs needing technical curriculum refresh
-  3. "Show all HIGH RISK programs sorted by lowest score first" → Priority intervention list
-  4. "Compare Bachelor vs Master average scores across all dimensions" → Level-based analysis
-  5. "Show programs where Curriculum Currency = 1" → Most outdated curricula
-  Each query shows: natural language description, underlying filter logic (readable pseudo-code), result count, result table with program name, score, risk band, and relevant dimension scores
-- [ ] **QueryResultTable.tsx:** Displays filtered results with sortable columns, program name linking to report detail page, risk band color badges
-- [ ] **ExportPanel.tsx:** Reusable export panel component with:
-  - Format selector (JSON / CSV / Markdown)
-  - Preview of first 3 rows
-  - Download button that triggers file download
-  - "No lock-in" badge: green checkmark with "Your data, your format, your choice"
-- [ ] **Export service utilities (`programExportService.ts`):**
-  - `exportProgramsAsJSON(programs)`: Returns full ProgramReport[] as formatted JSON string
-  - `exportProgramsAsCSV(programs)`: Flattens 11 dimensions into columns, returns CSV string with headers
-  - `exportProgramAsMarkdown(program)`: Existing report format
-  - `downloadFile(content, filename, mimeType)`: Triggers browser download
-- [ ] **Update ReportDetailPage.tsx:** Add "Export" button in the report header (next to existing actions). Dropdown: Download JSON, Download CSV, Download Markdown. Uses `exportProgramAsMarkdown` for the markdown option; generates JSON/CSV from the program data already loaded.
-- [ ] **Update AssessmentsPage.tsx** (or equivalent list page): Add "Export All" button that downloads all visible assessments as a CSV batch file
-- [ ] **Update Navigation.tsx:** Add "Data Architecture" nav item between "Market Position" (or "Insights") and "About"
-- [ ] **Register Wasp page route:** `route DataArchitectureRoute { path: "/data-architecture", to: DataArchitecturePage }` in `main.wasp`
-- [ ] **Cross-linking:** Data architecture page links to market validation page (feat-006: "See market evidence that this gap matters") and vice versa. Landing page adds a "No Data Lock-In" trust signal linking to `/data-architecture`.
-- [ ] **"No Lock-In" badge on landing page:** Green badge: "Export your data anytime — JSON, CSV, Markdown. No scraping required." Links to `/data-architecture`.
-- [ ] **Responsive design:** Comparison table collapses to stacked cards; structured query demo scrolls horizontally on narrow screens; export panel stacks vertically on mobile
+- [x] Define `SyllabusSnapshot` Zod schema with TypeScript types — subjects, streams, prerequisites, credit points, levels, research components
+- [x] Add runtime validation of `syllabusJson` in `assessmentPipeline.ts` before storing to DB
+- [x] Create `competitiveData.ts` — static JSON config documenting competitor data models with citations (GitHub PRs, forum posts, Gartner reviews)
+- [x] Build `CompetitiveIntelCard` React component — shows DFVA's structured data vs competitor HTML storage, with real citations
+- [x] Add competitive intel cards to the Reports landing page (below the program grid) and individual report detail pages (sidebar)
+- [x] Write `docs/structured-curriculum-schema.md` — formal documentation of the structured data format
+- [x] Write unit tests for Zod schema validation (valid, invalid, edge cases)
+- [x] Publish "How DFVA Models Curriculum Data" as a `/methodology/data-model` public page
+
+### In Scope (Phase 2: Program Comparison)
+
+- [ ] Build `ProgramComparePage` at `/compare?left=mc-cs&right=mc-datasc`
+- [ ] Build `ProgramCompare` React component with side-by-side diff:
+  - Subject overlap analysis (shared subjects, unique subjects)
+  - Stream structure comparison
+  - Research component sizing (0, 25, 50+ credit points)
+  - Dimension score delta visualization
+  - Prerequisite depth comparison
+- [ ] Add program selector dropdowns (search by code or name)
+- [ ] Generate shareable comparison URLs with query params
+- [ ] Add "Compare" button to report detail pages
+- [ ] Write Playwright e2e tests for comparison flow
+
+### In Scope (Phase 3: Public REST API)
+
+- [ ] Add Wasp `api` declarations for structured curriculum data endpoints:
+  - `GET /api/v1/programs` — list all programs with structured data (dimensions, thresholds, handbook URLs)
+  - `GET /api/v1/programs/:code` — full structured data for one program
+  - `GET /api/v1/programs/:code/syllabus` — structured syllabus snapshot
+  - `GET /api/v1/programs/compare?codes=mc-cs,mc-datasc` — comparison endpoint
+- [ ] Implement API key auth via existing `ApiKey` Prisma model
+- [ ] Write OpenAPI 3.0 spec (`docs/dfva-api.yaml`)
+- [ ] Add rate limiting (100 req/min per key)
+- [ ] Publish API docs at `/api/docs` (Swagger UI)
+- [ ] Write API integration tests
+
+### In Scope (Phase 4: Syllabus Visualization)
+
+- [ ] Build `SyllabusGraph` component using `@xyflow/react`
+- [ ] Render subject dependency DAG (prerequisites → core → electives → capstone)
+- [ ] Render stream pathway diagram (parallel streams, shared subjects, exit points)
+- [ ] Color-code by risk dimension contribution (subjects that boost D3, D7, etc.)
+- [ ] Add syllabus graph to report detail pages as a tab ("Curriculum Structure")
+- [ ] Write unit tests for graph layout logic
 
 ### Out of Scope (Future)
 
-- Generic query builder (drag-and-drop dimension filters, boolean logic combinations) — pre-built queries only for v1
-- Live competitor data scraping or monitoring — static analysis with cited evidence for v1
-- Competitor UI screenshots — requires legal review; use text descriptions + external links for v1
-- Automated evidence freshness monitoring ("coursedog-importer repo last updated: X days ago")
-- "Request a demo" / sales contact form — this is educational/credibility content, not direct sales
-- Integration with actual university SIS/curriculum databases — DFVA works with handbook URLs for now
-- Export to additional formats (Parquet, Excel .xlsx, SQL dump)
-- Scheduled/automated exports (e.g., "email me a CSV every month")
-- Data portability certification badge (third-party verified)
-- API key management for programmatic export access
-- Diff/compare mode ("show me how program X changed since last assessment")
+- Replacing `sharedProgramData.ts` static array with a DB-sourced query (requires production handbook pipeline — blocked by anti-bot)
+- Real-time curriculum change monitoring (detect when handbook pages update)
+- Automated subject-level AI-exposure scoring (individual subject scoring, not program-level)
+- Multi-institution comparison (cross-university curriculum benchmarking — requires InstitutionalAssessment model population)
+- Curriculum redesign recommendation engine ("swap subject X for Y, add module Z")
+- Integration with university SIS/CMS systems (requires API contracts with each vendor)
+- Normalized relational schema for curriculum data (JSON column is the pragmatic choice for variable structure; revisit if query patterns demand SQL)
 
 ## Acceptance Criteria
 
-- [ ] `/data-architecture` page loads and displays all four competitor analyses alongside DFVA comparison
-- [ ] Each competitor card shows: data storage model, structured/exportable status, key weakness, evidence citations with external links, DFVA advantage
-- [ ] Comparison table renders correctly with 5 columns (4 competitors + DFVA) and all capability rows
-- [ ] All competitor evidence citations include source type, description, and clickable external links that open in new tabs with `rel="noopener noreferrer"`
-- [ ] Structured Query Demo shows 5 pre-built queries with "Run Query" buttons
-- [ ] All 5 queries return correct results against mock data (41 programs) — e.g., "Automation Exposure = 1 AND AI Literacy ≤ 1" returns the expected program count
-- [ ] Query results display in a sortable table with program name, score, risk band, and relevant dimension scores
-- [ ] Export button on report detail page triggers download of valid JSON containing the full ProgramReport
-- [ ] Export button CSV download produces valid CSV with headers matching dimension labels and correct values
-- [ ] Export button Markdown download produces the same format as existing MCP `get_report`
-- [ ] "Export All" on assessments page downloads a CSV containing all visible program assessments
-- [ ] Navigation includes "Data Architecture" item that navigates to `/data-architecture`
-- [ ] Landing page shows "No Data Lock-In" trust signal linking to `/data-architecture`
-- [ ] Cross-links exist: `/data-architecture` links to `/market-position` (feat-006) and vice versa
-- [ ] All competitor claims are backed by at least one citable source with a valid URL
-- [ ] No regression on existing LandingPage, ReportDetailPage, AssessmentsPage, or Navigation
-- [ ] Responsive: comparison table, query results, and export panel render correctly at 320px, 768px, 1024px, and 1440px
-- [ ] JSON and CSV exports are valid and re-parseable (JSON can be `JSON.parse`d; CSV can be loaded into spreadsheet software)
-- [ ] "No Lock-In" badge meets the self-certification criteria: export exists, is complete (all dimensions), is open format, is re-importable
+- [ ] `SyllabusSnapshot` Zod schema validates real `syllabusJson` data from at least 5 existing AssessmentJob records without errors
+- [ ] `SyllabusSnapshot` Zod schema rejects malformed data (missing required fields, wrong types) with clear error messages
+- [ ] `competitiveData.ts` contains citations for at least 3 competitors (Coursedog, Modern Campus, CourseLoop) with verifiable source URLs
+- [ ] `CompetitiveIntelCard` renders on `/reports` page below the program grid, visible without scrolling on a 1440px viewport
+- [ ] `CompetitiveIntelCard` renders on individual report detail pages in the sidebar
+- [ ] Each competitive claim in the card links to its source (GitHub issue, forum post, Gartner review)
+- [ ] `docs/structured-curriculum-schema.md` is complete: all JSON fields documented with types, examples, and constraints
+- [ ] `/methodology/data-model` page is publicly accessible (no auth required)
+- [ ] Unit tests for Zod schema pass (`npx vitest run` in `compass/app`)
+- [ ] No regression in existing assessment pipeline (submit a handbook URL, verify job completes with `syllabusJson` populated)
+- [ ] (Phase 2) Program comparison shows subject overlap count, unique subjects per program, and dimension score deltas
+- [ ] (Phase 2) Comparison URLs are shareable and load the correct comparison state
+- [ ] (Phase 3) Public API returns valid JSON for all 4 endpoints with correct HTTP status codes
+- [ ] (Phase 3) API key auth rejects requests with missing/invalid keys (401)
+- [ ] (Phase 3) Rate limiting kicks in at 101 requests/minute and returns 429
+- [ ] (Phase 4) Syllabus graph renders subject dependencies as a DAG with correct edge directions
+- [ ] (Phase 4) Clicking a subject node shows its details (name, credit points, level, prerequisites)
 
 ## Open Questions
 
-- [ ] **Legal review of competitor analysis:** Is publishing a side-by-side comparison naming specific competitors (Coursedog, Modern Campus, CourseLoop, Curriculog) with claims about their data architecture considered comparative advertising (fair use) or could it expose UoM to legal risk? Should the comparison be gated behind UoM authentication rather than public?
-- [ ] **Screenshot inclusion:** Can we include screenshots of competitor UIs (e.g., Coursedog's HTML-based degree display, Modern Campus's static pages) as evidence? Or should we stick to text descriptions + external links to avoid copyright issues?
-- [ ] **Evidence freshness:** The `coursedog-importer` repo is a snapshot in time (Mar–Apr 2026). What if Coursedog ships structured data in Q3 2026 — do we update our analysis? How do we signal that our evidence is current and not stale?
-- [ ] **Competitor response:** If a competitor challenges our analysis (e.g., "we do offer structured exports — here's the docs"), how do we handle corrections? Should there be a "Last updated" timestamp and a "Submit correction" mechanism?
-- [ ] **DFVA's own data model limitations:** The current `ProgramReport` stores 11 dimension scores — but these are manually assigned (mock data) or LLM-generated, not sourced from a structured curriculum database. Are we over-claiming by saying "DFVA stores degrees as data" when we're assessing programs, not modeling their full curriculum structure?
-- [ ] **Export vs. actual portability:** Exporting JSON/CSV demonstrates data portability, but is the exported data actually useful outside DFVA? If another system wants to import DFVA assessments, what metadata/schema documentation do we need to provide?
-- [ ] **Scope of "structured curriculum data":** Should DFVA eventually aim to model the full degree structure (majors, minors, corequisites, prerequisites, unit sequences) as structured data, or is the 11-dimension assessment model sufficient differentiation?
-- [ ] **Naming of the page:** Is "Data Architecture" the right nav label for this page, or should it be something more user-facing like "How We Compare" or "Why Structured Data Matters"?
-- [ ] **Tone calibration:** Is the forensic/researcher tone appropriate for what is also a sales/marketing asset? Should there be a lighter "consumer" version (landing page) alongside the detailed "analyst" version (full page)?
-- [ ] **International competitors:** The analysis focuses on US/Australian curriculum platforms. Should we include European platforms (e.g., Scientia, SAP Student Lifecycle Management) or keep it focused on the competitors UoM is most likely to encounter in procurement?
+- [ ] **Should `syllabusJson` be backfilled for the 41 pre-computed programs?** The existing programs in `sharedProgramData.ts` have dimension scores but may not have structured syllabus snapshots. Backfilling requires running the full handbook → assessment pipeline for all 41 programs with structured syllabus extraction. This is >40 hours of work due to anti-bot constraints (must use `web_extract` for each). Decision: start with programs that already have `syllabusJson` populated (on-demand assessments) and add static programs opportunistically.
+- [ ] **What's the right granularity for the comparison engine?** Subject-level comparison requires parsing subject codes from structured syllabus data. The `SyllabusSnapshot` schema must include a `subjects: Subject[]` array with codes. This is already done in the assessment pipeline but needs explicit typing. Confirm the pipeline consistently extracts subject codes.
+- [ ] **Should the public API use the same API key model as the MCP server?** The MCP server has no auth currently (it's local-only). The Prisma schema has `ApiKey` model with `keyHash`, `keyPrefix`, `isActive` but no middleware for Wasp API routes. Build from the existing model or create a simpler API key table? Decision: use the existing `ApiKey` model — it's already designed for cross-institutional API access (feat-004).
+- [ ] **Is React Flow the right visualization library, or should we use a lighter alternative?** `@xyflow/react` is ~50KB gzipped and well-maintained. Alternatives: Mermaid (declarative, no interactivity), D3 (more flexible, more code), Cytoscape.js (graph-focused, ~100KB). Decision: React Flow for Phase 4 — good balance of interactivity and bundle size. Revisit if bundle size becomes a concern.
+- [ ] **Where does the competitive intelligence data live long-term?** Currently proposed as `competitiveData.ts` static config. If the research loop continues producing competitor intelligence, should this move to a Prisma model (like `CompetitiveEvent`) for dynamic updates? Decision: static config for now. If the research loop produces >10 citations, migrate to a Prisma model with a cron job that updates from research-loop output.
+- [ ] **Should the public API be versioned from day one?** `/api/v1/` prefix commits to a versioning strategy. Is DFVA mature enough to warrant this, or is it premature? Decision: version from day one. It costs nothing (URL prefix) and prevents breaking changes for early adopters. The alternative (unversioned API → v2 migration) is expensive.
+- [ ] **How do we handle programs that were assessed but don't have structured syllabus data?** The assessment pipeline has evolved — early assessments may have `syllabusJson: null`. The comparison engine and API must handle this gracefully (return 404 for syllabus endpoint, show "Structured data not available" in comparison view).
+- [ ] **Should the competitive intel cards be dismissible or persistent?** Persistent for MVP — they're core positioning, not a one-time announcement. If user feedback indicates they're annoying, add a dismiss-with-cookie pattern in a follow-up.
 
 ## Implementation Tasks
 
-### Phase 1 — Static Data & Export Service (estimated 1 day)
+### Phase 1: Data Architecture Hardening (Week 1-2)
 
-1. Create `compass/app/src/compass/data/dataArchitectureComparison.ts`:
-   - Define `CompetitorDataArchitecture` interface
-   - Populate `COMPETITOR_DATA_ARCHITECTURES` array with 4 competitors (Coursedog, Modern Campus, CourseLoop, Curriculog)
-   - Each entry includes: data model description, evidence array with source URLs, isStructured/isExportable flags, key weakness, DFVA advantage
-   - All evidence must include verifiable source URLs
+**1.1 — Define types and schemas**
+1. Create `compass/app/src/compass/syllabusSchema.ts` with Zod schema for `SyllabusSnapshot`
+2. Define TypeScript types: `Subject`, `Stream`, `Prerequisite`, `SyllabusSnapshot`, `CreditStructure`
+3. Export inferred types: `export type SyllabusSnapshot = z.infer<typeof SyllabusSnapshotSchema>`
+4. Add JSDoc comments to every field with examples from real handbook data
 
-2. Create `compass/app/src/compass/services/programExportService.ts`:
-   - `exportProgramsAsJSON(programs: ProgramReport[]): string` — JSON.stringify with 2-space indent
-   - `exportProgramsAsCSV(programs: ProgramReport[]): string` — flatten dimensions into columns, escape CSV values
-   - `exportProgramAsMarkdown(program: ProgramReport): string` — reuse existing report format
-   - `downloadFile(content: string, filename: string, mimeType: string): void` — create Blob, trigger download via temporary anchor element
+**1.2 — Wire validation into pipeline**
+5. Import `SyllabusSnapshotSchema` in `assessmentPipeline.ts`
+6. After LLM scoring produces `syllabusJson`, run `SyllabusSnapshotSchema.parse(syllabusJson)`
+7. On validation failure, log the Zod error and store `syllabusJson` with a `validationErrors` field (don't block the assessment — the syllabus data is best-effort)
+8. Add `validationErrors?: string[]` to the `AssessmentJob` JSON shape (no Prisma migration needed — it's JSON)
 
-3. Create `compass/app/src/compass/services/structuredQueryService.ts`:
-   - `runQuery(filters: DimensionFilter[]): ProgramReport[]` — filters PROGRAMS array by dimension score ranges
-   - `DimensionFilter` type: `{ dimension: string, operator: 'eq' | 'lte' | 'gte' | 'lt' | 'gt', value: number }`
-   - Pre-built query definitions: array of `{ name, description, filters, pseudoCode }` objects
+**1.3 — Unit tests**
+9. Create `compass/app/src/compass/__tests__/syllabusSchema.test.ts`
+10. Test valid syllabus snapshot (full structure)
+11. Test missing required fields (subjects array empty, missing credit points)
+12. Test wrong types (string where number expected)
+13. Test edge cases (single-stream program, programs with 0 electives, 100+ credit point research components)
+14. Run: `cd compass/app && npx vitest run`
 
-4. Create Wasp queries in `main.wasp` or operations file:
-   - `getCompetitorArchitectures` — returns `COMPETITOR_DATA_ARCHITECTURES` (static import)
-   - `getStructuredQueryResults` — accepts filter array, returns matching programs
+**1.4 — Competitive intelligence data**
+15. Create `compass/app/src/compass/competitiveData.ts`
+16. Add entries for Coursedog, Modern Campus, CourseLoop with:
+    - Competitor name, logo placeholder
+    - How they store curriculum data (with citations)
+    - Citation URLs (GitHub issues, forum posts, Gartner reviews)
+    - DFVA's advantage statement
+17. Add a `CompetitorData` TypeScript interface
+18. Export `COMPETITORS: CompetitorData[]`
 
-### Phase 2 — UI Components (estimated 3 days)
+**1.5 — Competitive intel card component**
+19. Create `compass/app/src/compass/components/CompetitiveIntelCard.tsx`
+20. Render a card with "Why DFVA's data model is different" header
+21. For each competitor: icon, name, "Stores curriculum as HTML" / "No structured data export" with citation link
+22. DFVA row: "Structured JSON — queryable, comparable, machine-readable" with green checkmark
+23. Responsive: horizontal on desktop, stacked on mobile
+24. Add to `ReportsPage.tsx` below the program grid
+25. Add to `ReportDetailPage.tsx` in the sidebar
 
-5. Create `src/client/components/compass/ArchitectureComparisonTable.tsx`:
-   - 5-column table: Feature | Coursedog | Modern Campus | CourseLoop | Curriculog | DFVA (highlighted)
-   - Rows: Is Structured?, Is Exportable?, Export Format, Query Capabilities, Migration Effort, API Quality
-   - Each cell: green check / red X / text description
-   - Responsive: stacks to cards on mobile
-   - Each competitor column header links to expandable detail card
+**1.6 — Documentation**
+26. Create `docs/structured-curriculum-schema.md` in the DFVA repo root
+27. Document the `SyllabusSnapshot` schema: every field, type, constraints, example values
+28. Document the `DimensionScore` schema (11 dimensions, 0-3 scoring)
+29. Document the `ProgramReport` schema
+30. Include a "Competitor Comparison" section with the competitive intelligence data
+31. Add a `/methodology/data-model` route + page in `main.wasp` — simple markdown render of the schema doc
 
-6. Create `src/client/components/compass/CompetitorDetailCard.tsx`:
-   - Props: `architecture: CompetitorDataArchitecture`
-   - Expandable card (collapsed by default, opens when clicking competitor name in comparison table)
-   - Shows: full dataStorageModel, evidence list with source links, keyWeakness (highlighted), dfvaAdvantage
-   - Evidence items: source type badge (GitHub/Gartner/Public Docs), excerpt, date collected, external link
+**1.7 — Integration testing**
+32. Submit a handbook URL through the app and verify `syllabusJson` is populated and valid per the schema
+33. Check that `CompetitiveIntelCard` renders on `/reports` and `/reports/:slug` pages
+34. Verify all citation links are valid (no 404s)
+35. Test mobile responsiveness of competitive intel cards
+36. Commit: `feat: harden structured curriculum data architecture — Zod schema, competitive intel, schema docs`
 
-7. Create `src/client/components/compass/StructuredQueryDemo.tsx`:
-   - Props: `queries: PreBuiltQuery[]`, `onRunQuery: (filters) => void`
-   - 5 pre-built query cards, each showing: natural language name, description, pseudo-code filter logic
-   - "Run Query" button on each card
-   - Active state on the currently selected query
-   - Loading state while query runs (simulated delay or real against mock data)
+### Phase 2: Program Comparison Engine (Week 3-4)
 
-8. Create `src/client/components/compass/QueryResultTable.tsx`:
-   - Props: `programs: ProgramReport[]`, `highlightDimensions: string[]`
-   - Sortable table with columns: Program Name (link to report), Score, Risk Band (color badge), highlighted dimension scores
-   - Empty state: "No programs match these filters. Try a different query."
-   - Result count: "X programs found"
+**2.1 — Comparison logic**
+37. Create `compass/app/src/compass/programCompare.ts` with `comparePrograms(left: ProgramReport, right: ProgramReport): ComparisonResult`
+38. Implement subject overlap analysis (parse subject codes from syllabus snapshots, compute intersection/union)
+39. Implement dimension score delta (array of `{ dimension, leftScore, rightScore, delta }`)
+40. Implement stream structure comparison (count streams, identify shared stream types)
+41. Implement research component comparison (credit points, thesis/capstone presence)
+42. Write unit tests for comparison logic
 
-9. Create `src/client/components/compass/ExportPanel.tsx`:
-   - Props: `programs: ProgramReport[]`
-   - Format selector: radio buttons for JSON / CSV / Markdown
-   - Preview: first 3 rows in selected format (rendered as pre/code block)
-   - Download button: triggers `downloadFile` with correct filename and MIME type
-   - "No Lock-In" badge: green checkmark + explanatory text
+**2.2 — Comparison page**
+43. Add route `CompareRoute { path: "/compare", to: ComparePage }` to `main.wasp`
+44. Create `compass/app/src/compass/ComparePage.tsx` — reads `left` and `right` from query params
+45. Add program selector dropdowns (search by code or name, autocomplete from PROGRAMS array)
+46. Render side-by-side comparison with `ComparisonResult` data
+47. Add dimension score delta as a horizontal bar chart (green = DFVA advantage, red = gap)
+48. Add "Share comparison" button that copies the URL
+49. Add "Compare" button to `ReportDetailPage.tsx` that navigates to `/compare?left={current}`
 
-10. Create `src/client/components/compass/PortabilityBadge.tsx`:
-    - Compact badge component: green checkmark icon, "No Data Lock-In" text
-    - Tooltip/expand: "Export your assessment data as JSON, CSV, or Markdown — anytime."
-    - Link to `/data-architecture`
+**2.3 — E2e tests**
+50. Write Playwright test for comparison flow in `compass/e2e-tests/tests/compass/compare.spec.ts`
+51. Test: select two programs → see comparison → verify subject overlap count
+52. Test: share URL → open URL → see same comparison
+53. Test: "Compare" button on report detail page navigates correctly
+54. Commit: `feat: add program comparison engine — structured side-by-side curriculum diff`
 
-11. Create `src/client/pages/compass/DataArchitecturePage.tsx`:
-    - Hero section with headline and subtext
-    - "The Gap" section: ArchitectureComparisonTable
-    - "The Evidence" section: competitor detail cards (expandable)
-    - "What This Means" section: scenario comparisons (Coursedog vs DFVA for common tasks)
-    - "Try It Yourself" section: StructuredQueryDemo + QueryResultTable
-    - "Your Data, Your Choice" section: ExportPanel with "No Lock-In" badge
-    - "Market Context" cross-link to `/market-position` (feat-006)
-    - Loading state: skeleton for comparison table and query demo
-    - Error state: "Unable to load comparison data. Please try again."
+### Phase 3: Public REST API (Week 5-6)
 
-### Phase 3 — Integration (estimated 1-2 days)
+**3.1 — API routes**
+55. Add `api` declarations to `main.wasp` for each endpoint
+56. Create `compass/app/src/compass/api/programs.ts` with handler functions
+57. Implement `GET /api/v1/programs` — list all programs with structured data
+58. Implement `GET /api/v1/programs/:code` — single program with full structured data
+59. Implement `GET /api/v1/programs/:code/syllabus` — structured syllabus snapshot
+60. Implement `GET /api/v1/programs/compare?codes=mc-cs,mc-datasc` — comparison endpoint
 
-12. Register Wasp page route in `main.wasp`:
-    ```wasp
-    route DataArchitectureRoute { path: "/data-architecture", to: DataArchitecturePage }
-    ```
+**3.2 — Auth and rate limiting**
+61. Implement API key middleware: check `Authorization: Bearer dfva_...` header against `ApiKey` table
+62. Implement rate limiting: 100 req/min per key, 429 response with Retry-After header
+63. Add `lastUsedAt` update on each authenticated request
+64. Log rate limit hits to `Logs` table
 
-13. Update `Navigation.tsx`: Add "Data Architecture" nav item (after "Market Position" if feat-006 is done, otherwise after "Insights"). Use a simple icon.
+**3.3 — Documentation**
+65. Write OpenAPI 3.0 spec at `docs/dfva-api.yaml`
+66. Add Swagger UI page at `/api/docs` (serve the spec + swagger-ui-dist static files)
+67. Add API documentation link to the landing page footer
+68. Write integration tests for all 4 endpoints (valid requests, auth failures, rate limiting)
+69. Commit: `feat: add public REST API v1 for structured curriculum data — 4 endpoints, API key auth, OpenAPI spec`
 
-14. Update `ReportDetailPage.tsx`:
-    - Add "Export" button in the report action bar (next to existing actions)
-    - Dropdown menu: Download JSON, Download CSV, Download Markdown
-    - Each option triggers the appropriate export function with the current program data
+### Phase 4: Syllabus Visualization (Week 7-8)
 
-15. Update `LandingPage.tsx`:
-    - Add `<PortabilityBadge />` in the trust signals section (alongside feat-006's "Validated by the Market" if present)
-    - Link to `/data-architecture`
+**4.1 — Graph component**
+70. Install `@xyflow/react`: `cd compass/app && npm install @xyflow/react`
+71. Create `compass/app/src/compass/components/SyllabusGraph.tsx`
+72. Transform `SyllabusSnapshot` into React Flow nodes and edges
+73. Nodes: subjects (colored by type: core, elective, capstone, research)
+74. Edges: prerequisite relationships (directed), stream membership (grouped)
+75. Add node click handler → show subject detail tooltip (name, code, credit points, level, dimension contributions)
 
-16. Update assessments list page (if applicable): Add "Export All" button that downloads CSV of all displayed assessments
-
-17. Cross-link from MarketValidationPage (feat-006) to DataArchitecturePage: "See why only DFVA can deliver what the market is asking for →"
-
-### Phase 4 — Polish & Commit (estimated 1 day)
-
-18. Test `/data-architecture` page loads with all 4 competitor entries
-19. Test competitor detail cards expand/collapse with correct evidence links
-20. Test all 5 structured queries return correct results against mock data
-21. Test JSON export produces valid parseable JSON
-22. Test CSV export produces valid CSV with correct headers and values
-23. Test Markdown export matches existing report format
-24. Test Export button on report detail page works for all 3 formats
-25. Test navigation item appears and links correctly
-26. Test responsive layout at 320px, 768px, 1024px, 1440px
-27. Test external evidence links open in new tabs
-28. Test accessibility: comparison table is navigable, competitor cards are keyboard-operable, export controls are accessible
-29. Verify no regression on existing pages
-30. Commit with message: `feat: data architecture comparison — structured curriculum data as competitive differentiator vs incumbent HTML storage`
+**4.2 — Integration**
+76. Add "Curriculum Structure" tab to `ReportDetailPage.tsx`
+77. Render `SyllabusGraph` in the tab when `syllabusJson` is available
+78. Show "Structured data not available" placeholder when `syllabusJson` is null
+79. Add graph layout controls: zoom, fit-to-view, export as PNG
+80. Write unit tests for the graph transformation logic (syllabus → nodes/edges)
+81. Commit: `feat: add interactive syllabus graph — DAG visualization of curriculum structure with React Flow`
