@@ -3896,70 +3896,116 @@ They are positioned at the interface of fundamental science and technology appli
 | Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |`,
   },
   "dfva-mc-scwr": {
-    title: "Master of Social Work (MC-SCWR) — DFVA Assessment",
+    title: "Master of Screenwriting (MC-SCWR) — DFVA Assessment",
     institution: "University of Melbourne",
-    markdown: `## DFVA REPORT: MC-SCWR
-**Institution:** University of Melbourne  
-**Level:** Master (Coursework)  
-**Duration:** 2 years (200 credit points)
+    markdown: `# DFVA REPORT: Master of Screenwriting
 
-**Assessment date:** 2026-06-20  
-**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-scwr  
-**Prompt version:** DFVA-COPILOT-PROMPT-v1
+**Institution:** University of Melbourne
+**Level:** Master (Coursework)
+**Duration:** 1.5 years (150 credit points)
 
-### 1. PROGRAM PROFILE
-The Master of Social Work (and/or Screenwriting — note: mc-scwr appears to map to Social Work based on AASW accreditation context) at the University of Melbourne is an AASW-accredited professional degree preparing graduates for registered social work practice.
+---
 
-The program includes supervised field placement, foundational social work methods, policy analysis, research methods, and specialist areas including child and family welfare, mental health, and community development. Graduate roles include social worker, community services worker, case manager, child protection worker, and social policy analyst.
+**Assessment Date:** 2026-06-09
+**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-scwr
+**Prompt Version:** DFVA-COPILOT-PROMPT-v1
 
-### 2. AUTOMATION EXPOSURE PROFILE
+---
+
+## 1. PROGRAM PROFILE
+
+The Master of Screenwriting at the University of Melbourne is a practice-led coursework program delivered by the Victorian College of the Arts (VCA) on the Southbank campus. It is designed for screenwriters who wish to develop their skills in writing for feature film, television, and narrative digital media. 
+
+The 150-credit-point curriculum is structured around intensive writing workshops, screen industry studies, and collaborative projects. Students engage in the craft of story structure, character development, genre exploration, and collaborative script development, culminating in a major screenwriting project (e.g., a feature screenplay or television series bible). The program prepares graduates for careers in the screen and media industries, primarily as independent screenwriters and script editors.
+
+Typical graduate roles include screenwriter, script editor, television staff writer, narrative designer, and content creator. Graduates generally operate as freelance professionals or work with independent film and television production companies.
+
+---
+
+## 2. AUTOMATION EXPOSURE PROFILE
+
 | Year | Typical Tasks | Automation Risk |
 |---|---|---|
-| Year 1–2 (graduate) | Social worker — case management, client assessment, service coordination, report writing | **MEDIUM** — Documentation and coordination are AI-augmentable; direct client work and relationship management are not |
-| Year 3–5 | Senior social worker, team leader | **LOW** — Complex case management and professional judgment |
+| Year 1–2 (graduate) | Script coverage, dialogue polish, treatment drafting, synopsis writing, research, and junior staff writing | **HIGH** — Generative AI models (LLMs) can draft outlines, write basic scene dialogue, construct loglines/summaries, and perform script coverage at or near the level of a junior writer. |
+| Year 3–5 | Script editing, staff writer, narrative design, co-writing | **MEDIUM** — Structuring multi-episode story arcs, deep character integration, and collaborating in writers' rooms require strong relational and contextual judgment, but are heavily aided by AI. |
+| Year 6+ | Lead writer, showrunner, creator, script consultant | **LOW–MEDIUM** — Intellectual property ownership, unique creative voice, director/producer relationships, and project leadership provide a significant human barrier. |
 
-### 3. DFVA SCORECARD
-*Score data from existing assessment records.*
+**Structural note:** Unlike regulated professions (such as architecture or law), creative writing has no professional licensing or regulatory barriers to entry. Generative AI tools are rapidly commoditising entry-level writing tasks (outlining, dialogue variation, coverage reports). Survival and success in this field depend entirely on cultivating a distinctive creative voice, human collaboration, and original IP ownership.
 
-**TOTAL: 22/36**  
-**Risk band: MODERATE RISK**
+---
 
-### 4. THREE THRESHOLD QUESTIONS
+## 3. DFVA SCORECARD
+
+| # | Dimension | Score | Evidence-based rationale |
+|---|---|---|---|
+| 1 | Automation Exposure of Roles | 0/3 | Generative text models can draft scripts, treatments, and dialogue rapidly, putting entry-level commercial screenwriting and content creation roles at extreme risk of automation. |
+| 2 | Systems Thinking and Problem Framing | 1/3 | Focuses on narrative craft and individual script structures rather than larger complex system design or cross-disciplinary problem framing. |
+| 3 | Technical and Quantitative Depth | 1/3 | Emphasizes artistic and creative writing techniques; lacks quantitative analysis, programming, or technical systems engagement. |
+| 4 | Decision-Making Under Uncertainty | 2/3 | Requires creative choices, narrative direction, and responding to feedback, but projects are bounded by creative scope. |
+| 5 | AI Literacy and Governance | 0/3 | No AI content, generative tools, or discussion of AI copyright/IP issues in media is explicitly visible in the core curriculum. |
+| 6 | Domain Depth and Specialisation | 2/3 | Practice-based focus at VCA but lacks professional accreditation barriers, as no professional licensing body exists in creative writing. |
+| 7 | Research Methods Rigour | 0/3 | Artistic practice-led inquiry rather than formal academic, empirical, or scientific research methodology. |
+| 8 | Human & Relational Capability | 2/3 | Involves collaboration with directors, actors, and producers (e.g., table reads, writers' rooms), but does not carry clinical or legal accountability. |
+| 9 | Curriculum Currency and Adaptability | 1/3 | Updated 9 June 2026. The curriculum remains craft-based and has not adapted structurally to the rapid rise of generative AI screenwriting tools. |
+| 10 | Outcome Evidence | 2/3 | Graduate outcomes are highly variable (freelance nature). Public data shows typical creative arts employment and starting salary challenges. |
+| B | Irreplaceability (bonus) | 1/3 | High exposure to generative text models, lack of regulatory protection, and reliance on freelance contract markets. |
+| **TOTAL** | | **11/36** | |
+
+**Risk Band: CRITICAL**
+
+---
+
+## 4. THREE THRESHOLD QUESTIONS
+
 **Q1: Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?**
-NO. See program assessment for detailed rationale.
+YES. AI text generators can draft outlines, write basic scene dialogue, construct treatments, and perform script coverage at or near the level of a junior screenwriter or script coordinator.
 
 **Q2: Does this program train graduates to design systems, own decisions, or generate original insight?**
-YES. See program assessment for detailed rationale.
+UNCERTAIN. While graduates learn to construct complex narratives (systems of characters/plots), they write within creative bounds and rarely manage systems, policy, or non-creative decision-making frameworks.
 
 **Q3: Will these graduates be more employable in 5 years than today, given AI trends?**
-YES. See program assessment for detailed rationale.
+NO. Generative AI is rapidly reducing the need for junior writers, script polishers, and coverage writers, leading to a shrinking entry-level talent pipeline.
 
-### 5. ANALOGUE GRADUATE PROFILE
-The most exposed social work graduate is the **Case Coordinator of 2021**: primarily managing client documentation, writing referral letters, and coordinating service plans from standardised frameworks — work being augmented by social service case management platforms.
+---
+
+## 5. ANALOGUE GRADUATE PROFILE
+
+The most exposed screenwriting graduate is the **Formulaic Content Writer of 2022**: writing standard episodic dialogue, standard promotional treatments, and reading/summarizing scripts (coverage) for production companies.
 
 Specific threats:
-- **AI case management platforms** — automated risk assessment screening and service matching
-- **AI documentation assistants** — automated case note generation from clinical contacts
-- **AI triage and referral tools** — automated service pathway matching from presenting needs
+- **Generative Screenplay Generators** — tools like Sudowrite or custom LLMs drafting scene-by-scene scripts.
+- **Automated Script Coverage Tools** — AI summarizing submissions and rating them against genre tropes.
+- **AI Pitch Deck & Treatment Builders** — generating high-quality loglines, character bios, and episode outlines from simple prompts.
 
-### 6. VERDICT
-**The Master of Social Work is MODERATE RISK — a professionally accredited degree with strong relational protection and structural employment demand, facing AI compression at the administrative layer.**
+---
 
-AASW registration provides professional credential protection. The relational core of social work — sustained engagement with vulnerable individuals and families, advocacy, and therapeutic relationship — is not automatable. The risk is at the documentation and coordination layer, where AI is reducing administrative time without replacing the relational work. This is largely neutral for skilled practitioners.
+## 6. VERDICT
 
-### 7. RECOMMENDATIONS
+**The Master of Screenwriting is CRITICAL RISK — a craft-focused creative program facing immediate, structural disruption from generative text models, without regulatory or technical barriers to entry.**
+
+Generative AI has made the production of text, dialogue, and narrative outlines virtually free. While premium television and feature films will always value a singular human voice (e.g., showrunners, auteur directors), the entry-level market where graduates start is being heavily automated. The program's focus on pure craft leaves graduates highly vulnerable to the commoditisation of junior writing roles.
+
+---
+
+## 7. RECOMMENDATIONS
+
 | Priority | Action | Dimension | Effort |
 |---|---|---|---|
-| 1 | Develop complex case specialisation — child protection, mental health dual diagnosis, or refugee services — where relational complexity is highest | D6, D8 | High |
-| 2 | Build policy analysis and advocacy capability — systemic change work is more automation-resistant than individual case coordination | D2 | Medium |
-| 3 | Develop AI governance literacy for social services contexts — AI risk assessment tools in child protection and mental health require human oversight | D5 | Medium |
+| 1 | Integrate AI Collaboration & Prompt Craft. Teach screenwriters how to use LLMs for character brainstorming, structural variation, and formatting, while maintaining creative control. | D5 | Medium |
+| 2 | Pivot towards Transmedia Narrative Design. Expand the curriculum to include interactive storytelling, game design, and immersive media (XR/VR) where systems thinking is stronger. | D2, D3 | High |
+| 3 | Emphasize Creative IP Development & Business of Screenwriting. Train graduates to act as creators/producers who own and pitch original IP, rather than commission writers. | D4, D8 | Medium |
 
-### 8. THE REDESIGNED GRADUATE PROFILE
-The 2027-ready social work graduate is not a case coordinator — they are a **social systems specialist** who understands how institutional, relational, and structural factors interact to create and perpetuate disadvantage.
+---
 
-They have worked in sustained relationships with clients across complex transitions: housing instability, family crisis, mental health fluctuation. They understand the timeline of support — that meaningful change in chronic disadvantage takes years, not weeks — and they build their practice accordingly.
+## 8. THE REDESIGNED GRADUATE PROFILE
 
-They can evaluate AI risk assessment tools in child protection and mental health with a critical professional eye: they know what the tools measure, what the training data population was, and whether the model's risk predictions account for the specific family's circumstances or merely pattern-match to statistical risk factors. That critical AI literacy, combined with their relational skill, is what makes them a professional rather than a protocol follower.
+The 2027-ready screenwriting graduate is a **Narrative Architect and IP Developer**. They do not just write scripts; they design story worlds across multiple mediums: television, video games, interactive fiction, and podcasting.
+
+They are experts at using AI tools as collaborative sparring partners — generating 50 dialogue variations or outline options in seconds, then selecting, refining, and injecting their own human empathy, subtext, and cultural specificity.
+
+They understand intellectual property law, copyright trends surrounding AI, and the business of content creation. They own their creative voice and know how to pitch, protect, and produce their own concepts, making them invaluable creative leaders rather than replaceable draftsmen.
+
+---
 
 ### MARKET DATA
 | Metric | Value |
@@ -3974,9 +4020,9 @@ They can evaluate AI risk assessment tools in child protection and mental health
 `,
   },
   "dfva-market-mc-scwr": {
-    title: "Master of Social Work (MC-SCWR) — Market Intelligence",
+    title: "Master of Screenwriting (MC-SCWR) — Market Intelligence",
     institution: "University of Melbourne",
-    markdown: `## DFVA MARKET INTELLIGENCE: Master of Social Work (MC-SCWR)
+    markdown: `## DFVA MARKET INTELLIGENCE: Master of Screenwriting (MC-SCWR)
 
 ### MARKET DATA
 | Metric | Value |
