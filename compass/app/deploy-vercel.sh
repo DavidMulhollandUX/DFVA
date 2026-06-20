@@ -22,7 +22,7 @@ npx vercel --prod --yes
 
 echo ""
 echo "🔗 Updating alias → compass-curriculum.vercel.app"
-DEPLOYMENT_URL=$(npx vercel ls --prod 2>/dev/null | grep "build" | awk '{print $2}' | head -1)
+DEPLOYMENT_URL=$(npx vercel ls --prod 2>/dev/null | grep "build" | head -1)
 npx vercel alias set "$DEPLOYMENT_URL" compass-curriculum.vercel.app
 
 echo ""

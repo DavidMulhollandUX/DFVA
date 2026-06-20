@@ -6,9 +6,20 @@ import {
   CardHeader,
   CardTitle,
 } from "../client/components/ui/card";
-import { ArrowRight, BarChart2, ClipboardList, Loader2, TrendingUp } from "lucide-react";
 import {
-  PROGRAMS,
+  ArrowRight,
+  BarChart2,
+  ClipboardList,
+  Loader2,
+  TrendingUp,
+  Search,
+  ChevronDown,
+  ChevronUp,
+  X,
+  RotateCcw,
+  SlidersHorizontal,
+} from "lucide-react";
+import {
   riskBandConfig,
   thresholdConfig,
   dimBarColor,
@@ -30,13 +41,13 @@ function ScoreGauge({
   const cfg = riskBandConfig[band];
   const pct = Math.round((score / max) * 100);
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div className="flex flex-col items-center justify-center shrink-0">
       <div
-        className={`relative flex h-24 w-24 items-center justify-center rounded-full border-4 ${cfg.border} ${cfg.bg}`}
+        className={`relative flex h-20 w-20 items-center justify-center rounded-full border-4 ${cfg.border} ${cfg.bg}`}
       >
         <div className="text-center">
-          <span className={`text-2xl font-bold ${cfg.text}`}>{score}</span>
-          <span className="block text-xs text-muted-foreground">/ {max}</span>
+          <span className={`text-xl font-bold ${cfg.text}`}>{score}</span>
+          <span className="block text-[10px] text-muted-foreground">/ {max}</span>
         </div>
         <svg
           className="absolute inset-0 -rotate-90"
@@ -57,7 +68,7 @@ function ScoreGauge({
         </svg>
       </div>
       <span
-        className={`mt-2 rounded-full px-3 py-0.5 text-xs font-semibold ${cfg.bg} ${cfg.text} border ${cfg.border}`}
+        className={`mt-1.5 rounded-full px-2 py-0.5 text-[10px] font-semibold ${cfg.bg} ${cfg.text} border ${cfg.border}`}
       >
         {cfg.label}
       </span>
@@ -67,20 +78,20 @@ function ScoreGauge({
 
 function DimensionBars({ dimensions }: { dimensions: DimensionScore[] }) {
   return (
-    <div className="space-y-2 mt-4">
+    <div className="space-y-2 mt-4 bg-muted/20 p-3 rounded-lg border border-border/45">
       {dimensions.map((d) => (
         <div key={d.label} className="flex items-center gap-3">
-          <span className="w-40 shrink-0 text-xs text-muted-foreground truncate">
+          <span className="w-36 shrink-0 text-xs text-muted-foreground truncate">
             {d.label}
           </span>
           <div className="flex-1 flex items-center gap-2">
-            <div className="flex-1 h-2 rounded-full bg-muted overflow-hidden">
+            <div className="flex-1 h-1.5 rounded-full bg-muted overflow-hidden">
               <div
                 className={`h-full rounded-full transition-all ${dimBarColor(d.score, d.max)}`}
                 style={{ width: `${(d.score / d.max) * 100}%` }}
               />
             </div>
-            <span className="w-8 text-right text-xs font-medium text-foreground shrink-0">
+            <span className="w-8 text-right text-xs font-semibold text-foreground shrink-0">
               {d.score}/{d.max}
             </span>
           </div>
@@ -101,7 +112,7 @@ function ThresholdPills({
     { label: "More employable in 5 years?", value: thresholds.q3 },
   ];
   return (
-    <div className="mt-4 space-y-1.5">
+    <div className="mt-4 space-y-1.5 bg-muted/20 p-3 rounded-lg border border-border/45">
       {items.map((item) => (
         <div key={item.label} className="flex items-center justify-between gap-2">
           <span className="text-xs text-muted-foreground">{item.label}</span>
@@ -119,16 +130,39 @@ function ThresholdPills({
 export default function ReportsPage() {
   const { reports, isLoading } = useReportsData();
 
+  const [searchQuery, setSearchQuery] = useState<string>("");
   const [facultyFilter, setFacultyFilter] = useState<string>('all');
   const [riskFilter, setRiskFilter] = useState<string>('all');
   const [sortBy, setSortBy] = useState<string>('score-desc');
+  const [expandedSlugs, setExpandedSlugs] = useState<Record<string, boolean>>({});
 
-  const faculties = [...new Set(reports.map(p => getFaculty(p.program)))].sort();
+  const faculties = useMemo(() => {
+    return [...new Set(reports.map(p => getFaculty(p.program)))].sort();
+  }, [reports]);
+
+  const toggleExpand = (slug: string) => {
+    setExpandedSlugs(prev => ({ ...prev, [slug]: !prev[slug] }));
+  };
 
   const filteredReports = useMemo(() => {
     let result = [...reports];
-    if (facultyFilter !== 'all') result = result.filter(p => getFaculty(p.program) === facultyFilter);
-    if (riskFilter !== 'all') result = result.filter(p => p.riskBand === riskFilter);
+    
+    if (searchQuery.trim() !== '') {
+      const q = searchQuery.toLowerCase().trim();
+      result = result.filter(p => 
+        p.program.toLowerCase().includes(q) || 
+        p.institution.toLowerCase().includes(q) ||
+        p.assessmentSlug.toLowerCase().includes(q)
+      );
+    }
+    
+    if (facultyFilter !== 'all') {
+      result = result.filter(p => getFaculty(p.program) === facultyFilter);
+    }
+    
+    if (riskFilter !== 'all') {
+      result = result.filter(p => p.riskBand === riskFilter);
+    }
 
     switch (sortBy) {
       case 'score-desc': result.sort((a, b) => b.score - a.score); break;
@@ -141,7 +175,7 @@ export default function ReportsPage() {
       }
     }
     return result;
-  }, [reports, facultyFilter, riskFilter, sortBy]);
+  }, [reports, searchQuery, facultyFilter, riskFilter, sortBy]);
 
   let content: React.ReactNode;
   if (isLoading) {
@@ -157,30 +191,78 @@ export default function ReportsPage() {
         <p className="text-sm">No assessment reports yet.</p>
       </div>
     );
+  } else if (filteredReports.length === 0) {
+    content = (
+      <div className="flex flex-col items-center justify-center py-20 text-center text-muted-foreground border border-dashed border-border rounded-xl bg-card/20">
+        <Search className="h-8 w-8 opacity-20 mb-3" />
+        <p className="text-sm font-medium">No programs match your search filters.</p>
+        <button
+          onClick={() => {
+            setSearchQuery("");
+            setFacultyFilter("all");
+            setRiskFilter("all");
+          }}
+          className="mt-3 text-xs font-semibold text-primary hover:underline"
+        >
+          Clear filters
+        </button>
+      </div>
+    );
   } else {
     content = (
-      <div className="flex flex-col gap-6">
+      <div className="flex flex-col gap-5">
         {filteredReports.map((p) => {
           const cfg = riskBandConfig[p.riskBand];
+          const isExpanded = expandedSlugs[p.assessmentSlug] || false;
+          const resilientCount = p.dimensions.filter(d => d.score === 3).length;
+
           return (
             <Card
               key={p.assessmentSlug}
-              className={`border ${cfg.border} overflow-hidden`}
+              className={`border border-border/80 bg-card/85 shadow-sm transition-all duration-300 hover:shadow-md hover:border-primary/20 overflow-hidden`}
             >
               {/* Header */}
-              <CardHeader className={`${cfg.bg} pb-4`}>
-                <div className="flex items-start justify-between gap-4">
-                  <div>
-                    <CardTitle className="text-lg leading-snug">
+              <CardHeader className={`${cfg.bg} border-b border-border/20 pb-4 pt-5 px-6`}>
+                <div className="flex items-start justify-between gap-6">
+                  <div className="space-y-1">
+                    <CardTitle className="text-base font-bold text-foreground leading-snug">
                       {p.program}
                     </CardTitle>
-                    <p className="text-xs text-muted-foreground mt-0.5">
-                      {p.institution} · {p.level}
-                    </p>
-                    <p className="text-xs text-muted-foreground mt-0.5">
-                      Assessed {p.date}
-                    </p>
+                    <div className="flex flex-wrap items-center gap-x-2 gap-y-0.5 text-xs text-muted-foreground">
+                      <span>{p.institution}</span>
+                      <span className="text-muted-foreground/30">•</span>
+                      <span>{p.level}</span>
+                      <span className="text-muted-foreground/30">•</span>
+                      <span>Assessed {p.date}</span>
+                    </div>
+                    
+                    {/* Expand/Collapse Panel Trigger */}
+                    <div className="flex flex-wrap items-center gap-3 pt-2">
+                      <button
+                        onClick={(e) => {
+                          e.preventDefault();
+                          toggleExpand(p.assessmentSlug);
+                        }}
+                        className="flex items-center gap-1.5 rounded-lg bg-background/60 hover:bg-background/90 border border-border/80 px-2.5 py-1.5 text-[11px] font-semibold text-foreground transition-all"
+                      >
+                        {isExpanded ? (
+                          <>
+                            <span>Collapse</span>
+                            <ChevronUp className="h-3 w-3" />
+                          </>
+                        ) : (
+                          <>
+                            <span>Inspect Scores</span>
+                            <ChevronDown className="h-3 w-3" />
+                          </>
+                        )}
+                      </button>
+                      <span className="text-[11px] text-muted-foreground font-medium bg-muted/40 border border-border/30 rounded px-1.5 py-0.5">
+                        {resilientCount} / 11 Resilient
+                      </span>
+                    </div>
                   </div>
+                  
                   <ScoreGauge
                     score={p.score}
                     max={p.maxScore}
@@ -189,47 +271,57 @@ export default function ReportsPage() {
                 </div>
               </CardHeader>
 
-              <CardContent className="pt-5">
-                {/* Dimension scores */}
-                <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
-                  Dimension Scores
-                </p>
-                <DimensionBars dimensions={p.dimensions} />
-
-                {/* Threshold questions */}
-                <p className="mt-6 text-xs font-semibold uppercase tracking-widest text-muted-foreground">
-                  Threshold Questions
-                </p>
-                <ThresholdPills thresholds={p.thresholds} />
+              <CardContent className={`${isExpanded ? "pt-5" : "pt-4"} pb-5 px-6`}>
+                {/* Collapsible details wrapper */}
+                <div
+                  className={`transition-all duration-300 ease-in-out overflow-hidden ${
+                    isExpanded ? "max-h-[750px] opacity-100 mb-5" : "max-h-0 opacity-0 pointer-events-none"
+                  }`}
+                >
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pb-4 border-b border-border/40">
+                    <div>
+                      <p className="text-[10px] font-bold uppercase tracking-wider text-muted-foreground">
+                        Dimension Scores
+                      </p>
+                      <DimensionBars dimensions={p.dimensions} />
+                    </div>
+                    <div>
+                      <p className="text-[10px] font-bold uppercase tracking-wider text-muted-foreground">
+                        Threshold Diagnostics
+                      </p>
+                      <ThresholdPills thresholds={p.thresholds} />
+                    </div>
+                  </div>
+                </div>
 
                 {/* Report links */}
                 <div
-                  className={`mt-6 grid divide-x rounded-lg border ${cfg.border} overflow-hidden ${p.recommendSlug ? "grid-cols-3" : "grid-cols-2"}`}
+                  className={`grid divide-x divide-border/60 rounded-lg border border-border overflow-hidden ${p.recommendSlug ? "grid-cols-3" : "grid-cols-2"}`}
                 >
                   <Link
                     to={`/reports/${p.assessmentSlug}`}
-                    className={`flex items-center gap-2 px-4 py-3 text-sm font-medium ${cfg.text} ${cfg.hoverBg} transition-colors`}
+                    className={`flex items-center justify-center gap-1.5 py-2.5 text-xs font-semibold ${cfg.text} ${cfg.hoverBg} transition-colors text-center`}
                   >
-                    <BarChart2 className="h-4 w-4 shrink-0" />
-                    <span>DFVA Assessment</span>
-                    <ArrowRight className="ml-auto h-3.5 w-3.5 shrink-0" />
+                    <BarChart2 className="h-3.5 w-3.5" />
+                    <span>Assessment</span>
+                    <ArrowRight className="h-3 w-3" />
                   </Link>
                   <Link
                     to={`/reports/${p.marketSlug}`}
-                    className={`flex items-center gap-2 px-4 py-3 text-sm font-medium ${cfg.text} ${cfg.hoverBg} transition-colors`}
+                    className={`flex items-center justify-center gap-1.5 py-2.5 text-xs font-semibold ${cfg.text} ${cfg.hoverBg} transition-colors text-center`}
                   >
-                    <TrendingUp className="h-4 w-4 shrink-0" />
-                    <span>Market Intelligence</span>
-                    <ArrowRight className="ml-auto h-3.5 w-3.5 shrink-0" />
+                    <TrendingUp className="h-3.5 w-3.5" />
+                    <span>Market Intel</span>
+                    <ArrowRight className="h-3 w-3" />
                   </Link>
                   {p.recommendSlug && (
                     <Link
                       to={`/reports/${p.recommendSlug}`}
-                      className={`flex items-center gap-2 px-4 py-3 text-sm font-medium ${cfg.text} ${cfg.hoverBg} transition-colors`}
+                      className={`flex items-center justify-center gap-1.5 py-2.5 text-xs font-semibold ${cfg.text} ${cfg.hoverBg} transition-colors text-center`}
                     >
-                      <ClipboardList className="h-4 w-4 shrink-0" />
-                      <span>Improvement Plan</span>
-                      <ArrowRight className="ml-auto h-3.5 w-3.5 shrink-0" />
+                      <ClipboardList className="h-3.5 w-3.5" />
+                      <span>Redesign Plan</span>
+                      <ArrowRight className="h-3 w-3" />
                     </Link>
                   )}
                 </div>
@@ -242,59 +334,137 @@ export default function ReportsPage() {
   }
 
   return (
-    <div className="mx-auto max-w-3xl px-4 py-16">
-      <div className="mb-10">
+    <div className="mx-auto max-w-5xl px-4 py-16">
+      <div className="mb-8">
         <h1 className="text-3xl font-bold tracking-tight text-foreground">
           Assessment Reports
         </h1>
-        <p className="mt-2 text-muted-foreground">
-          DFVA reports generated to date. Each card includes the full scorecard
-          assessment and companion market intelligence.
+        <p className="mt-2 text-sm text-muted-foreground leading-relaxed">
+          Comprehensive curriculum audit reports cataloged by program. Select a card's sub-report link to open the unified Workspace.
         </p>
       </div>
 
-      {!isLoading && reports.length > 0 && (
-        <div className="flex flex-wrap items-center gap-3 mb-6">
-          <select
-            value={facultyFilter}
-            onChange={e => setFacultyFilter(e.target.value)}
-            className="rounded-lg border border-border bg-background px-3 py-2 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-primary/20"
-          >
-            <option value="all">All Faculties</option>
-            {faculties.map(f => <option key={f} value={f}>{f}</option>)}
-          </select>
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-6 items-start">
+        {/* Left hand side filters */}
+        {!isLoading && reports.length > 0 && (
+          <div className="md:col-span-1 space-y-4 md:sticky md:top-20">
+            <div className="rounded-xl border border-border bg-card/40 p-4 shadow-sm backdrop-blur-sm space-y-4">
+              <div className="text-xs font-semibold text-muted-foreground uppercase tracking-wider flex items-center gap-1.5 border-b border-border/40 pb-2">
+                <SlidersHorizontal className="h-3.5 w-3.5 text-primary" />
+                Filters & Sorting
+              </div>
 
-          <select
-            value={riskFilter}
-            onChange={e => setRiskFilter(e.target.value)}
-            className="rounded-lg border border-border bg-background px-3 py-2 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-primary/20"
-          >
-            <option value="all">All Risk Bands</option>
-            <option value="RESILIENT">RESILIENT</option>
-            <option value="MODERATE RISK">MODERATE RISK</option>
-            <option value="HIGH RISK">HIGH RISK</option>
-            <option value="CRITICAL">CRITICAL</option>
-          </select>
+              {/* Search Input */}
+              <div className="space-y-1.5">
+                <label className="text-[10px] font-bold text-muted-foreground uppercase tracking-wider block">
+                  Search
+                </label>
+                <div className="relative">
+                  <Search className="absolute left-3 top-2.5 h-4 w-4 text-muted-foreground" />
+                  <input
+                    type="text"
+                    placeholder="Type to search..."
+                    value={searchQuery}
+                    onChange={e => setSearchQuery(e.target.value)}
+                    className="w-full bg-muted/30 hover:bg-muted/50 focus:bg-background border border-border rounded-lg pl-9 pr-9 py-2 text-xs text-foreground placeholder:text-muted-foreground outline-none focus:ring-2 focus:ring-primary/10 transition-all"
+                  />
+                  {searchQuery && (
+                    <button
+                      onClick={() => setSearchQuery("")}
+                      className="absolute right-3 top-2.5 text-muted-foreground hover:text-foreground"
+                    >
+                      <X className="h-4 w-4" />
+                    </button>
+                  )}
+                </div>
+              </div>
 
-          <select
-            value={sortBy}
-            onChange={e => setSortBy(e.target.value)}
-            className="rounded-lg border border-border bg-background px-3 py-2 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-primary/20"
-          >
-            <option value="score-desc">Score: High → Low</option>
-            <option value="score-asc">Score: Low → High</option>
-            <option value="name">Name: A–Z</option>
-            <option value="risk">Risk Band</option>
-          </select>
+              {/* Faculty dropdown */}
+              <div className="space-y-1.5">
+                <label className="text-[10px] font-bold text-muted-foreground uppercase tracking-wider block">
+                  Faculty
+                </label>
+                <div className="relative">
+                  <select
+                    value={facultyFilter}
+                    onChange={e => setFacultyFilter(e.target.value)}
+                    className="w-full appearance-none rounded-lg border border-border bg-background px-3 py-2 pr-9 text-xs text-foreground focus:outline-none focus:ring-2 focus:ring-primary/10 cursor-pointer font-medium transition-colors"
+                  >
+                    <option value="all">All Faculties</option>
+                    {faculties.map(f => <option key={f} value={f}>{f}</option>)}
+                  </select>
+                  <ChevronDown className="absolute right-3 top-3 h-4 w-4 text-muted-foreground pointer-events-none" />
+                </div>
+              </div>
 
-          <span className="text-xs text-muted-foreground ml-auto">
-            {filteredReports.length} of {reports.length} programs
-          </span>
+              {/* Risk Band dropdown */}
+              <div className="space-y-1.5">
+                <label className="text-[10px] font-bold text-muted-foreground uppercase tracking-wider block">
+                  Risk Band
+                </label>
+                <div className="relative">
+                  <select
+                    value={riskFilter}
+                    onChange={e => setRiskFilter(e.target.value)}
+                    className="w-full appearance-none rounded-lg border border-border bg-background px-3 py-2 pr-9 text-xs text-foreground focus:outline-none focus:ring-2 focus:ring-primary/10 cursor-pointer font-medium transition-colors"
+                  >
+                    <option value="all">All Risk Bands</option>
+                    <option value="RESILIENT">RESILIENT</option>
+                    <option value="MODERATE RISK">MODERATE RISK</option>
+                    <option value="HIGH RISK">HIGH RISK</option>
+                    <option value="CRITICAL">CRITICAL</option>
+                  </select>
+                  <ChevronDown className="absolute right-3 top-3 h-4 w-4 text-muted-foreground pointer-events-none" />
+                </div>
+              </div>
+
+              {/* Sort Order dropdown */}
+              <div className="space-y-1.5">
+                <label className="text-[10px] font-bold text-muted-foreground uppercase tracking-wider block">
+                  Sort By
+                </label>
+                <div className="relative">
+                  <select
+                    value={sortBy}
+                    onChange={e => setSortBy(e.target.value)}
+                    className="w-full appearance-none rounded-lg border border-border bg-background px-3 py-2 pr-9 text-xs text-foreground focus:outline-none focus:ring-2 focus:ring-primary/10 cursor-pointer font-medium transition-colors"
+                  >
+                    <option value="score-desc">Score: High → Low</option>
+                    <option value="score-asc">Score: Low → High</option>
+                    <option value="name">Name: A–Z</option>
+                    <option value="risk">Risk Band</option>
+                  </select>
+                  <ChevronDown className="absolute right-3 top-3 h-4 w-4 text-muted-foreground pointer-events-none" />
+                </div>
+              </div>
+
+              {/* Reset Filters button */}
+              {(facultyFilter !== 'all' || riskFilter !== 'all' || searchQuery !== '') && (
+                <button
+                  onClick={() => {
+                    setFacultyFilter('all');
+                    setRiskFilter('all');
+                    setSearchQuery('');
+                  }}
+                  className="flex items-center justify-center gap-1.5 w-full mt-2 px-3 py-2 rounded-lg border border-primary/20 bg-primary/5 hover:bg-primary/10 text-xs font-semibold text-primary transition-colors cursor-pointer"
+                >
+                  <RotateCcw className="h-3.5 w-3.5" />
+                  Reset all filters
+                </button>
+              )}
+            </div>
+
+            <div className="px-1 text-[11px] text-muted-foreground font-semibold flex items-center gap-1">
+              Showing {filteredReports.length} of {reports.length} programs
+            </div>
+          </div>
+        )}
+
+        {/* Right hand side reports list */}
+        <div className={reports.length > 0 ? "md:col-span-3" : "col-span-4"}>
+          {content}
         </div>
-      )}
-
-      {content}
+      </div>
     </div>
   );
 }
-

@@ -131,12 +131,17 @@ def build_rc_entry(slug, content, prog_name):
 
 def build_market_entry(slug, content, prog_name):
     """Build a market intelligence REPORT_CONTENT entry."""
-    market = extract_market_section(content)
-    if market:
-        market_md = f"## DFVA MARKET INTELLIGENCE: {prog_name} ({slug.upper()})\n\n{market}"
-    elif slug in DEFAULT_MARKET:
-        field, emp, sal, demand, ai_exp = DEFAULT_MARKET[slug]
-        market_md = f"""## DFVA MARKET INTELLIGENCE: {prog_name} ({slug.upper()})
+    market_file = REPORTS / f'dfva-market-{slug}.md'
+    if market_file.exists():
+        print(f"    Found dedicated market report for {slug}")
+        market_md = market_file.read_text()
+    else:
+        market = extract_market_section(content)
+        if market:
+            market_md = f"## DFVA MARKET INTELLIGENCE: {prog_name} ({slug.upper()})\n\n{market}"
+        elif slug in DEFAULT_MARKET:
+            field, emp, sal, demand, ai_exp = DEFAULT_MARKET[slug]
+            market_md = f"""## DFVA MARKET INTELLIGENCE: {prog_name} ({slug.upper()})
 
 ### MARKET DATA
 | Metric | Value |
@@ -148,8 +153,8 @@ def build_market_entry(slug, content, prog_name):
 | Occupation demand | {demand.replace('_', ' ')} |
 | AI automation exposure | {int(ai_exp*100)}% |
 | Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |"""
-    else:
-        market_md = f"Market data not yet available for {prog_name}."
+        else:
+            market_md = f"Market data not yet available for {prog_name}."
     
     escaped = escape_ts(market_md)
     return f'  "dfva-market-{slug}": {{\n    title: "{prog_name} ({slug.upper()}) — Market Intelligence",\n    institution: "University of Melbourne",\n    markdown: `{escaped}`,\n  }}'

@@ -10,6 +10,24 @@ The program includes coursework in advanced nursing practice, healthcare systems
 Typical graduate roles include advanced practice registered nurse, nurse practitioner (where additional AHPRA requirements are met), clinical nurse educator, nursing unit manager, clinical nurse researcher, and policy advisor in health departments.
 
 
+## 2. AUTOMATION EXPOSURE PROFILE
+
+| Task Category | Example Graduate Tasks | AI Pressure | AI Capability Today | Durability Rationale |
+|---|---|---|---|---|
+| Clinical assessment & physical examination | Conducting patient health history interviews, performing physical assessments, interpreting vital signs in context, recognising deterioration through subtle clinical cues | LOW | Weak — AI can flag abnormal vitals but cannot perform hands-on assessment or integrate the full bedside picture | Physical presence, tactile skill, and contextual clinical judgment are irreplaceable; NMBA registration requires demonstrated competence |
+| Complex care planning & coordination | Developing individualised nursing care plans for patients with multiple comorbidities, coordinating across multidisciplinary teams, discharge planning | LOW | Limited — AI can suggest protocol-based plans but cannot account for the full social, psychological, and clinical complexity of individual patients | Care planning requires integrating clinical data with patient values, family context, and system constraints — a fundamentally human synthesis task |
+| Clinical documentation & nursing notes | Writing progress notes, incident reports, handover summaries, care pathway documentation | HIGH | Strong — AI documentation tools (Nuance DAX, Epic ambient AI) can draft structured notes from verbal input or monitoring data | Routine documentation is the most automatable nursing task; MC-NURSC graduates in leadership roles will govern AI documentation tools rather than produce notes manually |
+| Patient education & therapeutic communication | Teaching patients chronic disease self-management, conducting motivational interviews, delivering difficult news alongside medical staff, supporting patients through psychological distress | LOW | Weak — AI chatbots exist for health education but cannot replicate therapeutic presence, emotional attunement, or adaptive real-time communication | Therapeutic relationships are the core of advanced nursing practice; this is a structural durability anchor |
+| Evidence-based practice & clinical audit | Appraising research literature, designing and implementing clinical quality improvement projects, conducting nursing audits against standards | MEDIUM | Moderate — AI can retrieve and synthesise evidence but cannot evaluate local context, lead change implementation, or navigate institutional politics | Evidence appraisal is augmentable; the implementation leadership component is not. MC-NURSC graduates lead practice change — that role is durable |
+| Clinical supervision & nurse education | Designing clinical learning programs, supervising junior nurses and students in clinical settings, delivering simulation-based training, competency assessment | LOW | Weak — AI simulation platforms exist as adjuncts but clinical supervision requires real-time adaptive coaching and credentialed professional judgment | Clinical educator roles are growing as healthcare expands; supervision cannot be automated and requires senior clinical credibility |
+| Health systems navigation & policy | Advising on nursing workforce policy, contributing to hospital procedure development, navigating AHPRA/NMBA regulatory requirements, leading quality and safety committees | LOW | Weak — AI can summarise policy documents but cannot lead organisational change, manage stakeholder relationships, or hold regulatory accountability | Leadership and governance roles require institutional authority and interpersonal influence that AI cannot replicate |
+| AI clinical decision support governance | Evaluating AI deterioration prediction alerts, configuring AI-assisted medication safety systems, auditing AI tool performance against clinical outcomes | MEDIUM | Moderate — AI tools are deployed widely (Epic AI, Sepsis Sieve, MedAI) but require clinical experts to validate and govern them | This is an emerging task category: MC-NURSC graduates in senior roles increasingly need to evaluate AI tool outputs rather than simply follow them — a durable and growing competency |
+
+**Overall Section Exposure:** LOW
+
+**Durability Assessment:** Master of Nursing Science graduates are among the most automation-resistant professionals assessed in this DFVA cohort. The core of the role — physical patient care, therapeutic communication, complex clinical judgment under time pressure, and accountability for patient outcomes — is irreducible to algorithmic processes. Regulatory requirements (NMBA registration, AHPRA oversight) enforce continued human presence and competence as a hard structural floor. The primary automation pressure is concentrated in documentation and routine protocol-based tasks, which represent a smaller proportion of an advanced nursing graduate's role than for entry-level registered nurses. The emerging AI governance dimension — evaluating clinical AI tools — is additive to the role rather than substitutive.
+
+
 ###  3. DFVA SCORECARD
 | # | Dimension | Score | Rationale |
 |---|---|---:|---|
@@ -74,6 +92,12 @@ They understand AI clinical support tools: they evaluate whether an AI deteriora
 ---
 
 
+
+---
+
+**Assessment Date:** 2026-06-21
+**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-nursc
+**Prompt Version:** DFVA-COPILOT-PROMPT-v1
 ### MARKET DATA
 | Metric | Value |
 |--------|-------|

@@ -10,6 +10,24 @@ The 200-credit-point program includes foundational and advanced subjects in Appl
 Typical graduate roles include research scientist, postdoctoral researcher, conservation biologist, government ecologist, environmental assessment scientist, and PhD candidate. The program is the primary gateway to biological research careers and PhD programs at Melbourne.
 
 
+## 2. AUTOMATION EXPOSURE PROFILE
+
+| Task Category | Example Graduate Tasks | AI Pressure | AI Capability Today | Durability Rationale |
+|---|---|---|---|---|
+| Experimental design & hypothesis generation | Designing controlled experiments for genomics/ecology studies; selecting appropriate statistical models; formulating testable hypotheses from literature gaps | LOW | AI can suggest experimental frameworks but cannot replace domain judgment on what constitutes a meaningful biological question or feasible field design | Novel experimental judgment requires integrating deep biological knowledge with real-world constraints — irreducible to prompting |
+| Wet-lab & field data collection | PCR, gel electrophoresis, microscopy, cell culture, ecological transect surveys, specimen collection, environmental sampling | LOW | Robotics automates high-throughput assays (Hamilton, Tecan), but contextual field and bench judgment remains human | Physical presence, adaptive decision-making in variable conditions, and handling biological variability are resistant to full automation |
+| Genomic & bioinformatic analysis | Running alignment pipelines (BWA, STAR), variant calling, phylogenetic tree construction, differential expression analysis | MEDIUM | AI/ML tools accelerate annotation, structural prediction (AlphaFold), and pattern detection in large genomic datasets | Pipeline execution is increasingly automated; but interpreting biological meaning of outputs and troubleshooting novel organisms requires expertise |
+| Ecological modelling & spatial analysis | Species distribution modelling in R/MaxEnt, remote sensing analysis, environmental impact assessment, habitat connectivity mapping | MEDIUM | AI enhances species distribution predictions and satellite image classification, but model selection and ecological interpretation remain expert tasks | Outputs require biological validation against field knowledge; policy-facing ecological reports demand defensible expert judgment |
+| Literature synthesis & systematic review | Mapping the state of knowledge in a research area; writing literature reviews; identifying gaps and contradictions across studies | HIGH | AI tools (Elicit, Research Rabbit, Consensus) now automate keyword search, summarisation, and citation mapping effectively | Synthesis of conflicting findings and identification of genuinely novel contributions still requires disciplinary expertise, but routine literature searching is highly substitutable |
+| Statistical data analysis | Applying mixed-effects models, multivariate analyses, Bayesian inference, ANOVA designs to biological datasets | MEDIUM | AI coding assistants (GitHub Copilot, Claude) reduce friction in R/Python scripting; automated stats platforms handle standard analyses | Non-standard experimental designs and interpretation of anomalous results remain expert territory; routine analysis increasingly commoditised |
+| Science communication & reporting | Writing peer-reviewed manuscripts; presenting findings to government clients; preparing biosecurity or environmental assessments | LOW | AI assists drafting but cannot substitute the authority, accountability, and interpretive credibility of an expert author | Regulatory bodies and journals require accountable expert authorship; communication of uncertainty in scientific findings demands disciplinary grounding |
+| Research project management | Coordinating multi-site field campaigns; managing ethical approvals (AEEC); supervising junior researchers; troubleshooting experimental failures | LOW | No AI capability for adaptive real-time management of living research systems and human teams | Biological research is non-deterministic; managing the gap between expected and actual results is a core graduate competency that is not automatable |
+
+**Overall Section Exposure:** MEDIUM
+
+**Durability Assessment:** MC-SCIBIO graduates occupy a structurally durable position in the automation landscape. The 125-credit-point research project embeds genuine experimental judgment — the capacity to design, execute, troubleshoot, and defend original investigations — that AI tools cannot replicate and that employers in research, conservation, and government explicitly require. The main vulnerability sits in routine analytical and literature-review tasks, which are being compressed by AI tools, but these tasks represent a minority of senior graduate activity. Graduates who build bioinformatics competency alongside wet-lab and ecological expertise will be positioned at the computation-biology interface — the most in-demand zone of biological science employment through the early 2030s.
+
+
 ###  3. DFVA SCORECARD
 | # | Dimension | Score | Rationale |
 |---|---|---:|---|
@@ -74,6 +92,12 @@ They are positioned at the interface of computation and biology — fluent in da
 ---
 
 
+
+---
+
+**Assessment Date:** 2026-06-21
+**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-scibio
+**Prompt Version:** DFVA-COPILOT-PROMPT-v1
 ### MARKET DATA
 | Metric | Value |
 |--------|-------|

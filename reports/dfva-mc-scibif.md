@@ -5,7 +5,7 @@
 
 **Assessment date:** 2026-06-08  
 **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-scibif  
-**Prompt version:** DFVA-CONTINUE-SLASH-v1
+**Prompt version:** DFVA-COPILOT-PROMPT-v1
 
 ### 1. PROGRAM PROFILE
 The Master of Science (Bioinformatics) combines computer science, statistics, and biology in a research-oriented degree. The program operates two entry pathways (200pt and 150pt cognate) and three background streams: Biology/Biomedicine, Mathematics/Statistics, and Computer Science. All streams converge on a common core: Elements of Bioinformatics (BINF90002), Skills for Data-intensive Research (BINF90018), and a 50-point research project.
@@ -94,7 +94,7 @@ They sit at the interface between computation and biology: they translate betwee
 
 **Assessment date:** 2026-06-08  
 **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-scibif  
-**Prompt version:** DFVA-CONTINUE-SLASH-v1
+**Prompt version:** DFVA-COPILOT-PROMPT-v1
 
 ### MARKET DATA
 | Metric | Value |

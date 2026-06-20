@@ -23,11 +23,7 @@ export default function WhyDFVA({ compact = false }: WhyDFVAProps) {
   const topSignals = selectTopSignals(validationSignals, 3);
 
   if (topSignals.length === 0) {
-    return (
-      <div className="rounded-lg border border-border bg-card p-4 text-sm text-muted-foreground italic">
-        No market validation data available.
-      </div>
-    );
+    return null;
   }
 
   // Compact mode: source names/logos + one-line claim

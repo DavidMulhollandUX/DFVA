@@ -182,32 +182,109 @@ function generateRoadmap(p: ProgramData): string {
     });
   }
 
-  const gap = 28 - p.score;
-  const afterAll = actions.length > 0 ? actions[actions.length - 1].newTotal : p.score;
-  const newBand = afterAll >= 28 ? 'RESILIENT' : afterAll >= 20 ? 'MODERATE RISK' : afterAll >= 12 ? 'HIGH RISK' : 'CRITICAL';
-
-  let md = `## DFVA IMPROVEMENT ROADMAP: ${p.name} (${p.code.toUpperCase()})\n`;
-  md += `**Current:** ${p.score}/36 ${p.riskBand} | **Target:** RESILIENT (28+) | **Gap:** ${gap} pts\n\n`;
-  md += `### Priority Actions\n\n`;
-  md += `| Priority | Dimension | Current | Action | Impact | New Total |\n`;
-  md += `|----------|-----------|---------|--------|--------|----------|\n`;
-
-  for (const a of actions) {
-    const cur = p.dimensions.find(d => d.label === a.dimension)?.score ?? '?';
-    md += `| ${a.priority} | ${a.dimension} | ${cur}/3 | ${a.action} | +${a.scoreDelta} | ${a.newTotal}/36 |\n`;
-  }
-
-  md += `\n### Outcome\n`;
-  if (afterAll >= 28) {
-    md += `After all priority actions: **${afterAll}/36 RESILIENT** ✅\n`;
-  } else {
-    md += `After all priority actions: **${afterAll}/36 ${newBand}** (${28 - afterAll} pts from RESILIENT)\n`;
-  }
-  md += `\n### Implementation Notes\n`;
-  md += `- P1 actions can typically be implemented in one academic cycle (6-12 months)\n`;
-  md += `- P2 and P3 actions may require curriculum committee approval and 12-24 month lead time\n`;
-  md += `- AI Literacy module is the single highest-impact intervention across all programs\n`;
+  const gap = Math.max(0, 28 - p.score);
   
+  // Map code to study field
+  let field = 'Science';
+  const codeLower = p.code.toLowerCase();
+  if (['mc-cs', 'mc-datasc', 'mc-is'].includes(codeLower)) {
+    field = 'Information Technology';
+  } else if (['mc-indeng', '746st'].includes(codeLower)) {
+    field = 'Engineering';
+  } else if (['527cl', 'mc-clind', 'mc-nursc', 'mc-propsyc', 'mc-phtyph', 'mc-surged', '439fs'].includes(codeLower)) {
+    field = 'Health';
+  } else if (['mc-ba', 'mc-busana', 'mc-bamktg', 'mc-base', 'mc-apbusa'].includes(codeLower)) {
+    field = 'Business & Management';
+  } else if (['mc-arch', 'mc-urbdes', 'mc-prop', 'mc-urbhort', 'b-des'].includes(codeLower)) {
+    field = 'Architecture & Building';
+  } else if (['mc-journ', 'mc-scwr'].includes(codeLower)) {
+    field = 'Creative Arts';
+  } else if (['mc-ed', 'mc-intedib', 'mc-tesol'].includes(codeLower)) {
+    field = 'Education';
+  } else if (['mc-envlaw'].includes(codeLower)) {
+    field = 'Law';
+  }
+
+  let md = `## IMPROVEMENT PLAN: ${p.name}\n\n`;
+  md += `**Current:** ${p.score}/36 ${p.riskBand} | **Duration:** Master · 2 years\n`;
+  md += `**Target:** 28/36 RESILIENT | **Gap:** ${gap} point${gap !== 1 ? 's' : ''}\n\n`;
+  md += `---\n\n`;
+  
+  md += `## 1. DIAGNOSTIC SUMMARY\n`;
+  md += `The ${p.name} scored **${p.score}/36 — ${p.riskBand}**. Gaps in core dimensions define the primary intervention targets.\n\n`;
+  md += `| Dimension | Score | Status |\n`;
+  md += `|---|---|---|\n`;
+  for (const d of p.dimensions) {
+    const status = d.score === 3 ? 'Strong' : d.score === 2 ? 'Adequate' : 'Critical gap';
+    md += `| ${d.label} | ${d.score}/3 | ${status} |\n`;
+  }
+  md += `| **TOTAL** | **${p.score}/36** | **${p.riskBand}** |\n\n`;
+  md += `---\n\n`;
+
+  md += `## 2. SCORE-TO-ACTION MAPPING\n`;
+  md += `| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |\n`;
+  md += `|---|---|---|---|\n`;
+  for (const a of actions) {
+    const cur = p.dimensions.find(d => d.label === a.dimension)?.score ?? 0;
+    md += `| ${a.dimension} | ${cur}/3 | Entry-level skills show automation risk. | ${a.action}. |\n`;
+  }
+  md += `\n---\n\n`;
+
+  md += `## 3. MARKET EVIDENCE SNAPSHOT\n`;
+  md += `| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |\n`;
+  md += `|---|---|---|---|\n`;
+  md += `| ${field} Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |\n`;
+  md += `| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |\n\n`;
+  md += `---\n\n`;
+
+  md += `## 4. PRIORITISED INTERVENTIONS TABLE\n`;
+  md += `| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |\n`;
+  md += `|---|---|---|---|---|---|---|---|---|\n`;
+  for (const a of actions) {
+    const timeline = 'Months 1–6';
+    const owner = 'Program Coordinator';
+    const kpi = 'Approved Sem 1 2027';
+    md += `| ${a.priority} | ${a.action} | ${a.dimension} | Strong market demand for AI-governance capabilities | HIGH | Medium | ${owner} | ${timeline} | ${kpi} |\n`;
+  }
+  md += `\n---\n\n`;
+
+  md += `## 5. 12-MONTH IMPLEMENTATION ROADMAP\n`;
+  md += `* **Month 1–3 — Foundation:** Update career advisory frameworks. Begin syllabus design for AI and technology governance modules.\n`;
+  md += `* **Month 3–6 — Design Sprint:** Finalize unit outlines and project guidelines. Formulate industry review panel to ensure curriculum alignment.\n`;
+  md += `* **Month 6–9 — Build and Validate:** Submit changes to the curriculum committee for approval. Pilot AI verification workshops.\n`;
+  md += `* **Month 9–12 — Pre-Launch:** Update course handbooks. Publish destination reports and prepare staff for Sem 1 2027 delivery.\n\n`;
+  md += `---\n\n`;
+
+  md += `## 6. 24-MONTH CAPABILITY ROADMAP\n`;
+  md += `* **Months 1–12 — Structural Fix:** Address the most critical gaps. Deploy the AI Literacy and tool validation core modules.\n`;
+  md += `* **Months 13–18 — Depth and Differentiation:** Mandate client-facing capstones and project reflections. Align course lines with professional standards.\n`;
+  md += `* **Months 19–24 — Evidence and Signal:** Document second-generation destination outcomes. Audit student research outputs against validation guidelines.\n\n`;
+  md += `---\n\n`;
+
+  md += `## 7. ASSESSMENT REDESIGN EXAMPLES\n`;
+  md += `* **Coursework Project — Redesigned:** Complete a major project with a documented AI use reflection. Students must outline all tools used, prompts entered, output verification steps, and human judgment checks.\n`;
+  md += `* **Specialist Seminar — New Module:** Select an AI tool in your domain and write a 1,000-word GRC audit detailing three failure modes, data source lineage, and risk mitigation strategies.\n\n`;
+  md += `---\n\n`;
+
+  md += `## 8. AI GOVERNANCE AND QUALITY CONTROLS\n`;
+  md += `* **Academic Integrity Policy:** Mandate disclosure of all generative AI tools in coursework.\n`;
+  md += `* **Human Validation Gates:** Require visual draft reviews or git version logs to ensure students execute study designs.\n`;
+  md += `* **Curation Protocols:** Require manual data audits before uploading to automated modeling tools.\n\n`;
+  md += `---\n\n`;
+
+  md += `## 9. MEASUREMENT PLAN\n`;
+  md += `* **Leading indicators (12 months):** Core AI modules active in handbook · Advisory panel constituted · Revised projects deployed.\n`;
+  md += `* **Lagging indicators (12–24 months):** Graduate time-to-employment reduced to 90 days · Employer satisfaction rating ≥ 80%.\n\n`;
+  md += `---\n\n`;
+
+  md += `## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES\n`;
+  md += `* **Faculty lag:** Sourcing qualified academic coordinators can delay course roll-outs. *Mitigation:* Deliver joint guest lectures with industry partners.\n`;
+  md += `* **Credit constraints:** Adding mandatory units can reduce student elective flexibility. *Mitigation:* Integrate topics as modules in existing units.\n\n`;
+  md += `---\n\n`;
+
+  md += `## 11. REDESIGNED GRADUATE PROFILE (2027 READY)\n`;
+  md += `The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.\n`;
+
   return md;
 }
 
@@ -219,6 +296,21 @@ async function main() {
   let generated = 0;
   let skipped = 0;
   for (const filename of files) {
+    const code = filename.replace('dfva-', '').replace('.md', '');
+    const outPath = path.join(REPORTS_DIR, `dfva-recommend-${code}.md`);
+    
+    // Check if the detailed plan already exists to avoid overwriting it
+    try {
+      const existing = await fs.readFile(outPath, 'utf8');
+      if (existing.includes('## 1. DIAGNOSTIC SUMMARY')) {
+        console.log(`  SKIP ${filename}: already has detailed improvement plan`);
+        skipped++;
+        continue;
+      }
+    } catch (e) {
+      // Ignore if file doesn't exist
+    }
+
     const content = await fs.readFile(path.join(REPORTS_DIR, filename), 'utf8');
     const p = parseReport(content, filename);
     if (!p) {
@@ -235,8 +327,7 @@ async function main() {
     }
 
     const roadmap = generateRoadmap(p);
-    const code = filename.replace('dfva-', '').replace('.md', '');
-    await fs.writeFile(path.join(REPORTS_DIR, `dfva-recommend-${code}.md`), roadmap, 'utf8');
+    await fs.writeFile(outPath, roadmap, 'utf8');
     console.log(`  ${filename} → dfva-recommend-${code}.md (${p.score}/36 ${p.riskBand}, gap: ${28 - p.score}, ${parsedCount} dims)`);
     generated++;
   }

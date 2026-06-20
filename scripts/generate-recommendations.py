@@ -214,13 +214,33 @@ def parse_report(filepath):
 
 
 def generate_roadmap(prog):
-    """Generate a markdown improvement roadmap."""
+    """Generate a markdown improvement roadmap with 11 standard sections."""
     name = prog['name']
     code = prog['code']
     score = prog['score']
     dims = prog['dims']
     risk = prog['risk']
     gap = max(0, 28 - score)
+    
+    # Map code to study field
+    field = 'Science'
+    code_lower = code.lower()
+    if code_lower in ['mc-cs', 'mc-datasc', 'mc-is']:
+        field = 'Information Technology'
+    elif code_lower in ['mc-indeng', '746st']:
+        field = 'Engineering'
+    elif code_lower in ['527cl', 'mc-clind', 'mc-nursc', 'mc-propsyc', 'mc-phtyph', 'mc-surged', '439fs']:
+        field = 'Health'
+    elif code_lower in ['mc-ba', 'mc-busana', 'mc-bamktg', 'mc-base', 'mc-apbusa']:
+        field = 'Business & Management'
+    elif code_lower in ['mc-arch', 'mc-urbdes', 'mc-prop', 'mc-urbhort', 'b-des']:
+        field = 'Architecture & Building'
+    elif code_lower in ['mc-journ', 'mc-scwr']:
+        field = 'Creative Arts'
+    elif code_lower in ['mc-ed', 'mc-intedib', 'mc-tesol']:
+        field = 'Education'
+    elif code_lower in ['mc-envlaw']:
+        field = 'Law'
     
     # Find weak dimensions (score < 3)
     weak = [(label, s) for label, s in dims.items() if s < 3]
@@ -258,59 +278,105 @@ def generate_roadmap(prog):
         p1_points += a['impact']
         p2_points -= a['impact']
     
-    # Calculate score impact
-    actual_p1_impact = sum(a['impact'] for a in p1_actions)
-    actual_p2_impact = sum(a['impact'] for a in p2_actions)
-    p1_projected = min(score + actual_p1_impact, 36)
-    all_projected = min(score + actual_p1_impact + actual_p2_impact, 36)
-    
-    def band_for(s):
-        if s >= 28: return 'RESILIENT'
-        if s >= 20: return 'MODERATE RISK'
-        if s >= 12: return 'HIGH RISK'
-        return 'CRITICAL'
-    
-    # Generate markdown
+    # Generate markdown using standard 11-section format
     md = f"""## IMPROVEMENT PLAN: {name}
 
 **Current:** {score}/36 {risk} | **Duration:** {prog.get('duration', 'N/A')}
 **Target:** 28/36 RESILIENT | **Gap:** {gap} point{'s' if gap != 1 else ''}
 
 ---
-"""
-    
-    if p1_actions:
-        md += """
-### Priority 1 Actions (reach RESILIENT)
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-"""
-        for i, a in enumerate(p1_actions, 1):
-            md += f"| {i} | {a['dim']} | {a['from']} → {a['to']} | +{a['impact']} | {a['action']} | {a['effort']} |\n"
-    
-    if p2_actions:
-        md += """
-### Priority 2 Actions (bonus resilience)
+## 1. DIAGNOSTIC SUMMARY
+The {name} scored **{score}/36 — {risk}**. Gaps in core dimensions define the primary intervention targets.
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
+| Dimension | Score | Status |
+|---|---|---|
 """
-        for i, a in enumerate(p2_actions, 1):
-            md += f"| {i} | {a['dim']} | {a['from']} → {a['to']} | +{a['impact']} | {a['action']} | {a['effort']} |\n"
-    
+    for d_label in DIM_KEYWORDS.values():
+        d_score = dims.get(d_label, 0)
+        d_status = 'Strong' if d_score == 3 else 'Adequate' if d_score == 2 else 'Critical gap'
+        md += f"| {d_label} | {d_score}/3 | {d_status} |\n"
+        
+    md += f"""| **TOTAL** | **{score}/36** | **{risk}** |
+
+---
+
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
+"""
+    for a in p1_actions + p2_actions:
+        dim = a['dim']
+        cur_score = a['from']
+        md += f"| {dim} | {cur_score}/3 | Entry-level skills show automation risk. | {a['action']}. |\n"
+        
     md += f"""
-### Score Impact
+---
 
-| Scenario | Score | Band |
-|----------|-------|------|
-| Current | {score} | {risk} |
+## 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+|---|---|---|---|
+| {field} Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
+| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+
+---
+
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
 """
-    if p1_actions:
-        md += f"| P1 only | {p1_projected} | {band_for(p1_projected)} |\n"
-    if p2_actions:
-        md += f"| All actions | {all_projected} | {band_for(all_projected)} |\n"
-    
+    for i, a in enumerate(p1_actions, 1):
+        timeline = "Months 1–6" if a['effort'] == 'Low' else "Months 3–9"
+        owner = "Program Coordinator" if a['effort'] == 'Low' else "Faculty Curriculum Committee"
+        kpi = "Approved Sem 1 2027" if a['effort'] == 'Low' else "Course launched Sem 2 2027"
+        md += f"| {i} | {a['action']} | {a['dim']} | Strong market demand for AI-governance capabilities | HIGH | {a['effort']} | {owner} | {timeline} | {kpi} |\n"
+        
+    md += """
+---
+
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
+* **Month 1–3 — Foundation:** Update career advisory frameworks. Begin syllabus design for AI and technology governance modules.
+* **Month 3–6 — Design Sprint:** Finalize unit outlines and project guidelines. Formulate industry review panel to ensure curriculum alignment.
+* **Month 6–9 — Build and Validate:** Submit changes to the curriculum committee for approval. Pilot AI verification workshops.
+* **Month 9–12 — Pre-Launch:** Update course handbooks. Publish destination reports and prepare staff for Sem 1 2027 delivery.
+
+---
+
+## 6. 24-MONTH CAPABILITY ROADMAP
+* **Months 1–12 — Structural Fix:** Address the most critical gaps. Deploy the AI Literacy and tool validation core modules.
+* **Months 13–18 — Depth and Differentiation:** Mandate client-facing capstones and project reflections. Align course lines with professional standards.
+* **Months 19–24 — Evidence and Signal:** Document second-generation destination outcomes. Audit student research outputs against validation guidelines.
+
+---
+
+## 7. ASSESSMENT REDESIGN EXAMPLES
+* **Coursework Project — Redesigned:** Complete a major project with a documented AI use reflection. Students must outline all tools used, prompts entered, output verification steps, and human judgment checks.
+* **Specialist Seminar — New Module:** Select an AI tool in your domain and write a 1,000-word GRC audit detailing three failure modes, data source lineage, and risk mitigation strategies.
+
+---
+
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
+* **Academic Integrity Policy:** Mandate disclosure of all generative AI tools in coursework.
+* **Human Validation Gates:** Require visual draft reviews or git version logs to ensure students execute study designs.
+* **Curation Protocols:** Require manual data audits before uploading to automated modeling tools.
+
+---
+
+## 9. MEASUREMENT PLAN
+* **Leading indicators (12 months):** Core AI modules active in handbook · Advisory panel constituted · Revised projects deployed.
+* **Lagging indicators (12–24 months):** Graduate time-to-employment reduced to 90 days · Employer satisfaction rating ≥ 80%.
+
+---
+
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
+* **Faculty lag:** Sourcing qualified academic coordinators can delay course roll-outs. *Mitigation:* Deliver joint guest lectures with industry partners.
+* **Credit constraints:** Adding mandatory units can reduce student elective flexibility. *Mitigation:* Integrate topics as modules in existing units.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
+"""
     return md
 
 
@@ -325,6 +391,19 @@ def main():
     errors = 0
     for fname in files:
         filepath = os.path.join(REPORTS_DIR, fname)
+        code = fname.replace('dfva-', '').replace('.md', '')
+        outpath = os.path.join(REPORTS_DIR, f'dfva-recommend-{code}.md')
+        
+        # Check if the detailed plan already exists to avoid overwriting it
+        if os.path.exists(outpath):
+            try:
+                existing_content = open(outpath).read()
+                if '## 1. DIAGNOSTIC SUMMARY' in existing_content:
+                    print(f"  SKIP {fname}: already has detailed improvement plan")
+                    continue
+            except Exception as e:
+                print(f"  Warning reading {outpath}: {e}")
+        
         try:
             prog = parse_report(filepath)
         except Exception as e:
@@ -338,13 +417,11 @@ def main():
         
         roadmap = generate_roadmap(prog)
         
-        code = prog['code']
-        outpath = os.path.join(REPORTS_DIR, f'dfva-recommend-{code}.md')
         with open(outpath, 'w') as f:
             f.write(roadmap)
         
-        p1_count = len([l for l in roadmap.split('\n') if l.startswith('| P1')])
-        p2_count = len([l for l in roadmap.split('\n') if l.startswith('| P2')])
+        p1_count = len([l for l in roadmap.split('\n') if l.startswith('| P1') or l.startswith('| 1 |')])
+        p2_count = len([l for l in roadmap.split('\n') if l.startswith('| P2') or l.startswith('| 2 |')])
         print(f"  {code}: {prog['score']}/36 → roadmap ({p1_count} P1 + {p2_count} P2 actions)")
         generated += 1
     

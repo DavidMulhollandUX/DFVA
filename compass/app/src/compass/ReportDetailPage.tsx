@@ -40,11 +40,11 @@ import { REPORT_CONTENT } from "./reportContent";
 import { PROGRAMS } from "./sharedProgramData";
 import { ProgramRadar } from "../client/components/ProgramRadar";
 import { WhyThisMatters } from "./WhyThisMatters";
-import WhyDFVA from "./WhyDFVA";
 import { CurriculumMap } from "../client/components/CurriculumMap";
 import { generateMockSyllabus } from "./mockSyllabusData";
 import { RUBRIC, Dimension } from "./data/rubric";
 import { DIMENSION_EVIDENCE, DimensionEvidence } from "./data/dimensionEvidence";
+import { getFieldForCourse } from "./marketData";
 
 const riskBandStyles: Record<string, string> = {
   RESILIENT:
@@ -177,18 +177,73 @@ const DIMENSIONS = [
   { id: "B", label: "Irreplaceability Premium" },
 ];
 
-const ANZ_LICENSURE_CAREERS = [
-  { job: "Software Engineer", cluster: "Software/IT", risk: "Moderate", reqs: "No" },
-  { job: "Professional Engineer (Civil)", cluster: "Engineering", risk: "Low", reqs: "Yes (Engineers Australia)" },
-  { job: "Clinical Psychologist", cluster: "Psychology/Health", risk: "Low", reqs: "Yes (PsyBA/AHPRA)" },
-  { job: "Registered General Nurse", cluster: "Nursing", risk: "Low", reqs: "Yes (NMBA/AHPRA)" },
-  { job: "Data Analyst", cluster: "Software/IT", risk: "High", reqs: "No" },
-  { job: "BioSciences Researcher", cluster: "BioSciences", risk: "Moderate", reqs: "No" },
-  { job: "Patent Examiner", cluster: "Legal/Compliance", risk: "High", reqs: "No" },
-  { job: "Corporate Legal Advisor", cluster: "Legal/Compliance", risk: "Moderate", reqs: "Yes (State Admission Board)" },
-  { job: "UX/UI Designer", cluster: "Design", risk: "High", reqs: "No" },
-  { job: "Certified Practising Accountant", cluster: "Finance", risk: "Moderate", reqs: "Yes (CPA/CA ANZ)" },
-];
+const FIELD_CAREERS: Record<string, Array<{ job: string; cluster: string; risk: string; reqs: string }>> = {
+  engineering: [
+    { job: "Professional Engineer (Civil)", cluster: "Engineering", risk: "Low", reqs: "Yes (Engineers Australia)" },
+    { job: "Structural Design Engineer", cluster: "Engineering", risk: "Low", reqs: "Yes (Engineers Australia)" },
+    { job: "Junior Project Engineer", cluster: "Engineering", risk: "Moderate", reqs: "No" },
+    { job: "Engineering CAD Drafter", cluster: "Engineering", risk: "High", reqs: "No" },
+  ],
+  it: [
+    { job: "Cybersecurity Specialist", cluster: "Software/IT", risk: "Low", reqs: "No" },
+    { job: "Software Engineer", cluster: "Software/IT", risk: "Moderate", reqs: "No" },
+    { job: "Data Analyst", cluster: "Software/IT", risk: "High", reqs: "No" },
+    { job: "Junior Database Administrator", cluster: "Software/IT", risk: "High", reqs: "No" },
+  ],
+  health: [
+    { job: "Clinical Psychologist", cluster: "Psychology/Health", risk: "Low", reqs: "Yes (PsyBA/AHPRA)" },
+    { job: "Registered General Nurse", cluster: "Nursing", risk: "Low", reqs: "Yes (NMBA/AHPRA)" },
+    { job: "Physical Therapist / Physiotherapist", cluster: "Physiotherapy", risk: "Low", reqs: "Yes (PhysioBA/AHPRA)" },
+    { job: "Medical Receptionist / Health Admin", cluster: "Administration", risk: "High", reqs: "No" },
+  ],
+  business: [
+    { job: "Certified Practising Accountant", cluster: "Finance", risk: "Moderate", reqs: "Yes (CPA/CA ANZ)" },
+    { job: "Management Consultant", cluster: "Management", risk: "Moderate", reqs: "No" },
+    { job: "Financial Analyst", cluster: "Finance", risk: "High", reqs: "No" },
+    { job: "Bookkeeper / Accounts Clerk", cluster: "Finance", risk: "High", reqs: "No" },
+  ],
+  architecture: [
+    { job: "Registered Architect", cluster: "Architecture", risk: "Low", reqs: "Yes (ARBV / RAIA)" },
+    { job: "Urban Planner", cluster: "Planning", risk: "Low", reqs: "Yes (Planning Institute of Australia)" },
+    { job: "Architectural Graduate", cluster: "Architecture", risk: "Moderate", reqs: "No" },
+    { job: "BIM Documentation Draftsperson", cluster: "Architecture", risk: "High", reqs: "No" },
+  ],
+  creative_arts: [
+    { job: "Creative Director", cluster: "Creative Arts", risk: "Low", reqs: "No" },
+    { job: "Journalist / Reporter", cluster: "Creative Arts", risk: "Moderate", reqs: "No" },
+    { job: "UX/UI Designer", cluster: "Design", risk: "High", reqs: "No" },
+    { job: "Screenwriter / Content Writer", cluster: "Creative Arts", risk: "High", reqs: "No" },
+  ],
+  education: [
+    { job: "Secondary School Teacher", cluster: "Education", risk: "Low", reqs: "Yes (State Teaching Institute)" },
+    { job: "Primary School Teacher", cluster: "Education", risk: "Low", reqs: "Yes (State Teaching Institute)" },
+    { job: "English Language Teacher (TESOL)", cluster: "Education", risk: "Moderate", reqs: "No" },
+    { job: "Corporate Trainer", cluster: "Education", risk: "Moderate", reqs: "No" },
+  ],
+  law: [
+    { job: "Corporate Legal Advisor", cluster: "Legal", risk: "Moderate", reqs: "Yes (State Admission Board)" },
+    { job: "Registered Patent Attorney", cluster: "Legal/Compliance", risk: "Low", reqs: "Yes (Trans-Tasman IP Attorneys Board)" },
+    { job: "Legal Research Assistant", cluster: "Legal", risk: "High", reqs: "No" },
+    { job: "Patent Examiner", cluster: "Legal/Compliance", risk: "High", reqs: "No" },
+  ],
+  science: [
+    { job: "Research Laboratory Lead", cluster: "Science", risk: "Low", reqs: "No" },
+    { job: "BioSciences Researcher", cluster: "Science", risk: "Moderate", reqs: "No" },
+    { job: "Laboratory Technician", cluster: "Science", risk: "High", reqs: "No" },
+    { job: "Research Assistant (Data Analytics)", cluster: "Science", risk: "High", reqs: "No" },
+  ],
+  agriculture: [
+    { job: "Agronomist / Agricultural Advisor", cluster: "Agriculture", risk: "Low", reqs: "Yes (Australian Institute of Agricultural Science)" },
+    { job: "Environmental Consultant", cluster: "Environment", risk: "Low", reqs: "No" },
+    { job: "Junior Field Officer", cluster: "Environment", risk: "Low", reqs: "No" },
+    { job: "GIS Mapping Assistant", cluster: "Environment", risk: "High", reqs: "No" },
+  ],
+  other: [
+    { job: "Policy Analyst", cluster: "Government", risk: "Low", reqs: "No" },
+    { job: "Community Services Officer", cluster: "Social Services", risk: "Low", reqs: "No" },
+    { job: "Market Research Analyst", cluster: "Marketing", risk: "High", reqs: "No" },
+  ]
+};
 
 function dimensionStringToId(dimStr: string): number {
   if (dimStr === "B") return 11;
@@ -968,12 +1023,17 @@ export default function ReportDetailPage() {
   };
 
   // Filter careers list based on regulatory professional licensure toggle
+  const currentCareers = useMemo(() => {
+    const field = getFieldForCourse(code);
+    return FIELD_CAREERS[field] || FIELD_CAREERS.other;
+  }, [code]);
+
   const filteredCareers = useMemo(() => {
     if (hideRegulatedCareers) {
-      return ANZ_LICENSURE_CAREERS.filter(c => c.reqs === "No");
+      return currentCareers.filter(c => c.reqs === "No");
     }
-    return ANZ_LICENSURE_CAREERS;
-  }, [hideRegulatedCareers]);
+    return currentCareers;
+  }, [currentCareers, hideRegulatedCareers]);
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-8">
@@ -1464,11 +1524,6 @@ export default function ReportDetailPage() {
           </div>
         )}
 
-      </div>
-
-      {/* 3. Footer Section */}
-      <div className="mt-12 border-t border-border pt-8">
-        <WhyDFVA compact />
       </div>
     </div>
   );

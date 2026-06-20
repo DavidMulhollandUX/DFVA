@@ -2,13 +2,10 @@ import FAQ from "./components/FAQ";
 import FeaturesGrid from "./components/FeaturesGrid";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
-import Testimonials from "./components/Testimonials";
-import WhyDFVA from "../compass/WhyDFVA";
 import {
   faqs,
   features,
   footerNavigation,
-  testimonials,
 } from "./contentSections";
 
 export default function LandingPage() {
@@ -29,10 +26,6 @@ export default function LandingPage() {
             </>
           }
         />
-        <section className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
-          <WhyDFVA compact />
-        </section>
-        <Testimonials testimonials={testimonials} />
         <FAQ faqs={faqs} />
       </main>
       <Footer footerNavigation={footerNavigation} />

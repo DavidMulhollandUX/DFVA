@@ -10,6 +10,23 @@ Specialist elective areas include Quantum Physics, Condensed Matter Physics, Par
 Typical graduate roles include research scientist (in physics labs, national facilities, or industry), PhD candidate, data scientist (physics background is strongly valued in quantitative finance and AI research), optical engineer, quantum computing researcher, and atmospheric modeller.
 
 
+## 2. AUTOMATION EXPOSURE PROFILE
+
+| Task Category | Example Graduate Tasks | AI Pressure | AI Capability Today | Durability Rationale |
+|---|---|---|---|---|
+| Experimental data acquisition and pipeline operation | Running detector systems, operating spectrometers, managing data streams from particle detectors or optical instruments | MEDIUM | AI can automate standard acquisition protocols and flag anomalies in real time | Hardware operation and instrument calibration remain hands-on; non-standard experimental conditions require physicist judgment |
+| Quantitative data analysis and signal extraction | Fitting spectral peaks, separating signal from background noise in particle physics datasets, applying statistical models to scattering data | HIGH | ML models (BDTs, neural networks) now outperform manual analysis on many standard tasks in experimental HEP and condensed matter | Standard pipeline analysis is under pressure; novel analysis design, systematic uncertainty evaluation, and interpretation remain physicist-led |
+| Theoretical modelling and calculation | Deriving effective Hamiltonians, computing Feynman diagrams, solving quantum field theory problems, constructing phenomenological models | LOW | AI assistants can assist with symbol manipulation and literature recall but cannot generate original theoretical frameworks or verify physical consistency | Conceptual reasoning about physical systems, symmetry arguments, and theory-building are not automated; this is the program's core competency |
+| Numerical simulation and computational physics | Writing and running Monte Carlo simulations, solving PDEs for atmospheric or plasma systems, implementing lattice QCD calculations | MEDIUM | AI code generation accelerates implementation; physics-specific solvers and simulation frameworks (Geant4, LAMMPS, WRF) require domain expertise to configure and interpret | Simulation setup, physical interpretation of outputs, and validation against theory require deep domain knowledge; code generation does not replace this |
+| Literature synthesis and research scoping | Systematic literature review for thesis, identifying open problems in a subfield, tracking preprint activity | HIGH | AI tools (Semantic Scholar, Elicit, Perplexity, Gemini Deep Research) now synthesise physics literature rapidly and identify key papers | Graduate students doing literature-only work face high pressure; original problem identification and critical evaluation of conflicting theoretical claims remain human-led |
+| Experimental design and apparatus development | Designing new measurement configurations, building or modifying optical traps, developing new detector geometries | LOW | AI cannot replace hands-on experimental intuition, apparatus troubleshooting, or the physics reasoning behind measurement design choices | Custom apparatus development is a core differentiator; this is irreducible skilled work |
+| Research communication and scientific writing | Writing thesis chapters, preparing conference papers, presenting research to expert audiences, responding to peer review | MEDIUM | AI assists with drafting and structure but cannot substitute for the physicist's own experimental account, original analysis narrative, or expert defense | The thesis and oral defense are irreducible; physics peer review demands a level of conceptual precision that AI-assisted text typically fails to sustain |
+
+**Overall Section Exposure:** MEDIUM
+
+**Durability Assessment:** Master of Science (Physics) graduates occupy a structurally durable position because their core work — original theoretical reasoning, experimental design, and physical interpretation — is not systematically automatable at the level AI tools currently operate. The highest pressure falls on data analysis and literature tasks that were once the domain of early-career physicists, compressing the low-skill entry point of a physics career. Graduates who combine deep physical intuition with proficiency in ML-based analysis tools and computational simulation are well-positioned; those who exit the degree as primarily data-pipeline operators face meaningful exposure. The 100-point research project is the program's structural defence: it creates graduates who have done original physical reasoning under expert scrutiny, not just processed experimental outputs.
+
+
 ###  3. DFVA SCORECARD
 | # | Dimension | Score | Rationale |
 |---|---|---:|---|
@@ -49,7 +66,7 @@ Specific threats:
 Physics research training is structurally durable. The 100pt project + professional skills component creates well-rounded researchers. The AI literacy gap exists but is less acute than in applied fields — physics graduates operate at a conceptual level AI tools don't reach. Quantum computing elective positions graduates at an emerging frontier.
 
 
-## 8. THE REDESIGNED GRADUATE PROFILE
+## 6. THE REDESIGNED GRADUATE PROFILE
 
 The 2027-ready physics graduate is not a data analyst — they are a **physical scientist** who can connect mathematical formalism to physical reality and defend that connection under expert scrutiny.
 
@@ -74,6 +91,12 @@ They are positioned at the interface of fundamental science and technology appli
 ---
 
 
+
+---
+
+**Assessment Date:** 2026-06-21
+**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-sciphy
+**Prompt Version:** DFVA-COPILOT-PROMPT-v1
 ### MARKET DATA
 | Metric | Value |
 |--------|-------|

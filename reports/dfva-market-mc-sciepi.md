@@ -1,6 +1,6 @@
 # Market Intelligence Report: Master of Science (Epidemiology)
 
-**Assessment Date:** 2026-05-15 | **Source URL:** https://handbook.unimelb.edu.au/2025/courses/mc-sciepi | **Prompt Version:** DFVA-COPILOT-SKILL-v1
+**Assessment Date:** 2026-05-15 | **Source URL:** https://handbook.unimelb.edu.au/2025/courses/mc-sciepi | **Prompt Version:** DFVA-COPILOT-MARKET-v1
 
 ---
 
@@ -111,4 +111,4 @@ My Health Record expansion and state health data linkage infrastructure (SAIL, S
 
 **Assessment date (ISO format):** 2026-05-15
 **Source URL(s):** https://handbook.unimelb.edu.au/2025/courses/mc-sciepi
-**Prompt version:** DFVA-COPILOT-SKILL-v1
+**Prompt version:** DFVA-COPILOT-MARKET-v1

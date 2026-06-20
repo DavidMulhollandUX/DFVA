@@ -44,6 +44,8 @@ export default function App() {
       if (element) {
         element.scrollIntoView();
       }
+    } else {
+      window.scrollTo(0, 0);
     }
   }, [location]);
 

@@ -77,7 +77,7 @@ They work at the intersection of design expertise, community accountability, and
 
 **Assessment date:** 2026-06-09
 **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-urbdes
-**Prompt version:** DFVA-HERMES-v1 (live Hermes LLM scoring)
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 (live Hermes LLM scoring)
 
 ### MARKET DATA
 | Metric | Value |

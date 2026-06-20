@@ -10,6 +10,23 @@ Advanced coursework includes Spectroscopic Methods, Organic Synthesis, Inorganic
 Typical graduate roles include research scientist in chemical, pharmaceutical, and materials industries, analytical chemist, PhD candidate, science communicator, and quality assurance scientist. Chemistry graduates move into pharmaceutical development, battery technology, catalysis, materials science, and forensic science.
 
 
+## 2. AUTOMATION EXPOSURE PROFILE
+
+| Task Category | Example Graduate Tasks | AI Pressure | AI Capability Today | Durability Rationale |
+|---|---|---|---|---|
+| Routine analytical testing | Running standardised HPLC, GC-MS, or UV-Vis analyses; preparing calibration curves; generating QC reports to specification | HIGH | Strong — automated instrument software, AI-assisted spectral interpretation (MestReNova AI, AutoQC systems) already handle routine runs | Highly automatable; robotic samplers + AI interpretation removing junior analytical roles in pharma QC labs |
+| Synthetic route planning | Designing multi-step syntheses for novel compounds; selecting protecting group strategies; optimising reaction conditions | MEDIUM | Moderate — IBM RXN, Chemputer, AiZynthFinder suggest routes for known chemistries; fail on novel scaffolds, unusual functional group combinations | AI augments but does not replace; graduates who can critically evaluate AI-proposed routes and catch chemoselectivity errors retain high value |
+| Spectroscopic structure elucidation | Interpreting NMR, IR, and mass spectra to confirm or determine molecular structures of synthesised or unknown compounds | MEDIUM | Moderate — AI NMR prediction (Cheshire AI, NMRium) handles pure samples; mixed spectra, impurity identification, and novel compounds still require expert human interpretation | Physical intuition from lab practice — knowing when a spectrum is "wrong" — is not yet automatable; strength of this program's Spectroscopic Methods training |
+| Laboratory instrumentation operation | Calibrating and troubleshooting HPLC, NMR, mass spectrometer, and laser systems; preparing samples for advanced techniques | LOW | Weak — AI cannot physically operate instruments, troubleshoot hardware faults, or adapt to unexpected instrument behaviour | Hands-on instrumentation is a structural moat; the 125pt research project develops deep instrument literacy that AI cannot acquire |
+| Computational chemistry modelling | Running DFT calculations, molecular dynamics simulations, or ML potential fitting to predict molecular properties or reaction energetics | HIGH | Strong and growing — Gaussian, ORCA, VASP workflows increasingly automated; ML force fields (MACE, NequIP) reduce compute cost dramatically | Execution of standard calculations is automatable; design of the computational experiment, validation, and mechanistic interpretation remain graduate-level work |
+| Research experimental design | Defining hypotheses, selecting control conditions, designing multi-variable experiments, and interpreting unexpected results | LOW | Weak — AI can suggest experimental frameworks from literature but cannot design novel experiments for genuinely unknown systems | Core of the 125pt research project; requires domain intuition built from prior experimental experience AI does not possess |
+| Regulatory documentation and safety | Writing MSDS-compliant safety plans, managing chemical inventories, preparing batch records and regulatory submissions for pharmaceutical or industrial contexts | MEDIUM | Moderate — AI drafts regulatory documents well from templates; chemical-specific safety judgments still require trained chemist sign-off | Document generation is highly automatable; the human accountability and safety judgment layer maintains demand for qualified chemists in regulated industries |
+
+**Overall Section Exposure:** MEDIUM
+
+**Durability Assessment:** Chemistry graduates from this program face meaningful automation pressure in their most entry-level work — routine analytical testing, standardised QC, and computational job execution are all being compressed by AI and laboratory robotics. However, the physical laboratory requirement for synthesis, instrumentation operation, and hands-on research design creates a structural floor that AI cannot penetrate in the near term. Graduates who develop the ability to critically evaluate AI-generated synthetic routes and computational outputs — rather than simply produce them — will be positioned as the governance layer in AI-augmented chemistry workflows, a role that will grow in value as AI chemistry tools proliferate.
+
+
 ###  3. DFVA SCORECARD
 | # | Dimension | Score | Rationale |
 |---|---|---:|---|
@@ -72,6 +89,12 @@ They have evaluated AI synthetic planning tools: they know when Chemputer's sugg
 ---
 
 
+
+---
+
+**Assessment Date:** 2026-06-21
+**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-sciche
+**Prompt Version:** DFVA-COPILOT-PROMPT-v1
 ### MARKET DATA
 | Metric | Value |
 |--------|-------|

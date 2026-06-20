@@ -10,6 +10,24 @@ The 200-credit-point program targets students with science backgrounds who seek 
 Typical graduate roles include environmental consultant, environmental scientist in government agencies (DCCEEW, EPA), conservation manager, environmental planner, climate adaptation specialist, and graduate researcher.
 
 
+## 2. AUTOMATION EXPOSURE PROFILE
+
+| Task Category | Example Graduate Tasks | AI Pressure | AI Capability Today | Durability Rationale |
+|---|---|---|---|---|
+| Environmental Impact Assessment writing | Drafting EIA sections (flora/fauna, hydrology, noise, air quality) from site data and regulatory templates | HIGH | AI tools (e.g. Airshed AI, automated EIA platforms) can generate standard EIA sections from structured site inputs; regulatory mapping is well-suited to LLM automation | Templated compliance writing is being systematised; value shifts to site-specific judgment and stakeholder negotiation |
+| Environmental field data collection | Flora and fauna surveys, soil sampling, water quality monitoring, macroinvertebrate sampling | LOW | Robotics and drone surveys exist but require human deployment, site navigation, and taxonomic validation in complex terrain | Physical presence, ecological identification, and adaptive field decisions resist automation; GPS-guided drones assist but do not replace |
+| Spatial data analysis and GIS mapping | Processing satellite imagery, running ArcGIS/QGIS analyses, producing land-use change maps | MEDIUM | AI-assisted remote sensing (Planet Labs, Google Earth Engine, Copernicus) automates change detection and classification at scale | Interpretation, local context validation, and communicating uncertainty to non-technical stakeholders remain human-dependent |
+| Environmental modelling | Running hydrological, air quality, and ecological models (MUSIC, AERMOD, species distribution models) | MEDIUM | AI-enhanced modelling platforms can automate parameter tuning and scenario runs; ML species distribution models are standard practice | Model selection, calibration against field observations, and explaining model limitations to regulators require domain expertise |
+| Regulatory compliance and approvals | Interpreting planning legislation, preparing permit applications, liaising with regulators (EPA, councils) | MEDIUM | LLMs can parse regulatory text and flag applicable requirements; automated compliance checkers are emerging | Regulatory interpretation in contested or novel cases, and relationship management with regulators, remain human work |
+| Environmental risk assessment | Identifying hazard pathways, assessing ecological receptors, applying risk matrices | LOW | AI can assist with literature retrieval and standard risk matrix population; probabilistic risk tools are AI-augmented | Judgment on site-specific receptor sensitivity and cumulative impact assessment requires integrating field knowledge with regulatory context |
+| Stakeholder engagement and consultation | Facilitating community consultation, presenting findings to Traditional Owners, negotiating with developers | LOW | No AI capability for genuine relationship-based consultation; translation/summarisation tools assist preparation | Trust, cultural competency, and adaptive communication in contested environmental contexts are irreducibly human |
+| Climate adaptation planning | Developing local adaptation strategies, assessing infrastructure vulnerability to climate projections | LOW | AI scenario tools can generate adaptation options; projections are AI-assisted | Contextual judgment about community priorities, trade-offs under uncertainty, and political feasibility resist automation |
+
+**Overall Section Exposure:** MEDIUM
+
+**Durability Assessment:** MC-ENVSC graduates face moderate automation pressure concentrated in the compliance-writing and routine data-analysis portions of environmental consulting work — the tasks that dominate junior roles. Field-based work, regulatory relationship management, and complex stakeholder engagement are structurally durable. The graduates most at risk are those who stay in templated EIA production without developing spatial analysis, ecological field expertise, or climate adaptation specialisation. Graduates who combine field credibility with AI-assisted remote sensing and modelling capabilities are well-positioned for the AI-augmented environmental science workplace emerging by 2027–2030.
+
+
 ###  3. DFVA SCORECARD
 | # | Dimension | Score | Rationale |
 |---|---|---:|---|
@@ -72,6 +90,12 @@ They use remote sensing and AI environmental monitoring tools as accelerators: t
 ---
 
 
+
+---
+
+**Assessment Date:** 2026-06-21
+**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-envsc
+**Prompt Version:** DFVA-COPILOT-PROMPT-v1
 ### MARKET DATA
 | Metric | Value |
 |--------|-------|

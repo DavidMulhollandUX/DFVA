@@ -75,7 +75,7 @@ They understand AI tools in mental health — their capabilities, limitations, a
 
 **Assessment date:** 2026-06-09
 **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-propsyc
-**Prompt version:** DFVA-HERMES-v1
+**Prompt version:** DFVA-COPILOT-PROMPT-v1
 
 ### MARKET DATA
 | Metric | Value |

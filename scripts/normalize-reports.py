@@ -274,5 +274,118 @@ def main():
     print(f"\n{complete} complete, {incomplete} still incomplete.")
 
 
+# ─────────────────────────────────────────────────────────────────────────────
+# Metadata normalization
+# ─────────────────────────────────────────────────────────────────────────────
+
+DFVA_VERSION_MAP = {
+    'DFVA-CONTINUE-SLASH-v1': 'DFVA-COPILOT-PROMPT-v1',
+    'DFVA-COPILOT-SKILL-v1':  'DFVA-COPILOT-PROMPT-v1',
+    'DFVA-HERMES-v1':          'DFVA-COPILOT-PROMPT-v1',
+}
+
+MARKET_VERSION_MAP = {
+    'DFVA-CONTINUE-MARKET-v1': 'DFVA-COPILOT-MARKET-v1',
+    'DFVA-COPILOT-SKILL-v1':   'DFVA-COPILOT-MARKET-v1',
+}
+
+HANDBOOK_BASE = 'https://handbook.unimelb.edu.au/2026/courses'
+NORMALIZE_DATE = '2026-06-21'
+
+
+def fix_dfva_metadata(slug, content):
+    for old, new in DFVA_VERSION_MAP.items():
+        content = re.sub(
+            r'(Prompt [Vv]ersion:?\*?\*? )' + re.escape(old),
+            lambda m: m.group(1) + new,
+            content
+        )
+    # Add missing metadata footer before ### MARKET DATA (or at end if no MARKET DATA)
+    has_source = bool(re.search(r'Source URL', content, re.IGNORECASE))
+    has_prompt = bool(re.search(r'DFVA-COPILOT-PROMPT-v1', content))
+    if not has_source or not has_prompt:
+        handbook_url = f'{HANDBOOK_BASE}/{slug}'
+        footer_parts = []
+        if not has_source:
+            footer_parts.append(f'**Assessment Date:** {NORMALIZE_DATE}')
+            footer_parts.append(f'**Source URL:** {handbook_url}')
+        if not has_prompt:
+            footer_parts.append('**Prompt Version:** DFVA-COPILOT-PROMPT-v1')
+        footer = '\n'.join(footer_parts)
+        # Insert before ### MARKET DATA if present, otherwise append
+        market_data_match = re.search(r'\n### MARKET DATA\b', content)
+        if market_data_match:
+            pos = market_data_match.start()
+            content = content[:pos] + '\n\n---\n\n' + footer + content[pos:]
+        else:
+            content = content.rstrip() + '\n\n---\n\n' + footer + '\n'
+    return content
+
+
+def fix_market_metadata(content):
+    for old, new in MARKET_VERSION_MAP.items():
+        content = re.sub(
+            r'(Prompt [Vv]ersion:?\*?\*? )' + re.escape(old),
+            lambda m: m.group(1) + new,
+            content
+        )
+    # Fix bare "**Date:**" → "**Assessment Date:**" in metadata headers
+    content = re.sub(r'\*\*Date:\*\*(?! \()', '**Assessment Date:**', content)
+    # Rename any non-standard section 3 header to the required one
+    content = re.sub(
+        r'^(## 3\. )(?!CURRENT DISCUSSION SIGNALS \(X\)).+$',
+        r'\1CURRENT DISCUSSION SIGNALS (X)',
+        content, flags=re.MULTILINE
+    )
+    return content
+
+
+def fix_recommend_metadata(slug, content):
+    has_date    = bool(re.search(r'\*\*Assessment Date:\*\*', content))
+    has_source  = bool(re.search(r'\*\*Source Report:\*\*', content))
+    has_version = bool(re.search(r'DFVA-COPILOT-RECOMMENDER-v1', content))
+
+    if has_date and has_source and has_version:
+        return content  # already complete
+
+    additions = []
+    if not has_date:
+        additions.append(f'**Assessment Date:** {NORMALIZE_DATE}')
+    if not has_source:
+        additions.append(f'**Source Report:** reports/dfva-{slug}.md')
+    if not has_version:
+        additions.append('**Prompt Version:** DFVA-COPILOT-RECOMMENDER-v1')
+
+    # Append after a separator at the end
+    footer = '\n\n---\n\n' + '\n'.join(additions) + '\n'
+    return content.rstrip() + footer
+
+
+def normalize_metadata():
+    updated = 0
+
+    for path in sorted(REPORTS.glob('dfva-*.md')):
+        stem = path.stem
+        content = path.read_text()
+        original = content
+
+        if 'recommend' in stem:
+            slug = stem.replace('dfva-recommend-', '')
+            content = fix_recommend_metadata(slug, content)
+        elif 'market' in stem:
+            content = fix_market_metadata(content)
+        else:
+            slug = re.sub(r'^dfva-', '', stem)
+            content = fix_dfva_metadata(slug, content)
+
+        if content != original:
+            path.write_text(content)
+            print(f'  META FIXED: {stem}.md')
+            updated += 1
+
+    print(f'\nMetadata fixes applied to {updated} files.')
+
+
 if __name__ == "__main__":
     main()
+    normalize_metadata()

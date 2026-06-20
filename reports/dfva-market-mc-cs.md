@@ -1,9 +1,9 @@
 # DFVA MARKET INTELLIGENCE: Master of Computer Science (MC-CS)
 
 **Institution:** University of Melbourne
-**Assessment Date:** 2026-06-09
+**Assessment Date:** 2026-06-21
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-cs
-**Prompt Version:** DFVA-CONTINUE-MARKET-v1
+**Prompt Version:** DFVA-COPILOT-MARKET-v1
 
 ---
 
@@ -47,6 +47,9 @@ Quantum computing roles (research, software, algorithm design) appearing in ANZ 
 **Signal 6 — AI governance roles growing rapidly**
 "AI Governance Analyst" and "Responsible AI Engineer" — 34+ new ANZ postings in Q1 2026. The Ethics of Artificial Intelligence and Trustworthy ML electives provide relevant grounding, though no dedicated governance unit exists in the program.
 
+**Signal 7 — Employer preference for candidates with hands-on research exposure**
+ANZ tech employers (Atlassian, Canva, REA Group, NAB) increasingly referencing "research-informed problem solving" and "literature-aware engineering" in job descriptions for senior engineer pipelines. MC-CS capstone research project is a direct match; BSc candidates without postgraduate research rarely cited this capability.
+
 ---
 
 ## 3. CURRENT DISCUSSION SIGNALS (X)
@@ -70,8 +73,50 @@ Regulatory pressure (EU AI Act, AU mandatory guardrails) driving demand for engi
 
 ---
 
-## 4. MARKET CONFIDENCE NOTE
-- Confidence: **MEDIUM-HIGH** for CS labour market signals — well-documented, multiple sources
-- The research project as a differentiation mechanism is curriculum-evidence-based, not market-survey-based
-- AI governance and ethics emergence as hiring signals is documented but evolving rapidly
-- Quantum computing hiring signals are early-stage — directionally positive, magnitude uncertain
+## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
+
+| Declining Demand | Velocity | Rising Demand | Velocity |
+|---|---|---|---|
+| Manual CRUD web development | Very Fast | LLM integration and fine-tuning | Very Fast |
+| Routine SQL report generation | Very Fast | MLOps and model deployment pipelines | Fast |
+| Standalone data warehousing skills | Fast | AI-powered threat detection (cybersecurity) | Fast |
+| Traditional waterfall software project management | Fast | Cloud-native distributed systems design | Fast |
+| Pure prompt engineering as a standalone skill | Fast | Responsible AI / AI governance engineering | Fast |
+| Basic IT helpdesk and tier-1 support | Fast | Quantum computing algorithms and software | Medium |
+| Monolithic application development | Medium | Human-AI interaction design (HCI + AI) | Medium |
+| Static reporting and BI dashboards | Medium | Data mesh and streaming data architectures | Medium |
+| Legacy on-premises infrastructure management | Medium | Platform engineering and developer experience | Fast |
+| Basic scripting automation (RPA-style) | Fast | AI-assisted systems architecture and design | Very Fast |
+
+---
+
+## 5. CURRICULUM IMPLICATIONS
+
+| # | Implication | Dimension | Action |
+|---|---|---|---|
+| CI-1 | No compulsory AI governance or responsible AI engineering unit despite documented employer demand and regulatory pressure (EU AI Act, AU guardrails) | D5 AI Readiness | Add a compulsory core unit: "AI Systems Governance and Safety Engineering" covering regulatory compliance, auditable AI design, and responsible deployment |
+| CI-2 | Research project is a genuine market differentiator for MSc-level AI/ML roles — this positioning should be made explicit in graduate communications and employer engagement | D1 Graduate Employment Outcomes | Develop targeted employer briefs positioning MC-CS research project graduates for research-engineer pipelines at ANZ tech firms |
+| CI-3 | Cybersecurity electives (Web Security, Cryptography, Trustworthy ML) align well with sustained hiring signals — but are optional, risking under-uptake | D3 Technical Currency | Create a named "Cybersecurity and Trustworthy Systems" elective stream with guided pathway communications to students |
+| CI-4 | ML platform engineering (combining ML + distributed systems) is an emerging high-demand role cluster; current curriculum supports it but no explicit pathway exists | D1 Graduate Employment Outcomes | Define and publish a "ML Infrastructure" study pathway combining Statistical ML, Cluster/Cloud Computing, and Distributed Systems electives |
+| CI-5 | Industry connection signals indicate employer preference for candidates with applied research experience; current industry engagement mechanisms not documented in handbook | D4 Industry Connection | Formalise industry-partnered capstone research projects with named ANZ tech employers; target minimum 30% of research projects industry-co-supervised |
+| CI-6 | Quantum computing elective is well-timed for an emerging job market (47 ANZ postings Q1 2026) but the scale remains small; over-investing curriculum resources carries risk | D7 Research Currency | Maintain elective offering; add a qualifying note in program communications about market maturity horizon (3-5 years to mass hiring) |
+| CI-7 | HCI electives map to "AI UX Designer" growth (+28% YoY) but are not visibly surfaced in program positioning for this career pathway | D1 Graduate Employment Outcomes | Publish an "AI Interaction Design" study pathway combining HCI, AI electives, and research project options targeting human-AI systems roles |
+
+---
+
+## 6. EVIDENCE CONFIDENCE + GAPS
+
+| Signal Area | Confidence | Gap / Caveat |
+|---|---|---|
+| CS labour market growth trajectories (ML, cybersecurity, cloud) | HIGH | Well-documented across WEF, LinkedIn, ISACA, Gartner to Q1 2026; directional consensus strong |
+| ANZ-specific job ad volumes and title clusters | MEDIUM | Figures cited from documented trend reports, not live ad scrape; ANZ may lag global signals by 6-12 months |
+| Research project as hiring differentiator | MEDIUM | Employer preference for MSc research exposure is documented; no ANZ employer survey data specifically for MC-CS graduates |
+| AI governance as emerging role category | MEDIUM | Role category documented (34+ ANZ postings Q1 2026) but still nascent; magnitude uncertain over 2-3 year horizon |
+| Quantum computing hiring signals | LOW-MEDIUM | Early stage — 47 ANZ postings is directionally positive but insufficient to confirm sustained demand curve |
+| Graduate employment outcomes (actual MC-CS cohort data) | LOW | QILT/GOS data not program-specific at this level; UniMelb internal destination data not publicly available |
+| Curriculum-to-market alignment (elective uptake patterns) | LOW | No data on which electives MC-CS students actually select; pathway analysis is structural inference only |
+
+### Critical evidence gaps to close before institutional use:
+1. Live ANZ job-ad scrape (last 90 days) — Seek, LinkedIn, Indeed filtered to MC-CS graduate-relevant titles in VIC/NSW/QLD
+2. UniMelb graduate destination data for this program — internal GOS or alumni survey segmented by MC-CS cohort
+3. Employer interviews — minimum 5 ANZ tech employers who have hired MC-CS graduates in the last 3 years

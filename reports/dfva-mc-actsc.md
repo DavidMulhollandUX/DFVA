@@ -5,7 +5,7 @@
 
 **Assessment date:** 2026-06-08  
 **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-actsc  
-**Prompt version:** DFVA-CONTINUE-SLASH-v1
+**Prompt version:** DFVA-COPILOT-PROMPT-v1
 
 ### 1. PROGRAM PROFILE
 The Master of Actuarial Science is a 150-credit-point professional entry program providing the fastest graduate pathway to the actuarial profession. The curriculum comprises 6 compulsory core subjects, 2 capstone subjects, and 4 electives approved by the Program Director. Subjects follow a structured progression: Mathematics of Finance I→II→III across three semesters, Life Insurance Models 1→2 across two, with capstones in Life Contingencies and General Insurance Modelling.
@@ -98,7 +98,7 @@ They have added data analytics capability (Python, R, SQL at depth) that makes t
 
 **Assessment date:** 2026-06-08  
 **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-actsc  
-**Prompt version:** DFVA-CONTINUE-SLASH-v1
+**Prompt version:** DFVA-COPILOT-PROMPT-v1
 
 ### MARKET DATA
 | Metric | Value |

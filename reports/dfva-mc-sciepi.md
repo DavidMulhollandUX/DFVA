@@ -1,7 +1,7 @@
 # DFVA REPORT: Master of Science (Epidemiology)
 
 **Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years full-time / 4 years part-time
-**Assessment Date:** 2026-05-15 | **Source URL:** https://handbook.unimelb.edu.au/2025/courses/mc-sciepi | **Prompt Version:** DFVA-COPILOT-SKILL-v1
+**Assessment Date:** 2026-05-15 | **Source URL:** https://handbook.unimelb.edu.au/2025/courses/mc-sciepi | **Prompt Version:** DFVA-COPILOT-PROMPT-v1
 
 ---
 

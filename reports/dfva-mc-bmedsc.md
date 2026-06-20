@@ -9,6 +9,23 @@ The 200-credit-point program includes *Introduction to Biomedical Research* (com
 
 Typical graduate roles include research scientist, clinical trial coordinator, research officer in pharmaceutical/biotechnology companies, PhD candidate, and postdoctoral researcher. The program serves as the primary entry point to biomedical PhD programs in Australia and internationally.
 
+## 2. AUTOMATION EXPOSURE PROFILE
+
+| Task Category | Example Graduate Tasks | AI Pressure | AI Capability Today | Durability Rationale |
+|---|---|---|---|---|
+| Routine assay execution | Manual pipetting, ELISA, Western blot, PCR setup, sample processing according to established protocols | HIGH | Liquid handling robots (Hamilton, Tecan) and automated assay platforms already replace repetitive lab bench work at scale | Execution-layer tasks are the most vulnerable; graduates positioned at the research design layer are far more durable |
+| Histology & microscopy analysis | Manual cell counting, histological scoring, fluorescence image interpretation | HIGH | AI image analysis platforms (Ilastik, CellProfiler, HALO AI) automate quantification of standard microscopy outputs with high accuracy | Routine quantification is automatable; novel experimental interpretation and quality-control judgment remain human |
+| Data analysis & statistical reporting | Running standard statistical analyses on flow cytometry, qPCR, or proteomics datasets; generating results tables | MEDIUM | AI-assisted analysis tools (Seurat for single-cell, AI modules in FlowJo, automated bioinformatics pipelines) handle standard workflows | Non-standard datasets, hypothesis-driven interpretation, and cross-experiment reasoning still require trained scientific judgment |
+| Experimental design | Formulating research hypotheses, selecting controls, designing power calculations, sequencing experimental stages across semesters | LOW | AI can assist with literature synthesis and suggest precedent-based designs, but cannot generate defensible novel hypotheses or navigate ethical constraints | The 125pt research project develops this capacity over four semesters — it is the core irreplaceable output of this degree |
+| Literature review & synthesis | Surveying primary literature, identifying research gaps, writing literature review sections of a thesis | MEDIUM | AI tools (Elicit, Consensus, Semantic Scholar AI) accelerate scoping reviews and surface relevant papers, but synthesis of conflicting evidence requires expert judgment | Graduates who can critically evaluate AI-generated summaries against primary sources will be more productive, not displaced |
+| Scientific writing & communication | Drafting research manuscripts, thesis chapters, grant applications, conference abstracts | MEDIUM | LLMs assist with drafting and editing, but they cannot generate the novel scientific argument, defend the methodology, or respond to peer review | Scientific writing is moving toward human-AI collaboration; the critical thinking layer remains human |
+| Clinical trial coordination | Protocol administration, regulatory documentation, site management, adverse event recording for clinical or translational studies | LOW | Trial management software automates compliance tracking and scheduling; AI flags protocol deviations — but regulatory judgment and participant interaction are human | Human oversight, ethical governance, and participant relationships are structurally non-automatable in clinical research contexts |
+| Research translation & stakeholder engagement | Presenting research findings to non-specialist audiences, engaging with industry partners, applying findings to health outcomes (HLTH90021) | LOW | AI can summarise and simplify content, but cannot build trust with research partners, navigate institutional dynamics, or make strategic decisions about impact pathways | The Research to Impact unit develops exactly the human-relational layer that is hardest to automate |
+
+**Overall Section Exposure:** MEDIUM
+
+**Durability Assessment:** MC-BMEDSC graduates face meaningful AI pressure at the execution layer of laboratory work — routine assays, standard analyses, and image quantification are all subject to ongoing automation. However, the program's defining feature — a 125-credit-point sustained research project across four semesters — positions graduates primarily in the experimental design and scientific judgment layer, which is the most durable layer in biomedical research. The net automation exposure is medium rather than high precisely because the degree trains graduates to own the decisions that direct AI tools, not to execute the tasks those tools replace. The key vulnerability is the minority of graduates who exit into pure execution roles (research assistant, lab technician) without progressing to research design or clinical coordination positions.
+
 
 ###  3. DFVA SCORECARD
 | # | Dimension | Score | Rationale |
@@ -72,6 +89,12 @@ They understand how AI is transforming their specialisation: AlphaFold for struc
 They are positioned at the interface of laboratory expertise and computational analysis — they know when to trust the model and when to trust the bench result. In the AI era of biomedical science, that dual literacy is the rarest and most valuable combination.
 
 
+
+---
+
+**Assessment Date:** 2026-06-21
+**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-bmedsc
+**Prompt Version:** DFVA-COPILOT-PROMPT-v1
 ### MARKET DATA
 | Metric | Value |
 |--------|-------|

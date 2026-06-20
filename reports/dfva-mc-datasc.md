@@ -5,7 +5,7 @@
 
 **Assessment date:** 2026-06-08  
 **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-datasc  
-**Prompt version:** DFVA-CONTINUE-SLASH-v1
+**Prompt version:** DFVA-COPILOT-PROMPT-v1
 
 ### 1. PROGRAM PROFILE
 The Master of Data Science is a 200-credit-point professional entry program combining statistics and computer science in a single coordinated degree. Students are assigned to one of five background streams on admission (Foundation, Mixed, Statistics, Computer Science, or Data Science), which determines foundation requirements and available specialisations.
@@ -95,7 +95,7 @@ They have communicated statistical conclusions to people who are not statisticia
 
 **Assessment date:** 2026-06-08  
 **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-datasc  
-**Prompt version:** DFVA-CONTINUE-SLASH-v1
+**Prompt version:** DFVA-COPILOT-PROMPT-v1
 
 ### MARKET DATA
 | Metric | Value |
