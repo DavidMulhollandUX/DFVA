@@ -80,7 +80,7 @@ export default function WhyDFVA({ compact = false }: WhyDFVAProps) {
       )}
 
       <a
-        href="/market-position"
+        href="/insights"
         className="inline-flex items-center gap-1 text-xs font-medium text-primary hover:underline"
       >
         Learn more <span aria-hidden="true">→</span>

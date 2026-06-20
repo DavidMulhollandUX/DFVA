@@ -1,0 +1,8 @@
+{
+  "name": "dfva-source",
+  "version": "0.1.0",
+  "type": "module",
+  "exports": {
+    "./source/*": "./source/*"
+  }
+}

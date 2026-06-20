@@ -9,6 +9,7 @@ export interface AssessmentResult {
   thresholds: { q1: string; q2: string; q3: string };
   dimensions: { label: string; score: number; max: number }[];
   reportJson: Record<string, unknown>;
+  syllabusJson?: Record<string, any>;
 }
 
 export interface AssessmentService {

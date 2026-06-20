@@ -35,41 +35,7 @@ export interface MarketWindowData {
 // --- Validation Signals ---
 // Sourced from research-loop findings (2026-06-15 through 2026-06-18)
 
-export const validationSignals: ValidationSignalData[] = [
-  {
-    source: "ListEdTech",
-    excerpt:
-      "The higher education market is converging toward data-centric 'academic operations platforms' that integrate curriculum management, labour market analytics, and student success data. No single vendor currently owns the integrated analytics layer — this is the next frontier.",
-    url: "https://listedtech.com/reports/academic-operations-platforms-2025",
-    dateDiscovered: "2026-06-15",
-    credibilityScore: 5,
-    category: "market_convergence",
-    relevantClaim:
-      "Independent analyst confirms market convergence toward exactly what DFVA offers: an integrated analytics layer sitting above curriculum management.",
-  },
-  {
-    source: "RFP.wiki",
-    excerpt:
-      "Across 47 university RFPs for curriculum management platforms (2023–2026), reporting and analytics capabilities consistently rank in the top 3 pain points. Vendors acknowledge the gap but position it as 'on the roadmap.' Universities are buying workflow tools and discovering later that they can't answer strategic questions about program viability.",
-    url: "https://rfp.wiki/curriculum-platform-comparison-2026",
-    dateDiscovered: "2026-06-16",
-    credibilityScore: 4,
-    category: "analytics_gap",
-    relevantClaim:
-      "RFP data across 47 universities confirms the analytics gap DFVA fills is real, widespread, and consistently flagged as a top-3 pain point.",
-  },
-  {
-    source: "InnoTechToday",
-    excerpt:
-      "The next wave of edtech isn't about content delivery or LMS — it's about operational intelligence. Universities that lack a program-level analytics capability will struggle to justify curriculum investments to accreditors, government, and students. The market is open for a purpose-built curriculum analytics standard.",
-    url: "https://innotechtoday.com/edtech-2026-operational-intelligence",
-    dateDiscovered: "2026-06-18",
-    credibilityScore: 3,
-    category: "market_convergence",
-    relevantClaim:
-      "Trade publication identifies the exact market window DFVA targets: an independent, purpose-built curriculum analytics standard.",
-  },
-];
+export const validationSignals: ValidationSignalData[] = [];
 
 // --- Competitive Events ---
 // Key competitor movements affecting the market window

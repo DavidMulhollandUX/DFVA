@@ -6,6 +6,10 @@ import type {
   GetValidationSignals,
   GetCompetitiveEvents,
   GetMarketWindowStatus,
+  GetSyllabusMap,
+  UpdateCourseIntervention,
+  GetCourseInterventions,
+  UploadAlumniData,
 } from 'wasp/server/operations';
 import { getAssessmentService } from './assessmentService';
 
@@ -50,6 +54,7 @@ export const assessProgram: AssessProgram<{ handbookUrl: string }, AssessmentJob
           thresholds: result.thresholds as any,
           dimensions: result.dimensions as any,
           reportJson: result.reportJson as any,
+          syllabusJson: result.syllabusJson as any,
         },
       });
     })
@@ -135,3 +140,104 @@ export const getMarketWindowStatus: GetMarketWindowStatus<void, any | null> = as
     orderBy: { createdAt: 'desc' },
   });
 };
+
+export const getSyllabusMap: GetSyllabusMap<{ jobId: string }, any> = async (
+  { jobId },
+  context
+) => {
+  if (!context.user) throw new HttpError(401, 'Authentication required');
+
+  const job = await context.entities.AssessmentJob.findUnique({
+    where: { id: jobId },
+    select: { syllabusJson: true, userId: true },
+  });
+
+  if (!job) throw new HttpError(404, 'Assessment job not found');
+  if (job.userId !== context.user.id) {
+    throw new HttpError(403, 'Forbidden');
+  }
+
+  return job.syllabusJson;
+};
+
+export const updateCourseIntervention: UpdateCourseIntervention<
+  {
+    assessmentJobId: string;
+    courseCode: string;
+    dimensionId: number;
+    ownerName: string;
+    ownerEmail: string;
+    status: string;
+    targetDate?: string;
+  },
+  any
+> = async (args, context) => {
+  if (!context.user) throw new HttpError(401, 'Authentication required');
+
+  return context.entities.CourseInterventionOwner.upsert({
+    where: {
+      assessmentJobId_courseCode_dimensionId: {
+        assessmentJobId: args.assessmentJobId,
+        courseCode: args.courseCode,
+        dimensionId: args.dimensionId,
+      },
+    },
+    update: {
+      ownerName: args.ownerName,
+      ownerEmail: args.ownerEmail,
+      status: args.status,
+      targetDate: args.targetDate ? new Date(args.targetDate) : undefined,
+    },
+    create: {
+      assessmentJobId: args.assessmentJobId,
+      courseCode: args.courseCode,
+      dimensionId: args.dimensionId,
+      ownerName: args.ownerName,
+      ownerEmail: args.ownerEmail,
+      status: args.status,
+      targetDate: args.targetDate ? new Date(args.targetDate) : undefined,
+    },
+  });
+};
+
+export const getCourseInterventions: GetCourseInterventions<
+  { assessmentJobId: string },
+  any[]
+> = async ({ assessmentJobId }, context) => {
+  if (!context.user) throw new HttpError(401, 'Authentication required');
+
+  return context.entities.CourseInterventionOwner.findMany({
+    where: { assessmentJobId },
+  });
+};
+
+export const uploadAlumniData: UploadAlumniData<
+  {
+    programCode: string;
+    alumni: Array<{
+      jobTitle: string;
+      employer?: string;
+      graduationYear: number;
+      industryCluster: string;
+    }>;
+  },
+  any
+> = async ({ programCode, alumni }, context) => {
+  if (!context.user) throw new HttpError(401, 'Authentication required');
+  const userId = context.user.id;
+
+  const records = alumni.map((a) => ({
+    userId,
+    programCode,
+    graduationYear: a.graduationYear,
+    jobTitle: a.jobTitle,
+    employer: a.employer || null,
+    industryCluster: a.industryCluster,
+  }));
+
+  return context.entities.AlumniDestination.createMany({
+    data: records,
+  });
+};
+
+

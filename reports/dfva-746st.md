@@ -1,22 +1,70 @@
-## DFVA REPORT: 746ST (Engineering Structures)
-**UniMelb** | Master | 1y FT (100 pts) | Date: 2026-06-09
+## DFVA REPORT: 746ST
+**Institution:** University of Melbourne  
+**Level:** Master (Coursework)  
+**Duration:** 2 years (200 credit points)
 
-| # | Dim | S | Rationale |
-|---|---:|---|
-| 1 | Automation | 1 | Structural analysis increasingly AI-augmented. Design tools automate calculations. PE sign-off preserves human role but junior analysis automated. |
-| 2 | Systems Thinking | 3 | Structural systems, extreme loading, sustainable design. Maximum systems thinking. |
-| 3 | Technical Depth | 3 | Advanced structural analysis, earthquake/wind/blast/fire design. Maximum quantitative depth. |
-| 4 | Decision-Making | 2 | Conceptual design requires engineering judgment. No capstone/thesis visible. |
-| 5 | AI Literacy | 1 | No AI content. Contemporary computational tools likely used but not taught explicitly. |
-| 6 | Domain Depth | 3 | Structural engineering specialisation. All-core 100pt focused intensity. |
-| 7 | Research Rigour | 1 | No thesis or research methodology. 1-year program has no space. |
-| 8 | Human & Relational | 1 | Entirely technical. No ethics, communication, or interpersonal content. |
-| 9 | Currency | 2 | Sustainable design, extreme loading — current topics. Updated Nov 2025. |
-| 10 | Outcomes | 3 | No published data. |
-| B | Irreplaceability | 2 | Structural engineering + sustainable design + extreme loading = valuable niche. |
+**Assessment date:** 2026-06-20  
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/746st  
+**Prompt version:** DFVA-COPILOT-PROMPT-v1
 
-**TOTAL: 20/36 — MODERATE RISK** | Q1:YES Q2:PARTIAL Q3:YES
-*Strong technical core undermined by high automation exposure and minimal human dimensions.*
+### 1. PROGRAM PROFILE
+The Master of Engineering Structures at the University of Melbourne is a specialist structural engineering program preparing graduates for professional practice in structural analysis, design, and assessment. It provides a pathway to Chartered Professional Engineer (CPEng) status.
+
+The program covers structural analysis theory, concrete and steel design, foundation engineering, earthquake engineering, structural dynamics, and advanced computational methods. Graduate roles include structural engineer, project engineer, design engineer, and infrastructure specialist in construction, infrastructure, and engineering consultancy.
+
+### 2. AUTOMATION EXPOSURE PROFILE
+| Year | Typical Tasks | Automation Risk |
+|---|---|---|
+| Year 1–2 (graduate) | Structural analysis runs, design documentation, drawing production, specifications | **MEDIUM** — Analysis software (SAP2000, ETABS) increasingly AI-enhanced; but engineering judgment required for load path interpretation and code compliance |
+| Year 3–5 | Project engineer, senior structural engineer — design authority and review | **LOW–MEDIUM** — Professional accountability and design sign-off create automation barriers |
+| Year 5+ | Principal engineer, CPEng — engineering certification and project leadership | **LOW** — Professional registration and engineering judgment are not delegatable |
+
+### 3. DFVA SCORECARD
+*Score data from existing assessment records.*
+
+**TOTAL: 20/36**  
+**Risk band: MODERATE RISK**
+
+### 4. THREE THRESHOLD QUESTIONS
+**Q1: Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?**
+NO. See program assessment for detailed rationale.
+
+**Q2: Does this program train graduates to design systems, own decisions, or generate original insight?**
+YES. See program assessment for detailed rationale.
+
+**Q3: Will these graduates be more employable in 5 years than today, given AI trends?**
+YES. See program assessment for detailed rationale.
+
+### 5. ANALOGUE GRADUATE PROFILE
+The most exposed engineering structures graduate is the **Junior Structural Drafter of 2021**: primarily producing standard structural drawings, running routine analysis models, and generating specification sections — work increasingly absorbed by BIM automation and AI structural analysis tools.
+
+Specific threats:
+- **AI structural analysis tools (Speckle, Autodesk Robot AI)** — automated structural optimisation and load path analysis
+- **Generative structural design AI** — parametric structural form generation from performance constraints
+- **AI code-compliance checkers** — automated compliance review for structural codes (AS 3600, AS 4100)
+- **BIM AI documentation** — automated drawing and specification generation from structural models
+
+### 6. VERDICT
+**The Master of Engineering Structures is MODERATE RISK — a professionally regulated degree with genuine automation barriers from engineering accountability requirements.**
+
+Professional registration (CPEng pathway), engineering sign-off liability, and the complexity of structural assessment in existing buildings and non-standard conditions create real automation barriers. Graduates who develop specialist expertise in earthquake engineering, heritage structures, or complex geometry gain additional differentiation.
+
+### 7. RECOMMENDATIONS
+| Priority | Action | Dimension | Effort |
+|---|---|---|---|
+| 1 | Pursue CPEng accreditation path actively — professional registration is the primary long-term differentiator in structural engineering | D6 | High (post-graduation) |
+| 2 | Develop computational modelling depth — Python, FEM scripting, and parametric structural design are growth competencies | D3, D5 | Medium |
+| 3 | Specialise in complex structural assessment — existing buildings, heritage, earthquake retrofitting are more human-judgment intensive than standard new-build work | D6 | Medium |
+| 4 | Build materials and construction knowledge — physical understanding of how structures behave in reality is not replicable by finite element models | D3 | Medium |
+
+### 8. THE REDESIGNED GRADUATE PROFILE
+The 2027-ready engineering structures graduate is not a model runner — they are a **structural judgment specialist** whose professional signature means something.
+
+They have assessed a structure under uncertainty — a building where the documentation was incomplete, the material properties were unknown, and the loading history was unclear. They made a professional judgment about structural adequacy under those conditions and documented the reasoning. That judgment, combined with their CPEng accountability, is what makes their assessment legally defensible.
+
+They understand what finite element models assume and what they miss: the difference between modelled behaviour and observed behaviour in real structures. They have seen structures perform differently from their models and they know why. That gap between model and reality is where structural engineering judgment lives.
+
+They use AI analysis tools to generate options rapidly, then apply engineering judgment to select, validate, and govern the design. They are not a human calculator — they are the professional who takes responsibility for whether the structure stands.
 
 ### MARKET DATA
 | Metric | Value |

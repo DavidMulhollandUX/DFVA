@@ -1,26 +1,65 @@
 ## DFVA REPORT: MC-INDENG
-**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 pts)
-**Date:** 2026-06-09 | **Source:** handbook.unimelb.edu.au/2026/courses/mc-indeng
+**Institution:** University of Melbourne  
+**Level:** Master (Coursework)  
+**Duration:** 2 years (200 credit points)
 
-### SCORECARD
-| # | Dimension | S | Rationale |
+**Assessment date:** 2026-06-20  
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-indeng  
+**Prompt version:** DFVA-COPILOT-PROMPT-v1
+
+### 1. PROGRAM PROFILE
+The Master of Industrial Engineering at the University of Melbourne provides specialist training in operations research, supply chain management, manufacturing systems, quality engineering, and industrial optimisation. It is accredited by Engineers Australia.
+
+The program covers production planning, lean manufacturing, quality management, logistics and supply chain, and engineering project management. Graduate roles include industrial engineer, operations manager, supply chain analyst, process improvement specialist, and manufacturing systems engineer.
+
+### 2. AUTOMATION EXPOSURE PROFILE
+| Year | Typical Tasks | Automation Risk |
+|---|---|---|
+| Year 1–2 (graduate) | Industrial engineer, operations analyst — process analysis, optimisation modelling, quality management | **MEDIUM** — Process analysis and standard optimisation are AI-augmentable; system design and implementation require human judgment |
+| Year 3–5 | Operations manager, process improvement lead | **LOW–MEDIUM** — System ownership and operational decision-making |
+
+### 3. DFVA SCORECARD
+*Score data from existing assessment records.*
+
+**TOTAL: 22/36**  
+**Risk band: MODERATE RISK**
+
+### 4. THREE THRESHOLD QUESTIONS
+**Q1: Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?**
+NO. See program assessment for detailed rationale.
+
+**Q2: Does this program train graduates to design systems, own decisions, or generate original insight?**
+YES. See program assessment for detailed rationale.
+
+**Q3: Will these graduates be more employable in 5 years than today, given AI trends?**
+YES. See program assessment for detailed rationale.
+
+### 5. ANALOGUE GRADUATE PROFILE
+The most exposed industrial engineering graduate is the **Operations Analyst of 2021**: primarily conducting time-and-motion studies, building standard simulation models, and producing operations reports — work increasingly automated by AI operations platforms.
+
+Specific threats:
+- **AI operations platforms (Augury, Sight Machine)** — automated process monitoring and improvement recommendation
+- **AI simulation and optimisation tools** — automated discrete event simulation and production scheduling
+- **AI supply chain platforms (o9 Solutions, Blue Yonder AI)** — automated demand planning and inventory optimisation
+
+### 6. VERDICT
+**The Master of Industrial Engineering is MODERATE RISK — a professionally accredited degree with genuine systems complexity that resists pure automation.**
+
+Industrial engineering involves system design, trade-off optimisation, and operational judgment that AI tools augment but cannot replace. Engineers Australia accreditation provides professional credential protection. Graduates who develop AI system governance capability and specialise in complex system design are well-positioned.
+
+### 7. RECOMMENDATIONS
+| Priority | Action | Dimension | Effort |
 |---|---|---|---|
-| 1 | Automation Exposure | 1 | Early-career IE: process optimization, data analysis, simulation. AI increasingly automates these. Senior system design and manufacturing strategy resists. |
-| 2 | Systems Thinking | 3 | Industrial Systems and Simulation, Supply Chain, Sustainable/Life Cycle Engineering. System-level optimization is the program's defining strength. |
-| 3 | Technical Depth | 3 | Probability/Reliability/Quality, Optimisation for Industry, Manufacturing Processes, Automation & IT. Maximum quantitative and technical rigour. |
-| 4 | Decision-Making | 2 | Year-long Engineering Capstone + Design Practice. Engineering Practice hurdle requires real-world skills demonstration. |
-| 5 | AI Literacy | 2 | Industry Digital Transformation core subject. Manufacturing Automation & IT. Industry 4.0 adjacent, no explicit AI governance or strategy. |
-| 6 | Domain Depth | 3 | All-compulsory 175pt core. Industrial engineering domain from manufacturing to supply chain. Engineering Practice hurdle enforces professional depth. |
-| 7 | Research Rigour | 2 | Capstone project provides project-based research skills. No formal thesis but strong applied methodology. |
-| 8 | Human & Relational | 1 | Leadership and Strategy Execution available as electives only. Core is entirely technical. Ethical/professional practice only via Engineering Practice hurdle. |
-| 9 | Currency | 2 | Industry Digital Transformation + Sustainable Engineering — current topics. Updated Dec 2025. Forward-looking manufacturing focus. |
-| 10 | Outcomes | 3 | No published destination data. |
-| B | Irreplaceability | 2 | Industrial engineering + digital manufacturing creates industry-relevant combination. Systems optimization skills transfer across sectors. |
+| 1 | Develop AI and ML integration for industrial systems — AI-augmented operations are the growth area in industrial engineering | D5 | Medium |
+| 2 | Build complex system design capability beyond standard optimisation | D2 | High |
+| 3 | Pursue CPEng accreditation pathway | D6 | High (post-graduation) |
 
-**TOTAL: 22/36 — MODERATE RISK**
+### 8. THE REDESIGNED GRADUATE PROFILE
+The 2027-ready industrial engineering graduate is not a process analyst — they are a **systems engineer** who understands how complex production systems fail and what interventions actually improve them.
 
-### VERDICT
-This program's exceptional systems thinking (D2:3) and technical depth (D3:3) create genuine analytical capability. Industry Digital Transformation signals forward-looking curriculum design. The primary vulnerability is early-career automation exposure — AI increasingly handles the process optimization and simulation tasks that junior IEs perform. Strengthening the human/relational dimension and adding explicit AI governance would push this into RESILIENT territory. Q1=YES (early-career IE work automatable). Q2=YES (capstone builds decision ownership). Q3=YES (manufacturing + digital transformation = durable demand).
+They have designed a system change and measured whether it worked — not just whether the model said it would work, but whether the implementation achieved the expected outcome in the real production environment. They know the gap between the model and reality, and they know what closes that gap.
+
+They govern AI operations tools: they can evaluate whether an AI demand planning recommendation accounts for the specific constraints of their facility, override it when it doesn't, and document the operational reasoning. That governance layer is what makes them an engineer rather than a tool user.
 
 ### MARKET DATA
 | Metric | Value |

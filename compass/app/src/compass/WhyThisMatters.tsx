@@ -3,7 +3,7 @@ import {
   type ValidationSource,
   getValidationSources,
   getSourcesForTest,
-} from "../../shared/validationSources";
+} from "../shared/validationSources";
 
 function SourceCard({ source }: { source: ValidationSource }) {
   return (

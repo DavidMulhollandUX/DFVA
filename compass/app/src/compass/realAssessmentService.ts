@@ -2,6 +2,7 @@ import type { AssessmentService, AssessmentResult } from './assessmentService';
 import { PROGRAMS } from './sharedProgramData';
 import { runAssessmentPipeline } from './assessmentPipeline';
 import { StubLlmScorer } from './stubLlmScorer';
+import { generateMockSyllabus } from './mockSyllabusData';
 
 export class RealAssessmentService implements AssessmentService {
   async assess(handbookUrl: string): Promise<AssessmentResult> {
@@ -11,6 +12,7 @@ export class RealAssessmentService implements AssessmentService {
     );
 
     if (match) {
+      const syllabusJson = generateMockSyllabus(match.assessmentSlug);
       return {
         courseCode: match.assessmentSlug.replace('dfva-', '').toUpperCase(),
         programName: match.program,
@@ -19,6 +21,7 @@ export class RealAssessmentService implements AssessmentService {
         riskBand: match.riskBand,
         thresholds: match.thresholds,
         dimensions: match.dimensions,
+        syllabusJson: syllabusJson as any,
         reportJson: {
           assessmentSlug: match.assessmentSlug,
           marketSlug: match.marketSlug,

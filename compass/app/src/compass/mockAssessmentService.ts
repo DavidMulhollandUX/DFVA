@@ -1,6 +1,7 @@
 import type { AssessmentService, AssessmentResult } from './assessmentService';
 import { PROGRAMS } from './sharedProgramData';
 import { REPORT_CONTENT } from './reportContent';
+import { generateMockSyllabus } from './mockSyllabusData';
 
 export class MockAssessmentService implements AssessmentService {
   async assess(handbookUrl: string): Promise<AssessmentResult> {
@@ -17,6 +18,7 @@ export class MockAssessmentService implements AssessmentService {
 
     if (match) {
       const assessmentContent = REPORT_CONTENT[match.assessmentSlug];
+      const syllabusJson = generateMockSyllabus(match.assessmentSlug);
       
       return {
         courseCode: match.assessmentSlug.replace('dfva-', '').toUpperCase(),
@@ -26,6 +28,7 @@ export class MockAssessmentService implements AssessmentService {
         riskBand: match.riskBand,
         thresholds: match.thresholds,
         dimensions: match.dimensions,
+        syllabusJson: syllabusJson as any,
         reportJson: {
           assessmentMarkdown: assessmentContent?.markdown ?? '',
           assessmentSlug: match.assessmentSlug,
@@ -40,6 +43,7 @@ export class MockAssessmentService implements AssessmentService {
 
     // Unknown URL: fallback
     const courseCode = extractCourseCode(normalized) ?? 'UNKNOWN';
+    const syllabusJson = generateMockSyllabus(`dfva-${courseCode.toLowerCase()}`);
     return {
       courseCode,
       programName: `Program at ${new URL(handbookUrl).hostname}`,
@@ -60,6 +64,7 @@ export class MockAssessmentService implements AssessmentService {
         { label: "Outcome Evidence", score: 1, max: 3 },
         { label: "Irreplaceability (bonus)", score: 1, max: 3 },
       ],
+      syllabusJson: syllabusJson as any,
       reportJson: {
         assessmentMarkdown: `## DFVA Assessment: Pending\n\n**Source URL:** ${handbookUrl}\n\n_Automated assessment not yet available for this program. A detailed analysis will be generated soon._`,
         assessmentSlug: `dfva-${courseCode.toLowerCase()}`,

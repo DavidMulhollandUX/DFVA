@@ -349,11 +349,27 @@ query getAssessmentJob {
   entities: [AssessmentJob]
 }
 
-// Market Validation — feat-006
-route MarketPositionRoute { path: "/market-position", to: MarketValidationPage }
-page MarketValidationPage {
-  component: import MarketValidationPage from "@src/compass/MarketValidationPage"
+query getSyllabusMap {
+  fn: import { getSyllabusMap } from "@src/compass/operations",
+  entities: [AssessmentJob]
 }
+
+action updateCourseIntervention {
+  fn: import { updateCourseIntervention } from "@src/compass/operations",
+  entities: [CourseInterventionOwner]
+}
+
+query getCourseInterventions {
+  fn: import { getCourseInterventions } from "@src/compass/operations",
+  entities: [CourseInterventionOwner]
+}
+
+action uploadAlumniData {
+  fn: import { uploadAlumniData } from "@src/compass/operations",
+  entities: [User, AlumniDestination]
+}
+
+
 
 query getValidationSignals {
   fn: import { getValidationSignals } from "@src/compass/operations",
@@ -368,6 +384,17 @@ query getCompetitiveEvents {
 query getMarketWindowStatus {
   fn: import { getMarketWindowStatus } from "@src/compass/operations",
   entities: [MarketWindowSnapshot]
+}
+
+job marketDriftJob {
+  executor: PgBoss,
+  perform: {
+    fn: import { scanMarketDrift } from "@src/compass/marketDrift"
+  },
+  schedule: {
+    cron: "0 0 * * 0"
+  },
+  entities: [AssessmentJob, Logs]
 }
 //#endregion
 

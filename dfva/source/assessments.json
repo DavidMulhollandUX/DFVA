@@ -1,0 +1,61 @@
+[
+  {
+    "programCode": "mc-cs",
+    "programName": "Master of Computer Science",
+    "faculty": "Faculty of Engineering and Information Technology",
+    "level": "postgraduate",
+    "overallScore": 2.1,
+    "riskCategory": "MODERATE RISK",
+    "dimensions": [
+      {
+        "dimension": "AI Literacy",
+        "score": 2.5,
+        "maxScore": 3.0,
+        "criteria": [
+          "AI/ML units required in core",
+          "Practical AI project work",
+          "Ethics coverage"
+        ],
+        "notes": "Strong AI coverage with dedicated ML subjects and capstone project"
+      },
+      {
+        "dimension": "Labour Market Alignment",
+        "score": 2.0,
+        "maxScore": 3.0,
+        "criteria": [
+          "Industry placement availability",
+          "Advisory board input",
+          "Graduate employment rate"
+        ],
+        "notes": "Good employment outcomes but limited formal industry partnerships"
+      },
+      {
+        "dimension": "Interdisciplinary Integration",
+        "score": 1.5,
+        "maxScore": 3.0,
+        "criteria": [
+          "Cross-faculty electives",
+          "Breadth requirements",
+          "Joint programs"
+        ],
+        "notes": "Primarily technical focus; limited cross-disciplinary options"
+      },
+      {
+        "dimension": "Future-readiness",
+        "score": 2.3,
+        "maxScore": 3.0,
+        "criteria": [
+          "Emerging tech coverage",
+          "Curriculum refresh cycle",
+          "Industry trend alignment"
+        ],
+        "notes": "Regular curriculum updates but could accelerate emerging tech integration"
+      }
+    ],
+    "aiLiteracyScore": 2.5,
+    "labourMarketAlignment": 2.0,
+    "assessedAt": "2026-06-13T00:00:00Z",
+    "recommendationSummary": "Strengthen interdisciplinary options and formalise industry partnerships to move toward RESILIENT status.",
+    "marketReportPath": "/reports/mc-cs-market-report.md"
+  }
+]
