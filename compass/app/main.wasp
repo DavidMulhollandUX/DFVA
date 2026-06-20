@@ -348,6 +348,27 @@ query getAssessmentJob {
   fn: import { getAssessmentJob } from "@src/compass/operations",
   entities: [AssessmentJob]
 }
+
+// Market Validation — feat-006
+route MarketPositionRoute { path: "/market-position", to: MarketValidationPage }
+page MarketValidationPage {
+  component: import MarketValidationPage from "@src/compass/MarketValidationPage"
+}
+
+query getValidationSignals {
+  fn: import { getValidationSignals } from "@src/compass/operations",
+  entities: [MarketValidationSignal]
+}
+
+query getCompetitiveEvents {
+  fn: import { getCompetitiveEvents } from "@src/compass/operations",
+  entities: [CompetitiveEvent]
+}
+
+query getMarketWindowStatus {
+  fn: import { getMarketWindowStatus } from "@src/compass/operations",
+  entities: [MarketWindowSnapshot]
+}
 //#endregion
 
 //#region Contact Form Messages

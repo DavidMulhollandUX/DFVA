@@ -3,6 +3,9 @@ import type {
   AssessProgram,
   GetAssessmentJobs, 
   GetAssessmentJob,
+  GetValidationSignals,
+  GetCompetitiveEvents,
+  GetMarketWindowStatus,
 } from 'wasp/server/operations';
 import { getAssessmentService } from './assessmentService';
 
@@ -102,4 +105,33 @@ export const getAssessmentJob: GetAssessmentJob<{ id: string }, AssessmentJob | 
   }
 
   return job;
+};
+
+export const getValidationSignals: GetValidationSignals<void, any[]> = async (
+  _args,
+  context
+) => {
+  return context.entities.MarketValidationSignal.findMany({
+    where: { isActive: true },
+    orderBy: { credibilityScore: 'desc' },
+  });
+};
+
+export const getCompetitiveEvents: GetCompetitiveEvents<void, any[]> = async (
+  _args,
+  context
+) => {
+  return context.entities.CompetitiveEvent.findMany({
+    where: { isActive: true },
+    orderBy: { dateOccurred: 'desc' },
+  });
+};
+
+export const getMarketWindowStatus: GetMarketWindowStatus<void, any | null> = async (
+  _args,
+  context
+) => {
+  return context.entities.MarketWindowSnapshot.findFirst({
+    orderBy: { createdAt: 'desc' },
+  });
 };
