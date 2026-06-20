@@ -7,6 +7,7 @@ import { REPORT_CONTENT } from "./reportContent";
 import { PROGRAMS } from "./sharedProgramData";
 import { ProgramRadar } from "../client/components/ProgramRadar";
 import { WhyThisMatters } from "./WhyThisMatters";
+import WhyDFVA from "./WhyDFVA";
 
 const riskBandStyles: Record<string, string> = {
   RESILIENT:
@@ -345,6 +346,10 @@ export default function ReportDetailPage() {
           title="Why This Matters"
         />
       )}
+
+      <div className="mt-8 border-t border-border pt-8">
+        <WhyDFVA compact />
+      </div>
     </div>
   );
 }

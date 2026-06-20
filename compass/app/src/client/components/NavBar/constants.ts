@@ -4,10 +4,12 @@ export const marketingNavigationItems: NavigationItem[] = [
   { name: "Assess a Program", to: "/assess" },
   { name: "Reports", to: "/reports" },
   { name: "Insights", to: "/insights" },
+  { name: "Market Position", to: "/market-position" },
 ] as const;
 
 export const demoNavigationitems: NavigationItem[] = [
   { name: "Assess", to: "/assess" },
   { name: "Reports", to: "/reports" },
   { name: "Insights", to: "/insights" },
+  { name: "Market Position", to: "/market-position" },
 ] as const;
