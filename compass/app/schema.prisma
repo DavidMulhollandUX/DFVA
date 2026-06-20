@@ -132,3 +132,45 @@ model AssessmentJob {
   dimensions    Json?
   reportJson    Json?    // Full report content as JSON
 }
+
+// Market Validation — feat-006
+model MarketValidationSignal {
+  id              String   @id @default(uuid())
+  source          String   // "ListEdTech", "RFP.wiki", "InnoTechToday", etc.
+  excerpt         String   // Key claim or quote (max 500 chars)
+  url             String   // Link to original source
+  dateDiscovered  DateTime
+  credibilityScore Int    // 1-5
+  category        String   // "market_convergence", "analytics_gap", "data_architecture", etc.
+  relevantClaim   String   // 1-line summary of what this validates about DFVA
+  isActive        Boolean  @default(true)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}
+
+model CompetitiveEvent {
+  id                  String   @id @default(uuid())
+  competitor          String   // "Coursedog", "CourseLoop", "Modern Campus", "Curriculog"
+  eventType           String   // "PRODUCT_LAUNCH", "FUNDING", "PARTNERSHIP", "ACQUISITION", "ANNOUNCEMENT"
+  title               String
+  description         String
+  source              String   // URL or reference
+  url                 String?
+  dateOccurred        DateTime
+  dateDiscovered      DateTime
+  impactScore         Int      // 1-5
+  marketWindowEffect  String   // "OPENING", "NEUTRAL", "CLOSING"
+  isActive            Boolean  @default(true)
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+}
+
+model MarketWindowSnapshot {
+  id                  String   @id @default(uuid())
+  status              String   // "OPEN", "NARROWING", "CLOSED", "MISSED"
+  urgencyText         String   // 1-2 sentence assessment
+  keyThreats          Json     // e.g. ["Coursedog LMI shipping Q3 2026"]
+  recommendedActions  Json     // e.g. ["Accelerate DFVA market positioning"]
+  updatedAt           DateTime @updatedAt
+  createdAt           DateTime @default(now())
+}
