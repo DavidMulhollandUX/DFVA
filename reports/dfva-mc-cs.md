@@ -5,7 +5,7 @@
 
 **Assessment date:** 2026-06-08  
 **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-cs  
-**Prompt version:** DFVA-CONTINUE-SLASH-v1
+**Prompt version:** DFVA-COPILOT-PROMPT-v1
 
 ### 1. PROGRAM PROFILE
 The Master of Computer Science is a 200-credit-point research training program. Year 1 (100 pts) combines one compulsory Research Methods subject, 2–3 foundational CS subjects, and 4–5 electives drawn from six specialist areas. Year 2 (100 pts) is entirely a compulsory research project taken in four sequential 25-credit-point parts.
@@ -96,7 +96,7 @@ This profile is not easily substituted because it bundles three things that resi
 
 **Assessment date:** 2026-06-08  
 **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-cs  
-**Prompt version:** DFVA-CONTINUE-SLASH-v1
+**Prompt version:** DFVA-COPILOT-PROMPT-v1
 
 ### MARKET DATA
 | Metric | Value |

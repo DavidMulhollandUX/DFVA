@@ -348,6 +348,54 @@ query getAssessmentJob {
   fn: import { getAssessmentJob } from "@src/compass/operations",
   entities: [AssessmentJob]
 }
+
+query getSyllabusMap {
+  fn: import { getSyllabusMap } from "@src/compass/operations",
+  entities: [AssessmentJob]
+}
+
+action updateCourseIntervention {
+  fn: import { updateCourseIntervention } from "@src/compass/operations",
+  entities: [CourseInterventionOwner]
+}
+
+query getCourseInterventions {
+  fn: import { getCourseInterventions } from "@src/compass/operations",
+  entities: [CourseInterventionOwner]
+}
+
+action uploadAlumniData {
+  fn: import { uploadAlumniData } from "@src/compass/operations",
+  entities: [User, AlumniDestination]
+}
+
+
+
+query getValidationSignals {
+  fn: import { getValidationSignals } from "@src/compass/operations",
+  entities: [MarketValidationSignal]
+}
+
+query getCompetitiveEvents {
+  fn: import { getCompetitiveEvents } from "@src/compass/operations",
+  entities: [CompetitiveEvent]
+}
+
+query getMarketWindowStatus {
+  fn: import { getMarketWindowStatus } from "@src/compass/operations",
+  entities: [MarketWindowSnapshot]
+}
+
+job marketDriftJob {
+  executor: PgBoss,
+  perform: {
+    fn: import { scanMarketDrift } from "@src/compass/marketDrift"
+  },
+  schedule: {
+    cron: "0 0 * * 0"
+  },
+  entities: [AssessmentJob, Logs]
+}
 //#endregion
 
 //#region Contact Form Messages

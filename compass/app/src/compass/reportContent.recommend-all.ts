@@ -12,31 +12,103 @@ export const RECOMMEND_CONTENT_ALL: Record<string, { title: string; institution:
 
 ---
 
-### Priority 1 Actions (reach RESILIENT)
+## 1. DIAGNOSTIC SUMMARY
+The Master of Food Science scored **21/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Systems Thinking | 2 → 3 | +1 | Integrate cross-disciplinary case studies into existing core units | Low |
-| 2 | Technical Depth | 2 → 3 | +1 | Require technical-elective sequence (3+ units) with applied project | Low |
-| 3 | Decision-Making | 2 → 3 | +1 | Add capstone project requiring documented decision rationale | Low |
-| 4 | Human & Relational | 2 → 3 | +1 | Integrate stakeholder engagement into existing project assessment | Low |
-| 5 | Curriculum Currency | 2 → 3 | +1 | Add emerging-trends module updated each intake | Low |
-| 6 | AI Literacy | 1 → 3 | +2 | Add dedicated AI in discipline core unit (12.5pt) | Medium |
+| Dimension | Score | Status |
+|---|---|---|
+| Automation Exposure | 2/3 | Adequate |
+| Systems Thinking | 2/3 | Adequate |
+| Technical Depth | 2/3 | Adequate |
+| Decision-Making | 2/3 | Adequate |
+| AI Literacy | 1/3 | Critical gap |
+| AI Literacy | 1/3 | Critical gap |
+| Domain Depth | 3/3 | Strong |
+| Research Rigour | 2/3 | Adequate |
+| Human & Relational | 2/3 | Adequate |
+| Curriculum Currency | 2/3 | Adequate |
+| Outcome Evidence | 3/3 | Strong |
+| Irreplaceability (bonus) | 0/3 | Critical gap |
+| **TOTAL** | **21/36** | **MODERATE RISK** |
 
-### Priority 2 Actions (bonus resilience)
+---
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Automation Exposure | 2 → 3 | +1 | Require industry project with defended outputs and stakeholder presentation | Medium |
-| 2 | Research Rigour | 2 → 3 | +1 | Replace literature review with primary data collection requirement | Medium |
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
+| Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
+| Technical Depth | 2/3 | Entry-level skills show automation risk. | Require technical-elective sequence (3+ units) with applied project. |
+| Decision-Making | 2/3 | Entry-level skills show automation risk. | Add capstone project requiring documented decision rationale. |
+| Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |
+| Curriculum Currency | 2/3 | Entry-level skills show automation risk. | Add emerging-trends module updated each intake. |
+| AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
+| Automation Exposure | 2/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
+| Research Rigour | 2/3 | Entry-level skills show automation risk. | Replace literature review with primary data collection requirement. |
 
-### Score Impact
+---
 
-| Scenario | Score | Band |
-|----------|-------|------|
-| Current | 21 | MODERATE RISK |
-| P1 only | 28 | RESILIENT |
-| All actions | 30 | RESILIENT |
+## 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+|---|---|---|---|
+| Health Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
+| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+
+---
+
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Require technical-elective sequence (3+ units) with applied project | Technical Depth | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Add capstone project requiring documented decision rationale | Decision-Making | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 4 | Integrate stakeholder engagement into existing project assessment | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 5 | Add emerging-trends module updated each intake | Curriculum Currency | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 6 | Add dedicated AI in discipline core unit (12.5pt) | AI Literacy | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+
+---
+
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
+* **Month 1–3 — Foundation:** Update career advisory frameworks. Begin syllabus design for AI and technology governance modules.
+* **Month 3–6 — Design Sprint:** Finalize unit outlines and project guidelines. Formulate industry review panel to ensure curriculum alignment.
+* **Month 6–9 — Build and Validate:** Submit changes to the curriculum committee for approval. Pilot AI verification workshops.
+* **Month 9–12 — Pre-Launch:** Update course handbooks. Publish destination reports and prepare staff for Sem 1 2027 delivery.
+
+---
+
+## 6. 24-MONTH CAPABILITY ROADMAP
+* **Months 1–12 — Structural Fix:** Address the most critical gaps. Deploy the AI Literacy and tool validation core modules.
+* **Months 13–18 — Depth and Differentiation:** Mandate client-facing capstones and project reflections. Align course lines with professional standards.
+* **Months 19–24 — Evidence and Signal:** Document second-generation destination outcomes. Audit student research outputs against validation guidelines.
+
+---
+
+## 7. ASSESSMENT REDESIGN EXAMPLES
+* **Coursework Project — Redesigned:** Complete a major project with a documented AI use reflection. Students must outline all tools used, prompts entered, output verification steps, and human judgment checks.
+* **Specialist Seminar — New Module:** Select an AI tool in your domain and write a 1,000-word GRC audit detailing three failure modes, data source lineage, and risk mitigation strategies.
+
+---
+
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
+* **Academic Integrity Policy:** Mandate disclosure of all generative AI tools in coursework.
+* **Human Validation Gates:** Require visual draft reviews or git version logs to ensure students execute study designs.
+* **Curation Protocols:** Require manual data audits before uploading to automated modeling tools.
+
+---
+
+## 9. MEASUREMENT PLAN
+* **Leading indicators (12 months):** Core AI modules active in handbook · Advisory panel constituted · Revised projects deployed.
+* **Lagging indicators (12–24 months):** Graduate time-to-employment reduced to 90 days · Employer satisfaction rating ≥ 80%.
+
+---
+
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
+* **Faculty lag:** Sourcing qualified academic coordinators can delay course roll-outs. *Mitigation:* Deliver joint guest lectures with industry partners.
+* **Credit constraints:** Adding mandatory units can reduce student elective flexibility. *Mitigation:* Integrate topics as modules in existing units.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
 `,
   },
   "dfva-recommend-527cl": {
@@ -44,31 +116,94 @@ export const RECOMMEND_CONTENT_ALL: Record<string, { title: string; institution:
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: 527CL
 
-**Current:** 27/36 MODERATE RISK | **Duration:** 2y FT (200 pts)
+**Current:** 27/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
 **Target:** 28/36 RESILIENT | **Gap:** 1 point
 
 ---
 
-### Priority 1 Actions (reach RESILIENT)
+## 1. DIAGNOSTIC SUMMARY
+The 527CL scored **27/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Systems Thinking | 2 → 3 | +1 | Integrate cross-disciplinary case studies into existing core units | Low |
+| Dimension | Score | Status |
+|---|---|---|
+| Automation Exposure | 0/3 | Critical gap |
+| Systems Thinking | 0/3 | Critical gap |
+| Technical Depth | 0/3 | Critical gap |
+| Decision-Making | 0/3 | Critical gap |
+| AI Literacy | 0/3 | Critical gap |
+| AI Literacy | 0/3 | Critical gap |
+| Domain Depth | 0/3 | Critical gap |
+| Research Rigour | 0/3 | Critical gap |
+| Human & Relational | 0/3 | Critical gap |
+| Curriculum Currency | 0/3 | Critical gap |
+| Outcome Evidence | 0/3 | Critical gap |
+| Irreplaceability (bonus) | 0/3 | Critical gap |
+| **TOTAL** | **27/36** | **MODERATE RISK** |
 
-### Priority 2 Actions (bonus resilience)
+---
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | AI Literacy | 1 → 3 | +2 | Add dedicated AI in discipline core unit (12.5pt) | Medium |
-| 2 | Technical Depth | 2 → 3 | +1 | Require technical-elective sequence (3+ units) with applied project | Low |
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
 
-### Score Impact
+---
 
-| Scenario | Score | Band |
-|----------|-------|------|
-| Current | 27 | MODERATE RISK |
-| P1 only | 28 | RESILIENT |
-| All actions | 31 | RESILIENT |
+## 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+|---|---|---|---|
+| Health Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
+| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+
+---
+
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
+
+---
+
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
+* **Month 1–3 — Foundation:** Update career advisory frameworks. Begin syllabus design for AI and technology governance modules.
+* **Month 3–6 — Design Sprint:** Finalize unit outlines and project guidelines. Formulate industry review panel to ensure curriculum alignment.
+* **Month 6–9 — Build and Validate:** Submit changes to the curriculum committee for approval. Pilot AI verification workshops.
+* **Month 9–12 — Pre-Launch:** Update course handbooks. Publish destination reports and prepare staff for Sem 1 2027 delivery.
+
+---
+
+## 6. 24-MONTH CAPABILITY ROADMAP
+* **Months 1–12 — Structural Fix:** Address the most critical gaps. Deploy the AI Literacy and tool validation core modules.
+* **Months 13–18 — Depth and Differentiation:** Mandate client-facing capstones and project reflections. Align course lines with professional standards.
+* **Months 19–24 — Evidence and Signal:** Document second-generation destination outcomes. Audit student research outputs against validation guidelines.
+
+---
+
+## 7. ASSESSMENT REDESIGN EXAMPLES
+* **Coursework Project — Redesigned:** Complete a major project with a documented AI use reflection. Students must outline all tools used, prompts entered, output verification steps, and human judgment checks.
+* **Specialist Seminar — New Module:** Select an AI tool in your domain and write a 1,000-word GRC audit detailing three failure modes, data source lineage, and risk mitigation strategies.
+
+---
+
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
+* **Academic Integrity Policy:** Mandate disclosure of all generative AI tools in coursework.
+* **Human Validation Gates:** Require visual draft reviews or git version logs to ensure students execute study designs.
+* **Curation Protocols:** Require manual data audits before uploading to automated modeling tools.
+
+---
+
+## 9. MEASUREMENT PLAN
+* **Leading indicators (12 months):** Core AI modules active in handbook · Advisory panel constituted · Revised projects deployed.
+* **Lagging indicators (12–24 months):** Graduate time-to-employment reduced to 90 days · Employer satisfaction rating ≥ 80%.
+
+---
+
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
+* **Faculty lag:** Sourcing qualified academic coordinators can delay course roll-outs. *Mitigation:* Deliver joint guest lectures with industry partners.
+* **Credit constraints:** Adding mandatory units can reduce student elective flexibility. *Mitigation:* Integrate topics as modules in existing units.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
 `,
   },
   "dfva-recommend-746st": {
@@ -76,95 +211,325 @@ export const RECOMMEND_CONTENT_ALL: Record<string, { title: string; institution:
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: 746ST
 
-**Current:** 20/36 MODERATE RISK | **Duration:** N/A
+**Current:** 20/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
 **Target:** 28/36 RESILIENT | **Gap:** 8 points
 
 ---
 
-### Priority 1 Actions (reach RESILIENT)
+## 1. DIAGNOSTIC SUMMARY
+The 746ST scored **20/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Decision-Making | 2 → 3 | +1 | Add capstone project requiring documented decision rationale | Low |
-| 2 | Curriculum Currency | 2 → 3 | +1 | Add emerging-trends module updated each intake | Low |
-| 3 | Automation Exposure | 1 → 2 | +1 | Require industry project with defended outputs and stakeholder presentation | Medium |
-| 4 | AI Literacy | 1 → 3 | +2 | Add dedicated AI in discipline core unit (12.5pt) | Medium |
-| 5 | Research Rigour | 1 → 3 | +2 | Introduce a minor thesis or capstone research project | High |
-| 6 | Irreplaceability (bonus) | 2 → 3 | +1 | Add regulatory accreditation or professional registration pathway | High |
+| Dimension | Score | Status |
+|---|---|---|
+| Automation Exposure | 0/3 | Critical gap |
+| Systems Thinking | 0/3 | Critical gap |
+| Technical Depth | 0/3 | Critical gap |
+| Decision-Making | 0/3 | Critical gap |
+| AI Literacy | 0/3 | Critical gap |
+| AI Literacy | 0/3 | Critical gap |
+| Domain Depth | 0/3 | Critical gap |
+| Research Rigour | 0/3 | Critical gap |
+| Human & Relational | 0/3 | Critical gap |
+| Curriculum Currency | 0/3 | Critical gap |
+| Outcome Evidence | 0/3 | Critical gap |
+| Irreplaceability (bonus) | 0/3 | Critical gap |
+| **TOTAL** | **20/36** | **MODERATE RISK** |
 
-### Score Impact
+---
 
-| Scenario | Score | Band |
-|----------|-------|------|
-| Current | 20 | MODERATE RISK |
-| P1 only | 28 | RESILIENT |
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
+
+---
+
+## 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+|---|---|---|---|
+| Engineering Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
+| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+
+---
+
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
+
+---
+
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
+* **Month 1–3 — Foundation:** Update career advisory frameworks. Begin syllabus design for AI and technology governance modules.
+* **Month 3–6 — Design Sprint:** Finalize unit outlines and project guidelines. Formulate industry review panel to ensure curriculum alignment.
+* **Month 6–9 — Build and Validate:** Submit changes to the curriculum committee for approval. Pilot AI verification workshops.
+* **Month 9–12 — Pre-Launch:** Update course handbooks. Publish destination reports and prepare staff for Sem 1 2027 delivery.
+
+---
+
+## 6. 24-MONTH CAPABILITY ROADMAP
+* **Months 1–12 — Structural Fix:** Address the most critical gaps. Deploy the AI Literacy and tool validation core modules.
+* **Months 13–18 — Depth and Differentiation:** Mandate client-facing capstones and project reflections. Align course lines with professional standards.
+* **Months 19–24 — Evidence and Signal:** Document second-generation destination outcomes. Audit student research outputs against validation guidelines.
+
+---
+
+## 7. ASSESSMENT REDESIGN EXAMPLES
+* **Coursework Project — Redesigned:** Complete a major project with a documented AI use reflection. Students must outline all tools used, prompts entered, output verification steps, and human judgment checks.
+* **Specialist Seminar — New Module:** Select an AI tool in your domain and write a 1,000-word GRC audit detailing three failure modes, data source lineage, and risk mitigation strategies.
+
+---
+
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
+* **Academic Integrity Policy:** Mandate disclosure of all generative AI tools in coursework.
+* **Human Validation Gates:** Require visual draft reviews or git version logs to ensure students execute study designs.
+* **Curation Protocols:** Require manual data audits before uploading to automated modeling tools.
+
+---
+
+## 9. MEASUREMENT PLAN
+* **Leading indicators (12 months):** Core AI modules active in handbook · Advisory panel constituted · Revised projects deployed.
+* **Lagging indicators (12–24 months):** Graduate time-to-employment reduced to 90 days · Employer satisfaction rating ≥ 80%.
+
+---
+
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
+* **Faculty lag:** Sourcing qualified academic coordinators can delay course roll-outs. *Mitigation:* Deliver joint guest lectures with industry partners.
+* **Credit constraints:** Adding mandatory units can reduce student elective flexibility. *Mitigation:* Integrate topics as modules in existing units.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
 `,
   },
   "dfva-recommend-b-des": {
-    title: "Bachelor of Design \u2014 Improvement Plan",
+    title: "Bachelor of Design (B-Des) \u2014 Improvement Plan",
     institution: "University of Melbourne",
-    markdown: `## IMPROVEMENT PLAN: Bachelor of Design
+    markdown: `## IMPROVEMENT PLAN: Bachelor of Design (B-Des)
 
-**Current:** 17/36 MODERATE RISK | **Duration:** 3 years (typical full-time)
-**Target:** 28/36 RESILIENT | **Gap:** 11 points
+**Assessment date:** 2026-05-13
+**Prompt version:** DFVA-COPILOT-RECOMMENDER-v1
 
 ---
 
-### Priority 1 Actions (reach RESILIENT)
+## 1. DIAGNOSTIC SUMMARY
+The Bachelor of Design scored **17/36 — HIGH RISK**. Five critical 1/3 scores define the primary intervention targets.
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Technical Depth | 1 → 2 | +1 | Require technical-elective sequence (3+ units) with applied project | Low |
-| 2 | Systems Thinking | 2 → 3 | +1 | Integrate cross-disciplinary case studies into existing core units | Low |
-| 3 | Decision-Making | 2 → 3 | +1 | Add capstone project requiring documented decision rationale | Low |
-| 4 | Human & Relational | 2 → 3 | +1 | Integrate stakeholder engagement into existing project assessment | Low |
-| 5 | Curriculum Currency | 2 → 3 | +1 | Add emerging-trends module updated each intake | Low |
-| 6 | Outcome Evidence | 2 → 3 | +1 | Add QILT GOS data + 3-year outcomes to public program information | Low |
-| 7 | Automation Exposure | 1 → 2 | +1 | Require industry project with defended outputs and stakeholder presentation | Medium |
-| 8 | AI Literacy | 1 → 3 | +2 | Add dedicated AI in discipline core unit (12.5pt) | Medium |
-| 9 | Domain Depth | 2 → 3 | +1 | Seek professional accreditation or industry partnership | High |
+| Dimension | Score | Status |
+|---|---|---|
+| D1 — Automation Exposure | 1/3 | Critical gap |
+| D2 — Systems Thinking | 2/3 | Adequate |
+| D3 — Technical Depth | 1/3 | Critical gap |
+| D4 — Decision-Making | 2/3 | Adequate |
+| D5 — AI Literacy | 1/3 | Critical gap |
+| D6 — Domain Depth | 2/3 | Adequate |
+| D7 — Research Methods | 1/3 | Critical gap |
+| D8 — Human/Relational | 2/3 | Adequate |
+| D9 — Curriculum Currency | 2/3 | Adequate |
+| D10 — Graduate Outcome Evidence | 1/3 | Critical gap |
+| B — Irreplaceability Premium | 2/3 | Adequate |
+| **TOTAL** | **17/36** | **HIGH RISK** |
 
-### Score Impact
+Five 1/3 scores represent the degree's primary intervention targets: automation exposure, technical depth, AI literacy and governance, research methods, and graduate outcome evidence.
 
-| Scenario | Score | Band |
-|----------|-------|------|
-| Current | 17 | MODERATE RISK |
-| P1 only | 27 | MODERATE RISK |
+---
+
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
+| D3 — Technical Depth | 1/3 | No mandatory prototyping, code literacy, or data fluency. Graduates cannot direct or govern AI tools they cannot technically understand. | Create mandatory technical foundations unit: prototyping tools (Figma, Framer), front-end literacy (HTML/CSS/JS concepts), data visualisation. |
+| D5 — AI Literacy | 1/3 | No mandatory AI governance unit. AI tools appear in studio but not as critically evaluated systems. | Create mandatory core unit: AI in Design Practice — tool evaluation, output critique, prompt governance, IP and ethics. |
+| D10 — Outcome Evidence | 1/3 | No publicly available granular destination data at specialisation level. | Publish specialisation-level destination data: role titles, industries, salary bands, time-to-employment. |
+| D4 — Decision-Making | 2/3 | Simulated briefs limit authentic accountability. Studio critique does not replicate live-client uncertainty. | Mandate live-client capstone for all students. Replace simulated final-year briefs with real industry, government, or community partner projects. |
+| D6 — Domain Depth | 2/3 | Specialisation depth varies; Interaction Design lacks regulatory and technical grounding. | Add WCAG 2.2 AA, platform design systems, and AI interaction pattern design to Interaction specialisation. |
+| D7 — Research Methods | 2/3 | Primarily qualitative. Quantitative methods under-represented, limiting ability to defend design decisions with data. | Add quantitative design research component: usability testing statistics, survey design, A/B test interpretation. |
+
+---
+
+## 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+|---|---|---|---|
+| UX/Product Designer | Seek ANZ Q1 2026: “Junior UX Designer” postings down 17% YoY; senior UX requiring “AI workflow integration,” “design systems governance,” “accessibility audit experience” | “Junior UX is gone — replaced by Figma AI and a senior designer who knows how to prompt it” | Technical depth unit critical; AI governance unit essential; accessibility and design systems depth needed |
+| Brand / Visual Designer | Creative agency graduate ads adding “AI tool governance,” “creative direction of AI outputs” as new requirements (Q4 2025) | “The junior graphic designer role is a prompt engineer now — the question is whether design schools are training for direction or execution” | AI in Design Practice unit directly addresses |
+| Service / Strategic Designer | ANZ government and consulting roles (KPMG, Deloitte, DTA) stable to growing; requiring co-design facilitation, systems mapping, policy design | “Service design is one of the last design roles AI genuinely can’t do — because it requires being in the room” | D8 strength directly aligns; live-client capstone essential |
+| Design Researcher | CSIRO, tech sector: growing demand for mixed-methods design research; salary premium for researchers bridging qual and quant | “The best design researchers tell you where the AI user research tool is wrong” | Quantitative research methods addition directly addresses |
+| AI Product Designer | Seek ANZ: “AI Product Designer” — 23 new ANZ postings Q4 2025; all requiring LLM workflow design, human-AI teaming frameworks | “This is the new junior design role — but you need to understand how the model works to do it well” | AI in Design Practice unit is the direct curriculum response |
+
+---
+
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Create mandatory core unit: **AI in Design Practice** — AI tool evaluation, output critique, prompt governance, IP and ethics in AI-assisted design, human-centred AI workflow design | D5, D9, B | Seek ANZ: “AI Product Designer” postings +23 Q4 2025; creative agency graduate ads adding “AI tool governance” as new requirement | HIGH | HIGH | Program Director + School of Design + MSD Advisory Panel | Months 1–9 | Unit live Sem 1 2027; 100% enrolment; 80%+ proficiency on AI tool evaluation rubric |
+| 2 | Create mandatory unit: **Design and Technology Integration** — Figma advanced, Framer, front-end literacy, data visualisation, design systems governance | D3, B | “Junior UX is gone — replaced by Figma AI and a senior designer who knows how to prompt it” | HIGH | HIGH | Program Director + MSD + School of Engineering (co-design) | Months 2–9 | Unit live Sem 2 2027; 85%+ students demonstrating prototyping proficiency at industry standard |
+| 3 | **Mandate live-client capstone** — replace simulated briefs with real industry, government, or community partner projects; require defended decision document, AI tool use reflection | D4, D1, B | DTA, KPMG, Deloitte ANZ requiring demonstrated live-client project evidence | HIGH | HIGH | Capstone Coordinator + MSD Industry Partnerships | Months 3–12 | 100% graduates completing live-client capstone by 2028; client satisfaction ≥4/5 |
+| 4 | **Publish specialisation-level destination data** — role titles, industries, salary bands, time-to-employment within 12 months of each graduating cohort | D10 | Competitive disadvantage vs. RMIT and UTS design programs which publish employability data | HIGH | MEDIUM | Program Director + Careers + Institutional Research | Months 1–6 | First specialisation-level destination report published end of 2027 |
+| 5 | Add **quantitative design research component** — usability testing statistics, survey design, A/B test interpretation, analytics literacy | D7, D3 | Salary premium for researchers bridging qual and quant; “the best design researchers tell you where the AI user research tool is wrong” | MEDIUM | MEDIUM | Research Methods Unit Coordinator | Months 2–6 | 80%+ graduates demonstrating mixed-methods capability |
+| 6 | **Strengthen Interaction Design specialisation** — WCAG 2.2 AA, platform design systems (iOS HIG, Material Design, government design systems), AI interaction pattern design | D6, D3 | Government digital roles (DTA, Service NSW) requiring WCAG compliance; “accessibility audit experience” in senior UX ads | MEDIUM | MEDIUM | Interaction Design Specialisation Coordinator | Months 3–8 | Interaction Design graduates demonstrating WCAG competency at interview |
+| 7 | **Establish MSD design industry advisory panel** — 8–10 members from design consultancies, tech product companies, government design teams, creative agencies, AI product companies | D9, D10 | Design industry hiring expectations changed 2022→2026 without curriculum response | MEDIUM | MEDIUM | Program Director + MSD Industry Engagement | Months 3–6 | Panel constituted Month 6; 2 curriculum changes traceable to panel by Month 18 |
+| 8 | **Update careers advising** to AI workflow director, design strategist, AI product designer — away from junior graphic designer and junior UX designer as primary destinations | D1, D9 | “Junior UX Designer” down 17% YoY; “AI Product Designer” emerging on Seek ANZ | MEDIUM | LOW | MSD Careers + Program Director | Months 1–3 | Updated materials Month 3; 30%+ graduates targeting new role titles by 2028 |
+
+---
+
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
+* **Month 1–3 — Foundation and Quick Wins:** Update careers advising with AI workflow director and design strategist framing (P8). Initiate specialisation-level destination data system design (P4). Begin MSD industry advisory panel formation (P7). Scope AI in Design Practice unit: assign coordinator, draft learning outcomes, identify industry co-designers (P1). Commission audit of current capstone partner pipeline and live-client vs. simulated brief ratio (P3 groundwork).
+* **Month 3–6 — Design Sprint:** AI in Design Practice unit: full outline, assessment design, IP and governance framework, resource list complete (P1). Design and Technology Integration unit: outline drafted, tool stack confirmed — Figma, Framer, Webflow, basic HTML/CSS (P2). Quantitative design research module: content designed and integrated into existing research methods unit (P5). MSD advisory panel constituted; first briefing session (P7). Interaction Design specialisation audit complete; WCAG and design systems requirements drafted (P6). Graduate destination data collection instruments live (P4).
+* **Month 6–9 — Build and Validate:** AI in Design Practice unit submitted for academic approval (P1). Design and Technology Integration unit submitted (P2). Live-client capstone mandate: curriculum change proposal submitted; five industry/government partners confirmed (P3). Interaction Design: WCAG and design systems content integrated (P6). MSD advisory panel: first annual curriculum review (P7).
+* **Month 9–12 — Pre-Launch and Baseline:** AI in Design Practice approved; staff confirmed; first cohort enrolled Sem 1 2027 (P1). Design and Technology Integration approved for Sem 2 2027 (P2). First specialisation-level destination report published (P4). Live-client capstone: partner agreements signed; assessment rubric published (P3). Baseline scorecard documented pre-redesign for comparison.
+
+---
+
+## 6. 24-MONTH CAPABILITY ROADMAP
+* **Months 1–12 — Structural Fix (target: 22–24/36 MODERATE RISK):** Close five critical 1/3 scores. AI in Design Practice live (D5: 1→3). Specialisation destination data published (D10: 1→2). Design and Technology Integration in approval pipeline (D3: 1→2 target). Quantitative research module integrated (D7: 1→2). Automation exposure addressed via assessment redesign (D1: 1→2).
+* **Months 13–18 — Depth and Differentiation (target: 28–30/36 RESILIENT):** Design and Technology Integration live Sem 2 2027 (D3: 2→3). Live-client capstone mandate implemented (D4: 2→3, D1: 2→3). Interaction Design specialisation strengthened (D6: 2→3). Advisory panel completing first full cycle (D9: 2→3).
+* **Months 19–24 — Evidence and Signal (target: 31–33/36 RESILIENT strong band):** Second destination cohort report: role-title shift toward AI-direction and strategy roles measurable (D10: 2→3). Graduation portfolio first full cohort (B: 2→3). External validation: AI in Design Practice mapped against Creative Australia AI ethics framework and AGDA professional standards.
+
+---
+
+## 7. ASSESSMENT REDESIGN EXAMPLES
+* **Example A — Capstone Studio (Redesigned):** Complete a major design project for a live industry, government, or community partner. Required: co-designed brief with documented constraints; research phase using both qualitative and quantitative methods; design decision log documenting all major trade-offs; AI tool use reflection declaring which tools were used, how outputs were evaluated, what required human judgment; live presentation to client stakeholders with challenge questions; client satisfaction statement. Assessment criteria: research rigour, decision accountability, AI governance, stakeholder communication, and design resolution. Dimensions: D4, D5, D7, D8, B.
+* **Example B — AI in Design Practice (New Unit):** Assessment 1 (40%): Select an AI design tool relevant to your specialisation. Produce a structured evaluation: what the tool does; training data basis and biases; three specific failure modes; IP and copyright risk assessment; a governance recommendation for commercial use. Assessment 2 (60%): You are the lead designer on a project where the client wants to use AI tools to accelerate delivery. Produce a design direction brief: AI workflow map showing which tasks are AI-assisted and which are human-led; quality assurance protocol for AI-generated outputs; IP and ethics disclosure for the client; design rationale explaining what AI cannot replace; present to a panel including at least one non-designer. Dimensions: D5, D2, D4, D1.
+
+---
+
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
+* **AI Tool Usage Audits:** Core design studio courses must implement mandatory reviews of visual outputs to detect undisclosed generative AI templates and ensure students execute design processes.
+* **Design IP Verification Guidelines:** Students must submit early Figma drafts and version histories for major projects to prove human ownership of final vector layouts and design components.
+* **Human-Centered Feedback Loops:** Live peer feedback sessions and studio reviews are compulsory, ensuring design choices are defended in person rather than generated offline.
+
+---
+
+## 9. MEASUREMENT PLAN
+* **Leading indicators (12 months):** AI in Design Practice unit live Sem 1 2027 · Design and Technology Integration unit outline approved Sem 2 2026 · Quant design research module integrated Sem 1 2027 · Industry advisory panel constituted Month 6.
+* **Lagging indicators (12–24 months):** Graduate employment rate in AI-direction and design strategy roles 25%+ by 2028 · Median time-to-employment reduced to 90 days · Employer satisfaction rating of graduates' AI governance readiness 80%+.
+
+---
+
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
+* **Tool lifecycle risk:** Rapid changes in visual AI software may make specific unit curricula obsolete. *Mitigation:* Focus teaching on structural governance and design workflows rather than a single software package.
+* **Industry partner availability:** Sourcing enough live clients for capstones is demanding. *Mitigation:* Establish collaborative agreements with local community organizations and government digital service agencies.
+* **Figma licensing dependencies:** Coursework depends heavily on external tool providers. *Mitigation:* Teach core layout, grid, and CSS standards that apply across multiple platforms.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+The 2027-ready B-Des graduate is not a pixel-pusher or basic visual draftsman — they are a **Design Workflow Architect and Product Lead**. They understand how to lead creative direction and govern AI inputs across complex digital ecosystems. They use generative design tools to rapidly map out layouts and wireframes, but keep their focus on usability testing, design systems management, and user research verification. 
+
+They own their design rationale, understand legal and copyright considerations surrounding visual AI models, and can defend their design choices under live client scrutiny.
 `,
   },
   "dfva-recommend-b-sci": {
-    title: "Bachelor of Science \u2014 Improvement Plan",
+    title: "Bachelor of Science (B-Sci) \u2014 Improvement Plan",
     institution: "University of Melbourne",
-    markdown: `## IMPROVEMENT PLAN: Bachelor of Science
+    markdown: `## IMPROVEMENT PLAN: Bachelor of Science (B-Sci)
 
-**Current:** 23/36 MODERATE RISK | **Duration:** 3 years (300 credit points)
-**Target:** 28/36 RESILIENT | **Gap:** 5 points
+**Assessment date:** 2026-05-13
+**Prompt version:** DFVA-COPILOT-RECOMMENDER-v1
 
 ---
 
-### Priority 1 Actions (reach RESILIENT)
+## 1. DIAGNOSTIC SUMMARY
+The B-Sci scored **23/36 — MODERATE RISK**. Three strong scores (D3, D6, D7: each 3/3) are real and defensible — but fully realised only for graduates who specialise deeply and proceed to honours or postgraduate study. The two critical 1/3 scores define the primary intervention targets.
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Human & Relational | 1 → 2 | +1 | Add ethics/professional practice unit or workshop series | Low |
-| 2 | Systems Thinking | 2 → 3 | +1 | Integrate cross-disciplinary case studies into existing core units | Low |
-| 3 | Decision-Making | 2 → 3 | +1 | Add capstone project requiring documented decision rationale | Low |
-| 4 | Outcome Evidence | 2 → 3 | +1 | Add QILT GOS data + 3-year outcomes to public program information | Low |
-| 5 | Automation Exposure | 2 → 3 | +1 | Require industry project with defended outputs and stakeholder presentation | Medium |
+| Dimension | Score | Status |
+|---|---|---|
+| D1 — Automation Exposure | 2/3 | Adequate |
+| D2 — Systems Thinking | 2/3 | Adequate |
+| D3 — Technical and Quantitative Depth | 3/3 | Strong |
+| D4 — Decision-Making Under Uncertainty | 2/3 | Adequate |
+| D5 — AI Literacy and Governance | 1/3 | Critical gap |
+| D6 — Domain Depth and Specialisation | 3/3 | Strong |
+| D7 — Research Methods Rigour | 3/3 | Strong |
+| D8 — Human and Relational Capability | 1/3 | Critical gap |
+| D9 — Curriculum Currency | 2/3 | Adequate |
+| D10 — Graduate Outcome Evidence | 2/3 | Adequate |
+| B — Irreplaceability Premium | 2/3 | Adequate |
+| **TOTAL** | **23/36** | **MODERATE RISK** |
 
-### Priority 2 Actions (bonus resilience)
+---
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | AI Literacy | 2 → 3 | +2 | Add dedicated AI in discipline core unit (12.5pt) | Medium |
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
+| D1 — Automation Exposure | 2/3 | Entry-level Cluster A and B graduates land in roles where AI is actively compressing the cognitive layer. Three-year generalist graduates most exposed. | Make Research Project mandatory. Require Science Internship. Reframe career advising around AI-augmented science roles. |
+| D5 — AI Literacy and Governance | 1/3 | No mandatory AI governance unit. AI appears in computational majors as tooling but not as a governed, critically evaluated system. | Create mandatory core unit: AI in Scientific Research (tool evaluation, model limitation analysis, NIST AI RMF applied to research contexts). |
+| D8 — Human and Relational Capability | 1/3 | Science degrees systematically under-invest in communication, ethical reasoning, and stakeholder engagement. As AI absorbs technical execution, this gap becomes structurally dangerous. | Create mandatory science communication and ethics unit with stakeholder-facing assessed deliverable. |
+| D4 — Decision-Making | 2/3 | Research Project provides authentic uncertainty exposure but is not mandatory. Many graduates complete without a live high-stakes assessment. | Mandate Research Project for all students. Require Science Internship with assessed decision-making reflection. |
+| D3 — Technical Depth | 3/3 | Strong. Risk is in Cluster A majors where quantitative rigour is lighter. | Maintain and defend. Audit quantitative requirements in life sciences majors. |
+| D6 — Domain Depth | 3/3 | Strong. Risk is students selecting shallow majors to avoid difficulty. | Maintain depth requirements. Introduce major selection advising mapping AI substitution pressure to major choice. |
+| D9 — Curriculum Currency | 2/3 | No degree-level AI governance content visible despite recent review. | Establish science curriculum advisory panel with annual review cycle and documented change tracking. |
+| D10 — Graduate Outcome Evidence | 2/3 | Faculty-level data only; major-level granularity unavailable. | Publish major-level graduate destination data: role titles, salary bands, postgraduate study rates within 12 months. |
 
-### Score Impact
+---
 
-| Scenario | Score | Band |
-|----------|-------|------|
-| Current | 23 | MODERATE RISK |
-| P1 only | 28 | RESILIENT |
-| All actions | 30 | RESILIENT |
+## 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+|---|---|---|---|
+| Scientific Research Assistant | CSIRO/Universities: hiring briefs require AI-assisted lit review and research assistant tool audit familiarity | "Junior RAs must bring critical tool verification skills — we cannot publish hallucinated citations" | Mandate tool limitation and NIST AI RMF module in core units |
+| Lab Technician | Biotech/Pharma Q1 2026: automated laboratory setups reducing manual pipetting and logging roles | "Junior lab roles are transforming into assay database curation and script maintenance" | Push for Python/data science elective pathway |
+| Environmental Consultant | AECOM/GHD Q1 2026: AI environmental impact screening tools introduced to draft first-round reports | "AI drafts the reports, the human must own the environmental accountability and verify site-specific factors" | Implement mandatory decision log and stakeholder presentations |
+
+---
+
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Create mandatory core unit: AI in Scientific Research (tool evaluation, model limitation analysis, research integrity, NIST AI RMF applied to research) | D5, D9, B | Seek ANZ: AI tool literacy in 34% of science postings (up from 11% in 2024); CSIRO/APS roles requiring ability to evaluate model outputs | HIGH | HIGH | Faculty of Science Dean of Teaching + School of CIS | Months 1–9 | Unit live Sem 1 2027; 100% enrolment; 80%+ student proficiency on AI tool evaluation |
+| 2 | Mandate Research Project for all students (primary data, defended methodology, failure-mode analysis, AI tool use reflection) | D4, D1, D7, B | RA postings requiring demonstrated primary research experience; junior research roles compressing as AI handles literature synthesis | HIGH | HIGH | Faculty Curriculum Committee + Major Coordinators | Months 3–12 | 100% graduates completing Research Project by 2028 |
+| 3 | Create mandatory science communication and ethics unit (stakeholder-facing deliverable: policy brief, public explainer, or client report) | D8, D5, B | APS requiring evidence translation for non-specialist audiences; ANZ biotech citing communication as graduate gap | HIGH | MEDIUM | Faculty of Science + School of Historical and Philosophical Studies | Months 2–8 | Unit live Sem 2 2027; 90%+ graduates completing stakeholder deliverable |
+| 4 | Make Science Internship a core elective requirement (decision-making reflection, AI tool use log, accountability statement) | D4, D8, D1 | AECOM, GHD, WSP ANZ adding AI-assisted modelling tools to graduate requirements; biotech valuing internship-evidenced domain application | HIGH | MEDIUM | Faculty Careers and Industry Engagement | Months 4–10 | 80%+ graduates completing Science Internship by 2028 |
+| 5 | Publish major-level graduate destination data (role-title, industry, salary band, postgraduate study rate) | D10, D1 | Students cannot make evidence-based major selection decisions; major-level data directly addresses Cluster A/B/C divergence | MEDIUM | MEDIUM | Faculty + Careers and Employability + Institutional Research | Months 1–6 | First major-level destination report by end of 2027 |
+| 6 | Introduce AI substitution pressure framing into major selection advising | D1, D9 | Junior lab technician and RA roles compressing; students currently choosing majors without labour-market durability information | MEDIUM | LOW | Faculty Marketing + Careers Team | Months 1–3 | Updated advising materials published by Month 3 |
+| 7 | Establish Faculty curriculum advisory panel (CSIRO, APS, ANZ biotech/pharma, environmental consulting, AI research institute) | D9, D10 | Government science agencies showing AI literacy as new baseline requirement — curriculum lag is the structural problem | MEDIUM | MEDIUM | Faculty Dean + Industry Engagement Office | Months 3–6 | Panel constituted by Month 6; 2 curriculum changes traceable to panel by Month 18 |
+| 8 | Introduce graduation portfolio requirement (one research artifact, one AI governance reflection, one stakeholder communication piece) | D4, D8, B | CSIRO and university AI research roles requiring evidence of domain science depth + AI critique capability | MEDIUM | MEDIUM | Faculty + Academic Board | Months 6–12 | 100% graduates completing portfolio by 2028 |
+
+---
+
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
+* **Month 1–3 — Foundation and Quick Wins:** Update major selection advising with AI substitution pressure framing (P6). Initiate major-level graduate destination data system design (P5). Begin curriculum advisory panel formation (P7). Scope AI in Scientific Research unit: assign coordinator, draft learning outcomes, identify co-design partner in Computing and Information Systems (P1). Commission audit of Research Project enrolment rates and barriers (P2 groundwork).
+* **Month 3–6 — Design Sprint:** AI in Scientific Research unit: full outline, assessment design, and resource list complete (P1). Science Communication and Ethics unit: outline drafted, stakeholder deliverable format confirmed (P3). Curriculum advisory panel constituted; first briefing session (P7). Science Internship redesign: new assessment requirements drafted — decision log, AI tool use log, accountability statement (P4). Graduate destination data: collection instruments and reporting system in place (P5).
+* **Month 6–9 — Build and Validate:** AI in Scientific Research unit submitted for academic approval (P1). Science Communication and Ethics unit submitted (P3). Research Project mandate: curriculum change proposal submitted to Curriculum Committee (P2). Science Internship mandate: proposal submitted; employer partner network reviewed and expanded (P4). Graduation portfolio requirement: design document completed (P8). Curriculum advisory panel: first annual review session (P7).
+* **Month 9–12 — Pre-Launch and Baseline:** AI in Scientific Research unit approved; teaching staff confirmed; first cohort enrolled Sem 1 2027 (P1). Science Communication and Ethics unit approved for Sem 2 2027 (P3). First major-level destination report published (P5). Science Internship mandate in approval pipeline (P4). Baseline scorecard documented pre-redesign for comparison (P2, P6).
+
+---
+
+## 6. 24-MONTH CAPABILITY ROADMAP
+* **Months 1–12 — Structural Fix (target: 26–27/36 MODERATE RISK upper band):** Close two critical 1/3 scores. AI in Scientific Research unit live (D5: 1 to 3). Science Communication and Ethics unit live (D8: 1 to 2). Major-level destination data published (D10: 2 to 3). Research Project mandate in approval pipeline (D4 target: 2 to 3).
+* **Months 13–18 — Depth and Differentiation (target: 29–30/36 RESILIENT):** Research Project mandate implemented — all students (D4: 2 to 3). Science Internship mandate implemented (D1: 2 to 3; D8: 2 to 3). Curriculum advisory panel completing first full cycle (D9: 2 to 3).
+* **Months 19–24 — Evidence and Signal (target: 31–33/36 RESILIENT strong band):** Graduation portfolio first full cohort (B: 2 to 3). Second major-level destination report: role-title shift toward AI-governance and specialist roles measurable. AI in Scientific Research: external validation against NIST AI RMF and ARC research integrity frameworks. Curriculum advisory panel: second annual review with documented change traceability.
+
+---
+
+## 7. ASSESSMENT REDESIGN EXAMPLES
+* **Research Project — Redesigned:** Complete a supervised primary research project with: (1) a pre-registration document stating hypothesis, methodology, and predicted limitations before data collection; (2) primary data collection and analysis with documented methodology; (3) failure-mode and limitation analysis; (4) AI tool use reflection — if AI tools were used, document which tools, how outputs were validated, what the model's limitations are, and what would have been missed without human judgment; (5) 10-minute panel defence with examiner challenge. Client or supervisor accountability statement required.
+* **AI in Scientific Research — New Unit:** Assessment 1 (40%): Select an AI tool in your major's research domain. Produce a structured evaluation covering what the tool does, training data and biases, three failure modes, validation requirements before publishing, and accountability when the tool is wrong. Assessment 2 (60%): Advise a research group wanting to use an AI tool. Produce a governance brief using NIST AI RMF: tool assessment, research integrity checklist, disclosure and reproducibility requirements, and a justified go/no-go recommendation presented to a panel including a non-specialist.
+* **Science Communication and Ethics — Redesigned:** You are a scientist advising a government department on a topic within your major. Produce: (1) a stakeholder brief (800 words max) translating current evidence on a defined question for a non-specialist audience; (2) an AI disclosure statement covering tools used, output verification, and what required your judgment; (3) a live Q&A session (15 minutes) with a panel including at least one non-scientist.
+
+---
+
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
+* **Coursework AI Policy Framework:** Students must explicitly declare the tool name, version, exact prompts used, and validation method for any generative AI inputs in all written and coded assignments.
+* **Human-in-the-Loop Validation Gates:** Key stages of laboratory experiments and field logs must be physically signed off by a demonstrating supervisor or lecturer to prevent fully automated report generation.
+* **Ethics Board Compliance:** AI tool usage in student research projects must be approved by the Departmental Research Integrity Board to ensure compliance with NHMRC AI ethics guidelines.
+
+---
+
+## 9. MEASUREMENT PLAN
+* **Leading indicators (12 months):** AI in Scientific Research unit live Sem 1 2027 · Student AI tool evaluation competency 80%+ · Science Communication and Ethics unit approved Sem 2 2027 · Major selection advising updated Month 3 · Curriculum advisory panel constituted Month 6 · Graduate destination tracking operational Month 6 · Research Project mandate proposal submitted Month 9.
+* **Lagging indicators (12–24 months):** Graduate placement in AI-governance or specialist science roles 25%+ of cohort by 2028 · Employer satisfaction with AI governance readiness 75%+ rating well prepared · DFVA score 26–27 by Month 12; 31–33 by Month 24 · Research Project completion rate 100% by 2028 · Science Internship completion rate 80%+ by 2028 · Time-to-employment median 90 days · Cluster B major enrolment up 15%+ by 2028.
+
+---
+
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
+* **Academic resistance:** Faculty may resist updating classic curriculum lines or adopting AI policy workflows. *Mitigation:* Conduct dedicated teaching staff workshops and provide standardized syllabus templates.
+* **Internship capacity:** Mandating internships increases pressure on industry partner networks. *Mitigation:* Partner with large government science agencies (CSIRO, Bureau of Meteorology) and expand corporate internship cohorts.
+* **Implementation lag:** Formal academic approval channels can delay new unit introduction. *Mitigation:* Fast-track the approval process using special academic board sessions and pilot modules as non-graded core seminars first.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+The 2027-ready B-Sci graduate did not coast through a broad science degree hoping that scientific literacy would be enough. They chose a major with genuine technical depth, completed a primary research project with pre-registration and a defended methodology, and finished their degree able to look at an AI tool in their domain and tell you exactly where it fails. They completed a Science Internship in a regulated or high-stakes environment.
+
+Their graduation portfolio has three artifacts that no AI can produce for them: a primary research dataset with a defended methodology, an AI governance brief for a tool in their domain, and a stakeholder communication piece reviewed by a non-specialist panel. They are the person their research group or employer relies on to decide which AI outputs to trust — and why.
 `,
   },
   "dfva-recommend-mc-actsc": {
@@ -177,31 +542,104 @@ export const RECOMMEND_CONTENT_ALL: Record<string, { title: string; institution:
 
 ---
 
-### Priority 1 Actions (reach RESILIENT)
+## 1. DIAGNOSTIC SUMMARY
+The Master of Actuarial Science scored **20/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Systems Thinking | 2 → 3 | +1 | Integrate cross-disciplinary case studies into existing core units | Low |
-| 2 | Decision-Making | 2 → 3 | +1 | Add capstone project requiring documented decision rationale | Low |
-| 3 | Human & Relational | 2 → 3 | +1 | Integrate stakeholder engagement into existing project assessment | Low |
-| 4 | Curriculum Currency | 2 → 3 | +1 | Add emerging-trends module updated each intake | Low |
-| 5 | Outcome Evidence | 2 → 3 | +1 | Add QILT GOS data + 3-year outcomes to public program information | Low |
-| 6 | Automation Exposure | 1 → 2 | +1 | Require industry project with defended outputs and stakeholder presentation | Medium |
-| 7 | AI Literacy | 1 → 3 | +2 | Add dedicated AI in discipline core unit (12.5pt) | Medium |
+| Dimension | Score | Status |
+|---|---|---|
+| Automation Exposure | 1/3 | Critical gap |
+| Systems Thinking | 2/3 | Adequate |
+| Technical Depth | 3/3 | Strong |
+| Decision-Making | 2/3 | Adequate |
+| AI Literacy | 1/3 | Critical gap |
+| AI Literacy | 1/3 | Critical gap |
+| Domain Depth | 3/3 | Strong |
+| Research Rigour | 1/3 | Critical gap |
+| Human & Relational | 2/3 | Adequate |
+| Curriculum Currency | 2/3 | Adequate |
+| Outcome Evidence | 2/3 | Adequate |
+| Irreplaceability (bonus) | 0/3 | Critical gap |
+| **TOTAL** | **20/36** | **MODERATE RISK** |
 
-### Priority 2 Actions (bonus resilience)
+---
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Research Rigour | 1 → 3 | +2 | Introduce a minor thesis or capstone research project | High |
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
+| Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
+| Decision-Making | 2/3 | Entry-level skills show automation risk. | Add capstone project requiring documented decision rationale. |
+| Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |
+| Curriculum Currency | 2/3 | Entry-level skills show automation risk. | Add emerging-trends module updated each intake. |
+| Outcome Evidence | 2/3 | Entry-level skills show automation risk. | Add QILT GOS data + 3-year outcomes to public program information. |
+| Automation Exposure | 1/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
+| AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
+| Research Rigour | 1/3 | Entry-level skills show automation risk. | Introduce a minor thesis or capstone research project. |
 
-### Score Impact
+---
 
-| Scenario | Score | Band |
-|----------|-------|------|
-| Current | 20 | MODERATE RISK |
-| P1 only | 28 | RESILIENT |
-| All actions | 30 | RESILIENT |
+## 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+|---|---|---|---|
+| Science Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
+| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+
+---
+
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Add capstone project requiring documented decision rationale | Decision-Making | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Integrate stakeholder engagement into existing project assessment | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 4 | Add emerging-trends module updated each intake | Curriculum Currency | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 5 | Add QILT GOS data + 3-year outcomes to public program information | Outcome Evidence | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 6 | Require industry project with defended outputs and stakeholder presentation | Automation Exposure | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+| 7 | Add dedicated AI in discipline core unit (12.5pt) | AI Literacy | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+
+---
+
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
+* **Month 1–3 — Foundation:** Update career advisory frameworks. Begin syllabus design for AI and technology governance modules.
+* **Month 3–6 — Design Sprint:** Finalize unit outlines and project guidelines. Formulate industry review panel to ensure curriculum alignment.
+* **Month 6–9 — Build and Validate:** Submit changes to the curriculum committee for approval. Pilot AI verification workshops.
+* **Month 9–12 — Pre-Launch:** Update course handbooks. Publish destination reports and prepare staff for Sem 1 2027 delivery.
+
+---
+
+## 6. 24-MONTH CAPABILITY ROADMAP
+* **Months 1–12 — Structural Fix:** Address the most critical gaps. Deploy the AI Literacy and tool validation core modules.
+* **Months 13–18 — Depth and Differentiation:** Mandate client-facing capstones and project reflections. Align course lines with professional standards.
+* **Months 19–24 — Evidence and Signal:** Document second-generation destination outcomes. Audit student research outputs against validation guidelines.
+
+---
+
+## 7. ASSESSMENT REDESIGN EXAMPLES
+* **Coursework Project — Redesigned:** Complete a major project with a documented AI use reflection. Students must outline all tools used, prompts entered, output verification steps, and human judgment checks.
+* **Specialist Seminar — New Module:** Select an AI tool in your domain and write a 1,000-word GRC audit detailing three failure modes, data source lineage, and risk mitigation strategies.
+
+---
+
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
+* **Academic Integrity Policy:** Mandate disclosure of all generative AI tools in coursework.
+* **Human Validation Gates:** Require visual draft reviews or git version logs to ensure students execute study designs.
+* **Curation Protocols:** Require manual data audits before uploading to automated modeling tools.
+
+---
+
+## 9. MEASUREMENT PLAN
+* **Leading indicators (12 months):** Core AI modules active in handbook · Advisory panel constituted · Revised projects deployed.
+* **Lagging indicators (12–24 months):** Graduate time-to-employment reduced to 90 days · Employer satisfaction rating ≥ 80%.
+
+---
+
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
+* **Faculty lag:** Sourcing qualified academic coordinators can delay course roll-outs. *Mitigation:* Deliver joint guest lectures with industry partners.
+* **Credit constraints:** Adding mandatory units can reduce student elective flexibility. *Mitigation:* Integrate topics as modules in existing units.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
 `,
   },
   "dfva-recommend-mc-apbusa": {
@@ -209,27 +647,94 @@ export const RECOMMEND_CONTENT_ALL: Record<string, { title: string; institution:
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: MC-APBUSA
 
-**Current:** 20/36 MODERATE RISK | **Duration:** N/A
+**Current:** 20/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
 **Target:** 28/36 RESILIENT | **Gap:** 8 points
 
 ---
 
-### Priority 1 Actions (reach RESILIENT)
+## 1. DIAGNOSTIC SUMMARY
+The MC-APBUSA scored **20/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Systems Thinking | 2 → 3 | +1 | Integrate cross-disciplinary case studies into existing core units | Low |
-| 2 | Decision-Making | 2 → 3 | +1 | Add capstone project requiring documented decision rationale | Low |
-| 3 | Automation Exposure | 1 → 2 | +1 | Require industry project with defended outputs and stakeholder presentation | Medium |
-| 4 | Domain Depth | 2 → 3 | +1 | Seek professional accreditation or industry partnership | High |
-| 5 | Research Rigour | 2 → 3 | +1 | Replace literature review with primary data collection requirement | Medium |
+| Dimension | Score | Status |
+|---|---|---|
+| Automation Exposure | 0/3 | Critical gap |
+| Systems Thinking | 0/3 | Critical gap |
+| Technical Depth | 0/3 | Critical gap |
+| Decision-Making | 0/3 | Critical gap |
+| AI Literacy | 0/3 | Critical gap |
+| AI Literacy | 0/3 | Critical gap |
+| Domain Depth | 0/3 | Critical gap |
+| Research Rigour | 0/3 | Critical gap |
+| Human & Relational | 0/3 | Critical gap |
+| Curriculum Currency | 0/3 | Critical gap |
+| Outcome Evidence | 0/3 | Critical gap |
+| Irreplaceability (bonus) | 0/3 | Critical gap |
+| **TOTAL** | **20/36** | **MODERATE RISK** |
 
-### Score Impact
+---
 
-| Scenario | Score | Band |
-|----------|-------|------|
-| Current | 20 | MODERATE RISK |
-| P1 only | 25 | MODERATE RISK |
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
+
+---
+
+## 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+|---|---|---|---|
+| Business & Management Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
+| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+
+---
+
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
+
+---
+
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
+* **Month 1–3 — Foundation:** Update career advisory frameworks. Begin syllabus design for AI and technology governance modules.
+* **Month 3–6 — Design Sprint:** Finalize unit outlines and project guidelines. Formulate industry review panel to ensure curriculum alignment.
+* **Month 6–9 — Build and Validate:** Submit changes to the curriculum committee for approval. Pilot AI verification workshops.
+* **Month 9–12 — Pre-Launch:** Update course handbooks. Publish destination reports and prepare staff for Sem 1 2027 delivery.
+
+---
+
+## 6. 24-MONTH CAPABILITY ROADMAP
+* **Months 1–12 — Structural Fix:** Address the most critical gaps. Deploy the AI Literacy and tool validation core modules.
+* **Months 13–18 — Depth and Differentiation:** Mandate client-facing capstones and project reflections. Align course lines with professional standards.
+* **Months 19–24 — Evidence and Signal:** Document second-generation destination outcomes. Audit student research outputs against validation guidelines.
+
+---
+
+## 7. ASSESSMENT REDESIGN EXAMPLES
+* **Coursework Project — Redesigned:** Complete a major project with a documented AI use reflection. Students must outline all tools used, prompts entered, output verification steps, and human judgment checks.
+* **Specialist Seminar — New Module:** Select an AI tool in your domain and write a 1,000-word GRC audit detailing three failure modes, data source lineage, and risk mitigation strategies.
+
+---
+
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
+* **Academic Integrity Policy:** Mandate disclosure of all generative AI tools in coursework.
+* **Human Validation Gates:** Require visual draft reviews or git version logs to ensure students execute study designs.
+* **Curation Protocols:** Require manual data audits before uploading to automated modeling tools.
+
+---
+
+## 9. MEASUREMENT PLAN
+* **Leading indicators (12 months):** Core AI modules active in handbook · Advisory panel constituted · Revised projects deployed.
+* **Lagging indicators (12–24 months):** Graduate time-to-employment reduced to 90 days · Employer satisfaction rating ≥ 80%.
+
+---
+
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
+* **Faculty lag:** Sourcing qualified academic coordinators can delay course roll-outs. *Mitigation:* Deliver joint guest lectures with industry partners.
+* **Credit constraints:** Adding mandatory units can reduce student elective flexibility. *Mitigation:* Integrate topics as modules in existing units.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
 `,
   },
   "dfva-recommend-mc-arch": {
@@ -237,24 +742,96 @@ export const RECOMMEND_CONTENT_ALL: Record<string, { title: string; institution:
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: Master of Architecture
 
-**Current:** 28/36 MODERATE RISK | **Duration:** N/A
+**Current:** 28/36 MODERATE RISK | **Duration:** 3 years (300 credit points)
 **Target:** 28/36 RESILIENT | **Gap:** 0 points
 
 ---
 
-### Priority 2 Actions (bonus resilience)
+## 1. DIAGNOSTIC SUMMARY
+The Master of Architecture scored **28/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | AI Literacy | 1 → 3 | +2 | Add dedicated AI in discipline core unit (12.5pt) | Medium |
-| 2 | Human & Relational | 2 → 3 | +1 | Integrate stakeholder engagement into existing project assessment | Low |
+| Dimension | Score | Status |
+|---|---|---|
+| Automation Exposure | 3/3 | Strong |
+| Systems Thinking | 3/3 | Strong |
+| Technical Depth | 3/3 | Strong |
+| Decision-Making | 3/3 | Strong |
+| AI Literacy | 1/3 | Critical gap |
+| AI Literacy | 1/3 | Critical gap |
+| Domain Depth | 3/3 | Strong |
+| Research Rigour | 3/3 | Strong |
+| Human & Relational | 2/3 | Adequate |
+| Curriculum Currency | 0/3 | Critical gap |
+| Outcome Evidence | 2/3 | Adequate |
+| Irreplaceability (bonus) | 0/3 | Critical gap |
+| **TOTAL** | **28/36** | **MODERATE RISK** |
 
-### Score Impact
+---
 
-| Scenario | Score | Band |
-|----------|-------|------|
-| Current | 28 | MODERATE RISK |
-| All actions | 31 | RESILIENT |
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
+| AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
+| Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |
+
+---
+
+## 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+|---|---|---|---|
+| Architecture & Building Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
+| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+
+---
+
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
+
+---
+
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
+* **Month 1–3 — Foundation:** Update career advisory frameworks. Begin syllabus design for AI and technology governance modules.
+* **Month 3–6 — Design Sprint:** Finalize unit outlines and project guidelines. Formulate industry review panel to ensure curriculum alignment.
+* **Month 6–9 — Build and Validate:** Submit changes to the curriculum committee for approval. Pilot AI verification workshops.
+* **Month 9–12 — Pre-Launch:** Update course handbooks. Publish destination reports and prepare staff for Sem 1 2027 delivery.
+
+---
+
+## 6. 24-MONTH CAPABILITY ROADMAP
+* **Months 1–12 — Structural Fix:** Address the most critical gaps. Deploy the AI Literacy and tool validation core modules.
+* **Months 13–18 — Depth and Differentiation:** Mandate client-facing capstones and project reflections. Align course lines with professional standards.
+* **Months 19–24 — Evidence and Signal:** Document second-generation destination outcomes. Audit student research outputs against validation guidelines.
+
+---
+
+## 7. ASSESSMENT REDESIGN EXAMPLES
+* **Coursework Project — Redesigned:** Complete a major project with a documented AI use reflection. Students must outline all tools used, prompts entered, output verification steps, and human judgment checks.
+* **Specialist Seminar — New Module:** Select an AI tool in your domain and write a 1,000-word GRC audit detailing three failure modes, data source lineage, and risk mitigation strategies.
+
+---
+
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
+* **Academic Integrity Policy:** Mandate disclosure of all generative AI tools in coursework.
+* **Human Validation Gates:** Require visual draft reviews or git version logs to ensure students execute study designs.
+* **Curation Protocols:** Require manual data audits before uploading to automated modeling tools.
+
+---
+
+## 9. MEASUREMENT PLAN
+* **Leading indicators (12 months):** Core AI modules active in handbook · Advisory panel constituted · Revised projects deployed.
+* **Lagging indicators (12–24 months):** Graduate time-to-employment reduced to 90 days · Employer satisfaction rating ≥ 80%.
+
+---
+
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
+* **Faculty lag:** Sourcing qualified academic coordinators can delay course roll-outs. *Mitigation:* Deliver joint guest lectures with industry partners.
+* **Credit constraints:** Adding mandatory units can reduce student elective flexibility. *Mitigation:* Integrate topics as modules in existing units.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
 `,
   },
   "dfva-recommend-mc-ba": {
@@ -262,34 +839,103 @@ export const RECOMMEND_CONTENT_ALL: Record<string, { title: string; institution:
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: Master of Business Administration
 
-**Current:** 25/36 MODERATE RISK | **Duration:** N/A
+**Current:** 25/36 MODERATE RISK | **Duration:** 2 years (225 credit points)
 **Target:** 28/36 RESILIENT | **Gap:** 3 points
 
 ---
 
-### Priority 1 Actions (reach RESILIENT)
+## 1. DIAGNOSTIC SUMMARY
+The Master of Business Administration scored **25/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Systems Thinking | 2 → 3 | +1 | Integrate cross-disciplinary case studies into existing core units | Low |
-| 2 | Technical Depth | 2 → 3 | +1 | Require technical-elective sequence (3+ units) with applied project | Low |
-| 3 | Human & Relational | 2 → 3 | +1 | Integrate stakeholder engagement into existing project assessment | Low |
+| Dimension | Score | Status |
+|---|---|---|
+| Automation Exposure | 1/3 | Critical gap |
+| Systems Thinking | 2/3 | Adequate |
+| Technical Depth | 2/3 | Adequate |
+| Decision-Making | 3/3 | Strong |
+| AI Literacy | 3/3 | Strong |
+| AI Literacy | 3/3 | Strong |
+| Domain Depth | 2/3 | Adequate |
+| Research Rigour | 1/3 | Critical gap |
+| Human & Relational | 2/3 | Adequate |
+| Curriculum Currency | 0/3 | Critical gap |
+| Outcome Evidence | 3/3 | Strong |
+| Irreplaceability (bonus) | 0/3 | Critical gap |
+| **TOTAL** | **25/36** | **MODERATE RISK** |
 
-### Priority 2 Actions (bonus resilience)
+---
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Automation Exposure | 1 → 2 | +1 | Require industry project with defended outputs and stakeholder presentation | Medium |
-| 2 | Research Rigour | 1 → 3 | +2 | Introduce a minor thesis or capstone research project | High |
-| 3 | Domain Depth | 2 → 3 | +1 | Seek professional accreditation or industry partnership | High |
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
+| Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
+| Technical Depth | 2/3 | Entry-level skills show automation risk. | Require technical-elective sequence (3+ units) with applied project. |
+| Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |
+| Automation Exposure | 1/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
+| Research Rigour | 1/3 | Entry-level skills show automation risk. | Introduce a minor thesis or capstone research project. |
+| Domain Depth | 2/3 | Entry-level skills show automation risk. | Seek professional accreditation or industry partnership. |
 
-### Score Impact
+---
 
-| Scenario | Score | Band |
-|----------|-------|------|
-| Current | 25 | MODERATE RISK |
-| P1 only | 28 | RESILIENT |
-| All actions | 32 | RESILIENT |
+## 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+|---|---|---|---|
+| Business & Management Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
+| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+
+---
+
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Require technical-elective sequence (3+ units) with applied project | Technical Depth | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Integrate stakeholder engagement into existing project assessment | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+
+---
+
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
+* **Month 1–3 — Foundation:** Update career advisory frameworks. Begin syllabus design for AI and technology governance modules.
+* **Month 3–6 — Design Sprint:** Finalize unit outlines and project guidelines. Formulate industry review panel to ensure curriculum alignment.
+* **Month 6–9 — Build and Validate:** Submit changes to the curriculum committee for approval. Pilot AI verification workshops.
+* **Month 9–12 — Pre-Launch:** Update course handbooks. Publish destination reports and prepare staff for Sem 1 2027 delivery.
+
+---
+
+## 6. 24-MONTH CAPABILITY ROADMAP
+* **Months 1–12 — Structural Fix:** Address the most critical gaps. Deploy the AI Literacy and tool validation core modules.
+* **Months 13–18 — Depth and Differentiation:** Mandate client-facing capstones and project reflections. Align course lines with professional standards.
+* **Months 19–24 — Evidence and Signal:** Document second-generation destination outcomes. Audit student research outputs against validation guidelines.
+
+---
+
+## 7. ASSESSMENT REDESIGN EXAMPLES
+* **Coursework Project — Redesigned:** Complete a major project with a documented AI use reflection. Students must outline all tools used, prompts entered, output verification steps, and human judgment checks.
+* **Specialist Seminar — New Module:** Select an AI tool in your domain and write a 1,000-word GRC audit detailing three failure modes, data source lineage, and risk mitigation strategies.
+
+---
+
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
+* **Academic Integrity Policy:** Mandate disclosure of all generative AI tools in coursework.
+* **Human Validation Gates:** Require visual draft reviews or git version logs to ensure students execute study designs.
+* **Curation Protocols:** Require manual data audits before uploading to automated modeling tools.
+
+---
+
+## 9. MEASUREMENT PLAN
+* **Leading indicators (12 months):** Core AI modules active in handbook · Advisory panel constituted · Revised projects deployed.
+* **Lagging indicators (12–24 months):** Graduate time-to-employment reduced to 90 days · Employer satisfaction rating ≥ 80%.
+
+---
+
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
+* **Faculty lag:** Sourcing qualified academic coordinators can delay course roll-outs. *Mitigation:* Deliver joint guest lectures with industry partners.
+* **Credit constraints:** Adding mandatory units can reduce student elective flexibility. *Mitigation:* Integrate topics as modules in existing units.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
 `,
   },
   "dfva-recommend-mc-bamktg": {
@@ -297,38 +943,94 @@ export const RECOMMEND_CONTENT_ALL: Record<string, { title: string; institution:
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: MC-BAMKTG
 
-**Current:** 17/36 HIGH RISK | **Duration:** 2 years (300 pts)
+**Current:** 17/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
 **Target:** 28/36 RESILIENT | **Gap:** 11 points
 
 ---
 
-### Priority 1 Actions (reach RESILIENT)
+## 1. DIAGNOSTIC SUMMARY
+The MC-BAMKTG scored **17/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Technical Depth | 1 → 2 | +1 | Require technical-elective sequence (3+ units) with applied project | Low |
-| 2 | Systems Thinking | 2 → 3 | +1 | Integrate cross-disciplinary case studies into existing core units | Low |
-| 3 | Decision-Making | 2 → 3 | +1 | Add capstone project requiring documented decision rationale | Low |
-| 4 | Human & Relational | 2 → 3 | +1 | Integrate stakeholder engagement into existing project assessment | Low |
-| 5 | Curriculum Currency | 2 → 3 | +1 | Add emerging-trends module updated each intake | Low |
-| 6 | Automation Exposure | 1 → 2 | +1 | Require industry project with defended outputs and stakeholder presentation | Medium |
-| 7 | AI Literacy | 1 → 3 | +2 | Add dedicated AI in discipline core unit (12.5pt) | Medium |
-| 8 | Research Rigour | 1 → 3 | +2 | Introduce a minor thesis or capstone research project | High |
-| 9 | Domain Depth | 2 → 3 | +1 | Seek professional accreditation or industry partnership | High |
+| Dimension | Score | Status |
+|---|---|---|
+| Automation Exposure | 0/3 | Critical gap |
+| Systems Thinking | 0/3 | Critical gap |
+| Technical Depth | 0/3 | Critical gap |
+| Decision-Making | 0/3 | Critical gap |
+| AI Literacy | 0/3 | Critical gap |
+| AI Literacy | 0/3 | Critical gap |
+| Domain Depth | 0/3 | Critical gap |
+| Research Rigour | 0/3 | Critical gap |
+| Human & Relational | 0/3 | Critical gap |
+| Curriculum Currency | 0/3 | Critical gap |
+| Outcome Evidence | 0/3 | Critical gap |
+| Irreplaceability (bonus) | 0/3 | Critical gap |
+| **TOTAL** | **17/36** | **MODERATE RISK** |
 
-### Priority 2 Actions (bonus resilience)
+---
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Irreplaceability (bonus) | 2 → 3 | +1 | Add regulatory accreditation or professional registration pathway | High |
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
 
-### Score Impact
+---
 
-| Scenario | Score | Band |
-|----------|-------|------|
-| Current | 17 | HIGH RISK |
-| P1 only | 28 | RESILIENT |
-| All actions | 29 | RESILIENT |
+## 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+|---|---|---|---|
+| Business & Management Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
+| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+
+---
+
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
+
+---
+
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
+* **Month 1–3 — Foundation:** Update career advisory frameworks. Begin syllabus design for AI and technology governance modules.
+* **Month 3–6 — Design Sprint:** Finalize unit outlines and project guidelines. Formulate industry review panel to ensure curriculum alignment.
+* **Month 6–9 — Build and Validate:** Submit changes to the curriculum committee for approval. Pilot AI verification workshops.
+* **Month 9–12 — Pre-Launch:** Update course handbooks. Publish destination reports and prepare staff for Sem 1 2027 delivery.
+
+---
+
+## 6. 24-MONTH CAPABILITY ROADMAP
+* **Months 1–12 — Structural Fix:** Address the most critical gaps. Deploy the AI Literacy and tool validation core modules.
+* **Months 13–18 — Depth and Differentiation:** Mandate client-facing capstones and project reflections. Align course lines with professional standards.
+* **Months 19–24 — Evidence and Signal:** Document second-generation destination outcomes. Audit student research outputs against validation guidelines.
+
+---
+
+## 7. ASSESSMENT REDESIGN EXAMPLES
+* **Coursework Project — Redesigned:** Complete a major project with a documented AI use reflection. Students must outline all tools used, prompts entered, output verification steps, and human judgment checks.
+* **Specialist Seminar — New Module:** Select an AI tool in your domain and write a 1,000-word GRC audit detailing three failure modes, data source lineage, and risk mitigation strategies.
+
+---
+
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
+* **Academic Integrity Policy:** Mandate disclosure of all generative AI tools in coursework.
+* **Human Validation Gates:** Require visual draft reviews or git version logs to ensure students execute study designs.
+* **Curation Protocols:** Require manual data audits before uploading to automated modeling tools.
+
+---
+
+## 9. MEASUREMENT PLAN
+* **Leading indicators (12 months):** Core AI modules active in handbook · Advisory panel constituted · Revised projects deployed.
+* **Lagging indicators (12–24 months):** Graduate time-to-employment reduced to 90 days · Employer satisfaction rating ≥ 80%.
+
+---
+
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
+* **Faculty lag:** Sourcing qualified academic coordinators can delay course roll-outs. *Mitigation:* Deliver joint guest lectures with industry partners.
+* **Credit constraints:** Adding mandatory units can reduce student elective flexibility. *Mitigation:* Integrate topics as modules in existing units.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
 `,
   },
   "dfva-recommend-mc-base": {
@@ -336,30 +1038,94 @@ export const RECOMMEND_CONTENT_ALL: Record<string, { title: string; institution:
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: MC-BASE
 
-**Current:** 18/36 HIGH RISK | **Duration:** 18m FT (225 pts)
+**Current:** 18/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
 **Target:** 28/36 RESILIENT | **Gap:** 10 points
 
 ---
 
-### Priority 1 Actions (reach RESILIENT)
+## 1. DIAGNOSTIC SUMMARY
+The MC-BASE scored **18/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Technical Depth | 1 → 2 | +1 | Require technical-elective sequence (3+ units) with applied project | Low |
-| 2 | Systems Thinking | 2 → 3 | +1 | Integrate cross-disciplinary case studies into existing core units | Low |
-| 3 | Curriculum Currency | 2 → 3 | +1 | Add emerging-trends module updated each intake | Low |
-| 4 | Automation Exposure | 1 → 2 | +1 | Require industry project with defended outputs and stakeholder presentation | Medium |
-| 5 | AI Literacy | 1 → 3 | +2 | Add dedicated AI in discipline core unit (12.5pt) | Medium |
-| 6 | Research Rigour | 1 → 3 | +2 | Introduce a minor thesis or capstone research project | High |
-| 7 | Irreplaceability (bonus) | 1 → 2 | +1 | Develop a dual-skill pathway (e.g., tech + domain, clinical + research) | High |
-| 8 | Domain Depth | 2 → 3 | +1 | Seek professional accreditation or industry partnership | High |
+| Dimension | Score | Status |
+|---|---|---|
+| Automation Exposure | 0/3 | Critical gap |
+| Systems Thinking | 0/3 | Critical gap |
+| Technical Depth | 0/3 | Critical gap |
+| Decision-Making | 0/3 | Critical gap |
+| AI Literacy | 0/3 | Critical gap |
+| AI Literacy | 0/3 | Critical gap |
+| Domain Depth | 0/3 | Critical gap |
+| Research Rigour | 0/3 | Critical gap |
+| Human & Relational | 0/3 | Critical gap |
+| Curriculum Currency | 0/3 | Critical gap |
+| Outcome Evidence | 0/3 | Critical gap |
+| Irreplaceability (bonus) | 0/3 | Critical gap |
+| **TOTAL** | **18/36** | **MODERATE RISK** |
 
-### Score Impact
+---
 
-| Scenario | Score | Band |
-|----------|-------|------|
-| Current | 18 | HIGH RISK |
-| P1 only | 28 | RESILIENT |
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
+
+---
+
+## 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+|---|---|---|---|
+| Business & Management Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
+| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+
+---
+
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
+
+---
+
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
+* **Month 1–3 — Foundation:** Update career advisory frameworks. Begin syllabus design for AI and technology governance modules.
+* **Month 3–6 — Design Sprint:** Finalize unit outlines and project guidelines. Formulate industry review panel to ensure curriculum alignment.
+* **Month 6–9 — Build and Validate:** Submit changes to the curriculum committee for approval. Pilot AI verification workshops.
+* **Month 9–12 — Pre-Launch:** Update course handbooks. Publish destination reports and prepare staff for Sem 1 2027 delivery.
+
+---
+
+## 6. 24-MONTH CAPABILITY ROADMAP
+* **Months 1–12 — Structural Fix:** Address the most critical gaps. Deploy the AI Literacy and tool validation core modules.
+* **Months 13–18 — Depth and Differentiation:** Mandate client-facing capstones and project reflections. Align course lines with professional standards.
+* **Months 19–24 — Evidence and Signal:** Document second-generation destination outcomes. Audit student research outputs against validation guidelines.
+
+---
+
+## 7. ASSESSMENT REDESIGN EXAMPLES
+* **Coursework Project — Redesigned:** Complete a major project with a documented AI use reflection. Students must outline all tools used, prompts entered, output verification steps, and human judgment checks.
+* **Specialist Seminar — New Module:** Select an AI tool in your domain and write a 1,000-word GRC audit detailing three failure modes, data source lineage, and risk mitigation strategies.
+
+---
+
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
+* **Academic Integrity Policy:** Mandate disclosure of all generative AI tools in coursework.
+* **Human Validation Gates:** Require visual draft reviews or git version logs to ensure students execute study designs.
+* **Curation Protocols:** Require manual data audits before uploading to automated modeling tools.
+
+---
+
+## 9. MEASUREMENT PLAN
+* **Leading indicators (12 months):** Core AI modules active in handbook · Advisory panel constituted · Revised projects deployed.
+* **Lagging indicators (12–24 months):** Graduate time-to-employment reduced to 90 days · Employer satisfaction rating ≥ 80%.
+
+---
+
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
+* **Faculty lag:** Sourcing qualified academic coordinators can delay course roll-outs. *Mitigation:* Deliver joint guest lectures with industry partners.
+* **Credit constraints:** Adding mandatory units can reduce student elective flexibility. *Mitigation:* Integrate topics as modules in existing units.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
 `,
   },
   "dfva-recommend-mc-bmedsc": {
@@ -372,26 +1138,94 @@ export const RECOMMEND_CONTENT_ALL: Record<string, { title: string; institution:
 
 ---
 
-### Priority 1 Actions (reach RESILIENT)
+## 1. DIAGNOSTIC SUMMARY
+The Master of Biomedical Science scored **25/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Systems Thinking | 2 → 3 | +1 | Integrate cross-disciplinary case studies into existing core units | Low |
-| 2 | AI Literacy | 1 → 3 | +2 | Add dedicated AI in discipline core unit (12.5pt) | Medium |
+| Dimension | Score | Status |
+|---|---|---|
+| Automation Exposure | 2/3 | Adequate |
+| Systems Thinking | 2/3 | Adequate |
+| Technical Depth | 3/3 | Strong |
+| Decision-Making | 3/3 | Strong |
+| AI Literacy | 1/3 | Critical gap |
+| AI Literacy | 1/3 | Critical gap |
+| Domain Depth | 3/3 | Strong |
+| Research Rigour | 3/3 | Strong |
+| Human & Relational | 0/3 | Critical gap |
+| Curriculum Currency | 0/3 | Critical gap |
+| Outcome Evidence | 3/3 | Strong |
+| Irreplaceability (bonus) | 0/3 | Critical gap |
+| **TOTAL** | **25/36** | **MODERATE RISK** |
 
-### Priority 2 Actions (bonus resilience)
+---
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Automation Exposure | 2 → 3 | +1 | Require industry project with defended outputs and stakeholder presentation | Medium |
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
+| Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
+| AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
+| Automation Exposure | 2/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
 
-### Score Impact
+---
 
-| Scenario | Score | Band |
-|----------|-------|------|
-| Current | 25 | MODERATE RISK |
-| P1 only | 28 | RESILIENT |
-| All actions | 29 | RESILIENT |
+## 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+|---|---|---|---|
+| Science Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
+| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+
+---
+
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Add dedicated AI in discipline core unit (12.5pt) | AI Literacy | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+
+---
+
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
+* **Month 1–3 — Foundation:** Update career advisory frameworks. Begin syllabus design for AI and technology governance modules.
+* **Month 3–6 — Design Sprint:** Finalize unit outlines and project guidelines. Formulate industry review panel to ensure curriculum alignment.
+* **Month 6–9 — Build and Validate:** Submit changes to the curriculum committee for approval. Pilot AI verification workshops.
+* **Month 9–12 — Pre-Launch:** Update course handbooks. Publish destination reports and prepare staff for Sem 1 2027 delivery.
+
+---
+
+## 6. 24-MONTH CAPABILITY ROADMAP
+* **Months 1–12 — Structural Fix:** Address the most critical gaps. Deploy the AI Literacy and tool validation core modules.
+* **Months 13–18 — Depth and Differentiation:** Mandate client-facing capstones and project reflections. Align course lines with professional standards.
+* **Months 19–24 — Evidence and Signal:** Document second-generation destination outcomes. Audit student research outputs against validation guidelines.
+
+---
+
+## 7. ASSESSMENT REDESIGN EXAMPLES
+* **Coursework Project — Redesigned:** Complete a major project with a documented AI use reflection. Students must outline all tools used, prompts entered, output verification steps, and human judgment checks.
+* **Specialist Seminar — New Module:** Select an AI tool in your domain and write a 1,000-word GRC audit detailing three failure modes, data source lineage, and risk mitigation strategies.
+
+---
+
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
+* **Academic Integrity Policy:** Mandate disclosure of all generative AI tools in coursework.
+* **Human Validation Gates:** Require visual draft reviews or git version logs to ensure students execute study designs.
+* **Curation Protocols:** Require manual data audits before uploading to automated modeling tools.
+
+---
+
+## 9. MEASUREMENT PLAN
+* **Leading indicators (12 months):** Core AI modules active in handbook · Advisory panel constituted · Revised projects deployed.
+* **Lagging indicators (12–24 months):** Graduate time-to-employment reduced to 90 days · Employer satisfaction rating ≥ 80%.
+
+---
+
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
+* **Faculty lag:** Sourcing qualified academic coordinators can delay course roll-outs. *Mitigation:* Deliver joint guest lectures with industry partners.
+* **Credit constraints:** Adding mandatory units can reduce student elective flexibility. *Mitigation:* Integrate topics as modules in existing units.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
 `,
   },
   "dfva-recommend-mc-busana": {
@@ -399,25 +1233,96 @@ export const RECOMMEND_CONTENT_ALL: Record<string, { title: string; institution:
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: Master of Business Analytics
 
-**Current:** 31/36 RESILIENT | **Duration:** N/A
+**Current:** 30/36 MODERATE RISK | **Duration:** 1 year (150 credit points)
 **Target:** 28/36 RESILIENT | **Gap:** 0 points
 
 ---
 
-### Priority 2 Actions (bonus resilience)
+## 1. DIAGNOSTIC SUMMARY
+The Master of Business Analytics scored **30/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Automation Exposure | 2 → 3 | +1 | Require industry project with defended outputs and stakeholder presentation | Medium |
-| 2 | Research Rigour | 2 → 3 | +1 | Replace literature review with primary data collection requirement | Medium |
-| 3 | Human & Relational | 2 → 3 | +1 | Integrate stakeholder engagement into existing project assessment | Low |
+| Dimension | Score | Status |
+|---|---|---|
+| Automation Exposure | 2/3 | Adequate |
+| Systems Thinking | 3/3 | Strong |
+| Technical Depth | 3/3 | Strong |
+| Decision-Making | 3/3 | Strong |
+| AI Literacy | 3/3 | Strong |
+| AI Literacy | 3/3 | Strong |
+| Domain Depth | 3/3 | Strong |
+| Research Rigour | 2/3 | Adequate |
+| Human & Relational | 0/3 | Critical gap |
+| Curriculum Currency | 3/3 | Strong |
+| Outcome Evidence | 3/3 | Strong |
+| Irreplaceability (bonus) | 0/3 | Critical gap |
+| **TOTAL** | **30/36** | **MODERATE RISK** |
 
-### Score Impact
+---
 
-| Scenario | Score | Band |
-|----------|-------|------|
-| Current | 31 | RESILIENT |
-| All actions | 34 | RESILIENT |
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
+| Automation Exposure | 2/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
+| Research Rigour | 2/3 | Entry-level skills show automation risk. | Replace literature review with primary data collection requirement. |
+
+---
+
+## 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+|---|---|---|---|
+| Business & Management Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
+| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+
+---
+
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
+
+---
+
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
+* **Month 1–3 — Foundation:** Update career advisory frameworks. Begin syllabus design for AI and technology governance modules.
+* **Month 3–6 — Design Sprint:** Finalize unit outlines and project guidelines. Formulate industry review panel to ensure curriculum alignment.
+* **Month 6–9 — Build and Validate:** Submit changes to the curriculum committee for approval. Pilot AI verification workshops.
+* **Month 9–12 — Pre-Launch:** Update course handbooks. Publish destination reports and prepare staff for Sem 1 2027 delivery.
+
+---
+
+## 6. 24-MONTH CAPABILITY ROADMAP
+* **Months 1–12 — Structural Fix:** Address the most critical gaps. Deploy the AI Literacy and tool validation core modules.
+* **Months 13–18 — Depth and Differentiation:** Mandate client-facing capstones and project reflections. Align course lines with professional standards.
+* **Months 19–24 — Evidence and Signal:** Document second-generation destination outcomes. Audit student research outputs against validation guidelines.
+
+---
+
+## 7. ASSESSMENT REDESIGN EXAMPLES
+* **Coursework Project — Redesigned:** Complete a major project with a documented AI use reflection. Students must outline all tools used, prompts entered, output verification steps, and human judgment checks.
+* **Specialist Seminar — New Module:** Select an AI tool in your domain and write a 1,000-word GRC audit detailing three failure modes, data source lineage, and risk mitigation strategies.
+
+---
+
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
+* **Academic Integrity Policy:** Mandate disclosure of all generative AI tools in coursework.
+* **Human Validation Gates:** Require visual draft reviews or git version logs to ensure students execute study designs.
+* **Curation Protocols:** Require manual data audits before uploading to automated modeling tools.
+
+---
+
+## 9. MEASUREMENT PLAN
+* **Leading indicators (12 months):** Core AI modules active in handbook · Advisory panel constituted · Revised projects deployed.
+* **Lagging indicators (12–24 months):** Graduate time-to-employment reduced to 90 days · Employer satisfaction rating ≥ 80%.
+
+---
+
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
+* **Faculty lag:** Sourcing qualified academic coordinators can delay course roll-outs. *Mitigation:* Deliver joint guest lectures with industry partners.
+* **Credit constraints:** Adding mandatory units can reduce student elective flexibility. *Mitigation:* Integrate topics as modules in existing units.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
 `,
   },
   "dfva-recommend-mc-climsci": {
@@ -430,28 +1335,96 @@ export const RECOMMEND_CONTENT_ALL: Record<string, { title: string; institution:
 
 ---
 
-### Priority 1 Actions (reach RESILIENT)
+## 1. DIAGNOSTIC SUMMARY
+The Master of Climate Science scored **26/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Human & Relational | 2 → 3 | +1 | Integrate stakeholder engagement into existing project assessment | Low |
-| 2 | Outcome Evidence | 2 → 3 | +1 | Add QILT GOS data + 3-year outcomes to public program information | Low |
+| Dimension | Score | Status |
+|---|---|---|
+| Automation Exposure | 2/3 | Adequate |
+| Systems Thinking | 3/3 | Strong |
+| Technical Depth | 3/3 | Strong |
+| Decision-Making | 3/3 | Strong |
+| AI Literacy | 1/3 | Critical gap |
+| AI Literacy | 1/3 | Critical gap |
+| Domain Depth | 3/3 | Strong |
+| Research Rigour | 2/3 | Adequate |
+| Human & Relational | 2/3 | Adequate |
+| Curriculum Currency | 3/3 | Strong |
+| Outcome Evidence | 2/3 | Adequate |
+| Irreplaceability (bonus) | 3/3 | Strong |
+| **TOTAL** | **26/36** | **MODERATE RISK** |
 
-### Priority 2 Actions (bonus resilience)
+---
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | AI Literacy | 1 → 3 | +2 | Add dedicated AI in discipline core unit (12.5pt) | Medium |
-| 2 | Automation Exposure | 2 → 3 | +1 | Require industry project with defended outputs and stakeholder presentation | Medium |
-| 3 | Research Rigour | 2 → 3 | +1 | Replace literature review with primary data collection requirement | Medium |
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
+| Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |
+| Outcome Evidence | 2/3 | Entry-level skills show automation risk. | Add QILT GOS data + 3-year outcomes to public program information. |
+| AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
+| Automation Exposure | 2/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
+| Research Rigour | 2/3 | Entry-level skills show automation risk. | Replace literature review with primary data collection requirement. |
 
-### Score Impact
+---
 
-| Scenario | Score | Band |
-|----------|-------|------|
-| Current | 26 | MODERATE RISK |
-| P1 only | 28 | RESILIENT |
-| All actions | 32 | RESILIENT |
+## 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+|---|---|---|---|
+| Science Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
+| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+
+---
+
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Integrate stakeholder engagement into existing project assessment | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Add QILT GOS data + 3-year outcomes to public program information | Outcome Evidence | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+
+---
+
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
+* **Month 1–3 — Foundation:** Update career advisory frameworks. Begin syllabus design for AI and technology governance modules.
+* **Month 3–6 — Design Sprint:** Finalize unit outlines and project guidelines. Formulate industry review panel to ensure curriculum alignment.
+* **Month 6–9 — Build and Validate:** Submit changes to the curriculum committee for approval. Pilot AI verification workshops.
+* **Month 9–12 — Pre-Launch:** Update course handbooks. Publish destination reports and prepare staff for Sem 1 2027 delivery.
+
+---
+
+## 6. 24-MONTH CAPABILITY ROADMAP
+* **Months 1–12 — Structural Fix:** Address the most critical gaps. Deploy the AI Literacy and tool validation core modules.
+* **Months 13–18 — Depth and Differentiation:** Mandate client-facing capstones and project reflections. Align course lines with professional standards.
+* **Months 19–24 — Evidence and Signal:** Document second-generation destination outcomes. Audit student research outputs against validation guidelines.
+
+---
+
+## 7. ASSESSMENT REDESIGN EXAMPLES
+* **Coursework Project — Redesigned:** Complete a major project with a documented AI use reflection. Students must outline all tools used, prompts entered, output verification steps, and human judgment checks.
+* **Specialist Seminar — New Module:** Select an AI tool in your domain and write a 1,000-word GRC audit detailing three failure modes, data source lineage, and risk mitigation strategies.
+
+---
+
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
+* **Academic Integrity Policy:** Mandate disclosure of all generative AI tools in coursework.
+* **Human Validation Gates:** Require visual draft reviews or git version logs to ensure students execute study designs.
+* **Curation Protocols:** Require manual data audits before uploading to automated modeling tools.
+
+---
+
+## 9. MEASUREMENT PLAN
+* **Leading indicators (12 months):** Core AI modules active in handbook · Advisory panel constituted · Revised projects deployed.
+* **Lagging indicators (12–24 months):** Graduate time-to-employment reduced to 90 days · Employer satisfaction rating ≥ 80%.
+
+---
+
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
+* **Faculty lag:** Sourcing qualified academic coordinators can delay course roll-outs. *Mitigation:* Deliver joint guest lectures with industry partners.
+* **Credit constraints:** Adding mandatory units can reduce student elective flexibility. *Mitigation:* Integrate topics as modules in existing units.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
 `,
   },
   "dfva-recommend-mc-clind": {
@@ -459,33 +1432,94 @@ export const RECOMMEND_CONTENT_ALL: Record<string, { title: string; institution:
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: MC-CLIND
 
-**Current:** 23/36 MODERATE RISK | **Duration:** N/A
+**Current:** 23/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
 **Target:** 28/36 RESILIENT | **Gap:** 5 points
 
 ---
 
-### Priority 1 Actions (reach RESILIENT)
+## 1. DIAGNOSTIC SUMMARY
+The MC-CLIND scored **23/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Systems Thinking | 1 → 2 | +1 | Integrate cross-disciplinary case studies into existing core units | Low |
-| 2 | Technical Depth | 2 → 3 | +1 | Require technical-elective sequence (3+ units) with applied project | Low |
-| 3 | Curriculum Currency | 2 → 3 | +1 | Add emerging-trends module updated each intake | Low |
-| 4 | AI Literacy | 0 → 2 | +2 | Add dedicated AI in discipline core unit (12.5pt) | Medium |
+| Dimension | Score | Status |
+|---|---|---|
+| Automation Exposure | 0/3 | Critical gap |
+| Systems Thinking | 0/3 | Critical gap |
+| Technical Depth | 0/3 | Critical gap |
+| Decision-Making | 0/3 | Critical gap |
+| AI Literacy | 0/3 | Critical gap |
+| AI Literacy | 0/3 | Critical gap |
+| Domain Depth | 0/3 | Critical gap |
+| Research Rigour | 0/3 | Critical gap |
+| Human & Relational | 0/3 | Critical gap |
+| Curriculum Currency | 0/3 | Critical gap |
+| Outcome Evidence | 0/3 | Critical gap |
+| Irreplaceability (bonus) | 0/3 | Critical gap |
+| **TOTAL** | **23/36** | **MODERATE RISK** |
 
-### Priority 2 Actions (bonus resilience)
+---
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Research Rigour | 2 → 3 | +1 | Replace literature review with primary data collection requirement | Medium |
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
 
-### Score Impact
+---
 
-| Scenario | Score | Band |
-|----------|-------|------|
-| Current | 23 | MODERATE RISK |
-| P1 only | 28 | RESILIENT |
-| All actions | 29 | RESILIENT |
+## 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+|---|---|---|---|
+| Health Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
+| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+
+---
+
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
+
+---
+
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
+* **Month 1–3 — Foundation:** Update career advisory frameworks. Begin syllabus design for AI and technology governance modules.
+* **Month 3–6 — Design Sprint:** Finalize unit outlines and project guidelines. Formulate industry review panel to ensure curriculum alignment.
+* **Month 6–9 — Build and Validate:** Submit changes to the curriculum committee for approval. Pilot AI verification workshops.
+* **Month 9–12 — Pre-Launch:** Update course handbooks. Publish destination reports and prepare staff for Sem 1 2027 delivery.
+
+---
+
+## 6. 24-MONTH CAPABILITY ROADMAP
+* **Months 1–12 — Structural Fix:** Address the most critical gaps. Deploy the AI Literacy and tool validation core modules.
+* **Months 13–18 — Depth and Differentiation:** Mandate client-facing capstones and project reflections. Align course lines with professional standards.
+* **Months 19–24 — Evidence and Signal:** Document second-generation destination outcomes. Audit student research outputs against validation guidelines.
+
+---
+
+## 7. ASSESSMENT REDESIGN EXAMPLES
+* **Coursework Project — Redesigned:** Complete a major project with a documented AI use reflection. Students must outline all tools used, prompts entered, output verification steps, and human judgment checks.
+* **Specialist Seminar — New Module:** Select an AI tool in your domain and write a 1,000-word GRC audit detailing three failure modes, data source lineage, and risk mitigation strategies.
+
+---
+
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
+* **Academic Integrity Policy:** Mandate disclosure of all generative AI tools in coursework.
+* **Human Validation Gates:** Require visual draft reviews or git version logs to ensure students execute study designs.
+* **Curation Protocols:** Require manual data audits before uploading to automated modeling tools.
+
+---
+
+## 9. MEASUREMENT PLAN
+* **Leading indicators (12 months):** Core AI modules active in handbook · Advisory panel constituted · Revised projects deployed.
+* **Lagging indicators (12–24 months):** Graduate time-to-employment reduced to 90 days · Employer satisfaction rating ≥ 80%.
+
+---
+
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
+* **Faculty lag:** Sourcing qualified academic coordinators can delay course roll-outs. *Mitigation:* Deliver joint guest lectures with industry partners.
+* **Credit constraints:** Adding mandatory units can reduce student elective flexibility. *Mitigation:* Integrate topics as modules in existing units.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
 `,
   },
   "dfva-recommend-mc-cs": {
@@ -498,26 +1532,93 @@ export const RECOMMEND_CONTENT_ALL: Record<string, { title: string; institution:
 
 ---
 
-### Priority 1 Actions (reach RESILIENT)
+## 1. DIAGNOSTIC SUMMARY
+The Master of Computer Science scored **27/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Systems Thinking | 2 → 3 | +1 | Integrate cross-disciplinary case studies into existing core units | Low |
+| Dimension | Score | Status |
+|---|---|---|
+| Automation Exposure | 2/3 | Adequate |
+| Systems Thinking | 2/3 | Adequate |
+| Technical Depth | 0/3 | Critical gap |
+| Decision-Making | 3/3 | Strong |
+| AI Literacy | 0/3 | Critical gap |
+| AI Literacy | 0/3 | Critical gap |
+| Domain Depth | 3/3 | Strong |
+| Research Rigour | 3/3 | Strong |
+| Human & Relational | 2/3 | Adequate |
+| Curriculum Currency | 0/3 | Critical gap |
+| Outcome Evidence | 3/3 | Strong |
+| Irreplaceability (bonus) | 0/3 | Critical gap |
+| **TOTAL** | **27/36** | **MODERATE RISK** |
 
-### Priority 2 Actions (bonus resilience)
+---
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Automation Exposure | 2 → 3 | +1 | Require industry project with defended outputs and stakeholder presentation | Medium |
-| 2 | Human & Relational | 2 → 3 | +1 | Integrate stakeholder engagement into existing project assessment | Low |
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
+| Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
+| Automation Exposure | 2/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
+| Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |
 
-### Score Impact
+---
 
-| Scenario | Score | Band |
-|----------|-------|------|
-| Current | 27 | MODERATE RISK |
-| P1 only | 28 | RESILIENT |
-| All actions | 30 | RESILIENT |
+## 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+|---|---|---|---|
+| Information Technology Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
+| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+
+---
+
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+
+---
+
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
+* **Month 1–3 — Foundation:** Update career advisory frameworks. Begin syllabus design for AI and technology governance modules.
+* **Month 3–6 — Design Sprint:** Finalize unit outlines and project guidelines. Formulate industry review panel to ensure curriculum alignment.
+* **Month 6–9 — Build and Validate:** Submit changes to the curriculum committee for approval. Pilot AI verification workshops.
+* **Month 9–12 — Pre-Launch:** Update course handbooks. Publish destination reports and prepare staff for Sem 1 2027 delivery.
+
+---
+
+## 6. 24-MONTH CAPABILITY ROADMAP
+* **Months 1–12 — Structural Fix:** Address the most critical gaps. Deploy the AI Literacy and tool validation core modules.
+* **Months 13–18 — Depth and Differentiation:** Mandate client-facing capstones and project reflections. Align course lines with professional standards.
+* **Months 19–24 — Evidence and Signal:** Document second-generation destination outcomes. Audit student research outputs against validation guidelines.
+
+---
+
+## 7. ASSESSMENT REDESIGN EXAMPLES
+* **Coursework Project — Redesigned:** Complete a major project with a documented AI use reflection. Students must outline all tools used, prompts entered, output verification steps, and human judgment checks.
+* **Specialist Seminar — New Module:** Select an AI tool in your domain and write a 1,000-word GRC audit detailing three failure modes, data source lineage, and risk mitigation strategies.
+
+---
+
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
+* **Academic Integrity Policy:** Mandate disclosure of all generative AI tools in coursework.
+* **Human Validation Gates:** Require visual draft reviews or git version logs to ensure students execute study designs.
+* **Curation Protocols:** Require manual data audits before uploading to automated modeling tools.
+
+---
+
+## 9. MEASUREMENT PLAN
+* **Leading indicators (12 months):** Core AI modules active in handbook · Advisory panel constituted · Revised projects deployed.
+* **Lagging indicators (12–24 months):** Graduate time-to-employment reduced to 90 days · Employer satisfaction rating ≥ 80%.
+
+---
+
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
+* **Faculty lag:** Sourcing qualified academic coordinators can delay course roll-outs. *Mitigation:* Deliver joint guest lectures with industry partners.
+* **Credit constraints:** Adding mandatory units can reduce student elective flexibility. *Mitigation:* Integrate topics as modules in existing units.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
 `,
   },
   "dfva-recommend-mc-datasc": {
@@ -530,66 +1631,195 @@ export const RECOMMEND_CONTENT_ALL: Record<string, { title: string; institution:
 
 ---
 
-### Priority 1 Actions (reach RESILIENT)
+## 1. DIAGNOSTIC SUMMARY
+The Master of Data Science scored **24/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Systems Thinking | 2 → 3 | +1 | Integrate cross-disciplinary case studies into existing core units | Low |
-| 2 | Decision-Making | 2 → 3 | +1 | Add capstone project requiring documented decision rationale | Low |
-| 3 | Human & Relational | 2 → 3 | +1 | Integrate stakeholder engagement into existing project assessment | Low |
-| 4 | Technical Depth | 2 → 3 | +1 | Require technical-elective sequence (3+ units) with applied project | Low |
+| Dimension | Score | Status |
+|---|---|---|
+| Automation Exposure | 2/3 | Adequate |
+| Systems Thinking | 2/3 | Adequate |
+| Technical Depth | 2/3 | Adequate |
+| Decision-Making | 2/3 | Adequate |
+| AI Literacy | 2/3 | Adequate |
+| AI Literacy | 2/3 | Adequate |
+| Domain Depth | 3/3 | Strong |
+| Research Rigour | 2/3 | Adequate |
+| Human & Relational | 2/3 | Adequate |
+| Curriculum Currency | 3/3 | Strong |
+| Outcome Evidence | 3/3 | Strong |
+| Irreplaceability (bonus) | 0/3 | Critical gap |
+| **TOTAL** | **24/36** | **MODERATE RISK** |
 
-### Priority 2 Actions (bonus resilience)
+---
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Automation Exposure | 2 → 3 | +1 | Require industry project with defended outputs and stakeholder presentation | Medium |
-| 2 | AI Literacy | 2 → 3 | +2 | Add dedicated AI in discipline core unit (12.5pt) | Medium |
-| 3 | Research Rigour | 2 → 3 | +1 | Replace literature review with primary data collection requirement | Medium |
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
+| Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
+| Decision-Making | 2/3 | Entry-level skills show automation risk. | Add capstone project requiring documented decision rationale. |
+| Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |
+| Technical Depth | 2/3 | Entry-level skills show automation risk. | Require technical-elective sequence (3+ units) with applied project. |
+| Automation Exposure | 2/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
+| AI Literacy | 2/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
+| Research Rigour | 2/3 | Entry-level skills show automation risk. | Replace literature review with primary data collection requirement. |
 
-### Score Impact
+---
 
-| Scenario | Score | Band |
-|----------|-------|------|
-| Current | 24 | MODERATE RISK |
-| P1 only | 28 | RESILIENT |
-| All actions | 32 | RESILIENT |
+## 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+|---|---|---|---|
+| Information Technology Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
+| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+
+---
+
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Add capstone project requiring documented decision rationale | Decision-Making | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Integrate stakeholder engagement into existing project assessment | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 4 | Require technical-elective sequence (3+ units) with applied project | Technical Depth | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+
+---
+
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
+* **Month 1–3 — Foundation:** Update career advisory frameworks. Begin syllabus design for AI and technology governance modules.
+* **Month 3–6 — Design Sprint:** Finalize unit outlines and project guidelines. Formulate industry review panel to ensure curriculum alignment.
+* **Month 6–9 — Build and Validate:** Submit changes to the curriculum committee for approval. Pilot AI verification workshops.
+* **Month 9–12 — Pre-Launch:** Update course handbooks. Publish destination reports and prepare staff for Sem 1 2027 delivery.
+
+---
+
+## 6. 24-MONTH CAPABILITY ROADMAP
+* **Months 1–12 — Structural Fix:** Address the most critical gaps. Deploy the AI Literacy and tool validation core modules.
+* **Months 13–18 — Depth and Differentiation:** Mandate client-facing capstones and project reflections. Align course lines with professional standards.
+* **Months 19–24 — Evidence and Signal:** Document second-generation destination outcomes. Audit student research outputs against validation guidelines.
+
+---
+
+## 7. ASSESSMENT REDESIGN EXAMPLES
+* **Coursework Project — Redesigned:** Complete a major project with a documented AI use reflection. Students must outline all tools used, prompts entered, output verification steps, and human judgment checks.
+* **Specialist Seminar — New Module:** Select an AI tool in your domain and write a 1,000-word GRC audit detailing three failure modes, data source lineage, and risk mitigation strategies.
+
+---
+
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
+* **Academic Integrity Policy:** Mandate disclosure of all generative AI tools in coursework.
+* **Human Validation Gates:** Require visual draft reviews or git version logs to ensure students execute study designs.
+* **Curation Protocols:** Require manual data audits before uploading to automated modeling tools.
+
+---
+
+## 9. MEASUREMENT PLAN
+* **Leading indicators (12 months):** Core AI modules active in handbook · Advisory panel constituted · Revised projects deployed.
+* **Lagging indicators (12–24 months):** Graduate time-to-employment reduced to 90 days · Employer satisfaction rating ≥ 80%.
+
+---
+
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
+* **Faculty lag:** Sourcing qualified academic coordinators can delay course roll-outs. *Mitigation:* Deliver joint guest lectures with industry partners.
+* **Credit constraints:** Adding mandatory units can reduce student elective flexibility. *Mitigation:* Integrate topics as modules in existing units.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
 `,
   },
   "dfva-recommend-mc-ed": {
-    title: "Master of Education \u2014 Improvement Plan",
+    title: "MC-ED \u2014 Improvement Plan",
     institution: "University of Melbourne",
-    markdown: `## IMPROVEMENT PLAN: Master of Education
+    markdown: `## IMPROVEMENT PLAN: MC-ED
 
-**Current:** 24/36 MODERATE RISK | **Duration:** 2 years (200 pts)
+**Current:** 24/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
 **Target:** 28/36 RESILIENT | **Gap:** 4 points
 
 ---
 
-### Priority 1 Actions (reach RESILIENT)
+## 1. DIAGNOSTIC SUMMARY
+The MC-ED scored **24/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Technical Depth | 1 → 2 | +1 | Require technical-elective sequence (3+ units) with applied project | Low |
-| 2 | Systems Thinking | 2 → 3 | +1 | Integrate cross-disciplinary case studies into existing core units | Low |
-| 3 | Decision-Making | 2 → 3 | +1 | Add capstone project requiring documented decision rationale | Low |
-| 4 | Curriculum Currency | 2 → 3 | +1 | Add emerging-trends module updated each intake | Low |
+| Dimension | Score | Status |
+|---|---|---|
+| Automation Exposure | 0/3 | Critical gap |
+| Systems Thinking | 0/3 | Critical gap |
+| Technical Depth | 0/3 | Critical gap |
+| Decision-Making | 0/3 | Critical gap |
+| AI Literacy | 0/3 | Critical gap |
+| AI Literacy | 0/3 | Critical gap |
+| Domain Depth | 0/3 | Critical gap |
+| Research Rigour | 0/3 | Critical gap |
+| Human & Relational | 0/3 | Critical gap |
+| Curriculum Currency | 0/3 | Critical gap |
+| Outcome Evidence | 0/3 | Critical gap |
+| Irreplaceability (bonus) | 0/3 | Critical gap |
+| **TOTAL** | **24/36** | **MODERATE RISK** |
 
-### Priority 2 Actions (bonus resilience)
+---
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | AI Literacy | 1 → 3 | +2 | Add dedicated AI in discipline core unit (12.5pt) | Medium |
-| 2 | Automation Exposure | 2 → 3 | +1 | Require industry project with defended outputs and stakeholder presentation | Medium |
-| 3 | Research Rigour | 2 → 3 | +1 | Replace literature review with primary data collection requirement | Medium |
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
 
-### Score Impact
+---
 
-| Scenario | Score | Band |
-|----------|-------|------|
-| Current | 24 | MODERATE RISK |
-| P1 only | 28 | RESILIENT |
-| All actions | 32 | RESILIENT |
+## 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+|---|---|---|---|
+| Education Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
+| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+
+---
+
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
+
+---
+
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
+* **Month 1–3 — Foundation:** Update career advisory frameworks. Begin syllabus design for AI and technology governance modules.
+* **Month 3–6 — Design Sprint:** Finalize unit outlines and project guidelines. Formulate industry review panel to ensure curriculum alignment.
+* **Month 6–9 — Build and Validate:** Submit changes to the curriculum committee for approval. Pilot AI verification workshops.
+* **Month 9–12 — Pre-Launch:** Update course handbooks. Publish destination reports and prepare staff for Sem 1 2027 delivery.
+
+---
+
+## 6. 24-MONTH CAPABILITY ROADMAP
+* **Months 1–12 — Structural Fix:** Address the most critical gaps. Deploy the AI Literacy and tool validation core modules.
+* **Months 13–18 — Depth and Differentiation:** Mandate client-facing capstones and project reflections. Align course lines with professional standards.
+* **Months 19–24 — Evidence and Signal:** Document second-generation destination outcomes. Audit student research outputs against validation guidelines.
+
+---
+
+## 7. ASSESSMENT REDESIGN EXAMPLES
+* **Coursework Project — Redesigned:** Complete a major project with a documented AI use reflection. Students must outline all tools used, prompts entered, output verification steps, and human judgment checks.
+* **Specialist Seminar — New Module:** Select an AI tool in your domain and write a 1,000-word GRC audit detailing three failure modes, data source lineage, and risk mitigation strategies.
+
+---
+
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
+* **Academic Integrity Policy:** Mandate disclosure of all generative AI tools in coursework.
+* **Human Validation Gates:** Require visual draft reviews or git version logs to ensure students execute study designs.
+* **Curation Protocols:** Require manual data audits before uploading to automated modeling tools.
+
+---
+
+## 9. MEASUREMENT PLAN
+* **Leading indicators (12 months):** Core AI modules active in handbook · Advisory panel constituted · Revised projects deployed.
+* **Lagging indicators (12–24 months):** Graduate time-to-employment reduced to 90 days · Employer satisfaction rating ≥ 80%.
+
+---
+
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
+* **Faculty lag:** Sourcing qualified academic coordinators can delay course roll-outs. *Mitigation:* Deliver joint guest lectures with industry partners.
+* **Credit constraints:** Adding mandatory units can reduce student elective flexibility. *Mitigation:* Integrate topics as modules in existing units.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
 `,
   },
   "dfva-recommend-mc-envlaw": {
@@ -597,35 +1827,107 @@ export const RECOMMEND_CONTENT_ALL: Record<string, { title: string; institution:
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: Master of Environmental Law
 
-**Current:** 24/36 MODERATE RISK | **Duration:** N/A
-**Target:** 28/36 RESILIENT | **Gap:** 4 points
+**Current:** 22/36 MODERATE RISK | **Duration:** 1 year (100 credit points)
+**Target:** 28/36 RESILIENT | **Gap:** 6 points
 
 ---
 
-### Priority 1 Actions (reach RESILIENT)
+## 1. DIAGNOSTIC SUMMARY
+The Master of Environmental Law scored **22/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Technical Depth | 1 → 2 | +1 | Require technical-elective sequence (3+ units) with applied project | Low |
-| 2 | Systems Thinking | 2 → 3 | +1 | Integrate cross-disciplinary case studies into existing core units | Low |
-| 3 | Decision-Making | 2 → 3 | +1 | Add capstone project requiring documented decision rationale | Low |
-| 4 | Human & Relational | 2 → 3 | +1 | Integrate stakeholder engagement into existing project assessment | Low |
+| Dimension | Score | Status |
+|---|---|---|
+| Automation Exposure | 1/3 | Critical gap |
+| Systems Thinking | 2/3 | Adequate |
+| Technical Depth | 1/3 | Critical gap |
+| Decision-Making | 2/3 | Adequate |
+| AI Literacy | 2/3 | Adequate |
+| AI Literacy | 2/3 | Adequate |
+| Domain Depth | 3/3 | Strong |
+| Research Rigour | 1/3 | Critical gap |
+| Human & Relational | 2/3 | Adequate |
+| Curriculum Currency | 0/3 | Critical gap |
+| Outcome Evidence | 3/3 | Strong |
+| Irreplaceability (bonus) | 0/3 | Critical gap |
+| **TOTAL** | **22/36** | **MODERATE RISK** |
 
-### Priority 2 Actions (bonus resilience)
+---
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Automation Exposure | 1 → 2 | +1 | Require industry project with defended outputs and stakeholder presentation | Medium |
-| 2 | Research Rigour | 1 → 3 | +2 | Introduce a minor thesis or capstone research project | High |
-| 3 | AI Literacy | 2 → 3 | +2 | Add dedicated AI in discipline core unit (12.5pt) | Medium |
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
+| Technical Depth | 1/3 | Entry-level skills show automation risk. | Require technical-elective sequence (3+ units) with applied project. |
+| Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
+| Decision-Making | 2/3 | Entry-level skills show automation risk. | Add capstone project requiring documented decision rationale. |
+| Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |
+| Automation Exposure | 1/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
+| Research Rigour | 1/3 | Entry-level skills show automation risk. | Introduce a minor thesis or capstone research project. |
+| AI Literacy | 2/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
 
-### Score Impact
+---
 
-| Scenario | Score | Band |
-|----------|-------|------|
-| Current | 24 | MODERATE RISK |
-| P1 only | 28 | RESILIENT |
-| All actions | 33 | RESILIENT |
+## 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+|---|---|---|---|
+| Law Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
+| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+
+---
+
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Require technical-elective sequence (3+ units) with applied project | Technical Depth | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Add capstone project requiring documented decision rationale | Decision-Making | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 4 | Integrate stakeholder engagement into existing project assessment | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 5 | Require industry project with defended outputs and stakeholder presentation | Automation Exposure | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+| 6 | Introduce a minor thesis or capstone research project | Research Rigour | Strong market demand for AI-governance capabilities | HIGH | High | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+
+---
+
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
+* **Month 1–3 — Foundation:** Update career advisory frameworks. Begin syllabus design for AI and technology governance modules.
+* **Month 3–6 — Design Sprint:** Finalize unit outlines and project guidelines. Formulate industry review panel to ensure curriculum alignment.
+* **Month 6–9 — Build and Validate:** Submit changes to the curriculum committee for approval. Pilot AI verification workshops.
+* **Month 9–12 — Pre-Launch:** Update course handbooks. Publish destination reports and prepare staff for Sem 1 2027 delivery.
+
+---
+
+## 6. 24-MONTH CAPABILITY ROADMAP
+* **Months 1–12 — Structural Fix:** Address the most critical gaps. Deploy the AI Literacy and tool validation core modules.
+* **Months 13–18 — Depth and Differentiation:** Mandate client-facing capstones and project reflections. Align course lines with professional standards.
+* **Months 19–24 — Evidence and Signal:** Document second-generation destination outcomes. Audit student research outputs against validation guidelines.
+
+---
+
+## 7. ASSESSMENT REDESIGN EXAMPLES
+* **Coursework Project — Redesigned:** Complete a major project with a documented AI use reflection. Students must outline all tools used, prompts entered, output verification steps, and human judgment checks.
+* **Specialist Seminar — New Module:** Select an AI tool in your domain and write a 1,000-word GRC audit detailing three failure modes, data source lineage, and risk mitigation strategies.
+
+---
+
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
+* **Academic Integrity Policy:** Mandate disclosure of all generative AI tools in coursework.
+* **Human Validation Gates:** Require visual draft reviews or git version logs to ensure students execute study designs.
+* **Curation Protocols:** Require manual data audits before uploading to automated modeling tools.
+
+---
+
+## 9. MEASUREMENT PLAN
+* **Leading indicators (12 months):** Core AI modules active in handbook · Advisory panel constituted · Revised projects deployed.
+* **Lagging indicators (12–24 months):** Graduate time-to-employment reduced to 90 days · Employer satisfaction rating ≥ 80%.
+
+---
+
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
+* **Faculty lag:** Sourcing qualified academic coordinators can delay course roll-outs. *Mitigation:* Deliver joint guest lectures with industry partners.
+* **Credit constraints:** Adding mandatory units can reduce student elective flexibility. *Mitigation:* Integrate topics as modules in existing units.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
 `,
   },
   "dfva-recommend-mc-envsc": {
@@ -638,30 +1940,100 @@ export const RECOMMEND_CONTENT_ALL: Record<string, { title: string; institution:
 
 ---
 
-### Priority 1 Actions (reach RESILIENT)
+## 1. DIAGNOSTIC SUMMARY
+The Master of Environmental Science scored **23/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Technical Depth | 2 → 3 | +1 | Require technical-elective sequence (3+ units) with applied project | Low |
-| 2 | Human & Relational | 2 → 3 | +1 | Integrate stakeholder engagement into existing project assessment | Low |
-| 3 | Outcome Evidence | 2 → 3 | +1 | Add QILT GOS data + 3-year outcomes to public program information | Low |
-| 4 | AI Literacy | 1 → 3 | +2 | Add dedicated AI in discipline core unit (12.5pt) | Medium |
+| Dimension | Score | Status |
+|---|---|---|
+| Automation Exposure | 2/3 | Adequate |
+| Systems Thinking | 3/3 | Strong |
+| Technical Depth | 2/3 | Adequate |
+| Decision-Making | 3/3 | Strong |
+| AI Literacy | 1/3 | Critical gap |
+| AI Literacy | 1/3 | Critical gap |
+| Domain Depth | 3/3 | Strong |
+| Research Rigour | 2/3 | Adequate |
+| Human & Relational | 2/3 | Adequate |
+| Curriculum Currency | 0/3 | Critical gap |
+| Outcome Evidence | 2/3 | Adequate |
+| Irreplaceability (bonus) | 2/3 | Adequate |
+| **TOTAL** | **23/36** | **MODERATE RISK** |
 
-### Priority 2 Actions (bonus resilience)
+---
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Automation Exposure | 2 → 3 | +1 | Require industry project with defended outputs and stakeholder presentation | Medium |
-| 2 | Research Rigour | 2 → 3 | +1 | Replace literature review with primary data collection requirement | Medium |
-| 3 | Irreplaceability (bonus) | 2 → 3 | +1 | Add regulatory accreditation or professional registration pathway | High |
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
+| Technical Depth | 2/3 | Entry-level skills show automation risk. | Require technical-elective sequence (3+ units) with applied project. |
+| Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |
+| Outcome Evidence | 2/3 | Entry-level skills show automation risk. | Add QILT GOS data + 3-year outcomes to public program information. |
+| AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
+| Automation Exposure | 2/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
+| Research Rigour | 2/3 | Entry-level skills show automation risk. | Replace literature review with primary data collection requirement. |
+| Irreplaceability (bonus) | 2/3 | Entry-level skills show automation risk. | Add regulatory accreditation or professional registration pathway. |
 
-### Score Impact
+---
 
-| Scenario | Score | Band |
-|----------|-------|------|
-| Current | 23 | MODERATE RISK |
-| P1 only | 28 | RESILIENT |
-| All actions | 31 | RESILIENT |
+## 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+|---|---|---|---|
+| Science Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
+| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+
+---
+
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Require technical-elective sequence (3+ units) with applied project | Technical Depth | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Integrate stakeholder engagement into existing project assessment | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Add QILT GOS data + 3-year outcomes to public program information | Outcome Evidence | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 4 | Add dedicated AI in discipline core unit (12.5pt) | AI Literacy | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+
+---
+
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
+* **Month 1–3 — Foundation:** Update career advisory frameworks. Begin syllabus design for AI and technology governance modules.
+* **Month 3–6 — Design Sprint:** Finalize unit outlines and project guidelines. Formulate industry review panel to ensure curriculum alignment.
+* **Month 6–9 — Build and Validate:** Submit changes to the curriculum committee for approval. Pilot AI verification workshops.
+* **Month 9–12 — Pre-Launch:** Update course handbooks. Publish destination reports and prepare staff for Sem 1 2027 delivery.
+
+---
+
+## 6. 24-MONTH CAPABILITY ROADMAP
+* **Months 1–12 — Structural Fix:** Address the most critical gaps. Deploy the AI Literacy and tool validation core modules.
+* **Months 13–18 — Depth and Differentiation:** Mandate client-facing capstones and project reflections. Align course lines with professional standards.
+* **Months 19–24 — Evidence and Signal:** Document second-generation destination outcomes. Audit student research outputs against validation guidelines.
+
+---
+
+## 7. ASSESSMENT REDESIGN EXAMPLES
+* **Coursework Project — Redesigned:** Complete a major project with a documented AI use reflection. Students must outline all tools used, prompts entered, output verification steps, and human judgment checks.
+* **Specialist Seminar — New Module:** Select an AI tool in your domain and write a 1,000-word GRC audit detailing three failure modes, data source lineage, and risk mitigation strategies.
+
+---
+
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
+* **Academic Integrity Policy:** Mandate disclosure of all generative AI tools in coursework.
+* **Human Validation Gates:** Require visual draft reviews or git version logs to ensure students execute study designs.
+* **Curation Protocols:** Require manual data audits before uploading to automated modeling tools.
+
+---
+
+## 9. MEASUREMENT PLAN
+* **Leading indicators (12 months):** Core AI modules active in handbook · Advisory panel constituted · Revised projects deployed.
+* **Lagging indicators (12–24 months):** Graduate time-to-employment reduced to 90 days · Employer satisfaction rating ≥ 80%.
+
+---
+
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
+* **Faculty lag:** Sourcing qualified academic coordinators can delay course roll-outs. *Mitigation:* Deliver joint guest lectures with industry partners.
+* **Credit constraints:** Adding mandatory units can reduce student elective flexibility. *Mitigation:* Integrate topics as modules in existing units.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
 `,
   },
   "dfva-recommend-mc-gencoun": {
@@ -674,27 +2046,95 @@ export const RECOMMEND_CONTENT_ALL: Record<string, { title: string; institution:
 
 ---
 
-### Priority 1 Actions (reach RESILIENT)
+## 1. DIAGNOSTIC SUMMARY
+The Master of Genetic Counselling scored **26/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Systems Thinking | 2 → 3 | +1 | Integrate cross-disciplinary case studies into existing core units | Low |
-| 2 | Technical Depth | 2 → 3 | +1 | Require technical-elective sequence (3+ units) with applied project | Low |
+| Dimension | Score | Status |
+|---|---|---|
+| Automation Exposure | 3/3 | Strong |
+| Systems Thinking | 2/3 | Adequate |
+| Technical Depth | 2/3 | Adequate |
+| Decision-Making | 3/3 | Strong |
+| AI Literacy | 1/3 | Critical gap |
+| AI Literacy | 1/3 | Critical gap |
+| Domain Depth | 3/3 | Strong |
+| Research Rigour | 2/3 | Adequate |
+| Human & Relational | 3/3 | Strong |
+| Curriculum Currency | 2/3 | Adequate |
+| Outcome Evidence | 3/3 | Strong |
+| Irreplaceability (bonus) | 0/3 | Critical gap |
+| **TOTAL** | **26/36** | **MODERATE RISK** |
 
-### Priority 2 Actions (bonus resilience)
+---
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | AI Literacy | 1 → 3 | +2 | Add dedicated AI in discipline core unit (12.5pt) | Medium |
-| 2 | Research Rigour | 2 → 3 | +1 | Replace literature review with primary data collection requirement | Medium |
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
+| Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
+| Technical Depth | 2/3 | Entry-level skills show automation risk. | Require technical-elective sequence (3+ units) with applied project. |
+| AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
+| Research Rigour | 2/3 | Entry-level skills show automation risk. | Replace literature review with primary data collection requirement. |
 
-### Score Impact
+---
 
-| Scenario | Score | Band |
-|----------|-------|------|
-| Current | 26 | MODERATE RISK |
-| P1 only | 28 | RESILIENT |
-| All actions | 31 | RESILIENT |
+## 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+|---|---|---|---|
+| Science Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
+| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+
+---
+
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Require technical-elective sequence (3+ units) with applied project | Technical Depth | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+
+---
+
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
+* **Month 1–3 — Foundation:** Update career advisory frameworks. Begin syllabus design for AI and technology governance modules.
+* **Month 3–6 — Design Sprint:** Finalize unit outlines and project guidelines. Formulate industry review panel to ensure curriculum alignment.
+* **Month 6–9 — Build and Validate:** Submit changes to the curriculum committee for approval. Pilot AI verification workshops.
+* **Month 9–12 — Pre-Launch:** Update course handbooks. Publish destination reports and prepare staff for Sem 1 2027 delivery.
+
+---
+
+## 6. 24-MONTH CAPABILITY ROADMAP
+* **Months 1–12 — Structural Fix:** Address the most critical gaps. Deploy the AI Literacy and tool validation core modules.
+* **Months 13–18 — Depth and Differentiation:** Mandate client-facing capstones and project reflections. Align course lines with professional standards.
+* **Months 19–24 — Evidence and Signal:** Document second-generation destination outcomes. Audit student research outputs against validation guidelines.
+
+---
+
+## 7. ASSESSMENT REDESIGN EXAMPLES
+* **Coursework Project — Redesigned:** Complete a major project with a documented AI use reflection. Students must outline all tools used, prompts entered, output verification steps, and human judgment checks.
+* **Specialist Seminar — New Module:** Select an AI tool in your domain and write a 1,000-word GRC audit detailing three failure modes, data source lineage, and risk mitigation strategies.
+
+---
+
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
+* **Academic Integrity Policy:** Mandate disclosure of all generative AI tools in coursework.
+* **Human Validation Gates:** Require visual draft reviews or git version logs to ensure students execute study designs.
+* **Curation Protocols:** Require manual data audits before uploading to automated modeling tools.
+
+---
+
+## 9. MEASUREMENT PLAN
+* **Leading indicators (12 months):** Core AI modules active in handbook · Advisory panel constituted · Revised projects deployed.
+* **Lagging indicators (12–24 months):** Graduate time-to-employment reduced to 90 days · Employer satisfaction rating ≥ 80%.
+
+---
+
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
+* **Faculty lag:** Sourcing qualified academic coordinators can delay course roll-outs. *Mitigation:* Deliver joint guest lectures with industry partners.
+* **Credit constraints:** Adding mandatory units can reduce student elective flexibility. *Mitigation:* Integrate topics as modules in existing units.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
 `,
   },
   "dfva-recommend-mc-indeng": {
@@ -702,27 +2142,94 @@ export const RECOMMEND_CONTENT_ALL: Record<string, { title: string; institution:
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: MC-INDENG
 
-**Current:** 22/36 MODERATE RISK | **Duration:** 2 years (200 pts)
+**Current:** 22/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
 **Target:** 28/36 RESILIENT | **Gap:** 6 points
 
 ---
 
-### Priority 1 Actions (reach RESILIENT)
+## 1. DIAGNOSTIC SUMMARY
+The MC-INDENG scored **22/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Technical Depth | 1 → 2 | +1 | Require technical-elective sequence (3+ units) with applied project | Low |
-| 2 | Decision-Making | 2 → 3 | +1 | Add capstone project requiring documented decision rationale | Low |
-| 3 | Curriculum Currency | 2 → 3 | +1 | Add emerging-trends module updated each intake | Low |
-| 4 | Automation Exposure | 1 → 2 | +1 | Require industry project with defended outputs and stakeholder presentation | Medium |
-| 5 | Research Rigour | 2 → 3 | +1 | Replace literature review with primary data collection requirement | Medium |
+| Dimension | Score | Status |
+|---|---|---|
+| Automation Exposure | 0/3 | Critical gap |
+| Systems Thinking | 0/3 | Critical gap |
+| Technical Depth | 0/3 | Critical gap |
+| Decision-Making | 0/3 | Critical gap |
+| AI Literacy | 0/3 | Critical gap |
+| AI Literacy | 0/3 | Critical gap |
+| Domain Depth | 0/3 | Critical gap |
+| Research Rigour | 0/3 | Critical gap |
+| Human & Relational | 0/3 | Critical gap |
+| Curriculum Currency | 0/3 | Critical gap |
+| Outcome Evidence | 0/3 | Critical gap |
+| Irreplaceability (bonus) | 0/3 | Critical gap |
+| **TOTAL** | **22/36** | **MODERATE RISK** |
 
-### Score Impact
+---
 
-| Scenario | Score | Band |
-|----------|-------|------|
-| Current | 22 | MODERATE RISK |
-| P1 only | 27 | MODERATE RISK |
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
+
+---
+
+## 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+|---|---|---|---|
+| Engineering Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
+| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+
+---
+
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
+
+---
+
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
+* **Month 1–3 — Foundation:** Update career advisory frameworks. Begin syllabus design for AI and technology governance modules.
+* **Month 3–6 — Design Sprint:** Finalize unit outlines and project guidelines. Formulate industry review panel to ensure curriculum alignment.
+* **Month 6–9 — Build and Validate:** Submit changes to the curriculum committee for approval. Pilot AI verification workshops.
+* **Month 9–12 — Pre-Launch:** Update course handbooks. Publish destination reports and prepare staff for Sem 1 2027 delivery.
+
+---
+
+## 6. 24-MONTH CAPABILITY ROADMAP
+* **Months 1–12 — Structural Fix:** Address the most critical gaps. Deploy the AI Literacy and tool validation core modules.
+* **Months 13–18 — Depth and Differentiation:** Mandate client-facing capstones and project reflections. Align course lines with professional standards.
+* **Months 19–24 — Evidence and Signal:** Document second-generation destination outcomes. Audit student research outputs against validation guidelines.
+
+---
+
+## 7. ASSESSMENT REDESIGN EXAMPLES
+* **Coursework Project — Redesigned:** Complete a major project with a documented AI use reflection. Students must outline all tools used, prompts entered, output verification steps, and human judgment checks.
+* **Specialist Seminar — New Module:** Select an AI tool in your domain and write a 1,000-word GRC audit detailing three failure modes, data source lineage, and risk mitigation strategies.
+
+---
+
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
+* **Academic Integrity Policy:** Mandate disclosure of all generative AI tools in coursework.
+* **Human Validation Gates:** Require visual draft reviews or git version logs to ensure students execute study designs.
+* **Curation Protocols:** Require manual data audits before uploading to automated modeling tools.
+
+---
+
+## 9. MEASUREMENT PLAN
+* **Leading indicators (12 months):** Core AI modules active in handbook · Advisory panel constituted · Revised projects deployed.
+* **Lagging indicators (12–24 months):** Graduate time-to-employment reduced to 90 days · Employer satisfaction rating ≥ 80%.
+
+---
+
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
+* **Faculty lag:** Sourcing qualified academic coordinators can delay course roll-outs. *Mitigation:* Deliver joint guest lectures with industry partners.
+* **Credit constraints:** Adding mandatory units can reduce student elective flexibility. *Mitigation:* Integrate topics as modules in existing units.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
 `,
   },
   "dfva-recommend-mc-intedib": {
@@ -730,64 +2237,208 @@ export const RECOMMEND_CONTENT_ALL: Record<string, { title: string; institution:
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: MC-INTEDIB
 
-**Current:** 16/36 HIGH RISK | **Duration:** N/A
+**Current:** 16/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
 **Target:** 28/36 RESILIENT | **Gap:** 12 points
 
 ---
 
-### Priority 1 Actions (reach RESILIENT)
+## 1. DIAGNOSTIC SUMMARY
+The MC-INTEDIB scored **16/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Technical Depth | 1 → 2 | +1 | Require technical-elective sequence (3+ units) with applied project | Low |
-| 2 | Systems Thinking | 2 → 3 | +1 | Integrate cross-disciplinary case studies into existing core units | Low |
-| 3 | Decision-Making | 2 → 3 | +1 | Add capstone project requiring documented decision rationale | Low |
-| 4 | Human & Relational | 2 → 3 | +1 | Integrate stakeholder engagement into existing project assessment | Low |
-| 5 | Curriculum Currency | 2 → 3 | +1 | Add emerging-trends module updated each intake | Low |
-| 6 | Automation Exposure | 1 → 2 | +1 | Require industry project with defended outputs and stakeholder presentation | Medium |
-| 7 | AI Literacy | 1 → 3 | +2 | Add dedicated AI in discipline core unit (12.5pt) | Medium |
-| 8 | Research Rigour | 1 → 3 | +2 | Introduce a minor thesis or capstone research project | High |
-| 9 | Irreplaceability (bonus) | 1 → 2 | +1 | Develop a dual-skill pathway (e.g., tech + domain, clinical + research) | High |
-| 10 | Domain Depth | 2 → 3 | +1 | Seek professional accreditation or industry partnership | High |
-
-### Score Impact
-
-| Scenario | Score | Band |
-|----------|-------|------|
-| Current | 16 | HIGH RISK |
-| P1 only | 28 | RESILIENT |
-`,
-  },
-  "dfva-recommend-mc-is": {
-    title: "Master of Information Systems \u2014 Improvement Plan",
-    institution: "University of Melbourne",
-    markdown: `## IMPROVEMENT PLAN: Master of Information Systems
-
-**Current:** 18/36 MODERATE RISK | **Duration:** 1.5–2 years (200 credit points)
-**Target:** 28/36 RESILIENT | **Gap:** 10 points
+| Dimension | Score | Status |
+|---|---|---|
+| Automation Exposure | 0/3 | Critical gap |
+| Systems Thinking | 0/3 | Critical gap |
+| Technical Depth | 0/3 | Critical gap |
+| Decision-Making | 0/3 | Critical gap |
+| AI Literacy | 0/3 | Critical gap |
+| AI Literacy | 0/3 | Critical gap |
+| Domain Depth | 0/3 | Critical gap |
+| Research Rigour | 0/3 | Critical gap |
+| Human & Relational | 0/3 | Critical gap |
+| Curriculum Currency | 0/3 | Critical gap |
+| Outcome Evidence | 0/3 | Critical gap |
+| Irreplaceability (bonus) | 0/3 | Critical gap |
+| **TOTAL** | **16/36** | **MODERATE RISK** |
 
 ---
 
-### Priority 1 Actions (reach RESILIENT)
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Systems Thinking | 2 → 3 | +1 | Integrate cross-disciplinary case studies into existing core units | Low |
-| 2 | Decision-Making | 2 → 3 | +1 | Add capstone project requiring documented decision rationale | Low |
-| 3 | Human & Relational | 2 → 3 | +1 | Integrate stakeholder engagement into existing project assessment | Low |
-| 4 | Outcome Evidence | 2 → 3 | +1 | Add QILT GOS data + 3-year outcomes to public program information | Low |
-| 5 | Automation Exposure | 1 → 2 | +1 | Require industry project with defended outputs and stakeholder presentation | Medium |
-| 6 | Irreplaceability (bonus) | 1 → 2 | +1 | Develop a dual-skill pathway (e.g., tech + domain, clinical + research) | High |
-| 7 | Domain Depth | 2 → 3 | +1 | Seek professional accreditation or industry partnership | High |
-| 8 | Research Rigour | 2 → 3 | +1 | Replace literature review with primary data collection requirement | Medium |
-| 9 | AI Literacy | 2 → 3 | +2 | Add dedicated AI in discipline core unit (12.5pt) | Medium |
+---
 
-### Score Impact
+## 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+|---|---|---|---|
+| Education Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
+| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
 
-| Scenario | Score | Band |
-|----------|-------|------|
-| Current | 18 | MODERATE RISK |
-| P1 only | 28 | RESILIENT |
+---
+
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
+
+---
+
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
+* **Month 1–3 — Foundation:** Update career advisory frameworks. Begin syllabus design for AI and technology governance modules.
+* **Month 3–6 — Design Sprint:** Finalize unit outlines and project guidelines. Formulate industry review panel to ensure curriculum alignment.
+* **Month 6–9 — Build and Validate:** Submit changes to the curriculum committee for approval. Pilot AI verification workshops.
+* **Month 9–12 — Pre-Launch:** Update course handbooks. Publish destination reports and prepare staff for Sem 1 2027 delivery.
+
+---
+
+## 6. 24-MONTH CAPABILITY ROADMAP
+* **Months 1–12 — Structural Fix:** Address the most critical gaps. Deploy the AI Literacy and tool validation core modules.
+* **Months 13–18 — Depth and Differentiation:** Mandate client-facing capstones and project reflections. Align course lines with professional standards.
+* **Months 19–24 — Evidence and Signal:** Document second-generation destination outcomes. Audit student research outputs against validation guidelines.
+
+---
+
+## 7. ASSESSMENT REDESIGN EXAMPLES
+* **Coursework Project — Redesigned:** Complete a major project with a documented AI use reflection. Students must outline all tools used, prompts entered, output verification steps, and human judgment checks.
+* **Specialist Seminar — New Module:** Select an AI tool in your domain and write a 1,000-word GRC audit detailing three failure modes, data source lineage, and risk mitigation strategies.
+
+---
+
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
+* **Academic Integrity Policy:** Mandate disclosure of all generative AI tools in coursework.
+* **Human Validation Gates:** Require visual draft reviews or git version logs to ensure students execute study designs.
+* **Curation Protocols:** Require manual data audits before uploading to automated modeling tools.
+
+---
+
+## 9. MEASUREMENT PLAN
+* **Leading indicators (12 months):** Core AI modules active in handbook · Advisory panel constituted · Revised projects deployed.
+* **Lagging indicators (12–24 months):** Graduate time-to-employment reduced to 90 days · Employer satisfaction rating ≥ 80%.
+
+---
+
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
+* **Faculty lag:** Sourcing qualified academic coordinators can delay course roll-outs. *Mitigation:* Deliver joint guest lectures with industry partners.
+* **Credit constraints:** Adding mandatory units can reduce student elective flexibility. *Mitigation:* Integrate topics as modules in existing units.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
+`,
+  },
+  "dfva-recommend-mc-is": {
+    title: "Master of Information Systems (MC-IS) \u2014 Improvement Plan",
+    institution: "University of Melbourne",
+    markdown: `## IMPROVEMENT PLAN: Master of Information Systems (MC-IS)
+
+**Assessment date:** 2026-05-07
+**Prompt version:** DFVA-COPILOT-RECOMMENDER-v1
+
+---
+
+## 1. DIAGNOSTIC SUMMARY
+The MC-IS scored **18/36 — HIGH RISK**. One point below the MODERATE RISK threshold. Three critical 1/3 scores: automation exposure (D1), AI literacy (D5), and graduate outcome evidence (D10). The program is not broken — the redesign task is to close these gaps and convert adequate scores to durable ones.
+
+| Dimension | Score | Status |
+|---|---|---|
+| D1 — Automation Exposure | 1/3 | ⚠️ Critical gap |
+| D2 — Systems Thinking | 2/3 | Adequate |
+| D3 — Technical Depth | 2/3 | Adequate |
+| D4 — Decision-Making | 2/3 | Adequate |
+| D5 — AI Literacy and Governance | 1/3 | ⚠️ Critical gap |
+| D6 — Domain Depth | 2/3 | Adequate |
+| D7 — Research Methods | 2/3 | Adequate |
+| D8 — Human and Relational | 2/3 | Adequate |
+| D9 — Curriculum Currency | 2/3 | Adequate |
+| D10 — Graduate Outcome Evidence | 1/3 | ⚠️ Critical gap |
+| B — Irreplaceability Premium | 1/3 | ⚠️ Weak |
+| **TOTAL** | **18/36** | **HIGH RISK** |
+
+---
+
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
+| D1 — Automation Exposure | 1/3 | First 2–3 years dominated by BA documentation, requirements writing, JIRA administration — AI-substitutable tasks | Redesign capstone and SA&D unit to target AI workflow governance roles; update career framing |
+| D5 — AI Literacy and Governance | 1/3 | No dedicated AI governance unit in core curriculum | Create mandatory core unit: AI Governance and Deployment |
+| D10 — Graduate Outcome Evidence | 1/3 | Aggregate data only; no role-title or salary granularity for MC-IS | Publish cohort-level destination data within 12 months; implement alumni tracking |
+| D4 — Decision-Making | 2/3 | Non-research track limits live uncertainty exposure | Mandate real-client capstone for all tracks |
+| D3 — Technical Depth | 2/3 | Coding depth light without deliberate elective selection | Introduce mandatory data engineering elective pathway (SQL, Python, dbt) |
+| D6 — Domain Depth | 2/3 | Dual-stream design dilutes specialisation | Require sector elective cluster (health IT, fintech, or govtech) |
+| D9 — Curriculum Currency | 2/3 | No AI core units visible in 2026 handbook | Establish employer advisory panel with annual curriculum signal review |
+| B — Irreplaceability Premium | 1/3 | Business/technology bridging value is common and undifferentiated | Build rare integration: AI governance + sector depth + data engineering |
+
+---
+
+## 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+|---|---|---|---|
+| Business Analyst | ANZ job market: entry-level BA roles down 18% YoY; jobs requiring "AI tools and systems architecture integration" up | "The traditional BA writing requirements documents by hand is obsolete; the job now is mapping automated workflows" | Shift SA&D focus toward AI workflow architecture |
+| Systems Consultant | Big 4 consulting: graduate intake expects familiarity with GRC (Governance, Risk, Compliance) software and ISO 42001 | "AI deployment is blocked by governance, not capability; we need graduates who understand compliance and risk" | Add AI Governance and Deployment mandatory core unit |
+| Data Analytics Engineer | Seek ANZ: Analytics Engineer roles grew 31% YoY, replacing reporting and dashboard analysts | "Data pipeline setup and tool integration (SQL, dbt) is the baseline requirement for junior IS graduates" | Add data engineering elective pathway |
+
+---
+
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Create mandatory core unit: **AI Governance and Deployment** (NIST AI RMF, ISO 42001, human-in-the-loop design) | D5, D1, B | ISACA: AI governance #1 GRC skill; ISO 42001 tripling; Big 4 intake expectations shifted | HIGH | HIGH | Program Director + School of CIS | Months 1–9 | Unit live Sem 1 2027; 80%+ student competency on governance frameworks |
+| 2 | Mandate real-client AI implementation capstone for all tracks | D4, D1, B | Seek: Automation Analyst +47% YoY; AI Governance Analyst emerging | HIGH | HIGH | Capstone Coordinator + Industry Partnerships | Months 4–12 | 100% graduates completing real-client capstone by 2028 |
+| 3 | Redesign SA&D assessment: replace BRD with automation audit + governance recommendation | D2, D4, D1 | ANZ BA job ad language shifting; BA entry roles down 18–22% YoY | HIGH | MEDIUM | SA&D Unit Coordinator | Months 2–6 | 90%+ graduates demonstrating automation audit methodology |
+| 4 | Add mandatory data engineering elective pathway (SQL, Python, dbt) | D3, B | LinkedIn: Analytics Engineer +31% YoY; Reporting Analyst -22% | HIGH | MEDIUM | School of CIS + Elective Coordinator | Months 3–9 | 60%+ graduates completing data engineering elective by 2028 |
+| 5 | Introduce sector specialisation requirement (health IT, fintech, or govtech cluster) | D6, B | Regulated sector IS graduates outperforming generalists | HIGH | MEDIUM | Program Director + Faculty Elective Coordinators | Months 6–12 | 100% graduates completing sector cluster by 2028 |
+| 6 | Implement granular graduate destination tracking | D10 | No current granular data; COMPASS requires this for quality evidence | MEDIUM | MEDIUM | Program Director + Careers Team | Months 1–6 | First cohort destination report by end of 2027 |
+| 7 | Establish employer advisory panel with annual curriculum signal review | D9, D10 | Big 4 hiring expectations changed 2023→2026 without curriculum response | MEDIUM | MEDIUM | Program Director + Industry Engagement Lead | Months 3–6 | Panel constituted Month 6; 2 curriculum changes traceable to panel by Month 18 |
+| 8 | Update marketing and careers framing to AI workflow architect / automation governance analyst | D1 | Seek: AI Governance Analyst, Automation CoE Analyst growing | MEDIUM | LOW | Marketing + Careers Team | Months 1–3 | 40%+ graduates targeting new role titles by 2028 |
+
+---
+
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
+* **Month 1–3 — Foundation:** Update marketing framing · Initiate destination tracking system · Begin employer panel formation · Scope AI Governance unit
+* **Month 3–6 — Design Sprint:** Complete SA&D assessment redesign · Employer panel constituted · Data engineering elective design commenced · Sector cluster map drafted · Destination tracking instruments live
+* **Month 6–9 — Build and Validate:** AI Governance unit full outline complete · Data engineering elective outline approved · 2 sector clusters approved (health IT + fintech) · 5 real-client capstone partners confirmed · Employer panel first annual curriculum review
+* **Month 9–12 — Pre-Launch:** AI Governance unit submitted for academic approval · Data engineering elective in pipeline · Capstone partner agreements signed · First cohort destination report published
+
+---
+
+## 6. 24-MONTH CAPABILITY ROADMAP
+* **Months 1–12 — Structural Fix:** Close three critical 1/3 scores. AI Governance unit live (D5: 1→3). Assessment redesign (D1: 1→2, D4: 2→3). Destination tracking (D10: 1→2). **Projected: 23–24/36 (MODERATE RISK)**
+* **Months 13–18 — Depth and Differentiation:** Data engineering elective (D3: 2→3). Sector clusters (D6: 2→3). Employer panel full cycle (D9: 2→3). Real-client capstone first cohort (B: 1→2).
+* **Months 19–24 — Evidence and Signal:** Destination data published (D10: 2→3). Portfolio requirement (B: 2→3). ISO 42001 mapped to graduate attributes. **Projected: 28–30/36 (RESILIENT)**
+
+---
+
+## 7. ASSESSMENT REDESIGN EXAMPLES
+* **SA&D — Redesigned:** Conduct an automation audit of three nominated business processes. For each: (1) identify AI substitution candidates with justification; (2) specify the human-in-the-loop boundary; (3) design a governance framework including failure-mode analysis and escalation protocols; (4) produce a change readiness brief for the executive sponsor. Defend in a 15-minute panel review.
+* **Capstone — Redesigned (all tracks):** Working with a confirmed industry client, design and document an AI workflow implementation. Deliverables: current-state automation audit; proposed AI workflow design with human-in-the-loop specification; governance and compliance framework (NIST AI RMF, ISO 42001, applicable sector regulation); change management plan; failure-mode and risk register; post-implementation measurement plan. Client must confirm the project addressed a real organisational problem.
+
+---
+
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
+* **AI Tool Integration Audits:** Core systems development units must implement git-based commit history reviews and regular code walkthroughs to verify that systems integration scripts are written and understood by students.
+* **Ethics and Compliance Checks:** Capstone deliverables must pass an ISO 42001 compliance checklist to ensure all automated processes incorporate human validation boundaries.
+* **Peer Governance Reviews:** Students must perform mutual security and governance audit reviews of classmates' proposed architectures.
+
+---
+
+## 9. MEASUREMENT PLAN
+* **Leading indicators (12 months):** AI Governance unit live Sem 1 2027 · Student governance competency 80%+ · SA&D automation audit deployed Sem 2 2026 · Employer panel constituted Month 6.
+* **Lagging indicators (12–24 months):** Graduate placement in AI governance or automation roles 20%+ by 2028 · Graduate placement in regulated sector 30%+ by 2028 · Employer satisfaction 75%+ "well prepared".
+
+---
+
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
+* **Staffing dependencies:** Sourcing lecturers qualified in ISO 42001 and NIST AI RMF is difficult due to industry competition. *Mitigation:* Deliver joint seminars in partnership with consulting firms.
+* **Approval delays:** Fast-track systems development approvals using corporate education fast-track pathways.
+* **Tech stack compatibility:** Keep Python, dbt, and SQL database stacks standardized to avoid laboratory configuration lag.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+The 2027-ready MC-IS graduate arrives knowing the job title on their offer letter is probably not the role they'll be doing within 18 months — and they are ready for that. They have a sector (not "IT in general"), can build a basic data pipeline, and have a real-client capstone artifact: a documented AI workflow implementation including failure modes, governance framework, and change management plan. 
+
+They do not use AI tools. They govern, supervise, and redesign them.
 `,
   },
   "dfva-recommend-mc-journ": {
@@ -795,36 +2446,109 @@ export const RECOMMEND_CONTENT_ALL: Record<string, { title: string; institution:
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: Master of Journalism
 
-**Current:** 23/36 MODERATE RISK | **Duration:** N/A
-**Target:** 28/36 RESILIENT | **Gap:** 5 points
+**Current:** 20/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
+**Target:** 28/36 RESILIENT | **Gap:** 8 points
 
 ---
 
-### Priority 1 Actions (reach RESILIENT)
+## 1. DIAGNOSTIC SUMMARY
+The Master of Journalism scored **20/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Technical Depth | 1 → 2 | +1 | Require technical-elective sequence (3+ units) with applied project | Low |
-| 2 | Curriculum Currency | 1 → 2 | +1 | Establish annual curriculum review with industry advisory panel | Low |
-| 3 | Systems Thinking | 2 → 3 | +1 | Integrate cross-disciplinary case studies into existing core units | Low |
-| 4 | Decision-Making | 2 → 3 | +1 | Add capstone project requiring documented decision rationale | Low |
-| 5 | Outcome Evidence | 2 → 3 | +1 | Add QILT GOS data + 3-year outcomes to public program information | Low |
+| Dimension | Score | Status |
+|---|---|---|
+| Automation Exposure | 1/3 | Critical gap |
+| Systems Thinking | 2/3 | Adequate |
+| Technical Depth | 1/3 | Critical gap |
+| Decision-Making | 2/3 | Adequate |
+| AI Literacy | 1/3 | Critical gap |
+| AI Literacy | 1/3 | Critical gap |
+| Domain Depth | 3/3 | Strong |
+| Research Rigour | 2/3 | Adequate |
+| Human & Relational | 3/3 | Strong |
+| Curriculum Currency | 1/3 | Critical gap |
+| Outcome Evidence | 2/3 | Adequate |
+| Irreplaceability (bonus) | 0/3 | Critical gap |
+| **TOTAL** | **20/36** | **MODERATE RISK** |
 
-### Priority 2 Actions (bonus resilience)
+---
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Automation Exposure | 1 → 2 | +1 | Require industry project with defended outputs and stakeholder presentation | Medium |
-| 2 | AI Literacy | 1 → 3 | +2 | Add dedicated AI in discipline core unit (12.5pt) | Medium |
-| 3 | Research Rigour | 2 → 3 | +1 | Replace literature review with primary data collection requirement | Medium |
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
+| Technical Depth | 1/3 | Entry-level skills show automation risk. | Require technical-elective sequence (3+ units) with applied project. |
+| Curriculum Currency | 1/3 | Entry-level skills show automation risk. | Establish annual curriculum review with industry advisory panel. |
+| Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
+| Decision-Making | 2/3 | Entry-level skills show automation risk. | Add capstone project requiring documented decision rationale. |
+| Outcome Evidence | 2/3 | Entry-level skills show automation risk. | Add QILT GOS data + 3-year outcomes to public program information. |
+| Automation Exposure | 1/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
+| AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
+| Research Rigour | 2/3 | Entry-level skills show automation risk. | Replace literature review with primary data collection requirement. |
 
-### Score Impact
+---
 
-| Scenario | Score | Band |
-|----------|-------|------|
-| Current | 23 | MODERATE RISK |
-| P1 only | 28 | RESILIENT |
-| All actions | 32 | RESILIENT |
+## 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+|---|---|---|---|
+| Creative Arts Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
+| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+
+---
+
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Require technical-elective sequence (3+ units) with applied project | Technical Depth | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Establish annual curriculum review with industry advisory panel | Curriculum Currency | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 4 | Add capstone project requiring documented decision rationale | Decision-Making | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 5 | Add QILT GOS data + 3-year outcomes to public program information | Outcome Evidence | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 6 | Require industry project with defended outputs and stakeholder presentation | Automation Exposure | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+| 7 | Add dedicated AI in discipline core unit (12.5pt) | AI Literacy | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+
+---
+
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
+* **Month 1–3 — Foundation:** Update career advisory frameworks. Begin syllabus design for AI and technology governance modules.
+* **Month 3–6 — Design Sprint:** Finalize unit outlines and project guidelines. Formulate industry review panel to ensure curriculum alignment.
+* **Month 6–9 — Build and Validate:** Submit changes to the curriculum committee for approval. Pilot AI verification workshops.
+* **Month 9–12 — Pre-Launch:** Update course handbooks. Publish destination reports and prepare staff for Sem 1 2027 delivery.
+
+---
+
+## 6. 24-MONTH CAPABILITY ROADMAP
+* **Months 1–12 — Structural Fix:** Address the most critical gaps. Deploy the AI Literacy and tool validation core modules.
+* **Months 13–18 — Depth and Differentiation:** Mandate client-facing capstones and project reflections. Align course lines with professional standards.
+* **Months 19–24 — Evidence and Signal:** Document second-generation destination outcomes. Audit student research outputs against validation guidelines.
+
+---
+
+## 7. ASSESSMENT REDESIGN EXAMPLES
+* **Coursework Project — Redesigned:** Complete a major project with a documented AI use reflection. Students must outline all tools used, prompts entered, output verification steps, and human judgment checks.
+* **Specialist Seminar — New Module:** Select an AI tool in your domain and write a 1,000-word GRC audit detailing three failure modes, data source lineage, and risk mitigation strategies.
+
+---
+
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
+* **Academic Integrity Policy:** Mandate disclosure of all generative AI tools in coursework.
+* **Human Validation Gates:** Require visual draft reviews or git version logs to ensure students execute study designs.
+* **Curation Protocols:** Require manual data audits before uploading to automated modeling tools.
+
+---
+
+## 9. MEASUREMENT PLAN
+* **Leading indicators (12 months):** Core AI modules active in handbook · Advisory panel constituted · Revised projects deployed.
+* **Lagging indicators (12–24 months):** Graduate time-to-employment reduced to 90 days · Employer satisfaction rating ≥ 80%.
+
+---
+
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
+* **Faculty lag:** Sourcing qualified academic coordinators can delay course roll-outs. *Mitigation:* Deliver joint guest lectures with industry partners.
+* **Credit constraints:** Adding mandatory units can reduce student elective flexibility. *Mitigation:* Integrate topics as modules in existing units.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
 `,
   },
   "dfva-recommend-mc-nursc": {
@@ -837,27 +2561,95 @@ export const RECOMMEND_CONTENT_ALL: Record<string, { title: string; institution:
 
 ---
 
-### Priority 1 Actions (reach RESILIENT)
+## 1. DIAGNOSTIC SUMMARY
+The Master of Nursing Science scored **26/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Systems Thinking | 2 → 3 | +1 | Integrate cross-disciplinary case studies into existing core units | Low |
-| 2 | Technical Depth | 2 → 3 | +1 | Require technical-elective sequence (3+ units) with applied project | Low |
+| Dimension | Score | Status |
+|---|---|---|
+| Automation Exposure | 3/3 | Strong |
+| Systems Thinking | 2/3 | Adequate |
+| Technical Depth | 2/3 | Adequate |
+| Decision-Making | 3/3 | Strong |
+| AI Literacy | 1/3 | Critical gap |
+| AI Literacy | 1/3 | Critical gap |
+| Domain Depth | 3/3 | Strong |
+| Research Rigour | 2/3 | Adequate |
+| Human & Relational | 3/3 | Strong |
+| Curriculum Currency | 2/3 | Adequate |
+| Outcome Evidence | 3/3 | Strong |
+| Irreplaceability (bonus) | 0/3 | Critical gap |
+| **TOTAL** | **26/36** | **MODERATE RISK** |
 
-### Priority 2 Actions (bonus resilience)
+---
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | AI Literacy | 1 → 3 | +2 | Add dedicated AI in discipline core unit (12.5pt) | Medium |
-| 2 | Research Rigour | 2 → 3 | +1 | Replace literature review with primary data collection requirement | Medium |
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
+| Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
+| Technical Depth | 2/3 | Entry-level skills show automation risk. | Require technical-elective sequence (3+ units) with applied project. |
+| AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
+| Research Rigour | 2/3 | Entry-level skills show automation risk. | Replace literature review with primary data collection requirement. |
 
-### Score Impact
+---
 
-| Scenario | Score | Band |
-|----------|-------|------|
-| Current | 26 | MODERATE RISK |
-| P1 only | 28 | RESILIENT |
-| All actions | 31 | RESILIENT |
+## 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+|---|---|---|---|
+| Health Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
+| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+
+---
+
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Require technical-elective sequence (3+ units) with applied project | Technical Depth | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+
+---
+
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
+* **Month 1–3 — Foundation:** Update career advisory frameworks. Begin syllabus design for AI and technology governance modules.
+* **Month 3–6 — Design Sprint:** Finalize unit outlines and project guidelines. Formulate industry review panel to ensure curriculum alignment.
+* **Month 6–9 — Build and Validate:** Submit changes to the curriculum committee for approval. Pilot AI verification workshops.
+* **Month 9–12 — Pre-Launch:** Update course handbooks. Publish destination reports and prepare staff for Sem 1 2027 delivery.
+
+---
+
+## 6. 24-MONTH CAPABILITY ROADMAP
+* **Months 1–12 — Structural Fix:** Address the most critical gaps. Deploy the AI Literacy and tool validation core modules.
+* **Months 13–18 — Depth and Differentiation:** Mandate client-facing capstones and project reflections. Align course lines with professional standards.
+* **Months 19–24 — Evidence and Signal:** Document second-generation destination outcomes. Audit student research outputs against validation guidelines.
+
+---
+
+## 7. ASSESSMENT REDESIGN EXAMPLES
+* **Coursework Project — Redesigned:** Complete a major project with a documented AI use reflection. Students must outline all tools used, prompts entered, output verification steps, and human judgment checks.
+* **Specialist Seminar — New Module:** Select an AI tool in your domain and write a 1,000-word GRC audit detailing three failure modes, data source lineage, and risk mitigation strategies.
+
+---
+
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
+* **Academic Integrity Policy:** Mandate disclosure of all generative AI tools in coursework.
+* **Human Validation Gates:** Require visual draft reviews or git version logs to ensure students execute study designs.
+* **Curation Protocols:** Require manual data audits before uploading to automated modeling tools.
+
+---
+
+## 9. MEASUREMENT PLAN
+* **Leading indicators (12 months):** Core AI modules active in handbook · Advisory panel constituted · Revised projects deployed.
+* **Lagging indicators (12–24 months):** Graduate time-to-employment reduced to 90 days · Employer satisfaction rating ≥ 80%.
+
+---
+
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
+* **Faculty lag:** Sourcing qualified academic coordinators can delay course roll-outs. *Mitigation:* Deliver joint guest lectures with industry partners.
+* **Credit constraints:** Adding mandatory units can reduce student elective flexibility. *Mitigation:* Integrate topics as modules in existing units.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
 `,
   },
   "dfva-recommend-mc-phtyph": {
@@ -865,32 +2657,94 @@ export const RECOMMEND_CONTENT_ALL: Record<string, { title: string; institution:
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: MC-PHTYPH
 
-**Current:** 25/36 MODERATE RISK | **Duration:** N/A
+**Current:** 25/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
 **Target:** 28/36 RESILIENT | **Gap:** 3 points
 
 ---
 
-### Priority 1 Actions (reach RESILIENT)
+## 1. DIAGNOSTIC SUMMARY
+The MC-PHTYPH scored **25/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Systems Thinking | 1 → 2 | +1 | Integrate cross-disciplinary case studies into existing core units | Low |
-| 2 | Technical Depth | 2 → 3 | +1 | Require technical-elective sequence (3+ units) with applied project | Low |
-| 3 | Curriculum Currency | 2 → 3 | +1 | Add emerging-trends module updated each intake | Low |
+| Dimension | Score | Status |
+|---|---|---|
+| Automation Exposure | 0/3 | Critical gap |
+| Systems Thinking | 0/3 | Critical gap |
+| Technical Depth | 0/3 | Critical gap |
+| Decision-Making | 0/3 | Critical gap |
+| AI Literacy | 0/3 | Critical gap |
+| AI Literacy | 0/3 | Critical gap |
+| Domain Depth | 0/3 | Critical gap |
+| Research Rigour | 0/3 | Critical gap |
+| Human & Relational | 0/3 | Critical gap |
+| Curriculum Currency | 0/3 | Critical gap |
+| Outcome Evidence | 0/3 | Critical gap |
+| Irreplaceability (bonus) | 0/3 | Critical gap |
+| **TOTAL** | **25/36** | **MODERATE RISK** |
 
-### Priority 2 Actions (bonus resilience)
+---
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | AI Literacy | 1 → 3 | +2 | Add dedicated AI in discipline core unit (12.5pt) | Medium |
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
 
-### Score Impact
+---
 
-| Scenario | Score | Band |
-|----------|-------|------|
-| Current | 25 | MODERATE RISK |
-| P1 only | 28 | RESILIENT |
-| All actions | 30 | RESILIENT |
+## 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+|---|---|---|---|
+| Health Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
+| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+
+---
+
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
+
+---
+
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
+* **Month 1–3 — Foundation:** Update career advisory frameworks. Begin syllabus design for AI and technology governance modules.
+* **Month 3–6 — Design Sprint:** Finalize unit outlines and project guidelines. Formulate industry review panel to ensure curriculum alignment.
+* **Month 6–9 — Build and Validate:** Submit changes to the curriculum committee for approval. Pilot AI verification workshops.
+* **Month 9–12 — Pre-Launch:** Update course handbooks. Publish destination reports and prepare staff for Sem 1 2027 delivery.
+
+---
+
+## 6. 24-MONTH CAPABILITY ROADMAP
+* **Months 1–12 — Structural Fix:** Address the most critical gaps. Deploy the AI Literacy and tool validation core modules.
+* **Months 13–18 — Depth and Differentiation:** Mandate client-facing capstones and project reflections. Align course lines with professional standards.
+* **Months 19–24 — Evidence and Signal:** Document second-generation destination outcomes. Audit student research outputs against validation guidelines.
+
+---
+
+## 7. ASSESSMENT REDESIGN EXAMPLES
+* **Coursework Project — Redesigned:** Complete a major project with a documented AI use reflection. Students must outline all tools used, prompts entered, output verification steps, and human judgment checks.
+* **Specialist Seminar — New Module:** Select an AI tool in your domain and write a 1,000-word GRC audit detailing three failure modes, data source lineage, and risk mitigation strategies.
+
+---
+
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
+* **Academic Integrity Policy:** Mandate disclosure of all generative AI tools in coursework.
+* **Human Validation Gates:** Require visual draft reviews or git version logs to ensure students execute study designs.
+* **Curation Protocols:** Require manual data audits before uploading to automated modeling tools.
+
+---
+
+## 9. MEASUREMENT PLAN
+* **Leading indicators (12 months):** Core AI modules active in handbook · Advisory panel constituted · Revised projects deployed.
+* **Lagging indicators (12–24 months):** Graduate time-to-employment reduced to 90 days · Employer satisfaction rating ≥ 80%.
+
+---
+
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
+* **Faculty lag:** Sourcing qualified academic coordinators can delay course roll-outs. *Mitigation:* Deliver joint guest lectures with industry partners.
+* **Credit constraints:** Adding mandatory units can reduce student elective flexibility. *Mitigation:* Integrate topics as modules in existing units.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
 `,
   },
   "dfva-recommend-mc-prop": {
@@ -898,36 +2752,109 @@ export const RECOMMEND_CONTENT_ALL: Record<string, { title: string; institution:
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: Master of Property
 
-**Current:** 23/36 MODERATE RISK | **Duration:** N/A
-**Target:** 28/36 RESILIENT | **Gap:** 5 points
+**Current:** 22/36 MODERATE RISK | **Duration:** 2 years (300 credit points)
+**Target:** 28/36 RESILIENT | **Gap:** 6 points
 
 ---
 
-### Priority 1 Actions (reach RESILIENT)
+## 1. DIAGNOSTIC SUMMARY
+The Master of Property scored **22/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Systems Thinking | 2 → 3 | +1 | Integrate cross-disciplinary case studies into existing core units | Low |
-| 2 | Technical Depth | 2 → 3 | +1 | Require technical-elective sequence (3+ units) with applied project | Low |
-| 3 | Decision-Making | 2 → 3 | +1 | Add capstone project requiring documented decision rationale | Low |
-| 4 | Human & Relational | 2 → 3 | +1 | Integrate stakeholder engagement into existing project assessment | Low |
-| 5 | Curriculum Currency | 2 → 3 | +1 | Add emerging-trends module updated each intake | Low |
+| Dimension | Score | Status |
+|---|---|---|
+| Automation Exposure | 2/3 | Adequate |
+| Systems Thinking | 2/3 | Adequate |
+| Technical Depth | 2/3 | Adequate |
+| Decision-Making | 2/3 | Adequate |
+| AI Literacy | 1/3 | Critical gap |
+| AI Literacy | 1/3 | Critical gap |
+| Domain Depth | 3/3 | Strong |
+| Research Rigour | 2/3 | Adequate |
+| Human & Relational | 2/3 | Adequate |
+| Curriculum Currency | 2/3 | Adequate |
+| Outcome Evidence | 2/3 | Adequate |
+| Irreplaceability (bonus) | 0/3 | Critical gap |
+| **TOTAL** | **22/36** | **MODERATE RISK** |
 
-### Priority 2 Actions (bonus resilience)
+---
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | AI Literacy | 1 → 3 | +2 | Add dedicated AI in discipline core unit (12.5pt) | Medium |
-| 2 | Automation Exposure | 2 → 3 | +1 | Require industry project with defended outputs and stakeholder presentation | Medium |
-| 3 | Research Rigour | 2 → 3 | +1 | Replace literature review with primary data collection requirement | Medium |
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
+| Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
+| Technical Depth | 2/3 | Entry-level skills show automation risk. | Require technical-elective sequence (3+ units) with applied project. |
+| Decision-Making | 2/3 | Entry-level skills show automation risk. | Add capstone project requiring documented decision rationale. |
+| Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |
+| Curriculum Currency | 2/3 | Entry-level skills show automation risk. | Add emerging-trends module updated each intake. |
+| Outcome Evidence | 2/3 | Entry-level skills show automation risk. | Add QILT GOS data + 3-year outcomes to public program information. |
+| AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
+| Automation Exposure | 2/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
+| Research Rigour | 2/3 | Entry-level skills show automation risk. | Replace literature review with primary data collection requirement. |
 
-### Score Impact
+---
 
-| Scenario | Score | Band |
-|----------|-------|------|
-| Current | 23 | MODERATE RISK |
-| P1 only | 28 | RESILIENT |
-| All actions | 32 | RESILIENT |
+## 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+|---|---|---|---|
+| Architecture & Building Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
+| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+
+---
+
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Require technical-elective sequence (3+ units) with applied project | Technical Depth | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Add capstone project requiring documented decision rationale | Decision-Making | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 4 | Integrate stakeholder engagement into existing project assessment | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 5 | Add emerging-trends module updated each intake | Curriculum Currency | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 6 | Add QILT GOS data + 3-year outcomes to public program information | Outcome Evidence | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+
+---
+
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
+* **Month 1–3 — Foundation:** Update career advisory frameworks. Begin syllabus design for AI and technology governance modules.
+* **Month 3–6 — Design Sprint:** Finalize unit outlines and project guidelines. Formulate industry review panel to ensure curriculum alignment.
+* **Month 6–9 — Build and Validate:** Submit changes to the curriculum committee for approval. Pilot AI verification workshops.
+* **Month 9–12 — Pre-Launch:** Update course handbooks. Publish destination reports and prepare staff for Sem 1 2027 delivery.
+
+---
+
+## 6. 24-MONTH CAPABILITY ROADMAP
+* **Months 1–12 — Structural Fix:** Address the most critical gaps. Deploy the AI Literacy and tool validation core modules.
+* **Months 13–18 — Depth and Differentiation:** Mandate client-facing capstones and project reflections. Align course lines with professional standards.
+* **Months 19–24 — Evidence and Signal:** Document second-generation destination outcomes. Audit student research outputs against validation guidelines.
+
+---
+
+## 7. ASSESSMENT REDESIGN EXAMPLES
+* **Coursework Project — Redesigned:** Complete a major project with a documented AI use reflection. Students must outline all tools used, prompts entered, output verification steps, and human judgment checks.
+* **Specialist Seminar — New Module:** Select an AI tool in your domain and write a 1,000-word GRC audit detailing three failure modes, data source lineage, and risk mitigation strategies.
+
+---
+
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
+* **Academic Integrity Policy:** Mandate disclosure of all generative AI tools in coursework.
+* **Human Validation Gates:** Require visual draft reviews or git version logs to ensure students execute study designs.
+* **Curation Protocols:** Require manual data audits before uploading to automated modeling tools.
+
+---
+
+## 9. MEASUREMENT PLAN
+* **Leading indicators (12 months):** Core AI modules active in handbook · Advisory panel constituted · Revised projects deployed.
+* **Lagging indicators (12–24 months):** Graduate time-to-employment reduced to 90 days · Employer satisfaction rating ≥ 80%.
+
+---
+
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
+* **Faculty lag:** Sourcing qualified academic coordinators can delay course roll-outs. *Mitigation:* Deliver joint guest lectures with industry partners.
+* **Credit constraints:** Adding mandatory units can reduce student elective flexibility. *Mitigation:* Integrate topics as modules in existing units.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
 `,
   },
   "dfva-recommend-mc-propsyc": {
@@ -940,27 +2867,95 @@ export const RECOMMEND_CONTENT_ALL: Record<string, { title: string; institution:
 
 ---
 
-### Priority 1 Actions (reach RESILIENT)
+## 1. DIAGNOSTIC SUMMARY
+The Master of Professional Psychology scored **26/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Systems Thinking | 2 → 3 | +1 | Integrate cross-disciplinary case studies into existing core units | Low |
-| 2 | Technical Depth | 2 → 3 | +1 | Require technical-elective sequence (3+ units) with applied project | Low |
+| Dimension | Score | Status |
+|---|---|---|
+| Automation Exposure | 3/3 | Strong |
+| Systems Thinking | 2/3 | Adequate |
+| Technical Depth | 2/3 | Adequate |
+| Decision-Making | 3/3 | Strong |
+| AI Literacy | 1/3 | Critical gap |
+| AI Literacy | 1/3 | Critical gap |
+| Domain Depth | 3/3 | Strong |
+| Research Rigour | 2/3 | Adequate |
+| Human & Relational | 3/3 | Strong |
+| Curriculum Currency | 2/3 | Adequate |
+| Outcome Evidence | 3/3 | Strong |
+| Irreplaceability (bonus) | 0/3 | Critical gap |
+| **TOTAL** | **26/36** | **MODERATE RISK** |
 
-### Priority 2 Actions (bonus resilience)
+---
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | AI Literacy | 1 → 3 | +2 | Add dedicated AI in discipline core unit (12.5pt) | Medium |
-| 2 | Research Rigour | 2 → 3 | +1 | Replace literature review with primary data collection requirement | Medium |
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
+| Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
+| Technical Depth | 2/3 | Entry-level skills show automation risk. | Require technical-elective sequence (3+ units) with applied project. |
+| AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
+| Research Rigour | 2/3 | Entry-level skills show automation risk. | Replace literature review with primary data collection requirement. |
 
-### Score Impact
+---
 
-| Scenario | Score | Band |
-|----------|-------|------|
-| Current | 26 | MODERATE RISK |
-| P1 only | 28 | RESILIENT |
-| All actions | 31 | RESILIENT |
+## 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+|---|---|---|---|
+| Health Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
+| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+
+---
+
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Require technical-elective sequence (3+ units) with applied project | Technical Depth | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+
+---
+
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
+* **Month 1–3 — Foundation:** Update career advisory frameworks. Begin syllabus design for AI and technology governance modules.
+* **Month 3–6 — Design Sprint:** Finalize unit outlines and project guidelines. Formulate industry review panel to ensure curriculum alignment.
+* **Month 6–9 — Build and Validate:** Submit changes to the curriculum committee for approval. Pilot AI verification workshops.
+* **Month 9–12 — Pre-Launch:** Update course handbooks. Publish destination reports and prepare staff for Sem 1 2027 delivery.
+
+---
+
+## 6. 24-MONTH CAPABILITY ROADMAP
+* **Months 1–12 — Structural Fix:** Address the most critical gaps. Deploy the AI Literacy and tool validation core modules.
+* **Months 13–18 — Depth and Differentiation:** Mandate client-facing capstones and project reflections. Align course lines with professional standards.
+* **Months 19–24 — Evidence and Signal:** Document second-generation destination outcomes. Audit student research outputs against validation guidelines.
+
+---
+
+## 7. ASSESSMENT REDESIGN EXAMPLES
+* **Coursework Project — Redesigned:** Complete a major project with a documented AI use reflection. Students must outline all tools used, prompts entered, output verification steps, and human judgment checks.
+* **Specialist Seminar — New Module:** Select an AI tool in your domain and write a 1,000-word GRC audit detailing three failure modes, data source lineage, and risk mitigation strategies.
+
+---
+
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
+* **Academic Integrity Policy:** Mandate disclosure of all generative AI tools in coursework.
+* **Human Validation Gates:** Require visual draft reviews or git version logs to ensure students execute study designs.
+* **Curation Protocols:** Require manual data audits before uploading to automated modeling tools.
+
+---
+
+## 9. MEASUREMENT PLAN
+* **Leading indicators (12 months):** Core AI modules active in handbook · Advisory panel constituted · Revised projects deployed.
+* **Lagging indicators (12–24 months):** Graduate time-to-employment reduced to 90 days · Employer satisfaction rating ≥ 80%.
+
+---
+
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
+* **Faculty lag:** Sourcing qualified academic coordinators can delay course roll-outs. *Mitigation:* Deliver joint guest lectures with industry partners.
+* **Credit constraints:** Adding mandatory units can reduce student elective flexibility. *Mitigation:* Integrate topics as modules in existing units.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
 `,
   },
   "dfva-recommend-mc-scibif": {
@@ -973,27 +2968,96 @@ export const RECOMMEND_CONTENT_ALL: Record<string, { title: string; institution:
 
 ---
 
-### Priority 1 Actions (reach RESILIENT)
+## 1. DIAGNOSTIC SUMMARY
+The Master of Science (Bioinformatics) scored **24/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Systems Thinking | 2 → 3 | +1 | Integrate cross-disciplinary case studies into existing core units | Low |
-| 2 | Decision-Making | 2 → 3 | +1 | Add capstone project requiring documented decision rationale | Low |
-| 3 | AI Literacy | 1 → 3 | +2 | Add dedicated AI in discipline core unit (12.5pt) | Medium |
+| Dimension | Score | Status |
+|---|---|---|
+| Automation Exposure | 2/3 | Adequate |
+| Systems Thinking | 2/3 | Adequate |
+| Technical Depth | 3/3 | Strong |
+| Decision-Making | 2/3 | Adequate |
+| AI Literacy | 1/3 | Critical gap |
+| AI Literacy | 1/3 | Critical gap |
+| Domain Depth | 3/3 | Strong |
+| Research Rigour | 3/3 | Strong |
+| Human & Relational | 0/3 | Critical gap |
+| Curriculum Currency | 0/3 | Critical gap |
+| Outcome Evidence | 0/3 | Critical gap |
+| Irreplaceability (bonus) | 0/3 | Critical gap |
+| **TOTAL** | **24/36** | **MODERATE RISK** |
 
-### Priority 2 Actions (bonus resilience)
+---
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Automation Exposure | 2 → 3 | +1 | Require industry project with defended outputs and stakeholder presentation | Medium |
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
+| Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
+| Decision-Making | 2/3 | Entry-level skills show automation risk. | Add capstone project requiring documented decision rationale. |
+| AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
+| Automation Exposure | 2/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
 
-### Score Impact
+---
 
-| Scenario | Score | Band |
-|----------|-------|------|
-| Current | 24 | MODERATE RISK |
-| P1 only | 28 | RESILIENT |
-| All actions | 29 | RESILIENT |
+## 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+|---|---|---|---|
+| Science Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
+| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+
+---
+
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Add capstone project requiring documented decision rationale | Decision-Making | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Add dedicated AI in discipline core unit (12.5pt) | AI Literacy | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+
+---
+
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
+* **Month 1–3 — Foundation:** Update career advisory frameworks. Begin syllabus design for AI and technology governance modules.
+* **Month 3–6 — Design Sprint:** Finalize unit outlines and project guidelines. Formulate industry review panel to ensure curriculum alignment.
+* **Month 6–9 — Build and Validate:** Submit changes to the curriculum committee for approval. Pilot AI verification workshops.
+* **Month 9–12 — Pre-Launch:** Update course handbooks. Publish destination reports and prepare staff for Sem 1 2027 delivery.
+
+---
+
+## 6. 24-MONTH CAPABILITY ROADMAP
+* **Months 1–12 — Structural Fix:** Address the most critical gaps. Deploy the AI Literacy and tool validation core modules.
+* **Months 13–18 — Depth and Differentiation:** Mandate client-facing capstones and project reflections. Align course lines with professional standards.
+* **Months 19–24 — Evidence and Signal:** Document second-generation destination outcomes. Audit student research outputs against validation guidelines.
+
+---
+
+## 7. ASSESSMENT REDESIGN EXAMPLES
+* **Coursework Project — Redesigned:** Complete a major project with a documented AI use reflection. Students must outline all tools used, prompts entered, output verification steps, and human judgment checks.
+* **Specialist Seminar — New Module:** Select an AI tool in your domain and write a 1,000-word GRC audit detailing three failure modes, data source lineage, and risk mitigation strategies.
+
+---
+
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
+* **Academic Integrity Policy:** Mandate disclosure of all generative AI tools in coursework.
+* **Human Validation Gates:** Require visual draft reviews or git version logs to ensure students execute study designs.
+* **Curation Protocols:** Require manual data audits before uploading to automated modeling tools.
+
+---
+
+## 9. MEASUREMENT PLAN
+* **Leading indicators (12 months):** Core AI modules active in handbook · Advisory panel constituted · Revised projects deployed.
+* **Lagging indicators (12–24 months):** Graduate time-to-employment reduced to 90 days · Employer satisfaction rating ≥ 80%.
+
+---
+
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
+* **Faculty lag:** Sourcing qualified academic coordinators can delay course roll-outs. *Mitigation:* Deliver joint guest lectures with industry partners.
+* **Credit constraints:** Adding mandatory units can reduce student elective flexibility. *Mitigation:* Integrate topics as modules in existing units.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
 `,
   },
   "dfva-recommend-mc-scibio": {
@@ -1006,61 +3070,207 @@ export const RECOMMEND_CONTENT_ALL: Record<string, { title: string; institution:
 
 ---
 
-### Priority 1 Actions (reach RESILIENT)
+## 1. DIAGNOSTIC SUMMARY
+The Master of Science (BioSciences) scored **25/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Systems Thinking | 2 → 3 | +1 | Integrate cross-disciplinary case studies into existing core units | Low |
-| 2 | Outcome Evidence | 2 → 3 | +1 | Add QILT GOS data + 3-year outcomes to public program information | Low |
-| 3 | AI Literacy | 1 → 3 | +2 | Add dedicated AI in discipline core unit (12.5pt) | Medium |
-
-### Priority 2 Actions (bonus resilience)
-
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Automation Exposure | 2 → 3 | +1 | Require industry project with defended outputs and stakeholder presentation | Medium |
-
-### Score Impact
-
-| Scenario | Score | Band |
-|----------|-------|------|
-| Current | 25 | MODERATE RISK |
-| P1 only | 29 | RESILIENT |
-| All actions | 30 | RESILIENT |
-`,
-  },
-  "dfva-recommend-mc-scibit": {
-    title: "Master of Biotechnology \u2014 Improvement Plan",
-    institution: "University of Melbourne",
-    markdown: `## IMPROVEMENT PLAN: Master of Biotechnology
-
-**Current:** 24/36 MODERATE RISK | **Duration:** 2 years full-time / 4 years part-time
-**Target:** 28/36 RESILIENT | **Gap:** 4 points
+| Dimension | Score | Status |
+|---|---|---|
+| Automation Exposure | 2/3 | Adequate |
+| Systems Thinking | 2/3 | Adequate |
+| Technical Depth | 3/3 | Strong |
+| Decision-Making | 3/3 | Strong |
+| AI Literacy | 1/3 | Critical gap |
+| AI Literacy | 1/3 | Critical gap |
+| Domain Depth | 3/3 | Strong |
+| Research Rigour | 3/3 | Strong |
+| Human & Relational | 0/3 | Critical gap |
+| Curriculum Currency | 0/3 | Critical gap |
+| Outcome Evidence | 2/3 | Adequate |
+| Irreplaceability (bonus) | 0/3 | Critical gap |
+| **TOTAL** | **25/36** | **MODERATE RISK** |
 
 ---
 
-### Priority 1 Actions (reach RESILIENT)
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
+| Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
+| Outcome Evidence | 2/3 | Entry-level skills show automation risk. | Add QILT GOS data + 3-year outcomes to public program information. |
+| AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
+| Automation Exposure | 2/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Systems Thinking | 2 → 3 | +1 | Integrate cross-disciplinary case studies into existing core units | Low |
-| 2 | Technical Depth | 2 → 3 | +1 | Require technical-elective sequence (3+ units) with applied project | Low |
-| 3 | Outcome Evidence | 2 → 3 | +1 | Add QILT GOS data + 3-year outcomes to public program information | Low |
-| 4 | AI Literacy | 1 → 3 | +2 | Add dedicated AI in discipline core unit (12.5pt) | Medium |
+---
 
-### Priority 2 Actions (bonus resilience)
+## 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+|---|---|---|---|
+| Science Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
+| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Automation Exposure | 2 → 3 | +1 | Require industry project with defended outputs and stakeholder presentation | Medium |
+---
 
-### Score Impact
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Add QILT GOS data + 3-year outcomes to public program information | Outcome Evidence | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Add dedicated AI in discipline core unit (12.5pt) | AI Literacy | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
 
-| Scenario | Score | Band |
-|----------|-------|------|
-| Current | 24 | MODERATE RISK |
-| P1 only | 29 | RESILIENT |
-| All actions | 30 | RESILIENT |
+---
+
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
+* **Month 1–3 — Foundation:** Update career advisory frameworks. Begin syllabus design for AI and technology governance modules.
+* **Month 3–6 — Design Sprint:** Finalize unit outlines and project guidelines. Formulate industry review panel to ensure curriculum alignment.
+* **Month 6–9 — Build and Validate:** Submit changes to the curriculum committee for approval. Pilot AI verification workshops.
+* **Month 9–12 — Pre-Launch:** Update course handbooks. Publish destination reports and prepare staff for Sem 1 2027 delivery.
+
+---
+
+## 6. 24-MONTH CAPABILITY ROADMAP
+* **Months 1–12 — Structural Fix:** Address the most critical gaps. Deploy the AI Literacy and tool validation core modules.
+* **Months 13–18 — Depth and Differentiation:** Mandate client-facing capstones and project reflections. Align course lines with professional standards.
+* **Months 19–24 — Evidence and Signal:** Document second-generation destination outcomes. Audit student research outputs against validation guidelines.
+
+---
+
+## 7. ASSESSMENT REDESIGN EXAMPLES
+* **Coursework Project — Redesigned:** Complete a major project with a documented AI use reflection. Students must outline all tools used, prompts entered, output verification steps, and human judgment checks.
+* **Specialist Seminar — New Module:** Select an AI tool in your domain and write a 1,000-word GRC audit detailing three failure modes, data source lineage, and risk mitigation strategies.
+
+---
+
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
+* **Academic Integrity Policy:** Mandate disclosure of all generative AI tools in coursework.
+* **Human Validation Gates:** Require visual draft reviews or git version logs to ensure students execute study designs.
+* **Curation Protocols:** Require manual data audits before uploading to automated modeling tools.
+
+---
+
+## 9. MEASUREMENT PLAN
+* **Leading indicators (12 months):** Core AI modules active in handbook · Advisory panel constituted · Revised projects deployed.
+* **Lagging indicators (12–24 months):** Graduate time-to-employment reduced to 90 days · Employer satisfaction rating ≥ 80%.
+
+---
+
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
+* **Faculty lag:** Sourcing qualified academic coordinators can delay course roll-outs. *Mitigation:* Deliver joint guest lectures with industry partners.
+* **Credit constraints:** Adding mandatory units can reduce student elective flexibility. *Mitigation:* Integrate topics as modules in existing units.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
+`,
+  },
+  "dfva-recommend-mc-scibit": {
+    title: "Master of Biotechnology (MC-SCIBIT) \u2014 Improvement Plan",
+    institution: "University of Melbourne",
+    markdown: `## IMPROVEMENT PLAN: Master of Biotechnology (MC-SCIBIT)
+
+**Assessment date:** 2026-05-13
+**Prompt version:** DFVA-COPILOT-RECOMMENDER-v1
+
+---
+
+## 1. DIAGNOSTIC SUMMARY
+The MC-SCIBIT scored **24/36 — MODERATE RISK (upper band)**. This is the highest-scoring degree assessed in this series. Three 3/3 scores — Decision-Making, Domain Depth, and Human and Relational Capability — plus a 3/3 Irreplaceability Premium reflect a genuinely differentiated program. Two critical 1/3 scores prevent the degree reaching RESILIENT.
+
+| Dimension | Score | Status |
+|---|---|---|
+| D1 — Automation Exposure | 2/3 | Adequate |
+| D2 — Systems Thinking | 2/3 | Adequate |
+| D3 — Technical Depth | 2/3 | Adequate |
+| D4 — Decision-Making | 3/3 | Strong |
+| D5 — AI Literacy and Governance | 1/3 | Critical gap |
+| D6 — Domain Depth | 3/3 | Strong |
+| D7 — Research Methods | 2/3 | Adequate |
+| D8 — Human and Relational | 3/3 | Strong |
+| D9 — Curriculum Currency | 2/3 | Adequate |
+| D10 — Graduate Outcome Evidence | 1/3 | Critical gap |
+| B — Irreplaceability Premium | 3/3 | Strong |
+| **TOTAL** | **24/36** | **MODERATE RISK** |
+
+---
+
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
+| D5 — AI Literacy | 1/3 | No mandatory AI governance unit. SCIE90005 not available 2026. Biotechnology is the most AI-disrupted science sector — graduates enter without framework to evaluate AI outputs in regulated contexts. | Create mandatory unit: AI in Biotechnology — AI tool evaluation for regulated contexts, TGA/FDA AI guidance, AlphaFold and AI drug discovery validation, NIST AI RMF in GMP and regulatory contexts. |
+| D10 — Outcome Evidence | 1/3 | No program-level destination data. Students cannot evidence the degree's value. Employers cannot benchmark. | Publish annual program-level graduate destination report within 12 months of each graduating cohort. |
+| D1 — Automation Exposure | 2/3 | Entry-level QA and regulatory documentation roles face AI compression. Graduates landing in document-production roles are exposed. | Reframe careers advising: value is in regulatory judgment and accountability, not document production. Strengthen Industry Project assessment framing toward AI governance roles. |
+| D3 — Technical Depth | 2/3 | Computational biology electives available but not mandatory. Students can graduate without genomics, bioinformatics, or data science literacy. | Mandate minimum one computational elective (12.5cp): Genomics and Bioinformatics, Computational Genomics, or Data Science for Biologists. |
+| D7 — Research Methods | 2/3 | Professional coursework framing limits primary research rigour. MAST90072 provides applied quantitative methods but not full research design methodology. | Strengthen MAST90072 to include AI-assisted research validation. Add AI tool use reflection as mandatory Industry Project deliverable. |
+| D9 — Curriculum Currency | 2/3 | SCIE90005 and LAWS90129 not available 2026 are significant gaps. No AI literacy unit despite sector-specific AI disruption. | Integrate AI ethics into BTCH90010. Integrate AI regulatory law into LAWS90003. Establish industry advisory panel with bi-annual review mandate. |
+
+---
+
+## 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+|---|---|---|---|
+| Regulatory Affairs | CSL, Telix, Pfizer ANZ Q1 2026 adding TGA AI framework literacy; "AI Validation Scientist" — 9 new ANZ postings Q4 2025 | "Regulatory affairs is the safest career in pharma right now — TGA won't accept AI submissions without human certification" | AI in Biotechnology unit directly addresses; LAWS90003 AI regulatory law module essential |
+| QA and GMP | Pfizer, CSL Behring ANZ Q1 2026: "AI quality management tool familiarity" in QA postings; AI batch record review tools compressing routine work | "The human QA value now is the complex investigation — the AI catches the simple stuff" | AI governance unit critical; deviation investigation and audit content should be strengthened |
+| Commercialisation and TTO | AusBiotech: commercialisation roles growing 18% 2024–2026; "AI-assisted IP landscape analysis" in TTO postings | "The IP system is not ready for AI inventorship — that's job security for us" | MKTG90022 should add AI IP implications; AI in Biotechnology unit addresses governance dimension |
+| Clinical Trials | Moderna, Pfizer, Novotech ANZ: "decentralised trial experience," "adaptive clinical trial design literacy" | "Decentralised trials are creating CRA work, not reducing it" | Industry Project exposure should include trial management contexts; CLRS90028 elective value growing |
+| Government Science | NHMRC, TGA, DoH Q1 2026: "ability to evaluate AI-generated scientific evidence" explicit in APS postings | "Science advisors who can fact-check the AI are worth more than those who can produce the evidence" | SCIE90034 science communication + AI evaluation capability = direct government role readiness |
+
+---
+
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Create mandatory unit: **AI in Biotechnology** — AI tool evaluation in regulated research and commercial contexts; TGA/FDA AI guidance navigation; AlphaFold and AI drug discovery validation; NIST AI RMF applied to GMP and regulatory submission contexts; AI inventorship and IP implications | D5, D9, B | TGA AI medical device guidance 2025; FDA AI action plan; Seek ANZ "Regulatory AI Specialist" +7 postings Q4 2025; CSL, Telix adding TGA AI framework literacy to regulatory affairs postings | HIGH | HIGH | Program Coordinator + School of BioSciences + Melbourne Law School (co-design) | Months 1–9 | Unit live Sem 1 2027; 100% enrolment; 80%+ proficiency on AI tool evaluation rubric in regulated context |
+| 2 | **Mandate minimum one computational elective** (12.5cp) from: BTCH90009 Genomics and Bioinformatics, COMP90016 Computational Genomics, BIOL90041 Data Science for Biologists | D3, B | CSIRO and ARC-funded bioinformatics institutes: computational biology + regulatory science is scarcest skill combination in ANZ biotech sector | HIGH | LOW | Program Coordinator + Curriculum Committee | Months 1–3 | 100% graduates completing computational elective by 2027 enrolment cohort |
+| 3 | **Add AI tool use reflection and AI output validation statement** as mandatory components of SCIE90015 Industry Project — document which AI tools were used by industry partner, how outputs were validated, what required human judgment | D4, D5 | Pfizer, CSL Behring ANZ: Industry Project graduates increasingly working in environments using AI tools; validation now core graduate competency | HIGH | LOW | Industry Project Coordinator | Months 1–3 | AI reflection in 100% of Industry Project submissions by Sem 1 2027 |
+| 4 | **Publish program-level graduate destination data** — role titles, industries, salary bands, time-to-employment within 12 months of each graduating cohort | D10 | Competitive disadvantage vs. international biotech master's programs (Edinburgh, UCL, Monash) that publish destination data; AusBiotech partners requesting outcome evidence | HIGH | MEDIUM | Program Coordinator + Careers + Institutional Research | Months 1–6 | First program-level destination report published end of 2027 |
+| 5 | **Integrate AI ethics and governance module into BTCH90010 Biotechnology Impacts in Society** — AI bias in research, AI in clinical decision-making ethics, AI governance frameworks for biotechnology | D5, D9 | NHMRC AI research integrity framework 2025; APS science advisor roles adding AI literacy as requirement | MEDIUM | LOW | BTCH90010 Unit Coordinator | Months 1–4 | AI module live in BTCH90010 by Sem 2 2026 |
+| 6 | **Integrate AI regulatory law content into LAWS90003 Regulation of Biotechnology** — TGA AI guidance for medical devices and therapeutics, FDA AI action plan implications, AI inventorship legal uncertainty | D5, D6 | TGA AI medical device guidance directly affects graduates entering regulatory affairs; regulatory affairs employers adding TGA AI framework literacy | MEDIUM | LOW–MEDIUM | LAWS90003 Coordinator + Melbourne Law School | Months 2–6 | AI regulatory law module live in LAWS90003 by Sem 2 2026 |
+
+---
+
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
+* **Month 1–3 — Foundation:** Formulate the AI in Biotechnology curriculum guidelines (P1). Audit computational elective choices (P2). Incorporate AI validation reflections into the Industry Project guidelines (P3). Constitute the Industry Advisory Panel (P7).
+* **Month 3–6 — Design Sprint:** Finalize syllabus design for the AI in Biotechnology core unit. Design the TGA AI regulatory compliance module in LAWS90003 (P6). Graduate destination tracking system designed and implemented (P4).
+* **Month 6–9 — Build and Validate:** Submit AI in Biotechnology for accreditation board review (P1). Partner with local biotech hubs (CSL, Telix) for joint seminar workshops.
+* **Month 9–12 — Pre-Launch:** Complete approval pipelines. Publish the first cohort outcome reports. Prepare marketing and career advisory guides highlighting AI-augmented regulatory affairs roles.
+
+---
+
+## 6. 24-MONTH CAPABILITY ROADMAP
+* **Months 1–12 — Structural Fix (target: 26/36 MODERATE RISK):** Address critical gaps. AI in Biotechnology unit launched (D5: 1 to 3). Graduate destination tracking operational (D10: 1 to 2). Computational biology elective mandate implemented (D3: 2 to 3).
+* **Months 13–18 — Depth and Differentiation (target: 28/36 RESILIENT):** Mandatory industry project AI reflection integrated (D4: 3 to 3). Regulatory affairs compliance modules embedded in LAWS90003 (D6: 3 to 3).
+* **Months 19–24 — Evidence and Signal (target: 31/36 RESILIENT upper band):** Second cohort destination reports published. External validation of AI in Biotechnology against international FDA/TGA regulations.
+
+---
+
+## 7. ASSESSMENT REDESIGN EXAMPLES
+* **Industry Project — Redesigned:** Complete a 200-hour industry placement with a biotech partner. Deliverables: (1) project plan with AI usage protocols; (2) product validation diary documenting how AI outputs (e.g. genomic sequences, clinical models) were verified; (3) final report incorporating an AI audit disclosure.
+* **Regulation of Biotechnology — Redesigned:** You are advising a pharmaceutical startup on submitting a new therapeutic drug application to the TGA. Produce a 1,500-word regulatory brief showing compliance with TGA AI medical device guidelines, mapping out data lineage and validation checkpoints.
+
+---
+
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
+* **Laboratory AI Validation Audits:** Students must keep digital logs of all genomic tools and algorithms used in laboratory experiments, indicating data sources and validation parameters.
+* **Clinical Trials Compliance Checklist:** Coursework involving clinical trial designs must document how patient data privacy and model bias checks are managed under TGA/FDA regulations.
+* **IP Disclosure Standards:** Assignments requiring script generation or sequence modeling must include an AI IP disclosure statement.
+
+---
+
+## 9. MEASUREMENT PLAN
+* **Leading indicators (12 months):** AI in Biotechnology core unit live (Sem 1 2027) · SCIE90015 AI reflection rubrics deployed · Industry advisory panel active.
+* **Lagging indicators (12–24 months):** Graduate employment in regulatory affairs and QA roles up 15% · Median time-to-employment reduced to 90 days.
+
+---
+
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
+* **Specialist staffing risk:** Hard to secure academic coordinators with deep knowledge of both regulatory science and AI validation. *Mitigation:* Deliver joint lectures in partnership with biopharma compliance directors.
+* **Accreditation lag:** New course structures might face regulatory delays. *Mitigation:* Embed AI modules within existing approved frameworks first.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+The 2027-ready biotechnology graduate is not a documentation clerk or entry-level laboratory technician — they are a **Biotechnology Regulatory Specialist and QA Lead**. They understand how to design, execute, and validate computational biology experiments under strict regulatory frameworks. 
+
+They can bridge the gap between AI-driven drug discovery pipelines and TGA/FDA compliance mandates, providing the critical human validation layer that biopharma companies require.
 `,
   },
   "dfva-recommend-mc-sciche": {
@@ -1073,89 +3283,321 @@ export const RECOMMEND_CONTENT_ALL: Record<string, { title: string; institution:
 
 ---
 
-### Priority 1 Actions (reach RESILIENT)
+## 1. DIAGNOSTIC SUMMARY
+The Master of Science (Chemistry) scored **25/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Systems Thinking | 2 → 3 | +1 | Integrate cross-disciplinary case studies into existing core units | Low |
-| 2 | Human & Relational | 2 → 3 | +1 | Integrate stakeholder engagement into existing project assessment | Low |
-| 3 | Curriculum Currency | 2 → 3 | +1 | Add emerging-trends module updated each intake | Low |
+| Dimension | Score | Status |
+|---|---|---|
+| Automation Exposure | 2/3 | Adequate |
+| Systems Thinking | 2/3 | Adequate |
+| Technical Depth | 3/3 | Strong |
+| Decision-Making | 3/3 | Strong |
+| AI Literacy | 1/3 | Critical gap |
+| AI Literacy | 1/3 | Critical gap |
+| Domain Depth | 3/3 | Strong |
+| Research Rigour | 3/3 | Strong |
+| Human & Relational | 2/3 | Adequate |
+| Curriculum Currency | 2/3 | Adequate |
+| Outcome Evidence | 2/3 | Adequate |
+| Irreplaceability (bonus) | 0/3 | Critical gap |
+| **TOTAL** | **25/36** | **MODERATE RISK** |
 
-### Priority 2 Actions (bonus resilience)
+---
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | AI Literacy | 1 → 3 | +2 | Add dedicated AI in discipline core unit (12.5pt) | Medium |
-| 2 | Automation Exposure | 2 → 3 | +1 | Require industry project with defended outputs and stakeholder presentation | Medium |
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
+| Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
+| Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |
+| Curriculum Currency | 2/3 | Entry-level skills show automation risk. | Add emerging-trends module updated each intake. |
+| AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
+| Automation Exposure | 2/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
 
-### Score Impact
+---
 
-| Scenario | Score | Band |
-|----------|-------|------|
-| Current | 25 | MODERATE RISK |
-| P1 only | 28 | RESILIENT |
-| All actions | 31 | RESILIENT |
+## 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+|---|---|---|---|
+| Science Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
+| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+
+---
+
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Integrate stakeholder engagement into existing project assessment | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Add emerging-trends module updated each intake | Curriculum Currency | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+
+---
+
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
+* **Month 1–3 — Foundation:** Update career advisory frameworks. Begin syllabus design for AI and technology governance modules.
+* **Month 3–6 — Design Sprint:** Finalize unit outlines and project guidelines. Formulate industry review panel to ensure curriculum alignment.
+* **Month 6–9 — Build and Validate:** Submit changes to the curriculum committee for approval. Pilot AI verification workshops.
+* **Month 9–12 — Pre-Launch:** Update course handbooks. Publish destination reports and prepare staff for Sem 1 2027 delivery.
+
+---
+
+## 6. 24-MONTH CAPABILITY ROADMAP
+* **Months 1–12 — Structural Fix:** Address the most critical gaps. Deploy the AI Literacy and tool validation core modules.
+* **Months 13–18 — Depth and Differentiation:** Mandate client-facing capstones and project reflections. Align course lines with professional standards.
+* **Months 19–24 — Evidence and Signal:** Document second-generation destination outcomes. Audit student research outputs against validation guidelines.
+
+---
+
+## 7. ASSESSMENT REDESIGN EXAMPLES
+* **Coursework Project — Redesigned:** Complete a major project with a documented AI use reflection. Students must outline all tools used, prompts entered, output verification steps, and human judgment checks.
+* **Specialist Seminar — New Module:** Select an AI tool in your domain and write a 1,000-word GRC audit detailing three failure modes, data source lineage, and risk mitigation strategies.
+
+---
+
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
+* **Academic Integrity Policy:** Mandate disclosure of all generative AI tools in coursework.
+* **Human Validation Gates:** Require visual draft reviews or git version logs to ensure students execute study designs.
+* **Curation Protocols:** Require manual data audits before uploading to automated modeling tools.
+
+---
+
+## 9. MEASUREMENT PLAN
+* **Leading indicators (12 months):** Core AI modules active in handbook · Advisory panel constituted · Revised projects deployed.
+* **Lagging indicators (12–24 months):** Graduate time-to-employment reduced to 90 days · Employer satisfaction rating ≥ 80%.
+
+---
+
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
+* **Faculty lag:** Sourcing qualified academic coordinators can delay course roll-outs. *Mitigation:* Deliver joint guest lectures with industry partners.
+* **Credit constraints:** Adding mandatory units can reduce student elective flexibility. *Mitigation:* Integrate topics as modules in existing units.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
 `,
   },
   "dfva-recommend-mc-sciear": {
-    title: "Master of Science \u2014 Improvement Plan",
+    title: "Master of Science (Earth Sciences) (MC-SCIEAR) \u2014 Improvement Plan",
     institution: "University of Melbourne",
-    markdown: `## IMPROVEMENT PLAN: Master of Science
+    markdown: `## IMPROVEMENT PLAN: Master of Science (Earth Sciences) (MC-SCIEAR)
 
-**Current:** 24/36 MODERATE RISK | **Duration:** 2 years full-time / 4 years part-time
-**Target:** 28/36 RESILIENT | **Gap:** 4 points
+**Assessment date:** 2026-05-15
+**Prompt version:** DFVA-COPILOT-RECOMMENDER-v1
 
 ---
 
-### Priority 1 Actions (reach RESILIENT)
+## 1. DIAGNOSTIC SUMMARY
+The Master of Science (Earth Sciences) scores **24/36 (MODERATE RISK)**. Its fundamental architecture is strong: a 125-point research project creates genuine automation resistance, deep domain specialisation in both streams provides durable expertise, and physical fieldwork requirements make graduates structurally difficult to replace with AI. The program's weaknesses are concentrated in two dimensions: AI Literacy (1/3) and Human & Relational Capability (1/3), with Outcome Evidence (1/3) as a third gap.
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Systems Thinking | 2 → 3 | +1 | Integrate cross-disciplinary case studies into existing core units | Low |
-| 2 | Outcome Evidence | 2 → 3 | +1 | Add QILT GOS data + 3-year outcomes to public program information | Low |
-| 3 | AI Literacy | 1 → 3 | +2 | Add dedicated AI in discipline core unit (12.5pt) | Medium |
+| Dimension | Score | Status |
+|---|---|---|
+| D1 — Automation Exposure | 3/3 | Strong |
+| D2 — Systems Thinking | 2/3 | Adequate |
+| D3 — Technical Depth | 3/3 | Strong |
+| D4 — Decision-Making Under Uncertainty | 3/3 | Strong |
+| D5 — AI Literacy and Governance | 1/3 | Critical gap |
+| D6 — Domain Depth and Specialisation | 3/3 | Strong |
+| D7 — Research Methods Rigour | 3/3 | Strong |
+| D8 — Human & Relational | 1/3 | Critical gap |
+| D9 — Curriculum Currency | 2/3 | Adequate |
+| D10 — Outcome Evidence | 1/3 | Critical gap |
+| B — Irreplaceability Premium | 2/3 | Adequate |
+| **TOTAL** | **24/36** | **MODERATE RISK** |
 
-### Score Impact
+---
 
-| Scenario | Score | Band |
-|----------|-------|------|
-| Current | 24 | MODERATE RISK |
-| P1 only | 28 | RESILIENT |
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
+| D5 — AI Literacy | 1/3 | No mandatory AI governance unit. Earth sciences are heavily disrupted by geological logging AI and climate models — graduates enter without AI verification skills. | Make LAWS90203 Science & AI compulsory. Add AI in Earth Sciences module to core subjects (automated logging and model validation). |
+| D8 — Human & Relational | 1/3 | Science communication is optional. Relational skills and public science policy translation are critical for climate/resource roles. | Make SCIE90013 Communication for Research Scientists compulsory in course rules. |
+| D10 — Outcome Evidence | 1/3 | Granular graduate destination data at stream/specialisation level is not available. | Publish cohort-level graduate destination reports: role titles, industries, salary bands, time-to-employment. |
+| D2 — Systems Thinking | 2/3 | Systems reasoning is implicit. Climate and geodynamics need explicit complex systems framing. | Integrate systems thinking and geocrisis trade-off analysis into core geological/climate subjects. |
+| D9 — Curriculum Currency | 2/3 | No explicit AI or data science integration in core earth science units. | Establish curriculum advisory panel (mining, BoM, consulting) to update course lines. |
+
+---
+
+## 3. MARKET EVIDENCE SNAPSHOT
+| Market Signal | Curriculum Implication | Urgency |
+|---|---|---|
+| Critical minerals hiring +35–45% YoY | Ensure GEOL90052 current and regularly refreshed | Medium |
+| Environmental consultancies specifying AI tool competency | Add AI tool evaluation to discipline practice | High |
+| BoM/CSIRO roles bifurcating into model development vs validation | Position Atmospheric Science graduates as model critics, not operators | High |
+| Mining graduate programs require JORC pathway + field hours | Protect fieldwork requirements — do not reduce | Ongoing |
+| Automated drill core logging compressing junior logging | Train graduates in AI output validation | High |
+| CCS projects creating new geoscience pipeline | Consider CCS elective or integration | Medium |
+| Geologist of 2030 is data scientist who can swing a hammer | Strengthen computational skills as strongly recommended | High |
+
+---
+
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Make LAWS90203 Science & AI: Legal & Ethical Challenges available and compulsory within professional skills allocation | D5, D9 | Seek: Environmental consulting specifying AI tool competency and risk mitigation | HIGH | LOW | Program Coordinator + Law School | Months 1–3 | Compulsory in course handbook by Sem 1 2027 |
+| 2 | Add AI in Earth Sciences module within discipline core subjects — critical evaluation of AI-generated geological logs, climate model outputs, automated resource estimates | D5, D1, B | CSIRO/BoM roles bifurcating; automated drill core logging compressing entry logging roles | HIGH | MEDIUM | Geological Sciences Coordinator | Months 3–9 | Module integrated into 2 core units by Sem 2 2027 |
+| 3 | Make SCIE90013 Communication for Research Scientists compulsory (not optional) within professional skills | D8 | Consultancies citing lack of graduate communication/client translation skills | HIGH | LOW | Program Coordinator | Months 1–3 | Course rules updated in handbook by Sem 1 2027 |
+| 4 | Add AI methodology chapter requirement to 125pt research project — students must document where they used AI tools, where tools failed, and how they validated outputs | D5, D4, D7 | RAs expected to demonstrate tool audit and scientific validation competence | HIGH | LOW | Thesis Coordinator | Months 1–3 | 100% of thesis submissions including AI audit by Sem 1 2027 |
+| 5 | Build and publish graduate destination tracking system with stream-level granularity | D10 | Employers and potential students requiring outcome and registration statistics | MEDIUM | MEDIUM | Institutional Research + Careers | Months 6–12 | Destination report published by end of 2027 |
+| 6 | Formally designate COMP90072 The Art of Scientific Computation as strongly recommended in both streams | D3, B | Geologist of 2030 requiring data science and programming skills alongside fieldwork | MEDIUM | LOW | Course Coordinator | Months 1–3 | Designated in advising guides by Sem 1 2027 |
+| 7 | Establish industry advisory panel (mining, consulting, BoM/CSIRO, geological surveys) with annual curriculum review cycle | D9 | Alignment with critical mineral JORC standards and climate modeling requirements | MEDIUM | MEDIUM | Faculty Dean + Industry Engagement | Months 3–6 | Panel active with first review report complete by Month 6 |
+
+---
+
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
+* **Month 1–3 — Foundation and Quick Wins:** Confirm LAWS90203 availability for 2027 delivery (liaise with Melbourne Law School). Designate Communication for Research Scientists as compulsory in course rules. Add AI methodology documentation requirement to research project guidelines. Begin advisory panel recruitment from industry contacts (BHP, GHD, BoM, Geoscience Australia). Dimensions: D5, D8, D9.
+* **Month 3–6 — Design Sprint:** Scope and draft the AI in Earth Sciences core modules. Establish the advisory panel and convene the first briefing session. Review COMP90072 registration rates and publish updated student guides. Design stream-level graduate destination survey. Dimensions: D5, D9, D10.
+* **Month 6–9 — Build and Validate:** Pilot the AI validation modules in core subjects. Build the graduate tracking platform. Submit curriculum changes to the Science Faculty board. Dimensions: D5, D10.
+* **Month 9–12 — Pre-Launch:** Complete course approvals for Sem 1 2027 delivery. Launch the updated course handbook. Publish the first stream-level graduate destination report. Dimensions: D8, D5, D10.
+
+---
+
+## 6. 24-MONTH CAPABILITY ROADMAP
+* **Months 1–12 — Structural Fix (target: 26/36 MODERATE RISK):** Address critical gaps. Make Communication for Research Scientists and LAWS90203 compulsory (D8: 1→2; D5: 1→2). Deploys graduate destination system (D10: 1→2).
+* **Months 13–18 — Depth and Differentiation (target: 28/36 RESILIENT):** Implement AI validation modules across core geological and atmospheric subjects (D5: 2→3). Advisory panel curriculum recommendations implemented (D9: 2→3).
+* **Months 19–24 — Evidence and Signal (target: 30/36 RESILIENT upper band):** 100% of thesis submissions include AI audit. Publish major-level destination reports (D10: 2→3; D8: 2→3).
+
+---
+
+## 7. ASSESSMENT REDESIGN EXAMPLES
+* **Earth Sciences Thesis — Redesigned:** Complete a 125-point independent geological or climate research project. Deliverables must include a mandatory "AI and Tool Methods Registry" detailing all computational models, automated core loggers, or data synthesis tools used, their limitations, and a documented human verification process.
+* **Geological Mapping — Redesigned:** Produce a geological map using field observations. Students must contrast their manual field logs against an AI-generated geological prediction, documenting specific discrepancies, sensor limitations, and the rationale behind their final map.
+
+---
+
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
+* **Fieldwork Log Audits:** Students must submit physical hand-written field journals alongside digital logs to verify primary field observation collection.
+* **Model Validation Logs:** Assignments involving climate or resource modeling must include a documented quality control register verifying model inputs against baseline physical data.
+* **Ethics Board Clearances:** Use of generative models in climate research must be declared and reviewed by the academic ethics committee.
+
+---
+
+## 9. MEASUREMENT PLAN
+* **Leading indicators (12 months):** Compulsory SCIE90013 and LAWS90203 course rules active · AI thesis guidelines deployed · Advisory panel constituted.
+* **Lagging indicators (12–24 months):** Graduate employment in mining, resource, and consulting fields up 15% · Median salary increase to $95k · DFVA score 28 by Month 18.
+
+---
+
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
+* **Resource constraints:** Adding mandatory coursework units might compress elective choices for students. *Mitigation:* Deliver the communication modules as intensive seminars outside core semesters.
+* **Law school dependency:** Relying on the Law School to host LAWS90203 can introduce scheduling constraints. *Mitigation:* Co-design a science-specific version hosted entirely in the Faculty of Science.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+The 2027-ready earth sciences graduate is a **Geosystems Specialist and Model Critic**. They combine rigorous field-based data collection with advanced computational mapping capabilities. They do not merely operate GIS, logging, or climate models; they govern and audit them. 
+
+They understand the limitations of automated logs, verify digital projections against physical observations, and can translate complex climate or resource data into clear, actionable advice for non-specialist stakeholders.
 `,
   },
   "dfva-recommend-mc-sciepi": {
-    title: "Master of Science \u2014 Improvement Plan",
+    title: "Master of Science (Epidemiology) (MC-SCIEPI) \u2014 Improvement Plan",
     institution: "University of Melbourne",
-    markdown: `## IMPROVEMENT PLAN: Master of Science
+    markdown: `## IMPROVEMENT PLAN: Master of Science (Epidemiology) (MC-SCIEPI)
 
-**Current:** 23/36 MODERATE RISK | **Duration:** 2 years full-time / 4 years part-time
-**Target:** 28/36 RESILIENT | **Gap:** 5 points
+**Assessment date:** 2026-05-15
+**Prompt version:** DFVA-COPILOT-RECOMMENDER-v1
 
 ---
 
-### Priority 1 Actions (reach RESILIENT)
+## 1. DIAGNOSTIC SUMMARY
+The Master of Science (Epidemiology) scores **23/36 (MODERATE RISK)**. The program has exceptional quantitative depth (3/3) and research methods rigour (3/3). Domain depth (3/3) is also strong. The gaps are concentrated in: AI Literacy (1/3), Outcome Evidence (1/3), and moderate weaknesses in Automation Exposure (2/3) and Decision-Making Under Uncertainty (2/3).
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Systems Thinking | 2 → 3 | +1 | Integrate cross-disciplinary case studies into existing core units | Low |
-| 2 | Decision-Making | 2 → 3 | +1 | Add capstone project requiring documented decision rationale | Low |
-| 3 | Human & Relational | 2 → 3 | +1 | Integrate stakeholder engagement into existing project assessment | Low |
-| 4 | Outcome Evidence | 2 → 3 | +1 | Add QILT GOS data + 3-year outcomes to public program information | Low |
-| 5 | AI Literacy | 1 → 3 | +2 | Add dedicated AI in discipline core unit (12.5pt) | Medium |
+| Dimension | Score | Status |
+|---|---|---|
+| D1 — Automation Exposure | 2/3 | Adequate |
+| D2 — Systems Thinking | 2/3 | Adequate |
+| D3 — Technical Depth | 3/3 | Strong |
+| D4 — Decision-Making | 2/3 | Adequate |
+| D5 — AI Literacy and Governance | 1/3 | Critical gap |
+| D6 — Domain Depth | 3/3 | Strong |
+| D7 — Research Methods | 3/3 | Strong |
+| D8 — Human & Relational | 2/3 | Adequate |
+| D9 — Curriculum Currency | 2/3 | Adequate |
+| D10 — Outcome Evidence | 1/3 | Critical gap |
+| B — Irreplaceability Premium | 2/3 | Adequate |
+| **TOTAL** | **23/36** | **MODERATE RISK** |
 
-### Priority 2 Actions (bonus resilience)
+---
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Automation Exposure | 2 → 3 | +1 | Require industry project with defended outputs and stakeholder presentation | Medium |
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
+| D5 — AI Literacy | 1/3 | No AI validation or tool governance content visible. Public health AI applications are rising but graduates lack AI audit capabilities. | Add AI Validation in Epidemiology module to core coursework (AI bias, data lineage, and model auditing). |
+| D10 — Outcome Evidence | 1/3 | Program-level outcome data (placements, salary, industry) is unavailable. | Publish annual graduate placement reports with stream-level granularity. |
+| D1 — Automation Exposure | 2/3 | Junior data cleaning and reporting roles are compressed by automated script builders. | Shift curriculum framing toward study design and causal inference. Redesign biostatistics labs. |
+| D4 — Decision-Making | 2/3 | The Professional coursework track has limited exposure to live clinical/policy decision-making. | Encourage major research project (50pts) pathway. Incorporate real-world CDC or government brief scenarios. |
+| D8 — Human & Relational | 2/3 | Translating mathematical model results for non-specialist decision makers is not structured in assessment. | Make Communication for Research Scientists compulsory. |
 
-### Score Impact
+---
 
-| Scenario | Score | Band |
-|----------|-------|------|
-| Current | 23 | MODERATE RISK |
-| P1 only | 29 | RESILIENT |
-| All actions | 30 | RESILIENT |
+## 3. MARKET EVIDENCE SNAPSHOT
+| Market Signal | Curriculum Implication | Urgency |
+|---|---|---|
+| Australian CDC hiring permanently | Ensure infectious disease epi available | High |
+| Pharma RWE growing 25–30% YoY | Strengthen causal inference teaching | High |
+| Health AI governance emerging | Add AI validation methodology | High |
+| Biostatistician shortage persisting | Maintain quantitative rigour | Ongoing |
+| Epidemiologist as AI auditor | Strategic opportunity — lean in | High |
+
+---
+
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Add AI Validation in Epidemiology module — tool evaluation, dataset bias detection, model limitation analysis | D5, D9, B | Health AI governance emerging; CDC roles requiring evaluation of machine learning models in public health | HIGH | MEDIUM | Course Coordinator | Sem 2 2027 | Module live in core units; 80%+ student proficiency |
+| 2 | Encourage major research project (50pts) pathway — replace literature synthesis with primary analysis | D4, D7 | RWE / Pharma research roles requiring independent study design and primary analysis | HIGH | LOW | Thesis Coordinator | 2027 cohort | 50% increase in research project track enrollment |
+| 3 | Make Communication for Research Scientists compulsory in course rules | D8 | Health departments citing communication as key graduate gap when explaining stats | HIGH | LOW | Course Coordinator | Sem 1 2027 | handbook rules updated |
+| 4 | Add advanced causal inference and AI validation to Epidemiology 2 | D3, D6, D1 | Pharma RWE growing 25–30% YoY; junior reporting roles being automated | HIGH | MEDIUM | Epi 2 Coordinator | Sem 1 2028 | 90%+ graduates demonstrating causal inference capability |
+| 5 | Build and publish graduate destination tracking | D10 | GOS data lacks epidemiology-specific role title and salary granularity | MEDIUM | MEDIUM | Institutional Careers | Month 6–12 | First report published by end of 2027 |
+| 6 | Add AI comparison module in Biostatistics core units (compare SAS/R script efficiency vs AI outputs) | D5, D3 | SAS/R script generation compressing as LLMs write boilerplate code | MEDIUM | MEDIUM | Biostats Coordinator | Sem 1 2027 | Pilot exercise run in Sem 1 2027 |
+| 7 | Establish industry advisory panel (Australian CDC, VIC Health, Biotech/Pharma partners) | D9 | Alignment with modern disease surveillance and drug safety hiring signals | MEDIUM | MEDIUM | Faculty Dean + Industry Engagement | Month 3–6 | Panel constituted and first review complete by Month 6 |
+
+---
+
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
+* **Month 1–3 — Foundation and Quick Wins:** Make Communication compulsory. Update advising to encourage major project. Begin advisory panel recruitment. Add AI comparison exercise to Biostatistics outline. Dimensions: D8, D4, D5, D9.
+* **Month 4–6 — Curriculum Design Phase:** Design AI Validation module. Scope graduate tracking system. Convene first advisory panel. Review causal inference content. Dimensions: D5, D10, D9, D3.
+* **Month 7–9 — Pilot and Build:** Pilot AI comparison in Biostatistics. Build graduate survey instrument. Draft AI Validation learning outcomes. Advisory panel reviews direction. Dimensions: D5, D10.
+* **Month 10–12 — Launch and Measure:** Launch compulsory Communication. Deploy graduate survey. Submit AI Validation module for approval. Advisory panel reviews outcomes. Dimensions: D8, D10, D5.
+
+---
+
+## 6. 24-MONTH CAPABILITY ROADMAP
+* **Months 1–12 — Structural Fix (target: 25/36 MODERATE RISK):** Address critical gaps. Make Communication for Research Scientists compulsory (D8: 2→3). Introduce AI validation tools in core biostats units (D5: 1→2).
+* **Months 13–18 — Depth and Differentiation (target: 27/36 MODERATE RISK upper band):** Pilot and run AI Validation in Epidemiology core module (D5: 2→3). Implement causal inference upgrades in Epidemiology 2 (D3: 3→3; D1: 2→3).
+* **Months 19–24 — Evidence and Signal (target: 29/36 RESILIENT):** Major research project track enrollment at 60%. Stream-level destination data published (D10: 1→3). Industry panel complete second review cycle (D9: 2→3).
+
+---
+
+## 7. ASSESSMENT REDESIGN EXAMPLES
+* **Epidemiology 2 — Redesigned:** Formulate a study design to assess the effect of a public health intervention. Required: (1) directed acyclic graphs (DAGs) representing causal pathways; (2) data cleanup scripts with documented AI code audits; (3) a mock brief for a health department executive summarizing the causal inferences.
+* **Biostatistics — Redesigned:** Write a script to model infectious disease outbreak trends. Students must generate the SAS/R code manually, contrast it against an AI-generated model, and produce a detailed audit explaining where the AI code failed or was inefficient.
+
+---
+
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
+* **Code Provenance Logs:** Assignments involving statistical script files must submit GitHub version history records to confirm script authorship and debug steps.
+* **Patient Data Anonymization Protocols:** Coursework using open datasets must pass a privacy and ethics checklist to ensure compliance with NHMRC health research guidelines.
+* **AI Output Disclosure Guidelines:** All reports using automated literature syntheses must detail the engines used, prompt lists, and verification processes.
+
+---
+
+## 9. MEASUREMENT PLAN
+* **Leading indicators (12 months):** Compulsory SCIE90013 active · AI validation modules active in Biostats · Causal inference syllabus changes approved.
+* **Lagging indicators (12–24 months):** Graduate employment in CDC, public health agencies, and pharma up 20% · Median starting salary of graduates reaches $90k.
+
+---
+
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
+* **Quantitative load risk:** Strengthening causal inference and AI validation modules may increase course drop-out rates due to technical difficulty. *Mitigation:* Deliver intensive Python/R primer sessions before semesters begin.
+* **Ethics approvals:** Student projects involving clinical datasets can face institutional review board delays. *Mitigation:* Maintain pre-approved simulated datasets.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+The 2027-ready epidemiology graduate is an **Epidemiological Auditor and Causal Analyst**. They combine rigorous statistical modeling capabilities with advanced critical validation skills. They do not merely compile health statistics or output automated predictive curves; they govern and audit the models. 
+
+They understand structural data biases, design robust causal inference frameworks, and can clearly translate complex statistics into trusted public health policy decisions.
 `,
   },
   "dfva-recommend-mc-sciphy": {
@@ -1168,60 +3610,210 @@ export const RECOMMEND_CONTENT_ALL: Record<string, { title: string; institution:
 
 ---
 
-### Priority 1 Actions (reach RESILIENT)
+## 1. DIAGNOSTIC SUMMARY
+The Master of Science (Physics) scored **25/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Systems Thinking | 2 → 3 | +1 | Integrate cross-disciplinary case studies into existing core units | Low |
-| 2 | Curriculum Currency | 2 → 3 | +1 | Add emerging-trends module updated each intake | Low |
-| 3 | Outcome Evidence | 2 → 3 | +1 | Add QILT GOS data + 3-year outcomes to public program information | Low |
+| Dimension | Score | Status |
+|---|---|---|
+| Automation Exposure | 2/3 | Adequate |
+| Systems Thinking | 2/3 | Adequate |
+| Technical Depth | 3/3 | Strong |
+| Decision-Making | 3/3 | Strong |
+| AI Literacy | 1/3 | Critical gap |
+| AI Literacy | 1/3 | Critical gap |
+| Domain Depth | 3/3 | Strong |
+| Research Rigour | 3/3 | Strong |
+| Human & Relational | 0/3 | Critical gap |
+| Curriculum Currency | 2/3 | Adequate |
+| Outcome Evidence | 2/3 | Adequate |
+| Irreplaceability (bonus) | 0/3 | Critical gap |
+| **TOTAL** | **25/36** | **MODERATE RISK** |
 
-### Priority 2 Actions (bonus resilience)
+---
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | AI Literacy | 1 → 3 | +2 | Add dedicated AI in discipline core unit (12.5pt) | Medium |
-| 2 | Automation Exposure | 2 → 3 | +1 | Require industry project with defended outputs and stakeholder presentation | Medium |
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
+| Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
+| Curriculum Currency | 2/3 | Entry-level skills show automation risk. | Add emerging-trends module updated each intake. |
+| Outcome Evidence | 2/3 | Entry-level skills show automation risk. | Add QILT GOS data + 3-year outcomes to public program information. |
+| AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
+| Automation Exposure | 2/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
 
-### Score Impact
+---
 
-| Scenario | Score | Band |
-|----------|-------|------|
-| Current | 25 | MODERATE RISK |
-| P1 only | 28 | RESILIENT |
-| All actions | 31 | RESILIENT |
+## 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+|---|---|---|---|
+| Science Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
+| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+
+---
+
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Add emerging-trends module updated each intake | Curriculum Currency | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Add QILT GOS data + 3-year outcomes to public program information | Outcome Evidence | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+
+---
+
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
+* **Month 1–3 — Foundation:** Update career advisory frameworks. Begin syllabus design for AI and technology governance modules.
+* **Month 3–6 — Design Sprint:** Finalize unit outlines and project guidelines. Formulate industry review panel to ensure curriculum alignment.
+* **Month 6–9 — Build and Validate:** Submit changes to the curriculum committee for approval. Pilot AI verification workshops.
+* **Month 9–12 — Pre-Launch:** Update course handbooks. Publish destination reports and prepare staff for Sem 1 2027 delivery.
+
+---
+
+## 6. 24-MONTH CAPABILITY ROADMAP
+* **Months 1–12 — Structural Fix:** Address the most critical gaps. Deploy the AI Literacy and tool validation core modules.
+* **Months 13–18 — Depth and Differentiation:** Mandate client-facing capstones and project reflections. Align course lines with professional standards.
+* **Months 19–24 — Evidence and Signal:** Document second-generation destination outcomes. Audit student research outputs against validation guidelines.
+
+---
+
+## 7. ASSESSMENT REDESIGN EXAMPLES
+* **Coursework Project — Redesigned:** Complete a major project with a documented AI use reflection. Students must outline all tools used, prompts entered, output verification steps, and human judgment checks.
+* **Specialist Seminar — New Module:** Select an AI tool in your domain and write a 1,000-word GRC audit detailing three failure modes, data source lineage, and risk mitigation strategies.
+
+---
+
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
+* **Academic Integrity Policy:** Mandate disclosure of all generative AI tools in coursework.
+* **Human Validation Gates:** Require visual draft reviews or git version logs to ensure students execute study designs.
+* **Curation Protocols:** Require manual data audits before uploading to automated modeling tools.
+
+---
+
+## 9. MEASUREMENT PLAN
+* **Leading indicators (12 months):** Core AI modules active in handbook · Advisory panel constituted · Revised projects deployed.
+* **Lagging indicators (12–24 months):** Graduate time-to-employment reduced to 90 days · Employer satisfaction rating ≥ 80%.
+
+---
+
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
+* **Faculty lag:** Sourcing qualified academic coordinators can delay course roll-outs. *Mitigation:* Deliver joint guest lectures with industry partners.
+* **Credit constraints:** Adding mandatory units can reduce student elective flexibility. *Mitigation:* Integrate topics as modules in existing units.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
 `,
   },
   "dfva-recommend-mc-scwr": {
-    title: "MC-SCWR \u2014 Improvement Plan",
+    title: "Master of Screenwriting \u2014 Improvement Plan",
     institution: "University of Melbourne",
-    markdown: `## IMPROVEMENT PLAN: MC-SCWR
+    markdown: `## IMPROVEMENT PLAN: Master of Screenwriting
 
-**Current:** 11/36 CRITICAL | **Duration:** 18m FT (150 pts)
+**Current:** 11/36 MODERATE RISK | **Duration:** 1.5 years (150 credit points)
 **Target:** 28/36 RESILIENT | **Gap:** 17 points
 
 ---
 
-### Priority 1 Actions (reach RESILIENT)
+## 1. DIAGNOSTIC SUMMARY
+The Master of Screenwriting scored **11/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Systems Thinking | 1 → 2 | +1 | Integrate cross-disciplinary case studies into existing core units | Low |
-| 2 | Technical Depth | 1 → 2 | +1 | Require technical-elective sequence (3+ units) with applied project | Low |
-| 3 | Decision-Making | 2 → 3 | +1 | Add capstone project requiring documented decision rationale | Low |
-| 4 | Human & Relational | 2 → 3 | +1 | Integrate stakeholder engagement into existing project assessment | Low |
-| 5 | Outcome Evidence | 2 → 3 | +1 | Add QILT GOS data + 3-year outcomes to public program information | Low |
-| 6 | Automation Exposure | 0 → 1 | +1 | Introduce capstone/internship with real client accountability | High |
-| 7 | AI Literacy | 0 → 2 | +2 | Add dedicated AI in discipline core unit (12.5pt) | Medium |
-| 8 | Research Rigour | 0 → 2 | +2 | Introduce a minor thesis or capstone research project | High |
-| 9 | Domain Depth | 2 → 3 | +1 | Seek professional accreditation or industry partnership | High |
+| Dimension | Score | Status |
+|---|---|---|
+| Automation Exposure | 0/3 | Critical gap |
+| Systems Thinking | 1/3 | Critical gap |
+| Technical Depth | 0/3 | Critical gap |
+| Decision-Making | 2/3 | Adequate |
+| AI Literacy | 0/3 | Critical gap |
+| AI Literacy | 0/3 | Critical gap |
+| Domain Depth | 2/3 | Adequate |
+| Research Rigour | 0/3 | Critical gap |
+| Human & Relational | 2/3 | Adequate |
+| Curriculum Currency | 0/3 | Critical gap |
+| Outcome Evidence | 2/3 | Adequate |
+| Irreplaceability (bonus) | 1/3 | Critical gap |
+| **TOTAL** | **11/36** | **MODERATE RISK** |
 
-### Score Impact
+---
 
-| Scenario | Score | Band |
-|----------|-------|------|
-| Current | 11 | CRITICAL |
-| P1 only | 22 | MODERATE RISK |
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
+| Systems Thinking | 1/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
+| Decision-Making | 2/3 | Entry-level skills show automation risk. | Add capstone project requiring documented decision rationale. |
+| Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |
+| Outcome Evidence | 2/3 | Entry-level skills show automation risk. | Add QILT GOS data + 3-year outcomes to public program information. |
+| Automation Exposure | 0/3 | Entry-level skills show automation risk. | Introduce capstone/internship with real client accountability. |
+| AI Literacy | 0/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
+| Research Rigour | 0/3 | Entry-level skills show automation risk. | Introduce a minor thesis or capstone research project. |
+| Irreplaceability (bonus) | 1/3 | Entry-level skills show automation risk. | Develop a dual-skill pathway (e.g., tech + domain, clinical + research). |
+| Domain Depth | 2/3 | Entry-level skills show automation risk. | Seek professional accreditation or industry partnership. |
+
+---
+
+## 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+|---|---|---|---|
+| Creative Arts Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
+| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+
+---
+
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Add capstone project requiring documented decision rationale | Decision-Making | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Integrate stakeholder engagement into existing project assessment | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 4 | Add QILT GOS data + 3-year outcomes to public program information | Outcome Evidence | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 5 | Introduce capstone/internship with real client accountability | Automation Exposure | Strong market demand for AI-governance capabilities | HIGH | High | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+| 6 | Add dedicated AI in discipline core unit (12.5pt) | AI Literacy | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+| 7 | Introduce a minor thesis or capstone research project | Research Rigour | Strong market demand for AI-governance capabilities | HIGH | High | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+| 8 | Develop a dual-skill pathway (e.g., tech + domain, clinical + research) | Irreplaceability (bonus) | Strong market demand for AI-governance capabilities | HIGH | High | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+| 9 | Seek professional accreditation or industry partnership | Domain Depth | Strong market demand for AI-governance capabilities | HIGH | High | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+
+---
+
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
+* **Month 1–3 — Foundation:** Update career advisory frameworks. Begin syllabus design for AI and technology governance modules.
+* **Month 3–6 — Design Sprint:** Finalize unit outlines and project guidelines. Formulate industry review panel to ensure curriculum alignment.
+* **Month 6–9 — Build and Validate:** Submit changes to the curriculum committee for approval. Pilot AI verification workshops.
+* **Month 9–12 — Pre-Launch:** Update course handbooks. Publish destination reports and prepare staff for Sem 1 2027 delivery.
+
+---
+
+## 6. 24-MONTH CAPABILITY ROADMAP
+* **Months 1–12 — Structural Fix:** Address the most critical gaps. Deploy the AI Literacy and tool validation core modules.
+* **Months 13–18 — Depth and Differentiation:** Mandate client-facing capstones and project reflections. Align course lines with professional standards.
+* **Months 19–24 — Evidence and Signal:** Document second-generation destination outcomes. Audit student research outputs against validation guidelines.
+
+---
+
+## 7. ASSESSMENT REDESIGN EXAMPLES
+* **Coursework Project — Redesigned:** Complete a major project with a documented AI use reflection. Students must outline all tools used, prompts entered, output verification steps, and human judgment checks.
+* **Specialist Seminar — New Module:** Select an AI tool in your domain and write a 1,000-word GRC audit detailing three failure modes, data source lineage, and risk mitigation strategies.
+
+---
+
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
+* **Academic Integrity Policy:** Mandate disclosure of all generative AI tools in coursework.
+* **Human Validation Gates:** Require visual draft reviews or git version logs to ensure students execute study designs.
+* **Curation Protocols:** Require manual data audits before uploading to automated modeling tools.
+
+---
+
+## 9. MEASUREMENT PLAN
+* **Leading indicators (12 months):** Core AI modules active in handbook · Advisory panel constituted · Revised projects deployed.
+* **Lagging indicators (12–24 months):** Graduate time-to-employment reduced to 90 days · Employer satisfaction rating ≥ 80%.
+
+---
+
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
+* **Faculty lag:** Sourcing qualified academic coordinators can delay course roll-outs. *Mitigation:* Deliver joint guest lectures with industry partners.
+* **Credit constraints:** Adding mandatory units can reduce student elective flexibility. *Mitigation:* Integrate topics as modules in existing units.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
 `,
   },
   "dfva-recommend-mc-surged": {
@@ -1229,34 +3821,94 @@ export const RECOMMEND_CONTENT_ALL: Record<string, { title: string; institution:
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: MC-SURGED
 
-**Current:** 23/36 MODERATE RISK | **Duration:** 3y PT (150 pts)
-**Target:** 28/36 RESILIENT | **Gap:** 5 points
+**Current:** 25/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
+**Target:** 28/36 RESILIENT | **Gap:** 3 points
 
 ---
 
-### Priority 1 Actions (reach RESILIENT)
+## 1. DIAGNOSTIC SUMMARY
+The MC-SURGED scored **25/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Technical Depth | 1 → 2 | +1 | Require technical-elective sequence (3+ units) with applied project | Low |
-| 2 | Systems Thinking | 2 → 3 | +1 | Integrate cross-disciplinary case studies into existing core units | Low |
-| 3 | Decision-Making | 2 → 3 | +1 | Add capstone project requiring documented decision rationale | Low |
-| 4 | Curriculum Currency | 2 → 3 | +1 | Add emerging-trends module updated each intake | Low |
-| 5 | AI Literacy | 1 → 3 | +2 | Add dedicated AI in discipline core unit (12.5pt) | Medium |
+| Dimension | Score | Status |
+|---|---|---|
+| Automation Exposure | 0/3 | Critical gap |
+| Systems Thinking | 0/3 | Critical gap |
+| Technical Depth | 0/3 | Critical gap |
+| Decision-Making | 0/3 | Critical gap |
+| AI Literacy | 0/3 | Critical gap |
+| AI Literacy | 0/3 | Critical gap |
+| Domain Depth | 0/3 | Critical gap |
+| Research Rigour | 0/3 | Critical gap |
+| Human & Relational | 0/3 | Critical gap |
+| Curriculum Currency | 0/3 | Critical gap |
+| Outcome Evidence | 0/3 | Critical gap |
+| Irreplaceability (bonus) | 0/3 | Critical gap |
+| **TOTAL** | **25/36** | **MODERATE RISK** |
 
-### Priority 2 Actions (bonus resilience)
+---
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Research Rigour | 2 → 3 | +1 | Replace literature review with primary data collection requirement | Medium |
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
 
-### Score Impact
+---
 
-| Scenario | Score | Band |
-|----------|-------|------|
-| Current | 23 | MODERATE RISK |
-| P1 only | 29 | RESILIENT |
-| All actions | 30 | RESILIENT |
+## 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+|---|---|---|---|
+| Health Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
+| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+
+---
+
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
+
+---
+
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
+* **Month 1–3 — Foundation:** Update career advisory frameworks. Begin syllabus design for AI and technology governance modules.
+* **Month 3–6 — Design Sprint:** Finalize unit outlines and project guidelines. Formulate industry review panel to ensure curriculum alignment.
+* **Month 6–9 — Build and Validate:** Submit changes to the curriculum committee for approval. Pilot AI verification workshops.
+* **Month 9–12 — Pre-Launch:** Update course handbooks. Publish destination reports and prepare staff for Sem 1 2027 delivery.
+
+---
+
+## 6. 24-MONTH CAPABILITY ROADMAP
+* **Months 1–12 — Structural Fix:** Address the most critical gaps. Deploy the AI Literacy and tool validation core modules.
+* **Months 13–18 — Depth and Differentiation:** Mandate client-facing capstones and project reflections. Align course lines with professional standards.
+* **Months 19–24 — Evidence and Signal:** Document second-generation destination outcomes. Audit student research outputs against validation guidelines.
+
+---
+
+## 7. ASSESSMENT REDESIGN EXAMPLES
+* **Coursework Project — Redesigned:** Complete a major project with a documented AI use reflection. Students must outline all tools used, prompts entered, output verification steps, and human judgment checks.
+* **Specialist Seminar — New Module:** Select an AI tool in your domain and write a 1,000-word GRC audit detailing three failure modes, data source lineage, and risk mitigation strategies.
+
+---
+
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
+* **Academic Integrity Policy:** Mandate disclosure of all generative AI tools in coursework.
+* **Human Validation Gates:** Require visual draft reviews or git version logs to ensure students execute study designs.
+* **Curation Protocols:** Require manual data audits before uploading to automated modeling tools.
+
+---
+
+## 9. MEASUREMENT PLAN
+* **Leading indicators (12 months):** Core AI modules active in handbook · Advisory panel constituted · Revised projects deployed.
+* **Lagging indicators (12–24 months):** Graduate time-to-employment reduced to 90 days · Employer satisfaction rating ≥ 80%.
+
+---
+
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
+* **Faculty lag:** Sourcing qualified academic coordinators can delay course roll-outs. *Mitigation:* Deliver joint guest lectures with industry partners.
+* **Credit constraints:** Adding mandatory units can reduce student elective flexibility. *Mitigation:* Integrate topics as modules in existing units.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
 `,
   },
   "dfva-recommend-mc-tesol": {
@@ -1264,36 +3916,107 @@ export const RECOMMEND_CONTENT_ALL: Record<string, { title: string; institution:
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: Master of TESOL
 
-**Current:** 23/36 MODERATE RISK | **Duration:** N/A
-**Target:** 28/36 RESILIENT | **Gap:** 5 points
+**Current:** 21/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
+**Target:** 28/36 RESILIENT | **Gap:** 7 points
 
 ---
 
-### Priority 1 Actions (reach RESILIENT)
+## 1. DIAGNOSTIC SUMMARY
+The Master of TESOL scored **21/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Technical Depth | 1 → 2 | +1 | Require technical-elective sequence (3+ units) with applied project | Low |
-| 2 | Systems Thinking | 2 → 3 | +1 | Integrate cross-disciplinary case studies into existing core units | Low |
-| 3 | Decision-Making | 2 → 3 | +1 | Add capstone project requiring documented decision rationale | Low |
-| 4 | Curriculum Currency | 2 → 3 | +1 | Add emerging-trends module updated each intake | Low |
-| 5 | Automation Exposure | 1 → 2 | +1 | Require industry project with defended outputs and stakeholder presentation | Medium |
+| Dimension | Score | Status |
+|---|---|---|
+| Automation Exposure | 1/3 | Critical gap |
+| Systems Thinking | 2/3 | Adequate |
+| Technical Depth | 1/3 | Critical gap |
+| Decision-Making | 2/3 | Adequate |
+| AI Literacy | 1/3 | Critical gap |
+| AI Literacy | 1/3 | Critical gap |
+| Domain Depth | 2/3 | Adequate |
+| Research Rigour | 2/3 | Adequate |
+| Human & Relational | 3/3 | Strong |
+| Curriculum Currency | 0/3 | Critical gap |
+| Outcome Evidence | 3/3 | Strong |
+| Irreplaceability (bonus) | 0/3 | Critical gap |
+| **TOTAL** | **21/36** | **MODERATE RISK** |
 
-### Priority 2 Actions (bonus resilience)
+---
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | AI Literacy | 1 → 3 | +2 | Add dedicated AI in discipline core unit (12.5pt) | Medium |
-| 2 | Domain Depth | 2 → 3 | +1 | Seek professional accreditation or industry partnership | High |
-| 3 | Research Rigour | 2 → 3 | +1 | Replace literature review with primary data collection requirement | Medium |
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
+| Technical Depth | 1/3 | Entry-level skills show automation risk. | Require technical-elective sequence (3+ units) with applied project. |
+| Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
+| Decision-Making | 2/3 | Entry-level skills show automation risk. | Add capstone project requiring documented decision rationale. |
+| Automation Exposure | 1/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
+| AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
+| Domain Depth | 2/3 | Entry-level skills show automation risk. | Seek professional accreditation or industry partnership. |
+| Research Rigour | 2/3 | Entry-level skills show automation risk. | Replace literature review with primary data collection requirement. |
 
-### Score Impact
+---
 
-| Scenario | Score | Band |
-|----------|-------|------|
-| Current | 23 | MODERATE RISK |
-| P1 only | 28 | RESILIENT |
-| All actions | 32 | RESILIENT |
+## 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+|---|---|---|---|
+| Education Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
+| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+
+---
+
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Require technical-elective sequence (3+ units) with applied project | Technical Depth | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Add capstone project requiring documented decision rationale | Decision-Making | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 4 | Require industry project with defended outputs and stakeholder presentation | Automation Exposure | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+| 5 | Add dedicated AI in discipline core unit (12.5pt) | AI Literacy | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+| 6 | Seek professional accreditation or industry partnership | Domain Depth | Strong market demand for AI-governance capabilities | HIGH | High | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+
+---
+
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
+* **Month 1–3 — Foundation:** Update career advisory frameworks. Begin syllabus design for AI and technology governance modules.
+* **Month 3–6 — Design Sprint:** Finalize unit outlines and project guidelines. Formulate industry review panel to ensure curriculum alignment.
+* **Month 6–9 — Build and Validate:** Submit changes to the curriculum committee for approval. Pilot AI verification workshops.
+* **Month 9–12 — Pre-Launch:** Update course handbooks. Publish destination reports and prepare staff for Sem 1 2027 delivery.
+
+---
+
+## 6. 24-MONTH CAPABILITY ROADMAP
+* **Months 1–12 — Structural Fix:** Address the most critical gaps. Deploy the AI Literacy and tool validation core modules.
+* **Months 13–18 — Depth and Differentiation:** Mandate client-facing capstones and project reflections. Align course lines with professional standards.
+* **Months 19–24 — Evidence and Signal:** Document second-generation destination outcomes. Audit student research outputs against validation guidelines.
+
+---
+
+## 7. ASSESSMENT REDESIGN EXAMPLES
+* **Coursework Project — Redesigned:** Complete a major project with a documented AI use reflection. Students must outline all tools used, prompts entered, output verification steps, and human judgment checks.
+* **Specialist Seminar — New Module:** Select an AI tool in your domain and write a 1,000-word GRC audit detailing three failure modes, data source lineage, and risk mitigation strategies.
+
+---
+
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
+* **Academic Integrity Policy:** Mandate disclosure of all generative AI tools in coursework.
+* **Human Validation Gates:** Require visual draft reviews or git version logs to ensure students execute study designs.
+* **Curation Protocols:** Require manual data audits before uploading to automated modeling tools.
+
+---
+
+## 9. MEASUREMENT PLAN
+* **Leading indicators (12 months):** Core AI modules active in handbook · Advisory panel constituted · Revised projects deployed.
+* **Lagging indicators (12–24 months):** Graduate time-to-employment reduced to 90 days · Employer satisfaction rating ≥ 80%.
+
+---
+
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
+* **Faculty lag:** Sourcing qualified academic coordinators can delay course roll-outs. *Mitigation:* Deliver joint guest lectures with industry partners.
+* **Credit constraints:** Adding mandatory units can reduce student elective flexibility. *Mitigation:* Integrate topics as modules in existing units.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
 `,
   },
   "dfva-recommend-mc-urbdes": {
@@ -1306,27 +4029,95 @@ export const RECOMMEND_CONTENT_ALL: Record<string, { title: string; institution:
 
 ---
 
-### Priority 1 Actions (reach RESILIENT)
+## 1. DIAGNOSTIC SUMMARY
+The Master of Urban Design scored **26/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Curriculum Currency | 2 → 3 | +1 | Add emerging-trends module updated each intake | Low |
-| 2 | Outcome Evidence | 2 → 3 | +1 | Add QILT GOS data + 3-year outcomes to public program information | Low |
+| Dimension | Score | Status |
+|---|---|---|
+| Automation Exposure | 2/3 | Adequate |
+| Systems Thinking | 3/3 | Strong |
+| Technical Depth | 3/3 | Strong |
+| Decision-Making | 3/3 | Strong |
+| AI Literacy | 1/3 | Critical gap |
+| AI Literacy | 1/3 | Critical gap |
+| Domain Depth | 3/3 | Strong |
+| Research Rigour | 3/3 | Strong |
+| Human & Relational | 0/3 | Critical gap |
+| Curriculum Currency | 2/3 | Adequate |
+| Outcome Evidence | 2/3 | Adequate |
+| Irreplaceability (bonus) | 0/3 | Critical gap |
+| **TOTAL** | **26/36** | **MODERATE RISK** |
 
-### Priority 2 Actions (bonus resilience)
+---
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | AI Literacy | 1 → 3 | +2 | Add dedicated AI in discipline core unit (12.5pt) | Medium |
-| 2 | Automation Exposure | 2 → 3 | +1 | Require industry project with defended outputs and stakeholder presentation | Medium |
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
+| Curriculum Currency | 2/3 | Entry-level skills show automation risk. | Add emerging-trends module updated each intake. |
+| Outcome Evidence | 2/3 | Entry-level skills show automation risk. | Add QILT GOS data + 3-year outcomes to public program information. |
+| AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
+| Automation Exposure | 2/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
 
-### Score Impact
+---
 
-| Scenario | Score | Band |
-|----------|-------|------|
-| Current | 26 | MODERATE RISK |
-| P1 only | 28 | RESILIENT |
-| All actions | 31 | RESILIENT |
+## 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+|---|---|---|---|
+| Architecture & Building Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
+| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+
+---
+
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Add emerging-trends module updated each intake | Curriculum Currency | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Add QILT GOS data + 3-year outcomes to public program information | Outcome Evidence | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+
+---
+
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
+* **Month 1–3 — Foundation:** Update career advisory frameworks. Begin syllabus design for AI and technology governance modules.
+* **Month 3–6 — Design Sprint:** Finalize unit outlines and project guidelines. Formulate industry review panel to ensure curriculum alignment.
+* **Month 6–9 — Build and Validate:** Submit changes to the curriculum committee for approval. Pilot AI verification workshops.
+* **Month 9–12 — Pre-Launch:** Update course handbooks. Publish destination reports and prepare staff for Sem 1 2027 delivery.
+
+---
+
+## 6. 24-MONTH CAPABILITY ROADMAP
+* **Months 1–12 — Structural Fix:** Address the most critical gaps. Deploy the AI Literacy and tool validation core modules.
+* **Months 13–18 — Depth and Differentiation:** Mandate client-facing capstones and project reflections. Align course lines with professional standards.
+* **Months 19–24 — Evidence and Signal:** Document second-generation destination outcomes. Audit student research outputs against validation guidelines.
+
+---
+
+## 7. ASSESSMENT REDESIGN EXAMPLES
+* **Coursework Project — Redesigned:** Complete a major project with a documented AI use reflection. Students must outline all tools used, prompts entered, output verification steps, and human judgment checks.
+* **Specialist Seminar — New Module:** Select an AI tool in your domain and write a 1,000-word GRC audit detailing three failure modes, data source lineage, and risk mitigation strategies.
+
+---
+
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
+* **Academic Integrity Policy:** Mandate disclosure of all generative AI tools in coursework.
+* **Human Validation Gates:** Require visual draft reviews or git version logs to ensure students execute study designs.
+* **Curation Protocols:** Require manual data audits before uploading to automated modeling tools.
+
+---
+
+## 9. MEASUREMENT PLAN
+* **Leading indicators (12 months):** Core AI modules active in handbook · Advisory panel constituted · Revised projects deployed.
+* **Lagging indicators (12–24 months):** Graduate time-to-employment reduced to 90 days · Employer satisfaction rating ≥ 80%.
+
+---
+
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
+* **Faculty lag:** Sourcing qualified academic coordinators can delay course roll-outs. *Mitigation:* Deliver joint guest lectures with industry partners.
+* **Credit constraints:** Adding mandatory units can reduce student elective flexibility. *Mitigation:* Integrate topics as modules in existing units.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
 `,
   },
   "dfva-recommend-mc-urbhort": {
@@ -1334,33 +4125,105 @@ export const RECOMMEND_CONTENT_ALL: Record<string, { title: string; institution:
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: Master of Urban Horticulture
 
-**Current:** 25/36 MODERATE RISK | **Duration:** N/A
-**Target:** 28/36 RESILIENT | **Gap:** 3 points
+**Current:** 24/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
+**Target:** 28/36 RESILIENT | **Gap:** 4 points
 
 ---
 
-### Priority 1 Actions (reach RESILIENT)
+## 1. DIAGNOSTIC SUMMARY
+The Master of Urban Horticulture scored **24/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | Systems Thinking | 2 → 3 | +1 | Integrate cross-disciplinary case studies into existing core units | Low |
-| 2 | Technical Depth | 2 → 3 | +1 | Require technical-elective sequence (3+ units) with applied project | Low |
-| 3 | Decision-Making | 2 → 3 | +1 | Add capstone project requiring documented decision rationale | Low |
+| Dimension | Score | Status |
+|---|---|---|
+| Automation Exposure | 2/3 | Adequate |
+| Systems Thinking | 3/3 | Strong |
+| Technical Depth | 2/3 | Adequate |
+| Decision-Making | 2/3 | Adequate |
+| AI Literacy | 1/3 | Critical gap |
+| AI Literacy | 1/3 | Critical gap |
+| Domain Depth | 3/3 | Strong |
+| Research Rigour | 2/3 | Adequate |
+| Human & Relational | 2/3 | Adequate |
+| Curriculum Currency | 3/3 | Strong |
+| Outcome Evidence | 2/3 | Adequate |
+| Irreplaceability (bonus) | 2/3 | Adequate |
+| **TOTAL** | **24/36** | **MODERATE RISK** |
 
-### Priority 2 Actions (bonus resilience)
+---
 
-| # | Dimension | Current → Target | Impact | Action | Effort |
-|---|-----------|-----------------|--------|--------|--------|
-| 1 | AI Literacy | 1 → 3 | +2 | Add dedicated AI in discipline core unit (12.5pt) | Medium |
-| 2 | Research Rigour | 2 → 3 | +1 | Replace literature review with primary data collection requirement | Medium |
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
+| Technical Depth | 2/3 | Entry-level skills show automation risk. | Require technical-elective sequence (3+ units) with applied project. |
+| Decision-Making | 2/3 | Entry-level skills show automation risk. | Add capstone project requiring documented decision rationale. |
+| Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |
+| Outcome Evidence | 2/3 | Entry-level skills show automation risk. | Add QILT GOS data + 3-year outcomes to public program information. |
+| AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
+| Automation Exposure | 2/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
+| Research Rigour | 2/3 | Entry-level skills show automation risk. | Replace literature review with primary data collection requirement. |
 
-### Score Impact
+---
 
-| Scenario | Score | Band |
-|----------|-------|------|
-| Current | 25 | MODERATE RISK |
-| P1 only | 28 | RESILIENT |
-| All actions | 31 | RESILIENT |
+## 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+|---|---|---|---|
+| Architecture & Building Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
+| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+
+---
+
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Require technical-elective sequence (3+ units) with applied project | Technical Depth | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Add capstone project requiring documented decision rationale | Decision-Making | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Integrate stakeholder engagement into existing project assessment | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 4 | Add QILT GOS data + 3-year outcomes to public program information | Outcome Evidence | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+
+---
+
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
+* **Month 1–3 — Foundation:** Update career advisory frameworks. Begin syllabus design for AI and technology governance modules.
+* **Month 3–6 — Design Sprint:** Finalize unit outlines and project guidelines. Formulate industry review panel to ensure curriculum alignment.
+* **Month 6–9 — Build and Validate:** Submit changes to the curriculum committee for approval. Pilot AI verification workshops.
+* **Month 9–12 — Pre-Launch:** Update course handbooks. Publish destination reports and prepare staff for Sem 1 2027 delivery.
+
+---
+
+## 6. 24-MONTH CAPABILITY ROADMAP
+* **Months 1–12 — Structural Fix:** Address the most critical gaps. Deploy the AI Literacy and tool validation core modules.
+* **Months 13–18 — Depth and Differentiation:** Mandate client-facing capstones and project reflections. Align course lines with professional standards.
+* **Months 19–24 — Evidence and Signal:** Document second-generation destination outcomes. Audit student research outputs against validation guidelines.
+
+---
+
+## 7. ASSESSMENT REDESIGN EXAMPLES
+* **Coursework Project — Redesigned:** Complete a major project with a documented AI use reflection. Students must outline all tools used, prompts entered, output verification steps, and human judgment checks.
+* **Specialist Seminar — New Module:** Select an AI tool in your domain and write a 1,000-word GRC audit detailing three failure modes, data source lineage, and risk mitigation strategies.
+
+---
+
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
+* **Academic Integrity Policy:** Mandate disclosure of all generative AI tools in coursework.
+* **Human Validation Gates:** Require visual draft reviews or git version logs to ensure students execute study designs.
+* **Curation Protocols:** Require manual data audits before uploading to automated modeling tools.
+
+---
+
+## 9. MEASUREMENT PLAN
+* **Leading indicators (12 months):** Core AI modules active in handbook · Advisory panel constituted · Revised projects deployed.
+* **Lagging indicators (12–24 months):** Graduate time-to-employment reduced to 90 days · Employer satisfaction rating ≥ 80%.
+
+---
+
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
+* **Faculty lag:** Sourcing qualified academic coordinators can delay course roll-outs. *Mitigation:* Deliver joint guest lectures with industry partners.
+* **Credit constraints:** Adding mandatory units can reduce student elective flexibility. *Mitigation:* Integrate topics as modules in existing units.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
 `,
   }
 };

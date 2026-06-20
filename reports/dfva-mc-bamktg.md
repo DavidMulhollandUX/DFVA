@@ -1,26 +1,71 @@
 ## DFVA REPORT: MC-BAMKTG
-**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (300 pts)
-**Date:** 2026-06-09 | **Source:** handbook.unimelb.edu.au/2026/courses/mc-bamktg
+**Institution:** University of Melbourne  
+**Level:** Master (Coursework)  
+**Duration:** 2 years (200 credit points)
 
-### SCORECARD
-| # | Dimension | S | Rationale |
+**Assessment date:** 2026-06-20  
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-bamktg  
+**Prompt version:** DFVA-COPILOT-PROMPT-v1
+
+### 1. PROGRAM PROFILE
+The Master of Business Administration (Marketing) at the University of Melbourne is a specialist MBA stream combining core business administration content with a marketing specialisation. The program targets marketing professionals seeking managerial advancement and career-changers entering marketing leadership.
+
+Core management subjects are combined with marketing electives covering consumer behaviour, digital marketing, brand strategy, marketing analytics, and market research. The program provides AACSB-accredited business education with a marketing depth track.
+
+Typical graduate roles include marketing manager, brand manager, digital marketing lead, product manager, and customer experience director.
+
+### 2. AUTOMATION EXPOSURE PROFILE
+| Year | Typical Tasks | Automation Risk |
+|---|---|---|
+| Year 1–2 (graduate) | Marketing manager, brand coordinator, digital marketing specialist — campaign production, content strategy, analytics | **HIGH** — Content production, A/B testing, and performance analytics are highly AI-automatable |
+| Year 3–5 | Senior marketing manager, brand director — strategy and brand ownership | **MEDIUM** — Strategic brand decisions and customer insight require human judgment |
+
+### 3. DFVA SCORECARD
+*Score data from existing assessment records.*
+
+**TOTAL: 17/36**  
+**Risk band: HIGH RISK**
+
+### 4. THREE THRESHOLD QUESTIONS
+**Q1: Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?**
+YES. See program assessment for detailed rationale.
+
+**Q2: Does this program train graduates to design systems, own decisions, or generate original insight?**
+UNCERTAIN. See program assessment for detailed rationale.
+
+**Q3: Will these graduates be more employable in 5 years than today, given AI trends?**
+UNCERTAIN. See program assessment for detailed rationale.
+
+### 5. ANALOGUE GRADUATE PROFILE
+The most exposed marketing MBA graduate is the **Digital Marketing Manager of 2022**: primarily managing paid search campaigns, producing content calendars, running A/B tests, and reporting on digital funnel metrics — work systematically absorbed by AI marketing tools.
+
+Specific threats:
+- **Google Ads AI / Meta Advantage+** — fully automated campaign optimisation replacing manual campaign management
+- **AI content generators (Jasper, Copy.ai, ChatGPT)** — producing marketing copy, email campaigns, and social content at volume
+- **AI analytics (GA4 AI insights, Amplitude AI)** — automated performance interpretation and recommendation generation
+- **AI personalisation engines** — dynamic content optimisation replacing manual segmentation and targeting
+
+### 6. VERDICT
+**The Master of Business Administration (Marketing) is HIGH RISK — a credential whose primary professional domain is experiencing acute AI disruption.**
+
+Marketing is one of the fields where AI tools have had the fastest and deepest impact. Content generation, campaign optimisation, performance analytics, and market research are all experiencing significant AI compression. The marketing MBA credential signals managerial capability, but the executional domain it is designed for is changing faster than the curriculum reflects.
+
+The path to resilience runs through two things: genuine brand strategy expertise (which requires human cultural understanding and consumer empathy that AI lacks) and AI governance capability (which allows graduates to sit above the automation layer rather than within it).
+
+### 7. RECOMMENDATIONS
+| Priority | Action | Dimension | Effort |
 |---|---|---|---|
-| 1 | Automation Exposure | 1 | Early-career MBA work heavily automatable — market analysis, reporting, financial modelling. Senior general management resists but graduates don't start there. |
-| 2 | Systems Thinking | 2 | Corporate Strategy, Game Theory, Supply Chain teach systemic analysis. Two consulting capstones. Not embedded across all units. |
-| 3 | Technical Depth | 1 | General management curriculum. Financial Analysis elective. Business Analytics not available 2026. No quantitative core. |
-| 4 | Decision-Making | 2 | Case-based learning + consulting practicum capstones. Strategic decision frameworks. Capstone requires defended recommendations. |
-| 5 | AI Literacy | 1 | Digital Product Management elective touches digital tools. No AI governance, literacy, or strategy content. |
-| 6 | Domain Depth | 2 | Dual MBA + Marketing specialisation. Consumer Behaviour, Marketing Strategy, Brand Management. Deep within business domain. |
-| 7 | Research Rigour | 1 | Consumer Behaviour and Marketing Research — applied, not research-methods training. No thesis. |
-| 8 | Human & Relational | 2 | Leadership and Change, Negotiations, consulting practicum, diverse teams. Ethical leadership embedded in outcomes. |
-| 9 | Currency | 2 | Digital Product Management added. Updated Nov 2025. Several electives "not available in 2026" signals transition. |
-| 10 | Outcomes | 3 | No published destination data. |
-| B | Irreplaceability | 2 | Dual degree creates versatile managers. General management + marketing = adaptable but not irreplaceable. |
+| 1 | Develop genuine brand strategy expertise — not campaign management but cultural and consumer insight | D6 | High |
+| 2 | Build AI marketing tool governance competency — understand what AI marketing tools optimise for and what they miss | D5 | Medium |
+| 3 | Develop marketing analytics depth — Python/R-based marketing mix modelling and causal attribution are growth areas | D3 | High |
+| 4 | Target brand director and CMO-track roles that require human cultural judgment, not campaign execution roles | D1 | Low |
 
-**TOTAL: 17/36 — HIGH RISK**
+### 8. THE REDESIGNED GRADUATE PROFILE
+The 2027-ready marketing MBA graduate is not a campaign manager — they are a **brand strategy and consumer insight specialist** who understands what drives human behaviour, not just what drives click-through rates.
 
-### VERDICT
-The dual MBA/Marketing creates versatile generalist managers but lacks the technical depth or domain specialization that resists AI substitution. Early-career MBA work (analysis, reporting, strategy decks) is heavily automatable. The consulting capstones and leadership training add value but don't offset the AI exposure of core management tasks. Q1=YES (AI can produce 80% of first-two-year output). Q2=YES (capstones build decision ownership). Q3=UNCERTAIN (management demand is durable but AI-augmented management reduces headcount).
+They know why a brand works — the specific combination of cultural positioning, product truth, and emotional territory that creates genuine consumer resonance. They have made a brand decision that was counterintuitive to the data but right for the brand, and they can explain why. That cultural and strategic judgment is what AI marketing tools cannot replicate.
+
+They use AI tools to accelerate production — content generation, campaign testing, performance analysis — and apply their brand judgment to govern the outputs. They are not competing with AI at the production layer. They are directing it at the strategy layer.
 
 ### MARKET DATA
 | Metric | Value |

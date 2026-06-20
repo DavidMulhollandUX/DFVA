@@ -1,155 +1,121 @@
-// compass/app/src/client/components/ProgramRadar.tsx
+import { RADAR_LABELS } from "../../compass/data/rubric";
+
 export interface RadarDimension {
   label: string;
   score: number;
   max: number;
-  target?: number; // optional target overlay
 }
 
 interface ProgramRadarProps {
   dimensions: RadarDimension[];
   size?: number;
-  showTarget?: boolean;
   className?: string;
+  baseScore?: number;
 }
 
-function polarToCartesian(cx: number, cy: number, r: number, angle: number) {
-  const rad = ((angle - 90) * Math.PI) / 180;
-  return { x: cx + r * Math.cos(rad), y: cy + r * Math.sin(rad) };
-}
+export function ProgramRadar({ dimensions, size = 220, className = '', baseScore = 20 }: ProgramRadarProps) {
+  // Filter out any bonus dimension to ensure exactly 10 core dimensions are rendered
+  const coreDims = dimensions.filter(
+    (d) => !d.label.toLowerCase().includes("bonus") && !d.label.toLowerCase().includes("irreplaceability")
+  );
+  const n = Math.min(coreDims.length, 10);
 
-function dimensionColor(score: number, max: number): string {
-  const pct = score / max;
-  if (pct >= 0.83) return 'rgb(16, 185, 129)'; // emerald-500
-  if (pct >= 0.5) return 'rgb(234, 179, 8)';   // yellow-500
-  return 'rgb(239, 68, 68)';                     // red-500
-}
-
-export function ProgramRadar({ dimensions, size = 280, showTarget = false, className = '' }: ProgramRadarProps) {
   const cx = size / 2;
   const cy = size / 2;
-  const maxR = size * 0.35;
-  const levels = [1, 2, 3];
-  const n = dimensions.length;
-  const angleStep = 360 / n;
+  const maxR = size / 2 - 26;
 
-  // Grid rings
-  const gridRings = levels.map(level => {
-    const r = (level / 3) * maxR;
-    const points = dimensions.map((_, i) => {
-      const angle = i * angleStep;
-      const pt = polarToCartesian(cx, cy, r, angle);
-      return `${pt.x},${pt.y}`;
+  // Determine risk band color from baseScore
+  let color = '#ea580c'; // default high risk (orange)
+  if (baseScore >= 28) color = '#16a34a'; // resilient (green)
+  else if (baseScore >= 20) color = '#d97706'; // moderate risk (amber)
+  else if (baseScore >= 12) color = '#ea580c'; // high risk (orange)
+  else color = '#dc2626'; // critical (red)
+
+  const angle = (i: number) => (i / n) * 2 * Math.PI - Math.PI / 2;
+
+  const polar = (r: number, i: number) => ({
+    x: cx + r * Math.cos(angle(i)),
+    y: cy + r * Math.sin(angle(i)),
+  });
+
+  const gridPolygon = (level: number) =>
+    Array.from({ length: n }, (_, i) => {
+      const p = polar((level / 3) * maxR, i);
+      return `${p.x.toFixed(2)},${p.y.toFixed(2)}`;
     }).join(' ');
-    return <polygon key={`ring-${level}`} points={points} fill="none" stroke="currentColor" strokeWidth="0.5" className="text-border" opacity={0.3} />;
-  });
 
-  // Axis lines
-  const axes = dimensions.map((_, i) => {
-    const angle = i * angleStep;
-    const pt = polarToCartesian(cx, cy, maxR, angle);
-    return <line key={`axis-${i}`} x1={cx} y1={cy} x2={pt.x} y2={pt.y} stroke="currentColor" strokeWidth="0.5" className="text-border" opacity={0.2} />;
-  });
-
-  // Score polygon
-  const scorePoints = dimensions.map((d, i) => {
-    const angle = i * angleStep;
-    const r = (d.score / d.max) * maxR;
-    const pt = polarToCartesian(cx, cy, r, angle);
-    return `${pt.x},${pt.y}`;
-  }).join(' ');
-
-  // Target polygon (optional)
-  const targetPolygon = showTarget ? (
-    <polygon
-      points={dimensions.map((d, i) => {
-        const angle = i * angleStep;
-        const r = ((d.target || d.score) / d.max) * maxR;
-        const pt = polarToCartesian(cx, cy, r, angle);
-        return `${pt.x},${pt.y}`;
-      }).join(' ')}
-      fill="none"
-      stroke="rgb(59, 130, 246)"
-      strokeWidth="1.5"
-      strokeDasharray="4 2"
-      opacity={0.6}
-    />
-  ) : null;
-
-  // Dots at each score point
-  const dots = dimensions.map((d, i) => {
-    const angle = i * angleStep;
-    const r = (d.score / d.max) * maxR;
-    const pt = polarToCartesian(cx, cy, r, angle);
-    return <circle key={`dot-${i}`} cx={pt.x} cy={pt.y} r={3} fill={dimensionColor(d.score, d.max)} />;
-  });
-
-  // Labels
-  const labels = dimensions.map((d, i) => {
-    const angle = i * angleStep;
-    const labelR = maxR + 28;
-    const pt = polarToCartesian(cx, cy, labelR, angle);
-    const rotation = angle > 90 && angle < 270 ? angle + 180 : angle;
-    const anchor = angle > 90 && angle < 270 ? 'end' : 'start';
-    return (
-      <text
-        key={`label-${i}`}
-        x={pt.x}
-        y={pt.y}
-        textAnchor={anchor}
-        dominantBaseline="middle"
-        fontSize="9"
-        className="fill-muted-foreground"
-        transform={`rotate(${rotation}, ${pt.x}, ${pt.y})`}
-      >
-        {d.label.length > 18 ? d.label.slice(0, 17) + '…' : d.label}
-      </text>
-    );
-  });
-
-  // Score labels near each dot
-  const scoreLabels = dimensions.map((d, i) => {
-    const angle = i * angleStep;
-    const r = (d.score / d.max) * maxR + 12;
-    const pt = polarToCartesian(cx, cy, r, angle);
-    return (
-      <text
-        key={`score-${i}`}
-        x={pt.x}
-        y={pt.y}
-        textAnchor="middle"
-        dominantBaseline="middle"
-        fontSize="8"
-        fontWeight="600"
-        fill={dimensionColor(d.score, d.max)}
-      >
-        {d.score}
-      </text>
-    );
-  });
+  const dataPolygon = coreDims
+    .slice(0, n)
+    .map((d, i) => {
+      const p = polar((d.score / 3) * maxR, i);
+      return `${p.x.toFixed(2)},${p.y.toFixed(2)}`;
+    })
+    .join(' ');
 
   return (
-    <div className={`flex flex-col items-center ${className}`}>
-      <svg width={size} height={size} viewBox={`0 0 ${size} ${size}`} className="overflow-visible">
-        {gridRings}
-        {axes}
+    <div className={`flex flex-col items-center ${className}`} style={{ padding: '6px 32px' }}>
+      <svg
+        width={size}
+        height={size}
+        viewBox={`0 0 ${size} ${size}`}
+        style={{ overflow: 'visible' }}
+        aria-label="Dimension radar chart"
+      >
+        {[1, 2, 3].map((level) => (
+          <polygon
+            key={level}
+            points={gridPolygon(level)}
+            fill="none"
+            stroke="currentColor"
+            className="text-muted-foreground/15 dark:text-zinc-800"
+            strokeWidth={0.75}
+          />
+        ))}
+        {Array.from({ length: n }, (_, i) => {
+          const p = polar(maxR, i);
+          return (
+            <line
+              key={i}
+              x1={cx}
+              y1={cy}
+              x2={p.x}
+              y2={p.y}
+              stroke="currentColor"
+              className="text-muted-foreground/15 dark:text-zinc-800"
+              strokeWidth={0.75}
+            />
+          );
+        })}
         <polygon
-          points={scorePoints}
-          fill={dimensionColor(
-            dimensions.reduce((s, d) => s + d.score, 0) / dimensions.length,
-            3
-          )}
+          points={dataPolygon}
+          fill={color}
           fillOpacity={0.15}
-          stroke={dimensionColor(
-            dimensions.reduce((s, d) => s + d.score, 0) / dimensions.length,
-            3
-          )}
-          strokeWidth="1.5"
+          stroke={color}
+          strokeWidth={1.5}
+          strokeLinejoin="round"
         />
-        {targetPolygon}
-        {dots}
-        {scoreLabels}
-        {labels}
+        {coreDims.slice(0, n).map((d, i) => {
+          const p = polar((d.score / 3) * maxR, i);
+          return <circle key={i} cx={p.x} cy={p.y} r={2.5} fill={color} />;
+        })}
+        {coreDims.slice(0, n).map((_, i) => {
+          const p = polar(maxR + 14, i);
+          const cosA = Math.cos(angle(i));
+          const sinA = Math.sin(angle(i));
+          return (
+            <text
+              key={i}
+              x={p.x}
+              y={p.y}
+              textAnchor={cosA > 0.3 ? 'start' : cosA < -0.3 ? 'end' : 'middle'}
+              dominantBaseline={sinA > 0.3 ? 'hanging' : sinA < -0.3 ? 'auto' : 'middle'}
+              fontSize={8}
+              className="fill-muted-foreground font-medium dark:fill-zinc-400"
+            >
+              {RADAR_LABELS[i] ?? ''}
+            </text>
+          );
+        })}
       </svg>
     </div>
   );

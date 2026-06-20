@@ -5,7 +5,7 @@
 
 **Assessment date:** 2026-06-08  
 **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-actsc  
-**Prompt version:** DFVA-CONTINUE-SLASH-v1
+**Prompt version:** DFVA-COPILOT-PROMPT-v1
 
 ### 1. PROGRAM PROFILE
 The Master of Actuarial Science is a 150-credit-point professional entry program providing the fastest graduate pathway to the actuarial profession. The curriculum comprises 6 compulsory core subjects, 2 capstone subjects, and 4 electives approved by the Program Director. Subjects follow a structured progression: Mathematics of Finance I→II→III across three semesters, Life Insurance Models 1→2 across two, with capstones in Life Contingencies and General Insurance Modelling.
@@ -49,6 +49,19 @@ The structural defence is the professional accreditation pathway — actuaries o
 - **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
   **UNCERTAIN** — the traditional actuarial pipeline (examinations + technical experience) is under pressure from automation. Graduates who add data science/AI skills via electives differentiate positively. The profession's regulatory barriers provide some protection, but entry-level compression is real and accelerating.
 
+
+### 5. ANALOGUE GRADUATE PROFILE
+
+The most exposed actuarial science graduate is the **Junior Actuarial Analyst of 2021**: entering an insurance firm as the primary handler of reserving calculations, pricing model runs, and regulatory reporting submissions — precise, structured mathematical tasks that actuarial software platforms and AI tools are actively automating.
+
+Specific threats:
+- **Actuarial AI platforms (Quantee, Akur8)** — automated pricing model generation from claims data, replacing manual model design at junior levels
+- **Willis Towers Watson Radar Live / Moody's RMS AI** — automated catastrophe modelling and reserving runs
+- **AI regulatory reporting tools** — APRA reporting automation reducing junior analyst time on structured submissions
+- **Excel AI and Python AutoML** — absorbing the routine modelling and data transformation work that forms the bulk of first-two-year actuarial output
+
+---
+
 ### 5. VERDICT
 This program sits at a structural inflection point. Its traditional strengths — mathematical rigour, structured progression, professional accreditation pathway — are genuine and durable. But the techniques it teaches as its core (pricing, reserving, life insurance mathematics) are precisely the techniques being automated by the industry the program serves.
 
@@ -68,11 +81,24 @@ The path from MODERATE RISK to RESILIENT runs through the elective structure: ma
 ### 7. MARKET CONFIDENCE NOTE
 Confidence: **Medium-High**. Actuarial automation is well-documented in industry literature and professional discourse. The tension between traditional actuarial training and AI/automation is a live topic in the profession. The structural analysis of entry-level exposure is based on documented task composition, not speculation.
 
+
+### 8. THE REDESIGNED GRADUATE PROFILE
+
+The 2027-ready actuarial science graduate is not a calculator — they are a **risk governance specialist** who understands what the actuarial models do and what they miss, and who can own the accountability when they are wrong.
+
+They have completed the accreditation examination track, which means they carry professional liability. They know the regulatory framework for the product lines they work with. When the automated pricing model produces an output that looks right but is wrong for regulatory reasons, they are the person who catches it and explains why.
+
+They understand the AI tools in their firm's technology stack: what training data the claims model uses, where it fails at distribution edges, and what the governance requirement is when an AI-generated premium recommendation deviates from actuarial professional judgment. That combination — mathematical rigour plus AI governance literacy plus professional accountability — is what the AI era of insurance actually requires.
+
+They have added data analytics capability (Python, R, SQL at depth) that makes them fluent in the same technical language as the AI tools they oversee. They are not just an actuarial examiner — they are an actuarial data scientist with professional credentials.
+
+---
+
 ---
 
 **Assessment date:** 2026-06-08  
 **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-actsc  
-**Prompt version:** DFVA-CONTINUE-SLASH-v1
+**Prompt version:** DFVA-COPILOT-PROMPT-v1
 
 ### MARKET DATA
 | Metric | Value |

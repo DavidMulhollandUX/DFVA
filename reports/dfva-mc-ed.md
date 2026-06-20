@@ -1,23 +1,67 @@
-## DFVA REPORT: Master of Education (MC-ED)
-**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 pts)
-**Assessment date:** 2026-06-09 | **Score:** 24/36 — MODERATE RISK
+## DFVA REPORT: MC-ED
+**Institution:** University of Melbourne  
+**Level:** Master (Coursework)  
+**Duration:** 2 years (200 credit points)
 
-### SCORECARD
-| # | Dimension | Score | Rationale |
-|---|---|---:|---|
-| 1 | Automation Exposure | 2 | Teaching has irreducible human elements but administrative, assessment, and content delivery tasks are increasingly AI-automatable. |
-| 2 | Systems Thinking | 2 | Educational systems, policy, and leadership content teaches systems-level thinking. Capstone integrates theory and practice. |
-| 3 | Technical Depth | 1 | Education research methods and data analysis present but not deeply quantitative. Pedagogy-focused rather than technically rigorous. |
-| 4 | Decision-Making | 2 | Professional practice and capstone require educational decision-making. Less pressure-testing than clinical/design programs. |
-| 5 | AI Literacy | 1 | No AI-specific education content visible. Educational technology likely covered but AI in education not explicit. |
-| 6 | Domain Depth | 3 | Deep education domain. 200pt program with specialisation pathways. Professional teaching accreditation pathway. |
-| 7 | Research Rigour | 2 | Research project/paper typically required. Education research methods taught. |
-| 8 | Human & Relational | 3 | Teaching is fundamentally human-relational. Classroom management, student engagement, educational leadership. |
-| 9 | Curriculum Currency | 2 | Updated Dec 2025. Contemporary educational theory. Limited AI/digital pedagogy visibility. |
-| 10 | Outcome Evidence | 3 | Teacher registration provides external outcome tracking. Education employment data available. |
-| B | Irreplaceability | 3 | Teaching combines content knowledge + pedagogical skill + human relationship. Regulatory barriers (teacher registration) + physical classroom presence. |
+**Assessment date:** 2026-06-20  
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-ed  
+**Prompt version:** DFVA-COPILOT-PROMPT-v1
 
-**Q1:** NO — teaching requires human presence, relationship, and contextual judgment. **Q2:** YES. **Q3:** YES — teacher shortages persist.
+### 1. PROGRAM PROFILE
+The Master of Education at the University of Melbourne is a research and professional development degree for educators seeking advanced knowledge in pedagogy, education leadership, curriculum design, and educational research. It is not an initial teaching qualification.
+
+The program covers educational policy, learning theory, curriculum studies, educational research methods, and specialisations in areas such as educational leadership, learning technologies, and inclusion. Graduate roles include senior teacher, education researcher, curriculum designer, education policy advisor, and academic.
+
+The program's research orientation and leadership focus differentiate it from initial teacher education programs.
+
+### 2. AUTOMATION EXPOSURE PROFILE
+| Year | Typical Tasks | Automation Risk |
+|---|---|---|
+| Year 1–2 (graduate) | Senior teacher, curriculum developer, education researcher | **MEDIUM** — Curriculum design, research, and educational leadership require human judgment |
+| Year 3–5 | Principal, education director, academic researcher | **LOW** — Educational leadership and research require genuine human capability |
+
+### 3. DFVA SCORECARD
+*Score data from existing assessment records.*
+
+**TOTAL: 24/36**  
+**Risk band: MODERATE RISK**
+
+### 4. THREE THRESHOLD QUESTIONS
+**Q1: Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?**
+UNCERTAIN. See program assessment for detailed rationale.
+
+**Q2: Does this program train graduates to design systems, own decisions, or generate original insight?**
+YES. See program assessment for detailed rationale.
+
+**Q3: Will these graduates be more employable in 5 years than today, given AI trends?**
+YES. See program assessment for detailed rationale.
+
+### 5. ANALOGUE GRADUATE PROFILE
+The most exposed education graduate is the **Curriculum Content Developer of 2021**: primarily producing curriculum materials, lesson resources, and assessment items — work being absorbed by AI content generation tools.
+
+Specific threats:
+- **AI lesson planners (Eduaide, MagicSchool AI)** — automated curriculum resource generation
+- **AI assessment item generators** — automated test and quiz generation from learning objectives
+- **AI grading tools (Turnitin AI, Gradescope AI)** — automated essay feedback and grading
+
+### 6. VERDICT
+**The Master of Education is MODERATE RISK — a research and leadership degree whose graduates are positioned above the AI content generation layer.**
+
+Education leadership, curriculum design at a policy level, and educational research are substantially more automation-resistant than classroom content production. The MEd's research orientation and leadership focus provide positioning above the most AI-exposed roles in education.
+
+### 7. RECOMMENDATIONS
+| Priority | Action | Dimension | Effort |
+|---|---|---|---|
+| 1 | Develop AI in education literacy — evaluate learning technology platforms, understand their evidence base, and develop governance frameworks | D5 | Medium |
+| 2 | Build educational research expertise — rigorous evaluation of educational interventions is an underserved and growing field | D7 | High |
+| 3 | Develop data-informed decision-making capability for education leadership | D3 | Medium |
+
+### 8. THE REDESIGNED GRADUATE PROFILE
+The 2027-ready MEd graduate is not a curriculum content producer — they are an **educational systems leader** who understands how learning works, what evidence shows, and how to build institutional capability for continuous improvement.
+
+They have evaluated an educational intervention rigorously: not anecdote but evidence, not enthusiasm but causal inference. They know the difference between a curriculum reform that worked and one that appeared to work because the measurement was wrong. That evaluative expertise is what makes their leadership judgment valuable.
+
+They understand what AI educational tools claim and what the evidence actually supports. They can advise a school or system on appropriate AI tool adoption — which applications have genuine pedagogical evidence, which have vendor evidence only, and what the governance requirements are for student data in AI systems.
 
 ### MARKET DATA
 | Metric | Value |

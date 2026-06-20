@@ -2,7 +2,32 @@
 **Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 pts)
 **Assessment date:** 2026-06-08 | **Source:** https://handbook.unimelb.edu.au/2026/courses/mc-bmedsc
 
-### Scorecard
+### 1. PROGRAM PROFILE
+The Master of Biomedical Science at the University of Melbourne is a research-intensive degree combining laboratory science training with a 125-credit-point research project — the largest research component in the assessed cohort. Students choose a specialisation from five departmental areas: School of Biomedical Sciences, Melbourne Medical School, Melbourne Dental School, Department of Psychological Sciences, or Department of Optometry and Vision Sciences.
+
+The 200-credit-point program includes *Introduction to Biomedical Research* (compulsory), *Research to Impact* (health translation), and 125 points of supervised laboratory research conducted over four consecutive semesters. Students develop experimental design skills, laboratory techniques specific to their specialisation, and scientific communication competency.
+
+Typical graduate roles include research scientist, clinical trial coordinator, research officer in pharmaceutical/biotechnology companies, PhD candidate, and postdoctoral researcher. The program serves as the primary entry point to biomedical PhD programs in Australia and internationally.
+
+## 2. AUTOMATION EXPOSURE PROFILE
+
+| Task Category | Example Graduate Tasks | AI Pressure | AI Capability Today | Durability Rationale |
+|---|---|---|---|---|
+| Routine assay execution | Manual pipetting, ELISA, Western blot, PCR setup, sample processing according to established protocols | HIGH | Liquid handling robots (Hamilton, Tecan) and automated assay platforms already replace repetitive lab bench work at scale | Execution-layer tasks are the most vulnerable; graduates positioned at the research design layer are far more durable |
+| Histology & microscopy analysis | Manual cell counting, histological scoring, fluorescence image interpretation | HIGH | AI image analysis platforms (Ilastik, CellProfiler, HALO AI) automate quantification of standard microscopy outputs with high accuracy | Routine quantification is automatable; novel experimental interpretation and quality-control judgment remain human |
+| Data analysis & statistical reporting | Running standard statistical analyses on flow cytometry, qPCR, or proteomics datasets; generating results tables | MEDIUM | AI-assisted analysis tools (Seurat for single-cell, AI modules in FlowJo, automated bioinformatics pipelines) handle standard workflows | Non-standard datasets, hypothesis-driven interpretation, and cross-experiment reasoning still require trained scientific judgment |
+| Experimental design | Formulating research hypotheses, selecting controls, designing power calculations, sequencing experimental stages across semesters | LOW | AI can assist with literature synthesis and suggest precedent-based designs, but cannot generate defensible novel hypotheses or navigate ethical constraints | The 125pt research project develops this capacity over four semesters — it is the core irreplaceable output of this degree |
+| Literature review & synthesis | Surveying primary literature, identifying research gaps, writing literature review sections of a thesis | MEDIUM | AI tools (Elicit, Consensus, Semantic Scholar AI) accelerate scoping reviews and surface relevant papers, but synthesis of conflicting evidence requires expert judgment | Graduates who can critically evaluate AI-generated summaries against primary sources will be more productive, not displaced |
+| Scientific writing & communication | Drafting research manuscripts, thesis chapters, grant applications, conference abstracts | MEDIUM | LLMs assist with drafting and editing, but they cannot generate the novel scientific argument, defend the methodology, or respond to peer review | Scientific writing is moving toward human-AI collaboration; the critical thinking layer remains human |
+| Clinical trial coordination | Protocol administration, regulatory documentation, site management, adverse event recording for clinical or translational studies | LOW | Trial management software automates compliance tracking and scheduling; AI flags protocol deviations — but regulatory judgment and participant interaction are human | Human oversight, ethical governance, and participant relationships are structurally non-automatable in clinical research contexts |
+| Research translation & stakeholder engagement | Presenting research findings to non-specialist audiences, engaging with industry partners, applying findings to health outcomes (HLTH90021) | LOW | AI can summarise and simplify content, but cannot build trust with research partners, navigate institutional dynamics, or make strategic decisions about impact pathways | The Research to Impact unit develops exactly the human-relational layer that is hardest to automate |
+
+**Overall Section Exposure:** MEDIUM
+
+**Durability Assessment:** MC-BMEDSC graduates face meaningful AI pressure at the execution layer of laboratory work — routine assays, standard analyses, and image quantification are all subject to ongoing automation. However, the program's defining feature — a 125-credit-point sustained research project across four semesters — positions graduates primarily in the experimental design and scientific judgment layer, which is the most durable layer in biomedical research. The net automation exposure is medium rather than high precisely because the degree trains graduates to own the decisions that direct AI tools, not to execute the tasks those tools replace. The key vulnerability is the minority of graduates who exit into pure execution roles (research assistant, lab technician) without progressing to research design or clinical coordination positions.
+
+
+###  3. DFVA SCORECARD
 | # | Dimension | Score | Rationale |
 |---|---|---:|---|
 | 1 | Automation Exposure | 2 | 125pt research project anchors non-automatable work. Lab techniques partially automatable. Biomedical research increasingly AI-augmented. |
@@ -19,7 +44,7 @@
 
 **TOTAL: 25/36 — MODERATE RISK**
 
-### Thresholds
+###  4. THREE THRESHOLD QUESTIONS
 - **Q1 (AI produce 80%?):** NO — the 125pt laboratory research project is irreducible human work.
 - **Q2 (Design systems/own decisions?):** YES — research project from design through interpretation.
 - **Q3 (More employable in 5 years?):** YES — biomedical research is AI-augmented, not AI-displaced. Research training is structurally protective.
@@ -27,6 +52,49 @@
 ### Verdict
 The program's 125-point research project is its defining strength — proportionally the largest in this assessment cohort. Graduates exit with research-cultivated judgment that resists substitution. The AI literacy gap (D5) is the main opportunity.
 
+### 7. RECOMMENDATIONS
+| Priority | Action | Dimension | Effort |
+|---|---|---|---|
+| 1 | Add a unit on AI in biomedical research — machine learning for image analysis, AI drug discovery, computational biology — as a core or elective offering | D5, D9 | Medium |
+| 2 | Develop scientific communication capability explicitly — presenting research to non-specialist audiences is a growing career requirement | D8 | Low |
+| 3 | Build bioinformatics competency alongside lab expertise — the intersection of wet-lab and computational skills is the growth area | D3, D5 | Medium |
+| 4 | Publish graduate destination data including PhD continuation rates, time to employment, and industry sector breakdown | D10 | Medium |
+| 5 | Develop industry partnership opportunities beyond the current structure — industry-supervised research projects provide real-world validation of laboratory skills | D4, D8 | High |
+
+---
+
+
+## 5. ANALOGUE GRADUATE PROFILE
+
+The most exposed biomedical science graduate is the **Research Assistant of 2020**: primarily conducting routine laboratory assays, processing samples according to established protocols, and entering experimental data — work being automated by laboratory robotics and AI analysis platforms.
+
+Specific threats:
+- **High-throughput liquid handling robots (Hamilton, Tecan)** — automated assay execution replacing manual pipetting
+- **AI image analysis platforms** — automated histology, microscopy, and cell counting replacing manual analysis
+- **AI data analysis for standard biomedical datasets** — automated statistical analysis of ELISA, Western blot, and flow cytometry data
+- **Lab information management AI** — automated protocol optimisation and experiment tracking
+
+However, the MC-BMEDSC graduate profile is substantially more protected: the 125pt research project, requiring original experimental design and defended methodology, positions graduates in the research judgment layer rather than the execution layer.
+
+---
+
+## 8. THE REDESIGNED GRADUATE PROFILE
+
+The 2027-ready biomedical science graduate is not a laboratory executor — they are a **research scientist** who generates original knowledge, defends experimental design, and governs AI tools with critical scientific judgment.
+
+They have spent four semesters on a single sustained research project: they know what it means to have a hypothesis fail, to redesign the experiment, and to interpret results that don't cleanly support either hypothesis. That research judgment — comfort with genuine uncertainty and ability to navigate it methodically — is the most valuable and least automatable skill in biomedical science.
+
+They understand how AI is transforming their specialisation: AlphaFold for structural biology, ML for genomic variant classification, AI-assisted drug discovery. They can evaluate whether an AI-generated prediction requires experimental validation and design the experiment that provides the definitive test. That critical evaluation layer is what makes their judgment indispensable.
+
+They are positioned at the interface of laboratory expertise and computational analysis — they know when to trust the model and when to trust the bench result. In the AI era of biomedical science, that dual literacy is the rarest and most valuable combination.
+
+
+
+---
+
+**Assessment Date:** 2026-06-21
+**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-bmedsc
+**Prompt Version:** DFVA-COPILOT-PROMPT-v1
 ### MARKET DATA
 | Metric | Value |
 |--------|-------|

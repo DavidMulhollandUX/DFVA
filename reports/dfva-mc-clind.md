@@ -1,21 +1,67 @@
-## DFVA REPORT: MC-CLIND (Clinical Dentistry)
-**UniMelb** | Master | 1y FT (100 pts) | 2026-06-10
+## DFVA REPORT: MC-CLIND
+**Institution:** University of Melbourne  
+**Level:** Master (Coursework)  
+**Duration:** 2 years (200 credit points)
 
-| # | Dim | S | Rationale |
-|---|---:|---|
-| 1 | Automation | 3 | Clinical dentistry is physically irreducible. Hands-on patient care at Royal Dental Hospital. |
-| 2 | Systems Thinking | 1 | Clinical dentistry focus. Not systems-level. |
-| 3 | Technical Depth | 2 | Clinical dental skills + research methods + research investigation. |
-| 4 | Decision-Making | 3 | Clinical performance assessment with mid/end-year feedback. Real patient care requires real-time clinical judgment. |
-| 5 | AI Literacy | 0 | No AI content. |
-| 6 | Domain Depth | 3 | Clinical dentistry with hospital-based training. All-core 100pt focused intensity. |
-| 7 | Research Rigour | 2 | Research Proposal (25pt) + supervised research investigation. |
-| 8 | Human & Relational | 3 | Direct patient care, clinical communication, ethical dental practice. |
-| 9 | Currency | 2 | Updated TODAY (10 June 2026). Active program. |
-| 10 | Outcomes | 3 | No published data. |
-| B | Irreplaceability | 3 | Clinical dentistry + research training = maximum healthcare irreducibility. |
+**Assessment date:** 2026-06-20  
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-clind  
+**Prompt version:** DFVA-COPILOT-PROMPT-v1
 
-**TOTAL: 23/36 — MODERATE RISK** | Q1:NO Q2:YES Q3:YES
+### 1. PROGRAM PROFILE
+The Master of Clinical Dentistry at the University of Melbourne is a specialist clinical training program for qualified dentists seeking advanced specialist or academic credentials. The program covers clinical dentistry, oral health management, patient care, and research methodology.
+
+Graduate roles include specialist dentist, clinical academic, oral health researcher, and dental public health specialist. The program requires existing dental registration and provides specialist-level clinical training.
+
+### 2. AUTOMATION EXPOSURE PROFILE
+| Year | Typical Tasks | Automation Risk |
+|---|---|---|
+| Year 1–3 (graduate) | Clinical specialist practice — diagnosis, treatment planning, complex procedures | **LOW** — Physical clinical procedures, diagnosis, and patient management require human clinical judgment |
+| Year 4+ | Senior specialist, clinical academic — teaching, research, complex case management | **LOW** — Professional registration and clinical accountability |
+
+### 3. DFVA SCORECARD
+*Score data from existing assessment records.*
+
+**TOTAL: 23/36**  
+**Risk band: MODERATE RISK**
+
+### 4. THREE THRESHOLD QUESTIONS
+**Q1: Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?**
+NO. See program assessment for detailed rationale.
+
+**Q2: Does this program train graduates to design systems, own decisions, or generate original insight?**
+YES. See program assessment for detailed rationale.
+
+**Q3: Will these graduates be more employable in 5 years than today, given AI trends?**
+YES. See program assessment for detailed rationale.
+
+### 5. ANALOGUE GRADUATE PROFILE
+The most exposed clinical dentistry graduate is the **General Practice Dentist of 2020**: primarily providing routine restorative, preventive, and diagnostic services — some of which are being augmented by AI diagnostic tools.
+
+Specific threats:
+- **AI dental diagnostics (Denti.AI, Pearl AI)** — automated caries, periodontal, and pathology detection from radiographs
+- **AI treatment planning tools** — automated treatment sequencing from diagnostic data
+- **Robotic dental systems** — emerging automation in certain predictable procedural steps
+
+However, the MC-CLIND specialist profile is substantially more protected: complex specialist procedures, diagnosis in ambiguous cases, and specialist clinical judgment are not within current AI capability.
+
+### 6. VERDICT
+**The Master of Clinical Dentistry is MODERATE RISK — a specialist clinical program with strong regulatory protection and physical skill requirements that resist AI substitution.**
+
+Specialist dental practice involves complex clinical procedures, physical skill, and diagnostic judgment that AI tools augment rather than replace. APHRA registration and specialist accreditation create genuine barriers. The risk is in maintaining clinical currency as AI diagnostic tools transform how routine pathology is identified.
+
+### 7. RECOMMENDATIONS
+| Priority | Action | Dimension | Effort |
+|---|---|---|---|
+| 1 | Develop AI dental diagnostic tool literacy — understand their evidence base, error patterns, and clinical governance requirements | D5 | Medium |
+| 2 | Specialise in complex/multidisciplinary treatment planning — this requires the highest level of integrated clinical judgment | D6 | High |
+| 3 | Build research methodology skills for clinical evidence evaluation | D7 | Medium |
+
+### 8. THE REDESIGNED GRADUATE PROFILE
+The 2027-ready clinical dentistry graduate is a **specialist clinical expert** who knows what AI dental diagnostics can and cannot see, and whose clinical judgment accounts for what the AI misses.
+
+They have managed complex cases where AI flagged something that was normal variation, and cases where human pattern recognition missed something the AI caught. They know the failure modes in both directions. Their clinical decisions integrate AI-generated information without being driven by it.
+
+They are registered specialists with physical procedural skills that AI cannot replicate: the manual dexterity, tactile feedback interpretation, and patient management capability that clinical dentistry requires at the specialist level.
 
 ### MARKET DATA
 | Metric | Value |

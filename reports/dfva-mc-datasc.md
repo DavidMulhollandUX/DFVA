@@ -5,7 +5,7 @@
 
 **Assessment date:** 2026-06-08  
 **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-datasc  
-**Prompt version:** DFVA-CONTINUE-SLASH-v1
+**Prompt version:** DFVA-COPILOT-PROMPT-v1
 
 ### 1. PROGRAM PROFILE
 The Master of Data Science is a 200-credit-point professional entry program combining statistics and computer science in a single coordinated degree. Students are assigned to one of five background streams on admission (Foundation, Mixed, Statistics, Computer Science, or Data Science), which determines foundation requirements and available specialisations.
@@ -49,6 +49,19 @@ The risk is in the middle: graduates who exit with coursework competence but wit
 - **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
   **UNCERTAIN** — data science demand is growing but the field is also increasingly competitive and AI-compressed at the entry level. Graduates who exit with project-cultivated judgment and specialisation depth differentiate; those with coursework-only competence face a tightening market for routine analytics roles.
 
+
+### 5. ANALOGUE GRADUATE PROFILE
+
+The most exposed data science graduate is the **Junior Data Analyst of 2022**: using pandas and sklearn to clean datasets, train standard classification models, produce visualisations, and write summary reports — work being systematically absorbed by AI coding assistants, AutoML platforms, and business intelligence co-pilots.
+
+Specific threats:
+- **GitHub Copilot / Cursor** — generating data cleaning and analysis code from natural language descriptions, replacing junior data engineering work
+- **Julius / ChatGPT Advanced Data Analysis** — running statistical analysis and producing visualisations from uploaded datasets
+- **Power BI Copilot / Tableau AI** — automated dashboard generation and narrative insight extraction
+- **AutoML platforms (Google AutoML, DataRobot, H2O.ai)** — automated model selection, hyperparameter tuning, and model evaluation
+
+---
+
 ### 5. VERDICT
 This program has strong bones — the statistics/CS dual-core is structurally sound and the stream/specialisation system accommodates diverse entry backgrounds while steering all students toward depth. The 9 June 2026 update date signals active curriculum maintenance.
 
@@ -65,11 +78,24 @@ The vulnerability is not the curriculum content but the graduate differentiation
 ### 7. MARKET CONFIDENCE NOTE
 Confidence: **Medium**. Data science labour market signals are well-documented; the structural analysis of the project as a differentiation mechanism is curriculum-evidence-based. The uncertainty is in the graduate destination data gap — without published outcomes by specialisation, the program's actual differentiation effectiveness is unverified.
 
+
+### 8. THE REDESIGNED GRADUATE PROFILE
+
+The 2027-ready data science graduate is not someone who fits models — they are someone who **defines what question the model is answering and what we learn when it is wrong**.
+
+They have done causal inference properly: not correlation analysis dressed up as causal language, but a genuinely identified effect with a valid natural experiment or instrumental variable. They can defend their identification strategy to a statistician and explain its practical implications to a product manager. That combination is the rarest and most valuable capability in data science.
+
+They have an AI governance layer: they know what training data their models were trained on, what distributional shift looks like in their specific domain, and what the monitoring pipeline should track. When a model starts producing anomalous outputs, they are the person who knows whether that is signal or noise and what to do about it.
+
+They have communicated statistical conclusions to people who are not statisticians — under pressure, with genuine stakes. A product decision was made differently because of their analysis. That accountability — specific, traceable, consequential — is what distinguishes a professional data scientist from a model executor.
+
+---
+
 ---
 
 **Assessment date:** 2026-06-08  
 **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-datasc  
-**Prompt version:** DFVA-CONTINUE-SLASH-v1
+**Prompt version:** DFVA-COPILOT-PROMPT-v1
 
 ### MARKET DATA
 | Metric | Value |

@@ -2,12 +2,10 @@ import FAQ from "./components/FAQ";
 import FeaturesGrid from "./components/FeaturesGrid";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
-import Testimonials from "./components/Testimonials";
 import {
   faqs,
   features,
   footerNavigation,
-  testimonials,
 } from "./contentSections";
 
 export default function LandingPage() {
@@ -28,7 +26,6 @@ export default function LandingPage() {
             </>
           }
         />
-        <Testimonials testimonials={testimonials} />
         <FAQ faqs={faqs} />
       </main>
       <Footer footerNavigation={footerNavigation} />

@@ -34,6 +34,19 @@ The 300 hours of supervised placement create a structural defence: graduates mus
 - **Q2:** YES — Clinical placements + case formulation + thesis require sustained decision ownership and defended clinical judgment.
 - **Q3:** YES — Mental health demand is structurally growing. Registered psychologists face persistent workforce shortages. APAC/PsyBA pathway provides career durability.
 
+
+### 5. ANALOGUE GRADUATE PROFILE
+
+The most exposed professional psychology graduate is the **Psychological Assessment Technician of 2021**: primarily administering standardised psychological tests, scoring instruments, and producing standard assessment reports — work being increasingly automated by AI psychological assessment platforms.
+
+Specific threats:
+- **AI psychological assessment platforms (Pearson AI, MHS AI scoring)** — automated administration and scoring of psychological instruments
+- **AI report generators for psychological assessments** — templated report production from standardised test data
+- **Mental health chatbot platforms (Woebot, Wysa)** — absorbing some lower-acuity counselling work that graduate psychologists historically performed
+- **AI diagnostic support tools** — automated differential diagnosis suggestions from symptom data
+
+---
+
 ### 5. VERDICT
 Clinical psychology's regulatory and practical barriers create one of the strongest AI defences in the assessment cohort. The program's sequential all-compulsory design, 300-hour placement, and APAC/PsyBA pathway mean graduates exit with demonstrated clinical competence that resists substitution. The AI literacy gap exists but is less acute than in non-clinical fields — clinical psychology's core value is human judgment, not tool operation.
 
@@ -45,11 +58,24 @@ Clinical psychology's regulatory and practical barriers create one of the strong
 
 **Path to RESILIENT:** P1 actions → 28/36 RESILIENT.
 
+
+### 8. THE REDESIGNED GRADUATE PROFILE
+
+The 2027-ready professional psychology graduate is not an assessment technician — they are a **psychological treatment specialist with evidence-based practice expertise**.
+
+They are registered with AHPRA and carry professional liability. When an AI diagnostic tool suggests a formulation, they are the person who evaluates whether it accounts for the client's cultural context, trauma history, and presenting complexity — and who documents the clinical reasoning that either accepts or overrides the AI suggestion. That professional accountability is not delegatable.
+
+They have done a substantial internship under supervision and emerged with real clinical case experience: a client they helped significantly, a case that challenged their formulation skills, and a supervisory relationship that built their professional identity. Those experiences are not in a textbook and they are not in an AI model.
+
+They understand AI tools in mental health — their capabilities, limitations, and ethical requirements — because the landscape of AI-assisted therapy and assessment is developing rapidly. They can advise an organisation on appropriate use of AI in psychological services. They do not fear AI in their practice; they govern it.
+
+---
+
 ---
 
 **Assessment date:** 2026-06-09
 **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-propsyc
-**Prompt version:** DFVA-HERMES-v1
+**Prompt version:** DFVA-COPILOT-PROMPT-v1
 
 ### MARKET DATA
 | Metric | Value |

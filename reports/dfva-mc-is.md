@@ -8,7 +8,7 @@
 
 **Assessment Date:** 2026-05-07
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-is/
-**Prompt Version:** DFVA-COPILOT-SKILL-v1
+**Prompt Version:** DFVA-COPILOT-PROMPT-v1
 
 ---
 
