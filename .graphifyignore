@@ -14,3 +14,10 @@
 *.jpeg
 *.gif
 *.ico
+
+# Job Insights working data: keep the 141 alumni reports (scratch/jobinsights/md/)
+# and the analysis doc (docs/) in the graph; exclude duplicates and tooling.
+scratch/jobinsights/pdf/
+scratch/*.py
+scratch/__pycache__/
+scratch/jobinsights/*.json
