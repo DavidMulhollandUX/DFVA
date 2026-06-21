@@ -47,11 +47,23 @@ The Master of Food Science scored **21/36 — MODERATE RISK**. Gaps in core dime
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Health Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Registered Nurses nec (15%), Physiotherapist (6%), Registered Nurse (Medical) (6%), Resident Medical Officer (5%), Registered Nurse (Critical Care and Emergency) (5%) |
+| Early (~3yr) | Registered Nurses nec (14%), Physiotherapist (6%), Registered Nurse (Medical) (6%), Registered Nurse (Critical Care and Emergency) (5%), Occupational Therapist (4%) |
+| Senior (~5yr) | Registered Nurses nec (14%), Physiotherapist (6%), Registered Nurse (Medical) (5%), Registered Nurse (Critical Care and Emergency) (5%), Occupational Therapist (4%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 87% full-time employment · median salary $103,000 · 3-year employment 95% · JSA occupation demand: **Shortage**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): Healthcare Australia (HCA), UnitingCare Queensland, Coastal Physiotherapy, Outreach Physiotherapy, Stream Healthcare Recruitment, Southern Cross Care WA, Anderson Neurological and Developmental Services, ORS Group, Ability Action Australia, Early Start Australia. Advertised salary A$68.6k–130k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 
@@ -150,11 +162,23 @@ The 527CL scored **28/36 — RESILIENT**. Gaps in core dimensions define the pri
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Health Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Registered Nurses nec (15%), Physiotherapist (6%), Registered Nurse (Medical) (6%), Resident Medical Officer (5%), Registered Nurse (Critical Care and Emergency) (5%) |
+| Early (~3yr) | Registered Nurses nec (14%), Physiotherapist (6%), Registered Nurse (Medical) (6%), Registered Nurse (Critical Care and Emergency) (5%), Occupational Therapist (4%) |
+| Senior (~5yr) | Registered Nurses nec (14%), Physiotherapist (6%), Registered Nurse (Medical) (5%), Registered Nurse (Critical Care and Emergency) (5%), Occupational Therapist (4%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 87% full-time employment · median salary $103,000 · 3-year employment 95% · JSA occupation demand: **Shortage**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): Healthcare Australia (HCA), UnitingCare Queensland, Coastal Physiotherapy, Outreach Physiotherapy, Stream Healthcare Recruitment, Southern Cross Care WA, Anderson Neurological and Developmental Services, ORS Group, Ability Action Australia, Early Start Australia. Advertised salary A$68.6k–130k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 
@@ -251,11 +275,23 @@ The 746ST scored **22/36 — MODERATE RISK**. Gaps in core dimensions define the
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Engineering Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Civil Engineer (22%), Mechanical Engineer (15%), Electrical Engineer (9%), Engineering Professionals nec (4%), Chemical Engineer (4%) |
+| Early (~3yr) | Civil Engineer (22%), Mechanical Engineer (15%), Electrical Engineer (9%), Engineering Professionals nec (4%), Chemical Engineer (4%) |
+| Senior (~5yr) | Civil Engineer (21%), Mechanical Engineer (15%), Electrical Engineer (8%), Engineering Professionals nec (5%), Chemical Engineer (4%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 88% full-time employment · median salary $111,000 · 3-year employment 98% · JSA occupation demand: **Shortage**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): WSP, AECOM, Stantec, Aurecon, Hatch, Monadelphous, Rio Tinto, Fortescue. Advertised salary A$90k–125k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 
@@ -600,11 +636,23 @@ The Master of Actuarial Science scored **20/36 — MODERATE RISK**. Gaps in core
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Science Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Sales Assistant (General) (6%), Medical Laboratory Scientist (6%), Geologist (5%), General Clerk (4%), Medical Laboratory Technician (4%) |
+| Early (~3yr) | Medical Laboratory Scientist (7%), Geologist (5%), Sales Assistant (General) (4%), Medical Laboratory Technician (4%), General Clerk (4%) |
+| Senior (~5yr) | Medical Laboratory Scientist (7%), Geologist (5%), Program or Project Administrator (4%), Environmental Consultant (4%), Medical Laboratory Technician (3%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 79% full-time employment · median salary $100,000 · 3-year employment 94% · JSA occupation demand: **Recruitment Difficulty**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): NSW Health Pathology, Dorevitch Pathology (Healius), Sonic Healthcare Australia, 4Cyte Pathology, CSIRO, ANSTO, WEHI, Canva, Glencore, Rio Tinto, Fortescue. Advertised salary A$73.4k–145k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 
@@ -709,11 +757,23 @@ The MC-APBUSA scored **22/36 — MODERATE RISK**. Gaps in core dimensions define
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Business & Management Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Accountant (General) (16%), General Clerk (5%), Marketing Specialist (4%), Sales Assistant (General) (4%), Sales and Marketing Manager (4%) |
+| Early (~3yr) | Accountant (General) (16%), Sales and Marketing Manager (5%), Marketing Specialist (4%), Management Consultant (4%), General Clerk (3%) |
+| Senior (~5yr) | Accountant (General) (15%), Sales and Marketing Manager (5%), Marketing Specialist (4%), Management Consultant (4%), Program or Project Administrator (3%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 92% full-time employment · median salary $124,000 · 3-year employment 96% · JSA occupation demand: **Met**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): Commonwealth Bank, Westpac, NAB, CMC Markets, Woolworths Group, Ventia, Brand Collective, EY (Ernst & Young), Bed Bath N' Table, EssilorLuxottica, Alinta Energy, VetPartners Australia. Advertised salary A$80k–125k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 
@@ -811,11 +871,23 @@ The Master of Architecture scored **28/36 — RESILIENT**. Gaps in core dimensio
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Architecture & Building Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Architect (19%), Urban and Regional Planner (15%), Architectural Draftsperson (11%), Construction Project Manager (8%), Interior Designer (6%) |
+| Early (~3yr) | Architect (20%), Urban and Regional Planner (16%), Architectural Draftsperson (10%), Construction Project Manager (10%), Interior Designer (7%) |
+| Senior (~5yr) | Architect (21%), Urban and Regional Planner (16%), Construction Project Manager (11%), Architectural Draftsperson (9%), Interior Designer (7%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 75% full-time employment · median salary $84,500 · 3-year employment 95% · JSA occupation demand: **Recruitment Difficulty**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): Woods Bagot, HASSELL, AECOM, Aurecon, Architectus, Cox Architecture, BVN, Colliers (formerly Ethos Urban), Solar Start, CPB Contractors, Lendlease. Advertised salary A$90k–170k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 
@@ -911,11 +983,23 @@ The Master of Business Administration scored **25/36 — MODERATE RISK**. Gaps i
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Business & Management Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Accountant (General) (16%), General Clerk (5%), Marketing Specialist (4%), Sales Assistant (General) (4%), Sales and Marketing Manager (4%) |
+| Early (~3yr) | Accountant (General) (16%), Sales and Marketing Manager (5%), Marketing Specialist (4%), Management Consultant (4%), General Clerk (3%) |
+| Senior (~5yr) | Accountant (General) (15%), Sales and Marketing Manager (5%), Marketing Specialist (4%), Management Consultant (4%), Program or Project Administrator (3%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 92% full-time employment · median salary $124,000 · 3-year employment 96% · JSA occupation demand: **Met**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): Commonwealth Bank, Westpac, NAB, CMC Markets, Woolworths Group, Ventia, Brand Collective, EY (Ernst & Young), Bed Bath N' Table, EssilorLuxottica, Alinta Energy, VetPartners Australia. Advertised salary A$80k–125k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 
@@ -1018,11 +1102,23 @@ The MC-BAMKTG scored **19/36 — HIGH RISK**. Gaps in core dimensions define the
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Business & Management Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Accountant (General) (16%), General Clerk (5%), Marketing Specialist (4%), Sales Assistant (General) (4%), Sales and Marketing Manager (4%) |
+| Early (~3yr) | Accountant (General) (16%), Sales and Marketing Manager (5%), Marketing Specialist (4%), Management Consultant (4%), General Clerk (3%) |
+| Senior (~5yr) | Accountant (General) (15%), Sales and Marketing Manager (5%), Marketing Specialist (4%), Management Consultant (4%), Program or Project Administrator (3%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 92% full-time employment · median salary $124,000 · 3-year employment 96% · JSA occupation demand: **Met**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): Commonwealth Bank, Westpac, NAB, CMC Markets, Woolworths Group, Ventia, Brand Collective, EY (Ernst & Young), Bed Bath N' Table, EssilorLuxottica, Alinta Energy, VetPartners Australia. Advertised salary A$80k–125k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 
@@ -1128,11 +1224,23 @@ The MC-BASE scored **20/36 — MODERATE RISK**. Gaps in core dimensions define t
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Business & Management Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Accountant (General) (16%), General Clerk (5%), Marketing Specialist (4%), Sales Assistant (General) (4%), Sales and Marketing Manager (4%) |
+| Early (~3yr) | Accountant (General) (16%), Sales and Marketing Manager (5%), Marketing Specialist (4%), Management Consultant (4%), General Clerk (3%) |
+| Senior (~5yr) | Accountant (General) (15%), Sales and Marketing Manager (5%), Marketing Specialist (4%), Management Consultant (4%), Program or Project Administrator (3%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 92% full-time employment · median salary $124,000 · 3-year employment 96% · JSA occupation demand: **Met**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): Commonwealth Bank, Westpac, NAB, CMC Markets, Woolworths Group, Ventia, Brand Collective, EY (Ernst & Young), Bed Bath N' Table, EssilorLuxottica, Alinta Energy, VetPartners Australia. Advertised salary A$80k–125k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 
@@ -1233,11 +1341,23 @@ The Master of Biomedical Science scored **25/36 — MODERATE RISK**. Gaps in cor
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Science Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Registered Nurses nec (15%), Physiotherapist (6%), Registered Nurse (Medical) (6%), Resident Medical Officer (5%), Registered Nurse (Critical Care and Emergency) (5%) |
+| Early (~3yr) | Registered Nurses nec (14%), Physiotherapist (6%), Registered Nurse (Medical) (6%), Registered Nurse (Critical Care and Emergency) (5%), Occupational Therapist (4%) |
+| Senior (~5yr) | Registered Nurses nec (14%), Physiotherapist (6%), Registered Nurse (Medical) (5%), Registered Nurse (Critical Care and Emergency) (5%), Occupational Therapist (4%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 87% full-time employment · median salary $103,000 · 3-year employment 95% · JSA occupation demand: **Shortage**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): Healthcare Australia (HCA), UnitingCare Queensland, Coastal Physiotherapy, Outreach Physiotherapy, Stream Healthcare Recruitment, Southern Cross Care WA, Anderson Neurological and Developmental Services, ORS Group, Ability Action Australia, Early Start Australia. Advertised salary A$68.6k–130k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 
@@ -1333,11 +1453,23 @@ The Master of Business Analytics scored **30/36 — RESILIENT**. Gaps in core di
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Business & Management Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Accountant (General) (16%), General Clerk (5%), Marketing Specialist (4%), Sales Assistant (General) (4%), Sales and Marketing Manager (4%) |
+| Early (~3yr) | Accountant (General) (16%), Sales and Marketing Manager (5%), Marketing Specialist (4%), Management Consultant (4%), General Clerk (3%) |
+| Senior (~5yr) | Accountant (General) (15%), Sales and Marketing Manager (5%), Marketing Specialist (4%), Management Consultant (4%), Program or Project Administrator (3%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 92% full-time employment · median salary $124,000 · 3-year employment 96% · JSA occupation demand: **Met**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): Commonwealth Bank, Westpac, NAB, CMC Markets, Woolworths Group, Ventia, Brand Collective, EY (Ernst & Young), Bed Bath N' Table, EssilorLuxottica, Alinta Energy, VetPartners Australia. Advertised salary A$80k–125k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 
@@ -1432,11 +1564,23 @@ The Master of Climate Science scored **26/36 — MODERATE RISK**. Gaps in core d
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Science Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Sales Assistant (General) (6%), Medical Laboratory Scientist (6%), Geologist (5%), General Clerk (4%), Medical Laboratory Technician (4%) |
+| Early (~3yr) | Medical Laboratory Scientist (7%), Geologist (5%), Sales Assistant (General) (4%), Medical Laboratory Technician (4%), General Clerk (4%) |
+| Senior (~5yr) | Medical Laboratory Scientist (7%), Geologist (5%), Program or Project Administrator (4%), Environmental Consultant (4%), Medical Laboratory Technician (3%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 79% full-time employment · median salary $100,000 · 3-year employment 94% · JSA occupation demand: **Recruitment Difficulty**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): NSW Health Pathology, Dorevitch Pathology (Healius), Sonic Healthcare Australia, 4Cyte Pathology, CSIRO, ANSTO, WEHI, Canva, Glencore, Rio Tinto, Fortescue. Advertised salary A$73.4k–145k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 
@@ -1533,11 +1677,23 @@ The MC-CLIND scored **25/36 — MODERATE RISK**. Gaps in core dimensions define 
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Health Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Registered Nurses nec (15%), Physiotherapist (6%), Registered Nurse (Medical) (6%), Resident Medical Officer (5%), Registered Nurse (Critical Care and Emergency) (5%) |
+| Early (~3yr) | Registered Nurses nec (14%), Physiotherapist (6%), Registered Nurse (Medical) (6%), Registered Nurse (Critical Care and Emergency) (5%), Occupational Therapist (4%) |
+| Senior (~5yr) | Registered Nurses nec (14%), Physiotherapist (6%), Registered Nurse (Medical) (5%), Registered Nurse (Critical Care and Emergency) (5%), Occupational Therapist (4%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 87% full-time employment · median salary $103,000 · 3-year employment 95% · JSA occupation demand: **Shortage**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): Healthcare Australia (HCA), UnitingCare Queensland, Coastal Physiotherapy, Outreach Physiotherapy, Stream Healthcare Recruitment, Southern Cross Care WA, Anderson Neurological and Developmental Services, ORS Group, Ability Action Australia, Early Start Australia. Advertised salary A$68.6k–130k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 
@@ -1634,11 +1790,23 @@ The Master of Computer Science scored **27/36 — MODERATE RISK**. Gaps in core 
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Information Technology Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Software Engineer (14%), Developer Programmer (13%), ICT Business Analyst (9%), ICT Customer Support Officer (7%), Management Consultant (4%) |
+| Early (~3yr) | Software Engineer (15%), Developer Programmer (14%), ICT Business Analyst (9%), ICT Customer Support Officer (6%), Management Consultant (4%) |
+| Senior (~5yr) | Software Engineer (17%), Developer Programmer (14%), ICT Business Analyst (9%), ICT Customer Support Officer (5%), Management Consultant (4%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 81% full-time employment · median salary $110,000 · 3-year employment 94% · JSA occupation demand: **Shortage**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): Atlassian, Canva, Accenture, Amazon, Micromine, Cuscal Limited, HUB24, CSIRO, Zip, Cochlear, Vanguard Australia, ANZ. Advertised salary A$95k–160k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 
@@ -1736,11 +1904,23 @@ The Master of Data Science scored **24/36 — MODERATE RISK**. Gaps in core dime
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Information Technology Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Software Engineer (14%), Developer Programmer (13%), ICT Business Analyst (9%), ICT Customer Support Officer (7%), Management Consultant (4%) |
+| Early (~3yr) | Software Engineer (15%), Developer Programmer (14%), ICT Business Analyst (9%), ICT Customer Support Officer (6%), Management Consultant (4%) |
+| Senior (~5yr) | Software Engineer (17%), Developer Programmer (14%), ICT Business Analyst (9%), ICT Customer Support Officer (5%), Management Consultant (4%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 81% full-time employment · median salary $110,000 · 3-year employment 94% · JSA occupation demand: **Shortage**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): Atlassian, Canva, Accenture, Amazon, Micromine, Cuscal Limited, HUB24, CSIRO, Zip, Cochlear, Vanguard Australia, ANZ. Advertised salary A$95k–160k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 
@@ -1841,11 +2021,23 @@ The MC-ED scored **24/36 — MODERATE RISK**. Gaps in core dimensions define the
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Education Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Primary School Teacher (39%), Secondary School Teacher (27%), School Teachers nfd (4%), Early Childhood (Pre-primary School) Teacher (4%), Child Care Worker (3%) |
+| Early (~3yr) | Primary School Teacher (41%), Secondary School Teacher (29%), Early Childhood (Pre-primary School) Teacher (4%), School Teachers nfd (4%), Child Care Worker (2%) |
+| Senior (~5yr) | Primary School Teacher (42%), Secondary School Teacher (29%), Early Childhood (Pre-primary School) Teacher (4%), School Teachers nfd (3%), Middle School Teacher (Aus) \\ Intermediate School Teacher (NZ) (2%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 90% full-time employment · median salary $96,000 · 3-year employment 96% · JSA occupation demand: **Shortage**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): anzuk Education, Tradewind Australia, Randstad Education, Catholic Education Diocese of Bathurst, Catholic Education South Australia (CESA), Sydney Catholic Schools, NSW Department of Education, Department of Education Victoria, Goodstart Early Learning, Anglican Church Grammar School (Churchie), Hume Anglican Grammar, St Luke's Grammar School. Advertised salary A$79.6k–130k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 
@@ -1946,11 +2138,23 @@ The Master of Environmental Law scored **22/36 — MODERATE RISK**. Gaps in core
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Law Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Solicitor (89%), Legal Executive (7%), Legal Secretary (2%), Judicial and Other Legal Professionals nec (1%), Intellectual Property Lawyer (0%) |
+| Early (~3yr) | Solicitor (94%), Legal Executive (3%), Legal Secretary (1%), Judicial and Other Legal Professionals nec (1%), Intellectual Property Lawyer (0%) |
+| Senior (~5yr) | Solicitor (94%), Legal Executive (3%), Legal Secretary (1%), Judicial and Other Legal Professionals nec (1%), Intellectual Property Lawyer (0%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 89% full-time employment · median salary $90,000 · 3-year employment 96% · JSA occupation demand: **Met**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): NSW Crown Solicitor's Office, Clayton Utz, Maurice Blackburn, Slater and Gordon Lawyers, Gilchrist Connell, Herbert Smith Freehills, Uber (ANZ Legal Team), EnergyAustralia, Orica. Advertised salary A$95k–165k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 
@@ -2053,11 +2257,23 @@ The Master of Environmental Science scored **23/36 — MODERATE RISK**. Gaps in 
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Science Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Sales Assistant (General) (6%), Medical Laboratory Scientist (6%), Geologist (5%), General Clerk (4%), Medical Laboratory Technician (4%) |
+| Early (~3yr) | Medical Laboratory Scientist (7%), Geologist (5%), Sales Assistant (General) (4%), Medical Laboratory Technician (4%), General Clerk (4%) |
+| Senior (~5yr) | Medical Laboratory Scientist (7%), Geologist (5%), Program or Project Administrator (4%), Environmental Consultant (4%), Medical Laboratory Technician (3%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 79% full-time employment · median salary $100,000 · 3-year employment 94% · JSA occupation demand: **Recruitment Difficulty**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): NSW Health Pathology, Dorevitch Pathology (Healius), Sonic Healthcare Australia, 4Cyte Pathology, CSIRO, ANSTO, WEHI, Canva, Glencore, Rio Tinto, Fortescue. Advertised salary A$73.4k–145k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 
@@ -2156,11 +2372,23 @@ The Master of Genetic Counselling scored **26/36 — MODERATE RISK**. Gaps in co
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Science Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Registered Nurses nec (15%), Physiotherapist (6%), Registered Nurse (Medical) (6%), Resident Medical Officer (5%), Registered Nurse (Critical Care and Emergency) (5%) |
+| Early (~3yr) | Registered Nurses nec (14%), Physiotherapist (6%), Registered Nurse (Medical) (6%), Registered Nurse (Critical Care and Emergency) (5%), Occupational Therapist (4%) |
+| Senior (~5yr) | Registered Nurses nec (14%), Physiotherapist (6%), Registered Nurse (Medical) (5%), Registered Nurse (Critical Care and Emergency) (5%), Occupational Therapist (4%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 87% full-time employment · median salary $103,000 · 3-year employment 95% · JSA occupation demand: **Shortage**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): Healthcare Australia (HCA), UnitingCare Queensland, Coastal Physiotherapy, Outreach Physiotherapy, Stream Healthcare Recruitment, Southern Cross Care WA, Anderson Neurological and Developmental Services, ORS Group, Ability Action Australia, Early Start Australia. Advertised salary A$68.6k–130k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 
@@ -2259,11 +2487,23 @@ The MC-INDENG scored **23/36 — MODERATE RISK**. Gaps in core dimensions define
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Engineering Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Civil Engineer (22%), Mechanical Engineer (15%), Electrical Engineer (9%), Engineering Professionals nec (4%), Chemical Engineer (4%) |
+| Early (~3yr) | Civil Engineer (22%), Mechanical Engineer (15%), Electrical Engineer (9%), Engineering Professionals nec (4%), Chemical Engineer (4%) |
+| Senior (~5yr) | Civil Engineer (21%), Mechanical Engineer (15%), Electrical Engineer (8%), Engineering Professionals nec (5%), Chemical Engineer (4%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 88% full-time employment · median salary $111,000 · 3-year employment 98% · JSA occupation demand: **Shortage**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): WSP, AECOM, Stantec, Aurecon, Hatch, Monadelphous, Rio Tinto, Fortescue. Advertised salary A$90k–125k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 
@@ -2368,11 +2608,23 @@ The MC-INTEDIB scored **18/36 — HIGH RISK**. Gaps in core dimensions define th
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Education Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Primary School Teacher (39%), Secondary School Teacher (27%), School Teachers nfd (4%), Early Childhood (Pre-primary School) Teacher (4%), Child Care Worker (3%) |
+| Early (~3yr) | Primary School Teacher (41%), Secondary School Teacher (29%), Early Childhood (Pre-primary School) Teacher (4%), School Teachers nfd (4%), Child Care Worker (2%) |
+| Senior (~5yr) | Primary School Teacher (42%), Secondary School Teacher (29%), Early Childhood (Pre-primary School) Teacher (4%), School Teachers nfd (3%), Middle School Teacher (Aus) \\ Intermediate School Teacher (NZ) (2%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 90% full-time employment · median salary $96,000 · 3-year employment 96% · JSA occupation demand: **Shortage**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): anzuk Education, Tradewind Australia, Randstad Education, Catholic Education Diocese of Bathurst, Catholic Education South Australia (CESA), Sydney Catholic Schools, NSW Department of Education, Department of Education Victoria, Goodstart Early Learning, Anglican Church Grammar School (Churchie), Hume Anglican Grammar, St Luke's Grammar School. Advertised salary A$79.6k–130k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 
@@ -2598,11 +2850,23 @@ The Master of Journalism scored **20/36 — MODERATE RISK**. Gaps in core dimens
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Creative Arts Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Sales Assistant (General) (12%), Graphic Designer (8%), General Clerk (6%), Public Relations Professional (4%), Marketing Specialist (4%) |
+| Early (~3yr) | Graphic Designer (10%), Sales Assistant (General) (8%), Marketing Specialist (5%), General Clerk (5%), Public Relations Professional (5%) |
+| Senior (~5yr) | Graphic Designer (10%), Sales Assistant (General) (6%), Marketing Specialist (6%), Public Relations Professional (5%), Sales and Marketing Manager (5%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 67% full-time employment · median salary $81,000 · 3-year employment 86% · JSA occupation demand: **Met**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): UNSW Canberra, Cloncurry Shire Council, University of the Sunshine Coast (UniSC), Moree Plains Shire Council, URBAN REPUBLIC PTY LTD, AUSNA & CO Global Education Pty Ltd. Advertised salary A$75k–104k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 
@@ -2703,11 +2967,23 @@ The Master of Nursing Science scored **26/36 — MODERATE RISK**. Gaps in core d
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Health Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Registered Nurses nec (15%), Physiotherapist (6%), Registered Nurse (Medical) (6%), Resident Medical Officer (5%), Registered Nurse (Critical Care and Emergency) (5%) |
+| Early (~3yr) | Registered Nurses nec (14%), Physiotherapist (6%), Registered Nurse (Medical) (6%), Registered Nurse (Critical Care and Emergency) (5%), Occupational Therapist (4%) |
+| Senior (~5yr) | Registered Nurses nec (14%), Physiotherapist (6%), Registered Nurse (Medical) (5%), Registered Nurse (Critical Care and Emergency) (5%), Occupational Therapist (4%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 87% full-time employment · median salary $103,000 · 3-year employment 95% · JSA occupation demand: **Shortage**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): Healthcare Australia (HCA), UnitingCare Queensland, Coastal Physiotherapy, Outreach Physiotherapy, Stream Healthcare Recruitment, Southern Cross Care WA, Anderson Neurological and Developmental Services, ORS Group, Ability Action Australia, Early Start Australia. Advertised salary A$68.6k–130k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 
@@ -2802,11 +3078,23 @@ The MC-PHTYPH scored **27/36 — MODERATE RISK**. Gaps in core dimensions define
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Health Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Registered Nurses nec (15%), Physiotherapist (6%), Registered Nurse (Medical) (6%), Resident Medical Officer (5%), Registered Nurse (Critical Care and Emergency) (5%) |
+| Early (~3yr) | Registered Nurses nec (14%), Physiotherapist (6%), Registered Nurse (Medical) (6%), Registered Nurse (Critical Care and Emergency) (5%), Occupational Therapist (4%) |
+| Senior (~5yr) | Registered Nurses nec (14%), Physiotherapist (6%), Registered Nurse (Medical) (5%), Registered Nurse (Critical Care and Emergency) (5%), Occupational Therapist (4%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 87% full-time employment · median salary $103,000 · 3-year employment 95% · JSA occupation demand: **Shortage**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): Healthcare Australia (HCA), UnitingCare Queensland, Coastal Physiotherapy, Outreach Physiotherapy, Stream Healthcare Recruitment, Southern Cross Care WA, Anderson Neurological and Developmental Services, ORS Group, Ability Action Australia, Early Start Australia. Advertised salary A$68.6k–130k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 
@@ -2906,11 +3194,23 @@ The Master of Property scored **22/36 — MODERATE RISK**. Gaps in core dimensio
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Architecture & Building Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Architect (19%), Urban and Regional Planner (15%), Architectural Draftsperson (11%), Construction Project Manager (8%), Interior Designer (6%) |
+| Early (~3yr) | Architect (20%), Urban and Regional Planner (16%), Architectural Draftsperson (10%), Construction Project Manager (10%), Interior Designer (7%) |
+| Senior (~5yr) | Architect (21%), Urban and Regional Planner (16%), Construction Project Manager (11%), Architectural Draftsperson (9%), Interior Designer (7%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 75% full-time employment · median salary $84,500 · 3-year employment 95% · JSA occupation demand: **Recruitment Difficulty**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): Woods Bagot, HASSELL, AECOM, Aurecon, Architectus, Cox Architecture, BVN, Colliers (formerly Ethos Urban), Solar Start, CPB Contractors, Lendlease. Advertised salary A$90k–170k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 
@@ -3009,11 +3309,23 @@ The Master of Professional Psychology scored **27/36 — MODERATE RISK**. Gaps i
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Health Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Registered Nurses nec (15%), Physiotherapist (6%), Registered Nurse (Medical) (6%), Resident Medical Officer (5%), Registered Nurse (Critical Care and Emergency) (5%) |
+| Early (~3yr) | Registered Nurses nec (14%), Physiotherapist (6%), Registered Nurse (Medical) (6%), Registered Nurse (Critical Care and Emergency) (5%), Occupational Therapist (4%) |
+| Senior (~5yr) | Registered Nurses nec (14%), Physiotherapist (6%), Registered Nurse (Medical) (5%), Registered Nurse (Critical Care and Emergency) (5%), Occupational Therapist (4%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 87% full-time employment · median salary $103,000 · 3-year employment 95% · JSA occupation demand: **Shortage**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): Healthcare Australia (HCA), UnitingCare Queensland, Coastal Physiotherapy, Outreach Physiotherapy, Stream Healthcare Recruitment, Southern Cross Care WA, Anderson Neurological and Developmental Services, ORS Group, Ability Action Australia, Early Start Australia. Advertised salary A$68.6k–130k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 
@@ -3110,11 +3422,23 @@ The Master of Science (Bioinformatics) scored **24/36 — MODERATE RISK**. Gaps 
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Science Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Sales Assistant (General) (6%), Medical Laboratory Scientist (6%), Geologist (5%), General Clerk (4%), Medical Laboratory Technician (4%) |
+| Early (~3yr) | Medical Laboratory Scientist (7%), Geologist (5%), Sales Assistant (General) (4%), Medical Laboratory Technician (4%), General Clerk (4%) |
+| Senior (~5yr) | Medical Laboratory Scientist (7%), Geologist (5%), Program or Project Administrator (4%), Environmental Consultant (4%), Medical Laboratory Technician (3%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 79% full-time employment · median salary $100,000 · 3-year employment 94% · JSA occupation demand: **Recruitment Difficulty**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): NSW Health Pathology, Dorevitch Pathology (Healius), Sonic Healthcare Australia, 4Cyte Pathology, CSIRO, ANSTO, WEHI, Canva, Glencore, Rio Tinto, Fortescue. Advertised salary A$73.4k–145k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 
@@ -3213,11 +3537,23 @@ The Master of Science (BioSciences) scored **25/36 — MODERATE RISK**. Gaps in 
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Science Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Sales Assistant (General) (6%), Medical Laboratory Scientist (6%), Geologist (5%), General Clerk (4%), Medical Laboratory Technician (4%) |
+| Early (~3yr) | Medical Laboratory Scientist (7%), Geologist (5%), Sales Assistant (General) (4%), Medical Laboratory Technician (4%), General Clerk (4%) |
+| Senior (~5yr) | Medical Laboratory Scientist (7%), Geologist (5%), Program or Project Administrator (4%), Environmental Consultant (4%), Medical Laboratory Technician (3%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 79% full-time employment · median salary $100,000 · 3-year employment 94% · JSA occupation demand: **Recruitment Difficulty**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): NSW Health Pathology, Dorevitch Pathology (Healius), Sonic Healthcare Australia, 4Cyte Pathology, CSIRO, ANSTO, WEHI, Canva, Glencore, Rio Tinto, Fortescue. Advertised salary A$73.4k–145k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 
@@ -3431,11 +3767,23 @@ The Master of Science (Chemistry) scored **25/36 — MODERATE RISK**. Gaps in co
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Science Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Sales Assistant (General) (6%), Medical Laboratory Scientist (6%), Geologist (5%), General Clerk (4%), Medical Laboratory Technician (4%) |
+| Early (~3yr) | Medical Laboratory Scientist (7%), Geologist (5%), Sales Assistant (General) (4%), Medical Laboratory Technician (4%), General Clerk (4%) |
+| Senior (~5yr) | Medical Laboratory Scientist (7%), Geologist (5%), Program or Project Administrator (4%), Environmental Consultant (4%), Medical Laboratory Technician (3%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 79% full-time employment · median salary $100,000 · 3-year employment 94% · JSA occupation demand: **Recruitment Difficulty**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): NSW Health Pathology, Dorevitch Pathology (Healius), Sonic Healthcare Australia, 4Cyte Pathology, CSIRO, ANSTO, WEHI, Canva, Glencore, Rio Tinto, Fortescue. Advertised salary A$73.4k–145k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 
@@ -3767,11 +4115,23 @@ The Master of Science (Physics) scored **25/36 — MODERATE RISK**. Gaps in core
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Science Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Sales Assistant (General) (6%), Medical Laboratory Scientist (6%), Geologist (5%), General Clerk (4%), Medical Laboratory Technician (4%) |
+| Early (~3yr) | Medical Laboratory Scientist (7%), Geologist (5%), Sales Assistant (General) (4%), Medical Laboratory Technician (4%), General Clerk (4%) |
+| Senior (~5yr) | Medical Laboratory Scientist (7%), Geologist (5%), Program or Project Administrator (4%), Environmental Consultant (4%), Medical Laboratory Technician (3%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 79% full-time employment · median salary $100,000 · 3-year employment 94% · JSA occupation demand: **Recruitment Difficulty**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): NSW Health Pathology, Dorevitch Pathology (Healius), Sonic Healthcare Australia, 4Cyte Pathology, CSIRO, ANSTO, WEHI, Canva, Glencore, Rio Tinto, Fortescue. Advertised salary A$73.4k–145k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 
@@ -3875,11 +4235,23 @@ The Master of Screenwriting scored **12/36 — HIGH RISK**. Gaps in core dimensi
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Creative Arts Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Sales Assistant (General) (12%), Graphic Designer (8%), General Clerk (6%), Public Relations Professional (4%), Marketing Specialist (4%) |
+| Early (~3yr) | Graphic Designer (10%), Sales Assistant (General) (8%), Marketing Specialist (5%), General Clerk (5%), Public Relations Professional (5%) |
+| Senior (~5yr) | Graphic Designer (10%), Sales Assistant (General) (6%), Marketing Specialist (6%), Public Relations Professional (5%), Sales and Marketing Manager (5%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 67% full-time employment · median salary $81,000 · 3-year employment 86% · JSA occupation demand: **Met**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): UNSW Canberra, Cloncurry Shire Council, University of the Sunshine Coast (UniSC), Moree Plains Shire Council, URBAN REPUBLIC PTY LTD, AUSNA & CO Global Education Pty Ltd. Advertised salary A$75k–104k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 
@@ -3985,11 +4357,23 @@ The MC-SURGED scored **25/36 — MODERATE RISK**. Gaps in core dimensions define
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Health Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Registered Nurses nec (15%), Physiotherapist (6%), Registered Nurse (Medical) (6%), Resident Medical Officer (5%), Registered Nurse (Critical Care and Emergency) (5%) |
+| Early (~3yr) | Registered Nurses nec (14%), Physiotherapist (6%), Registered Nurse (Medical) (6%), Registered Nurse (Critical Care and Emergency) (5%), Occupational Therapist (4%) |
+| Senior (~5yr) | Registered Nurses nec (14%), Physiotherapist (6%), Registered Nurse (Medical) (5%), Registered Nurse (Critical Care and Emergency) (5%), Occupational Therapist (4%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 87% full-time employment · median salary $103,000 · 3-year employment 95% · JSA occupation demand: **Shortage**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): Healthcare Australia (HCA), UnitingCare Queensland, Coastal Physiotherapy, Outreach Physiotherapy, Stream Healthcare Recruitment, Southern Cross Care WA, Anderson Neurological and Developmental Services, ORS Group, Ability Action Australia, Early Start Australia. Advertised salary A$68.6k–130k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 
@@ -4090,11 +4474,23 @@ The Master of TESOL scored **23/36 — MODERATE RISK**. Gaps in core dimensions 
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Education Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Primary School Teacher (39%), Secondary School Teacher (27%), School Teachers nfd (4%), Early Childhood (Pre-primary School) Teacher (4%), Child Care Worker (3%) |
+| Early (~3yr) | Primary School Teacher (41%), Secondary School Teacher (29%), Early Childhood (Pre-primary School) Teacher (4%), School Teachers nfd (4%), Child Care Worker (2%) |
+| Senior (~5yr) | Primary School Teacher (42%), Secondary School Teacher (29%), Early Childhood (Pre-primary School) Teacher (4%), School Teachers nfd (3%), Middle School Teacher (Aus) \\ Intermediate School Teacher (NZ) (2%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 90% full-time employment · median salary $96,000 · 3-year employment 96% · JSA occupation demand: **Shortage**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): anzuk Education, Tradewind Australia, Randstad Education, Catholic Education Diocese of Bathurst, Catholic Education South Australia (CESA), Sydney Catholic Schools, NSW Department of Education, Department of Education Victoria, Goodstart Early Learning, Anglican Church Grammar School (Churchie), Hume Anglican Grammar, St Luke's Grammar School. Advertised salary A$79.6k–130k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 
@@ -4194,11 +4590,23 @@ The Master of Urban Design scored **25/36 — MODERATE RISK**. Gaps in core dime
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Architecture & Building Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Architect (19%), Urban and Regional Planner (15%), Architectural Draftsperson (11%), Construction Project Manager (8%), Interior Designer (6%) |
+| Early (~3yr) | Architect (20%), Urban and Regional Planner (16%), Architectural Draftsperson (10%), Construction Project Manager (10%), Interior Designer (7%) |
+| Senior (~5yr) | Architect (21%), Urban and Regional Planner (16%), Construction Project Manager (11%), Architectural Draftsperson (9%), Interior Designer (7%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 75% full-time employment · median salary $84,500 · 3-year employment 95% · JSA occupation demand: **Recruitment Difficulty**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): Woods Bagot, HASSELL, AECOM, Aurecon, Architectus, Cox Architecture, BVN, Colliers (formerly Ethos Urban), Solar Start, CPB Contractors, Lendlease. Advertised salary A$90k–170k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 
@@ -4296,11 +4704,23 @@ The Master of Urban Horticulture scored **25/36 — MODERATE RISK**. Gaps in cor
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Architecture & Building Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Architect (19%), Urban and Regional Planner (15%), Architectural Draftsperson (11%), Construction Project Manager (8%), Interior Designer (6%) |
+| Early (~3yr) | Architect (20%), Urban and Regional Planner (16%), Architectural Draftsperson (10%), Construction Project Manager (10%), Interior Designer (7%) |
+| Senior (~5yr) | Architect (21%), Urban and Regional Planner (16%), Construction Project Manager (11%), Architectural Draftsperson (9%), Interior Designer (7%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 75% full-time employment · median salary $84,500 · 3-year employment 95% · JSA occupation demand: **Recruitment Difficulty**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): Woods Bagot, HASSELL, AECOM, Aurecon, Architectus, Cox Architecture, BVN, Colliers (formerly Ethos Urban), Solar Start, CPB Contractors, Lendlease. Advertised salary A$90k–170k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 

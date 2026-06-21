@@ -38,11 +38,23 @@ The MC-INDENG scored **23/36 — MODERATE RISK**. Gaps in core dimensions define
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Engineering Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Civil Engineer (22%), Mechanical Engineer (15%), Electrical Engineer (9%), Engineering Professionals nec (4%), Chemical Engineer (4%) |
+| Early (~3yr) | Civil Engineer (22%), Mechanical Engineer (15%), Electrical Engineer (9%), Engineering Professionals nec (4%), Chemical Engineer (4%) |
+| Senior (~5yr) | Civil Engineer (21%), Mechanical Engineer (15%), Electrical Engineer (8%), Engineering Professionals nec (5%), Chemical Engineer (4%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 88% full-time employment · median salary $111,000 · 3-year employment 98% · JSA occupation demand: **Shortage**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): WSP, AECOM, Stantec, Aurecon, Hatch, Monadelphous, Rio Tinto, Fortescue. Advertised salary A$90k–125k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 

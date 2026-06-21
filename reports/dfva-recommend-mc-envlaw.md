@@ -38,11 +38,23 @@ The Master of Environmental Law scored **22/36 — MODERATE RISK**. Gaps in core
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Law Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Solicitor (89%), Legal Executive (7%), Legal Secretary (2%), Judicial and Other Legal Professionals nec (1%), Intellectual Property Lawyer (0%) |
+| Early (~3yr) | Solicitor (94%), Legal Executive (3%), Legal Secretary (1%), Judicial and Other Legal Professionals nec (1%), Intellectual Property Lawyer (0%) |
+| Senior (~5yr) | Solicitor (94%), Legal Executive (3%), Legal Secretary (1%), Judicial and Other Legal Professionals nec (1%), Intellectual Property Lawyer (0%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 89% full-time employment · median salary $90,000 · 3-year employment 96% · JSA occupation demand: **Met**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): NSW Crown Solicitor's Office, Clayton Utz, Maurice Blackburn, Slater and Gordon Lawyers, Gilchrist Connell, Herbert Smith Freehills, Uber (ANZ Legal Team), EnergyAustralia, Orica. Advertised salary A$95k–165k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 

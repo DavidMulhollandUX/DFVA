@@ -107,3 +107,25 @@ They have communicated statistical conclusions to people who are not statisticia
 | Occupation demand | SHORTAGE |
 | AI automation exposure | 65% |
 | Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |
+
+---
+
+<!-- LABOUR-EVIDENCE:START -->
+### REAL GRADUATE DESTINATIONS (JSA HEO · QILT · Adzuna)
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Software Engineer (14%), Developer Programmer (13%), ICT Business Analyst (9%), ICT Customer Support Officer (7%), Management Consultant (4%) |
+| Early (~3yr) | Software Engineer (15%), Developer Programmer (14%), ICT Business Analyst (9%), ICT Customer Support Officer (6%), Management Consultant (4%) |
+| Senior (~5yr) | Software Engineer (17%), Developer Programmer (14%), ICT Business Analyst (9%), ICT Customer Support Officer (5%), Management Consultant (4%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 81% full-time employment · median salary $110,000 · 3-year employment 94% · JSA occupation demand: **Shortage**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): Atlassian, Canva, Accenture, Amazon, Micromine, Cuscal Limited, HUB24, CSIRO, Zip, Cochlear, Vanguard Australia, ANZ. Advertised salary A$95k–160k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
+<!-- LABOUR-EVIDENCE:END -->

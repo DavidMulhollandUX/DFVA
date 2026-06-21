@@ -135,3 +135,25 @@ Post-pandemic decentralisation has created architecture opportunities in regiona
 **Assessment Date:** 2026-06-21
 **Source URLs:** https://handbook.unimelb.edu.au/2026/courses/mc-arch · WEF Future of Jobs 2025 · LinkedIn Workforce Report Q1 2026 · Australian Government Labour Market Insights (Jobs and Skills Australia) · Seek.com.au Architecture/Urban Design trend data · AIA Workforce Survey 2024 · AACA Graduate Competency Standards 2024 · NCC 2025 (National Construction Code) · Green Star Buildings 2.0 (GBCA) · Infrastructure Australia Infrastructure Priority List 2024
 **Prompt Version:** DFVA-COPILOT-MARKET-v1
+
+---
+
+<!-- LABOUR-EVIDENCE:START -->
+## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Architect (19%), Urban and Regional Planner (15%), Architectural Draftsperson (11%), Construction Project Manager (8%), Interior Designer (6%) |
+| Early (~3yr) | Architect (20%), Urban and Regional Planner (16%), Architectural Draftsperson (10%), Construction Project Manager (10%), Interior Designer (7%) |
+| Senior (~5yr) | Architect (21%), Urban and Regional Planner (16%), Construction Project Manager (11%), Architectural Draftsperson (9%), Interior Designer (7%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 75% full-time employment · median salary $84,500 · 3-year employment 95% · JSA occupation demand: **Recruitment Difficulty**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): Woods Bagot, HASSELL, AECOM, Aurecon, Architectus, Cox Architecture, BVN, Colliers (formerly Ethos Urban), Solar Start, CPB Contractors, Lendlease. Advertised salary A$90k–170k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
+<!-- LABOUR-EVIDENCE:END -->

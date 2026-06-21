@@ -38,11 +38,23 @@ The MC-ED scored **24/36 — MODERATE RISK**. Gaps in core dimensions define the
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Education Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Primary School Teacher (39%), Secondary School Teacher (27%), School Teachers nfd (4%), Early Childhood (Pre-primary School) Teacher (4%), Child Care Worker (3%) |
+| Early (~3yr) | Primary School Teacher (41%), Secondary School Teacher (29%), Early Childhood (Pre-primary School) Teacher (4%), School Teachers nfd (4%), Child Care Worker (2%) |
+| Senior (~5yr) | Primary School Teacher (42%), Secondary School Teacher (29%), Early Childhood (Pre-primary School) Teacher (4%), School Teachers nfd (3%), Middle School Teacher (Aus) \ Intermediate School Teacher (NZ) (2%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 90% full-time employment · median salary $96,000 · 3-year employment 96% · JSA occupation demand: **Shortage**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): anzuk Education, Tradewind Australia, Randstad Education, Catholic Education Diocese of Bathurst, Catholic Education South Australia (CESA), Sydney Catholic Schools, NSW Department of Education, Department of Education Victoria, Goodstart Early Learning, Anglican Church Grammar School (Churchie), Hume Anglican Grammar, St Luke's Grammar School. Advertised salary A$79.6k–130k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 

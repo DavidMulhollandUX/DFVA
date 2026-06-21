@@ -217,7 +217,7 @@ export const MARKET_DATA: Record<string, MarketFieldData> = {
 export function getFieldForCourse(courseCode: string): string {
   const code = courseCode.toLowerCase();
   const map: Record<string, string> = {
-    'mc-cs': 'it', 'mc-datasc': 'it', 'mc-it': 'it', 'mc-scicmp': 'it',
+    'mc-cs': 'it', 'mc-datasc': 'it', 'mc-it': 'it', 'mc-scicmp': 'it', 'mc-is': 'it',
     'mc-indeng': 'engineering', '746st': 'engineering', 'mc-eng': 'engineering',
     'mc-engbiom': 'engineering', 'mc-engchem': 'engineering', 'mc-engcivil': 'engineering',
     'mc-engelec': 'engineering', 'mc-engmech': 'engineering', 'mc-engmtrl': 'engineering',

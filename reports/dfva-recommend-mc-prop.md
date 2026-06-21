@@ -40,11 +40,23 @@ The Master of Property scored **22/36 — MODERATE RISK**. Gaps in core dimensio
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Architecture & Building Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Architect (19%), Urban and Regional Planner (15%), Architectural Draftsperson (11%), Construction Project Manager (8%), Interior Designer (6%) |
+| Early (~3yr) | Architect (20%), Urban and Regional Planner (16%), Architectural Draftsperson (10%), Construction Project Manager (10%), Interior Designer (7%) |
+| Senior (~5yr) | Architect (21%), Urban and Regional Planner (16%), Construction Project Manager (11%), Architectural Draftsperson (9%), Interior Designer (7%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 75% full-time employment · median salary $84,500 · 3-year employment 95% · JSA occupation demand: **Recruitment Difficulty**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): Woods Bagot, HASSELL, AECOM, Aurecon, Architectus, Cox Architecture, BVN, Colliers (formerly Ethos Urban), Solar Start, CPB Contractors, Lendlease. Advertised salary A$90k–170k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 

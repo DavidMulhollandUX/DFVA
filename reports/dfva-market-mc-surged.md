@@ -134,3 +134,25 @@ MedTech companies (Stryker, Zimmer Biomet, Johnson & Johnson MedTech) are profes
 **Assessment Date:** 2026-06-21
 **Source URLs:** https://handbook.unimelb.edu.au/2026/courses/mc-surged · WEF Future of Jobs 2025 · LinkedIn Workforce Report Q1 2026 · Royal Australasian College of Surgeons Workforce & Training Publications · Australian Government Labour Market Insights (Jobs and Skills Australia) · Seek.com.au ANZ healthcare sector trend data · AMEE (Association for Medical Education in Europe) 2025 Conference proceedings · ASE (Association for Surgical Education) workforce surveys · QILT Graduate Outcomes Survey 2024
 **Prompt Version:** DFVA-COPILOT-MARKET-v1
+
+---
+
+<!-- LABOUR-EVIDENCE:START -->
+## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Registered Nurses nec (15%), Physiotherapist (6%), Registered Nurse (Medical) (6%), Resident Medical Officer (5%), Registered Nurse (Critical Care and Emergency) (5%) |
+| Early (~3yr) | Registered Nurses nec (14%), Physiotherapist (6%), Registered Nurse (Medical) (6%), Registered Nurse (Critical Care and Emergency) (5%), Occupational Therapist (4%) |
+| Senior (~5yr) | Registered Nurses nec (14%), Physiotherapist (6%), Registered Nurse (Medical) (5%), Registered Nurse (Critical Care and Emergency) (5%), Occupational Therapist (4%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 87% full-time employment · median salary $103,000 · 3-year employment 95% · JSA occupation demand: **Shortage**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): Healthcare Australia (HCA), UnitingCare Queensland, Coastal Physiotherapy, Outreach Physiotherapy, Stream Healthcare Recruitment, Southern Cross Care WA, Anderson Neurological and Developmental Services, ORS Group, Ability Action Australia, Early Start Australia. Advertised salary A$68.6k–130k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
+<!-- LABOUR-EVIDENCE:END -->

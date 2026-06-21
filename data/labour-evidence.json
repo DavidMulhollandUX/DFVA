@@ -1,0 +1,2027 @@
+{
+ "_meta": {
+  "description": "Per-program real labour-market evidence for DFVA report enrichment.",
+  "ibisworld": {
+   "industry": "University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)",
+   "revenue": "A$45.4bn across 41 institutions",
+   "growth": "revenue CAGR +0.7%/yr 2021–26, forecast +2.8%/yr to 2031",
+   "shock": "international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1%",
+   "note": "a small, concentrated, financially-stressed buyer market of ~41 institutions"
+  },
+  "caveats": {
+   "destinations": "JSA HEO Table_3 — field-of-education level (ATO tax-linked, all completion levels), NOT per-degree. ANZSCO-6 does not encode seniority, so 1/3/5yr lists are stable for most fields; Creative Arts shows genuine progression.",
+   "qilt": "QILT GOS postgraduate-coursework cut (from marketData.ts), appropriate for these Masters programs.",
+   "employers": "Adzuna live vacancies (demand-side: who is hiring now), per field — NOT alumni destinations."
+  },
+  "sources": [
+   "JSA Higher Education Outcomes — Work & Occupation (Table_3)",
+   "QILT GOS 2024 (PGC)",
+   "IBISWorld P8102 (Jun 2026)",
+   "Adzuna AU (live vacancies)"
+  ]
+ },
+ "programs": {
+  "439fs": {
+   "field": "health",
+   "qiltStudyArea": "Health",
+   "adzunaTerm": "allied health",
+   "destinations": {
+    "entry": [
+     "Registered Nurses nec (15%)",
+     "Physiotherapist (6%)",
+     "Registered Nurse (Medical) (6%)",
+     "Resident Medical Officer (5%)",
+     "Registered Nurse (Critical Care and Emergency) (5%)"
+    ],
+    "early": [
+     "Registered Nurses nec (14%)",
+     "Physiotherapist (6%)",
+     "Registered Nurse (Medical) (6%)",
+     "Registered Nurse (Critical Care and Emergency) (5%)",
+     "Occupational Therapist (4%)"
+    ],
+    "senior": [
+     "Registered Nurses nec (14%)",
+     "Physiotherapist (6%)",
+     "Registered Nurse (Medical) (5%)",
+     "Registered Nurse (Critical Care and Emergency) (5%)",
+     "Occupational Therapist (4%)"
+    ]
+   },
+   "qilt": {
+    "employmentRate": 0.871,
+    "medianSalary": 103000,
+    "employmentRate3yr": 0.952,
+    "occupationDemand": "SHORTAGE",
+    "year": 2024
+   },
+   "demandEmployers": [
+    "Healthcare Australia (HCA)",
+    "UnitingCare Queensland",
+    "Coastal Physiotherapy",
+    "Outreach Physiotherapy",
+    "Stream Healthcare Recruitment",
+    "Southern Cross Care WA",
+    "Anderson Neurological and Developmental Services",
+    "ORS Group",
+    "Ability Action Australia",
+    "Early Start Australia"
+   ],
+   "demandSalary": "A$68.6k–130k"
+  },
+  "527cl": {
+   "field": "health",
+   "qiltStudyArea": "Health",
+   "adzunaTerm": "allied health",
+   "destinations": {
+    "entry": [
+     "Registered Nurses nec (15%)",
+     "Physiotherapist (6%)",
+     "Registered Nurse (Medical) (6%)",
+     "Resident Medical Officer (5%)",
+     "Registered Nurse (Critical Care and Emergency) (5%)"
+    ],
+    "early": [
+     "Registered Nurses nec (14%)",
+     "Physiotherapist (6%)",
+     "Registered Nurse (Medical) (6%)",
+     "Registered Nurse (Critical Care and Emergency) (5%)",
+     "Occupational Therapist (4%)"
+    ],
+    "senior": [
+     "Registered Nurses nec (14%)",
+     "Physiotherapist (6%)",
+     "Registered Nurse (Medical) (5%)",
+     "Registered Nurse (Critical Care and Emergency) (5%)",
+     "Occupational Therapist (4%)"
+    ]
+   },
+   "qilt": {
+    "employmentRate": 0.871,
+    "medianSalary": 103000,
+    "employmentRate3yr": 0.952,
+    "occupationDemand": "SHORTAGE",
+    "year": 2024
+   },
+   "demandEmployers": [
+    "Healthcare Australia (HCA)",
+    "UnitingCare Queensland",
+    "Coastal Physiotherapy",
+    "Outreach Physiotherapy",
+    "Stream Healthcare Recruitment",
+    "Southern Cross Care WA",
+    "Anderson Neurological and Developmental Services",
+    "ORS Group",
+    "Ability Action Australia",
+    "Early Start Australia"
+   ],
+   "demandSalary": "A$68.6k–130k"
+  },
+  "746st": {
+   "field": "engineering",
+   "qiltStudyArea": "Engineering",
+   "adzunaTerm": "engineer",
+   "destinations": {
+    "entry": [
+     "Civil Engineer (22%)",
+     "Mechanical Engineer (15%)",
+     "Electrical Engineer (9%)",
+     "Engineering Professionals nec (4%)",
+     "Chemical Engineer (4%)"
+    ],
+    "early": [
+     "Civil Engineer (22%)",
+     "Mechanical Engineer (15%)",
+     "Electrical Engineer (9%)",
+     "Engineering Professionals nec (4%)",
+     "Chemical Engineer (4%)"
+    ],
+    "senior": [
+     "Civil Engineer (21%)",
+     "Mechanical Engineer (15%)",
+     "Electrical Engineer (8%)",
+     "Engineering Professionals nec (5%)",
+     "Chemical Engineer (4%)"
+    ]
+   },
+   "qilt": {
+    "employmentRate": 0.883,
+    "medianSalary": 111000,
+    "employmentRate3yr": 0.975,
+    "occupationDemand": "SHORTAGE",
+    "year": 2024
+   },
+   "demandEmployers": [
+    "WSP",
+    "AECOM",
+    "Stantec",
+    "Aurecon",
+    "Hatch",
+    "Monadelphous",
+    "Rio Tinto",
+    "Fortescue"
+   ],
+   "demandSalary": "A$90k–125k"
+  },
+  "b-des": {
+   "field": "architecture",
+   "qiltStudyArea": "Architecture & Building",
+   "adzunaTerm": "architect",
+   "destinations": {
+    "entry": [
+     "Architect (19%)",
+     "Urban and Regional Planner (15%)",
+     "Architectural Draftsperson (11%)",
+     "Construction Project Manager (8%)",
+     "Interior Designer (6%)"
+    ],
+    "early": [
+     "Architect (20%)",
+     "Urban and Regional Planner (16%)",
+     "Architectural Draftsperson (10%)",
+     "Construction Project Manager (10%)",
+     "Interior Designer (7%)"
+    ],
+    "senior": [
+     "Architect (21%)",
+     "Urban and Regional Planner (16%)",
+     "Construction Project Manager (11%)",
+     "Architectural Draftsperson (9%)",
+     "Interior Designer (7%)"
+    ]
+   },
+   "qilt": {
+    "employmentRate": 0.748,
+    "medianSalary": 84500,
+    "employmentRate3yr": 0.948,
+    "occupationDemand": "RECRUITMENT_DIFFICULTY",
+    "year": 2024
+   },
+   "demandEmployers": [
+    "Woods Bagot",
+    "HASSELL",
+    "AECOM",
+    "Aurecon",
+    "Architectus",
+    "Cox Architecture",
+    "BVN",
+    "Colliers (formerly Ethos Urban)",
+    "Solar Start",
+    "CPB Contractors",
+    "Lendlease"
+   ],
+   "demandSalary": "A$90k–170k"
+  },
+  "b-sci": {
+   "field": "science",
+   "qiltStudyArea": "Science",
+   "adzunaTerm": "scientist",
+   "destinations": {
+    "entry": [
+     "Sales Assistant (General) (6%)",
+     "Medical Laboratory Scientist (6%)",
+     "Geologist (5%)",
+     "General Clerk (4%)",
+     "Medical Laboratory Technician (4%)"
+    ],
+    "early": [
+     "Medical Laboratory Scientist (7%)",
+     "Geologist (5%)",
+     "Sales Assistant (General) (4%)",
+     "Medical Laboratory Technician (4%)",
+     "General Clerk (4%)"
+    ],
+    "senior": [
+     "Medical Laboratory Scientist (7%)",
+     "Geologist (5%)",
+     "Program or Project Administrator (4%)",
+     "Environmental Consultant (4%)",
+     "Medical Laboratory Technician (3%)"
+    ]
+   },
+   "qilt": {
+    "employmentRate": 0.793,
+    "medianSalary": 100000,
+    "employmentRate3yr": 0.943,
+    "occupationDemand": "RECRUITMENT_DIFFICULTY",
+    "year": 2024
+   },
+   "demandEmployers": [
+    "NSW Health Pathology",
+    "Dorevitch Pathology (Healius)",
+    "Sonic Healthcare Australia",
+    "4Cyte Pathology",
+    "CSIRO",
+    "ANSTO",
+    "WEHI",
+    "Canva",
+    "Glencore",
+    "Rio Tinto",
+    "Fortescue"
+   ],
+   "demandSalary": "A$73.4k–145k"
+  },
+  "mc-actsc": {
+   "field": "science",
+   "qiltStudyArea": "Science",
+   "adzunaTerm": "scientist",
+   "destinations": {
+    "entry": [
+     "Sales Assistant (General) (6%)",
+     "Medical Laboratory Scientist (6%)",
+     "Geologist (5%)",
+     "General Clerk (4%)",
+     "Medical Laboratory Technician (4%)"
+    ],
+    "early": [
+     "Medical Laboratory Scientist (7%)",
+     "Geologist (5%)",
+     "Sales Assistant (General) (4%)",
+     "Medical Laboratory Technician (4%)",
+     "General Clerk (4%)"
+    ],
+    "senior": [
+     "Medical Laboratory Scientist (7%)",
+     "Geologist (5%)",
+     "Program or Project Administrator (4%)",
+     "Environmental Consultant (4%)",
+     "Medical Laboratory Technician (3%)"
+    ]
+   },
+   "qilt": {
+    "employmentRate": 0.793,
+    "medianSalary": 100000,
+    "employmentRate3yr": 0.943,
+    "occupationDemand": "RECRUITMENT_DIFFICULTY",
+    "year": 2024
+   },
+   "demandEmployers": [
+    "NSW Health Pathology",
+    "Dorevitch Pathology (Healius)",
+    "Sonic Healthcare Australia",
+    "4Cyte Pathology",
+    "CSIRO",
+    "ANSTO",
+    "WEHI",
+    "Canva",
+    "Glencore",
+    "Rio Tinto",
+    "Fortescue"
+   ],
+   "demandSalary": "A$73.4k–145k"
+  },
+  "mc-apbusa": {
+   "field": "business",
+   "qiltStudyArea": "Business & Management",
+   "adzunaTerm": "business analyst",
+   "destinations": {
+    "entry": [
+     "Accountant (General) (16%)",
+     "General Clerk (5%)",
+     "Marketing Specialist (4%)",
+     "Sales Assistant (General) (4%)",
+     "Sales and Marketing Manager (4%)"
+    ],
+    "early": [
+     "Accountant (General) (16%)",
+     "Sales and Marketing Manager (5%)",
+     "Marketing Specialist (4%)",
+     "Management Consultant (4%)",
+     "General Clerk (3%)"
+    ],
+    "senior": [
+     "Accountant (General) (15%)",
+     "Sales and Marketing Manager (5%)",
+     "Marketing Specialist (4%)",
+     "Management Consultant (4%)",
+     "Program or Project Administrator (3%)"
+    ]
+   },
+   "qilt": {
+    "employmentRate": 0.923,
+    "medianSalary": 124000,
+    "employmentRate3yr": 0.962,
+    "occupationDemand": "MET",
+    "year": 2024
+   },
+   "demandEmployers": [
+    "Commonwealth Bank",
+    "Westpac",
+    "NAB",
+    "CMC Markets",
+    "Woolworths Group",
+    "Ventia",
+    "Brand Collective",
+    "EY (Ernst & Young)",
+    "Bed Bath N' Table",
+    "EssilorLuxottica",
+    "Alinta Energy",
+    "VetPartners Australia"
+   ],
+   "demandSalary": "A$80k–125k"
+  },
+  "mc-arch": {
+   "field": "architecture",
+   "qiltStudyArea": "Architecture & Building",
+   "adzunaTerm": "architect",
+   "destinations": {
+    "entry": [
+     "Architect (19%)",
+     "Urban and Regional Planner (15%)",
+     "Architectural Draftsperson (11%)",
+     "Construction Project Manager (8%)",
+     "Interior Designer (6%)"
+    ],
+    "early": [
+     "Architect (20%)",
+     "Urban and Regional Planner (16%)",
+     "Architectural Draftsperson (10%)",
+     "Construction Project Manager (10%)",
+     "Interior Designer (7%)"
+    ],
+    "senior": [
+     "Architect (21%)",
+     "Urban and Regional Planner (16%)",
+     "Construction Project Manager (11%)",
+     "Architectural Draftsperson (9%)",
+     "Interior Designer (7%)"
+    ]
+   },
+   "qilt": {
+    "employmentRate": 0.748,
+    "medianSalary": 84500,
+    "employmentRate3yr": 0.948,
+    "occupationDemand": "RECRUITMENT_DIFFICULTY",
+    "year": 2024
+   },
+   "demandEmployers": [
+    "Woods Bagot",
+    "HASSELL",
+    "AECOM",
+    "Aurecon",
+    "Architectus",
+    "Cox Architecture",
+    "BVN",
+    "Colliers (formerly Ethos Urban)",
+    "Solar Start",
+    "CPB Contractors",
+    "Lendlease"
+   ],
+   "demandSalary": "A$90k–170k"
+  },
+  "mc-ba": {
+   "field": "business",
+   "qiltStudyArea": "Business & Management",
+   "adzunaTerm": "business analyst",
+   "destinations": {
+    "entry": [
+     "Accountant (General) (16%)",
+     "General Clerk (5%)",
+     "Marketing Specialist (4%)",
+     "Sales Assistant (General) (4%)",
+     "Sales and Marketing Manager (4%)"
+    ],
+    "early": [
+     "Accountant (General) (16%)",
+     "Sales and Marketing Manager (5%)",
+     "Marketing Specialist (4%)",
+     "Management Consultant (4%)",
+     "General Clerk (3%)"
+    ],
+    "senior": [
+     "Accountant (General) (15%)",
+     "Sales and Marketing Manager (5%)",
+     "Marketing Specialist (4%)",
+     "Management Consultant (4%)",
+     "Program or Project Administrator (3%)"
+    ]
+   },
+   "qilt": {
+    "employmentRate": 0.923,
+    "medianSalary": 124000,
+    "employmentRate3yr": 0.962,
+    "occupationDemand": "MET",
+    "year": 2024
+   },
+   "demandEmployers": [
+    "Commonwealth Bank",
+    "Westpac",
+    "NAB",
+    "CMC Markets",
+    "Woolworths Group",
+    "Ventia",
+    "Brand Collective",
+    "EY (Ernst & Young)",
+    "Bed Bath N' Table",
+    "EssilorLuxottica",
+    "Alinta Energy",
+    "VetPartners Australia"
+   ],
+   "demandSalary": "A$80k–125k"
+  },
+  "mc-bamktg": {
+   "field": "business",
+   "qiltStudyArea": "Business & Management",
+   "adzunaTerm": "business analyst",
+   "destinations": {
+    "entry": [
+     "Accountant (General) (16%)",
+     "General Clerk (5%)",
+     "Marketing Specialist (4%)",
+     "Sales Assistant (General) (4%)",
+     "Sales and Marketing Manager (4%)"
+    ],
+    "early": [
+     "Accountant (General) (16%)",
+     "Sales and Marketing Manager (5%)",
+     "Marketing Specialist (4%)",
+     "Management Consultant (4%)",
+     "General Clerk (3%)"
+    ],
+    "senior": [
+     "Accountant (General) (15%)",
+     "Sales and Marketing Manager (5%)",
+     "Marketing Specialist (4%)",
+     "Management Consultant (4%)",
+     "Program or Project Administrator (3%)"
+    ]
+   },
+   "qilt": {
+    "employmentRate": 0.923,
+    "medianSalary": 124000,
+    "employmentRate3yr": 0.962,
+    "occupationDemand": "MET",
+    "year": 2024
+   },
+   "demandEmployers": [
+    "Commonwealth Bank",
+    "Westpac",
+    "NAB",
+    "CMC Markets",
+    "Woolworths Group",
+    "Ventia",
+    "Brand Collective",
+    "EY (Ernst & Young)",
+    "Bed Bath N' Table",
+    "EssilorLuxottica",
+    "Alinta Energy",
+    "VetPartners Australia"
+   ],
+   "demandSalary": "A$80k–125k"
+  },
+  "mc-base": {
+   "field": "business",
+   "qiltStudyArea": "Business & Management",
+   "adzunaTerm": "business analyst",
+   "destinations": {
+    "entry": [
+     "Accountant (General) (16%)",
+     "General Clerk (5%)",
+     "Marketing Specialist (4%)",
+     "Sales Assistant (General) (4%)",
+     "Sales and Marketing Manager (4%)"
+    ],
+    "early": [
+     "Accountant (General) (16%)",
+     "Sales and Marketing Manager (5%)",
+     "Marketing Specialist (4%)",
+     "Management Consultant (4%)",
+     "General Clerk (3%)"
+    ],
+    "senior": [
+     "Accountant (General) (15%)",
+     "Sales and Marketing Manager (5%)",
+     "Marketing Specialist (4%)",
+     "Management Consultant (4%)",
+     "Program or Project Administrator (3%)"
+    ]
+   },
+   "qilt": {
+    "employmentRate": 0.923,
+    "medianSalary": 124000,
+    "employmentRate3yr": 0.962,
+    "occupationDemand": "MET",
+    "year": 2024
+   },
+   "demandEmployers": [
+    "Commonwealth Bank",
+    "Westpac",
+    "NAB",
+    "CMC Markets",
+    "Woolworths Group",
+    "Ventia",
+    "Brand Collective",
+    "EY (Ernst & Young)",
+    "Bed Bath N' Table",
+    "EssilorLuxottica",
+    "Alinta Energy",
+    "VetPartners Australia"
+   ],
+   "demandSalary": "A$80k–125k"
+  },
+  "mc-bmedsc": {
+   "field": "health",
+   "qiltStudyArea": "Health",
+   "adzunaTerm": "allied health",
+   "destinations": {
+    "entry": [
+     "Registered Nurses nec (15%)",
+     "Physiotherapist (6%)",
+     "Registered Nurse (Medical) (6%)",
+     "Resident Medical Officer (5%)",
+     "Registered Nurse (Critical Care and Emergency) (5%)"
+    ],
+    "early": [
+     "Registered Nurses nec (14%)",
+     "Physiotherapist (6%)",
+     "Registered Nurse (Medical) (6%)",
+     "Registered Nurse (Critical Care and Emergency) (5%)",
+     "Occupational Therapist (4%)"
+    ],
+    "senior": [
+     "Registered Nurses nec (14%)",
+     "Physiotherapist (6%)",
+     "Registered Nurse (Medical) (5%)",
+     "Registered Nurse (Critical Care and Emergency) (5%)",
+     "Occupational Therapist (4%)"
+    ]
+   },
+   "qilt": {
+    "employmentRate": 0.871,
+    "medianSalary": 103000,
+    "employmentRate3yr": 0.952,
+    "occupationDemand": "SHORTAGE",
+    "year": 2024
+   },
+   "demandEmployers": [
+    "Healthcare Australia (HCA)",
+    "UnitingCare Queensland",
+    "Coastal Physiotherapy",
+    "Outreach Physiotherapy",
+    "Stream Healthcare Recruitment",
+    "Southern Cross Care WA",
+    "Anderson Neurological and Developmental Services",
+    "ORS Group",
+    "Ability Action Australia",
+    "Early Start Australia"
+   ],
+   "demandSalary": "A$68.6k–130k"
+  },
+  "mc-busana": {
+   "field": "business",
+   "qiltStudyArea": "Business & Management",
+   "adzunaTerm": "business analyst",
+   "destinations": {
+    "entry": [
+     "Accountant (General) (16%)",
+     "General Clerk (5%)",
+     "Marketing Specialist (4%)",
+     "Sales Assistant (General) (4%)",
+     "Sales and Marketing Manager (4%)"
+    ],
+    "early": [
+     "Accountant (General) (16%)",
+     "Sales and Marketing Manager (5%)",
+     "Marketing Specialist (4%)",
+     "Management Consultant (4%)",
+     "General Clerk (3%)"
+    ],
+    "senior": [
+     "Accountant (General) (15%)",
+     "Sales and Marketing Manager (5%)",
+     "Marketing Specialist (4%)",
+     "Management Consultant (4%)",
+     "Program or Project Administrator (3%)"
+    ]
+   },
+   "qilt": {
+    "employmentRate": 0.923,
+    "medianSalary": 124000,
+    "employmentRate3yr": 0.962,
+    "occupationDemand": "MET",
+    "year": 2024
+   },
+   "demandEmployers": [
+    "Commonwealth Bank",
+    "Westpac",
+    "NAB",
+    "CMC Markets",
+    "Woolworths Group",
+    "Ventia",
+    "Brand Collective",
+    "EY (Ernst & Young)",
+    "Bed Bath N' Table",
+    "EssilorLuxottica",
+    "Alinta Energy",
+    "VetPartners Australia"
+   ],
+   "demandSalary": "A$80k–125k"
+  },
+  "mc-climsci": {
+   "field": "science",
+   "qiltStudyArea": "Science",
+   "adzunaTerm": "scientist",
+   "destinations": {
+    "entry": [
+     "Sales Assistant (General) (6%)",
+     "Medical Laboratory Scientist (6%)",
+     "Geologist (5%)",
+     "General Clerk (4%)",
+     "Medical Laboratory Technician (4%)"
+    ],
+    "early": [
+     "Medical Laboratory Scientist (7%)",
+     "Geologist (5%)",
+     "Sales Assistant (General) (4%)",
+     "Medical Laboratory Technician (4%)",
+     "General Clerk (4%)"
+    ],
+    "senior": [
+     "Medical Laboratory Scientist (7%)",
+     "Geologist (5%)",
+     "Program or Project Administrator (4%)",
+     "Environmental Consultant (4%)",
+     "Medical Laboratory Technician (3%)"
+    ]
+   },
+   "qilt": {
+    "employmentRate": 0.793,
+    "medianSalary": 100000,
+    "employmentRate3yr": 0.943,
+    "occupationDemand": "RECRUITMENT_DIFFICULTY",
+    "year": 2024
+   },
+   "demandEmployers": [
+    "NSW Health Pathology",
+    "Dorevitch Pathology (Healius)",
+    "Sonic Healthcare Australia",
+    "4Cyte Pathology",
+    "CSIRO",
+    "ANSTO",
+    "WEHI",
+    "Canva",
+    "Glencore",
+    "Rio Tinto",
+    "Fortescue"
+   ],
+   "demandSalary": "A$73.4k–145k"
+  },
+  "mc-clind": {
+   "field": "health",
+   "qiltStudyArea": "Health",
+   "adzunaTerm": "allied health",
+   "destinations": {
+    "entry": [
+     "Registered Nurses nec (15%)",
+     "Physiotherapist (6%)",
+     "Registered Nurse (Medical) (6%)",
+     "Resident Medical Officer (5%)",
+     "Registered Nurse (Critical Care and Emergency) (5%)"
+    ],
+    "early": [
+     "Registered Nurses nec (14%)",
+     "Physiotherapist (6%)",
+     "Registered Nurse (Medical) (6%)",
+     "Registered Nurse (Critical Care and Emergency) (5%)",
+     "Occupational Therapist (4%)"
+    ],
+    "senior": [
+     "Registered Nurses nec (14%)",
+     "Physiotherapist (6%)",
+     "Registered Nurse (Medical) (5%)",
+     "Registered Nurse (Critical Care and Emergency) (5%)",
+     "Occupational Therapist (4%)"
+    ]
+   },
+   "qilt": {
+    "employmentRate": 0.871,
+    "medianSalary": 103000,
+    "employmentRate3yr": 0.952,
+    "occupationDemand": "SHORTAGE",
+    "year": 2024
+   },
+   "demandEmployers": [
+    "Healthcare Australia (HCA)",
+    "UnitingCare Queensland",
+    "Coastal Physiotherapy",
+    "Outreach Physiotherapy",
+    "Stream Healthcare Recruitment",
+    "Southern Cross Care WA",
+    "Anderson Neurological and Developmental Services",
+    "ORS Group",
+    "Ability Action Australia",
+    "Early Start Australia"
+   ],
+   "demandSalary": "A$68.6k–130k"
+  },
+  "mc-cs": {
+   "field": "it",
+   "qiltStudyArea": "Information Technology",
+   "adzunaTerm": "software engineer",
+   "destinations": {
+    "entry": [
+     "Software Engineer (14%)",
+     "Developer Programmer (13%)",
+     "ICT Business Analyst (9%)",
+     "ICT Customer Support Officer (7%)",
+     "Management Consultant (4%)"
+    ],
+    "early": [
+     "Software Engineer (15%)",
+     "Developer Programmer (14%)",
+     "ICT Business Analyst (9%)",
+     "ICT Customer Support Officer (6%)",
+     "Management Consultant (4%)"
+    ],
+    "senior": [
+     "Software Engineer (17%)",
+     "Developer Programmer (14%)",
+     "ICT Business Analyst (9%)",
+     "ICT Customer Support Officer (5%)",
+     "Management Consultant (4%)"
+    ]
+   },
+   "qilt": {
+    "employmentRate": 0.812,
+    "medianSalary": 110000,
+    "employmentRate3yr": 0.941,
+    "occupationDemand": "SHORTAGE",
+    "year": 2024
+   },
+   "demandEmployers": [
+    "Atlassian",
+    "Canva",
+    "Accenture",
+    "Amazon",
+    "Micromine",
+    "Cuscal Limited",
+    "HUB24",
+    "CSIRO",
+    "Zip",
+    "Cochlear",
+    "Vanguard Australia",
+    "ANZ"
+   ],
+   "demandSalary": "A$95k–160k"
+  },
+  "mc-datasc": {
+   "field": "it",
+   "qiltStudyArea": "Information Technology",
+   "adzunaTerm": "software engineer",
+   "destinations": {
+    "entry": [
+     "Software Engineer (14%)",
+     "Developer Programmer (13%)",
+     "ICT Business Analyst (9%)",
+     "ICT Customer Support Officer (7%)",
+     "Management Consultant (4%)"
+    ],
+    "early": [
+     "Software Engineer (15%)",
+     "Developer Programmer (14%)",
+     "ICT Business Analyst (9%)",
+     "ICT Customer Support Officer (6%)",
+     "Management Consultant (4%)"
+    ],
+    "senior": [
+     "Software Engineer (17%)",
+     "Developer Programmer (14%)",
+     "ICT Business Analyst (9%)",
+     "ICT Customer Support Officer (5%)",
+     "Management Consultant (4%)"
+    ]
+   },
+   "qilt": {
+    "employmentRate": 0.812,
+    "medianSalary": 110000,
+    "employmentRate3yr": 0.941,
+    "occupationDemand": "SHORTAGE",
+    "year": 2024
+   },
+   "demandEmployers": [
+    "Atlassian",
+    "Canva",
+    "Accenture",
+    "Amazon",
+    "Micromine",
+    "Cuscal Limited",
+    "HUB24",
+    "CSIRO",
+    "Zip",
+    "Cochlear",
+    "Vanguard Australia",
+    "ANZ"
+   ],
+   "demandSalary": "A$95k–160k"
+  },
+  "mc-ed": {
+   "field": "education",
+   "qiltStudyArea": "Education",
+   "adzunaTerm": "teacher",
+   "destinations": {
+    "entry": [
+     "Primary School Teacher (39%)",
+     "Secondary School Teacher (27%)",
+     "School Teachers nfd (4%)",
+     "Early Childhood (Pre-primary School) Teacher (4%)",
+     "Child Care Worker (3%)"
+    ],
+    "early": [
+     "Primary School Teacher (41%)",
+     "Secondary School Teacher (29%)",
+     "Early Childhood (Pre-primary School) Teacher (4%)",
+     "School Teachers nfd (4%)",
+     "Child Care Worker (2%)"
+    ],
+    "senior": [
+     "Primary School Teacher (42%)",
+     "Secondary School Teacher (29%)",
+     "Early Childhood (Pre-primary School) Teacher (4%)",
+     "School Teachers nfd (3%)",
+     "Middle School Teacher (Aus) \\ Intermediate School Teacher (NZ) (2%)"
+    ]
+   },
+   "qilt": {
+    "employmentRate": 0.899,
+    "medianSalary": 96000,
+    "employmentRate3yr": 0.961,
+    "occupationDemand": "SHORTAGE",
+    "year": 2024
+   },
+   "demandEmployers": [
+    "anzuk Education",
+    "Tradewind Australia",
+    "Randstad Education",
+    "Catholic Education Diocese of Bathurst",
+    "Catholic Education South Australia (CESA)",
+    "Sydney Catholic Schools",
+    "NSW Department of Education",
+    "Department of Education Victoria",
+    "Goodstart Early Learning",
+    "Anglican Church Grammar School (Churchie)",
+    "Hume Anglican Grammar",
+    "St Luke's Grammar School",
+    "Brisbane Christian College",
+    "Ipswich Grammar School",
+    "Thomas Hassall Anglican College"
+   ],
+   "demandSalary": "A$79.6k–130k"
+  },
+  "mc-envlaw": {
+   "field": "law",
+   "qiltStudyArea": "Law",
+   "adzunaTerm": "lawyer",
+   "destinations": {
+    "entry": [
+     "Solicitor (89%)",
+     "Legal Executive (7%)",
+     "Legal Secretary (2%)",
+     "Judicial and Other Legal Professionals nec (1%)",
+     "Intellectual Property Lawyer (0%)"
+    ],
+    "early": [
+     "Solicitor (94%)",
+     "Legal Executive (3%)",
+     "Legal Secretary (1%)",
+     "Judicial and Other Legal Professionals nec (1%)",
+     "Intellectual Property Lawyer (0%)"
+    ],
+    "senior": [
+     "Solicitor (94%)",
+     "Legal Executive (3%)",
+     "Legal Secretary (1%)",
+     "Judicial and Other Legal Professionals nec (1%)",
+     "Intellectual Property Lawyer (0%)"
+    ]
+   },
+   "qilt": {
+    "employmentRate": 0.894,
+    "medianSalary": 90000,
+    "employmentRate3yr": 0.957,
+    "occupationDemand": "MET",
+    "year": 2024
+   },
+   "demandEmployers": [
+    "NSW Crown Solicitor's Office",
+    "Clayton Utz",
+    "Maurice Blackburn",
+    "Slater and Gordon Lawyers",
+    "Gilchrist Connell",
+    "Herbert Smith Freehills",
+    "Uber (ANZ Legal Team)",
+    "EnergyAustralia",
+    "Orica"
+   ],
+   "demandSalary": "A$95k–165k"
+  },
+  "mc-envsc": {
+   "field": "science",
+   "qiltStudyArea": "Science",
+   "adzunaTerm": "scientist",
+   "destinations": {
+    "entry": [
+     "Sales Assistant (General) (6%)",
+     "Medical Laboratory Scientist (6%)",
+     "Geologist (5%)",
+     "General Clerk (4%)",
+     "Medical Laboratory Technician (4%)"
+    ],
+    "early": [
+     "Medical Laboratory Scientist (7%)",
+     "Geologist (5%)",
+     "Sales Assistant (General) (4%)",
+     "Medical Laboratory Technician (4%)",
+     "General Clerk (4%)"
+    ],
+    "senior": [
+     "Medical Laboratory Scientist (7%)",
+     "Geologist (5%)",
+     "Program or Project Administrator (4%)",
+     "Environmental Consultant (4%)",
+     "Medical Laboratory Technician (3%)"
+    ]
+   },
+   "qilt": {
+    "employmentRate": 0.793,
+    "medianSalary": 100000,
+    "employmentRate3yr": 0.943,
+    "occupationDemand": "RECRUITMENT_DIFFICULTY",
+    "year": 2024
+   },
+   "demandEmployers": [
+    "NSW Health Pathology",
+    "Dorevitch Pathology (Healius)",
+    "Sonic Healthcare Australia",
+    "4Cyte Pathology",
+    "CSIRO",
+    "ANSTO",
+    "WEHI",
+    "Canva",
+    "Glencore",
+    "Rio Tinto",
+    "Fortescue"
+   ],
+   "demandSalary": "A$73.4k–145k"
+  },
+  "mc-gencoun": {
+   "field": "health",
+   "qiltStudyArea": "Health",
+   "adzunaTerm": "allied health",
+   "destinations": {
+    "entry": [
+     "Registered Nurses nec (15%)",
+     "Physiotherapist (6%)",
+     "Registered Nurse (Medical) (6%)",
+     "Resident Medical Officer (5%)",
+     "Registered Nurse (Critical Care and Emergency) (5%)"
+    ],
+    "early": [
+     "Registered Nurses nec (14%)",
+     "Physiotherapist (6%)",
+     "Registered Nurse (Medical) (6%)",
+     "Registered Nurse (Critical Care and Emergency) (5%)",
+     "Occupational Therapist (4%)"
+    ],
+    "senior": [
+     "Registered Nurses nec (14%)",
+     "Physiotherapist (6%)",
+     "Registered Nurse (Medical) (5%)",
+     "Registered Nurse (Critical Care and Emergency) (5%)",
+     "Occupational Therapist (4%)"
+    ]
+   },
+   "qilt": {
+    "employmentRate": 0.871,
+    "medianSalary": 103000,
+    "employmentRate3yr": 0.952,
+    "occupationDemand": "SHORTAGE",
+    "year": 2024
+   },
+   "demandEmployers": [
+    "Healthcare Australia (HCA)",
+    "UnitingCare Queensland",
+    "Coastal Physiotherapy",
+    "Outreach Physiotherapy",
+    "Stream Healthcare Recruitment",
+    "Southern Cross Care WA",
+    "Anderson Neurological and Developmental Services",
+    "ORS Group",
+    "Ability Action Australia",
+    "Early Start Australia"
+   ],
+   "demandSalary": "A$68.6k–130k"
+  },
+  "mc-indeng": {
+   "field": "engineering",
+   "qiltStudyArea": "Engineering",
+   "adzunaTerm": "engineer",
+   "destinations": {
+    "entry": [
+     "Civil Engineer (22%)",
+     "Mechanical Engineer (15%)",
+     "Electrical Engineer (9%)",
+     "Engineering Professionals nec (4%)",
+     "Chemical Engineer (4%)"
+    ],
+    "early": [
+     "Civil Engineer (22%)",
+     "Mechanical Engineer (15%)",
+     "Electrical Engineer (9%)",
+     "Engineering Professionals nec (4%)",
+     "Chemical Engineer (4%)"
+    ],
+    "senior": [
+     "Civil Engineer (21%)",
+     "Mechanical Engineer (15%)",
+     "Electrical Engineer (8%)",
+     "Engineering Professionals nec (5%)",
+     "Chemical Engineer (4%)"
+    ]
+   },
+   "qilt": {
+    "employmentRate": 0.883,
+    "medianSalary": 111000,
+    "employmentRate3yr": 0.975,
+    "occupationDemand": "SHORTAGE",
+    "year": 2024
+   },
+   "demandEmployers": [
+    "WSP",
+    "AECOM",
+    "Stantec",
+    "Aurecon",
+    "Hatch",
+    "Monadelphous",
+    "Rio Tinto",
+    "Fortescue"
+   ],
+   "demandSalary": "A$90k–125k"
+  },
+  "mc-intedib": {
+   "field": "education",
+   "qiltStudyArea": "Education",
+   "adzunaTerm": "teacher",
+   "destinations": {
+    "entry": [
+     "Primary School Teacher (39%)",
+     "Secondary School Teacher (27%)",
+     "School Teachers nfd (4%)",
+     "Early Childhood (Pre-primary School) Teacher (4%)",
+     "Child Care Worker (3%)"
+    ],
+    "early": [
+     "Primary School Teacher (41%)",
+     "Secondary School Teacher (29%)",
+     "Early Childhood (Pre-primary School) Teacher (4%)",
+     "School Teachers nfd (4%)",
+     "Child Care Worker (2%)"
+    ],
+    "senior": [
+     "Primary School Teacher (42%)",
+     "Secondary School Teacher (29%)",
+     "Early Childhood (Pre-primary School) Teacher (4%)",
+     "School Teachers nfd (3%)",
+     "Middle School Teacher (Aus) \\ Intermediate School Teacher (NZ) (2%)"
+    ]
+   },
+   "qilt": {
+    "employmentRate": 0.899,
+    "medianSalary": 96000,
+    "employmentRate3yr": 0.961,
+    "occupationDemand": "SHORTAGE",
+    "year": 2024
+   },
+   "demandEmployers": [
+    "anzuk Education",
+    "Tradewind Australia",
+    "Randstad Education",
+    "Catholic Education Diocese of Bathurst",
+    "Catholic Education South Australia (CESA)",
+    "Sydney Catholic Schools",
+    "NSW Department of Education",
+    "Department of Education Victoria",
+    "Goodstart Early Learning",
+    "Anglican Church Grammar School (Churchie)",
+    "Hume Anglican Grammar",
+    "St Luke's Grammar School",
+    "Brisbane Christian College",
+    "Ipswich Grammar School",
+    "Thomas Hassall Anglican College"
+   ],
+   "demandSalary": "A$79.6k–130k"
+  },
+  "mc-is": {
+   "field": "it",
+   "qiltStudyArea": "Information Technology",
+   "adzunaTerm": "software engineer",
+   "destinations": {
+    "entry": [
+     "Software Engineer (14%)",
+     "Developer Programmer (13%)",
+     "ICT Business Analyst (9%)",
+     "ICT Customer Support Officer (7%)",
+     "Management Consultant (4%)"
+    ],
+    "early": [
+     "Software Engineer (15%)",
+     "Developer Programmer (14%)",
+     "ICT Business Analyst (9%)",
+     "ICT Customer Support Officer (6%)",
+     "Management Consultant (4%)"
+    ],
+    "senior": [
+     "Software Engineer (17%)",
+     "Developer Programmer (14%)",
+     "ICT Business Analyst (9%)",
+     "ICT Customer Support Officer (5%)",
+     "Management Consultant (4%)"
+    ]
+   },
+   "qilt": {
+    "employmentRate": 0.812,
+    "medianSalary": 110000,
+    "employmentRate3yr": 0.941,
+    "occupationDemand": "SHORTAGE",
+    "year": 2024
+   },
+   "demandEmployers": [
+    "Atlassian",
+    "Canva",
+    "Accenture",
+    "Amazon",
+    "Micromine",
+    "Cuscal Limited",
+    "HUB24",
+    "CSIRO",
+    "Zip",
+    "Cochlear",
+    "Vanguard Australia",
+    "ANZ"
+   ],
+   "demandSalary": "A$95k–160k"
+  },
+  "mc-journ": {
+   "field": "creative_arts",
+   "qiltStudyArea": "Creative Arts",
+   "adzunaTerm": "graphic designer",
+   "destinations": {
+    "entry": [
+     "Sales Assistant (General) (12%)",
+     "Graphic Designer (8%)",
+     "General Clerk (6%)",
+     "Public Relations Professional (4%)",
+     "Marketing Specialist (4%)"
+    ],
+    "early": [
+     "Graphic Designer (10%)",
+     "Sales Assistant (General) (8%)",
+     "Marketing Specialist (5%)",
+     "General Clerk (5%)",
+     "Public Relations Professional (5%)"
+    ],
+    "senior": [
+     "Graphic Designer (10%)",
+     "Sales Assistant (General) (6%)",
+     "Marketing Specialist (6%)",
+     "Public Relations Professional (5%)",
+     "Sales and Marketing Manager (5%)"
+    ]
+   },
+   "qilt": {
+    "employmentRate": 0.669,
+    "medianSalary": 81000,
+    "employmentRate3yr": 0.858,
+    "occupationDemand": "MET",
+    "year": 2024
+   },
+   "demandEmployers": [
+    "UNSW Canberra",
+    "Cloncurry Shire Council",
+    "University of the Sunshine Coast (UniSC)",
+    "Moree Plains Shire Council",
+    "URBAN REPUBLIC PTY LTD",
+    "AUSNA & CO Global Education Pty Ltd"
+   ],
+   "demandSalary": "A$75k–104k"
+  },
+  "mc-nursc": {
+   "field": "health",
+   "qiltStudyArea": "Health",
+   "adzunaTerm": "allied health",
+   "destinations": {
+    "entry": [
+     "Registered Nurses nec (15%)",
+     "Physiotherapist (6%)",
+     "Registered Nurse (Medical) (6%)",
+     "Resident Medical Officer (5%)",
+     "Registered Nurse (Critical Care and Emergency) (5%)"
+    ],
+    "early": [
+     "Registered Nurses nec (14%)",
+     "Physiotherapist (6%)",
+     "Registered Nurse (Medical) (6%)",
+     "Registered Nurse (Critical Care and Emergency) (5%)",
+     "Occupational Therapist (4%)"
+    ],
+    "senior": [
+     "Registered Nurses nec (14%)",
+     "Physiotherapist (6%)",
+     "Registered Nurse (Medical) (5%)",
+     "Registered Nurse (Critical Care and Emergency) (5%)",
+     "Occupational Therapist (4%)"
+    ]
+   },
+   "qilt": {
+    "employmentRate": 0.871,
+    "medianSalary": 103000,
+    "employmentRate3yr": 0.952,
+    "occupationDemand": "SHORTAGE",
+    "year": 2024
+   },
+   "demandEmployers": [
+    "Healthcare Australia (HCA)",
+    "UnitingCare Queensland",
+    "Coastal Physiotherapy",
+    "Outreach Physiotherapy",
+    "Stream Healthcare Recruitment",
+    "Southern Cross Care WA",
+    "Anderson Neurological and Developmental Services",
+    "ORS Group",
+    "Ability Action Australia",
+    "Early Start Australia"
+   ],
+   "demandSalary": "A$68.6k–130k"
+  },
+  "mc-phtyph": {
+   "field": "health",
+   "qiltStudyArea": "Health",
+   "adzunaTerm": "allied health",
+   "destinations": {
+    "entry": [
+     "Registered Nurses nec (15%)",
+     "Physiotherapist (6%)",
+     "Registered Nurse (Medical) (6%)",
+     "Resident Medical Officer (5%)",
+     "Registered Nurse (Critical Care and Emergency) (5%)"
+    ],
+    "early": [
+     "Registered Nurses nec (14%)",
+     "Physiotherapist (6%)",
+     "Registered Nurse (Medical) (6%)",
+     "Registered Nurse (Critical Care and Emergency) (5%)",
+     "Occupational Therapist (4%)"
+    ],
+    "senior": [
+     "Registered Nurses nec (14%)",
+     "Physiotherapist (6%)",
+     "Registered Nurse (Medical) (5%)",
+     "Registered Nurse (Critical Care and Emergency) (5%)",
+     "Occupational Therapist (4%)"
+    ]
+   },
+   "qilt": {
+    "employmentRate": 0.871,
+    "medianSalary": 103000,
+    "employmentRate3yr": 0.952,
+    "occupationDemand": "SHORTAGE",
+    "year": 2024
+   },
+   "demandEmployers": [
+    "Healthcare Australia (HCA)",
+    "UnitingCare Queensland",
+    "Coastal Physiotherapy",
+    "Outreach Physiotherapy",
+    "Stream Healthcare Recruitment",
+    "Southern Cross Care WA",
+    "Anderson Neurological and Developmental Services",
+    "ORS Group",
+    "Ability Action Australia",
+    "Early Start Australia"
+   ],
+   "demandSalary": "A$68.6k–130k"
+  },
+  "mc-prop": {
+   "field": "architecture",
+   "qiltStudyArea": "Architecture & Building",
+   "adzunaTerm": "architect",
+   "destinations": {
+    "entry": [
+     "Architect (19%)",
+     "Urban and Regional Planner (15%)",
+     "Architectural Draftsperson (11%)",
+     "Construction Project Manager (8%)",
+     "Interior Designer (6%)"
+    ],
+    "early": [
+     "Architect (20%)",
+     "Urban and Regional Planner (16%)",
+     "Architectural Draftsperson (10%)",
+     "Construction Project Manager (10%)",
+     "Interior Designer (7%)"
+    ],
+    "senior": [
+     "Architect (21%)",
+     "Urban and Regional Planner (16%)",
+     "Construction Project Manager (11%)",
+     "Architectural Draftsperson (9%)",
+     "Interior Designer (7%)"
+    ]
+   },
+   "qilt": {
+    "employmentRate": 0.748,
+    "medianSalary": 84500,
+    "employmentRate3yr": 0.948,
+    "occupationDemand": "RECRUITMENT_DIFFICULTY",
+    "year": 2024
+   },
+   "demandEmployers": [
+    "Woods Bagot",
+    "HASSELL",
+    "AECOM",
+    "Aurecon",
+    "Architectus",
+    "Cox Architecture",
+    "BVN",
+    "Colliers (formerly Ethos Urban)",
+    "Solar Start",
+    "CPB Contractors",
+    "Lendlease"
+   ],
+   "demandSalary": "A$90k–170k"
+  },
+  "mc-propsyc": {
+   "field": "health",
+   "qiltStudyArea": "Health",
+   "adzunaTerm": "allied health",
+   "destinations": {
+    "entry": [
+     "Registered Nurses nec (15%)",
+     "Physiotherapist (6%)",
+     "Registered Nurse (Medical) (6%)",
+     "Resident Medical Officer (5%)",
+     "Registered Nurse (Critical Care and Emergency) (5%)"
+    ],
+    "early": [
+     "Registered Nurses nec (14%)",
+     "Physiotherapist (6%)",
+     "Registered Nurse (Medical) (6%)",
+     "Registered Nurse (Critical Care and Emergency) (5%)",
+     "Occupational Therapist (4%)"
+    ],
+    "senior": [
+     "Registered Nurses nec (14%)",
+     "Physiotherapist (6%)",
+     "Registered Nurse (Medical) (5%)",
+     "Registered Nurse (Critical Care and Emergency) (5%)",
+     "Occupational Therapist (4%)"
+    ]
+   },
+   "qilt": {
+    "employmentRate": 0.871,
+    "medianSalary": 103000,
+    "employmentRate3yr": 0.952,
+    "occupationDemand": "SHORTAGE",
+    "year": 2024
+   },
+   "demandEmployers": [
+    "Healthcare Australia (HCA)",
+    "UnitingCare Queensland",
+    "Coastal Physiotherapy",
+    "Outreach Physiotherapy",
+    "Stream Healthcare Recruitment",
+    "Southern Cross Care WA",
+    "Anderson Neurological and Developmental Services",
+    "ORS Group",
+    "Ability Action Australia",
+    "Early Start Australia"
+   ],
+   "demandSalary": "A$68.6k–130k"
+  },
+  "mc-scibif": {
+   "field": "science",
+   "qiltStudyArea": "Science",
+   "adzunaTerm": "scientist",
+   "destinations": {
+    "entry": [
+     "Sales Assistant (General) (6%)",
+     "Medical Laboratory Scientist (6%)",
+     "Geologist (5%)",
+     "General Clerk (4%)",
+     "Medical Laboratory Technician (4%)"
+    ],
+    "early": [
+     "Medical Laboratory Scientist (7%)",
+     "Geologist (5%)",
+     "Sales Assistant (General) (4%)",
+     "Medical Laboratory Technician (4%)",
+     "General Clerk (4%)"
+    ],
+    "senior": [
+     "Medical Laboratory Scientist (7%)",
+     "Geologist (5%)",
+     "Program or Project Administrator (4%)",
+     "Environmental Consultant (4%)",
+     "Medical Laboratory Technician (3%)"
+    ]
+   },
+   "qilt": {
+    "employmentRate": 0.793,
+    "medianSalary": 100000,
+    "employmentRate3yr": 0.943,
+    "occupationDemand": "RECRUITMENT_DIFFICULTY",
+    "year": 2024
+   },
+   "demandEmployers": [
+    "NSW Health Pathology",
+    "Dorevitch Pathology (Healius)",
+    "Sonic Healthcare Australia",
+    "4Cyte Pathology",
+    "CSIRO",
+    "ANSTO",
+    "WEHI",
+    "Canva",
+    "Glencore",
+    "Rio Tinto",
+    "Fortescue"
+   ],
+   "demandSalary": "A$73.4k–145k"
+  },
+  "mc-scibio": {
+   "field": "science",
+   "qiltStudyArea": "Science",
+   "adzunaTerm": "scientist",
+   "destinations": {
+    "entry": [
+     "Sales Assistant (General) (6%)",
+     "Medical Laboratory Scientist (6%)",
+     "Geologist (5%)",
+     "General Clerk (4%)",
+     "Medical Laboratory Technician (4%)"
+    ],
+    "early": [
+     "Medical Laboratory Scientist (7%)",
+     "Geologist (5%)",
+     "Sales Assistant (General) (4%)",
+     "Medical Laboratory Technician (4%)",
+     "General Clerk (4%)"
+    ],
+    "senior": [
+     "Medical Laboratory Scientist (7%)",
+     "Geologist (5%)",
+     "Program or Project Administrator (4%)",
+     "Environmental Consultant (4%)",
+     "Medical Laboratory Technician (3%)"
+    ]
+   },
+   "qilt": {
+    "employmentRate": 0.793,
+    "medianSalary": 100000,
+    "employmentRate3yr": 0.943,
+    "occupationDemand": "RECRUITMENT_DIFFICULTY",
+    "year": 2024
+   },
+   "demandEmployers": [
+    "NSW Health Pathology",
+    "Dorevitch Pathology (Healius)",
+    "Sonic Healthcare Australia",
+    "4Cyte Pathology",
+    "CSIRO",
+    "ANSTO",
+    "WEHI",
+    "Canva",
+    "Glencore",
+    "Rio Tinto",
+    "Fortescue"
+   ],
+   "demandSalary": "A$73.4k–145k"
+  },
+  "mc-scibit": {
+   "field": "science",
+   "qiltStudyArea": "Science",
+   "adzunaTerm": "scientist",
+   "destinations": {
+    "entry": [
+     "Sales Assistant (General) (6%)",
+     "Medical Laboratory Scientist (6%)",
+     "Geologist (5%)",
+     "General Clerk (4%)",
+     "Medical Laboratory Technician (4%)"
+    ],
+    "early": [
+     "Medical Laboratory Scientist (7%)",
+     "Geologist (5%)",
+     "Sales Assistant (General) (4%)",
+     "Medical Laboratory Technician (4%)",
+     "General Clerk (4%)"
+    ],
+    "senior": [
+     "Medical Laboratory Scientist (7%)",
+     "Geologist (5%)",
+     "Program or Project Administrator (4%)",
+     "Environmental Consultant (4%)",
+     "Medical Laboratory Technician (3%)"
+    ]
+   },
+   "qilt": {
+    "employmentRate": 0.793,
+    "medianSalary": 100000,
+    "employmentRate3yr": 0.943,
+    "occupationDemand": "RECRUITMENT_DIFFICULTY",
+    "year": 2024
+   },
+   "demandEmployers": [
+    "NSW Health Pathology",
+    "Dorevitch Pathology (Healius)",
+    "Sonic Healthcare Australia",
+    "4Cyte Pathology",
+    "CSIRO",
+    "ANSTO",
+    "WEHI",
+    "Canva",
+    "Glencore",
+    "Rio Tinto",
+    "Fortescue"
+   ],
+   "demandSalary": "A$73.4k–145k"
+  },
+  "mc-sciche": {
+   "field": "science",
+   "qiltStudyArea": "Science",
+   "adzunaTerm": "scientist",
+   "destinations": {
+    "entry": [
+     "Sales Assistant (General) (6%)",
+     "Medical Laboratory Scientist (6%)",
+     "Geologist (5%)",
+     "General Clerk (4%)",
+     "Medical Laboratory Technician (4%)"
+    ],
+    "early": [
+     "Medical Laboratory Scientist (7%)",
+     "Geologist (5%)",
+     "Sales Assistant (General) (4%)",
+     "Medical Laboratory Technician (4%)",
+     "General Clerk (4%)"
+    ],
+    "senior": [
+     "Medical Laboratory Scientist (7%)",
+     "Geologist (5%)",
+     "Program or Project Administrator (4%)",
+     "Environmental Consultant (4%)",
+     "Medical Laboratory Technician (3%)"
+    ]
+   },
+   "qilt": {
+    "employmentRate": 0.793,
+    "medianSalary": 100000,
+    "employmentRate3yr": 0.943,
+    "occupationDemand": "RECRUITMENT_DIFFICULTY",
+    "year": 2024
+   },
+   "demandEmployers": [
+    "NSW Health Pathology",
+    "Dorevitch Pathology (Healius)",
+    "Sonic Healthcare Australia",
+    "4Cyte Pathology",
+    "CSIRO",
+    "ANSTO",
+    "WEHI",
+    "Canva",
+    "Glencore",
+    "Rio Tinto",
+    "Fortescue"
+   ],
+   "demandSalary": "A$73.4k–145k"
+  },
+  "mc-sciear": {
+   "field": "science",
+   "qiltStudyArea": "Science",
+   "adzunaTerm": "scientist",
+   "destinations": {
+    "entry": [
+     "Sales Assistant (General) (6%)",
+     "Medical Laboratory Scientist (6%)",
+     "Geologist (5%)",
+     "General Clerk (4%)",
+     "Medical Laboratory Technician (4%)"
+    ],
+    "early": [
+     "Medical Laboratory Scientist (7%)",
+     "Geologist (5%)",
+     "Sales Assistant (General) (4%)",
+     "Medical Laboratory Technician (4%)",
+     "General Clerk (4%)"
+    ],
+    "senior": [
+     "Medical Laboratory Scientist (7%)",
+     "Geologist (5%)",
+     "Program or Project Administrator (4%)",
+     "Environmental Consultant (4%)",
+     "Medical Laboratory Technician (3%)"
+    ]
+   },
+   "qilt": {
+    "employmentRate": 0.793,
+    "medianSalary": 100000,
+    "employmentRate3yr": 0.943,
+    "occupationDemand": "RECRUITMENT_DIFFICULTY",
+    "year": 2024
+   },
+   "demandEmployers": [
+    "NSW Health Pathology",
+    "Dorevitch Pathology (Healius)",
+    "Sonic Healthcare Australia",
+    "4Cyte Pathology",
+    "CSIRO",
+    "ANSTO",
+    "WEHI",
+    "Canva",
+    "Glencore",
+    "Rio Tinto",
+    "Fortescue"
+   ],
+   "demandSalary": "A$73.4k–145k"
+  },
+  "mc-sciepi": {
+   "field": "science",
+   "qiltStudyArea": "Science",
+   "adzunaTerm": "scientist",
+   "destinations": {
+    "entry": [
+     "Sales Assistant (General) (6%)",
+     "Medical Laboratory Scientist (6%)",
+     "Geologist (5%)",
+     "General Clerk (4%)",
+     "Medical Laboratory Technician (4%)"
+    ],
+    "early": [
+     "Medical Laboratory Scientist (7%)",
+     "Geologist (5%)",
+     "Sales Assistant (General) (4%)",
+     "Medical Laboratory Technician (4%)",
+     "General Clerk (4%)"
+    ],
+    "senior": [
+     "Medical Laboratory Scientist (7%)",
+     "Geologist (5%)",
+     "Program or Project Administrator (4%)",
+     "Environmental Consultant (4%)",
+     "Medical Laboratory Technician (3%)"
+    ]
+   },
+   "qilt": {
+    "employmentRate": 0.793,
+    "medianSalary": 100000,
+    "employmentRate3yr": 0.943,
+    "occupationDemand": "RECRUITMENT_DIFFICULTY",
+    "year": 2024
+   },
+   "demandEmployers": [
+    "NSW Health Pathology",
+    "Dorevitch Pathology (Healius)",
+    "Sonic Healthcare Australia",
+    "4Cyte Pathology",
+    "CSIRO",
+    "ANSTO",
+    "WEHI",
+    "Canva",
+    "Glencore",
+    "Rio Tinto",
+    "Fortescue"
+   ],
+   "demandSalary": "A$73.4k–145k"
+  },
+  "mc-sciphy": {
+   "field": "science",
+   "qiltStudyArea": "Science",
+   "adzunaTerm": "scientist",
+   "destinations": {
+    "entry": [
+     "Sales Assistant (General) (6%)",
+     "Medical Laboratory Scientist (6%)",
+     "Geologist (5%)",
+     "General Clerk (4%)",
+     "Medical Laboratory Technician (4%)"
+    ],
+    "early": [
+     "Medical Laboratory Scientist (7%)",
+     "Geologist (5%)",
+     "Sales Assistant (General) (4%)",
+     "Medical Laboratory Technician (4%)",
+     "General Clerk (4%)"
+    ],
+    "senior": [
+     "Medical Laboratory Scientist (7%)",
+     "Geologist (5%)",
+     "Program or Project Administrator (4%)",
+     "Environmental Consultant (4%)",
+     "Medical Laboratory Technician (3%)"
+    ]
+   },
+   "qilt": {
+    "employmentRate": 0.793,
+    "medianSalary": 100000,
+    "employmentRate3yr": 0.943,
+    "occupationDemand": "RECRUITMENT_DIFFICULTY",
+    "year": 2024
+   },
+   "demandEmployers": [
+    "NSW Health Pathology",
+    "Dorevitch Pathology (Healius)",
+    "Sonic Healthcare Australia",
+    "4Cyte Pathology",
+    "CSIRO",
+    "ANSTO",
+    "WEHI",
+    "Canva",
+    "Glencore",
+    "Rio Tinto",
+    "Fortescue"
+   ],
+   "demandSalary": "A$73.4k–145k"
+  },
+  "mc-scwr": {
+   "field": "creative_arts",
+   "qiltStudyArea": "Creative Arts",
+   "adzunaTerm": "graphic designer",
+   "destinations": {
+    "entry": [
+     "Sales Assistant (General) (12%)",
+     "Graphic Designer (8%)",
+     "General Clerk (6%)",
+     "Public Relations Professional (4%)",
+     "Marketing Specialist (4%)"
+    ],
+    "early": [
+     "Graphic Designer (10%)",
+     "Sales Assistant (General) (8%)",
+     "Marketing Specialist (5%)",
+     "General Clerk (5%)",
+     "Public Relations Professional (5%)"
+    ],
+    "senior": [
+     "Graphic Designer (10%)",
+     "Sales Assistant (General) (6%)",
+     "Marketing Specialist (6%)",
+     "Public Relations Professional (5%)",
+     "Sales and Marketing Manager (5%)"
+    ]
+   },
+   "qilt": {
+    "employmentRate": 0.669,
+    "medianSalary": 81000,
+    "employmentRate3yr": 0.858,
+    "occupationDemand": "MET",
+    "year": 2024
+   },
+   "demandEmployers": [
+    "UNSW Canberra",
+    "Cloncurry Shire Council",
+    "University of the Sunshine Coast (UniSC)",
+    "Moree Plains Shire Council",
+    "URBAN REPUBLIC PTY LTD",
+    "AUSNA & CO Global Education Pty Ltd"
+   ],
+   "demandSalary": "A$75k–104k"
+  },
+  "mc-surged": {
+   "field": "health",
+   "qiltStudyArea": "Health",
+   "adzunaTerm": "allied health",
+   "destinations": {
+    "entry": [
+     "Registered Nurses nec (15%)",
+     "Physiotherapist (6%)",
+     "Registered Nurse (Medical) (6%)",
+     "Resident Medical Officer (5%)",
+     "Registered Nurse (Critical Care and Emergency) (5%)"
+    ],
+    "early": [
+     "Registered Nurses nec (14%)",
+     "Physiotherapist (6%)",
+     "Registered Nurse (Medical) (6%)",
+     "Registered Nurse (Critical Care and Emergency) (5%)",
+     "Occupational Therapist (4%)"
+    ],
+    "senior": [
+     "Registered Nurses nec (14%)",
+     "Physiotherapist (6%)",
+     "Registered Nurse (Medical) (5%)",
+     "Registered Nurse (Critical Care and Emergency) (5%)",
+     "Occupational Therapist (4%)"
+    ]
+   },
+   "qilt": {
+    "employmentRate": 0.871,
+    "medianSalary": 103000,
+    "employmentRate3yr": 0.952,
+    "occupationDemand": "SHORTAGE",
+    "year": 2024
+   },
+   "demandEmployers": [
+    "Healthcare Australia (HCA)",
+    "UnitingCare Queensland",
+    "Coastal Physiotherapy",
+    "Outreach Physiotherapy",
+    "Stream Healthcare Recruitment",
+    "Southern Cross Care WA",
+    "Anderson Neurological and Developmental Services",
+    "ORS Group",
+    "Ability Action Australia",
+    "Early Start Australia"
+   ],
+   "demandSalary": "A$68.6k–130k"
+  },
+  "mc-tesol": {
+   "field": "education",
+   "qiltStudyArea": "Education",
+   "adzunaTerm": "teacher",
+   "destinations": {
+    "entry": [
+     "Primary School Teacher (39%)",
+     "Secondary School Teacher (27%)",
+     "School Teachers nfd (4%)",
+     "Early Childhood (Pre-primary School) Teacher (4%)",
+     "Child Care Worker (3%)"
+    ],
+    "early": [
+     "Primary School Teacher (41%)",
+     "Secondary School Teacher (29%)",
+     "Early Childhood (Pre-primary School) Teacher (4%)",
+     "School Teachers nfd (4%)",
+     "Child Care Worker (2%)"
+    ],
+    "senior": [
+     "Primary School Teacher (42%)",
+     "Secondary School Teacher (29%)",
+     "Early Childhood (Pre-primary School) Teacher (4%)",
+     "School Teachers nfd (3%)",
+     "Middle School Teacher (Aus) \\ Intermediate School Teacher (NZ) (2%)"
+    ]
+   },
+   "qilt": {
+    "employmentRate": 0.899,
+    "medianSalary": 96000,
+    "employmentRate3yr": 0.961,
+    "occupationDemand": "SHORTAGE",
+    "year": 2024
+   },
+   "demandEmployers": [
+    "anzuk Education",
+    "Tradewind Australia",
+    "Randstad Education",
+    "Catholic Education Diocese of Bathurst",
+    "Catholic Education South Australia (CESA)",
+    "Sydney Catholic Schools",
+    "NSW Department of Education",
+    "Department of Education Victoria",
+    "Goodstart Early Learning",
+    "Anglican Church Grammar School (Churchie)",
+    "Hume Anglican Grammar",
+    "St Luke's Grammar School",
+    "Brisbane Christian College",
+    "Ipswich Grammar School",
+    "Thomas Hassall Anglican College"
+   ],
+   "demandSalary": "A$79.6k–130k"
+  },
+  "mc-urbdes": {
+   "field": "architecture",
+   "qiltStudyArea": "Architecture & Building",
+   "adzunaTerm": "architect",
+   "destinations": {
+    "entry": [
+     "Architect (19%)",
+     "Urban and Regional Planner (15%)",
+     "Architectural Draftsperson (11%)",
+     "Construction Project Manager (8%)",
+     "Interior Designer (6%)"
+    ],
+    "early": [
+     "Architect (20%)",
+     "Urban and Regional Planner (16%)",
+     "Architectural Draftsperson (10%)",
+     "Construction Project Manager (10%)",
+     "Interior Designer (7%)"
+    ],
+    "senior": [
+     "Architect (21%)",
+     "Urban and Regional Planner (16%)",
+     "Construction Project Manager (11%)",
+     "Architectural Draftsperson (9%)",
+     "Interior Designer (7%)"
+    ]
+   },
+   "qilt": {
+    "employmentRate": 0.748,
+    "medianSalary": 84500,
+    "employmentRate3yr": 0.948,
+    "occupationDemand": "RECRUITMENT_DIFFICULTY",
+    "year": 2024
+   },
+   "demandEmployers": [
+    "Woods Bagot",
+    "HASSELL",
+    "AECOM",
+    "Aurecon",
+    "Architectus",
+    "Cox Architecture",
+    "BVN",
+    "Colliers (formerly Ethos Urban)",
+    "Solar Start",
+    "CPB Contractors",
+    "Lendlease"
+   ],
+   "demandSalary": "A$90k–170k"
+  },
+  "mc-urbhort": {
+   "field": "architecture",
+   "qiltStudyArea": "Architecture & Building",
+   "adzunaTerm": "architect",
+   "destinations": {
+    "entry": [
+     "Architect (19%)",
+     "Urban and Regional Planner (15%)",
+     "Architectural Draftsperson (11%)",
+     "Construction Project Manager (8%)",
+     "Interior Designer (6%)"
+    ],
+    "early": [
+     "Architect (20%)",
+     "Urban and Regional Planner (16%)",
+     "Architectural Draftsperson (10%)",
+     "Construction Project Manager (10%)",
+     "Interior Designer (7%)"
+    ],
+    "senior": [
+     "Architect (21%)",
+     "Urban and Regional Planner (16%)",
+     "Construction Project Manager (11%)",
+     "Architectural Draftsperson (9%)",
+     "Interior Designer (7%)"
+    ]
+   },
+   "qilt": {
+    "employmentRate": 0.748,
+    "medianSalary": 84500,
+    "employmentRate3yr": 0.948,
+    "occupationDemand": "RECRUITMENT_DIFFICULTY",
+    "year": 2024
+   },
+   "demandEmployers": [
+    "Woods Bagot",
+    "HASSELL",
+    "AECOM",
+    "Aurecon",
+    "Architectus",
+    "Cox Architecture",
+    "BVN",
+    "Colliers (formerly Ethos Urban)",
+    "Solar Start",
+    "CPB Contractors",
+    "Lendlease"
+   ],
+   "demandSalary": "A$90k–170k"
+  }
+ }
+}

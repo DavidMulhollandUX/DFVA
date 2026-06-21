@@ -37,11 +37,23 @@ The Master of Business Administration scored **25/36 — MODERATE RISK**. Gaps i
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Business & Management Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Accountant (General) (16%), General Clerk (5%), Marketing Specialist (4%), Sales Assistant (General) (4%), Sales and Marketing Manager (4%) |
+| Early (~3yr) | Accountant (General) (16%), Sales and Marketing Manager (5%), Marketing Specialist (4%), Management Consultant (4%), General Clerk (3%) |
+| Senior (~5yr) | Accountant (General) (15%), Sales and Marketing Manager (5%), Marketing Specialist (4%), Management Consultant (4%), Program or Project Administrator (3%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 92% full-time employment · median salary $124,000 · 3-year employment 96% · JSA occupation demand: **Met**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): Commonwealth Bank, Westpac, NAB, CMC Markets, Woolworths Group, Ventia, Brand Collective, EY (Ernst & Young), Bed Bath N' Table, EssilorLuxottica, Alinta Energy, VetPartners Australia. Advertised salary A$80k–125k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 

@@ -108,3 +108,25 @@ Seek ANZ new title appearances (Q4 2025–Q1 2026): "AI Validation Scientist" �
 ---
 
 **Assessment Date:** 2026-05-13 | **Source URLs:** https://handbook.unimelb.edu.au/2026/courses/mc-scibit · AusBiotech 2025 Workforce Report · TGA AI in medical devices guidance 2025 · FDA AI Action Plan 2025 | **Prompt Version:** DFVA-COPILOT-MARKET-v1
+
+---
+
+<!-- LABOUR-EVIDENCE:START -->
+## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Sales Assistant (General) (6%), Medical Laboratory Scientist (6%), Geologist (5%), General Clerk (4%), Medical Laboratory Technician (4%) |
+| Early (~3yr) | Medical Laboratory Scientist (7%), Geologist (5%), Sales Assistant (General) (4%), Medical Laboratory Technician (4%), General Clerk (4%) |
+| Senior (~5yr) | Medical Laboratory Scientist (7%), Geologist (5%), Program or Project Administrator (4%), Environmental Consultant (4%), Medical Laboratory Technician (3%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 79% full-time employment · median salary $100,000 · 3-year employment 94% · JSA occupation demand: **Recruitment Difficulty**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): NSW Health Pathology, Dorevitch Pathology (Healius), Sonic Healthcare Australia, 4Cyte Pathology, CSIRO, ANSTO, WEHI, Canva, Glencore, Rio Tinto, Fortescue. Advertised salary A$73.4k–145k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
+<!-- LABOUR-EVIDENCE:END -->

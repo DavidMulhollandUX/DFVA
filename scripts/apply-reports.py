@@ -179,7 +179,9 @@ def main():
     all_slugs = sorted([
         r.stem.replace('dfva-', '')
         for r in REPORTS.glob('dfva-*.md')
-        if 'recommend' not in r.stem and 'market' not in r.stem
+        # faculty-* and cross-* are not registry programs (the app serves faculty via
+        # facultyOutcomes.ts / FacultyDashboard, not REPORT_CONTENT) — exclude them.
+        if not any(x in r.stem for x in ('recommend', 'market', 'faculty', 'cross'))
     ])
     
     processed = 0

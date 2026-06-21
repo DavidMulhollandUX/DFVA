@@ -133,3 +133,25 @@ A recurring discussion theme in practitioner communities is the use of YouTube, 
 **Assessment Date:** 2026-06-21
 **Source URLs:** https://handbook.unimelb.edu.au/2026/courses/mc-scwr · WEF Future of Jobs 2025 · LinkedIn Workforce Report Q1 2026 · Screen Australia Industry Data 2024–25 · Australian Writers' Guild AI Provisions 2024 · AGDA Australian Games Industry Report · Seek.com.au Hiring Trends ANZ 2025
 **Prompt Version:** DFVA-COPILOT-MARKET-v1
+
+---
+
+<!-- LABOUR-EVIDENCE:START -->
+## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Sales Assistant (General) (12%), Graphic Designer (8%), General Clerk (6%), Public Relations Professional (4%), Marketing Specialist (4%) |
+| Early (~3yr) | Graphic Designer (10%), Sales Assistant (General) (8%), Marketing Specialist (5%), General Clerk (5%), Public Relations Professional (5%) |
+| Senior (~5yr) | Graphic Designer (10%), Sales Assistant (General) (6%), Marketing Specialist (6%), Public Relations Professional (5%), Sales and Marketing Manager (5%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 67% full-time employment · median salary $81,000 · 3-year employment 86% · JSA occupation demand: **Met**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): UNSW Canberra, Cloncurry Shire Council, University of the Sunshine Coast (UniSC), Moree Plains Shire Council, URBAN REPUBLIC PTY LTD, AUSNA & CO Global Education Pty Ltd. Advertised salary A$75k–104k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
+<!-- LABOUR-EVIDENCE:END -->

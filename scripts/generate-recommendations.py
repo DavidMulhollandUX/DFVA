@@ -57,6 +57,52 @@ def load_canonical():
 
 CANONICAL = load_canonical()
 
+# Real labour-market evidence (JSA HEO destinations + QILT + Adzuna + IBISWorld),
+# assembled by scripts/build-labour-evidence.py.
+LABOUR_EVIDENCE = {}
+try:
+    with open(os.path.join(os.path.dirname(__file__), '..', 'data', 'labour-evidence.json')) as _f:
+        LABOUR_EVIDENCE = json.load(_f)
+except Exception:
+    pass
+
+
+def render_market_evidence(code):
+    """§3 built from real labour-market evidence; None if the program has no evidence row."""
+    ev = (LABOUR_EVIDENCE.get('programs') or {}).get(code)
+    if not ev:
+        return None
+    d = ev.get('destinations', {})
+    q = ev.get('qilt', {})
+    ib = (LABOUR_EVIDENCE.get('_meta') or {}).get('ibisworld', {})
+    emp = ev.get('demandEmployers') or []
+    row = lambda stage, occs: f"| {stage} | {', '.join(occs) if occs else '—'} |"
+    out = [
+        "## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND",
+        "",
+        "**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):",
+        "",
+        "| Career stage | Top occupations |",
+        "|---|---|",
+        row("Entry (~1yr)", d.get('entry', [])),
+        row("Early (~3yr)", d.get('early', [])),
+        row("Senior (~5yr)", d.get('senior', [])),
+        "",
+    ]
+    if q:
+        er = f"{q['employmentRate'] * 100:.0f}%" if q.get('employmentRate') else "n/a"
+        er3 = f"{q['employmentRate3yr'] * 100:.0f}%" if q.get('employmentRate3yr') else "n/a"
+        sal = f"${q['medianSalary']:,}" if q.get('medianSalary') else "n/a"
+        dem = (q.get('occupationDemand') or '').replace('_', ' ').title()
+        out += [f"**Graduate outcomes** (QILT GOS {q.get('year', 2024)}, postgraduate): {er} full-time employment · median salary {sal} · 3-year employment {er3} · JSA occupation demand: **{dem}**.", ""]
+    if emp:
+        sal_note = f" Advertised salary {ev['demandSalary']}." if ev.get('demandSalary') else ""
+        out += [f"**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): {', '.join(emp[:12])}.{sal_note}", ""]
+    if ib:
+        out += [f"**Sector context:** {ib.get('revenue', '')} — {ib.get('shock', '')} ({ib.get('industry', 'IBISWorld P8102')}).", ""]
+    out.append(f"*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS {q.get('year', 2024)}; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*")
+    return '\n'.join(out)
+
 def parse_dimensions_from_json(data):
     """Parse dimensions from JSON format."""
     dims = {}
@@ -349,14 +395,13 @@ The {name} scored **{score}/36 — {risk}**. Gaps in core dimensions define the 
         cur_score = a['from']
         md += f"| {dim} | {cur_score}/3 | Entry-level skills show automation risk. | {a['action']}. |\n"
         
+    market_section = render_market_evidence(code) or (
+        "## 3. MARKET EVIDENCE SNAPSHOT\n\n_Real labour-market evidence pending for this program._"
+    )
     md += f"""
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| {field} Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+{market_section}
 
 ---
 
