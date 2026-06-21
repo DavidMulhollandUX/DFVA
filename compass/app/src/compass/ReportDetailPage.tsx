@@ -848,6 +848,26 @@ export default function ReportDetailPage() {
     );
   }
 
+  // Faculty briefings are standalone markdown (no program workspace, score, tabs or rubric) — render simply.
+  if (reportSlug?.startsWith("dfva-faculty-")) {
+    return (
+      <div className="mx-auto max-w-4xl px-4 py-12">
+        <Link
+          to="/reports"
+          className="mb-6 inline-flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-foreground"
+        >
+          <ArrowLeft className="h-4 w-4" />
+          All reports
+        </Link>
+        <div className="mt-6 mb-8">
+          <h1 className="text-2xl font-bold text-foreground">{report.title}</h1>
+          <p className="mt-1 text-muted-foreground">{report.institution}</p>
+        </div>
+        {renderMarkdownAsPanels(report.markdown)}
+      </div>
+    );
+  }
+
   const meta = reportSlug ? reportMeta[slugsByType.assessment] : null;
   const scoreText = simulatedScore !== null ? `${simulatedScore} / 36` : meta?.score || `${program?.score ?? 20} / 36`;
 

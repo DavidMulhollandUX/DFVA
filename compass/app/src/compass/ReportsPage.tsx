@@ -18,6 +18,7 @@ import {
   X,
   RotateCcw,
   SlidersHorizontal,
+  Building2,
 } from "lucide-react";
 import {
   riskBandConfig,
@@ -28,6 +29,27 @@ import {
 import type { ProgramReport } from "./sharedProgramData";
 import { useReportsData } from "./useReportsData";
 import { getFaculty } from "./faculty";
+
+// Faculty-level DFVA briefings — real UoM graduate outcomes (Job Insights / LiveAlumni).
+// Source markdown: reports/dfva-faculty-*.md → reportContent.faculty.ts. Sorted by faculty mean score.
+const FACULTY_BRIEFINGS: {
+  slug: string;
+  name: string;
+  reports: number;
+  alumni: number;
+  score?: number;
+  band?: ProgramReport["riskBand"];
+}[] = [
+  { slug: "dfva-faculty-medicine-health", name: "Medicine, Dentistry and Health", score: 26, band: "MODERATE RISK", reports: 23, alumni: 3665 },
+  { slug: "dfva-faculty-engineering-it", name: "Engineering and IT", score: 24, band: "MODERATE RISK", reports: 12, alumni: 1007 },
+  { slug: "dfva-faculty-science", name: "Science", score: 23, band: "MODERATE RISK", reports: 31, alumni: 4762 },
+  { slug: "dfva-faculty-architecture", name: "Architecture, Building and Planning", score: 23, band: "MODERATE RISK", reports: 11, alumni: 1558 },
+  { slug: "dfva-faculty-business-economics", name: "Business and Economics", score: 22, band: "MODERATE RISK", reports: 15, alumni: 10307 },
+  { slug: "dfva-faculty-law", name: "Melbourne Law School", score: 22, band: "MODERATE RISK", reports: 7, alumni: 2236 },
+  { slug: "dfva-faculty-education", name: "Education", score: 20, band: "MODERATE RISK", reports: 7, alumni: 1123 },
+  { slug: "dfva-faculty-arts", name: "Arts", score: 16, band: "HIGH RISK", reports: 33, alumni: 5071 },
+  { slug: "dfva-faculty-fine-arts-music", name: "Fine Arts and Music", reports: 2, alumni: 130 },
+];
 
 function ScoreGauge({
   score,
@@ -342,6 +364,46 @@ export default function ReportsPage() {
         <p className="mt-2 text-sm text-muted-foreground leading-relaxed">
           Comprehensive curriculum audit reports cataloged by program. Select a card's sub-report link to open the unified Workspace.
         </p>
+      </div>
+
+      {/* Faculty briefings — real graduate-outcome evidence per faculty */}
+      <div className="mb-10">
+        <h2 className="flex items-center gap-2 text-xl font-bold tracking-tight text-foreground">
+          <Building2 className="h-5 w-5 text-muted-foreground" />
+          Faculty Briefings
+        </h2>
+        <p className="mt-1.5 text-sm text-muted-foreground leading-relaxed">
+          Faculty-level DFVA profiles grounded in real University of Melbourne graduate outcomes
+          (Job Insights / LiveAlumni, 2015–2025).
+        </p>
+        <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+          {FACULTY_BRIEFINGS.map((f) => {
+            const cfg = f.band ? riskBandConfig[f.band] : null;
+            return (
+              <Link
+                key={f.slug}
+                to={`/reports/${f.slug}`}
+                className="group flex items-center justify-between gap-3 rounded-xl border border-border bg-card/85 px-4 py-3 shadow-sm transition-all hover:shadow-md hover:border-primary/30"
+              >
+                <div className="min-w-0">
+                  <h3 className="truncate text-sm font-semibold text-foreground">{f.name}</h3>
+                  <p className="mt-0.5 text-[11px] text-muted-foreground">
+                    {f.reports} reports · {f.alumni.toLocaleString()} alumni
+                  </p>
+                </div>
+                {cfg ? (
+                  <span className={`shrink-0 rounded-full border px-2 py-0.5 text-[11px] font-bold ${cfg.bg} ${cfg.text} ${cfg.border}`}>
+                    {f.score}/36
+                  </span>
+                ) : (
+                  <span className="shrink-0 rounded-full bg-muted px-2 py-0.5 text-[10px] font-medium text-muted-foreground">
+                    Outcome data only
+                  </span>
+                )}
+              </Link>
+            );
+          })}
+        </div>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-4 gap-6 items-start">
