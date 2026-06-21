@@ -15,13 +15,12 @@ The Master of Nursing Science scored **26/36 — MODERATE RISK**. Gaps in core d
 | Technical Depth | 2/3 | Adequate |
 | Decision-Making | 3/3 | Strong |
 | AI Literacy | 1/3 | Critical gap |
-| AI Literacy | 1/3 | Critical gap |
 | Domain Depth | 3/3 | Strong |
 | Research Rigour | 2/3 | Adequate |
 | Human & Relational | 3/3 | Strong |
 | Curriculum Currency | 2/3 | Adequate |
-| Outcome Evidence | 3/3 | Strong |
-| Irreplaceability (bonus) | 0/3 | Critical gap |
+| Outcome Evidence | 2/3 | Adequate |
+| Irreplaceability (bonus) | 3/3 | Strong |
 | **TOTAL** | **26/36** | **MODERATE RISK** |
 
 ---
@@ -94,9 +93,3 @@ The Master of Nursing Science scored **26/36 — MODERATE RISK**. Gaps in core d
 
 ## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
 The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
-
----
-
-**Assessment Date:** 2026-06-21
-**Source Report:** reports/dfva-mc-nursc.md
-**Prompt Version:** DFVA-COPILOT-RECOMMENDER-v1

@@ -27,6 +27,36 @@ DIM_KEYWORDS = {
 
 DIM_NAMES = {v for v in DIM_KEYWORDS.values()}
 
+# Canonical 11-dimension order, deduplicated — DIM_KEYWORDS maps two keys
+# ('AI Lit', 'AI ') to 'AI Literacy', so .values() repeats it. Iterating this
+# instead prevents the duplicated AI Literacy row in the diagnostic table.
+DIM_ORDER = list(dict.fromkeys(DIM_KEYWORDS.values()))
+
+# Authoritative per-dimension scores live in the app's structured data, not the
+# inconsistently-formatted markdown scorecards (some reports — 527cl, 746st,
+# mc-apbusa — have no parseable scorecard table at all). Parse them once at import.
+SHARED_DATA = os.path.join(os.path.dirname(__file__), '..', 'compass', 'app', 'src', 'compass', 'sharedProgramData.ts')
+
+def load_canonical():
+    """Return {code: {'dims': {label: score}, 'score': total, 'risk': band}} from
+    sharedProgramData.ts — the authoritative source. Total = sum of all 11 dimensions
+    (see dfva/source/rubric.ts → totalScore); we mirror score/risk so reports stay in sync."""
+    out = {}
+    try:
+        text = open(SHARED_DATA).read()
+    except OSError:
+        return out
+    # Each entry: score, maxScore, riskBand, ... dimensions:[...], ... assessmentSlug "dfva-{code}".
+    for score, risk, dims_block, code in re.findall(
+            r'score:\s*(\d+),\s*maxScore:\s*\d+,\s*riskBand:\s*"([^"]+)".*?dimensions:\s*\[(.*?)\].*?assessmentSlug:\s*"dfva-([^"]+)"',
+            text, re.DOTALL):
+        pairs = re.findall(r'label:\s*"([^"]+)",\s*score:\s*(\d+)', dims_block)
+        if pairs:
+            out[code] = {'dims': {label: int(s) for label, s in pairs}, 'score': int(score), 'risk': risk}
+    return out
+
+CANONICAL = load_canonical()
+
 def parse_dimensions_from_json(data):
     """Parse dimensions from JSON format."""
     dims = {}
@@ -203,6 +233,15 @@ def parse_report(filepath):
             if len(dims2) > len(dims):
                 dims = dims2
     
+    # Authoritative override: structured per-dimension scores from sharedProgramData.ts.
+    # Markdown scorecards are missing/unparseable for some programs (e.g. 527cl, 746st,
+    # mc-apbusa), which previously yielded all-0/3 diagnostic tables.
+    canon = CANONICAL.get(code)
+    if canon:
+        dims = dict(canon['dims'])
+        score = canon['score']   # mirror the authoritative total (sum of dimensions)
+        risk = canon['risk']
+
     return {
         'code': code,
         'name': name,
@@ -292,7 +331,7 @@ The {name} scored **{score}/36 — {risk}**. Gaps in core dimensions define the 
 | Dimension | Score | Status |
 |---|---|---|
 """
-    for d_label in DIM_KEYWORDS.values():
+    for d_label in DIM_ORDER:
         d_score = dims.get(d_label, 0)
         d_status = 'Strong' if d_score == 3 else 'Adequate' if d_score == 2 else 'Critical gap'
         md += f"| {d_label} | {d_score}/3 | {d_status} |\n"
@@ -385,6 +424,9 @@ def main():
         f for f in os.listdir(REPORTS_DIR)
         if f.startswith('dfva-') and f.endswith('.md')
         and 'market' not in f and 'recommend' not in f and 'cross' not in f
+        # faculty-* are aggregate graduate-outcome pages, not DFVA-scored programs —
+        # excluding them prevents spurious all-0/3 dfva-recommend-faculty-* reports.
+        and 'faculty' not in f
     ])
     
     generated = 0

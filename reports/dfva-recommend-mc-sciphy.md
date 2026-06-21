@@ -15,13 +15,12 @@ The Master of Science (Physics) scored **25/36 — MODERATE RISK**. Gaps in core
 | Technical Depth | 3/3 | Strong |
 | Decision-Making | 3/3 | Strong |
 | AI Literacy | 1/3 | Critical gap |
-| AI Literacy | 1/3 | Critical gap |
 | Domain Depth | 3/3 | Strong |
 | Research Rigour | 3/3 | Strong |
-| Human & Relational | 0/3 | Critical gap |
+| Human & Relational | 2/3 | Adequate |
 | Curriculum Currency | 2/3 | Adequate |
-| Outcome Evidence | 2/3 | Adequate |
-| Irreplaceability (bonus) | 0/3 | Critical gap |
+| Outcome Evidence | 1/3 | Critical gap |
+| Irreplaceability (bonus) | 3/3 | Strong |
 | **TOTAL** | **25/36** | **MODERATE RISK** |
 
 ---
@@ -29,9 +28,9 @@ The Master of Science (Physics) scored **25/36 — MODERATE RISK**. Gaps in core
 ## 2. SCORE-TO-ACTION MAPPING
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
+| Outcome Evidence | 1/3 | Entry-level skills show automation risk. | Publish graduate destination survey results on program page. |
 | Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
-| Curriculum Currency | 2/3 | Entry-level skills show automation risk. | Add emerging-trends module updated each intake. |
-| Outcome Evidence | 2/3 | Entry-level skills show automation risk. | Add QILT GOS data + 3-year outcomes to public program information. |
+| Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |
 | AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
 | Automation Exposure | 2/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
 
@@ -48,9 +47,9 @@ The Master of Science (Physics) scored **25/36 — MODERATE RISK**. Gaps in core
 ## 4. PRIORITISED INTERVENTIONS TABLE
 | Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 2 | Add emerging-trends module updated each intake | Curriculum Currency | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 3 | Add QILT GOS data + 3-year outcomes to public program information | Outcome Evidence | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 1 | Publish graduate destination survey results on program page | Outcome Evidence | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Integrate stakeholder engagement into existing project assessment | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
 
 ---
 
@@ -96,9 +95,3 @@ The Master of Science (Physics) scored **25/36 — MODERATE RISK**. Gaps in core
 
 ## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
 The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
-
----
-
-**Assessment Date:** 2026-06-21
-**Source Report:** reports/dfva-mc-sciphy.md
-**Prompt Version:** DFVA-COPILOT-RECOMMENDER-v1

@@ -1,12 +1,12 @@
 ## IMPROVEMENT PLAN: Master of Business Analytics
 
-**Current:** 30/36 MODERATE RISK | **Duration:** 1 year (150 credit points)
+**Current:** 30/36 RESILIENT | **Duration:** 1 year (150 credit points)
 **Target:** 28/36 RESILIENT | **Gap:** 0 points
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The Master of Business Analytics scored **30/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
+The Master of Business Analytics scored **30/36 — RESILIENT**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
@@ -15,14 +15,13 @@ The Master of Business Analytics scored **30/36 — MODERATE RISK**. Gaps in cor
 | Technical Depth | 3/3 | Strong |
 | Decision-Making | 3/3 | Strong |
 | AI Literacy | 3/3 | Strong |
-| AI Literacy | 3/3 | Strong |
 | Domain Depth | 3/3 | Strong |
 | Research Rigour | 2/3 | Adequate |
-| Human & Relational | 0/3 | Critical gap |
+| Human & Relational | 2/3 | Adequate |
 | Curriculum Currency | 3/3 | Strong |
 | Outcome Evidence | 3/3 | Strong |
-| Irreplaceability (bonus) | 0/3 | Critical gap |
-| **TOTAL** | **30/36** | **MODERATE RISK** |
+| Irreplaceability (bonus) | 3/3 | Strong |
+| **TOTAL** | **30/36** | **RESILIENT** |
 
 ---
 
@@ -31,6 +30,7 @@ The Master of Business Analytics scored **30/36 — MODERATE RISK**. Gaps in cor
 |---|---|---|---|
 | Automation Exposure | 2/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
 | Research Rigour | 2/3 | Entry-level skills show automation risk. | Replace literature review with primary data collection requirement. |
+| Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |
 
 ---
 
@@ -90,9 +90,3 @@ The Master of Business Analytics scored **30/36 — MODERATE RISK**. Gaps in cor
 
 ## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
 The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
-
----
-
-**Assessment Date:** 2026-06-21
-**Source Report:** reports/dfva-mc-busana.md
-**Prompt Version:** DFVA-COPILOT-RECOMMENDER-v1

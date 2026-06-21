@@ -1,12 +1,12 @@
 ## IMPROVEMENT PLAN: Master of Architecture
 
-**Current:** 28/36 MODERATE RISK | **Duration:** 3 years (300 credit points)
+**Current:** 28/36 RESILIENT | **Duration:** 3 years (300 credit points)
 **Target:** 28/36 RESILIENT | **Gap:** 0 points
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The Master of Architecture scored **28/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
+The Master of Architecture scored **28/36 — RESILIENT**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
@@ -15,14 +15,13 @@ The Master of Architecture scored **28/36 — MODERATE RISK**. Gaps in core dime
 | Technical Depth | 3/3 | Strong |
 | Decision-Making | 3/3 | Strong |
 | AI Literacy | 1/3 | Critical gap |
-| AI Literacy | 1/3 | Critical gap |
 | Domain Depth | 3/3 | Strong |
 | Research Rigour | 3/3 | Strong |
 | Human & Relational | 2/3 | Adequate |
-| Curriculum Currency | 0/3 | Critical gap |
+| Curriculum Currency | 2/3 | Adequate |
 | Outcome Evidence | 2/3 | Adequate |
-| Irreplaceability (bonus) | 0/3 | Critical gap |
-| **TOTAL** | **28/36** | **MODERATE RISK** |
+| Irreplaceability (bonus) | 3/3 | Strong |
+| **TOTAL** | **28/36** | **RESILIENT** |
 
 ---
 
@@ -90,9 +89,3 @@ The Master of Architecture scored **28/36 — MODERATE RISK**. Gaps in core dime
 
 ## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
 The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
-
----
-
-**Assessment Date:** 2026-06-21
-**Source Report:** reports/dfva-mc-arch.md
-**Prompt Version:** DFVA-COPILOT-RECOMMENDER-v1

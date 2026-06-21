@@ -15,12 +15,11 @@ The Master of Climate Science scored **26/36 — MODERATE RISK**. Gaps in core d
 | Technical Depth | 3/3 | Strong |
 | Decision-Making | 3/3 | Strong |
 | AI Literacy | 1/3 | Critical gap |
-| AI Literacy | 1/3 | Critical gap |
 | Domain Depth | 3/3 | Strong |
 | Research Rigour | 2/3 | Adequate |
 | Human & Relational | 2/3 | Adequate |
 | Curriculum Currency | 3/3 | Strong |
-| Outcome Evidence | 2/3 | Adequate |
+| Outcome Evidence | 1/3 | Critical gap |
 | Irreplaceability (bonus) | 3/3 | Strong |
 | **TOTAL** | **26/36** | **MODERATE RISK** |
 
@@ -29,8 +28,8 @@ The Master of Climate Science scored **26/36 — MODERATE RISK**. Gaps in core d
 ## 2. SCORE-TO-ACTION MAPPING
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
+| Outcome Evidence | 1/3 | Entry-level skills show automation risk. | Publish graduate destination survey results on program page. |
 | Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |
-| Outcome Evidence | 2/3 | Entry-level skills show automation risk. | Add QILT GOS data + 3-year outcomes to public program information. |
 | AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
 | Automation Exposure | 2/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
 | Research Rigour | 2/3 | Entry-level skills show automation risk. | Replace literature review with primary data collection requirement. |
@@ -48,8 +47,8 @@ The Master of Climate Science scored **26/36 — MODERATE RISK**. Gaps in core d
 ## 4. PRIORITISED INTERVENTIONS TABLE
 | Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Integrate stakeholder engagement into existing project assessment | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 2 | Add QILT GOS data + 3-year outcomes to public program information | Outcome Evidence | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 1 | Publish graduate destination survey results on program page | Outcome Evidence | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Integrate stakeholder engagement into existing project assessment | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
 
 ---
 
@@ -95,9 +94,3 @@ The Master of Climate Science scored **26/36 — MODERATE RISK**. Gaps in core d
 
 ## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
 The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
-
----
-
-**Assessment Date:** 2026-06-21
-**Source Report:** reports/dfva-mc-climsci.md
-**Prompt Version:** DFVA-COPILOT-RECOMMENDER-v1

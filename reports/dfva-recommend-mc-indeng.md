@@ -1,34 +1,40 @@
 ## IMPROVEMENT PLAN: MC-INDENG
 
-**Current:** 22/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
-**Target:** 28/36 RESILIENT | **Gap:** 6 points
+**Current:** 23/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
+**Target:** 28/36 RESILIENT | **Gap:** 5 points
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The MC-INDENG scored **22/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
+The MC-INDENG scored **23/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
 | Automation Exposure | 0/3 | Critical gap |
-| Systems Thinking | 0/3 | Critical gap |
-| Technical Depth | 0/3 | Critical gap |
-| Decision-Making | 0/3 | Critical gap |
-| AI Literacy | 0/3 | Critical gap |
-| AI Literacy | 0/3 | Critical gap |
-| Domain Depth | 0/3 | Critical gap |
-| Research Rigour | 0/3 | Critical gap |
-| Human & Relational | 0/3 | Critical gap |
-| Curriculum Currency | 0/3 | Critical gap |
-| Outcome Evidence | 0/3 | Critical gap |
-| Irreplaceability (bonus) | 0/3 | Critical gap |
-| **TOTAL** | **22/36** | **MODERATE RISK** |
+| Systems Thinking | 3/3 | Strong |
+| Technical Depth | 3/3 | Strong |
+| Decision-Making | 2/3 | Adequate |
+| AI Literacy | 2/3 | Adequate |
+| Domain Depth | 3/3 | Strong |
+| Research Rigour | 2/3 | Adequate |
+| Human & Relational | 1/3 | Critical gap |
+| Curriculum Currency | 2/3 | Adequate |
+| Outcome Evidence | 3/3 | Strong |
+| Irreplaceability (bonus) | 2/3 | Adequate |
+| **TOTAL** | **23/36** | **MODERATE RISK** |
 
 ---
 
 ## 2. SCORE-TO-ACTION MAPPING
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
+| Human & Relational | 1/3 | Entry-level skills show automation risk. | Add ethics/professional practice unit or workshop series. |
+| Decision-Making | 2/3 | Entry-level skills show automation risk. | Add capstone project requiring documented decision rationale. |
+| Curriculum Currency | 2/3 | Entry-level skills show automation risk. | Add emerging-trends module updated each intake. |
+| Automation Exposure | 0/3 | Entry-level skills show automation risk. | Introduce capstone/internship with real client accountability. |
+| AI Literacy | 2/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
+| Research Rigour | 2/3 | Entry-level skills show automation risk. | Replace literature review with primary data collection requirement. |
+| Irreplaceability (bonus) | 2/3 | Entry-level skills show automation risk. | Add regulatory accreditation or professional registration pathway. |
 
 ---
 
@@ -43,6 +49,11 @@ The MC-INDENG scored **22/36 — MODERATE RISK**. Gaps in core dimensions define
 ## 4. PRIORITISED INTERVENTIONS TABLE
 | Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
 |---|---|---|---|---|---|---|---|---|
+| 1 | Add ethics/professional practice unit or workshop series | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Add capstone project requiring documented decision rationale | Decision-Making | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Add emerging-trends module updated each intake | Curriculum Currency | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 4 | Introduce capstone/internship with real client accountability | Automation Exposure | Strong market demand for AI-governance capabilities | HIGH | High | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+| 5 | Add dedicated AI in discipline core unit (12.5pt) | AI Literacy | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
 
 ---
 
@@ -88,9 +99,3 @@ The MC-INDENG scored **22/36 — MODERATE RISK**. Gaps in core dimensions define
 
 ## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
 The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
-
----
-
-**Assessment Date:** 2026-06-21
-**Source Report:** reports/dfva-mc-indeng.md
-**Prompt Version:** DFVA-COPILOT-RECOMMENDER-v1

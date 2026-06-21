@@ -15,13 +15,12 @@ The Master of Environmental Law scored **22/36 — MODERATE RISK**. Gaps in core
 | Technical Depth | 1/3 | Critical gap |
 | Decision-Making | 2/3 | Adequate |
 | AI Literacy | 2/3 | Adequate |
-| AI Literacy | 2/3 | Adequate |
 | Domain Depth | 3/3 | Strong |
 | Research Rigour | 1/3 | Critical gap |
 | Human & Relational | 2/3 | Adequate |
-| Curriculum Currency | 0/3 | Critical gap |
+| Curriculum Currency | 3/3 | Strong |
 | Outcome Evidence | 3/3 | Strong |
-| Irreplaceability (bonus) | 0/3 | Critical gap |
+| Irreplaceability (bonus) | 2/3 | Adequate |
 | **TOTAL** | **22/36** | **MODERATE RISK** |
 
 ---
@@ -101,9 +100,3 @@ The Master of Environmental Law scored **22/36 — MODERATE RISK**. Gaps in core
 
 ## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
 The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
-
----
-
-**Assessment Date:** 2026-06-21
-**Source Report:** reports/dfva-mc-envlaw.md
-**Prompt Version:** DFVA-COPILOT-RECOMMENDER-v1

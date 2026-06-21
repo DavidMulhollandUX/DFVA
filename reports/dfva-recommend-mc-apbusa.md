@@ -1,34 +1,41 @@
 ## IMPROVEMENT PLAN: MC-APBUSA
 
-**Current:** 20/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
-**Target:** 28/36 RESILIENT | **Gap:** 8 points
+**Current:** 22/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
+**Target:** 28/36 RESILIENT | **Gap:** 6 points
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The MC-APBUSA scored **20/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
+The MC-APBUSA scored **22/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
-| Automation Exposure | 0/3 | Critical gap |
-| Systems Thinking | 0/3 | Critical gap |
-| Technical Depth | 0/3 | Critical gap |
-| Decision-Making | 0/3 | Critical gap |
-| AI Literacy | 0/3 | Critical gap |
-| AI Literacy | 0/3 | Critical gap |
-| Domain Depth | 0/3 | Critical gap |
-| Research Rigour | 0/3 | Critical gap |
-| Human & Relational | 0/3 | Critical gap |
-| Curriculum Currency | 0/3 | Critical gap |
-| Outcome Evidence | 0/3 | Critical gap |
-| Irreplaceability (bonus) | 0/3 | Critical gap |
-| **TOTAL** | **20/36** | **MODERATE RISK** |
+| Automation Exposure | 1/3 | Critical gap |
+| Systems Thinking | 2/3 | Adequate |
+| Technical Depth | 3/3 | Strong |
+| Decision-Making | 2/3 | Adequate |
+| AI Literacy | 3/3 | Strong |
+| Domain Depth | 2/3 | Adequate |
+| Research Rigour | 2/3 | Adequate |
+| Human & Relational | 1/3 | Critical gap |
+| Curriculum Currency | 1/3 | Critical gap |
+| Outcome Evidence | 3/3 | Strong |
+| Irreplaceability (bonus) | 2/3 | Adequate |
+| **TOTAL** | **22/36** | **MODERATE RISK** |
 
 ---
 
 ## 2. SCORE-TO-ACTION MAPPING
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
+| Human & Relational | 1/3 | Entry-level skills show automation risk. | Add ethics/professional practice unit or workshop series. |
+| Curriculum Currency | 1/3 | Entry-level skills show automation risk. | Establish annual curriculum review with industry advisory panel. |
+| Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
+| Decision-Making | 2/3 | Entry-level skills show automation risk. | Add capstone project requiring documented decision rationale. |
+| Automation Exposure | 1/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
+| Domain Depth | 2/3 | Entry-level skills show automation risk. | Seek professional accreditation or industry partnership. |
+| Research Rigour | 2/3 | Entry-level skills show automation risk. | Replace literature review with primary data collection requirement. |
+| Irreplaceability (bonus) | 2/3 | Entry-level skills show automation risk. | Add regulatory accreditation or professional registration pathway. |
 
 ---
 
@@ -43,6 +50,12 @@ The MC-APBUSA scored **20/36 — MODERATE RISK**. Gaps in core dimensions define
 ## 4. PRIORITISED INTERVENTIONS TABLE
 | Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
 |---|---|---|---|---|---|---|---|---|
+| 1 | Add ethics/professional practice unit or workshop series | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Establish annual curriculum review with industry advisory panel | Curriculum Currency | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 4 | Add capstone project requiring documented decision rationale | Decision-Making | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 5 | Require industry project with defended outputs and stakeholder presentation | Automation Exposure | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+| 6 | Seek professional accreditation or industry partnership | Domain Depth | Strong market demand for AI-governance capabilities | HIGH | High | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
 
 ---
 
@@ -88,9 +101,3 @@ The MC-APBUSA scored **20/36 — MODERATE RISK**. Gaps in core dimensions define
 
 ## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
 The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
-
----
-
-**Assessment Date:** 2026-06-21
-**Source Report:** reports/dfva-mc-apbusa.md
-**Prompt Version:** DFVA-COPILOT-RECOMMENDER-v1

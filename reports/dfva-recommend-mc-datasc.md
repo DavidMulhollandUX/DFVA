@@ -12,16 +12,15 @@ The Master of Data Science scored **24/36 — MODERATE RISK**. Gaps in core dime
 |---|---|---|
 | Automation Exposure | 2/3 | Adequate |
 | Systems Thinking | 2/3 | Adequate |
-| Technical Depth | 2/3 | Adequate |
+| Technical Depth | 3/3 | Strong |
 | Decision-Making | 2/3 | Adequate |
-| AI Literacy | 2/3 | Adequate |
 | AI Literacy | 2/3 | Adequate |
 | Domain Depth | 3/3 | Strong |
 | Research Rigour | 2/3 | Adequate |
 | Human & Relational | 2/3 | Adequate |
 | Curriculum Currency | 3/3 | Strong |
-| Outcome Evidence | 3/3 | Strong |
-| Irreplaceability (bonus) | 0/3 | Critical gap |
+| Outcome Evidence | 1/3 | Critical gap |
+| Irreplaceability (bonus) | 2/3 | Adequate |
 | **TOTAL** | **24/36** | **MODERATE RISK** |
 
 ---
@@ -29,10 +28,10 @@ The Master of Data Science scored **24/36 — MODERATE RISK**. Gaps in core dime
 ## 2. SCORE-TO-ACTION MAPPING
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
+| Outcome Evidence | 1/3 | Entry-level skills show automation risk. | Publish graduate destination survey results on program page. |
 | Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
 | Decision-Making | 2/3 | Entry-level skills show automation risk. | Add capstone project requiring documented decision rationale. |
 | Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |
-| Technical Depth | 2/3 | Entry-level skills show automation risk. | Require technical-elective sequence (3+ units) with applied project. |
 | Automation Exposure | 2/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
 | AI Literacy | 2/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
 | Research Rigour | 2/3 | Entry-level skills show automation risk. | Replace literature review with primary data collection requirement. |
@@ -50,10 +49,10 @@ The Master of Data Science scored **24/36 — MODERATE RISK**. Gaps in core dime
 ## 4. PRIORITISED INTERVENTIONS TABLE
 | Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 2 | Add capstone project requiring documented decision rationale | Decision-Making | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 3 | Integrate stakeholder engagement into existing project assessment | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 4 | Require technical-elective sequence (3+ units) with applied project | Technical Depth | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 1 | Publish graduate destination survey results on program page | Outcome Evidence | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Add capstone project requiring documented decision rationale | Decision-Making | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 4 | Integrate stakeholder engagement into existing project assessment | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
 
 ---
 
@@ -99,9 +98,3 @@ The Master of Data Science scored **24/36 — MODERATE RISK**. Gaps in core dime
 
 ## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
 The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
-
----
-
-**Assessment Date:** 2026-06-21
-**Source Report:** reports/dfva-mc-datasc.md
-**Prompt Version:** DFVA-COPILOT-RECOMMENDER-v1

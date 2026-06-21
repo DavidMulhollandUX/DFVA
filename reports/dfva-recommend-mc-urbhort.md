@@ -1,40 +1,37 @@
 ## IMPROVEMENT PLAN: Master of Urban Horticulture
 
-**Current:** 24/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
-**Target:** 28/36 RESILIENT | **Gap:** 4 points
+**Current:** 25/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
+**Target:** 28/36 RESILIENT | **Gap:** 3 points
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The Master of Urban Horticulture scored **24/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
+The Master of Urban Horticulture scored **25/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
-| Automation Exposure | 2/3 | Adequate |
-| Systems Thinking | 3/3 | Strong |
+| Automation Exposure | 3/3 | Strong |
+| Systems Thinking | 2/3 | Adequate |
 | Technical Depth | 2/3 | Adequate |
 | Decision-Making | 2/3 | Adequate |
-| AI Literacy | 1/3 | Critical gap |
 | AI Literacy | 1/3 | Critical gap |
 | Domain Depth | 3/3 | Strong |
 | Research Rigour | 2/3 | Adequate |
 | Human & Relational | 2/3 | Adequate |
-| Curriculum Currency | 3/3 | Strong |
+| Curriculum Currency | 2/3 | Adequate |
 | Outcome Evidence | 2/3 | Adequate |
-| Irreplaceability (bonus) | 2/3 | Adequate |
-| **TOTAL** | **24/36** | **MODERATE RISK** |
+| Irreplaceability (bonus) | 0/3 | Critical gap |
+| **TOTAL** | **25/36** | **MODERATE RISK** |
 
 ---
 
 ## 2. SCORE-TO-ACTION MAPPING
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
+| Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
 | Technical Depth | 2/3 | Entry-level skills show automation risk. | Require technical-elective sequence (3+ units) with applied project. |
 | Decision-Making | 2/3 | Entry-level skills show automation risk. | Add capstone project requiring documented decision rationale. |
-| Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |
-| Outcome Evidence | 2/3 | Entry-level skills show automation risk. | Add QILT GOS data + 3-year outcomes to public program information. |
 | AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
-| Automation Exposure | 2/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
 | Research Rigour | 2/3 | Entry-level skills show automation risk. | Replace literature review with primary data collection requirement. |
 
 ---
@@ -50,10 +47,9 @@ The Master of Urban Horticulture scored **24/36 — MODERATE RISK**. Gaps in cor
 ## 4. PRIORITISED INTERVENTIONS TABLE
 | Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Require technical-elective sequence (3+ units) with applied project | Technical Depth | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 2 | Add capstone project requiring documented decision rationale | Decision-Making | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 3 | Integrate stakeholder engagement into existing project assessment | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 4 | Add QILT GOS data + 3-year outcomes to public program information | Outcome Evidence | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 1 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Require technical-elective sequence (3+ units) with applied project | Technical Depth | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Add capstone project requiring documented decision rationale | Decision-Making | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
 
 ---
 
@@ -99,9 +95,3 @@ The Master of Urban Horticulture scored **24/36 — MODERATE RISK**. Gaps in cor
 
 ## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
 The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
-
----
-
-**Assessment Date:** 2026-06-21
-**Source Report:** reports/dfva-mc-urbhort.md
-**Prompt Version:** DFVA-COPILOT-RECOMMENDER-v1

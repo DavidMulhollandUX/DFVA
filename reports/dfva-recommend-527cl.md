@@ -1,34 +1,35 @@
 ## IMPROVEMENT PLAN: 527CL
 
-**Current:** 27/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
-**Target:** 28/36 RESILIENT | **Gap:** 1 point
+**Current:** 28/36 RESILIENT | **Duration:** 2 years (200 credit points)
+**Target:** 28/36 RESILIENT | **Gap:** 0 points
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The 527CL scored **27/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
+The 527CL scored **28/36 — RESILIENT**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
-| Automation Exposure | 0/3 | Critical gap |
-| Systems Thinking | 0/3 | Critical gap |
-| Technical Depth | 0/3 | Critical gap |
-| Decision-Making | 0/3 | Critical gap |
-| AI Literacy | 0/3 | Critical gap |
-| AI Literacy | 0/3 | Critical gap |
-| Domain Depth | 0/3 | Critical gap |
-| Research Rigour | 0/3 | Critical gap |
-| Human & Relational | 0/3 | Critical gap |
-| Curriculum Currency | 0/3 | Critical gap |
-| Outcome Evidence | 0/3 | Critical gap |
-| Irreplaceability (bonus) | 0/3 | Critical gap |
-| **TOTAL** | **27/36** | **MODERATE RISK** |
+| Automation Exposure | 3/3 | Strong |
+| Systems Thinking | 2/3 | Adequate |
+| Technical Depth | 2/3 | Adequate |
+| Decision-Making | 3/3 | Strong |
+| AI Literacy | 1/3 | Critical gap |
+| Domain Depth | 3/3 | Strong |
+| Research Rigour | 3/3 | Strong |
+| Human & Relational | 3/3 | Strong |
+| Curriculum Currency | 2/3 | Adequate |
+| Outcome Evidence | 3/3 | Strong |
+| Irreplaceability (bonus) | 3/3 | Strong |
+| **TOTAL** | **28/36** | **RESILIENT** |
 
 ---
 
 ## 2. SCORE-TO-ACTION MAPPING
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
+| AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
+| Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
 
 ---
 
@@ -88,9 +89,3 @@ The 527CL scored **27/36 — MODERATE RISK**. Gaps in core dimensions define the
 
 ## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
 The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
-
----
-
-**Assessment Date:** 2026-06-21
-**Source Report:** reports/dfva-527cl.md
-**Prompt Version:** DFVA-COPILOT-RECOMMENDER-v1

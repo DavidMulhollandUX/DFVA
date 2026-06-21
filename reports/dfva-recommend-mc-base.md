@@ -1,34 +1,41 @@
 ## IMPROVEMENT PLAN: MC-BASE
 
-**Current:** 18/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
-**Target:** 28/36 RESILIENT | **Gap:** 10 points
+**Current:** 20/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
+**Target:** 28/36 RESILIENT | **Gap:** 8 points
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The MC-BASE scored **18/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
+The MC-BASE scored **20/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
-| Automation Exposure | 0/3 | Critical gap |
-| Systems Thinking | 0/3 | Critical gap |
-| Technical Depth | 0/3 | Critical gap |
-| Decision-Making | 0/3 | Critical gap |
-| AI Literacy | 0/3 | Critical gap |
-| AI Literacy | 0/3 | Critical gap |
-| Domain Depth | 0/3 | Critical gap |
-| Research Rigour | 0/3 | Critical gap |
-| Human & Relational | 0/3 | Critical gap |
-| Curriculum Currency | 0/3 | Critical gap |
-| Outcome Evidence | 0/3 | Critical gap |
-| Irreplaceability (bonus) | 0/3 | Critical gap |
-| **TOTAL** | **18/36** | **MODERATE RISK** |
+| Automation Exposure | 1/3 | Critical gap |
+| Systems Thinking | 2/3 | Adequate |
+| Technical Depth | 1/3 | Critical gap |
+| Decision-Making | 3/3 | Strong |
+| AI Literacy | 1/3 | Critical gap |
+| Domain Depth | 2/3 | Adequate |
+| Research Rigour | 1/3 | Critical gap |
+| Human & Relational | 3/3 | Strong |
+| Curriculum Currency | 2/3 | Adequate |
+| Outcome Evidence | 3/3 | Strong |
+| Irreplaceability (bonus) | 1/3 | Critical gap |
+| **TOTAL** | **20/36** | **MODERATE RISK** |
 
 ---
 
 ## 2. SCORE-TO-ACTION MAPPING
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
+| Technical Depth | 1/3 | Entry-level skills show automation risk. | Require technical-elective sequence (3+ units) with applied project. |
+| Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
+| Curriculum Currency | 2/3 | Entry-level skills show automation risk. | Add emerging-trends module updated each intake. |
+| Automation Exposure | 1/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
+| AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
+| Research Rigour | 1/3 | Entry-level skills show automation risk. | Introduce a minor thesis or capstone research project. |
+| Irreplaceability (bonus) | 1/3 | Entry-level skills show automation risk. | Develop a dual-skill pathway (e.g., tech + domain, clinical + research). |
+| Domain Depth | 2/3 | Entry-level skills show automation risk. | Seek professional accreditation or industry partnership. |
 
 ---
 
@@ -43,6 +50,12 @@ The MC-BASE scored **18/36 — MODERATE RISK**. Gaps in core dimensions define t
 ## 4. PRIORITISED INTERVENTIONS TABLE
 | Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
 |---|---|---|---|---|---|---|---|---|
+| 1 | Require technical-elective sequence (3+ units) with applied project | Technical Depth | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Add emerging-trends module updated each intake | Curriculum Currency | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 4 | Require industry project with defended outputs and stakeholder presentation | Automation Exposure | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+| 5 | Add dedicated AI in discipline core unit (12.5pt) | AI Literacy | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+| 6 | Introduce a minor thesis or capstone research project | Research Rigour | Strong market demand for AI-governance capabilities | HIGH | High | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
 
 ---
 
@@ -88,9 +101,3 @@ The MC-BASE scored **18/36 — MODERATE RISK**. Gaps in core dimensions define t
 
 ## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
 The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
-
----
-
-**Assessment Date:** 2026-06-21
-**Source Report:** reports/dfva-mc-base.md
-**Prompt Version:** DFVA-COPILOT-RECOMMENDER-v1

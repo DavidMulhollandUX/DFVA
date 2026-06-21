@@ -22,13 +22,12 @@ The Master of Food Science scored **21/36 — MODERATE RISK**. Gaps in core dime
 | Technical Depth | 2/3 | Adequate |
 | Decision-Making | 2/3 | Adequate |
 | AI Literacy | 1/3 | Critical gap |
-| AI Literacy | 1/3 | Critical gap |
 | Domain Depth | 3/3 | Strong |
 | Research Rigour | 2/3 | Adequate |
 | Human & Relational | 2/3 | Adequate |
 | Curriculum Currency | 2/3 | Adequate |
-| Outcome Evidence | 3/3 | Strong |
-| Irreplaceability (bonus) | 0/3 | Critical gap |
+| Outcome Evidence | 1/3 | Critical gap |
+| Irreplaceability (bonus) | 2/3 | Adequate |
 | **TOTAL** | **21/36** | **MODERATE RISK** |
 
 ---
@@ -36,6 +35,7 @@ The Master of Food Science scored **21/36 — MODERATE RISK**. Gaps in core dime
 ## 2. SCORE-TO-ACTION MAPPING
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
+| Outcome Evidence | 1/3 | Entry-level skills show automation risk. | Publish graduate destination survey results on program page. |
 | Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
 | Technical Depth | 2/3 | Entry-level skills show automation risk. | Require technical-elective sequence (3+ units) with applied project. |
 | Decision-Making | 2/3 | Entry-level skills show automation risk. | Add capstone project requiring documented decision rationale. |
@@ -58,12 +58,13 @@ The Master of Food Science scored **21/36 — MODERATE RISK**. Gaps in core dime
 ## 4. PRIORITISED INTERVENTIONS TABLE
 | Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 2 | Require technical-elective sequence (3+ units) with applied project | Technical Depth | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 3 | Add capstone project requiring documented decision rationale | Decision-Making | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 4 | Integrate stakeholder engagement into existing project assessment | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 5 | Add emerging-trends module updated each intake | Curriculum Currency | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 6 | Add dedicated AI in discipline core unit (12.5pt) | AI Literacy | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+| 1 | Publish graduate destination survey results on program page | Outcome Evidence | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Require technical-elective sequence (3+ units) with applied project | Technical Depth | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 4 | Add capstone project requiring documented decision rationale | Decision-Making | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 5 | Integrate stakeholder engagement into existing project assessment | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 6 | Add emerging-trends module updated each intake | Curriculum Currency | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 7 | Add dedicated AI in discipline core unit (12.5pt) | AI Literacy | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
 
 ---
 
@@ -116,35 +117,36 @@ The 2027-ready graduate is a domain specialist and workflow critic. They do not 
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: 527CL
 
-**Current:** 27/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
-**Target:** 28/36 RESILIENT | **Gap:** 1 point
+**Current:** 28/36 RESILIENT | **Duration:** 2 years (200 credit points)
+**Target:** 28/36 RESILIENT | **Gap:** 0 points
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The 527CL scored **27/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
+The 527CL scored **28/36 — RESILIENT**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
-| Automation Exposure | 0/3 | Critical gap |
-| Systems Thinking | 0/3 | Critical gap |
-| Technical Depth | 0/3 | Critical gap |
-| Decision-Making | 0/3 | Critical gap |
-| AI Literacy | 0/3 | Critical gap |
-| AI Literacy | 0/3 | Critical gap |
-| Domain Depth | 0/3 | Critical gap |
-| Research Rigour | 0/3 | Critical gap |
-| Human & Relational | 0/3 | Critical gap |
-| Curriculum Currency | 0/3 | Critical gap |
-| Outcome Evidence | 0/3 | Critical gap |
-| Irreplaceability (bonus) | 0/3 | Critical gap |
-| **TOTAL** | **27/36** | **MODERATE RISK** |
+| Automation Exposure | 3/3 | Strong |
+| Systems Thinking | 2/3 | Adequate |
+| Technical Depth | 2/3 | Adequate |
+| Decision-Making | 3/3 | Strong |
+| AI Literacy | 1/3 | Critical gap |
+| Domain Depth | 3/3 | Strong |
+| Research Rigour | 3/3 | Strong |
+| Human & Relational | 3/3 | Strong |
+| Curriculum Currency | 2/3 | Adequate |
+| Outcome Evidence | 3/3 | Strong |
+| Irreplaceability (bonus) | 3/3 | Strong |
+| **TOTAL** | **28/36** | **RESILIENT** |
 
 ---
 
 ## 2. SCORE-TO-ACTION MAPPING
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
+| AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
+| Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
 
 ---
 
@@ -211,35 +213,41 @@ The 2027-ready graduate is a domain specialist and workflow critic. They do not 
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: 746ST
 
-**Current:** 20/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
-**Target:** 28/36 RESILIENT | **Gap:** 8 points
+**Current:** 22/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
+**Target:** 28/36 RESILIENT | **Gap:** 6 points
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The 746ST scored **20/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
+The 746ST scored **22/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
-| Automation Exposure | 0/3 | Critical gap |
-| Systems Thinking | 0/3 | Critical gap |
-| Technical Depth | 0/3 | Critical gap |
-| Decision-Making | 0/3 | Critical gap |
-| AI Literacy | 0/3 | Critical gap |
-| AI Literacy | 0/3 | Critical gap |
-| Domain Depth | 0/3 | Critical gap |
-| Research Rigour | 0/3 | Critical gap |
-| Human & Relational | 0/3 | Critical gap |
-| Curriculum Currency | 0/3 | Critical gap |
-| Outcome Evidence | 0/3 | Critical gap |
-| Irreplaceability (bonus) | 0/3 | Critical gap |
-| **TOTAL** | **20/36** | **MODERATE RISK** |
+| Automation Exposure | 1/3 | Critical gap |
+| Systems Thinking | 3/3 | Strong |
+| Technical Depth | 3/3 | Strong |
+| Decision-Making | 2/3 | Adequate |
+| AI Literacy | 1/3 | Critical gap |
+| Domain Depth | 3/3 | Strong |
+| Research Rigour | 1/3 | Critical gap |
+| Human & Relational | 1/3 | Critical gap |
+| Curriculum Currency | 2/3 | Adequate |
+| Outcome Evidence | 3/3 | Strong |
+| Irreplaceability (bonus) | 2/3 | Adequate |
+| **TOTAL** | **22/36** | **MODERATE RISK** |
 
 ---
 
 ## 2. SCORE-TO-ACTION MAPPING
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
+| Human & Relational | 1/3 | Entry-level skills show automation risk. | Add ethics/professional practice unit or workshop series. |
+| Decision-Making | 2/3 | Entry-level skills show automation risk. | Add capstone project requiring documented decision rationale. |
+| Curriculum Currency | 2/3 | Entry-level skills show automation risk. | Add emerging-trends module updated each intake. |
+| Automation Exposure | 1/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
+| AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
+| Research Rigour | 1/3 | Entry-level skills show automation risk. | Introduce a minor thesis or capstone research project. |
+| Irreplaceability (bonus) | 2/3 | Entry-level skills show automation risk. | Add regulatory accreditation or professional registration pathway. |
 
 ---
 
@@ -254,6 +262,11 @@ The 746ST scored **20/36 — MODERATE RISK**. Gaps in core dimensions define the
 ## 4. PRIORITISED INTERVENTIONS TABLE
 | Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
 |---|---|---|---|---|---|---|---|---|
+| 1 | Add ethics/professional practice unit or workshop series | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Add capstone project requiring documented decision rationale | Decision-Making | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Add emerging-trends module updated each intake | Curriculum Currency | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 4 | Require industry project with defended outputs and stakeholder presentation | Automation Exposure | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+| 5 | Add dedicated AI in discipline core unit (12.5pt) | AI Literacy | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
 
 ---
 
@@ -415,6 +428,11 @@ Five 1/3 scores represent the degree's primary intervention targets: automation 
 The 2027-ready B-Des graduate is not a pixel-pusher or basic visual draftsman — they are a **Design Workflow Architect and Product Lead**. They understand how to lead creative direction and govern AI inputs across complex digital ecosystems. They use generative design tools to rapidly map out layouts and wireframes, but keep their focus on usability testing, design systems management, and user research verification. 
 
 They own their design rationale, understand legal and copyright considerations surrounding visual AI models, and can defend their design choices under live client scrutiny.
+
+---
+
+**Assessment Date:** 2026-06-21
+**Source Report:** reports/dfva-b-des.md
 `,
   },
   "dfva-recommend-b-sci": {
@@ -530,6 +548,11 @@ The B-Sci scored **23/36 — MODERATE RISK**. Three strong scores (D3, D6, D7: e
 The 2027-ready B-Sci graduate did not coast through a broad science degree hoping that scientific literacy would be enough. They chose a major with genuine technical depth, completed a primary research project with pre-registration and a defended methodology, and finished their degree able to look at an AI tool in their domain and tell you exactly where it fails. They completed a Science Internship in a regulated or high-stakes environment.
 
 Their graduation portfolio has three artifacts that no AI can produce for them: a primary research dataset with a defended methodology, an AI governance brief for a tool in their domain, and a stakeholder communication piece reviewed by a non-specialist panel. They are the person their research group or employer relies on to decide which AI outputs to trust — and why.
+
+---
+
+**Assessment Date:** 2026-06-21
+**Source Report:** reports/dfva-b-sci.md
 `,
   },
   "dfva-recommend-mc-actsc": {
@@ -552,13 +575,12 @@ The Master of Actuarial Science scored **20/36 — MODERATE RISK**. Gaps in core
 | Technical Depth | 3/3 | Strong |
 | Decision-Making | 2/3 | Adequate |
 | AI Literacy | 1/3 | Critical gap |
-| AI Literacy | 1/3 | Critical gap |
 | Domain Depth | 3/3 | Strong |
 | Research Rigour | 1/3 | Critical gap |
 | Human & Relational | 2/3 | Adequate |
 | Curriculum Currency | 2/3 | Adequate |
-| Outcome Evidence | 2/3 | Adequate |
-| Irreplaceability (bonus) | 0/3 | Critical gap |
+| Outcome Evidence | 1/3 | Critical gap |
+| Irreplaceability (bonus) | 2/3 | Adequate |
 | **TOTAL** | **20/36** | **MODERATE RISK** |
 
 ---
@@ -566,14 +588,15 @@ The Master of Actuarial Science scored **20/36 — MODERATE RISK**. Gaps in core
 ## 2. SCORE-TO-ACTION MAPPING
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
+| Outcome Evidence | 1/3 | Entry-level skills show automation risk. | Publish graduate destination survey results on program page. |
 | Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
 | Decision-Making | 2/3 | Entry-level skills show automation risk. | Add capstone project requiring documented decision rationale. |
 | Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |
 | Curriculum Currency | 2/3 | Entry-level skills show automation risk. | Add emerging-trends module updated each intake. |
-| Outcome Evidence | 2/3 | Entry-level skills show automation risk. | Add QILT GOS data + 3-year outcomes to public program information. |
 | Automation Exposure | 1/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
 | AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
 | Research Rigour | 1/3 | Entry-level skills show automation risk. | Introduce a minor thesis or capstone research project. |
+| Irreplaceability (bonus) | 2/3 | Entry-level skills show automation risk. | Add regulatory accreditation or professional registration pathway. |
 
 ---
 
@@ -588,11 +611,11 @@ The Master of Actuarial Science scored **20/36 — MODERATE RISK**. Gaps in core
 ## 4. PRIORITISED INTERVENTIONS TABLE
 | Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 2 | Add capstone project requiring documented decision rationale | Decision-Making | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 3 | Integrate stakeholder engagement into existing project assessment | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 4 | Add emerging-trends module updated each intake | Curriculum Currency | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 5 | Add QILT GOS data + 3-year outcomes to public program information | Outcome Evidence | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 1 | Publish graduate destination survey results on program page | Outcome Evidence | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Add capstone project requiring documented decision rationale | Decision-Making | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 4 | Integrate stakeholder engagement into existing project assessment | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 5 | Add emerging-trends module updated each intake | Curriculum Currency | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
 | 6 | Require industry project with defended outputs and stakeholder presentation | Automation Exposure | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
 | 7 | Add dedicated AI in discipline core unit (12.5pt) | AI Literacy | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
 
@@ -647,35 +670,42 @@ The 2027-ready graduate is a domain specialist and workflow critic. They do not 
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: MC-APBUSA
 
-**Current:** 20/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
-**Target:** 28/36 RESILIENT | **Gap:** 8 points
+**Current:** 22/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
+**Target:** 28/36 RESILIENT | **Gap:** 6 points
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The MC-APBUSA scored **20/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
+The MC-APBUSA scored **22/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
-| Automation Exposure | 0/3 | Critical gap |
-| Systems Thinking | 0/3 | Critical gap |
-| Technical Depth | 0/3 | Critical gap |
-| Decision-Making | 0/3 | Critical gap |
-| AI Literacy | 0/3 | Critical gap |
-| AI Literacy | 0/3 | Critical gap |
-| Domain Depth | 0/3 | Critical gap |
-| Research Rigour | 0/3 | Critical gap |
-| Human & Relational | 0/3 | Critical gap |
-| Curriculum Currency | 0/3 | Critical gap |
-| Outcome Evidence | 0/3 | Critical gap |
-| Irreplaceability (bonus) | 0/3 | Critical gap |
-| **TOTAL** | **20/36** | **MODERATE RISK** |
+| Automation Exposure | 1/3 | Critical gap |
+| Systems Thinking | 2/3 | Adequate |
+| Technical Depth | 3/3 | Strong |
+| Decision-Making | 2/3 | Adequate |
+| AI Literacy | 3/3 | Strong |
+| Domain Depth | 2/3 | Adequate |
+| Research Rigour | 2/3 | Adequate |
+| Human & Relational | 1/3 | Critical gap |
+| Curriculum Currency | 1/3 | Critical gap |
+| Outcome Evidence | 3/3 | Strong |
+| Irreplaceability (bonus) | 2/3 | Adequate |
+| **TOTAL** | **22/36** | **MODERATE RISK** |
 
 ---
 
 ## 2. SCORE-TO-ACTION MAPPING
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
+| Human & Relational | 1/3 | Entry-level skills show automation risk. | Add ethics/professional practice unit or workshop series. |
+| Curriculum Currency | 1/3 | Entry-level skills show automation risk. | Establish annual curriculum review with industry advisory panel. |
+| Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
+| Decision-Making | 2/3 | Entry-level skills show automation risk. | Add capstone project requiring documented decision rationale. |
+| Automation Exposure | 1/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
+| Domain Depth | 2/3 | Entry-level skills show automation risk. | Seek professional accreditation or industry partnership. |
+| Research Rigour | 2/3 | Entry-level skills show automation risk. | Replace literature review with primary data collection requirement. |
+| Irreplaceability (bonus) | 2/3 | Entry-level skills show automation risk. | Add regulatory accreditation or professional registration pathway. |
 
 ---
 
@@ -690,6 +720,12 @@ The MC-APBUSA scored **20/36 — MODERATE RISK**. Gaps in core dimensions define
 ## 4. PRIORITISED INTERVENTIONS TABLE
 | Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
 |---|---|---|---|---|---|---|---|---|
+| 1 | Add ethics/professional practice unit or workshop series | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Establish annual curriculum review with industry advisory panel | Curriculum Currency | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 4 | Add capstone project requiring documented decision rationale | Decision-Making | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 5 | Require industry project with defended outputs and stakeholder presentation | Automation Exposure | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+| 6 | Seek professional accreditation or industry partnership | Domain Depth | Strong market demand for AI-governance capabilities | HIGH | High | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
 
 ---
 
@@ -742,13 +778,13 @@ The 2027-ready graduate is a domain specialist and workflow critic. They do not 
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: Master of Architecture
 
-**Current:** 28/36 MODERATE RISK | **Duration:** 3 years (300 credit points)
+**Current:** 28/36 RESILIENT | **Duration:** 3 years (300 credit points)
 **Target:** 28/36 RESILIENT | **Gap:** 0 points
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The Master of Architecture scored **28/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
+The Master of Architecture scored **28/36 — RESILIENT**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
@@ -757,14 +793,13 @@ The Master of Architecture scored **28/36 — MODERATE RISK**. Gaps in core dime
 | Technical Depth | 3/3 | Strong |
 | Decision-Making | 3/3 | Strong |
 | AI Literacy | 1/3 | Critical gap |
-| AI Literacy | 1/3 | Critical gap |
 | Domain Depth | 3/3 | Strong |
 | Research Rigour | 3/3 | Strong |
 | Human & Relational | 2/3 | Adequate |
-| Curriculum Currency | 0/3 | Critical gap |
+| Curriculum Currency | 2/3 | Adequate |
 | Outcome Evidence | 2/3 | Adequate |
-| Irreplaceability (bonus) | 0/3 | Critical gap |
-| **TOTAL** | **28/36** | **MODERATE RISK** |
+| Irreplaceability (bonus) | 3/3 | Strong |
+| **TOTAL** | **28/36** | **RESILIENT** |
 
 ---
 
@@ -854,13 +889,12 @@ The Master of Business Administration scored **25/36 — MODERATE RISK**. Gaps i
 | Technical Depth | 2/3 | Adequate |
 | Decision-Making | 3/3 | Strong |
 | AI Literacy | 3/3 | Strong |
-| AI Literacy | 3/3 | Strong |
 | Domain Depth | 2/3 | Adequate |
 | Research Rigour | 1/3 | Critical gap |
 | Human & Relational | 2/3 | Adequate |
-| Curriculum Currency | 0/3 | Critical gap |
+| Curriculum Currency | 3/3 | Strong |
 | Outcome Evidence | 3/3 | Strong |
-| Irreplaceability (bonus) | 0/3 | Critical gap |
+| Irreplaceability (bonus) | 3/3 | Strong |
 | **TOTAL** | **25/36** | **MODERATE RISK** |
 
 ---
@@ -943,35 +977,44 @@ The 2027-ready graduate is a domain specialist and workflow critic. They do not 
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: MC-BAMKTG
 
-**Current:** 17/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
-**Target:** 28/36 RESILIENT | **Gap:** 11 points
+**Current:** 19/36 HIGH RISK | **Duration:** 2 years (200 credit points)
+**Target:** 28/36 RESILIENT | **Gap:** 9 points
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The MC-BAMKTG scored **17/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
+The MC-BAMKTG scored **19/36 — HIGH RISK**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
-| Automation Exposure | 0/3 | Critical gap |
-| Systems Thinking | 0/3 | Critical gap |
-| Technical Depth | 0/3 | Critical gap |
-| Decision-Making | 0/3 | Critical gap |
-| AI Literacy | 0/3 | Critical gap |
-| AI Literacy | 0/3 | Critical gap |
-| Domain Depth | 0/3 | Critical gap |
-| Research Rigour | 0/3 | Critical gap |
-| Human & Relational | 0/3 | Critical gap |
-| Curriculum Currency | 0/3 | Critical gap |
-| Outcome Evidence | 0/3 | Critical gap |
-| Irreplaceability (bonus) | 0/3 | Critical gap |
-| **TOTAL** | **17/36** | **MODERATE RISK** |
+| Automation Exposure | 1/3 | Critical gap |
+| Systems Thinking | 2/3 | Adequate |
+| Technical Depth | 1/3 | Critical gap |
+| Decision-Making | 2/3 | Adequate |
+| AI Literacy | 1/3 | Critical gap |
+| Domain Depth | 2/3 | Adequate |
+| Research Rigour | 1/3 | Critical gap |
+| Human & Relational | 2/3 | Adequate |
+| Curriculum Currency | 2/3 | Adequate |
+| Outcome Evidence | 3/3 | Strong |
+| Irreplaceability (bonus) | 2/3 | Adequate |
+| **TOTAL** | **19/36** | **HIGH RISK** |
 
 ---
 
 ## 2. SCORE-TO-ACTION MAPPING
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
+| Technical Depth | 1/3 | Entry-level skills show automation risk. | Require technical-elective sequence (3+ units) with applied project. |
+| Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
+| Decision-Making | 2/3 | Entry-level skills show automation risk. | Add capstone project requiring documented decision rationale. |
+| Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |
+| Curriculum Currency | 2/3 | Entry-level skills show automation risk. | Add emerging-trends module updated each intake. |
+| Automation Exposure | 1/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
+| AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
+| Research Rigour | 1/3 | Entry-level skills show automation risk. | Introduce a minor thesis or capstone research project. |
+| Domain Depth | 2/3 | Entry-level skills show automation risk. | Seek professional accreditation or industry partnership. |
+| Irreplaceability (bonus) | 2/3 | Entry-level skills show automation risk. | Add regulatory accreditation or professional registration pathway. |
 
 ---
 
@@ -986,6 +1029,14 @@ The MC-BAMKTG scored **17/36 — MODERATE RISK**. Gaps in core dimensions define
 ## 4. PRIORITISED INTERVENTIONS TABLE
 | Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
 |---|---|---|---|---|---|---|---|---|
+| 1 | Require technical-elective sequence (3+ units) with applied project | Technical Depth | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Add capstone project requiring documented decision rationale | Decision-Making | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 4 | Integrate stakeholder engagement into existing project assessment | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 5 | Add emerging-trends module updated each intake | Curriculum Currency | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 6 | Require industry project with defended outputs and stakeholder presentation | Automation Exposure | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+| 7 | Add dedicated AI in discipline core unit (12.5pt) | AI Literacy | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+| 8 | Introduce a minor thesis or capstone research project | Research Rigour | Strong market demand for AI-governance capabilities | HIGH | High | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
 
 ---
 
@@ -1038,35 +1089,42 @@ The 2027-ready graduate is a domain specialist and workflow critic. They do not 
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: MC-BASE
 
-**Current:** 18/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
-**Target:** 28/36 RESILIENT | **Gap:** 10 points
+**Current:** 20/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
+**Target:** 28/36 RESILIENT | **Gap:** 8 points
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The MC-BASE scored **18/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
+The MC-BASE scored **20/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
-| Automation Exposure | 0/3 | Critical gap |
-| Systems Thinking | 0/3 | Critical gap |
-| Technical Depth | 0/3 | Critical gap |
-| Decision-Making | 0/3 | Critical gap |
-| AI Literacy | 0/3 | Critical gap |
-| AI Literacy | 0/3 | Critical gap |
-| Domain Depth | 0/3 | Critical gap |
-| Research Rigour | 0/3 | Critical gap |
-| Human & Relational | 0/3 | Critical gap |
-| Curriculum Currency | 0/3 | Critical gap |
-| Outcome Evidence | 0/3 | Critical gap |
-| Irreplaceability (bonus) | 0/3 | Critical gap |
-| **TOTAL** | **18/36** | **MODERATE RISK** |
+| Automation Exposure | 1/3 | Critical gap |
+| Systems Thinking | 2/3 | Adequate |
+| Technical Depth | 1/3 | Critical gap |
+| Decision-Making | 3/3 | Strong |
+| AI Literacy | 1/3 | Critical gap |
+| Domain Depth | 2/3 | Adequate |
+| Research Rigour | 1/3 | Critical gap |
+| Human & Relational | 3/3 | Strong |
+| Curriculum Currency | 2/3 | Adequate |
+| Outcome Evidence | 3/3 | Strong |
+| Irreplaceability (bonus) | 1/3 | Critical gap |
+| **TOTAL** | **20/36** | **MODERATE RISK** |
 
 ---
 
 ## 2. SCORE-TO-ACTION MAPPING
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
+| Technical Depth | 1/3 | Entry-level skills show automation risk. | Require technical-elective sequence (3+ units) with applied project. |
+| Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
+| Curriculum Currency | 2/3 | Entry-level skills show automation risk. | Add emerging-trends module updated each intake. |
+| Automation Exposure | 1/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
+| AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
+| Research Rigour | 1/3 | Entry-level skills show automation risk. | Introduce a minor thesis or capstone research project. |
+| Irreplaceability (bonus) | 1/3 | Entry-level skills show automation risk. | Develop a dual-skill pathway (e.g., tech + domain, clinical + research). |
+| Domain Depth | 2/3 | Entry-level skills show automation risk. | Seek professional accreditation or industry partnership. |
 
 ---
 
@@ -1081,6 +1139,12 @@ The MC-BASE scored **18/36 — MODERATE RISK**. Gaps in core dimensions define t
 ## 4. PRIORITISED INTERVENTIONS TABLE
 | Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
 |---|---|---|---|---|---|---|---|---|
+| 1 | Require technical-elective sequence (3+ units) with applied project | Technical Depth | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Add emerging-trends module updated each intake | Curriculum Currency | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 4 | Require industry project with defended outputs and stakeholder presentation | Automation Exposure | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+| 5 | Add dedicated AI in discipline core unit (12.5pt) | AI Literacy | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+| 6 | Introduce a minor thesis or capstone research project | Research Rigour | Strong market demand for AI-governance capabilities | HIGH | High | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
 
 ---
 
@@ -1148,13 +1212,12 @@ The Master of Biomedical Science scored **25/36 — MODERATE RISK**. Gaps in cor
 | Technical Depth | 3/3 | Strong |
 | Decision-Making | 3/3 | Strong |
 | AI Literacy | 1/3 | Critical gap |
-| AI Literacy | 1/3 | Critical gap |
 | Domain Depth | 3/3 | Strong |
 | Research Rigour | 3/3 | Strong |
-| Human & Relational | 0/3 | Critical gap |
-| Curriculum Currency | 0/3 | Critical gap |
-| Outcome Evidence | 3/3 | Strong |
-| Irreplaceability (bonus) | 0/3 | Critical gap |
+| Human & Relational | 2/3 | Adequate |
+| Curriculum Currency | 2/3 | Adequate |
+| Outcome Evidence | 1/3 | Critical gap |
+| Irreplaceability (bonus) | 3/3 | Strong |
 | **TOTAL** | **25/36** | **MODERATE RISK** |
 
 ---
@@ -1162,7 +1225,9 @@ The Master of Biomedical Science scored **25/36 — MODERATE RISK**. Gaps in cor
 ## 2. SCORE-TO-ACTION MAPPING
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
+| Outcome Evidence | 1/3 | Entry-level skills show automation risk. | Publish graduate destination survey results on program page. |
 | Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
+| Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |
 | AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
 | Automation Exposure | 2/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
 
@@ -1179,8 +1244,9 @@ The Master of Biomedical Science scored **25/36 — MODERATE RISK**. Gaps in cor
 ## 4. PRIORITISED INTERVENTIONS TABLE
 | Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 2 | Add dedicated AI in discipline core unit (12.5pt) | AI Literacy | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+| 1 | Publish graduate destination survey results on program page | Outcome Evidence | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Integrate stakeholder engagement into existing project assessment | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
 
 ---
 
@@ -1233,13 +1299,13 @@ The 2027-ready graduate is a domain specialist and workflow critic. They do not 
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: Master of Business Analytics
 
-**Current:** 30/36 MODERATE RISK | **Duration:** 1 year (150 credit points)
+**Current:** 30/36 RESILIENT | **Duration:** 1 year (150 credit points)
 **Target:** 28/36 RESILIENT | **Gap:** 0 points
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The Master of Business Analytics scored **30/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
+The Master of Business Analytics scored **30/36 — RESILIENT**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
@@ -1248,14 +1314,13 @@ The Master of Business Analytics scored **30/36 — MODERATE RISK**. Gaps in cor
 | Technical Depth | 3/3 | Strong |
 | Decision-Making | 3/3 | Strong |
 | AI Literacy | 3/3 | Strong |
-| AI Literacy | 3/3 | Strong |
 | Domain Depth | 3/3 | Strong |
 | Research Rigour | 2/3 | Adequate |
-| Human & Relational | 0/3 | Critical gap |
+| Human & Relational | 2/3 | Adequate |
 | Curriculum Currency | 3/3 | Strong |
 | Outcome Evidence | 3/3 | Strong |
-| Irreplaceability (bonus) | 0/3 | Critical gap |
-| **TOTAL** | **30/36** | **MODERATE RISK** |
+| Irreplaceability (bonus) | 3/3 | Strong |
+| **TOTAL** | **30/36** | **RESILIENT** |
 
 ---
 
@@ -1264,6 +1329,7 @@ The Master of Business Analytics scored **30/36 — MODERATE RISK**. Gaps in cor
 |---|---|---|---|
 | Automation Exposure | 2/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
 | Research Rigour | 2/3 | Entry-level skills show automation risk. | Replace literature review with primary data collection requirement. |
+| Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |
 
 ---
 
@@ -1345,12 +1411,11 @@ The Master of Climate Science scored **26/36 — MODERATE RISK**. Gaps in core d
 | Technical Depth | 3/3 | Strong |
 | Decision-Making | 3/3 | Strong |
 | AI Literacy | 1/3 | Critical gap |
-| AI Literacy | 1/3 | Critical gap |
 | Domain Depth | 3/3 | Strong |
 | Research Rigour | 2/3 | Adequate |
 | Human & Relational | 2/3 | Adequate |
 | Curriculum Currency | 3/3 | Strong |
-| Outcome Evidence | 2/3 | Adequate |
+| Outcome Evidence | 1/3 | Critical gap |
 | Irreplaceability (bonus) | 3/3 | Strong |
 | **TOTAL** | **26/36** | **MODERATE RISK** |
 
@@ -1359,8 +1424,8 @@ The Master of Climate Science scored **26/36 — MODERATE RISK**. Gaps in core d
 ## 2. SCORE-TO-ACTION MAPPING
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
+| Outcome Evidence | 1/3 | Entry-level skills show automation risk. | Publish graduate destination survey results on program page. |
 | Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |
-| Outcome Evidence | 2/3 | Entry-level skills show automation risk. | Add QILT GOS data + 3-year outcomes to public program information. |
 | AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
 | Automation Exposure | 2/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
 | Research Rigour | 2/3 | Entry-level skills show automation risk. | Replace literature review with primary data collection requirement. |
@@ -1378,8 +1443,8 @@ The Master of Climate Science scored **26/36 — MODERATE RISK**. Gaps in core d
 ## 4. PRIORITISED INTERVENTIONS TABLE
 | Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Integrate stakeholder engagement into existing project assessment | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 2 | Add QILT GOS data + 3-year outcomes to public program information | Outcome Evidence | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 1 | Publish graduate destination survey results on program page | Outcome Evidence | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Integrate stakeholder engagement into existing project assessment | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
 
 ---
 
@@ -1432,35 +1497,39 @@ The 2027-ready graduate is a domain specialist and workflow critic. They do not 
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: MC-CLIND
 
-**Current:** 23/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
-**Target:** 28/36 RESILIENT | **Gap:** 5 points
+**Current:** 25/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
+**Target:** 28/36 RESILIENT | **Gap:** 3 points
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The MC-CLIND scored **23/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
+The MC-CLIND scored **25/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
-| Automation Exposure | 0/3 | Critical gap |
-| Systems Thinking | 0/3 | Critical gap |
-| Technical Depth | 0/3 | Critical gap |
-| Decision-Making | 0/3 | Critical gap |
+| Automation Exposure | 3/3 | Strong |
+| Systems Thinking | 1/3 | Critical gap |
+| Technical Depth | 2/3 | Adequate |
+| Decision-Making | 3/3 | Strong |
 | AI Literacy | 0/3 | Critical gap |
-| AI Literacy | 0/3 | Critical gap |
-| Domain Depth | 0/3 | Critical gap |
-| Research Rigour | 0/3 | Critical gap |
-| Human & Relational | 0/3 | Critical gap |
-| Curriculum Currency | 0/3 | Critical gap |
-| Outcome Evidence | 0/3 | Critical gap |
-| Irreplaceability (bonus) | 0/3 | Critical gap |
-| **TOTAL** | **23/36** | **MODERATE RISK** |
+| Domain Depth | 3/3 | Strong |
+| Research Rigour | 2/3 | Adequate |
+| Human & Relational | 3/3 | Strong |
+| Curriculum Currency | 2/3 | Adequate |
+| Outcome Evidence | 3/3 | Strong |
+| Irreplaceability (bonus) | 3/3 | Strong |
+| **TOTAL** | **25/36** | **MODERATE RISK** |
 
 ---
 
 ## 2. SCORE-TO-ACTION MAPPING
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
+| Systems Thinking | 1/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
+| Technical Depth | 2/3 | Entry-level skills show automation risk. | Require technical-elective sequence (3+ units) with applied project. |
+| Curriculum Currency | 2/3 | Entry-level skills show automation risk. | Add emerging-trends module updated each intake. |
+| AI Literacy | 0/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
+| Research Rigour | 2/3 | Entry-level skills show automation risk. | Replace literature review with primary data collection requirement. |
 
 ---
 
@@ -1475,6 +1544,9 @@ The MC-CLIND scored **23/36 — MODERATE RISK**. Gaps in core dimensions define 
 ## 4. PRIORITISED INTERVENTIONS TABLE
 | Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
 |---|---|---|---|---|---|---|---|---|
+| 1 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Require technical-elective sequence (3+ units) with applied project | Technical Depth | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Add emerging-trends module updated each intake | Curriculum Currency | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
 
 ---
 
@@ -1539,16 +1611,15 @@ The Master of Computer Science scored **27/36 — MODERATE RISK**. Gaps in core 
 |---|---|---|
 | Automation Exposure | 2/3 | Adequate |
 | Systems Thinking | 2/3 | Adequate |
-| Technical Depth | 0/3 | Critical gap |
+| Technical Depth | 3/3 | Strong |
 | Decision-Making | 3/3 | Strong |
-| AI Literacy | 0/3 | Critical gap |
-| AI Literacy | 0/3 | Critical gap |
+| AI Literacy | 3/3 | Strong |
 | Domain Depth | 3/3 | Strong |
 | Research Rigour | 3/3 | Strong |
 | Human & Relational | 2/3 | Adequate |
-| Curriculum Currency | 0/3 | Critical gap |
-| Outcome Evidence | 3/3 | Strong |
-| Irreplaceability (bonus) | 0/3 | Critical gap |
+| Curriculum Currency | 2/3 | Adequate |
+| Outcome Evidence | 1/3 | Critical gap |
+| Irreplaceability (bonus) | 3/3 | Strong |
 | **TOTAL** | **27/36** | **MODERATE RISK** |
 
 ---
@@ -1556,8 +1627,9 @@ The Master of Computer Science scored **27/36 — MODERATE RISK**. Gaps in core 
 ## 2. SCORE-TO-ACTION MAPPING
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
-| Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
+| Outcome Evidence | 1/3 | Entry-level skills show automation risk. | Publish graduate destination survey results on program page. |
 | Automation Exposure | 2/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
+| Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
 | Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |
 
 ---
@@ -1573,7 +1645,7 @@ The Master of Computer Science scored **27/36 — MODERATE RISK**. Gaps in core 
 ## 4. PRIORITISED INTERVENTIONS TABLE
 | Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 1 | Publish graduate destination survey results on program page | Outcome Evidence | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
 
 ---
 
@@ -1638,16 +1710,15 @@ The Master of Data Science scored **24/36 — MODERATE RISK**. Gaps in core dime
 |---|---|---|
 | Automation Exposure | 2/3 | Adequate |
 | Systems Thinking | 2/3 | Adequate |
-| Technical Depth | 2/3 | Adequate |
+| Technical Depth | 3/3 | Strong |
 | Decision-Making | 2/3 | Adequate |
-| AI Literacy | 2/3 | Adequate |
 | AI Literacy | 2/3 | Adequate |
 | Domain Depth | 3/3 | Strong |
 | Research Rigour | 2/3 | Adequate |
 | Human & Relational | 2/3 | Adequate |
 | Curriculum Currency | 3/3 | Strong |
-| Outcome Evidence | 3/3 | Strong |
-| Irreplaceability (bonus) | 0/3 | Critical gap |
+| Outcome Evidence | 1/3 | Critical gap |
+| Irreplaceability (bonus) | 2/3 | Adequate |
 | **TOTAL** | **24/36** | **MODERATE RISK** |
 
 ---
@@ -1655,10 +1726,10 @@ The Master of Data Science scored **24/36 — MODERATE RISK**. Gaps in core dime
 ## 2. SCORE-TO-ACTION MAPPING
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
+| Outcome Evidence | 1/3 | Entry-level skills show automation risk. | Publish graduate destination survey results on program page. |
 | Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
 | Decision-Making | 2/3 | Entry-level skills show automation risk. | Add capstone project requiring documented decision rationale. |
 | Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |
-| Technical Depth | 2/3 | Entry-level skills show automation risk. | Require technical-elective sequence (3+ units) with applied project. |
 | Automation Exposure | 2/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
 | AI Literacy | 2/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
 | Research Rigour | 2/3 | Entry-level skills show automation risk. | Replace literature review with primary data collection requirement. |
@@ -1676,10 +1747,10 @@ The Master of Data Science scored **24/36 — MODERATE RISK**. Gaps in core dime
 ## 4. PRIORITISED INTERVENTIONS TABLE
 | Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 2 | Add capstone project requiring documented decision rationale | Decision-Making | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 3 | Integrate stakeholder engagement into existing project assessment | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 4 | Require technical-elective sequence (3+ units) with applied project | Technical Depth | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 1 | Publish graduate destination survey results on program page | Outcome Evidence | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Add capstone project requiring documented decision rationale | Decision-Making | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 4 | Integrate stakeholder engagement into existing project assessment | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
 
 ---
 
@@ -1742,18 +1813,17 @@ The MC-ED scored **24/36 — MODERATE RISK**. Gaps in core dimensions define the
 
 | Dimension | Score | Status |
 |---|---|---|
-| Automation Exposure | 0/3 | Critical gap |
-| Systems Thinking | 0/3 | Critical gap |
-| Technical Depth | 0/3 | Critical gap |
-| Decision-Making | 0/3 | Critical gap |
-| AI Literacy | 0/3 | Critical gap |
-| AI Literacy | 0/3 | Critical gap |
-| Domain Depth | 0/3 | Critical gap |
-| Research Rigour | 0/3 | Critical gap |
-| Human & Relational | 0/3 | Critical gap |
-| Curriculum Currency | 0/3 | Critical gap |
-| Outcome Evidence | 0/3 | Critical gap |
-| Irreplaceability (bonus) | 0/3 | Critical gap |
+| Automation Exposure | 2/3 | Adequate |
+| Systems Thinking | 2/3 | Adequate |
+| Technical Depth | 1/3 | Critical gap |
+| Decision-Making | 2/3 | Adequate |
+| AI Literacy | 1/3 | Critical gap |
+| Domain Depth | 3/3 | Strong |
+| Research Rigour | 2/3 | Adequate |
+| Human & Relational | 3/3 | Strong |
+| Curriculum Currency | 2/3 | Adequate |
+| Outcome Evidence | 3/3 | Strong |
+| Irreplaceability (bonus) | 3/3 | Strong |
 | **TOTAL** | **24/36** | **MODERATE RISK** |
 
 ---
@@ -1761,6 +1831,13 @@ The MC-ED scored **24/36 — MODERATE RISK**. Gaps in core dimensions define the
 ## 2. SCORE-TO-ACTION MAPPING
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
+| Technical Depth | 1/3 | Entry-level skills show automation risk. | Require technical-elective sequence (3+ units) with applied project. |
+| Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
+| Decision-Making | 2/3 | Entry-level skills show automation risk. | Add capstone project requiring documented decision rationale. |
+| Curriculum Currency | 2/3 | Entry-level skills show automation risk. | Add emerging-trends module updated each intake. |
+| AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
+| Automation Exposure | 2/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
+| Research Rigour | 2/3 | Entry-level skills show automation risk. | Replace literature review with primary data collection requirement. |
 
 ---
 
@@ -1775,6 +1852,10 @@ The MC-ED scored **24/36 — MODERATE RISK**. Gaps in core dimensions define the
 ## 4. PRIORITISED INTERVENTIONS TABLE
 | Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
 |---|---|---|---|---|---|---|---|---|
+| 1 | Require technical-elective sequence (3+ units) with applied project | Technical Depth | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Add capstone project requiring documented decision rationale | Decision-Making | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 4 | Add emerging-trends module updated each intake | Curriculum Currency | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
 
 ---
 
@@ -1842,13 +1923,12 @@ The Master of Environmental Law scored **22/36 — MODERATE RISK**. Gaps in core
 | Technical Depth | 1/3 | Critical gap |
 | Decision-Making | 2/3 | Adequate |
 | AI Literacy | 2/3 | Adequate |
-| AI Literacy | 2/3 | Adequate |
 | Domain Depth | 3/3 | Strong |
 | Research Rigour | 1/3 | Critical gap |
 | Human & Relational | 2/3 | Adequate |
-| Curriculum Currency | 0/3 | Critical gap |
+| Curriculum Currency | 3/3 | Strong |
 | Outcome Evidence | 3/3 | Strong |
-| Irreplaceability (bonus) | 0/3 | Critical gap |
+| Irreplaceability (bonus) | 2/3 | Adequate |
 | **TOTAL** | **22/36** | **MODERATE RISK** |
 
 ---
@@ -1950,12 +2030,11 @@ The Master of Environmental Science scored **23/36 — MODERATE RISK**. Gaps in 
 | Technical Depth | 2/3 | Adequate |
 | Decision-Making | 3/3 | Strong |
 | AI Literacy | 1/3 | Critical gap |
-| AI Literacy | 1/3 | Critical gap |
 | Domain Depth | 3/3 | Strong |
 | Research Rigour | 2/3 | Adequate |
 | Human & Relational | 2/3 | Adequate |
-| Curriculum Currency | 0/3 | Critical gap |
-| Outcome Evidence | 2/3 | Adequate |
+| Curriculum Currency | 2/3 | Adequate |
+| Outcome Evidence | 1/3 | Critical gap |
 | Irreplaceability (bonus) | 2/3 | Adequate |
 | **TOTAL** | **23/36** | **MODERATE RISK** |
 
@@ -1964,13 +2043,13 @@ The Master of Environmental Science scored **23/36 — MODERATE RISK**. Gaps in 
 ## 2. SCORE-TO-ACTION MAPPING
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
+| Outcome Evidence | 1/3 | Entry-level skills show automation risk. | Publish graduate destination survey results on program page. |
 | Technical Depth | 2/3 | Entry-level skills show automation risk. | Require technical-elective sequence (3+ units) with applied project. |
 | Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |
-| Outcome Evidence | 2/3 | Entry-level skills show automation risk. | Add QILT GOS data + 3-year outcomes to public program information. |
+| Curriculum Currency | 2/3 | Entry-level skills show automation risk. | Add emerging-trends module updated each intake. |
 | AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
 | Automation Exposure | 2/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
 | Research Rigour | 2/3 | Entry-level skills show automation risk. | Replace literature review with primary data collection requirement. |
-| Irreplaceability (bonus) | 2/3 | Entry-level skills show automation risk. | Add regulatory accreditation or professional registration pathway. |
 
 ---
 
@@ -1985,10 +2064,11 @@ The Master of Environmental Science scored **23/36 — MODERATE RISK**. Gaps in 
 ## 4. PRIORITISED INTERVENTIONS TABLE
 | Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Require technical-elective sequence (3+ units) with applied project | Technical Depth | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 2 | Integrate stakeholder engagement into existing project assessment | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 3 | Add QILT GOS data + 3-year outcomes to public program information | Outcome Evidence | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 4 | Add dedicated AI in discipline core unit (12.5pt) | AI Literacy | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+| 1 | Publish graduate destination survey results on program page | Outcome Evidence | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Require technical-elective sequence (3+ units) with applied project | Technical Depth | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Integrate stakeholder engagement into existing project assessment | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 4 | Add emerging-trends module updated each intake | Curriculum Currency | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 5 | Add dedicated AI in discipline core unit (12.5pt) | AI Literacy | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
 
 ---
 
@@ -2056,13 +2136,12 @@ The Master of Genetic Counselling scored **26/36 — MODERATE RISK**. Gaps in co
 | Technical Depth | 2/3 | Adequate |
 | Decision-Making | 3/3 | Strong |
 | AI Literacy | 1/3 | Critical gap |
-| AI Literacy | 1/3 | Critical gap |
 | Domain Depth | 3/3 | Strong |
 | Research Rigour | 2/3 | Adequate |
 | Human & Relational | 3/3 | Strong |
 | Curriculum Currency | 2/3 | Adequate |
-| Outcome Evidence | 3/3 | Strong |
-| Irreplaceability (bonus) | 0/3 | Critical gap |
+| Outcome Evidence | 2/3 | Adequate |
+| Irreplaceability (bonus) | 3/3 | Strong |
 | **TOTAL** | **26/36** | **MODERATE RISK** |
 
 ---
@@ -2142,35 +2221,41 @@ The 2027-ready graduate is a domain specialist and workflow critic. They do not 
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: MC-INDENG
 
-**Current:** 22/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
-**Target:** 28/36 RESILIENT | **Gap:** 6 points
+**Current:** 23/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
+**Target:** 28/36 RESILIENT | **Gap:** 5 points
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The MC-INDENG scored **22/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
+The MC-INDENG scored **23/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
 | Automation Exposure | 0/3 | Critical gap |
-| Systems Thinking | 0/3 | Critical gap |
-| Technical Depth | 0/3 | Critical gap |
-| Decision-Making | 0/3 | Critical gap |
-| AI Literacy | 0/3 | Critical gap |
-| AI Literacy | 0/3 | Critical gap |
-| Domain Depth | 0/3 | Critical gap |
-| Research Rigour | 0/3 | Critical gap |
-| Human & Relational | 0/3 | Critical gap |
-| Curriculum Currency | 0/3 | Critical gap |
-| Outcome Evidence | 0/3 | Critical gap |
-| Irreplaceability (bonus) | 0/3 | Critical gap |
-| **TOTAL** | **22/36** | **MODERATE RISK** |
+| Systems Thinking | 3/3 | Strong |
+| Technical Depth | 3/3 | Strong |
+| Decision-Making | 2/3 | Adequate |
+| AI Literacy | 2/3 | Adequate |
+| Domain Depth | 3/3 | Strong |
+| Research Rigour | 2/3 | Adequate |
+| Human & Relational | 1/3 | Critical gap |
+| Curriculum Currency | 2/3 | Adequate |
+| Outcome Evidence | 3/3 | Strong |
+| Irreplaceability (bonus) | 2/3 | Adequate |
+| **TOTAL** | **23/36** | **MODERATE RISK** |
 
 ---
 
 ## 2. SCORE-TO-ACTION MAPPING
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
+| Human & Relational | 1/3 | Entry-level skills show automation risk. | Add ethics/professional practice unit or workshop series. |
+| Decision-Making | 2/3 | Entry-level skills show automation risk. | Add capstone project requiring documented decision rationale. |
+| Curriculum Currency | 2/3 | Entry-level skills show automation risk. | Add emerging-trends module updated each intake. |
+| Automation Exposure | 0/3 | Entry-level skills show automation risk. | Introduce capstone/internship with real client accountability. |
+| AI Literacy | 2/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
+| Research Rigour | 2/3 | Entry-level skills show automation risk. | Replace literature review with primary data collection requirement. |
+| Irreplaceability (bonus) | 2/3 | Entry-level skills show automation risk. | Add regulatory accreditation or professional registration pathway. |
 
 ---
 
@@ -2185,6 +2270,11 @@ The MC-INDENG scored **22/36 — MODERATE RISK**. Gaps in core dimensions define
 ## 4. PRIORITISED INTERVENTIONS TABLE
 | Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
 |---|---|---|---|---|---|---|---|---|
+| 1 | Add ethics/professional practice unit or workshop series | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Add capstone project requiring documented decision rationale | Decision-Making | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Add emerging-trends module updated each intake | Curriculum Currency | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 4 | Introduce capstone/internship with real client accountability | Automation Exposure | Strong market demand for AI-governance capabilities | HIGH | High | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+| 5 | Add dedicated AI in discipline core unit (12.5pt) | AI Literacy | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
 
 ---
 
@@ -2237,35 +2327,44 @@ The 2027-ready graduate is a domain specialist and workflow critic. They do not 
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: MC-INTEDIB
 
-**Current:** 16/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
-**Target:** 28/36 RESILIENT | **Gap:** 12 points
+**Current:** 18/36 HIGH RISK | **Duration:** 2 years (200 credit points)
+**Target:** 28/36 RESILIENT | **Gap:** 10 points
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The MC-INTEDIB scored **16/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
+The MC-INTEDIB scored **18/36 — HIGH RISK**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
-| Automation Exposure | 0/3 | Critical gap |
-| Systems Thinking | 0/3 | Critical gap |
-| Technical Depth | 0/3 | Critical gap |
-| Decision-Making | 0/3 | Critical gap |
-| AI Literacy | 0/3 | Critical gap |
-| AI Literacy | 0/3 | Critical gap |
-| Domain Depth | 0/3 | Critical gap |
-| Research Rigour | 0/3 | Critical gap |
-| Human & Relational | 0/3 | Critical gap |
-| Curriculum Currency | 0/3 | Critical gap |
-| Outcome Evidence | 0/3 | Critical gap |
-| Irreplaceability (bonus) | 0/3 | Critical gap |
-| **TOTAL** | **16/36** | **MODERATE RISK** |
+| Automation Exposure | 1/3 | Critical gap |
+| Systems Thinking | 2/3 | Adequate |
+| Technical Depth | 1/3 | Critical gap |
+| Decision-Making | 2/3 | Adequate |
+| AI Literacy | 1/3 | Critical gap |
+| Domain Depth | 2/3 | Adequate |
+| Research Rigour | 1/3 | Critical gap |
+| Human & Relational | 2/3 | Adequate |
+| Curriculum Currency | 2/3 | Adequate |
+| Outcome Evidence | 3/3 | Strong |
+| Irreplaceability (bonus) | 1/3 | Critical gap |
+| **TOTAL** | **18/36** | **HIGH RISK** |
 
 ---
 
 ## 2. SCORE-TO-ACTION MAPPING
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
+| Technical Depth | 1/3 | Entry-level skills show automation risk. | Require technical-elective sequence (3+ units) with applied project. |
+| Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
+| Decision-Making | 2/3 | Entry-level skills show automation risk. | Add capstone project requiring documented decision rationale. |
+| Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |
+| Curriculum Currency | 2/3 | Entry-level skills show automation risk. | Add emerging-trends module updated each intake. |
+| Automation Exposure | 1/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
+| AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
+| Research Rigour | 1/3 | Entry-level skills show automation risk. | Introduce a minor thesis or capstone research project. |
+| Irreplaceability (bonus) | 1/3 | Entry-level skills show automation risk. | Develop a dual-skill pathway (e.g., tech + domain, clinical + research). |
+| Domain Depth | 2/3 | Entry-level skills show automation risk. | Seek professional accreditation or industry partnership. |
 
 ---
 
@@ -2280,6 +2379,14 @@ The MC-INTEDIB scored **16/36 — MODERATE RISK**. Gaps in core dimensions defin
 ## 4. PRIORITISED INTERVENTIONS TABLE
 | Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
 |---|---|---|---|---|---|---|---|---|
+| 1 | Require technical-elective sequence (3+ units) with applied project | Technical Depth | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Add capstone project requiring documented decision rationale | Decision-Making | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 4 | Integrate stakeholder engagement into existing project assessment | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 5 | Add emerging-trends module updated each intake | Curriculum Currency | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 6 | Require industry project with defended outputs and stakeholder presentation | Automation Exposure | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+| 7 | Add dedicated AI in discipline core unit (12.5pt) | AI Literacy | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+| 8 | Introduce a minor thesis or capstone research project | Research Rigour | Strong market demand for AI-governance capabilities | HIGH | High | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
 
 ---
 
@@ -2439,6 +2546,11 @@ The MC-IS scored **18/36 — HIGH RISK**. One point below the MODERATE RISK thre
 The 2027-ready MC-IS graduate arrives knowing the job title on their offer letter is probably not the role they'll be doing within 18 months — and they are ready for that. They have a sector (not "IT in general"), can build a basic data pipeline, and have a real-client capstone artifact: a documented AI workflow implementation including failure modes, governance framework, and change management plan. 
 
 They do not use AI tools. They govern, supervise, and redesign them.
+
+---
+
+**Assessment Date:** 2026-06-21
+**Source Report:** reports/dfva-mc-is.md
 `,
   },
   "dfva-recommend-mc-journ": {
@@ -2461,13 +2573,12 @@ The Master of Journalism scored **20/36 — MODERATE RISK**. Gaps in core dimens
 | Technical Depth | 1/3 | Critical gap |
 | Decision-Making | 2/3 | Adequate |
 | AI Literacy | 1/3 | Critical gap |
-| AI Literacy | 1/3 | Critical gap |
 | Domain Depth | 3/3 | Strong |
 | Research Rigour | 2/3 | Adequate |
 | Human & Relational | 3/3 | Strong |
 | Curriculum Currency | 1/3 | Critical gap |
 | Outcome Evidence | 2/3 | Adequate |
-| Irreplaceability (bonus) | 0/3 | Critical gap |
+| Irreplaceability (bonus) | 2/3 | Adequate |
 | **TOTAL** | **20/36** | **MODERATE RISK** |
 
 ---
@@ -2483,6 +2594,7 @@ The Master of Journalism scored **20/36 — MODERATE RISK**. Gaps in core dimens
 | Automation Exposure | 1/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
 | AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
 | Research Rigour | 2/3 | Entry-level skills show automation risk. | Replace literature review with primary data collection requirement. |
+| Irreplaceability (bonus) | 2/3 | Entry-level skills show automation risk. | Add regulatory accreditation or professional registration pathway. |
 
 ---
 
@@ -2571,13 +2683,12 @@ The Master of Nursing Science scored **26/36 — MODERATE RISK**. Gaps in core d
 | Technical Depth | 2/3 | Adequate |
 | Decision-Making | 3/3 | Strong |
 | AI Literacy | 1/3 | Critical gap |
-| AI Literacy | 1/3 | Critical gap |
 | Domain Depth | 3/3 | Strong |
 | Research Rigour | 2/3 | Adequate |
 | Human & Relational | 3/3 | Strong |
 | Curriculum Currency | 2/3 | Adequate |
-| Outcome Evidence | 3/3 | Strong |
-| Irreplaceability (bonus) | 0/3 | Critical gap |
+| Outcome Evidence | 2/3 | Adequate |
+| Irreplaceability (bonus) | 3/3 | Strong |
 | **TOTAL** | **26/36** | **MODERATE RISK** |
 
 ---
@@ -2657,35 +2768,37 @@ The 2027-ready graduate is a domain specialist and workflow critic. They do not 
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: MC-PHTYPH
 
-**Current:** 25/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
-**Target:** 28/36 RESILIENT | **Gap:** 3 points
+**Current:** 27/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
+**Target:** 28/36 RESILIENT | **Gap:** 1 point
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The MC-PHTYPH scored **25/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
+The MC-PHTYPH scored **27/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
-| Automation Exposure | 0/3 | Critical gap |
-| Systems Thinking | 0/3 | Critical gap |
-| Technical Depth | 0/3 | Critical gap |
-| Decision-Making | 0/3 | Critical gap |
-| AI Literacy | 0/3 | Critical gap |
-| AI Literacy | 0/3 | Critical gap |
-| Domain Depth | 0/3 | Critical gap |
-| Research Rigour | 0/3 | Critical gap |
-| Human & Relational | 0/3 | Critical gap |
-| Curriculum Currency | 0/3 | Critical gap |
-| Outcome Evidence | 0/3 | Critical gap |
-| Irreplaceability (bonus) | 0/3 | Critical gap |
-| **TOTAL** | **25/36** | **MODERATE RISK** |
+| Automation Exposure | 3/3 | Strong |
+| Systems Thinking | 1/3 | Critical gap |
+| Technical Depth | 2/3 | Adequate |
+| Decision-Making | 3/3 | Strong |
+| AI Literacy | 1/3 | Critical gap |
+| Domain Depth | 3/3 | Strong |
+| Research Rigour | 3/3 | Strong |
+| Human & Relational | 3/3 | Strong |
+| Curriculum Currency | 2/3 | Adequate |
+| Outcome Evidence | 3/3 | Strong |
+| Irreplaceability (bonus) | 3/3 | Strong |
+| **TOTAL** | **27/36** | **MODERATE RISK** |
 
 ---
 
 ## 2. SCORE-TO-ACTION MAPPING
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
+| Systems Thinking | 1/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
+| AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
+| Technical Depth | 2/3 | Entry-level skills show automation risk. | Require technical-elective sequence (3+ units) with applied project. |
 
 ---
 
@@ -2700,6 +2813,7 @@ The MC-PHTYPH scored **25/36 — MODERATE RISK**. Gaps in core dimensions define
 ## 4. PRIORITISED INTERVENTIONS TABLE
 | Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
 |---|---|---|---|---|---|---|---|---|
+| 1 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
 
 ---
 
@@ -2767,13 +2881,12 @@ The Master of Property scored **22/36 — MODERATE RISK**. Gaps in core dimensio
 | Technical Depth | 2/3 | Adequate |
 | Decision-Making | 2/3 | Adequate |
 | AI Literacy | 1/3 | Critical gap |
-| AI Literacy | 1/3 | Critical gap |
 | Domain Depth | 3/3 | Strong |
 | Research Rigour | 2/3 | Adequate |
 | Human & Relational | 2/3 | Adequate |
 | Curriculum Currency | 2/3 | Adequate |
 | Outcome Evidence | 2/3 | Adequate |
-| Irreplaceability (bonus) | 0/3 | Critical gap |
+| Irreplaceability (bonus) | 2/3 | Adequate |
 | **TOTAL** | **22/36** | **MODERATE RISK** |
 
 ---
@@ -2862,13 +2975,13 @@ The 2027-ready graduate is a domain specialist and workflow critic. They do not 
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: Master of Professional Psychology
 
-**Current:** 26/36 MODERATE RISK | **Duration:** 2 years (200 pts)
-**Target:** 28/36 RESILIENT | **Gap:** 2 points
+**Current:** 27/36 MODERATE RISK | **Duration:** 2 years (200 pts)
+**Target:** 28/36 RESILIENT | **Gap:** 1 point
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The Master of Professional Psychology scored **26/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
+The Master of Professional Psychology scored **27/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
@@ -2877,14 +2990,13 @@ The Master of Professional Psychology scored **26/36 — MODERATE RISK**. Gaps i
 | Technical Depth | 2/3 | Adequate |
 | Decision-Making | 3/3 | Strong |
 | AI Literacy | 1/3 | Critical gap |
-| AI Literacy | 1/3 | Critical gap |
 | Domain Depth | 3/3 | Strong |
 | Research Rigour | 2/3 | Adequate |
 | Human & Relational | 3/3 | Strong |
 | Curriculum Currency | 2/3 | Adequate |
 | Outcome Evidence | 3/3 | Strong |
-| Irreplaceability (bonus) | 0/3 | Critical gap |
-| **TOTAL** | **26/36** | **MODERATE RISK** |
+| Irreplaceability (bonus) | 3/3 | Strong |
+| **TOTAL** | **27/36** | **MODERATE RISK** |
 
 ---
 
@@ -2892,9 +3004,8 @@ The Master of Professional Psychology scored **26/36 — MODERATE RISK**. Gaps i
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
 | Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
-| Technical Depth | 2/3 | Entry-level skills show automation risk. | Require technical-elective sequence (3+ units) with applied project. |
 | AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
-| Research Rigour | 2/3 | Entry-level skills show automation risk. | Replace literature review with primary data collection requirement. |
+| Technical Depth | 2/3 | Entry-level skills show automation risk. | Require technical-elective sequence (3+ units) with applied project. |
 
 ---
 
@@ -2910,7 +3021,6 @@ The Master of Professional Psychology scored **26/36 — MODERATE RISK**. Gaps i
 | Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
 |---|---|---|---|---|---|---|---|---|
 | 1 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 2 | Require technical-elective sequence (3+ units) with applied project | Technical Depth | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
 
 ---
 
@@ -2978,13 +3088,12 @@ The Master of Science (Bioinformatics) scored **24/36 — MODERATE RISK**. Gaps 
 | Technical Depth | 3/3 | Strong |
 | Decision-Making | 2/3 | Adequate |
 | AI Literacy | 1/3 | Critical gap |
-| AI Literacy | 1/3 | Critical gap |
 | Domain Depth | 3/3 | Strong |
 | Research Rigour | 3/3 | Strong |
-| Human & Relational | 0/3 | Critical gap |
-| Curriculum Currency | 0/3 | Critical gap |
-| Outcome Evidence | 0/3 | Critical gap |
-| Irreplaceability (bonus) | 0/3 | Critical gap |
+| Human & Relational | 2/3 | Adequate |
+| Curriculum Currency | 2/3 | Adequate |
+| Outcome Evidence | 1/3 | Critical gap |
+| Irreplaceability (bonus) | 3/3 | Strong |
 | **TOTAL** | **24/36** | **MODERATE RISK** |
 
 ---
@@ -2992,8 +3101,10 @@ The Master of Science (Bioinformatics) scored **24/36 — MODERATE RISK**. Gaps 
 ## 2. SCORE-TO-ACTION MAPPING
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
+| Outcome Evidence | 1/3 | Entry-level skills show automation risk. | Publish graduate destination survey results on program page. |
 | Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
 | Decision-Making | 2/3 | Entry-level skills show automation risk. | Add capstone project requiring documented decision rationale. |
+| Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |
 | AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
 | Automation Exposure | 2/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
 
@@ -3010,9 +3121,10 @@ The Master of Science (Bioinformatics) scored **24/36 — MODERATE RISK**. Gaps 
 ## 4. PRIORITISED INTERVENTIONS TABLE
 | Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 2 | Add capstone project requiring documented decision rationale | Decision-Making | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 3 | Add dedicated AI in discipline core unit (12.5pt) | AI Literacy | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+| 1 | Publish graduate destination survey results on program page | Outcome Evidence | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Add capstone project requiring documented decision rationale | Decision-Making | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 4 | Integrate stakeholder engagement into existing project assessment | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
 
 ---
 
@@ -3080,13 +3192,12 @@ The Master of Science (BioSciences) scored **25/36 — MODERATE RISK**. Gaps in 
 | Technical Depth | 3/3 | Strong |
 | Decision-Making | 3/3 | Strong |
 | AI Literacy | 1/3 | Critical gap |
-| AI Literacy | 1/3 | Critical gap |
 | Domain Depth | 3/3 | Strong |
 | Research Rigour | 3/3 | Strong |
-| Human & Relational | 0/3 | Critical gap |
-| Curriculum Currency | 0/3 | Critical gap |
-| Outcome Evidence | 2/3 | Adequate |
-| Irreplaceability (bonus) | 0/3 | Critical gap |
+| Human & Relational | 2/3 | Adequate |
+| Curriculum Currency | 2/3 | Adequate |
+| Outcome Evidence | 1/3 | Critical gap |
+| Irreplaceability (bonus) | 3/3 | Strong |
 | **TOTAL** | **25/36** | **MODERATE RISK** |
 
 ---
@@ -3094,8 +3205,9 @@ The Master of Science (BioSciences) scored **25/36 — MODERATE RISK**. Gaps in 
 ## 2. SCORE-TO-ACTION MAPPING
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
+| Outcome Evidence | 1/3 | Entry-level skills show automation risk. | Publish graduate destination survey results on program page. |
 | Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
-| Outcome Evidence | 2/3 | Entry-level skills show automation risk. | Add QILT GOS data + 3-year outcomes to public program information. |
+| Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |
 | AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
 | Automation Exposure | 2/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
 
@@ -3112,9 +3224,9 @@ The Master of Science (BioSciences) scored **25/36 — MODERATE RISK**. Gaps in 
 ## 4. PRIORITISED INTERVENTIONS TABLE
 | Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 2 | Add QILT GOS data + 3-year outcomes to public program information | Outcome Evidence | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 3 | Add dedicated AI in discipline core unit (12.5pt) | AI Literacy | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+| 1 | Publish graduate destination survey results on program page | Outcome Evidence | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Integrate stakeholder engagement into existing project assessment | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
 
 ---
 
@@ -3271,6 +3383,11 @@ The MC-SCIBIT scored **24/36 — MODERATE RISK (upper band)**. This is the highe
 The 2027-ready biotechnology graduate is not a documentation clerk or entry-level laboratory technician — they are a **Biotechnology Regulatory Specialist and QA Lead**. They understand how to design, execute, and validate computational biology experiments under strict regulatory frameworks. 
 
 They can bridge the gap between AI-driven drug discovery pipelines and TGA/FDA compliance mandates, providing the critical human validation layer that biopharma companies require.
+
+---
+
+**Assessment Date:** 2026-06-21
+**Source Report:** reports/dfva-mc-scibit.md
 `,
   },
   "dfva-recommend-mc-sciche": {
@@ -3293,13 +3410,12 @@ The Master of Science (Chemistry) scored **25/36 — MODERATE RISK**. Gaps in co
 | Technical Depth | 3/3 | Strong |
 | Decision-Making | 3/3 | Strong |
 | AI Literacy | 1/3 | Critical gap |
-| AI Literacy | 1/3 | Critical gap |
 | Domain Depth | 3/3 | Strong |
 | Research Rigour | 3/3 | Strong |
 | Human & Relational | 2/3 | Adequate |
 | Curriculum Currency | 2/3 | Adequate |
-| Outcome Evidence | 2/3 | Adequate |
-| Irreplaceability (bonus) | 0/3 | Critical gap |
+| Outcome Evidence | 1/3 | Critical gap |
+| Irreplaceability (bonus) | 3/3 | Strong |
 | **TOTAL** | **25/36** | **MODERATE RISK** |
 
 ---
@@ -3307,9 +3423,9 @@ The Master of Science (Chemistry) scored **25/36 — MODERATE RISK**. Gaps in co
 ## 2. SCORE-TO-ACTION MAPPING
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
+| Outcome Evidence | 1/3 | Entry-level skills show automation risk. | Publish graduate destination survey results on program page. |
 | Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
 | Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |
-| Curriculum Currency | 2/3 | Entry-level skills show automation risk. | Add emerging-trends module updated each intake. |
 | AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
 | Automation Exposure | 2/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
 
@@ -3326,9 +3442,9 @@ The Master of Science (Chemistry) scored **25/36 — MODERATE RISK**. Gaps in co
 ## 4. PRIORITISED INTERVENTIONS TABLE
 | Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 2 | Integrate stakeholder engagement into existing project assessment | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 3 | Add emerging-trends module updated each intake | Curriculum Currency | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 1 | Publish graduate destination survey results on program page | Outcome Evidence | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Integrate stakeholder engagement into existing project assessment | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
 
 ---
 
@@ -3487,6 +3603,11 @@ The Master of Science (Earth Sciences) scores **24/36 (MODERATE RISK)**. Its fun
 The 2027-ready earth sciences graduate is a **Geosystems Specialist and Model Critic**. They combine rigorous field-based data collection with advanced computational mapping capabilities. They do not merely operate GIS, logging, or climate models; they govern and audit them. 
 
 They understand the limitations of automated logs, verify digital projections against physical observations, and can translate complex climate or resource data into clear, actionable advice for non-specialist stakeholders.
+
+---
+
+**Assessment Date:** 2026-06-21
+**Source Report:** reports/dfva-mc-sciear.md
 `,
   },
   "dfva-recommend-mc-sciepi": {
@@ -3598,6 +3719,11 @@ The Master of Science (Epidemiology) scores **23/36 (MODERATE RISK)**. The progr
 The 2027-ready epidemiology graduate is an **Epidemiological Auditor and Causal Analyst**. They combine rigorous statistical modeling capabilities with advanced critical validation skills. They do not merely compile health statistics or output automated predictive curves; they govern and audit the models. 
 
 They understand structural data biases, design robust causal inference frameworks, and can clearly translate complex statistics into trusted public health policy decisions.
+
+---
+
+**Assessment Date:** 2026-06-21
+**Source Report:** reports/dfva-mc-sciepi.md
 `,
   },
   "dfva-recommend-mc-sciphy": {
@@ -3620,13 +3746,12 @@ The Master of Science (Physics) scored **25/36 — MODERATE RISK**. Gaps in core
 | Technical Depth | 3/3 | Strong |
 | Decision-Making | 3/3 | Strong |
 | AI Literacy | 1/3 | Critical gap |
-| AI Literacy | 1/3 | Critical gap |
 | Domain Depth | 3/3 | Strong |
 | Research Rigour | 3/3 | Strong |
-| Human & Relational | 0/3 | Critical gap |
+| Human & Relational | 2/3 | Adequate |
 | Curriculum Currency | 2/3 | Adequate |
-| Outcome Evidence | 2/3 | Adequate |
-| Irreplaceability (bonus) | 0/3 | Critical gap |
+| Outcome Evidence | 1/3 | Critical gap |
+| Irreplaceability (bonus) | 3/3 | Strong |
 | **TOTAL** | **25/36** | **MODERATE RISK** |
 
 ---
@@ -3634,9 +3759,9 @@ The Master of Science (Physics) scored **25/36 — MODERATE RISK**. Gaps in core
 ## 2. SCORE-TO-ACTION MAPPING
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
+| Outcome Evidence | 1/3 | Entry-level skills show automation risk. | Publish graduate destination survey results on program page. |
 | Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
-| Curriculum Currency | 2/3 | Entry-level skills show automation risk. | Add emerging-trends module updated each intake. |
-| Outcome Evidence | 2/3 | Entry-level skills show automation risk. | Add QILT GOS data + 3-year outcomes to public program information. |
+| Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |
 | AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
 | Automation Exposure | 2/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
 
@@ -3653,9 +3778,9 @@ The Master of Science (Physics) scored **25/36 — MODERATE RISK**. Gaps in core
 ## 4. PRIORITISED INTERVENTIONS TABLE
 | Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 2 | Add emerging-trends module updated each intake | Curriculum Currency | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 3 | Add QILT GOS data + 3-year outcomes to public program information | Outcome Evidence | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 1 | Publish graduate destination survey results on program page | Outcome Evidence | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Integrate stakeholder engagement into existing project assessment | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
 
 ---
 
@@ -3708,29 +3833,28 @@ The 2027-ready graduate is a domain specialist and workflow critic. They do not 
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: Master of Screenwriting
 
-**Current:** 11/36 MODERATE RISK | **Duration:** 1.5 years (150 credit points)
-**Target:** 28/36 RESILIENT | **Gap:** 17 points
+**Current:** 12/36 HIGH RISK | **Duration:** 1.5 years (150 credit points)
+**Target:** 28/36 RESILIENT | **Gap:** 16 points
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The Master of Screenwriting scored **11/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
+The Master of Screenwriting scored **12/36 — HIGH RISK**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
 | Automation Exposure | 0/3 | Critical gap |
 | Systems Thinking | 1/3 | Critical gap |
-| Technical Depth | 0/3 | Critical gap |
+| Technical Depth | 1/3 | Critical gap |
 | Decision-Making | 2/3 | Adequate |
-| AI Literacy | 0/3 | Critical gap |
 | AI Literacy | 0/3 | Critical gap |
 | Domain Depth | 2/3 | Adequate |
 | Research Rigour | 0/3 | Critical gap |
 | Human & Relational | 2/3 | Adequate |
-| Curriculum Currency | 0/3 | Critical gap |
+| Curriculum Currency | 1/3 | Critical gap |
 | Outcome Evidence | 2/3 | Adequate |
 | Irreplaceability (bonus) | 1/3 | Critical gap |
-| **TOTAL** | **11/36** | **MODERATE RISK** |
+| **TOTAL** | **12/36** | **HIGH RISK** |
 
 ---
 
@@ -3738,6 +3862,8 @@ The Master of Screenwriting scored **11/36 — MODERATE RISK**. Gaps in core dim
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
 | Systems Thinking | 1/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
+| Technical Depth | 1/3 | Entry-level skills show automation risk. | Require technical-elective sequence (3+ units) with applied project. |
+| Curriculum Currency | 1/3 | Entry-level skills show automation risk. | Establish annual curriculum review with industry advisory panel. |
 | Decision-Making | 2/3 | Entry-level skills show automation risk. | Add capstone project requiring documented decision rationale. |
 | Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |
 | Outcome Evidence | 2/3 | Entry-level skills show automation risk. | Add QILT GOS data + 3-year outcomes to public program information. |
@@ -3761,14 +3887,16 @@ The Master of Screenwriting scored **11/36 — MODERATE RISK**. Gaps in core dim
 | Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
 |---|---|---|---|---|---|---|---|---|
 | 1 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 2 | Add capstone project requiring documented decision rationale | Decision-Making | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 3 | Integrate stakeholder engagement into existing project assessment | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 4 | Add QILT GOS data + 3-year outcomes to public program information | Outcome Evidence | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 5 | Introduce capstone/internship with real client accountability | Automation Exposure | Strong market demand for AI-governance capabilities | HIGH | High | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
-| 6 | Add dedicated AI in discipline core unit (12.5pt) | AI Literacy | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
-| 7 | Introduce a minor thesis or capstone research project | Research Rigour | Strong market demand for AI-governance capabilities | HIGH | High | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
-| 8 | Develop a dual-skill pathway (e.g., tech + domain, clinical + research) | Irreplaceability (bonus) | Strong market demand for AI-governance capabilities | HIGH | High | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
-| 9 | Seek professional accreditation or industry partnership | Domain Depth | Strong market demand for AI-governance capabilities | HIGH | High | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+| 2 | Require technical-elective sequence (3+ units) with applied project | Technical Depth | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Establish annual curriculum review with industry advisory panel | Curriculum Currency | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 4 | Add capstone project requiring documented decision rationale | Decision-Making | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 5 | Integrate stakeholder engagement into existing project assessment | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 6 | Add QILT GOS data + 3-year outcomes to public program information | Outcome Evidence | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 7 | Introduce capstone/internship with real client accountability | Automation Exposure | Strong market demand for AI-governance capabilities | HIGH | High | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+| 8 | Add dedicated AI in discipline core unit (12.5pt) | AI Literacy | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+| 9 | Introduce a minor thesis or capstone research project | Research Rigour | Strong market demand for AI-governance capabilities | HIGH | High | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+| 10 | Develop a dual-skill pathway (e.g., tech + domain, clinical + research) | Irreplaceability (bonus) | Strong market demand for AI-governance capabilities | HIGH | High | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+| 11 | Seek professional accreditation or industry partnership | Domain Depth | Strong market demand for AI-governance capabilities | HIGH | High | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
 
 ---
 
@@ -3831,18 +3959,17 @@ The MC-SURGED scored **25/36 — MODERATE RISK**. Gaps in core dimensions define
 
 | Dimension | Score | Status |
 |---|---|---|
-| Automation Exposure | 0/3 | Critical gap |
-| Systems Thinking | 0/3 | Critical gap |
-| Technical Depth | 0/3 | Critical gap |
-| Decision-Making | 0/3 | Critical gap |
-| AI Literacy | 0/3 | Critical gap |
-| AI Literacy | 0/3 | Critical gap |
-| Domain Depth | 0/3 | Critical gap |
-| Research Rigour | 0/3 | Critical gap |
-| Human & Relational | 0/3 | Critical gap |
-| Curriculum Currency | 0/3 | Critical gap |
-| Outcome Evidence | 0/3 | Critical gap |
-| Irreplaceability (bonus) | 0/3 | Critical gap |
+| Automation Exposure | 3/3 | Strong |
+| Systems Thinking | 2/3 | Adequate |
+| Technical Depth | 1/3 | Critical gap |
+| Decision-Making | 2/3 | Adequate |
+| AI Literacy | 1/3 | Critical gap |
+| Domain Depth | 3/3 | Strong |
+| Research Rigour | 2/3 | Adequate |
+| Human & Relational | 3/3 | Strong |
+| Curriculum Currency | 2/3 | Adequate |
+| Outcome Evidence | 3/3 | Strong |
+| Irreplaceability (bonus) | 3/3 | Strong |
 | **TOTAL** | **25/36** | **MODERATE RISK** |
 
 ---
@@ -3850,6 +3977,11 @@ The MC-SURGED scored **25/36 — MODERATE RISK**. Gaps in core dimensions define
 ## 2. SCORE-TO-ACTION MAPPING
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
+| Technical Depth | 1/3 | Entry-level skills show automation risk. | Require technical-elective sequence (3+ units) with applied project. |
+| Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
+| Decision-Making | 2/3 | Entry-level skills show automation risk. | Add capstone project requiring documented decision rationale. |
+| AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
+| Research Rigour | 2/3 | Entry-level skills show automation risk. | Replace literature review with primary data collection requirement. |
 
 ---
 
@@ -3864,6 +3996,9 @@ The MC-SURGED scored **25/36 — MODERATE RISK**. Gaps in core dimensions define
 ## 4. PRIORITISED INTERVENTIONS TABLE
 | Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
 |---|---|---|---|---|---|---|---|---|
+| 1 | Require technical-elective sequence (3+ units) with applied project | Technical Depth | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Add capstone project requiring documented decision rationale | Decision-Making | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
 
 ---
 
@@ -3916,13 +4051,13 @@ The 2027-ready graduate is a domain specialist and workflow critic. They do not 
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: Master of TESOL
 
-**Current:** 21/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
-**Target:** 28/36 RESILIENT | **Gap:** 7 points
+**Current:** 23/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
+**Target:** 28/36 RESILIENT | **Gap:** 5 points
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The Master of TESOL scored **21/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
+The Master of TESOL scored **23/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
@@ -3931,14 +4066,13 @@ The Master of TESOL scored **21/36 — MODERATE RISK**. Gaps in core dimensions 
 | Technical Depth | 1/3 | Critical gap |
 | Decision-Making | 2/3 | Adequate |
 | AI Literacy | 1/3 | Critical gap |
-| AI Literacy | 1/3 | Critical gap |
 | Domain Depth | 2/3 | Adequate |
 | Research Rigour | 2/3 | Adequate |
 | Human & Relational | 3/3 | Strong |
-| Curriculum Currency | 0/3 | Critical gap |
+| Curriculum Currency | 2/3 | Adequate |
 | Outcome Evidence | 3/3 | Strong |
 | Irreplaceability (bonus) | 0/3 | Critical gap |
-| **TOTAL** | **21/36** | **MODERATE RISK** |
+| **TOTAL** | **23/36** | **MODERATE RISK** |
 
 ---
 
@@ -3948,6 +4082,7 @@ The Master of TESOL scored **21/36 — MODERATE RISK**. Gaps in core dimensions 
 | Technical Depth | 1/3 | Entry-level skills show automation risk. | Require technical-elective sequence (3+ units) with applied project. |
 | Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
 | Decision-Making | 2/3 | Entry-level skills show automation risk. | Add capstone project requiring documented decision rationale. |
+| Curriculum Currency | 2/3 | Entry-level skills show automation risk. | Add emerging-trends module updated each intake. |
 | Automation Exposure | 1/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
 | AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
 | Domain Depth | 2/3 | Entry-level skills show automation risk. | Seek professional accreditation or industry partnership. |
@@ -3969,9 +4104,8 @@ The Master of TESOL scored **21/36 — MODERATE RISK**. Gaps in core dimensions 
 | 1 | Require technical-elective sequence (3+ units) with applied project | Technical Depth | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
 | 2 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
 | 3 | Add capstone project requiring documented decision rationale | Decision-Making | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 4 | Require industry project with defended outputs and stakeholder presentation | Automation Exposure | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
-| 5 | Add dedicated AI in discipline core unit (12.5pt) | AI Literacy | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
-| 6 | Seek professional accreditation or industry partnership | Domain Depth | Strong market demand for AI-governance capabilities | HIGH | High | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+| 4 | Add emerging-trends module updated each intake | Curriculum Currency | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 5 | Require industry project with defended outputs and stakeholder presentation | Automation Exposure | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
 
 ---
 
@@ -4024,29 +4158,28 @@ The 2027-ready graduate is a domain specialist and workflow critic. They do not 
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: Master of Urban Design
 
-**Current:** 26/36 MODERATE RISK | **Duration:** 2 years (200 pts)
-**Target:** 28/36 RESILIENT | **Gap:** 2 points
+**Current:** 25/36 MODERATE RISK | **Duration:** 2 years (200 pts)
+**Target:** 28/36 RESILIENT | **Gap:** 3 points
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The Master of Urban Design scored **26/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
+The Master of Urban Design scored **25/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
 | Automation Exposure | 2/3 | Adequate |
 | Systems Thinking | 3/3 | Strong |
-| Technical Depth | 3/3 | Strong |
+| Technical Depth | 0/3 | Critical gap |
 | Decision-Making | 3/3 | Strong |
-| AI Literacy | 1/3 | Critical gap |
 | AI Literacy | 1/3 | Critical gap |
 | Domain Depth | 3/3 | Strong |
 | Research Rigour | 3/3 | Strong |
-| Human & Relational | 0/3 | Critical gap |
+| Human & Relational | 3/3 | Strong |
 | Curriculum Currency | 2/3 | Adequate |
 | Outcome Evidence | 2/3 | Adequate |
-| Irreplaceability (bonus) | 0/3 | Critical gap |
-| **TOTAL** | **26/36** | **MODERATE RISK** |
+| Irreplaceability (bonus) | 3/3 | Strong |
+| **TOTAL** | **25/36** | **MODERATE RISK** |
 
 ---
 
@@ -4055,6 +4188,7 @@ The Master of Urban Design scored **26/36 — MODERATE RISK**. Gaps in core dime
 |---|---|---|---|
 | Curriculum Currency | 2/3 | Entry-level skills show automation risk. | Add emerging-trends module updated each intake. |
 | Outcome Evidence | 2/3 | Entry-level skills show automation risk. | Add QILT GOS data + 3-year outcomes to public program information. |
+| Technical Depth | 0/3 | Entry-level skills show automation risk. | Add quantitative methods or data analysis core unit. |
 | AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
 | Automation Exposure | 2/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
 
@@ -4073,6 +4207,7 @@ The Master of Urban Design scored **26/36 — MODERATE RISK**. Gaps in core dime
 |---|---|---|---|---|---|---|---|---|
 | 1 | Add emerging-trends module updated each intake | Curriculum Currency | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
 | 2 | Add QILT GOS data + 3-year outcomes to public program information | Outcome Evidence | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Add quantitative methods or data analysis core unit | Technical Depth | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
 
 ---
 
@@ -4125,41 +4260,38 @@ The 2027-ready graduate is a domain specialist and workflow critic. They do not 
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: Master of Urban Horticulture
 
-**Current:** 24/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
-**Target:** 28/36 RESILIENT | **Gap:** 4 points
+**Current:** 25/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
+**Target:** 28/36 RESILIENT | **Gap:** 3 points
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The Master of Urban Horticulture scored **24/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
+The Master of Urban Horticulture scored **25/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
-| Automation Exposure | 2/3 | Adequate |
-| Systems Thinking | 3/3 | Strong |
+| Automation Exposure | 3/3 | Strong |
+| Systems Thinking | 2/3 | Adequate |
 | Technical Depth | 2/3 | Adequate |
 | Decision-Making | 2/3 | Adequate |
-| AI Literacy | 1/3 | Critical gap |
 | AI Literacy | 1/3 | Critical gap |
 | Domain Depth | 3/3 | Strong |
 | Research Rigour | 2/3 | Adequate |
 | Human & Relational | 2/3 | Adequate |
-| Curriculum Currency | 3/3 | Strong |
+| Curriculum Currency | 2/3 | Adequate |
 | Outcome Evidence | 2/3 | Adequate |
-| Irreplaceability (bonus) | 2/3 | Adequate |
-| **TOTAL** | **24/36** | **MODERATE RISK** |
+| Irreplaceability (bonus) | 0/3 | Critical gap |
+| **TOTAL** | **25/36** | **MODERATE RISK** |
 
 ---
 
 ## 2. SCORE-TO-ACTION MAPPING
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
+| Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
 | Technical Depth | 2/3 | Entry-level skills show automation risk. | Require technical-elective sequence (3+ units) with applied project. |
 | Decision-Making | 2/3 | Entry-level skills show automation risk. | Add capstone project requiring documented decision rationale. |
-| Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |
-| Outcome Evidence | 2/3 | Entry-level skills show automation risk. | Add QILT GOS data + 3-year outcomes to public program information. |
 | AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
-| Automation Exposure | 2/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
 | Research Rigour | 2/3 | Entry-level skills show automation risk. | Replace literature review with primary data collection requirement. |
 
 ---
@@ -4175,10 +4307,9 @@ The Master of Urban Horticulture scored **24/36 — MODERATE RISK**. Gaps in cor
 ## 4. PRIORITISED INTERVENTIONS TABLE
 | Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Require technical-elective sequence (3+ units) with applied project | Technical Depth | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 2 | Add capstone project requiring documented decision rationale | Decision-Making | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 3 | Integrate stakeholder engagement into existing project assessment | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 4 | Add QILT GOS data + 3-year outcomes to public program information | Outcome Evidence | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 1 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 2 | Require technical-elective sequence (3+ units) with applied project | Technical Depth | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Add capstone project requiring documented decision rationale | Decision-Making | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
 
 ---
 

@@ -1,12 +1,12 @@
 ## IMPROVEMENT PLAN: Master of TESOL
 
-**Current:** 21/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
-**Target:** 28/36 RESILIENT | **Gap:** 7 points
+**Current:** 23/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
+**Target:** 28/36 RESILIENT | **Gap:** 5 points
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The Master of TESOL scored **21/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
+The Master of TESOL scored **23/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
@@ -15,14 +15,13 @@ The Master of TESOL scored **21/36 — MODERATE RISK**. Gaps in core dimensions 
 | Technical Depth | 1/3 | Critical gap |
 | Decision-Making | 2/3 | Adequate |
 | AI Literacy | 1/3 | Critical gap |
-| AI Literacy | 1/3 | Critical gap |
 | Domain Depth | 2/3 | Adequate |
 | Research Rigour | 2/3 | Adequate |
 | Human & Relational | 3/3 | Strong |
-| Curriculum Currency | 0/3 | Critical gap |
+| Curriculum Currency | 2/3 | Adequate |
 | Outcome Evidence | 3/3 | Strong |
 | Irreplaceability (bonus) | 0/3 | Critical gap |
-| **TOTAL** | **21/36** | **MODERATE RISK** |
+| **TOTAL** | **23/36** | **MODERATE RISK** |
 
 ---
 
@@ -32,6 +31,7 @@ The Master of TESOL scored **21/36 — MODERATE RISK**. Gaps in core dimensions 
 | Technical Depth | 1/3 | Entry-level skills show automation risk. | Require technical-elective sequence (3+ units) with applied project. |
 | Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
 | Decision-Making | 2/3 | Entry-level skills show automation risk. | Add capstone project requiring documented decision rationale. |
+| Curriculum Currency | 2/3 | Entry-level skills show automation risk. | Add emerging-trends module updated each intake. |
 | Automation Exposure | 1/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
 | AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
 | Domain Depth | 2/3 | Entry-level skills show automation risk. | Seek professional accreditation or industry partnership. |
@@ -53,9 +53,8 @@ The Master of TESOL scored **21/36 — MODERATE RISK**. Gaps in core dimensions 
 | 1 | Require technical-elective sequence (3+ units) with applied project | Technical Depth | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
 | 2 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
 | 3 | Add capstone project requiring documented decision rationale | Decision-Making | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 4 | Require industry project with defended outputs and stakeholder presentation | Automation Exposure | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
-| 5 | Add dedicated AI in discipline core unit (12.5pt) | AI Literacy | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
-| 6 | Seek professional accreditation or industry partnership | Domain Depth | Strong market demand for AI-governance capabilities | HIGH | High | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+| 4 | Add emerging-trends module updated each intake | Curriculum Currency | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 5 | Require industry project with defended outputs and stakeholder presentation | Automation Exposure | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
 
 ---
 
@@ -101,9 +100,3 @@ The Master of TESOL scored **21/36 — MODERATE RISK**. Gaps in core dimensions 
 
 ## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
 The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
-
----
-
-**Assessment Date:** 2026-06-21
-**Source Report:** reports/dfva-mc-tesol.md
-**Prompt Version:** DFVA-COPILOT-RECOMMENDER-v1
