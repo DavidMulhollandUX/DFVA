@@ -7,7 +7,7 @@
     },
     "dev_loop": {
       "last_run": "2026-06-22",
-      "features_built": 6
+      "features_built": 7
     },
     "research_loop": {
       "last_run": "2026-06-18",
@@ -88,7 +88,7 @@
     {
       "id": "feat-007",
       "name": "Structured Curriculum Data as Market Differentiator \u2014 Incumbents Store Degrees as Unstructured HTML",
-      "status": "in_progress",
+      "status": "done",
       "spec_file": "features/feat-007.md",
       "branch": "feat/feat-007",
       "created": "2026-06-18",
