@@ -88,9 +88,9 @@
     {
       "id": "feat-007",
       "name": "Structured Curriculum Data as Market Differentiator \u2014 Incumbents Store Degrees as Unstructured HTML",
-      "status": "draft",
+      "status": "in_progress",
       "spec_file": "features/feat-007.md",
-      "branch": null,
+      "branch": "feat/feat-007",
       "created": "2026-06-18",
       "priority": "high",
       "score": 9,

@@ -10,6 +10,7 @@ export interface AssessmentResult {
   dimensions: { label: string; score: number; max: number }[];
   reportJson: Record<string, unknown>;
   syllabusJson?: Record<string, any>;
+  validationErrors?: string[];
 }
 
 export interface AssessmentService {

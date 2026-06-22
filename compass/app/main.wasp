@@ -318,6 +318,12 @@ page ReportDetailPage {
   component: import ReportDetailPage from "@src/compass/ReportDetailPage"
 }
 
+route MethodologyDataModelRoute { path: "/methodology/data-model", to: DataModelPage }
+page DataModelPage {
+  component: import DataModelPage from "@src/compass/DataModelPage"
+  authRequired: false
+}
+
 route InsightsRoute { path: "/insights", to: InsightsPage }
 page InsightsPage {
   component: import InsightsPage from "@src/compass/InsightsPage"

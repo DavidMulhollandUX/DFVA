@@ -1,6 +1,7 @@
 // compass/app/src/compass/assessmentPipeline.ts
 import type { AssessmentResult } from './assessmentService';
 import type { LlmScorer, HandbookPages } from './llmScorer';
+import { validateSyllabus } from './syllabusSchema';
 import { fetchCourseOverview, fetchCourseStructure, fetchCourseAttributes } from './handbookFetcher';
 
 export async function runAssessmentPipeline(
@@ -31,6 +32,18 @@ export async function runAssessmentPipeline(
   };
 
   const result = await scorer.score(pages);
+
+  // Validate syllabusJson against Zod schema (best-effort, non-blocking)
+  if (result.syllabusJson) {
+    const validation = validateSyllabus(result.syllabusJson);
+    if (!validation.success) {
+      result.validationErrors = validation.errors;
+      console.warn(
+        `[DFVA] Syllabus validation warnings for ${courseCode}:`,
+        validation.errors.slice(0, 5)
+      );
+    }
+  }
 
   result.reportJson = {
     ...result.reportJson,
