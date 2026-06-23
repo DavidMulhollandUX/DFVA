@@ -1,12 +1,12 @@
 {
-  "updated": "2026-06-22",
+  "updated": "2026-06-24",
   "loops": {
     "spec_loop": {
-      "last_run": "2026-06-21",
-      "features_generated": 8
+      "last_run": "2026-06-23",
+      "features_generated": 9
     },
     "dev_loop": {
-      "last_run": "2026-06-22",
+      "last_run": "2026-06-24",
       "features_built": 7
     },
     "research_loop": {
@@ -48,7 +48,7 @@
     },
     {
       "id": "feat-004",
-      "name": "Industry-Wide Reporting & Analytics Gap \u2014 DFVA as Independent Analytics Standard",
+      "name": "Industry-Wide Reporting & Analytics Gap — DFVA as Independent Analytics Standard",
       "status": "done",
       "spec_file": "features/feat-004.md",
       "branch": "feat/feat-004",
@@ -61,7 +61,7 @@
     },
     {
       "id": "feat-005",
-      "name": "Lightcast Data Freshness \u2014 Real-Time LMI Alternative",
+      "name": "Lightcast Data Freshness — Real-Time LMI Alternative",
       "status": "done",
       "spec_file": "features/feat-005.md",
       "branch": "feat/feat-005",
@@ -74,7 +74,7 @@
     },
     {
       "id": "feat-006",
-      "name": "Market Convergence Validation \u2014 DFVA Thesis Confirmed by Third Independent Source",
+      "name": "Market Convergence Validation — DFVA Thesis Confirmed by Third Independent Source",
       "status": "done",
       "spec_file": "features/feat-006.md",
       "branch": "feat/feat-006",
@@ -83,11 +83,11 @@
       "score": 8,
       "type": "market_validation",
       "source": "research-loop reviews",
-      "detail": "ListEdTech, RFP.wiki, and InnoTechToday all confirm the market is converging toward data-centric 'academic operations platforms.' No vendor owns the analytics layer. DFVA's independent scoring standard has a validated market window \u2014 but it's closing as Coursedog ships LMI."
+      "detail": "ListEdTech, RFP.wiki, and InnoTechToday all confirm the market is converging toward data-centric 'academic operations platforms.' No vendor owns the analytics layer. DFVA's independent scoring standard has a validated market window — but it's closing as Coursedog ships LMI."
     },
     {
       "id": "feat-007",
-      "name": "Structured Curriculum Data as Market Differentiator \u2014 Incumbents Store Degrees as Unstructured HTML",
+      "name": "Structured Curriculum Data as Market Differentiator — Incumbents Store Degrees as Unstructured HTML",
       "status": "done",
       "spec_file": "features/feat-007.md",
       "branch": "feat/feat-007",
@@ -96,24 +96,24 @@
       "score": 9,
       "type": "market_gap",
       "source": "research-loop forums",
-      "detail": "GitHub coursedog-importer project (real university migration, 9 PRs Mar-Apr 2026) confirms both Coursedog and Modern Campus store degree requirements as freeform HTML blocks \u2014 NOT structured data. No curriculum platform in the market supports programmatic analysis of degree requirements. DFVA's structured assessment model is a fundamentally different data architecture, not just better analytics."
+      "detail": "GitHub coursedog-importer project (real university migration, 9 PRs Mar-Apr 2026) confirms both Coursedog and Modern Campus store degree requirements as freeform HTML blocks — NOT structured data. No curriculum platform in the market supports programmatic analysis of degree requirements. DFVA's structured assessment model is a fundamentally different data architecture, not just better analytics."
     },
     {
       "id": "feat-008",
-      "name": "Data Portability as Competitive Weapon \u2014 Vendor Lock-in Confirmed in Curriculum Market",
-      "status": "planned",
-      "spec_file": null,
+      "name": "Data Portability as Competitive Weapon — Vendor Lock-in Confirmed in Curriculum Market",
+      "status": "draft",
+      "spec_file": "features/feat-008.md",
       "branch": null,
       "created": "2026-06-18",
       "priority": "high",
       "score": 8,
       "type": "competitor_weakness",
       "source": "research-loop forums",
-      "detail": "Modern Campus provides ZERO data export on migration \u2014 university had to manually save HTML pages from Chrome before site decommissioned, then build scraper from scratch (6 weeks of work). Confirms vendor lock-in as deliberate strategy. DFVA's clean data import/export + independent positioning addresses this directly."
+      "detail": "Modern Campus provides ZERO data export on migration — university had to manually save HTML pages from Chrome before site decommissioned, then build scraper from scratch (6 weeks of work). Confirms vendor lock-in as deliberate strategy. DFVA's clean data import/export + independent positioning addresses this directly."
     },
     {
       "id": "feat-009",
-      "name": "API Maturity as Competitive Differentiator \u2014 Coursedog Requires Browser Reverse-Engineering",
+      "name": "API Maturity as Competitive Differentiator — Coursedog Requires Browser Reverse-Engineering",
       "status": "planned",
       "spec_file": null,
       "branch": null,
