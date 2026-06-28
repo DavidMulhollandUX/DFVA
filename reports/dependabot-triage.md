@@ -2,9 +2,9 @@
 
 **Prepared by:** David Mulholland + Claude
 **Date:** 2026-06-06
-**Repository:** Enterprise-Services-Group/DFVA
+**Repository:** DavidMulhollandUX/DFVA
 **Snapshot:** 80 alerts (79 open · 1 auto-dismissed) at `origin/main` commit `e15b87a`
-**Source:** GitHub Dependabot Alerts API — `gh api --paginate /repos/Enterprise-Services-Group/DFVA/dependabot/alerts`
+**Source:** GitHub Dependabot Alerts API — `gh api --paginate /repos/DavidMulhollandUX/DFVA/dependabot/alerts`
 
 ---
 
@@ -108,7 +108,7 @@ All in `compass/blog` (transitive build tooling), except where noted; none in `c
 3. **`compass/blog` (P2)** — `npm update astro` + `npm audit fix`; rebuild the blog; spot-check output. Clears the bulk incl. the critical.
 4. **Confirm** — re-run the alerts query and verify the open count drops to ~0:
    ```
-   gh api --paginate /repos/Enterprise-Services-Group/DFVA/dependabot/alerts \
+   gh api --paginate /repos/DavidMulhollandUX/DFVA/dependabot/alerts \
      | jq '[.[]|select(.state=="open")] | length'
    ```
 
@@ -120,7 +120,7 @@ All in `compass/blog` (transitive build tooling), except where noted; none in `c
 
 ```
 gh api --paginate -H "Accept: application/vnd.github+json" \
-  /repos/Enterprise-Services-Group/DFVA/dependabot/alerts > alerts.json
+  /repos/DavidMulhollandUX/DFVA/dependabot/alerts > alerts.json
 # severity:   jq '[.[]|select(.state=="open")]|group_by(.security_advisory.severity)|map({severity:.[0].security_advisory.severity,count:length})'
 # by manifest: jq '[.[]|select(.state=="open")]|group_by(.dependency.manifest_path)|map({path:.[0].dependency.manifest_path,count:length})'
 ```
