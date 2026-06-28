@@ -3,10 +3,14 @@ app OpenSaaS {
     version: "^0.22.0"
   },
 
-  title: "COMPASS – Degree Future-Viability Assessor",
+  title: "Evidura – Degree Future-Viability Assessor",
 
   head: [
+    "<link rel='icon' type='image/svg+xml' href='/favicon.svg' />",
     "<link rel='icon' href='/favicon.ico' />",
+
+    "<link rel='preconnect' href='https://fonts.googleapis.com' />",
+    "<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Source+Code+Pro:wght@400;500;600&display=swap' />",
 
     "<meta name='description' content='Degree Future-Viability Assessor — evaluate university program resilience against AI-driven labour market change.' />",
     "<meta name='author' content='University of Melbourne SXD' />",
@@ -316,12 +320,6 @@ page ReportsPage {
 route ReportDetailRoute { path: "/reports/:reportSlug", to: ReportDetailPage }
 page ReportDetailPage {
   component: import ReportDetailPage from "@src/compass/ReportDetailPage"
-}
-
-route MethodologyDataModelRoute { path: "/methodology/data-model", to: DataModelPage }
-page DataModelPage {
-  component: import DataModelPage from "@src/compass/DataModelPage"
-  authRequired: false
 }
 
 route InsightsRoute { path: "/insights", to: InsightsPage }

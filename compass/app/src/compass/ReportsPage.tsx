@@ -26,7 +26,6 @@ import {
   type DimensionScore,
 } from "./sharedProgramData";
 import type { ProgramReport } from "./sharedProgramData";
-import CompetitiveIntelCard from "./components/CompetitiveIntelCard";
 import { useReportsData } from "./useReportsData";
 import { getFaculty } from "./faculty";
 
@@ -464,11 +463,6 @@ export default function ReportsPage() {
         {/* Right hand side reports list */}
         <div className={reports.length > 0 ? "md:col-span-3" : "col-span-4"}>
           {content}
-          {reports.length > 0 && (
-            <div className="mt-8">
-              <CompetitiveIntelCard />
-            </div>
-          )}
         </div>
       </div>
     </div>

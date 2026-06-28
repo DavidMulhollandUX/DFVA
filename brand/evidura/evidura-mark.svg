@@ -1,0 +1,7 @@
+<!-- Evidura — primary mark (Strata-E). Ink on light. Dark bg: change style color to #F4F2EC, or use evidura-mark-ondark.svg -->
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Evidura" style="color:#0F2236">
+  <title>Evidura</title>
+  <rect x="40" y="58"  width="120" height="18" rx="9" fill="#E9A23B"/>
+  <rect x="40" y="91"  width="84"  height="18" rx="9" fill="currentColor"/>
+  <rect x="40" y="124" width="120" height="18" rx="9" fill="currentColor"/>
+</svg>

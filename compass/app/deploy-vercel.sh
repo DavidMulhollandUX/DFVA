@@ -21,9 +21,9 @@ cd "$BUILD_DIR"
 npx vercel --prod --yes
 
 echo ""
-echo "🔗 Updating alias → compass-curriculum.vercel.app"
+echo "🔗 Updating alias → evidura.vercel.app"
 DEPLOYMENT_URL=$(npx vercel ls --prod 2>/dev/null | grep "build" | head -1)
-npx vercel alias set "$DEPLOYMENT_URL" compass-curriculum.vercel.app
+npx vercel alias set "$DEPLOYMENT_URL" evidura.vercel.app
 
 echo ""
-echo "✅ Done! https://compass-curriculum.vercel.app"
+echo "✅ Done! https://evidura.vercel.app"

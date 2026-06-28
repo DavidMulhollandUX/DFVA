@@ -1,0 +1,8 @@
+<!-- Evidura — app tile / container mark. Strata-E (same glyph as the primary mark) reversed in a rounded ink tile. Background-independent. -->
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Evidura">
+  <title>Evidura</title>
+  <rect x="18" y="18" width="164" height="164" rx="42" fill="#0F2236"/>
+  <rect x="54" y="58"  width="92" height="18" rx="9" fill="#E9A23B"/>
+  <rect x="54" y="91"  width="62" height="18" rx="9" fill="#F4F2EC"/>
+  <rect x="54" y="124" width="92" height="18" rx="9" fill="#F4F2EC"/>
+</svg>

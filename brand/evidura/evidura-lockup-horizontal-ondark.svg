@@ -1,0 +1,9 @@
+<!-- Evidura — horizontal lockup, reversed for dark backgrounds. -->
+<svg viewBox="0 0 620 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Evidura — durability, made visible" style="color:#F4F2EC">
+  <title>Evidura</title>
+  <rect x="40" y="66"  width="92" height="16" rx="8" fill="#E9A23B"/>
+  <rect x="40" y="92"  width="64" height="16" rx="8" fill="currentColor"/>
+  <rect x="40" y="118" width="92" height="16" rx="8" fill="currentColor"/>
+  <text x="162" y="120" font-family="'Inter','SF Pro Display',system-ui,sans-serif" font-size="76" font-weight="600" letter-spacing="-1.5" fill="currentColor">Evidura</text>
+  <text x="165" y="150" font-family="'Inter',system-ui,sans-serif" font-size="15" font-weight="600" letter-spacing="2.8" fill="currentColor" opacity="0.6">DURABILITY, MADE VISIBLE</text>
+</svg>

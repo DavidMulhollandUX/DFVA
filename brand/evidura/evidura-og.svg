@@ -1,0 +1,15 @@
+<!-- Evidura — social / Open Graph card (1200×630). Outline <text> to paths before production. -->
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Evidura — durability, made visible">
+  <title>Evidura — durability, made visible</title>
+  <rect width="1200" height="630" fill="#0F2236"/>
+  <!-- Strata-E mark -->
+  <g transform="translate(150,150)">
+    <rect x="0" y="0"  width="150" height="22" rx="11" fill="#E9A23B"/>
+    <rect x="0" y="40" width="104" height="22" rx="11" fill="#F4F2EC"/>
+    <rect x="0" y="80" width="150" height="22" rx="11" fill="#F4F2EC"/>
+  </g>
+  <text x="150" y="360" font-family="'Inter','SF Pro Display',system-ui,sans-serif" font-size="120" font-weight="600" letter-spacing="-3" fill="#F4F2EC">Evidura</text>
+  <text x="156" y="424" font-family="'Inter',system-ui,sans-serif" font-size="28" font-weight="600" letter-spacing="6" fill="#E9A23B">DURABILITY, MADE VISIBLE</text>
+  <text x="156" y="540" font-family="'Inter',system-ui,sans-serif" font-size="30" font-weight="400" fill="#A9B6C4">The independent durability rating for university degrees.</text>
+  <text x="1050" y="560" text-anchor="end" font-family="'Inter',system-ui,sans-serif" font-size="26" font-weight="600" letter-spacing="1" fill="#F4F2EC" opacity="0.55">evidura.ai</text>
+</svg>

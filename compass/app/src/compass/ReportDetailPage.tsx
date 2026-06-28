@@ -326,10 +326,6 @@ function ShiftDriftChart() {
             </text>
           ))}
         </svg>
-        {/* Competitive intelligence card */}
-        <div className="mt-12 border-t border-border pt-8">
-          <CompetitiveIntelCard />
-        </div>
       </div>
     </div>
   );

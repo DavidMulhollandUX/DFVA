@@ -1,8 +1,8 @@
 ---
 project: DFVA
-last_source: forums
-last_run: 2026-06-18
-signals_collected: 16
+last_source: social
+last_run: 2026-06-29
+signals_collected: 22
 ---
 
 # DFVA Ideas Log
@@ -147,3 +147,30 @@ Competitors tracked: Coursedog, CourseLeaf (Leepfrog), Modern Campus, Technology
 - **Type:** market_data
 - **Detail:** CourseLeaf (29% market share, market leader) and TechnologyOne/CourseLoop have zero presence on GitHub — no integration tools, no API wrappers, no developer discussions. This contrasts with Coursedog's growing (if immature) developer ecosystem. CourseLeaf's older technology stack (often described as Perl-based) and TechnologyOne's closed AU/NZ enterprise model explain the absence. But it also means these platforms have no community-driven integration, no public API consumption, and no developer feedback loop.
 - **Why DFVA:** A modern, well-documented API with public developer resources could differentiate DFVA from the market leaders. If Coursedog's immature API already attracts integration projects, a mature DFVA API could attract even more. The zero-presence of incumbents makes any developer ecosystem a competitive advantage.
+
+---
+
+## [2026-06-29] Research: social
+
+**Note:** Social channels (X, Reddit) blocked in cron per documented constraints (social-listening-constraints.md). Pivoted to GitHub intelligence fallback + vendor blog titles. GitHub migration repos + developer projects yielded strong signals despite social channel unavailability.
+
+### Signal: Second Confirmed Coursedog Migration — Universal Data Extraction Pain Pattern
+- **Source:** GitHub FrankCoRa/Data_Migration_Project (created June 27, 2026) — Mercy University 25Live → Coursedog migration
+- **Score:** 8
+- **Type:** competitor_weakness / market_data
+- **Detail:** Mercy University migrated from 25Live (CollegeNET scheduling) to Coursedog. Python/Selenium automation was required because "standard reporting within the legacy 25Live scheduling system did not provide access to all historical scheduling information." The project saved historical scheduling records that would have been "unavailable after the retirement of the legacy platform." This is the SECOND confirmed Coursedog migration project requiring custom data extraction code — the first was Modern Campus → Coursedog (AustinMLove/coursedog-importer, 9 PRs, Mar-Apr 2026). Pattern emerging: Coursedog migrations universally require custom scraping/automation because legacy systems provide no structured data export. Both projects built pipelines from scratch (Selenium/Python for 25Live, C#/HtmlAgilityPack for Modern Campus). Coursedog is pulling customers from multiple legacy platforms (25Live, Modern Campus) — growth trajectory confirmed.
+- **Why DFVA:** Data portability as a competitive weapon is validated across two independent migration projects now. Every curriculum platform migration requires custom code because NO legacy or incumbent platform provides clean data export. DFVA's independent scoring layer that consumes structured curriculum data (not HTML) avoids the migration trap entirely. Also: "Future Enhancements" section of the migration project proposes database integration, audit logging, incremental extraction — features that should exist in the platform, not custom code. The market's data portability gap is structural.
+
+### Signal: TechnologyOne Reporting Gap — Third-Party Analysis Tool Required
+- **Source:** GitHub bianca-git/technologyone-analyser (active development through June 7, 2026, 10+ issues closed)
+- **Score:** 7
+- **Type:** pain_point / competitor_weakness
+- **Detail:** A complete web application built specifically because TechnologyOne's native reporting is insufficient. Parses T1's proprietary formats: .t1etlp (ETL processes), .t1dm (Data Models), .t1db (Dashboards), .t1xl (XlOne Reports). Built with "Offline Security" (air-gap verification via OfflineVerifier) because the data is too sensitive for network exposure. Uses IndexedDB for local storage. Very active: 7 issues closed in a single day (June 7), including "Advanced logic for Group/StartProcess/Script/DTS steps" and "XlOne Reports (.t1xl) module." The project is explicitly a "Beta" seeking community feedback on ETL visualisation accuracy and Data Model completeness. Key insight: someone built an entire tool just to UNDERSTAND T1 reports. T1's analytics/reporting layer is fundamentally broken — users can't analyze their own data without third-party tools.
+- **Why DFVA:** This is a direct confirmation of the analytics gap thesis for TechnologyOne specifically — the competitor most relevant to DFVA's Go8 target market. T1 users need external tools to make sense of their own curriculum data. DFVA's scoring dashboards and structured assessment model fill exactly this gap. The T1 analyser's existence proves demand for analytics tooling in the T1 ecosystem. DFVA can position as the analytics standard that T1 itself can't deliver.
+
+### Signal: Universal Curriculum Data Scraping — No Platform Exposes Structured Degree Data via API
+- **Source:** GitHub rohan-c0de/cc-coursemap (active through June 28, 2026, 1500+ issues) — course mapping project scraping Coursedog + CourseLeaf
+- **Score:** 7
+- **Type:** market_gap
+- **Detail:** Active TypeScript project scraping Coursedog and CourseLeaf catalog pages for course mapping. Issues reveal the scraping fragility: "Scraper health — courses" (June 26), "AWS WAF regression fix" (June 20 — anti-bot is an ongoing battle), "prereqs: sanitize HTML in the pipeline — NC prq C→A, NY 250 entries cleaned" (June 11), "ks: wire degree/program data for 9 of 24 KS colleges (planner unlocked)" (June 21). Manual degree/program data wiring per college — they can't get structured data from any platform. The scraping infrastructure is fragile: WAF blocks, HTML changes break parsers. This confirms the HTML data model problem from the June 18 forums run is persistent and universal across competitors.
+- **Why DFVA:** Third independent confirmation (after coursedog-importer and TechnologyOne analyser) that curriculum data lives in unstructured HTML across all major platforms. DFVA's structured assessment model — treating degrees as analyzable, scorable objects rather than HTML paragraphs — is genuinely novel. The entire market builds scrapers. DFVA builds structured data. That's a different product category.

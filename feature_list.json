@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24",
+  "updated": "2026-06-29",
   "loops": {
     "spec_loop": {
       "last_run": "2026-06-23",
@@ -10,8 +10,8 @@
       "features_built": 7
     },
     "research_loop": {
-      "last_run": "2026-06-18",
-      "source": "forums",
+      "last_run": "2026-06-29",
+      "source": "social",
       "signals_found": 6,
       "signals_promoted": 3
     }
@@ -123,6 +123,45 @@
       "type": "competitor_weakness",
       "source": "research-loop forums",
       "detail": "Coursedog API docs are inaccurate (password field naming), dual-ID system confuses developers, undocumented required parameters (doIntegration=true), and non-standard response formats. Developers must inspect browser network tabs to use the API. Clean, well-documented DFVA API would contrast sharply."
+    },
+    {
+      "id": "feat-010",
+      "name": "Second Coursedog Migration Confirms Universal Data Extraction Pain — DFVA Data Portability as Competitive Weapon",
+      "status": "planned",
+      "spec_file": null,
+      "branch": null,
+      "created": "2026-06-29",
+      "priority": "high",
+      "score": 8,
+      "type": "competitor_weakness",
+      "source": "research-loop social",
+      "detail": "Mercy University 25Live → Coursedog migration (FrankCoRa/Data_Migration_Project, June 27, 2026) is the SECOND confirmed Coursedog migration requiring custom data extraction code (first: Modern Campus → Coursedog, Mar-Apr 2026). Both needed Python/C# scraping because legacy systems provide zero structured data export. Pattern: every Coursedog migration requires custom automation. DFVA's independent scoring layer with clean data import/export avoids the migration trap entirely."
+    },
+    {
+      "id": "feat-011",
+      "name": "TechnologyOne Reporting Gap — Third-Party Analysis Tool Required, DFVA as Analytics Standard",
+      "status": "planned",
+      "spec_file": null,
+      "branch": null,
+      "created": "2026-06-29",
+      "priority": "high",
+      "score": 7,
+      "type": "pain_point",
+      "source": "research-loop social",
+      "detail": "GitHub bianca-git/technologyone-analyser built a complete web app (TypeScript, IndexedDB, offline security) solely because T1's native reporting is insufficient. Parses T1's proprietary .t1etlp/.t1dm/.t1db/.t1xl formats. Very active: 7 issues closed June 7. Existence of a third-party analytics tool for T1 confirms the analytics gap thesis for DFVA's most relevant Go8 competitor. DFVA can position as the analytics standard T1 can't deliver."
+    },
+    {
+      "id": "feat-012",
+      "name": "Universal Curriculum Scraping — Structured Data as Product Category Differentiator",
+      "status": "planned",
+      "spec_file": null,
+      "branch": null,
+      "created": "2026-06-29",
+      "priority": "high",
+      "score": 7,
+      "type": "market_gap",
+      "source": "research-loop social",
+      "detail": "GitHub rohan-c0de/cc-coursemap (1500+ issues, active June 28, 2026) scrapes Coursedog + CourseLeaf HTML catalogs. Issues show WAF battles, HTML sanitization pipelines, and manual degree-data wiring per college. Third independent confirmation (after coursedog-importer + T1 analyser) that curriculum data is unstructured HTML across all platforms. DFVA's structured assessment model — degrees as analyzable objects, not HTML — is a different product category."
     }
   ]
 }

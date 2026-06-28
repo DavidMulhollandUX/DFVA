@@ -16,10 +16,10 @@ Next, Install the test dependencies:
 cd e2e-tests && npm install
 ```
 
-Start your Wasp DB and leave it running:
+Start the dev DB (Apple `container`, not Docker) and leave it running:
 
 ```shell
-cd ../app && wasp db start
+../../scripts/dev-db.sh start
 ```
 
 ### Skipping Email Verification in e2e Tests
