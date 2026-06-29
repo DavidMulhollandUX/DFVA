@@ -388,7 +388,7 @@ export default function ReportsPage() {
                   <select
                     value={facultyFilter}
                     onChange={e => setFacultyFilter(e.target.value)}
-                    className="w-full appearance-none rounded-lg border border-border bg-background px-3 py-2 pr-9 text-xs text-foreground focus:outline-none focus:ring-2 focus:ring-primary/10 cursor-pointer font-medium transition-colors"
+                    className="w-full appearance-none bg-none rounded-lg border border-border bg-background px-3 py-2 pr-9 text-xs text-foreground focus:outline-none focus:ring-2 focus:ring-primary/10 cursor-pointer font-medium transition-colors"
                   >
                     <option value="all">All Faculties</option>
                     {faculties.map(f => <option key={f} value={f}>{f}</option>)}
@@ -406,7 +406,7 @@ export default function ReportsPage() {
                   <select
                     value={riskFilter}
                     onChange={e => setRiskFilter(e.target.value)}
-                    className="w-full appearance-none rounded-lg border border-border bg-background px-3 py-2 pr-9 text-xs text-foreground focus:outline-none focus:ring-2 focus:ring-primary/10 cursor-pointer font-medium transition-colors"
+                    className="w-full appearance-none bg-none rounded-lg border border-border bg-background px-3 py-2 pr-9 text-xs text-foreground focus:outline-none focus:ring-2 focus:ring-primary/10 cursor-pointer font-medium transition-colors"
                   >
                     <option value="all">All Risk Bands</option>
                     <option value="RESILIENT">RESILIENT</option>
@@ -427,7 +427,7 @@ export default function ReportsPage() {
                   <select
                     value={sortBy}
                     onChange={e => setSortBy(e.target.value)}
-                    className="w-full appearance-none rounded-lg border border-border bg-background px-3 py-2 pr-9 text-xs text-foreground focus:outline-none focus:ring-2 focus:ring-primary/10 cursor-pointer font-medium transition-colors"
+                    className="w-full appearance-none bg-none rounded-lg border border-border bg-background px-3 py-2 pr-9 text-xs text-foreground focus:outline-none focus:ring-2 focus:ring-primary/10 cursor-pointer font-medium transition-colors"
                   >
                     <option value="score-desc">Score: High → Low</option>
                     <option value="score-asc">Score: Low → High</option>
