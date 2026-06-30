@@ -418,6 +418,17 @@ query listApiKeys {
   fn: import { listApiKeys } from "@src/compass/operations",
   entities: [ApiKey]
 }
+
+// Developer Portal (feat-009)
+route DevPortalRoute { path: "/developers", to: DevPortalPage }
+page DevPortalPage {
+  component: import DevPortalPage from "@src/compass/DevPortalPage"
+}
+
+route DevPortalCompareRoute { path: "/developers/compare", to: DevPortalComparePage }
+page DevPortalComparePage {
+  component: import DevPortalComparePage from "@src/compass/DevPortalComparePage"
+}
 //#endregion
 
 //#region Contact Form Messages
