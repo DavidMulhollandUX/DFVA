@@ -402,6 +402,22 @@ job marketDriftJob {
   },
   entities: [AssessmentJob, Logs]
 }
+
+// API Key Management (feat-009)
+action generateApiKey {
+  fn: import { generateApiKey } from "@src/compass/operations",
+  entities: [ApiKey, Institution, User]
+}
+
+action revokeApiKey {
+  fn: import { revokeApiKey } from "@src/compass/operations",
+  entities: [ApiKey]
+}
+
+query listApiKeys {
+  fn: import { listApiKeys } from "@src/compass/operations",
+  entities: [ApiKey]
+}
 //#endregion
 
 //#region Contact Form Messages

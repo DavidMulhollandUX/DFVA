@@ -240,4 +240,134 @@ export const uploadAlumniData: UploadAlumniData<
   });
 };
 
+// --- API Key Management (feat-009) ---
+
+import { generateApiKey as genKey, hashApiKey } from './api/auth';
+import type {
+  GenerateApiKey,
+  RevokeApiKey,
+  ListApiKeys,
+} from 'wasp/server/operations';
+
+/**
+ * Get or create the "self" institution used as the default for
+ * user-generated API keys from the developer portal.
+ */
+async function getOrCreateSelfInstitution(context: any) {
+  const SELF_CODE = 'dfva-self';
+  let inst = await context.entities.Institution.findUnique({
+    where: { code: SELF_CODE },
+  });
+  if (!inst) {
+    inst = await context.entities.Institution.create({
+      data: {
+        name: 'DFVA (Self)',
+        code: SELF_CODE,
+        country: 'AU',
+      },
+    });
+  }
+  return inst;
+}
+
+type ApiKeyResult = {
+  id: string;
+  name: string;
+  keyPrefix: string;
+  isActive: boolean;
+  createdAt: Date;
+};
+
+/**
+ * Generate a new API key for the logged-in user.
+ * Returns the raw key ONCE — it is never stored.
+ */
+export const generateApiKey: GenerateApiKey<
+  { name: string },
+  { apiKey: ApiKeyResult; rawKey: string }
+> = async ({ name }, context) => {
+  if (!context.user) throw new HttpError(401, 'Authentication required');
+  if (!name || name.trim().length === 0) {
+    throw new HttpError(400, 'Key name is required');
+  }
+
+  const institution = await getOrCreateSelfInstitution(context);
+  const { rawKey, keyHash, keyPrefix } = genKey();
+
+  const apiKey = await context.entities.ApiKey.create({
+    data: {
+      name: name.trim(),
+      keyHash,
+      keyPrefix,
+      isActive: true,
+      institutionId: institution.id,
+      userId: context.user.id,
+    },
+  });
+
+  return {
+    apiKey: {
+      id: apiKey.id,
+      name: apiKey.name,
+      keyPrefix: apiKey.keyPrefix,
+      isActive: apiKey.isActive,
+      createdAt: apiKey.createdAt,
+    },
+    rawKey,
+  };
+};
+
+/**
+ * Revoke an API key owned by the logged-in user.
+ */
+export const revokeApiKey: RevokeApiKey<
+  { keyId: string },
+  { success: boolean }
+> = async ({ keyId }, context) => {
+  if (!context.user) throw new HttpError(401, 'Authentication required');
+
+  const key = await context.entities.ApiKey.findUnique({
+    where: { id: keyId },
+  });
+
+  if (!key) throw new HttpError(404, 'API key not found');
+  if (key.userId !== context.user.id) {
+    throw new HttpError(403, 'You can only revoke your own API keys');
+  }
+
+  await context.entities.ApiKey.update({
+    where: { id: keyId },
+    data: { isActive: false },
+  });
+
+  return { success: true };
+};
+
+/**
+ * List API keys for the logged-in user.
+ * Only returns prefixes — never the raw key or hash.
+ */
+export const listApiKeys: ListApiKeys<
+  void,
+  ApiKeyResult[]
+> = async (_args, context) => {
+  if (!context.user) throw new HttpError(401, 'Authentication required');
+
+  const keys = await context.entities.ApiKey.findMany({
+    where: {
+      userId: context.user.id,
+    },
+    orderBy: { createdAt: 'desc' },
+    select: {
+      id: true,
+      name: true,
+      keyPrefix: true,
+      isActive: true,
+      createdAt: true,
+    },
+  });
+
+  return keys;
+};
+
 
