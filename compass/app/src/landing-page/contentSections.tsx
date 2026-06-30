@@ -21,7 +21,7 @@ const iconClass = "h-7 w-7 text-secondary";
 
 export const features: GridFeature[] = [
   {
-    name: "Durability Rating",
+    name: "Durability Assessment",
     description:
       "An 11-dimension rubric scores each program 0–36. It weighs automation exposure, AI literacy, systems thinking, decision ownership, research rigour and more, then resolves them into one comparable signal.",
     icon: <Gauge className={iconClass} />,
@@ -129,7 +129,7 @@ export const howItWorks = {
     {
       icon: Gauge,
       title: "Score 11 dimensions",
-      body: "Each dimension is rated against curriculum evidence and live labour-market signal, then resolved into a 0–36 Durability Rating and a risk band.",
+      body: "Each dimension is assessed against curriculum evidence and live labour-market signal, then resolved into a 0–36 Durability Assessment and a risk band.",
     },
     {
       icon: ClipboardList,
@@ -146,7 +146,7 @@ export const trustPillars = {
     {
       icon: ShieldCheck,
       title: "Independent",
-      body: "A rating is only worth what its impartiality is worth. Evidura is built to be beholden to no program it rates, and names the band plainly, including CRITICAL.",
+      body: "An assessment is only worth what its impartiality is worth. Evidura is built to be beholden to no program it assesses. Results are confidential to the commissioning institution — we name the band plainly, and we trust you to decide what to do with it.",
     },
     {
       icon: BookOpenCheck,
@@ -180,7 +180,7 @@ export const decisionMoments = {
     {
       icon: Users,
       title: "Enrolment",
-      body: "Hand students, families and advisors a signal they can trust, in place of brand and ATAR proxies.",
+      body: "With institutional consent, give prospective students a trusted signal in place of brand and ATAR proxies. Available when the institution chooses to publish.",
     },
   ],
 };
@@ -241,6 +241,16 @@ export const faqs = [
     question: `Can I run ${brand.name} on the same program more than once?`,
     answer: `Yes, and you should. Curriculum relevance isn't a fixed point. Running ${brand.name} annually, or at the start of each planning cycle, lets you track whether targeted changes have moved the rating. A living curriculum needs a living feedback loop, not a one-time audit.`,
     href: "/assess",
+  },
+  {
+    id: 6,
+    question: "Who sees the results?",
+    answer: `Only you. ${brand.name} assessments are confidential to the commissioning institution. No program score is ever published without your explicit written consent. The annual State of Degree Durability index reports anonymised aggregate trends only — individual programs and institutions are never identified.`,
+  },
+  {
+    id: 7,
+    question: `Can we publish our own ${brand.signalName}?`,
+    answer: `Yes — on your terms. Once the independence structure is fully established, institutions can opt in to display their own assessment scores on program pages. Display is RESILIENT and MODERATE RISK bands only initially, and requires a current (within 12 months) assessment.`,
   },
 ];
 

@@ -28,10 +28,10 @@ export default function Hero() {
             AI-shaped labour market?
           </h1>
           <p className="text-muted-foreground mt-6 max-w-xl text-lg leading-8">
-            {brand.name} is the independent durability rating for university
-            degrees. It gives you a clear, comparable signal of whether a
-            program will hold its economic value, delivered at the moment of
-            design, approval and enrolment, not five years too late.
+            {brand.name} is the independent durability assessment for university
+            degrees — a confidential, evidence-led analysis commissioned by the
+            institution, delivered at the moment of design, approval and
+            enrolment, not five years too late.
           </p>
           <div className="mt-9 flex flex-wrap items-center gap-4">
             <Button size="lg" variant="default" asChild>
@@ -43,6 +43,9 @@ export default function Hero() {
               <RouterLink to="/assess">Assess a program</RouterLink>
             </Button>
           </div>
+          <p className="text-muted-foreground mt-4 text-xs">
+            {brand.confidentialityNote}
+          </p>
         </div>
 
         {/* Right: the rating itself */}

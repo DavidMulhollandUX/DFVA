@@ -1,6 +1,6 @@
 # Evidura — Brand Assets
 
-The visual identity for **Evidura** — *the independent durability rating for university degrees.* "Durability, made visible."
+The visual identity for **Evidura** — *the independent durability assessment for university degrees.* Confidential benchmarking, institutional consent required for any public display. "Durability, made visible."
 
 > Full rationale, concepts and usage rules: [`docs/evidura-logo.md`](../../docs/evidura-logo.md). Strategy: [`docs/compass-brand-strategy.md`](../../docs/compass-brand-strategy.md). Name selection & trademark DD: [`docs/compass-naming.md`](../../docs/compass-naming.md).
 
@@ -9,7 +9,7 @@ The visual identity for **Evidura** — *the independent durability rating for u
 | Layer | Name | Use |
 |---|---|---|
 | **Master brand** | **Evidura** | The company / platform. Replaces the working name "COMPASS". |
-| **Consumer signal** | **Durability Rating** | The score + bands (Resilient → Critical) shown to users. |
+| **Consumer signal** | **Durability Assessment** | The score + bands (Resilient → Critical). Confidential to the commissioning institution. |
 | **Methodology (engine)** | **DFVA** (Degree Future-Viability Assessment) | Internal — produces the rating. Not used in external/marketing copy. |
 
 ## Assets
@@ -17,7 +17,7 @@ The visual identity for **Evidura** — *the independent durability rating for u
 | File | What | Use |
 |---|---|---|
 | `evidura-mark.svg` / `-ondark.svg` | Strata-E primary mark | App, UI, social, general |
-| `evidura-seal.svg` | "Evidura-rated" certification seal | Displayable badge / stamps |
+| `evidura-seal.svg` | "Evidura-assessed" certification seal | Opt-in display badge. Gated on: independence resolved, methodology validated, institution consent. |
 | `evidura-lockup-horizontal.svg` / `-ondark.svg` | Mark + wordmark + strap | Headers, signatures, decks |
 | `evidura-lockup-stacked.svg` | Mark over wordmark | Square / centred contexts |
 | `evidura-favicon.svg` | Strata-E, tightened | Favicon / ≤24px |

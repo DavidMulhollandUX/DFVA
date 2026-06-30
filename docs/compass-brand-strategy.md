@@ -8,7 +8,15 @@
 
 ---
 
-> **The one reframe that governs everything below.** COMPASS has been built and described as an *edtech tool*. It is not. It is a **rating agency** — the Moody's, the Morningstar, the Health Star Rating for the economic durability of degrees. Every strategic decision that follows flows from that single recategorization. Rating brands do not win on features; they win on **trust, independence, and legibility**, and when they win they don't take market share — they *become the thing the market is required to show*. That is the prize, and it changes how the brand must be built.
+## §0 — Post-Premortem Reframe (June 2026)
+
+> **The original strategy below was written for a public rating agency model.** A premortem conducted 30 June 2026 identified that universities are reputation-protection machines — they will suppress unfavourable ratings, not pay for them. The survivable commercial model is **confidential benchmarking**: institutions commission assessments they own; no program score is ever published without explicit institutional consent. The annual *State of Degree Durability* index reports anonymised aggregate trends only. The certification seal is opt-in and gated on independence + methodology validation. **The original strategy's core insights — durability as the category, instrument-grade trust as the visual language, independence as the moat — remain correct. What changed is who sees the score.**
+
+See: [Evidura Business Model (post-premortem)](evidura-business-model.md) · [Independence Structure Options](evidura-independence-structure.md) · [Premortem Report](premortem-report-20260630.html)
+
+---
+
+> **The one reframe that governs everything below.** COMPASS has been built and described as an *edtech tool*. It is not. It is a **confidential benchmarking service** — the McKinsey, the internal audit function, the strategy consultancy for the economic durability of degrees. Every strategic decision that follows flows from that single recategorization. Benchmarking brands do not win on public attention; they win on **trust, rigour, and discretion**, and when they win they don't take market share — they *become the thing institutions commission before every curriculum decision*.
 
 ---
 
@@ -164,4 +172,4 @@ The Sage is non-negotiable — a rating is worthless the instant it is not belie
 
 ---
 
-**Bottom line.** Stop building an edtech tool and start building a rating agency. Win on independence, evidence, and a legible signal — not features. Make the *rating* the hero asset, point everything at the certification mark, and resolve the independence question before anything else. The category has an empty seat of authority and an 18–36 month window. The brand's job is to sit down in it before anyone else realises it's there.
+**Bottom line (updated post-premortem).** Stop building an edtech tool and start building a confidential benchmarking service. Win on independence, evidence, and discretion — not features. Make the *assessment* the hero asset, point everything at the institutional relationship, and resolve the independence question before asking anyone for money. The public certification mark is a Year 4+ ambition gated on independence + validation + consent. The category has an empty seat, but the seat is in the procurement office, not the public square. The brand's job is to earn the trust to sit in it.

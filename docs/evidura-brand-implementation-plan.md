@@ -95,9 +95,27 @@ Regenerate from SVG: `public-banner.webp` → from [`evidura-og.svg`](../brand/e
 
 ## 3. Content & marketing implementation
 
+### 3.0 Confidentiality-first framing (post-premortem update, June 2026)
+
+The brand strategy was written for a public rating agency. The premortem identified that universities are reputation-protection machines — they will suppress unfavourable ratings, not pay for them. The survivable model is confidential benchmarking with opt-in public display.
+
+**Vocabulary changes across all copy:**
+- "Rating" → "Assessment" (where public-facing or institutional-customer-facing)
+- "Durability Rating" → "Durability Assessment" (the consumer signal name)
+- "Rating agency" → "Confidential benchmarking service" (in strategy docs, investor comms, partner briefings)
+- "The signal everyone demands" → "The insight institutions commission" (in narrative/messaging)
+
+**What does NOT change:**
+- The band vocabulary (RESILIENT / MODERATE / HIGH / CRITICAL) — confidentiality doesn't change the verdict
+- The scoring system (0–36, 11 dimensions) — the product is the same, the distribution model is different
+- The visual identity — instrument-grade trust works for confidential assessments too
+- The tagline "Durability, made visible" — it's about insight, not publication
+
+**Routing rule:** Any copy that describes who *sees* the score must include the confidentiality guarantee. Any copy that describes the score itself is unchanged.
+
 ### 3.1 Central brand config
 
-Create `src/branding/brandConfig.ts` — `{ name: "Evidura", legalNote, signalName: "Durability Rating", methodology: "DFVA", domain: "evidura.ai", tagline: "Durability, made visible." }` — and replace every scattered "COMPASS" string (NavBar, Hero, contentSections, AssessorPage, main.wasp where possible) with imports. One place to evolve copy.
+Create `src/branding/brandConfig.ts` — `{ name: "Evidura", legalNote, signalName: "Durability Assessment", methodology: "DFVA", domain: "evidura.ai", tagline: "Durability, made visible.", confidentialityNote }` — and replace every scattered "COMPASS" string (NavBar, Hero, contentSections, AssessorPage, main.wasp where possible) with imports. One place to evolve copy.
 
 ### 3.2 Messaging pillars → page structure
 
