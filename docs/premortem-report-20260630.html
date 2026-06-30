@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Evidura — Premortem Report</title>
+<style>
+  :root {
+    --bg: #0a0e1a;
+    --surface: #111827;
+    --ink: #e2e8f0;
+    --slate: #94a3b8;
+    --accent-1: #e9a23b;
+    --accent-2: #c7433a;
+    --accent-3: #3b82f6;
+    --accent-4: #8b5cf6;
+    --accent-5: #10b981;
+    --accent-6: #f59e0b;
+    --accent-7: #ec4899;
+    --accent-8: #06b6d4;
+    --accent-9: #84cc16;
+    --border: #1e293b;
+    --card-hover: #1a2332;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+    line-height: 1.6;
+    padding: 40px 24px;
+  }
+  .container { max-width: 960px; margin: 0 auto; }
+
+  /* Header */
+  .header {
+    text-align: center;
+    padding: 60px 0 40px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 48px;
+  }
+  .header .label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--accent-2);
+    margin-bottom: 12px;
+  }
+  .header h1 {
+    font-family: 'Fraunces', 'Georgia', serif;
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    letter-spacing: -0.02em;
+  }
+  .header .sub {
+    color: var(--slate);
+    font-size: 1.05rem;
+  }
+  .header .date {
+    color: var(--slate);
+    font-size: 0.85rem;
+    margin-top: 16px;
+  }
+
+  /* Synthesis cards — top of report */
+  .synthesis-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 48px;
+  }
+  .synth-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 28px;
+  }
+  .synth-card.full { grid-column: 1 / -1; }
+  .synth-card h3 {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 12px;
+  }
+  .synth-card.most-likely { border-left: 3px solid var(--accent-6); }
+  .synth-card.most-likely h3 { color: var(--accent-6); }
+  .synth-card.most-dangerous { border-left: 3px solid var(--accent-2); }
+  .synth-card.most-dangerous h3 { color: var(--accent-2); }
+  .synth-card.hidden-assumption { border-left: 3px solid var(--accent-4); }
+  .synth-card.hidden-assumption h3 { color: var(--accent-4); }
+  .synth-card.revised-plan { border-left: 3px solid var(--accent-5); }
+  .synth-card.revised-plan h3 { color: var(--accent-5); }
+  .synth-card p { color: var(--slate); font-size: 0.95rem; }
+  .synth-card strong { color: var(--ink); }
+
+  /* Failure cards */
+  .section-title {
+    font-family: 'Fraunces', 'Georgia', serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 24px;
+    letter-spacing: -0.01em;
+  }
+  .failure-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(440px, 1fr));
+    gap: 20px;
+    margin-bottom: 48px;
+  }
+  .failure-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 24px;
+    transition: background 0.2s;
+  }
+  .failure-card:hover { background: var(--card-hover); }
+  .failure-card .sev {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 3px 10px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+  }
+  .sev-critical { background: rgba(199,67,58,0.15); color: var(--accent-2); }
+  .sev-high { background: rgba(245,158,11,0.15); color: var(--accent-1); }
+  .failure-card h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .failure-card .story {
+    color: var(--slate);
+    font-size: 0.88rem;
+    margin-bottom: 14px;
+    line-height: 1.5;
+  }
+  .failure-card .meta-label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--slate);
+    margin-top: 10px;
+    margin-bottom: 4px;
+  }
+  .failure-card .meta-text {
+    font-size: 0.84rem;
+    color: var(--ink);
+    font-style: italic;
+  }
+  .failure-card .warning {
+    font-size: 0.82rem;
+    color: var(--slate);
+    padding-left: 12px;
+    border-left: 2px solid var(--border);
+    margin-top: 8px;
+  }
+
+  /* Checklist */
+  .checklist {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 28px;
+    margin-bottom: 48px;
+  }
+  .checklist h3 {
+    font-family: 'Fraunces', 'Georgia', serif;
+    font-size: 1.15rem;
+    margin-bottom: 20px;
+  }
+  .checklist .item {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .checklist .item:last-child { border-bottom: none; }
+  .checklist .num {
+    flex-shrink: 0;
+    width: 28px; height: 28px;
+    background: var(--border);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--accent-5);
+  }
+  .checklist .item-text { font-size: 0.92rem; color: var(--slate); }
+  .checklist .item-text strong { color: var(--ink); }
+
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 40px 0;
+    color: var(--slate);
+    font-size: 0.8rem;
+    border-top: 1px solid var(--border);
+  }
+
+  @media (max-width: 700px) {
+    .synthesis-grid { grid-template-columns: 1fr; }
+    .failure-grid { grid-template-columns: 1fr; }
+    .header h1 { font-size: 1.8rem; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+<!-- HEADER -->
+<div class="header">
+  <div class="label">Premortem</div>
+  <h1>Evidura Is Dead.<br>Here's How It Died.</h1>
+  <div class="sub">A prospective hindsight analysis of the Evidura business model —<br>9 failure scenarios investigated by 9 independent agents</div>
+  <div class="date">June 30, 2026 · 6-month horizon · December 2026 failure date</div>
+</div>
+
+<!-- SYNTHESIS -->
+<div class="synthesis-grid">
+
+  <div class="synth-card most-likely">
+    <h3>Most Likely Failure</h3>
+    <p><strong>Independence + procurement velocity compound fatally.</strong> Competitor universities see a UoM-incubated rating tool as a protection racket, not an independent service — and even the ones that would buy can't, because university procurement takes 12–18 months for a new category with no budget line item. The Go8 design partners who participated free in Phase 1 balk at the $49K invoice. Sales velocity: 3–4 institutions/year, not 12. Year 3 ARR: ~$300K, not $1.6M. Break-even never arrives. The spin-out burns its seed funding and closes quietly.</p>
+  </div>
+
+  <div class="synth-card most-dangerous">
+    <h3>Most Dangerous Failure</h3>
+    <p><strong>The LLM methodology is successfully challenged, and the entire venture's academic credibility collapses.</strong> A CRITICAL-rated program (Screenwriting, 11/36) disputes the score. An external review finds: no inter-rater reliability testing, LLM hallucinations in scoring rationales, handbook content variability making scores incomparable, and zero human verification of any pilot rating. One news cycle. One credible external review. The methodology is dead — and with it, every revenue line, every partnership conversation, and the entire brand proposition. <em>This kills the product itself, not just the business model.</em></p>
+  </div>
+
+  <div class="synth-card hidden-assumption full">
+    <h3>The Hidden Assumption</h3>
+    <p><strong>Universities want to be publicly rated.</strong> Every element of the plan — the certification seal, the public index, the "show me the Evidura rating" Carfax moment, the demand-pull pricing model — assumes that universities will pay to have their programs scored, banded, and compared. But universities are reputation-protection machines operating in a prestige economy. A CRITICAL rating is not a sales opportunity — it's an institutional liability they will suppress, legally challenge, and lobby against. The Moody's analogy breaks at the most fundamental level: bond issuers <em>need</em> a rating to access capital markets. Universities already have self-accreditation authority and a government-regulated monopoly on degree-granting. They don't need Evidura. <em>They need Evidura not to exist.</em></p>
+  </div>
+
+  <div class="synth-card revised-plan full">
+    <h3>The Revised Plan</h3>
+    <p>Seven concrete changes to make the model survivable:</p>
+    <p><strong>1. Pivot from public rating agency → private benchmarking service.</strong> Ratings are confidential to the purchasing institution. No public seal, no public index, no published comparisons. The McKinsey model: they pay for the analysis, they own the output. This kills the demand-resistance problem and the legal challenge risk simultaneously.</p>
+    <p><strong>2. Resolve independence before any competitor university is asked to pay.</strong> Founder resigns from University of Melbourne employment, or the venture is transferred to an independent entity with no UoM equity. This cannot be deferred to Year 2 — every Phase 1 design-partner relationship is poisoned by the dual role.</p>
+    <p><strong>3. Kill the accreditation-body revenue line.</strong> AACSB and AMC are distribution channels, not customers. They do not buy third-party tools. Remove $240K–$360K from Year 3 projections. Replace with: universities pay because accreditation bodies <em>signal</em> demand, not because the bodies themselves pay.</p>
+    <p><strong>4. Re-baseline sales velocity to 3–5 institutions/year.</strong> Year 3 target drops from 26 to 8–12. Break-even shifts from Month 20 to Month 42. Capital requirement rises from $500K–$800K to $1.2M–$1.8M. Accept the timeline or raise accordingly.</p>
+    <p><strong>5. Commission multi-rater reliability study before any external sale.</strong> 3 human curriculum design experts + 2 alternative LLMs score the same 10 programs. Publish the inter-rater reliability results (target >0.8 Cohen's kappa). Until this is done, "LLM-assisted, human-verified" is a plan, not a practice — and an external challenge will expose it.</p>
+    <p><strong>6. Accept the $1.5–$2M ARR ceiling for Australia.</strong> The $10M Year 5 ambition requires 400 international institutions and $23M–$27M in growth capital that the unit economics cannot generate. Either raise venture funding at that scale, or accept the lifestyle-business ceiling. The "lifestyle business" framing in the plan is not a failure — it's a $1.5M ARR company with 60%+ gross margins. That's a real business.</p>
+    <p><strong>7. Drop agent-native distribution as a revenue channel.</strong> Reclassify MCP tools as developer infrastructure only. Zero institutional buyers will be reached through AI agent citations in Years 1–3. The bandwidth spent on this channel should be redirected to procurement-relationship building.</p>
+  </div>
+</div>
+
+<!-- FAILURE CARDS -->
+<h2 class="section-title">The 9 Ways It Died — Full Agent Investigations</h2>
+<div class="failure-grid">
+
+  <div class="failure-card" style="border-left: 3px solid var(--accent-2);">
+    <span class="sev sev-critical">Critical</span>
+    <h4>1. Independence Perceived as Sham</h4>
+    <div class="story">Go8 design partners participate free, see UoM programs scoring highest on a UoM-built methodology, then receive a $49K invoice from a founder still employed by UoM. <em>"Melbourne built a tool to grade the rest of us, gave themselves the highest scores, and now wants us to pay."</em> The spin-out can't retroactively cure the origin-story capture. 38 of 41 universities view Evidura as a UoM commercialisation play.</div>
+    <div class="meta-label">Underlying Assumption</div>
+    <div class="meta-text">Structural separation (spin-out + board + governance charter) can retroactively cure the perception of captured independence created by the incubation period.</div>
+    <div class="meta-label">Warning Sign</div>
+    <div class="warning">Founder's dual role (UoM Associate Director + Evidura CEO) is visible from Day 0. A rating agency whose chief rating officer draws a salary from one of the institutions being rated cannot credibly claim impartiality.</div>
+  </div>
+
+  <div class="failure-card" style="border-left: 3px solid var(--accent-2);">
+    <span class="sev sev-critical">Critical</span>
+    <h4>2. Universities Suppress Ratings, Don't Buy Them</h4>
+    <div class="story">The pilot found 0% RESILIENT, 83% MODERATE, 15% HIGH RISK, 2% CRITICAL. The tool is structurally negative — it tells most programs they're at risk. The first CRITICAL rating generates a legal threat, not a sales inquiry. Universities don't operate in a market where negative public ratings drive improvement — they operate in a prestige economy where negative ratings are suppressed through legal, political, and peak-body channels.</div>
+    <div class="meta-label">Underlying Assumption</div>
+    <div class="meta-text">Demand pull from rating subjects — that universities will want to be publicly rated and benchmarked. The Moody's/S&P analogy breaks at the most fundamental level: universities don't need a rating to access anything.</div>
+    <div class="meta-label">Warning Sign</div>
+    <div class="warning">If the first questions from design partners are "can we opt out?" and "do we get right of reply?" rather than "how do we buy?" — you're being threat-assessed, not vendor-evaluated.</div>
+  </div>
+
+  <div class="failure-card" style="border-left: 3px solid var(--accent-6);">
+    <span class="sev sev-high">High</span>
+    <h4>3. Accreditation Bodies Never Pay</h4>
+    <div class="story">AACSB is a membership organisation, not a procurement entity. Individual staff cannot endorse a vendor's instrument. Standards revision cycles run 3–5 years from conversation to mandate. There is no precedent for an accreditation body paying a startup to embed its methodology. The $240K–$360K/year "per body" revenue line is a category error — accreditation bodies are distribution channels (they create demand among universities), not customers (they do not buy).</div>
+    <div class="meta-label">Underlying Assumption</div>
+    <div class="meta-text">Accreditation bodies behave like enterprise buyers — that they can evaluate, purchase, and deploy a tool within 12–24 months.</div>
+    <div class="meta-label">Warning Sign</div>
+    <div class="warning">Falsifiable Question 7 is unanswered: "Has quantitative labour-market data been used as evidence in AACSB CIR peer reviews?" If no answer exists from secondary research, the revenue line is built on hope, not evidence.</div>
+  </div>
+
+  <div class="failure-card" style="border-left: 3px solid var(--accent-6);">
+    <span class="sev sev-high">High</span>
+    <h4>4. Benchmark Dataset Never Reaches Critical Mass</h4>
+    <div class="story">26 Australian institutions = 26 data points. That's not a benchmark — most discipline × institution-type cells have N=1 or N=2. International buyers need comparisons against their own sector, not Australia's. But the plan's action item #7 schedules international dataset seeding <em>after</em> revenue targets, creating a circular dependency: can't sell internationally without benchmark data, can't build benchmark data without international customers. Lightcast enters in Year 4 with an internationally-rich dataset built from 18B+ labour market data points — no institutional relationships required.</div>
+    <div class="meta-label">Underlying Assumption</div>
+    <div class="meta-text">The Australian benchmark dataset will be valuable enough to sell internationally — and international customers will buy it before the international dataset exists to make it valuable.</div>
+    <div class="meta-label">Warning Sign</div>
+    <div class="warning">The business model itself acknowledges the Australian TAM is only $1.0M–$1.5M in institutional subscriptions. If the dataset isn't valuable at 26 points, the international pathway doesn't exist.</div>
+  </div>
+
+  <div class="failure-card" style="border-left: 3px solid var(--accent-2);">
+    <span class="sev sev-critical">Critical</span>
+    <h4>5. Unit Economics Don't Close</h4>
+    <div class="story">Year 3 at $218K EBITDA cannot fund international expansion. Acquiring 360 international institutions requires $6.48M–$18M at realistic CAC — against $218K retained earnings. The plan's own "One Chart That Matters" shows a mathematically impossible 9.6× EBITDA jump from Year 3 to Year 4 ($218K → $2.1M) with no capital bridge. The business plateaus at $1.2M–$1.6M ARR — a failure only by its own $10M ambition. Realistic capital requirement: $23.5M–$26.9M, not $500K–$800K.</div>
+    <div class="meta-label">Underlying Assumption</div>
+    <div class="meta-text">The business can self-fund international expansion from Australian operating profits. At realistic CAC, the shortfall is $12M–$18M.</div>
+    <div class="meta-label">Warning Sign</div>
+    <div class="warning">The 400-institution Year 5 target exceeds the ~318 universities in the named markets (AU/NZ/UK/CA). Even 100% market penetration doesn't hit the number.</div>
+  </div>
+
+  <div class="failure-card" style="border-left: 3px solid var(--accent-6);">
+    <span class="sev sev-high">High</span>
+    <h4>6. Well-Funded Competitor Enters & Gives Product Away Free</h4>
+    <div class="story">Lightcast (KKR-backed, 5 acquisitions in 2025) already has Australian distribution through Labour Insight and an existing customer base. In 2027, they announce Skillabi for Australia — free for the first year. Every Evidura procurement conversation freezes. Year 2 revenue drops from $920K projected to $87K actual. The 18–36 month "window" was never a window — it was a grace period from a competitor who hadn't yet decided to care. KKR can make the $1.5M Australian market uneconomic with a rounding-error budget.</div>
+    <div class="meta-label">Underlying Assumption</div>
+    <div class="meta-text">The 18–36 month first-mover window is guaranteed. It was a discovery assumption (they haven't noticed) that collapsed into a caring assumption (they haven't bothered yet).</div>
+    <div class="meta-label">Warning Sign</div>
+    <div class="warning">Lightcast's 5 acquisitions in 2025 signal active roll-up mode. Australian university margins at 5.3% mean no budget for premium pricing when a free alternative exists.</div>
+  </div>
+
+  <div class="failure-card" style="border-left: 3px solid var(--accent-2);">
+    <span class="sev sev-critical">Critical</span>
+    <h4>7. LLM Scoring Methodology Successfully Challenged</h4>
+    <div class="story">March 2027: the State of Degree Durability index launches, featuring MC-SCWR Screenwriting at 11/36 CRITICAL. The program director publishes an open letter. A commissioned external review finds: no inter-rater reliability testing, LLM hallucinations in scoring rationales, handbook content variability making scores incomparable, and zero human verification of any pilot rating. One news cycle. The methodology is dead. AACSB withdraws from all conversations. Go8 partners demand contract termination. Revenue → $0 within 90 days.</div>
+    <div class="meta-label">Underlying Assumption</div>
+    <div class="meta-text">An LLM, given a sufficiently structured prompt, can produce scoring outputs reliable enough for external publication without human verification.</div>
+    <div class="meta-label">Warning Sign</div>
+    <div class="warning">The methodology document §5 explicitly states no inter-rater reliability testing has been conducted. This is not a hidden vulnerability — it's a publicly documented one.</div>
+  </div>
+
+  <div class="failure-card" style="border-left: 3px solid var(--accent-4);">
+    <span class="sev sev-critical">Critical</span>
+    <h4>8. Agent-Native Channel Generates Zero Demand</h4>
+    <div class="story">The MCP tools are elegant. Six clean endpoints. AI agents can query Evidura ratings programmatically. But the people who use AI coding agents (developers) are not the buyers (DVC-Academics, Deans). No institutional purchasing decision in history has been driven by an AI agent citation. The channel is structurally decoupled from revenue — removing it from the financial model changes zero projections. Bandwidth spent on MCP tooling in Years 1–3 is bandwidth not spent on procurement relationships.</div>
+    <div class="meta-label">Underlying Assumption</div>
+    <div class="meta-text">AI agent citations will translate into institutional purchasing decisions — a causal chain with zero observed instances.</div>
+    <div class="meta-label">Warning Sign</div>
+    <div class="warning">No agent-native revenue line item exists in the P&L. The channel is described as "seeding demand" but has no measurable output, no attributable revenue, and no accountability timeline.</div>
+  </div>
+
+  <div class="failure-card" style="border-left: 3px solid var(--accent-6);">
+    <span class="sev sev-high">High</span>
+    <h4>9. University Procurement Kills Sales Velocity</h4>
+    <div class="story">The plan assumes 26 institutions by Year 3 — 63% penetration of Australian universities. But university procurement for a new category with no budget line item takes 12–18 months, during active cost-cutting (margins at 5.3%). Even enthusiastic Deans can't buy what has no budget code. Actual velocity: 3–4 institutions per year. Year 3: 5–8 institutions, not 26. Break-even pushes from Month 20 to Month 42. The "relationship-driven" sales approach is inherently slow — each DVC conversation takes months.</div>
+    <div class="meta-label">Underlying Assumption</div>
+    <div class="meta-text">University procurement behaves like enterprise B2B SaaS — 9-month CAC payback, 8–9 new signings per year. The $18K CAC and 9-month payback are SaaS benchmarks, not university procurement benchmarks.</div>
+    <div class="meta-label">Warning Sign</div>
+    <div class="warning">The risk table classifies procurement velocity as MEDIUM severity. The corrected model shows it's the binding constraint on the entire financial plan — it should be CRITICAL.</div>
+  </div>
+
+</div>
+
+<!-- PRE-LAUNCH CHECKLIST -->
+<div class="checklist">
+  <h3>Pre-Launch Survival Checklist</h3>
+  <div class="item"><div class="num">1</div><div class="item-text"><strong>Multi-rater reliability study published.</strong> 3 human curriculum design experts + 2 alternative LLMs score the same 10 programs. Inter-rater reliability target >0.8 Cohen's kappa. Until this is done, <em>do not sell the methodology to anyone.</em></div></div>
+  <div class="item"><div class="num">2</div><div class="item-text"><strong>Independence structure resolved before first external invoice.</strong> Founder resigns from UoM employment, or the venture is transferred to an independent entity with no UoM equity, no UoM board seat, and a published governance charter. This is not deferrable to Year 2 — every Phase 1 conversation is poisoned without it.</div></div>
+  <div class="item"><div class="num">3</div><div class="item-text"><strong>First 3 paying customers secured through existing relationships</strong> before any cold procurement outreach. If you can't sell to people who already trust you, you can't sell to anyone.</div></div>
+  <div class="item"><div class="num">4</div><div class="item-text"><strong>Legal review of methodology completed.</strong> Errors-and-omissions insurance in place. Formal legal opinion on the classification of DFVA ratings as <em>opinion</em> (like a credit rating), not <em>fact</em>. Defamation risk assessed and mitigated.</div></div>
+  <div class="item"><div class="num">5</div><div class="item-text"><strong>"No public ratings without institutional consent" policy codified.</strong> The Carfax/Health Star Rating public-demand model is killed. Ratings are confidential to the purchasing institution. If the certification seal is ever launched, it's opt-in only, RESILIENT-band only.</div></div>
+  <div class="item"><div class="num">6</div><div class="item-text"><strong>Procurement pathway validated.</strong> Interview 3 DVCs-Academic at non-UoM institutions. Ask: "If you wanted to buy this, what budget line would it come from and how long would it take?" Do not build the sales pipeline until you know the answer.</div></div>
+  <div class="item"><div class="num">7</div><div class="item-text"><strong>Competitor monitoring active.</strong> Set Google Alerts / news monitoring for Lightcast, Mapademics, Coursedog, and "curriculum AI" in Australian higher education. The 18-36 month window is an assumption — verify it monthly.</div></div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  Premortem conducted June 30, 2026 · 9 independent agents · 6-month failure horizon<br>
+  Subject: Evidura Business Model & Financial Strategy · <code>docs/evidura-business-model.md</code><br>
+  Deep-dive files: <code>docs/evidura-failure-story-*.md</code> and <code>docs/evidura-deepdive-*.md</code>
+</div>
+
+</div>
+</body>
+</html>
