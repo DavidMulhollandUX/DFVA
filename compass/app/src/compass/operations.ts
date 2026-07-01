@@ -16,6 +16,25 @@ import { getAssessmentService } from './assessmentService';
 type AssessmentJob = any;
 
 /**
+ * Throw unless the authenticated user owns the given assessment job.
+ * Mirrors the ownership guard used by getAssessmentJob / getSyllabusMap.
+ * Requires the calling operation to declare AssessmentJob in its Wasp entities.
+ */
+async function assertOwnsAssessmentJob(
+  assessmentJobId: string,
+  context: any
+): Promise<void> {
+  const job = await context.entities.AssessmentJob.findUnique({
+    where: { id: assessmentJobId },
+    select: { userId: true },
+  });
+  if (!job) throw new HttpError(404, 'Assessment job not found');
+  if (job.userId !== context.user.id) {
+    throw new HttpError(403, 'Forbidden');
+  }
+}
+
+/**
  * Submit a handbook URL for assessment.
  * Returns the AssessmentJob record.
  */
@@ -173,6 +192,7 @@ export const updateCourseIntervention: UpdateCourseIntervention<
   any
 > = async (args, context) => {
   if (!context.user) throw new HttpError(401, 'Authentication required');
+  await assertOwnsAssessmentJob(args.assessmentJobId, context);
 
   return context.entities.CourseInterventionOwner.upsert({
     where: {
@@ -205,6 +225,7 @@ export const getCourseInterventions: GetCourseInterventions<
   any[]
 > = async ({ assessmentJobId }, context) => {
   if (!context.user) throw new HttpError(401, 'Authentication required');
+  await assertOwnsAssessmentJob(assessmentJobId, context);
 
   return context.entities.CourseInterventionOwner.findMany({
     where: { assessmentJobId },

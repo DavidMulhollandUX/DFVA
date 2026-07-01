@@ -362,12 +362,12 @@ query getSyllabusMap {
 
 action updateCourseIntervention {
   fn: import { updateCourseIntervention } from "@src/compass/operations",
-  entities: [CourseInterventionOwner]
+  entities: [CourseInterventionOwner, AssessmentJob]
 }
 
 query getCourseInterventions {
   fn: import { getCourseInterventions } from "@src/compass/operations",
-  entities: [CourseInterventionOwner]
+  entities: [CourseInterventionOwner, AssessmentJob]
 }
 
 action uploadAlumniData {

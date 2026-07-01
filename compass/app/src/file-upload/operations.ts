@@ -110,11 +110,26 @@ type GetDownloadFileSignedURLInput = z.infer<
 export const getDownloadFileSignedURL: GetDownloadFileSignedURL<
   GetDownloadFileSignedURLInput,
   string
-> = async (rawArgs, _context) => {
+> = async (rawArgs, context) => {
+  if (!context.user) {
+    throw new HttpError(401);
+  }
+
   const { s3Key } = ensureArgsSchemaOrThrowHttpError(
     getDownloadFileSignedURLInputSchema,
     rawArgs,
   );
+
+  // Verify the requesting user owns this file before signing a download URL.
+  // Without this check any authenticated (or unauthenticated) caller could
+  // download any file by supplying its s3Key.
+  const file = await context.entities.File.findFirst({
+    where: { s3Key, user: { id: context.user.id } },
+  });
+  if (!file) {
+    throw new HttpError(404, "File not found.");
+  }
+
   return await getDownloadFileSignedURLFromS3({ s3Key });
 };
 
