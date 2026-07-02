@@ -7,42 +7,66 @@ export const RECOMMEND_CONTENT_ALL: Record<string, { title: string; institution:
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: Juris Doctor (MC-JURISD)
 
-**Current:** 24/36 MODERATE RISK | **Duration:** 36 months full-time (300 credit points)
-**Target:** 28/36 RESILIENT | **Gap:** 4 points
+**Assessment date:** 2026-07-08
+**Prompt version:** DFVA-COPILOT-RECOMMENDER-v1
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The Melbourne JD is structurally strong where it is hardest to replace — Domain Depth (D6: 3/3, VLAB regulatory moat), Human & Relational capability (D8: 3/3), and Outcome Evidence (D10: 3/3). Its exposure is concentrated in three dimensions: **Technical Depth (D3: 1/3)**, **AI Literacy (D5: 2/3)**, and **Curriculum Currency (D9: 2/3)**. The root cause is structural, not pedagogical: every tech-forward subject (Law and Automation, Future Lawyer, AI and Justice, Commercial Data Law) is a **quota elective**, and the 200-credit compulsory core carries **zero AI or quantitative content**. Closing the 4-point gap does not require diluting the Priestley 11 core — it requires embedding AI-and-data literacy *into* it and stabilising the elective pipeline.
+The Juris Doctor scored **24/36 — MODERATE RISK**. One critical 1/3 score (Technical Depth) and a cluster of elective-only capabilities define the primary intervention targets.
+
+| Dimension | Score | Status |
+|---|---|---|
+| D1 — Automation Exposure | 2/3 | Adequate |
+| D2 — Systems Thinking | 2/3 | Adequate |
+| D3 — Technical Depth | 1/3 | Critical gap |
+| D4 — Decision-Making | 2/3 | Adequate |
+| D5 — AI Literacy | 2/3 | Adequate (elective-only) |
+| D6 — Domain Depth | 3/3 | Strength |
+| D7 — Research Methods | 2/3 | Adequate |
+| D8 — Human/Relational | 3/3 | Strength |
+| D9 — Curriculum Currency | 2/3 | Adequate |
+| D10 — Graduate Outcome Evidence | 3/3 | Strength |
+| B — Irreplaceability Premium | 2/3 | Adequate |
+| **TOTAL** | **24/36** | **MODERATE RISK** |
+
+The JD is structurally strong where it is hardest to replace — Priestley 11 domain depth (D6), the VLAB regulatory moat, and human/relational capability (D8). Its exposure is structural, not pedagogical: every tech-forward subject (Law and Automation, Future Lawyer, AI and Justice, Commercial Data Law) is a **quota elective**, and the 200-credit compulsory core carries **zero AI or quantitative content**. Closing the 4-point gap to RESILIENT does not require diluting the Priestley 11 core — it requires embedding AI-and-data literacy *into* it and stabilising the elective pipeline.
 
 ---
 
-## 2. PRIORITISED INTERVENTIONS
-
-### Intervention A — Embed AI literacy in the compulsory core (D5: 2 → 3) — +1
-Move AI fluency out of the elective quota and into required study. Rather than a new standalone subject, integrate an assessed **"AI in Legal Practice"** strand across the existing compulsory spine (Legal Method and Reasoning, Legal Research, Disputes and Ethics).
-- **Assessment 1 (Legal Research):** Complete a research task using an AI legal-research tool (e.g. Lexis+ AI / CoCounsel), then produce a critical audit — what the tool retrieved, what it fabricated or missed (hallucinated citations), the verification steps a supervising solicitor must take, and the professional-conduct obligations engaged. Dimensions: D5, D7, D4.
-- **Assessment 2 (Disputes and Ethics):** Draft a firm-level governance protocol for AI use in matter work: confidentiality and privilege risks, disclosure to clients and courts, supervision of AI-assisted drafting, and accountability when the tool is wrong. Dimensions: D5, D4, D2.
-
-### Intervention B — Add a compulsory quantitative / empirical methods requirement (D3: 1 → 2) — +1
-Introduce a required **"Data, Evidence and the Law"** module giving every graduate baseline numeracy for modern practice — statistical reasoning for evidence and damages, reading empirical studies, and the fundamentals of data/privacy regulation (Commercial Data Law concepts made core, not optional).
-- **Assessment:** Given a brief with quantitative evidence (an expert statistical report or a data-breach fact pattern), identify the methodological weaknesses, quantify an exposure or damages range, and advise the client. Dimensions: D3, D2, D4.
-
-### Intervention C — Add an assessed, AI-augmented client simulation with accountability (D4: 2 → 3) — +1
-Core assessment is still largely exam/essay-based. Add one **live, accountable simulation** to the compulsory capstone: students run a matter end-to-end with an AI-assisted workflow, make and defend judgment calls under uncertainty, and are examined by a panel including a practitioner.
-- **Assessment:** Advise a simulated client on an ambiguous matter; produce the AI-assisted workflow map (which tasks are automated vs human-led), a quality-assurance protocol, and a reasoned recommendation defended orally. Dimensions: D4, D8, D5.
-
-### Intervention D — Stabilise the elective offering (D9: 2 → 3) — +1
-At least 15 quota electives are "not available in 2026" (incl. Competition Law, Law Apps, Health Law and Ethics, Sports Law), signalling a staffing/transition gap that undermines currency and student planning. Guarantee a **published two-year rotation** for the tech-and-currency cluster (Law and Automation, Future Lawyer, AI and Justice, Commercial Data Law, Cyber Security and the Law) so at least three run each year, and retire or formally teach-out the dormant subjects rather than listing them.
+## 2. SCORE-TO-ACTION MAPPING
+| Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
+|---|---|---|---|
+| D3 — Technical Depth | 1/3 | No statistics, coding, or data-law requirement in the 200-credit core. Graduates cannot govern the AI and data tools reshaping practice. | Create mandatory unit: Data, Evidence and the Law — statistical reasoning for evidence and damages, empirical study literacy, data/privacy regulation fundamentals. |
+| D5 — AI Literacy | 2/3 | All AI content is elective; the compulsory core has zero AI literacy. Most graduates enter practice without AI competency. | Embed an assessed AI in Legal Practice strand across Legal Method, Legal Research, and Disputes & Ethics. |
+| D9 — Curriculum Currency | 2/3 | 15+ quota electives "not available in 2026"; AI content is elective-only. Currency undermined by an unstable offering. | Publish a guaranteed two-year rotation for the tech/currency cluster; teach-out dormant subjects. |
+| D4 — Decision-Making | 2/3 | Strong judgment training, but core assessment remains exam/essay rather than live, accountable simulation. | Add an assessed, AI-augmented client-matter simulation to the compulsory capstone, examined by a practitioner panel. |
+| D2 — Systems Thinking | 2/3 | System framing is practised (Public Law, Legal Method) but is not a standalone assessed competency. | Add an assessed failure-mode/systems-framing component to Legal Method and Reasoning. |
 
 ---
 
-## 3. SEQUENCING
-1. **Immediate (next handbook cycle):** Intervention D — a scheduling/governance change, no new curriculum design required; recovers D9 and de-risks the elective pipeline.
-2. **Short term (1 year):** Intervention A — integrates into existing compulsory subjects; highest-leverage single move against the core AI gap.
-3. **Medium term (1–2 years):** Interventions B and C — require new module design and capstone reform; together they lift D3 and D4 and convert the JD's regulatory moat into a durable AI-augmented advantage.
+## 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Impact |
+|---|---|---|---|
+| Junior Associate / Legal Research | Doc review, due diligence and first-draft memos increasingly performed by Harvey, CoCounsel and Lexis+ AI at near-associate level; firms compressing junior intake | "The billable grunt work is going to the model — juniors need to supervise it, not compete with it" | AI in Legal Practice strand + AI-tool audit assessment directly address |
+| Litigation / Advocacy | Court appearances, negotiation, cross-examination stable to growing; judgment and advocacy remain human | "Advocacy is one of the last things AI genuinely can't do — it requires being in the room" | D8 strength aligns; accountable simulation capstone reinforces |
+| In-house / Commercial & Data Law | ANZ in-house and privacy roles requiring data-protection, AI-governance and contract-analytics literacy (Q4 2025) | "Commercial lawyers now need to read a data-breach report and a model card, not just a contract" | Data, Evidence and the Law unit is the direct curriculum response |
+| Legal Operations / Legal Tech | Emerging ANZ "legal engineer / legal ops" roles requiring workflow design and tool governance | "The new premium role is the lawyer who can design and audit the AI workflow" | Technical-depth unit + AI-workflow simulation address |
+| Environmental & Climate Law | Growing multi-jurisdictional climate/regulatory work requiring human judgment on ambiguous frameworks | "Regulatory judgment across regimes is where human lawyers keep the ceiling" | D2 systems-framing component and elective stabilisation support |
 
-**Net effect:** D5 (+1), D3 (+1), D4 (+1), D9 (+1) → **28/36 RESILIENT**, achieved without touching the Priestley 11 accreditation core.`,
+---
+
+## 4. PRIORITISED INTERVENTIONS TABLE
+| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+|---|---|---|---|---|---|---|---|---|
+| P1 | Embed a mandatory **AI in Legal Practice** strand across the compulsory core (Legal Method, Legal Research, Disputes & Ethics): AI-tool audit, hallucination/verification, firm-level AI governance and disclosure | D5, D9, B | Doc review and research memos automated by Harvey/CoCounsel/Lexis+ AI; firms compressing junior intake | HIGH | HIGH | Dean + Melbourne Law School Curriculum Committee | Months 1–9 | Strand live Sem 1 2027; 100% of JD students; 80%+ on AI-governance rubric |
+| P2 | Create mandatory unit **Data, Evidence and the Law** — statistical reasoning for evidence/damages, empirical study literacy, data/privacy regulation fundamentals | D3, B | In-house and privacy roles requiring data-protection and contract-analytics literacy | HIGH | HIGH | MLS + School of Computing/Statistics (co-design) | Months 2–12 | Unit live Sem 2 2027; 85%+ demonstrating quantitative-evidence competency |
+| P3 | Add an assessed, **AI-augmented client-matter simulation** to the compulsory capstone: end-to-end matter, defended judgment calls, practitioner panel | D4, D8, D5 | "New premium role is the lawyer who can design and audit the AI workflow" | HIGH | MEDIUM | MLS Clinical & Capstone Lead | Months 6–15 | Live-accountability capstone for 100% of students by 2028 |
+| P4 | Stabilise the **tech/currency elective rotation** — published two-year schedule guaranteeing 3+ of {Law & Automation, Future Lawyer, AI & Justice, Commercial Data Law, Cyber Security & the Law} each year; teach-out dormant subjects | D9 | 15+ quota electives unavailable in 2026 | MEDIUM | LOW | MLS Associate Dean (Teaching) | Months 1–6 | Published rotation for 2027–28; ≤2 late-withdrawn electives/year |
+| P5 | Add an assessed **systems-framing / failure-mode** component to Legal Method and Reasoning | D2 | Multi-jurisdictional regulatory judgment valued as human ceiling | MEDIUM | MEDIUM | Legal Method Subject Coordinator | Months 3–9 | Systems-framing assessment in place Sem 1 2027 |
+| P6 | Publish **program-level graduate outcome data** (role titles, salary bands, time-to-employment) for the JD | D10 | Applicants and QILT increasingly expect granular, program-level destination data | LOW | LOW | MLS Careers + UoM Reporting | Months 1–6 | Program-level destination dashboard published 2027 |
+
+**Net effect:** P1 lifts D5 (+1), P2 lifts D3 (+1), P3 lifts D4 (+1), P4 lifts D9 (+1) → **28/36 RESILIENT**, achieved without touching the Priestley 11 accreditation core.`,
   },
   "dfva-recommend-439fs": {
     title: "Master of Food Science \u2014 Improvement Plan",

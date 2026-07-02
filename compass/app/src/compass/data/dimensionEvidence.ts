@@ -14,6 +14,133 @@ export interface DimensionEvidence {
 }
 
 export const DIMENSION_EVIDENCE: Record<string, Record<string, DimensionEvidence>> = {
+  "dfva-mc-jurisd": {
+    "D1": {
+      "rationale": "Entry-level legal work — document review, due diligence, and first-draft research memos — is increasingly performed by AI tools (Harvey, CoCounsel, Lexis+ AI) at near-associate level, concentrating substitution risk in routine, artifact-only tasks while advocacy and judgment remain human.",
+      "recommendations": [
+        {
+          "action": "Add an assessed, AI-augmented client-matter simulation to the compulsory capstone so graduates supervise and direct AI rather than compete with it",
+          "priority": "P3",
+          "effort": "Medium",
+          "dimRefs": ["D4", "D8", "D5"]
+        },
+        {
+          "action": "Embed a mandatory AI in Legal Practice strand across the compulsory core",
+          "priority": "P1",
+          "effort": "High",
+          "dimRefs": ["D5", "D9", "B"]
+        }
+      ]
+    },
+    "D2": {
+      "rationale": "System-level framing is practised across Principles of Public Law and Legal Method, but it is not a standalone assessed competency; hiring for multi-jurisdictional regulatory work increasingly expects explicit systems accountability.",
+      "recommendations": [
+        {
+          "action": "Add an assessed systems-framing / failure-mode component to Legal Method and Reasoning",
+          "priority": "P5",
+          "effort": "Medium",
+          "dimRefs": ["D2"]
+        }
+      ]
+    },
+    "D3": {
+      "rationale": "The 200-credit compulsory core carries no statistics, coding, or data-law requirement, so graduates cannot technically govern the AI and data tools now reshaping practice; job-family signals increasingly reward hybrid legal + data/analytics literacy.",
+      "recommendations": [
+        {
+          "action": "Create mandatory unit Data, Evidence and the Law — statistical reasoning for evidence and damages, empirical study literacy, data/privacy regulation fundamentals",
+          "priority": "P2",
+          "effort": "High",
+          "dimRefs": ["D3", "B"]
+        }
+      ]
+    },
+    "D4": {
+      "rationale": "Legal practice is decision-making under uncertainty and the JD trains judgment well, but core assessment remains exam/essay-based rather than live, accountable simulation with real consequences.",
+      "recommendations": [
+        {
+          "action": "Add an assessed, AI-augmented client-matter simulation to the compulsory capstone, defended before a practitioner panel",
+          "priority": "P3",
+          "effort": "Medium",
+          "dimRefs": ["D4", "D8", "D5"]
+        }
+      ]
+    },
+    "D5": {
+      "rationale": "All AI content sits in quota electives (Law and Automation, Future Lawyer, AI and Justice); the compulsory core has zero AI literacy, so most graduates enter a rapidly AI-augmented profession without competency the market now treats as baseline.",
+      "recommendations": [
+        {
+          "action": "Embed a mandatory AI in Legal Practice strand across Legal Method, Legal Research and Disputes & Ethics — AI-tool audit, hallucination/verification, and firm-level AI governance",
+          "priority": "P1",
+          "effort": "High",
+          "dimRefs": ["D5", "D9", "B"]
+        }
+      ]
+    },
+    "D6": {
+      "rationale": "Gold-standard Priestley 11 coverage across 200 compulsory credit points plus VLAB accreditation create a regulatory moat no AI tool can replicate — the program's core strength.",
+      "recommendations": []
+    },
+    "D7": {
+      "rationale": "The Legal Research capstone delivers genuine primary doctrinal research, but empirical and quantitative method is under-represented, limiting graduates' ability to defend positions with data.",
+      "recommendations": [
+        {
+          "action": "Add empirical/quantitative-evidence literacy via the Data, Evidence and the Law unit and an AI-tool research-audit assessment",
+          "priority": "P2",
+          "effort": "High",
+          "dimRefs": ["D3", "D7"]
+        }
+      ]
+    },
+    "D8": {
+      "rationale": "Advocacy, negotiation, mediation, client counselling and ethics are explicit, assessed learning outcomes reinforced by clinical placements — the least automatable capability and a durable differentiator.",
+      "recommendations": []
+    },
+    "D9": {
+      "rationale": "Tech-forward electives exist but at least 15 quota electives are unavailable in 2026 and AI content is elective-only, so currency is undermined by an unstable offering rather than by absent content.",
+      "recommendations": [
+        {
+          "action": "Embed the AI in Legal Practice strand in the core so currency does not depend on elective availability",
+          "priority": "P1",
+          "effort": "High",
+          "dimRefs": ["D5", "D9", "B"]
+        },
+        {
+          "action": "Publish a guaranteed two-year rotation for the tech/currency elective cluster and teach-out dormant subjects",
+          "priority": "P4",
+          "effort": "Low",
+          "dimRefs": ["D9"]
+        }
+      ]
+    },
+    "D10": {
+      "rationale": "Field-level QILT GOS data is available and law employment outcomes are strong, but the JD lacks published program-level granular destination data (role types, salary bands, time-to-employment).",
+      "recommendations": [
+        {
+          "action": "Publish program-level graduate outcome data for the JD (role titles, salary bands, time-to-employment)",
+          "priority": "P6",
+          "effort": "Low",
+          "dimRefs": ["D10"]
+        }
+      ]
+    },
+    "B": {
+      "rationale": "The JD combines strong domain depth and human/relational capability behind a regulatory moat, but graduates lack the rare legal + judgment + technical/AI triple integration as AI transforms document review, contract analysis and legal research.",
+      "recommendations": [
+        {
+          "action": "Embed AI literacy in the compulsory core",
+          "priority": "P1",
+          "effort": "High",
+          "dimRefs": ["D5", "D9", "B"]
+        },
+        {
+          "action": "Add a mandatory quantitative/data-law unit to build the technical leg of the triple integration",
+          "priority": "P2",
+          "effort": "High",
+          "dimRefs": ["D3", "B"]
+        }
+      ]
+    }
+  },
   "dfva-b-des": {
     "D1": {
       "rationale": "Market signals show junior production tasks are rapidly automated and bundled, increasing substitution risk for artifact-only roles.",
