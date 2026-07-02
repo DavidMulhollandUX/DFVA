@@ -45,6 +45,7 @@ import { generateMockSyllabus } from "./mockSyllabusData";
 import { RUBRIC, Dimension } from "./data/rubric";
 import { DIMENSION_EVIDENCE, DimensionEvidence } from "./data/dimensionEvidence";
 import { getFieldForCourse } from "./marketData";
+import CompetitiveIntelCard from "./components/CompetitiveIntelCard";
 
 const riskBandStyles: Record<string, string> = {
   RESILIENT:
@@ -161,6 +162,8 @@ const reportMeta: Record<
   "dfva-market-mc-urbdes": { score: null, riskBand: null },
   "dfva-mc-urbhort": { score: "25 / 36", riskBand: "MODERATE RISK" },
   "dfva-market-mc-urbhort": { score: null, riskBand: null },
+  "dfva-mc-jurisd": { score: "24 / 36", riskBand: "MODERATE RISK" },
+  "dfva-market-mc-jurisd": { score: null, riskBand: null },
 };
 
 const DIMENSIONS = [

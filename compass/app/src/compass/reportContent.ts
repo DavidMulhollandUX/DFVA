@@ -9162,5 +9162,75 @@ Professionals are experimenting with AI tools for species selection (e.g., Green
 **Prompt Version:** DFVA-COPILOT-MARKET-v1
 `,
   },
+  "dfva-mc-jurisd": {
+    title: "Juris Doctor (MC-JURISD) — DFVA Assessment",
+    institution: "University of Melbourne",
+    markdown: `## DFVA REPORT: Juris Doctor (MC-JURISD)
+**Institution:** University of Melbourne | **Level:** Masters (Extended), AQF 9 | **Duration:** 36 months full-time (300 credit points)
+**Assessment date:** 2026-07-08 | **Source:** https://handbook.unimelb.edu.au/2026/courses/mc-jurisd
+**Accreditation:** Victorian Legal Admissions Board (VLAB) — qualifies for admission to legal profession in all Australian jurisdictions
+
+### Scorecard
+| # | Dimension | Score | Rationale |
+|---|---|---:|---|
+| 1 | Automation Exposure | 2 | Entry-level legal work is a mix. Document review, due diligence, and basic legal research are highly automatable (AI tools already performing at near-associate level). But junior lawyers exercise professional judgment, client communication, and ethical reasoning from day one. Curriculum explicitly trains for non-routine work. The routine-to-non-routine ratio in early practice is shifting toward AI, but the profession retains irreducible human elements. |
+| 2 | Systems Thinking | 2 | Legal Method and Reasoning (foundation subject), Principles of Public Law (system-level thinking about government structures), and Legal Theory (philosophical foundations) build analytical frameworks. Intended learning outcomes include "strategic skills in considering a range of options" and "identifying factual information needed to sustain legal propositions." But no dedicated systems-thinking unit or assessed failure-mode analysis. Mentioned and practiced but not a standalone assessed competency. |
+| 3 | Technical Depth | 1 | Law is not a quantitative discipline. No statistics, coding, or data science requirements in the 200-credit compulsory core. Intended learning outcomes mention "computer-aided research" and "awareness of advanced communications technologies" — these are generic digital literacy, not technical depth. Commercial Data Law and Law Apps electives exist but are optional. Score reflects the absence of quantitative/technical rigour in the compulsory curriculum. |
+| 4 | Decision-Making | 2 | Legal practice inherently involves decision-making under uncertainty — interpreting ambiguous statutes, predicting judicial outcomes, advising clients with incomplete information. Disputes and Ethics (LAWS90140) directly addresses ethical dilemmas. Learning outcomes include "strategic skills in considering a range of options" and "identifying those which best meet client needs." Mooting and clinical electives involve real uncertainty. However, core assessment remains largely exam/essay-based rather than live simulations with accountability. |
+| 5 | AI Literacy | 2 | "Law and Automation" (LAWS90240, Summer Term) and "Future Lawyer" (LAWS90243, Sem 2) are JD quota electives addressing AI's impact on legal practice. MLM electives include "AI and Justice" (LAWS90248), "AI: Transforming Government" (LAWS90308), "Commercial Data Law" (LAWS90213), and "Cyber Security and the Law" (LAWS90266 — not offered 2026). However, these are ALL electives. The 200-credit compulsory core contains zero AI literacy content. Most graduates will not encounter AI content unless they actively choose these electives. |
+| 6 | Domain Depth | 3 | The JD is the gold standard for Australian legal education. 200 credit points of compulsory subjects cover all Priestley 11 areas required for admission: constitutional, administrative, criminal, contract, tort, property, equity, corporations, evidence, ethics, and procedure. VLAB accreditation creates a regulatory moat that no AI tool can replicate. The curriculum is comprehensive and rigorous with strong regulatory/scientific depth. |
+| 7 | Research Rigour | 2 | Legal Research (LAWS50039) is a compulsory capstone where students "conduct research on a topic of their choice" — genuine primary legal research with faculty supervision. Learning outcomes include "skills in the design and conduct of legal research, including computer-aided research" and "understanding of the philosophical and methodological bases of research activity." But it is one subject (12.5 of 300 pts). Most law school research is doctrinal/library-based rather than empirical. |
+| 8 | Human & Relational | 3 | Strong evidence across the curriculum. Learning outcomes explicitly list: judgement and diplomacy, team skills, interpersonal skills in relating to clients, negotiation, mediation, advocacy, intercultural communication, and leadership. Disputes and Ethics addresses ethical practice as a core competency. Clinical electives (Public Interest Law Clinic, Sustainability Business Clinic, Climate Resilience Clinic) provide real client interaction. VLAB accreditation requires demonstrated ethical competence. Graduate attributes emphasize "high standards of socially responsible and ethical conduct." |
+| 9 | Curriculum Currency | 2 | The JD is regularly updated (last revised 10 June 2026). Elective offerings include tech-forward subjects: Law and Automation, Future Lawyer, Commercial Data Law, AI and Justice, AI: Transforming Government. However, at least 15 quota electives are "not available in 2026" (Competition Law, Law Apps, Deals, Democracy Law and Civil Liberties, European Civil Law, Health Law and Ethics, Insolvency Law, Sports Law, Advanced Torts, Law and Human Nature, Creative Practice in Law, Equality and Discrimination Law) — signalling significant curriculum transition or staffing gaps. AI content is elective-only, not core. |
+| 10 | Outcome Evidence | 3 | Melbourne Law School publishes general employment outcomes and QILT GOS data exists for law graduates at the field-of-study level, but UoM does not publish program-specific granular employment data (salary bands, time-to-employment, role types) for the JD. Generic satisfaction surveys and broad destination data are available. Market data enrichment: Law field — 75.2% full-time employment (GOS 2024), $88,500 median salary, 92.6% 3yr employment. |
+| B | Irreplaceability (bonus) | 2 | The JD combines strong domain depth (D6:3, VLAB accreditation) and substantial human/relational capability (D8:3, ethical reasoning, client relationships, advocacy). The regulatory moat (admission to practice) provides structural irreplaceability. However, low technical depth (D3:1) and elective-only AI literacy (D5:2) mean graduates lack the rare triple integration of legal expertise + human judgment + technical/AI capability. |
+
+**TOTAL: 24/36 — MODERATE RISK**
+
+### Thresholds
+- **Q1:** YES — First 1-2 years of legal practice involve significant document review, due diligence, legal research memos, and contract analysis — all areas where AI tools (Harvey AI, CoCounsel, Lexis+ AI) are already performing at near-associate level. However, client communication, court appearances, negotiation, and ethical judgment remain human domains. The routine-to-non-routine ratio in early practice is shifting toward AI.
+- **Q2:** YES — The JD explicitly trains for professional judgment, ethical decision-making, and original legal research (Legal Research capstone). Learning outcomes emphasize "independent critical thought," "capacity to confront unfamiliar problems," and "leadership capacity." Graduates are trained to own decisions — they face professional liability if they don't.
+- **Q3:** UNCERTAIN — The regulatory moat (admission to practice) protects the profession's existence, but AI is compressing the junior lawyer market. Elite JD graduates (top 25%) will thrive as AI-augmented practitioners. Middle-tier graduates doing routine work face displacement. The program's optional AI literacy (electives only) means many graduates will enter practice without AI competency — a growing liability.
+
+### Verdict
+The Melbourne JD is a structurally resilient program with a powerful regulatory moat (VLAB accreditation) and strong human/relational training, but it faces a growing AI literacy gap. The 200-credit compulsory core contains zero AI content — every tech-forward subject (Law and Automation, Future Lawyer, AI and Justice) is elective. With at least 15 electives unavailable in 2026 and a curriculum that still treats AI as optional rather than foundational, the JD risks producing graduates who are domain experts in a profession being transformed without their training. The path to RESILIENT (28+) is clear: embed AI literacy in the compulsory core, add a quantitative/empirical methods requirement, and stabilise the elective offering.
+
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Other |
+| Full-time employment (4-6mo) | 75.2% (GOS 2024) |
+| Median starting salary | $88,500 |
+| Employment (3yr) | 92.6% |
+| Occupation demand | MET |
+| AI automation exposure | 50% |
+| Sources | QILT GOS 2024 National Report Tables, QILT GOS-L 2025 National Report Tables, QILT GOS 2024 International Report Tables, JSA Skills Priority List 2025, Felten, Raj & Seamans (2021) AI Occupational Exposure Index |
+`,
+  },
+  "dfva-market-mc-jurisd": {
+    title: "Juris Doctor (MC-JURISD) — Market Intelligence",
+    institution: "University of Melbourne",
+    markdown: `## DFVA MARKET INTELLIGENCE: Juris Doctor (MC-JURISD)
+
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Other |
+| Full-time employment (4-6mo) | 75.2% (GOS 2024) |
+| Median starting salary | $88,500 |
+| Employment (3yr) | 92.6% |
+| Occupation demand | MET |
+| AI automation exposure | 50% |
+| Sources | QILT GOS 2024 National Report Tables, QILT GOS-L 2025 National Report Tables, QILT GOS 2024 International Report Tables, JSA Skills Priority List 2025, Felten, Raj & Seamans (2021) AI Occupational Exposure Index |
+
+### Labour Market Context
+Law is a mature profession with a strong regulatory moat — admission to practice is gated by VLAB accreditation. The JD provides the academic qualification for admission in all Australian jurisdictions and is recognised internationally. However, AI tools (Harvey AI, CoCounsel, Lexis+ AI) are compressing the junior lawyer market, particularly in document review, due diligence, and legal research — areas that traditionally occupied graduates' first 2-3 years.
+
+### Strategic Implications
+- **Regulatory moat is durable:** VLAB accreditation cannot be substituted by AI. The legal profession will continue to require human practitioners for admission.
+- **Junior market compression:** The volume of entry-level legal roles is likely to shrink before graduates build experiential foundations for higher-judgment work.
+- **AI literacy gap:** The JD's treatment of AI as elective-only creates a two-tier graduate pool — those who took tech-forward electives and those who did not. The latter face significant competitive disadvantage.
+`,
+  },
 };
 
