@@ -1,7 +1,8 @@
-# DFVA REPORT: Master of Biotechnology
+## DFVA REPORT: Master of Biotechnology (MC-SCIBIT)
 
 **Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years full-time / 4 years part-time
-**Assessment Date:** 2026-05-13 | **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-scibit | **Prompt Version:** DFVA-COPILOT-PROMPT-v1
+
+**Assessment date:** 2026-05-13 | **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-scibit | **Prompt Version:** DFVA-COPILOT-PROMPT-v1
 
 ---
 
@@ -32,7 +33,7 @@ The Master of Biotechnology (MC-SCIBIT) is a 200-credit-point professional scien
 
 ## 3. DFVA SCORECARD
 
-| # | Dimension | Score | Evidence |
+| # | Dimension | Score (0-3) | Evidence |
 |---|---|---|---|
 | 1 | Automation Exposure of Roles | 2/3 | Regulatory affairs, GMP, and commercialisation roles carry genuine automation resistance. Documentation and routine compliance work is compressing. Entry-level QA and regulatory assistant roles face moderate AI substitution but accountability layer is structural protection. |
 | 2 | Systems Thinking and Problem Framing | 2/3 | LAWS90003 Regulation of Biotechnology and MKTG90022 Commercialisation of Science together require understanding of complex regulatory, commercial, and scientific systems. Industry Project requires navigating real organisational constraints. Trade-off reasoning not explicitly assessed. |
@@ -105,7 +106,7 @@ They are the regulatory affairs professional, the technology transfer officer, a
 
 ---
 
-**Assessment Date:** 2026-05-13 | **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-scibit | **Prompt Version:** DFVA-COPILOT-PROMPT-v1
+**Assessment date:** 2026-05-13 | **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-scibit | **Prompt Version:** DFVA-COPILOT-PROMPT-v1
 
 ### MARKET DATA
 | Metric | Value |

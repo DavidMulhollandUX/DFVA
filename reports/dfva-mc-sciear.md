@@ -1,7 +1,8 @@
-# DFVA REPORT: Master of Science (Earth Sciences)
+## DFVA REPORT: Master of Science (Earth Sciences) (MC-SCIEAR)
 
 **Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years full-time / 4 years part-time
-**Assessment Date:** 2026-05-15 | **Source URL:** https://handbook.unimelb.edu.au/2025/courses/mc-sciear | **Prompt Version:** DFVA-COPILOT-PROMPT-v1
+
+**Assessment date:** 2026-05-15 | **Source URL:** https://handbook.unimelb.edu.au/2025/courses/mc-sciear | **Prompt Version:** DFVA-COPILOT-PROMPT-v1
 
 ---
 
@@ -38,7 +39,7 @@ The program is a pathway to PhD study or to the workforce, and operates within a
 
 ## 3. DFVA SCORECARD
 
-| # | Dimension | Score | Evidence |
+| # | Dimension | Score (0-3) | Evidence |
 |---|---|---|---|
 | 1 | Automation Exposure of Roles | 3/3 | Graduate roles require physical fieldwork (Geology stream: field mapping, drilling, sampling), instrument operation, and original data interpretation from day one. Atmospheric Science graduates validate computational models against observations — requiring judgment about when models are wrong. AI accelerates analysis but cannot replace embodied field presence or observational judgment. |
 | 2 | Systems Thinking and Problem Framing | 2/3 | Atmospheric Modelling, Data Assimilation, Climate Science for Decision-Making, and Sedimentary Basins and Resource Analysis all require systems-level reasoning. Climate system feedback loops and geological basin analysis are inherently systems problems. Not explicitly labelled "systems thinking" but embedded in discipline practice. Trade-off reasoning present but not formally assessed as a standalone competency. |

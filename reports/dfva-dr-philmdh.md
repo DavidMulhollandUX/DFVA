@@ -27,7 +27,7 @@ Graduates typically pursue postdoctoral research fellowships (academic medicine,
 **Durability Assessment:** The PhD-MDHS graduate profile is structurally resistant to full automation because its core value — generating and defending original primary evidence, executing physical/clinical procedures, and exercising accountable judgment under genuine uncertainty — sits squarely in tasks AI cannot yet perform or is not permitted to be accountable for. The exposed surface area is concentrated in the "supporting" tasks around the research (literature synthesis, first-draft writing, boilerplate code, and routine statistical scripting), which are increasingly commoditised by AI copilots. This means the degree's *training regime* needs to explicitly reallocate emphasis away from tasks AI now does well and toward the judgment, physical, and accountability tasks AI cannot touch — but the underlying research training itself remains high value.
 
 ###  3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
+| # | Dimension | Score (0-3) | Rationale |
 |---|---:|---:|---|
 | D1 | Automation Exposure of Roles | 3 | Entry-point roles (postdoc, staff scientist, clinician-researcher) require irreducible physical lab/clinical execution, accountable interpretation, and original hypothesis-driven design from day one — not templated tasks. |
 | D2 | Systems Thinking and Problem Framing | 3 | The entire PhD structure (confirmation, hypothesis refinement, progress review, defended thesis) is built around constraint reasoning, failure-mode analysis (failed experiments, null results), and iterative hypothesis reframing across 4 years — integrated, not incidental. |
@@ -72,6 +72,6 @@ The 2027-ready PhD-MDHS graduate is a biomedical or clinical researcher who trea
 
 This graduate's durable value proposition strengthens rather than weakens under AI pressure: as routine synthesis and coding commoditise, the premium shifts further toward exactly what this PhD already trains — deep domain specialisation, physical/clinical execution capability, and the capacity to generate and defend original primary evidence under real uncertainty. With visible outcome data and explicit AI governance training layered on top of an already research-rigorous core, this program is positioned to be one of the more AI-resilient doctoral pathways at the University.
 
-**Assessment Date:** 2026-07-02
+**Assessment date:** 2026-07-02
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/dr-philmdh
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1

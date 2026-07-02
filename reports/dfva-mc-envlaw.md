@@ -1,12 +1,11 @@
-# DFVA REPORT: Master of Environmental Law
+## DFVA REPORT: Master of Environmental Law (MC-ENVLAW)
 
-**Institution:** University of Melbourne
-**Level:** Master (Coursework)
-**Duration:** 1 year (100 credit points)
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 1 year (100 credit points)
+
 
 ---
 
-**Assessment Date:** 2026-06-09
+**Assessment date:** 2026-06-09
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-envlaw
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1
 
@@ -36,7 +35,7 @@ Typical graduate roles include environmental lawyer, climate policy advisor, sus
 
 ## 3. DFVA SCORECARD
 
-| # | Dimension | Score | Evidence-based rationale |
+| # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---|---|
 | 1 | Automation Exposure of Roles | 1/3 | Legal research, document review, and compliance analysis are highly AI-automatable. Environmental law requires contextual judgment but core legal tasks are AI-vulnerable at junior levels. |
 | 2 | Systems Thinking and Problem Framing | 2/3 | Environmental law integrates across climate, water, waste, planning, and international regimes. Systems perspective inherent in the multi-jurisdictional nature of environmental problem framing. |

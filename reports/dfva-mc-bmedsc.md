@@ -28,7 +28,7 @@ Typical graduate roles include research scientist, clinical trial coordinator, r
 
 
 ###  3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
+| # | Dimension | Score (0-3) | Rationale |
 |---|---|---:|---|
 | 1 | Automation Exposure | 2 | 125pt research project anchors non-automatable work. Lab techniques partially automatable. Biomedical research increasingly AI-augmented. |
 | 2 | Systems Thinking | 2 | BIOM40001 (Introduction to Biomedical Research) + HLTH90021 (Research to Impact) teach problem framing. Research project requires experimental design. |
@@ -92,7 +92,7 @@ They are positioned at the interface of laboratory expertise and computational a
 
 ---
 
-**Assessment Date:** 2026-06-21
+**Assessment date:** 2026-06-21
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-bmedsc
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1
 ### MARKET DATA

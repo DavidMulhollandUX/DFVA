@@ -27,7 +27,7 @@ The core value proposition is the candidate's capacity to independently design, 
 **Durability Assessment:** Agricultural sciences PhD graduates sit in a task profile dominated by physically situated, biologically variable, and stakeholder-relational work that current and near-term AI cannot substitute — field trial execution, glasshouse/lab troubleshooting, and grower-facing extension are structurally protected. The genuine exposure is concentrated in the "generic research" layer common to all PhDs (literature synthesis, routine statistical scripting, first-draft writing), which AI compresses but does not eliminate, since methodological judgment, field-adapted trial design, and defensible original contribution remain the actual gatekeeping skills examined at thesis defence.
 
 ###  3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
+| # | Dimension | Score (0-3) | Rationale |
 |---|---:|---:|---|
 | D1 | Automation Exposure of Roles | 3 | Entry pathways (research scientist, agtech R&D, government agronomist) require field judgment, physical trial execution, and biological troubleshooting from day one — not templated, automatable tasks |
 | D2 | Systems Thinking and Problem Framing | 3 | A PhD is by definition an extended exercise in hypothesis formation, experimental design under real biological/environmental constraints, and defence of trade-offs at confirmation and final examination |
@@ -70,6 +70,6 @@ The 2027-ready Agricultural Sciences PhD graduate retains the degree's core dura
 
 This graduate is explicitly positioned for hybrid roles that current agtech and agribusiness employers are creating: research scientists who can both run a field trial and build the data pipeline that scales its insights, making them durable against both the "pure wet-lab scientist" and "pure data scientist" substitution risks on either side of the discipline.
 
-**Assessment Date:** 2026-07-02
+**Assessment date:** 2026-07-02
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/dr-philagr
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1

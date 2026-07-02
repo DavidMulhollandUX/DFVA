@@ -1,7 +1,8 @@
-# DFVA REPORT: Master of Science (Epidemiology)
+## DFVA REPORT: Master of Science (Epidemiology) (MC-SCIEPI)
 
 **Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years full-time / 4 years part-time
-**Assessment Date:** 2026-05-15 | **Source URL:** https://handbook.unimelb.edu.au/2025/courses/mc-sciepi | **Prompt Version:** DFVA-COPILOT-PROMPT-v1
+
+**Assessment date:** 2026-05-15 | **Source URL:** https://handbook.unimelb.edu.au/2025/courses/mc-sciepi | **Prompt Version:** DFVA-COPILOT-PROMPT-v1
 
 ---
 
@@ -34,7 +35,7 @@ Epidemiology is described as "the basic science of public health" — the scient
 
 ## 3. DFVA SCORECARD
 
-| # | Dimension | Score | Evidence |
+| # | Dimension | Score (0-3) | Evidence |
 |---|---|---|---|
 | 1 | Automation Exposure of Roles | 2/3 | Entry-level epidemiology roles involve a mix of routine data analysis (increasingly AI-assisted) and genuine methodological judgment (study design, bias assessment, causal inference). Data processing and standard statistical analyses are automating, but epidemiological reasoning about confounding structures, measurement validity, and population generalisability remains human work. |
 | 2 | Systems Thinking and Problem Framing | 2/3 | POPH90271 Infectious Diseases Modelling explicitly involves systems dynamics. Epidemiology itself is population-level systems thinking — understanding causal webs, confounding structures, and interaction effects. POPH90243 Epidemiology in Practice requires applying methods to real-world problems. Not labelled "systems thinking" but structurally embedded. |

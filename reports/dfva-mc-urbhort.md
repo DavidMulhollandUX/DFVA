@@ -1,12 +1,11 @@
-# DFVA REPORT: Master of Urban Horticulture
+## DFVA REPORT: Master of Urban Horticulture (MC-URBHORT)
 
-**Institution:** University of Melbourne
-**Level:** Master (Coursework)
-**Duration:** 2 years (200 credit points)
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 credit points)
+
 
 ---
 
-**Assessment Date:** 2026-06-09
+**Assessment date:** 2026-06-09
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-urbhort
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1
 
@@ -36,7 +35,7 @@ Typical graduate roles include urban horticulturalist, parks and gardens manager
 
 ## 3. DFVA SCORECARD
 
-| # | Dimension | Score | Evidence-based rationale |
+| # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---|---|
 | 1 | Automation Exposure of Roles | 2/3 | Hands-on horticultural work, plant identification, and landscape assessment require physical presence and specialist knowledge. Some design and planning tasks are AI-augmentable. |
 | 2 | Systems Thinking and Problem Framing | 3/3 | Urban horticulture integrates ecology, urban planning, climate adaptation, water management, and social amenity. Systems perspective across environmental and built environment disciplines. |

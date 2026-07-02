@@ -26,7 +26,7 @@ Typical graduate pathways include: academic legal scholarship (law faculty posit
 **Durability Assessment:** The Doctor of Philosophy – Law sits in a structurally different automation-exposure position from a professional law degree. Its core deliverable — an original, examiner-defended contribution to legal knowledge — is precisely the category of work current AI performs weakest at: sustained novel argumentation, contested doctrinal judgment, and accountable real-time defence under expert scrutiny. The tasks most exposed to AI (literature synthesis, first-pass citation mapping, prose drafting) are input tasks that accelerate the research process rather than substitute for its judgment core. The more material long-run risk to this graduate cohort is not AI substitution of research skill but the structural scarcity of academic legal positions and the increasing casualisation of the academic labour market — a labour-market risk distinct from, and in some ways orthogonal to, the DFVA automation lens. Candidates who build empirical/comparative method alongside doctrinal depth, and who use AI research tools as accelerants rather than crutches, will be best placed against both pressures.
 
 ###  3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
+| # | Dimension | Score (0-3) | Rationale |
 |---|---|---:|---|
 | 1 | Automation Exposure of Roles | 3 | This is not an entry-level-role cohort in the conventional sense — the PhD produces original scholarship examined for novelty, not templated output. Graduates move into academic, judicial, policy, or senior practice roles requiring irreducible judgment, design of new legal theory, and personal accountability for conclusions from day one. |
 | 2 | Systems Thinking and Problem Framing | 3 | The entire candidature is a multi-year exercise in constraint reasoning: identifying an unresolved doctrinal or socio-legal problem, framing a defensible research question, and reasoning through competing legal, institutional, and normative constraints. This is assessed continuously via milestone/confirmation reviews and ultimately the thesis itself — not a "mentioned but not assessed" competency but the whole degree. |
@@ -80,6 +80,6 @@ They graduate with a body of original scholarship that could not have been produ
 
 Crucially, they graduate into a career landscape Melbourne Law School has actively mapped for them — not just the traditional academic tenure-track pipeline, but judicial associateships, law reform commission fellowships, government legal policy roles, and AI-governance-adjacent legal specialisations where the demand for deep, original legal judgment is rising precisely because AI is proliferating in legal contexts that need expert human oversight. Their value is not that they compete with AI on speed of legal research, but that they are one of a small number of people qualified to say, with institutional credibility, where AI's legal reasoning can and cannot be trusted.
 
-**Assessment Date:** 2026-07-02
+**Assessment date:** 2026-07-02
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/dr-phillaw
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1

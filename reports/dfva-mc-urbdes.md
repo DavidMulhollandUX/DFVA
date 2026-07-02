@@ -12,7 +12,7 @@ Urban design presents a distinctive automation profile. AI tools increasingly as
 
 The structural defence is the studio + thesis model: 125 of 200 points are studio/thesis work that requires original design, stakeholder interaction, and defended decisions. AI can accelerate specific production tasks within this workflow but cannot formulate the design brief, negotiate with community stakeholders, or exercise the aesthetic and contextual judgment that defines urban design practice.
 
-### 3. DFVA SCORECARD
+### 4. DFVA SCORECARD
 | # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---:|---|
 | 1 | Automation Exposure of Roles | 2 | Design studios (100pt) require creative, contextual, and community-engaged work AI cannot replicate. Documentation and visualization tasks partially AI-automatable. |
@@ -29,13 +29,13 @@ The structural defence is the studio + thesis model: 125 of 200 points are studi
 
 **TOTAL: 26 / 36 — MODERATE RISK**
 
-### 4. THREE THRESHOLD QUESTIONS
+### 5. THREE THRESHOLD QUESTIONS
 - **Q1:** NO — Design studios require creative, contextual, and community-engaged work that AI cannot replicate.
 - **Q2:** YES — Four studios + thesis require sustained design decision ownership and defended trade-offs.
 - **Q3:** YES — Urban design demand grows with urbanization, climate adaptation, and infrastructure investment.
 
 
-### 5. ANALOGUE GRADUATE PROFILE
+### 6. ANALOGUE GRADUATE PROFILE
 
 The most exposed urban design graduate is the **Junior Urban Planner of 2022**: primarily producing planning reports, creating standard urban analysis visualisations, and preparing development assessment submissions — work increasingly aided by AI planning tools and parametric design platforms.
 
@@ -47,10 +47,10 @@ Specific threats:
 
 ---
 
-### 5. VERDICT
+### 7. VERDICT
 This program's structural strength is its studio model. Four sequential design studios plus a thesis create graduates whose core capability — creative urban design with community and systems awareness — resists AI substitution. The PIA accreditation pathway adds professional credibility. The AI literacy gap (D5: score 1) is the primary opportunity — adding computational urban design with AI methods would strengthen an already-solid program without compromising its design core.
 
-### 6. RECOMMENDATIONS
+### 8. RECOMMENDATIONS
 | Priority | Action | Dimensions | Effort |
 |---|---|---|---|
 | P1 | Publish graduate destination data | D10 | Medium |
@@ -61,7 +61,7 @@ This program's structural strength is its studio model. Four sequential design s
 **Path to RESILIENT:** P1 actions → 28/36 RESILIENT.
 
 
-### 8. THE REDESIGNED GRADUATE PROFILE
+### 9. THE REDESIGNED GRADUATE PROFILE
 
 The 2027-ready urban design graduate is not a planning report writer — they are a **place-maker who understands the social, spatial, and political dimensions of urban form**.
 

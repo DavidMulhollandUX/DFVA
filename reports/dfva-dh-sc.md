@@ -23,7 +23,7 @@ The degree is not available to international students requiring a subclass 500 s
 **Durability Assessment:** The standard DFVA automation-exposure lens — built to assess whether an entry-level graduate's day-to-day tasks are AI-substitutable — does not meaningfully apply to the Doctor of Science, because there is no entry-level graduate performing tasks in a job market. The degree recognises a lifetime body of work already produced by an established scientist. The more relevant durability question, addressed in Section 6, is whether the *examination act* that confers this credential will still mean something distinctive in a world where AI increasingly participates in producing, synthesising, and even reviewing scientific work.
 
 ###  3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
+| # | Dimension | Score (0-3) | Rationale |
 |---|---|---:|---|
 | D1 | Automation Exposure of Roles | 0 | Not applicable in the normal sense — there is no entry-level graduate cohort or role pipeline to assess. Scored 0/N/A-leaning-0 per house convention for higher doctorates: this is an examination-only award to already-established researchers, not a training pathway that produces graduates entering roles. |
 | D2 | Systems Thinking and Problem Framing | 3 | By definition, a successful DH-SC candidate has already demonstrated field-level systems thinking — designing research programs, framing novel hypotheses, and reasoning about constraints across a body of work spanning years. This is evidenced, not taught, but it is the single clearest requirement of the examination standard ("substantial, original contribution"). |
@@ -66,6 +66,6 @@ The Doctor of Science is not a training credential and should not be scored or r
 There is no "redesign" in the conventional DFVA sense because there is no curriculum, cohort, or graduate to redesign toward 2027-readiness. The equivalent forward-looking target is a **redesigned examination process**: a DH-SC panel in 2027 that explicitly interrogates the provenance of a candidate's body of work — distinguishing AI-assisted productivity from genuine original scientific insight — and that can still confidently certify "authoritative standing in the field of study" in a literature increasingly co-produced with AI tools. The credential's future value rests entirely on the continued rigour and independence of that human expert-panel judgment, not on any change to the (nonexistent) student experience.
 
 ---
-**Assessment Date:** 2026-07-02
+**Assessment date:** 2026-07-02
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/dh-sc
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1

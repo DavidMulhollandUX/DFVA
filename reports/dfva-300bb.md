@@ -26,7 +26,7 @@ Because entrants are already senior professionals, the "graduate" of this progra
 **Durability Assessment:** The EdD's task profile is dominated by activities that AI can *assist* (literature scanning, drafting, coding of qualitative data) but not *substitute for*, because the value of the degree is inseparable from the candidate's pre-existing seniority, institutional trust, and accountability for real decisions. The genuinely automatable slices — summarising literature, first-pass data coding — are already treated as scaffolding tasks within doctoral training, not the credentialed skill itself. The greater risk to this program is not that AI will displace graduates from roles (they already hold the roles), but that AI compresses the *time and training value* of the doctoral process itself if the curriculum does not explicitly teach candidates to use AI as a research accelerant while defending irreducibly human judgment.
 
 ###  3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
+| # | Dimension | Score (0-3) | Rationale |
 |---|---|---:|---|
 | D1 | Automation Exposure of Roles | 2 | Not a conventional "entry-level role" question — candidates are already senior practitioners returning to or advancing within leadership/policy roles. Scored on the exposure of the *tasks* graduates perform post-completion (advisory, leadership, applied research), which skew toward judgment/accountability, but the program's admission pathway assumes rather than builds this durability, so it is not maximal. |
 | D2 | Systems Thinking and Problem Framing | 2 | The program is explicitly built around "problem of practice" framing tied to the candidate's professional context, which is systems-thinking in substance; however, the handbook text gives no evidence of dedicated, assessed units on constraint reasoning or failure-mode analysis beyond the practice-relevance framing. |
@@ -69,6 +69,6 @@ The Doctor of Education scores 19/36 (HIGH RISK) against the standard DFVA rubri
 ## 8. THE REDESIGNED GRADUATE PROFILE
 The 2027-ready Doctor of Education graduate is a senior education leader who treats AI as a research and policy accelerant rather than a threat or a novelty: fluent in using AI tools to scan literature, model outcome data, and draft first-pass policy analysis, while explicitly trained to interrogate those outputs for bias, validity, and applicability to their specific institutional context. Their doctoral thesis demonstrates not just applied research rigour but a track record of using AI responsibly and transparently within that research — a governance capability increasingly expected of system-level leaders. Above all, their differentiated value remains what it always was: the ability to lead people, own consequential decisions under real institutional constraints, and translate rigorous evidence into trusted action — now paired with demonstrable fluency in supervising and governing AI use across the systems they lead, making them not just resilient to AI disruption but positioned to shape how their institutions respond to it.
 
-**Assessment Date:** 2026-07-02
+**Assessment date:** 2026-07-02
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/300bb
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1

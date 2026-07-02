@@ -29,7 +29,7 @@ Typical graduate roles include food technologist, food safety officer, regulator
 
 
 ###  3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
+| # | Dimension | Score (0-3) | Rationale |
 |---|---|---:|---|
 | 1 | Automation Exposure | 2 | 25-50pt research project. Food processing and quality testing are partially automatable. Sensory evaluation, product development require human judgment. |
 | 2 | Systems Thinking | 2 | Food supply chain from chemistry to processing to safety — inherently cross-disciplinary. Research project requires experimental design. |
@@ -95,7 +95,7 @@ They use AI formulation tools as accelerators — they know which constraints to
 
 ---
 
-**Assessment Date:** 2026-06-21
+**Assessment date:** 2026-06-21
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/439fs
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1
 ### MARKET DATA

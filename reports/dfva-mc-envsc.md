@@ -29,7 +29,7 @@ Typical graduate roles include environmental consultant, environmental scientist
 
 
 ###  3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
+| # | Dimension | Score (0-3) | Rationale |
 |---|---|---:|---|
 | 1 | Automation Exposure | 2 | Industry/research project (25pt) anchors non-automatable work. Environmental fieldwork requires physical presence. Data analysis partially automatable. |
 | 2 | Systems Thinking | 3 | Environmental science is inherently systems-oriented. Environmental Risk Assessment, Global Environmental Change, Environmental Modelling — all systems-focused. |
@@ -93,7 +93,7 @@ They use remote sensing and AI environmental monitoring tools as accelerators: t
 
 ---
 
-**Assessment Date:** 2026-06-21
+**Assessment date:** 2026-06-21
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-envsc
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1
 ### MARKET DATA

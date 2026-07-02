@@ -27,7 +27,7 @@ Typical graduate destinations are academic and research posts (lecturer/postdoc 
 **Durability Assessment:** The PhD in Architecture, Building and Planning sits in a structurally durable position because doctoral training is, by definition, training in producing an *original* contribution defended under expert scrutiny — the one output category current generative AI cannot yet substitute for. The exposure that exists is concentrated in the surrounding labour (literature synthesis, routine spatial/quantitative analysis, first-draft prose) rather than in the core competency being credentialed. The degree's durability varies meaningfully across its six sub-disciplines: design-research streams (Architecture, Landscape Architecture, Urban Design) and fieldwork-heavy streams (Urban Planning) are most durable because their evidence base is situated and relational; the more quantitative streams (Property, Construction Management) face somewhat higher tooling pressure on the analytical middle of the research process, though the framing and interpretation layer remains human. The degree's principal vulnerability is not displacement of the credentialed researcher but a shrinking academic and consultancy hiring market if institutions substitute AI-assisted synthesis for the kind of junior research-associate roles PhD graduates have historically used as a stepping stone.
 
 ###  3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
+| # | Dimension | Score (0-3) | Rationale |
 |---|---|---:|---|
 | 1 | Automation Exposure of Roles | 3 | Doctoral research output is judged on originality and defensibility under oral/written examination — the least automatable form of professional output that exists; graduate destinations (academia, senior policy/research roles) require judgment and accountability from entry. |
 | 2 | Systems Thinking and Problem Framing | 3 | The entire candidature is an exercise in framing an original research question, defending its scope, and reasoning about method and constraint under supervisory and examiner challenge — this is the core doctoral competency, assessed continuously via confirmation and progress milestones. |
@@ -80,6 +80,6 @@ The 2027-ready graduate of this PhD is a built-environment researcher who pairs 
 
 This graduate is distinguished from their AI-augmented tools not by working harder at tasks AI can do, but by owning the parts AI structurally cannot: original problem framing, fieldwork and stakeholder trust-building, defensible methodological judgment under expert examination, and the accountability of putting their name to a claim about how the built environment does or should work. Their career pathway — academia, government planning and infrastructure agencies, or specialist research consultancies — increasingly demands exactly this hybrid: technically fluent with AI-era tools, but irreplaceable as the source of original, defended insight.
 
-**Assessment Date:** 2026-07-02
+**Assessment date:** 2026-07-02
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/dr-philabp
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1

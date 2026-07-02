@@ -26,7 +26,7 @@ Because the program spans "all disciplines" at the university, its automation-ex
 **Durability Assessment:** The degree's core value proposition — the ability to conduct and be trusted with community-controlled, culturally-grounded research — sits almost entirely outside what current or near-term AI systems can substitute. The most exposed tasks (literature synthesis, first-draft prose, and topic-specific technical/quantitative work) are real but peripheral to what makes this degree distinctive; they are also the tasks any PhD, in any discipline, must defend against AI encroachment through methodological rigour and original contribution. The relational, consent-based, and cultural-authority components of the degree are its structural moat and are not credibly automatable within the 2027+ horizon this assessment targets.
 
 ###  3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
+| # | Dimension | Score (0-3) | Rationale |
 |---|---|---:|---|
 | D1 | Automation Exposure of Roles | 3 | Graduate pathways (academic/research institute leadership, community leadership, policy advisory) require accountability, cultural authority, and relational trust from day one; none are templated or routine — the underlying research training scaffold is one of the least automatable in the university |
 | D2 | Systems Thinking and Problem Framing | 3 | The IKI cross-disciplinary structure explicitly requires candidates to frame research questions that bridge Western and Indigenous knowledge systems, reason about constraints (community protocols, sovereignty, ethics) alongside disciplinary method, and defend trade-offs across the confirmation/milestone review process — integrated, not templated |
@@ -69,6 +69,6 @@ The 2027-ready DR-PHILIK graduate is someone who can move fluidly between three 
 
 Positioned this way, the graduate is not just resilient to AI disruption but structurally advantaged by it: as generic research-support tasks are increasingly commoditised by AI, the premium on graduates who can supply the community trust, cultural authority, and dual-knowledge-system fluency that AI cannot replicate only grows — across academia, Indigenous-led institutions, government policy, and cultural heritage and land/water management roles.
 
-**Assessment Date:** 2026-07-02
+**Assessment date:** 2026-07-02
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/dr-philik
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1

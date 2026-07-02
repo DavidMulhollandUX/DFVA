@@ -70,24 +70,40 @@ def parse_report(code):
         raise ValueError(f'{code}: could not find report header')
     program_name = m.group(1).strip()
 
+    # Metadata: try single-line pipe format first, fallback to multi-line
     m = re.search(
         r'\*\*Institution:\*\*\s*(.+?)\s*\|\s*\*\*Level:\*\*\s*(.+?)\s*\|\s*\*\*Duration:\*\*\s*(.+?)\s*\n',
         text)
     if not m:
-        raise ValueError(f'{code}: could not find institution/level/duration line')
+        # Fallback: multi-line metadata (markdown line breaks: "  \n")
+        m = re.search(
+            r'\*\*Institution:\*\*\s*(.+?)\s*(?:  ?\n|\n)\*\*Level:\*\*\s*(.+?)\s*(?:  ?\n|\n)\*\*Duration:\*\*\s*(.+?)\s*\n',
+            text)
+    if not m:
+        raise ValueError(f'{code}: could not find institution/level/duration')
     institution, level, duration = (g.strip() for g in m.groups())
 
-    m = re.search(r'\*\*Assessment date:\*\*\s*(\S+)\s*\|\s*\*\*Source:\*\*\s*(\S+)', text)
+    m = re.search(r'\*\*Assessment date:\*\*\s*(\S+)', text)
     if not m:
-        raise ValueError(f'{code}: could not find assessment date/source line')
-    date, handbook_url = m.groups()
+        raise ValueError(f'{code}: could not find assessment date')
+    date = m.group(1)
+    # Source URL is on a separate line
+    handbook_url = ''
+    m_url = re.search(r'\*\*Source URL\(s\):\*\*\s*(\S+)', text)
+    if not m_url:
+        m_url = re.search(r'\*\*Source:\*\*\s*(\S+)', text)
+    if m_url:
+        handbook_url = m_url.group(1)
 
-    scorecard_block_m = re.search(r'DFVA SCORECARD.*?\n(.*?)\*\*TOTAL:', text, re.DOTALL)
+    scorecard_block_m = re.search(r'###\s*4\.\s*DFVA SCORECARD.*?\n(.*?)\*\*TOTAL:', text, re.DOTALL)
+    if not scorecard_block_m:
+        # Fallback: old format without section numbers
+        scorecard_block_m = re.search(r'DFVA SCORECARD.*?\n(.*?)\*\*TOTAL:', text, re.DOTALL)
     if not scorecard_block_m:
         raise ValueError(f'{code}: could not find DFVA SCORECARD block')
     scorecard_block = scorecard_block_m.group(1)
     rows = re.findall(
-        r'^\|\s*(D?\d{1,2}|B)\s*\|\s*(.+?)\s*\|\s*(\d)\s*\|\s*(.+?)\s*\|\s*$',
+        r'^\|\s*(D?\d{1,2}|B)\s*\|\s*(.+?)\s*\|\s*(\d)\s*(?:\(\d-\d\))?\s*\|\s*(.+?)\s*\|\s*$',
         scorecard_block, re.MULTILINE)
     if len(rows) != 11:
         raise ValueError(f'{code}: expected 11 scorecard rows, found {len(rows)}')
@@ -104,14 +120,28 @@ def parse_report(code):
     if missing:
         raise ValueError(f'{code}: missing dimensions {missing}')
 
-    m = re.search(r'\*\*TOTAL:\s*(\d+)/36\s*\S+\s*(RESILIENT|MODERATE RISK|HIGH RISK|CRITICAL)', text)
+    m = re.search(r'\*\*TOTAL:\s*(\d+)\s*/\s*36\*\*', text)
     if not m:
         raise ValueError(f'{code}: could not find TOTAL line')
-    total_score, risk_band = int(m.group(1)), m.group(2)
+    total_score = int(m.group(1))
+    # Risk band may be on same line or separate line
+    m_band = re.search(r'\*\*Risk band:\s*(RESILIENT|MODERATE RISK|HIGH RISK|CRITICAL)', text)
+    if not m_band:
+        # Fallback: old format with band on same line as TOTAL
+        m_band = re.search(r'\*\*TOTAL:\s*\d+\s*/\s*36\*\*\s*(RESILIENT|MODERATE RISK|HIGH RISK|CRITICAL)', text)
+    if not m_band:
+        raise ValueError(f'{code}: could not find risk band')
+    risk_band = m_band.group(1)
 
     thresholds = {}
     for q in ('Q1', 'Q2', 'Q3'):
-        qm = re.search(rf'\*\*{q}:\*\*\s*(YES|NO|UNCERTAIN|N/A)', text)
+        # Answer may be on same line or next line (markdown line break)
+        qm = re.search(
+            rf'\*\*{q}:\*\*.*?(?:  ?\n|\n)\s*\*\*(YES|NO|UNCERTAIN|N/A)\*\*',
+            text, re.DOTALL)
+        if not qm:
+            # Fallback: answer on same line
+            qm = re.search(rf'\*\*{q}:\*\*\s*(YES|NO|UNCERTAIN|N/A)', text)
         if not qm:
             raise ValueError(f'{code}: could not find {q}')
         # ProgramReport.thresholds only accepts YES/NO/UNCERTAIN; higher doctorates
@@ -120,7 +150,14 @@ def parse_report(code):
         # typed field while the nuance stays in the report markdown itself.
         thresholds[q.lower()] = 'UNCERTAIN' if qm.group(1) == 'N/A' else qm.group(1)
 
-    rec_block_m = re.search(r'##\s*7\.\s*RECOMMENDATIONS\s*\n(.*?)\n##\s*8\.', text, re.DOTALL)
+    # Recommendations: try canonical ### 8. RECOMMENDATIONS ... ### 9. first
+    rec_block_m = re.search(r'###\s*8\.\s*RECOMMENDATIONS\s*\n(.*?)\n###\s*9\.', text, re.DOTALL)
+    if not rec_block_m:
+        # Fallback: old format ## 7. RECOMMENDATIONS ... ## 8.
+        rec_block_m = re.search(r'##\s*7\.\s*RECOMMENDATIONS\s*\n(.*?)\n##\s*8\.', text, re.DOTALL)
+    if not rec_block_m:
+        # Fallback: ### 7. RECOMMENDATIONS ... ### 8. (after Phase 1 alignment)
+        rec_block_m = re.search(r'###\s*8\.\s*RECOMMENDATIONS\s*\n(.*?)(?=\n###\s*(?:9|10)\.|\Z)', text, re.DOTALL)
     recommendations = []
     if rec_block_m:
         for line in rec_block_m.group(1).splitlines():
@@ -254,8 +291,12 @@ def update_report_meta(parsed_list):
     return src, len(lines)
 
 
-def write_evidence_json(parsed):
+def write_evidence_json(parsed, force=False):
     slug = parsed['code'].lower()
+    out_path = EVIDENCE_DIR / f'{slug}.json'
+    if out_path.exists() and not force:
+        print(f'  SKIP (evidence already exists, use --force to overwrite): {slug}')
+        return out_path
     by_dimension = {}
     for dcode, _, _ in CANONICAL:
         dims = parsed['dims_by_dcode'][dcode]
@@ -273,7 +314,6 @@ def write_evidence_json(parsed):
 
     out = {'code': slug, 'programSlug': f'dfva-{slug}', 'byDimension': by_dimension}
     EVIDENCE_DIR.mkdir(parents=True, exist_ok=True)
-    out_path = EVIDENCE_DIR / f'{slug}.json'
     out_path.write_text(json.dumps(out, indent=2) + '\n')
     return out_path
 
@@ -296,15 +336,28 @@ def update_manifest(codes):
 
 
 def main():
-    codes = sys.argv[1:]
+    args = [a for a in sys.argv[1:] if not a.startswith('--')]
+    flags = [a for a in sys.argv[1:] if a.startswith('--')]
+    dry_run = '--dry-run' in flags
+    force = '--force' in flags
+
+    codes = args
     if not codes:
-        print('usage: python3 scripts/dfva-add-programs.py CODE [CODE ...]')
+        print('usage: python3 scripts/dfva-add-programs.py [--dry-run] [--force] CODE [CODE ...]')
         sys.exit(2)
 
     parsed_list = []
     for code in codes:
         print(f'Parsing {code}...')
         parsed_list.append(parse_report(code))
+
+    if dry_run:
+        print('\nDRY RUN — would make these changes:')
+        for parsed in parsed_list:
+            print(f'  Add program: {parsed["program"]} ({parsed["code"]}) — {parsed["score"]}/36 {parsed["riskBand"]}')
+        print(f'\n  Total: {len(parsed_list)} program(s)')
+        print('\nRun without --dry-run to apply.')
+        return
 
     src, n_programs = update_shared_program_data(parsed_list)
     SPD_FILE.write_text(src)
@@ -315,9 +368,10 @@ def main():
     print(f'ReportDetailPage.tsx: +{n_meta} reportMeta entries')
 
     for parsed in parsed_list:
-        out_path = write_evidence_json(parsed)
-        n_recs = sum(len(v['recommendations']) for v in json.loads(out_path.read_text())['byDimension'].values())
-        print(f'  {out_path.relative_to(REPO)} ({n_recs} linked recommendations)')
+        out_path = write_evidence_json(parsed, force=force)
+        if out_path.exists():
+            n_recs = sum(len(v['recommendations']) for v in json.loads(out_path.read_text())['byDimension'].values())
+            print(f'  {out_path.relative_to(REPO)} ({n_recs} linked recommendations)')
 
     n_manifest = update_manifest(codes)
     print(f'docs/dfva-batch-manifest.json: +{n_manifest} newly marked scored')

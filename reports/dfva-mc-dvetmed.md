@@ -27,7 +27,7 @@ The program has a defined feeder relationship with the Bachelor of Science Veter
 **Durability Assessment:** The Doctor of Veterinary Medicine sits at the low end of the DFVA exposure spectrum because its core value proposition — hands-on physical examination, surgery, and procedural skill on non-verbal animal patients — has no credible AI substitute on any realistic 2027+ horizon. The genuine automation pressure concentrates in the periphery: routine documentation, basic lab screening, and first-pass imaging triage, all of which are already being compressed by veterinary-specific AI tools in general practice. The program's structural strength is embedding clinical competency and case-based reasoning from DVM1 rather than back-loading it to a final-year placement, which builds durable procedural judgment early. The clearest gap is that the handbook text provided contains no explicit mention of AI diagnostic tools, AI-assisted triage, or governance of AI use in clinical decision-making — a notable omission given how quickly AI imaging and documentation tools are entering companion-animal and equine practice.
 
 ###  3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
+| # | Dimension | Score (0-3) | Rationale |
 |---|---|---:|---|
 | 1 | Automation Exposure of Roles | 3 | Entry-level veterinary work is dominated by physical examination, surgery, procedural skill, and client-facing judgment on live animal patients — none of which AI can perform. Documentation and lab screening are automatable but peripheral to the role's core value. |
 | 2 | Systems Thinking and Problem Framing | 3 | The curriculum is explicitly described as integrated and interdisciplinary "from the first year," requiring students to apply understanding to authentic cases and practise evidence-based decision-making rather than isolated technique execution — this is systems reasoning embedded structurally, not bolted on. |
@@ -85,6 +85,6 @@ They graduate with a governance vocabulary for AI tools — able to explain to a
 
 ---
 
-**Assessment Date:** 2026-07-02
+**Assessment date:** 2026-07-02
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-dvetmed
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1

@@ -28,7 +28,7 @@ Typical graduate roles include climate scientist, climate risk analyst, climate 
 
 
 ###  3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
+| # | Dimension | Score (0-3) | Rationale |
 |---|---|---:|---|
 | 1 | Automation Exposure | 2 | 25pt industry/research project. Climate modelling is computational but interpretation requires judgment. |
 | 2 | Systems Thinking | 3 | Climate science is the canonical systems discipline. Atmosphere-ocean-biosphere coupling, feedback loops, tipping points. |
@@ -92,7 +92,7 @@ They understand the AI-augmented future of climate science: large climate emulat
 
 ---
 
-**Assessment Date:** 2026-06-21
+**Assessment date:** 2026-06-21
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-climsci
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1
 ### MARKET DATA

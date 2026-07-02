@@ -1,12 +1,11 @@
-# DFVA REPORT: Bachelor of Science
+## DFVA REPORT: Bachelor of Science (B-SCI)
 
-**Institution:** University of Melbourne
-**Level:** Bachelor (Undergraduate)
-**Duration:** 3 years (300 credit points)
+**Institution:** University of Melbourne | **Level:** Bachelor (Undergraduate) | **Duration:** 3 years (300 credit points)
+
 
 ---
 
-**Assessment Date:** 2026-05-13
+**Assessment date:** 2026-05-13
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/b-sci
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1
 
@@ -52,7 +51,7 @@ Key structural features:
 
 ## 3. DFVA SCORECARD
 
-| # | Dimension | Score | Evidence |
+| # | Dimension | Score (0-3) | Evidence |
 |---|---|---|---|
 | 1 | Automation Exposure of Roles | 2/3 | Cluster B graduates land in data/computational roles with meaningful judgment requirements; Cluster A and C graduates face higher early-career routine work exposure. Overall: mixed profile — not all templated, but entry is uneven. |
 | 2 | Systems Thinking and Problem Framing | 2/3 | Science methodology teaches hypothesis formation and experimental design — genuine systems thinking. However, integration across the degree varies by major; not all majors embed failure-mode or trade-off reasoning consistently. |

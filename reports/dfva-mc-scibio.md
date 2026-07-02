@@ -29,7 +29,7 @@ Typical graduate roles include research scientist, postdoctoral researcher, cons
 
 
 ###  3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
+| # | Dimension | Score (0-3) | Rationale |
 |---|---|---:|---|
 | 1 | Automation Exposure | 2 | 125pt research project is non-automatable. Lab/field techniques partially automatable. Ecological and biological research requires irreplaceable judgment. |
 | 2 | Systems Thinking | 2 | Ecology/evolution/environmental science inherently systems-oriented. Research project requires experimental design. |
@@ -95,7 +95,7 @@ They are positioned at the interface of computation and biology — fluent in da
 
 ---
 
-**Assessment Date:** 2026-06-21
+**Assessment date:** 2026-06-21
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-scibio
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1
 ### MARKET DATA

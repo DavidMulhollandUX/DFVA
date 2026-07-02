@@ -26,7 +26,7 @@ Typical graduate destinations include academic/research positions (university le
 **Durability Assessment:** The most AI-exposed tasks in this graduate profile — literature synthesis, first-draft policy text, and routine curriculum material generation — are exactly the tasks a generic PhD training focuses heavily on if the program does not deliberately push candidates toward primary data generation, applied policy accountability, and leadership/relational skill-building. Because this program's public documentation gives no visibility into how much emphasis is placed on original empirical fieldwork versus literature-based theses, or whether AI literacy is explicitly taught, the exposure profile is assessed as MEDIUM with meaningful uncertainty in either direction.
 
 ###  3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
+| # | Dimension | Score (0-3) | Rationale |
 |---|---|---:|---|
 | D1 | Automation Exposure of Roles | 2 | Academic, policy and system-leadership roles retain accountability and judgment; but publishing/writing/synthesis-heavy early-career academic work is highly exposed to AI drafting tools |
 | D2 | Systems Thinking and Problem Framing | 2 | A PhD by definition requires original problem framing and defended methodology (implicit in "research on a specific topic"), but handbook gives no visibility into structured systems-thinking training beyond the thesis itself |
@@ -70,6 +70,6 @@ The 2027-ready Doctor of Philosophy (Education) graduate is a practitioner-resea
 
 This graduate is equally comfortable publishing in academic venues and briefing a government department or school system on what the evidence means for practice, combining deep methodological rigour with the relational and institutional credibility needed to drive actual change — the "rare integration" the DFVA bonus dimension rewards, once documented as designed capability rather than left implicit in the degree's general research training.
 
-**Assessment Date:** 2026-07-02
+**Assessment date:** 2026-07-02
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/dr-philedu
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1

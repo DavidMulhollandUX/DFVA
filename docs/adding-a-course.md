@@ -26,13 +26,23 @@ request at a time. Do all of this up front instead.
 6. **Report markdown** — `reports/dfva-<code>.md`, and bump `CACHE_VERSION` in
    `sharedProgramData.ts`.
 
-## Guardrail
+## Guardrails
+
+### Completeness (`dfva:completeness`)
 
 `npm --prefix scripts run dfva:completeness` (runs in CI) fails on a new course
 that is missing any of the above: dangling `recommendSlug`, missing assessment
 content, or dimension evidence that is incomplete or has no source file. Existing
 incomplete programs are grandfathered in a `GRANDFATHERED` allowlist; the check
 prints which ones are now complete and can be removed from it.
+
+### Report format (`dfva:report-lint`)
+
+`npm --prefix scripts run dfva:report-lint` (runs in CI) validates every
+`reports/dfva-*.md` against the canonical template in
+[`docs/report-template.md`](report-template.md). Newly generated reports must
+pass; existing format drift is grandfathered. See the template for the three
+canonical report families (assessment, market, recommend).
 
 > Note: the dimension-evidence generator (`dfva:gen`) is currently out of sync
 > with the app data (it emits far fewer programs than the app carries). Until

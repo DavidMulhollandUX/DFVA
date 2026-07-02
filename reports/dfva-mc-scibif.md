@@ -21,7 +21,7 @@ The research project is the structural defence. Designing a bioinformatics inves
 
 The program's stream system is protective: graduates exit with hybrid competence (biology + computation + statistics) that is harder to substitute than single-discipline training. The 50-point research project is proportionally larger than the data science capstone (25 points) and provides stronger differentiation.
 
-### 3. DFVA SCORECARD
+### 4. DFVA SCORECARD
 | # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---:|---|
 | 1 | Automation Exposure of Roles | 2 | Routine bioinformatics pipelines are automatable; research question formulation and biological interpretation are not. The 50-point research project anchors the irreplaceable component. |
@@ -39,7 +39,7 @@ The program's stream system is protective: graduates exit with hybrid competence
 **TOTAL: 24 / 36**  
 **Risk band: MODERATE RISK (20-27)**
 
-### 4. THREE THRESHOLD QUESTIONS
+### 5. THREE THRESHOLD QUESTIONS
 - **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
   **NO** — while computational pipeline execution can be AI-assisted, the research project's core requirements (formulating a biological question, designing an analytical approach, interpreting ambiguous genomic data, and defending conclusions) cannot be produced by an AI agent. The cross-disciplinary judgment required is irreducible.
 
@@ -50,7 +50,7 @@ The program's stream system is protective: graduates exit with hybrid competence
   **YES** — genomics and bioinformatics are growing fields driven by decreasing sequencing costs and increasing clinical applications. AI tools accelerate routine analysis but increase demand for researchers who can interpret AI-generated findings in biological context. The cross-disciplinary training is structurally protective.
 
 
-### 5. ANALOGUE GRADUATE PROFILE
+### 6. ANALOGUE GRADUATE PROFILE
 
 The most exposed bioinformatics graduate is the **Bioinformatics Pipeline Operator of 2021**: running standard genome assembly pipelines, executing BLAST searches, and processing RNA-seq data using established workflows — work that cloud bioinformatics platforms and automated analysis tools are rapidly systematising.
 
@@ -62,23 +62,23 @@ Specific threats:
 
 ---
 
-### 5. VERDICT
+### 7. VERDICT
 This program is stronger than its score suggests because its structural design — cross-disciplinary streams converging on a substantial research project — creates graduates whose core capability (biological + computational + statistical judgment) resists AI substitution in ways that single-discipline programs do not.
 
 The program's main gap is AI literacy (D5: score 1). Bioinformatics is a field being actively transformed by AI — AlphaFold, protein language models, AI-driven drug discovery — yet the curriculum does not explicitly teach AI as a governed system. Adding even one unit on AI in bioinformatics (with governance and limitation awareness) would capture significant value at low effort.
 
-### 6. RECOMMENDATIONS
+### 8. RECOMMENDATIONS
 | Priority | Action | Dimension | Effort |
 |---|---|---|---|
 | P1 | Add a dedicated unit on AI/ML in bioinformatics with explicit governance and limitation training | 5 | Medium |
 | P1 | Publish graduate destination data by stream (Biology, Math/Stats, CS entry) | 10 | Medium |
 | P2 | Integrate AI tool use (AlphaFold, protein LLMs, automated literature mining) into the research methods training with critical evaluation | 5, 9 | Low |
 
-### 7. MARKET CONFIDENCE NOTE
+### 10. MARKET CONFIDENCE NOTE
 Confidence: **Medium**. Bioinformatics is a well-defined field with documented growth drivers (genomics, precision medicine). The structural analysis of cross-disciplinary training as a durability mechanism is curriculum-evidence-based. The AI literacy gap is based on field-level observation, not program-specific employer feedback.
 
 
-### 8. THE REDESIGNED GRADUATE PROFILE
+### 9. THE REDESIGNED GRADUATE PROFILE
 
 The 2027-ready bioinformatics graduate is not a pipeline runner — they are a **genomic data scientist** who knows why the analysis answers the question, not just how to run it.
 

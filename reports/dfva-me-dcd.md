@@ -26,7 +26,7 @@ Typical graduate pathway: private specialist practice (the dominant outcome for 
 **Durability Assessment:** The DClinDent sits at the most AI-resistant end of the entire DFVA rubric. Its core value is not "diagnostic pattern recognition" (which AI is eroding fastest across medicine broadly) but *legally licensed, physically-executed specialist intervention* combined with a state-enforced title monopoly. The genuine AI pressure points — radiograph/CBCT triage, cephalometric analysis, and draft orthodontic/prosthetic treatment plans — sit upstream of the graduate's actual value-add (specialist judgment, adjustment, and hands-on execution) rather than replacing it, and are already being absorbed as productivity tools inside specialist workflows rather than as substitutes for the specialist. The clinical, surgical, and relational core of the program is essentially non-automatable with 2026-era or foreseeable-near-term AI.
 
 ###  3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
+| # | Dimension | Score (0-3) | Rationale |
 |---|---|---:|---|
 | 1 | Automation Exposure of Roles | 3 | Entry is as a specialist clinician performing licensed intraoral surgical/manual procedures under personal medico-legal accountability from the day of registration — no templated task cluster dominates the role. |
 | 2 | Systems Thinking and Problem Framing | 3 | Specialist training requires integrating diagnostic imaging, medical history, biomechanics/pathology, and multidisciplinary referral pathways into a single defensible treatment plan for each individual patient — assessed continuously through supervised clinical practice, not a single unit. |
@@ -82,6 +82,6 @@ They understand that their economic position rests on a triad current AI cannot 
 
 ---
 
-**Assessment Date:** 2026-07-02
+**Assessment date:** 2026-07-02
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/me-dcd
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1

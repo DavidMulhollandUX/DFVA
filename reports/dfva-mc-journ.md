@@ -1,12 +1,11 @@
-# DFVA REPORT: Master of Journalism
+## DFVA REPORT: Master of Journalism (MC-JOURN)
 
-**Institution:** University of Melbourne
-**Level:** Master (Coursework)
-**Duration:** 2 years (200 credit points)
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 credit points)
+
 
 ---
 
-**Assessment Date:** 2026-06-09
+**Assessment date:** 2026-06-09
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-journ
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1
 
@@ -36,7 +35,7 @@ Typical graduate roles include journalist, digital producer, investigative repor
 
 ## 3. DFVA SCORECARD
 
-| # | Dimension | Score | Evidence-based rationale |
+| # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---|---|
 | 1 | Automation Exposure of Roles | 1/3 | Journalism faces extreme AI disruption. Content generation, summarisation, translation, and research synthesis are all highly automatable. The core craft of writing and story production is AI-vulnerable. |
 | 2 | Systems Thinking and Problem Framing | 2/3 | Journalism requires synthesising complex stories across political, social, and institutional systems. Media law, ethics, and press freedom teach systemic perspective on information ecosystems. |

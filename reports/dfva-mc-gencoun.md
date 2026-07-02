@@ -29,7 +29,7 @@ Typical graduate roles include genetic counsellor (clinical genetics units at ho
 
 
 ###  3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
+| # | Dimension | Score (0-3) | Rationale |
 |---|---|---:|---|
 | 1 | Automation Exposure | 3 | Genetic counselling is irreducible human work. Clinical empathy, family communication, informed consent — AI cannot substitute. 37.5pt clinical placement (Year 2). |
 | 2 | Systems Thinking | 2 | Clinical genomics + societal implications + healthcare research. Human genetics in healthcare context teaches integrated thinking. |
@@ -93,7 +93,7 @@ They understand AI variant classification tools: they know which classification 
 
 ---
 
-**Assessment Date:** 2026-06-21
+**Assessment date:** 2026-06-21
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-gencoun
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1
 ### MARKET DATA

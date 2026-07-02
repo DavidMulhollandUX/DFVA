@@ -21,7 +21,7 @@ The structural defence is the project. Whether capstone or research pathway, the
 
 The risk is in the middle: graduates who exit with coursework competence but without project-cultivated judgment enter a labour market where "can fit a model" is no longer a differentiator. The program's stream system partially mitigates this by allowing CS-background students to deepen into computational specialisation and stats-background students into statistical depth, but the default pathway for Foundation-stream students is the broadest and most substitutable profile.
 
-### 3. DFVA SCORECARD
+### 4. DFVA SCORECARD
 | # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---:|---|
 | 1 | Automation Exposure of Roles | 2 | Routine data tasks are highly automatable; the 25-point project and stakeholder-facing elements provide irreplaceable experience. Graduate destinations (data analyst/scientist) are mixed-exposure roles. |
@@ -39,7 +39,7 @@ The risk is in the middle: graduates who exit with coursework competence but wit
 **TOTAL: 24 / 36**  
 **Risk band: MODERATE RISK (20-27)**
 
-### 4. THREE THRESHOLD QUESTIONS
+### 5. THREE THRESHOLD QUESTIONS
 - **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
   **UNCERTAIN** — routine data tasks (cleaning, model fitting, report drafting) are increasingly AI-producible. The 25-point project and stakeholder-facing elements resist substitution, but the balance depends heavily on whether the student took the capstone or research pathway and the nature of their specialisation.
 
@@ -50,7 +50,7 @@ The risk is in the middle: graduates who exit with coursework competence but wit
   **UNCERTAIN** — data science demand is growing but the field is also increasingly competitive and AI-compressed at the entry level. Graduates who exit with project-cultivated judgment and specialisation depth differentiate; those with coursework-only competence face a tightening market for routine analytics roles.
 
 
-### 5. ANALOGUE GRADUATE PROFILE
+### 6. ANALOGUE GRADUATE PROFILE
 
 The most exposed data science graduate is the **Junior Data Analyst of 2022**: using pandas and sklearn to clean datasets, train standard classification models, produce visualisations, and write summary reports — work being systematically absorbed by AI coding assistants, AutoML platforms, and business intelligence co-pilots.
 
@@ -62,12 +62,12 @@ Specific threats:
 
 ---
 
-### 5. VERDICT
+### 7. VERDICT
 This program has strong bones — the statistics/CS dual-core is structurally sound and the stream/specialisation system accommodates diverse entry backgrounds while steering all students toward depth. The 9 June 2026 update date signals active curriculum maintenance.
 
 The vulnerability is not the curriculum content but the graduate differentiation mechanism. In a market where "can fit a model" is table stakes and AI tools increasingly handle routine analytics, the project (25 points of 200) is doing a lot of heavy lifting as the primary locus of judgment cultivation. Strengthening the project component — or distributing decision-ownership and stakeholder-communication practice across more of the curriculum — would harden the program against the compression of routine data roles.
 
-### 6. RECOMMENDATIONS
+### 8. RECOMMENDATIONS
 | Priority | Action | Dimension | Effort |
 |---|---|---|---|
 | P1 | Publish granular graduate destination data by specialisation and stream | 10 | Medium |
@@ -75,11 +75,11 @@ The vulnerability is not the curriculum content but the graduate differentiation
 | P2 | Increase project weighting or add a second project-style assessment earlier in the program | 4, 7 | High |
 | P2 | Distribute stakeholder communication and decision-defense practice across coursework units | 2, 8 | Medium |
 
-### 7. MARKET CONFIDENCE NOTE
+### 10. MARKET CONFIDENCE NOTE
 Confidence: **Medium**. Data science labour market signals are well-documented; the structural analysis of the project as a differentiation mechanism is curriculum-evidence-based. The uncertainty is in the graduate destination data gap — without published outcomes by specialisation, the program's actual differentiation effectiveness is unverified.
 
 
-### 8. THE REDESIGNED GRADUATE PROFILE
+### 9. THE REDESIGNED GRADUATE PROFILE
 
 The 2027-ready data science graduate is not someone who fits models — they are someone who **defines what question the model is answering and what we learn when it is wrong**.
 

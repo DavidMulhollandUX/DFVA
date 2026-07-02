@@ -1,12 +1,11 @@
-# DFVA REPORT: Master of Screenwriting
+## DFVA REPORT: Master of Screenwriting (MC-SCWR)
 
-**Institution:** University of Melbourne
-**Level:** Master (Coursework)
-**Duration:** 1.5 years (150 credit points)
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 1.5 years (150 credit points)
+
 
 ---
 
-**Assessment Date:** 2026-06-09
+**Assessment date:** 2026-06-09
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-scwr
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1
 
@@ -36,7 +35,7 @@ Typical graduate roles include screenwriter, script editor, television staff wri
 
 ## 3. DFVA SCORECARD
 
-| # | Dimension | Score | Evidence-based rationale |
+| # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---|---|
 | 1 | Automation Exposure of Roles | 0/3 | Generative text models can draft scripts, treatments, and dialogue rapidly, putting entry-level commercial screenwriting and content creation roles at extreme risk of automation. |
 | 2 | Systems Thinking and Problem Framing | 1/3 | Focuses on narrative craft and individual script structures rather than larger complex system design or cross-disciplinary problem framing. |

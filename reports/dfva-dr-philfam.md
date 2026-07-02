@@ -28,7 +28,7 @@ Typical graduate pathways are: academic/conservatoire teaching and research posi
 
 
 ###  3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
+| # | Dimension | Score (0-3) | Rationale |
 |---|---|---:|---|
 | 1 | Automation Exposure of Roles | 3 | Doctoral graduates go into original creative production, live performance, clinical practice, and academic leadership — roles defined by judgment, authorship, and accountability, not templated execution, from day one. |
 | 2 | Systems Thinking and Problem Framing | 2 | Practice-led research inherently requires framing an original creative/research problem and defending method choices at confirmation and examination; but this is candidate-driven and supervisor-dependent rather than a taught, assessed curriculum element — no dedicated systems-thinking units exist because there is no coursework. |
@@ -90,6 +90,6 @@ Across all 15 disciplines, the redesigned graduate leaves the program having gen
 
 ---
 
-**Assessment Date:** 2026-07-02
+**Assessment date:** 2026-07-02
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/dr-philfam
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1

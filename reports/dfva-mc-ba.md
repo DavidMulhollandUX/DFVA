@@ -1,12 +1,11 @@
-# DFVA REPORT: Master of Business Administration
+## DFVA REPORT: Master of Business Administration (MC-BA)
 
-**Institution:** University of Melbourne
-**Level:** Master (Coursework)
-**Duration:** 2 years (225 credit points)
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (225 credit points)
+
 
 ---
 
-**Assessment Date:** 2026-06-09
+**Assessment date:** 2026-06-09
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-ba
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1
 
@@ -36,7 +35,7 @@ Typical graduate roles include management consultant, strategy manager, product 
 
 ## 3. DFVA SCORECARD
 
-| # | Dimension | Score | Evidence-based rationale |
+| # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---|---|
 | 1 | Automation Exposure of Roles | 1/3 | General management roles involve significant routine analysis, reporting, and coordination — automatable tasks. MBA graduates compete with AI-augmented analysts in the early career pipeline. |
 | 2 | Systems Thinking and Problem Framing | 2/3 | General Management 1+2 cover business systems. MBA Capstone integrates strategy. Systems thinking present but not the primary pedagogical model — breadth over depth. |

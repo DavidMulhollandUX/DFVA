@@ -28,7 +28,7 @@ Typical graduate roles include research scientist (in physics labs, national fac
 
 
 ###  3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
+| # | Dimension | Score (0-3) | Rationale |
 |---|---|---:|---|
 | 1 | Automation Exposure | 2 | 100pt research project is irreducible. Coursework (quantum mechanics, field theory, GR) teaches conceptual physics that AI assists but doesn't replace. |
 | 2 | Systems Thinking | 2 | Physics inherently teaches problem framing and constraint reasoning. Research project requires experimental/theoretical design. |
@@ -94,7 +94,7 @@ They are positioned at the interface of fundamental science and technology appli
 
 ---
 
-**Assessment Date:** 2026-06-21
+**Assessment date:** 2026-06-21
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-sciphy
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1
 ### MARKET DATA

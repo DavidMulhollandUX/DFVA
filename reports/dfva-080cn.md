@@ -29,7 +29,7 @@ Graduates emerge dual-qualified: eligible for general psychologist registration 
 
 
 ###  3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
+| # | Dimension | Score (0-3) | Rationale |
 |---|---|---:|---|
 | 1 | Automation Exposure of Roles | 3 | Core graduate tasks — differential diagnosis, therapy delivery, forensic assessment, case conferencing — require irreducible human judgment, legal accountability, and relational trust from day one of clinical placement. |
 | 2 | Systems Thinking and Problem Framing | 3 | Clinical neuropsychology inherently requires integrating multi-modal evidence (history, test data, imaging, collateral report) into a coherent diagnostic formulation under uncertainty; PhD thesis adds independent hypothesis-driven research training on top of this. |
@@ -87,6 +87,6 @@ They are positioned to lead, not resist, the incorporation of digital cognitive-
 
 ---
 
-**Assessment Date:** 2026-07-02
+**Assessment date:** 2026-07-02
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/080cn
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1

@@ -26,7 +26,7 @@ Typical graduates become registered psychologists with clinical endorsement, wor
 **Durability Assessment:** The clinical core of this program — live diagnostic judgment, therapeutic relationship, crisis risk accountability, and statutory registration — is structurally resistant to AI substitution, and the combined PhD adds an independent research-generation capability on top. The only meaningfully exposed layer is administrative/documentation overhead, which AI compresses without threatening the graduate's core value proposition; if anything it should free clinical capacity, strengthening the case for augmentation rather than displacement.
 
 ###  3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
+| # | Dimension | Score (0-3) | Rationale |
 |---|---|---:|---|
 | D1 | Automation Exposure of Roles | 3 | Entry-level clinical psychologist roles require registered judgment, accountability, and physical/relational presence in every core task — assessment, treatment, risk sign-off — from day one of supervised practice |
 | D2 | Systems Thinking and Problem Framing | 3 | Case formulation across biopsychosocial models, differential diagnosis, and treatment-plan adaptation under supervision is assessed authentically and integrated throughout placements and coursework, not templated |
@@ -68,6 +68,6 @@ The 2027-ready graduate of this program is a registered clinical psychologist an
 
 Their PhD strand produces genuinely novel empirical or theoretical contributions to clinical psychology, increasingly using AI-accelerated literature synthesis and data analysis as an efficiency layer without ceding methodological ownership or defended interpretation. The combination of statutory registration, deep relational clinical skill, and independent research capability keeps this graduate profile durably ahead of automation pressure — the redesign task is refinement and explicit AI-governance literacy, not structural overhaul.
 
-**Assessment Date:** 2026-07-02
+**Assessment date:** 2026-07-02
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/080cl
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1

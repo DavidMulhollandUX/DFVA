@@ -52,3 +52,5 @@ jobs:
         run: npm ci --prefix scripts || npm install --prefix scripts
       - name: Course completeness check
         run: npm --prefix scripts run dfva:completeness
+      - name: Report format lint
+        run: npm --prefix scripts run dfva:report-lint

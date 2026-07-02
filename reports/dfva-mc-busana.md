@@ -1,12 +1,11 @@
-# DFVA REPORT: Master of Business Analytics
+## DFVA REPORT: Master of Business Analytics (MC-BUSANA)
 
-**Institution:** University of Melbourne
-**Level:** Master (Coursework)
-**Duration:** 1 year (150 credit points)
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 1 year (150 credit points)
+
 
 ---
 
-**Assessment Date:** 2026-06-09
+**Assessment date:** 2026-06-09
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-busana
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1
 
@@ -36,7 +35,7 @@ Typical graduate roles include data scientist, machine learning engineer, analyt
 
 ## 3. DFVA SCORECARD
 
-| # | Dimension | Score | Evidence-based rationale |
+| # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---|---|
 | 1 | Automation Exposure of Roles | 2/3 | Data scientists/analysts build AI tools rather than being replaced by them. Some routine analysis is automatable but strategic problem framing and business translation resist automation strongly. |
 | 2 | Systems Thinking and Problem Framing | 3/3 | Translating business problems into quantitative form, integrating across statistics/ML/optimisation domains. Causal + predictive + NLP — full quantitative systems toolkit. |

@@ -27,7 +27,7 @@ Graduates enter as registered physiotherapists across musculoskeletal, neurologi
 **Durability Assessment:** The core value of a physiotherapist — hands-on physical assessment and treatment delivered under a regulated scope of practice — sits almost entirely outside what current or near-term AI systems can substitute. The primary automation pressure is concentrated in peripheral administrative tasks (documentation, note-taking) rather than the clinical core, and AI is far more likely to function as a documentation/decision-support augmentation than a competitor to the graduate's professional identity.
 
 ###  3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
+| # | Dimension | Score (0-3) | Rationale |
 |---|---|---:|---|
 | D1 | Automation Exposure of Roles | 3 | Entry-level physiotherapist roles require day-one physical/manual skill, real-time clinical judgment, and AHPRA-accountable decision-making — none of which is routine or templated. |
 | D2 | Systems Thinking and Problem Framing | 2 | The three-identity/nine-element framework (Self, Practitioner, Advocate) and "constructive alignment" model teach explicit outcome-to-assessment reasoning, but the handbook text does not evidence dedicated failure-mode/constraint-reasoning units beyond general clinical reasoning — scored as present and assessed but not confirmed as integrated throughout. |
@@ -69,6 +69,6 @@ The 2027-ready Doctor of Physiotherapy graduate retains everything that already 
 
 This graduate also carries a genuine, if modest, primary-research capability, having designed and executed a small clinical audit or study rather than only appraising others' evidence, and enters the workforce backed by an institution that can point to granular, published outcome data. The result is a practitioner whose irreplaceable physical and relational skill is now paired with visible, governance-literate command of the AI layer increasingly surrounding — but never replacing — the clinical encounter itself.
 
-**Assessment Date:** 2026-07-02
+**Assessment date:** 2026-07-02
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-dphysio
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1

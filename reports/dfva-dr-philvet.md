@@ -27,7 +27,7 @@ Graduate pathways from this degree lead into veterinary academia (postdoctoral r
 **Durability Assessment:** The bulk of this graduate's day-to-day toolkit (literature review, statistical scripting, manuscript drafting) is compressible by AI, but the degree's actual value proposition — generating novel primary evidence in a physical, regulated, animal-health domain and defending it under independent examination — sits squarely in the zone AI augments rather than replaces. The research doctorate structurally forces candidates to do the non-automatable parts (design under real constraint, physical/field data generation, accountable interpretation, oral defence) even as it uses AI-exposed tools (literature synthesis, coding, drafting) as means to that end. The clinical/physical dimension of much veterinary research (animal handling, field epidemiology, pathology) further insulates this cohort relative to a purely computational or desk-based PhD.
 
 ###  3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
+| # | Dimension | Score (0-3) | Rationale |
 |---|---|---:|---|
 | 1 | Automation Exposure of Roles | 3 | Graduate roles (research scientist, academic, biosecurity officer, R&D scientist) require irreducible judgment, physical/field skill, and regulatory accountability from day one — not templated tasks. |
 | 2 | Systems Thinking and Problem Framing | 3 | The entire candidature is an exercise in hypothesis formation, constraint reasoning (ethics, biosecurity, biological variability), and failure-mode analysis (why did the model/assay/trial not work), assessed continuously via milestones and ultimately the thesis defence. |
@@ -70,6 +70,6 @@ The 2027-ready Veterinary Science PhD graduate is a researcher who treats AI too
 
 What changes is legibility and translation. This graduate can name their AI-augmented productivity gains explicitly to a hiring biotech, government biosecurity agency, or university, and can point to a transparent destination-data trail showing where recent cohorts have landed — academia, animal-health R&D, or regulatory science. The degree's core research rigour needs no redesign; its institutional infrastructure around AI governance and outcome evidence is what needs to catch up to match it.
 
-**Assessment Date:** 2026-07-02
+**Assessment date:** 2026-07-02
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/dr-philvet
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1

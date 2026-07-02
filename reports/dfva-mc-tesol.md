@@ -1,12 +1,11 @@
-# DFVA REPORT: Master of TESOL
+## DFVA REPORT: Master of TESOL (MC-TESOL)
 
-**Institution:** University of Melbourne
-**Level:** Master (Coursework)
-**Duration:** 2 years (200 credit points)
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 credit points)
+
 
 ---
 
-**Assessment Date:** 2026-06-09
+**Assessment date:** 2026-06-09
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-tesol
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1
 
@@ -36,7 +35,7 @@ Typical graduate roles include EAL/D classroom teacher, AMEP (Adult Migrant Engl
 
 ## 3. DFVA SCORECARD
 
-| # | Dimension | Score | Evidence-based rationale |
+| # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---|---|
 | 1 | Automation Exposure of Roles | 1/3 | Language teaching faces AI disruption from real-time translation and AI tutoring systems. TESOL demand in some contexts may structurally change as AI language tools improve. |
 | 2 | Systems Thinking and Problem Framing | 2/3 | Curriculum design, language acquisition theory, and education policy integration require systemic perspective on how language learning works across contexts. |

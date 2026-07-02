@@ -27,7 +27,7 @@ Typical graduate pathways split three ways: (a) academic/postdoctoral research c
 **Durability Assessment:** The degree's exposure profile is bimodal: AI substantially accelerates literature review, coding, and data-processing subtasks (raising researcher productivity), but the credential's actual output — a defensible, original, peer-scrutinised contribution to a technical frontier, frequently validated against physical reality in five of the six constituent disciplines — sits squarely in the category of work AI cannot yet perform end-to-end. The greater risk to this cohort is not displacement but a widening productivity gap between researchers who fluently integrate AI tooling into their research workflow and those who do not; the program currently has no formal mechanism to close that gap.
 
 ###  3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
+| # | Dimension | Score (0-3) | Rationale |
 |---|---|---:|---|
 | D1 | Automation Exposure of Roles | 3 | Graduate destinations (postdoc research, industrial R&D, deep-tech specialist roles) require original judgment, experimental design, and accountability for novel technical claims from day one — the antithesis of templated task execution. |
 | D2 | Systems Thinking and Problem Framing | 3 | The entire PhD structure (research proposal → confirmation → thesis → oral defence) is a multi-year exercise in hypothesis formation, constraint reasoning, and failure-mode analysis under expert challenge; this is assessed continuously, not incidentally. |
@@ -73,6 +73,6 @@ The 2027-ready DR-PHILEIT graduate is a technical specialist who treats AI tooli
 
 This graduate is legible to both academic search committees and industry R&D hiring managers as someone who can design experiments AI cannot design, interpret results AI cannot fully trust unsupervised, and communicate technical originality to non-specialist stakeholders — a combination of technical depth, physical/experimental grounding, and AI fluency that remains rare and durably valuable through 2027 and beyond.
 
-**Assessment Date:** 2026-07-02
+**Assessment date:** 2026-07-02
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/dr-phileit
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1

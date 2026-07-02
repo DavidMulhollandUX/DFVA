@@ -26,7 +26,7 @@ Typical graduate destinations bifurcate sharply by discipline: academia (postdoc
 **Durability Assessment:** The PhD's exposure profile is bimodal: the mechanical middle of the research process (literature synthesis, data wrangling, first-pass code) is under real and immediate AI pressure, while the two bookends that define a PhD — original theoretical/empirical contribution and the accountable judgment to defend it under examination — remain durable. The degree's future viability therefore hinges almost entirely on whether supervision and assessment continue to reward original contribution and defended judgment, or whether candidates (and some supervisors) allow AI to hollow out the middle in a way that leaves the final contribution thin. This is a training-quality risk more than a structural one, and it varies materially by discipline: highly quantitative streams (Actuarial Studies, Decision/Risk/Financial Sciences) face the most automatable middle but also the clearest existing norms around defended technical rigour; qualitative/behavioural streams (Management, Marketing) face less mechanical automation pressure but weaker built-in defences against AI-assisted homogenisation of literature review and thin theorising.
 
 ###  3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
+| # | Dimension | Score (0-3) | Rationale |
 |---|---|---:|---|
 | D1 | Automation Exposure of Roles | 3 | A completed PhD in any of the eight disciplines is, by definition, evidence of original contribution and design/accountability — this is not an entry-level templated-task cohort; even the academia-adjacent early-career roles (postdoc, junior faculty) require independent research design from day one. |
 | D2 | Systems Thinking and Problem Framing | 3 | Hypothesis formation, constraint reasoning, and failure-mode analysis (identification strategy validity, model misspecification, external validity) are the explicit, assessed core of doctoral research training across all eight disciplines, not a bolt-on. |
@@ -67,6 +67,6 @@ The Doctor of Philosophy – Business and Economics is structurally well-positio
 ## 8. THE REDESIGNED GRADUATE PROFILE
 The 2027-ready Doctor of Philosophy – Business and Economics graduate uses AI tools fluently and transparently to accelerate literature synthesis, data preparation, and routine model execution — while spending the time this frees up deepening the one irreducible skill the degree exists to build: original, defensible contribution to a specialist body of knowledge, examined and stress-tested by independent experts. This graduate can articulate precisely where their judgment begins and AI assistance ends, understands the governance and failure modes of the AI tools they used in their own research, and carries transparent, published evidence of where their specific discipline's graduates land — academia, central banks, quant finance, or applied consulting — so prospective candidates and institutions alike can assess the degree's real-world payoff.
 
-**Assessment Date:** 2026-07-02
+**Assessment date:** 2026-07-02
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/dr-philbe
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1

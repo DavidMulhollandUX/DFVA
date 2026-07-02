@@ -1,12 +1,11 @@
-# DFVA REPORT: Master of Property
+## DFVA REPORT: Master of Property (MC-PROP)
 
-**Institution:** University of Melbourne
-**Level:** Master (Coursework)
-**Duration:** 2 years (300 credit points)
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (300 credit points)
+
 
 ---
 
-**Assessment Date:** 2026-06-09
+**Assessment date:** 2026-06-09
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-prop
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1
 
@@ -36,7 +35,7 @@ Typical graduate roles include property analyst, valuer, development manager, pr
 
 ## 3. DFVA SCORECARD
 
-| # | Dimension | Score | Evidence-based rationale |
+| # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---|---|
 | 1 | Automation Exposure of Roles | 2/3 | Property valuation and market analysis are increasingly AI-augmented but require physical inspection, client negotiation, and regulatory judgment that creates genuine automation friction. |
 | 2 | Systems Thinking and Problem Framing | 2/3 | Full property cycle: development, investment, finance, valuation, management. Systems integration across the project lifecycle is embedded in the curriculum structure. |

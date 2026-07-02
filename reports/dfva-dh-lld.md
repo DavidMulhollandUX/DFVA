@@ -22,7 +22,7 @@ Because there is no teaching, no assessment task design, no student intake, and 
 **Durability Assessment:** Automation exposure, as normally defined by the DFVA rubric, does not apply to the LLD because there is no entry-level graduate performing tasks in a labour market. The more relevant durability question — addressed throughout this report — is whether the underlying activity the LLD certifies (a career of original legal scholarship) and the examination process itself remain meaningful as AI reshapes how legal scholarship is produced and evaluated.
 
 ###  3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
+| # | Dimension | Score (0-3) | Rationale |
 |---|---|---:|---|
 | D1 | Automation Exposure of Roles | 0 | Not applicable in the normal sense — there is no graduate cohort, no entry-level role, and no "day one" task profile to assess. Scored 0 by the guide's explicit convention for higher doctorates: this is an examination-only award for a body of published work by an already-established legal scholar, not a training pathway that produces workers whose tasks can be measured for automation exposure. |
 | D2 | Systems Thinking and Problem Framing | 3 | Not taught (there is no curriculum) but *required as a precondition of admission* — the LLD examines whether the candidate's existing body of work demonstrates exactly this capability at the highest level (original contribution, not template execution). Scored on the demonstrated-capability basis the examination enforces, since there is no "teaching" dimension to assess separately. |
@@ -66,6 +66,6 @@ There is no "graduate" to redesign in the conventional DFVA sense — the LLD do
 
 Concretely, this means the examination criteria should be periodically recalibrated against the frontier of what AI legal-research tools can do, examiners should be equipped to distinguish AI-assisted competent synthesis from genuinely original scholarly contribution, and the institution should treat the LLD's scarcity and legibility as an asset requiring active stewardship — not an inheritance that maintains itself. The credential's future viability rests less on curriculum (it has none) and more on whether Melbourne Law School continues to actively defend what "authoritative standing" means as the baseline for competent legal scholarship keeps rising.
 
-**Assessment Date:** 2026-07-02
+**Assessment date:** 2026-07-02
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/dh-lld
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1

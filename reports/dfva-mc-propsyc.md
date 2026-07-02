@@ -12,8 +12,8 @@ Clinical psychology is among the most AI-resistant professions. The program's co
 
 The 300 hours of supervised placement create a structural defence: graduates must demonstrate clinical competence under supervision before registration. The sequential, all-compulsory design ensures no student can bypass core clinical training.
 
-### 3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
+### 4. DFVA SCORECARD
+| # | Dimension | Score (0-3) | Rationale |
 |---|---|---:|---|
 | 1 | Automation Exposure | 3 | Clinical assessment, diagnosis, and therapy are irreducible human work. 300hr placement enforces clinical competence. APAC/PsyBA regulation creates structural barriers. |
 | 2 | Systems Thinking | 2 | Case formulation integrates assessment, psychopathology, and cultural context. Research thesis teaches methodology. Primary focus is clinical practice, not system design. |
@@ -35,7 +35,7 @@ The 300 hours of supervised placement create a structural defence: graduates mus
 - **Q3:** YES — Mental health demand is structurally growing. Registered psychologists face persistent workforce shortages. APAC/PsyBA pathway provides career durability.
 
 
-### 5. ANALOGUE GRADUATE PROFILE
+### 6. ANALOGUE GRADUATE PROFILE
 
 The most exposed professional psychology graduate is the **Psychological Assessment Technician of 2021**: primarily administering standardised psychological tests, scoring instruments, and producing standard assessment reports — work being increasingly automated by AI psychological assessment platforms.
 
@@ -47,10 +47,10 @@ Specific threats:
 
 ---
 
-### 5. VERDICT
+### 7. VERDICT
 Clinical psychology's regulatory and practical barriers create one of the strongest AI defences in the assessment cohort. The program's sequential all-compulsory design, 300-hour placement, and APAC/PsyBA pathway mean graduates exit with demonstrated clinical competence that resists substitution. The AI literacy gap exists but is less acute than in non-clinical fields — clinical psychology's core value is human judgment, not tool operation.
 
-### 6. RECOMMENDATIONS
+### 8. RECOMMENDATIONS
 | Priority | Action | Dimensions | Effort |
 |---|---|---|---|
 | P1 | Add digital mental health + AI in clinical practice module | D5 | Low |
@@ -59,7 +59,7 @@ Clinical psychology's regulatory and practical barriers create one of the strong
 **Path to RESILIENT:** P1 actions → 28/36 RESILIENT.
 
 
-### 8. THE REDESIGNED GRADUATE PROFILE
+### 9. THE REDESIGNED GRADUATE PROFILE
 
 The 2027-ready professional psychology graduate is not an assessment technician — they are a **psychological treatment specialist with evidence-based practice expertise**.
 

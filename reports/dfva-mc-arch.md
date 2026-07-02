@@ -1,12 +1,11 @@
-# DFVA REPORT: Master of Architecture
+## DFVA REPORT: Master of Architecture (MC-ARCH)
 
-**Institution:** University of Melbourne
-**Level:** Master (Coursework)
-**Duration:** 3 years (300 credit points)
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 3 years (300 credit points)
+
 
 ---
 
-**Assessment Date:** 2026-06-09
+**Assessment date:** 2026-06-09
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-arch
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1
 
@@ -36,7 +35,7 @@ Typical graduate roles include architectural graduate (Graduate of Architecture)
 
 ## 3. DFVA SCORECARD
 
-| # | Dimension | Score | Evidence-based rationale |
+| # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---|---|
 | 1 | Automation Exposure of Roles | 3/3 | Architectural design requires creative synthesis, aesthetic judgment, regulatory compliance, and iterative client negotiation — irreducible human work. ARBV registration requires documented professional practice before sitting the registration exam. |
 | 2 | Systems Thinking and Problem Framing | 3/3 | Design Thesis capstone + studio sequence integrates environmental, technological, regulatory, and project-delivery systems across scales. Studios require trade-off reasoning across structure, material, programme, and site. |

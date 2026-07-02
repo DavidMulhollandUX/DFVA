@@ -28,7 +28,7 @@ Typical graduate destinations include registered psychologist (educational and d
 
 
 ###  3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
+| # | Dimension | Score (0-3) | Rationale |
 |---|---|---:|---|
 | 1 | Automation Exposure of Roles | 3 | Combined registered clinical practice (assessment, formulation, therapeutic intervention with children/families) plus independent PhD research — both are judgment/accountability-bearing from day one, not routine or templated. |
 | 2 | Systems Thinking and Problem Framing | 3 | Case formulation integrates developmental theory, family systems, and school context; PhD component requires hypothesis formation and defended constraint reasoning across a full thesis. |
@@ -92,6 +92,6 @@ They understand precisely where AI tools are useful in their daily practice — 
 
 ---
 
-**Assessment Date:** 2026-07-02
+**Assessment date:** 2026-07-02
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/dr-philedp
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1

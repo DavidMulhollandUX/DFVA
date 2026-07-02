@@ -29,7 +29,7 @@ Typical graduate roles include advanced practice registered nurse, nurse practit
 
 
 ###  3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
+| # | Dimension | Score (0-3) | Rationale |
 |---|---|---:|---|
 | 1 | Automation Exposure | 3 | Nursing is irreducible human clinical work. Physical patient care, clinical judgment, emotional support — AI cannot substitute. NMBA registration requires demonstrated clinical competence. |
 | 2 | Systems Thinking | 2 | Nursing of Acute/Chronic Health Conditions, Transition to Nursing Practice — integrated clinical reasoning. Healthcare systems understanding implicit. |
@@ -95,7 +95,7 @@ They understand AI clinical support tools: they evaluate whether an AI deteriora
 
 ---
 
-**Assessment Date:** 2026-06-21
+**Assessment date:** 2026-06-21
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-nursc
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1
 ### MARKET DATA

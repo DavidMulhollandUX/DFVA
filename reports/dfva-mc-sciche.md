@@ -28,7 +28,7 @@ Typical graduate roles include research scientist in chemical, pharmaceutical, a
 
 
 ###  3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
+| # | Dimension | Score (0-3) | Rationale |
 |---|---|---:|---|
 | 1 | Automation Exposure | 2 | 125pt research project is non-automatable. Lab chemistry involves physical manipulation AI cannot perform. Computational chemistry is AI-augmented. |
 | 2 | Systems Thinking | 2 | Chemistry teaches systematic thinking. Research project requires experimental design. |
@@ -92,7 +92,7 @@ They have evaluated AI synthetic planning tools: they know when Chemputer's sugg
 
 ---
 
-**Assessment Date:** 2026-06-21
+**Assessment date:** 2026-06-21
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-sciche
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1
 ### MARKET DATA

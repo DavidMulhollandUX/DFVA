@@ -26,7 +26,7 @@ This is a licensed, physically-delivered clinical profession with an intrinsical
 **Durability Assessment:** The DDS trains graduates for a task bundle overwhelmingly dominated by physical, regulated, high-stakes clinical work that AI cannot currently perform, wrapped around a thin administrative layer (documentation, scheduling) that is genuinely automatable and should be treated as capacity freed up rather than a threat. The one area of real and growing AI pressure — diagnostic imaging and treatment-planning support — is a tool-augmentation trend, not a substitution trend, because a licensed practitioner must remain the accountable decision-maker for any invasive intervention on a patient.
 
 ###  3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
+| # | Dimension | Score (0-3) | Rationale |
 |---|---|---:|---|
 | D1 | Automation Exposure of Roles | 3 | Entry-level general dental practice is dominated by hands-on procedural work, diagnosis under a duty of care, and patient-facing judgment from day one of registration — not templated tasks. |
 | D2 | Systems Thinking and Problem Framing | 2 | Treatment planning requires constraint reasoning (patient health status, cost, longevity of restorations, risk of complications) and is formally assessed through clinical case work, but the handbook text does not evidence an explicit, integrated failure-mode-analysis curriculum strand distinct from clinical supervision. |
@@ -71,6 +71,6 @@ The 2027-ready DDS graduate remains, at core, a registered clinician delivering 
 
 This graduate also carries forward the program's compulsory research training into an evidence-evaluation habit — reflexively assessing the quality of evidence behind any new clinical AI tool before adopting it into practice — and enters the workforce backed by transparent, published outcome data that lets prospective students and regulators see exactly where DDS graduates land, in what roles, and how quickly, reinforcing the degree's credibility as a training pathway rather than requiring it to be assumed from registration statistics alone.
 
-**Assessment Date:** 2026-07-02
+**Assessment date:** 2026-07-02
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-ddensur
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1

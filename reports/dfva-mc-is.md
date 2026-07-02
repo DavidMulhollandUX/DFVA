@@ -1,12 +1,11 @@
-# DFVA REPORT: Master of Information Systems
+## DFVA REPORT: Master of Information Systems (MC-IS)
 
-**Institution:** University of Melbourne
-**Level:** Master (Coursework)
-**Duration:** 1.5–2 years (200 credit points)
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 1.5–2 years (200 credit points)
+
 
 ---
 
-**Assessment Date:** 2026-05-07
+**Assessment date:** 2026-05-07
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-is/
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1
 
@@ -44,7 +43,7 @@ Key named units include:
 
 ## 3. DFVA SCORECARD
 
-| # | Dimension | Score (0–3) | Evidence |
+| # | Dimension | Score (0-3) | Evidence |
 |---|---|---:|---|
 | 1 | Automation Exposure of Roles | 1 | First 2–3 years dominated by BA documentation, requirements writing, and process analysis — templated tasks with limited decision ownership |
 | 2 | Systems Thinking and Problem Framing | 2 | *Enterprise Architecture and Governance* and *Systems Analysis and Design* include trade-off framing; not consistently integrated across all units |

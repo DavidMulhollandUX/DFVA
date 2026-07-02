@@ -21,7 +21,7 @@ The program's structure reflects this tension. The core curriculum (Mathematics 
 
 The structural defence is the professional accreditation pathway — actuaries operate in a regulated profession where judgment, sign-off authority, and professional ethics create barriers to AI substitution. However, the entry-level pipeline (the first 2-3 years where graduates prove themselves through technical competence) is precisely where AI compression is strongest. The question is whether the program's technique-focused training produces graduates who can move quickly through the automatable layer to the judgment layer — or whether it produces graduates whose primary market value sits in the automatable layer itself.
 
-### 3. DFVA SCORECARD
+### 4. DFVA SCORECARD
 | # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---:|---|
 | 1 | Automation Exposure of Roles | 1 | First 2-3 years of actuarial work are heavily procedural — pricing, reserving, regulatory calculations. These tasks are the target of actuarial software automation and AI tooling. |
@@ -39,7 +39,7 @@ The structural defence is the professional accreditation pathway — actuaries o
 **TOTAL: 20 / 36**  
 **Risk band: MODERATE RISK (20-27)** — at the lower boundary
 
-### 4. THREE THRESHOLD QUESTIONS
+### 5. THREE THRESHOLD QUESTIONS
 - **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
   **YES** — routine actuarial calculations (pricing, reserving, regulatory reporting, data validation) are precisely the structured, rule-governed tasks that AI and actuarial software increasingly automate. The first 2-3 years of actuarial work are the most exposed segment of the profession.
 
@@ -50,7 +50,7 @@ The structural defence is the professional accreditation pathway — actuaries o
   **UNCERTAIN** — the traditional actuarial pipeline (examinations + technical experience) is under pressure from automation. Graduates who add data science/AI skills via electives differentiate positively. The profession's regulatory barriers provide some protection, but entry-level compression is real and accelerating.
 
 
-### 5. ANALOGUE GRADUATE PROFILE
+### 6. ANALOGUE GRADUATE PROFILE
 
 The most exposed actuarial science graduate is the **Junior Actuarial Analyst of 2021**: entering an insurance firm as the primary handler of reserving calculations, pricing model runs, and regulatory reporting submissions — precise, structured mathematical tasks that actuarial software platforms and AI tools are actively automating.
 
@@ -62,14 +62,14 @@ Specific threats:
 
 ---
 
-### 5. VERDICT
+### 7. VERDICT
 This program sits at a structural inflection point. Its traditional strengths — mathematical rigour, structured progression, professional accreditation pathway — are genuine and durable. But the techniques it teaches as its core (pricing, reserving, life insurance mathematics) are precisely the techniques being automated by the industry the program serves.
 
 The score (20/36, lower boundary of MODERATE RISK) reflects this tension. The program is not in crisis — professional accreditation and regulatory barriers protect it more than most degrees — but its default trajectory is toward a narrower employment base where graduates compete for the shrinking gap between AI-augmented actuarial software and the judgment roles that require 5+ years of experience to reach.
 
 The path from MODERATE RISK to RESILIENT runs through the elective structure: making Data Analytics in Insurance, Statistical Techniques, and ideally an AI governance unit compulsory rather than optional. The mathematical core is sound; the program needs to ensure graduates exit with the computational and governance literacy to operate at the judgment layer, not just the technique layer.
 
-### 6. RECOMMENDATIONS
+### 8. RECOMMENDATIONS
 | Priority | Action | Dimension | Effort |
 |---|---|---|---|
 | P0 | Make Data Analytics in Insurance (ACTL90023) and Statistical Techniques (ACTL90008) compulsory, not elective | 1, 5 | Low — subjects already exist |
@@ -78,11 +78,11 @@ The path from MODERATE RISK to RESILIENT runs through the elective structure: ma
 | P2 | Publish graduate destination data including qualification progression rates and time-to-accreditation | 10 | Medium |
 | P2 | Integrate AI tool use into existing actuarial modelling subjects with critical evaluation components | 1, 5 | Medium |
 
-### 7. MARKET CONFIDENCE NOTE
+### 10. MARKET CONFIDENCE NOTE
 Confidence: **Medium-High**. Actuarial automation is well-documented in industry literature and professional discourse. The tension between traditional actuarial training and AI/automation is a live topic in the profession. The structural analysis of entry-level exposure is based on documented task composition, not speculation.
 
 
-### 8. THE REDESIGNED GRADUATE PROFILE
+### 9. THE REDESIGNED GRADUATE PROFILE
 
 The 2027-ready actuarial science graduate is not a calculator — they are a **risk governance specialist** who understands what the actuarial models do and what they miss, and who can own the accountability when they are wrong.
 

@@ -28,7 +28,7 @@ Typical graduate roles are optometrist (community, corporate, or hospital-based)
 
 
 ###  3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
+| # | Dimension | Score (0-3) | Rationale |
 |---|---|---:|---|
 | 1 | Automation Exposure of Roles | 2 | Mix of highly automatable tasks (retinal AI screening, routine refraction — both mature, deployed AI applications) and tasks requiring hands-on physical examination, accountable diagnosis/prescribing, and relational patient management from day one. Genuinely higher exposure than most clinical doctorates because retinal AI screening is already at scale, but the degree does train across the full task spectrum, not just the automatable slice. |
 | 2 | Systems Thinking and Problem Framing | 2 | Clinical placements from year one require differential diagnosis and constraint-based clinical reasoning (integrating history, exam findings, imaging, comorbidity) under authentic assessment in real clinical settings. Handbook text doesn't evidence explicit failure-mode/trade-off analysis teaching beyond standard clinical reasoning, so not scored at the top band. |
@@ -87,6 +87,6 @@ They understand that the volume of purely routine screening work will keep shrin
 
 ---
 
-**Assessment Date:** 2026-07-02
+**Assessment date:** 2026-07-02
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-doptom
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1

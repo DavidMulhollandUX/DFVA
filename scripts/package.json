@@ -10,6 +10,7 @@
     "dfva:check": "npx tsx dfva-check.ts && npx tsx dfva-registry-check.ts",
     "dfva:check-registry": "npx tsx dfva-registry-check.ts",
     "dfva:completeness": "npx tsx check-course-completeness.ts",
+    "dfva:report-lint": "npx tsx check-report-format.ts",
     "dfva:sync-skill": "cp ../dfva/dist/claude-skill/SKILL.md ~/.claude/skills/dfva/SKILL.md"
   },
   "devDependencies": {

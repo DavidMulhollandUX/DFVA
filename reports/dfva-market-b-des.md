@@ -1,6 +1,6 @@
 ## DFVA MARKET INTELLIGENCE: Bachelor of Design (B-DES)
 
-### 1. JOB FAMILY MAP
+## 1. JOB FAMILY MAP
 | Job Family | Typical Entry Titles | Core Tasks | AI Substitution Pressure | Skills Increasing In Demand | Evidence Notes |
 |---|---|---|---|---|---|
 | UX/Product Design | Junior UX Designer, Product Designer (Graduate) | User flows, prototyping, usability testing, design systems | Medium | Figma systems thinking, experiment design, analytics literacy, AI-assisted prototyping | Indicative multi-board scan (LinkedIn/Seek/Indeed AU), Apr 2026 |
@@ -10,7 +10,7 @@
 | Design Operations and Research | Design Ops Coordinator, UX Research Assistant | Workflow standards, research ops, repositories, governance | Low-Medium | Research operations, metrics instrumentation, governance controls | Indicative product/tech postings, Apr 2026 |
 | Creative Technology / Design Automation | Creative Technologist (Junior), Experience Prototyper | Interactive prototyping, automation scripts, toolchain integration | Low-Medium | Scripting literacy, API/tool integration, QA and validation | Indicative advanced design-tech postings, Apr 2026 |
 
-### 2. RECENT JOB AD SIGNALS
+## 2. RECENT JOB AD SIGNALS
 | Signal | Direction | Practical Meaning For B-DES |
 |---|---|---|
 | Rise in postings expecting AI-assisted workflow capability in design tools | Up | Graduates are expected to use AI tools productively, not just manually produce outputs |
@@ -19,7 +19,7 @@
 | Commodity visual-production tasks increasingly bundled or automated | Up (automation) | Pure production pathways face stronger displacement pressure |
 | Cross-functional collaboration requirements (product, engineering, data, marketing) | Up | Curriculum must train communication and trade-off negotiation under constraints |
 
-### 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS (X)
 | Theme | Observed Direction | Curriculum Relevance |
 |---|---|---|
 | Debate over "designer as prompt operator" vs "designer as decision owner" | Strong and persistent | Reinforces need for assessment based on accountability and defended choices |
@@ -27,7 +27,7 @@
 | Concern about junior-role compression due automation of repetitive tasks | Frequent | Supports stronger technical and research differentiation in first 2 years of study |
 | Interest in hybrid profiles (design + data + systems) | Increasing | Supports technical spine and cross-domain skill architecture |
 
-### 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
+## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 | Declining Signal Value (Standalone) | Rising Signal Value |
 |---|---|
 | High-volume static asset production | Decision quality under ambiguity |
@@ -36,14 +36,14 @@
 | Surface-only portfolio polish | Evidence-backed research and impact metrics |
 | Isolated creative output | Cross-functional delivery and stakeholder alignment |
 
-### 5. CURRICULUM IMPLICATIONS
+## 5. CURRICULUM IMPLICATIONS
 1. Shift core assessment from artifact throughput to defended decision quality and trade-off reasoning.
 2. Add mandatory AI governance and workflow assurance capability.
 3. Embed technical depth tracks (analytics, automation-aware design, and computational methods).
 4. Require primary user/stakeholder research evidence in capstone pathways.
 5. Build graduate outcome instrumentation by pathway and task complexity to track market fit over time.
 
-### 6. EVIDENCE CONFIDENCE + GAPS
+## 6. EVIDENCE CONFIDENCE + GAPS
 - **Confidence level:** Medium.
 - **What is strong:** Directional trend consistency across mainstream job-market and professional discourse signals.
 - **What is limited:** No direct API-fed count extraction in this run; signals are synthesised and indicative.

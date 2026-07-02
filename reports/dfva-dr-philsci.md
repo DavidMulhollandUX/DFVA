@@ -25,7 +25,7 @@ Because the degree spans six schools, the graduate profile is genuinely heteroge
 **Durability Assessment:** The PhD–Science graduate profile splits along a wet-lab/field vs. computational axis that this generic handbook text does not itself surface but that materially changes exposure. Physical experimental work, fieldwork, and hands-on instrumentation (dominant in BioSciences, Chemistry, parts of Agriculture, Food and Ecosystem Sciences, and Geography/Earth Sciences field components) are strongly durable against AI substitution in the 2027 window. Computational and quantitative-heavy sub-disciplines (Mathematics and Statistics, Physics, and the modelling-heavy parts of Earth Sciences) face materially higher pressure on routine model-fitting, data pipeline, and code-generation tasks — though the design, validation, and accountability layer of research remains resistant. The greatest shared exposure across all six schools is in the "administrative research labour" layer: literature review drafting, routine statistical processing, and grant/report writing, which AI already does competently and which do not depend on physical presence.
 
 ###  3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
+| # | Dimension | Score (0-3) | Rationale |
 |---|---|---:|---|
 | D1 | Automation Exposure of Roles | 2 | Graduate roles (postdoc, R&D scientist, agency researcher) mix highly automatable tasks (lit review, stats processing, reporting) with irreducible ones (experimental design, physical lab/field work, accountable interpretation). The physical/wet-lab and field components across most of the six schools anchor this above a pure knowledge-work score, but the computational sub-disciplines (Maths & Stats, Physics) pull it down from a 3. |
 | D2 | Systems Thinking and Problem Framing | 3 | A PhD is structurally built around hypothesis formation, experimental/model design, and failure-mode analysis (why did the experiment/model not work, what confound explains an anomaly) — assessed continuously via candidature milestones and ultimately the thesis and defence, not a templated curriculum. |
@@ -68,6 +68,6 @@ The 2027-ready DR-PHILSCI graduate is a scientist who treats AI as a research in
 
 By 2027, this graduate also carries visible, externally legible evidence of both dimensions: a documented AI-research-methods credential sitting alongside their thesis and publication record, plus (where relevant) field/instrumentation certifications. Institutionally, their pathway is tracked — the university can point to granular data on where DR-PHILSCI graduates land, by school and sub-discipline — turning today's evidentiary gap (D9, D10) into a recruitment and validation asset rather than a blind spot.
 
-**Assessment Date:** 2026-07-02
+**Assessment date:** 2026-07-02
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/dr-philsci
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1

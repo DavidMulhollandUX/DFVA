@@ -29,7 +29,7 @@ Typical graduate pathways are bifurcated: a minority proceed into academic caree
 
 
 ###  3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
+| # | Dimension | Score (0-3) | Rationale |
 |---|---|---:|---|
 | 1 | Automation Exposure of Roles | 3 | The defining task — constructing and defending an 80,000-word original argument under oral examination — requires irreducible human judgment, interpretation, and accountability; no automatable role cluster exists at the centre of the degree. |
 | 2 | Systems Thinking and Problem Framing | 3 | The entire candidature is hypothesis formation, research design, and defence of a novel framing under supervisory and examiner scrutiny across 4 years — assessed continuously via confirmation, milestone review, and final examination, not templated. |
@@ -92,6 +92,6 @@ They are AI-literate by design: trained to use AI tools for literature synthesis
 
 ---
 
-**Assessment Date:** 2026-07-02
+**Assessment date:** 2026-07-02
 **Source URL:** https://handbook.unimelb.edu.au/2026/courses/dr-philart
 **Prompt Version:** DFVA-COPILOT-PROMPT-v1
