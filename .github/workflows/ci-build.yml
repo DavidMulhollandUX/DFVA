@@ -1,0 +1,39 @@
+name: CI — Wasp build check
+
+# Catches what shipped silently before: broken imports (e.g. the '../' path bug)
+# and type errors. A red build here blocks the merge instead of reaching prod.
+
+on:
+  push:
+    branches: [main]
+    paths: ['compass/app/**']
+  pull_request:
+    paths: ['compass/app/**']
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: compass/app
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Wasp 0.22.0
+        run: curl -sSL https://get.wasp.sh/installer.sh | sh -s -- -v 0.22.0
+
+      # main.wasp keeps `provider: Dummy` for local dev, which Wasp rejects in a
+      # production build. Flip to SMTP just for the CI compile (no secrets needed
+      # to *build*), matching what deploy-server.sh does at deploy time.
+      - name: Allow production build (emailSender Dummy → SMTP)
+        run: sed -i 's/    provider: Dummy,/    provider: SMTP,/' main.wasp
+
+      - name: Wasp build (compile + type-check)
+        run: |
+          export PATH="$HOME/.local/bin:$PATH"
+          wasp build
