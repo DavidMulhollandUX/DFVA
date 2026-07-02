@@ -1,0 +1,135 @@
+{
+  "code": "dr-philedu",
+  "programSlug": "dfva-dr-philedu",
+  "byDimension": {
+    "D1": {
+      "rationale": "Academic, policy and system-leadership roles retain accountability and judgment; but publishing/writing/synthesis-heavy early-career academic work is highly exposed to AI drafting tools",
+      "recommendations": [
+        {
+          "action": "Formalise applied/policy placement or industry-engagement pathways (government, NGO, system-leadership secondments) alongside the traditional academic pipeline",
+          "priority": "P5",
+          "effort": "High",
+          "dimRefs": [
+            "D1",
+            "D8"
+          ]
+        }
+      ]
+    },
+    "D2": {
+      "rationale": "A PhD by definition requires original problem framing and defended methodology (implicit in \"research on a specific topic\"), but handbook gives no visibility into structured systems-thinking training beyond the thesis itself",
+      "recommendations": [
+        {
+          "action": "Require an original primary-data component (empirical fieldwork, not purely literature-based theses) as a stated expectation, to structurally reduce reliance on AI-exposed secondary synthesis",
+          "priority": "P7",
+          "effort": "High",
+          "dimRefs": [
+            "D2",
+            "D4"
+          ]
+        }
+      ]
+    },
+    "D3": {
+      "rationale": "Education doctorates vary widely \u2014 many are qualitative/theoretical with limited quantitative rigour; handbook provides no evidence of a mandated statistics/data core, so scored conservatively",
+      "recommendations": [
+        {
+          "action": "Strengthen and publicise quantitative/computational methods training pathways for candidates whose projects would benefit from them (learning analytics, causal inference, psychometrics)",
+          "priority": "P4",
+          "effort": "Medium",
+          "dimRefs": [
+            "D3"
+          ]
+        }
+      ]
+    },
+    "D4": {
+      "rationale": "Thesis research inherently involves real methodological trade-offs and defended decisions under supervisory/examiner scrutiny, satisfying a baseline level even absent visible coursework structure",
+      "recommendations": [
+        {
+          "action": "Require an original primary-data component (empirical fieldwork, not purely literature-based theses) as a stated expectation, to structurally reduce reliance on AI-exposed secondary synthesis",
+          "priority": "P7",
+          "effort": "High",
+          "dimRefs": [
+            "D2",
+            "D4"
+          ]
+        }
+      ]
+    },
+    "D5": {
+      "rationale": "No AI content, coursework, or governance framing is mentioned anywhere in the available handbook text; no evidence this is addressed",
+      "recommendations": [
+        {
+          "action": "Introduce a mandatory AI literacy and research-integrity module covering AI use in literature review, data analysis, and academic writing, with explicit governance/ethics framing",
+          "priority": "P3",
+          "effort": "Medium",
+          "dimRefs": [
+            "D5"
+          ]
+        }
+      ]
+    },
+    "D6": {
+      "rationale": "A 4-year full-time research doctorate in a defined discipline (education) builds durable specialist expertise by design, though \"education\" as a field is broad rather than narrowly technical/regulatory",
+      "recommendations": []
+    },
+    "D7": {
+      "rationale": "Core to the degree \u2014 candidates must design, conduct, and defend an original research methodology under examination; this is the strongest and most evidence-clear dimension for any PhD",
+      "recommendations": []
+    },
+    "D8": {
+      "rationale": "Education research and practice is inherently relational (teaching, stakeholder engagement, policy negotiation), though the handbook gives no detail on practicum, fieldwork, or clinical-style relational accountability",
+      "recommendations": [
+        {
+          "action": "Formalise applied/policy placement or industry-engagement pathways (government, NGO, system-leadership secondments) alongside the traditional academic pipeline",
+          "priority": "P5",
+          "effort": "High",
+          "dimRefs": [
+            "D1",
+            "D8"
+          ]
+        }
+      ]
+    },
+    "D9": {
+      "rationale": "Handbook text is a single generic boilerplate sentence with no evidence of recent review, AI-related curriculum updates, or feedback loops \u2014 scored 0 due to genuine absence of evidence, flagged as an evidence gap below",
+      "recommendations": [
+        {
+          "action": "Publish evidence of curriculum review cadence and any AI-related methodological or governance content in candidature milestones (confirmation, progress review)",
+          "priority": "P2",
+          "effort": "Low",
+          "dimRefs": [
+            "D9"
+          ]
+        }
+      ]
+    },
+    "D10": {
+      "rationale": "No destination data, employment outcomes, or granular outcome tracking published on this handbook page \u2014 scored 0 due to absence of evidence, flagged as an evidence gap below",
+      "recommendations": [
+        {
+          "action": "Publish detailed candidate destination/outcome data (academic placement rate, policy/industry roles, time-to-first-position) on the handbook page",
+          "priority": "P1",
+          "effort": "Medium",
+          "dimRefs": [
+            "D10"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "rationale": "Practitioner-researcher candidates (many MGSE PhD students are working educators) combine domain expertise with research rigour, a modest but real differentiator; not a strong triple-integration case absent more evidence",
+      "recommendations": [
+        {
+          "action": "Explicitly document and market the practitioner-researcher dual-skill pathway (working educators completing the PhD) as the program's irreplaceability differentiator",
+          "priority": "P6",
+          "effort": "Low",
+          "dimRefs": [
+            "B"
+          ]
+        }
+      ]
+    }
+  }
+}

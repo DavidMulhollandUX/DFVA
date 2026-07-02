@@ -1,0 +1,142 @@
+{
+  "code": "dr-philvet",
+  "programSlug": "dfva-dr-philvet",
+  "byDimension": {
+    "D1": {
+      "rationale": "Graduate roles (research scientist, academic, biosecurity officer, R&D scientist) require irreducible judgment, physical/field skill, and regulatory accountability from day one \u2014 not templated tasks.",
+      "recommendations": [
+        {
+          "action": "Highlight the degree's AI-resistant physical/field/regulatory core explicitly in program marketing and candidate induction, reframing the value proposition against generalist AI-augmented research roles",
+          "priority": "P7",
+          "effort": "Low",
+          "dimRefs": [
+            "D1",
+            "B"
+          ]
+        }
+      ]
+    },
+    "D2": {
+      "rationale": "The entire candidature is an exercise in hypothesis formation, constraint reasoning (ethics, biosecurity, biological variability), and failure-mode analysis (why did the model/assay/trial not work), assessed continuously via milestones and ultimately the thesis defence.",
+      "recommendations": []
+    },
+    "D3": {
+      "rationale": "Candidates build deep, assessed technical competence in statistics/bioinformatics/laboratory or field methodology specific to their research cluster (epidemiology, molecular diagnostics, pathology, toxicology) \u2014 this is the core deliverable of the degree, not an add-on.",
+      "recommendations": []
+    },
+    "D4": {
+      "rationale": "Thesis research is inherently unscripted: candidates must defend real methodological trade-offs (sample size, model assumptions, field logistics) under supervisor and examiner scrutiny across a multi-year live project with genuine accountability for outcomes.",
+      "recommendations": []
+    },
+    "D5": {
+      "rationale": "Handbook text gives no evidence of structured AI-in-research-methods training; researcher-development coursework in Australian PhD programs is only beginning to formalise AI tool governance (e.g., disclosure in theses, appropriate use in data analysis) \u2014 likely present informally but not demonstrated as embedded.",
+      "recommendations": [
+        {
+          "action": "Embed a mandatory AI-in-research-methods module covering appropriate use, disclosure, and critical evaluation of AI tools in literature review, data analysis, and thesis writing",
+          "priority": "P1",
+          "effort": "Medium",
+          "dimRefs": [
+            "D5"
+          ]
+        },
+        {
+          "action": "Formalise a structured \"AI-literate research scientist\" competency statement in candidature milestones \u2014 requiring candidates to demonstrate critical use (not just use) of AI tools in their confirmation and mid-candidature reviews",
+          "priority": "P4",
+          "effort": "Low",
+          "dimRefs": [
+            "D5",
+            "D9"
+          ]
+        }
+      ]
+    },
+    "D6": {
+      "rationale": "Candidates build multi-year, deep specialist expertise in a narrow veterinary/animal-health research area (e.g., a specific pathogen, disease system, or biological mechanism) \u2014 the definition of durable, hard-to-replicate specialisation.",
+      "recommendations": []
+    },
+    "D7": {
+      "rationale": "This is a primary-research doctorate by definition \u2014 candidates design and conduct original research and must defend methodology under independent examination; this is the single strongest-evidenced dimension for any PhD.",
+      "recommendations": []
+    },
+    "D8": {
+      "rationale": "Veterinary research frequently involves animal welfare/ethics stewardship, stakeholder engagement (farmers, clinicians, regulators, industry), and for many clusters, human-animal interaction in field/clinical settings \u2014 meaningful but not universally a \"substantial clinical/care\" core across all research sub-fields (e.g., a purely bioinformatic thesis has less of this than a field epidemiology one).",
+      "recommendations": [
+        {
+          "action": "Expand cross-disciplinary stakeholder engagement opportunities (industry placements with animal-health biotech, secondments to government biosecurity agencies) to strengthen D8 relational/translational capability, particularly for lab-bench-heavy research clusters",
+          "priority": "P5",
+          "effort": "Medium",
+          "dimRefs": [
+            "D8"
+          ]
+        }
+      ]
+    },
+    "D9": {
+      "rationale": "Handbook text is generic boilerplate with no visible evidence of recent structural review, advisory feedback loops, or explicit AI-in-curriculum content; research doctorates evolve via supervisor/field currency rather than programmatic curriculum refresh, which is a structural weakness for this dimension specifically.",
+      "recommendations": [
+        {
+          "action": "Establish an annual advisory-panel review of the research-methods coursework component (biostatistics, research integrity, grant literacy) with explicit reference to emerging AI capability in the field",
+          "priority": "P3",
+          "effort": "Low",
+          "dimRefs": [
+            "D9"
+          ]
+        },
+        {
+          "action": "Formalise a structured \"AI-literate research scientist\" competency statement in candidature milestones \u2014 requiring candidates to demonstrate critical use (not just use) of AI tools in their confirmation and mid-candidature reviews",
+          "priority": "P4",
+          "effort": "Low",
+          "dimRefs": [
+            "D5",
+            "D9"
+          ]
+        },
+        {
+          "action": "Create a structured alumni network/outcomes registry specific to veterinary research higher degrees, feeding both D10 evidence and D9 curriculum feedback loops",
+          "priority": "P6",
+          "effort": "Medium",
+          "dimRefs": [
+            "D9",
+            "D10"
+          ]
+        }
+      ]
+    },
+    "D10": {
+      "rationale": "No granular destination data (roles, industries, salary, time-to-employment) is published in the handbook or readily available at the program level; UoM graduate outcome surveys for research higher degrees are typically satisfaction-oriented rather than granular career-tracking.",
+      "recommendations": [
+        {
+          "action": "Publish granular graduate destination data for Veterinary Science PhD completions (academic placements, industry R&D roles, government/biosecurity roles, time-to-first-position) via a School-level tracking survey",
+          "priority": "P2",
+          "effort": "Medium",
+          "dimRefs": [
+            "D10"
+          ]
+        },
+        {
+          "action": "Create a structured alumni network/outcomes registry specific to veterinary research higher degrees, feeding both D10 evidence and D9 curriculum feedback loops",
+          "priority": "P6",
+          "effort": "Medium",
+          "dimRefs": [
+            "D9",
+            "D10"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "rationale": "Combines deep technical/quantitative research training + narrow veterinary-science domain expertise + physical/field/regulatory judgment \u2014 a rare triple integration that strongly resists AI or generalist substitution.",
+      "recommendations": [
+        {
+          "action": "Highlight the degree's AI-resistant physical/field/regulatory core explicitly in program marketing and candidate induction, reframing the value proposition against generalist AI-augmented research roles",
+          "priority": "P7",
+          "effort": "Low",
+          "dimRefs": [
+            "D1",
+            "B"
+          ]
+        }
+      ]
+    }
+  }
+}

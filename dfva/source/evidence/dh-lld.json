@@ -1,0 +1,122 @@
+{
+  "code": "dh-lld",
+  "programSlug": "dfva-dh-lld",
+  "byDimension": {
+    "D1": {
+      "rationale": "Not applicable in the normal sense \u2014 there is no graduate cohort, no entry-level role, and no \"day one\" task profile to assess. Scored 0 by the guide's explicit convention for higher doctorates: this is an examination-only award for a body of published work by an already-established legal scholar, not a training pathway that produces workers whose tasks can be measured for automation exposure.",
+      "recommendations": []
+    },
+    "D2": {
+      "rationale": "Not taught (there is no curriculum) but *required as a precondition of admission* \u2014 the LLD examines whether the candidate's existing body of work demonstrates exactly this capability at the highest level (original contribution, not template execution). Scored on the demonstrated-capability basis the examination enforces, since there is no \"teaching\" dimension to assess separately.",
+      "recommendations": []
+    },
+    "D3": {
+      "rationale": "The LLD has no technical/quantitative curriculum; legal scholarship at this level is doctrinal and theoretical rather than data/coding driven. Scored low not as a criticism but because this dimension, designed for training pathways, does not map onto a portfolio-examination credential with no quantitative component.",
+      "recommendations": []
+    },
+    "D4": {
+      "rationale": "The examination process itself requires committee members to exercise defended judgment under genuine uncertainty (is this \"authoritative standing\"? is the contribution \"substantial and original\"?) \u2014 but this is examiner decision-making, not something built into a candidate curriculum, since none exists.",
+      "recommendations": []
+    },
+    "D5": {
+      "rationale": "No AI coverage of any kind \u2014 there is no curriculum to contain it, and the handbook text makes no reference to AI, governance, or contemporary tooling. This is a structural gap for a credential examining \"originality\" in an era of AI-assisted legal writing.",
+      "recommendations": [
+        {
+          "action": "Explicitly define, in the examination criteria, how \"original contribution\" is assessed differently when AI-assisted drafting is now commonplace in legal scholarship \u2014 require candidates to disclose AI tool use in the submitted corpus",
+          "priority": "P1",
+          "effort": "Medium",
+          "dimRefs": [
+            "D5",
+            "D9"
+          ]
+        },
+        {
+          "action": "Commission a short comparative study of how AI is reshaping legal scholarship production globally, to inform whether \"substantial and original contribution\" needs an explicit AI-era gloss in the examination guidance",
+          "priority": "P4",
+          "effort": "Medium",
+          "dimRefs": [
+            "D5"
+          ]
+        },
+        {
+          "action": "Consider whether the examination process itself should require candidates to articulate their scholarly contribution's durability against AI-assisted legal reasoning tools, making AI-literacy part of demonstrating \"authoritative standing\"",
+          "priority": "P5",
+          "effort": "Low",
+          "dimRefs": [
+            "D5",
+            "D6"
+          ]
+        }
+      ]
+    },
+    "D6": {
+      "rationale": "By definition the LLD requires deep, durable, specialist legal expertise built over a career \u2014 the examination standard (\"authoritative standing in their field of research\") is the strongest possible expression of this dimension.",
+      "recommendations": [
+        {
+          "action": "Consider whether the examination process itself should require candidates to articulate their scholarly contribution's durability against AI-assisted legal reasoning tools, making AI-literacy part of demonstrating \"authoritative standing\"",
+          "priority": "P5",
+          "effort": "Low",
+          "dimRefs": [
+            "D5",
+            "D6"
+          ]
+        }
+      ]
+    },
+    "D7": {
+      "rationale": "The submitted body of work must demonstrate primary scholarly contribution and rigorous, original legal research methodology sustained across a career, examined and defended against expert scrutiny by the examining committee.",
+      "recommendations": []
+    },
+    "D8": {
+      "rationale": "No coursework component addresses interpersonal, ethical, or stakeholder practice as a taught competency; the credential is purely an evaluation of written scholarly output, not of relational or clinical skill.",
+      "recommendations": []
+    },
+    "D9": {
+      "rationale": "There is no curriculum to refresh, no advisory feedback loop, and no evidence in the handbook of any structural update mechanism \u2014 the LLD's assessment framework and examination criteria appear static, with no visible AI-era recalibration of what \"original contribution\" now means when AI tools assist scholarship production.",
+      "recommendations": [
+        {
+          "action": "Explicitly define, in the examination criteria, how \"original contribution\" is assessed differently when AI-assisted drafting is now commonplace in legal scholarship \u2014 require candidates to disclose AI tool use in the submitted corpus",
+          "priority": "P1",
+          "effort": "Medium",
+          "dimRefs": [
+            "D5",
+            "D9"
+          ]
+        },
+        {
+          "action": "Establish a periodic (e.g. 5-yearly) review of the LLD examination standard and criteria, with an advisory panel including scholars working at the AI/law frontier, to prevent the credential's bar from becoming static while the field around it moves",
+          "priority": "P2",
+          "effort": "Medium",
+          "dimRefs": [
+            "D9"
+          ]
+        }
+      ]
+    },
+    "D10": {
+      "rationale": "No destination data exists or would be meaningful \u2014 there is no cohort, no employment outcome to track, and the handbook publishes no data of any kind on LLD recipients post-conferral.",
+      "recommendations": [
+        {
+          "action": "Publish aggregate (anonymised) data on LLD conferrals \u2014 frequency, discipline spread, examiner composition \u2014 to give the credential visible institutional stewardship and counter perception of it as a dormant honorific",
+          "priority": "P3",
+          "effort": "Low",
+          "dimRefs": [
+            "D10"
+          ]
+        },
+        {
+          "action": "Increase visibility of the LLD (currently a near-invisible credential even within legal academia) through profiling of recipients, to protect its prestige-signal function from quiet decay through obscurity",
+          "priority": "P6",
+          "effort": "Low",
+          "dimRefs": [
+            "D10"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "rationale": "The credential's entire value proposition is a rare, non-substitutable integration of sustained technical/doctrinal depth, domain expertise, and human peer judgment about scholarly authority \u2014 precisely the kind of judgment AI cannot itself confer, since the credential's worth depends on recognition by human legal peers, not on the underlying text quality alone.",
+      "recommendations": []
+    }
+  }
+}

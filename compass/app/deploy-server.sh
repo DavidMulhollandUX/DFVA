@@ -10,6 +10,14 @@ set -e
 
 APP="compass-server-sxd"
 BUILD_DIR=".wasp/out"
+# The canonical production frontend origin. Wasp uses WASP_WEB_CLIENT_URL as
+# the ONLY allowed CORS origin, so if this drifts from the domain users
+# actually load the site from, every logged-in page breaks with a silent
+# "Network Error" (browser blocks the response, no server-side error to spot).
+CLIENT_URL="${WASP_WEB_CLIENT_URL:-https://evidura.ai}"
+
+echo "🔗 Syncing WASP_WEB_CLIENT_URL secret → $CLIENT_URL (staged, applies with this deploy)..."
+fly secrets set -a "$APP" WASP_WEB_CLIENT_URL="$CLIENT_URL" --stage
 
 echo "📧 Temporarily switching emailSender Dummy → SMTP for the prod build..."
 # Revert main.wasp no matter how the script exits (success, error, or Ctrl-C).

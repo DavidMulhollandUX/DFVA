@@ -1,0 +1,113 @@
+{
+  "code": "mc-dphysio",
+  "programSlug": "dfva-mc-dphysio",
+  "byDimension": {
+    "D1": {
+      "rationale": "Entry-level physiotherapist roles require day-one physical/manual skill, real-time clinical judgment, and AHPRA-accountable decision-making \u2014 none of which is routine or templated.",
+      "recommendations": []
+    },
+    "D2": {
+      "rationale": "The three-identity/nine-element framework (Self, Practitioner, Advocate) and \"constructive alignment\" model teach explicit outcome-to-assessment reasoning, but the handbook text does not evidence dedicated failure-mode/constraint-reasoning units beyond general clinical reasoning \u2014 scored as present and assessed but not confirmed as integrated throughout.",
+      "recommendations": [
+        {
+          "action": "Add a systems-level failure-mode/constraint-reasoning assessment (e.g., complex multi-morbidity case simulation) to strengthen D2 beyond current clinical-reasoning coverage",
+          "priority": "P6",
+          "effort": "Medium",
+          "dimRefs": [
+            "D2"
+          ]
+        }
+      ]
+    },
+    "D3": {
+      "rationale": "Evidence Informed Practice as a named element implies applied biostatistics/appraisal skill; no evidence of an advanced technical/data core beyond standard clinical-science grounding, consistent with a solid but not exceptional technical depth.",
+      "recommendations": []
+    },
+    "D4": {
+      "rationale": "Extensive clinical placement blocks (semesters structured around them) mean students make live treatment decisions on real patients under real accountability and uncertainty \u2014 the strongest form of assessed trade-off reasoning in the rubric.",
+      "recommendations": []
+    },
+    "D5": {
+      "rationale": "No AI-specific curriculum content is evidenced in the handbook text; the program predates explicit AI governance framing common in newer curricula. This is the weakest dimension and a clear redesign target.",
+      "recommendations": [
+        {
+          "action": "Introduce an explicit AI-in-healthcare module covering ambient scribes, AI-assisted triage, and clinical decision-support tools, including their failure modes and governance obligations under AHPRA",
+          "priority": "P1",
+          "effort": "Medium",
+          "dimRefs": [
+            "D5"
+          ]
+        },
+        {
+          "action": "Extend the e-portfolio to explicitly capture AI-tool literacy competencies alongside existing professional-identity evidence",
+          "priority": "P5",
+          "effort": "Low",
+          "dimRefs": [
+            "D5",
+            "D9"
+          ]
+        }
+      ]
+    },
+    "D6": {
+      "rationale": "Entry-to-practice registration in a regulated allied-health profession with a defined scope of practice (musculoskeletal, neurological, cardiorespiratory, paediatric) represents deep, durable specialist expertise that takes years to build.",
+      "recommendations": []
+    },
+    "D7": {
+      "rationale": "Evidence Informed Practice as a core element indicates graduates critically appraise and apply research; no explicit evidence of students generating primary research data (e.g., a research thesis component) in the handbook text provided.",
+      "recommendations": [
+        {
+          "action": "Formalise a research methods unit requiring students to design and conduct a small primary clinical study or audit, not just appraise literature",
+          "priority": "P2",
+          "effort": "Medium",
+          "dimRefs": [
+            "D7"
+          ]
+        }
+      ]
+    },
+    "D8": {
+      "rationale": "Ethical Practice, Communication, and Health and Wellbeing are named curriculum elements alongside extensive clinical placement \u2014 substantial, assessed interpersonal and physical-clinical accountability sits at the centre of the degree.",
+      "recommendations": []
+    },
+    "D9": {
+      "rationale": "The explicit \"constructive alignment\" model and e-portfolio tracking show a structured, outcome-linked curriculum design methodology \u2014 a genuine currency signal \u2014 but no AI-specific content or stated advisory-board feedback loop is evidenced, so it stops short of the top band.",
+      "recommendations": [
+        {
+          "action": "Embed a documented curriculum advisory loop (industry/AHPRA/alumni feedback cycle) referencing the existing constructive-alignment framework, with a public review cadence",
+          "priority": "P4",
+          "effort": "Low",
+          "dimRefs": [
+            "D9"
+          ]
+        },
+        {
+          "action": "Extend the e-portfolio to explicitly capture AI-tool literacy competencies alongside existing professional-identity evidence",
+          "priority": "P5",
+          "effort": "Low",
+          "dimRefs": [
+            "D5",
+            "D9"
+          ]
+        }
+      ]
+    },
+    "D10": {
+      "rationale": "AHPRA registration provides a strong, externally verifiable outcome proxy (registration = employability), but the handbook text does not itself evidence granular salary/time-to-employment data.",
+      "recommendations": [
+        {
+          "action": "Publish granular graduate destination data (practice setting, region, time-to-registration-to-employment) alongside existing AHPRA registration outcomes",
+          "priority": "P3",
+          "effort": "Low",
+          "dimRefs": [
+            "D10"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "rationale": "Combines deep regulated clinical specialisation (D6), irreducible physical/manual skill (D1), and substantial relational/ethical practice (D8) \u2014 a rare triple integration that strongly resists AI substitution.",
+      "recommendations": []
+    }
+  }
+}

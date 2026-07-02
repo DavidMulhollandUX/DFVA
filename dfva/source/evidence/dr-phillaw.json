@@ -1,0 +1,123 @@
+{
+  "code": "dr-phillaw",
+  "programSlug": "dfva-dr-phillaw",
+  "byDimension": {
+    "D1": {
+      "rationale": "This is not an entry-level-role cohort in the conventional sense \u2014 the PhD produces original scholarship examined for novelty, not templated output. Graduates move into academic, judicial, policy, or senior practice roles requiring irreducible judgment, design of new legal theory, and personal accountability for conclusions from day one.",
+      "recommendations": [
+        {
+          "action": "Partner with the Australian Law Reform Commission, state law reform bodies, and superior courts to create defined judicial-associateship and policy-fellowship pathways specifically flagged to Law PhD candidates, reducing reliance on the shrinking academic-only pipeline",
+          "priority": "P6",
+          "effort": "Medium",
+          "dimRefs": [
+            "D1"
+          ]
+        }
+      ]
+    },
+    "D2": {
+      "rationale": "The entire candidature is a multi-year exercise in constraint reasoning: identifying an unresolved doctrinal or socio-legal problem, framing a defensible research question, and reasoning through competing legal, institutional, and normative constraints. This is assessed continuously via milestone/confirmation reviews and ultimately the thesis itself \u2014 not a \"mentioned but not assessed\" competency but the whole degree.",
+      "recommendations": []
+    },
+    "D3": {
+      "rationale": "Legal scholarship is predominantly doctrinal/interpretive rather than quantitative. Where candidates pursue empirical or comparative-quantitative legal method (a minority track), technical depth rises, but there is no compulsory statistics, coding, or data-science requirement across the PhD in Law generally. Score reflects the discipline norm, distinct from a PhD in a quantitative field.",
+      "recommendations": [
+        {
+          "action": "Encourage (via supervisory guidance, not mandate) a comparative or empirical legal method component alongside doctrinal work where the research question permits, to build technical/quantitative depth and differentiate graduates in an increasingly interdisciplinary legal academy",
+          "priority": "P3",
+          "effort": "Medium",
+          "dimRefs": [
+            "D3"
+          ]
+        }
+      ]
+    },
+    "D4": {
+      "rationale": "A legal PhD candidate must independently determine research direction, defend methodological choices to a supervisory panel and examiners, and revise argument under genuine uncertainty (contested case law, unresolved doctrinal splits, incomplete comparative data) over several years \u2014 with real accountability (the thesis can be failed or require major revision). This is the definition of the top band.",
+      "recommendations": []
+    },
+    "D5": {
+      "rationale": "The generic PhD handbook text contains no AI-specific content, and unlike the JD (which has AI-focused electives such as Law and Automation, AI and Justice), there is no evidence of structured AI-literacy training built into doctoral candidature at Melbourne Law School. Candidates likely use AI research tools informally, but this is not a taught or assessed competency of the degree.",
+      "recommendations": [
+        {
+          "action": "Introduce a compulsory (or strongly expected) AI-literacy module for all Law PhD candidates covering AI legal research tool capabilities/limits, AI's role in legal practice and scholarship, and the ethics of AI-assisted drafting in doctoral work \u2014 positioned as \"how to supervise and critique AI legal reasoning,\" not \"how to use ChatGPT\"",
+          "priority": "P1",
+          "effort": "Medium",
+          "dimRefs": [
+            "D5"
+          ]
+        },
+        {
+          "action": "Provide guidance and institutional support (grant-writing workshops, seed funding) for candidates pursuing AI-adjacent legal scholarship (AI regulation, algorithmic accountability, legal-tech governance) as a strategically well-positioned specialisation given rising demand for legal experts who can critique AI systems",
+          "priority": "P7",
+          "effort": "Low",
+          "dimRefs": [
+            "D5",
+            "D6"
+          ]
+        }
+      ]
+    },
+    "D6": {
+      "rationale": "A completed legal PhD represents the deepest possible specialisation in a chosen area of law \u2014 years of sustained, supervised, original engagement with a narrow doctrinal or socio-legal field, examined externally for expert-level contribution. This exceeds even the JD's broad-but-compulsory Priestley 11 coverage in depth (though not breadth) within the chosen specialisation.",
+      "recommendations": [
+        {
+          "action": "Provide guidance and institutional support (grant-writing workshops, seed funding) for candidates pursuing AI-adjacent legal scholarship (AI regulation, algorithmic accountability, legal-tech governance) as a strategically well-positioned specialisation given rising demand for legal experts who can critique AI systems",
+          "priority": "P7",
+          "effort": "Low",
+          "dimRefs": [
+            "D5",
+            "D6"
+          ]
+        }
+      ]
+    },
+    "D7": {
+      "rationale": "This is the core purpose of the degree. Candidates design and conduct original legal research \u2014 doctrinal, comparative, theoretical, or empirical \u2014 and must defend their methodology under sustained supervisory and external-examiner scrutiny. This is categorically different from the JD's single Legal Research capstone subject; the entire PhD is a research-methods exercise.",
+      "recommendations": []
+    },
+    "D8": {
+      "rationale": "Legal PhD candidates typically engage in supervision relationships, seminar/conference presentation, and often tutoring/mentoring of junior students, all of which build relational and pedagogical capability. However, unlike the JD (which has explicit clinical, negotiation, and client-facing learning outcomes), the PhD's relational demands are academic-collegial rather than client-facing or clinical, and are not formally assessed as a core competency in the way doctrinal contribution is.",
+      "recommendations": [
+        {
+          "action": "Expand structured teaching-and-mentoring opportunities (tutoring, guest lecturing, supervision of JD/undergraduate research) as a tracked, credentialed component of candidature, strengthening the academic-career pipeline this cohort needs",
+          "priority": "P5",
+          "effort": "Low",
+          "dimRefs": [
+            "D8"
+          ]
+        }
+      ]
+    },
+    "D9": {
+      "rationale": "As a research-only higher degree with no defined coursework curriculum, there is no structured mechanism analogous to unit refresh cycles for keeping content current on AI or other fast-moving trends \u2014 currency depends entirely on individual supervisor and candidate initiative rather than a designed, tracked curriculum feedback loop. This is a structural feature of the PhD format, not a specific failing of this program, but it scores low against the rubric as written.",
+      "recommendations": [
+        {
+          "action": "Formalise a living-curriculum feedback mechanism for doctoral training components (methodology workshops, professional development seminars) with an advisory panel including recent graduates in academic, judicial, and policy roles, reviewed on a defined cycle",
+          "priority": "P4",
+          "effort": "Medium",
+          "dimRefs": [
+            "D9"
+          ]
+        }
+      ]
+    },
+    "D10": {
+      "rationale": "Melbourne Law School does not publish granular, program-specific destination data for PhD in Law graduates (roles, salary, time-to-academic-position). Generic QILT postgraduate research destination data exists at a broad field level but does not isolate legal PhD outcomes specifically, and does not capture the academic-market-specific metrics (time-to-tenure-track position, postdoc placement rate) that would matter most for this cohort.",
+      "recommendations": [
+        {
+          "action": "Establish a structured graduate destination tracking system specific to Law PhD candidates \u2014 academic placement rate, time-to-tenure-track/continuing position, postdoctoral fellowship rate, judicial associateship/policy placement, and non-academic legal research roles \u2014 published annually by Melbourne Law School",
+          "priority": "P2",
+          "effort": "High",
+          "dimRefs": [
+            "D10"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "rationale": "A completed legal PhD combines rare, deep domain specialisation (D6:3), sustained original research capability under uncertainty (D4:3, D7:3), and a credentialling function (only a PhD opens academic legal careers and many senior judicial-research pathways) that is structurally very difficult to substitute. The rare integration here is not technical-AI capability but scholarly originality plus doctrinal depth plus demonstrated capacity to generate genuinely new legal knowledge \u2014 a combination AI cannot currently replicate at examiner-defensible standard.",
+      "recommendations": []
+    }
+  }
+}

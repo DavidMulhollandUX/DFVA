@@ -1,0 +1,112 @@
+{
+  "code": "dr-philart",
+  "programSlug": "dfva-dr-philart",
+  "byDimension": {
+    "D1": {
+      "rationale": "The defining task \u2014 constructing and defending an 80,000-word original argument under oral examination \u2014 requires irreducible human judgment, interpretation, and accountability; no automatable role cluster exists at the centre of the degree.",
+      "recommendations": [
+        {
+          "action": "Create a cross-disciplinary \"AI-verification editor\" placement/internship pathway \u2014 positioning humanities PhD graduates' verification and judgment skills against the AI-generated content surge in publishing, policy, and media sectors as an explicit employment bridge",
+          "priority": "P7",
+          "effort": "Medium",
+          "dimRefs": [
+            "D1"
+          ]
+        }
+      ]
+    },
+    "D2": {
+      "rationale": "The entire candidature is hypothesis formation, research design, and defence of a novel framing under supervisory and examiner scrutiny across 4 years \u2014 assessed continuously via confirmation, milestone review, and final examination, not templated.",
+      "recommendations": []
+    },
+    "D3": {
+      "rationale": "Discipline-dependent and generally light on quantitative/technical rigour relative to STEM or applied social-science PhDs; humanities disciplines (history, philosophy, cultural studies, languages) emphasise interpretive and archival method over statistical/computational technique.",
+      "recommendations": [
+        {
+          "action": "Add a lightweight, discipline-agnostic quantitative/digital-methods training component (data literacy, digital humanities tools, corpus analysis where relevant) available to all Arts PhD candidates regardless of thesis topic",
+          "priority": "P4",
+          "effort": "Medium",
+          "dimRefs": [
+            "D3"
+          ]
+        }
+      ]
+    },
+    "D4": {
+      "rationale": "Candidates must independently define a viable research question, defend methodological choices against ambiguous/contested evidence, and revise under supervisor and examiner challenge \u2014 the archetypal high-stakes, unscripted decision environment.",
+      "recommendations": []
+    },
+    "D5": {
+      "rationale": "No structural AI literacy or governance content indicated by the handbook description or typical humanities PhD structure; AI tool use (if any) is left to individual candidate practice rather than taught or assessed.",
+      "recommendations": [
+        {
+          "action": "Introduce a mandatory AI-in-research-practice module covering AI literacy, research-integrity policy, appropriate use of AI for literature review/drafting, and critical evaluation of AI-generated content \u2014 delivered at confirmation stage across all Arts PhD disciplines",
+          "priority": "P1",
+          "effort": "Medium",
+          "dimRefs": [
+            "D5"
+          ]
+        }
+      ]
+    },
+    "D6": {
+      "rationale": "A 4-year, single-topic doctorate within a defined discipline (history, linguistics, politics, Asian studies, etc.) produces exactly the kind of deep, narrow, years-in-the-making specialist expertise this dimension rewards.",
+      "recommendations": []
+    },
+    "D7": {
+      "rationale": "The thesis itself is primary research \u2014 original archival work, textual analysis, fieldwork, or theoretical contribution \u2014 defended under formal oral examination; this is the maximal expression of this dimension, not a proxy for it.",
+      "recommendations": []
+    },
+    "D8": {
+      "rationale": "Many disciplines within this degree (ethnography, oral history, cultural studies fieldwork) build genuine relational capability, but this varies significantly by sub-discipline and is not universal across all Arts PhD pathways (e.g., a purely archival philosophy thesis has less relational demand).",
+      "recommendations": [
+        {
+          "action": "Expand structured public engagement and knowledge-translation training (writing for non-specialist audiences, policy brief writing, media engagement) as a core research-training component, not an optional extra",
+          "priority": "P6",
+          "effort": "Medium",
+          "dimRefs": [
+            "D8"
+          ]
+        }
+      ]
+    },
+    "D9": {
+      "rationale": "Research doctorates have no curriculum to refresh in the coursework sense, and the handbook text gives no evidence of structured AI-in-research-practice guidance, research-integrity-and-AI policy updates, or supervisory training refresh \u2014 currency is left to individual supervisors.",
+      "recommendations": [
+        {
+          "action": "Formalise supervisory training refresh cycles that explicitly address AI's impact on research practice, examination standards, and academic integrity, with documented review at least every 2 years",
+          "priority": "P5",
+          "effort": "Low",
+          "dimRefs": [
+            "D9"
+          ]
+        }
+      ]
+    },
+    "D10": {
+      "rationale": "No destination data of any kind provided; humanities PhD outcome tracking nationally is notoriously thin (academic-market placement rates are rarely published, non-academic destinations even less so).",
+      "recommendations": [
+        {
+          "action": "Establish a structured non-academic career pathway program (policy, cultural sector, publishing, government) with named alumni case studies, employer partnerships, and explicit skills-translation workshops, rather than leaving non-academic transition to informal networks",
+          "priority": "P2",
+          "effort": "High",
+          "dimRefs": [
+            "D10"
+          ]
+        },
+        {
+          "action": "Commission and publish a graduate destination survey specific to Arts PhD completions (academic placement rate, time-to-placement, non-academic destination categories, salary bands) at 1-year and 3-year intervals",
+          "priority": "P3",
+          "effort": "Medium",
+          "dimRefs": [
+            "D10"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "rationale": "Deep domain specialisation and demonstrated research rigour combine with real human judgment, but the degree does not explicitly build technical/quantitative depth alongside them, so the \"rare triple integration\" bar is not fully met.",
+      "recommendations": []
+    }
+  }
+}

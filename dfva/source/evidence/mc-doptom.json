@@ -1,0 +1,123 @@
+{
+  "code": "mc-doptom",
+  "programSlug": "dfva-mc-doptom",
+  "byDimension": {
+    "D1": {
+      "rationale": "Mix of highly automatable tasks (retinal AI screening, routine refraction \u2014 both mature, deployed AI applications) and tasks requiring hands-on physical examination, accountable diagnosis/prescribing, and relational patient management from day one. Genuinely higher exposure than most clinical doctorates because retinal AI screening is already at scale, but the degree does train across the full task spectrum, not just the automatable slice.",
+      "recommendations": [
+        {
+          "action": "Explicitly reweight clinical placement exposure in early years toward complex case management, co-management, and specialty lens fitting rather than routine screening volume, so graduates build durable-skill fluency before entering a workforce where routine screening is increasingly automated",
+          "priority": "P2",
+          "effort": "High",
+          "dimRefs": [
+            "D1"
+          ]
+        }
+      ]
+    },
+    "D2": {
+      "rationale": "Clinical placements from year one require differential diagnosis and constraint-based clinical reasoning (integrating history, exam findings, imaging, comorbidity) under authentic assessment in real clinical settings. Handbook text doesn't evidence explicit failure-mode/trade-off analysis teaching beyond standard clinical reasoning, so not scored at the top band.",
+      "recommendations": [
+        {
+          "action": "Formalise systems-thinking teaching around eye-care's position in the broader health system (GP/ophthalmology referral pathways, Medicare/insurance interactions, screening-program design) with explicit trade-off and failure-mode analysis, not just clinical reasoning",
+          "priority": "P7",
+          "effort": "Low",
+          "dimRefs": [
+            "D2"
+          ]
+        }
+      ]
+    },
+    "D3": {
+      "rationale": "Ocular anatomy, physiology, pathology, pharmacology, and optics form a strong, assessed technical core embedded throughout a four-year program \u2014 comparable in rigour to other biomedical clinical doctorates.",
+      "recommendations": []
+    },
+    "D4": {
+      "rationale": "Clinical placements increasing to the dominant activity by final year mean graduates make and defend real diagnostic, prescribing, and referral decisions on real patients with genuine accountability \u2014 not scripted case studies.",
+      "recommendations": [
+        {
+          "action": "Build an explicit \"AI-augmented triage to accountable diagnosis\" capstone scenario into final-year clinical assessment, requiring graduates to demonstrate when to trust, override, or escalate beyond an AI screening flag",
+          "priority": "P6",
+          "effort": "Medium",
+          "dimRefs": [
+            "D4",
+            "D5"
+          ]
+        }
+      ]
+    },
+    "D5": {
+      "rationale": "No AI-specific curriculum content evidenced in the handbook text, despite retinal AI screening being one of the most clinically mature AI applications directly relevant to this profession (D1/D5 crossover risk). Given the deployed-at-scale status of AI diagnostic imaging in eye care, the absence of explicit AI-workflow, AI-limitations, or AI-governance teaching is a significant gap rather than a neutral absence.",
+      "recommendations": [
+        {
+          "action": "Introduce a dedicated AI in Eye Care unit or module covering autonomous retinal screening tools (LumineticsCore, ARDA), their failure modes, regulatory status, and clinician-AI workflow integration \u2014 taught explicitly as a governance and supervision skill, not just a tool-use skill",
+          "priority": "P1",
+          "effort": "Medium",
+          "dimRefs": [
+            "D5"
+          ]
+        },
+        {
+          "action": "Build an explicit \"AI-augmented triage to accountable diagnosis\" capstone scenario into final-year clinical assessment, requiring graduates to demonstrate when to trust, override, or escalate beyond an AI screening flag",
+          "priority": "P6",
+          "effort": "Medium",
+          "dimRefs": [
+            "D4",
+            "D5"
+          ]
+        }
+      ]
+    },
+    "D6": {
+      "rationale": "A tightly regulated, OCANZ-accredited specialist clinical domain (primary eye care) requiring years of integrated anatomy/pathology/optics/pharmacology/clinical training \u2014 deep, durable specialist expertise by design.",
+      "recommendations": []
+    },
+    "D7": {
+      "rationale": "A required clinically relevant research project gives graduates genuine primary-evidence generation and methodology defence experience, distinguishing this from a pure-coursework clinical degree. Scope/scale of the project is not detailed enough in the provided text to justify the top band.",
+      "recommendations": [
+        {
+          "action": "Expand the clinically relevant research project's expected scope/documentation to require a defined minimum primary-data component and methodology defence, making the research capability explicit and comparable across cohorts",
+          "priority": "P5",
+          "effort": "Medium",
+          "dimRefs": [
+            "D7"
+          ]
+        }
+      ]
+    },
+    "D8": {
+      "rationale": "Direct patient care from year one, including sight-threatening disease communication and chronic-condition co-management with a vulnerable (often elderly, vision-anxious) patient population \u2014 substantial clinical/relational accountability and physical hands-on skill (slit-lamp, tonometry, lens fitting).",
+      "recommendations": []
+    },
+    "D9": {
+      "rationale": "No evidence in the provided handbook text of an AI-specific curriculum refresh or advisory feedback loop addressing the retinal-AI/diagnostic-imaging disruption directly relevant to this profession \u2014 a notable gap given how fast this specific sub-field is moving.",
+      "recommendations": [
+        {
+          "action": "Add a curriculum currency review cycle specifically tracking AI diagnostic imaging developments in ophthalmology/optometry (retinal AI, OCT AI triage), with an advisory panel including practising optometrists using these tools, refreshed at least every 2 years",
+          "priority": "P4",
+          "effort": "Medium",
+          "dimRefs": [
+            "D9"
+          ]
+        }
+      ]
+    },
+    "D10": {
+      "rationale": "No granular destination, salary, or time-to-registration data provided in the handbook text; OCANZ accreditation guarantees a registration pathway but the program profile does not evidence detailed outcome tracking beyond that.",
+      "recommendations": [
+        {
+          "action": "Establish a structured graduate outcomes tracking system (time-to-registration, practice setting, screening vs. complex-case caseload mix) in partnership with OCANZ and Optometry Australia, closing the program's most significant evidence gap",
+          "priority": "P3",
+          "effort": "High",
+          "dimRefs": [
+            "D10"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "rationale": "Rare integration of deep clinical/technical training, regulated legal scope of practice (therapeutic prescribing), and irreducible hands-on/relational skill \u2014 a combination that resists substitution even where individual diagnostic inputs (imaging) are increasingly AI-assisted.",
+      "recommendations": []
+    }
+  }
+}

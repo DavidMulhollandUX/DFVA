@@ -1,0 +1,112 @@
+{
+  "code": "dr-philfam",
+  "programSlug": "dfva-dr-philfam",
+  "byDimension": {
+    "D1": {
+      "rationale": "Doctoral graduates go into original creative production, live performance, clinical practice, and academic leadership \u2014 roles defined by judgment, authorship, and accountability, not templated execution, from day one.",
+      "recommendations": [
+        {
+          "action": "Create a structured \"AI-resistant practice\" positioning resource for prospective and current candidates across all disciplines, translating the degree's genuine durability strengths (embodiment, clinical relationship, original authorship, community trust) into career-narrative guidance graduates can use when entering increasingly AI-saturated creative and cultural-sector labour markets",
+          "priority": "P6",
+          "effort": "Low",
+          "dimRefs": [
+            "D1"
+          ]
+        }
+      ]
+    },
+    "D2": {
+      "rationale": "Practice-led research inherently requires framing an original creative/research problem and defending method choices at confirmation and examination; but this is candidate-driven and supervisor-dependent rather than a taught, assessed curriculum element \u2014 no dedicated systems-thinking units exist because there is no coursework.",
+      "recommendations": []
+    },
+    "D3": {
+      "rationale": "Deep craft/artistic technical depth exists (composition technique, performance technique, design/production craft) but this is not quantitative or data-technical depth as the rubric intends; disciplines like Music Psychology have some quantitative research methods grounding, but this is not consistent across the 15 disciplines.",
+      "recommendations": [
+        {
+          "action": "Formalise a quantitative/empirical research-methods option for disciplines with a quantitative dimension (Music Psychology, Music Therapy, Creative Arts Therapies), strengthening D3 without diluting the practice-led core of the performance and studio disciplines",
+          "priority": "P4",
+          "effort": "Medium",
+          "dimRefs": [
+            "D3"
+          ]
+        }
+      ]
+    },
+    "D4": {
+      "rationale": "A four-year practice-led doctorate is itself a sustained, high-stakes exercise in defending original creative/research decisions under real uncertainty (artistic risk, examiner scrutiny, public presentation) with no scripted answers \u2014 this is the core mode of doctoral research.",
+      "recommendations": []
+    },
+    "D5": {
+      "rationale": "No AI coverage identified anywhere in the program description; no unit, module, or requirement addresses AI as a creative tool, a labour-market force, or a governance/ethics issue for creative or clinical practice.",
+      "recommendations": [
+        {
+          "action": "Introduce a mandatory cross-disciplinary AI Literacy and Governance module for all DR-PHILFAM candidates, covering generative AI's impact on creative labour markets, ethical/authorship implications of AI-assisted creative tools, and discipline-specific guidance (e.g., generative music for composers, generative VFX for Film and Television candidates)",
+          "priority": "P1",
+          "effort": "Medium",
+          "dimRefs": [
+            "D5"
+          ]
+        }
+      ]
+    },
+    "D6": {
+      "rationale": "Four years of sustained, supervised, examined specialisation in one of 15 named creative/clinical disciplines represents deep, durable, hard-to-replicate expertise by definition.",
+      "recommendations": [
+        {
+          "action": "Publish explicit registration/accreditation pathway information for Music Therapy, Creative Arts Therapies, and Music Psychology graduates alongside the handbook entry, since these disciplines lead to regulated clinical practice that materially differentiates their employment durability from the purely creative-practice disciplines",
+          "priority": "P5",
+          "effort": "Low",
+          "dimRefs": [
+            "D6"
+          ]
+        }
+      ]
+    },
+    "D7": {
+      "rationale": "Candidates generate primary creative or scholarly work (compositions, performances, exegeses, ethnographic/archival research) and defend methodology under independent expert examination \u2014 the doctoral research core.",
+      "recommendations": []
+    },
+    "D8": {
+      "rationale": "Music Therapy, Creative Arts Therapies, and Social Practice/Community Engagement disciplines build substantial clinical/relational/community-engaged capability as core competency; performance disciplines require embodied, collaborative, ensemble-based human interaction throughout.",
+      "recommendations": []
+    },
+    "D9": {
+      "rationale": "No evidence of AI integration or explicit recent curriculum refresh in the handbook text; the degree structure (supervised individual research) is inherently flexible to candidate topic but there is no institutional feedback loop or outcome-tracking mechanism visible for currency on AI or industry shifts, particularly for the exposed technical/craft disciplines.",
+      "recommendations": [
+        {
+          "action": "Establish an explicit AI-and-craft strategy stream for the technical/production disciplines (Production, Design, Film and Television) within research training, addressing how AI-assisted tools are reshaping professional post-production, design, and technical-direction markets these graduates enter",
+          "priority": "P3",
+          "effort": "Medium",
+          "dimRefs": [
+            "D9"
+          ]
+        },
+        {
+          "action": "Introduce a light-touch curriculum currency review cycle (e.g., biennial advisory panel including recent graduates from each of the 15 disciplines) to track how professional markets are shifting under AI pressure and feed that back into research-training content",
+          "priority": "P7",
+          "effort": "Medium",
+          "dimRefs": [
+            "D9"
+          ]
+        }
+      ]
+    },
+    "D10": {
+      "rationale": "No granular destination data, salary, or time-to-employment data published for this specific research doctorate; general QILT/GOS postgraduate research data exists at a coarse field level but not disaggregated by discipline (e.g., Film and Television graduates vs Music Therapy graduates have very different outcome profiles that are not distinguished).",
+      "recommendations": [
+        {
+          "action": "Build a discipline-differentiated graduate outcomes tracking system, disaggregating Film and Television, Design, and Production destinations from Music Therapy, Performance, and Composition destinations, given how differently these disciplines are exposed to AI and how different their career markets are",
+          "priority": "P2",
+          "effort": "High",
+          "dimRefs": [
+            "D10"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "rationale": "The combination of four years of doctoral-level technical/artistic depth, discipline-specific specialisation, and irreducibly human embodied/relational/clinical practice (especially in performance and therapy disciplines) is a rare integration that strongly resists AI substitution.",
+      "recommendations": []
+    }
+  }
+}

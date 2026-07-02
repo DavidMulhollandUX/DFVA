@@ -1,0 +1,134 @@
+{
+  "code": "dr-philsci",
+  "programSlug": "dfva-dr-philsci",
+  "byDimension": {
+    "D1": {
+      "rationale": "Graduate roles (postdoc, R&D scientist, agency researcher) mix highly automatable tasks (lit review, stats processing, reporting) with irreducible ones (experimental design, physical lab/field work, accountable interpretation). The physical/wet-lab and field components across most of the six schools anchor this above a pure knowledge-work score, but the computational sub-disciplines (Maths & Stats, Physics) pull it down from a 3.",
+      "recommendations": []
+    },
+    "D2": {
+      "rationale": "A PhD is structurally built around hypothesis formation, experimental/model design, and failure-mode analysis (why did the experiment/model not work, what confound explains an anomaly) \u2014 assessed continuously via candidature milestones and ultimately the thesis and defence, not a templated curriculum.",
+      "recommendations": [
+        {
+          "action": "For computationally-oriented sub-disciplines (Maths & Stats, Physics, Earth Sciences modelling), add an explicit \"novel methodology beyond automatable pipelines\" expectation to confirmation criteria to protect against AI-templated research drift",
+          "priority": "P6",
+          "effort": "Low",
+          "dimRefs": [
+            "D2",
+            "D3"
+          ]
+        }
+      ]
+    },
+    "D3": {
+      "rationale": "Across all six schools the degree demands deep, discipline-specific technical competence \u2014 instrumentation and analytical chemistry, statistical/mathematical modelling, computational methods, or field/ecological measurement \u2014 developed and continuously assessed over four years of original research, not an intro unit.",
+      "recommendations": [
+        {
+          "action": "For computationally-oriented sub-disciplines (Maths & Stats, Physics, Earth Sciences modelling), add an explicit \"novel methodology beyond automatable pipelines\" expectation to confirmation criteria to protect against AI-templated research drift",
+          "priority": "P6",
+          "effort": "Low",
+          "dimRefs": [
+            "D2",
+            "D3"
+          ]
+        }
+      ]
+    },
+    "D4": {
+      "rationale": "Original research is inherently uncertain: candidates must defend methodological choices, interpret ambiguous or contradictory data, and adapt experimental/analytical plans under real resource and time constraints, examined by external assessors at confirmation, milestone review, and thesis examination.",
+      "recommendations": [
+        {
+          "action": "Formalise \"AI-augmented analysis\" competency standards within confirmation/milestone reviews \u2014 candidates must demonstrate they can critically validate, not just deploy, AI-generated code/analysis",
+          "priority": "P5",
+          "effort": "Low",
+          "dimRefs": [
+            "D5",
+            "D4"
+          ]
+        }
+      ]
+    },
+    "D5": {
+      "rationale": "The handbook text shows no explicit AI/data-governance curriculum component. AI tool use is likely occurring organically (as a research aid) but is not evidenced as a taught, assessed, or governed competency \u2014 this is a generic PhD structure with no visible AI-specific research-integrity or governance training.",
+      "recommendations": [
+        {
+          "action": "Introduce a mandatory cross-school \"AI in Research\" module covering AI-assisted literature review, code generation, model validation risks, and research-integrity/authorship policy for AI-assisted work",
+          "priority": "P1",
+          "effort": "Medium",
+          "dimRefs": [
+            "D5"
+          ]
+        },
+        {
+          "action": "Formalise \"AI-augmented analysis\" competency standards within confirmation/milestone reviews \u2014 candidates must demonstrate they can critically validate, not just deploy, AI-generated code/analysis",
+          "priority": "P5",
+          "effort": "Low",
+          "dimRefs": [
+            "D5",
+            "D4"
+          ]
+        }
+      ]
+    },
+    "D6": {
+      "rationale": "By design, a four-year PhD in a specific discipline (chemistry, physics, ecology, statistics, etc.) within one of six specialist schools builds deep, narrow, durable expertise that is the degree's entire purpose.",
+      "recommendations": []
+    },
+    "D7": {
+      "rationale": "This is a research doctorate: candidates design and conduct original primary research (experiments, field studies, models, or proofs) and must defend their methodology under external examination \u2014 the strongest possible expression of this dimension.",
+      "recommendations": []
+    },
+    "D8": {
+      "rationale": "The handbook text does not evidence structured interpersonal, ethics, or stakeholder-engagement training beyond standard research-integrity/ethics approval processes implicit in any research degree. Some schools (fieldwork-heavy, team-based labs) build this informally, but it is not a designed, assessed curriculum element.",
+      "recommendations": [
+        {
+          "action": "Add a structured research-communication and stakeholder-engagement component (public science communication, policy briefing practice, cross-disciplinary collaboration) as an assessed milestone alongside the thesis",
+          "priority": "P4",
+          "effort": "Medium",
+          "dimRefs": [
+            "D8"
+          ]
+        }
+      ]
+    },
+    "D9": {
+      "rationale": "No AI content or recent curriculum refresh is evidenced in the handbook text; the described structure is generic boilerplate (\"research on a specific topic\") unchanged across cohorts. Absent visible advisory-board/outcome-tracking mechanisms, this scores low despite likely informal supervisor-level currency.",
+      "recommendations": [
+        {
+          "action": "Establish a graduate research advisory panel (industry + academic) per school with an annual curriculum/training refresh cycle, explicitly reviewing AI-tool currency",
+          "priority": "P2",
+          "effort": "Medium",
+          "dimRefs": [
+            "D9"
+          ]
+        }
+      ]
+    },
+    "D10": {
+      "rationale": "No granular destination data (roles, industries, salary, time-to-employment) is provided in the handbook text; University of Melbourne publishes broader QILT/graduate outcomes data but not visibly segmented at the DR-PHILSCI/school level within this source.",
+      "recommendations": [
+        {
+          "action": "Publish granular DR-PHILSCI destination data by school (postdoc placement, industry sector, government agency, time-to-first-position) via the university careers/graduate outcomes office",
+          "priority": "P3",
+          "effort": "Low",
+          "dimRefs": [
+            "D10"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "rationale": "The combination of deep technical/quantitative training, hands-on physical or computational specialist skill, and demonstrated original-research judgment (own a novel research question, defend it under scrutiny) is a rare, hard-to-substitute bundle \u2014 the archetype of what AI cannot yet replicate end-to-end.",
+      "recommendations": [
+        {
+          "action": "Create a physical/field-skills recognition credential (instrumentation certification, field-safety leadership) that graduates can cite externally, reinforcing the irreplaceability premium",
+          "priority": "P7",
+          "effort": "Low",
+          "dimRefs": [
+            "B"
+          ]
+        }
+      ]
+    }
+  }
+}

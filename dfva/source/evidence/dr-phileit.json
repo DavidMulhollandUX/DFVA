@@ -1,0 +1,121 @@
+{
+  "code": "dr-phileit",
+  "programSlug": "dfva-dr-phileit",
+  "byDimension": {
+    "D1": {
+      "rationale": "Graduate destinations (postdoc research, industrial R&D, deep-tech specialist roles) require original judgment, experimental design, and accountability for novel technical claims from day one \u2014 the antithesis of templated task execution.",
+      "recommendations": [
+        {
+          "action": "Pilot a structured industry-embedded PhD track (co-supervision with industry partners in high-growth sectors: medtech, energy transition, advanced manufacturing, AI/ML systems) to strengthen non-academic destination pathways",
+          "priority": "P6",
+          "effort": "High",
+          "dimRefs": [
+            "D1",
+            "D10"
+          ]
+        }
+      ]
+    },
+    "D2": {
+      "rationale": "The entire PhD structure (research proposal \u2192 confirmation \u2192 thesis \u2192 oral defence) is a multi-year exercise in hypothesis formation, constraint reasoning, and failure-mode analysis under expert challenge; this is assessed continuously, not incidentally.",
+      "recommendations": []
+    },
+    "D3": {
+      "rationale": "All six constituent disciplines (Biomedical, Chemical, Computer/IS, Electrical/Electronic, Infrastructure, Mechanical Engineering) demand deep, embedded quantitative and technical competence as the baseline entry requirement for candidature, not an add-on.",
+      "recommendations": []
+    },
+    "D4": {
+      "rationale": "Multi-year original research under real resource, equipment, and time constraints, culminating in a live oral defence, is the maximal form of defended-trade-off assessment in the entire rubric.",
+      "recommendations": []
+    },
+    "D5": {
+      "rationale": "Handbook text contains no explicit AI literacy, governance, or ethics-of-AI curriculum component; AI tool use is left to informal supervisor/lab norms rather than a designed capability. Candidates in Computer and Information Systems likely encounter this incidentally, but it is not structural across the six disciplines.",
+      "recommendations": [
+        {
+          "action": "Introduce a mandatory cross-school \"AI-Augmented Research Methods\" module at confirmation stage, covering AI tool use, verification practices, and governance/IP/authorship implications of AI-assisted research",
+          "priority": "P1",
+          "effort": "Medium",
+          "dimRefs": [
+            "D5"
+          ]
+        },
+        {
+          "action": "Add an explicit \"AI-assisted vs AI-generated contribution\" declaration requirement to thesis submission, protecting the credential's originality signal as AI drafting tools proliferate",
+          "priority": "P5",
+          "effort": "Low",
+          "dimRefs": [
+            "D5"
+          ]
+        }
+      ]
+    },
+    "D6": {
+      "rationale": "A 4-year individually supervised research doctorate in a named engineering/IT sub-discipline is definitionally deep, durable specialist expertise \u2014 the clearest possible case for a 3 on this dimension.",
+      "recommendations": []
+    },
+    "D7": {
+      "rationale": "Candidates must design and conduct original primary research and defend methodology to expert examiners; this is the core mechanism of the degree, not a component of it.",
+      "recommendations": []
+    },
+    "D8": {
+      "rationale": "Handbook text is silent on structured relational/ethical/mentoring capability; some is acquired informally (supervising junior students, industry partner liaison) but nothing is designed or assessed as a competency.",
+      "recommendations": [
+        {
+          "action": "Formalise a relational/professional-skills stream (mentoring practicum, industry-translation communication training, ethics-of-research-conduct workshop) as a milestone-linked requirement, not an optional add-on",
+          "priority": "P3",
+          "effort": "Medium",
+          "dimRefs": [
+            "D8"
+          ]
+        }
+      ]
+    },
+    "D9": {
+      "rationale": "As a research-only degree there is no \"curriculum\" to refresh in the coursework sense; currency depends entirely on individual supervisor/lab currency, which is unverified and highly variable across six large schools. No structural mechanism (e.g. mandatory AI-methods training, cross-lab review) is evidenced.",
+      "recommendations": [
+        {
+          "action": "Create a lab-currency audit mechanism (e.g. biennial supervisor AI-methods review, cross-lab seminar series) to reduce variance in how current individual research groups' tooling and methods are",
+          "priority": "P4",
+          "effort": "Low",
+          "dimRefs": [
+            "D9"
+          ]
+        }
+      ]
+    },
+    "D10": {
+      "rationale": "Handbook text provides no destination data; UoM does not publish granular PhD-graduate outcome tracking (roles/salary/time-to-employment) comparable to QILT-style coursework data, and this is a known institutional gap across UoM's higher degrees by research.",
+      "recommendations": [
+        {
+          "action": "Establish a structured research-outcome tracking system (destination survey at 6/12/24 months post-completion: academic/industry role, sector, salary band) across all six schools, published centrally",
+          "priority": "P2",
+          "effort": "Medium",
+          "dimRefs": [
+            "D10"
+          ]
+        },
+        {
+          "action": "Pilot a structured industry-embedded PhD track (co-supervision with industry partners in high-growth sectors: medtech, energy transition, advanced manufacturing, AI/ML systems) to strengthen non-academic destination pathways",
+          "priority": "P6",
+          "effort": "High",
+          "dimRefs": [
+            "D1",
+            "D10"
+          ]
+        },
+        {
+          "action": "Publish discipline-specific (not pooled) outcome and placement data, since the six constituent schools have materially different labour markets (e.g. Computer/IS vs Infrastructure Engineering)",
+          "priority": "P7",
+          "effort": "Low",
+          "dimRefs": [
+            "D10"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "rationale": "The combination of deep technical/quantitative specialisation, original judgment under uncertainty, and (for 5 of 6 disciplines) physical/experimental grounding is a rare integration that strongly resists AI substitution.",
+      "recommendations": []
+    }
+  }
+}

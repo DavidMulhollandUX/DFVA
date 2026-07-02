@@ -1,0 +1,109 @@
+{
+  "code": "me-dcd",
+  "programSlug": "dfva-me-dcd",
+  "byDimension": {
+    "D1": {
+      "rationale": "Entry is as a specialist clinician performing licensed intraoral surgical/manual procedures under personal medico-legal accountability from the day of registration \u2014 no templated task cluster dominates the role.",
+      "recommendations": []
+    },
+    "D2": {
+      "rationale": "Specialist training requires integrating diagnostic imaging, medical history, biomechanics/pathology, and multidisciplinary referral pathways into a single defensible treatment plan for each individual patient \u2014 assessed continuously through supervised clinical practice, not a single unit.",
+      "recommendations": []
+    },
+    "D3": {
+      "rationale": "Advanced clinical science specific to the specialty (e.g., orthodontic biomechanics, endodontic microsurgical technique, periodontal regenerative science) delivered and assessed at specialist depth across three years, well beyond general dental training.",
+      "recommendations": []
+    },
+    "D4": {
+      "rationale": "Every clinical session at the Royal Dental Hospital of Melbourne/Melbourne Dental Clinic is a live, high-stakes patient encounter with real complication risk and no scripted answer \u2014 this is the definition of assessed decision-making under uncertainty.",
+      "recommendations": []
+    },
+    "D5": {
+      "rationale": "Handbook text and program structure show no evidence of formal AI-in-dentistry curriculum content (AI-assisted radiograph triage, digital treatment-planning software governance, algorithmic bias in diagnostic imaging AI); given rapid AI diagnostic-imaging adoption in dentistry, this is a live and growing gap rather than a hypothetical one.",
+      "recommendations": [
+        {
+          "action": "Introduce a specialty-specific AI Diagnostic Imaging and Governance module (covering AI-assisted radiograph/CBCT triage tools, cephalometric AI, algorithmic bias and liability in diagnostic AI, and appropriate scope of AI-generated draft treatment plans) embedded across all seven specialist fields",
+          "priority": "P1",
+          "effort": "Medium",
+          "dimRefs": [
+            "D5"
+          ]
+        },
+        {
+          "action": "Require candidates to critically evaluate and document AI-assisted diagnostic/treatment-planning tool output as part of clinical case presentations, formalising \"AI as co-pilot, specialist as accountable decision-maker\" as an assessed competency",
+          "priority": "P2",
+          "effort": "Low",
+          "dimRefs": [
+            "D5"
+          ]
+        },
+        {
+          "action": "Add a brief structured module on AI-assisted practice-management and billing automation to the professional-practice component, so graduates entering private specialist practice can capture the administrative time-savings AI already offers",
+          "priority": "P5",
+          "effort": "Low",
+          "dimRefs": [
+            "D5"
+          ]
+        },
+        {
+          "action": "Formalise cross-specialty exposure to oral cancer/oral medicine AI-assisted screening tools within relevant fields (Oral Medicine primarily, with awareness modules for others), given oral cancer detection is a genuine frontier for AI-assisted (not AI-replaced) diagnosis",
+          "priority": "P6",
+          "effort": "Medium",
+          "dimRefs": [
+            "D5"
+          ]
+        }
+      ]
+    },
+    "D6": {
+      "rationale": "The entire program exists to produce deep, narrow, legally-registrable specialist expertise in one of seven named fields \u2014 the definitional case for this dimension.",
+      "recommendations": []
+    },
+    "D7": {
+      "rationale": "Mandatory original research/thesis component within the specialty is a structural, assessed requirement of the DClinDent, not an elective add-on \u2014 graduates must design and defend primary clinical research.",
+      "recommendations": []
+    },
+    "D8": {
+      "rationale": "Specialist dental practice is inseparable from hands-on physical procedure, chairside behaviour management, and legally consequential informed consent \u2014 substantial clinical/physical/interpersonal accountability is the daily mode of the job.",
+      "recommendations": []
+    },
+    "D9": {
+      "rationale": "ADC accreditation cycles and hospital-based delivery imply active, regularly reviewed clinical currency, but the handbook text provides no explicit evidence of an AI-specific curriculum feedback loop or advisory mechanism \u2014 scored down from 3 for lack of documented AI-adaptive review.",
+      "recommendations": [
+        {
+          "action": "Establish a standing AI-in-dentistry curriculum advisory input from the Australian Dental Association / ADC given the pace of diagnostic-imaging AI adoption, to keep D9 currency demonstrably active rather than implicit",
+          "priority": "P4",
+          "effort": "Low",
+          "dimRefs": [
+            "D9"
+          ]
+        }
+      ]
+    },
+    "D10": {
+      "rationale": "Specialist registration outcomes are implicitly strong (ADC/AHPRA-gated specialist title is itself a near-guaranteed high-value outcome), but the handbook does not publish granular destination data (income, practice-setting split, time-to-independent-practice) \u2014 partial detail, not absent.",
+      "recommendations": [
+        {
+          "action": "Publish granular graduate outcome data by specialist field (private practice vs public hospital vs academic split, time-to-independent-practice, geographic distribution) in partnership with the Australian Dental Council and specialist colleges",
+          "priority": "P3",
+          "effort": "Medium",
+          "dimRefs": [
+            "D10"
+          ]
+        },
+        {
+          "action": "Market the specialist-title regulatory moat and irreplaceability premium explicitly in program materials and prospective-candidate communications, given this is the program's strongest and most durable differentiator relative to any coursework Masters",
+          "priority": "P7",
+          "effort": "Low",
+          "dimRefs": [
+            "D10"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "rationale": "Rare integration of deep technical/clinical depth, physical procedural skill, and a state-enforced regulatory title monopoly (AHPRA Specialist Register) \u2014 a combination that is both very hard to substitute and legally impossible for a non-specialist (human or AI) to offer.",
+      "recommendations": []
+    }
+  }
+}

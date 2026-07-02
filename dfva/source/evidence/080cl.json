@@ -1,0 +1,124 @@
+{
+  "code": "080cl",
+  "programSlug": "dfva-080cl",
+  "byDimension": {
+    "D1": {
+      "rationale": "Entry-level clinical psychologist roles require registered judgment, accountability, and physical/relational presence in every core task \u2014 assessment, treatment, risk sign-off \u2014 from day one of supervised practice",
+      "recommendations": []
+    },
+    "D2": {
+      "rationale": "Case formulation across biopsychosocial models, differential diagnosis, and treatment-plan adaptation under supervision is assessed authentically and integrated throughout placements and coursework, not templated",
+      "recommendations": [
+        {
+          "action": "Introduce a capstone case-conference exercise requiring trainees to critique an AI-generated case summary against their own clinical formulation",
+          "priority": "P5",
+          "effort": "Low",
+          "dimRefs": [
+            "D2",
+            "D5"
+          ]
+        }
+      ]
+    },
+    "D3": {
+      "rationale": "Strong grounding in psychometrics, research statistics, and evidence-based assessment tools; solid but not the primary differentiator relative to the clinical and research strands",
+      "recommendations": [
+        {
+          "action": "Expand psychometric/quantitative training to include applied data science methods relevant to large clinical dataset research (supporting the PhD strand)",
+          "priority": "P6",
+          "effort": "Medium",
+          "dimRefs": [
+            "D3"
+          ]
+        }
+      ]
+    },
+    "D4": {
+      "rationale": "Live clinical placements require defended treatment and risk decisions under real client uncertainty with genuine accountability, supplemented by a thesis requiring defended methodological choices",
+      "recommendations": []
+    },
+    "D5": {
+      "rationale": "Handbook text provided contains no explicit AI-specific coverage; assumed limited to general research-methods and documentation-tooling context, not dedicated governance/critique content",
+      "recommendations": [
+        {
+          "action": "Add a dedicated AI-in-clinical-practice module covering AI-assisted documentation tools, algorithmic risk-screening limitations, and governance/ethics of AI in mental healthcare",
+          "priority": "P1",
+          "effort": "Medium",
+          "dimRefs": [
+            "D5"
+          ]
+        },
+        {
+          "action": "Formalise an AI-tool critique component within research methods training (e.g., evaluating AI-assisted literature review and analysis tools for bias/reliability)",
+          "priority": "P3",
+          "effort": "Low",
+          "dimRefs": [
+            "D5",
+            "D7"
+          ]
+        },
+        {
+          "action": "Introduce a capstone case-conference exercise requiring trainees to critique an AI-generated case summary against their own clinical formulation",
+          "priority": "P5",
+          "effort": "Low",
+          "dimRefs": [
+            "D2",
+            "D5"
+          ]
+        }
+      ]
+    },
+    "D6": {
+      "rationale": "Deep clinical-regulatory specialisation: APAC-accredited sequence plus PsyBA generalist registration and clinical endorsement \u2014 a multi-year, examination- and placement-gated specialist credential",
+      "recommendations": []
+    },
+    "D7": {
+      "rationale": "The PhD component requires graduates to independently design, conduct, and defend a novel empirical/theoretical contribution under examination \u2014 the defining rigour test of the dimension",
+      "recommendations": [
+        {
+          "action": "Formalise an AI-tool critique component within research methods training (e.g., evaluating AI-assisted literature review and analysis tools for bias/reliability)",
+          "priority": "P3",
+          "effort": "Low",
+          "dimRefs": [
+            "D5",
+            "D7"
+          ]
+        }
+      ]
+    },
+    "D8": {
+      "rationale": "Extensive supervised clinical placements assessing and treating adults and children under professional competency standards represent substantial clinical/care accountability \u2014 the strongest possible expression of this dimension",
+      "recommendations": []
+    },
+    "D9": {
+      "rationale": "APAC accreditation cycles mandate periodic program review and evidence-based-practice updates; no specific evidence of an AI-focused refresh in the supplied text, so scored as adequate rather than exemplary",
+      "recommendations": [
+        {
+          "action": "Establish an industry/AI-advisory feedback loop feeding into the next APAC accreditation review cycle to keep pace with AI-assisted clinical documentation adoption",
+          "priority": "P4",
+          "effort": "Medium",
+          "dimRefs": [
+            "D9"
+          ]
+        }
+      ]
+    },
+    "D10": {
+      "rationale": "Professional registration outcomes (PsyBA registration rates, endorsement) are trackable and typically reported at program level, but the supplied handbook text contains no granular destination data",
+      "recommendations": [
+        {
+          "action": "Publish granular graduate destination data \u2014 PsyBA registration/endorsement rates, thesis completion times, employment sector breakdown (public health, private practice, academia)",
+          "priority": "P2",
+          "effort": "Low",
+          "dimRefs": [
+            "D10"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "rationale": "Rare integration of statutory clinical accreditation, deep relational/clinical skill, and independent research capability \u2014 a dual professional+research credential that is structurally very hard to substitute",
+      "recommendations": []
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "code": "mc-dmed",
+  "programSlug": "dfva-mc-dmed",
+  "byDimension": {
+    "D1": {
+      "rationale": "Entry role is intern-to-registrar clinical practice: physical examination, procedural skill, emergency escalation, accountable decision-making from day one. Handbook explicitly describes full-time clinical placement in Years 2-3 applying \"foundational knowledge and skills to a broad range of patient encounters\" \u2014 irreducibly human, relational, physically embodied work from the outset.",
+      "recommendations": [
+        {
+          "action": "Formalise AI-assisted image/pathology triage exposure during clinical placements as a taught, supervised skill (using it correctly and knowing its limits), rather than incidental exposure",
+          "priority": "P7",
+          "effort": "Medium",
+          "dimRefs": [
+            "D5",
+            "D1"
+          ]
+        }
+      ]
+    },
+    "D2": {
+      "rationale": "The three-domain structure (biomedical science, clinical skills, professional practice) plus cross-cutting Population and Global Health theme requires integrating physiological, social and systems-level reasoning, not template execution. Year 4 capstone and Discovery pathways add authentic, assessed system-level problem framing.",
+      "recommendations": []
+    },
+    "D3": {
+      "rationale": "Applied biomedical science domain plus embedded research-methods theme across all three domains gives a strong, assessed technical core (physiology, pharmacology, pathology, biostatistics) sustained across all four years, not a one-off intro unit.",
+      "recommendations": []
+    },
+    "D4": {
+      "rationale": "Years 2-3 full-time clinical placement puts students in live, unscripted patient encounters with real diagnostic and management uncertainty; Year 4 capstone placement is explicitly described as building on this. Ungraded pass/fail structure reinforces competency-under-uncertainty as the assessment currency rather than scripted recall.",
+      "recommendations": [
+        {
+          "action": "Add explicit AI-output verification and escalation practice into clinical placement OSCEs/assessments \u2014 e.g. simulated scenarios where students must catch an AI diagnostic-support error",
+          "priority": "P2",
+          "effort": "Medium",
+          "dimRefs": [
+            "D5",
+            "D4"
+          ]
+        }
+      ]
+    },
+    "D5": {
+      "rationale": "The supplied handbook text contains no explicit reference to AI tools, clinical decision-support AI, diagnostic AI governance, or critical evaluation of AI in medicine \u2014 a notable omission given the current pace of AI deployment in Australian clinical settings (ambient scribing, imaging triage, decision support). This is scored as \"AI in one elective\" \u2014 generously assuming some coverage exists in biomedical informatics content not surfaced in the provided text \u2014 but is the clearest and most consequential gap in the program as described.",
+      "recommendations": [
+        {
+          "action": "Embed a mandatory, assessed clinical-AI-literacy module covering diagnostic AI tools, ambient documentation AI, and their failure modes/governance requirements, integrated into the applied biomedical science and professional practice domains (not a single elective)",
+          "priority": "P1",
+          "effort": "Medium",
+          "dimRefs": [
+            "D5"
+          ]
+        },
+        {
+          "action": "Add explicit AI-output verification and escalation practice into clinical placement OSCEs/assessments \u2014 e.g. simulated scenarios where students must catch an AI diagnostic-support error",
+          "priority": "P2",
+          "effort": "Medium",
+          "dimRefs": [
+            "D5",
+            "D4"
+          ]
+        },
+        {
+          "action": "Add a dedicated module on AI in population/public-health surveillance and First Nations health contexts, given AI's documented equity risks in these domains",
+          "priority": "P6",
+          "effort": "Medium",
+          "dimRefs": [
+            "D5",
+            "D8"
+          ]
+        },
+        {
+          "action": "Formalise AI-assisted image/pathology triage exposure during clinical placements as a taught, supervised skill (using it correctly and knowing its limits), rather than incidental exposure",
+          "priority": "P7",
+          "effort": "Medium",
+          "dimRefs": [
+            "D5",
+            "D1"
+          ]
+        }
+      ]
+    },
+    "D6": {
+      "rationale": "Deep, regulated clinical/scientific expertise: AMC-accredited, AHPRA-registered, four years of integrated biomedical science and supervised clinical practice. This is as deep as domain specialisation gets in the DFVA rubric.",
+      "recommendations": []
+    },
+    "D7": {
+      "rationale": "Research methods is an explicit cross-cutting theme and Year 4 includes \"a research project in an area of interest,\" strengthened further for students on the Discovery research-scholar pathway. Scored 2 rather than 3 because the handbook text describes research as one component among several (alongside the capstone placement) rather than a routinely primary-data-generating core for the full cohort \u2014 the research-scholar pathway suggests this depth is optional/pathway-dependent rather than universal.",
+      "recommendations": [
+        {
+          "action": "Strengthen the Year 4 research project requirement toward universal primary-data engagement (not pathway-dependent via Discovery) so D7 reflects the full cohort, not just research-scholar students",
+          "priority": "P4",
+          "effort": "Medium",
+          "dimRefs": [
+            "D7"
+          ]
+        }
+      ]
+    },
+    "D8": {
+      "rationale": "Professional practice is one of three co-equal curriculum domains; First Nations Health and Population/Global Health are embedded cross-cutting themes; clinical placement in every year builds direct, accountable patient-facing relational skill. This is a defining strength of the degree.",
+      "recommendations": [
+        {
+          "action": "Add a dedicated module on AI in population/public-health surveillance and First Nations health contexts, given AI's documented equity risks in these domains",
+          "priority": "P6",
+          "effort": "Medium",
+          "dimRefs": [
+            "D5",
+            "D8"
+          ]
+        }
+      ]
+    },
+    "D9": {
+      "rationale": "No evidence in the supplied text of a recent structural refresh tied to AI-era clinical practice, nor of AI content in core units. The Discovery pathway shows structural flexibility for individualisation, but that is a different property from demonstrated currency on AI-specific content. Scored 1 (minor updates / individualisation flexibility) pending evidence of an AI-specific curriculum review.",
+      "recommendations": [
+        {
+          "action": "Publish and formalise a curriculum review cadence explicitly tied to clinical AI adoption (annual advisory input from hospital digital health leads), and surface this publicly on the program handbook page",
+          "priority": "P3",
+          "effort": "Low",
+          "dimRefs": [
+            "D9"
+          ]
+        }
+      ]
+    },
+    "D10": {
+      "rationale": "Medical graduate outcomes are unusually well-tracked at a system level (AMC national data, hospital intern match rates, AHPRA registration data) even though the handbook text itself does not present granular destination data. Scored 2 (destination data, partial detail) reflecting strong sector-wide tracking infrastructure external to the handbook page itself.",
+      "recommendations": [
+        {
+          "action": "Publish granular destination/outcome data (specialty-matching rates, time-to-fellowship, geographic distribution) on the program page rather than relying on external AMC/AHPRA aggregate data",
+          "priority": "P5",
+          "effort": "Low",
+          "dimRefs": [
+            "D10"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "rationale": "Rare integration of deep technical/scientific depth, regulated domain expertise, and irreducible human/relational and physical clinical judgment \u2014 combined with a legal accountability structure (AHPRA registration) that cannot be delegated to an AI system. This is close to the strongest possible irreplaceability profile in the entire DFVA framework.",
+      "recommendations": []
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "AI Literacy and Governance": {
+    "mae": 0.21,
+    "samples": 13
+  },
+  "Automation Exposure of Roles": {
+    "mae": 0.15,
+    "samples": 13
+  },
+  "Curriculum Currency and Adaptability": {
+    "mae": 0.09,
+    "samples": 13
+  },
+  "Decision-Making Under Uncertainty": {
+    "mae": 0.09,
+    "samples": 13
+  },
+  "Graduate Outcome Evidence": {
+    "mae": 0.09,
+    "samples": 13
+  },
+  "Human and Relational Capability": {
+    "mae": 0.17,
+    "samples": 13
+  },
+  "Irreplaceability Premium (Bonus)": {
+    "mae": 0.09,
+    "samples": 13
+  },
+  "Research Methods Rigour": {
+    "mae": 0.17,
+    "samples": 13
+  },
+  "Systems Thinking and Problem Framing": {
+    "mae": 0.12,
+    "samples": 13
+  },
+  "Technical and Quantitative Depth": {
+    "mae": 0.33,
+    "samples": 13
+  }
+}

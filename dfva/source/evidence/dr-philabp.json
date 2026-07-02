@@ -1,0 +1,122 @@
+{
+  "code": "dr-philabp",
+  "programSlug": "dfva-dr-philabp",
+  "byDimension": {
+    "D1": {
+      "rationale": "Doctoral research output is judged on originality and defensibility under oral/written examination \u2014 the least automatable form of professional output that exists; graduate destinations (academia, senior policy/research roles) require judgment and accountability from entry.",
+      "recommendations": [
+        {
+          "action": "Expand structured research-assistant-to-candidate pathways with explicit AI-tool-augmented RA roles, so the entry-level labour market absorbing early-career researchers evolves alongside the tools rather than shrinking under them",
+          "priority": "P6",
+          "effort": "High",
+          "dimRefs": [
+            "D1"
+          ]
+        }
+      ]
+    },
+    "D2": {
+      "rationale": "The entire candidature is an exercise in framing an original research question, defending its scope, and reasoning about method and constraint under supervisory and examiner challenge \u2014 this is the core doctoral competency, assessed continuously via confirmation and progress milestones.",
+      "recommendations": []
+    },
+    "D3": {
+      "rationale": "Depth varies by stream: strong quantitative grounding expected in Property/Construction Management research (econometrics, cost/feasibility modelling), more design/qualitative in Architecture/Landscape Architecture \u2014 genuine rigour is required in the chosen method but is not uniformly quantitative across all six sub-disciplines.",
+      "recommendations": [
+        {
+          "action": "Formalise a cross-stream quantitative methods floor (spatial statistics, economic/cost modelling basics) available to design-research candidates who want it, narrowing the technical-depth variance across the six sub-disciplines",
+          "priority": "P5",
+          "effort": "Medium",
+          "dimRefs": [
+            "D3"
+          ]
+        }
+      ]
+    },
+    "D4": {
+      "rationale": "A 3-4 year independent research project with no scripted answer is the definitional case of decision-making under uncertainty \u2014 candidates must defend method choices, pivot when data/fieldwork doesn't cooperate, and justify conclusions to external examiners.",
+      "recommendations": []
+    },
+    "D5": {
+      "rationale": "No dedicated AI governance content is evident in the generic handbook description; built-environment research increasingly uses AI-assisted GIS, generative design, and forecasting tools, but critical supervision of AI's role in research integrity (a live and contested issue in doctoral training generally) is not a stated program feature.",
+      "recommendations": [
+        {
+          "action": "Introduce a mandatory AI-in-research-integrity module at confirmation stage covering generative AI use in literature review, data analysis, and drafting, plus disclosure norms for theses and publications",
+          "priority": "P1",
+          "effort": "Low",
+          "dimRefs": [
+            "D5"
+          ]
+        },
+        {
+          "action": "Establish a faculty-level AI tooling literacy stream (AI-assisted GIS, generative design, LLM-assisted literature synthesis) so candidates critically supervise rather than passively adopt these tools in their research method chapters",
+          "priority": "P3",
+          "effort": "Medium",
+          "dimRefs": [
+            "D5",
+            "D9"
+          ]
+        }
+      ]
+    },
+    "D6": {
+      "rationale": "Candidates develop deep, singular expertise in a specific built-environment sub-field (e.g., heritage planning law, timber construction productivity, landscape ecology) over 3-4 years \u2014 the definition of durable, hard-to-replicate specialist knowledge.",
+      "recommendations": []
+    },
+    "D7": {
+      "rationale": "The entire degree is the generation of primary evidence (fieldwork, case studies, spatial data, design propositions, or quantitative modelling) and defending that methodology to external examiners \u2014 the strongest possible expression of this dimension.",
+      "recommendations": []
+    },
+    "D8": {
+      "rationale": "Fieldwork, stakeholder/community engagement (planning, property, construction contexts), and supervisory relationships build real relational capability, though this is incidental to the research training rather than an explicitly assessed competency the way it would be in a clinical degree.",
+      "recommendations": [
+        {
+          "action": "Add a stakeholder/community engagement competency statement to candidature milestones for Urban Planning and Property streams, making the relational capability already present in fieldwork an explicitly assessed and visible dimension",
+          "priority": "P7",
+          "effort": "Low",
+          "dimRefs": [
+            "D8"
+          ]
+        }
+      ]
+    },
+    "D9": {
+      "rationale": "Research doctorates are individually supervised rather than centrally curriculum-refreshed; the handbook shows no evidence of an AI-specific update cycle or advisory-board feedback loop of the kind coursework programs increasingly publish.",
+      "recommendations": [
+        {
+          "action": "Establish a faculty-level AI tooling literacy stream (AI-assisted GIS, generative design, LLM-assisted literature synthesis) so candidates critically supervise rather than passively adopt these tools in their research method chapters",
+          "priority": "P3",
+          "effort": "Medium",
+          "dimRefs": [
+            "D5",
+            "D9"
+          ]
+        },
+        {
+          "action": "Create a standing RHD curriculum advisory feedback loop (industry + academic alumni panel) reviewed annually to demonstrate currency, mirroring practice-degree accreditation cycles",
+          "priority": "P4",
+          "effort": "Medium",
+          "dimRefs": [
+            "D9"
+          ]
+        }
+      ]
+    },
+    "D10": {
+      "rationale": "No granular destination data (academic placement rates, time-to-first-role, industry vs. academia split by sub-discipline) is published in the handbook or generally available at this level of detail for research doctorates.",
+      "recommendations": [
+        {
+          "action": "Publish granular graduate destination tracking by sub-discipline (Architecture / Construction Management / Landscape Architecture / Property / Urban Design / Urban Planning) \u2014 academic placement, government, consultancy, time-to-first-role",
+          "priority": "P2",
+          "effort": "Medium",
+          "dimRefs": [
+            "D10"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "rationale": "The combination of deep sub-discipline domain expertise, rigorous original-research method, and an externally examined defensible contribution is a rare integration that is structurally resistant to AI substitution \u2014 this is the strongest possible expression of the bonus dimension.",
+      "recommendations": []
+    }
+  }
+}

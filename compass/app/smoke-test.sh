@@ -13,6 +13,22 @@ OPS=(get-course-interventions list-api-keys get-validation-signals assess-progra
 
 fail=0
 
+echo "== CORS (backend must allow the production origin) =="
+# WASP_WEB_CLIENT_URL on the Fly app is the ONLY allowed CORS origin. If it
+# drifts from the domain users actually load the site from, auth/data
+# fetches are silently blocked by the browser — "Failed to load user data /
+# Network Error" with nothing useful in server logs. Catch it here instead.
+CANONICAL_ORIGIN="https://evidura.ai"
+cors_header=$(curl -s -D - -o /dev/null --max-time 20 "$SERVER/auth/me" -H "Origin: $CANONICAL_ORIGIN" \
+  | grep -i "^access-control-allow-origin:" | tr -d '\r')
+if [ -z "$cors_header" ]; then
+  echo "  ✗ $SERVER does not send Access-Control-Allow-Origin for $CANONICAL_ORIGIN"
+  echo "    → WASP_WEB_CLIENT_URL is stale. Fix: fly secrets set -a compass-server-sxd WASP_WEB_CLIENT_URL=$CANONICAL_ORIGIN"
+  fail=1
+else
+  echo "  ✓ $cors_header"
+fi
+
 echo "== Backend operations (must NOT be 404) =="
 for op in "${OPS[@]}"; do
   code=$(curl -s -o /dev/null -w "%{http_code}" -X POST "$SERVER/operations/$op" \

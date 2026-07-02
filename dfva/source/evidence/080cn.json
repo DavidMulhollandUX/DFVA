@@ -1,0 +1,124 @@
+{
+  "code": "080cn",
+  "programSlug": "dfva-080cn",
+  "byDimension": {
+    "D1": {
+      "rationale": "Core graduate tasks \u2014 differential diagnosis, therapy delivery, forensic assessment, case conferencing \u2014 require irreducible human judgment, legal accountability, and relational trust from day one of clinical placement.",
+      "recommendations": []
+    },
+    "D2": {
+      "rationale": "Clinical neuropsychology inherently requires integrating multi-modal evidence (history, test data, imaging, collateral report) into a coherent diagnostic formulation under uncertainty; PhD thesis adds independent hypothesis-driven research training on top of this.",
+      "recommendations": []
+    },
+    "D3": {
+      "rationale": "Combines rigorous psychometrics, neuroscience, and statistics (assessment theory, norm-referencing, research methods) with a full PhD-level original research program \u2014 among the most technically demanding degrees in the DFVA portfolio.",
+      "recommendations": [
+        {
+          "action": "Add a structured module on integrating digital cognitive-monitoring and remote/tele-neuropsychology tools into practice, positioning graduates to lead rather than resist technology-enabled service delivery models",
+          "priority": "P6",
+          "effort": "Medium",
+          "dimRefs": [
+            "D3",
+            "D9"
+          ]
+        }
+      ]
+    },
+    "D4": {
+      "rationale": "Clinical placements require defended diagnostic and treatment decisions on real patients with real consequences; forensic/medico-legal work requires decisions defensible under cross-examination \u2014 the highest-stakes uncertainty category assessed.",
+      "recommendations": []
+    },
+    "D5": {
+      "rationale": "Handbook text provided gives no explicit evidence of dedicated AI curriculum content; clinical psychology training has historically been slow to formalise AI-tool governance despite growing use of AI-assisted scoring/reporting tools in practice. Score reflects absence of demonstrated coverage, not absence of relevance.",
+      "recommendations": [
+        {
+          "action": "Introduce a dedicated AI-in-clinical-practice module covering AI-assisted scoring/reporting tools, their failure modes, medico-legal liability implications, and governance expectations for registered psychologists",
+          "priority": "P1",
+          "effort": "Medium",
+          "dimRefs": [
+            "D5"
+          ]
+        },
+        {
+          "action": "Require explicit training on critically appraising and supervising AI-drafted clinical report sections before sign-off, given rapid uptake of LLM drafting tools in clinical documentation",
+          "priority": "P2",
+          "effort": "Low",
+          "dimRefs": [
+            "D5"
+          ]
+        }
+      ]
+    },
+    "D6": {
+      "rationale": "APAC-accredited specialist training in clinical neuropsychology \u2014 a narrow, regulated, years-in-the-making specialisation sitting at the intersection of clinical psychology and neuroscience; combined with PhD-level depth in a specific research question.",
+      "recommendations": [
+        {
+          "action": "Expand forensic and medico-legal placement capacity given this is one of the program's most durable, AI-resistant task categories and current demand for expert witnesses is growing",
+          "priority": "P5",
+          "effort": "Medium",
+          "dimRefs": [
+            "D6",
+            "D8"
+          ]
+        }
+      ]
+    },
+    "D7": {
+      "rationale": "Full PhD thesis requiring primary data collection, ethics approval, and defence of methodology under external examination \u2014 the strongest possible research-rigour signal in the rubric, on top of APAC-mandated assessment/research coursework.",
+      "recommendations": []
+    },
+    "D8": {
+      "rationale": "Extensive supervised clinical placements assessing and treating patients with brain disease/injury, plus family and multidisciplinary team engagement \u2014 substantial, sustained clinical/relational accountability is the spine of the professional training component.",
+      "recommendations": [
+        {
+          "action": "Expand forensic and medico-legal placement capacity given this is one of the program's most durable, AI-resistant task categories and current demand for expert witnesses is growing",
+          "priority": "P5",
+          "effort": "Medium",
+          "dimRefs": [
+            "D6",
+            "D8"
+          ]
+        }
+      ]
+    },
+    "D9": {
+      "rationale": "APAC accreditation cycles mandate periodic curriculum review and the program sits within an active clinical/research field with strong outcome tracking through placement supervision; no explicit evidence in the handbook text of a living AI-integration feedback loop.",
+      "recommendations": [
+        {
+          "action": "Formalise a living curriculum review loop tied explicitly to emerging neurotechnology and AI-assisted assessment tools (e.g., digital biomarkers, passive cognitive monitoring), documented against APAC re-accreditation cycles",
+          "priority": "P4",
+          "effort": "Medium",
+          "dimRefs": [
+            "D9"
+          ]
+        },
+        {
+          "action": "Add a structured module on integrating digital cognitive-monitoring and remote/tele-neuropsychology tools into practice, positioning graduates to lead rather than resist technology-enabled service delivery models",
+          "priority": "P6",
+          "effort": "Medium",
+          "dimRefs": [
+            "D3",
+            "D9"
+          ]
+        }
+      ]
+    },
+    "D10": {
+      "rationale": "Psychology registration pathways are well-tracked at a professional-body level (AHPRA/APAC registration data, employment in health) but the handbook text provided does not evidence granular, program-specific destination data beyond field-level norms.",
+      "recommendations": [
+        {
+          "action": "Publish granular program-specific graduate destination data (registration outcomes, endorsement rates, employment sector/setting) in partnership with AHPRA/APAC tracking, closing the outcome-evidence gap",
+          "priority": "P3",
+          "effort": "High",
+          "dimRefs": [
+            "D10"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "rationale": "Rare integration of all three protected capabilities: deep technical/quantitative depth (neuropsychological science + statistics), narrow regulated domain specialisation (clinical neuropsychology), and substantial human/relational + legal accountability (registered clinician, forensic witness) \u2014 very difficult to substitute even partially.",
+      "recommendations": []
+    }
+  }
+}

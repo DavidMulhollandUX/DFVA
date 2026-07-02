@@ -1,0 +1,113 @@
+{
+  "code": "dr-philedp",
+  "programSlug": "dfva-dr-philedp",
+  "byDimension": {
+    "D1": {
+      "rationale": "Combined registered clinical practice (assessment, formulation, therapeutic intervention with children/families) plus independent PhD research \u2014 both are judgment/accountability-bearing from day one, not routine or templated.",
+      "recommendations": []
+    },
+    "D2": {
+      "rationale": "Case formulation integrates developmental theory, family systems, and school context; PhD component requires hypothesis formation and defended constraint reasoning across a full thesis.",
+      "recommendations": [
+        {
+          "action": "Add a research-practice integration unit where PhD candidates apply their thesis research question to a real clinical case series from their placement, tightening the link between the research and professional halves of the degree",
+          "priority": "P4",
+          "effort": "Medium",
+          "dimRefs": [
+            "D2",
+            "D7"
+          ]
+        }
+      ]
+    },
+    "D3": {
+      "rationale": "Psychometric assessment and interpretation, plus PhD-level research methods and statistics (data collection, analysis, defended methodology) \u2014 genuine technical core embedded throughout both program halves.",
+      "recommendations": []
+    },
+    "D4": {
+      "rationale": "Supervised placements require real clinical decisions with children/families under professional accountability; PhD candidature is itself a multi-year live research project with genuine uncertainty.",
+      "recommendations": []
+    },
+    "D5": {
+      "rationale": "Handbook text gives no evidence of explicit AI curriculum, tool governance, or AI-specific ethics content \u2014 generic accreditation/registration language only.",
+      "recommendations": [
+        {
+          "action": "Introduce a dedicated AI literacy and governance module covering AI-assisted psychometric scoring, report drafting, and the ethical/regulatory limits of AI in clinical psychology practice with minors",
+          "priority": "P1",
+          "effort": "Medium",
+          "dimRefs": [
+            "D5"
+          ]
+        },
+        {
+          "action": "Introduce structured training on AI-assisted evidence synthesis (literature review tools) as a supervised skill within the PhD component, explicitly teaching critique of AI-generated summaries rather than passive use",
+          "priority": "P5",
+          "effort": "Low",
+          "dimRefs": [
+            "D5"
+          ]
+        }
+      ]
+    },
+    "D6": {
+      "rationale": "APAC-accredited educational and developmental psychology specialisation with registration eligibility \u2014 deep, narrow, multi-year specialist expertise that cannot be acquired quickly.",
+      "recommendations": []
+    },
+    "D7": {
+      "rationale": "Genuine PhD thesis component requiring primary data generation and methodology defended under formal doctoral examination \u2014 the clearest possible expression of this dimension.",
+      "recommendations": [
+        {
+          "action": "Add a research-practice integration unit where PhD candidates apply their thesis research question to a real clinical case series from their placement, tightening the link between the research and professional halves of the degree",
+          "priority": "P4",
+          "effort": "Medium",
+          "dimRefs": [
+            "D2",
+            "D7"
+          ]
+        }
+      ]
+    },
+    "D8": {
+      "rationale": "Direct therapeutic and educational intervention with children, families, and school systems is core professional competency, not an elective add-on; registration itself certifies this capability.",
+      "recommendations": []
+    },
+    "D9": {
+      "rationale": "APAC accreditation implies periodic curriculum review cycles, but the handbook text gives no specific evidence of a recent AI-related refresh or explicit feedback-loop mechanism.",
+      "recommendations": [
+        {
+          "action": "Formalise a curriculum review cycle tied explicitly to AI tool adoption in psychometric assessment and school-system consultation, with a published review cadence",
+          "priority": "P3",
+          "effort": "Low",
+          "dimRefs": [
+            "D9"
+          ]
+        }
+      ]
+    },
+    "D10": {
+      "rationale": "Registration-linked outcomes (Psychology Board of Australia registration rates, AHPRA data) are generally trackable at a sector level, but the handbook text provides no program-specific granular destination data.",
+      "recommendations": [
+        {
+          "action": "Publish explicit, program-specific transfer statistics (MC-PSYCHED entrants vs DR-PHILEDP transfers vs completions) and post-registration destination data to strengthen the graduate outcome evidence base",
+          "priority": "P2",
+          "effort": "Medium",
+          "dimRefs": [
+            "D10"
+          ]
+        },
+        {
+          "action": "Publish a transparent account of the selection criteria and competitiveness of the Masters-to-PhD transfer, both to manage applicant expectations and to make the durability signal (selective filtering) visible to prospective students and employers",
+          "priority": "P6",
+          "effort": "Low",
+          "dimRefs": [
+            "D10"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "rationale": "Rare triple integration: accredited clinical/relational competency, deep specialist domain knowledge, and independent PhD-level research rigour \u2014 combined via a genuinely competitive selection filter, not merely co-located in one program.",
+      "recommendations": []
+    }
+  }
+}

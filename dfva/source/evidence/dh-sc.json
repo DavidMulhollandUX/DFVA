@@ -1,0 +1,123 @@
+{
+  "code": "dh-sc",
+  "programSlug": "dfva-dh-sc",
+  "byDimension": {
+    "D1": {
+      "rationale": "Not applicable in the normal sense \u2014 there is no entry-level graduate cohort or role pipeline to assess. Scored 0/N/A-leaning-0 per house convention for higher doctorates: this is an examination-only award to already-established researchers, not a training pathway that produces graduates entering roles.",
+      "recommendations": [
+        {
+          "action": "Maintain strict non-coursework, non-cohort framing in all marketing/handbook language to avoid conflating this honorific credential with a taught doctorate, which would invite an inappropriate training-pipeline critique",
+          "priority": "P6",
+          "effort": "Low",
+          "dimRefs": [
+            "D1"
+          ]
+        }
+      ]
+    },
+    "D2": {
+      "rationale": "By definition, a successful DH-SC candidate has already demonstrated field-level systems thinking \u2014 designing research programs, framing novel hypotheses, and reasoning about constraints across a body of work spanning years. This is evidenced, not taught, but it is the single clearest requirement of the examination standard (\"substantial, original contribution\").",
+      "recommendations": []
+    },
+    "D3": {
+      "rationale": "The examined body of work must meet the technical rigour standard of the candidate's scientific discipline as judged by expert examiners; there is no meaningful technical-depth ceiling below \"field-authoritative.\"",
+      "recommendations": []
+    },
+    "D4": {
+      "rationale": "A body of original scientific work by definition involves defending research decisions, methodological trade-offs, and interpretation of ambiguous results under real (not scripted) scrutiny from an examining panel of experts.",
+      "recommendations": []
+    },
+    "D5": {
+      "rationale": "The handbook text contains no reference to AI literacy, governance, or AI-tool competency as an examination criterion. Since candidates are typically senior scientists whose formative training predates current AI tooling, the credential does not test or certify AI governance capability, though many individual candidates will incidentally possess it.",
+      "recommendations": [
+        {
+          "action": "Publish (or reaffirm) explicit examination criteria that require panels to assess AI-assisted vs. AI-independent contribution in submitted bodies of work, protecting the \"originality\" bar as authorship tooling changes",
+          "priority": "P1",
+          "effort": "Medium",
+          "dimRefs": [
+            "D5"
+          ]
+        },
+        {
+          "action": "Add a governance statement to the examiners' brief addressing how AI-assisted literature synthesis and drafting in a candidate's publication record should be weighed, to preserve panel consistency",
+          "priority": "P2",
+          "effort": "Low",
+          "dimRefs": [
+            "D5",
+            "D9"
+          ]
+        }
+      ]
+    },
+    "D6": {
+      "rationale": "\"Authoritative standing in the field of study\" is the explicit examination bar \u2014 this is the maximal expression of domain depth and specialisation in the entire AQF framework (level 10, the highest).",
+      "recommendations": [
+        {
+          "action": "Consider a public citation/impact statement accompanying each award (without compromising panel confidentiality) so external stakeholders can see the evidentiary basis, reinforcing signal value",
+          "priority": "P5",
+          "effort": "Low",
+          "dimRefs": [
+            "D6",
+            "D10"
+          ]
+        }
+      ]
+    },
+    "D7": {
+      "rationale": "The entire credential *is* a research-methods rigour assessment: examiners evaluate whether the candidate has generated and defended primary scientific evidence at a field-authoritative standard over a sustained body of work.",
+      "recommendations": []
+    },
+    "D8": {
+      "rationale": "Not a criterion of the examination; the DH-SC assesses scientific contribution, not interpersonal, ethical-practice, or clinical capability. Score reflects the same \"not assessed\" treatment as other technical/research-only credentials, not a judgement on candidates' actual interpersonal skill.",
+      "recommendations": []
+    },
+    "D9": {
+      "rationale": "There is no curriculum to update \u2014 no coursework, no units, no advisory-board feedback loop, no defined review cycle. This dimension is structurally inapplicable and scores at the floor because the mechanism it measures does not exist for this award type.",
+      "recommendations": [
+        {
+          "action": "Add a governance statement to the examiners' brief addressing how AI-assisted literature synthesis and drafting in a candidate's publication record should be weighed, to preserve panel consistency",
+          "priority": "P2",
+          "effort": "Low",
+          "dimRefs": [
+            "D5",
+            "D9"
+          ]
+        },
+        {
+          "action": "Periodically benchmark the DH-SC examination process against equivalent higher doctorates at peer institutions (Oxford DSc, Cambridge ScD, ANU) to ensure the \"authoritative standing\" bar remains calibrated and does not drift into legacy prestige",
+          "priority": "P4",
+          "effort": "Medium",
+          "dimRefs": [
+            "D9"
+          ]
+        }
+      ]
+    },
+    "D10": {
+      "rationale": "There is no graduate cohort and therefore no destination data, employment outcomes, or salary tracking to publish \u2014 the dimension's underlying object (a cohort of graduates entering the labour market) does not exist for this credential.",
+      "recommendations": [
+        {
+          "action": "Track and publish (even informally) the post-award activity/impact of DH-SC recipients \u2014 invited addresses, continued field leadership, citations to the examined work \u2014 to give the credential a lightweight evidentiary trail despite having no graduate cohort",
+          "priority": "P3",
+          "effort": "Low",
+          "dimRefs": [
+            "D10"
+          ]
+        },
+        {
+          "action": "Consider a public citation/impact statement accompanying each award (without compromising panel confidentiality) so external stakeholders can see the evidentiary basis, reinforcing signal value",
+          "priority": "P5",
+          "effort": "Low",
+          "dimRefs": [
+            "D6",
+            "D10"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "rationale": "The DH-SC is, by construction, the rarest and least substitutable form of academic recognition UniMelb confers \u2014 a peer-examined, field-authoritative judgment on a lifetime of original scientific contribution. No AI system today can perform the expert-panel judgment of \"authoritative standing,\" and reputationally no institution would delegate it.",
+      "recommendations": []
+    }
+  }
+}

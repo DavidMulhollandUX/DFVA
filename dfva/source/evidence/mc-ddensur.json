@@ -1,0 +1,122 @@
+{
+  "code": "mc-ddensur",
+  "programSlug": "dfva-mc-ddensur",
+  "byDimension": {
+    "D1": {
+      "rationale": "Entry-level general dental practice is dominated by hands-on procedural work, diagnosis under a duty of care, and patient-facing judgment from day one of registration \u2014 not templated tasks.",
+      "recommendations": []
+    },
+    "D2": {
+      "rationale": "Treatment planning requires constraint reasoning (patient health status, cost, longevity of restorations, risk of complications) and is formally assessed through clinical case work, but the handbook text does not evidence an explicit, integrated failure-mode-analysis curriculum strand distinct from clinical supervision.",
+      "recommendations": [
+        {
+          "action": "Introduce a dedicated systems-thinking/failure-mode-analysis strand in treatment-planning units (e.g., structured root-cause analysis of complications) with explicit assessment criteria",
+          "priority": "P4",
+          "effort": "Medium",
+          "dimRefs": [
+            "D2"
+          ]
+        }
+      ]
+    },
+    "D3": {
+      "rationale": "The program is built on biomedical science, pharmacology, and clinical technique with practicals and pre-clinical simulation, but the scraped text does not indicate a strong quantitative/data-science core beyond standard biomedical science content.",
+      "recommendations": [
+        {
+          "action": "Strengthen quantitative/data literacy content (e.g., interpreting AI diagnostic confidence scores, basic biostatistics for evidence-based practice) within existing pre-clinical or research units",
+          "priority": "P5",
+          "effort": "Low",
+          "dimRefs": [
+            "D3"
+          ]
+        }
+      ]
+    },
+    "D4": {
+      "rationale": "The final-year private-practice-like clinical placement at the Royal Dental Hospital of Melbourne, with increasing real patient treatment responsibility, is precisely the kind of live, accountable, high-stakes decision-making the rubric rewards at the top band.",
+      "recommendations": []
+    },
+    "D5": {
+      "rationale": "No explicit AI/governance curriculum content is evidenced in the handbook text; AI diagnostic-imaging and treatment-planning tools are increasingly material to general dental practice, but nothing in the scraped description indicates the program formally teaches supervision, critique, or governance of such tools.",
+      "recommendations": [
+        {
+          "action": "Add a formal AI-in-dentistry module covering diagnostic-imaging AI (e.g., Overjet/Pearl-style tools), AI treatment-planning support, limitations, and clinician override/accountability",
+          "priority": "P1",
+          "effort": "Medium",
+          "dimRefs": [
+            "D5"
+          ]
+        },
+        {
+          "action": "Formalise AI-governance content within the required research project (e.g., a case study critiquing an AI diagnostic tool's evidence base) to link D5 and D7",
+          "priority": "P6",
+          "effort": "Low",
+          "dimRefs": [
+            "D5",
+            "D7"
+          ]
+        },
+        {
+          "action": "Add a capstone reflective module on the future scope of AI-augmented general practice, preparing graduates to supervise and critique AI workflows in their own future practices",
+          "priority": "P7",
+          "effort": "Medium",
+          "dimRefs": [
+            "D5"
+          ]
+        }
+      ]
+    },
+    "D6": {
+      "rationale": "Dentistry is a deep, statutorily regulated clinical specialisation requiring registration with Dental Practice Boards across Australia and New Zealand \u2014 the definition of durable, non-interchangeable expertise.",
+      "recommendations": []
+    },
+    "D7": {
+      "rationale": "The program includes a required research-based project, meaning graduates design, conduct, and defend original research as a compulsory component, not an elective add-on.",
+      "recommendations": [
+        {
+          "action": "Formalise AI-governance content within the required research project (e.g., a case study critiquing an AI diagnostic tool's evidence base) to link D5 and D7",
+          "priority": "P6",
+          "effort": "Low",
+          "dimRefs": [
+            "D5",
+            "D7"
+          ]
+        }
+      ]
+    },
+    "D8": {
+      "rationale": "Direct, hands-on clinical patient treatment culminating in a private-practice-like final year is substantial, accountable, physical/relational clinical practice \u2014 the top band of this dimension.",
+      "recommendations": []
+    },
+    "D9": {
+      "rationale": "No evidence in the scraped text of a recent structured curriculum refresh or explicit AI-in-core-units content; the described structure (extended year-long subjects, calendar outside standard semesters) suggests a stable but not clearly demonstrated as an actively AI-updated curriculum.",
+      "recommendations": [
+        {
+          "action": "Establish and document a formal curriculum advisory/review cycle with dated refresh evidence, explicitly incorporating emerging clinical AI tools",
+          "priority": "P3",
+          "effort": "Medium",
+          "dimRefs": [
+            "D9"
+          ]
+        }
+      ]
+    },
+    "D10": {
+      "rationale": "The handbook text provided contains no destination/employment outcome data; registration as a dental practitioner strongly implies near-universal employment, but this is inferred, not evidenced by published granular outcome data in the source text.",
+      "recommendations": [
+        {
+          "action": "Publish structured, granular graduate outcome data (registration rates, time-to-first-position, geographic distribution, specialisation pathways) via careers/QILT-aligned reporting",
+          "priority": "P2",
+          "effort": "Low",
+          "dimRefs": [
+            "D10"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "rationale": "The DDS combines deep biomedical/technical depth, a statutory clinical specialisation, hands-on physical skill, and a compulsory original-research component \u2014 a rare integration that strongly resists AI substitution.",
+      "recommendations": []
+    }
+  }
+}

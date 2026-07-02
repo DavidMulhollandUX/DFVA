@@ -1,0 +1,112 @@
+{
+  "code": "dr-philagr",
+  "programSlug": "dfva-dr-philagr",
+  "byDimension": {
+    "D1": {
+      "rationale": "Entry pathways (research scientist, agtech R&D, government agronomist) require field judgment, physical trial execution, and biological troubleshooting from day one \u2014 not templated, automatable tasks",
+      "recommendations": [
+        {
+          "action": "Create an agtech/industry placement or internship option mid-candidature to strengthen the applied R&D pathway signal to prospective employers",
+          "priority": "P7",
+          "effort": "High",
+          "dimRefs": [
+            "D1"
+          ]
+        }
+      ]
+    },
+    "D2": {
+      "rationale": "A PhD is by definition an extended exercise in hypothesis formation, experimental design under real biological/environmental constraints, and defence of trade-offs at confirmation and final examination",
+      "recommendations": []
+    },
+    "D3": {
+      "rationale": "Agricultural science research demands genuine statistical/quantitative depth (biometrics, experimental design, increasingly genomics/remote-sensing data science) embedded throughout candidature, assessed via thesis and publication",
+      "recommendations": [
+        {
+          "action": "Add a data-science/precision-agriculture technical stream (remote sensing, genomics pipelines, ML for phenotyping) as an explicit elective/skills pathway",
+          "priority": "P5",
+          "effort": "Medium",
+          "dimRefs": [
+            "D3"
+          ]
+        }
+      ]
+    },
+    "D4": {
+      "rationale": "Field research under uncontrolled weather, seasonal, and biological variability is inherently high-uncertainty; candidates must defend real methodological trade-offs, not scripted responses",
+      "recommendations": []
+    },
+    "D5": {
+      "rationale": "No explicit AI/governance curriculum component is evidenced in handbook text; AI tool use is left to individual supervisory culture rather than structured training \u2014 a gap for a research-training program in 2026",
+      "recommendations": [
+        {
+          "action": "Introduce a mandatory AI-in-research-methods module covering AI-assisted literature synthesis, statistical/ML tooling limits, and responsible-use policy for thesis work",
+          "priority": "P1",
+          "effort": "Medium",
+          "dimRefs": [
+            "D5"
+          ]
+        },
+        {
+          "action": "Build an AI-tool-use disclosure and governance norm into thesis submission (mirroring emerging journal policies) so graduates leave with practised AI governance literacy",
+          "priority": "P6",
+          "effort": "Low",
+          "dimRefs": [
+            "D5"
+          ]
+        }
+      ]
+    },
+    "D6": {
+      "rationale": "A 4-year PhD produces deep, durable specialist expertise in a specific agricultural sub-domain (e.g., crop physiology, soil science, animal genetics) \u2014 the definition of hard-to-substitute specialisation",
+      "recommendations": []
+    },
+    "D7": {
+      "rationale": "Candidates generate primary empirical data (field trials, lab assays) and must defend methodology under supervisory and examiner scrutiny \u2014 the core assessed competency of the degree",
+      "recommendations": []
+    },
+    "D8": {
+      "rationale": "Meaningful stakeholder engagement exists (industry co-funded projects, grower/extension interaction, supervisory relationships) but is not a formally assessed core competency the way clinical/care disciplines require",
+      "recommendations": [
+        {
+          "action": "Formalise stakeholder/extension communication as an assessed competency (e.g., a grower/industry presentation component at confirmation or final seminar)",
+          "priority": "P4",
+          "effort": "Low",
+          "dimRefs": [
+            "D8"
+          ]
+        }
+      ]
+    },
+    "D9": {
+      "rationale": "No evidence of structured feedback loops or AI-aware curriculum refresh; research training structure is traditionally supervisor-led rather than centrally updated against emerging AI/data-science skills",
+      "recommendations": [
+        {
+          "action": "Establish a structured curriculum/supervisory review cycle (annual, with industry advisory input from GRDC/AWI/MLA/agtech partners) to keep methods training current",
+          "priority": "P2",
+          "effort": "Medium",
+          "dimRefs": [
+            "D9"
+          ]
+        }
+      ]
+    },
+    "D10": {
+      "rationale": "No granular destination data (roles/industries/salary/time-to-employment) is published for this specific program in the handbook; general UoM PhD outcome tracking is not discipline-specific enough to score higher",
+      "recommendations": [
+        {
+          "action": "Publish granular graduate destination data (role, employer sector, time-to-placement) for Agricultural Sciences PhD completions specifically, not aggregate UoM PhD stats",
+          "priority": "P3",
+          "effort": "Low",
+          "dimRefs": [
+            "D10"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "rationale": "Combines technical/quantitative depth, deep agricultural domain expertise, and field/physical judgment in a way that strongly resists AI substitution \u2014 a rare integration",
+      "recommendations": []
+    }
+  }
+}

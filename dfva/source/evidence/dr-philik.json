@@ -1,0 +1,121 @@
+{
+  "code": "dr-philik",
+  "programSlug": "dfva-dr-philik",
+  "byDimension": {
+    "D1": {
+      "rationale": "Graduate pathways (academic/research institute leadership, community leadership, policy advisory) require accountability, cultural authority, and relational trust from day one; none are templated or routine \u2014 the underlying research training scaffold is one of the least automatable in the university",
+      "recommendations": []
+    },
+    "D2": {
+      "rationale": "The IKI cross-disciplinary structure explicitly requires candidates to frame research questions that bridge Western and Indigenous knowledge systems, reason about constraints (community protocols, sovereignty, ethics) alongside disciplinary method, and defend trade-offs across the confirmation/milestone review process \u2014 integrated, not templated",
+      "recommendations": []
+    },
+    "D3": {
+      "rationale": "Depth is real but highly variable across the cohort since candidates sit in disparate home disciplines (Science, Engineering/IT, Law, Health, Arts); scored as \"solid grounding\" structurally, acknowledging some candidates (e.g., in quantitative sciences) will exceed this and others (e.g., Law, Arts) will use different but equally rigorous methodological depth",
+      "recommendations": [
+        {
+          "action": "Introduce a light technical-methods \"bridging\" elective for candidates whose home discipline is technically thin, to lift baseline D3 consistency across the cohort",
+          "priority": "P6",
+          "effort": "Medium",
+          "dimRefs": [
+            "D3"
+          ]
+        }
+      ]
+    },
+    "D4": {
+      "rationale": "Community-controlled research requires candidates to navigate live, high-stakes trade-offs (what may be recorded, published, or shared; how to balance academic requirements against community sovereignty) with real accountability to knowledge holders \u2014 not scripted or simulated",
+      "recommendations": []
+    },
+    "D5": {
+      "rationale": "The generic handbook text and program structure show no explicit AI curriculum component; nothing indicates candidates are formally trained to deploy, supervise, or critique AI workflows \u2014 an area of genuine curriculum gap despite the degree's strength elsewhere",
+      "recommendations": [
+        {
+          "action": "Add a mandatory AI literacy and governance module to the cross-disciplinary research methods component \u2014 covering AI's role/limits in literature synthesis, transcription, and analysis, plus governance implications for Indigenous data sovereignty when AI tools touch community data",
+          "priority": "P1",
+          "effort": "Medium",
+          "dimRefs": [
+            "D5"
+          ]
+        },
+        {
+          "action": "Formalise an explicit \"AI and Indigenous Data Sovereignty\" policy statement co-developed with community partners, addressing whether/how generative AI tools may touch ICIP-protected or community-consented data",
+          "priority": "P3",
+          "effort": "Medium",
+          "dimRefs": [
+            "D5",
+            "D8"
+          ]
+        }
+      ]
+    },
+    "D6": {
+      "rationale": "Combines deep discipline-specific specialisation (whatever the home field) with a rare, non-substitutable secondary specialisation in Indigenous knowledge systems, protocols, and methodology \u2014 this dual depth takes years to build and is not interchangeable with a standard disciplinary PhD",
+      "recommendations": []
+    },
+    "D7": {
+      "rationale": "Candidates must design and conduct original primary research and defend both conventional disciplinary methodology and Indigenous research methodology under examination \u2014 this is a primary-evidence-generating doctorate by definition, with rigour tested at confirmation and final oral examination",
+      "recommendations": []
+    },
+    "D8": {
+      "rationale": "Relational, ethical, and cultural accountability to knowledge holders and community is not a peripheral ethics module but the structural core of the research process itself \u2014 substantial, examined, and central",
+      "recommendations": [
+        {
+          "action": "Formalise an explicit \"AI and Indigenous Data Sovereignty\" policy statement co-developed with community partners, addressing whether/how generative AI tools may touch ICIP-protected or community-consented data",
+          "priority": "P3",
+          "effort": "Medium",
+          "dimRefs": [
+            "D5",
+            "D8"
+          ]
+        }
+      ]
+    },
+    "D9": {
+      "rationale": "The Indigenous Knowledge Institute is a relatively recent, actively-evolving initiative reflecting growing institutional investment (dedicated coordination, cross-faculty design), but the sparse public handbook text and no visible evidence of an AI-specific curriculum refresh caps this below the top band",
+      "recommendations": [
+        {
+          "action": "Publish a clearer, discipline-agnostic public overview of the cross-disciplinary supervisory and milestone structure (confirmation, mid-candidature review, final oral) to strengthen the D9 currency signal externally",
+          "priority": "P4",
+          "effort": "Low",
+          "dimRefs": [
+            "D9"
+          ]
+        },
+        {
+          "action": "Formalise cross-disciplinary peer cohort structures (since candidates are dispersed across faculties) so the IKI cohort experience itself becomes a documented, defensible feature of curriculum currency",
+          "priority": "P7",
+          "effort": "Low",
+          "dimRefs": [
+            "D9"
+          ]
+        }
+      ]
+    },
+    "D10": {
+      "rationale": "No granular published destination data specific to this pathway (roles, institutions, salary, time-to-placement) is available in the handbook or public university reporting \u2014 a real evidence gap common to smaller specialist doctorates",
+      "recommendations": [
+        {
+          "action": "Publish a public IKI graduate destination register (roles, sector, institution type, time-to-placement) updated annually, distinct from generic university-wide PhD outcome surveys",
+          "priority": "P2",
+          "effort": "Low",
+          "dimRefs": [
+            "D10"
+          ]
+        },
+        {
+          "action": "Establish a structured alumni network/case-study series profiling graduates now in academic, community leadership, and policy roles \u2014 doubling as market-signal evidence and recruitment material",
+          "priority": "P5",
+          "effort": "Medium",
+          "dimRefs": [
+            "D10"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "rationale": "Rare integration of all three: deep discipline-specific technical/scholarly expertise, a second irreplaceable specialisation in Indigenous knowledge systems and community-controlled methodology, and human judgment/relational authority that is the explicit basis of the degree's legitimacy \u2014 the cross-disciplinary design also means graduates carry a portable, non-substitutable credential across academia, community leadership, and policy roles simultaneously",
+      "recommendations": []
+    }
+  }
+}
