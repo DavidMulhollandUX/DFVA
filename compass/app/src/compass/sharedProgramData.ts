@@ -1,3 +1,6 @@
+/** Bump on every PROGRAMS change to invalidate stale client caches. */
+export const CACHE_VERSION = 2;
+
 export interface DimensionScore {
   label: string;
   score: number;
