@@ -18,16 +18,18 @@ Wasp/OpenSaaS app for assessing university program viability against AI-driven l
 - `reports/` — Generated assessment reports (markdown)
 
 ## Development
+The local Postgres runs via Apple's `container` CLI (not Docker / `wasp start db`):
 ```bash
-cd compass/app && wasp start db   # terminal 1 — managed Postgres (container wasp-dev-db-OpenSaaS-fc3b171ec3, host port 5432)
+container system start            # once per login (or: brew services start container)
+scripts/dev-db.sh start           # terminal 1 — Postgres on 127.0.0.1:5432 (container `dfva-pg`)
 cd compass/app && wasp start      # terminal 2 — server :3001, client :3000
 ```
-Mock service is active by default (DFVA_MOCK=true). Set DFVA_MOCK=false to use real pipeline.
+`DATABASE_URL` is set in `.env.server`, so Wasp runs in **custom-db mode** — use `wasp start`, never `wasp start db` (it refuses when DATABASE_URL is present). Mock service is active by default (DFVA_MOCK=true); set DFVA_MOCK=false for the real pipeline.
 
-**Database gotchas (learned 2026-06-10):**
-- Do NOT define `DATABASE_URL` in `.env.server` — its presence switches Wasp to custom-db mode, which makes `wasp start db` refuse to run and `wasp db migrate-dev` fail its connectivity check. For direct Prisma CLI use, export it in the shell instead (user `postgresWaspDevUser`, db `OpenSaaS-fc3b171ec3`, port 5432).
-- `wasp db migrate-dev`'s "Can not connect to database" check can fail even when the DB is reachable (wasp 0.22.0 quirk); the server itself connects fine. If `npx prisma migrate status` says "up to date", `wasp start` is sufficient.
-- A second, stale container `wasp-dev-db-compass` (host port 5433) exists from an earlier setup; the live one is `wasp-dev-db-OpenSaaS-fc3b171ec3` on 5432.
+**Database notes:**
+- DB lives in the Apple-`container` Postgres `dfva-pg` (creds in `scripts/dev-db.sh`; data persists at `~/.dfva/pgdata`). Connection: `postgresql://postgresWaspDevUser:postgresWaspDevPass@localhost:5432/OpenSaaS-fc3b171ec3`.
+- After a Mac reboot the loopback publish rule is dropped — re-run `scripts/dev-db.sh start` (and `container system start` if the service is down).
+- `wasp db migrate-dev`'s "Can not connect to database" check can falsely fail (wasp 0.22.0 quirk); the server connects fine. For migrations prefer `DATABASE_URL=… npx prisma migrate dev --schema .wasp/out/db/schema.prisma`. If `prisma migrate status` is up to date, `wasp start` is sufficient.
 
 ## Rules
 - Use conventional commits (feat:, fix:, refactor:, docs:, chore:)

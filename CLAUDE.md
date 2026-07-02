@@ -1,16 +1,17 @@
 # DFVA
 
 **Tech stack:** TypeScript (scripts), Wasp 0.22 (compass app), Prisma (PostgreSQL), React 19
-**Key constraint:** Handbook scraper blocked by anti-bot. DFVA_MOCK=true in dev.
+**Key constraint:** Handbook scraper UNBLOCKED (2026-07-01) — Crawl4AI bypasses anti-bot. Use `PYTHONPATH="" bash ~/.hermes/scripts/crawl4ai_scrape.sh "<url>"` for handbook extraction.
 **See:** compass/app/README.md
 
 ## Quick start
 ```bash
-cd compass/app
-wasp start             # single command — manages DB, server (3001), client (3000)
+container system start         # once per login (Apple `container` runtime)
+scripts/dev-db.sh start        # Postgres on localhost:5432 (replaces Docker / `wasp start db`)
+cd compass/app && wasp start   # server (3001) + client (3000)
 ```
-**DB:** Wasp's managed PostgreSQL (Docker). `DATABASE_URL` in `.env.server` is required for direct Prisma commands.
-**Migrations:** `echo "name" | wasp db migrate-dev` (DB must be running: `wasp start db` in another terminal).
+**DB:** Postgres runs via Apple's `container` CLI (container `dfva-pg`, data at `~/.dfva/pgdata`). `DATABASE_URL` is set in `.env.server`, so Wasp is in custom-db mode — use `wasp start`, never `wasp start db`.
+**Migrations:** `DATABASE_URL=… npx prisma migrate dev --schema compass/app/.wasp/out/db/schema.prisma` (DB running via `scripts/dev-db.sh start`).
 **Smoke test runbook:** `.hermes/smoke-test-runbook.md`
 **Env:** `.env.server` has DFVA_MOCK=true + dummy keys for OpenSaaS services (OpenAI, Stripe, S3) + DATABASE_URL.
 
@@ -18,6 +19,9 @@ wasp start             # single command — manages DB, server (3001), client (3
 Part of the SXD-Github workspace at University of Melbourne.
 COMPASS = COMputational Program Assessment & Strategy System. 
 DFVA = Degree Future-Viability Assessment — the scoring methodology.
+
+## Brand
+**Evidura** is the selected master brand (replaces the working name "COMPASS"); domain `evidura.ai`. Architecture: **Evidura** (brand/platform) → **Durability Rating** (consumer-facing signal: score + Resilient→Critical bands) → **DFVA** (internal methodology/engine, not used in external copy). Assets + design tokens: `brand/evidura/` ([guide](brand/evidura/README.md)). Strategy/naming/logo: `docs/compass-brand-strategy.md`, `docs/compass-naming.md`, `docs/evidura-logo.md`. App rollout: `docs/evidura-brand-implementation-plan.md`. Public launch gated on trademark clearance (naming DD §4); the in-repo/in-dev rebrand is not.
 
 ## Rules
 - Use conventional commits (feat:, fix:, refactor:, docs:, chore:)
@@ -52,3 +56,11 @@ cd compass/mcp && npm run dev
 - Hermes skills: ~/.hermes/skills/
 - Claude Code skills: ~/.claude/skills/
 - Vault: ~/Documents/Claude/
+
+## Session startup
+Read `.claude/.session_context.txt` before exploring. Do not `ls`/`find`/`grep` — the overview script already captured the project structure.
+
+## Model tiering
+- **Opus (deepseek-v4-pro)**: MCP design, scoring methodology, complex analysis
+- **Sonnet (deepseek-chat)**: feature builds, UI fixes, test writing, lint fixes
+- Default to Sonnet unless the task requires architectural reasoning

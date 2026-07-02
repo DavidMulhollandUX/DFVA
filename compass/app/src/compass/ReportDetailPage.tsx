@@ -45,7 +45,6 @@ import { generateMockSyllabus } from "./mockSyllabusData";
 import { RUBRIC, Dimension } from "./data/rubric";
 import { DIMENSION_EVIDENCE, DimensionEvidence } from "./data/dimensionEvidence";
 import { getFieldForCourse } from "./marketData";
-import CompetitiveIntelCard from "./components/CompetitiveIntelCard";
 
 const riskBandStyles: Record<string, string> = {
   RESILIENT:
@@ -329,10 +328,6 @@ function ShiftDriftChart() {
             </text>
           ))}
         </svg>
-        {/* Competitive intelligence card */}
-        <div className="mt-12 border-t border-border pt-8">
-          <CompetitiveIntelCard />
-        </div>
       </div>
     </div>
   );

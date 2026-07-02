@@ -1,6 +1,25 @@
-# DFVA Skill Package
+![Evidura](brand/evidura/evidura-lockup-horizontal.svg)
 
-This repository contains a reusable VS Code DFVA skill package for running Degree Future-Viability Assessor (DFVA) reports.
+# Evidura
+
+**The independent durability rating for university degrees** — *durability, made visible.*
+
+Evidura is the selected master brand for this venture (domain `evidura.ai`), replacing the working name "COMPASS". It scores whether a degree will hold its economic value in an AI-shaped labour market, and turns that into a trusted, comparable signal at the point of decision.
+
+**Brand architecture:** **Evidura** (brand / platform) → **Durability Rating** (the consumer-facing score + Resilient→Critical bands) → **DFVA** — Degree Future-Viability Assessment (the internal methodology that produces the rating; not used in external copy).
+
+### What's in this repo
+- `compass/app/` — the Wasp 0.22 / OpenSaaS web app (`wasp start`).
+- `brand/evidura/` — brand assets + design tokens ([brand guide](brand/evidura/README.md)).
+- `docs/` — the venture workbook plus the [brand strategy](docs/compass-brand-strategy.md), [naming & trademark DD](docs/compass-naming.md), [logo system](docs/evidura-logo.md), and [app brand-implementation plan](docs/evidura-brand-implementation-plan.md).
+- `compass/mcp/` — the agent-first MCP server (`dfva-mcp`).
+- `.github/` + `.continue/` — the DFVA VS Code skill package (below).
+
+> **Naming note:** workbook files keep the `compass-*` prefix and "COMPASS" still appears across the app and docs; a full rename to Evidura is a phased, clearance-gated step (see the implementation plan). Public launch is gated on trademark clearance (naming DD §4).
+
+## DFVA skill package
+
+This repository also contains a reusable VS Code DFVA skill package for running Degree Future-Viability Assessor (DFVA) reports.
 
 It includes implemented slash commands for both GitHub Copilot Chat and Continue so you can run DFVA as `/dfva`, generate market signals as `/dfva-market`, and generate post-assessment recommendations with `/dfva-recommend`.
 

@@ -1,0 +1,7 @@
+<!-- Evidura — favicon (Strata-E, tightened for 16px). Ink on light; set color #F4F2EC for dark. -->
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Evidura" style="color:#0F2236">
+  <title>Evidura</title>
+  <rect x="14" y="26" width="72" height="13" rx="6.5" fill="#E9A23B"/>
+  <rect x="14" y="43" width="50" height="13" rx="6.5" fill="currentColor"/>
+  <rect x="14" y="61" width="72" height="13" rx="6.5" fill="currentColor"/>
+</svg>

@@ -1,0 +1,51 @@
+/* Evidura — brand design tokens (single source of truth).
+   Import this once at app root; map Tailwind theme + components to these vars.
+   Rule: Ink for text, Signal (amber) for accents/fills only — never amber body text on Paper. */
+
+:root {
+  /* ---- Core palette ---- */
+  --evidura-ink:    #0F2236;  /* primary: text, structural shapes, dark surfaces */
+  --evidura-signal: #E9A23B;  /* the single accent — "the signal made visible" */
+  --evidura-paper:  #F4F2EC;  /* warm off-white background / reversed ink (not #FFF) */
+  --evidura-slate:  #5C7088;  /* secondary text / UI chrome */
+
+  /* ---- Tints & shades ---- */
+  --evidura-ink-900:    #0A1828;  /* deepest — footers, overlays */
+  --evidura-ink-700:    #1B3554;  /* hovers, borders on dark */
+  --evidura-ink-100:    #DDE3EB;  /* hairlines, dividers on light */
+  --evidura-signal-700: #B97E26;  /* accessible amber for text/links on Paper (≥4.5:1) */
+  --evidura-paper-200:  #E7E3D8;  /* secondary surfaces on light */
+
+  /* ---- Rating-band scale (Resilient → Critical). Product UI only. ---- */
+  --evidura-band-resilient: #1F9D6B;
+  --evidura-band-moderate:  #E9A23B;  /* == signal */
+  --evidura-band-high:      #E0742F;
+  --evidura-band-critical:  #C7433A;
+
+  /* ---- Semantic aliases ---- */
+  --evidura-bg:     var(--evidura-paper);
+  --evidura-fg:     var(--evidura-ink);
+  --evidura-accent: var(--evidura-signal);
+  --evidura-muted:  var(--evidura-slate);
+  --evidura-border: var(--evidura-ink-100);
+
+  /* ---- Type ---- */
+  --evidura-font-sans:  'Inter', 'SF Pro Display', -apple-system, 'Segoe UI', system-ui, sans-serif;  /* UI + wordmark */
+  --evidura-font-serif: 'Fraunces', Georgia, 'Times New Roman', serif;  /* editorial / marketing display only */
+  --evidura-font-mono:  'Source Code Pro', ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* ---- Radius ---- */
+  --evidura-radius-sm:   6px;
+  --evidura-radius-md:   12px;
+  --evidura-radius-lg:   20px;
+  --evidura-radius-pill: 999px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --evidura-bg:     var(--evidura-ink);
+    --evidura-fg:     var(--evidura-paper);
+    --evidura-muted:  #8FA3B8;
+    --evidura-border: var(--evidura-ink-700);
+  }
+}

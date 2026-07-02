@@ -1,0 +1,11 @@
+<!-- Evidura — stacked lockup (mark over wordmark). Ink on light; set color #F4F2EC for dark. -->
+<svg viewBox="0 0 360 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Evidura — durability, made visible" style="color:#0F2236">
+  <title>Evidura</title>
+  <g transform="translate(120,28)">
+    <rect x="0" y="0"  width="120" height="18" rx="9" fill="#E9A23B"/>
+    <rect x="0" y="33" width="84"  height="18" rx="9" fill="currentColor"/>
+    <rect x="0" y="66" width="120" height="18" rx="9" fill="currentColor"/>
+  </g>
+  <text x="180" y="178" text-anchor="middle" font-family="'Inter','SF Pro Display',system-ui,sans-serif" font-size="64" font-weight="600" letter-spacing="-1.2" fill="currentColor">Evidura</text>
+  <text x="180" y="208" text-anchor="middle" font-family="'Inter',system-ui,sans-serif" font-size="14" font-weight="600" letter-spacing="3" fill="currentColor" opacity="0.55">DURABILITY, MADE VISIBLE</text>
+</svg>

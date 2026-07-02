@@ -13,6 +13,7 @@ import {
 import { throttleWithTrailingInvocation } from "../../../shared/utils";
 import { UserDropdown } from "../../../user/UserDropdown";
 import { UserMenuItems } from "../../../user/UserMenuItems";
+import { brand } from "../../../branding/brandConfig";
 import { cn } from "../../utils";
 import DarkModeSwitcher from "../DarkModeSwitcher";
 
@@ -82,7 +83,7 @@ export default function NavBar({
                     },
                   )}
                 >
-                  COMPASS
+                  {brand.name}
                 </span>
               </WaspRouterLink>
 
@@ -175,7 +176,7 @@ function NavBarMobileMenu({
           <SheetHeader>
             <SheetTitle className="flex items-center">
               <WaspRouterLink to={routes.LandingPageRoute.to}>
-                <span className="sr-only">COMPASS</span>
+                <span className="sr-only">{brand.name}</span>
                 <NavLogo isScrolled={false} />
               </WaspRouterLink>
             </SheetTitle>
@@ -240,42 +241,25 @@ function renderNavigationItems(
 }
 
 const NavLogo = ({ isScrolled }: { isScrolled: boolean }) => (
-  <CompassSVG size={isScrolled ? 28 : 32} />
+  <EviduraMark size={isScrolled ? 28 : 32} />
 );
 
-function CompassSVG({ size }: { size: number }) {
+// Strata-E primary mark (brand/evidura/evidura-mark.svg). Ink bars use currentColor
+// so the mark inherits nav text colour; top bar is the fixed Signal amber.
+function EviduraMark({ size }: { size: number }) {
   return (
     <svg
       width={size}
       height={size}
-      viewBox="0 0 32 32"
+      viewBox="0 0 200 200"
       fill="none"
-      aria-hidden="true"
-      className="transition-all duration-500 shrink-0"
+      role="img"
+      aria-label={brand.name}
+      className="shrink-0 transition-all duration-500"
     >
-      {/* Outer ring */}
-      <circle cx="16" cy="16" r="13.5" stroke="currentColor" strokeWidth="1.5" strokeOpacity="0.4" />
-      {/* North tick — orange, most prominent */}
-      <line x1="16" y1="3.5" x2="16" y2="8" stroke="#f97316" strokeWidth="2" strokeLinecap="round" />
-      {/* E / S / W cardinal ticks */}
-      <line x1="28.5" y1="16" x2="24" y2="16" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeOpacity="0.45" />
-      <line x1="16" y1="28.5" x2="16" y2="24" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeOpacity="0.45" />
-      <line x1="3.5" y1="16" x2="8" y2="16" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeOpacity="0.45" />
-      {/* Intercardinal ticks — subtle */}
-      <line x1="25.55" y1="6.45" x2="24.49" y2="7.51" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeOpacity="0.25" />
-      <line x1="25.55" y1="25.55" x2="24.49" y2="24.49" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeOpacity="0.25" />
-      <line x1="6.45" y1="25.55" x2="7.51" y2="24.49" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeOpacity="0.25" />
-      <line x1="6.45" y1="6.45" x2="7.51" y2="7.51" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeOpacity="0.25" />
-      {/* Compass needle rotated 20° CW — looks actively in use */}
-      <g transform="rotate(20 16 16)">
-        {/* North half — orange */}
-        <polygon points="16,5.5 13.5,16 18.5,16" fill="#f97316" />
-        {/* South half — muted */}
-        <polygon points="16,26.5 13.5,16 18.5,16" fill="currentColor" fillOpacity="0.2" />
-      </g>
-      {/* Center bearing */}
-      <circle cx="16" cy="16" r="2.5" fill="#f97316" />
-      <circle cx="16" cy="16" r="1" fill="white" />
+      <rect x="40" y="58" width="120" height="18" rx="9" fill="#E9A23B" />
+      <rect x="40" y="91" width="84" height="18" rx="9" fill="currentColor" />
+      <rect x="40" y="124" width="120" height="18" rx="9" fill="currentColor" />
     </svg>
   );
 }
