@@ -709,10 +709,12 @@ function renderMarkdownAsPanels(markdown: string) {
             <span className="w-1 h-3.5 bg-primary rounded-full shrink-0" />
             {section.title}
           </h3>
-          <div className="prose prose-sm dark:prose-invert max-w-none prose-table:text-xs prose-th:font-semibold prose-td:align-top prose-headings:text-sm prose-headings:font-bold">
+          <div className="overflow-x-auto rounded-lg border border-border">
+            <div className="prose prose-sm dark:prose-invert max-w-none prose-table:text-xs prose-table:border prose-table:border-border prose-th:bg-muted/50 prose-th:px-4 prose-th:py-2 prose-th:font-semibold prose-td:px-4 prose-td:py-2 prose-td:align-top prose-headings:text-sm prose-headings:font-bold [&_td:nth-child(1)]:text-center [&_td:nth-child(3)]:text-right [&_th:nth-child(1)]:text-center [&_th:nth-child(3)]:text-right">
             <ReactMarkdown remarkPlugins={[remarkGfm]}>
               {section.content}
             </ReactMarkdown>
+          </div>
           </div>
         </div>
       ))}

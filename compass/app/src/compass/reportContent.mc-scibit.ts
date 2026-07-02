@@ -278,7 +278,7 @@ The MC-SCIBIT scored **24/36 \u2014 MODERATE RISK (upper band)**. This is the hi
 
 ### 3. MARKET EVIDENCE SNAPSHOT
 
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Impact |
 |---|---|---|---|
 | Regulatory Affairs | CSL, Telix, Pfizer ANZ Q1 2026 adding TGA AI framework literacy; "AI Validation Scientist" \u2014 9 new ANZ postings Q4 2025 | "Regulatory affairs is the safest career in pharma right now \u2014 TGA won't accept AI submissions without human certification" | AI in Biotechnology unit directly addresses; LAWS90003 AI regulatory law module essential |
 | QA and GMP | Pfizer, CSL Behring ANZ Q1 2026: "AI quality management tool familiarity" in QA postings; AI batch record review tools compressing routine work | "The human QA value now is the complex investigation \u2014 the AI catches the simple stuff" | AI governance unit critical; deviation investigation and audit content should be strengthened |

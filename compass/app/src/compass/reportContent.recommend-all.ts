@@ -461,7 +461,7 @@ Five 1/3 scores represent the degree's primary intervention targets: automation 
 ---
 
 ## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Impact |
 |---|---|---|---|
 | UX/Product Designer | Seek ANZ Q1 2026: “Junior UX Designer” postings down 17% YoY; senior UX requiring “AI workflow integration,” “design systems governance,” “accessibility audit experience” | “Junior UX is gone — replaced by Figma AI and a senior designer who knows how to prompt it” | Technical depth unit critical; AI governance unit essential; accessibility and design systems depth needed |
 | Brand / Visual Designer | Creative agency graduate ads adding “AI tool governance,” “creative direction of AI outputs” as new requirements (Q4 2025) | “The junior graphic designer role is a prompt engineer now — the question is whether design schools are training for direction or execution” | AI in Design Practice unit directly addresses |
@@ -582,7 +582,7 @@ The B-Sci scored **23/36 — MODERATE RISK**. Three strong scores (D3, D6, D7: e
 ---
 
 ## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Impact |
 |---|---|---|---|
 | Scientific Research Assistant | CSIRO/Universities: hiring briefs require AI-assisted lit review and research assistant tool audit familiarity | "Junior RAs must bring critical tool verification skills — we cannot publish hallucinated citations" | Mandate tool limitation and NIST AI RMF module in core units |
 | Lab Technician | Biotech/Pharma Q1 2026: automated laboratory setups reducing manual pipetting and logging roles | "Junior lab roles are transforming into assay database curation and script maintenance" | Push for Python/data science elective pathway |
@@ -2797,7 +2797,7 @@ The MC-IS scored **18/36 — HIGH RISK**. One point below the MODERATE RISK thre
 ---
 
 ## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Impact |
 |---|---|---|---|
 | Business Analyst | ANZ job market: entry-level BA roles down 18% YoY; jobs requiring "AI tools and systems architecture integration" up | "The traditional BA writing requirements documents by hand is obsolete; the job now is mapping automated workflows" | Shift SA&D focus toward AI workflow architecture |
 | Systems Consultant | Big 4 consulting: graduate intake expects familiarity with GRC (Governance, Risk, Compliance) software and ISO 42001 | "AI deployment is blocked by governance, not capability; we need graduates who understand compliance and risk" | Add AI Governance and Deployment mandatory core unit |
@@ -3719,7 +3719,7 @@ The MC-SCIBIT scored **24/36 — MODERATE RISK (upper band)**. This is the highe
 ---
 
 ## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Impact |
 |---|---|---|---|
 | Regulatory Affairs | CSL, Telix, Pfizer ANZ Q1 2026 adding TGA AI framework literacy; "AI Validation Scientist" — 9 new ANZ postings Q4 2025 | "Regulatory affairs is the safest career in pharma right now — TGA won't accept AI submissions without human certification" | AI in Biotechnology unit directly addresses; LAWS90003 AI regulatory law module essential |
 | QA and GMP | Pfizer, CSL Behring ANZ Q1 2026: "AI quality management tool familiarity" in QA postings; AI batch record review tools compressing routine work | "The human QA value now is the complex investigation — the AI catches the simple stuff" | AI governance unit critical; deviation investigation and audit content should be strengthened |

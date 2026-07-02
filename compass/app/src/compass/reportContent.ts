@@ -857,7 +857,7 @@ Recent hiring patterns (UX/Product, Brand/Digital Content, Service Design/CX, Bu
 Net exposure remains **high** for graduates focused on template/asset execution; exposure decreases where roles require stakeholder accountability, regulatory interpretation, research rigour, and system-level decision making.
 
 ### 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Implication |
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
 |---|---|---|---|
 | UX/Product Design | Junior postings increasingly request AI-assisted prototyping plus measurable UX outcomes | "Prompt operator" vs "decision owner" remains a dominant theme | Assess decision quality and impact metrics, not just prototype output |
 | Digital Content and Brand | Continued demand for high-volume multi-format output with automation expected | Ongoing concern over commoditisation of pure production tasks | Reduce template-only assessment; add governance and QA evidence requirements |
@@ -1091,7 +1091,7 @@ Key structural features:
 
 ## 3. DFVA SCORECARD
 
-| # | Dimension | Score | Evidence |
+| # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---|---|
 | 1 | Automation Exposure of Roles | 2/3 | Cluster B graduates land in data/computational roles with meaningful judgment requirements; Cluster A and C graduates face higher early-career routine work exposure. Overall: mixed profile — not all templated, but entry is uneven. |
 | 2 | Systems Thinking and Problem Framing | 2/3 | Science methodology teaches hypothesis formation and experimental design — genuine systems thinking. However, integration across the degree varies by major; not all majors embed failure-mode or trade-off reasoning consistently. |
@@ -2078,7 +2078,7 @@ Typical graduate roles include architectural graduate (Graduate of Architecture)
 
 ## 3. DFVA SCORECARD
 
-| # | Dimension | Score | Evidence-based rationale |
+| # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---|---|
 | 1 | Automation Exposure of Roles | 3/3 | Architectural design requires creative synthesis, aesthetic judgment, regulatory compliance, and iterative client negotiation — irreducible human work. ARBV registration requires documented professional practice before sitting the registration exam. |
 | 2 | Systems Thinking and Problem Framing | 3/3 | Design Thesis capstone + studio sequence integrates environmental, technological, regulatory, and project-delivery systems across scales. Studios require trade-off reasoning across structure, material, programme, and site. |
@@ -2397,7 +2397,7 @@ Typical graduate roles include management consultant, strategy manager, product 
 
 ## 3. DFVA SCORECARD
 
-| # | Dimension | Score | Evidence-based rationale |
+| # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---|---|
 | 1 | Automation Exposure of Roles | 1/3 | General management roles involve significant routine analysis, reporting, and coordination — automatable tasks. MBA graduates compete with AI-augmented analysts in the early career pipeline. |
 | 2 | Systems Thinking and Problem Framing | 2/3 | General Management 1+2 cover business systems. MBA Capstone integrates strategy. Systems thinking present but not the primary pedagogical model — breadth over depth. |
@@ -3506,7 +3506,7 @@ Typical graduate roles include data scientist, machine learning engineer, analyt
 
 ## 3. DFVA SCORECARD
 
-| # | Dimension | Score | Evidence-based rationale |
+| # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---|---|
 | 1 | Automation Exposure of Roles | 2/3 | Data scientists/analysts build AI tools rather than being replaced by them. Some routine analysis is automatable but strategic problem framing and business translation resist automation strongly. |
 | 2 | Systems Thinking and Problem Framing | 3/3 | Translating business problems into quantitative form, integrating across statistics/ML/optimisation domains. Causal + predictive + NLP — full quantitative systems toolkit. |
@@ -4369,7 +4369,7 @@ The program splits cleanly into two exposure regimes. **Year 1 coursework** incl
 Graduate destination targets (R&D labs, PhD programmes, high-level tech roles) position graduates in the least-automatable segment of the CS labour market — designing and building AI systems, not executing routine software tasks.
 
 ### 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Implication |
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
 |---|---|---|---|
 | Machine Learning Engineer | Strong demand; roles increasingly require research capability, not just model deployment | "Research maturity" as differentiator vs bootcamp graduates | Year 2 research project directly addresses this signal |
 | AI Research Scientist | PhD typically required; MSc + publication track is an emerging entry path | Growing recognition that research training matters more than credential level | MC-CS positions graduates for this entry path |
@@ -5210,7 +5210,7 @@ Typical graduate roles include environmental lawyer, climate policy advisor, sus
 
 ## 3. DFVA SCORECARD
 
-| # | Dimension | Score | Evidence-based rationale |
+| # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---|---|
 | 1 | Automation Exposure of Roles | 1/3 | Legal research, document review, and compliance analysis are highly AI-automatable. Environmental law requires contextual judgment but core legal tasks are AI-vulnerable at junior levels. |
 | 2 | Systems Thinking and Problem Framing | 2/3 | Environmental law integrates across climate, water, waste, planning, and international regimes. Systems perspective inherent in the multi-jurisdictional nature of environmental problem framing. |
@@ -6899,7 +6899,7 @@ Typical graduate roles include journalist, digital producer, investigative repor
 
 ## 3. DFVA SCORECARD
 
-| # | Dimension | Score | Evidence-based rationale |
+| # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---|---|
 | 1 | Automation Exposure of Roles | 1/3 | Journalism faces extreme AI disruption. Content generation, summarisation, translation, and research synthesis are all highly automatable. The core craft of writing and story production is AI-vulnerable. |
 | 2 | Systems Thinking and Problem Framing | 2/3 | Journalism requires synthesising complex stories across political, social, and institutional systems. Media law, ethics, and press freedom teach systemic perspective on information ecosystems. |
@@ -7748,7 +7748,7 @@ Typical graduate roles include property analyst, valuer, development manager, pr
 
 ## 3. DFVA SCORECARD
 
-| # | Dimension | Score | Evidence-based rationale |
+| # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---|---|
 | 1 | Automation Exposure of Roles | 2/3 | Property valuation and market analysis are increasingly AI-augmented but require physical inspection, client negotiation, and regulatory judgment that creates genuine automation friction. |
 | 2 | Systems Thinking and Problem Framing | 2/3 | Full property cycle: development, investment, finance, valuation, management. Systems integration across the project lifecycle is embedded in the curriculum structure. |
@@ -9397,7 +9397,7 @@ Typical graduate roles include screenwriter, script editor, television staff wri
 
 ## 3. DFVA SCORECARD
 
-| # | Dimension | Score | Evidence-based rationale |
+| # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---|---|
 | 1 | Automation Exposure of Roles | 0/3 | Generative text models can draft scripts, treatments, and dialogue rapidly, putting entry-level commercial screenwriting and content creation roles at extreme risk of automation. |
 | 2 | Systems Thinking and Problem Framing | 1/3 | Focuses on narrative craft and individual script structures rather than larger complex system design or cross-disciplinary problem framing. |
@@ -9965,7 +9965,7 @@ Typical graduate roles include EAL/D classroom teacher, AMEP (Adult Migrant Engl
 
 ## 3. DFVA SCORECARD
 
-| # | Dimension | Score | Evidence-based rationale |
+| # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---|---|
 | 1 | Automation Exposure of Roles | 1/3 | Language teaching faces AI disruption from real-time translation and AI tutoring systems. TESOL demand in some contexts may structurally change as AI language tools improve. |
 | 2 | Systems Thinking and Problem Framing | 2/3 | Curriculum design, language acquisition theory, and education policy integration require systemic perspective on how language learning works across contexts. |
@@ -10560,7 +10560,7 @@ Typical graduate roles include urban horticulturalist, parks and gardens manager
 
 ## 3. DFVA SCORECARD
 
-| # | Dimension | Score | Evidence-based rationale |
+| # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---|---|
 | 1 | Automation Exposure of Roles | 2/3 | Hands-on horticultural work, plant identification, and landscape assessment require physical presence and specialist knowledge. Some design and planning tasks are AI-augmentable. |
 | 2 | Systems Thinking and Problem Framing | 3/3 | Urban horticulture integrates ecology, urban planning, climate adaptation, water management, and social amenity. Systems perspective across environmental and built environment disciplines. |
