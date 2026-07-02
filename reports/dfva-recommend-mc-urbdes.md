@@ -1,28 +1,27 @@
 ## IMPROVEMENT PLAN: Master of Urban Design
 
-**Current:** 26/36 MODERATE RISK | **Duration:** 2 years (200 pts)
-**Target:** 28/36 RESILIENT | **Gap:** 2 points
+**Current:** 25/36 MODERATE RISK | **Duration:** 2 years (200 pts)
+**Target:** 28/36 RESILIENT | **Gap:** 3 points
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The Master of Urban Design scored **26/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
+The Master of Urban Design scored **25/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
 | Automation Exposure | 2/3 | Adequate |
 | Systems Thinking | 3/3 | Strong |
-| Technical Depth | 3/3 | Strong |
+| Technical Depth | 0/3 | Critical gap |
 | Decision-Making | 3/3 | Strong |
-| AI Literacy | 1/3 | Critical gap |
 | AI Literacy | 1/3 | Critical gap |
 | Domain Depth | 3/3 | Strong |
 | Research Rigour | 3/3 | Strong |
-| Human & Relational | 0/3 | Critical gap |
+| Human & Relational | 3/3 | Strong |
 | Curriculum Currency | 2/3 | Adequate |
 | Outcome Evidence | 2/3 | Adequate |
-| Irreplaceability (bonus) | 0/3 | Critical gap |
-| **TOTAL** | **26/36** | **MODERATE RISK** |
+| Irreplaceability (bonus) | 3/3 | Strong |
+| **TOTAL** | **25/36** | **MODERATE RISK** |
 
 ---
 
@@ -31,16 +30,29 @@ The Master of Urban Design scored **26/36 — MODERATE RISK**. Gaps in core dime
 |---|---|---|---|
 | Curriculum Currency | 2/3 | Entry-level skills show automation risk. | Add emerging-trends module updated each intake. |
 | Outcome Evidence | 2/3 | Entry-level skills show automation risk. | Add QILT GOS data + 3-year outcomes to public program information. |
+| Technical Depth | 0/3 | Entry-level skills show automation risk. | Add quantitative methods or data analysis core unit. |
 | AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
 | Automation Exposure | 2/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Architecture & Building Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Architect (19%), Urban and Regional Planner (15%), Architectural Draftsperson (11%), Construction Project Manager (8%), Interior Designer (6%) |
+| Early (~3yr) | Architect (20%), Urban and Regional Planner (16%), Architectural Draftsperson (10%), Construction Project Manager (10%), Interior Designer (7%) |
+| Senior (~5yr) | Architect (21%), Urban and Regional Planner (16%), Construction Project Manager (11%), Architectural Draftsperson (9%), Interior Designer (7%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 75% full-time employment · median salary $84,500 · 3-year employment 95% · JSA occupation demand: **Recruitment Difficulty**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): Woods Bagot, HASSELL, AECOM, Aurecon, Architectus, Cox Architecture, BVN, Colliers (formerly Ethos Urban), Solar Start, CPB Contractors, Lendlease. Advertised salary A$90k–170k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 
@@ -49,6 +61,7 @@ The Master of Urban Design scored **26/36 — MODERATE RISK**. Gaps in core dime
 |---|---|---|---|---|---|---|---|---|
 | 1 | Add emerging-trends module updated each intake | Curriculum Currency | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
 | 2 | Add QILT GOS data + 3-year outcomes to public program information | Outcome Evidence | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Add quantitative methods or data analysis core unit | Technical Depth | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
 
 ---
 
@@ -94,9 +107,3 @@ The Master of Urban Design scored **26/36 — MODERATE RISK**. Gaps in core dime
 
 ## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
 The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
-
----
-
-**Assessment Date:** 2026-06-21
-**Source Report:** reports/dfva-mc-urbdes.md
-**Prompt Version:** DFVA-COPILOT-RECOMMENDER-v1

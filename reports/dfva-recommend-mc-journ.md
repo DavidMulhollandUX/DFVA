@@ -15,13 +15,12 @@ The Master of Journalism scored **20/36 — MODERATE RISK**. Gaps in core dimens
 | Technical Depth | 1/3 | Critical gap |
 | Decision-Making | 2/3 | Adequate |
 | AI Literacy | 1/3 | Critical gap |
-| AI Literacy | 1/3 | Critical gap |
 | Domain Depth | 3/3 | Strong |
 | Research Rigour | 2/3 | Adequate |
 | Human & Relational | 3/3 | Strong |
 | Curriculum Currency | 1/3 | Critical gap |
 | Outcome Evidence | 2/3 | Adequate |
-| Irreplaceability (bonus) | 0/3 | Critical gap |
+| Irreplaceability (bonus) | 2/3 | Adequate |
 | **TOTAL** | **20/36** | **MODERATE RISK** |
 
 ---
@@ -37,14 +36,27 @@ The Master of Journalism scored **20/36 — MODERATE RISK**. Gaps in core dimens
 | Automation Exposure | 1/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
 | AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
 | Research Rigour | 2/3 | Entry-level skills show automation risk. | Replace literature review with primary data collection requirement. |
+| Irreplaceability (bonus) | 2/3 | Entry-level skills show automation risk. | Add regulatory accreditation or professional registration pathway. |
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Creative Arts Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Sales Assistant (General) (12%), Graphic Designer (8%), General Clerk (6%), Public Relations Professional (4%), Marketing Specialist (4%) |
+| Early (~3yr) | Graphic Designer (10%), Sales Assistant (General) (8%), Marketing Specialist (5%), General Clerk (5%), Public Relations Professional (5%) |
+| Senior (~5yr) | Graphic Designer (10%), Sales Assistant (General) (6%), Marketing Specialist (6%), Public Relations Professional (5%), Sales and Marketing Manager (5%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 67% full-time employment · median salary $81,000 · 3-year employment 86% · JSA occupation demand: **Met**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): UNSW Canberra, Cloncurry Shire Council, University of the Sunshine Coast (UniSC), Moree Plains Shire Council, URBAN REPUBLIC PTY LTD, AUSNA & CO Global Education Pty Ltd. Advertised salary A$75k–104k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 
@@ -103,9 +115,3 @@ The Master of Journalism scored **20/36 — MODERATE RISK**. Gaps in core dimens
 
 ## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
 The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
-
----
-
-**Assessment Date:** 2026-06-21
-**Source Report:** reports/dfva-mc-journ.md
-**Prompt Version:** DFVA-COPILOT-RECOMMENDER-v1

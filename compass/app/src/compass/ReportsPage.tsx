@@ -29,6 +29,7 @@ import type { ProgramReport } from "./sharedProgramData";
 import { useReportsData } from "./useReportsData";
 import { getFaculty } from "./faculty";
 
+
 function ScoreGauge({
   score,
   max,
@@ -343,6 +344,7 @@ export default function ReportsPage() {
           Comprehensive curriculum audit reports cataloged by program. Select a card's sub-report link to open the unified Workspace.
         </p>
       </div>
+
 
       <div className="grid grid-cols-1 md:grid-cols-4 gap-6 items-start">
         {/* Left hand side filters */}

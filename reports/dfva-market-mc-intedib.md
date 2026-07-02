@@ -133,3 +133,25 @@ Discourse among IB educators flags the rapid growth of AI-powered IB tutoring pl
 **Assessment Date:** 2026-06-21
 **Source URLs:** https://handbook.unimelb.edu.au/2026/courses/mc-intedib · WEF Future of Jobs 2025 · LinkedIn Workforce Report Q1 2026 · IBO Annual Review 2024 · ISC Research International School Database · Australian Government Labour Market Insights (DEWR) · Seek.com.au trend data · TES Global · EARCOS membership data
 **Prompt Version:** DFVA-COPILOT-MARKET-v1
+
+---
+
+<!-- LABOUR-EVIDENCE:START -->
+## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Primary School Teacher (39%), Secondary School Teacher (27%), School Teachers nfd (4%), Early Childhood (Pre-primary School) Teacher (4%), Child Care Worker (3%) |
+| Early (~3yr) | Primary School Teacher (41%), Secondary School Teacher (29%), Early Childhood (Pre-primary School) Teacher (4%), School Teachers nfd (4%), Child Care Worker (2%) |
+| Senior (~5yr) | Primary School Teacher (42%), Secondary School Teacher (29%), Early Childhood (Pre-primary School) Teacher (4%), School Teachers nfd (3%), Middle School Teacher (Aus) \ Intermediate School Teacher (NZ) (2%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 90% full-time employment · median salary $96,000 · 3-year employment 96% · JSA occupation demand: **Shortage**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): anzuk Education, Tradewind Australia, Randstad Education, Catholic Education Diocese of Bathurst, Catholic Education South Australia (CESA), Sydney Catholic Schools, NSW Department of Education, Department of Education Victoria, Goodstart Early Learning, Anglican Church Grammar School (Churchie), Hume Anglican Grammar, St Luke's Grammar School. Advertised salary A$79.6k–130k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
+<!-- LABOUR-EVIDENCE:END -->

@@ -14,3 +14,16 @@
 *.jpeg
 *.gif
 *.ico
+
+# Job Insights working data: keep the 141 alumni reports (scratch/jobinsights/md/)
+# and the analysis doc (docs/) in the graph; exclude duplicates and tooling.
+scratch/jobinsights/pdf/
+scratch/*.py
+scratch/__pycache__/
+scratch/jobinsights/*.json
+
+# AU job-insights sample (2026-06-21): keep SOURCES.md narrative; exclude data, tooling, raw xlsx.
+scratch/au-jobinsights/*.json
+scratch/au-jobinsights/*.py
+scratch/au-jobinsights/jsa_heo/
+__pycache__/

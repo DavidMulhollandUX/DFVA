@@ -1,28 +1,27 @@
 ## IMPROVEMENT PLAN: Master of Screenwriting
 
-**Current:** 11/36 MODERATE RISK | **Duration:** 1.5 years (150 credit points)
-**Target:** 28/36 RESILIENT | **Gap:** 17 points
+**Current:** 12/36 HIGH RISK | **Duration:** 1.5 years (150 credit points)
+**Target:** 28/36 RESILIENT | **Gap:** 16 points
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The Master of Screenwriting scored **11/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
+The Master of Screenwriting scored **12/36 — HIGH RISK**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
 | Automation Exposure | 0/3 | Critical gap |
 | Systems Thinking | 1/3 | Critical gap |
-| Technical Depth | 0/3 | Critical gap |
+| Technical Depth | 1/3 | Critical gap |
 | Decision-Making | 2/3 | Adequate |
-| AI Literacy | 0/3 | Critical gap |
 | AI Literacy | 0/3 | Critical gap |
 | Domain Depth | 2/3 | Adequate |
 | Research Rigour | 0/3 | Critical gap |
 | Human & Relational | 2/3 | Adequate |
-| Curriculum Currency | 0/3 | Critical gap |
+| Curriculum Currency | 1/3 | Critical gap |
 | Outcome Evidence | 2/3 | Adequate |
 | Irreplaceability (bonus) | 1/3 | Critical gap |
-| **TOTAL** | **11/36** | **MODERATE RISK** |
+| **TOTAL** | **12/36** | **HIGH RISK** |
 
 ---
 
@@ -30,6 +29,8 @@ The Master of Screenwriting scored **11/36 — MODERATE RISK**. Gaps in core dim
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
 | Systems Thinking | 1/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
+| Technical Depth | 1/3 | Entry-level skills show automation risk. | Require technical-elective sequence (3+ units) with applied project. |
+| Curriculum Currency | 1/3 | Entry-level skills show automation risk. | Establish annual curriculum review with industry advisory panel. |
 | Decision-Making | 2/3 | Entry-level skills show automation risk. | Add capstone project requiring documented decision rationale. |
 | Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |
 | Outcome Evidence | 2/3 | Entry-level skills show automation risk. | Add QILT GOS data + 3-year outcomes to public program information. |
@@ -41,11 +42,23 @@ The Master of Screenwriting scored **11/36 — MODERATE RISK**. Gaps in core dim
 
 ---
 
-## 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Impact |
-|---|---|---|---|
-| Creative Arts Specialist | Seek ANZ: postings requiring AI tool validation and governance skills up 20% YoY | "Entry-level execution is being automated; graduates must bring tool verification capabilities" | Integrate tool evaluation modules in core classes |
-| Generalist Practitioner | High substitution risk in routine document-production roles | "Junior roles are transitioning to workflow oversight and client advisory duties" | Implement client-facing capstone projects |
+## 3. REAL GRADUATE DESTINATIONS & MARKET DEMAND
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Sales Assistant (General) (12%), Graphic Designer (8%), General Clerk (6%), Public Relations Professional (4%), Marketing Specialist (4%) |
+| Early (~3yr) | Graphic Designer (10%), Sales Assistant (General) (8%), Marketing Specialist (5%), General Clerk (5%), Public Relations Professional (5%) |
+| Senior (~5yr) | Graphic Designer (10%), Sales Assistant (General) (6%), Marketing Specialist (6%), Public Relations Professional (5%), Sales and Marketing Manager (5%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 67% full-time employment · median salary $81,000 · 3-year employment 86% · JSA occupation demand: **Met**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): UNSW Canberra, Cloncurry Shire Council, University of the Sunshine Coast (UniSC), Moree Plains Shire Council, URBAN REPUBLIC PTY LTD, AUSNA & CO Global Education Pty Ltd. Advertised salary A$75k–104k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
 
 ---
 
@@ -53,14 +66,16 @@ The Master of Screenwriting scored **11/36 — MODERATE RISK**. Gaps in core dim
 | Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
 |---|---|---|---|---|---|---|---|---|
 | 1 | Integrate cross-disciplinary case studies into existing core units | Systems Thinking | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 2 | Add capstone project requiring documented decision rationale | Decision-Making | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 3 | Integrate stakeholder engagement into existing project assessment | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 4 | Add QILT GOS data + 3-year outcomes to public program information | Outcome Evidence | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
-| 5 | Introduce capstone/internship with real client accountability | Automation Exposure | Strong market demand for AI-governance capabilities | HIGH | High | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
-| 6 | Add dedicated AI in discipline core unit (12.5pt) | AI Literacy | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
-| 7 | Introduce a minor thesis or capstone research project | Research Rigour | Strong market demand for AI-governance capabilities | HIGH | High | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
-| 8 | Develop a dual-skill pathway (e.g., tech + domain, clinical + research) | Irreplaceability (bonus) | Strong market demand for AI-governance capabilities | HIGH | High | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
-| 9 | Seek professional accreditation or industry partnership | Domain Depth | Strong market demand for AI-governance capabilities | HIGH | High | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+| 2 | Require technical-elective sequence (3+ units) with applied project | Technical Depth | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 3 | Establish annual curriculum review with industry advisory panel | Curriculum Currency | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 4 | Add capstone project requiring documented decision rationale | Decision-Making | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 5 | Integrate stakeholder engagement into existing project assessment | Human & Relational | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 6 | Add QILT GOS data + 3-year outcomes to public program information | Outcome Evidence | Strong market demand for AI-governance capabilities | HIGH | Low | Program Coordinator | Months 1–6 | Approved Sem 1 2027 |
+| 7 | Introduce capstone/internship with real client accountability | Automation Exposure | Strong market demand for AI-governance capabilities | HIGH | High | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+| 8 | Add dedicated AI in discipline core unit (12.5pt) | AI Literacy | Strong market demand for AI-governance capabilities | HIGH | Medium | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+| 9 | Introduce a minor thesis or capstone research project | Research Rigour | Strong market demand for AI-governance capabilities | HIGH | High | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+| 10 | Develop a dual-skill pathway (e.g., tech + domain, clinical + research) | Irreplaceability (bonus) | Strong market demand for AI-governance capabilities | HIGH | High | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
+| 11 | Seek professional accreditation or industry partnership | Domain Depth | Strong market demand for AI-governance capabilities | HIGH | High | Faculty Curriculum Committee | Months 3–9 | Course launched Sem 2 2027 |
 
 ---
 
@@ -106,9 +121,3 @@ The Master of Screenwriting scored **11/36 — MODERATE RISK**. Gaps in core dim
 
 ## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
 The 2027-ready graduate is a domain specialist and workflow critic. They do not merely operate general-purpose AI tools; they govern and audit them. They bring strong systems thinking, decision ownership under uncertainty, and client translation capabilities that make them highly durable in a changing labor market.
-
----
-
-**Assessment Date:** 2026-06-21
-**Source Report:** reports/dfva-mc-scwr.md
-**Prompt Version:** DFVA-COPILOT-RECOMMENDER-v1

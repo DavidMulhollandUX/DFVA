@@ -223,7 +223,32 @@ export const THRESHOLD_QUESTIONS = {
   q3: 'Will these graduates be more employable in 5 years than today, given AI trends?',
 } as const
 
+/**
+ * Scoring formula — THE definition.
+ *
+ * A program's total is the simple sum of all 11 dimension scores (D1–D10 core + bonus B),
+ * each 0–3, with NO weighting and the bonus counting ×1. So:
+ *   total = Σ dimensions[i].score   and   max achievable = 11 × 3 = 33.
+ *
+ * `MAX_SCORE = 36` is a LEGACY nominal ceiling, kept only as the published "/36" denominator
+ * and the upper bound of the RESILIENT band. Nothing can actually score above 33 — there is
+ * no 12th dimension and the bonus is not double-weighted. `programData.ts` `score` MUST equal
+ * `totalScore(dimensions)`; where it diverges, the stored score is a data-entry error.
+ */
 export const MAX_SCORE = 36
+
+/** Maximum total that is actually reachable (11 dimensions × 3). The "/36" is nominal. */
+export const MAX_ACHIEVABLE_SCORE = 33
+
+/** Canonical total: the plain sum of all 11 dimension scores (0–3 each, bonus ×1). */
+export function totalScore(dimensions: ReadonlyArray<{ score: number }>): number {
+  return dimensions.reduce((sum, d) => sum + (d.score ?? 0), 0)
+}
+
+/** The risk band for a given total, per RISK_BANDS. */
+export function bandForScore(score: number): RiskBandName {
+  return (RISK_BANDS.find((b) => score >= b.min && score <= b.max) ?? RISK_BANDS[RISK_BANDS.length - 1]).band
+}
 
 // ---------------------------------------------------------------------------
 // Render helpers — the generator uses these so every downstream copy is derived,

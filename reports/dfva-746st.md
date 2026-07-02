@@ -76,3 +76,25 @@ They use AI analysis tools to generate options rapidly, then apply engineering j
 | Occupation demand | SHORTAGE |
 | AI automation exposure | 40% |
 | Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |
+
+---
+
+<!-- LABOUR-EVIDENCE:START -->
+### REAL GRADUATE DESTINATIONS (JSA HEO · QILT · Adzuna)
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Civil Engineer (22%), Mechanical Engineer (15%), Electrical Engineer (9%), Engineering Professionals nec (4%), Chemical Engineer (4%) |
+| Early (~3yr) | Civil Engineer (22%), Mechanical Engineer (15%), Electrical Engineer (9%), Engineering Professionals nec (4%), Chemical Engineer (4%) |
+| Senior (~5yr) | Civil Engineer (21%), Mechanical Engineer (15%), Electrical Engineer (8%), Engineering Professionals nec (5%), Chemical Engineer (4%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 88% full-time employment · median salary $111,000 · 3-year employment 98% · JSA occupation demand: **Shortage**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): WSP, AECOM, Stantec, Aurecon, Hatch, Monadelphous, Rio Tinto, Fortescue. Advertised salary A$90k–125k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
+<!-- LABOUR-EVIDENCE:END -->

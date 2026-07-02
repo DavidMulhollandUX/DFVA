@@ -2,7 +2,8 @@ import { useMemo } from 'react';
 import { Link, useParams } from 'react-router';
 import { PROGRAMS, type ProgramReport } from './sharedProgramData';
 import { getFaculty, facultySlug } from './faculty';
-import { Building2, AlertTriangle, ArrowLeft, ArrowRight, ArrowUpRight } from 'lucide-react';
+import { FACULTY_OUTCOMES, type FacultyOutcome } from './facultyOutcomes';
+import { Building2, AlertTriangle, ArrowLeft, ArrowRight, ArrowUpRight, Briefcase, GraduationCap, Lightbulb, TrendingUp } from 'lucide-react';
 import {
   Card,
   CardContent,
@@ -229,6 +230,143 @@ function FacultyDetail({ f }: { f: FacultyStats }) {
           </table>
         </div>
       </div>
+
+      {FACULTY_OUTCOMES[f.name] && <GraduateOutcomes outcome={FACULTY_OUTCOMES[f.name]} />}
+    </div>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// Graduate-outcome evidence (UoM Job Insights) — shared by faculty detail views
+// ---------------------------------------------------------------------------
+function Chips({ items, tone = 'muted' }: { items: string[]; tone?: 'muted' | 'primary' }) {
+  return (
+    <div className="flex flex-wrap gap-1.5">
+      {items.map((x) => (
+        <span
+          key={x}
+          className={`inline-flex items-center rounded-full px-2.5 py-0.5 text-xs ${tone === 'primary' ? 'bg-primary/10 text-primary' : 'bg-muted text-muted-foreground'}`}
+        >
+          {x}
+        </span>
+      ))}
+    </div>
+  );
+}
+
+// Render the **bold** spans the briefing narratives carry, as plain text otherwise.
+function RichText({ text }: { text: string }) {
+  return (
+    <>
+      {text.split(/\*\*(.+?)\*\*/g).map((part, i) =>
+        i % 2 === 1 ? <strong key={i} className="font-semibold text-foreground">{part}</strong> : part,
+      )}
+    </>
+  );
+}
+
+function GraduateOutcomes({ outcome }: { outcome: FacultyOutcome }) {
+  const reclassifiers = outcome.reclass.filter((r) => r.reclassifies);
+  return (
+    <div className="mt-10">
+      <h2 className="text-xl font-bold tracking-tight text-foreground flex items-center gap-2 mb-1">
+        <GraduationCap className="h-5 w-5 text-primary" />
+        Graduate outcomes
+      </h2>
+      <p className="text-sm text-muted-foreground mb-5">
+        Real destinations of <span className="font-semibold text-foreground">{outcome.alumni.toLocaleString()} alumni</span> across {outcome.reports} UoM Job Insights reports (LiveAlumni, 2015–2025).
+      </p>
+
+      <Card className="mb-6">
+        <CardHeader><CardTitle className="text-base flex items-center gap-2"><TrendingUp className="h-4 w-4 text-muted-foreground" />Destination read</CardTitle></CardHeader>
+        <CardContent><p className="text-sm leading-relaxed text-muted-foreground"><RichText text={outcome.destinationRead} /></p></CardContent>
+      </Card>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+        <Card>
+          <CardHeader><CardTitle className="text-base flex items-center gap-2"><Briefcase className="h-4 w-4 text-muted-foreground" />Top employers</CardTitle></CardHeader>
+          <CardContent><Chips items={outcome.employers} /></CardContent>
+        </Card>
+        <Card>
+          <CardHeader><CardTitle className="text-base">Skills in use</CardTitle></CardHeader>
+          <CardContent><Chips items={outcome.skills} tone="primary" /></CardContent>
+        </Card>
+      </div>
+
+      <Card className="mb-6">
+        <CardHeader><CardTitle className="text-base">Roles by career stage</CardTitle></CardHeader>
+        <CardContent className="space-y-3">
+          <div>
+            <p className="text-[11px] font-bold uppercase tracking-wider text-muted-foreground mb-1.5">Entry (0–1 yr)</p>
+            <Chips items={outcome.entryRoles} />
+          </div>
+          <div>
+            <p className="text-[11px] font-bold uppercase tracking-wider text-muted-foreground mb-1.5">Early–mid (1–2 yr)</p>
+            <Chips items={outcome.earlyRoles} />
+          </div>
+        </CardContent>
+      </Card>
+
+      {outcome.reclass.length > 0 && (
+        <div className="mb-6 rounded-lg border border-border bg-emerald-50/60 dark:bg-emerald-900/10 p-4">
+          <div className="text-sm font-semibold text-emerald-800 dark:text-emerald-300 mb-2 flex items-center gap-1.5">
+            <ArrowUpRight className="h-4 w-4" />
+            Outcome-evidence uplift
+            {reclassifiers.length > 0 && (
+              <span className="text-xs font-normal text-muted-foreground">— {reclassifiers.length} reclassif{reclassifiers.length === 1 ? 'ies' : 'y'} risk band</span>
+            )}
+          </div>
+          <p className="text-xs text-muted-foreground mb-3">
+            Programmes whose <span className="font-medium text-foreground">D10 Outcome Evidence</span> gains a documented basis to rise once the Job Insights destinations are folded in — a re-review trigger, not an automatic recompute.
+          </p>
+          <div className="space-y-1.5">
+            {outcome.reclass.map((r) => (
+              <div key={r.program} className="flex flex-wrap items-center gap-2 text-sm">
+                <span className="font-medium">{r.program}</span>
+                <span className="text-muted-foreground tabular-nums">{r.current} → {r.projected}/36</span>
+                {r.reclassifies ? (
+                  <span className="inline-flex px-2 py-0.5 rounded-full text-[11px] font-bold bg-emerald-100 text-emerald-800 dark:bg-emerald-900/30 dark:text-emerald-300">{r.fromBand} → {r.toBand}</span>
+                ) : (
+                  <span className="text-xs text-muted-foreground">{r.toBand}</span>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      <Card>
+        <CardHeader><CardTitle className="text-base flex items-center gap-2"><Lightbulb className="h-4 w-4 text-muted-foreground" />What this means</CardTitle></CardHeader>
+        <CardContent>
+          <ol className="space-y-2.5 list-decimal pl-4">
+            {outcome.recommendations.map((rec, i) => (
+              <li key={i} className="text-sm leading-relaxed text-muted-foreground pl-1"><RichText text={rec} /></li>
+            ))}
+          </ol>
+        </CardContent>
+      </Card>
+    </div>
+  );
+}
+
+// Faculties with graduate-outcome data but no DFVA-scored programs (e.g. Fine Arts & Music)
+function OutcomeOnlyDetail({ name, outcome }: { name: string; outcome: FacultyOutcome }) {
+  return (
+    <div className="mx-auto max-w-5xl px-4 py-16">
+      <Link to="/insights/faculty" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground mb-4">
+        <ArrowLeft className="h-4 w-4" /> All faculties
+      </Link>
+      <div className="mb-3 flex flex-wrap items-center gap-3">
+        <h1 className="text-3xl font-bold tracking-tight text-foreground flex items-center gap-3">
+          <Building2 className="h-8 w-8 text-primary" />
+          {name}
+        </h1>
+        <span className="rounded-full bg-muted px-2.5 py-1 text-[11px] font-medium text-muted-foreground">Graduate outcomes only</span>
+      </div>
+      <p className="text-muted-foreground">
+        No DFVA-assessed programmes in this faculty — the graduate-outcome evidence below is the DFVA-relevant data the University currently holds for it.
+      </p>
+      <GraduateOutcomes outcome={outcome} />
     </div>
   );
 }
@@ -246,6 +384,14 @@ export default function FacultyDashboard() {
 
   const selected = selectedSlug ? faculties.find(f => facultySlug(f.name) === selectedSlug) : undefined;
   if (selected) return <FacultyDetail f={selected} />;
+
+  // Outcome-only faculties: graduate-outcome data but no DFVA-scored programs (e.g. Fine Arts & Music)
+  const dfvaNames = new Set(faculties.map((f) => f.name));
+  const outcomeOnlyNames = Object.keys(FACULTY_OUTCOMES).filter((n) => !dfvaNames.has(n));
+  if (selectedSlug) {
+    const ooName = outcomeOnlyNames.find((n) => facultySlug(n) === selectedSlug);
+    if (ooName) return <OutcomeOnlyDetail name={ooName} outcome={FACULTY_OUTCOMES[ooName]} />;
+  }
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-16">
@@ -364,6 +510,24 @@ export default function FacultyDashboard() {
           </table>
         </div>
       </div>
+
+      {outcomeOnlyNames.length > 0 && (
+        <div className="mt-6">
+          <p className="text-xs text-muted-foreground mb-2">Graduate-outcome data only (no DFVA-assessed programmes):</p>
+          <div className="flex flex-wrap gap-2">
+            {outcomeOnlyNames.map((n) => (
+              <Link
+                key={n}
+                to={`/insights/faculty/${facultySlug(n)}`}
+                className="inline-flex items-center gap-1.5 rounded-lg border border-border bg-card px-3 py-2 text-sm hover:border-primary/40 transition-colors"
+              >
+                {n} <span className="text-xs text-muted-foreground">({FACULTY_OUTCOMES[n].reports} reports)</span>
+                <ArrowRight className="h-3 w-3 opacity-50" />
+              </Link>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 }

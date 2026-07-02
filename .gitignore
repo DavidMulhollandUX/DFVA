@@ -14,6 +14,10 @@ compass/blog/dist/
 # graphify — generated knowledge graph (regenerable via `graphify update`)
 graphify-out/
 
+# scratch — working data (JIR PDFs/markdown, ad-hoc analysis scripts), not for VCS
+scratch/
+**/__pycache__/
+
 # Environment files
 .env
 .env.local

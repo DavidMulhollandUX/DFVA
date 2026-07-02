@@ -16,6 +16,11 @@ export type MarketMomentum = 'GROWING' | 'STABLE' | 'DECLINING';
 
 export interface MarketFieldData {
   field: string;
+  // Join key (program -> study-area -> occupations -> demand). Field-level; per-program lookup via getFieldForCourse().
+  // anzscoCodes: top skill-level-1 graduate destinations (ANZSCO-6) from JSA HEO Work&Occupation Table_3 (PLIDA x ATO).
+  // adzunaTerm: representative search term for demand-side (live-vacancy) pulls. See scratch/au-jobinsights/program_labour_map.json.
+  anzscoCodes?: string[];
+  adzunaTerm?: string;
   employmentRate: number;
   medianSalary: number;
   employmentRate3yr: number;
@@ -32,6 +37,8 @@ export interface MarketFieldData {
 export const MARKET_DATA: Record<string, MarketFieldData> = {
   engineering: {
     field: 'Engineering',
+    anzscoCodes: ['233211', '233512', '233311'],
+    adzunaTerm: 'engineer',
     employmentRate: 0.883,
     medianSalary: 111000,
     employmentRate3yr: 0.975,
@@ -46,6 +53,8 @@ export const MARKET_DATA: Record<string, MarketFieldData> = {
   },
   it: {
     field: 'Information Technology',
+    anzscoCodes: ['261313', '261312', '261111'],
+    adzunaTerm: 'software engineer',
     employmentRate: 0.812,
     medianSalary: 110000,
     employmentRate3yr: 0.941,
@@ -60,6 +69,8 @@ export const MARKET_DATA: Record<string, MarketFieldData> = {
   },
   health: {
     field: 'Health',
+    anzscoCodes: ['254499', '252511', '254418'],
+    adzunaTerm: 'allied health',
     employmentRate: 0.871,
     medianSalary: 103000,
     employmentRate3yr: 0.952,
@@ -74,6 +85,8 @@ export const MARKET_DATA: Record<string, MarketFieldData> = {
   },
   business: {
     field: 'Business & Management',
+    anzscoCodes: ['221111', '225113', '131112'],
+    adzunaTerm: 'business analyst',
     employmentRate: 0.923,
     medianSalary: 124000,
     employmentRate3yr: 0.962,
@@ -88,6 +101,8 @@ export const MARKET_DATA: Record<string, MarketFieldData> = {
   },
   architecture: {
     field: 'Architecture & Building',
+    anzscoCodes: ['232111', '232611', '133111'],
+    adzunaTerm: 'architect',
     employmentRate: 0.748,
     medianSalary: 84500,
     employmentRate3yr: 0.948,
@@ -102,6 +117,8 @@ export const MARKET_DATA: Record<string, MarketFieldData> = {
   },
   creative_arts: {
     field: 'Creative Arts',
+    anzscoCodes: ['232411', '225311', '225113'],
+    adzunaTerm: 'graphic designer',
     employmentRate: 0.669,
     medianSalary: 81000,
     employmentRate3yr: 0.858,
@@ -116,6 +133,8 @@ export const MARKET_DATA: Record<string, MarketFieldData> = {
   },
   education: {
     field: 'Education',
+    anzscoCodes: ['241213', '241411', '241000'],
+    adzunaTerm: 'teacher',
     employmentRate: 0.899,
     medianSalary: 96000,
     employmentRate3yr: 0.961,
@@ -130,6 +149,8 @@ export const MARKET_DATA: Record<string, MarketFieldData> = {
   },
   law: {
     field: 'Law',
+    anzscoCodes: ['271311', '271111', '271299'],
+    adzunaTerm: 'lawyer',
     employmentRate: 0.894,
     medianSalary: 90000,
     employmentRate3yr: 0.957,
@@ -144,6 +165,8 @@ export const MARKET_DATA: Record<string, MarketFieldData> = {
   },
   science: {
     field: 'Science',
+    anzscoCodes: ['234611', '234411', '242112'],
+    adzunaTerm: 'scientist',
     employmentRate: 0.793,
     medianSalary: 100000,
     employmentRate3yr: 0.943,
@@ -158,6 +181,8 @@ export const MARKET_DATA: Record<string, MarketFieldData> = {
   },
   agriculture: {
     field: 'Agriculture & Environment',
+    anzscoCodes: ['234312', '234313', '234112'],
+    adzunaTerm: 'agricultural scientist',
     employmentRate: 0.803,
     medianSalary: 94000,
     employmentRate3yr: 0.935,
@@ -172,6 +197,8 @@ export const MARKET_DATA: Record<string, MarketFieldData> = {
   },
   other: {
     field: 'Other',
+    anzscoCodes: ['272511', '271311', '272399'],
+    adzunaTerm: 'policy officer',
     employmentRate: 0.752,
     medianSalary: 88500,
     employmentRate3yr: 0.926,
@@ -190,7 +217,7 @@ export const MARKET_DATA: Record<string, MarketFieldData> = {
 export function getFieldForCourse(courseCode: string): string {
   const code = courseCode.toLowerCase();
   const map: Record<string, string> = {
-    'mc-cs': 'it', 'mc-datasc': 'it', 'mc-it': 'it', 'mc-scicmp': 'it',
+    'mc-cs': 'it', 'mc-datasc': 'it', 'mc-it': 'it', 'mc-scicmp': 'it', 'mc-is': 'it',
     'mc-indeng': 'engineering', '746st': 'engineering', 'mc-eng': 'engineering',
     'mc-engbiom': 'engineering', 'mc-engchem': 'engineering', 'mc-engcivil': 'engineering',
     'mc-engelec': 'engineering', 'mc-engmech': 'engineering', 'mc-engmtrl': 'engineering',

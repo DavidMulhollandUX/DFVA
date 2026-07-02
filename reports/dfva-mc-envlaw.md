@@ -124,3 +124,25 @@ They are aware that AI tools will handle much of the research layer of their wor
 | Occupation demand | MET |
 | AI automation exposure | 45% |
 | Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |
+
+---
+
+<!-- LABOUR-EVIDENCE:START -->
+### REAL GRADUATE DESTINATIONS (JSA HEO · QILT · Adzuna)
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Solicitor (89%), Legal Executive (7%), Legal Secretary (2%), Judicial and Other Legal Professionals nec (1%), Intellectual Property Lawyer (0%) |
+| Early (~3yr) | Solicitor (94%), Legal Executive (3%), Legal Secretary (1%), Judicial and Other Legal Professionals nec (1%), Intellectual Property Lawyer (0%) |
+| Senior (~5yr) | Solicitor (94%), Legal Executive (3%), Legal Secretary (1%), Judicial and Other Legal Professionals nec (1%), Intellectual Property Lawyer (0%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 89% full-time employment · median salary $90,000 · 3-year employment 96% · JSA occupation demand: **Met**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): NSW Crown Solicitor's Office, Clayton Utz, Maurice Blackburn, Slater and Gordon Lawyers, Gilchrist Connell, Herbert Smith Freehills, Uber (ANZ Legal Team), EnergyAustralia, Orica. Advertised salary A$95k–165k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
+<!-- LABOUR-EVIDENCE:END -->
