@@ -21,9 +21,14 @@ cd "$BUILD_DIR"
 npx vercel --prod --yes
 
 echo ""
-echo "🔗 Updating alias → evidura.vercel.app"
+echo "🔗 Updating aliases → evidura.vercel.app + evidura.ai"
 DEPLOYMENT_URL=$(npx vercel ls --prod 2>/dev/null | grep "build" | head -1)
-npx vercel alias set "$DEPLOYMENT_URL" evidura.vercel.app
+# Point BOTH production domains at this deployment. evidura.ai does NOT
+# auto-promote on --prod, so it must be aliased explicitly here too —
+# otherwise it drifts onto an old (eventually garbage-collected → 404) build.
+for DOMAIN in evidura.vercel.app evidura.ai; do
+  npx vercel alias set "$DEPLOYMENT_URL" "$DOMAIN"
+done
 
 echo ""
-echo "✅ Done! https://evidura.vercel.app"
+echo "✅ Done! https://evidura.vercel.app + https://evidura.ai"
