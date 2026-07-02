@@ -13,5 +13,6 @@
   "mc-actsc": {"status": "complete", "date": "2026-06-08", "score": 20, "riskBand": "MODERATE RISK"},
   "mc-gencoun": {"status": "complete", "date": "2026-06-08", "score": 26, "riskBand": "MODERATE RISK"},
   "439fs": {"status": "complete", "date": "2026-06-08", "score": 21, "riskBand": "MODERATE RISK"},
-  "mc-nursc": {"status": "complete", "date": "2026-06-08", "score": 26, "riskBand": "MODERATE RISK"}
+  "mc-nursc": {"status": "complete", "date": "2026-06-08", "score": 26, "riskBand": "MODERATE RISK"},
+  "mc-jurisd": {"status": "complete", "date": "2026-07-08", "score": 24, "riskBand": "MODERATE RISK"}
 }

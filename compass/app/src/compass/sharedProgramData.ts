@@ -1147,6 +1147,32 @@ export const PROGRAMS: ProgramReport[] = [
     marketSlug: "dfva-market-mc-urbhort",
     
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-urbhort",
+  },
+  {
+    program: "Juris Doctor",
+    institution: "University of Melbourne",
+    level: "Master (Extended) · 3 years",
+    date: "2026-07-08",
+    score: 24,
+    maxScore: 36,
+    riskBand: "MODERATE RISK",
+    thresholds: { q1: "YES", q2: "YES", q3: "UNCERTAIN" },
+    dimensions: [
+      { label: "Automation Exposure", score: 2, max: 3 },
+      { label: "Systems Thinking", score: 2, max: 3 },
+      { label: "Technical Depth", score: 1, max: 3 },
+      { label: "Decision-Making", score: 2, max: 3 },
+      { label: "AI Literacy", score: 2, max: 3 },
+      { label: "Domain Depth", score: 3, max: 3 },
+      { label: "Research Rigour", score: 2, max: 3 },
+      { label: "Human & Relational", score: 3, max: 3 },
+      { label: "Curriculum Currency", score: 2, max: 3 },
+      { label: "Outcome Evidence", score: 3, max: 3 },
+      { label: "Irreplaceability (bonus)", score: 2, max: 3 },
+    ],
+    assessmentSlug: "dfva-mc-jurisd",
+    marketSlug: "dfva-market-mc-jurisd",
+    handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-jurisd",
   }
 ];
 
