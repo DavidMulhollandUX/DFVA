@@ -258,6 +258,7 @@ export const footerNavigation = {
   app: [
     { name: "Assess a Program", href: "/assess" },
     { name: "Reports", href: "/reports" },
+    { name: "Developers", href: "/developers" },
   ],
   company: [
     { name: "University of Melbourne", href: "https://unimelb.edu.au" },
