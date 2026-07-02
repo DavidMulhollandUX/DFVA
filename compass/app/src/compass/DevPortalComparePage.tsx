@@ -1,4 +1,4 @@
-import { DFVA_API_DATA, COMPETITORS, type CompetitorApiData } from '../apiCompetitiveData';
+import { DFVA_API_DATA, COMPETITORS, type CompetitorApiData } from './apiCompetitiveData';
 import { Shield, Check, X, AlertTriangle, Minus, ExternalLink } from 'lucide-react';
 
 const ALL_COMPETITORS = [DFVA_API_DATA, ...COMPETITORS];
@@ -77,7 +77,7 @@ export default function DevPortalComparePage() {
             </thead>
             <tbody>
               {DIMENSIONS.map((dim, i) => (
-                <tr key={dim.key} className={i % 2 === 0 ? 'bg-muted/20' : ''}>
+                <tr key={String(dim.key)} className={i % 2 === 0 ? 'bg-muted/20' : ''}>
                   <td className="p-4">
                     <span className="font-medium">{dim.label}</span>
                     <span className="block text-xs text-muted-foreground">
@@ -87,7 +87,7 @@ export default function DevPortalComparePage() {
                   {ALL_COMPETITORS.map((c) => (
                     <td key={c.name} className="text-center p-4">
                       <div className="flex justify-center">
-                        <QualityCell value={c[dim.key]} />
+                        <QualityCell value={c[dim.key] ?? 'unknown'} />
                       </div>
                     </td>
                   ))}

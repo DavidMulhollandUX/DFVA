@@ -1,6 +1,6 @@
 import { BookOpen, Code, Shield, Activity } from 'lucide-react';
-import ApiKeyManager from '../components/ApiKeyManager';
-import CodeSnippetLibrary from '../components/CodeSnippetLibrary';
+import ApiKeyManager from './components/ApiKeyManager';
+import CodeSnippetLibrary from './components/CodeSnippetLibrary';
 
 export default function DevPortalPage() {
   return (
