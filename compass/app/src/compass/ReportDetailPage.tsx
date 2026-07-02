@@ -1176,11 +1176,12 @@ export default function ReportDetailPage() {
             <div className="flex flex-wrap items-center justify-between gap-4 p-4 rounded-xl border border-border bg-card/60 backdrop-blur-md">
               <div>
                 <h2 className="text-lg font-bold text-foreground">Interactive Curriculum Visualizer</h2>
-                <p className="text-xs text-muted-foreground">
-                  Map student flow coverage bottlenecks and IRA concept scaffolding progressions.
+                <p className="text-xs text-muted-foreground max-w-xl">
+                  Subjects as nodes, prerequisites as edges. <strong>Student Traffic</strong> mode shows cohort coverage across the prerequisite chain — subjects at ≥90% are <em>bottlenecks</em> (every student passes through, so a change here reaches the entire cohort). <strong>IRA Scaffolding</strong> mode maps where each DFVA dimension is Introduced, Reinforced, and Assessed across the curriculum.
                 </p>
               </div>
               <div className="flex items-center gap-3">
+                <div className="flex flex-col items-end gap-1">
                 <label className="flex items-center gap-2 cursor-pointer bg-muted hover:bg-muted/80 border border-border rounded-lg px-3 py-1.5 text-xs font-semibold transition-colors">
                   <Upload className="h-3.5 w-3.5 text-muted-foreground" />
                   <span>Upload Enrollment CSV</span>
@@ -1191,6 +1192,8 @@ export default function ReportDetailPage() {
                     className="hidden"
                   />
                 </label>
+                <span className="text-[10px] text-muted-foreground">Columns: courseCode, studentCount</span>
+                </div>
                 {flowUploadStatus === "success" && (
                   <span className="text-xs font-medium text-emerald-500 flex items-center gap-1">
                     <Check className="h-3 w-3" /> Heatmap calibrated
@@ -1204,10 +1207,11 @@ export default function ReportDetailPage() {
               </div>
             </div>
 
-            <CurriculumMap 
-              syllabusData={syllabusData} 
+            <CurriculumMap
+              syllabusData={syllabusData}
               baseScore={program?.score ?? 20}
               onScoreSimulated={(simScore) => setSimulatedScore(simScore)}
+              isGenericFallback={syllabusData.isGenericFallback ?? true}
             />
           </div>
         )}

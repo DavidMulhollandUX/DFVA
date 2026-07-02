@@ -18,8 +18,9 @@ export interface IraSkill {
 export interface SyllabusData {
   courses: CourseNode[];
   iraMatrix: IraSkill[];
-  theoreticalFlow: Record<string, number>; // courseCode -> flowPercentage
-  csvFlow?: Record<string, number>;        // courseCode -> studentCount
+  theoreticalFlow: Record<string, number>;
+  csvFlow?: Record<string, number>;
+  isGenericFallback?: boolean;  // true when rendering default data, not real program
 }
 
 export function generateMockSyllabus(slug: string): SyllabusData {
@@ -72,7 +73,7 @@ export function generateMockSyllabus(slug: string): SyllabusData {
       COMP30002: 50,
     };
 
-    return { courses, iraMatrix, theoreticalFlow };
+    return { courses, iraMatrix, theoreticalFlow, isGenericFallback: false };
   } 
   
   if (slug === 'dfva-b-des') {
@@ -100,7 +101,7 @@ export function generateMockSyllabus(slug: string): SyllabusData {
       DESN30001: 100,
     };
 
-    return { courses, iraMatrix, theoreticalFlow };
+    return { courses, iraMatrix, theoreticalFlow, isGenericFallback: false };
   }
 
   // Default Fallback Mock Syllabus (Master of Information Systems or general)
@@ -128,5 +129,5 @@ export function generateMockSyllabus(slug: string): SyllabusData {
     CORE30001: 100,
   };
 
-  return { courses, iraMatrix, theoreticalFlow };
+  return { courses, iraMatrix, theoreticalFlow, isGenericFallback: true };
 }

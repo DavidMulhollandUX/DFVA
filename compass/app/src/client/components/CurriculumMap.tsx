@@ -10,7 +10,7 @@ import ReactFlow, {
 } from 'reactflow';
 import 'reactflow/dist/style.css';
 import dagre from 'dagre';
-import { Play, Settings, ShieldAlert, Award, RefreshCw, X } from 'lucide-react';
+import { Play, Settings, ShieldAlert, Award, RefreshCw, X, AlertTriangle } from 'lucide-react';
 
 interface CourseNodeData {
   code: string;
@@ -38,6 +38,7 @@ interface CurriculumMapProps {
   syllabusData: SyllabusData;
   onScoreSimulated?: (simulatedScore: number) => void;
   baseScore: number;
+  isGenericFallback?: boolean;
 }
 
 const DIMENSIONS = [
@@ -54,7 +55,7 @@ const DIMENSIONS = [
   { id: 'B', label: 'Irreplaceability Premium' },
 ];
 
-export function CurriculumMap({ syllabusData, onScoreSimulated, baseScore }: CurriculumMapProps) {
+export function CurriculumMap({ syllabusData, onScoreSimulated, baseScore, isGenericFallback }: CurriculumMapProps) {
   const [viewMode, setViewMode] = useState<'flow' | 'ira'>('flow');
   const [selectedDimension, setSelectedDimension] = useState<string>('D5');
   const [selectedNode, setSelectedNode] = useState<CourseNodeData | null>(null);
@@ -242,8 +243,17 @@ export function CurriculumMap({ syllabusData, onScoreSimulated, baseScore }: Cur
   };
 
   return (
-    <div className="relative flex flex-col md:flex-row h-[550px] border border-border rounded-xl overflow-hidden bg-muted/20">
+    <div className="flex flex-col h-[550px] border border-border rounded-xl overflow-hidden bg-muted/20">
       
+      {/* Illustrative data banner */}
+      {isGenericFallback && (
+        <div className="flex items-center gap-2 px-4 py-2 bg-amber-500/10 border-b border-amber-500/30 text-xs text-amber-700 dark:text-amber-300 shrink-0">
+          <AlertTriangle className="h-3.5 w-3.5 shrink-0" />
+          <span>Showing illustrative placeholder data for a generic Master of Information Systems program. Real curriculum data is available for B-Des and B-Sci — select those programs for authentic mapping.</span>
+        </div>
+      )}
+
+      <div className="relative flex flex-col md:flex-row flex-1">
       {/* Visualizer Panel */}
       <div className="flex-1 relative h-full">
         {/* Graph Toolbar Controls */}
@@ -364,7 +374,7 @@ export function CurriculumMap({ syllabusData, onScoreSimulated, baseScore }: Cur
                   Simulate Curriculum Upgrade
                 </h4>
                 <p className="text-[10px] text-muted-foreground mb-3">
-                  Map dimensions to this subject to simulate score updates in the header.
+                  Assign a new Assess-level mapping to a dimension — this adds +1 to the simulated DFVA score (capped at 36). Sandbox only; resets on page reload. See the Redesign Workspace tab for persistent interventions.
                 </p>
 
                 <div className="space-y-3 max-h-[220px] overflow-y-auto pr-1">
@@ -418,6 +428,7 @@ export function CurriculumMap({ syllabusData, onScoreSimulated, baseScore }: Cur
           </div>
         </div>
       )}
+    </div>
     </div>
   );
 }
