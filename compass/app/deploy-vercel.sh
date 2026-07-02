@@ -18,17 +18,24 @@ EOF
 
 echo "🚀 Deploying to Vercel..."
 cd "$BUILD_DIR"
-npx vercel --prod --yes
+# Capture the deployment URL directly from the deploy output — do NOT parse
+# `vercel ls | head` (it returns table rows / the wrong deployment, which
+# previously split evidura.ai onto a broken build → 404).
+DEPLOYMENT_URL=$(npx vercel --prod --yes | grep -oE 'https://build-[a-z0-9]+-[a-z0-9-]+\.vercel\.app' | tail -1)
+echo "   → deployed: $DEPLOYMENT_URL"
+if [ -z "$DEPLOYMENT_URL" ]; then
+  echo "❌ Could not determine deployment URL — aborting alias step."
+  exit 1
+fi
 
 echo ""
-echo "🔗 Updating aliases → evidura.vercel.app + evidura.ai"
-DEPLOYMENT_URL=$(npx vercel ls --prod 2>/dev/null | grep "build" | head -1)
-# Point BOTH production domains at this deployment. evidura.ai does NOT
-# auto-promote on --prod, so it must be aliased explicitly here too —
-# otherwise it drifts onto an old (eventually garbage-collected → 404) build.
-for DOMAIN in evidura.vercel.app evidura.ai; do
-  npx vercel alias set "$DEPLOYMENT_URL" "$DOMAIN"
-done
+echo "🔗 Promoting to production + aliasing evidura.vercel.app + evidura.ai"
+# `evidura.ai` is a PROJECT domain that serves the project's current production
+# deployment, so promote this deployment to production; `evidura.vercel.app`
+# gets an explicit alias to the same deployment. Both then serve one build.
+npx vercel promote "$DEPLOYMENT_URL" --yes || true
+npx vercel alias set "$DEPLOYMENT_URL" evidura.vercel.app
+npx vercel alias set "$DEPLOYMENT_URL" evidura.ai
 
 echo ""
 echo "✅ Done! https://evidura.vercel.app + https://evidura.ai"
