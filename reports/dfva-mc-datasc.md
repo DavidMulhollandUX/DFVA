@@ -21,6 +21,15 @@ The structural defence is the project. Whether capstone or research pathway, the
 
 The risk is in the middle: graduates who exit with coursework competence but without project-cultivated judgment enter a labour market where "can fit a model" is no longer a differentiator. The program's stream system partially mitigates this by allowing CS-background students to deepen into computational specialisation and stats-background students into statistical depth, but the default pathway for Foundation-stream students is the broadest and most substitutable profile.
 
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Data Scientist (Generalist) | "Data Scientist" title splitting into specialist roles (ML Engineer +35%, Analytics Engineer +31%); causal inference appearing 3× more in senior ads | "Can fit a model" is now table stakes — differentiation requires causal reasoning and domain judgment | Statistical Machine Learning core is well-targeted; add explicit causal inference module |
+| Data Engineer | ANZ data engineer postings exceed data scientist for first time (Seek Q1 2026) | Pipeline design and system architecture remain low-automation — infrastructure judgment is irreducible | Cluster/Cloud Computing and Advanced Database Systems directly address this demand |
+| ML Engineer / MLOps | Fastest-growing tech title in APAC (LinkedIn 2026); model deployment, monitoring, CI/CD for ML | Infrastructure and reliability engineering resist AI substitution | Program doesn't explicitly cover MLOps — a gap for graduates targeting this high-growth pathway |
+| Data Analyst / BI Analyst | BI Analyst postings down 14% YoY in ANZ; standard dashboards increasingly automated | Routine reporting is the most AI-compressed data role | Graduates should differentiate toward data science/engineering, not analytics |
+| Decision Scientist | Emerging title; decision analysis + behavioural economics + executive communication | Decision framing and stakeholder judgment are irreducible human work | Project component partially addresses; stakeholder communication should be distributed across curriculum |
+
 ### 4. DFVA SCORECARD
 | # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---:|---|

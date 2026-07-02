@@ -20,6 +20,16 @@ Typical graduate roles include marketing manager, brand manager, digital marketi
 | Year 1–2 (graduate) | Marketing manager, brand coordinator, digital marketing specialist — campaign production, content strategy, analytics | **HIGH** — Content production, A/B testing, and performance analytics are highly AI-automatable |
 | Year 3–5 | Senior marketing manager, brand director — strategy and brand ownership | **MEDIUM** — Strategic brand decisions and customer insight require human judgment |
 
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Brand & Communications Management | Brand positioning, messaging frameworks, campaign briefs, agency management, brand audits | **MEDIUM** | Brand storytelling, cultural fluency, cross-channel consistency, AI-assisted creative briefing |
+| Digital Marketing & Performance | Paid media optimisation, SEO/SEM strategy, A/B testing, attribution modelling, dashboard reporting | **HIGH** | First-party data strategy, privacy-compliant analytics, AI prompt engineering for ads, incrementalit... |
+| Product Marketing | Competitive positioning, launch planning, sales enablement, pricing narrative, customer research synthesis | **LOW-MEDIUM** | Customer insight synthesis, cross-functional influencing, competitive intelligence frameworks, AI-as... |
+| Marketing Analytics & Insights | Customer segmentation, predictive modelling, lifetime value analysis, survey design, reporting automation | **HIGH** | Python/SQL for marketing analytics, predictive CLV modelling, privacy-first analytics (GA4, CDPs), c... |
+| Customer Experience & Retention | Journey mapping, NPS programme management, lifecycle email strategy, churn modelling, personalisation | **MEDIUM** | Human-centred design thinking, empathy mapping, AI-powered personalisation strategy, loyalty program... |
+| Content & Social Strategy | Editorial planning, audience development, influencer programme management, community engagement, content performance ana... | **MEDIUM-HIGH** | AI content governance, creator economy strategy, short-form video strategy, platform algorithm liter... |
+
 ### 3. DFVA SCORECARD
 *Score data from existing assessment records.*
 

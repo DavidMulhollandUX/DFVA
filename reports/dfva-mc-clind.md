@@ -18,6 +18,16 @@ Graduate roles include specialist dentist, clinical academic, oral health resear
 | Year 1–3 (graduate) | Clinical specialist practice — diagnosis, treatment planning, complex procedures | **LOW** — Physical clinical procedures, diagnosis, and patient management require human clinical judgment |
 | Year 4+ | Senior specialist, clinical academic — teaching, research, complex case management | **LOW** — Professional registration and clinical accountability |
 
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Prosthodontics | Full-mouth rehabilitation, implant-retained prostheses, complex crown and bridge, occlusal management, CAD/CAM restorati... | **LOW** | Digital smile design, intraoral scanning, guided implant surgery planning, CAD/CAM workflow, patient... |
+| Specialist Dentistry – Other Streams | Diagnosis and management of complex cases, referral coordination, specialist-level imaging interpretation, multi-discipl... | **LOW** | Cone-beam CT (CBCT) interpretation, AI-assisted lesion detection (as adjunct tool), rare disease rec... |
+| Clinical Dental Education | Clinical teaching supervision, assessment design, curriculum delivery, student mentoring, simulated environment instruct... | **LOW-MEDIUM** | Competency-based curriculum design, simulation technology (phantom head, haptic simulators), learnin... |
+| Oral Health Consulting | Hospital-based specialist consultation, medically-compromised patient triage, system-level oral health program design, p... | **LOW** | Health system navigation, interdisciplinary care coordination, population oral health literacy, gran... |
+| Implantology / Oral Surgery (adjacent pathway) | Implant placement and restoration, surgical planning with digital tools, anaesthesia co-management, bone grafting | **LOW** | Guided surgery software (Simplant, Nobel Clinician), CBCT-to-surgical-guide workflow, conscious seda... |
+| Telehealth / Remote Oral Health | Asynchronous image review, virtual triage and referral pathways, remote practitioner mentoring | **MEDIUM** | Asynchronous teleconsultation platforms, remote patient engagement, store-and-forward diagnostic pro... |
+
 ### 3. DFVA SCORECARD
 *Score data from existing assessment records.*
 

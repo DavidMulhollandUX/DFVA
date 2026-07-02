@@ -18,6 +18,16 @@ The program covers production planning, lean manufacturing, quality management, 
 | Year 1–2 (graduate) | Industrial engineer, operations analyst — process analysis, optimisation modelling, quality management | **MEDIUM** — Process analysis and standard optimisation are AI-augmentable; system design and implementation require human judgment |
 | Year 3–5 | Operations manager, process improvement lead | **LOW–MEDIUM** — System ownership and operational decision-making |
 
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Process Engineering | Mapping value streams, designing workflows, identifying waste, implementing Kaizen, conducting time-and-motion studies | **MEDIUM** — Simulation and waste-identification increasingly automated; physical implementation and... | Digital twin literacy, AI-assisted process simulation, human-centred change management |
+| Operations Management | Scheduling, capacity planning, KPI tracking, resource allocation, S&OP coordination | **MEDIUM-HIGH** — Scheduling and planning algorithms are mature; strategic judgement and cross-funct... | Integrated business planning (IBP), ERP fluency (SAP S/4HANA, Oracle), AI-augmented scheduling |
+| Supply Chain & Logistics | Demand forecasting, supplier management, inventory optimisation, network design | **MEDIUM-HIGH** — Forecasting and inventory models are heavily automated; supplier relationship and ... | Supply chain resilience frameworks, ESG supply-chain metrics, digital procurement platforms |
+| Manufacturing Engineering | Process design for manufacture, quality systems (ISO 9001), equipment qualification, OEE analysis | **LOW-MEDIUM** — Physical plant knowledge and equipment qualification require on-site expertise; rou... | Industry 4.0 integration (IIoT, SCADA), statistical process control with ML, additive manufacturing |
+| Data & Systems Analytics | Data pipeline management, simulation modelling, OR modelling, KPI dashboard development | **LOW-MEDIUM** — Analytical coding tasks AI-assisted; problem framing and model interpretation remai... | Python/R for industrial analytics, discrete-event simulation (Arena, AnyLogic), Power BI/Tableau |
+| Sustainability & ESG Engineering | Life cycle assessment (LCA), carbon accounting, circular economy redesign, ESG reporting | **LOW** — Regulatory interpretation, stakeholder engagement, and novel LCA work are not easily subst... | ISO 14064, Scope 3 emissions accounting, circular design principles, ESG disclosure frameworks (ISSB... |
+
 ### 3. DFVA SCORECARD
 *Score data from existing assessment records.*
 

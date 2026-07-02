@@ -19,6 +19,16 @@ The program covers structural analysis theory, concrete and steel design, founda
 | Year 3–5 | Project engineer, senior structural engineer — design authority and review | **LOW–MEDIUM** — Professional accountability and design sign-off create automation barriers |
 | Year 5+ | Principal engineer, CPEng — engineering certification and project leadership | **LOW** — Professional registration and engineering judgment are not delegatable |
 
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Structural Engineering (Consulting) | Structural analysis and design, preparing drawings and reports, coordinating with architects and contractors, code compl... | **MEDIUM** | BIM authoring (Revit/Tekla), computational design, performance-based design, sustainability integrat... |
+| Infrastructure Consulting | Feasibility studies, structural assessment reports, bid preparation, stakeholder liaison, site investigations | **LOW-MEDIUM** | Digital twin literacy, infrastructure project delivery, ESG reporting, risk quantification |
+| Construction Engineering | Temporary works design, construction sequencing, quality assurance, contract administration, RFI management | **LOW** | Digital construction methods, prefab/modular systems, lean construction, safety systems integration |
+| Building Structures (Façade/High Rise) | Lateral load analysis, connection design, cladding interface, fire engineering coordination, peer review | **MEDIUM** | Computational fluid dynamics basics, climate-resilient design, progressive collapse analysis |
+| Government/Public Sector Infrastructure | Asset management, condition assessment, bridge load rating, procurement support, standards maintenance | **LOW** | GIS integration, asset management platforms (Bentley AssetWise), climate adaptation, whole-of-life c... |
+| Research and Academic | Experimental testing, numerical modelling (FEA), literature synthesis, journal publication | **LOW** | Advanced FEA (Abaqus, OpenSees), machine learning for structural health monitoring, material testing |
+
 ### 3. DFVA SCORECARD
 *Score data from existing assessment records.*
 

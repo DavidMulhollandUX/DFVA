@@ -12,6 +12,16 @@ Clinical psychology is among the most AI-resistant professions. The program's co
 
 The 300 hours of supervised placement create a structural defence: graduates must demonstrate clinical competence under supervision before registration. The sequential, all-compulsory design ensures no student can bypass core clinical training.
 
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Provisional / Registered Psychologist (Clinical) | Psychological assessment, individual therapy, case formulation, report writing, supervision sessions | **LOW** | Trauma-informed care, evidence-based therapies (CBT, ACT, EMDR), risk assessment, culturally safe pr... |
+| Counselling Psychologist | Individual and group counselling, psychoeducation, brief interventions, mental health plans | **LOW-MEDIUM** | Telehealth delivery, stepped-care models, group facilitation, brief solution-focused approaches |
+| Organisational / Workplace Psychologist | Psychometric assessment, coaching, leadership development, culture diagnostics, workforce wellbeing programs | **MEDIUM** | Psychometric analytics, workforce data interpretation, evidence-based coaching, DEI program design |
+| Neuropsychology Track (Graduate) | Cognitive assessment batteries (WAIS, WMS), neuroimaging liaison, rehabilitation planning, report writing | **LOW** | Computerised neuropsychological assessment, TBI and dementia pathway knowledge, cognitive rehabilita... |
+| School / Educational Psychologist | Learning and behavioural assessment, early intervention, parent consultation, school-based crisis response | **LOW-MEDIUM** | Neurodiversity-affirming practice, NAPLAN/psychoeducational assessment, trauma-informed school envir... |
+| Mental Health Researcher / Evaluator | Literature review, data collection and analysis (SPSS, R), ethics applications, report authorship | **MEDIUM** | Mixed-methods research design, health economics literacy, research translation, AI-assisted literatu... |
+
 ### 4. DFVA SCORECARD
 | # | Dimension | Score (0-3) | Rationale |
 |---|---|---:|---|

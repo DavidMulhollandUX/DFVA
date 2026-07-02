@@ -12,6 +12,16 @@ Urban design presents a distinctive automation profile. AI tools increasingly as
 
 The structural defence is the studio + thesis model: 125 of 200 points are studio/thesis work that requires original design, stakeholder interaction, and defended decisions. AI can accelerate specific production tasks within this workflow but cannot formulate the design brief, negotiate with community stakeholders, or exercise the aesthetic and contextual judgment that defines urban design practice.
 
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Urban Design | Masterplan preparation, urban form analysis, design guidelines authoring, 3D massing studies, design review inputs | **MEDIUM** | Parametric modelling, climate-responsive design, urban heat island analysis, digital twin fluency |
+| Urban Planning | Planning permit assessment, policy interpretation, heritage overlays, statutory approvals, development facilitation | **LOW-MEDIUM** | Digital planning portals, environmental planning law, GIS-based assessment, traffic impact fluency |
+| Landscape Architecture | Public realm design, open space planning, native planting specification, WSUD integration, construction documentation | **LOW-MEDIUM** | Biodiversity net gain frameworks, climate-adaptive planting, parametric grading tools |
+| Urban Strategy | Economic development strategies, urban renewal frameworks, housing supply analysis, liveability benchmarking | **MEDIUM** | Data analytics, housing economics, scenario modelling, policy co-design |
+| Place-Making Consulting | Activation strategies, stakeholder engagement, cultural mapping, wayfinding design, programming | **LOW** | Co-design facilitation, CALD community engagement, social impact assessment, place brand development |
+| Digital Urban Analytics | Pedestrian count analysis, land use change detection, walkability scoring, transport modelling inputs | **MEDIUM-HIGH** | Python/R for spatial analysis, AI-assisted satellite image analysis, dashboard development |
+
 ### 4. DFVA SCORECARD
 | # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---:|---|

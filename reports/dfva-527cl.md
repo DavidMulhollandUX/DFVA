@@ -23,6 +23,16 @@ Typical graduate pathways include clinical psychologist (private practice), hosp
 
 **Regulatory protection:** Clinical psychology is APHRA-regulated with mandatory supervised hours, professional liability, and continuing professional development requirements. These create genuine barriers to AI substitution at the practitioner level.
 
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Provisional / Clinical Psychology | Psychological assessment, diagnosis formulation, individual therapy delivery (CBT, ACT, DBT, schema), report writing, su... | **LOW** | Trauma-informed practice, telehealth competency, culturally responsive therapy, outcome monitoring (... |
+| Mental Health Clinical Roles | Case management, mental state examination, risk assessment, group facilitation, multidisciplinary team participation | **LOW-MEDIUM** | Risk formulation, trauma-focused modalities, youth mental health literacy, care coordination |
+| Counselling & Psychotherapy | Short-term structured counselling, psychoeducation, grief and loss support, crisis intervention | **MEDIUM** | Brief intervention skills, digital mental health platform integration (e.g. Mindspot, This Way Up), ... |
+| Psychology Research | Quantitative/qualitative data collection, neuropsychological testing, systematic reviews, grant support, ethics applicat... | **MEDIUM** | R/Python for statistical analysis, systematic review software (Covidence), AI-assisted literature sy... |
+| Neuropsychology / Assessment | Cognitive and neuropsychological testing, psychometric report writing, NDIS functional capacity assessments, forensic as... | **LOW** | NDIS assessment frameworks, paediatric assessment, telehealth-adapted assessment protocols |
+| Forensic & Organisational Psychology | Court report writing, offender rehabilitation, fitness-for-duty assessments, organisational mental health program design | **LOW-MEDIUM** | Forensic risk instruments (HCR-20, LS/CMI), workplace mental health standards (Psychosocial Safety C... |
+
 ### 3. DFVA SCORECARD
 *Score data from existing assessment records.*
 

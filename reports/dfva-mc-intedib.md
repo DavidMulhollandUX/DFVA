@@ -18,6 +18,16 @@ Graduate roles include IB coordinator, international school curriculum leader, I
 | Year 1–2 (graduate) | IB coordinator, curriculum leader — curriculum management, assessment coordination, teacher professional development | **MEDIUM** — Curriculum administration and coordination are AI-augmentable |
 | Year 3–5 | IB head of programme, school leader | **LOW–MEDIUM** — Leadership and pedagogical judgment |
 
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| IB Classroom Teaching | Lesson planning, student assessment, IB internal assessment marking, parent communication, co-planning with faculty team... | LOW-MEDIUM | Inquiry-based facilitation, differentiated instruction, formative assessment design, cross-cultural ... |
+| Curriculum Coordination | IBO authorisation documentation, curriculum mapping, unit planner oversight, interdisciplinary unit design, staff profes... | LOW | IB Programme Standards compliance, curriculum mapping tools, collaborative leadership, data-informed... |
+| Education Consultancy | School improvement advisory, IBO programme implementation, staff PD facilitation, gap analysis against IB standards | MEDIUM | Systems thinking, change management, data analysis, client relationship management |
+| School Administration | Strategic planning, staff performance management, timetabling, budget oversight, stakeholder engagement | LOW-MEDIUM | Strategic leadership, financial literacy, people management, data-driven decision-making |
+| IB Examining & Assessment | Marking candidate scripts, moderation of internal assessments, question paper development, grade boundary deliberation | MEDIUM | Subject-specific assessment expertise, calibration skills, psychometric literacy |
+| International School Development | Programme authorisation, community engagement, cross-cultural institutional leadership, donor/ministry relations | LOW | Cross-cultural leadership, strategic stakeholder management, multi-language communication, programme... |
+
 ### 3. DFVA SCORECARD
 *Score data from existing assessment records.*
 

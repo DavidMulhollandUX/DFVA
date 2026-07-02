@@ -18,6 +18,16 @@ Graduate roles include pelvic health physiotherapist, women's health physiothera
 | Year 1–2 (graduate) | Pelvic health physiotherapy assessment and treatment | **LOW** — Physical assessment and treatment requires hands-on clinical skill and patient relationship |
 | Year 3–5 | Specialist pelvic health clinician, clinical educator | **LOW** — Specialist physical expertise and patient management |
 
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Pelvic Health Physiotherapy | Manual assessment of pelvic floor dysfunction, real-time ultrasound biofeedback, treatment of incontinence, prolapse, an... | **LOW** | Ultrasound biofeedback, trauma-informed care, sexual health integration, telehealth-assisted exercis... |
+| Continence & Bladder/Bowel Rehabilitation | Bladder diary analysis, urodynamic report interpretation, bowel retraining programs, catheter management support, multi-... | **LOW-MEDIUM** | Urodynamic data literacy, electronic health record (EHR) integration, anorectal manometry, MDT commu... |
+| Women's Health & Obstetric Physiotherapy | Antenatal exercise prescription, birth preparation, DRAM assessment, postnatal recovery programs, breast care physiother... | **LOW** | Diastasis recti rehabilitation, perinatal mental health literacy, exercise physiology for obstetric ... |
+| Men's Health Pelvic Physiotherapy | Post-prostatectomy pelvic floor rehabilitation, male chronic pelvic pain, erectile dysfunction physiotherapy, post-radia... | **LOW** | Oncology rehabilitation, male pelvic anatomy specialisation, chronic pain neuroscience education |
+| Clinical Education & Supervision | Student supervision, clinical skills workshops, competency assessment, curriculum design for entry-level physio programs | **LOW-MEDIUM** | Simulation-based education, digital assessment tools, learning management systems (LMS), reflective ... |
+| Telehealth & Digital Pelvic Health | Remote assessment via validated outcome measures, digital exercise app coaching, video consultation pelvic floor educati... | **MEDIUM** | Digital health literacy, remote assessment tools (app-based biofeedback), asynchronous care protocol... |
+
 ### 3. DFVA SCORECARD
 *Score data from existing assessment records.*
 

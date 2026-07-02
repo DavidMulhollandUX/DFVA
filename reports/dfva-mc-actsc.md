@@ -21,6 +21,16 @@ The program's structure reflects this tension. The core curriculum (Mathematics 
 
 The structural defence is the professional accreditation pathway — actuaries operate in a regulated profession where judgment, sign-off authority, and professional ethics create barriers to AI substitution. However, the entry-level pipeline (the first 2-3 years where graduates prove themselves through technical competence) is precisely where AI compression is strongest. The question is whether the program's technique-focused training produces graduates who can move quickly through the automatable layer to the judgment layer — or whether it produces graduates whose primary market value sits in the automatable layer itself.
 
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Actuarial Analyst (Life Insurance) | Premium calculation, reserving, regulatory reporting, experience analysis, model maintenance | **HIGH** — routine pricing and reserving increasingly automated by actuarial software and AI | AI-assisted modelling, model validation, regulatory interpretation |
+| Actuarial Analyst (General Insurance) | Claims modelling, pricing optimisation, reinsurance analysis, capital modelling | **HIGH** — same automation pressure as life; catastrophe modelling more durable | Climate risk modelling, telematics data analysis, natural language processing for claims |
+| Superannuation / Investment Analyst | Asset-liability modelling, investment strategy, retirement product design, regulatory reporting | **MEDIUM-HIGH** — investment analysis increasingly automated; strategic advice durable | ESG integration, retirement income product design, scenario analysis |
+| Data Scientist (Insurance) | Predictive modelling, claims fraud detection, customer analytics, NLP for underwriting | **LOW-MEDIUM** — the emerging actuarial career pathway that resists automation | Python, ML, NLP, deep learning, MLOps |
+| Risk / Compliance Analyst | Risk framework maintenance, regulatory submissions, compliance monitoring, stress testing | **MEDIUM** — regulatory judgment irreducible; reporting automation advancing | AI risk frameworks (CPS 230), climate risk, governance technology |
+| Actuarial Consultant (Big 4 / Advisory) | Client analytics, model building, audit support, M&A due diligence, transformation advisory | **MEDIUM** (analytics); **LOW** (client judgment) | AI transformation advisory, data strategy, climate and sustainability |
+
 ### 4. DFVA SCORECARD
 | # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---:|---|

@@ -20,6 +20,16 @@ Typical graduate roles include analytics manager, business intelligence lead, ma
 | Year 1–2 (graduate) | Analytics manager, BI lead — dashboard management, analytical project ownership, stakeholder reporting | **MEDIUM** — Routine analytical work is AI-compressed; strategic framing and business translation provide some protection |
 | Year 3–5 | Senior analytics lead, data strategy manager | **MEDIUM–LOW** — Decision authority and stakeholder management provide more protection |
 
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Business Analytics | Requirements elicitation, process mapping, dashboard design, stakeholder reporting | **MEDIUM** | Prompt engineering for BI tools, requirements translation to AI specs, scenario modelling |
+| Data Analysis | SQL querying, ETL coordination, statistical summarisation, visualisation in Power BI / Tableau | **HIGH** | Python-native analytics, dbt, cloud data warehousing (Snowflake, BigQuery), ML model evaluation |
+| Operations Analytics | Process efficiency analysis, KPI tracking, simulation modelling, Lean/Six Sigma tooling | **MEDIUM** | Digital twin interpretation, IoT data ingestion, agent-based simulation |
+| Management Consulting | Structured problem decomposition, slide-deck synthesis, client interview facilitation, market sizing | **LOW-MEDIUM** | AI-assisted research synthesis, financial modelling, change management |
+| Product & Commercial Analytics | A/B test design and analysis, revenue attribution, cohort modelling, pricing optimisation | **MEDIUM** | Experimentation platforms (Optimizely, LaunchDarkly), causal inference, real-time analytics |
+| Financial Analytics | Financial modelling, variance analysis, forecasting, regulatory reporting | **MEDIUM-HIGH** | Generative AI for narrative generation, Python-based FP&A, Monte Carlo simulation |
+
 ### 3. DFVA SCORECARD
 *Score data from existing assessment records.*
 

@@ -18,6 +18,16 @@ Graduates typically move into roles at social enterprises, impact investment fun
 | Year 1–2 (graduate) | Social enterprise analyst, impact coordinator — research, reporting, grant writing, stakeholder management | **HIGH** — Research, reporting, and coordination work is highly AI-automatable |
 | Year 3–5 | Social enterprise manager, impact investment analyst | **MEDIUM** — Strategic social enterprise design requires human judgment |
 
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Social Enterprise Management | Business model design, revenue diversification, stakeholder engagement, impact reporting | **LOW-MEDIUM** — strategic and relational core resists substitution; grant-writing and reporting tem... | Systems thinking, blended finance literacy, B Corp certification knowledge |
+| Impact Consulting | Theory of change development, social return on investment (SROI) modelling, evaluation design, client advisory | **MEDIUM** — SROI calculation and data aggregation are automatable; qualitative sense-making and sta... | Mixed-methods evaluation, SROI/LBG frameworks, narrative reporting |
+| NFP Program Management | Program design and delivery, grant acquittal, volunteer management, CRM management | **LOW-MEDIUM** — coordination and compliance tasks partially automatable; community relationship wor... | Outcome measurement, CRM proficiency (Salesforce NFP), grant-writing |
+| CSR & Corporate Sustainability | ESG reporting, stakeholder materiality assessment, community investment strategy, supply chain social risk | **MEDIUM** — ESG data aggregation and GRI/TCFD reporting increasingly AI-assisted; strategy and enga... | GRI Standards, ISSB/CSRD literacy, double materiality assessment |
+| B Corp & Certification Advisory | BIA (B Impact Assessment) facilitation, governance restructuring, policy gap analysis, recertification management | **LOW** — highly relational, bespoke advisory; certification process knowledge is domain-specific | B Impact Assessment methodology, benefit company structures, impact governance |
+| Social Finance & Impact Investing | Impact due diligence, Social Impact Bond (SIB) structuring, ESG portfolio screening, outcomes measurement | **MEDIUM** — quantitative screening automatable; qualitative due diligence and relationship manageme... | Blended finance, outcomes contracting, GIIN IRIS+ metrics |
+
 ### 3. DFVA SCORECARD
 *Score data from existing assessment records.*
 

@@ -20,6 +20,16 @@ The program's research orientation and leadership focus differentiate it from in
 | Year 1–2 (graduate) | Senior teacher, curriculum developer, education researcher | **MEDIUM** — Curriculum design, research, and educational leadership require human judgment |
 | Year 3–5 | Principal, education director, academic researcher | **LOW** — Educational leadership and research require genuine human capability |
 
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Advanced Teaching | Lesson design, differentiated instruction, formative assessment, mentoring early-career teachers, curriculum interpretat... | **LOW-MEDIUM** | Adaptive learning pedagogy, data-informed instruction, trauma-informed practice, culturally responsi... |
+| Curriculum Design | Scope and sequence mapping, standards alignment, resource authoring, assessment design, accreditation documentation | **MEDIUM** | UDL (Universal Design for Learning), digital content authoring (Rise 360, Canvas Studio), competency... |
+| Education Policy | Regulatory analysis, stakeholder consultation, ministerial briefing drafting, program evaluation, evidence synthesis | **LOW-MEDIUM** | Evidence synthesis, policy evaluation frameworks, stakeholder engagement, data literacy |
+| Educational Consulting | Needs analysis, program design, facilitation, vendor assessment, ROI reporting | **MEDIUM** | Organisational learning strategy, AI literacy facilitation, change management, Learning Management S... |
+| School Leadership | Strategic planning, staff performance management, community engagement, timetabling, compliance reporting | **LOW** | Distributed leadership, wellbeing-centred school culture, data-driven school improvement, NAPLAN/ATA... |
+| Education Research | Systematic reviews, mixed-methods data collection, ethics applications, report writing, dissemination | **LOW-MEDIUM** | Systematic review methods, qualitative software (NVivo, ATLAS.ti), open-access publishing norms, AI-... |
+
 ### 3. DFVA SCORECARD
 *Score data from existing assessment records.*
 

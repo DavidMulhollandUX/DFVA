@@ -18,6 +18,16 @@ Graduate roles include surgical educator, simulation director, medical education
 | Year 1–2 (graduate) | Surgical educator, simulation trainer | **LOW** — Teaching surgical skill, assessing surgical competence, and clinical simulation are human-intensive activities |
 | Year 3–5 | Medical education researcher, simulation director | **LOW** — Specialist expertise in surgical education design |
 
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Surgical Education & Training | Designing competency-based surgical curricula, supervising trainees, DOPS/mini-CEX assessment, maintaining college accre... | **LOW** | Entrustable Professional Activity (EPA) design, feedback frameworks, coaching, simulation integratio... |
+| Simulation & Skills Lab | Operating simulation centres, designing procedural skills curricula, facilitating deliberate practice, tracking simulati... | **LOW-MEDIUM** | VR/haptic simulation platform operation, data-driven performance analytics, debriefing methodology |
+| Medical Education Consulting & Program Development | Needs analysis, curriculum mapping, program evaluation, workforce planning reports | **MEDIUM** | Outcomes-based curriculum design, program evaluation using Kirkpatrick/Stufflebeam models, health da... |
+| Clinical Governance & Quality | Coordinating accreditation visits, managing trainee welfare, incident reporting in training contexts, policy development | **LOW** | Governance frameworks, trainee wellbeing protocols, AHPRA compliance, documentation systems |
+| Academic & Research (Medical Education) | Conducting education research (RCTs, mixed-methods), publishing in journals (Medical Education, ANZ Journal of Surgery),... | **LOW** | Qualitative research methods, systematic review methodology, health professions education theory |
+| Faculty Development | Designing and delivering workshops for surgical faculty, coaching senior clinicians on educational roles, CPD portfolio ... | **LOW-MEDIUM** | Adult learning principles, coaching skills, digital CPD platforms, 360-degree feedback facilitation |
+
 ### 3. DFVA SCORECARD
 *Score data from existing assessment records.*
 
