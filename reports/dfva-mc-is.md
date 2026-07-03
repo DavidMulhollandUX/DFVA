@@ -1,17 +1,11 @@
 ## DFVA REPORT: Master of Information Systems (MC-IS)
-
 **Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 1.5–2 years (200 credit points)
 
+**Assessment date:** 2026-05-07  
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-is/  
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 + DFVA-COPILOT-MARKET-v1  
 
----
-
-**Assessment date:** 2026-05-07
-**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-is/
-**Prompt Version:** DFVA-COPILOT-PROMPT-v1
-
----
-
-## 1. PROGRAM PROFILE
+### 1. PROGRAM PROFILE
 
 The Master of Information Systems at the University of Melbourne is a graduate coursework degree targeting candidates with or without prior IT backgrounds (two streams: IT and non-IT entry). The program is housed in the School of Computing and Information Systems. It covers business analysis, enterprise systems, IT project management, data and systems architecture, and strategy. Typical graduate roles include business analyst, IT consultant, systems analyst, project manager, and enterprise architect — with non-IT stream graduates often landing in hybrid business/IT roles.
 
@@ -27,9 +21,7 @@ Key named units include:
 - *Agile Development Practices*
 - *Research Methods in Information Systems* (research track)
 
----
-
-## 2. AUTOMATION EXPOSURE PROFILE
+### 2. AUTOMATION EXPOSURE PROFILE
 
 | Year | Typical Tasks | Automation Risk |
 |---|---|---|
@@ -39,11 +31,19 @@ Key named units include:
 
 **Core risk:** The early-career cluster sits squarely in human middleware territory — translating business needs into structured documentation, managing information flow between stakeholders and dev teams, and maintaining systems configurations.
 
----
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Business Analyst / Systems Analyst | BA declining as standalone title; ads now expect AI-tool and automation-evaluation literacy (LinkedIn Jobs on the Rise 2025) | "Is the BA role dead? — survivors moved to governance before automation hit" | Redesign SA&D from BRD production to automation-audit format |
+| IT Project Manager / Delivery Lead | Entry PM roles down 14% YoY ANZ; 68% of PMOs using AI for status reporting (PMI 2025) | "If your job is JIRA tickets and Confluence, your role is a prompt away from elimination" | Reframe coordination toward AI-assisted delivery + vendor AI governance |
+| Data Analyst / BI Analyst | "Reporting Analyst" postings down 22% YoY; "Analytics Engineer" up 31% (LinkedIn Q1 2026) | Standard dashboards commoditised by BI co-pilots (Power BI, Tableau AI) | Add data-engineering pathway (SQL depth, Python, dbt) |
+| Enterprise / Solutions Architect | EA roles growing 9% CAGR but entry now requires cloud + AI-platform fluency (Gartner 2025) | "EA was declining; AI complexity brought it back" | Make AI system design + API governance core, not TOGAF artifacts |
+| IT Consultant (Big 4 / Boutique) | Deloitte/KPMG/PwC ANZ grad ads now require AI literacy + responsible-AI frameworks | "Learn the tools before you start, not after" | Embed AI-transformation advisory + sector specialisation |
+| AI Product Owner / Automation & GRC Analyst | "Automation Analyst" +47% YoY; "AI Governance Analyst" 34 new ANZ postings; ISO 42001 demand tripling | "AI governance is the new BA" | Create mandatory AI governance core (NIST AI RMF, ISO 42001) |
 
-## 3. DFVA SCORECARD
+### 4. DFVA SCORECARD
 
-| # | Dimension | Score (0-3) | Evidence |
+| # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---:|---|
 | 1 | Automation Exposure of Roles | 1 | First 2–3 years dominated by BA documentation, requirements writing, and process analysis — templated tasks with limited decision ownership |
 | 2 | Systems Thinking and Problem Framing | 2 | *Enterprise Architecture and Governance* and *Systems Analysis and Design* include trade-off framing; not consistently integrated across all units |
@@ -56,26 +56,20 @@ Key named units include:
 | 9 | Curriculum Currency and Adaptability | 2 | 2026 handbook reflects recent review; no explicit AI core units visible — a currency gap for a 2026 program |
 | 10 | Graduate Outcome Evidence | 2 | UniMelb publishes aggregate graduate outcome data; granular role/salary/time-to-employment data for MC-IS not prominently available |
 | B | Irreplaceability Premium (Bonus) | 1 | Some dual-skill value (business + technology bridge), but this profile is common and not deeply differentiated |
-| **TOTAL** | | **18/36** | |
 
-**Risk Band: HIGH RISK (12–19)**
+**TOTAL: 18 / 36**  
+**Risk band: HIGH RISK (12-19)**
 
----
+### 5. THREE THRESHOLD QUESTIONS
 
-## 4. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
+  **YES** — A junior IS graduate's primary outputs — requirements documents, process maps, status reports, stakeholder summaries, sprint documentation, BI dashboards — are all within current GenAI and agentic tool capability. Tools like Copilot, Notion AI, and process automation agents can replicate this output at scale.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?  
+  **UNCERTAIN** — Enterprise architecture and capstone tracks push toward system design and decision ownership. However, the standard coursework track produces graduates who are primarily system *operators* and *intermediaries* rather than system *designers* or *accountable decision-makers*.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
+  **NO** — without significant self-directed upskilling. The BA/analyst/IT coordinator pipeline is contracting as AI tools absorb routine IS work. Graduates who emerge with deep AI governance, data engineering, or enterprise AI implementation skills will be viable. Those who do not will face compression at entry level.
 
-**Q1: Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?**
-**YES.** A junior IS graduate's primary outputs — requirements documents, process maps, status reports, stakeholder summaries, sprint documentation, BI dashboards — are all within current GenAI and agentic tool capability. Tools like Copilot, Notion AI, and process automation agents can replicate this output at scale.
-
-**Q2: Does this program train graduates to design systems, own decisions, or generate original insight?**
-**UNCERTAIN.** Enterprise architecture and capstone tracks push toward system design and decision ownership. However, the standard coursework track produces graduates who are primarily system *operators* and *intermediaries* rather than system *designers* or *accountable decision-makers*.
-
-**Q3: Will these graduates be more employable in 5 years than today, given AI trends?**
-**NO — without significant self-directed upskilling.** The BA/analyst/IT coordinator pipeline is contracting as AI tools absorb routine IS work. Graduates who emerge with deep AI governance, data engineering, or enterprise AI implementation skills will be viable. Those who do not will face compression at entry level.
-
----
-
-## 5. ANALOGUE GRADUATE PROFILE
+### 6. ANALOGUE GRADUATE PROFILE
 
 The MIS graduate mirrors the **Business Analyst of 2019**: a valued bridge between business and technology who organised information, translated requirements, and coordinated delivery. That role is now the primary target of:
 
@@ -87,9 +81,7 @@ The MIS graduate mirrors the **Business Analyst of 2019**: a valued bridge betwe
 
 The MIS graduate is trained for roles that AI tooling is actively dismantling at the entry level.
 
----
-
-## 6. VERDICT
+### 7. VERDICT
 
 **The Master of Information Systems is HIGH RISK for 2027 labour-market viability as currently structured.**
 
@@ -99,23 +91,19 @@ The program has the architecture to be better: enterprise architecture, governan
 
 **Enrol with a clear upskilling plan, not as a standalone credential.**
 
----
+### 8. RECOMMENDATIONS
 
-## 7. RECOMMENDATIONS
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Create mandatory core unit: AI Governance and Deployment (NIST AI RMF, ISO 42001, human-in-the-loop design) | D5, D1, B | "AI Governance Analyst" 34 new ANZ postings; ISO 42001 demand tripling YoY | High |
+| P2 | Mandate real-client AI implementation capstone for all tracks | D4, D1, B | Automation Analyst postings +47% YoY; employers hiring for AI implementation | High |
+| P3 | Redesign SA&D assessment from BRD production to automation audit with governance recommendation | D2, D4, D1 | BA role declining; ads expect automation-candidate evaluation | Medium |
+| P4 | Add mandatory data engineering elective pathway (SQL depth, Python, dbt) | D3, B | "Analytics Engineer" up 31% while "Reporting Analyst" down 22% | Medium |
+| P5 | Introduce sector specialisation requirement (health IT, fintech, or govtech cluster) | D6, B | Big 4 grad ads requiring sector-specific AI advisory | Medium |
+| P6 | Publish granular graduate destination data (role-title, industry, salary, time-to-employment) | D10 | MC-IS granular destination data not currently published | Medium |
+| P7 | Update program marketing and careers framing to AI workflow architect / automation governance analyst | D1 | Entry BA/analyst postings down 18–22% YoY; new AI-titled roles rising | Low |
 
-| Priority | Action | Dimension | Effort |
-|---|---|---|---|
-| 1 | Create mandatory core unit: AI Governance and Deployment (NIST AI RMF, ISO 42001, human-in-the-loop design) | D5, D1, B | High |
-| 2 | Mandate real-client AI implementation capstone for all tracks | D4, D1, B | High |
-| 3 | Redesign SA&D assessment from BRD production to automation audit with governance recommendation | D2, D4, D1 | Medium |
-| 4 | Add mandatory data engineering elective pathway (SQL depth, Python, dbt) | D3, B | Medium |
-| 5 | Introduce sector specialisation requirement (health IT, fintech, or govtech cluster) | D6, B | Medium |
-| 6 | Publish granular graduate destination data (role-title, industry, salary, time-to-employment) | D10 | Medium |
-| 7 | Update program marketing and careers framing to AI workflow architect / automation governance analyst | D1 | Low |
-
----
-
-## 8. THE REDESIGNED GRADUATE PROFILE
+### 9. THE REDESIGNED GRADUATE PROFILE
 
 The viable 2027 MIS graduate is not an information broker — they are an **AI workflow architect with governance accountability**.
 
@@ -127,6 +115,11 @@ Their domain is not "IT" in the generic sense — it is a regulated or high-stak
 
 This graduate does not *use* AI tools. They **govern, supervise, and redesign** them. That is the role that will exist in 2029.
 
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Medium**.
+- Market evidence integrates QILT GOS field-of-study outcomes and JSA HEO destinations with documented IS labour-market trend reports (WEF Future of Jobs 2025, LinkedIn Workforce Report Q1 2026, PMI/Gartner/ISACA 2025) and curriculum-structure inference.
+- For high-stakes curriculum decisions, add a live ANZ job-ad scrape (last 90 days) validating BA/PM/analyst volume and emerging AI-title trends, plus 3–5 employer interviews and MC-IS granular graduate destination data.
+
 ### MARKET DATA
 | Metric | Value |
 |--------|-------|
@@ -137,8 +130,6 @@ This graduate does not *use* AI tools. They **govern, supervise, and redesign** 
 | Occupation demand | MET |
 | AI automation exposure | 45% |
 | Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |
-
----
 
 <!-- LABOUR-EVIDENCE:START -->
 ### REAL GRADUATE DESTINATIONS (JSA HEO · QILT · Adzuna)

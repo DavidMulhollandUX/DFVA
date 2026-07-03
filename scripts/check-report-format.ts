@@ -26,14 +26,14 @@ const RECOMMEND_FILES = readdirSync(reportsDir).filter((f) => f.startsWith('dfva
 // Remove slugs here as phases 1-2 align them. End state = empty Set, strict for all.
 const GRANDFATHERED = new Set<string>([
   // Category B — 5-section format (H1 title, 3-line metadata, capital-D Date)
-  'dfva-b-sci', 'dfva-mc-ba', 'dfva-mc-arch', 'dfva-mc-eng', 'dfva-mc-it',
+  'dfva-b-sci', 'dfva-mc-arch', 'dfva-mc-eng', 'dfva-mc-it',
   'dfva-mc-env', 'dfva-gc-cert', 'dfva-gc-dip', 'dfva-ua', 'dfva-gd-arts',
   'dfva-mc-enveng', 'dfva-mc-engmgmt', 'dfva-mc-urbplan', 'dfva-gd-ag',
   // Category C — 8-section format (misnumbered sections)
   'dfva-746st', 'dfva-527cl', 'dfva-mc-urbdes',
   'dfva-mc-actsc', 'dfva-mc-apbusa', 'dfva-mc-bamktg', 'dfva-mc-base',
   'dfva-mc-clind', 'dfva-mc-datasc', 'dfva-mc-ed', 'dfva-mc-gencoun',
-  'dfva-mc-indeng', 'dfva-mc-intedib', 'dfva-mc-is', 'dfva-mc-journ',
+  'dfva-mc-indeng', 'dfva-mc-intedib', 'dfva-mc-journ',
   'dfva-mc-nursc', 'dfva-mc-phtyph', 'dfva-mc-prop', 'dfva-mc-propsyc',
   'dfva-mc-scwr', 'dfva-mc-surged', 'dfva-mc-tesol',
   // Category D — PhD/doctorate stubs (~3 sections)
@@ -44,7 +44,7 @@ const GRANDFATHERED = new Set<string>([
   'dfva-dr-philvet', 'dfva-mc-ddensur', 'dfva-mc-dmed', 'dfva-mc-doptom',
   'dfva-mc-dphysio', 'dfva-mc-dvetmed', 'dfva-me-dcd',
   // Science MSci stubs
-  'dfva-mc-climsci', 'dfva-mc-envsc', 'dfva-mc-scibif', 'dfva-mc-scibio',
+  'dfva-mc-climsci', 'dfva-mc-envsc', 'dfva-mc-scibif',
   'dfva-mc-scibit', 'dfva-mc-sciche', 'dfva-mc-sciear', 'dfva-mc-sciepi',
   'dfva-mc-sciphy',
   // Bare stubs (missing most sections)
@@ -286,8 +286,8 @@ console.log(
 
 if (warnings.length) {
   console.log(`\n${warnings.length} grandfathered issue(s) (tracked debt, not a failure):`)
-  warnings.slice(0, 50).forEach((w) => console.log('  · ' + w))
-  if (warnings.length > 50) console.log(`  … and ${warnings.length - 50} more`)
+  warnings.slice(0, 9999).forEach((w) => console.log('  · ' + w))
+  if (warnings.length > 9999) console.log(`  … and ${warnings.length - 50} more`)
 }
 
 if (resolvable.length) {
