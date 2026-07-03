@@ -1,4 +1,4 @@
-# Market Intelligence Report: Master of Science (Earth Sciences)
+# DFVA MARKET INTELLIGENCE: Master of Science (MC-SCIEAR)
 
 **Assessment Date:** 2026-05-15 | **Source URL:** https://handbook.unimelb.edu.au/2025/courses/mc-sciear | **Prompt Version:** DFVA-COPILOT-MARKET-v1
 

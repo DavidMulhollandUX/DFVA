@@ -1,4 +1,4 @@
-# DFVA MARKET INTELLIGENCE: Master of Applied Business Analytics
+# DFVA MARKET INTELLIGENCE: Master of Applied Business Analytics (MC-APBUSA)
 
 **Institution:** University of Melbourne
 **Assessment Date:** 2026-06-21

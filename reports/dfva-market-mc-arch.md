@@ -1,4 +1,4 @@
-# DFVA MARKET INTELLIGENCE: Master of Architecture
+# DFVA MARKET INTELLIGENCE: Master of Architecture (MC-ARCH)
 
 **Institution:** University of Melbourne
 **Assessment Date:** 2026-06-21

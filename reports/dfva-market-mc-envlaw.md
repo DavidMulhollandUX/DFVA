@@ -1,4 +1,4 @@
-# DFVA MARKET INTELLIGENCE: Master of Environmental Law
+# DFVA MARKET INTELLIGENCE: Master of Environmental Law (MC-ENVLAW)
 
 **Institution:** University of Melbourne
 **Assessment Date:** 2026-06-21

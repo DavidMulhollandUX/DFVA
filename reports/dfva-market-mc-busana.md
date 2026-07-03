@@ -1,4 +1,4 @@
-# DFVA MARKET INTELLIGENCE: Master of Business Analytics
+# DFVA MARKET INTELLIGENCE: Master of Business Analytics (MC-BUSANA)
 
 **Institution:** University of Melbourne
 **Assessment Date:** 2026-06-21

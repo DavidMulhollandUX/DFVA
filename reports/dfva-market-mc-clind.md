@@ -1,4 +1,4 @@
-# DFVA MARKET INTELLIGENCE: Master of Clinical Dentistry
+# DFVA MARKET INTELLIGENCE: Master of Clinical Dentistry (MC-CLIND)
 
 **Institution:** University of Melbourne
 **Assessment Date:** 2026-06-21

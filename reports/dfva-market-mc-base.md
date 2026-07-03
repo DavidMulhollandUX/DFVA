@@ -1,4 +1,4 @@
-# DFVA MARKET INTELLIGENCE: Master of Advanced Social Enterprise
+# DFVA MARKET INTELLIGENCE: Master of Advanced Social Enterprise (MC-BASE)
 
 **Institution:** University of Melbourne
 **Assessment Date:** 2026-06-21

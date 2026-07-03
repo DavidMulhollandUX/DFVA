@@ -1,4 +1,4 @@
-# DFVA MARKET INTELLIGENCE: Master of Journalism
+# DFVA MARKET INTELLIGENCE: Master of Journalism (MC-JOURN)
 
 **Institution:** University of Melbourne
 **Assessment Date:** 2026-06-21

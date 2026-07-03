@@ -27,34 +27,7 @@ const RECOMMEND_FILES = readdirSync(reportsDir).filter((f) => f.startsWith('dfva
 const GRANDFATHERED = new Set<string>([])
 
 // Market reports — grandfathered until phases 1-2 backfill them
-const MARKET_GRANDFATHERED = new Set<string>([
-  'dfva-market-b-des', // ### instead of ## section headings
-  'dfva-market-b-sci', // ### instead of ##
-  // Stub market reports (missing most sections)
-  'dfva-market-080cl', 'dfva-market-080cn', 'dfva-market-300bb',
-  'dfva-market-439fs', 'dfva-market-527cl', 'dfva-market-746st',
-  'dfva-market-dh-lld', 'dfva-market-dh-sc',
-  'dfva-market-dr-philabp', 'dfva-market-dr-philagr', 'dfva-market-dr-philart',
-  'dfva-market-dr-philbe', 'dfva-market-dr-philedp', 'dfva-market-dr-philedu',
-  'dfva-market-dr-phileit', 'dfva-market-dr-philfam', 'dfva-market-dr-philik',
-  'dfva-market-dr-phillaw', 'dfva-market-dr-philmdh', 'dfva-market-dr-philsci',
-  'dfva-market-dr-philvet',
-  'dfva-market-mc-actsc', 'dfva-market-mc-apbusa', 'dfva-market-mc-arch',
-  'dfva-market-mc-ba', 'dfva-market-mc-bamktg', 'dfva-market-mc-base',
-  'dfva-market-mc-bmedsc', 'dfva-market-mc-busana', 'dfva-market-mc-climsci',
-  'dfva-market-mc-clind', 'dfva-market-mc-cs', 'dfva-market-mc-datasc',
-  'dfva-market-mc-ddensur', 'dfva-market-mc-dmed', 'dfva-market-mc-doptom',
-  'dfva-market-mc-dphysio', 'dfva-market-mc-dvetmed', 'dfva-market-mc-ed',
-  'dfva-market-mc-envlaw', 'dfva-market-mc-envsc', 'dfva-market-mc-gencoun',
-  'dfva-market-mc-indeng', 'dfva-market-mc-intedib', 'dfva-market-mc-is',
-  'dfva-market-mc-journ', 'dfva-market-mc-jurisd', 'dfva-market-mc-nursc',
-  'dfva-market-mc-phtyph', 'dfva-market-mc-prop', 'dfva-market-mc-propsyc',
-  'dfva-market-mc-scibif', 'dfva-market-mc-scibio', 'dfva-market-mc-scibit',
-  'dfva-market-mc-sciche', 'dfva-market-mc-sciear', 'dfva-market-mc-sciepi',
-  'dfva-market-mc-sciphy', 'dfva-market-mc-scwr', 'dfva-market-mc-surged',
-  'dfva-market-mc-tesol', 'dfva-market-mc-urbdes', 'dfva-market-mc-urbhort',
-  'dfva-market-me-dcd',
-])
+const MARKET_GRANDFATHERED = new Set<string>([])
 
 const RECOMMEND_GRANDFATHERED = new Set<string>([])
 
@@ -189,7 +162,9 @@ for (const file of MARKET_FILES) {
   }
 
   // Sections use ## (H2), not ### (H3)
-  const h3Sections = content.split('\n').filter((l) => l.startsWith('### ') && /\d/.test(l))
+  // Flag only mis-leveled numbered TOP-LEVEL sections (### N. NAME), not intentional
+  // subsections like "### JF-1: ..." or "### Declining Demand".
+  const h3Sections = content.split('\n').filter((l) => /^### \d+\.\s/.test(l))
   if (h3Sections.length > 0) {
     issues.push(`${h3Sections.length} section(s) use ### (H3) instead of ## (H2): ${h3Sections.slice(0, 3).join(', ')}`)
   }
@@ -197,10 +172,13 @@ for (const file of MARKET_FILES) {
   // 6 sections required
   const requiredSections = [
     'JOB FAMILY MAP', 'RECENT JOB AD SIGNALS', 'CURRENT DISCUSSION SIGNALS',
-    'WAGE PREMIUM LANDSCAPE', 'SECTOR CONTEXT', 'CURRICULUM SIGNALS SUMMARY',
+    'SKILL SHIFT SUMMARY', 'CURRICULUM IMPLICATIONS', 'EVIDENCE CONFIDENCE + GAPS',
   ]
   for (const sec of requiredSections) {
-    if (!content.includes(`## ${sec}`) && !content.includes(`### ${sec}`)) {
+    // Sections are H2/H3 with an optional "N. " numeric prefix, e.g. "## 1. JOB FAMILY MAP"
+    const secEsc = sec.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+    const secRe = new RegExp(`^#{2,3} (?:\\d+\\. )?${secEsc}`, 'm')
+    if (!secRe.test(content)) {
       issues.push(`missing section "${sec}"`)
     }
   }

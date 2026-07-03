@@ -1,4 +1,4 @@
-# DFVA MARKET INTELLIGENCE: Master of Industrial Engineering
+# DFVA MARKET INTELLIGENCE: Master of Industrial Engineering (MC-INDENG)
 
 **Institution:** University of Melbourne
 **Assessment Date:** 2026-06-21

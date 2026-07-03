@@ -1,4 +1,4 @@
-# DFVA MARKET INTELLIGENCE: Master of Professional Psychology
+# DFVA MARKET INTELLIGENCE: Master of Professional Psychology (MC-PROPSYC)
 
 **Institution:** University of Melbourne
 **Assessment Date:** 2026-06-21

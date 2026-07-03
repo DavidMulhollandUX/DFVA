@@ -106,9 +106,9 @@ All 6 sections are REQUIRED, using `##` (H2):
 | 1 | `## 1. JOB FAMILY MAP` |
 | 2 | `## 2. RECENT JOB AD SIGNALS` |
 | 3 | `## 3. CURRENT DISCUSSION SIGNALS (X)` |
-| 4 | `## 4. WAGE PREMIUM LANDSCAPE` |
-| 5 | `## 5. SECTOR CONTEXT` |
-| 6 | `## 6. CURRICULUM SIGNALS SUMMARY` |
+| 4 | `## 4. SKILL SHIFT SUMMARY` |
+| 5 | `## 5. CURRICULUM IMPLICATIONS` |
+| 6 | `## 6. EVIDENCE CONFIDENCE + GAPS` |
 
 ---
 

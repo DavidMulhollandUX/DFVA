@@ -1,4 +1,4 @@
-# DFVA MARKET INTELLIGENCE: Master of Clinical Psychology
+# DFVA MARKET INTELLIGENCE: Master of Clinical Psychology (527CL)
 
 **Institution:** University of Melbourne
 **Assessment Date:** 2026-06-21
