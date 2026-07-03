@@ -1,5 +1,8 @@
 ## IMPROVEMENT PLAN: Master of Biotechnology (MC-SCIBIT)
 
+**Current:** 25/36 MODERATE RISK | **Duration:** 2 years full-time / 4 years part-time
+**Target:** 28/36 RESILIENT | **Gap:** 3 points
+
 **Assessment date:** 2026-05-13
 **Prompt version:** DFVA-COPILOT-RECOMMENDER-v1
 

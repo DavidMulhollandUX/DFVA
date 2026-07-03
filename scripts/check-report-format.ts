@@ -56,10 +56,7 @@ const MARKET_GRANDFATHERED = new Set<string>([
   'dfva-market-me-dcd',
 ])
 
-const RECOMMEND_GRANDFATHERED = new Set<string>([
-  'dfva-recommend-b-des', 'dfva-recommend-b-sci', 'dfva-recommend-mc-is',
-  'dfva-recommend-mc-scibit', 'dfva-recommend-mc-sciear', 'dfva-recommend-mc-sciepi',
-])
+const RECOMMEND_GRANDFATHERED = new Set<string>([])
 
 const errors: string[] = []
 const warnings: string[] = []

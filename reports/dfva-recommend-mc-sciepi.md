@@ -1,5 +1,8 @@
 ## IMPROVEMENT PLAN: Master of Science (Epidemiology) (MC-SCIEPI)
 
+**Current:** 23/36 MODERATE RISK | **Duration:** 2 years full-time / 4 years part-time
+**Target:** 28/36 RESILIENT | **Gap:** 5 points
+
 **Assessment date:** 2026-05-15
 **Prompt version:** DFVA-COPILOT-RECOMMENDER-v1
 

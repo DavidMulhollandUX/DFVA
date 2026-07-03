@@ -1,5 +1,8 @@
 ## IMPROVEMENT PLAN: Bachelor of Science (B-Sci)
 
+**Current:** 23/36 MODERATE RISK | **Duration:** 3 years (300 credit points)
+**Target:** 28/36 RESILIENT | **Gap:** 5 points
+
 **Assessment date:** 2026-05-13
 **Prompt version:** DFVA-COPILOT-RECOMMENDER-v1
 

@@ -1,5 +1,8 @@
 ## IMPROVEMENT PLAN: Master of Information Systems (MC-IS)
 
+**Current:** 18/36 HIGH RISK | **Duration:** 1.5–2 years (200 credit points)
+**Target:** 28/36 RESILIENT | **Gap:** 10 points
+
 **Assessment date:** 2026-05-07
 **Prompt version:** DFVA-COPILOT-RECOMMENDER-v1
 

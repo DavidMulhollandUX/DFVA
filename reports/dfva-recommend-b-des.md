@@ -1,5 +1,8 @@
 ## IMPROVEMENT PLAN: Bachelor of Design (B-Des)
 
+**Current:** 17/36 HIGH RISK | **Duration:** 3 years (typical full-time)
+**Target:** 28/36 RESILIENT | **Gap:** 11 points
+
 **Assessment date:** 2026-05-13
 **Prompt version:** DFVA-COPILOT-RECOMMENDER-v1
 
