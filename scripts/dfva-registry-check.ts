@@ -2,10 +2,10 @@
  * Report-registry drift check (CI guard). The 41-program report data is hand-
  * maintained in several parallel surfaces; this fails CI when they disagree:
  *   1. compass/app/src/compass/sharedProgramData.ts  (app registry)
- *   2. compass-static/src/data/programData.ts        (static demo registry)
- *   3. reports/dfva-*.md                             (generated markdown files)
- *   4. compass/app/src/compass/reportContent*.ts     (in-app report markdown, keyed by slug)
- *   5. compass/app/src/compass/ReportDetailPage.tsx  (reportMeta score/band map)
+ *   2. reports/dfva-*.md                             (generated markdown files)
+ *   3. compass/app/src/compass/reportContent*.ts     (in-app report markdown, keyed by slug)
+ *   4. compass/app/src/compass/ReportDetailPage.tsx  (reportMeta score/band map)
+ * (compass-static was decommissioned and removed from this cross-check.)
  * Band names are validated against the canonical RISK_BANDS in dfva/source/rubric.ts.
  * Run: npm --prefix scripts run dfva:check-registry  (also part of dfva:check)
  */
@@ -13,7 +13,6 @@ import { existsSync, readFileSync } from 'node:fs'
 import * as path from 'node:path'
 import { RISK_BANDS } from '../dfva/source/rubric'
 import { PROGRAMS as APP_PROGRAMS } from '../compass/app/src/compass/sharedProgramData'
-import { PROGRAMS as STATIC_PROGRAMS } from '../compass-static/src/data/programData'
 import { REPORT_CONTENT } from '../compass/app/src/compass/reportContent'
 
 export const repoRoot = path.resolve(__dirname, '..')
@@ -26,45 +25,14 @@ function bandForScore(score: number): string {
   return b ? b.band : `(no band for ${score})`
 }
 
-// --- A. Registry counts and slug sets ---------------------------------------
-const appBySlug = new Map(APP_PROGRAMS.map((p) => [p.assessmentSlug, p]))
-const staticBySlug = new Map(STATIC_PROGRAMS.map((p) => [p.assessmentSlug, p]))
-
-// compass-static is a deployed snapshot that lags the app registry; its gaps are
-// warnings (tracked, not CI-blocking). A program in static but NOT in the app
-// registry is an error — the live app is the source of truth.
-const staticMissing = [...appBySlug.keys()].filter((slug) => !staticBySlug.has(slug))
-if (staticMissing.length > 0)
-  warnings.push(
-    `compass-static demo is ${staticMissing.length} program(s) behind the app registry (${APP_PROGRAMS.length} vs ${STATIC_PROGRAMS.length})`,
-  )
-for (const slug of staticBySlug.keys())
-  if (!appBySlug.has(slug)) errors.push(`${slug}: in compass-static but missing from app registry`)
-
-// --- B. Per-program agreement between the two registries --------------------
-for (const [slug, a] of appBySlug) {
-  const s = staticBySlug.get(slug)
-  if (!s) continue
-  if (a.score !== s.score) errors.push(`${slug}: score app=${a.score} static=${s.score}`)
-  if (a.riskBand !== s.riskBand) errors.push(`${slug}: riskBand app=${a.riskBand} static=${s.riskBand}`)
-  if (a.dimensions.length !== s.dimensions.length)
-    errors.push(`${slug}: dimension count app=${a.dimensions.length} static=${s.dimensions.length}`)
-  else
-    a.dimensions.forEach((d, i) => {
-      const sd = s.dimensions[i]
-      if (d.label !== sd.label || d.score !== sd.score)
-        errors.push(`${slug}: dimension[${i}] app=${d.label}:${d.score} static=${sd.label}:${sd.score}`)
-    })
-}
-
-// --- C. Band-vs-score consistency against canonical RISK_BANDS --------------
+// --- A. Band-vs-score consistency against canonical RISK_BANDS --------------
 for (const p of APP_PROGRAMS) {
   const expected = bandForScore(p.score)
   if (p.riskBand !== expected)
     errors.push(`${p.assessmentSlug}: score ${p.score} ⇒ ${expected}, registry says ${p.riskBand}`)
 }
 
-// --- D. Registry slugs vs reports/*.md files --------------------------------
+// --- B. Registry slugs vs reports/*.md files --------------------------------
 for (const p of APP_PROGRAMS) {
   for (const [kind, slug] of [
     ['assessment', p.assessmentSlug],
@@ -83,7 +51,7 @@ for (const p of APP_PROGRAMS) {
   }
 }
 
-// --- E. Registry slugs vs in-app REPORT_CONTENT keys ------------------------
+// --- C. Registry slugs vs in-app REPORT_CONTENT keys ------------------------
 for (const p of APP_PROGRAMS) {
   for (const slug of [p.assessmentSlug, p.marketSlug, p.recommendSlug]) {
     if (!slug) continue
@@ -98,7 +66,7 @@ for (const key of Object.keys(REPORT_CONTENT))
   if (!registrySlugs.has(key))
     warnings.push(`REPORT_CONTENT key "${key}" not referenced by any registry program`)
 
-// --- F. reportMeta map in ReportDetailPage.tsx -------------------------------
+// --- D. reportMeta map in ReportDetailPage.tsx -------------------------------
 const detailSrc = readFileSync(
   path.join(repoRoot, 'compass/app/src/compass/ReportDetailPage.tsx'),
   'utf8',
@@ -132,5 +100,5 @@ if (errors.length > 0) {
   process.exit(1)
 }
 console.log(
-  `dfva:check-registry OK — ${APP_PROGRAMS.length} programs consistent across app/static registries, reports/, REPORT_CONTENT and reportMeta (${warnings.length} warning(s)).`,
+  `dfva:check-registry OK — ${APP_PROGRAMS.length} programs consistent across app registry, reports/, REPORT_CONTENT and reportMeta (${warnings.length} warning(s)).`,
 )

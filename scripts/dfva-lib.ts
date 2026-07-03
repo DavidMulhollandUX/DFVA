@@ -2,9 +2,9 @@
  * DFVA generation library (pure — no side effects on import).
  *
  * generateAll() returns a map of repo-relative output path -> file content for:
- *   - compass-static/src/data/rubric.ts            (from dfva/source/rubric.ts)
- *   - compass-static/src/data/dimensionEvidence.ts (from dfva/source/evidence/*.json, when present)
  *   - every prompt target in dfva/source/manifest.ts (templates with {{...}} markers resolved)
+ *
+ * (compass-static demo targets were dropped when that app was decommissioned.)
  *
  * dfva-generate.ts writes the map to disk; dfva-check.ts diffs it against disk.
  */
@@ -106,14 +106,8 @@ export function evidenceFor(programSlug: string, dimId: string): DimensionEviden
 export async function generateAll(): Promise<Map<string, string>> {
   const out = new Map<string, string>()
 
-  // 1. Demo rubric registry (always emitted).
-  out.set('compass-static/src/data/rubric.ts', renderDemoRubricTs())
-
-  // 2. Per-program evidence registry (only when evidence JSON exists).
-  const ev = await renderEvidenceTs()
-  if (ev) out.set('compass-static/src/data/dimensionEvidence.ts', ev)
-
-  // 3. Templated prompt targets (skip any whose template does not exist yet).
+  // Templated prompt targets (skip any whose template does not exist yet).
+  // (compass-static demo registries removed — that app is decommissioned.)
   for (const t of TARGETS) {
     const tmplPath = path.join(targetsDir, t.template)
     if (!existsSync(tmplPath)) {
