@@ -114,9 +114,11 @@ export function crossProgramAnalysis(): CrossProgramAnalysis {
       ? Math.round((aiLiteracyTotal / totalPrograms) * 100) / 100
       : 0;
 
-  // Programs near RESILIENT (overallScore >= 2.0 but not yet RESILIENT)
+  // Programs near RESILIENT: within striking distance of the 28/36 RESILIENT
+  // floor (rubric RISK_BANDS) but not yet there. overallScore is on the /36
+  // scale, consistent with the risk bands and the app's real scores.
   const programsNearResilient = all
-    .filter((a) => a.riskCategory !== 'RESILIENT' && a.overallScore >= 2.0)
+    .filter((a) => a.riskCategory !== 'RESILIENT' && a.overallScore >= 24)
     .map((a) => a.programCode);
 
   return {
