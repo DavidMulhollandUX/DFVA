@@ -50,8 +50,6 @@ const GRANDFATHERED = new Set<string>([
   // Bare stubs (missing most sections)
   'dfva-439fs', 'dfva-mc-bmedsc', 'dfva-mc-busana', 'dfva-mc-envlaw',
   'dfva-mc-urbhort',
-  // Canonical 10-section but metadata minor issues (single-line pipe not yet applied)
-  'dfva-b-des', 'dfva-mc-cs', 'dfva-mc-jurisd',
 ])
 
 // Market reports — grandfathered until phases 1-2 backfill them

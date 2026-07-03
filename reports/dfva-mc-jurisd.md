@@ -1,7 +1,5 @@
 ## DFVA REPORT: Juris Doctor (MC-JURISD)
-**Institution:** University of Melbourne  
-**Level:** Postgraduate (Juris Doctor — Masters (Extended), AQF 9)  
-**Duration:** 3 years full-time (300 credit points)
+**Institution:** University of Melbourne | **Level:** Postgraduate (Juris Doctor — Masters (Extended), AQF 9) | **Duration:** 3 years full-time (300 credit points)
 
 **Assessment date:** 2026-07-08  
 **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-jurisd  

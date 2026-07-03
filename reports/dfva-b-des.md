@@ -1,7 +1,5 @@
 ## DFVA REPORT: Bachelor of Design (B-DES)
-**Institution:** University of Melbourne  
-**Level:** Bachelor  
-**Duration:** 3 years (typical full-time)
+**Institution:** University of Melbourne | **Level:** Bachelor | **Duration:** 3 years (typical full-time)
 
 **Assessment date:** 2026-04-21  
 **Source URL(s):** https://handbook.unimelb.edu.au/2025/courses/b-des  
