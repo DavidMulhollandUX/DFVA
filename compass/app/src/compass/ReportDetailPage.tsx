@@ -47,6 +47,19 @@ import { DIMENSION_EVIDENCE, DimensionEvidence } from "./data/dimensionEvidence"
 import { getFieldForCourse } from "./marketData";
 
 const riskBandStyles: Record<string, string> = {
+  RESILIENT:
+    "bg-emerald-100 text-emerald-800 dark:bg-emerald-900/30 dark:text-emerald-300 border border-emerald-500/20",
+  "MODERATE RISK":
+    "bg-yellow-100 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-300 border border-yellow-500/20",
+  "HIGH RISK":
+    "bg-orange-100 text-orange-800 dark:bg-orange-900/30 dark:text-orange-300 border border-orange-500/20",
+  CRITICAL: "bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-300 border border-red-500/20",
+};
+
+const reportMeta: Record<
+  string,
+  { score: string | null; riskBand: string | null }
+> = {
   "dfva-dr-phileit": { score: "25 / 36", riskBand: "MODERATE RISK" },
   "dfva-dr-philbe": { score: "22 / 36", riskBand: "MODERATE RISK" },
   "dfva-dr-philart": { score: "21 / 36", riskBand: "MODERATE RISK" },
@@ -71,19 +84,6 @@ const riskBandStyles: Record<string, string> = {
   "dfva-mc-ddensur": { score: "25 / 36", riskBand: "MODERATE RISK" },
   "dfva-mc-doptom": { score: "24 / 36", riskBand: "MODERATE RISK" },
   "dfva-mc-dphysio": { score: "26 / 36", riskBand: "MODERATE RISK" },
-  RESILIENT:
-    "bg-emerald-100 text-emerald-800 dark:bg-emerald-900/30 dark:text-emerald-300 border border-emerald-500/20",
-  "MODERATE RISK":
-    "bg-yellow-100 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-300 border border-yellow-500/20",
-  "HIGH RISK":
-    "bg-orange-100 text-orange-800 dark:bg-orange-900/30 dark:text-orange-300 border border-orange-500/20",
-  CRITICAL: "bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-300 border border-red-500/20",
-};
-
-const reportMeta: Record<
-  string,
-  { score: string | null; riskBand: string | null }
-> = {
   "dfva-b-des": { score: "17 / 36", riskBand: "HIGH RISK" },
   "dfva-market-b-des": { score: null, riskBand: null },
   "dfva-mc-is": { score: "18 / 36", riskBand: "HIGH RISK" },
