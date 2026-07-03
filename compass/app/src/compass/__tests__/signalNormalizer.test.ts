@@ -84,20 +84,30 @@ describe('mapJsaIviToField', () => {
 });
 
 describe('Mapping completeness', () => {
-  it('SEEK category map has entries for all 11 DFVA fields', () => {
+  it('SEEK category map has entries for all 10 mappable DFVA fields', () => {
+    // 'Other' is intentionally excluded: it is the normalizer's fallback for
+    // unknown categories, never an explicit mapping target.
     const mappedFields = new Set(Object.values(SEEK_CATEGORY_MAP));
     const dfvaFields = [
       'IT', 'Engineering', 'Health', 'Business', 'Architecture',
-      'Creative Arts', 'Education', 'Law', 'Science', 'Agriculture', 'Other',
+      'Creative Arts', 'Education', 'Law', 'Science', 'Agriculture',
     ];
     for (const field of dfvaFields) {
       expect(mappedFields.has(field)).toBe(true);
     }
   });
 
-  it('Adzuna category map has no duplicate field mappings', () => {
-    const values = Object.values(ADZUNA_CATEGORY_MAP);
-    expect(values.length).toBe(new Set(values).size);
+  it('Adzuna category map only targets valid DFVA fields', () => {
+    // Multiple source categories legitimately collapse onto one DFVA field
+    // (e.g. accounting/consultancy/marketing all → Business), so duplicate
+    // values are expected and correct. Assert the *targets* are all valid.
+    const validFields = new Set([
+      'IT', 'Engineering', 'Health', 'Business', 'Architecture',
+      'Creative Arts', 'Education', 'Law', 'Science', 'Agriculture', 'Other',
+    ]);
+    for (const field of Object.values(ADZUNA_CATEGORY_MAP)) {
+      expect(validFields.has(field)).toBe(true);
+    }
   });
 
   it('JSA IVI map covers all expected ANZSCO major groups', () => {
