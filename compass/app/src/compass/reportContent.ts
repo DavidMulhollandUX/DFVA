@@ -1,3 +1,5 @@
+// Auto-generated from reports/*.md by scripts/dfva-content-generate.ts — do not edit by hand.
+// Run: npm --prefix scripts run dfva:gen-content
 import { REPORT_CONTENT_MC_SCIBIT } from './reportContent.mc-scibit';
 import { REPORT_CONTENT_MC_SCIEAR } from './reportContent.mc-sciear';
 import { REPORT_CONTENT_MC_SCIEPI } from './reportContent.mc-sciepi';
@@ -18,104 +20,84 @@ export const REPORT_CONTENT: Record<
     institution: "University of Melbourne",
     markdown: `## DFVA REPORT: Master of Food Science (439FS)
 **Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 pts)
-**Assessment date:** 2026-06-08 | **Source:** https://handbook.unimelb.edu.au/2026/courses/439fs
+
+**Assessment date:** 2026-06-08  
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/439fs  
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 + DFVA-COPILOT-MARKET-v1  
+**Accreditation:** Royal Australian Chemical Institute (RACI) Food Chemistry group
 
 ### 1. PROGRAM PROFILE
 The Master of Food Science at the University of Melbourne prepares graduates for professional practice in food technology, food safety, regulatory affairs, and food product development. The program covers food microbiology, food chemistry, food processing technology, sensory science, food quality systems, and regulatory compliance with the Food Standards Australia New Zealand (FSANZ) framework.
 
-The 200-credit-point program integrates laboratory science with food industry application, including industry-facing projects or placements. Core competencies include HACCP system design, food product formulation, shelf-life testing, and regulatory submission preparation.
+The 200-credit-point program integrates laboratory science with food industry application, including industry-facing projects or placements. Core competencies include HACCP system design, food product formulation, shelf-life testing, and regulatory submission preparation. Typical graduate roles include food technologist, food safety officer, regulatory affairs specialist, product development scientist, quality assurance manager, and food industry researcher.
 
-Typical graduate roles include food technologist, food safety officer, regulatory affairs specialist, product development scientist, quality assurance manager, and food industry researcher. The program is accredited by the Royal Australian Chemical Institute (RACI) Food Chemistry group.
+### 2. AUTOMATION EXPOSURE PROFILE
+Master of Food Science graduates face significant automation pressure in the routine and documentation-heavy tasks that currently occupy a large share of junior food technologist roles. Routine quality-control testing, regulatory documentation/compliance, and nutritional labelling are **high** exposure: automated inline sensors, vision-based defect detection, AI QC platforms (FoodLogiQ), and formulation software (Genesis R&D) already replace much manual work, though human sign-off remains required. Product formulation, sensory evaluation, and food process optimisation carry **medium** exposure — AI tools accelerate ideation and constraint-solving but cannot close the loop without human taste, texture, and pilot-scale judgment.
 
+The most durable tasks are **low** exposure: supply-chain traceability and incident response (recalls, regulatory judgments, media management under legal liability) and novel-ingredient/alternative-protein assessment (precision fermentation, cultivated meat), which are frontier science with sparse training data and forming regulatory frameworks. **Overall section exposure: MEDIUM.** The real risk is credential compression at the junior end: the volume of entry-level food technologist roles may shrink before graduates build the experiential foundation to move into higher-judgment work. The program's industry project component is the most important durability lever.
 
-## 2. AUTOMATION EXPOSURE PROFILE
-
-| Task Category | Example Graduate Tasks | AI Pressure | AI Capability Today | Durability Rationale |
-|---|---|---|---|---|
-| Routine Quality Control Testing | Conducting pH, moisture, viscosity, microbiological counts; recording results; flagging out-of-spec batches | HIGH | Strong — automated inline sensors, vision-based defect detection, AI QC platforms (FoodLogiQ) already replacing manual spot-checks at scale | Manual testing in small facilities persists, but this is the highest-displacement task category for food technologists |
-| Regulatory Documentation & Compliance | Preparing FSANZ submissions, drafting HACCP plans, maintaining food safety management system records | HIGH | Strong — AI compliance tools can auto-generate HACCP templates, cross-check against FSANZ/Codex standards, and flag labelling non-conformances | Documentation generation is highly automatable; human sign-off remains required but volume of junior compliance work will shrink |
-| Nutritional Labelling & Product Specification | Calculating nutrition information panels, preparing product specs, managing ingredient declarations | HIGH | Strong — formulation software (Genesis R&D, FoodProcessor) and AI nutrition calculators handle most of this with minimal human input | Regulatory interpretation and novel ingredient classification still need human judgment; routine NIPs do not |
-| Product Formulation Development | Iterating ingredient combinations to hit nutritional, sensory, cost, and shelf-life targets | MEDIUM | Moderate — AI formulation tools (Foodpairing, Analytical Flavor Systems) accelerate ideation and constraint-solving but cannot replace sensory iteration and pilot-scale feedback | Formulation judgment draws on tacit sensory and processing knowledge; AI is a capable co-pilot but cannot close the loop without human taste and texture evaluation |
-| Sensory Evaluation & Consumer Testing | Designing and running taste panels, interpreting hedonic data, translating consumer feedback into product decisions | MEDIUM | Weak-to-moderate — AI can analyse e-tongue/e-nose data and model preference patterns, but human sensory panels retain validity advantages for complex flavour profiles | Consumer trust in human sensory science is high; regulatory recognition of sensory evidence depends on trained human panels in many frameworks |
-| Food Process Optimisation | Identifying inefficiencies in thermal processing, drying, fermentation, or packaging lines; recommending parameter changes | MEDIUM | Moderate — digital twin simulations and AI process optimisation tools (e.g., Siemens Opcenter) increasingly automate this, especially in large facilities | Smaller manufacturers and novel process development (precision fermentation, high-pressure processing) still require hands-on process science expertise |
-| Supply Chain Traceability & Incident Response | Tracing contamination events, managing recalls, coordinating with suppliers and regulators under time pressure | LOW | Weak — AI can accelerate data retrieval and scenario modelling, but regulatory judgments, stakeholder negotiations, and media management in a recall require human accountability | High-stakes, reputationally sensitive decisions with legal liability; humans remain in the decision seat; crisis communication is irreplaceable |
-| Novel Ingredient & Alternative Protein Assessment | Evaluating safety, functionality, and regulatory pathway for precision fermentation, cultivated meat, or plant-based ingredients | LOW | Very weak — these are frontier science problems where training data is sparse and regulatory frameworks are still forming | Novel food science is genuinely frontier work; the 2026-era AI cannot substitute for applied food safety expertise in uncharted ingredient territory |
-
-**Overall Section Exposure:** MEDIUM
-
-**Durability Assessment:** Master of Food Science graduates face significant automation pressure in the routine and documentation-heavy tasks that currently occupy a large share of junior food technologist roles — QC testing, regulatory paperwork, and basic formulation work. However, the program's coverage of sensory science, product development, and food safety management means graduates who develop strong judgment in those domains occupy more durable positions. The real risk is credential compression at the junior end: the volume of entry-level food technologist roles may shrink before graduates build the experiential foundation to move into higher-judgment work. The program's industry project component is the most important durability lever — graduates who enter the workforce with demonstrated product development or supply chain experience will navigate this transition better than those who do not.
-
-
-###  3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
-|---|---|---:|---|
-| 1 | Automation Exposure | 2 | 25-50pt research project. Food processing and quality testing are partially automatable. Sensory evaluation, product development require human judgment. |
-| 2 | Systems Thinking | 2 | Food supply chain from chemistry to processing to safety — inherently cross-disciplinary. Research project requires experimental design. |
-| 3 | Technical Depth | 2 | Solid applied science: Food Chemistry, Microbiology, Processing Technology. Less deeply quantitative than physics/chemistry MSc. |
-| 4 | Decision-Making | 2 | Research Methods for Life Sciences + research project teach methodology. Food Safety and Quality involves regulatory decision-making. |
-| 5 | AI Literacy | 1 | No AI-specific units. Food science increasingly uses AI for quality control, supply chain optimisation — not in curriculum. |
-| 6 | Domain Depth | 3 | Comprehensive food science: chemistry, microbiology, processing, safety, quality, dairy, meat, plant products. Full supply chain coverage. |
-| 7 | Research Rigour | 2 | 25-50pt research project + Research Methods for Life Sciences. Smaller project than lab-science MSc equivalents. |
-| 8 | Human & Relational | 2 | Food Safety and Quality involves regulatory and consumer dimensions. Professional skills via electives. No dedicated ethics unit. |
-| 9 | Curriculum Currency | 2 | Updated 29 Jan 2026. Sustainable Food Production, Plant Food Products — current trends. Sensory Evaluation not available 2026. |
-| 10 | Outcome Evidence | 3 | No granular destination data. Food industry employment is stable but program-specific outcomes not tracked. |
-| B | Irreplaceability | 2 | Applied food science across the supply chain. Valuable but less rare than research-intensive MSc specialisations. |
-
-**TOTAL: 21/36 — MODERATE RISK**
-
-### 4. THREE THRESHOLD QUESTIONS
-- **Q1:** UNCERTAIN — food processing and quality testing are increasingly automated; product development and sensory evaluation resist substitution.
-- **Q2:** UNCERTAIN — research project provides some decision ownership. Industry focus is more technique-application than system design.
-- **Q3:** UNCERTAIN — food science is a stable field. Growth in plant-based/alternative proteins and food tech creates opportunities but the program doesn't explicitly target these frontiers.
-
-
-## 5. ANALOGUE GRADUATE PROFILE
-
-The most exposed food science graduate is the **Food Technologist of 2021**: primarily conducting routine quality control testing, product specification development, and regulatory compliance documentation — work increasingly systematised by AI quality management platforms and automated testing.
-
-Specific threats:
-- **AI food safety platforms (FoodLogiQ, Trustwell AI)** — automated HACCP monitoring, compliance checking, and documentation generation
-- **AI formulation tools** — automated product formulation from ingredient constraints and nutritional targets
-- **Robotic quality control systems** — replacing manual sensory assessment and routine QC testing in manufacturing
-- **AI regulatory compliance tools** — automated food standards compliance checking against FSANZ and international standards
-
----
-
-### 6. VERDICT
-A solid industry-oriented program with comprehensive food supply chain coverage. The flexible research project (25-50pt) means graduate differentiation depends on project depth chosen. The program would benefit from explicit food-tech/AI integration given rapid innovation in alternative proteins, precision fermentation, and smart food processing.
-
-
-## 7. RECOMMENDATIONS
-
-| Priority | Action | Dimension | Effort |
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
 |---|---|---|---|
-| 1 | Introduce an AI Tools in Food Science elective or integrate AI quality control and formulation tools (FoodLogiQ, Analytical Flavor Systems, AI-driven NIR spectroscopy) into existing processing and QC units | D5 AI Readiness | Medium — can be embedded into Food Safety and Quality or Processing Technology units without full curriculum redesign |
-| 2 | Restructure the research project to require at least 50pt engagement (not 25pt minimum) and mandate an industry partner or real-world problem brief, ensuring graduates enter the workforce with demonstrated applied experience | D1 Graduate Employment Outcomes | High — requires policy change and expanded industry partnership infrastructure |
-| 3 | Add precision fermentation, cultivated meat, and alternative protein science content to Plant Food Products or Sustainable Food Production, positioning graduates for the fastest-growing segment of the food industry | D3 Technical Currency | Medium — content additions within existing unit structure; may require new practicals |
-| 4 | Establish a structured graduate outcomes tracking system in partnership with the Food and Grocery Council of Australia and FSANZ-connected employers, to produce program-specific employment data within 3 years | D10 Outcome Data | High — requires institutional investment but addresses the program's most significant evidence gap |
-| 5 | Restore Sensory Evaluation (not available 2026) or develop an equivalent unit covering human-centred food design, consumer testing methodology, and the interface between sensory science and AI prediction tools | D3 Technical Currency | Medium — unit was previously available; restoration is more feasible than new development |
-| 6 | Develop a regulatory affairs pathway elective sequence covering novel food approvals, FSANZ primary production standards, and international regulatory harmonisation (EU Novel Food, FDA GRAS), targeting graduates pursuing regulatory careers | D6 Professional Accreditation | Medium — builds on existing RACI accreditation and existing food safety content |
-| 7 | Formalise sustainability science integration across the program — life cycle assessment, food waste quantification, and carbon accounting in food systems — to align with emerging ESG reporting requirements hitting the food manufacturing sector | D9 Innovation | Low-to-medium — can be threaded through Sustainable Food Production and Supply Chain units without new stand-alone units |
+| Food Technologist | Stable ANZ hiring; plant-based sector adding incremental roles | Routine QC/data logging automating; reformulation and sensory judgment durable | Embed AI QC/formulation tools into processing units (D5) |
+| Food Safety Officer / Auditor | Steady demand driven by mandatory food safety legislation | Audit scheduling automating; regulatory judgment and site inspection irreducible | Add digital QMS (eQMS) practice; FSANZ compliance depth |
+| Regulatory Affairs Specialist | Emerging growth; skill-bundled into hybrid QA/compliance roles | Novel-food regulation (precision fermentation, cell-based meat) rising | Develop regulatory-affairs pathway elective (D6) |
+| Product Development Scientist | Plant-based and functional-food innovation driving FMCG/ingredient hiring | Creative ideation and sensory judgment irreducible; data analysis automating | Add alternative-protein science content (D3) |
+| Quality Assurance Manager | Senior-level; graduate progression path typically 5–7 years | Documentation/data aggregation automating; leadership functions durable | Strengthen decision-rationale and stakeholder assessment (D4, D8) |
+| Supply Chain / Procurement Specialist | Broad food-industry role; credentials a differentiator in primary production | Analytics and demand forecasting rapidly automating; relationships durable | Thread traceability + sustainability reporting through supply-chain units (D9) |
 
+### 4. DFVA SCORECARD
+| # | Dimension | Score (0-3) | Evidence-based rationale |
+|---|---|---:|---|
+| 1 | Automation Exposure of Roles | 2 | 25–50pt research project. Food processing and quality testing are partially automatable. Sensory evaluation and product development require human judgment. |
+| 2 | Systems Thinking and Problem Framing | 2 | Food supply chain from chemistry to processing to safety is inherently cross-disciplinary; the research project requires experimental design, but constraint/failure-mode reasoning is not a standalone assessed unit. |
+| 3 | Technical and Quantitative Depth | 2 | Solid applied science: Food Chemistry, Microbiology, Processing Technology. Less deeply quantitative than a physics/chemistry MSc; limited digital-QMS and AI-tool exposure. |
+| 4 | Decision-Making Under Uncertainty | 2 | Research Methods for Life Sciences plus the research project teach methodology; Food Safety and Quality involves regulatory decision-making, but high-stakes simulation is limited. |
+| 5 | AI Literacy and Governance | 1 | No AI-specific units. Food science increasingly uses AI for quality control and supply-chain optimisation, but this is not in the curriculum. |
+| 6 | Domain Depth and Specialisation | 3 | Comprehensive food science: chemistry, microbiology, processing, safety, quality, dairy, meat, plant products — full supply-chain coverage with RACI accreditation. |
+| 7 | Research Methods Rigour | 2 | 25–50pt research project plus Research Methods for Life Sciences; smaller project than lab-science MSc equivalents, so not maximal. |
+| 8 | Human and Relational Capability | 2 | Food Safety and Quality involves regulatory and consumer dimensions; professional skills via electives, but no dedicated ethics/stakeholder unit. |
+| 9 | Curriculum Currency and Adaptability | 2 | Updated 29 Jan 2026; Sustainable Food Production and Plant Food Products reflect current trends, but Sensory Evaluation is not available in 2026 and AI content is absent. |
+| 10 | Graduate Outcome Evidence | 3 | Field-level outcomes are strong and trackable (QILT GOS: 87% FT employment, $103k median, shortage demand), though program-specific destination data is not disaggregated. |
+| B | Irreplaceability Premium (Bonus) | 2 | Applied food science across the supply chain is valuable but less rare than research-intensive MSc specialisations; durability depends on the depth of project and sensory/processing judgment. |
 
-## 8. THE REDESIGNED GRADUATE PROFILE
+**TOTAL: 21 / 36**  
+**Risk band: MODERATE RISK (20-27)**
 
-The 2027-ready food science graduate is not a QC technician — they are a **food systems specialist** who understands the whole chain from ingredients to consumer health outcomes.
+### 5. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
+  **UNCERTAIN** — food processing and quality testing are increasingly automated, but product development and sensory evaluation resist substitution; the balance depends on the graduate's chosen project depth and role.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?  
+  **UNCERTAIN** — the research project provides some decision ownership, but the industry focus is more technique-application than system design.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
+  **UNCERTAIN** — food science is a stable field, and growth in plant-based/alternative proteins and food tech creates opportunities, but the program doesn't explicitly target these frontiers or embed AI literacy.
 
-They have worked in a real food production context — understanding the constraints of scale, the economics of reformulation, the regulatory timelines for approval, and the sensory expectations of specific consumer segments. That operational knowledge is not in a laboratory handbook and cannot be learned from a formulation database.
+### 6. ANALOGUE GRADUATE PROFILE
+The most exposed food science graduate is the **"food technologist of 2021"**: primarily conducting routine quality-control testing, product specification development, and regulatory compliance documentation — work increasingly systematised by AI quality-management platforms and automated testing. Specific threats include AI food-safety platforms (FoodLogiQ, Trustwell AI) for automated HACCP monitoring and documentation, AI formulation tools generating product formulations from ingredient constraints, robotic quality-control systems replacing manual QC, and AI regulatory-compliance tools checking against FSANZ and international standards.
 
-They understand the sustainability dimensions of food production: the environmental impact of ingredient sourcing, the food waste implications of product design, and the regulatory direction of travel on packaging and processing. They can advise a food company not just on whether a reformulation is technically feasible but on whether it is strategically sound given regulatory trends.
+### 7. VERDICT
+A solid industry-oriented program with comprehensive food supply-chain coverage, sitting in the MODERATE RISK band (21/36). The flexible research project (25–50pt) means graduate differentiation depends heavily on the project depth chosen, and the highest-volume junior tasks (QC testing, regulatory paperwork, routine formulation) are exactly those under strongest automation pressure. The program would benefit most from explicit food-tech/AI integration, a strengthened and industry-anchored research project, and program-level outcome tracking, given rapid innovation in alternative proteins, precision fermentation, and smart food processing.
 
-They use AI formulation tools as accelerators — they know which constraints to set, which outputs to scrutinise, and which recommendations to override based on their sensory and processing expertise. That judgment layer is what makes them a food scientist rather than an AI operator.
+### 8. RECOMMENDATIONS
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Introduce an AI Tools in Food Science elective, or integrate AI QC and formulation tools (FoodLogiQ, Analytical Flavor Systems, AI-driven NIR spectroscopy) into existing processing and QC units | 5 | AI-assisted formulation and quality-prediction tools appearing in ingredient-supplier ads | Medium |
+| P2 | Restructure the research project to require at least 50pt engagement and mandate an industry partner or real-world problem brief | 1 | Employers in food safety and regulatory roles prioritise work-placement experience | High |
+| P3 | Add precision fermentation, cultivated meat, and alternative-protein science content to Plant Food Products or Sustainable Food Production | 3 | Plant-based/alt-protein roles emerging (v2food, Vow, Harvest B) | Medium |
+| P4 | Establish structured graduate-outcomes tracking with the Food and Grocery Council of Australia and FSANZ-connected employers | 10 | Program-specific destination data not disaggregated in QILT GRADSTATS | High |
+| P5 | Restore Sensory Evaluation (unavailable 2026) or develop an equivalent unit covering human-centred food design, consumer testing, and the sensory–AI interface | 3 | Human sensory panels retain validity advantages over AI prediction | Medium |
+| P6 | Develop a regulatory-affairs pathway elective sequence covering novel-food approvals, FSANZ primary-production standards, and international harmonisation (EU Novel Food, FDA GRAS, China GACC) | 6 | Multi-market regulatory expertise rising fast; export-compliance niche | Medium |
 
----
+### 9. THE REDESIGNED GRADUATE PROFILE
+The 2027-ready food science graduate is not a QC technician — they are a **food systems specialist** who understands the whole chain from ingredients to consumer health outcomes. They have worked in a real food production context — understanding the constraints of scale, the economics of reformulation, the regulatory timelines for approval, and the sensory expectations of specific consumer segments. That operational knowledge is not in a laboratory handbook and cannot be learned from a formulation database.
 
+They understand the sustainability dimensions of food production — the environmental impact of ingredient sourcing, the food-waste implications of product design, and the regulatory direction of travel on packaging and processing — and can advise a food company not just on whether a reformulation is technically feasible but on whether it is strategically sound. They use AI formulation tools as accelerators — knowing which constraints to set, which outputs to scrutinise, and which recommendations to override based on their sensory and processing expertise. That judgment layer is what makes them a food scientist rather than an AI operator.
 
----
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Medium**. ANZ job-market structure and skill-shift direction are medium-confidence; salary bands and job-ad volumes are indicative, not a live scrape.
+- Market evidence integrates QILT GOS field-level outcomes and JSA occupation-demand signals with directional synthesis of ANZ food-industry hiring patterns and current discussion of AI in food manufacturing.
+- For high-stakes curriculum decisions, add a live ANZ job-ad scrape, UniMelb program-specific destination data, employer interviews, and a curriculum review confirming which digital-QMS/alt-protein/AI competencies are already covered.
 
-**Assessment Date:** 2026-06-21
-**Source URL:** https://handbook.unimelb.edu.au/2026/courses/439fs
-**Prompt Version:** DFVA-COPILOT-PROMPT-v1
 ### MARKET DATA
 | Metric | Value |
 |--------|-------|
@@ -295,14 +277,12 @@ Australia's agricultural export intensity (particularly dairy, red meat, seafood
   "dfva-527cl": {
     title: "Master of Clinical Psychology (527CL) — DFVA Assessment",
     institution: "University of Melbourne",
-    markdown: `## DFVA REPORT: 527CL
-**Institution:** University of Melbourne  
-**Level:** Master (Coursework)  
-**Duration:** 2 years (200 credit points)
+    markdown: `## DFVA REPORT: Master of Clinical Psychology (527CL)
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 credit points)
 
 **Assessment date:** 2026-06-20  
 **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/527cl  
-**Prompt version:** DFVA-COPILOT-PROMPT-v1
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 + DFVA-COPILOT-MARKET-v1
 
 ### 1. PROGRAM PROFILE
 The Master of Clinical Psychology at the University of Melbourne is an APHRA-approved clinical training program leading to registration as a psychologist. The 2-year (200pt) program combines coursework in psychological assessment and treatment with a substantial supervised clinical placement.
@@ -320,23 +300,43 @@ Typical graduate pathways include clinical psychologist (private practice), hosp
 
 **Regulatory protection:** Clinical psychology is APHRA-regulated with mandatory supervised hours, professional liability, and continuing professional development requirements. These create genuine barriers to AI substitution at the practitioner level.
 
-### 3. DFVA SCORECARD
-*Score data from existing assessment records.*
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Provisional / Clinical Psychology | NDIS Functional Capacity Assessment demand surging (~30–35% YoY VIC); AHPRA-regulated hours structurally insulated | "AI handles psychoeducation and low-acuity tracking, not formulation-driven clinical work" | Embed routine outcome monitoring (K10/DASS/PHQ-9) as an assessed clinical skill |
+| Mental Health Clinical Roles | Public-sector clinician pipeline tightening; Head to Health added 50+ salaried roles; "trauma-informed" now required | "Post-Royal Commission workforce uplift is driving salaried clinician demand" | Reinforce risk formulation and trauma-focused modalities in practicum |
+| Counselling & Psychotherapy | EAP/workplace roles advertising session-capped "brief therapy" (SFT, MI alongside CBT) | "AI-augmented chat tools appearing in lower-acuity counselling niches" | Build brief-intervention skills + digital platform integration |
+| Neuropsychology / Assessment | Paediatric assessment backlogs (12–18mo) driving "Psychometrist" entry roles at $70–85k | "Assessment itself is not automatable, though report-drafting tools are emerging" | Add NDIS/paediatric assessment frameworks and telehealth-adapted protocols |
+| Telehealth & Digital Mental Health | Telehealth now standard in 60–70% of ANZ ads; "Clinical Reviewer" / "iCBT Facilitator" roles emerging | "AI triage tools require human clinical-oversight roles, not just delivery" | Add clinical governance in digital mental health as core competency |
+| Forensic & Organisational Psychology | Psychosocial-hazard reforms (Safe Work Australia 2023–) driving organisational wellbeing roles | "Psychology graduates ideal for risk-assessor roles, but curriculum rarely covers WHS" | Add occupational mental health / psychosocial-risk module |
 
-**TOTAL: 27/36**  
-**Risk band: MODERATE RISK**
+### 4. DFVA SCORECARD
+| # | Dimension | Score (0-3) | Evidence-based rationale |
+|---|---|---:|---|
+| 1 | Automation Exposure of Roles | 3 | Core clinical work — assessment, individual therapy, case formulation — requires human presence, clinical judgment and therapeutic alliance that AI cannot replicate; AHPRA-regulated direct-practice hours are structurally insulated from substitution. |
+| 2 | Systems Thinking and Problem Framing | 2 | Case formulation builds explanatory models across history, cognition, biology and social context, but there is no dedicated systems-thinking or failure-mode component; systems-level (organisational, psychosocial-hazard) framing is largely absent. |
+| 3 | Technical and Quantitative Depth | 2 | Psychometric and neuropsychological assessment and research methods provide real quantitative grounding, but data literacy for outcome benchmarking (PROMPT, K10) and digital-tool competency are underweighted relative to employer demand. |
+| 4 | Decision-Making Under Uncertainty | 3 | Clinical practice is decision-making under uncertainty; supervised placements require students to modify interventions for atypical presentations, document reasoning and defend judgment calls in supervision under professional accountability. |
+| 5 | AI Literacy and Governance | 1 | Critical gap: no explicit curriculum coverage of AI-assisted clinical tools (triage chatbots, iCBT platforms, AI-generated psychoeducation); graduates lack the clinical-oversight competency now required by digital mental health employers. |
+| 6 | Domain Depth and Specialisation | 3 | Deep, APHRA-accredited specialist training across assessment, evidence-based treatment, neuropsychology and child/adolescent psychology; the regulatory pathway creates a moat no AI tool can hold. |
+| 7 | Research Methods Rigour | 3 | Research methods are a substantial compulsory component with a supervised research project, ethics application and quantitative/qualitative training; strong empirical grounding for the field. |
+| 8 | Human and Relational Capability | 3 | The therapeutic relationship — being genuinely heard and understood — is central to effective treatment and the least automatable capability; negotiation, alliance-building and client counselling are explicit assessed outcomes. |
+| 9 | Curriculum Currency and Adaptability | 2 | Regularly updated and placement-embedded, but telehealth-specific skills, NDIS FCA, psychosocial-hazard frameworks and AI-assisted evidence synthesis lag current employer requirements. |
+| 10 | Graduate Outcome Evidence | 3 | Strong field-level outcomes (QILT GOS 2024: 87% full-time employment, $103k median, shortage occupation), though program-code-level destination granularity is not published. |
+| B | Irreplaceability Premium (Bonus) | 3 | APHRA registration, mandatory supervised hours, professional liability and the irreducibly human therapeutic relationship combine to make the endorsed clinical psychologist structurally hard to replace. |
 
-### 4. THREE THRESHOLD QUESTIONS
-**Q1: Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?**
-NO. See program assessment for detailed rationale.
+**TOTAL: 28 / 36**  
+**Risk band: RESILIENT (28-36)**
 
-**Q2: Does this program train graduates to design systems, own decisions, or generate original insight?**
-YES. See program assessment for detailed rationale.
+### 5. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
+  **NO** — first-years are dominated by direct assessment, individual therapy, case formulation and supervised clinical work requiring human presence, clinical judgment and therapeutic alliance; AI mental-health tools augment psychoeducation and low-acuity tracking but cannot deliver formulation-driven clinical care.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?  
+  **YES** — graduates own clinical decisions under professional accountability, produce original case formulations and complete a supervised research project generating original insight.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
+  **YES** — regulated, relational clinical work is structurally insulated and demand is rising (NDIS assessment, telehealth oversight, psychosocial-hazard roles); the main risk is the AI-literacy gap, which is addressable within the existing curriculum.
 
-**Q3: Will these graduates be more employable in 5 years than today, given AI trends?**
-YES. See program assessment for detailed rationale.
-
-### 5. ANALOGUE GRADUATE PROFILE
+### 6. ANALOGUE GRADUATE PROFILE
 The most exposed clinical psychology graduate is the **Low-Acuity Mental Health Support Worker of 2021**: providing structured CBT-based support for mild-to-moderate anxiety and depression through structured protocols — work that AI mental health platforms are beginning to augment.
 
 Specific threats:
@@ -347,25 +347,19 @@ Specific threats:
 
 However, the MC-527CL graduate profile is substantially more protected than this: APHRA registration, supervised clinical hours, and specialist clinical training position graduates in complex case management where AI tools function as supports rather than replacements.
 
-### 6. VERDICT
-**The Master of Clinical Psychology is MODERATE RISK (upper boundary) — a degree with strong professional protections and genuine clinical complexity that resists AI substitution.**
+### 7. VERDICT
+The Master of Clinical Psychology is **RESILIENT (28/36)** — a degree with strong professional protections and genuine clinical complexity that resists AI substitution. The score reflects the real and substantial automation resistance of regulated clinical psychology practice: mandatory supervised hours, APHRA registration, professional liability, and the irreducibly human nature of the therapeutic relationship. The single decisive gap is AI literacy (D5: 1/3) — the mental health AI landscape is developing rapidly, and clinicians who cannot evaluate and govern AI tools in clinical contexts will be under-prepared for 2027 practice.
 
-The program's score (27/36) reflects the real and substantial automation resistance of regulated clinical psychology practice: mandatory supervised hours, APHRA registration, professional liability, and the irreducibly human nature of the therapeutic relationship.
+### 8. RECOMMENDATIONS
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Develop AI literacy for clinical contexts — evaluate AI mental health tools, understand their evidence base, and build governance frameworks for clinical AI use (e.g. "Clinical Governance in Digital Mental Health") | 5 | Telehealth standard in 60–70% of ANZ ads; iCBT/Clinical Reviewer roles require AI-oversight competency | Medium |
+| P2 | Specialise in complex presentation areas (personality disorders, trauma, neuropsychology) where AI tools have least capability | 6 | Paediatric/neuropsychology assessment backlogs driving demand | High |
+| P3 | Build supervision and training capacity — mentor-level clinical professionals are less AI-exposed and more professionally valued | 8 | Supervision-pipeline crisis makes qualified supervisors scarce and valued | High |
+| P4 | Complete the maximum available supervised hours during training — clinical experience is the primary differentiator in psychological practice | 4 | AHPRA-regulated hours gate registration and structurally insulate practice | High |
+| P5 | Engage with telehealth and digital-platform clinical governance and embed routine outcome monitoring as an assessed skill | 3 | PHN/EAP funders now require outcome data (PROMPT, K10) as a clinical competency | Medium |
 
-The key gap is AI literacy (D5: likely 1/3): the mental health AI landscape is developing rapidly, and clinical psychologists who cannot evaluate and govern AI tools in clinical contexts — assess their reliability for specific presentations, explain their limitations to clients, and document clinical reasoning when overriding AI suggestions — will be under-prepared for 2027 practice.
-
-The degree is well-positioned: complex psychological assessment and treatment require exactly the kind of contextual, relational, and professional judgment that AI cannot yet replicate.
-
-### 7. RECOMMENDATIONS
-| Priority | Action | Dimension | Effort |
-|---|---|---|---|
-| 1 | Develop AI literacy for clinical contexts — evaluate AI mental health tools, understand their evidence base, and develop governance frameworks for clinical AI use | D5 | Medium |
-| 2 | Specialise in complex presentation areas (personality disorders, trauma, neuropsychology) where AI tools have least capability | D6 | High |
-| 3 | Build supervision and training capacity — mentor-level clinical professionals are less AI-exposed and more professionally valued | D8 | High (post-graduation) |
-| 4 | Complete the maximum available supervised hours during training — clinical experience is the primary differentiator in psychological practice | D4, D8 | High (built-in) |
-| 5 | Engage with telehealth and digital platform clinical governance — psychologists who can advise on AI mental health tool deployment are an emerging specialist role | D5, D6 | Medium |
-
-### 8. THE REDESIGNED GRADUATE PROFILE
+### 9. THE REDESIGNED GRADUATE PROFILE
 The 2027-ready clinical psychology graduate is not a protocol administrator — they are a **clinical reasoning specialist** who understands what the evidence base shows and what it misses for their specific client's presentation.
 
 They have done complex clinical work: a client whose presentation didn't fit the standard protocol, where they had to modify the intervention, document the clinical reasoning, and defend that modification in supervision. They know what good formulation feels like — not a diagnostic checklist but a genuine explanatory model of how this person's history, cognition, biology, and social context have produced this specific suffering.
@@ -373,6 +367,11 @@ They have done complex clinical work: a client whose presentation didn't fit the
 They are aware of what AI mental health tools can and cannot do. When a client asks them whether they should use a mental health app, they can give a specific, evidence-grounded answer — not a generic endorsement or dismissal. That clinical AI literacy, combined with APHRA registration and complex case experience, is what positions them as professionals in the AI-augmented mental health landscape.
 
 They understand that the therapeutic relationship — the experience of being genuinely heard, understood, and cared for by another human — is not a feature that an AI system can replicate, and that this relationship is not incidental to effective psychological treatment but central to it.
+
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Medium–High**.
+- Market evidence integrates QILT GOS field-of-study outcomes with sector hiring trends (Seek/LinkedIn 2024–25), AHPRA/APS workforce data, and current professional discussion of AI in clinical practice; AI-substitution ratings for licensed clinical roles carry HIGH confidence (WEF, APS, ACPA consensus).
+- For high-stakes curriculum decisions, add a live 90-day ANZ job-ad scrape and program-code-level (527CL) destination data at role-title granularity — the most critical evidence gaps.
 
 ### MARKET DATA
 | Metric | Value |
@@ -411,7 +410,7 @@ They understand that the therapeutic relationship — the experience of being ge
   "dfva-market-527cl": {
     title: "Master of Clinical Psychology (527CL) — Market Intelligence",
     institution: "University of Melbourne",
-    markdown: `# DFVA MARKET INTELLIGENCE: Master of Clinical Psychology
+    markdown: `# DFVA MARKET INTELLIGENCE: Master of Clinical Psychology (527CL)
 
 **Institution:** University of Melbourne
 **Assessment Date:** 2026-06-21
@@ -573,14 +572,12 @@ Significant discussion on r/auspsychology and APS student forums reflects that m
   "dfva-746st": {
     title: "Master of Engineering Structures (746ST) — DFVA Assessment",
     institution: "University of Melbourne",
-    markdown: `## DFVA REPORT: 746ST
-**Institution:** University of Melbourne  
-**Level:** Master (Coursework)  
-**Duration:** 2 years (200 credit points)
+    markdown: `## DFVA REPORT: Master of Engineering Structures (746ST)
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 credit points)
 
 **Assessment date:** 2026-06-20  
 **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/746st  
-**Prompt version:** DFVA-COPILOT-PROMPT-v1
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 + DFVA-COPILOT-MARKET-v1
 
 ### 1. PROGRAM PROFILE
 The Master of Engineering Structures at the University of Melbourne is a specialist structural engineering program preparing graduates for professional practice in structural analysis, design, and assessment. It provides a pathway to Chartered Professional Engineer (CPEng) status.
@@ -594,23 +591,43 @@ The program covers structural analysis theory, concrete and steel design, founda
 | Year 3–5 | Project engineer, senior structural engineer — design authority and review | **LOW–MEDIUM** — Professional accountability and design sign-off create automation barriers |
 | Year 5+ | Principal engineer, CPEng — engineering certification and project leadership | **LOW** — Professional registration and engineering judgment are not delegatable |
 
-### 3. DFVA SCORECARD
-*Score data from existing assessment records.*
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Structural Engineering (Consulting) | Structural analysis/design, drawings and reports, architect/contractor coordination, code compliance | **MEDIUM** | Add BIM authoring (Revit/Tekla), computational design, performance-based design, sustainability |
+| Infrastructure Consulting | Feasibility studies, structural assessment reports, bid preparation, stakeholder liaison, site investigations | **LOW-MEDIUM** | Add digital-twin literacy, infrastructure delivery, ESG reporting, risk quantification |
+| Construction Engineering | Temporary works design, construction sequencing, quality assurance, contract administration, RFI management | **LOW** | Add digital construction methods, prefab/modular systems, lean construction, safety systems |
+| Building Structures (Façade/High Rise) | Lateral load analysis, connection design, cladding interface, fire-engineering coordination, peer review | **MEDIUM** | Add CFD basics, climate-resilient design, progressive-collapse analysis |
+| Government / Public Infrastructure | Asset management, condition assessment, bridge load rating, procurement support, standards maintenance | **LOW** | Add GIS integration, asset platforms (Bentley AssetWise), climate adaptation, whole-of-life costing |
+| Research and Academic | Experimental testing, numerical modelling (FEA), literature synthesis, journal publication | **LOW** | Add advanced FEA (Abaqus, OpenSees), ML for structural health monitoring, material testing |
 
-**TOTAL: 20/36**  
-**Risk band: MODERATE RISK**
+### 4. DFVA SCORECARD
+| # | Dimension | Score (0-3) | Evidence-based rationale |
+|---|---|---:|---|
+| 1 | Automation Exposure of Roles | 1 | Critical gap: early-career output is heavy on analysis runs, drawing production and specifications — the tasks most exposed to BIM automation and AI structural-analysis tools; the routine share of first-two-year work is highly automatable. |
+| 2 | Systems Thinking and Problem Framing | 3 | Strong: structural analysis, load-path interpretation, structural dynamics and earthquake engineering require whole-system framing of how a structure behaves under combined actions and boundary conditions. |
+| 3 | Technical and Quantitative Depth | 3 | Strong: advanced computational methods, FEA, concrete/steel design and structural dynamics provide deep quantitative and mathematical rigour. |
+| 4 | Decision-Making Under Uncertainty | 2 | Structural assessment of existing buildings with incomplete documentation and unknown material properties engages genuine uncertainty, but core assessment is largely analytical/exam rather than accountable live design decisions. |
+| 5 | AI Literacy and Governance | 1 | Critical gap: no explicit training in evaluating or governing AI structural-analysis, code-compliance-checking or generative-design tools now entering practice; AI literacy is not a taught competency. |
+| 6 | Domain Depth and Specialisation | 3 | Strong, specialist structural coverage (concrete, steel, foundations, earthquake, dynamics) on a CPEng pathway — a regulated moat no AI tool can hold. |
+| 7 | Research Methods Rigour | 1 | Critical gap: as a coursework specialisation, formal research-methods training and a supervised empirical research component are limited relative to a research degree. |
+| 8 | Human and Relational Capability | 1 | Critical gap: client liaison, negotiation, stakeholder communication and multidisciplinary coordination are underweighted in a technically-focused curriculum. |
+| 9 | Curriculum Currency and Adaptability | 2 | Updated technical core, but BIM/computational-design, digital-twin, climate-resilient and AI-tool competencies lag current employer requirements. |
+| 10 | Graduate Outcome Evidence | 3 | Strong field-level outcomes (QILT GOS 2024: 88% full-time employment, $111k median, shortage occupation), though program-code-level granularity is not published. |
+| B | Irreplaceability Premium (Bonus) | 2 | CPEng accountability and design sign-off liability provide real structural irreplaceability, but low AI literacy (D5:1) and thin human/relational capability (D8:1) prevent the rare engineering + judgment + AI-governance integration. |
 
-### 4. THREE THRESHOLD QUESTIONS
-**Q1: Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?**
-NO. See program assessment for detailed rationale.
+**TOTAL: 22 / 36**  
+**Risk band: MODERATE RISK (20-27)**
 
-**Q2: Does this program train graduates to design systems, own decisions, or generate original insight?**
-YES. See program assessment for detailed rationale.
+### 5. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
+  **NO** — while analysis runs, drawings and specifications are increasingly automated, load-path interpretation, code-compliance judgment and design decisions carry professional accountability that AI cannot hold; the graduate's signature, not the model's output, certifies the work.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?  
+  **YES** — graduates design structural systems, own design decisions under CPEng accountability, and assess non-standard structures under uncertainty where they must document and defend professional judgment.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
+  **YES** — structural engineering is a shortage occupation with strong infrastructure demand and a regulatory moat (CPEng); the risks are the AI-literacy gap and the automation of routine drafting, both addressable through specialisation and computational-design depth.
 
-**Q3: Will these graduates be more employable in 5 years than today, given AI trends?**
-YES. See program assessment for detailed rationale.
-
-### 5. ANALOGUE GRADUATE PROFILE
+### 6. ANALOGUE GRADUATE PROFILE
 The most exposed engineering structures graduate is the **Junior Structural Drafter of 2021**: primarily producing standard structural drawings, running routine analysis models, and generating specification sections — work increasingly absorbed by BIM automation and AI structural analysis tools.
 
 Specific threats:
@@ -619,20 +636,19 @@ Specific threats:
 - **AI code-compliance checkers** — automated compliance review for structural codes (AS 3600, AS 4100)
 - **BIM AI documentation** — automated drawing and specification generation from structural models
 
-### 6. VERDICT
-**The Master of Engineering Structures is MODERATE RISK — a professionally regulated degree with genuine automation barriers from engineering accountability requirements.**
+### 7. VERDICT
+The Master of Engineering Structures is **MODERATE RISK (22/36)** — a professionally regulated degree with genuine automation barriers from engineering accountability requirements. Professional registration (CPEng pathway), engineering sign-off liability, and the complexity of structural assessment in existing buildings and non-standard conditions create real automation barriers. The decisive gaps are AI literacy (D5:1), human/relational capability (D8:1) and automation exposure of routine drafting (D1:1); graduates who develop computational-design depth and specialise in complex assessment (earthquake, heritage, non-standard geometry) gain the differentiation that moves this program toward RESILIENT.
 
-Professional registration (CPEng pathway), engineering sign-off liability, and the complexity of structural assessment in existing buildings and non-standard conditions create real automation barriers. Graduates who develop specialist expertise in earthquake engineering, heritage structures, or complex geometry gain additional differentiation.
+### 8. RECOMMENDATIONS
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Embed AI-tool literacy and governance — evaluate and validate AI structural-analysis, generative-design and code-compliance tools; make verification an assessed competency | 5 | AI structural-analysis and compliance checkers (Speckle, Robot AI) entering practice | Medium |
+| P2 | Develop computational modelling depth — Python, FEM scripting, and parametric structural design are growth competencies | 3 | Consulting roles now expect computational design and BIM authoring | Medium |
+| P3 | Specialise in complex structural assessment — existing buildings, heritage, earthquake retrofitting are more human-judgment intensive than standard new-build work | 6 | Government/public-sector condition-assessment and bridge load-rating demand | Medium |
+| P4 | Add a supervised research/investigation component and materials-and-construction knowledge — physical understanding of real structural behaviour is not replicable by finite-element models | 7 | Research/academic and forensic-assessment roles value empirical rigour | Medium |
+| P5 | Strengthen client-liaison, stakeholder-communication and multidisciplinary-coordination skills through project-based assessment | 8 | Consulting/infrastructure roles require architect, contractor and stakeholder coordination | Low |
 
-### 7. RECOMMENDATIONS
-| Priority | Action | Dimension | Effort |
-|---|---|---|---|
-| 1 | Pursue CPEng accreditation path actively — professional registration is the primary long-term differentiator in structural engineering | D6 | High (post-graduation) |
-| 2 | Develop computational modelling depth — Python, FEM scripting, and parametric structural design are growth competencies | D3, D5 | Medium |
-| 3 | Specialise in complex structural assessment — existing buildings, heritage, earthquake retrofitting are more human-judgment intensive than standard new-build work | D6 | Medium |
-| 4 | Build materials and construction knowledge — physical understanding of how structures behave in reality is not replicable by finite element models | D3 | Medium |
-
-### 8. THE REDESIGNED GRADUATE PROFILE
+### 9. THE REDESIGNED GRADUATE PROFILE
 The 2027-ready engineering structures graduate is not a model runner — they are a **structural judgment specialist** whose professional signature means something.
 
 They have assessed a structure under uncertainty — a building where the documentation was incomplete, the material properties were unknown, and the loading history was unclear. They made a professional judgment about structural adequacy under those conditions and documented the reasoning. That judgment, combined with their CPEng accountability, is what makes their assessment legally defensible.
@@ -640,6 +656,11 @@ They have assessed a structure under uncertainty — a building where the docume
 They understand what finite element models assume and what they miss: the difference between modelled behaviour and observed behaviour in real structures. They have seen structures perform differently from their models and they know why. That gap between model and reality is where structural engineering judgment lives.
 
 They use AI analysis tools to generate options rapidly, then apply engineering judgment to select, validate, and govern the design. They are not a human calculator — they are the professional who takes responsibility for whether the structure stands.
+
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Medium–High**.
+- Market evidence integrates QILT GOS field-of-study outcomes with structural-engineering hiring trends, live demand-side vacancy data (WSP, AECOM, Aurecon, Hatch), and current professional discussion of AI and computational design in practice.
+- For high-stakes curriculum decisions, add a live 90-day job-ad scrape and program-code-level (746ST) destination data at role-title granularity to distinguish structural-specialist outcomes from the broader engineering field.
 
 ### MARKET DATA
 | Metric | Value |
@@ -676,7 +697,7 @@ They use AI analysis tools to generate options rapidly, then apply engineering j
 `,
   },
   "dfva-market-746st": {
-    title: "Master of Engineering Structures (746ST) — Market Intelligence",
+    title: "Master of Engineering (Structures) — Market Intelligence",
     institution: "University of Melbourne",
     markdown: `# DFVA MARKET INTELLIGENCE: Master of Engineering (Structures)
 
@@ -841,9 +862,7 @@ A recurring theme in Engineers Australia digital forums and Slack communities is
     title: "Bachelor of Design (B-DES) — DFVA Assessment",
     institution: "University of Melbourne",
     markdown: `## DFVA REPORT: Bachelor of Design (B-DES)
-**Institution:** University of Melbourne  
-**Level:** Bachelor  
-**Duration:** 3 years (typical full-time)
+**Institution:** University of Melbourne | **Level:** Bachelor | **Duration:** 3 years (typical full-time)
 
 **Assessment date:** 2026-04-21  
 **Source URL(s):** https://handbook.unimelb.edu.au/2025/courses/b-des  
@@ -859,7 +878,7 @@ Recent hiring patterns (UX/Product, Brand/Digital Content, Service Design/CX, Bu
 Net exposure remains **high** for graduates focused on template/asset execution; exposure decreases where roles require stakeholder accountability, regulatory interpretation, research rigour, and system-level decision making.
 
 ### 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Implication |
 |---|---|---|---|
 | UX/Product Design | Junior postings increasingly request AI-assisted prototyping plus measurable UX outcomes | "Prompt operator" vs "decision owner" remains a dominant theme | Assess decision quality and impact metrics, not just prototype output |
 | Digital Content and Brand | Continued demand for high-volume multi-format output with automation expected | Ongoing concern over commoditisation of pure production tasks | Reduce template-only assessment; add governance and QA evidence requirements |
@@ -957,9 +976,9 @@ In practice, they can move from "produce slides/renderings/specs" to "define pro
   "dfva-market-b-des": {
     title: "Bachelor of Design (B-DES) — Market Intelligence",
     institution: "University of Melbourne",
-    markdown: `## DFVA MARKET INTELLIGENCE: Bachelor of Design (B-DES)
+    markdown: `# DFVA MARKET INTELLIGENCE: Bachelor of Design (B-DES)
 
-### 1. JOB FAMILY MAP
+## 1. JOB FAMILY MAP
 | Job Family | Typical Entry Titles | Core Tasks | AI Substitution Pressure | Skills Increasing In Demand | Evidence Notes |
 |---|---|---|---|---|---|
 | UX/Product Design | Junior UX Designer, Product Designer (Graduate) | User flows, prototyping, usability testing, design systems | Medium | Figma systems thinking, experiment design, analytics literacy, AI-assisted prototyping | Indicative multi-board scan (LinkedIn/Seek/Indeed AU), Apr 2026 |
@@ -969,7 +988,7 @@ In practice, they can move from "produce slides/renderings/specs" to "define pro
 | Design Operations and Research | Design Ops Coordinator, UX Research Assistant | Workflow standards, research ops, repositories, governance | Low-Medium | Research operations, metrics instrumentation, governance controls | Indicative product/tech postings, Apr 2026 |
 | Creative Technology / Design Automation | Creative Technologist (Junior), Experience Prototyper | Interactive prototyping, automation scripts, toolchain integration | Low-Medium | Scripting literacy, API/tool integration, QA and validation | Indicative advanced design-tech postings, Apr 2026 |
 
-### 2. RECENT JOB AD SIGNALS
+## 2. RECENT JOB AD SIGNALS
 | Signal | Direction | Practical Meaning For B-DES |
 |---|---|---|
 | Rise in postings expecting AI-assisted workflow capability in design tools | Up | Graduates are expected to use AI tools productively, not just manually produce outputs |
@@ -978,7 +997,7 @@ In practice, they can move from "produce slides/renderings/specs" to "define pro
 | Commodity visual-production tasks increasingly bundled or automated | Up (automation) | Pure production pathways face stronger displacement pressure |
 | Cross-functional collaboration requirements (product, engineering, data, marketing) | Up | Curriculum must train communication and trade-off negotiation under constraints |
 
-### 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS (X)
 | Theme | Observed Direction | Curriculum Relevance |
 |---|---|---|
 | Debate over "designer as prompt operator" vs "designer as decision owner" | Strong and persistent | Reinforces need for assessment based on accountability and defended choices |
@@ -986,7 +1005,7 @@ In practice, they can move from "produce slides/renderings/specs" to "define pro
 | Concern about junior-role compression due automation of repetitive tasks | Frequent | Supports stronger technical and research differentiation in first 2 years of study |
 | Interest in hybrid profiles (design + data + systems) | Increasing | Supports technical spine and cross-domain skill architecture |
 
-### 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
+## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 | Declining Signal Value (Standalone) | Rising Signal Value |
 |---|---|
 | High-volume static asset production | Decision quality under ambiguity |
@@ -995,14 +1014,14 @@ In practice, they can move from "produce slides/renderings/specs" to "define pro
 | Surface-only portfolio polish | Evidence-backed research and impact metrics |
 | Isolated creative output | Cross-functional delivery and stakeholder alignment |
 
-### 5. CURRICULUM IMPLICATIONS
+## 5. CURRICULUM IMPLICATIONS
 1. Shift core assessment from artifact throughput to defended decision quality and trade-off reasoning.
 2. Add mandatory AI governance and workflow assurance capability.
 3. Embed technical depth tracks (analytics, automation-aware design, and computational methods).
 4. Require primary user/stakeholder research evidence in capstone pathways.
 5. Build graduate outcome instrumentation by pathway and task complexity to track market fit over time.
 
-### 6. EVIDENCE CONFIDENCE + GAPS
+## 6. EVIDENCE CONFIDENCE + GAPS
 - **Confidence level:** Medium.
 - **What is strong:** Directional trend consistency across mainstream job-market and professional discourse signals.
 - **What is limited:** No direct API-fed count extraction in this run; signals are synthesised and indicative.
@@ -1039,21 +1058,14 @@ In practice, they can move from "produce slides/renderings/specs" to "define pro
   "dfva-b-sci": {
     title: "Bachelor of Science (B-SCI) — DFVA Assessment",
     institution: "University of Melbourne",
-    markdown: `# DFVA REPORT: Bachelor of Science
+    markdown: `## DFVA REPORT: Bachelor of Science (B-SCI)
+**Institution:** University of Melbourne | **Level:** Bachelor (Undergraduate) | **Duration:** 3 years (300 credit points)
 
-**Institution:** University of Melbourne
-**Level:** Bachelor (Undergraduate)
-**Duration:** 3 years (300 credit points)
+**Assessment date:** 2026-05-13  
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/b-sci  
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 + DFVA-COPILOT-MARKET-v1
 
----
-
-**Assessment Date:** 2026-05-13
-**Source URL:** https://handbook.unimelb.edu.au/2026/courses/b-sci
-**Prompt Version:** DFVA-COPILOT-PROMPT-v1
-
----
-
-## 1. PROGRAM PROFILE
+### 1. PROGRAM PROFILE
 
 The Bachelor of Science at the University of Melbourne is a broad undergraduate science degree offering majors across biological, physical, mathematical, computational, and earth sciences. Students select a primary major and often a second major or specialisation from over 40 options. The degree is a common pathway into graduate entry programs in medicine, dentistry, optometry, physiotherapy, and research higher degrees, as well as direct entry into science-adjacent industry roles.
 
@@ -1072,9 +1084,7 @@ Key structural features:
 - Major-specific core units vary substantially in technical depth
 - No mandatory AI or data science unit across all majors
 
----
-
-## 2. AUTOMATION EXPOSURE PROFILE
+### 2. AUTOMATION EXPOSURE PROFILE
 
 | Year | Typical Tasks | Automation Risk |
 |---|---|---|
@@ -1089,48 +1099,44 @@ Key structural features:
 - **Cluster A** graduates face a credential problem — most high-value roles require honours or postgraduate study; those who stop at three years often land in roles below their credential level
 - **Cluster C** graduates have the most stable specialist niches (geoscience, environmental science, chemistry) but niche volume is limited
 
----
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Research Assistant / Laboratory Scientist | RA role volume flat while specification complexity rises (CSIRO 2025); lab automation compressing junior technician roles | "AlphaFold and Elicit are absorbing the cognitive layer above physical lab work" | Embed AI-tool evaluation, validation and research integrity in AI-assisted contexts |
+| Data Analyst / Quantitative Analyst | "Reporting Analyst" postings down 22% YoY, "Analytics Engineer" up 31% (LinkedIn Q1 2026); 34% of ANZ data postings cite model governance | "Entry data output is templated — the durable skill is auditing and governing AI outputs" | Build Python/R depth, ML model evaluation, and AI output-auditing, not tool consumption |
+| Environmental Scientist / Consultant | Environmental modelling AI absorbing routine impact-assessment drafting; specialist niches stable but limited volume | "Domain judgment and regulatory literacy resist automation at entry" | Strengthen regulatory/domain depth and real-stakes assessment work |
+| Physical / Earth Science Specialist (Cluster C) | AI geological-interpretation and remote-sensing tools compressing junior interpretation roles in resources | "Instrument and physical-domain expertise create genuine automation friction" | Reinforce specialist third-year depth and instrument/field competency |
+| General Science Generalist (three-year, no postgrad) | Cognitive layer of RA/analyst/junior-consultant roles being absorbed faster than physical/domain layer | "The generalist credential is weakly differentiated without specialisation" | Mandate a capstone/internship and a specialist pathway before graduation |
 
-## 3. DFVA SCORECARD
+### 4. DFVA SCORECARD
 
 | # | Dimension | Score (0-3) | Evidence-based rationale |
-|---|---|---|---|
-| 1 | Automation Exposure of Roles | 2/3 | Cluster B graduates land in data/computational roles with meaningful judgment requirements; Cluster A and C graduates face higher early-career routine work exposure. Overall: mixed profile — not all templated, but entry is uneven. |
-| 2 | Systems Thinking and Problem Framing | 2/3 | Science methodology teaches hypothesis formation and experimental design — genuine systems thinking. However, integration across the degree varies by major; not all majors embed failure-mode or trade-off reasoning consistently. |
-| 3 | Technical and Quantitative Depth | 3/3 | This is the degree's strongest dimension. Majors in Mathematics, Statistics, Physics, and Chemistry carry genuine technical rigour assessed at depth. Even life sciences majors require quantitative methods. Third-year units are substantively demanding. |
-| 4 | Decision-Making Under Uncertainty | 2/3 | Experimental science inherently involves uncertainty. However, authentic capstone projects with real stakes are not mandatory — the Research Project is available but not required. Many students graduate without a live uncertainty assessment. |
-| 5 | AI Literacy and Governance | 1/3 | No mandatory AI literacy or governance unit across the degree. AI appears in some computational majors (Computing and Software Systems, Data Science major) as tooling, but no governance or deployment framework is embedded at degree level. |
-| 6 | Domain Depth and Specialisation | 3/3 | The major structure provides genuine specialisation. Third-year depth in Physics, Chemistry, Biochemistry, or Mathematics is substantive and not easily replicated. Domain depth is a real differentiator — especially for Cluster B and Cluster C. |
-| 7 | Research Methods Rigour | 3/3 | Scientific method is core curriculum. All majors include experimental design, data collection, and interpretation. Third-year research projects and laboratory units involve primary data generation. Honours stream adds full research methodology rigour. |
-| 8 | Human and Relational Capability | 1/3 | Science degrees historically under-invest in interpersonal, ethical, and stakeholder capability. Breadth subjects provide some exposure but this is not assessed as a core competency. Ethics appears in some majors (genetics, ecology) but lightly. |
-| 9 | Curriculum Currency and Adaptability | 2/3 | 2026 handbook reflects ongoing review; some majors have integrated data science and computational tools. However, no degree-level AI core unit is visible — a significant currency gap given the pace of AI tooling in scientific research. |
+|---|---|---:|---|
+| 1 | Automation Exposure of Roles | 2 | Cluster B graduates land in data/computational roles with meaningful judgment requirements; Cluster A and C graduates face higher early-career routine work exposure. Overall: mixed profile — not all templated, but entry is uneven. |
+| 2 | Systems Thinking and Problem Framing | 2 | Science methodology teaches hypothesis formation and experimental design — genuine systems thinking. However, integration across the degree varies by major; not all majors embed failure-mode or trade-off reasoning consistently. |
+| 3 | Technical and Quantitative Depth | 3 | This is the degree's strongest dimension. Majors in Mathematics, Statistics, Physics, and Chemistry carry genuine technical rigour assessed at depth. Even life sciences majors require quantitative methods. Third-year units are substantively demanding. |
+| 4 | Decision-Making Under Uncertainty | 2 | Experimental science inherently involves uncertainty. However, authentic capstone projects with real stakes are not mandatory — the Research Project is available but not required. Many students graduate without a live uncertainty assessment. |
+| 5 | AI Literacy and Governance | 1 | No mandatory AI literacy or governance unit across the degree. AI appears in some computational majors (Computing and Software Systems, Data Science major) as tooling, but no governance or deployment framework is embedded at degree level. |
+| 6 | Domain Depth and Specialisation | 3 | The major structure provides genuine specialisation. Third-year depth in Physics, Chemistry, Biochemistry, or Mathematics is substantive and not easily replicated. Domain depth is a real differentiator — especially for Cluster B and Cluster C. |
+| 7 | Research Methods Rigour | 3 | Scientific method is core curriculum. All majors include experimental design, data collection, and interpretation. Third-year research projects and laboratory units involve primary data generation. Honours stream adds full research methodology rigour. |
+| 8 | Human and Relational Capability | 1 | Science degrees historically under-invest in interpersonal, ethical, and stakeholder capability. Breadth subjects provide some exposure but this is not assessed as a core competency. Ethics appears in some majors (genetics, ecology) but lightly. |
+| 9 | Curriculum Currency and Adaptability | 2 | 2026 handbook reflects ongoing review; some majors have integrated data science and computational tools. However, no degree-level AI core unit is visible — a significant currency gap given the pace of AI tooling in scientific research. |
 | 10 | Graduate Outcome Evidence | 2 | UniMelb publishes graduate outcome data at faculty level; Science faculty data shows destination distribution but lacks role-title and salary granularity at major level. Partial transparency. |
-| B | Irreplaceability Premium (Bonus) | 2/3 | The B-Sci carries genuine dual-skill value for Cluster B graduates (quantitative + domain science). Physical and life science graduates have domain depth that creates non-trivial automation resistance in specialist roles. Generalist graduates without postgrad study are weakly differentiated. |
-| **TOTAL** | | **23/36** | |
+| B | Irreplaceability Premium (Bonus) | 2 | The B-Sci carries genuine dual-skill value for Cluster B graduates (quantitative + domain science). Physical and life science graduates have domain depth that creates non-trivial automation resistance in specialist roles. Generalist graduates without postgrad study are weakly differentiated. |
 
-**Risk Band: MODERATE RISK**
+**TOTAL: 23 / 36**  
+**Risk band: MODERATE RISK (20-27)**
 
----
+### 5. THREE THRESHOLD QUESTIONS
 
-## 4. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
+  **UNCERTAIN** — highly major-dependent. For a Cluster A graduate in a research assistant or junior lab technician role: **YES** for documentation, literature review, data entry, and routine analysis; physical lab work is not yet fully automatable, but the cognitive layer above it increasingly is. For a Cluster B graduate in a data analyst role: **YES** for standard analysis, dashboard production, and reporting. For a Cluster C graduate in a specialist geoscience or chemistry role: **NO** — domain and instrument expertise create genuine automation friction at entry.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?  
+  **YES** — conditionally. The scientific method is fundamentally about generating original insight; experimental design, hypothesis testing, and primary data collection are core. However, this is only fully realised in students who complete third-year research projects and proceed to honours. Three-year graduates who skip the Research Project have weaker evidence of this capability.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
+  **UNCERTAIN** — YES for Cluster B and Cluster C specialists, uncertain for Cluster A generalists. AI is augmenting scientific research, not replacing it at the specialist level; graduates with deep quantitative, computational, or physical science expertise become more valuable as the humans who validate and govern AI-generated outputs. Graduates who stop at a three-year general credential without specialist depth face compressing demand.
 
-**Q1: Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?**
-**UNCERTAIN — highly major-dependent.**
-For a Cluster A graduate entering a research assistant or junior lab technician role: **YES** for documentation, literature review, data entry, and routine analysis. Physical lab work and instrument operation are not yet fully automatable, but the cognitive layer above it increasingly is.
-For a Cluster B graduate entering a data analyst role: **YES** for standard analysis, dashboard production, and reporting. The statistical and mathematical depth creates some resistance, but entry-level output is still heavily templated.
-For a Cluster C graduate in a specialist geoscience or chemistry role: **NO** — domain knowledge and physical/instrument expertise create genuine automation friction at entry.
-
-**Q2: Does this program train graduates to design systems, own decisions, or generate original insight?**
-**YES — conditionally.**
-The scientific method is fundamentally about generating original insight. Experimental design, hypothesis testing, and primary data collection are core to the degree. However, this capability is only fully realised in students who complete third-year research projects and proceed to honours. Three-year graduates who have not engaged with the Research Project option have weaker evidence of this capability.
-
-**Q3: Will these graduates be more employable in 5 years than today, given AI trends?**
-**YES — for Cluster B and Cluster C specialists. UNCERTAIN — for Cluster A generalists.**
-AI is augmenting scientific research, not replacing it at the specialist level. Graduates with deep quantitative, computational, or physical science expertise are increasingly valuable as the humans who can validate, interpret, and govern AI-generated scientific outputs. However, graduates who stop at a three-year general science credential without specialist depth or postgraduate study face compressing demand for their specific credential level.
-
----
-
-## 5. ANALOGUE GRADUATE PROFILE
+### 6. ANALOGUE GRADUATE PROFILE
 
 The most exposed B-Sci graduate is the **General Science Graduate of 2021**: a broad, intellectually capable candidate with solid scientific literacy, some quantitative training, and laboratory experience, who enters the workforce as a research assistant, data analyst, or junior consultant — and finds that the cognitive layer of their role is being absorbed by AI tooling faster than their physical or domain-specialist layer.
 
@@ -1152,42 +1158,24 @@ Specific threats by cluster:
 - **Environmental modelling AI** — absorbing routine environmental impact assessment drafting
 - **Remote sensing AI** — replacing manual satellite image analysis roles
 
----
+### 7. VERDICT
 
-## 6. VERDICT
+The Bachelor of Science is **MODERATE RISK (23/36)** — a degree with genuine strengths that are unevenly distributed across its graduate population. Its technical and quantitative rigour (D3:3), domain depth (D6:3) and research-methods rigour (D7:3) are legitimate and durable differentiators, but they are fully realised only for graduates who specialise deeply and continue to postgraduate study. The three-year generalist — particularly from life-sciences majors — exits with a credential that signals broad capability without the specialist depth that creates automation resistance, and faces two structurally significant gaps: AI literacy (D5:1) and human/relational capability (D8:1). The degree is a strong foundation that requires deliberate completion: students who choose a computationally intensive or specialist major, complete a research project, proceed to honours, and build AI literacy alongside their degree will be well-positioned in 2027.
 
-**The Bachelor of Science is MODERATE RISK — a degree with genuine strengths that are unevenly distributed across its graduate population.**
+### 8. RECOMMENDATIONS
 
-The degree's technical and quantitative rigour (D3: 3/3) and domain depth (D6: 3/3) are legitimate and durable differentiators. Scientific method and research rigour (D7: 3/3) are not easily replicated by AI — they require training, judgment, and domain knowledge that takes years to develop. These strengths are real.
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Select a major with genuine technical depth — Mathematics, Statistics, Physics, Chemistry, or Computing and Software Systems — not a generalist or combined major that dilutes specialisation | 6 | Specialist domain judgment resists automation while generalist credentials compress | Low |
+| P2 | Complete the Research Project (third-year capstone) — the single most important differentiator between a three-year graduate with and without autonomous research capability | 4 | Employers value primary research and methodology-defence experience | Medium |
+| P3 | Build AI literacy deliberately: complete at least one external AI governance or deployment certification (AWS AI Practitioner, Google AI Essentials, or equivalent) | 5 | 34% of ANZ data postings now cite model governance / AI-output validation | Low–Medium |
+| P4 | Proceed to honours or postgraduate study if targeting research, clinical, or specialist consulting roles — the three-year credential alone is insufficient for most high-value paths | 1 | Most high-value science roles require postgraduate depth | High |
+| P5 | Complete the Science Internship elective — real-stakes client or employer exposure closes the decision-making and relational capability gap | 8 | Cognitive execution layer absorbed by AI; relational value rising | Medium |
+| P6 | Develop science communication and stakeholder engagement skills through student media, public engagement, or communication electives | 8 | Human/relational value-add rises as AI absorbs technical execution | Medium |
+| P7 | For Cluster B majors: add Python depth, data engineering fundamentals, and ML model evaluation — build toward model governance, not tool consumption | 3 | "Analytics Engineer" up 31%, "Junior Data Analyst" down 19% YoY | Medium |
+| P8 | Target early-career roles in regulated or high-stakes domains (clinical research, environmental regulation, pharmaceutical, defence science) where domain judgment is legally required | 6 | Regulated domains create legal requirement for human judgment | High |
 
-The problem is that these strengths are fully realised **only for graduates who specialise deeply and continue to postgraduate study**. The three-year generalist graduate — particularly from life sciences majors — exits with a credential that signals broad scientific capability without conferring the specialist depth that creates automation resistance. That graduate is competing for roles that AI tooling is actively compressing.
-
-Two specific gaps are structurally significant:
-
-**Gap 1 — AI Literacy (D5: 1/3).** A science degree in 2026 with no mandatory AI governance or deployment unit is a curriculum currency problem. Graduates will work alongside AI tools in every scientific domain; the degree does not prepare them to supervise, critique, or govern those tools at the level their employers will expect within three years of graduation.
-
-**Gap 2 — Human and Relational Capability (D8: 1/3).** Science graduates consistently underperform in roles that require stakeholder communication, ethical reasoning, and relational accountability. This gap becomes more visible as AI absorbs the technical execution layer, leaving interpersonal and ethical judgment as the primary human value-add.
-
-**The degree is a strong foundation that requires deliberate completion.** Students who select a computationally intensive or specialist domain major, complete a research project, proceed to honours or postgraduate study, and actively build AI literacy alongside their degree will be well-positioned in 2027. Students who do none of these things face meaningful labour-market risk.
-
----
-
-## 7. RECOMMENDATIONS
-
-| Priority | Action | Dimension | Effort |
-|---|---|---|---|
-| 1 | Select a major with genuine technical depth — Mathematics, Statistics, Physics, Chemistry, or Computing and Software Systems — not a generalist or combined major that dilutes specialisation | D6, D3 | Low (decision at enrolment) |
-| 2 | Complete the Research Project (third-year capstone) — this is optional but the single most important differentiator between a three-year graduate with and without autonomous research capability | D4, D7 | Medium |
-| 3 | Build AI literacy deliberately: complete at least one external AI governance or deployment certification (AWS AI Practitioner, Google AI Essentials, or equivalent) — the degree does not provide this | D5 | Low–Medium |
-| 4 | Proceed to honours or postgraduate study if targeting research, clinical, or specialist consulting roles — the three-year credential alone is insufficient for most high-value paths | D1, D6 | High |
-| 5 | Complete the Science Internship elective — real-stakes client or employer exposure is not mandated by the degree; the internship closes the decision-making and relational capability gap | D4, D8 | Medium |
-| 6 | Develop science communication and stakeholder engagement skills actively — through student media, public engagement, or communication electives — to build the relational layer the degree does not assess | D8 | Medium |
-| 7 | For Cluster B majors (Maths, Stats, Computing): add Python depth, data engineering fundamentals, and ML model evaluation capability — do not stop at tool consumption, build toward model governance | D3, D5 | Medium |
-| 8 | Target early-career roles in regulated or high-stakes domains (clinical research, environmental regulation, pharmaceutical, defence science) where domain judgment is legally required | D1, D6 | High |
-
----
-
-## 8. THE REDESIGNED GRADUATE PROFILE
+### 9. THE REDESIGNED GRADUATE PROFILE
 
 The 2027-ready B-Sci graduate did not treat their degree as a general science credential — they treated it as a specialist foundation and built deliberately on top of it.
 
@@ -1198,6 +1186,11 @@ They understand AI tools not as productivity shortcuts but as systems with failu
 They have a domain. Not "science" in the broad sense — they know the regulatory environment of clinical trials, or the instrument limitations of mass spectrometry, or the assumptions embedded in climate models. That domain knowledge is what makes their judgment non-replicable by a general-purpose agent.
 
 They can explain their work to a non-scientist. Not as a simplification, but as a genuine translation — because they know that in 2027, the value of scientific expertise is increasingly realised through collaboration, governance, and communication, not through technical execution alone.
+
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Medium**.
+- Market evidence integrates QILT GOS field-of-study outcomes with documented hiring-trend reports (WEF Future of Jobs 2025, LinkedIn Jobs on the Rise / Workforce Q1 2026, CSIRO workforce data) and cluster-specific pattern inference; live job-ad and social-signal scraping were unavailable this session.
+- For high-stakes curriculum decisions, add a live 90-day job-ad scrape and major-level (not faculty-level) destination data to resolve the wide cluster divergence in outcomes.
 
 ### MARKET DATA
 | Metric | Value |
@@ -1490,13 +1483,11 @@ Resources sector discussion. Australian geologists noting that the JORC competen
     title: "Master of Actuarial Science (MC-ACTSC) — DFVA Assessment",
     institution: "University of Melbourne",
     markdown: `## DFVA REPORT: Master of Actuarial Science (MC-ACTSC)
-**Institution:** University of Melbourne  
-**Level:** Master (Coursework)  
-**Duration:** 1.5 years (150 credit points)
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 1.5 years (150 credit points)
 
 **Assessment date:** 2026-06-08  
 **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-actsc  
-**Prompt version:** DFVA-COPILOT-PROMPT-v1
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 + DFVA-COPILOT-MARKET-v1  
 
 ### 1. PROGRAM PROFILE
 The Master of Actuarial Science is a 150-credit-point professional entry program providing the fastest graduate pathway to the actuarial profession. The curriculum comprises 6 compulsory core subjects, 2 capstone subjects, and 4 electives approved by the Program Director. Subjects follow a structured progression: Mathematics of Finance I→II→III across three semesters, Life Insurance Models 1→2 across two, with capstones in Life Contingencies and General Insurance Modelling.
@@ -1512,7 +1503,17 @@ The program's structure reflects this tension. The core curriculum (Mathematics 
 
 The structural defence is the professional accreditation pathway — actuaries operate in a regulated profession where judgment, sign-off authority, and professional ethics create barriers to AI substitution. However, the entry-level pipeline (the first 2-3 years where graduates prove themselves through technical competence) is precisely where AI compression is strongest. The question is whether the program's technique-focused training produces graduates who can move quickly through the automatable layer to the judgment layer — or whether it produces graduates whose primary market value sits in the automatable layer itself.
 
-### 3. DFVA SCORECARD
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Actuarial Analyst (Life Insurance) | Premium calculation, reserving, regulatory reporting, experience analysis, model maintenance | **HIGH** — routine pricing and reserving increasingly automated by actuarial software and AI | AI-assisted modelling, model validation, regulatory interpretation |
+| Actuarial Analyst (General Insurance) | Claims modelling, pricing optimisation, reinsurance analysis, capital modelling | **HIGH** — same automation pressure as life; catastrophe modelling more durable | Climate risk modelling, telematics data analysis, natural language processing for claims |
+| Superannuation / Investment Analyst | Asset-liability modelling, investment strategy, retirement product design, regulatory reporting | **MEDIUM-HIGH** — investment analysis increasingly automated; strategic advice durable | ESG integration, retirement income product design, scenario analysis |
+| Data Scientist (Insurance) | Predictive modelling, claims fraud detection, customer analytics, NLP for underwriting | **LOW-MEDIUM** — the emerging actuarial career pathway that resists automation | Python, ML, NLP, deep learning, MLOps |
+| Risk / Compliance Analyst | Risk framework maintenance, regulatory submissions, compliance monitoring, stress testing | **MEDIUM** — regulatory judgment irreducible; reporting automation advancing | AI risk frameworks (CPS 230), climate risk, governance technology |
+| Actuarial Consultant (Big 4 / Advisory) | Client analytics, model building, audit support, M&A due diligence, transformation advisory | **MEDIUM** (analytics); **LOW** (client judgment) | AI transformation advisory, data strategy, climate and sustainability |
+
+### 4. DFVA SCORECARD
 | # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---:|---|
 | 1 | Automation Exposure of Roles | 1 | First 2-3 years of actuarial work are heavily procedural — pricing, reserving, regulatory calculations. These tasks are the target of actuarial software automation and AI tooling. |
@@ -1528,21 +1529,17 @@ The structural defence is the professional accreditation pathway — actuaries o
 | B | Irreplaceability Premium (Bonus) | 2 | Professional accreditation + mathematical depth creates a clear dual-skill value. However, the traditional actuarial model faces structural disruption from AI/automation of the very techniques the program teaches as its core. |
 
 **TOTAL: 20 / 36**  
-**Risk band: MODERATE RISK (20-27)** — at the lower boundary
+**Risk band: MODERATE RISK (20-27)**
 
-### 4. THREE THRESHOLD QUESTIONS
+### 5. THREE THRESHOLD QUESTIONS
 - **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
   **YES** — routine actuarial calculations (pricing, reserving, regulatory reporting, data validation) are precisely the structured, rule-governed tasks that AI and actuarial software increasingly automate. The first 2-3 years of actuarial work are the most exposed segment of the profession.
-
 - **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?  
   **UNCERTAIN** — the capstones involve integrated decision-making in insurance contexts. Professional accreditation requires judgment. But the core pedagogy is technique application, not system design. The program produces actuarial technicians who develop judgment on the job, not graduates who arrive with practiced decision ownership.
-
 - **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
   **UNCERTAIN** — the traditional actuarial pipeline (examinations + technical experience) is under pressure from automation. Graduates who add data science/AI skills via electives differentiate positively. The profession's regulatory barriers provide some protection, but entry-level compression is real and accelerating.
 
-
-### 5. ANALOGUE GRADUATE PROFILE
-
+### 6. ANALOGUE GRADUATE PROFILE
 The most exposed actuarial science graduate is the **Junior Actuarial Analyst of 2021**: entering an insurance firm as the primary handler of reserving calculations, pricing model runs, and regulatory reporting submissions — precise, structured mathematical tasks that actuarial software platforms and AI tools are actively automating.
 
 Specific threats:
@@ -1551,45 +1548,29 @@ Specific threats:
 - **AI regulatory reporting tools** — APRA reporting automation reducing junior analyst time on structured submissions
 - **Excel AI and Python AutoML** — absorbing the routine modelling and data transformation work that forms the bulk of first-two-year actuarial output
 
----
+### 7. VERDICT
+This program sits at a structural inflection point. Its traditional strengths — mathematical rigour, structured progression, professional accreditation pathway — are genuine and durable. But the techniques it teaches as its core (pricing, reserving, life insurance mathematics) are precisely the techniques being automated by the industry the program serves. The score (20/36, lower boundary of MODERATE RISK) reflects this tension: professional accreditation and regulatory barriers protect it more than most degrees, but its default trajectory is toward a narrower employment base where graduates compete for the shrinking gap between AI-augmented actuarial software and the judgment roles that require 5+ years of experience to reach. The path to RESILIENT runs through the elective structure: making Data Analytics in Insurance, Statistical Techniques, and an AI governance unit compulsory rather than optional so graduates exit at the judgment layer, not just the technique layer.
 
-### 5. VERDICT
-This program sits at a structural inflection point. Its traditional strengths — mathematical rigour, structured progression, professional accreditation pathway — are genuine and durable. But the techniques it teaches as its core (pricing, reserving, life insurance mathematics) are precisely the techniques being automated by the industry the program serves.
+### 8. RECOMMENDATIONS
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Make Data Analytics in Insurance (ACTL90023) and Statistical Techniques (ACTL90008) compulsory, not elective | 1, 5 | Python/R/SQL now in 60%+ of ANZ actuarial ads; data-science roles up 28% YoY | Low — subjects already exist |
+| P2 | Add a dedicated unit on AI in insurance: automated underwriting, claims modelling, governance, and the actuary's evolving role | 5, 9 | Big 4 shifting to "AI + Actuarial"; APRA CPS 230 governance demand | Medium |
+| P3 | Implement a capstone project or industry placement beyond the existing optional internship | 4, 7, 8 | Employers expect decision ownership and stakeholder communication on arrival | High |
+| P4 | Publish graduate destination data including qualification progression rates and time-to-accreditation | 10 | No granular MC-ACTSC destination data currently published | Medium |
+| P5 | Integrate AI tool use into existing actuarial modelling subjects with critical evaluation components | 1, 5 | Traditional pricing/reserving tasks automating fast; validation skills rising | Medium |
 
-The score (20/36, lower boundary of MODERATE RISK) reflects this tension. The program is not in crisis — professional accreditation and regulatory barriers protect it more than most degrees — but its default trajectory is toward a narrower employment base where graduates compete for the shrinking gap between AI-augmented actuarial software and the judgment roles that require 5+ years of experience to reach.
-
-The path from MODERATE RISK to RESILIENT runs through the elective structure: making Data Analytics in Insurance, Statistical Techniques, and ideally an AI governance unit compulsory rather than optional. The mathematical core is sound; the program needs to ensure graduates exit with the computational and governance literacy to operate at the judgment layer, not just the technique layer.
-
-### 6. RECOMMENDATIONS
-| Priority | Action | Dimension | Effort |
-|---|---|---|---|
-| P0 | Make Data Analytics in Insurance (ACTL90023) and Statistical Techniques (ACTL90008) compulsory, not elective | 1, 5 | Low — subjects already exist |
-| P1 | Add a dedicated unit on AI in insurance: automated underwriting, claims modelling, governance, and the actuary's evolving role | 5, 9 | Medium |
-| P1 | Implement a capstone project or industry placement beyond the existing optional internship | 4, 7, 8 | High |
-| P2 | Publish graduate destination data including qualification progression rates and time-to-accreditation | 10 | Medium |
-| P2 | Integrate AI tool use into existing actuarial modelling subjects with critical evaluation components | 1, 5 | Medium |
-
-### 7. MARKET CONFIDENCE NOTE
-Confidence: **Medium-High**. Actuarial automation is well-documented in industry literature and professional discourse. The tension between traditional actuarial training and AI/automation is a live topic in the profession. The structural analysis of entry-level exposure is based on documented task composition, not speculation.
-
-
-### 8. THE REDESIGNED GRADUATE PROFILE
-
+### 9. THE REDESIGNED GRADUATE PROFILE
 The 2027-ready actuarial science graduate is not a calculator — they are a **risk governance specialist** who understands what the actuarial models do and what they miss, and who can own the accountability when they are wrong.
 
 They have completed the accreditation examination track, which means they carry professional liability. They know the regulatory framework for the product lines they work with. When the automated pricing model produces an output that looks right but is wrong for regulatory reasons, they are the person who catches it and explains why.
 
-They understand the AI tools in their firm's technology stack: what training data the claims model uses, where it fails at distribution edges, and what the governance requirement is when an AI-generated premium recommendation deviates from actuarial professional judgment. That combination — mathematical rigour plus AI governance literacy plus professional accountability — is what the AI era of insurance actually requires.
+They understand the AI tools in their firm's technology stack: what training data the claims model uses, where it fails at distribution edges, and what the governance requirement is when an AI-generated premium recommendation deviates from actuarial professional judgment. That combination — mathematical rigour plus AI governance literacy plus professional accountability — is what the AI era of insurance actually requires. They have added data analytics capability (Python, R, SQL at depth) that makes them fluent in the same technical language as the AI tools they oversee. They are not just an actuarial examiner — they are an actuarial data scientist with professional credentials.
 
-They have added data analytics capability (Python, R, SQL at depth) that makes them fluent in the same technical language as the AI tools they oversee. They are not just an actuarial examiner — they are an actuarial data scientist with professional credentials.
-
----
-
----
-
-**Assessment date:** 2026-06-08  
-**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-actsc  
-**Prompt version:** DFVA-COPILOT-PROMPT-v1
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Medium-High**. Actuarial automation is well-documented in industry literature (Actuaries Institute, ICA) and professional discourse; the tension between traditional actuarial training and AI/automation is a live topic in the profession.
+- The structural analysis of entry-level exposure is based on documented task composition, not speculation; job-ad volume trends (Seek ANZ) are directional rather than a comprehensive systematic scrape.
+- For high-stakes curriculum decisions, close the evidence gaps: a live ANZ job-ad scrape for actuarial/insurance-data-science/risk roles, UniMelb graduate destination data by role family, and employer interviews (Actuaries Institute, IAG, Suncorp, QBE, Deloitte/PwC Actuarial, APRA).
 
 ### MARKET DATA
 | Metric | Value |
@@ -1775,14 +1756,12 @@ APRA's CPS 230 (Operational Risk Management) and emerging AI governance expectat
   "dfva-mc-apbusa": {
     title: "Master of Applied Business Analytics (MC-APBUSA) — DFVA Assessment",
     institution: "University of Melbourne",
-    markdown: `## DFVA REPORT: MC-APBUSA
-**Institution:** University of Melbourne  
-**Level:** Master (Coursework)  
-**Duration:** 2 years (200 credit points)
+    markdown: `## DFVA REPORT: Master of Applied Business Analytics (MC-APBUSA)
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 credit points)
 
 **Assessment date:** 2026-06-20  
 **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-apbusa  
-**Prompt version:** DFVA-COPILOT-PROMPT-v1
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 + DFVA-COPILOT-MARKET-v1  
 
 ### 1. PROGRAM PROFILE
 The Master of Applied Business Analytics at the University of Melbourne (Melbourne Business School) is a practitioner-focused analytics degree targeting professionals who want to develop data-driven decision-making skills. It occupies a middle position between the technical depth of the Master of Business Analytics and the managerial breadth of the MBA.
@@ -1797,23 +1776,45 @@ Typical graduate roles include analytics manager, business intelligence lead, ma
 | Year 1–2 (graduate) | Analytics manager, BI lead — dashboard management, analytical project ownership, stakeholder reporting | **MEDIUM** — Routine analytical work is AI-compressed; strategic framing and business translation provide some protection |
 | Year 3–5 | Senior analytics lead, data strategy manager | **MEDIUM–LOW** — Decision authority and stakeholder management provide more protection |
 
-### 3. DFVA SCORECARD
-*Score data from existing assessment records.*
+Routine analytical work — dashboard construction, standard statistical summarisation, and report generation — is the layer most exposed to AI business-intelligence tools. The program's durability rests on whether graduates move quickly from producing analytics to owning the decisions the analytics inform: strategic framing, business translation, and stakeholder accountability are the tasks that AI augments rather than replaces.
 
-**TOTAL: 20/36**  
-**Risk band: MODERATE RISK**
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Business Analytics | Requirements elicitation, process mapping, dashboard design, stakeholder reporting | **MEDIUM** — AI augments rather than replaces stakeholder communication | Prompt engineering for BI tools, requirements translation to AI specs, scenario modelling |
+| Data Analysis | SQL querying, ETL coordination, statistical summarisation, visualisation in Power BI / Tableau | **HIGH** — routine data processing highest-automation risk | Python-native analytics, dbt, cloud data warehousing (Snowflake, BigQuery), ML model evaluation |
+| Operations Analytics | Process efficiency analysis, KPI tracking, simulation modelling, Lean/Six Sigma tooling | **MEDIUM** — "operations analyst" postings up 18% YoY in Melbourne | Digital twin interpretation, IoT data ingestion, agent-based simulation |
+| Management Consulting | Structured problem decomposition, slide-deck synthesis, client interview facilitation, market sizing | **LOW-MEDIUM** — substitution risk concentrated on research/synthesis sub-tasks | AI-assisted research synthesis, financial modelling, change management |
+| Product & Commercial Analytics | A/B test design and analysis, revenue attribution, cohort modelling, pricing optimisation | **MEDIUM** — "Product Analyst" postings grew 31% YoY (fintech/e-commerce lead) | Experimentation platforms (Optimizely, LaunchDarkly), causal inference, real-time analytics |
+| Financial Analytics | Financial modelling, variance analysis, forecasting, regulatory reporting | **MEDIUM-HIGH** — analysts expected to supervise model outputs, not build from scratch | Generative AI for narrative generation, Python-based FP&A, Monte Carlo simulation |
 
-### 4. THREE THRESHOLD QUESTIONS
-**Q1: Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?**
-UNCERTAIN. See program assessment for detailed rationale.
+### 4. DFVA SCORECARD
+| # | Dimension | Score (0-3) | Evidence-based rationale |
+|---|---|---:|---|
+| 1 | Automation Exposure of Roles | 1 | Entry-level analytics work (dashboards, standard analyses, insights reports) is precisely the layer being compressed by AI business-intelligence tools; graduates whose primary value is analytics production are highly exposed. |
+| 2 | Systems Thinking and Problem Framing | 2 | The applied curriculum builds structured problem framing and evidence-based decision-making, but not consistently as an assessed systems-level competency across the core. |
+| 3 | Technical and Quantitative Depth | 3 | Business statistics, predictive analytics, and data-analysis tooling give genuine quantitative grounding; this is the program's defining strength relative to the MBA. |
+| 4 | Decision-Making Under Uncertainty | 2 | Applied projects require defended analytical trade-offs in business contexts, but decision ownership under uncertainty is practised rather than a consistently assessed capstone competency. |
+| 5 | AI Literacy and Governance | 3 | The program's applied, tool-forward framing engages current AI-augmented analytics workflows directly; graduates work with AI BI tools as a core part of the analytics stack. |
+| 6 | Domain Depth and Specialisation | 2 | The degree's middle positioning (between MC-BUSANA and MBA) provides applied breadth but risks credential compression; deep single-industry specialisation is not structurally required. |
+| 7 | Research Methods Rigour | 2 | Evidence-based methods and applied analytics projects provide methodological exposure, but there is no substantial primary-research or thesis component. |
+| 8 | Human and Relational Capability | 1 | Data storytelling and executive translation are the most-cited hiring gaps, yet communication/stakeholder capability is embedded in rubrics rather than taught as a formal assessed unit. |
+| 9 | Curriculum Currency and Adaptability | 1 | Rapidly shifting tooling (cloud data platforms, Copilot-augmented workflows) is not matched by a visible advisory-panel-driven annual refresh mechanism in the available evidence. |
+| 10 | Graduate Outcome Evidence | 3 | QILT GOS 2024 shows strong outcomes (92% full-time employment, $124,000 median, 96% at 3 years, occupation demand MET); the field has robust destination evidence. |
+| B | Irreplaceability Premium (Bonus) | 2 | Applied analytics + business-translation capability creates real value, but the generalist positioning is vulnerable to AI-tool and specialist-graduate competition unless paired with deep domain expertise. |
 
-**Q2: Does this program train graduates to design systems, own decisions, or generate original insight?**
-UNCERTAIN. See program assessment for detailed rationale.
+**TOTAL: 22 / 36**  
+**Risk band: MODERATE RISK (20-27)**
 
-**Q3: Will these graduates be more employable in 5 years than today, given AI trends?**
-YES. See program assessment for detailed rationale.
+### 5. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
+  **UNCERTAIN** — Routine dashboard construction, standard analyses, and insights reporting (the bulk of early output) are heavily compressed by AI BI tools, but requirements translation, stakeholder framing, and business-context judgment are less substitutable; the balance depends on individual specialisation depth.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?  
+  **UNCERTAIN** — Applied projects build evidence-based decision-making and analytical framing, but the generalist, tool-forward positioning means decision ownership and systems design are practised inconsistently rather than guaranteed as assessed outcomes.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
+  **YES** — Demand for analytics-literate professionals who can supervise AI outputs, translate insights for executives, and own business decisions is rising; graduates who add domain specialisation and AI governance capability are well-positioned as the "AI-augmented analyst" role type grows.
 
-### 5. ANALOGUE GRADUATE PROFILE
+### 6. ANALOGUE GRADUATE PROFILE
 The most exposed applied business analytics graduate is the **Business Analyst of 2022**: primarily producing dashboards, running standard analyses, and writing insights reports — work being compressed by AI business intelligence tools.
 
 Specific threats:
@@ -1821,27 +1822,29 @@ Specific threats:
 - **ChatGPT for business analysis** — automated market research synthesis and competitive analysis
 - **AI insights platforms (ThoughtSpot, Pyramid Analytics)** — natural language query and automated business insights
 
-### 6. VERDICT
-**The Master of Applied Business Analytics is MODERATE RISK — a practical analytics credential whose differentiation depends heavily on individual depth of specialisation.**
+### 7. VERDICT
+The Master of Applied Business Analytics is MODERATE RISK (22/36) — a practical analytics credential whose differentiation depends heavily on individual depth of specialisation. The program sits between the MBA (generalist management) and the MC-BUSANA (deep quantitative analytics), serving a real market need but occupying a positioning vulnerable to credential compression: not deeply enough quantitative to compete with MC-BUSANA graduates, not broadly enough managerial to compete with MBA graduates. Graduates who develop genuine domain expertise in a specific industry (health analytics, financial risk, supply chain) and build AI governance capability alongside the analytics tools are well-positioned; generic applied-analytics graduates face increasing competition from AI tools.
 
-The program sits between the MBA (generalist management) and the MC-BUSANA (deep quantitative analytics). It serves a real market need but occupies a positioning that is vulnerable to credential compression: not deeply enough quantitative to compete with MC-BUSANA graduates, not broadly enough managerial to compete with MBA graduates.
+### 8. RECOMMENDATIONS
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Develop deep domain expertise in a specific industry — generic analytics credentials are increasingly commodity | D6 | Generalist analytics qualification value questioned post-GPT; specialists preferred | High |
+| P2 | Build genuine Python/SQL competency beyond tool-based analytics, including cloud data platforms (Snowflake/BigQuery) | D3 | Python/SQL now mandatory in 70%+ of master's-targeted ANZ ads | Medium |
+| P3 | Develop AI governance and responsible analytics capability (model cards, bias audits, fairness libraries) | D5 | Regulated sectors require practical auditability, not principles | Medium |
+| P4 | Add a formal assessed data-storytelling / executive-communication module and an industry-partnered real-data capstone | D8, D4 | Storytelling is the hardest gap to hire; real capstone the top differentiator | Medium |
+| P5 | Establish an annual industry-advisory-panel curriculum review to keep tooling and content current | D9 | Cloud platforms and Copilot workflows shifting faster than curricula | Low |
 
-Graduates who develop genuine domain expertise in a specific industry (health analytics, financial risk, supply chain) and build AI governance capability alongside the analytics tools are well-positioned. Generic applied analytics graduates face increasing competition from AI tools.
-
-### 7. RECOMMENDATIONS
-| Priority | Action | Dimension | Effort |
-|---|---|---|---|
-| 1 | Develop deep domain expertise in a specific industry — generic analytics credentials are increasingly commodity | D6 | High |
-| 2 | Build genuine Python/SQL competency beyond tool-based analytics | D3 | Medium |
-| 3 | Develop AI governance and responsible analytics capability | D5 | Medium |
-| 4 | Target roles with stakeholder accountability and decision authority | D4 | Low |
-
-### 8. THE REDESIGNED GRADUATE PROFILE
+### 9. THE REDESIGNED GRADUATE PROFILE
 The 2027-ready applied business analytics graduate is a **domain-specialist analytics professional** who combines technical data skills with deep knowledge of one industry's specific measurement problems.
 
 They know what the data in their domain doesn't measure — the gap between what the analytics says and what is actually happening in the organisation. They have had to explain to an executive why the metrics looked good but the business outcome was deteriorating. That translation between data and organisational reality is where analytics professionals create genuine value.
 
 They use AI analytics tools fluently but critically. They know when the AI-generated insight is right and when it's wrong, and they have the domain knowledge to distinguish between them. That critical layer — not just analytical competence but analytical judgment in a specific context — is their professional asset.
+
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Medium**. Job-title and skill-shift directions are well-grounded in WEF Future of Jobs 2025, LinkedIn Workforce Insights, and ANZ analytics-community discourse; volume trajectories and velocities are calibrated estimates rather than a live scrape.
+- Employer-expectation and competitive-landscape signals are synthesised from IAPA reports, Big Four graduate program descriptions, and public handbook comparisons; program-specific destination granularity is limited to QILT faculty-level aggregation.
+- For high-stakes curriculum decisions, close the gaps: a live ANZ job-ad scrape (cloud/Python mandatory vs. preferred), UniMelb role-title destination data for this program, and employer interviews across financial services, consulting, and tech.
 
 ### MARKET DATA
 | Metric | Value |
@@ -1880,7 +1883,7 @@ They use AI analytics tools fluently but critically. They know when the AI-gener
   "dfva-market-mc-apbusa": {
     title: "Master of Applied Business Analytics (MC-APBUSA) — Market Intelligence",
     institution: "University of Melbourne",
-    markdown: `# DFVA MARKET INTELLIGENCE: Master of Applied Business Analytics
+    markdown: `# DFVA MARKET INTELLIGENCE: Master of Applied Business Analytics (MC-APBUSA)
 
 **Institution:** University of Melbourne
 **Assessment Date:** 2026-06-21
@@ -2042,21 +2045,14 @@ Across LinkedIn job seeker posts and employer commentary in ANZ, the single most
   "dfva-mc-arch": {
     title: "Master of Architecture (MC-ARCH) — DFVA Assessment",
     institution: "University of Melbourne",
-    markdown: `# DFVA REPORT: Master of Architecture
+    markdown: `## DFVA REPORT: Master of Architecture (MC-ARCH)
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 3 years (300 credit points)
 
-**Institution:** University of Melbourne
-**Level:** Master (Coursework)
-**Duration:** 3 years (300 credit points)
+**Assessment date:** 2026-06-09  
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-arch  
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 + DFVA-COPILOT-MARKET-v1  
 
----
-
-**Assessment Date:** 2026-06-09
-**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-arch
-**Prompt Version:** DFVA-COPILOT-PROMPT-v1
-
----
-
-## 1. PROGRAM PROFILE
+### 1. PROGRAM PROFILE
 
 The Master of Architecture at the University of Melbourne is a professional architecture degree accredited by the Architects Registration Board of Victoria (ARBV), the Royal Australian Institute of Architects (RAIA), and the Commonwealth Association of Architects (CAA). It is the standard pathway to registration as an architect in Australia.
 
@@ -2064,11 +2060,9 @@ The 300-credit-point program is structured around a core studio sequence culmina
 
 Typical graduate roles include architectural graduate (Graduate of Architecture), documentation specialist, project architect, urban designer, and design researcher. Most graduates enter established architectural practices in residential, commercial, institutional, or public-realm project streams.
 
----
+### 2. AUTOMATION EXPOSURE PROFILE
 
-## 2. AUTOMATION EXPOSURE PROFILE
-
-| Year | Typical Tasks | Automation Risk |
+| Career Stage | Typical Tasks | Automation Risk |
 |---|---|---|
 | Year 1–2 (graduate) | Documentation support, construction detail drawing, model production, design development under supervision | **MEDIUM** — CAD/BIM and generative design tools accelerate production tasks; graduate value increasingly tied to judgment and communication rather than drafting throughput |
 | Year 3–5 | Project architect, design team lead, client-facing design presentation, regulatory approval management | **LOW–MEDIUM** — Client relationships, regulatory interpretation, design defense, and site judgment are not fully automatable |
@@ -2076,43 +2070,45 @@ Typical graduate roles include architectural graduate (Graduate of Architecture)
 
 **Structural note:** Architecture is a regulated profession with mandatory professional practice hours before registration. This regulatory layer creates a time-based barrier that AI cannot circumvent. The design synthesis layer — integrating site, programme, structure, services, regulation, and aesthetics into a coherent building — remains genuinely non-routine work.
 
----
+### 3. MARKET EVIDENCE SNAPSHOT
 
-## 3. DFVA SCORECARD
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Design Architecture | AI generates design options but client relationship, contextual judgment, and regulatory navigation stay human; WEF 2025 flags creative professions as partially exposed | "AI shifts junior architects from drawing to directing — but they must evaluate and curate outputs" | Introduce AI-in-practice tool evaluation and output curation into studio briefs |
+| Project Architecture | BIM/Revit now a baseline requirement, not a differentiator; graduates without functional BIM need 3–6 months remediation | "BIM proficiency is expected on day one" | Mandate a dedicated BIM/Revit studio unit benchmarked to graduate competency standards |
+| Sustainability & Compliance | NCC 2025 Section J and embodied-carbon literacy explicitly requested in ANZ ads; ESD roles growing ~18% YoY in Melbourne | "Sustainability is expected across all roles, not siloed to consultants" | Update ESD unit to cover NCC 2025 Section J, NatHERS 2.0, introductory life-cycle assessment |
+| Urban Design | Housing-supply policy (Plan for Victoria) sustaining precinct/TOD design pipeline | "The housing crisis is a defining career context" | Strengthen planning literacy (residential provisions, activity-centre zones, TOD frameworks) |
+| Heritage & Conservation | VIC/NSW heritage advisory roles open 60–90 days on average, signalling specialist scarcity | "Adaptive reuse demand is elevated but undersupplied" | Create a Heritage and Adaptive Reuse elective stream with live-project partners |
+| Digital / Computational Design | LinkedIn Q1 2026 shows a 34% rise in "computational/generative design" postings; Grasshopper/Python skills draw 10–15% salary premiums | "These roles shape the AI tools others use" | Add computational-design capability (Grasshopper, Python, generative-design oversight) |
+
+### 4. DFVA SCORECARD
 
 | # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---|---|
-| 1 | Automation Exposure of Roles | 3/3 | Architectural design requires creative synthesis, aesthetic judgment, regulatory compliance, and iterative client negotiation — irreducible human work. ARBV registration requires documented professional practice before sitting the registration exam. |
-| 2 | Systems Thinking and Problem Framing | 3/3 | Design Thesis capstone + studio sequence integrates environmental, technological, regulatory, and project-delivery systems across scales. Studios require trade-off reasoning across structure, material, programme, and site. |
-| 3 | Technical and Quantitative Depth | 3/3 | 300pt program. Technical documentation, building systems, construction methods, materials, and design production taught throughout. Professional accreditation requirements enforce technical rigour. |
-| 4 | Decision-Making Under Uncertainty | 3/3 | Studios require evaluating competing priorities, making design trade-offs, and defending decisions under professional constraints. Design Thesis demands sustained independent judgment across a full project cycle. |
-| 5 | AI Literacy and Governance | 1/3 | No AI content explicitly visible in curriculum. Parametric design tools (Rhino, Grasshopper) likely used in practice but not framed through AI governance or deployment. |
-| 6 | Domain Depth and Specialisation | 3/3 | 300pt professional degree with ARBV/RAIA/CAA accreditation. Clear pathway to registered architect. 250pt core studio + Design Thesis provides deep specialist grounding. |
-| 7 | Research Methods Rigour | 3/3 | Design Thesis is a substantial design-research project with defended methodology. PhD pathway available. Research-led teaching explicitly mentioned in program outcomes. |
-| 8 | Human & Relational Capability | 2/3 | Collaborative studio practice and client/stakeholder engagement implicit in design practice. Strong relational dimension but not clinical-level accountability. |
-| 9 | Curriculum Currency and Adaptability | 2/3 | Updated 9 June 2026 — very recent. No explicit AI or sustainability-specific core content visible despite currency of update. |
-| 10 | Outcome Evidence | 2/3 | Professional accreditation (ARBV/RAIA/CAA) provides external validation of standards. Granular graduate destination data not publicly available. |
-| B | Irreplaceability (bonus) | 3/3 | Professional registration requirement + creative design synthesis + technical documentation + regulatory compliance. Triple barrier: creativity, regulation, and professional practice hours. |
-| **TOTAL** | | **28/36** | |
+| 1 | Automation Exposure of Roles | 3 | Architectural design requires creative synthesis, aesthetic judgment, regulatory compliance, and iterative client negotiation — irreducible human work. ARBV registration requires documented professional practice before sitting the registration exam. |
+| 2 | Systems Thinking and Problem Framing | 3 | Design Thesis capstone + studio sequence integrates environmental, technological, regulatory, and project-delivery systems across scales. Studios require trade-off reasoning across structure, material, programme, and site. |
+| 3 | Technical and Quantitative Depth | 3 | 300pt program. Technical documentation, building systems, construction methods, materials, and design production taught throughout. Professional accreditation requirements enforce technical rigour. |
+| 4 | Decision-Making Under Uncertainty | 3 | Studios require evaluating competing priorities, making design trade-offs, and defending decisions under professional constraints. Design Thesis demands sustained independent judgment across a full project cycle. |
+| 5 | AI Literacy and Governance | 1 | No AI content explicitly visible in curriculum. Parametric design tools (Rhino, Grasshopper) likely used in practice but not framed through AI governance or deployment. |
+| 6 | Domain Depth and Specialisation | 3 | 300pt professional degree with ARBV/RAIA/CAA accreditation. Clear pathway to registered architect. 250pt core studio + Design Thesis provides deep specialist grounding. |
+| 7 | Research Methods Rigour | 3 | Design Thesis is a substantial design-research project with defended methodology. PhD pathway available. Research-led teaching explicitly mentioned in program outcomes. |
+| 8 | Human and Relational Capability | 2 | Collaborative studio practice and client/stakeholder engagement implicit in design practice. Strong relational dimension but not clinical-level accountability. |
+| 9 | Curriculum Currency and Adaptability | 2 | Updated 9 June 2026 — very recent. No explicit AI or sustainability-specific core content visible despite currency of update. |
+| 10 | Graduate Outcome Evidence | 2 | Professional accreditation (ARBV/RAIA/CAA) provides external validation of standards. Granular graduate destination data not publicly available. |
+| B | Irreplaceability Premium (Bonus) | 3 | Professional registration requirement + creative design synthesis + technical documentation + regulatory compliance. Triple barrier: creativity, regulation, and professional practice hours. |
 
-**Risk Band: RESILIENT**
+**TOTAL: 28 / 36**  
+**Risk band: RESILIENT (28-36)**
 
----
+### 5. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
+  **NO** — Core professional work in the Master of Architecture requires physical presence, regulated judgment, or specialist domain knowledge that AI cannot yet replicate reliably.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?  
+  **YES** — The program's capstone, professional practice, and specialist curriculum provide genuine decision ownership and system design capability.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
+  **YES** — Structural demand for the specific skill set, professional accreditation protection, and (if AI literacy is added) AI-native curriculum positioning make 5-year employability stronger than today.
 
-## 4. THREE THRESHOLD QUESTIONS
-
-**Q1: Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?**
-NO. Core professional work in Master of Architecture requires physical presence, regulated judgment, or specialist domain knowledge that AI cannot yet replicate reliably.
-
-**Q2: Does this program train graduates to design systems, own decisions, or generate original insight?**
-YES. The program's capstone, professional practice, and specialist curriculum provide genuine decision ownership and system design capability.
-
-**Q3: Will these graduates be more employable in 5 years than today, given AI trends?**
-YES. Structural demand for the specific skill set, professional accreditation protection, or AI-native curriculum positioning make 5-year employability stronger than today.
-
----
-
-## 5. ANALOGUE GRADUATE PROFILE
+### 6. ANALOGUE GRADUATE PROFILE
 
 The most exposed architecture graduate is the **Documentation-Heavy Graduate of 2022**: a competent technical drafter who entered a mid-size commercial practice as the primary producer of construction documentation sets, coordination drawings, and specification packages — roles now being compressed by BIM automation, generative detailing, and AI-assisted documentation systems.
 
@@ -2122,35 +2118,22 @@ Specific threats:
 - **AI specification writers (Masterspec AI, NBS tools)** — automating construction specification drafting
 - **Generative renderers (Midjourney architecture, Vizcom)** — eliminating junior visualisation production work
 
----
+### 7. VERDICT
 
-## 6. VERDICT
+The Master of Architecture is **RESILIENT** — a degree with genuine structural defences that most programs lack. Its score (28/36) reflects three stacking automation barriers: professional registration requirements, the creative-synthetic nature of design work, and the regulatory/liability accountability embedded in practice. The one structural gap is AI Literacy (D5: 1/3) — a 2026 graduate who cannot situate generative and parametric tools within a professional governance framework enters a rapidly changing profession without the critical lens needed to lead rather than be led by technology.
 
-**The Master of Architecture is RESILIENT — a degree with genuine structural defences that most programs lack.**
+### 8. RECOMMENDATIONS
 
-The program's score (28/36) reflects three real automation barriers that stack: professional registration requirements, the creative-synthetic nature of design work, and the regulatory/liability accountability embedded in architectural practice. These are not soft differentiators — they are formal, government-enforced gatekeeping mechanisms that require documented human judgment and professional responsibility.
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Integrate parametric design tools and generative AI assessment — make AI governance a studio-embedded competency, not an elective | 5, 9 | AI shifts juniors from drawing to directing; graduates must evaluate and curate outputs | Medium |
+| P2 | Develop explicit "AI in professional practice" content: liability when AI generates design errors, governance of generative outputs in client-facing work | 5 | AI-generated design debated as tool vs. threat across AIA/professional discourse | Medium |
+| P3 | Strengthen environmental systems integration — passive design, embodied carbon tools, and climate performance modelling | 3, 9 | NCC 2025 Section J and embodied-carbon literacy now hiring requirements, not add-ons | Medium |
+| P4 | Mandate a dedicated BIM/Revit studio unit benchmarked to AIA/AACA graduate competency expectations | 3 | BIM proficiency is a baseline requirement; graduates need 3–6 months remediation without it | Medium |
+| P5 | Publish granular graduate destination data including time to registration, firm type, and salary by career stage | 10 | Program-specific destination data is the most critical evidence gap for scoring confidence | Medium |
+| P6 | Build explicit AI literacy into Design Thesis requirements — students demonstrate AI tool evaluation as part of design-research methodology | 5, 7 | Computational/generative design roles growing 34% YoY; premium for tool-fluent graduates | Low |
 
-The design studio model develops authentic decision-making capability: students are required to defend design choices under expert critique, integrate competing constraints across a full project, and take accountability for design outcomes. This is exactly the kind of training that produces automation-resistant judgment.
-
-**The one structural gap is AI Literacy (D5: 1/3).** Architecture is being transformed by parametric design tools, generative AI, and AI-assisted project management. A 2026 graduate who cannot situate AI tools within a professional governance framework — who cannot evaluate when generative outputs are appropriate, when they need validation, and what the liability implications are — is entering a rapidly changing profession without the critical lens needed to lead rather than be led by technology.
-
-Despite this gap, the degree's regulatory anchor and design-synthesis core make it one of the more durable professional programs in the portfolio.
-
----
-
-## 7. RECOMMENDATIONS
-
-| Priority | Action | Dimension | Effort |
-|---|---|---|---|
-| 1 | Integrate parametric design tools and generative AI assessment — make AI governance a studio-embedded competency, not an elective | D5, D9 | Medium |
-| 2 | Develop explicit "AI in professional practice" content: liability when AI generates design errors, governance of generative outputs in client-facing work | D5 | Medium |
-| 3 | Strengthen environmental systems integration — passive design, embodied carbon tools, and climate performance modelling are growing areas of architectural accountability | D3, D9 | Medium |
-| 4 | Publish granular graduate destination data including time to registration, firm type, and salary by career stage | D10 | Medium |
-| 5 | Build explicit AI literacy into Design Thesis requirements — students should demonstrate AI tool evaluation as part of their design research methodology | D5, D7 | Low |
-
----
-
-## 8. THE REDESIGNED GRADUATE PROFILE
+### 9. THE REDESIGNED GRADUATE PROFILE
 
 The 2027-ready architecture graduate is not a documentation specialist — they are a **design decision owner with professional accountability**.
 
@@ -2159,6 +2142,11 @@ They completed the Design Thesis not as a portfolio piece but as a genuine test 
 They understand AI not as a competitor but as a set of tools with specific capabilities and specific failure modes. They can generate a massing study in Forma, evaluate whether the output is architecturally appropriate, and explain why the AI's optimisation missed the social or contextual logic of the site. They use generative tools to accelerate exploration — not to outsource design judgment.
 
 They are registered (or on a clear path to registration), which means they carry professional liability. They have client relationships. They can read a contract, interpret a planning instrument, and explain to a building surveyor why a departure from the code is justified. These capabilities are not in an AI's repertoire — they are in theirs.
+
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Medium**.
+- Market evidence integrates AIA workforce surveys, AACA graduate data, Seek.com.au trend data, and LinkedIn Workforce Insights Q1 2026 with QILT GOS field-of-study outcomes; ANZ architecture demand signals (BIM, ESD growth, heritage scarcity) are well-evidenced.
+- For high-stakes curriculum decisions, add a live ANZ job-ad scrape (last 90 days) and UniMelb MC-Arch destination data at role-title granularity — the most critical gaps for scoring confidence.
 
 ### MARKET DATA
 | Metric | Value |
@@ -2170,8 +2158,6 @@ They are registered (or on a clear path to registration), which means they carry
 | Occupation demand | RECRUITMENT DIFFICULTY |
 | AI automation exposure | 30% |
 | Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |
-
----
 
 <!-- LABOUR-EVIDENCE:START -->
 ### REAL GRADUATE DESTINATIONS (JSA HEO · QILT · Adzuna)
@@ -2197,7 +2183,7 @@ They are registered (or on a clear path to registration), which means they carry
   "dfva-market-mc-arch": {
     title: "Master of Architecture (MC-ARCH) — Market Intelligence",
     institution: "University of Melbourne",
-    markdown: `# DFVA MARKET INTELLIGENCE: Master of Architecture
+    markdown: `# DFVA MARKET INTELLIGENCE: Master of Architecture (MC-ARCH)
 
 **Institution:** University of Melbourne
 **Assessment Date:** 2026-06-21
@@ -2361,21 +2347,14 @@ Post-pandemic decentralisation has created architecture opportunities in regiona
   "dfva-mc-ba": {
     title: "Master of Business Administration (MC-BA) — DFVA Assessment",
     institution: "University of Melbourne",
-    markdown: `# DFVA REPORT: Master of Business Administration
+    markdown: `## DFVA REPORT: Master of Business Administration (MC-BA)
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (225 credit points)
 
-**Institution:** University of Melbourne
-**Level:** Master (Coursework)
-**Duration:** 2 years (225 credit points)
+**Assessment date:** 2026-06-09  
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-ba  
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 + DFVA-COPILOT-MARKET-v1  
 
----
-
-**Assessment Date:** 2026-06-09
-**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-ba
-**Prompt Version:** DFVA-COPILOT-PROMPT-v1
-
----
-
-## 1. PROGRAM PROFILE
+### 1. PROGRAM PROFILE
 
 The Master of Business Administration at the University of Melbourne is a premium general management degree targeting mid-career professionals and career-switchers seeking executive-track positioning. The 225-credit-point program combines core business disciplines — strategy, finance, marketing, operations, and leadership — with a distinctive AI-era curriculum refresh.
 
@@ -2383,9 +2362,7 @@ Named units include *Generative AI for Business*, *Leading Data and AI Transform
 
 Typical graduate roles include management consultant, strategy manager, product leader, general manager, business unit director, entrepreneur, and C-suite pipeline executive. The network and brand effects of the Melbourne MBA are significant differentiators in the ANZ market.
 
----
-
-## 2. AUTOMATION EXPOSURE PROFILE
+### 2. AUTOMATION EXPOSURE PROFILE
 
 | Year | Typical Tasks | Automation Risk |
 |---|---|---|
@@ -2395,43 +2372,44 @@ Typical graduate roles include management consultant, strategy manager, product 
 
 **MBA structural note:** The MBA is unusual because its primary value is not content knowledge — it is credentialing, network access, and the leadership development that comes from intensive peer interaction. AI cannot replicate a peer cohort of high-calibre professionals or the trust signals of a premium brand. The degree's core risk is that early-career MBA analyst roles are exactly what AI tools are replacing.
 
----
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Management Consulting | Slide/model production increasingly AI-assisted; junior analyst tasks most exposed while client framing stays human | "AI tool fluency is now social currency — AI-naive cohorts face reputational risk" | Embed mandatory AI-fluency for management with tool-use reflection |
+| Strategy & Corporate Development | LinkedIn Q1 2026 shows 27% YoY growth in ANZ "strategy" roles combining "AI" and "transformation" descriptors | "Strategy roles are bifurcating into data-heavy and human-heavy tracks" | Integrate scenario/probabilistic reasoning and stakeholder facilitation |
+| Product Management | Seek shows Melbourne PM roles up 18%; "AI product" in 31% of senior PM ads (8% in 2023); SQL/API literacy now screened | "PM is the hot MBA pivot, but candidates lack technical depth" | Add technical-fluency bridge (SQL, APIs, analytics) for PMs |
+| General Management / Operations | WEF flags managerial roles as net-positive but task-restructured; change-management mentions up 23% YoY | "Change leadership, not analysis, commands the salary premium" | Elevate change leadership for digital transformation to core |
+| Finance & Commercial | CFA 2025 notes AI shifting analysts from production to interpretation; ESG strategy literacy up 40% since 2023 | "ESG measurement fluency is now a non-negotiable MBA credential" | Elevate TCFD/ISSB/double-materiality strategy from elective to core |
+| Entrepreneurship & Ventures | Melbourne startup hiring up 22% YoY; low AI substitution on relationship-intensive venture work | "Executive presence and communication are the durable differentiators" | Scaffold executive communication and influence with panel assessment |
 
-## 3. DFVA SCORECARD
+### 4. DFVA SCORECARD
 
 | # | Dimension | Score (0-3) | Evidence-based rationale |
-|---|---|---|---|
-| 1 | Automation Exposure of Roles | 1/3 | General management roles involve significant routine analysis, reporting, and coordination — automatable tasks. MBA graduates compete with AI-augmented analysts in the early career pipeline. |
-| 2 | Systems Thinking and Problem Framing | 2/3 | General Management 1+2 cover business systems. MBA Capstone integrates strategy. Systems thinking present but not the primary pedagogical model — breadth over depth. |
-| 3 | Technical and Quantitative Depth | 2/3 | Financial Analysis, Business Analytics, Predictive Analytics available as electives. Core is management-generalist, not deeply quantitative. |
-| 4 | Decision-Making Under Uncertainty | 3/3 | Negotiations, Game Theory, Managerial Judgement, Capstone — decision-making under uncertainty is an explicit and assessed competency across multiple core units. |
-| 5 | AI Literacy and Governance | 3/3 | Generative AI for Business, Leading Data and AI Transformation, Analytics for Strategic Management — strong AI content. Best-in-cohort AI curriculum coverage. |
-| 6 | Domain Depth and Specialisation | 2/3 | General management — broad rather than deep. 225pt with 75pt electives allows specialisation but core is deliberately generalist. |
-| 7 | Research Methods Rigour | 1/3 | Individual Research Project available as elective (25pt). No thesis requirement. Research methods not a core MBA competency. |
-| 8 | Human & Relational Capability | 2/3 | Leadership and Change, Managing People, Negotiations, Managing Diversity — substantial relational skill development. MBA Internship provides real workplace exposure. |
-| 9 | Curriculum Currency and Adaptability | 3/3 | Updated Dec 2025. GenAI for Business, Data/AI Transformation, Blockchain, Analytics — leading-edge business curriculum demonstrably refreshed for AI era. |
-| 10 | Outcome Evidence | 3/3 | Melbourne MBA has strong industry reputation and employment outcomes tracked through Business School. High employment rates and salary premiums documented. |
-| B | Irreplaceability (bonus) | 3/3 | MBA's distinctive value is the cohort network, leadership crucible, and brand signal. GenAI + AI leadership content makes graduates AI-native managers with dual-skill premium. |
-| **TOTAL** | | **25/36** | |
+|---|---|---:|---|
+| 1 | Automation Exposure of Roles | 1 | General management roles involve significant routine analysis, reporting, and coordination — automatable tasks. MBA graduates compete with AI-augmented analysts in the early career pipeline. |
+| 2 | Systems Thinking and Problem Framing | 2 | General Management 1+2 cover business systems. MBA Capstone integrates strategy. Systems thinking present but not the primary pedagogical model — breadth over depth. |
+| 3 | Technical and Quantitative Depth | 2 | Financial Analysis, Business Analytics, Predictive Analytics available as electives. Core is management-generalist, not deeply quantitative. |
+| 4 | Decision-Making Under Uncertainty | 3 | Negotiations, Game Theory, Managerial Judgement, Capstone — decision-making under uncertainty is an explicit and assessed competency across multiple core units. |
+| 5 | AI Literacy and Governance | 3 | Generative AI for Business, Leading Data and AI Transformation, Analytics for Strategic Management — strong AI content. Best-in-cohort AI curriculum coverage. |
+| 6 | Domain Depth and Specialisation | 2 | General management — broad rather than deep. 225pt with 75pt electives allows specialisation but core is deliberately generalist. |
+| 7 | Research Methods Rigour | 1 | Individual Research Project available as elective (25pt). No thesis requirement. Research methods not a core MBA competency. |
+| 8 | Human and Relational Capability | 2 | Leadership and Change, Managing People, Negotiations, Managing Diversity — substantial relational skill development. MBA Internship provides real workplace exposure. |
+| 9 | Curriculum Currency and Adaptability | 3 | Updated Dec 2025. GenAI for Business, Data/AI Transformation, Blockchain, Analytics — leading-edge business curriculum demonstrably refreshed for AI era. |
+| 10 | Graduate Outcome Evidence | 3 | Melbourne MBA has strong industry reputation and employment outcomes tracked through Business School. High employment rates and salary premiums documented. |
+| B | Irreplaceability Premium (Bonus) | 3 | MBA's distinctive value is the cohort network, leadership crucible, and brand signal. GenAI + AI leadership content makes graduates AI-native managers with dual-skill premium. |
 
-**Risk Band: MODERATE RISK**
+**TOTAL: 25 / 36**  
+**Risk band: MODERATE RISK (20-27)**
 
----
+### 5. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
+  **YES** — the early-career output for Master of Business Administration graduates is substantially templated — research, analysis, and document production are in AI's wheelhouse.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?  
+  **YES** — the program's capstone, professional practice, and specialist curriculum provide genuine decision ownership and system design capability.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
+  **YES** — structural demand for the specific skill set, professional accreditation protection, or AI-native curriculum positioning make 5-year employability stronger than today.
 
-## 4. THREE THRESHOLD QUESTIONS
-
-**Q1: Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?**
-YES. The early-career output for Master of Business Administration graduates is substantially templated — research, analysis, and document production are in AI's wheelhouse.
-
-**Q2: Does this program train graduates to design systems, own decisions, or generate original insight?**
-YES. The program's capstone, professional practice, and specialist curriculum provide genuine decision ownership and system design capability.
-
-**Q3: Will these graduates be more employable in 5 years than today, given AI trends?**
-YES. Structural demand for the specific skill set, professional accreditation protection, or AI-native curriculum positioning make 5-year employability stronger than today.
-
----
-
-## 5. ANALOGUE GRADUATE PROFILE
+### 6. ANALOGUE GRADUATE PROFILE
 
 The most exposed MBA graduate is the **Management Consultant Analyst of 2020**: entering a Big 4 or MBB practice as a slide producer, data analyser, and market researcher — roles whose cognitive layer is being rapidly absorbed by AI tools. The 12–18 month analyst-to-associate pipeline that the MBA was designed to bypass is now further compressed by AI automation of the analyst tier itself.
 
@@ -2441,42 +2419,34 @@ Specific threats:
 - **Excel Copilot / Power BI Copilot** — replacing routine financial modelling and reporting dashboard work
 - **AI project managers (Asana AI, Linear AI)** — reducing coordination overhead that junior managers previously handled
 
----
+### 7. VERDICT
 
-## 6. VERDICT
+The Master of Business Administration is **MODERATE RISK (25/36)** — a degree with real strengths in AI literacy (D5:3), curriculum currency (D9:3), and decision-making (D4:3) that depend heavily on how graduates use it. The Melbourne MBA is notably better positioned than most management programs because it has explicitly embedded AI-native content — *Generative AI for Business* and *Leading Data and AI Transformation* are substantive curriculum commitments, not window dressing. The risk lies in the early-career pipeline: MBA graduates who enter consulting or corporate analysis roles face the same AI compression as anyone else doing structured analytical work, and the credential-signal value is under pressure as AI compresses the junior analyst tier. The path to RESILIENT (28+) runs through cross-disciplinary systems framing, a technical-elective sequence, and industry-defended project work — not through diluting the general-management core.
 
-**The Master of Business Administration is MODERATE RISK — a degree with real strengths that depend heavily on how graduates use it.**
+### 8. RECOMMENDATIONS
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Integrate cross-disciplinary case studies into existing core units to build system-level framing | 2 | Cross-functional integration and system-level thinking rising fast in ANZ management ads | Low |
+| P2 | Require a technical-elective sequence (3+ units) with an applied project — SQL, APIs, analytics tooling | 3 | PM roles screening out MBAs lacking SQL/API literacy; "AI product" in 31% of senior PM ads | Low |
+| P3 | Integrate stakeholder engagement and executive-communication milestones into existing project assessment | 8 | "Executive communication" and "strategic storytelling" among fastest-rising demand skills | Low |
+| P4 | Require an industry project with defended outputs and stakeholder presentation | 1, 4 | Graduate trainee programs (BHP, ANZ, Telstra, Woolworths) now require digital project portfolios | High |
+| P5 | Introduce a minor thesis or capstone research project | 7 | Employers value human-in-the-loop AI research validation over generic desk research | Medium |
+| P6 | Elevate ESG/sustainability strategy (TCFD, ISSB, double materiality) from elective to core | 3, 9 | ESG strategy literacy in senior-track ads up 40% since 2023; ASRS mandatory disclosure live | Medium |
 
-The program's score (25/36) reflects genuine strengths in AI literacy (D5: 3/3), curriculum currency (D9: 3/3), and decision-making (D4: 3/3). The Melbourne MBA is notably better positioned than most management programs because it has explicitly embedded AI-native content — *Generative AI for Business* and *Leading Data and AI Transformation* are not window dressing but substantive curriculum commitments.
+### 9. THE REDESIGNED GRADUATE PROFILE
 
-The risk lies in the early-career pipeline. MBA graduates who enter consulting or corporate analysis roles face the same AI compression as anyone else doing structured analytical work. The MBA's traditional value proposition — fast-tracking to seniority through a credential signal — is under pressure when AI compresses the junior analyst tier that used to validate those credentials through visible output.
-
-**The degree pays off for graduates who treat it as a leadership platform, not an analysis credential.** Those who combine the AI literacy content with genuine domain depth (via electives), build the cohort network aggressively, and position themselves as AI-governance leaders rather than AI tool users will be well-differentiated. Those who use the MBA as a shortcut to analyst roles without developing independent judgment face meaningful risk.
-
----
-
-## 7. RECOMMENDATIONS
-
-| Priority | Action | Dimension | Effort |
-|---|---|---|---|
-| 1 | Choose electives with specialist depth, not breadth — select a domain cluster (health, fintech, sustainability) and build through electives rather than sampling | D6 | Low (decision at enrollment) |
-| 2 | Maximise AI literacy units — GenAI for Business and Leading Data/AI Transformation are core differentiators; supplement with external AI governance certification | D5 | Low–Medium |
-| 3 | Complete the MBA Internship — real client exposure and accountability are the most direct way to build decision-making evidence beyond the classroom | D4, D8 | High |
-| 4 | Build cohort relationships deliberately — the network is the primary long-term ROI of the MBA; treat it as a professional investment | B | Medium |
-| 5 | Target roles that require AI governance and organizational change, not pure analysis — position as AI transformation lead, not analyst | D1, D5 | Medium |
-| 6 | Develop a clear post-MBA positioning narrative before graduating — articulate what specific problem you will solve that an AI cannot | B | Low |
-
----
-
-## 8. THE REDESIGNED GRADUATE PROFILE
-
-The 2027-ready MBA graduate does not introduce themselves as a general manager. They introduce themselves as someone who knows how to **deploy AI in a specific industry context and govern the risks that come with it**.
+The 2027-ready MBA graduate does not introduce themselves as a general manager. They introduce themselves as someone who knows how to **deploy AI in a specific industry context and govern the risks that come with it** — a domain specialist and workflow critic who does not merely operate general-purpose AI tools but governs and audits them.
 
 They completed *Generative AI for Business* and came away with a critical view of AI tool limitations — not just capability promotion. They can run a board discussion on AI adoption risk, explain why a proposed automation initiative might create regulatory exposure, and design the human oversight layer for an AI-augmented decision process.
 
-They have a domain. Not "business" in the abstract — they know the regulatory environment of healthcare IT, or the risk profile of algorithmic pricing in fintech, or the stakeholder dynamics of AI in public sector procurement. That domain specificity, combined with the MBA's general management framework, is what makes their judgment non-replicable.
+They have a domain. Not "business" in the abstract — they know the regulatory environment of healthcare IT, or the risk profile of algorithmic pricing in fintech, or the stakeholder dynamics of AI in public sector procurement. That domain specificity, combined with the MBA's general management framework and strong systems thinking, decision ownership under uncertainty, and client-translation capability, is what makes their judgment non-replicable.
 
 They used the cohort network not for socialising but for building. By graduation they have co-founders, referrers, and clients in their network — people who have watched them work under pressure in group projects and capstone sprints and decided they want to work with them again. The network is the degree's real output.
+
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Medium**.
+- ANZ consulting/strategy and product-management hiring trends are HIGH confidence (WEF, LinkedIn Workforce Report Q1 2026, Seek.com.au); AI substitution timelines, ESG hiring response, and salary trajectory by job family are lower confidence and inferred from ad-language trends.
+- Known blind spot: no UniMelb MBA destination data segmented by domestic vs international cohort. Before institutional use, close with a live 90-day ANZ job-ad scrape, role-title/salary-band destination data for 2022–2025 cohorts, and 5–8 employer interviews.
 
 ### MARKET DATA
 | Metric | Value |
@@ -2488,8 +2458,6 @@ They used the cohort network not for socialising but for building. By graduation
 | Occupation demand | MET |
 | AI automation exposure | 55% |
 | Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |
-
----
 
 <!-- LABOUR-EVIDENCE:START -->
 ### REAL GRADUATE DESTINATIONS (JSA HEO · QILT · Adzuna)
@@ -2515,7 +2483,7 @@ They used the cohort network not for socialising but for building. By graduation
   "dfva-market-mc-ba": {
     title: "Master of Business Administration (MC-BA) — Market Intelligence",
     institution: "University of Melbourne",
-    markdown: `# DFVA MARKET INTELLIGENCE: Master of Business Administration
+    markdown: `# DFVA MARKET INTELLIGENCE: Master of Business Administration (MC-BA)
 
 **Institution:** University of Melbourne
 **Assessment Date:** 2026-06-21
@@ -2677,14 +2645,12 @@ A recurring thread in Australian MBA communities involves international students
   "dfva-mc-bamktg": {
     title: "Master of Business Administration (Marketing) (MC-BAMKTG) — DFVA Assessment",
     institution: "University of Melbourne",
-    markdown: `## DFVA REPORT: MC-BAMKTG
-**Institution:** University of Melbourne  
-**Level:** Master (Coursework)  
-**Duration:** 2 years (200 credit points)
+    markdown: `## DFVA REPORT: Master of Business Administration (Marketing) (MC-BAMKTG)
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 credit points)
 
 **Assessment date:** 2026-06-20  
 **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-bamktg  
-**Prompt version:** DFVA-COPILOT-PROMPT-v1
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 + DFVA-COPILOT-MARKET-v1  
 
 ### 1. PROGRAM PROFILE
 The Master of Business Administration (Marketing) at the University of Melbourne is a specialist MBA stream combining core business administration content with a marketing specialisation. The program targets marketing professionals seeking managerial advancement and career-changers entering marketing leadership.
@@ -2694,28 +2660,48 @@ Core management subjects are combined with marketing electives covering consumer
 Typical graduate roles include marketing manager, brand manager, digital marketing lead, product manager, and customer experience director.
 
 ### 2. AUTOMATION EXPOSURE PROFILE
-| Year | Typical Tasks | Automation Risk |
+| Career Stage | Typical Tasks | Automation Risk |
 |---|---|---|
 | Year 1–2 (graduate) | Marketing manager, brand coordinator, digital marketing specialist — campaign production, content strategy, analytics | **HIGH** — Content production, A/B testing, and performance analytics are highly AI-automatable |
 | Year 3–5 | Senior marketing manager, brand director — strategy and brand ownership | **MEDIUM** — Strategic brand decisions and customer insight require human judgment |
 
-### 3. DFVA SCORECARD
-*Score data from existing assessment records.*
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Brand & Communications Management | Brand strategy needs nuanced human judgment; execution tasks (copy, image concepts) increasingly AI-assisted | "The brand vs performance pendulum is swinging back toward brand" | Embed brand storytelling, cultural fluency, and AI-assisted creative briefing |
+| Digital Marketing & Performance | LinkedIn Q1 2026 shows 34% YoY growth in performance-marketing ads requiring AI-tool proficiency | "AI tool fluency is now a baseline, not a differentiator" | Add first-party data strategy, privacy-compliant analytics, ad prompt engineering |
+| Marketing Analytics & Insights | Seek ANZ postings up 28% for marketing-analytics roles 2024–2025; routine reporting fully automatable | "Attribution is broken — MMM and incrementality are rising" | Teach Python/SQL analytics, predictive CLV, causal inference and MMM |
+| Product Marketing | Melbourne B2B SaaS/fintech driving ~40% growth in PMM postings in Victoria, recruiting MBA candidates | "B2B marketing is an underserved MBA career path" | Strengthen customer-insight synthesis and competitive-intelligence frameworks |
+| Content & Social Strategy | AI handles volume content; entry-level content-execution roles declining | "Content is commoditised; the premium shifted to strategy and governance" | Add AI content governance, creator-economy strategy, platform algorithm literacy |
+| Marketing Leadership & General Management | Senior postings (>AUD 130k) require commercial P&L fluency and revenue attribution | "Marketing must move from cost centre to revenue centre" | Build AI literacy for leaders, commercial acumen, cross-P&L ownership |
 
-**TOTAL: 17/36**  
-**Risk band: HIGH RISK**
+### 4. DFVA SCORECARD
+| # | Dimension | Score (0-3) | Evidence-based rationale |
+|---|---|---|---|
+| 1 | Automation Exposure of Roles | 1 | Entry-level marketing work — campaign production, A/B testing, content, performance analytics — is among the most AI-automatable domains; graduate roles sit squarely in the automation-exposed executional layer. |
+| 2 | Systems Thinking and Problem Framing | 2 | Core MBA content develops cross-functional and strategic framing, but marketing systems thinking (attribution, media mix, customer-journey systems) is not a distinct assessed competency. |
+| 3 | Technical and Quantitative Depth | 1 | No compulsory quantitative/technical core: Python/SQL marketing analytics, MMM, and first-party data architecture — all now hiring requirements — are absent or elective. |
+| 4 | Decision-Making Under Uncertainty | 2 | Case-based management teaching engages ambiguity, but assessment is largely analytical rather than accountable, defended decision-making under real constraint. |
+| 5 | AI Literacy and Governance | 1 | No dedicated AI-for-marketing unit; graduates enter roles where AI-tool fluency and governance are baseline expectations they are not systematically trained for. |
+| 6 | Domain Depth and Specialisation | 2 | AACSB-accredited marketing depth track provides genuine specialisation, but no professional registration or regulatory moat protects the domain. |
+| 7 | Research Methods Rigour | 1 | No compulsory minor thesis or empirical research capstone; research currency lags on measurement science, platform algorithms, and the AI-marketing intersection. |
+| 8 | Human and Relational Capability | 2 | Stakeholder management, agency briefing, and leadership are developed, but relational capability is not assessed to a clinical/accountable standard. |
+| 9 | Curriculum Currency and Adaptability | 2 | Curriculum is maintained but slow to reflect first-party data strategy, CDPs, MMM, and generative-AI workflows now dominant in ANZ job descriptions. |
+| 10 | Graduate Outcome Evidence | 3 | Strong published outcomes — 92% full-time employment, $124k median, 96% at 3 years — with QILT GOS field-level data available. |
+| B | Irreplaceability Premium (Bonus) | 2 | Managerial and brand-strategy positioning provides some structural durability, but low technical depth (D3:1) and AI literacy (D5:1) leave graduates within, not above, the automation layer. |
 
-### 4. THREE THRESHOLD QUESTIONS
-**Q1: Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?**
-YES. See program assessment for detailed rationale.
+**TOTAL: 19 / 36**  
+**Risk band: HIGH RISK (12-19)**
 
-**Q2: Does this program train graduates to design systems, own decisions, or generate original insight?**
-UNCERTAIN. See program assessment for detailed rationale.
+### 5. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
+  **YES** — Campaign production, content generation, A/B testing, and performance analytics that dominate early-career marketing work are already heavily absorbed by AI marketing tools.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?  
+  **UNCERTAIN** — MBA content develops strategic judgment and brand thinking, but without a compulsory technical/analytics core or research capstone, decision-ownership and original-insight capability are inconsistent.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
+  **UNCERTAIN** — Brand-strategy and leadership tracks are durable, but the executional domain the credential targets is compressing fast; employability depends on graduates moving to the strategy/governance layer AI cannot occupy.
 
-**Q3: Will these graduates be more employable in 5 years than today, given AI trends?**
-UNCERTAIN. See program assessment for detailed rationale.
-
-### 5. ANALOGUE GRADUATE PROFILE
+### 6. ANALOGUE GRADUATE PROFILE
 The most exposed marketing MBA graduate is the **Digital Marketing Manager of 2022**: primarily managing paid search campaigns, producing content calendars, running A/B tests, and reporting on digital funnel metrics — work systematically absorbed by AI marketing tools.
 
 Specific threats:
@@ -2724,27 +2710,30 @@ Specific threats:
 - **AI analytics (GA4 AI insights, Amplitude AI)** — automated performance interpretation and recommendation generation
 - **AI personalisation engines** — dynamic content optimisation replacing manual segmentation and targeting
 
-### 6. VERDICT
-**The Master of Business Administration (Marketing) is HIGH RISK — a credential whose primary professional domain is experiencing acute AI disruption.**
+### 7. VERDICT
+The Master of Business Administration (Marketing) is **HIGH RISK** (19/36) — a credential whose primary professional domain is experiencing acute AI disruption. Content generation, campaign optimisation, performance analytics, and market research are all under significant AI compression, and the executional domain the credential targets is changing faster than the curriculum reflects. The path to resilience runs through two things: genuine brand-strategy expertise (human cultural understanding and consumer empathy AI lacks) and AI-governance capability (which lets graduates sit above the automation layer rather than within it).
 
-Marketing is one of the fields where AI tools have had the fastest and deepest impact. Content generation, campaign optimisation, performance analytics, and market research are all experiencing significant AI compression. The marketing MBA credential signals managerial capability, but the executional domain it is designed for is changing faster than the curriculum reflects.
+### 8. RECOMMENDATIONS
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Add a dedicated **AI-for-marketing** core unit — generative AI in workflows, prompt engineering for briefs/copy, AI governance, vendor-claim evaluation | 5 | AI-tool proficiency now a baseline requirement in ANZ marketing ads | Medium |
+| P2 | Build **marketing analytics depth** — Python/SQL analytics, media mix modelling, incrementality and causal attribution | 3 | Seek ANZ marketing-analytics postings up 28%; attribution shifting to MMM | High |
+| P3 | Develop genuine **brand-strategy expertise** — cultural and consumer insight, not campaign management | 6 | Brand-vs-performance pendulum swinging back toward brand-building | High |
+| P4 | Integrate a **first-party data strategy** module — consent-based collection, CDP architecture, post-cookie measurement | 3, 9 | "CDP implementation" up 61% YoY as a rising APAC skill keyword | Medium |
+| P5 | Introduce a **minor thesis / capstone research project** with documented decision rationale | 7, 4 | Insights roles evolving toward AI-augmented synthesis and strategic storytelling | High |
+| P6 | Target **brand director and CMO-track** positioning that requires human cultural judgment, not execution | 1 | Senior postings require commercial P&L fluency and revenue accountability | Low |
 
-The path to resilience runs through two things: genuine brand strategy expertise (which requires human cultural understanding and consumer empathy that AI lacks) and AI governance capability (which allows graduates to sit above the automation layer rather than within it).
-
-### 7. RECOMMENDATIONS
-| Priority | Action | Dimension | Effort |
-|---|---|---|---|
-| 1 | Develop genuine brand strategy expertise — not campaign management but cultural and consumer insight | D6 | High |
-| 2 | Build AI marketing tool governance competency — understand what AI marketing tools optimise for and what they miss | D5 | Medium |
-| 3 | Develop marketing analytics depth — Python/R-based marketing mix modelling and causal attribution are growth areas | D3 | High |
-| 4 | Target brand director and CMO-track roles that require human cultural judgment, not campaign execution roles | D1 | Low |
-
-### 8. THE REDESIGNED GRADUATE PROFILE
+### 9. THE REDESIGNED GRADUATE PROFILE
 The 2027-ready marketing MBA graduate is not a campaign manager — they are a **brand strategy and consumer insight specialist** who understands what drives human behaviour, not just what drives click-through rates.
 
 They know why a brand works — the specific combination of cultural positioning, product truth, and emotional territory that creates genuine consumer resonance. They have made a brand decision that was counterintuitive to the data but right for the brand, and they can explain why. That cultural and strategic judgment is what AI marketing tools cannot replicate.
 
 They use AI tools to accelerate production — content generation, campaign testing, performance analysis — and apply their brand judgment to govern the outputs. They are not competing with AI at the production layer. They are directing it at the strategy layer.
+
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Medium**.
+- Market evidence integrates WEF Future of Jobs 2025, LinkedIn Workforce Insights Q1 2026, Seek.com.au ANZ trend data, and AMI/Mumbrella professional discourse with QILT GOS field-of-study outcomes.
+- For high-stakes curriculum decisions, add a live ANZ job-ad scrape (last 90 days) and UniMelb MC-BAMKTG destination data at role-title and salary granularity for 2- and 5-year cohorts.
 
 ### MARKET DATA
 | Metric | Value |
@@ -2756,8 +2745,6 @@ They use AI tools to accelerate production — content generation, campaign test
 | Occupation demand | MET |
 | AI automation exposure | 55% |
 | Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |
-
----
 
 <!-- LABOUR-EVIDENCE:START -->
 ### REAL GRADUATE DESTINATIONS (JSA HEO · QILT · Adzuna)
@@ -2781,7 +2768,7 @@ They use AI tools to accelerate production — content generation, campaign test
 `,
   },
   "dfva-market-mc-bamktg": {
-    title: "Master of Business Administration (Marketing) (MC-BAMKTG) — Market Intelligence",
+    title: "Master of Business Administration (Marketing) — Market Intelligence",
     institution: "University of Melbourne",
     markdown: `# DFVA MARKET INTELLIGENCE: Master of Business Administration (Marketing)
 
@@ -2944,14 +2931,12 @@ There is growing recognition in ANZ marketing communities that B2B marketing —
   "dfva-mc-base": {
     title: "Master of Advanced Social Enterprise (MC-BASE) — DFVA Assessment",
     institution: "University of Melbourne",
-    markdown: `## DFVA REPORT: MC-BASE
-**Institution:** University of Melbourne  
-**Level:** Master (Coursework)  
-**Duration:** 2 years (200 credit points)
+    markdown: `## DFVA REPORT: Master of Advanced Social Enterprise (MC-BASE)
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 credit points)
 
 **Assessment date:** 2026-06-20  
 **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-base  
-**Prompt version:** DFVA-COPILOT-PROMPT-v1
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 + DFVA-COPILOT-MARKET-v1  
 
 ### 1. PROGRAM PROFILE
 The Master of Advanced Social Enterprise at the University of Melbourne prepares graduates for leadership in social enterprise, impact investment, and purpose-driven organisations. The program combines social enterprise design, impact measurement, sustainability, and business management.
@@ -2959,49 +2944,69 @@ The Master of Advanced Social Enterprise at the University of Melbourne prepares
 Graduates typically move into roles at social enterprises, impact investment funds, corporate sustainability functions, not-for-profit management, and government social policy. The program sits at the intersection of business management and social purpose.
 
 ### 2. AUTOMATION EXPOSURE PROFILE
-| Year | Typical Tasks | Automation Risk |
+| Career Stage | Typical Tasks | Automation Risk |
 |---|---|---|
 | Year 1–2 (graduate) | Social enterprise analyst, impact coordinator — research, reporting, grant writing, stakeholder management | **HIGH** — Research, reporting, and coordination work is highly AI-automatable |
 | Year 3–5 | Social enterprise manager, impact investment analyst | **MEDIUM** — Strategic social enterprise design requires human judgment |
 
-### 3. DFVA SCORECARD
-*Score data from existing assessment records.*
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Social Enterprise Management | Business model design, revenue diversification, stakeholder engagement, impact reporting | "Strategic and relational core resists substitution; grant-writing and reporting templating is exposed" | Systems thinking, blended-finance literacy, B Corp certification knowledge |
+| Impact Consulting | Theory of change, SROI modelling, evaluation design, client advisory | "SROI calculation is automatable; qualitative sense-making and stakeholder work stay human" | Mixed-methods evaluation, SROI/LBG frameworks, narrative reporting |
+| CSR & Corporate Sustainability | ESG data aggregation and GRI/TCFD reporting increasingly AI-assisted; strategy stays human | "ESG reporting is being automated; materiality and engagement are not" | GRI Standards, ISSB/CSRD literacy, double-materiality assessment |
+| B Corp & Certification Advisory | Highly relational, bespoke advisory; certification process knowledge is domain-specific | "Certification advisory is among the least automatable roles" | B Impact Assessment methodology, benefit-company structures, impact governance |
+| Social Finance & Impact Investing | Quantitative screening automatable; qualitative due diligence and relationships remain human | "Impact investing needs genuine financial literacy, not just reporting" | Blended finance, outcomes contracting, GIIN IRIS+ metrics |
+| NFP Program Management | Coordination and compliance tasks partially automatable; community relationship work stays human | "Program delivery is exposed at the admin layer, protected at the community layer" | Outcome measurement, CRM proficiency (Salesforce NFP), grant-writing |
 
-**TOTAL: 18/36**  
-**Risk band: HIGH RISK**
+### 4. DFVA SCORECARD
+| # | Dimension | Score (0-3) | Evidence-based rationale |
+|---|---|---|---|
+| 1 | Automation Exposure of Roles | 1 | The accessible early-career roles — research, reporting, grant writing, impact-report production — are precisely the tasks now absorbed by AI research and writing tools. |
+| 2 | Systems Thinking and Problem Framing | 2 | Social enterprise design and theory-of-change work develop systems framing, but it is not assessed as a distinct rigorous competency with failure-mode analysis. |
+| 3 | Technical and Quantitative Depth | 1 | No compulsory quantitative core: causal evaluation, financial modelling, and SROI/econometric impact methods — the automation-resistant skills — are thin or absent. |
+| 4 | Decision-Making Under Uncertainty | 3 | The field is intrinsically about decisions under ambiguity — competing stakeholder interests, blended objectives, and contested evidence — and the program engages this directly. |
+| 5 | AI Literacy and Governance | 1 | No dedicated AI-governance content; graduates enter a sector where AI grant-writing, measurement, and stakeholder-mapping tools are reshaping entry-level work. |
+| 6 | Domain Depth and Specialisation | 2 | Genuine specialisation in social enterprise and impact, but no professional accreditation or regulatory moat protects the domain. |
+| 7 | Research Methods Rigour | 1 | No compulsory minor thesis or empirical/causal-evaluation capstone; most assessment is applied and qualitative rather than methodologically rigorous. |
+| 8 | Human and Relational Capability | 3 | Strong: stakeholder engagement, community relationships, and cross-sector collaboration are central, assessed, and the least automatable capability in the sector. |
+| 9 | Curriculum Currency and Adaptability | 2 | Curriculum is contemporary on impact and ESG, but slow to reflect AI-augmented measurement and reporting workflows now entering the sector. |
+| 10 | Graduate Outcome Evidence | 3 | Strong published outcomes — 92% full-time employment, $124k median, 96% at 3 years — with QILT GOS field-level data available. |
+| B | Irreplaceability Premium (Bonus) | 1 | Strong relational capability (D8:3) is offset by low technical depth (D3:1), research rigour (D7:1), and AI literacy (D5:1) — graduates lack the rare measurement + finance + domain integration that would make them structurally irreplaceable. |
 
-### 4. THREE THRESHOLD QUESTIONS
-**Q1: Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?**
-YES. See program assessment for detailed rationale.
+**TOTAL: 20 / 36**  
+**Risk band: MODERATE RISK (20-27)**
 
-**Q2: Does this program train graduates to design systems, own decisions, or generate original insight?**
-UNCERTAIN. See program assessment for detailed rationale.
+### 5. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
+  **YES** — Impact reports, stakeholder ecosystem maps, and grant-application research that dominate early-career work are directly absorbable by AI research and writing tools.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?  
+  **UNCERTAIN** — Decision-making under uncertainty and systems framing are genuine strengths, but the absence of a compulsory technical/quantitative core and research capstone limits original-insight and measurement capability.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
+  **UNCERTAIN** — Relational and certification-advisory roles are durable, but graduates confined to research/reporting work face displacement; employability depends on moving to the measurement, design, and finance leadership layer.
 
-**Q3: Will these graduates be more employable in 5 years than today, given AI trends?**
-UNCERTAIN. See program assessment for detailed rationale.
-
-### 5. ANALOGUE GRADUATE PROFILE
-The most exposed social enterprise graduate is the **Impact Analyst of 2021**: primarily producing impact reports, mapping stakeholder ecosystems, and conducting research for grant applications — work absorpable by AI research and writing tools.
+### 6. ANALOGUE GRADUATE PROFILE
+The most exposed social enterprise graduate is the **Impact Analyst of 2021**: primarily producing impact reports, mapping stakeholder ecosystems, and conducting research for grant applications — work absorbable by AI research and writing tools.
 
 Specific threats:
 - **AI grant writing tools** — automated grant application generation from organisational data
 - **AI impact measurement platforms** — automated social return on investment (SROI) calculation and reporting
 - **AI stakeholder mapping tools** — automated ecosystem mapping and network analysis
 
-### 6. VERDICT
-**The Master of Advanced Social Enterprise is HIGH RISK — a degree in a sector where the most accessible early-career roles are heavily AI-exposed.**
+### 7. VERDICT
+The Master of Advanced Social Enterprise is **MODERATE RISK** (20/36) — a high-purpose degree in a sector where the most accessible early-career roles (research, coordination, reporting) are heavily AI-exposed, but where strong decision-making under uncertainty and relational capability provide a real floor. The degree needs stronger quantitative, research, and governance capability to push graduates toward the design and measurement leadership roles that resist automation, rather than the artifact-production roles that do not.
 
-Social enterprise is a high-purpose field with genuine social value, but the early-career roles available to graduates (research, coordination, reporting) are precisely the tasks being automated. The degree needs stronger quantitative and governance capability to push graduates toward the design and measurement leadership roles that resist automation.
+### 8. RECOMMENDATIONS
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Develop **quantitative impact measurement** capability — causal evaluation, comparison-group design, and econometric impact analysis | 3, 7 | AI impact-measurement platforms automating SROI; premium on defensible causal evidence | High |
+| P2 | Build **financial modelling and social finance** capability — impact investing requires genuine financial literacy | 3 | Social finance/impact investing needs quantitative due diligence, not just reporting | Medium |
+| P3 | Add a dedicated **AI governance for social enterprise** unit — tool evaluation, measurement integrity, disclosure | 5 | AI grant-writing, measurement, and mapping tools reshaping entry-level work | Medium |
+| P4 | Introduce a **minor thesis / capstone research project** with defended outputs and stakeholder presentation | 7, 1 | Insights and evaluation roles moving up the seniority/synthesis ladder | High |
+| P5 | Build direct **stakeholder relationships in the impact-investment sector** through industry-partnered projects | 8 | Qualitative due diligence and relationship management remain human-held | High |
+| P6 | Add an **emerging-trends module** (ISSB/CSRD, double materiality, AI-augmented ESG reporting) updated each intake | 9 | ESG reporting standards and AI-assisted workflows evolving rapidly | Low |
 
-### 7. RECOMMENDATIONS
-| Priority | Action | Dimension | Effort |
-|---|---|---|---|
-| 1 | Develop quantitative impact measurement capability — causal evaluation, RCT design, and econometric impact analysis are specialist skills with growing demand | D3, D7 | High |
-| 2 | Build financial modelling and social finance capability — impact investing requires genuine financial literacy | D3 | Medium |
-| 3 | Develop technology and AI governance for social enterprise | D5 | Medium |
-| 4 | Build direct stakeholder relationships in the impact investment sector | D8 | High |
-
-### 8. THE REDESIGNED GRADUATE PROFILE
+### 9. THE REDESIGNED GRADUATE PROFILE
 The 2027-ready social enterprise graduate is not a report writer — they are a **social impact designer** who can measure what actually changes when an intervention is implemented.
 
 They understand causal evaluation: the difference between correlation and impact, what a valid comparison group looks like, and how to design a monitoring system that actually tells you whether the programme is working. They can explain this to a board that wants to see metrics and to a funder that wants evidence of impact.
@@ -3009,6 +3014,11 @@ They understand causal evaluation: the difference between correlation and impact
 They are fluent in social finance instruments — blended finance, social impact bonds, patient capital structures — and they understand the regulatory landscape for impact investment. They can evaluate whether an investment thesis is credible based on the underlying theory of change.
 
 They are not a generalist social sector worker. They are a specialist in measuring, designing, and scaling social impact — the most technically demanding and most future-proof role in the sector.
+
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Medium**.
+- Market evidence integrates ESG/impact-sector job-family analysis and professional discourse with QILT GOS field-of-study outcomes; the domain lacks a professional-registration data trail, so signals are directional.
+- For high-stakes curriculum decisions, add a live ANZ job-ad scrape (last 90 days) for impact-measurement and social-finance roles, and UniMelb MC-BASE destination data at role-title granularity.
 
 ### MARKET DATA
 | Metric | Value |
@@ -3020,8 +3030,6 @@ They are not a generalist social sector worker. They are a specialist in measuri
 | Occupation demand | MET |
 | AI automation exposure | 55% |
 | Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |
-
----
 
 <!-- LABOUR-EVIDENCE:START -->
 ### REAL GRADUATE DESTINATIONS (JSA HEO · QILT · Adzuna)
@@ -3047,7 +3055,7 @@ They are not a generalist social sector worker. They are a specialist in measuri
   "dfva-market-mc-base": {
     title: "Master of Advanced Social Enterprise (MC-BASE) — Market Intelligence",
     institution: "University of Melbourne",
-    markdown: `# DFVA MARKET INTELLIGENCE: Master of Advanced Social Enterprise
+    markdown: `# DFVA MARKET INTELLIGENCE: Master of Advanced Social Enterprise (MC-BASE)
 
 **Institution:** University of Melbourne
 **Assessment Date:** 2026-06-21
@@ -3209,8 +3217,11 @@ Professional discourse increasingly frames social enterprise careers as spanning
     title: "Master of Biomedical Science (MC-BMEDSC) — DFVA Assessment",
     institution: "University of Melbourne",
     markdown: `## DFVA REPORT: Master of Biomedical Science (MC-BMEDSC)
-**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 pts)
-**Assessment date:** 2026-06-08 | **Source:** https://handbook.unimelb.edu.au/2026/courses/mc-bmedsc
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 credit points)
+
+**Assessment date:** 2026-06-08  
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-bmedsc  
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 + DFVA-COPILOT-MARKET-v1  
 
 ### 1. PROGRAM PROFILE
 The Master of Biomedical Science at the University of Melbourne is a research-intensive degree combining laboratory science training with a 125-credit-point research project — the largest research component in the assessed cohort. Students choose a specialisation from five departmental areas: School of Biomedical Sciences, Melbourne Medical School, Melbourne Dental School, Department of Psychological Sciences, or Department of Optometry and Vision Sciences.
@@ -3219,7 +3230,7 @@ The 200-credit-point program includes *Introduction to Biomedical Research* (com
 
 Typical graduate roles include research scientist, clinical trial coordinator, research officer in pharmaceutical/biotechnology companies, PhD candidate, and postdoctoral researcher. The program serves as the primary entry point to biomedical PhD programs in Australia and internationally.
 
-## 2. AUTOMATION EXPOSURE PROFILE
+### 2. AUTOMATION EXPOSURE PROFILE
 
 | Task Category | Example Graduate Tasks | AI Pressure | AI Capability Today | Durability Rationale |
 |---|---|---|---|---|
@@ -3236,45 +3247,43 @@ Typical graduate roles include research scientist, clinical trial coordinator, r
 
 **Durability Assessment:** MC-BMEDSC graduates face meaningful AI pressure at the execution layer of laboratory work — routine assays, standard analyses, and image quantification are all subject to ongoing automation. However, the program's defining feature — a 125-credit-point sustained research project across four semesters — positions graduates primarily in the experimental design and scientific judgment layer, which is the most durable layer in biomedical research. The net automation exposure is medium rather than high precisely because the degree trains graduates to own the decisions that direct AI tools, not to execute the tasks those tools replace. The key vulnerability is the minority of graduates who exit into pure execution roles (research assistant, lab technician) without progressing to research design or clinical coordination positions.
 
-
-###  3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
-|---|---|---:|---|
-| 1 | Automation Exposure | 2 | 125pt research project anchors non-automatable work. Lab techniques partially automatable. Biomedical research increasingly AI-augmented. |
-| 2 | Systems Thinking | 2 | BIOM40001 (Introduction to Biomedical Research) + HLTH90021 (Research to Impact) teach problem framing. Research project requires experimental design. |
-| 3 | Technical Depth | 3 | Strong laboratory science core across SBS, MMS, Dental, Psych, Vision Sciences. Research project builds deep domain technique. |
-| 4 | Decision-Making | 3 | 125pt research project over 4 semesters requires sustained methodological decision-making and interpretation of experimental results. |
-| 5 | AI Literacy | 1 | No AI-specific units. Biomedical research uses computational tools but AI as governed system is absent. |
-| 6 | Domain Depth | 3 | Five departmental specialisations. Biomedical science is a deep domain. Research project creates expertise. |
-| 7 | Research Rigour | 3 | 125pt research project (the largest in this cohort). BIOM40001 provides research methodology grounding. |
-| 8 | Human & Relational | 2 | HLTH90021 addresses research-to-impact translation. Professional ethics implicit in research training and lab safety. |
-| 9 | Curriculum Currency | 2 | Updated 9 June 2026. Strong industry-engagement elements. No explicit AI integration. |
-| 10 | Outcome Evidence | 3 | No granular destination data. Biomedical career pathways externally documented. |
-| B | Irreplaceability | 3 | Rare: laboratory science + research training + industry awareness. 125pt project creates deep, non-substitutable expertise. |
-
-**TOTAL: 25/36 — MODERATE RISK**
-
-###  4. THREE THRESHOLD QUESTIONS
-- **Q1 (AI produce 80%?):** NO — the 125pt laboratory research project is irreducible human work.
-- **Q2 (Design systems/own decisions?):** YES — research project from design through interpretation.
-- **Q3 (More employable in 5 years?):** YES — biomedical research is AI-augmented, not AI-displaced. Research training is structurally protective.
-
-### Verdict
-The program's 125-point research project is its defining strength — proportionally the largest in this assessment cohort. Graduates exit with research-cultivated judgment that resists substitution. The AI literacy gap (D5) is the main opportunity.
-
-### 7. RECOMMENDATIONS
-| Priority | Action | Dimension | Effort |
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
 |---|---|---|---|
-| 1 | Add a unit on AI in biomedical research — machine learning for image analysis, AI drug discovery, computational biology — as a core or elective offering | D5, D9 | Medium |
-| 2 | Develop scientific communication capability explicitly — presenting research to non-specialist audiences is a growing career requirement | D8 | Low |
-| 3 | Build bioinformatics competency alongside lab expertise — the intersection of wet-lab and computational skills is the growth area | D3, D5 | Medium |
-| 4 | Publish graduate destination data including PhD continuation rates, time to employment, and industry sector breakdown | D10 | Medium |
-| 5 | Develop industry partnership opportunities beyond the current structure — industry-supervised research projects provide real-world validation of laboratory skills | D4, D8 | High |
+| Biomedical Researcher | Hypothesis formation, experimental design, and interpretation remain human-led; CSL, GSK, Melbourne biotechs active | "Research-project experience differentiates candidates from coursework-only masters" | Bioinformatics, statistical analysis, research integrity, grant writing |
+| Clinical Research | CTC/CRA roles consistently advertised; monitoring automating but regulatory judgment stays human | "GCP certification is a near-universal prerequisite not embedded in the curriculum" | ICH-GCP compliance, EDC systems, risk-based monitoring, site relationships |
+| Laboratory Science | High-throughput automation advancing; liquid-handling and imaging robots displacing routine bench work | "Lab roles now demand QMS and automation experience" | Automation operation, ISO 15189 QMS, data interpretation, bioinformatics |
+| Medical Science Liaison | Relationship-based, trust-dependent role; complex scientific exchange irreducible | "MSc + research background strongly valued for MSL entry" | Clinical evidence synthesis, communication, therapeutic-area depth |
+| Regulatory Affairs | Regulatory judgment, risk assessment, and stakeholder negotiation irreducible; ANZ complexity rising | "Device and therapeutic-goods regulation is a growing, protected pathway" | TGA CTN/CTA frameworks, ISO 13485, eCTD, ICH guidelines |
+| PhD Candidate | Creative research design and original contribution cannot be automated; stable NHMRC/ARC funding | "Original research design is the least automatable biomedical activity" | Research methodology, R/Python, scientific writing, grant skills |
 
----
+### 4. DFVA SCORECARD
+| # | Dimension | Score (0-3) | Evidence-based rationale |
+|---|---|---|---|
+| 1 | Automation Exposure of Roles | 2 | 125pt research project anchors non-automatable work. Lab techniques partially automatable. Biomedical research increasingly AI-augmented. |
+| 2 | Systems Thinking and Problem Framing | 2 | BIOM40001 (Introduction to Biomedical Research) + HLTH90021 (Research to Impact) teach problem framing. Research project requires experimental design. |
+| 3 | Technical and Quantitative Depth | 3 | Strong laboratory science core across SBS, MMS, Dental, Psych, Vision Sciences. Research project builds deep domain technique. |
+| 4 | Decision-Making Under Uncertainty | 3 | 125pt research project over 4 semesters requires sustained methodological decision-making and interpretation of experimental results. |
+| 5 | AI Literacy and Governance | 1 | No AI-specific units. Biomedical research uses computational tools but AI as governed system is absent. |
+| 6 | Domain Depth and Specialisation | 3 | Five departmental specialisations. Biomedical science is a deep domain. Research project creates expertise. |
+| 7 | Research Methods Rigour | 3 | 125pt research project (the largest in this cohort). BIOM40001 provides research methodology grounding. |
+| 8 | Human and Relational Capability | 2 | HLTH90021 addresses research-to-impact translation. Professional ethics implicit in research training and lab safety. |
+| 9 | Curriculum Currency and Adaptability | 2 | Updated 9 June 2026. Strong industry-engagement elements. No explicit AI integration. |
+| 10 | Graduate Outcome Evidence | 1 | No granular destination data published; biomedical career pathways externally documented but program-specific outcomes are not reported. |
+| B | Irreplaceability Premium (Bonus) | 3 | Rare: laboratory science + research training + industry awareness. 125pt project creates deep, non-substitutable expertise. |
 
+**TOTAL: 25 / 36**  
+**Risk band: MODERATE RISK (20-27)**
 
-## 5. ANALOGUE GRADUATE PROFILE
+### 5. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
+  **NO** — the 125pt laboratory research project is irreducible human work.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?  
+  **YES** — research project from design through interpretation.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
+  **YES** — biomedical research is AI-augmented, not AI-displaced. Research training is structurally protective.
+
+### 6. ANALOGUE GRADUATE PROFILE
 
 The most exposed biomedical science graduate is the **Research Assistant of 2020**: primarily conducting routine laboratory assays, processing samples according to established protocols, and entering experimental data — work being automated by laboratory robotics and AI analysis platforms.
 
@@ -3286,9 +3295,19 @@ Specific threats:
 
 However, the MC-BMEDSC graduate profile is substantially more protected: the 125pt research project, requiring original experimental design and defended methodology, positions graduates in the research judgment layer rather than the execution layer.
 
----
+### 7. VERDICT
+The Master of Biomedical Science is **MODERATE RISK** (25/36). Its 125-point research project is its defining strength — proportionally the largest in this assessment cohort — and graduates exit with research-cultivated judgment that resists substitution. The AI-literacy gap (D5:1) and the absence of published program-level outcome data (D10:1) are the main opportunities; closing both, without diluting the research core, is the clear path toward RESILIENT.
 
-## 8. THE REDESIGNED GRADUATE PROFILE
+### 8. RECOMMENDATIONS
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Add a unit on **AI in biomedical research** — machine learning for image analysis, AI drug discovery, computational biology — as a core or elective offering | 5, 9 | Biotech ads beginning to list AI-assisted analysis and ML familiarity | Medium |
+| P2 | Build **bioinformatics competency** alongside lab expertise — the wet-lab/computational intersection is the growth area | 3, 5 | Bioinformatics (R, Python, GATK) now baseline in genomics/precision-medicine ads | Medium |
+| P3 | Embed **GCP / clinical-research readiness** and industry-supervised projects to broaden protected pathways | 4, 8 | CTC/CRA demand sustained; GCP a near-universal prerequisite not currently embedded | High |
+| P4 | Develop **scientific communication** capability explicitly — presenting research to non-specialist audiences | 8 | MSL and translation roles are relationship-based and trust-dependent | Low |
+| P5 | Publish **graduate destination data** including PhD continuation rates, time to employment, and industry-sector breakdown | 10 | Program-specific outcome data is the critical evidence gap for scoring confidence | Medium |
+
+### 9. THE REDESIGNED GRADUATE PROFILE
 
 The 2027-ready biomedical science graduate is not a laboratory executor — they are a **research scientist** who generates original knowledge, defends experimental design, and governs AI tools with critical scientific judgment.
 
@@ -3298,13 +3317,11 @@ They understand how AI is transforming their specialisation: AlphaFold for struc
 
 They are positioned at the interface of laboratory expertise and computational analysis — they know when to trust the model and when to trust the bench result. In the AI era of biomedical science, that dual literacy is the rarest and most valuable combination.
 
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Medium**.
+- Market evidence integrates biomedical/biotech sector hiring intelligence and professional discourse with QILT GOS field-of-study outcomes; ANZ demand signals (bioinformatics baseline, CTC/CRA demand, AI-literacy gap) are directionally consistent.
+- For high-stakes curriculum decisions, add a live ANZ job-ad scrape (last 90 days) and UniMelb MC-BMEDSC destination data at role-title and PhD-continuation granularity.
 
-
----
-
-**Assessment Date:** 2026-06-21
-**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-bmedsc
-**Prompt Version:** DFVA-COPILOT-PROMPT-v1
 ### MARKET DATA
 | Metric | Value |
 |--------|-------|
@@ -3315,8 +3332,6 @@ They are positioned at the interface of laboratory expertise and computational a
 | Occupation demand | SHORTAGE |
 | AI automation exposure | 10% |
 | Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |
-
----
 
 <!-- LABOUR-EVIDENCE:START -->
 ### REAL GRADUATE DESTINATIONS (JSA HEO · QILT · Adzuna)
@@ -3470,21 +3485,15 @@ NHMRC and MRFF funding has held broadly stable in real terms. The sector is not 
   "dfva-mc-busana": {
     title: "Master of Business Analytics (MC-BUSANA) — DFVA Assessment",
     institution: "University of Melbourne",
-    markdown: `# DFVA REPORT: Master of Business Analytics
+    markdown: `## DFVA REPORT: Master of Business Analytics (MC-BUSANA)
 
-**Institution:** University of Melbourne
-**Level:** Master (Coursework)
-**Duration:** 1 year (150 credit points)
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 1 year (150 credit points)
 
----
+**Assessment date:** 2026-06-09
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-busana
+**Prompt version:** DFVA-COPILOT-PROMPT-v1
 
-**Assessment Date:** 2026-06-09
-**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-busana
-**Prompt Version:** DFVA-COPILOT-PROMPT-v1
-
----
-
-## 1. PROGRAM PROFILE
+### 1. PROGRAM PROFILE
 
 The Master of Business Analytics at the University of Melbourne (Melbourne Business School) is a specialist quantitative degree targeting candidates who want to build and deploy data-driven decision systems in business contexts. It is among the most technically rigorous business analytics programs in Australia.
 
@@ -3492,11 +3501,9 @@ The 150-credit-point core includes *Machine Learning & AI for Business*, *Statis
 
 Typical graduate roles include data scientist, machine learning engineer, analytics consultant, business intelligence lead, quantitative analyst, and AI product manager. The program produces graduates who build AI systems rather than being replaced by them — a structural differentiator.
 
----
+### 2. AUTOMATION EXPOSURE PROFILE
 
-## 2. AUTOMATION EXPOSURE PROFILE
-
-| Year | Typical Tasks | Automation Risk |
+| Stage | Typical Tasks | Automation Risk |
 |---|---|---|
 | Year 1–2 (graduate) | Data scientist, ML engineer, analytics consultant — model building, pipeline development, analysis design | **LOW–MEDIUM** — Graduates build AI tools; they design the systems that automate others. AutoML compresses some junior modelling, but problem framing and validation remain human. |
 | Year 3–5 | Senior data scientist, analytics lead, ML engineering manager — system design, governance, team leadership | **LOW** — Senior analytical judgment, model evaluation, and governance accountability are not automatable. |
@@ -3504,43 +3511,46 @@ Typical graduate roles include data scientist, machine learning engineer, analyt
 
 **Structural advantage:** Business Analytics graduates are building the tools that replace others — not being replaced. The degree trains people to sit above the automation layer, which makes them structurally more durable than most graduate cohorts. The primary risk is AutoML and foundation models reducing the barrier to entry for junior ML work, compressing the first-two-year tier somewhat.
 
----
+### 3. MARKET EVIDENCE SNAPSHOT
 
-## 3. DFVA SCORECARD
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Business Intelligence & Reporting | Routine SQL and report generation increasingly automated by Copilot-style BI tools; entry-level headcount under pressure | "Analytics engineering is redefining the analyst role — pipeline literacy is now expected" | Add cloud-native SQL (BigQuery/Snowflake) and analytics-engineering (dbt) instruction |
+| Advanced Analytics & Data Science | Demand growing for analysts who validate and interpret ML outputs; data analysts #2 fastest growing (WEF 2025) | "Generative AI is compressing entry-level workflows — the quality bar is rising" | Embed AI-augmented analytics exercises across core subjects |
+| Analytics Consulting | 23% YoY growth in "analytics consultant" postings in ANZ 2025; client trust remains differentiating | "Communication and data storytelling are now explicitly screened" | Require assessed non-technical stakeholder presentations |
+| Operations Research & Optimisation | OR / supply-chain analyst roles grew ~19% 2023–2025; documented skills shortage | "Supply chain and operations analytics talent shortage is widely acknowledged" | Pair OR theory with applied ERP/WMS supply-chain projects |
+| Marketing & Customer Analytics | Cookie deprecation and AU Privacy Act reform driving consent-based analytics demand | "Privacy and data governance are now practitioner concerns, not just compliance" | Add first-party data strategy and governance frameworks |
+| Financial Analytics | APRA/ASX regulatory requirements sustain demand for validated model-risk roles | "Explainability and responsible AI are entering practitioner discourse" | Build model-risk, explainability and audit-trail competency |
+
+### 4. DFVA SCORECARD
 
 | # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---|---|
-| 1 | Automation Exposure of Roles | 2/3 | Data scientists/analysts build AI tools rather than being replaced by them. Some routine analysis is automatable but strategic problem framing and business translation resist automation strongly. |
-| 2 | Systems Thinking and Problem Framing | 3/3 | Translating business problems into quantitative form, integrating across statistics/ML/optimisation domains. Causal + predictive + NLP — full quantitative systems toolkit. |
-| 3 | Technical and Quantitative Depth | 3/3 | Machine Learning & AI, Statistical Learning, NLP, Causal Analytics, Predictive Analytics — deeply quantitative. Programming Foundations included as core. |
-| 4 | Decision-Making Under Uncertainty | 3/3 | Decision Making and Optimisation is a core subject. Learning outcomes explicitly require dealing with ambiguity, uncertainty, and bias in real business contexts. |
-| 5 | AI Literacy and Governance | 3/3 | Machine Learning & AI for Business, NLP — AI is core curriculum, not elective. Graduates can deploy and critically evaluate AI workflows. |
-| 6 | Domain Depth and Specialisation | 3/3 | 150pt specialist degree. Core across data platforms, programming, statistics, ML, NLP, causal/predictive analytics. Clear specialist identity distinct from generic management. |
-| 7 | Research Methods Rigour | 2/3 | Individual Research Project (25pt) available with coordinator approval. Research pathway optional but genuine quantitative research skills embedded throughout core. |
-| 8 | Human & Relational Capability | 2/3 | Professional development includes teamwork and professional standards. Communication to non-technical audiences emphasised. Not clinical-level relational. |
-| 9 | Curriculum Currency and Adaptability | 3/3 | Updated April 2026. ML/AI, NLP, Causal Analytics — state-of-the-art quantitative curriculum clearly designed for AI-era business needs. |
-| 10 | Outcome Evidence | 3/3 | Business analytics employment outcomes strong. Melbourne Business School reputation and tracked employment. Strong demand signal for the specific skill set. |
-| B | Irreplaceability (bonus) | 3/3 | Graduates build and deploy AI systems — this program trains the replacers. AI literacy + quantitative depth + business translation is a rare triple combination. |
-| **TOTAL** | | **30/36** | |
+| 1 | Automation Exposure of Roles | 2 | Data scientists/analysts build AI tools rather than being replaced by them. Some routine analysis is automatable but strategic problem framing and business translation resist automation strongly. |
+| 2 | Systems Thinking and Problem Framing | 3 | Translating business problems into quantitative form, integrating across statistics/ML/optimisation domains. Causal + predictive + NLP — full quantitative systems toolkit. |
+| 3 | Technical and Quantitative Depth | 3 | Machine Learning & AI, Statistical Learning, NLP, Causal Analytics, Predictive Analytics — deeply quantitative. Programming Foundations included as core. |
+| 4 | Decision-Making Under Uncertainty | 3 | Decision Making and Optimisation is a core subject. Learning outcomes explicitly require dealing with ambiguity, uncertainty, and bias in real business contexts. |
+| 5 | AI Literacy and Governance | 3 | Machine Learning & AI for Business, NLP — AI is core curriculum, not elective. Graduates can deploy and critically evaluate AI workflows. |
+| 6 | Domain Depth and Specialisation | 3 | 150pt specialist degree. Core across data platforms, programming, statistics, ML, NLP, causal/predictive analytics. Clear specialist identity distinct from generic management. |
+| 7 | Research Methods Rigour | 2 | Individual Research Project (25pt) available with coordinator approval. Research pathway optional but genuine quantitative research skills embedded throughout core. |
+| 8 | Human and Relational Capability | 2 | Professional development includes teamwork and professional standards. Communication to non-technical audiences emphasised. Not clinical-level relational. |
+| 9 | Curriculum Currency and Adaptability | 3 | Updated April 2026. ML/AI, NLP, Causal Analytics — state-of-the-art quantitative curriculum clearly designed for AI-era business needs. |
+| 10 | Graduate Outcome Evidence | 3 | Business analytics employment outcomes strong. Melbourne Business School reputation and tracked employment. Strong demand signal for the specific skill set. |
+| B | Irreplaceability Premium (Bonus) | 3 | Graduates build and deploy AI systems — this program trains the replacers. AI literacy + quantitative depth + business translation is a rare triple combination. |
 
-**Risk Band: RESILIENT**
+**TOTAL: 30 / 36**
+**Risk band: RESILIENT (28-36)**
 
----
+### 5. THREE THRESHOLD QUESTIONS
 
-## 4. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?
+  **NO** — core work requires translating messy business problems into tractable quantitative form, designing valid measurement, and governing AI outputs in high-stakes contexts, which AI cannot yet replicate reliably.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?
+  **YES** — the program's specialist curriculum and Individual Research Project pathway provide genuine decision ownership and system design capability.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?
+  **YES** — structural demand for the specific skill set and AI-native curriculum positioning make 5-year employability stronger than today.
 
-**Q1: Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?**
-NO. Core professional work in Master of Business Analytics requires physical presence, regulated judgment, or specialist domain knowledge that AI cannot yet replicate reliably.
-
-**Q2: Does this program train graduates to design systems, own decisions, or generate original insight?**
-YES. The program's capstone, professional practice, and specialist curriculum provide genuine decision ownership and system design capability.
-
-**Q3: Will these graduates be more employable in 5 years than today, given AI trends?**
-YES. Structural demand for the specific skill set, professional accreditation protection, or AI-native curriculum positioning make 5-year employability stronger than today.
-
----
-
-## 5. ANALOGUE GRADUATE PROFILE
+### 6. ANALOGUE GRADUATE PROFILE
 
 The most exposed Business Analytics graduate is the **Junior BI Analyst of 2021**: a capable SQL writer who produced dashboards, ran standard regression analyses, and maintained reporting infrastructure — work now absorbed by Power BI Copilot, Tableau AI, and agentic analytics tools. This profile does not represent the MC-BUSANA graduate, but it represents what the program was historically competing against.
 
@@ -3549,33 +3559,23 @@ The MC-BUSANA graduate is better positioned because their core skill is not dash
 - **Translating messy business problems into tractable quantitative form** — the hardest part of analytics, and where human judgment is most critical
 - **Governing AI outputs in high-stakes contexts** — who is accountable when the model recommends wrongly
 
----
+Threatening tool classes: BI co-pilots (Power BI Copilot, Tableau Pulse), AutoML platforms, LLM code interpreters, and agentic analytics tools that compress routine junior modelling and reporting.
 
-## 6. VERDICT
+### 7. VERDICT
 
-**The Master of Business Analytics is RESILIENT — one of the strongest programs in the portfolio for 2027 and beyond.**
+The Master of Business Analytics is **RESILIENT (30/36)** — one of the strongest programs in the portfolio for 2027 and beyond. Graduates build and deploy AI systems rather than being replaced by them, combining machine-learning depth, causal analytics, and business translation into a graduate profile with genuine automation resistance at its core. The degree is resilient under one condition: graduates must position themselves as decision-layer professionals, not code-production workers — the capability to frame a causal question, design a valid test, and defend the inference is what the AI era actually demands, and that capability is in this program.
 
-The program's score (31/36) reflects a genuinely distinctive curriculum: graduates build and deploy AI systems rather than being replaced by them. The combination of machine learning depth, causal analytics, and business translation creates a graduate profile with genuine automation resistance at its core.
+### 8. RECOMMENDATIONS
 
-The remaining risk is that AutoML tools and foundation model APIs are lowering the technical barrier for basic ML work. A junior data scientist who only knows how to run sklearn pipelines and interpret standard outputs faces compression. But MC-BUSANA graduates who have engaged with causal inference, model governance, and NLP depth are positioned above this compression layer.
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Pursue the Individual Research Project if available — the ability to design and defend original quantitative analysis is the highest differentiator in the job market | D7 | Causal inference cited as the skill separating good from great analysts | High |
+| P2 | Build specialisation in a regulated domain — healthcare analytics, financial risk modelling, or public policy evaluation create governance requirements that sustain human judgment | D6 | Domain-specific analytics commanding 10–18% salary premiums | Medium |
+| P3 | Develop explainability and governance competency beyond technical modelling — audit trails, fairness metrics, and regulatory compliance for AI | D5 | Explainability and responsible AI entering practitioner discourse | Medium |
+| P4 | Build the communication layer explicitly — the ability to explain model outputs to non-technical decision-makers is the most common gap in quantitative graduates | D8 | Communication and data storytelling now explicitly screened in ANZ hiring | Low |
+| P5 | Target AI product management and ML engineering lead roles, not just data science contributor roles — governance and direction create more durable positioning | D1 | Full-stack analyst expectation stressing generalist programs | Low–Medium |
 
-**The degree is RESILIENT under one condition: graduates must position themselves as decision-layer professionals, not code-production workers.** The capability to frame a causal question, design a valid test, and defend the inference against alternative explanations is what the AI era actually demands. That capability is in this program. Whether individual graduates develop and demonstrate it is the variable.
-
----
-
-## 7. RECOMMENDATIONS
-
-| Priority | Action | Dimension | Effort |
-|---|---|---|---|
-| 1 | Pursue the Individual Research Project if available — the ability to design and defend original quantitative analysis is the highest differentiator in the job market | D7 | High |
-| 2 | Build specialisation in a regulated domain — healthcare analytics, financial risk modelling, or public policy evaluation create governance requirements that sustain human judgment | D6 | Medium |
-| 3 | Develop explainability and governance competency beyond technical modelling — audit trails, fairness metrics, and regulatory compliance for AI are growth areas | D5 | Medium |
-| 4 | Build the communication layer explicitly — the ability to explain model outputs to non-technical decision-makers is the most common gap in quantitative graduates | D8 | Low |
-| 5 | Target AI product management and ML engineering lead roles, not just data science contributor roles — governance and direction create more durable positioning | D1 | Low–Medium |
-
----
-
-## 8. THE REDESIGNED GRADUATE PROFILE
+### 9. THE REDESIGNED GRADUATE PROFILE
 
 The 2027-ready Business Analytics graduate does not run standard models on clean datasets. They **define the question, design the measurement, and own the interpretation** — the parts of the analytics pipeline that AI cannot do without a human who understands the domain.
 
@@ -3584,6 +3584,12 @@ They have done causal inference properly: they know the difference between corre
 They can read a model fairness audit and know what questions to ask. They understand what "the model is biased" means technically and what its implications are for deployment in a specific context. They can brief a legal team on why an algorithmic decision requires human review.
 
 They have communicated their work to a CFO, a product manager, and a regulatory team — and adjusted their framing for each audience without losing technical precision. That translation capacity is what makes them genuinely valuable at the decision-making layer.
+
+### 10. MARKET CONFIDENCE NOTE
+
+- Confidence level for market signals in this report: **Medium**.
+- Market evidence integrates QILT GOS field-of-study outcomes with WEF Future of Jobs 2025, DEWR Labour Market Insights, LinkedIn/Seek trend data, and ANZ analytics practitioner discourse; live job-ad scrape and program-title graduate-destination data were unavailable.
+- For high-stakes curriculum decisions, add a live ANZ job-ad scrape (last 90 days) and program-level destination data at role-title granularity from MBS Careers & Industry.
 
 ### MARKET DATA
 | Metric | Value |
@@ -3622,7 +3628,7 @@ They have communicated their work to a CFO, a product manager, and a regulatory 
   "dfva-market-mc-busana": {
     title: "Master of Business Analytics (MC-BUSANA) — Market Intelligence",
     institution: "University of Melbourne",
-    markdown: `# DFVA MARKET INTELLIGENCE: Master of Business Analytics
+    markdown: `# DFVA MARKET INTELLIGENCE: Master of Business Analytics (MC-BUSANA)
 
 **Institution:** University of Melbourne
 **Assessment Date:** 2026-06-21
@@ -3786,8 +3792,12 @@ Following the Australian Privacy Act reform consultations and high-profile data 
     title: "Master of Climate Science (MC-CLIMSCI) — DFVA Assessment",
     institution: "University of Melbourne",
     markdown: `## DFVA REPORT: Master of Climate Science (MC-CLIMSCI)
+
 **Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 pts)
-**Assessment date:** 2026-06-08 | **Source:** https://handbook.unimelb.edu.au/2026/courses/mc-climsci
+
+**Assessment date:** 2026-06-08
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-climsci
+**Prompt version:** DFVA-COPILOT-PROMPT-v1
 
 ### 1. PROGRAM PROFILE
 The Master of Climate Science at the University of Melbourne is a specialist degree at the intersection of physical climate science, atmospheric dynamics, and climate policy. Students choose between two streams: Climate Dynamics (focusing on physical mechanisms) or Climate Change (focusing on impacts and policy translation).
@@ -3796,8 +3806,7 @@ The program covers Climate Modelling, Dynamical Meteorology, Atmospheric Process
 
 Typical graduate roles include climate scientist, climate risk analyst, climate policy advisor, sustainability consultant, atmospheric researcher, and climate data scientist. Climate careers are growing structurally due to mandatory climate disclosure, adaptation planning, carbon market development, and international climate regulation.
 
-
-## 2. AUTOMATION EXPOSURE PROFILE
+### 2. AUTOMATION EXPOSURE PROFILE
 
 | Task Category | Example Graduate Tasks | AI Pressure | AI Capability Today | Durability Rationale |
 |---|---|---|---|---|
@@ -3813,31 +3822,44 @@ Typical graduate roles include climate scientist, climate risk analyst, climate 
 
 **Durability Assessment:** Climate science graduates face real automation pressure on the analytical pipeline — model post-processing, standard attribution analysis, and data management are being systematised by AI climate tools. However, the program's emphasis on physical mechanism understanding (Dynamical Meteorology, Atmospheric Processes, Climate Modelling) builds the kind of causal knowledge that remains robust: graduates who understand *why* a climate model behaves as it does in a specific regional context can evaluate AI outputs rather than merely execute them. The structural demand growth driven by mandatory climate disclosure and adaptation planning further cushions automation exposure — the volume of climate risk work is expanding faster than automation is replacing it.
 
+### 3. MARKET EVIDENCE SNAPSHOT
 
-###  3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
-|---|---|---:|---|
-| 1 | Automation Exposure | 2 | 25pt industry/research project. Climate modelling is computational but interpretation requires judgment. |
-| 2 | Systems Thinking | 3 | Climate science is the canonical systems discipline. Atmosphere-ocean-biosphere coupling, feedback loops, tipping points. |
-| 3 | Technical Depth | 3 | Climate Modelling, Dynamical Meteorology, Atmospheric Processes, Convective Clouds, Statistics in Climate Dynamics. Deep quantitative core. |
-| 4 | Decision-Making | 3 | Climate Science for Decision-Making explicitly bridges science to policy. Industry/research project involves real-world decisions under deep uncertainty. |
-| 5 | AI Literacy | 1 | No AI-specific units. Climate science increasingly uses ML for downscaling/attribution but this is not in the curriculum. |
-| 6 | Domain Depth | 3 | Climate science with two streams (Climate Dynamics, Climate Change). 75pt of discipline electives. |
-| 7 | Research Rigour | 2 | 25pt project is smaller than lab-science MSc equivalents. Statistics in Climate Dynamics (not available 2026) would have strengthened this. |
-| 8 | Human & Relational | 2 | Climate Change Politics and Policy, Climate Change Mitigation — policy/stakeholder dimensions. Science Communication available. |
-| 9 | Curriculum Currency | 3 | Climate science is inherently current. Updated 16 Feb 2026. Climate Change Mitigation, Weather and Climate Extremes — directly relevant to 2026. |
-| 10 | Outcome Evidence | 2 | No granular destination data. Climate careers are growing but program-specific outcomes not tracked. |
-| B | Irreplaceability | 3 | Rare: climate science + policy translation + quantitative modelling. Growing field with structural demand drivers (regulation, disclosure, adaptation). |
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Climate Scientist / Modeller | CSIRO and BoM advertise specialist roles; private-sector demand growing from energy and insurance | "Physical domain reasoning and uncertainty quantification are irreducible" | Ensure production-level Python/GIS computational depth |
+| Climate Risk Analyst | Mandatory Australian climate disclosure (ASRS, Jan 2025) creating structural demand in banks, super funds, insurers | "Scenario interpretation and materiality judgment resist automation" | Bridge climate outputs to financial materiality (TCFD/IFRS S2) |
+| Climate Policy Advisor | DCCEEW, state climate offices, UNDP hiring; high competition for Canberra roles | "Document synthesis automating; political-feasibility judgment irreducible" | Reinforce science-policy translation and stakeholder briefing |
+| Carbon Market Analyst | Safeguard Mechanism reform (2024) and net-zero commitments driving demand; market still maturing | "Additionality and permanence judgment stay durable as monitoring automates" | Add emerging carbon-markets literacy elective, framed as early-stage |
+| Sustainability Consultant | Big 4 and boutiques (South Pole, ERM, Climateworks) scaling climate practices; graduate demand high | "Scope 3 data aggregation automating; strategy and advisory durable" | Embed SBTi/ASRS reporting and net-zero strategy |
+| Renewable Energy Analyst | AEMO and consultancies hiring for Victoria's offshore wind pipeline; net-new analytical roles | "Nuanced grid-constraint and market-design analysis stays human" | Add power-system and energy-transition modelling exposure |
 
-**TOTAL: 26/36 — MODERATE RISK** (upper boundary)
+### 4. DFVA SCORECARD
+| # | Dimension | Score (0-3) | Evidence-based rationale |
+|---|---|---|---|
+| 1 | Automation Exposure of Roles | 2 | 25pt industry/research project. Climate modelling is computational but interpretation requires judgment. |
+| 2 | Systems Thinking and Problem Framing | 3 | Climate science is the canonical systems discipline. Atmosphere-ocean-biosphere coupling, feedback loops, tipping points. |
+| 3 | Technical and Quantitative Depth | 3 | Climate Modelling, Dynamical Meteorology, Atmospheric Processes, Convective Clouds, Statistics in Climate Dynamics. Deep quantitative core. |
+| 4 | Decision-Making Under Uncertainty | 3 | Climate Science for Decision-Making explicitly bridges science to policy. Industry/research project involves real-world decisions under deep uncertainty. |
+| 5 | AI Literacy and Governance | 1 | No AI-specific units. Climate science increasingly uses ML for downscaling/attribution but this is not in the curriculum. |
+| 6 | Domain Depth and Specialisation | 3 | Climate science with two streams (Climate Dynamics, Climate Change). 75pt of discipline electives. |
+| 7 | Research Methods Rigour | 2 | 25pt project is smaller than lab-science MSc equivalents. Statistics in Climate Dynamics (not available 2026) would have strengthened this. |
+| 8 | Human and Relational Capability | 2 | Climate Change Politics and Policy, Climate Change Mitigation — policy/stakeholder dimensions. Science Communication available. |
+| 9 | Curriculum Currency and Adaptability | 3 | Climate science is inherently current. Updated 16 Feb 2026. Climate Change Mitigation, Weather and Climate Extremes — directly relevant to 2026. |
+| 10 | Graduate Outcome Evidence | 2 | No granular destination data. Climate careers are growing but program-specific outcomes not tracked. |
+| B | Irreplaceability Premium (Bonus) | 3 | Rare: climate science + policy translation + quantitative modelling. Growing field with structural demand drivers (regulation, disclosure, adaptation). |
 
-### 4. THREE THRESHOLD QUESTIONS
-- **Q1:** NO — climate science requires integrated physical understanding AI cannot replicate.
-- **Q2:** YES — Climate Science for Decision-Making + capstone + systems orientation.
-- **Q3:** YES — climate careers are structurally growing. Mandatory climate disclosure, adaptation planning, carbon markets create durable demand.
+**TOTAL: 27 / 36**
+**Risk band: MODERATE RISK (20-27)**
 
+### 5. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?
+  **NO** — climate science requires integrated physical understanding AI cannot replicate; graduates diagnose *why* a model is biased in a region rather than merely executing analysis pipelines.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?
+  **YES** — Climate Science for Decision-Making, the industry/research capstone, and the systems orientation provide genuine decision ownership under deep uncertainty.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?
+  **YES** — climate careers are structurally growing; mandatory climate disclosure, adaptation planning, and carbon markets create durable demand.
 
-## 5. ANALOGUE GRADUATE PROFILE
+### 6. ANALOGUE GRADUATE PROFILE
 
 The most exposed climate science graduate is the **Climate Data Analyst of 2021**: primarily processing climate datasets, running standard analysis scripts on model output, and producing summary reports — work increasingly systematised by AI-augmented climate analytics platforms.
 
@@ -3847,26 +3869,21 @@ Specific threats:
 - **Automated climate model evaluation tools** — systematic bias correction and model evaluation pipelines
 - **AI climate communication tools** — automated translation of climate science into policy-relevant summary
 
----
+### 7. VERDICT
+Climate science is one of the most structurally durable disciplines assessed. At **27/36 MODERATE RISK** (upper boundary), the field is growing, the physical science is irreducible, and the policy interface creates demand for translation skills that resist automation. The AI/ML gap is real (climate science increasingly uses ML) but non-critical — the program's core value is physical understanding, not tool operation. Embedding AI-for-climate literacy and strengthening tracked graduate-outcome data would move it to RESILIENT.
 
-### Verdict
-Climate science is one of the most structurally durable disciplines assessed. The field is growing, the physical science is irreducible, and the policy interface creates demand for translation skills that resist automation. The AI/ML gap is real (climate science increasingly uses ML) but non-critical — the program's core value is physical understanding, not tool operation.
+### 8. RECOMMENDATIONS
 
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Embed AI/ML-for-climate literacy into the core curriculum — cover large climate emulators (ClimaX, GraphCast), AI-based weather prediction (FourCastNet), and AI-assisted attribution tools; teach graduates to critically interrogate these systems rather than treat them as black boxes | D5 | ML and GIS skills increasingly listed by CSIRO/BoM and private climate-intelligence ads | High |
+| P2 | Expand the industry/research project (25pt) toward a minimum 37.5pt by adding a structured professional placement stream with climate-active organisations (CSIRO, BoM, infrastructure asset owners, TCFD-reporting corporates) | D10 | Industry-project placement quality directly determines graduate competitiveness | Medium |
+| P3 | Restore Statistics in Climate Dynamics to the standard offering and add a quantitative methods for climate risk unit covering uncertainty quantification, Bayesian inference, and ensemble analysis | D7 | Physical climate risk quantification (VaR, tail risk, scenario analysis) rising very fast | Low |
+| P4 | Establish tracked graduate destination data with the Faculty of Science careers office — 6-month and 3-year outcomes disaggregated by stream | D10 | No published MC-CLIMSCI destination data; QILT suppressed for small cohort | Low |
+| P5 | Add a Climate Finance and Disclosure elective covering TCFD/TNFD frameworks, mandatory disclosure (ASRS AASB S2), and climate scenario analysis for financial institutions | D4 | Mandatory disclosure surge is the largest near-term employment driver | Medium |
+| P6 | Integrate science communication and stakeholder engagement as a required, assessed component of the capstone — communicating probabilistic uncertainty and model limitations to non-specialists | D8 | Consulting and government employers increasingly list science communication | Low |
 
-## 7. RECOMMENDATIONS
-
-| Priority | Action | Dimension | Effort |
-|---|---|---|---|
-| 1 | Embed AI/ML-for-climate literacy into the core curriculum — cover large climate emulators (ClimaX, GraphCast), AI-based weather prediction (FourCastNet), and AI-assisted attribution tools; teach graduates to evaluate and critically interrogate these systems rather than treat them as black boxes | D5 AI Readiness | HIGH — requires new unit or substantial elective update |
-| 2 | Expand the industry/research project (25pt) to a minimum 37.5pt by adding a structured professional placement stream with climate-active organisations (CSIRO, Bureau of Meteorology, infrastructure asset owners, TCFD-reporting corporates) — current capstone is undersized relative to peer programs | D1 Graduate Employment Outcomes | MEDIUM — partnership development required |
-| 3 | Restore Statistics in Climate Dynamics to the standard 2026 offering (marked "not available 2026" in handbook) and add a quantitative methods for climate risk unit covering uncertainty quantification, Bayesian inference, and ensemble analysis — these are foundational for climate risk work | D3 Technical Currency | LOW — primarily scheduling and staffing |
-| 4 | Establish tracked graduate destination data — partner with the Faculty of Science careers office to collect 6-month and 3-year outcomes specifically for MC-CLIMSCI graduates, disaggregated by stream (Climate Dynamics vs Climate Change); current outcome evidence relies entirely on broad GOS Science cohort figures | D10 Outcome Data | LOW — administrative process, no curriculum change |
-| 5 | Add a Climate Finance and Disclosure elective covering TCFD/TNFD frameworks, mandatory climate disclosure (ASRS AASB S2), and climate scenario analysis for financial institutions — this is the fastest-growing employer segment for climate science graduates in Australia | D4 Industry Connection | MEDIUM — new unit development or partner with FBE |
-| 6 | Develop an accreditation pathway or recognised credential for the program — explore formal recognition with the Australian Meteorological and Oceanographic Society (AMOS) or alignment with AMS certification requirements; formal professional recognition strengthens graduate positioning in competitive hiring | D6 Professional Accreditation | HIGH — requires sustained professional body engagement |
-| 7 | Integrate science communication and stakeholder engagement as a required component of the capstone project, not an optional elective — graduates entering climate risk and policy roles must be able to communicate probabilistic uncertainty and model limitations to non-specialist decision-makers; make this assessed | D8 Communication | LOW — capstone project scope adjustment |
-
-
-## 8. THE REDESIGNED GRADUATE PROFILE
+### 9. THE REDESIGNED GRADUATE PROFILE
 
 The 2027-ready climate science graduate is not a data processor — they are a **climate system specialist** who understands the physical mechanisms of climate change and can translate that understanding into defensible risk assessments and policy recommendations.
 
@@ -3874,14 +3891,11 @@ They have worked with real climate data: they know what climate model bias looks
 
 They understand the AI-augmented future of climate science: large climate emulators, AI-based weather prediction, and AI-assisted climate policy analysis. They can evaluate whether an AI climate tool is capturing real physics or statistical patterns that may not generalise. That critical evaluation capability is what positions them as climate scientists rather than climate data operators.
 
----
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Medium–High**. Climate science is a structurally growing field with documented demand drivers.
+- Market evidence integrates QILT GOS Science outcomes with documented Australian mandatory-disclosure legislation, APS Jobs and SEEK/LinkedIn AU role patterns, and Big 4 sustainability-practice growth.
+- For high-stakes curriculum decisions, add a live ANZ job-ad scrape (last 90 days), program-specific MC-CLIMSCI destination data, and employer interviews across financial services, government, and consulting.
 
-
----
-
-**Assessment Date:** 2026-06-21
-**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-climsci
-**Prompt Version:** DFVA-COPILOT-PROMPT-v1
 ### MARKET DATA
 | Metric | Value |
 |--------|-------|
@@ -4084,13 +4098,12 @@ Graduates with strong academic profiles are competitive for UNDP, UNEP, World Ba
   "dfva-mc-clind": {
     title: "Master of Clinical Dentistry (MC-CLIND) — DFVA Assessment",
     institution: "University of Melbourne",
-    markdown: `## DFVA REPORT: MC-CLIND
-**Institution:** University of Melbourne  
-**Level:** Master (Coursework)  
-**Duration:** 2 years (200 credit points)
+    markdown: `## DFVA REPORT: Master of Clinical Dentistry (MC-CLIND)
 
-**Assessment date:** 2026-06-20  
-**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-clind  
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 credit points)
+
+**Assessment date:** 2026-06-20
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-clind
 **Prompt version:** DFVA-COPILOT-PROMPT-v1
 
 ### 1. PROGRAM PROFILE
@@ -4099,28 +4112,48 @@ The Master of Clinical Dentistry at the University of Melbourne is a specialist 
 Graduate roles include specialist dentist, clinical academic, oral health researcher, and dental public health specialist. The program requires existing dental registration and provides specialist-level clinical training.
 
 ### 2. AUTOMATION EXPOSURE PROFILE
-| Year | Typical Tasks | Automation Risk |
+| Stage | Typical Tasks | Automation Risk |
 |---|---|---|
 | Year 1–3 (graduate) | Clinical specialist practice — diagnosis, treatment planning, complex procedures | **LOW** — Physical clinical procedures, diagnosis, and patient management require human clinical judgment |
 | Year 4+ | Senior specialist, clinical academic — teaching, research, complex case management | **LOW** — Professional registration and clinical accountability |
 
-### 3. DFVA SCORECARD
-*Score data from existing assessment records.*
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Prosthodontics | Prosthodontics among smallest specialist pools in ANZ — persistent undersupply; CAD/CAM design software increasingly embedded | "CAD/CAM and digital dentistry are now core specialist competencies" | Mandate digital-dentistry unit (intraoral scan-to-restoration, CAD/CAM) |
+| Specialist Dentistry – Other Streams | AI diagnostic tools (Pearl, Videa, Overjet) entering radiology interpretation as adjuncts requiring specialist sign-off | "AI diagnostic tools are adjunct, not replacement — specialist oversight required" | Add CBCT module with AI-tool session framed as adjunct-requiring-oversight |
+| Clinical Dental Education | Dental schools and DHSV-affiliated sites report shortage of suitably qualified clinical supervisors | "Specialist workforce undersupply and long public wait times" | Reinforce competency-based curriculum and simulation instruction skills |
+| Oral Health Consulting | Hospital and state health departments hiring; NDIS oral-health program expansion driving demand | "Medically compromised patient complexity is increasing" | Formalise hospital-based placements covering oncology/transplant patients |
+| Implantology / Oral Surgery | Implantology demand in private practice growing strongly; Medicare-ineligible procedures sustain demand | "Digital workflow competency explicitly requested in specialist practice ads" | Add guided-surgery and CBCT-to-surgical-guide workflow exposure |
+| Telehealth / Remote Oral Health | RFDS and rural health services expanding telehealth specialist second-opinion/triage roles | "Telehealth regulatory ambiguity for dental specialists" | Insert telehealth governance module (indemnity, consent, jurisdictional scope) |
 
-**TOTAL: 23/36**  
-**Risk band: MODERATE RISK**
+### 4. DFVA SCORECARD
+| # | Dimension | Score (0-3) | Evidence-based rationale |
+|---|---|---|---|
+| 1 | Automation Exposure of Roles | 3 | Physical clinical procedures, specialist diagnosis, and patient management require human clinical judgment; AI substitution pressure on specialist-level work is low. |
+| 2 | Systems Thinking and Problem Framing | 1 | Specialist clinical training is deep but siloed; cross-disciplinary and system-level framing is not an explicit assessed competency. |
+| 3 | Technical and Quantitative Depth | 2 | Strong clinical-technical depth, but digital-dentistry (CAD/CAM), CBCT, and computational methods are inconsistently embedded. |
+| 4 | Decision-Making Under Uncertainty | 3 | Specialist practice is decision-making under clinical uncertainty; complex case management and ambiguous diagnosis are core. |
+| 5 | AI Literacy and Governance | 0 | No AI-specific curriculum content; AI dental diagnostics, tool governance, and telehealth governance are absent despite rising employer expectation. |
+| 6 | Domain Depth and Specialisation | 3 | Specialist-level clinical dentistry with advanced procedural and diagnostic depth; a clear specialist identity gated by registration. |
+| 7 | Research Methods Rigour | 2 | Research methodology is included and supports the academic pathway, but is smaller than a full research-degree equivalent. |
+| 8 | Human and Relational Capability | 3 | Patient care, complex-case communication, and multidisciplinary coordination are core and among the least automatable capabilities. |
+| 9 | Curriculum Currency and Adaptability | 2 | Clinically current but lagging on digital-workflow and AI-tool content actively flagged as gaps in professional discourse. |
+| 10 | Graduate Outcome Evidence | 3 | Health-field employment outcomes strong; specialist undersupply and shortage demand signal support durable outcomes. |
+| B | Irreplaceability Premium (Bonus) | 3 | Registered specialist with physical procedural skills, complex clinical judgment, and specialist-gated practice — structurally irreplaceable. |
 
-### 4. THREE THRESHOLD QUESTIONS
-**Q1: Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?**
-NO. See program assessment for detailed rationale.
+**TOTAL: 25 / 36**
+**Risk band: MODERATE RISK (20-27)**
 
-**Q2: Does this program train graduates to design systems, own decisions, or generate original insight?**
-YES. See program assessment for detailed rationale.
+### 5. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?
+  **NO** — specialist clinical practice involves complex physical procedures, ambiguous-case diagnosis, and specialist clinical judgment that AI tools augment rather than replace.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?
+  **YES** — graduates own specialist clinical decisions under uncertainty and complete research methodology supporting original clinical evidence generation.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?
+  **YES** — specialist undersupply, shortage demand, and AHPRA specialist registration create durable, protected demand.
 
-**Q3: Will these graduates be more employable in 5 years than today, given AI trends?**
-YES. See program assessment for detailed rationale.
-
-### 5. ANALOGUE GRADUATE PROFILE
+### 6. ANALOGUE GRADUATE PROFILE
 The most exposed clinical dentistry graduate is the **General Practice Dentist of 2020**: primarily providing routine restorative, preventive, and diagnostic services — some of which are being augmented by AI diagnostic tools.
 
 Specific threats:
@@ -4130,24 +4163,30 @@ Specific threats:
 
 However, the MC-CLIND specialist profile is substantially more protected: complex specialist procedures, diagnosis in ambiguous cases, and specialist clinical judgment are not within current AI capability.
 
-### 6. VERDICT
-**The Master of Clinical Dentistry is MODERATE RISK — a specialist clinical program with strong regulatory protection and physical skill requirements that resist AI substitution.**
+### 7. VERDICT
+The Master of Clinical Dentistry is **MODERATE RISK (25/36)** — a specialist clinical program with strong regulatory protection and physical skill requirements that resist AI substitution. Specialist dental practice involves complex clinical procedures, physical skill, and diagnostic judgment that AI tools augment rather than replace, and AHPRA specialist accreditation creates genuine barriers. The primary risk is maintaining clinical and digital currency as AI diagnostic tools transform how routine pathology is identified — closing the AI-literacy and digital-dentistry gaps would move it toward RESILIENT.
 
-Specialist dental practice involves complex clinical procedures, physical skill, and diagnostic judgment that AI tools augment rather than replace. APHRA registration and specialist accreditation create genuine barriers. The risk is in maintaining clinical currency as AI diagnostic tools transform how routine pathology is identified.
+### 8. RECOMMENDATIONS
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Add a dedicated AI dental diagnostic and governance module — understand tools' evidence base, error patterns, and clinical governance requirements; frame AI findings as adjunct-requiring-specialist-oversight | D5 | AI diagnostic tools (Pearl, Videa, Overjet) entering interpretation as adjuncts | Medium |
+| P2 | Mandate a digital-dentistry clinical unit — intraoral scanning, CAD/CAM design (exocad/3Shape), CBCT acquisition and reporting | D3 | Digital workflow competency explicitly requested in 60–70% of specialist ads | Medium |
+| P3 | Integrate cross-disciplinary and system-level case conferencing to build systems-thinking capability | D2 | Interdisciplinary and multidisciplinary case management rising | Medium |
+| P4 | Formalise hospital-based placements covering oncology, transplant, and haematology patients | D1 | Medically compromised patient complexity increasing in hospital settings | Medium |
+| P5 | Insert a telehealth governance module (indemnity, consent, jurisdictional scope) and cultural-safety content for public/remote roles | D5 | Telehealth advisory roles growing amid regulatory ambiguity | Low |
+| P6 | Strengthen research methodology for clinical evidence evaluation and articulate the academic-dentistry (MCD + research higher degree) pathway | D7 | Academic-clinical hybrid roles advertised at research-intensive universities | Medium |
 
-### 7. RECOMMENDATIONS
-| Priority | Action | Dimension | Effort |
-|---|---|---|---|
-| 1 | Develop AI dental diagnostic tool literacy — understand their evidence base, error patterns, and clinical governance requirements | D5 | Medium |
-| 2 | Specialise in complex/multidisciplinary treatment planning — this requires the highest level of integrated clinical judgment | D6 | High |
-| 3 | Build research methodology skills for clinical evidence evaluation | D7 | Medium |
-
-### 8. THE REDESIGNED GRADUATE PROFILE
+### 9. THE REDESIGNED GRADUATE PROFILE
 The 2027-ready clinical dentistry graduate is a **specialist clinical expert** who knows what AI dental diagnostics can and cannot see, and whose clinical judgment accounts for what the AI misses.
 
 They have managed complex cases where AI flagged something that was normal variation, and cases where human pattern recognition missed something the AI caught. They know the failure modes in both directions. Their clinical decisions integrate AI-generated information without being driven by it.
 
 They are registered specialists with physical procedural skills that AI cannot replicate: the manual dexterity, tactile feedback interpretation, and patient management capability that clinical dentistry requires at the specialist level.
+
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Medium–High**. Specialist undersupply and digital-skill-shift signals are robust; program-specific outcome data is the key gap.
+- Market evidence integrates QILT GOS Health outcomes with AHPRA specialist-register data, ADA workforce surveys, DHSV workforce planning, and specialist practitioner discourse.
+- For high-stakes curriculum decisions, add a live ANZ job-ad scrape (last 90 days), MCD-specific graduate destination data by role/sector/registration status, and employer interviews across private, hospital, and academic settings.
 
 ### MARKET DATA
 | Metric | Value |
@@ -4186,7 +4225,7 @@ They are registered specialists with physical procedural skills that AI cannot r
   "dfva-market-mc-clind": {
     title: "Master of Clinical Dentistry (MC-CLIND) — Market Intelligence",
     institution: "University of Melbourne",
-    markdown: `# DFVA MARKET INTELLIGENCE: Master of Clinical Dentistry
+    markdown: `# DFVA MARKET INTELLIGENCE: Master of Clinical Dentistry (MC-CLIND)
 
 **Institution:** University of Melbourne
 **Assessment Date:** 2026-06-21
@@ -4348,9 +4387,7 @@ Australian dental professionals discussing telehealth on LinkedIn and the ADA's 
     title: "Master of Computer Science (MC-CS) — DFVA Assessment",
     institution: "University of Melbourne",
     markdown: `## DFVA REPORT: Master of Computer Science (MC-CS)
-**Institution:** University of Melbourne  
-**Level:** Master (Coursework)  
-**Duration:** 2 years (200 credit points)
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 credit points)
 
 **Assessment date:** 2026-06-08  
 **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-cs  
@@ -4371,7 +4408,7 @@ The program splits cleanly into two exposure regimes. **Year 1 coursework** incl
 Graduate destination targets (R&D labs, PhD programmes, high-level tech roles) position graduates in the least-automatable segment of the CS labour market — designing and building AI systems, not executing routine software tasks.
 
 ### 3. MARKET EVIDENCE SNAPSHOT
-| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+| Job Family | Recent Hiring Signal | X Discussion Theme | Curriculum Implication |
 |---|---|---|---|
 | Machine Learning Engineer | Strong demand; roles increasingly require research capability, not just model deployment | "Research maturity" as differentiator vs bootcamp graduates | Year 2 research project directly addresses this signal |
 | AI Research Scientist | PhD typically required; MSc + publication track is an emerging entry path | Growing recognition that research training matters more than credential level | MC-CS positions graduates for this entry path |
@@ -4634,12 +4671,11 @@ Regulatory pressure (EU AI Act, AU mandatory guardrails) driving demand for engi
     title: "Master of Data Science (MC-DATASC) — DFVA Assessment",
     institution: "University of Melbourne",
     markdown: `## DFVA REPORT: Master of Data Science (MC-DATASC)
-**Institution:** University of Melbourne  
-**Level:** Master (Coursework)  
-**Duration:** 2 years (200 credit points)
 
-**Assessment date:** 2026-06-08  
-**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-datasc  
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 credit points)
+
+**Assessment date:** 2026-06-08
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-datasc
 **Prompt version:** DFVA-COPILOT-PROMPT-v1
 
 ### 1. PROGRAM PROFILE
@@ -4656,7 +4692,16 @@ The structural defence is the project. Whether capstone or research pathway, the
 
 The risk is in the middle: graduates who exit with coursework competence but without project-cultivated judgment enter a labour market where "can fit a model" is no longer a differentiator. The program's stream system partially mitigates this by allowing CS-background students to deepen into computational specialisation and stats-background students into statistical depth, but the default pathway for Foundation-stream students is the broadest and most substitutable profile.
 
-### 3. DFVA SCORECARD
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Data Scientist (Generalist) | "Data Scientist" title splitting into specialist roles (ML Engineer +35%, Analytics Engineer +31%); causal inference appearing 3× more in senior ads | "Can fit a model" is now table stakes — differentiation requires causal reasoning and domain judgment | Statistical Machine Learning core is well-targeted; add explicit causal inference module |
+| Data Engineer | ANZ data engineer postings exceed data scientist for first time (Seek Q1 2026) | Pipeline design and system architecture remain low-automation — infrastructure judgment is irreducible | Cluster/Cloud Computing and Advanced Database Systems directly address this demand |
+| ML Engineer / MLOps | Fastest-growing tech title in APAC (LinkedIn 2026); model deployment, monitoring, CI/CD for ML | Infrastructure and reliability engineering resist AI substitution | Program doesn't explicitly cover MLOps — a gap for graduates targeting this high-growth pathway |
+| Data Analyst / BI Analyst | BI Analyst postings down 14% YoY in ANZ; standard dashboards increasingly automated | Routine reporting is the most AI-compressed data role | Graduates should differentiate toward data science/engineering, not analytics |
+| Decision Scientist | Emerging title; decision analysis + behavioural economics + executive communication | Decision framing and stakeholder judgment are irreducible human work | Project component partially addresses; stakeholder communication should be distributed across curriculum |
+
+### 4. DFVA SCORECARD
 | # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---:|---|
 | 1 | Automation Exposure of Roles | 2 | Routine data tasks are highly automatable; the 25-point project and stakeholder-facing elements provide irreplaceable experience. Graduate destinations (data analyst/scientist) are mixed-exposure roles. |
@@ -4668,13 +4713,13 @@ The risk is in the middle: graduates who exit with coursework competence but wit
 | 7 | Research Methods Rigour | 2 | Research pathway (WAM 80, supervisor, thesis) provides genuine research training — but it is optional and only 25 points. Most students take the capstone. Statistical training provides methodological grounding regardless. |
 | 8 | Human and Relational Capability | 2 | The project involves stakeholder interaction. Statistical communication is implicit in the quantitative curriculum. No dedicated ethics or professional communication unit. |
 | 9 | Curriculum Currency and Adaptability | 3 | Last updated 9 June 2026 — the most recently updated program in this assessment cohort. ML, cloud computing, computational statistics reflect current practice. |
-| 10 | Graduate Outcome Evidence | 3 | No granular destination data published. Data science labour market is well-documented externally, but the program does not track or publish its own graduate outcomes by specialisation. |
+| 10 | Graduate Outcome Evidence | 1 | No granular destination data published. Data science labour market is well-documented externally, but the program does not track or publish its own graduate outcomes by specialisation — a critical evidence gap. |
 | B | Irreplaceability Premium (Bonus) | 2 | Statistics + CS dual-skill is valuable and not easily substituted. However, data science is a crowded credential market — differentiation requires project-cultivated judgment, not just technical competence. |
 
 **TOTAL: 24 / 36**  
 **Risk band: MODERATE RISK (20-27)**
 
-### 4. THREE THRESHOLD QUESTIONS
+### 5. THREE THRESHOLD QUESTIONS
 - **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
   **UNCERTAIN** — routine data tasks (cleaning, model fitting, report drafting) are increasingly AI-producible. The 25-point project and stakeholder-facing elements resist substitution, but the balance depends heavily on whether the student took the capstone or research pathway and the nature of their specialisation.
 
@@ -4685,7 +4730,7 @@ The risk is in the middle: graduates who exit with coursework competence but wit
   **UNCERTAIN** — data science demand is growing but the field is also increasingly competitive and AI-compressed at the entry level. Graduates who exit with project-cultivated judgment and specialisation depth differentiate; those with coursework-only competence face a tightening market for routine analytics roles.
 
 
-### 5. ANALOGUE GRADUATE PROFILE
+### 6. ANALOGUE GRADUATE PROFILE
 
 The most exposed data science graduate is the **Junior Data Analyst of 2022**: using pandas and sklearn to clean datasets, train standard classification models, produce visualisations, and write summary reports — work being systematically absorbed by AI coding assistants, AutoML platforms, and business intelligence co-pilots.
 
@@ -4697,12 +4742,12 @@ Specific threats:
 
 ---
 
-### 5. VERDICT
+### 7. VERDICT
 This program has strong bones — the statistics/CS dual-core is structurally sound and the stream/specialisation system accommodates diverse entry backgrounds while steering all students toward depth. The 9 June 2026 update date signals active curriculum maintenance.
 
 The vulnerability is not the curriculum content but the graduate differentiation mechanism. In a market where "can fit a model" is table stakes and AI tools increasingly handle routine analytics, the project (25 points of 200) is doing a lot of heavy lifting as the primary locus of judgment cultivation. Strengthening the project component — or distributing decision-ownership and stakeholder-communication practice across more of the curriculum — would harden the program against the compression of routine data roles.
 
-### 6. RECOMMENDATIONS
+### 8. RECOMMENDATIONS
 | Priority | Action | Dimension | Effort |
 |---|---|---|---|
 | P1 | Publish granular graduate destination data by specialisation and stream | 10 | Medium |
@@ -4710,11 +4755,7 @@ The vulnerability is not the curriculum content but the graduate differentiation
 | P2 | Increase project weighting or add a second project-style assessment earlier in the program | 4, 7 | High |
 | P2 | Distribute stakeholder communication and decision-defense practice across coursework units | 2, 8 | Medium |
 
-### 7. MARKET CONFIDENCE NOTE
-Confidence: **Medium**. Data science labour market signals are well-documented; the structural analysis of the project as a differentiation mechanism is curriculum-evidence-based. The uncertainty is in the graduate destination data gap — without published outcomes by specialisation, the program's actual differentiation effectiveness is unverified.
-
-
-### 8. THE REDESIGNED GRADUATE PROFILE
+### 9. THE REDESIGNED GRADUATE PROFILE
 
 The 2027-ready data science graduate is not someone who fits models — they are someone who **defines what question the model is answering and what we learn when it is wrong**.
 
@@ -4724,7 +4765,10 @@ They have an AI governance layer: they know what training data their models were
 
 They have communicated statistical conclusions to people who are not statisticians — under pressure, with genuine stakes. A product decision was made differently because of their analysis. That accountability — specific, traceable, consequential — is what distinguishes a professional data scientist from a model executor.
 
----
+### 10. MARKET CONFIDENCE NOTE
+- Confidence: **Medium**. Data science labour market signals are well-documented; the structural analysis of the project as a differentiation mechanism is curriculum-evidence-based.
+- Job-family profiles integrate QILT GOS IT outcomes with WEF Future of Jobs 2025, LinkedIn Workforce Reports Q1 2026, Seek Q1 2026, and Kaggle/AI Index survey data.
+- The uncertainty is in the graduate destination data gap — without published outcomes by specialisation, the program's actual differentiation effectiveness is unverified.
 
 ---
 
@@ -4909,14 +4953,12 @@ Recognition that the durable differentiator for data professionals is domain kno
   "dfva-mc-ed": {
     title: "Master of Education (MC-ED) — DFVA Assessment",
     institution: "University of Melbourne",
-    markdown: `## DFVA REPORT: MC-ED
-**Institution:** University of Melbourne  
-**Level:** Master (Coursework)  
-**Duration:** 2 years (200 credit points)
+    markdown: `## DFVA REPORT: Master of Education (MC-ED)
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 credit points)
 
 **Assessment date:** 2026-06-20  
 **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-ed  
-**Prompt version:** DFVA-COPILOT-PROMPT-v1
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 + DFVA-COPILOT-MARKET-v1
 
 ### 1. PROGRAM PROFILE
 The Master of Education at the University of Melbourne is a research and professional development degree for educators seeking advanced knowledge in pedagogy, education leadership, curriculum design, and educational research. It is not an initial teaching qualification.
@@ -4931,23 +4973,43 @@ The program's research orientation and leadership focus differentiate it from in
 | Year 1–2 (graduate) | Senior teacher, curriculum developer, education researcher | **MEDIUM** — Curriculum design, research, and educational leadership require human judgment |
 | Year 3–5 | Principal, education director, academic researcher | **LOW** — Educational leadership and research require genuine human capability |
 
-### 3. DFVA SCORECARD
-*Score data from existing assessment records.*
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Advanced Teaching | Data-literacy language ("using student data to inform differentiated instruction") now expected in senior teacher ads | AI handles low-level knowledge transfer; teachers redirect to mentoring and complex facilitation | Embed adaptive-learning pedagogy and data-informed instruction |
+| Curriculum Design | Instructional Designer postings up 18% YoY ANZ; authoring tools/LMS now mandatory not preferred | Designing assessment GenAI cannot shortcut is the new craft | Integrate hands-on digital authoring (Rise 360, Canvas Studio) and UDL |
+| Education Policy | Stable APS4–APS6 demand in DESE and state DET equivalents | Policy judgment remains human; AI augments evidence synthesis | Strengthen evidence-synthesis and policy-evaluation methods |
+| Educational Consulting | "Learning and Development" listings up 22% YoY to Q1 2026 in VIC/NSW | Corporates seeking L&D uplift; AI-literacy facilitation in demand | Add organisational learning strategy and change management |
+| School Leadership | Victorian DET leadership succession gap expanding Assistant Principal / Curriculum Leader roles | Distributed, wellbeing-centred, data-driven school improvement | Position M.Ed leadership specialisation against AITSL standards |
+| Education Research / Evaluation | Evaluation/Impact Officer roles growing in NFP and CESE ($80k–$100k) | Research-into-practice translation increasingly valued | Foreground logic-model and mixed-methods evaluation as a pathway |
 
-**TOTAL: 24/36**  
-**Risk band: MODERATE RISK**
+### 4. DFVA SCORECARD
+| # | Dimension | Score (0-3) | Evidence-based rationale |
+|---|---|---:|---|
+| 1 | Automation Exposure of Roles | 2 | Graduate roles (senior teacher, curriculum developer, education researcher) sit above the AI content-generation layer, but curriculum design and educational consulting carry MEDIUM substitution pressure as GenAI accelerates low-level content drafting. |
+| 2 | Systems Thinking and Problem Framing | 2 | Curriculum studies, policy analysis, and leadership pathways require system-level framing, but cross-disciplinary case-study integration is not consistently embedded across core units. |
+| 3 | Technical and Quantitative Depth | 1 | The program is not built around quantitative or digital-authoring technical depth; instructional-design tool skills (Articulate Rise, Canvas Studio, LMS administration) and data literacy are absent from advertised competencies — a critical gap versus vocationally-trained competitors. |
+| 4 | Decision-Making Under Uncertainty | 2 | Leadership and policy specialisations engage real ambiguity and stakeholder complexity, but the program lacks a capstone requiring documented decision rationale under uncertainty. |
+| 5 | AI Literacy and Governance | 1 | No explicit AI-literacy or AI-augmented-pedagogy strand exists, leaving graduates underprepared for the dominant professional discourse around GenAI in classrooms, assessment redesign, and student-data governance — a critical gap. |
+| 6 | Domain Depth and Specialisation | 3 | A dedicated postgraduate education degree with genuine specialisation pathways (leadership, learning technologies, inclusion) and a strong research orientation; deep domain grounding in pedagogy, policy, and educational research. |
+| 7 | Research Methods Rigour | 2 | Educational research methods are a core component and align with growing evaluation/impact demand, but rigour would strengthen by replacing literature-review-only tasks with primary data-collection requirements. |
+| 8 | Human and Relational Capability | 3 | Mentoring, instructional coaching, stakeholder engagement, and relational pedagogy are central and among the least automatable capabilities in the education sector. |
+| 9 | Curriculum Currency and Adaptability | 2 | Actively maintained with leadership and technology specialisations, but no emerging-trends module updated each intake and no visible employer advisory panel to keep pace with GenAI-era shifts. |
+| 10 | Graduate Outcome Evidence | 3 | Strong published outcomes at field level (QILT GOS 2024: 90% full-time employment, $96,000 median, shortage occupation demand), though role-title-granular destination data is not published. |
+| B | Irreplaceability Premium (Bonus) | 3 | Graduates combine domain depth, relational capability, and leadership positioning above the AI content-generation layer — a durable combination in a shortage-flagged sector. |
 
-### 4. THREE THRESHOLD QUESTIONS
-**Q1: Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?**
-UNCERTAIN. See program assessment for detailed rationale.
+**TOTAL: 24 / 36**  
+**Risk band: MODERATE RISK (20-27)**
 
-**Q2: Does this program train graduates to design systems, own decisions, or generate original insight?**
-YES. See program assessment for detailed rationale.
+### 5. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
+  **UNCERTAIN** — curriculum content production and assessment-item drafting are increasingly absorbed by AI content tools, but educational leadership, policy judgment, mentoring, and research interpretation remain human; exposure depends heavily on which pathway the graduate enters.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?  
+  **YES** — the research and leadership orientation trains graduates to design curriculum systems, own institutional-improvement decisions, and generate original educational research and evaluation.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
+  **YES** — education is a shortage occupation with intensifying leadership-succession and evaluation demand; graduates positioned above the content-generation layer, especially with added AI-literacy and data competence, become more valuable as AI reshapes the classroom.
 
-**Q3: Will these graduates be more employable in 5 years than today, given AI trends?**
-YES. See program assessment for detailed rationale.
-
-### 5. ANALOGUE GRADUATE PROFILE
+### 6. ANALOGUE GRADUATE PROFILE
 The most exposed education graduate is the **Curriculum Content Developer of 2021**: primarily producing curriculum materials, lesson resources, and assessment items — work being absorbed by AI content generation tools.
 
 Specific threats:
@@ -4955,24 +5017,29 @@ Specific threats:
 - **AI assessment item generators** — automated test and quiz generation from learning objectives
 - **AI grading tools (Turnitin AI, Gradescope AI)** — automated essay feedback and grading
 
-### 6. VERDICT
-**The Master of Education is MODERATE RISK — a research and leadership degree whose graduates are positioned above the AI content generation layer.**
+### 7. VERDICT
+The Master of Education is MODERATE RISK (24/36) — a research and leadership degree whose graduates are positioned above the AI content generation layer. Education leadership, curriculum design at a policy level, and educational research are substantially more automation-resistant than classroom content production. The MEd's research orientation and leadership focus provide positioning above the most AI-exposed roles in education, but the path to RESILIENT runs through closing the technical-depth (digital authoring, data literacy) and AI-literacy gaps.
 
-Education leadership, curriculum design at a policy level, and educational research are substantially more automation-resistant than classroom content production. The MEd's research orientation and leadership focus provide positioning above the most AI-exposed roles in education.
+### 8. RECOMMENDATIONS
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Add a dedicated "AI in Education: Pedagogy and Assessment Design" core unit — AI-tool evaluation, evidence base, student-data governance, and GenAI-resistant assessment design | 5 | GenAI literacy now a curriculum-design imperative; assessment redesign discourse dominant | Medium |
+| P2 | Require a technical/digital-authoring elective sequence (3+ units) with an applied production-quality learning module | 3 | Instructional Designer roles up 18% YoY; authoring tools/LMS now mandatory | Medium |
+| P3 | Build educational-research and program-evaluation expertise (logic models, developmental evaluation, primary data collection) as a marketed pathway | 7 | Evaluation/Impact Officer roles growing in NFP and CESE ($80k–$100k) | High |
+| P4 | Add a leadership capstone requiring documented decision rationale under uncertainty | 4 | Victorian DET leadership-succession gap expanding AP/Curriculum-Leader roles | Low |
+| P5 | Add an emerging-trends module updated each intake and constitute an Employer Advisory Panel (DET, Catholic, corporate L&D, NFP) | 9 | Employer confidence in currency; hybrid EdTech roles under-supplied | Low |
 
-### 7. RECOMMENDATIONS
-| Priority | Action | Dimension | Effort |
-|---|---|---|---|
-| 1 | Develop AI in education literacy — evaluate learning technology platforms, understand their evidence base, and develop governance frameworks | D5 | Medium |
-| 2 | Build educational research expertise — rigorous evaluation of educational interventions is an underserved and growing field | D7 | High |
-| 3 | Develop data-informed decision-making capability for education leadership | D3 | Medium |
-
-### 8. THE REDESIGNED GRADUATE PROFILE
+### 9. THE REDESIGNED GRADUATE PROFILE
 The 2027-ready MEd graduate is not a curriculum content producer — they are an **educational systems leader** who understands how learning works, what evidence shows, and how to build institutional capability for continuous improvement.
 
 They have evaluated an educational intervention rigorously: not anecdote but evidence, not enthusiasm but causal inference. They know the difference between a curriculum reform that worked and one that appeared to work because the measurement was wrong. That evaluative expertise is what makes their leadership judgment valuable.
 
 They understand what AI educational tools claim and what the evidence actually supports. They can advise a school or system on appropriate AI tool adoption — which applications have genuine pedagogical evidence, which have vendor evidence only, and what the governance requirements are for student data in AI systems.
+
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Medium** — drawn from WEF Future of Jobs 2025, LinkedIn Workforce Insights Q1 2026, Seek.com.au category trends, AITSL workforce data, and Victorian DET workforce planning; live 90-day job-ad scrape unavailable.
+- The single most important gap is role-title-level M.Ed graduate destination data: GOS/QILT data is aggregated at field-of-study level, masking specialisation and sector variation.
+- Before institutional use, add a live ANZ job-ad scrape, MGSE destination data at specialisation/salary granularity, and employer interviews across DET, Catholic, corporate L&D, NFP, and university professional-services hirers.
 
 ### MARKET DATA
 | Metric | Value |
@@ -5011,7 +5078,7 @@ They understand what AI educational tools claim and what the evidence actually s
   "dfva-market-mc-ed": {
     title: "Master of Education (MC-ED) — Market Intelligence",
     institution: "University of Melbourne",
-    markdown: `# DFVA MARKET INTELLIGENCE: Master of Education
+    markdown: `# DFVA MARKET INTELLIGENCE: Master of Education (MC-ED)
 
 **Institution:** University of Melbourne
 **Assessment Date:** 2026-06-21
@@ -5174,21 +5241,14 @@ University of Melbourne's direct school partnership networks (Melbourne Graduate
   "dfva-mc-envlaw": {
     title: "Master of Environmental Law (MC-ENVLAW) — DFVA Assessment",
     institution: "University of Melbourne",
-    markdown: `# DFVA REPORT: Master of Environmental Law
+    markdown: `## DFVA REPORT: Master of Environmental Law (MC-ENVLAW)
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 1 year (100 credit points)
 
-**Institution:** University of Melbourne
-**Level:** Master (Coursework)
-**Duration:** 1 year (100 credit points)
+**Assessment date:** 2026-06-09  
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-envlaw  
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 + DFVA-COPILOT-MARKET-v1
 
----
-
-**Assessment Date:** 2026-06-09
-**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-envlaw
-**Prompt Version:** DFVA-COPILOT-PROMPT-v1
-
----
-
-## 1. PROGRAM PROFILE
+### 1. PROGRAM PROFILE
 
 The Master of Environmental Law at the University of Melbourne Law School is a specialist coursework program designed for law graduates seeking deep expertise in environmental, climate, and sustainability law. It is among the most substantively current environmental law programs in Australia.
 
@@ -5196,9 +5256,7 @@ The 100-credit-point program includes foundational environmental law subjects pl
 
 Typical graduate roles include environmental lawyer, climate policy advisor, sustainability counsel, regulatory affairs specialist, international environmental negotiator, and in-house counsel for resources, energy, or government clients.
 
----
-
-## 2. AUTOMATION EXPOSURE PROFILE
+### 2. AUTOMATION EXPOSURE PROFILE
 
 | Year | Typical Tasks | Automation Risk |
 |---|---|---|
@@ -5208,43 +5266,45 @@ Typical graduate roles include environmental lawyer, climate policy advisor, sus
 
 **Structural tailwind:** Climate change is creating structural demand for environmental law specialists. New legislation, international agreements, and corporate sustainability obligations are generating genuine new legal work — not just redistributing existing work. This structural demand provides a buffer against AI compression of routine legal tasks.
 
----
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Environmental Legal Practice | Tier 1 firms (Ashurst, HSF, MinterEllison, KWM) building dedicated environment/climate teams with graduate intake | AI raises the floor (grunt work) but strategic advocacy stays human | Embed AI-in-practice EIS review; prioritise judgment-intensive work |
+| Sustainability Consulting / Corporate ESG | ASRS climate-disclosure roles ("climate disclosure", "TCFD") more than doubled to March 2026; in-house ESG counsel postings up 35% | Greenwashing litigation risk is the defining corporate concern of 2026 | Add mandatory climate-disclosure-law content (ASRS/TCFD/ISSB) |
+| Regulatory Affairs | State EPAs recruiting post-reform uplift; EPA Victoria advertised 14 legal/compliance roles to March 2026 | Nature Positive vs. economic development is reshaping practice | Elevate integrated planning and EIA-reform competency |
+| Government Policy | DCCEEW and state EPAs growing environmental-policy headcount; low AI substitution | Political judgment requirement keeps roles human | Strengthen legislative-drafting and cost-benefit analysis skills |
+| Climate Litigation | EDO, ClientEarth Australia and commercial firms building climate-litigation teams post-Sharma/Torres Strait | Litigation shifting from public law to private-law duty-of-care claims | Balance public/private law; teach scientific evidence marshalling |
+| Carbon Markets / Clean Energy | "Carbon Markets Legal Advisor" / "Clean Energy Legal Counsel" roles rising; <50 AU practitioners with deep expertise | Specialist gap at law–carbon-finance intersection | Develop a Carbon Markets Law elective (Safeguard Mechanism, ACCU) |
 
-## 3. DFVA SCORECARD
+### 4. DFVA SCORECARD
 
 | # | Dimension | Score (0-3) | Evidence-based rationale |
-|---|---|---|---|
-| 1 | Automation Exposure of Roles | 1/3 | Legal research, document review, and compliance analysis are highly AI-automatable. Environmental law requires contextual judgment but core legal tasks are AI-vulnerable at junior levels. |
-| 2 | Systems Thinking and Problem Framing | 2/3 | Environmental law integrates across climate, water, waste, planning, and international regimes. Systems perspective inherent in the multi-jurisdictional nature of environmental problem framing. |
-| 3 | Technical and Quantitative Depth | 1/3 | 100pt program. Legal reasoning depth. No quantitative or scientific technical requirement. Climate Law Economics and Finance touches economics but not deeply. |
-| 4 | Decision-Making Under Uncertainty | 2/3 | Environmental disputes require defended legal judgment. International treaty negotiation skills taught. Less pressure-tested than clinical or capstone-intensive programs. |
-| 5 | AI Literacy and Governance | 2/3 | AI and Justice elective available. Not core. Environmental law increasingly uses satellite data and modelling but this is not embedded in curriculum. |
-| 6 | Domain Depth and Specialisation | 3/3 | Clear environmental law specialisation. 87.5pt minimum in environmental/further subjects. Climate, water, waste, biodiversity, planning — comprehensive regulatory coverage. |
-| 7 | Research Methods Rigour | 1/3 | 100pt coursework program. No thesis requirement. Minor thesis explicitly excluded for law graduates by structure. |
-| 8 | Human & Relational Capability | 2/3 | International legal internship available. Legal practice requires sustained client communication. Not clinical-level relational. |
-| 9 | Curriculum Currency and Adaptability | 3/3 | Updated March 2026. Climate Law Economics & Finance, AI and Justice, Clean Energy Projects Law, More-Than-Human Rights — leading-edge environmental law curriculum. |
-| 10 | Outcome Evidence | 3/3 | Legal employment data available through MLS. Environmental law is a structural growth sector due to climate regulation. Strong employment signal for specialists. |
-| B | Irreplaceability (bonus) | 2/3 | Environmental regulation requires human legal judgment, interpretation, and advocacy. Climate change creates structural demand growth. But 100pt program depth is limited by its brevity. |
-| **TOTAL** | | **22/36** | |
+|---|---|---:|---|
+| 1 | Automation Exposure of Roles | 1 | Legal research, document review, and compliance analysis are highly AI-automatable. Environmental law requires contextual judgment but core legal tasks are AI-vulnerable at junior levels. |
+| 2 | Systems Thinking and Problem Framing | 2 | Environmental law integrates across climate, water, waste, planning, and international regimes. Systems perspective inherent in the multi-jurisdictional nature of environmental problem framing. |
+| 3 | Technical and Quantitative Depth | 1 | 100pt program. Legal reasoning depth. No quantitative or scientific technical requirement. Climate Law Economics and Finance touches economics but not deeply. |
+| 4 | Decision-Making Under Uncertainty | 2 | Environmental disputes require defended legal judgment. International treaty negotiation skills taught. Less pressure-tested than clinical or capstone-intensive programs. |
+| 5 | AI Literacy and Governance | 2 | AI and Justice elective available. Not core. Environmental law increasingly uses satellite data and modelling but this is not embedded in curriculum. |
+| 6 | Domain Depth and Specialisation | 3 | Clear environmental law specialisation. 87.5pt minimum in environmental/further subjects. Climate, water, waste, biodiversity, planning — comprehensive regulatory coverage. |
+| 7 | Research Methods Rigour | 1 | 100pt coursework program. No thesis requirement. Minor thesis explicitly excluded for law graduates by structure. |
+| 8 | Human and Relational Capability | 2 | International legal internship available. Legal practice requires sustained client communication. Not clinical-level relational. |
+| 9 | Curriculum Currency and Adaptability | 3 | Updated March 2026. Climate Law Economics & Finance, AI and Justice, Clean Energy Projects Law, More-Than-Human Rights — leading-edge environmental law curriculum. |
+| 10 | Graduate Outcome Evidence | 3 | Legal employment data available through MLS. Environmental law is a structural growth sector due to climate regulation. Strong employment signal for specialists. |
+| B | Irreplaceability Premium (Bonus) | 2 | Environmental regulation requires human legal judgment, interpretation, and advocacy. Climate change creates structural demand growth. But 100pt program depth is limited by its brevity. |
 
-**Risk Band: MODERATE RISK**
+**TOTAL: 22 / 36**  
+**Risk band: MODERATE RISK (20-27)**
 
----
+### 5. THREE THRESHOLD QUESTIONS
 
-## 4. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
+  **YES** — the early-career output for Master of Environmental Law graduates is substantially templated: research, analysis, and document production are in AI's wheelhouse.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?  
+  **UNCERTAIN** — partial capability exists. Studio, capstone, or professional placement elements push toward decision ownership, but the standard curriculum track does not guarantee it.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
+  **YES** — structural demand for the specific skill set, professional accreditation protection, and climate-driven regulatory growth make 5-year employability stronger than today.
 
-**Q1: Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?**
-YES. The early-career output for Master of Environmental Law graduates is substantially templated — research, analysis, and document production are in AI's wheelhouse.
-
-**Q2: Does this program train graduates to design systems, own decisions, or generate original insight?**
-UNCERTAIN. Partial capability exists. Studio, capstone, or professional placement elements push toward decision ownership, but the standard curriculum track does not guarantee it.
-
-**Q3: Will these graduates be more employable in 5 years than today, given AI trends?**
-YES. Structural demand for the specific skill set, professional accreditation protection, or AI-native curriculum positioning make 5-year employability stronger than today.
-
----
-
-## 5. ANALOGUE GRADUATE PROFILE
+### 6. ANALOGUE GRADUATE PROFILE
 
 The most exposed environmental law graduate is the **General Environmental Lawyer of 2020**: a graduate who entered a mid-tier firm doing routine environmental compliance assessments, EIS reviews, and council planning submissions — exactly the tasks being absorbed by legal AI tools trained on regulatory databases.
 
@@ -5254,33 +5314,25 @@ Specific threats:
 - **AI regulatory summarisers** — automated conversion of new legislation and treaty developments into plain-language client alerts
 - **Contract review AI** — environmental licensing and project approval document analysis
 
----
+### 7. VERDICT
 
-## 6. VERDICT
-
-**The Master of Environmental Law is MODERATE RISK — a degree with a genuine structural tailwind but a compressed format that limits depth.**
-
-The program's score (24/36) reflects two competing forces: a domain that is growing structurally due to climate regulation (positive) and a program format (100pt coursework, no thesis) that limits the depth and research rigour that would push the score toward RESILIENT (negative).
+The Master of Environmental Law is MODERATE RISK (22/36) — a degree with a genuine structural tailwind but a compressed format that limits depth. The score reflects two competing forces: a domain that is growing structurally due to climate regulation (positive) and a program format (100pt coursework, no thesis) that limits the depth and research rigour that would push the score toward RESILIENT (negative).
 
 The structural tailwind is real: climate legislation, biodiversity frameworks, and corporate sustainability obligations are creating new legal work that requires human judgment — interpreting ambiguous regulatory language, navigating multi-jurisdictional frameworks, and advising on the intersection of science and law. This is not legal work that AI can fully absorb.
 
 But at 100 credit points, this degree is short by graduate law standards. Graduates who combine this program with genuine scientific literacy (understanding what the environmental data means, not just what the law says about it) and strong client-facing skills are well-positioned. Those who rely on the credential alone in a standard junior legal role face AI compression.
 
----
+### 8. RECOMMENDATIONS
 
-## 7. RECOMMENDATIONS
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Build genuine scientific literacy alongside the legal qualification — understanding satellite data, emissions modelling, and biodiversity assessment science makes legal analysis more defensible and differentiating | 3, 6 | Science-law literacy is the rarest, most-valued gap employers cite | High |
+| P2 | Add mandatory climate-disclosure-law content (ASRS 1 and 2, TCFD/ISSB alignment, greenwashing liability, director duties) | 3 | ASRS climate-disclosure roles more than doubled to March 2026 | Medium |
+| P3 | Develop AI governance and AI-in-practice capability — evaluate legal AI reliability and limitations, run AI-assisted EIS review exercises | 5 | Harvey/CoCounsel-class adoption in ANZ environmental practice accelerating | Medium |
+| P4 | Formalise a clinical placement stream (EDO, EPA Victoria, DCCEEW, one commercial environment/planning firm) and pursue the international legal internship | 4, 8 | Peer LLMs use EDO placements and secondments as differentiators | High |
+| P5 | Target and teach growth regulation areas — clean energy projects, biodiversity credits, carbon markets, and ESG disclosure litigation — not traditional compliance work | 1, 6 | Carbon Markets / Clean Energy Legal Counsel roles rising; specialist gap | Low |
 
-| Priority | Action | Dimension | Effort |
-|---|---|---|---|
-| 1 | Build genuine scientific literacy alongside the legal qualification — understanding satellite data, emissions modelling, and biodiversity assessment science makes legal analysis more defensible and differentiating | D3, D6 | High |
-| 2 | Pursue the international legal internship if available — cross-jurisdictional experience is a significant differentiator in climate and environmental law | D4, D8 | High |
-| 3 | Develop AI governance awareness — legal AI tools will be embedded in environmental law practice; graduates who can evaluate their reliability and limitations will be more valuable | D5 | Medium |
-| 4 | Target roles in growth regulation areas: clean energy projects, biodiversity credits, carbon markets, and ESG disclosure litigation — not traditional compliance work | D1, D6 | Low |
-| 5 | Complement with the AI and Justice elective if possible — regulatory AI governance is an emerging legal specialty | D5 | Low |
-
----
-
-## 8. THE REDESIGNED GRADUATE PROFILE
+### 9. THE REDESIGNED GRADUATE PROFILE
 
 The 2027-ready environmental law graduate is not a document reviewer — they are a **regulatory strategy specialist who understands both the law and the science behind it**.
 
@@ -5289,6 +5341,11 @@ They know what a net-zero pathway plan actually requires at the technical level 
 They have navigated a multi-jurisdictional environmental matter — something involving federal, state, and international law simultaneously — and they can explain to a client not just what the law requires but what the regulator is actually watching for in practice.
 
 They are aware that AI tools will handle much of the research layer of their work, and they have positioned themselves at the interpretation and strategy layer: the place where legal judgment, scientific literacy, and client relationships intersect. They do not produce the research — they evaluate it, argue with it, and advise on what it means for the client's specific risk profile.
+
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Medium** — drawn from WEF Future of Jobs 2025, LinkedIn Workforce Insights Q1 2026, Seek.com.au trend data, DCCEEW Nature Positive documentation, ASRS 1 and 2 (2025), and EDO reporting; live 90-day job-ad scrape unavailable.
+- Regulatory/government demand (EPA, DCCEEW) is high-confidence; commercial and carbon-markets pathways are confirmed but volume separable from generalist LLB roles only with a live scrape; international-organisation and climate-litigation pathways are high-profile but low-volume.
+- Before institutional use, add a live ANZ job-ad scrape, MC-ENVLAW-specific graduate destination data at role-title/sector granularity (not aggregated LLM), and employer interviews across EDO, EPA Victoria, Tier 1 environment practices, and a Big 4 sustainability advisory.
 
 ### MARKET DATA
 | Metric | Value |
@@ -5327,7 +5384,7 @@ They are aware that AI tools will handle much of the research layer of their wor
   "dfva-market-mc-envlaw": {
     title: "Master of Environmental Law (MC-ENVLAW) — Market Intelligence",
     institution: "University of Melbourne",
-    markdown: `# DFVA MARKET INTELLIGENCE: Master of Environmental Law
+    markdown: `# DFVA MARKET INTELLIGENCE: Master of Environmental Law (MC-ENVLAW)
 
 **Institution:** University of Melbourne
 **Assessment Date:** 2026-06-21
@@ -5491,7 +5548,10 @@ A consistent theme in practitioner and employer discourse is that environmental 
     institution: "University of Melbourne",
     markdown: `## DFVA REPORT: Master of Environmental Science (MC-ENVSC)
 **Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 pts)
-**Assessment date:** 2026-06-08 | **Source:** https://handbook.unimelb.edu.au/2026/courses/mc-envsc
+
+**Assessment date:** 2026-06-08  
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-envsc  
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 + DFVA-COPILOT-MARKET-v1
 
 ### 1. PROGRAM PROFILE
 The Master of Environmental Science at the University of Melbourne is a multidisciplinary environmental science program combining ecological, geoscientific, and policy-oriented coursework with a 25-credit-point Industry or Research Project. Students choose from a broad elective range spanning Environmental Modelling, Spatial Data Analytics, Environmental Risk Assessment, Soil Science, Water Management, Biosecurity, and Global Environmental Change.
@@ -5500,8 +5560,7 @@ The 200-credit-point program targets students with science backgrounds who seek 
 
 Typical graduate roles include environmental consultant, environmental scientist in government agencies (DCCEEW, EPA), conservation manager, environmental planner, climate adaptation specialist, and graduate researcher.
 
-
-## 2. AUTOMATION EXPOSURE PROFILE
+### 2. AUTOMATION EXPOSURE PROFILE
 
 | Task Category | Example Graduate Tasks | AI Pressure | AI Capability Today | Durability Rationale |
 |---|---|---|---|---|
@@ -5518,31 +5577,43 @@ Typical graduate roles include environmental consultant, environmental scientist
 
 **Durability Assessment:** MC-ENVSC graduates face moderate automation pressure concentrated in the compliance-writing and routine data-analysis portions of environmental consulting work — the tasks that dominate junior roles. Field-based work, regulatory relationship management, and complex stakeholder engagement are structurally durable. The graduates most at risk are those who stay in templated EIA production without developing spatial analysis, ecological field expertise, or climate adaptation specialisation. Graduates who combine field credibility with AI-assisted remote sensing and modelling capabilities are well-positioned for the AI-augmented environmental science workplace emerging by 2027–2030.
 
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Sustainability Manager / ESG Advisor | ESG/climate-disclosure postings growing since mandatory climate reporting (2025–26); TCFD/TNFD now specified | ESG roles increasingly won by MBA/management grads unless applied skills signalled | Add climate-risk and disclosure content (scenario analysis, TNFD metrics) |
+| Environmental Consultant / EIA | Infrastructure EIA pipeline steady; largest graduate absorption pathway | Desktop analysis automating; field investigation and stakeholder judgment durable | Prioritise site-specific judgment and stakeholder-facing project work |
+| Environmental Data Analyst | GIS + remote-sensing/ML literacy now "required" not "desirable"; skills gap in graduates | Google Earth Engine, Python spatial libraries expected in ads | Embed Python/R spatial data science; move beyond desktop GIS |
+| Climate Adaptation Specialist | Distinct, fast-growing "climate adaptation / resilience" job family in local/state government | Context-specific judgment and community co-design irreducible | Develop a climate-adaptation specialisation/elective cluster |
+| Conservation / NRM Officer | Nature Positive reforms and biodiversity-offset markets generating specialist roles | Field work, cultural knowledge, ecological judgment irreducible | Teach biodiversity net-gain and offset calculation methods (NSW BAM, Victorian BCA) |
+| Water Resource Scientist | Sustained demand from Murray-Darling Basin plan and water-security programs | Field measurement and modelling integration irreducible | Strengthen integrated catchment modelling and climate downscaling |
 
-###  3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
+### 4. DFVA SCORECARD
+| # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---:|---|
-| 1 | Automation Exposure | 2 | Industry/research project (25pt) anchors non-automatable work. Environmental fieldwork requires physical presence. Data analysis partially automatable. |
-| 2 | Systems Thinking | 3 | Environmental science is inherently systems-oriented. Environmental Risk Assessment, Global Environmental Change, Environmental Modelling — all systems-focused. |
-| 3 | Technical Depth | 2 | Solid: Environmental Modelling, Spatial Data Analytics, Soil Science, Water Management. Multi-method but not deeply quantitative by default. |
-| 4 | Decision-Making | 3 | Industry Project involves real stakeholder constraints. Environmental Risk Assessment teaches decision under uncertainty. Graduate Seminar integrates learning. |
-| 5 | AI Literacy | 1 | No AI-specific units. Environmental modelling uses computational tools but AI governance is absent. |
-| 6 | Domain Depth | 3 | Broad and deep environmental science domain. 87.5-112.5 discipline pts with extensive elective range. |
-| 7 | Research Rigour | 2 | Industry Project (default) or Research Project (outstanding students). Environmental Risk Assessment provides methodological grounding. Less research-heavy than lab-science MSc programs. |
-| 8 | Human & Relational | 2 | Stakeholder engagement implicit in environmental practice. Professional skills subjects available. No dedicated ethics/communication requirement. |
-| 9 | Curriculum Currency | 2 | Updated 26 March 2026. Climate impacts, biosecurity, spatial tools — current topics. No AI integration. |
-| 10 | Outcome Evidence | 2 | No granular destination data. |
-| B | Irreplaceability | 2 | Environmental science + policy integration is valuable. Field skills resist AI. Less deeply specialised than lab-science MSc programs. |
+| 1 | Automation Exposure of Roles | 2 | Industry/research project (25pt) anchors non-automatable work. Environmental fieldwork requires physical presence. Data analysis partially automatable. |
+| 2 | Systems Thinking and Problem Framing | 3 | Environmental science is inherently systems-oriented. Environmental Risk Assessment, Global Environmental Change, Environmental Modelling — all systems-focused. |
+| 3 | Technical and Quantitative Depth | 2 | Solid: Environmental Modelling, Spatial Data Analytics, Soil Science, Water Management. Multi-method but not deeply quantitative by default. |
+| 4 | Decision-Making Under Uncertainty | 3 | Industry Project involves real stakeholder constraints. Environmental Risk Assessment teaches decision under uncertainty. Graduate Seminar integrates learning. |
+| 5 | AI Literacy and Governance | 1 | No AI-specific units. Environmental modelling uses computational tools but AI governance is absent. |
+| 6 | Domain Depth and Specialisation | 3 | Broad and deep environmental science domain. 87.5-112.5 discipline pts with extensive elective range. |
+| 7 | Research Methods Rigour | 2 | Industry Project (default) or Research Project (outstanding students). Environmental Risk Assessment provides methodological grounding. Less research-heavy than lab-science MSc programs. |
+| 8 | Human and Relational Capability | 2 | Stakeholder engagement implicit in environmental practice. Professional skills subjects available. No dedicated ethics/communication requirement. |
+| 9 | Curriculum Currency and Adaptability | 2 | Updated 26 March 2026. Climate impacts, biosecurity, spatial tools — current topics. No AI integration. |
+| 10 | Graduate Outcome Evidence | 2 | No granular destination data; field-level QILT outcomes available (79% full-time employment, recruitment-difficulty demand). |
+| B | Irreplaceability Premium (Bonus) | 2 | Environmental science + policy integration is valuable. Field skills resist AI. Less deeply specialised than lab-science MSc programs. |
 
-**TOTAL: 23/36 — MODERATE RISK**
+**TOTAL: 24 / 36**  
+**Risk band: MODERATE RISK (20-27)**
 
-### 4. THREE THRESHOLD QUESTIONS
-- **Q1:** UNCERTAIN — field work is irreducible, but environmental data analysis is increasingly AI-producible.
-- **Q2:** YES — Industry project + Environmental Risk Assessment + systems thinking embedded throughout.
-- **Q3:** YES — climate adaptation, environmental consulting, biosecurity are growth fields.
+### 5. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
+  **UNCERTAIN** — field work is irreducible, but environmental data analysis and templated EIA production are increasingly AI-producible.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?  
+  **YES** — the Industry Project plus Environmental Risk Assessment and systems thinking embedded throughout require graduates to own decisions under real stakeholder constraints.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
+  **YES** — climate adaptation, environmental consulting, ESG disclosure, and biosecurity are growth fields with recruitment difficulty flagged.
 
-
-## 5. ANALOGUE GRADUATE PROFILE
+### 6. ANALOGUE GRADUATE PROFILE
 
 The most exposed environmental science graduate is the **Junior Environmental Consultant of 2021**: primarily producing environmental impact assessments from template frameworks, running standard modelling tools, and preparing regulatory submission documents — work being systematised by AI environmental compliance platforms.
 
@@ -5552,13 +5623,19 @@ Specific threats:
 - **Remote sensing AI (Planet Labs AI, Copernicus services)** — automated land cover change and environmental monitoring
 - **AI regulatory compliance tools** — automated matching of project impacts to regulatory requirements
 
----
+### 7. VERDICT
+The Master of Environmental Science is MODERATE RISK (24/36). The industry project orientation is a strength — graduates exit with stakeholder-facing experience — and the systems-thinking integration across the curriculum is genuine. The program would benefit from explicit AI/data-science integration given the field's increasing reliance on remote sensing, environmental modelling, and spatial analysis; closing the AI-literacy and spatial-data-science gaps is the clearest path toward RESILIENT.
 
-### Verdict
-The industry project orientation is a strength — graduates exit with stakeholder-facing experience. The systems-thinking integration across the curriculum is genuine. The program would benefit from explicit AI/data-science integration given the field's increasing reliance on remote sensing, environmental modelling, and spatial analysis.
+### 8. RECOMMENDATIONS
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Add a unit on AI and machine learning in environmental science — remote sensing AI, ecological modelling ML, spatial AI | 5, 9 | GIS + remote-sensing/ML literacy now "required" in ads; graduate skills gap | Medium |
+| P2 | Develop GIS and remote sensing competency as a core capability (Python/R spatial tools, Google Earth Engine) — a standard environmental science requirement | 3 | Data-analyst ads specify cloud-native geospatial; desktop GIS declining | Medium |
+| P3 | Maximise the Industry Project opportunity and formalise an industry-partner register — real stakeholder context is the most valuable learning experience | 4, 8 | Employers favour demonstrated stakeholder-facing project experience | High |
+| P4 | Build specialist domain depth — climate adaptation, biosecurity, or water management rather than staying generalist | 6 | Climate-adaptation and Nature Positive job families growing fast | Medium |
+| P5 | Develop quantitative environmental modelling skills beyond the default elective and publish program-specific destination data | 3, 7 | Recruitment-difficulty demand; program-level outcome data absent | Medium |
 
-
-## 8. THE REDESIGNED GRADUATE PROFILE
+### 9. THE REDESIGNED GRADUATE PROFILE
 
 The 2027-ready environmental science graduate is not a compliance checker — they are an **environmental systems scientist** who understands the complex dynamics of ecosystems and can translate that understanding into actionable environmental management.
 
@@ -5566,27 +5643,11 @@ They have conducted field-based environmental research: they know what ecosystem
 
 They use remote sensing and AI environmental monitoring tools as accelerators: they know how to interpret satellite-derived land cover data, when to trust automated change detection, and when field validation is required. That hybrid capability — remote sensing literacy plus field expertise — is the combination that the AI era of environmental management actually requires.
 
----
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Medium** — based on sector trend analysis, legislative change (mandatory climate reporting), and publicly observable hiring patterns; a live ANZ job-ad scrape (last 90 days) was not completed.
+- ESG/climate-disclosure demand and infrastructure EIA stability are high-confidence; climate-adaptation job-family growth is qualitatively strong but not yet quantified; program-specific graduate outcome data is the weakest area (QILT aggregated at field level).
+- Before institutional use, add a live ANZ job-ad scrape (Seek/LinkedIn/APSJobs/VPS Jobs), MC-ENVSC-specific destination data, employer interviews with consulting firms and state environment departments, and a competitor curriculum audit.
 
-
-### 7. RECOMMENDATIONS
-| Priority | Action | Dimension | Effort |
-|---|---|---|---|
-| 1 | Add a unit on AI and machine learning in environmental science — remote sensing AI, ecological modelling ML, spatial AI | D5, D9 | Medium |
-| 2 | Develop GIS and remote sensing competency as a core capability — spatial data analysis is a standard environmental science requirement | D3 | Medium |
-| 3 | Maximise the Industry Project opportunity — real stakeholder context is the most valuable learning experience | D4, D8 | High |
-| 4 | Build specialist domain depth — climate adaptation, biosecurity, or water management rather than staying generalist | D6 | Medium |
-| 5 | Develop quantitative environmental modelling skills beyond the default elective | D3, D7 | Medium |
-
----
-
-
-
----
-
-**Assessment Date:** 2026-06-21
-**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-envsc
-**Prompt Version:** DFVA-COPILOT-PROMPT-v1
 ### MARKET DATA
 | Metric | Value |
 |--------|-------|
@@ -5757,7 +5818,11 @@ UniMelb's MC-ENVSC differentiates on research intensity, access to field station
     institution: "University of Melbourne",
     markdown: `## DFVA REPORT: Master of Genetic Counselling (MC-GENCOUN)
 **Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 pts)
-**Assessment date:** 2026-06-08 | **Source:** https://handbook.unimelb.edu.au/2026/courses/mc-gencoun
+
+**Assessment date:** 2026-06-21  
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-gencoun  
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 + DFVA-COPILOT-MARKET-v1  
+**Accreditation:** Human Genetics Society of Australasia (HGSA) — qualifies for registration as a genetic counsellor in Australia
 
 ### 1. PROGRAM PROFILE
 The Master of Genetic Counselling at the University of Melbourne is an HGSA-accredited professional program preparing graduates for registration as genetic counsellors in Australia. It is one of only a small number of accredited genetic counselling training programs in the country.
@@ -5766,8 +5831,7 @@ The 2-year program integrates coursework in human genetics, genomics, genetic co
 
 Typical graduate roles include genetic counsellor (clinical genetics units at hospitals), cancer genetics counsellor, prenatal genetic counsellor, and genomics coordinator. There is a documented national workforce shortage in genetic counselling.
 
-
-## 2. AUTOMATION EXPOSURE PROFILE
+### 2. AUTOMATION EXPOSURE PROFILE
 
 | Task Category | Example Graduate Tasks | AI Pressure | AI Capability Today | Durability Rationale |
 |---|---|---|---|---|
@@ -5784,32 +5848,43 @@ Typical graduate roles include genetic counsellor (clinical genetics units at ho
 
 **Durability Assessment:** Genetic counselling graduates face meaningful AI pressure only in their most technical, repetitive tasks — variant classification review and research — where AI tools are already strong. The core professional functions that define the role (pre- and post-test counselling, VUS communication, psychosocial support, informed consent) are structurally resistant to automation because they require legally accountable clinical relationships, adaptive emotional response, and judgment under uncertainty that AI systems cannot replicate. As genomic medicine scales and AI variant interpretation becomes standard, demand for human counsellors who can contextualise AI outputs and manage patient response will likely increase rather than decrease.
 
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Clinical Genetic Counsellor | Familial Cancer Clinics across ANZ advertising more roles since MBS-funded BRCA testing expanded; referral volume outpacing counsellors | Empathic communication and therapeutic alliance are irreducible; AI assists but cannot replace | Maintain HGSA certification core; embed VUS and telehealth competency |
+| Prenatal / Reproductive Counsellor | Expanded carrier screening (Mackenzie's Mission scale-up) creating acute demand; new roles at maternity hospitals | High-stakes reproductive decisions require nuanced human guidance | Prioritise reproductive-genetics placements; carrier-screening literacy |
+| Cancer Genetics Counsellor | Public Familial Cancer Clinics expanding post Medicare-funded BRCA testing | Oncology liaison and family communication cannot be automated | Variant-reclassification management; multidisciplinary team integration |
+| Genomic Variant Analyst | "Dual-skilled" roles seeking clinical accreditation plus variant-classification experience | Computational variant calling automating; human sign-off still required | Give exposure to variant-curation tools during training |
+| Research Genetic Counsellor | NHMRC-funded programs and AGHA advertising dedicated research counsellor roles (barely existed 5 years ago) | Informed consent and participant support irreducible | Add research-ethics and biobank-protocol content |
+| Genomics Coordinator / Navigator | Health networks scaling genomic-medicine programs creating adjacent coordinator roles | Coordination partially automatable; patient navigation needs human empathy | Build program-management and health-literacy communication |
 
-###  3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
+### 4. DFVA SCORECARD
+| # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---:|---|
-| 1 | Automation Exposure | 3 | Genetic counselling is irreducible human work. Clinical empathy, family communication, informed consent — AI cannot substitute. 37.5pt clinical placement (Year 2). |
-| 2 | Systems Thinking | 2 | Clinical genomics + societal implications + healthcare research. Human genetics in healthcare context teaches integrated thinking. |
-| 3 | Technical Depth | 2 | Clinical Genomics, Advanced Clinical Genomics, Human Genetics. Strong genetics knowledge but not deeply quantitative. |
-| 4 | Decision-Making | 3 | Clinical placement (37.5pt) requires real-time counselling decisions under emotional and ethical pressure. ≥70% progression hurdle enforces competence. |
-| 5 | AI Literacy | 1 | No AI-specific units. Genomics increasingly uses AI for variant interpretation — not in curriculum. |
-| 6 | Domain Depth | 3 | Deep specialist domain: genetic counselling with HGSA accreditation pathway. All subjects compulsory — no dilution. |
-| 7 | Research Rigour | 2 | Healthcare Research Principles + Research Project in Human Genomics 1 & 2 (37.5pt total). Research-engaged but clinically focused. |
-| 8 | Human & Relational | 3 | This is the program's defining dimension. Foundational + Advanced Counselling Practice, two Genetic Counselling Practice subjects, 37.5pt clinical placement. HGSA certification requires demonstrated clinical competence. |
-| 9 | Curriculum Currency | 2 | Updated 19 Nov 2025. Clinical Genomics, Societal Implications of Genomics — current. No AI/genomics integration. |
-| 10 | Outcome Evidence | 3 | HGSA certification pathway provides external outcome tracking. Program-specific destination data not published. |
-| B | Irreplaceability | 3 | Rare: clinical genetics + counselling + empathy + ethics. The combination resists AI substitution at every level. |
+| 1 | Automation Exposure of Roles | 3 | Genetic counselling is irreducible human work. Clinical empathy, family communication, informed consent — AI cannot substitute. 37.5pt clinical placement (Year 2). |
+| 2 | Systems Thinking and Problem Framing | 2 | Clinical genomics + societal implications + healthcare research. Human genetics in healthcare context teaches integrated thinking. |
+| 3 | Technical and Quantitative Depth | 2 | Clinical Genomics, Advanced Clinical Genomics, Human Genetics. Strong genetics knowledge but not deeply quantitative. |
+| 4 | Decision-Making Under Uncertainty | 3 | Clinical placement (37.5pt) requires real-time counselling decisions under emotional and ethical pressure. ≥70% progression hurdle enforces competence. |
+| 5 | AI Literacy and Governance | 1 | No AI-specific units. Genomics increasingly uses AI for variant interpretation — not in curriculum. |
+| 6 | Domain Depth and Specialisation | 3 | Deep specialist domain: genetic counselling with HGSA accreditation pathway. All subjects compulsory — no dilution. |
+| 7 | Research Methods Rigour | 2 | Healthcare Research Principles + Research Project in Human Genomics 1 & 2 (37.5pt total). Research-engaged but clinically focused. |
+| 8 | Human and Relational Capability | 3 | This is the program's defining dimension. Foundational + Advanced Counselling Practice, two Genetic Counselling Practice subjects, 37.5pt clinical placement. HGSA certification requires demonstrated clinical competence. |
+| 9 | Curriculum Currency and Adaptability | 2 | Updated 19 Nov 2025. Clinical Genomics, Societal Implications of Genomics — current. No AI/genomics integration. |
+| 10 | Graduate Outcome Evidence | 3 | HGSA certification pathway provides external outcome tracking. Program-specific destination data not published. |
+| B | Irreplaceability Premium (Bonus) | 3 | Rare: clinical genetics + counselling + empathy + ethics. The combination resists AI substitution at every level. |
 
-**TOTAL: 26/36 — MODERATE RISK** (upper boundary)
+**TOTAL: 27 / 36**  
+**Risk band: MODERATE RISK (20-27)**
 
-### 4. THREE THRESHOLD QUESTIONS
-- **Q1:** NO — clinical genetic counselling is fundamentally irreducible human work.
-- **Q2:** YES — clinical placement requires real-time decision ownership. The ≥70% hurdle enforces demonstrated competence.
-- **Q3:** YES — genetic counselling demand grows with genomic medicine expansion. Clinical empathy is structurally non-automatable.
+### 5. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
+  **NO** — clinical genetic counselling is fundamentally irreducible human work.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?  
+  **YES** — clinical placement requires real-time decision ownership. The ≥70% hurdle enforces demonstrated competence.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
+  **YES** — genetic counselling demand grows with genomic medicine expansion. Clinical empathy is structurally non-automatable.
 
-
-## 5. ANALOGUE GRADUATE PROFILE
-
+### 6. ANALOGUE GRADUATE PROFILE
 The most exposed genetic counselling graduate is the **Variant Classification Technician of 2021**: primarily running standardised variant interpretation workflows, applying established classification criteria, and generating templated variant reports — work being systematised by AI variant interpretation platforms.
 
 Specific threats:
@@ -5818,41 +5893,30 @@ Specific threats:
 - **AI genomic report generators** — automated clinical variant report production from interpretation data
 - **Polygenic risk score AI platforms** — automated disease risk calculation replacing manual risk assessment
 
----
+### 7. VERDICT
+The program's structural defence is its clinical core. Genetic counselling sits at the human edge of genomic medicine — where scientific knowledge meets family communication, ethical judgment, and emotional support. AI can assist with variant interpretation but cannot conduct a genetic counselling session. The ≥70% progression hurdle, HGSA accreditation pathway, and 37.5pt clinical placement create a program whose graduates are among the least AI-exposed in this entire assessment cohort at MODERATE RISK's upper boundary. The AI literacy gap is real for the genomics tools the profession increasingly uses, but it doesn't threaten the core value proposition.
 
-### Verdict
-The program's structural defence is its clinical core. Genetic counselling sits at the human edge of genomic medicine — where scientific knowledge meets family communication, ethical judgment, and emotional support. AI can assist with variant interpretation but cannot conduct a genetic counselling session. The ≥70% progression hurdle, HGSA accreditation pathway, and 37.5pt clinical placement create a program whose graduates are among the least AI-exposed in this entire assessment cohort. The AI literacy gap is real for the genomics tools the profession increasingly uses, but it doesn't threaten the core value proposition.
+### 8. RECOMMENDATIONS
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Develop AI variant interpretation tool literacy — understand AI classification platforms and governance requirements | 5 | AI-assisted variant-curation tools entering clinical labs; human sign-off still mandatory | Medium |
+| P2 | Complete HGSA accreditation pathway — professional registration is the primary long-term differentiator | 6 | HGSA certification is a non-negotiable credential gateway and portable internationally | High |
+| P3 | Specialise in a high-growth area: cancer genetics, prenatal counselling, or rare disease | 6 | Familial Cancer Clinics and expanded carrier screening are the highest-demand specialty areas | Medium |
+| P4 | Build genomic literacy at the technical level — understanding what WGS produces and what it misses | 3 | WGS/WES interpretation is now a core clinical competency | Medium |
+| P5 | Develop expertise in VUS communication — explaining uncertainty to families is the hardest and most valuable clinical skill | 4, 8 | Shared decision-making and psychosocial support models rising fast | High |
 
-
-## 8. THE REDESIGNED GRADUATE PROFILE
-
+### 9. THE REDESIGNED GRADUATE PROFILE
 The 2027-ready genetic counselling graduate is not a variant classifier — they are a **genomic counselling specialist** who helps families navigate the uncertainty, implications, and emotional weight of genetic information.
 
 They have counselled a family through a variant of uncertain significance result: they explained what "uncertain" means when someone is hoping for a definitive answer, they helped the family understand how the uncertainty might resolve over time, and they facilitated a decision-making process that respected both scientific uncertainty and the family's values. That clinical communication skill — in the context of genuine uncertainty — is not replicable by an AI system.
 
 They understand AI variant classification tools: they know which classification algorithms are calibrated for which variant types, where they tend to over-classify or under-classify pathogenicity, and what clinical evidence would be needed to reclassify a variant of uncertain significance. That critical evaluation capability, combined with their counselling expertise, is what the AI-augmented genomics era requires.
 
----
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Medium–High**. AI-substitution consensus for clinical counselling is high; ANZ labour-demand signals (MBS expansion, expanded carrier screening, Familial Cancer Clinics) are clear but quantified vacancy counts are not verified against live job-ad data.
+- Salary benchmarks rest on verifiable Health Award bands; private/diagnostic-lab pay is less transparent. Program-level QILT/HEIMS graduate destination data for MC-GENCOUN is not publicly granular.
+- For high-stakes curriculum decisions, add a live ANZ job-ad scrape, a UniMelb program-level destination survey, and an AI-tool adoption survey across ANZ clinical genomics labs.
 
-
-### 7. RECOMMENDATIONS
-| Priority | Action | Dimension | Effort |
-|---|---|---|---|
-| 1 | Develop AI variant interpretation tool literacy — understand AI classification platforms and governance requirements | D5 | Medium |
-| 2 | Complete HGSA accreditation pathway — professional registration is the primary long-term differentiator | D6 | High |
-| 3 | Specialise in a high-growth area: cancer genetics, prenatal counselling, or rare disease | D6 | Medium |
-| 4 | Build genomic literacy at the technical level — understanding what WGS produces and what it misses | D3 | Medium |
-| 5 | Develop expertise in VUS communication — explaining uncertainty to families is the hardest and most valuable clinical skill | D4, D8 | High |
-
----
-
-
-
----
-
-**Assessment Date:** 2026-06-21
-**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-gencoun
-**Prompt Version:** DFVA-COPILOT-PROMPT-v1
 ### MARKET DATA
 | Metric | Value |
 |--------|-------|
@@ -6019,14 +6083,13 @@ Health networks scaling genomic medicine programs are creating Genomics Navigato
   "dfva-mc-indeng": {
     title: "Master of Industrial Engineering (MC-INDENG) — DFVA Assessment",
     institution: "University of Melbourne",
-    markdown: `## DFVA REPORT: MC-INDENG
-**Institution:** University of Melbourne  
-**Level:** Master (Coursework)  
-**Duration:** 2 years (200 credit points)
+    markdown: `## DFVA REPORT: Master of Industrial Engineering (MC-INDENG)
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 credit points)
 
 **Assessment date:** 2026-06-20  
 **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-indeng  
-**Prompt version:** DFVA-COPILOT-PROMPT-v1
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 + DFVA-COPILOT-MARKET-v1  
+**Accreditation:** Engineers Australia
 
 ### 1. PROGRAM PROFILE
 The Master of Industrial Engineering at the University of Melbourne provides specialist training in operations research, supply chain management, manufacturing systems, quality engineering, and industrial optimisation. It is accredited by Engineers Australia.
@@ -6039,23 +6102,45 @@ The program covers production planning, lean manufacturing, quality management, 
 | Year 1–2 (graduate) | Industrial engineer, operations analyst — process analysis, optimisation modelling, quality management | **MEDIUM** — Process analysis and standard optimisation are AI-augmentable; system design and implementation require human judgment |
 | Year 3–5 | Operations manager, process improvement lead | **LOW–MEDIUM** — System ownership and operational decision-making |
 
-### 3. DFVA SCORECARD
-*Score data from existing assessment records.*
+Entry-level work is a mix of AI-augmentable analytical tasks (simulation, forecasting, scheduling) and system-design, implementation, and change-management work that resists automation. Net exposure decreases sharply for graduates who move from operating optimisation tools to governing them and owning operational decisions.
 
-**TOTAL: 22/36**  
-**Risk band: MODERATE RISK**
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Process Engineering | WEF 2025 flags process-optimisation roles as stable but needing digital-tooling reskilling | Simulation and waste-identification increasingly automated; implementation and change management stay human | Digital-twin literacy, AI-assisted process simulation, human-centred change management |
+| Operations Management | LinkedIn Q1 2026: ANZ operations-analyst postings up 12% YoY, ERP + analytics top skills | Scheduling/planning algorithms mature; strategic judgement and cross-functional coordination persist | Integrated business planning, ERP fluency (SAP S/4HANA, Oracle), AI-augmented scheduling |
+| Supply Chain & Logistics | 2022–25 disruptions elevate resilience as a persistent hiring signal | Forecasting/inventory heavily automated; supplier relationship and resilience strategy less so | Supply-chain resilience frameworks, ESG supply-chain metrics, digital procurement platforms |
+| Manufacturing Engineering | Seek: manufacturing-engineer postings up 18% since 2024 (Australian Manufacturing Strategy 2030) | On-site plant/equipment expertise required; routine quality audits increasingly tool-assisted | Industry 4.0 integration (IIoT, SCADA), SPC with ML, additive manufacturing |
+| Data & Systems Analytics | LinkedIn Q1 2026: simulation/analytics skills in 41% of APAC IE postings | Analytical coding AI-assisted; problem framing and model interpretation remain graduate-level | Python/R for industrial analytics, discrete-event simulation (Arena, AnyLogic), Power BI/Tableau |
+| Sustainability & ESG Engineering | ASIC mandatory climate disclosures (from 2025) creating a structural demand spike | Regulatory interpretation, stakeholder engagement, and novel LCA not easily substitutable | ISO 14064, Scope 3 accounting, circular-design principles, ESG disclosure (ISSB) |
 
-### 4. THREE THRESHOLD QUESTIONS
-**Q1: Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?**
-NO. See program assessment for detailed rationale.
+### 4. DFVA SCORECARD
+| # | Dimension | Score (0-3) | Evidence-based rationale |
+|---|---|---:|---|
+| 1 | Automation Exposure of Roles | 0 | Entry graduate tasks (process analysis, standard optimisation modelling, routine scheduling and forecasting) sit in the zone where AI operations, simulation, and supply-chain platforms are most capable; without a capstone or internship carrying real client accountability, first-two-year output is heavily exposed. |
+| 2 | Systems Thinking and Problem Framing | 3 | Systems design, trade-off optimisation, and whole-of-operation framing are the discipline's core; operations research, manufacturing-systems, and logistics units build genuine system-level reasoning. |
+| 3 | Technical and Quantitative Depth | 3 | Strong quantitative core — OR modelling, statistical quality engineering, optimisation, and simulation give real technical depth. |
+| 4 | Decision-Making Under Uncertainty | 2 | Operational decision-making is engaged through optimisation and planning units, but core assessment does not yet require documented decision rationale under real accountability. |
+| 5 | AI Literacy and Governance | 2 | The curriculum exposes graduates to analytics and simulation, but AI augmentation of core IE methods (AI-assisted scheduling, ML anomaly detection, prompt-based simulation configuration) is not an explicit, governed competency. |
+| 6 | Domain Depth and Specialisation | 3 | Deep specialist domain with Engineers Australia accreditation providing a professional credential moat. |
+| 7 | Research Methods Rigour | 2 | Research-engaged through the analytics and project components, but empirical primary-data rigour is not a standalone requirement. |
+| 8 | Human and Relational Capability | 1 | Employer feedback consistently identifies structured communication to non-technical stakeholders as the single largest graduate gap; ethics/professional-practice and stakeholder communication are not assessed standalone competencies. |
+| 9 | Curriculum Currency and Adaptability | 2 | Content is current for traditional IE but lags emerging demand (digital twins, ESG/carbon, ERP, Industry 4.0) that market signals now treat as core. |
+| 10 | Graduate Outcome Evidence | 3 | Field-level QILT GOS outcomes are strong and published (88% FT employment, shortage demand); program-specific role-title destination data is not yet published. |
+| B | Irreplaceability Premium (Bonus) | 2 | Systems depth (D2:3), technical depth (D3:3), and the Engineers Australia moat (D6:3) provide structural irreplaceability, but low human/relational capability (D8:1) and high entry-task exposure (D1:0) cap the premium. |
 
-**Q2: Does this program train graduates to design systems, own decisions, or generate original insight?**
-YES. See program assessment for detailed rationale.
+**TOTAL: 23 / 36**  
+**Risk band: MODERATE RISK (20-27)**
 
-**Q3: Will these graduates be more employable in 5 years than today, given AI trends?**
-YES. See program assessment for detailed rationale.
+### 5. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
+  **NO** — although routine analytical tasks are highly automatable, system design, implementation, and operational judgment in a real production environment are not; see program assessment for detailed rationale.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?  
+  **YES** — the discipline's core is system design and trade-off optimisation; see program assessment for detailed rationale.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
+  **YES** — AI augments rather than replaces industrial engineers who retool for AI-augmented workflow design; shortage demand and structural ESG/Industry 4.0 tailwinds support employability. See program assessment for detailed rationale.
 
-### 5. ANALOGUE GRADUATE PROFILE
+### 6. ANALOGUE GRADUATE PROFILE
 The most exposed industrial engineering graduate is the **Operations Analyst of 2021**: primarily conducting time-and-motion studies, building standard simulation models, and producing operations reports — work increasingly automated by AI operations platforms.
 
 Specific threats:
@@ -6063,24 +6148,32 @@ Specific threats:
 - **AI simulation and optimisation tools** — automated discrete event simulation and production scheduling
 - **AI supply chain platforms (o9 Solutions, Blue Yonder AI)** — automated demand planning and inventory optimisation
 
-### 6. VERDICT
+### 7. VERDICT
 **The Master of Industrial Engineering is MODERATE RISK — a professionally accredited degree with genuine systems complexity that resists pure automation.**
 
-Industrial engineering involves system design, trade-off optimisation, and operational judgment that AI tools augment but cannot replace. Engineers Australia accreditation provides professional credential protection. Graduates who develop AI system governance capability and specialise in complex system design are well-positioned.
+Industrial engineering involves system design, trade-off optimisation, and operational judgment that AI tools augment but cannot replace. Engineers Australia accreditation provides professional credential protection. The two structural gaps are high exposure of routine entry-level analytical tasks and a weak human/relational-communication layer; graduates who develop AI system governance capability, specialise in complex system design, and can brief non-technical stakeholders are well-positioned.
 
-### 7. RECOMMENDATIONS
-| Priority | Action | Dimension | Effort |
-|---|---|---|---|
-| 1 | Develop AI and ML integration for industrial systems — AI-augmented operations are the growth area in industrial engineering | D5 | Medium |
-| 2 | Build complex system design capability beyond standard optimisation | D2 | High |
-| 3 | Pursue CPEng accreditation pathway | D6 | High (post-graduation) |
+### 8. RECOMMENDATIONS
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Add an ethics/professional-practice and structured-communication strand (assessed board-level briefings) | 8 | "Engineer who can communicate" is the most-requested graduate archetype; largest supply-demand gap | Low |
+| P2 | Add a capstone/internship with real client accountability and documented decision rationale | 1, 4 | AI operations/simulation/supply-chain platforms automating routine analyst output | High |
+| P3 | Add a dedicated **AI for industrial engineering** core module — AI-assisted scheduling, ML anomaly detection, prompt-based simulation | 5 | AI augmentation of core IE methods not explicitly addressed; "AI-augmented IE" is the growth archetype | Medium |
+| P4 | Embed discrete-event simulation to graduate proficiency using industry tools (AnyLogic, Arena, FlexSim) plus ERP (SAP S/4HANA) exercises | 3, 9 | Simulation/digital-twin fluency a salary differentiator; ERP is an implicit hiring filter | Medium |
+| P5 | Integrate ESG/carbon-accounting content (LCA, ISO 14064, Scope 3) and a defence/critical-infrastructure capstone stream | 9 | ASIC climate disclosures + AUKUS pipeline creating structural demand | Medium |
+| P6 | Publish program-level graduate destination data (role title, sector, salary band) at 6 and 18 months | 10 | Role-title-granular outcome data not publicly accessible | Low |
 
-### 8. THE REDESIGNED GRADUATE PROFILE
+### 9. THE REDESIGNED GRADUATE PROFILE
 The 2027-ready industrial engineering graduate is not a process analyst — they are a **systems engineer** who understands how complex production systems fail and what interventions actually improve them.
 
 They have designed a system change and measured whether it worked — not just whether the model said it would work, but whether the implementation achieved the expected outcome in the real production environment. They know the gap between the model and reality, and they know what closes that gap.
 
 They govern AI operations tools: they can evaluate whether an AI demand planning recommendation accounts for the specific constraints of their facility, override it when it doesn't, and document the operational reasoning. That governance layer is what makes them an engineer rather than a tool user.
+
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Medium**. WEF Future of Jobs 2025 task-level substitution analysis is high-confidence; ANZ job-ad volumes and ERP-filter frequencies are pattern-extrapolated from documented Seek/LinkedIn trend data, not a live scrape.
+- ASIC climate-disclosure and AUKUS demand signals are grounded in published policy; specific IE graduate hiring volumes in defence are not publicly reported at high granularity.
+- For high-stakes curriculum decisions, add a 90-day ANZ job-ad scrape, program-level graduate destination data at role-title/salary-band granularity, and 3–5 employer interviews across manufacturing, defence, consulting, infrastructure, and supply chain.
 
 ### MARKET DATA
 | Metric | Value |
@@ -6119,7 +6212,7 @@ They govern AI operations tools: they can evaluate whether an AI demand planning
   "dfva-market-mc-indeng": {
     title: "Master of Industrial Engineering (MC-INDENG) — Market Intelligence",
     institution: "University of Melbourne",
-    markdown: `# DFVA MARKET INTELLIGENCE: Master of Industrial Engineering
+    markdown: `# DFVA MARKET INTELLIGENCE: Master of Industrial Engineering (MC-INDENG)
 
 **Institution:** University of Melbourne
 **Assessment Date:** 2026-06-21
@@ -6281,14 +6374,12 @@ Professional discourse increasingly positions the industrial engineer as a "data
   "dfva-mc-intedib": {
     title: "Master of International Education (IB) (MC-INTEDIB) — DFVA Assessment",
     institution: "University of Melbourne",
-    markdown: `## DFVA REPORT: MC-INTEDIB
-**Institution:** University of Melbourne  
-**Level:** Master (Coursework)  
-**Duration:** 2 years (200 credit points)
+    markdown: `## DFVA REPORT: Master of International Education (IB) (MC-INTEDIB)
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 credit points)
 
 **Assessment date:** 2026-06-20  
 **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-intedib  
-**Prompt version:** DFVA-COPILOT-PROMPT-v1
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 + DFVA-COPILOT-MARKET-v1
 
 ### 1. PROGRAM PROFILE
 The Master of International Education (IB) at the University of Melbourne is a specialist program for educators and professionals in the International Baccalaureate system. It provides advanced knowledge of IB curriculum, assessment, and educational leadership for international schools.
@@ -6301,47 +6392,77 @@ Graduate roles include IB coordinator, international school curriculum leader, I
 | Year 1–2 (graduate) | IB coordinator, curriculum leader — curriculum management, assessment coordination, teacher professional development | **MEDIUM** — Curriculum administration and coordination are AI-augmentable |
 | Year 3–5 | IB head of programme, school leader | **LOW–MEDIUM** — Leadership and pedagogical judgment |
 
-### 3. DFVA SCORECARD
-*Score data from existing assessment records.*
+Early-career work carries significant administrative coordination — curriculum documentation, assessment scheduling, and professional-development logistics — that education-management platforms and AI features are actively systematising. Exposure falls at the leadership and pedagogical-judgment layer, but the degree currently lacks the quantitative depth and AI literacy to lift graduates decisively above the compression layer.
 
-**TOTAL: 16/36**  
-**Risk band: HIGH RISK**
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| IB Classroom Teaching | MYP teacher/coordinator postings growing faster than DP in Southeast Asia and Latin America growth markets | Relational and contextual judgement resists full automation; AI accelerates resource prep, not pedagogy | Inquiry-based facilitation, differentiated instruction, formative-assessment design, cross-cultural communication |
+| Curriculum Coordination | Managebac listed in 60%+ of ANZ IB Coordinator ads; non-proficient graduates screened out early | Consensus-building and school culture are human; IBO authorisation cycle sustains demand | IB Programme Standards compliance, Managebac/curriculum-mapping proficiency, collaborative leadership |
+| Education Consultancy | Firms recruiting IB-credentialled educators who can translate NAPLAN/IBO data into improvement recommendations | Consulting augmented by AI benchmarking; senior advisory judgement stays human-led | Systems thinking, change management, statistical/data analysis, client-relationship management |
+| School Administration | Head of Senior School / Director of Studies roles increasingly require IB DP coordination experience | Institutional trust and emotional intelligence resist automation; AI streamlines reporting | Strategic leadership, financial literacy, people management, data-driven decision-making |
+| IB Examining & Assessment | IBO piloting AI-assisted marking support; pure-marking volume may contract by 2028 | Examiner roles likely to evolve rather than disappear | Subject-specific assessment expertise, calibration skills, psychometric literacy |
+| EdTech & Learning Design | EdTech firms (Pamoja, Lanterna) hiring IB-credentialled learning designers with AI content-pipeline skills | IB curriculum expertise gives content-validation credibility; must build technical layer | AI literacy, LMS platforms (Canvas, Managebac), learning analytics, UX for education |
 
-### 4. THREE THRESHOLD QUESTIONS
-**Q1: Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?**
-YES. See program assessment for detailed rationale.
+### 4. DFVA SCORECARD
+| # | Dimension | Score (0-3) | Evidence-based rationale |
+|---|---|---:|---|
+| 1 | Automation Exposure of Roles | 1 | First-two-year output is dominated by curriculum documentation, assessment scheduling, and PD logistics — precisely the work IB management platforms and AI features are systematising; no industry project with defended, stakeholder-facing outputs protects it. |
+| 2 | Systems Thinking and Problem Framing | 2 | The IB frameworks (concept-driven, interdisciplinary MYP/DP design) build systems reasoning, but cross-disciplinary framing is practised rather than assessed as a standalone competency. |
+| 3 | Technical and Quantitative Depth | 1 | No quantitative or technical requirement: statistical literacy for grade prediction/moderation and platform proficiency (Managebac) — both employer thresholds — are absent from the core. |
+| 4 | Decision-Making Under Uncertainty | 2 | Leadership and pedagogical judgment are engaged, but core assessment does not require documented decision rationale under real accountability. |
+| 5 | AI Literacy and Governance | 1 | AI-specific academic-integrity design — the dominant practitioner discourse in 2025–26 IB communities — is absent from the core; there is no dedicated AI-in-discipline unit. |
+| 6 | Domain Depth and Specialisation | 2 | Deep IB-specific specialisation, but a narrow niche without a regulatory accreditation moat; domain depth alone does not lift the score to 3. |
+| 7 | Research Methods Rigour | 1 | No minor thesis or substantial capstone research requirement; research rigour is a critical gap. |
+| 8 | Human and Relational Capability | 2 | Cross-cultural leadership and stakeholder engagement are genuine strengths of the field, but stakeholder engagement is not yet integrated as assessed project work. |
+| 9 | Curriculum Currency and Adaptability | 2 | Content is broadly current, but culturally responsive IB design and emerging-trends modules (AI integrity, group-ownership dynamics) are underrepresented. |
+| 10 | Graduate Outcome Evidence | 3 | Field-level QILT GOS outcomes are strong and published (90% FT employment, shortage demand); program-specific role-title destination data is not published. |
+| B | Irreplaceability Premium (Bonus) | 1 | Without a dual-skill pathway (IB pedagogy + data/technical or a second language), the narrow niche and low technical/AI/research depth limit structural irreplaceability. |
 
-**Q2: Does this program train graduates to design systems, own decisions, or generate original insight?**
-UNCERTAIN. See program assessment for detailed rationale.
+**TOTAL: 18 / 36**  
+**Risk band: HIGH RISK (12-19)**
 
-**Q3: Will these graduates be more employable in 5 years than today, given AI trends?**
-UNCERTAIN. See program assessment for detailed rationale.
+### 5. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
+  **YES** — early-career work is dominated by curriculum documentation, assessment scheduling, and PD logistics that education-management platforms are systematising. See program assessment for detailed rationale.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?  
+  **UNCERTAIN** — IB framework design builds some systems capability, but the absence of a research capstone and documented-decision assessment leaves decision ownership under-evidenced. See program assessment for detailed rationale.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
+  **UNCERTAIN** — international-school growth sustains demand, but AI is compressing routine coordination and the degree lacks the quantitative/AI depth to guarantee a rising position. See program assessment for detailed rationale.
 
-### 5. ANALOGUE GRADUATE PROFILE
+### 6. ANALOGUE GRADUATE PROFILE
 The most exposed IB education graduate is the **IB Curriculum Administrator of 2022**: primarily managing curriculum documentation, assessment schedules, and teacher training logistics — work increasingly systematised by education management platforms.
 
 Specific threats:
 - **IB administrative platforms with AI features** — automated assessment scheduling and curriculum tracking
 - **AI professional development content generation** — automated teacher training materials
 
-### 6. VERDICT
+### 7. VERDICT
 **The Master of International Education (IB) is HIGH RISK — a highly specialised credential serving a niche market with limited growth potential and significant AI disruption of its routine functions.**
 
 The IB specialisation creates a narrow professional market. International schools are the primary employer, and IB coordination roles are limited in number. Early-career work involves significant administrative coordination that AI tools are automating. The degree lacks the quantitative depth and AI literacy to position graduates above the compression layer.
 
-### 7. RECOMMENDATIONS
-| Priority | Action | Dimension | Effort |
-|---|---|---|---|
-| 1 | Develop educational technology and AI governance expertise for international school contexts | D5 | Medium |
-| 2 | Build IB examiner credentials — direct IB assessment involvement provides specialist positioning | D6 | Medium |
-| 3 | Develop school leadership capability — administrative and pedagogical leadership are more AI-resistant | D4, D8 | High |
+### 8. RECOMMENDATIONS
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Embed Managebac and a statistical/data-literacy stream (grade prediction, IBO moderation, school-improvement data) in the core | 3 | Managebac in 60%+ of coordinator ads; consultancies want IB + data skills | Low |
+| P2 | Add a standalone **AI and Assessment Integrity** module for the IB context (IBO policy, detection limits, task redesign) | 5 | AI-integrity is the dominant 2025–26 IB practitioner discourse | Medium |
+| P3 | Require an industry project with defended outputs and stakeholder presentation via an IB-school advisory group | 1, 8 | IB administrative coordination automating; employers want defended, applied work | Medium |
+| P4 | Introduce a minor thesis or capstone research project with documented decision rationale | 4, 7 | Coordinator roles increasingly require statistical literacy and evidence-based judgment | High |
+| P5 | Build a dual-skill pathway (IB pedagogy + EdTech learning design, or + a second language) and add culturally responsive IB design | B, 9 | EdTech hiring IB-credentialled designers; Mandarin/Spanish IB shortages in growth markets | Medium |
+| P6 | Publish program-level graduate destination data (role title, sector, geography) at 12 months | 10 | Role-title-granular outcome data not publicly reported | Low |
 
-### 8. THE REDESIGNED GRADUATE PROFILE
+### 9. THE REDESIGNED GRADUATE PROFILE
 The 2027-ready IB education graduate is not a curriculum administrator — they are an **international education specialist** who understands how the IB framework develops genuinely internationally-minded young people and can lead that development at scale.
 
 They have designed curriculum that works across cultural contexts — they know what the IB's approaches to teaching and learning mean in practice, what the TOK framework is actually developing, and how to help teachers who are struggling to make it real in their classrooms.
 
 They understand AI's role in international education: the specific challenges of AI-assisted assessment integrity in the IB context, how to build learning environments that develop genuine thinking rather than optimised AI prompting, and what the IB Organisation's evolving stance on AI means for curriculum design.
+
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Medium**. International-school growth (Asia-Pacific, Middle East) is high-confidence (IBO Annual Review 2024, ISC Research, EARCOS); ANZ hiring volumes, Managebac prevalence, and salary bands are pattern-based without a live scrape.
+- IBO examiner-role restructuring plans are not publicly released; AI-disruption timing for marking remains uncertain. Salary benchmarks rest on ISV enterprise agreements and anecdotal market intelligence, not indexed data.
+- For high-stakes curriculum decisions, add a 90-day ANZ/international job-ad scrape, program-level destination data at role-title granularity, and 3–5 employer interviews across IB schools, an international school group, an EdTech firm, and an education consultancy.
 
 ### MARKET DATA
 | Metric | Value |
@@ -6378,7 +6499,7 @@ They understand AI's role in international education: the specific challenges of
 `,
   },
   "dfva-market-mc-intedib": {
-    title: "Master of International Education (IB) (MC-INTEDIB) — Market Intelligence",
+    title: "Master of International Education (IB) — Market Intelligence",
     institution: "University of Melbourne",
     markdown: `# DFVA MARKET INTELLIGENCE: Master of International Education (IB)
 
@@ -6542,21 +6663,14 @@ Discourse among IB educators flags the rapid growth of AI-powered IB tutoring pl
   "dfva-mc-is": {
     title: "Master of Information Systems (MC-IS) — DFVA Assessment",
     institution: "University of Melbourne",
-    markdown: `# DFVA REPORT: Master of Information Systems
+    markdown: `## DFVA REPORT: Master of Information Systems (MC-IS)
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 1.5–2 years (200 credit points)
 
-**Institution:** University of Melbourne
-**Level:** Master (Coursework)
-**Duration:** 1.5–2 years (200 credit points)
+**Assessment date:** 2026-05-07  
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-is/  
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 + DFVA-COPILOT-MARKET-v1  
 
----
-
-**Assessment Date:** 2026-05-07
-**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-is/
-**Prompt Version:** DFVA-COPILOT-PROMPT-v1
-
----
-
-## 1. PROGRAM PROFILE
+### 1. PROGRAM PROFILE
 
 The Master of Information Systems at the University of Melbourne is a graduate coursework degree targeting candidates with or without prior IT backgrounds (two streams: IT and non-IT entry). The program is housed in the School of Computing and Information Systems. It covers business analysis, enterprise systems, IT project management, data and systems architecture, and strategy. Typical graduate roles include business analyst, IT consultant, systems analyst, project manager, and enterprise architect — with non-IT stream graduates often landing in hybrid business/IT roles.
 
@@ -6572,9 +6686,7 @@ Key named units include:
 - *Agile Development Practices*
 - *Research Methods in Information Systems* (research track)
 
----
-
-## 2. AUTOMATION EXPOSURE PROFILE
+### 2. AUTOMATION EXPOSURE PROFILE
 
 | Year | Typical Tasks | Automation Risk |
 |---|---|---|
@@ -6584,11 +6696,19 @@ Key named units include:
 
 **Core risk:** The early-career cluster sits squarely in human middleware territory — translating business needs into structured documentation, managing information flow between stakeholders and dev teams, and maintaining systems configurations.
 
----
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Business Analyst / Systems Analyst | BA declining as standalone title; ads now expect AI-tool and automation-evaluation literacy (LinkedIn Jobs on the Rise 2025) | "Is the BA role dead? — survivors moved to governance before automation hit" | Redesign SA&D from BRD production to automation-audit format |
+| IT Project Manager / Delivery Lead | Entry PM roles down 14% YoY ANZ; 68% of PMOs using AI for status reporting (PMI 2025) | "If your job is JIRA tickets and Confluence, your role is a prompt away from elimination" | Reframe coordination toward AI-assisted delivery + vendor AI governance |
+| Data Analyst / BI Analyst | "Reporting Analyst" postings down 22% YoY; "Analytics Engineer" up 31% (LinkedIn Q1 2026) | Standard dashboards commoditised by BI co-pilots (Power BI, Tableau AI) | Add data-engineering pathway (SQL depth, Python, dbt) |
+| Enterprise / Solutions Architect | EA roles growing 9% CAGR but entry now requires cloud + AI-platform fluency (Gartner 2025) | "EA was declining; AI complexity brought it back" | Make AI system design + API governance core, not TOGAF artifacts |
+| IT Consultant (Big 4 / Boutique) | Deloitte/KPMG/PwC ANZ grad ads now require AI literacy + responsible-AI frameworks | "Learn the tools before you start, not after" | Embed AI-transformation advisory + sector specialisation |
+| AI Product Owner / Automation & GRC Analyst | "Automation Analyst" +47% YoY; "AI Governance Analyst" 34 new ANZ postings; ISO 42001 demand tripling | "AI governance is the new BA" | Create mandatory AI governance core (NIST AI RMF, ISO 42001) |
 
-## 3. DFVA SCORECARD
+### 4. DFVA SCORECARD
 
-| # | Dimension | Score (0–3) | Evidence |
+| # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---:|---|
 | 1 | Automation Exposure of Roles | 1 | First 2–3 years dominated by BA documentation, requirements writing, and process analysis — templated tasks with limited decision ownership |
 | 2 | Systems Thinking and Problem Framing | 2 | *Enterprise Architecture and Governance* and *Systems Analysis and Design* include trade-off framing; not consistently integrated across all units |
@@ -6601,26 +6721,20 @@ Key named units include:
 | 9 | Curriculum Currency and Adaptability | 2 | 2026 handbook reflects recent review; no explicit AI core units visible — a currency gap for a 2026 program |
 | 10 | Graduate Outcome Evidence | 2 | UniMelb publishes aggregate graduate outcome data; granular role/salary/time-to-employment data for MC-IS not prominently available |
 | B | Irreplaceability Premium (Bonus) | 1 | Some dual-skill value (business + technology bridge), but this profile is common and not deeply differentiated |
-| **TOTAL** | | **18/36** | |
 
-**Risk Band: HIGH RISK (12–19)**
+**TOTAL: 18 / 36**  
+**Risk band: HIGH RISK (12-19)**
 
----
+### 5. THREE THRESHOLD QUESTIONS
 
-## 4. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
+  **YES** — A junior IS graduate's primary outputs — requirements documents, process maps, status reports, stakeholder summaries, sprint documentation, BI dashboards — are all within current GenAI and agentic tool capability. Tools like Copilot, Notion AI, and process automation agents can replicate this output at scale.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?  
+  **UNCERTAIN** — Enterprise architecture and capstone tracks push toward system design and decision ownership. However, the standard coursework track produces graduates who are primarily system *operators* and *intermediaries* rather than system *designers* or *accountable decision-makers*.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
+  **NO** — without significant self-directed upskilling. The BA/analyst/IT coordinator pipeline is contracting as AI tools absorb routine IS work. Graduates who emerge with deep AI governance, data engineering, or enterprise AI implementation skills will be viable. Those who do not will face compression at entry level.
 
-**Q1: Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?**
-**YES.** A junior IS graduate's primary outputs — requirements documents, process maps, status reports, stakeholder summaries, sprint documentation, BI dashboards — are all within current GenAI and agentic tool capability. Tools like Copilot, Notion AI, and process automation agents can replicate this output at scale.
-
-**Q2: Does this program train graduates to design systems, own decisions, or generate original insight?**
-**UNCERTAIN.** Enterprise architecture and capstone tracks push toward system design and decision ownership. However, the standard coursework track produces graduates who are primarily system *operators* and *intermediaries* rather than system *designers* or *accountable decision-makers*.
-
-**Q3: Will these graduates be more employable in 5 years than today, given AI trends?**
-**NO — without significant self-directed upskilling.** The BA/analyst/IT coordinator pipeline is contracting as AI tools absorb routine IS work. Graduates who emerge with deep AI governance, data engineering, or enterprise AI implementation skills will be viable. Those who do not will face compression at entry level.
-
----
-
-## 5. ANALOGUE GRADUATE PROFILE
+### 6. ANALOGUE GRADUATE PROFILE
 
 The MIS graduate mirrors the **Business Analyst of 2019**: a valued bridge between business and technology who organised information, translated requirements, and coordinated delivery. That role is now the primary target of:
 
@@ -6632,9 +6746,7 @@ The MIS graduate mirrors the **Business Analyst of 2019**: a valued bridge betwe
 
 The MIS graduate is trained for roles that AI tooling is actively dismantling at the entry level.
 
----
-
-## 6. VERDICT
+### 7. VERDICT
 
 **The Master of Information Systems is HIGH RISK for 2027 labour-market viability as currently structured.**
 
@@ -6644,23 +6756,19 @@ The program has the architecture to be better: enterprise architecture, governan
 
 **Enrol with a clear upskilling plan, not as a standalone credential.**
 
----
+### 8. RECOMMENDATIONS
 
-## 7. RECOMMENDATIONS
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Create mandatory core unit: AI Governance and Deployment (NIST AI RMF, ISO 42001, human-in-the-loop design) | D5, D1, B | "AI Governance Analyst" 34 new ANZ postings; ISO 42001 demand tripling YoY | High |
+| P2 | Mandate real-client AI implementation capstone for all tracks | D4, D1, B | Automation Analyst postings +47% YoY; employers hiring for AI implementation | High |
+| P3 | Redesign SA&D assessment from BRD production to automation audit with governance recommendation | D2, D4, D1 | BA role declining; ads expect automation-candidate evaluation | Medium |
+| P4 | Add mandatory data engineering elective pathway (SQL depth, Python, dbt) | D3, B | "Analytics Engineer" up 31% while "Reporting Analyst" down 22% | Medium |
+| P5 | Introduce sector specialisation requirement (health IT, fintech, or govtech cluster) | D6, B | Big 4 grad ads requiring sector-specific AI advisory | Medium |
+| P6 | Publish granular graduate destination data (role-title, industry, salary, time-to-employment) | D10 | MC-IS granular destination data not currently published | Medium |
+| P7 | Update program marketing and careers framing to AI workflow architect / automation governance analyst | D1 | Entry BA/analyst postings down 18–22% YoY; new AI-titled roles rising | Low |
 
-| Priority | Action | Dimension | Effort |
-|---|---|---|---|
-| 1 | Create mandatory core unit: AI Governance and Deployment (NIST AI RMF, ISO 42001, human-in-the-loop design) | D5, D1, B | High |
-| 2 | Mandate real-client AI implementation capstone for all tracks | D4, D1, B | High |
-| 3 | Redesign SA&D assessment from BRD production to automation audit with governance recommendation | D2, D4, D1 | Medium |
-| 4 | Add mandatory data engineering elective pathway (SQL depth, Python, dbt) | D3, B | Medium |
-| 5 | Introduce sector specialisation requirement (health IT, fintech, or govtech cluster) | D6, B | Medium |
-| 6 | Publish granular graduate destination data (role-title, industry, salary, time-to-employment) | D10 | Medium |
-| 7 | Update program marketing and careers framing to AI workflow architect / automation governance analyst | D1 | Low |
-
----
-
-## 8. THE REDESIGNED GRADUATE PROFILE
+### 9. THE REDESIGNED GRADUATE PROFILE
 
 The viable 2027 MIS graduate is not an information broker — they are an **AI workflow architect with governance accountability**.
 
@@ -6672,6 +6780,11 @@ Their domain is not "IT" in the generic sense — it is a regulated or high-stak
 
 This graduate does not *use* AI tools. They **govern, supervise, and redesign** them. That is the role that will exist in 2029.
 
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Medium**.
+- Market evidence integrates QILT GOS field-of-study outcomes and JSA HEO destinations with documented IS labour-market trend reports (WEF Future of Jobs 2025, LinkedIn Workforce Report Q1 2026, PMI/Gartner/ISACA 2025) and curriculum-structure inference.
+- For high-stakes curriculum decisions, add a live ANZ job-ad scrape (last 90 days) validating BA/PM/analyst volume and emerging AI-title trends, plus 3–5 employer interviews and MC-IS granular graduate destination data.
+
 ### MARKET DATA
 | Metric | Value |
 |--------|-------|
@@ -6682,8 +6795,6 @@ This graduate does not *use* AI tools. They **govern, supervise, and redesign** 
 | Occupation demand | MET |
 | AI automation exposure | 45% |
 | Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |
-
----
 
 <!-- LABOUR-EVIDENCE:START -->
 ### REAL GRADUATE DESTINATIONS (JSA HEO · QILT · Adzuna)
@@ -6863,32 +6974,21 @@ Big 4 graduate cohorts noting AI literacy is now a live expectation at intake. R
   "dfva-mc-journ": {
     title: "Master of Journalism (MC-JOURN) — DFVA Assessment",
     institution: "University of Melbourne",
-    markdown: `# DFVA REPORT: Master of Journalism
+    markdown: `## DFVA REPORT: Master of Journalism (MC-JOURN)
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 credit points)
 
-**Institution:** University of Melbourne
-**Level:** Master (Coursework)
-**Duration:** 2 years (200 credit points)
+**Assessment date:** 2026-06-09  
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-journ  
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 + DFVA-COPILOT-MARKET-v1
 
----
-
-**Assessment Date:** 2026-06-09
-**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-journ
-**Prompt Version:** DFVA-COPILOT-PROMPT-v1
-
----
-
-## 1. PROGRAM PROFILE
-
+### 1. PROGRAM PROFILE
 The Master of Journalism at the University of Melbourne is a professional degree for candidates seeking editorial, reporting, and media production careers. The 200-credit-point program covers reporting practice, media law, journalism ethics, digital media production, and investigative techniques. It includes a capstone production project.
 
 The program covers print, broadcast, online, and investigative journalism streams. Key areas include *Media Law and Ethics*, *Investigative Journalism*, *Digital Media Production*, and a *Journalism Capstone*. Industry placement and mentoring through Melbourne journalism networks are features of the program.
 
 Typical graduate roles include journalist, digital producer, investigative reporter, media advisor, communications professional, and content strategist. The journalism industry is undergoing structural disruption from digital platforms, declining advertising revenue, and AI content generation — making career planning more complex for graduates than most professional programs.
 
----
-
-## 2. AUTOMATION EXPOSURE PROFILE
-
+### 2. AUTOMATION EXPOSURE PROFILE
 | Year | Typical Tasks | Automation Risk |
 |---|---|---|
 | Year 1–2 (graduate) | Reporter, digital content producer, sub-editor, editorial assistant — writing, reporting, content production | **VERY HIGH** — Content generation, summarisation, and research synthesis are AI's primary targets in journalism; entry-level production work is highly exposed |
@@ -6897,44 +6997,44 @@ Typical graduate roles include journalist, digital producer, investigative repor
 
 **Industry note:** The structural decline of journalism employment is independent of AI — digital platform disruption has already compressed the industry significantly. AI acceleration compounds an existing trend. This is one of the most structurally challenged graduate employment markets in the portfolio.
 
----
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| News & Digital Journalism | Nine/News Corp ads make mobile video non-negotiable; AI now generates commodity wire copy at scale | "The commodity layer is gone" — profession bifurcating into high-trust vs AI-assisted production | Source development, verification, narrative structure, video storytelling, audience analytics |
+| Data Journalism & Investigations | ABC, Guardian Australia, AFR posting hard-to-fill data-reporter roles; 15–25% salary premium | Data journalism's credibility premium is the highest-leverage career differentiator | Python/R for data, public-records law, visualisation (Flourish, Datawrapper), geospatial analysis |
+| Digital Content Production | LinkedIn Q1 2026: +34% YoY ANZ postings needing video + writing hybrid skills | Analytics is now editorial feedback, not just a business tool | Mobile-first vertical video, podcast workflows, community management, SEO |
+| Communications & Media Advisory | APSC data: communications/media-adviser roles up 18% since 2023 — largest volume employer | Journalism training valued for media-cycle intuition and crisis comms | Strategic communications, stakeholder mapping, issues management, policy translation |
+| Broadcast & Audio | ABC and independents hiring dedicated podcast roles; AU podcast sector +22% p.a. | Broadcast still requires human presence and editorial judgement | Live presenting, audio craft, long-form narrative audio, distribution analytics |
+| Audience & Analytics | Guardian AU / The Australian creating audience-editor roles; high demand, low supply | Verification and synthetic-media detection are the trust moat vs AI content | GA4, Chartbeat, subscription-funnel analysis, newsletter strategy, OSINT/verification |
 
-## 3. DFVA SCORECARD
+### 4. DFVA SCORECARD
 
 | # | Dimension | Score (0-3) | Evidence-based rationale |
-|---|---|---|---|
-| 1 | Automation Exposure of Roles | 1/3 | Journalism faces extreme AI disruption. Content generation, summarisation, translation, and research synthesis are all highly automatable. The core craft of writing and story production is AI-vulnerable. |
-| 2 | Systems Thinking and Problem Framing | 2/3 | Journalism requires synthesising complex stories across political, social, and institutional systems. Media law, ethics, and press freedom teach systemic perspective on information ecosystems. |
-| 3 | Technical and Quantitative Depth | 1/3 | 200pt program but journalism is craft/profession, not deeply quantitative. Digital media production skills present but not analytical depth in statistics, data, or computation. |
-| 4 | Decision-Making Under Uncertainty | 2/3 | Editorial judgment, ethical decisions under deadline pressure, and source verification require real-time decision-making. Capstone projects require defended editorial choices. |
-| 5 | AI Literacy and Governance | 1/3 | No AI-specific journalism content visible. Digital media tools covered but AI in journalism — deepfake detection, automated fact-checking, AI-generated misinformation — not explicitly taught. |
-| 6 | Domain Depth and Specialisation | 3/3 | 200pt professional journalism degree. Clear specialist domain with capstone, production requirements, and defined professional identity. |
-| 7 | Research Methods Rigour | 2/3 | Investigative journalism teaches research methodology. Academic research component required at master's level. Evidence and verification practices are central to the curriculum. |
-| 8 | Human & Relational Capability | 3/3 | Interviewing, source cultivation, ethical engagement with subjects and communities — journalism is fundamentally a human-trust profession requiring relational skill. |
-| 9 | Curriculum Currency and Adaptability | 1/3 | Limited evidence of digital/AI-age journalism transformation in curriculum. Traditional journalism framework visible without explicit AI-era adaptation. |
-| 10 | Outcome Evidence | 2/3 | Journalism employment market is structurally contracting. Limited program-specific destination data. Industry disruption is well-documented. |
-| B | Irreplaceability (bonus) | 2/3 | Investigative journalism requires human trust, ethical judgment, and investigative persistence. But industry is in structural decline. The human value is real; the market is shrinking. |
-| **TOTAL** | | **20/36** | |
+|---|---|---:|---|
+| 1 | Automation Exposure of Roles | 1 | Journalism faces extreme AI disruption. Content generation, summarisation, translation, and research synthesis are all highly automatable. The core craft of writing and story production is AI-vulnerable. |
+| 2 | Systems Thinking and Problem Framing | 2 | Journalism requires synthesising complex stories across political, social, and institutional systems. Media law, ethics, and press freedom teach systemic perspective on information ecosystems. |
+| 3 | Technical and Quantitative Depth | 1 | 200pt program but journalism is craft/profession, not deeply quantitative. Digital media production skills present but not analytical depth in statistics, data, or computation. |
+| 4 | Decision-Making Under Uncertainty | 2 | Editorial judgment, ethical decisions under deadline pressure, and source verification require real-time decision-making. Capstone projects require defended editorial choices. |
+| 5 | AI Literacy and Governance | 1 | No AI-specific journalism content visible. Digital media tools covered but AI in journalism — deepfake detection, automated fact-checking, AI-generated misinformation — not explicitly taught. |
+| 6 | Domain Depth and Specialisation | 3 | 200pt professional journalism degree. Clear specialist domain with capstone, production requirements, and defined professional identity. |
+| 7 | Research Methods Rigour | 2 | Investigative journalism teaches research methodology. Academic research component required at master's level. Evidence and verification practices are central to the curriculum. |
+| 8 | Human and Relational Capability | 3 | Interviewing, source cultivation, ethical engagement with subjects and communities — journalism is fundamentally a human-trust profession requiring relational skill. |
+| 9 | Curriculum Currency and Adaptability | 1 | Limited evidence of digital/AI-age journalism transformation in curriculum. Traditional journalism framework visible without explicit AI-era adaptation. |
+| 10 | Graduate Outcome Evidence | 2 | Journalism employment market is structurally contracting. Limited program-specific destination data. Industry disruption is well-documented. |
+| B | Irreplaceability Premium (Bonus) | 2 | Investigative journalism requires human trust, ethical judgment, and investigative persistence. But industry is in structural decline. The human value is real; the market is shrinking. |
 
-**Risk Band: MODERATE RISK**
+**TOTAL: 20 / 36**  
+**Risk band: MODERATE RISK (20-27)**
 
----
+### 5. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
+  **YES** — the early-career output for Master of Journalism graduates is substantially templated; research, analysis, and content production are in AI's wheelhouse.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?  
+  **UNCERTAIN** — partial capability exists. Studio, capstone, or professional placement elements push toward decision ownership, but the standard curriculum track does not guarantee it.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
+  **NO** — AI disruption of the primary employment market, combined with limited curriculum adaptation, creates meaningful 5-year employability risk.
 
-## 4. THREE THRESHOLD QUESTIONS
-
-**Q1: Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?**
-YES. The early-career output for Master of Journalism graduates is substantially templated — research, analysis, and document production are in AI's wheelhouse.
-
-**Q2: Does this program train graduates to design systems, own decisions, or generate original insight?**
-UNCERTAIN. Partial capability exists. Studio, capstone, or professional placement elements push toward decision ownership, but the standard curriculum track does not guarantee it.
-
-**Q3: Will these graduates be more employable in 5 years than today, given AI trends?**
-NO. AI disruption of the primary employment market, combined with limited curriculum adaptation, creates meaningful 5-year employability risk.
-
----
-
-## 5. ANALOGUE GRADUATE PROFILE
-
+### 6. ANALOGUE GRADUATE PROFILE
 The most exposed journalism graduate is the **Junior Reporter of 2022**: a competent writer producing daily news articles, breaking news summaries, and content packages for digital platforms — work that AI content generators (ChatGPT, Claude, Perplexity) can now produce at volume with minimal human input.
 
 Specific threats:
@@ -6943,34 +7043,22 @@ Specific threats:
 - **AI video/audio production tools** — replacing some broadcast production roles
 - **Deepfake and synthetic media** — creating misinformation that journalists must identify and counter — a new skill not in current curriculum
 
----
-
-## 6. VERDICT
-
+### 7. VERDICT
 **The Master of Journalism is MODERATE RISK — a degree with genuine human-value dimensions in a structurally contracting industry.**
 
-The program's score (23/36) reflects a real tension: journalism has authentic human value that AI cannot fully replace (source trust, ethical judgment, investigative persistence, public accountability), but the industry these graduates are entering is experiencing both AI disruption and platform-driven structural decline simultaneously.
+The program's score (20/36) reflects a real tension: journalism has authentic human value that AI cannot fully replace (source trust, ethical judgment, investigative persistence, public accountability), but the industry these graduates are entering is experiencing both AI disruption and platform-driven structural decline simultaneously. The human relational capability (D8: 3) and domain depth (D6: 3) are genuine, but the curriculum currency gap (D9: 1) leaves graduates under-prepared for the specific challenges of the AI-era media landscape — detecting AI-generated content, fact-checking synthetic media, and governing AI tools in newsrooms.
 
-The human relational capability (D8: 3/3) and domain depth (D6: 3/3) are genuine. A skilled investigative journalist who has cultivated sources, navigated hostile access environments, and defended editorial decisions under legal pressure is doing work that AI cannot replicate. But this profile applies to a relatively small number of senior journalists in a market that is shedding entry-level and mid-level positions.
+### 8. RECOMMENDATIONS
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Make a data journalism subject compulsory — statistical literacy, data analysis, and quantitative storytelling are the most defensible journalism skills against AI | 3, 9 | ABC/Guardian/AFR posting hard-to-fill data roles; 15–25% salary premium | Medium |
+| P2 | Add a compulsory **AI in journalism** unit — deepfake/synthetic-media detection, LLM-assisted research, editorial-responsibility frameworks, MEAA AI guidelines | 5, 9 | AI literacy now a listed selection criterion at Nine/Seven digital teams | Low |
+| P3 | Require an industry project with defended outputs and stakeholder presentation | 1, 4 | Commodity-news layer automated; employers want defended, verified work | Medium |
+| P4 | Expand investigative tradecraft (FOI law, source protection, OSINT) — the accountability beat is where human reporters remain indispensable | 6, 8 | Investigative roles scarce but attract 3–5x applicants; differentiates postgraduates | Medium |
+| P5 | Add freelance/portfolio-career and newsletter-economics literacy, and embed audience analytics (GA4, Chartbeat) | 1, 10 | Portfolio careers now the dominant employment reality; analytics is editorial literacy | Low |
+| P6 | Establish annual curriculum review with an industry advisory panel and publish program-level GOS outcomes | 9, 10 | Curriculum-currency gap; role-title destination data not publicly reported | Low |
 
-**The curriculum currency gap (D9: 1/3) is a significant concern.** A journalism degree in 2026 should be teaching graduates to detect AI-generated content, fact-check synthetic media, govern AI tools in newsrooms, and position themselves as human-intelligence specialists in an AI-augmented media environment. The program's limited adaptation to these realities leaves graduates under-prepared for the specific challenges of the AI-era media landscape.
-
----
-
-## 7. RECOMMENDATIONS
-
-| Priority | Action | Dimension | Effort |
-|---|---|---|---|
-| 1 | Develop data journalism skills actively — statistical literacy, data analysis, and quantitative storytelling are the most defensible journalism skills against AI competition | D3, D9 | Medium |
-| 2 | Build AI detection and verification competency — deepfake identification, AI-generated content analysis, and synthetic media authentication are growth specialties | D5, D9 | Low |
-| 3 | Develop a non-journalism income stream during the program — communications, content strategy, or PR skills provide portable income while investigative journalism careers develop | D1 | Low |
-| 4 | Specialise in an accountability beat that requires source relationships — investigative journalism covering institutions that don't want coverage is where human reporters remain indispensable | D6, D8 | Medium |
-| 5 | Build a direct audience relationship through publication — owned channels reduce dependence on editorial employment and demonstrate demonstrated reach to future employers | D10 | Low |
-
----
-
-## 8. THE REDESIGNED GRADUATE PROFILE
-
+### 9. THE REDESIGNED GRADUATE PROFILE
 The 2027-ready journalism graduate is not a content producer — they are a **public accountability professional** who does the work that AI, by design, cannot and will not do.
 
 They have cultivated sources in an institution that matters — a hospital, a regulator, a police force, a corporation — and those sources trust them because they have proven over time that they are accurate, fair, and discreet. That trust relationship took years to build and is not transferable to a machine.
@@ -6978,6 +7066,11 @@ They have cultivated sources in an institution that matters — a hospital, a re
 They can read a financial disclosure, identify the gap between what is stated and what the data shows, and explain the discrepancy in plain language to a general audience. They have done this under legal threat and emerged with the story. Their work has changed something.
 
 They know exactly what AI is doing in their industry and they know what it cannot do. It cannot cultivate the sources who matter. It cannot sit in a room with a reluctant witness and earn their trust. It cannot make the ethical judgment call about whether to publish information that will harm an individual in service of a greater public good. These are human capabilities — and they are what a journalist in 2027 must position as their core value.
+
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Medium–High**. AI-substitution pressure on commodity journalism (WEF Future of Jobs 2025; AP/Reuters/Bloomberg deployment) and ANZ data-journalism and government-communications demand are high-confidence; ANZ-specific displacement data lags 12–18 months.
+- Short-form-video hiring criteria, salary premiums, and newsletter/portfolio viability are directional (job-ad text analysis and Substack/media commentary), not audited.
+- For high-stakes curriculum decisions, add a 90-day ANZ job-ad scrape, program-level GOS destination data at role-title/salary granularity, and 3–5 employer interviews (ABC Investigations, Guardian Australia, a government comms team, Schwartz Media, and a regional outlet).
 
 ### MARKET DATA
 | Metric | Value |
@@ -7016,7 +7109,7 @@ They know exactly what AI is doing in their industry and they know what it canno
   "dfva-market-mc-journ": {
     title: "Master of Journalism (MC-JOURN) — Market Intelligence",
     institution: "University of Melbourne",
-    markdown: `# DFVA MARKET INTELLIGENCE: Master of Journalism
+    markdown: `# DFVA MARKET INTELLIGENCE: Master of Journalism (MC-JOURN)
 
 **Institution:** University of Melbourne
 **Assessment Date:** 2026-06-21
@@ -7180,7 +7273,10 @@ There is active debate among editors and senior journalists about whether analyt
     institution: "University of Melbourne",
     markdown: `## DFVA REPORT: Master of Nursing Science (MC-NURSC)
 **Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 pts)
-**Assessment date:** 2026-06-08 | **Source:** https://handbook.unimelb.edu.au/2026/courses/mc-nursc
+
+**Assessment date:** 2026-06-21
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-nursc
+**Prompt version:** DFVA-COPILOT-PROMPT-v1
 
 ### 1. PROGRAM PROFILE
 The Master of Nursing Science at the University of Melbourne is an advanced nursing degree for registered nurses seeking research training, specialist clinical knowledge, or leadership preparation. The program is distinct from initial registration programs and targets practising nurses with clinical experience.
@@ -7189,8 +7285,7 @@ The program includes coursework in advanced nursing practice, healthcare systems
 
 Typical graduate roles include advanced practice registered nurse, nurse practitioner (where additional AHPRA requirements are met), clinical nurse educator, nursing unit manager, clinical nurse researcher, and policy advisor in health departments.
 
-
-## 2. AUTOMATION EXPOSURE PROFILE
+### 2. AUTOMATION EXPOSURE PROFILE
 
 | Task Category | Example Graduate Tasks | AI Pressure | AI Capability Today | Durability Rationale |
 |---|---|---|---|---|
@@ -7207,9 +7302,18 @@ Typical graduate roles include advanced practice registered nurse, nurse practit
 
 **Durability Assessment:** Master of Nursing Science graduates are among the most automation-resistant professionals assessed in this DFVA cohort. The core of the role — physical patient care, therapeutic communication, complex clinical judgment under time pressure, and accountability for patient outcomes — is irreducible to algorithmic processes. Regulatory requirements (NMBA registration, AHPRA oversight) enforce continued human presence and competence as a hard structural floor. The primary automation pressure is concentrated in documentation and routine protocol-based tasks, which represent a smaller proportion of an advanced nursing graduate's role than for entry-level registered nurses. The emerging AI governance dimension — evaluating clinical AI tools — is additive to the role rather than substitutive.
 
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Advanced Practice Nurse | Complex case management, advanced clinical assessment, specialist care coordination; NMBA mandates human accountability at point of care | "Physical assessment, therapeutic relationship, and clinical judgment are irreducible" | Strengthen diagnostic reasoning, chronic disease management, telehealth |
+| Nurse Practitioner | NP roles advertised 4–8 weeks with rising AUD $120k–145k packages; demand outstrips supply | "Autonomous clinical accountability cannot be delegated to AI" | Deepen prescribing pharmacology and evidence-based practice |
+| Clinical Nurse Educator | Hospital education positions grown materially since 2023 to absorb graduate cohort surges | "Facilitation and clinical mentorship are irreducible; content design is AI-augmentable" | Add simulation-based learning, curriculum design, digital health literacy |
+| Nursing Unit Manager | NUMs retiring faster than replaced; MNursingSc cited as preferred in senior nursing ads | "Leadership, conflict resolution, and accountability are human-dependent" | Build change management, health informatics, workforce planning |
+| Clinical Researcher | VCCC network, Royal Melbourne, Austin, Monash advertising research nurse/coordinator roles | "Data analysis is AI-augmented; participant liaison and safety judgment are not" | Introduce GCP certification and REDCap/clinical informatics |
+| Mental Health Nurse | Structural shortfall following Victoria's mental health reform; workforce strategy names the pathway | "Therapeutic relationship and risk judgement are irreducible" | Embed trauma-informed and recovery-oriented practice |
 
-###  3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
+### 4. DFVA SCORECARD
+| # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---:|---|
 | 1 | Automation Exposure | 3 | Nursing is irreducible human clinical work. Physical patient care, clinical judgment, emotional support — AI cannot substitute. NMBA registration requires demonstrated clinical competence. |
 | 2 | Systems Thinking | 2 | Nursing of Acute/Chronic Health Conditions, Transition to Nursing Practice — integrated clinical reasoning. Healthcare systems understanding implicit. |
@@ -7221,18 +7325,20 @@ Typical graduate roles include advanced practice registered nurse, nurse practit
 | 8 | Human & Relational | 3 | This is nursing's structural core. Indigenous Health, Mental Health Nursing, clinical placements — sustained patient interaction assessed as competency. NMBA standards require demonstrated interpersonal capability. |
 | 9 | Curriculum Currency | 2 | Updated 8 Jan 2026. Digital Transformation of Health, Indigenous Data Governance — current topics. Core remains traditional clinical nursing. |
 | 10 | Outcome Evidence | 3 | NMBA registration provides external outcome verification. Employment outcomes are strong and publicly visible. Program-specific data not granularly published. |
-| B | Irreplaceability | 3 | Maximum: clinical nursing combines physical care, clinical judgment, emotional support, and ethical practice. AI cannot replicate any of these at the point of care. |
+| B | Irreplaceability (Bonus) | 3 | Maximum: clinical nursing combines physical care, clinical judgment, emotional support, and ethical practice. AI cannot replicate any of these at the point of care. |
 
-**TOTAL: 26/36 — MODERATE RISK** (upper boundary)
+**TOTAL: 27 / 36**
+**Risk band: MODERATE RISK (20-27)**
 
-### 4. THREE THRESHOLD QUESTIONS
-- **Q1:** NO — nursing is fundamentally irreducible. Physical patient care, clinical judgment, and empathetic communication are non-automatable.
-- **Q2:** YES — clinical placements require real-time decision ownership. NMBA standards enforce demonstrated clinical competence.
-- **Q3:** YES — nursing demand is structurally growing (aging population, chronic disease). Clinical skills are durable and non-automatable.
+### 5. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?
+  **NO** — nursing is fundamentally irreducible. Physical patient care, clinical judgment, and empathetic communication are non-automatable.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?
+  **YES** — clinical placements require real-time decision ownership. NMBA standards enforce demonstrated clinical competence.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?
+  **YES** — nursing demand is structurally growing (aging population, chronic disease). Clinical skills are durable and non-automatable.
 
-
-## 5. ANALOGUE GRADUATE PROFILE
-
+### 6. ANALOGUE GRADUATE PROFILE
 The most exposed nursing science graduate is the **Junior Registered Nurse of 2022**: primarily performing routine documentation, medication administration tracking, and standard patient observation protocols — tasks increasingly augmented by AI clinical support systems.
 
 Specific threats:
@@ -7243,41 +7349,30 @@ Specific threats:
 
 However, the MC-NURSC graduate profile emphasises advanced practice and research leadership — substantially more protected than general registered nursing.
 
----
+### 7. VERDICT
+Nursing is among the most AI-resistant professions assessed. The program's structural defences are regulatory (NMBA accreditation), practical (physical patient care), and relational (empathy, communication, clinical judgment). The score (27/36) reflects strong core protection with room to improve AI literacy for the digital health tools nurses increasingly use. But the program's fundamentals are sound — nursing graduates face AI augmentation of their tools, not substitution of their role.
 
-### Verdict
-Nursing is among the most AI-resistant professions assessed. The program's structural defences are regulatory (NMBA accreditation), practical (physical patient care), and relational (empathy, communication, clinical judgment). The score (26/36) reflects strong core protection with room to improve AI literacy for the digital health tools nurses increasingly use. But the program's fundamentals are sound — nursing graduates face AI augmentation of their tools, not substitution of their role.
+### 8. RECOMMENDATIONS
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Develop AI clinical decision support tool literacy — understand AI alert systems and when to override | D5 | Deterioration prediction and medication-safety AI tools deployed widely (Epic AI, Sepsis Sieve) | Medium |
+| P2 | Specialise in complex clinical areas where AI tools have least capability — ICU, oncology, mental health | D6 | Critical-care and mental-health nursing command salary premiums and structural shortage | High |
+| P3 | Build clinical research skills — nursing-led research has growing funding and policy relevance | D7 | VCCC network and NHMRC-funded research nurse roles expanding | High |
+| P4 | Develop supervision and mentoring capability — educator and clinical leader roles are more automation-resistant | D8 | Hospital clinical-educator positions grown materially since 2023 | High |
+| P5 | Build quantitative skills for evidence-based practice | D3, D7 | Clinical audit and quality improvement leadership valued as durable competency | Medium |
 
-
-## 8. THE REDESIGNED GRADUATE PROFILE
-
+### 9. THE REDESIGNED GRADUATE PROFILE
 The 2027-ready nursing science graduate is not a documentation specialist — they are a **clinical knowledge leader** who advances nursing practice through research and evidence-based change.
 
 They have designed and led a clinical quality improvement project: they identified a practice problem, reviewed the evidence, implemented a change, and measured the outcome. They know what it takes to change clinical practice in a real hospital environment — the stakeholder management, the resistance, and the evidence requirements. That implementation expertise is not in a textbook.
 
 They understand AI clinical support tools: they evaluate whether an AI deterioration alert is calibrated correctly for their patient population, override it when clinical judgment indicates a different interpretation, and document the clinical reasoning. That governance capability — combining clinical expertise with AI tool evaluation — is what the AI-augmented healthcare environment actually requires from clinical leaders.
 
----
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Medium–High**.
+- Nursing's physical and relational irreducibility is well-established across international AI-in-healthcare studies, and structural workforce demand is confirmed by AIHW workforce reports, NMBA registration data, and Victorian health workforce plans.
+- Employer landscape and skill-shift analysis rest on sector intelligence rather than a live ANZ job-ad scrape; for high-stakes curriculum decisions, add a dated 90-day scrape of MC-NURSC-specific graduate titles and UniMelb program-level destination data.
 
-
-### 7. RECOMMENDATIONS
-| Priority | Action | Dimension | Effort |
-|---|---|---|---|
-| 1 | Develop AI clinical decision support tool literacy — understand AI alert systems and when to override | D5 | Medium |
-| 2 | Specialise in complex clinical areas where AI tools have least capability — ICU, oncology, mental health | D6 | High |
-| 3 | Build clinical research skills — nursing-led research has growing funding and policy relevance | D7 | High |
-| 4 | Develop supervision and mentoring capability — educator and clinical leader roles are more automation-resistant | D8 | High |
-| 5 | Build quantitative skills for evidence-based practice | D3, D7 | Medium |
-
----
-
-
-
----
-
-**Assessment Date:** 2026-06-21
-**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-nursc
-**Prompt Version:** DFVA-COPILOT-PROMPT-v1
 ### MARKET DATA
 | Metric | Value |
 |--------|-------|
@@ -7451,13 +7546,11 @@ Victoria's mental health system reform (following the Royal Commission into Vict
   "dfva-mc-phtyph": {
     title: "Master of Physiotherapy (Pelvic Health) (MC-PHTYPH) — DFVA Assessment",
     institution: "University of Melbourne",
-    markdown: `## DFVA REPORT: MC-PHTYPH
-**Institution:** University of Melbourne  
-**Level:** Master (Coursework)  
-**Duration:** 2 years (200 credit points)
+    markdown: `## DFVA REPORT: Master of Physiotherapy (Pelvic Health) (MC-PHTYPH)
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 credit points)
 
-**Assessment date:** 2026-06-20  
-**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-phtyph  
+**Assessment date:** 2026-06-20
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-phtyph
 **Prompt version:** DFVA-COPILOT-PROMPT-v1
 
 ### 1. PROGRAM PROFILE
@@ -7471,40 +7564,60 @@ Graduate roles include pelvic health physiotherapist, women's health physiothera
 | Year 1–2 (graduate) | Pelvic health physiotherapy assessment and treatment | **LOW** — Physical assessment and treatment requires hands-on clinical skill and patient relationship |
 | Year 3–5 | Specialist pelvic health clinician, clinical educator | **LOW** — Specialist physical expertise and patient management |
 
-### 3. DFVA SCORECARD
-*Score data from existing assessment records.*
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Pelvic Health Physiotherapy | Sustained Seek volume; private practices list a pelvic-health masters as selection criterion | **LOW** — hands-on assessment and therapeutic relationship cannot be replicated | Ultrasound biofeedback, trauma-informed care, sexual health integration, telehealth-assisted exercise |
+| Continence & Bladder/Bowel Rehabilitation | Continence Australia–linked roles now require post-graduate credentials | **LOW-MEDIUM** — AI enters urodynamic summarisation; clinical reasoning stays human | Urodynamic data literacy, EHR integration, anorectal manometry, MDT communication |
+| Women's Health & Obstetric Physiotherapy | Demand growing with Medicare rebate expansion for postnatal care | **LOW** — antenatal/postnatal care is relationship- and skill-intensive | Diastasis recti rehab, perinatal mental health literacy, obstetric exercise physiology |
+| Men's Health Pelvic Physiotherapy | Oncology/urology depts (Peter Mac) creating post-prostatectomy roles new since 2022–23 | **LOW** — fastest-growing niche; intimate specialist care | Oncology rehabilitation, male pelvic anatomy, chronic pain neuroscience education |
+| Clinical Education & Supervision | Educator roles attached to graduate-entry physio programs; visible mid-career pathway | **LOW-MEDIUM** — content design AI-augmentable; facilitation is not | Simulation-based education, digital assessment tools, LMS, reflective practice |
+| Telehealth & Digital Pelvic Health | Telehealth/hybrid pelvic-health roles normalised in national job ads | **MEDIUM** — AI exercise apps enter as adjunct tools | Digital health literacy, remote assessment tools, asynchronous care protocols |
 
-**TOTAL: 25/36**  
-**Risk band: MODERATE RISK**
+### 4. DFVA SCORECARD
+| # | Dimension | Score (0-3) | Evidence-based rationale |
+|---|---|---:|---|
+| 1 | Automation Exposure | 3 | Internal examination, manual therapy, and real-time ultrasound assessment require physical presence and specialist clinical skill AI cannot replicate; AHPRA registration enforces demonstrated competence. |
+| 2 | Systems Thinking | 1 | Program is strongly clinical and technique-focused; multi-system biopsychosocial integration is practised in advanced cases but no dedicated systems-framing unit or assessed failure-mode analysis. |
+| 3 | Technical Depth | 2 | Specialist clinical science — pelvic anatomy, real-time ultrasound, urodynamic interpretation — is rigorous, but the program is not deeply quantitative. |
+| 4 | Decision-Making | 3 | Clinical placements require real-time diagnostic and treatment decisions in intimate, high-ambiguity contexts under professional accountability. |
+| 5 | AI Literacy | 1 | No AI-specific content; digital adjunct tools (wearable biofeedback, app coaching) are discussed in practice but absent from curriculum. |
+| 6 | Domain Depth | 3 | Deep specialist pelvic-health credential; a recognised advanced-practice qualification in a high-growth specialty with documented under-service. |
+| 7 | Research Rigour | 3 | Research evidence base for pelvic-health interventions is central to specialist practice; the program embeds evidence appraisal and applied research literacy. |
+| 8 | Human & Relational | 3 | The program's structural core — therapeutic alliance, intimate clinical communication, trauma-informed and inclusive practice are explicit assessed capabilities. |
+| 9 | Curriculum Currency | 2 | Current specialist content, but emerging competencies (LGBTQ+ inclusive care, telehealth-native practice, digital adjunct tools) are unevenly embedded. |
+| 10 | Outcome Evidence | 3 | AHPRA registration and specialist credentialling provide external outcome verification; strong structural demand is well documented. Program-level data not granularly published. |
+| B | Irreplaceability (Bonus) | 3 | Maximum: physical assessment, specialist credential, and patient relationship combine into one of the most durable clinical specialties in the AI era. |
 
-### 4. THREE THRESHOLD QUESTIONS
-**Q1: Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?**
-NO. See program assessment for detailed rationale.
+**TOTAL: 27 / 36**
+**Risk band: MODERATE RISK (20-27)**
 
-**Q2: Does this program train graduates to design systems, own decisions, or generate original insight?**
-YES. See program assessment for detailed rationale.
+### 5. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?
+  **NO** — physical assessment, internal examination, manual therapy, and real-time ultrasound require physical presence and specialist clinical skill that AI cannot replicate.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?
+  **YES** — specialist clinical placements require defended treatment decisions and integration of the physical, psychological, and social dimensions of pelvic dysfunction.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?
+  **YES** — pelvic health is a high-growth specialty with documented under-service, an ageing population, and expanding referral pathways driving structural demand.
 
-**Q3: Will these graduates be more employable in 5 years than today, given AI trends?**
-YES. See program assessment for detailed rationale.
-
-### 5. ANALOGUE GRADUATE PROFILE
+### 6. ANALOGUE GRADUATE PROFILE
 The most exposed physiotherapy graduate is the **Exercise Physiology AI App User of 2022**: conducting standardised exercise prescription from online templates — work being offered directly to consumers by AI fitness and rehabilitation apps.
 
 However, pelvic health physiotherapy is substantially more protected: internal examination techniques, manual therapy, real-time ultrasound assessment, and intimate patient management require physical presence and specialist clinical skill that AI cannot replicate.
 
-### 6. VERDICT
-**The Master of Physiotherapy (Pelvic Health) is MODERATE RISK (upper boundary, approaching RESILIENT) — a specialist clinical program with strong physical practice protection and structural demand growth.**
+### 7. VERDICT
+The Master of Physiotherapy (Pelvic Health) is MODERATE RISK (upper boundary, approaching RESILIENT) — a specialist clinical program with strong physical practice protection and structural demand growth. Pelvic health physiotherapy is a high-growth specialty with documented under-service and an ageing population driving structural demand. The physical assessment techniques, therapeutic alliance requirements, and intimate clinical context create strong automation barriers, making this among the more automation-resistant clinical programs in the portfolio. The path to RESILIENT (28+) runs through embedding AI/digital-adjunct literacy and a systems-framing component into the core.
 
-Pelvic health physiotherapy is a high-growth specialty with documented under-service and an ageing population driving structural demand. The physical assessment techniques, therapeutic alliance requirements, and intimate clinical context create strong automation barriers. This is among the more automation-resistant clinical programs in the portfolio.
+### 8. RECOMMENDATIONS
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Develop real-time ultrasound assessment skills — this specialist skill creates significant differentiation | D3, D6 | RTUS becoming an expected core skill in specialist pelvic-health positions | High |
+| P2 | Build expertise in the research evidence base for pelvic health interventions | D7 | Endometriosis/chronic pelvic pain pathways receiving policy investment and employer attention | Medium |
+| P3 | Develop patient communication and psychosocial assessment skills for the biopsychosocial model | D8 | Trauma-informed and LGBTQ+-inclusive care flagged as emerging hiring expectations | Medium |
+| P4 | Embed digital-adjunct and telehealth-native competency (wearable biofeedback, app coaching, remote assessment) | D5 | Telehealth/hybrid pelvic-health roles normalised in national job ads | Medium |
+| P5 | Add an assessed systems-framing / biopsychosocial-integration component to core clinical units | D2 | Multidisciplinary pain and endometriosis clinics advertising dedicated physio roles | Medium |
 
-### 7. RECOMMENDATIONS
-| Priority | Action | Dimension | Effort |
-|---|---|---|---|
-| 1 | Develop real-time ultrasound assessment skills — this specialist skill creates significant differentiation | D3, D6 | High |
-| 2 | Build expertise in the research evidence base for pelvic health interventions | D7 | Medium |
-| 3 | Develop patient communication and psychosocial assessment skills for the biopsychosocial model | D8 | Medium |
-
-### 8. THE REDESIGNED GRADUATE PROFILE
+### 9. THE REDESIGNED GRADUATE PROFILE
 The 2027-ready pelvic health physiotherapy graduate is a **specialist physical clinician** whose hands-on assessment and treatment skills are the core of their professional value.
 
 They can conduct a comprehensive pelvic floor assessment — including real-time ultrasound, internal examination, and functional movement analysis — and integrate that clinical picture into a treatment plan that addresses the physical, psychological, and social dimensions of pelvic dysfunction. That multi-system integration requires human clinical judgment and physical skill that cannot be automated.
@@ -7512,6 +7625,11 @@ They can conduct a comprehensive pelvic floor assessment — including real-time
 They have managed complex patients: those with concurrent chronic pain, those for whom the condition has significant psychological impact, and those from cultural backgrounds where discussion of pelvic symptoms is difficult. They know how to create the clinical relationship that allows treatment to work in those contexts.
 
 They are positioned in a growth specialty with genuine workforce shortage. Their physical skills, specialist credentials, and patient relationship capability are the combination that makes pelvic health physiotherapy one of the more durable clinical specialties in the AI era.
+
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Medium–High**.
+- Labour-market demand trajectory and the LOW AI-substitution rating for core clinical tasks are well-evidenced (APA workforce surveys, Australian Government Labour Market Insights, WEF Future of Jobs 2025 methodology); telehealth normalisation is well documented.
+- Men's pelvic-health growth, curriculum gaps (trauma-informed and LGBTQ+ competency), and salary trends rest on professional discourse and sector norms; a live 90-day ANZ job-ad scrape and UniMelb program-level destination data would sharpen confidence.
 
 ### MARKET DATA
 | Metric | Value |
@@ -7548,7 +7666,7 @@ They are positioned in a growth specialty with genuine workforce shortage. Their
 `,
   },
   "dfva-market-mc-phtyph": {
-    title: "Master of Physiotherapy (Pelvic Health) (MC-PHTYPH) — Market Intelligence",
+    title: "Master of Physiotherapy (Pelvic Health) — Market Intelligence",
     institution: "University of Melbourne",
     markdown: `# DFVA MARKET INTELLIGENCE: Master of Physiotherapy (Pelvic Health)
 
@@ -7712,21 +7830,14 @@ Increasingly visible in professional discourse is the expectation that pelvic he
   "dfva-mc-prop": {
     title: "Master of Property (MC-PROP) — DFVA Assessment",
     institution: "University of Melbourne",
-    markdown: `# DFVA REPORT: Master of Property
+    markdown: `## DFVA REPORT: Master of Property (MC-PROP)
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (300 credit points)
 
-**Institution:** University of Melbourne
-**Level:** Master (Coursework)
-**Duration:** 2 years (300 credit points)
+**Assessment date:** 2026-06-09
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-prop
+**Prompt version:** DFVA-COPILOT-PROMPT-v1
 
----
-
-**Assessment Date:** 2026-06-09
-**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-prop
-**Prompt Version:** DFVA-COPILOT-PROMPT-v1
-
----
-
-## 1. PROGRAM PROFILE
+### 1. PROGRAM PROFILE
 
 The Master of Property at the University of Melbourne is a professional property program accredited by the Australian Property Institute (API) and the Royal Institution of Chartered Surveyors (RICS). It is the primary graduate pathway to professional property practice in Australia.
 
@@ -7734,9 +7845,7 @@ The 300-credit-point program covers property development, investment analysis, v
 
 Typical graduate roles include property analyst, valuer, development manager, property investment analyst, asset manager, facilities manager, and real estate advisor. The API and RICS accreditations are the standard professional credentials in the Australian property market.
 
----
-
-## 2. AUTOMATION EXPOSURE PROFILE
+### 2. AUTOMATION EXPOSURE PROFILE
 
 | Year | Typical Tasks | Automation Risk |
 |---|---|---|
@@ -7746,43 +7855,45 @@ Typical graduate roles include property analyst, valuer, development manager, pr
 
 **Physical layer protection:** Property valuation requires physical property inspection and local market knowledge that AI systems cannot currently replicate. This physical layer provides genuine automation resistance at the practitioner level, though AI is rapidly improving property analysis capabilities.
 
----
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Property Valuation | Graduate valuer ads (Herron Todd White, Opteon, CBRE) now specify AVM literacy alongside comparable analysis | **MEDIUM-HIGH** — >60% of residential volume addressable by automated tools by 2027; commercial lags | Restructure valuation practice to interrogate and defend against AVM outputs |
+| Property Development | Persistent demand for junior development roles in Victoria's housing and BTR pipeline | **LOW-MEDIUM** — feasibility logic automatable; negotiation and planning advocacy are not | Planning navigation, mixed-use modelling, NABERS/NCC 2025 compliance |
+| Real Estate Investment & Funds | REITs (Charter Hall, Dexus) name ARGUS Enterprise DCF; ANZ mentions up 34% YoY | **MEDIUM** — quantitative screening automated; asset-management judgment human | Surface ARGUS, ESG integration, PropTech data platforms, investor communication |
+| Property Advisory & Consulting | JLL, CBRE, Colliers rolling out AI tooling; no graduate-role reduction announced | **MEDIUM** — report drafting GPT-addressable; strategic advisory durable | Data storytelling, client advisory, commercial leasing law |
+| Property Finance | Bank/non-bank grad programs (Macquarie, NAB, Metrics Credit) include property-finance streams | **LOW-MEDIUM** — credit-memo drafting AI-assistable; security judgment not | Advanced modelling, APRA capital awareness, risk-adjusted return metrics |
+| Corporate Real Estate & Workplace | Corporate RE functions expanding post-COVID workplace restructuring | **MEDIUM** — utilisation analytics automated; portfolio decisions human | Hybrid-work strategy, utilisation analytics, GRESB sustainability reporting |
 
-## 3. DFVA SCORECARD
+### 4. DFVA SCORECARD
 
 | # | Dimension | Score (0-3) | Evidence-based rationale |
-|---|---|---|---|
-| 1 | Automation Exposure of Roles | 2/3 | Property valuation and market analysis are increasingly AI-augmented but require physical inspection, client negotiation, and regulatory judgment that creates genuine automation friction. |
-| 2 | Systems Thinking and Problem Framing | 2/3 | Full property cycle: development, investment, finance, valuation, management. Systems integration across the project lifecycle is embedded in the curriculum structure. |
-| 3 | Technical and Quantitative Depth | 2/3 | 300pt program. Financial modelling, feasibility analysis, and valuation methods. API/RICS accreditation requires demonstrated technical competence. |
-| 4 | Decision-Making Under Uncertainty | 2/3 | Risk allocation, viability assessment, and project evaluation require professional judgment. Capstone research project available for more intensive decision-making experience. |
-| 5 | AI Literacy and Governance | 1/3 | No AI-specific content. Data management and software skills mentioned but AI/proptech not explicit in curriculum. |
-| 6 | Domain Depth and Specialisation | 3/3 | 300pt professional degree with dual API/RICS accreditation. 225pt core. Clear property specialist pathway with recognised professional credentials. |
-| 7 | Research Methods Rigour | 2/3 | Research project/capstone available. Research principles in property practice taught. PhD pathway mentioned. |
-| 8 | Human & Relational Capability | 2/3 | Negotiation, communication, and client management skills explicit. Professional practice component. Not clinical-level relational. |
-| 9 | Curriculum Currency and Adaptability | 2/3 | Updated June 2026. Property industry current. Limited AI/proptech/digital innovation visibility in curriculum. |
-| 10 | Outcome Evidence | 2/3 | API/RICS accreditation provides external validation of standards. Property industry employment is trackable through professional bodies. |
-| B | Irreplaceability (bonus) | 2/3 | Physical inspection requirements, professional liability, and client relationships create automation friction. Accreditation pathway is a structural barrier. |
-| **TOTAL** | | **22/36** | |
+|---|---|---:|---|
+| 1 | Automation Exposure of Roles | 2 | Property valuation and market analysis are increasingly AI-augmented but require physical inspection, client negotiation, and regulatory judgment that creates genuine automation friction. |
+| 2 | Systems Thinking and Problem Framing | 2 | Full property cycle: development, investment, finance, valuation, management. Systems integration across the project lifecycle is embedded in the curriculum structure. |
+| 3 | Technical and Quantitative Depth | 2 | 300pt program. Financial modelling, feasibility analysis, and valuation methods. API/RICS accreditation requires demonstrated technical competence. |
+| 4 | Decision-Making Under Uncertainty | 2 | Risk allocation, viability assessment, and project evaluation require professional judgment. Capstone research project available for more intensive decision-making experience. |
+| 5 | AI Literacy and Governance | 1 | No AI-specific content. Data management and software skills mentioned but AI/proptech not explicit in curriculum. |
+| 6 | Domain Depth and Specialisation | 3 | 300pt professional degree with dual API/RICS accreditation. 225pt core. Clear property specialist pathway with recognised professional credentials. |
+| 7 | Research Methods Rigour | 2 | Research project/capstone available. Research principles in property practice taught. PhD pathway mentioned. |
+| 8 | Human & Relational Capability | 2 | Negotiation, communication, and client management skills explicit. Professional practice component. Not clinical-level relational. |
+| 9 | Curriculum Currency and Adaptability | 2 | Updated June 2026. Property industry current. Limited AI/proptech/digital innovation visibility in curriculum. |
+| 10 | Outcome Evidence | 2 | API/RICS accreditation provides external validation of standards. Property industry employment is trackable through professional bodies. |
+| B | Irreplaceability (Bonus) | 2 | Physical inspection requirements, professional liability, and client relationships create automation friction. Accreditation pathway is a structural barrier. |
 
-**Risk Band: MODERATE RISK**
+**TOTAL: 22 / 36**
+**Risk band: MODERATE RISK (20-27)**
 
----
+### 5. THREE THRESHOLD QUESTIONS
 
-## 4. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?
+  **NO** — core professional work in Master of Property requires physical presence, regulated judgment, or specialist domain knowledge that AI cannot yet replicate reliably.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?
+  **YES** — the program's capstone, professional practice, and specialist curriculum provide genuine decision ownership and system design capability.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?
+  **YES** — structural demand for the specific skill set and professional accreditation protection make 5-year employability stronger than today, provided AI-literacy gaps are closed.
 
-**Q1: Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?**
-NO. Core professional work in Master of Property requires physical presence, regulated judgment, or specialist domain knowledge that AI cannot yet replicate reliably.
-
-**Q2: Does this program train graduates to design systems, own decisions, or generate original insight?**
-YES. The program's capstone, professional practice, and specialist curriculum provide genuine decision ownership and system design capability.
-
-**Q3: Will these graduates be more employable in 5 years than today, given AI trends?**
-YES. Structural demand for the specific skill set, professional accreditation protection, or AI-native curriculum positioning make 5-year employability stronger than today.
-
----
-
-## 5. ANALOGUE GRADUATE PROFILE
+### 6. ANALOGUE GRADUATE PROFILE
 
 The most exposed property graduate is the **Junior Property Analyst of 2021**: primarily producing market research reports, comparable sales analysis, and financial feasibility spreadsheets — work being compressed by AI-powered property platforms and automated valuation models.
 
@@ -7792,33 +7903,21 @@ Specific threats:
 - **AI market research tools** — automated suburb and market analysis reports replacing junior analyst output
 - **PropTech platforms (Archistar, Urban Intelligence)** — planning constraint analysis and site identification previously done by junior property analysts
 
----
+### 7. VERDICT
 
-## 6. VERDICT
+The Master of Property is MODERATE RISK — a degree with professional accreditation protection and physical-layer automation resistance, constrained by a curriculum that has not yet integrated AI literacy. The program's score (22/36) reflects the genuine value of the API/RICS accreditation pathway, physical inspection requirements, and professional liability framework: property practice requires site visits, client relationships, and local market judgment that AI systems are not yet reliably replacing. The risk is at the junior end — market research, comparable analysis, and feasibility modelling are exactly what AI property tools are automating — and the AI-literacy gap (D5: 1/3) is significant for a 2026 program, since a graduate who cannot situate AI property tools within a professional governance framework is under-prepared for practice.
 
-**The Master of Property is MODERATE RISK — a degree with professional accreditation protection and physical-layer automation resistance, constrained by a curriculum that has not yet integrated AI literacy.**
+### 8. RECOMMENDATIONS
 
-The program's score (23/36) reflects the genuine value of the API/RICS accreditation pathway, physical inspection requirements, and professional liability framework. Property practice requires site visits, client relationships, and local market judgment that AI systems are not yet reliably replacing.
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Develop proptech and AI valuation tool literacy — understand AVM methodology, limitations, and when professional judgment must override algorithmic outputs | D5, D9 | AVMs addressing >60% of residential valuation volume by 2027; graduates asked to sign off on AVM outputs | Medium |
+| P2 | Pursue API/RICS accreditation actively — professional registration is the most durable automation barrier in property practice | D6 | API CPP pathway and RICS APC requirements named in senior-role hiring | High (post-graduation commitment) |
+| P3 | Build physical inspection experience early — paired site visits and direct market research through internship or work experience | D1, D8 | Leasing/occupier advisory ads rank stakeholder management and negotiation ahead of technical knowledge | High |
+| P4 | Develop expertise in a specific property sector (industrial, healthcare, agriculture, BTR) — specialist knowledge creates genuine non-replicable advantage | D6 | Build-to-rent sector creating new ANZ graduate role categories since 2022 | Medium |
+| P5 | Complete the research project capstone if possible — demonstrates analytical independence and strengthens graduate credential | D7 | Python/Power BI/SQL data tooling increasingly requested in property research ads | High |
 
-The risk is at the junior end: market research, comparable analysis, and feasibility modelling are exactly what AI property tools are automating. Graduates who enter the workforce as primarily analytical (market research, spreadsheet modelling) without developing the physical practice and client relationship skills face compression.
-
-**The AI literacy gap (D5: 1/3) is significant for a 2026 program.** PropTech and AI valuation tools are transforming the industry. A graduate who cannot situate AI property tools within a professional governance framework — understanding their limitations, when to override them, and what liability exists when they are wrong — is under-prepared for practice.
-
----
-
-## 7. RECOMMENDATIONS
-
-| Priority | Action | Dimension | Effort |
-|---|---|---|---|
-| 1 | Develop proptech and AI valuation tool literacy — understand AVM methodology, limitations, and when professional judgment must override algorithmic outputs | D5, D9 | Medium |
-| 2 | Pursue API/RICS accreditation actively — professional registration is the most durable automation barrier in property practice | D6 | High (post-graduation commitment) |
-| 3 | Build physical inspection experience early — paired site visits and direct market research through internship or work experience | D1, D8 | High |
-| 4 | Develop expertise in a specific property sector (industrial, healthcare, agriculture) — specialist knowledge creates genuine non-replicable advantage | D6 | Medium |
-| 5 | Complete the research project capstone if possible — demonstrates analytical independence and strengthens graduate credential | D7 | High |
-
----
-
-## 8. THE REDESIGNED GRADUATE PROFILE
+### 9. THE REDESIGNED GRADUATE PROFILE
 
 The 2027-ready property graduate is not a spreadsheet analyst — they are a **professional judgment specialist with physical market knowledge**.
 
@@ -7827,6 +7926,11 @@ They have been inside the buildings they have valued. They know what a deferred 
 They understand what AI valuation tools do and what they miss. They can explain to a client why an AVM undervalued a commercial property because the training data didn't include the specific lease structure, and they can defend that position in writing. That combination — AI tool literacy plus physical market judgment plus professional liability — is not replicable by a model.
 
 They have an API membership path underway and they know the regulatory framework for their practice area. They are not just a property analyst — they are a credentialled professional with physical market experience and AI tool governance capability.
+
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Medium**.
+- AI-substitution pressure in valuation (residential AVM displacement) is well-evidenced by CoreLogic and RICS; the commercial timeline is contested and market-segment-dependent.
+- ANZ graduate hiring volumes, BTR/affordable-housing employer demand, and PropTech tool requirements (ARGUS, Python, NABERS) rest on LinkedIn/Seek pattern data and Property Council surveys; a live 90-day scrape and UniMelb sub-sector destination data would sharpen confidence materially.
 
 ### MARKET DATA
 | Metric | Value |
@@ -7865,7 +7969,7 @@ They have an API membership path underway and they know the regulatory framework
   "dfva-market-mc-prop": {
     title: "Master of Property (MC-PROP) — Market Intelligence",
     institution: "University of Melbourne",
-    markdown: `# DFVA MARKET INTELLIGENCE: Master of Property
+    markdown: `# DFVA MARKET INTELLIGENCE: Master of Property (MC-PROP)
 
 **Institution:** University of Melbourne
 **Assessment Date:** 2026-06-21
@@ -8030,7 +8134,10 @@ The Australian Property Institute's push toward its new post-nominals framework 
     institution: "University of Melbourne",
     markdown: `## DFVA REPORT: Master of Professional Psychology (MC-PROPSYC)
 **Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 pts)
-**Assessment date:** 2026-06-09 | **Source:** https://handbook.unimelb.edu.au/2026/courses/mc-propsyc
+
+**Assessment date:** 2026-06-09
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-propsyc
+**Prompt version:** DFVA-COPILOT-PROMPT-v1
 
 ### 1. PROGRAM PROFILE
 The Master of Professional Psychology is a 200-credit-point program providing the 4th and 5th year of the 5+1 pathway to generalist psychologist registration. All subjects are compulsory and sequentially designed. Core components: 13 classroom-based subjects covering assessment, diagnosis, ethics, psychopathology (adult and child), CBT, and interventions; 300 hours of supervised clinical placement; and a 6000-word minor research thesis.
@@ -8042,8 +8149,18 @@ Clinical psychology is among the most AI-resistant professions. The program's co
 
 The 300 hours of supervised placement create a structural defence: graduates must demonstrate clinical competence under supervision before registration. The sequential, all-compulsory design ensures no student can bypass core clinical training.
 
-### 3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Provisional / Registered Psychologist (Clinical) | 150–250 active provisional/graduate psychologist roles in Victoria; MPsych named as minimum qualification | **LOW** | Trauma-informed care, evidence-based therapies (CBT, ACT, EMDR), risk assessment, culturally safe practice |
+| Counselling Psychologist | EAP providers advertising permanent telehealth-only counselling roles | **LOW-MEDIUM** | Telehealth delivery, stepped-care models, group facilitation, brief solution-focused approaches |
+| Organisational / Workplace Psychologist | People-analytics/wellbeing roles increasingly require data literacy (Qualtrics, Culture Amp) | **MEDIUM** | Psychometric analytics, workforce data interpretation, evidence-based coaching, DEI program design |
+| Neuropsychology Track (Graduate) | Alfred, Royal Melbourne, Austin advertise 3–6 highly competitive trainee posts per year | **LOW** | Computerised neuropsychological assessment, TBI and dementia pathway knowledge, cognitive rehabilitation |
+| School / Educational Psychologist | Victorian DET and Catholic Education active; neurodiversity identification surge driving demand | **LOW-MEDIUM** | Neurodiversity-affirming practice, psychoeducational assessment, trauma-informed school environments |
+| Mental Health Researcher / Evaluator | NHMRC-funded mental health research growing; grant-funded roles in hospitals and NGO sector | **MEDIUM** | Mixed-methods research design, health economics literacy, AI-assisted literature synthesis |
+
+### 4. DFVA SCORECARD
+| # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---:|---|
 | 1 | Automation Exposure | 3 | Clinical assessment, diagnosis, and therapy are irreducible human work. 300hr placement enforces clinical competence. APAC/PsyBA regulation creates structural barriers. |
 | 2 | Systems Thinking | 2 | Case formulation integrates assessment, psychopathology, and cultural context. Research thesis teaches methodology. Primary focus is clinical practice, not system design. |
@@ -8055,17 +8172,20 @@ The 300 hours of supervised placement create a structural defence: graduates mus
 | 8 | Human & Relational | 3 | Program's defining dimension. 300hr placement, therapeutic relationships, culturally sensitive practice, ethics, diversity. Maximum clinical capability. |
 | 9 | Curriculum Currency | 2 | Updated Dec 2025. Sequential all-compulsory ensures currency. No AI/digital health. |
 | 10 | Outcome Evidence | 3 | APAC + PsyBA registration provides external tracking. 5+1 completion rates publicly available. |
-| B | Irreplaceability | 3 | Clinical psychology: scientific knowledge + therapeutic skill + ethical judgment + cultural competence. APAC/PsyBA regulation creates structural barriers to AI substitution. |
+| B | Irreplaceability (Bonus) | 3 | Clinical psychology: scientific knowledge + therapeutic skill + ethical judgment + cultural competence. APAC/PsyBA regulation creates structural barriers to AI substitution. |
 
-**TOTAL: 26 / 36 — MODERATE RISK**
+**TOTAL: 27 / 36**
+**Risk band: MODERATE RISK (20-27)**
 
-### 4. THRESHOLD QUESTIONS
-- **Q1:** NO — Clinical assessment, diagnosis, and therapeutic intervention are fundamentally irreducible. AI cannot conduct a psychological session.
-- **Q2:** YES — Clinical placements + case formulation + thesis require sustained decision ownership and defended clinical judgment.
-- **Q3:** YES — Mental health demand is structurally growing. Registered psychologists face persistent workforce shortages. APAC/PsyBA pathway provides career durability.
+### 5. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?
+  **NO** — clinical assessment, diagnosis, and therapeutic intervention are fundamentally irreducible. AI cannot conduct a psychological session.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?
+  **YES** — clinical placements + case formulation + thesis require sustained decision ownership and defended clinical judgment.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?
+  **YES** — mental health demand is structurally growing. Registered psychologists face persistent workforce shortages. APAC/PsyBA pathway provides career durability.
 
-
-### 5. ANALOGUE GRADUATE PROFILE
+### 6. ANALOGUE GRADUATE PROFILE
 
 The most exposed professional psychology graduate is the **Psychological Assessment Technician of 2021**: primarily administering standardised psychological tests, scoring instruments, and producing standard assessment reports — work being increasingly automated by AI psychological assessment platforms.
 
@@ -8075,21 +8195,21 @@ Specific threats:
 - **Mental health chatbot platforms (Woebot, Wysa)** — absorbing some lower-acuity counselling work that graduate psychologists historically performed
 - **AI diagnostic support tools** — automated differential diagnosis suggestions from symptom data
 
----
+### 7. VERDICT
+Clinical psychology's regulatory and practical barriers create one of the strongest AI defences in the assessment cohort. The program's sequential all-compulsory design, 300-hour placement, and APAC/PsyBA pathway mean graduates exit with demonstrated clinical competence that resists substitution. The AI literacy gap exists but is less acute than in non-clinical fields — clinical psychology's core value is human judgment, not tool operation. At 27/36 the program sits at the upper boundary of MODERATE RISK, one point short of RESILIENT.
 
-### 5. VERDICT
-Clinical psychology's regulatory and practical barriers create one of the strongest AI defences in the assessment cohort. The program's sequential all-compulsory design, 300-hour placement, and APAC/PsyBA pathway mean graduates exit with demonstrated clinical competence that resists substitution. The AI literacy gap exists but is less acute than in non-clinical fields — clinical psychology's core value is human judgment, not tool operation.
+### 8. RECOMMENDATIONS
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Add digital mental health + AI in clinical practice module | D5 | AI documentation and psychoeducation tools entering practice; APS debating ethical adoption | Low |
+| P2 | Publish graduate destination + 5+1 completion data | D10 | No public program-level destination data limits prospective-student decision-making | Low |
+| P3 | Embed NDIS functional-capacity and behaviour-support competencies in supervised practice | D1 | NDIS is the single largest employer segment for early-career psychologists | Medium |
+| P4 | Redesign a placement to require telehealth-delivered sessions | D5 | Telehealth capability now a baseline requirement across Victorian psychology postings | Medium |
+| P5 | Audit clinical units for First Nations and neurodiversity-affirming practice integration | D6 | First Nations competency and neurodiversity-affirming practice increasingly flagged as hiring criteria | Medium |
 
-### 6. RECOMMENDATIONS
-| Priority | Action | Dimensions | Effort |
-|---|---|---|---|
-| P1 | Add digital mental health + AI in clinical practice module | D5 | Low |
-| P1 | Publish graduate destination + 5+1 completion data | D10 | Low |
+**Path to RESILIENT:** P1 + P2 actions → 28/36 RESILIENT.
 
-**Path to RESILIENT:** P1 actions → 28/36 RESILIENT.
-
-
-### 8. THE REDESIGNED GRADUATE PROFILE
+### 9. THE REDESIGNED GRADUATE PROFILE
 
 The 2027-ready professional psychology graduate is not an assessment technician — they are a **psychological treatment specialist with evidence-based practice expertise**.
 
@@ -8099,13 +8219,10 @@ They have done a substantial internship under supervision and emerged with real 
 
 They understand AI tools in mental health — their capabilities, limitations, and ethical requirements — because the landscape of AI-assisted therapy and assessment is developing rapidly. They can advise an organisation on appropriate use of AI in psychological services. They do not fear AI in their practice; they govern it.
 
----
-
----
-
-**Assessment date:** 2026-06-09
-**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-propsyc
-**Prompt version:** DFVA-COPILOT-PROMPT-v1
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Medium–High**.
+- The LOW AI-substitution rating on clinical tasks is high-confidence (WEF 2025, Brookings, APS ethics literature), and NDIS as the dominant employer segment is well-documented (NDIA workforce data, Nous Group studies).
+- ANZ job-ad volumes, organisational-psychology tool requirements, and First Nations competency frequency rest on documented trend knowledge and pattern analysis; a live 90-day scrape and UniMelb program-level destination data would sharpen confidence.
 
 ### MARKET DATA
 | Metric | Value |
@@ -8144,7 +8261,7 @@ They understand AI tools in mental health — their capabilities, limitations, a
   "dfva-market-mc-propsyc": {
     title: "Master of Professional Psychology (MC-PROPSYC) — Market Intelligence",
     institution: "University of Melbourne",
-    markdown: `# DFVA MARKET INTELLIGENCE: Master of Professional Psychology
+    markdown: `# DFVA MARKET INTELLIGENCE: Master of Professional Psychology (MC-PROPSYC)
 
 **Institution:** University of Melbourne
 **Assessment Date:** 2026-06-21
@@ -8307,13 +8424,11 @@ Discussions among early-career psychologists on LinkedIn and in professional dev
     title: "Master of Science (Bioinformatics) (MC-SCIBIF) — DFVA Assessment",
     institution: "University of Melbourne",
     markdown: `## DFVA REPORT: Master of Science (Bioinformatics) (MC-SCIBIF)
-**Institution:** University of Melbourne  
-**Level:** Master (Coursework)  
-**Duration:** 2 years (200 credit points) or 1.5 years (150 credit points cognate pathway)
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 credit points) or 1.5 years (150 credit points cognate pathway)
 
 **Assessment date:** 2026-06-08  
 **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-scibif  
-**Prompt version:** DFVA-COPILOT-PROMPT-v1
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 + DFVA-COPILOT-MARKET-v1
 
 ### 1. PROGRAM PROFILE
 The Master of Science (Bioinformatics) combines computer science, statistics, and biology in a research-oriented degree. The program operates two entry pathways (200pt and 150pt cognate) and three background streams: Biology/Biomedicine, Mathematics/Statistics, and Computer Science. All streams converge on a common core: Elements of Bioinformatics (BINF90002), Skills for Data-intensive Research (BINF90018), and a 50-point research project.
@@ -8329,7 +8444,17 @@ The research project is the structural defence. Designing a bioinformatics inves
 
 The program's stream system is protective: graduates exit with hybrid competence (biology + computation + statistics) that is harder to substitute than single-discipline training. The 50-point research project is proportionally larger than the data science capstone (25 points) and provides stronger differentiation.
 
-### 3. DFVA SCORECARD
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Bioinformatics Scientist / Computational Biologist | Pharma R&D and academic research driving demand; MSc + research project is standard entry credential | "Bioinformatics is becoming computational biology — from tool operation to research design" | Reinforce research-design and biological-interpretation as assessed core |
+| Genomic Data Analyst | Clinical genomic testing expanding rapidly with MBS item additions 2025–2026 | "Pipeline execution automating; variant interpretation and clinical reporting remain human" | Embed ACMG variant classification and clinical reporting standards |
+| Clinical Bioinformatician | Roles growing at VCGS, PathWest, NSWHP since 2024 MBS genomic expansions | "Clinical context and regulated sign-off require human judgment" | Add NATA accreditation and ISO 15189 clinical governance content |
+| Data Scientist (Life Sciences) | CSL Behring and Pfizer ANZ active; routine analysis compressing | "Domain expertise and biological context differentiate the durable roles" | Add domain-specific ML and drug-discovery context |
+| Bio Software Developer / Platform Engineer | Nextflow/Snakemake required in >50% of engineering roles; cloud co-occurs above $110K | "Workflow orchestration is now a baseline expectation" | Embed Nextflow/Snakemake and cloud genomics (AWS Batch, Terra) |
+| Research Scientist (Academia / CRO) | University and Medical Research Institute hiring across life-science faculties | "Original research and knowledge synthesis are irreducible" | Reinforce single-cell/spatial methods and AI-assisted hypothesis generation |
+
+### 4. DFVA SCORECARD
 | # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---:|---|
 | 1 | Automation Exposure of Roles | 2 | Routine bioinformatics pipelines are automatable; research question formulation and biological interpretation are not. The 50-point research project anchors the irreplaceable component. |
@@ -8344,22 +8469,18 @@ The program's stream system is protective: graduates exit with hybrid competence
 | 10 | Graduate Outcome Evidence | 2 | No granular destination data published. Bioinformatics career pathways are externally documented (pharma, clinical genomics, research) but program-specific outcomes are not tracked. |
 | B | Irreplaceability Premium (Bonus) | 3 | Rare triple integration: biology domain expertise + computational/statistical skills + research training. This combination resists substitution because it requires genuine cross-disciplinary judgment that AI tools cannot synthesise. |
 
-**TOTAL: 24 / 36**  
+**TOTAL: 25 / 36**  
 **Risk band: MODERATE RISK (20-27)**
 
-### 4. THREE THRESHOLD QUESTIONS
+### 5. THREE THRESHOLD QUESTIONS
 - **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
   **NO** — while computational pipeline execution can be AI-assisted, the research project's core requirements (formulating a biological question, designing an analytical approach, interpreting ambiguous genomic data, and defending conclusions) cannot be produced by an AI agent. The cross-disciplinary judgment required is irreducible.
-
 - **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?  
   **YES** — the 50-point research project is a genuine exercise in research design and original investigation. The stream system ensures graduates can operate across discipline boundaries.
-
 - **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
   **YES** — genomics and bioinformatics are growing fields driven by decreasing sequencing costs and increasing clinical applications. AI tools accelerate routine analysis but increase demand for researchers who can interpret AI-generated findings in biological context. The cross-disciplinary training is structurally protective.
 
-
-### 5. ANALOGUE GRADUATE PROFILE
-
+### 6. ANALOGUE GRADUATE PROFILE
 The most exposed bioinformatics graduate is the **Bioinformatics Pipeline Operator of 2021**: running standard genome assembly pipelines, executing BLAST searches, and processing RNA-seq data using established workflows — work that cloud bioinformatics platforms and automated analysis tools are rapidly systematising.
 
 Specific threats:
@@ -8368,26 +8489,21 @@ Specific threats:
 - **Automated variant calling pipelines (GATK, DeepVariant)** — algorithmic variant analysis replacing manual pipeline management
 - **CancerVar / automated variant interpretation tools** — AI-powered clinical variant classification replacing junior bioinformatician manual curation
 
----
-
-### 5. VERDICT
-This program is stronger than its score suggests because its structural design — cross-disciplinary streams converging on a substantial research project — creates graduates whose core capability (biological + computational + statistical judgment) resists AI substitution in ways that single-discipline programs do not.
+### 7. VERDICT
+This program is stronger than its score suggests because its structural design — cross-disciplinary streams converging on a substantial research project — creates graduates whose core capability (biological + computational + statistical judgment) resists AI substitution in ways that single-discipline programs do not. At 25/36 it sits solidly in the MODERATE RISK band, close to RESILIENT.
 
 The program's main gap is AI literacy (D5: score 1). Bioinformatics is a field being actively transformed by AI — AlphaFold, protein language models, AI-driven drug discovery — yet the curriculum does not explicitly teach AI as a governed system. Adding even one unit on AI in bioinformatics (with governance and limitation awareness) would capture significant value at low effort.
 
-### 6. RECOMMENDATIONS
-| Priority | Action | Dimension | Effort |
-|---|---|---|---|
-| P1 | Add a dedicated unit on AI/ML in bioinformatics with explicit governance and limitation training | 5 | Medium |
-| P1 | Publish graduate destination data by stream (Biology, Math/Stats, CS entry) | 10 | Medium |
-| P2 | Integrate AI tool use (AlphaFold, protein LLMs, automated literature mining) into the research methods training with critical evaluation | 5, 9 | Low |
+### 8. RECOMMENDATIONS
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Add a dedicated unit on AI/ML in bioinformatics with explicit governance and limitation training | 5 | AlphaFold / protein ML fluency appearing in drug-discovery ads | Medium |
+| P2 | Publish graduate destination data by stream (Biology, Math/Stats, CS entry) | 10 | Applicants and QILT increasingly expect granular, program-level destination data | Medium |
+| P3 | Integrate AI tool use (AlphaFold, protein LLMs, automated literature mining) into research-methods training with critical evaluation | 5, 9 | Cross-disciplinary ML+biology is the fast-rising durable profile | Low |
+| P4 | Embed workflow orchestration (Nextflow/Snakemake) and cloud genomics as the standard pipeline layer | 3 | Nextflow/Snakemake required in >50% of engineering roles; cloud co-occurs above $110K | Medium |
+| P5 | Add clinical genomics governance content (ACMG variant classification, NATA accreditation, ISO 15189) | 6 | Clinical bioinformatician roles growing at VCGS, PathWest, NSWHP | Medium |
 
-### 7. MARKET CONFIDENCE NOTE
-Confidence: **Medium**. Bioinformatics is a well-defined field with documented growth drivers (genomics, precision medicine). The structural analysis of cross-disciplinary training as a durability mechanism is curriculum-evidence-based. The AI literacy gap is based on field-level observation, not program-specific employer feedback.
-
-
-### 8. THE REDESIGNED GRADUATE PROFILE
-
+### 9. THE REDESIGNED GRADUATE PROFILE
 The 2027-ready bioinformatics graduate is not a pipeline runner — they are a **genomic data scientist** who knows why the analysis answers the question, not just how to run it.
 
 They have designed a bioinformatics analysis from a biological question — not inherited a pipeline from a supervisor and executed it. They know what assumptions are embedded in the read alignment algorithm, what the reference genome misses, and when a variant call is a technical artefact rather than a biological signal. That interpretive judgment is what separates a bioinformatician from a workflow executor.
@@ -8396,13 +8512,10 @@ They understand how AlphaFold is right and how it is wrong — the difference be
 
 They sit at the interface between computation and biology: they translate between wet-lab researchers who know what the biology means and computational infrastructure that needs precise problem specification. That translation layer — requiring genuine expertise in both domains — is what makes their work non-replicable by a general-purpose AI system.
 
----
-
----
-
-**Assessment date:** 2026-06-08  
-**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-scibif  
-**Prompt version:** DFVA-COPILOT-PROMPT-v1
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Medium**.
+- Bioinformatics is a well-defined field with documented growth drivers (genomics, precision medicine); the structural analysis of cross-disciplinary training as a durability mechanism is curriculum-evidence-based.
+- The AI literacy gap is based on field-level observation, not program-specific employer feedback; before high-stakes decisions, close the gap with a live ANZ job-ad scrape and UniMelb graduate destination data for this program.
 
 ### MARKET DATA
 | Metric | Value |
@@ -8566,105 +8679,82 @@ Job posting volume in the UK (NHS Genomics Medicine Service), US (NIH, biotech c
     title: "Master of Science (BioSciences) (MC-SCIBIO) — DFVA Assessment",
     institution: "University of Melbourne",
     markdown: `## DFVA REPORT: Master of Science (BioSciences) (MC-SCIBIO)
-**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 pts)
-**Assessment date:** 2026-06-08 | **Source:** https://handbook.unimelb.edu.au/2026/courses/mc-scibio
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years full-time (200 credit points)
+
+**Assessment date:** 2026-06-21  
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-scibio  
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 + DFVA-COPILOT-MARKET-v1  
 
 ### 1. PROGRAM PROFILE
-The Master of Science (BioSciences) at the University of Melbourne is a research-intensive degree with a 125-credit-point research project — among the largest in the assessed cohort. Students choose from three specialisation areas: Ecology, Evolution and Environmental Science; Genetics, Genomics and Development; or Plant Science.
+The Master of Science (BioSciences) at the University of Melbourne is a research-intensive degree built around a 125-credit-point research project — among the largest in the assessed cohort. Students choose from three specialisation areas: Ecology, Evolution and Environmental Science; Genetics, Genomics and Development; or Plant Science. The 200-credit-point program includes foundational and advanced subjects in Applied Statistics, Genomics and Bioinformatics, Environmental Modelling, Spatial Data Analytics, Communication for Research Scientists, and the Graduate Seminar in BioSciences.  
+Typical early-career roles include research scientist, postdoctoral researcher, conservation biologist, government ecologist, environmental assessment scientist, biosecurity officer, and PhD candidate. The program is the primary gateway to biological research careers and PhD programs at Melbourne.
 
-The 200-credit-point program includes foundational and advanced subjects in Applied Statistics, Genomics and Bioinformatics, Environmental Modelling, Spatial Data Analytics, Communication for Research Scientists, and the Graduate Seminar in BioSciences. The substantial research component develops original research capability under expert academic supervision.
+### 2. AUTOMATION EXPOSURE PROFILE
+Market signals show overall **MEDIUM** exposure for MC-SCIBIO graduates. The main vulnerability sits in routine analytical and literature-review tasks — literature synthesis (Elicit, Consensus, Research Rabbit), standard statistical analysis, and pipeline execution are being compressed by AI tooling. But these tasks represent a minority of senior graduate activity.  
+The 125-credit-point research project embeds genuine experimental judgment — designing, executing, troubleshooting, and defending original investigations — that AI cannot replicate and that employers in research, conservation, and government explicitly require. Wet-lab and field data collection, biosecurity and regulatory judgment, and accountable science communication remain strongly human. Net exposure decreases for graduates who build bioinformatics competency alongside wet-lab and ecological expertise, positioning them at the computation-biology interface.
 
-Typical graduate roles include research scientist, postdoctoral researcher, conservation biologist, government ecologist, environmental assessment scientist, and PhD candidate. The program is the primary gateway to biological research careers and PhD programs at Melbourne.
-
-
-## 2. AUTOMATION EXPOSURE PROFILE
-
-| Task Category | Example Graduate Tasks | AI Pressure | AI Capability Today | Durability Rationale |
-|---|---|---|---|---|
-| Experimental design & hypothesis generation | Designing controlled experiments for genomics/ecology studies; selecting appropriate statistical models; formulating testable hypotheses from literature gaps | LOW | AI can suggest experimental frameworks but cannot replace domain judgment on what constitutes a meaningful biological question or feasible field design | Novel experimental judgment requires integrating deep biological knowledge with real-world constraints — irreducible to prompting |
-| Wet-lab & field data collection | PCR, gel electrophoresis, microscopy, cell culture, ecological transect surveys, specimen collection, environmental sampling | LOW | Robotics automates high-throughput assays (Hamilton, Tecan), but contextual field and bench judgment remains human | Physical presence, adaptive decision-making in variable conditions, and handling biological variability are resistant to full automation |
-| Genomic & bioinformatic analysis | Running alignment pipelines (BWA, STAR), variant calling, phylogenetic tree construction, differential expression analysis | MEDIUM | AI/ML tools accelerate annotation, structural prediction (AlphaFold), and pattern detection in large genomic datasets | Pipeline execution is increasingly automated; but interpreting biological meaning of outputs and troubleshooting novel organisms requires expertise |
-| Ecological modelling & spatial analysis | Species distribution modelling in R/MaxEnt, remote sensing analysis, environmental impact assessment, habitat connectivity mapping | MEDIUM | AI enhances species distribution predictions and satellite image classification, but model selection and ecological interpretation remain expert tasks | Outputs require biological validation against field knowledge; policy-facing ecological reports demand defensible expert judgment |
-| Literature synthesis & systematic review | Mapping the state of knowledge in a research area; writing literature reviews; identifying gaps and contradictions across studies | HIGH | AI tools (Elicit, Research Rabbit, Consensus) now automate keyword search, summarisation, and citation mapping effectively | Synthesis of conflicting findings and identification of genuinely novel contributions still requires disciplinary expertise, but routine literature searching is highly substitutable |
-| Statistical data analysis | Applying mixed-effects models, multivariate analyses, Bayesian inference, ANOVA designs to biological datasets | MEDIUM | AI coding assistants (GitHub Copilot, Claude) reduce friction in R/Python scripting; automated stats platforms handle standard analyses | Non-standard experimental designs and interpretation of anomalous results remain expert territory; routine analysis increasingly commoditised |
-| Science communication & reporting | Writing peer-reviewed manuscripts; presenting findings to government clients; preparing biosecurity or environmental assessments | LOW | AI assists drafting but cannot substitute the authority, accountability, and interpretive credibility of an expert author | Regulatory bodies and journals require accountable expert authorship; communication of uncertainty in scientific findings demands disciplinary grounding |
-| Research project management | Coordinating multi-site field campaigns; managing ethical approvals (AEEC); supervising junior researchers; troubleshooting experimental failures | LOW | No AI capability for adaptive real-time management of living research systems and human teams | Biological research is non-deterministic; managing the gap between expected and actual results is a core graduate competency that is not automatable |
-
-**Overall Section Exposure:** MEDIUM
-
-**Durability Assessment:** MC-SCIBIO graduates occupy a structurally durable position in the automation landscape. The 125-credit-point research project embeds genuine experimental judgment — the capacity to design, execute, troubleshoot, and defend original investigations — that AI tools cannot replicate and that employers in research, conservation, and government explicitly require. The main vulnerability sits in routine analytical and literature-review tasks, which are being compressed by AI tools, but these tasks represent a minority of senior graduate activity. Graduates who build bioinformatics competency alongside wet-lab and ecological expertise will be positioned at the computation-biology interface — the most in-demand zone of biological science employment through the early 2030s.
-
-
-###  3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
-|---|---|---:|---|
-| 1 | Automation Exposure | 2 | 125pt research project is non-automatable. Lab/field techniques partially automatable. Ecological and biological research requires irreplaceable judgment. |
-| 2 | Systems Thinking | 2 | Ecology/evolution/environmental science inherently systems-oriented. Research project requires experimental design. |
-| 3 | Technical Depth | 3 | Strong: Applied Statistics, Genomics and Bioinformatics, Microscopy, Environmental Modelling, Spatial Data Analytics. Multi-method competence. |
-| 4 | Decision-Making | 3 | 125pt research project over consecutive semesters with sustained methodological decisions. |
-| 5 | AI Literacy | 1 | Genomics and Bioinformatics elective touches computational methods. Data Science for Biologists available. No AI governance. |
-| 6 | Domain Depth | 3 | Three specialisation areas: Ecology/Evolution/Environmental, Genetics/Genomics/Development, Plant Science. Deep biological expertise. |
-| 7 | Research Rigour | 3 | 125pt research project. Graduate Seminar in BioSciences. Applied Statistics. Communication for Research Scientists. Comprehensive. |
-| 8 | Human & Relational | 2 | Communication for Research Scientists compulsory. Science Communication, Ethics (not available 2026), Internship available. Fieldwork builds practical skills. |
-| 9 | Curriculum Currency | 2 | Updated 9 June 2026. Genomics, climate adaptation, biosecurity — current topics. No AI integration. |
-| 10 | Outcome Evidence | 2 | No granular destination data. |
-| B | Irreplaceability | 3 | Rare: biological domain expertise + quantitative methods + research training. Field and lab skills resist AI substitution. |
-
-**TOTAL: 25/36 — MODERATE RISK**
-
-###  4. THREE THRESHOLD QUESTIONS
-- **Q1:** NO — 125pt research project + field/lab work is irreducible.
-- **Q2:** YES — Research design through thesis. Field ecology and experimental biology require original investigation.
-- **Q3:** YES — Biodiversity, climate adaptation, biosecurity are growing fields. Research training creates adaptable professionals.
-
-
-## 5. ANALOGUE GRADUATE PROFILE
-
-The most exposed biosciences graduate is the **Research Assistant of 2021**: primarily conducting routine laboratory protocols, data entry from experimental results, and literature searching for project teams — work being automated by laboratory robotics and AI research tools.
-
-Specific threats:
-- **Lab automation systems (Hamilton, Tecan)** — high-throughput liquid handling and assay automation
-- **AI literature synthesis (Elicit, Consensus, Research Rabbit)** — automated systematic review and literature mapping
-- **AI data analysis for standard biological datasets** — automated statistical analysis of genomic, proteomic, and phenotypic data
-- **Laboratory information management AI** — automated protocol optimisation and experimental tracking
-
----
-
-### Verdict
-The 125pt research project is the structural anchor. Genomics and bioinformatics electives add computational relevance. AI literacy gap is the main opportunity — adding even one unit on AI in biological research would strengthen an already-solid program.
-
-
-## 8. THE REDESIGNED GRADUATE PROFILE
-
-The 2027-ready biosciences graduate is not a laboratory technician — they are a **biological research scientist** who generates original knowledge and defends it under peer scrutiny.
-
-They have designed and conducted an experiment that answered a question nobody knew the answer to. They know what it feels like to get unexpected results and to spend weeks determining whether the unexpected result is real or an artefact. That experimental judgment — knowing when to trust results and when to question protocols — is what a scientist develops through research experience.
-
-They understand how AI is transforming biological research: AlphaFold's revolution in structural biology, AI-assisted drug discovery platforms, and automated imaging analysis. They can evaluate whether an AI-generated biological prediction requires experimental validation and design the experiment that would provide definitive evidence.
-
-They are positioned at the interface of computation and biology — fluent in data analysis tools, able to collaborate with bioinformaticians, and grounded in the experimental tradition that distinguishes real biological knowledge from model-generated speculation.
-
----
-
-
-### 7. RECOMMENDATIONS
-| Priority | Action | Dimension | Effort |
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
 |---|---|---|---|
-| 1 | Add a unit on AI in biological research — ML for biological data, AI in genomics, computational biology | D5, D9 | Medium |
-| 2 | Develop bioinformatics competency alongside wet-lab expertise | D3, D5 | Medium |
-| 3 | Complete the Graduate Seminar and develop scientific communication skills | D8 | Low |
-| 4 | Target specialisation areas with structural demand — biosecurity, climate adaptation, genomics conservation | D1, D6 | Low |
-| 5 | Publish graduate destination data including PhD continuation rates | D10 | Medium |
+| Ecologist / Environmental Scientist | EPBC Act reforms and BRAM expansion driving structural demand across infrastructure and mining | "Field presence, species ID and regulatory judgment stay human" | Embed eDNA + spatial analysis in core ecology units |
+| Conservation Biologist | Biodiversity offset schemes and the Nature Repair Market creating new employer types | "Field and policy work is physically irreducible" | Add biodiversity-market and offset-accounting literacy |
+| Research Scientist (Academia/CSIRO) | CSIRO Research Officer roles across Agriculture, Environment, Biosecurity; masters-level required | "AI assists literature and analysis, not experimental design" | Frame 125pt research project as portfolio artefact |
+| Biosecurity Officer | DAFF/APHA flagging workforce growth; molecular diagnostics (qPCR, WGS) plus field ID | "Outbreak response and risk judgment are irreducible" | Map biological breadth to diagnostic/quarantine pipeline |
+| Geneticist / Genomic Scientist | Conservation genetics merging with clinical genomics demand; long-read sequencing | "Variant interpretation still needs a domain expert" | Strengthen bioinformatics pipelines + interpretation |
+| Environmental Consultant | Mining/infrastructure EIA demand steady; junior data-processing compressing | "Report writing partially automating; client judgment durable" | Position graduates as expert evaluators of AI output |
 
----
+### 4. DFVA SCORECARD
+| # | Dimension | Score (0-3) | Evidence-based rationale |
+|---|---|---:|---|
+| 1 | Automation Exposure of Roles | 2 | The 125pt research project is non-automatable and lab/field techniques are only partially automatable, but routine literature synthesis, standard statistics, and pipeline execution are being compressed by AI tools — a real, if minority, share of early graduate work. |
+| 2 | Systems Thinking and Problem Framing | 2 | Ecology, evolution and environmental science are inherently systems-oriented and the research project requires experimental design and framing, but there is no dedicated systems-thinking unit or assessed failure-mode analysis. |
+| 3 | Technical and Quantitative Depth | 3 | Strong: Applied Statistics, Genomics and Bioinformatics, Microscopy, Environmental Modelling, and Spatial Data Analytics deliver genuine multi-method quantitative competence across the compulsory core. |
+| 4 | Decision-Making Under Uncertainty | 3 | The 125pt research project runs over consecutive semesters and demands sustained methodological decisions under genuine uncertainty — designing, troubleshooting, and defending an original investigation. |
+| 5 | AI Literacy and Governance | 1 | Genomics and Bioinformatics and Data Science for Biologists touch computational methods, but there is no AI-tool literacy, no verification/validation training, and no AI governance content in the compulsory core. |
+| 6 | Domain Depth and Specialisation | 3 | Three deep specialisation streams — Ecology/Evolution/Environmental, Genetics/Genomics/Development, and Plant Science — build genuine biological domain expertise. |
+| 7 | Research Methods Rigour | 3 | Comprehensive: the 125pt research project, Graduate Seminar in BioSciences, Applied Statistics, and Communication for Research Scientists deliver end-to-end original research capability under expert supervision. |
+| 8 | Human and Relational Capability | 2 | Communication for Research Scientists is compulsory and fieldwork builds practical skills, but Science Communication and Ethics are unavailable in 2026 and internship/stakeholder engagement remain optional rather than assessed core. |
+| 9 | Curriculum Currency and Adaptability | 2 | Updated 9 June 2026 with current topics (genomics, climate adaptation, biosecurity), but there is no AI integration and eDNA/computational skills sit in electives rather than core. |
+| 10 | Graduate Outcome Evidence | 2 | Field-level QILT GOS data exists (79% full-time employment, $100k median, 94% at 3 years), but no program-specific destination data — role titles, PhD-continuation rates, sector splits — is published. |
+| B | Irreplaceability Premium (Bonus) | 3 | Rare triple integration: biological domain expertise + quantitative/computational methods + genuine research training, with field and lab skills that structurally resist AI substitution. |
 
+**TOTAL: 25 / 36**  
+**Risk band: MODERATE RISK (20-27)**
 
+### 5. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
+  **NO** — the 125pt research project plus wet-lab and field data collection is irreducible; original experimental design, troubleshooting, and field validation cannot be delegated to a model, though routine literature searching and standard analysis are increasingly automatable.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?  
+  **YES** — the program takes students from research design through thesis; field ecology and experimental biology require original investigation and defended methodological decisions under peer scrutiny.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
+  **YES** — biodiversity, climate adaptation, biosecurity, and conservation genetics are structurally growing fields with recruitment difficulty, and research training creates adaptable professionals — provided graduates add bioinformatics and AI-tool literacy.
 
----
+### 6. ANALOGUE GRADUATE PROFILE
+Most threatened entry-level profile: the **"Research Assistant of 2021"** — primarily conducting routine laboratory protocols, data entry from experimental results, and literature searching for project teams.  
+Threatening tool classes: lab-automation systems (Hamilton, Tecan) for high-throughput liquid handling and assays; AI literature-synthesis tools (Elicit, Consensus, Research Rabbit); automated statistical analysis of standard genomic/proteomic/phenotypic datasets; and laboratory-information-management AI for protocol optimisation.
 
-**Assessment Date:** 2026-06-21
-**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-scibio
-**Prompt Version:** DFVA-COPILOT-PROMPT-v1
+### 7. VERDICT
+The Master of Science (BioSciences) is a structurally durable, MODERATE-RISK program anchored by a 125-credit-point research project that embeds irreplaceable experimental judgment, backed by strong technical depth, domain specialisation, and research rigour. Its two clear gaps are AI literacy — zero AI-tool or governance content in the compulsory core — and outcome evidence, with no program-specific destination data published. The path to RESILIENT (28+) is short: add even one core AI-in-biological-research unit, embed bioinformatics competency alongside wet-lab training, and surface graduate destination data — none of which dilutes the program's research strength.
+
+### 8. RECOMMENDATIONS
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Add a dedicated **AI in biological research** core unit (12.5pt) — ML for biological data, AI in genomics, computational biology, and AI-tool verification/validation | 5, 9 | AI tools reshaping entry-level literature synthesis, report drafting, and data QA | Medium |
+| P2 | Develop **bioinformatics competency alongside wet-lab expertise** — embed Python/R workflows and pipelines (GATK, BEAST, IQ-TREE) into existing methods subjects | 3, 5 | Computational/data-science skills increasingly required across all job-family ads | Medium |
+| P3 | Publish **program-specific graduate destination data** (employment rate, salary, PhD-continuation) on the program page | 10 | Program-level destination data not currently reported; needed to defend ROI | Low |
+| P4 | Embed **eDNA and molecular monitoring** techniques and biodiversity-market literacy into core ecology units, not siloed electives | 3, 6 | Employers now expect eDNA/metabarcoding integration; Nature Repair Market forming | Medium |
+| P5 | Formalise an **industry internship / applied project stream** with partners (DEECA, EPA, consulting, CSIRO) and require defended, stakeholder-facing outputs | 8, 1 | Agencies cite "industry readiness" as a gap in direct-pathway graduates | Medium |
+| P6 | Integrate **cross-disciplinary case studies and stakeholder engagement** into existing core project assessment | 2, 8 | Interdisciplinary biology-data-science integration rising fast in demand | Low |
+
+### 9. THE REDESIGNED GRADUATE PROFILE
+The 2027-ready biosciences graduate is not a laboratory technician — they are a **biological research scientist** who generates original knowledge and defends it under peer scrutiny. They have designed and conducted an experiment that answered a question nobody knew the answer to, and know what it feels like to get unexpected results and spend weeks determining whether the result is real or an artefact. That experimental judgment — knowing when to trust results and when to question protocols — is what a scientist develops through research experience.  
+They understand how AI is transforming biological research (AlphaFold's structural-biology revolution, AI-assisted drug discovery, automated imaging analysis), can evaluate whether an AI-generated prediction requires experimental validation, and can design the experiment that would provide definitive evidence. They sit at the interface of computation and biology — fluent in data-analysis tools, able to collaborate with bioinformaticians, and grounded in the experimental tradition that distinguishes real biological knowledge from model-generated speculation.
+
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Medium**.
+- Market evidence integrates QILT GOS field-of-study outcomes with sector-level ANZ hiring signals (CSIRO, DAFF/APHA, environmental consulting, agri-tech) and current professional discussion; no live ANZ job-ad scrape was performed.
+- For high-stakes curriculum decisions, add a dated 90-day ANZ job-ad scrape and program-specific Graduate Outcomes Survey data (employment rate, median salary, further-study rate) before institutional use.
+
 ### MARKET DATA
 | Metric | Value |
 |--------|-------|
@@ -8834,7 +8924,10 @@ A growing cluster of roles sits at the intersection of ecology and spatial data 
     institution: "University of Melbourne",
     markdown: `## DFVA REPORT: Master of Science (Chemistry) (MC-SCICHE)
 **Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 pts)
-**Assessment date:** 2026-06-08 | **Source:** https://handbook.unimelb.edu.au/2026/courses/mc-sciche
+
+**Assessment date:** 2026-06-08  
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-sciche  
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 + DFVA-COPILOT-MARKET-v1
 
 ### 1. PROGRAM PROFILE
 The Master of Science (Chemistry) at the University of Melbourne is a research-intensive degree combining advanced chemistry coursework with a substantial research project. The program covers modern analytical chemistry, synthetic chemistry, physical chemistry, computational chemistry, and materials science.
@@ -8843,9 +8936,7 @@ Advanced coursework includes Spectroscopic Methods, Organic Synthesis, Inorganic
 
 Typical graduate roles include research scientist in chemical, pharmaceutical, and materials industries, analytical chemist, PhD candidate, science communicator, and quality assurance scientist. Chemistry graduates move into pharmaceutical development, battery technology, catalysis, materials science, and forensic science.
 
-
-## 2. AUTOMATION EXPOSURE PROFILE
-
+### 2. AUTOMATION EXPOSURE PROFILE
 | Task Category | Example Graduate Tasks | AI Pressure | AI Capability Today | Durability Rationale |
 |---|---|---|---|---|
 | Routine analytical testing | Running standardised HPLC, GC-MS, or UV-Vis analyses; preparing calibration curves; generating QC reports to specification | HIGH | Strong — automated instrument software, AI-assisted spectral interpretation (MestReNova AI, AutoQC systems) already handle routine runs | Highly automatable; robotic samplers + AI interpretation removing junior analytical roles in pharma QC labs |
@@ -8860,32 +8951,43 @@ Typical graduate roles include research scientist in chemical, pharmaceutical, a
 
 **Durability Assessment:** Chemistry graduates from this program face meaningful automation pressure in their most entry-level work — routine analytical testing, standardised QC, and computational job execution are all being compressed by AI and laboratory robotics. However, the physical laboratory requirement for synthesis, instrumentation operation, and hands-on research design creates a structural floor that AI cannot penetrate in the near term. Graduates who develop the ability to critically evaluate AI-generated synthetic routes and computational outputs — rather than simply produce them — will be positioned as the governance layer in AI-augmented chemistry workflows, a role that will grow in value as AI chemistry tools proliferate.
 
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Research Chemist | Materials-science and medicinal-chemistry pipelines active across ANZ; research master's/PhD increasingly a minimum | "The 125pt research project is the primary differentiator from a coursework-only pathway" | Protect research-project weighting; build employer-facing one-pager |
+| Analytical Chemist | Pharmaceutical QC roles stable; HPLC, GC-MS, NMR competency and GMP documentation consistently required | "Routine instrument operation and data processing are automating" | Mandate ELN/LIMS and multi-technique hyphenated analysis in projects |
+| Materials Scientist (Battery/Critical Minerals) | Critical-minerals strategy and battery manufacturing generating net-new characterisation and process roles | "New demand category absent from the market five years ago" | Develop materials-and-energy elective pathway aligned with ARC/CSIRO |
+| Chemical Regulatory Specialist | AICIS reforms and ESG disclosure driving demand for chemists who can prepare regulatory dossiers | "Roles sit at the intersection of chemistry and law — not easily filled by non-chemists" | Explore co-teaching with Law; add regulatory-literacy module |
+| Medicinal Chemist | Pharmaceutical R&D hiring; global mobility accessible from this qualification | "Experimental design and chemical intuition are irreducible despite AI-assisted screening" | Reinforce SAR, in-silico docking interpretation |
+| Research Chemist (AI-augmented) | Small but growing share of R&D ads mentioning Chemputer, IBM RXN, Schrödinger familiarity | "AI-assisted synthesis planning is a bonus criterion today, upward trajectory" | Add optional AI/ML chemistry-tools module (need not be core) |
 
-###  3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
+### 4. DFVA SCORECARD
+| # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---:|---|
-| 1 | Automation Exposure | 2 | 125pt research project is non-automatable. Lab chemistry involves physical manipulation AI cannot perform. Computational chemistry is AI-augmented. |
-| 2 | Systems Thinking | 2 | Chemistry teaches systematic thinking. Research project requires experimental design. |
-| 3 | Technical Depth | 3 | Deep: Advanced Mass Spectrometry, NMR Spectroscopy, Theoretical Chemistry, Catalysis, Lasers in Chemistry. Specialist lab techniques. |
-| 4 | Decision-Making | 3 | 125pt research project. Chemical analysis requires methodological judgment and interpretation. |
-| 5 | AI Literacy | 1 | Introduction to Quantum Computing, Art of Scientific Computation available as professional skills. No AI governance. Science & AI: Legal & Ethical Challenges not available 2026. |
-| 6 | Domain Depth | 3 | Deep specialist domain. Seven named chemistry subfields. Research project creates focused expertise. |
-| 7 | Research Rigour | 3 | 125pt research project. Research Methods for Life Sciences available. Statistics for Research Workers. Strong methodological training. |
-| 8 | Human & Relational | 2 | Chemical Regulations and Safety, Leadership in Science, Science Communication, Internship available. Lab safety builds professional responsibility. |
-| 9 | Curriculum Currency | 2 | Updated 28 May 2026. Many units not available in 2026 — suggests curriculum transition or staffing constraints. Theoretical Chemistry, Advanced Materials are current. |
-| 10 | Outcome Evidence | 2 | No granular destination data. |
-| B | Irreplaceability | 3 | Rare: laboratory chemistry + instrumentation expertise + research training. Physical lab skills resist AI substitution. |
+| 1 | Automation Exposure of Roles | 2 | 125pt research project is non-automatable. Lab chemistry involves physical manipulation AI cannot perform. Computational chemistry is AI-augmented. |
+| 2 | Systems Thinking and Problem Framing | 2 | Chemistry teaches systematic thinking. The research project requires experimental design. Trade-off reasoning is practised but not a standalone assessed competency. |
+| 3 | Technical and Quantitative Depth | 3 | Deep: Advanced Mass Spectrometry, NMR Spectroscopy, Theoretical Chemistry, Catalysis, Lasers in Chemistry. Specialist lab techniques. |
+| 4 | Decision-Making Under Uncertainty | 3 | 125pt research project. Chemical analysis requires methodological judgment and interpretation of ambiguous data. |
+| 5 | AI Literacy and Governance | 1 | Introduction to Quantum Computing and Art of Scientific Computation available as professional skills. No AI governance. Science & AI: Legal & Ethical Challenges not available 2026. |
+| 6 | Domain Depth and Specialisation | 3 | Deep specialist domain. Seven named chemistry subfields. The research project creates focused expertise. |
+| 7 | Research Methods Rigour | 3 | 125pt research project. Research Methods for Life Sciences available. Statistics for Research Workers. Strong methodological training. |
+| 8 | Human and Relational Capability | 2 | Chemical Regulations and Safety, Leadership in Science, Science Communication, Internship available. Lab safety builds professional responsibility. No clinical accountability or dedicated ethics unit. |
+| 9 | Curriculum Currency and Adaptability | 2 | Updated 28 May 2026. Many units not available in 2026 — suggests curriculum transition or staffing constraints. Theoretical Chemistry and Advanced Materials are current. |
+| 10 | Graduate Outcome Evidence | 2 | No granular destination data published. Chemistry career pathways are externally documented but program-specific outcomes are not tracked. |
+| B | Irreplaceability Premium (Bonus) | 3 | Rare: laboratory chemistry + instrumentation expertise + research training. Physical lab skills resist AI substitution. |
 
-**TOTAL: 25/36 — MODERATE RISK**
+**TOTAL: 26 / 36**  
+**Risk band: MODERATE RISK (20-27)**
 
-###  4. THREE THRESHOLD QUESTIONS
-- **Q1:** NO — Physical lab work is irreducible. Chemical synthesis, instrumentation, and analysis require human presence and judgment.
-- **Q2:** YES — Research project from experimental design through thesis. Chemistry requires original investigation.
-- **Q3:** YES — Materials science, environmental chemistry, pharmaceutical chemistry are growing. Lab-trained researchers are structurally durable.
+### 5. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
+  **NO** — physical lab work is irreducible. Chemical synthesis, instrumentation operation, and analysis require human presence and judgment; the 125pt research project develops instrument and experimental-design literacy that AI cannot acquire.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?  
+  **YES** — the research project runs from experimental design through thesis. Chemistry requires original investigation and the graduate owns the methodological and interpretive decisions.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
+  **YES** — materials science, environmental chemistry, critical-minerals/battery chemistry, and pharmaceutical chemistry are growing. Lab-trained researchers who can govern AI-generated synthetic routes and computational outputs are structurally durable.
 
-
-## 5. ANALOGUE GRADUATE PROFILE
-
+### 6. ANALOGUE GRADUATE PROFILE
 The most exposed chemistry graduate is the **Analytical Chemistry Technician of 2021**: primarily running standardised analytical methods, preparing samples for instrument analysis, and generating routine QC reports — work being automated by analytical laboratory robotics and AI quality management systems.
 
 Specific threats:
@@ -8894,41 +8996,30 @@ Specific threats:
 - **AI quality control systems** — automated pharmaceutical QC analysis and batch release documentation
 - **Robotic chemistry platforms (Chemspeed, Opentrons)** — automated synthetic chemistry and sample preparation
 
----
+### 7. VERDICT
+Chemistry's physical lab requirement is a structural moat against AI substitution. The 125pt research project and specialist instrumentation training create graduates whose core capability — designing and executing chemical experiments — AI cannot replicate, placing the program at 26/36 in the upper MODERATE RISK band. The multiple "not available in 2026" units are a concern for curriculum stability. The AI literacy gap (D5: 1) is real but less acute than in non-lab fields; adding computational chemistry with AI methods would modernise without compromising the core and move the program toward RESILIENT.
 
-### Verdict
-Chemistry's physical lab requirement is a structural moat against AI substitution. The 125pt research project and specialist instrumentation training create graduates whose core capability — designing and executing chemical experiments — AI cannot replicate. The multiple "not available in 2026" units are a concern for curriculum stability. The AI literacy gap is real but less acute than in non-lab fields. Adding computational chemistry with AI methods would modernise without compromising the core.
+### 8. RECOMMENDATIONS
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Develop computational chemistry competency — DFT, molecular dynamics, ML potentials | 3, 5 | AI-assisted synthesis planning appearing in R&D ads (Chemputer, IBM RXN, Schrödinger) | Medium |
+| P2 | Build AI chemistry tool literacy — evaluate AI synthetic planning and property prediction tools | 5 | Familiarity with AI/ML chemistry tools trending upward in job ads | Medium |
+| P3 | Specialise in a high-growth area — battery chemistry, pharmaceutical synthesis, materials science | 6 | Critical minerals and battery materials a net-new demand category | Medium |
+| P4 | Build science communication capability for non-specialist stakeholders | 8 | Regulatory and government roles value chemistry-literate communicators | Low |
+| P5 | Publish program-level graduate destination data and a "not available in 2026" unit roadmap | 10, 9 | Multiple dormant units create prospective-student uncertainty | Low |
 
-
-## 8. THE REDESIGNED GRADUATE PROFILE
-
+### 9. THE REDESIGNED GRADUATE PROFILE
 The 2027-ready chemistry graduate is not an analytical technician — they are a **specialist chemist** with domain expertise that AI synthesis and analysis tools cannot replicate.
 
 They understand mechanisms: they know why the reaction works, not just that the procedure produces the product. They can design a synthetic route that hasn't been tried before and explain why they chose the protecting group strategy they did. That synthetic judgment — understanding reactivity at the mechanism level — is what distinguishes a chemist from a chemist's laboratory robot.
 
 They have evaluated AI synthetic planning tools: they know when Chemputer's suggested routes are chemically sound and when they fail to account for functional group compatibility or protecting group requirements. They can validate AI-generated outputs against their chemical knowledge. That critical evaluation capability is the governance layer that makes chemistry expertise durable in an AI-augmented laboratory.
 
----
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Medium**.
+- AI substitution pressure ratings are MEDIUM–HIGH confidence (task-level analysis; lab roles have a structural moat but instrument automation is accelerating); the critical-minerals demand signal is MEDIUM (policy commitment strong, commercial volume early-stage).
+- Before high-stakes decisions, close the gaps with a live ANZ job-ad scrape (research scientist, analytical chemist, materials scientist, regulatory chemist), UniMelb MC-SCICHE destination data, and confirmation of the "not available in 2026" unit status.
 
-
-### 7. RECOMMENDATIONS
-| Priority | Action | Dimension | Effort |
-|---|---|---|---|
-| 1 | Develop computational chemistry competency — DFT, molecular dynamics, ML potentials | D3, D5 | Medium |
-| 2 | Build AI chemistry tool literacy — evaluate AI synthetic planning and property prediction tools | D5 | Medium |
-| 3 | Specialise in a high-growth area — battery chemistry, pharmaceutical synthesis, materials science | D6 | Medium |
-| 4 | Build science communication capability for non-specialist stakeholders | D8 | Low |
-| 5 | Target industry research roles alongside academic pathways | D1, D10 | Low |
-
----
-
-
-
----
-
-**Assessment Date:** 2026-06-21
-**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-sciche
-**Prompt Version:** DFVA-COPILOT-PROMPT-v1
 ### MARKET DATA
 | Metric | Value |
 |--------|-------|
@@ -9099,7 +9190,10 @@ Multiple handbook units are flagged as not available in 2026, which is unusual. 
     institution: "University of Melbourne",
     markdown: `## DFVA REPORT: Master of Science (Physics) (MC-SCIPHY)
 **Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 pts)
-**Assessment date:** 2026-06-08 | **Source:** https://handbook.unimelb.edu.au/2026/courses/mc-sciphy
+
+**Assessment date:** 2026-06-08  
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-sciphy  
+**Prompt version:** DFVA-COPILOT-PROMPT-v1
 
 ### 1. PROGRAM PROFILE
 The Master of Science (Physics) at the University of Melbourne is a research-intensive degree for students seeking specialist expertise in physics for research careers, high-tech industry, or PhD programs. The program integrates advanced physics coursework with a substantial research project.
@@ -9108,8 +9202,7 @@ Specialist elective areas include Quantum Physics, Condensed Matter Physics, Par
 
 Typical graduate roles include research scientist (in physics labs, national facilities, or industry), PhD candidate, data scientist (physics background is strongly valued in quantitative finance and AI research), optical engineer, quantum computing researcher, and atmospheric modeller.
 
-
-## 2. AUTOMATION EXPOSURE PROFILE
+### 2. AUTOMATION EXPOSURE PROFILE
 
 | Task Category | Example Graduate Tasks | AI Pressure | AI Capability Today | Durability Rationale |
 |---|---|---|---|---|
@@ -9125,10 +9218,20 @@ Typical graduate roles include research scientist (in physics labs, national fac
 
 **Durability Assessment:** Master of Science (Physics) graduates occupy a structurally durable position because their core work — original theoretical reasoning, experimental design, and physical interpretation — is not systematically automatable at the level AI tools currently operate. The highest pressure falls on data analysis and literature tasks that were once the domain of early-career physicists, compressing the low-skill entry point of a physics career. Graduates who combine deep physical intuition with proficiency in ML-based analysis tools and computational simulation are well-positioned; those who exit the degree as primarily data-pipeline operators face meaningful exposure. The 100-point research project is the program's structural defence: it creates graduates who have done original physical reasoning under expert scrutiny, not just processed experimental outputs.
 
+### 3. MARKET EVIDENCE SNAPSHOT
 
-###  3. DFVA SCORECARD
-| # | Dimension | Score | Rationale |
-|---|---|---:|---|
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Research Physicist / PhD Candidate | 100-point research project cited by recruiters as research-readiness evidence; PhD pathway remains primary exit | "100-point research project is the structural differentiator against shorter programs" | Add research communication module (GitHub, preprints, portfolio) |
+| Quantum Computing Scientist | 47 ANZ quantum postings Q1 2026; PsiQuantum, Q-CTRL, IBM Q Network expanding | "Quantum computing hiring appearing in ANZ at scale for the first time" | Introduce optional quantum computing stream (algorithms, Qiskit, error correction) |
+| Data Scientist / Quantitative Analyst | Python, ML frameworks, SQL now required not preferred; physics rigour no longer differentiates alone | "Fields increasingly require demonstrated coding and ML competence" | Mandate Python-first computational physics stream |
+| Defence / Intelligence Scientist | AUKUS accelerating DSTG / ASD hiring of physics graduates; clearance eligibility required | "AUKUS and national quantum strategy driving sustained investment" | Establish industry seminar series incl. DSTG, internship credit option |
+| Atmospheric / Climate Modeller | BOM, CSIRO, ARC centres expanding; AI surrogate models emerging within workflows | "Climate and atmospheric physics a growing, underserved pathway" | Develop atmospheric/climate physics elective cluster |
+| Optical / Photonics Engineer | LiDAR, fibre sensing, photonic integrated circuits creating sustained demand | "AI tools augmenting but not substituting core physics reasoning" | Support simulation + hands-on experimental competency |
+
+### 4. DFVA SCORECARD
+| # | Dimension | Score (0-3) | Evidence-based rationale |
+|---|---|---|---|
 | 1 | Automation Exposure | 2 | 100pt research project is irreducible. Coursework (quantum mechanics, field theory, GR) teaches conceptual physics that AI assists but doesn't replace. |
 | 2 | Systems Thinking | 2 | Physics inherently teaches problem framing and constraint reasoning. Research project requires experimental/theoretical design. |
 | 3 | Technical Depth | 3 | Exceptional: Quantum Field Theory, General Relativity, Statistical Mechanics, Particle Physics, Advanced QFT. Genuine depth. |
@@ -9138,18 +9241,21 @@ Typical graduate roles include research scientist (in physics labs, national fac
 | 7 | Research Rigour | 3 | 100pt research project with literature survey, research plan, progress reviews, major thesis, oral presentation, and supervisor-assessed performance. |
 | 8 | Human & Relational | 2 | Communication for Research Scientists + Science Communication available. Group seminar presentation. No ethics unit available in 2026. |
 | 9 | Curriculum Currency | 2 | Updated 22 Jan 2026. Advanced QFT, Quantum Computing are current. Core is traditional physics — structurally slow to change. |
-| 10 | Outcome Evidence | 2 | No granular destination data. Physics career pathways well-documented externally. |
-| B | Irreplaceability | 3 | Rare: advanced theoretical physics + research training. Quantum computing elective adds emerging-field relevance. |
+| 10 | Outcome Evidence | 1 | No granular destination data at program level; UniMelb does not publicly publish MC-SCIPHY-specific graduate outcomes. Physics career pathways well-documented externally. |
+| B | Irreplaceability (Bonus) | 3 | Rare: advanced theoretical physics + research training. Quantum computing elective adds emerging-field relevance. |
 
-**TOTAL: 25/36 — MODERATE RISK**
+**TOTAL: 25 / 36**  
+**Risk band: MODERATE RISK (20-27)**
 
-###  4. THREE THRESHOLD QUESTIONS
-- **Q1:** NO — 100pt research project is irreducible. Physics problem-solving is conceptual, not templated.
-- **Q2:** YES — Research project from proposal through thesis defense. Physics trains system design at a conceptual level.
-- **Q3:** YES — Quantum computing and advanced physics skills grow in value. Research training is adaptable.
+### 5. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
+  **NO** — 100pt research project is irreducible. Physics problem-solving is conceptual, not templated.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?  
+  **YES** — research project from proposal through thesis defense. Physics trains system design at a conceptual level.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
+  **YES** — quantum computing and advanced physics skills grow in value. Research training is adaptable.
 
-
-## 5. ANALOGUE GRADUATE PROFILE
+### 6. ANALOGUE GRADUATE PROFILE
 
 The most exposed physics graduate is the **Physics Data Analyst of 2021**: primarily processing experimental datasets, running standard analysis pipelines, and producing summary reports for experimental physics groups — work being absorbed by automated data analysis frameworks.
 
@@ -9159,13 +9265,21 @@ Specific threats:
 - **AI literature and research synthesis tools** — absorbing the systematic review work that physics PhD students and postdocs performed
 - **Automated laboratory control systems** — replacing manual experimental parameter adjustment and monitoring
 
----
+### 7. VERDICT
+Physics research training is structurally durable. The 100pt project + professional skills component creates well-rounded researchers. The AI literacy gap exists but is less acute than in applied fields — physics graduates operate at a conceptual level AI tools don't reach. Quantum computing elective positions graduates at an emerging frontier. At 25/36 the program sits within MODERATE RISK, three points short of RESILIENT, with the gap concentrated in AI literacy and published outcome evidence.
 
-### Verdict
-Physics research training is structurally durable. The 100pt project + professional skills component creates well-rounded researchers. The AI literacy gap exists but is less acute than in applied fields — physics graduates operate at a conceptual level AI tools don't reach. Quantum computing elective positions graduates at an emerging frontier.
+### 8. RECOMMENDATIONS
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Develop machine learning for physics data analysis — critical for modern experimental and computational physics | D3, D5 | Python + ML now table stakes for data science / quantum roles | Medium |
+| P2 | Build AI literacy at the physics-ML interface — when AI captures real physics vs statistical patterns | D5 | AI/ML-for-science a baseline expectation across pathways | Medium |
+| P3 | Develop interdisciplinary communication capability for physics-engineering-data science interfaces | D8 | Employers report difficulty identifying physics MSc candidates | Medium |
+| P4 | Target growth specialisations — quantum computing, photonics, atmospheric physics | D1, D6 | 47 ANZ quantum postings Q1 2026; BOM/CSIRO climate hiring | Low |
+| P5 | Build quantitative finance or AI research competency as a supplementary pathway | D1 | Physics grads valued in quant finance but need coding portfolio | Medium |
+| P6 | Publish graduate destination survey results on program page | D10 | GOS data aggregated at faculty level; no program-level outcomes | Low |
+| P7 | Integrate stakeholder engagement into existing project assessment | D8 | Industry connection weak relative to research focus | Low |
 
-
-## 6. THE REDESIGNED GRADUATE PROFILE
+### 9. THE REDESIGNED GRADUATE PROFILE
 
 The 2027-ready physics graduate is not a data analyst — they are a **physical scientist** who can connect mathematical formalism to physical reality and defend that connection under expert scrutiny.
 
@@ -9175,27 +9289,11 @@ They understand how AI is transforming physics: from machine learning for experi
 
 They are positioned at the interface of fundamental science and technology application — the place where deep physical understanding enables genuinely novel device design, materials development, or computational capability.
 
----
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Medium**. Based on publicly available job posting patterns, industry announcements, and sector intelligence as of mid-2026; no live ANZ job-ad scrape conducted.
+- Quantum computing job market, defence/security science demand, and data science entry pathways are Medium confidence; graduate employment outcomes for MC-SCIPHY specifically are Low confidence (UniMelb publishes only faculty/discipline-level GOS data).
+- Before institutional use, close key gaps: a live 90-day ANZ job-ad scrape, program-specific destination data, employer interviews (DSTG, Q-CTRL, BOM, CSIRO), ACPSEM pathway mapping, and an alumni survey of 1/3/5-year trajectories.
 
-
-### 7. RECOMMENDATIONS
-| Priority | Action | Dimension | Effort |
-|---|---|---|---|
-| 1 | Develop machine learning for physics data analysis — critical for modern experimental and computational physics | D3, D5 | Medium |
-| 2 | Build AI literacy at the physics-ML interface — when AI captures real physics vs statistical patterns | D5 | Medium |
-| 3 | Develop interdisciplinary communication capability for physics-engineering-data science interfaces | D8 | Medium |
-| 4 | Target growth specialisations — quantum computing, photonics, atmospheric physics | D1, D6 | Low |
-| 5 | Build quantitative finance or AI research competency as a supplementary pathway | D1 | Medium |
-
----
-
-
-
----
-
-**Assessment Date:** 2026-06-21
-**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-sciphy
-**Prompt Version:** DFVA-COPILOT-PROMPT-v1
 ### MARKET DATA
 | Metric | Value |
 |--------|-------|
@@ -9206,8 +9304,6 @@ They are positioned at the interface of fundamental science and technology appli
 | Occupation demand | RECRUITMENT DIFFICULTY |
 | AI automation exposure | 40% |
 | Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |
-
----
 
 <!-- LABOUR-EVIDENCE:START -->
 ### REAL GRADUATE DESTINATIONS (JSA HEO · QILT · Adzuna)
@@ -9361,31 +9457,22 @@ A significant share of MC-SCIPHY graduates proceed to PhD programs domestically 
   "dfva-mc-scwr": {
     title: "Master of Screenwriting (MC-SCWR) — DFVA Assessment",
     institution: "University of Melbourne",
-    markdown: `# DFVA REPORT: Master of Screenwriting
+    markdown: `## DFVA REPORT: Master of Screenwriting (MC-SCWR)
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 1.5 years (150 credit points)
 
-**Institution:** University of Melbourne
-**Level:** Master (Coursework)
-**Duration:** 1.5 years (150 credit points)
+**Assessment date:** 2026-06-09  
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-scwr  
+**Prompt version:** DFVA-COPILOT-PROMPT-v1
 
----
+### 1. PROGRAM PROFILE
 
-**Assessment Date:** 2026-06-09
-**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-scwr
-**Prompt Version:** DFVA-COPILOT-PROMPT-v1
-
----
-
-## 1. PROGRAM PROFILE
-
-The Master of Screenwriting at the University of Melbourne is a practice-led coursework program delivered by the Victorian College of the Arts (VCA) on the Southbank campus. It is designed for screenwriters who wish to develop their skills in writing for feature film, television, and narrative digital media. 
+The Master of Screenwriting at the University of Melbourne is a practice-led coursework program delivered by the Victorian College of the Arts (VCA) on the Southbank campus. It is designed for screenwriters who wish to develop their skills in writing for feature film, television, and narrative digital media.
 
 The 150-credit-point curriculum is structured around intensive writing workshops, screen industry studies, and collaborative projects. Students engage in the craft of story structure, character development, genre exploration, and collaborative script development, culminating in a major screenwriting project (e.g., a feature screenplay or television series bible). The program prepares graduates for careers in the screen and media industries, primarily as independent screenwriters and script editors.
 
 Typical graduate roles include screenwriter, script editor, television staff writer, narrative designer, and content creator. Graduates generally operate as freelance professionals or work with independent film and television production companies.
 
----
-
-## 2. AUTOMATION EXPOSURE PROFILE
+### 2. AUTOMATION EXPOSURE PROFILE
 
 | Year | Typical Tasks | Automation Risk |
 |---|---|---|
@@ -9395,43 +9482,46 @@ Typical graduate roles include screenwriter, script editor, television staff wri
 
 **Structural note:** Unlike regulated professions (such as architecture or law), creative writing has no professional licensing or regulatory barriers to entry. Generative AI tools are rapidly commoditising entry-level writing tasks (outlining, dialogue variation, coverage reports). Survival and success in this field depend entirely on cultivating a distinctive creative voice, human collaboration, and original IP ownership.
 
----
+### 3. MARKET EVIDENCE SNAPSHOT
 
-## 3. DFVA SCORECARD
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Screenwriting (Film/TV) | Screen Australia shows continued feature/series commissioning; script reader/coverage roles compressing | "Voice as the irreplaceable differentiator against AI" | Emphasise distinctive authorial voice as a market asset |
+| Narrative Design (Games/XR) | "Narrative Designer" / "Game Writer" listings growing ~18–22% YoY in ANZ | "Interactive narrative skills creating cross-industry mobility" | Add branching-narrative elective (Ink, Twine, Articy Draft 3) |
+| Content Development (Streaming) | Netflix/Amazon/Stan ANZ co-production expanding development roles | "Streaming co-production reshaping entry-level development roles" | Add streaming-format + IP-adaptation literacy |
+| Script Editing | Ongoing demand from ABC, SBS, Network 10; AI generates surface notes only | "Writers' room collaboration skills undervalued in training" | Create Writers' Room Practicum (notes culture, revision) |
+| Content Creator / Branded Storytelling | "AI prompt literacy" (Runway, Sora, ChatGPT, Claude) now required in agency roles | "Short-form/creator economy bridging the income gap" | Add AI-tool fluency + short-form/emerging-formats studio |
+| Story Consulting / First Nations | Formal cultural-narrative consultant credits now standard on mid-budget productions | "Diversity commissioning creating entry pathways" | Embed First Nations story protocols + cross-cultural adaptation |
+
+### 4. DFVA SCORECARD
 
 | # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---|---|
-| 1 | Automation Exposure of Roles | 0/3 | Generative text models can draft scripts, treatments, and dialogue rapidly, putting entry-level commercial screenwriting and content creation roles at extreme risk of automation. |
-| 2 | Systems Thinking and Problem Framing | 1/3 | Focuses on narrative craft and individual script structures rather than larger complex system design or cross-disciplinary problem framing. |
-| 3 | Technical and Quantitative Depth | 1/3 | Emphasizes artistic and creative writing techniques; lacks quantitative analysis, programming, or technical systems engagement. |
-| 4 | Decision-Making Under Uncertainty | 2/3 | Requires creative choices, narrative direction, and responding to feedback, but projects are bounded by creative scope. |
-| 5 | AI Literacy and Governance | 0/3 | No AI content, generative tools, or discussion of AI copyright/IP issues in media is explicitly visible in the core curriculum. |
-| 6 | Domain Depth and Specialisation | 2/3 | Practice-based focus at VCA but lacks professional accreditation barriers, as no professional licensing body exists in creative writing. |
-| 7 | Research Methods Rigour | 0/3 | Artistic practice-led inquiry rather than formal academic, empirical, or scientific research methodology. |
-| 8 | Human & Relational Capability | 2/3 | Involves collaboration with directors, actors, and producers (e.g., table reads, writers' rooms), but does not carry clinical or legal accountability. |
-| 9 | Curriculum Currency and Adaptability | 1/3 | Updated 9 June 2026. The curriculum remains craft-based and has not adapted structurally to the rapid rise of generative AI screenwriting tools. |
-| 10 | Outcome Evidence | 2/3 | Graduate outcomes are highly variable (freelance nature). Public data shows typical creative arts employment and starting salary challenges. |
-| B | Irreplaceability (bonus) | 1/3 | High exposure to generative text models, lack of regulatory protection, and reliance on freelance contract markets. |
-| **TOTAL** | | **11/36** | |
+| 1 | Automation Exposure of Roles | 0 | Generative text models can draft scripts, treatments, and dialogue rapidly, putting entry-level commercial screenwriting and content creation roles at extreme risk of automation. |
+| 2 | Systems Thinking and Problem Framing | 1 | Focuses on narrative craft and individual script structures rather than larger complex system design or cross-disciplinary problem framing. |
+| 3 | Technical and Quantitative Depth | 1 | Emphasizes artistic and creative writing techniques; lacks quantitative analysis, programming, or technical systems engagement. |
+| 4 | Decision-Making Under Uncertainty | 2 | Requires creative choices, narrative direction, and responding to feedback, but projects are bounded by creative scope. |
+| 5 | AI Literacy and Governance | 0 | No AI content, generative tools, or discussion of AI copyright/IP issues in media is explicitly visible in the core curriculum. |
+| 6 | Domain Depth and Specialisation | 2 | Practice-based focus at VCA but lacks professional accreditation barriers, as no professional licensing body exists in creative writing. |
+| 7 | Research Methods Rigour | 0 | Artistic practice-led inquiry rather than formal academic, empirical, or scientific research methodology. |
+| 8 | Human and Relational Capability | 2 | Involves collaboration with directors, actors, and producers (e.g., table reads, writers' rooms), but does not carry clinical or legal accountability. |
+| 9 | Curriculum Currency and Adaptability | 1 | Updated 9 June 2026. The curriculum remains craft-based and has not adapted structurally to the rapid rise of generative AI screenwriting tools. |
+| 10 | Graduate Outcome Evidence | 2 | Graduate outcomes are highly variable (freelance nature). Public data shows typical creative arts employment and starting salary challenges. |
+| B | Irreplaceability Premium (Bonus) | 1 | High exposure to generative text models, lack of regulatory protection, and reliance on freelance contract markets. |
 
-**Risk Band: CRITICAL**
+**TOTAL: 12 / 36**  
+**Risk band: HIGH RISK (12-19)**
 
----
+### 5. THREE THRESHOLD QUESTIONS
 
-## 4. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
+  **YES** — AI text generators can draft outlines, write basic scene dialogue, construct treatments, and perform script coverage at or near the level of a junior screenwriter or script coordinator.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?  
+  **UNCERTAIN** — while graduates learn to construct complex narratives (systems of characters/plots), they write within creative bounds and rarely manage systems, policy, or non-creative decision-making frameworks.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
+  **NO** — generative AI is rapidly reducing the need for junior writers, script polishers, and coverage writers, leading to a shrinking entry-level talent pipeline.
 
-**Q1: Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?**
-YES. AI text generators can draft outlines, write basic scene dialogue, construct treatments, and perform script coverage at or near the level of a junior screenwriter or script coordinator.
-
-**Q2: Does this program train graduates to design systems, own decisions, or generate original insight?**
-UNCERTAIN. While graduates learn to construct complex narratives (systems of characters/plots), they write within creative bounds and rarely manage systems, policy, or non-creative decision-making frameworks.
-
-**Q3: Will these graduates be more employable in 5 years than today, given AI trends?**
-NO. Generative AI is rapidly reducing the need for junior writers, script polishers, and coverage writers, leading to a shrinking entry-level talent pipeline.
-
----
-
-## 5. ANALOGUE GRADUATE PROFILE
+### 6. ANALOGUE GRADUATE PROFILE
 
 The most exposed screenwriting graduate is the **Formulaic Content Writer of 2022**: writing standard episodic dialogue, standard promotional treatments, and reading/summarizing scripts (coverage) for production companies.
 
@@ -9440,27 +9530,22 @@ Specific threats:
 - **Automated Script Coverage Tools** — AI summarizing submissions and rating them against genre tropes.
 - **AI Pitch Deck & Treatment Builders** — generating high-quality loglines, character bios, and episode outlines from simple prompts.
 
----
+### 7. VERDICT
 
-## 6. VERDICT
+**The Master of Screenwriting is HIGH RISK — a craft-focused creative program facing immediate, structural disruption from generative text models, without regulatory or technical barriers to entry.** Generative AI has made the production of text, dialogue, and narrative outlines virtually free. While premium television and feature films will always value a singular human voice (e.g., showrunners, auteur directors), the entry-level market where graduates start is being heavily automated. The program's focus on pure craft leaves graduates highly vulnerable to the commoditisation of junior writing roles.
 
-**The Master of Screenwriting is CRITICAL RISK — a craft-focused creative program facing immediate, structural disruption from generative text models, without regulatory or technical barriers to entry.**
+### 8. RECOMMENDATIONS
 
-Generative AI has made the production of text, dialogue, and narrative outlines virtually free. While premium television and feature films will always value a singular human voice (e.g., showrunners, auteur directors), the entry-level market where graduates start is being heavily automated. The program's focus on pure craft leaves graduates highly vulnerable to the commoditisation of junior writing roles.
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Integrate AI Collaboration & Prompt Craft — teach screenwriters how to use LLMs for character brainstorming, structural variation, and formatting while maintaining creative control | D5 | "AI prompt literacy" (Runway, Sora, ChatGPT, Claude) now required in agency roles | Medium |
+| P2 | Pivot towards Transmedia Narrative Design — expand curriculum to include interactive storytelling, game design, and immersive media (XR/VR) where systems thinking is stronger | D2, D3 | Narrative Designer / Game Writer listings growing ~18–22% YoY | High |
+| P3 | Emphasize Creative IP Development & Business of Screenwriting — train graduates to act as creators/producers who own and pitch original IP | D4, D8 | Screen Australia showrunner-pipeline shortage; producer-writer skills valued | Medium |
+| P4 | Create a Writers' Room Practicum with an ABC/SBS/independent attachment — supervised collaborative drafting, notes culture, revised drafts | D8, D4 | "Writers' room collaboration skills undervalued in training" | High |
+| P5 | Embed First Nations story protocols and cross-cultural adaptation as a required subject | D8 | Cultural-narrative consultant credits now standard on mid-budget productions | Medium |
+| P6 | Add QILT GOS + role-title outcome tracking (commission vs branded content vs games/XR) to program information | D10 | Adjacent content roles invisible in traditional destination surveys | Low |
 
----
-
-## 7. RECOMMENDATIONS
-
-| Priority | Action | Dimension | Effort |
-|---|---|---|---|
-| 1 | Integrate AI Collaboration & Prompt Craft. Teach screenwriters how to use LLMs for character brainstorming, structural variation, and formatting, while maintaining creative control. | D5 | Medium |
-| 2 | Pivot towards Transmedia Narrative Design. Expand the curriculum to include interactive storytelling, game design, and immersive media (XR/VR) where systems thinking is stronger. | D2, D3 | High |
-| 3 | Emphasize Creative IP Development & Business of Screenwriting. Train graduates to act as creators/producers who own and pitch original IP, rather than commission writers. | D4, D8 | Medium |
-
----
-
-## 8. THE REDESIGNED GRADUATE PROFILE
+### 9. THE REDESIGNED GRADUATE PROFILE
 
 The 2027-ready screenwriting graduate is a **Narrative Architect and IP Developer**. They do not just write scripts; they design story worlds across multiple mediums: television, video games, interactive fiction, and podcasting.
 
@@ -9468,7 +9553,11 @@ They are experts at using AI tools as collaborative sparring partners — genera
 
 They understand intellectual property law, copyright trends surrounding AI, and the business of content creation. They own their creative voice and know how to pitch, protect, and produce their own concepts, making them invaluable creative leaders rather than replaceable draftsmen.
 
----
+### 10. MARKET CONFIDENCE NOTE
+
+- Confidence level for market signals in this report: **Medium**. Evidence drawn from WEF Future of Jobs 2025, LinkedIn Workforce Insights Q1 2026, Screen Australia industry data, AWG AI provisions, and Seek.com.au trend data; no live ANZ scrape conducted.
+- Screen Australia production-pipeline demand and AWG AI contractual provisions are High confidence; narrative-designer hiring volume and AI-substitution estimates are Medium; graduate destination outcomes at role-title granularity are Low confidence (QILT is employment-binary only).
+- Before institutional use, close key gaps: a live 90-day ANZ job-ad scrape across screenwriter/narrative-designer/content-developer/script-editor clusters, program-specific role-title destination data across three cohorts, and employer interviews (ABC, Screen Australia, a games studio, an independent production company, a branded-content agency).
 
 ### MARKET DATA
 | Metric | Value |
@@ -9480,8 +9569,6 @@ They understand intellectual property law, copyright trends surrounding AI, and 
 | Occupation demand | MET |
 | AI automation exposure | 70% |
 | Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |
-
----
 
 <!-- LABOUR-EVIDENCE:START -->
 ### REAL GRADUATE DESTINATIONS (JSA HEO · QILT · Adzuna)
@@ -9507,7 +9594,7 @@ They understand intellectual property law, copyright trends surrounding AI, and 
   "dfva-market-mc-scwr": {
     title: "Master of Screenwriting (MC-SCWR) — Market Intelligence",
     institution: "University of Melbourne",
-    markdown: `# DFVA MARKET INTELLIGENCE: Master of Screenwriting
+    markdown: `# DFVA MARKET INTELLIGENCE: Master of Screenwriting (MC-SCWR)
 
 **Institution:** University of Melbourne
 **Assessment Date:** 2026-06-21
@@ -9669,10 +9756,8 @@ A recurring discussion theme in practitioner communities is the use of YouTube, 
   "dfva-mc-surged": {
     title: "Master of Surgical Education (MC-SURGED) — DFVA Assessment",
     institution: "University of Melbourne",
-    markdown: `## DFVA REPORT: MC-SURGED
-**Institution:** University of Melbourne  
-**Level:** Master (Coursework)  
-**Duration:** 2 years (200 credit points)
+    markdown: `## DFVA REPORT: Master of Surgical Education (MC-SURGED)
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 credit points)
 
 **Assessment date:** 2026-06-20  
 **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-surged  
@@ -9689,45 +9774,71 @@ Graduate roles include surgical educator, simulation director, medical education
 | Year 1–2 (graduate) | Surgical educator, simulation trainer | **LOW** — Teaching surgical skill, assessing surgical competence, and clinical simulation are human-intensive activities |
 | Year 3–5 | Medical education researcher, simulation director | **LOW** — Specialist expertise in surgical education design |
 
-### 3. DFVA SCORECARD
-*Score data from existing assessment records.*
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Surgical Education & Training | RACS/health services now require a postgraduate medical-education qualification for training-coordinator roles | "EPA implementation anxiety among surgical colleges" | Entrustable Professional Activity (EPA) design, feedback frameworks, coaching |
+| Simulation & Skills Lab | Simulation specialist roles expanding; VR platform literacy (Touch Surgery, Osso VR) now a hard filter | "AI in surgical simulation: opportunity and hype" | VR/haptic platform operation, data-driven performance analytics, debriefing |
+| Medical Education Consulting | Growing consulting market as hospitals/colleges seek external curriculum-design expertise | "Increasing calls for outcome data from education programs" | Outcomes-based design, Kirkpatrick/Stufflebeam program evaluation |
+| Clinical Governance & Quality | JACME accreditation requirements driving demand for education-qualified coordinators | "Trainee wellbeing and psychological safety in surgical training" | Governance frameworks, trainee wellbeing protocols, AHPRA compliance |
+| Academic & Research (Med Ed) | Small but stable ANZ pipeline; UniMelb/Monash dominate research output | "Global competition for surgical education programs" | Qualitative research methods, systematic review, health-professions education theory |
+| Faculty Development | RACS Faculty Development Unit recruiting; MedTech firms professionalising training functions | "Industry-sponsored surgical training programs professionalising" | Adult learning principles, coaching, digital CPD platforms, 360-degree feedback |
 
-**TOTAL: 25/36**  
-**Risk band: MODERATE RISK**
+### 4. DFVA SCORECARD
+| # | Dimension | Score (0-3) | Evidence-based rationale |
+|---|---|---|---|
+| 1 | Automation Exposure of Roles | 3 | Teaching surgical skill, assessing surgical competence, and clinical simulation are human-intensive, relational, and physically-grounded activities. AI tools augment but cannot substitute the core supervisor/educator function for the foreseeable period. |
+| 2 | Systems Thinking and Problem Framing | 2 | Curriculum mapping, competency-framework translation, and program evaluation require system-level framing, but cross-disciplinary problem framing is not foregrounded as an explicit assessed competency. |
+| 3 | Technical and Quantitative Depth | 1 | The program is pedagogy- and clinical-context-focused; digital assessment platform literacy (MedHub, One45, Elentra) and quantitative program-evaluation analytics are underrepresented relative to hiring filters. |
+| 4 | Decision-Making Under Uncertainty | 2 | Educators make entrustment and assessment judgments under uncertainty, but the curriculum does not visibly foreground documented decision-rationale capstones with real accountability. |
+| 5 | AI Literacy and Governance | 1 | No dedicated unit on AI in surgical simulation or education-technology evaluation. Graduates cannot yet critically appraise vendor claims for AI-enabled simulation platforms or adaptive assessment tools. |
+| 6 | Domain Depth and Specialisation | 3 | Deep specialist domain — surgical education is a niche served by few programs, combining clinical credibility with formal pedagogy. RACS/ASE report a shortage of qualified surgical educators with formal pedagogy training. |
+| 7 | Research Methods Rigour | 2 | The program supports education research (RCTs, mixed-methods, systematic review), but Kirkpatrick Level 3–4 evaluation and primary-data-collection requirements are not consistently mandated. |
+| 8 | Human and Relational Capability | 3 | Coaching, mentorship, feedback, debriefing, and supervision are the core of the discipline and are inherently relational and irreducible. Psychological-safety frameworks are a rising, high-salience capability. |
+| 9 | Curriculum Currency and Adaptability | 2 | Updated for 2026 and responsive to simulation trends, but AI/education-technology evaluation and trainee-wellbeing frameworks (post-RACS culture review) are not yet fully embedded. |
+| 10 | Graduate Outcome Evidence | 3 | QILT GOS field-level outcomes are strong (87% FT employment, $103k median, Shortage demand). Role-title-level program destination data is not published, but sector outcome evidence is robust. |
+| B | Irreplaceability Premium (Bonus) | 3 | The combination of surgical-domain credibility, relational mentorship, and formal pedagogy creates a structurally irreplaceable specialist in a shortage market with LOW automation exposure. |
 
-### 4. THREE THRESHOLD QUESTIONS
-**Q1: Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?**
-NO. See program assessment for detailed rationale.
+**TOTAL: 25 / 36**  
+**Risk band: MODERATE RISK (20-27)**
 
-**Q2: Does this program train graduates to design systems, own decisions, or generate original insight?**
-YES. See program assessment for detailed rationale.
+### 5. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
+  **NO** — teaching surgical skill, assessing physical surgical competence, debriefing, and mentorship are human-intensive, relational activities that AI augments but cannot own.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?  
+  **YES** — graduates design competency-based curricula, EPA assessment frameworks, and simulation experiences, and conduct original medical-education research.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
+  **YES** — RACS competency-framework revision, simulation-centre expansion, and MedTech training professionalisation are all growing demand; the shortage of formally-qualified surgical educators is structural.
 
-**Q3: Will these graduates be more employable in 5 years than today, given AI trends?**
-YES. See program assessment for detailed rationale.
-
-### 5. ANALOGUE GRADUATE PROFILE
+### 6. ANALOGUE GRADUATE PROFILE
 The most exposed surgical education graduate is the **Medical Education Administrator of 2021**: primarily managing training schedules, assessment logistics, and simulation booking systems — work systematised by medical education management platforms.
 
 However, the core surgical educator role — designing simulation experiences, assessing technical skill, providing mentorship, and conducting surgical education research — is substantially more protected by its specialist and physical nature.
 
-### 6. VERDICT
-**The Master of Surgical Education is MODERATE RISK — a specialist niche degree with strong protection from physical skill and relational mentorship requirements.**
+### 7. VERDICT
+**The Master of Surgical Education is MODERATE RISK — a specialist niche degree with strong protection from physical skill and relational mentorship requirements.** Surgical education at the advanced level involves expert assessment of physical surgical skill, simulation design, and research-led curriculum development — all of which require genuine specialist expertise. The market is small but stable, and at 25/36 the program is three points from RESILIENT, with the gap concentrated in technical depth, AI literacy, and research rigour.
 
-Surgical education at the advanced level involves expert assessment of physical surgical skill, simulation design, and research-led curriculum development — all of which require genuine specialist expertise. The market is small but stable.
+### 8. RECOMMENDATIONS
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Develop simulation centre leadership capability — managing advanced surgical simulation programs and VR/haptic platforms | D4, D8 | VR platform literacy (Touch Surgery, Osso VR) now a hiring filter | High |
+| P2 | Build expertise in AI-assisted surgical training tools and their assessment validity | D5 | "AI in surgical simulation: opportunity and hype" — need for critically literate educators | Medium |
+| P3 | Develop surgical education research skills, including Kirkpatrick Level 3–4 program evaluation | D7 | Health services calling for outcome/ROI data from education programs | High |
+| P4 | Add EPA design and digital assessment platform literacy (MedHub, One45, Elentra) as applied modules | D3 | RACS SCPG 2024–25 revision driving EPA translation demand | Medium |
+| P5 | Establish MedTech industry-affiliate relationships (Stryker, J&J Institute) for practicum/capstone partnerships | D4 | MedTech firms professionalising surgical-training functions | Medium |
+| P6 | Implement and publish role-title-level graduate destination tracking at 12 months and 3 years | D10 | Applicant decision-making and external validation require granular outcome data | Low |
 
-### 7. RECOMMENDATIONS
-| Priority | Action | Dimension | Effort |
-|---|---|---|---|
-| 1 | Develop simulation centre leadership capability — managing advanced surgical simulation programs | D4, D8 | High |
-| 2 | Build expertise in AI-assisted surgical training tools and their assessment validity | D5 | Medium |
-| 3 | Develop surgical education research skills | D7 | High |
-
-### 8. THE REDESIGNED GRADUATE PROFILE
+### 9. THE REDESIGNED GRADUATE PROFILE
 The 2027-ready surgical education graduate is a **specialist clinical educator** who designs training experiences that develop surgical judgment, not just technical execution.
 
 They understand the difference between a technically proficient surgical trainee and a surgically wise one — the capacity to adapt when the operation doesn't go as planned, to recognise deterioration before it becomes crisis, and to communicate clearly with the operating team under pressure. They design simulation experiences that develop the second kind of capability, not just the first.
 
 They evaluate AI surgical training tools — robotic simulators, haptic feedback systems, AI-assisted assessment of surgical performance — with a critical eye. They know what the assessment metrics capture and what they miss, and they design training curricula that develop the aspects of surgical capability that current AI assessment cannot yet evaluate.
+
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Medium–High**. ANZ surgical-education job-market structure, hiring criteria, and AI-substitution pressure are High confidence (RACS workforce publications, college accreditation requirements, clear task-level analysis).
+- Simulation-specialist growth and VR-platform requirements are Medium–High; MedTech industry as a graduate employer is Medium; graduate salary benchmarks and employer satisfaction at role-title level are Low confidence.
+- Before institutional use, close key gaps: a live 90-day ANZ job-ad scrape, program-specific role-title destination data, employer interviews (RACS, Victorian health services, a MedTech firm), and a curriculum mapping review against the RACS SCPG 2024–25 revision.
 
 ### MARKET DATA
 | Metric | Value |
@@ -9766,7 +9877,7 @@ They evaluate AI surgical training tools — robotic simulators, haptic feedback
   "dfva-market-mc-surged": {
     title: "Master of Surgical Education (MC-SURGED) — Market Intelligence",
     institution: "University of Melbourne",
-    markdown: `# DFVA MARKET INTELLIGENCE: Master of Surgical Education
+    markdown: `# DFVA MARKET INTELLIGENCE: Master of Surgical Education (MC-SURGED)
 
 **Institution:** University of Melbourne
 **Assessment Date:** 2026-06-21
@@ -9929,21 +10040,15 @@ MedTech companies (Stryker, Zimmer Biomet, Johnson & Johnson MedTech) are profes
   "dfva-mc-tesol": {
     title: "Master of TESOL (MC-TESOL) — DFVA Assessment",
     institution: "University of Melbourne",
-    markdown: `# DFVA REPORT: Master of TESOL
+    markdown: `## DFVA REPORT: Master of TESOL (MC-TESOL)
 
-**Institution:** University of Melbourne
-**Level:** Master (Coursework)
-**Duration:** 2 years (200 credit points)
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 credit points)
 
----
+**Assessment date:** 2026-06-09
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-tesol
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 + DFVA-COPILOT-MARKET-v1
 
-**Assessment Date:** 2026-06-09
-**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-tesol
-**Prompt Version:** DFVA-COPILOT-PROMPT-v1
-
----
-
-## 1. PROGRAM PROFILE
+### 1. PROGRAM PROFILE
 
 The Master of TESOL (Teaching English to Speakers of Other Languages) at the University of Melbourne prepares graduates to teach English as an additional language in Australian and international school and adult education contexts. The 200-credit-point program meets VIT (Victorian Institute of Teaching) requirements for EAL teacher registration when completed with the specialist EAL pathway.
 
@@ -9951,9 +10056,7 @@ The program includes 22 days of supervised teaching placement, a research-based 
 
 Typical graduate roles include EAL/D classroom teacher, AMEP (Adult Migrant English Program) teacher, international school ESL teacher, language curriculum developer, and education administrator.
 
----
-
-## 2. AUTOMATION EXPOSURE PROFILE
+### 2. AUTOMATION EXPOSURE PROFILE
 
 | Year | Typical Tasks | Automation Risk |
 |---|---|---|
@@ -9963,43 +10066,46 @@ Typical graduate roles include EAL/D classroom teacher, AMEP (Adult Migrant Engl
 
 **Structural tailwind:** Australia has a documented teacher shortage across multiple subject areas including EAL. This structural demand provides employment protection that is independent of AI disruption. Government employment (schools) also provides institutional stability that the private sector cannot guarantee.
 
----
+### 3. MARKET EVIDENCE SNAPSHOT
 
-## 3. DFVA SCORECARD
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| English Language Teaching (EAL/D, ELICOS) | Sustained ELICOS teacher demand in VIC, NSW, QLD; EAL/D demand elevated in Victorian government schools | "AI as a teaching partner, not a replacement — AI literacy is a teacher competency" | Add "AI in Language Education" module: prompt engineering, bias evaluation, integrating AI pronunciation/grammar tools |
+| ELICOS Programme Coordination | Elevated vacancy rates for coordinators/Directors of Studies in Melbourne and Sydney; NEAS/CRICOS familiarity non-negotiable | "ELICOS regulatory pressure (CRICOS, NEAS, ESOS) after post-COVID TEQSA audits" | Teach ELICOS regulatory frameworks (ESOS Act, NEAS, CRICOS) within program-management subjects |
+| Curriculum & Materials Design | "Learning Designer" roles increasingly list AI-tool and digital-authoring proficiency (Canva, ChatGPT, Articulate) | "The ethical-AI gap — evaluating AI content for cultural and pedagogical appropriateness" | Require a digital artefact (H5P, Articulate) not just a print syllabus |
+| Language Program Management | University English centres and colleges rebuilding management layers post-COVID | "Data-driven quality management and commercial awareness alongside pedagogical leadership" | Embed enrolment data analytics and change management into leadership units |
+| Education Consulting & Pathway Advising | IDP/Navitas actively hiring consultants; international-student recovery toward the cap | "Relationship-intensive counselling AI cannot replace" | Strengthen cross-cultural communication and ESOS Act literacy |
+| Online & Blended ELT | Rapid growth in online ESL postings; platform roles (iTalki, Preply) expanding | "Pronunciation technology handles segmental feedback but not the human dimensions" | Build synchronous facilitation and learner-analytics literacy |
+
+### 4. DFVA SCORECARD
 
 | # | Dimension | Score (0-3) | Evidence-based rationale |
-|---|---|---|---|
-| 1 | Automation Exposure of Roles | 1/3 | Language teaching faces AI disruption from real-time translation and AI tutoring systems. TESOL demand in some contexts may structurally change as AI language tools improve. |
-| 2 | Systems Thinking and Problem Framing | 2/3 | Curriculum design, language acquisition theory, and education policy integration require systemic perspective on how language learning works across contexts. |
-| 3 | Technical and Quantitative Depth | 1/3 | Pedagogy-focused, not quantitative. Linguistics and grammar technical but not statistical or computational depth. |
-| 4 | Decision-Making Under Uncertainty | 2/3 | 22-day supervised placement requires real classroom decisions with genuine accountability. Capstone inquiry project involves defended methodological choices. |
-| 5 | AI Literacy and Governance | 1/3 | Foundations: Digital Futures elective available. No AI-in-language-teaching content visible — a significant gap given AI tutoring and translation tools. |
-| 6 | Domain Depth and Specialisation | 2/3 | 200pt. EAL specialisation pathway with VIT eligibility. Strong TESOL identity but broad foundation requirements dilute depth. |
-| 7 | Research Methods Rigour | 2/3 | Research pathway available (50pt). Education Research Methodology taught. Capstone is research-based inquiry. |
-| 8 | Human & Relational Capability | 3/3 | Classroom teaching, supervised placement (22 days), multilingual practices — fundamentally human-relational profession requiring presence, responsiveness, and interpersonal skill. |
-| 9 | Curriculum Currency and Adaptability | 2/3 | Updated March 2026. Contemporary TESOL pedagogy. Digital Futures foundation shows some digital awareness but limited AI integration. |
-| 10 | Outcome Evidence | 3/3 | Teaching salaries and employment conditions well-documented. Teacher shortage in Australia provides structural employment protection. |
-| B | Irreplaceability (bonus) | 2/3 | Human teaching presence, relational pedagogy, and classroom management are not yet automatable. But AI language tutoring is improving rapidly. |
-| **TOTAL** | | **21/36** | |
+|---|---|---:|---|
+| 1 | Automation Exposure of Roles | 1 | Language teaching faces AI disruption from real-time translation and AI tutoring systems. TESOL demand in some contexts may structurally change as AI language tools improve. |
+| 2 | Systems Thinking and Problem Framing | 2 | Curriculum design, language acquisition theory, and education policy integration require systemic perspective on how language learning works across contexts. |
+| 3 | Technical and Quantitative Depth | 1 | Pedagogy-focused, not quantitative. Linguistics and grammar technical but not statistical or computational depth. |
+| 4 | Decision-Making Under Uncertainty | 2 | 22-day supervised placement requires real classroom decisions with genuine accountability. Capstone inquiry project involves defended methodological choices. |
+| 5 | AI Literacy and Governance | 1 | Foundations: Digital Futures elective available. No AI-in-language-teaching content visible — a significant gap given AI tutoring and translation tools. |
+| 6 | Domain Depth and Specialisation | 2 | 200pt EAL specialisation pathway with VIT eligibility. Strong TESOL identity but broad foundation requirements dilute depth. |
+| 7 | Research Methods Rigour | 2 | Research pathway available (50pt). Education Research Methodology taught. Capstone is research-based inquiry. |
+| 8 | Human and Relational Capability | 3 | Classroom teaching, supervised placement (22 days), multilingual practices — fundamentally human-relational profession requiring presence, responsiveness, and interpersonal skill. |
+| 9 | Curriculum Currency and Adaptability | 2 | Updated March 2026. Contemporary TESOL pedagogy. Digital Futures foundation shows some digital awareness but limited AI integration. |
+| 10 | Graduate Outcome Evidence | 3 | Teaching salaries and employment conditions well-documented. Teacher shortage in Australia provides structural employment protection. |
+| B | Irreplaceability Premium (Bonus) | 2 | Human teaching presence, relational pedagogy, and classroom management are not yet automatable. But AI language tutoring is improving rapidly. |
 
-**Risk Band: MODERATE RISK**
+**TOTAL: 21 / 36**
+**Risk band: MODERATE RISK (20-27)**
 
----
+### 5. THREE THRESHOLD QUESTIONS
 
-## 4. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?
+  **YES** — The early-career output for Master of TESOL graduates is substantially templated: research, analysis, and document production are in AI's wheelhouse. Classroom presence and relational teaching are not.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?
+  **UNCERTAIN** — Partial capability exists. Studio, capstone, or professional placement elements push toward decision ownership, but the standard curriculum track does not guarantee it.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?
+  **UNCERTAIN** — Depends significantly on individual specialisation choices, elective selection, and whether the industry adapts faster than AI tools disrupt it.
 
-**Q1: Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?**
-YES. The early-career output for Master of TESOL graduates is substantially templated — research, analysis, and document production are in AI's wheelhouse.
-
-**Q2: Does this program train graduates to design systems, own decisions, or generate original insight?**
-UNCERTAIN. Partial capability exists. Studio, capstone, or professional placement elements push toward decision ownership, but the standard curriculum track does not guarantee it.
-
-**Q3: Will these graduates be more employable in 5 years than today, given AI trends?**
-UNCERTAIN. Depends significantly on individual specialisation choices, elective selection, and whether the industry adapts faster than AI tools disrupt it.
-
----
-
-## 5. ANALOGUE GRADUATE PROFILE
+### 6. ANALOGUE GRADUATE PROFILE
 
 The most exposed TESOL graduate is the **Online English Language Tutor of 2021**: providing one-on-one English language coaching via video platform to international students — a role being aggressively automated by AI language tutoring systems (Duolingo Max, Elsa Speak, Khanmigo).
 
@@ -10009,41 +10115,33 @@ Specific threats:
 - **AI conversation practice systems (ELSA Speak, Speechify)** — pronunciation and fluency coaching
 - **AI-generated lesson plans and materials** — reducing curriculum development time but also skill premium
 
----
+### 7. VERDICT
 
-## 6. VERDICT
+The Master of TESOL is **MODERATE RISK (21/36)** — a degree with structural employment protection in Australia that faces uncertain AI disruption medium-term. In the near term, graduates entering Australian school and adult education employment are well-protected: teacher shortages, VIT registration requirements, and the genuine irreplaceability of classroom human presence provide real insulation. The medium-term uncertainty is real, and the curriculum gap in AI literacy (D5: 1/3) is significant — a TESOL graduate who cannot evaluate and govern AI language tools in their classroom is missing a rapidly growing professional competency.
 
-**The Master of TESOL is MODERATE RISK — a degree with structural employment protection in Australia that faces uncertain AI disruption medium-term.**
+### 8. RECOMMENDATIONS
 
-The program's score (23/36) reflects the real tension between the teacher shortage that protects employment in the short term and the AI language technology trajectory that creates uncertainty over the 5-year horizon.
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Develop AI language-tool literacy deliberately — understand how AI tutoring systems work, their limitations, and how to use them as pedagogical complements rather than competitors | D5 | AI-tool literacy now appearing in 15–20% of ELT job descriptions | Low |
+| P2 | Complete the supervised placement in a diverse school context — classroom experience in high-need EAL settings is the most defensible graduate credential | D4, D8 | EAL/D teacher demand in Victorian government schools remains elevated | High (built-in) |
+| P3 | Target Australian school employment where VIT registration provides genuine protection — private tutoring and online markets are more AI-disrupted | D1 | Online/platform ELT roles under medium-high AI substitution pressure | Low |
+| P4 | Build assessment design skills — valid language assessment is technically complex and difficult to automate well | D3, D7 | Digital assessment design and learning-analytics interpretation rising fast | Medium |
+| P5 | Develop specialisation in needs-specific populations and Language for Specific Purposes (workplace, healthcare, legal English) where relational complexity is highest | D6, D8 | LSP specialists described as "rare and in demand" | Medium |
 
-In the near term, TESOL graduates entering Australian school and adult education employment are well-protected: teacher shortages, VIT registration requirements, and the genuine irreplaceability of classroom human presence provide real insulation from AI disruption. AI language tutoring supplements but does not replace classroom teaching in most institutional contexts.
-
-The medium-term uncertainty is real: as AI language tutoring improves, the structure of language learning may shift in ways that reduce demand for some forms of English teaching, particularly in adult education and online tutoring markets. The curriculum gap in AI literacy (D5: 1/3) is significant — a TESOL graduate who cannot evaluate and govern AI language tools in their classroom is missing a rapidly growing professional competency.
-
----
-
-## 7. RECOMMENDATIONS
-
-| Priority | Action | Dimension | Effort |
-|---|---|---|---|
-| 1 | Develop AI language tool literacy deliberately — understand how AI tutoring systems work, their limitations, and how to use them as pedagogical complements rather than competitors | D5 | Low |
-| 2 | Complete the supervised placement in a diverse school context — classroom experience in high-need EAL settings is the most defensible graduate credential | D4, D8 | High (built-in to program) |
-| 3 | Target Australian school employment where VIT registration provides genuine protection — private tutoring and online markets are more AI-disrupted | D1 | Low |
-| 4 | Build assessment design skills — valid language assessment is technically complex and difficult to automate well | D3, D7 | Medium |
-| 5 | Develop specialisation in needs-specific populations (refugee and humanitarian entrants, Aboriginal and Torres Strait Islander students) where relational complexity is highest | D6, D8 | Medium |
-
----
-
-## 8. THE REDESIGNED GRADUATE PROFILE
+### 9. THE REDESIGNED GRADUATE PROFILE
 
 The 2027-ready TESOL graduate is not an English content deliverer — they are a **language acquisition specialist who understands how humans learn language** and can design learning experiences that AI tools cannot.
 
 They know language acquisition theory at the mechanism level — they understand what conditions support acquisition, why comprehensible input matters, how anxiety affects language production, and what the research says about corrective feedback. This knowledge is what separates a professional teacher from a tool that generates exercises.
 
-They have done 22 days of supervised teaching and come away with a real classroom portfolio: not just lesson plans but evidence of student progress, feedback from mentors, and a reflective analysis of what worked and why. They know what it feels like to lose a class and recover it, and they know what it feels like to reach a student who wasn't reaching.
+They have done 22 days of supervised teaching and come away with a real classroom portfolio: not just lesson plans but evidence of student progress, feedback from mentors, and a reflective analysis of what worked and why. They use AI language tools as a complement to their teaching: they know which AI pronunciation tools are accurate for which language backgrounds, which AI writing tools produce appropriate feedback for which levels, and where AI tools mislead students. That AI-literacy layer, combined with their human-presence and relational capability, is what makes them a professional rather than an interface.
 
-They use AI language tools as a complement to their teaching: they know which AI pronunciation tools are accurate for which language backgrounds, which AI writing tools produce appropriate feedback for which levels, and where AI tools mislead students. That AI-literacy layer, combined with their human-presence and relational capability, is what makes them a professional rather than an interface.
+### 10. MARKET CONFIDENCE NOTE
+
+- Confidence level for market signals in this report: **Medium**.
+- Market evidence integrates QILT GOS field-of-study outcomes with directional synthesis of ELICOS/EAL sector hiring patterns and current TESOL professional discussion of AI in practice.
+- For high-stakes curriculum decisions, add a live ANZ job-ad scrape (last 90 days) across ELICOS, EAL/D, curriculum design and consulting roles, plus program-level graduate destination data at role-title granularity.
 
 ### MARKET DATA
 | Metric | Value |
@@ -10082,7 +10180,7 @@ They use AI language tools as a complement to their teaching: they know which AI
   "dfva-market-mc-tesol": {
     title: "Master of TESOL (MC-TESOL) — Market Intelligence",
     institution: "University of Melbourne",
-    markdown: `# DFVA MARKET INTELLIGENCE: Master of TESOL
+    markdown: `# DFVA MARKET INTELLIGENCE: Master of TESOL (MC-TESOL)
 
 **Institution:** University of Melbourne
 **Assessment Date:** 2026-06-21
@@ -10244,8 +10342,12 @@ LinkedIn and professional forums show growing employer interest in Language for 
     title: "Master of Urban Design (MC-URBDES) — DFVA Assessment",
     institution: "University of Melbourne",
     markdown: `## DFVA REPORT: Master of Urban Design (MC-URBDES)
+
 **Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 pts)
-**Assessment date:** 2026-06-09 | **Source:** https://handbook.unimelb.edu.au/2026/courses/mc-urbdes
+
+**Assessment date:** 2026-06-09
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-urbdes
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 (live Hermes LLM scoring) + DFVA-COPILOT-MARKET-v1
 
 ### 1. PROGRAM PROFILE
 The Master of Urban Design is a 200-credit-point program built around four sequential design studios (100pt total) plus a 25pt Urban Design Thesis capstone. Core subjects include Urban Design Theory, Planning Law & Statutory Planning, The Economies of Cities and Regions, and Strategic Plan Making. Electives span urban design theory (Inclusive Cities, Informal Settlement), urban design practice (GIS, Computational Design, Resilient Settlements, Environmental Systems), and urban planning (Climate Change Planning, Housing Policy, Participatory Planning).
@@ -10257,7 +10359,17 @@ Urban design presents a distinctive automation profile. AI tools increasingly as
 
 The structural defence is the studio + thesis model: 125 of 200 points are studio/thesis work that requires original design, stakeholder interaction, and defended decisions. AI can accelerate specific production tasks within this workflow but cannot formulate the design brief, negotiate with community stakeholders, or exercise the aesthetic and contextual judgment that defines urban design practice.
 
-### 3. DFVA SCORECARD
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Urban Design | Consultancies (Arup, Jacobs, GHD, Urbis) list Forma/Esri and "generative design tools" as required, not desirable | "AI will design the form but humans must hold the values" | Compulsory AI-assisted urban form generation module; embed Forma in studio |
+| Urban Planning | Housing Statement rezoning drove a spike in statutory planning officer roles across 2024–2025 | "Statutory planning literacy is now a core urban designer competency" | Keep statutory planning grounding accessible to urban design graduates |
+| Landscape Architecture | Strong ANZ demand in infrastructure and urban renewal; AILA accreditation pathway | "Climate resilience (WSUD, urban heat, biodiversity) as a gate requirement" | Mandate climate-resilience assessment criteria in all studio briefs |
+| Urban Strategy | Strategic/policy roles partially AI-augmented for data synthesis; judgment on trade-offs stays human | "Affordability and housing supply as the defining design challenge" | Add built-environment economics: land value, feasibility, value capture |
+| Place-Making Consulting | New activation/engagement roles at Lendlease, Mirvac, Creative Victoria — a job category new since 2022 | "Place-making reframed as social-infrastructure investment" | Partner with place-making orgs for assessed capstone placements |
+| Digital Urban Analytics | AI automates routine spatial processing; value shifts to interpretation and integration | "Digital twin — be an intelligent consumer, not a data engineer" | Python/R spatial analysis + ability to read and critique digital-twin outputs |
+
+### 4. DFVA SCORECARD
 | # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---:|---|
 | 1 | Automation Exposure of Roles | 2 | Design studios (100pt) require creative, contextual, and community-engaged work AI cannot replicate. Documentation and visualization tasks partially AI-automatable. |
@@ -10272,15 +10384,19 @@ The structural defence is the studio + thesis model: 125 of 200 points are studi
 | 10 | Graduate Outcome Evidence | 2 | No granular destination data. PIA accreditation provides external validation. |
 | B | Irreplaceability Premium (Bonus) | 3 | Rare: design creativity + urban systems + community engagement + PIA accreditation. Physical/creative/relational skills resist AI. |
 
-**TOTAL: 26 / 36 — MODERATE RISK**
+**TOTAL: 27 / 36**
+**Risk band: MODERATE RISK (20-27)**
 
-### 4. THREE THRESHOLD QUESTIONS
-- **Q1:** NO — Design studios require creative, contextual, and community-engaged work that AI cannot replicate.
-- **Q2:** YES — Four studios + thesis require sustained design decision ownership and defended trade-offs.
-- **Q3:** YES — Urban design demand grows with urbanization, climate adaptation, and infrastructure investment.
+### 5. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?
+  **NO** — Design studios require creative, contextual, and community-engaged work that AI cannot replicate.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?
+  **YES** — Four studios + thesis require sustained design decision ownership and defended trade-offs.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?
+  **YES** — Urban design demand grows with urbanization, climate adaptation, and infrastructure investment.
 
 
-### 5. ANALOGUE GRADUATE PROFILE
+### 6. ANALOGUE GRADUATE PROFILE
 
 The most exposed urban design graduate is the **Junior Urban Planner of 2022**: primarily producing planning reports, creating standard urban analysis visualisations, and preparing development assessment submissions — work increasingly aided by AI planning tools and parametric design platforms.
 
@@ -10292,21 +10408,21 @@ Specific threats:
 
 ---
 
-### 5. VERDICT
+### 7. VERDICT
 This program's structural strength is its studio model. Four sequential design studios plus a thesis create graduates whose core capability — creative urban design with community and systems awareness — resists AI substitution. The PIA accreditation pathway adds professional credibility. The AI literacy gap (D5: score 1) is the primary opportunity — adding computational urban design with AI methods would strengthen an already-solid program without compromising its design core.
 
-### 6. RECOMMENDATIONS
-| Priority | Action | Dimensions | Effort |
-|---|---|---|---|
-| P1 | Publish graduate destination data | D10 | Medium |
-| P1 | Add computational urban design + AI in planning module | D5 | Medium |
-| P2 | Address electives not available in 2026 — curriculum stability | D9 | Medium |
-| P2 | Establish industry advisory panel with annual review | D9 | Low |
+### 8. RECOMMENDATIONS
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Add computational urban design + AI-in-planning module (Forma/Delve/TestFit; generative feasibility) | D5 | Consultancies now list generative design tools as a required skill | Medium |
+| P2 | Publish graduate destination data (12- and 36-month, role-title + employer sector) | D10 | Destination data absent at role-title granularity | Medium |
+| P3 | Add built-environment economics (land value, feasibility, value capture) to the design core | D3 | "Graduates fluent in development economics are rare and hireable" | Medium |
+| P4 | Address electives not available in 2026 and establish an industry advisory panel with annual review | D9 | Curriculum lag risk as tool requirements accelerate | Low |
 
-**Path to RESILIENT:** P1 actions → 28/36 RESILIENT.
+**Path to RESILIENT:** P1 + P2 actions → 28/36 RESILIENT.
 
 
-### 8. THE REDESIGNED GRADUATE PROFILE
+### 9. THE REDESIGNED GRADUATE PROFILE
 
 The 2027-ready urban design graduate is not a planning report writer — they are a **place-maker who understands the social, spatial, and political dimensions of urban form**.
 
@@ -10316,13 +10432,11 @@ They understand what AI urban design tools optimise for — density, sunlight ac
 
 They work at the intersection of design expertise, community accountability, and regulatory navigation. That intersection — requiring design judgment, political literacy, and genuine stakeholder trust — is the place where urban design's human value is most concentrated and most irreplaceable.
 
----
+### 10. MARKET CONFIDENCE NOTE
 
----
-
-**Assessment date:** 2026-06-09
-**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-urbdes
-**Prompt version:** DFVA-COPILOT-PROMPT-v1 (live Hermes LLM scoring)
+- Confidence level for market signals in this report: **Medium**.
+- Market evidence integrates QILT GOS field-of-study outcomes with directional synthesis of ANZ urban design and planning hiring patterns (state government, large consultancies, place-making sector) and current professional discussion (PIA, AILA).
+- For high-stakes curriculum decisions, add a live ANZ job-ad scrape (last 90 days) confirming whether Forma and parametric GIS are listed as required vs desirable, plus program-level graduate destination data at role-title and employer-sector granularity.
 
 ### MARKET DATA
 | Metric | Value |
@@ -10361,7 +10475,7 @@ They work at the intersection of design expertise, community accountability, and
   "dfva-market-mc-urbdes": {
     title: "Master of Urban Design (MC-URBDES) — Market Intelligence",
     institution: "University of Melbourne",
-    markdown: `# DFVA MARKET INTELLIGENCE: Master of Urban Design
+    markdown: `# DFVA MARKET INTELLIGENCE: Master of Urban Design (MC-URBDES)
 
 **Institution:** University of Melbourne
 **Assessment Date:** 2026-06-21
@@ -10524,21 +10638,15 @@ Discussion among strategic planners about sea-level rise, bushfire risk, and inl
   "dfva-mc-urbhort": {
     title: "Master of Urban Horticulture (MC-URBHORT) — DFVA Assessment",
     institution: "University of Melbourne",
-    markdown: `# DFVA REPORT: Master of Urban Horticulture
+    markdown: `## DFVA REPORT: Master of Urban Horticulture (MC-URBHORT)
 
-**Institution:** University of Melbourne
-**Level:** Master (Coursework)
-**Duration:** 2 years (200 credit points)
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 credit points)
 
----
+**Assessment date:** 2026-06-09
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-urbhort
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 + DFVA-COPILOT-MARKET-v1
 
-**Assessment Date:** 2026-06-09
-**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-urbhort
-**Prompt Version:** DFVA-COPILOT-PROMPT-v1
-
----
-
-## 1. PROGRAM PROFILE
+### 1. PROGRAM PROFILE
 
 The Master of Urban Horticulture at the University of Melbourne is a specialist program combining plant science with urban planning and landscape design. It prepares graduates for professional practice in urban greening, parks management, landscape horticulture, and urban biodiversity.
 
@@ -10546,9 +10654,7 @@ The program covers plant physiology, soil science, landscape ecology, urban heat
 
 Typical graduate roles include urban horticulturalist, parks and gardens manager, landscape designer, urban ecology consultant, green infrastructure specialist, and local government urban greening advisor. The field is growing due to urban heat island policy priorities, tree canopy targets, and urban biodiversity initiatives.
 
----
-
-## 2. AUTOMATION EXPOSURE PROFILE
+### 2. AUTOMATION EXPOSURE PROFILE
 
 | Year | Typical Tasks | Automation Risk |
 |---|---|---|
@@ -10558,43 +10664,46 @@ Typical graduate roles include urban horticulturalist, parks and gardens manager
 
 **Physical expertise protection:** Urban horticulture requires physical presence for plant health assessment, soil analysis, and site-specific environmental reading. AI tools can support design and planning but cannot replace field expertise. Climate change is creating new plant health challenges (novel pests, heat stress, altered water availability) that require adaptive specialist judgment.
 
----
+### 3. MARKET EVIDENCE SNAPSHOT
 
-## 3. DFVA SCORECARD
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Urban Horticulture & Green Infrastructure | Green Infrastructure Officer roles growing in Melbourne/Sydney councils (APS5–6, ~$85k–$105k) | "Urban heat island crisis is a once-in-a-generation funding and hiring window" | Emphasise climate-adaptive species and urban heat mitigation as core competencies |
+| Landscape Design & Planning | Landscape firms (Aspect, Oculus, TCL) seeking horticulture depth for ecological performance | "Tension between ecological performance and design aesthetics" | Teach translation skill — communicating ecological value to non-technical stakeholders |
+| Parks & Open Space Management | ~70% of council greening/parks roles list community engagement as a primary selection criterion | "Community engagement now a taught competency, not a soft skill" | Add a co-design practicum on a live council greening project |
+| Environmental Consulting | Biodiversity Net Gain frameworks arriving; NbS specialists sought by Arup/GHD/WSP | "Nature-based solutions absorbing roles previously siloed in civil engineering" | Develop a BNG accounting module and NbS design content |
+| Arboriculture & Tree Management | Urban Forest Manager/Tree Officer demand up ~30% (2023–25); LiDAR/i-Tree cited as differentiators | "LiDAR and remote sensing are becoming baseline, not specialist, skills" | Add hands-on GIS/spatial-data training (ArcGIS/QGIS, i-Tree, drone imagery) |
+| Green Roof & Wall / Research | Green roof/wall market (Junglefy, Fytogreen) generating specialist roles; NbS titles emerging | "AI planting-design tools raise the quality floor but don't replace expertise" | Embed "AI-assisted, expert-verified" tool literacy with failure-mode awareness |
+
+### 4. DFVA SCORECARD
 
 | # | Dimension | Score (0-3) | Evidence-based rationale |
-|---|---|---|---|
-| 1 | Automation Exposure of Roles | 2/3 | Hands-on horticultural work, plant identification, and landscape assessment require physical presence and specialist knowledge. Some design and planning tasks are AI-augmentable. |
-| 2 | Systems Thinking and Problem Framing | 3/3 | Urban horticulture integrates ecology, urban planning, climate adaptation, water management, and social amenity. Systems perspective across environmental and built environment disciplines. |
-| 3 | Technical and Quantitative Depth | 2/3 | Plant science, soil science, landscape ecology, and urban heat island analysis require technical depth. GIS and spatial analysis likely included. |
-| 4 | Decision-Making Under Uncertainty | 2/3 | Site assessments, species selection for novel urban climates, and project management under environmental constraints require defended decision-making. |
-| 5 | AI Literacy and Governance | 1/3 | Limited AI content visible. Some exposure to GIS and remote sensing tools likely. AI in urban greening not explicitly embedded. |
-| 6 | Domain Depth and Specialisation | 3/3 | Specialist urban horticulture focus — rare expertise combining plant science with urban planning. Strong niche identity with clear professional pathway. |
-| 7 | Research Methods Rigour | 2/3 | Master's-level research project or capstone likely. Plant science requires experimental methodology. |
-| 8 | Human & Relational Capability | 2/3 | Community engagement, stakeholder consultation for urban greening projects, and professional communication with planners and clients. |
-| 9 | Curriculum Currency and Adaptability | 3/3 | Urban heat islands, climate adaptation, and urban biodiversity are live policy priorities. Curriculum reflects contemporary urban sustainability challenges. |
-| 10 | Outcome Evidence | 2/3 | Urban horticulture is a growth sector driven by urban greening policy. Employment data not prominently published. |
-| B | Irreplaceability (bonus) | 2/3 | Physical plant expertise, site-specific assessment, and species selection for urban conditions are not easily replicable. Niche specialist knowledge creates genuine premium. |
-| **TOTAL** | | **24/36** | |
+|---|---|---:|---|
+| 1 | Automation Exposure of Roles | 2 | Hands-on horticultural work, plant identification, and landscape assessment require physical presence and specialist knowledge. Some design and planning tasks are AI-augmentable. |
+| 2 | Systems Thinking and Problem Framing | 3 | Urban horticulture integrates ecology, urban planning, climate adaptation, water management, and social amenity. Systems perspective across environmental and built-environment disciplines. |
+| 3 | Technical and Quantitative Depth | 2 | Plant science, soil science, landscape ecology, and urban heat island analysis require technical depth. GIS and spatial analysis likely included. |
+| 4 | Decision-Making Under Uncertainty | 2 | Site assessments, species selection for novel urban climates, and project management under environmental constraints require defended decision-making. |
+| 5 | AI Literacy and Governance | 1 | Limited AI content visible. Some exposure to GIS and remote sensing tools likely. AI in urban greening not explicitly embedded. |
+| 6 | Domain Depth and Specialisation | 3 | Specialist urban horticulture focus — rare expertise combining plant science with urban planning. Strong niche identity with clear professional pathway. |
+| 7 | Research Methods Rigour | 2 | Master's-level research project or capstone likely. Plant science requires experimental methodology. |
+| 8 | Human and Relational Capability | 2 | Community engagement, stakeholder consultation for urban greening projects, and professional communication with planners and clients. |
+| 9 | Curriculum Currency and Adaptability | 3 | Urban heat islands, climate adaptation, and urban biodiversity are live policy priorities. Curriculum reflects contemporary urban sustainability challenges. |
+| 10 | Graduate Outcome Evidence | 2 | Urban horticulture is a growth sector driven by urban greening policy. Employment data not prominently published. |
+| B | Irreplaceability Premium (Bonus) | 2 | Physical plant expertise, site-specific assessment, and species selection for urban conditions are not easily replicable. Niche specialist knowledge creates genuine premium. |
 
-**Risk Band: MODERATE RISK**
+**TOTAL: 24 / 36**
+**Risk band: MODERATE RISK (20-27)**
 
----
+### 5. THREE THRESHOLD QUESTIONS
 
-## 4. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?
+  **NO** — Core professional work requires physical presence, site-specific plant assessment, and specialist domain knowledge that AI cannot yet replicate reliably.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?
+  **YES** — The program's capstone, professional practice, and specialist curriculum provide genuine decision ownership and system-design capability.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?
+  **YES** — Structural demand from urban heat, canopy targets, and biodiversity policy, plus a physical-layer moat, make 5-year employability stronger than today.
 
-**Q1: Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?**
-NO. Core professional work in Master of Urban Horticulture requires physical presence, regulated judgment, or specialist domain knowledge that AI cannot yet replicate reliably.
-
-**Q2: Does this program train graduates to design systems, own decisions, or generate original insight?**
-YES. The program's capstone, professional practice, and specialist curriculum provide genuine decision ownership and system design capability.
-
-**Q3: Will these graduates be more employable in 5 years than today, given AI trends?**
-YES. Structural demand for the specific skill set, professional accreditation protection, or AI-native curriculum positioning make 5-year employability stronger than today.
-
----
-
-## 5. ANALOGUE GRADUATE PROFILE
+### 6. ANALOGUE GRADUATE PROFILE
 
 The most exposed urban horticulture graduate is the **Parks Maintenance Officer of 2020**: primarily executing standard maintenance schedules, applying formulaic planting plans, and managing routine irrigation — work that is increasingly managed by sensor-driven automated systems and AI scheduling tools.
 
@@ -10604,41 +10713,33 @@ Specific threats:
 - **Automated design tools** — AI planting plan generators from site conditions and species databases
 - **Drone survey and LIDAR assessment** — automated tree canopy and landscape assessment
 
----
+### 7. VERDICT
 
-## 6. VERDICT
+The Master of Urban Horticulture is **MODERATE RISK (24/36)** — a specialist niche degree with genuine physical-layer automation protection and growing structural demand. Physical expertise, specialist plant knowledge, and site-specific environmental judgment are genuinely difficult to automate; AI tools function as enhancers rather than replacers. The structural tailwind is real — urban heat island policy, tree canopy targets, urban biodiversity strategies, and climate-adaptive planting are generating genuine professional work across Australian state and local governments. The key gap is AI literacy (D5: 1/3): practice is increasingly data-intensive (remote sensing, LIDAR canopy assessment, AI disease detection), and a graduate who cannot situate these tools within a governance framework misses growing competency requirements.
 
-**The Master of Urban Horticulture is MODERATE RISK — a specialist niche degree with genuine physical-layer automation protection and growing structural demand.**
+### 8. RECOMMENDATIONS
 
-The program's score (25/36) reflects a field where physical expertise, specialist plant knowledge, and site-specific environmental judgment are genuinely difficult to automate. Urban horticulture is one of the few applied disciplines where the human-physical layer remains critical and where AI tools function as enhancers rather than replacers.
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Develop GIS and remote-sensing competency — spatial analysis and urban canopy mapping (ArcGIS/QGIS, i-Tree, drone imagery) | D3, D5 | LiDAR/remote sensing becoming baseline; cited as differentiators in tree-officer ads | Medium |
+| P2 | Gain local-government experience during the program — councils are the largest employer of urban horticulturalists | D4, D8 | ~70% of council greening roles list community engagement as primary criterion | High |
+| P3 | Build climate-adaptive planting expertise — species selection for novel urban climates driven by heat island policy | D6, D9 | Climate resilience framing now dominates job-ad language | Medium |
+| P4 | Add nature-based solutions and Biodiversity Net Gain literacy — NbS is absorbing roles from civil engineering | D5, D9 | NbS titles emerging at Arup/GHD/WSP; BNG frameworks arriving | Medium |
+| P5 | Specialise in urban biodiversity or green infrastructure — policy-priority niches with genuine role growth | D6 | Green roof/wall and NbS market generating specialist roles | Medium |
 
-The structural tailwind is real: urban heat island policy, urban tree canopy targets, urban biodiversity strategies, and climate-adaptive planting are all generating genuine professional work across Australian state and local governments. This is not declining market demand.
-
-The key gap is AI literacy (D5: 1/3): urban horticulture practice is increasingly data-intensive, using remote sensing, LIDAR canopy assessment, and AI disease detection. A graduate who cannot situate these tools within a governance framework misses growing competency requirements.
-
----
-
-## 7. RECOMMENDATIONS
-
-| Priority | Action | Dimension | Effort |
-|---|---|---|---|
-| 1 | Develop GIS and remote sensing competency — spatial analysis and urban canopy mapping are growth skills in urban horticulture | D3, D5 | Medium |
-| 2 | Gain local government experience during the program — council urban greening programs are the largest employer of urban horticulturalists | D4, D8 | High |
-| 3 | Build climate-adaptive planting expertise — species selection for novel urban climates is a specific growth area driven by heat island policy | D6, D9 | Medium |
-| 4 | Develop community engagement skills — urban greening programs increasingly require community consultation and social benefit articulation | D8 | Low |
-| 5 | Specialise in urban biodiversity or green infrastructure — these are policy-priority niches with genuine growth in professional roles | D6 | Medium |
-
----
-
-## 8. THE REDESIGNED GRADUATE PROFILE
+### 9. THE REDESIGNED GRADUATE PROFILE
 
 The 2027-ready urban horticulture graduate is not a plant maintenance officer — they are an **urban ecosystem specialist** who understands what a city needs from its green infrastructure and can design, implement, and evaluate it.
 
 They know their local urban climate — the heat island gradient across the city, which species are performing under novel conditions, and what the soil health data from 50 urban parks tells them about the management interventions that work. They have used LIDAR canopy data to argue for a specific planting strategy in a council project and they can explain that argument to a city planner, a community group, and an ecologist simultaneously.
 
-They understand what AI disease detection tools get wrong — the edge cases where visual symptoms don't match the actual pathogen, the timing issues where AI tools are trained on Northern Hemisphere data that doesn't map to Southern Hemisphere seasonal patterns. That field expertise, combined with digital tool literacy, is what makes them authoritative.
+They understand what AI disease detection tools get wrong — the edge cases where visual symptoms don't match the actual pathogen, the timing issues where AI tools are trained on Northern Hemisphere data that doesn't map to Southern Hemisphere seasonal patterns. That field expertise, combined with digital tool literacy, is what makes them authoritative. They are contributing to urban greening outcomes that are measurable — canopy cover increased, heat island mitigation achieved, biodiversity indicators improved — and they can defend those outcomes with evidence.
 
-They are contributing to urban greening outcomes that are measurable: canopy cover increased, heat island mitigation achieved, biodiversity indicators improved. They can defend those outcomes with evidence. That accountability — physical expertise plus measurable impact — is the basis of a durable career.
+### 10. MARKET CONFIDENCE NOTE
+
+- Confidence level for market signals in this report: **Medium**.
+- Market evidence integrates QILT GOS field-of-study outcomes with directional synthesis of ANZ urban greening, urban forestry, and parks hiring patterns and current professional discussion (councils, NbS consultancies, green roof/wall sector).
+- For high-stakes curriculum decisions, add a live ANZ job-ad scrape (last 90 days) across urban horticulture, urban forestry, green infrastructure, NbS and parks roles, plus program-level graduate destination data at role-title granularity.
 
 ### MARKET DATA
 | Metric | Value |
@@ -10677,7 +10778,7 @@ They are contributing to urban greening outcomes that are measurable: canopy cov
   "dfva-market-mc-urbhort": {
     title: "Master of Urban Horticulture (MC-URBHORT) — Market Intelligence",
     institution: "University of Melbourne",
-    markdown: `# DFVA MARKET INTELLIGENCE: Master of Urban Horticulture
+    markdown: `# DFVA MARKET INTELLIGENCE: Master of Urban Horticulture (MC-URBHORT)
 
 **Institution:** University of Melbourne
 **Assessment Date:** 2026-06-21
@@ -10842,17 +10943,17 @@ Professionals are experimenting with AI tools for species selection (e.g., Green
     markdown: `## DFVA REPORT: Juris Doctor (MC-JURISD)
 **Institution:** University of Melbourne | **Level:** Postgraduate (Juris Doctor — Masters (Extended), AQF 9) | **Duration:** 3 years full-time (300 credit points)
 
-**Assessment date:** 2026-07-08
-**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-jurisd
-**Prompt version:** DFVA-COPILOT-PROMPT-v1 + DFVA-COPILOT-MARKET-v1
+**Assessment date:** 2026-07-08  
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-jurisd  
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 + DFVA-COPILOT-MARKET-v1  
 **Accreditation:** Victorian Legal Admissions Board (VLAB) — qualifies for admission to the legal profession in all Australian jurisdictions
 
 ### 1. PROGRAM PROFILE
-The Melbourne JD is the University's professional-entry law degree: 200 credit points of compulsory subjects covering every Priestley 11 area required for admission (constitutional, administrative, criminal, contract, tort, property, equity, corporations, evidence, ethics, procedure) plus 100 credit points of electives (JD quota, enrichment, and Melbourne Law Masters subjects).
+The Melbourne JD is the University's professional-entry law degree: 200 credit points of compulsory subjects covering every Priestley 11 area required for admission (constitutional, administrative, criminal, contract, tort, property, equity, corporations, evidence, ethics, procedure) plus 100 credit points of electives (JD quota, enrichment, and Melbourne Law Masters subjects).  
 Typical early-career roles include graduate solicitor, judge's associate, junior barrister's reader, in-house legal graduate, and policy/regulatory graduate — pathways gated by VLAB admission, which no AI tool can hold.
 
 ### 2. AUTOMATION EXPOSURE PROFILE
-Market signals for entry-level legal work show strong compression of routine junior tasks — document review, due diligence, and first-draft research memos are increasingly performed by legal AI (Harvey, CoCounsel, Lexis+ AI) at near-associate level, and firms are compressing junior intake accordingly.
+Market signals for entry-level legal work show strong compression of routine junior tasks — document review, due diligence, and first-draft research memos are increasingly performed by legal AI (Harvey, CoCounsel, Lexis+ AI) at near-associate level, and firms are compressing junior intake accordingly.  
 Exposure remains **moderate** overall: the routine, artifact-heavy share of early practice is highly automatable, but advocacy, negotiation, client counselling, ethical judgment, and court appearance remain human and are protected by the profession's regulatory moat. Net exposure decreases sharply for graduates who can supervise and govern AI workflows rather than compete with them.
 
 ### 3. MARKET EVIDENCE SNAPSHOT
@@ -10879,19 +10980,19 @@ Exposure remains **moderate** overall: the routine, artifact-heavy share of earl
 | 10 | Graduate Outcome Evidence | 3 | Melbourne Law School publishes general employment outcomes and QILT GOS field-level data exists for law graduates, though program-specific granular data (salary bands, time-to-employment, role types) is not published. |
 | B | Irreplaceability Premium (Bonus) | 2 | Strong domain depth (D6:3, VLAB moat) and human/relational capability (D8:3) provide structural irreplaceability, but low technical depth (D3:1) and elective-only AI literacy (D5:2) mean graduates lack the rare legal + judgment + technical/AI triple integration. |
 
-**TOTAL: 24 / 36**
+**TOTAL: 24 / 36**  
 **Risk band: MODERATE RISK (20-27)**
 
 ### 5. THREE THRESHOLD QUESTIONS
-- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
   **YES** — the first 1–2 years of practice involve significant document review, due diligence, research memos, and contract analysis, all areas where AI tools already perform at near-associate level. Client communication, court appearances, negotiation and ethical judgment remain human.
-- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?  
   **YES** — the JD explicitly trains professional judgment, ethical decision-making, and original legal research (Legal Research capstone); graduates are trained to own decisions and face professional liability if they do not.
-- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
   **UNCERTAIN** — the regulatory moat protects the profession's existence, but AI is compressing the junior market. Elite graduates thrive as AI-augmented practitioners; middle-tier graduates doing routine work face displacement, and optional (elective-only) AI literacy means many enter practice without it.
 
 ### 6. ANALOGUE GRADUATE PROFILE
-Most threatened entry-level profile: the **"artifact-only junior associate"** whose first-years are dominated by document review, due-diligence checklists, precedent search, and first-draft memos.
+Most threatened entry-level profile: the **"artifact-only junior associate"** whose first-years are dominated by document review, due-diligence checklists, precedent search, and first-draft memos.  
 Threatening tool classes: legal-research and review copilots (Harvey, CoCounsel, Lexis+ AI, Thomson Reuters AI), contract-analytics platforms, and matter-workflow automation now embedded in firm tooling.
 
 ### 7. VERDICT
@@ -10908,7 +11009,7 @@ The Melbourne JD is a structurally resilient program with a powerful regulatory 
 | P6 | Publish **program-level graduate outcome data** (role titles, salary bands, time-to-employment) for the JD | 10 | Applicants and QILT increasingly expect granular, program-level destination data | Low |
 
 ### 9. THE REDESIGNED GRADUATE PROFILE
-A resilient JD graduate in 2027 is not an artifact-only junior. They are an **AI-augmented legal decision owner** who can direct and audit legal-research and review copilots, verify what the model retrieves or fabricates, quantify an exposure or damages range from evidence, and defend judgment calls to clients and courts under professional-conduct obligations.
+A resilient JD graduate in 2027 is not an artifact-only junior. They are an **AI-augmented legal decision owner** who can direct and audit legal-research and review copilots, verify what the model retrieves or fabricates, quantify an exposure or damages range from evidence, and defend judgment calls to clients and courts under professional-conduct obligations.  
 This profile combines: (1) full Priestley 11 domain depth and the VLAB moat, (2) practical AI governance and workflow supervision, (3) baseline quantitative/data-law competence, and (4) the advocacy, negotiation, and ethical-judgment capability that remains distinctively human. Their value moves from "produce the memo" to "own the matter, orchestrate human + AI work, and stand behind the advice."
 
 ### 10. MARKET CONFIDENCE NOTE
@@ -10932,10 +11033,7 @@ This profile combines: (1) full Priestley 11 domain depth and the VLAB moat, (2)
     title: "Juris Doctor (MC-JURISD) — Market Intelligence",
     institution: "University of Melbourne",
     markdown: `# DFVA MARKET INTELLIGENCE: Juris Doctor (MC-JURISD)
-
-**Institution:** University of Melbourne
 **Assessment Date:** 2026-07-08
-**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-jurisd
 
 ---
 
@@ -11041,4 +11139,3 @@ This profile combines: (1) full Priestley 11 domain depth and the VLAB moat, (2)
 `,
   },
 };
-

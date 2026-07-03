@@ -1,10 +1,6 @@
-// One-off backfill: report bodies generated from reports/dfva-*.md
-// Report bodies for doctorate/PhD/stub programs added to the registry but not
-// previously surfaced in the app UI. Spread into REPORT_CONTENT in reportContent.ts.
-export const REPORT_CONTENT_DOCTORATES: Record<
-  string,
-  { title: string; institution: string; markdown: string }
-> = {
+// Auto-generated from reports/*.md by scripts/dfva-content-generate.ts — do not edit by hand.
+// Run: npm --prefix scripts run dfva:gen-content
+export const REPORT_CONTENT_DOCTORATES: Record<string, { title: string; institution: string; markdown: string }> = {
   "dfva-dr-phileit": {
     title: "Doctor of Philosophy - Engineering and IT (DR-PHILEIT) — DFVA Assessment",
     institution: "University of Melbourne",
@@ -2103,7 +2099,7 @@ This graduate's durable value proposition strengthens rather than weakens under 
 `,
   },
   "dfva-market-dr-philmdh": {
-    title: "Doctor of Philosophy - Medicine, Dentistry and Health Sciences (DR-PHILMDH) — Market Intelligence",
+    title: "Doctor of Philosophy - Medicine, Dentistry and Health Sciences (dr-philmdh) — Market Intelligence",
     institution: "University of Melbourne",
     markdown: `# DFVA MARKET INTELLIGENCE: Doctor of Philosophy - Medicine, Dentistry and Health Sciences (dr-philmdh)
 **Assessment Date:** 2026-07-02
@@ -3850,7 +3846,7 @@ Their PhD strand produces genuinely novel empirical or theoretical contributions
 `,
   },
   "dfva-recommend-080cl": {
-    title: "Master of Psychology (Clinical Psychology)/Doctor of Philosophy — Improvement Plan",
+    title: "Master of Psychology (Clinical Psychology)/Doctor of Philosophy (080CL) — Improvement Plan",
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: Master of Psychology (Clinical Psychology)/Doctor of Philosophy (080CL)
 
@@ -5043,7 +5039,7 @@ Concretely, this means the examination criteria should be periodically recalibra
 `,
   },
   "dfva-market-dh-lld": {
-    title: "Doctor of Laws (DH-LLD) — Market Intelligence",
+    title: "Doctor of Laws ([DH-LLD]) — Market Intelligence",
     institution: "University of Melbourne",
     markdown: `# DFVA MARKET INTELLIGENCE: Doctor of Laws ([DH-LLD])
 **Assessment Date:** 2026-07-02
@@ -6442,7 +6438,7 @@ Because the DH-SC has no career-stage salary ladder (candidates are already seni
 `,
   },
   "dfva-recommend-dh-sc": {
-    title: "Doctor of Science — Improvement Plan",
+    title: "Doctor of Science (DH-SC) — Improvement Plan",
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: Doctor of Science (DH-SC)
 
