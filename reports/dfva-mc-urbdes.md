@@ -1,6 +1,10 @@
 ## DFVA REPORT: Master of Urban Design (MC-URBDES)
+
 **Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 pts)
-**Assessment date:** 2026-06-09 | **Source:** https://handbook.unimelb.edu.au/2026/courses/mc-urbdes
+
+**Assessment date:** 2026-06-09
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-urbdes
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 (live Hermes LLM scoring) + DFVA-COPILOT-MARKET-v1
 
 ### 1. PROGRAM PROFILE
 The Master of Urban Design is a 200-credit-point program built around four sequential design studios (100pt total) plus a 25pt Urban Design Thesis capstone. Core subjects include Urban Design Theory, Planning Law & Statutory Planning, The Economies of Cities and Regions, and Strategic Plan Making. Electives span urban design theory (Inclusive Cities, Informal Settlement), urban design practice (GIS, Computational Design, Resilient Settlements, Environmental Systems), and urban planning (Climate Change Planning, Housing Policy, Participatory Planning).
@@ -15,12 +19,12 @@ The structural defence is the studio + thesis model: 125 of 200 points are studi
 ### 3. MARKET EVIDENCE SNAPSHOT
 | Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
 |---|---|---|---|
-| Urban Design | Masterplan preparation, urban form analysis, design guidelines authoring, 3D massing studies, design review inputs | **MEDIUM** | Parametric modelling, climate-responsive design, urban heat island analysis, digital twin fluency |
-| Urban Planning | Planning permit assessment, policy interpretation, heritage overlays, statutory approvals, development facilitation | **LOW-MEDIUM** | Digital planning portals, environmental planning law, GIS-based assessment, traffic impact fluency |
-| Landscape Architecture | Public realm design, open space planning, native planting specification, WSUD integration, construction documentation | **LOW-MEDIUM** | Biodiversity net gain frameworks, climate-adaptive planting, parametric grading tools |
-| Urban Strategy | Economic development strategies, urban renewal frameworks, housing supply analysis, liveability benchmarking | **MEDIUM** | Data analytics, housing economics, scenario modelling, policy co-design |
-| Place-Making Consulting | Activation strategies, stakeholder engagement, cultural mapping, wayfinding design, programming | **LOW** | Co-design facilitation, CALD community engagement, social impact assessment, place brand development |
-| Digital Urban Analytics | Pedestrian count analysis, land use change detection, walkability scoring, transport modelling inputs | **MEDIUM-HIGH** | Python/R for spatial analysis, AI-assisted satellite image analysis, dashboard development |
+| Urban Design | Consultancies (Arup, Jacobs, GHD, Urbis) list Forma/Esri and "generative design tools" as required, not desirable | "AI will design the form but humans must hold the values" | Compulsory AI-assisted urban form generation module; embed Forma in studio |
+| Urban Planning | Housing Statement rezoning drove a spike in statutory planning officer roles across 2024–2025 | "Statutory planning literacy is now a core urban designer competency" | Keep statutory planning grounding accessible to urban design graduates |
+| Landscape Architecture | Strong ANZ demand in infrastructure and urban renewal; AILA accreditation pathway | "Climate resilience (WSUD, urban heat, biodiversity) as a gate requirement" | Mandate climate-resilience assessment criteria in all studio briefs |
+| Urban Strategy | Strategic/policy roles partially AI-augmented for data synthesis; judgment on trade-offs stays human | "Affordability and housing supply as the defining design challenge" | Add built-environment economics: land value, feasibility, value capture |
+| Place-Making Consulting | New activation/engagement roles at Lendlease, Mirvac, Creative Victoria — a job category new since 2022 | "Place-making reframed as social-infrastructure investment" | Partner with place-making orgs for assessed capstone placements |
+| Digital Urban Analytics | AI automates routine spatial processing; value shifts to interpretation and integration | "Digital twin — be an intelligent consumer, not a data engineer" | Python/R spatial analysis + ability to read and critique digital-twin outputs |
 
 ### 4. DFVA SCORECARD
 | # | Dimension | Score (0-3) | Evidence-based rationale |
@@ -37,12 +41,16 @@ The structural defence is the studio + thesis model: 125 of 200 points are studi
 | 10 | Graduate Outcome Evidence | 2 | No granular destination data. PIA accreditation provides external validation. |
 | B | Irreplaceability Premium (Bonus) | 3 | Rare: design creativity + urban systems + community engagement + PIA accreditation. Physical/creative/relational skills resist AI. |
 
-**TOTAL: 26 / 36 — MODERATE RISK**
+**TOTAL: 27 / 36**
+**Risk band: MODERATE RISK (20-27)**
 
 ### 5. THREE THRESHOLD QUESTIONS
-- **Q1:** NO — Design studios require creative, contextual, and community-engaged work that AI cannot replicate.
-- **Q2:** YES — Four studios + thesis require sustained design decision ownership and defended trade-offs.
-- **Q3:** YES — Urban design demand grows with urbanization, climate adaptation, and infrastructure investment.
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?
+  **NO** — Design studios require creative, contextual, and community-engaged work that AI cannot replicate.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?
+  **YES** — Four studios + thesis require sustained design decision ownership and defended trade-offs.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?
+  **YES** — Urban design demand grows with urbanization, climate adaptation, and infrastructure investment.
 
 
 ### 6. ANALOGUE GRADUATE PROFILE
@@ -61,14 +69,14 @@ Specific threats:
 This program's structural strength is its studio model. Four sequential design studios plus a thesis create graduates whose core capability — creative urban design with community and systems awareness — resists AI substitution. The PIA accreditation pathway adds professional credibility. The AI literacy gap (D5: score 1) is the primary opportunity — adding computational urban design with AI methods would strengthen an already-solid program without compromising its design core.
 
 ### 8. RECOMMENDATIONS
-| Priority | Action | Dimensions | Effort |
-|---|---|---|---|
-| P1 | Publish graduate destination data | D10 | Medium |
-| P1 | Add computational urban design + AI in planning module | D5 | Medium |
-| P2 | Address electives not available in 2026 — curriculum stability | D9 | Medium |
-| P2 | Establish industry advisory panel with annual review | D9 | Low |
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Add computational urban design + AI-in-planning module (Forma/Delve/TestFit; generative feasibility) | D5 | Consultancies now list generative design tools as a required skill | Medium |
+| P2 | Publish graduate destination data (12- and 36-month, role-title + employer sector) | D10 | Destination data absent at role-title granularity | Medium |
+| P3 | Add built-environment economics (land value, feasibility, value capture) to the design core | D3 | "Graduates fluent in development economics are rare and hireable" | Medium |
+| P4 | Address electives not available in 2026 and establish an industry advisory panel with annual review | D9 | Curriculum lag risk as tool requirements accelerate | Low |
 
-**Path to RESILIENT:** P1 actions → 28/36 RESILIENT.
+**Path to RESILIENT:** P1 + P2 actions → 28/36 RESILIENT.
 
 
 ### 9. THE REDESIGNED GRADUATE PROFILE
@@ -81,13 +89,11 @@ They understand what AI urban design tools optimise for — density, sunlight ac
 
 They work at the intersection of design expertise, community accountability, and regulatory navigation. That intersection — requiring design judgment, political literacy, and genuine stakeholder trust — is the place where urban design's human value is most concentrated and most irreplaceable.
 
----
+### 10. MARKET CONFIDENCE NOTE
 
----
-
-**Assessment date:** 2026-06-09
-**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-urbdes
-**Prompt version:** DFVA-COPILOT-PROMPT-v1 (live Hermes LLM scoring)
+- Confidence level for market signals in this report: **Medium**.
+- Market evidence integrates QILT GOS field-of-study outcomes with directional synthesis of ANZ urban design and planning hiring patterns (state government, large consultancies, place-making sector) and current professional discussion (PIA, AILA).
+- For high-stakes curriculum decisions, add a live ANZ job-ad scrape (last 90 days) confirming whether Forma and parametric GIS are listed as required vs desirable, plus program-level graduate destination data at role-title and employer-sector granularity.
 
 ### MARKET DATA
 | Metric | Value |

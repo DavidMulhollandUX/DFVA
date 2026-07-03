@@ -1,6 +1,9 @@
 ## DFVA REPORT: Doctor of Philosophy - Architecture, Building and Planning (DR-PHILABP)
 **Institution:** University of Melbourne | **Level:** Graduate Research, AQF Level 10 | **Duration:** 4 years full-time, or equivalent part-time
-**Assessment date:** 2026-07-02 | **Source:** https://handbook.unimelb.edu.au/2026/courses/dr-philabp
+
+**Assessment date:** 2026-07-02  
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/dr-philabp  
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 + DFVA-COPILOT-MARKET-v1  
 
 ### 1. PROGRAM PROFILE
 The Doctor of Philosophy - Architecture, Building and Planning is a built-environment research doctorate spanning six sub-disciplines: Architecture, Construction Management, Landscape Architecture, Property, Urban Design, and Urban Planning. Candidates undertake an independent, supervised original research project culminating in a thesis, examined externally, that makes a genuine contribution to knowledge in one of these fields. As with all University of Melbourne PhDs, the structure is candidature-based rather than coursework-based: confirmation milestone, progress review, thesis writing, and oral/written examination, with discipline-specific research training embedded via the Faculty of Architecture, Building and Planning's research higher degree program.
@@ -9,7 +12,7 @@ Because the six sub-disciplines differ materially in method and labour-market ex
 
 Typical graduate destinations are academic and research posts (lecturer/postdoc pathways in architecture, planning, and construction schools), government planning and infrastructure agencies (state planning departments, urban policy units, heritage bodies), specialist research and advisory consultancies (property economics, construction economics, urban analytics, environmental/landscape assessment), and senior technical-research roles inside design practices, developers, and infrastructure delivery bodies. There is no single professional accreditation body governing the PhD itself (unlike the accredited Master of Architecture or Master of Urban Planning); the PhD is a research credential that sits above, and is often taken after, an accredited practice qualification.
 
-## 2. AUTOMATION EXPOSURE PROFILE
+### 2. AUTOMATION EXPOSURE PROFILE
 
 | Task Category | Example Graduate Tasks | AI Pressure | AI Capability Today | Durability Rationale |
 |---|---|---|---|---|
@@ -19,15 +22,23 @@ Typical graduate destinations are academic and research posts (lecturer/postdoc 
 | Fieldwork, Case Study & Stakeholder Research | Site visits, community/stakeholder interviews, planning consultation analysis, construction site case studies | LOW | Weak — AI can transcribe and code qualitative data but cannot conduct situated fieldwork, build trust with communities/industry informants, or make real-time judgment calls in the field | Primary evidence generation in the physical and social world is inherently human; this is a large share of Urban Planning, Property, and Construction Management thesis work |
 | Regulatory, Policy & Standards Interpretation | Analysing planning schemes, building codes, heritage listings, property law, and their application to a research problem | MEDIUM | Moderate — AI can summarise and cross-reference regulatory text well, but interpreting ambiguous or contested policy application (the actual research contribution) is harder | Genuine research value lies in identifying where regulation fails or should change, not in retrieving what it currently says |
 | Academic & Technical Writing (thesis, papers) | Drafting chapters, structuring arguments, responding to reviewer/examiner critique | MEDIUM | Strong for drafting assistance, weak for defending a novel argument under sustained expert challenge | AI materially speeds prose production; it cannot survive an oral examination or peer review on its own authority, so the credentialing bottleneck (defending original work) remains human |
-| Quantitative Modelling (Property/Construction Economics) | Hedonic pricing models, cost forecasting, feasibility modelling, construction productivity analysis | MEDIUM | Moderate-to-strong — AI/ML forecasting tools are increasingly standard in property and construction economics research | Model-building is being tooled up; the research contribution is in identifying what to model and why current models fail, which resists full automation |
-| Teaching & Research Translation | Sessional tutoring, translating research into studio/policy-practice teaching, public/industry engagement | LOW | Weak — teaching and stakeholder translation depend on relational trust and situated communication AI does not replicate at the standard required for academic employment | This is a core part of the PhD-to-academia pathway and is durable precisely because it is relational, not just informational |
 
 **Overall Section Exposure:** MEDIUM
 
 **Durability Assessment:** The PhD in Architecture, Building and Planning sits in a structurally durable position because doctoral training is, by definition, training in producing an *original* contribution defended under expert scrutiny — the one output category current generative AI cannot yet substitute for. The exposure that exists is concentrated in the surrounding labour (literature synthesis, routine spatial/quantitative analysis, first-draft prose) rather than in the core competency being credentialed. The degree's durability varies meaningfully across its six sub-disciplines: design-research streams (Architecture, Landscape Architecture, Urban Design) and fieldwork-heavy streams (Urban Planning) are most durable because their evidence base is situated and relational; the more quantitative streams (Property, Construction Management) face somewhat higher tooling pressure on the analytical middle of the research process, though the framing and interpretation layer remains human. The degree's principal vulnerability is not displacement of the credentialed researcher but a shrinking academic and consultancy hiring market if institutions substitute AI-assisted synthesis for the kind of junior research-associate roles PhD graduates have historically used as a stepping stone.
 
-###  3. DFVA SCORECARD
-| # | Dimension | Score (0-3) | Rationale |
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Academic / Postdoctoral Research | Postdoc roles in urban planning/policy still funded (ARC Linkage, state government partnerships) | "AI compresses time-to-publication rather than displacing the role" | Embed AI-assisted synthesis literacy without diluting original-contribution training |
+| Government Planning & Policy Research | PhD-qualified staff increasingly sought for evidence-based policy roles | "Final policy judgment remains human and politically accountable" | Reinforce regulatory-interpretation and reform-oriented judgment |
+| Property & Construction Economics Consultancy | PhD-preferred research economist roles listing AI/ML forecasting fluency as a differentiator | "Highest tooling pressure of the six streams; econometrics alone no longer sufficient" | Offer a cross-stream quantitative/AI-methods floor |
+| Urban Design & Landscape Research Practice | New "design research" roles created to critically evaluate generative AI design tools | "AI adoption is creating new PhD-relevant roles, not just eliminating old ones" | Embed generative-AI critical-evaluation into design-research training |
+| Heritage, Environmental & Regulatory Assessment | Heritage/statutory roles require accredited human sign-off | "Judgment-heavy, legally accountable work largely insulated from AI" | Surface fieldwork and stakeholder-engagement competency explicitly |
+| Generalist Research Assistant (feeder pool) | Anecdotal contraction in task-execution RA postings as AI absorbs lit review/data prep | "The exposed segment sits below the PhD, in the RA feeder pool" | Redesign RA-to-candidate pipeline toward AI-tool-augmented roles |
+
+### 4. DFVA SCORECARD
+| # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---:|---|
 | 1 | Automation Exposure of Roles | 3 | Doctoral research output is judged on originality and defensibility under oral/written examination — the least automatable form of professional output that exists; graduate destinations (academia, senior policy/research roles) require judgment and accountability from entry. |
 | 2 | Systems Thinking and Problem Framing | 3 | The entire candidature is an exercise in framing an original research question, defending its scope, and reasoning about method and constraint under supervisory and examiner challenge — this is the core doctoral competency, assessed continuously via confirmation and progress milestones. |
@@ -35,23 +46,26 @@ Typical graduate destinations are academic and research posts (lecturer/postdoc 
 | 4 | Decision-Making Under Uncertainty | 3 | A 3-4 year independent research project with no scripted answer is the definitional case of decision-making under uncertainty — candidates must defend method choices, pivot when data/fieldwork doesn't cooperate, and justify conclusions to external examiners. |
 | 5 | AI Literacy and Governance | 1 | No dedicated AI governance content is evident in the generic handbook description; built-environment research increasingly uses AI-assisted GIS, generative design, and forecasting tools, but critical supervision of AI's role in research integrity (a live and contested issue in doctoral training generally) is not a stated program feature. |
 | 6 | Domain Depth and Specialisation | 3 | Candidates develop deep, singular expertise in a specific built-environment sub-field (e.g., heritage planning law, timber construction productivity, landscape ecology) over 3-4 years — the definition of durable, hard-to-replicate specialist knowledge. |
-| 7 | Research Methods Rigour 3 | 3 | The entire degree is the generation of primary evidence (fieldwork, case studies, spatial data, design propositions, or quantitative modelling) and defending that methodology to external examiners — the strongest possible expression of this dimension. |
+| 7 | Research Methods Rigour | 3 | The entire degree is the generation of primary evidence (fieldwork, case studies, spatial data, design propositions, or quantitative modelling) and defending that methodology to external examiners — the strongest possible expression of this dimension. |
 | 8 | Human and Relational Capability | 2 | Fieldwork, stakeholder/community engagement (planning, property, construction contexts), and supervisory relationships build real relational capability, though this is incidental to the research training rather than an explicitly assessed competency the way it would be in a clinical degree. |
 | 9 | Curriculum Currency and Adaptability | 1 | Research doctorates are individually supervised rather than centrally curriculum-refreshed; the handbook shows no evidence of an AI-specific update cycle or advisory-board feedback loop of the kind coursework programs increasingly publish. |
 | 10 | Graduate Outcome Evidence | 1 | No granular destination data (academic placement rates, time-to-first-role, industry vs. academia split by sub-discipline) is published in the handbook or generally available at this level of detail for research doctorates. |
-| B | Irreplaceability Premium (bonus) | 3 | The combination of deep sub-discipline domain expertise, rigorous original-research method, and an externally examined defensible contribution is a rare integration that is structurally resistant to AI substitution — this is the strongest possible expression of the bonus dimension. |
+| B | Irreplaceability Premium (Bonus) | 3 | The combination of deep sub-discipline domain expertise, rigorous original-research method, and an externally examined defensible contribution is a rare integration that is structurally resistant to AI substitution — this is the strongest possible expression of the bonus dimension. |
 
-**TOTAL: 25/36 — MODERATE RISK**
+**TOTAL: 25 / 36**  
+**Risk band: MODERATE RISK (20-27)**  
 
-Note: the raw sum (3+3+2+3+1+3+3+2+1+1+3 = 25) places the program just inside MODERATE RISK on the house convention's /36 nominal ceiling, driven down almost entirely by the two structural, fixable gaps (D9 curriculum currency, D10 outcome evidence tracking) and the AI-literacy gap (D5) — not by any weakness in the core research competency, which scores at or near ceiling throughout (D1, D2, D4, D6, D7, B).
+Note: the raw sum (3+3+2+3+1+3+3+2+1+1+3 = 25) places the program just inside MODERATE RISK, driven down almost entirely by the two structural, fixable gaps (D9 curriculum currency, D10 outcome evidence tracking) and the AI-literacy gap (D5) — not by any weakness in the core research competency, which scores at or near ceiling throughout (D1, D2, D4, D6, D7, B).
 
-### 4. THREE THRESHOLD QUESTIONS
-- **Q1:** NO — a well-prompted AI agent cannot produce a defensible original doctoral contribution examined by external experts; it can accelerate the surrounding literature/drafting labour but not the framing, fieldwork, or defence that constitute the actual output.
-- **Q2:** YES — the PhD's entire structure is training graduates to design a research system (question, method, evidence base), own the resulting claims, and generate original insight defended under scrutiny; this is the definitional case for this threshold question.
-- **Q3:** UNCERTAIN — the core research competency will remain valuable, but the *volume* of academic and entry-research-associate roles PhD graduates traditionally step into is exposed to AI-assisted compression in adjacent industries (consultancy, government research units), so employability of the credential is durable while the labour market absorbing graduates may narrow.
+### 5. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
+  **NO** — a well-prompted AI agent cannot produce a defensible original doctoral contribution examined by external experts; it can accelerate the surrounding literature/drafting labour but not the framing, fieldwork, or defence that constitute the actual output.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?  
+  **YES** — the PhD's entire structure is training graduates to design a research system (question, method, evidence base), own the resulting claims, and generate original insight defended under scrutiny; this is the definitional case for this threshold question.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
+  **UNCERTAIN** — the core research competency will remain valuable, but the *volume* of academic and entry-research-associate roles PhD graduates traditionally step into is exposed to AI-assisted compression in adjacent industries (consultancy, government research units), so employability of the credential is durable while the labour market absorbing graduates may narrow.
 
-## 5. ANALOGUE GRADUATE PROFILE
-
+### 6. ANALOGUE GRADUATE PROFILE
 The most exposed graduate archetype of ~2021-2022 tied to this degree is the **Junior Research Associate / Research Assistant** feeding a PhD candidate's or academic's broader research program — someone spending the bulk of their time on literature review compilation, GIS data preparation, transcription and qualitative coding, and first-pass drafting, rather than the framing and defence work that the doctorate itself credentials.
 
 Specific tools/platforms threatening that archetype's tasks:
@@ -61,25 +75,37 @@ Specific tools/platforms threatening that archetype's tasks:
 - **Otter.ai / AI qualitative coding tools (e.g. Delve, ATLAS.ai features)** — transcription and first-pass thematic coding of interview/consultation data
 - **ChatGPT/Claude-class LLMs for first-draft prose** — compress the drafting time of literature reviews and methods sections
 
-### 6. VERDICT
+### 7. VERDICT
 The Doctor of Philosophy - Architecture, Building and Planning is structurally well-positioned against AI disruption because its central output — an original, defensible contribution to knowledge, examined by experts — is precisely the category of work current AI cannot substitute for; the degree scores at or near ceiling on every dimension measuring the actual research competency (framing, decision-making under uncertainty, domain depth, methods rigour, irreplaceability). Its MODERATE RISK banding is driven not by exposure of the core credential but by two fixable institutional gaps — the absence of explicit AI-literacy/governance training for a generation of researchers who will use AI tools throughout their careers, and thin public evidence of graduate destination outcomes across the six sub-disciplines — plus the generic, individually-supervised nature of research degrees making systematic curriculum currency harder to demonstrate than in coursework programs. Closing those specific gaps, rather than restructuring the research training itself, is the fastest path to RESILIENT.
 
-## 7. RECOMMENDATIONS
-| Priority | Action | Dimension | Effort |
-|---|---|---|---|
-| 1 | Introduce a mandatory AI-in-research-integrity module at confirmation stage covering generative AI use in literature review, data analysis, and drafting, plus disclosure norms for theses and publications | D5 | Low |
-| 2 | Publish granular graduate destination tracking by sub-discipline (Architecture / Construction Management / Landscape Architecture / Property / Urban Design / Urban Planning) — academic placement, government, consultancy, time-to-first-role | D10 | Medium |
-| 3 | Establish a faculty-level AI tooling literacy stream (AI-assisted GIS, generative design, LLM-assisted literature synthesis) so candidates critically supervise rather than passively adopt these tools in their research method chapters | D5, D9 | Medium |
-| 4 | Create a standing RHD curriculum advisory feedback loop (industry + academic alumni panel) reviewed annually to demonstrate currency, mirroring practice-degree accreditation cycles | D9 | Medium |
-| 5 | Formalise a cross-stream quantitative methods floor (spatial statistics, economic/cost modelling basics) available to design-research candidates who want it, narrowing the technical-depth variance across the six sub-disciplines | D3 | Medium |
-| 6 | Expand structured research-assistant-to-candidate pathways with explicit AI-tool-augmented RA roles, so the entry-level labour market absorbing early-career researchers evolves alongside the tools rather than shrinking under them | D1, Q3 | High |
-| 7 | Add a stakeholder/community engagement competency statement to candidature milestones for Urban Planning and Property streams, making the relational capability already present in fieldwork an explicitly assessed and visible dimension | D8 | Low |
+### 8. RECOMMENDATIONS
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Introduce a mandatory AI-in-research-integrity module at confirmation stage covering generative AI use in literature review, data analysis, and drafting, plus disclosure norms for theses and publications | 5 | RA contraction + design-research role signals | Low |
+| P2 | Publish granular graduate destination tracking by sub-discipline (Architecture / Construction Management / Landscape Architecture / Property / Urban Design / Urban Planning) — academic placement, government, consultancy, time-to-first-role | 10 | All six job families; thin destination data | Medium |
+| P3 | Establish a faculty-level AI tooling literacy stream (AI-assisted GIS, generative design, LLM-assisted literature synthesis) so candidates critically supervise rather than passively adopt these tools in their research method chapters | 5, 9 | Property/construction + design-research signals | Medium |
+| P4 | Create a standing RHD curriculum advisory feedback loop (industry + academic alumni panel) reviewed annually to demonstrate currency, mirroring practice-degree accreditation cycles | 9 | All job families | Medium |
+| P5 | Formalise a cross-stream quantitative methods floor (spatial statistics, economic/cost modelling basics) available to design-research candidates who want it, narrowing the technical-depth variance across the six sub-disciplines | 3 | Property/construction economics consultancy signal | Medium |
+| P6 | Expand structured research-assistant-to-candidate pathways with explicit AI-tool-augmented RA roles, so the entry-level labour market absorbing early-career researchers evolves alongside the tools rather than shrinking under them | 1 | RA contraction signal | High |
+| P7 | Add a stakeholder/community engagement competency statement to candidature milestones for Urban Planning and Property streams, making the relational capability already present in fieldwork an explicitly assessed and visible dimension | 8 | Heritage / statutory planning signal | Low |
 
-## 8. THE REDESIGNED GRADUATE PROFILE
+### 9. THE REDESIGNED GRADUATE PROFILE
 The 2027-ready graduate of this PhD is a built-environment researcher who pairs deep sub-discipline expertise — whether in heritage planning law, landscape ecology, construction productivity economics, or design-research methodology — with fluent, critical use of AI tooling across the research pipeline: using generative GIS and design tools to explore option spaces faster, using LLM-assisted synthesis to survey literature at scale while personally verifying and framing the genuine gap, and treating AI outputs as a starting hypothesis to interrogate rather than a finished analysis to accept.
 
 This graduate is distinguished from their AI-augmented tools not by working harder at tasks AI can do, but by owning the parts AI structurally cannot: original problem framing, fieldwork and stakeholder trust-building, defensible methodological judgment under expert examination, and the accountability of putting their name to a claim about how the built environment does or should work. Their career pathway — academia, government planning and infrastructure agencies, or specialist research consultancies — increasingly demands exactly this hybrid: technically fluent with AI-era tools, but irreplaceable as the source of original, defended insight.
 
-**Assessment date:** 2026-07-02
-**Source URL:** https://handbook.unimelb.edu.au/2026/courses/dr-philabp
-**Prompt Version:** DFVA-COPILOT-PROMPT-v1
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Low–Medium** — core research/examination durability is HIGH confidence (structurally grounded in how doctoral credentialing works), but job-ad signals and salary bands are reasoned from structural built-environment labour-market knowledge, not a live scrape.
+- Job family mapping across the six sub-disciplines is MEDIUM confidence; the differential AI-exposure claim (design-research streams more durable than quantitative streams) is a reasoned hypothesis, not empirically tested against Australian consultancy hiring/redundancy data.
+- Before institutional use, validate signals against Seek/LinkedIn/government job boards, validate salary bands against a built-environment remuneration survey (AIQS/PIA), and build sub-discipline-level graduate destination tracking — the single highest-value data gap.
+
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Architecture, Building and Planning (research doctorate) |
+| Full-time employment (4-6mo) | Not published at sub-discipline granularity for research doctorates |
+| Median starting salary | AU$80k–120k entry (triangulated, LOW confidence; academia/government/consultancy vary by stream) |
+| Employment (3yr) | Not published at this granularity; academic labour market structurally tightening |
+| Occupation demand | Durable in heritage/statutory/design-research niches; RA feeder pool contracting |
+| AI automation exposure | MEDIUM (concentrated in literature synthesis, routine spatial/quantitative analysis, first-draft prose) |
+| Sources | UoM Handbook 2026 (dr-philabp); structural Australian built-environment labour-market knowledge; salary triangulation (LOW confidence, requires AIQS/PIA validation) |

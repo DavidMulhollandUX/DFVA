@@ -1,11 +1,9 @@
-## DFVA REPORT: MC-INTEDIB
-**Institution:** University of Melbourne  
-**Level:** Master (Coursework)  
-**Duration:** 2 years (200 credit points)
+## DFVA REPORT: Master of International Education (IB) (MC-INTEDIB)
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 credit points)
 
 **Assessment date:** 2026-06-20  
 **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-intedib  
-**Prompt version:** DFVA-COPILOT-PROMPT-v1
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 + DFVA-COPILOT-MARKET-v1
 
 ### 1. PROGRAM PROFILE
 The Master of International Education (IB) at the University of Melbourne is a specialist program for educators and professionals in the International Baccalaureate system. It provides advanced knowledge of IB curriculum, assessment, and educational leadership for international schools.
@@ -18,57 +16,77 @@ Graduate roles include IB coordinator, international school curriculum leader, I
 | Year 1–2 (graduate) | IB coordinator, curriculum leader — curriculum management, assessment coordination, teacher professional development | **MEDIUM** — Curriculum administration and coordination are AI-augmentable |
 | Year 3–5 | IB head of programme, school leader | **LOW–MEDIUM** — Leadership and pedagogical judgment |
 
+Early-career work carries significant administrative coordination — curriculum documentation, assessment scheduling, and professional-development logistics — that education-management platforms and AI features are actively systematising. Exposure falls at the leadership and pedagogical-judgment layer, but the degree currently lacks the quantitative depth and AI literacy to lift graduates decisively above the compression layer.
+
 ### 3. MARKET EVIDENCE SNAPSHOT
 | Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
 |---|---|---|---|
-| IB Classroom Teaching | Lesson planning, student assessment, IB internal assessment marking, parent communication, co-planning with faculty team... | LOW-MEDIUM | Inquiry-based facilitation, differentiated instruction, formative assessment design, cross-cultural ... |
-| Curriculum Coordination | IBO authorisation documentation, curriculum mapping, unit planner oversight, interdisciplinary unit design, staff profes... | LOW | IB Programme Standards compliance, curriculum mapping tools, collaborative leadership, data-informed... |
-| Education Consultancy | School improvement advisory, IBO programme implementation, staff PD facilitation, gap analysis against IB standards | MEDIUM | Systems thinking, change management, data analysis, client relationship management |
-| School Administration | Strategic planning, staff performance management, timetabling, budget oversight, stakeholder engagement | LOW-MEDIUM | Strategic leadership, financial literacy, people management, data-driven decision-making |
-| IB Examining & Assessment | Marking candidate scripts, moderation of internal assessments, question paper development, grade boundary deliberation | MEDIUM | Subject-specific assessment expertise, calibration skills, psychometric literacy |
-| International School Development | Programme authorisation, community engagement, cross-cultural institutional leadership, donor/ministry relations | LOW | Cross-cultural leadership, strategic stakeholder management, multi-language communication, programme... |
+| IB Classroom Teaching | MYP teacher/coordinator postings growing faster than DP in Southeast Asia and Latin America growth markets | Relational and contextual judgement resists full automation; AI accelerates resource prep, not pedagogy | Inquiry-based facilitation, differentiated instruction, formative-assessment design, cross-cultural communication |
+| Curriculum Coordination | Managebac listed in 60%+ of ANZ IB Coordinator ads; non-proficient graduates screened out early | Consensus-building and school culture are human; IBO authorisation cycle sustains demand | IB Programme Standards compliance, Managebac/curriculum-mapping proficiency, collaborative leadership |
+| Education Consultancy | Firms recruiting IB-credentialled educators who can translate NAPLAN/IBO data into improvement recommendations | Consulting augmented by AI benchmarking; senior advisory judgement stays human-led | Systems thinking, change management, statistical/data analysis, client-relationship management |
+| School Administration | Head of Senior School / Director of Studies roles increasingly require IB DP coordination experience | Institutional trust and emotional intelligence resist automation; AI streamlines reporting | Strategic leadership, financial literacy, people management, data-driven decision-making |
+| IB Examining & Assessment | IBO piloting AI-assisted marking support; pure-marking volume may contract by 2028 | Examiner roles likely to evolve rather than disappear | Subject-specific assessment expertise, calibration skills, psychometric literacy |
+| EdTech & Learning Design | EdTech firms (Pamoja, Lanterna) hiring IB-credentialled learning designers with AI content-pipeline skills | IB curriculum expertise gives content-validation credibility; must build technical layer | AI literacy, LMS platforms (Canvas, Managebac), learning analytics, UX for education |
 
-### 3. DFVA SCORECARD
-*Score data from existing assessment records.*
+### 4. DFVA SCORECARD
+| # | Dimension | Score (0-3) | Evidence-based rationale |
+|---|---|---:|---|
+| 1 | Automation Exposure of Roles | 1 | First-two-year output is dominated by curriculum documentation, assessment scheduling, and PD logistics — precisely the work IB management platforms and AI features are systematising; no industry project with defended, stakeholder-facing outputs protects it. |
+| 2 | Systems Thinking and Problem Framing | 2 | The IB frameworks (concept-driven, interdisciplinary MYP/DP design) build systems reasoning, but cross-disciplinary framing is practised rather than assessed as a standalone competency. |
+| 3 | Technical and Quantitative Depth | 1 | No quantitative or technical requirement: statistical literacy for grade prediction/moderation and platform proficiency (Managebac) — both employer thresholds — are absent from the core. |
+| 4 | Decision-Making Under Uncertainty | 2 | Leadership and pedagogical judgment are engaged, but core assessment does not require documented decision rationale under real accountability. |
+| 5 | AI Literacy and Governance | 1 | AI-specific academic-integrity design — the dominant practitioner discourse in 2025–26 IB communities — is absent from the core; there is no dedicated AI-in-discipline unit. |
+| 6 | Domain Depth and Specialisation | 2 | Deep IB-specific specialisation, but a narrow niche without a regulatory accreditation moat; domain depth alone does not lift the score to 3. |
+| 7 | Research Methods Rigour | 1 | No minor thesis or substantial capstone research requirement; research rigour is a critical gap. |
+| 8 | Human and Relational Capability | 2 | Cross-cultural leadership and stakeholder engagement are genuine strengths of the field, but stakeholder engagement is not yet integrated as assessed project work. |
+| 9 | Curriculum Currency and Adaptability | 2 | Content is broadly current, but culturally responsive IB design and emerging-trends modules (AI integrity, group-ownership dynamics) are underrepresented. |
+| 10 | Graduate Outcome Evidence | 3 | Field-level QILT GOS outcomes are strong and published (90% FT employment, shortage demand); program-specific role-title destination data is not published. |
+| B | Irreplaceability Premium (Bonus) | 1 | Without a dual-skill pathway (IB pedagogy + data/technical or a second language), the narrow niche and low technical/AI/research depth limit structural irreplaceability. |
 
-**TOTAL: 16/36**  
-**Risk band: HIGH RISK**
+**TOTAL: 18 / 36**  
+**Risk band: HIGH RISK (12-19)**
 
-### 4. THREE THRESHOLD QUESTIONS
-**Q1: Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?**
-YES. See program assessment for detailed rationale.
+### 5. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
+  **YES** — early-career work is dominated by curriculum documentation, assessment scheduling, and PD logistics that education-management platforms are systematising. See program assessment for detailed rationale.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?  
+  **UNCERTAIN** — IB framework design builds some systems capability, but the absence of a research capstone and documented-decision assessment leaves decision ownership under-evidenced. See program assessment for detailed rationale.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
+  **UNCERTAIN** — international-school growth sustains demand, but AI is compressing routine coordination and the degree lacks the quantitative/AI depth to guarantee a rising position. See program assessment for detailed rationale.
 
-**Q2: Does this program train graduates to design systems, own decisions, or generate original insight?**
-UNCERTAIN. See program assessment for detailed rationale.
-
-**Q3: Will these graduates be more employable in 5 years than today, given AI trends?**
-UNCERTAIN. See program assessment for detailed rationale.
-
-### 5. ANALOGUE GRADUATE PROFILE
+### 6. ANALOGUE GRADUATE PROFILE
 The most exposed IB education graduate is the **IB Curriculum Administrator of 2022**: primarily managing curriculum documentation, assessment schedules, and teacher training logistics — work increasingly systematised by education management platforms.
 
 Specific threats:
 - **IB administrative platforms with AI features** — automated assessment scheduling and curriculum tracking
 - **AI professional development content generation** — automated teacher training materials
 
-### 6. VERDICT
+### 7. VERDICT
 **The Master of International Education (IB) is HIGH RISK — a highly specialised credential serving a niche market with limited growth potential and significant AI disruption of its routine functions.**
 
 The IB specialisation creates a narrow professional market. International schools are the primary employer, and IB coordination roles are limited in number. Early-career work involves significant administrative coordination that AI tools are automating. The degree lacks the quantitative depth and AI literacy to position graduates above the compression layer.
 
-### 7. RECOMMENDATIONS
-| Priority | Action | Dimension | Effort |
-|---|---|---|---|
-| 1 | Develop educational technology and AI governance expertise for international school contexts | D5 | Medium |
-| 2 | Build IB examiner credentials — direct IB assessment involvement provides specialist positioning | D6 | Medium |
-| 3 | Develop school leadership capability — administrative and pedagogical leadership are more AI-resistant | D4, D8 | High |
+### 8. RECOMMENDATIONS
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Embed Managebac and a statistical/data-literacy stream (grade prediction, IBO moderation, school-improvement data) in the core | 3 | Managebac in 60%+ of coordinator ads; consultancies want IB + data skills | Low |
+| P2 | Add a standalone **AI and Assessment Integrity** module for the IB context (IBO policy, detection limits, task redesign) | 5 | AI-integrity is the dominant 2025–26 IB practitioner discourse | Medium |
+| P3 | Require an industry project with defended outputs and stakeholder presentation via an IB-school advisory group | 1, 8 | IB administrative coordination automating; employers want defended, applied work | Medium |
+| P4 | Introduce a minor thesis or capstone research project with documented decision rationale | 4, 7 | Coordinator roles increasingly require statistical literacy and evidence-based judgment | High |
+| P5 | Build a dual-skill pathway (IB pedagogy + EdTech learning design, or + a second language) and add culturally responsive IB design | B, 9 | EdTech hiring IB-credentialled designers; Mandarin/Spanish IB shortages in growth markets | Medium |
+| P6 | Publish program-level graduate destination data (role title, sector, geography) at 12 months | 10 | Role-title-granular outcome data not publicly reported | Low |
 
-### 8. THE REDESIGNED GRADUATE PROFILE
+### 9. THE REDESIGNED GRADUATE PROFILE
 The 2027-ready IB education graduate is not a curriculum administrator — they are an **international education specialist** who understands how the IB framework develops genuinely internationally-minded young people and can lead that development at scale.
 
 They have designed curriculum that works across cultural contexts — they know what the IB's approaches to teaching and learning mean in practice, what the TOK framework is actually developing, and how to help teachers who are struggling to make it real in their classrooms.
 
 They understand AI's role in international education: the specific challenges of AI-assisted assessment integrity in the IB context, how to build learning environments that develop genuine thinking rather than optimised AI prompting, and what the IB Organisation's evolving stance on AI means for curriculum design.
+
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Medium**. International-school growth (Asia-Pacific, Middle East) is high-confidence (IBO Annual Review 2024, ISC Research, EARCOS); ANZ hiring volumes, Managebac prevalence, and salary bands are pattern-based without a live scrape.
+- IBO examiner-role restructuring plans are not publicly released; AI-disruption timing for marking remains uncertain. Salary benchmarks rest on ISV enterprise agreements and anecdotal market intelligence, not indexed data.
+- For high-stakes curriculum decisions, add a 90-day ANZ/international job-ad scrape, program-level destination data at role-title granularity, and 3–5 employer interviews across IB schools, an international school group, an EdTech firm, and an education consultancy.
 
 ### MARKET DATA
 | Metric | Value |

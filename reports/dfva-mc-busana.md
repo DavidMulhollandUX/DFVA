@@ -2,16 +2,11 @@
 
 **Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 1 year (150 credit points)
 
-
----
-
 **Assessment date:** 2026-06-09
-**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-busana
-**Prompt Version:** DFVA-COPILOT-PROMPT-v1
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-busana
+**Prompt version:** DFVA-COPILOT-PROMPT-v1
 
----
-
-## 1. PROGRAM PROFILE
+### 1. PROGRAM PROFILE
 
 The Master of Business Analytics at the University of Melbourne (Melbourne Business School) is a specialist quantitative degree targeting candidates who want to build and deploy data-driven decision systems in business contexts. It is among the most technically rigorous business analytics programs in Australia.
 
@@ -19,11 +14,9 @@ The 150-credit-point core includes *Machine Learning & AI for Business*, *Statis
 
 Typical graduate roles include data scientist, machine learning engineer, analytics consultant, business intelligence lead, quantitative analyst, and AI product manager. The program produces graduates who build AI systems rather than being replaced by them — a structural differentiator.
 
----
+### 2. AUTOMATION EXPOSURE PROFILE
 
-## 2. AUTOMATION EXPOSURE PROFILE
-
-| Year | Typical Tasks | Automation Risk |
+| Stage | Typical Tasks | Automation Risk |
 |---|---|---|
 | Year 1–2 (graduate) | Data scientist, ML engineer, analytics consultant — model building, pipeline development, analysis design | **LOW–MEDIUM** — Graduates build AI tools; they design the systems that automate others. AutoML compresses some junior modelling, but problem framing and validation remain human. |
 | Year 3–5 | Senior data scientist, analytics lead, ML engineering manager — system design, governance, team leadership | **LOW** — Senior analytical judgment, model evaluation, and governance accountability are not automatable. |
@@ -31,43 +24,46 @@ Typical graduate roles include data scientist, machine learning engineer, analyt
 
 **Structural advantage:** Business Analytics graduates are building the tools that replace others — not being replaced. The degree trains people to sit above the automation layer, which makes them structurally more durable than most graduate cohorts. The primary risk is AutoML and foundation models reducing the barrier to entry for junior ML work, compressing the first-two-year tier somewhat.
 
----
+### 3. MARKET EVIDENCE SNAPSHOT
 
-## 3. DFVA SCORECARD
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Business Intelligence & Reporting | Routine SQL and report generation increasingly automated by Copilot-style BI tools; entry-level headcount under pressure | "Analytics engineering is redefining the analyst role — pipeline literacy is now expected" | Add cloud-native SQL (BigQuery/Snowflake) and analytics-engineering (dbt) instruction |
+| Advanced Analytics & Data Science | Demand growing for analysts who validate and interpret ML outputs; data analysts #2 fastest growing (WEF 2025) | "Generative AI is compressing entry-level workflows — the quality bar is rising" | Embed AI-augmented analytics exercises across core subjects |
+| Analytics Consulting | 23% YoY growth in "analytics consultant" postings in ANZ 2025; client trust remains differentiating | "Communication and data storytelling are now explicitly screened" | Require assessed non-technical stakeholder presentations |
+| Operations Research & Optimisation | OR / supply-chain analyst roles grew ~19% 2023–2025; documented skills shortage | "Supply chain and operations analytics talent shortage is widely acknowledged" | Pair OR theory with applied ERP/WMS supply-chain projects |
+| Marketing & Customer Analytics | Cookie deprecation and AU Privacy Act reform driving consent-based analytics demand | "Privacy and data governance are now practitioner concerns, not just compliance" | Add first-party data strategy and governance frameworks |
+| Financial Analytics | APRA/ASX regulatory requirements sustain demand for validated model-risk roles | "Explainability and responsible AI are entering practitioner discourse" | Build model-risk, explainability and audit-trail competency |
+
+### 4. DFVA SCORECARD
 
 | # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---|---|
-| 1 | Automation Exposure of Roles | 2/3 | Data scientists/analysts build AI tools rather than being replaced by them. Some routine analysis is automatable but strategic problem framing and business translation resist automation strongly. |
-| 2 | Systems Thinking and Problem Framing | 3/3 | Translating business problems into quantitative form, integrating across statistics/ML/optimisation domains. Causal + predictive + NLP — full quantitative systems toolkit. |
-| 3 | Technical and Quantitative Depth | 3/3 | Machine Learning & AI, Statistical Learning, NLP, Causal Analytics, Predictive Analytics — deeply quantitative. Programming Foundations included as core. |
-| 4 | Decision-Making Under Uncertainty | 3/3 | Decision Making and Optimisation is a core subject. Learning outcomes explicitly require dealing with ambiguity, uncertainty, and bias in real business contexts. |
-| 5 | AI Literacy and Governance | 3/3 | Machine Learning & AI for Business, NLP — AI is core curriculum, not elective. Graduates can deploy and critically evaluate AI workflows. |
-| 6 | Domain Depth and Specialisation | 3/3 | 150pt specialist degree. Core across data platforms, programming, statistics, ML, NLP, causal/predictive analytics. Clear specialist identity distinct from generic management. |
-| 7 | Research Methods Rigour | 2/3 | Individual Research Project (25pt) available with coordinator approval. Research pathway optional but genuine quantitative research skills embedded throughout core. |
-| 8 | Human & Relational Capability | 2/3 | Professional development includes teamwork and professional standards. Communication to non-technical audiences emphasised. Not clinical-level relational. |
-| 9 | Curriculum Currency and Adaptability | 3/3 | Updated April 2026. ML/AI, NLP, Causal Analytics — state-of-the-art quantitative curriculum clearly designed for AI-era business needs. |
-| 10 | Outcome Evidence | 3/3 | Business analytics employment outcomes strong. Melbourne Business School reputation and tracked employment. Strong demand signal for the specific skill set. |
-| B | Irreplaceability (bonus) | 3/3 | Graduates build and deploy AI systems — this program trains the replacers. AI literacy + quantitative depth + business translation is a rare triple combination. |
-| **TOTAL** | | **30/36** | |
+| 1 | Automation Exposure of Roles | 2 | Data scientists/analysts build AI tools rather than being replaced by them. Some routine analysis is automatable but strategic problem framing and business translation resist automation strongly. |
+| 2 | Systems Thinking and Problem Framing | 3 | Translating business problems into quantitative form, integrating across statistics/ML/optimisation domains. Causal + predictive + NLP — full quantitative systems toolkit. |
+| 3 | Technical and Quantitative Depth | 3 | Machine Learning & AI, Statistical Learning, NLP, Causal Analytics, Predictive Analytics — deeply quantitative. Programming Foundations included as core. |
+| 4 | Decision-Making Under Uncertainty | 3 | Decision Making and Optimisation is a core subject. Learning outcomes explicitly require dealing with ambiguity, uncertainty, and bias in real business contexts. |
+| 5 | AI Literacy and Governance | 3 | Machine Learning & AI for Business, NLP — AI is core curriculum, not elective. Graduates can deploy and critically evaluate AI workflows. |
+| 6 | Domain Depth and Specialisation | 3 | 150pt specialist degree. Core across data platforms, programming, statistics, ML, NLP, causal/predictive analytics. Clear specialist identity distinct from generic management. |
+| 7 | Research Methods Rigour | 2 | Individual Research Project (25pt) available with coordinator approval. Research pathway optional but genuine quantitative research skills embedded throughout core. |
+| 8 | Human and Relational Capability | 2 | Professional development includes teamwork and professional standards. Communication to non-technical audiences emphasised. Not clinical-level relational. |
+| 9 | Curriculum Currency and Adaptability | 3 | Updated April 2026. ML/AI, NLP, Causal Analytics — state-of-the-art quantitative curriculum clearly designed for AI-era business needs. |
+| 10 | Graduate Outcome Evidence | 3 | Business analytics employment outcomes strong. Melbourne Business School reputation and tracked employment. Strong demand signal for the specific skill set. |
+| B | Irreplaceability Premium (Bonus) | 3 | Graduates build and deploy AI systems — this program trains the replacers. AI literacy + quantitative depth + business translation is a rare triple combination. |
 
-**Risk Band: RESILIENT**
+**TOTAL: 30 / 36**
+**Risk band: RESILIENT (28-36)**
 
----
+### 5. THREE THRESHOLD QUESTIONS
 
-## 4. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?
+  **NO** — core work requires translating messy business problems into tractable quantitative form, designing valid measurement, and governing AI outputs in high-stakes contexts, which AI cannot yet replicate reliably.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?
+  **YES** — the program's specialist curriculum and Individual Research Project pathway provide genuine decision ownership and system design capability.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?
+  **YES** — structural demand for the specific skill set and AI-native curriculum positioning make 5-year employability stronger than today.
 
-**Q1: Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?**
-NO. Core professional work in Master of Business Analytics requires physical presence, regulated judgment, or specialist domain knowledge that AI cannot yet replicate reliably.
-
-**Q2: Does this program train graduates to design systems, own decisions, or generate original insight?**
-YES. The program's capstone, professional practice, and specialist curriculum provide genuine decision ownership and system design capability.
-
-**Q3: Will these graduates be more employable in 5 years than today, given AI trends?**
-YES. Structural demand for the specific skill set, professional accreditation protection, or AI-native curriculum positioning make 5-year employability stronger than today.
-
----
-
-## 5. ANALOGUE GRADUATE PROFILE
+### 6. ANALOGUE GRADUATE PROFILE
 
 The most exposed Business Analytics graduate is the **Junior BI Analyst of 2021**: a capable SQL writer who produced dashboards, ran standard regression analyses, and maintained reporting infrastructure — work now absorbed by Power BI Copilot, Tableau AI, and agentic analytics tools. This profile does not represent the MC-BUSANA graduate, but it represents what the program was historically competing against.
 
@@ -76,33 +72,23 @@ The MC-BUSANA graduate is better positioned because their core skill is not dash
 - **Translating messy business problems into tractable quantitative form** — the hardest part of analytics, and where human judgment is most critical
 - **Governing AI outputs in high-stakes contexts** — who is accountable when the model recommends wrongly
 
----
+Threatening tool classes: BI co-pilots (Power BI Copilot, Tableau Pulse), AutoML platforms, LLM code interpreters, and agentic analytics tools that compress routine junior modelling and reporting.
 
-## 6. VERDICT
+### 7. VERDICT
 
-**The Master of Business Analytics is RESILIENT — one of the strongest programs in the portfolio for 2027 and beyond.**
+The Master of Business Analytics is **RESILIENT (30/36)** — one of the strongest programs in the portfolio for 2027 and beyond. Graduates build and deploy AI systems rather than being replaced by them, combining machine-learning depth, causal analytics, and business translation into a graduate profile with genuine automation resistance at its core. The degree is resilient under one condition: graduates must position themselves as decision-layer professionals, not code-production workers — the capability to frame a causal question, design a valid test, and defend the inference is what the AI era actually demands, and that capability is in this program.
 
-The program's score (31/36) reflects a genuinely distinctive curriculum: graduates build and deploy AI systems rather than being replaced by them. The combination of machine learning depth, causal analytics, and business translation creates a graduate profile with genuine automation resistance at its core.
+### 8. RECOMMENDATIONS
 
-The remaining risk is that AutoML tools and foundation model APIs are lowering the technical barrier for basic ML work. A junior data scientist who only knows how to run sklearn pipelines and interpret standard outputs faces compression. But MC-BUSANA graduates who have engaged with causal inference, model governance, and NLP depth are positioned above this compression layer.
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Pursue the Individual Research Project if available — the ability to design and defend original quantitative analysis is the highest differentiator in the job market | D7 | Causal inference cited as the skill separating good from great analysts | High |
+| P2 | Build specialisation in a regulated domain — healthcare analytics, financial risk modelling, or public policy evaluation create governance requirements that sustain human judgment | D6 | Domain-specific analytics commanding 10–18% salary premiums | Medium |
+| P3 | Develop explainability and governance competency beyond technical modelling — audit trails, fairness metrics, and regulatory compliance for AI | D5 | Explainability and responsible AI entering practitioner discourse | Medium |
+| P4 | Build the communication layer explicitly — the ability to explain model outputs to non-technical decision-makers is the most common gap in quantitative graduates | D8 | Communication and data storytelling now explicitly screened in ANZ hiring | Low |
+| P5 | Target AI product management and ML engineering lead roles, not just data science contributor roles — governance and direction create more durable positioning | D1 | Full-stack analyst expectation stressing generalist programs | Low–Medium |
 
-**The degree is RESILIENT under one condition: graduates must position themselves as decision-layer professionals, not code-production workers.** The capability to frame a causal question, design a valid test, and defend the inference against alternative explanations is what the AI era actually demands. That capability is in this program. Whether individual graduates develop and demonstrate it is the variable.
-
----
-
-## 7. RECOMMENDATIONS
-
-| Priority | Action | Dimension | Effort |
-|---|---|---|---|
-| 1 | Pursue the Individual Research Project if available — the ability to design and defend original quantitative analysis is the highest differentiator in the job market | D7 | High |
-| 2 | Build specialisation in a regulated domain — healthcare analytics, financial risk modelling, or public policy evaluation create governance requirements that sustain human judgment | D6 | Medium |
-| 3 | Develop explainability and governance competency beyond technical modelling — audit trails, fairness metrics, and regulatory compliance for AI are growth areas | D5 | Medium |
-| 4 | Build the communication layer explicitly — the ability to explain model outputs to non-technical decision-makers is the most common gap in quantitative graduates | D8 | Low |
-| 5 | Target AI product management and ML engineering lead roles, not just data science contributor roles — governance and direction create more durable positioning | D1 | Low–Medium |
-
----
-
-## 8. THE REDESIGNED GRADUATE PROFILE
+### 9. THE REDESIGNED GRADUATE PROFILE
 
 The 2027-ready Business Analytics graduate does not run standard models on clean datasets. They **define the question, design the measurement, and own the interpretation** — the parts of the analytics pipeline that AI cannot do without a human who understands the domain.
 
@@ -111,6 +97,12 @@ They have done causal inference properly: they know the difference between corre
 They can read a model fairness audit and know what questions to ask. They understand what "the model is biased" means technically and what its implications are for deployment in a specific context. They can brief a legal team on why an algorithmic decision requires human review.
 
 They have communicated their work to a CFO, a product manager, and a regulatory team — and adjusted their framing for each audience without losing technical precision. That translation capacity is what makes them genuinely valuable at the decision-making layer.
+
+### 10. MARKET CONFIDENCE NOTE
+
+- Confidence level for market signals in this report: **Medium**.
+- Market evidence integrates QILT GOS field-of-study outcomes with WEF Future of Jobs 2025, DEWR Labour Market Insights, LinkedIn/Seek trend data, and ANZ analytics practitioner discourse; live job-ad scrape and program-title graduate-destination data were unavailable.
+- For high-stakes curriculum decisions, add a live ANZ job-ad scrape (last 90 days) and program-level destination data at role-title granularity from MBS Careers & Industry.
 
 ### MARKET DATA
 | Metric | Value |

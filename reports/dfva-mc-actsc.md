@@ -1,11 +1,9 @@
 ## DFVA REPORT: Master of Actuarial Science (MC-ACTSC)
-**Institution:** University of Melbourne  
-**Level:** Master (Coursework)  
-**Duration:** 1.5 years (150 credit points)
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 1.5 years (150 credit points)
 
 **Assessment date:** 2026-06-08  
 **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-actsc  
-**Prompt version:** DFVA-COPILOT-PROMPT-v1
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 + DFVA-COPILOT-MARKET-v1  
 
 ### 1. PROGRAM PROFILE
 The Master of Actuarial Science is a 150-credit-point professional entry program providing the fastest graduate pathway to the actuarial profession. The curriculum comprises 6 compulsory core subjects, 2 capstone subjects, and 4 electives approved by the Program Director. Subjects follow a structured progression: Mathematics of Finance I→II→III across three semesters, Life Insurance Models 1→2 across two, with capstones in Life Contingencies and General Insurance Modelling.
@@ -47,21 +45,17 @@ The structural defence is the professional accreditation pathway — actuaries o
 | B | Irreplaceability Premium (Bonus) | 2 | Professional accreditation + mathematical depth creates a clear dual-skill value. However, the traditional actuarial model faces structural disruption from AI/automation of the very techniques the program teaches as its core. |
 
 **TOTAL: 20 / 36**  
-**Risk band: MODERATE RISK (20-27)** — at the lower boundary
+**Risk band: MODERATE RISK (20-27)**
 
 ### 5. THREE THRESHOLD QUESTIONS
 - **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
   **YES** — routine actuarial calculations (pricing, reserving, regulatory reporting, data validation) are precisely the structured, rule-governed tasks that AI and actuarial software increasingly automate. The first 2-3 years of actuarial work are the most exposed segment of the profession.
-
 - **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?  
   **UNCERTAIN** — the capstones involve integrated decision-making in insurance contexts. Professional accreditation requires judgment. But the core pedagogy is technique application, not system design. The program produces actuarial technicians who develop judgment on the job, not graduates who arrive with practiced decision ownership.
-
 - **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
   **UNCERTAIN** — the traditional actuarial pipeline (examinations + technical experience) is under pressure from automation. Graduates who add data science/AI skills via electives differentiate positively. The profession's regulatory barriers provide some protection, but entry-level compression is real and accelerating.
 
-
 ### 6. ANALOGUE GRADUATE PROFILE
-
 The most exposed actuarial science graduate is the **Junior Actuarial Analyst of 2021**: entering an insurance firm as the primary handler of reserving calculations, pricing model runs, and regulatory reporting submissions — precise, structured mathematical tasks that actuarial software platforms and AI tools are actively automating.
 
 Specific threats:
@@ -70,45 +64,29 @@ Specific threats:
 - **AI regulatory reporting tools** — APRA reporting automation reducing junior analyst time on structured submissions
 - **Excel AI and Python AutoML** — absorbing the routine modelling and data transformation work that forms the bulk of first-two-year actuarial output
 
----
-
 ### 7. VERDICT
-This program sits at a structural inflection point. Its traditional strengths — mathematical rigour, structured progression, professional accreditation pathway — are genuine and durable. But the techniques it teaches as its core (pricing, reserving, life insurance mathematics) are precisely the techniques being automated by the industry the program serves.
-
-The score (20/36, lower boundary of MODERATE RISK) reflects this tension. The program is not in crisis — professional accreditation and regulatory barriers protect it more than most degrees — but its default trajectory is toward a narrower employment base where graduates compete for the shrinking gap between AI-augmented actuarial software and the judgment roles that require 5+ years of experience to reach.
-
-The path from MODERATE RISK to RESILIENT runs through the elective structure: making Data Analytics in Insurance, Statistical Techniques, and ideally an AI governance unit compulsory rather than optional. The mathematical core is sound; the program needs to ensure graduates exit with the computational and governance literacy to operate at the judgment layer, not just the technique layer.
+This program sits at a structural inflection point. Its traditional strengths — mathematical rigour, structured progression, professional accreditation pathway — are genuine and durable. But the techniques it teaches as its core (pricing, reserving, life insurance mathematics) are precisely the techniques being automated by the industry the program serves. The score (20/36, lower boundary of MODERATE RISK) reflects this tension: professional accreditation and regulatory barriers protect it more than most degrees, but its default trajectory is toward a narrower employment base where graduates compete for the shrinking gap between AI-augmented actuarial software and the judgment roles that require 5+ years of experience to reach. The path to RESILIENT runs through the elective structure: making Data Analytics in Insurance, Statistical Techniques, and an AI governance unit compulsory rather than optional so graduates exit at the judgment layer, not just the technique layer.
 
 ### 8. RECOMMENDATIONS
-| Priority | Action | Dimension | Effort |
-|---|---|---|---|
-| P0 | Make Data Analytics in Insurance (ACTL90023) and Statistical Techniques (ACTL90008) compulsory, not elective | 1, 5 | Low — subjects already exist |
-| P1 | Add a dedicated unit on AI in insurance: automated underwriting, claims modelling, governance, and the actuary's evolving role | 5, 9 | Medium |
-| P1 | Implement a capstone project or industry placement beyond the existing optional internship | 4, 7, 8 | High |
-| P2 | Publish graduate destination data including qualification progression rates and time-to-accreditation | 10 | Medium |
-| P2 | Integrate AI tool use into existing actuarial modelling subjects with critical evaluation components | 1, 5 | Medium |
-
-### 10. MARKET CONFIDENCE NOTE
-Confidence: **Medium-High**. Actuarial automation is well-documented in industry literature and professional discourse. The tension between traditional actuarial training and AI/automation is a live topic in the profession. The structural analysis of entry-level exposure is based on documented task composition, not speculation.
-
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Make Data Analytics in Insurance (ACTL90023) and Statistical Techniques (ACTL90008) compulsory, not elective | 1, 5 | Python/R/SQL now in 60%+ of ANZ actuarial ads; data-science roles up 28% YoY | Low — subjects already exist |
+| P2 | Add a dedicated unit on AI in insurance: automated underwriting, claims modelling, governance, and the actuary's evolving role | 5, 9 | Big 4 shifting to "AI + Actuarial"; APRA CPS 230 governance demand | Medium |
+| P3 | Implement a capstone project or industry placement beyond the existing optional internship | 4, 7, 8 | Employers expect decision ownership and stakeholder communication on arrival | High |
+| P4 | Publish graduate destination data including qualification progression rates and time-to-accreditation | 10 | No granular MC-ACTSC destination data currently published | Medium |
+| P5 | Integrate AI tool use into existing actuarial modelling subjects with critical evaluation components | 1, 5 | Traditional pricing/reserving tasks automating fast; validation skills rising | Medium |
 
 ### 9. THE REDESIGNED GRADUATE PROFILE
-
 The 2027-ready actuarial science graduate is not a calculator — they are a **risk governance specialist** who understands what the actuarial models do and what they miss, and who can own the accountability when they are wrong.
 
 They have completed the accreditation examination track, which means they carry professional liability. They know the regulatory framework for the product lines they work with. When the automated pricing model produces an output that looks right but is wrong for regulatory reasons, they are the person who catches it and explains why.
 
-They understand the AI tools in their firm's technology stack: what training data the claims model uses, where it fails at distribution edges, and what the governance requirement is when an AI-generated premium recommendation deviates from actuarial professional judgment. That combination — mathematical rigour plus AI governance literacy plus professional accountability — is what the AI era of insurance actually requires.
+They understand the AI tools in their firm's technology stack: what training data the claims model uses, where it fails at distribution edges, and what the governance requirement is when an AI-generated premium recommendation deviates from actuarial professional judgment. That combination — mathematical rigour plus AI governance literacy plus professional accountability — is what the AI era of insurance actually requires. They have added data analytics capability (Python, R, SQL at depth) that makes them fluent in the same technical language as the AI tools they oversee. They are not just an actuarial examiner — they are an actuarial data scientist with professional credentials.
 
-They have added data analytics capability (Python, R, SQL at depth) that makes them fluent in the same technical language as the AI tools they oversee. They are not just an actuarial examiner — they are an actuarial data scientist with professional credentials.
-
----
-
----
-
-**Assessment date:** 2026-06-08  
-**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-actsc  
-**Prompt version:** DFVA-COPILOT-PROMPT-v1
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Medium-High**. Actuarial automation is well-documented in industry literature (Actuaries Institute, ICA) and professional discourse; the tension between traditional actuarial training and AI/automation is a live topic in the profession.
+- The structural analysis of entry-level exposure is based on documented task composition, not speculation; job-ad volume trends (Seek ANZ) are directional rather than a comprehensive systematic scrape.
+- For high-stakes curriculum decisions, close the evidence gaps: a live ANZ job-ad scrape for actuarial/insurance-data-science/risk roles, UniMelb graduate destination data by role family, and employer interviews (Actuaries Institute, IAG, Suncorp, QBE, Deloitte/PwC Actuarial, APRA).
 
 ### MARKET DATA
 | Metric | Value |

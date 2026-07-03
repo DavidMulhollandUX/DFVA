@@ -1,6 +1,9 @@
 ## DFVA REPORT: Doctor of Philosophy - Fine Arts and Music (DR-PHILFAM)
 **Institution:** University of Melbourne | **Level:** Graduate Research, AQF level 10 | **Duration:** 4 years full-time, or equivalent part-time
-**Assessment date:** 2026-07-02 | **Source:** https://handbook.unimelb.edu.au/2026/courses/dr-philfam
+
+**Assessment date:** 2026-07-02  
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/dr-philfam  
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 + DFVA-COPILOT-MARKET-v1
 
 ### 1. PROGRAM PROFILE
 The Doctor of Philosophy - Fine Arts and Music is a practice-led and practice-based research doctorate spanning 15 disciplines across three organisational homes: the Melbourne Conservatorium of Music (Composition, Interactive Composition, Jazz & Improvisation, Music Performance, Music Psychology, Music Therapy, Musicology/Ethnomusicology), the Victorian College of the Arts (Dance, Design, Film and Television, Indigenous Arts and Culture, Music Theatre, Production, Social Practice and Community Engagement, Theatre, Visual Art), and the Faculty of Fine Arts and Music directly (Creative Arts Therapies). Except in Creative Arts Therapies, Music Psychology, Music Therapy, and Musicology/Ethnomusicology — which remain conventional written-thesis disciplines — candidates in the performance and studio disciplines may submit their thesis as Creative Work and Dissertation, meaning the primary research output is a body of creative practice (a performance season, composition folio, choreographic work, exhibition, film, or production) accompanied by a written exegesis situating that practice within scholarly and critical context.
@@ -9,8 +12,7 @@ Candidates undertake sustained, individually supervised original research over f
 
 Typical graduate pathways are: academic/conservatoire teaching and research positions; continuing professional creative practice as a composer, performer, choreographer, designer, filmmaker, or visual artist, now credentialed at the highest research level; leadership roles in arts organisations, festivals, and cultural institutions; and, distinctively for the Creative Arts Therapies, Music Psychology and Music Therapy disciplines, registered clinical practice in creative arts therapy, music therapy, or applied music psychology — pathways that typically require professional registration (e.g., with music therapy or psychology regulatory bodies) rather than academic employment alone. The degree supersedes the discontinued DR-PHILMUS (Doctor of Philosophy - Music).
 
-
-## 2. AUTOMATION EXPOSURE PROFILE
+### 2. AUTOMATION EXPOSURE PROFILE
 
 | Task Category | Example Graduate Tasks | AI Pressure | AI Capability Today | Durability Rationale |
 |---|---|---|---|---|
@@ -26,9 +28,18 @@ Typical graduate pathways are: academic/conservatoire teaching and research posi
 
 **Durability Assessment:** DR-PHILFAM's exposure profile is unusually bifurcated by discipline. The performance, clinical/therapeutic, and community-engaged disciplines (Music Performance, Dance, Theatre, Music Therapy, Creative Arts Therapies, Social Practice, Indigenous Arts and Culture) sit at the most AI-resistant end of the entire DFVA corpus — live embodiment, regulated clinical relationship, and community trust are not tasks generative AI can absorb. The technical/craft-production disciplines (Production, Design, Film and Television) face materially higher and faster-moving AI pressure, particularly in post-production, VFX, and technical execution, where generative tools are already displacing junior craft labour in the professional industry these graduates enter. The scholarly-writing disciplines (Musicology/Ethnomusicology, exegesis writing generally) sit in between: AI compresses the mechanical synthesis work but cannot replace primary research, fieldwork, or original argument. Because this is a research doctorate producing highly individuated, expert-examined original work rather than a training pipeline into templated entry-level roles, the degree's overall automation exposure is structurally lower than most professional coursework degrees — but the program currently does nothing to explicitly name or address the technical-discipline exposure gap, nor does it build any general AI literacy that would help a Design or Film and Television graduate compete for hybrid human-AI creative-technical roles.
 
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Academic / Conservatoire Research and Teaching | Tight, largely tenure/continuing-role-constrained academic labour market; AI raises research-productivity expectations but does not substitute studio teaching | Doctoral credential near-baseline for continuing roles; sessional/casual reliance persists | Reinforce D6/D7 depth; treat as a dependency/risk, not a curriculum-fixable gap |
+| Clinical / Therapeutic Practice (Music Therapy, Creative Arts Therapies) | Steady, registration-gated demand growth from NDIS and aged-care sector expansion | Among the most AI-resistant career paths identified in the market scan | Publish explicit registration/accreditation pathway guidance |
+| Production, Design, and Technical Craft (Production, Design, Film and TV) | Screen employers increasingly list AI-assisted workflow fluency as a preferred skill; junior craft labour compressing fast | Fastest AI displacement pressure of any job family in the degree | Build discipline-specific AI-and-craft strategy stream + AI literacy |
+| Professional Creative Practice (composition, performance, visual art) | Generic/commercial creative income (stock composition, generic design) contracting fast under generative-AI pressure | Original, distinctive authored practice remains valued; volume/generic-tier work is not | AI-resistant practice positioning resource; reinforce D1/D6 strengths |
+| Arts Administration, Curation, and Cultural Leadership | Ongoing curatorial/programming demand, increasing First Nations-led and community-engaged emphasis | Administrative writing exposed to AI; curatorial and community work is not | Extend research training with grant/commission-market navigation |
+| Musicology, Ethnomusicology, and Scholarly Research | Shrinking generalist music-criticism market (pre-AI, compounded by AI); fieldwork/archival roles stable | AI compresses synthesis but not primary archival/ethnographic discovery | Emphasise primary archival, ethnographic, and fieldwork capability |
 
-###  3. DFVA SCORECARD
-| # | Dimension | Score (0-3) | Rationale |
+### 4. DFVA SCORECARD
+| # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---:|---|
 | 1 | Automation Exposure of Roles | 3 | Doctoral graduates go into original creative production, live performance, clinical practice, and academic leadership — roles defined by judgment, authorship, and accountability, not templated execution, from day one. |
 | 2 | Systems Thinking and Problem Framing | 2 | Practice-led research inherently requires framing an original creative/research problem and defending method choices at confirmation and examination; but this is candidate-driven and supervisor-dependent rather than a taught, assessed curriculum element — no dedicated systems-thinking units exist because there is no coursework. |
@@ -40,18 +51,20 @@ Typical graduate pathways are: academic/conservatoire teaching and research posi
 | 8 | Human and Relational Capability | 3 | Music Therapy, Creative Arts Therapies, and Social Practice/Community Engagement disciplines build substantial clinical/relational/community-engaged capability as core competency; performance disciplines require embodied, collaborative, ensemble-based human interaction throughout. |
 | 9 | Curriculum Currency and Adaptability | 1 | No evidence of AI integration or explicit recent curriculum refresh in the handbook text; the degree structure (supervised individual research) is inherently flexible to candidate topic but there is no institutional feedback loop or outcome-tracking mechanism visible for currency on AI or industry shifts, particularly for the exposed technical/craft disciplines. |
 | 10 | Graduate Outcome Evidence | 1 | No granular destination data, salary, or time-to-employment data published for this specific research doctorate; general QILT/GOS postgraduate research data exists at a coarse field level but not disaggregated by discipline (e.g., Film and Television graduates vs Music Therapy graduates have very different outcome profiles that are not distinguished). |
-| B | Irreplaceability Premium (bonus) | 3 | The combination of four years of doctoral-level technical/artistic depth, discipline-specific specialisation, and irreducibly human embodied/relational/clinical practice (especially in performance and therapy disciplines) is a rare integration that strongly resists AI substitution. |
+| B | Irreplaceability Premium (Bonus) | 3 | The combination of four years of doctoral-level technical/artistic depth, discipline-specific specialisation, and irreducibly human embodied/relational/clinical practice (especially in performance and therapy disciplines) is a rare integration that strongly resists AI substitution. |
 
-**TOTAL: 23/36 — MODERATE RISK**
+**TOTAL: 23 / 36**  
+**Risk band: MODERATE RISK (20-27)**
 
-### 4. THREE THRESHOLD QUESTIONS
-- **Q1:** NO — a well-prompted AI agent cannot produce a defensible doctoral creative work, live performance, clinical therapy practice, or original ethnographic/archival research; it may accelerate literature synthesis or generate derivative creative drafts, but not the examinable core output.
-- **Q2:** YES — practice-led doctoral research is definitionally about candidates designing and owning an original creative/research program and generating genuinely new insight or work, defended before independent examiners.
-- **Q3:** UNCERTAIN — performance, clinical, and community-engaged disciplines will likely be more employable as AI compresses generic creative content markets and raises the premium on live, embodied, and clinically-accountable human work; but graduates from the technical/craft disciplines (Production, Design, Film and Television) face a genuinely uncertain 5-year outlook as AI absorbs more technical execution in those professional industries, and the program does nothing today to help them navigate that shift.
+### 5. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
+  **NO** — a well-prompted AI agent cannot produce a defensible doctoral creative work, live performance, clinical therapy practice, or original ethnographic/archival research; it may accelerate literature synthesis or generate derivative creative drafts, but not the examinable core output.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?  
+  **YES** — practice-led doctoral research is definitionally about candidates designing and owning an original creative/research program and generating genuinely new insight or work, defended before independent examiners.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
+  **UNCERTAIN** — performance, clinical, and community-engaged disciplines will likely be more employable as AI compresses generic creative content markets and raises the premium on live, embodied, and clinically-accountable human work; but graduates from the technical/craft disciplines (Production, Design, Film and Television) face a genuinely uncertain 5-year outlook as AI absorbs more technical execution in those professional industries, and the program does nothing today to help them navigate that shift.
 
-
-## 5. ANALOGUE GRADUATE PROFILE
-
+### 6. ANALOGUE GRADUATE PROFILE
 The most exposed graduate archetype of ~2021-2022 within this degree is the **Junior Post-Production/VFX Technician or Generic Commercial Composer** — someone doing routine editing, colour grading, sound design, or "library music" composition work for commercial clients, largely templated craft execution rather than original authored practice.
 
 Specific threats:
@@ -61,35 +74,39 @@ Specific threats:
 - **Midjourney / DALL-E successors** — generic commercial illustration and concept-art markets already substantially disrupted, pressuring adjacent Visual Art and Design commercial income streams
 - **AI choreography/motion-generation tools (emerging)** — early-stage but signal the same commodification pressure reaching movement-based disciplines
 
----
-
-### 6. VERDICT
+### 7. VERDICT
 DR-PHILFAM is a structurally durable research doctorate precisely because its core output — original creative work or scholarship, examined by independent experts, requiring embodied performance, clinical relationship, or primary research — is the category of human activity AI displaces last, not first. The degree's weakness is not its research core but its complete silence on AI: no literacy, governance, or explicit strategy exists to help the technical/craft disciplines (Production, Design, Film and Television) navigate the fastest-moving automation pressure in the creative economy, nor to help any candidate position their practice deliberately against or alongside AI tools that are reshaping the professional markets they will enter. This is a MODERATE RISK program not because its graduates are replaceable, but because the institution has not yet built the AI-literacy and outcome-evidence scaffolding that would let it claim RESILIENT status with confidence.
 
+### 8. RECOMMENDATIONS
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Introduce a mandatory cross-disciplinary AI Literacy and Governance module for all DR-PHILFAM candidates, covering generative AI's impact on creative labour markets, ethical/authorship implications of AI-assisted creative tools, and discipline-specific guidance (e.g., generative music for composers, generative VFX for Film and Television candidates) | D5 | Screen-industry AI-workflow fluency signal; generative-AI compression of commercial creative markets | Medium |
+| P2 | Build a discipline-differentiated graduate outcomes tracking system, disaggregating Film and Television, Design, and Production destinations from Music Therapy, Performance, and Composition destinations, given how differently these disciplines are exposed to AI and how different their career markets are | D10 | Divergent Film/TV vs Music Therapy market signals | High |
+| P3 | Establish an explicit AI-and-craft strategy stream for the technical/production disciplines (Production, Design, Film and Television) within research training, addressing how AI-assisted tools are reshaping professional post-production, design, and technical-direction markets these graduates enter | D9 | Fastest AI displacement pressure signal (screen/post-production) | Medium |
+| P4 | Formalise a quantitative/empirical research-methods option for disciplines with a quantitative dimension (Music Psychology, Music Therapy, Creative Arts Therapies), strengthening technical depth without diluting the practice-led core of the performance and studio disciplines | D3 | Registration/accreditation currency requirement in clinical job family | Medium |
+| P5 | Publish explicit registration/accreditation pathway information for Music Therapy, Creative Arts Therapies, and Music Psychology graduates alongside the handbook entry, since these disciplines lead to regulated clinical practice that materially differentiates their employment durability | D6 | NDIS/aged-care demand growth signal | Low |
+| P6 | Create a structured "AI-resistant practice" positioning resource for prospective and current candidates across all disciplines, translating the degree's genuine durability strengths (embodiment, clinical relationship, original authorship, community trust) into career-narrative guidance | D1 | Original-practice durability vs generic-content contraction signal | Low |
+| P7 | Introduce a light-touch curriculum currency review cycle (e.g., biennial advisory panel including recent graduates from each of the 15 disciplines) to track how professional markets are shifting under AI pressure and feed that back into research-training content | D9 | All market signals — cross-cutting currency mechanism | Medium |
 
-## 7. RECOMMENDATIONS
-
-| Priority | Action | Dimension | Effort |
-|---|---|---|---|
-| 1 | Introduce a mandatory cross-disciplinary AI Literacy and Governance module for all DR-PHILFAM candidates, covering generative AI's impact on creative labour markets, ethical/authorship implications of AI-assisted creative tools, and discipline-specific guidance (e.g., generative music for composers, generative VFX for Film and Television candidates) | D5 AI Literacy and Governance | Medium — can be built as a shared cross-VCA/MCM research-training module without disrupting individual supervision models |
-| 2 | Build a discipline-differentiated graduate outcomes tracking system, disaggregating Film and Television, Design, and Production destinations from Music Therapy, Performance, and Composition destinations, given how differently these disciplines are exposed to AI and how different their career markets are | D10 Graduate Outcome Evidence | High — requires alumni survey infrastructure and multi-year data collection but is the single most consequential evidence gap in the program |
-| 3 | Establish an explicit AI-and-craft strategy stream for the technical/production disciplines (Production, Design, Film and Television) within research training, addressing how AI-assisted tools are reshaping professional post-production, design, and technical-direction markets these graduates enter | D9 Curriculum Currency and Adaptability | Medium — can be embedded in existing research-training seminars for these disciplines specifically, rather than degree-wide |
-| 4 | Formalise a quantitative/empirical research-methods option for disciplines with a quantitative dimension (Music Psychology, Music Therapy, Creative Arts Therapies), strengthening D3 without diluting the practice-led core of the performance and studio disciplines | D3 Technical and Quantitative Depth | Medium — targeted at three of fifteen disciplines; builds on existing psychology/therapy accreditation requirements |
-| 5 | Publish explicit registration/accreditation pathway information for Music Therapy, Creative Arts Therapies, and Music Psychology graduates alongside the handbook entry, since these disciplines lead to regulated clinical practice that materially differentiates their employment durability from the purely creative-practice disciplines | D6 Domain Depth and Specialisation | Low — documentation and advising update, no structural change |
-| 6 | Create a structured "AI-resistant practice" positioning resource for prospective and current candidates across all disciplines, translating the degree's genuine durability strengths (embodiment, clinical relationship, original authorship, community trust) into career-narrative guidance graduates can use when entering increasingly AI-saturated creative and cultural-sector labour markets | D1 Automation Exposure of Roles | Low — a communications/advising deliverable, not a curriculum change |
-| 7 | Introduce a light-touch curriculum currency review cycle (e.g., biennial advisory panel including recent graduates from each of the 15 disciplines) to track how professional markets are shifting under AI pressure and feed that back into research-training content | D9 Curriculum Currency and Adaptability | Medium — requires convening a cross-disciplinary advisory structure but is low-cost to run once established |
-
-
-## 8. THE REDESIGNED GRADUATE PROFILE
-
+### 9. THE REDESIGNED GRADUATE PROFILE
 The 2027-ready DR-PHILFAM graduate is not naive to AI — they are a creative practitioner or clinician who has explicitly reasoned about where AI sits relative to their practice, and who can articulate that positioning to funders, employers, examiners, and audiences. The performance and clinical-therapy graduate already occupies close to the most durable possible position in the AI-era labour market; the redesign task for them is evidentiary — making that durability visible through better outcome data and explicit career narrative, not structural curriculum change.
 
 The technical/craft graduate (Production, Design, Film and Television) is different: they graduate having consciously chosen where in the human-AI collaboration stack their value sits — creative direction, on-set judgment, collaborative vision-setting, technical problem-solving under live constraints — rather than competing on routine execution speed with generative tools. They know how to use AI-assisted production tools fluently as accelerants for craft work, while defending the parts of the process that require embodied, collaborative, real-time human judgment.
 
 Across all 15 disciplines, the redesigned graduate leaves the program having generated a substantial, examined body of genuinely original creative or scholarly work — the thing AI cannot yet originate — and having explicitly reflected, through a light AI-literacy module, on how that originality is valued and threatened in the specific professional market they are entering.
 
----
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Low–Medium**. Job-family and task mapping is grounded in structural knowledge of the Australian arts, screen, and allied-health sectors, not a live job-board scrape (DFVA_MOCK conditions apply).
+- No MEAA award, Creative Australia/state arts-body income-survey, or discipline-disaggregated QILT/GOS/JSA data was pulled; salary bands are indicative sector estimates only and require validation before institutional use.
+- For high-stakes curriculum decisions, add dated extraction of Australian screen-industry, arts-administration, and music-therapy job-ad signals, and source registration/accreditation-body demand data directly from the relevant professional bodies.
 
-**Assessment date:** 2026-07-02
-**Source URL:** https://handbook.unimelb.edu.au/2026/courses/dr-philfam
-**Prompt Version:** DFVA-COPILOT-PROMPT-v1
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Creative Arts (Fine Arts, Music, Performing Arts) — research doctorate |
+| Full-time employment (4-6mo) | Not published at program grain (coarse postgraduate-research field data only) |
+| Median starting salary | Not published at program grain (indicative sector bands: clinical therapy AU$70,000–85,000; screen/technical AU$55,000–75,000; independent practice highly variable) |
+| Employment (3yr) | Not published at program grain |
+| Occupation demand | Bifurcated: clinical/therapeutic (registration-gated) growing; technical/craft under AI pressure; academic labour market tight |
+| AI automation exposure | LOW-MEDIUM (structurally low research core; high for technical/craft disciplines) |
+| Sources | UoM Handbook (dr-philfam), QILT GOS/GOS-L field-of-study data (coarse), JSA Skills Priority List 2025, structural sector knowledge (MEAA, Creative Australia, NDIS/aged-care allied-health) — all indicative pending validation |

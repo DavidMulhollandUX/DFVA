@@ -1,6 +1,9 @@
 ## DFVA REPORT: Master of Science (Physics) (MC-SCIPHY)
 **Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 pts)
-**Assessment date:** 2026-06-08 | **Source:** https://handbook.unimelb.edu.au/2026/courses/mc-sciphy
+
+**Assessment date:** 2026-06-08  
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-sciphy  
+**Prompt version:** DFVA-COPILOT-PROMPT-v1
 
 ### 1. PROGRAM PROFILE
 The Master of Science (Physics) at the University of Melbourne is a research-intensive degree for students seeking specialist expertise in physics for research careers, high-tech industry, or PhD programs. The program integrates advanced physics coursework with a substantial research project.
@@ -9,8 +12,7 @@ Specialist elective areas include Quantum Physics, Condensed Matter Physics, Par
 
 Typical graduate roles include research scientist (in physics labs, national facilities, or industry), PhD candidate, data scientist (physics background is strongly valued in quantitative finance and AI research), optical engineer, quantum computing researcher, and atmospheric modeller.
 
-
-## 2. AUTOMATION EXPOSURE PROFILE
+### 2. AUTOMATION EXPOSURE PROFILE
 
 | Task Category | Example Graduate Tasks | AI Pressure | AI Capability Today | Durability Rationale |
 |---|---|---|---|---|
@@ -26,10 +28,20 @@ Typical graduate roles include research scientist (in physics labs, national fac
 
 **Durability Assessment:** Master of Science (Physics) graduates occupy a structurally durable position because their core work — original theoretical reasoning, experimental design, and physical interpretation — is not systematically automatable at the level AI tools currently operate. The highest pressure falls on data analysis and literature tasks that were once the domain of early-career physicists, compressing the low-skill entry point of a physics career. Graduates who combine deep physical intuition with proficiency in ML-based analysis tools and computational simulation are well-positioned; those who exit the degree as primarily data-pipeline operators face meaningful exposure. The 100-point research project is the program's structural defence: it creates graduates who have done original physical reasoning under expert scrutiny, not just processed experimental outputs.
 
+### 3. MARKET EVIDENCE SNAPSHOT
 
-###  3. DFVA SCORECARD
-| # | Dimension | Score (0-3) | Rationale |
-|---|---|---:|---|
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Research Physicist / PhD Candidate | 100-point research project cited by recruiters as research-readiness evidence; PhD pathway remains primary exit | "100-point research project is the structural differentiator against shorter programs" | Add research communication module (GitHub, preprints, portfolio) |
+| Quantum Computing Scientist | 47 ANZ quantum postings Q1 2026; PsiQuantum, Q-CTRL, IBM Q Network expanding | "Quantum computing hiring appearing in ANZ at scale for the first time" | Introduce optional quantum computing stream (algorithms, Qiskit, error correction) |
+| Data Scientist / Quantitative Analyst | Python, ML frameworks, SQL now required not preferred; physics rigour no longer differentiates alone | "Fields increasingly require demonstrated coding and ML competence" | Mandate Python-first computational physics stream |
+| Defence / Intelligence Scientist | AUKUS accelerating DSTG / ASD hiring of physics graduates; clearance eligibility required | "AUKUS and national quantum strategy driving sustained investment" | Establish industry seminar series incl. DSTG, internship credit option |
+| Atmospheric / Climate Modeller | BOM, CSIRO, ARC centres expanding; AI surrogate models emerging within workflows | "Climate and atmospheric physics a growing, underserved pathway" | Develop atmospheric/climate physics elective cluster |
+| Optical / Photonics Engineer | LiDAR, fibre sensing, photonic integrated circuits creating sustained demand | "AI tools augmenting but not substituting core physics reasoning" | Support simulation + hands-on experimental competency |
+
+### 4. DFVA SCORECARD
+| # | Dimension | Score (0-3) | Evidence-based rationale |
+|---|---|---|---|
 | 1 | Automation Exposure | 2 | 100pt research project is irreducible. Coursework (quantum mechanics, field theory, GR) teaches conceptual physics that AI assists but doesn't replace. |
 | 2 | Systems Thinking | 2 | Physics inherently teaches problem framing and constraint reasoning. Research project requires experimental/theoretical design. |
 | 3 | Technical Depth | 3 | Exceptional: Quantum Field Theory, General Relativity, Statistical Mechanics, Particle Physics, Advanced QFT. Genuine depth. |
@@ -39,18 +51,21 @@ Typical graduate roles include research scientist (in physics labs, national fac
 | 7 | Research Rigour | 3 | 100pt research project with literature survey, research plan, progress reviews, major thesis, oral presentation, and supervisor-assessed performance. |
 | 8 | Human & Relational | 2 | Communication for Research Scientists + Science Communication available. Group seminar presentation. No ethics unit available in 2026. |
 | 9 | Curriculum Currency | 2 | Updated 22 Jan 2026. Advanced QFT, Quantum Computing are current. Core is traditional physics — structurally slow to change. |
-| 10 | Outcome Evidence | 2 | No granular destination data. Physics career pathways well-documented externally. |
-| B | Irreplaceability | 3 | Rare: advanced theoretical physics + research training. Quantum computing elective adds emerging-field relevance. |
+| 10 | Outcome Evidence | 1 | No granular destination data at program level; UniMelb does not publicly publish MC-SCIPHY-specific graduate outcomes. Physics career pathways well-documented externally. |
+| B | Irreplaceability (Bonus) | 3 | Rare: advanced theoretical physics + research training. Quantum computing elective adds emerging-field relevance. |
 
-**TOTAL: 25/36 — MODERATE RISK**
+**TOTAL: 25 / 36**  
+**Risk band: MODERATE RISK (20-27)**
 
-###  4. THREE THRESHOLD QUESTIONS
-- **Q1:** NO — 100pt research project is irreducible. Physics problem-solving is conceptual, not templated.
-- **Q2:** YES — Research project from proposal through thesis defense. Physics trains system design at a conceptual level.
-- **Q3:** YES — Quantum computing and advanced physics skills grow in value. Research training is adaptable.
+### 5. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
+  **NO** — 100pt research project is irreducible. Physics problem-solving is conceptual, not templated.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?  
+  **YES** — research project from proposal through thesis defense. Physics trains system design at a conceptual level.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
+  **YES** — quantum computing and advanced physics skills grow in value. Research training is adaptable.
 
-
-## 5. ANALOGUE GRADUATE PROFILE
+### 6. ANALOGUE GRADUATE PROFILE
 
 The most exposed physics graduate is the **Physics Data Analyst of 2021**: primarily processing experimental datasets, running standard analysis pipelines, and producing summary reports for experimental physics groups — work being absorbed by automated data analysis frameworks.
 
@@ -60,13 +75,21 @@ Specific threats:
 - **AI literature and research synthesis tools** — absorbing the systematic review work that physics PhD students and postdocs performed
 - **Automated laboratory control systems** — replacing manual experimental parameter adjustment and monitoring
 
----
+### 7. VERDICT
+Physics research training is structurally durable. The 100pt project + professional skills component creates well-rounded researchers. The AI literacy gap exists but is less acute than in applied fields — physics graduates operate at a conceptual level AI tools don't reach. Quantum computing elective positions graduates at an emerging frontier. At 25/36 the program sits within MODERATE RISK, three points short of RESILIENT, with the gap concentrated in AI literacy and published outcome evidence.
 
-### Verdict
-Physics research training is structurally durable. The 100pt project + professional skills component creates well-rounded researchers. The AI literacy gap exists but is less acute than in applied fields — physics graduates operate at a conceptual level AI tools don't reach. Quantum computing elective positions graduates at an emerging frontier.
+### 8. RECOMMENDATIONS
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Develop machine learning for physics data analysis — critical for modern experimental and computational physics | D3, D5 | Python + ML now table stakes for data science / quantum roles | Medium |
+| P2 | Build AI literacy at the physics-ML interface — when AI captures real physics vs statistical patterns | D5 | AI/ML-for-science a baseline expectation across pathways | Medium |
+| P3 | Develop interdisciplinary communication capability for physics-engineering-data science interfaces | D8 | Employers report difficulty identifying physics MSc candidates | Medium |
+| P4 | Target growth specialisations — quantum computing, photonics, atmospheric physics | D1, D6 | 47 ANZ quantum postings Q1 2026; BOM/CSIRO climate hiring | Low |
+| P5 | Build quantitative finance or AI research competency as a supplementary pathway | D1 | Physics grads valued in quant finance but need coding portfolio | Medium |
+| P6 | Publish graduate destination survey results on program page | D10 | GOS data aggregated at faculty level; no program-level outcomes | Low |
+| P7 | Integrate stakeholder engagement into existing project assessment | D8 | Industry connection weak relative to research focus | Low |
 
-
-## 6. THE REDESIGNED GRADUATE PROFILE
+### 9. THE REDESIGNED GRADUATE PROFILE
 
 The 2027-ready physics graduate is not a data analyst — they are a **physical scientist** who can connect mathematical formalism to physical reality and defend that connection under expert scrutiny.
 
@@ -76,27 +99,11 @@ They understand how AI is transforming physics: from machine learning for experi
 
 They are positioned at the interface of fundamental science and technology application — the place where deep physical understanding enables genuinely novel device design, materials development, or computational capability.
 
----
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Medium**. Based on publicly available job posting patterns, industry announcements, and sector intelligence as of mid-2026; no live ANZ job-ad scrape conducted.
+- Quantum computing job market, defence/security science demand, and data science entry pathways are Medium confidence; graduate employment outcomes for MC-SCIPHY specifically are Low confidence (UniMelb publishes only faculty/discipline-level GOS data).
+- Before institutional use, close key gaps: a live 90-day ANZ job-ad scrape, program-specific destination data, employer interviews (DSTG, Q-CTRL, BOM, CSIRO), ACPSEM pathway mapping, and an alumni survey of 1/3/5-year trajectories.
 
-
-### 7. RECOMMENDATIONS
-| Priority | Action | Dimension | Effort |
-|---|---|---|---|
-| 1 | Develop machine learning for physics data analysis — critical for modern experimental and computational physics | D3, D5 | Medium |
-| 2 | Build AI literacy at the physics-ML interface — when AI captures real physics vs statistical patterns | D5 | Medium |
-| 3 | Develop interdisciplinary communication capability for physics-engineering-data science interfaces | D8 | Medium |
-| 4 | Target growth specialisations — quantum computing, photonics, atmospheric physics | D1, D6 | Low |
-| 5 | Build quantitative finance or AI research competency as a supplementary pathway | D1 | Medium |
-
----
-
-
-
----
-
-**Assessment date:** 2026-06-21
-**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-sciphy
-**Prompt Version:** DFVA-COPILOT-PROMPT-v1
 ### MARKET DATA
 | Metric | Value |
 |--------|-------|
@@ -107,8 +114,6 @@ They are positioned at the interface of fundamental science and technology appli
 | Occupation demand | RECRUITMENT DIFFICULTY |
 | AI automation exposure | 40% |
 | Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |
-
----
 
 <!-- LABOUR-EVIDENCE:START -->
 ### REAL GRADUATE DESTINATIONS (JSA HEO · QILT · Adzuna)

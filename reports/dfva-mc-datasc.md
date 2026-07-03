@@ -1,10 +1,9 @@
 ## DFVA REPORT: Master of Data Science (MC-DATASC)
-**Institution:** University of Melbourne  
-**Level:** Master (Coursework)  
-**Duration:** 2 years (200 credit points)
 
-**Assessment date:** 2026-06-08  
-**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-datasc  
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 credit points)
+
+**Assessment date:** 2026-06-08
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-datasc
 **Prompt version:** DFVA-COPILOT-PROMPT-v1
 
 ### 1. PROGRAM PROFILE
@@ -42,7 +41,7 @@ The risk is in the middle: graduates who exit with coursework competence but wit
 | 7 | Research Methods Rigour | 2 | Research pathway (WAM 80, supervisor, thesis) provides genuine research training — but it is optional and only 25 points. Most students take the capstone. Statistical training provides methodological grounding regardless. |
 | 8 | Human and Relational Capability | 2 | The project involves stakeholder interaction. Statistical communication is implicit in the quantitative curriculum. No dedicated ethics or professional communication unit. |
 | 9 | Curriculum Currency and Adaptability | 3 | Last updated 9 June 2026 — the most recently updated program in this assessment cohort. ML, cloud computing, computational statistics reflect current practice. |
-| 10 | Graduate Outcome Evidence | 3 | No granular destination data published. Data science labour market is well-documented externally, but the program does not track or publish its own graduate outcomes by specialisation. |
+| 10 | Graduate Outcome Evidence | 1 | No granular destination data published. Data science labour market is well-documented externally, but the program does not track or publish its own graduate outcomes by specialisation — a critical evidence gap. |
 | B | Irreplaceability Premium (Bonus) | 2 | Statistics + CS dual-skill is valuable and not easily substituted. However, data science is a crowded credential market — differentiation requires project-cultivated judgment, not just technical competence. |
 
 **TOTAL: 24 / 36**  
@@ -84,10 +83,6 @@ The vulnerability is not the curriculum content but the graduate differentiation
 | P2 | Increase project weighting or add a second project-style assessment earlier in the program | 4, 7 | High |
 | P2 | Distribute stakeholder communication and decision-defense practice across coursework units | 2, 8 | Medium |
 
-### 10. MARKET CONFIDENCE NOTE
-Confidence: **Medium**. Data science labour market signals are well-documented; the structural analysis of the project as a differentiation mechanism is curriculum-evidence-based. The uncertainty is in the graduate destination data gap — without published outcomes by specialisation, the program's actual differentiation effectiveness is unverified.
-
-
 ### 9. THE REDESIGNED GRADUATE PROFILE
 
 The 2027-ready data science graduate is not someone who fits models — they are someone who **defines what question the model is answering and what we learn when it is wrong**.
@@ -98,7 +93,10 @@ They have an AI governance layer: they know what training data their models were
 
 They have communicated statistical conclusions to people who are not statisticians — under pressure, with genuine stakes. A product decision was made differently because of their analysis. That accountability — specific, traceable, consequential — is what distinguishes a professional data scientist from a model executor.
 
----
+### 10. MARKET CONFIDENCE NOTE
+- Confidence: **Medium**. Data science labour market signals are well-documented; the structural analysis of the project as a differentiation mechanism is curriculum-evidence-based.
+- Job-family profiles integrate QILT GOS IT outcomes with WEF Future of Jobs 2025, LinkedIn Workforce Reports Q1 2026, Seek Q1 2026, and Kaggle/AI Index survey data.
+- The uncertainty is in the graduate destination data gap — without published outcomes by specialisation, the program's actual differentiation effectiveness is unverified.
 
 ---
 

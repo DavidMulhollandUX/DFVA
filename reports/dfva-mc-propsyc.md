@@ -1,6 +1,9 @@
 ## DFVA REPORT: Master of Professional Psychology (MC-PROPSYC)
 **Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 pts)
-**Assessment date:** 2026-06-09 | **Source:** https://handbook.unimelb.edu.au/2026/courses/mc-propsyc
+
+**Assessment date:** 2026-06-09
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-propsyc
+**Prompt version:** DFVA-COPILOT-PROMPT-v1
 
 ### 1. PROGRAM PROFILE
 The Master of Professional Psychology is a 200-credit-point program providing the 4th and 5th year of the 5+1 pathway to generalist psychologist registration. All subjects are compulsory and sequentially designed. Core components: 13 classroom-based subjects covering assessment, diagnosis, ethics, psychopathology (adult and child), CBT, and interventions; 300 hours of supervised clinical placement; and a 6000-word minor research thesis.
@@ -15,15 +18,15 @@ The 300 hours of supervised placement create a structural defence: graduates mus
 ### 3. MARKET EVIDENCE SNAPSHOT
 | Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
 |---|---|---|---|
-| Provisional / Registered Psychologist (Clinical) | Psychological assessment, individual therapy, case formulation, report writing, supervision sessions | **LOW** | Trauma-informed care, evidence-based therapies (CBT, ACT, EMDR), risk assessment, culturally safe pr... |
-| Counselling Psychologist | Individual and group counselling, psychoeducation, brief interventions, mental health plans | **LOW-MEDIUM** | Telehealth delivery, stepped-care models, group facilitation, brief solution-focused approaches |
-| Organisational / Workplace Psychologist | Psychometric assessment, coaching, leadership development, culture diagnostics, workforce wellbeing programs | **MEDIUM** | Psychometric analytics, workforce data interpretation, evidence-based coaching, DEI program design |
-| Neuropsychology Track (Graduate) | Cognitive assessment batteries (WAIS, WMS), neuroimaging liaison, rehabilitation planning, report writing | **LOW** | Computerised neuropsychological assessment, TBI and dementia pathway knowledge, cognitive rehabilita... |
-| School / Educational Psychologist | Learning and behavioural assessment, early intervention, parent consultation, school-based crisis response | **LOW-MEDIUM** | Neurodiversity-affirming practice, NAPLAN/psychoeducational assessment, trauma-informed school envir... |
-| Mental Health Researcher / Evaluator | Literature review, data collection and analysis (SPSS, R), ethics applications, report authorship | **MEDIUM** | Mixed-methods research design, health economics literacy, research translation, AI-assisted literatu... |
+| Provisional / Registered Psychologist (Clinical) | 150–250 active provisional/graduate psychologist roles in Victoria; MPsych named as minimum qualification | **LOW** | Trauma-informed care, evidence-based therapies (CBT, ACT, EMDR), risk assessment, culturally safe practice |
+| Counselling Psychologist | EAP providers advertising permanent telehealth-only counselling roles | **LOW-MEDIUM** | Telehealth delivery, stepped-care models, group facilitation, brief solution-focused approaches |
+| Organisational / Workplace Psychologist | People-analytics/wellbeing roles increasingly require data literacy (Qualtrics, Culture Amp) | **MEDIUM** | Psychometric analytics, workforce data interpretation, evidence-based coaching, DEI program design |
+| Neuropsychology Track (Graduate) | Alfred, Royal Melbourne, Austin advertise 3–6 highly competitive trainee posts per year | **LOW** | Computerised neuropsychological assessment, TBI and dementia pathway knowledge, cognitive rehabilitation |
+| School / Educational Psychologist | Victorian DET and Catholic Education active; neurodiversity identification surge driving demand | **LOW-MEDIUM** | Neurodiversity-affirming practice, psychoeducational assessment, trauma-informed school environments |
+| Mental Health Researcher / Evaluator | NHMRC-funded mental health research growing; grant-funded roles in hospitals and NGO sector | **MEDIUM** | Mixed-methods research design, health economics literacy, AI-assisted literature synthesis |
 
 ### 4. DFVA SCORECARD
-| # | Dimension | Score (0-3) | Rationale |
+| # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---:|---|
 | 1 | Automation Exposure | 3 | Clinical assessment, diagnosis, and therapy are irreducible human work. 300hr placement enforces clinical competence. APAC/PsyBA regulation creates structural barriers. |
 | 2 | Systems Thinking | 2 | Case formulation integrates assessment, psychopathology, and cultural context. Research thesis teaches methodology. Primary focus is clinical practice, not system design. |
@@ -35,15 +38,18 @@ The 300 hours of supervised placement create a structural defence: graduates mus
 | 8 | Human & Relational | 3 | Program's defining dimension. 300hr placement, therapeutic relationships, culturally sensitive practice, ethics, diversity. Maximum clinical capability. |
 | 9 | Curriculum Currency | 2 | Updated Dec 2025. Sequential all-compulsory ensures currency. No AI/digital health. |
 | 10 | Outcome Evidence | 3 | APAC + PsyBA registration provides external tracking. 5+1 completion rates publicly available. |
-| B | Irreplaceability | 3 | Clinical psychology: scientific knowledge + therapeutic skill + ethical judgment + cultural competence. APAC/PsyBA regulation creates structural barriers to AI substitution. |
+| B | Irreplaceability (Bonus) | 3 | Clinical psychology: scientific knowledge + therapeutic skill + ethical judgment + cultural competence. APAC/PsyBA regulation creates structural barriers to AI substitution. |
 
-**TOTAL: 26 / 36 — MODERATE RISK**
+**TOTAL: 27 / 36**
+**Risk band: MODERATE RISK (20-27)**
 
-### 4. THRESHOLD QUESTIONS
-- **Q1:** NO — Clinical assessment, diagnosis, and therapeutic intervention are fundamentally irreducible. AI cannot conduct a psychological session.
-- **Q2:** YES — Clinical placements + case formulation + thesis require sustained decision ownership and defended clinical judgment.
-- **Q3:** YES — Mental health demand is structurally growing. Registered psychologists face persistent workforce shortages. APAC/PsyBA pathway provides career durability.
-
+### 5. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?
+  **NO** — clinical assessment, diagnosis, and therapeutic intervention are fundamentally irreducible. AI cannot conduct a psychological session.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?
+  **YES** — clinical placements + case formulation + thesis require sustained decision ownership and defended clinical judgment.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?
+  **YES** — mental health demand is structurally growing. Registered psychologists face persistent workforce shortages. APAC/PsyBA pathway provides career durability.
 
 ### 6. ANALOGUE GRADUATE PROFILE
 
@@ -55,19 +61,19 @@ Specific threats:
 - **Mental health chatbot platforms (Woebot, Wysa)** — absorbing some lower-acuity counselling work that graduate psychologists historically performed
 - **AI diagnostic support tools** — automated differential diagnosis suggestions from symptom data
 
----
-
 ### 7. VERDICT
-Clinical psychology's regulatory and practical barriers create one of the strongest AI defences in the assessment cohort. The program's sequential all-compulsory design, 300-hour placement, and APAC/PsyBA pathway mean graduates exit with demonstrated clinical competence that resists substitution. The AI literacy gap exists but is less acute than in non-clinical fields — clinical psychology's core value is human judgment, not tool operation.
+Clinical psychology's regulatory and practical barriers create one of the strongest AI defences in the assessment cohort. The program's sequential all-compulsory design, 300-hour placement, and APAC/PsyBA pathway mean graduates exit with demonstrated clinical competence that resists substitution. The AI literacy gap exists but is less acute than in non-clinical fields — clinical psychology's core value is human judgment, not tool operation. At 27/36 the program sits at the upper boundary of MODERATE RISK, one point short of RESILIENT.
 
 ### 8. RECOMMENDATIONS
-| Priority | Action | Dimensions | Effort |
-|---|---|---|---|
-| P1 | Add digital mental health + AI in clinical practice module | D5 | Low |
-| P1 | Publish graduate destination + 5+1 completion data | D10 | Low |
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Add digital mental health + AI in clinical practice module | D5 | AI documentation and psychoeducation tools entering practice; APS debating ethical adoption | Low |
+| P2 | Publish graduate destination + 5+1 completion data | D10 | No public program-level destination data limits prospective-student decision-making | Low |
+| P3 | Embed NDIS functional-capacity and behaviour-support competencies in supervised practice | D1 | NDIS is the single largest employer segment for early-career psychologists | Medium |
+| P4 | Redesign a placement to require telehealth-delivered sessions | D5 | Telehealth capability now a baseline requirement across Victorian psychology postings | Medium |
+| P5 | Audit clinical units for First Nations and neurodiversity-affirming practice integration | D6 | First Nations competency and neurodiversity-affirming practice increasingly flagged as hiring criteria | Medium |
 
-**Path to RESILIENT:** P1 actions → 28/36 RESILIENT.
-
+**Path to RESILIENT:** P1 + P2 actions → 28/36 RESILIENT.
 
 ### 9. THE REDESIGNED GRADUATE PROFILE
 
@@ -79,13 +85,10 @@ They have done a substantial internship under supervision and emerged with real 
 
 They understand AI tools in mental health — their capabilities, limitations, and ethical requirements — because the landscape of AI-assisted therapy and assessment is developing rapidly. They can advise an organisation on appropriate use of AI in psychological services. They do not fear AI in their practice; they govern it.
 
----
-
----
-
-**Assessment date:** 2026-06-09
-**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-propsyc
-**Prompt version:** DFVA-COPILOT-PROMPT-v1
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Medium–High**.
+- The LOW AI-substitution rating on clinical tasks is high-confidence (WEF 2025, Brookings, APS ethics literature), and NDIS as the dominant employer segment is well-documented (NDIA workforce data, Nous Group studies).
+- ANZ job-ad volumes, organisational-psychology tool requirements, and First Nations competency frequency rest on documented trend knowledge and pattern analysis; a live 90-day scrape and UniMelb program-level destination data would sharpen confidence.
 
 ### MARKET DATA
 | Metric | Value |

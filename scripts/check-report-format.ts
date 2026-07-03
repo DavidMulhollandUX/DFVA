@@ -25,31 +25,8 @@ const RECOMMEND_FILES = readdirSync(reportsDir).filter((f) => f.startsWith('dfva
 // ── GRANDFATHERED: files already non-conformant when this check was introduced ──
 // Remove slugs here as phases 1-2 align them. End state = empty Set, strict for all.
 const GRANDFATHERED = new Set<string>([
-  // Category B — 5-section format (H1 title, 3-line metadata, capital-D Date)
-  'dfva-b-sci', 'dfva-mc-arch', 'dfva-mc-eng', 'dfva-mc-it',
-  'dfva-mc-env', 'dfva-gc-cert', 'dfva-gc-dip', 'dfva-ua', 'dfva-gd-arts',
-  'dfva-mc-enveng', 'dfva-mc-engmgmt', 'dfva-mc-urbplan', 'dfva-gd-ag',
-  // Category C — 8-section format (misnumbered sections)
-  'dfva-746st', 'dfva-527cl', 'dfva-mc-urbdes',
-  'dfva-mc-actsc', 'dfva-mc-apbusa', 'dfva-mc-bamktg', 'dfva-mc-base',
-  'dfva-mc-clind', 'dfva-mc-datasc', 'dfva-mc-ed', 'dfva-mc-gencoun',
-  'dfva-mc-indeng', 'dfva-mc-intedib', 'dfva-mc-journ',
-  'dfva-mc-nursc', 'dfva-mc-phtyph', 'dfva-mc-prop', 'dfva-mc-propsyc',
-  'dfva-mc-scwr', 'dfva-mc-surged', 'dfva-mc-tesol',
-  // Category D — PhD/doctorate stubs (~3 sections)
-  'dfva-080cl', 'dfva-080cn', 'dfva-300bb', 'dfva-dh-lld', 'dfva-dh-sc',
-  'dfva-dr-philabp', 'dfva-dr-philagr', 'dfva-dr-philart', 'dfva-dr-philbe',
-  'dfva-dr-philedp', 'dfva-dr-philedu', 'dfva-dr-phileit', 'dfva-dr-philfam',
-  'dfva-dr-philik', 'dfva-dr-phillaw', 'dfva-dr-philmdh', 'dfva-dr-philsci',
-  'dfva-dr-philvet', 'dfva-mc-ddensur', 'dfva-mc-dmed', 'dfva-mc-doptom',
-  'dfva-mc-dphysio', 'dfva-mc-dvetmed', 'dfva-me-dcd',
-  // Science MSci stubs
-  'dfva-mc-climsci', 'dfva-mc-envsc', 'dfva-mc-scibif',
-  'dfva-mc-scibit', 'dfva-mc-sciche', 'dfva-mc-sciear', 'dfva-mc-sciepi',
-  'dfva-mc-sciphy',
-  // Bare stubs (missing most sections)
-  'dfva-439fs', 'dfva-mc-bmedsc', 'dfva-mc-busana', 'dfva-mc-envlaw',
-  'dfva-mc-urbhort',
+  // Remaining reports pending canonicalisation (Phase 2 backfill)
+  'dfva-me-dcd', 
 ])
 
 // Market reports — grandfathered until phases 1-2 backfill them

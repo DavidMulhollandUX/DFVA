@@ -1,6 +1,10 @@
 ## DFVA REPORT: Doctor of Optometry (MC-DOPTOM)
 **Institution:** University of Melbourne | **Level:** Graduate Coursework (Masters Extended), AQF Level 9 | **Duration:** 48 months full-time
-**Assessment date:** 2026-07-02 | **Source:** https://handbook.unimelb.edu.au/2026/courses/mc-doptom
+
+**Assessment date:** 2026-07-02  
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-doptom  
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 + DFVA-COPILOT-MARKET-v1  
+**Accreditation:** Optometry Council of Australia and New Zealand (OCANZ) — entry-to-practice qualification for registration as a practising optometrist across Australia and New Zealand
 
 ### 1. PROGRAM PROFILE
 The Doctor of Optometry is a four-year, masters-extended-level professional entry-to-practice degree — the first of its kind in the southern hemisphere — fully accredited by the Optometry Council of Australia and New Zealand (OCANZ), satisfying registration requirements for practice across Australia and New Zealand. The program trains graduates as primary eye-care clinicians: ocular examination, differential diagnosis of anterior and posterior segment disease, refraction and optical correction, contact lens practice, and detection and co-management of sight-threatening and systemic conditions presenting through the eye (glaucoma, diabetic retinopathy, macular disease, hypertensive and neurological signs).
@@ -9,8 +13,7 @@ Structurally, the program combines on-campus teaching in ocular anatomy, physiol
 
 Typical graduate roles are optometrist (community, corporate, or hospital-based), ocular disease co-management specialist, contact lens specialist, and — for a smaller cohort — clinical researcher or academic optometrist. Registration as a practising optometrist in Australia or New Zealand is contingent on OCANZ accreditation of the degree, making this a closed-shop regulated profession with legislated scope-of-practice protections (therapeutic prescribing rights for ocular conditions in most Australian jurisdictions).
 
-
-## 2. AUTOMATION EXPOSURE PROFILE
+### 2. AUTOMATION EXPOSURE PROFILE
 
 | Task Category | Example Graduate Tasks | AI Pressure | AI Capability Today | Durability Rationale |
 |---|---|---|---|---|
@@ -26,9 +29,18 @@ Typical graduate roles are optometrist (community, corporate, or hospital-based)
 
 **Durability Assessment:** Optometry graduates sit in an unusual position relative to most regulated clinical doctorates: the profession's single highest-volume screening task — detecting diabetic retinopathy, glaucoma risk, and macular disease from retinal imaging — is also one of the most mature and already-deployed AI clinical applications in existence, with autonomous, regulator-cleared tools operating in real screening pathways today. This is a materially higher automation exposure than most other clinical doctorates assessed under this rubric (dentistry, physiotherapy, nursing), where the equivalent "flagship AI displacement" tool does not yet exist at the same scale or regulatory maturity. Refraction is similarly far along the automation curve. What remains durable is the combination of hands-on physical examination, accountable prescribing and referral judgment, complex/specialty lens practice, and the relational work of managing patients through vision-threatening diagnoses — none of which current AI tools can substitute end-to-end. The degree's strength is that it already trains graduates across this full spectrum rather than only the automatable screening layer, but the program profile as provided gives no explicit evidence that AI screening tools, their failure modes, or clinician-AI workflow integration are taught as curriculum content — a meaningful gap given how directly this technology bears on entry-level optometry practice.
 
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Community / Retail Optometry | Steady metro/regional hiring; regional roles advertise sign-on incentives (largest entry pathway) | "Highest AI substitution pressure — autorefraction and AI screening already deployed" | Reweight training toward complex/accountable work above the automatable screening layer |
+| Ocular Disease & Co-Management | Growing ad frequency tied to therapeutic scope expansion across Australian states | "Therapeutic prescribing and chronic disease co-management rising fast" | Keep therapeutic training tracking the fastest-expanding state scopes-of-practice |
+| Specialty Contact Lens / Myopia Control | Growing niche demand from independent practices | "Low automation risk, fast-growing on childhood myopia rates" | Add a myopia-management / paediatric elective as a differentiator |
+| Hospital & Public Health Optometry | Stable modest-volume demand (low vision, pre/post-surgical assessment) | "Multidisciplinary and rehabilitation focus resists automation" | Reinforce complex-case and low-vision rehabilitation exposure |
+| AI Diagnostic Vendor Clinical Roles (emerging) | Small but growing clinical liaison/validation category | "A new adjacent job family created by the same AI disrupting screening work" | Introduce awareness of AI-vendor/validation career pathways |
+| Clinical Research & Academia | Growing given volume of AI diagnostic tools requiring validation studies | "AI-validation study design and critique rising in demand" | Enable research-project topics aligned with ophthalmic AI tool validation |
 
-###  3. DFVA SCORECARD
-| # | Dimension | Score (0-3) | Rationale |
+### 4. DFVA SCORECARD
+| # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---:|---|
 | 1 | Automation Exposure of Roles | 2 | Mix of highly automatable tasks (retinal AI screening, routine refraction — both mature, deployed AI applications) and tasks requiring hands-on physical examination, accountable diagnosis/prescribing, and relational patient management from day one. Genuinely higher exposure than most clinical doctorates because retinal AI screening is already at scale, but the degree does train across the full task spectrum, not just the automatable slice. |
 | 2 | Systems Thinking and Problem Framing | 2 | Clinical placements from year one require differential diagnosis and constraint-based clinical reasoning (integrating history, exam findings, imaging, comorbidity) under authentic assessment in real clinical settings. Handbook text doesn't evidence explicit failure-mode/trade-off analysis teaching beyond standard clinical reasoning, so not scored at the top band. |
@@ -40,17 +52,20 @@ Typical graduate roles are optometrist (community, corporate, or hospital-based)
 | 8 | Human and Relational Capability | 3 | Direct patient care from year one, including sight-threatening disease communication and chronic-condition co-management with a vulnerable (often elderly, vision-anxious) patient population — substantial clinical/relational accountability and physical hands-on skill (slit-lamp, tonometry, lens fitting). |
 | 9 | Curriculum Currency and Adaptability | 1 | No evidence in the provided handbook text of an AI-specific curriculum refresh or advisory feedback loop addressing the retinal-AI/diagnostic-imaging disruption directly relevant to this profession — a notable gap given how fast this specific sub-field is moving. |
 | 10 | Graduate Outcome Evidence | 1 | No granular destination, salary, or time-to-registration data provided in the handbook text; OCANZ accreditation guarantees a registration pathway but the program profile does not evidence detailed outcome tracking beyond that. |
-| B | Irreplaceability Premium (bonus) | 3 | Rare integration of deep clinical/technical training, regulated legal scope of practice (therapeutic prescribing), and irreducible hands-on/relational skill — a combination that resists substitution even where individual diagnostic inputs (imaging) are increasingly AI-assisted. |
+| B | Irreplaceability Premium (Bonus) | 3 | Rare integration of deep clinical/technical training, regulated legal scope of practice (therapeutic prescribing), and irreducible hands-on/relational skill — a combination that resists substitution even where individual diagnostic inputs (imaging) are increasingly AI-assisted. |
 
-**TOTAL: 24/36 — MODERATE RISK**
+**TOTAL: 24 / 36**  
+**Risk band: MODERATE RISK (20-27)**
 
-### 4. THREE THRESHOLD QUESTIONS
-- **Q1:** UNCERTAIN — a well-prompted AI agent could already produce a large share of routine refraction and retinal screening triage output, but cannot independently perform hands-on examination, accountable prescribing, or patient-facing disease communication that make up the rest of a first-two-year optometrist's workload.
-- **Q2:** YES — clinical placements from year one require graduates to own real diagnostic and treatment decisions under supervision, and the required research project trains original insight generation; this is not template-execution training.
-- **Q3:** UNCERTAIN — registration-protected scope of practice and an ageing population needing eye care support durable demand, but the rapid maturation of autonomous retinal AI screening (already regulator-cleared and deployed) could compress entry-level screening-heavy roles faster than the degree's current curriculum is preparing graduates to adapt to.
+### 5. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
+  **UNCERTAIN** — A well-prompted AI agent could already produce a large share of routine refraction and retinal screening triage output, but cannot independently perform hands-on examination, accountable prescribing, or patient-facing disease communication that make up the rest of a first-two-year optometrist's workload.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?  
+  **YES** — Clinical placements from year one require graduates to own real diagnostic and treatment decisions under supervision, and the required research project trains original insight generation; this is not template-execution training.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
+  **UNCERTAIN** — Registration-protected scope of practice and an ageing population needing eye care support durable demand, but the rapid maturation of autonomous retinal AI screening (already regulator-cleared and deployed) could compress entry-level screening-heavy roles faster than the degree's current curriculum is preparing graduates to adapt to.
 
-## 5. ANALOGUE GRADUATE PROFILE
-
+### 6. ANALOGUE GRADUATE PROFILE
 The most exposed graduate archetype is the **Community Screening Optometrist of 2021**: a high volume of routine comprehensive eye exams, standard refractions, and diabetic retinopathy/glaucoma screening referrals as the bulk of day-to-day practice, with relatively low complex-case or specialty-lens load.
 
 Specific threats:
@@ -60,33 +75,37 @@ Specific threats:
 - **Warby Parker / EyeQue-style consumer refraction apps and autorefraction kiosks** — compressing the routine refraction task toward self-service or minimal-clinician models
 - **AI-assisted teleoptometry triage platforms** — remote AI pre-screening reducing the volume of in-person visits needed for low-risk routine checks
 
----
+### 7. VERDICT
+The Doctor of Optometry is a rigorous, OCANZ-accredited, hands-on clinical doctorate with genuine research training and progressively intensive real-patient clinical placements — structurally well-positioned relative to most professional degrees. But it carries a distinctive and underappreciated risk: the profession's highest-volume entry-level task (retinal screening and routine refraction) is also the most mature deployed AI application in clinical medicine today, and the program shows no explicit curriculum response to that fact. The degree trains graduates who can do far more than screening, but if the curriculum doesn't explicitly teach AI-workflow literacy, governance, and how to reposition entry-level practice around complex/relational/accountable work, its graduates risk being trained for a screening-heavy version of the job that is disappearing fastest — leaving it in the MODERATE RISK band until that gap is closed.
 
-### 6. VERDICT
-The Doctor of Optometry is a rigorous, OCANZ-accredited, hands-on clinical doctorate with genuine research training and progressively intensive real-patient clinical placements — structurally well-positioned relative to most professional degrees. But it carries a distinctive and underappreciated risk: the profession's highest-volume entry-level task (retinal screening and routine refraction) is also the most mature deployed AI application in clinical medicine today, and the program shows no explicit curriculum response to that fact. The degree trains graduates who can do far more than screening, but if the curriculum doesn't explicitly teach AI-workflow literacy, governance, and how to reposition entry-level practice around complex/relational/accountable work, its graduates risk being trained for a screening-heavy version of the job that is disappearing fastest.
+### 8. RECOMMENDATIONS
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Introduce a dedicated AI in Eye Care unit or module covering autonomous retinal screening tools (LumineticsCore, ARDA), their failure modes, regulatory status, and clinician-AI workflow integration — taught explicitly as a governance and supervision skill, not just a tool-use skill | D5 | Retinal AI screening deployed at scale in community/retail optometry | Medium |
+| P2 | Explicitly reweight clinical placement exposure in early years toward complex case management, co-management, and specialty lens fitting rather than routine screening volume, so graduates build durable-skill fluency before entering a workforce where routine screening is increasingly automated | D1 | Highest AI substitution pressure concentrated in routine screening/refraction | High |
+| P3 | Establish a structured graduate outcomes tracking system (time-to-registration, practice setting, screening vs. complex-case caseload mix) in partnership with OCANZ and Optometry Australia, closing the program's most significant evidence gap | D10 | No program-specific destination data available | High |
+| P4 | Add a curriculum currency review cycle specifically tracking AI diagnostic imaging developments in ophthalmology/optometry (retinal AI, OCT AI triage), with an advisory panel including practising optometrists using these tools, refreshed at least every 2 years | D9 | Fast-moving ophthalmic AI diagnostic-imaging space | Medium |
+| P5 | Expand the clinically relevant research project's expected scope/documentation to require a defined minimum primary-data component and methodology defence, making the research capability explicit and comparable across cohorts | D7 | AI-validation study design/critique rising in demand | Medium |
+| P6 | Build an explicit "AI-augmented triage to accountable diagnosis" capstone scenario into final-year clinical assessment, requiring graduates to demonstrate when to trust, override, or escalate beyond an AI screening flag | D4, D5 | AI-assisted triage interpretation rising in demand | Medium |
+| P7 | Formalise systems-thinking teaching around eye-care's position in the broader health system (GP/ophthalmology referral pathways, Medicare/insurance interactions, screening-program design) with explicit trade-off and failure-mode analysis, not just clinical reasoning | D2 | Interdisciplinary co-management rising in demand | Low-Medium |
 
-## 7. RECOMMENDATIONS
-
-| Priority | Action | Dimension | Effort |
-|---|---|---|---|
-| 1 | Introduce a dedicated AI in Eye Care unit or module covering autonomous retinal screening tools (LumineticsCore, ARDA), their failure modes, regulatory status, and clinician-AI workflow integration — taught explicitly as a governance and supervision skill, not just a tool-use skill | D5 AI Literacy and Governance | Medium — can be embedded into existing ocular disease/imaging units without full redesign |
-| 2 | Explicitly reweight clinical placement exposure in early years toward complex case management, co-management, and specialty lens fitting rather than routine screening volume, so graduates build durable-skill fluency before entering a workforce where routine screening is increasingly automated | D1 Automation Exposure | High — requires placement-provider coordination and curriculum sequencing change |
-| 3 | Establish a structured graduate outcomes tracking system (time-to-registration, practice setting, screening vs. complex-case caseload mix) in partnership with OCANZ and Optometry Australia, closing the program's most significant evidence gap | D10 Outcome Evidence | High — requires institutional investment and professional-body partnership |
-| 4 | Add a curriculum currency review cycle specifically tracking AI diagnostic imaging developments in ophthalmology/optometry (retinal AI, OCT AI triage), with an advisory panel including practising optometrists using these tools, refreshed at least every 2 years | D9 Curriculum Currency | Medium — requires establishing an advisory feedback loop but no structural redesign |
-| 5 | Expand the clinically relevant research project's expected scope/documentation to require a defined minimum primary-data component and methodology defence, making the research capability explicit and comparable across cohorts | D7 Research Rigour | Medium — policy and assessment-rubric change within existing project structure |
-| 6 | Build an explicit "AI-augmented triage to accountable diagnosis" capstone scenario into final-year clinical assessment, requiring graduates to demonstrate when to trust, override, or escalate beyond an AI screening flag | D4 Decision-Making Under Uncertainty / D5 AI Literacy | Medium — can be added to existing final-year clinical assessment structure |
-| 7 | Formalise systems-thinking teaching around eye-care's position in the broader health system (GP/ophthalmology referral pathways, Medicare/insurance interactions, screening-program design) with explicit trade-off and failure-mode analysis, not just clinical reasoning | D2 Systems Thinking | Low-to-medium — can be threaded through existing clinical placement debriefs and case-based learning |
-
-## 8. THE REDESIGNED GRADUATE PROFILE
-
+### 9. THE REDESIGNED GRADUATE PROFILE
 The 2027-ready Doctor of Optometry graduate is not a screening technician — they are an **accountable eye-health clinician who supervises AI rather than competing with it**. They know exactly which parts of the examination and screening pathway an AI tool now handles well (routine refraction, first-pass retinal disease flagging) and treat that as freed-up time for the parts of the role that remain genuinely theirs: complex differential diagnosis, specialty lens fitting, therapeutic prescribing, and the relational work of walking a patient through a sight-threatening diagnosis.
 
-They can explain to a patient, a GP, or a regulator why an AI screening flag was escalated, downgraded, or overridden — because they were taught the failure modes of the specific tools deployed in Australian and New Zealand optical practice, not just how to operate them. Their research training means they can read and critically evaluate the next generation of ophthalmic AI validation studies rather than taking vendor claims at face value.
+They can explain to a patient, a GP, or a regulator why an AI screening flag was escalated, downgraded, or overridden — because they were taught the failure modes of the specific tools deployed in Australian and New Zealand optical practice, not just how to operate them. Their research training means they can read and critically evaluate the next generation of ophthalmic AI validation studies rather than taking vendor claims at face value. They understand that the volume of purely routine screening work will keep shrinking, and their clinical training was deliberately weighted toward the complex, physically hands-on, and relationally demanding work that AI cannot yet replicate — positioning them as the accountable clinical layer above an increasingly automated screening pipeline, not a competitor to it.
 
-They understand that the volume of purely routine screening work will keep shrinking, and their clinical training was deliberately weighted toward the complex, physically hands-on, and relationally demanding work that AI cannot yet replicate — positioning them as the accountable clinical layer above an increasingly automated screening pipeline, not a competitor to it.
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Low–Medium**.
+- Job-family structure and scope-of-practice trends are grounded in known Australian/NZ optometry regulation; retinal-AI deployment claims rest on public regulatory clearances (e.g., IDx-DR/LumineticsCore FDA clearance); job-ad and salary signals are directional, not a live scrape.
+- For high-stakes curriculum decisions, add a live Seek/Optometry Australia job-ad scrape, program-specific QILT destination data for MC-DOPTOM, a sourced salary survey, and state-by-state therapeutic-prescribing scope confirmation.
 
----
-
-**Assessment date:** 2026-07-02
-**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-doptom
-**Prompt Version:** DFVA-COPILOT-PROMPT-v1
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Optometry |
+| Full-time employment | Near-universal (OCANZ registration pathway; granular program-level data not published) |
+| Median starting salary | AUD 75,000–95,000 (graduate optometrist, Year 1; structural estimate) |
+| Employment (3yr) | Not published at program level (registration-protected scope implies high retention) |
+| Occupation demand | Structural shortage (persistent rural/regional workforce gap) |
+| AI automation exposure | MEDIUM (routine screening/refraction HIGH; complex/relational core LOW) |
+| Sources | UoM Handbook 2026 (mc-doptom), OCANZ accreditation framework, public AI-clearance records (IDx-DR/LumineticsCore), directional Australian/NZ optometry labour-market knowledge (LOW–MEDIUM confidence — not a live scrape) |

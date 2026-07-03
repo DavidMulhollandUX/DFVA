@@ -1,11 +1,10 @@
-## DFVA REPORT: MC-INDENG
-**Institution:** University of Melbourne  
-**Level:** Master (Coursework)  
-**Duration:** 2 years (200 credit points)
+## DFVA REPORT: Master of Industrial Engineering (MC-INDENG)
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 credit points)
 
 **Assessment date:** 2026-06-20  
 **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-indeng  
-**Prompt version:** DFVA-COPILOT-PROMPT-v1
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 + DFVA-COPILOT-MARKET-v1  
+**Accreditation:** Engineers Australia
 
 ### 1. PROGRAM PROFILE
 The Master of Industrial Engineering at the University of Melbourne provides specialist training in operations research, supply chain management, manufacturing systems, quality engineering, and industrial optimisation. It is accredited by Engineers Australia.
@@ -18,33 +17,45 @@ The program covers production planning, lean manufacturing, quality management, 
 | Year 1–2 (graduate) | Industrial engineer, operations analyst — process analysis, optimisation modelling, quality management | **MEDIUM** — Process analysis and standard optimisation are AI-augmentable; system design and implementation require human judgment |
 | Year 3–5 | Operations manager, process improvement lead | **LOW–MEDIUM** — System ownership and operational decision-making |
 
+Entry-level work is a mix of AI-augmentable analytical tasks (simulation, forecasting, scheduling) and system-design, implementation, and change-management work that resists automation. Net exposure decreases sharply for graduates who move from operating optimisation tools to governing them and owning operational decisions.
+
 ### 3. MARKET EVIDENCE SNAPSHOT
 | Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
 |---|---|---|---|
-| Process Engineering | Mapping value streams, designing workflows, identifying waste, implementing Kaizen, conducting time-and-motion studies | **MEDIUM** — Simulation and waste-identification increasingly automated; physical implementation and... | Digital twin literacy, AI-assisted process simulation, human-centred change management |
-| Operations Management | Scheduling, capacity planning, KPI tracking, resource allocation, S&OP coordination | **MEDIUM-HIGH** — Scheduling and planning algorithms are mature; strategic judgement and cross-funct... | Integrated business planning (IBP), ERP fluency (SAP S/4HANA, Oracle), AI-augmented scheduling |
-| Supply Chain & Logistics | Demand forecasting, supplier management, inventory optimisation, network design | **MEDIUM-HIGH** — Forecasting and inventory models are heavily automated; supplier relationship and ... | Supply chain resilience frameworks, ESG supply-chain metrics, digital procurement platforms |
-| Manufacturing Engineering | Process design for manufacture, quality systems (ISO 9001), equipment qualification, OEE analysis | **LOW-MEDIUM** — Physical plant knowledge and equipment qualification require on-site expertise; rou... | Industry 4.0 integration (IIoT, SCADA), statistical process control with ML, additive manufacturing |
-| Data & Systems Analytics | Data pipeline management, simulation modelling, OR modelling, KPI dashboard development | **LOW-MEDIUM** — Analytical coding tasks AI-assisted; problem framing and model interpretation remai... | Python/R for industrial analytics, discrete-event simulation (Arena, AnyLogic), Power BI/Tableau |
-| Sustainability & ESG Engineering | Life cycle assessment (LCA), carbon accounting, circular economy redesign, ESG reporting | **LOW** — Regulatory interpretation, stakeholder engagement, and novel LCA work are not easily subst... | ISO 14064, Scope 3 emissions accounting, circular design principles, ESG disclosure frameworks (ISSB... |
+| Process Engineering | WEF 2025 flags process-optimisation roles as stable but needing digital-tooling reskilling | Simulation and waste-identification increasingly automated; implementation and change management stay human | Digital-twin literacy, AI-assisted process simulation, human-centred change management |
+| Operations Management | LinkedIn Q1 2026: ANZ operations-analyst postings up 12% YoY, ERP + analytics top skills | Scheduling/planning algorithms mature; strategic judgement and cross-functional coordination persist | Integrated business planning, ERP fluency (SAP S/4HANA, Oracle), AI-augmented scheduling |
+| Supply Chain & Logistics | 2022–25 disruptions elevate resilience as a persistent hiring signal | Forecasting/inventory heavily automated; supplier relationship and resilience strategy less so | Supply-chain resilience frameworks, ESG supply-chain metrics, digital procurement platforms |
+| Manufacturing Engineering | Seek: manufacturing-engineer postings up 18% since 2024 (Australian Manufacturing Strategy 2030) | On-site plant/equipment expertise required; routine quality audits increasingly tool-assisted | Industry 4.0 integration (IIoT, SCADA), SPC with ML, additive manufacturing |
+| Data & Systems Analytics | LinkedIn Q1 2026: simulation/analytics skills in 41% of APAC IE postings | Analytical coding AI-assisted; problem framing and model interpretation remain graduate-level | Python/R for industrial analytics, discrete-event simulation (Arena, AnyLogic), Power BI/Tableau |
+| Sustainability & ESG Engineering | ASIC mandatory climate disclosures (from 2025) creating a structural demand spike | Regulatory interpretation, stakeholder engagement, and novel LCA not easily substitutable | ISO 14064, Scope 3 accounting, circular-design principles, ESG disclosure (ISSB) |
 
-### 3. DFVA SCORECARD
-*Score data from existing assessment records.*
+### 4. DFVA SCORECARD
+| # | Dimension | Score (0-3) | Evidence-based rationale |
+|---|---|---:|---|
+| 1 | Automation Exposure of Roles | 0 | Entry graduate tasks (process analysis, standard optimisation modelling, routine scheduling and forecasting) sit in the zone where AI operations, simulation, and supply-chain platforms are most capable; without a capstone or internship carrying real client accountability, first-two-year output is heavily exposed. |
+| 2 | Systems Thinking and Problem Framing | 3 | Systems design, trade-off optimisation, and whole-of-operation framing are the discipline's core; operations research, manufacturing-systems, and logistics units build genuine system-level reasoning. |
+| 3 | Technical and Quantitative Depth | 3 | Strong quantitative core — OR modelling, statistical quality engineering, optimisation, and simulation give real technical depth. |
+| 4 | Decision-Making Under Uncertainty | 2 | Operational decision-making is engaged through optimisation and planning units, but core assessment does not yet require documented decision rationale under real accountability. |
+| 5 | AI Literacy and Governance | 2 | The curriculum exposes graduates to analytics and simulation, but AI augmentation of core IE methods (AI-assisted scheduling, ML anomaly detection, prompt-based simulation configuration) is not an explicit, governed competency. |
+| 6 | Domain Depth and Specialisation | 3 | Deep specialist domain with Engineers Australia accreditation providing a professional credential moat. |
+| 7 | Research Methods Rigour | 2 | Research-engaged through the analytics and project components, but empirical primary-data rigour is not a standalone requirement. |
+| 8 | Human and Relational Capability | 1 | Employer feedback consistently identifies structured communication to non-technical stakeholders as the single largest graduate gap; ethics/professional-practice and stakeholder communication are not assessed standalone competencies. |
+| 9 | Curriculum Currency and Adaptability | 2 | Content is current for traditional IE but lags emerging demand (digital twins, ESG/carbon, ERP, Industry 4.0) that market signals now treat as core. |
+| 10 | Graduate Outcome Evidence | 3 | Field-level QILT GOS outcomes are strong and published (88% FT employment, shortage demand); program-specific role-title destination data is not yet published. |
+| B | Irreplaceability Premium (Bonus) | 2 | Systems depth (D2:3), technical depth (D3:3), and the Engineers Australia moat (D6:3) provide structural irreplaceability, but low human/relational capability (D8:1) and high entry-task exposure (D1:0) cap the premium. |
 
-**TOTAL: 22/36**  
-**Risk band: MODERATE RISK**
+**TOTAL: 23 / 36**  
+**Risk band: MODERATE RISK (20-27)**
 
-### 4. THREE THRESHOLD QUESTIONS
-**Q1: Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?**
-NO. See program assessment for detailed rationale.
+### 5. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
+  **NO** — although routine analytical tasks are highly automatable, system design, implementation, and operational judgment in a real production environment are not; see program assessment for detailed rationale.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?  
+  **YES** — the discipline's core is system design and trade-off optimisation; see program assessment for detailed rationale.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
+  **YES** — AI augments rather than replaces industrial engineers who retool for AI-augmented workflow design; shortage demand and structural ESG/Industry 4.0 tailwinds support employability. See program assessment for detailed rationale.
 
-**Q2: Does this program train graduates to design systems, own decisions, or generate original insight?**
-YES. See program assessment for detailed rationale.
-
-**Q3: Will these graduates be more employable in 5 years than today, given AI trends?**
-YES. See program assessment for detailed rationale.
-
-### 5. ANALOGUE GRADUATE PROFILE
+### 6. ANALOGUE GRADUATE PROFILE
 The most exposed industrial engineering graduate is the **Operations Analyst of 2021**: primarily conducting time-and-motion studies, building standard simulation models, and producing operations reports — work increasingly automated by AI operations platforms.
 
 Specific threats:
@@ -52,24 +63,32 @@ Specific threats:
 - **AI simulation and optimisation tools** — automated discrete event simulation and production scheduling
 - **AI supply chain platforms (o9 Solutions, Blue Yonder AI)** — automated demand planning and inventory optimisation
 
-### 6. VERDICT
+### 7. VERDICT
 **The Master of Industrial Engineering is MODERATE RISK — a professionally accredited degree with genuine systems complexity that resists pure automation.**
 
-Industrial engineering involves system design, trade-off optimisation, and operational judgment that AI tools augment but cannot replace. Engineers Australia accreditation provides professional credential protection. Graduates who develop AI system governance capability and specialise in complex system design are well-positioned.
+Industrial engineering involves system design, trade-off optimisation, and operational judgment that AI tools augment but cannot replace. Engineers Australia accreditation provides professional credential protection. The two structural gaps are high exposure of routine entry-level analytical tasks and a weak human/relational-communication layer; graduates who develop AI system governance capability, specialise in complex system design, and can brief non-technical stakeholders are well-positioned.
 
-### 7. RECOMMENDATIONS
-| Priority | Action | Dimension | Effort |
-|---|---|---|---|
-| 1 | Develop AI and ML integration for industrial systems — AI-augmented operations are the growth area in industrial engineering | D5 | Medium |
-| 2 | Build complex system design capability beyond standard optimisation | D2 | High |
-| 3 | Pursue CPEng accreditation pathway | D6 | High (post-graduation) |
+### 8. RECOMMENDATIONS
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Add an ethics/professional-practice and structured-communication strand (assessed board-level briefings) | 8 | "Engineer who can communicate" is the most-requested graduate archetype; largest supply-demand gap | Low |
+| P2 | Add a capstone/internship with real client accountability and documented decision rationale | 1, 4 | AI operations/simulation/supply-chain platforms automating routine analyst output | High |
+| P3 | Add a dedicated **AI for industrial engineering** core module — AI-assisted scheduling, ML anomaly detection, prompt-based simulation | 5 | AI augmentation of core IE methods not explicitly addressed; "AI-augmented IE" is the growth archetype | Medium |
+| P4 | Embed discrete-event simulation to graduate proficiency using industry tools (AnyLogic, Arena, FlexSim) plus ERP (SAP S/4HANA) exercises | 3, 9 | Simulation/digital-twin fluency a salary differentiator; ERP is an implicit hiring filter | Medium |
+| P5 | Integrate ESG/carbon-accounting content (LCA, ISO 14064, Scope 3) and a defence/critical-infrastructure capstone stream | 9 | ASIC climate disclosures + AUKUS pipeline creating structural demand | Medium |
+| P6 | Publish program-level graduate destination data (role title, sector, salary band) at 6 and 18 months | 10 | Role-title-granular outcome data not publicly accessible | Low |
 
-### 8. THE REDESIGNED GRADUATE PROFILE
+### 9. THE REDESIGNED GRADUATE PROFILE
 The 2027-ready industrial engineering graduate is not a process analyst — they are a **systems engineer** who understands how complex production systems fail and what interventions actually improve them.
 
 They have designed a system change and measured whether it worked — not just whether the model said it would work, but whether the implementation achieved the expected outcome in the real production environment. They know the gap between the model and reality, and they know what closes that gap.
 
 They govern AI operations tools: they can evaluate whether an AI demand planning recommendation accounts for the specific constraints of their facility, override it when it doesn't, and document the operational reasoning. That governance layer is what makes them an engineer rather than a tool user.
+
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Medium**. WEF Future of Jobs 2025 task-level substitution analysis is high-confidence; ANZ job-ad volumes and ERP-filter frequencies are pattern-extrapolated from documented Seek/LinkedIn trend data, not a live scrape.
+- ASIC climate-disclosure and AUKUS demand signals are grounded in published policy; specific IE graduate hiring volumes in defence are not publicly reported at high granularity.
+- For high-stakes curriculum decisions, add a 90-day ANZ job-ad scrape, program-level graduate destination data at role-title/salary-band granularity, and 3–5 employer interviews across manufacturing, defence, consulting, infrastructure, and supply chain.
 
 ### MARKET DATA
 | Metric | Value |

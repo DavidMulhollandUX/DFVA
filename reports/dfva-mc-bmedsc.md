@@ -1,6 +1,9 @@
 ## DFVA REPORT: Master of Biomedical Science (MC-BMEDSC)
-**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 pts)
-**Assessment date:** 2026-06-08 | **Source:** https://handbook.unimelb.edu.au/2026/courses/mc-bmedsc
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 credit points)
+
+**Assessment date:** 2026-06-08  
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-bmedsc  
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 + DFVA-COPILOT-MARKET-v1  
 
 ### 1. PROGRAM PROFILE
 The Master of Biomedical Science at the University of Melbourne is a research-intensive degree combining laboratory science training with a 125-credit-point research project — the largest research component in the assessed cohort. Students choose a specialisation from five departmental areas: School of Biomedical Sciences, Melbourne Medical School, Melbourne Dental School, Department of Psychological Sciences, or Department of Optometry and Vision Sciences.
@@ -9,7 +12,7 @@ The 200-credit-point program includes *Introduction to Biomedical Research* (com
 
 Typical graduate roles include research scientist, clinical trial coordinator, research officer in pharmaceutical/biotechnology companies, PhD candidate, and postdoctoral researcher. The program serves as the primary entry point to biomedical PhD programs in Australia and internationally.
 
-## 2. AUTOMATION EXPOSURE PROFILE
+### 2. AUTOMATION EXPOSURE PROFILE
 
 | Task Category | Example Graduate Tasks | AI Pressure | AI Capability Today | Durability Rationale |
 |---|---|---|---|---|
@@ -26,45 +29,43 @@ Typical graduate roles include research scientist, clinical trial coordinator, r
 
 **Durability Assessment:** MC-BMEDSC graduates face meaningful AI pressure at the execution layer of laboratory work — routine assays, standard analyses, and image quantification are all subject to ongoing automation. However, the program's defining feature — a 125-credit-point sustained research project across four semesters — positions graduates primarily in the experimental design and scientific judgment layer, which is the most durable layer in biomedical research. The net automation exposure is medium rather than high precisely because the degree trains graduates to own the decisions that direct AI tools, not to execute the tasks those tools replace. The key vulnerability is the minority of graduates who exit into pure execution roles (research assistant, lab technician) without progressing to research design or clinical coordination positions.
 
-
-###  3. DFVA SCORECARD
-| # | Dimension | Score (0-3) | Rationale |
-|---|---|---:|---|
-| 1 | Automation Exposure | 2 | 125pt research project anchors non-automatable work. Lab techniques partially automatable. Biomedical research increasingly AI-augmented. |
-| 2 | Systems Thinking | 2 | BIOM40001 (Introduction to Biomedical Research) + HLTH90021 (Research to Impact) teach problem framing. Research project requires experimental design. |
-| 3 | Technical Depth | 3 | Strong laboratory science core across SBS, MMS, Dental, Psych, Vision Sciences. Research project builds deep domain technique. |
-| 4 | Decision-Making | 3 | 125pt research project over 4 semesters requires sustained methodological decision-making and interpretation of experimental results. |
-| 5 | AI Literacy | 1 | No AI-specific units. Biomedical research uses computational tools but AI as governed system is absent. |
-| 6 | Domain Depth | 3 | Five departmental specialisations. Biomedical science is a deep domain. Research project creates expertise. |
-| 7 | Research Rigour | 3 | 125pt research project (the largest in this cohort). BIOM40001 provides research methodology grounding. |
-| 8 | Human & Relational | 2 | HLTH90021 addresses research-to-impact translation. Professional ethics implicit in research training and lab safety. |
-| 9 | Curriculum Currency | 2 | Updated 9 June 2026. Strong industry-engagement elements. No explicit AI integration. |
-| 10 | Outcome Evidence | 3 | No granular destination data. Biomedical career pathways externally documented. |
-| B | Irreplaceability | 3 | Rare: laboratory science + research training + industry awareness. 125pt project creates deep, non-substitutable expertise. |
-
-**TOTAL: 25/36 — MODERATE RISK**
-
-###  4. THREE THRESHOLD QUESTIONS
-- **Q1 (AI produce 80%?):** NO — the 125pt laboratory research project is irreducible human work.
-- **Q2 (Design systems/own decisions?):** YES — research project from design through interpretation.
-- **Q3 (More employable in 5 years?):** YES — biomedical research is AI-augmented, not AI-displaced. Research training is structurally protective.
-
-### Verdict
-The program's 125-point research project is its defining strength — proportionally the largest in this assessment cohort. Graduates exit with research-cultivated judgment that resists substitution. The AI literacy gap (D5) is the main opportunity.
-
-### 7. RECOMMENDATIONS
-| Priority | Action | Dimension | Effort |
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
 |---|---|---|---|
-| 1 | Add a unit on AI in biomedical research — machine learning for image analysis, AI drug discovery, computational biology — as a core or elective offering | D5, D9 | Medium |
-| 2 | Develop scientific communication capability explicitly — presenting research to non-specialist audiences is a growing career requirement | D8 | Low |
-| 3 | Build bioinformatics competency alongside lab expertise — the intersection of wet-lab and computational skills is the growth area | D3, D5 | Medium |
-| 4 | Publish graduate destination data including PhD continuation rates, time to employment, and industry sector breakdown | D10 | Medium |
-| 5 | Develop industry partnership opportunities beyond the current structure — industry-supervised research projects provide real-world validation of laboratory skills | D4, D8 | High |
+| Biomedical Researcher | Hypothesis formation, experimental design, and interpretation remain human-led; CSL, GSK, Melbourne biotechs active | "Research-project experience differentiates candidates from coursework-only masters" | Bioinformatics, statistical analysis, research integrity, grant writing |
+| Clinical Research | CTC/CRA roles consistently advertised; monitoring automating but regulatory judgment stays human | "GCP certification is a near-universal prerequisite not embedded in the curriculum" | ICH-GCP compliance, EDC systems, risk-based monitoring, site relationships |
+| Laboratory Science | High-throughput automation advancing; liquid-handling and imaging robots displacing routine bench work | "Lab roles now demand QMS and automation experience" | Automation operation, ISO 15189 QMS, data interpretation, bioinformatics |
+| Medical Science Liaison | Relationship-based, trust-dependent role; complex scientific exchange irreducible | "MSc + research background strongly valued for MSL entry" | Clinical evidence synthesis, communication, therapeutic-area depth |
+| Regulatory Affairs | Regulatory judgment, risk assessment, and stakeholder negotiation irreducible; ANZ complexity rising | "Device and therapeutic-goods regulation is a growing, protected pathway" | TGA CTN/CTA frameworks, ISO 13485, eCTD, ICH guidelines |
+| PhD Candidate | Creative research design and original contribution cannot be automated; stable NHMRC/ARC funding | "Original research design is the least automatable biomedical activity" | Research methodology, R/Python, scientific writing, grant skills |
 
----
+### 4. DFVA SCORECARD
+| # | Dimension | Score (0-3) | Evidence-based rationale |
+|---|---|---|---|
+| 1 | Automation Exposure of Roles | 2 | 125pt research project anchors non-automatable work. Lab techniques partially automatable. Biomedical research increasingly AI-augmented. |
+| 2 | Systems Thinking and Problem Framing | 2 | BIOM40001 (Introduction to Biomedical Research) + HLTH90021 (Research to Impact) teach problem framing. Research project requires experimental design. |
+| 3 | Technical and Quantitative Depth | 3 | Strong laboratory science core across SBS, MMS, Dental, Psych, Vision Sciences. Research project builds deep domain technique. |
+| 4 | Decision-Making Under Uncertainty | 3 | 125pt research project over 4 semesters requires sustained methodological decision-making and interpretation of experimental results. |
+| 5 | AI Literacy and Governance | 1 | No AI-specific units. Biomedical research uses computational tools but AI as governed system is absent. |
+| 6 | Domain Depth and Specialisation | 3 | Five departmental specialisations. Biomedical science is a deep domain. Research project creates expertise. |
+| 7 | Research Methods Rigour | 3 | 125pt research project (the largest in this cohort). BIOM40001 provides research methodology grounding. |
+| 8 | Human and Relational Capability | 2 | HLTH90021 addresses research-to-impact translation. Professional ethics implicit in research training and lab safety. |
+| 9 | Curriculum Currency and Adaptability | 2 | Updated 9 June 2026. Strong industry-engagement elements. No explicit AI integration. |
+| 10 | Graduate Outcome Evidence | 1 | No granular destination data published; biomedical career pathways externally documented but program-specific outcomes are not reported. |
+| B | Irreplaceability Premium (Bonus) | 3 | Rare: laboratory science + research training + industry awareness. 125pt project creates deep, non-substitutable expertise. |
 
+**TOTAL: 25 / 36**  
+**Risk band: MODERATE RISK (20-27)**
 
-## 5. ANALOGUE GRADUATE PROFILE
+### 5. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
+  **NO** — the 125pt laboratory research project is irreducible human work.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?  
+  **YES** — research project from design through interpretation.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
+  **YES** — biomedical research is AI-augmented, not AI-displaced. Research training is structurally protective.
+
+### 6. ANALOGUE GRADUATE PROFILE
 
 The most exposed biomedical science graduate is the **Research Assistant of 2020**: primarily conducting routine laboratory assays, processing samples according to established protocols, and entering experimental data — work being automated by laboratory robotics and AI analysis platforms.
 
@@ -76,9 +77,19 @@ Specific threats:
 
 However, the MC-BMEDSC graduate profile is substantially more protected: the 125pt research project, requiring original experimental design and defended methodology, positions graduates in the research judgment layer rather than the execution layer.
 
----
+### 7. VERDICT
+The Master of Biomedical Science is **MODERATE RISK** (25/36). Its 125-point research project is its defining strength — proportionally the largest in this assessment cohort — and graduates exit with research-cultivated judgment that resists substitution. The AI-literacy gap (D5:1) and the absence of published program-level outcome data (D10:1) are the main opportunities; closing both, without diluting the research core, is the clear path toward RESILIENT.
 
-## 8. THE REDESIGNED GRADUATE PROFILE
+### 8. RECOMMENDATIONS
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Add a unit on **AI in biomedical research** — machine learning for image analysis, AI drug discovery, computational biology — as a core or elective offering | 5, 9 | Biotech ads beginning to list AI-assisted analysis and ML familiarity | Medium |
+| P2 | Build **bioinformatics competency** alongside lab expertise — the wet-lab/computational intersection is the growth area | 3, 5 | Bioinformatics (R, Python, GATK) now baseline in genomics/precision-medicine ads | Medium |
+| P3 | Embed **GCP / clinical-research readiness** and industry-supervised projects to broaden protected pathways | 4, 8 | CTC/CRA demand sustained; GCP a near-universal prerequisite not currently embedded | High |
+| P4 | Develop **scientific communication** capability explicitly — presenting research to non-specialist audiences | 8 | MSL and translation roles are relationship-based and trust-dependent | Low |
+| P5 | Publish **graduate destination data** including PhD continuation rates, time to employment, and industry-sector breakdown | 10 | Program-specific outcome data is the critical evidence gap for scoring confidence | Medium |
+
+### 9. THE REDESIGNED GRADUATE PROFILE
 
 The 2027-ready biomedical science graduate is not a laboratory executor — they are a **research scientist** who generates original knowledge, defends experimental design, and governs AI tools with critical scientific judgment.
 
@@ -88,13 +99,11 @@ They understand how AI is transforming their specialisation: AlphaFold for struc
 
 They are positioned at the interface of laboratory expertise and computational analysis — they know when to trust the model and when to trust the bench result. In the AI era of biomedical science, that dual literacy is the rarest and most valuable combination.
 
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Medium**.
+- Market evidence integrates biomedical/biotech sector hiring intelligence and professional discourse with QILT GOS field-of-study outcomes; ANZ demand signals (bioinformatics baseline, CTC/CRA demand, AI-literacy gap) are directionally consistent.
+- For high-stakes curriculum decisions, add a live ANZ job-ad scrape (last 90 days) and UniMelb MC-BMEDSC destination data at role-title and PhD-continuation granularity.
 
-
----
-
-**Assessment date:** 2026-06-21
-**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-bmedsc
-**Prompt Version:** DFVA-COPILOT-PROMPT-v1
 ### MARKET DATA
 | Metric | Value |
 |--------|-------|
@@ -105,8 +114,6 @@ They are positioned at the interface of laboratory expertise and computational a
 | Occupation demand | SHORTAGE |
 | AI automation exposure | 10% |
 | Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |
-
----
 
 <!-- LABOUR-EVIDENCE:START -->
 ### REAL GRADUATE DESTINATIONS (JSA HEO · QILT · Adzuna)

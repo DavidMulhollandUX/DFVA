@@ -1,6 +1,10 @@
 ## DFVA REPORT: Doctor of Clinical Dentistry (ME-DCD)
+
 **Institution:** University of Melbourne | **Level:** Graduate Coursework (Masters Extended), AQF level 9 | **Duration:** 36 months full-time
-**Assessment date:** 2026-07-02 | **Source:** https://handbook.unimelb.edu.au/2026/courses/me-dcd
+
+**Assessment date:** 2026-07-02
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/me-dcd
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 + DFVA-COPILOT-MARKET-v1
 
 ### 1. PROGRAM PROFILE
 The Doctor of Clinical Dentistry (DClinDent) is a three-year, full-time advanced specialist training program for already-qualified, AHPRA-registered general dentists seeking registration as a Specialist Dentist. It is offered across seven specialist fields — Endodontics, Oral Medicine, Orthodontics, Paediatric Dentistry, Periodontics and Prosthodontics — and is accredited by the Australian Dental Council (ADC) for AHPRA specialist registration purposes. First offered/conferred in 2004, it is one of the University's longest-running specialist clinical doctorates.
