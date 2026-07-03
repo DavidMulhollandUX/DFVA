@@ -86,136 +86,40 @@ Convert the assessment and market evidence into an implementation-ready improvem
 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
 11. REDESIGNED GRADUATE PROFILE (2027 READY)
 
-### Stage 5 — Save Reports and Update Prototypes
+### Stage 5 — Save Reports and Update the App
 
-#### 5a — Save report markdown files
+#### 5a — Create report markdown files
 
-- `reports/dfva-[slug].md` — Stage 2 output
-- `reports/dfva-market-[slug].md` — Stage 3 output
-- `reports/dfva-recommend-[slug].md` — Stage 4 output
+Save Stage 2 output as `reports/dfva-[slug].md`, Stage 3 as
+`reports/dfva-market-[slug].md`, Stage 4 as `reports/dfva-recommend-[slug].md`,
+each with the metadata footer (Assessment Date, Source URL, Prompt Version).
 
-Each file includes metadata: Assessment Date, Source URL, Prompt Version.
+#### 5b — Register the program in the app
 
-#### 5b — Create per-program content file and update imports
+Follow the full definition of done in `docs/adding-a-course.md`. In short:
 
-**Step 1:** Create `compass-static/src/data/reportContent.[slug].ts`:
+1. Add a `PROGRAMS` entry to `compass/app/src/compass/sharedProgramData.ts`
+   (scores, 11 dimensions, thresholds, `assessmentSlug`, `marketSlug`,
+   `recommendSlug`) and bump `CACHE_VERSION`.
+2. Add `reportMeta` entries (assessment + market + recommend) in
+   `compass/app/src/compass/ReportDetailPage.tsx`.
+3. Author dimension evidence at `dfva/source/evidence/[slug].json`
+   (never hand-edit the app's generated `data/dimensionEvidence.ts`).
 
-```typescript
-export const REPORT_CONTENT_[SLUG_UPPER]: Record<
-  string,
-  { title: string; institution: string; markdown: string }
-> = {
-  "dfva-[slug]": {
-    title: "[Program Name] — DFVA Assessment",
-    institution: "University of Melbourne",
-    markdown: `[Stage 2 content]`,
-  },
-  "dfva-market-[slug]": {
-    title: "[Program Name] — Market Intelligence",
-    institution: "University of Melbourne",
-    markdown: `[Stage 3 content]`,
-  },
-  "dfva-recommend-[slug]": {
-    title: "[Program Name] — Improvement Plan",
-    institution: "University of Melbourne",
-    markdown: `[Stage 4 content]`,
-  },
-}
-```
+#### 5c — Regenerate embedded report content
 
-Where `[SLUG_UPPER]` = slug in SCREAMING_SNAKE_CASE (e.g., `mc-datasc` → `MC_DATASC`).
-
-**Critical:** NO backtick characters inside template literals. Convert fenced code blocks to plain bold-text. Use Python via execute tool if needed.
-
-**Step 2:** Add import to top of `compass-static/src/data/reportContent.ts`:
-```typescript
-import { REPORT_CONTENT_[SLUG_UPPER] } from './reportContent.[slug]'
-```
-
-**Step 3:** Add spread inside the REPORT_CONTENT object in `compass-static/src/data/reportContent.ts`:
-```typescript
-...REPORT_CONTENT_[SLUG_UPPER],
-```
-
-**Step 4:** Add three inline entries to `compass/app/src/compass/reportContent.ts`.
-
-#### 5c — Add PROGRAMS entry
-
-**compass-static:** Add entry to `PROGRAMS` array in `compass-static/src/data/programData.ts`:
-
-```typescript
-{
-  program: '[Program Name]',
-  institution: 'University of Melbourne',
-  level: '[Level · Duration]',
-  date: '[ISO date]',
-  score: [total],
-  maxScore: 36,
-  riskBand: '[RESILIENT | MODERATE RISK | HIGH RISK | CRITICAL]',
-  thresholds: { q1: '[YES|NO|UNCERTAIN]', q2: '[YES|NO|UNCERTAIN]', q3: '[YES|NO|UNCERTAIN]' },
-  dimensions: [
-    { label: 'Automation Exposure', score: [D1], max: 3 },
-    { label: 'Systems Thinking', score: [D2], max: 3 },
-    { label: 'Technical Depth', score: [D3], max: 3 },
-    { label: 'Decision-Making', score: [D4], max: 3 },
-    { label: 'AI Literacy', score: [D5], max: 3 },
-    { label: 'Domain Depth', score: [D6], max: 3 },
-    { label: 'Research Rigour', score: [D7], max: 3 },
-    { label: 'Human & Relational', score: [D8], max: 3 },
-    { label: 'Curriculum Currency', score: [D9], max: 3 },
-    { label: 'Outcome Evidence', score: [D10], max: 3 },
-    { label: 'Irreplaceability (bonus)', score: [B], max: 3 },
-  ],
-  assessmentSlug: 'dfva-[slug]',
-  marketSlug: 'dfva-market-[slug]',
-  recommendSlug: 'dfva-recommend-[slug]',
-},
-```
-
-**compass/app:** Add same entry to `PROGRAMS` array in `compass/app/src/compass/ReportsPage.tsx` (double quotes).
-
-#### 5d — Build verification
-
-Run: `cd compass-static && npm run build`
-If TypeScript errors appear, fix them before proceeding.
-
-#### 5e — Update progress
-
-Update `scripts/progress.json` to mark the program as complete:
-```json
-{
-  "[slug]": {
-    "status": "complete",
-    "date": "[today ISO]",
-    "score": [total],
-    "riskBand": "[BAND]"
-  }
-}
-```
-
----
-
-## After Completing a Program
-
-Check if there is time/budget remaining in this session:
-- If yes, proceed to the next unprocessed program in the manifest.
-- If no (context is getting large), report a summary and stop.
-
-## Session Summary (always report at end)
+Never hand-edit `compass/app/src/compass/reportContent*.ts` — they are
+generated from `reports/*.md`. Run:
 
 ```
-BATCH SESSION SUMMARY
-━━━━━━━━━━━━━━━━━━━━
-Processed this session: [N] program(s)
-  • [Program Name] — [score]/36 — [RISK BAND]
-  • ...
-
-Progress: [completed]/[total] programs complete
-Remaining: [list of remaining program names]
-Blocked: [list of blocked programs, if any]
+npm --prefix scripts run dfva:gen-content
 ```
 
----
+#### 5d — Verify
+
+Run `npm --prefix scripts run dfva:check` and
+`npm --prefix scripts run dfva:completeness`. Both must pass. Report results.
+
 
 ## Constraints
 

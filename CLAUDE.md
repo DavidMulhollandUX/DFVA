@@ -15,6 +15,9 @@ cd compass/app && wasp start   # server (3001) + client (3000)
 **Smoke test runbook:** `.hermes/smoke-test-runbook.md`
 **Env:** `.env.server` has DFVA_MOCK=true + dummy keys for OpenSaaS services (OpenAI, Stripe, S3) + DATABASE_URL.
 
+## Report content pipeline
+`reports/*.md` are the canonical source. Never hand-edit `compass/app/src/compass/reportContent*.ts` — regenerate with `npm --prefix scripts run dfva:gen-content`, then verify with `npm --prefix scripts run dfva:check`. New courses: follow `docs/adding-a-course.md`.
+
 ## Context
 Part of the SXD-Github workspace at University of Melbourne.
 COMPASS = COMputational Program Assessment & Strategy System. 

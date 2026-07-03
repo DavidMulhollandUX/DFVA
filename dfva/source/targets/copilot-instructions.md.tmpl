@@ -128,7 +128,7 @@ At the top or bottom of each report, include:
 
 ## COMPASS UI Data Block
 
-After every full DFVA assessment, append a **COMPASS UI Data Block** as a fenced TypeScript code block. This is the exact object to paste into `compass-static/src/data/programData.ts` to make the report appear in the COMPASS interface with correct visualisations.
+After every full DFVA assessment, append a **COMPASS UI Data Block** as a fenced TypeScript code block. This is the exact object to paste into `compass/app/src/compass/sharedProgramData.ts` to make the report appear in the COMPASS interface with correct visualisations.
 
 Rules:
 - `riskBand` must be one of: `'RESILIENT'` | `'MODERATE RISK'` | `'HIGH RISK'` | `'CRITICAL'`
@@ -141,7 +141,7 @@ Rules:
 ### Template
 
 ```typescript
-// Paste into PROGRAMS array in compass-static/src/data/programData.ts
+// Paste into PROGRAMS array in compass/app/src/compass/sharedProgramData.ts
 {
   program: '[Full program name]',
   institution: '[Institution name]',
@@ -180,7 +180,7 @@ All COMPASS visualisations follow `.interface-design/system.md`:
 
 ## Content Formatting Rules for COMPASS Renderer
 
-The COMPASS frontend (`compass-static/src/components/dfva/ReportMarkdown.tsx`) auto-detects markdown patterns and renders them as polished UI components. All report content MUST follow these patterns to get correct visual treatment.
+The COMPASS frontend (`compass/app/src/compass/ReportDetailPage.tsx`) auto-detects markdown patterns and renders them as polished UI components. All report content MUST follow these patterns to get correct visual treatment.
 
 ### Detection Priority (evaluated in this order)
 

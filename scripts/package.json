@@ -4,8 +4,6 @@
   "private": true,
   "description": "DFVA batch pipeline validation and tooling",
   "scripts": {
-    "validate": "npx tsx validate-reports.ts",
-    "validate:verbose": "npx tsx validate-reports.ts --verbose",
     "dfva:gen": "npx tsx dfva-generate.ts",
     "dfva:gen-content": "npx tsx dfva-content-generate.ts",
     "dfva:gen-assessments": "npx tsx dfva-build-assessments.ts",

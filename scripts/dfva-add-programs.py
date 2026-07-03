@@ -19,7 +19,7 @@ link and populated dimension-click rubric evidence:
 Then run, in order (this script prints the exact commands — it does not shell out to
 node/npx itself, since that's slow and this script may run from environments without
 the compass/app toolchain installed):
-  python3 scripts/apply-reports.py
+  npm --prefix scripts run dfva:gen-content
   python3 scripts/generate-recommend-content.py
   (cd scripts && npm run dfva:gen) && cp compass-static/src/data/dimensionEvidence.ts \
       compass/app/src/compass/data/dimensionEvidence.ts
@@ -377,7 +377,7 @@ def main():
     print(f'docs/dfva-batch-manifest.json: +{n_manifest} newly marked scored')
 
     print('\nNext, run in order:')
-    print('  python3 scripts/apply-reports.py')
+    print('  npm --prefix scripts run dfva:gen-content')
     print('  python3 scripts/generate-recommend-content.py')
     print('  (cd scripts && npm run dfva:gen) && cp compass-static/src/data/dimensionEvidence.ts compass/app/src/compass/data/dimensionEvidence.ts')
     print('  (cd scripts && npm run dfva:check-registry)')

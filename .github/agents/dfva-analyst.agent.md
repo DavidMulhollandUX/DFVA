@@ -113,108 +113,40 @@ Prompt version: DFVA-COPILOT-RECOMMENDER-v1
 
 ---
 
-### Stage 5 — Save Reports and Update Prototypes
+### Stage 5 — Save Reports and Update the App
 
 #### 5a — Create report markdown files
 
-Create three files:
-- `reports/dfva-[slug].md` — full Stage 2 output
-- `reports/dfva-market-[slug].md` — full Stage 3 output
-- `reports/dfva-recommend-[slug].md` — full Stage 4 output
+Save Stage 2 output as `reports/dfva-[slug].md`, Stage 3 as
+`reports/dfva-market-[slug].md`, Stage 4 as `reports/dfva-recommend-[slug].md`,
+each with the metadata footer (Assessment Date, Source URL, Prompt Version).
 
-#### 5b — Create per-program report content file and update imports
+#### 5b — Register the program in the app
 
-**Step 1: Create a new per-program content file.**
+Follow the full definition of done in `docs/adding-a-course.md`. In short:
 
-Create `compass-static/src/data/reportContent.[slug].ts` following this exact pattern (reference: `reportContent.mc-scibit.ts`):
+1. Add a `PROGRAMS` entry to `compass/app/src/compass/sharedProgramData.ts`
+   (scores, 11 dimensions, thresholds, `assessmentSlug`, `marketSlug`,
+   `recommendSlug`) and bump `CACHE_VERSION`.
+2. Add `reportMeta` entries (assessment + market + recommend) in
+   `compass/app/src/compass/ReportDetailPage.tsx`.
+3. Author dimension evidence at `dfva/source/evidence/[slug].json`
+   (never hand-edit the app's generated `data/dimensionEvidence.ts`).
 
-```typescript
-export const REPORT_CONTENT_[SLUG_UPPER]: Record<
-  string,
-  { title: string; institution: string; markdown: string }
-> = {
-  "dfva-[slug]": {
-    title: "[Program Name] — DFVA Assessment",
-    institution: "[Institution]",
-    markdown: `[Stage 2 content]`,
-  },
-  "dfva-market-[slug]": {
-    title: "[Program Name] — Market Intelligence",
-    institution: "[Institution]",
-    markdown: `[Stage 3 content]`,
-  },
-  "dfva-recommend-[slug]": {
-    title: "[Program Name] — Improvement Plan",
-    institution: "[Institution]",
-    markdown: `[Stage 4 content]`,
-  },
-}
+#### 5c — Regenerate embedded report content
+
+Never hand-edit `compass/app/src/compass/reportContent*.ts` — they are
+generated from `reports/*.md`. Run:
+
+```
+npm --prefix scripts run dfva:gen-content
 ```
 
-Where `[SLUG_UPPER]` is the slug in SCREAMING_SNAKE_CASE (e.g., `mc-datasc` → `MC_DATASC`).
+#### 5d — Verify
 
-**Critical rules for template literal content:**
-- NO backtick characters inside the template literal string
-- Convert any fenced code blocks to plain bold-text paragraph format
-- If the edit tool fails due to backtick conflicts, use Python via the execute tool to write the file
+Run `npm --prefix scripts run dfva:check` and
+`npm --prefix scripts run dfva:completeness`. Both must pass. Report results.
 
-**Step 2: Add import and spread to `compass-static/src/data/reportContent.ts`.**
-
-Add at the top of the file:
-```typescript
-import { REPORT_CONTENT_[SLUG_UPPER] } from './reportContent.[slug]'
-```
-
-Add inside the REPORT_CONTENT object:
-```typescript
-...REPORT_CONTENT_[SLUG_UPPER],
-```
-
-**Step 3: Add entries to `compass/app/src/compass/reportContent.ts` (inline).**
-
-Add three inline entries (assessment, market, recommend) to the existing Record in `compass/app/src/compass/reportContent.ts`. Use double quotes for keys. Insert before the closing `}` of the Record object.
-
-#### 5c — Add PROGRAMS entry to programData.ts and ReportsPage.tsx
-
-**compass-static:** Add a new entry to the `PROGRAMS` array in `compass-static/src/data/programData.ts`. Insert before the closing `]` of the array. Uses single quotes:
-
-```typescript
-{
-  program: '[Program Name]',
-  institution: '[Institution]',
-  level: '[Level · Duration]',
-  date: '[ISO date]',
-  score: [total],
-  maxScore: 36,
-  riskBand: '[RESILIENT | MODERATE RISK | HIGH RISK | CRITICAL]',
-  thresholds: { q1: '[YES|NO|UNCERTAIN]', q2: '[YES|NO|UNCERTAIN]', q3: '[YES|NO|UNCERTAIN]' },
-  dimensions: [
-    { label: 'Automation Exposure', score: [D1], max: 3 },
-    { label: 'Systems Thinking', score: [D2], max: 3 },
-    { label: 'Technical Depth', score: [D3], max: 3 },
-    { label: 'Decision-Making', score: [D4], max: 3 },
-    { label: 'AI Literacy', score: [D5], max: 3 },
-    { label: 'Domain Depth', score: [D6], max: 3 },
-    { label: 'Research Rigour', score: [D7], max: 3 },
-    { label: 'Human & Relational', score: [D8], max: 3 },
-    { label: 'Curriculum Currency', score: [D9], max: 3 },
-    { label: 'Outcome Evidence', score: [D10], max: 3 },
-    { label: 'Irreplaceability (bonus)', score: [B], max: 3 },
-  ],
-  assessmentSlug: 'dfva-[slug]',
-  marketSlug: 'dfva-market-[slug]',
-  recommendSlug: 'dfva-recommend-[slug]',
-},
-```
-
-**compass/app:** Add the same entry to the `PROGRAMS` array in `compass/app/src/compass/ReportsPage.tsx`. Uses double quotes for string values.
-
-#### 5d — Build verification
-
-Run: `cd compass-static && npm run build`
-Report whether the build passes. If TypeScript errors appear, fix them before finishing.
-
----
 
 ## Constraints
 

@@ -47,3 +47,9 @@ docs/workflow-sop.md
 # Scripts — intermediate outputs (not committed)
 scripts/node_modules/
 scripts/output/
+
+# Archived session-log changelog (never tracked; local only)
+docs/archive/claude-rules-changelog-*.md
+
+# Office lock files
+~$*

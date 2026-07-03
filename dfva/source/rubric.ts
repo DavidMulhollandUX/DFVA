@@ -3,7 +3,6 @@
  *
  * Edit this file, then run `npm --prefix scripts run dfva:gen` to propagate to:
  *   - the AI-tool prompt files (.github/copilot-instructions.md, .continue/prompts/*, .github/prompts/*, .github/agents/*)
- *   - the live demo registry (compass-static/src/data/rubric.ts)
  *
  * Nothing downstream should hand-define the rubric, risk bands, or threshold questions.
  */
@@ -301,72 +300,3 @@ export function renderThresholdQuestionsList(): string {
   return `- **Q1:** ${THRESHOLD_QUESTIONS.q1}\n- **Q2:** ${THRESHOLD_QUESTIONS.q2}\n- **Q3:** ${THRESHOLD_QUESTIONS.q3}`
 }
 
-/** Emit the demo-facing registry written to compass-static/src/data/rubric.ts. */
-export function renderDemoRubricTs(): string {
-  const lit = (s: string) => JSON.stringify(s)
-  const dimLines = RUBRIC.map((d) => {
-    const levels = d.levels.map((l, i) => `      { score: ${i}, criteria: ${lit(l)} }`).join(',\n')
-    return [
-      '  {',
-      `    id: ${lit(d.id)}, index: ${d.index}, name: ${lit(d.name)},`,
-      `    demoLabel: ${lit(d.demoLabel)}, short: ${lit(d.short)},${d.bonus ? ' bonus: true,' : ''}`,
-      `    definition: ${lit(d.definition)},`,
-      '    levels: [',
-      levels,
-      '    ],',
-      '  },',
-    ].join('\n')
-  }).join('\n')
-
-  const bandLines = RISK_BANDS.map(
-    (b) => `  { min: ${b.min}, max: ${b.max}, band: ${lit(b.band)}, interpretation: ${lit(b.interpretation)} },`,
-  ).join('\n')
-
-  return `// AUTO-GENERATED from dfva/source/rubric.ts — do not edit by hand.
-// Run \`npm --prefix scripts run dfva:gen\` to regenerate.
-
-export interface RubricLevel {
-  score: 0 | 1 | 2 | 3
-  criteria: string
-}
-
-export interface Dimension {
-  id: string
-  index: number
-  name: string
-  demoLabel: string
-  short: string
-  bonus?: boolean
-  definition: string
-  levels: RubricLevel[]
-}
-
-export type RiskBandName = 'RESILIENT' | 'MODERATE RISK' | 'HIGH RISK' | 'CRITICAL'
-
-export const RUBRIC: Dimension[] = [
-${dimLines}
-]
-
-/** Core (radar) dimensions, excluding the bonus. */
-export const CORE_DIMENSIONS: Dimension[] = RUBRIC.filter((d) => !d.bonus)
-
-/** Lookup a dimension by its 0-based position in programData.ts dimensions[]. */
-export const dimensionByIndex = (i: number): Dimension | undefined => RUBRIC.find((d) => d.index === i)
-
-/** Lookup a dimension by id ('D1'..'D10','B'). */
-export const dimensionById = (id: string): Dimension | undefined => RUBRIC.find((d) => d.id === id)
-
-/** Radar-chart abbreviations, in order (core dimensions only). */
-export const RADAR_LABELS: string[] = CORE_DIMENSIONS.map((d) => d.short)
-
-export const RISK_BANDS = [
-${bandLines}
-] as const
-
-export const THRESHOLD_QUESTIONS = {
-  q1: ${lit(THRESHOLD_QUESTIONS.q1)},
-  q2: ${lit(THRESHOLD_QUESTIONS.q2)},
-  q3: ${lit(THRESHOLD_QUESTIONS.q3)},
-} as const
-`
-}
