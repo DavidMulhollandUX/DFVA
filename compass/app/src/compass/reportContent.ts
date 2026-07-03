@@ -2,12 +2,14 @@ import { REPORT_CONTENT_MC_SCIBIT } from './reportContent.mc-scibit';
 import { REPORT_CONTENT_MC_SCIEAR } from './reportContent.mc-sciear';
 import { REPORT_CONTENT_MC_SCIEPI } from './reportContent.mc-sciepi';
 import { RECOMMEND_CONTENT_ALL } from './reportContent.recommend-all';
+import { REPORT_CONTENT_DOCTORATES } from './reportContent.doctorates';
 
 export const REPORT_CONTENT: Record<
   string,
   { title: string; institution: string; markdown: string }
 > = {
   ...RECOMMEND_CONTENT_ALL,
+  ...REPORT_CONTENT_DOCTORATES,
   ...REPORT_CONTENT_MC_SCIBIT,
   ...REPORT_CONTENT_MC_SCIEAR,
   ...REPORT_CONTENT_MC_SCIEPI,
