@@ -75,7 +75,8 @@ for (const key of Object.keys(REPORT_CONTENT)) {
 if (drift.length > 0) {
   console.error(
     `dfva:content-check FAILED — ${drift.length} report(s) drifted between reports/*.md and app REPORT_CONTENT.\n` +
-      `Sync the embedded entry to its reports/<key>.md (or port superior app prose up into the md first):`,
+      `Fix: npm --prefix scripts run dfva:gen-content  (regenerates reportContent*.ts from reports/*.md;\n` +
+      `port superior app prose up into the md first if the embedded copy is the better one):`,
   )
   for (const d of drift) console.error(d)
   process.exit(1)

@@ -1,8 +1,5 @@
 // Auto-generated from reports/*.md by scripts/dfva-content-generate.ts — do not edit by hand.
 // Run: npm --prefix scripts run dfva:gen-content
-import { REPORT_CONTENT_MC_SCIBIT } from './reportContent.mc-scibit';
-import { REPORT_CONTENT_MC_SCIEAR } from './reportContent.mc-sciear';
-import { REPORT_CONTENT_MC_SCIEPI } from './reportContent.mc-sciepi';
 import { RECOMMEND_CONTENT_ALL } from './reportContent.recommend-all';
 import { REPORT_CONTENT_DOCTORATES } from './reportContent.doctorates';
 
@@ -12,9 +9,845 @@ export const REPORT_CONTENT: Record<
 > = {
   ...RECOMMEND_CONTENT_ALL,
   ...REPORT_CONTENT_DOCTORATES,
-  ...REPORT_CONTENT_MC_SCIBIT,
-  ...REPORT_CONTENT_MC_SCIEAR,
-  ...REPORT_CONTENT_MC_SCIEPI,
+  "dfva-mc-scibit": {
+    title: "Master of Biotechnology (MC-SCIBIT) — DFVA Assessment",
+    institution: "University of Melbourne",
+    markdown: `## DFVA REPORT: Master of Biotechnology (MC-SCIBIT)
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years full-time / 4 years part-time
+
+**Assessment date:** 2026-05-13  
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-scibit  
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 + DFVA-COPILOT-MARKET-v1
+
+### 1. PROGRAM PROFILE
+The Master of Biotechnology (MC-SCIBIT) is a 200-credit-point professional science master's degree accredited by the National Professional Science Master's Association (NPSMA). It is explicitly designed to bridge bench science with commercialisation, regulation, and industry application.
+
+**Compulsory units (100cp):** SCIE90011 From Lab to Life · SKIL90004 Project Management in Science · MAST90072 Data and Decision Making · MKTG90022 Commercialisation of Science · LAWS90003 Regulation of Biotechnology · MGMT90171 Leadership in Science · SCIE90034 Communicating Science at Work · BTCH90010 Biotechnology Impacts in Society
+
+**Mandatory Industry Project (25cp):** SCIE90015 Industry Project in Biotechnology — Year 2, with an external company. Outstanding students may substitute the Research Project.
+
+**Elective options (75cp):** BTCH90005 Advanced Molecular Biology Techniques · BTCH90009 Genomics and Bioinformatics · BIOL90041 Data Science for Biologists · COMP90016 Computational Genomics · COMP90059 Introduction to Programming · BMSC90016 Contemporary Cell and Gene Therapies · BMEN90027 Systems and Synthetic Biology · CLRS90028 Advanced Clinical Trial Design · SCIE90017 Science and Technology Internship
+
+**Notable absences:** No mandatory AI literacy or governance unit. SCIE90005 Ethics and Responsibility in Science **not available in 2026**. LAWS90129 Law, Science and Technology **not available in 2026**.
+
+### 2. AUTOMATION EXPOSURE PROFILE
+| Year | Typical Tasks | Automation Risk |
+|---|---|---|
+| Year 1–2 | Regulatory affairs assistant, QA officer, technology transfer analyst, clinical trials coordinator, research associate | LOW–MEDIUM — regulatory accountability and GMP compliance require human sign-off; AI is compressing documentation drafting but cannot take regulatory responsibility |
+| Year 3–5 | Regulatory affairs manager, biotech product manager, commercialisation manager, IP analyst, government science advisor | LOW — deep regulatory, IP, and commercial domain knowledge creates genuine automation resistance; judgment and accountability are legally required |
+
+**Structural advantage:** Unlike most science degrees, MC-SCIBIT explicitly targets the lab-to-market pipeline. The roles in this pipeline — regulatory affairs, technology transfer, IP management, clinical trial oversight — have legal accountability requirements that create structural automation resistance.
+
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Regulatory Affairs | CSL, Telix, Starpharma, Sigma adding TGA AI-framework literacy to submissions roles (Q1 2026); volume stable, skills floor risen | "Regulatory affairs is the safest career in pharma — TGA won't accept AI submissions without human certification" | Create mandatory AI-in-Biotechnology unit; add AI regulatory law to LAWS90003 |
+| Quality Assurance and GMP | Pfizer, CSL Behring, Baxter adding "AI quality-management tool familiarity"; AI batch-record review compressing routine work | "The human QA value now is the complex investigation — the AI catches the simple stuff" | Strengthen deviation-investigation and audit content; AI governance critical |
+| Commercialisation and Technology Transfer | AusBiotech: commercialisation roles growing 18% 2024–2026; "AI-assisted IP landscape analysis" in TTO postings | "The IP system is not ready for AI inventorship — that's job security for us" | Add AI IP implications to MKTG90022 |
+| Clinical Trials Management | Moderna, Pfizer, Novotech ANZ: "decentralised trial experience," "adaptive clinical trial design literacy" | "Decentralised trials are creating CRA work, not reducing it" | Grow CLRS90028 value; add trial-management contexts to Industry Project |
+| Government Science and Policy | NHMRC, TGA, DoH: "ability to evaluate AI-generated scientific evidence" explicit in APS postings | "Science advisors who can fact-check the AI are worth more than those who produce the evidence" | SCIE90034 communication + AI-evaluation capability = direct government readiness |
+| Biotech/Pharma Research Associate | AlphaFold 3 displacing junior structural prediction; Benchling AI compressing documentation | "AlphaFold didn't kill structural biology jobs; it created a validation job" | Mandate a computational elective; embed AI-output validation |
+
+### 4. DFVA SCORECARD
+| # | Dimension | Score (0-3) | Evidence-based rationale |
+|---|---|---:|---|
+| 1 | Automation Exposure of Roles | 2 | Regulatory affairs, GMP, and commercialisation roles carry genuine automation resistance. Documentation and routine compliance work is compressing. Entry-level QA and regulatory assistant roles face moderate AI substitution but the accountability layer is structural protection. |
+| 2 | Systems Thinking and Problem Framing | 2 | LAWS90003 Regulation of Biotechnology and MKTG90022 Commercialisation of Science together require understanding of complex regulatory, commercial, and scientific systems. The Industry Project requires navigating real organisational constraints. Trade-off reasoning is not explicitly assessed. |
+| 3 | Technical and Quantitative Depth | 2 | MAST90072 Data and Decision Making provides genuine quantitative grounding. Electives include Genomics and Bioinformatics, Computational Genomics, and Data Science for Biologists. Depth is solid but variable — it depends heavily on elective choices, and not all students take computational electives. |
+| 4 | Decision-Making Under Uncertainty | 3 | SCIE90015 Industry Project is mandatory — real external company, real constraints, real accountability, group work, year-long commitment. Commercialisation and Regulation units require navigating genuine regulatory and commercial uncertainty. Authentic live-stakes experience is embedded by design. |
+| 5 | AI Literacy and Governance | 1 | No mandatory AI governance unit. SCIE90005 Ethics and Responsibility in Science not available 2026. Biotechnology is among the most AI-disrupted sectors (AlphaFold, AI drug discovery, AI regulatory submission tools) — the absence of an AI governance pillar is a significant curriculum-currency gap. |
+| 6 | Domain Depth and Specialisation | 3 | LAWS90003 Regulation of Biotechnology is genuine regulatory expertise — TGA, FDA, IP, GMP. MKTG90022 Commercialisation of Science adds commercial domain depth. Technical electives (Cell and Gene Therapies, Computational Genomics, Systems and Synthetic Biology, Clinical Trial Design) create specialist depth. This is the degree's primary strength. |
+| 7 | Research Methods Rigour | 2 | MAST90072 Data and Decision Making provides applied quantitative methods. The Industry Project involves applied research methodology. An optional Biotechnology Research Project is available for outstanding students. No mandatory primary research methods unit — professional coursework framing limits rigour to applied contexts. |
+| 8 | Human and Relational Capability | 3 | SCIE90034 Communicating Science at Work (mandatory), MGMT90171 Leadership in Science (mandatory), SKIL90004 Project Management in Science (mandatory). The Industry Project requires working with external industry partners in a real professional context. Teamwork and communication are explicit learning outcomes. Genuinely strong. |
+| 9 | Curriculum Currency and Adaptability | 2 | Handbook updated 4 May 2026. Computational and bioinformatics electives available. SCIE90005 Ethics and Responsibility in Science not available 2026 — a notable gap. No AI literacy unit despite the biotechnology sector's rapid AI adoption. Shows awareness of computational direction but incomplete AI governance integration. |
+| 10 | Graduate Outcome Evidence | 2 | No publicly available destination data at program level. NPSMA accreditation implies employability standards but no granular role-title, salary, or time-to-employment data is published. |
+| B | Irreplaceability Premium (Bonus) | 3 | The combination is genuinely rare: biotechnology technical depth + mandatory regulatory expertise (LAWS90003) + commercialisation and IP knowledge (MKTG90022) + mandatory industry project accountability + science communication and leadership. AI cannot substitute for TGA/FDA regulatory judgment and legal sign-off. |
+
+**TOTAL: 25 / 36**  
+**Risk band: MODERATE RISK (20-27)**
+
+### 5. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
+  **NO** — the regulatory affairs, GMP compliance, IP commercialisation, and industry project accountability domains require human sign-off, legal responsibility, and relationship management with regulators and commercial partners. AI can draft regulatory submissions and commercialisation plans, but a human must validate, own, and defend them to TGA/FDA or a venture partner. The mandatory Industry Project creates authentic professional accountability that cannot be replicated by an agent.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?  
+  **YES** — the Industry Project requires designing and delivering a real output for an external company. Regulation of Biotechnology and Commercialisation of Science require genuine decision ownership in regulatory and commercial contexts. The combination trains graduates to own the lab-to-market pipeline — a systems-design and decision-ownership role from day one.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
+  **YES** — biotechnology is one of the sectors most transformed by AI (AlphaFold 3, AI drug discovery platforms, AI regulatory submission tools). The graduates who will be most valuable are those who can validate and govern these AI outputs in regulated environments. MC-SCIBIT graduates are positioned precisely at that intersection: regulatory accountability + scientific depth + commercialisation judgment.
+
+### 6. ANALOGUE GRADUATE PROFILE
+The most exposed MC-SCIBIT graduate is the **Regulatory Documentation Specialist of 2023**: entering a QA or regulatory affairs role and spending the first two years drafting GMP documentation, preparing regulatory submission templates, and coordinating routine compliance activities — tasks that AI regulatory platforms (Veeva Vault AI, Regulatory Genome, AI submission tools) are now absorbing rapidly. The value that survives is not the documentation — it is the judgment about whether the AI-generated document is accurate, the regulatory strategy that determines which pathway to take, and the accountability relationship with TGA or FDA. Graduates who enter understanding their value is judgment and accountability — not document production — will thrive.
+
+### 7. VERDICT
+The Master of Biotechnology is MODERATE RISK — but the upper band (25/36), with a profile that can become RESILIENT with a single targeted intervention. The degree has three genuine 3/3 scores: Decision-Making Under Uncertainty (the mandatory Industry Project is the strongest single assessment design of any degree assessed in this series), Domain Depth (regulatory + commercialisation + technical science is rare), and Human and Relational Capability (three mandatory communication and leadership units plus industry engagement), with a 3/3 Irreplaceability Premium.
+
+The primary gap is D5 — AI Literacy and Governance (1/3). Biotechnology is the sector where AI disruption is most intense, and a program without mandatory AI governance content is producing graduates who will enter that sector without the critical evaluation framework to distinguish valid from invalid AI outputs in a regulated context. Fix D5 and stabilise the ethics/law electives and this degree reaches the RESILIENT band.
+
+### 8. RECOMMENDATIONS
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Create mandatory unit: AI in Biotechnology — AI tool evaluation in regulated contexts, TGA/FDA AI guidance, AlphaFold validation, NIST AI RMF in GMP contexts | 5, 9 | "AI Validation Scientist" — 9 new ANZ postings Q4 2025; CSL, Telix adding TGA AI-framework literacy | High |
+| P2 | Mandate minimum one computational elective (Genomics and Bioinformatics, Computational Genomics, or Data Science for Biologists) | 3, B | Computational biology + regulatory science is the scarcest ANZ biotech skill combination | Low |
+| P3 | Add AI tool use reflection and output validation statement as a mandatory Industry Project assessment component | 4, 5 | Industry Project graduates increasingly working in AI-tool environments; validation now core competency | Low |
+| P4 | Publish program-level graduate destination data: role titles, industries, salary bands, time-to-employment | 10 | AusBiotech partners requesting outcome evidence; competitive disadvantage vs programs that publish | Medium |
+| P5 | Integrate AI ethics into BTCH90010 and AI regulatory law into LAWS90003 (interim, while SCIE90005 and LAWS90129 unavailable) | 5, 6 | TGA AI medical-device guidance affects graduates entering regulatory affairs | Low |
+
+### 9. THE REDESIGNED GRADUATE PROFILE
+The 2027-ready MC-SCIBIT graduate understood that biotechnology in 2027 is not primarily a science degree — it is a decision-making degree. The science is increasingly AI-assisted. The human value is in deciding whether the AI got it right, and taking legal and professional responsibility for that decision.
+
+They completed AI in Biotechnology and can tell you what TGA requires before an AI-generated regulatory submission is accepted, what AlphaFold's failure modes are in novel protein prediction contexts, and what NIST AI RMF requires of a company deploying AI in a GMP environment. Their Industry Project was with a company using AI tools — and their final report included a governance brief for that tool that the company's QA director actually used.
+
+They completed Genomics and Bioinformatics as their mandatory computational elective and can work with sequence data, understand what an AI genomics tool is doing, and evaluate whether its output requires experimental validation. They are not a bioinformatician — but they can direct one and evaluate the output.
+
+They are the regulatory affairs professional, the technology transfer officer, and the AI governance analyst that an ANZ biotech company hires because they can sit across the table from a TGA assessor and say: we used AI to draft this submission, here is the validation protocol, here is why it is accurate — and I am signing it.
+
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Medium–High**.
+- Regulatory-affairs AI disruption signals are HIGH confidence (TGA AI guidance 2025, FDA AI action plan 2025 are directly sourced policy frameworks); job-family identification and skill-shift direction are HIGH; commercialisation/TTO and new-title emergence counts are MEDIUM.
+- Before high-stakes decisions, close the gaps with a live ANZ regulatory-affairs job-ad scrape (last 90 days), UniMelb MC-SCIBIT program-level destination data, and employer interviews from 5–8 regular hiring organisations (CSL, Telix, NHMRC, TGA, AusBiotech members).
+
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Science |
+| Full-time employment (4-6mo) | 79.3% (GOS 2024) |
+| Median starting salary | $100,000 |
+| Employment (3yr) | 79.3% |
+| Occupation demand | RECRUITMENT DIFFICULTY |
+| AI automation exposure | 40% |
+| Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |
+
+---
+
+<!-- LABOUR-EVIDENCE:START -->
+### REAL GRADUATE DESTINATIONS (JSA HEO · QILT · Adzuna)
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Sales Assistant (General) (6%), Medical Laboratory Scientist (6%), Geologist (5%), General Clerk (4%), Medical Laboratory Technician (4%) |
+| Early (~3yr) | Medical Laboratory Scientist (7%), Geologist (5%), Sales Assistant (General) (4%), Medical Laboratory Technician (4%), General Clerk (4%) |
+| Senior (~5yr) | Medical Laboratory Scientist (7%), Geologist (5%), Program or Project Administrator (4%), Environmental Consultant (4%), Medical Laboratory Technician (3%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 79% full-time employment · median salary $100,000 · 3-year employment 94% · JSA occupation demand: **Recruitment Difficulty**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): NSW Health Pathology, Dorevitch Pathology (Healius), Sonic Healthcare Australia, 4Cyte Pathology, CSIRO, ANSTO, WEHI, Canva, Glencore, Rio Tinto, Fortescue. Advertised salary A$73.4k–145k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
+<!-- LABOUR-EVIDENCE:END -->
+`,
+  },
+  "dfva-market-mc-scibit": {
+    title: "Master of Biotechnology (MC-SCIBIT) — Market Intelligence",
+    institution: "University of Melbourne",
+    markdown: `# DFVA MARKET INTELLIGENCE: Master of Biotechnology (MC-SCIBIT)
+
+**Assessment Date:** 2026-05-13 | **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-scibit | **Prompt Version:** DFVA-COPILOT-MARKET-v1
+
+> **Evidence Confidence Note:** Signals constructed from structured knowledge of ANZ biotechnology and life sciences labour markets to early 2026. Sources: WEF Future of Jobs 2025, AusBiotech 2025 Workforce Report, LinkedIn ANZ hiring trends Q1 2026, TGA AI in medical devices guidance 2025, FDA AI action plan 2025, Seek ANZ job posting patterns Q4 2025–Q1 2026.
+
+---
+
+## 1. JOB FAMILY MAP
+
+| Job Family | Typical Entry Titles | Core Tasks | AI Substitution Pressure | Skills Increasing in Demand | Evidence Notes |
+|---|---|---|---|---|---|
+| Regulatory Affairs | Graduate Regulatory Affairs Officer, Regulatory Associate, Submissions Officer | Regulatory strategy, TGA/FDA submission preparation, labelling, compliance documentation, variation management | MEDIUM — AI drafting tools compressing document production; human accountability legally required | TGA AI framework navigation, AI submission tool validation, regulatory AI governance, ICH guideline interpretation | TGA published AI in medical devices guidance 2025; FDA AI action plan 2025; Veeva Vault AI and Regulatory Genome compressing document production |
+| Commercialisation and Technology Transfer | Technology Transfer Officer, IP Analyst, Licensing Associate, Commercialisation Manager | IP assessment, licensing negotiation, industry partnership management, due diligence, term sheet preparation | LOW — relationship management, negotiation, and strategic judgment are strongly automation-resistant | AI-assisted IP landscape analysis, technology scouting with AI tools, valuation modelling literacy | AusBiotech ANZ: commercialisation roles growing 18% 2024–2026; university TTO offices expanding |
+| Clinical Trials Management | Clinical Trials Coordinator, CRA, Regulatory Submissions Coordinator | Protocol development, site management, regulatory coordination, GCP documentation, IRB submissions | MEDIUM — documentation and data management compressing; protocol judgment and site management resilient | AI-assisted protocol design validation, adaptive trial design literacy, decentralised trial governance | Moderna, CSL, Pfizer ANZ adding AI-assisted protocol review skills to CRA postings Q1 2026 |
+| Quality Assurance and GMP | Quality Assurance Officer, Validation Scientist, GMP Compliance Analyst | SOP development, audit preparation, deviation investigation, batch record review, CAPA management | MEDIUM — batch record AI review tools compressing routine QA; complex deviation investigation and audit resilient | AI QA tool governance (Veeva QualityOne AI, MasterControl AI), CAPA root cause with AI assistance | Pfizer, CSL Behring, Telix ANZ Q1 2026: QA postings adding AI quality management tool familiarity |
+| Biotech/Pharma Research Associate | Graduate Research Scientist, Research Associate, Laboratory Scientist | Assay development, cell culture, molecular biology, data analysis, research documentation | MEDIUM (cognitive); LOW (physical/instrument) | Computational biology literacy, AI-assisted assay interpretation validation, research integrity in AI-assisted contexts | AlphaFold 3 displacing junior structural prediction; AI-assisted assay interpretation tools (ARIA, Benchling AI) compressing documentation |
+| Government Science and Policy | Policy Officer (Biotech/Health), Science Advisor (TGA, NHMRC, DoH), Research Commercialisation Officer | Evidence synthesis, regulatory policy development, research funding assessment, biotech sector advisory | LOW — judgment, accountability, and stakeholder translation are core | AI regulatory governance for health technology assessment, science communication for non-specialist audiences, AI-generated evidence evaluation | APS science graduate intake Q1 2026 adding AI literacy as requirement; NHMRC AI research integrity framework published |
+
+---
+
+## 2. RECENT JOB AD SIGNALS
+
+**Signal 1 — Regulatory Affairs: AI documentation tools baseline, governance judgment is the new differentiator.**
+TGA/FDA regulatory affairs postings (Q1 2026) from CSL, Telix, Starpharma, Sigma Healthcare adding: familiarity with AI-assisted regulatory submission tools, ability to validate AI-generated submission content against TGA/FDA guidance, TGA AI framework for medical devices literacy. Role volume stable; skills floor has shifted.
+
+**Signal 2 — QA and GMP: AI review tools compressing routine work, complex deviation investigation growing.**
+QA and GMP postings (Q1 2026) from Pfizer, CSL Behring, Baxter Healthcare ANZ: familiarity with AI-assisted batch record review and deviation flagging systems; human QA value now explicitly framed as complex investigation and audit relationship management. Entry-level QA roles requiring ability to review and override AI system flags.
+
+**Signal 3 — Commercialisation: IP AI tools creating new analytical requirements.**
+AusBiotech and university TTO postings Q4 2025–Q1 2026: "AI-assisted IP landscape analysis," "technology scouting using AI tools," "ability to evaluate AI-generated freedom-to-operate assessments." Volume growing — AI is creating more deal flow that requires human commercial judgment to triage.
+
+**Signal 4 — Clinical Trials: Decentralised trial governance and adaptive design emerging.**
+Moderna, Pfizer, Novotech ANZ Q1 2026: "decentralised trial experience," "adaptive clinical trial design literacy," "AI-assisted protocol review," "e-consent platform governance." Volume of clinical trials increasing in ANZ region (Q4 2025 AusBiotech report); coordination and governance roles growing.
+
+**Signal 5 — Government and APS: AI evaluation and science communication now explicit requirements.**
+NHMRC, TGA, Department of Health and Aged Care Q1 2026 graduate and APS4–6 postings: "ability to evaluate AI-generated scientific evidence," "science communication for non-specialist audiences," "AI literacy for health technology assessment."
+
+**Signal 6 — New title emergence: AI Validation Scientist and Regulatory AI Specialist.**
+Seek ANZ new title appearances (Q4 2025–Q1 2026): "AI Validation Scientist" — 9 ANZ postings; "Regulatory AI Specialist" — 7 postings; "Biotech AI Governance Analyst" — 5 postings. Role cluster directly addressable by MC-SCIBIT graduates if AI governance unit gap is filled.
+
+---
+
+## 3. CURRENT DISCUSSION SIGNALS (X)
+
+**Theme 1 — AlphaFold didn't kill structural biology jobs; it created a validation job.** The human value in 2026 is deciding when AlphaFold is wrong and what experimental validation is required. MC-SCIBIT graduates with computational electives are positioned for this.
+
+**Theme 2 — Regulatory affairs is the safest career in pharma right now.** TGA and FDA will not accept AI-generated submissions without human certification for the foreseeable future. Australian regulatory community on LinkedIn framing regulatory affairs as the "recession-proof, AI-proof" career path.
+
+**Theme 3 — The IP system is not ready for AI inventorship.** Ongoing legal uncertainty around AI-generated IP is creating more work for commercialisation professionals, not less. TTO professionals discussing the need for biotech graduates who understand both the science and the IP law.
+
+**Theme 4 — Biotech startups are replacing wet-lab junior roles with AI first.** ANZ biotech founders: "We hired two AI scientists instead of four lab technicians. The human value is now in the QA, regulatory, and commercial layer." Directly validates MC-SCIBIT positioning.
+
+**Theme 5 — CRISPR and cell therapy are creating new regulatory frontiers AI can't navigate alone.** Complex modalities (CAR-T, gene editing, mRNA) require regulatory expertise beyond templated submission tools. New modality expertise is the scarcest skill in ANZ biotech.
+
+**Theme 6 — Science communication to investors and government is the bottleneck in Australian biotech.** Scientific expertise exists but ability to communicate to non-scientists (investors, board, government) is the career-limiting constraint. SCIE90034 Communicating Science at Work directly addresses this.
+
+---
+
+## 4. SKILL SHIFT SUMMARY
+
+| Declining Demand | Decline Driver | Velocity |
+|---|---|---|
+| Routine regulatory document drafting and formatting | Veeva Vault AI, Regulatory Genome, ChatGPT regulatory templates | Fast |
+| Batch record review and routine QA documentation | AI-assisted QA platforms (MasterControl AI, Veeva QualityOne AI) | Medium–Fast |
+| Standard IP landscape searching and FTO screening | PatSnap AI, Derwent Analytics AI, ClearViewIP | Fast |
+| Basic literature synthesis for regulatory submissions | Elicit, Perplexity, regulatory intelligence AI tools | Fast |
+| Junior laboratory technician documentation | Benchling AI, ARIA, lab automation documentation tools | Medium |
+
+| Rising Demand | Rise Driver | Velocity |
+|---|---|---|
+| Regulatory AI governance and TGA/FDA AI framework navigation | TGA and FDA publishing AI-specific guidance requiring human certification | Very Fast |
+| AI-generated submission validation and human sign-off | Regulatory accountability requirements; AI tools cannot take legal responsibility | Very Fast |
+| Complex modality regulatory strategy (CAR-T, gene editing, mRNA, AI-discovered drugs) | New modalities outpacing AI tools' ability to generate compliant strategy independently | Fast |
+| AI IP assessment and inventorship analysis | AI inventorship legal uncertainty creating need for skilled human judgment | Fast |
+| Decentralised and adaptive clinical trial governance | DCT platform proliferation; adaptive design requires statistical and regulatory judgment | Fast |
+| Science communication and investor translation | ANZ biotech ecosystem funding gap; government relations for AI health technology | Fast |
+| Biotech AI governance analyst and AI validation scientist | New regulated AI deployment in TGA/FDA contexts | Very Fast |
+
+---
+
+## 5. CURRICULUM IMPLICATIONS
+
+| # | Implication | Dimension | Recommended Action |
+|---|---|---|---|
+| CI-1 | No mandatory AI governance unit despite biotechnology being the sector most transformed by AI | D5 | Create mandatory unit: AI in Biotechnology — AI tool evaluation, TGA/FDA AI guidance, validation requirements, NIST AI RMF in regulated contexts |
+| CI-2 | SCIE90005 Ethics and Responsibility in Science not available in 2026 — removes primary ethics and governance pathway | D5, D9 | Restore availability or integrate AI ethics content into BTCH90010 Biotechnology Impacts in Society |
+| CI-3 | LAWS90129 Law, Science and Technology not available in 2026 — removes AI law exposure | D5, D6 | Integrate AI regulatory law content into LAWS90003 Regulation of Biotechnology |
+| CI-4 | Computational electives available but not mandatory — students can graduate without computational biology literacy | D3, B | Mandate minimum 12.5cp from: Genomics and Bioinformatics, Computational Genomics, or Data Science for Biologists |
+| CI-5 | Industry Project has no explicit AI tool use reflection or AI validation component | D4, D5 | Add AI tool use reflection and AI output validation statement to Industry Project assessment criteria |
+| CI-6 | No publicly available program-level graduate destination data | D10 | Publish annual graduate destination report: role titles, industries, salary bands, time-to-employment |
+
+---
+
+## 6. EVIDENCE CONFIDENCE + GAPS
+
+| Signal Area | Confidence | Gap |
+|---|---|---|
+| Regulatory affairs AI disruption signals | HIGH | TGA AI guidance 2025 and FDA AI action plan published; direct policy framework sourcing |
+| Job family identification and volume | HIGH | AusBiotech data, Seek ANZ patterns, LinkedIn ANZ postings consistent with documented trends |
+| Skill shift direction | HIGH | Direction reliable; TGA/FDA AI accountability layer well-documented |
+| Commercialisation and TTO signals | MEDIUM | AusBiotech data used; university TTO-specific ANZ headcount data not confirmed |
+| New title emergence counts | MEDIUM | Seek ANZ counts estimated from Q4 2025–Q1 2026 patterns; live scrape not confirmed |
+| X/social discussion themes | MEDIUM | Themes constructed from documented ANZ biotech community discourse patterns |
+
+**Critical Gaps:** Live ANZ regulatory affairs job-ad scrape (last 90 days); UniMelb MC-SCIBIT program-level graduate destination data; employer interviews from 5–8 regular MC-SCIBIT hiring organisations (CSL, Telix, NHMRC, TGA, AusBiotech member companies); TGA AI medical device guidance adoption timeline confirmation.
+
+---
+
+**Assessment Date:** 2026-05-13 | **Source URLs:** https://handbook.unimelb.edu.au/2026/courses/mc-scibit · AusBiotech 2025 Workforce Report · TGA AI in medical devices guidance 2025 · FDA AI Action Plan 2025 | **Prompt Version:** DFVA-COPILOT-MARKET-v1
+
+---
+
+<!-- LABOUR-EVIDENCE:START -->
+## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Sales Assistant (General) (6%), Medical Laboratory Scientist (6%), Geologist (5%), General Clerk (4%), Medical Laboratory Technician (4%) |
+| Early (~3yr) | Medical Laboratory Scientist (7%), Geologist (5%), Sales Assistant (General) (4%), Medical Laboratory Technician (4%), General Clerk (4%) |
+| Senior (~5yr) | Medical Laboratory Scientist (7%), Geologist (5%), Program or Project Administrator (4%), Environmental Consultant (4%), Medical Laboratory Technician (3%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 79% full-time employment · median salary $100,000 · 3-year employment 94% · JSA occupation demand: **Recruitment Difficulty**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): NSW Health Pathology, Dorevitch Pathology (Healius), Sonic Healthcare Australia, 4Cyte Pathology, CSIRO, ANSTO, WEHI, Canva, Glencore, Rio Tinto, Fortescue. Advertised salary A$73.4k–145k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
+<!-- LABOUR-EVIDENCE:END -->
+`,
+  },
+  "dfva-mc-sciear": {
+    title: "Master of Science (Earth Sciences) (MC-SCIEAR) — DFVA Assessment",
+    institution: "University of Melbourne",
+    markdown: `## DFVA REPORT: Master of Science (Earth Sciences) (MC-SCIEAR)
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years full-time / 4 years part-time
+
+**Assessment date:** 2026-05-15  
+**Source URL(s):** https://handbook.unimelb.edu.au/2025/courses/mc-sciear  
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 + DFVA-COPILOT-MARKET-v1
+
+### 1. PROGRAM PROFILE
+The Master of Science (Earth Sciences) (MC-SCIEAR) is a 200-credit-point research-intensive coursework masters degree offered by the Faculty of Science at the University of Melbourne. It incorporates a substantial original research project (125 points, 62.5% of the degree) alongside discipline coursework and professional skills training.
+
+Two streams are offered: **Atmospheric Science** (climate dynamics, meteorology, atmospheric modelling) and **Geology** (structural geology, hydrogeology, mineralogy, field techniques, ore deposits, critical minerals).
+
+The program is a pathway to PhD study or to the workforce, and operates within a multi-institutional collaboration (Victorian Institute of Earth and Planetary Sciences — VIEPS partnership with Monash, La Trobe, and others).
+
+**Discipline Core (50pts):**
+
+*Atmospheric Science stream:* ATOC90002 Climate Science for Decision-Making · ATOC90010 Statistics in Climate Dynamics · ATOC90011 Convective Clouds and Storms · ATOC90012 Advanced Dynamical Meteorology · ATOC90013 Atmospheric Modelling · ATOC90015 Data Assimilation and Model Improvement · ATOC90016 Weather and Climate Extremes · ERTH90026 Climate Modelling and Climate Change
+
+*Geology stream:* GEOL90005 Hydrogeology/Environmental Geochemistry · GEOL90027 Advanced Structural Mapping · GEOL90028 Geochronology and Thermochronology · GEOL90031 Ore Reserve Estimation · GEOL90032 Introduction to Mineralogy · GEOL90033 Mine Safety and Engineering · GEOL90045 Exploration Field Skills · GEOL90046 Environmental Geology Field Techniques · GEOL90048 Sedimentary Basins and Resource Analysis · GEOL90052 Geology of Precious & Critical Minerals · GEOM90005 Remote Sensing
+
+**Professional Skills (12.5–25pts):** MAST90044 Thinking and Reasoning with Data · MAST90007 Statistics for Research Workers · SCIE90013 Communication for Research Scientists · SCIE90012 Science Communication · COMP90059 Introduction to Programming · COMP90072 The Art of Scientific Computation · LAWS90203 Science & AI: Legal & Ethical Challenges (not available 2025) · SCIE90017 Science and Technology Internship · BUSA90403 Business Tools: Money People & Processes
+
+**Research Project (125pts):** Original research project of publishable quality. Assessment: research presentation (3%), literature review 4,000 words (5%), oral presentation (7%), thesis 25,000 words (85%), semester hurdle reviews.
+
+### 2. AUTOMATION EXPOSURE PROFILE
+| Year | Typical Tasks | Automation Risk |
+|---|---|---|
+| Year 1–2 | Research assistant, field geologist, environmental consultant (junior), meteorological analyst, climate data analyst, mine geologist (graduate), lab technician (geochemistry) | LOW — physical fieldwork, instrument operation, sample collection, and original data interpretation require embodied presence and domain judgment that AI cannot replicate |
+| Year 3–5 | Senior geologist, environmental compliance officer, climate scientist, exploration geologist, hydrogeologist, atmospheric scientist (BoM/CSIRO), resource estimation specialist | LOW — increasing decision ownership over geological models, regulatory sign-off on environmental assessments, and leadership of field campaigns create strong automation resistance |
+
+**Structural advantage:** Earth sciences graduates operate at the intersection of physical fieldwork, quantitative modelling, and domain-specific interpretation. The Geology stream requires embodied field skills (mapping, sampling, drilling supervision) that are fundamentally unautomatable. The Atmospheric Science stream requires judgment about model validity, data quality, and uncertainty communication that AI accelerates but cannot replace.
+
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Exploration Geology / Critical Minerals | Critical-minerals postings +35–45% YoY for fieldwork-capable graduates with rare-earths/lithium expertise | "Critical minerals sovereignty is driving government investment in geoscience capability" | Keep GEOL90052 core and current; protect field skills |
+| Environmental Consulting | GHD, WSP, Jacobs specifying "familiarity with AI-assisted site assessment" alongside site attendance and report sign-off | "AI cannot hold professional accreditation or legal liability" | Add AI tool evaluation to discipline practice |
+| Climate and Weather Science | BoM/CSIRO roles bifurcating into model development vs model validation; validation growing | "Atmospheric graduates must position as model critics, not model operators" | Position graduates as model critics; strengthen validation |
+| Mining and Resource Estimation | BHP, Rio Tinto, FMG graduate programs specify field hours + JORC Competent Person pathway | "Desktop resource estimation is AI-assisted but legal sign-off remains human" | Protect fieldwork and JORC-pathway requirements |
+| Hydrogeology and Geotechnics | State-government/consultancy postings +20–30% (2025–26) on drought, MAR, PFAS remediation | "Bore installation and aquifer testing are embodied work" | Emphasise field techniques and accreditation pathways |
+| Energy Transition and Carbon (CCS) | Gorgon, CarbonNet, Browse hiring for subsurface characterisation and CO2 plume monitoring | "CCS combines computational modelling with subsurface physical understanding" | Consider a CCS elective or integration |
+
+### 4. DFVA SCORECARD
+| # | Dimension | Score (0-3) | Evidence-based rationale |
+|---|---|---:|---|
+| 1 | Automation Exposure of Roles | 3 | Graduate roles require physical fieldwork (Geology stream: field mapping, drilling, sampling), instrument operation, and original data interpretation from day one. Atmospheric Science graduates validate computational models against observations — requiring judgment about when models are wrong. AI accelerates analysis but cannot replace embodied field presence or observational judgment. |
+| 2 | Systems Thinking and Problem Framing | 2 | Atmospheric Modelling, Data Assimilation, Climate Science for Decision-Making, and Sedimentary Basins and Resource Analysis all require systems-level reasoning. Climate system feedback loops and geological basin analysis are inherently systems problems. Not explicitly labelled "systems thinking" but embedded in discipline practice. Trade-off reasoning present but not formally assessed as a standalone competency. |
+| 3 | Technical and Quantitative Depth | 3 | Strong quantitative core throughout: ATOC90010 Statistics in Climate Dynamics, MAST90007 Statistics for Research Workers, ATOC90012 Advanced Dynamical Meteorology (mathematical physics), Atmospheric Modelling (numerical methods), Ore Reserve Estimation (geostatistics), Geochronology (isotope geochemistry and dating methods). COMP90072 The Art of Scientific Computation available. Rigorous technical depth is structural to the program. |
+| 4 | Decision-Making Under Uncertainty | 3 | The 125-point research project (62.5% of degree) requires designing original research, interpreting ambiguous data, defending methodology under examination, and producing work of publishable quality. Semester hurdle reviews create ongoing accountability. The research thesis must demonstrate "appropriate level of insight and scientific interpretation" — this is genuine decision-making under genuine uncertainty. |
+| 5 | AI Literacy and Governance | 1 | LAWS90203 Science & AI: Legal & Ethical Challenges exists in the professional skills list but was "not available in 2025". COMP90059 Introduction to Programming and COMP90072 The Art of Scientific Computation provide computational capability but not AI governance or literacy. No mandatory unit addresses AI tool supervision, limitations, or responsible deployment in earth science contexts. |
+| 6 | Domain Depth and Specialisation | 3 | Exceptional domain depth. Geology stream covers mineralogy, geochemistry, geochronology, structural geology, ore deposits, field techniques, mine safety — highly specialised regulatory and scientific expertise. Atmospheric Science stream covers dynamical meteorology, climate modelling, data assimilation — deep quantitative specialisation. Multi-institutional VIEPS collaboration provides access to the broadest array of advanced earth science coursework nationally. |
+| 7 | Research Methods Rigour | 3 | 125 points of original research (62.5% of degree). Students generate primary data and defend methods under scrutiny. Assessment includes literature review, research presentations, oral examination, and thesis of publishable quality. Semester-end hurdle reviews ensure ongoing research quality. This is among the strongest research method rigour scores possible for a coursework masters. |
+| 8 | Human and Relational Capability | 1 | SCIE90013 Communication for Research Scientists and SCIE90012 Science Communication are available as professional skills options but not compulsory. Oral presentations exist (10% of research project assessment). No substantial clinical, care, interpersonal accountability, or stakeholder engagement components. The program is primarily individual research with limited collaborative or client-facing requirements. |
+| 9 | Curriculum Currency and Adaptability | 2 | Handbook last updated 6 November 2025. Program includes contemporary topics: critical minerals (GEOL90052), climate extremes, data assimilation. However, several subjects listed as "not available in 2025" or "no longer available" — suggesting uneven curation. LAWS90203 AI ethics not available. No AI literacy integrated into core discipline units. Fundamentally sound disciplinary content but incomplete adaptation to AI era. |
+| 10 | Graduate Outcome Evidence | 2 | No publicly available destination data at program level. No granular role-title, salary, or time-to-employment data published. Generic Faculty of Science outcomes exist but are not specific to this specialisation. |
+| B | Irreplaceability Premium (Bonus) | 2 | The combination of physical fieldwork capability + advanced quantitative modelling + original research + deep domain expertise creates a genuine dual-skill value proposition. A geology graduate who can both conduct fieldwork and model geological systems computationally occupies a position difficult to replicate by AI alone. Not scored 3 because the combination (science + research + fieldwork) is standard for earth science programs nationally — it is durable but not uniquely rare. |
+
+**TOTAL: 25 / 36**  
+**Risk band: MODERATE RISK (20-27)**
+
+### 5. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
+  **NO** — earth sciences graduates in their first two years perform physical fieldwork (geological mapping, drilling supervision, sample collection, instrument deployment), operate laboratory equipment, interpret observational data against geological or atmospheric models, and write technical reports requiring domain judgment about data quality and uncertainty. AI cannot physically attend field sites, operate instruments, or take legal responsibility for environmental assessments.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?  
+  **YES** — the 125-point research project is explicitly designed to produce original publishable research. Graduates must design their own methodology, collect and interpret primary data, and defend conclusions under oral examination. The thesis requirement ("of publishable quality") and semester hurdle reviews ensure genuine decision ownership and original insight generation throughout.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
+  **UNCERTAIN** — demand for earth scientists is structurally supported by critical minerals exploration (rare earths, lithium), climate adaptation planning, and environmental regulatory compliance — all growth sectors. However, some computational roles (climate data analysis, desktop resource estimation) face AI acceleration that may reduce headcount even as total demand grows. Net direction is likely positive but not guaranteed for all graduate roles.
+
+### 6. ANALOGUE GRADUATE PROFILE
+Most threatened entry-level profile: **"Desktop climate data analyst"** or **"office-based resource estimation analyst"** — roles where the graduate primarily processes existing datasets, runs established model configurations, and produces standardised reports without fieldwork or original experimental design.
+
+Threatening tool classes: AI-powered climate model post-processing and bias correction tools, automated geological logging from drill core imagery, LLM-based report generation from structured geological data, ML-driven resource estimation from geophysical datasets.
+
+Graduates in field-intensive roles (exploration geologist, field-based environmental consultant, observational atmospheric scientist) face minimal direct AI substitution because their work requires physical presence, instrument expertise, and real-time judgment about physical systems.
+
+### 7. VERDICT
+The Master of Science (Earth Sciences) is MODERATE RISK for 2027 labour-market viability. The program's core strength — a 125-point original research project combined with deeply specialised discipline coursework and physical fieldwork requirements — creates genuine structural automation resistance that most coursework-only programs lack. Graduates who enter field-intensive or research-intensive roles are well-protected.
+
+The risk sits in two gaps: (1) the complete absence of AI literacy and governance training means graduates cannot critically evaluate or supervise AI tools increasingly used in their own discipline (automated geological logging, ML-assisted climate modelling, AI resource estimation), and (2) the limited professional skills and communication training (12.5–25pts optional) means graduates may lack the interpersonal capability to move beyond individual contributor roles. At 25/36, this program sits comfortably within MODERATE RISK but has a clear path to RESILIENT if it addresses AI literacy and communication gaps.
+
+### 8. RECOMMENDATIONS
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Make LAWS90203 Science & AI: Legal & Ethical Challenges available and mandatory (12.5pts from professional skills allocation) | 5, 9 | Environmental consultancies specifying AI tool competency and risk mitigation | Low |
+| P2 | Add AI tool evaluation module within discipline core — critically assess AI-generated geological logs, climate model outputs, and automated resource estimates | 5, 1 | CSIRO/BoM roles bifurcating; automated drill core logging compressing entry logging | Medium |
+| P3 | Make SCIE90013 Communication for Research Scientists compulsory rather than optional | 8 | Consultancies citing lack of graduate communication/client translation skills | Low |
+| P4 | Publish granular graduate destination data by stream (Atmospheric Science vs Geology) with role titles, industries, and time-to-employment | 10 | Employers and prospective students requiring outcome statistics | Medium |
+| P5 | Add an AI methodology chapter to the 125pt research project — document where AI tools were used, where they failed, and how outputs were validated | 5, 4, 7 | RAs expected to demonstrate tool audit and scientific validation competence | Low |
+
+### 9. THE REDESIGNED GRADUATE PROFILE
+A resilient MC-SCIEAR graduate in 2027 combines deep earth science expertise with critical AI judgment and communication capability. In the Geology stream, they conduct physical fieldwork (mapping, drilling supervision, sample collection) while knowing exactly when AI-generated geological interpretations are reliable and when they require human validation. They can supervise automated drill core logging, critique ML-based resource estimates, and explain geological uncertainty to non-specialist stakeholders and regulators.
+
+In the Atmospheric Science stream, they design and validate climate models, understand the limitations of AI-driven weather prediction, and communicate forecast uncertainty to decision-makers in government and industry. They don't just run models — they diagnose model failures, design observational campaigns to test hypotheses, and own the scientific conclusions they present.
+
+Both streams produce graduates who are creators of primary knowledge, not processors of existing data. Their 25,000-word thesis demonstrates that they can frame original questions, design methodology, generate data, and defend conclusions. The addition of mandatory AI governance training means they enter the workforce able to deploy AI tools responsibly while maintaining scientific integrity — a combination that makes them supervisors of AI, not competitors with it.
+
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Medium–High**.
+- Earth sciences labour-market signals are unusually clear due to the physical-embodied nature of the work and strong government/industry demand drivers; physical-fieldwork automation resistance and critical-minerals demand growth are HIGH confidence.
+- The main uncertainty is around computational-only career pathways within Atmospheric Science; before high-stakes decisions, close the gaps with program-level employment outcome data and the field-intensive vs desktop-intensive role split.
+
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Science |
+| Full-time employment (4-6mo) | 79.3% (GOS 2024) |
+| Median starting salary | $100,000 |
+| Employment (3yr) | 79.3% |
+| Occupation demand | RECRUITMENT DIFFICULTY |
+| AI automation exposure | 40% |
+| Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |
+
+---
+
+<!-- LABOUR-EVIDENCE:START -->
+### REAL GRADUATE DESTINATIONS (JSA HEO · QILT · Adzuna)
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Sales Assistant (General) (6%), Medical Laboratory Scientist (6%), Geologist (5%), General Clerk (4%), Medical Laboratory Technician (4%) |
+| Early (~3yr) | Medical Laboratory Scientist (7%), Geologist (5%), Sales Assistant (General) (4%), Medical Laboratory Technician (4%), General Clerk (4%) |
+| Senior (~5yr) | Medical Laboratory Scientist (7%), Geologist (5%), Program or Project Administrator (4%), Environmental Consultant (4%), Medical Laboratory Technician (3%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 79% full-time employment · median salary $100,000 · 3-year employment 94% · JSA occupation demand: **Recruitment Difficulty**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): NSW Health Pathology, Dorevitch Pathology (Healius), Sonic Healthcare Australia, 4Cyte Pathology, CSIRO, ANSTO, WEHI, Canva, Glencore, Rio Tinto, Fortescue. Advertised salary A$73.4k–145k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
+<!-- LABOUR-EVIDENCE:END -->
+`,
+  },
+  "dfva-market-mc-sciear": {
+    title: "Master of Science (MC-SCIEAR) — Market Intelligence",
+    institution: "University of Melbourne",
+    markdown: `# DFVA MARKET INTELLIGENCE: Master of Science (MC-SCIEAR)
+
+**Assessment Date:** 2026-05-15 | **Source URL:** https://handbook.unimelb.edu.au/2025/courses/mc-sciear | **Prompt Version:** DFVA-COPILOT-MARKET-v1
+
+---
+
+## 1. JOB FAMILY MAP
+
+| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure |
+|---|---|---|---|---|
+| 1 | Exploration Geology | Graduate geologist, field mapping assistant, drill core logger | Senior exploration geologist, project geologist | LOW |
+| 2 | Environmental Consulting | Junior environmental scientist, site assessor, groundwater analyst | Senior environmental consultant, remediation project manager | LOW–MEDIUM |
+| 3 | Climate and Weather Science | Climate data analyst, research assistant (BoM/CSIRO), model output processor | Climate scientist, atmospheric researcher, forecast verification specialist | MEDIUM |
+| 4 | Mining and Resource Estimation | Graduate mine geologist, resource analyst, geological modeller | Senior resource geologist, ore body modeller, JORC competent person pathway | LOW |
+| 5 | Hydrogeology and Geotechnics | Junior hydrogeologist, groundwater monitoring officer, field technician | Senior hydrogeologist, principal consultant, water resource planner | LOW |
+| 6 | Government and Regulatory | Graduate geoscientist (geological surveys), policy analyst (environment/climate) | Senior geoscientist, team leader, technical advisor | LOW–MEDIUM |
+| 7 | Research and Academia | Research assistant, PhD candidate, lab manager | Postdoctoral researcher, lecturer, research fellow | MEDIUM |
+| 8 | Energy Transition and Carbon | Graduate geologist (CCS), carbon storage analyst, renewable site assessor | CCS project geologist, subsurface specialist, critical minerals advisor | LOW |
+
+---
+
+## 2. RECENT JOB AD SIGNALS
+
+**Signal 1 — Critical minerals exploration hiring accelerating nationally.**
+Australian critical minerals job postings (Q1 2026) show 35–45% year-on-year growth for geologists with rare earths, lithium, and battery minerals expertise. Employers specifically seek fieldwork-capable graduates who can combine mapping with geochemical interpretation — not desktop-only analysts.
+
+**Signal 2 — Environmental consulting firms specifying AI tool competency alongside field skills.**
+Major environmental consultancies (GHD, WSP, Jacobs) now include "familiarity with AI-assisted site assessment tools" or "experience with ML-based contamination modelling" in graduate geologist postings — while still requiring physical site attendance and regulatory report sign-off.
+
+**Signal 3 — Bureau of Meteorology and CSIRO roles bifurcating into model development vs model validation.**
+Climate science hiring is splitting: (a) computational roles focused on model development and ML integration (highly competitive, require PhD), and (b) observational/validation roles that require field instrument expertise and judgment about when models diverge from reality. The latter category is growing as AI-generated forecasts require human quality assurance.
+
+**Signal 4 — Mining sector graduate programs still require JORC-pathway eligibility and field hours.**
+Major mining companies (BHP, Rio Tinto, FMG, Newmont) graduate programs specify minimum field hours and pathway to JORC Competent Person status — a regulatory requirement that cannot be automated. Desktop resource estimation is increasingly AI-assisted but legal sign-off remains human.
+
+**Signal 5 — Hydrogeology demand rising due to water security and managed aquifer recharge projects.**
+State government and consultancy hydrogeology postings (VIC, SA, WA) increased 20–30% in 2025–2026, driven by drought adaptation, MAR projects, and PFAS remediation. All require physical bore installation supervision and aquifer testing that is embodied work.
+
+**Signal 6 — Carbon capture and storage (CCS) creating new geoscience hiring pipeline.**
+CCS projects (Gorgon, CarbonNet, Browse) are hiring geologists for subsurface characterisation. Postings specify reservoir geology, seismic interpretation, and CO2 plume monitoring — roles that combine computational modelling with subsurface physical understanding.
+
+---
+
+## 3. CURRENT DISCUSSION SIGNALS (X)
+
+**Theme 1 — "AlphaFold didn't kill structural biology — and AI won't kill geology."** Repeated professional discourse emphasises that AI tools accelerate geological interpretation but cannot replace physical ground-truth. The consensus: AI is a powerful assistant for desktop geology, but the profession's value sits in field validation, regulatory accountability, and physical sample integrity.
+
+**Theme 2 — Climate science PhD glut vs industry placement shortage.** Ongoing discussion about oversupply of climate PhDs relative to permanent research positions, while industry (energy transition, consulting, government) cannot find enough graduates willing to leave academia for applied roles. Masters-level graduates with industry orientation may be better positioned than PhDs for non-academic pathways.
+
+**Theme 3 — Automated drill core logging is compressing junior geological logging roles.** AI-powered core photography and ML-based lithology identification (e.g., Imago, DeepCore) are reducing time needed for routine logging. Professional discourse acknowledges this changes junior geologist workflow but emphasises that interpretation, structural context, and field mapping remain human-owned.
+
+**Theme 4 — "The geologist of 2030 is a data scientist who can swing a hammer."** Emerging consensus that future geologists need computational skills (Python, GIS, ML) alongside traditional field skills. Programs that don't integrate both are producing incomplete graduates. Discussion frames this as opportunity, not threat — AI makes geologists more productive, not redundant.
+
+**Theme 5 — Critical minerals sovereignty driving government investment in geoscience capability.** National security discourse around rare earths and battery minerals is driving government investment in geological surveys, new exploration tenements, and graduate pipeline programs. Australia's Geoscience Australia and state surveys are expanding, not contracting.
+
+**Theme 6 — Environmental regulatory tightening increasing demand for qualified assessors.** PFAS, mine rehabilitation, and biodiversity offset regulations are creating sustained demand for qualified environmental scientists who can conduct field assessments and sign regulatory reports. AI cannot hold professional accreditation or legal liability.
+
+**Theme 7 — Atmospheric science graduates face "model operator vs model critic" bifurcation.** Discussion notes that running existing climate models is becoming commoditised (AI can configure and execute standard runs), while validating models against observations, diagnosing failures, and communicating uncertainty to decision-makers remains human work. The Masters-level graduate must position as the latter.
+
+---
+
+## 4. SKILL SHIFT SUMMARY
+
+### Declining Demand
+
+| Skill | Reason | Replacement |
+|---|---|---|
+| Routine drill core logging and description | AI-powered core photography and ML lithology identification | Automated logging systems (Imago, DeepCore) |
+| Standard climate model execution | AI agents can configure and run established model configurations | Automated model pipelines with parameter tuning |
+| Desktop-only resource estimation | ML-based geostatistical estimation increasingly automated | AI-assisted block modelling tools |
+| Manual GIS digitisation | Automated feature extraction from satellite/drone imagery | ML-powered geospatial analysis |
+| Routine environmental monitoring report writing | LLM-based report generation from structured data | AI report drafters with template compliance |
+
+### Rising Demand
+
+| Skill | Reason | Curriculum Implication |
+|---|---|---|
+| AI output validation and quality assurance | All automated geological/climate outputs require expert human review | Train graduates to critique AI-generated geological interpretations |
+| Critical minerals exploration expertise | National sovereignty and energy transition driving sustained demand | Ensure GEOL90052 Precious & Critical Minerals remains core and current |
+| Field-based environmental assessment with regulatory sign-off | Tightening regulation requires qualified human assessors on-site | Emphasise field techniques and professional accreditation pathways |
+| Climate uncertainty communication to non-scientists | Decision-makers need translated climate science, not raw model output | Strengthen SCIE90013 Communication for Research Scientists as compulsory |
+| CCS subsurface characterisation | Massive pipeline of carbon storage projects requiring geological expertise | Consider adding CCS-specific elective or integrating into existing subjects |
+| Computational geology (Python, ML, geostatistics) | "Geologist of 2030" requires hybrid field + computational capability | Promote COMP90072 and COMP90059 more strongly within professional skills |
+| Cross-disciplinary systems integration | Climate-geology-hydrology-ecology interfaces creating new roles | Encourage cross-stream elective pathways and interdisciplinary projects |
+
+---
+
+## 5. CURRICULUM IMPLICATIONS
+
+| Implication | Related Signals | Priority | Dimension Impact |
+|---|---|---|---|
+| Add mandatory AI tool evaluation within discipline core (validate AI-generated geological/climate outputs) | Signals 2, 3; Themes 1, 3, 4 | P1 | D5, D9 |
+| Make Science & AI: Legal & Ethical Challenges available and compulsory | Signals 2, 3; Theme 7 | P1 | D5, D9 |
+| Strengthen computational skills pathway (make COMP90072 or equivalent strongly recommended) | Signal 4; Theme 4 | P2 | D3, D5, B |
+| Make Communication for Research Scientists compulsory | Signals 3, 6; Theme 2 | P2 | D8 |
+| Ensure critical minerals content (GEOL90052) is regularly updated to reflect market | Signal 1; Theme 5 | P2 | D6, D9 |
+| Publish stream-specific graduate destination data | Theme 2 | P3 | D10 |
+| Add CCS/energy transition pathway or elective | Signal 6 | P3 | D6, D9 |
+
+---
+
+## 6. EVIDENCE CONFIDENCE + GAPS
+
+| Evidence Category | Confidence | Notes |
+|---|---|---|
+| Physical fieldwork automation resistance | High | Fundamental physical constraint — AI cannot conduct geological fieldwork |
+| Critical minerals demand growth | High | Government policy, sovereign investment, and global supply chain data strongly support |
+| AI tool integration in geological workflows | Medium–High | Clear signals from major consultancies and mining companies |
+| Climate science role bifurcation | Medium | Directional signal from hiring patterns; magnitude uncertain |
+| CCS pipeline hiring | Medium | Projects are funded and progressing but some face delays |
+| Graduate destination outcomes | Low | No program-specific data available; inferred from sector-level patterns |
+
+**Critical gaps:**
+- No program-level employment outcome data to validate graduate pathways
+- Unable to verify which professional skills subjects students actually choose (vs what's listed)
+- No data on proportion of graduates entering field-intensive vs desktop-intensive roles
+- Internship placement rates (SCIE90017) not publicly reported
+
+> Evidence confidence for this report: Medium–High. Earth sciences labour market signals are unusually clear due to the physical-embodied nature of the work and strong government/industry demand drivers. The main uncertainty is around the computational-only career pathways within Atmospheric Science.
+
+---
+
+**Assessment date (ISO format):** 2026-05-15
+**Source URL(s):** https://handbook.unimelb.edu.au/2025/courses/mc-sciear
+**Prompt version:** DFVA-COPILOT-MARKET-v1
+
+---
+
+<!-- LABOUR-EVIDENCE:START -->
+## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Sales Assistant (General) (6%), Medical Laboratory Scientist (6%), Geologist (5%), General Clerk (4%), Medical Laboratory Technician (4%) |
+| Early (~3yr) | Medical Laboratory Scientist (7%), Geologist (5%), Sales Assistant (General) (4%), Medical Laboratory Technician (4%), General Clerk (4%) |
+| Senior (~5yr) | Medical Laboratory Scientist (7%), Geologist (5%), Program or Project Administrator (4%), Environmental Consultant (4%), Medical Laboratory Technician (3%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 79% full-time employment · median salary $100,000 · 3-year employment 94% · JSA occupation demand: **Recruitment Difficulty**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): NSW Health Pathology, Dorevitch Pathology (Healius), Sonic Healthcare Australia, 4Cyte Pathology, CSIRO, ANSTO, WEHI, Canva, Glencore, Rio Tinto, Fortescue. Advertised salary A$73.4k–145k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
+<!-- LABOUR-EVIDENCE:END -->
+`,
+  },
+  "dfva-mc-sciepi": {
+    title: "Master of Science (Epidemiology) (MC-SCIEPI) — DFVA Assessment",
+    institution: "University of Melbourne",
+    markdown: `## DFVA REPORT: Master of Science (Epidemiology) (MC-SCIEPI)
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years full-time / 4 years part-time
+
+**Assessment date:** 2026-05-15  
+**Source URL(s):** https://handbook.unimelb.edu.au/2025/courses/mc-sciepi  
+**Prompt version:** DFVA-COPILOT-PROMPT-v1
+
+### 1. PROGRAM PROFILE
+
+The Master of Science (Epidemiology) (MC-SCIEPI) is a 200-credit-point coursework masters degree incorporating a supervised research project. It is coordinated by the Melbourne School of Population and Global Health (note: this school typically sits within MDHS, but the program follows the Faculty of Science Master of Science structure). Coordinator: Andrew Lau.
+
+Epidemiology is described as "the basic science of public health" — the scientific method used to track population health, find causes of disease, and identify prevention strategies. The program offers both a major research project (50pts) and minor research project (25pts) pathway.
+
+**Discipline Core (75pts):** POPH90013 Biostatistics · POPH90014 Epidemiology 1 · POPH90144 Regression Methods in Health Research · POPH90145 Survival Analysis & Regression for Rates · POPH90243 Epidemiology in Practice · POPH90242 Epidemiology 2
+
+**Discipline Electives (at least 25pts):** POPH90093 Introduction to Economic Evaluation · POPH90111 Genetic Epidemiology · POPH90112 Infectious Disease Epidemiology · POPH90271 Infectious Diseases Modelling · POPH90094 Health Economics 1 · POPH90206 Health Policy · POPH90020 Health Promotion · POPH90270 Bioethics in Practice · POPH90058 Health Program Evaluation 1 · POPH90231 Qualitative Research in Public Health · POPH90199 Gender and Health · POPH90217 Foundations of Public Health
+
+**Professional Skills (25–50pts):** BUSA90403 Business Tools · SCIE90012 Science Communication · SCIE90013 Communication for Research Scientists · COMP90072 The Art of Scientific Computation · COMP90059 Introduction to Programming · MAST90101 Introduction to Statistical Computing · SCIE90017 Science and Technology Internship · SCIE90005 Ethics and Responsibility in Science (not available 2025)
+
+**Research Project (25 or 50pts):** Major project (POPH90278 + POPH90279, 50pts) or Minor project (POPH90280 + POPH90283, 25pts), completed over two consecutive semesters towards end of degree.
+
+### 2. AUTOMATION EXPOSURE PROFILE
+
+| Year | Typical Tasks | Automation Risk |
+|---|---|---|
+| Year 1–2 | Research assistant (epidemiology/biostatistics), data analyst (public health unit), surveillance analyst (health department), junior epidemiologist, clinical trial data manager | MEDIUM — data extraction, cleaning, and routine statistical analysis are AI-accelerating; but study design, confounding assessment, and causal interpretation require human epidemiological judgment |
+| Year 3–5 | Senior epidemiologist, surveillance lead, health policy analyst, biostatistics consultant, clinical epidemiologist, pandemic response analyst, health program evaluator | LOW–MEDIUM — increasing decision ownership over study design, policy recommendations, and population health interventions; accountability for public health decisions is human-owned |
+
+**Structural advantage:** Epidemiology involves causal reasoning about complex population systems where confounding, bias, and external validity must be assessed using domain knowledge that AI cannot reliably replicate. The discipline's core value — determining whether observed associations represent causal relationships — requires judgment about research design that AI can assist but not own.
+
+### 3. MARKET EVIDENCE SNAPSHOT
+
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Government Epidemiology | Australian CDC (est. 2024) and state pandemic units institutionalising permanent epidemiologist roles | "Epidemiology graduate pipeline insufficient for post-COVID demand" | Ensure Infectious Disease Epidemiology and Modelling regularly available |
+| Pharmaceutical / RWE | Real-world evidence demand growing 25–30% YoY across pharma/CROs | "Real-world evidence is eating clinical trials" | Strengthen causal inference (DAGs, target trial emulation) |
+| Health AI Governance | New "AI validation epidemiologist" / "algorithmic fairness analyst" postings in health systems | "Who validates the AI health tools?" | Add AI validation methodology to core subjects |
+| Climate-Health | Climate adaptation agencies creating dedicated climate-health surveillance positions | "Climate-health epidemiology emerging as distinct hiring stream" | Add climate-health elective or case studies |
+| Clinical Trials / Biostatistics | Persistent biostatistician supply-demand gap; CROs actively recruiting masters graduates | "Biostatistician shortage persisting" | Maintain quantitative rigour |
+| Academic / Data Linkage | Population health data linkage infrastructure (SAIL, SURE) expanding with digital health | "AI can run your regression but can't design your study" | Strengthen data management and linkage methods |
+
+### 4. DFVA SCORECARD
+
+| # | Dimension | Score (0-3) | Evidence-based rationale |
+|---|---|---|---|
+| 1 | Automation Exposure of Roles | 2 | Entry-level epidemiology roles involve a mix of routine data analysis (increasingly AI-assisted) and genuine methodological judgment (study design, bias assessment, causal inference). Data processing and standard statistical analyses are automating, but epidemiological reasoning about confounding structures, measurement validity, and population generalisability remains human work. |
+| 2 | Systems Thinking and Problem Framing | 2 | POPH90271 Infectious Diseases Modelling explicitly involves systems dynamics. Epidemiology itself is population-level systems thinking — understanding causal webs, confounding structures, and interaction effects. POPH90243 Epidemiology in Practice requires applying methods to real-world problems. Not labelled "systems thinking" but structurally embedded. |
+| 3 | Technical and Quantitative Depth | 3 | Exceptionally strong quantitative core: POPH90013 Biostatistics, POPH90144 Regression Methods in Health Research, POPH90145 Survival Analysis & Regression for Rates, POPH90242 Epidemiology 2. Plus MAST90101 Introduction to Statistical Computing and COMP90072 The Art of Scientific Computation as professional skills options. This is one of the most quantitatively rigorous programs in the Faculty. |
+| 4 | Decision-Making Under Uncertainty | 2 | Research project (25 or 50 pts) requires original research with defended methodology. POPH90243 Epidemiology in Practice involves applied decision-making. Core subjects teach uncertainty quantification (confidence intervals, hypothesis testing, survival curves). However, no evidence of live-stakes capstones with industry/government partners or genuine accountability beyond academic assessment. |
+| 5 | AI Literacy and Governance | 1 | No mandatory AI governance unit. SCIE90005 Ethics and Responsibility in Science "not available in 2025." No evidence of AI tool evaluation within epidemiological methods subjects. AI is rapidly transforming epidemiological practice (automated surveillance, ML-based disease detection, LLM-assisted systematic reviews) but the program does not explicitly address this. |
+| 6 | Domain Depth and Specialisation | 3 | Deep domain specialisation in epidemiology with extensive elective pathways (genetic epidemiology, infectious disease, health economics, qualitative methods). The program produces specialists who understand the full epidemiological toolkit from study design through analysis to interpretation. Regulatory and ethical frameworks embedded through health system context. |
+| 7 | Research Methods Rigour | 3 | The entire discipline core IS research methods — epidemiology is fundamentally about designing studies, controlling bias, and making valid causal inferences. Biostatistics + Regression + Survival Analysis + Epidemiology 1&2 constitute a comprehensive research methods curriculum. Research project (25 or 50pts) produces original research. Students can design and conduct research from core training alone. |
+| 8 | Human and Relational Capability | 2 | POPH90270 Bioethics in Practice (elective) provides meaningful ethical practice. POPH90020 Health Promotion involves community engagement. POPH90206 Health Policy requires stakeholder reasoning. The discipline inherently requires ethics committee engagement and consideration of population impact. Not scored 3 because communication and ethics are elective rather than mandatory. |
+| 9 | Curriculum Currency and Adaptability | 2 | Handbook updated 27 November 2025. Dual-delivery mode shows COVID-era adaptation. POPH90271 Infectious Diseases Modelling shows post-pandemic curriculum response. However, SCIE90005 not available, no AI content in core discipline subjects despite AI transforming epidemiological practice. Core methods teaching does not visibly address AI-augmented surveillance or ML-based epidemiology. |
+| 10 | Graduate Outcome Evidence | 2 | No publicly available destination data at program level. No granular role-title, salary, or time-to-employment data published. Epidemiologists are known to have strong employment outcomes but program-specific evidence is absent. |
+| B | Irreplaceability Premium (Bonus) | 2 | The combination of advanced biostatistics + epidemiological study design + population health context creates a specialist who can design research to answer causal questions about human health — a skill in sustained demand. Not scored 3 because the profile (quantitative + health domain) is shared with other biostatistics/public health programs nationally. |
+
+**TOTAL: 23 / 36**  
+**Risk band: MODERATE RISK (20-27)**
+
+### 5. THREE THRESHOLD QUESTIONS
+
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
+  **UNCERTAIN** — AI can now run standard statistical analyses, produce data visualisations, and draft methods sections. But it cannot assess whether a study design adequately controls for confounding, whether observed associations are causal, or whether findings generalise to target populations. The 80% threshold is borderline — routine data analysis work is automating, but the epidemiological reasoning that contextualises it is not.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?  
+  **YES** — epidemiological study design IS the art of generating original insight from observational data. Core subjects teach how to frame research questions, design studies that control bias, and interpret results causally. The research project produces original findings. Graduates are trained to generate knowledge, not just process existing data.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
+  **YES** — pandemic preparedness investment, climate-health surveillance, aging population analytics, antimicrobial resistance tracking, and AI-augmented health system monitoring all drive sustained and growing demand for trained epidemiologists. AI tools make epidemiologists more productive (faster analysis, larger datasets) without replacing the core causal reasoning and study design skills.
+
+### 6. ANALOGUE GRADUATE PROFILE
+
+Most threatened entry-level profile: **"Junior health data analyst"** — roles focused on running pre-specified analyses on existing datasets, producing standardised surveillance reports, and managing clinical trial databases without design input.
+
+Threatening tool classes: AI-powered automated surveillance dashboards, LLM-based systematic review and meta-analysis tools, ML-based disease detection from electronic health records, automated statistical analysis pipelines (e.g., auto-EDA tools).
+
+Graduates who move into study design, causal inference, policy advisory, and research leadership roles face minimal AI substitution. Their value lies in knowing what questions to ask and how to design studies that can answer them validly — a fundamentally human-judgment skill.
+
+### 7. VERDICT
+
+The Master of Science (Epidemiology) is MODERATE RISK for 2027 labour-market viability. The program produces graduates with genuine quantitative rigour and deep methodological expertise — the entire discipline core teaches research design and statistical methods at an advanced level. The structural demand for epidemiologists is strong and growing across pandemic preparedness, climate health, aging populations, and health system AI governance. At 23/36, the program is solidly within MODERATE RISK with clear interventions to reach RESILIENT — primarily through AI literacy integration and strengthening live-stakes decision accountability.
+
+### 8. RECOMMENDATIONS
+
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Add AI in Epidemiological Practice module — evaluate AI surveillance tools, ML-based disease detection, LLM-assisted systematic reviews for validity and bias | D5, D9 | Health AI governance emerging; CDC roles requiring evaluation of ML models | Medium |
+| P1 | Encourage major research project pathway (50pts) over minor (25pts) through advising and structural incentives | D4, D7 | RWE / Pharma research roles requiring independent study design | Low |
+| P2 | Make SCIE90013 Communication for Research Scientists or POPH90231 Qualitative Research compulsory | D8 | Health departments citing communication as key graduate gap | Low |
+| P2 | Add health department or WHO partnership project with genuine accountability for surveillance recommendations | D4, D8 | Australian CDC hiring permanently for surveillance roles | Medium |
+| P3 | Publish graduate destination data with role-types (research, government, consultancy, clinical) and time-to-employment | D10 | GOS data lacks epidemiology-specific role title and salary granularity | Medium |
+| P3 | Integrate AI tool evaluation into POPH90013 Biostatistics — students compare AI-generated vs manual statistical analyses and assess validity | D5, D3 | SAS/R script generation compressing as LLMs write boilerplate code | Medium |
+
+### 9. THE REDESIGNED GRADUATE PROFILE
+
+A resilient MC-SCIEPI graduate in 2027 is an epidemiological scientist who designs studies, interprets causal evidence, and advises health systems — while critically evaluating AI tools that increasingly operate in their domain. They can assess whether an AI-powered surveillance system is detecting genuine disease signals or statistical artifacts. They know when ML-based prediction models are valid and when they reproduce biases from training data. They can design studies that test the effectiveness of AI-augmented health interventions.
+
+Their quantitative core (biostatistics, regression, survival analysis) gives them the technical depth to audit AI outputs statistically. Their epidemiological training (study design, bias control, causal inference) gives them the methodological framework to evaluate whether automated systems are producing valid health intelligence. Their research project demonstrates they can generate original insight, not just process existing data.
+
+This graduate is positioned at the intersection of three growing demand vectors: (1) traditional epidemiological research in aging/infectious/chronic disease, (2) health system AI governance — evaluating whether AI tools used in public health meet methodological standards, and (3) pandemic preparedness — where the ability to rapidly design surveillance studies and interpret outbreak data is a national security capability.
+
+### 10. MARKET CONFIDENCE NOTE
+
+- Confidence level for market signals in this report: **Medium–High**. Epidemiology labour market demand is strongly evidenced through government policy investment, pharmaceutical industry growth, and emerging AI governance needs.
+- Government epidemiologist demand (Australian CDC, state pandemic units), pharmaceutical RWE demand, and clinical trials biostatistician shortage are all High-confidence signals; climate-health demand and AI-governance job families are emerging but accelerating.
+- The main uncertainty is the speed at which AI governance roles will scale from emerging to mainstream, and graduate destination outcomes are Low-confidence (no program-specific data; inferred from sector patterns).
+
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Science |
+| Full-time employment (4-6mo) | 79.3% (GOS 2024) |
+| Median starting salary | $100,000 |
+| Employment (3yr) | 79.3% |
+| Occupation demand | RECRUITMENT DIFFICULTY |
+| AI automation exposure | 40% |
+| Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |
+
+<!-- LABOUR-EVIDENCE:START -->
+### REAL GRADUATE DESTINATIONS (JSA HEO · QILT · Adzuna)
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Sales Assistant (General) (6%), Medical Laboratory Scientist (6%), Geologist (5%), General Clerk (4%), Medical Laboratory Technician (4%) |
+| Early (~3yr) | Medical Laboratory Scientist (7%), Geologist (5%), Sales Assistant (General) (4%), Medical Laboratory Technician (4%), General Clerk (4%) |
+| Senior (~5yr) | Medical Laboratory Scientist (7%), Geologist (5%), Program or Project Administrator (4%), Environmental Consultant (4%), Medical Laboratory Technician (3%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 79% full-time employment · median salary $100,000 · 3-year employment 94% · JSA occupation demand: **Recruitment Difficulty**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): NSW Health Pathology, Dorevitch Pathology (Healius), Sonic Healthcare Australia, 4Cyte Pathology, CSIRO, ANSTO, WEHI, Canva, Glencore, Rio Tinto, Fortescue. Advertised salary A$73.4k–145k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
+<!-- LABOUR-EVIDENCE:END -->
+`,
+  },
+  "dfva-market-mc-sciepi": {
+    title: "Master of Science (MC-SCIEPI) — Market Intelligence",
+    institution: "University of Melbourne",
+    markdown: `# DFVA MARKET INTELLIGENCE: Master of Science (MC-SCIEPI)
+
+**Assessment Date:** 2026-05-15 | **Source URL:** https://handbook.unimelb.edu.au/2025/courses/mc-sciepi | **Prompt Version:** DFVA-COPILOT-MARKET-v1
+
+---
+
+## 1. JOB FAMILY MAP
+
+| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure |
+|---|---|---|---|---|
+| 1 | Government Epidemiology | Surveillance analyst, communicable disease officer, junior epidemiologist (state/federal health dept) | Senior epidemiologist, outbreak response lead, surveillance program manager | LOW |
+| 2 | Academic Research | Research assistant, PhD candidate, biostatistician (university research centre) | Postdoctoral fellow, research fellow, lecturer in epidemiology | MEDIUM |
+| 3 | Clinical Epidemiology | Clinical trial data manager, clinical research coordinator, outcomes analyst | Senior biostatistician, clinical epidemiologist, trial design lead | MEDIUM |
+| 4 | Health Economics and Policy | Health data analyst, policy research assistant, health technology assessment analyst | Health economist, HTA lead, policy advisor | LOW–MEDIUM |
+| 5 | Pharmaceutical and Biotech | Pharmacoepidemiology analyst, drug safety scientist (junior), real-world evidence analyst | Pharmacoepidemiologist, safety signal lead, RWE director | LOW |
+| 6 | Global Health and NGOs | Field epidemiologist (WHO/MSF), monitoring and evaluation officer, health survey analyst | Technical advisor, program epidemiologist, surveillance capacity builder | LOW |
+
+---
+
+## 2. RECENT JOB AD SIGNALS
+
+**Signal 1 — Pandemic preparedness roles institutionalising across Australian government.**
+Post-COVID investment in the Australian Centre for Disease Control (est. 2024) and state-level pandemic preparedness units is creating permanent epidemiologist positions. Postings specify: study design, surveillance system management, causal inference, and rapid outbreak response — not just data analysis.
+
+**Signal 2 — Pharmaceutical real-world evidence (RWE) demand growing 25–30% YoY.**
+Pharma/biotech companies (CSL, AstraZeneca, Moderna) and CROs increasingly hiring epidemiologists for real-world evidence generation, post-market surveillance, and pharmacovigilance. These roles require epidemiological study design skills — AI assists with data processing but cannot design observational studies or assess confounding validity.
+
+**Signal 3 — Health AI governance creating new epidemiologist roles.**
+Emerging postings for "AI validation epidemiologist" and "algorithmic fairness analyst" in health systems. These roles require epidemiological methodology to evaluate whether AI-powered diagnostic/predictive tools produce valid outputs across population subgroups — a new job family that didn't exist 2 years ago.
+
+**Signal 4 — Climate-health epidemiology emerging as distinct hiring stream.**
+Climate adaptation agencies and health departments creating dedicated climate-health surveillance positions. These require epidemiological skills applied to heat-mortality, air quality, vector-borne disease range shifts, and climate-sensitive infectious diseases.
+
+**Signal 5 — Biostatistician supply-demand gap persisting in clinical trials.**
+Australian clinical trial sector reports ongoing shortage of qualified biostatisticians and epidemiologists for trial design and analysis. CROs (Novotech, ICON, Parexel) and academic trial centres actively recruiting masters-level biostatistics graduates.
+
+**Signal 6 — Data linkage and population health analytics expanding with digital health.**
+My Health Record expansion and state health data linkage infrastructure (SAIL, SURE) creating demand for epidemiologists who can design valid population studies using linked administrative data — combining epidemiological study design with data management skills.
+
+---
+
+## 3. CURRENT DISCUSSION SIGNALS (X)
+
+**Theme 1 — AI can run your regression but can't design your study.** Dominant professional discourse emphasises that AI tools (automated statistical analysis, LLM-assisted literature reviews) accelerate epidemiological workflow but cannot replace the core skill: deciding what question to ask, what study design answers it validly, and what biases threaten validity. The consensus is clear: AI is making epidemiologists more productive, not redundant.
+
+**Theme 2 — Who validates the AI health tools?** Growing discussion about the need for epidemiologically-trained professionals to validate AI diagnostic, prognostic, and surveillance tools. The argument: clinical AI validation requires epidemiological methodology (sensitivity, specificity, predictive values, calibration, external validity) — and most AI developers lack this training.
+
+**Theme 3 — Epidemiology graduate pipeline insufficient for post-COVID demand.** Australian epidemiology workforce analysis consistently identifies undersupply relative to demand. Government investment in pandemic preparedness and climate health is creating positions faster than the educational pipeline produces graduates. This is a demand-driven market.
+
+**Theme 4 — Real-world evidence is eating clinical trials.** Regulatory acceptance of RWE (TGA, FDA, EMA) expanding the role of observational epidemiology in drug development and post-market surveillance. Epidemiologists who can design valid observational studies using electronic health records and claims data are increasingly valued — a growth area.
+
+**Theme 5 — The epidemiologist as AI auditor.** Emerging consensus that epidemiological methods (bias assessment, confounding control, external validity evaluation) are exactly what's needed to audit AI health tools. This positions epidemiologists as natural AI governance professionals in healthcare — validating whether algorithms work fairly and accurately across populations.
+
+**Theme 6 — Qualitative and mixed-methods epidemiology rising.** Growing recognition that purely quantitative epidemiology misses implementation context. Health departments and research funders increasingly value mixed-methods approaches. Programs that offer both quantitative and qualitative methods (like POPH90231) are producing more complete graduates.
+
+---
+
+## 4. SKILL SHIFT SUMMARY
+
+### Declining Demand
+
+| Skill | Reason | Replacement |
+|---|---|---|
+| Manual data cleaning and preparation | AI-automated data pipelines and cleaning tools | Automated ETL and data quality systems |
+| Standard descriptive epidemiology reports | LLM-based report generation from surveillance data | Automated surveillance dashboards |
+| Routine systematic review and screening | AI-assisted screening and data extraction tools | LLM-powered review automation |
+| Basic statistical analysis execution | Auto-EDA tools and AI statistical assistants | Automated analysis pipelines |
+| Single-method (quantitative only) analysis | Mixed-methods increasingly expected | Integration of qualitative/quantitative |
+
+### Rising Demand
+
+| Skill | Reason | Curriculum Implication |
+|---|---|---|
+| AI health tool validation using epidemiological methods | Growing deployment of clinical AI requires methodological validation | Add AI validation methodology to core subjects |
+| Causal inference from observational data (advanced) | RWE regulatory acceptance expanding demand for causal methods | Strengthen causal inference teaching (DAGs, target trial emulation) |
+| Climate-health surveillance design | Climate adaptation creating new surveillance needs | Add climate-health elective or case studies |
+| Pandemic preparedness and rapid response | Institutionalised government investment post-COVID | Ensure Infectious Disease Epidemiology and Modelling are regularly available |
+| Data linkage study design | Population health data infrastructure expanding | Strengthen data management and linkage methods |
+| Health AI governance and algorithmic fairness | New job family emerging in health systems | Add AI governance module within epidemiological methods framework |
+| Communication of uncertainty to non-specialists | Policy makers and public need translated epidemiological evidence | Strengthen communication skills as compulsory |
+
+---
+
+## 5. CURRICULUM IMPLICATIONS
+
+| Implication | Related Signals | Priority | Dimension Impact |
+|---|---|---|---|
+| Add AI tool validation module — epidemiological methods applied to evaluating AI health tools | Signals 3; Themes 2, 5 | P1 | D5, D9, B |
+| Strengthen causal inference methods (target trial emulation, DAGs, instrumental variables) | Signal 2; Theme 4 | P1 | D3, D6 |
+| Add climate-health epidemiology elective or case studies | Signal 4 | P2 | D6, D9 |
+| Make communication subject compulsory (SCIE90013 or equivalent) | Theme 6 | P2 | D8 |
+| Encourage major research project pathway (50pts) through advising | Theme 1 | P2 | D4, D7 |
+| Publish graduate destination data with role-type breakdown | Theme 3 | P3 | D10 |
+
+---
+
+## 6. EVIDENCE CONFIDENCE + GAPS
+
+| Evidence Category | Confidence | Notes |
+|---|---|---|
+| Epidemiologist demand growth (government) | High | Australian CDC establishment, state pandemic units — verifiable policy investment |
+| Pharmaceutical RWE demand | High | Regulatory framework changes (TGA, FDA) directly drive hiring |
+| AI health governance as new job family | Medium–High | Emerging but accelerating; job postings visible; WHO/OECD guidance driving |
+| Climate-health epidemiology demand | Medium | Growing but still small absolute numbers; policy direction clear |
+| Clinical trials biostatistician shortage | High | Consistent industry reports over 5+ years |
+| Graduate destination outcomes | Low | No program-specific data; inferred from sector patterns |
+
+> Evidence confidence for this report: Medium–High. Epidemiology labour market demand is strongly evidenced through government policy investment, pharmaceutical industry growth, and emerging AI governance needs. The main uncertainty is around the speed at which AI governance roles will scale from emerging to mainstream.
+
+---
+
+**Assessment date (ISO format):** 2026-05-15
+**Source URL(s):** https://handbook.unimelb.edu.au/2025/courses/mc-sciepi
+**Prompt version:** DFVA-COPILOT-MARKET-v1
+
+---
+
+<!-- LABOUR-EVIDENCE:START -->
+## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Sales Assistant (General) (6%), Medical Laboratory Scientist (6%), Geologist (5%), General Clerk (4%), Medical Laboratory Technician (4%) |
+| Early (~3yr) | Medical Laboratory Scientist (7%), Geologist (5%), Sales Assistant (General) (4%), Medical Laboratory Technician (4%), General Clerk (4%) |
+| Senior (~5yr) | Medical Laboratory Scientist (7%), Geologist (5%), Program or Project Administrator (4%), Environmental Consultant (4%), Medical Laboratory Technician (3%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 79% full-time employment · median salary $100,000 · 3-year employment 94% · JSA occupation demand: **Recruitment Difficulty**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): NSW Health Pathology, Dorevitch Pathology (Healius), Sonic Healthcare Australia, 4Cyte Pathology, CSIRO, ANSTO, WEHI, Canva, Glencore, Rio Tinto, Fortescue. Advertised salary A$73.4k–145k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
+<!-- LABOUR-EVIDENCE:END -->
+`,
+  },
   "dfva-439fs": {
     title: "Master of Food Science (439FS) — DFVA Assessment",
     institution: "University of Melbourne",
