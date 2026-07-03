@@ -47,6 +47,30 @@ import { DIMENSION_EVIDENCE, DimensionEvidence } from "./data/dimensionEvidence"
 import { getFieldForCourse } from "./marketData";
 
 const riskBandStyles: Record<string, string> = {
+  "dfva-dr-phileit": { score: "25 / 36", riskBand: "MODERATE RISK" },
+  "dfva-dr-philbe": { score: "22 / 36", riskBand: "MODERATE RISK" },
+  "dfva-dr-philart": { score: "21 / 36", riskBand: "MODERATE RISK" },
+  "dfva-dr-philsci": { score: "24 / 36", riskBand: "MODERATE RISK" },
+  "dfva-dr-philagr": { score: "26 / 36", riskBand: "MODERATE RISK" },
+  "dfva-dr-philabp": { score: "25 / 36", riskBand: "MODERATE RISK" },
+  "dfva-dr-philmdh": { score: "27 / 36", riskBand: "MODERATE RISK" },
+  "dfva-dr-philedu": { score: "15 / 36", riskBand: "HIGH RISK" },
+  "dfva-dr-philfam": { score: "23 / 36", riskBand: "MODERATE RISK" },
+  "dfva-dr-philedp": { score: "32 / 36", riskBand: "RESILIENT" },
+  "dfva-080cn": { score: "29 / 36", riskBand: "RESILIENT" },
+  "dfva-080cl": { score: "28 / 36", riskBand: "RESILIENT" },
+  "dfva-mc-dmed": { score: "27 / 36", riskBand: "MODERATE RISK" },
+  "dfva-mc-dvetmed": { score: "27 / 36", riskBand: "MODERATE RISK" },
+  "dfva-300bb": { score: "19 / 36", riskBand: "HIGH RISK" },
+  "dfva-dh-lld": { score: "16 / 36", riskBand: "HIGH RISK" },
+  "dfva-dr-philik": { score: "27 / 36", riskBand: "MODERATE RISK" },
+  "dfva-dr-phillaw": { score: "23 / 36", riskBand: "MODERATE RISK" },
+  "dfva-dr-philvet": { score: "26 / 36", riskBand: "MODERATE RISK" },
+  "dfva-dh-sc": { score: "17 / 36", riskBand: "HIGH RISK" },
+  "dfva-me-dcd": { score: "29 / 36", riskBand: "RESILIENT" },
+  "dfva-mc-ddensur": { score: "25 / 36", riskBand: "MODERATE RISK" },
+  "dfva-mc-doptom": { score: "24 / 36", riskBand: "MODERATE RISK" },
+  "dfva-mc-dphysio": { score: "26 / 36", riskBand: "MODERATE RISK" },
   RESILIENT:
     "bg-emerald-100 text-emerald-800 dark:bg-emerald-900/30 dark:text-emerald-300 border border-emerald-500/20",
   "MODERATE RISK":
