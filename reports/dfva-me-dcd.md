@@ -13,7 +13,7 @@ This is not an entry-to-practice degree. Every candidate enters as a practising 
 
 Typical graduate pathway: private specialist practice (the dominant outcome for most fields, e.g., orthodontics, prosthodontics, endodontics), public hospital specialist clinical/consultant roles, academic/teaching appointments at dental schools, and specialist referral-network positions. The specialist title itself is the primary economic asset the degree confers — Specialist Dentists in Australia are entitled to advertise and bill under a protected AHPRA specialist register that general dentists cannot access, creating a durable, legally-gated market segment largely insulated from both AI substitution and non-specialist competition.
 
-## 2. AUTOMATION EXPOSURE PROFILE
+### 2. AUTOMATION EXPOSURE PROFILE
 
 | Task Category | Example Graduate Tasks | AI Pressure | AI Capability Today | Durability Rationale |
 |---|---|---|---|---|
@@ -29,8 +29,18 @@ Typical graduate pathway: private specialist practice (the dominant outcome for 
 
 **Durability Assessment:** The DClinDent sits at the most AI-resistant end of the entire DFVA rubric. Its core value is not "diagnostic pattern recognition" (which AI is eroding fastest across medicine broadly) but *legally licensed, physically-executed specialist intervention* combined with a state-enforced title monopoly. The genuine AI pressure points — radiograph/CBCT triage, cephalometric analysis, and draft orthodontic/prosthetic treatment plans — sit upstream of the graduate's actual value-add (specialist judgment, adjustment, and hands-on execution) rather than replacing it, and are already being absorbed as productivity tools inside specialist workflows rather than as substitutes for the specialist. The clinical, surgical, and relational core of the program is essentially non-automatable with 2026-era or foreseeable-near-term AI.
 
-###  3. DFVA SCORECARD
-| # | Dimension | Score (0-3) | Rationale |
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Private Specialist Practice (Orthodontics) | Specialist Orthodontist / Associate roles; MEDIUM AI substitution pressure | ClinCheck AI now default; specialists positioned as "plan validators and executors" not originators | Train AI-assisted treatment-plan critique and 3D/digital-workflow fluency |
+| Private Specialist Practice (Prosthodontics) | Specialist Prosthodontist; LOW-MEDIUM pressure, highest value per case | CAD/CAM and guided-surgery software accelerate design; occlusion/aesthetic judgment unautomated | Digital smile design + implant-guided-surgery planning currency |
+| Private Specialist Practice (Endodontics) | Specialist Endodontist; LOW pressure | Almost entirely manual-procedural; AI limited to imaging support for canal anatomy | Microsurgical technique + CBCT interpretation of complex anatomy |
+| Paediatric Dentistry | Specialist Paediatric Dentist; LOW pressure, rising special-needs/rural demand | Relational/physical work with children under sedation — no AI substitution pathway | Behaviour management, sedation credentialing, special-needs care |
+| Oral Medicine | Specialist Oral Medicine Physician; LOW-MEDIUM pressure | AI-assisted oral-cancer/lesion screening surfaces MORE referrals, not fewer | AI-second-opinion literacy + multidisciplinary (oncology/medicine) coordination |
+| Public Hospital Specialist / Academic | Staff Specialist, Clinical Lecturer; LOW pressure, persistent shortage | Mandatory DClinDent research component directly feeds this pathway | Research methodology + teaching + hospital-team integration |
+
+### 4. DFVA SCORECARD
+| # | Dimension | Score (0-3) | Evidence-based rationale |
 |---|---|---:|---|
 | 1 | Automation Exposure of Roles | 3 | Entry is as a specialist clinician performing licensed intraoral surgical/manual procedures under personal medico-legal accountability from the day of registration — no templated task cluster dominates the role. |
 | 2 | Systems Thinking and Problem Framing | 3 | Specialist training requires integrating diagnostic imaging, medical history, biomechanics/pathology, and multidisciplinary referral pathways into a single defensible treatment plan for each individual patient — assessed continuously through supervised clinical practice, not a single unit. |
@@ -44,14 +54,19 @@ Typical graduate pathway: private specialist practice (the dominant outcome for 
 | 10 | Graduate Outcome Evidence | 2 | Specialist registration outcomes are implicitly strong (ADC/AHPRA-gated specialist title is itself a near-guaranteed high-value outcome), but the handbook does not publish granular destination data (income, practice-setting split, time-to-independent-practice) — partial detail, not absent. |
 | B | Irreplaceability Premium (bonus) | 3 | Rare integration of deep technical/clinical depth, physical procedural skill, and a state-enforced regulatory title monopoly (AHPRA Specialist Register) — a combination that is both very hard to substitute and legally impossible for a non-specialist (human or AI) to offer. |
 
-**TOTAL: 29/36 — RESILIENT**
+**TOTAL: 29 / 36**
 
-### 4. THREE THRESHOLD QUESTIONS
-- **Q1:** NO — a well-prompted AI agent cannot lawfully or physically perform intraoral surgical/manual specialist procedures, hold AHPRA specialist registration, or bear personal medico-legal accountability; it can at most pre-process a fraction of diagnostic imaging.
-- **Q2:** YES — the program requires graduates to own individual patient treatment decisions under real clinical risk and to design/defend original research, both core system-ownership and original-insight competencies.
-- **Q3:** YES — AI diagnostic-imaging tools are more likely to increase demand for specialist time (by surfacing more cases needing specialist-level judgment and referral) than to erode it, and the protected specialist title means supply of competitors is structurally capped regardless of AI capability growth.
+**Risk band: RESILIENT (28-36)**
 
-## 5. ANALOGUE GRADUATE PROFILE
+### 5. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?
+  **NO** — a well-prompted AI agent cannot lawfully or physically perform intraoral surgical/manual specialist procedures, hold AHPRA specialist registration, or bear personal medico-legal accountability; it can at most pre-process a fraction of diagnostic imaging.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?
+  **YES** — the program requires graduates to own individual patient treatment decisions under real clinical risk and to design/defend original research, both core system-ownership and original-insight competencies.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?
+  **YES** — AI diagnostic-imaging tools are more likely to increase demand for specialist time (by surfacing more cases needing specialist-level judgment and referral) than to erode it, and the protected specialist title means supply of competitors is structurally capped regardless of AI capability growth.
+
+### 6. ANALOGUE GRADUATE PROFILE
 
 The most exposed *adjacent* archetype — not the DClinDent graduate itself, but the general dental workforce role most under AI pressure circa 2021-2022 — was the **general dentist performing high-volume routine radiographic screening and standard restorative triage**. Tools now pressuring that specific task cluster:
 - **Pearl Second Opinion** — FDA-cleared AI caries/pathology detection on periapical and bitewing radiographs
@@ -62,21 +77,21 @@ The most exposed *adjacent* archetype — not the DClinDent graduate itself, but
 
 None of these tools threaten the DClinDent graduate's core value: they operate upstream of specialist judgment (imaging triage, draft plans, documentation), and a Specialist Dentist's economic and legal position is defined by what happens after — the specialist diagnosis, the specialist-adjusted plan, and the specialist's own hands performing the procedure.
 
-### 6. VERDICT
+### 7. VERDICT
 The Doctor of Clinical Dentistry is among the most AI-resilient programs assessable under this rubric: it combines a legally enforced specialist-title monopoly, genuinely irreducible physical/surgical skill, and a mandatory original-research component, none of which current or near-term AI can substitute. Its only material gap is curricular — the program has not yet formalised AI literacy and governance training for the diagnostic-imaging and treatment-planning AI tools that are rapidly becoming standard-of-care adjuncts in specialist dental practice, and it lacks published granular graduate outcome data to make its own strong labour-market position externally legible.
 
-## 7. RECOMMENDATIONS
-| Priority | Action | Dimension | Effort |
-|---|---|---|---|
-| 1 | Introduce a specialty-specific AI Diagnostic Imaging and Governance module (covering AI-assisted radiograph/CBCT triage tools, cephalometric AI, algorithmic bias and liability in diagnostic AI, and appropriate scope of AI-generated draft treatment plans) embedded across all seven specialist fields | D5 AI Literacy and Governance | Medium — can be built as a shared cross-specialty module without disrupting field-specific clinical rotations |
-| 2 | Require candidates to critically evaluate and document AI-assisted diagnostic/treatment-planning tool output as part of clinical case presentations, formalising "AI as co-pilot, specialist as accountable decision-maker" as an assessed competency | D5 AI Literacy and Governance | Low-to-medium — extends existing case-presentation assessment format |
-| 3 | Publish granular graduate outcome data by specialist field (private practice vs public hospital vs academic split, time-to-independent-practice, geographic distribution) in partnership with the Australian Dental Council and specialist colleges | D10 Graduate Outcome Evidence | Medium — requires alumni tracking infrastructure but data likely already partially held via ADC registration records |
-| 4 | Establish a standing AI-in-dentistry curriculum advisory input from the Australian Dental Association / ADC given the pace of diagnostic-imaging AI adoption, to keep D9 currency demonstrably active rather than implicit | D9 Curriculum Currency and Adaptability | Low — advisory mechanism, not a structural curriculum change |
-| 5 | Add a brief structured module on AI-assisted practice-management and billing automation to the professional-practice component, so graduates entering private specialist practice can capture the administrative time-savings AI already offers | D5 AI Literacy and Governance | Low — practice-management content, easily added to existing professional practice teaching |
-| 6 | Formalise cross-specialty exposure to oral cancer/oral medicine AI-assisted screening tools within relevant fields (Oral Medicine primarily, with awareness modules for others), given oral cancer detection is a genuine frontier for AI-assisted (not AI-replaced) diagnosis | D5 AI Literacy and Governance | Medium — content addition within Oral Medicine field, awareness-level for others |
-| 7 | Market the specialist-title regulatory moat and irreplaceability premium explicitly in program materials and prospective-candidate communications, given this is the program's strongest and most durable differentiator relative to any coursework Masters | D10 Graduate Outcome Evidence | Low — communications/positioning exercise, not curriculum change |
+### 8. RECOMMENDATIONS
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Introduce a specialty-specific AI Diagnostic Imaging and Governance module (covering AI-assisted radiograph/CBCT triage tools, cephalometric AI, algorithmic bias and liability in diagnostic AI, and appropriate scope of AI-generated draft treatment plans) embedded across all seven specialist fields | D5 AI Literacy and Governance | Pearl/Overjet/Diagnocat triage now standard-of-care adjuncts; specialists positioned as accountable validators | Medium — can be built as a shared cross-specialty module without disrupting field-specific clinical rotations |
+| P2 | Require candidates to critically evaluate and document AI-assisted diagnostic/treatment-planning tool output as part of clinical case presentations, formalising "AI as co-pilot, specialist as accountable decision-maker" as an assessed competency | D5 AI Literacy and Governance | ClinCheck AI default in ortho workflow; "plan validator/executor" role shift | Low-to-medium — extends existing case-presentation assessment format |
+| P3 | Publish granular graduate outcome data by specialist field (private practice vs public hospital vs academic split, time-to-independent-practice, geographic distribution) in partnership with the Australian Dental Council and specialist colleges | D10 Graduate Outcome Evidence | Specialist-title outcome strong but destination data not published at program grain | Medium — requires alumni tracking infrastructure but data likely already partially held via ADC registration records |
+| P4 | Establish a standing AI-in-dentistry curriculum advisory input from the Australian Dental Association / ADC given the pace of diagnostic-imaging AI adoption, to keep D9 currency demonstrably active rather than implicit | D9 Curriculum Currency and Adaptability | Rapid diagnostic-imaging AI adoption outpacing documented curriculum review | Low — advisory mechanism, not a structural curriculum change |
+| P5 | Add a brief structured module on AI-assisted practice-management and billing automation to the professional-practice component, so graduates entering private specialist practice can capture the administrative time-savings AI already offers | D5 AI Literacy and Governance | Ambient scribes/AI coding absorbing documentation burden in dental practice | Low — practice-management content, easily added to existing professional practice teaching |
+| P6 | Formalise cross-specialty exposure to oral cancer/oral medicine AI-assisted screening tools within relevant fields (Oral Medicine primarily, with awareness modules for others), given oral cancer detection is a genuine frontier for AI-assisted (not AI-replaced) diagnosis | D5 AI Literacy and Governance | AI-assisted lesion screening surfacing more referrals; Oral Medicine growth area | Medium — content addition within Oral Medicine field, awareness-level for others |
+| P7 | Market the specialist-title regulatory moat and irreplaceability premium explicitly in program materials and prospective-candidate communications, given this is the program's strongest and most durable differentiator relative to any coursework Masters | D10 Graduate Outcome Evidence | Protected AHPRA specialist register caps competitor supply regardless of AI capability | Low — communications/positioning exercise, not curriculum change |
 
-## 8. THE REDESIGNED GRADUATE PROFILE
+### 9. THE REDESIGNED GRADUATE PROFILE
 
 The 2027-ready DClinDent graduate is fundamentally the same specialist clinician the program already produces — a legally registered Specialist Dentist with deep procedural mastery in one of seven fields — but is additionally fluent in supervising, critiquing, and overriding the AI diagnostic-imaging and treatment-planning tools that are becoming standard infrastructure in specialist practice.
 
@@ -84,8 +99,18 @@ They treat AI radiograph triage and draft treatment-planning software the way a 
 
 They understand that their economic position rests on a triad current AI cannot touch: a state-enforced specialist title, hands-on surgical/clinical execution inside a living patient, and personal medico-legal accountability for the outcome. That triad is precisely what the 2027 labour market will reward most, and the redesigned graduate can articulate it as their core professional value proposition, not just embody it implicitly.
 
----
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Medium–High**.
+- Market evidence integrates the specialist-field job-family map with directional synthesis of diagnostic-imaging AI adoption (Pearl, Overjet, Diagnocat, Invisalign ClinCheck) and the structural protection of the AHPRA specialist register; the qualitative signal (AI as upstream adjunct, not substitute) is strong.
+- For high-stakes curriculum decisions, add dated per-field specialist-registration counts, private-vs-public destination splits, and time-to-independent-practice data via ADC/specialist-college records.
 
-**Assessment date:** 2026-07-02
-**Source URL:** https://handbook.unimelb.edu.au/2026/courses/me-dcd
-**Prompt Version:** DFVA-COPILOT-PROMPT-v1
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Health — Dentistry (specialist) |
+| Full-time employment (4-6mo) | Not published at program grain; specialist-registration-gated (near-full) |
+| Median starting salary | Not published at program grain; specialist dentistry among highest-earning health fields |
+| Employment (3yr) | Not published at program grain; protected specialist title implies durable placement |
+| Occupation demand | MET / SHORTAGE (public-sector specialist shortage persists across most fields) |
+| AI automation exposure | 20% (low — physically-executed, licence-gated specialist practice) |
+| Sources | AHPRA Specialist Register; Australian Dental Council accreditation; DClinDent handbook (me-dcd); market synthesis of dental diagnostic-imaging AI adoption. Program-grain outcome data pending validation. |

@@ -24,10 +24,7 @@ const RECOMMEND_FILES = readdirSync(reportsDir).filter((f) => f.startsWith('dfva
 
 // ── GRANDFATHERED: files already non-conformant when this check was introduced ──
 // Remove slugs here as phases 1-2 align them. End state = empty Set, strict for all.
-const GRANDFATHERED = new Set<string>([
-  // Remaining reports pending canonicalisation (Phase 2 backfill)
-  'dfva-me-dcd', 
-])
+const GRANDFATHERED = new Set<string>([])
 
 // Market reports — grandfathered until phases 1-2 backfill them
 const MARKET_GRANDFATHERED = new Set<string>([
