@@ -4,9 +4,9 @@
  * the markdown files are the single source of truth. This is the one-command fix
  * whenever dfva:content-check reports drift.
  *
- * It preserves the existing six-file layout and each file's key set (parsed from
- * the file itself), rewriting only { title, institution, markdown } from the
- * source markdown. Score/risk-band metadata is untouched (owned elsewhere).
+ * It preserves the existing three-file layout and each file's key set (parsed
+ * from the file itself), rewriting only { title, institution, markdown } from
+ * the source markdown. Score/risk-band metadata is untouched (owned elsewhere).
  *
  * Run: npm --prefix scripts run dfva:gen-content
  */
@@ -25,9 +25,6 @@ const GEN_HEADER =
 // (the keys matched below) are regenerated. This preamble is emitted verbatim.
 const AGGREGATOR_PREAMBLE =
   GEN_HEADER +
-  "import { REPORT_CONTENT_MC_SCIBIT } from './reportContent.mc-scibit';\n" +
-  "import { REPORT_CONTENT_MC_SCIEAR } from './reportContent.mc-sciear';\n" +
-  "import { REPORT_CONTENT_MC_SCIEPI } from './reportContent.mc-sciepi';\n" +
   "import { RECOMMEND_CONTENT_ALL } from './reportContent.recommend-all';\n" +
   "import { REPORT_CONTENT_DOCTORATES } from './reportContent.doctorates';\n\n" +
   'export const REPORT_CONTENT: Record<\n' +
@@ -35,17 +32,12 @@ const AGGREGATOR_PREAMBLE =
   '  { title: string; institution: string; markdown: string }\n' +
   '> = {\n' +
   '  ...RECOMMEND_CONTENT_ALL,\n' +
-  '  ...REPORT_CONTENT_DOCTORATES,\n' +
-  '  ...REPORT_CONTENT_MC_SCIBIT,\n' +
-  '  ...REPORT_CONTENT_MC_SCIEAR,\n' +
-  '  ...REPORT_CONTENT_MC_SCIEPI,\n'
+  '  ...REPORT_CONTENT_DOCTORATES,\n'
 
 // Sub-files: each is a uniform `export const SYMBOL: Record<...> = { ... }`.
+// Split from the aggregator purely for size (doctorates ~8k lines, recommend ~5k).
 const SUBFILES: { file: string; symbol: string }[] = [
   { file: 'reportContent.doctorates.ts', symbol: 'REPORT_CONTENT_DOCTORATES' },
-  { file: 'reportContent.mc-scibit.ts', symbol: 'REPORT_CONTENT_MC_SCIBIT' },
-  { file: 'reportContent.mc-sciear.ts', symbol: 'REPORT_CONTENT_MC_SCIEAR' },
-  { file: 'reportContent.mc-sciepi.ts', symbol: 'REPORT_CONTENT_MC_SCIEPI' },
   { file: 'reportContent.recommend-all.ts', symbol: 'RECOMMEND_CONTENT_ALL' },
 ]
 

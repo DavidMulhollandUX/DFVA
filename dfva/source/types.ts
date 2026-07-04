@@ -8,6 +8,29 @@ export interface DimensionScore {
   notes: string;
 }
 
+/**
+ * Real graduate-outcome (JIR / QILT / demand-side) evidence for a program.
+ * Sourced from data/labour-evidence.json; attached to enrich agent/MCP responses.
+ * Optional — only ~41 taught programs have it (doctorate/stub programs do not).
+ */
+export interface LabourEvidence {
+  field: string;
+  qiltStudyArea: string;
+  qilt: {
+    employmentRate: number;      // 0.0 - 1.0, full-time employment within ~4 months
+    medianSalary: number;        // AUD
+    employmentRate3yr: number;   // 0.0 - 1.0
+    occupationDemand: string;    // e.g. 'SHORTAGE'
+    year: number;
+  };
+  /** Top graduate destinations (role + share) at entry/early/senior career stages. */
+  destinations: { entry: string[]; early: string[]; senior: string[] };
+  /** Demand-side employers actively hiring (from job-ad evidence). */
+  demandEmployers: string[];
+  /** Advertised salary range from demand-side job ads, e.g. 'A$95k–160k'. */
+  demandSalary: string;
+}
+
 export interface ProgramAssessment {
   programCode: string;
   programName: string;
@@ -21,6 +44,8 @@ export interface ProgramAssessment {
   assessedAt: string;
   recommendationSummary: string;
   marketReportPath: string;
+  /** Real graduate-outcome evidence; present only for programs covered by JIR/QILT data. */
+  labourEvidence?: LabourEvidence;
 }
 
 export interface AssessmentQuery {

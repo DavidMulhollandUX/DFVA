@@ -3,9 +3,6 @@
  * output path (relative to the repo root). The generator resolves
  * {{rubricTable}}, {{riskBandsTable}}, {{thresholdQuestions}} and
  * {{> block:NAME}} includes inside each template.
- *
- * The demo registries (compass-static/src/data/rubric.ts and dimensionEvidence.ts)
- * are emitted directly from data and are NOT listed here.
  */
 export interface Target {
   /** Path under dfva/source/targets/ */

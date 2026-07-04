@@ -156,7 +156,7 @@ AI unit live Sem 1 2027 · Student competency 80%+ · Panel constituted Month 6
 
 ## COMPASS UI Data Block
 
-After every full assessment, append TypeScript for `compass-static/src/data/programData.ts`:
+After every full assessment, append TypeScript for `compass/app/src/compass/sharedProgramData.ts`:
 
 ```typescript
 {

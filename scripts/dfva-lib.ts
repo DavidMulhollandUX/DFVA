@@ -18,7 +18,6 @@ import {
   renderRiskBandsList,
   renderRubricTableCondensed,
   renderThresholdQuestionsList,
-  renderDemoRubricTs,
 } from '../dfva/source/rubric'
 import { TARGETS } from '../dfva/source/manifest'
 
