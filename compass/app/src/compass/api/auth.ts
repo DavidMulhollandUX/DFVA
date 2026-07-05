@@ -38,7 +38,12 @@ export function validateApiKey(
     return { valid: false };
   }
   const computedHash = hashApiKey(key);
-  if (computedHash !== storedHash) {
+  const computedBuf = Buffer.from(computedHash, 'hex');
+  const storedBuf = Buffer.from(storedHash, 'hex');
+  if (
+    computedBuf.length !== storedBuf.length ||
+    !crypto.timingSafeEqual(computedBuf, storedBuf)
+  ) {
     return { valid: false };
   }
   if (!isActive) {
