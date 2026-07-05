@@ -17,7 +17,7 @@ export interface Dimension {
   levels: RubricLevel[]
 }
 
-export type RiskBandName = 'RESILIENT' | 'MODERATE RISK' | 'HIGH RISK' | 'CRITICAL'
+export type RiskBandName = "RESILIENT" | "MODERATE RISK" | "HIGH RISK" | "CRITICAL"
 
 export const RUBRIC: Dimension[] = [
   {
@@ -28,7 +28,7 @@ export const RUBRIC: Dimension[] = [
       { score: 0, criteria: "First 3-5 years mostly routine templated tasks" },
       { score: 1, criteria: "Some judgment, mostly templated" },
       { score: 2, criteria: "Mix of routine and non-routine work" },
-      { score: 3, criteria: "Judgment, design, accountability, or physical/relational skill from day one" }
+      { score: 3, criteria: "Judgment, design, accountability, or physical/relational skill from day one" },
     ],
   },
   {
@@ -39,7 +39,7 @@ export const RUBRIC: Dimension[] = [
       { score: 0, criteria: "Tool/process execution only" },
       { score: 1, criteria: "Mentioned but not assessed" },
       { score: 2, criteria: "Dedicated units with authentic assessment" },
-      { score: 3, criteria: "Integrated throughout with trade-off reasoning and failure-mode analysis" }
+      { score: 3, criteria: "Integrated throughout with trade-off reasoning and failure-mode analysis" },
     ],
   },
   {
@@ -50,7 +50,7 @@ export const RUBRIC: Dimension[] = [
       { score: 0, criteria: "No meaningful rigour" },
       { score: 1, criteria: "Intro stats or basic tooling" },
       { score: 2, criteria: "Solid grounding in stats/data/coding/domain science" },
-      { score: 3, criteria: "Strong technical core embedded and assessed throughout" }
+      { score: 3, criteria: "Strong technical core embedded and assessed throughout" },
     ],
   },
   {
@@ -61,7 +61,7 @@ export const RUBRIC: Dimension[] = [
       { score: 0, criteria: "Recall/scripted responses" },
       { score: 1, criteria: "Some case work with scripted answers" },
       { score: 2, criteria: "Assessments require defended trade-offs" },
-      { score: 3, criteria: "Simulations/capstones/live projects with real uncertainty and accountability" }
+      { score: 3, criteria: "Simulations/capstones/live projects with real uncertainty and accountability" },
     ],
   },
   {
@@ -72,7 +72,7 @@ export const RUBRIC: Dimension[] = [
       { score: 0, criteria: "No AI coverage" },
       { score: 1, criteria: "AI appears in one elective" },
       { score: 2, criteria: "AI tools used with limits discussed" },
-      { score: 3, criteria: "Graduates can design/deploy/supervise/critique AI workflows incl. ethics/governance" }
+      { score: 3, criteria: "Graduates can design/deploy/supervise/critique AI workflows incl. ethics/governance" },
     ],
   },
   {
@@ -83,7 +83,7 @@ export const RUBRIC: Dimension[] = [
       { score: 0, criteria: "Generic/interchangeable" },
       { score: 1, criteria: "Mild specialisation" },
       { score: 2, criteria: "Clear specialist domain focus" },
-      { score: 3, criteria: "Deep regulatory/scientific/clinical/physical expertise" }
+      { score: 3, criteria: "Deep regulatory/scientific/clinical/physical expertise" },
     ],
   },
   {
@@ -94,7 +94,7 @@ export const RUBRIC: Dimension[] = [
       { score: 0, criteria: "Secondary summary only" },
       { score: 1, criteria: "Intro research unit" },
       { score: 2, criteria: "Can design and conduct research" },
-      { score: 3, criteria: "Routinely generate primary data and defend methods under scrutiny" }
+      { score: 3, criteria: "Routinely generate primary data and defend methods under scrutiny" },
     ],
   },
   {
@@ -105,7 +105,7 @@ export const RUBRIC: Dimension[] = [
       { score: 0, criteria: "No interpersonal/ethical/physical practice" },
       { score: 1, criteria: "Ethics mention only" },
       { score: 2, criteria: "Meaningful ethics or stakeholder practice" },
-      { score: 3, criteria: "Substantial clinical/care/interpersonal accountability or physical skill" }
+      { score: 3, criteria: "Substantial clinical/care/interpersonal accountability or physical skill" },
     ],
   },
   {
@@ -116,7 +116,7 @@ export const RUBRIC: Dimension[] = [
       { score: 0, criteria: "No review in 3+ years, no AI content" },
       { score: 1, criteria: "Minor updates" },
       { score: 2, criteria: "Major refresh in last 2 years, AI in core units" },
-      { score: 3, criteria: "Living curriculum with advisory feedback and outcome tracking" }
+      { score: 3, criteria: "Living curriculum with advisory feedback and outcome tracking" },
     ],
   },
   {
@@ -127,7 +127,7 @@ export const RUBRIC: Dimension[] = [
       { score: 0, criteria: "No destination data" },
       { score: 1, criteria: "Generic satisfaction data only" },
       { score: 2, criteria: "Destination data published with partial detail" },
-      { score: 3, criteria: "Granular roles/industries/salary/time-to-employment data" }
+      { score: 3, criteria: "Granular roles/industries/salary/time-to-employment data" },
     ],
   },
   {
@@ -138,7 +138,7 @@ export const RUBRIC: Dimension[] = [
       { score: 0, criteria: "Easily substituted" },
       { score: 1, criteria: "One weak differentiator" },
       { score: 2, criteria: "Clear dual-skill value" },
-      { score: 3, criteria: "Rare integration of technical depth, domain expertise, and human judgment" }
+      { score: 3, criteria: "Rare integration of technical depth, domain expertise, and human judgment" },
     ],
   },
 ]
