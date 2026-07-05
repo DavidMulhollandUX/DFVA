@@ -1,4 +1,29 @@
 import type { MarketDriftJob } from 'wasp/server/jobs';
+import { logger } from '../server/logger';
+
+/**
+ * Explicit course-code-prefix → industry-cluster map. Substring matching
+ * ("codeUpper.includes('IS')") misclassified any code containing those
+ * letters — e.g. HIST would have been bucketed as Software/IT.
+ */
+const CLUSTER_BY_CODE_PREFIX: Record<string, string> = {
+  'MC-CS': 'Software/IT',
+  'MC-IS': 'Software/IT',
+  'MC-IT': 'Software/IT',
+  'MC-DS': 'Software/IT',
+  'COMP': 'Software/IT',
+  'B-SCI': 'BioSciences',
+  'BIOL': 'BioSciences',
+  'SCIE': 'BioSciences',
+};
+
+function clusterForCourseCode(courseCode: string | null): string {
+  const codeUpper = (courseCode ?? '').toUpperCase();
+  for (const [prefix, cluster] of Object.entries(CLUSTER_BY_CODE_PREFIX)) {
+    if (codeUpper.startsWith(prefix)) return cluster;
+  }
+  return 'default';
+}
 
 /**
  * Weekly background scheduled worker that checks for labour market shift & drift.
@@ -6,7 +31,7 @@ import type { MarketDriftJob } from 'wasp/server/jobs';
  * and logs warning flags if any program's future-durability score drops.
  */
 export const scanMarketDrift: MarketDriftJob<any, any> = async (_args, context) => {
-  console.log('[COMPASS] Starting weekly labour market shift & drift scan...');
+  logger.info('Starting weekly labour market shift & drift scan', { job: 'marketDriftJob' });
 
   try {
     const jobs = await context.entities.AssessmentJob.findMany({
@@ -14,7 +39,7 @@ export const scanMarketDrift: MarketDriftJob<any, any> = async (_args, context) 
     });
 
     if (jobs.length === 0) {
-      console.log('[COMPASS] No completed assessment jobs found to analyze.');
+      logger.info('No completed assessment jobs found to analyze', { job: 'marketDriftJob' });
       return;
     }
 
@@ -48,13 +73,7 @@ export const scanMarketDrift: MarketDriftJob<any, any> = async (_args, context) 
       const iraMatrix = syllabus.iraMatrix || [];
 
       // Determine primary cluster from course code prefix
-      let cluster = 'default';
-      const codeUpper = (job.courseCode ?? '').toUpperCase();
-      if (codeUpper.includes('COMP') || codeUpper.includes('CS') || codeUpper.includes('IS')) {
-        cluster = 'Software/IT';
-      } else if (codeUpper.includes('BIOL') || codeUpper.includes('SCIE') || codeUpper.includes('SCI')) {
-        cluster = 'BioSciences';
-      }
+      const cluster = clusterForCourseCode(job.courseCode);
 
       const modifiers = clusterModifiers[cluster] || clusterModifiers['default'];
       
@@ -94,8 +113,8 @@ export const scanMarketDrift: MarketDriftJob<any, any> = async (_args, context) 
         const drop = job.score - finalScore;
         const msg = `ALERT: Program "${job.programName}" (${job.courseCode}) has drifted. Future-durability score fell from ${job.score} to ${finalScore} (-${drop.toFixed(1)} pts) due to AI automation in ${cluster} hiring models.`;
         
-        console.warn(`[COMPASS] ${msg}`);
-        
+        logger.warn(msg, { job: 'marketDriftJob', courseCode: job.courseCode, cluster });
+
         // Log to database logs
         await context.entities.Logs.create({
           data: {
@@ -106,8 +125,13 @@ export const scanMarketDrift: MarketDriftJob<any, any> = async (_args, context) 
       }
     }
 
-    console.log('[COMPASS] Labor market shift & drift scan completed successfully.');
-  } catch (error: any) {
-    console.error('[COMPASS] Error executing weekly marketDriftJob:', error);
+    logger.info('Labour market shift & drift scan completed successfully', {
+      job: 'marketDriftJob',
+    });
+  } catch (error: unknown) {
+    logger.error('Weekly marketDriftJob failed', error, { job: 'marketDriftJob' });
+    // Rethrow so PgBoss records the failure and applies its retry policy —
+    // swallowing here made a permanently broken weekly job look successful.
+    throw error;
   }
 };

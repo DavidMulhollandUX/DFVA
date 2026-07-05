@@ -7,6 +7,7 @@ import {
 // import { getDailyPageViews, getSources } from './providers/googleAnalyticsUtils';
 import { paymentProcessor } from "../payment/paymentProcessor";
 import { SubscriptionStatus } from "../payment/plans";
+import { logger } from "../server/logger";
 
 export type DailyStatsProps = {
   dailyStats?: DailyStats;
@@ -60,7 +61,7 @@ export const calculateDailyStats: DailyStatsJob<never, void> = async (
     });
 
     if (!dailyStats) {
-      console.log("No daily stat found for today, creating one...");
+      logger.info("No daily stat found for today, creating one", { job: "dailyStatsJob" });
       dailyStats = await context.entities.DailyStats.create({
         data: {
           date: nowUTC,
@@ -74,7 +75,7 @@ export const calculateDailyStats: DailyStatsJob<never, void> = async (
         },
       });
     } else {
-      console.log("Daily stat found for today, updating it...");
+      logger.info("Daily stat found for today, updating it", { job: "dailyStatsJob" });
       dailyStats = await context.entities.DailyStats.update({
         where: {
           id: dailyStats.id,
@@ -116,9 +117,9 @@ export const calculateDailyStats: DailyStatsJob<never, void> = async (
       });
     }
 
-    console.table({ dailyStats });
+    logger.info("Daily stats calculated", { job: "dailyStatsJob", dailyStatsId: dailyStats.id });
   } catch (error: any) {
-    console.error("Error calculating daily stats: ", error);
+    logger.error("Error calculating daily stats", error, { job: "dailyStatsJob" });
     await context.entities.Logs.create({
       data: {
         message: `Error calculating daily stats: ${error?.message}`,

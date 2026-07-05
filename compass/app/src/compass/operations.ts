@@ -14,6 +14,7 @@ import type {
 } from 'wasp/server/operations';
 import * as z from 'zod';
 import { ensureArgsSchemaOrThrowHttpError } from '../server/validation';
+import { logger } from '../server/logger';
 import { getAssessmentService } from './assessmentService';
 
 /**
@@ -90,7 +91,7 @@ export const assessProgram: AssessProgram<{ handbookUrl: string }, AssessmentJob
     })
     .catch(async (error: unknown) => {
       const message = error instanceof Error ? error.message : 'Unknown error';
-      console.error(`[COMPASS] Assessment failed for job ${job.id}:`, error);
+      logger.error('Assessment failed', error, { jobId: job.id, handbookUrl });
       try {
         await context.entities.AssessmentJob.update({
           where: { id: job.id },
@@ -101,7 +102,9 @@ export const assessProgram: AssessProgram<{ handbookUrl: string }, AssessmentJob
         });
       } catch (updateError) {
         // Without this the rejection is unhandled and the failure is lost entirely.
-        console.error(`[COMPASS] Failed to persist failed status for job ${job.id}:`, updateError);
+        logger.error('Failed to persist failed status for assessment job', updateError, {
+          jobId: job.id,
+        });
       }
     });
 
