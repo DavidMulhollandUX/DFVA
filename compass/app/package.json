@@ -59,5 +59,9 @@
     "prisma": "5.19.1",
     "typescript": "5.8.2",
     "vite": "^7.0.6"
+  },
+  "scripts": {
+    "format": "prettier --write src/",
+    "format:check": "prettier --check src/"
   }
 }

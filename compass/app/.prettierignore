@@ -1,0 +1,9 @@
+# Generated — formatting is owned by the dfva:gen pipeline (dfva:check byte-diffs them)
+src/compass/reportContent*.ts
+src/compass/data/rubric.ts
+src/compass/data/dimensionEvidence.ts
+
+# Build output / vendor
+.wasp/
+node_modules/
+migrations/
