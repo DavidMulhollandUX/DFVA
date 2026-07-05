@@ -1,12 +1,12 @@
 ## IMPROVEMENT PLAN: Master of Journalism
 
-**Current:** 20/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
-**Target:** 28/36 RESILIENT | **Gap:** 8 points
+**Current:** 21/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
+**Target:** 28/36 RESILIENT | **Gap:** 7 points
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The Master of Journalism scored **20/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
+The Master of Journalism scored **21/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
@@ -19,9 +19,9 @@ The Master of Journalism scored **20/36 — MODERATE RISK**. Gaps in core dimens
 | Research Rigour | 2/3 | Adequate |
 | Human & Relational | 3/3 | Strong |
 | Curriculum Currency | 1/3 | Critical gap |
-| Outcome Evidence | 2/3 | Adequate |
+| Outcome Evidence | 3/3 | Strong |
 | Irreplaceability (bonus) | 2/3 | Adequate |
-| **TOTAL** | **20/36** | **MODERATE RISK** |
+| **TOTAL** | **21/36** | **MODERATE RISK** |
 
 ---
 
@@ -32,7 +32,7 @@ The Master of Journalism scored **20/36 — MODERATE RISK**. Gaps in core dimens
 | Curriculum Currency | 1/3 | Entry-level skills show automation risk. | Establish annual curriculum review with industry advisory panel. |
 | Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
 | Decision-Making | 2/3 | Entry-level skills show automation risk. | Add capstone project requiring documented decision rationale. |
-| Outcome Evidence | 2/3 | Entry-level skills show automation risk. | Add QILT GOS data + 3-year outcomes to public program information. |
+| Outcome Evidence | 3/3 | Real destination evidence now published (UoM Job Insights / LiveAlumni). | Add QILT GOS data + 3-year outcomes to public program information. |
 | Automation Exposure | 1/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
 | AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
 | Research Rigour | 2/3 | Entry-level skills show automation risk. | Replace literature review with primary data collection requirement. |

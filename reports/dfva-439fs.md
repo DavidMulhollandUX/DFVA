@@ -38,10 +38,10 @@ The most durable tasks are **low** exposure: supply-chain traceability and incid
 | 7 | Research Methods Rigour | 2 | 25–50pt research project plus Research Methods for Life Sciences; smaller project than lab-science MSc equivalents, so not maximal. |
 | 8 | Human and Relational Capability | 2 | Food Safety and Quality involves regulatory and consumer dimensions; professional skills via electives, but no dedicated ethics/stakeholder unit. |
 | 9 | Curriculum Currency and Adaptability | 2 | Updated 29 Jan 2026; Sustainable Food Production and Plant Food Products reflect current trends, but Sensory Evaluation is not available in 2026 and AI content is absent. |
-| 10 | Graduate Outcome Evidence | 3 | Field-level outcomes are strong and trackable (QILT GOS: 87% FT employment, $103k median, shortage demand), though program-specific destination data is not disaggregated. |
+| 10 | Graduate Outcome Evidence | 3 | UoM Job Insights Report (LiveAlumni, exact match, n=50) publishes program-level destinations; QILT GOS field outcomes (87% FT employment, $103k median, shortage demand) corroborate. |
 | B | Irreplaceability Premium (Bonus) | 2 | Applied food science across the supply chain is valuable but less rare than research-intensive MSc specialisations; durability depends on the depth of project and sensory/processing judgment. |
 
-**TOTAL: 21 / 36**  
+**TOTAL: 23 / 36**  
 **Risk band: MODERATE RISK (20-27)**
 
 ### 5. THREE THRESHOLD QUESTIONS

@@ -317,7 +317,7 @@ function GraduateOutcomes({ outcome }: { outcome: FacultyOutcome }) {
             )}
           </div>
           <p className="text-xs text-muted-foreground mb-3">
-            Programmes whose <span className="font-medium text-foreground">D10 Outcome Evidence</span> gains a documented basis to rise once the Job Insights destinations are folded in — a re-review trigger, not an automatic recompute.
+            Programmes whose <span className="font-medium text-foreground">D10 Outcome Evidence</span> rose on the Job Insights destination evidence — applied to the registry scores in the July 2026 re-scoring.
           </p>
           <div className="space-y-1.5">
             {outcome.reclass.map((r) => (

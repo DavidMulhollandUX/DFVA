@@ -51,7 +51,7 @@ Typical graduate roles include advanced practice registered nurse, nurse practit
 | 7 | Research Rigour | 2 | Evidence in Practice + Nursing Research. Evidence-based practice is embedded. Less research-intensive than research MSc programs. |
 | 8 | Human & Relational | 3 | This is nursing's structural core. Indigenous Health, Mental Health Nursing, clinical placements — sustained patient interaction assessed as competency. NMBA standards require demonstrated interpersonal capability. |
 | 9 | Curriculum Currency | 2 | Updated 8 Jan 2026. Digital Transformation of Health, Indigenous Data Governance — current topics. Core remains traditional clinical nursing. |
-| 10 | Outcome Evidence | 3 | NMBA registration provides external outcome verification. Employment outcomes are strong and publicly visible. Program-specific data not granularly published. |
+| 10 | Outcome Evidence | 3 | UoM Job Insights Report (LiveAlumni, exact match, n=129) publishes destination evidence; NMBA registration provides external outcome verification of strong, publicly visible employment outcomes. |
 | B | Irreplaceability (Bonus) | 3 | Maximum: clinical nursing combines physical care, clinical judgment, emotional support, and ethical practice. AI cannot replicate any of these at the point of care. |
 
 **TOTAL: 27 / 36**

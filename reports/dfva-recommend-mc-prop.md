@@ -1,12 +1,12 @@
 ## IMPROVEMENT PLAN: Master of Property
 
-**Current:** 22/36 MODERATE RISK | **Duration:** 2 years (300 credit points)
-**Target:** 28/36 RESILIENT | **Gap:** 6 points
+**Current:** 23/36 MODERATE RISK | **Duration:** 2 years (300 credit points)
+**Target:** 28/36 RESILIENT | **Gap:** 5 points
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The Master of Property scored **22/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
+The Master of Property scored **23/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
@@ -19,9 +19,9 @@ The Master of Property scored **22/36 — MODERATE RISK**. Gaps in core dimensio
 | Research Rigour | 2/3 | Adequate |
 | Human & Relational | 2/3 | Adequate |
 | Curriculum Currency | 2/3 | Adequate |
-| Outcome Evidence | 2/3 | Adequate |
+| Outcome Evidence | 3/3 | Strong |
 | Irreplaceability (bonus) | 2/3 | Adequate |
-| **TOTAL** | **22/36** | **MODERATE RISK** |
+| **TOTAL** | **23/36** | **MODERATE RISK** |
 
 ---
 
@@ -33,7 +33,7 @@ The Master of Property scored **22/36 — MODERATE RISK**. Gaps in core dimensio
 | Decision-Making | 2/3 | Entry-level skills show automation risk. | Add capstone project requiring documented decision rationale. |
 | Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |
 | Curriculum Currency | 2/3 | Entry-level skills show automation risk. | Add emerging-trends module updated each intake. |
-| Outcome Evidence | 2/3 | Entry-level skills show automation risk. | Add QILT GOS data + 3-year outcomes to public program information. |
+| Outcome Evidence | 3/3 | Real destination evidence now published (UoM Job Insights / LiveAlumni). | Add QILT GOS data + 3-year outcomes to public program information. |
 | AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
 | Automation Exposure | 2/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
 | Research Rigour | 2/3 | Entry-level skills show automation risk. | Replace literature review with primary data collection requirement. |

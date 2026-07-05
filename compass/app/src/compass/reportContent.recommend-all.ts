@@ -121,13 +121,13 @@ The 2027-ready Melbourne JD graduate holds the same VLAB-accredited admission to
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: Master of Food Science
 
-**Current:** 21/36 MODERATE RISK | **Duration:** 2 years (200 pts)
-**Target:** 28/36 RESILIENT | **Gap:** 7 points
+**Current:** 23/36 MODERATE RISK | **Duration:** 2 years (200 pts)
+**Target:** 28/36 RESILIENT | **Gap:** 5 points
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The Master of Food Science scored **21/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
+The Master of Food Science scored **23/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
@@ -140,16 +140,16 @@ The Master of Food Science scored **21/36 — MODERATE RISK**. Gaps in core dime
 | Research Rigour | 2/3 | Adequate |
 | Human & Relational | 2/3 | Adequate |
 | Curriculum Currency | 2/3 | Adequate |
-| Outcome Evidence | 1/3 | Critical gap |
+| Outcome Evidence | 3/3 | Strong |
 | Irreplaceability (bonus) | 2/3 | Adequate |
-| **TOTAL** | **21/36** | **MODERATE RISK** |
+| **TOTAL** | **23/36** | **MODERATE RISK** |
 
 ---
 
 ## 2. SCORE-TO-ACTION MAPPING
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
-| Outcome Evidence | 1/3 | Entry-level skills show automation risk. | Publish graduate destination survey results on program page. |
+| Outcome Evidence | 3/3 | Real destination evidence now published (UoM Job Insights / LiveAlumni). | Publish graduate destination survey results on program page. |
 | Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
 | Technical Depth | 2/3 | Entry-level skills show automation risk. | Require technical-elective sequence (3+ units) with applied project. |
 | Decision-Making | 2/3 | Entry-level skills show automation risk. | Add capstone project requiring documented decision rationale. |
@@ -469,8 +469,8 @@ The 2027-ready graduate is a domain specialist and workflow critic. They do not 
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: Bachelor of Design (B-Des)
 
-**Current:** 17/36 HIGH RISK | **Duration:** 3 years (typical full-time)
-**Target:** 28/36 RESILIENT | **Gap:** 11 points
+**Current:** 18/36 HIGH RISK | **Duration:** 3 years (typical full-time)
+**Target:** 28/36 RESILIENT | **Gap:** 10 points
 
 **Assessment date:** 2026-05-13
 **Prompt version:** DFVA-COPILOT-RECOMMENDER-v1
@@ -478,7 +478,7 @@ The 2027-ready graduate is a domain specialist and workflow critic. They do not 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The Bachelor of Design scored **17/36 — HIGH RISK**. Five critical 1/3 scores define the primary intervention targets.
+The Bachelor of Design scored **18/36 — HIGH RISK**. Four critical 1/3 scores define the primary intervention targets (D10 lifted to 2/3 by cognate Job Insights evidence, n=248).
 
 | Dimension | Score | Status |
 |---|---|---|
@@ -491,9 +491,9 @@ The Bachelor of Design scored **17/36 — HIGH RISK**. Five critical 1/3 scores 
 | D7 — Research Methods | 1/3 | Critical gap |
 | D8 — Human/Relational | 2/3 | Adequate |
 | D9 — Curriculum Currency | 2/3 | Adequate |
-| D10 — Graduate Outcome Evidence | 1/3 | Critical gap |
+| D10 — Graduate Outcome Evidence | 2/3 | Adequate |
 | B — Irreplaceability Premium | 2/3 | Adequate |
-| **TOTAL** | **17/36** | **HIGH RISK** |
+| **TOTAL** | **18/36** | **HIGH RISK** |
 
 Five 1/3 scores represent the degree's primary intervention targets: automation exposure, technical depth, AI literacy and governance, research methods, and graduate outcome evidence.
 
@@ -504,7 +504,7 @@ Five 1/3 scores represent the degree's primary intervention targets: automation 
 |---|---|---|---|
 | D3 — Technical Depth | 1/3 | No mandatory prototyping, code literacy, or data fluency. Graduates cannot direct or govern AI tools they cannot technically understand. | Create mandatory technical foundations unit: prototyping tools (Figma, Framer), front-end literacy (HTML/CSS/JS concepts), data visualisation. |
 | D5 — AI Literacy | 1/3 | No mandatory AI governance unit. AI tools appear in studio but not as critically evaluated systems. | Create mandatory core unit: AI in Design Practice — tool evaluation, output critique, prompt governance, IP and ethics. |
-| D10 — Outcome Evidence | 1/3 | No publicly available granular destination data at specialisation level. | Publish specialisation-level destination data: role titles, industries, salary bands, time-to-employment. |
+| D10 — Outcome Evidence | 2/3 | Real destination evidence now published (UoM Job Insights / LiveAlumni). | Publish specialisation-level destination data: role titles, industries, salary bands, time-to-employment. |
 | D4 — Decision-Making | 2/3 | Simulated briefs limit authentic accountability. Studio critique does not replicate live-client uncertainty. | Mandate live-client capstone for all students. Replace simulated final-year briefs with real industry, government, or community partner projects. |
 | D6 — Domain Depth | 2/3 | Specialisation depth varies; Interaction Design lacks regulatory and technical grounding. | Add WCAG 2.2 AA, platform design systems, and AI interaction pattern design to Interaction specialisation. |
 | D7 — Research Methods | 2/3 | Primarily qualitative. Quantitative methods under-represented, limiting ability to defend design decisions with data. | Add quantitative design research component: usability testing statistics, survey design, A/B test interpretation. |
@@ -545,7 +545,7 @@ Five 1/3 scores represent the degree's primary intervention targets: automation 
 ---
 
 ## 6. 24-MONTH CAPABILITY ROADMAP
-* **Months 1–12 — Structural Fix (target: 22–24/36 MODERATE RISK):** Close five critical 1/3 scores. AI in Design Practice live (D5: 1→3). Specialisation destination data published (D10: 1→2). Design and Technology Integration in approval pipeline (D3: 1→2 target). Quantitative research module integrated (D7: 1→2). Automation exposure addressed via assessment redesign (D1: 1→2).
+* **Months 1–12 — Structural Fix (target: 23–25/36 MODERATE RISK):** Close four critical 1/3 scores. AI in Design Practice live (D5: 1→3). Specialisation destination data institutionalised (D10: 2/3 — cognate Job Insights evidence in place). Design and Technology Integration in approval pipeline (D3: 1→2 target). Quantitative research module integrated (D7: 1→2). Automation exposure addressed via assessment redesign (D1: 1→2).
 * **Months 13–18 — Depth and Differentiation (target: 28–30/36 RESILIENT):** Design and Technology Integration live Sem 2 2027 (D3: 2→3). Live-client capstone mandate implemented (D4: 2→3, D1: 2→3). Interaction Design specialisation strengthened (D6: 2→3). Advisory panel completing first full cycle (D9: 2→3).
 * **Months 19–24 — Evidence and Signal (target: 31–33/36 RESILIENT strong band):** Second destination cohort report: role-title shift toward AI-direction and strategy roles measurable (D10: 2→3). Graduation portfolio first full cohort (B: 2→3). External validation: AI in Design Practice mapped against Creative Australia AI ethics framework and AGDA professional standards.
 
@@ -958,13 +958,13 @@ The 2027-ready graduate is a domain specialist and workflow critic. They do not 
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: Master of Architecture
 
-**Current:** 28/36 RESILIENT | **Duration:** 3 years (300 credit points)
+**Current:** 29/36 RESILIENT | **Duration:** 3 years (300 credit points)
 **Target:** 28/36 RESILIENT | **Gap:** 0 points
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The Master of Architecture scored **28/36 — RESILIENT**. Gaps in core dimensions define the primary intervention targets.
+The Master of Architecture scored **29/36 — RESILIENT**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
@@ -977,9 +977,9 @@ The Master of Architecture scored **28/36 — RESILIENT**. Gaps in core dimensio
 | Research Rigour | 3/3 | Strong |
 | Human & Relational | 2/3 | Adequate |
 | Curriculum Currency | 2/3 | Adequate |
-| Outcome Evidence | 2/3 | Adequate |
+| Outcome Evidence | 3/3 | Strong |
 | Irreplaceability (bonus) | 3/3 | Strong |
-| **TOTAL** | **28/36** | **RESILIENT** |
+| **TOTAL** | **29/36** | **RESILIENT** |
 
 ---
 
@@ -1425,13 +1425,13 @@ The 2027-ready graduate is a domain specialist and workflow critic. They do not 
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: Master of Biomedical Science
 
-**Current:** 25/36 MODERATE RISK | **Duration:** 2 years (200 pts)
-**Target:** 28/36 RESILIENT | **Gap:** 3 points
+**Current:** 26/36 MODERATE RISK | **Duration:** 2 years (200 pts)
+**Target:** 28/36 RESILIENT | **Gap:** 2 points
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The Master of Biomedical Science scored **25/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
+The Master of Biomedical Science scored **26/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
@@ -1444,16 +1444,16 @@ The Master of Biomedical Science scored **25/36 — MODERATE RISK**. Gaps in cor
 | Research Rigour | 3/3 | Strong |
 | Human & Relational | 2/3 | Adequate |
 | Curriculum Currency | 2/3 | Adequate |
-| Outcome Evidence | 1/3 | Critical gap |
+| Outcome Evidence | 2/3 | Adequate |
 | Irreplaceability (bonus) | 3/3 | Strong |
-| **TOTAL** | **25/36** | **MODERATE RISK** |
+| **TOTAL** | **26/36** | **MODERATE RISK** |
 
 ---
 
 ## 2. SCORE-TO-ACTION MAPPING
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
-| Outcome Evidence | 1/3 | Entry-level skills show automation risk. | Publish graduate destination survey results on program page. |
+| Outcome Evidence | 2/3 | Real destination evidence now published (UoM Job Insights / LiveAlumni). | Publish graduate destination survey results on program page. |
 | Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
 | Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |
 | AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
@@ -1875,13 +1875,13 @@ The 2027-ready graduate is a domain specialist and workflow critic. They do not 
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: Master of Computer Science
 
-**Current:** 27/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
-**Target:** 28/36 RESILIENT | **Gap:** 1 point
+**Current:** 29/36 RESILIENT | **Duration:** 2 years (200 credit points)
+**Target:** 28/36 RESILIENT | **Gap:** 0 points
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The Master of Computer Science scored **27/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
+The Master of Computer Science scored **29/36 — RESILIENT**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
@@ -1894,16 +1894,16 @@ The Master of Computer Science scored **27/36 — MODERATE RISK**. Gaps in core 
 | Research Rigour | 3/3 | Strong |
 | Human & Relational | 2/3 | Adequate |
 | Curriculum Currency | 2/3 | Adequate |
-| Outcome Evidence | 1/3 | Critical gap |
+| Outcome Evidence | 3/3 | Strong |
 | Irreplaceability (bonus) | 3/3 | Strong |
-| **TOTAL** | **27/36** | **MODERATE RISK** |
+| **TOTAL** | **29/36** | **RESILIENT** |
 
 ---
 
 ## 2. SCORE-TO-ACTION MAPPING
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
-| Outcome Evidence | 1/3 | Entry-level skills show automation risk. | Publish graduate destination survey results on program page. |
+| Outcome Evidence | 3/3 | Real destination evidence now published (UoM Job Insights / LiveAlumni). | Publish graduate destination survey results on program page. |
 | Automation Exposure | 2/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
 | Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
 | Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |
@@ -1986,13 +1986,13 @@ The 2027-ready graduate is a domain specialist and workflow critic. They do not 
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: Master of Data Science
 
-**Current:** 24/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
-**Target:** 28/36 RESILIENT | **Gap:** 4 points
+**Current:** 26/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
+**Target:** 28/36 RESILIENT | **Gap:** 2 points
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The Master of Data Science scored **24/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
+The Master of Data Science scored **26/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
@@ -2005,16 +2005,16 @@ The Master of Data Science scored **24/36 — MODERATE RISK**. Gaps in core dime
 | Research Rigour | 2/3 | Adequate |
 | Human & Relational | 2/3 | Adequate |
 | Curriculum Currency | 3/3 | Strong |
-| Outcome Evidence | 1/3 | Critical gap |
+| Outcome Evidence | 3/3 | Strong |
 | Irreplaceability (bonus) | 2/3 | Adequate |
-| **TOTAL** | **24/36** | **MODERATE RISK** |
+| **TOTAL** | **26/36** | **MODERATE RISK** |
 
 ---
 
 ## 2. SCORE-TO-ACTION MAPPING
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
-| Outcome Evidence | 1/3 | Entry-level skills show automation risk. | Publish graduate destination survey results on program page. |
+| Outcome Evidence | 3/3 | Real destination evidence now published (UoM Job Insights / LiveAlumni). | Publish graduate destination survey results on program page. |
 | Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
 | Decision-Making | 2/3 | Entry-level skills show automation risk. | Add capstone project requiring documented decision rationale. |
 | Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |
@@ -2339,13 +2339,13 @@ The 2027-ready graduate is a domain specialist and workflow critic. They do not 
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: Master of Environmental Science
 
-**Current:** 23/36 MODERATE RISK | **Duration:** 2 years (200 pts)
-**Target:** 28/36 RESILIENT | **Gap:** 5 points
+**Current:** 25/36 MODERATE RISK | **Duration:** 2 years (200 pts)
+**Target:** 28/36 RESILIENT | **Gap:** 3 points
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The Master of Environmental Science scored **23/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
+The Master of Environmental Science scored **25/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
@@ -2358,16 +2358,16 @@ The Master of Environmental Science scored **23/36 — MODERATE RISK**. Gaps in 
 | Research Rigour | 2/3 | Adequate |
 | Human & Relational | 2/3 | Adequate |
 | Curriculum Currency | 2/3 | Adequate |
-| Outcome Evidence | 1/3 | Critical gap |
+| Outcome Evidence | 3/3 | Strong |
 | Irreplaceability (bonus) | 2/3 | Adequate |
-| **TOTAL** | **23/36** | **MODERATE RISK** |
+| **TOTAL** | **25/36** | **MODERATE RISK** |
 
 ---
 
 ## 2. SCORE-TO-ACTION MAPPING
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
-| Outcome Evidence | 1/3 | Entry-level skills show automation risk. | Publish graduate destination survey results on program page. |
+| Outcome Evidence | 3/3 | Real destination evidence now published (UoM Job Insights / LiveAlumni). | Publish graduate destination survey results on program page. |
 | Technical Depth | 2/3 | Entry-level skills show automation risk. | Require technical-elective sequence (3+ units) with applied project. |
 | Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |
 | Curriculum Currency | 2/3 | Entry-level skills show automation risk. | Add emerging-trends module updated each intake. |
@@ -2457,13 +2457,13 @@ The 2027-ready graduate is a domain specialist and workflow critic. They do not 
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: Master of Genetic Counselling
 
-**Current:** 26/36 MODERATE RISK | **Duration:** 2 years (200 pts)
-**Target:** 28/36 RESILIENT | **Gap:** 2 points
+**Current:** 27/36 MODERATE RISK | **Duration:** 2 years (200 pts)
+**Target:** 28/36 RESILIENT | **Gap:** 1 point
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The Master of Genetic Counselling scored **26/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
+The Master of Genetic Counselling scored **27/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
@@ -2476,9 +2476,9 @@ The Master of Genetic Counselling scored **26/36 — MODERATE RISK**. Gaps in co
 | Research Rigour | 2/3 | Adequate |
 | Human & Relational | 3/3 | Strong |
 | Curriculum Currency | 2/3 | Adequate |
-| Outcome Evidence | 2/3 | Adequate |
+| Outcome Evidence | 3/3 | Strong |
 | Irreplaceability (bonus) | 3/3 | Strong |
-| **TOTAL** | **26/36** | **MODERATE RISK** |
+| **TOTAL** | **27/36** | **MODERATE RISK** |
 
 ---
 
@@ -2811,8 +2811,8 @@ The 2027-ready graduate is a domain specialist and workflow critic. They do not 
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: Master of Information Systems (MC-IS)
 
-**Current:** 18/36 HIGH RISK | **Duration:** 1.5–2 years (200 credit points)
-**Target:** 28/36 RESILIENT | **Gap:** 10 points
+**Current:** 20/36 MODERATE RISK | **Duration:** 1.5–2 years (200 credit points)
+**Target:** 28/36 RESILIENT | **Gap:** 8 points
 
 **Assessment date:** 2026-05-07
 **Prompt version:** DFVA-COPILOT-RECOMMENDER-v1
@@ -2820,7 +2820,7 @@ The 2027-ready graduate is a domain specialist and workflow critic. They do not 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The MC-IS scored **18/36 — HIGH RISK**. One point below the MODERATE RISK threshold. Three critical 1/3 scores: automation exposure (D1), AI literacy (D5), and graduate outcome evidence (D10). The program is not broken — the redesign task is to close these gaps and convert adequate scores to durable ones.
+The MC-IS scored **20/36 — MODERATE RISK**, lifted out of HIGH RISK by real graduate-outcome evidence (UoM Job Insights Report, LiveAlumni, n=257; D10 1→3). Two critical 1/3 scores remain: automation exposure (D1) and AI literacy (D5). The program is not broken — the redesign task is to close these gaps and convert adequate scores to durable ones.
 
 | Dimension | Score | Status |
 |---|---|---|
@@ -2833,9 +2833,9 @@ The MC-IS scored **18/36 — HIGH RISK**. One point below the MODERATE RISK thre
 | D7 — Research Methods | 2/3 | Adequate |
 | D8 — Human and Relational | 2/3 | Adequate |
 | D9 — Curriculum Currency | 2/3 | Adequate |
-| D10 — Graduate Outcome Evidence | 1/3 | ⚠️ Critical gap |
+| D10 — Graduate Outcome Evidence | 3/3 | Strong |
 | B — Irreplaceability Premium | 1/3 | ⚠️ Weak |
-| **TOTAL** | **18/36** | **HIGH RISK** |
+| **TOTAL** | **20/36** | **MODERATE RISK** |
 
 ---
 
@@ -2844,7 +2844,7 @@ The MC-IS scored **18/36 — HIGH RISK**. One point below the MODERATE RISK thre
 |---|---|---|---|
 | D1 — Automation Exposure | 1/3 | First 2–3 years dominated by BA documentation, requirements writing, JIRA administration — AI-substitutable tasks | Redesign capstone and SA&D unit to target AI workflow governance roles; update career framing |
 | D5 — AI Literacy and Governance | 1/3 | No dedicated AI governance unit in core curriculum | Create mandatory core unit: AI Governance and Deployment |
-| D10 — Graduate Outcome Evidence | 1/3 | Aggregate data only; no role-title or salary granularity for MC-IS | Publish cohort-level destination data within 12 months; implement alumni tracking |
+| D10 — Graduate Outcome Evidence | 3/3 | Real destination evidence now published (UoM Job Insights / LiveAlumni). | Publish cohort-level destination data within 12 months; implement alumni tracking |
 | D4 — Decision-Making | 2/3 | Non-research track limits live uncertainty exposure | Mandate real-client capstone for all tracks |
 | D3 — Technical Depth | 2/3 | Coding depth light without deliberate elective selection | Introduce mandatory data engineering elective pathway (SQL, Python, dbt) |
 | D6 — Domain Depth | 2/3 | Dual-stream design dilutes specialisation | Require sector elective cluster (health IT, fintech, or govtech) |
@@ -2885,9 +2885,9 @@ The MC-IS scored **18/36 — HIGH RISK**. One point below the MODERATE RISK thre
 ---
 
 ## 6. 24-MONTH CAPABILITY ROADMAP
-* **Months 1–12 — Structural Fix:** Close three critical 1/3 scores. AI Governance unit live (D5: 1→3). Assessment redesign (D1: 1→2, D4: 2→3). Destination tracking (D10: 1→2). **Projected: 23–24/36 (MODERATE RISK)**
+* **Months 1–12 — Structural Fix:** Close two critical 1/3 scores. AI Governance unit live (D5: 1→3). Assessment redesign (D1: 1→2, D4: 2→3). **Projected: 24–25/36 (MODERATE RISK)**
 * **Months 13–18 — Depth and Differentiation:** Data engineering elective (D3: 2→3). Sector clusters (D6: 2→3). Employer panel full cycle (D9: 2→3). Real-client capstone first cohort (B: 1→2).
-* **Months 19–24 — Evidence and Signal:** Destination data published (D10: 2→3). Portfolio requirement (B: 2→3). ISO 42001 mapped to graduate attributes. **Projected: 28–30/36 (RESILIENT)**
+* **Months 19–24 — Evidence and Signal:** Destination data publication institutionalised (D10 sustained at 3/3). Portfolio requirement (B: 2→3). ISO 42001 mapped to graduate attributes. **Projected: 28–30/36 (RESILIENT)**
 
 ---
 
@@ -2933,13 +2933,13 @@ They do not use AI tools. They govern, supervise, and redesign them.
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: Master of Journalism
 
-**Current:** 20/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
-**Target:** 28/36 RESILIENT | **Gap:** 8 points
+**Current:** 21/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
+**Target:** 28/36 RESILIENT | **Gap:** 7 points
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The Master of Journalism scored **20/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
+The Master of Journalism scored **21/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
@@ -2952,9 +2952,9 @@ The Master of Journalism scored **20/36 — MODERATE RISK**. Gaps in core dimens
 | Research Rigour | 2/3 | Adequate |
 | Human & Relational | 3/3 | Strong |
 | Curriculum Currency | 1/3 | Critical gap |
-| Outcome Evidence | 2/3 | Adequate |
+| Outcome Evidence | 3/3 | Strong |
 | Irreplaceability (bonus) | 2/3 | Adequate |
-| **TOTAL** | **20/36** | **MODERATE RISK** |
+| **TOTAL** | **21/36** | **MODERATE RISK** |
 
 ---
 
@@ -2965,7 +2965,7 @@ The Master of Journalism scored **20/36 — MODERATE RISK**. Gaps in core dimens
 | Curriculum Currency | 1/3 | Entry-level skills show automation risk. | Establish annual curriculum review with industry advisory panel. |
 | Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
 | Decision-Making | 2/3 | Entry-level skills show automation risk. | Add capstone project requiring documented decision rationale. |
-| Outcome Evidence | 2/3 | Entry-level skills show automation risk. | Add QILT GOS data + 3-year outcomes to public program information. |
+| Outcome Evidence | 3/3 | Real destination evidence now published (UoM Job Insights / LiveAlumni). | Add QILT GOS data + 3-year outcomes to public program information. |
 | Automation Exposure | 1/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
 | AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
 | Research Rigour | 2/3 | Entry-level skills show automation risk. | Replace literature review with primary data collection requirement. |
@@ -3055,13 +3055,13 @@ The 2027-ready graduate is a domain specialist and workflow critic. They do not 
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: Master of Nursing Science
 
-**Current:** 26/36 MODERATE RISK | **Duration:** 2 years (200 pts)
-**Target:** 28/36 RESILIENT | **Gap:** 2 points
+**Current:** 27/36 MODERATE RISK | **Duration:** 2 years (200 pts)
+**Target:** 28/36 RESILIENT | **Gap:** 1 point
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The Master of Nursing Science scored **26/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
+The Master of Nursing Science scored **27/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
@@ -3074,9 +3074,9 @@ The Master of Nursing Science scored **26/36 — MODERATE RISK**. Gaps in core d
 | Research Rigour | 2/3 | Adequate |
 | Human & Relational | 3/3 | Strong |
 | Curriculum Currency | 2/3 | Adequate |
-| Outcome Evidence | 2/3 | Adequate |
+| Outcome Evidence | 3/3 | Strong |
 | Irreplaceability (bonus) | 3/3 | Strong |
-| **TOTAL** | **26/36** | **MODERATE RISK** |
+| **TOTAL** | **27/36** | **MODERATE RISK** |
 
 ---
 
@@ -3277,13 +3277,13 @@ The 2027-ready graduate is a domain specialist and workflow critic. They do not 
     institution: "University of Melbourne",
     markdown: `## IMPROVEMENT PLAN: Master of Property
 
-**Current:** 22/36 MODERATE RISK | **Duration:** 2 years (300 credit points)
-**Target:** 28/36 RESILIENT | **Gap:** 6 points
+**Current:** 23/36 MODERATE RISK | **Duration:** 2 years (300 credit points)
+**Target:** 28/36 RESILIENT | **Gap:** 5 points
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The Master of Property scored **22/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
+The Master of Property scored **23/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
@@ -3296,9 +3296,9 @@ The Master of Property scored **22/36 — MODERATE RISK**. Gaps in core dimensio
 | Research Rigour | 2/3 | Adequate |
 | Human & Relational | 2/3 | Adequate |
 | Curriculum Currency | 2/3 | Adequate |
-| Outcome Evidence | 2/3 | Adequate |
+| Outcome Evidence | 3/3 | Strong |
 | Irreplaceability (bonus) | 2/3 | Adequate |
-| **TOTAL** | **22/36** | **MODERATE RISK** |
+| **TOTAL** | **23/36** | **MODERATE RISK** |
 
 ---
 
@@ -3310,7 +3310,7 @@ The Master of Property scored **22/36 — MODERATE RISK**. Gaps in core dimensio
 | Decision-Making | 2/3 | Entry-level skills show automation risk. | Add capstone project requiring documented decision rationale. |
 | Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |
 | Curriculum Currency | 2/3 | Entry-level skills show automation risk. | Add emerging-trends module updated each intake. |
-| Outcome Evidence | 2/3 | Entry-level skills show automation risk. | Add QILT GOS data + 3-year outcomes to public program information. |
+| Outcome Evidence | 3/3 | Real destination evidence now published (UoM Job Insights / LiveAlumni). | Add QILT GOS data + 3-year outcomes to public program information. |
 | AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |
 | Automation Exposure | 2/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
 | Research Rigour | 2/3 | Entry-level skills show automation risk. | Replace literature review with primary data collection requirement. |

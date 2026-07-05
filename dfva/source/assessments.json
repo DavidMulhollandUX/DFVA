@@ -445,7 +445,7 @@
     "programName": "Master of Food Science",
     "faculty": "Science",
     "level": "postgraduate",
-    "overallScore": 21,
+    "overallScore": 23,
     "riskCategory": "MODERATE RISK",
     "dimensions": [
       {
@@ -558,7 +558,7 @@
       },
       {
         "dimension": "D10",
-        "score": 1,
+        "score": 3,
         "maxScore": 3,
         "criteria": [
           "No destination data",
@@ -1025,7 +1025,7 @@
     "programName": "Bachelor of Design",
     "faculty": "Architecture, Building & Planning",
     "level": "undergraduate",
-    "overallScore": 17,
+    "overallScore": 18,
     "riskCategory": "HIGH RISK",
     "dimensions": [
       {
@@ -1138,7 +1138,7 @@
       },
       {
         "dimension": "D10",
-        "score": 1,
+        "score": 2,
         "maxScore": 3,
         "criteria": [
           "No destination data",
@@ -4011,7 +4011,7 @@
     "programName": "Master of Architecture",
     "faculty": "Architecture, Building & Planning",
     "level": "postgraduate",
-    "overallScore": 28,
+    "overallScore": 29,
     "riskCategory": "RESILIENT",
     "dimensions": [
       {
@@ -4124,7 +4124,7 @@
       },
       {
         "dimension": "D10",
-        "score": 2,
+        "score": 3,
         "maxScore": 3,
         "criteria": [
           "No destination data",
@@ -4794,7 +4794,7 @@
     "programName": "Master of Biomedical Science",
     "faculty": "Medicine, Dentistry & Health",
     "level": "postgraduate",
-    "overallScore": 25,
+    "overallScore": 26,
     "riskCategory": "MODERATE RISK",
     "dimensions": [
       {
@@ -4907,7 +4907,7 @@
       },
       {
         "dimension": "D10",
-        "score": 1,
+        "score": 2,
         "maxScore": 3,
         "criteria": [
           "No destination data",
@@ -5573,8 +5573,8 @@
     "programName": "Master of Computer Science",
     "faculty": "Engineering & IT",
     "level": "postgraduate",
-    "overallScore": 27,
-    "riskCategory": "MODERATE RISK",
+    "overallScore": 29,
+    "riskCategory": "RESILIENT",
     "dimensions": [
       {
         "dimension": "D1",
@@ -5686,7 +5686,7 @@
       },
       {
         "dimension": "D10",
-        "score": 1,
+        "score": 3,
         "maxScore": 3,
         "criteria": [
           "No destination data",
@@ -5712,7 +5712,7 @@
     "aiLiteracyScore": 3,
     "labourMarketAlignment": 2.4,
     "assessedAt": "2026-06-08T00:00:00Z",
-    "recommendationSummary": "Assessed MODERATE RISK; see the full recommendation report for the improvement pathway.",
+    "recommendationSummary": "Assessed RESILIENT; see the full recommendation report for the improvement pathway.",
     "marketReportPath": "reports/dfva-market-mc-cs.md",
     "labourEvidence": {
       "field": "it",
@@ -5769,7 +5769,7 @@
     "programName": "Master of Data Science",
     "faculty": "Science",
     "level": "postgraduate",
-    "overallScore": 24,
+    "overallScore": 26,
     "riskCategory": "MODERATE RISK",
     "dimensions": [
       {
@@ -5882,7 +5882,7 @@
       },
       {
         "dimension": "D10",
-        "score": 1,
+        "score": 3,
         "maxScore": 3,
         "criteria": [
           "No destination data",
@@ -7092,7 +7092,7 @@
     "programName": "Master of Environmental Science",
     "faculty": "Science",
     "level": "postgraduate",
-    "overallScore": 23,
+    "overallScore": 25,
     "riskCategory": "MODERATE RISK",
     "dimensions": [
       {
@@ -7205,7 +7205,7 @@
       },
       {
         "dimension": "D10",
-        "score": 1,
+        "score": 3,
         "maxScore": 3,
         "criteria": [
           "No destination data",
@@ -7287,7 +7287,7 @@
     "programName": "Master of Genetic Counselling",
     "faculty": "Medicine, Dentistry & Health",
     "level": "postgraduate",
-    "overallScore": 26,
+    "overallScore": 27,
     "riskCategory": "MODERATE RISK",
     "dimensions": [
       {
@@ -7400,7 +7400,7 @@
       },
       {
         "dimension": "D10",
-        "score": 2,
+        "score": 3,
         "maxScore": 3,
         "criteria": [
           "No destination data",
@@ -7872,8 +7872,8 @@
     "programName": "Master of Information Systems",
     "faculty": "Business & Economics",
     "level": "postgraduate",
-    "overallScore": 18,
-    "riskCategory": "HIGH RISK",
+    "overallScore": 20,
+    "riskCategory": "MODERATE RISK",
     "dimensions": [
       {
         "dimension": "D1",
@@ -7985,7 +7985,7 @@
       },
       {
         "dimension": "D10",
-        "score": 1,
+        "score": 3,
         "maxScore": 3,
         "criteria": [
           "No destination data",
@@ -8068,7 +8068,7 @@
     "programName": "Master of Journalism",
     "faculty": "Arts",
     "level": "postgraduate",
-    "overallScore": 20,
+    "overallScore": 21,
     "riskCategory": "MODERATE RISK",
     "dimensions": [
       {
@@ -8181,7 +8181,7 @@
       },
       {
         "dimension": "D10",
-        "score": 2,
+        "score": 3,
         "maxScore": 3,
         "criteria": [
           "No destination data",
@@ -8405,7 +8405,7 @@
     "programName": "Master of Nursing Science",
     "faculty": "Medicine, Dentistry & Health",
     "level": "postgraduate",
-    "overallScore": 26,
+    "overallScore": 27,
     "riskCategory": "MODERATE RISK",
     "dimensions": [
       {
@@ -8518,7 +8518,7 @@
       },
       {
         "dimension": "D10",
-        "score": 2,
+        "score": 3,
         "maxScore": 3,
         "criteria": [
           "No destination data",
@@ -8793,7 +8793,7 @@
     "programName": "Master of Property",
     "faculty": "Architecture, Building & Planning",
     "level": "postgraduate",
-    "overallScore": 22,
+    "overallScore": 23,
     "riskCategory": "MODERATE RISK",
     "dimensions": [
       {
@@ -8906,7 +8906,7 @@
       },
       {
         "dimension": "D10",
-        "score": 2,
+        "score": 3,
         "maxScore": 3,
         "criteria": [
           "No destination data",

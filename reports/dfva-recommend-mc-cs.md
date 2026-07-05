@@ -1,12 +1,12 @@
 ## IMPROVEMENT PLAN: Master of Computer Science
 
-**Current:** 27/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
-**Target:** 28/36 RESILIENT | **Gap:** 1 point
+**Current:** 29/36 RESILIENT | **Duration:** 2 years (200 credit points)
+**Target:** 28/36 RESILIENT | **Gap:** 0 points
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The Master of Computer Science scored **27/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
+The Master of Computer Science scored **29/36 — RESILIENT**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
@@ -19,16 +19,16 @@ The Master of Computer Science scored **27/36 — MODERATE RISK**. Gaps in core 
 | Research Rigour | 3/3 | Strong |
 | Human & Relational | 2/3 | Adequate |
 | Curriculum Currency | 2/3 | Adequate |
-| Outcome Evidence | 1/3 | Critical gap |
+| Outcome Evidence | 3/3 | Strong |
 | Irreplaceability (bonus) | 3/3 | Strong |
-| **TOTAL** | **27/36** | **MODERATE RISK** |
+| **TOTAL** | **29/36** | **RESILIENT** |
 
 ---
 
 ## 2. SCORE-TO-ACTION MAPPING
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
-| Outcome Evidence | 1/3 | Entry-level skills show automation risk. | Publish graduate destination survey results on program page. |
+| Outcome Evidence | 3/3 | Real destination evidence now published (UoM Job Insights / LiveAlumni). | Publish graduate destination survey results on program page. |
 | Automation Exposure | 2/3 | Entry-level skills show automation risk. | Require industry project with defended outputs and stakeholder presentation. |
 | Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
 | Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |

@@ -7,7 +7,7 @@ describe('MockAssessmentService', () => {
   it('matches known program by URL', async () => {
     const result = await service.assess('https://handbook.unimelb.edu.au/2025/courses/b-des');
     expect(result.programName).toBe('Bachelor of Design');
-    expect(result.score).toBe(17);
+    expect(result.score).toBe(18);
     expect(result.riskBand).toBe('HIGH RISK');
     expect(result.dimensions).toHaveLength(11);
     expect(result.courseCode).toBe('B-DES');
@@ -16,8 +16,8 @@ describe('MockAssessmentService', () => {
   it('matches MC-IS by URL', async () => {
     const result = await service.assess('https://handbook.unimelb.edu.au/2025/courses/mc-is');
     expect(result.programName).toBe('Master of Information Systems');
-    expect(result.score).toBe(18);
-    expect(result.riskBand).toBe('HIGH RISK');
+    expect(result.score).toBe(20);
+    expect(result.riskBand).toBe('MODERATE RISK');
   });
 
   it('matches case-insensitive URL', async () => {

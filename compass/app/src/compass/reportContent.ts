@@ -891,10 +891,10 @@ The most durable tasks are **low** exposure: supply-chain traceability and incid
 | 7 | Research Methods Rigour | 2 | 25–50pt research project plus Research Methods for Life Sciences; smaller project than lab-science MSc equivalents, so not maximal. |
 | 8 | Human and Relational Capability | 2 | Food Safety and Quality involves regulatory and consumer dimensions; professional skills via electives, but no dedicated ethics/stakeholder unit. |
 | 9 | Curriculum Currency and Adaptability | 2 | Updated 29 Jan 2026; Sustainable Food Production and Plant Food Products reflect current trends, but Sensory Evaluation is not available in 2026 and AI content is absent. |
-| 10 | Graduate Outcome Evidence | 3 | Field-level outcomes are strong and trackable (QILT GOS: 87% FT employment, $103k median, shortage demand), though program-specific destination data is not disaggregated. |
+| 10 | Graduate Outcome Evidence | 3 | UoM Job Insights Report (LiveAlumni, exact match, n=50) publishes program-level destinations; QILT GOS field outcomes (87% FT employment, $103k median, shortage demand) corroborate. |
 | B | Irreplaceability Premium (Bonus) | 2 | Applied food science across the supply chain is valuable but less rare than research-intensive MSc specialisations; durability depends on the depth of project and sensory/processing judgment. |
 
-**TOTAL: 21 / 36**  
+**TOTAL: 23 / 36**  
 **Risk band: MODERATE RISK (20-27)**
 
 ### 5. THREE THRESHOLD QUESTIONS
@@ -1731,10 +1731,10 @@ Net exposure remains **high** for graduates focused on template/asset execution;
 | 7 | Research Methods Rigour | 1 | Market demand for evidence-backed design decisions is rising; primary-method rigour remains inconsistent across pathways. |
 | 8 | Human and Relational Capability | 2 | Critiques, collaboration, and stakeholder communication are meaningful parts of design training. |
 | 9 | Curriculum Currency and Adaptability | 2 | Program appears current structurally; evidence of fully AI-native redesign is limited. |
-| 10 | Graduate Outcome Evidence | 2 | Employer-side differentiation is increasingly capability-specific, but outcome visibility is still broad rather than role/task granular. |
+| 10 | Graduate Outcome Evidence | 2 | Cognate UoM Job Insights Report (LiveAlumni, n=248) provides real destination evidence at cognate grain; role/task-granular program-exact visibility still limited. |
 | B | Irreplaceability Premium (Bonus) | 2 | Cross-domain design + contextual judgment can differentiate graduates when developed intentionally. |
 
-**TOTAL: 17 / 36**  
+**TOTAL: 18 / 36**  
 **Risk band: HIGH RISK (12-19)**
 
 ### 5. THREE THRESHOLD QUESTIONS
@@ -2927,10 +2927,10 @@ Typical graduate roles include architectural graduate (Graduate of Architecture)
 | 7 | Research Methods Rigour | 3 | Design Thesis is a substantial design-research project with defended methodology. PhD pathway available. Research-led teaching explicitly mentioned in program outcomes. |
 | 8 | Human and Relational Capability | 2 | Collaborative studio practice and client/stakeholder engagement implicit in design practice. Strong relational dimension but not clinical-level accountability. |
 | 9 | Curriculum Currency and Adaptability | 2 | Updated 9 June 2026 — very recent. No explicit AI or sustainability-specific core content visible despite currency of update. |
-| 10 | Graduate Outcome Evidence | 2 | Professional accreditation (ARBV/RAIA/CAA) provides external validation of standards. Granular graduate destination data not publicly available. |
+| 10 | Graduate Outcome Evidence | 3 | UoM Job Insights Report (LiveAlumni, exact match, n=621) publishes granular graduate destinations; ARBV/RAIA/CAA professional accreditation adds external validation of standards. |
 | B | Irreplaceability Premium (Bonus) | 3 | Professional registration requirement + creative design synthesis + technical documentation + regulatory compliance. Triple barrier: creativity, regulation, and professional practice hours. |
 
-**TOTAL: 28 / 36**  
+**TOTAL: 29 / 36**  
 **Risk band: RESILIENT (28-36)**
 
 ### 5. THREE THRESHOLD QUESTIONS
@@ -4102,10 +4102,10 @@ Typical graduate roles include research scientist, clinical trial coordinator, r
 | 7 | Research Methods Rigour | 3 | 125pt research project (the largest in this cohort). BIOM40001 provides research methodology grounding. |
 | 8 | Human and Relational Capability | 2 | HLTH90021 addresses research-to-impact translation. Professional ethics implicit in research training and lab safety. |
 | 9 | Curriculum Currency and Adaptability | 2 | Updated 9 June 2026. Strong industry-engagement elements. No explicit AI integration. |
-| 10 | Graduate Outcome Evidence | 1 | No granular destination data published; biomedical career pathways externally documented but program-specific outcomes are not reported. |
+| 10 | Graduate Outcome Evidence | 2 | Cognate UoM Job Insights Report (LiveAlumni, n=26) provides real destination evidence at cognate-program grain; program-exact granular data still not published. |
 | B | Irreplaceability Premium (Bonus) | 3 | Rare: laboratory science + research training + industry awareness. 125pt project creates deep, non-substitutable expertise. |
 
-**TOTAL: 25 / 36**  
+**TOTAL: 26 / 36**  
 **Risk band: MODERATE RISK (20-27)**
 
 ### 5. THREE THRESHOLD QUESTIONS
@@ -5261,11 +5261,11 @@ Graduate destination targets (R&D labs, PhD programmes, high-level tech roles) p
 | 7 | Research Methods Rigour | 3 | COMP90044 (Research Methods) is a compulsory prerequisite. The year-long research project requires primary research design, execution, interpretation, and reporting — assessed under academic supervision. |
 | 8 | Human and Relational Capability | 2 | COMP90087 (Ethics of AI) and HCI subjects provide meaningful ethical and stakeholder practice. Communication skills are a stated learning outcome. No clinical or physical accountability layer. |
 | 9 | Curriculum Currency and Adaptability | 2 | 2026 handbook reflects current AI/ML/quantum/ethics coverage. Last updated March 2026. However, the research-MSc structure is a traditional academic model, not a living curriculum with industry advisory feedback loops. |
-| 10 | Graduate Outcome Evidence | 3 | No granular destination data (roles, industries, salary, time-to-employment) published. Generic "R&D labs and PhD" language without supporting metrics. |
+| 10 | Graduate Outcome Evidence | 3 | UoM Job Insights Report (LiveAlumni, exact match, n=41) publishes granular real destinations — role titles by career stage and named employers, including a distinctive quantitative-trading cluster (Optiver, IMC, Akuna Capital) alongside research-grade ML and systems roles. |
 | B | Irreplaceability Premium (Bonus) | 3 | Rare integration: deep CS technical skills + AI specialisation + independent research training. Graduates are trained to build and critique AI systems, positioning them as AI-augmented professionals rather than AI-displaced ones. |
 
-**TOTAL: 27 / 36**  
-**Risk band: MODERATE RISK (20-27)**
+**TOTAL: 29 / 36**  
+**Risk band: RESILIENT (28-36)**
 
 ### 5. THREE THRESHOLD QUESTIONS
 - **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
@@ -5285,9 +5285,9 @@ The MC-CS graduate is structurally differentiated: they move from implementing s
 ### 7. VERDICT
 This program is well-positioned for AI-era labour market durability. Its structural strength — a year-long independent research project that cannot be automated — combined with deep AI/ML curriculum coverage and specialist tracks, produces graduates whose core capability (research-grade problem definition, methodology design, and critical interpretation) resists AI substitution.
 
-The program's proximity to the AI field itself is protective: graduates are trained on the technology that is disrupting other fields. The risk is not that these graduates are displaced by AI — it is that the program's traditional academic structure (research MSc) may not evolve fast enough to incorporate industry-engaged feedback loops (D9) and outcome tracking (D10).
+The program's proximity to the AI field itself is protective: graduates are trained on the technology that is disrupting other fields. The risk is not that these graduates are displaced by AI — it is that the program's traditional academic structure (research MSc) may not evolve fast enough to incorporate industry-engaged feedback loops (D9).
 
-The move from MODERATE RISK to RESILIENT sits in two specific actions: (1) publishing granular graduate destination data by specialisation track, and (2) establishing an industry advisory mechanism that feeds curriculum refresh decisions. Neither requires structural redesign — both are additions to an already-strong foundation.
+The move from MODERATE RISK to RESILIENT arrived on outcome evidence: the UoM Job Insights Report (LiveAlumni, n=41) publishes exactly the granular destination data D10 measures — real role titles by career stage and named employers, including a quantitative-trading cluster (Optiver, IMC, Akuna Capital) invisible to generic market data, corroborating a low automation-exposure reading. The remaining gap is curriculum currency (D9): an industry advisory mechanism that feeds refresh decisions. That requires no structural redesign — it is an addition to an already-strong foundation.
 
 ### 8. RECOMMENDATIONS
 | Priority | Action | Dimension | Market Signal Link | Effort |
@@ -5546,10 +5546,10 @@ The risk is in the middle: graduates who exit with coursework competence but wit
 | 7 | Research Methods Rigour | 2 | Research pathway (WAM 80, supervisor, thesis) provides genuine research training — but it is optional and only 25 points. Most students take the capstone. Statistical training provides methodological grounding regardless. |
 | 8 | Human and Relational Capability | 2 | The project involves stakeholder interaction. Statistical communication is implicit in the quantitative curriculum. No dedicated ethics or professional communication unit. |
 | 9 | Curriculum Currency and Adaptability | 3 | Last updated 9 June 2026 — the most recently updated program in this assessment cohort. ML, cloud computing, computational statistics reflect current practice. |
-| 10 | Graduate Outcome Evidence | 1 | No granular destination data published. Data science labour market is well-documented externally, but the program does not track or publish its own graduate outcomes by specialisation — a critical evidence gap. |
+| 10 | Graduate Outcome Evidence | 3 | UoM Job Insights Report (LiveAlumni, exact match, n=96) publishes granular graduate destinations — role titles by career stage and named employers — closing the previously critical evidence gap. |
 | B | Irreplaceability Premium (Bonus) | 2 | Statistics + CS dual-skill is valuable and not easily substituted. However, data science is a crowded credential market — differentiation requires project-cultivated judgment, not just technical competence. |
 
-**TOTAL: 24 / 36**  
+**TOTAL: 26 / 36**  
 **Risk band: MODERATE RISK (20-27)**
 
 ### 5. THREE THRESHOLD QUESTIONS
@@ -6432,10 +6432,10 @@ Typical graduate roles include environmental consultant, environmental scientist
 | 7 | Research Methods Rigour | 2 | Industry Project (default) or Research Project (outstanding students). Environmental Risk Assessment provides methodological grounding. Less research-heavy than lab-science MSc programs. |
 | 8 | Human and Relational Capability | 2 | Stakeholder engagement implicit in environmental practice. Professional skills subjects available. No dedicated ethics/communication requirement. |
 | 9 | Curriculum Currency and Adaptability | 2 | Updated 26 March 2026. Climate impacts, biosecurity, spatial tools — current topics. No AI integration. |
-| 10 | Graduate Outcome Evidence | 2 | No granular destination data; field-level QILT outcomes available (79% full-time employment, recruitment-difficulty demand). |
+| 10 | Graduate Outcome Evidence | 3 | UoM Job Insights Report (LiveAlumni, exact match, n=32) publishes role-title-level destinations; field-level QILT outcomes (79% full-time employment, recruitment-difficulty demand) corroborate. |
 | B | Irreplaceability Premium (Bonus) | 2 | Environmental science + policy integration is valuable. Field skills resist AI. Less deeply specialised than lab-science MSc programs. |
 
-**TOTAL: 24 / 36**  
+**TOTAL: 25 / 36**  
 **Risk band: MODERATE RISK (20-27)**
 
 ### 5. THREE THRESHOLD QUESTIONS
@@ -6703,7 +6703,7 @@ Typical graduate roles include genetic counsellor (clinical genetics units at ho
 | 7 | Research Methods Rigour | 2 | Healthcare Research Principles + Research Project in Human Genomics 1 & 2 (37.5pt total). Research-engaged but clinically focused. |
 | 8 | Human and Relational Capability | 3 | This is the program's defining dimension. Foundational + Advanced Counselling Practice, two Genetic Counselling Practice subjects, 37.5pt clinical placement. HGSA certification requires demonstrated clinical competence. |
 | 9 | Curriculum Currency and Adaptability | 2 | Updated 19 Nov 2025. Clinical Genomics, Societal Implications of Genomics — current. No AI/genomics integration. |
-| 10 | Graduate Outcome Evidence | 3 | HGSA certification pathway provides external outcome tracking. Program-specific destination data not published. |
+| 10 | Graduate Outcome Evidence | 3 | UoM Job Insights Report (LiveAlumni, exact match, n=35) publishes destination evidence; HGSA certification pathway adds external outcome tracking. |
 | B | Irreplaceability Premium (Bonus) | 3 | Rare: clinical genetics + counselling + empathy + ethics. The combination resists AI substitution at every level. |
 
 **TOTAL: 27 / 36**  
@@ -7552,11 +7552,11 @@ Key named units include:
 | 7 | Research Methods Rigour | 2 | *Research Methods in IS* exists on research track; coursework-only track has weaker exposure. Score reflects research track access |
 | 8 | Human and Relational Capability | 2 | Stakeholder management and change management appear in project management units; no clinical or physical accountability layer |
 | 9 | Curriculum Currency and Adaptability | 2 | 2026 handbook reflects recent review; no explicit AI core units visible — a currency gap for a 2026 program |
-| 10 | Graduate Outcome Evidence | 2 | UniMelb publishes aggregate graduate outcome data; granular role/salary/time-to-employment data for MC-IS not prominently available |
+| 10 | Graduate Outcome Evidence | 3 | UoM Job Insights Report (LiveAlumni, exact match, n=257) publishes granular destinations — real role titles by career stage and named employers — exactly the detailed outcome evidence this dimension measures. |
 | B | Irreplaceability Premium (Bonus) | 1 | Some dual-skill value (business + technology bridge), but this profile is common and not deeply differentiated |
 
-**TOTAL: 18 / 36**  
-**Risk band: HIGH RISK (12-19)**
+**TOTAL: 20 / 36**  
+**Risk band: MODERATE RISK (20-27)**
 
 ### 5. THREE THRESHOLD QUESTIONS
 
@@ -7581,7 +7581,7 @@ The MIS graduate is trained for roles that AI tooling is actively dismantling at
 
 ### 7. VERDICT
 
-**The Master of Information Systems is HIGH RISK for 2027 labour-market viability as currently structured.**
+**The Master of Information Systems is MODERATE RISK for 2027 labour-market viability — lifted out of HIGH RISK by real graduate-outcome evidence (UoM Job Insights Report, LiveAlumni, n=257), but structurally exposed as currently taught.**
 
 The program produces well-rounded IS professionals but anchors early-career outcomes in human middleware tasks — documentation, requirements analysis, coordination, and reporting — that are the current front line of AI-driven role compression. The University of Melbourne brand provides hiring access, but prestige does not insulate graduates from structural role reduction.
 
@@ -7853,10 +7853,10 @@ Typical graduate roles include journalist, digital producer, investigative repor
 | 7 | Research Methods Rigour | 2 | Investigative journalism teaches research methodology. Academic research component required at master's level. Evidence and verification practices are central to the curriculum. |
 | 8 | Human and Relational Capability | 3 | Interviewing, source cultivation, ethical engagement with subjects and communities — journalism is fundamentally a human-trust profession requiring relational skill. |
 | 9 | Curriculum Currency and Adaptability | 1 | Limited evidence of digital/AI-age journalism transformation in curriculum. Traditional journalism framework visible without explicit AI-era adaptation. |
-| 10 | Graduate Outcome Evidence | 2 | Journalism employment market is structurally contracting. Limited program-specific destination data. Industry disruption is well-documented. |
+| 10 | Graduate Outcome Evidence | 3 | UoM Job Insights Report (LiveAlumni, exact match, n=51) publishes real role-title destinations — the outcome evidence itself is now published, even as the industry structurally contracts. |
 | B | Irreplaceability Premium (Bonus) | 2 | Investigative journalism requires human trust, ethical judgment, and investigative persistence. But industry is in structural decline. The human value is real; the market is shrinking. |
 
-**TOTAL: 20 / 36**  
+**TOTAL: 21 / 36**  
 **Risk band: MODERATE RISK (20-27)**
 
 ### 5. THREE THRESHOLD QUESTIONS
@@ -8157,7 +8157,7 @@ Typical graduate roles include advanced practice registered nurse, nurse practit
 | 7 | Research Rigour | 2 | Evidence in Practice + Nursing Research. Evidence-based practice is embedded. Less research-intensive than research MSc programs. |
 | 8 | Human & Relational | 3 | This is nursing's structural core. Indigenous Health, Mental Health Nursing, clinical placements — sustained patient interaction assessed as competency. NMBA standards require demonstrated interpersonal capability. |
 | 9 | Curriculum Currency | 2 | Updated 8 Jan 2026. Digital Transformation of Health, Indigenous Data Governance — current topics. Core remains traditional clinical nursing. |
-| 10 | Outcome Evidence | 3 | NMBA registration provides external outcome verification. Employment outcomes are strong and publicly visible. Program-specific data not granularly published. |
+| 10 | Outcome Evidence | 3 | UoM Job Insights Report (LiveAlumni, exact match, n=129) publishes destination evidence; NMBA registration provides external outcome verification of strong, publicly visible employment outcomes. |
 | B | Irreplaceability (Bonus) | 3 | Maximum: clinical nursing combines physical care, clinical judgment, emotional support, and ethical practice. AI cannot replicate any of these at the point of care. |
 
 **TOTAL: 27 / 36**
@@ -8711,10 +8711,10 @@ Typical graduate roles include property analyst, valuer, development manager, pr
 | 7 | Research Methods Rigour | 2 | Research project/capstone available. Research principles in property practice taught. PhD pathway mentioned. |
 | 8 | Human & Relational Capability | 2 | Negotiation, communication, and client management skills explicit. Professional practice component. Not clinical-level relational. |
 | 9 | Curriculum Currency and Adaptability | 2 | Updated June 2026. Property industry current. Limited AI/proptech/digital innovation visibility in curriculum. |
-| 10 | Outcome Evidence | 2 | API/RICS accreditation provides external validation of standards. Property industry employment is trackable through professional bodies. |
+| 10 | Outcome Evidence | 3 | UoM Job Insights Report (LiveAlumni, exact match, n=65) publishes destination evidence; API/RICS accreditation adds external validation of standards. |
 | B | Irreplaceability (Bonus) | 2 | Physical inspection requirements, professional liability, and client relationships create automation friction. Accreditation pathway is a structural barrier. |
 
-**TOTAL: 22 / 36**
+**TOTAL: 23 / 36**
 **Risk band: MODERATE RISK (20-27)**
 
 ### 5. THREE THRESHOLD QUESTIONS

@@ -1,12 +1,12 @@
 ## IMPROVEMENT PLAN: Master of Nursing Science
 
-**Current:** 26/36 MODERATE RISK | **Duration:** 2 years (200 pts)
-**Target:** 28/36 RESILIENT | **Gap:** 2 points
+**Current:** 27/36 MODERATE RISK | **Duration:** 2 years (200 pts)
+**Target:** 28/36 RESILIENT | **Gap:** 1 point
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The Master of Nursing Science scored **26/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
+The Master of Nursing Science scored **27/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
@@ -19,9 +19,9 @@ The Master of Nursing Science scored **26/36 — MODERATE RISK**. Gaps in core d
 | Research Rigour | 2/3 | Adequate |
 | Human & Relational | 3/3 | Strong |
 | Curriculum Currency | 2/3 | Adequate |
-| Outcome Evidence | 2/3 | Adequate |
+| Outcome Evidence | 3/3 | Strong |
 | Irreplaceability (bonus) | 3/3 | Strong |
-| **TOTAL** | **26/36** | **MODERATE RISK** |
+| **TOTAL** | **27/36** | **MODERATE RISK** |
 
 ---
 

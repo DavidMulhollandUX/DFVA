@@ -51,10 +51,10 @@ Typical graduate roles include research scientist, clinical trial coordinator, r
 | 7 | Research Methods Rigour | 3 | 125pt research project (the largest in this cohort). BIOM40001 provides research methodology grounding. |
 | 8 | Human and Relational Capability | 2 | HLTH90021 addresses research-to-impact translation. Professional ethics implicit in research training and lab safety. |
 | 9 | Curriculum Currency and Adaptability | 2 | Updated 9 June 2026. Strong industry-engagement elements. No explicit AI integration. |
-| 10 | Graduate Outcome Evidence | 1 | No granular destination data published; biomedical career pathways externally documented but program-specific outcomes are not reported. |
+| 10 | Graduate Outcome Evidence | 2 | Cognate UoM Job Insights Report (LiveAlumni, n=26) provides real destination evidence at cognate-program grain; program-exact granular data still not published. |
 | B | Irreplaceability Premium (Bonus) | 3 | Rare: laboratory science + research training + industry awareness. 125pt project creates deep, non-substitutable expertise. |
 
-**TOTAL: 25 / 36**  
+**TOTAL: 26 / 36**  
 **Risk band: MODERATE RISK (20-27)**
 
 ### 5. THREE THRESHOLD QUESTIONS

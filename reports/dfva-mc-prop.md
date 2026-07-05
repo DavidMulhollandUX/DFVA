@@ -46,10 +46,10 @@ Typical graduate roles include property analyst, valuer, development manager, pr
 | 7 | Research Methods Rigour | 2 | Research project/capstone available. Research principles in property practice taught. PhD pathway mentioned. |
 | 8 | Human & Relational Capability | 2 | Negotiation, communication, and client management skills explicit. Professional practice component. Not clinical-level relational. |
 | 9 | Curriculum Currency and Adaptability | 2 | Updated June 2026. Property industry current. Limited AI/proptech/digital innovation visibility in curriculum. |
-| 10 | Outcome Evidence | 2 | API/RICS accreditation provides external validation of standards. Property industry employment is trackable through professional bodies. |
+| 10 | Outcome Evidence | 3 | UoM Job Insights Report (LiveAlumni, exact match, n=65) publishes destination evidence; API/RICS accreditation adds external validation of standards. |
 | B | Irreplaceability (Bonus) | 2 | Physical inspection requirements, professional liability, and client relationships create automation friction. Accreditation pathway is a structural barrier. |
 
-**TOTAL: 22 / 36**
+**TOTAL: 23 / 36**
 **Risk band: MODERATE RISK (20-27)**
 
 ### 5. THREE THRESHOLD QUESTIONS
