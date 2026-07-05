@@ -136,9 +136,13 @@ model AssessmentJob {
   dimensions    Json?
   reportJson    Json?    // Full report content as JSON
   syllabusJson  Json?    // Mapped syllabus structures, prerequisites, flow rates, and IRA matrices
+  assessmentSlug String? // Report slug for linking — lets list queries skip loading reportJson
 
   // Snapshot tracking
   snapshots     AssessmentSnapshot[]
+
+  // getAssessmentJobs filters by userId and sorts by createdAt on a 1.5s poll
+  @@index([userId, createdAt])
 }
 
 // Cross-institutional benchmarking
@@ -272,6 +276,8 @@ model AlumniDestination {
   employer        String?
   industryCluster String // e.g. "BioSciences", "Software/IT"
 
+  // Makes retried/duplicate uploads no-ops via createMany skipDuplicates
+  @@unique([userId, programCode, graduationYear, jobTitle])
   @@index([programCode])
   @@index([industryCluster])
 }

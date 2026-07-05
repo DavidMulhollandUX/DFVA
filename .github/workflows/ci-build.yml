@@ -19,6 +19,20 @@ jobs:
     defaults:
       run:
         working-directory: compass/app
+    services:
+      # Shadow DB for the migration-drift check (prisma migrate diff --from-migrations)
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: ci
+          POSTGRES_PASSWORD: ci
+          POSTGRES_DB: shadow
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
 
@@ -44,6 +58,19 @@ jobs:
 
       - name: Wasp build (compile + type-check)
         run: wasp build
+
+      # schema.prisma edits without a captured migration crashed fresh
+      # environments before (4 models had no CREATE TABLE). Diff the full
+      # generated schema (incl. Wasp auth models) against the migrations dir.
+      - name: Migration drift check
+        run: |
+          SCHEMA=.wasp/build/db/schema.prisma
+          [ -f "$SCHEMA" ] || SCHEMA=.wasp/out/db/schema.prisma
+          npx prisma migrate diff \
+            --from-migrations migrations \
+            --to-schema-datamodel "$SCHEMA" \
+            --shadow-database-url postgresql://ci:ci@localhost:5432/shadow \
+            --exit-code
 
   unit-tests:
     # The vitest suite includes the auth/ownership regression guards
