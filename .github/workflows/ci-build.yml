@@ -6,9 +6,9 @@ name: CI — Wasp build check
 on:
   push:
     branches: [main]
-    paths: ['compass/app/**', 'reports/**', 'scripts/**']
+    paths: ['compass/app/**', 'compass/mcp/**', 'dfva/**', 'reports/**', 'scripts/**']
   pull_request:
-    paths: ['compass/app/**', 'reports/**', 'scripts/**']
+    paths: ['compass/app/**', 'compass/mcp/**', 'dfva/**', 'reports/**', 'scripts/**']
 
 permissions:
   contents: read
@@ -60,6 +60,26 @@ jobs:
         run: |
           export PATH="$HOME/.local/bin:$PATH"
           wasp test client run
+
+  mcp:
+    # Type-check + unit tests for the dfva MCP server (previously never in CI —
+    # not even its tsc build ran anywhere).
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: compass/mcp
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - name: Set up Node
+        uses: actions/setup-node@39370e3970a6d050c480ffad4ff0ed4d3fdee5af # v4.1.0
+        with:
+          node-version: '20'
+      - name: Install
+        run: npm ci
+      - name: Build (type-check)
+        run: npm run build
+      - name: Test
+        run: npm test
 
   completeness:
     # Blocks a new course from shipping partial (missing redesign plan, dangling
