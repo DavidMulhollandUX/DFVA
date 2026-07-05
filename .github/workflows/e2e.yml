@@ -55,7 +55,9 @@ jobs:
 
       - name: Apply migrations
         working-directory: compass/app
-        run: DATABASE_URL=postgresql://postgres:postgres@localhost:5432/dfva_e2e npx prisma migrate deploy --schema schema.prisma
+        # prisma version pinned to the app's dependency — an unpinned npx pulls
+        # latest (7.x), which rejects Prisma-5 schema files (P1012).
+        run: DATABASE_URL=postgresql://postgres:postgres@localhost:5432/dfva_e2e npx prisma@5.19.1 migrate deploy --schema schema.prisma
 
       - name: Install e2e dependencies
         working-directory: compass/e2e-tests
