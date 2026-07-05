@@ -28,11 +28,12 @@ import {
   Clock
 } from "lucide-react";
 import { useQuery, useAction } from "wasp/client/operations";
-import { 
-  getAssessmentJobs, 
-  getCourseInterventions, 
-  updateCourseIntervention, 
-  uploadAlumniData 
+import {
+  getAssessmentJobs,
+  getSyllabusMap,
+  getCourseInterventions,
+  updateCourseIntervention,
+  uploadAlumniData
 } from "wasp/client/operations";
 import { useAuth } from "wasp/client/auth";
 
@@ -633,7 +634,7 @@ function InteractiveRubricPanel({ dimensions, thresholds, programName, baseScore
             <div className="space-y-3">
               {[
                 { q: "q1", label: "Could AI produce 80% of this grad's first-2yr output?", val: thresholds.q1 },
-                { q: "q2", label: "Does this program train graduates to design systems, own decisions, or generate original insight?", val: thresholds.val || thresholds.q2 },
+                { q: "q2", label: "Does this program train graduates to design systems, own decisions, or generate original insight?", val: thresholds.q2 },
                 { q: "q3", label: "Will these graduates be more employable in 5 years than today?", val: thresholds.q3 }
               ].map((item) => {
                 let badgeBg = "bg-yellow-500/10 text-yellow-600 dark:text-yellow-400 border border-yellow-500/20";
@@ -799,16 +800,23 @@ export default function ReportDetailPage() {
     );
   }, [jobs, code]);
 
-  // Load syllabus data state
+  // Load syllabus data state. Fetched per-job via getSyllabusMap (which selects
+  // only syllabusJson) — the job list no longer carries the heavy Json columns.
   const [syllabusData, setSyllabusData] = useState(() => generateMockSyllabus(slugsByType.assessment));
 
+  const { data: syllabusMap } = useQuery(
+    getSyllabusMap,
+    { jobId: matchingJob?.id ?? "" },
+    { enabled: !!user && !!matchingJob?.id }
+  );
+
   useEffect(() => {
-    if (matchingJob && matchingJob.syllabusJson) {
-      setSyllabusData(matchingJob.syllabusJson as any);
+    if (syllabusMap) {
+      setSyllabusData(syllabusMap as any);
     } else {
       setSyllabusData(generateMockSyllabus(slugsByType.assessment));
     }
-  }, [matchingJob, slugsByType.assessment]);
+  }, [syllabusMap, slugsByType.assessment]);
 
   // 3. Simulated/What-If Sandbox State
   const [simulatedScore, setSimulatedScore] = useState<number | null>(null);

@@ -115,7 +115,22 @@ export const assessProgram: AssessProgram<{ handbookUrl: string }, AssessmentJob
 /** Jobs stuck in `processing` longer than this are presumed lost to a server restart. */
 const STALE_JOB_CUTOFF_MS = 30 * 60 * 1000;
 
-export const getAssessmentJobs: GetAssessmentJobs<void, AssessmentJob[]> = async (
+type AssessmentJobListItem = Pick<
+  AssessmentJob,
+  | 'id'
+  | 'status'
+  | 'courseCode'
+  | 'programName'
+  | 'handbookUrl'
+  | 'score'
+  | 'maxScore'
+  | 'riskBand'
+  | 'errorMessage'
+  | 'createdAt'
+  | 'userId'
+> & { reportJson: { assessmentSlug: string | null } | null };
+
+export const getAssessmentJobs: GetAssessmentJobs<void, AssessmentJobListItem[]> = async (
   _args,
   context
 ) => {
@@ -136,10 +151,40 @@ export const getAssessmentJobs: GetAssessmentJobs<void, AssessmentJob[]> = async
     },
   });
 
-  return context.entities.AssessmentJob.findMany({
+  // List fields only — reportJson/syllabusJson/dimensions/thresholds are heavy
+  // Json columns the list view never renders, and AssessorPage polls this query
+  // every 1.5s while a job is processing. Syllabus data is served per-job by
+  // getSyllabusMap. reportJson is trimmed to the one field the UI links with;
+  // a dedicated assessmentSlug column would let Prisma skip loading it entirely.
+  const jobs = await context.entities.AssessmentJob.findMany({
     where: { userId: context.user.id },
     orderBy: { createdAt: 'desc' },
     take: 50,
+    select: {
+      id: true,
+      status: true,
+      courseCode: true,
+      programName: true,
+      handbookUrl: true,
+      score: true,
+      maxScore: true,
+      riskBand: true,
+      errorMessage: true,
+      createdAt: true,
+      userId: true,
+      reportJson: true,
+    },
+  });
+
+  return jobs.map((job) => {
+    const slug =
+      job.reportJson && typeof job.reportJson === 'object' && 'assessmentSlug' in job.reportJson
+        ? (job.reportJson as { assessmentSlug?: unknown }).assessmentSlug
+        : null;
+    return {
+      ...job,
+      reportJson: typeof slug === 'string' ? { assessmentSlug: slug } : null,
+    };
   });
 };
 
