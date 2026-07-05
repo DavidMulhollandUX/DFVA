@@ -26,8 +26,9 @@ export const logUserIn = async ({ page, user }: { page: Page; user: User }) => {
     clickLogin,
   ]);
 
-  // main.wasp: onAuthSucceededRedirectTo is /assess
-  await page.waitForURL("**/assess");
+  // The login page's useRedirectIfLoggedIn hook navigates to /reports as soon
+  // as the session exists (it wins over main.wasp's onAuthSucceededRedirectTo).
+  await page.waitForURL("**/reports");
 };
 
 export const signUserUp = async ({
