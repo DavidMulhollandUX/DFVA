@@ -41,6 +41,18 @@ docs/workflow-sop.md
 # Hermes Agent — personal/local (keep out of the shared repo)
 .hermes/
 
+# codebase-memory tool — auto-regenerated agent-config boilerplate (wrong
+# "<YOUR_APP_NAME>"-template content; reappears under compass/* on reinstall).
+# NOTE: compass/app/CLAUDE.md is hand-written and tracked — do not ignore it.
+compass/*/.clinerules
+compass/*/.cursorrules
+compass/*/.roomodes
+compass/*/.windsurfrules
+compass/*/CONVENTIONS.md
+compass/*/.github/copilot-instructions.md
+compass/mcp/CLAUDE.md
+compass/e2e-tests/CLAUDE.md
+
 # Handbook cache (on-demand fetches)
 .handbook-cache/
 
