@@ -12,7 +12,7 @@ REACT_APP_API_URL="$API_URL" npx vite build
 echo "📝 Writing vercel.json SPA rewrite..."
 cat > "$BUILD_DIR/vercel.json" << 'EOF'
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+  "rewrites": [{ "source": "/(.*)", "destination": "/200.html" }]
 }
 EOF
 

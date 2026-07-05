@@ -45,7 +45,9 @@ entry=""
 for d in "${DOMAINS[@]}"; do
   body=$(curl -sL -w "\n%{http_code}" --max-time 20 -A "Mozilla/5.0" "$d/")
   code=$(printf '%s' "$body" | tail -1)
-  asset=$(printf '%s' "$body" | grep -oE '/assets/index-[A-Za-z0-9_-]+\.js' | head -1)
+  # Entry chunk is 200-*.js since Wasp 0.24 (SPA fallback renamed index.html
+  # → 200.html); accept index-*.js too so this works against older deploys.
+  asset=$(printf '%s' "$body" | grep -oE '/assets/(200|index)-[A-Za-z0-9_-]+\.js' | head -1)
   if [ "$code" != "200" ]; then
     echo "  ✗ $d → $code"; fail=1
   else

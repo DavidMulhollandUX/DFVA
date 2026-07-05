@@ -1,4 +1,4 @@
-import type { MarketDriftJob } from "wasp/server/jobs";
+import type { ScanMarketDrift } from "wasp/server/jobs";
 import { logger } from "../server/logger";
 
 /**
@@ -30,7 +30,7 @@ function clusterForCourseCode(courseCode: string | null): string {
  * Iterates through all completed assessment jobs, simulates industry cluster score drift,
  * and logs warning flags if any program's future-durability score drops.
  */
-export const scanMarketDrift: MarketDriftJob<any, any> = async (
+export const scanMarketDrift: ScanMarketDrift<any, any> = async (
   _args,
   context,
 ) => {

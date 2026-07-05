@@ -55,10 +55,12 @@
     "@tailwindcss/vite": "^4.1.18",
     "@types/dagre": "^0.7.54",
     "@types/express": "^5.0.0",
+    "@types/node": "^24.0.0",
     "@types/react": "^19.2.7",
+    "@wasp.sh/spec": "file:.wasp/spec",
     "playwright": "^1.60.0",
     "prisma": "5.19.1",
-    "typescript": "5.8.2",
+    "typescript": "5.9.3",
     "vite": "^7.0.6",
     "vitest": "^4.0.16"
   },

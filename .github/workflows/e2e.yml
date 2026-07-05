@@ -22,9 +22,9 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@39370e3970a6d050c480ffad4ff0ed4d3fdee5af # v4.1.0
         with:
-          node-version: '22'
-      - name: Install Wasp 0.22.0
-        run: npm install -g @wasp.sh/wasp-cli@0.22.0 @wasp.sh/wasp-cli-linux-x64-glibc@0.22.0
+          node-version: '24'
+      - name: Install Wasp 0.24.0
+        run: npm install -g @wasp.sh/wasp-cli@0.24.0 @wasp.sh/wasp-cli-linux-x64-glibc@0.24.0
 
       # Mirrors the local dev .env.server: DFVA_MOCK short-circuits the LLM
       # pipeline, payment/S3 keys are dummies (validated for presence only).
@@ -43,6 +43,13 @@ jobs:
           AWS_S3_FILES_BUCKET=dummy-bucket
           SKIP_EMAIL_VERIFICATION_IN_DEV=true
           EOF
+
+      # Since Wasp 0.24, package.json depends on the generated file:.wasp/spec
+      # package — the app-runner's `wasp start` refuses with "Missing or stale
+      # dependencies" until `wasp install` has generated it.
+      - name: Install app dependencies (via wasp)
+        working-directory: compass/app
+        run: wasp install
 
       - name: Install e2e dependencies
         working-directory: compass/e2e-tests
