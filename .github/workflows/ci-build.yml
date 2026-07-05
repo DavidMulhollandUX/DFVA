@@ -56,6 +56,10 @@ jobs:
           node-version: '20'
       - name: Install Wasp 0.22.0
         run: curl -sSL https://get.wasp.sh/installer.sh | sh -s -- -v 0.22.0
+      - name: Prettier check
+        run: |
+          npm ci || npm install
+          npx prettier --check src/
       - name: Run unit tests
         run: |
           export PATH="$HOME/.local/bin:$PATH"
