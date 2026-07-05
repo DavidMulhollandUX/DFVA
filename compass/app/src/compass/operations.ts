@@ -1,7 +1,8 @@
 import { HttpError } from 'wasp/server';
-import type { 
+import type { AssessmentJob } from 'wasp/entities';
+import type {
   AssessProgram,
-  GetAssessmentJobs, 
+  GetAssessmentJobs,
   GetAssessmentJob,
   GetValidationSignals,
   GetCompetitiveEvents,
@@ -11,9 +12,9 @@ import type {
   GetCourseInterventions,
   UploadAlumniData,
 } from 'wasp/server/operations';
+import * as z from 'zod';
+import { ensureArgsSchemaOrThrowHttpError } from '../server/validation';
 import { getAssessmentService } from './assessmentService';
-
-type AssessmentJob = any;
 
 /**
  * Throw unless the authenticated user owns the given assessment job.
@@ -22,14 +23,20 @@ type AssessmentJob = any;
  */
 async function assertOwnsAssessmentJob(
   assessmentJobId: string,
-  context: any
+  userId: string,
+  assessmentJobs: {
+    findUnique(args: {
+      where: { id: string };
+      select: { userId: true };
+    }): Promise<{ userId: string | null } | null>;
+  }
 ): Promise<void> {
-  const job = await context.entities.AssessmentJob.findUnique({
+  const job = await assessmentJobs.findUnique({
     where: { id: assessmentJobId },
     select: { userId: true },
   });
   if (!job) throw new HttpError(404, 'Assessment job not found');
-  if (job.userId !== context.user.id) {
+  if (job.userId !== userId) {
     throw new HttpError(403, 'Forbidden');
   }
 }
@@ -38,15 +45,19 @@ async function assertOwnsAssessmentJob(
  * Submit a handbook URL for assessment.
  * Returns the AssessmentJob record.
  */
+const assessProgramInputSchema = z.object({
+  handbookUrl: z
+    .string()
+    .url()
+    .refine((u) => /^https?:\/\//.test(u), 'Handbook URL must be http(s)'),
+});
+
 export const assessProgram: AssessProgram<{ handbookUrl: string }, AssessmentJob> = async (
-  { handbookUrl },
+  rawArgs,
   context
 ) => {
-  if (!handbookUrl || !handbookUrl.startsWith('http')) {
-    throw new HttpError(400, 'Invalid handbook URL');
-  }
-
   if (!context.user) throw new HttpError(401, 'Authentication required');
+  const { handbookUrl } = ensureArgsSchemaOrThrowHttpError(assessProgramInputSchema, rawArgs);
 
   const job = await context.entities.AssessmentJob.create({
     data: {
@@ -77,14 +88,21 @@ export const assessProgram: AssessProgram<{ handbookUrl: string }, AssessmentJob
         },
       });
     })
-    .catch(async (error: any) => {
-      await context.entities.AssessmentJob.update({
-        where: { id: job.id },
-        data: {
-          status: 'failed',
-          errorMessage: error.message ?? 'Unknown error',
-        },
-      });
+    .catch(async (error: unknown) => {
+      const message = error instanceof Error ? error.message : 'Unknown error';
+      console.error(`[COMPASS] Assessment failed for job ${job.id}:`, error);
+      try {
+        await context.entities.AssessmentJob.update({
+          where: { id: job.id },
+          data: {
+            status: 'failed',
+            errorMessage: message,
+          },
+        });
+      } catch (updateError) {
+        // Without this the rejection is unhandled and the failure is lost entirely.
+        console.error(`[COMPASS] Failed to persist failed status for job ${job.id}:`, updateError);
+      }
     });
 
   // Return job immediately while assessment runs in background
@@ -94,11 +112,29 @@ export const assessProgram: AssessProgram<{ handbookUrl: string }, AssessmentJob
 /**
  * List all assessment jobs (most recent first).
  */
+/** Jobs stuck in `processing` longer than this are presumed lost to a server restart. */
+const STALE_JOB_CUTOFF_MS = 30 * 60 * 1000;
+
 export const getAssessmentJobs: GetAssessmentJobs<void, AssessmentJob[]> = async (
   _args,
   context
 ) => {
   if (!context.user) throw new HttpError(401, 'Authentication required');
+
+  // The assessment runs as a fire-and-forget promise (see assessProgram); a
+  // server restart mid-run would otherwise strand the job in `processing` and
+  // the client would poll it forever.
+  await context.entities.AssessmentJob.updateMany({
+    where: {
+      userId: context.user.id,
+      status: 'processing',
+      createdAt: { lt: new Date(Date.now() - STALE_JOB_CUTOFF_MS) },
+    },
+    data: {
+      status: 'failed',
+      errorMessage: 'Timed out (server restarted during assessment)',
+    },
+  });
 
   return context.entities.AssessmentJob.findMany({
     where: { userId: context.user.id },
@@ -110,11 +146,14 @@ export const getAssessmentJobs: GetAssessmentJobs<void, AssessmentJob[]> = async
 /**
  * Get a single assessment job by ID.
  */
+const jobIdInputSchema = z.object({ id: z.string().min(1) });
+
 export const getAssessmentJob: GetAssessmentJob<{ id: string }, AssessmentJob | null> = async (
-  { id },
+  rawArgs,
   context
 ) => {
   if (!context.user) throw new HttpError(401, 'Authentication required');
+  const { id } = ensureArgsSchemaOrThrowHttpError(jobIdInputSchema, rawArgs);
 
   const job = await context.entities.AssessmentJob.findUnique({
     where: { id },
@@ -131,6 +170,8 @@ export const getAssessmentJob: GetAssessmentJob<{ id: string }, AssessmentJob | 
   return job;
 };
 
+// Deliberately public (no auth check): backs the public /insights pages.
+// If non-public fields are ever added to MarketValidationSignal, add a select.
 export const getValidationSignals: GetValidationSignals<void, any[]> = async (
   _args,
   context
@@ -138,9 +179,11 @@ export const getValidationSignals: GetValidationSignals<void, any[]> = async (
   return context.entities.MarketValidationSignal.findMany({
     where: { isActive: true },
     orderBy: { credibilityScore: 'desc' },
+    take: 200,
   });
 };
 
+// Deliberately public (no auth check): backs the public /insights pages.
 export const getCompetitiveEvents: GetCompetitiveEvents<void, any[]> = async (
   _args,
   context
@@ -148,9 +191,11 @@ export const getCompetitiveEvents: GetCompetitiveEvents<void, any[]> = async (
   return context.entities.CompetitiveEvent.findMany({
     where: { isActive: true },
     orderBy: { dateOccurred: 'desc' },
+    take: 200,
   });
 };
 
+// Deliberately public (no auth check): backs the public /insights pages.
 export const getMarketWindowStatus: GetMarketWindowStatus<void, any | null> = async (
   _args,
   context
@@ -160,11 +205,14 @@ export const getMarketWindowStatus: GetMarketWindowStatus<void, any | null> = as
   });
 };
 
+const syllabusMapInputSchema = z.object({ jobId: z.string().min(1) });
+
 export const getSyllabusMap: GetSyllabusMap<{ jobId: string }, any> = async (
-  { jobId },
+  rawArgs,
   context
 ) => {
   if (!context.user) throw new HttpError(401, 'Authentication required');
+  const { jobId } = ensureArgsSchemaOrThrowHttpError(syllabusMapInputSchema, rawArgs);
 
   const job = await context.entities.AssessmentJob.findUnique({
     where: { id: jobId },
@@ -179,6 +227,20 @@ export const getSyllabusMap: GetSyllabusMap<{ jobId: string }, any> = async (
   return job.syllabusJson;
 };
 
+const updateCourseInterventionInputSchema = z.object({
+  assessmentJobId: z.string().min(1),
+  courseCode: z.string().min(1).max(20),
+  dimensionId: z.number().int().min(1).max(11),
+  ownerName: z.string().min(1).max(100),
+  ownerEmail: z.string().email().max(200),
+  // Matches the CourseInterventionOwner.status comment in schema.prisma
+  status: z.enum(['assigned', 'in_progress', 'completed']),
+  targetDate: z
+    .string()
+    .refine((d) => !Number.isNaN(Date.parse(d)), 'targetDate must be a parseable date')
+    .optional(),
+});
+
 export const updateCourseIntervention: UpdateCourseIntervention<
   {
     assessmentJobId: string;
@@ -190,9 +252,10 @@ export const updateCourseIntervention: UpdateCourseIntervention<
     targetDate?: string;
   },
   any
-> = async (args, context) => {
+> = async (rawArgs, context) => {
   if (!context.user) throw new HttpError(401, 'Authentication required');
-  await assertOwnsAssessmentJob(args.assessmentJobId, context);
+  const args = ensureArgsSchemaOrThrowHttpError(updateCourseInterventionInputSchema, rawArgs);
+  await assertOwnsAssessmentJob(args.assessmentJobId, context.user.id, context.entities.AssessmentJob);
 
   return context.entities.CourseInterventionOwner.upsert({
     where: {
@@ -220,17 +283,38 @@ export const updateCourseIntervention: UpdateCourseIntervention<
   });
 };
 
+const courseInterventionsInputSchema = z.object({ assessmentJobId: z.string().min(1) });
+
 export const getCourseInterventions: GetCourseInterventions<
   { assessmentJobId: string },
   any[]
-> = async ({ assessmentJobId }, context) => {
+> = async (rawArgs, context) => {
   if (!context.user) throw new HttpError(401, 'Authentication required');
-  await assertOwnsAssessmentJob(assessmentJobId, context);
+  const { assessmentJobId } = ensureArgsSchemaOrThrowHttpError(
+    courseInterventionsInputSchema,
+    rawArgs
+  );
+  await assertOwnsAssessmentJob(assessmentJobId, context.user.id, context.entities.AssessmentJob);
 
   return context.entities.CourseInterventionOwner.findMany({
     where: { assessmentJobId },
   });
 };
+
+const uploadAlumniDataInputSchema = z.object({
+  programCode: z.string().min(1).max(20),
+  alumni: z
+    .array(
+      z.object({
+        jobTitle: z.string().min(1).max(200),
+        employer: z.string().max(200).optional(),
+        graduationYear: z.number().int().min(1950).max(2100),
+        industryCluster: z.string().min(1).max(100),
+      })
+    )
+    .min(1)
+    .max(1000),
+});
 
 export const uploadAlumniData: UploadAlumniData<
   {
@@ -243,8 +327,12 @@ export const uploadAlumniData: UploadAlumniData<
     }>;
   },
   any
-> = async ({ programCode, alumni }, context) => {
+> = async (rawArgs, context) => {
   if (!context.user) throw new HttpError(401, 'Authentication required');
+  const { programCode, alumni } = ensureArgsSchemaOrThrowHttpError(
+    uploadAlumniDataInputSchema,
+    rawArgs
+  );
   const userId = context.user.id;
 
   const records = alumni.map((a) => ({
@@ -274,7 +362,18 @@ import type {
  * Get or create the "self" institution used as the default for
  * user-generated API keys from the developer portal.
  */
-async function getOrCreateSelfInstitution(context: any) {
+type SelfInstitution = { id: string };
+
+async function getOrCreateSelfInstitution(context: {
+  entities: {
+    Institution: {
+      findUnique(args: { where: { code: string } }): Promise<SelfInstitution | null>;
+      create(args: {
+        data: { name: string; code: string; country: string };
+      }): Promise<SelfInstitution>;
+    };
+  };
+}): Promise<SelfInstitution> {
   const SELF_CODE = 'dfva-self';
   let inst = await context.entities.Institution.findUnique({
     where: { code: SELF_CODE },
@@ -299,6 +398,10 @@ type ApiKeyResult = {
   createdAt: Date;
 };
 
+const generateApiKeyInputSchema = z.object({
+  name: z.string().trim().min(1, 'Key name is required').max(100),
+});
+
 /**
  * Generate a new API key for the logged-in user.
  * Returns the raw key ONCE — it is never stored.
@@ -306,11 +409,9 @@ type ApiKeyResult = {
 export const generateApiKey: GenerateApiKey<
   { name: string },
   { apiKey: ApiKeyResult; rawKey: string }
-> = async ({ name }, context) => {
+> = async (rawArgs, context) => {
   if (!context.user) throw new HttpError(401, 'Authentication required');
-  if (!name || name.trim().length === 0) {
-    throw new HttpError(400, 'Key name is required');
-  }
+  const { name } = ensureArgsSchemaOrThrowHttpError(generateApiKeyInputSchema, rawArgs);
 
   const institution = await getOrCreateSelfInstitution(context);
   const { rawKey, keyHash, keyPrefix } = genKey();
@@ -344,8 +445,12 @@ export const generateApiKey: GenerateApiKey<
 export const revokeApiKey: RevokeApiKey<
   { keyId: string },
   { success: boolean }
-> = async ({ keyId }, context) => {
+> = async (rawArgs, context) => {
   if (!context.user) throw new HttpError(401, 'Authentication required');
+  const { keyId } = ensureArgsSchemaOrThrowHttpError(
+    z.object({ keyId: z.string().min(1) }),
+    rawArgs
+  );
 
   const key = await context.entities.ApiKey.findUnique({
     where: { id: keyId },

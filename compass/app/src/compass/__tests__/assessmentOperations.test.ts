@@ -12,6 +12,7 @@ function mockContext(user: { id: string } | null) {
     user,
     entities: {
       AssessmentJob: {
+        updateMany: vi.fn().mockResolvedValue({ count: 0 }),
         findMany: vi.fn().mockImplementation((args: any) => {
           if (args?.where?.userId) {
             return jobStore.filter(j => j.userId === args.where.userId);

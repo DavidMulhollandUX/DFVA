@@ -34,7 +34,7 @@ const interventionArgs = {
   dimensionId: 1,
   ownerName: 'Owner',
   ownerEmail: 'owner@example.com',
-  status: 'planned',
+  status: 'assigned',
 };
 
 describe('getCourseInterventions — ownership guard', () => {
