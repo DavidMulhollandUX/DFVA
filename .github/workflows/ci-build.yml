@@ -34,7 +34,8 @@ jobs:
       # in a production build. Flip to SMTP just for the CI compile (no secrets
       # needed to *build*), matching what deploy-server.sh does at deploy time.
       - name: Allow production build (emailSender Dummy → SMTP)
-        run: sed -i 's/provider: "Dummy",/provider: "SMTP",/' main.wasp.ts
+        run: |
+          sed -i 's/provider: "Dummy",/provider: "SMTP",/' main.wasp.ts
 
       - name: Wasp build (compile + type-check)
         run: wasp build

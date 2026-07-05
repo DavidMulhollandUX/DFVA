@@ -44,6 +44,13 @@ jobs:
           SKIP_EMAIL_VERIFICATION_IN_DEV=true
           EOF
 
+      # Since Wasp 0.24, package.json depends on the generated file:.wasp/spec
+      # package — the app-runner's `wasp start` refuses with "Missing or stale
+      # dependencies" until `wasp install` has generated it.
+      - name: Install app dependencies (via wasp)
+        working-directory: compass/app
+        run: wasp install
+
       - name: Install e2e dependencies
         working-directory: compass/e2e-tests
         run: |
