@@ -52,7 +52,7 @@ Typical graduate roles include genetic counsellor (clinical genetics units at ho
 | 7 | Research Methods Rigour | 2 | Healthcare Research Principles + Research Project in Human Genomics 1 & 2 (37.5pt total). Research-engaged but clinically focused. |
 | 8 | Human and Relational Capability | 3 | This is the program's defining dimension. Foundational + Advanced Counselling Practice, two Genetic Counselling Practice subjects, 37.5pt clinical placement. HGSA certification requires demonstrated clinical competence. |
 | 9 | Curriculum Currency and Adaptability | 2 | Updated 19 Nov 2025. Clinical Genomics, Societal Implications of Genomics — current. No AI/genomics integration. |
-| 10 | Graduate Outcome Evidence | 3 | HGSA certification pathway provides external outcome tracking. Program-specific destination data not published. |
+| 10 | Graduate Outcome Evidence | 3 | UoM Job Insights Report (LiveAlumni, exact match, n=35) publishes destination evidence; HGSA certification pathway adds external outcome tracking. |
 | B | Irreplaceability Premium (Bonus) | 3 | Rare: clinical genetics + counselling + empathy + ethics. The combination resists AI substitution at every level. |
 
 **TOTAL: 27 / 36**  

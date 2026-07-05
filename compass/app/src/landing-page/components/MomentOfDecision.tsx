@@ -5,7 +5,7 @@ export default function MomentOfDecision() {
   return (
     <section className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-28">
       <Reveal className="mx-auto max-w-3xl text-center">
-        <p className="text-secondary font-mono text-sm font-medium uppercase tracking-[0.18em]">
+        <p className="text-secondary font-mono text-sm font-medium tracking-[0.18em] uppercase">
           {decisionMoments.eyebrow}
         </p>
         <h2 className="text-foreground mt-4 font-serif text-3xl font-semibold tracking-tight sm:text-4xl">

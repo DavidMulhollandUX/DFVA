@@ -1,7 +1,7 @@
-import type { AssessmentService, AssessmentResult } from './assessmentService';
-import { PROGRAMS } from './sharedProgramData';
-import { REPORT_CONTENT } from './reportContent';
-import { generateMockSyllabus } from './mockSyllabusData';
+import type { AssessmentService, AssessmentResult } from "./assessmentService";
+import { PROGRAMS } from "./sharedProgramData";
+import { REPORT_CONTENT } from "./reportContent";
+import { generateMockSyllabus } from "./mockSyllabusData";
 
 export class MockAssessmentService implements AssessmentService {
   async assess(handbookUrl: string): Promise<AssessmentResult> {
@@ -10,18 +10,18 @@ export class MockAssessmentService implements AssessmentService {
     await new Promise((r) => setTimeout(r, delay));
 
     const normalized = handbookUrl.trim().toLowerCase();
-    
+
     // Match against known programs by URL
     const match = PROGRAMS.find(
-      (p) => p.handbookUrl && p.handbookUrl.toLowerCase() === normalized
+      (p) => p.handbookUrl && p.handbookUrl.toLowerCase() === normalized,
     );
 
     if (match) {
       const assessmentContent = REPORT_CONTENT[match.assessmentSlug];
       const syllabusJson = generateMockSyllabus(match.assessmentSlug);
-      
+
       return {
-        courseCode: match.assessmentSlug.replace('dfva-', '').toUpperCase(),
+        courseCode: match.assessmentSlug.replace("dfva-", "").toUpperCase(),
         programName: match.program,
         score: match.score,
         maxScore: match.maxScore,
@@ -30,7 +30,7 @@ export class MockAssessmentService implements AssessmentService {
         dimensions: match.dimensions,
         syllabusJson: syllabusJson as any,
         reportJson: {
-          assessmentMarkdown: assessmentContent?.markdown ?? '',
+          assessmentMarkdown: assessmentContent?.markdown ?? "",
           assessmentSlug: match.assessmentSlug,
           marketSlug: match.marketSlug,
           recommendSlug: match.recommendSlug,
@@ -42,8 +42,10 @@ export class MockAssessmentService implements AssessmentService {
     }
 
     // Unknown URL: fallback
-    const courseCode = extractCourseCode(normalized) ?? 'UNKNOWN';
-    const syllabusJson = generateMockSyllabus(`dfva-${courseCode.toLowerCase()}`);
+    const courseCode = extractCourseCode(normalized) ?? "UNKNOWN";
+    const syllabusJson = generateMockSyllabus(
+      `dfva-${courseCode.toLowerCase()}`,
+    );
     return {
       courseCode,
       programName: `Program at ${new URL(handbookUrl).hostname}`,
@@ -68,7 +70,7 @@ export class MockAssessmentService implements AssessmentService {
       reportJson: {
         assessmentMarkdown: `## DFVA Assessment: Pending\n\n**Source URL:** ${handbookUrl}\n\n_Automated assessment not yet available for this program. A detailed analysis will be generated soon._`,
         assessmentSlug: `dfva-${courseCode.toLowerCase()}`,
-        date: new Date().toISOString().split('T')[0],
+        date: new Date().toISOString().split("T")[0],
         institution: "University of Melbourne",
         level: "To be determined",
       },

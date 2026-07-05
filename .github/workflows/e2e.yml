@@ -1,0 +1,55 @@
+# Runs the Playwright suite (compass/e2e-tests) against the app in mock mode.
+# Playwright's own webServer block boots the app via @wasp.sh/wasp-app-runner;
+# this job only provides Postgres, env, and the toolchain.
+name: E2E tests
+
+on:
+  pull_request:
+    paths: ['compass/**']
+
+permissions:
+  contents: read
+
+jobs:
+  playwright:
+    # No postgres service and no migrate step here: the Playwright webServer
+    # (@wasp.sh/wasp-app-runner) starts its own postgres container on 5432,
+    # runs `wasp db migrate-dev`, then `wasp start`. A workflow-level postgres
+    # service collides with it (port 5432 already allocated).
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - name: Set up Node
+        uses: actions/setup-node@39370e3970a6d050c480ffad4ff0ed4d3fdee5af # v4.1.0
+        with:
+          node-version: '22'
+      - name: Install Wasp 0.22.0
+        run: npm install -g @wasp.sh/wasp-cli@0.22.0 @wasp.sh/wasp-cli-linux-x64-glibc@0.22.0
+
+      # Mirrors the local dev .env.server: DFVA_MOCK short-circuits the LLM
+      # pipeline, payment/S3 keys are dummies (validated for presence only).
+      # No DATABASE_URL — the app-runner injects its own container's URL.
+      - name: Create .env.server (mock mode)
+        working-directory: compass/app
+        run: |
+          cat > .env.server <<'EOF'
+          DFVA_MOCK=true
+          OPENAI_API_KEY=sk-dummy-ci
+          STRIPE_API_KEY=sk_test_dummy
+          STRIPE_WEBHOOK_SECRET=whsec_dummy
+          AWS_S3_REGION=ap-southeast-2
+          AWS_S3_IAM_ACCESS_KEY=dummy
+          AWS_S3_IAM_SECRET_KEY=dummy
+          AWS_S3_FILES_BUCKET=dummy-bucket
+          SKIP_EMAIL_VERIFICATION_IN_DEV=true
+          EOF
+
+      - name: Install e2e dependencies
+        working-directory: compass/e2e-tests
+        run: |
+          npm ci
+          npx playwright install --with-deps chromium
+
+      - name: Run Playwright tests
+        working-directory: compass/e2e-tests
+        run: npm run e2e:playwright

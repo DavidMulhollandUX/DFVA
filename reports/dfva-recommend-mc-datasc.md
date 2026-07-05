@@ -1,12 +1,12 @@
 ## IMPROVEMENT PLAN: Master of Data Science
 
-**Current:** 24/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
-**Target:** 28/36 RESILIENT | **Gap:** 4 points
+**Current:** 26/36 MODERATE RISK | **Duration:** 2 years (200 credit points)
+**Target:** 28/36 RESILIENT | **Gap:** 2 points
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The Master of Data Science scored **24/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
+The Master of Data Science scored **26/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
@@ -19,16 +19,16 @@ The Master of Data Science scored **24/36 — MODERATE RISK**. Gaps in core dime
 | Research Rigour | 2/3 | Adequate |
 | Human & Relational | 2/3 | Adequate |
 | Curriculum Currency | 3/3 | Strong |
-| Outcome Evidence | 1/3 | Critical gap |
+| Outcome Evidence | 3/3 | Strong |
 | Irreplaceability (bonus) | 2/3 | Adequate |
-| **TOTAL** | **24/36** | **MODERATE RISK** |
+| **TOTAL** | **26/36** | **MODERATE RISK** |
 
 ---
 
 ## 2. SCORE-TO-ACTION MAPPING
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
-| Outcome Evidence | 1/3 | Entry-level skills show automation risk. | Publish graduate destination survey results on program page. |
+| Outcome Evidence | 3/3 | Real destination evidence now published (UoM Job Insights / LiveAlumni). | Publish graduate destination survey results on program page. |
 | Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
 | Decision-Making | 2/3 | Entry-level skills show automation risk. | Add capstone project requiring documented decision rationale. |
 | Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |

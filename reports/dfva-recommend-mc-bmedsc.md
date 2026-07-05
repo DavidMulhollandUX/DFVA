@@ -1,12 +1,12 @@
 ## IMPROVEMENT PLAN: Master of Biomedical Science
 
-**Current:** 25/36 MODERATE RISK | **Duration:** 2 years (200 pts)
-**Target:** 28/36 RESILIENT | **Gap:** 3 points
+**Current:** 26/36 MODERATE RISK | **Duration:** 2 years (200 pts)
+**Target:** 28/36 RESILIENT | **Gap:** 2 points
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The Master of Biomedical Science scored **25/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
+The Master of Biomedical Science scored **26/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
@@ -19,16 +19,16 @@ The Master of Biomedical Science scored **25/36 — MODERATE RISK**. Gaps in cor
 | Research Rigour | 3/3 | Strong |
 | Human & Relational | 2/3 | Adequate |
 | Curriculum Currency | 2/3 | Adequate |
-| Outcome Evidence | 1/3 | Critical gap |
+| Outcome Evidence | 2/3 | Adequate |
 | Irreplaceability (bonus) | 3/3 | Strong |
-| **TOTAL** | **25/36** | **MODERATE RISK** |
+| **TOTAL** | **26/36** | **MODERATE RISK** |
 
 ---
 
 ## 2. SCORE-TO-ACTION MAPPING
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
-| Outcome Evidence | 1/3 | Entry-level skills show automation risk. | Publish graduate destination survey results on program page. |
+| Outcome Evidence | 2/3 | Real destination evidence now published (UoM Job Insights / LiveAlumni). | Publish graduate destination survey results on program page. |
 | Systems Thinking | 2/3 | Entry-level skills show automation risk. | Integrate cross-disciplinary case studies into existing core units. |
 | Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |
 | AI Literacy | 1/3 | Entry-level skills show automation risk. | Add dedicated AI in discipline core unit (12.5pt). |

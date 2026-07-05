@@ -1,12 +1,12 @@
 ## IMPROVEMENT PLAN: Master of Architecture
 
-**Current:** 28/36 RESILIENT | **Duration:** 3 years (300 credit points)
+**Current:** 29/36 RESILIENT | **Duration:** 3 years (300 credit points)
 **Target:** 28/36 RESILIENT | **Gap:** 0 points
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The Master of Architecture scored **28/36 — RESILIENT**. Gaps in core dimensions define the primary intervention targets.
+The Master of Architecture scored **29/36 — RESILIENT**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
@@ -19,9 +19,9 @@ The Master of Architecture scored **28/36 — RESILIENT**. Gaps in core dimensio
 | Research Rigour | 3/3 | Strong |
 | Human & Relational | 2/3 | Adequate |
 | Curriculum Currency | 2/3 | Adequate |
-| Outcome Evidence | 2/3 | Adequate |
+| Outcome Evidence | 3/3 | Strong |
 | Irreplaceability (bonus) | 3/3 | Strong |
-| **TOTAL** | **28/36** | **RESILIENT** |
+| **TOTAL** | **29/36** | **RESILIENT** |
 
 ---
 

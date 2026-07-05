@@ -1,10 +1,10 @@
 // feat-005: Market signal momentum scoring and freshness computation
 
-export type Freshness = 'LIVE' | 'RECENT' | 'STALE';
+export type Freshness = "LIVE" | "RECENT" | "STALE";
 
 export interface FreshnessThresholds {
-  live: number;    // days — below this = LIVE
-  recent: number;  // days — below this = RECENT, above = STALE
+  live: number; // days — below this = LIVE
+  recent: number; // days — below this = RECENT, above = STALE
 }
 
 const DEFAULT_THRESHOLDS: FreshnessThresholds = {
@@ -32,21 +32,21 @@ export function computeMomentum(
   baselineWeeks: number = 12,
 ): number {
   // Need at least recentWeeks + 1 snapshots
-  const valid = snapshots.filter((s) => s.jobPostingCount != null && s.jobPostingCount > 0);
+  const valid = snapshots.filter(
+    (s) => s.jobPostingCount != null && s.jobPostingCount > 0,
+  );
   if (valid.length < 2) return 0;
 
   const totalNeeded = recentWeeks + baselineWeeks;
-  const slice = valid.length >= totalNeeded
-    ? valid.slice(-totalNeeded)
-    : valid;
+  const slice = valid.length >= totalNeeded ? valid.slice(-totalNeeded) : valid;
 
-  const recentSlice = slice.length > recentWeeks
-    ? slice.slice(-recentWeeks)
-    : slice;
+  const recentSlice =
+    slice.length > recentWeeks ? slice.slice(-recentWeeks) : slice;
 
-  const baselineSlice = slice.length - recentSlice.length > 0
-    ? slice.slice(0, slice.length - recentSlice.length)
-    : slice.slice(0, 1);
+  const baselineSlice =
+    slice.length - recentSlice.length > 0
+      ? slice.slice(0, slice.length - recentSlice.length)
+      : slice.slice(0, 1);
 
   const recentAvg = average(recentSlice);
   const baselineAvg = average(baselineSlice);
@@ -77,11 +77,12 @@ export function computeFreshness(
   lastFetched: Date | string,
   thresholds: FreshnessThresholds = DEFAULT_THRESHOLDS,
 ): Freshness {
-  const fetchedDate = typeof lastFetched === 'string' ? new Date(lastFetched) : lastFetched;
+  const fetchedDate =
+    typeof lastFetched === "string" ? new Date(lastFetched) : lastFetched;
   const ageMs = Date.now() - fetchedDate.getTime();
   const ageDays = ageMs / (1000 * 60 * 60 * 24);
 
-  if (ageDays < thresholds.live) return 'LIVE';
-  if (ageDays < thresholds.recent) return 'RECENT';
-  return 'STALE';
+  if (ageDays < thresholds.live) return "LIVE";
+  if (ageDays < thresholds.recent) return "RECENT";
+  return "STALE";
 }

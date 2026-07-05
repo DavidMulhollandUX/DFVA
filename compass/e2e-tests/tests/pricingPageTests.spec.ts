@@ -54,13 +54,18 @@ test("User should see the Buy Plan button before payment", async () => {
   await expect(manageSubscriptionButton).toBeEnabled();
 });
 
+// The payment tests below need real Stripe test keys plus a running webhook
+// listener (see local:e2e:start) — CI runs with dummy keys, so they are
+// local-only.
 test("Make test payment with Stripe for hobby plan", async () => {
+  test.skip(!!process.env.CI, "requires real Stripe keys + webhook listener");
   const planId = "hobby";
   await page.goto("/");
   await makeStripePayment({ test, page, planId });
 });
 
 test("User should see the Manage Subscription button after payment", async () => {
+  test.skip(!!process.env.CI, "requires real Stripe keys + webhook listener");
   await page.goto("/pricing");
   // There are three tiers on the page, so we want to retrieve the first of the three buttons
   const manageSubscriptionButton = page
@@ -77,6 +82,7 @@ test("User should see the Manage Subscription button after payment", async () =>
 });
 
 test("Make test payment with Stripe for 10 credits", async () => {
+  test.skip(!!process.env.CI, "requires real Stripe keys + webhook listener");
   await createAndLogInNewUser();
   await acceptAllCookies(page); // Clear the cookie consent modal so it doesn't interfere with the payment
   const planId = "credits10";

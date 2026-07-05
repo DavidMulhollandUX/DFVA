@@ -13,10 +13,17 @@ interface ProgramRadarProps {
   baseScore?: number;
 }
 
-export function ProgramRadar({ dimensions, size = 220, className = '', baseScore = 20 }: ProgramRadarProps) {
+export function ProgramRadar({
+  dimensions,
+  size = 220,
+  className = "",
+  baseScore = 20,
+}: ProgramRadarProps) {
   // Filter out any bonus dimension to ensure exactly 10 core dimensions are rendered
   const coreDims = dimensions.filter(
-    (d) => !d.label.toLowerCase().includes("bonus") && !d.label.toLowerCase().includes("irreplaceability")
+    (d) =>
+      !d.label.toLowerCase().includes("bonus") &&
+      !d.label.toLowerCase().includes("irreplaceability"),
   );
   const n = Math.min(coreDims.length, 10);
 
@@ -25,11 +32,11 @@ export function ProgramRadar({ dimensions, size = 220, className = '', baseScore
   const maxR = size / 2 - 26;
 
   // Determine risk band color from baseScore
-  let color = '#ea580c'; // default high risk (orange)
-  if (baseScore >= 28) color = '#16a34a'; // resilient (green)
-  else if (baseScore >= 20) color = '#d97706'; // moderate risk (amber)
-  else if (baseScore >= 12) color = '#ea580c'; // high risk (orange)
-  else color = '#dc2626'; // critical (red)
+  let color = "#ea580c"; // default high risk (orange)
+  if (baseScore >= 28) color = "#16a34a"; // resilient (green)
+  else if (baseScore >= 20) color = "#d97706"; // moderate risk (amber)
+  else if (baseScore >= 12) color = "#ea580c"; // high risk (orange)
+  else color = "#dc2626"; // critical (red)
 
   const angle = (i: number) => (i / n) * 2 * Math.PI - Math.PI / 2;
 
@@ -42,7 +49,7 @@ export function ProgramRadar({ dimensions, size = 220, className = '', baseScore
     Array.from({ length: n }, (_, i) => {
       const p = polar((level / 3) * maxR, i);
       return `${p.x.toFixed(2)},${p.y.toFixed(2)}`;
-    }).join(' ');
+    }).join(" ");
 
   const dataPolygon = coreDims
     .slice(0, n)
@@ -50,15 +57,18 @@ export function ProgramRadar({ dimensions, size = 220, className = '', baseScore
       const p = polar((d.score / 3) * maxR, i);
       return `${p.x.toFixed(2)},${p.y.toFixed(2)}`;
     })
-    .join(' ');
+    .join(" ");
 
   return (
-    <div className={`flex flex-col items-center ${className}`} style={{ padding: '6px 32px' }}>
+    <div
+      className={`flex flex-col items-center ${className}`}
+      style={{ padding: "6px 32px" }}
+    >
       <svg
         width={size}
         height={size}
         viewBox={`0 0 ${size} ${size}`}
-        style={{ overflow: 'visible' }}
+        style={{ overflow: "visible" }}
         aria-label="Dimension radar chart"
       >
         {[1, 2, 3].map((level) => (
@@ -107,12 +117,14 @@ export function ProgramRadar({ dimensions, size = 220, className = '', baseScore
               key={i}
               x={p.x}
               y={p.y}
-              textAnchor={cosA > 0.3 ? 'start' : cosA < -0.3 ? 'end' : 'middle'}
-              dominantBaseline={sinA > 0.3 ? 'hanging' : sinA < -0.3 ? 'auto' : 'middle'}
+              textAnchor={cosA > 0.3 ? "start" : cosA < -0.3 ? "end" : "middle"}
+              dominantBaseline={
+                sinA > 0.3 ? "hanging" : sinA < -0.3 ? "auto" : "middle"
+              }
               fontSize={8}
               className="fill-muted-foreground font-medium dark:fill-zinc-400"
             >
-              {RADAR_LABELS[i] ?? ''}
+              {RADAR_LABELS[i] ?? ""}
             </text>
           );
         })}

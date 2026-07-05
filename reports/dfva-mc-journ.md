@@ -44,10 +44,10 @@ Typical graduate roles include journalist, digital producer, investigative repor
 | 7 | Research Methods Rigour | 2 | Investigative journalism teaches research methodology. Academic research component required at master's level. Evidence and verification practices are central to the curriculum. |
 | 8 | Human and Relational Capability | 3 | Interviewing, source cultivation, ethical engagement with subjects and communities — journalism is fundamentally a human-trust profession requiring relational skill. |
 | 9 | Curriculum Currency and Adaptability | 1 | Limited evidence of digital/AI-age journalism transformation in curriculum. Traditional journalism framework visible without explicit AI-era adaptation. |
-| 10 | Graduate Outcome Evidence | 2 | Journalism employment market is structurally contracting. Limited program-specific destination data. Industry disruption is well-documented. |
+| 10 | Graduate Outcome Evidence | 3 | UoM Job Insights Report (LiveAlumni, exact match, n=51) publishes real role-title destinations — the outcome evidence itself is now published, even as the industry structurally contracts. |
 | B | Irreplaceability Premium (Bonus) | 2 | Investigative journalism requires human trust, ethical judgment, and investigative persistence. But industry is in structural decline. The human value is real; the market is shrinking. |
 
-**TOTAL: 20 / 36**  
+**TOTAL: 21 / 36**  
 **Risk band: MODERATE RISK (20-27)**
 
 ### 5. THREE THRESHOLD QUESTIONS

@@ -26,7 +26,12 @@ interface FeaturesGridProps {
   description?: string;
 }
 
-const FeaturesGrid = ({ features, className = "", title, description }: FeaturesGridProps) => {
+const FeaturesGrid = ({
+  features,
+  className = "",
+  title,
+  description,
+}: FeaturesGridProps) => {
   return (
     <div
       className="mx-auto my-16 flex max-w-7xl flex-col gap-4 md:my-24 lg:my-40"
@@ -34,7 +39,9 @@ const FeaturesGrid = ({ features, className = "", title, description }: Features
     >
       <SectionTitle
         title={title || "Features"}
-        description={description || "These are some of the features of the product."}
+        description={
+          description || "These are some of the features of the product."
+        }
       />
       <div
         className={cn(
@@ -140,10 +147,7 @@ function FeaturesGridItem({
 
   if (href) {
     return (
-      <RouterLink
-        to={href}
-        className={gridFeatureSizeToClasses[size]}
-      >
+      <RouterLink to={href} className={gridFeatureSizeToClasses[size]}>
         {gridFeatureCard}
       </RouterLink>
     );

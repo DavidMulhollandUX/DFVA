@@ -8,7 +8,7 @@ export default function ClosingCTA() {
     <section className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-24">
       <Reveal className="bg-primary text-primary-foreground relative overflow-hidden rounded-3xl px-8 py-16 text-center sm:px-16">
         <div
-          className="bg-secondary/20 absolute -right-16 -top-16 h-64 w-64 rounded-full blur-3xl"
+          className="bg-secondary/20 absolute -top-16 -right-16 h-64 w-64 rounded-full blur-3xl"
           aria-hidden="true"
         />
         <h2 className="relative font-serif text-3xl font-semibold tracking-tight sm:text-4xl">
@@ -26,7 +26,7 @@ export default function ClosingCTA() {
           <Button
             size="lg"
             variant="outline"
-            className="border-primary-foreground/30 bg-transparent text-primary-foreground hover:bg-primary-foreground/10"
+            className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 bg-transparent"
             asChild
           >
             <RouterLink to="/assess">Assess a program</RouterLink>

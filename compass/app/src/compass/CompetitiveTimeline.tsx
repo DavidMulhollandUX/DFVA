@@ -22,10 +22,7 @@ const EVENT_TYPE_LABELS: Record<string, string> = {
   ANNOUNCEMENT: "Announcement",
 };
 
-const EFFECT_BADGE: Record<
-  string,
-  { className: string; label: string }
-> = {
+const EFFECT_BADGE: Record<string, { className: string; label: string }> = {
   OPENING: {
     className:
       "bg-green-100 text-green-800 border-green-300 dark:bg-green-900/20 dark:text-green-400 dark:border-green-800",
@@ -62,9 +59,11 @@ function truncateText(text: string, maxLines = 2): string {
 
 function sortByDateDesc(
   a: CompetitiveTimelineEvent,
-  b: CompetitiveTimelineEvent
+  b: CompetitiveTimelineEvent,
 ): number {
-  return new Date(b.dateOccurred).getTime() - new Date(a.dateOccurred).getTime();
+  return (
+    new Date(b.dateOccurred).getTime() - new Date(a.dateOccurred).getTime()
+  );
 }
 
 export default function CompetitiveTimeline({
@@ -73,8 +72,8 @@ export default function CompetitiveTimeline({
   // Empty state
   if (!events || events.length === 0) {
     return (
-      <div className="rounded-lg border border-border bg-card p-6 text-center">
-        <p className="text-sm text-muted-foreground italic">
+      <div className="border-border bg-card rounded-lg border p-6 text-center">
+        <p className="text-muted-foreground text-sm italic">
           No competitive events tracked yet.
         </p>
       </div>
@@ -86,7 +85,10 @@ export default function CompetitiveTimeline({
   return (
     <div className="relative space-y-0">
       {/* Vertical line */}
-      <div className="absolute left-[19px] top-0 bottom-0 w-px bg-border" aria-hidden="true" />
+      <div
+        className="bg-border absolute top-0 bottom-0 left-[19px] w-px"
+        aria-hidden="true"
+      />
 
       <div className="space-y-6">
         {sorted.map((event, i) => {
@@ -102,35 +104,35 @@ export default function CompetitiveTimeline({
             <div key={i} className="relative flex gap-4 pl-10">
               {/* Timeline dot */}
               <div
-                className="absolute left-[11px] top-1.5 h-4 w-4 rounded-full border-2 border-border bg-card"
+                className="border-border bg-card absolute top-1.5 left-[11px] h-4 w-4 rounded-full border-2"
                 aria-hidden="true"
               />
 
               {/* Content */}
-              <div className="flex-1 min-w-0 rounded-lg border border-border bg-card p-4 text-sm">
+              <div className="border-border bg-card min-w-0 flex-1 rounded-lg border p-4 text-sm">
                 {/* Date */}
-                <p className="text-xs text-muted-foreground mb-2">
+                <p className="text-muted-foreground mb-2 text-xs">
                   {formatDate(event.dateOccurred)}
                 </p>
 
                 {/* Competitor + event type badge */}
-                <div className="flex flex-wrap items-center gap-2 mb-2">
-                  <span className="font-semibold text-foreground">
+                <div className="mb-2 flex flex-wrap items-center gap-2">
+                  <span className="text-foreground font-semibold">
                     {event.competitor}
                   </span>
-                  <span className="inline-flex items-center rounded-full border border-border bg-secondary px-2 py-0.5 text-xs font-medium text-secondary-foreground">
+                  <span className="border-border bg-secondary text-secondary-foreground inline-flex items-center rounded-full border px-2 py-0.5 text-xs font-medium">
                     {eventTypeLabel}
                   </span>
                 </div>
 
                 {/* Title */}
-                <p className="font-medium text-foreground leading-snug mb-1">
+                <p className="text-foreground mb-1 leading-snug font-medium">
                   {event.title}
                 </p>
 
                 {/* Description (2 lines max) */}
                 {event.description && (
-                  <p className="text-muted-foreground leading-relaxed line-clamp-2 mb-2">
+                  <p className="text-muted-foreground mb-2 line-clamp-2 leading-relaxed">
                     {truncateText(event.description)}
                   </p>
                 )}
@@ -149,7 +151,7 @@ export default function CompetitiveTimeline({
                       href={event.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1 text-xs text-primary hover:underline"
+                      className="text-primary inline-flex items-center gap-1 text-xs hover:underline"
                     >
                       <ExternalLink className="h-3 w-3" />
                       Source

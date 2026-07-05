@@ -1,6 +1,12 @@
 // compass/app/src/compass/marketDataService.ts
-import type { AssessmentResult } from './assessmentService';
-import { getFieldForCourse, scoreOutcomeEvidence, scoreLabourMarketDurability, MARKET_DATA, type MarketFieldData } from './marketData';
+import type { AssessmentResult } from "./assessmentService";
+import {
+  getFieldForCourse,
+  scoreOutcomeEvidence,
+  scoreLabourMarketDurability,
+  MARKET_DATA,
+  type MarketFieldData,
+} from "./marketData";
 
 export interface MarketEnrichedResult extends AssessmentResult {
   marketData?: MarketFieldData;
@@ -8,8 +14,10 @@ export interface MarketEnrichedResult extends AssessmentResult {
   labourMarketDurability?: number;
 }
 
-export function enrichWithMarketData(result: AssessmentResult): MarketEnrichedResult {
-  const field = getFieldForCourse(result.courseCode?.toLowerCase() ?? '');
+export function enrichWithMarketData(
+  result: AssessmentResult,
+): MarketEnrichedResult {
+  const field = getFieldForCourse(result.courseCode?.toLowerCase() ?? "");
   const data = MARKET_DATA[field];
 
   if (!data) return result;
@@ -18,12 +26,22 @@ export function enrichWithMarketData(result: AssessmentResult): MarketEnrichedRe
   const durabilityScore = scoreLabourMarketDurability(field);
 
   // Update D10 with evidence-based score and rationale
-  const dims = result.dimensions.map(d => {
-    if (d.label.includes('Outcome')) {
+  const dims = result.dimensions.map((d) => {
+    if (d.label.includes("Outcome")) {
       return {
         ...d,
         score: outcomeScore,
-        rationale: `Employment: ${(data.employmentRate * 100).toFixed(0)}% full-time (GOS 2024), Median salary: $${(data.medianSalary / 1000).toFixed(0)}K, 3yr: ${(data.employmentRate3yr * 100).toFixed(0)}%. ${data.occupationDemand === 'SHORTAGE' ? 'JSA Skills Shortage.' : data.occupationDemand === 'RECRUITMENT_DIFFICULTY' ? 'JSA Recruitment Difficulty.' : ''}`,
+        rationale: `Employment: ${(data.employmentRate * 100).toFixed(
+          0,
+        )}% full-time (GOS 2024), Median salary: $${(
+          data.medianSalary / 1000
+        ).toFixed(0)}K, 3yr: ${(data.employmentRate3yr * 100).toFixed(0)}%. ${
+          data.occupationDemand === "SHORTAGE"
+            ? "JSA Skills Shortage."
+            : data.occupationDemand === "RECRUITMENT_DIFFICULTY"
+              ? "JSA Recruitment Difficulty."
+              : ""
+        }`,
       };
     }
     return d;

@@ -1,12 +1,12 @@
 ## IMPROVEMENT PLAN: Master of Environmental Science
 
-**Current:** 23/36 MODERATE RISK | **Duration:** 2 years (200 pts)
-**Target:** 28/36 RESILIENT | **Gap:** 5 points
+**Current:** 25/36 MODERATE RISK | **Duration:** 2 years (200 pts)
+**Target:** 28/36 RESILIENT | **Gap:** 3 points
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The Master of Environmental Science scored **23/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
+The Master of Environmental Science scored **25/36 — MODERATE RISK**. Gaps in core dimensions define the primary intervention targets.
 
 | Dimension | Score | Status |
 |---|---|---|
@@ -19,16 +19,16 @@ The Master of Environmental Science scored **23/36 — MODERATE RISK**. Gaps in 
 | Research Rigour | 2/3 | Adequate |
 | Human & Relational | 2/3 | Adequate |
 | Curriculum Currency | 2/3 | Adequate |
-| Outcome Evidence | 1/3 | Critical gap |
+| Outcome Evidence | 3/3 | Strong |
 | Irreplaceability (bonus) | 2/3 | Adequate |
-| **TOTAL** | **23/36** | **MODERATE RISK** |
+| **TOTAL** | **25/36** | **MODERATE RISK** |
 
 ---
 
 ## 2. SCORE-TO-ACTION MAPPING
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
-| Outcome Evidence | 1/3 | Entry-level skills show automation risk. | Publish graduate destination survey results on program page. |
+| Outcome Evidence | 3/3 | Real destination evidence now published (UoM Job Insights / LiveAlumni). | Publish graduate destination survey results on program page. |
 | Technical Depth | 2/3 | Entry-level skills show automation risk. | Require technical-elective sequence (3+ units) with applied project. |
 | Human & Relational | 2/3 | Entry-level skills show automation risk. | Integrate stakeholder engagement into existing project assessment. |
 | Curriculum Currency | 2/3 | Entry-level skills show automation risk. | Add emerging-trends module updated each intake. |

@@ -6,13 +6,10 @@ import { type PaymentsWebhook } from "wasp/server/api";
 import { emailSender } from "wasp/server/email";
 import { assertUnreachable } from "../../shared/utils";
 import { UnhandledWebhookEventError } from "../errors";
-import {
-  PaymentPlanId,
-  paymentPlans,
-  SubscriptionStatus,
-} from "../plans";
+import { PaymentPlanId, paymentPlans, SubscriptionStatus } from "../plans";
 import { getPaymentPlanIdByPaymentProcessorPlanId } from "../paymentProcessorPlans";
 import { updateUserCredits, updateUserSubscription } from "../user";
+import { logger } from "../../server/logger";
 import { stripeClient } from "./stripeClient";
 
 /**
@@ -61,16 +58,18 @@ export const stripeWebhook: PaymentsWebhook = async (
       // In development, it is likely that we will receive events that we are not handling.
       // E.g. via the `stripe trigger` command.
       if (process.env.NODE_ENV === "development") {
-        console.info("Unhandled Stripe webhook event in development: ", error);
+        logger.info("Unhandled Stripe webhook event in development", {
+          eventType: error.message,
+        });
       } else if (process.env.NODE_ENV === "production") {
-        console.error("Unhandled Stripe webhook event in production: ", error);
+        logger.error("Unhandled Stripe webhook event in production", error);
       }
 
       // We must return a 2XX status code, otherwise Stripe will keep retrying the event.
       return response.status(204).send();
     }
 
-    console.error("Stripe webhook error:", error);
+    logger.error("Stripe webhook error", error);
     if (error instanceof Error) {
       return response.status(400).json({ error: error.message });
     } else {

@@ -1,5 +1,6 @@
 import { HttpError } from "wasp/server";
 import * as z from "zod";
+import { logger } from "./logger";
 
 export function ensureArgsSchemaOrThrowHttpError<Schema extends z.ZodType>(
   schema: Schema,
@@ -7,14 +8,12 @@ export function ensureArgsSchemaOrThrowHttpError<Schema extends z.ZodType>(
 ): z.infer<Schema> {
   const parseResult = schema.safeParse(rawArgs);
   if (!parseResult.success) {
-    console.error(
-      // We keep the `cause` property so that errors have stack traces pointing
-      // to the original schema.
-      new Error(
-        "Operation arguments validation failed:\n" +
-          z.prettifyError(parseResult.error),
-        { cause: parseResult.error },
-      ),
+    logger.error(
+      "Operation arguments validation failed",
+      // Keep the `cause` chain so stack traces point at the original schema.
+      new Error(z.prettifyError(parseResult.error), {
+        cause: parseResult.error,
+      }),
     );
 
     throw new HttpError(400, "Operation arguments validation failed", {

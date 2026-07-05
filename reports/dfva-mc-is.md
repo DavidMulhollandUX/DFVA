@@ -54,11 +54,11 @@ Key named units include:
 | 7 | Research Methods Rigour | 2 | *Research Methods in IS* exists on research track; coursework-only track has weaker exposure. Score reflects research track access |
 | 8 | Human and Relational Capability | 2 | Stakeholder management and change management appear in project management units; no clinical or physical accountability layer |
 | 9 | Curriculum Currency and Adaptability | 2 | 2026 handbook reflects recent review; no explicit AI core units visible — a currency gap for a 2026 program |
-| 10 | Graduate Outcome Evidence | 2 | UniMelb publishes aggregate graduate outcome data; granular role/salary/time-to-employment data for MC-IS not prominently available |
+| 10 | Graduate Outcome Evidence | 3 | UoM Job Insights Report (LiveAlumni, exact match, n=257) publishes granular destinations — real role titles by career stage and named employers — exactly the detailed outcome evidence this dimension measures. |
 | B | Irreplaceability Premium (Bonus) | 1 | Some dual-skill value (business + technology bridge), but this profile is common and not deeply differentiated |
 
-**TOTAL: 18 / 36**  
-**Risk band: HIGH RISK (12-19)**
+**TOTAL: 20 / 36**  
+**Risk band: MODERATE RISK (20-27)**
 
 ### 5. THREE THRESHOLD QUESTIONS
 
@@ -83,7 +83,7 @@ The MIS graduate is trained for roles that AI tooling is actively dismantling at
 
 ### 7. VERDICT
 
-**The Master of Information Systems is HIGH RISK for 2027 labour-market viability as currently structured.**
+**The Master of Information Systems is MODERATE RISK for 2027 labour-market viability — lifted out of HIGH RISK by real graduate-outcome evidence (UoM Job Insights Report, LiveAlumni, n=257), but structurally exposed as currently taught.**
 
 The program produces well-rounded IS professionals but anchors early-career outcomes in human middleware tasks — documentation, requirements analysis, coordination, and reporting — that are the current front line of AI-driven role compression. The University of Melbourne brand provides hiring access, but prestige does not insulate graduates from structural role reduction.
 

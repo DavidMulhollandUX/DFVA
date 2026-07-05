@@ -1,0 +1,111 @@
+// Auto-generated from reports/*.md by scripts/dfva-content-generate.ts — do not edit by hand.
+// Run: npm --prefix scripts run dfva:gen-content
+const content = {
+  title: "Doctor of Philosophy - Science (DR-PHILSCI) — DFVA Assessment",
+  institution: "University of Melbourne",
+  markdown: `## DFVA REPORT: Doctor of Philosophy - Science (DR-PHILSCI)
+**Institution:** University of Melbourne | **Level:** Graduate Research (AQF Level 10) | **Duration:** 4 years full-time, or equivalent part-time
+
+**Assessment date:** 2026-07-02  
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/dr-philsci  
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 + DFVA-COPILOT-MARKET-v1  
+
+### 1. PROGRAM PROFILE
+The Doctor of Philosophy – Science is the University of Melbourne's flagship natural-sciences research doctorate, delivered through six schools: Agriculture, Food and Ecosystem Sciences; BioSciences; Chemistry; Geography, Earth and Atmospheric Sciences; Mathematics and Statistics; and Physics. Candidates undertake original supervised research on a specific topic over four years full-time (or part-time equivalent), culminating in a thesis and, typically, oral defence/presentation requirements set by the relevant school and graduate research committee. There is no defined coursework core in the conventional sense — candidates instead progress through discipline-specific research training (experimental design, instrumentation/lab technique, computational or field methods, and academic writing) embedded in the supervision relationship and any school-mandated milestones (confirmation review, mid-candidature review, final seminar).
+
+Because the degree spans six schools, the graduate profile is genuinely heterogeneous: a Chemistry PhD graduate's day-to-day work (synthesis, spectroscopy, wet-lab technique) differs substantially from a Mathematics and Statistics graduate's (proof, modelling, computation) or a Geography, Earth and Atmospheric Sciences graduate's (field sampling, remote sensing, climate/earth-systems modelling). Typical graduate pathways include academic postdoctoral research, government research agencies (CSIRO, BOM, GA), industry R&D (biotech, agtech, pharma, resources, climate/environmental consulting), data science and quantitative roles, and science policy/technical advisory positions. There is no external professional accreditation body — quality assurance runs through the university's own graduate research training and examination process (internal + external examiners).
+
+### 2. AUTOMATION EXPOSURE PROFILE
+
+| Task Category | Example Graduate Tasks | AI Pressure | AI Capability Today | Durability Rationale |
+|---|---|---|---|---|
+| Literature synthesis and background review | Summarising prior work, identifying gaps, drafting lit-review sections | HIGH | LLMs already produce competent literature summaries and citation-scaffolded drafts | Durable only as a starting point — thesis-grade critical synthesis and gap-identification still require domain judgment AI hallucinates or misses |
+| Routine data processing and statistical analysis | Cleaning datasets, running standard statistical tests, generating figures | HIGH | Code-generation and data-analysis copilots handle boilerplate stats/plots well | Durable when analysis choices require domain-specific judgment (which model, which assumptions hold); highly exposed for templated pipelines |
+| Wet-lab and field experimental execution | Synthesis, culturing, sample prep, field sampling, instrument operation | LOW | Physical manipulation, calibration, and troubleshooting remain outside current AI capability (lab automation robotics is narrow and expensive) | Strongly durable — physical dexterity, real-world contingency handling, and equipment-specific tacit knowledge resist substitution |
+| Hypothesis generation and experimental design | Framing a novel research question, designing a study/protocol to test it | LOW-MEDIUM | AI can suggest hypotheses/protocols from literature patterns but lacks grounded judgment about feasibility, novelty, and resource constraints | Durable — genuine research originality, resource-aware design, and accountability for study validity remain human-anchored |
+| Computational/quantitative modelling | Building simulations, statistical/mathematical models, ML pipelines (Maths & Stats, Physics, Earth Sciences) | MEDIUM-HIGH | AI coding assistants accelerate model-building substantially; some model architectures can be AI-suggested | Durability depends on discipline: routine model-fitting is exposed, but novel model formulation and validation under domain constraints remains human-led |
+| Scientific writing and manuscript preparation | Drafting papers, grant applications, thesis chapters | MEDIUM-HIGH | AI drafts competent prose and can restructure/polish scientific writing | Durable for accountability and intellectual ownership (peer review, authorship, defending claims) even as drafting assistance grows |
+| Grant/funding administration and reporting | Budget justification, compliance reporting, progress reports | HIGH | Templated, rules-based text generation — a strong AI use case | Low durability — largely administrative and already being absorbed by AI-assisted drafting tools |
+| Research supervision, teaching, and field leadership | Supervising honours/masters students, running tutorials, leading fieldwork teams | LOW | Interpersonal mentorship, judgment calls in the field, and safety accountability are not AI-substitutable | Strongly durable — relational and safety-critical human judgment |
+
+**Overall Section Exposure:** MEDIUM
+
+**Durability Assessment:** The PhD–Science graduate profile splits along a wet-lab/field vs. computational axis that this generic handbook text does not itself surface but that materially changes exposure. Physical experimental work, fieldwork, and hands-on instrumentation (dominant in BioSciences, Chemistry, parts of Agriculture, Food and Ecosystem Sciences, and Geography/Earth Sciences field components) are strongly durable against AI substitution in the 2027 window. Computational and quantitative-heavy sub-disciplines (Mathematics and Statistics, Physics, and the modelling-heavy parts of Earth Sciences) face materially higher pressure on routine model-fitting, data pipeline, and code-generation tasks — though the design, validation, and accountability layer of research remains resistant. The greatest shared exposure across all six schools is in the "administrative research labour" layer: literature review drafting, routine statistical processing, and grant/report writing, which AI already does competently and which do not depend on physical presence.
+
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Academic postdoctoral research | Postdoc market highly competitive; AI changing throughput expectations, not headcount directly | AI-assisted literature review and computational reproducibility rising | Embed AI-in-research literacy without diluting original-research core |
+| Government research agencies (CSIRO, BOM, GA) | Actively hiring domain scientists who can also work with AI/ML tooling | Data science/ML literacy layered on domain expertise | Add cross-school AI/ML tool exposure alongside domain depth |
+| Biotech / pharma / agtech R&D | Wet-lab execution remains a hiring bottleneck AI cannot remove; AI/ML fluency a growing preference | Hybrid wet-lab + computational biology skillsets rising fastest | Formalise instrumentation/field-skills credential + AI fluency |
+| Data science / quantitative analyst (industry) | Highest AI substitution pressure; PhD-preferred postings expect existing AI-coding-assistant fluency | ML model validation/interpretability valued over routine model-fitting | Require novel-methodology component beyond automatable pipelines |
+| Climate / environmental consulting | Growing sector (climate-risk disclosure) with durable field-based and judgment tasks | Field-to-model integration and ESG/regulatory reporting literacy | Protect field competence; add regulatory/reporting exposure |
+| Science policy and technical advisory | Postings increasingly request ability to critically evaluate AI-generated modelling outputs | Evidence synthesis accelerated by AI, but trust/translation stays human | Add AI-output validation + assessed communication milestone |
+
+### 4. DFVA SCORECARD
+| # | Dimension | Score (0-3) | Evidence-based rationale |
+|---|---|---:|---|
+| 1 | Automation Exposure of Roles | 2 | Graduate roles (postdoc, R&D scientist, agency researcher) mix highly automatable tasks (lit review, stats processing, reporting) with irreducible ones (experimental design, physical lab/field work, accountable interpretation). The physical/wet-lab and field components across most of the six schools anchor this above a pure knowledge-work score, but the computational sub-disciplines (Maths & Stats, Physics) pull it down from a 3. |
+| 2 | Systems Thinking and Problem Framing | 3 | A PhD is structurally built around hypothesis formation, experimental/model design, and failure-mode analysis (why did the experiment/model not work, what confound explains an anomaly) — assessed continuously via candidature milestones and ultimately the thesis and defence, not a templated curriculum. |
+| 3 | Technical and Quantitative Depth | 3 | Across all six schools the degree demands deep, discipline-specific technical competence — instrumentation and analytical chemistry, statistical/mathematical modelling, computational methods, or field/ecological measurement — developed and continuously assessed over four years of original research, not an intro unit. |
+| 4 | Decision-Making Under Uncertainty | 3 | Original research is inherently uncertain: candidates must defend methodological choices, interpret ambiguous or contradictory data, and adapt experimental/analytical plans under real resource and time constraints, examined by external assessors at confirmation, milestone review, and thesis examination. |
+| 5 | AI Literacy and Governance | 1 | The handbook text shows no explicit AI/data-governance curriculum component. AI tool use is likely occurring organically (as a research aid) but is not evidenced as a taught, assessed, or governed competency — this is a generic PhD structure with no visible AI-specific research-integrity or governance training. |
+| 6 | Domain Depth and Specialisation | 3 | By design, a four-year PhD in a specific discipline (chemistry, physics, ecology, statistics, etc.) within one of six specialist schools builds deep, narrow, durable expertise that is the degree's entire purpose. |
+| 7 | Research Methods Rigour | 3 | This is a research doctorate: candidates design and conduct original primary research (experiments, field studies, models, or proofs) and must defend their methodology under external examination — the strongest possible expression of this dimension. |
+| 8 | Human and Relational Capability | 1 | The handbook text does not evidence structured interpersonal, ethics, or stakeholder-engagement training beyond standard research-integrity/ethics approval processes implicit in any research degree. Some schools (fieldwork-heavy, team-based labs) build this informally, but it is not a designed, assessed curriculum element. |
+| 9 | Curriculum Currency and Adaptability | 1 | No AI content or recent curriculum refresh is evidenced in the handbook text; the described structure is generic boilerplate ("research on a specific topic") unchanged across cohorts. Absent visible advisory-board/outcome-tracking mechanisms, this scores low despite likely informal supervisor-level currency. |
+| 10 | Graduate Outcome Evidence | 1 | No granular destination data (roles, industries, salary, time-to-employment) is provided in the handbook text; University of Melbourne publishes broader QILT/graduate outcomes data but not visibly segmented at the DR-PHILSCI/school level within this source. |
+| B | Irreplaceability Premium (Bonus) | 3 | The combination of deep technical/quantitative training, hands-on physical or computational specialist skill, and demonstrated original-research judgment (own a novel research question, defend it under scrutiny) is a rare, hard-to-substitute bundle — the archetype of what AI cannot yet replicate end-to-end. |
+
+**TOTAL: 24 / 36**  
+**Risk band: MODERATE RISK (20-27)**
+
+### 5. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
+  **NO** — A well-prompted AI agent can accelerate literature review, statistical processing, and drafting, but cannot independently execute the physical lab/field work, design a defensible novel research programme, or produce an examinable thesis representing 80% of a PhD candidate's two-year output.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?  
+  **YES** — The entire structure of a PhD (hypothesis formation, original methodology, defended interpretation, thesis examination) is designed to train candidates to own decisions and generate original insight, not execute templates.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
+  **UNCERTAIN** — Employability likely rises for graduates whose training was in physical/experimental or design-heavy sub-disciplines and who add AI literacy; it is more exposed for graduates whose value proposition was primarily "I can run standard statistical/computational pipelines," a task AI increasingly automates — the program's failure to teach explicit AI literacy/governance (D5, D9) is the swing factor.
+
+### 6. ANALOGUE GRADUATE PROFILE
+The most exposed archetype circa 2021-2022: a computationally-oriented PhD graduate (e.g., in Mathematics and Statistics or theoretical/computational Physics) whose primary demonstrated value was writing analysis code, fitting standard models, and producing polished technical reports and literature reviews — without a distinguishing physical/experimental specialisation or explicit AI-systems literacy. This archetype is now directly pressured by: GitHub Copilot / Claude Code (code generation for standard statistical and modelling pipelines), ChatGPT/Claude (literature synthesis and manuscript drafting), Julius AI and similar data-analysis copilots (automated statistical analysis and visualisation), Elicit and Consensus (AI-assisted literature review and evidence synthesis), and Overleaf/Writefull AI writing tools (academic-writing assistance). None of these tools threaten a wet-lab chemist's synthesis bench or an ecologist's field campaign, which is precisely why the durability gap within DR-PHILSCI runs along the physical/computational axis rather than uniformly across the six schools.
+
+### 7. VERDICT
+The Doctor of Philosophy – Science sits at 24/36, MODERATE RISK: its research-training core (D2, D3, D4, D6, D7, bonus B) is genuinely strong and durable — a PhD by definition trains original judgment, deep specialisation, and defended methodology that AI cannot yet replicate end-to-end — but the program is exposed on the "meta-curriculum" dimensions (D5 AI literacy/governance, D8 relational capability, D9 currency, D10 outcome evidence) that the handbook simply does not evidence as designed, taught, or tracked. This is not a program facing structural displacement; it is a strong research pathway that has not yet formalised the AI-fluency and outcome-transparency layer graduates will need to fully capture the "AI-augmented scientist" premium rather than quietly cede routine analytical labour to it.
+
+### 8. RECOMMENDATIONS
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Introduce a mandatory cross-school "AI in Research" module covering AI-assisted literature review, code generation, model validation risks, and research-integrity/authorship policy for AI-assisted work | D5 | Data scientist / quant analyst AI-fluency expectation; technical advisor AI-validation requests | Medium |
+| P2 | Establish a graduate research advisory panel (industry + academic) per school with an annual curriculum/training refresh cycle, explicitly reviewing AI-tool currency | D9 | Cross-cutting rising demand for hybrid/currently-relevant skillsets | Medium |
+| P3 | Publish granular DR-PHILSCI destination data by school (postdoc placement, industry sector, government agency, time-to-first-position) via the university careers/graduate outcomes office | D10 | Absence of destination data is itself a market/recruitment gap | Low |
+| P4 | Add a structured research-communication and stakeholder-engagement component (public science communication, policy briefing practice, cross-disciplinary collaboration) as an assessed milestone alongside the thesis | D8 | Science policy/advisory rising communication-skill demand | Medium |
+| P5 | Formalise "AI-augmented analysis" competency standards within confirmation/milestone reviews — candidates must demonstrate they can critically validate, not just deploy, AI-generated code/analysis | D5, D4 | Technical advisor "critically evaluate AI-generated outputs" signal | Low |
+| P6 | For computationally-oriented sub-disciplines (Maths & Stats, Physics, Earth Sciences modelling), add an explicit "novel methodology beyond automatable pipelines" expectation to confirmation criteria to protect against AI-templated research drift | D2, D3 | Data scientist role highest AI substitution pressure signal | Low |
+| P7 | Create a physical/field-skills recognition credential (instrumentation certification, field-safety leadership) that graduates can cite externally, reinforcing the irreplaceability premium | B | Biotech/agtech wet-lab bottleneck signal | Low |
+
+### 9. THE REDESIGNED GRADUATE PROFILE
+The 2027-ready DR-PHILSCI graduate is a scientist who treats AI as a research instrument rather than a black box: fluent in using AI to accelerate literature synthesis, code generation, and routine statistical processing, but explicitly trained to validate, critique, and take accountability for AI-assisted outputs before they enter a thesis or publication. This graduate pairs that fluency with the degree's existing irreplaceable core — deep discipline-specific technical mastery (wet-lab, field, computational, or mathematical), the ability to design and defend an original research programme under real uncertainty, and hands-on physical or field competence that no current AI system can substitute.
+
+By 2027, this graduate also carries visible, externally legible evidence of both dimensions: a documented AI-research-methods credential sitting alongside their thesis and publication record, plus (where relevant) field/instrumentation certifications. Institutionally, their pathway is tracked — the university can point to granular data on where DR-PHILSCI graduates land, by school and sub-discipline — turning today's evidentiary gap (D9, D10) into a recruitment and validation asset rather than a blind spot.
+
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Low–Medium**. Job family structure and skill-shift directionality rest on well-established structural knowledge of PhD-Science graduate destinations; recent job-ad signals and salary bands are illustrative of known patterns, not a live scrape or current survey.
+- Market evidence synthesises general labour-market patterns for PhD-trained natural scientists across the six schools; the wet-lab/computational durability split is a structural inference, not yet empirically validated against alumni destinations.
+- For high-stakes curriculum decisions, run a live job-ad scrape (Seek, LinkedIn, Indeed AU) across the six schools, obtain a current Australian STEM PhD salary survey, and source UoM school-segmented destination data to replace structural estimates.
+
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Natural and Physical Sciences (research doctorate) |
+| Full-time employment | Not published at DR-PHILSCI/school level (see gaps) |
+| Median starting salary | AUD 75,000–90,000 (postdoc/early-career, structural estimate) |
+| Employment (3yr) | Not published at program level |
+| Occupation demand | Mixed by sub-discipline — wet-lab/field LOW substitution pressure; computational/data-science HIGH |
+| AI automation exposure | MEDIUM (splits along wet-lab/field vs. computational axis) |
+| Sources | UoM Handbook 2026 (DR-PHILSCI); DFVA market intelligence (structural synthesis of PhD-Science graduate destinations); illustrative job-ad and salary-band estimates pending live verification |
+`,
+};
+
+export default content;

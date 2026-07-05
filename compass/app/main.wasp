@@ -17,12 +17,12 @@ app OpenSaaS {
     "<meta name='keywords' content='degree viability, program assessment, curriculum design, AI readiness, university, future of work' />",
 
     "<meta property='og:type' content='website' />",
-    "<meta property='og:title' content='COMPASS — Degree Future-Viability Assessor' />",
-    "<meta property='og:site_name' content='COMPASS' />",
-    "<meta property='og:url' content='https://compass.unimelb.edu.au' />",
+    "<meta property='og:title' content='Evidura — Degree Future-Viability Assessor' />",
+    "<meta property='og:site_name' content='Evidura' />",
+    "<meta property='og:url' content='https://evidura.ai' />",
     "<meta property='og:description' content='Evaluate university program resilience against AI-driven labour market change.' />",
-    "<meta property='og:image' content='https://compass.unimelb.edu.au/public-banner.webp' />",
-    "<meta name='twitter:image' content='https://compass.unimelb.edu.au/public-banner.webp' />",
+    "<meta property='og:image' content='https://evidura.ai/public-banner.webp' />",
+    "<meta name='twitter:image' content='https://evidura.ai/public-banner.webp' />",
     "<meta name='twitter:image:width' content='800' />",
     "<meta name='twitter:image:height' content='400' />",
     "<meta name='twitter:card' content='summary_large_image' />",
@@ -248,19 +248,6 @@ page AdminSettingsPage {
   component: import AdminSettings from "@src/admin/elements/settings/SettingsPage"
 }
 
-route AdminCalendarRoute { path: "/admin/calendar", to: AdminCalendarPage }
-page AdminCalendarPage {
-  authRequired: true,
-  component: import AdminCalendar from "@src/admin/elements/calendar/CalendarPage"
-}
-
-
-route AdminUIButtonsRoute { path: "/admin/ui/buttons", to: AdminUIButtonsPage }
-page AdminUIButtonsPage {
-  authRequired: true,
-  component: import AdminUI from "@src/admin/elements/ui-elements/ButtonsPage"
-}
-
 route NotFoundRoute { path: "*", to: NotFoundPage }
 page NotFoundPage {
   component: import { NotFoundPage } from "@src/client/components/NotFoundPage"
@@ -393,11 +380,4 @@ page DevPortalComparePage {
 
 //#region Contact Form Messages
 // TODO:
-// add functionality to allow users to send messages to admin
-// and make them accessible via the admin dashboard
-route AdminMessagesRoute { path: "/admin/messages", to: AdminMessagesPage }
-page AdminMessagesPage {
-  authRequired: true,
-  component: import AdminMessages from "@src/admin/dashboards/messages/MessagesPage"
-}
 //#endregion

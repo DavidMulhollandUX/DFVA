@@ -19,10 +19,10 @@ export default function Hero() {
       <div className="mx-auto grid max-w-7xl items-center gap-12 px-6 py-16 lg:grid-cols-2 lg:gap-16 lg:px-8 lg:py-24">
         {/* Left: the story */}
         <div className="max-w-2xl">
-          <p className="font-mono text-sm font-medium uppercase tracking-[0.18em] text-secondary">
+          <p className="text-secondary font-mono text-sm font-medium tracking-[0.18em] uppercase">
             {brand.tagline}
           </p>
-          <h1 className="text-foreground mt-5 font-serif text-4xl font-semibold leading-[1.08] tracking-tight sm:text-5xl lg:text-6xl">
+          <h1 className="text-foreground mt-5 font-serif text-4xl leading-[1.08] font-semibold tracking-tight sm:text-5xl lg:text-6xl">
             Will this degree still be{" "}
             <span className="text-secondary">worth choosing</span> in an
             AI-shaped labour market?
@@ -64,10 +64,10 @@ function SampleRatingCard() {
     .slice(0, 3);
 
   return (
-    <div className="bg-card border-border mx-auto w-full max-w-md rounded-2xl border p-6 shadow-card-2 transition-shadow duration-300 hover:shadow-default sm:p-8">
+    <div className="bg-card border-border shadow-card-2 hover:shadow-default mx-auto w-full max-w-md rounded-2xl border p-6 transition-shadow duration-300 sm:p-8">
       <div className="flex items-start justify-between gap-4">
         <div>
-          <p className="text-muted-foreground text-xs font-medium uppercase tracking-wide">
+          <p className="text-muted-foreground text-xs font-medium tracking-wide uppercase">
             {sample.institution}
           </p>
           <h2 className="text-foreground mt-1 text-lg font-semibold">
@@ -75,7 +75,7 @@ function SampleRatingCard() {
           </h2>
         </div>
         <span
-          className={`rounded-full border px-3 py-1 text-xs font-bold uppercase tracking-wider ${cfg.bg} ${cfg.text} ${cfg.border}`}
+          className={`rounded-full border px-3 py-1 text-xs font-bold tracking-wider uppercase ${cfg.bg} ${cfg.text} ${cfg.border}`}
         >
           {sample.riskBand}
         </span>
@@ -98,7 +98,7 @@ function SampleRatingCard() {
       />
 
       <div className="space-y-2.5">
-        <p className="text-muted-foreground text-xs font-medium uppercase tracking-wide">
+        <p className="text-muted-foreground text-xs font-medium tracking-wide uppercase">
           Biggest gaps
         </p>
         {gaps.map((d) => (
@@ -126,7 +126,7 @@ function SampleRatingCard() {
 function BackdropWash() {
   return (
     <div className="absolute inset-0 -z-10" aria-hidden="true">
-      <div className="absolute inset-x-0 top-0 h-[40rem] bg-gradient-to-b from-secondary/[0.07] to-transparent" />
+      <div className="from-secondary/[0.07] absolute inset-x-0 top-0 h-[40rem] bg-gradient-to-b to-transparent" />
     </div>
   );
 }

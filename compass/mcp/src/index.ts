@@ -17,8 +17,10 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
 import { readFileSync, readdirSync } from "fs";
-import { join, dirname, basename } from "path";
+import { join, dirname } from "path";
 import { fileURLToPath } from "url";
+
+import { resolveReportFile, type ReportResolution } from "./reportResolver.js";
 
 // ── Imports from the dfva library via node_modules symlink ──────────────────
 // dfva-source → DFVA/dfva/ (symlink in node_modules)
@@ -49,11 +51,14 @@ const server = new McpServer({
 
 // ── Tool: get_assessment ────────────────────────────────────────────────────
 
-server.tool(
+server.registerTool(
   "get_assessment",
-  "Get the full DFVA assessment for a single program, including all dimension scores, risk category, and recommendation.",
   {
-    programCode: z.string().describe("Program code (e.g. mc-cs)"),
+    description:
+      "Get the full DFVA assessment for a single program, including all dimension scores, risk category, and recommendation.",
+    inputSchema: {
+      programCode: z.string().min(2).describe("Program code (e.g. mc-cs)"),
+    },
   },
   async ({ programCode }) => {
     const assessment = getAssessment(programCode);
@@ -79,11 +84,13 @@ server.tool(
 
 // ── Tool: query_assessments ─────────────────────────────────────────────────
 
-server.tool(
+server.registerTool(
   "query_assessments",
-  "Query DFVA assessments with optional filters for faculty, risk category, score range, and result limit.",
   {
-    faculty: z
+    description:
+      "Query DFVA assessments with optional filters for faculty, risk category, score range, and result limit.",
+    inputSchema: {
+      faculty: z
       .string()
       .optional()
       .describe("Filter by faculty name (case-insensitive substring match)"),
@@ -109,6 +116,7 @@ server.tool(
       .min(1)
       .optional()
       .describe("Maximum number of results to return"),
+    },
   },
   async ({ faculty, riskCategory, minScore, maxScore, limit }) => {
     const results = queryAssessments({
@@ -135,10 +143,13 @@ server.tool(
 
 // ── Tool: cross_program_analysis ────────────────────────────────────────────
 
-server.tool(
+server.registerTool(
   "cross_program_analysis",
-  "Get aggregate cross-program analysis including risk distribution, weakest dimension, average scores, and programs near the RESILIENT threshold.",
-  {},
+  {
+    description:
+      "Get aggregate cross-program analysis including risk distribution, weakest dimension, average scores, and programs near the RESILIENT threshold.",
+    inputSchema: {},
+  },
   async () => {
     const analysis: CrossProgramAnalysis = crossProgramAnalysis();
     return {
@@ -149,10 +160,13 @@ server.tool(
 
 // ── Tool: get_methodology ───────────────────────────────────────────────────
 
-server.tool(
+server.registerTool(
   "get_methodology",
-  "Get the full DFVA methodology document including scoring rubric, theoretical grounding, and pilot results.",
-  {},
+  {
+    description:
+      "Get the full DFVA methodology document including scoring rubric, theoretical grounding, and pilot results.",
+    inputSchema: {},
+  },
   async () => {
     try {
       const methodology = readFileSync(METHODOLOGY_PATH, "utf-8");
@@ -178,10 +192,13 @@ server.tool(
 
 // ── Tool: list_programs ─────────────────────────────────────────────────────
 
-server.tool(
+server.registerTool(
   "list_programs",
-  "List all program codes with their program names and risk categories.",
-  {},
+  {
+    description:
+      "List all program codes with their program names and risk categories.",
+    inputSchema: {},
+  },
   async () => {
     const all = queryAssessments({});
     const programs = all.map((a) => ({
@@ -208,45 +225,63 @@ server.tool(
 
 // ── Tool: get_report ───────────────────────────────────────────────────────
 
-/**
- * Find the markdown report file for a program.
- * Reports follow the naming convention: dfva-recommend-{programCode}.md
- */
-function findReportFile(programCode: string): string | null {
-  try {
-    // Normalize: dashes in code stay, but search for matching files
-    const files = readdirSync(REPORTS_DIR);
-    const normalized = programCode.toLowerCase().replace(/_/g, "-");
-
-    // Try exact match first
-    let match = files.find(
-      (f) =>
-        f.toLowerCase() === `dfva-recommend-${normalized}.md`,
-    );
-
-    // If no exact match, try loose match
-    if (!match) {
-      match = files.find(
-        (f) =>
-          f.toLowerCase().includes(normalized) && f.endsWith(".md"),
-      );
-    }
-
-    return match ? join(REPORTS_DIR, match) : null;
-  } catch {
-    return null;
-  }
-}
-
-server.tool(
+server.registerTool(
   "get_report",
-  "Get the full markdown improvement report for a program, including priority actions and score impact scenarios.",
   {
-    programCode: z.string().describe("Program code (e.g. mc-cs)"),
+    description:
+      "Get the full markdown improvement report for a program, including priority actions and score impact scenarios.",
+    inputSchema: {
+      programCode: z.string().min(2).describe("Program code (e.g. mc-cs)"),
+    },
   },
   async ({ programCode }) => {
-    const reportPath = findReportFile(programCode);
-    if (!reportPath) {
+    // Only known program codes — prevents an arbitrary substring from
+    // matching an unrelated markdown file in reports/.
+    const knownCodes = listProgramCodes();
+    const normalized = programCode.toLowerCase().replace(/_/g, "-");
+    if (!knownCodes.some((c) => c.toLowerCase() === normalized)) {
+      return {
+        content: [
+          {
+            type: "text",
+            text: JSON.stringify(
+              {
+                error: `Unknown program code "${programCode}" — use list_programs for valid codes`,
+              },
+              null,
+              2
+            ),
+          },
+        ],
+      };
+    }
+
+    let resolution: ReportResolution;
+    try {
+      resolution = resolveReportFile(programCode, readdirSync(REPORTS_DIR));
+    } catch {
+      resolution = { kind: "not-found" };
+    }
+
+    if (resolution.kind === "ambiguous") {
+      return {
+        content: [
+          {
+            type: "text",
+            text: JSON.stringify(
+              {
+                error: `Program code "${programCode}" matches multiple reports — use a more specific code`,
+                candidates: resolution.candidates,
+              },
+              null,
+              2
+            ),
+          },
+        ],
+      };
+    }
+
+    if (resolution.kind === "not-found") {
       return {
         content: [
           {
@@ -260,6 +295,8 @@ server.tool(
         ],
       };
     }
+
+    const reportPath = join(REPORTS_DIR, resolution.file);
 
     try {
       const report = readFileSync(reportPath, "utf-8");

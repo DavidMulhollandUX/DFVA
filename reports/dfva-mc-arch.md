@@ -47,10 +47,10 @@ Typical graduate roles include architectural graduate (Graduate of Architecture)
 | 7 | Research Methods Rigour | 3 | Design Thesis is a substantial design-research project with defended methodology. PhD pathway available. Research-led teaching explicitly mentioned in program outcomes. |
 | 8 | Human and Relational Capability | 2 | Collaborative studio practice and client/stakeholder engagement implicit in design practice. Strong relational dimension but not clinical-level accountability. |
 | 9 | Curriculum Currency and Adaptability | 2 | Updated 9 June 2026 — very recent. No explicit AI or sustainability-specific core content visible despite currency of update. |
-| 10 | Graduate Outcome Evidence | 2 | Professional accreditation (ARBV/RAIA/CAA) provides external validation of standards. Granular graduate destination data not publicly available. |
+| 10 | Graduate Outcome Evidence | 3 | UoM Job Insights Report (LiveAlumni, exact match, n=621) publishes granular graduate destinations; ARBV/RAIA/CAA professional accreditation adds external validation of standards. |
 | B | Irreplaceability Premium (Bonus) | 3 | Professional registration requirement + creative design synthesis + technical documentation + regulatory compliance. Triple barrier: creativity, regulation, and professional practice hours. |
 
-**TOTAL: 28 / 36**  
+**TOTAL: 29 / 36**  
 **Risk band: RESILIENT (28-36)**
 
 ### 5. THREE THRESHOLD QUESTIONS

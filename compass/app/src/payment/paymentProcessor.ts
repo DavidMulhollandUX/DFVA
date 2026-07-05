@@ -18,7 +18,7 @@ export interface FetchCustomerPortalUrlArgs {
 }
 
 export interface PaymentProcessor {
-  id: "stripe" | "lemonsqueezy" | "polar";
+  id: "stripe";
   createCheckoutSession: (
     args: CreateCheckoutSessionArgs,
   ) => Promise<{ session: { id: string; url: string } }>;
@@ -30,10 +30,6 @@ export interface PaymentProcessor {
   fetchTotalRevenue: () => Promise<number>;
 }
 
-/**
- * Choose which payment processor you'd like to use, then delete the
- * other payment processor code that you're not using  from `/src/payment`
- */
+// Stripe is the only wired-up processor; the unused LemonSqueezy and Polar
+// template implementations were deleted (per the template's own instruction).
 export const paymentProcessor: PaymentProcessor = stripePaymentProcessor;
-// export const paymentProcessor: PaymentProcessor = lemonSqueezyPaymentProcessor;
-// export const paymentProcessor: PaymentProcessor = polarPaymentProcessor;

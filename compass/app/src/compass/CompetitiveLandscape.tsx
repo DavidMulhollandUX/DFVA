@@ -84,16 +84,18 @@ function CustomTooltip({ active, payload }: any) {
   if (!active || !payload || !payload.length) return null;
   const d = payload[0].payload as CompetitorPoint;
   return (
-    <div className="rounded-md border border-border bg-card px-3 py-2 text-xs shadow-lg">
-      <p className="font-semibold text-foreground">{d.name}</p>
+    <div className="border-border bg-card rounded-md border px-3 py-2 text-xs shadow-lg">
+      <p className="text-foreground font-semibold">{d.name}</p>
       <p className="text-muted-foreground">
-        Analytics Maturity: <span className="font-medium">{d.analyticsMaturity}/5</span>
+        Analytics Maturity:{" "}
+        <span className="font-medium">{d.analyticsMaturity}/5</span>
       </p>
       <p className="text-muted-foreground">
-        Market Share / Traction: <span className="font-medium">{d.marketShare}/5</span>
+        Market Share / Traction:{" "}
+        <span className="font-medium">{d.marketShare}/5</span>
       </p>
       {d.annotation && (
-        <p className="mt-1 text-blue-600 dark:text-blue-400 font-medium whitespace-pre-line">
+        <p className="mt-1 font-medium whitespace-pre-line text-blue-600 dark:text-blue-400">
           {d.annotation}
         </p>
       )}
@@ -104,17 +106,15 @@ function CustomTooltip({ active, payload }: any) {
 export default function CompetitiveLandscape() {
   return (
     <div className="w-full">
-      <h3 className="text-lg font-semibold text-foreground mb-2 text-center">
+      <h3 className="text-foreground mb-2 text-center text-lg font-semibold">
         Competitive Landscape — Curriculum Analytics
       </h3>
-      <p className="text-xs text-muted-foreground mb-4 text-center">
+      <p className="text-muted-foreground mb-4 text-center text-xs">
         Bubble size reflects relative market presence. DFVA is highlighted in
         blue — positioned to own the analytics layer.
       </p>
       <ResponsiveContainer width="100%" height={400}>
-        <ScatterChart
-          margin={{ top: 20, right: 180, bottom: 40, left: 20 }}
-        >
+        <ScatterChart margin={{ top: 20, right: 180, bottom: 40, left: 20 }}>
           <CartesianGrid strokeDasharray="3 3" className="stroke-border" />
           <XAxis
             type="number"
@@ -143,7 +143,10 @@ export default function CompetitiveLandscape() {
               style: { fontSize: 13, fontWeight: 500 },
             }}
           />
-          <Tooltip content={<CustomTooltip />} cursor={{ strokeDasharray: "3 3" }} />
+          <Tooltip
+            content={<CustomTooltip />}
+            cursor={{ strokeDasharray: "3 3" }}
+          />
           <Scatter
             data={competitors}
             shape={<CustomDot />}

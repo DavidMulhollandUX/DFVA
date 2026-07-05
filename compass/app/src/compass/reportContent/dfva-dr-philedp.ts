@@ -1,0 +1,121 @@
+// Auto-generated from reports/*.md by scripts/dfva-content-generate.ts — do not edit by hand.
+// Run: npm --prefix scripts run dfva:gen-content
+const content = {
+  title: "Master of Psychology (Educational and Developmental)/Doctor of Philosophy (DR-PHILEDP) — DFVA Assessment",
+  institution: "University of Melbourne",
+  markdown: `## DFVA REPORT: Master of Psychology (Educational and Developmental)/Doctor of Philosophy (DR-PHILEDP)
+**Institution:** University of Melbourne | **Level:** Graduate Research (combined Masters+PhD, AQF level 10) | **Duration:** 5 years full-time, or equivalent part-time
+
+**Assessment date:** 2026-07-02  
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/dr-philedp  
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 + DFVA-COPILOT-MARKET-v1  
+
+### 1. PROGRAM PROFILE
+The DR-PHILEDP is a combined Masters-then-PhD pathway that produces registered educational and developmental psychologists who are also independent researchers. Structurally, it is not a direct-entry doctorate: every candidate is admitted first into the Master of Psychology (Educational and Developmental) (MC-PSYCHED), completes year one of that accredited professional program, and only then applies to transfer into the PhD component for years two through five. Selection into the PhD stream is highly competitive and not guaranteed — candidates who are not selected exit with a professional Masters and a registration pathway, while those selected continue into a genuine doctoral research program layered on top of clinical training.
+
+The combined qualification integrates APAC-accredited professional training — supervised placements, psychometric and diagnostic assessment, case formulation, and evidence-based intervention design for children, adolescents, and educational settings — with a PhD thesis requiring original research, defended methodology, and independent contribution to the field. This dual structure (professional registration eligibility plus a research doctorate) is materially different from either a standalone professional Masters or a standalone research PhD.
+
+Typical graduate destinations include registered psychologist (educational and developmental endorsement), academic/research psychologist, senior clinician in child and adolescent services, policy or program evaluation specialist in education/mental health systems, and postdoctoral researcher. The professional component leads to general registration eligibility with the Psychology Board of Australia; the research component is examined as a PhD thesis under normal Melbourne doctoral requirements.
+
+### 2. AUTOMATION EXPOSURE PROFILE
+
+| Task Category | Example Graduate Tasks | AI Pressure | AI Capability Today | Durability Rationale |
+|---|---|---|---|---|
+| Psychometric & Diagnostic Assessment | Administering, scoring, and interpreting cognitive/developmental/behavioural assessments (e.g. WISC, developmental screening tools) | MEDIUM | Moderate — AI can assist with scoring and report drafting, but administration requires live rapport with children/adolescents and clinical interpretation of test behaviour | Test administration and interpretation in a child/developmental context depends on observed behaviour, engagement, and clinical judgment that resist remote or automated substitution |
+| Case Formulation & Intervention Design | Integrating assessment data, family/school context, and developmental theory into an individualised intervention plan | LOW | Weak — AI can summarise information but cannot own the clinical formulation or the accountability for a treatment plan affecting a minor | Formulation requires synthesising conflicting evidence about a specific child within a specific family/school system — an irreducibly judgment-heavy, accountability-bearing task |
+| Direct Therapeutic & Educational Intervention | Delivering therapy, behavioural intervention, and consultation with children, families, teachers, and school systems | LOW | Very weak — therapeutic alliance with children and families is a relational skill with no current AI substitute at the standard required for registration | This is the core registered-practitioner task and the least automatable category in the entire program |
+| Report Writing & Documentation | Drafting psychoeducational and diagnostic reports for schools, families, and multidisciplinary teams | HIGH | Strong — AI drafting tools can already produce structured report text from assessment data | Genuinely automatable at the drafting-mechanics level; clinical sign-off, liability, and interpretation of ambiguous cases remain human, so pressure compresses junior report-writing time rather than the role itself |
+| Original Research Design & Execution | Designing a PhD study, collecting primary data, defending methodology, producing a thesis under examination | LOW | Weak-to-moderate — AI accelerates literature review and analysis but cannot independently design a defensible study or generate primary evidence in a live human-participant context | This is exactly the kind of primary-evidence-generation, methodology-defended-under-scrutiny work the DFVA rubric treats as durable |
+| Multidisciplinary & School-System Consultation | Advising schools, families, and allied professionals on developmental/educational strategy; navigating competing stakeholder interests | LOW | Weak — requires trust, contextual judgment, and stakeholder negotiation across institutions (schools, families, health systems) | Consultation work is relationally and politically complex; AI can inform but not substitute for the trusted-advisor role |
+| Literature Synthesis & Evidence Review | Reviewing developmental/educational psychology literature to ground assessment and thesis work | HIGH | Strong — AI literature synthesis tools are already highly capable at this specific sub-task | High pressure on this narrow sub-task, but it is a small fraction of overall graduate output, not a role-defining task |
+
+**Overall Section Exposure:** LOW
+
+**Durability Assessment:** The DR-PHILEDP graduate profile combines two of the most durable task clusters in the DFVA framework: registered clinical practice with children and families (high relational stakes, regulatory accountability, no AI substitute at registration standard) and primary doctoral research (original data generation, methodology defended under live examination). The only meaningfully automatable sub-tasks — routine report drafting and literature synthesis — sit inside a much larger, non-automatable clinical and research role rather than constituting the role itself. The competitive, selective transfer structure from MC-PSYCHED into the PhD component is itself a durability signal: it filters for candidates capable of both accredited clinical competency and independent research capability, producing a smaller, harder-to-replicate graduate cohort than either pathway alone.
+
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Registered Educational & Developmental Psychologist | Persistent listing on state/federal workforce shortage registers for school and CAMHS roles | Structural, multi-year shortage, not cyclical | Reinforces D1/D8 durability; supports marketing the shortage-facing pathway |
+| Academic / Research Psychologist | Job ads increasingly list "PhD or equivalent research training" alongside registration | Employer demand for hybrid clinician-researchers | Publish and market the combined-degree premium explicitly |
+| Senior Clinician — CAMHS | Public health system demand consistently exceeds supply of registered specialists | Supervisory and complex-case judgment is not substitutable | Formalise a supervisory-competency module for graduates |
+| Policy / Program Evaluation Specialist | Growing state and federal investment in early intervention and school mental health policy | Implementation science and evidence-to-policy translation valued | Add/strengthen program-evaluation/implementation-science content |
+| Private Practice / NDIS Consultant | NDIS-funded developmental assessment demand continues to grow; registration is a hard gate | Client-facing clinical work and report sign-off require human accountability | Reinforce telehealth and NDIS assessment competency in placements |
+| Assessment platform vendors | Early-stage marketing of AI-assisted psychometric scoring and report-drafting features | Framed as clinician time-saving, not replacement | Direct evidence base for the AI literacy and governance intervention |
+
+### 4. DFVA SCORECARD
+| # | Dimension | Score (0-3) | Evidence-based rationale |
+|---|---|---:|---|
+| 1 | Automation Exposure of Roles | 3 | Combined registered clinical practice (assessment, formulation, therapeutic intervention with children/families) plus independent PhD research — both are judgment/accountability-bearing from day one, not routine or templated. |
+| 2 | Systems Thinking and Problem Framing | 3 | Case formulation integrates developmental theory, family systems, and school context; PhD component requires hypothesis formation and defended constraint reasoning across a full thesis. |
+| 3 | Technical and Quantitative Depth | 3 | Psychometric assessment and interpretation, plus PhD-level research methods and statistics (data collection, analysis, defended methodology) — genuine technical core embedded throughout both program halves. |
+| 4 | Decision-Making Under Uncertainty | 3 | Supervised placements require real clinical decisions with children/families under professional accountability; PhD candidature is itself a multi-year live research project with genuine uncertainty. |
+| 5 | AI Literacy and Governance | 1 | Handbook text gives no evidence of explicit AI curriculum, tool governance, or AI-specific ethics content — generic accreditation/registration language only. |
+| 6 | Domain Depth and Specialisation | 3 | APAC-accredited educational and developmental psychology specialisation with registration eligibility — deep, narrow, multi-year specialist expertise that cannot be acquired quickly. |
+| 7 | Research Methods Rigour | 3 | Genuine PhD thesis component requiring primary data generation and methodology defended under formal doctoral examination — the clearest possible expression of this dimension. |
+| 8 | Human and Relational Capability | 3 | Direct therapeutic and educational intervention with children, families, and school systems is core professional competency, not an elective add-on; registration itself certifies this capability. |
+| 9 | Curriculum Currency and Adaptability | 2 | APAC accreditation implies periodic curriculum review cycles, but the handbook text gives no specific evidence of a recent AI-related refresh or explicit feedback-loop mechanism. |
+| 10 | Graduate Outcome Evidence | 2 | Registration-linked outcomes (Psychology Board of Australia registration rates, AHPRA data) are generally trackable at a sector level, but the handbook text provides no program-specific granular destination data. |
+| B | Irreplaceability Premium (Bonus) | 3 | Rare triple integration: accredited clinical/relational competency, deep specialist domain knowledge, and independent PhD-level research rigour — combined via a genuinely competitive selection filter, not merely co-located in one program. |
+
+**TOTAL: 32 / 36**  
+**Risk band: RESILIENT (28-36)**
+
+### 5. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
+  **NO** — a well-prompted AI agent cannot deliver registered clinical assessment, formulation, or therapeutic intervention with children and families, nor can it independently design, execute, and defend a PhD thesis; the automatable sub-tasks (report drafting, literature synthesis) are a small fraction of graduate output.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?  
+  **YES** — the program explicitly trains graduates to design and defend clinical formulations and intervention plans (professional component) and to design, execute, and defend original research (PhD component); both halves centre on owned decisions and original insight.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
+  **YES** — registered educational and developmental psychologists work in a relationally-intensive, regulated, accountability-bearing role that AI augments (assessment support, drafting) rather than displaces, and the competitive PhD-transfer structure means the graduate cohort stays small relative to demand for both clinical and research-capable specialists.
+
+### 6. ANALOGUE GRADUATE PROFILE
+The most exposed analogue is not this graduate but the **generic report-writing psychology assistant of 2021-2022** — a role that spent disproportionate time drafting psychoeducational reports and synthesising literature reviews rather than delivering direct clinical work or original research. That narrow administrative slice of the role is under real AI pressure.
+
+Tools relevant to that narrow slice:
+- **Generative report-drafting assistants (e.g. GPT-4/5-class tools used informally for report structuring)** — compress time spent on report mechanics
+- **AI literature review/synthesis tools (e.g. Elicit, Consensus)** — accelerate literature grounding for both clinical reports and thesis chapters
+- **Automated psychometric scoring platforms (e.g. Q-interactive, Pearson digital scoring)** — already standard, reduce manual scoring time
+- **AI transcription/session-note tools** — reduce clinical documentation burden
+
+None of these tools threaten the registered clinical practice or independent research core of the DR-PHILEDP graduate profile; they compress adjacent administrative tasks.
+
+### 7. VERDICT
+The DR-PHILEDP is one of the most durable graduate profiles in the DFVA framework because it stacks two independently resilient credentials — APAC-accredited registration eligibility in a relationally intensive clinical specialisation, and a genuine PhD research component — behind a competitive, selective transfer gate that filters for candidates capable of both, scoring RESILIENT (32/36). The single material gap is explicit AI literacy and governance content in the curriculum; nothing in the handbook text suggests graduates are being taught to supervise, critique, or govern the AI tools now used in assessment scoring, report drafting, and literature synthesis, even though those tools already touch their adjacent workflow.
+
+### 8. RECOMMENDATIONS
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Introduce a dedicated AI literacy and governance module covering AI-assisted psychometric scoring, report drafting, and the ethical/regulatory limits of AI in clinical psychology practice with minors | 5 | Emerging AI-assisted assessment vendor tools marketed to psychology practices | Medium |
+| P2 | Publish explicit, program-specific transfer statistics (MC-PSYCHED entrants vs DR-PHILEDP transfers vs completions) and post-registration destination data | 10 | Hybrid clinician-researcher hiring premium; applicants expect pathway transparency | Medium |
+| P3 | Formalise a curriculum review cycle tied explicitly to AI tool adoption in psychometric assessment and school-system consultation, with a published review cadence | 9 | AI-assisted assessment tools becoming practice-adjacent | Low |
+| P4 | Add a research-practice integration unit where PhD candidates apply their thesis research question to a real clinical case series from their placement | 2, 7 | Program evaluation and implementation science demand in policy-adjacent roles | Medium |
+| P5 | Introduce structured training on AI-assisted evidence synthesis (literature review tools) as a supervised skill within the PhD component, explicitly teaching critique of AI-generated summaries | 5 | Elicit/Consensus rising in the rising-demand skill table | Low |
+| P6 | Publish a transparent account of the selection criteria and competitiveness of the Masters-to-PhD transfer, making the durability signal (selective filtering) visible to students and employers | 10 | Selectivity is an underleveraged market-facing quality differentiator | Low |
+
+### 9. THE REDESIGNED GRADUATE PROFILE
+The 2027-ready DR-PHILEDP graduate is a **registered educational and developmental psychologist who is also a credentialed AI-literate researcher** — someone who can supervise and critique AI-assisted assessment scoring and report drafting rather than being replaced by it, while retaining full ownership of clinical formulation, therapeutic intervention, and the accountability that comes with registration.
+
+They enter the workforce having already defended an original piece of primary research under formal examination, giving them a demonstrated capacity to generate and defend evidence — a capability increasingly scarce as AI compresses the market for synthesis-only research work. Their PhD is not decorative; it is the credential that lets them design program evaluations, contribute to evidence-based policy in education and child mental health systems, and hold an academic or senior clinical research role alongside frontline practice.
+
+They understand precisely where AI tools are useful in their daily practice — accelerating psychometric scoring, drafting report structure, surfacing literature — and precisely where the line sits: no AI tool can substitute for the trusted clinical relationship with a child, family, or school system, or for the accountability that comes with a doctoral thesis defended under their own name.
+
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Low-Medium**. Australian educational/developmental psychology workforce shortage is Medium-High confidence; salary benchmarks and job-ad signals are Low-Medium (no live scrape).
+- Market evidence draws on structural knowledge of the Australian psychology workforce, public workforce-shortage reporting, APS survey ranges, and Seek Salary Insights — not a live job-ad scrape or program-specific cohort data.
+- For high-stakes decisions, close the key gaps first: a live Australian job-ad pull, UniMelb MC-PSYCHED-to-DR-PHILEDP transfer/completion data, and AHPRA/Psychology Board endorsement data specific to this program's graduates.
+
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Educational and Developmental Psychology (combined Masters + research doctorate) |
+| Full-time employment | Not published at program grain; registration-linked sector demand strong (school/CAMHS workforce shortage) |
+| Median starting salary | Registered educational & developmental psychologist AUD 85k-100k; CAMHS senior clinician AUD 95k-110k; private practice AUD 100k-130k (directional) |
+| Employment (3yr) | Not published for this program |
+| Occupation demand | MET / shortage — persistent state and federal workforce shortage for school and child mental health psychologists |
+| AI automation exposure | LOW (registered clinical practice + primary doctoral research; only report drafting and literature synthesis automatable) |
+| Sources | UoM Handbook 2026 (dr-philedp); Australian Psychological Society (APS) workforce survey ranges, Seek Salary Insights, public sector award-rate bands, state/federal workforce shortage registers; DFVA-COPILOT-MARKET-v1 (directional, no live scrape — handbook scraper blocked, DFVA_MOCK mode) |
+`,
+};
+
+export default content;

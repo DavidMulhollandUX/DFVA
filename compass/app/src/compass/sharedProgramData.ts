@@ -15,7 +15,11 @@ export interface ProgramReport {
   score: number;
   maxScore: number;
   riskBand: "RESILIENT" | "MODERATE RISK" | "HIGH RISK" | "CRITICAL";
-  thresholds: { q1: "YES" | "NO" | "UNCERTAIN"; q2: "YES" | "NO" | "UNCERTAIN"; q3: "YES" | "NO" | "UNCERTAIN" };
+  thresholds: {
+    q1: "YES" | "NO" | "UNCERTAIN";
+    q2: "YES" | "NO" | "UNCERTAIN";
+    q3: "YES" | "NO" | "UNCERTAIN";
+  };
   dimensions: DimensionScore[];
   assessmentSlug: string;
   marketSlug: string;
@@ -29,7 +33,7 @@ export const PROGRAMS: ProgramReport[] = [
     institution: "University of Melbourne",
     level: "Bachelor · 3 years",
     date: "2026-04-21",
-    score: 17,
+    score: 18,
     maxScore: 36,
     riskBand: "HIGH RISK",
     thresholds: { q1: "YES", q2: "UNCERTAIN", q3: "NO" },
@@ -43,7 +47,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Research Rigour", score: 1, max: 3 },
       { label: "Human & Relational", score: 2, max: 3 },
       { label: "Curriculum Currency", score: 2, max: 3 },
-      { label: "Outcome Evidence", score: 1, max: 3 },
+      { label: "Outcome Evidence", score: 2, max: 3 },
       { label: "Irreplaceability (bonus)", score: 2, max: 3 },
     ],
     assessmentSlug: "dfva-b-des",
@@ -56,9 +60,9 @@ export const PROGRAMS: ProgramReport[] = [
     institution: "University of Melbourne",
     level: "Master · 1.5–2 years",
     date: "2026-05-07",
-    score: 18,
+    score: 20,
     maxScore: 36,
-    riskBand: "HIGH RISK",
+    riskBand: "MODERATE RISK",
     thresholds: { q1: "YES", q2: "UNCERTAIN", q3: "NO" },
     dimensions: [
       { label: "Automation Exposure", score: 1, max: 3 },
@@ -70,7 +74,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Research Rigour", score: 2, max: 3 },
       { label: "Human & Relational", score: 2, max: 3 },
       { label: "Curriculum Currency", score: 2, max: 3 },
-      { label: "Outcome Evidence", score: 1, max: 3 },
+      { label: "Outcome Evidence", score: 3, max: 3 },
       { label: "Irreplaceability (bonus)", score: 1, max: 3 },
     ],
     assessmentSlug: "dfva-mc-is",
@@ -191,9 +195,9 @@ export const PROGRAMS: ProgramReport[] = [
     institution: "University of Melbourne",
     level: "Master · 2 years",
     date: "2026-06-08",
-    score: 27,
+    score: 29,
     maxScore: 36,
-    riskBand: "MODERATE RISK",
+    riskBand: "RESILIENT",
     thresholds: { q1: "NO", q2: "YES", q3: "YES" },
     dimensions: [
       { label: "Automation Exposure", score: 2, max: 3 },
@@ -205,7 +209,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Research Rigour", score: 3, max: 3 },
       { label: "Human & Relational", score: 2, max: 3 },
       { label: "Curriculum Currency", score: 2, max: 3 },
-      { label: "Outcome Evidence", score: 1, max: 3 },
+      { label: "Outcome Evidence", score: 3, max: 3 },
       { label: "Irreplaceability (bonus)", score: 3, max: 3 },
     ],
     assessmentSlug: "dfva-mc-cs",
@@ -218,7 +222,7 @@ export const PROGRAMS: ProgramReport[] = [
     institution: "University of Melbourne",
     level: "Master · 2 years",
     date: "2026-06-08",
-    score: 24,
+    score: 26,
     maxScore: 36,
     riskBand: "MODERATE RISK",
     thresholds: { q1: "UNCERTAIN", q2: "YES", q3: "UNCERTAIN" },
@@ -232,7 +236,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Research Rigour", score: 2, max: 3 },
       { label: "Human & Relational", score: 2, max: 3 },
       { label: "Curriculum Currency", score: 3, max: 3 },
-      { label: "Outcome Evidence", score: 1, max: 3 },
+      { label: "Outcome Evidence", score: 3, max: 3 },
       { label: "Irreplaceability (bonus)", score: 2, max: 3 },
     ],
     assessmentSlug: "dfva-mc-datasc",
@@ -299,7 +303,7 @@ export const PROGRAMS: ProgramReport[] = [
     institution: "University of Melbourne",
     level: "Master · 2 years",
     date: "2026-06-08",
-    score: 25,
+    score: 26,
     maxScore: 36,
     riskBand: "MODERATE RISK",
     thresholds: { q1: "NO", q2: "YES", q3: "YES" },
@@ -313,7 +317,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Research Rigour", score: 3, max: 3 },
       { label: "Human & Relational", score: 2, max: 3 },
       { label: "Curriculum Currency", score: 2, max: 3 },
-      { label: "Outcome Evidence", score: 1, max: 3 },
+      { label: "Outcome Evidence", score: 2, max: 3 },
       { label: "Irreplaceability (bonus)", score: 3, max: 3 },
     ],
     assessmentSlug: "dfva-mc-bmedsc",
@@ -407,7 +411,7 @@ export const PROGRAMS: ProgramReport[] = [
     institution: "University of Melbourne",
     level: "Master · 2 years",
     date: "2026-06-08",
-    score: 23,
+    score: 25,
     maxScore: 36,
     riskBand: "MODERATE RISK",
     thresholds: { q1: "UNCERTAIN", q2: "YES", q3: "YES" },
@@ -421,7 +425,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Research Rigour", score: 2, max: 3 },
       { label: "Human & Relational", score: 2, max: 3 },
       { label: "Curriculum Currency", score: 2, max: 3 },
-      { label: "Outcome Evidence", score: 1, max: 3 },
+      { label: "Outcome Evidence", score: 3, max: 3 },
       { label: "Irreplaceability (bonus)", score: 2, max: 3 },
     ],
     assessmentSlug: "dfva-mc-envsc",
@@ -461,7 +465,7 @@ export const PROGRAMS: ProgramReport[] = [
     institution: "University of Melbourne",
     level: "Master · 2 years",
     date: "2026-06-08",
-    score: 21,
+    score: 23,
     maxScore: 36,
     riskBand: "MODERATE RISK",
     thresholds: { q1: "UNCERTAIN", q2: "UNCERTAIN", q3: "UNCERTAIN" },
@@ -475,7 +479,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Research Rigour", score: 2, max: 3 },
       { label: "Human & Relational", score: 2, max: 3 },
       { label: "Curriculum Currency", score: 2, max: 3 },
-      { label: "Outcome Evidence", score: 1, max: 3 },
+      { label: "Outcome Evidence", score: 3, max: 3 },
       { label: "Irreplaceability (bonus)", score: 2, max: 3 },
     ],
     assessmentSlug: "dfva-439fs",
@@ -488,7 +492,7 @@ export const PROGRAMS: ProgramReport[] = [
     institution: "University of Melbourne",
     level: "Master · 2 years",
     date: "2026-06-08",
-    score: 26,
+    score: 27,
     maxScore: 36,
     riskBand: "MODERATE RISK",
     thresholds: { q1: "NO", q2: "YES", q3: "YES" },
@@ -502,7 +506,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Research Rigour", score: 2, max: 3 },
       { label: "Human & Relational", score: 3, max: 3 },
       { label: "Curriculum Currency", score: 2, max: 3 },
-      { label: "Outcome Evidence", score: 2, max: 3 },
+      { label: "Outcome Evidence", score: 3, max: 3 },
       { label: "Irreplaceability (bonus)", score: 3, max: 3 },
     ],
     assessmentSlug: "dfva-mc-gencoun",
@@ -515,7 +519,7 @@ export const PROGRAMS: ProgramReport[] = [
     institution: "University of Melbourne",
     level: "Master · 2 years",
     date: "2026-06-08",
-    score: 26,
+    score: 27,
     maxScore: 36,
     riskBand: "MODERATE RISK",
     thresholds: { q1: "NO", q2: "YES", q3: "YES" },
@@ -529,7 +533,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Research Rigour", score: 2, max: 3 },
       { label: "Human & Relational", score: 3, max: 3 },
       { label: "Curriculum Currency", score: 2, max: 3 },
-      { label: "Outcome Evidence", score: 2, max: 3 },
+      { label: "Outcome Evidence", score: 3, max: 3 },
       { label: "Irreplaceability (bonus)", score: 3, max: 3 },
     ],
     assessmentSlug: "dfva-mc-nursc",
@@ -557,12 +561,12 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Human & Relational", score: 3, max: 3 },
       { label: "Curriculum Currency", score: 2, max: 3 },
       { label: "Outcome Evidence", score: 3, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 3, max: 3 }
+      { label: "Irreplaceability (bonus)", score: 3, max: 3 },
     ],
     assessmentSlug: "dfva-527cl",
     recommendSlug: "dfva-recommend-527cl",
     marketSlug: "dfva-market-527cl",
-    
+
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/527cl",
   },
   {
@@ -585,12 +589,12 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Human & Relational", score: 1, max: 3 },
       { label: "Curriculum Currency", score: 2, max: 3 },
       { label: "Outcome Evidence", score: 3, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 2, max: 3 }
+      { label: "Irreplaceability (bonus)", score: 2, max: 3 },
     ],
     assessmentSlug: "dfva-746st",
     recommendSlug: "dfva-recommend-746st",
     marketSlug: "dfva-market-746st",
-    
+
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/746st",
   },
   {
@@ -613,12 +617,12 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Human & Relational", score: 1, max: 3 },
       { label: "Curriculum Currency", score: 1, max: 3 },
       { label: "Outcome Evidence", score: 3, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 2, max: 3 }
+      { label: "Irreplaceability (bonus)", score: 2, max: 3 },
     ],
     assessmentSlug: "dfva-mc-apbusa",
     recommendSlug: "dfva-recommend-mc-apbusa",
     marketSlug: "dfva-market-mc-apbusa",
-    
+
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-apbusa",
   },
   {
@@ -626,7 +630,7 @@ export const PROGRAMS: ProgramReport[] = [
     institution: "University of Melbourne",
     level: "Master · 3 years",
     date: "2026-06-09",
-    score: 28,
+    score: 29,
     maxScore: 36,
     riskBand: "RESILIENT",
     thresholds: { q1: "NO", q2: "YES", q3: "YES" },
@@ -640,13 +644,13 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Research Rigour", score: 3, max: 3 },
       { label: "Human & Relational", score: 2, max: 3 },
       { label: "Curriculum Currency", score: 2, max: 3 },
-      { label: "Outcome Evidence", score: 2, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 3, max: 3 }
+      { label: "Outcome Evidence", score: 3, max: 3 },
+      { label: "Irreplaceability (bonus)", score: 3, max: 3 },
     ],
     assessmentSlug: "dfva-mc-arch",
     recommendSlug: "dfva-recommend-mc-arch",
     marketSlug: "dfva-market-mc-arch",
-    
+
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-arch",
   },
   {
@@ -669,12 +673,12 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Human & Relational", score: 2, max: 3 },
       { label: "Curriculum Currency", score: 3, max: 3 },
       { label: "Outcome Evidence", score: 3, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 3, max: 3 }
+      { label: "Irreplaceability (bonus)", score: 3, max: 3 },
     ],
     assessmentSlug: "dfva-mc-ba",
     recommendSlug: "dfva-recommend-mc-ba",
     marketSlug: "dfva-market-mc-ba",
-    
+
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-ba",
   },
   {
@@ -697,12 +701,12 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Human & Relational", score: 2, max: 3 },
       { label: "Curriculum Currency", score: 2, max: 3 },
       { label: "Outcome Evidence", score: 3, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 2, max: 3 }
+      { label: "Irreplaceability (bonus)", score: 2, max: 3 },
     ],
     assessmentSlug: "dfva-mc-bamktg",
     recommendSlug: "dfva-recommend-mc-bamktg",
     marketSlug: "dfva-market-mc-bamktg",
-    
+
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-bamktg",
   },
   {
@@ -725,12 +729,12 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Human & Relational", score: 3, max: 3 },
       { label: "Curriculum Currency", score: 2, max: 3 },
       { label: "Outcome Evidence", score: 3, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 1, max: 3 }
+      { label: "Irreplaceability (bonus)", score: 1, max: 3 },
     ],
     assessmentSlug: "dfva-mc-base",
     recommendSlug: "dfva-recommend-mc-base",
     marketSlug: "dfva-market-mc-base",
-    
+
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-base",
   },
   {
@@ -753,12 +757,12 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Human & Relational", score: 2, max: 3 },
       { label: "Curriculum Currency", score: 3, max: 3 },
       { label: "Outcome Evidence", score: 3, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 3, max: 3 }
+      { label: "Irreplaceability (bonus)", score: 3, max: 3 },
     ],
     assessmentSlug: "dfva-mc-busana",
     recommendSlug: "dfva-recommend-mc-busana",
     marketSlug: "dfva-market-mc-busana",
-    
+
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-busana",
   },
   {
@@ -781,12 +785,12 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Human & Relational", score: 3, max: 3 },
       { label: "Curriculum Currency", score: 2, max: 3 },
       { label: "Outcome Evidence", score: 3, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 3, max: 3 }
+      { label: "Irreplaceability (bonus)", score: 3, max: 3 },
     ],
     assessmentSlug: "dfva-mc-clind",
     recommendSlug: "dfva-recommend-mc-clind",
     marketSlug: "dfva-market-mc-clind",
-    
+
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-clind",
   },
   {
@@ -809,12 +813,12 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Human & Relational", score: 3, max: 3 },
       { label: "Curriculum Currency", score: 2, max: 3 },
       { label: "Outcome Evidence", score: 3, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 3, max: 3 }
+      { label: "Irreplaceability (bonus)", score: 3, max: 3 },
     ],
     assessmentSlug: "dfva-mc-ed",
     recommendSlug: "dfva-recommend-mc-ed",
     marketSlug: "dfva-market-mc-ed",
-    
+
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-ed",
   },
   {
@@ -837,12 +841,12 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Human & Relational", score: 2, max: 3 },
       { label: "Curriculum Currency", score: 3, max: 3 },
       { label: "Outcome Evidence", score: 3, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 2, max: 3 }
+      { label: "Irreplaceability (bonus)", score: 2, max: 3 },
     ],
     assessmentSlug: "dfva-mc-envlaw",
     recommendSlug: "dfva-recommend-mc-envlaw",
     marketSlug: "dfva-market-mc-envlaw",
-    
+
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-envlaw",
   },
   {
@@ -865,12 +869,12 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Human & Relational", score: 1, max: 3 },
       { label: "Curriculum Currency", score: 2, max: 3 },
       { label: "Outcome Evidence", score: 3, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 2, max: 3 }
+      { label: "Irreplaceability (bonus)", score: 2, max: 3 },
     ],
     assessmentSlug: "dfva-mc-indeng",
     recommendSlug: "dfva-recommend-mc-indeng",
     marketSlug: "dfva-market-mc-indeng",
-    
+
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-indeng",
   },
   {
@@ -893,12 +897,12 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Human & Relational", score: 2, max: 3 },
       { label: "Curriculum Currency", score: 2, max: 3 },
       { label: "Outcome Evidence", score: 3, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 1, max: 3 }
+      { label: "Irreplaceability (bonus)", score: 1, max: 3 },
     ],
     assessmentSlug: "dfva-mc-intedib",
     recommendSlug: "dfva-recommend-mc-intedib",
     marketSlug: "dfva-market-mc-intedib",
-    
+
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-intedib",
   },
   {
@@ -906,7 +910,7 @@ export const PROGRAMS: ProgramReport[] = [
     institution: "University of Melbourne",
     level: "Master · 2 years",
     date: "2026-06-09",
-    score: 20,
+    score: 21,
     maxScore: 36,
     riskBand: "MODERATE RISK",
     thresholds: { q1: "YES", q2: "UNCERTAIN", q3: "NO" },
@@ -920,13 +924,13 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Research Rigour", score: 2, max: 3 },
       { label: "Human & Relational", score: 3, max: 3 },
       { label: "Curriculum Currency", score: 1, max: 3 },
-      { label: "Outcome Evidence", score: 2, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 2, max: 3 }
+      { label: "Outcome Evidence", score: 3, max: 3 },
+      { label: "Irreplaceability (bonus)", score: 2, max: 3 },
     ],
     assessmentSlug: "dfva-mc-journ",
     recommendSlug: "dfva-recommend-mc-journ",
     marketSlug: "dfva-market-mc-journ",
-    
+
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-journ",
   },
   {
@@ -949,12 +953,12 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Human & Relational", score: 3, max: 3 },
       { label: "Curriculum Currency", score: 2, max: 3 },
       { label: "Outcome Evidence", score: 3, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 3, max: 3 }
+      { label: "Irreplaceability (bonus)", score: 3, max: 3 },
     ],
     assessmentSlug: "dfva-mc-phtyph",
     recommendSlug: "dfva-recommend-mc-phtyph",
     marketSlug: "dfva-market-mc-phtyph",
-    
+
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-phtyph",
   },
   {
@@ -962,7 +966,7 @@ export const PROGRAMS: ProgramReport[] = [
     institution: "University of Melbourne",
     level: "Master · 2 years",
     date: "2026-06-09",
-    score: 22,
+    score: 23,
     maxScore: 36,
     riskBand: "MODERATE RISK",
     thresholds: { q1: "NO", q2: "YES", q3: "YES" },
@@ -976,13 +980,13 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Research Rigour", score: 2, max: 3 },
       { label: "Human & Relational", score: 2, max: 3 },
       { label: "Curriculum Currency", score: 2, max: 3 },
-      { label: "Outcome Evidence", score: 2, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 2, max: 3 }
+      { label: "Outcome Evidence", score: 3, max: 3 },
+      { label: "Irreplaceability (bonus)", score: 2, max: 3 },
     ],
     assessmentSlug: "dfva-mc-prop",
     recommendSlug: "dfva-recommend-mc-prop",
     marketSlug: "dfva-market-mc-prop",
-    
+
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-prop",
   },
   {
@@ -1005,12 +1009,12 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Human & Relational", score: 3, max: 3 },
       { label: "Curriculum Currency", score: 2, max: 3 },
       { label: "Outcome Evidence", score: 3, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 3, max: 3 }
+      { label: "Irreplaceability (bonus)", score: 3, max: 3 },
     ],
     assessmentSlug: "dfva-mc-propsyc",
     recommendSlug: "dfva-recommend-mc-propsyc",
     marketSlug: "dfva-market-mc-propsyc",
-    
+
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-propsyc",
   },
   {
@@ -1033,12 +1037,12 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Human & Relational", score: 2, max: 3 },
       { label: "Curriculum Currency", score: 1, max: 3 },
       { label: "Outcome Evidence", score: 2, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 1, max: 3 }
+      { label: "Irreplaceability (bonus)", score: 1, max: 3 },
     ],
     assessmentSlug: "dfva-mc-scwr",
     recommendSlug: "dfva-recommend-mc-scwr",
     marketSlug: "dfva-market-mc-scwr",
-    
+
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-scwr",
   },
   {
@@ -1061,12 +1065,12 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Human & Relational", score: 3, max: 3 },
       { label: "Curriculum Currency", score: 2, max: 3 },
       { label: "Outcome Evidence", score: 3, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 3, max: 3 }
+      { label: "Irreplaceability (bonus)", score: 3, max: 3 },
     ],
     assessmentSlug: "dfva-mc-surged",
     recommendSlug: "dfva-recommend-mc-surged",
     marketSlug: "dfva-market-mc-surged",
-    
+
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-surged",
   },
   {
@@ -1091,12 +1095,12 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Research Rigour", score: 2, max: 3 },
       { label: "Human & Relational", score: 3, max: 3 },
       { label: "Curriculum Currency", score: 2, max: 3 },
-      { label: "Outcome Evidence", score: 3, max: 3 }
+      { label: "Outcome Evidence", score: 3, max: 3 },
     ],
     assessmentSlug: "dfva-mc-tesol",
     recommendSlug: "dfva-recommend-mc-tesol",
     marketSlug: "dfva-market-mc-tesol",
-    
+
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-tesol",
   },
   {
@@ -1119,12 +1123,12 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Human & Relational", score: 3, max: 3 },
       { label: "Curriculum Currency", score: 2, max: 3 },
       { label: "Outcome Evidence", score: 2, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 3, max: 3 }
+      { label: "Irreplaceability (bonus)", score: 3, max: 3 },
     ],
     assessmentSlug: "dfva-mc-urbdes",
     recommendSlug: "dfva-recommend-mc-urbdes",
     marketSlug: "dfva-market-mc-urbdes",
-    
+
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-urbdes",
   },
   {
@@ -1149,12 +1153,12 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Research Rigour", score: 2, max: 3 },
       { label: "Human & Relational", score: 2, max: 3 },
       { label: "Curriculum Currency", score: 2, max: 3 },
-      { label: "Outcome Evidence", score: 2, max: 3 }
+      { label: "Outcome Evidence", score: 2, max: 3 },
     ],
     assessmentSlug: "dfva-mc-urbhort",
     recommendSlug: "dfva-recommend-mc-urbhort",
     marketSlug: "dfva-market-mc-urbhort",
-    
+
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-urbhort",
   },
   {
@@ -1204,7 +1208,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Human & Relational", score: 1, max: 3 },
       { label: "Curriculum Currency", score: 1, max: 3 },
       { label: "Outcome Evidence", score: 1, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 3, max: 3 }
+      { label: "Irreplaceability (bonus)", score: 3, max: 3 },
     ],
     assessmentSlug: "dfva-dr-phileit",
     marketSlug: "dfva-market-dr-phileit",
@@ -1231,7 +1235,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Human & Relational", score: 1, max: 3 },
       { label: "Curriculum Currency", score: 1, max: 3 },
       { label: "Outcome Evidence", score: 1, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 3, max: 3 }
+      { label: "Irreplaceability (bonus)", score: 3, max: 3 },
     ],
     assessmentSlug: "dfva-dr-philbe",
     marketSlug: "dfva-market-dr-philbe",
@@ -1258,7 +1262,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Human & Relational", score: 2, max: 3 },
       { label: "Curriculum Currency", score: 1, max: 3 },
       { label: "Outcome Evidence", score: 0, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 2, max: 3 }
+      { label: "Irreplaceability (bonus)", score: 2, max: 3 },
     ],
     assessmentSlug: "dfva-dr-philart",
     marketSlug: "dfva-market-dr-philart",
@@ -1285,7 +1289,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Human & Relational", score: 1, max: 3 },
       { label: "Curriculum Currency", score: 1, max: 3 },
       { label: "Outcome Evidence", score: 1, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 3, max: 3 }
+      { label: "Irreplaceability (bonus)", score: 3, max: 3 },
     ],
     assessmentSlug: "dfva-dr-philsci",
     marketSlug: "dfva-market-dr-philsci",
@@ -1312,7 +1316,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Human & Relational", score: 2, max: 3 },
       { label: "Curriculum Currency", score: 1, max: 3 },
       { label: "Outcome Evidence", score: 1, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 3, max: 3 }
+      { label: "Irreplaceability (bonus)", score: 3, max: 3 },
     ],
     assessmentSlug: "dfva-dr-philagr",
     marketSlug: "dfva-market-dr-philagr",
@@ -1339,7 +1343,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Human & Relational", score: 2, max: 3 },
       { label: "Curriculum Currency", score: 1, max: 3 },
       { label: "Outcome Evidence", score: 1, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 3, max: 3 }
+      { label: "Irreplaceability (bonus)", score: 3, max: 3 },
     ],
     assessmentSlug: "dfva-dr-philabp",
     marketSlug: "dfva-market-dr-philabp",
@@ -1366,7 +1370,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Human & Relational", score: 2, max: 3 },
       { label: "Curriculum Currency", score: 2, max: 3 },
       { label: "Outcome Evidence", score: 1, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 3, max: 3 }
+      { label: "Irreplaceability (bonus)", score: 3, max: 3 },
     ],
     assessmentSlug: "dfva-dr-philmdh",
     marketSlug: "dfva-market-dr-philmdh",
@@ -1393,7 +1397,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Human & Relational", score: 2, max: 3 },
       { label: "Curriculum Currency", score: 0, max: 3 },
       { label: "Outcome Evidence", score: 0, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 1, max: 3 }
+      { label: "Irreplaceability (bonus)", score: 1, max: 3 },
     ],
     assessmentSlug: "dfva-dr-philedu",
     marketSlug: "dfva-market-dr-philedu",
@@ -1420,7 +1424,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Human & Relational", score: 3, max: 3 },
       { label: "Curriculum Currency", score: 1, max: 3 },
       { label: "Outcome Evidence", score: 1, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 3, max: 3 }
+      { label: "Irreplaceability (bonus)", score: 3, max: 3 },
     ],
     assessmentSlug: "dfva-dr-philfam",
     marketSlug: "dfva-market-dr-philfam",
@@ -1428,7 +1432,8 @@ export const PROGRAMS: ProgramReport[] = [
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/dr-philfam",
   },
   {
-    program: "Master of Psychology (Educational and Developmental)/Doctor of Philosophy",
+    program:
+      "Master of Psychology (Educational and Developmental)/Doctor of Philosophy",
     institution: "University of Melbourne",
     level: "Graduate Research (combined Masters+PhD), AQF level 10",
     date: "2026-07-02",
@@ -1447,7 +1452,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Human & Relational", score: 3, max: 3 },
       { label: "Curriculum Currency", score: 2, max: 3 },
       { label: "Outcome Evidence", score: 2, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 3, max: 3 }
+      { label: "Irreplaceability (bonus)", score: 3, max: 3 },
     ],
     assessmentSlug: "dfva-dr-philedp",
     marketSlug: "dfva-market-dr-philedp",
@@ -1455,7 +1460,8 @@ export const PROGRAMS: ProgramReport[] = [
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/dr-philedp",
   },
   {
-    program: "Master of Psychology (Clinical Neuropsychology)/Doctor of Philosophy",
+    program:
+      "Master of Psychology (Clinical Neuropsychology)/Doctor of Philosophy",
     institution: "University of Melbourne",
     level: "Graduate Research (combined Masters+PhD), AQF Level 10",
     date: "2026-07-02",
@@ -1474,7 +1480,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Human & Relational", score: 3, max: 3 },
       { label: "Curriculum Currency", score: 2, max: 3 },
       { label: "Outcome Evidence", score: 2, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 3, max: 3 }
+      { label: "Irreplaceability (bonus)", score: 3, max: 3 },
     ],
     assessmentSlug: "dfva-080cn",
     marketSlug: "dfva-market-080cn",
@@ -1501,7 +1507,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Human & Relational", score: 3, max: 3 },
       { label: "Curriculum Currency", score: 2, max: 3 },
       { label: "Outcome Evidence", score: 2, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 3, max: 3 }
+      { label: "Irreplaceability (bonus)", score: 3, max: 3 },
     ],
     assessmentSlug: "dfva-080cl",
     marketSlug: "dfva-market-080cl",
@@ -1528,7 +1534,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Human & Relational", score: 3, max: 3 },
       { label: "Curriculum Currency", score: 1, max: 3 },
       { label: "Outcome Evidence", score: 2, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 3, max: 3 }
+      { label: "Irreplaceability (bonus)", score: 3, max: 3 },
     ],
     assessmentSlug: "dfva-mc-dmed",
     marketSlug: "dfva-market-mc-dmed",
@@ -1555,7 +1561,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Human & Relational", score: 3, max: 3 },
       { label: "Curriculum Currency", score: 2, max: 3 },
       { label: "Outcome Evidence", score: 1, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 3, max: 3 }
+      { label: "Irreplaceability (bonus)", score: 3, max: 3 },
     ],
     assessmentSlug: "dfva-mc-dvetmed",
     marketSlug: "dfva-market-mc-dvetmed",
@@ -1582,7 +1588,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Human & Relational", score: 3, max: 3 },
       { label: "Curriculum Currency", score: 1, max: 3 },
       { label: "Outcome Evidence", score: 1, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 3, max: 3 }
+      { label: "Irreplaceability (bonus)", score: 3, max: 3 },
     ],
     assessmentSlug: "dfva-300bb",
     marketSlug: "dfva-market-300bb",
@@ -1609,7 +1615,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Human & Relational", score: 1, max: 3 },
       { label: "Curriculum Currency", score: 0, max: 3 },
       { label: "Outcome Evidence", score: 0, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 3, max: 3 }
+      { label: "Irreplaceability (bonus)", score: 3, max: 3 },
     ],
     assessmentSlug: "dfva-dh-lld",
     marketSlug: "dfva-market-dh-lld",
@@ -1636,7 +1642,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Human & Relational", score: 3, max: 3 },
       { label: "Curriculum Currency", score: 2, max: 3 },
       { label: "Outcome Evidence", score: 1, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 3, max: 3 }
+      { label: "Irreplaceability (bonus)", score: 3, max: 3 },
     ],
     assessmentSlug: "dfva-dr-philik",
     marketSlug: "dfva-market-dr-philik",
@@ -1663,7 +1669,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Human & Relational", score: 2, max: 3 },
       { label: "Curriculum Currency", score: 1, max: 3 },
       { label: "Outcome Evidence", score: 1, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 3, max: 3 }
+      { label: "Irreplaceability (bonus)", score: 3, max: 3 },
     ],
     assessmentSlug: "dfva-dr-phillaw",
     marketSlug: "dfva-market-dr-phillaw",
@@ -1690,7 +1696,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Human & Relational", score: 2, max: 3 },
       { label: "Curriculum Currency", score: 1, max: 3 },
       { label: "Outcome Evidence", score: 1, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 3, max: 3 }
+      { label: "Irreplaceability (bonus)", score: 3, max: 3 },
     ],
     assessmentSlug: "dfva-dr-philvet",
     marketSlug: "dfva-market-dr-philvet",
@@ -1717,7 +1723,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Human & Relational", score: 1, max: 3 },
       { label: "Curriculum Currency", score: 0, max: 3 },
       { label: "Outcome Evidence", score: 0, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 3, max: 3 }
+      { label: "Irreplaceability (bonus)", score: 3, max: 3 },
     ],
     assessmentSlug: "dfva-dh-sc",
     marketSlug: "dfva-market-dh-sc",
@@ -1744,7 +1750,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Human & Relational", score: 3, max: 3 },
       { label: "Curriculum Currency", score: 2, max: 3 },
       { label: "Outcome Evidence", score: 2, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 3, max: 3 }
+      { label: "Irreplaceability (bonus)", score: 3, max: 3 },
     ],
     assessmentSlug: "dfva-me-dcd",
     marketSlug: "dfva-market-me-dcd",
@@ -1771,7 +1777,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Human & Relational", score: 3, max: 3 },
       { label: "Curriculum Currency", score: 1, max: 3 },
       { label: "Outcome Evidence", score: 1, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 3, max: 3 }
+      { label: "Irreplaceability (bonus)", score: 3, max: 3 },
     ],
     assessmentSlug: "dfva-mc-ddensur",
     marketSlug: "dfva-market-mc-ddensur",
@@ -1798,7 +1804,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Human & Relational", score: 3, max: 3 },
       { label: "Curriculum Currency", score: 1, max: 3 },
       { label: "Outcome Evidence", score: 1, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 3, max: 3 }
+      { label: "Irreplaceability (bonus)", score: 3, max: 3 },
     ],
     assessmentSlug: "dfva-mc-doptom",
     marketSlug: "dfva-market-mc-doptom",
@@ -1825,18 +1831,25 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Human & Relational", score: 3, max: 3 },
       { label: "Curriculum Currency", score: 2, max: 3 },
       { label: "Outcome Evidence", score: 2, max: 3 },
-      { label: "Irreplaceability (bonus)", score: 3, max: 3 }
+      { label: "Irreplaceability (bonus)", score: 3, max: 3 },
     ],
     assessmentSlug: "dfva-mc-dphysio",
     marketSlug: "dfva-market-mc-dphysio",
     recommendSlug: "dfva-recommend-mc-dphysio",
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-dphysio",
-  }
+  },
 ];
 
 export const riskBandConfig: Record<
   string,
-  { bg: string; text: string; border: string; bar: string; label: string; hoverBg: string }
+  {
+    bg: string;
+    text: string;
+    border: string;
+    bar: string;
+    label: string;
+    hoverBg: string;
+  }
 > = {
   RESILIENT: {
     bg: "bg-emerald-50 dark:bg-emerald-900/20",

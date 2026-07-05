@@ -1,6 +1,6 @@
-import { handbookCache } from './handbookCache';
+import { handbookCache } from "./handbookCache";
 
-const BASE_URL = 'https://handbook.unimelb.edu.au/2026/courses';
+const BASE_URL = "https://handbook.unimelb.edu.au/2026/courses";
 
 export interface HandbookPage {
   url: string;
@@ -9,39 +9,54 @@ export interface HandbookPage {
   fromCache: boolean;
 }
 
-export async function fetchCourseOverview(courseCode: string): Promise<HandbookPage> {
+export async function fetchCourseOverview(
+  courseCode: string,
+): Promise<HandbookPage> {
   const url = `${BASE_URL}/${courseCode}`;
   return fetchPage(url);
 }
 
-export async function fetchCourseStructure(courseCode: string): Promise<HandbookPage> {
+export async function fetchCourseStructure(
+  courseCode: string,
+): Promise<HandbookPage> {
   const url = `${BASE_URL}/${courseCode}/course-structure`;
   return fetchPage(url);
 }
 
-export async function fetchCourseAttributes(courseCode: string): Promise<HandbookPage> {
+export async function fetchCourseAttributes(
+  courseCode: string,
+): Promise<HandbookPage> {
   const url = `${BASE_URL}/${courseCode}/attributes-outcomes-skills`;
   return fetchPage(url);
 }
 
 function isCloudflareBlock(content: string): boolean {
-  return content.includes('Pardon Our Interruption') || content.includes('make us think you were a bot');
+  return (
+    content.includes("Pardon Our Interruption") ||
+    content.includes("make us think you were a bot")
+  );
 }
 
 async function fetchPage(url: string): Promise<HandbookPage> {
   // Check cache — skip Cloudflare-blocked entries
   const cached = await handbookCache.get(url);
   if (cached && !isCloudflareBlock(cached.content)) {
-    return { url, title: cached.title, content: cached.content, fromCache: true };
+    return {
+      url,
+      title: cached.title,
+      content: cached.content,
+      fromCache: true,
+    };
   }
 
   // Try direct fetch first
-  let html = '';
+  let html = "";
   try {
     const response = await fetch(url, {
       headers: {
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
-        Accept: 'text/html,application/xhtml+xml',
+        "User-Agent":
+          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        Accept: "text/html,application/xhtml+xml",
       },
     });
     if (response.ok) html = await response.text();
@@ -68,15 +83,16 @@ async function fetchPage(url: string): Promise<HandbookPage> {
 
 async function fetchViaPlaywright(url: string): Promise<string> {
   // Dynamic import to avoid requiring playwright at module load
-  const { chromium } = await import('playwright');
+  const { chromium } = await import("playwright");
   const browser = await chromium.launch({ headless: true });
   try {
     const page = await browser.newPage();
     await page.setExtraHTTPHeaders({
-      'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
-      'Accept': 'text/html,application/xhtml+xml',
+      "User-Agent":
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+      Accept: "text/html,application/xhtml+xml",
     });
-    await page.goto(url, { waitUntil: 'networkidle', timeout: 30000 });
+    await page.goto(url, { waitUntil: "networkidle", timeout: 30000 });
     const html = await page.content();
     return html;
   } finally {
@@ -84,24 +100,27 @@ async function fetchViaPlaywright(url: string): Promise<string> {
   }
 }
 
-function extractContent(html: string, url: string): { title: string; content: string } {
+function extractContent(
+  html: string,
+  url: string,
+): { title: string; content: string } {
   const titleMatch = html.match(/<title>(.*?)<\/title>/);
   const title = titleMatch
-    ? titleMatch[1].replace(' — The University of Melbourne Handbook', '')
+    ? titleMatch[1].replace(" — The University of Melbourne Handbook", "")
     : url;
 
   const mainMatch = html.match(/<main[^>]*>([\s\S]*?)<\/main>/);
   const bodyText = mainMatch ? mainMatch[1] : html;
 
   const content = bodyText
-    .replace(/<script[^>]*>[\s\S]*?<\/script>/gi, '')
-    .replace(/<style[^>]*>[\s\S]*?<\/style>/gi, '')
-    .replace(/<[^>]+>/g, ' ')
-    .replace(/&amp;/g, '&')
-    .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>')
-    .replace(/&nbsp;/g, ' ')
-    .replace(/\s+/g, ' ')
+    .replace(/<script[^>]*>[\s\S]*?<\/script>/gi, "")
+    .replace(/<style[^>]*>[\s\S]*?<\/style>/gi, "")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&nbsp;/g, " ")
+    .replace(/\s+/g, " ")
     .trim()
     .slice(0, 15000);
 

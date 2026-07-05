@@ -31,11 +31,11 @@ export default function WhyDFVA({ compact = false }: WhyDFVAProps) {
     const bestSignal = topSignals[0];
     return (
       <div className="flex items-center gap-3 text-sm">
-        <div className="flex items-center gap-1.5 shrink-0">
+        <div className="flex shrink-0 items-center gap-1.5">
           {topSignals.map((s) => (
             <span
               key={s.source}
-              className="inline-flex items-center gap-1 rounded-full border border-border bg-muted/50 px-2 py-0.5 text-xs font-medium text-foreground"
+              className="border-border bg-muted/50 text-foreground inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-xs font-medium"
             >
               {s.source}
               <span aria-hidden="true">{renderStars(s.credibilityScore)}</span>
@@ -53,13 +53,13 @@ export default function WhyDFVA({ compact = false }: WhyDFVAProps) {
 
   // Full mode: headline, 3 sources with stars, key excerpt, Learn more link
   return (
-    <div className="rounded-lg border border-border bg-card p-5 text-sm">
-      <h3 className="text-base font-bold text-foreground mb-3">Why DFVA?</h3>
+    <div className="border-border bg-card rounded-lg border p-5 text-sm">
+      <h3 className="text-foreground mb-3 text-base font-bold">Why DFVA?</h3>
 
-      <ul className="space-y-2 mb-4">
+      <ul className="mb-4 space-y-2">
         {topSignals.map((signal) => (
           <li key={signal.source} className="flex items-center gap-2">
-            <span className="font-semibold text-foreground">
+            <span className="text-foreground font-semibold">
               {signal.source}
             </span>
             <span aria-hidden="true">
@@ -70,14 +70,14 @@ export default function WhyDFVA({ compact = false }: WhyDFVAProps) {
       </ul>
 
       {topSignals[0]?.excerpt && (
-        <blockquote className="border-l-2 border-primary/30 pl-3 text-muted-foreground italic mb-4 leading-relaxed">
+        <blockquote className="border-primary/30 text-muted-foreground mb-4 border-l-2 pl-3 leading-relaxed italic">
           {topSignals[0].excerpt}
         </blockquote>
       )}
 
       <a
         href="/insights"
-        className="inline-flex items-center gap-1 text-xs font-medium text-primary hover:underline"
+        className="text-primary inline-flex items-center gap-1 text-xs font-medium hover:underline"
       >
         Learn more <span aria-hidden="true">→</span>
       </a>

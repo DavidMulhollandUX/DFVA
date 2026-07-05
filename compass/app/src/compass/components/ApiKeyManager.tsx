@@ -1,16 +1,20 @@
-import { useState } from 'react';
-import { useAction, useQuery } from 'wasp/client/operations';
-import { generateApiKey, revokeApiKey, listApiKeys } from 'wasp/client/operations';
+import { useState } from "react";
+import { useAction, useQuery } from "wasp/client/operations";
+import {
+  generateApiKey,
+  revokeApiKey,
+  listApiKeys,
+} from "wasp/client/operations";
 import {
   Card,
   CardContent,
   CardHeader,
   CardTitle,
   CardDescription,
-} from '../../client/components/ui/card';
-import { Button } from '../../client/components/ui/button';
-import { Input } from '../../client/components/ui/input';
-import { Label } from '../../client/components/ui/label';
+} from "../../client/components/ui/card";
+import { Button } from "../../client/components/ui/button";
+import { Input } from "../../client/components/ui/input";
+import { Label } from "../../client/components/ui/label";
 import {
   Dialog,
   DialogContent,
@@ -18,14 +22,14 @@ import {
   DialogFooter,
   DialogHeader,
   DialogTitle,
-} from '../../client/components/ui/dialog';
-import { Key, Copy, Trash2, Check, AlertTriangle, Loader2 } from 'lucide-react';
+} from "../../client/components/ui/dialog";
+import { Key, Copy, Trash2, Check, AlertTriangle, Loader2 } from "lucide-react";
 
 export default function ApiKeyManager() {
   const { data: keys, isLoading, refetch } = useQuery(listApiKeys);
   const generateAction = useAction(generateApiKey);
   const revokeAction = useAction(revokeApiKey);
-  const [newKeyName, setNewKeyName] = useState('');
+  const [newKeyName, setNewKeyName] = useState("");
   const [rawKey, setRawKey] = useState<string | null>(null);
   const [copied, setCopied] = useState(false);
   const [generating, setGenerating] = useState(false);
@@ -39,10 +43,10 @@ export default function ApiKeyManager() {
     try {
       const result = await generateAction({ name: newKeyName.trim() });
       setRawKey(result.rawKey);
-      setNewKeyName('');
+      setNewKeyName("");
       refetch();
     } catch (e: any) {
-      setError(e.message || 'Failed to generate key');
+      setError(e.message || "Failed to generate key");
     } finally {
       setGenerating(false);
     }
@@ -55,7 +59,7 @@ export default function ApiKeyManager() {
       await revokeAction({ keyId });
       refetch();
     } catch (e: any) {
-      setError(e.message || 'Failed to revoke key');
+      setError(e.message || "Failed to revoke key");
     } finally {
       setRevokingId(null);
     }
@@ -75,21 +79,23 @@ export default function ApiKeyManager() {
           API Keys
         </CardTitle>
         <CardDescription>
-          Generate and manage API keys for programmatic access to DFVA.
-          Keys are shown once — copy them immediately.
+          Generate and manage API keys for programmatic access to DFVA. Keys are
+          shown once — copy them immediately.
         </CardDescription>
       </CardHeader>
       <CardContent className="space-y-4">
         {/* Generate new key */}
         <div className="flex gap-2">
           <div className="flex-1">
-            <Label htmlFor="key-name" className="sr-only">Key name</Label>
+            <Label htmlFor="key-name" className="sr-only">
+              Key name
+            </Label>
             <Input
               id="key-name"
               placeholder="Key name (e.g. 'Production', 'Staging')"
               value={newKeyName}
               onChange={(e) => setNewKeyName(e.target.value)}
-              onKeyDown={(e) => e.key === 'Enter' && handleGenerate()}
+              onKeyDown={(e) => e.key === "Enter" && handleGenerate()}
             />
           </div>
           <Button
@@ -97,9 +103,9 @@ export default function ApiKeyManager() {
             disabled={generating || !newKeyName.trim()}
           >
             {generating ? (
-              <Loader2 className="h-4 w-4 animate-spin mr-1" />
+              <Loader2 className="mr-1 h-4 w-4 animate-spin" />
             ) : (
-              <Key className="h-4 w-4 mr-1" />
+              <Key className="mr-1 h-4 w-4" />
             )}
             Generate
           </Button>
@@ -114,7 +120,7 @@ export default function ApiKeyManager() {
 
         {/* Existing keys */}
         {isLoading ? (
-          <div className="flex items-center gap-2 text-sm text-muted-foreground">
+          <div className="text-muted-foreground flex items-center gap-2 text-sm">
             <Loader2 className="h-4 w-4 animate-spin" />
             Loading keys...
           </div>
@@ -126,14 +132,14 @@ export default function ApiKeyManager() {
                 className="flex items-center justify-between rounded-md border p-3"
               >
                 <div>
-                  <div className="font-medium text-sm">{key.name}</div>
-                  <div className="text-xs text-muted-foreground font-mono">
+                  <div className="text-sm font-medium">{key.name}</div>
+                  <div className="text-muted-foreground font-mono text-xs">
                     {key.keyPrefix}...
                   </div>
-                  <div className="text-xs text-muted-foreground">
+                  <div className="text-muted-foreground text-xs">
                     Created {new Date(key.createdAt).toLocaleDateString()}
                     {!key.isActive && (
-                      <span className="text-red-500 ml-2">(Revoked)</span>
+                      <span className="ml-2 text-red-500">(Revoked)</span>
                     )}
                   </div>
                 </div>
@@ -155,7 +161,7 @@ export default function ApiKeyManager() {
             ))}
           </div>
         ) : (
-          <p className="text-sm text-muted-foreground">
+          <p className="text-muted-foreground text-sm">
             No API keys yet. Generate one above to get started.
           </p>
         )}
@@ -166,11 +172,10 @@ export default function ApiKeyManager() {
             <DialogHeader>
               <DialogTitle>Your API Key</DialogTitle>
               <DialogDescription>
-                Copy this key now — it won't be shown again.
-                Store it securely.
+                Copy this key now — it won't be shown again. Store it securely.
               </DialogDescription>
             </DialogHeader>
-            <div className="flex items-center gap-2 rounded-md bg-muted p-3 font-mono text-sm break-all">
+            <div className="bg-muted flex items-center gap-2 rounded-md p-3 font-mono text-sm break-all">
               <code className="flex-1">{rawKey}</code>
               <Button
                 variant="ghost"
@@ -185,9 +190,7 @@ export default function ApiKeyManager() {
               </Button>
             </div>
             <DialogFooter>
-              <Button onClick={() => setRawKey(null)}>
-                I've saved my key
-              </Button>
+              <Button onClick={() => setRawKey(null)}>I've saved my key</Button>
             </DialogFooter>
           </DialogContent>
         </Dialog>

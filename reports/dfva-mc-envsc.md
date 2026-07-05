@@ -51,10 +51,10 @@ Typical graduate roles include environmental consultant, environmental scientist
 | 7 | Research Methods Rigour | 2 | Industry Project (default) or Research Project (outstanding students). Environmental Risk Assessment provides methodological grounding. Less research-heavy than lab-science MSc programs. |
 | 8 | Human and Relational Capability | 2 | Stakeholder engagement implicit in environmental practice. Professional skills subjects available. No dedicated ethics/communication requirement. |
 | 9 | Curriculum Currency and Adaptability | 2 | Updated 26 March 2026. Climate impacts, biosecurity, spatial tools — current topics. No AI integration. |
-| 10 | Graduate Outcome Evidence | 2 | No granular destination data; field-level QILT outcomes available (79% full-time employment, recruitment-difficulty demand). |
+| 10 | Graduate Outcome Evidence | 3 | UoM Job Insights Report (LiveAlumni, exact match, n=32) publishes role-title-level destinations; field-level QILT outcomes (79% full-time employment, recruitment-difficulty demand) corroborate. |
 | B | Irreplaceability Premium (Bonus) | 2 | Environmental science + policy integration is valuable. Field skills resist AI. Less deeply specialised than lab-science MSc programs. |
 
-**TOTAL: 24 / 36**  
+**TOTAL: 25 / 36**  
 **Risk band: MODERATE RISK (20-27)**
 
 ### 5. THREE THRESHOLD QUESTIONS

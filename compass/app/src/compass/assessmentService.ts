@@ -1,4 +1,4 @@
-import type { AssessmentJob } from 'wasp/entities';
+import type { AssessmentJob } from "wasp/entities";
 
 export interface AssessmentResult {
   courseCode: string | null;
@@ -18,15 +18,17 @@ export interface AssessmentService {
 }
 
 // Service resolver
-import { MockAssessmentService } from './mockAssessmentService';
-import { RealAssessmentService } from './realAssessmentService';
+import { MockAssessmentService } from "./mockAssessmentService";
+import { RealAssessmentService } from "./realAssessmentService";
 
 let _service: AssessmentService | null = null;
 
 export function getAssessmentService(): AssessmentService {
   if (!_service) {
-    const useMock = process.env.DFVA_MOCK !== 'false';
-    _service = useMock ? new MockAssessmentService() : new RealAssessmentService();
+    const useMock = process.env.DFVA_MOCK !== "false";
+    _service = useMock
+      ? new MockAssessmentService()
+      : new RealAssessmentService();
   }
   return _service;
 }

@@ -17,22 +17,22 @@ test.afterAll(async () => {
   await page.close();
 });
 
+// Login/Signup pages use useRedirectIfLoggedIn, which sends an
+// already-authenticated visitor to /reports.
 test.describe("auth redirect tests", () => {
-  test("logged-in user visiting /login should redirect to /demo-app", async () => {
+  test("logged-in user visiting /login should redirect to /reports", async () => {
     // User is already logged in from beforeAll
     await page.goto("/login");
 
-    // Should be redirected to /demo-app
-    await page.waitForURL("**/demo-app", { timeout: 5000 });
-    expect(page.url()).toContain("/demo-app");
+    await page.waitForURL("**/reports", { timeout: 5000 });
+    expect(page.url()).toContain("/reports");
   });
 
-  test("logged-in user visiting /signup should redirect to /demo-app", async () => {
+  test("logged-in user visiting /signup should redirect to /reports", async () => {
     // User is already logged in from beforeAll
     await page.goto("/signup");
 
-    // Should be redirected to /demo-app
-    await page.waitForURL("**/demo-app", { timeout: 5000 });
-    expect(page.url()).toContain("/demo-app");
+    await page.waitForURL("**/reports", { timeout: 5000 });
+    expect(page.url()).toContain("/reports");
   });
 });

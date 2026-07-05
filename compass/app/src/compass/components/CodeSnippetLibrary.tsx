@@ -1,6 +1,11 @@
-import { useState } from 'react';
-import { Card, CardContent, CardHeader, CardTitle } from '../../client/components/ui/card';
-import { Code, Copy, Check } from 'lucide-react';
+import { useState } from "react";
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle,
+} from "../../client/components/ui/card";
+import { Code, Copy, Check } from "lucide-react";
 
 interface Snippet {
   label: string;
@@ -10,26 +15,26 @@ interface Snippet {
 
 const SNIPPETS: Snippet[] = [
   {
-    label: 'List Programs',
-    language: 'curl',
+    label: "List Programs",
+    language: "curl",
     code: `curl -H "Authorization: Bearer dfva_YOUR_API_KEY" \\
   https://evidura.ai/api/v1/programs`,
   },
   {
-    label: 'Get Assessment',
-    language: 'curl',
+    label: "Get Assessment",
+    language: "curl",
     code: `curl -H "Authorization: Bearer dfva_YOUR_API_KEY" \\
   https://evidura.ai/api/v1/programs/mc-cs`,
   },
   {
-    label: 'Compare Programs',
-    language: 'curl',
+    label: "Compare Programs",
+    language: "curl",
     code: `curl -H "Authorization: Bearer dfva_YOUR_API_KEY" \\
   "https://evidura.ai/api/v1/compare?programs=mc-cs,mc-eng"`,
   },
   {
-    label: 'List Programs (TypeScript)',
-    language: 'typescript',
+    label: "List Programs (TypeScript)",
+    language: "typescript",
     code: `import { DfvaClient } from '@unimelb/dfva-sdk';
 
 const client = new DfvaClient({ apiKey: 'dfva_YOUR_API_KEY' });
@@ -37,8 +42,8 @@ const programs = await client.programs.list();
 console.log(programs);`,
   },
   {
-    label: 'Get Assessment (TypeScript)',
-    language: 'typescript',
+    label: "Get Assessment (TypeScript)",
+    language: "typescript",
     code: `import { DfvaClient } from '@unimelb/dfva-sdk';
 
 const client = new DfvaClient({ apiKey: 'dfva_YOUR_API_KEY' });
@@ -46,8 +51,8 @@ const assessment = await client.programs.get('mc-cs');
 console.log(assessment.score, assessment.riskBand);`,
   },
   {
-    label: 'List Programs (Python)',
-    language: 'python',
+    label: "List Programs (Python)",
+    language: "python",
     code: `from dfva_sdk import DfvaClient
 
 client = DfvaClient(api_key="dfva_YOUR_API_KEY")
@@ -56,8 +61,8 @@ for p in programs:
     print(p.code, p.name)`,
   },
   {
-    label: 'Get Assessment (Python)',
-    language: 'python',
+    label: "Get Assessment (Python)",
+    language: "python",
     code: `from dfva_sdk import DfvaClient
 
 client = DfvaClient(api_key="dfva_YOUR_API_KEY")
@@ -91,10 +96,10 @@ export default function CodeSnippetLibrary() {
             <button
               key={i}
               onClick={() => setActiveSnippet(i)}
-              className={`px-3 py-1 text-xs rounded-md transition-colors ${
+              className={`rounded-md px-3 py-1 text-xs transition-colors ${
                 i === activeSnippet
-                  ? 'bg-primary text-primary-foreground'
-                  : 'text-muted-foreground hover:bg-muted'
+                  ? "bg-primary text-primary-foreground"
+                  : "text-muted-foreground hover:bg-muted"
               }`}
             >
               {snippet.label}
@@ -104,14 +109,14 @@ export default function CodeSnippetLibrary() {
 
         {/* Active snippet */}
         <div className="relative">
-          <pre className="rounded-md bg-zinc-950 p-4 text-sm text-zinc-50 overflow-x-auto">
+          <pre className="overflow-x-auto rounded-md bg-zinc-950 p-4 text-sm text-zinc-50">
             <code>{SNIPPETS[activeSnippet].code}</code>
           </pre>
           <button
             onClick={() =>
               copySnippet(activeSnippet, SNIPPETS[activeSnippet].code)
             }
-            className="absolute top-2 right-2 p-1.5 rounded-md bg-zinc-800 hover:bg-zinc-700 text-zinc-400 hover:text-zinc-200 transition-colors"
+            className="absolute top-2 right-2 rounded-md bg-zinc-800 p-1.5 text-zinc-400 transition-colors hover:bg-zinc-700 hover:text-zinc-200"
             title="Copy to clipboard"
           >
             {copiedIndex === activeSnippet ? (

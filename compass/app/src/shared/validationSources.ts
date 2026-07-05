@@ -49,7 +49,5 @@ export function getValidationSources(): ValidationSource[] {
  * Get validation sources filtered by a specific acceptance test.
  */
 export function getSourcesForTest(testId: string): ValidationSource[] {
-  return VALIDATION_SOURCES.filter(
-    (s) => s.supportsTests?.includes(testId),
-  );
+  return VALIDATION_SOURCES.filter((s) => s.supportsTests?.includes(testId));
 }

@@ -65,6 +65,12 @@ export const addFileToDb: AddFileToDb<AddFileToDbInput, File> = async (
     throw new HttpError(401);
   }
 
+  // s3Keys are minted as `${userId}/${uuid}` — registering a key outside the
+  // caller's namespace would let them download/delete another user's object.
+  if (!args.s3Key.startsWith(`${context.user.id}/`)) {
+    throw new HttpError(403, "Forbidden");
+  }
+
   const fileExists = await checkFileExistsInS3({ s3Key: args.s3Key });
   if (!fileExists) {
     throw new HttpError(404, "File not found in S3.");

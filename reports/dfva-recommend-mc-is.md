@@ -1,7 +1,7 @@
 ## IMPROVEMENT PLAN: Master of Information Systems (MC-IS)
 
-**Current:** 18/36 HIGH RISK | **Duration:** 1.5–2 years (200 credit points)
-**Target:** 28/36 RESILIENT | **Gap:** 10 points
+**Current:** 20/36 MODERATE RISK | **Duration:** 1.5–2 years (200 credit points)
+**Target:** 28/36 RESILIENT | **Gap:** 8 points
 
 **Assessment date:** 2026-05-07
 **Prompt version:** DFVA-COPILOT-RECOMMENDER-v1
@@ -9,7 +9,7 @@
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The MC-IS scored **18/36 — HIGH RISK**. One point below the MODERATE RISK threshold. Three critical 1/3 scores: automation exposure (D1), AI literacy (D5), and graduate outcome evidence (D10). The program is not broken — the redesign task is to close these gaps and convert adequate scores to durable ones.
+The MC-IS scored **20/36 — MODERATE RISK**, lifted out of HIGH RISK by real graduate-outcome evidence (UoM Job Insights Report, LiveAlumni, n=257; D10 1→3). Two critical 1/3 scores remain: automation exposure (D1) and AI literacy (D5). The program is not broken — the redesign task is to close these gaps and convert adequate scores to durable ones.
 
 | Dimension | Score | Status |
 |---|---|---|
@@ -22,9 +22,9 @@ The MC-IS scored **18/36 — HIGH RISK**. One point below the MODERATE RISK thre
 | D7 — Research Methods | 2/3 | Adequate |
 | D8 — Human and Relational | 2/3 | Adequate |
 | D9 — Curriculum Currency | 2/3 | Adequate |
-| D10 — Graduate Outcome Evidence | 1/3 | ⚠️ Critical gap |
+| D10 — Graduate Outcome Evidence | 3/3 | Strong |
 | B — Irreplaceability Premium | 1/3 | ⚠️ Weak |
-| **TOTAL** | **18/36** | **HIGH RISK** |
+| **TOTAL** | **20/36** | **MODERATE RISK** |
 
 ---
 
@@ -33,7 +33,7 @@ The MC-IS scored **18/36 — HIGH RISK**. One point below the MODERATE RISK thre
 |---|---|---|---|
 | D1 — Automation Exposure | 1/3 | First 2–3 years dominated by BA documentation, requirements writing, JIRA administration — AI-substitutable tasks | Redesign capstone and SA&D unit to target AI workflow governance roles; update career framing |
 | D5 — AI Literacy and Governance | 1/3 | No dedicated AI governance unit in core curriculum | Create mandatory core unit: AI Governance and Deployment |
-| D10 — Graduate Outcome Evidence | 1/3 | Aggregate data only; no role-title or salary granularity for MC-IS | Publish cohort-level destination data within 12 months; implement alumni tracking |
+| D10 — Graduate Outcome Evidence | 3/3 | Real destination evidence now published (UoM Job Insights / LiveAlumni). | Publish cohort-level destination data within 12 months; implement alumni tracking |
 | D4 — Decision-Making | 2/3 | Non-research track limits live uncertainty exposure | Mandate real-client capstone for all tracks |
 | D3 — Technical Depth | 2/3 | Coding depth light without deliberate elective selection | Introduce mandatory data engineering elective pathway (SQL, Python, dbt) |
 | D6 — Domain Depth | 2/3 | Dual-stream design dilutes specialisation | Require sector elective cluster (health IT, fintech, or govtech) |
@@ -74,9 +74,9 @@ The MC-IS scored **18/36 — HIGH RISK**. One point below the MODERATE RISK thre
 ---
 
 ## 6. 24-MONTH CAPABILITY ROADMAP
-* **Months 1–12 — Structural Fix:** Close three critical 1/3 scores. AI Governance unit live (D5: 1→3). Assessment redesign (D1: 1→2, D4: 2→3). Destination tracking (D10: 1→2). **Projected: 23–24/36 (MODERATE RISK)**
+* **Months 1–12 — Structural Fix:** Close two critical 1/3 scores. AI Governance unit live (D5: 1→3). Assessment redesign (D1: 1→2, D4: 2→3). **Projected: 24–25/36 (MODERATE RISK)**
 * **Months 13–18 — Depth and Differentiation:** Data engineering elective (D3: 2→3). Sector clusters (D6: 2→3). Employer panel full cycle (D9: 2→3). Real-client capstone first cohort (B: 1→2).
-* **Months 19–24 — Evidence and Signal:** Destination data published (D10: 2→3). Portfolio requirement (B: 2→3). ISO 42001 mapped to graduate attributes. **Projected: 28–30/36 (RESILIENT)**
+* **Months 19–24 — Evidence and Signal:** Destination data publication institutionalised (D10 sustained at 3/3). Portfolio requirement (B: 2→3). ISO 42001 mapped to graduate attributes. **Projected: 28–30/36 (RESILIENT)**
 
 ---
 

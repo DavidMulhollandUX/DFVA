@@ -35,10 +35,10 @@ Net exposure remains **high** for graduates focused on template/asset execution;
 | 7 | Research Methods Rigour | 1 | Market demand for evidence-backed design decisions is rising; primary-method rigour remains inconsistent across pathways. |
 | 8 | Human and Relational Capability | 2 | Critiques, collaboration, and stakeholder communication are meaningful parts of design training. |
 | 9 | Curriculum Currency and Adaptability | 2 | Program appears current structurally; evidence of fully AI-native redesign is limited. |
-| 10 | Graduate Outcome Evidence | 2 | Employer-side differentiation is increasingly capability-specific, but outcome visibility is still broad rather than role/task granular. |
+| 10 | Graduate Outcome Evidence | 2 | Cognate UoM Job Insights Report (LiveAlumni, n=248) provides real destination evidence at cognate grain; role/task-granular program-exact visibility still limited. |
 | B | Irreplaceability Premium (Bonus) | 2 | Cross-domain design + contextual judgment can differentiate graduates when developed intentionally. |
 
-**TOTAL: 17 / 36**  
+**TOTAL: 18 / 36**  
 **Risk band: HIGH RISK (12-19)**
 
 ### 5. THREE THRESHOLD QUESTIONS

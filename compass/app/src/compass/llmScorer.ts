@@ -1,5 +1,5 @@
 // compass/app/src/compass/llmScorer.ts
-import type { AssessmentResult } from './assessmentService';
+import type { AssessmentResult } from "./assessmentService";
 
 export interface LlmScorer {
   score(pages: HandbookPages): Promise<AssessmentResult>;

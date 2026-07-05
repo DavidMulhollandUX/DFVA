@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 test.describe('COMPASS pages', () => {
   test('landing page loads', async ({ page }) => {
     await page.goto('/');
-    await expect(page.locator('h1')).toContainText('prepare graduates');
+    await expect(page.locator('h1')).toContainText('worth choosing');
   });
 
   test('reports page loads without auth', async ({ page }) => {
