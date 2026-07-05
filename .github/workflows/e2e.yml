@@ -1,9 +1,6 @@
 # Runs the Playwright suite (compass/e2e-tests) against the app in mock mode.
 # Playwright's own webServer block boots the app via @wasp.sh/wasp-app-runner;
 # this job only provides Postgres, env, and the toolchain.
-#
-# continue-on-error until it has proven stable in CI — flip to required after
-# two consecutive green runs.
 name: E2E tests
 
 on:
@@ -16,7 +13,6 @@ permissions:
 jobs:
   playwright:
     runs-on: ubuntu-latest
-    continue-on-error: true
     services:
       postgres:
         image: postgres:16
