@@ -46,6 +46,22 @@ jobs:
     defaults:
       run:
         working-directory: compass/app
+    services:
+      # Wasp's test pipeline needs a reachable DB during compile (custom-db
+      # mode via DATABASE_URL below); without one it aborts SDK setup and
+      # wasp/* imports fail to resolve in the vitest run.
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: dfva_test
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
       - name: Set up Node
@@ -54,6 +70,19 @@ jobs:
           node-version: '22'
       - name: Install Wasp 0.22.0
         run: npm install -g @wasp.sh/wasp-cli@0.22.0 @wasp.sh/wasp-cli-linux-x64-glibc@0.22.0
+      - name: Create .env.server (mock mode)
+        run: |
+          cat > .env.server <<'EOF'
+          DATABASE_URL=postgresql://postgres:postgres@localhost:5432/dfva_test
+          DFVA_MOCK=true
+          OPENAI_API_KEY=sk-dummy-ci
+          STRIPE_API_KEY=sk_test_dummy
+          STRIPE_WEBHOOK_SECRET=whsec_dummy
+          AWS_S3_REGION=ap-southeast-2
+          AWS_S3_IAM_ACCESS_KEY=dummy
+          AWS_S3_IAM_SECRET_KEY=dummy
+          AWS_S3_FILES_BUCKET=dummy-bucket
+          EOF
       # wasp test must run BEFORE prettier: the app's package.json depends on
       # "wasp": "file:.wasp/out/sdk/wasp", which only exists after wasp compiles.
       # A bare npm ci first leaves node_modules without the wasp SDK link.
