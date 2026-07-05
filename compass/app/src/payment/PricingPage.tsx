@@ -125,9 +125,8 @@ const PricingPage = () => {
           </h2>
         </div>
         <p className="text-muted-foreground mx-auto mt-6 max-w-2xl text-center text-lg leading-8">
-          Payments are processed by Stripe.
-          Just add your Product IDs! Try it out below with test credit card
-          number <br />
+          Payments are processed by Stripe. Just add your Product IDs! Try it
+          out below with test credit card number <br />
           <span className="bg-muted text-muted-foreground rounded-md px-2 py-1 font-mono text-sm">
             4242 4242 4242 4242 4242
           </span>

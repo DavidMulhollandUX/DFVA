@@ -11,7 +11,9 @@ export function ensureArgsSchemaOrThrowHttpError<Schema extends z.ZodType>(
     logger.error(
       "Operation arguments validation failed",
       // Keep the `cause` chain so stack traces point at the original schema.
-      new Error(z.prettifyError(parseResult.error), { cause: parseResult.error }),
+      new Error(z.prettifyError(parseResult.error), {
+        cause: parseResult.error,
+      }),
     );
 
     throw new HttpError(400, "Operation arguments validation failed", {

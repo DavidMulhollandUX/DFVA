@@ -1,5 +1,5 @@
-import { HttpError } from 'wasp/server';
-import type { AssessmentJob } from 'wasp/entities';
+import { HttpError } from "wasp/server";
+import type { AssessmentJob } from "wasp/entities";
 import type {
   AssessProgram,
   GetAssessmentJobs,
@@ -11,11 +11,11 @@ import type {
   UpdateCourseIntervention,
   GetCourseInterventions,
   UploadAlumniData,
-} from 'wasp/server/operations';
-import * as z from 'zod';
-import { ensureArgsSchemaOrThrowHttpError } from '../server/validation';
-import { logger } from '../server/logger';
-import { getAssessmentService } from './assessmentService';
+} from "wasp/server/operations";
+import * as z from "zod";
+import { ensureArgsSchemaOrThrowHttpError } from "../server/validation";
+import { logger } from "../server/logger";
+import { getAssessmentService } from "./assessmentService";
 
 /**
  * Throw unless the authenticated user owns the given assessment job.
@@ -30,15 +30,15 @@ async function assertOwnsAssessmentJob(
       where: { id: string };
       select: { userId: true };
     }): Promise<{ userId: string | null } | null>;
-  }
+  },
 ): Promise<void> {
   const job = await assessmentJobs.findUnique({
     where: { id: assessmentJobId },
     select: { userId: true },
   });
-  if (!job) throw new HttpError(404, 'Assessment job not found');
+  if (!job) throw new HttpError(404, "Assessment job not found");
   if (job.userId !== userId) {
-    throw new HttpError(403, 'Forbidden');
+    throw new HttpError(403, "Forbidden");
   }
 }
 
@@ -50,20 +50,23 @@ const assessProgramInputSchema = z.object({
   handbookUrl: z
     .string()
     .url()
-    .refine((u) => /^https?:\/\//.test(u), 'Handbook URL must be http(s)'),
+    .refine((u) => /^https?:\/\//.test(u), "Handbook URL must be http(s)"),
 });
 
-export const assessProgram: AssessProgram<{ handbookUrl: string }, AssessmentJob> = async (
-  rawArgs,
-  context
-) => {
-  if (!context.user) throw new HttpError(401, 'Authentication required');
-  const { handbookUrl } = ensureArgsSchemaOrThrowHttpError(assessProgramInputSchema, rawArgs);
+export const assessProgram: AssessProgram<
+  { handbookUrl: string },
+  AssessmentJob
+> = async (rawArgs, context) => {
+  if (!context.user) throw new HttpError(401, "Authentication required");
+  const { handbookUrl } = ensureArgsSchemaOrThrowHttpError(
+    assessProgramInputSchema,
+    rawArgs,
+  );
 
   const job = await context.entities.AssessmentJob.create({
     data: {
       handbookUrl,
-      status: 'processing',
+      status: "processing",
       userId: context.user.id,
     },
   });
@@ -71,12 +74,13 @@ export const assessProgram: AssessProgram<{ handbookUrl: string }, AssessmentJob
   // Run assessment in background so the UI can show "Processing..." immediately.
   // The client polls getAssessmentJobs to see when status changes to complete/failed.
   const service = getAssessmentService();
-  service.assess(handbookUrl)
+  service
+    .assess(handbookUrl)
     .then(async (result) => {
       await context.entities.AssessmentJob.update({
         where: { id: job.id },
         data: {
-          status: 'complete',
+          status: "complete",
           courseCode: result.courseCode,
           programName: result.programName,
           score: result.score,
@@ -90,21 +94,25 @@ export const assessProgram: AssessProgram<{ handbookUrl: string }, AssessmentJob
       });
     })
     .catch(async (error: unknown) => {
-      const message = error instanceof Error ? error.message : 'Unknown error';
-      logger.error('Assessment failed', error, { jobId: job.id, handbookUrl });
+      const message = error instanceof Error ? error.message : "Unknown error";
+      logger.error("Assessment failed", error, { jobId: job.id, handbookUrl });
       try {
         await context.entities.AssessmentJob.update({
           where: { id: job.id },
           data: {
-            status: 'failed',
+            status: "failed",
             errorMessage: message,
           },
         });
       } catch (updateError) {
         // Without this the rejection is unhandled and the failure is lost entirely.
-        logger.error('Failed to persist failed status for assessment job', updateError, {
-          jobId: job.id,
-        });
+        logger.error(
+          "Failed to persist failed status for assessment job",
+          updateError,
+          {
+            jobId: job.id,
+          },
+        );
       }
     });
 
@@ -120,24 +128,24 @@ const STALE_JOB_CUTOFF_MS = 30 * 60 * 1000;
 
 type AssessmentJobListItem = Pick<
   AssessmentJob,
-  | 'id'
-  | 'status'
-  | 'courseCode'
-  | 'programName'
-  | 'handbookUrl'
-  | 'score'
-  | 'maxScore'
-  | 'riskBand'
-  | 'errorMessage'
-  | 'createdAt'
-  | 'userId'
+  | "id"
+  | "status"
+  | "courseCode"
+  | "programName"
+  | "handbookUrl"
+  | "score"
+  | "maxScore"
+  | "riskBand"
+  | "errorMessage"
+  | "createdAt"
+  | "userId"
 > & { reportJson: { assessmentSlug: string | null } | null };
 
-export const getAssessmentJobs: GetAssessmentJobs<void, AssessmentJobListItem[]> = async (
-  _args,
-  context
-) => {
-  if (!context.user) throw new HttpError(401, 'Authentication required');
+export const getAssessmentJobs: GetAssessmentJobs<
+  void,
+  AssessmentJobListItem[]
+> = async (_args, context) => {
+  if (!context.user) throw new HttpError(401, "Authentication required");
 
   // The assessment runs as a fire-and-forget promise (see assessProgram); a
   // server restart mid-run would otherwise strand the job in `processing` and
@@ -145,12 +153,12 @@ export const getAssessmentJobs: GetAssessmentJobs<void, AssessmentJobListItem[]>
   await context.entities.AssessmentJob.updateMany({
     where: {
       userId: context.user.id,
-      status: 'processing',
+      status: "processing",
       createdAt: { lt: new Date(Date.now() - STALE_JOB_CUTOFF_MS) },
     },
     data: {
-      status: 'failed',
-      errorMessage: 'Timed out (server restarted during assessment)',
+      status: "failed",
+      errorMessage: "Timed out (server restarted during assessment)",
     },
   });
 
@@ -161,7 +169,7 @@ export const getAssessmentJobs: GetAssessmentJobs<void, AssessmentJobListItem[]>
   // a dedicated assessmentSlug column would let Prisma skip loading it entirely.
   const jobs = await context.entities.AssessmentJob.findMany({
     where: { userId: context.user.id },
-    orderBy: { createdAt: 'desc' },
+    orderBy: { createdAt: "desc" },
     take: 50,
     select: {
       id: true,
@@ -181,12 +189,14 @@ export const getAssessmentJobs: GetAssessmentJobs<void, AssessmentJobListItem[]>
 
   return jobs.map((job) => {
     const slug =
-      job.reportJson && typeof job.reportJson === 'object' && 'assessmentSlug' in job.reportJson
+      job.reportJson &&
+      typeof job.reportJson === "object" &&
+      "assessmentSlug" in job.reportJson
         ? (job.reportJson as { assessmentSlug?: unknown }).assessmentSlug
         : null;
     return {
       ...job,
-      reportJson: typeof slug === 'string' ? { assessmentSlug: slug } : null,
+      reportJson: typeof slug === "string" ? { assessmentSlug: slug } : null,
     };
   });
 };
@@ -196,11 +206,11 @@ export const getAssessmentJobs: GetAssessmentJobs<void, AssessmentJobListItem[]>
  */
 const jobIdInputSchema = z.object({ id: z.string().min(1) });
 
-export const getAssessmentJob: GetAssessmentJob<{ id: string }, AssessmentJob | null> = async (
-  rawArgs,
-  context
-) => {
-  if (!context.user) throw new HttpError(401, 'Authentication required');
+export const getAssessmentJob: GetAssessmentJob<
+  { id: string },
+  AssessmentJob | null
+> = async (rawArgs, context) => {
+  if (!context.user) throw new HttpError(401, "Authentication required");
   const { id } = ensureArgsSchemaOrThrowHttpError(jobIdInputSchema, rawArgs);
 
   const job = await context.entities.AssessmentJob.findUnique({
@@ -212,7 +222,7 @@ export const getAssessmentJob: GetAssessmentJob<{ id: string }, AssessmentJob | 
 
   // If the job belongs to a different user, return 404 to hide its existence
   if (job.userId !== context.user.id) {
-    throw new HttpError(404, 'Assessment job not found');
+    throw new HttpError(404, "Assessment job not found");
   }
 
   return job;
@@ -222,11 +232,11 @@ export const getAssessmentJob: GetAssessmentJob<{ id: string }, AssessmentJob | 
 // If non-public fields are ever added to MarketValidationSignal, add a select.
 export const getValidationSignals: GetValidationSignals<void, any[]> = async (
   _args,
-  context
+  context,
 ) => {
   return context.entities.MarketValidationSignal.findMany({
     where: { isActive: true },
-    orderBy: { credibilityScore: 'desc' },
+    orderBy: { credibilityScore: "desc" },
     take: 200,
   });
 };
@@ -234,22 +244,22 @@ export const getValidationSignals: GetValidationSignals<void, any[]> = async (
 // Deliberately public (no auth check): backs the public /insights pages.
 export const getCompetitiveEvents: GetCompetitiveEvents<void, any[]> = async (
   _args,
-  context
+  context,
 ) => {
   return context.entities.CompetitiveEvent.findMany({
     where: { isActive: true },
-    orderBy: { dateOccurred: 'desc' },
+    orderBy: { dateOccurred: "desc" },
     take: 200,
   });
 };
 
 // Deliberately public (no auth check): backs the public /insights pages.
-export const getMarketWindowStatus: GetMarketWindowStatus<void, any | null> = async (
-  _args,
-  context
-) => {
+export const getMarketWindowStatus: GetMarketWindowStatus<
+  void,
+  any | null
+> = async (_args, context) => {
   return context.entities.MarketWindowSnapshot.findFirst({
-    orderBy: { createdAt: 'desc' },
+    orderBy: { createdAt: "desc" },
   });
 };
 
@@ -257,19 +267,22 @@ const syllabusMapInputSchema = z.object({ jobId: z.string().min(1) });
 
 export const getSyllabusMap: GetSyllabusMap<{ jobId: string }, any> = async (
   rawArgs,
-  context
+  context,
 ) => {
-  if (!context.user) throw new HttpError(401, 'Authentication required');
-  const { jobId } = ensureArgsSchemaOrThrowHttpError(syllabusMapInputSchema, rawArgs);
+  if (!context.user) throw new HttpError(401, "Authentication required");
+  const { jobId } = ensureArgsSchemaOrThrowHttpError(
+    syllabusMapInputSchema,
+    rawArgs,
+  );
 
   const job = await context.entities.AssessmentJob.findUnique({
     where: { id: jobId },
     select: { syllabusJson: true, userId: true },
   });
 
-  if (!job) throw new HttpError(404, 'Assessment job not found');
+  if (!job) throw new HttpError(404, "Assessment job not found");
   if (job.userId !== context.user.id) {
-    throw new HttpError(403, 'Forbidden');
+    throw new HttpError(403, "Forbidden");
   }
 
   return job.syllabusJson;
@@ -282,10 +295,13 @@ const updateCourseInterventionInputSchema = z.object({
   ownerName: z.string().min(1).max(100),
   ownerEmail: z.string().email().max(200),
   // Matches the CourseInterventionOwner.status comment in schema.prisma
-  status: z.enum(['assigned', 'in_progress', 'completed']),
+  status: z.enum(["assigned", "in_progress", "completed"]),
   targetDate: z
     .string()
-    .refine((d) => !Number.isNaN(Date.parse(d)), 'targetDate must be a parseable date')
+    .refine(
+      (d) => !Number.isNaN(Date.parse(d)),
+      "targetDate must be a parseable date",
+    )
     .optional(),
 });
 
@@ -301,9 +317,16 @@ export const updateCourseIntervention: UpdateCourseIntervention<
   },
   any
 > = async (rawArgs, context) => {
-  if (!context.user) throw new HttpError(401, 'Authentication required');
-  const args = ensureArgsSchemaOrThrowHttpError(updateCourseInterventionInputSchema, rawArgs);
-  await assertOwnsAssessmentJob(args.assessmentJobId, context.user.id, context.entities.AssessmentJob);
+  if (!context.user) throw new HttpError(401, "Authentication required");
+  const args = ensureArgsSchemaOrThrowHttpError(
+    updateCourseInterventionInputSchema,
+    rawArgs,
+  );
+  await assertOwnsAssessmentJob(
+    args.assessmentJobId,
+    context.user.id,
+    context.entities.AssessmentJob,
+  );
 
   return context.entities.CourseInterventionOwner.upsert({
     where: {
@@ -331,18 +354,24 @@ export const updateCourseIntervention: UpdateCourseIntervention<
   });
 };
 
-const courseInterventionsInputSchema = z.object({ assessmentJobId: z.string().min(1) });
+const courseInterventionsInputSchema = z.object({
+  assessmentJobId: z.string().min(1),
+});
 
 export const getCourseInterventions: GetCourseInterventions<
   { assessmentJobId: string },
   any[]
 > = async (rawArgs, context) => {
-  if (!context.user) throw new HttpError(401, 'Authentication required');
+  if (!context.user) throw new HttpError(401, "Authentication required");
   const { assessmentJobId } = ensureArgsSchemaOrThrowHttpError(
     courseInterventionsInputSchema,
-    rawArgs
+    rawArgs,
   );
-  await assertOwnsAssessmentJob(assessmentJobId, context.user.id, context.entities.AssessmentJob);
+  await assertOwnsAssessmentJob(
+    assessmentJobId,
+    context.user.id,
+    context.entities.AssessmentJob,
+  );
 
   return context.entities.CourseInterventionOwner.findMany({
     where: { assessmentJobId },
@@ -358,7 +387,7 @@ const uploadAlumniDataInputSchema = z.object({
         employer: z.string().max(200).optional(),
         graduationYear: z.number().int().min(1950).max(2100),
         industryCluster: z.string().min(1).max(100),
-      })
+      }),
     )
     .min(1)
     .max(1000),
@@ -376,10 +405,10 @@ export const uploadAlumniData: UploadAlumniData<
   },
   any
 > = async (rawArgs, context) => {
-  if (!context.user) throw new HttpError(401, 'Authentication required');
+  if (!context.user) throw new HttpError(401, "Authentication required");
   const { programCode, alumni } = ensureArgsSchemaOrThrowHttpError(
     uploadAlumniDataInputSchema,
-    rawArgs
+    rawArgs,
   );
   const userId = context.user.id;
 
@@ -399,12 +428,12 @@ export const uploadAlumniData: UploadAlumniData<
 
 // --- API Key Management (feat-009) ---
 
-import { generateApiKey as genKey, hashApiKey } from './api/auth';
+import { generateApiKey as genKey, hashApiKey } from "./api/auth";
 import type {
   GenerateApiKey,
   RevokeApiKey,
   ListApiKeys,
-} from 'wasp/server/operations';
+} from "wasp/server/operations";
 
 /**
  * Get or create the "self" institution used as the default for
@@ -415,23 +444,25 @@ type SelfInstitution = { id: string };
 async function getOrCreateSelfInstitution(context: {
   entities: {
     Institution: {
-      findUnique(args: { where: { code: string } }): Promise<SelfInstitution | null>;
+      findUnique(args: {
+        where: { code: string };
+      }): Promise<SelfInstitution | null>;
       create(args: {
         data: { name: string; code: string; country: string };
       }): Promise<SelfInstitution>;
     };
   };
 }): Promise<SelfInstitution> {
-  const SELF_CODE = 'dfva-self';
+  const SELF_CODE = "dfva-self";
   let inst = await context.entities.Institution.findUnique({
     where: { code: SELF_CODE },
   });
   if (!inst) {
     inst = await context.entities.Institution.create({
       data: {
-        name: 'DFVA (Self)',
+        name: "DFVA (Self)",
         code: SELF_CODE,
-        country: 'AU',
+        country: "AU",
       },
     });
   }
@@ -447,7 +478,7 @@ type ApiKeyResult = {
 };
 
 const generateApiKeyInputSchema = z.object({
-  name: z.string().trim().min(1, 'Key name is required').max(100),
+  name: z.string().trim().min(1, "Key name is required").max(100),
 });
 
 /**
@@ -458,8 +489,11 @@ export const generateApiKey: GenerateApiKey<
   { name: string },
   { apiKey: ApiKeyResult; rawKey: string }
 > = async (rawArgs, context) => {
-  if (!context.user) throw new HttpError(401, 'Authentication required');
-  const { name } = ensureArgsSchemaOrThrowHttpError(generateApiKeyInputSchema, rawArgs);
+  if (!context.user) throw new HttpError(401, "Authentication required");
+  const { name } = ensureArgsSchemaOrThrowHttpError(
+    generateApiKeyInputSchema,
+    rawArgs,
+  );
 
   const institution = await getOrCreateSelfInstitution(context);
   const { rawKey, keyHash, keyPrefix } = genKey();
@@ -494,19 +528,19 @@ export const revokeApiKey: RevokeApiKey<
   { keyId: string },
   { success: boolean }
 > = async (rawArgs, context) => {
-  if (!context.user) throw new HttpError(401, 'Authentication required');
+  if (!context.user) throw new HttpError(401, "Authentication required");
   const { keyId } = ensureArgsSchemaOrThrowHttpError(
     z.object({ keyId: z.string().min(1) }),
-    rawArgs
+    rawArgs,
   );
 
   const key = await context.entities.ApiKey.findUnique({
     where: { id: keyId },
   });
 
-  if (!key) throw new HttpError(404, 'API key not found');
+  if (!key) throw new HttpError(404, "API key not found");
   if (key.userId !== context.user.id) {
-    throw new HttpError(403, 'You can only revoke your own API keys');
+    throw new HttpError(403, "You can only revoke your own API keys");
   }
 
   await context.entities.ApiKey.update({
@@ -521,17 +555,17 @@ export const revokeApiKey: RevokeApiKey<
  * List API keys for the logged-in user.
  * Only returns prefixes — never the raw key or hash.
  */
-export const listApiKeys: ListApiKeys<
-  void,
-  ApiKeyResult[]
-> = async (_args, context) => {
-  if (!context.user) throw new HttpError(401, 'Authentication required');
+export const listApiKeys: ListApiKeys<void, ApiKeyResult[]> = async (
+  _args,
+  context,
+) => {
+  if (!context.user) throw new HttpError(401, "Authentication required");
 
   const keys = await context.entities.ApiKey.findMany({
     where: {
       userId: context.user.id,
     },
-    orderBy: { createdAt: 'desc' },
+    orderBy: { createdAt: "desc" },
     select: {
       id: true,
       name: true,
@@ -543,5 +577,3 @@ export const listApiKeys: ListApiKeys<
 
   return keys;
 };
-
-

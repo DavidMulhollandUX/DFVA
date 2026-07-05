@@ -2,30 +2,30 @@ import { useParams, Link } from "react-router";
 import { useState, useEffect, useMemo, useRef } from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import { 
-  ArrowLeft, 
-  BarChart2, 
-  ClipboardList, 
-  TrendingUp, 
-  ShieldAlert, 
-  Award, 
-  RefreshCw, 
-  X, 
-  Upload, 
-  Filter, 
-  Check, 
-  AlertCircle, 
-  Calendar, 
-  User, 
-  Mail, 
-  Plus, 
-  Layers, 
-  Settings, 
-  ChevronRight, 
-  CheckCircle2, 
-  AlertTriangle, 
+import {
+  ArrowLeft,
+  BarChart2,
+  ClipboardList,
+  TrendingUp,
+  ShieldAlert,
+  Award,
+  RefreshCw,
+  X,
+  Upload,
+  Filter,
+  Check,
+  AlertCircle,
+  Calendar,
+  User,
+  Mail,
+  Plus,
+  Layers,
+  Settings,
+  ChevronRight,
+  CheckCircle2,
+  AlertTriangle,
   HelpCircle,
-  Clock
+  Clock,
 } from "lucide-react";
 import { useQuery, useAction } from "wasp/client/operations";
 import {
@@ -33,7 +33,7 @@ import {
   getSyllabusMap,
   getCourseInterventions,
   updateCourseIntervention,
-  uploadAlumniData
+  uploadAlumniData,
 } from "wasp/client/operations";
 import { useAuth } from "wasp/client/auth";
 
@@ -44,7 +44,10 @@ import { WhyThisMatters } from "./WhyThisMatters";
 import { CurriculumMap } from "../client/components/CurriculumMap";
 import { generateMockSyllabus } from "./mockSyllabusData";
 import { RUBRIC, Dimension } from "./data/rubric";
-import { DIMENSION_EVIDENCE, DimensionEvidence } from "./data/dimensionEvidence";
+import {
+  DIMENSION_EVIDENCE,
+  DimensionEvidence,
+} from "./data/dimensionEvidence";
 import { getFieldForCourse } from "./marketData";
 
 const riskBandStyles: Record<string, string> = {
@@ -54,7 +57,8 @@ const riskBandStyles: Record<string, string> = {
     "bg-yellow-100 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-300 border border-yellow-500/20",
   "HIGH RISK":
     "bg-orange-100 text-orange-800 dark:bg-orange-900/30 dark:text-orange-300 border border-orange-500/20",
-  CRITICAL: "bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-300 border border-red-500/20",
+  CRITICAL:
+    "bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-300 border border-red-500/20",
 };
 
 const reportMeta: Record<
@@ -205,72 +209,270 @@ const DIMENSIONS = [
   { id: "B", label: "Irreplaceability Premium" },
 ];
 
-const FIELD_CAREERS: Record<string, Array<{ job: string; cluster: string; risk: string; reqs: string }>> = {
+const FIELD_CAREERS: Record<
+  string,
+  Array<{ job: string; cluster: string; risk: string; reqs: string }>
+> = {
   engineering: [
-    { job: "Professional Engineer (Civil)", cluster: "Engineering", risk: "Low", reqs: "Yes (Engineers Australia)" },
-    { job: "Structural Design Engineer", cluster: "Engineering", risk: "Low", reqs: "Yes (Engineers Australia)" },
-    { job: "Junior Project Engineer", cluster: "Engineering", risk: "Moderate", reqs: "No" },
-    { job: "Engineering CAD Drafter", cluster: "Engineering", risk: "High", reqs: "No" },
+    {
+      job: "Professional Engineer (Civil)",
+      cluster: "Engineering",
+      risk: "Low",
+      reqs: "Yes (Engineers Australia)",
+    },
+    {
+      job: "Structural Design Engineer",
+      cluster: "Engineering",
+      risk: "Low",
+      reqs: "Yes (Engineers Australia)",
+    },
+    {
+      job: "Junior Project Engineer",
+      cluster: "Engineering",
+      risk: "Moderate",
+      reqs: "No",
+    },
+    {
+      job: "Engineering CAD Drafter",
+      cluster: "Engineering",
+      risk: "High",
+      reqs: "No",
+    },
   ],
   it: [
-    { job: "Cybersecurity Specialist", cluster: "Software/IT", risk: "Low", reqs: "No" },
-    { job: "Software Engineer", cluster: "Software/IT", risk: "Moderate", reqs: "No" },
+    {
+      job: "Cybersecurity Specialist",
+      cluster: "Software/IT",
+      risk: "Low",
+      reqs: "No",
+    },
+    {
+      job: "Software Engineer",
+      cluster: "Software/IT",
+      risk: "Moderate",
+      reqs: "No",
+    },
     { job: "Data Analyst", cluster: "Software/IT", risk: "High", reqs: "No" },
-    { job: "Junior Database Administrator", cluster: "Software/IT", risk: "High", reqs: "No" },
+    {
+      job: "Junior Database Administrator",
+      cluster: "Software/IT",
+      risk: "High",
+      reqs: "No",
+    },
   ],
   health: [
-    { job: "Clinical Psychologist", cluster: "Psychology/Health", risk: "Low", reqs: "Yes (PsyBA/AHPRA)" },
-    { job: "Registered General Nurse", cluster: "Nursing", risk: "Low", reqs: "Yes (NMBA/AHPRA)" },
-    { job: "Physical Therapist / Physiotherapist", cluster: "Physiotherapy", risk: "Low", reqs: "Yes (PhysioBA/AHPRA)" },
-    { job: "Medical Receptionist / Health Admin", cluster: "Administration", risk: "High", reqs: "No" },
+    {
+      job: "Clinical Psychologist",
+      cluster: "Psychology/Health",
+      risk: "Low",
+      reqs: "Yes (PsyBA/AHPRA)",
+    },
+    {
+      job: "Registered General Nurse",
+      cluster: "Nursing",
+      risk: "Low",
+      reqs: "Yes (NMBA/AHPRA)",
+    },
+    {
+      job: "Physical Therapist / Physiotherapist",
+      cluster: "Physiotherapy",
+      risk: "Low",
+      reqs: "Yes (PhysioBA/AHPRA)",
+    },
+    {
+      job: "Medical Receptionist / Health Admin",
+      cluster: "Administration",
+      risk: "High",
+      reqs: "No",
+    },
   ],
   business: [
-    { job: "Certified Practising Accountant", cluster: "Finance", risk: "Moderate", reqs: "Yes (CPA/CA ANZ)" },
-    { job: "Management Consultant", cluster: "Management", risk: "Moderate", reqs: "No" },
+    {
+      job: "Certified Practising Accountant",
+      cluster: "Finance",
+      risk: "Moderate",
+      reqs: "Yes (CPA/CA ANZ)",
+    },
+    {
+      job: "Management Consultant",
+      cluster: "Management",
+      risk: "Moderate",
+      reqs: "No",
+    },
     { job: "Financial Analyst", cluster: "Finance", risk: "High", reqs: "No" },
-    { job: "Bookkeeper / Accounts Clerk", cluster: "Finance", risk: "High", reqs: "No" },
+    {
+      job: "Bookkeeper / Accounts Clerk",
+      cluster: "Finance",
+      risk: "High",
+      reqs: "No",
+    },
   ],
   architecture: [
-    { job: "Registered Architect", cluster: "Architecture", risk: "Low", reqs: "Yes (ARBV / RAIA)" },
-    { job: "Urban Planner", cluster: "Planning", risk: "Low", reqs: "Yes (Planning Institute of Australia)" },
-    { job: "Architectural Graduate", cluster: "Architecture", risk: "Moderate", reqs: "No" },
-    { job: "BIM Documentation Draftsperson", cluster: "Architecture", risk: "High", reqs: "No" },
+    {
+      job: "Registered Architect",
+      cluster: "Architecture",
+      risk: "Low",
+      reqs: "Yes (ARBV / RAIA)",
+    },
+    {
+      job: "Urban Planner",
+      cluster: "Planning",
+      risk: "Low",
+      reqs: "Yes (Planning Institute of Australia)",
+    },
+    {
+      job: "Architectural Graduate",
+      cluster: "Architecture",
+      risk: "Moderate",
+      reqs: "No",
+    },
+    {
+      job: "BIM Documentation Draftsperson",
+      cluster: "Architecture",
+      risk: "High",
+      reqs: "No",
+    },
   ],
   creative_arts: [
-    { job: "Creative Director", cluster: "Creative Arts", risk: "Low", reqs: "No" },
-    { job: "Journalist / Reporter", cluster: "Creative Arts", risk: "Moderate", reqs: "No" },
+    {
+      job: "Creative Director",
+      cluster: "Creative Arts",
+      risk: "Low",
+      reqs: "No",
+    },
+    {
+      job: "Journalist / Reporter",
+      cluster: "Creative Arts",
+      risk: "Moderate",
+      reqs: "No",
+    },
     { job: "UX/UI Designer", cluster: "Design", risk: "High", reqs: "No" },
-    { job: "Screenwriter / Content Writer", cluster: "Creative Arts", risk: "High", reqs: "No" },
+    {
+      job: "Screenwriter / Content Writer",
+      cluster: "Creative Arts",
+      risk: "High",
+      reqs: "No",
+    },
   ],
   education: [
-    { job: "Secondary School Teacher", cluster: "Education", risk: "Low", reqs: "Yes (State Teaching Institute)" },
-    { job: "Primary School Teacher", cluster: "Education", risk: "Low", reqs: "Yes (State Teaching Institute)" },
-    { job: "English Language Teacher (TESOL)", cluster: "Education", risk: "Moderate", reqs: "No" },
-    { job: "Corporate Trainer", cluster: "Education", risk: "Moderate", reqs: "No" },
+    {
+      job: "Secondary School Teacher",
+      cluster: "Education",
+      risk: "Low",
+      reqs: "Yes (State Teaching Institute)",
+    },
+    {
+      job: "Primary School Teacher",
+      cluster: "Education",
+      risk: "Low",
+      reqs: "Yes (State Teaching Institute)",
+    },
+    {
+      job: "English Language Teacher (TESOL)",
+      cluster: "Education",
+      risk: "Moderate",
+      reqs: "No",
+    },
+    {
+      job: "Corporate Trainer",
+      cluster: "Education",
+      risk: "Moderate",
+      reqs: "No",
+    },
   ],
   law: [
-    { job: "Corporate Legal Advisor", cluster: "Legal", risk: "Moderate", reqs: "Yes (State Admission Board)" },
-    { job: "Registered Patent Attorney", cluster: "Legal/Compliance", risk: "Low", reqs: "Yes (Trans-Tasman IP Attorneys Board)" },
-    { job: "Legal Research Assistant", cluster: "Legal", risk: "High", reqs: "No" },
-    { job: "Patent Examiner", cluster: "Legal/Compliance", risk: "High", reqs: "No" },
+    {
+      job: "Corporate Legal Advisor",
+      cluster: "Legal",
+      risk: "Moderate",
+      reqs: "Yes (State Admission Board)",
+    },
+    {
+      job: "Registered Patent Attorney",
+      cluster: "Legal/Compliance",
+      risk: "Low",
+      reqs: "Yes (Trans-Tasman IP Attorneys Board)",
+    },
+    {
+      job: "Legal Research Assistant",
+      cluster: "Legal",
+      risk: "High",
+      reqs: "No",
+    },
+    {
+      job: "Patent Examiner",
+      cluster: "Legal/Compliance",
+      risk: "High",
+      reqs: "No",
+    },
   ],
   science: [
-    { job: "Research Laboratory Lead", cluster: "Science", risk: "Low", reqs: "No" },
-    { job: "BioSciences Researcher", cluster: "Science", risk: "Moderate", reqs: "No" },
-    { job: "Laboratory Technician", cluster: "Science", risk: "High", reqs: "No" },
-    { job: "Research Assistant (Data Analytics)", cluster: "Science", risk: "High", reqs: "No" },
+    {
+      job: "Research Laboratory Lead",
+      cluster: "Science",
+      risk: "Low",
+      reqs: "No",
+    },
+    {
+      job: "BioSciences Researcher",
+      cluster: "Science",
+      risk: "Moderate",
+      reqs: "No",
+    },
+    {
+      job: "Laboratory Technician",
+      cluster: "Science",
+      risk: "High",
+      reqs: "No",
+    },
+    {
+      job: "Research Assistant (Data Analytics)",
+      cluster: "Science",
+      risk: "High",
+      reqs: "No",
+    },
   ],
   agriculture: [
-    { job: "Agronomist / Agricultural Advisor", cluster: "Agriculture", risk: "Low", reqs: "Yes (Australian Institute of Agricultural Science)" },
-    { job: "Environmental Consultant", cluster: "Environment", risk: "Low", reqs: "No" },
-    { job: "Junior Field Officer", cluster: "Environment", risk: "Low", reqs: "No" },
-    { job: "GIS Mapping Assistant", cluster: "Environment", risk: "High", reqs: "No" },
+    {
+      job: "Agronomist / Agricultural Advisor",
+      cluster: "Agriculture",
+      risk: "Low",
+      reqs: "Yes (Australian Institute of Agricultural Science)",
+    },
+    {
+      job: "Environmental Consultant",
+      cluster: "Environment",
+      risk: "Low",
+      reqs: "No",
+    },
+    {
+      job: "Junior Field Officer",
+      cluster: "Environment",
+      risk: "Low",
+      reqs: "No",
+    },
+    {
+      job: "GIS Mapping Assistant",
+      cluster: "Environment",
+      risk: "High",
+      reqs: "No",
+    },
   ],
   other: [
     { job: "Policy Analyst", cluster: "Government", risk: "Low", reqs: "No" },
-    { job: "Community Services Officer", cluster: "Social Services", risk: "Low", reqs: "No" },
-    { job: "Market Research Analyst", cluster: "Marketing", risk: "High", reqs: "No" },
-  ]
+    {
+      job: "Community Services Officer",
+      cluster: "Social Services",
+      risk: "Low",
+      reqs: "No",
+    },
+    {
+      job: "Market Research Analyst",
+      cluster: "Marketing",
+      risk: "High",
+      reqs: "No",
+    },
+  ],
 };
 
 function dimensionStringToId(dimStr: string): number {
@@ -303,7 +505,10 @@ function ShiftDriftChart() {
     const x = padding + (i / (data.length - 1)) * (width - 2 * padding);
     const minVal = 20;
     const maxVal = 26;
-    const y = height - padding - ((d.score - minVal) / (maxVal - minVal)) * (height - 2 * padding);
+    const y =
+      height -
+      padding -
+      ((d.score - minVal) / (maxVal - minVal)) * (height - 2 * padding);
     return { x, y, ...d };
   });
 
@@ -311,45 +516,105 @@ function ShiftDriftChart() {
     return i === 0 ? `M ${p.x} ${p.y}` : `${acc} L ${p.x} ${p.y}`;
   }, "");
 
-  const areaD = `${pathD} L ${points[points.length - 1].x} ${height - padding} L ${points[0].x} ${height - padding} Z`;
+  const areaD = `${pathD} L ${points[points.length - 1].x} ${
+    height - padding
+  } L ${points[0].x} ${height - padding} Z`;
 
   return (
-    <div className="rounded-xl border border-border bg-card/60 backdrop-blur-md p-6 shadow-sm">
+    <div className="border-border bg-card/60 rounded-xl border p-6 shadow-sm backdrop-blur-md">
       <div className="mb-4">
-        <h3 className="text-sm font-semibold text-foreground flex items-center gap-1.5">
-          <Clock className="h-4 w-4 text-primary" />
+        <h3 className="text-foreground flex items-center gap-1.5 text-sm font-semibold">
+          <Clock className="text-primary h-4 w-4" />
           Shift & Drift Durability Score Trend (12 Months)
         </h3>
-        <p className="text-xs text-muted-foreground">
-          Calculated dynamically against rolling industry cluster hiring signals and LLM automation updates.
+        <p className="text-muted-foreground text-xs">
+          Calculated dynamically against rolling industry cluster hiring signals
+          and LLM automation updates.
         </p>
       </div>
       <div className="relative h-32 w-full">
-        <svg viewBox={`0 0 ${width} ${height}`} className="w-full h-full overflow-visible">
+        <svg
+          viewBox={`0 0 ${width} ${height}`}
+          className="h-full w-full overflow-visible"
+        >
           <defs>
             <linearGradient id="areaGrad" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="0%" stopColor="hsl(var(--primary))" stopOpacity={0.25} />
-              <stop offset="100%" stopColor="hsl(var(--primary))" stopOpacity={0} />
+              <stop
+                offset="0%"
+                stopColor="hsl(var(--primary))"
+                stopOpacity={0.25}
+              />
+              <stop
+                offset="100%"
+                stopColor="hsl(var(--primary))"
+                stopOpacity={0}
+              />
             </linearGradient>
           </defs>
-          <line x1={padding} y1={padding} x2={width - padding} y2={padding} stroke="currentColor" className="text-border" strokeDasharray="3 3" />
-          <line x1={padding} y1={height / 2} x2={width - padding} y2={height / 2} stroke="currentColor" className="text-border" strokeDasharray="3 3" />
-          <line x1={padding} y1={height - padding} x2={width - padding} y2={height - padding} stroke="currentColor" className="text-border" />
+          <line
+            x1={padding}
+            y1={padding}
+            x2={width - padding}
+            y2={padding}
+            stroke="currentColor"
+            className="text-border"
+            strokeDasharray="3 3"
+          />
+          <line
+            x1={padding}
+            y1={height / 2}
+            x2={width - padding}
+            y2={height / 2}
+            stroke="currentColor"
+            className="text-border"
+            strokeDasharray="3 3"
+          />
+          <line
+            x1={padding}
+            y1={height - padding}
+            x2={width - padding}
+            y2={height - padding}
+            stroke="currentColor"
+            className="text-border"
+          />
 
           <path d={areaD} fill="url(#areaGrad)" />
-          <path d={pathD} fill="none" stroke="hsl(var(--primary))" strokeWidth={2.5} />
+          <path
+            d={pathD}
+            fill="none"
+            stroke="hsl(var(--primary))"
+            strokeWidth={2.5}
+          />
 
           {points.map((p, i) => (
             <g key={i} className="group">
-              <circle cx={p.x} cy={p.y} r={4.5} fill="hsl(var(--background))" stroke="hsl(var(--primary))" strokeWidth={2.5} />
-              <text x={p.x} y={p.y - 8} textAnchor="middle" className="text-[10px] font-bold fill-foreground opacity-0 group-hover:opacity-100 transition-opacity bg-background">
+              <circle
+                cx={p.x}
+                cy={p.y}
+                r={4.5}
+                fill="hsl(var(--background))"
+                stroke="hsl(var(--primary))"
+                strokeWidth={2.5}
+              />
+              <text
+                x={p.x}
+                y={p.y - 8}
+                textAnchor="middle"
+                className="fill-foreground bg-background text-[10px] font-bold opacity-0 transition-opacity group-hover:opacity-100"
+              >
                 {p.score}
               </text>
             </g>
           ))}
 
           {points.map((p, i) => (
-            <text key={i} x={p.x} y={height - 2} textAnchor="middle" className="text-[9px] fill-muted-foreground font-medium">
+            <text
+              key={i}
+              x={p.x}
+              y={height - 2}
+              textAnchor="middle"
+              className="fill-muted-foreground text-[9px] font-medium"
+            >
               {p.month}
             </text>
           ))}
@@ -364,11 +629,18 @@ interface StructuredReport {
   score: number;
   maxScore: number;
   riskBand: string;
-  dimensions: { label: string; score: number; max: number; rationale?: string }[];
+  dimensions: {
+    label: string;
+    score: number;
+    max: number;
+    rationale?: string;
+  }[];
   thresholds?: Record<string, string>;
 }
 
-function parseStructured(markdown: string): { data: StructuredReport; rest: string } | null {
+function parseStructured(
+  markdown: string,
+): { data: StructuredReport; rest: string } | null {
   if (!markdown.trimStart().startsWith("{")) return null;
   const idx = markdown.indexOf("\n}");
   if (idx === -1) return null;
@@ -389,8 +661,10 @@ const THRESHOLD_QUESTIONS: Record<string, string> = {
 
 function dimScoreClasses(score: number, max: number): string {
   const pct = score / max;
-  if (pct >= 0.83) return "bg-emerald-100 text-emerald-800 dark:bg-emerald-900/30 dark:text-emerald-300";
-  if (pct >= 0.5) return "bg-yellow-100 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-300";
+  if (pct >= 0.83)
+    return "bg-emerald-100 text-emerald-800 dark:bg-emerald-900/30 dark:text-emerald-300";
+  if (pct >= 0.5)
+    return "bg-yellow-100 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-300";
   return "bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-300";
 }
 
@@ -404,7 +678,13 @@ interface DimensionPopoverProps {
 
 const PANEL_W = 340;
 
-function DimensionPopover({ dim, score, evidence, anchorRect, onClose }: DimensionPopoverProps) {
+function DimensionPopover({
+  dim,
+  score,
+  evidence,
+  anchorRect,
+  onClose,
+}: DimensionPopoverProps) {
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -432,7 +712,10 @@ function DimensionPopover({ dim, score, evidence, anchorRect, onClose }: Dimensi
   if (left + PANEL_W > window.innerWidth - margin) {
     left = Math.max(margin, anchorRect.left - PANEL_W - margin);
   }
-  const top = Math.max(margin, Math.min(anchorRect.top, window.innerHeight - 340));
+  const top = Math.max(
+    margin,
+    Math.min(anchorRect.top, window.innerHeight - 340),
+  );
 
   const stepColors: Record<number, string> = {
     3: "#16a34a",
@@ -448,22 +731,41 @@ function DimensionPopover({ dim, score, evidence, anchorRect, onClose }: Dimensi
       ref={ref}
       role="dialog"
       aria-label={`${dim.id} ${dim.name}`}
-      className="rounded-xl border border-border bg-card/95 p-4 text-left shadow-xl backdrop-blur-md dark:bg-zinc-900/95 transition-all duration-200"
-      style={{ position: "fixed", top, left, width: PANEL_W, zIndex: 9999, maxHeight: "72vh", overflowY: "auto" }}
+      className="border-border bg-card/95 rounded-xl border p-4 text-left shadow-xl backdrop-blur-md transition-all duration-200 dark:bg-zinc-900/95"
+      style={{
+        position: "fixed",
+        top,
+        left,
+        width: PANEL_W,
+        zIndex: 9999,
+        maxHeight: "72vh",
+        overflowY: "auto",
+      }}
     >
       <div className="mb-2 flex items-start justify-between gap-2">
-        <h4 className="text-sm font-bold leading-snug text-foreground">
-          <span className="mr-1.5 rounded bg-muted px-1.5 py-0.5 font-mono text-[11px] text-muted-foreground">{dim.id}</span>
+        <h4 className="text-foreground text-sm leading-snug font-bold">
+          <span className="bg-muted text-muted-foreground mr-1.5 rounded px-1.5 py-0.5 font-mono text-[11px]">
+            {dim.id}
+          </span>
           {dim.name}
         </h4>
-        <button type="button" onClick={onClose} aria-label="Close" className="shrink-0 text-muted-foreground hover:text-foreground">
+        <button
+          type="button"
+          onClick={onClose}
+          aria-label="Close"
+          className="text-muted-foreground hover:text-foreground shrink-0"
+        >
           <X className="h-4 w-4" />
         </button>
       </div>
 
-      <p className="mb-3 text-xs leading-relaxed text-muted-foreground">{dim.definition}</p>
+      <p className="text-muted-foreground mb-3 text-xs leading-relaxed">
+        {dim.definition}
+      </p>
 
-      <p className="mb-1 text-[10px] font-semibold uppercase tracking-widest text-muted-foreground">Rubric (0–3)</p>
+      <p className="text-muted-foreground mb-1 text-[10px] font-semibold tracking-widest uppercase">
+        Rubric (0–3)
+      </p>
       <div className="mb-3 space-y-1">
         {dim.levels.map((l) => {
           const active = l.score === score;
@@ -477,10 +779,21 @@ function DimensionPopover({ dim, score, evidence, anchorRect, onClose }: Dimensi
                 border: active ? `1px solid ${c}66` : "1px solid transparent",
               }}
             >
-              <span className="font-semibold tabular-nums" style={{ color: active ? c : "#9ca3af" }}>
+              <span
+                className="font-semibold tabular-nums"
+                style={{ color: active ? c : "#9ca3af" }}
+              >
                 {l.score}
               </span>
-              <span className={active ? "text-foreground font-medium" : "text-muted-foreground"}>{l.criteria}</span>
+              <span
+                className={
+                  active
+                    ? "text-foreground font-medium"
+                    : "text-muted-foreground"
+                }
+              >
+                {l.criteria}
+              </span>
             </div>
           );
         })}
@@ -488,21 +801,28 @@ function DimensionPopover({ dim, score, evidence, anchorRect, onClose }: Dimensi
 
       {evidence?.rationale ? (
         <>
-          <p className="mb-1 text-[10px] font-semibold uppercase tracking-widest text-muted-foreground">
+          <p className="text-muted-foreground mb-1 text-[10px] font-semibold tracking-widest uppercase">
             Why this program scored {score}/3
           </p>
-          <p className="mb-3 text-xs leading-relaxed text-foreground bg-muted/30 p-2 rounded-md border border-border/50">{evidence.rationale}</p>
+          <p className="text-foreground bg-muted/30 border-border/50 mb-3 rounded-md border p-2 text-xs leading-relaxed">
+            {evidence.rationale}
+          </p>
         </>
       ) : null}
 
       {evidence?.recommendations?.length ? (
         <>
-          <p className="mb-1 text-[10px] font-semibold uppercase tracking-widest text-muted-foreground">Linked recommendations</p>
+          <p className="text-muted-foreground mb-1 text-[10px] font-semibold tracking-widest uppercase">
+            Linked recommendations
+          </p>
           <ul className="space-y-1.5">
             {evidence.recommendations.map((r, i) => (
-              <li key={i} className="text-xs leading-snug text-foreground bg-muted/20 p-2 rounded-md border border-border/30">
+              <li
+                key={i}
+                className="text-foreground bg-muted/20 border-border/30 rounded-md border p-2 text-xs leading-snug"
+              >
                 {(r.priority || r.effort) && (
-                  <span className="mr-1.5 inline-block rounded bg-primary/10 px-1 py-0.5 text-[9px] font-semibold text-primary font-mono">
+                  <span className="bg-primary/10 text-primary mr-1.5 inline-block rounded px-1 py-0.5 font-mono text-[9px] font-semibold">
                     {[r.priority, r.effort].filter(Boolean).join(" · ")}
                   </span>
                 )}
@@ -517,7 +837,12 @@ function DimensionPopover({ dim, score, evidence, anchorRect, onClose }: Dimensi
 }
 
 interface InteractiveRubricPanelProps {
-  dimensions: { label: string; score: number; max: number; rationale?: string }[];
+  dimensions: {
+    label: string;
+    score: number;
+    max: number;
+    rationale?: string;
+  }[];
   thresholds?: Record<string, string>;
   programName?: string;
   baseScore: number;
@@ -525,8 +850,20 @@ interface InteractiveRubricPanelProps {
   programSlug?: string;
 }
 
-function InteractiveRubricPanel({ dimensions, thresholds, programName, baseScore, maxScore, programSlug }: InteractiveRubricPanelProps) {
-  const [openPopover, setOpenPopover] = useState<{ dim: Dimension; score: number; rect: DOMRect; rationale?: string } | null>(null);
+function InteractiveRubricPanel({
+  dimensions,
+  thresholds,
+  programName,
+  baseScore,
+  maxScore,
+  programSlug,
+}: InteractiveRubricPanelProps) {
+  const [openPopover, setOpenPopover] = useState<{
+    dim: Dimension;
+    score: number;
+    rect: DOMRect;
+    rationale?: string;
+  } | null>(null);
 
   const getSegmentColor = (score: number, max: number) => {
     const pct = score / max;
@@ -543,33 +880,38 @@ function InteractiveRubricPanel({ dimensions, thresholds, programName, baseScore
   };
 
   const getDimFromLabel = (label: string): Dimension | undefined => {
-    let dim = RUBRIC.find((r) => r.demoLabel.toLowerCase() === label.toLowerCase());
+    let dim = RUBRIC.find(
+      (r) => r.demoLabel.toLowerCase() === label.toLowerCase(),
+    );
     if (dim) return dim;
     dim = RUBRIC.find((r) => r.name.toLowerCase() === label.toLowerCase());
     if (dim) return dim;
     dim = RUBRIC.find((r) => r.short.toLowerCase() === label.toLowerCase());
     if (dim) return dim;
-    if (label.toLowerCase().includes("bonus") || label.toLowerCase().includes("irreplaceability")) {
+    if (
+      label.toLowerCase().includes("bonus") ||
+      label.toLowerCase().includes("irreplaceability")
+    ) {
       return RUBRIC.find((r) => r.bonus);
     }
     return undefined;
   };
 
   return (
-    <div className="flex flex-col gap-6 overflow-hidden rounded-xl border border-border bg-card p-6">
+    <div className="border-border bg-card flex flex-col gap-6 overflow-hidden rounded-xl border p-6">
       {/* Top: Dimension Scores (Full Width) */}
       <div>
-        <p className="mb-3 text-xs font-semibold uppercase tracking-widest text-muted-foreground">
+        <p className="text-muted-foreground mb-3 text-xs font-semibold tracking-widest uppercase">
           Dimension Scores
-          <span className="ml-1 font-normal normal-case tracking-normal text-muted-foreground/70">
+          <span className="text-muted-foreground/70 ml-1 font-normal tracking-normal normal-case">
             · click any dimension for its rubric &amp; evidence
           </span>
         </p>
-        
+
         <div className="space-y-1.5">
           {dimensions.map((d) => {
             const dimMeta = getDimFromLabel(d.label);
-            
+
             return (
               <div key={d.label} className="w-full">
                 <button
@@ -580,32 +922,45 @@ function InteractiveRubricPanel({ dimensions, thresholds, programName, baseScore
                         dim: dimMeta,
                         score: d.score,
                         rect: e.currentTarget.getBoundingClientRect(),
-                        rationale: d.rationale
+                        rationale: d.rationale,
                       });
                     }
                   }}
-                  className="grid w-full cursor-pointer items-center gap-x-4 rounded-md py-1.5 px-2 text-left transition-all hover:bg-muted/40"
+                  className="hover:bg-muted/40 grid w-full cursor-pointer items-center gap-x-4 rounded-md px-2 py-1.5 text-left transition-all"
                   style={{ gridTemplateColumns: "12rem 1fr 3rem" }}
-                  title={dimMeta ? `${dimMeta.id} — click for rubric & evidence` : `${d.label} — click for rubric & evidence`}
+                  title={
+                    dimMeta
+                      ? `${dimMeta.id} — click for rubric & evidence`
+                      : `${d.label} — click for rubric & evidence`
+                  }
                 >
-                  <span className="truncate text-xs font-medium text-foreground">{d.label}</span>
-                  
+                  <span className="text-foreground truncate text-xs font-medium">
+                    {d.label}
+                  </span>
+
                   {/* Segmented bar graph */}
-                  <div className="flex items-center gap-1 w-full">
+                  <div className="flex w-full items-center gap-1">
                     {Array.from({ length: d.max || 3 }).map((_, segmentIdx) => {
                       const filled = segmentIdx < d.score;
                       return (
                         <div
                           key={segmentIdx}
-                          className={`h-2 rounded-full flex-1 ${
-                            filled ? getSegmentColor(d.score, d.max || 3) : "bg-muted-foreground/20"
+                          className={`h-2 flex-1 rounded-full ${
+                            filled
+                              ? getSegmentColor(d.score, d.max || 3)
+                              : "bg-muted-foreground/20"
                           }`}
                         />
                       );
                     })}
                   </div>
-                  
-                  <span className={`text-right text-xs font-bold tabular-nums ${getTextColor(d.score, d.max || 3)}`}>
+
+                  <span
+                    className={`text-right text-xs font-bold tabular-nums ${getTextColor(
+                      d.score,
+                      d.max || 3,
+                    )}`}
+                  >
                     {d.score}/{d.max || 3}
                   </span>
                 </button>
@@ -616,37 +971,66 @@ function InteractiveRubricPanel({ dimensions, thresholds, programName, baseScore
       </div>
 
       {/* Divider */}
-      <div className="border-t border-border" />
+      <div className="border-border border-t" />
 
       {/* Bottom: Two-column layout (Radar Chart & Threshold Questions) */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+      <div className="grid grid-cols-1 items-center gap-6 md:grid-cols-2">
         {/* Left Column: Radar Chart */}
-        <div className="flex justify-center items-center p-4 bg-muted/10 rounded-lg border border-border/50 dark:bg-zinc-950/20">
-          <ProgramRadar dimensions={dimensions} size={220} baseScore={baseScore} />
+        <div className="bg-muted/10 border-border/50 flex items-center justify-center rounded-lg border p-4 dark:bg-zinc-950/20">
+          <ProgramRadar
+            dimensions={dimensions}
+            size={220}
+            baseScore={baseScore}
+          />
         </div>
 
         {/* Right Column: Threshold Questions */}
         {thresholds ? (
-          <div className="flex flex-col justify-center h-full p-2">
-            <p className="mb-3 text-xs font-semibold uppercase tracking-widest text-muted-foreground">
+          <div className="flex h-full flex-col justify-center p-2">
+            <p className="text-muted-foreground mb-3 text-xs font-semibold tracking-widest uppercase">
               Threshold Questions
             </p>
             <div className="space-y-3">
               {[
-                { q: "q1", label: "Could AI produce 80% of this grad's first-2yr output?", val: thresholds.q1 },
-                { q: "q2", label: "Does this program train graduates to design systems, own decisions, or generate original insight?", val: thresholds.q2 },
-                { q: "q3", label: "Will these graduates be more employable in 5 years than today?", val: thresholds.q3 }
+                {
+                  q: "q1",
+                  label:
+                    "Could AI produce 80% of this grad's first-2yr output?",
+                  val: thresholds.q1,
+                },
+                {
+                  q: "q2",
+                  label:
+                    "Does this program train graduates to design systems, own decisions, or generate original insight?",
+                  val: thresholds.q2,
+                },
+                {
+                  q: "q3",
+                  label:
+                    "Will these graduates be more employable in 5 years than today?",
+                  val: thresholds.q3,
+                },
               ].map((item) => {
-                let badgeBg = "bg-yellow-500/10 text-yellow-600 dark:text-yellow-400 border border-yellow-500/20";
-                if (item.val === "YES") badgeBg = "bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20";
-                if (item.val === "NO") badgeBg = "bg-red-500/10 text-red-600 dark:text-red-400 border border-red-500/20";
+                let badgeBg =
+                  "bg-yellow-500/10 text-yellow-600 dark:text-yellow-400 border border-yellow-500/20";
+                if (item.val === "YES")
+                  badgeBg =
+                    "bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20";
+                if (item.val === "NO")
+                  badgeBg =
+                    "bg-red-500/10 text-red-600 dark:text-red-400 border border-red-500/20";
 
                 return (
-                  <div key={item.q} className="flex items-start gap-3 p-2 bg-muted/20 rounded-md border border-border/20 dark:bg-zinc-900/30">
-                    <span className={`mt-0.5 shrink-0 rounded px-1.5 py-0.5 text-[9px] font-bold leading-none ${badgeBg}`}>
+                  <div
+                    key={item.q}
+                    className="bg-muted/20 border-border/20 flex items-start gap-3 rounded-md border p-2 dark:bg-zinc-900/30"
+                  >
+                    <span
+                      className={`mt-0.5 shrink-0 rounded px-1.5 py-0.5 text-[9px] leading-none font-bold ${badgeBg}`}
+                    >
                       {item.val}
                     </span>
-                    <span className="text-xs leading-normal text-muted-foreground">
+                    <span className="text-muted-foreground text-xs leading-normal">
                       {item.label}
                     </span>
                   </div>
@@ -655,7 +1039,7 @@ function InteractiveRubricPanel({ dimensions, thresholds, programName, baseScore
             </div>
           </div>
         ) : (
-          <div className="flex items-center justify-center text-muted-foreground text-xs italic">
+          <div className="text-muted-foreground flex items-center justify-center text-xs italic">
             No threshold diagnostics available.
           </div>
         )}
@@ -666,11 +1050,13 @@ function InteractiveRubricPanel({ dimensions, thresholds, programName, baseScore
           dim={openPopover.dim}
           score={openPopover.score}
           evidence={(() => {
-            let ev = programSlug ? DIMENSION_EVIDENCE[programSlug]?.[openPopover.dim.id] : undefined;
+            let ev = programSlug
+              ? DIMENSION_EVIDENCE[programSlug]?.[openPopover.dim.id]
+              : undefined;
             if (!ev && openPopover.rationale) {
               ev = {
                 rationale: openPopover.rationale,
-                recommendations: []
+                recommendations: [],
               };
             }
             return ev;
@@ -721,7 +1107,7 @@ function renderMarkdownAsPanels(markdown: string) {
   const sections = parseMarkdownToSections(markdown);
   if (sections.length === 0) {
     return (
-      <div className="rounded-xl border border-border bg-card p-6 shadow-sm text-sm text-muted-foreground">
+      <div className="border-border bg-card text-muted-foreground rounded-xl border p-6 text-sm shadow-sm">
         No report content available.
       </div>
     );
@@ -729,17 +1115,20 @@ function renderMarkdownAsPanels(markdown: string) {
   return (
     <div className="space-y-6">
       {sections.map((section, idx) => (
-        <div key={idx} className="rounded-xl border border-border bg-card p-6 shadow-sm transition-all duration-300 hover:shadow-md hover:border-primary/20">
-          <h3 className="text-base font-bold text-foreground border-b border-border pb-3 mb-4 flex items-center gap-2">
-            <span className="w-1 h-3.5 bg-primary rounded-full shrink-0" />
+        <div
+          key={idx}
+          className="border-border bg-card hover:border-primary/20 rounded-xl border p-6 shadow-sm transition-all duration-300 hover:shadow-md"
+        >
+          <h3 className="text-foreground border-border mb-4 flex items-center gap-2 border-b pb-3 text-base font-bold">
+            <span className="bg-primary h-3.5 w-1 shrink-0 rounded-full" />
             {section.title}
           </h3>
           <div className="overflow-x-auto">
-            <div className="prose prose-sm dark:prose-invert max-w-none prose-table:text-xs prose-table:border prose-table:border-border prose-th:bg-muted/50 prose-th:px-4 prose-th:py-2 prose-th:font-semibold prose-td:px-4 prose-td:py-2 prose-td:align-top prose-headings:text-sm prose-headings:font-bold [&_td:nth-child(1)]:text-center [&_td:nth-child(3)]:text-right [&_th:nth-child(1)]:text-center [&_th:nth-child(3)]:text-right">
-            <ReactMarkdown remarkPlugins={[remarkGfm]}>
-              {section.content}
-            </ReactMarkdown>
-          </div>
+            <div className="prose prose-sm dark:prose-invert prose-table:text-xs prose-table:border prose-table:border-border prose-th:bg-muted/50 prose-th:px-4 prose-th:py-2 prose-th:font-semibold prose-td:px-4 prose-td:py-2 prose-td:align-top prose-headings:text-sm prose-headings:font-bold max-w-none [&_td:nth-child(1)]:text-center [&_td:nth-child(3)]:text-right [&_th:nth-child(1)]:text-center [&_th:nth-child(3)]:text-right">
+              <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                {section.content}
+              </ReactMarkdown>
+            </div>
           </div>
         </div>
       ))}
@@ -747,9 +1136,14 @@ function renderMarkdownAsPanels(markdown: string) {
   );
 }
 
-function parseSlug(slug: string): { code: string; type: "assessment" | "market" | "recommend" } {
-  if (slug.startsWith("dfva-recommend-")) return { code: slug.slice("dfva-recommend-".length), type: "recommend" };
-  if (slug.startsWith("dfva-market-")) return { code: slug.slice("dfva-market-".length), type: "market" };
+function parseSlug(slug: string): {
+  code: string;
+  type: "assessment" | "market" | "recommend";
+} {
+  if (slug.startsWith("dfva-recommend-"))
+    return { code: slug.slice("dfva-recommend-".length), type: "recommend" };
+  if (slug.startsWith("dfva-market-"))
+    return { code: slug.slice("dfva-market-".length), type: "market" };
   return { code: slug.slice("dfva-".length), type: "assessment" };
 }
 
@@ -763,21 +1157,28 @@ export default function ReportDetailPage() {
 
   // 1. Navigation routing & fallbacks
   const { code, type: currentType } = useMemo(() => {
-    return reportSlug ? parseSlug(reportSlug) : { code: "", type: "assessment" as const };
+    return reportSlug
+      ? parseSlug(reportSlug)
+      : { code: "", type: "assessment" as const };
   }, [reportSlug]);
 
-  const slugsByType = useMemo(() => ({
-    assessment: "dfva-" + code,
-    market: "dfva-market-" + code,
-    recommend: "dfva-recommend-" + code,
-  }), [code]);
+  const slugsByType = useMemo(
+    () => ({
+      assessment: "dfva-" + code,
+      market: "dfva-market-" + code,
+      recommend: "dfva-recommend-" + code,
+    }),
+    [code],
+  );
 
   const program = useMemo(() => {
-    return PROGRAMS.find(p => p.assessmentSlug === slugsByType.assessment);
+    return PROGRAMS.find((p) => p.assessmentSlug === slugsByType.assessment);
   }, [slugsByType.assessment]);
 
   // Tab State: overview, map, market, redesign
-  const [activeTab, setActiveTab] = useState<"overview" | "map" | "market" | "redesign">("overview");
+  const [activeTab, setActiveTab] = useState<
+    "overview" | "map" | "market" | "redesign"
+  >("overview");
 
   // Keep state synced with the legacy URL routing type
   useEffect(() => {
@@ -796,18 +1197,20 @@ export default function ReportDetailPage() {
       (j: any) =>
         j.courseCode?.toLowerCase() === code ||
         j.programName?.toLowerCase().includes(code) ||
-        j.handbookUrl?.toLowerCase().includes(code)
+        j.handbookUrl?.toLowerCase().includes(code),
     );
   }, [jobs, code]);
 
   // Load syllabus data state. Fetched per-job via getSyllabusMap (which selects
   // only syllabusJson) — the job list no longer carries the heavy Json columns.
-  const [syllabusData, setSyllabusData] = useState(() => generateMockSyllabus(slugsByType.assessment));
+  const [syllabusData, setSyllabusData] = useState(() =>
+    generateMockSyllabus(slugsByType.assessment),
+  );
 
   const { data: syllabusMap } = useQuery(
     getSyllabusMap,
     { jobId: matchingJob?.id ?? "" },
-    { enabled: !!user && !!matchingJob?.id }
+    { enabled: !!user && !!matchingJob?.id },
   );
 
   useEffect(() => {
@@ -822,11 +1225,12 @@ export default function ReportDetailPage() {
   const [simulatedScore, setSimulatedScore] = useState<number | null>(null);
 
   // 4. Client-side state for Interventions (with LocalStorage fallback)
-  const { data: dbInterventions = [], refetch: refetchInterventions } = useQuery(
-    getCourseInterventions,
-    { assessmentJobId: matchingJob?.id ?? "" },
-    { enabled: !!user && !!matchingJob?.id }
-  );
+  const { data: dbInterventions = [], refetch: refetchInterventions } =
+    useQuery(
+      getCourseInterventions,
+      { assessmentJobId: matchingJob?.id ?? "" },
+      { enabled: !!user && !!matchingJob?.id },
+    );
 
   const [localInterventions, setLocalInterventions] = useState<any[]>(() => {
     try {
@@ -839,7 +1243,10 @@ export default function ReportDetailPage() {
 
   useEffect(() => {
     try {
-      localStorage.setItem(`compass-interventions-${code}`, JSON.stringify(localInterventions));
+      localStorage.setItem(
+        `compass-interventions-${code}`,
+        JSON.stringify(localInterventions),
+      );
     } catch (e) {
       console.error(e);
     }
@@ -864,20 +1271,29 @@ export default function ReportDetailPage() {
     industryCluster: "",
   });
   const [isMappingAlumni, setIsMappingAlumni] = useState(false);
-  const [mappingStep, setMappingStep] = useState<"idle" | "analyzing" | "mapping" | "success">("idle");
+  const [mappingStep, setMappingStep] = useState<
+    "idle" | "analyzing" | "mapping" | "success"
+  >("idle");
   const [successCount, setSuccessCount] = useState(0);
 
   // Student Flow Enrollment CSV Loader State
-  const [flowUploadStatus, setFlowUploadStatus] = useState<"idle" | "success" | "error">("idle");
+  const [flowUploadStatus, setFlowUploadStatus] = useState<
+    "idle" | "success" | "error"
+  >("idle");
 
   if (!report) {
     return (
       <div className="mx-auto max-w-3xl px-4 py-16 text-center">
-        <h1 className="text-2xl font-bold text-foreground mb-4">Report not found</h1>
+        <h1 className="text-foreground mb-4 text-2xl font-bold">
+          Report not found
+        </h1>
         <p className="text-muted-foreground mb-8">
           No report exists for slug <code>{reportSlug}</code>.
         </p>
-        <Link to="/reports" className="text-primary hover:underline inline-flex items-center gap-2 text-sm">
+        <Link
+          to="/reports"
+          className="text-primary inline-flex items-center gap-2 text-sm hover:underline"
+        >
           <ArrowLeft className="h-4 w-4" />
           Back to reports
         </Link>
@@ -886,7 +1302,10 @@ export default function ReportDetailPage() {
   }
 
   const meta = reportSlug ? reportMeta[slugsByType.assessment] : null;
-  const scoreText = simulatedScore !== null ? `${simulatedScore} / 36` : meta?.score || `${program?.score ?? 20} / 36`;
+  const scoreText =
+    simulatedScore !== null
+      ? `${simulatedScore} / 36`
+      : meta?.score || `${program?.score ?? 20} / 36`;
 
   // 7. Form submission: Update intervention assignment
   async function handleAssignOwner(e: React.FormEvent<HTMLFormElement>) {
@@ -927,10 +1346,12 @@ export default function ReportDetailPage() {
       }
     } else {
       // Local fallback
-      setLocalInterventions(prev => {
+      setLocalInterventions((prev) => {
         const updated = [...prev];
         const idx = updated.findIndex(
-          i => i.courseCode === courseCode && i.dimensionId === newIntervention.dimensionId
+          (i) =>
+            i.courseCode === courseCode &&
+            i.dimensionId === newIntervention.dimensionId,
         );
         if (idx !== -1) {
           updated[idx] = newIntervention;
@@ -956,12 +1377,19 @@ export default function ReportDetailPage() {
       const text = event.target?.result as string;
       if (!text) return;
 
-      const lines = text.split("\n").map(l => l.trim()).filter(Boolean);
+      const lines = text
+        .split("\n")
+        .map((l) => l.trim())
+        .filter(Boolean);
       if (lines.length === 0) return;
 
-      const headers = lines[0].split(",").map(h => h.trim().replace(/^["']|["']$/g, ""));
-      const rows = lines.slice(1).map(line => {
-        const cols = line.split(",").map(c => c.trim().replace(/^["']|["']$/g, ""));
+      const headers = lines[0]
+        .split(",")
+        .map((h) => h.trim().replace(/^["']|["']$/g, ""));
+      const rows = lines.slice(1).map((line) => {
+        const cols = line
+          .split(",")
+          .map((c) => c.trim().replace(/^["']|["']$/g, ""));
         return Object.fromEntries(headers.map((h, i) => [h, cols[i] || ""]));
       });
 
@@ -972,10 +1400,22 @@ export default function ReportDetailPage() {
       setTimeout(() => {
         // Guess column mappings based on common substrings
         const guess: Record<string, string> = {
-          jobTitle: headers.find(h => /job|title|role|position/i.test(h)) || headers[0] || "",
-          employer: headers.find(h => /company|employer|organisation|firm/i.test(h)) || headers[1] || "",
-          graduationYear: headers.find(h => /year|grad/i.test(h)) || headers[2] || "",
-          industryCluster: headers.find(h => /cluster|industry|sector|field/i.test(h)) || headers[3] || "",
+          jobTitle:
+            headers.find((h) => /job|title|role|position/i.test(h)) ||
+            headers[0] ||
+            "",
+          employer:
+            headers.find((h) =>
+              /company|employer|organisation|firm/i.test(h),
+            ) ||
+            headers[1] ||
+            "",
+          graduationYear:
+            headers.find((h) => /year|grad/i.test(h)) || headers[2] || "",
+          industryCluster:
+            headers.find((h) => /cluster|industry|sector|field/i.test(h)) ||
+            headers[3] ||
+            "",
         };
         setColumnMapping(guess);
         setMappingStep("mapping");
@@ -987,10 +1427,12 @@ export default function ReportDetailPage() {
   const handleAlumniImportSubmit = async () => {
     setIsUploadingAlumni(true);
     try {
-      const mappedRecords = csvRows.map(row => ({
+      const mappedRecords = csvRows.map((row) => ({
         jobTitle: row[columnMapping.jobTitle] || "Graduate",
         employer: row[columnMapping.employer] || "Undisclosed",
-        graduationYear: parseInt(row[columnMapping.graduationYear], 10) || new Date().getFullYear(),
+        graduationYear:
+          parseInt(row[columnMapping.graduationYear], 10) ||
+          new Date().getFullYear(),
         industryCluster: row[columnMapping.industryCluster] || "Unassigned",
       }));
 
@@ -1001,7 +1443,10 @@ export default function ReportDetailPage() {
         });
       } else {
         // Mock success for anonymous users
-        console.log("Mock uploaded alumni records to local memory:", mappedRecords);
+        console.log(
+          "Mock uploaded alumni records to local memory:",
+          mappedRecords,
+        );
       }
       setSuccessCount(mappedRecords.length);
       setMappingStep("success");
@@ -1022,10 +1467,13 @@ export default function ReportDetailPage() {
       const text = event.target?.result as string;
       if (!text) return;
 
-      const lines = text.split("\n").map(l => l.trim()).filter(Boolean);
+      const lines = text
+        .split("\n")
+        .map((l) => l.trim())
+        .filter(Boolean);
       const parsedFlow: Record<string, number> = {};
 
-      lines.forEach(line => {
+      lines.forEach((line) => {
         const parts = line.split(",");
         if (parts.length >= 2) {
           const cCode = parts[0].trim().toUpperCase();
@@ -1049,7 +1497,7 @@ export default function ReportDetailPage() {
         flowPercentages[cCode] = Math.round((count / maxCount) * 1000) / 10;
       });
 
-      setSyllabusData(prev => ({
+      setSyllabusData((prev) => ({
         ...prev,
         csvFlow: flowPercentages,
       }));
@@ -1067,7 +1515,7 @@ export default function ReportDetailPage() {
 
   const filteredCareers = useMemo(() => {
     if (hideRegulatedCareers) {
-      return currentCareers.filter(c => c.reqs === "No");
+      return currentCareers.filter((c) => c.reqs === "No");
     }
     return currentCareers;
   }, [currentCareers, hideRegulatedCareers]);
@@ -1078,7 +1526,7 @@ export default function ReportDetailPage() {
       <div className="mb-6">
         <Link
           to="/reports"
-          className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors mb-4"
+          className="text-muted-foreground hover:text-foreground mb-4 inline-flex items-center gap-2 text-sm transition-colors"
         >
           <ArrowLeft className="h-4 w-4" />
           All reports
@@ -1086,47 +1534,69 @@ export default function ReportDetailPage() {
         <div className="flex flex-wrap items-start justify-between gap-4">
           <div>
             <div className="flex items-center gap-2">
-              <h1 className="text-3xl font-extrabold tracking-tight text-foreground">
+              <h1 className="text-foreground text-3xl font-extrabold tracking-tight">
                 {program?.program ?? report.title}
               </h1>
               {simulatedScore !== null && (
-                <span className="inline-flex items-center gap-1 rounded bg-emerald-500/10 border border-emerald-500/20 px-2 py-0.5 text-xs font-bold text-emerald-400 animate-pulse">
+                <span className="inline-flex animate-pulse items-center gap-1 rounded border border-emerald-500/20 bg-emerald-500/10 px-2 py-0.5 text-xs font-bold text-emerald-400">
                   Simulated delta active
                 </span>
               )}
             </div>
-            <p className="text-muted-foreground mt-1">{report.institution} · {program?.level || "Undergraduate"}</p>
+            <p className="text-muted-foreground mt-1">
+              {report.institution} · {program?.level || "Undergraduate"}
+            </p>
           </div>
           <div className="flex items-center gap-3">
             {meta?.riskBand && (
-              <span className={`rounded-full px-3.5 py-1 text-xs font-bold uppercase tracking-wider ${riskBandStyles[meta.riskBand]}`}>
+              <span
+                className={`rounded-full px-3.5 py-1 text-xs font-bold tracking-wider uppercase ${
+                  riskBandStyles[meta.riskBand]
+                }`}
+              >
                 {meta.riskBand}
               </span>
             )}
             <div className="flex flex-col items-end">
-              <span className="text-2xl font-black text-foreground tracking-tight">{scoreText}</span>
-              <span className="text-[10px] uppercase font-bold text-muted-foreground">DFVA Durability Index</span>
+              <span className="text-foreground text-2xl font-black tracking-tight">
+                {scoreText}
+              </span>
+              <span className="text-muted-foreground text-[10px] font-bold uppercase">
+                DFVA Durability Index
+              </span>
             </div>
           </div>
         </div>
 
         {/* 4-Tab Interface Selection Navigation */}
-        <div className="mt-8 flex border-b border-border">
+        <div className="border-border mt-8 flex border-b">
           {[
-            { id: "overview" as const, label: "Overview Dashboard", icon: BarChart2 },
+            {
+              id: "overview" as const,
+              label: "Overview Dashboard",
+              icon: BarChart2,
+            },
             { id: "map" as const, label: "Curriculum Map", icon: Layers },
-            { id: "market" as const, label: "Market Intelligence", icon: TrendingUp },
-            { id: "redesign" as const, label: "Redesign Workspace", icon: ClipboardList },
-          ].map(tab => {
+            {
+              id: "market" as const,
+              label: "Market Intelligence",
+              icon: TrendingUp,
+            },
+            {
+              id: "redesign" as const,
+              label: "Redesign Workspace",
+              icon: ClipboardList,
+            },
+          ].map((tab) => {
             const isActive = activeTab === tab.id;
             return (
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id)}
-                className={`flex items-center gap-2 px-5 py-3 border-b-2 text-sm font-semibold transition-all outline-none ${
+                className={`flex items-center gap-2 border-b-2 px-5 py-3 text-sm font-semibold transition-all outline-none ${
                   isActive
-                    ? "border-primary text-primary font-bold bg-muted/10"
-                    : "border-transparent text-muted-foreground hover:text-foreground hover:border-border"
+                    ? "border-primary text-primary bg-muted/10 font-bold"
+                    : "text-muted-foreground hover:text-foreground hover:border-border border-transparent"
                 }`}
               >
                 <tab.icon className="h-4 w-4" />
@@ -1139,13 +1609,14 @@ export default function ReportDetailPage() {
 
       {/* 2. Tab Contents */}
       <div className="space-y-6">
-        
         {/* TAB 1: OVERVIEW */}
         {activeTab === "overview" && (
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-            <div className="lg:col-span-2 space-y-6">
+          <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
+            <div className="space-y-6 lg:col-span-2">
               {(() => {
-                const rawMarkdown = REPORT_CONTENT[slugsByType.assessment]?.markdown ?? report.markdown;
+                const rawMarkdown =
+                  REPORT_CONTENT[slugsByType.assessment]?.markdown ??
+                  report.markdown;
                 const structured = parseStructured(rawMarkdown);
                 if (structured) {
                   return (
@@ -1162,7 +1633,7 @@ export default function ReportDetailPage() {
                     </>
                   );
                 }
-                
+
                 // Fallback to static program rubric if JSON parsing isn't applicable
                 return (
                   <>
@@ -1184,18 +1655,20 @@ export default function ReportDetailPage() {
             </div>
 
             <div className="space-y-6">
-
               {/* SVG Shift & Drift Timeline */}
               <ShiftDriftChart />
 
               {/* Key Assessment Guidelines Callout */}
-              <div className="rounded-xl border border-border bg-muted/20 p-5 space-y-3">
-                <h4 className="text-xs font-bold uppercase text-foreground flex items-center gap-1.5">
-                  <ShieldAlert className="h-4 w-4 text-primary" />
+              <div className="border-border bg-muted/20 space-y-3 rounded-xl border p-5">
+                <h4 className="text-foreground flex items-center gap-1.5 text-xs font-bold uppercase">
+                  <ShieldAlert className="text-primary h-4 w-4" />
                   Assessor Quality Standards
                 </h4>
-                <p className="text-xs text-muted-foreground leading-relaxed">
-                  DFVA scores measure graduate structural irreplaceability in standard entry-level hiring models. Programs showing moderate/high risk clusters are recommended for syllabus adjustments using the Redesign tab.
+                <p className="text-muted-foreground text-xs leading-relaxed">
+                  DFVA scores measure graduate structural irreplaceability in
+                  standard entry-level hiring models. Programs showing
+                  moderate/high risk clusters are recommended for syllabus
+                  adjustments using the Redesign tab.
                 </p>
               </div>
             </div>
@@ -1205,34 +1678,45 @@ export default function ReportDetailPage() {
         {/* TAB 2: CURRICULUM MAP */}
         {activeTab === "map" && (
           <div className="space-y-4">
-            <div className="flex flex-wrap items-center justify-between gap-4 p-4 rounded-xl border border-border bg-card/60 backdrop-blur-md">
+            <div className="border-border bg-card/60 flex flex-wrap items-center justify-between gap-4 rounded-xl border p-4 backdrop-blur-md">
               <div>
-                <h2 className="text-lg font-bold text-foreground">Interactive Curriculum Visualizer</h2>
-                <p className="text-xs text-muted-foreground max-w-xl">
-                  Subjects as nodes, prerequisites as edges. <strong>Student Traffic</strong> mode shows cohort coverage across the prerequisite chain — subjects at ≥90% are <em>bottlenecks</em> (every student passes through, so a change here reaches the entire cohort). <strong>IRA Scaffolding</strong> mode maps where each DFVA dimension is Introduced, Reinforced, and Assessed across the curriculum.
+                <h2 className="text-foreground text-lg font-bold">
+                  Interactive Curriculum Visualizer
+                </h2>
+                <p className="text-muted-foreground max-w-xl text-xs">
+                  Subjects as nodes, prerequisites as edges.{" "}
+                  <strong>Student Traffic</strong> mode shows cohort coverage
+                  across the prerequisite chain — subjects at ≥90% are{" "}
+                  <em>bottlenecks</em> (every student passes through, so a
+                  change here reaches the entire cohort).{" "}
+                  <strong>IRA Scaffolding</strong> mode maps where each DFVA
+                  dimension is Introduced, Reinforced, and Assessed across the
+                  curriculum.
                 </p>
               </div>
               <div className="flex items-center gap-3">
                 <div className="flex flex-col items-end gap-1">
-                <label className="flex items-center gap-2 cursor-pointer bg-muted hover:bg-muted/80 border border-border rounded-lg px-3 py-1.5 text-xs font-semibold transition-colors">
-                  <Upload className="h-3.5 w-3.5 text-muted-foreground" />
-                  <span>Upload Enrollment CSV</span>
-                  <input
-                    type="file"
-                    accept=".csv"
-                    onChange={handleStudentFlowCSV}
-                    className="hidden"
-                  />
-                </label>
-                <span className="text-[10px] text-muted-foreground">Columns: courseCode, studentCount</span>
+                  <label className="bg-muted hover:bg-muted/80 border-border flex cursor-pointer items-center gap-2 rounded-lg border px-3 py-1.5 text-xs font-semibold transition-colors">
+                    <Upload className="text-muted-foreground h-3.5 w-3.5" />
+                    <span>Upload Enrollment CSV</span>
+                    <input
+                      type="file"
+                      accept=".csv"
+                      onChange={handleStudentFlowCSV}
+                      className="hidden"
+                    />
+                  </label>
+                  <span className="text-muted-foreground text-[10px]">
+                    Columns: courseCode, studentCount
+                  </span>
                 </div>
                 {flowUploadStatus === "success" && (
-                  <span className="text-xs font-medium text-emerald-500 flex items-center gap-1">
+                  <span className="flex items-center gap-1 text-xs font-medium text-emerald-500">
                     <Check className="h-3 w-3" /> Heatmap calibrated
                   </span>
                 )}
                 {flowUploadStatus === "error" && (
-                  <span className="text-xs font-medium text-red-500 flex items-center gap-1">
+                  <span className="flex items-center gap-1 text-xs font-medium text-red-500">
                     <AlertTriangle className="h-3 w-3" /> Bad file layout
                   </span>
                 )}
@@ -1250,57 +1734,78 @@ export default function ReportDetailPage() {
 
         {/* TAB 3: MARKET INTELLIGENCE */}
         {activeTab === "market" && (
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-            <div className="lg:col-span-2 space-y-6">
+          <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
+            <div className="space-y-6 lg:col-span-2">
               {renderMarkdownAsPanels(
-                REPORT_CONTENT[slugsByType.market]?.markdown ?? "No custom market intelligence report loaded."
+                REPORT_CONTENT[slugsByType.market]?.markdown ??
+                  "No custom market intelligence report loaded.",
               )}
             </div>
 
             <div className="space-y-6">
               {/* Professional Licensure Filter */}
-              <div className="rounded-xl border border-border bg-card p-5 shadow-sm space-y-4">
+              <div className="border-border bg-card space-y-4 rounded-xl border p-5 shadow-sm">
                 <div className="flex items-center justify-between">
-                  <h3 className="text-sm font-bold text-foreground flex items-center gap-1.5">
-                    <Filter className="h-4 w-4 text-primary" />
+                  <h3 className="text-foreground flex items-center gap-1.5 text-sm font-bold">
+                    <Filter className="text-primary h-4 w-4" />
                     Regulatory Licensure Shield
                   </h3>
                   <button
-                    onClick={() => setHideRegulatedCareers(!hideRegulatedCareers)}
+                    onClick={() =>
+                      setHideRegulatedCareers(!hideRegulatedCareers)
+                    }
                     className={`relative inline-flex h-5 w-9 shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none ${
                       hideRegulatedCareers ? "bg-primary" : "bg-muted"
                     }`}
                   >
                     <span
-                      className={`pointer-events-none inline-block h-4 w-4 transform rounded-full bg-background shadow ring-0 transition duration-200 ease-in-out ${
+                      className={`bg-background pointer-events-none inline-block h-4 w-4 transform rounded-full shadow ring-0 transition duration-200 ease-in-out ${
                         hideRegulatedCareers ? "translate-x-4" : "translate-x-0"
                       }`}
                     />
                   </button>
                 </div>
-                <p className="text-xs text-muted-foreground">
-                  Toggle to hide jobs requiring professional licensure, isolating careers directly vulnerable to immediate generative AI displacement.
+                <p className="text-muted-foreground text-xs">
+                  Toggle to hide jobs requiring professional licensure,
+                  isolating careers directly vulnerable to immediate generative
+                  AI displacement.
                 </p>
 
-                <div className="space-y-2 border-t border-border pt-3">
-                  <div className="text-[10px] font-bold text-muted-foreground uppercase tracking-wider mb-2">
-                    Occupational Exposure List ({filteredCareers.length} pathways)
+                <div className="border-border space-y-2 border-t pt-3">
+                  <div className="text-muted-foreground mb-2 text-[10px] font-bold tracking-wider uppercase">
+                    Occupational Exposure List ({filteredCareers.length}{" "}
+                    pathways)
                   </div>
-                  <div className="space-y-2 max-h-[180px] overflow-y-auto pr-1 no-scrollbar">
+                  <div className="no-scrollbar max-h-[180px] space-y-2 overflow-y-auto pr-1">
                     {filteredCareers.map((c, i) => (
-                      <div key={i} className="flex justify-between items-center p-2 rounded bg-muted/40 border border-border/40 text-xs">
+                      <div
+                        key={i}
+                        className="bg-muted/40 border-border/40 flex items-center justify-between rounded border p-2 text-xs"
+                      >
                         <div>
-                          <div className="font-semibold text-foreground">{c.job}</div>
-                          <div className="text-[10px] text-muted-foreground">{c.cluster}</div>
+                          <div className="text-foreground font-semibold">
+                            {c.job}
+                          </div>
+                          <div className="text-muted-foreground text-[10px]">
+                            {c.cluster}
+                          </div>
                         </div>
                         <div className="text-right">
-                          <span className={`inline-block rounded px-1.5 py-0.5 text-[9px] font-bold ${
-                            c.risk === "High" ? "bg-red-500/10 text-red-400" : c.risk === "Moderate" ? "bg-amber-500/10 text-amber-400" : "bg-emerald-500/10 text-emerald-400"
-                          }`}>
+                          <span
+                            className={`inline-block rounded px-1.5 py-0.5 text-[9px] font-bold ${
+                              c.risk === "High"
+                                ? "bg-red-500/10 text-red-400"
+                                : c.risk === "Moderate"
+                                  ? "bg-amber-500/10 text-amber-400"
+                                  : "bg-emerald-500/10 text-emerald-400"
+                            }`}
+                          >
                             {c.risk} AI Risk
                           </span>
                           {c.reqs !== "No" && (
-                            <div className="text-[8px] text-primary font-bold mt-0.5">{c.reqs}</div>
+                            <div className="text-primary mt-0.5 text-[8px] font-bold">
+                              {c.reqs}
+                            </div>
                           )}
                         </div>
                       </div>
@@ -1310,20 +1815,25 @@ export default function ReportDetailPage() {
               </div>
 
               {/* Alumni Destination CSV Loader */}
-              <div className="rounded-xl border border-border bg-card p-5 shadow-sm space-y-4">
-                <h3 className="text-sm font-bold text-foreground flex items-center gap-1.5">
-                  <Upload className="h-4 w-4 text-primary" />
+              <div className="border-border bg-card space-y-4 rounded-xl border p-5 shadow-sm">
+                <h3 className="text-foreground flex items-center gap-1.5 text-sm font-bold">
+                  <Upload className="text-primary h-4 w-4" />
                   Alumni Data Calibration
                 </h3>
-                <p className="text-xs text-muted-foreground">
-                  Upload destination spreadsheets from the careers team to calibrate local market clusters and exposure weights.
+                <p className="text-muted-foreground text-xs">
+                  Upload destination spreadsheets from the careers team to
+                  calibrate local market clusters and exposure weights.
                 </p>
 
                 {mappingStep === "idle" && (
-                  <label className="flex flex-col items-center justify-center h-24 border border-dashed border-border hover:border-primary/50 rounded-xl cursor-pointer bg-muted/30 hover:bg-muted/50 transition-colors">
-                    <Upload className="h-5 w-5 text-muted-foreground mb-1.5" />
-                    <span className="text-xs font-semibold text-foreground">Select spreadsheet CSV</span>
-                    <span className="text-[10px] text-muted-foreground mt-0.5">Rows: name, company, job_title, sector</span>
+                  <label className="border-border hover:border-primary/50 bg-muted/30 hover:bg-muted/50 flex h-24 cursor-pointer flex-col items-center justify-center rounded-xl border border-dashed transition-colors">
+                    <Upload className="text-muted-foreground mb-1.5 h-5 w-5" />
+                    <span className="text-foreground text-xs font-semibold">
+                      Select spreadsheet CSV
+                    </span>
+                    <span className="text-muted-foreground mt-0.5 text-[10px]">
+                      Rows: name, company, job_title, sector
+                    </span>
                     <input
                       type="file"
                       accept=".csv"
@@ -1335,45 +1845,61 @@ export default function ReportDetailPage() {
 
                 {mappingStep === "analyzing" && (
                   <div className="flex flex-col items-center justify-center py-6 text-center">
-                    <RefreshCw className="h-6 w-6 animate-spin text-primary mb-2" />
-                    <div className="text-xs font-bold text-foreground">AI Scanning Columns...</div>
-                    <div className="text-[10px] text-muted-foreground mt-1">Extracting headers and matching job dimensions</div>
+                    <RefreshCw className="text-primary mb-2 h-6 w-6 animate-spin" />
+                    <div className="text-foreground text-xs font-bold">
+                      AI Scanning Columns...
+                    </div>
+                    <div className="text-muted-foreground mt-1 text-[10px]">
+                      Extracting headers and matching job dimensions
+                    </div>
                   </div>
                 )}
 
                 {mappingStep === "mapping" && (
                   <div className="space-y-3">
-                    <div className="text-xs font-semibold text-foreground mb-1">Confirm Column Mappings</div>
-                    
+                    <div className="text-foreground mb-1 text-xs font-semibold">
+                      Confirm Column Mappings
+                    </div>
+
                     {Object.keys(columnMapping).map((targetField) => (
-                      <div key={targetField} className="flex justify-between items-center gap-2">
-                        <span className="text-[10px] font-bold text-muted-foreground capitalize">
+                      <div
+                        key={targetField}
+                        className="flex items-center justify-between gap-2"
+                      >
+                        <span className="text-muted-foreground text-[10px] font-bold capitalize">
                           {targetField.replace(/([A-Z])/g, " $1")}
                         </span>
                         <select
                           value={columnMapping[targetField]}
-                          onChange={(e) => setColumnMapping(prev => ({ ...prev, [targetField]: e.target.value }))}
-                          className="bg-muted border border-border rounded px-1.5 py-0.5 text-xs outline-none w-32 focus:border-primary bg-card"
+                          onChange={(e) =>
+                            setColumnMapping((prev) => ({
+                              ...prev,
+                              [targetField]: e.target.value,
+                            }))
+                          }
+                          className="bg-muted border-border focus:border-primary bg-card w-32 rounded border px-1.5 py-0.5 text-xs outline-none"
                         >
                           <option value="">(Ignore)</option>
                           {csvHeaders.map((header) => (
-                            <option key={header} value={header}>{header}</option>
+                            <option key={header} value={header}>
+                              {header}
+                            </option>
                           ))}
                         </select>
                       </div>
                     ))}
 
-                    <div className="pt-2 flex gap-2">
+                    <div className="flex gap-2 pt-2">
                       <button
                         onClick={() => setMappingStep("idle")}
-                        className="flex-1 rounded border border-border py-1.5 text-xs text-muted-foreground hover:bg-muted font-semibold transition-colors"
+                        className="border-border text-muted-foreground hover:bg-muted flex-1 rounded border py-1.5 text-xs font-semibold transition-colors"
                       >
                         Reset
                       </button>
                       <button
                         onClick={handleAlumniImportSubmit}
                         disabled={isUploadingAlumni}
-                        className="flex-1 rounded bg-primary text-primary-foreground py-1.5 text-xs font-bold hover:opacity-90 transition-all shadow flex justify-center items-center gap-1.5"
+                        className="bg-primary text-primary-foreground flex flex-1 items-center justify-center gap-1.5 rounded py-1.5 text-xs font-bold shadow transition-all hover:opacity-90"
                       >
                         {isUploadingAlumni ? (
                           <>
@@ -1389,16 +1915,18 @@ export default function ReportDetailPage() {
                 )}
 
                 {mappingStep === "success" && (
-                  <div className="p-3 bg-emerald-500/10 border border-emerald-500/20 rounded-lg text-xs space-y-2">
-                    <div className="font-bold text-emerald-400 flex items-center gap-1">
+                  <div className="space-y-2 rounded-lg border border-emerald-500/20 bg-emerald-500/10 p-3 text-xs">
+                    <div className="flex items-center gap-1 font-bold text-emerald-400">
                       <CheckCircle2 className="h-4 w-4" /> Calibration Complete
                     </div>
                     <p className="text-[11px] text-emerald-300">
-                      Successfully parsed and imported {successCount} graduate destinations. Program labor cluster risk scores have been refreshed.
+                      Successfully parsed and imported {successCount} graduate
+                      destinations. Program labor cluster risk scores have been
+                      refreshed.
                     </p>
                     <button
                       onClick={() => setMappingStep("idle")}
-                      className="text-[10px] text-primary hover:underline font-semibold block pt-1"
+                      className="text-primary block pt-1 text-[10px] font-semibold hover:underline"
                     >
                       Upload another file
                     </button>
@@ -1411,60 +1939,69 @@ export default function ReportDetailPage() {
 
         {/* TAB 4: REDESIGN WORKSPACE */}
         {activeTab === "redesign" && (
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-            <div className="lg:col-span-2 space-y-6">
+          <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
+            <div className="space-y-6 lg:col-span-2">
               {renderMarkdownAsPanels(
-                REPORT_CONTENT[slugsByType.recommend]?.markdown ?? "No specific improvement plan loaded for this program."
+                REPORT_CONTENT[slugsByType.recommend]?.markdown ??
+                  "No specific improvement plan loaded for this program.",
               )}
             </div>
 
             <div className="space-y-6">
               {/* Curriculum Accountability Owner Map */}
-              <div className="rounded-xl border border-border bg-card p-5 shadow-sm space-y-4">
-                <h3 className="text-sm font-bold text-foreground flex items-center gap-1.5">
-                  <User className="h-4 w-4 text-primary" />
+              <div className="border-border bg-card space-y-4 rounded-xl border p-5 shadow-sm">
+                <h3 className="text-foreground flex items-center gap-1.5 text-sm font-bold">
+                  <User className="text-primary h-4 w-4" />
                   Accountability Owner Map
                 </h3>
-                <p className="text-xs text-muted-foreground">
-                  Assign key curriculum dimensions to subject coordinators to trigger compliance status email workflows.
+                <p className="text-muted-foreground text-xs">
+                  Assign key curriculum dimensions to subject coordinators to
+                  trigger compliance status email workflows.
                 </p>
 
-                <form onSubmit={handleAssignOwner} className="space-y-3 border-t border-border pt-3">
+                <form
+                  onSubmit={handleAssignOwner}
+                  className="border-border space-y-3 border-t pt-3"
+                >
                   <div>
-                    <label className="text-[10px] font-bold text-muted-foreground uppercase tracking-wider block mb-1">
+                    <label className="text-muted-foreground mb-1 block text-[10px] font-bold tracking-wider uppercase">
                       Select Course Node
                     </label>
                     <select
                       name="courseCode"
                       required
-                      className="w-full bg-muted border border-border rounded p-2 text-xs outline-none focus:border-primary bg-card"
+                      className="bg-muted border-border focus:border-primary bg-card w-full rounded border p-2 text-xs outline-none"
                     >
                       <option value="">Select subject...</option>
-                      {syllabusData.courses.map(c => (
-                        <option key={c.code} value={c.code}>{c.code} - {c.title}</option>
+                      {syllabusData.courses.map((c) => (
+                        <option key={c.code} value={c.code}>
+                          {c.code} - {c.title}
+                        </option>
                       ))}
                     </select>
                   </div>
 
                   <div>
-                    <label className="text-[10px] font-bold text-muted-foreground uppercase tracking-wider block mb-1">
+                    <label className="text-muted-foreground mb-1 block text-[10px] font-bold tracking-wider uppercase">
                       Select COMPASS Dimension
                     </label>
                     <select
                       name="dimensionId"
                       required
-                      className="w-full bg-muted border border-border rounded p-2 text-xs outline-none focus:border-primary bg-card"
+                      className="bg-muted border-border focus:border-primary bg-card w-full rounded border p-2 text-xs outline-none"
                     >
                       <option value="">Select dimension...</option>
-                      {DIMENSIONS.map(d => (
-                        <option key={d.id} value={d.id}>{d.id} - {d.label}</option>
+                      {DIMENSIONS.map((d) => (
+                        <option key={d.id} value={d.id}>
+                          {d.id} - {d.label}
+                        </option>
                       ))}
                     </select>
                   </div>
 
                   <div className="grid grid-cols-2 gap-2">
                     <div>
-                      <label className="text-[10px] font-bold text-muted-foreground uppercase tracking-wider block mb-1">
+                      <label className="text-muted-foreground mb-1 block text-[10px] font-bold tracking-wider uppercase">
                         Coordinator Name
                       </label>
                       <input
@@ -1472,11 +2009,11 @@ export default function ReportDetailPage() {
                         name="ownerName"
                         required
                         placeholder="Dr. Melb"
-                        className="w-full bg-muted border border-border rounded p-2 text-xs outline-none focus:border-primary text-foreground bg-card"
+                        className="bg-muted border-border focus:border-primary text-foreground bg-card w-full rounded border p-2 text-xs outline-none"
                       />
                     </div>
                     <div>
-                      <label className="text-[10px] font-bold text-muted-foreground uppercase tracking-wider block mb-1">
+                      <label className="text-muted-foreground mb-1 block text-[10px] font-bold tracking-wider uppercase">
                         Email Address
                       </label>
                       <input
@@ -1484,30 +2021,30 @@ export default function ReportDetailPage() {
                         name="ownerEmail"
                         required
                         placeholder="melb@unimelb"
-                        className="w-full bg-muted border border-border rounded p-2 text-xs outline-none focus:border-primary text-foreground bg-card"
+                        className="bg-muted border-border focus:border-primary text-foreground bg-card w-full rounded border p-2 text-xs outline-none"
                       />
                     </div>
                   </div>
 
                   <div className="grid grid-cols-2 gap-2">
                     <div>
-                      <label className="text-[10px] font-bold text-muted-foreground uppercase tracking-wider block mb-1">
+                      <label className="text-muted-foreground mb-1 block text-[10px] font-bold tracking-wider uppercase">
                         Target Date (Optional)
                       </label>
                       <input
                         type="date"
                         name="targetDate"
-                        className="w-full bg-muted border border-border rounded p-2 text-xs outline-none focus:border-primary text-foreground bg-card"
+                        className="bg-muted border-border focus:border-primary text-foreground bg-card w-full rounded border p-2 text-xs outline-none"
                       />
                     </div>
                     <div>
-                      <label className="text-[10px] font-bold text-muted-foreground uppercase tracking-wider block mb-1">
+                      <label className="text-muted-foreground mb-1 block text-[10px] font-bold tracking-wider uppercase">
                         Review Status
                       </label>
                       <select
                         name="status"
                         required
-                        className="w-full bg-muted border border-border rounded p-2 text-xs outline-none focus:border-primary bg-card"
+                        className="bg-muted border-border focus:border-primary bg-card w-full rounded border p-2 text-xs outline-none"
                       >
                         <option value="assigned">Assigned</option>
                         <option value="in_progress">In Progress</option>
@@ -1518,7 +2055,7 @@ export default function ReportDetailPage() {
 
                   <button
                     type="submit"
-                    className="w-full rounded bg-primary text-primary-foreground py-2 text-xs font-bold hover:opacity-90 transition-all shadow flex justify-center items-center gap-1.5"
+                    className="bg-primary text-primary-foreground flex w-full items-center justify-center gap-1.5 rounded py-2 text-xs font-bold shadow transition-all hover:opacity-90"
                   >
                     <Plus className="h-3.5 w-3.5" />
                     Assign Curriculum Owner
@@ -1526,33 +2063,56 @@ export default function ReportDetailPage() {
                 </form>
 
                 {/* Assigned Owners List */}
-                <div className="space-y-2 border-t border-border pt-4">
-                  <div className="text-[10px] font-bold text-muted-foreground uppercase tracking-wider mb-2">
+                <div className="border-border space-y-2 border-t pt-4">
+                  <div className="text-muted-foreground mb-2 text-[10px] font-bold tracking-wider uppercase">
                     Active Ownership Mapping ({activeInterventions.length})
                   </div>
                   {activeInterventions.length === 0 ? (
-                    <p className="text-[11px] text-muted-foreground italic text-center py-2">
-                      No owners mapped yet. Assign a coordinator above to begin tracking.
+                    <p className="text-muted-foreground py-2 text-center text-[11px] italic">
+                      No owners mapped yet. Assign a coordinator above to begin
+                      tracking.
                     </p>
                   ) : (
-                    <div className="space-y-2 max-h-[180px] overflow-y-auto pr-1 no-scrollbar">
+                    <div className="no-scrollbar max-h-[180px] space-y-2 overflow-y-auto pr-1">
                       {activeInterventions.map((item, i) => (
-                        <div key={i} className="p-2.5 rounded bg-muted/40 border border-border text-xs space-y-1">
-                          <div className="flex justify-between items-start">
-                            <span className="font-bold text-foreground">{item.courseCode}</span>
-                            <span className={`inline-block rounded px-1.5 py-0.2 text-[8px] font-bold uppercase ${
-                              item.status === "completed" ? "bg-emerald-500/10 text-emerald-400" : item.status === "in_progress" ? "bg-amber-500/10 text-amber-400" : "bg-blue-500/10 text-blue-400"
-                            }`}>
+                        <div
+                          key={i}
+                          className="bg-muted/40 border-border space-y-1 rounded border p-2.5 text-xs"
+                        >
+                          <div className="flex items-start justify-between">
+                            <span className="text-foreground font-bold">
+                              {item.courseCode}
+                            </span>
+                            <span
+                              className={`py-0.2 inline-block rounded px-1.5 text-[8px] font-bold uppercase ${
+                                item.status === "completed"
+                                  ? "bg-emerald-500/10 text-emerald-400"
+                                  : item.status === "in_progress"
+                                    ? "bg-amber-500/10 text-amber-400"
+                                    : "bg-blue-500/10 text-blue-400"
+                              }`}
+                            >
                               {item.status}
                             </span>
                           </div>
-                          <div className="text-[10px] text-muted-foreground font-medium">
-                            Dimension: {dimensionIdToString(item.dimensionId)} ({DIMENSIONS.find(d => d.id === dimensionIdToString(item.dimensionId))?.label})
+                          <div className="text-muted-foreground text-[10px] font-medium">
+                            Dimension: {dimensionIdToString(item.dimensionId)} (
+                            {
+                              DIMENSIONS.find(
+                                (d) =>
+                                  d.id ===
+                                  dimensionIdToString(item.dimensionId),
+                              )?.label
+                            }
+                            )
                           </div>
-                          <div className="text-[10px] text-foreground flex items-center justify-between pt-1">
+                          <div className="text-foreground flex items-center justify-between pt-1 text-[10px]">
                             <span>Owner: {item.ownerName}</span>
                             {item.targetDate && (
-                              <span className="text-[8px] text-muted-foreground">Due: {new Date(item.targetDate).toLocaleDateString()}</span>
+                              <span className="text-muted-foreground text-[8px]">
+                                Due:{" "}
+                                {new Date(item.targetDate).toLocaleDateString()}
+                              </span>
                             )}
                           </div>
                         </div>
@@ -1564,7 +2124,6 @@ export default function ReportDetailPage() {
             </div>
           </div>
         )}
-
       </div>
     </div>
   );

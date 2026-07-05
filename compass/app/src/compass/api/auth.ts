@@ -4,16 +4,20 @@
  * Pure functions for API key generation, validation, and Bearer token extraction.
  * Wasp operations that call these functions live in operations.ts.
  */
-import crypto from 'crypto';
+import crypto from "crypto";
 
 // --- Key Generation ---
 
 export function hashApiKey(key: string): string {
-  return crypto.createHash('sha256').update(key).digest('hex');
+  return crypto.createHash("sha256").update(key).digest("hex");
 }
 
-export function generateApiKey(): { rawKey: string; keyHash: string; keyPrefix: string } {
-  const rawKey = `dfva_${crypto.randomBytes(32).toString('hex')}`;
+export function generateApiKey(): {
+  rawKey: string;
+  keyHash: string;
+  keyPrefix: string;
+} {
+  const rawKey = `dfva_${crypto.randomBytes(32).toString("hex")}`;
   const keyHash = hashApiKey(rawKey);
   const keyPrefix = rawKey.slice(0, 11); // "dfva_" + first 6 chars of hex
   return { rawKey, keyHash, keyPrefix };
@@ -32,14 +36,14 @@ export function validateApiKey(
   storedHash: string,
   isActive: boolean,
   institutionId: string,
-  keyId: string
+  keyId: string,
 ): ApiKeyValidationResult {
-  if (!key || !key.startsWith('dfva_')) {
+  if (!key || !key.startsWith("dfva_")) {
     return { valid: false };
   }
   const computedHash = hashApiKey(key);
-  const computedBuf = Buffer.from(computedHash, 'hex');
-  const storedBuf = Buffer.from(storedHash, 'hex');
+  const computedBuf = Buffer.from(computedHash, "hex");
+  const storedBuf = Buffer.from(storedHash, "hex");
   if (
     computedBuf.length !== storedBuf.length ||
     !crypto.timingSafeEqual(computedBuf, storedBuf)
@@ -58,8 +62,10 @@ export function validateApiKey(
  * Extract the API key from an Authorization: Bearer <token> header.
  * Returns null if the header is missing, empty, or not a Bearer token.
  */
-export function extractBearerToken(authHeader: string | undefined): string | null {
-  if (!authHeader || !authHeader.startsWith('Bearer ')) {
+export function extractBearerToken(
+  authHeader: string | undefined,
+): string | null {
+  if (!authHeader || !authHeader.startsWith("Bearer ")) {
     return null;
   }
   return authHeader.slice(7);
@@ -73,8 +79,8 @@ interface TokenBucket {
 }
 
 const buckets = new Map<string, TokenBucket>();
-const MAX_TOKENS = 100;       // 100 requests per minute
-const REFILL_RATE = 1 / 0.6;  // 1 token every 0.6 seconds = 100 tokens/min
+const MAX_TOKENS = 100; // 100 requests per minute
+const REFILL_RATE = 1 / 0.6; // 1 token every 0.6 seconds = 100 tokens/min
 
 /**
  * Check if a request is rate-limited. Returns true if the request is allowed.
@@ -125,12 +131,16 @@ export interface ApiError {
 /**
  * Standardized API error response format.
  */
-export function formatApiError(code: string, message: string, docsUrl?: string): ApiError {
+export function formatApiError(
+  code: string,
+  message: string,
+  docsUrl?: string,
+): ApiError {
   return {
     error: {
       code,
       message,
-      docs_url: docsUrl || '/developers/reference#errors',
+      docs_url: docsUrl || "/developers/reference#errors",
     },
   };
 }

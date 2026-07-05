@@ -61,7 +61,9 @@ export const calculateDailyStats: DailyStatsJob<never, void> = async (
     });
 
     if (!dailyStats) {
-      logger.info("No daily stat found for today, creating one", { job: "dailyStatsJob" });
+      logger.info("No daily stat found for today, creating one", {
+        job: "dailyStatsJob",
+      });
       dailyStats = await context.entities.DailyStats.create({
         data: {
           date: nowUTC,
@@ -75,7 +77,9 @@ export const calculateDailyStats: DailyStatsJob<never, void> = async (
         },
       });
     } else {
-      logger.info("Daily stat found for today, updating it", { job: "dailyStatsJob" });
+      logger.info("Daily stat found for today, updating it", {
+        job: "dailyStatsJob",
+      });
       dailyStats = await context.entities.DailyStats.update({
         where: {
           id: dailyStats.id,
@@ -117,9 +121,14 @@ export const calculateDailyStats: DailyStatsJob<never, void> = async (
       });
     }
 
-    logger.info("Daily stats calculated", { job: "dailyStatsJob", dailyStatsId: dailyStats.id });
+    logger.info("Daily stats calculated", {
+      job: "dailyStatsJob",
+      dailyStatsId: dailyStats.id,
+    });
   } catch (error: any) {
-    logger.error("Error calculating daily stats", error, { job: "dailyStatsJob" });
+    logger.error("Error calculating daily stats", error, {
+      job: "dailyStatsJob",
+    });
     await context.entities.Logs.create({
       data: {
         message: `Error calculating daily stats: ${error?.message}`,

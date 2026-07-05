@@ -39,19 +39,19 @@ export default function ValidationSignalCard({
 
   return (
     <div
-      className="rounded-lg border border-border bg-card p-4 text-sm"
+      className="border-border bg-card rounded-lg border p-4 text-sm"
       aria-label={`Validation from ${source}, credibility ${clampedScore} out of 5`}
     >
-      <div className="flex items-start justify-between gap-2 mb-2">
+      <div className="mb-2 flex items-start justify-between gap-2">
         <div className="min-w-0">
-          <p className="font-semibold text-foreground truncate">{source}</p>
-          <div className="text-xs mt-0.5" aria-hidden="true">
+          <p className="text-foreground truncate font-semibold">{source}</p>
+          <div className="mt-0.5 text-xs" aria-hidden="true">
             {starsDisplay}
           </div>
         </div>
-        <div className="flex items-center gap-2 shrink-0">
+        <div className="flex shrink-0 items-center gap-2">
           {formattedDate && (
-            <span className="text-xs text-muted-foreground">
+            <span className="text-muted-foreground text-xs">
               {formattedDate}
             </span>
           )}
@@ -60,7 +60,7 @@ export default function ValidationSignalCard({
               href={url}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center text-primary hover:underline"
+              className="text-primary inline-flex items-center hover:underline"
               aria-label={`Open ${source} source (external link)`}
             >
               <ExternalLink className="h-3.5 w-3.5" />

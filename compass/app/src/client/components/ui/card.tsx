@@ -9,14 +9,13 @@ const cardVariants = cva(
     variants: {
       variant: {
         default: "bg-card text-card-foreground",
-        accent:
-          "bg-card-accent text-card-accent-foreground hover:scale-[1.02]",
+        accent: "bg-card-accent text-card-accent-foreground hover:scale-[1.02]",
         faded: "text-card-faded-foreground scale-95 opacity-50",
         bento:
           "bg-card-subtle text-card-subtle-foreground hover:scale-[1.02] border-none shadow-none",
       },
     },
-  }
+  },
 );
 
 function Card({
@@ -47,7 +46,7 @@ function CardTitle({ className, ...props }: React.ComponentProps<"h3">) {
   return (
     <h3
       data-slot="card-title"
-      className={cn("font-semibold leading-none tracking-tight", className)}
+      className={cn("leading-none font-semibold tracking-tight", className)}
       {...props}
     />
   );
@@ -65,7 +64,11 @@ function CardDescription({ className, ...props }: React.ComponentProps<"div">) {
 
 function CardContent({ className, ...props }: React.ComponentProps<"div">) {
   return (
-    <div data-slot="card-content" className={cn("p-6 pt-0", className)} {...props} />
+    <div
+      data-slot="card-content"
+      className={cn("p-6 pt-0", className)}
+      {...props}
+    />
   );
 }
 

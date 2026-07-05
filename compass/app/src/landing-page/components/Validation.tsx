@@ -7,7 +7,7 @@ export default function Validation() {
     <section className="bg-muted/30 border-border border-y">
       <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-28">
         <Reveal className="mx-auto max-w-3xl text-center">
-          <p className="text-secondary font-mono text-sm font-medium uppercase tracking-[0.18em]">
+          <p className="text-secondary font-mono text-sm font-medium tracking-[0.18em] uppercase">
             {validation.eyebrow}
           </p>
           <h2 className="text-foreground mt-4 font-serif text-3xl font-semibold tracking-tight sm:text-4xl">
@@ -28,7 +28,7 @@ export default function Validation() {
               <div className="bg-secondary/10 flex h-9 w-9 shrink-0 items-center justify-center rounded-lg">
                 <Users className="text-secondary h-5 w-5" aria-hidden="true" />
               </div>
-              <span className="text-foreground text-sm font-medium leading-snug">
+              <span className="text-foreground text-sm leading-snug font-medium">
                 {role}
               </span>
             </Reveal>

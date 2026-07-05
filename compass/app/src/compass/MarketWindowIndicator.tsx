@@ -8,7 +8,10 @@ export interface MarketWindowIndicatorProps {
   } | null;
 }
 
-const STATUS_STYLES: Record<string, { badge: string; dot: string; label: string }> = {
+const STATUS_STYLES: Record<
+  string,
+  { badge: string; dot: string; label: string }
+> = {
   OPEN: {
     badge: "bg-green-100 text-green-800 border-green-300",
     dot: "bg-green-500",
@@ -71,9 +74,9 @@ export default function MarketWindowIndicator({
   const actions = recommendedActions?.length ? recommendedActions : null;
 
   return (
-    <div className="rounded-lg border border-border bg-card p-4 text-sm">
+    <div className="border-border bg-card rounded-lg border p-4 text-sm">
       {/* Status badge */}
-      <div className="flex items-center gap-2 mb-3">
+      <div className="mb-3 flex items-center gap-2">
         <span
           className={`inline-flex items-center gap-1.5 rounded-full border px-2.5 py-0.5 text-xs font-semibold ${style.badge}`}
         >
@@ -84,7 +87,7 @@ export default function MarketWindowIndicator({
           {style.label}
         </span>
         {updatedAt && (
-          <span className="text-xs text-muted-foreground">
+          <span className="text-muted-foreground text-xs">
             Last assessed: {relativeTime(updatedAt)}
           </span>
         )}
@@ -92,7 +95,7 @@ export default function MarketWindowIndicator({
 
       {/* Urgency text */}
       {urgencyText && (
-        <p className="text-muted-foreground leading-relaxed mb-3">
+        <p className="text-muted-foreground mb-3 leading-relaxed">
           {urgencyText}
         </p>
       )}
@@ -100,10 +103,10 @@ export default function MarketWindowIndicator({
       {/* Key threats */}
       {threats && (
         <div className="mb-3">
-          <p className="text-xs font-semibold text-foreground uppercase tracking-wide mb-1.5">
+          <p className="text-foreground mb-1.5 text-xs font-semibold tracking-wide uppercase">
             Key Threats
           </p>
-          <ul className="list-disc list-inside space-y-1 text-muted-foreground">
+          <ul className="text-muted-foreground list-inside list-disc space-y-1">
             {threats.map((threat, i) => (
               <li key={i}>{threat}</li>
             ))}
@@ -114,10 +117,10 @@ export default function MarketWindowIndicator({
       {/* Recommended actions */}
       {actions && (
         <div>
-          <p className="text-xs font-semibold text-foreground uppercase tracking-wide mb-1.5">
+          <p className="text-foreground mb-1.5 text-xs font-semibold tracking-wide uppercase">
             Recommended Actions
           </p>
-          <ul className="list-disc list-inside space-y-1 text-muted-foreground">
+          <ul className="text-muted-foreground list-inside list-disc space-y-1">
             {actions.map((action, i) => (
               <li key={i}>{action}</li>
             ))}

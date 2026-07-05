@@ -1,6 +1,6 @@
-import { promises as fs, existsSync } from 'node:fs';
-import * as path from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { promises as fs, existsSync } from "node:fs";
+import * as path from "node:path";
+import { fileURLToPath } from "node:url";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -9,9 +9,9 @@ const __dirname = path.dirname(__filename);
 // Resolved from the Wasp SDK output dir or the source dir depending on runtime.
 const CACHE_DIR = (() => {
   // Try source dir first (tsx, Node direct)
-  const srcDir = path.resolve(__dirname, '../../.handbook-cache');
+  const srcDir = path.resolve(__dirname, "../../.handbook-cache");
   // Fall back to Wasp SDK output dir
-  const sdkDir = path.resolve(__dirname, '../../../../../.handbook-cache');
+  const sdkDir = path.resolve(__dirname, "../../../../../.handbook-cache");
   return existsSync(srcDir) ? srcDir : sdkDir;
 })();
 
@@ -28,7 +28,7 @@ export class HandbookCache {
   }
 
   private cacheKey(url: string): string {
-    return Buffer.from(url).toString('base64').replace(/[/+=]/g, '_');
+    return Buffer.from(url).toString("base64").replace(/[/+=]/g, "_");
   }
 
   async get(url: string): Promise<CacheEntry | null> {
@@ -36,7 +36,7 @@ export class HandbookCache {
     const key = this.cacheKey(url);
     const filePath = path.join(CACHE_DIR, `${key}.json`);
     try {
-      const raw = await fs.readFile(filePath, 'utf8');
+      const raw = await fs.readFile(filePath, "utf8");
       return JSON.parse(raw) as CacheEntry;
     } catch {
       return null;
@@ -46,11 +46,16 @@ export class HandbookCache {
   async set(url: string, content: string, title: string): Promise<void> {
     await this.ensureDir();
     const key = this.cacheKey(url);
-    const entry: CacheEntry = { url, content, title, fetchedAt: new Date().toISOString() };
+    const entry: CacheEntry = {
+      url,
+      content,
+      title,
+      fetchedAt: new Date().toISOString(),
+    };
     await fs.writeFile(
       path.join(CACHE_DIR, `${key}.json`),
       JSON.stringify(entry, null, 2),
-      'utf8'
+      "utf8",
     );
   }
 
@@ -64,9 +69,9 @@ export class HandbookCache {
     const cutoff = Date.now() - maxAgeDays * 86400000;
     let pruned = 0;
     for (const file of files) {
-      if (!file.endsWith('.json')) continue;
+      if (!file.endsWith(".json")) continue;
       const entry = JSON.parse(
-        await fs.readFile(path.join(CACHE_DIR, file), 'utf8')
+        await fs.readFile(path.join(CACHE_DIR, file), "utf8"),
       ) as CacheEntry;
       if (new Date(entry.fetchedAt).getTime() < cutoff) {
         await fs.unlink(path.join(CACHE_DIR, file));

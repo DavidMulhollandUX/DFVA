@@ -5,7 +5,7 @@ export default function HowItWorks() {
   return (
     <section className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-28">
       <Reveal className="mx-auto max-w-3xl text-center">
-        <p className="text-secondary font-mono text-sm font-medium uppercase tracking-[0.18em]">
+        <p className="text-secondary font-mono text-sm font-medium tracking-[0.18em] uppercase">
           {howItWorks.eyebrow}
         </p>
         <h2 className="text-foreground mt-4 font-serif text-3xl font-semibold tracking-tight sm:text-4xl">
@@ -22,7 +22,7 @@ export default function HowItWorks() {
               delay={i * 80}
               className="bg-card border-border relative rounded-2xl border p-7"
             >
-              <span className="text-muted-foreground/60 absolute right-6 top-6 font-mono text-sm tabular-nums">
+              <span className="text-muted-foreground/60 absolute top-6 right-6 font-mono text-sm tabular-nums">
                 0{i + 1}
               </span>
               <div className="bg-secondary/10 flex h-12 w-12 items-center justify-center rounded-xl">

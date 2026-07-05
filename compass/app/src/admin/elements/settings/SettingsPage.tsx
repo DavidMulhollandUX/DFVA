@@ -23,7 +23,7 @@ const SettingsPage = ({ user }: { user: AuthUser }) => {
 
   return (
     <DefaultLayout user={user}>
-      <div className="max-w-270 mx-auto">
+      <div className="mx-auto max-w-270">
         <Breadcrumb pageName="Settings" />
 
         <div className="grid grid-cols-5 gap-8">
@@ -34,7 +34,7 @@ const SettingsPage = ({ user }: { user: AuthUser }) => {
               </CardHeader>
               <CardContent>
                 <form onSubmit={handleSubmit}>
-                  <div className="mb-5.5 gap-5.5 flex flex-col sm:flex-row">
+                  <div className="mb-5.5 flex flex-col gap-5.5 sm:flex-row">
                     <div className="w-full sm:w-1/2">
                       <Label
                         htmlFor="full-name"
@@ -43,7 +43,7 @@ const SettingsPage = ({ user }: { user: AuthUser }) => {
                         Full Name
                       </Label>
                       <div className="relative">
-                        <User className="left-4.5 text-muted-foreground absolute top-2 h-5 w-5" />
+                        <User className="text-muted-foreground absolute top-2 left-4.5 h-5 w-5" />
                         <Input
                           className="pl-11.5"
                           type="text"
@@ -80,7 +80,7 @@ const SettingsPage = ({ user }: { user: AuthUser }) => {
                       Email Address
                     </Label>
                     <div className="relative">
-                      <Mail className="left-4.5 text-muted-foreground absolute top-2 h-5 w-5" />
+                      <Mail className="text-muted-foreground absolute top-2 left-4.5 h-5 w-5" />
                       <Input
                         className="pl-11.5"
                         type="email"
@@ -116,9 +116,9 @@ const SettingsPage = ({ user }: { user: AuthUser }) => {
                       BIO
                     </Label>
                     <div className="relative">
-                      <FileText className="left-4.5 text-muted-foreground absolute top-4 h-5 w-5" />
+                      <FileText className="text-muted-foreground absolute top-4 left-4.5 h-5 w-5" />
                       <Textarea
-                        className="border-border bg-background pl-11.5 pr-4.5 text-foreground focus:border-primary w-full rounded border py-3 focus-visible:outline-hidden"
+                        className="border-border bg-background text-foreground focus:border-primary w-full rounded border py-3 pr-4.5 pl-11.5 focus-visible:outline-hidden"
                         name="bio"
                         id="bio"
                         rows={6}
@@ -128,7 +128,7 @@ const SettingsPage = ({ user }: { user: AuthUser }) => {
                     </div>
                   </div>
 
-                  <div className="gap-4.5 flex justify-end">
+                  <div className="flex justify-end gap-4.5">
                     <Button variant="outline" type="submit">
                       Cancel
                     </Button>
@@ -166,7 +166,7 @@ const SettingsPage = ({ user }: { user: AuthUser }) => {
 
                   <div
                     id="FileUpload"
-                    className="mb-5.5 border-primary bg-background sm:py-7.5 relative block w-full cursor-pointer appearance-none rounded border-2 border-dashed px-4 py-4"
+                    className="border-primary bg-background relative mb-5.5 block w-full cursor-pointer appearance-none rounded border-2 border-dashed px-4 py-4 sm:py-7.5"
                   >
                     <input
                       type="file"
@@ -186,7 +186,7 @@ const SettingsPage = ({ user }: { user: AuthUser }) => {
                     </div>
                   </div>
 
-                  <div className="gap-4.5 flex justify-end">
+                  <div className="flex justify-end gap-4.5">
                     <Button variant="outline" type="submit">
                       Cancel
                     </Button>

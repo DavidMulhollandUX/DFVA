@@ -12,13 +12,27 @@ export const SubjectSchema = z.object({
   level: z.number().min(1).max(9).describe("Subject level (1-9)"),
   creditPoints: z.number().positive().describe("Credit point value"),
   type: z
-    .enum(["core", "elective", "capstone", "research", "breadth", "major_core", "major_elective"])
+    .enum([
+      "core",
+      "elective",
+      "capstone",
+      "research",
+      "breadth",
+      "major_core",
+      "major_elective",
+    ])
     .describe("Subject role in the degree"),
-  prerequisites: z.array(z.string()).default([]).describe("Prerequisite subject codes"),
+  prerequisites: z
+    .array(z.string())
+    .default([])
+    .describe("Prerequisite subject codes"),
   isCompulsory: z.boolean().default(true),
   isResearch: z.boolean().default(false),
   isCapstone: z.boolean().default(false),
-  hasAIRelevance: z.boolean().optional().describe("Whether the subject has AI-relevant content"),
+  hasAIRelevance: z
+    .boolean()
+    .optional()
+    .describe("Whether the subject has AI-relevant content"),
   semesterAvailability: z
     .array(z.enum(["Sem1", "Sem2", "Summer", "Winter"]))
     .default(["Sem1", "Sem2"]),
@@ -33,9 +47,18 @@ export const SubjectSchema = z.object({
 export const StreamSchema = z.object({
   name: z.string().describe("Stream/major/specialisation name"),
   subjects: z.array(z.string()).describe("Subject codes in this stream"),
-  capstoneSubject: z.string().optional().describe("Capstone subject for this stream"),
-  researchSubjects: z.array(z.string()).default([]).describe("Research-intensive subjects in this stream"),
-  creditPoints: z.number().positive().describe("Total credit points for this stream"),
+  capstoneSubject: z
+    .string()
+    .optional()
+    .describe("Capstone subject for this stream"),
+  researchSubjects: z
+    .array(z.string())
+    .default([])
+    .describe("Research-intensive subjects in this stream"),
+  creditPoints: z
+    .number()
+    .positive()
+    .describe("Total credit points for this stream"),
   isCompulsory: z.boolean().default(true),
 });
 
@@ -46,9 +69,21 @@ export const CreditStructureSchema = z.object({
   total: z.number().positive().describe("Total credit points for the degree"),
   core: z.number().min(0).describe("Credit points from core subjects"),
   elective: z.number().min(0).describe("Credit points from elective subjects"),
-  breadth: z.number().min(0).default(0).describe("Credit points from breadth subjects"),
-  research: z.number().min(0).default(0).describe("Credit points from research components"),
-  capstone: z.number().min(0).default(0).describe("Credit points from capstone subjects"),
+  breadth: z
+    .number()
+    .min(0)
+    .default(0)
+    .describe("Credit points from breadth subjects"),
+  research: z
+    .number()
+    .min(0)
+    .default(0)
+    .describe("Credit points from research components"),
+  capstone: z
+    .number()
+    .min(0)
+    .default(0)
+    .describe("Credit points from capstone subjects"),
 });
 
 /**
@@ -57,7 +92,9 @@ export const CreditStructureSchema = z.object({
 export const PrerequisiteSchema = z.object({
   subject: z.string().describe("Subject code that has the prerequisite"),
   requires: z.string().describe("Subject code that is required"),
-  type: z.enum(["prerequisite", "corequisite", "recommended"]).default("prerequisite"),
+  type: z
+    .enum(["prerequisite", "corequisite", "recommended"])
+    .default("prerequisite"),
 });
 
 /**
@@ -88,9 +125,18 @@ export const SyllabusSnapshotSchema = z.object({
   year: z.number().int().min(2020).max(2030).describe("Handbook year"),
   totalCreditPoints: z.number().positive(),
   creditStructure: CreditStructureSchema,
-  subjects: z.array(SubjectSchema).min(1).describe("All subjects in the degree"),
-  streams: z.array(StreamSchema).default([]).describe("Named streams/majors/specialisations"),
-  prerequisites: z.array(PrerequisiteSchema).default([]).describe("Prerequisite relationships"),
+  subjects: z
+    .array(SubjectSchema)
+    .min(1)
+    .describe("All subjects in the degree"),
+  streams: z
+    .array(StreamSchema)
+    .default([])
+    .describe("Named streams/majors/specialisations"),
+  prerequisites: z
+    .array(PrerequisiteSchema)
+    .default([])
+    .describe("Prerequisite relationships"),
   researchComponent: z.object({
     required: z.boolean(),
     minCreditPoints: z.number().min(0),
@@ -99,7 +145,10 @@ export const SyllabusSnapshotSchema = z.object({
   }),
   aiRelevantSubjects: z.number().min(0).default(0),
   handbookUrl: z.string().url().optional(),
-  extractedAt: z.string().optional().describe("ISO date when syllabus was extracted"),
+  extractedAt: z
+    .string()
+    .optional()
+    .describe("ISO date when syllabus was extracted"),
 });
 
 // ---- Inferred TypeScript types ----
@@ -116,7 +165,9 @@ export type SyllabusSnapshot = z.infer<typeof SyllabusSnapshotSchema>;
  * Validate a syllabus JSON object against the schema.
  * Returns { success: true, data } or { success: false, errors }.
  */
-export function validateSyllabus(data: unknown):
+export function validateSyllabus(
+  data: unknown,
+):
   | { success: true; data: SyllabusSnapshot }
   | { success: false; errors: string[] } {
   const result = SyllabusSnapshotSchema.safeParse(data);
@@ -126,7 +177,7 @@ export function validateSyllabus(data: unknown):
   return {
     success: false,
     errors: result.error.issues.map(
-      (i) => `[${i.path.join(".")}] ${i.message}`
+      (i) => `[${i.path.join(".")}] ${i.message}`,
     ),
   };
 }

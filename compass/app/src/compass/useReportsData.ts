@@ -1,14 +1,18 @@
-import { useMemo, useEffect, useState } from 'react';
-import { useQuery } from 'wasp/client/operations';
-import { getAssessmentJobs } from 'wasp/client/operations';
-import { useAuth } from 'wasp/client/auth';
-import { PROGRAMS, CACHE_VERSION, type ProgramReport } from './sharedProgramData';
-import { jobToReport } from './jobToReport';
+import { useMemo, useEffect, useState } from "react";
+import { useQuery } from "wasp/client/operations";
+import { getAssessmentJobs } from "wasp/client/operations";
+import { useAuth } from "wasp/client/auth";
+import {
+  PROGRAMS,
+  CACHE_VERSION,
+  type ProgramReport,
+} from "./sharedProgramData";
+import { jobToReport } from "./jobToReport";
 
 // In-memory cache to prevent any loading state on tab/route switching
 let memoryCache: ProgramReport[] | null = null;
 
-const LS_KEY = 'compass:reports_cache';
+const LS_KEY = "compass:reports_cache";
 
 /** Read localStorage cache, validating version. Returns null if stale/missing. */
 function readCache(): ProgramReport[] | null {
@@ -16,7 +20,8 @@ function readCache(): ProgramReport[] | null {
     const raw = localStorage.getItem(LS_KEY);
     if (!raw) return null;
     const { v, reports } = JSON.parse(raw);
-    if (v !== CACHE_VERSION || !Array.isArray(reports) || reports.length === 0) return null;
+    if (v !== CACHE_VERSION || !Array.isArray(reports) || reports.length === 0)
+      return null;
     return reports;
   } catch {
     return null;
@@ -26,7 +31,9 @@ function readCache(): ProgramReport[] | null {
 function writeCache(reports: ProgramReport[]) {
   try {
     localStorage.setItem(LS_KEY, JSON.stringify({ v: CACHE_VERSION, reports }));
-  } catch { /* quota exceeded — non-critical */ }
+  } catch {
+    /* quota exceeded — non-critical */
+  }
 }
 
 /**
@@ -40,14 +47,18 @@ export function useReportsData(): {
   isLoading: boolean;
 } {
   const { data: user, isLoading: isUserLoading } = useAuth();
-  
-  const { data: jobs = [], isLoading: isJobsLoading } = useQuery(getAssessmentJobs, undefined, {
-    enabled: !!user,
-    staleTime: 5 * 60 * 1000,
-    cacheTime: 15 * 60 * 1000,
-    refetchOnWindowFocus: false,
-    refetchOnMount: false,
-  });
+
+  const { data: jobs = [], isLoading: isJobsLoading } = useQuery(
+    getAssessmentJobs,
+    undefined,
+    {
+      enabled: !!user,
+      staleTime: 5 * 60 * 1000,
+      cacheTime: 15 * 60 * 1000,
+      refetchOnWindowFocus: false,
+      refetchOnMount: false,
+    },
+  );
 
   // Init from memory → localStorage (version-checked) → PROGRAMS fallback
   const [cachedReports, setCachedReports] = useState<ProgramReport[]>(() => {
@@ -64,7 +75,7 @@ export function useReportsData(): {
     const fromDb: ProgramReport[] = [];
     const dbSlugs = new Set<string>();
     for (const j of jobs as any[]) {
-      if (j.status !== 'complete' || !j.reportJson) continue;
+      if (j.status !== "complete" || !j.reportJson) continue;
       const r = jobToReport(j);
       if (dbSlugs.has(r.assessmentSlug)) continue;
       dbSlugs.add(r.assessmentSlug);
@@ -73,7 +84,7 @@ export function useReportsData(): {
 
     return [
       ...fromDb,
-      ...PROGRAMS.filter(p => !dbSlugs.has(p.assessmentSlug)),
+      ...PROGRAMS.filter((p) => !dbSlugs.has(p.assessmentSlug)),
     ];
   }, [jobs]);
 
@@ -89,8 +100,8 @@ export function useReportsData(): {
   const hasData = cachedReports.length > 0;
   const isLoading = (isUserLoading || (!!user && isJobsLoading)) && !hasData;
 
-  return { 
-    reports: hasData ? cachedReports : mergedReports, 
-    isLoading 
+  return {
+    reports: hasData ? cachedReports : mergedReports,
+    isLoading,
   };
 }
