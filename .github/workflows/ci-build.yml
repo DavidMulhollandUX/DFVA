@@ -83,9 +83,14 @@ jobs:
           AWS_S3_IAM_SECRET_KEY=dummy
           AWS_S3_FILES_BUCKET=dummy-bucket
           EOF
-      # wasp test must run BEFORE prettier: the app's package.json depends on
-      # "wasp": "file:.wasp/out/sdk/wasp", which only exists after wasp compiles.
-      # A bare npm ci first leaves node_modules without the wasp SDK link.
+      # Two-pass: locally 'wasp/server' resolves via a node_modules/wasp symlink
+      # that dev runs create; a fresh checkout has no .wasp/out yet, so the
+      # first invocation generates the SDK (its vitest pass fails on the two
+      # test files importing wasp/server), then we create the symlink and rerun.
+      - name: Generate Wasp SDK (first pass)
+        run: wasp test client run || true
+      - name: Link wasp SDK into node_modules
+        run: ln -sfn ../.wasp/out/sdk/wasp node_modules/wasp
       - name: Run unit tests
         run: wasp test client run
       - name: Prettier check
