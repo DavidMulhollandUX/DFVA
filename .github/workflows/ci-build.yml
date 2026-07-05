@@ -54,12 +54,13 @@ jobs:
           node-version: '22'
       - name: Install Wasp 0.22.0
         run: npm install -g @wasp.sh/wasp-cli@0.22.0 @wasp.sh/wasp-cli-linux-x64-glibc@0.22.0
-      - name: Prettier check
-        run: |
-          npm ci || npm install
-          npx prettier --check src/
+      # wasp test must run BEFORE prettier: the app's package.json depends on
+      # "wasp": "file:.wasp/out/sdk/wasp", which only exists after wasp compiles.
+      # A bare npm ci first leaves node_modules without the wasp SDK link.
       - name: Run unit tests
         run: wasp test client run
+      - name: Prettier check
+        run: npx prettier --check src/
 
   mcp:
     # Type-check + unit tests for the dfva MCP server (previously never in CI —
