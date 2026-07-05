@@ -30,6 +30,11 @@ jobs:
       - name: Install Wasp 0.24.0
         run: npm install -g @wasp.sh/wasp-cli@0.24.0 @wasp.sh/wasp-cli-linux-x64-glibc@0.24.0
 
+      # Since 0.24, `wasp build` no longer installs dependencies itself and the
+      # generated file:.wasp/spec package must exist first.
+      - name: Install dependencies (via wasp)
+        run: wasp install
+
       # main.wasp.ts keeps `provider: "Dummy"` for local dev, which Wasp rejects
       # in a production build. Flip to SMTP just for the CI compile (no secrets
       # needed to *build*), matching what deploy-server.sh does at deploy time.
