@@ -12,20 +12,11 @@ permissions:
 
 jobs:
   playwright:
+    # No postgres service and no migrate step here: the Playwright webServer
+    # (@wasp.sh/wasp-app-runner) starts its own postgres container on 5432,
+    # runs `wasp db migrate-dev`, then `wasp start`. A workflow-level postgres
+    # service collides with it (port 5432 already allocated).
     runs-on: ubuntu-latest
-    services:
-      postgres:
-        image: postgres:16
-        env:
-          POSTGRES_USER: postgres
-          POSTGRES_PASSWORD: postgres
-          POSTGRES_DB: dfva_e2e
-        ports: ['5432:5432']
-        options: >-
-          --health-cmd pg_isready
-          --health-interval 5s
-          --health-timeout 5s
-          --health-retries 10
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
       - name: Set up Node
@@ -37,11 +28,11 @@ jobs:
 
       # Mirrors the local dev .env.server: DFVA_MOCK short-circuits the LLM
       # pipeline, payment/S3 keys are dummies (validated for presence only).
+      # No DATABASE_URL — the app-runner injects its own container's URL.
       - name: Create .env.server (mock mode)
         working-directory: compass/app
         run: |
           cat > .env.server <<'EOF'
-          DATABASE_URL=postgresql://postgres:postgres@localhost:5432/dfva_e2e
           DFVA_MOCK=true
           OPENAI_API_KEY=sk-dummy-ci
           STRIPE_API_KEY=sk_test_dummy
@@ -52,12 +43,6 @@ jobs:
           AWS_S3_FILES_BUCKET=dummy-bucket
           SKIP_EMAIL_VERIFICATION_IN_DEV=true
           EOF
-
-      - name: Apply migrations
-        working-directory: compass/app
-        # prisma version pinned to the app's dependency — an unpinned npx pulls
-        # latest (7.x), which rejects Prisma-5 schema files (P1012).
-        run: DATABASE_URL=postgresql://postgres:postgres@localhost:5432/dfva_e2e npx prisma@5.19.1 migrate deploy --schema schema.prisma
 
       - name: Install e2e dependencies
         working-directory: compass/e2e-tests
