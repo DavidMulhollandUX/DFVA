@@ -1,0 +1,144 @@
+// Auto-generated from reports/*.md by scripts/dfva-content-generate.ts — do not edit by hand.
+// Run: npm --prefix scripts run dfva:gen-content
+const content = {
+  title: "Master of TESOL (MC-TESOL) — DFVA Assessment",
+  institution: "University of Melbourne",
+  markdown: `## DFVA REPORT: Master of TESOL (MC-TESOL)
+
+**Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 credit points)
+
+**Assessment date:** 2026-06-09
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-tesol
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 + DFVA-COPILOT-MARKET-v1
+
+### 1. PROGRAM PROFILE
+
+The Master of TESOL (Teaching English to Speakers of Other Languages) at the University of Melbourne prepares graduates to teach English as an additional language in Australian and international school and adult education contexts. The 200-credit-point program meets VIT (Victorian Institute of Teaching) requirements for EAL teacher registration when completed with the specialist EAL pathway.
+
+The program includes 22 days of supervised teaching placement, a research-based capstone, and coursework in *Language Acquisition*, *Curriculum Design*, *Language Assessment*, *Education Research Methodology*, and *Multilingual Practices*. The *Foundations: Digital Futures* elective touches digital literacy. A 50-point research pathway is available.
+
+Typical graduate roles include EAL/D classroom teacher, AMEP (Adult Migrant English Program) teacher, international school ESL teacher, language curriculum developer, and education administrator.
+
+### 2. AUTOMATION EXPOSURE PROFILE
+
+| Year | Typical Tasks | Automation Risk |
+|---|---|---|
+| Year 1–2 (graduate) | EAL classroom teacher, AMEP instructor, tutorial support — lesson planning, delivery, assessment, student relationship management | **MEDIUM** — Physical classroom presence and relational teaching cannot be automated; AI tutoring supplements but does not replace human teachers in most contexts |
+| Year 3–5 | Senior teacher, head of EAL department, curriculum coordinator — professional judgment and leadership | **LOW–MEDIUM** — Teaching leadership requires relational and contextual intelligence |
+| Year 5+ | Curriculum designer, teacher educator, education advisor | **LOW** — Expert knowledge design and professional mentoring are human-intensive |
+
+**Structural tailwind:** Australia has a documented teacher shortage across multiple subject areas including EAL. This structural demand provides employment protection that is independent of AI disruption. Government employment (schools) also provides institutional stability that the private sector cannot guarantee.
+
+### 3. MARKET EVIDENCE SNAPSHOT
+
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| English Language Teaching (EAL/D, ELICOS) | Sustained ELICOS teacher demand in VIC, NSW, QLD; EAL/D demand elevated in Victorian government schools | "AI as a teaching partner, not a replacement — AI literacy is a teacher competency" | Add "AI in Language Education" module: prompt engineering, bias evaluation, integrating AI pronunciation/grammar tools |
+| ELICOS Programme Coordination | Elevated vacancy rates for coordinators/Directors of Studies in Melbourne and Sydney; NEAS/CRICOS familiarity non-negotiable | "ELICOS regulatory pressure (CRICOS, NEAS, ESOS) after post-COVID TEQSA audits" | Teach ELICOS regulatory frameworks (ESOS Act, NEAS, CRICOS) within program-management subjects |
+| Curriculum & Materials Design | "Learning Designer" roles increasingly list AI-tool and digital-authoring proficiency (Canva, ChatGPT, Articulate) | "The ethical-AI gap — evaluating AI content for cultural and pedagogical appropriateness" | Require a digital artefact (H5P, Articulate) not just a print syllabus |
+| Language Program Management | University English centres and colleges rebuilding management layers post-COVID | "Data-driven quality management and commercial awareness alongside pedagogical leadership" | Embed enrolment data analytics and change management into leadership units |
+| Education Consulting & Pathway Advising | IDP/Navitas actively hiring consultants; international-student recovery toward the cap | "Relationship-intensive counselling AI cannot replace" | Strengthen cross-cultural communication and ESOS Act literacy |
+| Online & Blended ELT | Rapid growth in online ESL postings; platform roles (iTalki, Preply) expanding | "Pronunciation technology handles segmental feedback but not the human dimensions" | Build synchronous facilitation and learner-analytics literacy |
+
+### 4. DFVA SCORECARD
+
+| # | Dimension | Score (0-3) | Evidence-based rationale |
+|---|---|---:|---|
+| 1 | Automation Exposure of Roles | 1 | Language teaching faces AI disruption from real-time translation and AI tutoring systems. TESOL demand in some contexts may structurally change as AI language tools improve. |
+| 2 | Systems Thinking and Problem Framing | 2 | Curriculum design, language acquisition theory, and education policy integration require systemic perspective on how language learning works across contexts. |
+| 3 | Technical and Quantitative Depth | 1 | Pedagogy-focused, not quantitative. Linguistics and grammar technical but not statistical or computational depth. |
+| 4 | Decision-Making Under Uncertainty | 2 | 22-day supervised placement requires real classroom decisions with genuine accountability. Capstone inquiry project involves defended methodological choices. |
+| 5 | AI Literacy and Governance | 1 | Foundations: Digital Futures elective available. No AI-in-language-teaching content visible — a significant gap given AI tutoring and translation tools. |
+| 6 | Domain Depth and Specialisation | 2 | 200pt EAL specialisation pathway with VIT eligibility. Strong TESOL identity but broad foundation requirements dilute depth. |
+| 7 | Research Methods Rigour | 2 | Research pathway available (50pt). Education Research Methodology taught. Capstone is research-based inquiry. |
+| 8 | Human and Relational Capability | 3 | Classroom teaching, supervised placement (22 days), multilingual practices — fundamentally human-relational profession requiring presence, responsiveness, and interpersonal skill. |
+| 9 | Curriculum Currency and Adaptability | 2 | Updated March 2026. Contemporary TESOL pedagogy. Digital Futures foundation shows some digital awareness but limited AI integration. |
+| 10 | Graduate Outcome Evidence | 3 | Teaching salaries and employment conditions well-documented. Teacher shortage in Australia provides structural employment protection. |
+| B | Irreplaceability Premium (Bonus) | 2 | Human teaching presence, relational pedagogy, and classroom management are not yet automatable. But AI language tutoring is improving rapidly. |
+
+**TOTAL: 21 / 36**
+**Risk band: MODERATE RISK (20-27)**
+
+### 5. THREE THRESHOLD QUESTIONS
+
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?
+  **YES** — The early-career output for Master of TESOL graduates is substantially templated: research, analysis, and document production are in AI's wheelhouse. Classroom presence and relational teaching are not.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?
+  **UNCERTAIN** — Partial capability exists. Studio, capstone, or professional placement elements push toward decision ownership, but the standard curriculum track does not guarantee it.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?
+  **UNCERTAIN** — Depends significantly on individual specialisation choices, elective selection, and whether the industry adapts faster than AI tools disrupt it.
+
+### 6. ANALOGUE GRADUATE PROFILE
+
+The most exposed TESOL graduate is the **Online English Language Tutor of 2021**: providing one-on-one English language coaching via video platform to international students — a role being aggressively automated by AI language tutoring systems (Duolingo Max, Elsa Speak, Khanmigo).
+
+Specific threats:
+- **Duolingo Max / ChatGPT language tutoring** — on-demand AI language practice available 24/7, compressing demand for paid tutoring
+- **AI writing feedback tools (Grammarly, QuillBot, Hemingway AI)** — replacing some writing correction and feedback work
+- **AI conversation practice systems (ELSA Speak, Speechify)** — pronunciation and fluency coaching
+- **AI-generated lesson plans and materials** — reducing curriculum development time but also skill premium
+
+### 7. VERDICT
+
+The Master of TESOL is **MODERATE RISK (21/36)** — a degree with structural employment protection in Australia that faces uncertain AI disruption medium-term. In the near term, graduates entering Australian school and adult education employment are well-protected: teacher shortages, VIT registration requirements, and the genuine irreplaceability of classroom human presence provide real insulation. The medium-term uncertainty is real, and the curriculum gap in AI literacy (D5: 1/3) is significant — a TESOL graduate who cannot evaluate and govern AI language tools in their classroom is missing a rapidly growing professional competency.
+
+### 8. RECOMMENDATIONS
+
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Develop AI language-tool literacy deliberately — understand how AI tutoring systems work, their limitations, and how to use them as pedagogical complements rather than competitors | D5 | AI-tool literacy now appearing in 15–20% of ELT job descriptions | Low |
+| P2 | Complete the supervised placement in a diverse school context — classroom experience in high-need EAL settings is the most defensible graduate credential | D4, D8 | EAL/D teacher demand in Victorian government schools remains elevated | High (built-in) |
+| P3 | Target Australian school employment where VIT registration provides genuine protection — private tutoring and online markets are more AI-disrupted | D1 | Online/platform ELT roles under medium-high AI substitution pressure | Low |
+| P4 | Build assessment design skills — valid language assessment is technically complex and difficult to automate well | D3, D7 | Digital assessment design and learning-analytics interpretation rising fast | Medium |
+| P5 | Develop specialisation in needs-specific populations and Language for Specific Purposes (workplace, healthcare, legal English) where relational complexity is highest | D6, D8 | LSP specialists described as "rare and in demand" | Medium |
+
+### 9. THE REDESIGNED GRADUATE PROFILE
+
+The 2027-ready TESOL graduate is not an English content deliverer — they are a **language acquisition specialist who understands how humans learn language** and can design learning experiences that AI tools cannot.
+
+They know language acquisition theory at the mechanism level — they understand what conditions support acquisition, why comprehensible input matters, how anxiety affects language production, and what the research says about corrective feedback. This knowledge is what separates a professional teacher from a tool that generates exercises.
+
+They have done 22 days of supervised teaching and come away with a real classroom portfolio: not just lesson plans but evidence of student progress, feedback from mentors, and a reflective analysis of what worked and why. They use AI language tools as a complement to their teaching: they know which AI pronunciation tools are accurate for which language backgrounds, which AI writing tools produce appropriate feedback for which levels, and where AI tools mislead students. That AI-literacy layer, combined with their human-presence and relational capability, is what makes them a professional rather than an interface.
+
+### 10. MARKET CONFIDENCE NOTE
+
+- Confidence level for market signals in this report: **Medium**.
+- Market evidence integrates QILT GOS field-of-study outcomes with directional synthesis of ELICOS/EAL sector hiring patterns and current TESOL professional discussion of AI in practice.
+- For high-stakes curriculum decisions, add a live ANZ job-ad scrape (last 90 days) across ELICOS, EAL/D, curriculum design and consulting roles, plus program-level graduate destination data at role-title granularity.
+
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Education |
+| Full-time employment (4-6mo) | 89.9% (GOS 2024) |
+| Median starting salary | $96,000 |
+| Employment (3yr) | 89.9% |
+| Occupation demand | SHORTAGE |
+| AI automation exposure | 15% |
+| Sources | QILT GOS 2024 National Report Tables, JSA Skills Priority List 2025 |
+
+---
+
+<!-- LABOUR-EVIDENCE:START -->
+### REAL GRADUATE DESTINATIONS (JSA HEO · QILT · Adzuna)
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Primary School Teacher (39%), Secondary School Teacher (27%), School Teachers nfd (4%), Early Childhood (Pre-primary School) Teacher (4%), Child Care Worker (3%) |
+| Early (~3yr) | Primary School Teacher (41%), Secondary School Teacher (29%), Early Childhood (Pre-primary School) Teacher (4%), School Teachers nfd (4%), Child Care Worker (2%) |
+| Senior (~5yr) | Primary School Teacher (42%), Secondary School Teacher (29%), Early Childhood (Pre-primary School) Teacher (4%), School Teachers nfd (3%), Middle School Teacher (Aus) \\ Intermediate School Teacher (NZ) (2%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 90% full-time employment · median salary $96,000 · 3-year employment 96% · JSA occupation demand: **Shortage**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): anzuk Education, Tradewind Australia, Randstad Education, Catholic Education Diocese of Bathurst, Catholic Education South Australia (CESA), Sydney Catholic Schools, NSW Department of Education, Department of Education Victoria, Goodstart Early Learning, Anglican Church Grammar School (Churchie), Hume Anglican Grammar, St Luke's Grammar School. Advertised salary A$79.6k–130k.
+
+**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
+
+*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
+<!-- LABOUR-EVIDENCE:END -->
+`,
+};
+
+export default content;

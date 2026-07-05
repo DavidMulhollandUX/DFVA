@@ -1,0 +1,113 @@
+// Auto-generated from reports/*.md by scripts/dfva-content-generate.ts — do not edit by hand.
+// Run: npm --prefix scripts run dfva:gen-content
+const content = {
+  title: "Doctor of Philosophy - Medicine, Dentistry and Health Sciences (DR-PHILMDH) — DFVA Assessment",
+  institution: "University of Melbourne",
+  markdown: `## DFVA REPORT: Doctor of Philosophy - Medicine, Dentistry and Health Sciences (DR-PHILMDH)
+**Institution:** University of Melbourne | **Level:** Graduate Research, AQF Level 10 | **Duration:** 4 years full-time, or equivalent part-time
+
+**Assessment date:** 2026-07-02  
+**Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/dr-philmdh  
+**Prompt version:** DFVA-COPILOT-PROMPT-v1 + DFVA-COPILOT-MARKET-v1
+
+### 1. PROGRAM PROFILE
+The Doctor of Philosophy – Medicine, Dentistry and Health Sciences is the flagship biomedical and clinical research doctorate of the Faculty of Medicine, Dentistry and Health Sciences (MDHS), offered across eleven schools and research institutes: Melbourne Medical School, School of Biomedical Sciences, School of Health Sciences, Melbourne Dental School, Melbourne School of Psychological Sciences, Melbourne School of Population and Global Health, Medical Biology (Walter and Eliza Hall Institute), Sir Peter MacCallum Department of Oncology, Florey Department of Neuroscience and Mental Health, Centre for Youth Mental Health, and Medical Bionics Department. Candidates undertake independent, supervised, original research culminating in a thesis, typically spanning wet-lab biomedical science, clinical/translational research, population health, dental science, psychological science, oncology, neuroscience, or bionics engineering, depending on the enrolling school.
+
+Structurally the program follows the standard Melbourne PhD model: a confirmation milestone (usually 9-12 months in), an annual progress review process, generation of primary data (experimental, clinical, epidemiological, or computational depending on discipline), and a final thesis examined by external examiners, sometimes supplemented by an oral defence depending on the discipline norm. Candidates are embedded in an active research group or laboratory led by a primary supervisor (often a chair-holding professor or institute group leader), with a co-supervision panel spanning methodological and clinical/translational expertise.
+
+Graduates typically pursue postdoctoral research fellowships (academic medicine, biomedical science), clinician-researcher hybrid roles (for candidates who are already MBBS/BDS/allied-health qualified), biotech/pharma R&D scientist roles, medical/scientific affairs positions, health policy and population-health analyst roles, or research-institute staff scientist positions at organisations such as WEHI, Peter Mac, the Florey, the Doherty Institute, and international equivalents. A meaningful share go on to principal investigator career tracks; others move into biotech industry, regulatory science, or health-system leadership.
+
+### 2. AUTOMATION EXPOSURE PROFILE
+
+| Task Category | Example Graduate Tasks | AI Pressure | AI Capability Today | Durability Rationale |
+|---|---|---|---|---|
+| Literature synthesis & background writing | Systematic reviews, grant background sections, thesis lit reviews | HIGH | AI literature-summarisation tools (Elicit, Consensus, SciSpace) already approach postgrad quality for synthesis-only tasks | Durable only when paired with critical appraisal and novel hypothesis generation — pure synthesis is now commoditised |
+| Experimental design & hypothesis generation | Designing wet-lab protocols, clinical trial designs, statistical analysis plans | MEDIUM | LLMs can draft plausible designs but cannot validate against unpublished lab-specific constraints, reagent behaviour, or ethics/feasibility realities | Requires tacit lab knowledge, supervisor judgment, and accountability for a design that must actually work — durable |
+| Wet-lab / bench execution | Cell culture, molecular biology assays, histology, animal handling, dental/clinical procedures | LOW | No current AI system can physically execute lab or clinical procedures | Physical dexterity and hands-on technique remain fully human for the foreseeable future |
+| Statistical & bioinformatic analysis | Biostatistics, -omics pipeline analysis, epidemiological modelling | MEDIUM-HIGH | AI copilots (GitHub Copilot, Claude, ChatGPT Code Interpreter) can generate and debug analysis code rapidly | Code generation is commoditising fast; durable value shifts to correct model specification, assumption-checking, and interpretation under uncertainty |
+| Grant and manuscript writing | NHMRC/ARC applications, journal manuscripts, cover letters | HIGH | LLMs draft competent scientific prose; reviewers increasingly flag AI-homogenised writing | Durable component is the underlying scientific contribution and defensible claims, not the prose generation itself |
+| Data interpretation & clinical/translational judgment | Interpreting ambiguous or conflicting results, deciding next experiments, translating findings to clinical relevance | LOW | AI can suggest interpretations but cannot be held accountable for translational or clinical claims, nor access tacit contextual knowledge of the specific research program | High-stakes judgment under genuine uncertainty, with reputational and (for clinical research) patient-safety accountability |
+| Ethics, governance, and human-subject interaction | Ethics applications, participant recruitment, informed consent, clinical/community engagement | LOW | AI cannot hold ethical/legal accountability or build trust relationships with participants and clinical collaborators | Structurally protected — statutory and institutional accountability sits with the human researcher |
+| Peer review & scientific gatekeeping | Reviewing papers/grants, examining theses, contributing to editorial decisions | LOW-MEDIUM | AI can assist triage but scientific communities still require named human accountability for peer review integrity | Durable due to accountability and trust requirements in the scientific ecosystem |
+
+**Overall Section Exposure:** LOW-MEDIUM
+
+**Durability Assessment:** The PhD-MDHS graduate profile is structurally resistant to full automation because its core value — generating and defending original primary evidence, executing physical/clinical procedures, and exercising accountable judgment under genuine uncertainty — sits squarely in tasks AI cannot yet perform or is not permitted to be accountable for. The exposed surface area is concentrated in the "supporting" tasks around the research (literature synthesis, first-draft writing, boilerplate code, and routine statistical scripting), which are increasingly commoditised by AI copilots. This means the degree's *training regime* needs to explicitly reallocate emphasis away from tasks AI now does well and toward the judgment, physical, and accountability tasks AI cannot touch — but the underlying research training itself remains high value.
+
+### 3. MARKET EVIDENCE SNAPSHOT
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Implication |
+|---|---|---|---|
+| Academic postdoctoral research | Postdoc postings now list multi-omics integration + AI/ML analysis fluency alongside wet-lab technique | Postdoc bottleneck (more PhDs than positions) independent of AI; AI raises productivity expectations | Embed AI-in-research literacy; protect original-data rigour (D5, D7) |
+| Biotech / pharma R&D scientist | Global pharma postings reference AI-assisted drug discovery and computational-biology collaboration | Scientists expected to direct/interpret AI tools, not solely execute pipettes | Strengthen computational/bioinformatic pathways (D3) |
+| Clinical / translational researcher | GCP certification, patient recruitment, regulatory compliance emphasised; AI-exposure largely unchanged | Direct patient contact and clinical accountability cannot be automated | Protect and market clinical/hands-on training as AI-resilience differentiator (D6/D8) |
+| Health/population data & policy analyst | Postings specify AI-assisted analytics tools and causal inference as differentiators | Routine statistical coding now AI-augmented; premium shifting to causal reasoning | Strengthen causal-inference and policy-judgment training (D3, D5) |
+| Regulatory / medical affairs & scientific communications | Medical-writing/regulatory postings emphasise AI-assisted drafting with human QA oversight | Most AI-exposed sub-track; value shifts to regulatory judgment and relationships | Train AI-output QA + regulatory judgment, not just drafting (D5, D1) |
+| Research institute staff scientist | WEHI/Doherty-type postings remain technique/platform-specific; bioinformatic literacy now baseline | Durable but funding-cycle sensitive, independent of AI | Reinforce specialist platform depth; add baseline bioinformatic literacy (D6) |
+
+### 4. DFVA SCORECARD
+| # | Dimension | Score (0-3) | Evidence-based rationale |
+|---|---|---:|---|
+| 1 | Automation Exposure of Roles | 3 | Entry-point roles (postdoc, staff scientist, clinician-researcher) require irreducible physical lab/clinical execution, accountable interpretation, and original hypothesis-driven design from day one — not templated tasks. |
+| 2 | Systems Thinking and Problem Framing | 3 | The entire PhD structure (confirmation, hypothesis refinement, progress review, defended thesis) is built around constraint reasoning, failure-mode analysis (failed experiments, null results), and iterative hypothesis reframing across 4 years — integrated, not incidental. |
+| 3 | Technical and Quantitative Depth | 3 | Across all eleven contributing schools, candidates build a strong technical core: biostatistics, molecular/cell biology techniques, -omics or bioinformatic methods, epidemiological modelling, or bionics/engineering methods depending on discipline — assessed continuously via lab work and thesis chapters. |
+| 4 | Decision-Making Under Uncertainty | 3 | A 4-year original-research thesis is inherently a live, unscripted uncertainty exercise — experiments fail, hypotheses are revised, and the final thesis must defend real trade-offs to external examiners with genuine accountability. |
+| 5 | AI Literacy and Governance | 1 | The generic handbook text has no mention of AI/ML methods training, responsible-AI-in-research-tools guidance, or governance content; while individual labs (esp. bioinformatics/oncology/neuroscience groups) likely use AI tools informally, there is no structured, faculty-level AI literacy or governance curriculum evident for a cohort this large and technically capable — this is the clearest gap in an otherwise strong profile. |
+| 6 | Domain Depth and Specialisation | 3 | Candidates specialise for 4 years within one of eleven deep biomedical/clinical/health domains (oncology, neuroscience, dental science, population health, medical bionics, etc.), producing durable, hard-to-replicate expertise. |
+| 7 | Research Methods Rigour | 3 | This is a primary-data-generation research doctorate by definition — candidates design and conduct original experimental, clinical, or population-health research and must defend methodology under examiner scrutiny; the definitional core of the degree. |
+| 8 | Human and Relational Capability | 2 | Programs involving clinical, dental, psychological, and population-health research (a majority of the eleven contributing units) build substantial human-subject, ethics, and stakeholder-engagement practice; pure basic-science lab streams (e.g. some WEHI/biomedical science projects) have less relational load, pulling the average down from a 3. |
+| 9 | Curriculum Currency and Adaptability | 2 | Individual research groups and institutes (WEHI, Peter Mac, Florey, Doherty-affiliated) are demonstrably at the cutting edge of their respective fields and supervisors' research agendas evolve continuously with the literature, but there is no visible faculty-level structured curriculum review or AI-specific update process evidenced in the handbook — currency is real but informal/supervisor-dependent rather than systematised. |
+| 10 | Graduate Outcome Evidence | 1 | No granular destination data (roles, industries, salary, time-to-employment) is published in the handbook text for this specific program; UoM publishes broader GOS/QILT satisfaction-style data at university level but not program-specific granular outcome tracking for PhD-MDHS graduates. |
+| B | Irreplaceability Premium (Bonus) | 3 | The combination of deep clinical/biomedical domain expertise, rigorous quantitative/technical methods training, and accountable human judgment (especially in clinical and human-subject-adjacent streams) is a rare triple integration that strongly resists AI substitution. |
+
+**TOTAL: 27 / 36**  
+**Risk band: MODERATE RISK (20-27)**
+
+### 5. THREE THRESHOLD QUESTIONS
+- **Q1:** Could a well-prompted AI agent produce 80% of this graduate's first-two-year output?  
+  **NO** — A well-prompted AI agent could produce a plausible literature review or first-draft methods section, but cannot execute wet-lab/clinical procedures, generate defensible primary data, or be held accountable for a thesis-worthy original contribution; the graduate's actual first-two-year output (experiments, data, defended interpretation) is not reproducible by an AI agent today.
+- **Q2:** Does this program train graduates to design systems, own decisions, or generate original insight?  
+  **YES** — The PhD is definitionally a 4-year exercise in designing an original research system, owning every methodological decision, and generating genuinely original insight defended before external examiners.
+- **Q3:** Will these graduates be more employable in 5 years than today, given AI trends?  
+  **UNCERTAIN** — Graduates in clinical/translational and physical/dexterous research streams (dental, clinical psychology-adjacent, medical bionics) will likely be more employable as AI commoditises the "generic PhD" support tasks and raises the premium on hands-on and accountable judgment roles; but graduates whose training leaned heavily on now-automatable literature synthesis and standard bioinformatic pipelines (without deep specialisation) face a flatter or declining premium unless the program closes the D5 AI-literacy gap so graduates can supervise rather than compete with AI tools.
+
+### 6. ANALOGUE GRADUATE PROFILE
+The most exposed graduate archetype of ~2021-2022 vintage is the **"generalist biomedical postdoc"** whose primary value-add was manually synthesising literature, writing first-draft grant/manuscript prose, and running standard, well-documented bioinformatic or statistical pipelines without deep methodological specialisation or hands-on clinical/wet-lab distinctiveness. This archetype is directly threatened by: **Elicit** and **Consensus** (AI literature synthesis and evidence-mapping), **ChatGPT/Claude with Code Interpreter** (statistical script generation and debugging), **GitHub Copilot** (bioinformatic pipeline scripting), **SciSpace** (paper comprehension and drafting assistance), and **BioRender/AI figure-generation tools** (routine scientific communication assets). The countervailing archetype — the clinician-researcher or wet-lab specialist generating primary data under real accountability — remains structurally durable.
+
+### 7. VERDICT
+The PhD-MDHS is a fundamentally durable, high-value research training pathway sitting one point below RESILIENT — its core strength is that the degree trains graduates to generate original evidence and exercise accountable judgment in domains (clinical, physical, ethical) that AI structurally cannot replace, but it is being held back from a clear RESILIENT rating by two fixable, faculty-level gaps: no structured AI literacy/governance training for a cohort that increasingly needs to supervise rather than be replaced by AI research tools, and no granular graduate outcome tracking to prove the durability claim with evidence. Closing these two gaps would likely lift the program to 29-30/36 without touching its already-strong research core.
+
+### 8. RECOMMENDATIONS
+| Priority | Action | Dimension | Market Signal Link | Effort |
+|---|---|---|---|---|
+| P1 | Introduce a compulsory faculty-wide "AI in Biomedical & Clinical Research" module covering responsible use of AI literature tools, AI-assisted coding/bioinformatics, and governance/ethics of AI in human-subject research | D5 | Employers now expect explicit AI/ML tool fluency as baseline across postdoc, biotech, and population-health families | Medium |
+| P2 | Publish granular program-level graduate destination data (postdoc placement rates, industry vs academia split, time-to-first-position, by contributing school) | D10 | No destination tracking exists to validate which career pathway graduates actually pursue | Medium |
+| P3 | Formalise a faculty-level curriculum currency process — an annual cross-institute advisory review (WEHI, Peter Mac, Florey, Doherty) feeding structured updates into confirmation/progress-review expectations, explicitly including AI-method currency | D9 | Cross-disciplinary AI + domain fluency is the fastest-rising skill combination across job families | Low |
+| P4 | Embed explicit AI-tool-use disclosure and critical-appraisal requirements into thesis and publication milestones, positioning candidates to supervise/audit AI outputs rather than silently rely on them | D5, D9 | Medical-writing/regulatory roles most AI-exposed; value shifts to AI-output QA | Low |
+| P5 | Strengthen structured relational/ethics training for basic-science streams (WEHI, some biomedical science projects) that currently have lighter human-subject exposure than clinical/population-health streams | D8 | Clinical/translational roles remain the most durable and relational | Medium |
+| P6 | Create a cross-institute "translational pathways" tracking cohort to evidence how basic-science PhD graduates move into clinical/industry translation roles, feeding both D10 evidence and program marketing | D10 | Clinician-researcher dual-track role has persistent national workforce shortage | Medium |
+| P7 | Add a structured "AI-assisted vs AI-resistant task" module to candidate induction, explicitly mapping which parts of the PhD workflow (synthesis, coding) should be AI-augmented and which (design, interpretation, ethics) must remain human-owned | D5, D2 | Passive AI use without governance awareness is declining in employer trust | Low |
+
+### 9. THE REDESIGNED GRADUATE PROFILE
+The 2027-ready PhD-MDHS graduate is a biomedical or clinical researcher who treats AI tools as a fluent, supervised instrument — using them to accelerate literature triage, draft code, and surface candidate hypotheses — while retaining full accountability for experimental design, data integrity, and clinical/ethical judgment. They can articulate the governance boundaries of AI use in human-subject and clinical research, critically appraise AI-generated outputs rather than accepting them at face value, and demonstrate this literacy explicitly in their thesis methodology.
+
+This graduate's durable value proposition strengthens rather than weakens under AI pressure: as routine synthesis and coding commoditise, the premium shifts further toward exactly what this PhD already trains — deep domain specialisation, physical/clinical execution capability, and the capacity to generate and defend original primary evidence under real uncertainty. With visible outcome data and explicit AI governance training layered on top of an already research-rigorous core, this program is positioned to be one of the more AI-resilient doctoral pathways at the University.
+
+### 10. MARKET CONFIDENCE NOTE
+- Confidence level for market signals in this report: **Low–Medium**. Job-family structure and AI-substitution-pressure mapping are MEDIUM confidence; recent job-ad signals and salary bands are LOW confidence (structural/directional knowledge, not a live scrape).
+- Salary bands are drawn from NHMRC fellowship scales, university EBA postdoc bands, and industry benchmarking, and require validation against current Seek/Glassdoor/Faculty HR data before institutional use.
+- No program-specific graduate destination survey exists to confirm the academic vs biotech vs clinical vs institute pathway distribution — the primary D10 evidence gap. Verify current NHMRC/university EBA salary scales and lab-level AI-governance practice before high-stakes curriculum funding decisions.
+
+### MARKET DATA
+| Metric | Value |
+|--------|-------|
+| Field | Medicine, Dentistry and Health Sciences (biomedical/clinical research doctorate) |
+| Full-time employment (4-6mo) | Not published at program grain (no PhD-MDHS-specific destination data) |
+| Median starting salary | Not published at program grain (indicative entry bands: academic postdoc AU$75,000–90,000; biotech/pharma R&D AU$85,000–105,000; clinical/translational AU$90,000–115,000) |
+| Employment (3yr) | Not published at program grain |
+| Occupation demand | Clinical/translational and staff-scientist roles most durable; postdoc market bottlenecked (more PhDs than tenure-track positions), independent of AI |
+| AI automation exposure | LOW-MEDIUM (primary-data generation, physical/clinical execution and accountable judgment are durable; support tasks commoditising) |
+| Sources | UoM Handbook (dr-philmdh), NHMRC fellowship scales, university EBA postdoc bands, industry benchmarking — all structural/directional pending validation |
+`,
+};
+
+export default content;

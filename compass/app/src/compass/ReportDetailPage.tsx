@@ -37,7 +37,7 @@ import {
 } from "wasp/client/operations";
 import { useAuth } from "wasp/client/auth";
 
-import { REPORT_CONTENT } from "./reportContent";
+import { loadReportContent, type ReportContent } from "./reportContent/index";
 import { PROGRAMS } from "./sharedProgramData";
 import { ProgramRadar } from "../client/components/ProgramRadar";
 import { WhyThisMatters } from "./WhyThisMatters";
@@ -1147,13 +1147,94 @@ function parseSlug(slug: string): {
   return { code: slug.slice("dfva-".length), type: "assessment" };
 }
 
+// Report bodies are code-split per slug (see ./reportContent/index). This
+// wrapper fetches the three sibling variants for the program code, and only
+// mounts the (hook-heavy) view once they're loaded — the view can then treat
+// `report` as always-present, keeping its hook order stable across renders.
 export default function ReportDetailPage() {
+  const { reportSlug } = useParams<{ reportSlug: string }>();
+
+  const { code } = useMemo(() => {
+    return reportSlug
+      ? parseSlug(reportSlug)
+      : { code: "", type: "assessment" as const };
+  }, [reportSlug]);
+
+  const [contentBySlug, setContentBySlug] = useState<
+    Record<string, ReportContent>
+  >({});
+  const [contentReady, setContentReady] = useState(false);
+  useEffect(() => {
+    let alive = true;
+    setContentReady(false);
+    const slugs = [
+      "dfva-" + code,
+      "dfva-market-" + code,
+      "dfva-recommend-" + code,
+    ];
+    Promise.all(slugs.map((s) => loadReportContent(s))).then((loaded) => {
+      if (!alive) return;
+      const next: Record<string, ReportContent> = {};
+      slugs.forEach((s, i) => {
+        const content = loaded[i];
+        if (content) next[s] = content;
+      });
+      setContentBySlug(next);
+      setContentReady(true);
+    });
+    return () => {
+      alive = false;
+    };
+  }, [code]);
+
+  const report = reportSlug ? contentBySlug[reportSlug] : undefined;
+
+  if (!contentReady) {
+    // Report chunk still downloading — render nothing rather than flashing
+    // the not-found state below.
+    return null;
+  }
+
+  if (!report) {
+    return (
+      <div className="mx-auto max-w-3xl px-4 py-16 text-center">
+        <h1 className="text-foreground mb-4 text-2xl font-bold">
+          Report not found
+        </h1>
+        <p className="text-muted-foreground mb-8">
+          No report exists for slug <code>{reportSlug}</code>.
+        </p>
+        <Link
+          to="/reports"
+          className="text-primary inline-flex items-center gap-2 text-sm hover:underline"
+        >
+          <ArrowLeft className="h-4 w-4" />
+          Back to reports
+        </Link>
+      </div>
+    );
+  }
+
+  return (
+    <ReportDetailView
+      key={reportSlug}
+      report={report}
+      contentBySlug={contentBySlug}
+    />
+  );
+}
+
+function ReportDetailView({
+  report,
+  contentBySlug,
+}: {
+  report: ReportContent;
+  contentBySlug: Record<string, ReportContent>;
+}) {
   const { reportSlug } = useParams<{ reportSlug: string }>();
   const { data: user } = useAuth();
   const uploadAlumniDataAction = useAction(uploadAlumniData);
   const updateInterventionAction = useAction(updateCourseIntervention);
-
-  const report = reportSlug ? REPORT_CONTENT[reportSlug] : undefined;
 
   // 1. Navigation routing & fallbacks
   const { code, type: currentType } = useMemo(() => {
@@ -1280,26 +1361,6 @@ export default function ReportDetailPage() {
   const [flowUploadStatus, setFlowUploadStatus] = useState<
     "idle" | "success" | "error"
   >("idle");
-
-  if (!report) {
-    return (
-      <div className="mx-auto max-w-3xl px-4 py-16 text-center">
-        <h1 className="text-foreground mb-4 text-2xl font-bold">
-          Report not found
-        </h1>
-        <p className="text-muted-foreground mb-8">
-          No report exists for slug <code>{reportSlug}</code>.
-        </p>
-        <Link
-          to="/reports"
-          className="text-primary inline-flex items-center gap-2 text-sm hover:underline"
-        >
-          <ArrowLeft className="h-4 w-4" />
-          Back to reports
-        </Link>
-      </div>
-    );
-  }
 
   const meta = reportSlug ? reportMeta[slugsByType.assessment] : null;
   const scoreText =
@@ -1615,7 +1676,7 @@ export default function ReportDetailPage() {
             <div className="space-y-6 lg:col-span-2">
               {(() => {
                 const rawMarkdown =
-                  REPORT_CONTENT[slugsByType.assessment]?.markdown ??
+                  contentBySlug[slugsByType.assessment]?.markdown ??
                   report.markdown;
                 const structured = parseStructured(rawMarkdown);
                 if (structured) {
@@ -1737,7 +1798,7 @@ export default function ReportDetailPage() {
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
             <div className="space-y-6 lg:col-span-2">
               {renderMarkdownAsPanels(
-                REPORT_CONTENT[slugsByType.market]?.markdown ??
+                contentBySlug[slugsByType.market]?.markdown ??
                   "No custom market intelligence report loaded.",
               )}
             </div>
@@ -1942,7 +2003,7 @@ export default function ReportDetailPage() {
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
             <div className="space-y-6 lg:col-span-2">
               {renderMarkdownAsPanels(
-                REPORT_CONTENT[slugsByType.recommend]?.markdown ??
+                contentBySlug[slugsByType.recommend]?.markdown ??
                   "No specific improvement plan loaded for this program.",
               )}
             </div>
