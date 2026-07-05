@@ -15,6 +15,17 @@ export default defineConfig({
       ),
     },
   },
+  test: {
+    server: {
+      deps: {
+        // On Linux, vitest externalizes the wasp SDK (node then fails on its
+        // extensionless internal imports); macOS inlines it because the
+        // node_modules/wasp symlink realpath escapes node_modules. Force
+        // inlining so Vite processes it identically on both.
+        inline: [/^wasp\//, /\/\.wasp\//],
+      },
+    },
+  },
   server: {
     open: true,
   },
