@@ -26,7 +26,8 @@ export const logUserIn = async ({ page, user }: { page: Page; user: User }) => {
     clickLogin,
   ]);
 
-  await page.waitForURL("**/demo-app");
+  // main.wasp: onAuthSucceededRedirectTo is /assess
+  await page.waitForURL("**/assess");
 };
 
 export const signUserUp = async ({

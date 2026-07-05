@@ -1,4 +1,4 @@
-import { Cookie, expect, test } from "@playwright/test";
+import { expect, test } from "@playwright/test";
 
 test.describe("general landing page tests", () => {
   test.beforeEach(async ({ page }) => {
@@ -6,12 +6,15 @@ test.describe("general landing page tests", () => {
   });
 
   test("has title", async ({ page }) => {
-    await expect(page).toHaveTitle(/SaaS/);
+    await expect(page).toHaveTitle(/Evidura/);
   });
 
-  test("get started link", async ({ page }) => {
-    await page.getByRole("link", { name: "Get started" }).click();
-    await page.waitForURL("**/signup");
+  test("example report link", async ({ page }) => {
+    await page
+      .getByRole("link", { name: /View an example report/ })
+      .first()
+      .click();
+    await page.waitForURL("**/reports");
   });
 
   test("headings", async ({ page }) => {
@@ -19,7 +22,7 @@ test.describe("general landing page tests", () => {
       page.getByRole("heading", { name: "Frequently asked questions" }),
     ).toBeVisible();
     await expect(
-      page.getByRole("heading", { name: "Some cool words" }),
+      page.getByRole("heading", { name: /worth choosing/ }),
     ).toBeVisible();
   });
 });
@@ -42,34 +45,18 @@ test.describe("cookie consent tests", () => {
     expect(cookieObject.categories.includes("analytics")).toBeFalsy();
   });
 
-  test("cookie consent banner acceptance sets cc_cookie and _ga cookies", async ({
+  // No _ga cookie assertions: the app has no Google Analytics ID configured,
+  // so only the consent cookie itself is set on acceptance.
+  test("cookie consent banner acceptance sets cc_cookie", async ({
     context,
     page,
   }) => {
     await page.$$('button:has-text("Accept all")');
     await page.click('button:has-text("Accept all")');
 
-    let cookies = await context.cookies();
+    const cookies = await context.cookies();
     const consentCookie = cookies.find((c) => c.name === "cc_cookie");
     const cookieObject = JSON.parse(decodeURIComponent(consentCookie.value));
-    // Check that the Cookie Consent cookie is set. This should happen immediately, and then the GA cookies will get set after it, dynamically.
     expect(cookieObject.categories.includes("analytics")).toBeTruthy();
-
-    const areGaCookiesSet = (cookies: Cookie[]) => {
-      const gaCookiesArr = cookies.filter((c) => c.name.startsWith("_ga"));
-      return gaCookiesArr.length === 2; // GA cookies are _ga and _ga_<GA_ANALYTICS_ID>
-    };
-
-    const startTime = Date.now();
-    const MAX_TIME_MS = 10000;
-    let timeElapsed = 0;
-
-    while (!areGaCookiesSet(cookies) && timeElapsed < MAX_TIME_MS) {
-      await new Promise((resolve) => setTimeout(resolve, 1000)); // wait for 1 second before checking again
-      cookies = await context.cookies();
-      timeElapsed = Date.now() - startTime;
-    }
-
-    expect(timeElapsed).toBeLessThan(MAX_TIME_MS);
   });
 });
