@@ -37,7 +37,7 @@ jobs:
         with:
           node-version: '20'
       - name: Install Wasp 0.22.0
-        run: curl -sSL https://get.wasp.sh/installer.sh | sh -s -- -v 0.22.0
+        run: npm install -g @wasp.sh/wasp-cli@0.22.0
 
       # Mirrors the local dev .env.server: DFVA_MOCK short-circuits the LLM
       # pipeline, payment/S3 keys are dummies (validated for presence only).
@@ -69,6 +69,4 @@ jobs:
 
       - name: Run Playwright tests
         working-directory: compass/e2e-tests
-        run: |
-          export PATH="$HOME/.local/bin:$PATH"
-          npm run e2e:playwright
+        run: npm run e2e:playwright

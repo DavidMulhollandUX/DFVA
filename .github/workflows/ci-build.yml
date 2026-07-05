@@ -28,7 +28,7 @@ jobs:
           node-version: '20'
 
       - name: Install Wasp 0.22.0
-        run: curl -sSL https://get.wasp.sh/installer.sh | sh -s -- -v 0.22.0
+        run: npm install -g @wasp.sh/wasp-cli@0.22.0
 
       # main.wasp keeps `provider: Dummy` for local dev, which Wasp rejects in a
       # production build. Flip to SMTP just for the CI compile (no secrets needed
@@ -37,9 +37,7 @@ jobs:
         run: "sed -i 's/    provider: Dummy,/    provider: SMTP,/' main.wasp"
 
       - name: Wasp build (compile + type-check)
-        run: |
-          export PATH="$HOME/.local/bin:$PATH"
-          wasp build
+        run: wasp build
 
   unit-tests:
     # The vitest suite includes the auth/ownership regression guards
@@ -55,15 +53,13 @@ jobs:
         with:
           node-version: '20'
       - name: Install Wasp 0.22.0
-        run: curl -sSL https://get.wasp.sh/installer.sh | sh -s -- -v 0.22.0
+        run: npm install -g @wasp.sh/wasp-cli@0.22.0
       - name: Prettier check
         run: |
           npm ci || npm install
           npx prettier --check src/
       - name: Run unit tests
-        run: |
-          export PATH="$HOME/.local/bin:$PATH"
-          wasp test client run
+        run: wasp test client run
 
   mcp:
     # Type-check + unit tests for the dfva MCP server (previously never in CI —
