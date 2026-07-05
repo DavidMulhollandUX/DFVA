@@ -9,6 +9,7 @@ on:
       - '.continue/prompts/dfva.md'
       - 'compass/app/src/compass/sharedProgramData.ts'
       - 'compass/app/src/compass/reportContent*.ts'
+      - 'compass/app/src/compass/data/**'
       - 'compass/app/src/compass/ReportDetailPage.tsx'
       - 'reports/**'
   push:
@@ -19,6 +20,7 @@ on:
       - '.continue/prompts/dfva.md'
       - 'compass/app/src/compass/sharedProgramData.ts'
       - 'compass/app/src/compass/reportContent*.ts'
+      - 'compass/app/src/compass/data/**'
       - 'compass/app/src/compass/ReportDetailPage.tsx'
       - 'reports/**'
 

@@ -1,48 +1,17 @@
-import { describe, it, expect, vi, beforeEach } from 'vitest';
-import crypto from 'crypto';
+import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
 
-// We test the auth logic functions directly (no Wasp dependency needed)
-// The middleware functions are pure logic: hash, validate, generate
-
-// --- Key generation and validation logic (mirrors api/auth.ts) ---
-
-function hashApiKey(key: string): string {
-  return crypto.createHash('sha256').update(key).digest('hex');
-}
-
-function generateApiKey(): { rawKey: string; keyHash: string; keyPrefix: string } {
-  const rawKey = `dfva_${crypto.randomBytes(32).toString('hex')}`;
-  const keyHash = hashApiKey(rawKey);
-  const keyPrefix = rawKey.slice(0, 11); // "dfva_" + first 6 chars
-  return { rawKey, keyHash, keyPrefix };
-}
-
-function validateApiKey(
-  key: string,
-  storedHash: string,
-  isActive: boolean,
-  institutionId: string,
-  keyId: string
-): { valid: boolean; institutionId?: string; keyId?: string } {
-  if (!key || !key.startsWith('dfva_')) {
-    return { valid: false };
-  }
-  const computedHash = hashApiKey(key);
-  if (computedHash !== storedHash) {
-    return { valid: false };
-  }
-  if (!isActive) {
-    return { valid: false };
-  }
-  return { valid: true, institutionId, keyId };
-}
-
-function extractBearerToken(authHeader: string | undefined): string | null {
-  if (!authHeader || !authHeader.startsWith('Bearer ')) {
-    return null;
-  }
-  return authHeader.slice(7);
-}
+// Tests import the REAL production module (pure Node crypto, no Wasp
+// dependency). A previous version of this suite re-implemented these
+// functions locally, so the real code had zero coverage and could drift
+// while the suite stayed green.
+import {
+  hashApiKey,
+  generateApiKey,
+  validateApiKey,
+  extractBearerToken,
+  checkRateLimit,
+  resetRateLimitBuckets,
+} from '../api/auth';
 
 describe('API Key Generation', () => {
   it('generates keys with dfva_ prefix', () => {
@@ -95,6 +64,12 @@ describe('API Key Validation', () => {
     const { rawKey } = generateApiKey();
     const wrongHash = hashApiKey('some_other_key');
     const result = validateApiKey(rawKey, wrongHash, true, testInstitutionId, testKeyId);
+    expect(result.valid).toBe(false);
+  });
+
+  it('rejects a stored hash of a different length without throwing', () => {
+    const { rawKey } = generateApiKey();
+    const result = validateApiKey(rawKey, 'deadbeef', true, testInstitutionId, testKeyId);
     expect(result.valid).toBe(false);
   });
 
@@ -162,5 +137,48 @@ describe('Hash Function', () => {
     const hash = hashApiKey('dfva_test');
     expect(hash.length).toBe(64);
     expect(/^[0-9a-f]+$/.test(hash)).toBe(true);
+  });
+});
+
+describe('Rate Limiting (token bucket, 100/min)', () => {
+  beforeEach(() => {
+    resetRateLimitBuckets();
+    vi.useFakeTimers();
+  });
+
+  afterEach(() => {
+    vi.useRealTimers();
+  });
+
+  it('allows the first 100 requests then blocks the 101st', () => {
+    for (let i = 0; i < 100; i++) {
+      expect(checkRateLimit('key-1')).toBe(true);
+    }
+    expect(checkRateLimit('key-1')).toBe(false);
+  });
+
+  it('tracks buckets per key independently', () => {
+    for (let i = 0; i < 100; i++) checkRateLimit('key-a');
+    expect(checkRateLimit('key-a')).toBe(false);
+    expect(checkRateLimit('key-b')).toBe(true);
+  });
+
+  it('refills over time (1 token per 0.6s)', () => {
+    for (let i = 0; i < 100; i++) checkRateLimit('key-1');
+    expect(checkRateLimit('key-1')).toBe(false);
+
+    vi.advanceTimersByTime(1200); // 2 tokens refilled
+    expect(checkRateLimit('key-1')).toBe(true);
+    expect(checkRateLimit('key-1')).toBe(true);
+    expect(checkRateLimit('key-1')).toBe(false);
+  });
+
+  it('never refills past the 100-token cap', () => {
+    checkRateLimit('key-1'); // create bucket, spend 1
+    vi.advanceTimersByTime(10 * 60 * 1000); // refill far beyond cap
+    for (let i = 0; i < 100; i++) {
+      expect(checkRateLimit('key-1')).toBe(true);
+    }
+    expect(checkRateLimit('key-1')).toBe(false);
   });
 });

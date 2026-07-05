@@ -1,0 +1,76 @@
+# Runs the Playwright suite (compass/e2e-tests) against the app in mock mode.
+# Playwright's own webServer block boots the app via @wasp.sh/wasp-app-runner;
+# this job only provides Postgres, env, and the toolchain.
+#
+# continue-on-error until it has proven stable in CI — flip to required after
+# two consecutive green runs.
+name: E2E tests
+
+on:
+  pull_request:
+    paths: ['compass/**']
+
+permissions:
+  contents: read
+
+jobs:
+  playwright:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: dfva_e2e
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - name: Set up Node
+        uses: actions/setup-node@39370e3970a6d050c480ffad4ff0ed4d3fdee5af # v4.1.0
+        with:
+          node-version: '20'
+      - name: Install Wasp 0.22.0
+        run: curl -sSL https://get.wasp.sh/installer.sh | sh -s -- -v 0.22.0
+
+      # Mirrors the local dev .env.server: DFVA_MOCK short-circuits the LLM
+      # pipeline, payment/S3 keys are dummies (validated for presence only).
+      - name: Create .env.server (mock mode)
+        working-directory: compass/app
+        run: |
+          cat > .env.server <<'EOF'
+          DATABASE_URL=postgresql://postgres:postgres@localhost:5432/dfva_e2e
+          DFVA_MOCK=true
+          OPENAI_API_KEY=sk-dummy-ci
+          STRIPE_API_KEY=sk_test_dummy
+          STRIPE_WEBHOOK_SECRET=whsec_dummy
+          LEMONSQUEEZY_API_KEY=dummy
+          POLAR_ACCESS_TOKEN=dummy
+          AWS_S3_REGION=ap-southeast-2
+          AWS_S3_IAM_ACCESS_KEY=dummy
+          AWS_S3_IAM_SECRET_KEY=dummy
+          AWS_S3_FILES_BUCKET=dummy-bucket
+          SKIP_EMAIL_VERIFICATION_IN_DEV=true
+          EOF
+
+      - name: Apply migrations
+        working-directory: compass/app
+        run: DATABASE_URL=postgresql://postgres:postgres@localhost:5432/dfva_e2e npx prisma migrate deploy --schema schema.prisma
+
+      - name: Install e2e dependencies
+        working-directory: compass/e2e-tests
+        run: |
+          npm ci
+          npx playwright install --with-deps chromium
+
+      - name: Run Playwright tests
+        working-directory: compass/e2e-tests
+        run: |
+          export PATH="$HOME/.local/bin:$PATH"
+          npm run e2e:playwright
