@@ -1,5 +1,5 @@
 import { useParams, Link } from "react-router";
-import { useState, useEffect, useMemo, useRef } from "react";
+import { useState, useEffect, useMemo, useRef, lazy, Suspense } from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import {
@@ -41,14 +41,19 @@ import { loadReportContent, type ReportContent } from "./reportContent/index";
 import { PROGRAMS } from "./sharedProgramData";
 import { ProgramRadar } from "../client/components/ProgramRadar";
 import { WhyThisMatters } from "./WhyThisMatters";
-import { CurriculumMap } from "../client/components/CurriculumMap";
 import { generateMockSyllabus } from "./mockSyllabusData";
 import { RUBRIC, Dimension } from "./data/rubric";
-import {
-  DIMENSION_EVIDENCE,
-  DimensionEvidence,
-} from "./data/dimensionEvidence";
+import type { DimensionEvidence } from "./data/dimensionEvidence";
 import { getFieldForCourse } from "./marketData";
+
+// Lazy chunks: CurriculumMap drags in reactflow/dagre/d3/lodash (~180kB min)
+// and is only rendered on the Curriculum tab; the generated evidence map is
+// only read when a dimension popover opens.
+const CurriculumMap = lazy(() =>
+  import("../client/components/CurriculumMap").then((m) => ({
+    default: m.CurriculumMap,
+  })),
+);
 
 const riskBandStyles: Record<string, string> = {
   RESILIENT:
@@ -864,6 +869,19 @@ function InteractiveRubricPanel({
     rect: DOMRect;
     rationale?: string;
   } | null>(null);
+  const [evidenceMap, setEvidenceMap] = useState<
+    typeof import("./data/dimensionEvidence").DIMENSION_EVIDENCE | null
+  >(null);
+
+  useEffect(() => {
+    let alive = true;
+    import("./data/dimensionEvidence").then((m) => {
+      if (alive) setEvidenceMap(m.DIMENSION_EVIDENCE);
+    });
+    return () => {
+      alive = false;
+    };
+  }, []);
 
   const getSegmentColor = (score: number, max: number) => {
     const pct = score / max;
@@ -1051,7 +1069,7 @@ function InteractiveRubricPanel({
           score={openPopover.score}
           evidence={(() => {
             let ev = programSlug
-              ? DIMENSION_EVIDENCE[programSlug]?.[openPopover.dim.id]
+              ? evidenceMap?.[programSlug]?.[openPopover.dim.id]
               : undefined;
             if (!ev && openPopover.rationale) {
               ev = {
@@ -1784,12 +1802,20 @@ function ReportDetailView({
               </div>
             </div>
 
-            <CurriculumMap
-              syllabusData={syllabusData}
-              baseScore={program?.score ?? 20}
-              onScoreSimulated={(simScore) => setSimulatedScore(simScore)}
-              isGenericFallback={syllabusData.isGenericFallback ?? true}
-            />
+            <Suspense
+              fallback={
+                <div className="text-muted-foreground flex items-center justify-center p-8 text-sm">
+                  Loading curriculum map…
+                </div>
+              }
+            >
+              <CurriculumMap
+                syllabusData={syllabusData}
+                baseScore={program?.score ?? 20}
+                onScoreSimulated={(simScore) => setSimulatedScore(simScore)}
+                isGenericFallback={syllabusData.isGenericFallback ?? true}
+              />
+            </Suspense>
           </div>
         )}
 
