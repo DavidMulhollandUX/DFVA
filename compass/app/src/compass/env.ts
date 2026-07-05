@@ -6,5 +6,8 @@ export const compassEnvSchema = defineEnvValidationSchema(
     DFVA_MOCK: z.enum(["true", "false"]).default("true"),
     // Used by the real LLM scoring pipeline (openaiLlmScorer) when DFVA_MOCK=false.
     OPENAI_API_KEY: z.string().optional().default(""),
+    // Server error reporting (src/server/logger.ts). Leave unset to disable —
+    // the logger falls back to JSON console lines only.
+    SENTRY_DSN: z.string().optional().default(""),
   }),
 );
