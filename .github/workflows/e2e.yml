@@ -37,7 +37,7 @@ jobs:
         with:
           node-version: '20'
       - name: Install Wasp 0.22.0
-        run: npm install -g @wasp.sh/wasp-cli@0.22.0
+        run: npm install -g @wasp.sh/wasp-cli@0.22.0 @wasp.sh/wasp-cli-linux-x64-glibc@0.22.0
 
       # Mirrors the local dev .env.server: DFVA_MOCK short-circuits the LLM
       # pipeline, payment/S3 keys are dummies (validated for presence only).
