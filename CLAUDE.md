@@ -1,6 +1,6 @@
 # DFVA
 
-**Tech stack:** TypeScript (scripts), Wasp 0.22 (compass app), Prisma (PostgreSQL), React 19
+**Tech stack:** TypeScript (scripts), Wasp 0.24 (compass app; config in main.wasp.ts — Wasp Spec, requires Node 24), Prisma (PostgreSQL), React 19
 **Key constraint:** Handbook scraper UNBLOCKED (2026-07-01) — Crawl4AI bypasses anti-bot. Use `PYTHONPATH="" bash ~/.hermes/scripts/crawl4ai_scrape.sh "<url>"` for handbook extraction.
 **See:** compass/app/README.md
 

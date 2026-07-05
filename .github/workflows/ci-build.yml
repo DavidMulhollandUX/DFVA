@@ -25,16 +25,16 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@39370e3970a6d050c480ffad4ff0ed4d3fdee5af # v4.1.0
         with:
-          node-version: '22'
+          node-version: '24'
 
-      - name: Install Wasp 0.22.0
-        run: npm install -g @wasp.sh/wasp-cli@0.22.0 @wasp.sh/wasp-cli-linux-x64-glibc@0.22.0
+      - name: Install Wasp 0.24.0
+        run: npm install -g @wasp.sh/wasp-cli@0.24.0 @wasp.sh/wasp-cli-linux-x64-glibc@0.24.0
 
-      # main.wasp keeps `provider: Dummy` for local dev, which Wasp rejects in a
-      # production build. Flip to SMTP just for the CI compile (no secrets needed
-      # to *build*), matching what deploy-server.sh does at deploy time.
+      # main.wasp.ts keeps `provider: "Dummy"` for local dev, which Wasp rejects
+      # in a production build. Flip to SMTP just for the CI compile (no secrets
+      # needed to *build*), matching what deploy-server.sh does at deploy time.
       - name: Allow production build (emailSender Dummy → SMTP)
-        run: "sed -i 's/    provider: Dummy,/    provider: SMTP,/' main.wasp"
+        run: sed -i 's/provider: "Dummy",/provider: "SMTP",/' main.wasp.ts
 
       - name: Wasp build (compile + type-check)
         run: wasp build
@@ -55,11 +55,14 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@39370e3970a6d050c480ffad4ff0ed4d3fdee5af # v4.1.0
         with:
-          node-version: '22'
-      - name: Install dependencies
-        # npm install, not ci: the lockfile references the generated
-        # .wasp/out/* workspaces, which don't exist on a fresh checkout.
-        run: npm install --no-audit --no-fund
+          node-version: '24'
+      - name: Install Wasp 0.24.0
+        run: npm install -g @wasp.sh/wasp-cli@0.24.0 @wasp.sh/wasp-cli-linux-x64-glibc@0.24.0
+      - name: Install dependencies (via wasp)
+        # `wasp install`, not npm: since 0.24, package.json depends on the
+        # generated file:.wasp/spec package (Wasp Spec API), which doesn't
+        # exist on a fresh checkout until wasp generates it.
+        run: wasp install
       - name: Run unit tests
         run: npx vitest run --config vitest.ci.config.mts
       - name: Prettier check
@@ -77,7 +80,7 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@39370e3970a6d050c480ffad4ff0ed4d3fdee5af # v4.1.0
         with:
-          node-version: '22'
+          node-version: '24'
       - name: Install
         run: npm ci
       - name: Build (type-check)
@@ -94,7 +97,7 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@39370e3970a6d050c480ffad4ff0ed4d3fdee5af # v4.1.0
         with:
-          node-version: '22'
+          node-version: '24'
       - name: Install script deps
         run: npm ci --prefix scripts || npm install --prefix scripts
       - name: Course completeness check
