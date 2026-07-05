@@ -1,4 +1,3 @@
-import axios from "axios";
 import { ALLOWED_FILE_TYPES, MAX_FILE_SIZE_BYTES } from "./validation";
 
 type AllowedFileTypes = (typeof ALLOWED_FILE_TYPES)[number];
@@ -17,15 +16,30 @@ export async function uploadFileWithProgress({
 }) {
   const formData = getFileUploadFormData(file, s3UploadFields);
 
-  return axios.post(s3UploadUrl, formData, {
-    onUploadProgress: (progressEvent) => {
-      if (progressEvent.total) {
+  // XMLHttpRequest instead of fetch: it is the only way to observe upload
+  // progress. (Wasp 0.24 dropped axios from the SDK in favor of ky.)
+  return new Promise<void>((resolve, reject) => {
+    const xhr = new XMLHttpRequest();
+    xhr.upload.addEventListener("progress", (progressEvent) => {
+      if (progressEvent.lengthComputable) {
         const percentage = Math.round(
           (progressEvent.loaded / progressEvent.total) * 100,
         );
         setUploadProgressPercent(percentage);
       }
-    },
+    });
+    xhr.addEventListener("load", () => {
+      if (xhr.status >= 200 && xhr.status < 300) {
+        resolve();
+      } else {
+        reject(new Error(`Upload failed with status ${xhr.status}`));
+      }
+    });
+    xhr.addEventListener("error", () =>
+      reject(new Error("Upload failed due to a network error")),
+    );
+    xhr.open("POST", s3UploadUrl);
+    xhr.send(formData);
   });
 }
 
