@@ -50,8 +50,6 @@ jobs:
           OPENAI_API_KEY=sk-dummy-ci
           STRIPE_API_KEY=sk_test_dummy
           STRIPE_WEBHOOK_SECRET=whsec_dummy
-          LEMONSQUEEZY_API_KEY=dummy
-          POLAR_ACCESS_TOKEN=dummy
           AWS_S3_REGION=ap-southeast-2
           AWS_S3_IAM_ACCESS_KEY=dummy
           AWS_S3_IAM_SECRET_KEY=dummy
