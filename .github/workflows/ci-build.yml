@@ -88,6 +88,15 @@ jobs:
       # server subpaths on a fresh checkout.
       - name: Run unit tests
         run: wasp test client run
+      - name: Debug SDK resolution state
+        if: failure()
+        run: |
+          echo "--- node_modules/wasp ---"; ls -la node_modules/wasp || true
+          echo "--- sdk dist/server ---"; ls .wasp/out/sdk/wasp/dist/server/ | head || true
+          echo "--- resolve wasp/server ---"
+          node -e "import('wasp/server').then(m=>console.log('resolved OK:',Object.keys(m))).catch(e=>console.log('RESOLVE ERR:',e.code,e.message))" || true
+          echo "--- vite config in cwd ---"; ls vite.config.* || true
+          echo "--- vitest version ---"; npx vitest --version || true
       - name: Prettier check
         run: npx prettier --check src/
 
