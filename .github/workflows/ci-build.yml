@@ -83,14 +83,9 @@ jobs:
           AWS_S3_IAM_SECRET_KEY=dummy
           AWS_S3_FILES_BUCKET=dummy-bucket
           EOF
-      # Two-pass: locally 'wasp/server' resolves via a node_modules/wasp symlink
-      # that dev runs create; a fresh checkout has no .wasp/out yet, so the
-      # first invocation generates the SDK (its vitest pass fails on the two
-      # test files importing wasp/server), then we create the symlink and rerun.
-      - name: Generate Wasp SDK (first pass)
-        run: wasp test client run || true
-      - name: Link wasp SDK into node_modules
-        run: ln -sfn ../.wasp/out/sdk/wasp node_modules/wasp
+      # Tests that touch operations.ts mock wasp/server hermetically (see
+      # vi.mock in the test files) — the generated SDK never fully resolves
+      # server subpaths on a fresh checkout.
       - name: Run unit tests
         run: wasp test client run
       - name: Prettier check

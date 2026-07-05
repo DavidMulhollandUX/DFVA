@@ -1,4 +1,20 @@
 import { describe, it, expect, vi } from "vitest";
+
+// Hermetic wasp/server mock: the real module only exists after a wasp dev run
+// generates .wasp/out (absent on a fresh CI checkout). The factory means
+// vitest never tries to resolve the real package.
+vi.mock("wasp/server", () => ({
+  HttpError: class HttpError extends Error {
+    statusCode: number;
+    data?: unknown;
+    constructor(statusCode: number, message?: string, data?: unknown) {
+      super(message);
+      this.statusCode = statusCode;
+      this.data = data;
+    }
+  },
+}));
+
 import {
   getCourseInterventions,
   updateCourseIntervention,

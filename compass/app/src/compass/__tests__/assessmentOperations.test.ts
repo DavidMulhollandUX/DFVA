@@ -1,4 +1,18 @@
 import { describe, it, expect, vi } from "vitest";
+
+// Hermetic wasp/server mock — see authorizationGuards.test.ts for rationale.
+vi.mock("wasp/server", () => ({
+  HttpError: class HttpError extends Error {
+    statusCode: number;
+    data?: unknown;
+    constructor(statusCode: number, message?: string, data?: unknown) {
+      super(message);
+      this.statusCode = statusCode;
+      this.data = data;
+    }
+  },
+}));
+
 import { getAssessmentJobs, getAssessmentJob } from "../operations";
 
 // Helper to build a minimal mock context
