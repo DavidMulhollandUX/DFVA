@@ -1,0 +1,11 @@
+dist/
+
+# codebase-memory auto-generated agent-config dumps — regenerate locally if wanted,
+# never commit (content is wrong "None detected" boilerplate for this server)
+.clinerules
+.cursorrules
+.roomodes
+.windsurfrules
+CONVENTIONS.md
+CLAUDE.md
+.github/
