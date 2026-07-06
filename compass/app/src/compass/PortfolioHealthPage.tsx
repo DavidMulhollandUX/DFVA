@@ -24,6 +24,8 @@ export default function PortfolioHealthPage() {
     for (const p of PROGRAMS) {
       bands[p.riskBand] = (bands[p.riskBand] || 0) + 1;
       for (const d of p.dimensions) {
+        // Skip Not-Applicable dimensions so they don't drag the weakest-dimension total.
+        if (d.score === null) continue;
         dimTotals[d.label] = (dimTotals[d.label] || 0) + d.score;
       }
     }

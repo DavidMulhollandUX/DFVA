@@ -75,6 +75,7 @@ export function crossProgramAnalysis(): CrossProgramAnalysis {
     'MODERATE RISK': 0,
     'HIGH RISK': 0,
     CRITICAL: 0,
+    'NOT RATABLE': 0,
   };
   for (const a of all) {
     riskDistribution[a.riskCategory] =
@@ -88,6 +89,9 @@ export function crossProgramAnalysis(): CrossProgramAnalysis {
   for (const a of all) {
     aiLiteracyTotal += a.aiLiteracyScore;
     for (const d of a.dimensions) {
+      // NA dimensions (score === null) are excluded from the average so they never
+      // drag a dimension mean or the weakest-dimension pick toward zero.
+      if (d.score === null || d.score === undefined) continue;
       if (!dimensionTotals[d.dimension]) {
         dimensionTotals[d.dimension] = { total: 0, count: 0 };
       }

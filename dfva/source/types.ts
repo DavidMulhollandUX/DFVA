@@ -2,11 +2,19 @@
 
 export interface DimensionScore {
   dimension: string;
-  score: number;          // 0.0 - 3.0
+  score: number | null;   // 0.0 - 3.0, or null when Not Applicable (construct doesn't exist)
   maxScore: number;
   criteria: string[];
   notes: string;
 }
+
+/** The four numeric risk bands, plus 'NOT RATABLE' for programs with too few applicable dimensions. */
+export type RiskCategory =
+  | 'RESILIENT'
+  | 'MODERATE RISK'
+  | 'HIGH RISK'
+  | 'CRITICAL'
+  | 'NOT RATABLE';
 
 /**
  * Real graduate-outcome (JIR / QILT / demand-side) evidence for a program.
@@ -37,7 +45,7 @@ export interface ProgramAssessment {
   faculty: string;
   level: 'undergraduate' | 'postgraduate' | 'graduate-research';
   overallScore: number;
-  riskCategory: 'RESILIENT' | 'MODERATE RISK' | 'HIGH RISK' | 'CRITICAL';
+  riskCategory: RiskCategory;
   dimensions: DimensionScore[];
   aiLiteracyScore: number;
   labourMarketAlignment: number;
@@ -51,7 +59,7 @@ export interface ProgramAssessment {
 export interface AssessmentQuery {
   programCode?: string;
   faculty?: string;
-  riskCategory?: ProgramAssessment['riskCategory'];
+  riskCategory?: RiskCategory;
   minScore?: number;
   maxScore?: number;
   limit?: number;

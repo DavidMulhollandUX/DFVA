@@ -57,9 +57,13 @@ export default function Hero() {
 
 function SampleRatingCard() {
   const cfg = riskBandConfig[sample.riskBand];
-  // Two weakest named dimensions — "the gaps are named, and addressable".
-  const gaps = [...sample.dimensions]
-    .filter((d) => !d.label.toLowerCase().includes("bonus"))
+  // Two weakest named dimensions — "the gaps are named, and addressable". Not-Applicable
+  // dimensions (score === null) are not weaknesses, so they are excluded from the gap list.
+  const gaps = sample.dimensions
+    .filter(
+      (d): d is typeof d & { score: number } =>
+        d.score !== null && !d.label.toLowerCase().includes("bonus"),
+    )
     .sort((a, b) => a.score / a.max - b.score / b.max)
     .slice(0, 3);
 

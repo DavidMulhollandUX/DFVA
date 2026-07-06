@@ -1415,12 +1415,12 @@
     "programName": "Doctor of Laws",
     "faculty": "Other",
     "level": "postgraduate",
-    "overallScore": 16,
-    "riskCategory": "HIGH RISK",
+    "overallScore": 22,
+    "riskCategory": "MODERATE RISK",
     "dimensions": [
       {
         "dimension": "D1",
-        "score": 0,
+        "score": null,
         "maxScore": 3,
         "criteria": [
           "First 3-5 years mostly routine templated tasks",
@@ -1516,7 +1516,7 @@
       },
       {
         "dimension": "D9",
-        "score": 0,
+        "score": null,
         "maxScore": 3,
         "criteria": [
           "No review in 3+ years, no AI content",
@@ -1528,7 +1528,7 @@
       },
       {
         "dimension": "D10",
-        "score": 0,
+        "score": null,
         "maxScore": 3,
         "criteria": [
           "No destination data",
@@ -1562,12 +1562,12 @@
     "programName": "Doctor of Science",
     "faculty": "Science",
     "level": "postgraduate",
-    "overallScore": 17,
-    "riskCategory": "HIGH RISK",
+    "overallScore": 27,
+    "riskCategory": "MODERATE RISK",
     "dimensions": [
       {
         "dimension": "D1",
-        "score": 0,
+        "score": null,
         "maxScore": 3,
         "criteria": [
           "First 3-5 years mostly routine templated tasks",
@@ -1663,7 +1663,7 @@
       },
       {
         "dimension": "D9",
-        "score": 0,
+        "score": null,
         "maxScore": 3,
         "criteria": [
           "No review in 3+ years, no AI content",
@@ -1675,7 +1675,7 @@
       },
       {
         "dimension": "D10",
-        "score": 0,
+        "score": null,
         "maxScore": 3,
         "criteria": [
           "No destination data",

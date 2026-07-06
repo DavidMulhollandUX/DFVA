@@ -5,17 +5,17 @@ const content = {
   institution: "University of Melbourne",
   markdown: `## IMPROVEMENT PLAN: Doctor of Science (DH-SC)
 
-**Current:** 17/36 HIGH RISK (band figure is structurally driven by three not-applicable training-pipeline dimensions — see Diagnostic Summary) | **Duration:** Not applicable — examination-only Higher Doctorate, no defined duration or credit points
+**Current:** 27/36 MODERATE RISK (adjusted — renormalised over the 8 applicable dimensions after excluding three not-applicable training-pipeline dimensions; sits exactly on the MODERATE|RESILIENT boundary at 27.5, held down to 27, see Diagnostic Summary) | **Duration:** Not applicable — examination-only Higher Doctorate, no defined duration or credit points
 **Target:** N/A — this is not a curriculum to redesign toward RESILIENT; the target is a **strengthened examination and recognition process** that keeps the credential's signal durable | **Gap:** Not a curriculum gap; see Section 2 for the process-hardening equivalent
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The Doctor of Science scored **17/36 — HIGH RISK** on the standard DFVA scorecard, but this number should not be read the way it would be for a coursework degree. Three dimensions (D1, D9, D10) score at or near zero purely because their underlying object — an entry-level graduate cohort, a curriculum with review cycles, and post-graduation outcome data — does not exist for an examination-only Higher Doctorate. The dimensions that *do* apply to what the DH-SC actually is (D2, D3, D4, D6, D7, and the bonus dimension B) all score at or near the ceiling, because the examination standard itself ("substantial, original contribution... authoritative standing") is the maximal expression of systems thinking, technical depth, decision-making under uncertainty, domain specialisation, and research rigour. The genuine, actionable gaps are D5 (AI literacy/governance in the examination process) and D8 (not applicable in the normal sense, but worth a light institutional note).
+The Doctor of Science scored **27/36 — MODERATE RISK** (adjusted), renormalised over the 8 applicable dimensions. Under the old sum-with-zeros convention it read 17/36 HIGH RISK — a number that should never have been read the way it would for a coursework degree. Three dimensions (D1, D9, D10) are now marked Not Applicable and excluded, because their underlying object — an entry-level graduate cohort, a curriculum with review cycles, and post-graduation outcome data — does not exist for an examination-only Higher Doctorate. (The adjusted score lands on exactly 27.5 before rounding, i.e. right on the MODERATE|RESILIENT boundary; renormalisation rounds ties down, holding it at the top of MODERATE — read it as "strong on everything assessable", not as a precise band claim.) The dimensions that *do* apply to what the DH-SC actually is (D2, D3, D4, D6, D7, and the bonus dimension B) all score at or near the ceiling, because the examination standard itself ("substantial, original contribution... authoritative standing") is the maximal expression of systems thinking, technical depth, decision-making under uncertainty, domain specialisation, and research rigour. The genuine, actionable gaps are D5 (AI literacy/governance in the examination process) and D8 (not applicable in the normal sense, but worth a light institutional note).
 
 | Dimension | Score | Status |
 |---|---|---|
-| D1 — Automation Exposure of Roles | 0/3 | Structurally N/A — no graduate cohort exists |
+| D1 — Automation Exposure of Roles | N/A | Not applicable — no graduate cohort exists; excluded from score |
 | D2 — Systems Thinking and Problem Framing | 3/3 | Strong |
 | D3 — Technical and Quantitative Depth | 3/3 | Strong |
 | D4 — Decision-Making Under Uncertainty | 3/3 | Strong |
@@ -23,10 +23,10 @@ The Doctor of Science scored **17/36 — HIGH RISK** on the standard DFVA scorec
 | D6 — Domain Depth and Specialisation | 3/3 | Strong |
 | D7 — Research Methods Rigour | 3/3 | Strong |
 | D8 — Human and Relational Capability | 1/3 | Critical gap (not a meaningful criterion for this award type; noted, not prioritised) |
-| D9 — Curriculum Currency and Adaptability | 0/3 | Structurally N/A — no curriculum exists |
-| D10 — Graduate Outcome Evidence | 0/3 | Structurally N/A — no graduate cohort exists |
+| D9 — Curriculum Currency and Adaptability | N/A | Not applicable — no curriculum exists; excluded from score |
+| D10 — Graduate Outcome Evidence | N/A | Not applicable — no graduate cohort exists; excluded from score |
 | B — Irreplaceability Premium (bonus) | 3/3 | Strong |
-| **TOTAL** | **17/36** | **HIGH RISK (numeric band; substantively RESILIENT on all applicable dimensions — see Section 2)** |
+| **TOTAL (applicable: 8/11)** | **27/36 adjusted** | **MODERATE RISK (borderline; 27.5 rounded down)** |
 
 ---
 
@@ -38,9 +38,9 @@ Because D1, D9, and D10 are structurally inapplicable rather than genuine weakne
 |---|---|---|---|
 | D5 — AI Literacy and Governance | 1/3 | True gap: the examination process has no explicit framework for assessing AI-assisted vs. AI-independent contribution in a candidate's submitted body of work | Draft an AI-authorship provenance framework for DH-SC examination panels; require candidates to disclose AI-tool use in the underlying research/publication record |
 | D8 — Human and Relational Capability | 1/3 | Not a genuine gap — this dimension measures a criterion (interpersonal/clinical/ethical practice) that is not part of what the DH-SC examines or should examine | No intervention recommended; document in the assessment methodology that this dimension is inapplicable by design for research-recognition credentials |
-| D1 — Automation Exposure of Roles | 0/3 | Structural non-gap: no graduate cohort exists to expose to automation | Reaffirm and clearly communicate (in handbook and marketing) that the DH-SC is not a training pathway, preventing future misapplication of this dimension |
-| D9 — Curriculum Currency and Adaptability | 0/3 | Structural non-gap: no curriculum exists to keep current | Substitute a lightweight "examination process currency" check — periodic benchmarking against peer Higher Doctorates (see Section 5) |
-| D10 — Graduate Outcome Evidence | 0/3 | Structural non-gap: no graduate cohort exists to track outcomes for | Substitute a lightweight post-award impact log for DH-SC recipients (continued leadership, invited addresses, citations to examined work) |
+| D1 — Automation Exposure of Roles | N/A | Structural non-gap: no graduate cohort exists to expose to automation | Reaffirm and clearly communicate (in handbook and marketing) that the DH-SC is not a training pathway, preventing future misapplication of this dimension |
+| D9 — Curriculum Currency and Adaptability | N/A | Structural non-gap: no curriculum exists to keep current | Substitute a lightweight "examination process currency" check — periodic benchmarking against peer Higher Doctorates (see Section 5) |
+| D10 — Graduate Outcome Evidence | N/A | Structural non-gap: no graduate cohort exists to track outcomes for | Substitute a lightweight post-award impact log for DH-SC recipients (continued leadership, invited addresses, citations to examined work) |
 
 ---
 

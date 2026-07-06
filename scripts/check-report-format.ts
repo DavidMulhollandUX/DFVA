@@ -118,7 +118,9 @@ for (const file of REPORT_FILES) {
   }
 
   // Risk band line
-  if (!content.match(/\*\*Risk band: (RESILIENT|MODERATE RISK|HIGH RISK|CRITICAL)/)) {
+  if (
+    !content.match(/\*\*Risk band: (RESILIENT|MODERATE RISK|HIGH RISK|CRITICAL|NOT RATABLE)/)
+  ) {
     issues.push('missing or malformed Risk band line')
   }
 

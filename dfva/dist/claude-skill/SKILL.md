@@ -29,8 +29,8 @@ Given a program name, curriculum, or URL:
 
 1. **Program profile** — institution, level, duration, likely graduate roles
 2. **Automation exposure** — years 1–5 typical graduate work
-3. **Scorecard** — all 10 dimensions + bonus (0–3 each) with curriculum evidence
-4. **Total score** → risk band
+3. **Scorecard** — all 10 dimensions + bonus (0–3 each) with curriculum evidence; mark a dimension **N/A** (not 0) when its construct does not exist for the program (e.g. a higher doctorate by examination has no cohort/curriculum/outcome data)
+4. **Total score** → risk band. N/A dimensions are excluded, never counted as 0: total = round( sum of applicable scores × 11 / applicable count ), out of 36 (a plain sum when all apply). State `Applicable dimensions: k / 11`; if fewer than 7 apply, mark **NOT RATABLE** instead of a band.
 5. **Three threshold questions** — YES / NO / UNCERTAIN with rationale
 6. **Verdict** — direct, focused on 2027 viability
 7. **Recommendations table** — Priority, Action, Dimension, Effort

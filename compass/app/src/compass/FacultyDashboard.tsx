@@ -70,10 +70,14 @@ function computeFacultyStats(): FacultyStats[] {
 
       const dimAvgs: Record<string, number> = {};
       for (const dim of DIM_LABELS) {
-        const scores = programs.map(
-          (p) => p.dimensions.find((d) => d.label === dim)?.score ?? 0,
-        );
-        dimAvgs[dim] = scores.reduce((s, v) => s + v, 0) / scores.length;
+        // Exclude Not-Applicable dimensions (score === null) so they don't drag the average to 0.
+        const scores = programs
+          .map((p) => p.dimensions.find((d) => d.label === dim)?.score)
+          .filter((s): s is number => s !== null && s !== undefined);
+        dimAvgs[dim] =
+          scores.length > 0
+            ? scores.reduce((s, v) => s + v, 0) / scores.length
+            : 0;
       }
 
       const entries = Object.entries(dimAvgs);
@@ -313,8 +317,9 @@ function FacultyDetail({ f }: { f: FacultyStats }) {
             </thead>
             <tbody>
               {programs.map((p) => {
-                const weak = [...p.dimensions]
-                  .sort((a, b) => a.score - b.score)
+                const weak = p.dimensions
+                  .filter((d) => d.score !== null)
+                  .sort((a, b) => (a.score as number) - (b.score as number))
                   .slice(0, 2)
                   .map((d) => d.label)
                   .join(", ");

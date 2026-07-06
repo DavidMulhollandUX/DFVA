@@ -95,7 +95,7 @@ server.registerTool(
       .optional()
       .describe("Filter by faculty name (case-insensitive substring match)"),
     riskCategory: z
-      .enum(["RESILIENT", "MODERATE RISK", "HIGH RISK", "CRITICAL"])
+      .enum(["RESILIENT", "MODERATE RISK", "HIGH RISK", "CRITICAL", "NOT RATABLE"])
       .optional()
       .describe("Filter by risk category"),
     minScore: z

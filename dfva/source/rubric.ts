@@ -225,28 +225,95 @@ export const THRESHOLD_QUESTIONS = {
 /**
  * Scoring formula — THE definition.
  *
- * A program's total is the simple sum of all 11 dimension scores (D1–D10 core + bonus B),
- * each 0–3, with NO weighting and the bonus counting ×1. So:
- *   total = Σ dimensions[i].score   and   max achievable = 11 × 3 = 33.
+ * A program is scored on 11 dimensions (D1–D10 core + bonus B), each 0–3, with NO weighting
+ * and the bonus counting ×1. A dimension can also be **Not Applicable** (`score: null`) when
+ * its underlying construct does not exist for the program — e.g. a higher doctorate by
+ * examination has no graduate cohort (D1), no curriculum (D9) and no outcome data (D10). NA is
+ * distinct from a genuine 0: it means "cannot be assessed", not "worst performance".
+ *
+ * The reported total is the **renormalised** (pro-rata) score over the applicable dimensions:
+ *   adjusted = round( Σ(applicable scores) × 11 / (count of applicable) )
+ * This is algebraically identical to imputing each NA dimension at the program's own
+ * applicable-dimension mean. When nothing is NA the factor is ×11/11 = 1, so `adjustedScore`
+ * equals the plain sum `totalScore` — normal programs are unaffected.
+ *
+ * If fewer than `MIN_APPLICABLE_TO_RATE` (7) dimensions are applicable the renormalised number
+ * is too fragile to band, so the program is `'NOT RATABLE'` — its report keeps its qualitative
+ * verdict but asserts no numeric risk band.
  *
  * `MAX_SCORE = 36` is a LEGACY nominal ceiling, kept only as the published "/36" denominator
- * and the upper bound of the RESILIENT band. Nothing can actually score above 33 — there is
- * no 12th dimension and the bonus is not double-weighted. `programData.ts` `score` MUST equal
- * `totalScore(dimensions)`; where it diverges, the stored score is a data-entry error.
+ * and the upper bound of the RESILIENT band. Nothing can actually score above 33 — there is no
+ * 12th dimension and the bonus is not double-weighted. `programData.ts` `score` MUST equal
+ * `adjustedScore(dimensions)`; where it diverges, the stored score is a data-entry error.
  */
 export const MAX_SCORE = 36
 
 /** Maximum total that is actually reachable (11 dimensions × 3). The "/36" is nominal. */
 export const MAX_ACHIEVABLE_SCORE = 33
 
-/** Canonical total: the plain sum of all 11 dimension scores (0–3 each, bonus ×1). */
-export function totalScore(dimensions: ReadonlyArray<{ score: number }>): number {
+/** Number of scored dimensions (D1–D10 + bonus B). Used as the renormalisation numerator. */
+export const DIMENSION_COUNT = 11
+
+/** Below this many applicable dimensions a program is 'NOT RATABLE' rather than banded. */
+export const MIN_APPLICABLE_TO_RATE = 7
+
+/** A dimension is applicable when it carries a real 0–3 score (null/undefined = Not Applicable). */
+export function isApplicable(d: { score: number | null | undefined }): boolean {
+  return d.score !== null && d.score !== undefined
+}
+
+/** Count of applicable (non-NA) dimensions. */
+export function applicableCount(dimensions: ReadonlyArray<{ score: number | null | undefined }>): number {
+  return dimensions.filter(isApplicable).length
+}
+
+/** Plain sum over the applicable dimensions only (0 if all NA). */
+export function rawApplicableTotal(dimensions: ReadonlyArray<{ score: number | null | undefined }>): number {
+  return dimensions.reduce((sum, d) => sum + (isApplicable(d) ? (d.score as number) : 0), 0)
+}
+
+/**
+ * Canonical total: the renormalised (pro-rata) score over applicable dimensions, on the /36
+ * scale. Equals the plain sum when no dimension is NA. Returns 0 when every dimension is NA.
+ *
+ * Ties round DOWN (round-half-down): an imputed program is never promoted into a higher risk
+ * band by a rounding tie alone — e.g. an applicable mean of 2.5/3 renormalises to 27.5 → 27
+ * (MODERATE), not 28 (RESILIENT). All-applicable programs sum to integers, so this only ever
+ * affects NA programs whose renormalised value lands exactly on x.5.
+ */
+export function adjustedScore(dimensions: ReadonlyArray<{ score: number | null | undefined }>): number {
+  const n = applicableCount(dimensions)
+  if (n === 0) return 0
+  // round-half-down: Math.ceil(v - 0.5) rounds normally but breaks x.5 ties downward.
+  return Math.ceil((rawApplicableTotal(dimensions) * DIMENSION_COUNT) / n - 0.5)
+}
+
+/**
+ * Legacy plain sum of dimension scores (NA counts as 0). Retained for callers that want the raw
+ * total; the canonical, band-determining figure is `adjustedScore`. Identical to `adjustedScore`
+ * when no dimension is NA.
+ */
+export function totalScore(dimensions: ReadonlyArray<{ score: number | null | undefined }>): number {
   return dimensions.reduce((sum, d) => sum + (d.score ?? 0), 0)
 }
 
-/** The risk band for a given total, per RISK_BANDS. */
+/** The four numeric risk bands, plus 'NOT RATABLE' for programs with too few applicable dimensions. */
+export type RiskCategory = RiskBandName | 'NOT RATABLE'
+
+/** The risk band for a given numeric total, per RISK_BANDS. */
 export function bandForScore(score: number): RiskBandName {
   return (RISK_BANDS.find((b) => score >= b.min && score <= b.max) ?? RISK_BANDS[RISK_BANDS.length - 1]).band
+}
+
+/**
+ * The canonical risk category for a set of dimensions: 'NOT RATABLE' when fewer than
+ * MIN_APPLICABLE_TO_RATE are applicable, otherwise the band of the renormalised adjustedScore.
+ */
+export function bandForDimensions(
+  dimensions: ReadonlyArray<{ score: number | null | undefined }>,
+): RiskCategory {
+  if (applicableCount(dimensions) < MIN_APPLICABLE_TO_RATE) return 'NOT RATABLE'
+  return bandForScore(adjustedScore(dimensions))
 }
 
 // ---------------------------------------------------------------------------

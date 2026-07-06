@@ -85,11 +85,11 @@ const reportMeta: Record<
   "dfva-mc-dmed": { score: "27 / 36", riskBand: "MODERATE RISK" },
   "dfva-mc-dvetmed": { score: "27 / 36", riskBand: "MODERATE RISK" },
   "dfva-300bb": { score: "19 / 36", riskBand: "HIGH RISK" },
-  "dfva-dh-lld": { score: "16 / 36", riskBand: "HIGH RISK" },
+  "dfva-dh-lld": { score: "22 / 36", riskBand: "MODERATE RISK" },
   "dfva-dr-philik": { score: "27 / 36", riskBand: "MODERATE RISK" },
   "dfva-dr-phillaw": { score: "23 / 36", riskBand: "MODERATE RISK" },
   "dfva-dr-philvet": { score: "26 / 36", riskBand: "MODERATE RISK" },
-  "dfva-dh-sc": { score: "17 / 36", riskBand: "HIGH RISK" },
+  "dfva-dh-sc": { score: "27 / 36", riskBand: "MODERATE RISK" },
   "dfva-me-dcd": { score: "29 / 36", riskBand: "RESILIENT" },
   "dfva-mc-ddensur": { score: "25 / 36", riskBand: "MODERATE RISK" },
   "dfva-mc-doptom": { score: "24 / 36", riskBand: "MODERATE RISK" },
@@ -636,7 +636,7 @@ interface StructuredReport {
   riskBand: string;
   dimensions: {
     label: string;
-    score: number;
+    score: number | null; // null = Not Applicable
     max: number;
     rationale?: string;
   }[];
@@ -675,7 +675,7 @@ function dimScoreClasses(score: number, max: number): string {
 
 interface DimensionPopoverProps {
   dim: Dimension;
-  score: number;
+  score: number | null;
   evidence?: DimensionEvidence;
   anchorRect: DOMRect | null;
   onClose: () => void;
@@ -729,7 +729,8 @@ function DimensionPopover({
     0: "#9ca3af",
   };
 
-  const getStepColor = (s: number) => stepColors[s] || "#9ca3af";
+  const getStepColor = (s: number | null) =>
+    s === null ? "#9ca3af" : stepColors[s] || "#9ca3af";
 
   return (
     <div
@@ -844,7 +845,7 @@ function DimensionPopover({
 interface InteractiveRubricPanelProps {
   dimensions: {
     label: string;
-    score: number;
+    score: number | null; // null = Not Applicable
     max: number;
     rationale?: string;
   }[];
@@ -865,7 +866,7 @@ function InteractiveRubricPanel({
 }: InteractiveRubricPanelProps) {
   const [openPopover, setOpenPopover] = useState<{
     dim: Dimension;
-    score: number;
+    score: number | null;
     rect: DOMRect;
     rationale?: string;
   } | null>(null);
@@ -959,12 +960,13 @@ function InteractiveRubricPanel({
                   {/* Segmented bar graph */}
                   <div className="flex w-full items-center gap-1">
                     {Array.from({ length: d.max || 3 }).map((_, segmentIdx) => {
-                      const filled = segmentIdx < d.score;
+                      // NA dimensions (score === null) render as empty, neutral segments.
+                      const filled = d.score !== null && segmentIdx < d.score;
                       return (
                         <div
                           key={segmentIdx}
                           className={`h-2 flex-1 rounded-full ${
-                            filled
+                            filled && d.score !== null
                               ? getSegmentColor(d.score, d.max || 3)
                               : "bg-muted-foreground/20"
                           }`}
@@ -974,12 +976,13 @@ function InteractiveRubricPanel({
                   </div>
 
                   <span
-                    className={`text-right text-xs font-bold tabular-nums ${getTextColor(
-                      d.score,
-                      d.max || 3,
-                    )}`}
+                    className={`text-right text-xs font-bold tabular-nums ${
+                      d.score === null
+                        ? "text-muted-foreground"
+                        : getTextColor(d.score, d.max || 3)
+                    }`}
                   >
-                    {d.score}/{d.max || 3}
+                    {d.score === null ? "N/A" : `${d.score}/${d.max || 3}`}
                   </span>
                 </button>
               </div>

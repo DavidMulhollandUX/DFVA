@@ -2,7 +2,7 @@ import { RADAR_LABELS } from "../../compass/data/rubric";
 
 export interface RadarDimension {
   label: string;
-  score: number;
+  score: number | null; // null = Not Applicable (imputed at the applicable mean for plotting)
   max: number;
 }
 
@@ -26,6 +26,18 @@ export function ProgramRadar({
       !d.label.toLowerCase().includes("irreplaceability"),
   );
   const n = Math.min(coreDims.length, 10);
+
+  // Not-Applicable dimensions (score === null) have no value to plot. Impute them at the
+  // mean of the applicable core dimensions — the same mean-imputation the renormalised score
+  // uses — so the radar shape matches the adjusted assessment rather than spiking to zero.
+  const applicable = coreDims
+    .map((d) => d.score)
+    .filter((s): s is number => s !== null);
+  const imputed =
+    applicable.length > 0
+      ? applicable.reduce((s, v) => s + v, 0) / applicable.length
+      : 0;
+  const val = (d: RadarDimension) => (d.score === null ? imputed : d.score);
 
   const cx = size / 2;
   const cy = size / 2;
@@ -54,7 +66,7 @@ export function ProgramRadar({
   const dataPolygon = coreDims
     .slice(0, n)
     .map((d, i) => {
-      const p = polar((d.score / 3) * maxR, i);
+      const p = polar((val(d) / 3) * maxR, i);
       return `${p.x.toFixed(2)},${p.y.toFixed(2)}`;
     })
     .join(" ");
@@ -105,7 +117,7 @@ export function ProgramRadar({
           strokeLinejoin="round"
         />
         {coreDims.slice(0, n).map((d, i) => {
-          const p = polar((d.score / 3) * maxR, i);
+          const p = polar((val(d) / 3) * maxR, i);
           return <circle key={i} cx={p.x} cy={p.y} r={2.5} fill={color} />;
         })}
         {coreDims.slice(0, n).map((_, i) => {
