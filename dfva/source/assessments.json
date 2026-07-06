@@ -2150,7 +2150,7 @@
     "programName": "Doctor of Philosophy - Business and Economics",
     "faculty": "Business & Economics",
     "level": "postgraduate",
-    "overallScore": 22,
+    "overallScore": 25,
     "riskCategory": "MODERATE RISK",
     "dimensions": [
       {
@@ -2297,7 +2297,7 @@
     "programName": "Master of Psychology (Educational and Developmental)/Doctor of Philosophy",
     "faculty": "Medicine, Dentistry & Health",
     "level": "graduate-research",
-    "overallScore": 32,
+    "overallScore": 29,
     "riskCategory": "RESILIENT",
     "dimensions": [
       {
@@ -3032,7 +3032,7 @@
     "programName": "Doctor of Philosophy - Law",
     "faculty": "Law",
     "level": "postgraduate",
-    "overallScore": 23,
+    "overallScore": 24,
     "riskCategory": "MODERATE RISK",
     "dimensions": [
       {
@@ -10931,7 +10931,7 @@
     "programName": "Master of TESOL",
     "faculty": "Education",
     "level": "postgraduate",
-    "overallScore": 23,
+    "overallScore": 21,
     "riskCategory": "MODERATE RISK",
     "dimensions": [
       {
@@ -11051,6 +11051,18 @@
           "Generic satisfaction data only",
           "Destination data published with partial detail",
           "Granular roles/industries/salary/time-to-employment data"
+        ],
+        "notes": ""
+      },
+      {
+        "dimension": "B",
+        "score": 2,
+        "maxScore": 3,
+        "criteria": [
+          "Easily substituted",
+          "One weak differentiator",
+          "Clear dual-skill value",
+          "Rare integration of technical depth, domain expertise, and human judgment"
         ],
         "notes": ""
       }
@@ -11313,12 +11325,12 @@
     "programName": "Master of Urban Horticulture",
     "faculty": "Science",
     "level": "postgraduate",
-    "overallScore": 25,
+    "overallScore": 24,
     "riskCategory": "MODERATE RISK",
     "dimensions": [
       {
         "dimension": "D1",
-        "score": 3,
+        "score": 2,
         "maxScore": 3,
         "criteria": [
           "First 3-5 years mostly routine templated tasks",
@@ -11330,7 +11342,7 @@
       },
       {
         "dimension": "D2",
-        "score": 2,
+        "score": 3,
         "maxScore": 3,
         "criteria": [
           "Tool/process execution only",
@@ -11414,7 +11426,7 @@
       },
       {
         "dimension": "D9",
-        "score": 2,
+        "score": 3,
         "maxScore": 3,
         "criteria": [
           "No review in 3+ years, no AI content",
@@ -11433,6 +11445,18 @@
           "Generic satisfaction data only",
           "Destination data published with partial detail",
           "Granular roles/industries/salary/time-to-employment data"
+        ],
+        "notes": ""
+      },
+      {
+        "dimension": "B",
+        "score": 2,
+        "maxScore": 3,
+        "criteria": [
+          "Easily substituted",
+          "One weak differentiator",
+          "Clear dual-skill value",
+          "Rare integration of technical depth, domain expertise, and human judgment"
         ],
         "notes": ""
       }
