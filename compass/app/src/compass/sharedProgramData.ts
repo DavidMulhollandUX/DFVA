@@ -14,7 +14,12 @@ export interface ProgramReport {
   date: string;
   score: number;
   maxScore: number;
-  riskBand: "RESILIENT" | "MODERATE RISK" | "HIGH RISK" | "CRITICAL" | "NOT RATABLE";
+  riskBand:
+    | "RESILIENT"
+    | "MODERATE RISK"
+    | "HIGH RISK"
+    | "CRITICAL"
+    | "NOT RATABLE";
   thresholds: {
     q1: "YES" | "NO" | "UNCERTAIN";
     q2: "YES" | "NO" | "UNCERTAIN";

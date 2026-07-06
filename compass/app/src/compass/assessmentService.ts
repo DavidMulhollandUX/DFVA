@@ -5,7 +5,12 @@ export interface AssessmentResult {
   programName: string;
   score: number;
   maxScore: number;
-  riskBand: "RESILIENT" | "MODERATE RISK" | "HIGH RISK" | "CRITICAL" | "NOT RATABLE";
+  riskBand:
+    | "RESILIENT"
+    | "MODERATE RISK"
+    | "HIGH RISK"
+    | "CRITICAL"
+    | "NOT RATABLE";
   thresholds: { q1: string; q2: string; q3: string };
   // score === null marks a Not-Applicable dimension (construct doesn't exist for this program).
   dimensions: { label: string; score: number | null; max: number }[];
