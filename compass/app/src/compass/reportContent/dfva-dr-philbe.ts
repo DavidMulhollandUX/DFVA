@@ -58,7 +58,7 @@ Typical graduate destinations bifurcate sharply by discipline: academia (postdoc
 | 10 | Graduate Outcome Evidence | 1 | The handbook text provides no destination-tracking or granular outcome data (roles, industries, salary, time-to-employment) specific to this program; Melbourne publishes general graduate outcome surveys but nothing granular enough at the PhD-by-discipline level is evidenced here. |
 | B | Irreplaceability Premium (Bonus) | 3 | The combination of deep technical/quantitative method, a specific specialist discipline (one of eight), and the examined, defended judgment of an independent original contribution is a rare integration that strongly resists AI substitution — this is close to the ceiling case for the bonus dimension. |
 
-**TOTAL: 22 / 36**  
+**TOTAL: 25 / 36**  
 **Risk band: MODERATE RISK (20-27)**
 
 ### 5. THREE THRESHOLD QUESTIONS
