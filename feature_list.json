@@ -1,18 +1,19 @@
 {
-  "updated": "2026-07-04",
+  "updated": "2026-07-08",
   "loops": {
     "spec_loop": {
-      "last_run": "2026-07-04",
-      "features_generated": 11
+      "last_run": "2026-07-08",
+      "features_generated": 12
     },
     "dev_loop": {
-      "last_run": "2026-07-05T00:00:00Z",
+      "last_run": "2026-07-06T02:04:14Z",
       "features_built": 8
     },
     "research_loop": {
-      "last_run": "2026-06-18",
-      "source": "forums",
-      "signals_found": 6,
+      "last_run": "2026-07-06",
+      "source": "producthunt",
+      "source_fallback": "github",
+      "signals_found": 4,
       "signals_promoted": 3
     }
   },
@@ -110,6 +111,43 @@
       "type": "competitor_weakness",
       "source": "research-loop forums",
       "detail": "Coursedog API docs are inaccurate (password field naming), dual-ID system confuses developers, undocumented required parameters (doIntegration=true), and non-standard response formats. Developers must inspect browser network tabs to use the API. Clean, well-documented DFVA API would contrast sharply. Phase 1 built: API key management backend (19 tests), developer portal landing page, competitive comparison matrix, code snippet library, NavBar integration."
+    },
+    {
+      "id": "feat-010",
+      "name": "Second Confirmed Coursedog Migration — Universal Data Extraction Pain Pattern",
+      "status": "draft",
+      "spec_file": "features/feat-010.md",
+      "branch": "feat/feat-010",
+      "created": "2026-07-06",
+      "priority": "high",
+      "score": 8,
+      "type": "competitor_weakness",
+      "source": "research-loop social",
+      "detail": "Mercy University 25Live → Coursedog migration (June 2026) is the SECOND independent project requiring custom Selenium/Python extraction code because legacy systems provide no structured data export. Combined with the first migration (Modern Campus → Coursedog, Mar-Apr 2026), a pattern is confirmed: every Coursedog migration requires custom scraping. DFVA should position as the migration-safe alternative — structured data from day one, no HTML scraping required."
+    },
+    {
+      "id": "feat-011",
+      "name": "TechnologyOne Reporting Gap — DFVA as T1's Missing Analytics Layer",
+      "status": "planned",
+      "spec_file": "features/feat-011.md",
+      "created": "2026-07-06",
+      "priority": "high",
+      "score": 7,
+      "type": "pain_point",
+      "source": "research-loop social",
+      "detail": "GitHub technologyone-analyser project (active through June 2026, 10+ issues) is a complete web app built because T1's native reporting is broken. Parses proprietary T1 formats (.t1etlp, .t1dm, .t1db, .t1xl). Requires air-gap security because T1 data is too sensitive for cloud. This directly confirms the analytics gap for DFVA's Go8 target competitor. DFVA can position as the analytics standard T1 itself cannot deliver."
+    },
+    {
+      "id": "feat-012",
+      "name": "Cross-Platform Scraper Regression Storm — HTML Fragility as DFVA Differentiator",
+      "status": "planned",
+      "spec_file": "features/feat-012.md",
+      "created": "2026-07-06",
+      "priority": "high",
+      "score": 7,
+      "type": "market_gap",
+      "source": "research-loop producthunt",
+      "detail": "On July 5, 2026, the cc-coursemap production scraper suffered a 6-state simultaneous regression (MN, MA, CT, VT, WV, PA) across Coursedog/CourseLeaf. A single upstream HTML change broke all parsers. Combined with the open 'Prod health check failing' incident (June 23), this confirms HTML-based curriculum data is becoming MORE fragile, not less. Fourth independent confirmation of the HTML data problem. Every cc-coursemap regression is a case study for DFVA's structured, API-first, no-scraping approach."
     }
   ]
 }
