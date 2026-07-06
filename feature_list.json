@@ -3,7 +3,7 @@
   "loops": {
     "spec_loop": {
       "last_run": "2026-07-08",
-      "features_generated": 12
+      "features_generated": 13
     },
     "dev_loop": {
       "last_run": "2026-07-08T00:00:00Z",
@@ -115,7 +115,7 @@
     {
       "id": "feat-010",
       "name": "Second Confirmed Coursedog Migration — Universal Data Extraction Pain Pattern",
-      "status": "draft",
+      "status": "approved",
       "spec_file": "features/feat-010.md",
       "branch": "feat/feat-010",
       "created": "2026-07-06",
@@ -128,8 +128,9 @@
     {
       "id": "feat-011",
       "name": "TechnologyOne Reporting Gap — DFVA as T1's Missing Analytics Layer",
-      "status": "planned",
+      "status": "draft",
       "spec_file": "features/feat-011.md",
+      "branch": "feat/feat-011",
       "created": "2026-07-06",
       "priority": "high",
       "score": 7,
