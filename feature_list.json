@@ -115,7 +115,7 @@
     {
       "id": "feat-010",
       "name": "Second Confirmed Coursedog Migration — Universal Data Extraction Pain Pattern",
-      "status": "approved",
+      "status": "in_progress",
       "spec_file": "features/feat-010.md",
       "branch": "feat/feat-010",
       "created": "2026-07-06",
