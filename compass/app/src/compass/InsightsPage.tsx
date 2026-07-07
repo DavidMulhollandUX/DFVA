@@ -70,10 +70,18 @@ export default function InsightsPage() {
         </Card>
 
         {/* Faculty cards */}
-        <h2 className="text-foreground mb-4 flex items-center gap-2 text-lg font-semibold">
-          <Building2 className="h-5 w-5" />
-          Faculty Insight Reports
-        </h2>
+        <div className="mb-4 flex items-center justify-between gap-3">
+          <h2 className="text-foreground flex items-center gap-2 text-lg font-semibold">
+            <Building2 className="h-5 w-5" />
+            Faculty Insight Reports
+          </h2>
+          <Link
+            to="/insights/faculty"
+            className="text-primary inline-flex shrink-0 items-center gap-1.5 text-sm font-medium hover:underline"
+          >
+            Compare all faculties <ArrowRight className="h-4 w-4" />
+          </Link>
+        </div>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {faculties.map(([name, stats]) => (
             <Link key={name} to={`/insights/faculty/${facultySlug(name)}`}>
