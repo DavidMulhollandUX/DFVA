@@ -625,6 +625,12 @@ export default function FacultyDashboard() {
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-16">
+      <Link
+        to="/insights"
+        className="text-muted-foreground hover:text-foreground mb-4 inline-flex items-center gap-2 text-sm"
+      >
+        <ArrowLeft className="h-4 w-4" /> Back to Insights
+      </Link>
       <div className="mb-10">
         <h1 className="text-foreground flex items-center gap-3 text-3xl font-bold tracking-tight">
           <Building2 className="text-primary h-8 w-8" />
