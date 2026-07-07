@@ -1885,12 +1885,6 @@ export const riskBandConfig: Record<
   },
 };
 
-export const thresholdConfig: Record<string, { color: string }> = {
-  YES: { color: "text-red-600 dark:text-red-400" },
-  NO: { color: "text-emerald-600 dark:text-emerald-400" },
-  UNCERTAIN: { color: "text-yellow-600 dark:text-yellow-400" },
-};
-
 export const dimBarColor = (score: number, max: number) => {
   const pct = score / max;
   if (pct >= 0.67) return "bg-emerald-500";

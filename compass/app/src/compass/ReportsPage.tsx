@@ -21,7 +21,6 @@ import {
 } from "lucide-react";
 import {
   riskBandConfig,
-  thresholdConfig,
   dimBarColor,
   type DimensionScore,
 } from "./sharedProgramData";
@@ -121,11 +120,23 @@ function ThresholdPills({
     q3: "YES" | "NO" | "UNCERTAIN";
   };
 }) {
+  // `good` = the favourable answer, so green = good / red = bad holds per-question.
+  // q1 ("AI replaces output?") is inverted: NO is the good case.
   const items = [
-    { label: "AI replaces output?", value: thresholds.q1 },
-    { label: "Designs systems / owns decisions?", value: thresholds.q2 },
-    { label: "More employable in 5 years?", value: thresholds.q3 },
+    { label: "AI replaces output?", value: thresholds.q1, good: "NO" },
+    {
+      label: "Designs systems / owns decisions?",
+      value: thresholds.q2,
+      good: "YES",
+    },
+    { label: "More employable in 5 years?", value: thresholds.q3, good: "YES" },
   ];
+  const thresholdColor = (value: string, good: string): string => {
+    if (value === good) return "text-emerald-600 dark:text-emerald-400";
+    if (value === "YES" || value === "NO")
+      return "text-red-600 dark:text-red-400";
+    return "text-yellow-600 dark:text-yellow-400";
+  };
   return (
     <div className="bg-muted/20 border-border/45 mt-4 space-y-1.5 rounded-lg border p-3">
       {items.map((item) => (
@@ -135,9 +146,10 @@ function ThresholdPills({
         >
           <span className="text-muted-foreground text-xs">{item.label}</span>
           <span
-            className={`text-xs font-bold ${
-              thresholdConfig[item.value]?.color ?? ""
-            }`}
+            className={`text-xs font-bold ${thresholdColor(
+              item.value,
+              item.good,
+            )}`}
           >
             {item.value}
           </span>

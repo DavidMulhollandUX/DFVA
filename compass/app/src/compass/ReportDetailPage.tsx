@@ -1010,31 +1010,37 @@ function InteractiveRubricPanel({
             </p>
             <div className="space-y-3">
               {[
+                // `good` = the answer that is FAVOURABLE for the program, so the
+                // badge is green when val === good and red for the opposite.
+                // q1 is inverted: a graduate AI *can't* replace is the good case.
                 {
                   q: "q1",
                   label:
                     "Could AI produce 80% of this grad's first-2yr output?",
                   val: thresholds.q1,
+                  good: "NO",
                 },
                 {
                   q: "q2",
                   label:
                     "Does this program train graduates to design systems, own decisions, or generate original insight?",
                   val: thresholds.q2,
+                  good: "YES",
                 },
                 {
                   q: "q3",
                   label:
                     "Will these graduates be more employable in 5 years than today?",
                   val: thresholds.q3,
+                  good: "YES",
                 },
               ].map((item) => {
                 let badgeBg =
                   "bg-yellow-500/10 text-yellow-600 dark:text-yellow-400 border border-yellow-500/20";
-                if (item.val === "YES")
+                if (item.val === item.good)
                   badgeBg =
                     "bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20";
-                if (item.val === "NO")
+                else if (item.val === "YES" || item.val === "NO")
                   badgeBg =
                     "bg-red-500/10 text-red-600 dark:text-red-400 border border-red-500/20";
 
@@ -1092,9 +1098,17 @@ interface MarkdownSection {
   content: string;
 }
 
+// Strip HTML comments (e.g. `<!-- LABOUR-EVIDENCE:START -->` injection markers)
+// before rendering. react-markdown v9 has no rehype-raw, so raw HTML renders as
+// LITERAL TEXT — an un-stripped comment would show up verbatim on the page. This
+// guards every markdown source (pre-generated reports, mock, and live LLM output).
+function stripHtmlComments(markdown: string): string {
+  return markdown.replace(/[ \t]*<!--[\s\S]*?-->[ \t]*\n?/g, "");
+}
+
 function parseMarkdownToSections(markdown: string): MarkdownSection[] {
   if (!markdown) return [];
-  const parts = markdown.split(/\n##\s+/);
+  const parts = stripHtmlComments(markdown).split(/\n##\s+/);
   const sections: MarkdownSection[] = [];
   let intro = parts[0].trim();
   if (intro.startsWith("# ")) {
