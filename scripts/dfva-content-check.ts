@@ -28,6 +28,10 @@ const repoRoot = path.resolve(__dirname, '..')
 function normalize(s: string): string {
   return s
     .replace(/\r\n/g, '\n') // CRLF → LF
+    // Strip HTML comments (injection-pipeline markers). The generator strips them
+    // from the embedded copy so they never render on the site; source .md keeps
+    // them as anchors — strip here too so both sides compare equal.
+    .replace(/[ \t]*<!--[\s\S]*?-->[ \t]*\n?/g, '')
     .split('\n')
     .map((line) => line.replace(/[ \t]+$/, '')) // strip trailing whitespace
     .join('\n')

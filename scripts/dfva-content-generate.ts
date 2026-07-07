@@ -39,6 +39,18 @@ function keysInFile(file: string): string[] {
   return keys
 }
 
+/**
+ * Strip HTML comments (e.g. the `<!-- LABOUR-EVIDENCE:START/END -->` injection
+ * markers) from the report body. They are pipeline machinery — they stay in the
+ * canonical reports/*.md so the labour-evidence injection can find its block, but
+ * they must never reach the app: react-markdown (no rehype-raw) renders raw HTML
+ * as LITERAL TEXT, so an un-stripped comment shows up verbatim on the live site.
+ * dfva-content-check.ts strips the same way, so source↔embedded parity holds.
+ */
+function stripHtmlComments(md: string): string {
+  return md.replace(/[ \t]*<!--[\s\S]*?-->[ \t]*\n?/g, '')
+}
+
 /** Escape markdown for a TS template literal. Order matters: backslash first. */
 function escapeTemplate(md: string): string {
   return md.replace(/\\/g, '\\\\').replace(/`/g, '\\`').replace(/\$\{/g, '\\${')
@@ -77,7 +89,8 @@ function deriveTitle(key: string, md: string): string {
 function renderModule(key: string): string {
   const file = path.join(reportsDir, `${key}.md`)
   if (!existsSync(file)) throw new Error(`Missing source: reports/${key}.md (key "${key}")`)
-  const md = readFileSync(file, 'utf8').replace(/\r\n/g, '\n').replace(/\s+$/, '') + '\n'
+  const md =
+    stripHtmlComments(readFileSync(file, 'utf8').replace(/\r\n/g, '\n')).replace(/\s+$/, '') + '\n'
   const title = deriveTitle(key, md)
   return (
     GEN_HEADER +

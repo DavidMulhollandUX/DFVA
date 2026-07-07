@@ -133,7 +133,6 @@ Big 4 graduate cohorts noting AI literacy is now a live expectation at intake. R
 
 ---
 
-<!-- LABOUR-EVIDENCE:START -->
 ## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
 
 **Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
@@ -151,7 +150,6 @@ Big 4 graduate cohorts noting AI literacy is now a live expectation at intake. R
 **Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
 
 *Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
-<!-- LABOUR-EVIDENCE:END -->
 `,
 };
 

@@ -94,7 +94,7 @@ const content = {
 | Graduate destination data for this program | NONE | No QILT, JSA HEO, or Adzuna data currently integrated for this assessment |
 
 **Critical evidence gaps to close before institutional use:**
-1. No QILT Graduate Outcomes Survey data, JSA Higher Education Outcomes data, or Adzuna live vacancy data has been integrated for DR-PHILART specifically — this report should be treated as structural/directional only until that data is appended (see the \`<!-- LABOUR-EVIDENCE:START -->\` block pattern used in other DFVA reports, e.g. \`reports/dfva-439fs.md\`).
+1. No QILT Graduate Outcomes Survey data, JSA Higher Education Outcomes data, or Adzuna live vacancy data has been integrated for DR-PHILART specifically — this report should be treated as structural/directional only until that data is appended (see the \`\` block pattern used in other DFVA reports, e.g. \`reports/dfva-439fs.md\`).
 2. No UoM-specific Arts PhD destination survey exists to confirm the academic/non-academic split, time-to-placement, or sessional-vs-continuing academic employment rates asserted structurally above.
 3. No live job-ad scrape has been run against DR-PHILART-relevant occupations (policy analyst, research officer, curator, editor, insights analyst) to validate the job family map's substitution-pressure ratings.
 4. Salary bands require validation against actual Australian Public Service pay scales, publishing-sector award rates, and corporate strategy-analyst benchmarks rather than structural estimation.
