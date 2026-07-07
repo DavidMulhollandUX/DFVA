@@ -115,7 +115,8 @@
     {
       "id": "feat-010",
       "name": "Second Confirmed Coursedog Migration — Universal Data Extraction Pain Pattern",
-      "status": "in_progress",
+      "status": "rejected",
+      "rejected_reason": "Reverted 2026-07-08 by user request — the migration-pain surfaces (Insights card, landing-page section, /insights/migration-pain page, DevPortal row) were deemed irrelevant to the product. Do not rebuild.",
       "spec_file": "features/feat-010.md",
       "branch": "feat/feat-010",
       "created": "2026-07-06",
