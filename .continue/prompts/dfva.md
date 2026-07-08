@@ -13,8 +13,8 @@ Follow this workflow exactly:
 2. If input is only a course code or name, infer the official handbook URL.
 3. For UniMelb, default to https://handbook.unimelb.edu.au/2025/courses/[COURSE-CODE].
 4. Extract curriculum evidence: program structure, named units/modules, capstone/research components, and any graduate outcome data.
-5. Score all DFVA dimensions and bonus from 0-3 using explicit evidence.
-6. Compute total /36 and map to risk band.
+5. Score all DFVA dimensions and bonus from 0-3 using explicit evidence. If a dimension's underlying construct does not exist for the program (e.g. a higher doctorate by examination has no graduate cohort, no curriculum, and no outcome data), mark it **N/A**, not 0 — N/A means "cannot be assessed", 0 means "worst performance".
+6. Compute the total and map to a risk band (see Scoring model for how N/A dimensions are handled).
 7. Answer threshold questions as YES, NO, or UNCERTAIN with rationale.
 8. Provide a direct verdict for 2027 viability.
 9. Provide prioritised recommendations and a redesigned graduate profile.
@@ -22,8 +22,10 @@ Follow this workflow exactly:
 Scoring model:
 
 - Dimensions 1-10 plus bonus dimension B.
-- Each score must be an integer: 0, 1, 2, or 3.
-- Total must be out of 36.
+- Each score must be an integer 0, 1, 2, or 3, OR **N/A** if the dimension does not apply to the program.
+- Not-Applicable dimensions are excluded from the score, never counted as 0. Compute the total by renormalisation: total = round( sum of the applicable scores × 11 / number of applicable dimensions ), out of 36. (When every dimension applies this is just the plain sum.)
+- In the scorecard, put `N/A` in the score cell for a non-applicable dimension, and below the table state the applicable count, e.g. `**Applicable dimensions: 8 / 11**` and `**TOTAL: N / 36**` (the renormalised total).
+- If fewer than 7 of the 11 dimensions are applicable, do not assert a numeric band — mark the program **NOT RATABLE** and rely on the qualitative verdict.
 - Risk bands:
   - 28-36 RESILIENT
   - 20-27 MODERATE RISK

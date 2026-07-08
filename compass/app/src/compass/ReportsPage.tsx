@@ -98,11 +98,14 @@ function DimensionBars({ dimensions }: { dimensions: DimensionScore[] }) {
                   d.score,
                   d.max,
                 )}`}
-                style={{ width: `${(d.score / d.max) * 100}%` }}
+                style={{
+                  width:
+                    d.score === null ? "0%" : `${(d.score / d.max) * 100}%`,
+                }}
               />
             </div>
             <span className="text-foreground w-8 shrink-0 text-right text-xs font-semibold">
-              {d.score}/{d.max}
+              {d.score === null ? "N/A" : `${d.score}/${d.max}`}
             </span>
           </div>
         </div>
@@ -210,11 +213,12 @@ export default function ReportsPage() {
         result.sort((a, b) => a.program.localeCompare(b.program));
         break;
       case "risk": {
-        const order = {
+        const order: Record<string, number> = {
           CRITICAL: 0,
           "HIGH RISK": 1,
           "MODERATE RISK": 2,
           RESILIENT: 3,
+          "NOT RATABLE": 4,
         };
         result.sort(
           (a, b) => (order[a.riskBand] ?? 2) - (order[b.riskBand] ?? 2),

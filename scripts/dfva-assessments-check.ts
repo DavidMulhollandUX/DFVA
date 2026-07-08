@@ -15,6 +15,7 @@ import {
   serializeAssessments,
 } from './dfva-build-assessments'
 import type { ProgramAssessment } from '../dfva/source/types'
+import { adjustedScore, bandForDimensions } from '../dfva/source/rubric'
 
 const repoRoot = path.resolve(__dirname, '..')
 const OUT_PATH = path.join(repoRoot, 'dfva/source/assessments.json')
@@ -69,6 +70,31 @@ const enriched = fresh.filter((a) => a.labourEvidence).length
 if (enriched < 40) {
   errors.push(`expected ≥41 programs with labourEvidence, got ${enriched}`)
 }
+
+// 6) NA-aware scoring integrity. For programs with any Not-Applicable dimension the
+//    overallScore/riskCategory MUST equal the renormalisation (adjustedScore /
+//    bandForDimensions) — this is the guarantee the NA convention rests on, enforced as
+//    an error. For all-applicable programs adjustedScore reduces to the plain dimension
+//    sum; a mismatch there is a pre-existing hand-entry drift (stored score ≠ Σ dimensions)
+//    unrelated to NA handling, so it is surfaced as a warning rather than failing CI.
+const warnings: string[] = []
+for (const a of fresh) {
+  const hasNA = a.dimensions.some((d) => d.score === null)
+  const expectedScore = adjustedScore(a.dimensions)
+  const expectedBand = bandForDimensions(a.dimensions)
+  const scoreOk = a.overallScore === expectedScore
+  const bandOk = a.riskCategory === expectedBand
+  if (scoreOk && bandOk) continue
+  const msgs: string[] = []
+  if (!scoreOk)
+    msgs.push(`overallScore ${a.overallScore} ≠ adjustedScore(dimensions) ${expectedScore}`)
+  if (!bandOk)
+    msgs.push(`riskCategory "${a.riskCategory}" ≠ bandForDimensions(dimensions) "${expectedBand}"`)
+  const line = `${a.programCode}: ${msgs.join('; ')}`
+  if (hasNA) errors.push(line)
+  else warnings.push(`${line} [pre-existing sum drift — not NA-related]`)
+}
+for (const w of warnings) console.warn(`  warn: ${w}`)
 
 if (errors.length) {
   console.error('✗ dfva-assessments-check FAILED:')

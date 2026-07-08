@@ -58,7 +58,7 @@ Typical graduate destinations include registered psychologist (educational and d
 | 10 | Graduate Outcome Evidence | 2 | Registration-linked outcomes (Psychology Board of Australia registration rates, AHPRA data) are generally trackable at a sector level, but the handbook text provides no program-specific granular destination data. |
 | B | Irreplaceability Premium (Bonus) | 3 | Rare triple integration: accredited clinical/relational competency, deep specialist domain knowledge, and independent PhD-level research rigour — combined via a genuinely competitive selection filter, not merely co-located in one program. |
 
-**TOTAL: 32 / 36**  
+**TOTAL: 29 / 36**  
 **Risk band: RESILIENT (28-36)**
 
 ### 5. THREE THRESHOLD QUESTIONS
@@ -81,7 +81,7 @@ Tools relevant to that narrow slice:
 None of these tools threaten the registered clinical practice or independent research core of the DR-PHILEDP graduate profile; they compress adjacent administrative tasks.
 
 ### 7. VERDICT
-The DR-PHILEDP is one of the most durable graduate profiles in the DFVA framework because it stacks two independently resilient credentials — APAC-accredited registration eligibility in a relationally intensive clinical specialisation, and a genuine PhD research component — behind a competitive, selective transfer gate that filters for candidates capable of both, scoring RESILIENT (32/36). The single material gap is explicit AI literacy and governance content in the curriculum; nothing in the handbook text suggests graduates are being taught to supervise, critique, or govern the AI tools now used in assessment scoring, report drafting, and literature synthesis, even though those tools already touch their adjacent workflow.
+The DR-PHILEDP is one of the most durable graduate profiles in the DFVA framework because it stacks two independently resilient credentials — APAC-accredited registration eligibility in a relationally intensive clinical specialisation, and a genuine PhD research component — behind a competitive, selective transfer gate that filters for candidates capable of both, scoring RESILIENT (29/36). The single material gap is explicit AI literacy and governance content in the curriculum; nothing in the handbook text suggests graduates are being taught to supervise, critique, or govern the AI tools now used in assessment scoring, report drafting, and literature synthesis, even though those tools already touch their adjacent workflow.
 
 ### 8. RECOMMENDATIONS
 | Priority | Action | Dimension | Market Signal Link | Effort |

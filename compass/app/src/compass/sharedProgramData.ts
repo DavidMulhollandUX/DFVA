@@ -1,9 +1,9 @@
 /** Bump on every PROGRAMS change to invalidate stale client caches. */
-export const CACHE_VERSION = 3;
+export const CACHE_VERSION = 4;
 
 export interface DimensionScore {
   label: string;
-  score: number;
+  score: number | null; // null = Not Applicable (construct doesn't exist for this program)
   max: number;
 }
 
@@ -14,7 +14,12 @@ export interface ProgramReport {
   date: string;
   score: number;
   maxScore: number;
-  riskBand: "RESILIENT" | "MODERATE RISK" | "HIGH RISK" | "CRITICAL";
+  riskBand:
+    | "RESILIENT"
+    | "MODERATE RISK"
+    | "HIGH RISK"
+    | "CRITICAL"
+    | "NOT RATABLE";
   thresholds: {
     q1: "YES" | "NO" | "UNCERTAIN";
     q2: "YES" | "NO" | "UNCERTAIN";
@@ -1081,7 +1086,7 @@ export const PROGRAMS: ProgramReport[] = [
     institution: "University of Melbourne",
     level: "Master · 2 years",
     date: "2026-06-09",
-    score: 23,
+    score: 21,
     maxScore: 36,
     riskBand: "MODERATE RISK",
     thresholds: { q1: "YES", q2: "UNCERTAIN", q3: "UNCERTAIN" },
@@ -1096,6 +1101,7 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Human & Relational", score: 3, max: 3 },
       { label: "Curriculum Currency", score: 2, max: 3 },
       { label: "Outcome Evidence", score: 3, max: 3 },
+      { label: "Irreplaceability (bonus)", score: 2, max: 3 },
     ],
     assessmentSlug: "dfva-mc-tesol",
     recommendSlug: "dfva-recommend-mc-tesol",
@@ -1132,28 +1138,26 @@ export const PROGRAMS: ProgramReport[] = [
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-urbdes",
   },
   {
-    // FIXME(dfva-data): only 10 of 11 dimensions recorded, and stored score 25 is impossible —
-    // the 10 present dimensions sum to 21, so even a max (3) 11th dimension caps the total at 24.
-    // Needs reassessment; total must equal sum of all 11 dimensions (dfva/source/rubric.ts → totalScore).
     program: "Master of Urban Horticulture",
     institution: "University of Melbourne",
     level: "Master · 2 years",
     date: "2026-06-09",
-    score: 25,
+    score: 24,
     maxScore: 36,
     riskBand: "MODERATE RISK",
     thresholds: { q1: "NO", q2: "YES", q3: "YES" },
     dimensions: [
-      { label: "Automation Exposure", score: 3, max: 3 },
-      { label: "Systems Thinking", score: 2, max: 3 },
+      { label: "Automation Exposure", score: 2, max: 3 },
+      { label: "Systems Thinking", score: 3, max: 3 },
       { label: "Technical Depth", score: 2, max: 3 },
       { label: "Decision-Making", score: 2, max: 3 },
       { label: "AI Literacy", score: 1, max: 3 },
       { label: "Domain Depth", score: 3, max: 3 },
       { label: "Research Rigour", score: 2, max: 3 },
       { label: "Human & Relational", score: 2, max: 3 },
-      { label: "Curriculum Currency", score: 2, max: 3 },
+      { label: "Curriculum Currency", score: 3, max: 3 },
       { label: "Outcome Evidence", score: 2, max: 3 },
+      { label: "Irreplaceability (bonus)", score: 2, max: 3 },
     ],
     assessmentSlug: "dfva-mc-urbhort",
     recommendSlug: "dfva-recommend-mc-urbhort",
@@ -1220,7 +1224,7 @@ export const PROGRAMS: ProgramReport[] = [
     institution: "University of Melbourne",
     level: "Graduate Research, AQF level 10",
     date: "2026-07-02",
-    score: 22,
+    score: 25,
     maxScore: 36,
     riskBand: "MODERATE RISK",
     thresholds: { q1: "NO", q2: "YES", q3: "UNCERTAIN" },
@@ -1437,7 +1441,7 @@ export const PROGRAMS: ProgramReport[] = [
     institution: "University of Melbourne",
     level: "Graduate Research (combined Masters+PhD), AQF level 10",
     date: "2026-07-02",
-    score: 32,
+    score: 29,
     maxScore: 36,
     riskBand: "RESILIENT",
     thresholds: { q1: "NO", q2: "YES", q3: "YES" },
@@ -1600,12 +1604,14 @@ export const PROGRAMS: ProgramReport[] = [
     institution: "University of Melbourne",
     level: "Higher Doctorate (by examination, no coursework), AQF level 10",
     date: "2026-07-02",
-    score: 16,
+    // Renormalised: 16 raw over 8 applicable dims → round(16 × 11/8) = 22. D1/D9/D10 are Not
+    // Applicable (no graduate cohort, no curriculum, no outcome data) and excluded, not scored 0.
+    score: 22,
     maxScore: 36,
-    riskBand: "HIGH RISK",
+    riskBand: "MODERATE RISK",
     thresholds: { q1: "UNCERTAIN", q2: "YES", q3: "UNCERTAIN" },
     dimensions: [
-      { label: "Automation Exposure", score: 0, max: 3 },
+      { label: "Automation Exposure", score: null, max: 3 },
       { label: "Systems Thinking", score: 3, max: 3 },
       { label: "Technical Depth", score: 1, max: 3 },
       { label: "Decision-Making", score: 2, max: 3 },
@@ -1613,8 +1619,8 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Domain Depth", score: 3, max: 3 },
       { label: "Research Rigour", score: 3, max: 3 },
       { label: "Human & Relational", score: 1, max: 3 },
-      { label: "Curriculum Currency", score: 0, max: 3 },
-      { label: "Outcome Evidence", score: 0, max: 3 },
+      { label: "Curriculum Currency", score: null, max: 3 },
+      { label: "Outcome Evidence", score: null, max: 3 },
       { label: "Irreplaceability (bonus)", score: 3, max: 3 },
     ],
     assessmentSlug: "dfva-dh-lld",
@@ -1654,7 +1660,7 @@ export const PROGRAMS: ProgramReport[] = [
     institution: "University of Melbourne",
     level: "Graduate Research, AQF 10",
     date: "2026-07-02",
-    score: 23,
+    score: 24,
     maxScore: 36,
     riskBand: "MODERATE RISK",
     thresholds: { q1: "NO", q2: "YES", q3: "UNCERTAIN" },
@@ -1708,12 +1714,16 @@ export const PROGRAMS: ProgramReport[] = [
     institution: "University of Melbourne",
     level: "Higher Doctorate (by examination, no coursework), AQF level 10",
     date: "2026-07-02",
-    score: 17,
+    // Renormalised: 20 raw over 8 applicable dims → 20 × 11/8 = 27.5, which lands exactly on the
+    // MODERATE|RESILIENT boundary. Renormalisation rounds ties DOWN → 27 (MODERATE), so an imputed
+    // program isn't promoted into RESILIENT by a rounding tie alone. D1/D9/D10 are Not Applicable
+    // (no cohort, no curriculum, no outcome data) and excluded, not scored 0.
+    score: 27,
     maxScore: 36,
-    riskBand: "HIGH RISK",
+    riskBand: "MODERATE RISK",
     thresholds: { q1: "NO", q2: "YES", q3: "UNCERTAIN" },
     dimensions: [
-      { label: "Automation Exposure", score: 0, max: 3 },
+      { label: "Automation Exposure", score: null, max: 3 },
       { label: "Systems Thinking", score: 3, max: 3 },
       { label: "Technical Depth", score: 3, max: 3 },
       { label: "Decision-Making", score: 3, max: 3 },
@@ -1721,8 +1731,8 @@ export const PROGRAMS: ProgramReport[] = [
       { label: "Domain Depth", score: 3, max: 3 },
       { label: "Research Rigour", score: 3, max: 3 },
       { label: "Human & Relational", score: 1, max: 3 },
-      { label: "Curriculum Currency", score: 0, max: 3 },
-      { label: "Outcome Evidence", score: 0, max: 3 },
+      { label: "Curriculum Currency", score: null, max: 3 },
+      { label: "Outcome Evidence", score: null, max: 3 },
       { label: "Irreplaceability (bonus)", score: 3, max: 3 },
     ],
     assessmentSlug: "dfva-dh-sc",
@@ -1885,7 +1895,14 @@ export const riskBandConfig: Record<
   },
 };
 
-export const dimBarColor = (score: number, max: number) => {
+export const thresholdConfig: Record<string, { color: string }> = {
+  YES: { color: "text-red-600 dark:text-red-400" },
+  NO: { color: "text-emerald-600 dark:text-emerald-400" },
+  UNCERTAIN: { color: "text-yellow-600 dark:text-yellow-400" },
+};
+
+export const dimBarColor = (score: number | null, max: number) => {
+  if (score === null) return "bg-muted-foreground/30"; // Not Applicable — neutral, not "poor"
   const pct = score / max;
   if (pct >= 0.67) return "bg-emerald-500";
   if (pct >= 0.34) return "bg-yellow-500";

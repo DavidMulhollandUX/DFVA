@@ -46,7 +46,8 @@ interface ProgramData {
   name: string;
   score: number;
   riskBand: string;
-  dimensions: { label: string; score: number; max: number }[];
+  // score === null marks a Not-Applicable dimension (excluded from the total, not scored 0).
+  dimensions: { label: string; score: number | null; max: number }[];
 }
 
 function mapLabelToCanonical(rawLabel: string): string | null {
@@ -79,13 +80,13 @@ function parseReport(md: string, filename: string): ProgramData | null {
     }
   }
 
-  // Parse dimensions using enrich-reports proven regex (digit in col 1)
-  const dimMap = new Map<string, number>();
-  const dimRegex = /\| (\d+) \| (.+?) \| (\d+)(?:\/\d+)? \| (.+?) \|/g;
+  // Parse dimensions (digit or N/A in the score column). N/A → null (Not Applicable).
+  const dimMap = new Map<string, number | null>();
+  const dimRegex = /\| (\d+) \| (.+?) \| (\d+|N\/A) \| (.+?) \|/g;
   let match;
   while ((match = dimRegex.exec(md)) !== null) {
     const rawLabel = match[2].trim();
-    const score = parseInt(match[3], 10);
+    const score = match[3] === 'N/A' ? null : parseInt(match[3], 10);
     const canonical = mapLabelToCanonical(rawLabel);
     if (canonical && !dimMap.has(canonical)) {
       dimMap.set(canonical, score);
@@ -93,10 +94,10 @@ function parseReport(md: string, filename: string): ProgramData | null {
   }
 
   // Also handle irreplaceability/bonus rows where col 1 is B or BONUS instead of a digit
-  const bonusRegex = /\| (B|BONUS|bonus) \| (.+?) \| (\d+)(?:\/\d+)? \| (.+?) \|/gi;
+  const bonusRegex = /\| (B|BONUS|bonus) \| (.+?) \| (\d+|N\/A) \| (.+?) \|/gi;
   while ((match = bonusRegex.exec(md)) !== null) {
     const rawLabel = match[2].trim();
-    const score = parseInt(match[3], 10);
+    const score = match[3] === 'N/A' ? null : parseInt(match[3], 10);
     const canonical = mapLabelToCanonical(rawLabel);
     if (canonical && !dimMap.has(canonical)) {
       dimMap.set(canonical, score);
@@ -106,7 +107,7 @@ function parseReport(md: string, filename: string): ProgramData | null {
   // Build dimensions in canonical order
   const dims: ProgramData['dimensions'] = DIMENSIONS.map(label => ({
     label,
-    score: dimMap.get(label) ?? 0,
+    score: dimMap.has(label) ? (dimMap.get(label) as number | null) : 0,
     max: 3,
   }));
 
@@ -127,9 +128,9 @@ function parseReport(md: string, filename: string): ProgramData | null {
     if (tblMatch) score = parseInt(tblMatch[1], 10);
   }
 
-  // If no TOTAL found, sum dimensions
+  // If no TOTAL found, sum dimensions (NA dims contribute nothing).
   if (score === 0) {
-    score = dims.reduce((sum, d) => sum + d.score, 0);
+    score = dims.reduce((sum, d) => sum + (d.score ?? 0), 0);
   }
 
   // Extract risk band (case-sensitive: only ALL-CAPS or Title Case risk bands, not body text words)
@@ -156,14 +157,16 @@ function parseReport(md: string, filename: string): ProgramData | null {
 function generateRoadmap(p: ProgramData): string {
   const dims = [...p.dimensions];
   
-  // Sort by score ascending (weakest first), prioritizing AI Literacy
+  // Sort by score ascending (weakest first), prioritizing AI Literacy. NA dims (score === null)
+  // are not improvement targets, so treat them as effectively "off the list" (max score).
+  const effScore = (s: number | null) => (s === null ? Infinity : s);
   dims.sort((a, b) => {
-    if (a.label === 'AI Literacy' && a.score < 3) return -1;
-    if (b.label === 'AI Literacy' && b.score < 3) return 1;
-    return a.score - b.score;
+    if (a.label === 'AI Literacy' && effScore(a.score) < 3) return -1;
+    if (b.label === 'AI Literacy' && effScore(b.score) < 3) return 1;
+    return effScore(a.score) - effScore(b.score);
   });
 
-  const improvable = dims.filter(d => d.score < 3);
+  const improvable = dims.filter(d => d.score !== null && d.score < 3);
   
   let currentScore = p.score;
   const actions: { priority: string; dimension: string; action: string; scoreDelta: number; newTotal: number }[] = [];
@@ -215,8 +218,15 @@ function generateRoadmap(p: ProgramData): string {
   md += `| Dimension | Score | Status |\n`;
   md += `|---|---|---|\n`;
   for (const d of p.dimensions) {
-    const status = d.score === 3 ? 'Strong' : d.score === 2 ? 'Adequate' : 'Critical gap';
-    md += `| ${d.label} | ${d.score}/3 | ${status} |\n`;
+    const status =
+      d.score === null
+        ? 'Not applicable'
+        : d.score === 3
+          ? 'Strong'
+          : d.score === 2
+            ? 'Adequate'
+            : 'Critical gap';
+    md += `| ${d.label} | ${d.score === null ? 'N/A' : `${d.score}/3`} | ${status} |\n`;
   }
   md += `| **TOTAL** | **${p.score}/36** | **${p.riskBand}** |\n\n`;
   md += `---\n\n`;
@@ -226,7 +236,7 @@ function generateRoadmap(p: ProgramData): string {
   md += `|---|---|---|---|\n`;
   for (const a of actions) {
     const cur = p.dimensions.find(d => d.label === a.dimension)?.score ?? 0;
-    md += `| ${a.dimension} | ${cur}/3 | Entry-level skills show automation risk. | ${a.action}. |\n`;
+    md += `| ${a.dimension} | ${cur === null ? 'N/A' : `${cur}/3`} | Entry-level skills show automation risk. | ${a.action}. |\n`;
   }
   md += `\n---\n\n`;
 
@@ -319,7 +329,7 @@ async function main() {
       continue;
     }
     
-    const parsedCount = p.dimensions.filter(d => d.score > 0).length;
+    const parsedCount = p.dimensions.filter(d => d.score !== null && d.score > 0).length;
     if (parsedCount < 6) {
       console.log(`  SKIP ${filename}: only ${parsedCount} dimensions parsed (score: ${p.score})`);
       skipped++;

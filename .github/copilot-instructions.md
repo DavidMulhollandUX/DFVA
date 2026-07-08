@@ -19,8 +19,8 @@ When the user provides a program name, curriculum, or URL, you must:
 
 1. Identify program basics: institution, level, duration, and likely graduate roles.
 2. Profile automation exposure for years 1-5 of typical graduate work.
-3. Score all DFVA dimensions plus bonus (0-3 each) with explicit curriculum evidence.
-4. Compute total score and map to risk band.
+3. Score all DFVA dimensions plus bonus (0-3 each) with explicit curriculum evidence. Mark a dimension **N/A** (not 0) when its construct does not exist for the program — e.g. a higher doctorate by examination has no graduate cohort (D1), curriculum (D9), or outcome data (D10). N/A means "cannot be assessed"; 0 means "worst".
+4. Compute the total and map to a risk band. N/A dimensions are excluded, not counted as 0: total = round( sum of applicable scores × 11 / number of applicable dimensions ), out of 36 (a plain sum when all apply). Put `N/A` in the score cell and state `Applicable dimensions: k / 11`. If fewer than 7 dimensions apply, mark the program **NOT RATABLE** instead of asserting a band.
 5. Answer the three threshold questions with YES, NO, or UNCERTAIN and rationale.
 6. Produce a direct verdict focused on 2027 viability.
 7. Provide a prioritised recommendations table.

@@ -47,8 +47,9 @@ export function enrichWithMarketData(
     return d;
   });
 
-  // Recalculate total score
-  const newScore = dims.reduce((sum, d) => sum + d.score, 0);
+  // Recalculate total score. NA dimensions (score === null) contribute nothing; this path only
+  // runs for market-enriched taught programs (no NA), so the plain sum equals the adjusted score.
+  const newScore = dims.reduce((sum, d) => sum + (d.score ?? 0), 0);
 
   return {
     ...result,

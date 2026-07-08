@@ -5,39 +5,39 @@ const content = {
   institution: "University of Melbourne",
   markdown: `## IMPROVEMENT PLAN: Doctor of Laws
 
-**Current:** 16/36 HIGH RISK | **Duration:** Not applicable — no defined duration or credit points
-**Target:** 28/36 RESILIENT | **Gap:** 12 points
-**Framing note:** The "gap" above is a nominal rubric artefact, not a genuine improvement target. Most of the deficit comes from dimensions (D1, D3, D5, D9, D10) that measure curriculum and cohort features the LLD structurally does not have, because it has no curriculum and no graduate cohort. This plan does not chase a numeric score — it targets the small set of dimensions where real institutional action is both possible and meaningful, and otherwise addresses the real question: is the LLD's function as a prestige/legitimacy signal durable in an AI-disrupted legal-scholarship landscape?
+**Current:** 22/36 MODERATE RISK (adjusted — renormalised over the 8 applicable dimensions; D1, D9, D10 are Not Applicable and excluded) | **Duration:** Not applicable — no defined duration or credit points
+**Target:** 28/36 RESILIENT | **Gap:** 6 points
+**Framing note:** The "gap" above is a nominal rubric artefact, not a genuine improvement target. Three dimensions (D1, D9, D10) are now marked Not Applicable and excluded from the score entirely, because the LLD has no curriculum and no graduate cohort for them to measure. The remaining, genuinely actionable gaps are D5 (AI literacy/governance in the examination process) and, applicable but low, D3/D8. This plan does not chase a numeric score — it targets the small set of dimensions where real institutional action is both possible and meaningful, and otherwise addresses the real question: is the LLD's function as a prestige/legitimacy signal durable in an AI-disrupted legal-scholarship landscape?
 
 ---
 
 ## 1. DIAGNOSTIC SUMMARY
-The Doctor of Laws scored **16/36 — HIGH RISK**. Most of this is a structural artefact of applying a training-pathway rubric to an examination-only higher doctorate with no curriculum and no graduate cohort — not evidence of curriculum decay, since there is no curriculum. The dimensions that are genuinely actionable (D5 AI literacy/governance in the examination process, D9 currency/adaptability of examination criteria, D10 visibility of outcome/conferral data) define the real intervention targets. The rest of this plan is honest about which "gaps" cannot be closed by design and which few can.
+The Doctor of Laws scored **22/36 — MODERATE RISK** (adjusted, renormalised over the 8 applicable dimensions). Under the old sum-with-zeros convention it read 16/36 HIGH RISK — a structural artefact of applying a training-pathway rubric to an examination-only higher doctorate with no curriculum and no graduate cohort, not evidence of curriculum decay, since there is no curriculum. The dimensions that are genuinely actionable (D5 AI literacy/governance in the examination process, D9 currency/adaptability of examination criteria, D10 visibility of outcome/conferral data) define the real intervention targets. The rest of this plan is honest about which "gaps" cannot be closed by design and which few can.
 
 | Dimension | Score | Status |
 |---|---|---|
-| D1 Automation Exposure of Roles | 0/3 | Not applicable (no graduate cohort) |
+| D1 Automation Exposure of Roles | N/A | Not applicable (no graduate cohort) — excluded from score |
 | D2 Systems Thinking and Problem Framing | 3/3 | Strong |
-| D3 Technical and Quantitative Depth | 1/3 | Critical gap (structurally not applicable — no quantitative curriculum exists) |
+| D3 Technical and Quantitative Depth | 1/3 | Applicable but low — no quantitative curriculum, though the dimension is scored |
 | D4 Decision-Making Under Uncertainty | 2/3 | Adequate |
 | D5 AI Literacy and Governance | 0/3 | Critical gap (genuinely actionable) |
 | D6 Domain Depth and Specialisation | 3/3 | Strong |
 | D7 Research Methods Rigour | 3/3 | Strong |
-| D8 Human and Relational Capability | 1/3 | Critical gap (structurally not applicable — no coursework component) |
-| D9 Curriculum Currency and Adaptability | 0/3 | Critical gap (genuinely actionable) |
-| D10 Graduate Outcome Evidence | 0/3 | Critical gap (genuinely actionable) |
+| D8 Human and Relational Capability | 1/3 | Applicable but low — no coursework component, though the dimension is scored |
+| D9 Curriculum Currency and Adaptability | N/A | Not applicable (no curriculum) — excluded from score; institutional substitute noted below |
+| D10 Graduate Outcome Evidence | N/A | Not applicable (no cohort) — excluded from score; institutional substitute noted below |
 | B Irreplaceability Premium | 3/3 | Strong |
-| **TOTAL** | **16/36** | **HIGH RISK** |
+| **TOTAL (applicable: 8/11)** | **22/36 adjusted** | **MODERATE RISK** |
 
 ---
 
 ## 2. SCORE-TO-ACTION MAPPING
 | Dimension | DFVA Score | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
-| D9 Curriculum Currency and Adaptability | 0/3 | No visible periodic review mechanism for examination criteria; the standard appears static while the legal-scholarship landscape it examines is moving fast under AI pressure | Establish a 5-yearly review of LLD examination criteria with an advisory panel including scholars working at the AI/law frontier |
+| D9 Curriculum Currency and Adaptability | N/A | Not applicable to scoring (no curriculum), but the examination criteria are a de facto standard with no visible periodic review while the legal-scholarship landscape moves fast under AI pressure | Establish a 5-yearly review of LLD examination criteria with an advisory panel including scholars working at the AI/law frontier |
 | D5 AI Literacy and Governance | 0/3 | No AI coverage anywhere in the examination process; no guidance for examiners on distinguishing AI-assisted synthesis from genuinely original contribution | Add AI-disclosure requirements to candidate submissions and explicit examiner guidance on assessing originality in an AI-assisted-writing era |
-| D10 Graduate Outcome Evidence | 0/3 | No published data on conferral frequency, discipline spread, or recipient outcomes — the credential is nearly invisible even within legal academia | Publish aggregate, anonymised conferral data and profile recipients publicly to protect the credential's signal legibility |
-| D1 Automation Exposure of Roles | 0/3 | Not applicable by design — no graduate cohort exists | No intervention possible or meaningful; retain the explicit N/A interpretive note in all institutional use of this score |
+| D10 Graduate Outcome Evidence | N/A | Not applicable to scoring (no cohort), but there is no published data on conferral frequency, discipline spread, or recipient outcomes — the credential is nearly invisible even within legal academia | Publish aggregate, anonymised conferral data and profile recipients publicly to protect the credential's signal legibility |
+| D1 Automation Exposure of Roles | N/A | Not applicable by design — no graduate cohort exists | No intervention possible or meaningful; retain the explicit N/A interpretive note in all institutional use of this score |
 | D3 Technical and Quantitative Depth | 1/3 | Not applicable by design — no quantitative curriculum exists in an examination-only doctorate | No intervention possible or meaningful; do not force quantitative content into a credential that certifies retrospective scholarship |
 | D8 Human and Relational Capability | 1/3 | Not applicable by design — no coursework or clinical component exists | No intervention possible or meaningful |
 
@@ -59,7 +59,7 @@ The Doctor of Laws scored **16/36 — HIGH RISK**. Most of this is a structural 
 | P3 | Publish aggregate, anonymised LLD conferral data (frequency, discipline spread, examiner composition) on the Law School website | D10 | Near-total invisibility of conferral data vs. peer institutions | Medium | Low | Melbourne Law School Communications | Months 1-3 | Data page published |
 | P4 | Commission a peer-institution scan (Oxford DCL, Cambridge LLD, Sydney LLD) comparing examination criteria and AI-era adaptations | D9 | Peer higher-doctorate conferral rarity and low visibility | Medium | Low | Higher Degrees Committee | Months 3-6 | Comparative brief delivered |
 | P5 | Profile LLD recipients (with consent) to raise visibility of the credential and reinforce its prestige-signal function | D10 | Legal academia hiring committees still weight reputation/citation record heavily | Medium | Low | Communications / Alumni Relations | Months 6-9 | 2-3 recipient profiles published |
-| P6 | Add explicit interpretive guidance to any DFVA scorecard use for the LLD, noting D1/D3/D8 are structurally not applicable rather than genuine weaknesses | D1, D3, D8 | N/A (internal governance, not market-driven) | Low | Low | DFVA methodology owner | Month 1 | Interpretive note attached to score wherever cited |
+| P6 | Add explicit interpretive guidance to any DFVA scorecard use for the LLD, noting D1/D9/D10 are Not Applicable (excluded from the score) and D3/D8 are applicable but low by design rather than genuine weaknesses | D1, D9, D10 | N/A (internal governance, not market-driven) | Low | Low | DFVA methodology owner | Month 1 | Interpretive note attached to score wherever cited |
 
 ---
 
@@ -103,7 +103,7 @@ Not applicable in the standard sense — the LLD has no coursework assessment ta
 ## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
 - **Risk: Over-formalising a deliberately informal, honorific process could undermine the flexibility that makes peer judgment of "authoritative standing" work.** *Mitigation:* Keep interventions light-touch (disclosure requirement, periodic review, data publication) rather than introducing rigid rubrics or scoring criteria into what is fundamentally a qualitative peer-review process.
 - **Risk: Publishing conferral data could inadvertently highlight how rarely the LLD is awarded, reinforcing a perception of irrelevance rather than prestige.** *Mitigation:* Frame published data around the deliberate rarity and high bar of the credential, consistent with how peer institutions (Oxford DCL, Cambridge LLD) position their own low conferral rates as a feature, not a weakness.
-- **Risk: The DFVA numeric score (16/36 HIGH RISK) could be misread by non-expert stakeholders as evidence the LLD is a failing program, when the true diagnosis is that the rubric's training-pathway assumptions do not fit an examination-only higher doctorate.** *Mitigation:* Always attach the interpretive caveat from Report 1 Section 3 when this score is cited in any institutional context.
+- **Risk: The DFVA numeric score could be misread by non-expert stakeholders as evidence the LLD is a failing program, when the true diagnosis is that the rubric's training-pathway assumptions do not fully fit an examination-only higher doctorate.** *Mitigation:* Cite the adjusted 22/36 (MODERATE RISK) score, which already excludes the three not-applicable dimensions, and always attach the interpretive caveat from Report 1 Section 3 when this score is cited in any institutional context.
 
 ---
 
