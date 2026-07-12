@@ -105,13 +105,13 @@ Nothing else in the deck depends on the network.
 - All demo pages are public — no login required; the insights pages'
   premium gate is a pass-through in the current build.
 
-## Note — Claude Design project divergence
+## Note — Claude Design project sync (2026-07-12)
 
-Three edits were applied to the repo export only (the design project's
-`EVIDURA Council Briefing.dc.html` could not be round-tripped from this
-environment): slide 9's footer link became an accent button labelled
-"Open this report live ↗" pointing at
-`https://evidura.ai/reports/dfva-b-sci`; slide 4 gained a closing payoff
-line under the four questions; the deck script gained `1`–`9`/`0`
-jump-key navigation. Re-apply these in the Claude Design editor before
-any future re-export, or the re-export will silently drop them.
+The two content edits (slide 9's "Open this report live ↗" accent button
+and slide 4's closing payoff line) were pushed back to the Claude Design
+project's `EVIDURA Council Briefing.dc.html`, so a future re-export will
+keep them. The `1`–`9`/`0` jump-key navigation lives only in this repo
+export's script — inside Claude Design the deck-stage component already
+handles number-key navigation natively, so nothing was needed there.
+After any future re-export, re-check that the export's own script still
+has the digit-key handler (the exporter regenerates that script).
