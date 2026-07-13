@@ -1,19 +1,19 @@
 {
-  "updated": "2026-07-08",
+  "updated": "2026-07-10",
   "loops": {
     "spec_loop": {
-      "last_run": "2026-07-08",
-      "features_generated": 13
+      "last_run": "2026-07-13",
+      "features_generated": 17
     },
     "dev_loop": {
-      "last_run": "2026-07-09T10:00:00Z",
+      "last_run": "2026-07-13T10:00:00Z",
       "features_built": 8
     },
     "research_loop": {
-      "last_run": "2026-07-06",
+      "last_run": "2026-07-09",
       "source": "producthunt",
       "source_fallback": "github",
-      "signals_found": 4,
+      "signals_found": 6,
       "signals_promoted": 3
     }
   },
@@ -142,7 +142,7 @@
     {
       "id": "feat-012",
       "name": "Cross-Platform Scraper Regression Storm — HTML Fragility as DFVA Differentiator",
-      "status": "planned",
+      "status": "draft",
       "spec_file": "features/feat-012.md",
       "created": "2026-07-06",
       "priority": "high",
@@ -150,6 +150,42 @@
       "type": "market_gap",
       "source": "research-loop producthunt",
       "detail": "On July 5, 2026, the cc-coursemap production scraper suffered a 6-state simultaneous regression (MN, MA, CT, VT, WV, PA) across Coursedog/CourseLeaf. A single upstream HTML change broke all parsers. Combined with the open 'Prod health check failing' incident (June 23), this confirms HTML-based curriculum data is becoming MORE fragile, not less. Fourth independent confirmation of the HTML data problem. Every cc-coursemap regression is a case study for DFVA's structured, API-first, no-scraping approach."
+    },
+    {
+      "id": "feat-013",
+      "name": "Coursedog ClassRanked Acquisition — Counter-Positioning as Methodology-First Independent Standard",
+      "status": "draft",
+      "spec_file": "features/feat-013.md",
+      "created": "2026-07-09",
+      "priority": "high",
+      "score": 9,
+      "type": "competitor_move",
+      "source": "research-loop GitHub intelligence",
+      "detail": "Coursedog acquired ClassRanked (AI-driven course evaluations) and rebranded to 'Intelligent Academic Operations Platform.' Now has: Assessment Cloud, Coursedog Intelligence, Labor Market Insights, Inferred Program Maps, Course Demand Projections. DFVA must differentiate on: (1) methodology depth — 11-dimension durability scoring vs generic 'AI insights,' (2) independent standard — unbiased third-party assessment, (3) structured data model — HTML-free, API-first. The competitive window just narrowed."
+    },
+    {
+      "id": "feat-014",
+      "name": "CourseLeaf Infrastructure Gap Play — Third-Party Tool Ecosystem as Go-to-Market",
+      "status": "draft",
+      "spec_file": "features/feat-014.md",
+      "created": "2026-07-09",
+      "priority": "high",
+      "score": 8,
+      "type": "competitor_weakness",
+      "source": "research-loop GitHub intelligence",
+      "detail": "CourseLeaf (29% market share) has systemic API poverty: University of Illinois built Azure Function for basic data loading, APInception is a meta-API wrapper, cc-coursemap and UniPaith both built CourseLeaf scrapers for program/catalog data. CourseLeaf is the most API-poor major competitor. Every CourseLeaf customer wanting analytics must build custom infrastructure. DFVA can offer the missing analytics layer — without touching CourseLeaf's workflow."
+    },
+    {
+      "id": "feat-015",
+      "name": "Coursedog Inferred Program Maps Response — Own 'Degree Durability' Framing",
+      "status": "draft",
+      "spec_file": "features/feat-015.md",
+      "created": "2026-07-09",
+      "priority": "high",
+      "score": 8,
+      "type": "competitor_move",
+      "source": "research-loop Crawl4AI",
+      "detail": "Coursedog's Course Demand Projections now includes 'Inferred Program Maps' (auto degree-to-course mapping), 'Requirement Tracking,' and 'Student Completion Matrix.' This is Coursedog's closest move yet to DFVA's core thesis — program-level analysis. Key difference: Coursedog's analysis is scheduling-optimization (descriptive: what IS happening), DFVA's is durability-assessment (prescriptive: what SHOULD exist). DFVA must own 'degree durability / future-viability' framing before Coursedog extends their maps in that direction."
     }
   ]
 }
