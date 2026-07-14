@@ -1,0 +1,186 @@
+#!/usr/bin/env python3
+"""Build the complete 141-record JIR manifest from scraped faculty page data."""
+import json, os
+
+BASE = "https://careersonline.unimelb.edu.au/docs"
+
+# All 141 programs by faculty, collected from live scraping 2026-07-14
+sources = {
+    "Faculty of Arts": [
+        ("Bachelor of Arts (Ancient World Studies)", f"{BASE}/755/Bachelor-of-Arts-(Ancient-World-Studies).pdf"),
+        ("Bachelor of Arts (Anthropology)", f"{BASE}/756/Bachelor-of-Arts-(Anthropology).pdf"),
+        ("Bachelor of Arts (Art History)", f"{BASE}/639/03_Bachelor-of-Arts-(Art-History).pdf"),
+        ("Bachelor of Arts (Asian Studies)", f"{BASE}/757/Bachelor-of-Arts-(Asian-Studies).pdf"),
+        ("Bachelor of Arts (Creative Writing)", f"{BASE}/647/11_Bachelor-of-Arts-(Creative-Writing).pdf"),
+        ("Bachelor of Arts (Criminology)", f"{BASE}/642/06_Bachelor-of-Arts-(Criminology).pdf"),
+        ("Bachelor of Arts (Economics)", f"{BASE}/640/04_Bachelor-of-Arts-(Economics).pdf"),
+        ("Bachelor of Arts (English and Theatre Studies)", f"{BASE}/644/08_Bachelor-of-Arts-(English-and-Theatre-Studies).pdf"),
+        ("Bachelor of Arts (Gender Studies)", f"{BASE}/758/Bachelor-of-Arts-(Gender-Studies).pdf"),
+        ("Bachelor of Arts (Geography)", f"{BASE}/646/10_Bachelor-of-Arts-(Geography).pdf"),
+        ("Bachelor of Arts (History)", f"{BASE}/641/05_Bachelor-of-Arts-(History).pdf"),
+        ("Bachelor of Arts (Indigenous Studies)", f"{BASE}/759/Bachelor-of-Arts-(Indigenous-Studies).pdf"),
+        ("Bachelor of Arts (Media and Communications)", f"{BASE}/645/09_Bachelor-of-Arts-(Media-and-Communications).pdf"),
+        ("Bachelor of Arts (Philosophy)", f"{BASE}/648/14_Bachelor-of-Arts-(Philosophy).pdf"),
+        ("Bachelor of Arts (Politics and International Studies)", f"{BASE}/638/02_Bachelor-of-Arts-(Politics-and-International-Studies).pdf"),
+        ("Bachelor of Arts (Psychology)", f"{BASE}/643/07_Bachelor-of-Arts-(Psychology).pdf"),
+        ("Bachelor of Arts (Screen and Cultural Studies)", f"{BASE}/760/Bachelor-of-Arts-(Screen-And-Cultural-Studies).pdf"),
+        ("Bachelor of Arts (Sociology)", f"{BASE}/665/15_Bachelor-of-Arts-(Sociology).pdf"),
+        ("Executive Master of Arts", f"{BASE}/681/Executive-Master-of-Arts.pdf"),
+        ("Master of Applied Linguistics", f"{BASE}/685/Master-of-Applied-Linguistics.pdf"),
+        ("Master of Art Curatorship", f"{BASE}/687/Master-of-Art-Curatorship.pdf"),
+        ("Master of Arts and Cultural Management", f"{BASE}/688/Master-of-Arts-and-Cultural-Management.pdf"),
+        ("Master of Cultural Materials Conservation", f"{BASE}/699/Master-of-Cultural-Materials-Conservation.pdf"),
+        ("Master of Creative Writing, Publishing and Editing", f"{BASE}/697/Master-of-Creative-Writing%2c-Publishing-and-Editing.pdf"),
+        ("Master of Criminology", f"{BASE}/698/Master-of-Criminology.pdf"),
+        ("Master of Development Studies", f"{BASE}/701/Master-of-Development-Studies.pdf"),
+        ("Master of Global Media Communication", f"{BASE}/710/Master-of-Global-Media-Communication.pdf"),
+        ("Master of International Relations", f"{BASE}/714/Master-of-International-Relations.pdf"),
+        ("Master of Journalism", f"{BASE}/715/Master-of-Journalism.pdf"),
+        ("Master of Marketing Communications", f"{BASE}/723/Master-of-Marketing-Communications.pdf"),
+        ("Master of Public Policy and Management", f"{BASE}/729/Master-of-Public-Policy-and-Management.pdf"),
+        ("Master of Publishing and Communications", f"{BASE}/730/Master-of-Publishing-and-Communications.pdf"),
+        ("Master of Social Policy", f"{BASE}/731/Master-of-Social-Policy.pdf"),
+    ],
+    "Faculty of Architecture, Building & Planning": [
+        ("Bachelor of Design (Architecture)", f"{BASE}/663/09_Bachelor-of-Design-(Architecture).pdf"),
+        ("Bachelor of Design (Construction)", f"{BASE}/664/12_Bachelor-of-Design-(Construction).pdf"),
+        ("Bachelor of Design (Graphic Design)", f"{BASE}/662/05_Bachelor-of-Design-(Graphic-Design).pdf"),
+        ("Bachelor of Design (Property)", f"{BASE}/674/02_Bachelor-of-Design-(Property).pdf"),
+        ("Bachelor of Design (Urban Planning)", f"{BASE}/675/04_Bachelor-of-Design-(Urban-Planning).pdf"),
+        ("Bachelor of Design (User Experience Design)", f"{BASE}/762/Bachelor-of-Design-(User-Experience-Design).pdf"),
+        ("Master of Architecture", f"{BASE}/686/Master-of-Architecture.pdf"),
+        ("Master of Construction Management", f"{BASE}/696/Master-of-Construction-Management.pdf"),
+        ("Master of Landscape Architecture", f"{BASE}/716/Master-of-Landscape-Architecture.pdf"),
+        ("Master of Property", f"{BASE}/740/Master-of-Property.pdf"),
+        ("Master of Urban Planning", f"{BASE}/739/Master-of-Urban-Planning.pdf"),
+    ],
+    "Faculty of Business & Economics": [
+        ("Bachelor of Commerce (Accounting)", f"{BASE}/656/02_Bachelor-of-Commerce-(Accounting).pdf"),
+        ("Bachelor of Commerce (Actuarial Studies)", f"{BASE}/657/03_Bachelor-of-Commerce-(Actuarial-Studies).pdf"),
+        ("Bachelor of Commerce (Economics)", f"{BASE}/660/10_Bachelor-of-Commerce-(Economics).pdf"),
+        ("Bachelor of Commerce (Finance)", f"{BASE}/661/11_Bachelor-of-Commerce-(Finance).pdf"),
+        ("Bachelor of Commerce (Management)", f"{BASE}/658/Bachelor-of-Commerce-(Management).pdf"),
+        ("Bachelor of Commerce (Marketing)", f"{BASE}/659/08_Bachelor-of-Commerce-(Marketing).pdf"),
+        ("Master of Business Administration", f"{BASE}/691/Master-of-Business-Administration.pdf"),
+        ("Master of Economics", f"{BASE}/742/Master-of-Economics.pdf"),
+        ("Master of Finance", f"{BASE}/708/Master-of-Finance.pdf"),
+        ("Master of International Business", f"{BASE}/713/Master-of-International-Business.pdf"),
+        ("Master of Management", f"{BASE}/722/Master-of-Management.pdf"),
+        ("Master of Management (Accounting)", f"{BASE}/743/Master-of-Management-(Accounting).pdf"),
+        ("Master of Management (Finance)", f"{BASE}/719/Master-of-Management-(Finance).pdf"),
+        ("Master of Management (Human Resources)", f"{BASE}/720/Master-of-Management-(Human-Resources).pdf"),
+        ("Master of Management (Marketing)", f"{BASE}/721/Master-of-Management-(Marketing).pdf"),
+    ],
+    "Faculty of Education": [
+        ("Master of Education", f"{BASE}/702/Master-of-Education.pdf"),
+        ("Master of Evaluation", f"{BASE}/707/Master-of-Evaluation.pdf"),
+        ("Master of Instructional Leadership", f"{BASE}/741/Master-of-Instructional-Leadership.pdf"),
+        ("Master of Learning Intervention", f"{BASE}/718/Master-of-Learning-Intervention.pdf"),
+        ("Master of Teaching (Primary)", f"{BASE}/735/Master-of-Teaching-(Primary).pdf"),
+        ("Master of Teaching (Secondary)", f"{BASE}/736/Master-of-Teaching-(Secondary).pdf"),
+        ("Master of TESOL", f"{BASE}/737/Master-of-TESOL.pdf"),
+    ],
+    "Faculty of Engineering & IT": [
+        ("Master of Biomedical Engineering", f"{BASE}/689/Master-of-Biomedical-Engineering.pdf"),
+        ("Master of Chemical Engineering", f"{BASE}/692/Master-of-Chemical-Engineering.pdf"),
+        ("Master of Civil Engineering", f"{BASE}/693/Master-of-Civil-Engineering.pdf"),
+        ("Master of Computer Science", f"{BASE}/744/Master-of-Computer-Science.pdf"),
+        ("Master of Electrical Engineering", f"{BASE}/703/Master-of-Electrical-Engineering.pdf"),
+        ("Master of Engineering Management", f"{BASE}/704/Master-of-Engineering-Management.pdf"),
+        ("Master of Energy Systems", f"{BASE}/745/Master-of-Energy-Systems.pdf"),
+        ("Master of Information Systems", f"{BASE}/711/Master-of-Information-Systems.pdf"),
+        ("Master of Information Technology", f"{BASE}/712/Master-of-Information-Technology.pdf"),
+        ("Master of Mechanical Engineering", f"{BASE}/724/Master-of-Mechanical-Engineering.pdf"),
+        ("Master of Mechatronics Engineering", f"{BASE}/725/Master-of-Mechatronics-Engineering.pdf"),
+        ("Master of Software Engineering", f"{BASE}/733/Master-of-Software-Engineering.pdf"),
+    ],
+    "Faculty of Fine Arts & Music": [
+        ("Bachelor of Music (Performance)", f"{BASE}/649/13_Bachelor-of-Music-(Performance).pdf"),
+        ("Master of Music Therapy", f"{BASE}/726/Master-of-Music-Therapy.pdf"),
+    ],
+    "Faculty of Medicine, Dentistry & Health": [
+        ("Bachelor of Biomedicine (Human Structure and Function)", f"{BASE}/650/01_Bachelor-of-Biomedicine-(Human-Structure-and-Function).pdf"),
+        ("Bachelor of Biomedicine (Immunology)", f"{BASE}/653/13_Bachelor-of-Biomedicine-(Immunology).pdf"),
+        ("Bachelor of Biomedicine (Microbiology)", f"{BASE}/761/Bachelor-of-Biomedicine-(Microbiology).pdf"),
+        ("Bachelor of Biomedicine (Neuroscience)", f"{BASE}/654/14_Bachelor-of-Biomedicine-(Neuroscience).pdf"),
+        ("Bachelor of Biomedicine (Pathology)", f"{BASE}/776/Bachelor-of-Biomedicine-(Pathology).pdf"),
+        ("Bachelor of Biomedicine (Pharmacology)", f"{BASE}/652/07_Bachelor-of-Biomedicine-(Pharmacology).pdf"),
+        ("Bachelor of Biomedicine (Physiology)", f"{BASE}/651/06_Bachelor-of-Biomedicine-(Physiology).pdf"),
+        ("Bachelor of Oral Health", f"{BASE}/655/12_Bachelor-of-Oral-Health.pdf"),
+        ("Master of Advanced Nursing Practice", f"{BASE}/683/Master-of-Advanced-Nursing-Practice.pdf"),
+        ("Master of Applied Psychology", f"{BASE}/751/Master-of-Applied-Psychology.pdf"),
+        ("Master of Clinical Audiology", f"{BASE}/694/Master-of-Clinical-Audiology.pdf"),
+        ("Master of Clinical Dentistry", f"{BASE}/750/Doctor-of-Clinical-Dentistry.pdf"),
+        ("Master of Genetic Counselling", f"{BASE}/752/Master-of-Genetic-Counselling.pdf"),
+        ("Master of Nursing Science", f"{BASE}/727/Master-of-Nursing-Science.pdf"),
+        ("Master of Professional Psychology et al", f"{BASE}/753/Master-of-Professional-Psychology%2c-Master-of-Psychology-(Clinical-Neuropsychology)%2c-Master-of-Psychology-(Clinical-Psychology)%2c-Master-of-Psychology-(Education-and-Development).pdf"),
+        ("Master of Psychiatry", f"{BASE}/754/Master-of-Psychiatry.pdf"),
+        ("Master of Public Health", f"{BASE}/728/Master-of-Public-Health.pdf"),
+        ("Master of Social Work", f"{BASE}/732/Master-of-Social-Work.pdf"),
+        ("Master of Speech Pathology", f"{BASE}/734/Master-of-Speech-Pathology.pdf"),
+        ("Doctor of Dental Surgery", f"{BASE}/676/Doctor-of-Dental-Surgery.pdf"),
+        ("Doctor of Medicine", f"{BASE}/677/Doctor-of-Medicine.pdf"),
+        ("Doctor of Optometry", f"{BASE}/678/Doctor-of-Optometry.pdf"),
+        ("Doctor of Physiotherapy", f"{BASE}/679/Doctor-of-Physiotherapy.pdf"),
+    ],
+    "Faculty of Science": [
+        ("Bachelor of Science (Animal Health and Disease)", f"{BASE}/763/Bachelor-of-Science-(Animal-Health-And-Disease).pdf"),
+        ("Bachelor of Science (Biochemistry and Molecular Biology)", f"{BASE}/672/10_Bachelor-of-Science-(Biochemistry-and-Molecular-Biology).pdf"),
+        ("Bachelor of Science (Biotechnology)", f"{BASE}/764/Bachelor-of-Science-(Biotechnology).pdf"),
+        ("Bachelor of Science (Chemistry)", f"{BASE}/668/05_Bachelor-of-Science-(Chemistry).pdf"),
+        ("Bachelor of Science (Computing and Software Systems)", f"{BASE}/765/Bachelor-of-Science-(Computing-And-Software-Systems).pdf"),
+        ("Bachelor of Science (Data Science)", f"{BASE}/673/11_Bachelor-of-Science-(Data-Science).pdf"),
+        ("Bachelor of Science (Ecology and Evolutionary Biology)", f"{BASE}/766/Bachelor-of-Science-(Ecology-And-Evolutionary-Biology).pdf"),
+        ("Bachelor of Science (Environmental Science)", f"{BASE}/767/Bachelor-of-Science-(Environmental-Science).pdf"),
+        ("Bachelor of Science (Food Science)", f"{BASE}/768/Bachelor-of-Science-(Food-Science).pdf"),
+        ("Bachelor of Science (Genetics)", f"{BASE}/769/Bachelor-of-Science-(Genetics).pdf"),
+        ("Bachelor of Science (Geology)", f"{BASE}/770/Bachelor-of-Science-(Geology).pdf"),
+        ("Bachelor of Science (Human Structure and Function)", f"{BASE}/669/06_Bachelor-of-Science-(Human-Structure-and-Function).pdf"),
+        ("Bachelor of Science (Mathematical Physics)", f"{BASE}/771/Bachelor-of-Science-(Mathematical-Physics).pdf"),
+        ("Bachelor of Science (Mathematics and Statistics)", f"{BASE}/667/03_Bachelor-of-Science-(Mathematics-and-Statistics).pdf"),
+        ("Bachelor of Science (Microbiology)", f"{BASE}/772/Bachelor-of-Science-(Microbiology).pdf"),
+        ("Bachelor of Science (Neuroscience)", f"{BASE}/671/09_Bachelor-of-Science-(Neuroscience).pdf"),
+        ("Bachelor of Science (Pathology)", f"{BASE}/773/Bachelor-of-Science-(Pathology).pdf"),
+        ("Bachelor of Science (Pharmacology)", f"{BASE}/636/01_Bachelor-of-Science-(Pharmacology).pdf"),
+        ("Bachelor of Science (Physics)", f"{BASE}/670/08_Bachelor-of-Science-(Physics).pdf"),
+        ("Bachelor of Science (Physiology)", f"{BASE}/666/01_Bachelor-of-Science-(Physiology).pdf"),
+        ("Bachelor of Science (Psychology)", f"{BASE}/637/12_Bachelor-of-Science-(Psychology).pdf"),
+        ("Bachelor of Science (Veterinary Bioscience)", f"{BASE}/774/Bachelor-of-Science-(Veterinary-Bioscience).pdf"),
+        ("Bachelor of Science (Zoology)", f"{BASE}/775/Bachelor-of-Science-(Zoology).pdf"),
+        ("Master of Agricultural Sciences", f"{BASE}/684/Master-of-Agricultural-Sciences.pdf"),
+        ("Master of Biotechnology", f"{BASE}/690/Master-of-Biotechnology.pdf"),
+        ("Master of Data Science", f"{BASE}/700/Master-of-Data-Science.pdf"),
+        ("Master of Environment", f"{BASE}/705/Master-of-Environment.pdf"),
+        ("Master of Environmental Science", f"{BASE}/706/Master-of-Environmental-Science.pdf"),
+        ("Master of Food Science", f"{BASE}/709/Master-of-Food-Science.pdf"),
+        ("Doctor of Urban Horticulture", f"{BASE}/738/Master-of-Urban-Horticulture.pdf"),
+        ("Doctor of Veterinary Medicine", f"{BASE}/680/Doctor-of-Veterinary-Medicine.pdf"),
+    ],
+    "Melbourne Law School": [
+        ("Juris Doctor", f"{BASE}/682/Juris-Doctor.pdf"),
+        ("Master of Commercial Law", f"{BASE}/746/Master-of-Commercial-Law.pdf"),
+        ("Master of Construction Law", f"{BASE}/695/Master-of-Construction-Law.pdf"),
+        ("Master of Intellectual Property Law", f"{BASE}/747/Master-of-Intellectual-Property-Law.pdf"),
+        ("Master of Laws", f"{BASE}/717/Master-of-Laws.pdf"),
+        ("Master of Public and International Law", f"{BASE}/748/Master-of-Public-And-International-Law.pdf"),
+        ("Master of Tax", f"{BASE}/749/Master-of-Tax.pdf"),
+    ],
+}
+
+# Build manifest
+manifest = {"sources": {}}
+total = 0
+for faculty, programs in sources.items():
+    manifest["sources"][faculty] = [{"name": name, "url": url} for name, url in programs]
+    total += len(programs)
+
+manifest["total_expected"] = total
+
+out_path = "/Users/djmulholland/Documents/SXD-Github/DFVA/docs/JIR/manifest.json"
+with open(out_path, 'w') as f:
+    json.dump(manifest, f, indent=2)
+
+print(f"Manifest written: {out_path}")
+print(f"Total programs: {total}")
+for faculty, programs in sources.items():
+    print(f"  {faculty}: {len(programs)}")

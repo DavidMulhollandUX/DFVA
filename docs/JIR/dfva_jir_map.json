@@ -1,0 +1,334 @@
+{
+  "matches": [
+    {
+      "dfva_code": "439fs",
+      "dfva_name": "Master of Food Science",
+      "tier": "exact",
+      "jir_name": "Master of Food Science",
+      "jir_n": 50
+    },
+    {
+      "dfva_code": "mc-arch",
+      "dfva_name": "Master of Architecture",
+      "tier": "exact",
+      "jir_name": "Master of Architecture",
+      "jir_n": 621
+    },
+    {
+      "dfva_code": "mc-ba",
+      "dfva_name": "Master of Business Administration",
+      "tier": "exact",
+      "jir_name": "Master of Business Administration",
+      "jir_n": 422
+    },
+    {
+      "dfva_code": "mc-clind",
+      "dfva_name": "Master of Clinical Dentistry",
+      "tier": "exact",
+      "jir_name": "Doctor of Clinical Dentistry",
+      "jir_n": 40
+    },
+    {
+      "dfva_code": "mc-cs",
+      "dfva_name": "Master of Computer Science",
+      "tier": "exact",
+      "jir_name": "Master of Computer Science",
+      "jir_n": 41
+    },
+    {
+      "dfva_code": "mc-datasc",
+      "dfva_name": "Master of Data Science",
+      "tier": "exact",
+      "jir_name": "Master of Data Science",
+      "jir_n": 96
+    },
+    {
+      "dfva_code": "mc-ed",
+      "dfva_name": "Master of Education",
+      "tier": "exact",
+      "jir_name": "Master of Education",
+      "jir_n": 611
+    },
+    {
+      "dfva_code": "mc-envsc",
+      "dfva_name": "Master of Environmental Science",
+      "tier": "exact",
+      "jir_name": "Master of Environmental Science",
+      "jir_n": 32
+    },
+    {
+      "dfva_code": "mc-gencoun",
+      "dfva_name": "Master of Genetic Counselling",
+      "tier": "exact",
+      "jir_name": "Master of Genetic Counselling",
+      "jir_n": 35
+    },
+    {
+      "dfva_code": "mc-is",
+      "dfva_name": "Master of Information Systems",
+      "tier": "exact",
+      "jir_name": "Master of Information Systems",
+      "jir_n": 257
+    },
+    {
+      "dfva_code": "mc-journ",
+      "dfva_name": "Master of Journalism",
+      "tier": "exact",
+      "jir_name": "Master of Journalism",
+      "jir_n": 51
+    },
+    {
+      "dfva_code": "mc-nursc",
+      "dfva_name": "Master of Nursing Science",
+      "tier": "exact",
+      "jir_name": "Master of Nursing Science",
+      "jir_n": 129
+    },
+    {
+      "dfva_code": "mc-prop",
+      "dfva_name": "Master of Property",
+      "tier": "exact",
+      "jir_name": "Master of Property",
+      "jir_n": 65
+    },
+    {
+      "dfva_code": "mc-propsyc",
+      "dfva_name": "Master of Professional Psychology",
+      "tier": "exact",
+      "jir_name": "Master of Professional Psychology,",
+      "jir_n": 66
+    },
+    {
+      "dfva_code": "mc-scibit",
+      "dfva_name": "Master of Biotechnology",
+      "tier": "exact",
+      "jir_name": "Master of Biotechnology",
+      "jir_n": 151
+    },
+    {
+      "dfva_code": "mc-tesol",
+      "dfva_name": "Master of TESOL",
+      "tier": "exact",
+      "jir_name": "Master of TESOL",
+      "jir_n": 26
+    },
+    {
+      "dfva_code": "mc-sciphy",
+      "dfva_name": "Master of Science (Physics)",
+      "tier": "cognate",
+      "jir_name": "Bachelor of Science (Physics)",
+      "jir_n": null
+    },
+    {
+      "dfva_code": "mc-sciche",
+      "dfva_name": "Master of Science (Chemistry)",
+      "tier": "cognate",
+      "jir_name": "Bachelor of Science (Chemistry)",
+      "jir_n": null
+    },
+    {
+      "dfva_code": "mc-sciear",
+      "dfva_name": "Master of Science (Earth Sciences)",
+      "tier": "cognate",
+      "jir_name": "Bachelor of Science (Geology)",
+      "jir_n": null
+    },
+    {
+      "dfva_code": "mc-scibio",
+      "dfva_name": "Master of Science (BioSciences)",
+      "tier": "cognate",
+      "jir_name": "Bachelor of Science (bio majors)",
+      "jir_n": null
+    },
+    {
+      "dfva_code": "mc-bmedsc",
+      "dfva_name": "Master of Biomedical Science",
+      "tier": "cognate",
+      "jir_name": "Bachelor of Biomedicine majors",
+      "jir_n": 26
+    },
+    {
+      "dfva_code": "mc-phtyph",
+      "dfva_name": "Master of Physiotherapy (Pelvic Health)",
+      "tier": "cognate",
+      "jir_name": "Doctor of Physiotherapy",
+      "jir_n": 448
+    },
+    {
+      "dfva_code": "mc-urbhort",
+      "dfva_name": "Master of Urban Horticulture",
+      "tier": "cognate",
+      "jir_name": "Doctor of Urban Horticulture",
+      "jir_n": 44
+    },
+    {
+      "dfva_code": "b-des",
+      "dfva_name": "Bachelor of Design",
+      "tier": "cognate",
+      "jir_name": "Bachelor of Design (majors)",
+      "jir_n": 248
+    },
+    {
+      "dfva_code": "mc-dphysio",
+      "dfva_name": "Doctor of Physiotherapy",
+      "tier": "cognate",
+      "jir_name": "Doctor of Physiotherapy",
+      "jir_n": 448
+    },
+    {
+      "dfva_code": "mc-urbdes",
+      "dfva_name": "Master of Urban Design",
+      "tier": "partial",
+      "jir_name": "Master of Urban Planning",
+      "jir_n": 130
+    },
+    {
+      "dfva_code": "527cl",
+      "dfva_name": "Master of Clinical Psychology",
+      "tier": "partial",
+      "jir_name": "Master of Applied Psychology",
+      "jir_n": 47
+    },
+    {
+      "dfva_code": "746st",
+      "dfva_name": "Master of Engineering Structures",
+      "tier": "partial",
+      "jir_name": "Master of Civil Engineering",
+      "jir_n": null
+    },
+    {
+      "dfva_code": "mc-indeng",
+      "dfva_name": "Master of Industrial Engineering",
+      "tier": "partial",
+      "jir_name": "Master of Mechanical Engineering / Eng Management",
+      "jir_n": null
+    },
+    {
+      "dfva_code": "mc-apbusa",
+      "dfva_name": "Master of Applied Business Analytics",
+      "tier": "partial",
+      "jir_name": "Master of Management",
+      "jir_n": null
+    },
+    {
+      "dfva_code": "mc-busana",
+      "dfva_name": "Master of Business Analytics",
+      "tier": "partial",
+      "jir_name": "Master of Management",
+      "jir_n": null
+    },
+    {
+      "dfva_code": "mc-base",
+      "dfva_name": "Master of Advanced Social Enterprise",
+      "tier": "partial",
+      "jir_name": "Master of Social Policy",
+      "jir_n": 66
+    },
+    {
+      "dfva_code": "mc-envlaw",
+      "dfva_name": "Master of Environmental Law",
+      "tier": "partial",
+      "jir_name": "Master of Laws / Environment",
+      "jir_n": null
+    },
+    {
+      "dfva_code": "mc-surged",
+      "dfva_name": "Master of Surgical Education",
+      "tier": "partial",
+      "jir_name": "Master of Education",
+      "jir_n": 611
+    },
+    {
+      "dfva_code": "mc-intedib",
+      "dfva_name": "Master of International Education (IB)",
+      "tier": "partial",
+      "jir_name": "Master of Education",
+      "jir_n": 611
+    },
+    {
+      "dfva_code": "mc-scwr",
+      "dfva_name": "Master of Screenwriting",
+      "tier": "none",
+      "jir_name": null,
+      "jir_n": null
+    },
+    {
+      "dfva_code": "mc-climsci",
+      "dfva_name": "Master of Climate Science",
+      "tier": "none",
+      "jir_name": null,
+      "jir_n": null
+    },
+    {
+      "dfva_code": "mc-scibif",
+      "dfva_name": "Master of Science (Bioinformatics)",
+      "tier": "none",
+      "jir_name": null,
+      "jir_n": null
+    },
+    {
+      "dfva_code": "mc-sciepi",
+      "dfva_name": "Master of Science (Epidemiology)",
+      "tier": "none",
+      "jir_name": "Master of Public Health",
+      "jir_n": null
+    },
+    {
+      "dfva_code": "mc-actsc",
+      "dfva_name": "Master of Actuarial Science",
+      "tier": "none",
+      "jir_name": "Bachelor of Commerce (Actuarial Studies)",
+      "jir_n": null
+    },
+    {
+      "dfva_code": "mc-bamktg",
+      "dfva_name": "Master of Business Administration (Marketing)",
+      "tier": "none",
+      "jir_name": null,
+      "jir_n": null
+    },
+    {
+      "dfva_code": "b-sci",
+      "dfva_name": "Bachelor of Science",
+      "tier": "none",
+      "jir_name": "23 BSc-major reports",
+      "jir_n": null
+    },
+    {
+      "dfva_code": "mc-dmed",
+      "dfva_name": "Doctor of Medicine",
+      "tier": "exact",
+      "jir_name": "Doctor of Medicine",
+      "jir_n": 762
+    },
+    {
+      "dfva_code": "mc-ddensur",
+      "dfva_name": "Doctor of Dental Surgery",
+      "tier": "exact",
+      "jir_name": "Doctor of Dental Surgery",
+      "jir_n": null
+    },
+    {
+      "dfva_code": "mc-doptom",
+      "dfva_name": "Doctor of Optometry",
+      "tier": "exact",
+      "jir_name": "Doctor of Optometry",
+      "jir_n": null
+    },
+    {
+      "dfva_code": "mc-dvetmed",
+      "dfva_name": "Doctor of Veterinary Medicine",
+      "tier": "exact",
+      "jir_name": "Doctor of Veterinary Medicine",
+      "jir_n": null
+    },
+    {
+      "dfva_code": "mc-jurisd",
+      "dfva_name": "Juris Doctor",
+      "tier": "exact",
+      "jir_name": "Juris Doctor",
+      "jir_n": 1277
+    }
+  ],
+  "total": 47
+}

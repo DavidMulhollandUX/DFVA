@@ -1,0 +1,587 @@
+{
+  "sources": {
+    "Faculty of Arts": [
+      {
+        "name": "Bachelor of Arts (Ancient World Studies)",
+        "url": "https://careersonline.unimelb.edu.au/docs/755/Bachelor-of-Arts-(Ancient-World-Studies).pdf"
+      },
+      {
+        "name": "Bachelor of Arts (Anthropology)",
+        "url": "https://careersonline.unimelb.edu.au/docs/756/Bachelor-of-Arts-(Anthropology).pdf"
+      },
+      {
+        "name": "Bachelor of Arts (Art History)",
+        "url": "https://careersonline.unimelb.edu.au/docs/639/03_Bachelor-of-Arts-(Art-History).pdf"
+      },
+      {
+        "name": "Bachelor of Arts (Asian Studies)",
+        "url": "https://careersonline.unimelb.edu.au/docs/757/Bachelor-of-Arts-(Asian-Studies).pdf"
+      },
+      {
+        "name": "Bachelor of Arts (Creative Writing)",
+        "url": "https://careersonline.unimelb.edu.au/docs/647/11_Bachelor-of-Arts-(Creative-Writing).pdf"
+      },
+      {
+        "name": "Bachelor of Arts (Criminology)",
+        "url": "https://careersonline.unimelb.edu.au/docs/642/06_Bachelor-of-Arts-(Criminology).pdf"
+      },
+      {
+        "name": "Bachelor of Arts (Economics)",
+        "url": "https://careersonline.unimelb.edu.au/docs/640/04_Bachelor-of-Arts-(Economics).pdf"
+      },
+      {
+        "name": "Bachelor of Arts (English and Theatre Studies)",
+        "url": "https://careersonline.unimelb.edu.au/docs/644/08_Bachelor-of-Arts-(English-and-Theatre-Studies).pdf"
+      },
+      {
+        "name": "Bachelor of Arts (Gender Studies)",
+        "url": "https://careersonline.unimelb.edu.au/docs/758/Bachelor-of-Arts-(Gender-Studies).pdf"
+      },
+      {
+        "name": "Bachelor of Arts (Geography)",
+        "url": "https://careersonline.unimelb.edu.au/docs/646/10_Bachelor-of-Arts-(Geography).pdf"
+      },
+      {
+        "name": "Bachelor of Arts (History)",
+        "url": "https://careersonline.unimelb.edu.au/docs/641/05_Bachelor-of-Arts-(History).pdf"
+      },
+      {
+        "name": "Bachelor of Arts (Indigenous Studies)",
+        "url": "https://careersonline.unimelb.edu.au/docs/759/Bachelor-of-Arts-(Indigenous-Studies).pdf"
+      },
+      {
+        "name": "Bachelor of Arts (Media and Communications)",
+        "url": "https://careersonline.unimelb.edu.au/docs/645/09_Bachelor-of-Arts-(Media-and-Communications).pdf"
+      },
+      {
+        "name": "Bachelor of Arts (Philosophy)",
+        "url": "https://careersonline.unimelb.edu.au/docs/648/14_Bachelor-of-Arts-(Philosophy).pdf"
+      },
+      {
+        "name": "Bachelor of Arts (Politics and International Studies)",
+        "url": "https://careersonline.unimelb.edu.au/docs/638/02_Bachelor-of-Arts-(Politics-and-International-Studies).pdf"
+      },
+      {
+        "name": "Bachelor of Arts (Psychology)",
+        "url": "https://careersonline.unimelb.edu.au/docs/643/07_Bachelor-of-Arts-(Psychology).pdf"
+      },
+      {
+        "name": "Bachelor of Arts (Screen and Cultural Studies)",
+        "url": "https://careersonline.unimelb.edu.au/docs/760/Bachelor-of-Arts-(Screen-And-Cultural-Studies).pdf"
+      },
+      {
+        "name": "Bachelor of Arts (Sociology)",
+        "url": "https://careersonline.unimelb.edu.au/docs/665/15_Bachelor-of-Arts-(Sociology).pdf"
+      },
+      {
+        "name": "Executive Master of Arts",
+        "url": "https://careersonline.unimelb.edu.au/docs/681/Executive-Master-of-Arts.pdf"
+      },
+      {
+        "name": "Master of Applied Linguistics",
+        "url": "https://careersonline.unimelb.edu.au/docs/685/Master-of-Applied-Linguistics.pdf"
+      },
+      {
+        "name": "Master of Art Curatorship",
+        "url": "https://careersonline.unimelb.edu.au/docs/687/Master-of-Art-Curatorship.pdf"
+      },
+      {
+        "name": "Master of Arts and Cultural Management",
+        "url": "https://careersonline.unimelb.edu.au/docs/688/Master-of-Arts-and-Cultural-Management.pdf"
+      },
+      {
+        "name": "Master of Cultural Materials Conservation",
+        "url": "https://careersonline.unimelb.edu.au/docs/699/Master-of-Cultural-Materials-Conservation.pdf"
+      },
+      {
+        "name": "Master of Creative Writing, Publishing and Editing",
+        "url": "https://careersonline.unimelb.edu.au/docs/697/Master-of-Creative-Writing%2c-Publishing-and-Editing.pdf"
+      },
+      {
+        "name": "Master of Criminology",
+        "url": "https://careersonline.unimelb.edu.au/docs/698/Master-of-Criminology.pdf"
+      },
+      {
+        "name": "Master of Development Studies",
+        "url": "https://careersonline.unimelb.edu.au/docs/701/Master-of-Development-Studies.pdf"
+      },
+      {
+        "name": "Master of Global Media Communication",
+        "url": "https://careersonline.unimelb.edu.au/docs/710/Master-of-Global-Media-Communication.pdf"
+      },
+      {
+        "name": "Master of International Relations",
+        "url": "https://careersonline.unimelb.edu.au/docs/714/Master-of-International-Relations.pdf"
+      },
+      {
+        "name": "Master of Journalism",
+        "url": "https://careersonline.unimelb.edu.au/docs/715/Master-of-Journalism.pdf"
+      },
+      {
+        "name": "Master of Marketing Communications",
+        "url": "https://careersonline.unimelb.edu.au/docs/723/Master-of-Marketing-Communications.pdf"
+      },
+      {
+        "name": "Master of Public Policy and Management",
+        "url": "https://careersonline.unimelb.edu.au/docs/729/Master-of-Public-Policy-and-Management.pdf"
+      },
+      {
+        "name": "Master of Publishing and Communications",
+        "url": "https://careersonline.unimelb.edu.au/docs/730/Master-of-Publishing-and-Communications.pdf"
+      },
+      {
+        "name": "Master of Social Policy",
+        "url": "https://careersonline.unimelb.edu.au/docs/731/Master-of-Social-Policy.pdf"
+      }
+    ],
+    "Faculty of Business & Economics": [
+      {
+        "name": "Bachelor of Commerce (Accounting)",
+        "url": "https://careersonline.unimelb.edu.au/docs/656/02_Bachelor-of-Commerce-(Accounting).pdf"
+      },
+      {
+        "name": "Bachelor of Commerce (Actuarial Studies)",
+        "url": "https://careersonline.unimelb.edu.au/docs/657/03_Bachelor-of-Commerce-(Actuarial-Studies).pdf"
+      },
+      {
+        "name": "Bachelor of Commerce (Economics)",
+        "url": "https://careersonline.unimelb.edu.au/docs/660/10_Bachelor-of-Commerce-(Economics).pdf"
+      },
+      {
+        "name": "Bachelor of Commerce (Finance)",
+        "url": "https://careersonline.unimelb.edu.au/docs/661/11_Bachelor-of-Commerce-(Finance).pdf"
+      },
+      {
+        "name": "Bachelor of Commerce (Management)",
+        "url": "https://careersonline.unimelb.edu.au/docs/658/Bachelor-of-Commerce-(Management).pdf"
+      },
+      {
+        "name": "Bachelor of Commerce (Marketing)",
+        "url": "https://careersonline.unimelb.edu.au/docs/659/08_Bachelor-of-Commerce-(Marketing).pdf"
+      },
+      {
+        "name": "Master of Business Administration",
+        "url": "https://careersonline.unimelb.edu.au/docs/691/Master-of-Business-Administration.pdf"
+      },
+      {
+        "name": "Master of Economics",
+        "url": "https://careersonline.unimelb.edu.au/docs/742/Master-of-Economics.pdf"
+      },
+      {
+        "name": "Master of Finance",
+        "url": "https://careersonline.unimelb.edu.au/docs/708/Master-of-Finance.pdf"
+      },
+      {
+        "name": "Master of International Business",
+        "url": "https://careersonline.unimelb.edu.au/docs/713/Master-of-International-Business.pdf"
+      },
+      {
+        "name": "Master of Management",
+        "url": "https://careersonline.unimelb.edu.au/docs/722/Master-of-Management.pdf"
+      },
+      {
+        "name": "Master of Management (Accounting)",
+        "url": "https://careersonline.unimelb.edu.au/docs/743/Master-of-Management-(Accounting).pdf"
+      },
+      {
+        "name": "Master of Management (Finance)",
+        "url": "https://careersonline.unimelb.edu.au/docs/719/Master-of-Management-(Finance).pdf"
+      },
+      {
+        "name": "Master of Management (Human Resources)",
+        "url": "https://careersonline.unimelb.edu.au/docs/720/Master-of-Management-(Human-Resources).pdf"
+      },
+      {
+        "name": "Master of Management (Marketing)",
+        "url": "https://careersonline.unimelb.edu.au/docs/721/Master-of-Management-(Marketing).pdf"
+      }
+    ],
+    "Faculty of Education": [
+      {
+        "name": "Master of Education",
+        "url": "https://careersonline.unimelb.edu.au/docs/702/Master-of-Education.pdf"
+      },
+      {
+        "name": "Master of Evaluation",
+        "url": "https://careersonline.unimelb.edu.au/docs/707/Master-of-Evaluation.pdf"
+      },
+      {
+        "name": "Master of Instructional Leadership",
+        "url": "https://careersonline.unimelb.edu.au/docs/741/Master-of-Instructional-Leadership.pdf"
+      },
+      {
+        "name": "Master of Learning Intervention",
+        "url": "https://careersonline.unimelb.edu.au/docs/718/Master-of-Learning-Intervention.pdf"
+      },
+      {
+        "name": "Master of Teaching (Primary)",
+        "url": "https://careersonline.unimelb.edu.au/docs/735/Master-of-Teaching-(Primary).pdf"
+      },
+      {
+        "name": "Master of Teaching (Secondary)",
+        "url": "https://careersonline.unimelb.edu.au/docs/736/Master-of-Teaching-(Secondary).pdf"
+      },
+      {
+        "name": "Master of TESOL",
+        "url": "https://careersonline.unimelb.edu.au/docs/737/Master-of-TESOL.pdf"
+      }
+    ],
+    "Faculty of Engineering & IT": [
+      {
+        "name": "Master of Biomedical Engineering",
+        "url": "https://careersonline.unimelb.edu.au/docs/689/Master-of-Biomedical-Engineering.pdf"
+      },
+      {
+        "name": "Master of Chemical Engineering",
+        "url": "https://careersonline.unimelb.edu.au/docs/692/Master-of-Chemical-Engineering.pdf"
+      },
+      {
+        "name": "Master of Civil Engineering",
+        "url": "https://careersonline.unimelb.edu.au/docs/693/Master-of-Civil-Engineering.pdf"
+      },
+      {
+        "name": "Master of Computer Science",
+        "url": "https://careersonline.unimelb.edu.au/docs/744/Master-of-Computer-Science.pdf"
+      },
+      {
+        "name": "Master of Electrical Engineering",
+        "url": "https://careersonline.unimelb.edu.au/docs/703/Master-of-Electrical-Engineering.pdf"
+      },
+      {
+        "name": "Master of Engineering Management",
+        "url": "https://careersonline.unimelb.edu.au/docs/704/Master-of-Engineering-Management.pdf"
+      },
+      {
+        "name": "Master of Energy Systems",
+        "url": "https://careersonline.unimelb.edu.au/docs/745/Master-of-Energy-Systems.pdf"
+      },
+      {
+        "name": "Master of Information Systems",
+        "url": "https://careersonline.unimelb.edu.au/docs/711/Master-of-Information-Systems.pdf"
+      },
+      {
+        "name": "Master of Information Technology",
+        "url": "https://careersonline.unimelb.edu.au/docs/712/Master-of-Information-Technology.pdf"
+      },
+      {
+        "name": "Master of Mechanical Engineering",
+        "url": "https://careersonline.unimelb.edu.au/docs/724/Master-of-Mechanical-Engineering.pdf"
+      },
+      {
+        "name": "Master of Mechatronics Engineering",
+        "url": "https://careersonline.unimelb.edu.au/docs/725/Master-of-Mechatronics-Engineering.pdf"
+      },
+      {
+        "name": "Master of Software Engineering",
+        "url": "https://careersonline.unimelb.edu.au/docs/733/Master-of-Software-Engineering.pdf"
+      }
+    ],
+    "Faculty of Fine Arts & Music": [
+      {
+        "name": "Bachelor of Music (Performance)",
+        "url": "https://careersonline.unimelb.edu.au/docs/649/13_Bachelor-of-Music-(Performance).pdf"
+      },
+      {
+        "name": "Master of Music Therapy",
+        "url": "https://careersonline.unimelb.edu.au/docs/726/Master-of-Music-Therapy.pdf"
+      }
+    ],
+    "Faculty of Medicine Dentistry & Health": [
+      {
+        "name": "Bachelor of Biomedicine (Human Structure and Function)",
+        "url": "https://careersonline.unimelb.edu.au/docs/650/01_Bachelor-of-Biomedicine-(Human-Structure-and-Function).pdf"
+      },
+      {
+        "name": "Bachelor of Biomedicine (Immunology)",
+        "url": "https://careersonline.unimelb.edu.au/docs/653/13_Bachelor-of-Biomedicine-(Immunology).pdf"
+      },
+      {
+        "name": "Bachelor of Biomedicine (Microbiology)",
+        "url": "https://careersonline.unimelb.edu.au/docs/761/Bachelor-of-Biomedicine-(Microbiology).pdf"
+      },
+      {
+        "name": "Bachelor of Biomedicine (Neuroscience)",
+        "url": "https://careersonline.unimelb.edu.au/docs/654/14_Bachelor-of-Biomedicine-(Neuroscience).pdf"
+      },
+      {
+        "name": "Bachelor of Biomedicine (Pathology)",
+        "url": "https://careersonline.unimelb.edu.au/docs/776/Bachelor-of-Biomedicine-(Pathology).pdf"
+      },
+      {
+        "name": "Bachelor of Biomedicine (Pharmacology)",
+        "url": "https://careersonline.unimelb.edu.au/docs/652/07_Bachelor-of-Biomedicine-(Pharmacology).pdf"
+      },
+      {
+        "name": "Bachelor of Biomedicine (Physiology)",
+        "url": "https://careersonline.unimelb.edu.au/docs/651/06_Bachelor-of-Biomedicine-(Physiology).pdf"
+      },
+      {
+        "name": "Bachelor of Oral Health",
+        "url": "https://careersonline.unimelb.edu.au/docs/655/12_Bachelor-of-Oral-Health.pdf"
+      },
+      {
+        "name": "Master of Advanced Nursing Practice",
+        "url": "https://careersonline.unimelb.edu.au/docs/683/Master-of-Advanced-Nursing-Practice.pdf"
+      },
+      {
+        "name": "Master of Applied Psychology",
+        "url": "https://careersonline.unimelb.edu.au/docs/751/Master-of-Applied-Psychology.pdf"
+      },
+      {
+        "name": "Master of Clinical Audiology",
+        "url": "https://careersonline.unimelb.edu.au/docs/694/Master-of-Clinical-Audiology.pdf"
+      },
+      {
+        "name": "Master of Clinical Dentistry",
+        "url": "https://careersonline.unimelb.edu.au/docs/750/Doctor-of-Clinical-Dentistry.pdf"
+      },
+      {
+        "name": "Master of Genetic Counselling",
+        "url": "https://careersonline.unimelb.edu.au/docs/752/Master-of-Genetic-Counselling.pdf"
+      },
+      {
+        "name": "Master of Nursing Science",
+        "url": "https://careersonline.unimelb.edu.au/docs/727/Master-of-Nursing-Science.pdf"
+      },
+      {
+        "name": "Master of Professional Psychology et al",
+        "url": "https://careersonline.unimelb.edu.au/docs/753/Master-of-Professional-Psychology%2c-Master-of-Psychology-(Clinical-Neuropsychology)%2c-Master-of-Psychology-(Clinical-Psychology)%2c-Master-of-Psychology-(Education-and-Development).pdf"
+      },
+      {
+        "name": "Master of Psychiatry",
+        "url": "https://careersonline.unimelb.edu.au/docs/754/Master-of-Psychiatry.pdf"
+      },
+      {
+        "name": "Master of Public Health",
+        "url": "https://careersonline.unimelb.edu.au/docs/728/Master-of-Public-Health.pdf"
+      },
+      {
+        "name": "Master of Social Work",
+        "url": "https://careersonline.unimelb.edu.au/docs/732/Master-of-Social-Work.pdf"
+      },
+      {
+        "name": "Master of Speech Pathology",
+        "url": "https://careersonline.unimelb.edu.au/docs/734/Master-of-Speech-Pathology.pdf"
+      },
+      {
+        "name": "Doctor of Dental Surgery",
+        "url": "https://careersonline.unimelb.edu.au/docs/676/Doctor-of-Dental-Surgery.pdf"
+      },
+      {
+        "name": "Doctor of Medicine",
+        "url": "https://careersonline.unimelb.edu.au/docs/677/Doctor-of-Medicine.pdf"
+      },
+      {
+        "name": "Doctor of Optometry",
+        "url": "https://careersonline.unimelb.edu.au/docs/678/Doctor-of-Optometry.pdf"
+      },
+      {
+        "name": "Doctor of Physiotherapy",
+        "url": "https://careersonline.unimelb.edu.au/docs/679/Doctor-of-Physiotherapy.pdf"
+      }
+    ],
+    "Faculty of Science": [
+      {
+        "name": "Bachelor of Science (Animal Health and Disease)",
+        "url": "https://careersonline.unimelb.edu.au/docs/763/Bachelor-of-Science-(Animal-Health-And-Disease).pdf"
+      },
+      {
+        "name": "Bachelor of Science (Biochemistry and Molecular Biology)",
+        "url": "https://careersonline.unimelb.edu.au/docs/672/10_Bachelor-of-Science-(Biochemistry-and-Molecular-Biology).pdf"
+      },
+      {
+        "name": "Bachelor of Science (Biotechnology)",
+        "url": "https://careersonline.unimelb.edu.au/docs/764/Bachelor-of-Science-(Biotechnology).pdf"
+      },
+      {
+        "name": "Bachelor of Science (Chemistry)",
+        "url": "https://careersonline.unimelb.edu.au/docs/668/05_Bachelor-of-Science-(Chemistry).pdf"
+      },
+      {
+        "name": "Bachelor of Science (Computing and Software Systems)",
+        "url": "https://careersonline.unimelb.edu.au/docs/765/Bachelor-of-Science-(Computing-And-Software-Systems).pdf"
+      },
+      {
+        "name": "Bachelor of Science (Data Science)",
+        "url": "https://careersonline.unimelb.edu.au/docs/673/11_Bachelor-of-Science-(Data-Science).pdf"
+      },
+      {
+        "name": "Bachelor of Science (Ecology and Evolutionary Biology)",
+        "url": "https://careersonline.unimelb.edu.au/docs/766/Bachelor-of-Science-(Ecology-And-Evolutionary-Biology).pdf"
+      },
+      {
+        "name": "Bachelor of Science (Environmental Science)",
+        "url": "https://careersonline.unimelb.edu.au/docs/767/Bachelor-of-Science-(Environmental-Science).pdf"
+      },
+      {
+        "name": "Bachelor of Science (Food Science)",
+        "url": "https://careersonline.unimelb.edu.au/docs/768/Bachelor-of-Science-(Food-Science).pdf"
+      },
+      {
+        "name": "Bachelor of Science (Genetics)",
+        "url": "https://careersonline.unimelb.edu.au/docs/769/Bachelor-of-Science-(Genetics).pdf"
+      },
+      {
+        "name": "Bachelor of Science (Geology)",
+        "url": "https://careersonline.unimelb.edu.au/docs/770/Bachelor-of-Science-(Geology).pdf"
+      },
+      {
+        "name": "Bachelor of Science (Human Structure and Function)",
+        "url": "https://careersonline.unimelb.edu.au/docs/669/06_Bachelor-of-Science-(Human-Structure-and-Function).pdf"
+      },
+      {
+        "name": "Bachelor of Science (Mathematical Physics)",
+        "url": "https://careersonline.unimelb.edu.au/docs/771/Bachelor-of-Science-(Mathematical-Physics).pdf"
+      },
+      {
+        "name": "Bachelor of Science (Mathematics and Statistics)",
+        "url": "https://careersonline.unimelb.edu.au/docs/667/03_Bachelor-of-Science-(Mathematics-and-Statistics).pdf"
+      },
+      {
+        "name": "Bachelor of Science (Microbiology)",
+        "url": "https://careersonline.unimelb.edu.au/docs/772/Bachelor-of-Science-(Microbiology).pdf"
+      },
+      {
+        "name": "Bachelor of Science (Neuroscience)",
+        "url": "https://careersonline.unimelb.edu.au/docs/671/09_Bachelor-of-Science-(Neuroscience).pdf"
+      },
+      {
+        "name": "Bachelor of Science (Pathology)",
+        "url": "https://careersonline.unimelb.edu.au/docs/773/Bachelor-of-Science-(Pathology).pdf"
+      },
+      {
+        "name": "Bachelor of Science (Pharmacology)",
+        "url": "https://careersonline.unimelb.edu.au/docs/636/01_Bachelor-of-Science-(Pharmacology).pdf"
+      },
+      {
+        "name": "Bachelor of Science (Physics)",
+        "url": "https://careersonline.unimelb.edu.au/docs/670/08_Bachelor-of-Science-(Physics).pdf"
+      },
+      {
+        "name": "Bachelor of Science (Physiology)",
+        "url": "https://careersonline.unimelb.edu.au/docs/666/01_Bachelor-of-Science-(Physiology).pdf"
+      },
+      {
+        "name": "Bachelor of Science (Psychology)",
+        "url": "https://careersonline.unimelb.edu.au/docs/637/12_Bachelor-of-Science-(Psychology).pdf"
+      },
+      {
+        "name": "Bachelor of Science (Veterinary Bioscience)",
+        "url": "https://careersonline.unimelb.edu.au/docs/774/Bachelor-of-Science-(Veterinary-Bioscience).pdf"
+      },
+      {
+        "name": "Bachelor of Science (Zoology)",
+        "url": "https://careersonline.unimelb.edu.au/docs/775/Bachelor-of-Science-(Zoology).pdf"
+      },
+      {
+        "name": "Master of Agricultural Sciences",
+        "url": "https://careersonline.unimelb.edu.au/docs/684/Master-of-Agricultural-Sciences.pdf"
+      },
+      {
+        "name": "Master of Biotechnology",
+        "url": "https://careersonline.unimelb.edu.au/docs/690/Master-of-Biotechnology.pdf"
+      },
+      {
+        "name": "Master of Data Science",
+        "url": "https://careersonline.unimelb.edu.au/docs/700/Master-of-Data-Science.pdf"
+      },
+      {
+        "name": "Master of Environment",
+        "url": "https://careersonline.unimelb.edu.au/docs/705/Master-of-Environment.pdf"
+      },
+      {
+        "name": "Master of Environmental Science",
+        "url": "https://careersonline.unimelb.edu.au/docs/706/Master-of-Environmental-Science.pdf"
+      },
+      {
+        "name": "Master of Food Science",
+        "url": "https://careersonline.unimelb.edu.au/docs/709/Master-of-Food-Science.pdf"
+      },
+      {
+        "name": "Doctor of Urban Horticulture",
+        "url": "https://careersonline.unimelb.edu.au/docs/738/Master-of-Urban-Horticulture.pdf"
+      },
+      {
+        "name": "Doctor of Veterinary Medicine",
+        "url": "https://careersonline.unimelb.edu.au/docs/680/Doctor-of-Veterinary-Medicine.pdf"
+      }
+    ],
+    "Melbourne Law School": [
+      {
+        "name": "Juris Doctor",
+        "url": "https://careersonline.unimelb.edu.au/docs/682/Juris-Doctor.pdf"
+      },
+      {
+        "name": "Master of Commercial Law",
+        "url": "https://careersonline.unimelb.edu.au/docs/746/Master-of-Commercial-Law.pdf"
+      },
+      {
+        "name": "Master of Construction Law",
+        "url": "https://careersonline.unimelb.edu.au/docs/695/Master-of-Construction-Law.pdf"
+      },
+      {
+        "name": "Master of Intellectual Property Law",
+        "url": "https://careersonline.unimelb.edu.au/docs/747/Master-of-Intellectual-Property-Law.pdf"
+      },
+      {
+        "name": "Master of Laws",
+        "url": "https://careersonline.unimelb.edu.au/docs/717/Master-of-Laws.pdf"
+      },
+      {
+        "name": "Master of Public and International Law",
+        "url": "https://careersonline.unimelb.edu.au/docs/748/Master-of-Public-And-International-Law.pdf"
+      },
+      {
+        "name": "Master of Tax",
+        "url": "https://careersonline.unimelb.edu.au/docs/749/Master-of-Tax.pdf"
+      }
+    ],
+    "Faculty of Architecture Building & Planning": [
+      {
+        "name": "Bachelor of Design (Architecture)",
+        "url": "https://careersonline.unimelb.edu.au/docs/663/09_Bachelor-of-Design-(Architecture).pdf"
+      },
+      {
+        "name": "Bachelor of Design (Construction)",
+        "url": "https://careersonline.unimelb.edu.au/docs/664/12_Bachelor-of-Design-(Construction).pdf"
+      },
+      {
+        "name": "Bachelor of Design (Graphic Design)",
+        "url": "https://careersonline.unimelb.edu.au/docs/662/05_Bachelor-of-Design-(Graphic-Design).pdf"
+      },
+      {
+        "name": "Bachelor of Design (Property)",
+        "url": "https://careersonline.unimelb.edu.au/docs/674/02_Bachelor-of-Design-(Property).pdf"
+      },
+      {
+        "name": "Bachelor of Design (Urban Planning)",
+        "url": "https://careersonline.unimelb.edu.au/docs/675/04_Bachelor-of-Design-(Urban-Planning).pdf"
+      },
+      {
+        "name": "Bachelor of Design (User Experience Design)",
+        "url": "https://careersonline.unimelb.edu.au/docs/762/Bachelor-of-Design-(User-Experience-Design).pdf"
+      },
+      {
+        "name": "Master of Architecture",
+        "url": "https://careersonline.unimelb.edu.au/docs/686/Master-of-Architecture.pdf"
+      },
+      {
+        "name": "Master of Construction Management",
+        "url": "https://careersonline.unimelb.edu.au/docs/696/Master-of-Construction-Management.pdf"
+      },
+      {
+        "name": "Master of Landscape Architecture",
+        "url": "https://careersonline.unimelb.edu.au/docs/716/Master-of-Landscape-Architecture.pdf"
+      },
+      {
+        "name": "Master of Property",
+        "url": "https://careersonline.unimelb.edu.au/docs/740/Master-of-Property.pdf"
+      },
+      {
+        "name": "Master of Urban Planning",
+        "url": "https://careersonline.unimelb.edu.au/docs/739/Master-of-Urban-Planning.pdf"
+      }
+    ]
+  },
+  "total_expected": 141
+}
