@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DFVA v2 — Prototype Matrix</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    background: #0d1117; color: #c9d1d9; padding: 32px;
+    line-height: 1.5;
+  }
+  .container { max-width: 1400px; margin: 0 auto; }
+  h1 { font-size: 1.6rem; margin-bottom: 4px; color: #f0f6fc; }
+  .subtitle { color: #8b949e; margin-bottom: 24px; font-size: 0.9rem; }
+  
+  /* Banner */
+  .banner {
+    background: #161b22; border: 1px solid #30363d; border-radius: 8px;
+    padding: 16px 20px; margin-bottom: 24px;
+    display: flex; align-items: flex-start; gap: 12px;
+  }
+  .banner-icon { font-size: 1.4rem; flex-shrink: 0; }
+  .banner-title { font-weight: 600; color: #f0f6fc; margin-bottom: 4px; }
+  .banner-text { color: #8b949e; font-size: 0.85rem; }
+  
+  /* Matrix section */
+  .matrix-wrapper {
+    background: #161b22; border: 1px solid #30363d; border-radius: 8px;
+    padding: 24px; margin-bottom: 24px;
+    position: relative;
+  }
+  .matrix-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+  .matrix-title { font-weight: 600; color: #f0f6fc; }
+  .matrix-legend { display: flex; gap: 16px; align-items: center; }
+  .legend-item { display: flex; align-items: center; gap: 6px; font-size: 0.8rem; color: #8b949e; }
+  .legend-dot { width: 10px; height: 10px; border-radius: 50%; }
+  .legend-dot.has-jir { background: #58a6ff; }
+  .legend-dot.no-jir { background: #8b949e; opacity: 0.5; }
+  
+  .matrix-container { display: flex; gap: 0; }
+  .y-axis-label {
+    writing-mode: vertical-rl; transform: rotate(180deg);
+    color: #8b949e; font-size: 0.85rem; text-align: center;
+    padding: 0 12px; display: flex; align-items: center; justify-content: center;
+    min-width: 32px;
+  }
+  .matrix-area { flex: 1; position: relative; }
+  .x-axis-label {
+    color: #8b949e; font-size: 0.85rem; text-align: center; padding-top: 8px;
+  }
+  
+  svg { width: 100%; display: block; }
+  
+  /* Quadrant labels */
+  .ql { fill: #8b949e; font-size: 12px; opacity: 0.7; }
+  
+  /* Tooltip */
+  .tooltip {
+    display: none; position: absolute;
+    background: #21262d; border: 1px solid #30363d; border-radius: 6px;
+    padding: 12px 14px; font-size: 0.8rem; pointer-events: none;
+    z-index: 10; max-width: 300px; box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+  }
+  .tooltip .tt-name { font-weight: 600; color: #f0f6fc; margin-bottom: 4px; }
+  .tooltip .tt-row { display: flex; justify-content: space-between; gap: 24px; }
+  .tooltip .tt-label { color: #8b949e; }
+  .tooltip .tt-val { color: #c9d1d9; }
+  .tt-v1 { color: #f78166; font-size: 0.75rem; }
+  
+  /* Filters */
+  .filters { display: flex; gap: 12px; margin-bottom: 16px; flex-wrap: wrap; }
+  .filter-btn {
+    padding: 6px 14px; border-radius: 20px; border: 1px solid #30363d;
+    background: #0d1117; color: #c9d1d9; cursor: pointer; font-size: 0.8rem;
+    transition: all 0.15s;
+  }
+  .filter-btn:hover { border-color: #58a6ff; }
+  .filter-btn.active { background: #1f6feb; border-color: #1f6feb; color: #fff; }
+  
+  /* Program table */
+  .table-wrapper {
+    background: #161b22; border: 1px solid #30363d; border-radius: 8px;
+    padding: 16px; overflow-x: auto;
+  }
+  .table-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.82rem; }
+  th {
+    text-align: left; padding: 8px 12px; color: #8b949e; font-weight: 500;
+    border-bottom: 1px solid #21262d; white-space: nowrap;
+  }
+  td { padding: 6px 12px; border-bottom: 1px solid #21262d1a; }
+  tr:hover td { background: #1c2128; }
+  .badge {
+    display: inline-block; padding: 2px 8px; border-radius: 10px;
+    font-size: 0.72rem; font-weight: 500;
+  }
+  .badge-wp { background: #1a3a2a; color: #3fb950; }
+  .badge-cf { background: #1a2e3a; color: #58a6ff; }
+  .badge-at { background: #3a2816; color: #d29922; }
+  .badge-sh { background: #2a1a3a; color: #a371f7; }
+  .badge-ne { background: #21262d; color: #8b949e; }
+  .gate-pass { color: #3fb950; }
+  .gate-fail { color: #f85149; }
+  
+  /* Two-column layout for stats */
+  .stats-grid {
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 24px; margin-bottom: 24px;
+  }
+  @media (max-width: 800px) { .stats-grid { grid-template-columns: 1fr; } }
+  .stat-card {
+    background: #161b22; border: 1px solid #30363d; border-radius: 8px;
+    padding: 20px;
+  }
+  .stat-card h3 { color: #f0f6fc; font-size: 0.95rem; margin-bottom: 12px; }
+  .stat-row { display: flex; justify-content: space-between; padding: 4px 0; font-size: 0.82rem; }
+  .stat-label { color: #8b949e; }
+  .stat-val { color: #c9d1d9; }
+  
+  /* Methodology note */
+  .meth-note {
+    background: #161b22; border: 1px solid #30363d; border-radius: 8px;
+    padding: 16px 20px; margin-bottom: 24px; font-size: 0.82rem; color: #8b949e;
+  }
+  .meth-note strong { color: #c9d1d9; }
+  .meth-note code { color: #58a6ff; background: #1c2128; padding: 1px 5px; border-radius: 3px; font-size: 0.8rem; }
+</style>
+</head>
+<body>
+<div class="container">
+
+<h1>DFVA v2 — Prototype Matrix</h1>
+<p class="subtitle">2×2 design: curriculum adaptiveness × destination exposure. Static prototype — zero code impact.</p>
+
+<div class="banner">
+  <div class="banner-icon">⚠</div>
+  <div>
+    <div class="banner-title">This is a design prototype, not a product change.</div>
+    <div class="banner-text">
+      The live product (evidura.ai) continues to serve v1 bands. This prototype uses real DFVA data to demonstrate the v2 2×2 matrix shape proposed in <code>docs/proud-moseying-taco.md</code>. No report, MCP server, or app code has been modified.
+    </div>
+  </div>
+</div>
+
+<div class="meth-note">
+  <strong>Panel A (X-axis): Destination AI Exposure</strong> — <code>mean_title_exposure</code> from JIR destination data (34 of 66 programs have JIR matches). Unweighted mean Felten AIOE of graduate destination occupations, rescaled 0–100. Programs without JIR data (32) appear in the table but not on the chart.<br><br>
+  <strong>Panel C (Y-axis): Curriculum Adaptiveness</strong> — Sum of scored v2 dimensions only: D2 Systems Thinking, D3 Technical Depth, D7 Research Methods, B Irreplaceability, D5 AI Literacy (0–15 scale). D4 and D6 are binary gates (not summed). D9 is dropped. D1 and D8 are now measured (Panel A), not scored. D10 is evidence confidence metadata (Panel D).<br><br>
+  <strong>Quadrant thresholds:</strong> Portfolio medians (exposure = 61.8, adaptiveness = 11.0 / 15) — descriptive, not criterion-referenced.
+</div>
+
+<div class="stats-grid" id="stats"></div>
+
+<div class="matrix-wrapper">
+  <div class="matrix-header">
+    <div class="matrix-title">Curriculum Adaptiveness × Destination AI Exposure</div>
+    <div class="matrix-legend">
+      <div class="legend-item"><span class="legend-dot has-jir"></span> JIR destination data</div>
+      <div class="legend-item"><span class="legend-dot no-jir"></span> No JIR (not plotted)</div>
+    </div>
+  </div>
+  <div class="filters" id="faculty-filters"></div>
+  <div class="matrix-container">
+    <div class="y-axis-label">Curriculum Adaptiveness (0–15) →</div>
+    <div class="matrix-area">
+      <svg id="matrix" viewBox="0 0 800 500" preserveAspectRatio="xMidYMid meet"></svg>
+      <div class="tooltip" id="tooltip"></div>
+    </div>
+  </div>
+  <div class="x-axis-label">← Destination AI Exposure (AIOE 0–100) →</div>
+</div>
+
+<div class="table-wrapper">
+  <div class="table-header">
+    <div style="font-weight:600;color:#f0f6fc;">All 66 Programs</div>
+    <div style="font-size:0.8rem;color:#8b949e;">v1 band → v2 quadrant migration</div>
+  </div>
+  <table id="program-table">
+    <thead>
+      <tr>
+        <th>Code</th><th>Program</th><th>Faculty</th>
+        <th>v1 Band</th><th>v2 Quadrant</th>
+        <th>Exposure</th><th>Adapt.</th>
+        <th>D2</th><th>D3</th><th>D7</th><th>B</th><th>D5</th>
+        <th>D4 gate</th><th>D6 gate</th><th>JIR</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</div>
+
+</div>
+
+<script>
+const DATA = {"programs": [{"code": "080cl", "name": "Master of Psychology (Clinical Psychology)/Doctor of Philosophy", "faculty": "Medicine, Dentistry & Health", "v1_score": 28.0, "v1_band": "RESILIENT", "exposure": null, "has_jir": false, "adaptiveness_raw": 12.0, "adaptiveness": 0.8, "D2": 3.0, "D3": 2.0, "D7": 3.0, "B_irreplaceable": 3.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 3.0, "D3": 2.0, "D7": 3.0, "B": 3.0, "D5": 1.0}, "quadrant": "no-exposure"}, {"code": "080cn", "name": "Master of Psychology (Clinical Neuropsychology)/Doctor of Philosophy", "faculty": "Medicine, Dentistry & Health", "v1_score": 29.0, "v1_band": "RESILIENT", "exposure": null, "has_jir": false, "adaptiveness_raw": 13.0, "adaptiveness": 0.867, "D2": 3.0, "D3": 3.0, "D7": 3.0, "B_irreplaceable": 3.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 3.0, "D3": 3.0, "D7": 3.0, "B": 3.0, "D5": 1.0}, "quadrant": "no-exposure"}, {"code": "300bb", "name": "Doctor of Education", "faculty": "Education", "v1_score": 19.0, "v1_band": "HIGH RISK", "exposure": null, "has_jir": false, "adaptiveness_raw": 8.0, "adaptiveness": 0.533, "D2": 2.0, "D3": 1.0, "D7": 2.0, "B_irreplaceable": 3.0, "D5_ai_literacy": 0.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 2.0, "D3": 1.0, "D7": 2.0, "B": 3.0, "D5": 0.0}, "quadrant": "no-exposure"}, {"code": "439fs", "name": "Master of Food Science", "faculty": "Science", "v1_score": 23.0, "v1_band": "MODERATE RISK", "exposure": 58.5, "has_jir": true, "adaptiveness_raw": 9.0, "adaptiveness": 0.6, "D2": 2.0, "D3": 2.0, "D7": 2.0, "B_irreplaceable": 2.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 2.0, "D3": 2.0, "D7": 2.0, "B": 2.0, "D5": 1.0}, "quadrant": "sheltered"}, {"code": "527cl", "name": "Master of Clinical Psychology", "faculty": "Medicine, Dentistry & Health", "v1_score": 28.0, "v1_band": "RESILIENT", "exposure": 61.8, "has_jir": true, "adaptiveness_raw": 11.0, "adaptiveness": 0.733, "D2": 2.0, "D3": 2.0, "D7": 3.0, "B_irreplaceable": 3.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 2.0, "D3": 2.0, "D7": 3.0, "B": 3.0, "D5": 1.0}, "quadrant": "well-positioned"}, {"code": "746st", "name": "Master of Engineering Structures", "faculty": "Engineering & IT", "v1_score": 22.0, "v1_band": "MODERATE RISK", "exposure": 58.0, "has_jir": true, "adaptiveness_raw": 10.0, "adaptiveness": 0.667, "D2": 3.0, "D3": 3.0, "D7": 1.0, "B_irreplaceable": 2.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 3.0, "D3": 3.0, "D7": 1.0, "B": 2.0, "D5": 1.0}, "quadrant": "sheltered"}, {"code": "b-des", "name": "Bachelor of Design", "faculty": "Architecture, Building & Planning", "v1_score": 18.0, "v1_band": "HIGH RISK", "exposure": null, "has_jir": false, "adaptiveness_raw": 7.0, "adaptiveness": 0.467, "D2": 2.0, "D3": 1.0, "D7": 1.0, "B_irreplaceable": 2.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 2.0, "D3": 1.0, "D7": 1.0, "B": 2.0, "D5": 1.0}, "quadrant": "no-exposure"}, {"code": "b-sci", "name": "Bachelor of Science", "faculty": "Science", "v1_score": 23.0, "v1_band": "MODERATE RISK", "exposure": null, "has_jir": false, "adaptiveness_raw": 11.0, "adaptiveness": 0.733, "D2": 2.0, "D3": 3.0, "D7": 3.0, "B_irreplaceable": 2.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 2.0, "D3": 3.0, "D7": 3.0, "B": 2.0, "D5": 1.0}, "quadrant": "no-exposure"}, {"code": "dh-lld", "name": "Doctor of Laws", "faculty": "Other", "v1_score": 22.0, "v1_band": "MODERATE RISK", "exposure": null, "has_jir": false, "adaptiveness_raw": 10.0, "adaptiveness": 0.667, "D2": 3.0, "D3": 1.0, "D7": 3.0, "B_irreplaceable": 3.0, "D5_ai_literacy": 0.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 3.0, "D3": 1.0, "D7": 3.0, "B": 3.0, "D5": 0.0}, "quadrant": "no-exposure"}, {"code": "dh-sc", "name": "Doctor of Science", "faculty": "Science", "v1_score": 27.0, "v1_band": "MODERATE RISK", "exposure": null, "has_jir": false, "adaptiveness_raw": 13.0, "adaptiveness": 0.867, "D2": 3.0, "D3": 3.0, "D7": 3.0, "B_irreplaceable": 3.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 3.0, "D3": 3.0, "D7": 3.0, "B": 3.0, "D5": 1.0}, "quadrant": "no-exposure"}, {"code": "dr-philabp", "name": "Doctor of Philosophy - Architecture, Building and Planning", "faculty": "Architecture, Building & Planning", "v1_score": 25.0, "v1_band": "MODERATE RISK", "exposure": null, "has_jir": false, "adaptiveness_raw": 12.0, "adaptiveness": 0.8, "D2": 3.0, "D3": 2.0, "D7": 3.0, "B_irreplaceable": 3.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 3.0, "D3": 2.0, "D7": 3.0, "B": 3.0, "D5": 1.0}, "quadrant": "no-exposure"}, {"code": "dr-philagr", "name": "Doctor of Philosophy - Agricultural Sciences", "faculty": "Science", "v1_score": 26.0, "v1_band": "MODERATE RISK", "exposure": null, "has_jir": false, "adaptiveness_raw": 13.0, "adaptiveness": 0.867, "D2": 3.0, "D3": 3.0, "D7": 3.0, "B_irreplaceable": 3.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 3.0, "D3": 3.0, "D7": 3.0, "B": 3.0, "D5": 1.0}, "quadrant": "no-exposure"}, {"code": "dr-philart", "name": "Doctor of Philosophy - Arts", "faculty": "Arts", "v1_score": 21.0, "v1_band": "MODERATE RISK", "exposure": null, "has_jir": false, "adaptiveness_raw": 9.0, "adaptiveness": 0.6, "D2": 3.0, "D3": 1.0, "D7": 3.0, "B_irreplaceable": 2.0, "D5_ai_literacy": 0.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 3.0, "D3": 1.0, "D7": 3.0, "B": 2.0, "D5": 0.0}, "quadrant": "no-exposure"}, {"code": "dr-philbe", "name": "Doctor of Philosophy - Business and Economics", "faculty": "Business & Economics", "v1_score": 25.0, "v1_band": "MODERATE RISK", "exposure": null, "has_jir": false, "adaptiveness_raw": 13.0, "adaptiveness": 0.867, "D2": 3.0, "D3": 3.0, "D7": 3.0, "B_irreplaceable": 3.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 3.0, "D3": 3.0, "D7": 3.0, "B": 3.0, "D5": 1.0}, "quadrant": "no-exposure"}, {"code": "dr-philedp", "name": "Master of Psychology (Educational and Developmental)/Doctor of Philosophy", "faculty": "Medicine, Dentistry & Health", "v1_score": 29.0, "v1_band": "RESILIENT", "exposure": null, "has_jir": false, "adaptiveness_raw": 13.0, "adaptiveness": 0.867, "D2": 3.0, "D3": 3.0, "D7": 3.0, "B_irreplaceable": 3.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 3.0, "D3": 3.0, "D7": 3.0, "B": 3.0, "D5": 1.0}, "quadrant": "no-exposure"}, {"code": "dr-philedu", "name": "Doctor of Philosophy - Education", "faculty": "Education", "v1_score": 15.0, "v1_band": "HIGH RISK", "exposure": null, "has_jir": false, "adaptiveness_raw": 7.0, "adaptiveness": 0.467, "D2": 2.0, "D3": 1.0, "D7": 3.0, "B_irreplaceable": 1.0, "D5_ai_literacy": 0.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 2.0, "D3": 1.0, "D7": 3.0, "B": 1.0, "D5": 0.0}, "quadrant": "no-exposure"}, {"code": "dr-phileit", "name": "Doctor of Philosophy - Engineering and IT", "faculty": "Engineering & IT", "v1_score": 25.0, "v1_band": "MODERATE RISK", "exposure": null, "has_jir": false, "adaptiveness_raw": 13.0, "adaptiveness": 0.867, "D2": 3.0, "D3": 3.0, "D7": 3.0, "B_irreplaceable": 3.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 3.0, "D3": 3.0, "D7": 3.0, "B": 3.0, "D5": 1.0}, "quadrant": "no-exposure"}, {"code": "dr-philfam", "name": "Doctor of Philosophy - Fine Arts and Music", "faculty": "Fine Arts & Music", "v1_score": 23.0, "v1_band": "MODERATE RISK", "exposure": null, "has_jir": false, "adaptiveness_raw": 9.0, "adaptiveness": 0.6, "D2": 2.0, "D3": 1.0, "D7": 3.0, "B_irreplaceable": 3.0, "D5_ai_literacy": 0.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 2.0, "D3": 1.0, "D7": 3.0, "B": 3.0, "D5": 0.0}, "quadrant": "no-exposure"}, {"code": "dr-philik", "name": "Doctor of Philosophy - Indigenous Knowledge", "faculty": "Other", "v1_score": 27.0, "v1_band": "MODERATE RISK", "exposure": null, "has_jir": false, "adaptiveness_raw": 12.0, "adaptiveness": 0.8, "D2": 3.0, "D3": 2.0, "D7": 3.0, "B_irreplaceable": 3.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 3.0, "D3": 2.0, "D7": 3.0, "B": 3.0, "D5": 1.0}, "quadrant": "no-exposure"}, {"code": "dr-phillaw", "name": "Doctor of Philosophy - Law", "faculty": "Law", "v1_score": 24.0, "v1_band": "MODERATE RISK", "exposure": null, "has_jir": false, "adaptiveness_raw": 11.0, "adaptiveness": 0.733, "D2": 3.0, "D3": 1.0, "D7": 3.0, "B_irreplaceable": 3.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 3.0, "D3": 1.0, "D7": 3.0, "B": 3.0, "D5": 1.0}, "quadrant": "no-exposure"}, {"code": "dr-philmdh", "name": "Doctor of Philosophy - Medicine, Dentistry and Health Sciences", "faculty": "Medicine, Dentistry & Health", "v1_score": 27.0, "v1_band": "MODERATE RISK", "exposure": null, "has_jir": false, "adaptiveness_raw": 13.0, "adaptiveness": 0.867, "D2": 3.0, "D3": 3.0, "D7": 3.0, "B_irreplaceable": 3.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 3.0, "D3": 3.0, "D7": 3.0, "B": 3.0, "D5": 1.0}, "quadrant": "no-exposure"}, {"code": "dr-philsci", "name": "Doctor of Philosophy - Science", "faculty": "Science", "v1_score": 24.0, "v1_band": "MODERATE RISK", "exposure": null, "has_jir": false, "adaptiveness_raw": 13.0, "adaptiveness": 0.867, "D2": 3.0, "D3": 3.0, "D7": 3.0, "B_irreplaceable": 3.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 3.0, "D3": 3.0, "D7": 3.0, "B": 3.0, "D5": 1.0}, "quadrant": "no-exposure"}, {"code": "dr-philvet", "name": "Doctor of Philosophy - Veterinary Science", "faculty": "Medicine, Dentistry & Health", "v1_score": 26.0, "v1_band": "MODERATE RISK", "exposure": null, "has_jir": false, "adaptiveness_raw": 13.0, "adaptiveness": 0.867, "D2": 3.0, "D3": 3.0, "D7": 3.0, "B_irreplaceable": 3.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 3.0, "D3": 3.0, "D7": 3.0, "B": 3.0, "D5": 1.0}, "quadrant": "no-exposure"}, {"code": "mc-actsc", "name": "Master of Actuarial Science", "faculty": "Science", "v1_score": 20.0, "v1_band": "MODERATE RISK", "exposure": null, "has_jir": false, "adaptiveness_raw": 9.0, "adaptiveness": 0.6, "D2": 2.0, "D3": 3.0, "D7": 1.0, "B_irreplaceable": 2.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 2.0, "D3": 3.0, "D7": 1.0, "B": 2.0, "D5": 1.0}, "quadrant": "no-exposure"}, {"code": "mc-apbusa", "name": "Master of Applied Business Analytics", "faculty": "Business & Economics", "v1_score": 22.0, "v1_band": "MODERATE RISK", "exposure": 67.4, "has_jir": true, "adaptiveness_raw": 12.0, "adaptiveness": 0.8, "D2": 2.0, "D3": 3.0, "D7": 2.0, "B_irreplaceable": 2.0, "D5_ai_literacy": 3.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 2.0, "D3": 3.0, "D7": 2.0, "B": 2.0, "D5": 3.0}, "quadrant": "well-positioned"}, {"code": "mc-arch", "name": "Master of Architecture", "faculty": "Architecture, Building & Planning", "v1_score": 29.0, "v1_band": "RESILIENT", "exposure": 60.9, "has_jir": true, "adaptiveness_raw": 13.0, "adaptiveness": 0.867, "D2": 3.0, "D3": 3.0, "D7": 3.0, "B_irreplaceable": 3.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 3.0, "D3": 3.0, "D7": 3.0, "B": 3.0, "D5": 1.0}, "quadrant": "comfortable"}, {"code": "mc-ba", "name": "Master of Business Administration", "faculty": "Business & Economics", "v1_score": 25.0, "v1_band": "MODERATE RISK", "exposure": 65.1, "has_jir": true, "adaptiveness_raw": 11.0, "adaptiveness": 0.733, "D2": 2.0, "D3": 2.0, "D7": 1.0, "B_irreplaceable": 3.0, "D5_ai_literacy": 3.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 2.0, "D3": 2.0, "D7": 1.0, "B": 3.0, "D5": 3.0}, "quadrant": "well-positioned"}, {"code": "mc-bamktg", "name": "Master of Business Administration (Marketing)", "faculty": "Business & Economics", "v1_score": 19.0, "v1_band": "HIGH RISK", "exposure": null, "has_jir": false, "adaptiveness_raw": 7.0, "adaptiveness": 0.467, "D2": 2.0, "D3": 1.0, "D7": 1.0, "B_irreplaceable": 2.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 2.0, "D3": 1.0, "D7": 1.0, "B": 2.0, "D5": 1.0}, "quadrant": "no-exposure"}, {"code": "mc-base", "name": "Master of Advanced Social Enterprise", "faculty": "Business & Economics", "v1_score": 20.0, "v1_band": "MODERATE RISK", "exposure": 62.5, "has_jir": true, "adaptiveness_raw": 6.0, "adaptiveness": 0.4, "D2": 2.0, "D3": 1.0, "D7": 1.0, "B_irreplaceable": 1.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 2.0, "D3": 1.0, "D7": 1.0, "B": 1.0, "D5": 1.0}, "quadrant": "attention"}, {"code": "mc-bmedsc", "name": "Master of Biomedical Science", "faculty": "Medicine, Dentistry & Health", "v1_score": 26.0, "v1_band": "MODERATE RISK", "exposure": null, "has_jir": false, "adaptiveness_raw": 12.0, "adaptiveness": 0.8, "D2": 2.0, "D3": 3.0, "D7": 3.0, "B_irreplaceable": 3.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 2.0, "D3": 3.0, "D7": 3.0, "B": 3.0, "D5": 1.0}, "quadrant": "no-exposure"}, {"code": "mc-busana", "name": "Master of Business Analytics", "faculty": "Business & Economics", "v1_score": 30.0, "v1_band": "RESILIENT", "exposure": 67.4, "has_jir": true, "adaptiveness_raw": 14.0, "adaptiveness": 0.933, "D2": 3.0, "D3": 3.0, "D7": 2.0, "B_irreplaceable": 3.0, "D5_ai_literacy": 3.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 3.0, "D3": 3.0, "D7": 2.0, "B": 3.0, "D5": 3.0}, "quadrant": "well-positioned"}, {"code": "mc-climsci", "name": "Master of Climate Science", "faculty": "Science", "v1_score": 26.0, "v1_band": "MODERATE RISK", "exposure": null, "has_jir": false, "adaptiveness_raw": 12.0, "adaptiveness": 0.8, "D2": 3.0, "D3": 3.0, "D7": 2.0, "B_irreplaceable": 3.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 3.0, "D3": 3.0, "D7": 2.0, "B": 3.0, "D5": 1.0}, "quadrant": "no-exposure"}, {"code": "mc-clind", "name": "Master of Clinical Dentistry", "faculty": "Medicine, Dentistry & Health", "v1_score": 25.0, "v1_band": "MODERATE RISK", "exposure": 35.0, "has_jir": true, "adaptiveness_raw": 8.0, "adaptiveness": 0.533, "D2": 1.0, "D3": 2.0, "D7": 2.0, "B_irreplaceable": 3.0, "D5_ai_literacy": 0.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 1.0, "D3": 2.0, "D7": 2.0, "B": 3.0, "D5": 0.0}, "quadrant": "sheltered"}, {"code": "mc-cs", "name": "Master of Computer Science", "faculty": "Engineering & IT", "v1_score": 29.0, "v1_band": "RESILIENT", "exposure": 71.3, "has_jir": true, "adaptiveness_raw": 14.0, "adaptiveness": 0.933, "D2": 2.0, "D3": 3.0, "D7": 3.0, "B_irreplaceable": 3.0, "D5_ai_literacy": 3.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 2.0, "D3": 3.0, "D7": 3.0, "B": 3.0, "D5": 3.0}, "quadrant": "well-positioned"}, {"code": "mc-datasc", "name": "Master of Data Science", "faculty": "Science", "v1_score": 26.0, "v1_band": "MODERATE RISK", "exposure": 72.0, "has_jir": true, "adaptiveness_raw": 11.0, "adaptiveness": 0.733, "D2": 2.0, "D3": 3.0, "D7": 2.0, "B_irreplaceable": 2.0, "D5_ai_literacy": 2.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 2.0, "D3": 3.0, "D7": 2.0, "B": 2.0, "D5": 2.0}, "quadrant": "well-positioned"}, {"code": "mc-ddensur", "name": "Doctor of Dental Surgery", "faculty": "Medicine, Dentistry & Health", "v1_score": 25.0, "v1_band": "MODERATE RISK", "exposure": 47.3, "has_jir": true, "adaptiveness_raw": 11.0, "adaptiveness": 0.733, "D2": 2.0, "D3": 2.0, "D7": 3.0, "B_irreplaceable": 3.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 2.0, "D3": 2.0, "D7": 3.0, "B": 3.0, "D5": 1.0}, "quadrant": "comfortable"}, {"code": "mc-dmed", "name": "Doctor of Medicine", "faculty": "Medicine, Dentistry & Health", "v1_score": 27.0, "v1_band": "MODERATE RISK", "exposure": 44.2, "has_jir": true, "adaptiveness_raw": 12.0, "adaptiveness": 0.8, "D2": 3.0, "D3": 3.0, "D7": 2.0, "B_irreplaceable": 3.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 3.0, "D3": 3.0, "D7": 2.0, "B": 3.0, "D5": 1.0}, "quadrant": "comfortable"}, {"code": "mc-doptom", "name": "Doctor of Optometry", "faculty": "Medicine, Dentistry & Health", "v1_score": 24.0, "v1_band": "MODERATE RISK", "exposure": 72.0, "has_jir": true, "adaptiveness_raw": 11.0, "adaptiveness": 0.733, "D2": 2.0, "D3": 3.0, "D7": 2.0, "B_irreplaceable": 3.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 2.0, "D3": 3.0, "D7": 2.0, "B": 3.0, "D5": 1.0}, "quadrant": "well-positioned"}, {"code": "mc-dphysio", "name": "Doctor of Physiotherapy", "faculty": "Medicine, Dentistry & Health", "v1_score": 26.0, "v1_band": "MODERATE RISK", "exposure": 45.7, "has_jir": true, "adaptiveness_raw": 10.0, "adaptiveness": 0.667, "D2": 2.0, "D3": 2.0, "D7": 2.0, "B_irreplaceable": 3.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 2.0, "D3": 2.0, "D7": 2.0, "B": 3.0, "D5": 1.0}, "quadrant": "sheltered"}, {"code": "mc-dvetmed", "name": "Doctor of Veterinary Medicine", "faculty": "Medicine, Dentistry & Health", "v1_score": 27.0, "v1_band": "MODERATE RISK", "exposure": 72.0, "has_jir": true, "adaptiveness_raw": 12.0, "adaptiveness": 0.8, "D2": 3.0, "D3": 3.0, "D7": 2.0, "B_irreplaceable": 3.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 3.0, "D3": 3.0, "D7": 2.0, "B": 3.0, "D5": 1.0}, "quadrant": "well-positioned"}, {"code": "mc-ed", "name": "Master of Education", "faculty": "Education", "v1_score": 24.0, "v1_band": "MODERATE RISK", "exposure": 60.7, "has_jir": true, "adaptiveness_raw": 9.0, "adaptiveness": 0.6, "D2": 2.0, "D3": 1.0, "D7": 2.0, "B_irreplaceable": 3.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 2.0, "D3": 1.0, "D7": 2.0, "B": 3.0, "D5": 1.0}, "quadrant": "sheltered"}, {"code": "mc-envlaw", "name": "Master of Environmental Law", "faculty": "Law", "v1_score": 22.0, "v1_band": "MODERATE RISK", "exposure": null, "has_jir": false, "adaptiveness_raw": 8.0, "adaptiveness": 0.533, "D2": 2.0, "D3": 1.0, "D7": 1.0, "B_irreplaceable": 2.0, "D5_ai_literacy": 2.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 2.0, "D3": 1.0, "D7": 1.0, "B": 2.0, "D5": 2.0}, "quadrant": "no-exposure"}, {"code": "mc-envsc", "name": "Master of Environmental Science", "faculty": "Science", "v1_score": 25.0, "v1_band": "MODERATE RISK", "exposure": 56.9, "has_jir": true, "adaptiveness_raw": 10.0, "adaptiveness": 0.667, "D2": 3.0, "D3": 2.0, "D7": 2.0, "B_irreplaceable": 2.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 3.0, "D3": 2.0, "D7": 2.0, "B": 2.0, "D5": 1.0}, "quadrant": "sheltered"}, {"code": "mc-gencoun", "name": "Master of Genetic Counselling", "faculty": "Medicine, Dentistry & Health", "v1_score": 27.0, "v1_band": "MODERATE RISK", "exposure": 52.1, "has_jir": true, "adaptiveness_raw": 10.0, "adaptiveness": 0.667, "D2": 2.0, "D3": 2.0, "D7": 2.0, "B_irreplaceable": 3.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 2.0, "D3": 2.0, "D7": 2.0, "B": 3.0, "D5": 1.0}, "quadrant": "sheltered"}, {"code": "mc-indeng", "name": "Master of Industrial Engineering", "faculty": "Engineering & IT", "v1_score": 23.0, "v1_band": "MODERATE RISK", "exposure": null, "has_jir": false, "adaptiveness_raw": 12.0, "adaptiveness": 0.8, "D2": 3.0, "D3": 3.0, "D7": 2.0, "B_irreplaceable": 2.0, "D5_ai_literacy": 2.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 3.0, "D3": 3.0, "D7": 2.0, "B": 2.0, "D5": 2.0}, "quadrant": "no-exposure"}, {"code": "mc-intedib", "name": "Master of International Education (IB)", "faculty": "Education", "v1_score": 18.0, "v1_band": "HIGH RISK", "exposure": 60.7, "has_jir": true, "adaptiveness_raw": 6.0, "adaptiveness": 0.4, "D2": 2.0, "D3": 1.0, "D7": 1.0, "B_irreplaceable": 1.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 2.0, "D3": 1.0, "D7": 1.0, "B": 1.0, "D5": 1.0}, "quadrant": "sheltered"}, {"code": "mc-is", "name": "Master of Information Systems", "faculty": "Business & Economics", "v1_score": 20.0, "v1_band": "MODERATE RISK", "exposure": 69.3, "has_jir": true, "adaptiveness_raw": 8.0, "adaptiveness": 0.533, "D2": 2.0, "D3": 2.0, "D7": 2.0, "B_irreplaceable": 1.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 2.0, "D3": 2.0, "D7": 2.0, "B": 1.0, "D5": 1.0}, "quadrant": "attention"}, {"code": "mc-journ", "name": "Master of Journalism", "faculty": "Arts", "v1_score": 21.0, "v1_band": "MODERATE RISK", "exposure": 69.3, "has_jir": true, "adaptiveness_raw": 8.0, "adaptiveness": 0.533, "D2": 2.0, "D3": 1.0, "D7": 2.0, "B_irreplaceable": 2.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 2.0, "D3": 1.0, "D7": 2.0, "B": 2.0, "D5": 1.0}, "quadrant": "attention"}, {"code": "mc-jurisd", "name": "Juris Doctor", "faculty": "Law", "v1_score": 24.0, "v1_band": "MODERATE RISK", "exposure": 66.8, "has_jir": true, "adaptiveness_raw": 9.0, "adaptiveness": 0.6, "D2": 2.0, "D3": 1.0, "D7": 2.0, "B_irreplaceable": 2.0, "D5_ai_literacy": 2.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 2.0, "D3": 1.0, "D7": 2.0, "B": 2.0, "D5": 2.0}, "quadrant": "attention"}, {"code": "mc-nursc", "name": "Master of Nursing Science", "faculty": "Medicine, Dentistry & Health", "v1_score": 27.0, "v1_band": "MODERATE RISK", "exposure": 39.0, "has_jir": true, "adaptiveness_raw": 10.0, "adaptiveness": 0.667, "D2": 2.0, "D3": 2.0, "D7": 2.0, "B_irreplaceable": 3.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 2.0, "D3": 2.0, "D7": 2.0, "B": 3.0, "D5": 1.0}, "quadrant": "sheltered"}, {"code": "mc-phtyph", "name": "Master of Physiotherapy (Pelvic Health)", "faculty": "Medicine, Dentistry & Health", "v1_score": 27.0, "v1_band": "MODERATE RISK", "exposure": 45.7, "has_jir": true, "adaptiveness_raw": 10.0, "adaptiveness": 0.667, "D2": 1.0, "D3": 2.0, "D7": 3.0, "B_irreplaceable": 3.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 1.0, "D3": 2.0, "D7": 3.0, "B": 3.0, "D5": 1.0}, "quadrant": "sheltered"}, {"code": "mc-prop", "name": "Master of Property", "faculty": "Architecture, Building & Planning", "v1_score": 23.0, "v1_band": "MODERATE RISK", "exposure": 67.6, "has_jir": true, "adaptiveness_raw": 9.0, "adaptiveness": 0.6, "D2": 2.0, "D3": 2.0, "D7": 2.0, "B_irreplaceable": 2.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 2.0, "D3": 2.0, "D7": 2.0, "B": 2.0, "D5": 1.0}, "quadrant": "attention"}, {"code": "mc-propsyc", "name": "Master of Professional Psychology", "faculty": "Medicine, Dentistry & Health", "v1_score": 27.0, "v1_band": "MODERATE RISK", "exposure": 43.9, "has_jir": true, "adaptiveness_raw": 10.0, "adaptiveness": 0.667, "D2": 2.0, "D3": 2.0, "D7": 2.0, "B_irreplaceable": 3.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 2.0, "D3": 2.0, "D7": 2.0, "B": 3.0, "D5": 1.0}, "quadrant": "sheltered"}, {"code": "mc-scibif", "name": "Master of Science (Bioinformatics)", "faculty": "Science", "v1_score": 24.0, "v1_band": "MODERATE RISK", "exposure": null, "has_jir": false, "adaptiveness_raw": 12.0, "adaptiveness": 0.8, "D2": 2.0, "D3": 3.0, "D7": 3.0, "B_irreplaceable": 3.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 2.0, "D3": 3.0, "D7": 3.0, "B": 3.0, "D5": 1.0}, "quadrant": "no-exposure"}, {"code": "mc-scibio", "name": "Master of Science (BioSciences)", "faculty": "Science", "v1_score": 25.0, "v1_band": "MODERATE RISK", "exposure": null, "has_jir": false, "adaptiveness_raw": 12.0, "adaptiveness": 0.8, "D2": 2.0, "D3": 3.0, "D7": 3.0, "B_irreplaceable": 3.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 2.0, "D3": 3.0, "D7": 3.0, "B": 3.0, "D5": 1.0}, "quadrant": "no-exposure"}, {"code": "mc-scibit", "name": "Master of Biotechnology", "faculty": "Science", "v1_score": 24.0, "v1_band": "MODERATE RISK", "exposure": 62.4, "has_jir": true, "adaptiveness_raw": 10.0, "adaptiveness": 0.667, "D2": 2.0, "D3": 2.0, "D7": 2.0, "B_irreplaceable": 3.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 2.0, "D3": 2.0, "D7": 2.0, "B": 3.0, "D5": 1.0}, "quadrant": "attention"}, {"code": "mc-sciche", "name": "Master of Science (Chemistry)", "faculty": "Science", "v1_score": 25.0, "v1_band": "MODERATE RISK", "exposure": 63.2, "has_jir": true, "adaptiveness_raw": 12.0, "adaptiveness": 0.8, "D2": 2.0, "D3": 3.0, "D7": 3.0, "B_irreplaceable": 3.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 2.0, "D3": 3.0, "D7": 3.0, "B": 3.0, "D5": 1.0}, "quadrant": "well-positioned"}, {"code": "mc-sciear", "name": "Master of Science (Earth Sciences)", "faculty": "Science", "v1_score": 24.0, "v1_band": "MODERATE RISK", "exposure": 65.0, "has_jir": true, "adaptiveness_raw": 11.0, "adaptiveness": 0.733, "D2": 2.0, "D3": 3.0, "D7": 3.0, "B_irreplaceable": 2.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 2.0, "D3": 3.0, "D7": 3.0, "B": 2.0, "D5": 1.0}, "quadrant": "well-positioned"}, {"code": "mc-sciepi", "name": "Master of Science (Epidemiology)", "faculty": "Science", "v1_score": 23.0, "v1_band": "MODERATE RISK", "exposure": null, "has_jir": false, "adaptiveness_raw": 11.0, "adaptiveness": 0.733, "D2": 2.0, "D3": 3.0, "D7": 3.0, "B_irreplaceable": 2.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 2.0, "D3": 3.0, "D7": 3.0, "B": 2.0, "D5": 1.0}, "quadrant": "no-exposure"}, {"code": "mc-sciphy", "name": "Master of Science (Physics)", "faculty": "Science", "v1_score": 25.0, "v1_band": "MODERATE RISK", "exposure": 70.8, "has_jir": true, "adaptiveness_raw": 12.0, "adaptiveness": 0.8, "D2": 2.0, "D3": 3.0, "D7": 3.0, "B_irreplaceable": 3.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 2.0, "D3": 3.0, "D7": 3.0, "B": 3.0, "D5": 1.0}, "quadrant": "well-positioned"}, {"code": "mc-scwr", "name": "Master of Screenwriting", "faculty": "Arts", "v1_score": 12.0, "v1_band": "HIGH RISK", "exposure": null, "has_jir": false, "adaptiveness_raw": 3.0, "adaptiveness": 0.2, "D2": 1.0, "D3": 1.0, "D7": 0.0, "B_irreplaceable": 1.0, "D5_ai_literacy": 0.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 1.0, "D3": 1.0, "D7": 0.0, "B": 1.0, "D5": 0.0}, "quadrant": "no-exposure"}, {"code": "mc-surged", "name": "Master of Surgical Education", "faculty": "Medicine, Dentistry & Health", "v1_score": 25.0, "v1_band": "MODERATE RISK", "exposure": 60.7, "has_jir": true, "adaptiveness_raw": 9.0, "adaptiveness": 0.6, "D2": 2.0, "D3": 1.0, "D7": 2.0, "B_irreplaceable": 3.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 2.0, "D3": 1.0, "D7": 2.0, "B": 3.0, "D5": 1.0}, "quadrant": "sheltered"}, {"code": "mc-tesol", "name": "Master of TESOL", "faculty": "Education", "v1_score": 21.0, "v1_band": "MODERATE RISK", "exposure": 58.9, "has_jir": true, "adaptiveness_raw": 8.0, "adaptiveness": 0.533, "D2": 2.0, "D3": 1.0, "D7": 2.0, "B_irreplaceable": 2.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 2.0, "D3": 1.0, "D7": 2.0, "B": 2.0, "D5": 1.0}, "quadrant": "sheltered"}, {"code": "mc-urbdes", "name": "Master of Urban Design", "faculty": "Architecture, Building & Planning", "v1_score": 25.0, "v1_band": "MODERATE RISK", "exposure": 59.1, "has_jir": true, "adaptiveness_raw": 10.0, "adaptiveness": 0.667, "D2": 3.0, "D3": 0.0, "D7": 3.0, "B_irreplaceable": 3.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 3.0, "D3": 0.0, "D7": 3.0, "B": 3.0, "D5": 1.0}, "quadrant": "sheltered"}, {"code": "mc-urbhort", "name": "Master of Urban Horticulture", "faculty": "Science", "v1_score": 24.0, "v1_band": "MODERATE RISK", "exposure": null, "has_jir": false, "adaptiveness_raw": 10.0, "adaptiveness": 0.667, "D2": 3.0, "D3": 2.0, "D7": 2.0, "B_irreplaceable": 2.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 3.0, "D3": 2.0, "D7": 2.0, "B": 2.0, "D5": 1.0}, "quadrant": "no-exposure"}, {"code": "me-dcd", "name": "Doctor of Clinical Dentistry", "faculty": "Medicine, Dentistry & Health", "v1_score": 29.0, "v1_band": "RESILIENT", "exposure": null, "has_jir": false, "adaptiveness_raw": 13.0, "adaptiveness": 0.867, "D2": 3.0, "D3": 3.0, "D7": 3.0, "B_irreplaceable": 3.0, "D5_ai_literacy": 1.0, "gate_D4": "PASS", "gate_D6": "PASS", "dimension_scores": {"D2": 3.0, "D3": 3.0, "D7": 3.0, "B": 3.0, "D5": 1.0}, "quadrant": "no-exposure"}], "meta": {"total": 66, "with_exposure": 34, "exp_median": 61.8, "adapt_median": 11.0, "exp_range": [35.0, 72.0], "adapt_range": [3.0, 14.0]}};
+
+render(DATA);
+
+function render(payload) {
+  const { programs, meta } = payload;
+  
+  // Faculty set
+  const faculties = [...new Set(programs.map(p => p.faculty).filter(Boolean))].sort();
+  let activeFaculty = null;
+  
+  // Quadrant config
+  const quadrants = {
+    'well-positioned': { label: 'Well-positioned', short: 'Well-positioned', color: '#3fb950', bg: '#1a3a2a', desc: 'Exposed destinations with adaptive curriculum' },
+    'comfortable':    { label: 'Comfortable', short: 'Comfortable', color: '#58a6ff', bg: '#1a2e3a', desc: 'Lower-exposure destinations with adaptive curriculum' },
+    'attention':      { label: 'Attention: exposed, static curriculum', short: 'Attention', color: '#d29922', bg: '#3a2816', desc: 'Exposed destinations, static curriculum' },
+    'sheltered':      { label: 'Sheltered (for now)', short: 'Sheltered', color: '#a371f7', bg: '#2a1a3a', desc: 'Lower-exposure destinations, static curriculum' },
+    'no-exposure':    { label: 'No JIR exposure data', short: 'No data', color: '#8b949e', bg: '#21262d', desc: 'Awaiting destination mapping' }
+  };
+  
+  // Stats
+  document.getElementById('stats').innerHTML = `
+    <div class="stat-card">
+      <h3>Panel C: Curriculum Adaptiveness</h3>
+      <div class="stat-row"><span class="stat-label">Scored dimensions</span><span class="stat-val">D2, D3, D7, B, D5 (0–15)</span></div>
+      <div class="stat-row"><span class="stat-label">Range</span><span class="stat-val">${meta.adapt_range[0]} – ${meta.adapt_range[1]}</span></div>
+      <div class="stat-row"><span class="stat-label">Median threshold</span><span class="stat-val">${meta.adapt_median} / 15</span></div>
+      <div class="stat-row"><span class="stat-label">Dropped</span><span class="stat-val">D9 (item-total 0.06)</span></div>
+      <div class="stat-row"><span class="stat-label">Gates (not summed)</span><span class="stat-val">D4, D6 (>70% modal)</span></div>
+      <div class="stat-row"><span class="stat-label">Measured, not scored</span><span class="stat-val">D1 + D8 → Panel A</span></div>
+      <div class="stat-row"><span class="stat-label">Evidence metadata</span><span class="stat-val">D10 → Panel D</span></div>
+    </div>
+    <div class="stat-card">
+      <h3>Panel A: Destination AI Exposure</h3>
+      <div class="stat-row"><span class="stat-label">Programs with JIR data</span><span class="stat-val">${meta.with_exposure} / ${meta.total}</span></div>
+      <div class="stat-row"><span class="stat-label">Exposure range</span><span class="stat-val">${meta.exp_range[0]} – ${meta.exp_range[1]} (AIOE)</span></div>
+      <div class="stat-row"><span class="stat-label">Median threshold</span><span class="stat-val">${meta.exp_median}</span></div>
+      <div class="stat-row"><span class="stat-label">Source</span><span class="stat-val">JIR destinations → Felten AIOE</span></div>
+      <div class="stat-row"><span class="stat-label">Exposure ≠ risk</span><span class="stat-val" style="color:#d29922;">Axis encodes task overlap, not risk direction</span></div>
+    </div>
+  `;
+  
+  // Filters
+  let filterHTML = '<button class="filter-btn active" onclick="filterFaculty(null)">All (34 plotted)</button>';
+  faculties.forEach(f => {
+    const count = programs.filter(p => p.faculty === f && p.has_jir).length;
+    filterHTML += `<button class="filter-btn" onclick="filterFaculty('${f.replace(/'/g, "\\'")}')">${f} (${count})</button>`;
+  });
+  document.getElementById('faculty-filters').innerHTML = filterHTML;
+  
+  // Table
+  let tbody = '';
+  programs.forEach(p => {
+    const q = quadrants[p.quadrant] || quadrants['no-exposure'];
+    tbody += `<tr class="program-row" data-faculty="${p.faculty || ''}">
+      <td style="font-family:monospace;color:#58a6ff;">${p.code}</td>
+      <td>${p.name}</td>
+      <td style="color:#8b949e;">${p.faculty || ''}</td>
+      <td>${p.v1_band}</td>
+      <td><span class="badge badge-${p.quadrant === 'well-positioned' ? 'wp' : p.quadrant === 'comfortable' ? 'cf' : p.quadrant === 'attention' ? 'at' : p.quadrant === 'sheltered' ? 'sh' : 'ne'}">${q.short}</span></td>
+      <td>${p.has_jir ? p.exposure.toFixed(0) : '—'}</td>
+      <td>${p.adaptiveness_raw}/15</td>
+      <td>${p.D2}</td><td>${p.D3}</td><td>${p.D7}</td><td>${p.B_irreplaceable}</td><td>${p.D5_ai_literacy}</td>
+      <td class="${p.gate_D4 === 'PASS' ? 'gate-pass' : 'gate-fail'}">${p.gate_D4}</td>
+      <td class="${p.gate_D6 === 'PASS' ? 'gate-pass' : 'gate-fail'}">${p.gate_D6}</td>
+      <td>${p.has_jir ? '✓' : '—'}</td>
+    </tr>`;
+  });
+  document.getElementById('program-table').querySelector('tbody').innerHTML = tbody;
+  
+  // Matrix SVG
+  const svg = document.getElementById('matrix');
+  const W = 800, H = 500;
+  const pad = { top: 40, right: 40, bottom: 50, left: 50 };
+  const pw = W - pad.left - pad.right;
+  const ph = H - pad.top - pad.bottom;
+  
+  // Scale
+  const xMin = 30, xMax = 80;
+  const yMin = 0, yMax = 16;
+  
+  function sx(v) { return pad.left + ((v - xMin) / (xMax - xMin)) * pw; }
+  function sy(v) { return pad.top + ph - ((v - yMin) / (yMax - yMin)) * ph; }
+  
+  let svgHTML = '';
+  
+  // Background grid
+  for (let x = 30; x <= 80; x += 10) {
+    svgHTML += `<line x1="${sx(x)}" y1="${pad.top}" x2="${sx(x)}" y2="${H - pad.bottom}" stroke="#21262d" stroke-width="0.5"/>`;
+  }
+  for (let y = 0; y <= 15; y += 3) {
+    svgHTML += `<line x1="${pad.left}" y1="${sy(y)}" x2="${W - pad.right}" y2="${sy(y)}" stroke="#21262d" stroke-width="0.5"/>`;
+  }
+  
+  // Median lines
+  svgHTML += `<line x1="${sx(meta.exp_median)}" y1="${pad.top}" x2="${sx(meta.exp_median)}" y2="${H - pad.bottom}" stroke="#30363d" stroke-width="1.5" stroke-dasharray="6,4"/>`;
+  svgHTML += `<line x1="${pad.left}" y1="${sy(meta.adapt_median)}" x2="${W - pad.right}" y2="${sy(meta.adapt_median)}" stroke="#30363d" stroke-width="1.5" stroke-dasharray="6,4"/>`;
+  
+  // Quadrant label positions
+  const qx = { left: (xMin + meta.exp_median) / 2, right: (meta.exp_median + xMax) / 2 };
+  const qy = { top: (meta.adapt_median + yMax) / 2, bottom: (yMin + meta.adapt_median) / 2 };
+  
+  svgHTML += `<text x="${sx(qx.right)}" y="${sy(qy.top) + 5}" class="ql" text-anchor="middle" fill="#3fb950" opacity="0.6">Well-positioned</text>`;
+  svgHTML += `<text x="${sx(qx.left)}" y="${sy(qy.top) + 5}" class="ql" text-anchor="middle" fill="#58a6ff" opacity="0.6">Comfortable</text>`;
+  svgHTML += `<text x="${sx(qx.right)}" y="${sy(qy.bottom) + 5}" class="ql" text-anchor="middle" fill="#d29922" opacity="0.6">Attention</text>`;
+  svgHTML += `<text x="${sx(qx.left)}" y="${sy(qy.bottom) + 5}" class="ql" text-anchor="middle" fill="#a371f7" opacity="0.6">Sheltered</text>`;
+  
+  // Axis labels
+  svgHTML += `<text x="${W / 2}" y="${H - 5}" fill="#8b949e" font-size="11" text-anchor="middle">Destination AI Exposure (AIOE) →</text>`;
+  svgHTML += `<text x="12" y="${H / 2}" fill="#8b949e" font-size="11" text-anchor="middle" transform="rotate(-90, 12, ${H/2})">Curriculum Adaptiveness →</text>`;
+  
+  // Tick labels
+  for (let x = 35; x <= 75; x += 10) {
+    svgHTML += `<text x="${sx(x)}" y="${H - pad.bottom + 18}" fill="#484f58" font-size="10" text-anchor="middle">${x}</text>`;
+  }
+  for (let y = 0; y <= 15; y += 3) {
+    svgHTML += `<text x="${pad.left - 8}" y="${sy(y) + 4}" fill="#484f58" font-size="10" text-anchor="end">${y}</text>`;
+  }
+  
+  // Programs
+  const plotted = programs.filter(p => p.has_jir);
+  
+  // Label placement: avoid overlaps
+  const labels = [];
+  function posFor(x, y, code) {
+    const minDist = 30;
+    for (const l of labels) {
+      const dx = x - l.x, dy = y - l.y;
+      if (Math.sqrt(dx*dx + dy*dy) < minDist) return false;
+    }
+    labels.push({x, y, code});
+    return true;
+  }
+  
+  plotted.forEach(p => {
+    const x = sx(p.exposure);
+    const y = sy(p.adaptiveness_raw);
+    const q = quadrants[p.quadrant];
+    const r = 5;
+    
+    svgHTML += `<circle cx="${x}" cy="${y}" r="${r}" fill="${q.color}" stroke="#0d1117" stroke-width="1" data-code="${p.code}" data-name="${p.name}" data-v1="${p.v1_band}" data-exp="${p.exposure.toFixed(0)}" data-adapt="${p.adaptiveness_raw}" data-d2="${p.D2}" data-d3="${p.D3}" data-d7="${p.D7}" data-b="${p.B_irreplaceable}" data-d5="${p.D5_ai_literacy}" data-d4="${p.gate_D4}" data-d6="${p.gate_D6}" style="cursor:pointer" onmouseenter="showTooltip(event, this)" onmouseleave="hideTooltip()"/>`;
+    
+    if (posFor(x, y, p.code) || p.quadrant === 'well-positioned') {
+      svgHTML += `<text x="${x}" y="${y - 9}" fill="#c9d1d9" font-size="8" text-anchor="middle" opacity="0.7">${p.code}</text>`;
+    }
+  });
+  
+  svg.innerHTML = svgHTML;
+  
+  // Store for filter
+  window._programs = programs;
+  window._meta = meta;
+}
+
+function showTooltip(evt, el) {
+  const t = document.getElementById('tooltip');
+  t.innerHTML = `
+    <div class="tt-name">${el.dataset.code}: ${el.dataset.name}</div>
+    <div class="tt-v1">v1: ${el.dataset.v1}</div>
+    <div class="tt-row"><span class="tt-label">Exposure</span><span class="tt-val">${el.dataset.exp}</span></div>
+    <div class="tt-row"><span class="tt-label">Adaptiveness</span><span class="tt-val">${el.dataset.adapt}/15</span></div>
+    <div class="tt-row" style="margin-top:4px;font-size:0.72rem;color:#8b949e;">
+      <span>D2:${el.dataset.d2} D3:${el.dataset.d3} D7:${el.dataset.d7} B:${el.dataset.b} D5:${el.dataset.d5}</span>
+    </div>
+    <div class="tt-row" style="font-size:0.72rem;">
+      <span>D4 gate: ${el.dataset.d4}</span><span>D6 gate: ${el.dataset.d6}</span>
+    </div>
+  `;
+  t.style.display = 'block';
+  const s = t.parentElement.getBoundingClientRect();
+  t.style.left = (evt.clientX - s.left + 15) + 'px';
+  t.style.top = (evt.clientY - s.top - 10) + 'px';
+}
+function hideTooltip() { document.getElementById('tooltip').style.display = 'none'; }
+
+function filterFaculty(f) {
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  if (f) {
+    document.querySelectorAll('.filter-btn').forEach(b => { if (b.textContent.startsWith(f)) b.classList.add('active'); });
+    if (!document.querySelector('.filter-btn.active')) {
+      document.querySelectorAll('.filter-btn')[0].classList.add('active');
+    }
+  } else {
+    document.querySelectorAll('.filter-btn')[0].classList.add('active');
+  }
+  
+  // Filter table
+  document.querySelectorAll('.program-row').forEach(tr => {
+    if (!f || tr.dataset.faculty === f) tr.style.display = '';
+    else tr.style.display = 'none';
+  });
+  
+  // Rebuild SVG with filter
+  const programs = window._programs;
+  const meta = window._meta;
+  const plotted = programs.filter(p => p.has_jir && (!f || p.faculty === f));
+  const allPlotted = programs.filter(p => p.has_jir);
+  
+  const svg = document.getElementById('matrix');
+  const W = 800, H = 500;
+  const pad = { top: 40, right: 40, bottom: 50, left: 50 };
+  const pw = W - pad.left - pad.right;
+  const ph = H - pad.top - pad.bottom;
+  const xMin = 30, xMax = 80;
+  const yMin = 0, yMax = 16;
+  
+  function sx(v) { return pad.left + ((v - xMin) / (xMax - xMin)) * pw; }
+  function sy(v) { return pad.top + ph - ((v - yMin) / (yMax - yMin)) * ph; }
+  
+  let svgHTML = '';
+  
+  // Background grid
+  for (let x = 30; x <= 80; x += 10) {
+    svgHTML += `<line x1="${sx(x)}" y1="${pad.top}" x2="${sx(x)}" y2="${H - pad.bottom}" stroke="#21262d" stroke-width="0.5"/>`;
+  }
+  for (let y = 0; y <= 15; y += 3) {
+    svgHTML += `<line x1="${pad.left}" y1="${sy(y)}" x2="${W - pad.right}" y2="${sy(y)}" stroke="#21262d" stroke-width="0.5"/>`;
+  }
+  
+  // Median lines
+  svgHTML += `<line x1="${sx(meta.exp_median)}" y1="${pad.top}" x2="${sx(meta.exp_median)}" y2="${H - pad.bottom}" stroke="#30363d" stroke-width="1.5" stroke-dasharray="6,4"/>`;
+  svgHTML += `<line x1="${pad.left}" y1="${sy(meta.adapt_median)}" x2="${W - pad.right}" y2="${sy(meta.adapt_median)}" stroke="#30363d" stroke-width="1.5" stroke-dasharray="6,4"/>`;
+  
+  // Quadrant labels
+  const qx = { left: (xMin + meta.exp_median) / 2, right: (meta.exp_median + xMax) / 2 };
+  const qy = { top: (meta.adapt_median + yMax) / 2, bottom: (yMin + meta.adapt_median) / 2 };
+  
+  svgHTML += `<text x="${sx(qx.right)}" y="${sy(qy.top) + 5}" class="ql" text-anchor="middle" fill="#3fb950" opacity="0.6">Well-positioned</text>`;
+  svgHTML += `<text x="${sx(qx.left)}" y="${sy(qy.top) + 5}" class="ql" text-anchor="middle" fill="#58a6ff" opacity="0.6">Comfortable</text>`;
+  svgHTML += `<text x="${sx(qx.right)}" y="${sy(qy.bottom) + 5}" class="ql" text-anchor="middle" fill="#d29922" opacity="0.6">Attention</text>`;
+  svgHTML += `<text x="${sx(qx.left)}" y="${sy(qy.bottom) + 5}" class="ql" text-anchor="middle" fill="#a371f7" opacity="0.6">Sheltered</text>`;
+  
+  // Axis labels
+  svgHTML += `<text x="${W / 2}" y="${H - 5}" fill="#8b949e" font-size="11" text-anchor="middle">Destination AI Exposure (AIOE) →</text>`;
+  svgHTML += `<text x="12" y="${H / 2}" fill="#8b949e" font-size="11" text-anchor="middle" transform="rotate(-90, 12, ${H/2})">Curriculum Adaptiveness →</text>`;
+  
+  for (let x = 35; x <= 75; x += 10) {
+    svgHTML += `<text x="${sx(x)}" y="${H - pad.bottom + 18}" fill="#484f58" font-size="10" text-anchor="middle">${x}</text>`;
+  }
+  for (let y = 0; y <= 15; y += 3) {
+    svgHTML += `<text x="${pad.left - 8}" y="${sy(y) + 4}" fill="#484f58" font-size="10" text-anchor="end">${y}</text>`;
+  }
+  
+  const allPlottedCodes = new Set(allPlotted.map(p => p.code));
+  const filteredCodes = new Set(plotted.map(p => p.code));
+  
+  // Faded circles for programs in other faculties
+  allPlotted.forEach(p => {
+    if (!filteredCodes.has(p.code)) {
+      const x = sx(p.exposure);
+      const y = sy(p.adaptiveness_raw);
+      svgHTML += `<circle cx="${x}" cy="${y}" r="3" fill="#484f58" opacity="0.2"/>`;
+    }
+  });
+  
+  const labels = [];
+  plotted.forEach(p => {
+    const x = sx(p.exposure);
+    const y = sy(p.adaptiveness_raw);
+    const colors = { 'well-positioned': '#3fb950', 'comfortable': '#58a6ff', 'attention': '#d29922', 'sheltered': '#a371f7' };
+    
+    svgHTML += `<circle cx="${x}" cy="${y}" r="5" fill="${colors[p.quadrant] || '#8b949e'}" stroke="#0d1117" stroke-width="1" data-code="${p.code}" data-name="${p.name}" data-v1="${p.v1_band}" data-exp="${p.exposure.toFixed(0)}" data-adapt="${p.adaptiveness_raw}" data-d2="${p.D2}" data-d3="${p.D3}" data-d7="${p.D7}" data-b="${p.B_irreplaceable}" data-d5="${p.D5_ai_literacy}" data-d4="${p.gate_D4}" data-d6="${p.gate_D6}" style="cursor:pointer" onmouseenter="showTooltip(event, this)" onmouseleave="hideTooltip()"/>`;
+    
+    // Sparse labels
+    const dist = labels.some(l => Math.abs(x - l.x) < 25 && Math.abs(y - l.y) < 20);
+    if (!dist) {
+      svgHTML += `<text x="${x}" y="${y - 9}" fill="#c9d1d9" font-size="8" text-anchor="middle" opacity="0.8">${p.code}</text>`;
+      labels.push({x, y});
+    }
+  });
+  
+  svg.innerHTML = svgHTML;
+  
+  // Update header count
+  const headerEl = document.querySelector('.matrix-header .matrix-title');
+  const count = plotted.length;
+  headerEl.textContent = `Curriculum Adaptiveness × Destination AI Exposure (${count} programs)`;
+  
+  // Update All button
+  const allBtn = document.querySelector('.filter-btn');
+  if (allBtn) allBtn.textContent = `All (${allPlotted.length} plotted)`;
+}
+</script>
+
+</body>
+</html>

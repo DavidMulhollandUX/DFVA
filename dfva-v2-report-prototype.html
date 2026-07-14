@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en" style="--evidura-ink:#0F2236;--evidura-signal:#E9A23B;--evidura-paper:#F4F2EC;--evidura-slate:#5C7088;--evidura-bg:var(--evidura-paper);--evidura-fg:var(--evidura-ink);--evidura-muted:var(--evidura-slate);--evidura-border:#DDE3EB;--evidura-link:#B97E26;--evidura-bg-2:#E7E3D8;--evidura-band-resilient:#1F9D6B;--evidura-band-moderate:#E9A23B;--evidura-band-high:#E0742F;--evidura-band-critical:#C7433A;--evidura-font-sans:'Inter','SF Pro Display',-apple-system,'Segoe UI',system-ui,sans-serif;--evidura-font-mono:'Source Code Pro',ui-monospace,SFMono-Regular,Menlo,monospace;--evidura-font-serif:'Fraunces',Georgia,'Times New Roman',serif;--evidura-radius-sm:6px;--evidura-radius-md:12px;--evidura-radius-lg:20px;--evidura-radius-pill:9999px;--evidura-space-1:0.25rem;--evidura-space-2:0.5rem;--evidura-space-3:0.75rem;--evidura-space-4:1rem;--evidura-space-6:1.5rem;--evidura-space-8:2rem;--evidura-space-12:3rem;--evidura-space-16:4rem;--evidura-text-xs:0.75rem;--evidura-text-sm:0.875rem;--evidura-text-base:1rem;--evidura-text-lg:1.25rem;--evidura-text-xl:1.5625rem;--evidura-text-2xl:1.9375rem;--evidura-text-3xl:2.4375rem;--evidura-leading-tight:1.15;--evidura-leading-normal:1.5;--evidura-tracking-caps:0.18em;--evidura-weight-medium:500;--evidura-weight-semibold:600;--evidura-shadow-sm:0 1px 3px rgba(15,34,54,0.08);--evidura-shadow-md:0 4px 12px rgba(15,34,54,0.1);--evidura-duration-slow:320ms;--evidura-ease:cubic-bezier(0.25,0.1,0.25,1);--v2-wp:#1F9D6B;--v2-cf:#3B82C4;--v2-at:#E9A23B;--v2-sh:#8B6FC0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>MC-CS · Master of Computer Science — Evidura Durability Assessment</title>
+<style>
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:var(--evidura-font-sans);background:var(--evidura-bg);color:var(--evidura-fg);
+    line-height:var(--evidura-leading-normal);-webkit-font-smoothing:antialiased;
+  }
+  .container{max-width:960px;margin:0 auto;padding:var(--evidura-space-6)}
+
+  /* Header */
+  .site-header{
+    display:flex;align-items:center;gap:var(--evidura-space-3);
+    padding:var(--evidura-space-4) 0 var(--evidura-space-12) 0;
+    border-bottom:1px solid var(--evidura-border);
+    margin-bottom:var(--evidura-space-12);
+  }
+  .site-mark{width:28px;height:28px;flex-shrink:0}
+  .site-mark svg{width:100%;height:100%;display:block}
+  .site-name{font-weight:var(--evidura-weight-semibold);font-size:var(--evidura-text-base);letter-spacing:-0.01em}
+  .site-strap{
+    font-size:var(--evidura-text-xs);color:var(--evidura-muted);
+    letter-spacing:var(--evidura-tracking-caps);text-transform:uppercase;margin-left:auto;
+  }
+
+  /* Program hero */
+  .prog-hero{margin-bottom:var(--evidura-space-16)}
+  .prog-eyebrow{
+    font-size:var(--evidura-text-xs);color:var(--evidura-muted);
+    letter-spacing:var(--evidura-tracking-caps);text-transform:uppercase;margin-bottom:var(--evidura-space-2);
+  }
+  .prog-title{
+    font-family:var(--evidura-font-serif);font-size:var(--evidura-text-3xl);
+    font-weight:400;line-height:var(--evidura-leading-tight);
+    letter-spacing:-0.02em;margin-bottom:var(--evidura-space-3);
+  }
+  .prog-code{
+    font-family:var(--evidura-font-mono);font-size:var(--evidura-text-sm);
+    color:var(--evidura-muted);margin-bottom:var(--evidura-space-6);
+  }
+  .prog-meta{display:flex;gap:var(--evidura-space-6);flex-wrap:wrap}
+  .meta-item{display:flex;flex-direction:column;gap:2px}
+  .meta-label{
+    font-size:var(--evidura-text-xs);color:var(--evidura-muted);
+    letter-spacing:var(--evidura-tracking-caps);text-transform:uppercase;
+  }
+  .meta-value{font-size:var(--evidura-text-base)}
+
+  /* 2-panel grid */
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--evidura-space-6);margin-bottom:var(--evidura-space-12)}
+  @media(max-width:700px){.grid{grid-template-columns:1fr}}
+
+  /* Cards */
+  .card{
+    background:var(--evidura-bg);border:1px solid var(--evidura-border);
+    border-radius:var(--evidura-radius-md);padding:var(--evidura-space-6);
+    box-shadow:var(--evidura-shadow-sm);
+  }
+  .card-full{grid-column:1/-1}
+  .card-label{
+    font-size:var(--evidura-text-xs);color:var(--evidura-muted);
+    letter-spacing:var(--evidura-tracking-caps);text-transform:uppercase;
+    margin-bottom:var(--evidura-space-4);display:flex;align-items:center;gap:var(--evidura-space-2);
+  }
+  .card-label::before{
+    content:'';width:3px;height:14px;border-radius:var(--evidura-radius-pill);
+    background:var(--evidura-signal);display:block;
+  }
+  .card-title{
+    font-size:var(--evidura-text-lg);font-weight:var(--evidura-weight-semibold);
+    letter-spacing:-0.01em;margin-bottom:var(--evidura-space-1);
+  }
+  .card-subtitle{font-size:var(--evidura-text-sm);color:var(--evidura-muted);margin-bottom:var(--evidura-space-6)}
+
+  /* Panel A — Exposure gauge */
+  .exposure-gauge{display:flex;align-items:flex-end;gap:var(--evidura-space-6);margin-bottom:var(--evidura-space-6)}
+  .gauge-value{
+    font-family:var(--evidura-font-mono);font-size:var(--evidura-text-3xl);
+    font-weight:600;line-height:1;
+  }
+  .gauge-value sup{font-size:0.45em;vertical-align:super;font-weight:400}
+  .gauge-bar-wrap{flex:1;position:relative}
+  .gauge-bar{
+    height:12px;background:var(--evidura-bg-2);border-radius:var(--evidura-radius-pill);
+    overflow:hidden;position:relative;
+  }
+  .gauge-bar-fill{
+    height:100%;border-radius:var(--evidura-radius-pill);
+    background:var(--evidura-signal);
+    transition:width var(--evidura-duration-slow) var(--evidura-ease);
+    margin-top:0;position:relative;
+  }
+  .gauge-median-marker{
+    position:absolute;top:-4px;height:20px;width:2px;
+    background:var(--evidura-fg);opacity:0.4;border-radius:1px;
+  }
+  .gauge-labels{display:flex;justify-content:space-between;font-size:var(--evidura-text-xs);color:var(--evidura-muted);margin-top:4px}
+  .gauge-median-label{font-size:var(--evidura-text-xs);color:var(--evidura-muted);margin-top:2px;text-align:right}
+  .gauge-median-label span{font-family:var(--evidura-font-mono)}
+
+  /* Exposure note */
+  .exposure-note{
+    background:var(--evidura-bg-2);border-radius:var(--evidura-radius-sm);
+    padding:var(--evidura-space-3) var(--evidura-space-4);
+    font-size:var(--evidura-text-sm);color:var(--evidura-muted);
+    display:flex;align-items:flex-start;gap:var(--evidura-space-2);
+  }
+  .exposure-note strong{color:var(--evidura-fg);font-weight:var(--evidura-weight-medium)}
+
+  /* Dimension bars */
+  .dim-list{display:flex;flex-direction:column;gap:var(--evidura-space-3)}
+  .dim-row{display:flex;align-items:center;gap:var(--evidura-space-3)}
+  .dim-label{
+    width:90px;font-size:var(--evidura-text-sm);color:var(--evidura-muted);
+    flex-shrink:0;
+  }
+  .dim-label strong{color:var(--evidura-fg);display:block;font-size:var(--evidura-text-xs);letter-spacing:var(--evidura-tracking-caps);text-transform:uppercase;font-weight:var(--evidura-weight-semibold)}
+  .dim-bar-wrap{flex:1;height:10px;background:var(--evidura-bg-2);border-radius:var(--evidura-radius-pill);overflow:hidden}
+  .dim-bar-fill{height:100%;border-radius:var(--evidura-radius-pill);transition:width var(--evidura-duration-slow) var(--evidura-ease)}
+  .dim-score{
+    font-family:var(--evidura-font-mono);font-size:var(--evidura-text-base);
+    font-weight:600;width:28px;text-align:right;flex-shrink:0;
+  }
+  .dim-total{
+    margin-top:var(--evidura-space-4);padding-top:var(--evidura-space-4);
+    border-top:1px solid var(--evidura-border);
+    display:flex;justify-content:space-between;align-items:center;
+  }
+  .dim-total-label{font-size:var(--evidura-text-sm);color:var(--evidura-muted)}
+  .dim-total-score{
+    font-family:var(--evidura-font-mono);font-size:var(--evidura-text-xl);
+    font-weight:600;
+  }
+
+  /* Gates */
+  .gates{display:flex;gap:var(--evidura-space-4);margin-top:var(--evidura-space-4);flex-wrap:wrap}
+  .gate{
+    padding:var(--evidura-space-2) var(--evidura-space-4);
+    border-radius:var(--evidura-radius-pill);font-size:var(--evidura-text-xs);
+    letter-spacing:var(--evidura-tracking-caps);text-transform:uppercase;
+    font-weight:var(--evidura-weight-semibold);
+  }
+  .gate-pass{background:#E8F5EE;color:var(--evidura-band-resilient)}
+  .gate-fail{background:#FDE8E8;color:var(--evidura-band-critical)}
+
+  /* Quadrant badge */
+  .quadrant-badge{
+    display:inline-flex;align-items:center;gap:var(--evidura-space-2);
+    padding:var(--evidura-space-2) var(--evidura-space-4);
+    border-radius:var(--evidura-radius-pill);
+    font-size:var(--evidura-text-sm);font-weight:var(--evidura-weight-semibold);
+  }
+  .quadrant-badge.wp{background:#E8F5EE;color:var(--v2-wp)}
+  .quadrant-badge.cf{background:#E8F0FA;color:var(--v2-cf)}
+  .quadrant-badge.at{background:#FEF5E7;color:var(--v2-at)}
+  .quadrant-badge.sh{background:#F0ECF8;color:var(--v2-sh)}
+
+  /* Mini matrix */
+  .mini-matrix{width:100%;max-width:400px;margin:var(--evidura-space-4) auto 0}
+  .mini-matrix svg{width:100%}
+
+  /* Data table */
+  .data-table{width:100%;border-collapse:collapse;font-size:var(--evidura-text-sm)}
+  .data-table th{
+    text-align:left;padding:var(--evidura-space-2) var(--evidura-space-3);
+    color:var(--evidura-muted);font-weight:var(--evidura-weight-medium);
+    font-size:var(--evidura-text-xs);letter-spacing:var(--evidura-tracking-caps);
+    text-transform:uppercase;border-bottom:2px solid var(--evidura-border);
+  }
+  .data-table td{
+    padding:var(--evidura-space-2) var(--evidura-space-3);
+    border-bottom:1px solid var(--evidura-border);
+  }
+  .data-table .mono{font-family:var(--evidura-font-mono);font-size:var(--evidura-text-sm)}
+
+  /* Evidence tier */
+  .tier-strong{color:var(--evidura-band-resilient)}
+  .tier-strong::before{content:'● '}
+
+  /* Footer */
+  .site-footer{
+    margin-top:var(--evidura-space-16);padding-top:var(--evidura-space-6);
+    border-top:1px solid var(--evidura-border);
+    display:flex;justify-content:space-between;align-items:center;
+    font-size:var(--evidura-text-xs);color:var(--evidura-muted);flex-wrap:wrap;gap:var(--evidura-space-3);
+  }
+  .footer-proto{
+    background:var(--evidura-bg-2);border-radius:var(--evidura-radius-sm);
+    padding:var(--evidura-space-2) var(--evidura-space-3);
+    font-size:var(--evidura-text-xs);color:var(--evidura-muted);
+  }
+
+  /* Matrix position card */
+  .position-card{text-align:center}
+  .position-label{
+    font-size:var(--evidura-text-sm);color:var(--evidura-muted);
+    margin-top:var(--evidura-space-3);
+  }
+  .position-label strong{color:var(--evidura-fg);font-weight:var(--evidura-weight-semibold)}
+</style>
+</head>
+<body>
+<div class="container">
+
+<!-- Header -->
+<header class="site-header">
+  <div class="site-mark">
+    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-label="Evidura">
+      <rect x="40" y="58" width="120" height="18" rx="9" fill="#E9A23B"/>
+      <rect x="40" y="91" width="84" height="18" rx="9" fill="#0F2236"/>
+      <rect x="40" y="124" width="120" height="18" rx="9" fill="#0F2236"/>
+    </svg>
+  </div>
+  <div class="site-name">Evidura</div>
+  <div class="site-strap">Durability, made visible.</div>
+</header>
+
+<!-- Program hero -->
+<section class="prog-hero">
+  <div class="prog-eyebrow">Durability Assessment · v2 prototype</div>
+  <h1 class="prog-title">Master of Computer Science</h1>
+  <div class="prog-code">MC-CS · University of Melbourne · 200 credit points</div>
+  <div class="prog-meta">
+    <div class="meta-item">
+      <div class="meta-label">Faculty</div>
+      <div class="meta-value">Engineering & IT</div>
+    </div>
+    <div class="meta-item">
+      <div class="meta-label">Level</div>
+      <div class="meta-value">Postgraduate coursework</div>
+    </div>
+    <div class="meta-item">
+      <div class="meta-label">Position</div>
+      <div class="meta-value"><span class="quadrant-badge wp">Well-positioned</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- Panel A: Destination AI Exposure -->
+<div class="grid">
+  <section class="card">
+    <div class="card-label">Panel A</div>
+    <div class="card-title">Destination AI Exposure</div>
+    <div class="card-subtitle">How much of the destination work current AI touches — measured, not scored</div>
+    <div class="exposure-gauge">
+      <div class="gauge-value">71<sup>.3</sup></div>
+      <div class="gauge-bar-wrap">
+        <div class="gauge-bar">
+          <div class="gauge-median-marker" style="left:63%"></div>
+          <div class="gauge-bar-fill" style="width:83%"></div>
+        </div>
+        <div class="gauge-labels"><span>30</span><span>50</span><span>80</span></div>
+        <div class="gauge-median-label">Portfolio median <span>61.8</span></div>
+      </div>
+    </div>
+    <div class="exposure-note">
+      <span style="font-size:1.1em">⚠</span>
+      <span><strong>Exposure is not risk.</strong> This axis encodes how much of the destination work current AI touches, not the direction of the effect. Per the Felten et al. (2023) AI Occupational Exposure Index.</span>
+    </div>
+    <div style="margin-top:var(--evidura-space-6)">
+      <div style="font-size:var(--evidura-text-xs);color:var(--evidura-muted);letter-spacing:var(--evidura-tracking-caps);text-transform:uppercase;margin-bottom:var(--evidura-space-3)">Top Graduate Destinations</div>
+      <div style="display:flex;flex-direction:column;gap:var(--evidura-space-2)">
+        <div style="display:flex;justify-content:space-between;font-size:var(--evidura-text-sm)">
+          <span>Software Engineer</span><span style="font-family:var(--evidura-font-mono);color:var(--evidura-muted)">15%</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;font-size:var(--evidura-text-sm)">
+          <span>Developer Programmer</span><span style="font-family:var(--evidura-font-mono);color:var(--evidura-muted)">14%</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;font-size:var(--evidura-text-sm)">
+          <span>ICT Business Analyst</span><span style="font-family:var(--evidura-font-mono);color:var(--evidura-muted)">9%</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;font-size:var(--evidura-text-sm)">
+          <span>ICT Customer Support Officer</span><span style="font-family:var(--evidura-font-mono);color:var(--evidura-muted)">6%</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;font-size:var(--evidura-text-sm)">
+          <span>Management Consultant</span><span style="font-family:var(--evidura-font-mono);color:var(--evidura-muted)">4%</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Panel C: Curriculum Adaptiveness -->
+  <section class="card">
+    <div class="card-label">Panel C</div>
+    <div class="card-title">Curriculum Adaptiveness</div>
+    <div class="card-subtitle">How the program builds skills that resist AI substitution — scored, 0–3 per dimension</div>
+    <div class="dim-list">
+      <div class="dim-row">
+        <div class="dim-label"><strong>D2</strong> Systems Thinking</div>
+        <div class="dim-bar-wrap"><div class="dim-bar-fill" style="width:67%;background:var(--evidura-signal)"></div></div>
+        <div class="dim-score">2</div>
+      </div>
+      <div class="dim-row">
+        <div class="dim-label"><strong>D3</strong> Technical Depth</div>
+        <div class="dim-bar-wrap"><div class="dim-bar-fill" style="width:100%;background:var(--v2-wp)"></div></div>
+        <div class="dim-score">3</div>
+      </div>
+      <div class="dim-row">
+        <div class="dim-label"><strong>D7</strong> Research Methods</div>
+        <div class="dim-bar-wrap"><div class="dim-bar-fill" style="width:100%;background:var(--v2-wp)"></div></div>
+        <div class="dim-score">3</div>
+      </div>
+      <div class="dim-row">
+        <div class="dim-label"><strong>B</strong> Irreplaceability</div>
+        <div class="dim-bar-wrap"><div class="dim-bar-fill" style="width:100%;background:var(--v2-wp)"></div></div>
+        <div class="dim-score">3</div>
+      </div>
+      <div class="dim-row">
+        <div class="dim-label"><strong>D5</strong> AI Literacy</div>
+        <div class="dim-bar-wrap"><div class="dim-bar-fill" style="width:100%;background:var(--v2-wp)"></div></div>
+        <div class="dim-score">3</div>
+      </div>
+    </div>
+    <div class="dim-total">
+      <div class="dim-total-label">Total adaptiveness</div>
+      <div class="dim-total-score">14 / 15</div>
+    </div>
+    <div class="gates">
+      <div class="gate gate-pass">D4 Decision-making ✓</div>
+      <div class="gate gate-pass">D6 Domain depth ✓</div>
+    </div>
+  </section>
+
+  <!-- Matrix position -->
+  <section class="card position-card">
+    <div class="card-label">Where this program sits</div>
+    <div class="card-title">2×2 Matrix Position</div>
+    <div class="card-subtitle">Curriculum Adaptiveness × Destination AI Exposure — median thresholds</div>
+    <div class="mini-matrix" id="mini-matrix"></div>
+    <div class="position-label">
+      MC-CS is <strong>Well-positioned</strong> — exposed destinations with an adaptive curriculum. Graduates enter AI-touched roles with curriculum defences against substitution.
+    </div>
+  </section>
+
+  <!-- Panel D: Evidence Confidence -->
+  <section class="card">
+    <div class="card-label">Panel D</div>
+    <div class="card-title">Evidence Confidence</div>
+    <div class="card-subtitle">Metadata about the evidence base — never scored, never on an axis</div>
+    <table class="data-table">
+      <thead>
+        <tr><th>Field</th><th>Value</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Evidence tier</td>
+          <td><span class="tier-strong">Strong</span></td>
+        </tr>
+        <tr>
+          <td>JIR match</td>
+          <td>Exact match (n = 41 graduates)</td>
+        </tr>
+        <tr>
+          <td>Employers</td>
+          <td>13 unique (Google, IBM, Canva, Optiver, IMC Trading + 8 more)</td>
+        </tr>
+        <tr>
+          <td>Prestige employers</td>
+          <td>10 of 13 (77%) — strong signal</td>
+        </tr>
+        <tr>
+          <td>QILT study area</td>
+          <td>Computing and Information Systems</td>
+        </tr>
+        <tr>
+          <td>Short-term employment</td>
+          <td class="mono">87.3%</td>
+        </tr>
+        <tr>
+          <td>Mid-term employment</td>
+          <td class="mono">94.1%</td>
+        </tr>
+        <tr>
+          <td>Median starting salary</td>
+          <td class="mono">$101,000</td>
+        </tr>
+        <tr>
+          <td>3-year median salary</td>
+          <td class="mono">$127,000</td>
+        </tr>
+        <tr>
+          <td>Occupation demand</td>
+          <td>SHORTAGE (JSA Skills Priority List 2025)</td>
+        </tr>
+        <tr>
+          <td>Evidence score</td>
+          <td class="mono">7 / 7</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+</div>
+
+<!-- What changed from v1 -->
+<section class="card" style="margin-bottom:var(--evidura-space-12)">
+  <div class="card-label">Version comparison</div>
+  <div class="card-title">What changed from DFVA v1</div>
+  <div class="card-subtitle">The v1 composite scored 29/36 (RESILIENT). v2 decomposes into measured exposure and scored adaptiveness — never summed across evidence types.</div>
+  <table class="data-table">
+    <thead>
+      <tr><th>v1 Dimension</th><th>v1 Score</th><th>v2 Disposition</th><th>Rationale</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>D1 Automation Exposure</td><td class="mono">2</td><td>→ Panel A (measured)</td><td>Labour-market claim; moved from scoring to measurement</td></tr>
+      <tr><td>D2 Systems Thinking</td><td class="mono">2</td><td>→ Panel C (scored)</td><td>Retained; evidence from handbook curriculum</td></tr>
+      <tr><td>D3 Technical Depth</td><td class="mono">3</td><td>→ Panel C (scored)</td><td>Retained; strong technical core</td></tr>
+      <tr><td>D4 Decision-making</td><td class="mono">3</td><td>→ Gate (binary)</td><td>&gt;70% of programs use same level; gate, not measure</td></tr>
+      <tr><td>D5 AI Literacy</td><td class="mono">3</td><td>→ Panel C (scored)</td><td>Retained with guardrail anchors; rare 3/3 in v1</td></tr>
+      <tr><td>D6 Domain Depth</td><td class="mono">3</td><td>→ Gate (binary)</td><td>&gt;83% modal; gate, not measure</td></tr>
+      <tr><td>D7 Research Methods</td><td class="mono">3</td><td>→ Panel C (scored)</td><td>Retained; thesis/research project evidence</td></tr>
+      <tr><td>D8 Human/Relational</td><td class="mono">2</td><td>→ Panel A (measured)</td><td>Property of destination, not curriculum</td></tr>
+      <tr><td>D9 Curriculum Currency</td><td class="mono">2</td><td>→ Dropped</td><td>Item-total correlation 0.06; unscorable from handbook</td></tr>
+      <tr><td>D10 Outcome Evidence</td><td class="mono">3</td><td>→ Panel D (metadata)</td><td>Measured publishing practice, not quality — moved to evidence confidence</td></tr>
+      <tr><td>B Irreplaceability</td><td class="mono">3</td><td>→ Panel C (scored)</td><td>Retained; highest v1 dimension coherence (r=0.65)</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div>Evidura · Durability Assessment · v2 prototype</div>
+  <div class="footer-proto">This is a prototype. The live product (evidura.ai) continues to serve v1 bands.</div>
+  <div>Assessment date: 2026-06-08 · Source: handbook.unimelb.edu.au</div>
+</footer>
+
+</div>
+
+<!-- Mini matrix SVG -->
+<script>
+(function(){
+  var svg = document.getElementById('mini-matrix');
+  var W=320, H=240, pad={t:30, r:20, b:40, l:35}, pw=W-pad.l-pad.r, ph=H-pad.t-pad.b;
+  var xMn=30,xMx=80, yMn=0,yMx=16;
+  function sx(v){return pad.l+((v-xMn)/(xMx-xMn))*pw}
+  function sy(v){return pad.t+ph-((v-yMn)/(yMx-yMn))*ph}
+
+  // Scale label helper
+  var mXMedian=61.8, mYMedian=11;
+  var out='<svg viewBox="0 0 '+W+' '+H+'" xmlns="http://www.w3.org/2000/svg">';
+
+  // Grid
+  for(var x=30;x<=80;x+=10){out+='<line x1="'+sx(x)+'" y1="'+pad.t+'" x2="'+sx(x)+'" y2="'+(H-pad.b)+'" stroke="#DDE3EB" stroke-width="0.5"/>'}
+  for(var y=0;y<=15;y+=3){out+='<line x1="'+pad.l+'" y1="'+sy(y)+'" x2="'+(W-pad.r)+'" y2="'+sy(y)+'" stroke="#DDE3EB" stroke-width="0.5"/>'}
+  // Medians
+  out+='<line x1="'+sx(mXMedian)+'" y1="'+pad.t+'" x2="'+sx(mXMedian)+'" y2="'+(H-pad.b)+'" stroke="#5C7088" stroke-width="1" stroke-dasharray="4,3" opacity="0.5"/>';
+  out+='<line x1="'+pad.l+'" y1="'+sy(mYMedian)+'" x2="'+(W-pad.r)+'" y2="'+sy(mYMedian)+'" stroke="#5C7088" stroke-width="1" stroke-dasharray="4,3" opacity="0.5"/>';
+
+  // Quadrant labels
+  var qX=(xMn+mXMedian)/2, qXr=(mXMedian+xMx)/2, qYt=(mYMedian+yMx)/2, qYb=(yMn+mYMedian)/2;
+  out+='<text x="'+sx(qXr)+'" y="'+sy(qYt)+'" fill="#1F9D6B" font-size="9" text-anchor="middle" font-family="Inter,sans-serif" opacity="0.7">Well-positioned</text>';
+  out+='<text x="'+sx(qX)+'" y="'+sy(qYt)+'" fill="#3B82C4" font-size="9" text-anchor="middle" font-family="Inter,sans-serif" opacity="0.7">Comfortable</text>';
+  out+='<text x="'+sx(qXr)+'" y="'+sy(qYb)+'" fill="#E9A23B" font-size="9" text-anchor="middle" font-family="Inter,sans-serif" opacity="0.7">Attention</text>';
+  out+='<text x="'+sx(qX)+'" y="'+sy(qYb)+'" fill="#8B6FC0" font-size="9" text-anchor="middle" font-family="Inter,sans-serif" opacity="0.7">Sheltered</text>';
+
+  // Axis labels
+  out+='<text x="'+(W/2)+'" y="'+(H-6)+'" fill="#5C7088" font-size="9" text-anchor="middle" font-family="Inter,sans-serif">Exposure (AIOE) →</text>';
+  out+='<text x="10" y="'+(H/2)+'" fill="#5C7088" font-size="9" text-anchor="middle" font-family="Inter,sans-serif" transform="rotate(-90,10,'+(H/2)+')">Adaptiveness →</text>';
+
+  // MC-CS point
+  var program=[{x:sx(71.3), y:sy(14), code:'MC-CS', color:'#1F9D6B'}];
+  program.forEach(function(p){
+    out+='<circle cx="'+p.x+'" cy="'+p.y+'" r="7" fill="'+p.color+'" stroke="#fff" stroke-width="2"/>';
+    out+='<text x="'+p.x+'" y="'+(p.y-12)+'" fill="#0F2236" font-size="10" text-anchor="middle" font-weight="600" font-family="Inter,sans-serif">'+p.code+'</text>';
+  });
+
+  out+='</svg>';
+  svg.innerHTML=out;
+})();
+</script>
+</body>
+</html>
