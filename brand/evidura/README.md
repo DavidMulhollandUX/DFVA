@@ -1,5 +1,7 @@
 # Evidura — Brand Assets
 
+> **Superseded:** the canonical design system now lives at [`design-system/`](../../design-system/design.md) — full design.md, extended tokens (CSS + JSON), the complete logo kit, and a visual preview. This folder is the frozen v1 asset drop; new work should reference `design-system/`.
+
 The visual identity for **Evidura** — *the independent durability assessment for university degrees.* Confidential benchmarking, institutional consent required for any public display. "Durability, made visible."
 
 > Full rationale, concepts and usage rules: [`docs/evidura-logo.md`](../../docs/evidura-logo.md). Strategy: [`docs/compass-brand-strategy.md`](../../docs/compass-brand-strategy.md). Name selection & trademark DD: [`docs/compass-naming.md`](../../docs/compass-naming.md).
@@ -7,7 +9,7 @@ The visual identity for **Evidura** — *the independent durability assessment f
 ## Brand architecture
 
 | Layer | Name | Use |
-|---|---|---|
+| --- | --- | --- |
 | **Master brand** | **Evidura** | The company / platform. Replaces the working name "COMPASS". |
 | **Consumer signal** | **Durability Assessment** | The score + bands (Resilient → Critical). Confidential to the commissioning institution. |
 | **Methodology (engine)** | **DFVA** (Degree Future-Viability Assessment) | Internal — produces the rating. Not used in external/marketing copy. |
@@ -15,7 +17,7 @@ The visual identity for **Evidura** — *the independent durability assessment f
 ## Assets
 
 | File | What | Use |
-|---|---|---|
+| --- | --- | --- |
 | `evidura-mark.svg` / `-ondark.svg` | Strata-E primary mark | App, UI, social, general |
 | `evidura-seal.svg` | "Evidura-assessed" certification seal | Opt-in display badge. Gated on: independence resolved, methodology validated, institution consent. |
 | `evidura-lockup-horizontal.svg` / `-ondark.svg` | Mark + wordmark + strap | Headers, signatures, decks |
@@ -28,7 +30,7 @@ The visual identity for **Evidura** — *the independent durability assessment f
 ## Palette (see `tokens.css` for the full set)
 
 | Token | Hex | Role |
-|---|---|---|
+| --- | --- | --- |
 | Ink | `#0F2236` | Primary — text, structural shapes |
 | Signal (amber) | `#E9A23B` | The single accent — fills/accents only, never body text on light |
 | Paper | `#F4F2EC` | Warm off-white background |

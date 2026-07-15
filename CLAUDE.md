@@ -2,6 +2,24 @@
 
 **Tech stack:** TypeScript (scripts), Wasp 0.24 (compass app; config in main.wasp.ts — Wasp Spec, requires Node 24), Prisma (PostgreSQL), React 19
 **Key constraint:** Handbook scraper UNBLOCKED (2026-07-01) — Crawl4AI bypasses anti-bot. Use `PYTHONPATH="" bash ~/.hermes/scripts/crawl4ai_scrape.sh "<url>"` for handbook extraction.
+
+**Go8 scraping:** `PYTHONPATH="" ~/.venv-crawl4ai-uv/bin/python3 scripts/scrape-go8-handbooks.py <command> <unikey>`
+
+| Command | Example | What it does |
+|---------|---------|---------------|
+| `discover` | `discover unsw` | Extract program codes (sitemap/API/catalogue) |
+| `scrape` | `scrape usyd` | Batch-scrape handbook pages (5 at a time) |
+| `status` | `status monash` | Show progress for a university |
+| `status` | `status` | Show progress for all Go8 unis |
+
+Universities: `usyd`, `unsw`, `anu`, `monash`, `uq`, `uwa`, `adelaide`
+
+Discovery methods per uni: USyd/UNSW/Monash=sitemap, ANU=REST API, UQ/UWA/Adelaide=catalogue
+
+Output pattern (per uni): `data/go8_{unikey}_handbook_data.json` — same format as `handbook_data.json`
+Config: `scripts/go8_handbook_config.json`
+
+**No anti-bot: all Go8 handbooks are crawlable via Crawl4AI. No CAPTCHAs or Cloudflare.**
 **See:** compass/app/README.md
 
 ## Quick start
