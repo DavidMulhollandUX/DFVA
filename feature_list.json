@@ -1,9 +1,9 @@
 {
-  "updated": "2026-07-10",
+  "updated": "2026-07-17",
   "loops": {
     "spec_loop": {
-      "last_run": "2026-07-14",
-      "features_generated": 17
+      "last_run": "2026-07-17",
+      "features_generated": 18
     },
     "dev_loop": {
       "last_run": "2026-07-17T23:30:00Z",
@@ -189,7 +189,9 @@
     {
       "id": "feat-016",
       "name": "Lightcast 2026 Impact Report — AI Amplifies LMI Demand, Market Validation for DFVA",
-      "status": "planned",
+      "status": "draft",
+      "spec_file": "features/feat-016.md",
+      "branch": "feat/feat-016",
       "created": "2026-07-16",
       "priority": "high",
       "score": 9,
