@@ -6,14 +6,13 @@
       "features_generated": 17
     },
     "dev_loop": {
-      "last_run": "2026-07-17T08:00:00Z",
+      "last_run": "2026-07-17T22:00:00Z",
       "features_built": 8
     },
     "research_loop": {
-      "last_run": "2026-07-09",
-      "source": "producthunt",
-      "source_fallback": "github",
-      "signals_found": 6,
+      "last_run": "2026-07-16",
+      "source": "changelogs",
+      "signals_found": 5,
       "signals_promoted": 3
     }
   },
@@ -186,6 +185,39 @@
       "type": "competitor_move",
       "source": "research-loop Crawl4AI",
       "detail": "Coursedog's Course Demand Projections now includes 'Inferred Program Maps' (auto degree-to-course mapping), 'Requirement Tracking,' and 'Student Completion Matrix.' This is Coursedog's closest move yet to DFVA's core thesis — program-level analysis. Key difference: Coursedog's analysis is scheduling-optimization (descriptive: what IS happening), DFVA's is durability-assessment (prescriptive: what SHOULD exist). DFVA must own 'degree durability / future-viability' framing before Coursedog extends their maps in that direction."
+    },
+    {
+      "id": "feat-016",
+      "name": "Lightcast 2026 Impact Report — AI Amplifies LMI Demand, Market Validation for DFVA",
+      "status": "planned",
+      "created": "2026-07-16",
+      "priority": "high",
+      "score": 9,
+      "type": "market_validation",
+      "source": "research-loop changelogs",
+      "detail": "Lightcast surveyed ~1,000 customers: 96% say LMI is essential, 90% of education customers influenced on program review, 89% say LMI MORE critical with AI adoption. Directly validates DFVA's core thesis: AI creates demand for structured assessment data. Lightcast named to TIME's Top WorkTech Companies 2026. Threat: Lightcast's brand strength is growing rapidly. DFVA must differentiate on education-specific methodology (11-dimension), independent standard, and AI-native architecture."
+    },
+    {
+      "id": "feat-017",
+      "name": "Coursedog Assessment Cloud — Third Product Pillar, Direct Competitive Threat",
+      "status": "planned",
+      "created": "2026-07-16",
+      "priority": "high",
+      "score": 8,
+      "type": "competitor_move",
+      "source": "research-loop changelogs",
+      "detail": "Coursedog elevated Assessment to a core product pillar (alongside Curriculum Cloud and Scheduling Cloud). Includes Assessment Management + Course Evaluations (ClassRanked). First annual Academic Operations Conference announced. Most direct competitive encroachment yet — assessment is DFVA's lane. DFVA must differentiate on: prescriptive methodology (not descriptive), independent third-party standard, platform-agnostic."
+    },
+    {
+      "id": "feat-018",
+      "name": "CourseLeaf Analytics Expansion — Validates Trend, Exposes Infrastructure Gap",
+      "status": "planned",
+      "created": "2026-07-16",
+      "priority": "medium",
+      "score": 7,
+      "type": "competitor_move",
+      "source": "research-loop changelogs",
+      "detail": "CourseLeaf added Micro-Credentials, Career Data Integration, Learning Outcomes Mapping, Course Demand Analytics, and Registration Optimization to product listings. Validates the analytics trend but structural weakness: CourseLeaf's API poverty makes deep analytics difficult (confirmed by third-party tool ecosystem). DFVA's independent analytics layer is complementary, not competitive. Career Data Integration suggests LMI-in-curriculum becoming table stakes."
     }
   ]
 }
