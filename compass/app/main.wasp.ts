@@ -24,6 +24,8 @@ import PortfolioHealthPage from "./src/compass/PortfolioHealthPage" with { type:
 import FacultyDashboard from "./src/compass/FacultyDashboard" with { type: "ref" };
 import DevPortalPage from "./src/compass/DevPortalPage" with { type: "ref" };
 import DevPortalComparePage from "./src/compass/DevPortalComparePage" with { type: "ref" };
+import FragilityDashboardPage from "./src/compass/FragilityDashboardPage" with { type: "ref" };
+import WhyStructuredDataPage from "./src/compass/WhyStructuredDataPage" with { type: "ref" };
 
 // Auth / server / db functions
 import {
@@ -292,6 +294,16 @@ export default app({
     ),
 
     // Data Fragility Monitor (feat-012)
+    route(
+      "FragilityRoute",
+      "/insights/fragility",
+      page(FragilityDashboardPage),
+    ),
+    route(
+      "WhyStructuredDataRoute",
+      "/why-structured-data",
+      page(WhyStructuredDataPage),
+    ),
     action(addFragilityIncident, { entities: ["FragilityIncident", "User"] }),
     query(getFragilityIncidents, { entities: ["FragilityIncident"] }),
     //#endregion

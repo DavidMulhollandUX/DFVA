@@ -3,7 +3,9 @@ import { Link } from "react-router";
 import { InsightsGate } from "./InsightsGate";
 import { PROGRAMS } from "./sharedProgramData";
 import { getFaculty, facultySlug } from "./faculty";
-import { Building2, TrendingUp, ArrowRight, Shield } from "lucide-react";
+import { getFragilityIncidents } from "wasp/client/operations";
+import { useQuery } from "@wasp/queries";
+import { Building2, TrendingUp, ArrowRight, Shield, AlertTriangle } from "lucide-react";
 import { useMemo } from "react";
 import {
   Card,
@@ -13,6 +15,14 @@ import {
 } from "../client/components/ui/card";
 
 export default function InsightsPage() {
+  const { data: incidents } = useQuery(getFragilityIncidents);
+
+  const fragilityCount = incidents?.length ?? 0;
+  const fragilityPlatforms = useMemo(() => {
+    if (!incidents || incidents.length === 0) return 0;
+    return new Set(incidents.map((i: any) => i.platform)).size;
+  }, [incidents]);
+
   const faculties = useMemo(() => {
     const groups: Record<string, { count: number; avgScore: number }> = {};
     for (const p of PROGRAMS) {
@@ -65,6 +75,29 @@ export default function InsightsPage() {
               className="text-primary inline-flex items-center gap-2 text-sm font-medium hover:underline"
             >
               View Portfolio Report <ArrowRight className="h-4 w-4" />
+            </Link>
+          </CardContent>
+        </Card>
+
+        {/* Data Fragility widget */}
+        <Card className="border-red-500/20 bg-red-500/5 mb-8">
+          <CardHeader>
+            <CardTitle className="flex items-center gap-2">
+              <AlertTriangle className="h-5 w-5 text-red-500" />
+              Data Fragility Monitor
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <p className="text-muted-foreground mb-4 text-sm">
+              {fragilityCount > 0
+                ? `${fragilityCount} scraper regression incident${fragilityCount !== 1 ? "s" : ""} tracked across ${fragilityPlatforms} platform${fragilityPlatforms !== 1 ? "s" : ""} — HTML-based curriculum data is structurally fragile.`
+                : "Tracking scraper regression incidents across curriculum platforms."}
+            </p>
+            <Link
+              to="/insights/fragility"
+              className="text-primary inline-flex items-center gap-2 text-sm font-medium hover:underline"
+            >
+              View Fragility Dashboard <ArrowRight className="h-4 w-4" />
             </Link>
           </CardContent>
         </Card>
