@@ -141,8 +141,9 @@
     {
       "id": "feat-012",
       "name": "Cross-Platform Scraper Regression Storm — HTML Fragility as DFVA Differentiator",
-      "status": "draft",
+      "status": "in_progress",
       "spec_file": "features/feat-012.md",
+      "branch": "feat/feat-012",
       "created": "2026-07-06",
       "priority": "high",
       "score": 7,

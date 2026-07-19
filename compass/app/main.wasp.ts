@@ -70,6 +70,8 @@ import {
   generateApiKey,
   revokeApiKey,
   listApiKeys,
+  addFragilityIncident,
+  getFragilityIncidents,
 } from "./src/compass/operations" with { type: "ref" };
 import { scanMarketDrift } from "./src/compass/marketDrift" with { type: "ref" };
 
@@ -288,6 +290,10 @@ export default app({
       "/developers/compare",
       page(DevPortalComparePage),
     ),
+
+    // Data Fragility Monitor (feat-012)
+    action(addFragilityIncident, { entities: ["FragilityIncident", "User"] }),
+    query(getFragilityIncidents, { entities: ["FragilityIncident"] }),
     //#endregion
   ],
 });

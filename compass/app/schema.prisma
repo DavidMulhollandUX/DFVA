@@ -282,6 +282,23 @@ model AlumniDestination {
   @@index([industryCluster])
 }
 
+// Data Fragility Monitor — feat-012
+model FragilityIncident {
+  id                String   @id @default(uuid())
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+
+  date              DateTime
+  platform          String   // "Coursedog", "CourseLeaf", "Modern Campus", etc.
+  statesAffected    Json     // string array
+  blastRadius       Int      // number of institutions/states affected
+  sourceUrl         String
+  sourceDescription String
+  recoveryHours     Int?
+  description       String
+  isActive          Boolean  @default(true)
+}
+
 model CourseInterventionOwner {
   id        String   @id @default(uuid())
   createdAt DateTime @default(now())
