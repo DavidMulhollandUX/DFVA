@@ -141,6 +141,10 @@ model AssessmentJob {
   // Snapshot tracking
   snapshots     AssessmentSnapshot[]
 
+  // T1 data connector linkage (feat-011)
+  t1ProgramSnapshot   T1ProgramSnapshot? @relation(fields: [t1ProgramSnapshotId], references: [id])
+  t1ProgramSnapshotId String?
+
   // getAssessmentJobs filters by userId and sorts by createdAt on a 1.5s poll
   @@index([userId, createdAt])
 }
@@ -296,4 +300,94 @@ model CourseInterventionOwner {
   targetDate DateTime?
 
   @@unique([assessmentJobId, courseCode, dimensionId])
+}
+
+// TechnologyOne Data Connector — feat-011
+
+enum T1FileType {
+  T1XL
+  T1ETLP
+  T1DM
+  T1DB
+}
+
+model T1ImportJob {
+  id            String   @id @default(uuid())
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  institution   Institution @relation(fields: [institutionId], references: [id])
+  institutionId String
+
+  fileHash      String    // SHA-256 for dedup
+  fileName      String
+  fileType      T1FileType
+  fileSize      Int       // bytes
+  status        String    @default("queued") // queued | processing | complete | failed
+  rowCount      Int       @default(0)
+  entityCount   Int       @default(0)
+  entityTypes   String[]  // e.g. ["program", "course", "enrolment"]
+  errorMessage  String?
+
+  snapshots     T1ProgramSnapshot[]
+  enrolments    T1EnrolmentTrend[]
+
+  @@index([institutionId, createdAt])
+  @@unique([fileHash])
+}
+
+model T1ProgramSnapshot {
+  id            String     @id @default(uuid())
+  createdAt     DateTime   @default(now())
+
+  importJob     T1ImportJob @relation(fields: [importJobId], references: [id])
+  importJobId   String
+
+  institution   Institution @relation(fields: [institutionId], references: [id])
+  institutionId String
+
+  programCode   String
+  programName   String
+  level         String?    // Bachelor, Master, PhD, etc.
+  handbookUrl   String?
+
+  enrolmentCount  Int?
+  applications    Int?
+  offers          Int?
+  acceptances     Int?
+  retentionRate   Float?
+  progressionRate Float?
+  courseList      Json?     // Array of {courseCode, courseName, enrolment, level}
+
+  sourceFileType T1FileType // Which T1 format this snapshot came from
+  isActive       Boolean   @default(true)
+
+  // DFVA linkage — AssessmentJob.t1ProgramSnapshotId references this
+  assessments    AssessmentJob[]
+
+  @@index([institutionId, programCode])
+  @@index([importJobId])
+}
+
+model T1EnrolmentTrend {
+  id            String     @id @default(uuid())
+  createdAt     DateTime   @default(now())
+
+  importJob     T1ImportJob @relation(fields: [importJobId], references: [id])
+  importJobId   String
+
+  institution   Institution @relation(fields: [institutionId], references: [id])
+  institutionId String
+
+  programCode   String
+  year          Int
+  semester      Int        // 1 or 2
+  applications  Int        @default(0)
+  offers        Int        @default(0)
+  acceptances   Int        @default(0)
+  enrolments    Int        @default(0)
+  withdrawalCount Int      @default(0)
+
+  @@unique([institutionId, programCode, year, semester])
+  @@index([programCode, year])
 }

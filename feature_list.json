@@ -128,7 +128,7 @@
     {
       "id": "feat-011",
       "name": "TechnologyOne Reporting Gap — DFVA as T1's Missing Analytics Layer",
-      "status": "draft",
+      "status": "in_progress",
       "spec_file": "features/feat-011.md",
       "branch": "feat/feat-011",
       "created": "2026-07-06",
@@ -141,7 +141,7 @@
     {
       "id": "feat-012",
       "name": "Cross-Platform Scraper Regression Storm — HTML Fragility as DFVA Differentiator",
-      "status": "draft",
+      "status": "approved",
       "spec_file": "features/feat-012.md",
       "created": "2026-07-06",
       "priority": "high",
@@ -153,7 +153,7 @@
     {
       "id": "feat-013",
       "name": "Coursedog ClassRanked Acquisition — Counter-Positioning as Methodology-First Independent Standard",
-      "status": "draft",
+      "status": "approved",
       "spec_file": "features/feat-013.md",
       "created": "2026-07-09",
       "priority": "high",
@@ -165,7 +165,7 @@
     {
       "id": "feat-014",
       "name": "CourseLeaf Infrastructure Gap Play — Third-Party Tool Ecosystem as Go-to-Market",
-      "status": "draft",
+      "status": "approved",
       "spec_file": "features/feat-014.md",
       "created": "2026-07-09",
       "priority": "high",
@@ -177,7 +177,7 @@
     {
       "id": "feat-015",
       "name": "Coursedog Inferred Program Maps Response — Own 'Degree Durability' Framing",
-      "status": "draft",
+      "status": "approved",
       "spec_file": "features/feat-015.md",
       "created": "2026-07-09",
       "priority": "high",
@@ -189,7 +189,7 @@
     {
       "id": "feat-016",
       "name": "Lightcast 2026 Impact Report — AI Amplifies LMI Demand, Market Validation for DFVA",
-      "status": "draft",
+      "status": "approved",
       "spec_file": "features/feat-016.md",
       "branch": "feat/feat-016",
       "created": "2026-07-16",
@@ -202,7 +202,7 @@
     {
       "id": "feat-017",
       "name": "Coursedog Assessment Cloud — Third Product Pillar, Direct Competitive Threat",
-      "status": "draft",
+      "status": "approved",
       "spec_file": "features/feat-017.md",
       "branch": "feat/feat-017",
       "created": "2026-07-16",
