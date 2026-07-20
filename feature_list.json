@@ -1,9 +1,9 @@
 {
-  "updated": "2026-07-18",
+  "updated": "2026-07-21",
   "loops": {
     "spec_loop": {
-      "last_run": "2026-07-18",
-      "features_generated": 19
+      "last_run": "2026-07-21",
+      "features_generated": 20
     },
     "dev_loop": {
       "last_run": "2026-07-21T00:00:00Z",
@@ -128,7 +128,7 @@
     {
       "id": "feat-011",
       "name": "TechnologyOne Reporting Gap — DFVA as T1's Missing Analytics Layer",
-      "status": "draft",
+      "status": "approved",
       "spec_file": "features/feat-011.md",
       "branch": "feat/feat-011",
       "created": "2026-07-06",
@@ -190,7 +190,7 @@
     {
       "id": "feat-016",
       "name": "Lightcast 2026 Impact Report — AI Amplifies LMI Demand, Market Validation for DFVA",
-      "status": "draft",
+      "status": "approved",
       "spec_file": "features/feat-016.md",
       "branch": "feat/feat-016",
       "created": "2026-07-16",
@@ -203,7 +203,7 @@
     {
       "id": "feat-017",
       "name": "Coursedog Assessment Cloud — Third Product Pillar, Direct Competitive Threat",
-      "status": "draft",
+      "status": "approved",
       "spec_file": "features/feat-017.md",
       "branch": "feat/feat-017",
       "created": "2026-07-16",
@@ -216,7 +216,9 @@
     {
       "id": "feat-018",
       "name": "CourseLeaf Analytics Expansion — Validates Trend, Exposes Infrastructure Gap",
-      "status": "planned",
+      "status": "draft",
+      "spec_file": "features/feat-018.md",
+      "branch": "feat/feat-018",
       "created": "2026-07-16",
       "priority": "medium",
       "score": 7,
