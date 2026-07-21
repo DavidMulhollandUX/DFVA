@@ -9,6 +9,7 @@ import MomentOfDecision from "./components/MomentOfDecision";
 import Problem from "./components/Problem";
 import Trust from "./components/Trust";
 import ValidatedByResearch from "./components/ValidatedByResearch";
+import IndependentStandard from "./components/IndependentStandard";
 import Validation from "./components/Validation";
 import { faqs, features, footerNavigation } from "./contentSections";
 
@@ -37,6 +38,7 @@ export default function LandingPage() {
         <MomentOfDecision />
         <Validation />
         <ValidatedByResearch />
+        <IndependentStandard />
         <FAQ faqs={faqs} />
         <ClosingCTA />
       </main>

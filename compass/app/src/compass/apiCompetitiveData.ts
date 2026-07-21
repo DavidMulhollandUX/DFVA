@@ -88,3 +88,54 @@ export type ApiQualityDimension = keyof Pick<
   | "hasPlayground"
   | "hasStatusPage"
 >;
+
+// ─── Competitive Product Pillar Data (feat-017) ───────────────────────────
+
+/** Methodology-level comparison of assessment capabilities across platforms. */
+export interface CompetitorProductPillar {
+  name: string;
+  hasAssessment: boolean;
+  assessmentType: "none" | "descriptive" | "prescriptive" | "integrated";
+  methodologyDetails: string;
+  independenceLevel: "vendor_locked" | "partially_independent" | "fully_independent";
+  sourceUrls: string[];
+}
+
+export const PRODUCT_PILLAR_DATA: CompetitorProductPillar[] = [
+  {
+    name: "DFVA (Evidura)",
+    hasAssessment: true,
+    assessmentType: "prescriptive",
+    methodologyDetails:
+      "Independent 11-dimension durability scoring. " +
+      "Prescriptive methodology — evaluates what SHOULD exist, not just what IS happening. " +
+      "Platform-agnostic — works with any curriculum management system. " +
+      "Third-party standard — methodology is public and auditable.",
+    independenceLevel: "fully_independent",
+    sourceUrls: [],
+  },
+  {
+    name: "Coursedog",
+    hasAssessment: true,
+    assessmentType: "integrated",
+    methodologyDetails:
+      "Integrated Assessment Cloud (third product pillar). " +
+      "Descriptive analytics — course evaluations + demand projections. " +
+      "Vendor-locked — requires Coursedog Curriculum Cloud. " +
+      "Assessment optimises the platform, not independent of it. " +
+      "Inferred Program Maps derived from HTML catalog parsing.",
+    independenceLevel: "vendor_locked",
+    sourceUrls: ["https://www.coursedog.com/product/assessment"],
+  },
+  {
+    name: "CourseLeaf",
+    hasAssessment: false,
+    assessmentType: "none",
+    methodologyDetails:
+      "No dedicated assessment product. " +
+      "Analytics expansion announced 2026 (Course Demand, Registration Optimization, Career Data). " +
+      "API-poor architecture limits deep analysis — third-party tool ecosystem confirms extraction pain.",
+    independenceLevel: "vendor_locked",
+    sourceUrls: [],
+  },
+];
