@@ -26,6 +26,7 @@ import DevPortalPage from "./src/compass/DevPortalPage" with { type: "ref" };
 import DevPortalComparePage from "./src/compass/DevPortalComparePage" with { type: "ref" };
 import FragilityDashboardPage from "./src/compass/FragilityDashboardPage" with { type: "ref" };
 import WhyStructuredDataPage from "./src/compass/WhyStructuredDataPage" with { type: "ref" };
+import ImpactReportDetail from "./src/compass/ImpactReportDetail" with { type: "ref" };
 
 // Auth / server / db functions
 import {
@@ -310,6 +311,11 @@ export default app({
       "WhyStructuredDataRoute",
       "/why-structured-data",
       page(WhyStructuredDataPage),
+    ),
+    route(
+      "ImpactReportDetailRoute",
+      "/insights/validation/:slug",
+      page(ImpactReportDetail),
     ),
     action(addFragilityIncident, { entities: ["FragilityIncident", "User"] }),
     query(getFragilityIncidents, { entities: ["FragilityIncident"] }),
