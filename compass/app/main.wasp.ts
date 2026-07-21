@@ -260,9 +260,9 @@ export default app({
       facultyDashboardPage,
     ),
 
-    action(assessProgram, { entities: ["AssessmentJob", "User"] }),
-    query(getAssessmentJobs, { entities: ["AssessmentJob"] }),
-    query(getAssessmentJob, { entities: ["AssessmentJob"] }),
+    action(assessProgram, { entities: ["AssessmentJob", "User", "T1ProgramSnapshot"] }),
+    query(getAssessmentJobs, { entities: ["AssessmentJob", "T1ProgramSnapshot"] }),
+    query(getAssessmentJob, { entities: ["AssessmentJob", "T1ProgramSnapshot"] }),
     query(getSyllabusMap, { entities: ["AssessmentJob"] }),
     action(updateCourseIntervention, {
       entities: ["CourseInterventionOwner", "AssessmentJob"],
