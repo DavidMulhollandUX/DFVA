@@ -136,6 +136,40 @@ export default function DevPortalComparePage() {
                   ))}
                 </tr>
               ))}
+              {/* Market Validation — text-based comparison row */}
+              <tr className="bg-primary/5">
+                <td className="p-4">
+                  <span className="font-medium">Market Validation</span>
+                  <span className="text-muted-foreground block text-xs">
+                    Independent third-party evidence supporting the product's claims
+                  </span>
+                </td>
+                <td className="p-4 text-center">
+                  <span className="text-xs leading-relaxed">
+                    Independent 11-dimension methodology. Validated by Lightcast
+                    (~1,000-customer survey), Gartner reviews, ListEdTech
+                    analysis, and 25+ market signals.
+                  </span>
+                </td>
+                <td className="p-4 text-center">
+                  <span className="text-muted-foreground text-xs leading-relaxed">
+                    Vendor-published Assessment Cloud + ClassRanked
+                    integration. No independent third-party validation.
+                  </span>
+                </td>
+                <td className="p-4 text-center">
+                  <span className="text-muted-foreground text-xs leading-relaxed">
+                    Vendor-published analytics expansion. No independent
+                    third-party validation.
+                  </span>
+                </td>
+                <td className="p-4 text-center">
+                  <span className="text-muted-foreground text-xs leading-relaxed">
+                    Vendor-published; large-N customer survey (~1,000). TIME
+                    Top WorkTech 2026. Industry standard for LMI data.
+                  </span>
+                </td>
+              </tr>
             </tbody>
           </table>
         </div>

@@ -5,8 +5,9 @@ import { PROGRAMS } from "./sharedProgramData";
 import { getFaculty, facultySlug } from "./faculty";
 import { getFragilityIncidents } from "wasp/client/operations";
 import { useQuery } from "@wasp/queries";
-import { Building2, TrendingUp, ArrowRight, Shield, AlertTriangle } from "lucide-react";
+import { Building2, TrendingUp, ArrowRight, Shield, AlertTriangle, BarChart3 } from "lucide-react";
 import { useMemo } from "react";
+import ImpactReportCard from "./ImpactReportCard";
 import {
   Card,
   CardContent,
@@ -101,6 +102,23 @@ export default function InsightsPage() {
             </Link>
           </CardContent>
         </Card>
+
+        {/* Market Validation section */}
+        <div className="mb-8">
+          <div className="mb-4 flex items-center justify-between gap-3">
+            <h2 className="text-foreground flex items-center gap-2 text-lg font-semibold">
+              <BarChart3 className="text-primary h-5 w-5" />
+              Market Validation
+            </h2>
+            <Link
+              to="/insights/validation/lightcast-2026-impact-report"
+              className="text-primary inline-flex shrink-0 items-center gap-1.5 text-sm font-medium hover:underline"
+            >
+              View all signals <ArrowRight className="h-4 w-4" />
+            </Link>
+          </div>
+          <ImpactReportCard />
+        </div>
 
         {/* Faculty cards */}
         <div className="mb-4 flex items-center justify-between gap-3">

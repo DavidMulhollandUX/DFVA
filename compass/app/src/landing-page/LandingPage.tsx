@@ -8,6 +8,7 @@ import HowItWorks from "./components/HowItWorks";
 import MomentOfDecision from "./components/MomentOfDecision";
 import Problem from "./components/Problem";
 import Trust from "./components/Trust";
+import ValidatedByResearch from "./components/ValidatedByResearch";
 import Validation from "./components/Validation";
 import { faqs, features, footerNavigation } from "./contentSections";
 
@@ -35,6 +36,7 @@ export default function LandingPage() {
         <Trust />
         <MomentOfDecision />
         <Validation />
+        <ValidatedByResearch />
         <FAQ faqs={faqs} />
         <ClosingCTA />
       </main>
