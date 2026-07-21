@@ -75,6 +75,13 @@ import {
   addFragilityIncident,
   getFragilityIncidents,
 } from "./src/compass/operations" with { type: "ref" };
+import {
+  importT1Data,
+  getT1ImportJob,
+  getT1Portfolio,
+  getT1EnrolmentTrends,
+  assessT1Programs,
+} from "./src/compass/t1/operations" with { type: "ref" };
 import { scanMarketDrift } from "./src/compass/marketDrift" with { type: "ref" };
 
 // FacultyComparisonRoute and FacultyDetailRoute render the same page.
@@ -306,6 +313,23 @@ export default app({
     ),
     action(addFragilityIncident, { entities: ["FragilityIncident", "User"] }),
     query(getFragilityIncidents, { entities: ["FragilityIncident"] }),
+
+    // TechnologyOne Data Connector (feat-011)
+    action(importT1Data, {
+      entities: ["T1ImportJob", "T1ProgramSnapshot", "T1EnrolmentTrend", "Institution"],
+    }),
+    query(getT1ImportJob, {
+      entities: ["T1ImportJob", "T1ProgramSnapshot"],
+    }),
+    query(getT1Portfolio, {
+      entities: ["Institution", "T1ProgramSnapshot", "AssessmentJob"],
+    }),
+    query(getT1EnrolmentTrends, {
+      entities: ["Institution", "T1EnrolmentTrend"],
+    }),
+    action(assessT1Programs, {
+      entities: ["Institution", "T1ProgramSnapshot", "AssessmentJob"],
+    }),
     //#endregion
   ],
 });
