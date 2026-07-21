@@ -487,9 +487,9 @@ const generateApiKeyInputSchema = z.object({
  * Generate a new API key for the logged-in user.
  * Returns the raw key ONCE — it is never stored.
  */
-export const generateApiKey: ***
+export const generateApiKey: GenerateApiKey<
   { name: string },
-  { apiKey: *** rawKey: string }
+  { apiKey: ApiKeyResult; rawKey: string }
 > = async (rawArgs, context) => {
   if (!context.user) throw new HttpError(401, "Authentication required");
   const { name } = ensureArgsSchemaOrThrowHttpError(
@@ -512,7 +512,7 @@ export const generateApiKey: ***
   });
 
   return {
-    apiKey: ***
+    apiKey: {
       id: apiKey.id,
       name: apiKey.name,
       keyPrefix: apiKey.keyPrefix,
@@ -526,7 +526,7 @@ export const generateApiKey: ***
 /**
  * Revoke an API key owned by the logged-in user.
  */
-export const revokeApiKey: ***
+export const revokeApiKey: RevokeApiKey<
   { keyId: string },
   { success: boolean }
 > = async (rawArgs, context) => {
