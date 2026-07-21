@@ -1,7 +1,9 @@
 import {
   DFVA_API_DATA,
   COMPETITORS,
+  PRODUCT_PILLAR_DATA,
   type CompetitorApiData,
+  type CompetitorProductPillar,
 } from "./apiCompetitiveData";
 import {
   Shield,
@@ -10,6 +12,7 @@ import {
   AlertTriangle,
   Minus,
   ExternalLink,
+  Scale,
 } from "lucide-react";
 
 const ALL_COMPETITORS = [DFVA_API_DATA, ...COMPETITORS];
@@ -169,6 +172,33 @@ export default function DevPortalComparePage() {
                     Top WorkTech 2026. Industry standard for LMI data.
                   </span>
                 </td>
+              </tr>
+              {/* Assessment Methodology — text-based comparison row (feat-017) */}
+              <tr className="bg-primary/5">
+                <td className="p-4">
+                  <span className="font-medium">Assessment Methodology</span>
+                  <span className="text-muted-foreground block text-xs">
+                    Approach to program assessment — descriptive vs prescriptive, independent vs integrated
+                  </span>
+                </td>
+                {ALL_COMPETITORS.map((api) => {
+                  const pillar = PRODUCT_PILLAR_DATA.find(
+                    (p: CompetitorProductPillar) =>
+                      api.name.includes(p.name) || p.name.includes(api.name)
+                  );
+                  const details = pillar?.methodologyDetails ?? (
+                    api.name === "Lightcast"
+                      ? "General LMI data provider — not a curriculum assessment platform. Data answers 'what jobs exist?' but doesn't score program viability."
+                      : "No assessment methodology information available."
+                  );
+                  return (
+                    <td key={api.name} className="p-4 text-center">
+                      <span className="text-xs leading-relaxed">
+                        {details}
+                      </span>
+                    </td>
+                  );
+                })}
               </tr>
             </tbody>
           </table>

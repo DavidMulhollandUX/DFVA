@@ -3,11 +3,12 @@ import { Link } from "react-router";
 import { InsightsGate } from "./InsightsGate";
 import { PROGRAMS } from "./sharedProgramData";
 import { getFaculty, facultySlug } from "./faculty";
-import { getFragilityIncidents } from "wasp/client/operations";
+import { getFragilityIncidents, getCompetitiveEvents } from "wasp/client/operations";
 import { useQuery } from "@wasp/queries";
-import { Building2, TrendingUp, ArrowRight, Shield, AlertTriangle, BarChart3 } from "lucide-react";
+import { Building2, TrendingUp, ArrowRight, Shield, AlertTriangle, BarChart3, Swords } from "lucide-react";
 import { useMemo } from "react";
 import ImpactReportCard from "./ImpactReportCard";
+import CompetitiveThreatCard from "./CompetitiveThreatCard";
 import {
   Card,
   CardContent,
@@ -17,12 +18,21 @@ import {
 
 export default function InsightsPage() {
   const { data: incidents } = useQuery(getFragilityIncidents);
+  const { data: competitiveEvents } = useQuery(getCompetitiveEvents);
 
   const fragilityCount = incidents?.length ?? 0;
   const fragilityPlatforms = useMemo(() => {
     if (!incidents || incidents.length === 0) return 0;
     return new Set(incidents.map((i: any) => i.platform)).size;
   }, [incidents]);
+
+  // Top competitive threats sorted by impactScore descending
+  const topThreats = useMemo(() => {
+    if (!competitiveEvents || competitiveEvents.length === 0) return [];
+    return [...competitiveEvents]
+      .sort((a: any, b: any) => b.impactScore - a.impactScore)
+      .slice(0, 3);
+  }, [competitiveEvents]);
 
   const faculties = useMemo(() => {
     const groups: Record<string, { count: number; avgScore: number }> = {};
@@ -119,6 +129,29 @@ export default function InsightsPage() {
           </div>
           <ImpactReportCard />
         </div>
+
+        {/* Competitive Landscape section */}
+        {topThreats.length > 0 && (
+          <div className="mb-8">
+            <div className="mb-4 flex items-center justify-between gap-3">
+              <h2 className="text-foreground flex items-center gap-2 text-lg font-semibold">
+                <Swords className="text-primary h-5 w-5" />
+                Competitive Landscape
+              </h2>
+              <Link
+                to="/insights/competitive"
+                className="text-primary inline-flex shrink-0 items-center gap-1.5 text-sm font-medium hover:underline"
+              >
+                View all events <ArrowRight className="h-4 w-4" />
+              </Link>
+            </div>
+            <div className="space-y-4">
+              {topThreats.map((event: any) => (
+                <CompetitiveThreatCard key={event.id} event={event} />
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* Faculty cards */}
         <div className="mb-4 flex items-center justify-between gap-3">
