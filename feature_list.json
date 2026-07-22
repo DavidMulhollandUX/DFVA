@@ -48,7 +48,7 @@
     },
     {
       "id": "feat-004",
-      "name": "Industry-Wide Reporting & Analytics Gap — DFVA as Independent Analytics Standard",
+      "name": "Industry-Wide Reporting & Analytics Gap \u2014 DFVA as Independent Analytics Standard",
       "status": "done",
       "spec_file": "features/feat-004.md",
       "branch": "feat/feat-004",
@@ -61,7 +61,7 @@
     },
     {
       "id": "feat-005",
-      "name": "Lightcast Data Freshness — Real-Time LMI Alternative",
+      "name": "Lightcast Data Freshness \u2014 Real-Time LMI Alternative",
       "status": "done",
       "spec_file": "features/feat-005.md",
       "branch": "feat/feat-005",
@@ -74,7 +74,7 @@
     },
     {
       "id": "feat-006",
-      "name": "Market Convergence Validation — DFVA Thesis Confirmed by Third Independent Source",
+      "name": "Market Convergence Validation \u2014 DFVA Thesis Confirmed by Third Independent Source",
       "status": "done",
       "spec_file": "features/feat-006.md",
       "branch": "feat/feat-006",
@@ -83,11 +83,11 @@
       "score": 8,
       "type": "market_validation",
       "source": "research-loop reviews",
-      "detail": "ListEdTech, RFP.wiki, and InnoTechToday all confirm the market is converging toward data-centric 'academic operations platforms.' No vendor owns the analytics layer. DFVA's independent scoring standard has a validated market window — but it's closing as Coursedog ships LMI."
+      "detail": "ListEdTech, RFP.wiki, and InnoTechToday all confirm the market is converging toward data-centric 'academic operations platforms.' No vendor owns the analytics layer. DFVA's independent scoring standard has a validated market window \u2014 but it's closing as Coursedog ships LMI."
     },
     {
       "id": "feat-007",
-      "name": "Structured Curriculum Data as Market Differentiator — Incumbents Store Degrees as Unstructured HTML",
+      "name": "Structured Curriculum Data as Market Differentiator \u2014 Incumbents Store Degrees as Unstructured HTML",
       "status": "done",
       "spec_file": "features/feat-007.md",
       "branch": "feat/feat-007",
@@ -96,11 +96,11 @@
       "score": 9,
       "type": "market_gap",
       "source": "research-loop forums",
-      "detail": "GitHub coursedog-importer project (real university migration, 9 PRs Mar-Apr 2026) confirms both Coursedog and Modern Campus store degree requirements as freeform HTML blocks — NOT structured data. No curriculum platform in the market supports programmatic analysis of degree requirements. DFVA's structured assessment model is a fundamentally different data architecture, not just better analytics."
+      "detail": "GitHub coursedog-importer project (real university migration, 9 PRs Mar-Apr 2026) confirms both Coursedog and Modern Campus store degree requirements as freeform HTML blocks \u2014 NOT structured data. No curriculum platform in the market supports programmatic analysis of degree requirements. DFVA's structured assessment model is a fundamentally different data architecture, not just better analytics."
     },
     {
       "id": "feat-009",
-      "name": "API Maturity as Competitive Differentiator — Developer Experience Layer",
+      "name": "API Maturity as Competitive Differentiator \u2014 Developer Experience Layer",
       "status": "done",
       "spec_file": "features/feat-009.md",
       "branch": "feat/feat-009",
@@ -113,9 +113,9 @@
     },
     {
       "id": "feat-010",
-      "name": "Second Confirmed Coursedog Migration — Universal Data Extraction Pain Pattern",
+      "name": "Second Confirmed Coursedog Migration \u2014 Universal Data Extraction Pain Pattern",
       "status": "rejected",
-      "rejected_reason": "Reverted 2026-07-08 by user request — the migration-pain surfaces (Insights card, landing-page section, /insights/migration-pain page, DevPortal row) were deemed irrelevant to the product. Do not rebuild.",
+      "rejected_reason": "Reverted 2026-07-08 by user request \u2014 the migration-pain surfaces (Insights card, landing-page section, /insights/migration-pain page, DevPortal row) were deemed irrelevant to the product. Do not rebuild.",
       "spec_file": "features/feat-010.md",
       "branch": "feat/feat-010",
       "created": "2026-07-06",
@@ -123,11 +123,11 @@
       "score": 8,
       "type": "competitor_weakness",
       "source": "research-loop social",
-      "detail": "Mercy University 25Live → Coursedog migration (June 2026) is the SECOND independent project requiring custom Selenium/Python extraction code because legacy systems provide no structured data export. Combined with the first migration (Modern Campus → Coursedog, Mar-Apr 2026), a pattern is confirmed: every Coursedog migration requires custom scraping. DFVA should position as the migration-safe alternative — structured data from day one, no HTML scraping required."
+      "detail": "Mercy University 25Live \u2192 Coursedog migration (June 2026) is the SECOND independent project requiring custom Selenium/Python extraction code because legacy systems provide no structured data export. Combined with the first migration (Modern Campus \u2192 Coursedog, Mar-Apr 2026), a pattern is confirmed: every Coursedog migration requires custom scraping. DFVA should position as the migration-safe alternative \u2014 structured data from day one, no HTML scraping required."
     },
     {
       "id": "feat-011",
-      "name": "TechnologyOne Reporting Gap — DFVA as T1's Missing Analytics Layer",
+      "name": "TechnologyOne Reporting Gap \u2014 DFVA as T1's Missing Analytics Layer",
       "status": "done",
       "spec_file": "features/feat-011.md",
       "branch": "feat/feat-011",
@@ -140,7 +140,7 @@
     },
     {
       "id": "feat-012",
-      "name": "Cross-Platform Scraper Regression Storm — HTML Fragility as DFVA Differentiator",
+      "name": "Cross-Platform Scraper Regression Storm \u2014 HTML Fragility as DFVA Differentiator",
       "status": "done",
       "spec_file": "features/feat-012.md",
       "branch": "feat/feat-012",
@@ -153,7 +153,7 @@
     },
     {
       "id": "feat-013",
-      "name": "Coursedog ClassRanked Acquisition — Counter-Positioning as Methodology-First Independent Standard",
+      "name": "Coursedog ClassRanked Acquisition \u2014 Counter-Positioning as Methodology-First Independent Standard",
       "status": "approved",
       "spec_file": "features/feat-013.md",
       "created": "2026-07-09",
@@ -161,11 +161,11 @@
       "score": 9,
       "type": "competitor_move",
       "source": "research-loop GitHub intelligence",
-      "detail": "Coursedog acquired ClassRanked (AI-driven course evaluations) and rebranded to 'Intelligent Academic Operations Platform.' Now has: Assessment Cloud, Coursedog Intelligence, Labor Market Insights, Inferred Program Maps, Course Demand Projections. DFVA must differentiate on: (1) methodology depth — 11-dimension durability scoring vs generic 'AI insights,' (2) independent standard — unbiased third-party assessment, (3) structured data model — HTML-free, API-first. The competitive window just narrowed."
+      "detail": "Coursedog acquired ClassRanked (AI-driven course evaluations) and rebranded to 'Intelligent Academic Operations Platform.' Now has: Assessment Cloud, Coursedog Intelligence, Labor Market Insights, Inferred Program Maps, Course Demand Projections. DFVA must differentiate on: (1) methodology depth \u2014 11-dimension durability scoring vs generic 'AI insights,' (2) independent standard \u2014 unbiased third-party assessment, (3) structured data model \u2014 HTML-free, API-first. The competitive window just narrowed."
     },
     {
       "id": "feat-014",
-      "name": "CourseLeaf Infrastructure Gap Play — Third-Party Tool Ecosystem as Go-to-Market",
+      "name": "CourseLeaf Infrastructure Gap Play \u2014 Third-Party Tool Ecosystem as Go-to-Market",
       "status": "approved",
       "spec_file": "features/feat-014.md",
       "created": "2026-07-09",
@@ -173,11 +173,11 @@
       "score": 8,
       "type": "competitor_weakness",
       "source": "research-loop GitHub intelligence",
-      "detail": "CourseLeaf (29% market share) has systemic API poverty: University of Illinois built Azure Function for basic data loading, APInception is a meta-API wrapper, cc-coursemap and UniPaith both built CourseLeaf scrapers for program/catalog data. CourseLeaf is the most API-poor major competitor. Every CourseLeaf customer wanting analytics must build custom infrastructure. DFVA can offer the missing analytics layer — without touching CourseLeaf's workflow."
+      "detail": "CourseLeaf (29% market share) has systemic API poverty: University of Illinois built Azure Function for basic data loading, APInception is a meta-API wrapper, cc-coursemap and UniPaith both built CourseLeaf scrapers for program/catalog data. CourseLeaf is the most API-poor major competitor. Every CourseLeaf customer wanting analytics must build custom infrastructure. DFVA can offer the missing analytics layer \u2014 without touching CourseLeaf's workflow."
     },
     {
       "id": "feat-015",
-      "name": "Coursedog Inferred Program Maps Response — Own 'Degree Durability' Framing",
+      "name": "Coursedog Inferred Program Maps Response \u2014 Own 'Degree Durability' Framing",
       "status": "approved",
       "spec_file": "features/feat-015.md",
       "created": "2026-07-09",
@@ -185,11 +185,11 @@
       "score": 8,
       "type": "competitor_move",
       "source": "research-loop Crawl4AI",
-      "detail": "Coursedog's Course Demand Projections now includes 'Inferred Program Maps' (auto degree-to-course mapping), 'Requirement Tracking,' and 'Student Completion Matrix.' This is Coursedog's closest move yet to DFVA's core thesis — program-level analysis. Key difference: Coursedog's analysis is scheduling-optimization (descriptive: what IS happening), DFVA's is durability-assessment (prescriptive: what SHOULD exist). DFVA must own 'degree durability / future-viability' framing before Coursedog extends their maps in that direction."
+      "detail": "Coursedog's Course Demand Projections now includes 'Inferred Program Maps' (auto degree-to-course mapping), 'Requirement Tracking,' and 'Student Completion Matrix.' This is Coursedog's closest move yet to DFVA's core thesis \u2014 program-level analysis. Key difference: Coursedog's analysis is scheduling-optimization (descriptive: what IS happening), DFVA's is durability-assessment (prescriptive: what SHOULD exist). DFVA must own 'degree durability / future-viability' framing before Coursedog extends their maps in that direction."
     },
     {
       "id": "feat-016",
-      "name": "Lightcast 2026 Impact Report — AI Amplifies LMI Demand, Market Validation for DFVA",
+      "name": "Lightcast 2026 Impact Report \u2014 AI Amplifies LMI Demand, Market Validation for DFVA",
       "status": "done",
       "spec_file": "features/feat-016.md",
       "branch": "feat/feat-016",
@@ -202,7 +202,7 @@
     },
     {
       "id": "feat-017",
-      "name": "Coursedog Assessment Cloud — Third Product Pillar, Direct Competitive Threat",
+      "name": "Coursedog Assessment Cloud \u2014 Third Product Pillar, Direct Competitive Threat",
       "status": "done",
       "spec_file": "features/feat-017.md",
       "branch": "feat/feat-017",
@@ -211,12 +211,12 @@
       "score": 8,
       "type": "competitor_move",
       "source": "research-loop changelogs",
-      "detail": "Coursedog elevated Assessment to a core product pillar (alongside Curriculum Cloud and Scheduling Cloud). Includes Assessment Management + Course Evaluations (ClassRanked). First annual Academic Operations Conference announced. Most direct competitive encroachment yet — assessment is DFVA's lane. DFVA must differentiate on: prescriptive methodology (not descriptive), independent third-party standard, platform-agnostic."
+      "detail": "Coursedog elevated Assessment to a core product pillar (alongside Curriculum Cloud and Scheduling Cloud). Includes Assessment Management + Course Evaluations (ClassRanked). First annual Academic Operations Conference announced. Most direct competitive encroachment yet \u2014 assessment is DFVA's lane. DFVA must differentiate on: prescriptive methodology (not descriptive), independent third-party standard, platform-agnostic."
     },
     {
       "id": "feat-018",
       "name": "CourseLeaf Analytics Expansion — Validates Trend, Exposes Infrastructure Gap",
-      "status": "draft",
+      "status": "in_progress",
       "spec_file": "features/feat-018.md",
       "branch": "feat/feat-018",
       "created": "2026-07-16",
@@ -224,7 +224,8 @@
       "score": 7,
       "type": "competitor_move",
       "source": "research-loop changelogs",
-      "detail": "CourseLeaf added Micro-Credentials, Career Data Integration, Learning Outcomes Mapping, Course Demand Analytics, and Registration Optimization to product listings. Validates the analytics trend but structural weakness: CourseLeaf's API poverty makes deep analytics difficult (confirmed by third-party tool ecosystem). DFVA's independent analytics layer is complementary, not competitive. Career Data Integration suggests LMI-in-curriculum becoming table stakes."
+      "detail": "CourseLeaf added Micro-Credentials, Career Data Integration, Learning Outcomes Mapping, Course Demand Analytics, and Registration Optimization to product listings. Validates the analytics trend but structural weakness: CourseLeaf's API poverty makes deep analytics difficult (confirmed by third-party tool ecosystem). DFVA's independent analytics layer is complementary, not competitive. Career Data Integration suggests LMI-in-curriculum becoming table stakes.",
+      "approved": "2026-07-22"
     }
   ]
 }

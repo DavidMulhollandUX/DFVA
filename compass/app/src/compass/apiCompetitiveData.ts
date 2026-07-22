@@ -77,6 +77,26 @@ export const COMPETITORS: CompetitorApiData[] = [
     ],
     sourceUrls: ["https://github.com/unimelb-mdap/coursedog-importer"],
   },
+  {
+    name: "CourseLeaf",
+    docsAccuracy: "none",
+    authComplexity: "none",
+    responseConsistency: "unknown",
+    sdkLanguages: [],
+    hasPlayground: false,
+    hasStatusPage: false,
+    painPoints: [
+      "No public API — HTML-based data model only",
+      "No structured data export — confirmed by 3+ open-source projects",
+      "University of Illinois built Azure Function for basic data loading",
+      "APInception meta-API wrapper exists because native API insufficient",
+      "cc-coursemap scraper required for program/catalog data extraction",
+    ],
+    sourceUrls: [
+      "https://github.com/unimelb-mdap/cc-coursemap",
+      "https://github.com/search?q=courseleaf+api",
+    ],
+  },
 ];
 
 export type ApiQualityDimension = keyof Pick<

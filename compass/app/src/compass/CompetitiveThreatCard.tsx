@@ -6,6 +6,7 @@ import { getCompetitiveEvents } from "wasp/client/operations";
 
 export interface CompetitiveThreatCardProps {
   event?: CompetitiveEvent | null;
+  variant?: "threat" | "opportunity";
 }
 
 /**
@@ -63,6 +64,18 @@ function whatThisMeans(title: string): {
     };
   }
 
+  if (title.includes("CourseLeaf") && title.includes("Analytics")) {
+    return {
+      paragraphs: [
+        "CourseLeaf adding analytics features isn't a threat — it's market validation. The largest curriculum platform (29% share) is investing in analytics, confirming the market is converging toward data-centric operations — exactly where DFVA predicted it would go.",
+        "But CourseLeaf's architecture creates an opportunity: their data is stored as unstructured HTML blocks (confirmed by three independent open-source projects building custom extraction tools). Any analytics they build sit on a fragile foundation. DFVA's structured, schema-first data model enables analytics depth they cannot match.",
+        "DFVA isn't competing with CourseLeaf — it's completing it. Institutions keep CourseLeaf for curriculum workflow; they add DFVA for strategic program assessment. This 'complementary analytics layer' positioning makes DFVA an easy add-on purchase, not a rip-and-replace decision.",
+        "The market window is actually OPENING here, not closing. As CourseLeaf educates the market about analytics, more institutions will discover their platform can't deliver the depth they need — creating demand for DFVA's independent standard.",
+      ],
+      sourceUrl: "https://www.courseleaf.com/products/",
+    };
+  }
+
   // Default: generic competitive analysis
   return {
     paragraphs: [
@@ -102,10 +115,15 @@ function CompetitiveThreatCardEmpty() {
  * CompetitiveThreatCard — presents a single competitive event with threat level
  * indicator, collapsible DFVA analysis, and source attribution.
  *
+ * Supports two variants:
+ * - "threat" (default): red/amber styling, AlertTriangle icon, "Competitive Threat" label
+ * - "opportunity": green/teal styling, TrendingUp icon, "Market Signal" label
+ *
  * Data-driven — accepts a CompetitiveEvent object as a prop.
  */
 export default function CompetitiveThreatCard({
   event,
+  variant = "threat",
 }: CompetitiveThreatCardProps) {
   const [analysisExpanded, setAnalysisExpanded] = useState(false);
 
@@ -128,21 +146,37 @@ export default function CompetitiveThreatCard({
       })
     : "Recent";
 
+  // Variant-aware styling
+  const isOpportunity = variant === "opportunity";
+  const cardBorder = isOpportunity ? "border-teal-500/30" : impact.border;
+  const badgeLabel = isOpportunity ? "Market Signal" : impact.label;
+  const BadgeIcon = isOpportunity ? TrendingUp : AlertTriangle;
+  const badgeColor = isOpportunity
+    ? "text-teal-600 bg-teal-500/10"
+    : `${impact.color} ${impact.bg}`;
+  const analysisHeading = isOpportunity
+    ? "Why this matters for DFVA"
+    : "What this means for DFVA";
+  const sectionIcon = isOpportunity ? TrendingUp : TrendingUp;
+  const ariaLabel = isOpportunity
+    ? `Market signal: ${event.competitor} — ${event.title}. Impact score: ${displayScore} out of 10`
+    : `Competitive threat: ${event.competitor} — ${event.title}. Impact score: ${displayScore} out of 10`;
+
   return (
     <div
-      className={`border-border bg-card rounded-lg border ${impact.border}`}
-      aria-label={`Competitive threat: ${event.competitor} — ${event.title}. Impact score: ${displayScore} out of 10`}
+      className={`border-border bg-card rounded-lg border ${cardBorder}`}
+      aria-label={ariaLabel}
     >
       {/* Header */}
       <div className="flex items-start justify-between gap-4 p-5">
         <div className="min-w-0 flex-1">
-          {/* Threat level + competitor */}
+          {/* Signal level + competitor */}
           <div className="mb-2 flex flex-wrap items-center gap-2">
             <span
-              className={`inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-semibold ${impact.color} ${impact.bg}`}
+              className={`inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-semibold ${badgeColor}`}
             >
-              <AlertTriangle className="h-3 w-3" />
-              {impact.label}
+              <BadgeIcon className="h-3 w-3" />
+              {badgeLabel}
             </span>
             <span className="text-foreground text-sm font-semibold">
               {event.competitor}
@@ -199,7 +233,7 @@ export default function CompetitiveThreatCard({
         </div>
       </div>
 
-      {/* "What this means for DFVA" — collapsible */}
+      {/* Analysis — collapsible */}
       <div className="border-border border-t">
         <button
           onClick={() => setAnalysisExpanded(!analysisExpanded)}
@@ -208,8 +242,8 @@ export default function CompetitiveThreatCard({
           aria-controls={`dfva-analysis-${event.id}`}
         >
           <span className="flex items-center gap-2">
-            <TrendingUp className="h-4 w-4" />
-            What this means for DFVA
+            <sectionIcon className="h-4 w-4" />
+            {analysisHeading}
           </span>
           {analysisExpanded ? (
             <ChevronUp className="h-4 w-4" />
@@ -248,7 +282,7 @@ export default function CompetitiveThreatCard({
                 rel="noopener noreferrer"
                 className="text-primary inline-flex items-center gap-1.5 text-sm font-medium hover:underline"
               >
-                View competitor source <ExternalLink className="h-3.5 w-3.5" />
+                View source <ExternalLink className="h-3.5 w-3.5" />
               </a>
             )}
           </div>

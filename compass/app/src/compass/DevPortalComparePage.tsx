@@ -13,6 +13,7 @@ import {
   Minus,
   ExternalLink,
   Scale,
+  BarChart3,
 } from "lucide-react";
 
 const ALL_COMPETITORS = [DFVA_API_DATA, ...COMPETITORS];
@@ -199,6 +200,54 @@ export default function DevPortalComparePage() {
                     </td>
                   );
                 })}
+              </tr>
+              {/* Analytics Depth — text-based comparison row (feat-018) */}
+              <tr className="bg-teal-500/5">
+                <td className="p-4">
+                  <span className="font-medium">Analytics Depth</span>
+                  <span className="text-muted-foreground block text-xs">
+                    Architecture-level comparison: prescriptive structured assessment vs descriptive HTML-based reporting
+                  </span>
+                </td>
+                <td className="p-4 text-center">
+                  <span className="text-xs leading-relaxed">
+                    <strong>Prescriptive 11-dimension durability scoring.</strong>{" "}
+                    Independent, third-party standard. Structured data model
+                    enables programmatic, reproducible analysis.
+                    Platform-agnostic — ingests data from any curriculum system.
+                    Assessment exists to inform institutional strategy, not
+                    optimize platform operations.
+                  </span>
+                </td>
+                <td className="p-4 text-center">
+                  <span className="text-muted-foreground text-xs leading-relaxed">
+                    <strong>Descriptive analytics</strong> tied to Curriculum
+                    Cloud. Course evaluations + demand projections + inferred
+                    program maps. Assessment designed to optimize the
+                    platform's scheduling and curriculum features.
+                    HTML-inferred data limits reproducibility and auditability.
+                  </span>
+                </td>
+                <td className="p-4 text-center">
+                  <span className="text-muted-foreground text-xs leading-relaxed">
+                    —
+                  </span>
+                </td>
+                <td className="p-4 text-center">
+                  <span className="text-muted-foreground text-xs leading-relaxed">
+                    —
+                  </span>
+                </td>
+                <td className="p-4 text-center">
+                  <span className="text-muted-foreground text-xs leading-relaxed">
+                    <strong>Descriptive reporting</strong> on HTML-based catalog
+                    data. Analytics features listed July 2026 (Career Data,
+                    Course Demand, Learning Outcomes, Registration
+                    Optimization). No structured data export — confirmed by
+                    third-party tool ecosystem (Azure Function, APInception,
+                    cc-coursemap). API-poor architecture limits depth.
+                  </span>
+                </td>
               </tr>
             </tbody>
           </table>

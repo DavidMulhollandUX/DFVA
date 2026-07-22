@@ -10,6 +10,7 @@ import Problem from "./components/Problem";
 import Trust from "./components/Trust";
 import ValidatedByResearch from "./components/ValidatedByResearch";
 import IndependentStandard from "./components/IndependentStandard";
+import PlatformAgnostic from "./components/PlatformAgnostic";
 import Validation from "./components/Validation";
 import { faqs, features, footerNavigation } from "./contentSections";
 
@@ -39,6 +40,7 @@ export default function LandingPage() {
         <Validation />
         <ValidatedByResearch />
         <IndependentStandard />
+        <PlatformAgnostic />
         <FAQ faqs={faqs} />
         <ClosingCTA />
       </main>

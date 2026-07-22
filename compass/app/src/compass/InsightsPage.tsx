@@ -34,6 +34,15 @@ export default function InsightsPage() {
       .slice(0, 3);
   }, [competitiveEvents]);
 
+  // Market signals — lower-impact events treated as opportunities, not threats
+  const marketSignals = useMemo(() => {
+    if (!competitiveEvents || competitiveEvents.length === 0) return [];
+    // Events with impactScore ≤ 2 (DB 1-5 → display ≤ 4/10) are opportunity signals
+    return [...competitiveEvents]
+      .filter((e: any) => e.impactScore <= 2 && e.isActive)
+      .sort((a: any, b: any) => b.impactScore - a.impactScore);
+  }, [competitiveEvents]);
+
   const faculties = useMemo(() => {
     const groups: Record<string, { count: number; avgScore: number }> = {};
     for (const p of PROGRAMS) {
@@ -148,6 +157,27 @@ export default function InsightsPage() {
             <div className="space-y-4">
               {topThreats.map((event: any) => (
                 <CompetitiveThreatCard key={event.id} event={event} />
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Market Signals — lower-impact competitive events as opportunity signals */}
+        {marketSignals.length > 0 && (
+          <div className="mb-8">
+            <div className="mb-4 flex items-center justify-between gap-3">
+              <h2 className="text-foreground flex items-center gap-2 text-lg font-semibold">
+                <TrendingUp className="h-5 w-5 text-teal-600" />
+                Market Signals
+              </h2>
+            </div>
+            <p className="text-muted-foreground mb-4 text-sm">
+              Market convergence and opportunity signals — competitive moves that
+              validate DFVA's thesis rather than threaten it.
+            </p>
+            <div className="space-y-4">
+              {marketSignals.map((event: any) => (
+                <CompetitiveThreatCard key={event.id} event={event} variant="opportunity" />
               ))}
             </div>
           </div>
