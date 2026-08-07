@@ -43,10 +43,22 @@ npx vercel project add "$PROJECT" --scope "$TEAM" 2>/dev/null || true
 npx vercel link --yes --scope "$TEAM" --project "$PROJECT"
 
 echo "🚀 Deploying..."
-# `vercel deploy` prints the deployment URL as its only stdout; logs go to stderr.
-DEPLOYMENT_URL=$(npx vercel deploy --prod --yes)
+# Newer vercel CLIs print a JSON result; older ones print the bare URL.
+RAW=$(npx vercel deploy --prod --yes)
+DEPLOYMENT_URL=$(printf '%s' "$RAW" | node -e '
+let d = "";
+process.stdin.on("data", (c) => (d += c));
+process.stdin.on("end", () => {
+  d = d.trim();
+  try {
+    process.stdout.write(JSON.parse(d).deployment.url.replace(/^(?!https:)/, "https://"));
+  } catch {
+    const m = d.match(/https:\/\/\S+\.vercel\.app/);
+    process.stdout.write(m ? m[0] : "");
+  }
+});')
 if [ -z "$DEPLOYMENT_URL" ]; then
-  echo "❌ Could not determine deployment URL"
+  echo "❌ Could not determine deployment URL from: $RAW"
   exit 1
 fi
 echo "   → $DEPLOYMENT_URL"
