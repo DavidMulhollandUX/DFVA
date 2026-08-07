@@ -36,6 +36,7 @@ import {
 import { getEmailUserFields } from "./src/auth/userSignupFields" with { type: "ref" };
 import { seedMockUsers } from "./src/server/scripts/dbSeeds" with { type: "ref" };
 import { serverEnvValidationSchema } from "./src/env" with { type: "ref" };
+import { serverMiddlewareConfigFn } from "./src/serverSetup" with { type: "ref" };
 
 // Operations
 import {
@@ -155,6 +156,7 @@ export default app({
 
   server: {
     envValidationSchema: serverEnvValidationSchema,
+    middlewareConfigFn: serverMiddlewareConfigFn,
   },
 
   emailSender: {
