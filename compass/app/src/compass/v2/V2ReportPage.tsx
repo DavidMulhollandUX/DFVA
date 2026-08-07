@@ -8,6 +8,7 @@ import {
 import { InsightsGate } from "../InsightsGate";
 import { ExposureMatrix } from "./components/ExposureMatrix";
 import { V2_META, V2_PROGRAMS, programByCode } from "./data/v2Programs";
+import { reportDetailFor } from "./data/v2ReportDetails";
 import { DIMENSION_LABELS, QUADRANTS } from "./quadrants";
 
 const X_MIN = 30;
@@ -75,6 +76,7 @@ export default function V2ReportPage() {
   }
 
   const q = QUADRANTS[program.quadrant];
+  const detail = reportDetailFor(program.code);
   const gaugePct =
     program.exposure !== null
       ? Math.round(
@@ -120,6 +122,7 @@ export default function V2ReportPage() {
           </h1>
           <p className="text-muted-foreground mt-2 font-mono text-sm uppercase">
             {program.code} · University of Melbourne
+            {detail ? ` · ${detail.creditPoints}` : ""}
           </p>
           <div className="mt-6 flex flex-wrap gap-8">
             <div>
@@ -128,6 +131,14 @@ export default function V2ReportPage() {
               </p>
               <p>{program.faculty}</p>
             </div>
+            {detail && (
+              <div>
+                <p className="text-muted-foreground text-xs tracking-[0.18em] uppercase">
+                  Level
+                </p>
+                <p>{detail.level}</p>
+              </div>
+            )}
             <div>
               <p className="text-muted-foreground text-xs tracking-[0.18em] uppercase">
                 Position
@@ -200,6 +211,26 @@ export default function V2ReportPage() {
                       Felten et al. (2023) AI Occupational Exposure Index.
                     </span>
                   </div>
+                  {detail && (
+                    <div className="mt-6">
+                      <p className="text-muted-foreground mb-3 text-xs tracking-[0.18em] uppercase">
+                        Top Graduate Destinations
+                      </p>
+                      <div className="flex flex-col gap-2">
+                        {detail.destinations.map((d) => (
+                          <div
+                            key={d.title}
+                            className="flex justify-between text-sm"
+                          >
+                            <span>{d.title}</span>
+                            <span className="text-muted-foreground font-mono">
+                              {d.share}
+                            </span>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
                 </>
               ) : (
                 <div className="bg-card-accent text-muted-foreground rounded-md p-4 text-sm">
@@ -285,6 +316,7 @@ export default function V2ReportPage() {
                     {program.code.toUpperCase()} is{" "}
                     <strong className="text-foreground">{q.short}</strong> —{" "}
                     {q.desc.toLowerCase()}.
+                    {detail ? ` ${detail.positionNarrative}` : ""}
                   </p>
                 </>
               ) : (
@@ -305,6 +337,64 @@ export default function V2ReportPage() {
                 Metadata about the evidence base — never scored, never on an
                 axis
               </p>
+              {detail ? (
+                <table className="w-full border-collapse text-sm">
+                  <tbody>
+                    {(
+                      [
+                        [
+                          "Evidence tier",
+                          <span key="t" className="text-band-resilient">
+                            ● {detail.evidence.tier}
+                          </span>,
+                        ],
+                        ["JIR match", detail.evidence.jirMatch],
+                        ["Employers", detail.evidence.employersSummary],
+                        ["Prestige employers", detail.evidence.prestigeSummary],
+                        ["QILT study area", detail.evidence.qiltStudyArea],
+                        [
+                          "Short-term employment",
+                          <span key="s" className="font-mono">
+                            {detail.evidence.shortTermEmployment}
+                          </span>,
+                        ],
+                        [
+                          "Mid-term employment",
+                          <span key="m" className="font-mono">
+                            {detail.evidence.midTermEmployment}
+                          </span>,
+                        ],
+                        [
+                          "Median salary",
+                          <span key="sal" className="font-mono">
+                            {detail.evidence.medianSalary}
+                          </span>,
+                        ],
+                        [
+                          "Advertised salary range",
+                          <span key="adv" className="font-mono">
+                            {detail.evidence.advertisedSalaryRange}
+                          </span>,
+                        ],
+                        ["Occupation demand", detail.evidence.occupationDemand],
+                        [
+                          "Evidence score",
+                          <span key="ev" className="font-mono">
+                            {detail.evidence.evidenceScore}
+                          </span>,
+                        ],
+                      ] as [string, React.ReactNode][]
+                    ).map(([label, value]) => (
+                      <tr key={label} className="border-border border-b">
+                        <td className="text-muted-foreground py-2 pr-4">
+                          {label}
+                        </td>
+                        <td className="py-2">{value}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              ) : (
               <table className="w-full border-collapse text-sm">
                 <tbody>
                   <tr className="border-border border-b">
@@ -347,6 +437,7 @@ export default function V2ReportPage() {
                   </tr>
                 </tbody>
               </table>
+              )}
             </CardContent>
           </Card>
         </div>
@@ -365,28 +456,45 @@ export default function V2ReportPage() {
               <table className="w-full border-collapse text-sm">
                 <thead>
                   <tr>
-                    {["v1 Dimension", "v2 Disposition", "Rationale"].map(
-                      (h) => (
-                        <th
-                          key={h}
-                          className="text-muted-foreground border-border border-b-2 px-3 py-2 text-left text-xs font-medium tracking-[0.18em] uppercase"
-                        >
-                          {h}
-                        </th>
-                      ),
-                    )}
+                    {(detail
+                      ? ["v1 Dimension", "v1 Score", "v2 Disposition", "Rationale"]
+                      : ["v1 Dimension", "v2 Disposition", "Rationale"]
+                    ).map((h) => (
+                      <th
+                        key={h}
+                        className="text-muted-foreground border-border border-b-2 px-3 py-2 text-left text-xs font-medium tracking-[0.18em] uppercase"
+                      >
+                        {h}
+                      </th>
+                    ))}
                   </tr>
                 </thead>
                 <tbody>
-                  {v1Rows.map(([dim, disposition, rationale]) => (
-                    <tr key={dim} className="border-border border-b">
-                      <td className="px-3 py-2">{dim}</td>
-                      <td className="px-3 py-2">{disposition}</td>
-                      <td className="text-muted-foreground px-3 py-2">
-                        {rationale}
-                      </td>
-                    </tr>
-                  ))}
+                  {detail
+                    ? detail.v1Comparison.map((row) => (
+                        <tr
+                          key={row.dimension}
+                          className="border-border border-b"
+                        >
+                          <td className="px-3 py-2">{row.dimension}</td>
+                          <td className="px-3 py-2 font-mono">
+                            {row.v1Score ?? "—"}
+                          </td>
+                          <td className="px-3 py-2">{row.disposition}</td>
+                          <td className="text-muted-foreground px-3 py-2">
+                            {row.rationale}
+                          </td>
+                        </tr>
+                      ))
+                    : v1Rows.map(([dim, disposition, rationale]) => (
+                        <tr key={dim} className="border-border border-b">
+                          <td className="px-3 py-2">{dim}</td>
+                          <td className="px-3 py-2">{disposition}</td>
+                          <td className="text-muted-foreground px-3 py-2">
+                            {rationale}
+                          </td>
+                        </tr>
+                      ))}
                 </tbody>
               </table>
             </div>
@@ -395,6 +503,12 @@ export default function V2ReportPage() {
 
         <div className="text-muted-foreground border-border mt-12 flex flex-wrap items-center justify-between gap-3 border-t pt-6 text-xs">
           <span>Evidura · Durability Assessment · v2</span>
+          {detail && (
+            <span>
+              Assessment date: {detail.assessmentDate} · Source:{" "}
+              {detail.source}
+            </span>
+          )}
           <Link to="/insights" className="underline">
             ← Back to the portfolio matrix
           </Link>
