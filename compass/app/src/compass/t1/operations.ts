@@ -374,11 +374,10 @@ export const assessT1Programs: AssessT1Programs = async (
 
         const job = await assessmentJobs.create({
           data: {
-            programCode: snap.programCode,
             programName: snap.programName || result.programName,
             handbookUrl,
             status: "complete",
-            courseCode: result.courseCode,
+            courseCode: result.courseCode ?? snap.programCode,
             score: result.score,
             maxScore: result.maxScore,
             riskBand: result.riskBand,

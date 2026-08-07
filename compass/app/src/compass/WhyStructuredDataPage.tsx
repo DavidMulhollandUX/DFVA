@@ -1,7 +1,7 @@
 // compass/app/src/compass/WhyStructuredDataPage.tsx
 // Public evidence page — feat-012
 import { getFragilityIncidents } from "wasp/client/operations";
-import { useQuery } from "@wasp/queries";
+import { useQuery } from "wasp/client/operations";
 import { Link } from "react-router";
 import {
   AlertTriangle,
