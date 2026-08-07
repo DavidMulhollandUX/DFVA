@@ -1,4 +1,4 @@
-import { useQuery } from "@wasp/queries";
+import { useQuery } from "wasp/client/operations";
 import { getValidationSignals } from "wasp/client/operations";
 import { Link, useParams } from "react-router";
 import {

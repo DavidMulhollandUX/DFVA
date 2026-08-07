@@ -4,7 +4,7 @@ import { InsightsGate } from "./InsightsGate";
 import { PROGRAMS } from "./sharedProgramData";
 import { getFaculty, facultySlug } from "./faculty";
 import { getFragilityIncidents, getCompetitiveEvents } from "wasp/client/operations";
-import { useQuery } from "@wasp/queries";
+import { useQuery } from "wasp/client/operations";
 import { Building2, TrendingUp, ArrowRight, Shield, AlertTriangle, BarChart3, Swords } from "lucide-react";
 import { useMemo } from "react";
 import ImpactReportCard from "./ImpactReportCard";

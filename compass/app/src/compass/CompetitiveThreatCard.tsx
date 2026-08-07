@@ -1,7 +1,7 @@
 import { AlertTriangle, ExternalLink, TrendingUp, ChevronDown, ChevronUp, Swords } from "lucide-react";
 import { useState } from "react";
 import type { CompetitiveEvent } from "wasp/entities";
-import { useQuery } from "@wasp/queries";
+import { useQuery } from "wasp/client/operations";
 import { getCompetitiveEvents } from "wasp/client/operations";
 
 export interface CompetitiveThreatCardProps {
@@ -157,7 +157,7 @@ export default function CompetitiveThreatCard({
   const analysisHeading = isOpportunity
     ? "Why this matters for DFVA"
     : "What this means for DFVA";
-  const sectionIcon = isOpportunity ? TrendingUp : TrendingUp;
+  const SectionIcon = isOpportunity ? TrendingUp : TrendingUp;
   const ariaLabel = isOpportunity
     ? `Market signal: ${event.competitor} — ${event.title}. Impact score: ${displayScore} out of 10`
     : `Competitive threat: ${event.competitor} — ${event.title}. Impact score: ${displayScore} out of 10`;
@@ -242,7 +242,7 @@ export default function CompetitiveThreatCard({
           aria-controls={`dfva-analysis-${event.id}`}
         >
           <span className="flex items-center gap-2">
-            <sectionIcon className="h-4 w-4" />
+            <SectionIcon className="h-4 w-4" />
             {analysisHeading}
           </span>
           {analysisExpanded ? (

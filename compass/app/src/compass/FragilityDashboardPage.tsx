@@ -2,7 +2,7 @@
 // Data Fragility Monitor — feat-012
 import { InsightsGate } from "./InsightsGate";
 import { getFragilityIncidents } from "wasp/client/operations";
-import { useQuery } from "@wasp/queries";
+import { useQuery } from "wasp/client/operations";
 import {
   AreaChart,
   Area,

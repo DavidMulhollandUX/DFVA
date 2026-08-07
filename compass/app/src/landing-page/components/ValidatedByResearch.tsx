@@ -1,5 +1,5 @@
 import { BarChart3, ArrowRight } from "lucide-react";
-import { brand } from "../branding/brandConfig";
+import { brand } from "../../branding/brandConfig";
 import Reveal from "./Reveal";
 import { Link } from "react-router";
 
