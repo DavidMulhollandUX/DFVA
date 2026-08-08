@@ -1,0 +1,57 @@
+program_code,program_name,destination_title,onet_soc_code,onet_soc_title,rescaled_aioe,mapping_confidence,crosswalk_source,program_mean
+mc-dvetmed,Doctor of Veterinary Medicine,Veterinarian,29-1131,Veterinarians,61.82,high,new_this_session,62.4
+mc-dvetmed,Doctor of Veterinary Medicine,Research Assistant,19-4061,Social Science Research Assistants,92.3,medium,preexisting_288,62.4
+mc-dvetmed,Doctor of Veterinary Medicine,Veterinary Nurse,29-2056,Veterinary Technologists and Technicians,54.97,high,new_this_session,62.4
+mc-dvetmed,Doctor of Veterinary Medicine,Veterinary Assistant,31-9096,Veterinary Assistants and Laboratory Animal Caretakers,45.17,high,new_this_session,62.4
+mc-dvetmed,Doctor of Veterinary Medicine,Small Animal Veterinarian,29-1131,Veterinarians,61.82,high,new_this_session,62.4
+mc-dvetmed,Doctor of Veterinary Medicine,Equine Veterinarian,29-1131,Veterinarians,61.82,high,new_this_session,62.4
+mc-dvetmed,Doctor of Veterinary Medicine,Emergency Veterinarian,29-1131,Veterinarians,61.82,high,new_this_session,62.4
+mc-dvetmed,Doctor of Veterinary Medicine,Veterinary Officer,29-1131,Veterinarians,61.82,high,new_this_session,62.4
+mc-dvetmed,Doctor of Veterinary Medicine,Veterinary Director,29-1131,Veterinarians,61.82,high,new_this_session,62.4
+mc-dvetmed,Doctor of Veterinary Medicine,Senior Veterinarian,29-1131,Veterinarians,61.82,high,new_this_session,62.4
+mc-dvetmed,Doctor of Veterinary Medicine,Head Veterinarian,29-1131,Veterinarians,61.82,high,new_this_session,62.4
+mc-dvetmed,Doctor of Veterinary Medicine,Veterinary Practice Owner,29-1131,Veterinarians,61.82,high,new_this_session,62.4
+mc-cs,Master of Computer Science,Software Engineer,15-1132,"Software Developers, Applications",92.22,high,preexisting_288,92.8
+mc-cs,Master of Computer Science,Software Developer,15-1132,"Software Developers, Applications",92.22,high,preexisting_288,92.8
+mc-cs,Master of Computer Science,Graduate Software Engineer,15-1132,"Software Developers, Applications",92.22,high,preexisting_288,92.8
+mc-cs,Master of Computer Science,Machine Learning Engineer,15-1111,Computer and Information Research Scientists,91.1,medium,preexisting_288,92.8
+mc-cs,Master of Computer Science,Data Scientist,15-2041,Statisticians,96.55,medium,preexisting_288,92.8
+mc-cs,Master of Computer Science,Data Engineer,15-1141,Database Administrators,94.22,medium,preexisting_288,92.8
+mc-cs,Master of Computer Science,Cognitive Engineer,19-3032,Industrial-Organizational Psychologists,97.02,low,preexisting_288,92.8
+mc-cs,Master of Computer Science,Artificial Intelligence Engineer,15-1111,Computer and Information Research Scientists,91.1,medium,preexisting_288,92.8
+mc-cs,Master of Computer Science,Algorithm Developer,15-1133,"Software Developers, Systems Software",94.18,medium,preexisting_288,92.8
+mc-cs,Master of Computer Science,Full Stack Developer,15-1132,"Software Developers, Applications",92.22,medium,preexisting_288,92.8
+mc-cs,Master of Computer Science,Quantitative Trader,41-3031,"Securities, Commodities, and Financial Services Sales Agents",93.53,medium,preexisting_288,92.8
+mc-cs,Master of Computer Science,Technology Consultant,15-1121,Computer Systems Analysts,92.15,medium,preexisting_288,92.8
+mc-cs,Master of Computer Science,Senior Software Engineer,15-1132,"Software Developers, Applications",92.22,high,preexisting_288,92.8
+mc-cs,Master of Computer Science,Senior Developer,15-1132,"Software Developers, Applications",92.22,medium,preexisting_288,92.8
+mc-cs,Master of Computer Science,Technical Project Manager,11-3021,Computer and Information Systems Managers,88.85,medium,preexisting_288,92.8
+mc-clind,Master of Clinical Dentistry,Orthodontic Resident,29-1023,Orthodontists,67.46,medium,preexisting_288,60.96
+mc-clind,Master of Clinical Dentistry,Endodontic Registrar,29-1021,"Dentists, General",59.28,medium,preexisting_288,60.96
+mc-clind,Master of Clinical Dentistry,Paediatric Dentistry Registrar,29-1021,"Dentists, General",59.28,medium,preexisting_288,60.96
+mc-clind,Master of Clinical Dentistry,Paediatric Dental Registrar,29-1021,"Dentists, General",59.28,medium,preexisting_288,60.96
+mc-clind,Master of Clinical Dentistry,Dental Officer,29-1021,"Dentists, General",59.28,high,preexisting_288,60.96
+mc-clind,Master of Clinical Dentistry,General Dentist,29-1021,"Dentists, General",59.28,high,preexisting_288,60.96
+mc-clind,Master of Clinical Dentistry,Orthodontist,29-1023,Orthodontists,67.46,high,preexisting_288,60.96
+mc-clind,Master of Clinical Dentistry,Endodontist,29-1021,"Dentists, General",59.28,medium,preexisting_288,60.96
+mc-clind,Master of Clinical Dentistry,Periodontist,29-1021,"Dentists, General",59.28,medium,preexisting_288,60.96
+mc-clind,Master of Clinical Dentistry,Prosthodontist,29-1024,Prosthodontists,59.88,high,preexisting_288,60.96
+mc-clind,Master of Clinical Dentistry,Paediatric Dentist,29-1021,"Dentists, General",59.28,medium,preexisting_288,60.96
+mc-clind,Master of Clinical Dentistry,Specialist Orthodontist,29-1023,Orthodontists,67.46,high,preexisting_288,60.96
+mc-clind,Master of Clinical Dentistry,Specialist Paediatric Dentist,29-1021,"Dentists, General",59.28,medium,preexisting_288,60.96
+mc-clind,Master of Clinical Dentistry,Oral Medicine Specialist,29-1021,"Dentists, General",59.28,medium,preexisting_288,60.96
+mc-clind,Master of Clinical Dentistry,Principal Dentist,29-1021,"Dentists, General",59.28,high,preexisting_288,60.96
+mc-propsyc,Master of Professional Psychology,Provisional Psychologist,19-3031,"Clinical, Counseling, and School Psychologists",98.3,high,preexisting_288,97.19
+mc-propsyc,Master of Professional Psychology,Psychologist,19-3031,"Clinical, Counseling, and School Psychologists",98.3,high,preexisting_288,97.19
+mc-propsyc,Master of Professional Psychology,Clinical Neuropsychologist,19-3031,"Clinical, Counseling, and School Psychologists",98.3,high,preexisting_288,97.19
+mc-propsyc,Master of Professional Psychology,Clinical Psychologist,19-3031,"Clinical, Counseling, and School Psychologists",98.3,high,preexisting_288,97.19
+mc-propsyc,Master of Professional Psychology,School Psychologist,19-3031,"Clinical, Counseling, and School Psychologists",98.3,high,preexisting_288,97.19
+mc-propsyc,Master of Professional Psychology,Assistant Psychologist,19-3031,"Clinical, Counseling, and School Psychologists",98.3,medium,preexisting_288,97.19
+mc-propsyc,Master of Professional Psychology,Psychologist (Clinical Psychology Registrar),19-3031,"Clinical, Counseling, and School Psychologists",98.3,high,preexisting_288,97.19
+mc-propsyc,Master of Professional Psychology,Research Psychologist,19-3039,"Psychologists, All Other",96.72,medium,preexisting_288,97.19
+mc-propsyc,Master of Professional Psychology,Research Officer,19-4061,Social Science Research Assistants,92.3,low,preexisting_288,97.19
+mc-propsyc,Master of Professional Psychology,Senior Clinical Neuropsychologist,19-3031,"Clinical, Counseling, and School Psychologists",98.3,high,preexisting_288,97.19
+mc-propsyc,Master of Professional Psychology,Senior Rehabilitation Psychologist,19-3039,"Psychologists, All Other",96.72,medium,preexisting_288,97.19
+mc-propsyc,Master of Professional Psychology,Psychology Team Leader,19-3031,"Clinical, Counseling, and School Psychologists",98.3,medium,preexisting_288,97.19
+mc-propsyc,Master of Professional Psychology,Senior Research Fellow,,,91.95,low,preexisting_288,97.19
+mc-propsyc,Master of Professional Psychology,Clinical and Team Lead Neuropsychology,19-3031,"Clinical, Counseling, and School Psychologists",98.3,medium,preexisting_288,97.19

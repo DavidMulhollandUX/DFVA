@@ -1,0 +1,81 @@
+occupation,onet_soc_code,onet_soc_title,ai_exposure_index,mapping_confidence,index_source,source_programs,n_source_programs
+Account Manager,41-3099,"Sales Representatives, Services, All Other",94.64,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-apbusa;mc-busana,2
+Analytical Chemist,19-2031,Chemists,75.54,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-sciche,1
+Assistant Manager,11-1021,General and Operations Managers,77.3,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-apbusa;mc-busana,2
+Civil Engineer,17-2051,Civil Engineers,94.17,high,"Felten-AIOE (Appendix A, rescaled 0-100)",746st,1
+Clinical Demonstrator,25-1071,"Health Specialties Teachers, Postsecondary",85.64,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-ddensur,1
+Clinical Director,11-9111,Medical and Health Services Managers,93.63,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-doptom,1
+Clinical Optometrist,29-1041,Optometrists,75.61,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-doptom,1
+Clinical Research Optometrist,29-1041,Optometrists,75.61,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-doptom,1
+Cosmetic Dentist,29-1021,"Dentists, General",59.28,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-ddensur,1
+Dental Assistant,31-9091,Dental Assistants,51.05,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-ddensur,1
+Dental Resident,29-1021,"Dentists, General",59.28,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-ddensur,1
+Dental Surgeon,29-1022,Oral and Maxillofacial Surgeons,57.91,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-ddensur,1
+Dentist,29-1021,"Dentists, General",59.28,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-ddensur,1
+Director Of Operations,11-1021,General and Operations Managers,77.3,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-apbusa;mc-busana,2
+Dry Eye Optometrist,29-1041,Optometrists,75.61,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-doptom,1
+Emergency Veterinarian,29-1131,Veterinarians,61.82,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-dvetmed,1
+Engineering Geologist,17-2151,"Mining and Geological Engineers, Including Mining Safety Engineers",95.69,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-sciear,1
+Equine Veterinarian,29-1131,Veterinarians,61.82,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-dvetmed,1
+Exploration Geologist,19-2042,"Geoscientists, Except Hydrologists and Geographers",80.62,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-sciear,1
+Field Geologist,19-2042,"Geoscientists, Except Hydrologists and Geographers",80.62,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-sciear,1
+Field Technician,17-3029,"Engineering Technicians, Except Drafters, All Other",68.23,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-sciear,1
+Finance Manager,11-3031,Financial Managers,98.06,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-apbusa;mc-busana,2
+Geophysicist,19-2042,"Geoscientists, Except Hydrologists and Geographers",80.62,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-sciear,1
+Geotechnical Engineer,17-2051,Civil Engineers,94.17,high,"Felten-AIOE (Appendix A, rescaled 0-100)",746st;mc-sciear,2
+Graduate Civil Engineer,17-2051,Civil Engineers,94.17,high,"Felten-AIOE (Appendix A, rescaled 0-100)",746st,1
+Graduate Data Scientist,15-2041,Statisticians,96.55,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-sciphy,1
+Graduate Dentist,29-1021,"Dentists, General",59.28,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-ddensur,1
+Graduate Engineer,17-2199,"Engineers, All Other",82.37,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",746st,1
+Graduate Geologist,19-2042,"Geoscientists, Except Hydrologists and Geographers",80.62,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-sciear,1
+Graduate Geoscientist,19-2042,"Geoscientists, Except Hydrologists and Geographers",80.62,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-sciear,1
+Graduate Geotechnical Engineer,17-2051,Civil Engineers,94.17,high,"Felten-AIOE (Appendix A, rescaled 0-100)",746st,1
+Graduate Meteorologist,19-2021,Atmospheric and Space Scientists,96.34,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-sciphy,1
+Graduate Optometrist,29-1041,Optometrists,75.61,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-doptom,1
+Graduate Structural Engineer,17-2051,Civil Engineers,94.17,high,"Felten-AIOE (Appendix A, rescaled 0-100)",746st,1
+Graduate Transport Planner,19-3051,Urban and Regional Planners,92.85,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",746st,1
+Graduate Water Engineer,17-2051,Civil Engineers,94.17,high,"Felten-AIOE (Appendix A, rescaled 0-100)",746st,1
+Head Veterinarian,29-1131,Veterinarians,61.82,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-dvetmed,1
+Human Resources Manager,11-3121,Human Resources Managers,95.06,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-apbusa;mc-busana,2
+Junior Physicist,19-2012,Physicists,95.67,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-sciphy,1
+Laboratory Analyst,29-2011,Medical and Clinical Laboratory Technologists,70.32,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-sciche,1
+Laser Scientist,19-2012,Physicists,95.67,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-sciphy,1
+Locum Optometrist,29-1041,Optometrists,75.61,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-doptom,1
+Managing Director,11-1021,General and Operations Managers,77.3,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-apbusa;mc-busana,2
+Mine Geologist,19-2042,"Geoscientists, Except Hydrologists and Geographers",80.62,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-sciear,1
+Optical Assistant,29-2057,Ophthalmic Medical Technicians,65.48,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-doptom,1
+Optical Dispenser,29-2081,"Opticians, Dispensing",66.02,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-doptom,1
+Optometrist,29-1041,Optometrists,75.61,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-doptom,1
+Optometry Development Consultant,19-2099,"Physical Scientists, All Other",90.77,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-doptom,1
+Optometry Director,11-9121,Natural Sciences Managers,95.24,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-doptom,1
+Oral Surgery Resident,29-1022,Oral and Maxillofacial Surgeons,57.91,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-ddensur,1
+Physicist,19-2012,Physicists,95.67,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-sciphy,1
+Principal Optometrist,29-1041,Optometrists,75.61,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-doptom,1
+Production Chemist,19-2031,Chemists,75.54,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-sciche,1
+Project Engineer,17-2199,"Engineers, All Other",82.37,high,"Felten-AIOE (Appendix A, rescaled 0-100)",746st,1
+Project Geologist,17-2151,"Mining and Geological Engineers, Including Mining Safety Engineers",95.69,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-sciear,1
+Project and Construction Director,11-9021,Construction Managers,88.12,high,"Felten-AIOE (Appendix A, rescaled 0-100)",746st,1
+Quality Assurance Specialist,13-1041,"Compliance Officers, Except Agriculture, Construction, Health and Safety, and Transportation",80.24,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-sciche,1
+Quality Control Analyst,51-9061,"Inspectors, Testers, Sorters, Samplers, and Weighers",62.91,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-sciche,1
+Quality Control Chemist,19-2031,Chemists,75.54,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-sciche,1
+Research & Development Chemist,19-2031,Chemists,75.54,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-sciche,1
+Research Analyst,13-1161,Market Research Analysts and Marketing Specialists,97.6,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-sciphy,1
+Resource Geologist,19-2042,"Geoscientists, Except Hydrologists and Geographers",80.62,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-sciear,1
+Senior Applied Research Engineer,17-2199,"Engineers, All Other",82.37,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-sciphy,1
+Senior Dentist,29-1021,"Dentists, General",59.28,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-ddensur,1
+Senior Environmental Scientist,19-2041,"Environmental Scientists and Specialists, Including Health",87.77,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-sciear,1
+Senior Mine Geologist,17-2151,"Mining and Geological Engineers, Including Mining Safety Engineers",95.69,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-sciear,1
+Senior Optometrist,29-1041,Optometrists,75.61,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-doptom,1
+Senior Quality Control Chemist,19-2031,Chemists,75.54,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-sciche,1
+Senior Radiochemist,19-2031,Chemists,75.54,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-sciche,1
+Senior Veterinarian,29-1131,Veterinarians,61.82,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-dvetmed,1
+Small Animal Veterinarian,29-1131,Veterinarians,61.82,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-dvetmed,1
+Structural Design Engineer,17-2051,Civil Engineers,94.17,high,"Felten-AIOE (Appendix A, rescaled 0-100)",746st,1
+Structural Engineer,17-2051,Civil Engineers,94.17,high,"Felten-AIOE (Appendix A, rescaled 0-100)",746st,1
+Veterinarian,29-1131,Veterinarians,61.82,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-dvetmed,1
+Veterinary Assistant,31-9096,Veterinary Assistants and Laboratory Animal Caretakers,45.17,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-dvetmed,1
+Veterinary Director,29-1131,Veterinarians,61.82,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-dvetmed,1
+Veterinary Nurse,29-2056,Veterinary Technologists and Technicians,54.97,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-dvetmed,1
+Veterinary Officer,29-1131,Veterinarians,61.82,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-dvetmed,1
+Veterinary Practice Owner,29-1131,Veterinarians,61.82,high,"Felten-AIOE (Appendix A, rescaled 0-100)",mc-dvetmed,1
+Water Resources Engineer,17-2051,Civil Engineers,94.17,high,"Felten-AIOE (Appendix A, rescaled 0-100)",746st,1

@@ -1,15 +1,21 @@
 /**
- * DFVA v3 Panel A generator.
+ * DFVA v3 Panel A generator — authoritative basis (reconciled 2026-08-08).
  *
- * Recomputes the exposure axis on the authoritative Felten AIOE index
- * (data/aioe/felten_aioe.json, published appendix) with full destination
- * coverage via data/aioe/occupation_crosswalk.json, then emits
- * compass/app/src/compass/v3/data/v3Programs.ts.
+ * Adopts the Panel A revision package (data/aioe/reconciliation/): destination
+ * titles are JIR/LiveAlumni alumni titles for ALL 34 placed programs
+ * (entry + early_mid + mid_senior, deduplicated, 'all'-key fallback; JSA HEO
+ * is NOT used on this axis), mapped through the package's two crosswalks —
+ * the inherited 288-occupation index plus the 80 titles newly mapped in the
+ * revision session — with the package's rescaled AIOE values verbatim.
+ * Every per-program mean is validated against v2_panelA_authoritative_aioe.csv
+ * (recommendation R1: "adopt the revised values"); the build fails on any
+ * mismatch > 0.01 or any unmapped title.
  *
- * Implements v3 recommendations R1 (index provenance pinned), R2 (coverage
- * per program), R4 (Monte-Carlo quadrant stability, ±1 on Panel C items,
- * p = 0.1, 20k draws, fixed seed), R5 (share-weighted mean published
- * alongside unweighted), R6 near-term (entry-stage exposure).
+ * Also implements R2 (coverage + crosswalk-source counts per program),
+ * R4 (Monte-Carlo quadrant stability: ±1 on Panel C items, p = 0.1,
+ * 20k draws, fixed seed) and R6 near-term (entry-stage exposure).
+ * R5 (share-weighted mean) is NOT computable at alumni-title grain — shares
+ * exist only in the JSA field-level pipeline — and is reported as such.
  *
  * Run: npx tsx dfva-v3-panela.ts   (from scripts/)
  */
@@ -20,102 +26,97 @@ import { V2_PROGRAMS } from "../compass/app/src/compass/v2/data/v2Programs";
 const ROOT = path.resolve(__dirname, "..");
 const read = (p: string) => JSON.parse(fs.readFileSync(path.join(ROOT, p), "utf8"));
 
-interface AioeRow { soc: string; title: string; aioe: number }
-interface XwEntry { title: string; soc: string; socTitle: string; confidence: "high" | "medium"; note?: string }
-
-const aioe: AioeRow[] = read("data/aioe/felten_aioe.json");
-const crosswalk: { authored: string; mappings: XwEntry[] } = read("data/aioe/occupation_crosswalk.json");
-const labourEvidence = read("data/labour-evidence.json");
-const jirMap = read("docs/JIR/dfva_jir_map.json");
-const jirDataRaw = read("data/jir_data.json");
-
-const jirRecords: any[] = Array.isArray(jirDataRaw) ? jirDataRaw : jirDataRaw.records ?? Object.values(jirDataRaw);
-const jirByName = new Map(jirRecords.map((r) => [r.program, r]));
-const leProgs = labourEvidence.programs ?? labourEvidence;
-
-// --- index: min-max rescale over the full published population ---
-const zs = aioe.map((o) => o.aioe);
-const zMin = Math.min(...zs);
-const zMax = Math.max(...zs);
-const scale = (z: number) => ((z - zMin) / (zMax - zMin)) * 100;
-const bySoc = new Map(aioe.map((o) => [o.soc, o]));
-const xwByTitle = new Map(crosswalk.mappings.map((m) => [m.title, m]));
-
-// fail hard on any crosswalk entry whose SOC is not in the published index
-for (const m of crosswalk.mappings) {
-  const row = bySoc.get(m.soc);
-  if (!row) throw new Error(`Crosswalk SOC ${m.soc} (${m.title}) not in published AIOE`);
-  if (row.title !== m.socTitle) throw new Error(`Crosswalk title mismatch for ${m.soc}`);
+function parseCsv(p: string): Record<string, string>[] {
+  const text = fs.readFileSync(path.join(ROOT, p), "utf8");
+  const rows: string[][] = [];
+  let row: string[] = [], field = "", inQuotes = false;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (inQuotes) {
+      if (c === '"') {
+        if (text[i + 1] === '"') { field += '"'; i++; }
+        else inQuotes = false;
+      } else field += c;
+    } else if (c === '"') inQuotes = true;
+    else if (c === ",") { row.push(field); field = ""; }
+    else if (c === "\n" || c === "\r") {
+      if (field !== "" || row.length) { row.push(field); rows.push(row); row = []; field = ""; }
+      if (c === "\r" && text[i + 1] === "\n") i++;
+    } else field += c;
+  }
+  if (field !== "" || row.length) { row.push(field); rows.push(row); }
+  const [header, ...body] = rows;
+  return body.map((r) => Object.fromEntries(header.map((h, i) => [h, r[i] ?? ""])));
 }
 
-const SHARE_RE = /^(.*?)\s*\((\d+(?:\.\d+)?)%\)\s*$/;
+type Conf = "high" | "medium" | "low";
+type XwSource = "preexisting_288" | "new_this_session";
+interface XwRow { soc: string; socTitle: string; aioe: number; confidence: Conf; source: XwSource }
+
+// --- merged crosswalk: inherited 288 + the revision session's 80, values verbatim ---
+const inherited = parseCsv("data/aioe/reconciliation/reconcile_C_authoritative_288_index.csv");
+const newMapped = parseCsv("data/aioe/reconciliation/v2_panelA_new_occupation_crosswalk.csv");
+const authoritative = parseCsv("data/aioe/reconciliation/v2_panelA_authoritative_aioe.csv");
+
+const xw = new Map<string, XwRow>();
+for (const r of inherited) {
+  xw.set(r.occupation, {
+    soc: r.onet_soc_code,
+    socTitle: r.mapping_note?.split(":")[0]?.replace(/^[\d-]+\s*/, "") || r.onet_soc_code,
+    aioe: parseFloat(r.ai_exposure_index),
+    confidence: (r.mapping_confidence || "high") as Conf,
+    source: "preexisting_288",
+  });
+}
+for (const r of newMapped) {
+  xw.set(r.occupation, {
+    soc: r.onet_soc_code,
+    socTitle: r.onet_soc_title,
+    aioe: parseFloat(r.ai_exposure_index),
+    confidence: (r.mapping_confidence || "high") as Conf,
+    source: "new_this_session",
+  });
+}
+console.log(`merged crosswalk: ${xw.size} titles (${inherited.length} inherited + ${newMapped.length} new)`);
+
+// --- program destination titles: JIR alumni titles, package aggregation rules ---
+const jirMap = read("docs/JIR/dfva_jir_map.json");
+const jirRaw = read("data/jir_data.json");
+const jirRecords: any[] = Array.isArray(jirRaw) ? jirRaw : jirRaw.records ?? Object.values(jirRaw);
+const jirByName = new Map(jirRecords.map((r) => [r.program, r]));
 
 interface Destination {
-  title: string;
-  soc: string;
-  socTitle: string;
-  aioe: number; // rescaled 0-100
-  confidence: "high" | "medium";
-  stages: string[]; // which career stages the title appears in
-  meanShare: number | null; // mean % share across stages where present (JSA only)
+  title: string; soc: string; socTitle: string; aioe: number;
+  confidence: Conf; crosswalkSource: XwSource; stages: string[];
 }
 
-function collectDestinations(code: string): { dests: Destination[]; source: "JSA-HEO" | "JIR-alumni"; jirN: number | null } {
-  const le = leProgs[code];
-  if (le?.destinations) {
-    const byTitle = new Map<string, { stages: string[]; shares: number[] }>();
-    for (const stage of ["entry", "early", "senior"]) {
-      for (const s of le.destinations[stage] ?? []) {
-        const m = s.match(SHARE_RE);
-        const title = m ? m[1] : s;
-        const share = m ? parseFloat(m[2]) : NaN;
-        const e = byTitle.get(title) ?? { stages: [], shares: [] };
-        e.stages.push(stage);
-        if (!isNaN(share)) e.shares.push(share);
-        byTitle.set(title, e);
-      }
-    }
-    const dests = [...byTitle.entries()].map(([title, e]) => {
-      const xw = xwByTitle.get(title);
-      if (!xw) throw new Error(`Unmapped JSA title: ${title} (${code})`);
-      return {
-        title,
-        soc: xw.soc,
-        socTitle: xw.socTitle,
-        aioe: scale(bySoc.get(xw.soc)!.aioe),
-        confidence: xw.confidence,
-        stages: e.stages,
-        meanShare: e.shares.length ? e.shares.reduce((a, b) => a + b, 0) / e.shares.length : null,
-      };
-    });
-    return { dests, source: "JSA-HEO", jirN: null };
-  }
+function collectDestinations(code: string): { dests: Destination[]; jirN: number } {
   const match = jirMap.matches.find((m: any) => m.dfva_code === code);
   const rec = match && jirByName.get(match.jir_name);
-  if (!rec) throw new Error(`No destination source for ${code}`);
+  if (!rec) throw new Error(`No JIR record for ${code}`);
+  const jt = rec.job_titles ?? {};
+  const stageMap: [string, string][] = [
+    ["entry", "entry"], ["early_mid", "early"], ["mid_senior", "senior"],
+  ];
+  const hasStaged = stageMap.some(([k]) => (jt[k] ?? []).length > 0);
   const byTitle = new Map<string, string[]>();
-  const stageMap: Record<string, string> = { entry: "entry", early_mid: "early", mid_senior: "senior" };
-  for (const [jirStage, stage] of Object.entries(stageMap)) {
-    for (const t of rec.job_titles[jirStage] ?? []) {
-      const e = byTitle.get(t) ?? [];
-      e.push(stage);
-      byTitle.set(t, e);
+  if (hasStaged) {
+    for (const [jirStage, stage] of stageMap) {
+      for (const t of jt[jirStage] ?? []) {
+        const e = byTitle.get(t) ?? [];
+        e.push(stage);
+        byTitle.set(t, e);
+      }
     }
+  } else {
+    for (const t of jt.all ?? []) byTitle.set(t, ["all"]);
   }
   const dests = [...byTitle.entries()].map(([title, stages]) => {
-    const xw = xwByTitle.get(title);
-    if (!xw) throw new Error(`Unmapped JIR title: ${title} (${code})`);
-    return {
-      title,
-      soc: xw.soc,
-      socTitle: xw.socTitle,
-      aioe: scale(bySoc.get(xw.soc)!.aioe),
-      confidence: xw.confidence,
-      stages,
-      meanShare: null,
-    };
+    const m = xw.get(title);
+    if (!m) throw new Error(`Unmapped JIR title: "${title}" (${code})`);
+    return { title, soc: m.soc, socTitle: m.socTitle, aioe: m.aioe, confidence: m.confidence, crosswalkSource: m.source, stages };
   });
-  return { dests, source: "JIR-alumni", jirN: rec.n ?? null };
+  return { dests, jirN: rec.n ?? match.jir_n ?? null };
 }
 
 const mean = (xs: number[]) => xs.reduce((a, b) => a + b, 0) / xs.length;
@@ -125,37 +126,40 @@ const median = (xs: number[]) => {
   return s.length % 2 ? s[m] : (s[m - 1] + s[m]) / 2;
 };
 const r1 = (x: number) => Math.round(x * 10) / 10;
+const r2 = (x: number) => Math.round(x * 100) / 100;
 const r3 = (x: number) => Math.round(x * 1000) / 1000;
 
-// --- per-program exposure ---
+const authByCode = new Map(authoritative.map((r) => [r.code, r]));
 const placed = V2_PROGRAMS.filter((p) => p.exposure !== null);
+
 const rows = placed.map((p) => {
-  const { dests, source, jirN } = collectDestinations(p.code);
-  const unweighted = mean(dests.map((d) => d.aioe));
-  const withShare = dests.filter((d) => d.meanShare !== null);
-  let weighted: number | null = null;
-  if (withShare.length === dests.length && dests.length > 0) {
-    const totalShare = withShare.reduce((a, d) => a + d.meanShare!, 0);
-    weighted = withShare.reduce((a, d) => a + d.aioe * (d.meanShare! / totalShare), 0);
+  const { dests, jirN } = collectDestinations(p.code);
+  const exposure = mean(dests.map((d) => d.aioe));
+  const auth = authByCode.get(p.code);
+  if (!auth) throw new Error(`${p.code} missing from authoritative CSV`);
+  const delta = Math.abs(exposure - parseFloat(auth.exposure_aioe));
+  if (delta > 0.01) {
+    throw new Error(
+      `${p.code}: recomputed ${exposure.toFixed(2)} vs authoritative ${auth.exposure_aioe} (Δ ${delta.toFixed(3)}, ${dests.length} titles vs ${auth.n_titles})`,
+    );
   }
   const entryDests = dests.filter((d) => d.stages.includes("entry"));
-  const entryExposure = entryDests.length ? mean(entryDests.map((d) => d.aioe)) : null;
-  const nMedium = dests.filter((d) => d.confidence === "medium").length;
   return {
-    v2: p,
-    dests,
-    source,
-    jirN,
-    exposure: unweighted,
-    exposureWeighted: weighted,
-    entryExposure,
-    coverage: 1.0, // full mapping enforced above; kept explicit per R2
+    v2: p, dests, jirN,
+    exposure,
+    entryExposure: entryDests.length ? mean(entryDests.map((d) => d.aioe)) : null,
+    coverage: 1.0,
     nTitles: dests.length,
-    nMedium,
+    nMedium: dests.filter((d) => d.confidence !== "high").length,
+    nInherited: dests.filter((d) => d.crosswalkSource === "preexisting_288").length,
+    nNewlyMapped: dests.filter((d) => d.crosswalkSource === "new_this_session").length,
+    authQuadrant: auth.quadrant_aioe,
   };
 });
+console.log("per-program means: all 34 match the authoritative CSV to ±0.01");
 
-const expMedian = median(rows.map((r) => r.exposure));
+const exps = rows.map((r) => r.exposure);
+const expMedian = median(exps);
 const adaptMedian = median(rows.map((r) => r.v2.adaptiveness_raw));
 
 type Quadrant = "well-positioned" | "comfortable" | "attention" | "sheltered";
@@ -163,8 +167,22 @@ const quadrantOf = (exp: number, adapt: number): Quadrant =>
   exp > expMedian
     ? adapt >= adaptMedian ? "well-positioned" : "attention"
     : adapt >= adaptMedian ? "comfortable" : "sheltered";
+const AUTH_LABEL: Record<string, Quadrant> = {
+  "Well-positioned": "well-positioned", Comfortable: "comfortable",
+  Attention: "attention", Sheltered: "sheltered",
+};
 
-// --- Monte-Carlo quadrant stability (R4): ±1 on each Panel C item, p = 0.1, 20k draws, fixed seed ---
+// validate quadrant rule against the package's assignments
+for (const row of rows) {
+  const q = quadrantOf(row.exposure, row.v2.adaptiveness_raw);
+  const expected = AUTH_LABEL[row.authQuadrant];
+  if (q !== expected) {
+    throw new Error(`${row.v2.code}: quadrant ${q} vs authoritative ${row.authQuadrant} (exp ${row.exposure.toFixed(2)}, adapt ${row.v2.adaptiveness_raw}, medians ${expMedian.toFixed(2)}/${adaptMedian})`);
+  }
+}
+console.log("quadrant assignments: all 34 match the authoritative CSV");
+
+// --- Monte-Carlo quadrant stability (R4) ---
 function mulberry32(seed: number) {
   return () => {
     seed |= 0; seed = (seed + 0x6d2b79f5) | 0;
@@ -204,17 +222,13 @@ for (const row of rows) {
     modalProb: sorted[0][1],
     runnerUpQuadrant: sorted[1][1] > 0 ? sorted[1][0] : null,
     adaptInterval: [adaptLo, adaptHi],
-    nearBoundary:
-      Math.abs(row.exposure - expMedian) <= 2.5 || Math.abs(row.v2.adaptiveness_raw - adaptMedian) <= 1,
+    nearBoundary: Math.abs(row.exposure - expMedian) <= 2.5 || Math.abs(row.v2.adaptiveness_raw - adaptMedian) <= 1,
   });
 }
 
-// --- validation against the August 2026 revision note ---
-const exps = rows.map((r) => r.exposure);
+// --- headline validation against the revision note ---
 console.log(`n=${rows.length}  exposure range ${r1(Math.min(...exps))}–${r1(Math.max(...exps))}  median ${r1(expMedian)}  (note: 61.0–97.2, median 90.9)`);
 console.log(`adaptiveness median (34): ${adaptMedian}  (note: 10.0)`);
-const dvm = rows.find((r) => r.v2.code === "mc-dvetmed");
-console.log(`mc-dvetmed exposure: ${r1(dvm!.exposure)}  (note: 62.4)`);
 const qc: Record<string, number> = {};
 for (const r of rows as any[]) qc[r.quadrant] = (qc[r.quadrant] ?? 0) + 1;
 console.log("quadrant counts:", qc, "(note: wp 9, cf 14, at 8, sh 3)");
@@ -226,16 +240,17 @@ const computedAt = new Date().toISOString().slice(0, 10);
 const out = {
   meta: {
     exposureIndexName: "Felten-AIOE",
-    exposureIndexVintage: `AIOE_DataAppendix.xlsx @ AIOE-Data/AIOE main (n=${aioe.length}, z ${zMin.toFixed(3)}…${zMax.toFixed(3)})`,
-    exposureRescaling: `min-max 0-100 over published population n=${aioe.length}`,
+    exposureIndexVintage: "AIOE_DataAppendix.xlsx @ AIOE-Data/AIOE main (n=773, z −2.670…1.528)",
+    exposureRescaling: "min-max 0-100 over published population",
     exposureComputedAt: computedAt,
-    crosswalkAuthored: crosswalk.authored,
+    destinationBasis: "JIR/LiveAlumni alumni titles (all placed programs); JSA HEO not used on this axis",
+    crosswalkAuthored: "inherited 288-title index + 80 titles mapped Aug 2026 (reconciliation package)",
     perturbation: { draws: DRAWS, pPerturb: P_PERTURB, items: ["D2", "D3", "D7", "B", "D5"] },
     placed: rows.length,
     total: V2_PROGRAMS.length,
     expMedian: r1(expMedian),
     adaptMedian,
-    expRange: [r1(Math.min(...exps)), r1(Math.max(...exps))],
+    expRange: [r1(Math.min(...exps)), r1(Math.max(...exps))] as [number, number],
     v2ExpMedian: 61.8,
     v2AdaptMedian: 11,
   },
@@ -247,14 +262,14 @@ const out = {
     v1Band: r.v2.v1_band,
     v2Exposure: r.v2.exposure,
     v2Quadrant: r.v2.quadrant,
-    exposure: r1(r.exposure),
-    exposureWeighted: r.exposureWeighted === null ? null : r1(r.exposureWeighted),
-    entryExposure: r.entryExposure === null ? null : r1(r.entryExposure),
-    destinationSource: r.source,
+    exposure: r2(r.exposure),
+    entryExposure: r.entryExposure === null ? null : r2(r.entryExposure),
     jirN: r.jirN,
     coverage: r.coverage,
     nTitles: r.nTitles,
     nMedium: r.nMedium,
+    nInherited: r.nInherited,
+    nNewlyMapped: r.nNewlyMapped,
     adaptiveness: r.v2.adaptiveness_raw,
     dimensionScores: r.v2.dimension_scores,
     gateD4: r.v2.gate_D4,
@@ -269,18 +284,19 @@ const out = {
       title: d.title,
       soc: d.soc,
       socTitle: d.socTitle,
-      aioe: r1(d.aioe),
+      aioe: r2(d.aioe),
       confidence: d.confidence,
+      crosswalkSource: d.crosswalkSource,
       stages: d.stages,
-      meanShare: d.meanShare === null ? null : r1(d.meanShare),
     })),
   })),
 };
 
 const header = `// GENERATED by scripts/dfva-v3-panela.ts — do not hand-edit.
-// Inputs: data/aioe/felten_aioe.json (published Felten AIOE appendix),
-// data/aioe/occupation_crosswalk.json, data/labour-evidence.json,
-// data/jir_data.json, docs/JIR/dfva_jir_map.json, v2Programs.ts (Panel C).
+// Basis: Panel A reconciliation package (data/aioe/reconciliation/) — JIR
+// alumni destination titles for all placed programs, merged 288+80 crosswalk,
+// package AIOE values verbatim, validated per-program against
+// v2_panelA_authoritative_aioe.csv. Panel C from v2Programs.ts (unchanged).
 // Regenerate: cd scripts && npx tsx dfva-v3-panela.ts
 
 export type V3Quadrant = "well-positioned" | "comfortable" | "attention" | "sheltered";
@@ -290,9 +306,9 @@ export interface V3Destination {
   soc: string;
   socTitle: string;
   aioe: number;
-  confidence: "high" | "medium";
+  confidence: "high" | "medium" | "low";
+  crosswalkSource: "preexisting_288" | "new_this_session";
   stages: string[];
-  meanShare: number | null;
 }
 
 export interface V3Program {
@@ -304,13 +320,13 @@ export interface V3Program {
   v2Exposure: number | null;
   v2Quadrant: string;
   exposure: number;
-  exposureWeighted: number | null;
   entryExposure: number | null;
-  destinationSource: "JSA-HEO" | "JIR-alumni";
   jirN: number | null;
   coverage: number;
   nTitles: number;
   nMedium: number;
+  nInherited: number;
+  nNewlyMapped: number;
   adaptiveness: number;
   dimensionScores: { D2: number; D3: number; D7: number; B: number; D5: number };
   gateD4: "PASS" | "FAIL";
@@ -329,6 +345,7 @@ export interface V3Meta {
   exposureIndexVintage: string;
   exposureRescaling: string;
   exposureComputedAt: string;
+  destinationBasis: string;
   crosswalkAuthored: string;
   perturbation: { draws: number; pPerturb: number; items: string[] };
   placed: number;
@@ -352,6 +369,5 @@ export function v3ProgramByCode(code: string): V3Program | undefined {
 `;
 
 const dest = path.join(ROOT, "compass/app/src/compass/v3/data/v3Programs.ts");
-fs.mkdirSync(path.dirname(dest), { recursive: true });
 fs.writeFileSync(dest, header + body);
 console.log(`wrote ${path.relative(ROOT, dest)} (${out.programs.length} programs)`);

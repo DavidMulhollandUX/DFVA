@@ -280,15 +280,6 @@ export default function V3ReportPage() {
     );
   }
 
-  const sharedField = V3_PROGRAMS.filter(
-    (p) =>
-      p.code !== program.code &&
-      p.destinationSource === "JSA-HEO" &&
-      program.destinationSource === "JSA-HEO" &&
-      p.exposure === program.exposure &&
-      p.nTitles === program.nTitles,
-  );
-
   const gaugePct = Math.round(((program.exposure - X_MIN) / (X_MAX - X_MIN)) * 100);
   const medianPct = Math.round(((V3_META.expMedian - X_MIN) / (X_MAX - X_MIN)) * 100);
   const quadrantMoved = program.quadrant !== program.v2Quadrant;
@@ -410,13 +401,15 @@ export default function V3ReportPage() {
                       ["exposure_computed_at", V3_META.exposureComputedAt],
                       [
                         "destination_source",
-                        program.destinationSource === "JSA-HEO"
-                          ? "JSA Higher Education Outcomes (ATO tax-linked, field-of-education grain)"
-                          : `JIR / LiveAlumni alumni titles (n = ${program.jirN})`,
+                        `JIR / LiveAlumni alumni titles, program grain (cohort n = ${program.jirN})`,
                       ],
                       [
                         "coverage",
-                        `${(program.coverage * 100).toFixed(0)}% — ${program.nTitles}/${program.nTitles} destination titles mapped (${program.nMedium} medium-confidence)`,
+                        `${(program.coverage * 100).toFixed(0)}% — ${program.nTitles}/${program.nTitles} destination titles mapped (${program.nMedium} medium/low-confidence)`,
+                      ],
+                      [
+                        "crosswalk_mix",
+                        `${program.nInherited} titles via inherited 288-title index · ${program.nNewlyMapped} newly mapped Aug 2026`,
                       ],
                       ["crosswalk_authored", V3_META.crosswalkAuthored],
                     ] as [string, string][]
@@ -429,23 +422,21 @@ export default function V3ReportPage() {
                 </tbody>
               </table>
             </div>
-            {sharedField.length > 0 && (
-              <div className="bg-card-accent text-muted-foreground mt-4 flex items-start gap-2 rounded-md p-3 text-sm">
-                <span className="text-base">⚠</span>
-                <span>
-                  <strong className="text-foreground font-medium">
-                    Destination grain is field of education, not degree.
-                  </strong>{" "}
-                  {sharedField.map((p) => p.name).join(", ")}{" "}
-                  {sharedField.length === 1 ? "shares" : "share"} this exact
-                  Panel A measurement because JSA reports destinations per field.
-                  v2's per-program exposure differences within a field ({" "}
-                  {program.v2Exposure} vs{" "}
-                  {sharedField[0].v2Exposure}) were an artefact of the
-                  provisional LLM proxy, not a measurement.
-                </span>
-              </div>
-            )}
+            <div className="bg-card-accent text-muted-foreground mt-4 flex items-start gap-2 rounded-md p-3 text-sm">
+              <span className="text-base">⚠</span>
+              <span>
+                <strong className="text-foreground font-medium">
+                  Known provenance caveat: this value draws on two crosswalks
+                  built at different times.
+                </strong>{" "}
+                Titles mapped via the inherited index sit systematically higher
+                (median AIOE 92.3) than the Aug 2026 mappings (median 77.3). A
+                uniform re-mapping of all 368 titles would shift absolute
+                levels; structural results (quadrant counts, 20/34 changes vs
+                the v2 proxy) are robust to crosswalk choice — verified by an
+                independent recomputation.
+              </span>
+            </div>
           </CardContent>
         </Card>
 
@@ -492,15 +483,15 @@ export default function V3ReportPage() {
                 </div>
                 <div className="bg-card-accent rounded-md p-3">
                   <p className="font-mono text-xl font-semibold">
-                    {program.exposureWeighted === null ? "—" : program.exposureWeighted.toFixed(1)}
-                  </p>
-                  <p className="text-muted-foreground text-xs">Share-weighted (R5)</p>
-                </div>
-                <div className="bg-card-accent rounded-md p-3">
-                  <p className="font-mono text-xl font-semibold">
                     {program.entryExposure === null ? "—" : program.entryExposure.toFixed(1)}
                   </p>
                   <p className="text-muted-foreground text-xs">Entry-stage only (R6)</p>
+                </div>
+                <div className="bg-card-accent rounded-md p-3">
+                  <p className="font-mono text-xl font-semibold">—</p>
+                  <p className="text-muted-foreground text-xs">
+                    Share-weighted (R5) — no shares at alumni-title grain
+                  </p>
                 </div>
               </div>
               <div className="bg-card-accent text-muted-foreground mt-4 flex items-start gap-2 rounded-md p-3 text-sm">
@@ -585,7 +576,7 @@ export default function V3ReportPage() {
               <table className="w-full border-collapse text-sm">
                 <thead>
                   <tr>
-                    {["Destination title", "SOC occupation", "AIOE", "Stages", "Mean share", "Mapping"].map((h) => (
+                    {["Destination title", "SOC occupation", "AIOE", "Stages", "Crosswalk", "Mapping"].map((h) => (
                       <th key={h} className="text-muted-foreground border-border border-b-2 px-3 py-2 text-left text-xs font-medium tracking-[0.18em] uppercase">
                         {h}
                       </th>
@@ -605,15 +596,17 @@ export default function V3ReportPage() {
                         <td className="text-muted-foreground px-3 py-2 text-xs">
                           {d.stages.join(", ")}
                         </td>
-                        <td className="px-3 py-2 font-mono">
-                          {d.meanShare === null ? "—" : `${d.meanShare.toFixed(1)}%`}
+                        <td className="text-muted-foreground px-3 py-2 text-xs">
+                          {d.crosswalkSource === "preexisting_288" ? "inherited" : "Aug 2026"}
                         </td>
                         <td className="px-3 py-2">
                           <span
                             className={
                               d.confidence === "high"
                                 ? "text-band-resilient"
-                                : "text-band-moderate"
+                                : d.confidence === "medium"
+                                  ? "text-band-moderate"
+                                  : "text-band-critical"
                             }
                           >
                             ● {d.confidence}
@@ -679,7 +672,7 @@ export default function V3ReportPage() {
                       ["Destination coverage", "Not reported per program", `Reported and enforced — ${program.nTitles}/${program.nTitles} titles mapped (R2)`],
                       ["Quadrant label", "Categorical, narrative name", `Probability-qualified, measurement-first name (R4, R10) — ${Math.round(program.modalProb * 100)}% modal`],
                       ["Uncertainty", "Not stated", `Adaptiveness ±1 interval [${program.adaptInterval[0]}–${program.adaptInterval[1]}]; full quadrant distribution shown`],
-                      ["Weighting", "Unweighted mean only", "Share-weighted mean published alongside (R5); entry-stage exposure (R6)"],
+                      ["Destination grain", "Proxy scored per program from mixed evidence", "Alumni titles of this program's own graduates (JIR cohort n = " + program.jirN + "); entry-stage exposure published (R6); share-weighting (R5) open — no shares at alumni-title grain"],
                     ] as [string, string, string][]
                   ).map(([k, a, b]) => (
                     <tr key={k} className="border-border border-b">

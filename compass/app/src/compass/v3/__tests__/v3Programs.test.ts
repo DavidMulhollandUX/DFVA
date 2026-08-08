@@ -52,16 +52,18 @@ describe("v3 Panel A dataset invariants", () => {
     }
   });
 
-  it("field-of-education grain: mc-is and mc-cs share the same Panel A measurement", () => {
+  it("program grain: mc-is and mc-cs are separately measured from their own alumni titles", () => {
     const mcIs = v3ProgramByCode("mc-is")!;
     const mcCs = v3ProgramByCode("mc-cs")!;
-    expect(mcIs.exposure).toBe(mcCs.exposure);
-    expect(mcIs.destinationSource).toBe("JSA-HEO");
-    // but their scored curriculum axes differ
+    // authoritative CSV values (reconciliation package, Aug 2026)
+    expect(mcIs.exposure).toBe(91.69);
+    expect(mcCs.exposure).toBe(92.8);
+    expect(mcIs.jirN).toBe(257);
+    expect(mcCs.jirN).toBe(41);
     expect(mcIs.adaptiveness).not.toBe(mcCs.adaptiveness);
   });
 
-  it("reproduces the August 2026 revision-note structure", () => {
+  it("reproduces the August 2026 revision note exactly", () => {
     const counts: Record<string, number> = {};
     for (const p of V3_PROGRAMS) counts[p.quadrant] = (counts[p.quadrant] ?? 0) + 1;
     expect(counts).toEqual({
@@ -73,5 +75,7 @@ describe("v3 Panel A dataset invariants", () => {
     const flips = V3_PROGRAMS.filter((p) => p.quadrant !== p.v2Quadrant).length;
     expect(flips).toBe(20);
     expect(V3_META.adaptMedian).toBe(10);
+    expect(V3_META.expMedian).toBe(90.9);
+    expect(V3_META.expRange).toEqual([61, 97.2]);
   });
 });
