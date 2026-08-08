@@ -3,6 +3,9 @@
 *Version 2.0-prototype — August 2026*
 *Service Experience & Design, University of Melbourne*
 *Companion documents: [DFVA v1 Methodology](dfva-methodology.md) · [Portfolio Intelligence Report](dfva-portfolio-insights.md) · [Graduate-Outcomes Evidence Report](dfva-graduate-outcomes-report.md)*
+*Superseded in part by: [DFVA v3 Methodology & Display Logic](dfva-v3-methodology.md) (measurement basis and display rules; constructs unchanged)*
+
+> **Erratum (2026-08-08).** This document originally stated D4 Decision-Making saturation as ">70% of programs at the same level". The source matrix gives **62.1%** (41 of 66). The gating decision is unaffected — 62% modal on a two-level item remains ample justification — but the stated figure did not reproduce and is corrected below (marked *\[corrected\]*). Separately, the Panel A figures in §3.3 were computed from a provisional LLM-scored proxy, not the Felten AIOE index this document specifies; see v3 methodology §2 (R1) for the authoritative revision.
 
 ---
 
@@ -11,7 +14,7 @@
 DFVA v1 operationalised eleven dimensions scored 0–3 from handbook evidence and summed them into a single composite (0–36) mapped to four risk bands. Application to 66 University of Melbourne programs, and item-level analysis of the resulting score matrix, surfaced three structural problems with the composite design:
 
 1. **Construct conflation.** Two dimensions (D1 Automation Exposure, D8 Human/Relational Work) are properties of the *destination occupations* graduates enter, not of the *curriculum*. Scoring them from handbook text asked assessors to infer labour-market facts from curriculum documents — a category error that depressed inter-source agreement and made the composite uninterpretable as a curriculum measure.
-2. **Item degeneracy.** D9 (Curriculum Currency) showed an item–total correlation of 0.06 — statistically indistinguishable from noise — because handbook documents rarely carry datable currency evidence. Two further dimensions saturated at their modal value across the portfolio (D4 Decision-Making: >70% of programs at the same level; D6 Domain Depth: >83% modal), contributing variance-free points to the composite.
+2. **Item degeneracy.** D9 (Curriculum Currency) showed an item–total correlation of 0.06 — statistically indistinguishable from noise — because handbook documents rarely carry datable currency evidence. Two further dimensions saturated at their modal value across the portfolio (D4 Decision-Making: 62.1% of programs at the same level *\[corrected\]*; D6 Domain Depth: 83.3% modal), contributing variance-free points to the composite.
 3. **Evidence-type mixing.** The composite summed curriculum judgments, labour-market inferences, and evidence-quality metadata (D10) into one number, so a program could offset a curriculum weakness with an evidence-availability strength — a trade the construct does not license.
 
 DFVA v2 responds by **decomposing the composite into panels that are never summed across evidence types**: destination exposure is *measured* (Panel A), curriculum adaptiveness is *scored* (Panel C), saturated items become binary *gates*, and evidence quality becomes *metadata* (Panel D). Programs are positioned on a 2×2 matrix (adaptiveness × exposure) rather than a single ordinal band. The v2 instrument is currently a prototype deployed at `dev.evidura.ai`; v1 remains the production instrument at `evidura.ai`.
@@ -70,7 +73,7 @@ Each dimension is scored 0–3 against the v1 anchors from handbook evidence. **
 
 ### 4.3 Gates (binary, not summed)
 
-D4 (Decision-Making Under Uncertainty) and D6 (Domain Depth) saturated in v1 (>70% and >83% modal respectively): they no longer discriminate between programs but still describe a floor below which a program is anomalous. Each is therefore recast as a **PASS/FAIL gate** at the portfolio-modal level. Gates are displayed alongside Panel C, are excluded from the adaptiveness sum, and function as regression checks during curriculum change (a redesign that breaks a gate is flagged regardless of its adaptiveness effect).
+D4 (Decision-Making Under Uncertainty) and D6 (Domain Depth) saturated in v1 (62.1% *\[corrected\]* and 83.3% modal respectively, on a two-level and near-two-level item): they no longer discriminate between programs but still describe a floor below which a program is anomalous. Each is therefore recast as a **PASS/FAIL gate** at the portfolio-modal level. Gates are displayed alongside Panel C, are excluded from the adaptiveness sum, and function as regression checks during curriculum change (a redesign that breaks a gate is flagged regardless of its adaptiveness effect).
 
 ### 4.4 Dropped
 
@@ -148,7 +151,7 @@ Recommendations are derived from the assessment by fixed rules rather than free-
 
 ## 8. Reliability & Validity
 
-**Internal evidence motivating the redesign** (from the v1 66-program score matrix): D9 item–total r = 0.06 (removed); D4 >70% and D6 >83% modal saturation (gated); B item–total r = 0.65 (retained as the coherence benchmark). These are internal analyses of a single-institution, single-cohort matrix and have not been externally replicated.
+**Internal evidence motivating the redesign** (from the v1 66-program score matrix): D9 item–total r = 0.06 (removed); D4 62.1% *\[corrected\]* and D6 83.3% modal saturation (gated); B item–total r = 0.65 (retained as the coherence benchmark). These are internal analyses of a single-institution, single-cohort matrix and have not been externally replicated.
 
 **Construct validity.** Panel A inherits the validity argument of the AIOE (Felten et al., 2023) and of ATO-linked administrative destination data (JSA HEO), at the cost of field-of-education grain (L1). Panel C inherits the v1 anchor definitions and their theoretical grounding (v1 methodology §2). The decomposition itself follows standard measurement practice: formative composites should not mix indicators of distinct constructs (P1–P2).
 
