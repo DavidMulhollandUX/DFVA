@@ -218,6 +218,22 @@ export default function V31ReportPage() {
                   </div>
                 )}
 
+                {Math.abs(program.exposure - V3_META.expMedian) <= 2.5 && (
+                  <div className="bg-card-accent text-muted-foreground mt-3 flex items-start gap-2 rounded-md p-3 text-sm">
+                    <span className="text-base">⚠</span>
+                    <span data-testid="exposure-proximity-note">
+                      <strong className="text-foreground font-medium">
+                        Near the exposure median ({Math.abs(program.exposure - V3_META.expMedian).toFixed(2)} AIOE away).
+                      </strong>{" "}
+                      The stability layer models rating error on the scored axis
+                      only — exposure carries systematic crosswalk uncertainty
+                      that is disclosed, not distributed. A program this close to
+                      the exposure threshold has quadrant uncertainty this page's
+                      probabilities do not capture.
+                    </span>
+                  </div>
+                )}
+
                 {s.nearDisplayThreshold && (
                   <div className="bg-card-accent text-muted-foreground mt-3 flex items-start gap-2 rounded-md p-3 text-sm">
                     <span className="text-base">⚠</span>

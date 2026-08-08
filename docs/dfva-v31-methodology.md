@@ -4,6 +4,14 @@
 *Service Experience & Design, University of Melbourne*
 *Amends: [DFVA v3 Methodology](dfva-v3-methodology.md) §4, §5.2, §7, §8. All other v3 sections unchanged.*
 
+> **Document structure.** Part I (§1–§8) is the specification as received from the
+> v3.1 analysis (August 2026), edited only for lint conformance. Part II (§9–§12)
+> is the **implementation record** added on deployment (2026-08-08): what was
+> built, where it deviates from the specification and why, and the display logic
+> as it actually renders at `dev.evidura.ai/insights/v31/:code`. Where Part I and
+> Part II differ, Part II describes the deployed system and Part I the protocol
+> it was built against.
+
 ---
 
 ## 1. Scope
@@ -217,3 +225,130 @@ v3.1 completes the uncertainty layer. The remaining work, in the order the evide
 | **5** | R8 (coverage bias), R11 (anti-gaming), R12(b) (diff history) | Unchanged priority |
 
 **Criterion-referenced thresholds** (audit R4.5) remain deferred, and v3.1 strengthens the case for them: the bimodality documented in §4.1 is a property of *this* portfolio's adaptiveness distribution around *this* median. Under portfolio-relative thresholds the empty band is not guaranteed to persist as programs are added, and `stabilityClass` would need recalibration. Fixed cut-points defined against the index's own distribution would make both the thresholds and the stability classes portable across institutions and vintages.
+
+---
+
+## Part II — Implementation Record & Display Logic (as deployed, 2026-08-08)
+
+## 9. Implementation architecture
+
+### 9.1 A parallel instrument, not an in-place amendment
+
+The specification (§5.1) prescribes modifying `scripts/dfva-v3-panela.ts` in place. The deployment instead implements v3.1 as a **parallel instrument**:
+
+| Component | Path | Relationship to v3 |
+| --- | --- | --- |
+| Generator | `scripts/dfva-v31-panela.ts` | New; imports the v3 dataset, computes only the stability layer |
+| Data module | `compass/app/src/compass/v31/data/v31Stability.ts` | Generated; one `V31Stability` record per placed program, keyed by code |
+| Report page | `compass/app/src/compass/v31/V31ReportPage.tsx` | New route `/insights/v31/:code`; reads coordinates, Panel C and gates from the v3 module and stability from the v3.1 module |
+| v3 artifacts | `v3Programs.ts`, `V3ReportPage.tsx`, v3 tests | **Unchanged** — v3 remains live at `/insights/v3/:code` |
+
+**Rationale.** v3.1 changes no measurement (§1), so the exposure pipeline did not need to re-run; layering the stability computation over the existing dataset makes that claim structural rather than procedural — the generator *cannot* alter an exposure value it only reads. Separately, the dev deployment's purpose is side-by-side comparison of instrument generations (v2 → v3 → v3.1 on three different programs), which requires v3's report to keep rendering its own Monte-Carlo-era output. The v3 module therefore still carries the sampled `quadrantDist`/`modalProb`/`adaptInterval`; the v3.1 module carries the exact ones, and the two pages never mix them.
+
+**Consequence to note.** Until v3.1 is promoted to the primary instrument, the v3 page continues to display sampled stability values that Part I supersedes. This is a deliberate exhibition choice on the dev deployment, not a publication posture: any externally published position must use the exact layer.
+
+### 9.2 Derivation chain
+
+```text
+v3Programs.ts (exposure, Panel C scores, gates — unchanged, R1-guarded)
+        │
+        ▼
+scripts/dfva-v31-panela.ts
+  ├─ medians recomputed from the 34 stored exposures / adaptiveness values
+  ├─ 243 delta vectors enumerated once at module scope (guard: exactly 243)
+  ├─ per program × per e ∈ {0.05, 0.10, 0.20}: exact quadrant distribution
+  ├─ guards (§11) — any failure aborts generation
+  └─ emits v31Stability.ts (5-dp rounded values + meta)
+        │
+        ▼
+V31ReportPage.tsx  (stability display; coordinates/Panel C read from v3 module)
+```
+
+The quadrant function and tie rule are restated in the generator identically to v3 (`exposure > medianE`, `adaptiveness >= medianA`); reference-table validation (§11) would fail on any divergence, so the restatement cannot drift silently.
+
+### 9.3 Protocol deviations
+
+| Spec | As deployed | Rationale |
+| --- | --- | --- |
+| §5.1: amend `dfva-v3-panela.ts`; delete `mulberry32` | New `dfva-v31-panela.ts`; v3 generator untouched | Parallel-instrument architecture (§9.1). The RNG survives only inside the v3 artifact it belongs to |
+| §5.2: replace the v3 test invariants | v3 test file retained; new `v31Stability.test.ts` carries the spec's exact-value assertions | v3's dataset is still published, so its invariants still hold and are still guarded |
+| §5.2: "two consecutive generator runs produce byte-identical output" as a regression test | Implemented **inside the generator**: the module string is built twice and compared before writing | The vitest environment cannot execute the generator; the guard sits at the only point where non-determinism could enter |
+| §6: distributions sum to 1 within 1e-12 | Asserted **pre-rounding** in the generator; stored values are rounded to 5 dp; the test suite checks the stored sum to 1e-4 | 1e-12 exactness is a property of the computation, guarded at source; the stored module trades ~15 digits for size with the tolerance re-stated where it applies |
+| §5.3 / §6: reference guard on modal probabilities (1e-5) | Extended to every field: all three probabilities, envelopes, ceiling counts, distance-to-median, modal quadrant, stability class | Stricter at no cost; the reference CSV carries the columns, so they are all pinned |
+| §5.4 sensitivity-strip format `0.806 (0.890 optimistic / 0.695 pessimistic)` | `m = 0.814 (0.892 optimistic · 0.716 pessimistic)` | Content identical; house typography |
+| §7: `nearBoundary` "retained alongside `stabilityClass`" | Retained in the v3 dataset **and** surfaced on the v3.1 page as an exposure-proximity caveat (§10.4, signal S4) | The spec's intent — exposure-side uncertainty must not disappear behind the scored-axis stability layer — is made a rendered element, not only a stored field |
+
+## 10. Display logic (as rendered)
+
+### 10.1 Four stability signals, and what each is allowed to claim
+
+The page renders four *independent* signals. They answer different questions and are never merged into one indicator; the design rule is that no signal may absorb another's meaning.
+
+| # | Signal | Derivation | Question it answers | Rendering |
+| --- | --- | --- | --- | --- |
+| S1 | **Label rule** | m at e = 0.10 vs pre-committed cuts 0.80 / 0.60 | What label convention applies? | Single badge / dual "boundary case" badge / "coordinates only" badge (v3 §5.2, unchanged) |
+| S2 | **`stabilityClass`** | m < 0.90 → `boundary`, else `stable` (cut inside the empirical empty band) | Which cluster of the bimodal distribution is this program in? | Always-rendered chip beside the position; amber tint for `boundary`, green for `stable` |
+| S3 | **`nearDisplayThreshold`** | \|m − 0.80\| ≤ 0.02 or \|m − 0.60\| ≤ 0.02 | Is the *label itself* an artifact of the cut placement? | Mandatory italic note quoting the program's own m, the rule, and its pessimistic-assumption value |
+| S4 | **Exposure proximity** | \|exposure − exposure median\| ≤ 2.5 AIOE (v3 §4.3, exposure half) | Does the program carry quadrant uncertainty this layer does not model? | Caveat stating that the stability layer models rating error on the scored axis only |
+
+S1 is a display convention; S2 is the honest summary of the distribution; S3 audits S1; S4 bounds what S1–S3 can claim. A program can trigger any subset: the Juris Doctor reference report triggers S2 (`boundary`) and S3 (m = 0.814) but not S4 (3.53 AIOE from the median); Master of Engineering Structures (746st) triggers all of S2, S3 and S4.
+
+### 10.2 Position card — composition order
+
+The order of elements is normative (confidence-first, v3 §5.1, unchanged):
+
+1. **Coordinates** — exposure to 2 dp with portfolio median; adaptiveness with **exact envelope** (§3.1) and median.
+2. **Label** (S1) with the sensitivity strip directly beneath: `m = X.XXX (optimistic · pessimistic)` — three values, never one.
+3. **Stability chip** (S2), always present.
+4. **Conditional notes**, in fixed order: boundary explanation (S2, only when `boundary`), exposure-proximity caveat (S4), near-threshold note (S3). Fixed order prevents the layout itself from signalling severity.
+5. **Exact quadrant distribution** — all four probabilities to 3 dp of a percent, with the caption "Exact probabilities over all 243 perturbation states — no sampling, no seed."
+6. **Mini-matrix** with the exact envelope drawn as a vertical bar through the program's point.
+
+### 10.3 Wording rules
+
+- The boundary explanation must state the *mechanism* (distance to the adaptiveness median, single-item sensitivity) and must close with: *"This is a statement about rating precision, not about program quality."* Stability language is never permitted to read as a quality verdict — a boundary-class program is not a worse program.
+- The near-threshold note (S3) renders in italics, quotes the program's own numbers (m, the rule value, the e = 0.20 value), and says what *would* change ("would be reported as a boundary case") rather than hedging generally.
+- The sensitivity table's framing sentence states that e is an assumption and that R9 (the rater study) is unrun — on the page, not in a methods appendix.
+- The Part-I sentence "Precision in the computation must not be mistaken for accuracy in the model" is rendered verbatim in the sensitivity card.
+
+### 10.4 Cards below the position card
+
+| Card | Contents | Fixed data displayed |
+| --- | --- | --- |
+| **Rater-error sensitivity** | Three-row table: e, this program's m (5 dp), portfolio count failing m ≥ 0.80 | 0 / 2 / 14 of 34 (from generator meta, not hard-coded prose) |
+| **Distribution structure** | Cluster narrative (14 boundary · 20 stable, 0.13 empty band, single cause) + four stat tiles: program's cluster, signed distance to adaptiveness median, items at ceiling n/5, class cut 0.90 with robustness range [0.85, 0.98] | Asymmetry disclosure: 53/170 items (31%) at ceiling, net drift −0.075, symmetric-alternative check 0.0057 / zero label changes |
+| **Panel C** | v3 dimension bars and gates, unchanged, with the exact envelope replacing the sampled interval; caption ties the bars to the stability layer ("what a ±1 rating difference on these items would do") | — |
+| **What changed from v3** | Seven-row fixed table: computation, boundary-case count, error-rate treatment, interval semantics, stability summary, near-threshold disclosure, clamping asymmetry | Sampling agreement ≤ 0.0038; seed-dependence over {0, 1, 2} |
+
+### 10.5 Numeric display precision
+
+| Quantity | Precision | Where |
+| --- | --- | --- |
+| Modal probability (strip) | 3 dp | Position card |
+| Modal probability (table) | 5 dp | Sensitivity card — matches the reference CSV so a reader can check the page against the table |
+| Quadrant distribution | 3 dp of a percent | Position card |
+| Exposure | 2 dp | Position card (v3.1 shows 2 dp where v3's hero showed 1 dp; the underlying stored value is identical) |
+| Envelope | Integers | Everywhere (exact by construction) |
+
+### 10.6 Navigation and comparison policy
+
+Every v3.1 report links to the v3 report *for the same program* (same coordinates, sampled vs exact stability) and to the fixed three-generation demonstration chain — v2 (Master of Computer Science), v3 (Master of Information Systems), v3.1 (Juris Doctor) — one program per generation so display grammars are compared across, not within, subjects. The portfolio matrix links both previews. Unknown codes render the not-found page stating v3.1's coverage (the 34 placed programs).
+
+## 11. Verification & reproducibility (as deployed)
+
+| Guard | Where enforced | Failure mode |
+| --- | --- | --- |
+| Exactly 243 delta vectors, each visited once | Generator, module scope | Build fails |
+| Each distribution sums to 1 within 1e-12 (pre-rounding) | Generator, per program × per e | Build fails |
+| Monotone sensitivity: m(0.05) ≥ m(0.10) ≥ m(0.20) | Generator, per program | Build fails |
+| Reference table reproduced — all three modal probabilities (1e-5), envelope, ceiling count, distance to median, modal quadrant, stability class, for all 34 | Generator, against `data/aioe/v31_reference_position_stability.csv` | Build fails, naming program and field |
+| Deterministic output | Generator builds the module twice, compares byte-identical | Build fails |
+| Spec §5.2 exact values (746st / mc-phtyph 0.79855, mc-propsyc 0.80620, mc-is 0.98062, mc-cs 1.00000, mc-dvetmed 0.99889, mc-jurisd 0.81355), 14/20 partition, 2 below 0.80, 11 near-threshold, empty band occupancy zero, envelope–ceiling consistency, 0/2/14 headline | `v31Stability.test.ts` (8 tests; suite total 124) | CI fails |
+
+Regenerate: `cd scripts && npx tsx dfva-v31-panela.ts`. First deployment reproduced the reference table exactly on the first run, all 34 programs, all fields.
+
+## 12. Status
+
+- Deployed as a preview at `dev.evidura.ai/insights/v31/:code`; reference report Juris Doctor (`mc-jurisd`) — boundary class, m = 0.81355, triggers the near-threshold disclosure, fails the single-label rule under e = 0.20.
+- v3 and v2 reports remain live and unchanged for generational comparison; production (`evidura.ai`) remains v1.
+- Part I §8's re-prioritised scope stands: the rater study (R9) is the binding next step — every number in the stability layer is conditional on an assumed error rate until it runs.
