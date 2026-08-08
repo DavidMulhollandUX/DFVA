@@ -1,6 +1,7 @@
 import { Link, useParams } from "react-router";
 import { Card, CardContent, CardTitle } from "../../client/components/ui/card";
 import { InsightsGate } from "../InsightsGate";
+import { ReportMarkdownCard } from "../v2/components/ReportMarkdownCard";
 import { DIMENSION_LABELS, QUADRANTS } from "../v2/quadrants";
 import {
   V3_META,
@@ -467,6 +468,22 @@ export default function V31ReportPage() {
             </div>
           </CardContent>
         </Card>
+
+        {/* Market intelligence + redesign recommendations (canonical source:
+            reports/dfva-market-*.md and reports/dfva-recommend-*.md; the card
+            renders nothing for programs without those reports) */}
+        <ReportMarkdownCard
+          slug={`dfva-market-${program.code}`}
+          label="Market Intelligence"
+          title="Labour-Market Intelligence"
+          subtitle="Job families, hiring signals, and discussion themes for this program's destinations — from the DFVA market-intelligence pipeline"
+        />
+        <ReportMarkdownCard
+          slug={`dfva-recommend-${program.code}`}
+          label="Redesign Recommendations"
+          title="Improvement Plan"
+          subtitle="Score-to-action mapping and prioritised interventions — from the DFVA recommendation pipeline"
+        />
 
         <div className="text-muted-foreground border-border mt-12 flex flex-wrap items-center justify-between gap-3 border-t pt-6 text-xs">
           <span>Evidura · Durability Assessment · v3.1 · exact enumeration, {V31_META.errorRates.published} published error rate</span>
