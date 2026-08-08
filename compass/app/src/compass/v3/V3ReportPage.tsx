@@ -364,7 +364,7 @@ export default function V3ReportPage() {
                     </p>
                   </div>
                 </div>
-                <div className="mt-6 grid grid-cols-2 gap-x-6 gap-y-1 text-sm sm:grid-cols-4">
+                <div className="mt-6 grid max-w-md grid-cols-1 gap-x-8 gap-y-1.5 text-sm sm:grid-cols-2">
                   {(Object.entries(program.quadrantDist) as [V3Quadrant, number][]).map(
                     ([q, p]) => (
                       <div key={q} className="flex items-center justify-between gap-2">
