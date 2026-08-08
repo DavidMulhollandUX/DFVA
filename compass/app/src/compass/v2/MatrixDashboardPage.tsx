@@ -46,6 +46,10 @@ export default function MatrixDashboardPage() {
             across all {V2_META.total} assessed programs.{" "}
             <Link to="/insights/v1" className="text-secondary-muted-foreground underline">
               View the v1 insights hub
+            </Link>{" "}
+            ·{" "}
+            <Link to="/insights/v3/mc-is" className="text-secondary-muted-foreground underline">
+              Preview the v3 confidence-first report (MC-IS)
             </Link>
           </p>
         </div>

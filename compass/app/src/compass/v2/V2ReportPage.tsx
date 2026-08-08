@@ -526,9 +526,14 @@ export default function V2ReportPage() {
               {detail.source}
             </span>
           )}
-          <Link to="/insights" className="underline">
-            ← Back to the portfolio matrix
-          </Link>
+          <span className="flex gap-4">
+            <Link to="/insights/v3/mc-is" className="underline">
+              v3 preview (MC-IS)
+            </Link>
+            <Link to="/insights" className="underline">
+              ← Back to the portfolio matrix
+            </Link>
+          </span>
         </div>
       </div>
     </InsightsGate>

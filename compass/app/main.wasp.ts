@@ -22,6 +22,7 @@ import ReportDetailPage from "./src/compass/ReportDetailPage" with { type: "ref"
 import InsightsPage from "./src/compass/InsightsPage" with { type: "ref" };
 import MatrixDashboardPage from "./src/compass/v2/MatrixDashboardPage" with { type: "ref" };
 import V2ReportPage from "./src/compass/v2/V2ReportPage" with { type: "ref" };
+import V3ReportPage from "./src/compass/v3/V3ReportPage" with { type: "ref" };
 import PortfolioHealthPage from "./src/compass/PortfolioHealthPage" with { type: "ref" };
 import FacultyDashboard from "./src/compass/FacultyDashboard" with { type: "ref" };
 import DevPortalPage from "./src/compass/DevPortalPage" with { type: "ref" };
@@ -263,6 +264,7 @@ export default app({
     route("InsightsRoute", "/insights", page(MatrixDashboardPage)),
     route("InsightsV1Route", "/insights/v1", page(InsightsPage)),
     route("V2ReportRoute", "/insights/program/:code", page(V2ReportPage)),
+    route("V3ReportRoute", "/insights/v3/:code", page(V3ReportPage)),
     route(
       "PortfolioHealthRoute",
       "/insights/portfolio",
