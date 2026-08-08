@@ -1,0 +1,35 @@
+code,name,exposure_aioe,adaptiveness,items_at_ceiling,p_High_exposure_hi,p_Low_exposure_hi,p_High_exposure_lo,p_Low_exposure_lo,modal_quadrant,modal_p10,modal_p05,modal_p20,adapt_min,adapt_max,dist_to_adapt_median,near_boundary,stability_class
+746st,Master of Engineering Structures,91.09,10,2,0.79855,0.0,0.20145,0.0,High exposure · high adaptiveness,0.79855,0.88792,0.67165,5,13,0,True,boundary cluster
+mc-phtyph,Master of Physiotherapy (Pelvic Health),71.03,10,2,0.0,0.79855,0.0,0.20145,Low exposure · high adaptiveness,0.79855,0.88792,0.67165,5,13,0,True,boundary cluster
+mc-propsyc,Master of Professional Psychology,97.19,10,1,0.8062,0.0,0.1938,0.0,High exposure · high adaptiveness,0.8062,0.89011,0.6948,5,14,0,True,boundary cluster
+mc-gencoun,Master of Genetic Counselling,93.27,10,1,0.8062,0.0,0.1938,0.0,High exposure · high adaptiveness,0.8062,0.89011,0.6948,5,14,0,True,boundary cluster
+mc-dphysio,Doctor of Physiotherapy,71.03,10,1,0.0,0.8062,0.0,0.1938,Low exposure · high adaptiveness,0.8062,0.89011,0.6948,5,14,0,True,boundary cluster
+mc-scibit,Master of Biotechnology,86.37,10,1,0.0,0.8062,0.0,0.1938,Low exposure · high adaptiveness,0.8062,0.89011,0.6948,5,14,0,True,boundary cluster
+mc-envsc,Master of Environmental Science,83.13,10,1,0.0,0.8062,0.0,0.1938,Low exposure · high adaptiveness,0.8062,0.89011,0.6948,5,14,0,True,boundary cluster
+mc-nursc,Master of Nursing Science,72.69,10,1,0.0,0.8062,0.0,0.1938,Low exposure · high adaptiveness,0.8062,0.89011,0.6948,5,14,0,True,boundary cluster
+mc-jurisd,Juris Doctor,94.43,9,0,0.18645,0.0,0.81355,0.0,High exposure · low adaptiveness,0.81355,0.89225,0.71624,4,14,-1,True,boundary cluster
+mc-prop,Master of Property,89.89,9,0,0.0,0.18645,0.0,0.81355,Low exposure · low adaptiveness,0.81355,0.89225,0.71624,4,14,-1,True,boundary cluster
+439fs,Master of Food Science,79.43,9,0,0.0,0.18645,0.0,0.81355,Low exposure · low adaptiveness,0.81355,0.89225,0.71624,4,14,-1,True,boundary cluster
+mc-urbdes,Master of Urban Design,92.85,10,3,0.82953,0.0,0.17047,0.0,High exposure · high adaptiveness,0.82953,0.90774,0.7074,6,12,0,True,boundary cluster
+mc-ed,Master of Education,92.44,9,1,0.15242,0.0,0.84758,0.0,High exposure · low adaptiveness,0.84758,0.91279,0.76494,4,13,-1,True,boundary cluster
+mc-surged,Master of Surgical Education,92.44,9,1,0.15242,0.0,0.84758,0.0,High exposure · low adaptiveness,0.84758,0.91279,0.76494,4,13,-1,True,boundary cluster
+mc-ddensur,Doctor of Dental Surgery,63.32,11,2,0.0,0.97939,0.0,0.02061,Low exposure · high adaptiveness,0.97939,0.99432,0.93235,6,14,1,True,stable cluster
+mc-ba,Master of Business Administration,91.73,11,2,0.97939,0.0,0.02061,0.0,High exposure · high adaptiveness,0.97939,0.99432,0.93235,6,14,1,True,stable cluster
+mc-sciear,Master of Science (Earth Sciences),85.45,11,2,0.0,0.97939,0.0,0.02061,Low exposure · high adaptiveness,0.97939,0.99432,0.93235,6,14,1,True,stable cluster
+527cl,Master of Clinical Psychology,95.57,11,2,0.97939,0.0,0.02061,0.0,High exposure · high adaptiveness,0.97939,0.99432,0.93235,6,14,1,True,stable cluster
+mc-doptom,Doctor of Optometry,80.13,11,2,0.0,0.97939,0.0,0.02061,Low exposure · high adaptiveness,0.97939,0.99432,0.93235,6,14,1,True,stable cluster
+mc-datasc,Master of Data Science,94.94,11,1,0.98001,0.0,0.01999,0.0,High exposure · high adaptiveness,0.98001,0.99441,0.93646,6,15,1,True,stable cluster
+mc-journ,Master of Journalism,91.48,8,0,0.01938,0.0,0.98062,0.0,High exposure · low adaptiveness,0.98062,0.99449,0.94034,3,13,-2,True,stable cluster
+mc-is,Master of Information Systems,91.69,8,0,0.01938,0.0,0.98062,0.0,High exposure · low adaptiveness,0.98062,0.99449,0.94034,3,13,-2,True,stable cluster
+mc-tesol,Master of TESOL,93.99,8,0,0.01938,0.0,0.98062,0.0,High exposure · low adaptiveness,0.98062,0.99449,0.94034,3,13,-2,False,stable cluster
+mc-clind,Master of Clinical Dentistry,60.96,8,1,0.0,0.01234,0.0,0.98766,Low exposure · low adaptiveness,0.98766,0.9966,0.95961,4,12,-2,False,stable cluster
+mc-sciphy,Master of Science (Physics),94.39,12,3,0.99889,0.0,0.00111,0.0,High exposure · high adaptiveness,0.99889,0.99985,0.99215,7,14,2,False,stable cluster
+mc-sciche,Master of Science (Chemistry),78.96,12,3,0.0,0.99889,0.0,0.00111,Low exposure · high adaptiveness,0.99889,0.99985,0.99215,7,14,2,False,stable cluster
+mc-dmed,Doctor of Medicine,80.58,12,3,0.0,0.99889,0.0,0.00111,Low exposure · high adaptiveness,0.99889,0.99985,0.99215,7,14,2,False,stable cluster
+mc-dvetmed,Doctor of Veterinary Medicine,62.4,12,3,0.0,0.99889,0.0,0.00111,Low exposure · high adaptiveness,0.99889,0.99985,0.99215,7,14,2,False,stable cluster
+mc-apbusa,Master of Applied Business Analytics,90.73,12,2,0.0,0.99891,0.0,0.00109,Low exposure · high adaptiveness,0.99891,0.99985,0.99249,7,15,2,True,stable cluster
+mc-arch,Master of Architecture,87.99,13,4,0.0,0.99997,0.0,3e-05,Low exposure · high adaptiveness,0.99997,1.0,0.99955,8,14,3,False,stable cluster
+mc-intedib,Master of International Education (IB),92.44,6,0,3e-05,0.0,0.99997,0.0,High exposure · low adaptiveness,0.99997,1.0,0.99959,1,11,-4,True,stable cluster
+mc-base,Master of Advanced Social Enterprise,96.05,6,0,3e-05,0.0,0.99997,0.0,High exposure · low adaptiveness,0.99997,1.0,0.99959,1,11,-4,False,stable cluster
+mc-busana,Master of Business Analytics,90.73,14,4,0.0,1.0,0.0,0.0,Low exposure · high adaptiveness,1.0,1.0,0.99999,9,15,4,True,stable cluster
+mc-cs,Master of Computer Science,92.8,14,4,1.0,0.0,0.0,0.0,High exposure · high adaptiveness,1.0,1.0,0.99999,9,15,4,True,stable cluster

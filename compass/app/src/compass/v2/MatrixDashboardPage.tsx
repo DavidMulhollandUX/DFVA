@@ -50,6 +50,10 @@ export default function MatrixDashboardPage() {
             ·{" "}
             <Link to="/insights/v3/mc-is" className="text-secondary-muted-foreground underline">
               Preview the v3 confidence-first report (MC-IS)
+            </Link>{" "}
+            ·{" "}
+            <Link to="/insights/v31/mc-jurisd" className="text-secondary-muted-foreground underline">
+              Preview the v3.1 exact-stability report (Juris Doctor)
             </Link>
           </p>
         </div>

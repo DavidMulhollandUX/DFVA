@@ -693,6 +693,12 @@ export default function V3ReportPage() {
             {V3_META.exposureComputedAt}
           </span>
           <span className="flex gap-4">
+            <Link to={`/insights/v31/${program.code}`} className="underline">
+              v3.1 report (this program)
+            </Link>
+            <Link to="/insights/v31/mc-jurisd" className="underline">
+              v3.1 (Juris Doctor)
+            </Link>
             <Link to="/insights/program/mc-cs" className="underline">
               v2 report (MC-CS)
             </Link>
