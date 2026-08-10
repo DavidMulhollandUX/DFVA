@@ -4,7 +4,11 @@ import { V3_META, V3_PROGRAMS, v3ProgramByCode } from "../data/v3Programs";
 describe("v3 Panel A dataset invariants", () => {
   it("covers exactly the placed portfolio with pinned provenance", () => {
     expect(V3_PROGRAMS).toHaveLength(V3_META.placed);
-    expect(V3_META.placed).toBe(34);
+    // The externally validated cohort is fixed at 34; programs added later join
+    // the extension cohort and must never change this number.
+    expect(V3_META.referenceCohort).toBe(34);
+    expect(V3_PROGRAMS.filter((p) => p.cohort === "reference")).toHaveLength(34);
+    expect(V3_META.placed).toBe(V3_META.referenceCohort + V3_META.extensionCohort);
     // R1: the four required provenance fields are non-empty
     expect(V3_META.exposureIndexName).toBe("Felten-AIOE");
     expect(V3_META.exposureIndexVintage).toMatch(/AIOE_DataAppendix/);
@@ -64,15 +68,18 @@ describe("v3 Panel A dataset invariants", () => {
   });
 
   it("reproduces the August 2026 revision note exactly", () => {
+    // Checked over the reference cohort: the revision note describes those 34,
+    // and adding programs must leave every one of its results reproducible.
+    const reference = V3_PROGRAMS.filter((p) => p.cohort === "reference");
     const counts: Record<string, number> = {};
-    for (const p of V3_PROGRAMS) counts[p.quadrant] = (counts[p.quadrant] ?? 0) + 1;
+    for (const p of reference) counts[p.quadrant] = (counts[p.quadrant] ?? 0) + 1;
     expect(counts).toEqual({
       "well-positioned": 9,
       comfortable: 14,
       attention: 8,
       sheltered: 3,
     });
-    const flips = V3_PROGRAMS.filter((p) => p.quadrant !== p.v2Quadrant).length;
+    const flips = reference.filter((p) => p.quadrant !== p.v2Quadrant).length;
     expect(flips).toBe(20);
     expect(V3_META.adaptMedian).toBe(10);
     expect(V3_META.expMedian).toBe(90.9);

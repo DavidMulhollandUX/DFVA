@@ -420,6 +420,56 @@ The order of elements is normative (confidence-first, v3 §5.1, unchanged):
 
 Every v3.1 report links to the v3 report *for the same program* (same coordinates, sampled vs exact stability) and to the fixed three-generation demonstration chain — v2 (Master of Computer Science), v3 (Master of Information Systems), v3.1 (Juris Doctor) — one program per generation so display grammars are compared across, not within, subjects. The portfolio matrix links both previews. Unknown codes render the not-found page stating v3.1's coverage (the 34 placed programs).
 
+## 10a. Extending coverage: the extension-cohort protocol (2026-08-10)
+
+Placement requires matched alumni destination data. Of the 66 assessed
+programs, 34 were placed by the reconciliation package. An audit of the
+remaining 32 found the coverage limit is **data availability, not effort**:
+
+| Situation | Programs | Placeable? |
+| --- | --- | --- |
+| No JIR alumni record of any kind (all doctoral programs, and a few masters) | 19 | No — nothing to measure |
+| Map names a cognate or aggregate report, no own-program record | 10 | Only at a lower evidence tier |
+| Own-program alumni record exists and is usable | 3 | Yes — `mc-urbhort`, `b-des`, `b-sci` |
+
+`mc-urbhort` is placed in this pass. The blocking issue was a **defect in
+`docs/JIR/dfva_jir_map.json`**: it pointed at a non-existent "Doctor of Urban
+Horticulture" record while the program's own exact-name JIR report (n = 44,
+13 titles) sits in `data/jir_data.json` unused. `b-des` and `b-sci` report per
+major (6 and 23 records) and need their majors aggregated plus, respectively,
+48 and 117 new occupation mappings; they remain open.
+
+**Protocol.** A program added after the reference basis was fixed joins the
+*extension cohort* (`cohort: "extension"` in `v3Programs`), under three rules:
+
+1. **Identical measurement procedure.** Same index, same aggregation rules
+   (README.txt), same min-max rescaling — verified to reproduce the published
+   index to a maximum deviation of 0.005 across 281 checkable rows.
+2. **Thresholds are not re-based.** Positions are assigned against the
+   *reference medians* (exposure 90.9, adaptiveness 10) — the medians of the 34
+   externally validated programs. Re-basing on every addition would silently
+   re-position published programs; it is a deliberate act for the next full
+   assessment cycle. Both generators read the reference medians from one place
+   so they cannot disagree.
+3. **The validated basis stays provable.** The guards were narrowed to the
+   reference cohort rather than relaxed: the reconciliation CSV still validates
+   all 34 exposures to ±0.01 and all 34 quadrants; the v3.1 reference table
+   still reproduces 34/34 on every field; and the spec headline (14 boundary /
+   2 fail at e = 0.10 / 14 at e = 0.20 / 11 near threshold) is re-checked over
+   those 34 on every build. Portfolio-wide counts are now computed from the
+   data — `failSingleLabel` previously carried two hardcoded literals, which
+   would have silently misreported the moment the portfolio changed.
+
+New crosswalk mappings live in `data/aioe/v31_extension_crosswalk.csv` with a
+per-title confidence rating and a stated rationale, counted separately
+(`nExtension`) and disclosed on the program's own report page. Each mapped SOC
+code is validated against the published AIOE population at build time; an
+unmapped destination title fails the build rather than being dropped.
+
+**Known limitation.** Extension mappings are a third crosswalk vintage, so
+limitation L-v3-1 (level-comparability across crosswalk vintages) applies to
+them as it does to the inherited/new split already disclosed on every report.
+
 ## 11. Verification & reproducibility (as deployed)
 
 | Guard | Where enforced | Failure mode |

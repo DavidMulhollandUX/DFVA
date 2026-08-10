@@ -1,0 +1,13 @@
+occupation,onet_soc_code,onet_soc_title,ai_exposure_index,mapping_confidence,index_source,mapping_note
+City Greening Lead,19-1031,Conservation Scientists,65.25,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Leads urban vegetation/land-quality programs; no urban-greening occupation in SOC 2010.
+Consultant Urban Horticulturalist,19-1013,Soil and Plant Scientists,78.66,high,"Felten-AIOE (Appendix A, rescaled 0-100)","Horticultural science advice; 'consultant' is an engagement mode, not a different occupation."
+Graduate Landscape Designer,17-1012,Landscape Architects,88.25,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Landscape design work; 'graduate' is seniority.
+Horticultural Researcher,19-1013,Soil and Plant Scientists,78.66,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Plant science research.
+Horticulturalist,19-1013,Soil and Plant Scientists,78.66,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match to the plant-science occupation.
+Horticulturist,19-1013,Soil and Plant Scientists,78.66,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Spelling variant of Horticulturalist; same occupation.
+Landscape Designer & Horticulturist,17-1012,Landscape Architects,88.25,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",primary task is designing planted outdoor spaces; horticulture is the secondary element
+Open Space Planner,19-3051,Urban and Regional Planners,92.85,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Public open-space planning is urban/regional planning.
+Program Leader Arboriculture and Nursery,45-1011,"First-Line Supervisors/Managers of Farming, Fishing, and Forestry Workers",52.19,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Supervises arboriculture and nursery operations; could also read as Foresters (19-1032).
+Senior Soil Scientist,19-1013,Soil and Plant Scientists,78.66,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match; 'senior' is seniority.
+Sustainability Projects Officer,19-2041,"Environmental Scientists and Specialists, Including Health",87.77,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Environmental/sustainability project delivery; generic environmental-specialist bucket.
+Vertical Garden Specialist,19-1013,Soil and Plant Scientists,78.66,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Applied horticulture in built environments; no specific SOC 2010 occupation.

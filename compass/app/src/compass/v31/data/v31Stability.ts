@@ -42,14 +42,14 @@ export const V31_META: V31Meta = {
   },
   "stabilityClassCut": 0.9,
   "stabilityClassCutNote": "empirical empty band 0.848–0.979; any cut in [0.85, 0.98] gives the identical partition",
-  "boundaryCount": 14,
+  "boundaryCount": 15,
   "stableCount": 20,
   "failSingleLabel": {
     "optimistic": 0,
     "published": 2,
-    "pessimistic": 14
+    "pessimistic": 15
   },
-  "expMedian": 90.91,
+  "expMedian": 90.9,
   "adaptMedian": 10
 };
 
@@ -800,6 +800,28 @@ export const V31_STABILITY: V31Stability[] = [
     "itemsAtCeiling": 3,
     "stabilityClass": "boundary",
     "nearDisplayThreshold": false,
+    "distToAdaptMedian": 0
+  },
+  {
+    "code": "mc-urbhort",
+    "modalQuadrant": "comfortable",
+    "runnerUpQuadrant": "sheltered",
+    "quadrantDist": {
+      "well-positioned": 0,
+      "comfortable": 0.8062,
+      "attention": 0,
+      "sheltered": 0.1938
+    },
+    "modalProbability": 0.8062,
+    "modalProbabilityOptimistic": 0.89011,
+    "modalProbabilityPessimistic": 0.6948,
+    "adaptEnvelope": [
+      5,
+      14
+    ],
+    "itemsAtCeiling": 1,
+    "stabilityClass": "boundary",
+    "nearDisplayThreshold": true,
     "distToAdaptMedian": 0
   }
 ];

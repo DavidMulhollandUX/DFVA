@@ -270,6 +270,21 @@ export default function V31ReportPage() {
 
         <Card className="mb-6">
           <CardContent className="pt-6">
+            {program.cohort === "extension" && (
+              <div className="bg-card-accent text-muted-foreground mb-5 flex items-start gap-2 rounded-md p-3 text-sm">
+                <span className="text-foreground text-xs font-semibold tracking-wide uppercase">
+                  Basis
+                </span>
+                <span>
+                  This program was assessed after the reference portfolio was fixed. Its exposure is
+                  computed by the identical procedure, but{" "}
+                  {program.nExtension} of its {program.nTitles} destination titles were crosswalked
+                  in a later pass, and its position is measured against the reference portfolio's
+                  thresholds rather than re-basing them.{" "}
+                  {program.extensionNote}
+                </span>
+              </div>
+            )}
             <div className="flex flex-col gap-5">
               <div>
                 <CardLabel>The finding</CardLabel>
@@ -549,7 +564,7 @@ export default function V31ReportPage() {
                       <tr key={label} className="border-border border-b">
                         <td className="px-3 py-2">{label}</td>
                         <td className="px-3 py-2 font-mono">{m.toFixed(5)}</td>
-                        <td className="px-3 py-2 font-mono">{fails} of 34</td>
+                        <td className="px-3 py-2 font-mono">{fails} of {V3_META.placed}</td>
                       </tr>
                     ))}
                   </tbody>
@@ -558,9 +573,10 @@ export default function V31ReportPage() {
               <div className="bg-card-accent text-muted-foreground mt-4 flex items-start gap-2 rounded-md p-3 text-sm">
                 <span className="text-base">⚠</span>
                 <span>
-                  If raters agree at e ≈ 0.20, then 14 of 34 programs — not 2 — fail the
-                  single-label rule, and the current report understates instability for a third of
-                  the placed portfolio.
+                  If raters agree at e ≈ 0.20, then {V31_META.failSingleLabel.pessimistic} of{" "}
+                  {V3_META.placed} programs — not {V31_META.failSingleLabel.published} — fail the
+                  single-label rule, and the current report understates instability for a large
+                  share of the placed portfolio.
                 </span>
               </div>
             </CardContent>
@@ -641,10 +657,10 @@ export default function V31ReportPage() {
                       [
                         ["Stability computation", "20,000-draw Monte-Carlo, seeded RNG", "Exact enumeration of all 243 states — deterministic, seedless"],
                         ["Published count of boundary cases", "Seed-dependent (0, 1 or 2 across seeds)", "Exact: 2 programs below the 80% rule at e = 0.10"],
-                        ["Error-rate assumption", "Single rate e = 0.10, implicit", "Three rates published (0.05 / 0.10 / 0.20); headline moves 0 → 2 → 14 of 34"],
+                        ["Error-rate assumption", "Single rate e = 0.10, implicit", `Three rates published (0.05 / 0.10 / 0.20); headline moves ${V31_META.failSingleLabel.optimistic} → ${V31_META.failSingleLabel.published} → ${V31_META.failSingleLabel.pessimistic} of ${V3_META.placed}`],
                         ["Adaptiveness interval", "Observed range across draws", `Exact reachable envelope (${s.adaptEnvelope[0]}–${s.adaptEnvelope[1]} for this program)`],
                         ["Stability summary", "Modal probability only", `Position-confidence class from the empirical empty band (this program: ${confidenceLabel})`],
-                        ["Near-threshold disclosure", "None", "Mandatory note within 0.02 of a display threshold (11 of 34 trigger)"],
+                        ["Near-threshold disclosure", "None", "Mandatory note within 0.02 of a display threshold"],
                         ["Clamping asymmetry", "Implicit", "Disclosed: 31% of items at ceiling, net drift −0.075, label-equivalent to symmetric alternative"],
                       ] as [string, string, string][]
                     ).map(([k, a, b]) => (

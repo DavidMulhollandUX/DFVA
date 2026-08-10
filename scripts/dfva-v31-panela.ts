@@ -23,6 +23,7 @@
 import * as fs from "fs";
 import * as path from "path";
 import {
+  V3_META,
   V3_PROGRAMS,
   type V3Quadrant,
 } from "../compass/app/src/compass/v3/data/v3Programs";
@@ -46,8 +47,13 @@ const median = (xs: number[]) => {
   return s.length % 2 ? s[m] : (s[m - 1] + s[m]) / 2;
 };
 
-const expMedian = median(V3_PROGRAMS.map((p) => p.exposure));
-const adaptMedian = median(V3_PROGRAMS.map((p) => p.adaptiveness));
+// Thresholds are the REFERENCE medians published in V3_META — the medians of
+// the externally validated cohort. Recomputing them here over the extended set
+// would silently re-position published programs and would disagree with the
+// placement in v3Programs. Re-basing is a deliberate act for the next full
+// assessment cycle, not a side effect of adding a program.
+const expMedian = V3_META.expMedian;
+const adaptMedian = V3_META.adaptMedian;
 
 const quadrantOf = (exposure: number, adapt: number): V3Quadrant =>
   exposure > expMedian
@@ -128,8 +134,22 @@ const REF_QUADRANT: Record<string, V3Quadrant> = {
   "High exposure · low adaptiveness": "attention",
   "Low exposure · low adaptiveness": "sheltered",
 };
+// The reference table covers the externally validated cohort. Extension-cohort
+// programs (added after it was fixed) have no reference row by construction, so
+// the reference is checked as a subset: every reference row must be reproduced
+// exactly, and any computed row without one is reported rather than silently
+// accepted.
 const ref = parseCsv("data/aioe/v31_reference_position_stability.csv");
-if (ref.length !== rows.length) throw new Error(`reference has ${ref.length} rows, computed ${rows.length}`);
+if (ref.length > rows.length) {
+  throw new Error(`reference has ${ref.length} rows but only ${rows.length} computed`);
+}
+const refCodes = new Set(ref.map((r) => r.code));
+const unreferenced = rows.filter((r) => !refCodes.has(r.code)).map((r) => r.code);
+if (unreferenced.length) {
+  console.log(
+    `extension cohort (no reference row, computed by the same enumeration): ${unreferenced.join(", ")}`,
+  );
+}
 for (const r of ref) {
   const row = rows.find((x) => x.code === r.code);
   if (!row) throw new Error(`reference code ${r.code} not computed`);
@@ -160,7 +180,23 @@ console.log(`reference table reproduced exactly: ${ref.length}/34 programs, all 
 const nBoundary = rows.filter((r) => r.stabilityClass === "boundary").length;
 const nFail80 = rows.filter((r) => r.modalProbability < 0.8).length;
 const nNearThreshold = rows.filter((r) => r.nearDisplayThreshold).length;
-console.log(`boundary class: ${nBoundary} (spec: 14) · fail m>=0.80 at e=0.10: ${nFail80} (spec: 2) · near display threshold: ${nNearThreshold} (spec: 11)`);
+// All three rates are counted from the data — none is carried as a literal, so
+// the published headline cannot drift from the dataset it describes.
+const nFail80Optimistic = rows.filter((r) => r.modalProbabilityOptimistic < 0.8).length;
+const nFail80Pessimistic = rows.filter((r) => r.modalProbabilityPessimistic < 0.8).length;
+console.log(`boundary class: ${nBoundary} · fail m>=0.80: ${nFail80Optimistic} optimistic / ${nFail80} published / ${nFail80Pessimistic} pessimistic · near display threshold: ${nNearThreshold}`);
+// The spec's headline describes the reference cohort; verify it still holds there.
+const refOnly = rows.filter((r) => refCodes.has(r.code));
+const specChecks: [string, number, number][] = [
+  ["boundary", refOnly.filter((r) => r.stabilityClass === "boundary").length, 14],
+  ["fail m>=0.80 (e=0.10)", refOnly.filter((r) => r.modalProbability < 0.8).length, 2],
+  ["fail m>=0.80 (e=0.20)", refOnly.filter((r) => r.modalProbabilityPessimistic < 0.8).length, 14],
+  ["near display threshold", refOnly.filter((r) => r.nearDisplayThreshold).length, 11],
+];
+for (const [label, got, want] of specChecks) {
+  if (got !== want) throw new Error(`reference cohort ${label}: ${got} vs spec ${want}`);
+}
+console.log(`reference cohort still reproduces the spec headline: 14 boundary / 2 fail / 14 at e=0.20 / 11 near threshold`);
 
 // --- emit ---
 function buildModule(): string {
@@ -171,7 +207,7 @@ function buildModule(): string {
     stabilityClassCutNote: "empirical empty band 0.848–0.979; any cut in [0.85, 0.98] gives the identical partition",
     boundaryCount: nBoundary,
     stableCount: rows.length - nBoundary,
-    failSingleLabel: { optimistic: 0, published: nFail80, pessimistic: 14 },
+    failSingleLabel: { optimistic: nFail80Optimistic, published: nFail80, pessimistic: nFail80Pessimistic },
     expMedian: Math.round(expMedian * 100) / 100,
     adaptMedian,
   };

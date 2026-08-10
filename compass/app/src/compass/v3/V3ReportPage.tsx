@@ -707,7 +707,7 @@ export default function V3ReportPage() {
                       ],
                       [
                         "crosswalk_mix",
-                        `${program.nInherited} titles via inherited 288-title index · ${program.nNewlyMapped} newly mapped Aug 2026`,
+                        `${program.nInherited} titles via inherited 288-title index · ${program.nNewlyMapped} newly mapped Aug 2026${program.nExtension ? ` · ${program.nExtension} mapped in the extension pass` : ""}`,
                       ],
                       ["crosswalk_authored", V3_META.crosswalkAuthored],
                     ] as [string, string][]
@@ -756,8 +756,8 @@ export default function V3ReportPage() {
               {quadrantMoved
                 ? `this program's position changes (${program.v2Quadrant} → ${program.quadrant})`
                 : `this program's position holds (${V3_QUADRANT_LABELS[program.quadrant].measured.toLowerCase()}), now with a stated ${Math.round(program.modalProb * 100)}% stability`}
-              . Across the portfolio, 20 of 34 placed programs change quadrant
-              under the authoritative index.
+              . Across the reference cohort, 20 of 34 placed programs change
+              quadrant under the authoritative index.
             </p>
             <div className="overflow-x-auto">
               <table className="w-full border-collapse text-sm">

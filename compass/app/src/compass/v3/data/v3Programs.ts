@@ -13,7 +13,7 @@ export interface V3Destination {
   socTitle: string;
   aioe: number;
   confidence: "high" | "medium" | "low";
-  crosswalkSource: "preexisting_288" | "new_this_session";
+  crosswalkSource: "preexisting_288" | "new_this_session" | "extension_2026_08";
   stages: string[];
 }
 
@@ -33,6 +33,14 @@ export interface V3Program {
   nMedium: number;
   nInherited: number;
   nNewlyMapped: number;
+  /** Titles crosswalked in the extension pass (0 for the reference cohort). */
+  nExtension: number;
+  /** How this program's alumni destination data was matched to it. */
+  matchTier: "exact" | "aggregate-own-majors";
+  /** Set only for extension-cohort programs; explains the basis on the report. */
+  extensionNote: string | null;
+  /** "reference" = the externally validated 34 the medians derive from. */
+  cohort: "reference" | "extension";
   adaptiveness: number;
   dimensionScores: { D2: number; D3: number; D7: number; B: number; D5: number };
   gateD4: "PASS" | "FAIL";
@@ -55,6 +63,8 @@ export interface V3Meta {
   crosswalkAuthored: string;
   perturbation: { draws: number; pPerturb: number; items: string[] };
   placed: number;
+  referenceCohort: number;
+  extensionCohort: number;
   total: number;
   expMedian: number;
   adaptMedian: number;
@@ -67,9 +77,9 @@ export const V3_META: V3Meta = {
   "exposureIndexName": "Felten-AIOE",
   "exposureIndexVintage": "AIOE_DataAppendix.xlsx @ AIOE-Data/AIOE main (n=773, z −2.670…1.528)",
   "exposureRescaling": "min-max 0-100 over published population",
-  "exposureComputedAt": "2026-08-08",
+  "exposureComputedAt": "2026-08-10",
   "destinationBasis": "JIR/LiveAlumni alumni titles (all placed programs); JSA HEO not used on this axis",
-  "crosswalkAuthored": "inherited 288-title index + 80 titles mapped Aug 2026 (reconciliation package)",
+  "crosswalkAuthored": "inherited 288-title index + 80 titles mapped Aug 2026 (reconciliation package) + 12 titles mapped for the extension cohort",
   "perturbation": {
     "draws": 20000,
     "pPerturb": 0.1,
@@ -81,7 +91,9 @@ export const V3_META: V3Meta = {
       "D5"
     ]
   },
-  "placed": 34,
+  "placed": 35,
+  "referenceCohort": 34,
+  "extensionCohort": 1,
   "total": 66,
   "expMedian": 90.9,
   "adaptMedian": 10,
@@ -110,6 +122,10 @@ export const V3_PROGRAMS: V3Program[] = [
     "nMedium": 13,
     "nInherited": 15,
     "nNewlyMapped": 0,
+    "nExtension": 0,
+    "matchTier": "exact",
+    "extensionNote": null,
+    "cohort": "reference",
     "adaptiveness": 9,
     "dimensionScores": {
       "D2": 2,
@@ -318,6 +334,10 @@ export const V3_PROGRAMS: V3Program[] = [
     "nMedium": 13,
     "nInherited": 15,
     "nNewlyMapped": 0,
+    "nExtension": 0,
+    "matchTier": "exact",
+    "extensionNote": null,
+    "cohort": "reference",
     "adaptiveness": 11,
     "dimensionScores": {
       "D2": 2,
@@ -526,6 +546,10 @@ export const V3_PROGRAMS: V3Program[] = [
     "nMedium": 4,
     "nInherited": 2,
     "nNewlyMapped": 13,
+    "nExtension": 0,
+    "matchTier": "exact",
+    "extensionNote": null,
+    "cohort": "reference",
     "adaptiveness": 10,
     "dimensionScores": {
       "D2": 3,
@@ -734,6 +758,10 @@ export const V3_PROGRAMS: V3Program[] = [
     "nMedium": 7,
     "nInherited": 7,
     "nNewlyMapped": 6,
+    "nExtension": 0,
+    "matchTier": "exact",
+    "extensionNote": null,
+    "cohort": "reference",
     "adaptiveness": 12,
     "dimensionScores": {
       "D2": 2,
@@ -920,6 +948,10 @@ export const V3_PROGRAMS: V3Program[] = [
     "nMedium": 7,
     "nInherited": 15,
     "nNewlyMapped": 0,
+    "nExtension": 0,
+    "matchTier": "exact",
+    "extensionNote": null,
+    "cohort": "reference",
     "adaptiveness": 13,
     "dimensionScores": {
       "D2": 3,
@@ -1128,6 +1160,10 @@ export const V3_PROGRAMS: V3Program[] = [
     "nMedium": 9,
     "nInherited": 15,
     "nNewlyMapped": 0,
+    "nExtension": 0,
+    "matchTier": "exact",
+    "extensionNote": null,
+    "cohort": "reference",
     "adaptiveness": 11,
     "dimensionScores": {
       "D2": 2,
@@ -1336,6 +1372,10 @@ export const V3_PROGRAMS: V3Program[] = [
     "nMedium": 13,
     "nInherited": 13,
     "nNewlyMapped": 0,
+    "nExtension": 0,
+    "matchTier": "exact",
+    "extensionNote": null,
+    "cohort": "reference",
     "adaptiveness": 6,
     "dimensionScores": {
       "D2": 2,
@@ -1522,6 +1562,10 @@ export const V3_PROGRAMS: V3Program[] = [
     "nMedium": 7,
     "nInherited": 7,
     "nNewlyMapped": 6,
+    "nExtension": 0,
+    "matchTier": "exact",
+    "extensionNote": null,
+    "cohort": "reference",
     "adaptiveness": 14,
     "dimensionScores": {
       "D2": 3,
@@ -1708,6 +1752,10 @@ export const V3_PROGRAMS: V3Program[] = [
     "nMedium": 9,
     "nInherited": 15,
     "nNewlyMapped": 0,
+    "nExtension": 0,
+    "matchTier": "exact",
+    "extensionNote": null,
+    "cohort": "reference",
     "adaptiveness": 8,
     "dimensionScores": {
       "D2": 1,
@@ -1916,6 +1964,10 @@ export const V3_PROGRAMS: V3Program[] = [
     "nMedium": 11,
     "nInherited": 15,
     "nNewlyMapped": 0,
+    "nExtension": 0,
+    "matchTier": "exact",
+    "extensionNote": null,
+    "cohort": "reference",
     "adaptiveness": 14,
     "dimensionScores": {
       "D2": 2,
@@ -2124,6 +2176,10 @@ export const V3_PROGRAMS: V3Program[] = [
     "nMedium": 14,
     "nInherited": 15,
     "nNewlyMapped": 0,
+    "nExtension": 0,
+    "matchTier": "exact",
+    "extensionNote": null,
+    "cohort": "reference",
     "adaptiveness": 11,
     "dimensionScores": {
       "D2": 2,
@@ -2332,6 +2388,10 @@ export const V3_PROGRAMS: V3Program[] = [
     "nMedium": 3,
     "nInherited": 3,
     "nNewlyMapped": 9,
+    "nExtension": 0,
+    "matchTier": "exact",
+    "extensionNote": null,
+    "cohort": "reference",
     "adaptiveness": 11,
     "dimensionScores": {
       "D2": 2,
@@ -2507,6 +2567,10 @@ export const V3_PROGRAMS: V3Program[] = [
     "nMedium": 12,
     "nInherited": 15,
     "nNewlyMapped": 0,
+    "nExtension": 0,
+    "matchTier": "exact",
+    "extensionNote": null,
+    "cohort": "reference",
     "adaptiveness": 12,
     "dimensionScores": {
       "D2": 3,
@@ -2715,6 +2779,10 @@ export const V3_PROGRAMS: V3Program[] = [
     "nMedium": 4,
     "nInherited": 2,
     "nNewlyMapped": 13,
+    "nExtension": 0,
+    "matchTier": "exact",
+    "extensionNote": null,
+    "cohort": "reference",
     "adaptiveness": 11,
     "dimensionScores": {
       "D2": 2,
@@ -2923,6 +2991,10 @@ export const V3_PROGRAMS: V3Program[] = [
     "nMedium": 5,
     "nInherited": 11,
     "nNewlyMapped": 0,
+    "nExtension": 0,
+    "matchTier": "exact",
+    "extensionNote": null,
+    "cohort": "reference",
     "adaptiveness": 10,
     "dimensionScores": {
       "D2": 2,
@@ -3087,6 +3159,10 @@ export const V3_PROGRAMS: V3Program[] = [
     "nMedium": 1,
     "nInherited": 1,
     "nNewlyMapped": 11,
+    "nExtension": 0,
+    "matchTier": "exact",
+    "extensionNote": null,
+    "cohort": "reference",
     "adaptiveness": 12,
     "dimensionScores": {
       "D2": 3,
@@ -3262,6 +3338,10 @@ export const V3_PROGRAMS: V3Program[] = [
     "nMedium": 11,
     "nInherited": 15,
     "nNewlyMapped": 0,
+    "nExtension": 0,
+    "matchTier": "exact",
+    "extensionNote": null,
+    "cohort": "reference",
     "adaptiveness": 9,
     "dimensionScores": {
       "D2": 2,
@@ -3470,6 +3550,10 @@ export const V3_PROGRAMS: V3Program[] = [
     "nMedium": 9,
     "nInherited": 15,
     "nNewlyMapped": 0,
+    "nExtension": 0,
+    "matchTier": "exact",
+    "extensionNote": null,
+    "cohort": "reference",
     "adaptiveness": 10,
     "dimensionScores": {
       "D2": 3,
@@ -3678,6 +3762,10 @@ export const V3_PROGRAMS: V3Program[] = [
     "nMedium": 10,
     "nInherited": 15,
     "nNewlyMapped": 0,
+    "nExtension": 0,
+    "matchTier": "exact",
+    "extensionNote": null,
+    "cohort": "reference",
     "adaptiveness": 10,
     "dimensionScores": {
       "D2": 2,
@@ -3886,6 +3974,10 @@ export const V3_PROGRAMS: V3Program[] = [
     "nMedium": 11,
     "nInherited": 15,
     "nNewlyMapped": 0,
+    "nExtension": 0,
+    "matchTier": "exact",
+    "extensionNote": null,
+    "cohort": "reference",
     "adaptiveness": 6,
     "dimensionScores": {
       "D2": 2,
@@ -4094,6 +4186,10 @@ export const V3_PROGRAMS: V3Program[] = [
     "nMedium": 10,
     "nInherited": 14,
     "nNewlyMapped": 0,
+    "nExtension": 0,
+    "matchTier": "exact",
+    "extensionNote": null,
+    "cohort": "reference",
     "adaptiveness": 8,
     "dimensionScores": {
       "D2": 2,
@@ -4291,6 +4387,10 @@ export const V3_PROGRAMS: V3Program[] = [
     "nMedium": 3,
     "nInherited": 15,
     "nNewlyMapped": 0,
+    "nExtension": 0,
+    "matchTier": "exact",
+    "extensionNote": null,
+    "cohort": "reference",
     "adaptiveness": 8,
     "dimensionScores": {
       "D2": 2,
@@ -4499,6 +4599,10 @@ export const V3_PROGRAMS: V3Program[] = [
     "nMedium": 7,
     "nInherited": 15,
     "nNewlyMapped": 0,
+    "nExtension": 0,
+    "matchTier": "exact",
+    "extensionNote": null,
+    "cohort": "reference",
     "adaptiveness": 9,
     "dimensionScores": {
       "D2": 2,
@@ -4707,6 +4811,10 @@ export const V3_PROGRAMS: V3Program[] = [
     "nMedium": 3,
     "nInherited": 14,
     "nNewlyMapped": 0,
+    "nExtension": 0,
+    "matchTier": "exact",
+    "extensionNote": null,
+    "cohort": "reference",
     "adaptiveness": 10,
     "dimensionScores": {
       "D2": 2,
@@ -4904,6 +5012,10 @@ export const V3_PROGRAMS: V3Program[] = [
     "nMedium": 5,
     "nInherited": 11,
     "nNewlyMapped": 0,
+    "nExtension": 0,
+    "matchTier": "exact",
+    "extensionNote": null,
+    "cohort": "reference",
     "adaptiveness": 10,
     "dimensionScores": {
       "D2": 1,
@@ -5068,6 +5180,10 @@ export const V3_PROGRAMS: V3Program[] = [
     "nMedium": 9,
     "nInherited": 15,
     "nNewlyMapped": 0,
+    "nExtension": 0,
+    "matchTier": "exact",
+    "extensionNote": null,
+    "cohort": "reference",
     "adaptiveness": 9,
     "dimensionScores": {
       "D2": 2,
@@ -5276,6 +5392,10 @@ export const V3_PROGRAMS: V3Program[] = [
     "nMedium": 7,
     "nInherited": 14,
     "nNewlyMapped": 0,
+    "nExtension": 0,
+    "matchTier": "exact",
+    "extensionNote": null,
+    "cohort": "reference",
     "adaptiveness": 10,
     "dimensionScores": {
       "D2": 2,
@@ -5473,6 +5593,10 @@ export const V3_PROGRAMS: V3Program[] = [
     "nMedium": 12,
     "nInherited": 15,
     "nNewlyMapped": 0,
+    "nExtension": 0,
+    "matchTier": "exact",
+    "extensionNote": null,
+    "cohort": "reference",
     "adaptiveness": 10,
     "dimensionScores": {
       "D2": 2,
@@ -5681,6 +5805,10 @@ export const V3_PROGRAMS: V3Program[] = [
     "nMedium": 6,
     "nInherited": 5,
     "nNewlyMapped": 9,
+    "nExtension": 0,
+    "matchTier": "exact",
+    "extensionNote": null,
+    "cohort": "reference",
     "adaptiveness": 12,
     "dimensionScores": {
       "D2": 2,
@@ -5878,6 +6006,10 @@ export const V3_PROGRAMS: V3Program[] = [
     "nMedium": 2,
     "nInherited": 2,
     "nNewlyMapped": 13,
+    "nExtension": 0,
+    "matchTier": "exact",
+    "extensionNote": null,
+    "cohort": "reference",
     "adaptiveness": 11,
     "dimensionScores": {
       "D2": 2,
@@ -6086,6 +6218,10 @@ export const V3_PROGRAMS: V3Program[] = [
     "nMedium": 8,
     "nInherited": 8,
     "nNewlyMapped": 7,
+    "nExtension": 0,
+    "matchTier": "exact",
+    "extensionNote": null,
+    "cohort": "reference",
     "adaptiveness": 12,
     "dimensionScores": {
       "D2": 2,
@@ -6294,6 +6430,10 @@ export const V3_PROGRAMS: V3Program[] = [
     "nMedium": 11,
     "nInherited": 15,
     "nNewlyMapped": 0,
+    "nExtension": 0,
+    "matchTier": "exact",
+    "extensionNote": null,
+    "cohort": "reference",
     "adaptiveness": 9,
     "dimensionScores": {
       "D2": 2,
@@ -6502,6 +6642,10 @@ export const V3_PROGRAMS: V3Program[] = [
     "nMedium": 5,
     "nInherited": 15,
     "nNewlyMapped": 0,
+    "nExtension": 0,
+    "matchTier": "exact",
+    "extensionNote": null,
+    "cohort": "reference",
     "adaptiveness": 8,
     "dimensionScores": {
       "D2": 2,
@@ -6710,6 +6854,10 @@ export const V3_PROGRAMS: V3Program[] = [
     "nMedium": 6,
     "nInherited": 15,
     "nNewlyMapped": 0,
+    "nExtension": 0,
+    "matchTier": "exact",
+    "extensionNote": null,
+    "cohort": "reference",
     "adaptiveness": 10,
     "dimensionScores": {
       "D2": 3,
@@ -6896,6 +7044,196 @@ export const V3_PROGRAMS: V3Program[] = [
         "aioe": 92.85,
         "confidence": "high",
         "crosswalkSource": "preexisting_288",
+        "stages": [
+          "senior"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "mc-urbhort",
+    "name": "Master of Urban Horticulture",
+    "faculty": "Science",
+    "v1Score": 24,
+    "v1Band": "MODERATE RISK",
+    "v2Exposure": null,
+    "v2Quadrant": "no-exposure",
+    "exposure": 79.91,
+    "entryExposure": 85.22,
+    "jirN": 44,
+    "coverage": 1,
+    "nTitles": 13,
+    "nMedium": 6,
+    "nInherited": 1,
+    "nNewlyMapped": 0,
+    "nExtension": 12,
+    "matchTier": "exact",
+    "extensionNote": "Map correction: dfva_jir_map pointed at a non-existent 'Doctor of Urban Horticulture' record while the program's own exact-name JIR report exists.",
+    "cohort": "extension",
+    "adaptiveness": 10,
+    "dimensionScores": {
+      "D2": 3,
+      "D3": 2,
+      "D7": 2,
+      "B": 2,
+      "D5": 1
+    },
+    "gateD4": "PASS",
+    "gateD6": "PASS",
+    "quadrant": "comfortable",
+    "quadrantDist": {
+      "well-positioned": 0,
+      "comfortable": 0.807,
+      "attention": 0,
+      "sheltered": 0.193
+    },
+    "modalProb": 0.807,
+    "runnerUpQuadrant": "sheltered",
+    "adaptInterval": [
+      7,
+      13
+    ],
+    "nearBoundary": true,
+    "destinations": [
+      {
+        "title": "Horticulturist",
+        "soc": "19-1013",
+        "socTitle": "Soil and Plant Scientists",
+        "aioe": 78.66,
+        "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Graduate Landscape Designer",
+        "soc": "17-1012",
+        "socTitle": "Landscape Architects",
+        "aioe": 88.25,
+        "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Landscape Designer & Horticulturist",
+        "soc": "17-1012",
+        "socTitle": "Landscape Architects",
+        "aioe": 88.25,
+        "confidence": "medium",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Vertical Garden Specialist",
+        "soc": "19-1013",
+        "socTitle": "Soil and Plant Scientists",
+        "aioe": 78.66,
+        "confidence": "medium",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Research Assistant",
+        "soc": "19-4061",
+        "socTitle": "Social Science Research Assistants",
+        "aioe": 92.3,
+        "confidence": "medium",
+        "crosswalkSource": "preexisting_288",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Horticulturalist",
+        "soc": "19-1013",
+        "socTitle": "Soil and Plant Scientists",
+        "aioe": 78.66,
+        "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "early"
+        ]
+      },
+      {
+        "title": "Horticultural Researcher",
+        "soc": "19-1013",
+        "socTitle": "Soil and Plant Scientists",
+        "aioe": 78.66,
+        "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "early"
+        ]
+      },
+      {
+        "title": "Consultant Urban Horticulturalist",
+        "soc": "19-1013",
+        "socTitle": "Soil and Plant Scientists",
+        "aioe": 78.66,
+        "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "early"
+        ]
+      },
+      {
+        "title": "Sustainability Projects Officer",
+        "soc": "19-2041",
+        "socTitle": "Environmental Scientists and Specialists, Including Health",
+        "aioe": 87.77,
+        "confidence": "medium",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "early"
+        ]
+      },
+      {
+        "title": "Open Space Planner",
+        "soc": "19-3051",
+        "socTitle": "Urban and Regional Planners",
+        "aioe": 92.85,
+        "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "senior"
+        ]
+      },
+      {
+        "title": "Program Leader Arboriculture and Nursery",
+        "soc": "45-1011",
+        "socTitle": "First-Line Supervisors/Managers of Farming, Fishing, and Forestry Workers",
+        "aioe": 52.19,
+        "confidence": "medium",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "senior"
+        ]
+      },
+      {
+        "title": "City Greening Lead",
+        "soc": "19-1031",
+        "socTitle": "Conservation Scientists",
+        "aioe": 65.25,
+        "confidence": "medium",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "senior"
+        ]
+      },
+      {
+        "title": "Senior Soil Scientist",
+        "soc": "19-1013",
+        "socTitle": "Soil and Plant Scientists",
+        "aioe": 78.66,
+        "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
         "stages": [
           "senior"
         ]
