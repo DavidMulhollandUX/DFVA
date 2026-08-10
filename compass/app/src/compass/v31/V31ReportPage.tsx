@@ -2,8 +2,10 @@ import { Link, useParams } from "react-router";
 import { Card, CardContent, CardTitle } from "../../client/components/ui/card";
 import { InsightsGate } from "../InsightsGate";
 import { MethodGlossary } from "../MethodGlossary";
+import { DIMENSION_EVIDENCE } from "../data/dimensionEvidence";
 import { MatrixAreaLabels } from "../matrixAreaLabels";
 import { findingFor } from "../reportFindings";
+import { PANEL_C_RUBRIC } from "../v3/data/panelCRubric";
 import { ReportMarkdownCard } from "../v2/components/ReportMarkdownCard";
 import { DIMENSION_LABELS, QUADRANTS } from "../v2/quadrants";
 import {
@@ -58,6 +60,84 @@ function MethodDetails({ summary, children }: { summary: string; children: React
         {summary}
       </summary>
       <div className="px-2 pb-2">{children}</div>
+    </details>
+  );
+}
+
+/** One Panel C dimension as an expandable row: the score bar, and behind it
+ * the published 0–3 rating anchors (awarded level highlighted) plus the
+ * assessor's evidence for this program. Stacked layout — no wide tables —
+ * so it reads on a phone. */
+function RatedDimension({
+  programCode,
+  dim,
+  score,
+}: {
+  programCode: string;
+  dim: string;
+  score: number;
+}) {
+  const rubric = PANEL_C_RUBRIC[dim];
+  const rationale = DIMENSION_EVIDENCE[`dfva-${programCode}`]?.[dim]?.rationale;
+  if (!rubric) return <DimBar code={dim} score={score} />;
+  return (
+    <details className="group" data-testid={`rated-dim-${dim}`}>
+      <summary className="flex cursor-pointer list-none items-center gap-2 [&::-webkit-details-marker]:hidden">
+        <span
+          aria-hidden="true"
+          className="text-muted-foreground shrink-0 text-xs transition-transform group-open:rotate-90"
+        >
+          ▶
+        </span>
+        <div className="min-w-0 flex-1">
+          <DimBar code={dim} score={score} />
+        </div>
+      </summary>
+      <div className="bg-card-accent mt-2 mb-1 ml-5 rounded-md p-3">
+        <p className="text-muted-foreground text-xs italic">{rubric.definition}</p>
+        <p className="text-muted-foreground mt-3 mb-1.5 text-[10px] font-semibold tracking-[0.18em] uppercase">
+          How the levels are anchored
+        </p>
+        <ol className="flex flex-col gap-1.5">
+          {rubric.levels.map((anchor, level) => {
+            const awarded = level === score;
+            return (
+              <li
+                key={level}
+                className={`flex items-start gap-2 rounded-md p-1.5 text-sm ${
+                  awarded
+                    ? "bg-background border-secondary border-l-2 font-medium"
+                    : "text-muted-foreground"
+                }`}
+              >
+                <span
+                  className={`mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full font-mono text-xs font-semibold ${
+                    awarded ? "bg-secondary/20 text-foreground" : "bg-muted"
+                  }`}
+                >
+                  {level}
+                </span>
+                <span className="min-w-0">
+                  {anchor}
+                  {awarded && (
+                    <span className="text-secondary-muted-foreground ml-1.5 text-xs font-semibold whitespace-nowrap">
+                      ← this program
+                    </span>
+                  )}
+                </span>
+              </li>
+            );
+          })}
+        </ol>
+        {rationale && (
+          <>
+            <p className="text-muted-foreground mt-3 mb-1 text-[10px] font-semibold tracking-[0.18em] uppercase">
+              Evidence for this rating
+            </p>
+            <p className="text-foreground text-sm leading-relaxed">{rationale}</p>
+          </>
+        )}
+      </div>
     </details>
   );
 }
@@ -364,12 +444,15 @@ export default function V31ReportPage() {
             <CardLabel>Curriculum Adaptiveness — the scored axis</CardLabel>
             <CardTitle className="text-lg">Where the defences are, and aren't</CardTitle>
             <p className="text-muted-foreground mt-1 mb-6 text-sm">
-              Scored from curriculum evidence, 0–3 per dimension. The precision analysis in Part C
-              quantifies what a ±1 rating difference on these items would do to the position.
+              Scored from curriculum evidence, 0–3 per dimension. Tap a dimension
+              to see how the four levels are anchored and the evidence behind
+              this program's score. The precision analysis in Part C quantifies
+              what a ±1 rating difference on these items would do to the
+              position.
             </p>
             <div className="flex flex-col gap-3">
               {(Object.entries(program.dimensionScores) as [string, number][]).map(([d, sc]) => (
-                <DimBar key={d} code={d} score={sc} />
+                <RatedDimension key={d} programCode={program.code} dim={d} score={sc} />
               ))}
             </div>
             <div className="border-border mt-4 flex items-center justify-between border-t pt-4">

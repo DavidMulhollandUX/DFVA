@@ -319,6 +319,15 @@ The quadrant function and tie rule are restated in the generator identically to 
 >    rather than 6-column tables (U4). Footer links are labelled by destination
 >    and purpose (U12).
 >
+> 8. **Rating anchors on the report (2026-08-08 addition).** Each Panel C
+>    dimension row expands in place to show the published 0–3 rubric anchors
+>    with the awarded level highlighted ("← this program") and the assessor's
+>    evidence rationale for this program — restoring the v1 report's
+>    rubric-transparency in a stacked, mobile-first layout (no wide tables).
+>    Anchor texts mirror `dfva/source/rubric.ts` via
+>    `src/compass/v3/data/panelCRubric.ts`; rationales come from the generated
+>    `dimensionEvidence` module.
+>
 > The same principles were applied to the v3 and v2 report pages (v1 left
 > unchanged). §10.2 below describes the pre-revision composition order and is
 > superseded by the three-part structure where they conflict.
