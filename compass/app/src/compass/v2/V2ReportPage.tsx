@@ -7,6 +7,7 @@ import {
 } from "../../client/components/ui/card";
 import { InsightsGate } from "../InsightsGate";
 import { MethodGlossary } from "../MethodGlossary";
+import { SourceReferences } from "../SourceReferences";
 import { ExposureMatrix } from "./components/ExposureMatrix";
 import { ReportMarkdownCard } from "./components/ReportMarkdownCard";
 import { V2_META, V2_PROGRAMS, programByCode } from "./data/v2Programs";
@@ -599,6 +600,25 @@ export default function V2ReportPage() {
               "v1Composite",
               "qilt",
               "jsaHeo",
+            ]}
+          />
+          <SourceReferences
+            sources={[
+              "jirDataset",
+              "handbook",
+              "dfvaRubric",
+              "qiltGos",
+              "jsaHeoData",
+              "adzunaData",
+              "ibisworldP8102",
+              "wefFoj",
+              "linkedinEg",
+              "stackOverflow",
+              "gartnerIt",
+              "isacaSoc",
+              "pmiPulse",
+              "mckinseyAi",
+              "seekObs",
             ]}
           />
         </div>

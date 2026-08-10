@@ -328,6 +328,22 @@ The quadrant function and tie rule are restated in the generator identically to 
 >    `src/compass/v3/data/panelCRubric.ts`; rationales come from the generated
 >    `dimensionEvidence` module.
 >
+> 9. **Full source references on the report (2026-08-10 addition).** Every
+>    report page renders a "Data sources & references" disclosure
+>    (`src/compass/SourceReferences.tsx`): a numbered, APA-style reference list
+>    for every data and analysis input — grouped as destination/exposure
+>    measurement (Felten, Raj & Seamans 2021 with DOI; the published AIOE data
+>    appendix; the JIR/LiveAlumni data set; O*NET-SOC 2010), curriculum
+>    evidence (Handbook 2026; the DFVA rubric), graduate outcomes & labour
+>    market (QILT GOS 2024; JSA HEO; Adzuna AU; IBISWorld P8102), and the
+>    trend reports informing market-intelligence sections (WEF, LinkedIn
+>    Economic Graph, Stack Overflow, Gartner, ISACA, PMI, McKinsey, Seek).
+>    Each entry carries a "Used for" role statement and a "Grain" statement of
+>    reporting level and known limitations; the trend-report group is prefaced
+>    by a disclosure that those sections are analyst syntheses at their stated
+>    LOW/MEDIUM confidence, not live retrievals. Part B opens with a pointer
+>    to the reference list.
+>
 > The same principles were applied to the v3 and v2 report pages (v1 left
 > unchanged). §10.2 below describes the pre-revision composition order and is
 > superseded by the three-part structure where they conflict.

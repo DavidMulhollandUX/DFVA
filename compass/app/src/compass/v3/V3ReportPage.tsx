@@ -7,6 +7,7 @@ import {
 } from "../../client/components/ui/card";
 import { InsightsGate } from "../InsightsGate";
 import { MethodGlossary } from "../MethodGlossary";
+import { SourceReferences } from "../SourceReferences";
 import { MatrixAreaLabels } from "../matrixAreaLabels";
 import { findingFor } from "../reportFindings";
 import { ReportMarkdownCard } from "../v2/components/ReportMarkdownCard";
@@ -572,6 +573,14 @@ export default function V3ReportPage() {
 
         {/* ================= PART B — MARKET EVIDENCE & PLAN ================= */}
         <PartHeading id="market" part="Part B" title="Market evidence & improvement plan" />
+        <p className="text-muted-foreground mb-5 text-sm">
+          Confidence is stated on each section below; every data source behind these figures is
+          cited in full in{" "}
+          <a href="#sources" className="underline">
+            Data sources &amp; references
+          </a>{" "}
+          (Part C).
+        </p>
 
         {/* Destinations table */}
         <Card className="mt-6">
@@ -800,6 +809,29 @@ export default function V3ReportPage() {
             "v1Composite",
             "qilt",
             "jsaHeo",
+          ]}
+        />
+
+        <SourceReferences
+          sources={[
+            "felten2021",
+            "aioeAppendix",
+            "jirDataset",
+            "onetSoc",
+            "handbook",
+            "dfvaRubric",
+            "qiltGos",
+            "jsaHeoData",
+            "adzunaData",
+            "ibisworldP8102",
+            "wefFoj",
+            "linkedinEg",
+            "stackOverflow",
+            "gartnerIt",
+            "isacaSoc",
+            "pmiPulse",
+            "mckinseyAi",
+            "seekObs",
           ]}
         />
 
