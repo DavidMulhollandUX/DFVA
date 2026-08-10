@@ -1,13 +1,68 @@
 occupation,onet_soc_code,onet_soc_title,ai_exposure_index,mapping_confidence,index_source,mapping_note
+Assistant Planner,19-3051,Urban and Regional Planners,92.85,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Town-planning work; 'assistant' is seniority.
+Assistant Project Manager,11-9021,Construction Managers,88.12,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Project management in a built-environment cohort; 'assistant' is seniority.
+Brand and Visual Designer,27-1024,Graphic Designers,80.66,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Visual identity and brand design is graphic design.
+Cadet Quantity Surveyor,13-1051,Cost Estimators,96.19,high,"Felten-AIOE (Appendix A, rescaled 0-100)",AU quantity surveying is construction cost estimating; 'cadet' is seniority.
 City Greening Lead,19-1031,Conservation Scientists,65.25,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Leads urban vegetation/land-quality programs; no urban-greening occupation in SOC 2010.
+Communications Director,11-2031,Public Relations Managers,94.43,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Directs communications function; closest SOC 2010 management occupation.
+Construction Cadet,11-9021,Construction Managers,88.12,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",AU cadetship is trainee site/project management; seniority stripped per rule 1
+Construction Supervisor,47-1011,First-Line Supervisors/Managers of Construction Trades and Extraction Workers,56.33,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct supervision of construction trades.
 Consultant Urban Horticulturalist,19-1013,Soil and Plant Scientists,78.66,high,"Felten-AIOE (Appendix A, rescaled 0-100)","Horticultural science advice; 'consultant' is an engagement mode, not a different occupation."
+Content Designer,27-3043,Writers and Authors,87.14,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Content design is primarily writing/structuring copy; no SOC 2010 content-design occupation.
+Cost Manager,13-1051,Cost Estimators,96.19,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Construction cost management; same occupation as quantity surveying.
+Creative Lead,27-1011,Art Directors,87.97,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",directs visual/creative output of a design or agency team; 'Lead' stripped
+Digital Designer,27-1024,Graphic Designers,80.66,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Digital visual design sits in graphic design.
+Experience Designer,15-1199,"Computer Occupations, All Other",92.97,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Interface/experience design has no SOC 2010 occupation (added as 15-1255 only in SOC 2018).
+Freelance Graphic Designer,27-1024,Graphic Designers,80.66,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match; 'freelance' is an employment mode.
+GIS Analyst,19-3092,Geographers,97.82,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Spatial analysis; SOC 2010 has no dedicated GIS occupation.
+Graduate Architect,17-1011,"Architects, Except Landscape and Naval",88.55,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match; 'graduate' is seniority.
+Graduate Builder,11-9021,Construction Managers,88.12,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",AU 'builder' is a construction management pathway; 'graduate' is seniority.
+Graduate Cost Manager,13-1051,Cost Estimators,96.19,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Same as Cost Manager; 'graduate' is seniority.
+Graduate Environmental Planner,19-3051,Urban and Regional Planners,92.85,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Environmental planning is a planning specialisation; 'graduate' is seniority.
+Graduate GIS Analyst,19-3092,Geographers,97.82,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Same as GIS Analyst; 'graduate' is seniority.
+Graduate Interior Designer,27-1025,Interior Designers,90.33,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match; 'graduate' is seniority.
 Graduate Landscape Designer,17-1012,Landscape Architects,88.25,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Landscape design work; 'graduate' is seniority.
+Graduate Project Manager,11-9021,Construction Managers,88.12,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Same as Assistant Project Manager; 'graduate' is seniority.
+Graduate Quantity Surveyor,13-1051,Cost Estimators,96.19,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Same as Quantity Surveyor; 'graduate' is seniority.
+Graduate Valuation Analyst,13-2021,Appraisers and Assessors of Real Estate,83.65,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Property valuation; 'graduate' is seniority.
+Graphic Designer,27-1024,Graphic Designers,80.66,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match.
+Head of Design,27-1011,Art Directors,87.97,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Leads a design function; Art Directors is the SOC 2010 design-leadership occupation.
 Horticultural Researcher,19-1013,Soil and Plant Scientists,78.66,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Plant science research.
 Horticulturalist,19-1013,Soil and Plant Scientists,78.66,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match to the plant-science occupation.
 Horticulturist,19-1013,Soil and Plant Scientists,78.66,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Spelling variant of Horticulturalist; same occupation.
+Illustrator,27-1013,"Fine Artists, Including Painters, Sculptors, and Illustrators",50.05,high,"Felten-AIOE (Appendix A, rescaled 0-100)",illustrator is named in the SOC title
+Information Technology Officer,15-1151,Computer User Support Specialists,70.74,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Generalist IT support role; ambiguous between support and administration.
+Interior Designer,27-1025,Interior Designers,90.33,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match.
+Junior Estimator,13-1051,Cost Estimators,96.19,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match; 'junior' is seniority.
+Junior Graphic Designer,27-1024,Graphic Designers,80.66,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match; 'junior' is seniority.
+Junior UX/UI Designer,15-1199,"Computer Occupations, All Other",92.97,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",SOC 2010 has no digital interface designer; UX/UI sits in this residual computer category
+Landscape Architect,17-1012,Landscape Architects,88.25,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match.
 Landscape Designer & Horticulturist,17-1012,Landscape Architects,88.25,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",primary task is designing planted outdoor spaces; horticulture is the secondary element
+Media Director,11-2011,Advertising and Promotions Managers,94.44,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Directs media planning/buying; closest SOC 2010 management occupation.
 Open Space Planner,19-3051,Urban and Regional Planners,92.85,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Public open-space planning is urban/regional planning.
+Planner,19-3051,Urban and Regional Planners,92.85,high,"Felten-AIOE (Appendix A, rescaled 0-100)","In a Bachelor of Design (Urban Planning) cohort, 'Planner' is town planning."
+Product Designer,27-1021,Commercial and Industrial Designers,84.26,medium,"Felten-AIOE (Appendix A, rescaled 0-100)","Industrial/product design; in digital contexts this title can mean UX, hence medium."
+Product Director,11-1021,General and Operations Managers,77.3,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Product leadership has no SOC 2010 occupation; generic management bucket.
 Program Leader Arboriculture and Nursery,45-1011,"First-Line Supervisors/Managers of Farming, Fishing, and Forestry Workers",52.19,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Supervises arboriculture and nursery operations; could also read as Foresters (19-1032).
+Property Administrator,11-9141,"Property, Real Estate, and Community Association Managers",92.56,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Property administration and management.
+Quantity Surveyor,13-1051,Cost Estimators,96.19,high,"Felten-AIOE (Appendix A, rescaled 0-100)",AU quantity surveying maps to construction cost estimating.
+Residential Property Valuer,13-2021,Appraisers and Assessors of Real Estate,83.65,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match to real-estate appraisal.
+Senior Architectural Designer,17-1011,"Architects, Except Landscape and Naval",88.55,medium,"Felten-AIOE (Appendix A, rescaled 0-100)","Building design task content; AU architectural designers are often unregistered, hence medium."
+Senior Contract Administrator,13-1051,Cost Estimators,96.19,medium,"Felten-AIOE (Appendix A, rescaled 0-100)","AU construction contract administration is cost/variation/claims work, consistent with the Quantity Surveyor precedent"
+Senior Environmental Planner,19-3051,Urban and Regional Planners,92.85,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Same as Graduate Environmental Planner; 'senior' is seniority.
+Senior Planning Consultant,19-3051,Urban and Regional Planners,92.85,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Planning advice; 'senior/consultant' are seniority and engagement mode.
 Senior Soil Scientist,19-1013,Soil and Plant Scientists,78.66,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match; 'senior' is seniority.
+Senior Sustainability Consultant,19-2041,"Environmental Scientists and Specialists, Including Health",87.77,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Built-environment sustainability advice; generic environmental-specialist bucket.
+Senior Urban Planner,19-3051,Urban and Regional Planners,92.85,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match; 'senior' is seniority.
+Service Designer,27-1021,Commercial and Industrial Designers,84.26,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",human-centred design practice with no SOC 2010 service-design occupation
+Site Engineer,17-2051,Civil Engineers,94.17,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Construction site engineering is civil engineering.
+Site Manager,11-9021,Construction Managers,88.12,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Manages a construction site.
 Sustainability Projects Officer,19-2041,"Environmental Scientists and Specialists, Including Health",87.77,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Environmental/sustainability project delivery; generic environmental-specialist bucket.
+UI/UX Designer,15-1199,"Computer Occupations, All Other",92.97,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",digital interface design has no dedicated SOC 2010 code
+UX Designer,15-1199,"Computer Occupations, All Other",92.97,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",No SOC 2010 UX occupation (added as 15-1255 in SOC 2018).
+UX/UI Designer,15-1199,"Computer Occupations, All Other",92.97,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Same as UX Designer; no SOC 2010 occupation.
+Valuation Analyst,13-2021,Appraisers and Assessors of Real Estate,83.65,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Property valuation analysis.
 Vertical Garden Specialist,19-1013,Soil and Plant Scientists,78.66,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Applied horticulture in built environments; no specific SOC 2010 occupation.
+Visual Identity Designer,27-1024,Graphic Designers,80.66,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Brand identity design is graphic design.
+Web Designer,15-1134,Web Developers,89.56,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",SOC 2010 folds web design into Web Developers.
+Website Director,15-1134,Web Developers,89.56,medium,"Felten-AIOE (Appendix A, rescaled 0-100)","'Director' stripped; role runs and maintains a website, closest SOC 2010 web occupation"

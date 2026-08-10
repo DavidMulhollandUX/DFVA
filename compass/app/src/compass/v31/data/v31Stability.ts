@@ -43,7 +43,7 @@ export const V31_META: V31Meta = {
   "stabilityClassCut": 0.9,
   "stabilityClassCutNote": "empirical empty band 0.848–0.979; any cut in [0.85, 0.98] gives the identical partition",
   "boundaryCount": 15,
-  "stableCount": 20,
+  "stableCount": 21,
   "failSingleLabel": {
     "optimistic": 0,
     "published": 2,
@@ -823,6 +823,28 @@ export const V31_STABILITY: V31Stability[] = [
     "stabilityClass": "boundary",
     "nearDisplayThreshold": true,
     "distToAdaptMedian": 0
+  },
+  {
+    "code": "b-des",
+    "modalQuadrant": "sheltered",
+    "runnerUpQuadrant": "comfortable",
+    "quadrantDist": {
+      "well-positioned": 0,
+      "comfortable": 0.00104,
+      "attention": 0,
+      "sheltered": 0.99896
+    },
+    "modalProbability": 0.99896,
+    "modalProbabilityOptimistic": 0.99986,
+    "modalProbabilityPessimistic": 0.99314,
+    "adaptEnvelope": [
+      2,
+      12
+    ],
+    "itemsAtCeiling": 0,
+    "stabilityClass": "stable",
+    "nearDisplayThreshold": false,
+    "distToAdaptMedian": -3
   }
 ];
 

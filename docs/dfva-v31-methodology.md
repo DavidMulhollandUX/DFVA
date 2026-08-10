@@ -432,12 +432,20 @@ remaining 32 found the coverage limit is **data availability, not effort**:
 | Map names a cognate or aggregate report, no own-program record | 10 | Only at a lower evidence tier |
 | Own-program alumni record exists and is usable | 3 | Yes — `mc-urbhort`, `b-des`, `b-sci` |
 
-`mc-urbhort` is placed in this pass. The blocking issue was a **defect in
-`docs/JIR/dfva_jir_map.json`**: it pointed at a non-existent "Doctor of Urban
-Horticulture" record while the program's own exact-name JIR report (n = 44,
-13 titles) sits in `data/jir_data.json` unused. `b-des` and `b-sci` report per
-major (6 and 23 records) and need their majors aggregated plus, respectively,
-48 and 117 new occupation mappings; they remain open.
+`mc-urbhort` and `b-des` are placed in this pass, taking coverage to 36 of 66.
+
+- **`mc-urbhort`** (exposure 79.91, 13 titles, n = 44) was blocked by a
+  **defect in `docs/JIR/dfva_jir_map.json`**: it pointed at a non-existent
+  "Doctor of Urban Horticulture" record while the program's own exact-name JIR
+  report sat in `data/jir_data.json` unused.
+- **`b-des`** (exposure 88.09, 75 distinct titles, n = 543) is matched at tier
+  `aggregate-own-majors`: the JIR reports this program per major, so all six
+  Bachelor of Design major reports are aggregated. These are the program's own
+  graduates, but a title appearing in several majors still counts once, so the
+  mean is over the union of destinations and is **not weighted by major size** —
+  the same unweighted-mean limitation (L4/R5) that applies portfolio-wide, with
+  an additional within-program aggregation step. This is stated on its report.
+- **`b-sci`** remains open: 23 major reports and 117 further occupation mappings.
 
 **Protocol.** A program added after the reference basis was fixed joins the
 *extension cohort* (`cohort: "extension"` in `v3Programs`), under three rules:

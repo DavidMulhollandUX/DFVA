@@ -183,6 +183,13 @@ const EXTENSION: ExtensionSpec[] = [
     note:
       "Map correction: dfva_jir_map pointed at a non-existent 'Doctor of Urban Horticulture' record while the program's own exact-name JIR report exists.",
   },
+  {
+    code: "b-des",
+    records: { prefix: "Bachelor of Design (" },
+    matchTier: "aggregate-own-majors",
+    note:
+      "The JIR reports this program per major, so all six Bachelor of Design major reports are aggregated. These are the program's own graduates, but a title appearing in several majors still counts once, so the mean is over the union of destinations rather than weighted by major size.",
+  },
 ];
 
 const mean = (xs: number[]) => xs.reduce((a, b) => a + b, 0) / xs.length;

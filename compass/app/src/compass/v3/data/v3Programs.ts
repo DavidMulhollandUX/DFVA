@@ -79,7 +79,7 @@ export const V3_META: V3Meta = {
   "exposureRescaling": "min-max 0-100 over published population",
   "exposureComputedAt": "2026-08-10",
   "destinationBasis": "JIR/LiveAlumni alumni titles (all placed programs); JSA HEO not used on this axis",
-  "crosswalkAuthored": "inherited 288-title index + 80 titles mapped Aug 2026 (reconciliation package) + 12 titles mapped for the extension cohort",
+  "crosswalkAuthored": "inherited 288-title index + 80 titles mapped Aug 2026 (reconciliation package) + 67 titles mapped for the extension cohort",
   "perturbation": {
     "draws": 20000,
     "pPerturb": 0.1,
@@ -91,9 +91,9 @@ export const V3_META: V3Meta = {
       "D5"
     ]
   },
-  "placed": 35,
+  "placed": 36,
   "referenceCohort": 34,
-  "extensionCohort": 1,
+  "extensionCohort": 2,
   "total": 66,
   "expMedian": 90.9,
   "adaptMedian": 10,
@@ -7233,6 +7233,878 @@ export const V3_PROGRAMS: V3Program[] = [
         "socTitle": "Soil and Plant Scientists",
         "aioe": 78.66,
         "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "senior"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "b-des",
+    "name": "Bachelor of Design",
+    "faculty": "Architecture, Building & Planning",
+    "v1Score": 18,
+    "v1Band": "HIGH RISK",
+    "v2Exposure": null,
+    "v2Quadrant": "no-exposure",
+    "exposure": 88.09,
+    "entryExposure": 87.8,
+    "jirN": 543,
+    "coverage": 1,
+    "nTitles": 75,
+    "nMedium": 35,
+    "nInherited": 17,
+    "nNewlyMapped": 3,
+    "nExtension": 55,
+    "matchTier": "aggregate-own-majors",
+    "extensionNote": "The JIR reports this program per major, so all six Bachelor of Design major reports are aggregated. These are the program's own graduates, but a title appearing in several majors still counts once, so the mean is over the union of destinations rather than weighted by major size.",
+    "cohort": "extension",
+    "adaptiveness": 7,
+    "dimensionScores": {
+      "D2": 2,
+      "D3": 1,
+      "D7": 1,
+      "B": 2,
+      "D5": 1
+    },
+    "gateD4": "PASS",
+    "gateD6": "PASS",
+    "quadrant": "sheltered",
+    "quadrantDist": {
+      "well-positioned": 0,
+      "comfortable": 0.001,
+      "attention": 0,
+      "sheltered": 0.999
+    },
+    "modalProb": 0.999,
+    "runnerUpQuadrant": "comfortable",
+    "adaptInterval": [
+      4,
+      11
+    ],
+    "nearBoundary": false,
+    "destinations": [
+      {
+        "title": "Architectural Assistant",
+        "soc": "17-3011",
+        "socTitle": "Architectural and Civil Drafters",
+        "aioe": 85.6,
+        "confidence": "medium",
+        "crosswalkSource": "preexisting_288",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Graduate Architect",
+        "soc": "17-1011",
+        "socTitle": "Architects, Except Landscape and Naval",
+        "aioe": 88.55,
+        "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Architectural Designer",
+        "soc": "17-1011",
+        "socTitle": "Architects, Except Landscape and Naval",
+        "aioe": 88.55,
+        "confidence": "medium",
+        "crosswalkSource": "preexisting_288",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Architectural Draftsperson",
+        "soc": "17-3011",
+        "socTitle": "Architectural and Civil Drafters",
+        "aioe": 85.6,
+        "confidence": "high",
+        "crosswalkSource": "preexisting_288",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Architectural Technician",
+        "soc": "17-3011",
+        "socTitle": "Architectural and Civil Drafters",
+        "aioe": 85.6,
+        "confidence": "high",
+        "crosswalkSource": "preexisting_288",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Architect",
+        "soc": "17-1011",
+        "socTitle": "Architects, Except Landscape and Naval",
+        "aioe": 88.55,
+        "confidence": "high",
+        "crosswalkSource": "preexisting_288",
+        "stages": [
+          "early"
+        ]
+      },
+      {
+        "title": "Urban Designer",
+        "soc": "19-3051",
+        "socTitle": "Urban and Regional Planners",
+        "aioe": 92.85,
+        "confidence": "medium",
+        "crosswalkSource": "preexisting_288",
+        "stages": [
+          "early"
+        ]
+      },
+      {
+        "title": "Landscape Architect",
+        "soc": "17-1012",
+        "socTitle": "Landscape Architects",
+        "aioe": 88.25,
+        "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "early"
+        ]
+      },
+      {
+        "title": "Interior Designer",
+        "soc": "27-1025",
+        "socTitle": "Interior Designers",
+        "aioe": 90.33,
+        "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "early"
+        ]
+      },
+      {
+        "title": "Project Coordinator",
+        "soc": "13-1199",
+        "socTitle": "Business Operations Specialists, All Other",
+        "aioe": 88.56,
+        "confidence": "medium",
+        "crosswalkSource": "preexisting_288",
+        "stages": [
+          "early"
+        ]
+      },
+      {
+        "title": "Project Manager",
+        "soc": "11-9199",
+        "socTitle": "Managers, All Other",
+        "aioe": 86.59,
+        "confidence": "medium",
+        "crosswalkSource": "preexisting_288",
+        "stages": [
+          "senior"
+        ]
+      },
+      {
+        "title": "Senior Architectural Designer",
+        "soc": "17-1011",
+        "socTitle": "Architects, Except Landscape and Naval",
+        "aioe": 88.55,
+        "confidence": "medium",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "senior"
+        ]
+      },
+      {
+        "title": "Senior Urban Planner",
+        "soc": "19-3051",
+        "socTitle": "Urban and Regional Planners",
+        "aioe": 92.85,
+        "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "senior"
+        ]
+      },
+      {
+        "title": "Senior Sustainability Consultant",
+        "soc": "19-2041",
+        "socTitle": "Environmental Scientists and Specialists, Including Health",
+        "aioe": 87.77,
+        "confidence": "medium",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "senior"
+        ]
+      },
+      {
+        "title": "Graduate Builder",
+        "soc": "11-9021",
+        "socTitle": "Construction Managers",
+        "aioe": 88.12,
+        "confidence": "medium",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Graduate Cost Manager",
+        "soc": "13-1051",
+        "socTitle": "Cost Estimators",
+        "aioe": 96.19,
+        "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Cadet Quantity Surveyor",
+        "soc": "13-1051",
+        "socTitle": "Cost Estimators",
+        "aioe": 96.19,
+        "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Junior Estimator",
+        "soc": "13-1051",
+        "socTitle": "Cost Estimators",
+        "aioe": 96.19,
+        "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Construction Cadet",
+        "soc": "11-9021",
+        "socTitle": "Construction Managers",
+        "aioe": 88.12,
+        "confidence": "medium",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Assistant Project Manager",
+        "soc": "11-9021",
+        "socTitle": "Construction Managers",
+        "aioe": 88.12,
+        "confidence": "medium",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "early"
+        ]
+      },
+      {
+        "title": "Project Engineer",
+        "soc": "17-2199",
+        "socTitle": "Engineers, All Other",
+        "aioe": 82.37,
+        "confidence": "high",
+        "crosswalkSource": "new_this_session",
+        "stages": [
+          "early"
+        ]
+      },
+      {
+        "title": "Quantity Surveyor",
+        "soc": "13-1051",
+        "socTitle": "Cost Estimators",
+        "aioe": 96.19,
+        "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "early"
+        ]
+      },
+      {
+        "title": "Cost Manager",
+        "soc": "13-1051",
+        "socTitle": "Cost Estimators",
+        "aioe": 96.19,
+        "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "early"
+        ]
+      },
+      {
+        "title": "Site Engineer",
+        "soc": "17-2051",
+        "socTitle": "Civil Engineers",
+        "aioe": 94.17,
+        "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "early"
+        ]
+      },
+      {
+        "title": "Site Manager",
+        "soc": "11-9021",
+        "socTitle": "Construction Managers",
+        "aioe": 88.12,
+        "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "senior"
+        ]
+      },
+      {
+        "title": "Construction Supervisor",
+        "soc": "47-1011",
+        "socTitle": "First-Line Supervisors/Managers of Construction Trades and Extraction Workers",
+        "aioe": 56.33,
+        "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "senior"
+        ]
+      },
+      {
+        "title": "Senior Contract Administrator",
+        "soc": "13-1051",
+        "socTitle": "Cost Estimators",
+        "aioe": 96.19,
+        "confidence": "medium",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "senior"
+        ]
+      },
+      {
+        "title": "Graphic Designer",
+        "soc": "27-1024",
+        "socTitle": "Graphic Designers",
+        "aioe": 80.66,
+        "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Freelance Graphic Designer",
+        "soc": "27-1024",
+        "socTitle": "Graphic Designers",
+        "aioe": 80.66,
+        "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Visual Identity Designer",
+        "soc": "27-1024",
+        "socTitle": "Graphic Designers",
+        "aioe": 80.66,
+        "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Illustrator",
+        "soc": "27-1013",
+        "socTitle": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+        "aioe": 50.05,
+        "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Content Designer",
+        "soc": "27-3043",
+        "socTitle": "Writers and Authors",
+        "aioe": 87.14,
+        "confidence": "medium",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "early"
+        ]
+      },
+      {
+        "title": "Digital Designer",
+        "soc": "27-1024",
+        "socTitle": "Graphic Designers",
+        "aioe": 80.66,
+        "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "early"
+        ]
+      },
+      {
+        "title": "Service Designer",
+        "soc": "27-1021",
+        "socTitle": "Commercial and Industrial Designers",
+        "aioe": 84.26,
+        "confidence": "medium",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "early"
+        ]
+      },
+      {
+        "title": "UI/UX Designer",
+        "soc": "15-1199",
+        "socTitle": "Computer Occupations, All Other",
+        "aioe": 92.97,
+        "confidence": "medium",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "early"
+        ]
+      },
+      {
+        "title": "Brand and Visual Designer",
+        "soc": "27-1024",
+        "socTitle": "Graphic Designers",
+        "aioe": 80.66,
+        "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "early"
+        ]
+      },
+      {
+        "title": "Head of Design",
+        "soc": "27-1011",
+        "socTitle": "Art Directors",
+        "aioe": 87.97,
+        "confidence": "medium",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "senior"
+        ]
+      },
+      {
+        "title": "Design Manager",
+        "soc": "11-9041",
+        "socTitle": "Engineering Managers",
+        "aioe": 83.55,
+        "confidence": "low",
+        "crosswalkSource": "preexisting_288",
+        "stages": [
+          "senior"
+        ]
+      },
+      {
+        "title": "Creative Lead",
+        "soc": "27-1011",
+        "socTitle": "Art Directors",
+        "aioe": 87.97,
+        "confidence": "medium",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "senior"
+        ]
+      },
+      {
+        "title": "Communications Director",
+        "soc": "11-2031",
+        "socTitle": "Public Relations Managers",
+        "aioe": 94.43,
+        "confidence": "medium",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "senior"
+        ]
+      },
+      {
+        "title": "Graduate Valuation Analyst",
+        "soc": "13-2021",
+        "socTitle": "Appraisers and Assessors of Real Estate",
+        "aioe": 83.65,
+        "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Graduate Quantity Surveyor",
+        "soc": "13-1051",
+        "socTitle": "Cost Estimators",
+        "aioe": 96.19,
+        "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Graduate Project Manager",
+        "soc": "11-9021",
+        "socTitle": "Construction Managers",
+        "aioe": 88.12,
+        "confidence": "medium",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Assistant Development Manager",
+        "soc": "11-9021",
+        "socTitle": "Construction Managers",
+        "aioe": 88.12,
+        "confidence": "medium",
+        "crosswalkSource": "preexisting_288",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Assistant Valuer",
+        "soc": "13-2021",
+        "socTitle": "Appraisers and Assessors of Real Estate",
+        "aioe": 83.65,
+        "confidence": "high",
+        "crosswalkSource": "preexisting_288",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Valuation Analyst",
+        "soc": "13-2021",
+        "socTitle": "Appraisers and Assessors of Real Estate",
+        "aioe": 83.65,
+        "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "early"
+        ]
+      },
+      {
+        "title": "Residential Property Valuer",
+        "soc": "13-2021",
+        "socTitle": "Appraisers and Assessors of Real Estate",
+        "aioe": 83.65,
+        "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "early"
+        ]
+      },
+      {
+        "title": "Property Manager",
+        "soc": "11-9141",
+        "socTitle": "Property, Real Estate, and Community Association Managers",
+        "aioe": 92.56,
+        "confidence": "high",
+        "crosswalkSource": "preexisting_288",
+        "stages": [
+          "early"
+        ]
+      },
+      {
+        "title": "Property Administrator",
+        "soc": "11-9141",
+        "socTitle": "Property, Real Estate, and Community Association Managers",
+        "aioe": 92.56,
+        "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "early"
+        ]
+      },
+      {
+        "title": "Managing Director",
+        "soc": "11-1021",
+        "socTitle": "General and Operations Managers",
+        "aioe": 77.3,
+        "confidence": "high",
+        "crosswalkSource": "new_this_session",
+        "stages": [
+          "senior"
+        ]
+      },
+      {
+        "title": "Graduate Planner",
+        "soc": "19-3051",
+        "socTitle": "Urban and Regional Planners",
+        "aioe": 92.85,
+        "confidence": "high",
+        "crosswalkSource": "preexisting_288",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Assistant Planner",
+        "soc": "19-3051",
+        "socTitle": "Urban and Regional Planners",
+        "aioe": 92.85,
+        "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Graduate Transport Planner",
+        "soc": "19-3051",
+        "socTitle": "Urban and Regional Planners",
+        "aioe": 92.85,
+        "confidence": "medium",
+        "crosswalkSource": "new_this_session",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Graduate Environmental Planner",
+        "soc": "19-3051",
+        "socTitle": "Urban and Regional Planners",
+        "aioe": 92.85,
+        "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Graduate GIS Analyst",
+        "soc": "19-3092",
+        "socTitle": "Geographers",
+        "aioe": 97.82,
+        "confidence": "medium",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Graduate Interior Designer",
+        "soc": "27-1025",
+        "socTitle": "Interior Designers",
+        "aioe": 90.33,
+        "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Urban Planner",
+        "soc": "19-3051",
+        "socTitle": "Urban and Regional Planners",
+        "aioe": 92.85,
+        "confidence": "high",
+        "crosswalkSource": "preexisting_288",
+        "stages": [
+          "early"
+        ]
+      },
+      {
+        "title": "Planner",
+        "soc": "19-3051",
+        "socTitle": "Urban and Regional Planners",
+        "aioe": 92.85,
+        "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "early"
+        ]
+      },
+      {
+        "title": "Environmental Planner",
+        "soc": "19-3051",
+        "socTitle": "Urban and Regional Planners",
+        "aioe": 92.85,
+        "confidence": "medium",
+        "crosswalkSource": "preexisting_288",
+        "stages": [
+          "early"
+        ]
+      },
+      {
+        "title": "GIS Analyst",
+        "soc": "19-3092",
+        "socTitle": "Geographers",
+        "aioe": 97.82,
+        "confidence": "medium",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "early"
+        ]
+      },
+      {
+        "title": "Senior Planning Consultant",
+        "soc": "19-3051",
+        "socTitle": "Urban and Regional Planners",
+        "aioe": 92.85,
+        "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "senior"
+        ]
+      },
+      {
+        "title": "Senior Strategic Planner",
+        "soc": "19-3051",
+        "socTitle": "Urban and Regional Planners",
+        "aioe": 92.85,
+        "confidence": "medium",
+        "crosswalkSource": "preexisting_288",
+        "stages": [
+          "senior"
+        ]
+      },
+      {
+        "title": "Senior Environmental Planner",
+        "soc": "19-3051",
+        "socTitle": "Urban and Regional Planners",
+        "aioe": 92.85,
+        "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "senior"
+        ]
+      },
+      {
+        "title": "UX Designer",
+        "soc": "15-1199",
+        "socTitle": "Computer Occupations, All Other",
+        "aioe": 92.97,
+        "confidence": "medium",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Junior UX/UI Designer",
+        "soc": "15-1199",
+        "socTitle": "Computer Occupations, All Other",
+        "aioe": 92.97,
+        "confidence": "medium",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Junior Graphic Designer",
+        "soc": "27-1024",
+        "socTitle": "Graphic Designers",
+        "aioe": 80.66,
+        "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Web Designer",
+        "soc": "15-1134",
+        "socTitle": "Web Developers",
+        "aioe": 89.56,
+        "confidence": "medium",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Experience Designer",
+        "soc": "15-1199",
+        "socTitle": "Computer Occupations, All Other",
+        "aioe": 92.97,
+        "confidence": "medium",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "early"
+        ]
+      },
+      {
+        "title": "Product Designer",
+        "soc": "27-1021",
+        "socTitle": "Commercial and Industrial Designers",
+        "aioe": 84.26,
+        "confidence": "medium",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "early"
+        ]
+      },
+      {
+        "title": "UX/UI Designer",
+        "soc": "15-1199",
+        "socTitle": "Computer Occupations, All Other",
+        "aioe": 92.97,
+        "confidence": "medium",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "early"
+        ]
+      },
+      {
+        "title": "Software Developer",
+        "soc": "15-1132",
+        "socTitle": "Software Developers, Applications",
+        "aioe": 92.22,
+        "confidence": "high",
+        "crosswalkSource": "preexisting_288",
+        "stages": [
+          "early"
+        ]
+      },
+      {
+        "title": "Product Director",
+        "soc": "11-1021",
+        "socTitle": "General and Operations Managers",
+        "aioe": 77.3,
+        "confidence": "medium",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "senior"
+        ]
+      },
+      {
+        "title": "Media Director",
+        "soc": "11-2011",
+        "socTitle": "Advertising and Promotions Managers",
+        "aioe": 94.44,
+        "confidence": "medium",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "senior"
+        ]
+      },
+      {
+        "title": "Website Director",
+        "soc": "15-1134",
+        "socTitle": "Web Developers",
+        "aioe": 89.56,
+        "confidence": "medium",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "senior"
+        ]
+      },
+      {
+        "title": "Information Technology Officer",
+        "soc": "15-1151",
+        "socTitle": "Computer User Support Specialists",
+        "aioe": 70.74,
+        "confidence": "medium",
         "crosswalkSource": "extension_2026_08",
         "stages": [
           "senior"
