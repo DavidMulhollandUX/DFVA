@@ -190,6 +190,13 @@ const EXTENSION: ExtensionSpec[] = [
     note:
       "The JIR reports this program per major, so all six Bachelor of Design major reports are aggregated. These are the program's own graduates, but a title appearing in several majors still counts once, so the mean is over the union of destinations rather than weighted by major size.",
   },
+  {
+    code: "b-sci",
+    records: { prefix: "Bachelor of Science (" },
+    matchTier: "aggregate-own-majors",
+    note:
+      "The JIR reports this program per major, so all 23 Bachelor of Science major reports are aggregated. These are the program's own graduates, but a title appearing in several majors still counts once, so the mean is over the union of destinations rather than weighted by major size — a material caveat here, because the majors span veterinary science through data science and differ greatly in size.",
+  },
 ];
 
 const mean = (xs: number[]) => xs.reduce((a, b) => a + b, 0) / xs.length;

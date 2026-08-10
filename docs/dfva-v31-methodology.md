@@ -430,9 +430,10 @@ remaining 32 found the coverage limit is **data availability, not effort**:
 | --- | --- | --- |
 | No JIR alumni record of any kind (all doctoral programs, and a few masters) | 19 | No — nothing to measure |
 | Map names a cognate or aggregate report, no own-program record | 10 | Only at a lower evidence tier |
-| Own-program alumni record exists and is usable | 3 | Yes — `mc-urbhort`, `b-des`, `b-sci` |
+| Own-program alumni record exists and is usable | 3 | Yes — all three placed |
 
-`mc-urbhort` and `b-des` are placed in this pass, taking coverage to 36 of 66.
+All three are placed in this pass, taking coverage from 34 to **37 of 66** —
+every program in the portfolio that has usable own-program alumni data.
 
 - **`mc-urbhort`** (exposure 79.91, 13 titles, n = 44) was blocked by a
   **defect in `docs/JIR/dfva_jir_map.json`**: it pointed at a non-existent
@@ -445,7 +446,18 @@ remaining 32 found the coverage limit is **data availability, not effort**:
   mean is over the union of destinations and is **not weighted by major size** —
   the same unweighted-mean limitation (L4/R5) that applies portfolio-wide, with
   an additional within-program aggregation step. This is stated on its report.
-- **`b-sci`** remains open: 23 major reports and 117 further occupation mappings.
+- **`b-sci`** (exposure 82.72, 215 distinct titles, n = 3,650) is matched at the
+  same `aggregate-own-majors` tier across 23 major reports. The unweighted-union
+  caveat bites hardest here: the majors span veterinary science to data science
+  and differ greatly in size, so the mean describes the *breadth* of Bachelor of
+  Science destinations rather than where its typical graduate lands. This is
+  stated on its report.
+
+After this pass, **no remaining unplaced program has own-program alumni data**.
+Extending coverage further requires either new destination data (the 19
+doctoral and similar programs) or an explicit decision to accept cognate
+proxies at a lower evidence tier (the remaining 10) — a methodology change,
+not a data-processing task.
 
 **Protocol.** A program added after the reference basis was fixed joins the
 *extension cohort* (`cohort: "extension"` in `v3Programs`), under three rules:
