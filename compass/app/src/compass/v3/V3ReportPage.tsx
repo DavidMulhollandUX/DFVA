@@ -6,6 +6,7 @@ import {
   CardTitle,
 } from "../../client/components/ui/card";
 import { InsightsGate } from "../InsightsGate";
+import { findingFor } from "../reportFindings";
 import { ReportMarkdownCard } from "../v2/components/ReportMarkdownCard";
 import { DIMENSION_LABELS, QUADRANTS } from "../v2/quadrants";
 import {
@@ -46,6 +47,17 @@ function CardLabel({ children }: { children: React.ReactNode }) {
     <div className="text-muted-foreground mb-3 flex items-center gap-2 text-xs font-semibold tracking-[0.18em] uppercase">
       <span className="bg-secondary block h-3.5 w-0.5 rounded-full" />
       {children}
+    </div>
+  );
+}
+
+function PartHeading({ id, part, title }: { id: string; part: string; title: string }) {
+  return (
+    <div id={id} className="mt-14 mb-6 scroll-mt-6">
+      <p className="text-secondary-muted-foreground text-xs font-semibold tracking-[0.18em] uppercase">
+        {part}
+      </p>
+      <h2 className="text-foreground font-serif text-2xl tracking-tight">{title}</h2>
     </div>
   );
 }
@@ -240,7 +252,7 @@ function InterventionSimulator({ program }: { program: V3Program }) {
       </div>
       {!anySingleFlips && (
         <div className="bg-card-accent text-muted-foreground mt-4 flex items-start gap-2 rounded-md p-3 text-sm">
-          <span className="text-base">◔</span>
+          <span className="text-foreground text-xs font-semibold tracking-wide uppercase">Note</span>
           <span>
             <strong className="text-foreground font-medium">
               No single-dimension improvement moves this program's position.
@@ -284,6 +296,7 @@ export default function V3ReportPage() {
   const gaugePct = Math.round(((program.exposure - X_MIN) / (X_MAX - X_MIN)) * 100);
   const medianPct = Math.round(((V3_META.expMedian - X_MIN) / (X_MAX - X_MIN)) * 100);
   const quadrantMoved = program.quadrant !== program.v2Quadrant;
+  const finding = findingFor(program);
 
   return (
     <InsightsGate>
@@ -299,17 +312,55 @@ export default function V3ReportPage() {
           <p className="text-muted-foreground mt-2 font-mono text-sm uppercase">
             {program.code} · University of Melbourne · {program.faculty}
           </p>
-          <p className="text-muted-foreground mt-4 max-w-3xl text-sm">
-            v3 leads with the position <em>and its uncertainty</em>: coordinates,
-            perturbation interval, destination coverage, and index vintage — the
-            quadrant is a derived label, shown only when it is stable. Compare
-            the{" "}
-            <Link to="/insights/program/mc-cs" className="text-secondary-muted-foreground underline">
-              v2 report format (Master of Computer Science)
-            </Link>
-            .
-          </p>
+          {/* In this report — three-part map (U10) */}
+          <nav className="text-muted-foreground mt-5 flex flex-wrap gap-x-6 gap-y-1 text-sm">
+            <span className="text-foreground font-medium">In this report:</span>
+            <a href="#finding" className="underline">Part A — The finding</a>
+            <a href="#market" className="underline">Part B — Market evidence &amp; improvement plan</a>
+            <a href="#method" className="underline">Part C — Method &amp; provenance</a>
+          </nav>
         </div>
+
+        {/* ================= PART A — THE FINDING ================= */}
+        <PartHeading id="finding" part="Part A" title="The finding" />
+
+        <Card className="mb-6">
+          <CardContent className="pt-6">
+            <div className="flex flex-col gap-5">
+              <div>
+                <CardLabel>The finding</CardLabel>
+                <p className="text-foreground text-base leading-relaxed" data-testid="finding-block">
+                  {finding.finding}
+                </p>
+              </div>
+              <div>
+                <CardLabel>What this does and does not mean</CardLabel>
+                <p className="text-muted-foreground text-sm leading-relaxed">{finding.meaning}</p>
+              </div>
+              <div>
+                <CardLabel>How firm is this</CardLabel>
+                <p className="text-muted-foreground text-sm leading-relaxed">
+                  {finding.firmness}{" "}
+                  <a href="#method" className="text-secondary-muted-foreground underline">
+                    Full measurement provenance: Part C.
+                  </a>
+                </p>
+              </div>
+              <div>
+                <CardLabel>The highest-value changes</CardLabel>
+                <ol className="text-foreground list-decimal space-y-1 pl-5 text-sm">
+                  {finding.actions.map((a) => (
+                    <li key={a}>{a}</li>
+                  ))}
+                </ol>
+                <p className="text-muted-foreground mt-2 text-xs">
+                  Scoped with owners and timelines in{" "}
+                  <a href="#market" className="underline">Part B</a>.
+                </p>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
 
         {/* Position + confidence (R12a, R4) */}
         <Card className="mb-6">
@@ -350,8 +401,8 @@ export default function V3ReportPage() {
                       <PositionLabel program={program} />
                     </div>
                     <p className="text-muted-foreground mt-1 text-xs">
-                      {Math.round(program.modalProb * 100)}% modal probability
-                      under ±1 rating perturbation ·{" "}
+                      there is a {Math.round(program.modalProb * 100)}% chance
+                      this is the position shown, under ±1 rating error ·{" "}
                       {V3_QUADRANT_LABELS[program.quadrant].narrative}
                     </p>
                   </div>
@@ -379,6 +430,232 @@ export default function V3ReportPage() {
             </div>
           </CardContent>
         </Card>
+
+        <div className="grid gap-6 md:grid-cols-2">
+          {/* Panel A */}
+          <Card>
+            <CardContent className="pt-6">
+              <CardLabel>Panel A</CardLabel>
+              <CardTitle className="text-lg">Destination AI Exposure</CardTitle>
+              <p className="text-muted-foreground mt-1 mb-6 text-sm">
+                Felten AIOE over destination occupations — measured, not scored
+              </p>
+              <div className="mb-6 flex items-end gap-6">
+                <div className="font-mono text-4xl leading-none font-semibold">
+                  {Math.trunc(program.exposure)}
+                  <sup className="text-base font-normal">
+                    .{Math.round((program.exposure % 1) * 10)}
+                  </sup>
+                </div>
+                <div className="flex-1">
+                  <div className="bg-card-accent relative h-3 overflow-hidden rounded-full">
+                    <div
+                      className="bg-secondary h-full rounded-full"
+                      style={{ width: `${gaugePct}%` }}
+                    />
+                    <div
+                      className="bg-foreground/40 absolute -top-1 h-5 w-0.5 rounded-sm"
+                      style={{ left: `${medianPct}%` }}
+                    />
+                  </div>
+                  <div className="text-muted-foreground mt-1 flex justify-between text-xs">
+                    <span>{X_MIN}</span>
+                    <span>{X_MAX}</span>
+                  </div>
+                  <p className="text-muted-foreground text-right text-xs">
+                    Portfolio median <span className="font-mono">{V3_META.expMedian}</span>
+                  </p>
+                </div>
+              </div>
+              <div className="grid grid-cols-3 gap-3 text-center">
+                <div className="bg-card-accent rounded-md p-3">
+                  <p className="font-mono text-xl font-semibold">{program.exposure.toFixed(1)}</p>
+                  <p className="text-muted-foreground text-xs">Unweighted mean (axis)</p>
+                </div>
+                <div className="bg-card-accent rounded-md p-3">
+                  <p className="font-mono text-xl font-semibold">
+                    {program.entryExposure === null ? "—" : program.entryExposure.toFixed(1)}
+                  </p>
+                  <p className="text-muted-foreground text-xs">Entry-stage only (R6)</p>
+                </div>
+                <div className="bg-card-accent rounded-md p-3">
+                  <p className="font-mono text-xl font-semibold">—</p>
+                  <p className="text-muted-foreground text-xs">
+                    Share-weighted (R5) — no shares at alumni-title grain
+                  </p>
+                </div>
+              </div>
+              <div className="bg-card-accent text-muted-foreground mt-4 flex items-start gap-2 rounded-md p-3 text-sm">
+                <span className="text-base">⚠</span>
+                <span data-testid="exposure-explainer">
+                  <strong className="text-foreground font-medium">
+                    What exposure means.
+                  </strong>{" "}
+                  {program.exposure.toFixed(1)} says a large share of the tasks
+                  in this program's destination occupations overlap with what AI
+                  can do. It does <strong className="text-foreground">not</strong>{" "}
+                  mean those jobs are disappearing — across the Australian
+                  labour market, the most AI-exposed occupations are projected
+                  to grow, because exposed work tends to be skilled work.
+                  Exposure indicates where the <em>content</em> of work is
+                  likely to change; what that change means for graduates depends
+                  on the adaptiveness axis. (Every placed program sits high on
+                  AIOE — portfolio minimum {V3_META.expRange[0]} — because the
+                  index's low end is physical and manual work graduates do not
+                  enter.)
+                </span>
+              </div>
+            </CardContent>
+          </Card>
+
+          {/* Panel C */}
+          <Card>
+            <CardContent className="pt-6">
+              <CardLabel>Panel C</CardLabel>
+              <CardTitle className="text-lg">Curriculum Adaptiveness</CardTitle>
+              <p className="text-muted-foreground mt-1 mb-6 text-sm">
+                Scored from curriculum evidence, 0–3 per dimension
+              </p>
+              <div className="flex flex-col gap-3">
+                {(Object.entries(program.dimensionScores) as [string, number][]).map(
+                  ([d, s]) => (
+                    <DimBar key={d} code={d} score={s} />
+                  ),
+                )}
+              </div>
+              <div className="border-border mt-4 flex items-center justify-between border-t pt-4">
+                <span className="text-muted-foreground text-sm">
+                  Total adaptiveness (±1 interval)
+                </span>
+                <span className="font-mono text-xl font-semibold">
+                  {program.adaptiveness}
+                  <span className="text-muted-foreground text-sm">
+                    {" "}
+                    [{program.adaptInterval[0]}–{program.adaptInterval[1]}]
+                  </span>{" "}
+                  / 15
+                </span>
+              </div>
+              <div className="mt-4 flex flex-wrap gap-3">
+                {(
+                  [
+                    ["D4 Decision-making", program.gateD4],
+                    ["D6 Domain depth", program.gateD6],
+                  ] as const
+                ).map(([label, result]) => (
+                  <span
+                    key={label}
+                    className={`rounded-full px-4 py-1.5 text-xs font-semibold tracking-[0.18em] uppercase ${
+                      result === "PASS"
+                        ? "bg-[#E8F5EE] text-band-resilient"
+                        : "bg-[#FDE8E8] text-band-critical"
+                    }`}
+                  >
+                    {label} {result === "PASS" ? "✓" : "✗"}
+                  </span>
+                ))}
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+
+        {/* ================= PART B — MARKET EVIDENCE & PLAN ================= */}
+        <PartHeading id="market" part="Part B" title="Market evidence & improvement plan" />
+
+        {/* Destinations table */}
+        <Card className="mt-6">
+          <CardContent className="pt-6">
+            <CardLabel>Destination occupations</CardLabel>
+            <CardTitle className="text-lg">
+              What the exposure mean is computed over
+            </CardTitle>
+            <p className="text-muted-foreground mt-1 mb-4 text-sm">
+              {program.nTitles} distinct destination titles, each mapped to an
+              O*NET-SOC 2010 occupation with a published AIOE value — no title
+              is silently dropped.
+            </p>
+            <div className="overflow-x-auto">
+              <table className="w-full border-collapse text-sm">
+                <thead>
+                  <tr>
+                    {["Destination title", "SOC occupation", "AIOE", "Stages", "Crosswalk", "Mapping"].map((h) => (
+                      <th key={h} className="text-muted-foreground border-border border-b-2 px-3 py-2 text-left text-xs font-medium tracking-[0.18em] uppercase">
+                        {h}
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {[...program.destinations]
+                    .sort((a, b) => b.aioe - a.aioe)
+                    .map((d) => (
+                      <tr key={d.title} className="border-border border-b">
+                        <td className="px-3 py-2">{d.title}</td>
+                        <td className="text-muted-foreground px-3 py-2">
+                          {d.socTitle} <span className="font-mono text-xs">({d.soc})</span>
+                        </td>
+                        <td className="px-3 py-2 font-mono">{d.aioe.toFixed(1)}</td>
+                        <td className="text-muted-foreground px-3 py-2 text-xs">
+                          {d.stages.join(", ")}
+                        </td>
+                        <td className="text-muted-foreground px-3 py-2 text-xs">
+                          {d.crosswalkSource === "preexisting_288" ? "inherited" : "Aug 2026"}
+                        </td>
+                        <td className="px-3 py-2">
+                          <span
+                            className={
+                              d.confidence === "high"
+                                ? "text-band-resilient"
+                                : d.confidence === "medium"
+                                  ? "text-band-moderate"
+                                  : "text-band-critical"
+                            }
+                          >
+                            ● {d.confidence}
+                          </span>
+                        </td>
+                      </tr>
+                    ))}
+                </tbody>
+              </table>
+            </div>
+          </CardContent>
+        </Card>
+
+        {/* Market intelligence + redesign recommendations (canonical source:
+            reports/dfva-market-*.md and reports/dfva-recommend-*.md; the card
+            renders nothing for programs without those reports) */}
+        <ReportMarkdownCard
+          slug={`dfva-market-${program.code}`}
+          label="Market Intelligence"
+          title="Labour-Market Intelligence"
+          subtitle="Job families, hiring signals, and skill shifts for this program's destinations — confidence level stated per section"
+        />
+        <ReportMarkdownCard
+          slug={`dfva-recommend-${program.code}`}
+          label="Redesign Recommendations"
+          title="Improvement Plan"
+          subtitle="Score-to-action mapping and prioritised interventions, with owners and timelines"
+        />
+
+        {/* Intervention simulator (R12c) */}
+        <Card className="mt-6">
+          <CardContent className="pt-6">
+            <CardLabel>Intervention simulator</CardLabel>
+            <CardTitle className="text-lg">
+              What would actually move this program — and what wouldn't
+            </CardTitle>
+            <p className="text-muted-foreground mt-1 mb-6 text-sm">
+              Panel C is a small integer space: every reachable position under
+              curriculum improvement can be enumerated. Exposure is not
+              simulatable — it belongs to the destinations.
+            </p>
+            <InterventionSimulator program={program} />
+          </CardContent>
+        </Card>
+
+        {/* ================= PART C — METHOD & PROVENANCE ================= */}
+        <PartHeading id="method" part="Part C" title="Method & provenance" />
 
         {/* Provenance + coverage (R1, R2) */}
         <Card className="mb-6">
@@ -441,202 +718,6 @@ export default function V3ReportPage() {
           </CardContent>
         </Card>
 
-        <div className="grid gap-6 md:grid-cols-2">
-          {/* Panel A */}
-          <Card>
-            <CardContent className="pt-6">
-              <CardLabel>Panel A</CardLabel>
-              <CardTitle className="text-lg">Destination AI Exposure</CardTitle>
-              <p className="text-muted-foreground mt-1 mb-6 text-sm">
-                Felten AIOE over destination occupations — measured, not scored
-              </p>
-              <div className="mb-6 flex items-end gap-6">
-                <div className="font-mono text-4xl leading-none font-semibold">
-                  {Math.trunc(program.exposure)}
-                  <sup className="text-base font-normal">
-                    .{Math.round((program.exposure % 1) * 10)}
-                  </sup>
-                </div>
-                <div className="flex-1">
-                  <div className="bg-card-accent relative h-3 overflow-hidden rounded-full">
-                    <div
-                      className="bg-secondary h-full rounded-full"
-                      style={{ width: `${gaugePct}%` }}
-                    />
-                    <div
-                      className="bg-foreground/40 absolute -top-1 h-5 w-0.5 rounded-sm"
-                      style={{ left: `${medianPct}%` }}
-                    />
-                  </div>
-                  <div className="text-muted-foreground mt-1 flex justify-between text-xs">
-                    <span>{X_MIN}</span>
-                    <span>{X_MAX}</span>
-                  </div>
-                  <p className="text-muted-foreground text-right text-xs">
-                    Portfolio median <span className="font-mono">{V3_META.expMedian}</span>
-                  </p>
-                </div>
-              </div>
-              <div className="grid grid-cols-3 gap-3 text-center">
-                <div className="bg-card-accent rounded-md p-3">
-                  <p className="font-mono text-xl font-semibold">{program.exposure.toFixed(1)}</p>
-                  <p className="text-muted-foreground text-xs">Unweighted mean (axis)</p>
-                </div>
-                <div className="bg-card-accent rounded-md p-3">
-                  <p className="font-mono text-xl font-semibold">
-                    {program.entryExposure === null ? "—" : program.entryExposure.toFixed(1)}
-                  </p>
-                  <p className="text-muted-foreground text-xs">Entry-stage only (R6)</p>
-                </div>
-                <div className="bg-card-accent rounded-md p-3">
-                  <p className="font-mono text-xl font-semibold">—</p>
-                  <p className="text-muted-foreground text-xs">
-                    Share-weighted (R5) — no shares at alumni-title grain
-                  </p>
-                </div>
-              </div>
-              <div className="bg-card-accent text-muted-foreground mt-4 flex items-start gap-2 rounded-md p-3 text-sm">
-                <span className="text-base">⚠</span>
-                <span>
-                  <strong className="text-foreground font-medium">
-                    Exposure is not risk.
-                  </strong>{" "}
-                  AIOE encodes task overlap, not direction of effect. Every
-                  placed program sits high on AIOE (portfolio minimum{" "}
-                  {V3_META.expRange[0]}) because the index's low end is physical
-                  and manual work that graduates do not enter.
-                </span>
-              </div>
-            </CardContent>
-          </Card>
-
-          {/* Panel C */}
-          <Card>
-            <CardContent className="pt-6">
-              <CardLabel>Panel C</CardLabel>
-              <CardTitle className="text-lg">Curriculum Adaptiveness</CardTitle>
-              <p className="text-muted-foreground mt-1 mb-6 text-sm">
-                Scored from curriculum evidence, 0–3 per dimension
-              </p>
-              <div className="flex flex-col gap-3">
-                {(Object.entries(program.dimensionScores) as [string, number][]).map(
-                  ([d, s]) => (
-                    <DimBar key={d} code={d} score={s} />
-                  ),
-                )}
-              </div>
-              <div className="border-border mt-4 flex items-center justify-between border-t pt-4">
-                <span className="text-muted-foreground text-sm">
-                  Total adaptiveness (±1 interval)
-                </span>
-                <span className="font-mono text-xl font-semibold">
-                  {program.adaptiveness}
-                  <span className="text-muted-foreground text-sm">
-                    {" "}
-                    [{program.adaptInterval[0]}–{program.adaptInterval[1]}]
-                  </span>{" "}
-                  / 15
-                </span>
-              </div>
-              <div className="mt-4 flex flex-wrap gap-3">
-                {(
-                  [
-                    ["D4 Decision-making", program.gateD4],
-                    ["D6 Domain depth", program.gateD6],
-                  ] as const
-                ).map(([label, result]) => (
-                  <span
-                    key={label}
-                    className={`rounded-full px-4 py-1.5 text-xs font-semibold tracking-[0.18em] uppercase ${
-                      result === "PASS"
-                        ? "bg-[#E8F5EE] text-band-resilient"
-                        : "bg-[#FDE8E8] text-band-critical"
-                    }`}
-                  >
-                    {label} {result === "PASS" ? "✓" : "✗"}
-                  </span>
-                ))}
-              </div>
-            </CardContent>
-          </Card>
-        </div>
-
-        {/* Destinations table */}
-        <Card className="mt-6">
-          <CardContent className="pt-6">
-            <CardLabel>Destination occupations</CardLabel>
-            <CardTitle className="text-lg">
-              What the exposure mean is computed over
-            </CardTitle>
-            <p className="text-muted-foreground mt-1 mb-4 text-sm">
-              {program.nTitles} distinct destination titles, each mapped to an
-              O*NET-SOC 2010 occupation with a published AIOE value — no title
-              is silently dropped.
-            </p>
-            <div className="overflow-x-auto">
-              <table className="w-full border-collapse text-sm">
-                <thead>
-                  <tr>
-                    {["Destination title", "SOC occupation", "AIOE", "Stages", "Crosswalk", "Mapping"].map((h) => (
-                      <th key={h} className="text-muted-foreground border-border border-b-2 px-3 py-2 text-left text-xs font-medium tracking-[0.18em] uppercase">
-                        {h}
-                      </th>
-                    ))}
-                  </tr>
-                </thead>
-                <tbody>
-                  {[...program.destinations]
-                    .sort((a, b) => b.aioe - a.aioe)
-                    .map((d) => (
-                      <tr key={d.title} className="border-border border-b">
-                        <td className="px-3 py-2">{d.title}</td>
-                        <td className="text-muted-foreground px-3 py-2">
-                          {d.socTitle} <span className="font-mono text-xs">({d.soc})</span>
-                        </td>
-                        <td className="px-3 py-2 font-mono">{d.aioe.toFixed(1)}</td>
-                        <td className="text-muted-foreground px-3 py-2 text-xs">
-                          {d.stages.join(", ")}
-                        </td>
-                        <td className="text-muted-foreground px-3 py-2 text-xs">
-                          {d.crosswalkSource === "preexisting_288" ? "inherited" : "Aug 2026"}
-                        </td>
-                        <td className="px-3 py-2">
-                          <span
-                            className={
-                              d.confidence === "high"
-                                ? "text-band-resilient"
-                                : d.confidence === "medium"
-                                  ? "text-band-moderate"
-                                  : "text-band-critical"
-                            }
-                          >
-                            ● {d.confidence}
-                          </span>
-                        </td>
-                      </tr>
-                    ))}
-                </tbody>
-              </table>
-            </div>
-          </CardContent>
-        </Card>
-
-        {/* Intervention simulator (R12c) */}
-        <Card className="mt-6">
-          <CardContent className="pt-6">
-            <CardLabel>Intervention simulator</CardLabel>
-            <CardTitle className="text-lg">
-              What would actually move this program — and what wouldn't
-            </CardTitle>
-            <p className="text-muted-foreground mt-1 mb-6 text-sm">
-              Panel C is a small integer space: every reachable position under
-              curriculum improvement can be enumerated. Exposure is not
-              simulatable — it belongs to the destinations.
-            </p>
-            <InterventionSimulator program={program} />
-          </CardContent>
-        </Card>
-
         {/* What changed from v2 */}
         <Card className="mt-6">
           <CardContent className="pt-6">
@@ -688,22 +769,7 @@ export default function V3ReportPage() {
           </CardContent>
         </Card>
 
-        {/* Market intelligence + redesign recommendations (canonical source:
-            reports/dfva-market-*.md and reports/dfva-recommend-*.md; the card
-            renders nothing for programs without those reports) */}
-        <ReportMarkdownCard
-          slug={`dfva-market-${program.code}`}
-          label="Market Intelligence"
-          title="Labour-Market Intelligence"
-          subtitle="Job families, hiring signals, and discussion themes for this program's destinations — from the DFVA market-intelligence pipeline"
-        />
-        <ReportMarkdownCard
-          slug={`dfva-recommend-${program.code}`}
-          label="Redesign Recommendations"
-          title="Improvement Plan"
-          subtitle="Score-to-action mapping and prioritised interventions — from the DFVA recommendation pipeline"
-        />
-
+        {/* Footer — links labelled by destination and purpose (U12) */}
         <div className="text-muted-foreground border-border mt-12 flex flex-wrap items-center justify-between gap-3 border-t pt-6 text-xs">
           <span>
             Evidura · Durability Assessment · v3 preview · computed{" "}
@@ -711,16 +777,10 @@ export default function V3ReportPage() {
           </span>
           <span className="flex gap-4">
             <Link to={`/insights/v31/${program.code}`} className="underline">
-              v3.1 report (this program)
-            </Link>
-            <Link to="/insights/v31/mc-jurisd" className="underline">
-              v3.1 (Juris Doctor)
-            </Link>
-            <Link to="/insights/program/mc-cs" className="underline">
-              v2 report (MC-CS)
+              Same program, current report format (v3.1)
             </Link>
             <Link to="/insights" className="underline">
-              ← Portfolio matrix
+              See all 34 assessed programs (portfolio matrix)
             </Link>
           </span>
         </div>

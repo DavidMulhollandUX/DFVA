@@ -14,18 +14,57 @@
 
 ## 1. JOB FAMILY MAP
 
-| Job Family | Typical Entry Titles | Core Tasks | AI Substitution Pressure | Skills Increasing in Demand | Evidence Notes |
-|---|---|---|---|---|---|
-| ML Engineer / AI Scientist | ML Engineer, AI Research Scientist, Applied Scientist | Model design, training pipeline engineering, evaluation, deployment, research experimentation | **LOW** — research component irreducible | LLM fine-tuning, RLHF, model evaluation, MLOps, multi-modal systems | LinkedIn: ML Engineer roles +35% YoY ANZ. Research Scientist roles require MSc minimum — MC-CS directly targets this |
-| Software Engineer (Systems/Platform) | Software Engineer, Platform Engineer, Infrastructure Engineer | Distributed systems design, API development, cloud architecture, performance optimisation | **MEDIUM** — routine CRUD development compressing; systems design growing | Distributed systems, cloud-native (K8s), Rust/Go, system reliability engineering | Stack Overflow 2025: systems-level roles growing 12% YoY; full-stack web roles declining |
-| Data Engineer / Analytics Engineer | Data Engineer, Analytics Engineer, ML Platform Engineer | Data pipeline construction, data modelling, feature engineering, infrastructure for ML | **LOW-MEDIUM** — pipeline automation advancing but design requires judgment | dbt, Apache Spark/Flink, data mesh architecture, streaming systems | LinkedIn: Analytics Engineer +31% YoY; Reporting Analyst -22% YoY |
-| Cybersecurity Analyst / Engineer | Security Engineer, Application Security Analyst, Cloud Security Engineer | Threat modelling, vulnerability assessment, security architecture, incident response | **LOW** — adversarial domain resists automation | Cloud security, AI-powered threat detection, zero-trust architecture, supply chain security | ISACA 2025: cybersecurity roles growing 18% CAGR; AI security specialist +47% |
-| DevOps / Cloud Engineer | DevOps Engineer, Cloud Engineer, SRE | CI/CD pipeline management, infrastructure-as-code, observability, incident management | **MEDIUM** — routine operations automating; architecture design remains human | Kubernetes, Terraform, observability engineering, platform engineering | Gartner 2025: platform engineering as #1 DevOps trend; pure ops roles declining |
-| HCI / UX Researcher | UX Researcher, HCI Specialist, AI Interaction Designer | User research, interaction design for AI systems, usability evaluation, human-AI workflow design | **LOW** — human-centred research irreducible | AI interaction design, conversational UX, responsible AI design, accessibility | LinkedIn: "AI UX Designer" +28% YoY; HCI PhDs increasingly recruited by big tech |
+### ML Engineer / AI Scientist
+
+**Typical entry titles:** ML Engineer, AI Research Scientist, Applied Scientist
+**Core tasks:** Model design, training pipeline engineering, evaluation, deployment, research experimentation
+**AI substitution pressure:** LOW — research component irreducible
+**Skills rising in demand:** LLM fine-tuning, RLHF, model evaluation, MLOps, multi-modal systems
+**Evidence:** LinkedIn: ML Engineer roles +35% YoY ANZ. Research Scientist roles require MSc minimum — MC-CS directly targets this
+
+### Software Engineer (Systems/Platform)
+
+**Typical entry titles:** Software Engineer, Platform Engineer, Infrastructure Engineer
+**Core tasks:** Distributed systems design, API development, cloud architecture, performance optimisation
+**AI substitution pressure:** MEDIUM — routine CRUD development compressing; systems design growing
+**Skills rising in demand:** Distributed systems, cloud-native (K8s), Rust/Go, system reliability engineering
+**Evidence:** Stack Overflow 2025: systems-level roles growing 12% YoY; full-stack web roles declining
+
+### Data Engineer / Analytics Engineer
+
+**Typical entry titles:** Data Engineer, Analytics Engineer, ML Platform Engineer
+**Core tasks:** Data pipeline construction, data modelling, feature engineering, infrastructure for ML
+**AI substitution pressure:** LOW-MEDIUM — pipeline automation advancing but design requires judgment
+**Skills rising in demand:** dbt, Apache Spark/Flink, data mesh architecture, streaming systems
+**Evidence:** LinkedIn: Analytics Engineer +31% YoY; Reporting Analyst -22% YoY
+
+### Cybersecurity Analyst / Engineer
+
+**Typical entry titles:** Security Engineer, Application Security Analyst, Cloud Security Engineer
+**Core tasks:** Threat modelling, vulnerability assessment, security architecture, incident response
+**AI substitution pressure:** LOW — adversarial domain resists automation
+**Skills rising in demand:** Cloud security, AI-powered threat detection, zero-trust architecture, supply chain security
+**Evidence:** ISACA 2025: cybersecurity roles growing 18% CAGR; AI security specialist +47%
+
+### DevOps / Cloud Engineer
+
+**Typical entry titles:** DevOps Engineer, Cloud Engineer, SRE
+**Core tasks:** CI/CD pipeline management, infrastructure-as-code, observability, incident management
+**AI substitution pressure:** MEDIUM — routine operations automating; architecture design remains human
+**Skills rising in demand:** Kubernetes, Terraform, observability engineering, platform engineering
+**Evidence:** Gartner 2025: platform engineering as #1 DevOps trend; pure ops roles declining
+
+### HCI / UX Researcher
+
+**Typical entry titles:** UX Researcher, HCI Specialist, AI Interaction Designer
+**Core tasks:** User research, interaction design for AI systems, usability evaluation, human-AI workflow design
+**AI substitution pressure:** LOW — human-centred research irreducible
+**Skills rising in demand:** AI interaction design, conversational UX, responsible AI design, accessibility
+**Evidence:** LinkedIn: "AI UX Designer" +28% YoY; HCI PhDs increasingly recruited by big tech
 
 ---
 
-## 2. RECENT JOB AD SIGNALS
+## 2. RECENT JOB AD SIGNALS — MEDIUM CONFIDENCE
 
 > **Confidence: MEDIUM** — Patterns from documented trend data and employer hiring language.
 
@@ -52,7 +91,7 @@ ANZ tech employers (Atlassian, Canva, REA Group, NAB) increasingly referencing "
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS (professional discourse on X) — MEDIUM CONFIDENCE
 
 > **Confidence: MEDIUM** — Pattern-based from known discourse.
 

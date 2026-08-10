@@ -280,6 +280,49 @@ The quadrant function and tie rule are restated in the generator identically to 
 
 ## 10. Display logic (as rendered)
 
+> **Display revision (2026-08-08, usability review).** An external
+> understandability review of the rendered Juris Doctor report (13 findings,
+> U1–U13; no data-quality issues) drove a revision of the display layer. The
+> four-signal model (§10.1) and every disclosure obligation stand; what changed
+> is sequence, labelling and layering:
+>
+> 1. **Answer-first structure (U13/U3/U10).** Reports are now three labelled
+>    parts with an on-page map: *Part A — The finding* (an authored or
+>    data-derived finding block — finding, meaning, firmness, highest-value
+>    actions — ahead of the position card), *Part B — Market evidence &
+>    improvement plan*, *Part C — Method & uncertainty*. The version changelog
+>    no longer opens the report.
+> 2. **Method content is layered, not competing (U7).** The sensitivity table,
+>    distribution structure and version comparison render as collapsed
+>    disclosures in Part C, each with a one-line summary; nothing was removed.
+> 3. **Plain-language probability (U8).** The report surface states "there is
+>    an N% chance this position is the one shown…" with the three error-rate
+>    values inline; the m-notation and 5-dp values remain in Part C, matching
+>    the reference CSV. Unexplained glyphs replaced with words.
+> 4. **Confidence labels renamed at display (U9).** The rendered field is
+>    "Position confidence: *near a threshold* / *firm*"; the boundary/stable
+>    vocabulary of §4.2 is retained in data, tests and this document. The
+>    rating-precision-not-quality sentence is kept.
+> 5. **Exposure-is-not-displacement co-location (U5,** extending v3 §5.6**).**
+>    A "What exposure means" explainer — task overlap, not job loss; exposed
+>    occupations projected to grow — renders adjacent to every exposure figure.
+> 6. **Legacy composite removed from rendered content (U1).** The v1 11-dimension
+>    composite and its editorial status labels are removed from report content;
+>    the lint-required `**Current:** N/36` line survives as file metadata that
+>    the renderer strips (first-section metadata stripping). Status labels are
+>    now derived from the improvement plan (P-targets/monitor/hold), never
+>    editorialised from raw scores (U2).
+> 7. **Confidence as a visual property (U6/U11).** LOW/MEDIUM-confidence
+>    sections carry the badge in the heading, banners above content, and
+>    coarsened directional figures (e.g. "~$85–95k"); the salary section is
+>    titled for what it contains. Job-family content renders as reflowing cards
+>    rather than 6-column tables (U4). Footer links are labelled by destination
+>    and purpose (U12).
+>
+> The same principles were applied to the v3 and v2 report pages (v1 left
+> unchanged). §10.2 below describes the pre-revision composition order and is
+> superseded by the three-part structure where they conflict.
+
 ### 10.1 Four stability signals, and what each is allowed to claim
 
 The page renders four *independent* signals. They answer different questions and are never merged into one indicator; the design rule is that no signal may absorb another's meaning.

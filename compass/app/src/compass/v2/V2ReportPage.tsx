@@ -15,6 +15,24 @@ import { DIMENSION_LABELS, QUADRANTS } from "./quadrants";
 const X_MIN = 30;
 const X_MAX = 80;
 
+/** Answer-first finding blocks (UX review U13), in v2's own numbers — the v2
+ * page never quotes v3 figures, so the two instruments are not mixed. */
+const V2_FINDINGS: Record<
+  string,
+  { finding: string; meaning: string; actions: string[] }
+> = {
+  "mc-cs": {
+    finding:
+      "Graduates enter among the most AI-exposed destinations in the portfolio (exposure 71.3, against a portfolio median of 61.8), and the curriculum builds the strongest defences in the portfolio against that overlap: adaptiveness 14 of 15, with one remaining scored gap (systems thinking 2/3).",
+    meaning:
+      "Exposed destinations with an adaptive curriculum is the strongest position in the portfolio, not a warning: these graduates work where AI is the tool, and the curriculum trains them to design and supervise it. The management task is to hold the position as destination exposure keeps rising.",
+    actions: [
+      "Close the last scored gap: embed cross-disciplinary trade-off and failure-mode case studies in each core unit (systems thinking to 3/3).",
+      "Steer destination mix toward low-substitution families: ML platform engineering, security, AI governance.",
+    ],
+  },
+};
+
 function CardLabel({ children }: { children: React.ReactNode }) {
   return (
     <div className="text-muted-foreground mb-3 flex items-center gap-2 text-xs font-semibold tracking-[0.18em] uppercase">
@@ -161,6 +179,36 @@ export default function V2ReportPage() {
           </div>
         </div>
 
+        {/* Answer-first finding block (U13) — rendered when authored */}
+        {V2_FINDINGS[program.code] && (
+          <Card className="mb-6">
+            <CardContent className="pt-6">
+              <div className="flex flex-col gap-5">
+                <div>
+                  <CardLabel>The finding</CardLabel>
+                  <p className="text-foreground text-base leading-relaxed" data-testid="finding-block">
+                    {V2_FINDINGS[program.code].finding}
+                  </p>
+                </div>
+                <div>
+                  <CardLabel>What this does and does not mean</CardLabel>
+                  <p className="text-muted-foreground text-sm leading-relaxed">
+                    {V2_FINDINGS[program.code].meaning}
+                  </p>
+                </div>
+                <div>
+                  <CardLabel>The highest-value changes</CardLabel>
+                  <ol className="text-foreground list-decimal space-y-1 pl-5 text-sm">
+                    {V2_FINDINGS[program.code].actions.map((a) => (
+                      <li key={a}>{a}</li>
+                    ))}
+                  </ol>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+        )}
+
         <div className="grid gap-6 md:grid-cols-2">
           {/* Panel A */}
           <Card>
@@ -203,13 +251,20 @@ export default function V2ReportPage() {
                   </div>
                   <div className="bg-card-accent text-muted-foreground flex items-start gap-2 rounded-md p-3 text-sm">
                     <span className="text-base">⚠</span>
-                    <span>
+                    <span data-testid="exposure-explainer">
                       <strong className="text-foreground font-medium">
-                        Exposure is not risk.
+                        What exposure means.
                       </strong>{" "}
-                      This axis encodes how much of the destination work current
-                      AI touches, not the direction of the effect. Per the
-                      Felten et al. (2023) AI Occupational Exposure Index.
+                      This figure says how much of the destination work current
+                      AI touches. It does{" "}
+                      <strong className="text-foreground">not</strong> mean
+                      those jobs are disappearing — across the Australian
+                      labour market, the most AI-exposed occupations are
+                      projected to grow, because exposed work tends to be
+                      skilled work. Exposure indicates where the <em>content</em>{" "}
+                      of work is likely to change; what that means for graduates
+                      depends on the adaptiveness axis. Per the Felten et al.
+                      (2023) AI Occupational Exposure Index.
                     </span>
                   </div>
                   {detail && (
@@ -443,9 +498,14 @@ export default function V2ReportPage() {
           </Card>
         </div>
 
-        {/* What changed from v1 */}
-        <Card className="mt-6">
-          <CardContent className="pt-6">
+        {/* What changed from v1 — method detail, collapsed by default (U7/U10) */}
+        <details className="border-border mt-6 rounded-lg border">
+          <summary className="text-foreground hover:bg-card-accent cursor-pointer rounded-lg px-5 py-4 text-sm font-medium">
+            What changed from DFVA v1 — the composite ({program.v1_score}/36) is
+            superseded; how each v1 dimension was re-treated
+          </summary>
+        <Card className="border-0 shadow-none">
+          <CardContent className="pt-2">
             <CardLabel>Version comparison</CardLabel>
             <CardTitle className="text-lg">What changed from DFVA v1</CardTitle>
             <p className="text-muted-foreground mt-1 mb-6 text-sm">
@@ -501,6 +561,7 @@ export default function V2ReportPage() {
             </div>
           </CardContent>
         </Card>
+        </details>
 
         {/* Market intelligence + redesign recommendations (generated from
             reports/dfva-market-*.md and reports/dfva-recommend-*.md; render
@@ -527,11 +588,11 @@ export default function V2ReportPage() {
             </span>
           )}
           <span className="flex gap-4">
-            <Link to="/insights/v3/mc-is" className="underline">
-              v3 preview (MC-IS)
+            <Link to={`/insights/v31/${program.code}`} className="underline">
+              Same program, current report format (v3.1)
             </Link>
             <Link to="/insights" className="underline">
-              ← Back to the portfolio matrix
+              See all assessed programs (portfolio matrix)
             </Link>
           </span>
         </div>

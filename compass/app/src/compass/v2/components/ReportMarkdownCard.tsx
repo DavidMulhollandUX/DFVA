@@ -13,16 +13,23 @@ interface MarkdownSection {
 }
 
 // Split a DFVA report body into ## sections. The H1 title and the
-// **Key:** metadata lines duplicate the v2 hero, so they are dropped;
-// any remaining preamble (e.g. evidence-confidence notes) becomes an
-// untitled intro section.
+// **Key:** metadata lines duplicate the page hero, so they are dropped —
+// both in the preamble and at the head of the FIRST titled section
+// (recommend files open with "## IMPROVEMENT PLAN:", so their **Current:**
+// v1-composite line and sibling metadata live inside a section, not the
+// preamble; rendering that superseded composite is UX defect U1). Any
+// remaining preamble (e.g. evidence-confidence notes) becomes an untitled
+// intro section.
 function splitSections(markdown: string): MarkdownSection[] {
   const lines = markdown.split("\n");
   const sections: MarkdownSection[] = [];
   let current: MarkdownSection = { title: "", body: "" };
+  let sectionCount = 0;
+  let atLeadingRun = true; // inside the metadata run at the top of the doc / first section
   for (const line of lines) {
     if (line.startsWith("## ")) {
       if (current.body.trim()) sections.push(current);
+      sectionCount++;
       current = {
         title: line.replace(/^##\s+\d*\.?\s*/, "").trim(),
         body: "",
@@ -30,8 +37,14 @@ function splitSections(markdown: string): MarkdownSection[] {
       continue;
     }
     if (line.startsWith("# ")) continue;
-    if (!current.title && /^\*\*[^*]+:\*\*/.test(line.trim())) continue;
-    if (!current.title && line.trim() === "---") continue;
+    const inMetadataZone = !current.title || (sectionCount === 1 && atLeadingRun);
+    if (inMetadataZone) {
+      const trimmed = line.trim();
+      if (/^\*\*[^*]+:\*\*/.test(trimmed) || trimmed === "---" || trimmed === "") {
+        continue;
+      }
+      if (current.title) atLeadingRun = false;
+    }
     current.body += line + "\n";
   }
   if (current.body.trim()) sections.push(current);

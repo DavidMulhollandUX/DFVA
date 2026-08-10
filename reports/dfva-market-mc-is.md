@@ -14,20 +14,73 @@
 
 ## 1. JOB FAMILY MAP
 
-| Job Family | Typical Entry Titles | Core Tasks | AI Substitution Pressure | Skills Increasing in Demand | Evidence Notes |
-|---|---|---|---|---|---|
-| Business Analyst / Systems Analyst | Business Analyst, Junior Systems Analyst, Requirements Analyst, Process Analyst | Requirements elicitation, process documentation, stakeholder interviews, change impact analysis, user story writing | **HIGH** | AI workflow mapping, process automation oversight, data literacy, change management for AI adoption | LinkedIn Jobs on the Rise 2025: BA roles declining as standalone title; "AI Business Analyst" and "Automation Analyst" emerging. WEF 2025 flags clerical/documentation work as top-5 declining task cluster |
-| IT Project Manager / Delivery Lead | Junior Project Manager, Delivery Coordinator, Scrum Master, PMO Analyst | Sprint facilitation, risk registers, status reporting, stakeholder communication, resource scheduling | **HIGH** (coordination); **MEDIUM** (governance) | AI-assisted project tooling, risk judgment, vendor AI governance, cross-functional facilitation | PMI 2025 Pulse of the Profession: 68% of PMOs using AI for status reporting. Entry PM roles down 14% YoY ANZ (Seek Q4 2025) |
-| Enterprise Architect / Solutions Architect | Junior Solutions Architect, IT Architect Analyst, Enterprise Architecture Analyst | Architecture pattern selection, system integration design, capability mapping, technical roadmapping | **LOW–MEDIUM** | Cloud-native architecture, AI system design, API governance, platform thinking, security-by-design | Gartner 2025: EA roles growing 9% CAGR but entry now requires cloud + AI platform fluency. TOGAF declining as employer requirement |
-| Data Analyst / BI Analyst | Data Analyst, BI Analyst, Reporting Analyst, Insights Analyst | Dashboard build, SQL querying, data wrangling, stakeholder reporting, KPI design | **HIGH** (standard dashboards); **MEDIUM** (complex analysis) | Python/R, dbt, data storytelling, AI-assisted analysis validation, semantic layer design | LinkedIn Workforce Report Q1 2026: "Reporting Analyst" postings down 22% YoY; "Analytics Engineer" up 31% |
-| IT Consultant (Big 4 / Boutique) | Analyst, Consultant (Technology Advisory), Technology Graduate | Client discovery, current-state analysis, recommendation decks, vendor evaluation, change readiness assessments | **MEDIUM** (documents); **LOW** (client judgment) | AI transformation advisory, change management for AI adoption, data-driven storytelling, sector specialisation | Big 4 ANZ 2026 grad ads explicitly requiring "AI literacy" and "automation advisory" |
-| AI Product Owner / Automation Analyst | AI Product Owner, Intelligent Automation Analyst, RPA/AI Workflow Specialist | AI workflow scoping, automation ROI analysis, bot governance, human-in-the-loop design | **LOW** | Process mining, LLM prompt engineering, AI governance frameworks, workflow orchestration | Seek.com.au: "Automation Analyst" postings +47% YoY (Q1 2026). "AI Governance Analyst" — 34 new ANZ postings Q4 2025 |
-| Digital Transformation / Change Manager | Change Analyst, Transformation Analyst, Organisational Change Consultant | Stakeholder impact analysis, communications planning, training needs analysis, adoption measurement | **MEDIUM** | AI adoption facilitation, psychological safety, measurement and feedback loop design | PROSCI 2025: AI adoption projects now 61% of active change management engagements, up from 31% in 2023 |
-| IT Governance / GRC Analyst | GRC Analyst, IT Risk Analyst, IT Compliance Analyst | Risk assessments, policy documentation, audit support, vendor risk review, compliance monitoring | **LOW–MEDIUM** | AI risk frameworks (NIST AI RMF, ISO 42001), data privacy law, third-party AI vendor assessment | ISACA State of Cybersecurity 2025: AI governance skills listed as #1 emerging requirement across GRC roles. ISO 42001 demand tripling YoY |
+### Business Analyst / Systems Analyst
+
+**Typical entry titles:** Business Analyst, Junior Systems Analyst, Requirements Analyst, Process Analyst
+**Core tasks:** Requirements elicitation, process documentation, stakeholder interviews, change impact analysis, user story writing
+**AI substitution pressure:** HIGH
+**Skills rising in demand:** AI workflow mapping, process automation oversight, data literacy, change management for AI adoption
+**Evidence:** LinkedIn Jobs on the Rise 2025: BA roles declining as standalone title; "AI Business Analyst" and "Automation Analyst" emerging. WEF 2025 flags clerical/documentation work as top-5 declining task cluster
+
+### IT Project Manager / Delivery Lead
+
+**Typical entry titles:** Junior Project Manager, Delivery Coordinator, Scrum Master, PMO Analyst
+**Core tasks:** Sprint facilitation, risk registers, status reporting, stakeholder communication, resource scheduling
+**AI substitution pressure:** HIGH (coordination) / MEDIUM (governance)
+**Skills rising in demand:** AI-assisted project tooling, risk judgment, vendor AI governance, cross-functional facilitation
+**Evidence:** PMI 2025 Pulse of the Profession: 68% of PMOs using AI for status reporting. Entry PM roles down 14% YoY ANZ (Seek Q4 2025)
+
+### Enterprise Architect / Solutions Architect
+
+**Typical entry titles:** Junior Solutions Architect, IT Architect Analyst, Enterprise Architecture Analyst
+**Core tasks:** Architecture pattern selection, system integration design, capability mapping, technical roadmapping
+**AI substitution pressure:** LOW–MEDIUM
+**Skills rising in demand:** Cloud-native architecture, AI system design, API governance, platform thinking, security-by-design
+**Evidence:** Gartner 2025: EA roles growing 9% CAGR but entry now requires cloud + AI platform fluency. TOGAF declining as employer requirement
+
+### Data Analyst / BI Analyst
+
+**Typical entry titles:** Data Analyst, BI Analyst, Reporting Analyst, Insights Analyst
+**Core tasks:** Dashboard build, SQL querying, data wrangling, stakeholder reporting, KPI design
+**AI substitution pressure:** HIGH (standard dashboards) / MEDIUM (complex analysis)
+**Skills rising in demand:** Python/R, dbt, data storytelling, AI-assisted analysis validation, semantic layer design
+**Evidence:** LinkedIn Workforce Report Q1 2026: "Reporting Analyst" postings down 22% YoY; "Analytics Engineer" up 31%
+
+### IT Consultant (Big 4 / Boutique)
+
+**Typical entry titles:** Analyst, Consultant (Technology Advisory), Technology Graduate
+**Core tasks:** Client discovery, current-state analysis, recommendation decks, vendor evaluation, change readiness assessments
+**AI substitution pressure:** MEDIUM (documents) / LOW (client judgment)
+**Skills rising in demand:** AI transformation advisory, change management for AI adoption, data-driven storytelling, sector specialisation
+**Evidence:** Big 4 ANZ 2026 grad ads explicitly requiring "AI literacy" and "automation advisory"
+
+### AI Product Owner / Automation Analyst
+
+**Typical entry titles:** AI Product Owner, Intelligent Automation Analyst, RPA/AI Workflow Specialist
+**Core tasks:** AI workflow scoping, automation ROI analysis, bot governance, human-in-the-loop design
+**AI substitution pressure:** LOW (growth area)
+**Skills rising in demand:** Process mining, LLM prompt engineering, AI governance frameworks, workflow orchestration
+**Evidence:** Seek.com.au: "Automation Analyst" postings +47% YoY (Q1 2026). "AI Governance Analyst" — 34 new ANZ postings Q4 2025
+
+### Digital Transformation / Change Manager
+
+**Typical entry titles:** Change Analyst, Transformation Analyst, Organisational Change Consultant
+**Core tasks:** Stakeholder impact analysis, communications planning, training needs analysis, adoption measurement
+**AI substitution pressure:** MEDIUM
+**Skills rising in demand:** AI adoption facilitation, psychological safety, measurement and feedback loop design
+**Evidence:** PROSCI 2025: AI adoption projects now 61% of active change management engagements, up from 31% in 2023
+
+### IT Governance / GRC Analyst
+
+**Typical entry titles:** GRC Analyst, IT Risk Analyst, IT Compliance Analyst
+**Core tasks:** Risk assessments, policy documentation, audit support, vendor risk review, compliance monitoring
+**AI substitution pressure:** LOW–MEDIUM
+**Skills rising in demand:** AI risk frameworks (NIST AI RMF, ISO 42001), data privacy law, third-party AI vendor assessment
+**Evidence:** ISACA State of Cybersecurity 2025: AI governance skills listed as #1 emerging requirement across GRC roles. ISO 42001 demand tripling YoY
 
 ---
 
-## 2. RECENT JOB AD SIGNALS
+## 2. RECENT JOB AD SIGNALS — MEDIUM CONFIDENCE
 
 > **Confidence: MEDIUM** — Patterns drawn from documented trend data and known employer hiring language. Live scrape data not available; signal direction is reliable.
 
@@ -52,7 +105,7 @@ Seek.com.au (Q1 2026 vs Q1 2025): postings requiring less than 2 years experienc
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS (professional discourse on X) — MEDIUM CONFIDENCE
 
 > **Confidence: MEDIUM** — Pattern-based from known discourse; not live retrieval.
 
