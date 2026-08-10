@@ -21,10 +21,23 @@ export type GlossaryTerm =
   | "panels"
   | "evidenceTier";
 
-const GLOSSARY: Record<GlossaryTerm, { term: string; def: string }> = {
+const GLOSSARY: Record<
+  GlossaryTerm,
+  { term: string; def: string; links?: { label: string; href: string }[] }
+> = {
   aioe: {
     term: "AIOE (AI Occupational Exposure)",
-    def: "A published index (Felten, Raj & Seamans, 2023) measuring, for each of ~770 occupations, how much the occupation's ability requirements overlap with what current AI can do. Values here are rescaled 0–100 across the published population: 0 is the least-exposed occupation (mostly physical and manual work), 100 the most. It measures task overlap only — not job losses, wages, or demand.",
+    def: "A published index (Felten, Raj & Seamans, 2021) measuring, for each of ~770 occupations, how much the occupation's ability requirements overlap with what current AI can do. Values here are rescaled 0–100 across the published population: 0 is the least-exposed occupation (mostly physical and manual work), 100 the most. It measures task overlap only — not job losses, wages, or demand.",
+    links: [
+      {
+        label: "Felten, Raj & Seamans (2021), Strategic Management Journal",
+        href: "https://doi.org/10.1002/smj.3286",
+      },
+      {
+        label: "Published data appendix (AIOE-Data/AIOE)",
+        href: "https://github.com/AIOE-Data/AIOE",
+      },
+    ],
   },
   destinationExposure: {
     term: "Destination AI Exposure",
@@ -94,7 +107,23 @@ export function MethodGlossary({ terms }: { terms: GlossaryTerm[] }) {
         {terms.map((key) => (
           <div key={key}>
             <dt className="text-foreground text-sm font-semibold">{GLOSSARY[key].term}</dt>
-            <dd className="text-muted-foreground text-sm leading-relaxed">{GLOSSARY[key].def}</dd>
+            <dd className="text-muted-foreground text-sm leading-relaxed">
+              {GLOSSARY[key].def}
+              {GLOSSARY[key].links?.map((l) => (
+                <span key={l.href}>
+                  {" "}
+                  <a
+                    href={l.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline"
+                  >
+                    {l.label}
+                  </a>
+                  .
+                </span>
+              ))}
+            </dd>
           </div>
         ))}
       </dl>

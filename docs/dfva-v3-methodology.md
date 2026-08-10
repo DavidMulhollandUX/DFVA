@@ -29,7 +29,7 @@ v3 exists because four v2 claims failed reproduction. They are recorded here bec
 
 ### 3.1 Construct
 
-Unchanged from v2: mean AI Occupational Exposure (Felten, Raj & Seamans 2023) of the occupations a program's graduates actually enter. Exposure encodes task overlap with AI capability — **not** direction of effect (v2 principle P3, retained; see §5.6).
+Unchanged from v2: mean AI Occupational Exposure (Felten, Raj & Seamans 2021) of the occupations a program's graduates actually enter. Exposure encodes task overlap with AI capability — **not** direction of effect (v2 principle P3, retained; see §5.6).
 
 ### 3.2 Destination-title universe
 
@@ -195,6 +195,6 @@ Inherited v2 limitations remain except where superseded; new limitations are int
 
 ## References
 
-- Felten, E., Raj, M., & Seamans, R. (2023). *Occupational, industry, and geographic exposure to artificial intelligence.* Strategic Management Journal. Data appendix: `AIOE-Data/AIOE`.
+- Felten, E., Raj, M., & Seamans, R. (2021). *Occupational, industry, and geographic exposure to artificial intelligence: A novel dataset and its potential uses.* Strategic Management Journal, 42(12). <https://doi.org/10.1002/smj.3286>. Data appendix: `AIOE-Data/AIOE`. *(Citation year corrected from 2023, 2026-08-08.)*
 - DFVA v2 methodology (`docs/dfva-v2-methodology.md`) and v1 methodology (`docs/dfva-methodology.md`).
 - Panel A reconciliation package, August 2026 (`data/aioe/reconciliation/`): revision note, twelve-recommendation scoping document, authoritative per-program table, crosswalks, spot-check traces.

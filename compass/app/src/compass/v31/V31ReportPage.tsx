@@ -283,7 +283,16 @@ export default function V31ReportPage() {
                   <span className="text-base">⚠</span>
                   <span data-testid="exposure-explainer">
                     <strong className="text-foreground font-medium">What exposure means.</strong>{" "}
-                    AIOE is the AI Occupational Exposure index (Felten et al., 2023): a published
+                    AIOE is the AI Occupational Exposure index (
+                    <a
+                      href="https://doi.org/10.1002/smj.3286"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="underline"
+                    >
+                      Felten, Raj &amp; Seamans, 2021
+                    </a>
+                    ): a published
                     measure, for each of ~770 occupations, of how much that occupation's tasks
                     overlap with what current AI can do, rescaled 0–100. A value of{" "}
                     {program.exposure.toFixed(2)} says a large share of the tasks in this program's

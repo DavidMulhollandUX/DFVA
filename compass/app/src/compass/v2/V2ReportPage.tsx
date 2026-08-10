@@ -257,18 +257,26 @@ export default function V2ReportPage() {
                         What exposure means.
                       </strong>{" "}
                       Exposure is measured on the AI Occupational Exposure
-                      index (AIOE; Felten et al., 2023) — a published measure,
-                      per occupation, of how much the occupation's tasks
-                      overlap with what current AI can do. This figure says how
-                      much of the destination work current AI touches. It does{" "}
+                      index (AIOE;{" "}
+                      <a
+                        href="https://doi.org/10.1002/smj.3286"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="underline"
+                      >
+                        Felten, Raj &amp; Seamans, 2021
+                      </a>
+                      ) — a published measure, per occupation, of how much the
+                      occupation's tasks overlap with what current AI can do.
+                      This figure says how much of the destination work current
+                      AI touches. It does{" "}
                       <strong className="text-foreground">not</strong> mean
                       those jobs are disappearing — across the Australian
                       labour market, the most AI-exposed occupations are
                       projected to grow, because exposed work tends to be
                       skilled work. Exposure indicates where the <em>content</em>{" "}
                       of work is likely to change; what that means for graduates
-                      depends on the adaptiveness axis. Per the Felten et al.
-                      (2023) AI Occupational Exposure Index.
+                      depends on the adaptiveness axis.
                     </span>
                   </div>
                   {detail && (
