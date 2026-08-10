@@ -90,7 +90,7 @@ export default function V2ReportPage() {
           No v2 assessment exists for “{code}”.
         </p>
         <Link to="/insights" className="text-secondary-muted-foreground underline">
-          Back to the portfolio matrix
+          Back to the portfolio overview
         </Link>
       </div>
     );
@@ -636,7 +636,7 @@ export default function V2ReportPage() {
               Same program, current report format (v3.1)
             </Link>
             <Link to="/insights" className="underline">
-              See all assessed programs (portfolio matrix)
+              See all assessed programs (portfolio overview)
             </Link>
           </span>
         </div>

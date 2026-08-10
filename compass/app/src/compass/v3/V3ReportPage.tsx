@@ -287,7 +287,7 @@ export default function V3ReportPage() {
           {V3_META.placed} programs with a destination exposure measurement.
         </p>
         <Link to="/insights" className="text-secondary-muted-foreground underline">
-          Back to the portfolio matrix
+          Back to the portfolio overview
         </Link>
       </div>
     );
@@ -846,7 +846,7 @@ export default function V3ReportPage() {
               Same program, current report format (v3.1)
             </Link>
             <Link to="/insights" className="underline">
-              See all 34 assessed programs (portfolio matrix)
+              See all assessed programs (portfolio overview)
             </Link>
           </span>
         </div>

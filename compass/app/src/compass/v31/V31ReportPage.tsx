@@ -229,7 +229,7 @@ export default function V31ReportPage() {
           No v3.1 assessment exists for “{code}” — v3.1 covers the {V3_META.placed} placed programs.
         </p>
         <Link to="/insights" className="text-secondary-muted-foreground underline">
-          Back to the portfolio matrix
+          Back to the portfolio overview
         </Link>
       </div>
     );
@@ -710,7 +710,7 @@ export default function V31ReportPage() {
               Same program, previous report format (v3)
             </Link>
             <Link to="/insights" className="underline">
-              See all 34 assessed programs (portfolio matrix)
+              See all assessed programs (portfolio overview)
             </Link>
           </span>
         </div>

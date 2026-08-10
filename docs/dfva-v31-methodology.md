@@ -344,6 +344,24 @@ The quadrant function and tie rule are restated in the generator identically to 
 >    LOW/MEDIUM confidence, not live retrievals. Part B opens with a pointer
 >    to the reference list.
 >
+> 10. **Portfolio surface rebuilt on the current measurement (2026-08-10).**
+>     The `/insights` portfolio page was still plotting the **superseded v2
+>     proxy** exposure (median 61.8) while every report it linked to showed the
+>     authoritative Felten AIOE measurement (median 90.9) — a reader following
+>     a link saw a different exposure value and, for 20 of 34 programs, a
+>     different position. The page now derives from `v3Programs` +
+>     `v31Stability` (`v3/data/portfolioStats.ts`, unit-tested), so portfolio
+>     and program surfaces agree by construction. Display follows the same
+>     principles as the report pages: findings before charts, positions named
+>     in words ("exposed destinations, static curriculum") rather than quadrant
+>     jargon, dimensions named rather than coded, position confidence in the
+>     table, and the glossary and reference list carried over. Elements reused
+>     from the faculty and portfolio-health surfaces: proportion bars with
+>     per-band meaning, the capability profile with strongest/weakest callout,
+>     the quick-wins and needs-attention lists, and the faculty comparison
+>     table. The superseded raw-code program table (`MigrationTable`) was
+>     deleted.
+>
 > The same principles were applied to the v3 and v2 report pages (v1 left
 > unchanged). §10.2 below describes the pre-revision composition order and is
 > superseded by the three-part structure where they conflict.
