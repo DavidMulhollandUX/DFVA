@@ -69,10 +69,7 @@ function DimBar({ code, score }: { code: string; score: number }) {
   const color = score >= 3 ? QUADRANTS["well-positioned"].hex : "#E9A23B";
   return (
     <div className="flex items-center gap-3">
-      <div className="text-muted-foreground w-28 shrink-0 text-sm">
-        <span className="text-foreground block text-xs font-semibold tracking-[0.18em] uppercase">
-          {code}
-        </span>
+      <div className="text-foreground w-32 shrink-0 text-sm">
         {DIMENSION_LABELS[code]}
       </div>
       <div className="bg-card-accent h-2.5 flex-1 overflow-hidden rounded-full">
@@ -172,8 +169,7 @@ function InterventionSimulator({ program }: { program: V3Program }) {
       <div className="mb-5 flex flex-col gap-2">
         {(Object.keys(base) as (keyof typeof base)[]).map((d) => (
           <div key={d} className="flex items-center gap-3 text-sm">
-            <span className="text-muted-foreground w-36 shrink-0">
-              <span className="text-foreground font-mono text-xs font-semibold">{d}</span>{" "}
+            <span className="text-foreground w-36 shrink-0">
               {DIMENSION_LABELS[d]}
             </span>
             <button
@@ -239,7 +235,7 @@ function InterventionSimulator({ program }: { program: V3Program }) {
             {singleMoves.map((m) => (
               <tr key={m.dim} className="border-border border-b">
                 <td className="px-3 py-2">
-                  {m.dim} {DIMENSION_LABELS[m.dim]} {m.from}→{m.to}
+                  {DIMENSION_LABELS[m.dim]} {m.from}→{m.to}
                 </td>
                 <td className="px-3 py-2 font-mono">{m.adapt}/15</td>
                 <td className="px-3 py-2">
@@ -554,8 +550,8 @@ export default function V3ReportPage() {
               <div className="mt-4 flex flex-wrap gap-3">
                 {(
                   [
-                    ["D4 Decision-making", program.gateD4],
-                    ["D6 Domain depth", program.gateD6],
+                    ["Decision-making", program.gateD4],
+                    ["Domain depth", program.gateD6],
                   ] as const
                 ).map(([label, result]) => (
                   <span

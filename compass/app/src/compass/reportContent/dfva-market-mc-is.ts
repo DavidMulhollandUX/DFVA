@@ -151,13 +151,13 @@ Big 4 graduate cohorts noting AI literacy is now a live expectation at intake. R
 
 | # | Implication | Dimension | Action |
 |---|---|---|---|
-| CI-1 | Create mandatory AI governance core unit | D5 | Cover NIST AI RMF, ISO 42001, explainability, vendor assessment — not an elective |
-| CI-2 | Replace static process mapping assessments with automation candidate evaluations | D4, D1 | Redesign SA&D assessment to automation audit format |
-| CI-3 | Add data engineering elective pathway | D3 | dbt, SQL depth, Python for data — distinct from BI consumption |
-| CI-4 | Introduce enterprise AI implementation capstone | D4, B | Real-client, real uncertainty, includes failure modes and governance |
-| CI-5 | Embed sector specialisation requirements | D6 | Health IT, fintech, or govtech cluster with domain regulatory content |
-| CI-6 | Publish granular graduate outcome data | D10 | Role-title, industry, salary-band within 12 months of graduation |
-| CI-7 | Reposition career framing | D1 | AI workflow architect, not BA/PM/coordinator |
+| CI-1 | Create mandatory AI governance core unit | AI Literacy | Cover NIST AI RMF, ISO 42001, explainability, vendor assessment — not an elective |
+| CI-2 | Replace static process mapping assessments with automation candidate evaluations | Decision-making, Automation exposure | Redesign SA&D assessment to automation audit format |
+| CI-3 | Add data engineering elective pathway | Technical Depth | dbt, SQL depth, Python for data — distinct from BI consumption |
+| CI-4 | Introduce enterprise AI implementation capstone | Decision-making, B | Real-client, real uncertainty, includes failure modes and governance |
+| CI-5 | Embed sector specialisation requirements | Domain depth | Health IT, fintech, or govtech cluster with domain regulatory content |
+| CI-6 | Publish granular graduate outcome data | Published outcome evidence | Role-title, industry, salary-band within 12 months of graduation |
+| CI-7 | Reposition career framing | Automation exposure | AI workflow architect, not BA/PM/coordinator |
 
 ---
 

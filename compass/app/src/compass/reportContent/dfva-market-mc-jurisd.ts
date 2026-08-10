@@ -123,13 +123,13 @@ const content = {
 
 | # | Implication | Dimension | Action |
 | --- | --- | --- | --- |
-| CI-1 | Document review, research memo, and contract-drafting displacement is already underway at the entry-level tier the JD trains for | D1, D5 | Make AI literacy and AI-assisted legal workflow supervision compulsory, not elective |
-| CI-2 | AI-fluent graduates are gaining a hiring edge; the JD's AI content is opt-in only | D5, D9 | Embed "Law and Automation" / "Future Lawyer" content (or equivalent) into the 200-credit compulsory core |
-| CI-3 | Growth in legal-ops/AI-governance-adjacent roles is a new pathway the JD barely serves | D5, D6 | Formalise a legal-technology/AI-governance specialisation track drawing on existing MLM electives (AI and Justice, Commercial Data Law) |
-| CI-4 | Market is rewarding specialisation and empirical/data literacy over generalist doctrinal knowledge alone | D3, D7 | Introduce a quantitative/empirical legal methods requirement (legal analytics, data-informed research design) |
-| CI-5 | 15+ electives unavailable in 2026 signals curriculum instability at exactly the moment tech-forward content is most needed | D9 | Stabilise and guarantee delivery of AI/tech electives; do not let them be the first cut under staffing pressure |
-| CI-6 | Advocacy, negotiation, and client relational work remain the most durable, least AI-exposed skill set | D8 | Protect and expand clinical/mooting/negotiation assessment weighting as the JD's core differentiator |
-| CI-7 | UoM does not publish JD-specific granular outcome data (roles, salary, time-to-employment) despite strong aggregate QILT numbers | D10 (published outcome-evidence granularity) | Partner with Melbourne Law School careers office to publish program-specific graduate destination data, disaggregated by practice area |
+| CI-1 | Document review, research memo, and contract-drafting displacement is already underway at the entry-level tier the JD trains for | Automation exposure, AI Literacy | Make AI literacy and AI-assisted legal workflow supervision compulsory, not elective |
+| CI-2 | AI-fluent graduates are gaining a hiring edge; the JD's AI content is opt-in only | AI Literacy, Curriculum currency | Embed "Law and Automation" / "Future Lawyer" content (or equivalent) into the 200-credit compulsory core |
+| CI-3 | Growth in legal-ops/AI-governance-adjacent roles is a new pathway the JD barely serves | AI Literacy, Domain depth | Formalise a legal-technology/AI-governance specialisation track drawing on existing MLM electives (AI and Justice, Commercial Data Law) |
+| CI-4 | Market is rewarding specialisation and empirical/data literacy over generalist doctrinal knowledge alone | Technical Depth, Research Methods | Introduce a quantitative/empirical legal methods requirement (legal analytics, data-informed research design) |
+| CI-5 | 15+ electives unavailable in 2026 signals curriculum instability at exactly the moment tech-forward content is most needed | Curriculum currency | Stabilise and guarantee delivery of AI/tech electives; do not let them be the first cut under staffing pressure |
+| CI-6 | Advocacy, negotiation, and client relational work remain the most durable, least AI-exposed skill set | Human/relational | Protect and expand clinical/mooting/negotiation assessment weighting as the JD's core differentiator |
+| CI-7 | UoM does not publish JD-specific granular outcome data (roles, salary, time-to-employment) despite strong aggregate QILT numbers | Published outcome-evidence granularity | Partner with Melbourne Law School careers office to publish program-specific graduate destination data, disaggregated by practice area |
 
 ---
 

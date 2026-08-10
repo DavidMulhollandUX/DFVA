@@ -1,3 +1,4 @@
+import { DIMENSION_LABELS } from "./v2/quadrants";
 import type { V3Program } from "./v3/data/v3Programs";
 import { V3_META } from "./v3/data/v3Programs";
 
@@ -67,7 +68,7 @@ export function findingFor(program: V3Program): ReportFinding {
   const adaptive = program.adaptiveness >= V3_META.adaptMedian;
   const distToThreshold = Math.abs(program.adaptiveness - V3_META.adaptMedian);
   return {
-    finding: `Graduates enter destinations ${highExp ? "above" : "below"} the portfolio's AI-exposure median (${program.exposure.toFixed(1)} vs ${V3_META.expMedian}), and the curriculum's scored defences are ${adaptive ? "at or above" : "below"} the portfolio median (adaptiveness ${program.adaptiveness} of 15, median ${V3_META.adaptMedian}). The lowest-scoring curriculum ${weakest.length === 1 ? "dimension is" : "dimensions are"} ${weakest.map(([d]) => d).join(", ")}.`,
+    finding: `Graduates enter destinations ${highExp ? "above" : "below"} the portfolio's AI-exposure median (${program.exposure.toFixed(1)} vs ${V3_META.expMedian}), and the curriculum's scored defences are ${adaptive ? "at or above" : "below"} the portfolio median (adaptiveness ${program.adaptiveness} of 15, median ${V3_META.adaptMedian}). The lowest-scoring curriculum ${weakest.length === 1 ? "dimension is" : "dimensions are"} ${weakest.map(([d]) => DIMENSION_LABELS[d] ?? d).join(", ")}.`,
     meaning:
       "High exposure means the content of the destination work is likely to change, not that the jobs are disappearing — across the Australian labour market the most AI-exposed occupations are projected to grow. What the change means for graduates depends on the curriculum defences the adaptiveness axis measures.",
     firmness:
@@ -75,7 +76,7 @@ export function findingFor(program: V3Program): ReportFinding {
         ? `This position sits ${distToThreshold === 0 ? "exactly at" : "1 point from"} the adaptiveness threshold — a single rating difference could move it. Read it as approximate.`
         : `This position is ${distToThreshold} points clear of the adaptiveness threshold and stable under rating perturbation.`,
     actions: weakest.map(
-      ([d]) => `Lift the lowest-scoring dimension ${d} — see the improvement plan below for the scoped intervention.`,
+      ([d]) => `Lift the lowest-scoring dimension (${DIMENSION_LABELS[d] ?? d}) — see the improvement plan below for the scoped intervention.`,
     ),
   };
 }

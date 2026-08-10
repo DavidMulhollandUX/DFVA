@@ -45,11 +45,11 @@ const GLOSSARY: Record<
   },
   adaptiveness: {
     term: "Curriculum Adaptiveness (…/15)",
-    def: "The sum of five curriculum dimensions, each scored 0–3 from handbook evidence: systems thinking (D2), technical depth (D3), AI literacy (D5), research methods (D7), and irreplaceability (B). It measures how the curriculum builds capabilities that resist AI substitution.",
+    def: "The sum of five curriculum dimensions, each scored 0–3 from handbook evidence: systems thinking, technical depth, AI literacy, research methods, and irreplaceability. It measures how the curriculum builds capabilities that resist AI substitution.",
   },
   gates: {
-    term: "Gates (D4, D6)",
-    def: "Two pass/fail floors — decision-making under uncertainty (D4) and domain depth (D6). Nearly all programs sit at the same level on these, so scoring them would add no information; instead a curriculum change that breaks one is flagged regardless of what it does to the scored total.",
+    term: "Gates",
+    def: "Two pass/fail floors — decision-making under uncertainty, and domain depth. Nearly all programs sit at the same level on these, so scoring them would add no information; instead a curriculum change that breaks one is flagged regardless of what it does to the scored total.",
   },
   medianQuadrant: {
     term: "Portfolio median / position",

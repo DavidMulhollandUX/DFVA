@@ -2,7 +2,7 @@
 
 **Current:** 20/36 MODERATE RISK (v1 composite, superseded — file metadata only, not rendered) | **Duration:** 1.5–2 years (200 credit points)
 **v3 Position:** High exposure · low adaptiveness — Destination AI Exposure 91.69 (measured, portfolio median 90.9) × Curriculum Adaptiveness 8/15 (scored, median 10) · position confidence: firm (98%)
-**Goal:** Lift the scored axis from 8/15 to the adaptiveness threshold and beyond — close the two 1/3 gaps (D5 AI Literacy, B Irreplaceability), deepen D3/D7, and steer graduates from the compressing BA-documentation tier into AI-governance and analytics-engineering roles.
+**Goal:** Lift the scored axis from 8/15 to the adaptiveness threshold and beyond — close the two 1/3 gaps (AI Literacy, Irreplaceability), deepen Technical Depth and Research Methods, and steer graduates from the compressing BA-documentation tier into AI-governance and analytics-engineering roles.
 
 **Assessment date:** 2026-05-07
 **Prompt version:** DFVA-COPILOT-RECOMMENDER-v1
@@ -16,13 +16,13 @@ Under the durability assessment the MC-IS sits at **High exposure · low adaptiv
 | Element | Reading | Plan status |
 | --- | --- | --- |
 | Panel A — Destination AI Exposure | 91.69 (median 90.9) | Measured, not scored — exposure ≠ risk; managed by steering (P3, P8) |
-| Panel C — D2 Systems Thinking | 2/3 | P3 target — SA&D redesign |
-| Panel C — D3 Technical Depth | 2/3 | P4 target — data engineering pathway |
-| Panel C — D7 Research Methods | 2/3 | P2 target — real-client capstone rigour |
-| Panel C — B Irreplaceability | 1/3 | **P1 + P4 + P5 target** — build the rare triple (governance + sector + data) |
-| Panel C — D5 AI Literacy | 1/3 | **P1 target** — no AI governance unit in the core |
-| Gate — D4 Decision-making | PASS | Hold — protect through P2/P3 redesigns |
-| Gate — D6 Domain depth | PASS | Hold — sector clusters (P5) deepen it further |
+| Panel C — Systems Thinking | 2/3 | P3 target — SA&D redesign |
+| Panel C — Technical Depth | 2/3 | P4 target — data engineering pathway |
+| Panel C — Research Methods | 2/3 | P2 target — real-client capstone rigour |
+| Panel C — Irreplaceability | 1/3 | **P1 + P4 + P5 target** — build the rare triple (governance + sector + data) |
+| Panel C — AI Literacy | 1/3 | **P1 target** — no AI governance unit in the core |
+| Gate — Decision-making | PASS | Hold — protect through P2/P3 redesigns |
+| Gate — Domain depth | PASS | Hold — sector clusters (P5) deepen it further |
 | Position stability | Firm (98%) | Two points below the threshold — a single rating difference does not move this position; only real curriculum change does |
 
 ---
@@ -31,13 +31,13 @@ Under the durability assessment the MC-IS sits at **High exposure · low adaptiv
 
 | Element | Reading | Gap Diagnosis | Recommended Intervention |
 | --- | --- | --- | --- |
-| Panel C — D5 AI Literacy | 1/3 | No dedicated AI governance unit in core curriculum | Create mandatory core unit: AI Governance and Deployment |
-| Panel C — B Irreplaceability | 1/3 | Business/technology bridging value is common and undifferentiated | Build rare integration: AI governance + sector depth + data engineering |
+| Panel C — AI Literacy | 1/3 | No dedicated AI governance unit in core curriculum | Create mandatory core unit: AI Governance and Deployment |
+| Panel C — Irreplaceability | 1/3 | Business/technology bridging value is common and undifferentiated | Build rare integration: AI governance + sector depth + data engineering |
 | Panel A — Exposure 91.69 | Above median | First 2–3 years dominated by BA documentation, requirements writing, JIRA administration — the tier AI is absorbing first | Steer destinations: redesign capstone and SA&D toward AI workflow governance roles; update career framing to the growing tiers |
-| Panel C — D3 Technical Depth | 2/3 | Coding depth light without deliberate elective selection | Introduce mandatory data engineering elective pathway (SQL, Python, dbt) |
-| Panel C — D7 Research Methods | 2/3 | Non-research track limits methodical investigation practice | Mandate real-client capstone for all tracks with documented methodology and failure-mode analysis |
-| Panel C — D2 Systems Thinking | 2/3 | SA&D teaches documentation over architecture-level trade-off reasoning | Replace BRD assessment with automation audit + governance recommendation |
-| Gates — D4, D6 | PASS | None — protect during redesign | Regression-check both gates at each curriculum change; sector clusters (P5) deepen D6 |
+| Panel C — Technical Depth | 2/3 | Coding depth light without deliberate elective selection | Introduce mandatory data engineering elective pathway (SQL, Python, dbt) |
+| Panel C — Research Methods | 2/3 | Non-research track limits methodical investigation practice | Mandate real-client capstone for all tracks with documented methodology and failure-mode analysis |
+| Panel C — Systems Thinking | 2/3 | SA&D teaches documentation over architecture-level trade-off reasoning | Replace BRD assessment with automation audit + governance recommendation |
+| Gates — Decision-making, Domain depth | PASS | None — protect during redesign | Regression-check both gates at each curriculum change; sector clusters (P5) deepen domain depth |
 | Evidence — outcomes | Strong (JIR n = 257) | Real destination evidence published; decays without refresh | Publish cohort-level destination data within 12 months; implement alumni tracking |
 
 ---
@@ -56,11 +56,11 @@ Under the durability assessment the MC-IS sits at **High exposure · low adaptiv
 
 | Priority | Action | Target | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Create mandatory core unit: **AI Governance and Deployment** (NIST AI RMF, ISO 42001, human-in-the-loop design) | Panel C — D5 → 3/3; B rises | ISACA: AI governance #1 GRC skill; ISO 42001 tripling; Big 4 intake expectations shifted | HIGH | HIGH | Program Director + School of CIS | Months 1–9 | Unit live Sem 1 2027; 80%+ student competency on governance frameworks |
-| 2 | Mandate real-client AI implementation capstone for all tracks | Panel C — D7 → 3/3; gate D4 protected | Seek: Automation Analyst +47% YoY; AI Governance Analyst emerging | HIGH | HIGH | Capstone Coordinator + Industry Partnerships | Months 4–12 | 100% graduates completing real-client capstone by 2028 |
-| 3 | Redesign SA&D assessment: replace BRD with automation audit + governance recommendation | Panel C — D2 → 3/3; Panel A steering | ANZ BA job ad language shifting; BA entry roles down 18–22% YoY | HIGH | MEDIUM | SA&D Unit Coordinator | Months 2–6 | 90%+ graduates demonstrating automation audit methodology |
-| 4 | Add mandatory data engineering elective pathway (SQL, Python, dbt) | Panel C — D3 → 3/3; B rises | LinkedIn: Analytics Engineer +31% YoY; Reporting Analyst -22% | HIGH | MEDIUM | School of CIS + Elective Coordinator | Months 3–9 | 60%+ graduates completing data engineering elective by 2028 |
-| 5 | Introduce sector specialisation requirement (health IT, fintech, or govtech cluster) | Gate D6 deepened; B rises | Regulated sector IS graduates outperforming generalists | HIGH | MEDIUM | Program Director + Faculty Elective Coordinators | Months 6–12 | 100% graduates completing sector cluster by 2028 |
+| 1 | Create mandatory core unit: **AI Governance and Deployment** (NIST AI RMF, ISO 42001, human-in-the-loop design) | Panel C — AI Literacy → 3/3; Irreplaceability rises | ISACA: AI governance #1 GRC skill; ISO 42001 tripling; Big 4 intake expectations shifted | HIGH | HIGH | Program Director + School of CIS | Months 1–9 | Unit live Sem 1 2027; 80%+ student competency on governance frameworks |
+| 2 | Mandate real-client AI implementation capstone for all tracks | Panel C — Research Methods → 3/3; decision-making gate protected | Seek: Automation Analyst +47% YoY; AI Governance Analyst emerging | HIGH | HIGH | Capstone Coordinator + Industry Partnerships | Months 4–12 | 100% graduates completing real-client capstone by 2028 |
+| 3 | Redesign SA&D assessment: replace BRD with automation audit + governance recommendation | Panel C — Systems Thinking → 3/3; Panel A steering | ANZ BA job ad language shifting; BA entry roles down 18–22% YoY | HIGH | MEDIUM | SA&D Unit Coordinator | Months 2–6 | 90%+ graduates demonstrating automation audit methodology |
+| 4 | Add mandatory data engineering elective pathway (SQL, Python, dbt) | Panel C — Technical Depth → 3/3; Irreplaceability rises | LinkedIn: Analytics Engineer +31% YoY; Reporting Analyst -22% | HIGH | MEDIUM | School of CIS + Elective Coordinator | Months 3–9 | 60%+ graduates completing data engineering elective by 2028 |
+| 5 | Introduce sector specialisation requirement (health IT, fintech, or govtech cluster) | Domain-depth gate deepened; Irreplaceability rises | Regulated sector IS graduates outperforming generalists | HIGH | MEDIUM | Program Director + Faculty Elective Coordinators | Months 6–12 | 100% graduates completing sector cluster by 2028 |
 | 6 | Implement granular graduate destination tracking | Evidence maintenance — keeps the JIR-based exposure measurement current | No current granular data; COMPASS requires this for quality evidence | MEDIUM | MEDIUM | Program Director + Careers Team | Months 1–6 | First cohort destination report by end of 2027 |
 | 7 | Establish employer advisory panel with annual curriculum signal review | Keeps Panel C evidence current | Big 4 hiring expectations changed 2023→2026 without curriculum response | MEDIUM | MEDIUM | Program Director + Industry Engagement Lead | Months 3–6 | Panel constituted Month 6; 2 curriculum changes traceable to panel by Month 18 |
 | 8 | Update marketing and careers framing to AI workflow architect / automation governance analyst | Panel A steering — targets the growing tier | Seek: AI Governance Analyst, Automation CoE Analyst growing | MEDIUM | LOW | Marketing + Careers Team | Months 1–3 | 40%+ graduates targeting new role titles by 2028 |
@@ -78,9 +78,9 @@ Under the durability assessment the MC-IS sits at **High exposure · low adaptiv
 
 ## 6. 24-MONTH CAPABILITY ROADMAP
 
-* **Months 1–12 — Close the 1/3 gaps:** AI Governance unit live (D5 1→3). SA&D redesign (D2 2→3). Real-client capstone scoped (D7 toward 3). **Projected: adaptiveness 8 → 11–12/15, crossing the portfolio threshold with both gates held.**
-* **Months 13–18 — Depth and Differentiation:** Data engineering elective (D3 2→3). Sector clusters deepen D6. Real-client capstone first cohort (B 1→2). Rising share of graduates targeting governance/analytics-engineering roles.
-* **Months 19–24 — Evidence and Signal:** Destination data publication institutionalised; exposure re-measured from refreshed alumni destinations (n > 257); portfolio requirement (B 2→3). **Projected: adaptiveness 13–14/15; position re-classified at re-assessment.**
+* **Months 1–12 — Close the 1/3 gaps:** AI Governance unit live (AI Literacy 1→3). SA&D redesign (Systems Thinking 2→3). Real-client capstone scoped (Research Methods toward 3). **Projected: adaptiveness 8 → 11–12/15, crossing the portfolio threshold with both gates held.**
+* **Months 13–18 — Depth and Differentiation:** Data engineering elective (Technical Depth 2→3). Sector clusters deepen domain depth. Real-client capstone first cohort (Irreplaceability 1→2). Rising share of graduates targeting governance/analytics-engineering roles.
+* **Months 19–24 — Evidence and Signal:** Destination data publication institutionalised; exposure re-measured from refreshed alumni destinations (n > 257); portfolio requirement (Irreplaceability 2→3). **Projected: adaptiveness 13–14/15; position re-classified at re-assessment.**
 
 ---
 
