@@ -20,6 +20,21 @@ interface MarkdownSection {
 // preamble; rendering that superseded composite is UX defect U1). Any
 // remaining preamble (e.g. evidence-confidence notes) becomes an untitled
 // intro section.
+// A run of consecutive **Label:** lines (job-family cards, signal blocks) is a
+// labelled list, not a paragraph — markdown would fold the whole run onto one
+// line. Mark each as a hard break so every label starts its own line. A break
+// at the end of a block (before a heading, table or list) is inert.
+export function preserveLabelLineBreaks(markdown: string): string {
+  const lines = markdown.split("\n");
+  return lines
+    .map((line, i) =>
+      /^\*\*[^*]+:\*\*/.test(line.trim()) && (lines[i + 1] ?? "").trim() !== ""
+        ? line.replace(/\s*$/, "  ")
+        : line,
+    )
+    .join("\n");
+}
+
 function splitSections(markdown: string): MarkdownSection[] {
   const lines = markdown.split("\n");
   const sections: MarkdownSection[] = [];
@@ -102,7 +117,7 @@ export function ReportMarkdownCard({
     );
   }
 
-  const sections = splitSections(content.markdown);
+  const sections = splitSections(preserveLabelLineBreaks(content.markdown));
 
   return (
     <Card className="mt-6">
