@@ -6,6 +6,7 @@ import {
   CardTitle,
 } from "../../client/components/ui/card";
 import { InsightsGate } from "../InsightsGate";
+import { MethodGlossary } from "../MethodGlossary";
 import { findingFor } from "../reportFindings";
 import { ReportMarkdownCard } from "../v2/components/ReportMarkdownCard";
 import { DIMENSION_LABELS, QUADRANTS } from "../v2/quadrants";
@@ -491,9 +492,13 @@ export default function V3ReportPage() {
                   <strong className="text-foreground font-medium">
                     What exposure means.
                   </strong>{" "}
+                  AIOE is the AI Occupational Exposure index (Felten et al.,
+                  2023): a published measure, for each of ~770 occupations, of
+                  how much that occupation's tasks overlap with what current AI
+                  can do, rescaled 0–100. A value of{" "}
                   {program.exposure.toFixed(1)} says a large share of the tasks
-                  in this program's destination occupations overlap with what AI
-                  can do. It does <strong className="text-foreground">not</strong>{" "}
+                  in this program's destination occupations overlap with AI
+                  capability. It does <strong className="text-foreground">not</strong>{" "}
                   mean those jobs are disappearing — across the Australian
                   labour market, the most AI-exposed occupations are projected
                   to grow, because exposed work tends to be skilled work.
@@ -768,6 +773,23 @@ export default function V3ReportPage() {
             </div>
           </CardContent>
         </Card>
+
+        <MethodGlossary
+          terms={[
+            "aioe",
+            "destinationExposure",
+            "adaptiveness",
+            "gates",
+            "medianQuadrant",
+            "positionConfidence",
+            "envelope",
+            "jir",
+            "crosswalk",
+            "v1Composite",
+            "qilt",
+            "jsaHeo",
+          ]}
+        />
 
         {/* Footer — links labelled by destination and purpose (U12) */}
         <div className="text-muted-foreground border-border mt-12 flex flex-wrap items-center justify-between gap-3 border-t pt-6 text-xs">

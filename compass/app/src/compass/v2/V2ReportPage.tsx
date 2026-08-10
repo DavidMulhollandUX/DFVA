@@ -6,6 +6,7 @@ import {
   CardTitle,
 } from "../../client/components/ui/card";
 import { InsightsGate } from "../InsightsGate";
+import { MethodGlossary } from "../MethodGlossary";
 import { ExposureMatrix } from "./components/ExposureMatrix";
 import { ReportMarkdownCard } from "./components/ReportMarkdownCard";
 import { V2_META, V2_PROGRAMS, programByCode } from "./data/v2Programs";
@@ -255,8 +256,11 @@ export default function V2ReportPage() {
                       <strong className="text-foreground font-medium">
                         What exposure means.
                       </strong>{" "}
-                      This figure says how much of the destination work current
-                      AI touches. It does{" "}
+                      Exposure is measured on the AI Occupational Exposure
+                      index (AIOE; Felten et al., 2023) — a published measure,
+                      per occupation, of how much the occupation's tasks
+                      overlap with what current AI can do. This figure says how
+                      much of the destination work current AI touches. It does{" "}
                       <strong className="text-foreground">not</strong> mean
                       those jobs are disappearing — across the Australian
                       labour market, the most AI-exposed occupations are
@@ -578,6 +582,24 @@ export default function V2ReportPage() {
           title="Improvement Plan"
           subtitle="Score-to-action mapping and prioritised interventions — from the DFVA recommendation pipeline"
         />
+
+        <div className="mt-6">
+          <MethodGlossary
+            terms={[
+              "aioe",
+              "destinationExposure",
+              "adaptiveness",
+              "gates",
+              "panels",
+              "medianQuadrant",
+              "evidenceTier",
+              "jir",
+              "v1Composite",
+              "qilt",
+              "jsaHeo",
+            ]}
+          />
+        </div>
 
         <div className="text-muted-foreground border-border mt-12 flex flex-wrap items-center justify-between gap-3 border-t pt-6 text-xs">
           <span>Evidura · Durability Assessment · v2</span>
