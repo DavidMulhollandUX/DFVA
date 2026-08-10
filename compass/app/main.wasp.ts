@@ -27,7 +27,6 @@ import V31ReportPage from "./src/compass/v31/V31ReportPage" with { type: "ref" }
 import PortfolioHealthPage from "./src/compass/PortfolioHealthPage" with { type: "ref" };
 import FacultyDashboard from "./src/compass/FacultyDashboard" with { type: "ref" };
 import DevPortalPage from "./src/compass/DevPortalPage" with { type: "ref" };
-import DevPortalComparePage from "./src/compass/DevPortalComparePage" with { type: "ref" };
 import FragilityDashboardPage from "./src/compass/FragilityDashboardPage" with { type: "ref" };
 import WhyStructuredDataPage from "./src/compass/WhyStructuredDataPage" with { type: "ref" };
 import ImpactReportDetail from "./src/compass/ImpactReportDetail" with { type: "ref" };
@@ -306,11 +305,6 @@ export default app({
     action(revokeApiKey, { entities: ["ApiKey"] }),
     query(listApiKeys, { entities: ["ApiKey"] }),
     route("DevPortalRoute", "/developers", page(DevPortalPage)),
-    route(
-      "DevPortalCompareRoute",
-      "/developers/compare",
-      page(DevPortalComparePage),
-    ),
 
     // Data Fragility Monitor (feat-012)
     route(

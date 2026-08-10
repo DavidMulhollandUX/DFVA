@@ -1,6 +1,7 @@
 import { Link as RouterLink } from "react-router";
 import { brand } from "../../branding/brandConfig";
 import { Button } from "../../client/components/ui/button";
+import { MatrixAreaLabels } from "../../compass/matrixAreaLabels";
 import { findingFor } from "../../compass/reportFindings";
 import { QUADRANTS } from "../../compass/v2/quadrants";
 import {
@@ -190,6 +191,13 @@ function HeroMiniMatrix({ code }: { code: string }) {
         y2={y(V3_META.adaptMedian)}
         stroke="var(--color-border)"
         strokeDasharray="4 3"
+      />
+      <MatrixAreaLabels
+        left={PAD}
+        right={W - PAD}
+        top={PAD / 2}
+        bottom={H - PAD}
+        fontSize={8}
       />
       {V3_PROGRAMS.filter((p) => p.code !== code).map((p) => (
         <circle

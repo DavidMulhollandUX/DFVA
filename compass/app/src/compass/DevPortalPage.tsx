@@ -1,4 +1,4 @@
-import { BookOpen, Code, Shield, Activity } from "lucide-react";
+import { BookOpen, Code, Activity } from "lucide-react";
 import ApiKeyManager from "./components/ApiKeyManager";
 import CodeSnippetLibrary from "./components/CodeSnippetLibrary";
 
@@ -24,13 +24,6 @@ export default function DevPortalPage() {
             >
               <BookOpen className="h-4 w-4" />
               API Reference
-            </a>
-            <a
-              href="/developers/compare"
-              className="hover:bg-muted inline-flex items-center gap-2 rounded-md border px-4 py-2 text-sm font-medium"
-            >
-              <Shield className="h-4 w-4" />
-              Compare API Quality
             </a>
             <a
               href="/developers/playground"

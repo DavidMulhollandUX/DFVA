@@ -2,6 +2,7 @@ import { Link, useParams } from "react-router";
 import { Card, CardContent, CardTitle } from "../../client/components/ui/card";
 import { InsightsGate } from "../InsightsGate";
 import { MethodGlossary } from "../MethodGlossary";
+import { MatrixAreaLabels } from "../matrixAreaLabels";
 import { findingFor } from "../reportFindings";
 import { ReportMarkdownCard } from "../v2/components/ReportMarkdownCard";
 import { DIMENSION_LABELS, QUADRANTS } from "../v2/quadrants";
@@ -91,6 +92,7 @@ function MiniMatrix({ program, stability }: { program: V3Program; stability: V31
       <rect x={PAD} y={PAD} width={W - 2 * PAD} height={H - 2 * PAD} fill="none" stroke="var(--color-border)" />
       <line x1={mx} y1={PAD} x2={mx} y2={H - PAD} stroke="var(--color-border)" strokeDasharray="4 3" />
       <line x1={PAD} y1={my} x2={W - PAD} y2={my} stroke="var(--color-border)" strokeDasharray="4 3" />
+      <MatrixAreaLabels left={PAD} right={W - PAD} top={PAD} bottom={H - PAD} />
       {V3_PROGRAMS.filter((p) => p.code !== program.code).map((p) => (
         <circle key={p.code} cx={x(p.exposure)} cy={y(p.adaptiveness)} r={3.5} fill={QUADRANTS[p.quadrant].hex} opacity={0.22} />
       ))}
