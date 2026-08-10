@@ -8,7 +8,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY
 
-Under the v2 durability assessment the program sits in the **Well-positioned** quadrant: its graduate destinations are among the most AI-exposed in the portfolio (exposure **71.3**, top quartile — driven by Software Engineer 15% and Developer Programmer 14% destination shares, both high-AIOE occupations), but the curriculum builds defences (adaptiveness **14/15** against a portfolio median of 11).
+Under the durability assessment the program sits in the **Well-positioned** quadrant: its graduate destinations are among the most AI-exposed in the portfolio (exposure **71.3**, top quartile — driven by Software Engineer 15% and Developer Programmer 14% destination shares, both high-AIOE occupations), but the curriculum builds defences (adaptiveness **14/15** against a portfolio median of 11).
 
 | Panel | Reading | Status |
 |---|---|---|
@@ -22,13 +22,11 @@ Under the v2 durability assessment the program sits in the **Well-positioned** q
 | Gate — D6 Domain depth | PASS | Hold |
 | D — Evidence confidence | Strong · 7/7 | JIR exact match (n = 41), 13 employers, QILT 81.2%/94.1%, SHORTAGE |
 
-**What changed from the v1 plan:** v1 targeted Automation Exposure (2/3), Human & Relational (2/3) and Curriculum Currency (2/3) as scored gaps. In v2, D1/D8 are **measured on Panel A** (they are properties of the destination, not the curriculum) and D9 is **dropped** (item-total 0.06). The improvement burden therefore concentrates on the one remaining scored gap (D2) and on **exposure management** — shaping which job families graduates enter.
-
 ---
 
 ## 2. SCORE-TO-ACTION MAPPING
 
-| v2 Element | Reading | Gap Diagnosis | Recommended Intervention |
+| Element | Reading | Gap Diagnosis | Recommended Intervention |
 |---|---|---|---|
 | Panel C — D2 Systems Thinking | 2/3 | Dedicated units exist but trade-off reasoning and failure-mode analysis are not integrated throughout (the 3/3 anchor) | Embed cross-disciplinary case studies with defended trade-offs in each core unit — lifts adaptiveness to 15/15 |
 | Panel A — Exposure 71.3 | Top quartile | 29% of early-career placements are in the compressing "AI-augmented developer" tier (market scan, Signal 2) | Steer destination mix toward low-substitution families: systems engineering, ML platform (Signal 4), security (Signal 3), AI governance (Signal 6) |
@@ -61,7 +59,7 @@ These destinations are what put the program at exposure 71.3 — and the market 
 
 ## 4. PRIORITISED INTERVENTIONS TABLE
 
-| Priority | Action | Target (v2) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+| Priority | Action | Target | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
 |---|---|---|---|---|---|---|---|---|
 | 1 | Embed cross-disciplinary case studies with defended trade-offs and failure-mode analysis in each core unit | Panel C — D2 → 3/3 (adaptiveness 15/15) | Signal 2: systems design is the software-engineering differentiator; Signal 7: employers cite "research-informed problem solving" | HIGH | Medium | Program Coordinator | Months 1–9 | D2 re-scored 3/3 at next assessment |
 | 2 | Launch an AI Governance / Responsible AI elective (build on Ethics of AI + Trustworthy ML) | Panel A exposure hedge; extends D5 guardrails | Signal 6: 34+ new ANZ AI-governance postings in Q1 2026; no dedicated governance unit exists today | HIGH | Medium | Curriculum Committee | Months 3–12 | Elective in 2027 handbook |
@@ -84,7 +82,7 @@ These destinations are what put the program at exposure 71.3 — and the market 
 
 * **Months 1–12 — Close the scored gap:** Priorities 1–5 above; target adaptiveness 15/15 with both gates held.
 * **Months 13–18 — Exposure management:** First annual Panel A re-measurement from refreshed JIR data; check quadrant position against the (moving) portfolio medians. Track the share of graduates entering LOW-substitution families (ML platform, security, governance) vs the compressing developer tier.
-* **Months 19–24 — Evidence and signal:** Second-generation destination evidence published; capstone showcase outcomes fed back into the employer panel; re-run the full v2 assessment.
+* **Months 19–24 — Evidence and signal:** Second-generation destination evidence published; capstone showcase outcomes fed back into the employer panel; re-run the full assessment.
 
 ---
 

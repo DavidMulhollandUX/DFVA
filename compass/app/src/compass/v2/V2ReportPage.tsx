@@ -135,7 +135,7 @@ export default function V2ReportPage() {
         {/* Hero */}
         <div className="mb-12">
           <p className="text-muted-foreground mb-2 text-xs font-semibold tracking-[0.18em] uppercase">
-            Durability Assessment · v2
+            Durability Assessment
           </p>
           <h1 className="text-foreground font-serif text-4xl tracking-tight">
             {program.name}
@@ -168,14 +168,6 @@ export default function V2ReportPage() {
               >
                 {q.short}
               </span>
-            </div>
-            <div>
-              <p className="text-muted-foreground text-xs tracking-[0.18em] uppercase">
-                v1 Assessment
-              </p>
-              <p>
-                {program.v1_score}/36 · {program.v1_band}
-              </p>
             </div>
           </div>
         </div>
@@ -497,10 +489,12 @@ export default function V2ReportPage() {
                   </tr>
                   <tr>
                     <td className="text-muted-foreground py-2">
-                      v1 composite (superseded)
+                      Destination data
                     </td>
-                    <td className="py-2 font-mono">
-                      {program.v1_score}/36 · {program.v1_band}
+                    <td className="py-2">
+                      {program.has_jir
+                        ? "Program-level alumni destinations matched"
+                        : "Awaiting destination mapping"}
                     </td>
                   </tr>
                 </tbody>

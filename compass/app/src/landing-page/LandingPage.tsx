@@ -23,14 +23,14 @@ export default function LandingPage() {
         <HowItWorks />
         <FeaturesGrid
           features={features}
-          description="Every program is scored on the same rubric, so the verdict is evidenced, repeatable and comparable across the sector."
+          description="Every program is measured on the same two axes, so the position is evidenced, repeatable and comparable across the portfolio."
           title={
             <>
               <p className="text-secondary text-center font-mono text-sm font-medium tracking-[0.18em] uppercase">
                 What {brand.name} assesses
               </p>
               <h2 className="text-foreground mt-3 text-center font-serif text-3xl font-semibold tracking-tight sm:text-4xl">
-                Eleven dimensions, one comparable signal
+                Two measured axes, one defensible position
               </h2>
             </>
           }

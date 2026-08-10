@@ -8,7 +8,7 @@
 
 ## 1. DIAGNOSTIC SUMMARY
 
-Under the v3.1 durability assessment the Juris Doctor sits at **High exposure · low adaptiveness**: its graduates enter some of the most AI-exposed destinations in the portfolio (exposure **94.43** against a median of 90.9 — driven by solicitor, legal counsel and paralegal destinations whose research, drafting and review tasks overlap heavily with current legal AI), while the curriculum's scored defences sit below the portfolio median (adaptiveness **9/15**, median 10). High exposure is not a finding that these jobs are disappearing — it says the *content* of the work is changing. The concern is narrower and fixable: the compulsory core contains **no AI literacy content** and **no quantitative or empirical methods requirement**; both exist only as electives most graduates never take. The program's regulatory moat (VLAB accreditation) and its strong advocacy and client-relational training are genuine, durable protections.
+Under the durability assessment the Juris Doctor sits at **High exposure · low adaptiveness**: its graduates enter some of the most AI-exposed destinations in the portfolio (exposure **94.43** against a median of 90.9 — driven by solicitor, legal counsel and paralegal destinations whose research, drafting and review tasks overlap heavily with current legal AI), while the curriculum's scored defences sit below the portfolio median (adaptiveness **9/15**, median 10). High exposure is not a finding that these jobs are disappearing — it says the *content* of the work is changing. The concern is narrower and fixable: the compulsory core contains **no AI literacy content** and **no quantitative or empirical methods requirement**; both exist only as electives most graduates never take. The program's regulatory moat (VLAB accreditation) and its strong advocacy and client-relational training are genuine, durable protections.
 
 The position sits **one point from the adaptiveness threshold**, so it should be read as approximate — and it also means a small number of real curriculum changes moves it.
 
@@ -24,13 +24,11 @@ The position sits **one point from the adaptiveness threshold**, so it should be
 | Gate — D6 Domain depth | PASS | Hold — Priestley 11 depth is the program's anchor |
 | Position stability | Near a threshold (81%) | One rating point moves the quadrant — treat position as approximate, act on the named gaps |
 
-**What changed from the v1 plan:** v1 scored eleven dimensions into a single composite and set a composite-point target. That composite is superseded: destination properties (automation exposure, human/relational work) are now *measured* on Panel A rather than scored from handbook text, evidence quality is metadata rather than points, and the improvement burden concentrates on the scored curriculum gaps (D3, D5), the failed D4 gate, and **exposure management** — shaping which tier of legal work graduates enter.
-
 ---
 
 ## 2. SCORE-TO-ACTION MAPPING
 
-| v3.1 Element | Reading | Gap Diagnosis | Recommended Intervention |
+| Element | Reading | Gap Diagnosis | Recommended Intervention |
 | --- | --- | --- | --- |
 | Panel C — D5 AI Literacy | 2/3 | Law and Automation, Future Lawyer, AI and Justice, and AI: Transforming Government are ALL electives; compulsory core has zero AI content | Embed a compulsory AI-in-legal-practice module (governance, capability, limits, ethical use) into the core curriculum, not left to elective choice |
 | Panel C — D3 Technical Depth | 1/3 | No statistics, coding, or data science requirement in the 200-credit compulsory core; Commercial Data Law and Law Apps exist but are optional | Introduce a compulsory legal-analytics/empirical-methods unit covering basic data literacy, legal-tech tooling, and quantitative reasoning applied to legal problems |
@@ -55,7 +53,7 @@ The position sits **one point from the adaptiveness threshold**, so it should be
 
 ## 4. PRIORITISED INTERVENTIONS TABLE
 
-| Priority | Action | Target (v3.1) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+| Priority | Action | Target | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | P1 | Make AI-in-legal-practice literacy compulsory across the 200-credit core | Panel C — D5 → 3/3; B follows | CI-1, CI-2 | High | Medium | Melbourne Law School curriculum committee | Months 1-9 | 100% of JD graduates complete compulsory AI literacy content (from ~15-20% today via electives) |
 | P2 | Introduce a compulsory legal-analytics/empirical-methods unit | Panel C — D3 → 2/3, D7 → 3/3; adaptiveness crosses the 10-point threshold | CI-4 | High | High | Curriculum committee + Legal Research subject coordinator | Months 3-12 | New compulsory unit live in course structure by Year 2 intake |
@@ -80,7 +78,7 @@ The position sits **one point from the adaptiveness threshold**, so it should be
 
 * **Months 1-12 — Cross the scored threshold:** Land the compulsory AI literacy module (P1) and legal-analytics/empirical-methods unit (P2) into the 200-credit core; stabilise AI/tech elective delivery; expand simulation assessment toward restoring the D4 gate. Target: adaptiveness from 9/15 to 12+/15 with both gates held.
 * **Months 13-18 — Depth and Differentiation:** Launch the formal legal-technology/AI-governance specialisation track (P4 — the exposure-steering lever); pair Legal Research capstone with empirical-methods content; begin publishing program-specific graduate outcome data (P6).
-* **Months 19-24 — Evidence and Signal:** Track the first cohort through the redesigned core; measure the AI-literacy hiring-edge signal against pre-redesign cohorts; re-run the v3.1 assessment — expected movement: adaptiveness above the portfolio threshold with the position re-classified accordingly, D4 gate PASS, exposure re-measured from refreshed alumni destinations.
+* **Months 19-24 — Evidence and Signal:** Track the first cohort through the redesigned core; measure the AI-literacy hiring-edge signal against pre-redesign cohorts; re-run the assessment — expected movement: adaptiveness above the portfolio threshold with the position re-classified accordingly, D4 gate PASS, exposure re-measured from refreshed alumni destinations.
 
 ---
 

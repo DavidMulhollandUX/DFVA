@@ -36,7 +36,7 @@ export default function MatrixDashboardPage() {
       <div className="mx-auto max-w-7xl px-4 py-10">
         <div className="mb-8">
           <p className="text-muted-foreground mb-2 text-xs font-semibold tracking-[0.18em] uppercase">
-            Durability Assessment · v2
+            Durability Assessment
           </p>
           <h1 className="text-foreground font-serif text-4xl tracking-tight">
             Portfolio Matrix
@@ -44,16 +44,16 @@ export default function MatrixDashboardPage() {
           <p className="text-muted-foreground mt-2 text-sm">
             2×2 design: curriculum adaptiveness × destination AI exposure —
             across all {V2_META.total} assessed programs.{" "}
-            <Link to="/insights/v1" className="text-secondary-muted-foreground underline">
-              View the v1 insights hub
+            <Link to="/insights/v31/mc-jurisd" className="text-secondary-muted-foreground underline">
+              Example durability report (Juris Doctor)
             </Link>{" "}
             ·{" "}
             <Link to="/insights/v3/mc-is" className="text-secondary-muted-foreground underline">
-              Preview the v3 confidence-first report (MC-IS)
+              Example report (Master of Information Systems)
             </Link>{" "}
             ·{" "}
-            <Link to="/insights/v31/mc-jurisd" className="text-secondary-muted-foreground underline">
-              Preview the v3.1 exact-stability report (Juris Doctor)
+            <Link to="/insights/v1" className="text-secondary-muted-foreground underline">
+              Legacy insights hub
             </Link>
           </p>
         </div>
@@ -74,7 +74,7 @@ export default function MatrixDashboardPage() {
               <strong className="text-foreground">
                 Panel C (Y-axis): Curriculum Adaptiveness
               </strong>{" "}
-              — sum of scored v2 dimensions only: D2 Systems Thinking, D3
+              — sum of scored dimensions only: D2 Systems Thinking, D3
               Technical Depth, D7 Research Methods, B Irreplaceability, D5 AI
               Literacy (0–15). D4 and D6 are binary gates (not summed). D9 is
               dropped. D1/D8 are measured (Panel A), not scored. D10 is evidence
@@ -200,7 +200,7 @@ export default function MatrixDashboardPage() {
           </CardContent>
         </Card>
 
-        {/* Migration table */}
+        {/* Program table */}
         <Card>
           <CardHeader className="flex-row items-center justify-between space-y-0">
             <CardTitle className="text-base">
@@ -209,7 +209,7 @@ export default function MatrixDashboardPage() {
                 : `All ${V2_META.total} Programs`}
             </CardTitle>
             <span className="text-muted-foreground text-xs">
-              v1 band → v2 quadrant migration
+              positions, scores and gates
             </span>
           </CardHeader>
           <CardContent>

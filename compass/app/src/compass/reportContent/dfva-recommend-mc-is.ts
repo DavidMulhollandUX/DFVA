@@ -16,7 +16,7 @@ const content = {
 
 ## 1. DIAGNOSTIC SUMMARY
 
-Under the v3 durability assessment the MC-IS sits at **High exposure · low adaptiveness** — and unlike near-threshold programs, this position is firm (98% stable under rating perturbation). Its graduates enter destinations whose tasks overlap heavily with current AI (exposure **91.69**, just above the portfolio median of 90.9 — business-analyst documentation, requirements writing and reporting work is the tier AI is absorbing first), while the curriculum's scored defences sit two points below the portfolio median (adaptiveness **8/15**, median 10). High exposure is not a finding that these jobs are disappearing — the same market data shows the adjacent tiers growing. The program is not broken: real graduate-outcome evidence is strong (JIR/LiveAlumni, n = 257), both gates hold, and the redesign task is concrete — close two 1/3 scored gaps and convert the 2/3 scores into durable ones.
+Under the durability assessment the MC-IS sits at **High exposure · low adaptiveness** — and unlike near-threshold programs, this position is firm (98% stable under rating perturbation). Its graduates enter destinations whose tasks overlap heavily with current AI (exposure **91.69**, just above the portfolio median of 90.9 — business-analyst documentation, requirements writing and reporting work is the tier AI is absorbing first), while the curriculum's scored defences sit two points below the portfolio median (adaptiveness **8/15**, median 10). High exposure is not a finding that these jobs are disappearing — the same market data shows the adjacent tiers growing. The program is not broken: real graduate-outcome evidence is strong (JIR/LiveAlumni, n = 257), both gates hold, and the redesign task is concrete — close two 1/3 scored gaps and convert the 2/3 scores into durable ones.
 
 | Element | Reading | Plan status |
 | --- | --- | --- |
@@ -30,13 +30,11 @@ Under the v3 durability assessment the MC-IS sits at **High exposure · low adap
 | Gate — D6 Domain depth | PASS | Hold — sector clusters (P5) deepen it further |
 | Position stability | Firm (98%) | Two points below the threshold — a single rating difference does not move this position; only real curriculum change does |
 
-**What changed from the v1 plan:** v1 scored eleven dimensions into a composite and targeted composite points. That composite is superseded: automation exposure (v1 D1) is now *measured* on Panel A from the program's own alumni destinations rather than scored from handbook text, and outcome evidence (v1 D10) is evidence metadata, not points. The improvement burden concentrates on the two 1/3 scored gaps (D5, B), the 2/3 middle band, and **exposure steering** — the destination mix itself.
-
 ---
 
 ## 2. SCORE-TO-ACTION MAPPING
 
-| v3 Element | Reading | Gap Diagnosis | Recommended Intervention |
+| Element | Reading | Gap Diagnosis | Recommended Intervention |
 | --- | --- | --- | --- |
 | Panel C — D5 AI Literacy | 1/3 | No dedicated AI governance unit in core curriculum | Create mandatory core unit: AI Governance and Deployment |
 | Panel C — B Irreplaceability | 1/3 | Business/technology bridging value is common and undifferentiated | Build rare integration: AI governance + sector depth + data engineering |
@@ -61,7 +59,7 @@ Under the v3 durability assessment the MC-IS sits at **High exposure · low adap
 
 ## 4. PRIORITISED INTERVENTIONS TABLE
 
-| Priority | Action | Target (v3) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+| Priority | Action | Target | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Create mandatory core unit: **AI Governance and Deployment** (NIST AI RMF, ISO 42001, human-in-the-loop design) | Panel C — D5 → 3/3; B rises | ISACA: AI governance #1 GRC skill; ISO 42001 tripling; Big 4 intake expectations shifted | HIGH | HIGH | Program Director + School of CIS | Months 1–9 | Unit live Sem 1 2027; 80%+ student competency on governance frameworks |
 | 2 | Mandate real-client AI implementation capstone for all tracks | Panel C — D7 → 3/3; gate D4 protected | Seek: Automation Analyst +47% YoY; AI Governance Analyst emerging | HIGH | HIGH | Capstone Coordinator + Industry Partnerships | Months 4–12 | 100% graduates completing real-client capstone by 2028 |

@@ -23,15 +23,15 @@ export const features: GridFeature[] = [
   {
     name: "Durability Assessment",
     description:
-      "An 11-dimension rubric scores each program 0–36. It weighs automation exposure, AI literacy, systems thinking, decision ownership, research rigour and more, then resolves them into one comparable signal.",
+      "Two measured axes: destination AI exposure, measured from the occupations a program's graduates actually enter on a published index — and curriculum adaptiveness, scored from handbook evidence. Crossed, never summed, into one defensible position.",
     icon: <Gauge className={iconClass} />,
     href: "/assess",
     size: "medium",
   },
   {
-    name: "Risk Band",
+    name: "Position & Confidence",
     description:
-      "RESILIENT, MODERATE RISK, HIGH RISK or CRITICAL: a direct verdict that gives committees the language and evidence to act, not another hedged review.",
+      "High or low exposure × high or low adaptiveness — a measurement-first position published with its stability ('firm', or 'near a threshold'). Committees get language and evidence to act, never a number the instrument can't defend.",
     icon: <Layers className={iconClass} />,
     href: "/reports",
     size: "medium",
@@ -68,19 +68,19 @@ export const features: GridFeature[] = [
     size: "medium",
   },
   {
-    name: "Three Threshold Questions",
+    name: "Intervention Simulator",
     description:
-      "YES / NO / UNCERTAIN verdicts on AI replaceability, decision ownership and five-year employability, anchored to curriculum evidence rather than opinion.",
+      "Every reachable position under curriculum improvement is enumerated — see exactly which changes would move a program's position, and which wouldn't, before committing committee time to them.",
     icon: <CircleHelp className={iconClass} />,
-    href: "/assess",
+    href: "/reports",
     size: "medium",
   },
   {
-    name: "Outcome Evidence Scoring",
+    name: "Evidence & Provenance",
     description:
-      "Rates how well a program publishes destination data (roles, industries, salary and time-to-employment) to support quality-assurance reporting.",
+      "Every exposure value carries its index vintage, destination coverage and occupation-mapping provenance — and every destination title is published, so a reader can check the report against the underlying data.",
     icon: <FileCheck className={iconClass} />,
-    href: "/assess",
+    href: "/reports",
     size: "medium",
   },
   {
@@ -128,8 +128,8 @@ export const howItWorks = {
     },
     {
       icon: Gauge,
-      title: "Score 11 dimensions",
-      body: "Each dimension is assessed against curriculum evidence and live labour-market signal, then resolved into a 0–36 Durability Assessment and a risk band.",
+      title: "Measure and score",
+      body: "Destination AI exposure is measured from the program's own graduate destinations on a published index; curriculum adaptiveness is scored from handbook evidence. The two cross into a position with a stated confidence — never a single summed score.",
     },
     {
       icon: ClipboardList,
@@ -218,9 +218,9 @@ export const faqs = [
   },
   {
     id: 2,
-    question: "What does the risk band mean for my program?",
+    question: "What does the position mean for my program?",
     answer:
-      "Programs score 0–36 across 11 dimensions. RESILIENT (28–36) means graduates are well-positioned. MODERATE RISK (20–27) signals targeted action is needed. HIGH RISK (12–19) indicates systemic curriculum gaps. CRITICAL (0–11) requires urgent redesign before the next cohort enrols.",
+      "Each program is placed on two axes: destination AI exposure, measured from where its graduates actually work on a published occupation index, and curriculum adaptiveness, scored from curriculum evidence. The four positions (high/low exposure × high/low adaptiveness) are relative to the assessed portfolio, and every position is published with its confidence. High exposure does not mean jobs disappearing — the most AI-exposed occupations are projected to grow; exposure says where the content of the work is changing, and adaptiveness says how well the curriculum prepares graduates for that change.",
     href: "/reports",
   },
   {

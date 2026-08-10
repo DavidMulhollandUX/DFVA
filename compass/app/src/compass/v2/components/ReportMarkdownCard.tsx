@@ -37,6 +37,8 @@ function splitSections(markdown: string): MarkdownSection[] {
       continue;
     }
     if (line.startsWith("# ")) continue;
+    // Tooling metadata is never rendered, wherever it appears in the body.
+    if (/^\*\*(Prompt Version|Prompt version|Source Report)\b/.test(line.trim())) continue;
     const inMetadataZone = !current.title || (sectionCount === 1 && atLeadingRun);
     if (inMetadataZone) {
       const trimmed = line.trim();

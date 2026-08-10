@@ -305,7 +305,7 @@ export default function V3ReportPage() {
         {/* Hero */}
         <div className="mb-10">
           <p className="text-muted-foreground mb-2 text-xs font-semibold tracking-[0.18em] uppercase">
-            Durability Assessment · v3 preview — confidence-first
+            Durability Assessment
           </p>
           <h1 className="text-foreground font-serif text-4xl tracking-tight">
             {program.name}
@@ -723,17 +723,22 @@ export default function V3ReportPage() {
                 Titles mapped via the inherited index sit systematically higher
                 (median AIOE 92.3) than the Aug 2026 mappings (median 77.3). A
                 uniform re-mapping of all 368 titles would shift absolute
-                levels; structural results (quadrant counts, 20/34 changes vs
-                the v2 proxy) are robust to crosswalk choice — verified by an
-                independent recomputation.
+                levels; structural results (quadrant counts, 20 of 34 position
+                changes vs the earlier proxy measurement) are robust to
+                crosswalk choice — verified by an independent recomputation.
               </span>
             </div>
           </CardContent>
         </Card>
 
-        {/* What changed from v2 */}
-        <Card className="mt-6">
-          <CardContent className="pt-6">
+        {/* What changed from v2 — version comparison, collapsed by default */}
+        <details className="border-border mt-6 rounded-lg border">
+          <summary className="text-foreground hover:bg-card-accent cursor-pointer rounded-lg px-5 py-4 text-sm font-medium">
+            Version comparison — how this measurement differs from the previous
+            instrument (DFVA v2)
+          </summary>
+        <Card className="border-0 shadow-none">
+          <CardContent className="pt-2">
             <CardLabel>Version comparison</CardLabel>
             <CardTitle className="text-lg">What changed from DFVA v2</CardTitle>
             <p className="text-muted-foreground mt-1 mb-6 text-sm">
@@ -781,6 +786,7 @@ export default function V3ReportPage() {
             </div>
           </CardContent>
         </Card>
+        </details>
 
         <MethodGlossary
           terms={[

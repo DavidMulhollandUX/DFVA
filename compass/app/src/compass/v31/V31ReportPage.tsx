@@ -170,7 +170,7 @@ export default function V31ReportPage() {
         {/* Hero — the program, not the changelog (U3) */}
         <div className="mb-8">
           <p className="text-muted-foreground mb-2 text-xs font-semibold tracking-[0.18em] uppercase">
-            Durability Assessment · v3.1
+            Durability Assessment
           </p>
           <h1 className="text-foreground font-serif text-4xl tracking-tight">{program.name}</h1>
           <p className="text-muted-foreground mt-2 font-mono text-sm uppercase">

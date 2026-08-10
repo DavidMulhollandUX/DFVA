@@ -12,8 +12,7 @@ export function MigrationTable({ programs }: { programs: V2Program[] }) {
               "Code",
               "Program",
               "Faculty",
-              "v1 Band",
-              "v2 Quadrant",
+              "Position",
               "Exposure",
               "Adapt.",
               "D2",
@@ -52,9 +51,6 @@ export function MigrationTable({ programs }: { programs: V2Program[] }) {
                 </td>
                 <td className="border-border/40 text-muted-foreground border-b px-3 py-1.5">
                   {p.faculty}
-                </td>
-                <td className="border-border/40 border-b px-3 py-1.5 whitespace-nowrap">
-                  {p.v1_band}
                 </td>
                 <td className="border-border/40 border-b px-3 py-1.5">
                   <span
