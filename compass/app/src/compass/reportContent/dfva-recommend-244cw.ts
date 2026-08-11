@@ -5,149 +5,141 @@ const content = {
   institution: "University of Melbourne",
   markdown: `## IMPROVEMENT PLAN: Master of Public Health
 
-**Current:** 23/36 MODERATE RISK | **Duration:** 24 months full-time (200 credit points)
-**Target:** 29/36 RESILIENT | **Gap:** 6 points
+**Current:** 23/36 MODERATE RISK (v1 composite, superseded — file metadata only, not rendered) | **Duration:** 24 months full-time or 48 months part-time (200 credit points)
+**v3.1 Position:** Low exposure · low adaptiveness — Destination AI Exposure 89.46 (measured, portfolio median 90.9) × Curriculum Adaptiveness 9/15 (scored, median 10) · position confidence: near a threshold (81%)
+**Goal:** Move the scored axis past the adaptiveness threshold — close the AI Literacy gap (1/3, the largest in the portfolio's health programs), convert the strong methods core into assessed depth and defended primary research, and protect the least-exposed destination stream the program already feeds.
+
+---
 
 ## 1. DIAGNOSTIC SUMMARY
 
-The Master of Public Health is not a weak program with a scoring problem; it is a methodologically strong program pointed at a destination set it has not yet acknowledged. Half its compulsory core is research methods — Biostatistics, Epidemiology 1 and Qualitative Research in Public Health, spanning both quantitative and qualitative traditions — which is unusual for a professional masters and is the raw material for exactly the capability the market is asking for.
+Under the durability assessment the Master of Public Health sits at **Low exposure · low adaptiveness**: its graduates enter destinations marginally below the portfolio's exposure median (**89.46** against 90.9) while the curriculum's scored defences sit below the portfolio median (adaptiveness **9/15**, median 10). Both coordinates are close to their thresholds, so neither reading is firm.
 
-The gap is narrow and specific. Measured exposure across the program's own 562-graduate destination record is 89.46, and the analytic entry roles most graduates enter (research analyst 97.60, policy officer 97.41, data analyst 96.55, research assistant 92.30) sit near the ceiling of the index. The 75-point compulsory core contains no AI content of any kind. A graduate can complete this degree, enter a policy or analyst role, and be handed a machine-drafted evidence brief to verify without ever having been taught to verify one.
+The exposure figure is also the least informative number in the assessment, because the destination set is **bimodal rather than moderate**. The analytic and policy entry roles sit near the ceiling of the index (Research Analyst 97.60, Policy Officer 97.41, Data Analyst 96.55, Research Assistant 92.30); the field and community roles sit a third lower (Contact Tracing Support Officer 64.49, Epidemiology Support Officer 74.33, Health Promotion Officer 80.08). The mean of 89.46 describes neither group, and which group a graduate lands in is not currently something the program influences.
 
-Three secondary constraints follow. Quantitative depth stops at the core boundary, so 100 of 200 points can carry no further methods content. Research rigour is capped by capstone route choice rather than by teaching quality — only one of the three routes available in 2026 reliably produces defended primary research. And the systems framing that Foundations of Public Health genuinely teaches is never assessed as trade-off reasoning or failure-mode analysis.
+The scored gap is narrow and specific. Three of six compulsory core subjects are research methods spanning quantitative and qualitative traditions — a genuinely strong foundation, and exactly the raw material for graduates who can supervise and appraise automated evidence work. The compulsory core nonetheless contains **no AI content of any kind**, and all quantitative depth beyond Biostatistics and Epidemiology 1 is elective. A graduate can complete this degree, enter a policy role, and be handed a machine-drafted evidence brief to verify without having been taught to verify one.
 
-The position is also less firm than a single label suggests. The program's exposure sits 1.44 points below the portfolio median and its adaptiveness one point below, so both coordinates are near their thresholds; the v3.1 stability layer reports a modal probability of 0.814 with a "near a threshold" confidence class. The interventions below are worth doing on their merits, not because the label demands them.
+| Element | Reading | Plan status |
+| --- | --- | --- |
+| Panel A — Destination AI Exposure | 89.46 (median 90.9); entry-stage 84.77 | Measured, not scored — exposure ≠ risk; managed by steering (P5) |
+| Panel C — Systems Thinking | 2/3 | P3 — determinants framing taught but never assessed as trade-off or failure-mode reasoning |
+| Panel C — Technical Depth | 2/3 | **P4 target** — solid compulsory grounding, all depth beyond it elective |
+| Panel C — Research Methods | 2/3 | **P2 target** — the most sensitive score in the assessment |
+| Panel C — Irreplaceability | 2/3 | Follows P1 + P4 — rises when the technical/AI leg lands |
+| Panel C — AI Literacy | **1/3** | **P1 target** — compulsory core has zero AI content; largest scored gap |
+| Gate — Decision-making | PASS | Hold — compulsory 25-point capstone carries live accountability on every route; regression-check at every change |
+| Gate — Domain depth | PASS | Hold — specialisation streams and 100 points of disciplinary electives |
+| Position stability | Near a threshold (81%) | One rating point moves the quadrant — treat position as approximate, act on the named gaps |
+| Exposure proximity | 1.44 AIOE from the median | The stability layer models rating error on the scored axis only; this program also carries unmodelled exposure-side uncertainty |
+
+The position sits **one point from the adaptiveness threshold**, so it should be read as approximate — and it also means a small number of real curriculum changes moves it.
+
+---
 
 ## 2. SCORE-TO-ACTION MAPPING
 
-| Dim | Name | Current | Target | Binding constraint | Lever |
-|---|---|---:|---:|---|---|
-| D1 | Automation Exposure of Roles | 2 | 2 | Destination mix is set by the labour market, not the curriculum | Indirect via P1, P5 |
-| D2 | Systems Thinking and Problem Framing | 2 | 3 | Determinants framing taught but never assessed as trade-off or failure-mode reasoning | **P3** |
-| D3 | Technical and Quantitative Depth | 2 | 3 | All depth beyond Biostatistics and Epidemiology 1 is elective | **P4** |
-| D4 | Decision-Making Under Uncertainty | 3 | 3 | Already at ceiling — compulsory capstone with live accountability | Hold |
-| D5 | AI Literacy and Governance | 1 | 3 | Zero AI content in the 75-point compulsory core; one elective only | **P1** |
-| D6 | Domain Depth and Specialisation | 2 | 2 | Generalist breadth-first design with no credential moat; structural | Hold |
-| D7 | Research Methods Rigour | 2 | 3 | Only one of three available capstone routes generates defended primary data | **P2** |
-| D8 | Human and Relational Capability | 2 | 2 | Community and co-design practice real but not credentialed as assessed competency | **P5** (monitor) |
-| D9 | Curriculum Currency and Adaptability | 2 | 2 | Recent refresh genuine; AI-in-core clause unmet until P1 lands | Follows P1 |
-| D10 | Graduate Outcome Evidence | 3 | 3 | Already at ceiling — n = 562 own-program record | **P6** (surface it) |
-| B | Irreplaceability Premium | 2 | 3 | Technical layer stops at core; no AI/governance capability | Follows P1 + P4 |
+| Element | Reading | Gap Diagnosis | Recommended Intervention |
+| --- | --- | --- | --- |
+| Panel C — AI Literacy | 1/3 | AI appears in exactly one elective (COMP90094 Transforming Healthcare with Data and AI), with INFO90011 and POPH90308 adjacent but not AI-specific. The 75-point compulsory core contains none, so most graduates never encounter it while entering the most AI-exposed destination set in the faculty | Embed an assessed AI-in-public-health-evidence strand **inside the three compulsory methods subjects** — evidence-synthesis audit, verification and fabricated-citation checking, provenance and disclosure, AI governance in health data. Not a seventh elective: a new elective reaches the graduates who least need it |
+| Panel C — Research Methods | 2/3 | Half the compulsory core is methods (Biostatistics, Epidemiology 1, Qualitative Research — 37.5 of 75 points) and every graduate can design and conduct research. But only one of the three capstone routes available in 2026 reliably generates defended primary data, so "routinely generate primary data" does not hold program-wide | Make the Research Project the **default** capstone route, requiring primary data generation, defended methodology, and explicit limitation and failure-mode analysis; other routes require a documented rationale |
+| Panel C — Technical Depth | 2/3 | Biostatistics and Epidemiology 1 are compulsory — a solid grounding clearly above an introductory unit. All depth beyond that (Epidemiology 2, Regression Methods, Survival Analysis, Infectious Diseases Modelling, Genetic Epidemiology, Health Economics) is elective, so 100 of 200 points can carry no further quantitative content | Introduce a compulsory quantitative-depth requirement — at least 12.5 points from the advanced epidemiology, modelling, health-economics and evaluation set |
+| Panel C — Systems Thinking | 2/3 | The social-determinants frame in Foundations of Public Health is a genuine systems model and Applied Program Development carries it into assessed program design, but no compulsory subject assesses trade-off reasoning or failure-mode analysis | Add assessed systems-framing and failure-mode criteria to Foundations of Public Health and Applied Program Development — new criteria on existing subjects, not a new unit |
+| Panel C — Irreplaceability | 2/3 | Real dual-skill value (epidemiological method + policy and community judgment), but the technical layer stops at the compulsory-core boundary, there is no AI or governance capability in the core, and no credential moat protects the qualification | Direct consequence of closing the AI Literacy and Technical Depth gaps — rises once both become compulsory |
+| Gate — Decision-making (PASS) | Hold | Gate holds strongly: the compulsory capstone is a year-long research project, a year-long agency placement, or problem-based application to real scenarios, and "the ability to manage uncertainty" is a stated graduate attribute | Hold; P2 deepens it by making the most demanding route the default. Regression-check the gate at every curriculum change |
+| Gate — Domain depth (PASS) | Hold | Specialisation streams plus 100 points of disciplinary electives give a clear specialist focus. Generalist breadth with no registration moat is structural to the degree's design, not a defect | Hold; P4 constrains only 12.5 of the 100 elective points, preserving the breadth that makes the qualification attractive |
+| Panel A — Exposure 89.46 | Bimodal, not moderate | Analytic and policy entry roles sit at 92–98; field and community roles at 64–80. The program does not currently influence which stream graduates enter, and treats the least-exposed capability least formally | Credential community engagement and co-design as an assessed competency — a measurable, defensible differentiator that also steers the destination mix |
+
+---
 
 ## 3. MARKET EVIDENCE SNAPSHOT
 
-| Signal | Source grain | Implication for this plan |
-|---|---|---|
-| Entry destinations average 84.77 exposure; four of nine sit above 92 | Own-program alumni record (n = 562), Felten AIOE | P1 is the highest-value intervention and must sit in the compulsory core |
-| Field and community destinations sit at 64–80 | Same | P5 protects a measurable, defensible differentiator |
-| Epidemiologist, health economist, evaluator destinations above 95 and in shortage | Same + JSA Skills Priority List 2025 | High exposure here means task overlap with growing demand, not displacement — P4 is an upside lever |
-| "Descriptive cut is commoditised; the defended causal claim is not" | Professional discourse (MEDIUM confidence) | P2 and P4 target the retained task, not the automated one |
-| Evaluation named as separately scarce capability | Health service and NGO advertising (MEDIUM) | P4's elective set should include the evaluation chain |
-| Indigenous data governance a named agency requirement | Commonwealth and state role descriptions (MEDIUM) | Existing elective is well positioned; connect to P1's governance strand |
-| QILT Health field figures are clinically weighted | QILT GOS 2024, field grain | Do not use field employment rates as evidence this program's outcomes are safe |
+| Job Family | Recent Hiring Signal | Discussion Theme | Curriculum Impact |
+| --- | --- | --- | --- |
+| Epidemiology & Biostatistics | ACDC establishment creating Commonwealth surveillance and preparedness roles; high exposure by task content but structural shortage by supply (Signal 2) | "The descriptive cut is free now — you're paid for the causal claim and the confounder you spotted" | P1 (verification) + P2 (defended methods) target the retained task, not the automated one |
+| Health Policy & Government | Briefing and submission drafting heavily AI-assisted across APS and Victorian government workflows | "Policy officers now edit and verify a machine's first draft, and own what goes up" | P1 — verification, provenance and disclosure discipline in the compulsory core |
+| Health Promotion & Community Practice | Victorian public health unit capacity retained rather than wound back post-COVID (Signal 1) | "Community trust and co-design are the parts that don't transfer to a model" | P5 — credential the least-exposed capability the program already teaches |
+| Health Economics & Evaluation | Evaluation and economic evaluation named as separately scarce capability in health service and NGO advertising (Signal 3) | "Evaluation is becoming the scarce skill as programs multiply" | P4 — bring the evaluation and economics chain inside a compulsory requirement |
+| Global & Planetary Health | Climate-health, planetary health and One Health moving from research institutes into state health department and NGO advertising (Signal 4) | "The next decade's public health problems are cross-system, not single-disease" | P3 — connect the recent subject refresh to assessed systems-framing capability |
+| Data & Analytics literacy | Statistical tooling now assumed baseline, not a differentiator; causal reasoning and data governance are (Signal 5, Signal 6) | "Evidence synthesis tooling is outrunning appraisal skill" | P1 + P4 — appraisal and depth, not tool proficiency |
+
+---
 
 ## 4. PRIORITISED INTERVENTIONS TABLE
 
-| Priority | Action | Target Dimension(s) | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
-|---|---|---|---|---|---|---|---|---|
-| P1 | Embed an assessed **AI in Public Health Evidence** strand across the three compulsory methods subjects: automated evidence-synthesis audit, verification and fabricated-citation checking, provenance and disclosure, AI governance in health data. Not a new elective — a thread through Biostatistics, Epidemiology 1 and Qualitative Research | D5, D9, B | Analytic entry roles at 92–98 exposure; policy officers already verifying machine drafts | **High** (+2 D5, enables D9, B) | High | Course Coordinator + methods subject coordinators | 12 months to first delivery | 100% of graduates complete an assessed AI-verification task; audit rubric published |
-| P2 | Make the **Research Project capstone the default route**, with primary data generation, defended methodology and explicit limitation and failure-mode analysis; require a documented rationale to take an alternative route | D7, D4, B | "You're paid for the causal claim, not the descriptive cut" | **High** (+1 D7) | High | Capstone lead + MSPGH research leads | 18 months (supervision capacity is the constraint) | ≥60% of students on the research route; 100% produce a defended methods statement |
-| P3 | Add an assessed **systems-framing and failure-mode** component to Foundations of Public Health and Applied Program Development — trade-off reasoning across determinants, and structured analysis of how public health programs fail | D2 | Cross-system demand: climate-health, One Health, preparedness | **Medium** (+1 D2) | Medium | Foundations + Applied Program Development coordinators | 12 months | Assessed failure-mode artefact in both subjects |
-| P4 | Introduce a compulsory **quantitative-depth requirement** — ≥12.5 points from {Epidemiology 2, Regression Methods in Health Research, Survival Analysis and Regression for Rates, Infectious Diseases Modelling, Health Economics 1, Health Program Evaluation 1} | D3, B | Epidemiologist, economist and evaluator destinations above 95 and in shortage | **Medium** (+1 D3, enables B) | Medium | Course Coordinator + Board of Examiners | 18 months (course rule change) | 100% of graduates hold ≥1 advanced quantitative or evaluation subject |
-| P5 | Credential **community engagement and co-design** as an assessed competency carried through the Professional Practice route and Community Engagement for Health Impact, with a cultural-safety and Indigenous-engagement component | D8, D1 | Field destinations least exposed (64–80) and increasingly a primary selection criterion | **Medium** (monitor for +1 D8) | Medium | Professional Practice lead + Indigenous health leads | 18 months | Co-design competency statement in graduate transcript supplement |
-| P6 | Publish **program-level destination data** — role titles, employers, career-stage progression, salary bands and time-to-employment — from the existing alumni record, replacing field-level QILT proxies in applicant-facing material | D10 | An n = 562 record already exists and is not surfaced to applicants | **Low** (holds D10 at 3) | Low | MSPGH marketing + course coordination | 6 months | Program-level outcomes page live; QILT field figures no longer quoted alone |
+| Priority | Action | Target | Market Signal Link | Impact | Effort | Owner | Timeline | KPI |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| P1 | Embed an assessed **AI in Public Health Evidence** strand across the three compulsory methods subjects (Biostatistics, Epidemiology 1, Qualitative Research): evidence-synthesis audit, verification and fabricated-citation checking, provenance and disclosure, AI governance in health data | Panel C — AI Literacy 1/3 → 3/3; Irreplaceability follows | Signal 5, Signal 6; policy-verification theme | **High** | High | Course Coordinator + the three methods subject coordinators | Months 1-12 | 100% of graduates complete an assessed AI-verification artefact (from ~0% today); shared rubric published |
+| P2 | Make the **Research Project the default capstone route** — primary data generation, defended methodology, explicit limitation and failure-mode analysis; a documented rationale required to take an alternative route | Panel C — Research Methods 2/3 → 3/3; deepens the decision-making gate; adaptiveness crosses the 10-point threshold | Epidemiology hiring (Signal 2) | **High** | High | Capstone lead + MSPGH research leads | Months 6-18 | ≥60% of students on the research route; 100% produce a defended methods statement; decision-making gate still PASS |
+| P3 | Add assessed **systems-framing and failure-mode** criteria to Foundations of Public Health and Applied Program Development — trade-off reasoning across determinants, structured analysis of how public health programs fail | Panel C — Systems Thinking 2/3 → 3/3 | Cross-system demand (Signal 4) | Medium | Low-Medium | Foundations + Applied Program Development coordinators | Months 1-9 | Updated subject outlines with assessed failure-mode criteria in both subjects |
+| P4 | Introduce a compulsory **quantitative-depth requirement** — ≥12.5 points from {Epidemiology 2, Regression Methods in Health Research, Survival Analysis and Regression for Rates, Infectious Diseases Modelling, Health Economics 1, Health Program Evaluation 1} | Panel C — Technical Depth 2/3 → 3/3; Irreplaceability follows | Evaluation and economics scarcity (Signal 3) | Medium | Medium | Course Coordinator + Board of Examiners | Months 6-18 | Course rule live for the following intake; 100% of graduates hold ≥1 advanced quantitative or evaluation subject |
+| P5 | Credential **community engagement and co-design** as an assessed competency through the Professional Practice route and Community Engagement for Health Impact, including a cultural-safety and Indigenous-engagement component | Panel A steering — routes graduates toward the least-exposed destination tier (64–80) and formalises the capability the instrument does not score | Public health unit capacity (Signal 1); Indigenous data governance (Signal 6) | Medium | Medium | Professional Practice lead + Indigenous health leads | Months 6-18 | Co-design competency statement in the graduate transcript supplement |
+| P6 | Publish **program-level destination data** — role titles, employers, career-stage progression, salary bands, time-to-employment — from the existing n = 562 alumni record, replacing field-level QILT proxies in applicant-facing material | Evidence quality — closes the gap between what the program holds and what applicants see | Field-level QILT figures are clinically weighted and overstate this program's outcomes | Low-Medium | Low | MSPGH marketing + course coordination | Months 3-9 | Program-level outcomes page live; QILT field figures no longer quoted unqualified |
 
-## 5. POST-INTERVENTION PROJECTION
+---
 
-| Dimension | Now | After P1–P4 | Change |
-|---|---:|---:|---|
-| D1 Automation Exposure | 2 | 2 | — |
-| D2 Systems Thinking | 2 | 3 | +1 (P3) |
-| D3 Technical Depth | 2 | 3 | +1 (P4) |
-| D4 Decision-Making | 3 | 3 | — |
-| D5 AI Literacy | 1 | 3 | +2 (P1) |
-| D6 Domain Depth | 2 | 2 | — |
-| D7 Research Rigour | 2 | 3 | +1 (P2) |
-| D8 Human & Relational | 2 | 2 | monitor (P5) |
-| D9 Curriculum Currency | 2 | 2 | — (AI-in-core clause met, level already held) |
-| D10 Outcome Evidence | 3 | 3 | — |
-| B Irreplaceability | 2 | 3 | +1 (follows P1 + P4) |
-| **Total** | **23/36** | **29/36** | **+6 → RESILIENT** |
+## 5. 12-MONTH IMPLEMENTATION ROADMAP
 
-Panel C adaptiveness moves from 9 to 13 (D2 2→3, D3 2→3, D7 2→3, D5 1→3, B 2→3 gives 15; the four scored Panel C items plus bonus are D2, D3, D7, B and D5, so the realised figure depends on which land). Any increase moves the program off the adaptiveness median and out of the "near a threshold" confidence class — the position becomes firm as well as better.
+* **Months 1-3 — Foundation:** Methods subject coordinators co-design the AI-verification learning outcomes and shared rubric (P1); draft updated assessment criteria for Foundations of Public Health and Applied Program Development (P3); begin the MSPGH research-supervision capacity audit that gates P2.
+* **Months 3-6 — Design sprint:** Build the P1 assessed artefacts against real machine-drafted outputs — an automated evidence synthesis with seeded fabricated citations, a machine-drafted policy brief for verification; scope the P4 eligible elective set with the Board of Examiners; deliver P6 using the alumni record already held.
+* **Months 6-9 — Build and validate:** First delivery of the P1 strand in Biostatistics and Epidemiology 1; P3 failure-mode criteria live in both subjects; capacity audit returns and sets the realistic P2 default-route target; pilot the P5 co-design competency statement.
+* **Months 9-12 — Pre-launch:** Extend P1 to Qualitative Research in Public Health; submit the P4 course rule change for approval; announce the P2 default-route change for the following intake, conditional on the capacity finding.
 
-## 6. CONSOLIDATED TIMELINE AND MILESTONES
+---
 
-| Window | Milestone | Depends on |
-|---|---|---|
-| Months 0–6 | P6 delivered: program-level outcomes page live | Alumni record access |
-| Months 0–6 | P1 design: AI-verification learning outcomes and rubric drafted across the three methods subjects | Methods coordinators |
-| Months 6–12 | P1 first delivery in Biostatistics and Epidemiology 1; P3 assessed failure-mode artefact introduced | P1 design sign-off |
-| Months 6–12 | P2 supervision-capacity audit — how many research-route students can MSPGH actually supervise | Research leads |
-| Months 12–18 | P4 course rule change through Board of Examiners; P1 extended to Qualitative Research | Governance cycle |
-| Months 12–18 | P2 default-route change effective; P5 competency statement piloted | P2 capacity audit |
-| Months 18–24 | Full cohort through the revised core; re-assess | All above |
+## 6. 24-MONTH CAPABILITY ROADMAP
 
-## 7. RISK AND MITIGATION
+* **Months 1-12 — Cross the scored threshold:** Land P1 across all three compulsory methods subjects and P3 in the two framing subjects. Target: adaptiveness from 9/15 to 12+/15 with both gates held — enough on its own to clear the portfolio median of 10 and move the program out of the boundary class.
+* **Months 13-18 — Depth and defended research:** P4 course rule effective; P2 default-route change live with supervision capacity resourced; P5 competency statement issued to the first cohort. Target: adaptiveness 13-14/15.
+* **Months 19-24 — Evidence and signal:** Track the first fully-revised cohort; re-run the assessment. Expected movement: adaptiveness well above the threshold with the position re-classified and the stability class moving from *boundary* to *stable*; decision-making and domain-depth gates PASS; exposure re-measured from refreshed alumni destinations, with the share entering the community and field tier tracked as a P5 outcome.
 
-| Risk | Likelihood | Impact | Mitigation |
-|---|---|---|---|
-| P2 blocked by research supervision capacity — the binding constraint on making the research route default | High | High | Audit capacity before committing (month 6–12); stage the target (≥40% then ≥60%); allow co-supervision and group projects with individually defended methods |
-| P1 delivered as a bolt-on lecture rather than assessed capability | Medium | High | Require an assessed artefact in each of the three methods subjects; publish the rubric; audit at first delivery |
-| P4 crowds out the elective breadth that makes the MPH attractive | Medium | Medium | Requirement is 12.5 of 100 elective points and the eligible set is wide, including the evaluation and economics chain |
-| AI content dates rapidly | High | Medium | Teach verification, provenance and governance principles rather than named tools; annual review of the tool layer only |
-| Multiple entry points (100/150/200) mean core interventions reach cohorts unevenly | High | Medium | Map each intervention against all four entry configurations, including MD–MPH; ensure P1 sits in subjects common to every route |
-| Score improvement pursued without capability change | Low | High | KPIs are capability-based (assessed artefacts, competency statements), not score-based |
+---
 
-## 8. GOVERNANCE AND ACCOUNTABILITY
+## 7. ASSESSMENT REDESIGN EXAMPLES
 
-- **Accountable owner:** Course Coordinator, Master of Public Health (Kayley Lyons), Melbourne School of Population and Global Health.
-- **P1 delivery** sits with the three compulsory methods subject coordinators jointly; a single owner per subject, with the rubric held centrally so the three artefacts are consistent.
-- **P2** requires MSPGH research leadership sign-off on supervision capacity before the default-route change is announced; the capacity audit is a gate, not a formality.
-- **P4** requires Board of Examiners approval as a course rule change; sequence it behind the P1 and P3 subject-level changes, which do not.
-- **Review cadence:** milestone review at months 6, 12, 18; full re-assessment at month 24 against this rubric.
-- **Escalation:** if the P2 capacity audit returns below 40% feasible, escalate to School executive as a resourcing decision rather than silently downgrading the intervention.
+1. **Machine-synthesis audit (Epidemiology 1, replacing part of a traditional critical-appraisal task):** Students receive an automated evidence synthesis on a public health question containing seeded errors — a fabricated citation, a misattributed effect estimate, an uncontrolled confounder — and must identify each, correct it, and write the provenance and disclosure statement they would attach if the brief went to a decision-maker. Assesses AI Literacy and Research Methods together.
+2. **Defended methods statement (Research Project capstone, P2):** Alongside the project itself, students defend their design choices under questioning — why this sampling frame, what the identified confounders are, what the study cannot support — and state the failure modes explicitly. Assesses Research Methods and the decision-making gate together.
+3. **Program failure-mode analysis (Applied Program Development, P3):** Given a real public health program that underperformed, students reconstruct the causal chain across determinants, identify where the trade-offs were made and what failed, and specify what evidence would have caught it earlier. Assesses Systems Thinking.
+4. **Co-design accountability artefact (Professional Practice, P5):** Students document a community engagement they led on placement — whose interests were represented, what they changed in response, and what they would do differently — assessed against a cultural-safety rubric developed with Indigenous health leads.
 
-## 9. EVIDENCE BASE AND SOURCES
+---
 
-**HIGH confidence (measured)**
-- Curriculum structure, compulsory core, capstone routes, elective set, learning outcomes: University of Melbourne Handbook 2026, course 244CW (accessed 2026-08-11).
-- Graduate destinations, career-stage segmentation, employers, sample size (n = 562): UoM Job Insights alumni destination record, exact-name match to this program.
-- Exposure values and program mean (89.46, entry-stage 84.77): Felten, Raj & Seamans (2021) AI Occupational Exposure Index, published data appendix, min-max rescaled 0–100 over the published population; O*NET-SOC 2010 crosswalk. Rescaling reproduces published values to ±0.01.
-- Position stability (modal probability 0.814; optimistic 0.892, pessimistic 0.716): DFVA v3.1 exact enumeration over all 243 perturbation states.
+## 8. AI GOVERNANCE AND QUALITY CONTROLS
 
-**MEDIUM confidence (directional)**
-- Hiring signals, discussion themes and skill-shift directions: see \`dfva-market-244cw.md\` §2–§4. Synthesis of Australian public health labour-market patterns to 2026, not a dated live extraction.
+* Require disclosure and critical review of any AI tool used in coursework, mirroring the verification and provenance obligation graduates will carry in government and health-agency practice.
+* Ensure the P1 strand covers AI's failure modes in a public health context specifically — fabricated citations entering an evidence chain, biased training data reproducing health inequity, confidentiality and re-identification risk in health data — not tool proficiency.
+* Connect the P1 governance component to the existing Indigenous Data Governance in Health elective and to Indigenous data sovereignty frameworks, which are already a named requirement in Commonwealth and state agency roles.
+* Frame the strand around durable verification and governance principles rather than named vendor tools, with an annual refresh of the tool layer only.
+* Maintain the compulsory-core credit-point envelope as a hard constraint: P1 and P3 are new assessed content **inside** existing subjects, not net-new subjects.
 
-**LOW confidence (stated limitation)**
-- QILT GOS 2024 employment and salary figures are **field-level ("Health")** and clinically weighted; they are an upper bound for this program, not a measurement of it.
-- 8 of 15 destination titles were crosswalked in the v3.1 extension pass, a third crosswalk vintage — limitation L-v3-1 (level comparability across vintages) applies.
-- No inter-rater reliability study has been run against this rubric (open item R9); the Panel C scores here are a single assessor's reading.
+---
 
-## 10. STAKEHOLDER ENGAGEMENT PLAN
+## 9. MEASUREMENT PLAN
 
-| Stakeholder | Interest | Engagement |
-|---|---|---|
-| Course Coordinator / MPH teaching team | Owns delivery of every intervention | Walk through P1–P3 first; these are subject-level and do not need governance approval |
-| Methods subject coordinators (Biostatistics, Epidemiology 1, Qualitative Research) | P1 lands in their subjects | Co-design the rubric rather than receive it; their objection is the main delivery risk |
-| MSPGH research leadership | P2 supervision capacity | Capacity audit as a joint exercise; frame as a resourcing question, not a compliance one |
-| Board of Examiners | P4 course rule change | Sequence behind evidence from P1/P3 delivery |
-| Students and alumni | Affected by route and requirement changes | Consult on P2 default-route change; the alumni record is also the evidence base for P6 |
-| Employers (Vic DH, Commonwealth Health, AIHW, ACDC, VicHealth, Burnet, Nossal, Doherty) | Hire the graduates | Validate the P1 verification competency against what they actually need juniors to do |
-| Indigenous health and data governance leads | P5 cultural safety component and P1 governance strand | Engage at design, not review |
+* **Leading indicators (12 months):** Percentage of graduates completing an assessed AI-verification artefact (target 100%, from ~0% today); P3 failure-mode criteria live in both framing subjects; supervision-capacity audit complete with a resourced P2 target; program-level outcomes page published.
+* **Lagging indicators (12-24 months):** Adaptiveness re-scored from 9/15 to 13+/15 with both gates held; stability class moved from *boundary* to *stable* and the near-display-threshold disclosure no longer triggered; share of students on the research capstone route; share of graduates entering the community and field destination tier; exposure re-measured from refreshed alumni destinations; employer feedback from Vic DH, Commonwealth Health, AIHW and ACDC on graduate verification capability.
+* **Instrument caveat:** all scored movement is measured against a rubric with no inter-rater reliability study behind it (open item R9). Track the raw per-item scores and gate states, not the quadrant label.
 
-## 11. APPENDIX: CURRICULUM MAPPING
+---
 
-| Intervention | Subject / structure touched | Change type |
-|---|---|---|
-| P1 | POPH90013 Biostatistics; POPH90014 Epidemiology 1; POPH90231 Qualitative Research in Public Health | New assessed learning outcome + artefact in each |
-| P2 | POPH90284/90285 Research Project Pt 1 & 2; capstone route rules | Default-route change + opt-out rationale |
-| P3 | POPH90217 Foundations of Public Health; POPH90274 Applied Program Development | New assessed component |
-| P4 | Elective rules; eligible set POPH90242, POPH90144, POPH90145, POPH90271, POPH90094, POPH90058 | Course rule change (≥12.5 pts) |
-| P5 | POPH90286/90287 Professional Practice Pt 1 & 2; POPH90201 Community Engagement for Health Impact; POPH90308 Indigenous Data Governance in Health | Competency statement + assessed co-design component |
-| P6 | No subject impact — applicant-facing outcomes publication | Communications |
+## 10. RISKS, TRADE-OFFS, AND DEPENDENCIES
 
-**Unchanged by this plan:** the 75-point compulsory core structure, the four-route capstone architecture (P2 changes the default, not the options), the 100-point elective breadth (P4 constrains 12.5 of it), and all specialisation streams.
+* **Risk: the position is misread as reassurance.** "Low exposure" is 1.44 points below a median, on a mean that averages a 64-to-98 spread. It is not a finding that this program's graduates are safe. *Mitigation:* never publish the exposure figure without the bimodality alongside it; report the entry-stage split, not the mean.
+* **Risk: threshold proximity cuts both ways.** The position sits one adaptiveness point below the median and 1.44 AIOE below the exposure median, so a single rating difference or portfolio drift moves the quadrant without any real change. *Mitigation:* track raw adaptiveness and gate states, not the label.
+* **Risk: P2 blocked by research supervision capacity** — the binding constraint on making the research route default, and the one dependency that can stall the plan's largest scored gain. *Mitigation:* audit capacity before announcing (months 1-9); stage the target (≥40% then ≥60%); allow co-supervision and group projects with individually defended methods; escalate a shortfall to School executive as a resourcing decision rather than quietly downgrading the intervention.
+* **Risk: P1 delivered as a bolt-on lecture rather than assessed capability.** *Mitigation:* an assessed artefact in each of the three methods subjects, a shared published rubric, and an audit at first delivery.
+* **Risk: multiple entry points (100/150/200-point and MD–MPH) mean core interventions reach cohorts unevenly.** *Mitigation:* P1 and P3 sit in subjects common to every entry configuration; map each intervention against all four before sign-off.
+* **Trade-off: P4 constrains elective breadth**, which is part of the MPH's appeal. *Mitigation:* the requirement is 12.5 of 100 elective points and the eligible set spans epidemiology, modelling, economics and evaluation.
+* **Risk: score improvement pursued without capability change.** *Mitigation:* every KPI is capability-based — assessed artefacts, competency statements, published rubrics — never a score target.
+
+---
+
+## 11. REDESIGNED GRADUATE PROFILE (2027 READY)
+
+The 2027-ready Melbourne MPH graduate keeps what the program already does unusually well: a compulsory methods core spanning quantitative and qualitative traditions, a specialist public health domain, and community and Indigenous-health practice assessed as real capability. What changes is that these now meet the destinations graduates actually enter.
+
+This graduate can commission and audit an automated evidence synthesis rather than consume it — telling a confounded association from a causal one and saying why, catching a fabricated citation before it reaches a minister's brief, and attaching the provenance statement that makes the advice defensible. They hold at least one advanced quantitative or evaluation subject, so they can specify an evaluation and defend its attribution rather than only execute a descriptive cut. They have designed and defended a primary investigation under supervision. And they carry a credentialed co-design capability into the community and field roles that are the least substitutable destinations in the whole set.
+
+Their value moves from *producing the analysis* to *owning the evidence claim* — orchestrating human and machine work, and standing behind what goes to the public.
 `,
 };
 
