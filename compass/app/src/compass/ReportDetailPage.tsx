@@ -198,6 +198,9 @@ const reportMeta: Record<
   "dfva-mc-jurisd": { score: "24 / 36", riskBand: "MODERATE RISK" },
   "dfva-market-mc-jurisd": { score: null, riskBand: null },
   "dfva-recommend-mc-jurisd": { score: null, riskBand: null },
+  "dfva-244cw": { score: "23 / 36", riskBand: "MODERATE RISK" },
+  "dfva-market-244cw": { score: null, riskBand: null },
+  "dfva-recommend-244cw": { score: null, riskBand: null },
 };
 
 const DIMENSIONS = [

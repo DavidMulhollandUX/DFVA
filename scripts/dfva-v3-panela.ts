@@ -191,6 +191,13 @@ const EXTENSION: ExtensionSpec[] = [
       "The JIR reports this program per major, so all six Bachelor of Design major reports are aggregated. These are the program's own graduates, but a title appearing in several majors still counts once, so the mean is over the union of destinations rather than weighted by major size.",
   },
   {
+    code: "244cw",
+    records: { names: ["Master of Public Health"] },
+    matchTier: "exact",
+    note:
+      "Assessed after the 2026-08-10 coverage audit, which ranged over the 66 already-assessed programs and so never saw this one. Its own exact-name JIR report (n = 562, the second-largest alumni sample in the faculty) was present and unused — dfva_jir_map cited it only as a cognate proxy for Master of Science (Epidemiology).",
+  },
+  {
     code: "b-sci",
     records: { prefix: "Bachelor of Science (" },
     matchTier: "aggregate-own-majors",

@@ -294,6 +294,153 @@
     "marketReportPath": "reports/dfva-market-080cn.md"
   },
   {
+    "programCode": "244cw",
+    "programName": "Master of Public Health",
+    "faculty": "Medicine, Dentistry & Health",
+    "level": "postgraduate",
+    "overallScore": 23,
+    "riskCategory": "MODERATE RISK",
+    "dimensions": [
+      {
+        "dimension": "D1",
+        "score": 2,
+        "maxScore": 3,
+        "criteria": [
+          "First 3-5 years mostly routine templated tasks",
+          "Some judgment, mostly templated",
+          "Mix of routine and non-routine work",
+          "Judgment, design, accountability, or physical/relational skill from day one"
+        ],
+        "notes": "Entry destinations split rather than cluster: research analyst (97.60), policy officer (97.41), data analyst (96.55) and research assistant (92.30) involve substantially templated, AI-assisted output from day one, while health promotion officer (80.08), epidemiology support officer (74.33) and contact tracing support officer (64.49) require presence, local knowledge and trust. Measured entry-stage exposure of 84.77 sits between the two clusters and describes neither. Mixed routine and non-routine work."
+      },
+      {
+        "dimension": "D2",
+        "score": 2,
+        "maxScore": 3,
+        "criteria": [
+          "Tool/process execution only",
+          "Mentioned but not assessed",
+          "Dedicated units with authentic assessment",
+          "Integrated throughout with trade-off reasoning and failure-mode analysis"
+        ],
+        "notes": "The social-determinants framing taught in Foundations of Public Health is a genuine systems model, and Applied Program Development plus Public Health Leadership and Policy carry it into assessed program design; 'examine issues from multiple disciplinary perspectives within public health' is a stated graduate attribute. But no compulsory subject assesses trade-off reasoning or failure-mode analysis, which is what separates level 3 from level 2."
+      },
+      {
+        "dimension": "D3",
+        "score": 2,
+        "maxScore": 3,
+        "criteria": [
+          "No meaningful rigour",
+          "Intro stats or basic tooling",
+          "Solid grounding in stats/data/coding/domain science",
+          "Strong technical core embedded and assessed throughout"
+        ],
+        "notes": "Biostatistics and Epidemiology 1 are both compulsory, giving every graduate a solid quantitative grounding clearly above an introductory unit. All depth beyond that — Epidemiology 2, Regression Methods in Health Research, Survival Analysis and Regression for Rates, Infectious Diseases Modelling, Genetic Epidemiology, Health Economics — is elective, so 100 of 200 points can be completed with no further quantitative content. Solid grounding, not a technical core embedded throughout."
+      },
+      {
+        "dimension": "D4",
+        "score": 3,
+        "maxScore": 3,
+        "criteria": [
+          "Recall/scripted responses",
+          "Some case work with scripted answers",
+          "Assessments require defended trade-offs",
+          "Simulations/capstones/live projects with real uncertainty and accountability"
+        ],
+        "notes": "The compulsory 25-point capstone carries live accountability on every available route: a year-long Research Project, a year-long Professional Practice placement with a health agency, or problem-based application to real scenarios in Public Health in Practice. 'The ability to manage uncertainty' is a stated graduate attribute and the course ILOs require critical reflection on decision-making in practice, including personal attitudes and beliefs. At the level-3 anchor."
+      },
+      {
+        "dimension": "D5",
+        "score": 1,
+        "maxScore": 3,
+        "criteria": [
+          "No AI coverage",
+          "AI appears in one elective",
+          "AI tools used with limits discussed",
+          "Graduates can design/deploy/supervise/critique AI workflows incl. ethics/governance"
+        ],
+        "notes": "AI appears in exactly one elective — COMP90094 Transforming Healthcare with Data and AI — with INFO90011 Digital Learning Health Systems and POPH90308 Indigenous Data Governance in Health adjacent but not AI-specific. The 75-point compulsory core contains no AI content, so most graduates complete the degree without encountering it while entering the most AI-exposed destination set in the health faculty. This is the program's binding constraint."
+      },
+      {
+        "dimension": "D6",
+        "score": 2,
+        "maxScore": 3,
+        "criteria": [
+          "Generic/interchangeable",
+          "Mild specialisation",
+          "Clear specialist domain focus",
+          "Deep regulatory/scientific/clinical/physical expertise"
+        ],
+        "notes": "Specialisation streams and 100 credit points of disciplinary electives create a clear specialist focus, and the ILOs commit to applying 'specialist public health knowledge and skills in a public health discipline'. But the MPH is a breadth-first generalist qualification with no registration or regulatory moat; it does not build the deep regulatory, clinical or scientific expertise the level-3 anchor describes. Structural to the degree's design rather than a defect."
+      },
+      {
+        "dimension": "D7",
+        "score": 2,
+        "maxScore": 3,
+        "criteria": [
+          "Secondary summary only",
+          "Intro research unit",
+          "Can design and conduct research",
+          "Routinely generate primary data and defend methods under scrutiny"
+        ],
+        "notes": "Unusually strong for a professional masters: three of six compulsory core subjects (Biostatistics, Epidemiology 1, Qualitative Research in Public Health) are research methods — 37.5 of 75 compulsory points, spanning both quantitative and qualitative traditions — and the course ILO requires graduates to 'design and manage a detailed investigation of a public health issue in a substantial project, with a high level of personal autonomy and accountability'. Every graduate can design and conduct research. Level 3 is withheld only because just one of the three capstone routes available in 2026 reliably generates primary data; this score is the single most sensitive judgement in the assessment and a +1 here moves the program off the adaptiveness median."
+      },
+      {
+        "dimension": "D8",
+        "score": 2,
+        "maxScore": 3,
+        "criteria": [
+          "No interpersonal/ethical/physical practice",
+          "Ethics mention only",
+          "Meaningful ethics or stakeholder practice",
+          "Substantial clinical/care/interpersonal accountability or physical skill"
+        ],
+        "notes": "Meaningful and assessed: inter-disciplinary teamwork, respectful engagement across diverse backgrounds, Aboriginal and Torres Strait Islander cultural principles in practice, community needs assessment and advocacy communication are explicit ILOs, and the Professional Practice route places students in agencies for a year. This is stakeholder and ethical practice rather than the clinical or care accountability the level-3 anchor describes — and it is also the least AI-exposed capability in the destination set, so it is worth credentialing explicitly."
+      },
+      {
+        "dimension": "D9",
+        "score": 2,
+        "maxScore": 3,
+        "criteria": [
+          "No review in 3+ years, no AI content",
+          "Minor updates",
+          "Major refresh in last 2 years, AI in core units",
+          "Living curriculum with advisory feedback and outcome tracking"
+        ],
+        "notes": "Clear evidence of a recent major refresh: a block of new subjects (Climate Change and Health, Health and Social Justice, Pandemic Preparedness and Response, Health System Transformation, Indigenous Data Governance in Health, Putting One Health into Practice, Sustainability and Healthcare, Introduction to Health Services Research, Healthcare Environment Evaluation) and a restructured four-route capstone. The level-2 anchor's second clause — AI in core units — is not met; that signal is carried by D5 rather than double-counted here."
+      },
+      {
+        "dimension": "D10",
+        "score": 3,
+        "maxScore": 3,
+        "criteria": [
+          "No destination data",
+          "Generic satisfaction data only",
+          "Destination data published with partial detail",
+          "Granular roles/industries/salary/time-to-employment data"
+        ],
+        "notes": "The program has its own exact-name graduate-destination record (n = 562, the second-largest alumni sample in the Faculty of Medicine, Dentistry and Health after the Doctor of Medicine), giving role titles segmented by career stage, named employers and skill profiles, alongside QILT GOS field-level employment and salary data. The evidence exists at level 3; the gap is that it is not surfaced to applicants, who currently see clinically-weighted field-level proxies instead."
+      },
+      {
+        "dimension": "B",
+        "score": 2,
+        "maxScore": 3,
+        "criteria": [
+          "Easily substituted",
+          "One weak differentiator",
+          "Clear dual-skill value",
+          "Rare integration of technical depth, domain expertise, and human judgment"
+        ],
+        "notes": "A real dual-skill combination — epidemiological and biostatistical method plus policy, program and community judgment — that resists straightforward substitution and is reinforced by a genuinely strong methods core. It falls short of rare integration because the technical layer stops at the compulsory-core boundary (D3:2), there is no AI or governance capability anywhere in the core (D5:1), and no credential moat protects the qualification the way registration protects the clinical programs in this faculty."
+      }
+    ],
+    "aiLiteracyScore": 1,
+    "labourMarketAlignment": 2,
+    "assessedAt": "2026-08-11T00:00:00Z",
+    "recommendationSummary": "Embed an assessed AI in Public Health Evidence strand across the three compulsory methods subjects (Biostatistics, Epidemiology 1, Qualitative Research) — automated evidence-synthesis audit, verification and fabricated-citation checking, provenance and disclosure, AI governance in health data; Make the Research Project the default capstone route — primary data generation, defended methodology, explicit limitation and failure-mode analysis, with a documented rationale required to take an alternative route.",
+    "marketReportPath": "reports/dfva-market-244cw.md"
+  },
+  {
     "programCode": "300bb",
     "programName": "Doctor of Education",
     "faculty": "Education",

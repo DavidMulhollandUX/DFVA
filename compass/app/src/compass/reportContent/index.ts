@@ -15,6 +15,7 @@ export const REPORT_CONTENT_LOADERS: Record<
 > = {
   "dfva-080cl": () => import("./dfva-080cl"),
   "dfva-080cn": () => import("./dfva-080cn"),
+  "dfva-244cw": () => import("./dfva-244cw"),
   "dfva-300bb": () => import("./dfva-300bb"),
   "dfva-439fs": () => import("./dfva-439fs"),
   "dfva-527cl": () => import("./dfva-527cl"),
@@ -38,6 +39,7 @@ export const REPORT_CONTENT_LOADERS: Record<
   "dfva-dr-philvet": () => import("./dfva-dr-philvet"),
   "dfva-market-080cl": () => import("./dfva-market-080cl"),
   "dfva-market-080cn": () => import("./dfva-market-080cn"),
+  "dfva-market-244cw": () => import("./dfva-market-244cw"),
   "dfva-market-300bb": () => import("./dfva-market-300bb"),
   "dfva-market-439fs": () => import("./dfva-market-439fs"),
   "dfva-market-527cl": () => import("./dfva-market-527cl"),
@@ -147,6 +149,7 @@ export const REPORT_CONTENT_LOADERS: Record<
   "dfva-me-dcd": () => import("./dfva-me-dcd"),
   "dfva-recommend-080cl": () => import("./dfva-recommend-080cl"),
   "dfva-recommend-080cn": () => import("./dfva-recommend-080cn"),
+  "dfva-recommend-244cw": () => import("./dfva-recommend-244cw"),
   "dfva-recommend-300bb": () => import("./dfva-recommend-300bb"),
   "dfva-recommend-439fs": () => import("./dfva-recommend-439fs"),
   "dfva-recommend-527cl": () => import("./dfva-recommend-527cl"),

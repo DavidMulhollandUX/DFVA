@@ -26,6 +26,7 @@ Conservation Officer,19-1031,Conservation Scientists,65.25,high,"Felten-AIOE (Ap
 Construction Cadet,11-9021,Construction Managers,88.12,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",AU cadetship is trainee site/project management; seniority stripped per rule 1
 Construction Supervisor,47-1011,First-Line Supervisors/Managers of Construction Trades and Extraction Workers,56.33,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct supervision of construction trades.
 Consultant Urban Horticulturalist,19-1013,Soil and Plant Scientists,78.66,high,"Felten-AIOE (Appendix A, rescaled 0-100)","Horticultural science advice; 'consultant' is an engagement mode, not a different occupation."
+Contact Tracing Support Officer,21-1094,Community Health Workers,64.49,high,"Felten-AIOE (Appendix A, rescaled 0-100)","Public-health contact tracing fieldwork; same occupation as the existing Contact Tracer mapping, ""support officer"" is seniority."
 Content Designer,27-3043,Writers and Authors,87.14,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Content design is primarily writing/structuring copy; no SOC 2010 content-design occupation.
 Cost Manager,13-1051,Cost Estimators,96.19,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Construction cost management; same occupation as quantity surveying.
 Creative Lead,27-1011,Art Directors,87.97,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",directs visual/creative output of a design or agency team; 'Lead' stripped
@@ -73,7 +74,10 @@ Graphic Designer,27-1024,Graphic Designers,80.66,high,"Felten-AIOE (Appendix A, 
 Head of Data and Analytics,11-9121,Natural Sciences Managers,95.24,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Same as Data Science Manager; leadership of an analytics function.
 Head of Design,27-1011,Art Directors,87.97,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Leads a design function; Art Directors is the SOC 2010 design-leadership occupation.
 Health & Public Service Analyst,13-1111,Management Analysts,97.73,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Consulting-style analysis in health/public sector.
+Health Economist,19-3011,Economists,97.05,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Health economics is economics applied to a sector; direct match to the SOC 2010 economist occupation.
 Health Information Analyst,29-2071,Medical Records and Health Information Technicians,77.28,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Health information work; analyst-level but same domain occupation.
+Health Program Evaluator,19-3099,"Social Scientists and Related Workers, All Other",95.24,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Applied social-science evaluation of health programs; SOC 2010 has no dedicated program-evaluator occupation.
+Health Promotion Project Officer,21-1091,Health Educators,80.08,high,"Felten-AIOE (Appendix A, rescaled 0-100)","Same occupation as Health Promotion Officer; ""project"" is a work-assignment modifier, not a different occupation."
 Horticultural Researcher,19-1013,Soil and Plant Scientists,78.66,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Plant science research.
 Horticulturalist,19-1013,Soil and Plant Scientists,78.66,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match to the plant-science occupation.
 Horticulturist,19-1013,Soil and Plant Scientists,78.66,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Spelling variant of Horticulturalist; same occupation.
@@ -157,6 +161,7 @@ Senior Environmental Officer,19-2041,"Environmental Scientists and Specialists, 
 Senior Environmental Planner,19-3051,Urban and Regional Planners,92.85,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Same as Graduate Environmental Planner; 'senior' is seniority.
 Senior Epidemiologist,19-1041,Epidemiologists,97.82,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match; 'senior' is seniority.
 Senior Food Technologist,19-1012,Food Scientists and Technologists,82.53,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match; 'senior' is seniority.
+Senior Health Program Officer,11-9111,Medical and Health Services Managers,93.63,medium,"Felten-AIOE (Appendix A, rescaled 0-100)","Plans and coordinates health service programs; ""senior"" is seniority. A delivery-side reading would map to 21-1091."
 Senior Neuroscientist,19-1042,"Medical Scientists, Except Epidemiologists",94.1,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Same; 'senior' is seniority.
 Senior Planning Consultant,19-3051,Urban and Regional Planners,92.85,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Planning advice; 'senior/consultant' are seniority and engagement mode.
 Senior Research Assistant,19-4021,Biological Technicians,70.78,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Research support; 'senior' is seniority.

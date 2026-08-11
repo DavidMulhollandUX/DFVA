@@ -490,6 +490,54 @@ unmapped destination title fails the build rather than being dropped.
 limitation L-v3-1 (level-comparability across crosswalk vintages) applies to
 them as it does to the inherited/new split already disclosed on every report.
 
+### 10a.1 Correction to the audit's closing claim (2026-08-11)
+
+The audit above concluded that "no remaining unplaced program has own-program
+alumni data". That claim was true of its own scope and false of the portfolio.
+It ranged over the **66 already-assessed programs**, so a program with usable
+alumni data that had never been assessed could not appear in it — the audit
+could only find gaps in the set it was given.
+
+**Master of Public Health (`244cw`)** is such a program. Its own exact-name JIR
+report (n = 562, 15 destination titles, the second-largest alumni sample in the
+Faculty of Medicine, Dentistry and Health after the Doctor of Medicine) was
+present in `data/jir_data.json` throughout and unused: `dfva_jir_map.json` cited
+it only as a `tier: "none"` cognate proxy for Master of Science (Epidemiology).
+This is the same class of defect as the `mc-urbhort` map error — an own-program
+record sitting unused behind a pointer — but it survived the audit because the
+program was outside the audited set entirely, not because the pointer was wrong.
+
+Assessed and placed 2026-08-11 under this protocol: exposure **89.46**
+(entry-stage 84.77), adaptiveness **9**, position *sheltered*, `matchTier:
+"exact"`, 8 of 15 titles crosswalked in the extension pass. Portfolio coverage
+moves from 37 of 66 to **38 of 67**. The reference cohort is untouched: all 34
+exposures still validate to ±0.01, all 34 quadrants still match, and the spec
+headline (14 boundary / 2 fail at e = 0.10 / 14 at e = 0.20 / 11 near threshold)
+still reproduces over those 34.
+
+**Standing correction to the coverage claim.** The correct statement is: *no
+remaining **assessed** program has usable own-program alumni data.*
+
+Running the audit in the opposite direction — **from the JIR record set to the
+assessed set** — shows the scale of what the original direction could not see.
+Of the 141 JIR records, 58 are consumed by the pipeline (via the map, the
+extension exact-name matches, and the `b-des`/`b-sci` major prefixes) and **83
+are not**. Of those, 32 are majors of bachelor programs that have not been
+assessed at parent level, and **51 are standalone programs with their own
+alumni record and no DFVA assessment at all** — including Master of Laws
+(n = 676), Master of Environment (n = 408), Master of Information Technology
+(n = 373), Master of Teaching (Secondary) (n = 242), Master of Social Work
+(n = 203) and Master of Public Policy and Management (n = 165).
+
+The binding constraint on coverage is therefore **not** destination-data
+availability, as §10a concluded. For the assessed set that remains true; for
+the portfolio it is not. The constraint is assessment throughput, and roughly
+50 programs are currently placeable on evidence already in the repository.
+
+This should be run as a directed pass, not discovered piecemeal: `244cw` was
+found because a user asked whether one specific handbook page had been rated,
+which is not a coverage process.
+
 ## 11. Verification & reproducibility (as deployed)
 
 | Guard | Where enforced | Failure mode |

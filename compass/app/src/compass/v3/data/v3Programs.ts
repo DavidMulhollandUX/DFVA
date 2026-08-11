@@ -77,9 +77,9 @@ export const V3_META: V3Meta = {
   "exposureIndexName": "Felten-AIOE",
   "exposureIndexVintage": "AIOE_DataAppendix.xlsx @ AIOE-Data/AIOE main (n=773, z −2.670…1.528)",
   "exposureRescaling": "min-max 0-100 over published population",
-  "exposureComputedAt": "2026-08-10",
+  "exposureComputedAt": "2026-08-11",
   "destinationBasis": "JIR/LiveAlumni alumni titles (all placed programs); JSA HEO not used on this axis",
-  "crosswalkAuthored": "inherited 288-title index + 80 titles mapped Aug 2026 (reconciliation package) + 196 titles mapped for the extension cohort",
+  "crosswalkAuthored": "inherited 288-title index + 80 titles mapped Aug 2026 (reconciliation package) + 201 titles mapped for the extension cohort",
   "perturbation": {
     "draws": 20000,
     "pPerturb": 0.1,
@@ -91,10 +91,10 @@ export const V3_META: V3Meta = {
       "D5"
     ]
   },
-  "placed": 37,
+  "placed": 38,
   "referenceCohort": 34,
-  "extensionCohort": 3,
-  "total": 66,
+  "extensionCohort": 4,
+  "total": 67,
   "expMedian": 90.9,
   "adaptMedian": 10,
   "expRange": [
@@ -8104,6 +8104,218 @@ export const V3_PROGRAMS: V3Program[] = [
         "soc": "15-1151",
         "socTitle": "Computer User Support Specialists",
         "aioe": 70.74,
+        "confidence": "medium",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "senior"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "244cw",
+    "name": "Master of Public Health",
+    "faculty": "Medicine, Dentistry & Health",
+    "v1Score": 23,
+    "v1Band": "MODERATE RISK",
+    "v2Exposure": null,
+    "v2Quadrant": "no-exposure",
+    "exposure": 89.46,
+    "entryExposure": 84.77,
+    "jirN": 562,
+    "coverage": 1,
+    "nTitles": 15,
+    "nMedium": 8,
+    "nInherited": 6,
+    "nNewlyMapped": 1,
+    "nExtension": 8,
+    "matchTier": "exact",
+    "extensionNote": "Assessed after the 2026-08-10 coverage audit, which ranged over the 66 already-assessed programs and so never saw this one. Its own exact-name JIR report (n = 562, the second-largest alumni sample in the faculty) was present and unused — dfva_jir_map cited it only as a cognate proxy for Master of Science (Epidemiology).",
+    "cohort": "extension",
+    "adaptiveness": 9,
+    "dimensionScores": {
+      "D2": 2,
+      "D3": 2,
+      "D7": 2,
+      "B": 2,
+      "D5": 1
+    },
+    "gateD4": "PASS",
+    "gateD6": "PASS",
+    "quadrant": "sheltered",
+    "quadrantDist": {
+      "well-positioned": 0,
+      "comfortable": 0.19,
+      "attention": 0,
+      "sheltered": 0.81
+    },
+    "modalProb": 0.81,
+    "runnerUpQuadrant": "comfortable",
+    "adaptInterval": [
+      6,
+      13
+    ],
+    "nearBoundary": true,
+    "destinations": [
+      {
+        "title": "Public Health Officer",
+        "soc": "21-1091",
+        "socTitle": "Health Educators",
+        "aioe": 80.08,
+        "confidence": "medium",
+        "crosswalkSource": "preexisting_288",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Health Promotion Officer",
+        "soc": "21-1091",
+        "socTitle": "Health Educators",
+        "aioe": 80.08,
+        "confidence": "high",
+        "crosswalkSource": "preexisting_288",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Research Assistant",
+        "soc": "19-4061",
+        "socTitle": "Social Science Research Assistants",
+        "aioe": 92.3,
+        "confidence": "medium",
+        "crosswalkSource": "preexisting_288",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Data Analyst",
+        "soc": "15-2041",
+        "socTitle": "Statisticians",
+        "aioe": 96.55,
+        "confidence": "medium",
+        "crosswalkSource": "preexisting_288",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Policy Officer",
+        "soc": "19-3094",
+        "socTitle": "Political Scientists",
+        "aioe": 97.41,
+        "confidence": "medium",
+        "crosswalkSource": "preexisting_288",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Health Promotion Project Officer",
+        "soc": "21-1091",
+        "socTitle": "Health Educators",
+        "aioe": 80.08,
+        "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Research Analyst",
+        "soc": "13-1161",
+        "socTitle": "Market Research Analysts and Marketing Specialists",
+        "aioe": 97.6,
+        "confidence": "high",
+        "crosswalkSource": "new_this_session",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Contact Tracing Support Officer",
+        "soc": "21-1094",
+        "socTitle": "Community Health Workers",
+        "aioe": 64.49,
+        "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Epidemiology Support Officer",
+        "soc": "19-4099",
+        "socTitle": "Life, Physical, and Social Science Technicians, All Other",
+        "aioe": 74.33,
+        "confidence": "medium",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "entry"
+        ]
+      },
+      {
+        "title": "Epidemiologist",
+        "soc": "19-1041",
+        "socTitle": "Epidemiologists",
+        "aioe": 97.82,
+        "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "early"
+        ]
+      },
+      {
+        "title": "Health Program Evaluator",
+        "soc": "19-3099",
+        "socTitle": "Social Scientists and Related Workers, All Other",
+        "aioe": 95.24,
+        "confidence": "medium",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "early"
+        ]
+      },
+      {
+        "title": "Health Economist",
+        "soc": "19-3011",
+        "socTitle": "Economists",
+        "aioe": 97.05,
+        "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "early"
+        ]
+      },
+      {
+        "title": "Senior Policy Officer",
+        "soc": "19-3094",
+        "socTitle": "Political Scientists",
+        "aioe": 97.41,
+        "confidence": "medium",
+        "crosswalkSource": "preexisting_288",
+        "stages": [
+          "senior"
+        ]
+      },
+      {
+        "title": "Senior Epidemiologist",
+        "soc": "19-1041",
+        "socTitle": "Epidemiologists",
+        "aioe": 97.82,
+        "confidence": "high",
+        "crosswalkSource": "extension_2026_08",
+        "stages": [
+          "senior"
+        ]
+      },
+      {
+        "title": "Senior Health Program Officer",
+        "soc": "11-9111",
+        "socTitle": "Medical and Health Services Managers",
+        "aioe": 93.63,
         "confidence": "medium",
         "crosswalkSource": "extension_2026_08",
         "stages": [

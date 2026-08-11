@@ -42,12 +42,12 @@ export const V31_META: V31Meta = {
   },
   "stabilityClassCut": 0.9,
   "stabilityClassCutNote": "empirical empty band 0.848–0.979; any cut in [0.85, 0.98] gives the identical partition",
-  "boundaryCount": 15,
+  "boundaryCount": 16,
   "stableCount": 22,
   "failSingleLabel": {
     "optimistic": 0,
     "published": 2,
-    "pessimistic": 15
+    "pessimistic": 16
   },
   "expMedian": 90.9,
   "adaptMedian": 10
@@ -845,6 +845,28 @@ export const V31_STABILITY: V31Stability[] = [
     "stabilityClass": "stable",
     "nearDisplayThreshold": false,
     "distToAdaptMedian": -3
+  },
+  {
+    "code": "244cw",
+    "modalQuadrant": "sheltered",
+    "runnerUpQuadrant": "comfortable",
+    "quadrantDist": {
+      "well-positioned": 0,
+      "comfortable": 0.18645,
+      "attention": 0,
+      "sheltered": 0.81355
+    },
+    "modalProbability": 0.81355,
+    "modalProbabilityOptimistic": 0.89225,
+    "modalProbabilityPessimistic": 0.71624,
+    "adaptEnvelope": [
+      4,
+      14
+    ],
+    "itemsAtCeiling": 0,
+    "stabilityClass": "boundary",
+    "nearDisplayThreshold": true,
+    "distToAdaptMedian": -1
   },
   {
     "code": "b-sci",
