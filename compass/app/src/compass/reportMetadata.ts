@@ -38,3 +38,25 @@ export function stripSupersededCompositeLine(markdown: string): string {
     .filter((line) => !SUPERSEDED_COMPOSITE_LINE.test(line.trim()))
     .join("\n");
 }
+
+/**
+ * Drop pipeline tooling metadata — which prompt template generated the file,
+ * which report it was derived from. This is provenance for the pipeline, not
+ * information for a reader, and `v2/components/ReportMarkdownCard` has always
+ * treated it as never-rendered ("Tooling metadata is never rendered, wherever
+ * it appears in the body"). The report detail page did not, so on the older
+ * recommend files it rendered — and once the superseded composite above is
+ * removed it would otherwise become the report's opening line.
+ *
+ * `**Assessment date:**` is deliberately kept: when a program was assessed is
+ * real provenance for the reader, and this page shows it nowhere else.
+ */
+const TOOLING_METADATA_LINE =
+  /^\*\*(Prompt [Vv]ersion|Source Report):\*\*/;
+
+export function stripToolingMetadata(markdown: string): string {
+  return markdown
+    .split("\n")
+    .filter((line) => !TOOLING_METADATA_LINE.test(line.trim()))
+    .join("\n");
+}

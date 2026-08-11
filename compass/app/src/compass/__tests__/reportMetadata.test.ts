@@ -1,5 +1,8 @@
 import { describe, expect, it } from "vitest";
-import { stripSupersededCompositeLine } from "../reportMetadata";
+import {
+  stripSupersededCompositeLine,
+  stripToolingMetadata,
+} from "../reportMetadata";
 
 describe("stripSupersededCompositeLine", () => {
   const header = [
@@ -81,5 +84,32 @@ describe("stripSupersededCompositeLine", () => {
       "**TOTAL: 23 / 36**",
     ].join("\n");
     expect(stripSupersededCompositeLine(assessment)).toBe(assessment);
+  });
+});
+
+describe("stripToolingMetadata", () => {
+  it("drops prompt-version and source-report provenance", () => {
+    const src = [
+      "**Assessment date:** 2026-05-13",
+      "**Prompt version:** DFVA-COPILOT-RECOMMENDER-v1",
+      "**Prompt Version:** DFVA-COPILOT-MARKET-v1",
+      "**Source Report:** dfva-b-sci.md",
+      "Real prose.",
+    ].join("\n");
+    const out = stripToolingMetadata(src);
+    expect(out).not.toContain("Prompt version");
+    expect(out).not.toContain("Prompt Version");
+    expect(out).not.toContain("Source Report");
+    expect(out).toContain("Real prose.");
+  });
+
+  it("keeps the assessment date — that is provenance for the reader", () => {
+    const src = "**Assessment date:** 2026-08-11";
+    expect(stripToolingMetadata(src)).toBe(src);
+  });
+
+  it("leaves report bodies untouched", () => {
+    const src = ["### 1. PROGRAM PROFILE", "", "Prose about the prompt version."].join("\n");
+    expect(stripToolingMetadata(src)).toBe(src);
   });
 });

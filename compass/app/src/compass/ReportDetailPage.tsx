@@ -38,7 +38,10 @@ import {
 import { useAuth } from "wasp/client/auth";
 
 import { loadReportContent, type ReportContent } from "./reportContent/index";
-import { stripSupersededCompositeLine } from "./reportMetadata";
+import {
+  stripSupersededCompositeLine,
+  stripToolingMetadata,
+} from "./reportMetadata";
 import { PROGRAMS } from "./sharedProgramData";
 import { ProgramRadar } from "../client/components/ProgramRadar";
 import { WhyThisMatters } from "./WhyThisMatters";
@@ -1115,9 +1118,9 @@ function stripHtmlComments(markdown: string): string {
 
 function parseMarkdownToSections(markdown: string): MarkdownSection[] {
   if (!markdown) return [];
-  const parts = stripSupersededCompositeLine(stripHtmlComments(markdown)).split(
-    /\n##\s+/,
-  );
+  const parts = stripToolingMetadata(
+    stripSupersededCompositeLine(stripHtmlComments(markdown)),
+  ).split(/\n##\s+/);
   const sections: MarkdownSection[] = [];
   let intro = parts[0].trim();
   if (intro.startsWith("# ")) {
