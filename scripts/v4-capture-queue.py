@@ -23,6 +23,8 @@ Commands:
     save <code> <slot>   file a captured page and enqueue what it links to
     fail <code> <slot> [reason]
     assemble [code ...]  write combined extracts for complete programs
+    rediscover           re-run link discovery over already-captured pages
+    stalled              programs that can no longer progress on their own
     scoreable            assembled programs that still need a panelCv4 block
     status [--json]      progress
 """
@@ -193,14 +195,23 @@ def clean(text: str) -> str:
 def discover(prog: dict, slot: str, links: list[str]) -> int:
     """Enqueue the pages a captured page points at.
 
-    Only the structure and component pages expand: they carry the compulsory and
-    capstone subject tables, which is where the curriculum evidence actually is.
+    Only the structure, specialisation and component pages expand: they carry
+    the compulsory and capstone subject tables, which is where the curriculum
+    evidence actually is.
     """
-    if slot != "structure" and not slot.startswith("comp-"):
+    if slot not in ("structure", "specialisations") and not slot.startswith("comp-"):
         return 0
     before = len(prog["pages"])
 
-    if slot == "structure":
+    # Some programs (MC-CLIND and other specialisation-structured degrees) list
+    # no subjects on course-structure at all — it just points at the
+    # specialisations page. Without following that, the program can never reach
+    # the two assessment pages `assemble` requires, so it would sit at "nothing
+    # pending, never assembled" forever and hold the whole cohort median hostage.
+    if slot == "structure" and not any(re.search(r"/subjects/[a-z]{4}\d{5}", h) for h in links):
+        add_page(prog, f"{prog['base']}/majors-minors-specialisations", "specialisations")
+
+    if slot in ("structure", "specialisations"):
         comps = []
         for h in links:
             m = re.match(r"https://handbook\.unimelb\.edu\.au/(?:\d{4}/)?components/([\w-]+)", h)
@@ -318,6 +329,62 @@ def cmd_assemble(codes: list[str]) -> None:
     save_queue(q)
 
 
+def cmd_rediscover() -> None:
+    """Re-run link discovery over pages already captured.
+
+    Needed after a discovery rule changes: the raw captures are still on disk,
+    so the pages a program was owed can be worked out again without refetching.
+    """
+    q = load()
+    total = 0
+    for code, prog in sorted(q["programs"].items()):
+        for url, page in list(prog["pages"].items()):
+            if page["status"] != "done":
+                continue
+            raw_path = os.path.join(RAW, f"{code}__{page['slot']}.json")
+            if not os.path.exists(raw_path):
+                continue
+            try:
+                data = json.load(open(raw_path))
+            except json.JSONDecodeError:
+                continue
+            found = discover(prog, page["slot"], data.get("links") or [])
+            if found:
+                print(f"{code}/{page['slot']}: +{found}")
+                total += found
+    save_queue(q)
+    print(f"rediscovered {total} page(s)")
+
+
+def cmd_stalled() -> None:
+    """Programs that can no longer make progress on their own.
+
+    Nothing pending, nothing in flight, and not assembled — so no agent will
+    ever pick them up again. Each one of these blocks the cohort median, which
+    only publishes when all 34 reference programs are scored.
+    """
+    q = load()
+    out = []
+    for code, prog in sorted(q["programs"].items()):
+        if prog["assembled"]:
+            continue
+        live = [p for p in prog["pages"].values() if p["status"] in ("pending", "inflight")]
+        if live:
+            continue
+        done = {p["slot"] for p in prog["pages"].values() if p["status"] == "done"}
+        if not done:
+            continue
+        out.append(
+            {
+                "code": code,
+                "done": len(done),
+                "assessmentPages": sum(1 for s in done if s.endswith("-assessment")),
+                "failed": sum(1 for p in prog["pages"].values() if p["status"] in ("failed", "blocked")),
+            }
+        )
+    print(json.dumps(out, indent=1))
+
+
 def cmd_scoreable() -> None:
     """List assembled programs that do not yet carry a panelCv4 block.
 
@@ -390,6 +457,10 @@ def main() -> None:
         cmd_assemble(rest)
     elif cmd == "scoreable":
         cmd_scoreable()
+    elif cmd == "rediscover":
+        cmd_rediscover()
+    elif cmd == "stalled":
+        cmd_stalled()
     elif cmd == "status":
         cmd_status("--json" in rest)
     else:
