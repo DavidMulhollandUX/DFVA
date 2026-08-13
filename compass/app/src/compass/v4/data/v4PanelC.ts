@@ -32,7 +32,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     "instrument": "4.0-draft",
     "C1": {
       "score": 2,
-      "rationale": "Level 2 anchor met: core units assess collaborative practice — POPH90274 assesses two group presentations plus mentor-marked group participation, and POPH90218 assesses a five-student team presentation. Level 3 denied: collaborative assessment recurs across the core, but no assessment documents coordinating work across people AND tools/AI systems.",
+      "rationale": "Two compulsory subjects assess collaborative work: POPH90274 (two group presentations and mentor-marked group participation) and POPH90218 (a team presentation of approximately five students). This satisfies the level 2 anchor. The level 3 anchor additionally requires at least one assessment in which work is coordinated across people and tools or AI systems; no such assessment is documented, so level 3 is not awarded.",
       "evidenceLines": [
         "Group presentation 1: 4-5 students per group. Students will be assessed as a group. 8 minutes + 5 minutes Q&A",
         "8-minute Team Presentation (approximately 5 students per group) plus 3-minute Q&A: Systems Mapping",
@@ -42,7 +42,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     },
     "C2": {
       "score": 2,
-      "rationale": "Level 2 anchor met: criterion-referenced appraisal is assessed in the core — POPH90231 assesses critical appraisal of published research and a criterion-referenced self-reflection against course objectives; POPH90218 assesses weekly peer-feedback and a reflective-leadership piece. Level 3 denied: no assessment requires documenting or justifying reliance decisions, and no AI-output judgement is assessed anywhere.",
+      "rationale": "Criterion-referenced appraisal is assessed in the compulsory core: POPH90231 assesses critical appraisal of published research and a reflection against course objectives, and POPH90218 assesses weekly peer feedback and a reflective assessment. This satisfies the level 2 anchor. The level 3 anchor requires an assessment in which students document and justify decisions to rely on or override a tool, source or collaborator; no assessment of this kind, and no assessed judgement of AI output, is documented.",
       "evidenceLines": [
         "Critically appraise the findings, strengths and weaknesses of published qualitative research in public health.",
         "A critical reflection on achievement of course objectives through classroom and assessment activities",
@@ -52,7 +52,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     },
     "C3": {
       "score": 1,
-      "rationale": "Level 1 anchor met and not exceeded: digital-tool content in the core is tool operation (assessed Stata practicals in Biostatistics). Level 2 denied: no core unit addresses AI capabilities and limitations/ethics; no AI content appears anywhere in the scraped core. Consistent with the v3.1 D5 = 1 finding on independent evidence.",
+      "rationale": "The digital content assessed in the compulsory core is the operation of statistical software (assessed Stata practical work in POPH90013). This corresponds to the level 1 anchor. The level 2 anchor requires core units to address AI capabilities together with limitations or ethics; no AI content of any kind is documented in the core. The result is consistent with the v3.1 finding for the corresponding item (D5 = 1), reached on separate evidence.",
       "evidenceLines": [
         "Tutorial and Stata practical oral assessment",
         "Perform simple statistical analyses using appropriate software",
@@ -61,7 +61,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     },
     "C4": {
       "score": 2,
-      "rationale": "Level 2 anchor met: core assessment requires application to novel problems — POPH90274's health program proposal (50%) applies skills to case-study scenarios. Level 3 denied under R2 and the ambiguity rule: the required capstone documents strong independent-learning structure on two of three routes (Professional Practice's hurdle Learning Plan; the self-scoped Research Project with hurdle progress report), but the Public Health in Practice route's assessment evidence is absent from the extract, and the universal course-level ILO is an outcome statement, which R2 does not accept for level 3.",
+      "rationale": "The level 2 anchor is satisfied in the core: the POPH90274 program proposal (50% of assessment) requires application of program-design methods to case-study scenarios. The level 3 anchor was considered but not awarded. Two of the three capstone routes document assessed independent-learning structure (a hurdle learning plan in Professional Practice; a supervised, self-scoped project in the Research Project); the assessment detail for the third route was not available in the extract, and rule R2 does not permit the course-level outcome statement to substitute for assessment evidence.",
       "evidenceLines": [
         "Health program proposal document",
         "Learning Plan - between 500-750 words",
@@ -71,7 +71,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     },
     "C5": {
       "score": 2,
-      "rationale": "Level 2 anchor met: inquiry design with methodology selection and data-collection planning is assessed in the core (POPH90231's research proposal, 60%, whose ILO names sampling, recruitment and data-collection tools), and conduct with defence is assessed in the capstone research route (hurdle final report, oral presentation with questions). Level 3 denied by the anchor's own universality clause: a primary-evidence project is one capstone route among several, not required of all students — the same route-dependence that held D7 at 2 in v3.1, now encoded in the anchor.",
+      "rationale": "Inquiry design is assessed in the core: the POPH90231 research proposal (60% of assessment) requires a design covering sampling, recruitment and data-collection methods. Conduct and defence of primary research are assessed in the Research Project capstone (a final report with a pass hurdle and an examined oral presentation). The level 3 anchor requires that a primary-evidence project be a requirement of the program rather than one option among several; the Research Project is one of three capstone routes, so level 3 is not awarded. The same consideration held the corresponding v3.1 item at 2.",
       "evidenceLines": [
         "A research proposal",
         "Formulate a qualitative research design to answer a public health question, including; selecting the population and sample, recruitment methods, data collection tools and approach to analyses.",
@@ -83,7 +83,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     "gates": {
       "G1": {
         "result": "PASS",
-        "rationale": "Coherent specialist core with staged depth: 75 compulsory credit points across six named public-health subjects plus a required 25-point capstone; methods subjects document early-sequence staging.",
+        "rationale": "The program documents a coherent specialist core: 75 credit points of compulsory subjects across six named public-health subjects, a required 25-point capstone, and documented early-sequence staging of the methods subjects.",
         "evidenceLines": [
           "75 credit points of compulsory subjects",
           "This subject is a core subject within the Master of Public Health, the Master of Epidemiology, the Master of Science (Epidemiology) and the Master of Biostatistics. Students should enrol in this subject early in their program of study."
@@ -91,7 +91,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       },
       "G2": {
         "result": "PASS",
-        "rationale": "Assessments require defended trade-offs: a timed ethical-dilemma analysis exam (POPH90218) and prioritisation/selection of intervention strategies assessed through the program proposal (POPH90274); capstone routes add real uncertainty with accountability.",
+        "rationale": "Assessment requires defended trade-off decisions: a timed ethical-dilemma examination (POPH90218) and assessed prioritisation and selection of intervention strategies (POPH90274). The capstone routes add project work under supervision with accountability.",
         "evidenceLines": [
           "Exam: Ethical Dilemma Analysis",
           "Prioritise and select strategies and interventions to address health needs"
@@ -99,11 +99,11 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       }
     },
     "ambiguities": [
-      "C4: straddled 2/3. The required capstone evidences independent learning on two of three routes (hurdle Learning Plan; self-scoped research project), but the Public Health in Practice route's assessment page was not in the extract and the universal course ILO is outcomes-only (R2). Resolved down per the ambiguity rule.",
-      "C5: the wide gap between level 1 ('introductory methods unit') and level 2 ('design and conduct... with data collection') is flagged for the CVI panel — this program's three assessed methods subjects far exceed level 1 while distributing design (core) and conduct (capstone) across components. Resolved at 2 via level 3's explicit 'REQUIRED (not one route among several)' clause, which implies level 2 tolerates route-dependence."
+      "C4: the evidence straddled levels 2 and 3. The required capstone documents independent-learning assessment on two of three routes, but the third route's assessment page was not in the extract, and the universal course-level outcome is a statement of intent rather than assessment evidence (rule R2). The score was resolved to the lower level under the ambiguity rule.",
+      "C5: the interval between the level 1 anchor (an introductory methods unit) and the level 2 anchor (design and conduct of an inquiry with data collection) is wide. This program's three assessed methods subjects exceed level 1 considerably, while design (core) and conduct (capstone) are distributed across components. The score was resolved at 2 on the basis of the level 3 anchor's explicit requirement that the project be compulsory, which implies that level 2 does not carry that requirement. The width of this interval is noted for the content-validity panel."
     ],
     "notScoreable": [
-      "POPH90227 (Public Health in Practice capstone) assessment page not captured in the extract; bears only on the C4 level-3 judgement, which was resolved down anyway."
+      "The assessment page for POPH90227 (Public Health in Practice capstone) was not captured in the extract. This affects only the C4 level 3 judgement, which was resolved to the lower level in any case."
     ],
     "verified": {
       "adversarial": true,

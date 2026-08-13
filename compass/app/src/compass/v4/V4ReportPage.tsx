@@ -296,16 +296,12 @@ export default function V4ReportPage() {
                 Draft instrument
               </span>
               <span data-testid="v4-draft-notice">
-                Panel C v4 re-anchors Curriculum Adaptiveness on the four{" "}
-                <strong className="text-foreground font-medium">
-                  TEQSA adaptive capabilities
-                </strong>{" "}
-                (Lodge et al., 2026<Cite refs={[1]} />) and is the adopted working draft, piloted on this
-                program. Its adaptiveness score is{" "}
-                <strong className="text-foreground font-medium">not comparable</strong> to the
-                published v3.1 value, and no position label exists until the v4 migration cycle
-                re-bases the portfolio medians. The published v3.1 assessment remains the
-                instrument of record:{" "}
+                Panel C v4 anchors Curriculum Adaptiveness on the four adaptive capabilities
+                defined in guidance commissioned by TEQSA (Lodge et al., 2026<Cite refs={[1]} />).
+                It is a working-draft instrument, applied here as a pilot. The adaptiveness
+                score is not comparable with the published v3.1 value, and no position label is
+                reported until v4 portfolio medians exist. The v3.1 assessment remains the
+                assessment of record:{" "}
                 <Link to={`/insights/v31/${program.code}`} className="underline">
                   same program on v3.1
                 </Link>
@@ -316,31 +312,33 @@ export default function V4ReportPage() {
               <div>
                 <CardLabel>The finding</CardLabel>
                 <p className="text-foreground text-base leading-relaxed" data-testid="finding-block">
-                  Scored on the v4 draft instrument, this program's curriculum adaptiveness is{" "}
-                  {panelC.adaptiveness}/15 with both gates held: a strong disciplinary foundation
-                  and assessed collaborative, appraisal and inquiry practice, but no documented
-                  AI-era capability — no assessment addresses AI capabilities and limits (C3 at{" "}
-                  {panelC.C3.score}/3), documents reliance decisions on machine-assisted work, or
-                  coordinates human–AI teamwork.
+                  On the v4 draft instrument this program scores {panelC.adaptiveness}/15 for
+                  curriculum adaptiveness, with both gates passed. The documented curriculum
+                  shows a sound disciplinary foundation and assessed collaborative, appraisal
+                  and inquiry work. It does not document capability specific to AI-mediated
+                  work: no assessment addresses AI capabilities and limitations (C3 scores{" "}
+                  {panelC.C3.score}/3), requires justified reliance decisions on
+                  machine-assisted work, or involves coordination between people and AI tools.
                 </p>
               </div>
               <div>
                 <CardLabel>What this does and does not mean</CardLabel>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  The score describes what the 2026 handbook documents and assesses — curriculum
-                  intent, not demonstrated graduate capability. Every score cites verbatim
-                  handbook evidence (expand the items below), a capability stated only in
-                  learning outcomes is capped at level 1, and ambiguity resolves downward, so
-                  these scores are conservative by construction.
+                  The score describes what the 2026 handbook documents and assesses; it is a
+                  measure of curriculum intent, not of demonstrated graduate capability. Each
+                  score cites handbook passages verbatim (the items below can be expanded to
+                  show them), a capability stated only in learning outcomes is scored at level
+                  1, and ambiguous evidence is resolved to the lower level.
                 </p>
               </div>
               <div>
                 <CardLabel>How firm is this</CardLabel>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  This is a single-rater pilot of a draft instrument: the scoring passed an
-                  adversarial refutation pass and a verbatim evidence check
-                  {panelC.verified ? ` (${panelC.verified.date})` : ""}, but no inter-rater study
-                  has been run on v4 and the content-validity panel is still ahead.{" "}
+                  This is a single-rater pilot of a draft instrument. The scoring was reviewed
+                  adversarially and its quoted evidence verified against the source text
+                  {panelC.verified ? ` (${panelC.verified.date})` : ""}; no inter-rater study
+                  has yet been conducted on v4, and the content-validity panel has not yet been
+                  convened.{" "}
                   <a href="#method" className="text-secondary-muted-foreground underline">
                     What exists and what doesn't: Part C.
                   </a>
@@ -393,24 +391,24 @@ export default function V4ReportPage() {
                   </div>
                 </div>
                 <p className="text-muted-foreground mt-4 text-sm">
-                  Exposure is instrument-independent and stands as measured on the program's own
-                  alumni destination record (n = {program.jirN}, {program.nTitles} titles).
-                  Quadrant assignment needs v4 portfolio medians, which do not exist until the
-                  portfolio is re-scored — publishing a label against v3.1 medians would mix
-                  instruments. The dashed lines in the figure are the{" "}
-                  <strong className="text-foreground font-medium">v3.1 reference medians</strong>,
-                  drawn for orientation only.
+                  The exposure value is independent of the scoring instrument and is measured
+                  on the program's own alumni destination record (n = {program.jirN},{" "}
+                  {program.nTitles} titles). Quadrant assignment requires v4 portfolio medians,
+                  which will not exist until the portfolio has been re-scored; a label computed
+                  against the v3.1 medians would combine values from two instruments and is
+                  therefore withheld. The dashed lines in the figure are the v3.1 reference
+                  medians, drawn for orientation only.
                 </p>
                 <div className="bg-card-accent text-muted-foreground mt-4 flex items-start gap-2 rounded-md p-3 text-sm">
                   <span className="text-base">⚠</span>
                   <span>
                     <strong className="text-foreground font-medium">
-                      No item sits at its ceiling ({itemsAtCeiling}/5 at 3/3).
+                      {itemsAtCeiling} of 5 items score the maximum (3/3).
                     </strong>{" "}
-                    Unlike v3.1, where 31% of scored items sat at ceiling and could only be
-                    perturbed downward, this program's v4 scores can move in both directions —
-                    the anchors were deliberately written so that level 3 requires assessment
-                    evidence and stays rare.
+                    In v3.1, 31 per cent of scored items sat at the maximum and could only be
+                    perturbed downward. Under v4 this program's scores can move in either
+                    direction; the anchors require assessment evidence at level 3, which is
+                    expected to keep the maximum uncommon.
                   </span>
                 </div>
               </div>
@@ -421,8 +419,8 @@ export default function V4ReportPage() {
                   envelope={envelope}
                 />
                 <p className="text-muted-foreground mt-1 text-xs">
-                  Grey dot: this program on the v4 draft score (no quadrant colour is implied).
-                  Faded dots: the v3.1 reference portfolio, for context.
+                  The grey point is this program on the v4 draft score; no quadrant is implied.
+                  The faded points are the v3.1 reference portfolio, shown for context.
                 </p>
               </div>
             </div>
@@ -440,10 +438,11 @@ export default function V4ReportPage() {
               <HowThisRubricWorksDialog />
             </div>
             <p className="text-muted-foreground mt-1 mb-6 text-sm">
-              Five items anchored on the TEQSA adaptive capabilities<Cite refs={[1]} />, scored 0–3 from 2026
-              handbook evidence. Tap an item to see the construct, the level anchors, the
-              rater's reasoning, and the verbatim handbook lines behind the score. Level 3
-              always requires <em>assessment</em> evidence — outcomes-only claims cap at 1.
+              Five items anchored on the TEQSA adaptive capabilities<Cite refs={[1]} />,
+              scored 0–3 from 2026 handbook evidence. Each item can be expanded to show the
+              construct, the level anchors, the reasoning for the score, and the handbook
+              passages quoted verbatim. Level 3 requires assessment evidence; a capability
+              stated only in learning outcomes is scored at level 1.
             </p>
             <div className="flex flex-col gap-3">
               {V4_RUBRIC.map((item) => (
@@ -480,10 +479,10 @@ export default function V4ReportPage() {
               })}
             </div>
             <p className="text-muted-foreground mt-3 text-xs">
-              Gates are preconditions, not adaptiveness: G1 holds disciplinary depth (which TEQSA
-              places <em>under</em> the capabilities, not among them<Cite refs={[1]} />), G2 holds
-              decision-making under uncertainty. The v3.1 Irreplaceability bonus is retired in
-              v4.
+              The gates record preconditions rather than adaptiveness: G1 covers disciplinary
+              depth, which the TEQSA framework places beneath the capabilities rather than
+              among them<Cite refs={[1]} />, and G2 covers decision-making under uncertainty.
+              The Irreplaceability item used in v3.1 has been removed in v4.
             </p>
           </CardContent>
         </Card>
@@ -491,12 +490,12 @@ export default function V4ReportPage() {
         {/* ================= PART B — MARKET EVIDENCE ================= */}
         <PartHeading id="market" part="Part B" title="Market evidence & improvement plan" />
         <p className="text-muted-foreground mb-5 text-sm">
-          The market evidence is instrument-independent and carries over unchanged; confidence is
-          stated on each section. The improvement plan below it is derived from exactly two
-          inputs — the verified Panel C v4 scoring (Part A) and this market evidence — with
-          every intervention targeting a named item's next anchor level and citing its
-          literature{" "}
-          (<Cite refs={[1]} /> and per-lever marks link to their sources).
+          The market evidence is independent of the scoring instrument and carries over
+          unchanged; confidence levels are stated on each section. The improvement plan that
+          follows is derived from two inputs, the verified Panel C v4 scoring in Part A and
+          this market evidence. Each intervention addresses a named item's next anchor level
+          and cites its sources{" "}
+          (<Cite refs={[1]} />; the citation marks in each entry link to the source).
         </p>
 
         <ReportMarkdownCard
@@ -517,24 +516,28 @@ export default function V4ReportPage() {
         {/* ================= PART C — METHOD ================= */}
         <PartHeading id="method" part="Part C" title="Method, instrument & references" />
         <p className="text-muted-foreground mb-5 text-sm">
-          What this pilot rests on, stated plainly: a draft instrument with an authoritative
-          construct behind it, a verified single-rater scoring, and a validation program that is
-          specified but not yet run.
+          This part records what the pilot rests on: a draft instrument with an external
+          construct definition, a verified single-rater scoring, and a validation program that
+          is specified but has not yet been conducted.
         </p>
 
         <MethodDetails summary="The instrument — why Panel C was re-anchored, and on what">
           <Card className="border-0 shadow-none">
             <CardContent className="pt-4">
               <p className="text-muted-foreground mb-3 text-sm">
-                v3.1's five items (D2, D3, D7, B, D5) defined adaptiveness by their own anchors,
-                with no external referent — the construct-underrepresentation critique published
-                by Woods, Lyons et al.<Cite refs={[18]} /> v4 adopts the regulator-commissioned definition of{" "}
-                <em>adaptive capabilities</em> (Lodge et al., 2026<Cite refs={[1]} />): digital literacy,
-                distributed cognition, hybrid metacognition and life-long learning, built on deep
-                disciplinary knowledge. C1–C4 map those four; C5 retains inquiry; disciplinary
-                depth moves to gate G1 (per Deming &amp; Noray<Cite refs={[6]} />, technical depth is a
-                precondition whose premium decays, not adaptiveness evidence); the
-                Irreplaceability bonus is retired as a halo item.
+                The five items of v3.1 (D2, D3, D7, B, D5) defined adaptiveness through their
+                own anchors, without an external referent; the associated risk of construct
+                underrepresentation is discussed by Woods, Lyons and colleagues
+                <Cite refs={[18]} />. Version 4 adopts the definition of adaptive capabilities
+                in the TEQSA-commissioned guidance (Lodge et al., 2026<Cite refs={[1]} />):
+                digital literacy, distributed cognition, hybrid metacognition and life-long
+                learning, built on deep disciplinary knowledge. Items C1 to C4 correspond to
+                the four capabilities and C5 retains inquiry. Disciplinary depth is treated as
+                gate G1, following the evidence in Deming and Noray<Cite refs={[6]} /> that
+                applied technical skill functions as a precondition whose earnings premium
+                declines with time. The Irreplaceability item has been removed on the grounds
+                that its correlation with the total is better explained as a
+                general-impression effect.
               </p>
               <p className="text-muted-foreground text-sm">
                 Anchors are declarative statements about documented curriculum evidence (the
@@ -554,12 +557,12 @@ export default function V4ReportPage() {
           <Card className="border-0 shadow-none">
             <CardContent className="pt-4">
               <p className="text-muted-foreground mb-3 text-sm">
-                Every evidence line shown on this page was mechanically verified to appear
-                verbatim in the scraped 2026 handbook extract (20 pages: course, structure,
-                attributes, all six compulsory subjects and two capstone routes with their
-                assessment pages), and every level-boundary judgement passed an adversarial
-                refutation pass. The judgements that straddled two levels are recorded, not
-                hidden:
+                Each evidence passage shown on this page was verified to appear verbatim in
+                the captured 2026 handbook text (20 pages: the course, structure and
+                attributes pages, the six compulsory subjects, and two capstone routes with
+                their assessment pages), and each level-boundary judgement was reviewed
+                adversarially. The judgements in which the evidence was consistent with two
+                levels are recorded below:
               </p>
               <ul className="text-muted-foreground flex flex-col gap-2 text-sm">
                 {panelC.ambiguities.map((a) => (
@@ -587,31 +590,35 @@ export default function V4ReportPage() {
                 <li>
                   <strong className="text-foreground font-medium">No v4 medians or stability layer.</strong>{" "}
                   Position labels, quadrant probabilities and stability classes require the
-                  portfolio re-scored on v4 — a published migration cycle with a v3.1 → v4 table,
-                  not an in-place edit.
+                  portfolio to be re-scored on v4, which is planned as a published migration
+                  cycle with a v3.1-to-v4 comparison table.
                 </li>
                 <li>
                   <strong className="text-foreground font-medium">No inter-rater study on v4.</strong>{" "}
-                  The R1–R5 protocol targets the v4 items by decision of 2026-08-13; until it
-                  runs, these scores are a single-rater application.
+                  The rater-reliability protocol was directed at the v4 items by decision of
+                  2026-08-13; until it has been conducted, these scores are a single-rater
+                  application.
                 </li>
                 <li>
                   <strong className="text-foreground font-medium">No content-validity panel yet.</strong>{" "}
-                  CVI panel + crosswalk to CEPH / WHO-ASPHER / AMIA frameworks is the specified
-                  next step (Kane's argument-based frame<Cite refs={[17]} />).
+                  An expert panel with crosswalks to the CEPH, WHO-ASPHER and AMIA competency
+                  frameworks is the specified next step, following Kane's argument-based
+                  approach to validation<Cite refs={[17]} />.
                 </li>
                 <li>
                   <strong className="text-foreground font-medium">Declared scope limits.</strong>{" "}
-                  Scores describe documented curriculum intent (the constructive-alignment
-                  warrant is an assumption); Indigenous data governance is not a distinct
-                  construct (counted under C3 level 3 where taught<Cite refs={[2]} />); perception/manipulation<Cite refs={[7]} /> is unscored.
+                  Scores describe documented curriculum intent, and the inference to graduate
+                  capability rests on constructive alignment, stated as an assumption.
+                  Indigenous data governance is not scored as a distinct construct; it counts
+                  toward C3 level 3 where taught<Cite refs={[2]} />. Physical and perceptual
+                  capability<Cite refs={[7]} /> is not scored.
                 </li>
               </ul>
             </CardContent>
           </Card>
         </MethodDetails>
 
-        <MethodDetails summary={`References — the literature the instrument is anchored on (${V4_REFERENCES.length} sources)`}>
+        <MethodDetails summary={`References — the sources the instrument is anchored on (${V4_REFERENCES.length})`}>
           <Card className="border-0 shadow-none">
             <CardContent className="pt-4">
               <ol className="text-muted-foreground flex flex-col gap-2 text-sm">
@@ -646,8 +653,8 @@ export default function V4ReportPage() {
         {/* Footer */}
         <div className="text-muted-foreground border-border mt-12 flex flex-wrap items-center justify-between gap-3 border-t pt-6 text-xs">
           <span>
-            Evidura · Durability Assessment · Panel C {V4_INSTRUMENT} pilot · single-rater,
-            verified scoring
+            Evidura · Durability Assessment · Panel C {V4_INSTRUMENT} pilot · single-rater
+            scoring, verified against source
           </span>
           <span className="flex gap-4">
             <Link to={`/insights/v31/${program.code}`} className="underline">

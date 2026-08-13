@@ -65,31 +65,31 @@ const ITEM_DERIVATIONS: { id: string; name: string; refs: number[]; from: string
     id: "C1",
     name: "Distributed cognition & relational capability",
     refs: [1, 5, 7],
-    from: "TEQSA capability #2 — cognition shared across people, tools and gen-AI systems. Deming's labour-market evidence: social-skill-intensive employment grew ~12 pp of the US workforce (1980–2012) while math-intensive/low-social work shrank, and social intelligence is one of Frey & Osborne's three automation bottlenecks.",
+    from: "Operationalises the second TEQSA capability: cognitive work shared across people, tools and generative AI systems. Deming (2017) finds that employment in occupations requiring high levels of social interaction grew by approximately twelve percentage points of the United States workforce between 1980 and 2012, while mathematics-intensive occupations with low social requirements contracted; social intelligence is also one of the three engineering bottlenecks identified by Frey and Osborne.",
   },
   {
     id: "C2",
     name: "Hybrid metacognition & evaluative judgement",
     refs: [1, 4, 3],
-    from: "TEQSA capability #3 — regulating thinking within human–AI networks. Its linchpin is evaluative judgement (Tai, Ajjawi, Boud, Dawson & Panadero: “the capability to make decisions about the quality of work of oneself and others”); TEQSA's 2023 paper calls self-regulated learning the foundational skill for the AI era.",
+    from: "Operationalises the third TEQSA capability: the regulation of thinking and learning within human–AI networks. Its central component is evaluative judgement, defined by Tai, Ajjawi, Boud, Dawson and Panadero as the capability to make decisions about the quality of the work of oneself and others. The 2023 TEQSA discussion paper identifies self-regulated learning as foundational for study and work with generative AI.",
   },
   {
     id: "C3",
     name: "Digital & AI literacy, including governance",
     refs: [1, 13, 11, 12, 2],
-    from: "TEQSA capability #1, on the DigComp-based Australian Digital Capability Framework, widened by the AI-literacy literature (Long & Magerko's competency framework; UNESCO's student framework). Anchored one level above tool operation because the frameworks warn tool-level skills are non-durable.",
+    from: "Operationalises the first TEQSA capability, which rests on the Australian Digital Capability Framework (derived from the European DigComp framework), extended by the AI-literacy literature (Long and Magerko; UNESCO). The anchors are set above the level of tool operation because the frameworks converge in expecting operational skills tied to particular tools to lose currency as the tools change.",
   },
   {
     id: "C4",
     name: "Life-long learning & transfer",
     refs: [1, 9, 10, 2],
-    from: "TEQSA capability #4, grounded in the National Research Council's account of deeper learning as the process that produces transferable knowledge, and the adaptive-expertise literature (flexibility, metacognition, preparation for future learning).",
+    from: "Operationalises the fourth TEQSA capability. The transfer component follows the National Research Council's account of deeper learning as the process by which knowledge becomes transferable to new situations, and the adaptive-expertise literature, in which flexibility and metacognition are recurring themes.",
   },
   {
     id: "C5",
     name: "Inquiry & evidence generation",
     refs: [14, 15, 7],
-    from: "Boyer's scholarship framework and Brew's research–teaching linkage; creative intelligence is the second Frey & Osborne bottleneck. Retained from the previous instrument — it was the item whose grounding survived review.",
+    from: "The capacity to generate and defend primary evidence, following Boyer's account of scholarship and Brew's analysis of the relation between research and teaching. Creative intelligence is a second Frey and Osborne bottleneck. The item is retained from the previous instrument, where its grounding was not in question.",
   },
 ];
 
@@ -109,25 +109,27 @@ export function HowThisRubricWorksDialog() {
         <DialogHeader>
           <DialogTitle className="font-serif text-xl">How this rubric works</DialogTitle>
           <DialogDescription>
-            What Panel C v4 measures, where every item comes from, and how a score is decided —
-            each claim cited; [n] links open the source.
+            What Panel C v4 measures, the sources of each item, and how scores are decided.
+            Citation marks [n] open the source where one is available online.
           </DialogDescription>
         </DialogHeader>
 
         <div className="flex flex-col gap-5">
           <ModalSection title="What it measures">
             <p>
-              Curriculum adaptiveness: how far the documented curriculum builds the{" "}
-              <em>adaptive capabilities</em> defined in TEQSA's 2026 guidance —{" "}
+              The rubric measures curriculum adaptiveness: the extent to which the documented
+              curriculum develops the <em>adaptive capabilities</em> defined in guidance
+              commissioned by TEQSA in 2026 —{" "}
               <span className="text-foreground">
                 “the high-level, integrated capacities that enable graduates to navigate complex,
                 novel and gen AI-integrated environments … to deploy, adapt and transfer their
                 specific, demonstrable skills effectively and ethically”
               </span>
-              <Cite refs={[1]} />. The previous instrument defined this construct only through
-              its own five anchors; re-anchoring it on an external, regulator-commissioned
-              framework answers the construct-underrepresentation critique published in the
-              measurement literature this rubric was reviewed against
+              <Cite refs={[1]} />. The previous version of this instrument defined the construct
+              only through its own scoring anchors. Anchoring the present version on an external
+              framework addresses a limitation identified in the measurement literature, where
+              locally developed instruments without external referents are noted to risk
+              construct underrepresentation
               <Cite refs={[18]} />.
             </p>
           </ModalSection>
@@ -146,65 +148,72 @@ export function HowThisRubricWorksDialog() {
             </ul>
           </ModalSection>
 
-          <ModalSection title="Why disciplinary depth is a gate, not a score">
+          <ModalSection title="Why disciplinary depth is a gate rather than a scored item">
             <p>
-              TEQSA's framework places deep disciplinary knowledge <em>under</em> the four
-              capabilities — “the epistemic foundation for authentic judgement and expertise” —
-              not among them
-              <Cite refs={[1]} />. The labour economics agrees from the other direction: the
-              applied-STEM wage premium falls from 44% at age 24 to 14% by 35, because applied
-              technical content is where skill obsolescence is fastest
-              <Cite refs={[6]} />. Depth is therefore a precondition (gate G1), and its absence
-              flags a program regardless of the adaptiveness score. The old Irreplaceability
-              bonus is retired: its anchors restated other items, so its high item–total
-              correlation was a general-impression halo, not a distinct signal.
+              The TEQSA framework places deep disciplinary knowledge beneath the four
+              capabilities, describing it as “the epistemic foundation for authentic judgement
+              and expertise”, rather than listing it among them
+              <Cite refs={[1]} />. The labour-market evidence supports the same treatment:
+              Deming and Noray estimate that the earnings premium for applied science and
+              engineering degrees declines from 44 per cent at age 24 to 14 per cent by the
+              mid-thirties, which they attribute to the comparatively rapid obsolescence of
+              applied technical skills
+              <Cite refs={[6]} />. Disciplinary depth is accordingly treated as a precondition
+              (gate G1): a program that lacks it is flagged whatever its adaptiveness score.
+              The Irreplaceability item used in earlier versions has been removed. Its anchors
+              restated the content of other items, so its high item–total correlation is better
+              explained as a general-impression effect than as a distinct signal.
             </p>
           </ModalSection>
 
           <ModalSection title="How a score is decided">
             <ul className="list-disc space-y-1 pl-5">
               <li>
-                Anchors are declarative statements about documented curriculum evidence — the
-                form of the Brynjolfsson–Mitchell–Rock Suitability-for-Machine-Learning rubric
-                <Cite refs={[8]} /> — never holistic impressions of what a graduate can
-                plausibly do.
+                Each anchor is a declarative statement about documented curriculum evidence,
+                following the form of the Suitability-for-Machine-Learning rubric of
+                Brynjolfsson, Mitchell and Rock
+                <Cite refs={[8]} />. Scores are not holistic impressions of graduate
+                capability.
               </li>
               <li>
-                <span className="text-foreground font-medium">Level 3 requires assessment evidence.</span>{" "}
-                A capability stated only in learning outcomes scores 1, everywhere, uniformly —
-                which is why the ceiling is rare by construction.
+                Level 3 requires assessment evidence. A capability that appears in learning
+                outcomes but is not assessed is scored at level 1 in every item.
               </li>
               <li>
-                Every score cites verbatim handbook lines (visible under each item on this
-                page), mechanically verified against the scraped source.
+                Each score cites the handbook passages that satisfy the anchor (shown under
+                each item on this page); the quoted passages are verified against the captured
+                source text.
               </li>
-              <li>Where evidence straddles two levels, the score resolves downward and the
-                ambiguity is published, not hidden.</li>
+              <li>
+                Where the evidence is consistent with two levels, the lower level is recorded
+                and the ambiguity is documented.
+              </li>
             </ul>
           </ModalSection>
 
-          <ModalSection title="Where this instrument stands">
+          <ModalSection title="The current status of the instrument">
             <p>
-              v4 is the adopted working draft, piloted here by a single verified rater. The
-              validity argument is being assembled in Kane's argument-based frame
-              <Cite refs={[17]} />: a content-validity panel with competency-framework
-              crosswalks, then an inter-rater reliability study on these items, are specified
-              and not yet run. Until they are, treat these scores as a disciplined reading of
-              the handbook — conservative by construction, but not yet independently
-              replicated.
+              Version 4 is a working draft, applied here by a single rater whose scoring was
+              checked against the source text and reviewed adversarially. The validity argument
+              is being assembled following Kane's argument-based approach
+              <Cite refs={[17]} />. A content-validity panel with competency-framework
+              crosswalks, and an inter-rater reliability study on these items, are specified
+              but have not yet been conducted. Until they have, these scores should be read as
+              a systematic single-rater reading of the handbook, conservative in construction
+              but not independently replicated.
             </p>
           </ModalSection>
 
           <ModalSection title="Reference material">
             <p>
-              The full numbered reference list is in{" "}
+              The numbered reference list appears under{" "}
               <span className="text-foreground font-medium">
                 Part C → References
               </span>{" "}
-              below this page, and every report in the v4 family ends with the same list,
-              byte-identical, generated from the instrument's single source. The complete
-              derivation — literature review, defect analysis of the previous instrument, and
-              the migration protocol — is in the project's Panel C v4 recommendation and
+              on this page, and the same list, generated from the instrument's source
+              definition, ends every report in the v4 family. The full derivation of the
+              instrument — the literature review, the analysis of the previous version, and the
+              migration protocol — is recorded in the project's Panel C v4 recommendation and
               literature review documents.
             </p>
           </ModalSection>
