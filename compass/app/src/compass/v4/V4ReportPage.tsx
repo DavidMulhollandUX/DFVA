@@ -12,7 +12,7 @@ import {
   V4_RUBRIC,
   type V4RubricItem,
 } from "./data/v4Rubric";
-import { v4PanelCByCode, type V4ItemResult, type V4PanelC } from "./data/v4PanelC";
+import { V4_META, v4PanelCByCode, type V4ItemResult, type V4PanelC } from "./data/v4PanelC";
 import { Cite, HowThisRubricWorksDialog } from "./HowThisRubricWorksDialog";
 
 const X_MIN = 60;
@@ -23,6 +23,29 @@ const X_MAX = 100;
 const NEUTRAL_DOT = "#6B7280";
 
 const ITEM_IDS = ["C1", "C2", "C3", "C4", "C5"] as const;
+
+const QUADRANT_LABELS = {
+  "well-positioned": "High exposure · high adaptiveness",
+  comfortable: "Low exposure · high adaptiveness",
+  attention: "High exposure · low adaptiveness",
+  sheltered: "Low exposure · low adaptiveness",
+} as const;
+
+type Quadrant = keyof typeof QUADRANT_LABELS;
+
+/**
+ * The v3 quadrant rule, restated on the v4 medians: exposure strictly above
+ * its median, adaptiveness at or above its median. Returns null while the
+ * migration cycle is incomplete — no v4 median exists, so no label may be
+ * shown. (The exposure median is inherited; v4 does not touch Panel A.)
+ */
+function v4Quadrant(exposure: number, adaptiveness: number): Quadrant | null {
+  if (!V4_META.complete || V4_META.adaptMedian === null) return null;
+  const highExp = exposure > V4_META.expMedian;
+  const highAdapt = adaptiveness >= V4_META.adaptMedian;
+  if (highExp) return highAdapt ? "well-positioned" : "attention";
+  return highAdapt ? "comfortable" : "sheltered";
+}
 
 function CardLabel({ children }: { children: React.ReactNode }) {
   return (
@@ -265,6 +288,7 @@ export default function V4ReportPage() {
     panelC.adaptiveness + scores.filter((s) => s < 3).length,
   ];
   const itemsAtCeiling = scores.filter((s) => s === 3).length;
+  const position = v4Quadrant(program.exposure, panelC.adaptiveness);
 
   return (
     <InsightsGate>
@@ -382,22 +406,46 @@ export default function V4ReportPage() {
                     <p className="text-muted-foreground text-xs tracking-[0.18em] uppercase">
                       Position
                     </p>
-                    <span
-                      className="bg-muted text-muted-foreground mt-1 inline-flex items-center gap-2 rounded-full px-4 py-1 text-sm font-semibold"
-                      data-testid="v4-position-chip"
-                    >
-                      Pending the v4 migration cycle
-                    </span>
+                    {position ? (
+                      <span
+                        className={`mt-1 inline-flex items-center gap-2 rounded-full px-4 py-1 text-sm font-semibold ${QUADRANTS[position].badgeClass}`}
+                        data-testid="v4-position-chip"
+                      >
+                        {QUADRANT_LABELS[position]}
+                      </span>
+                    ) : (
+                      <span
+                        className="bg-muted text-muted-foreground mt-1 inline-flex items-center gap-2 rounded-full px-4 py-1 text-sm font-semibold"
+                        data-testid="v4-position-chip"
+                      >
+                        No peer comparison yet — {V4_META.scored} of {V4_META.cohortSize}{" "}
+                        programs re-scored
+                      </span>
+                    )}
                   </div>
                 </div>
                 <p className="text-muted-foreground mt-4 text-sm">
                   The exposure value is independent of the scoring instrument and is measured
                   on the program's own alumni destination record (n = {program.jirN},{" "}
-                  {program.nTitles} titles). Quadrant assignment requires v4 portfolio medians,
-                  which will not exist until the portfolio has been re-scored; a label computed
-                  against the v3.1 medians would combine values from two instruments and is
-                  therefore withheld. The dashed lines in the figure are the v3.1 reference
-                  medians, drawn for orientation only.
+                  {program.nTitles} titles).{" "}
+                  {position ? (
+                    <>
+                      The position is assigned against the v4 medians (exposure{" "}
+                      {V4_META.expMedian}, adaptiveness {V4_META.adaptMedian}), computed from
+                      all {V4_META.cohortSize} reference-cohort programs re-scored on this
+                      instrument.
+                    </>
+                  ) : (
+                    <>
+                      A position label states where a program sits relative to its peers, so it
+                      requires a v4 adaptiveness median — and that median only exists once all{" "}
+                      {V4_META.cohortSize} reference-cohort programs have been re-scored on this
+                      instrument ({V4_META.scored} done). Comparing a v4 score against the v3.1
+                      median would rank it against a different instrument, so the label is
+                      withheld rather than estimated. The dashed lines in the figure are the
+                      v3.1 medians, drawn for orientation only.
+                    </>
+                  )}
                 </p>
                 <div className="bg-card-accent text-muted-foreground mt-4 flex items-start gap-2 rounded-md p-3 text-sm">
                   <span className="text-base">⚠</span>
