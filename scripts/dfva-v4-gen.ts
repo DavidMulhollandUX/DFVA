@@ -358,23 +358,72 @@ function appRubricModule(): string {
   )
 }
 
-/** Per-program v4 Panel C results, collected from evidence files' panelCv4 blocks. */
+/**
+ * Per-program v4 Panel C results, collected from evidence files' panelCv4
+ * blocks, plus the migration-cycle status.
+ *
+ * The adaptiveness median may only be published once EVERY program in the
+ * reference cohort carries a v4 score. A median over a partial cohort is a
+ * different statistic from the one it would be mistaken for, so until coverage
+ * is complete `adaptMedian` is null and the report pages withhold the position
+ * label. The exposure median is unchanged by v4 — Panel A is untouched — so it
+ * is inherited rather than recomputed.
+ */
 async function appPanelCModule(): Promise<string> {
   const evidenceDir = path.join(repoRoot, 'dfva', 'source', 'evidence')
-  const results: Record<string, unknown> = {}
+  const results: Record<string, { adaptiveness?: number }> = {}
   for (const f of (await fs.readdir(evidenceDir)).sort()) {
     if (!f.endsWith('.json')) continue
     const data = JSON.parse(await fs.readFile(path.join(evidenceDir, f), 'utf8')) as {
       code?: string
-      panelCv4?: unknown
+      panelCv4?: { adaptiveness?: number }
     }
     if (data.panelCv4 && data.code) results[data.code] = data.panelCv4
   }
+
+  // The reference cohort is the basis for the median (v3.1 §10a rule 2: the
+  // extension cohort is placed against the reference thresholds, never re-bases
+  // them). Read it from the v3 dataset so the two can never disagree.
+  const v3 = await fs.readFile(
+    path.join(repoRoot, 'compass', 'app', 'src', 'compass', 'v3', 'data', 'v3Programs.ts'),
+    'utf8',
+  )
+  const referenceCodes = [
+    ...v3.matchAll(/"code": "([a-z0-9-]+)",[\s\S]*?"cohort": "reference"/g),
+  ]
+    .map((m) => m[1])
+    .filter((c, i, a) => a.indexOf(c) === i)
+
+  const scored = referenceCodes.filter((c) => typeof results[c]?.adaptiveness === 'number')
+  const complete = scored.length === referenceCodes.length && referenceCodes.length > 0
+  const values = scored
+    .map((c) => results[c]!.adaptiveness as number)
+    .sort((a, b) => a - b)
+  const median = complete
+    ? values.length % 2
+      ? values[(values.length - 1) / 2]
+      : (values[values.length / 2 - 1] + values[values.length / 2]) / 2
+    : null
+
+  const meta = {
+    cohortSize: referenceCodes.length,
+    scored: scored.length,
+    complete,
+    adaptMedian: median,
+    // Panel A is unchanged by v4; the exposure threshold is inherited as-is.
+    expMedian: 90.9,
+    pending: referenceCodes.filter((c) => typeof results[c]?.adaptiveness !== 'number'),
+  }
+
   return (
     TS_BANNER +
     'export interface V4ItemResult {\n  score: number;\n  rationale: string;\n  evidenceLines: string[];\n}\n\n' +
     'export interface V4GateResult {\n  result: "PASS" | "FAIL";\n  rationale: string;\n  evidenceLines: string[];\n}\n\n' +
     'export interface V4PanelC {\n  instrument: string;\n  C1: V4ItemResult;\n  C2: V4ItemResult;\n  C3: V4ItemResult;\n  C4: V4ItemResult;\n  C5: V4ItemResult;\n  adaptiveness: number;\n  gates: { G1: V4GateResult; G2: V4GateResult };\n  ambiguities: string[];\n  notScoreable: string[];\n  verified?: { adversarial: boolean; mechanical: boolean; date: string };\n}\n\n' +
+    '/** Migration-cycle status. `adaptMedian` is null until every reference-cohort\n' +
+    ' *  program is scored on v4; position labels stay withheld while it is null. */\n' +
+    'export interface V4Meta {\n  cohortSize: number;\n  scored: number;\n  complete: boolean;\n  adaptMedian: number | null;\n  expMedian: number;\n  pending: string[];\n}\n\n' +
+    `export const V4_META: V4Meta = ${JSON.stringify(meta, null, 2)};\n\n` +
     `export const V4_PANEL_C: Record<string, V4PanelC> = ${JSON.stringify(results, null, 2)};\n\n` +
     'export const v4PanelCByCode = (code: string): V4PanelC | undefined =>\n  V4_PANEL_C[code.toLowerCase()];\n'
   )

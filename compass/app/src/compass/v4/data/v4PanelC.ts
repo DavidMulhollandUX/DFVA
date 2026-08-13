@@ -27,6 +27,61 @@ export interface V4PanelC {
   verified?: { adversarial: boolean; mechanical: boolean; date: string };
 }
 
+/** Migration-cycle status. `adaptMedian` is null until every reference-cohort
+ *  program is scored on v4; position labels stay withheld while it is null. */
+export interface V4Meta {
+  cohortSize: number;
+  scored: number;
+  complete: boolean;
+  adaptMedian: number | null;
+  expMedian: number;
+  pending: string[];
+}
+
+export const V4_META: V4Meta = {
+  "cohortSize": 34,
+  "scored": 0,
+  "complete": false,
+  "adaptMedian": null,
+  "expMedian": 90.9,
+  "pending": [
+    "439fs",
+    "527cl",
+    "746st",
+    "mc-apbusa",
+    "mc-arch",
+    "mc-ba",
+    "mc-base",
+    "mc-busana",
+    "mc-clind",
+    "mc-cs",
+    "mc-datasc",
+    "mc-ddensur",
+    "mc-dmed",
+    "mc-doptom",
+    "mc-dphysio",
+    "mc-dvetmed",
+    "mc-ed",
+    "mc-envsc",
+    "mc-gencoun",
+    "mc-intedib",
+    "mc-is",
+    "mc-journ",
+    "mc-jurisd",
+    "mc-nursc",
+    "mc-phtyph",
+    "mc-prop",
+    "mc-propsyc",
+    "mc-scibit",
+    "mc-sciche",
+    "mc-sciear",
+    "mc-sciphy",
+    "mc-surged",
+    "mc-tesol",
+    "mc-urbdes"
+  ]
+};
+
 export const V4_PANEL_C: Record<string, V4PanelC> = {
   "244cw": {
     "instrument": "4.0-draft",
