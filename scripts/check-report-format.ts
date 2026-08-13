@@ -17,10 +17,18 @@ const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..'
 const reportsDir = path.join(repoRoot, 'reports')
 
 const REPORT_FILES = readdirSync(reportsDir).filter(
-  (f) => f.startsWith('dfva-') && f.endsWith('.md') && !f.includes('recommend-') && !f.includes('market-') && !f.includes('faculty-')
+  (f) =>
+    f.startsWith('dfva-') &&
+    f.endsWith('.md') &&
+    !f.includes('recommend-') &&
+    !f.includes('market-') &&
+    !f.includes('faculty-') &&
+    !f.startsWith('dfva-v4-')
 )
 const MARKET_FILES = readdirSync(reportsDir).filter((f) => f.startsWith('dfva-market-') && f.endsWith('.md'))
 const RECOMMEND_FILES = readdirSync(reportsDir).filter((f) => f.startsWith('dfva-recommend-') && f.endsWith('.md'))
+// v4 family — canonical template: dfva/dist/v4/report-template-v4.md (generated from dfva/source/rubricV4.ts)
+const V4_FILES = readdirSync(reportsDir).filter((f) => f.startsWith('dfva-v4-') && f.endsWith('.md'))
 
 // ── GRANDFATHERED: files already non-conformant when this check was introduced ──
 // Remove slugs here as phases 1-2 align them. End state = empty Set, strict for all.
@@ -234,11 +242,77 @@ for (const file of RECOMMEND_FILES) {
   }
 }
 
+// ── v4 report checks (rules 1–6 at the foot of dfva/dist/v4/report-template-v4.md) ──
+
+const V4_TEMPLATE = path.join(repoRoot, 'dfva', 'dist', 'v4', 'report-template-v4.md')
+
+for (const file of V4_FILES) {
+  const slug = file.replace('.md', '')
+  const content = readReport(file)
+  const lines = content.split('\n')
+  const issues: string[] = []
+
+  // 1. Instrument line in the header
+  if (!content.includes('**Instrument:** DFVA 4.0-draft')) {
+    issues.push('missing "**Instrument:** DFVA 4.0-draft" header line')
+  }
+
+  // 2. Six numbered sections, in order, each with a Basis: tag
+  const sectionHeads = lines.filter((l) => /^## \d\. /.test(l))
+  const expected = ['## 1. POSITION', '## 2. PANEL C v4 SCORECARD', '## 3. GATES', '## 4. MARKET EVIDENCE', '## 5. CURRICULUM IMPLICATIONS', '## 6. EVIDENCE CONFIDENCE']
+  expected.forEach((prefix, i) => {
+    const head = sectionHeads[i]
+    if (!head || !head.startsWith(prefix)) {
+      issues.push(`section ${i + 1}: expected heading starting "${prefix}", got "${head ?? 'missing'}"`)
+    } else if (!head.includes('Basis:')) {
+      issues.push(`section ${i + 1}: heading is missing its "Basis:" tag`)
+    }
+  })
+
+  // 3. Section 5 opens with the mandatory interpretation sentence
+  const s5 = content.split(/^## 5\. /m)[1] ?? ''
+  if (!s5.includes('This section argues from the evidence above; it is interpretation, not observation.')) {
+    issues.push('section 5 must open with the mandatory interpretation sentence')
+  }
+
+  // 4. Every scorecard item row cites at least one [n] reference marker
+  const scorecardRows = lines.filter((l) => /^\| C\d /.test(l.trim()))
+  if (scorecardRows.length !== 5) {
+    issues.push(`scorecard: expected 5 item rows (C1–C5), found ${scorecardRows.length}`)
+  }
+  scorecardRows.forEach((row) => {
+    if (!/\[\d+\]/.test(row)) issues.push(`scorecard row lacks a reference marker: "${row.slice(0, 60)}…"`)
+  })
+
+  // 5. REFERENCES section matches the canonical generated list, byte-exact per entry
+  if (existsSync(V4_TEMPLATE)) {
+    const tmpl = readFileSync(V4_TEMPLATE, 'utf-8')
+    // The canonical list lives in the fenced block under "### REFERENCES".
+    const refBlock = (tmpl.split(/^### REFERENCES$/m)[1] ?? '').split('```')[1] ?? ''
+    const canonical = refBlock.split('\n').filter((l) => /^\d+\. /.test(l))
+    const inReport = (content.split(/^## REFERENCES$/m)[1] ?? '').split('\n').filter((l) => /^\d+\. /.test(l))
+    if (canonical.length && inReport.join('\n') !== canonical.slice(0, inReport.length).join('\n')) {
+      issues.push('REFERENCES section does not match the canonical generated list (dfva/dist/v4/report-template-v4.md)')
+    }
+    if (inReport.length !== canonical.length) {
+      issues.push(`REFERENCES: expected ${canonical.length} entries, found ${inReport.length}`)
+    }
+  } else {
+    issues.push('canonical v4 template missing — run: npm --prefix scripts run dfva:gen-v4')
+  }
+
+  // 6. No v1 composite, no Irreplaceability score, anywhere
+  if (/\d{1,2}\/36/.test(content)) issues.push('carries a v1 composite ("N/36") — forbidden in the v4 family')
+  if (/Irreplaceability.*\d\/3|\bB:\s*\d\/3/.test(content)) issues.push('carries an Irreplaceability score — retired in v4')
+
+  if (issues.length) errors.push(...issues.map((i) => `${slug}: ${i}`))
+}
+
 // ── Output ──
 
-const totalFiles = REPORT_FILES.length + MARKET_FILES.length + RECOMMEND_FILES.length
+const totalFiles = REPORT_FILES.length + MARKET_FILES.length + RECOMMEND_FILES.length + V4_FILES.length
 console.log(
-  `Reports: ${REPORT_FILES.length} assessment + ${MARKET_FILES.length} market + ${RECOMMEND_FILES.length} recommend = ${totalFiles} total`
+  `Reports: ${REPORT_FILES.length} assessment + ${MARKET_FILES.length} market + ${RECOMMEND_FILES.length} recommend + ${V4_FILES.length} v4 = ${totalFiles} total`
 )
 
 if (warnings.length) {
