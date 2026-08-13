@@ -50,8 +50,29 @@ MAX_SUBJECTS = 10
 SLOT_ORDER = ["course", "attributes", "structure"]
 
 
+# A handed-out page is leased, not just read, so a scheduled run and a hand-run
+# batch cannot capture the same pages twice — duplicate work would double the
+# request rate against a site we only just regained access to. A lease that goes
+# stale (crashed agent, closed app) returns to the queue on its own.
+LEASE_SECONDS = 1200
+
+
 def now() -> str:
     return datetime.now(timezone.utc).isoformat(timespec="seconds")
+
+
+def lease_expired(ts: str | None) -> bool:
+    if not ts:
+        return True
+    try:
+        age = (datetime.now(timezone.utc) - datetime.fromisoformat(ts)).total_seconds()
+    except ValueError:
+        return True
+    return age > LEASE_SECONDS
+
+
+def claimable(page: dict) -> bool:
+    return page["status"] == "pending" or (page["status"] == "inflight" and lease_expired(page["ts"]))
 
 
 def load() -> dict:
@@ -117,7 +138,7 @@ def cmd_next(n: int) -> None:
     q = load()
     order = []
     for code, prog in q["programs"].items():
-        pending = [(u, p) for u, p in prog["pages"].items() if p["status"] == "pending"]
+        pending = [(u, p) for u, p in prog["pages"].items() if claimable(p)]
         if not pending:
             continue
         done = sum(1 for p in prog["pages"].values() if p["status"] == "done")
@@ -129,6 +150,7 @@ def cmd_next(n: int) -> None:
     batch = []
     for _, code, pending in order:
         for url, page in pending:
+            page.update(status="inflight", ts=now())
             batch.append(
                 {
                     "code": code,
@@ -138,8 +160,10 @@ def cmd_next(n: int) -> None:
                 }
             )
             if len(batch) >= n:
+                save_queue(q)
                 print(json.dumps(batch, indent=1))
                 return
+    save_queue(q)
     print(json.dumps(batch, indent=1))
 
 
@@ -255,7 +279,7 @@ def cmd_fail(code: str, slot: str, reason: str) -> None:
 
 
 def assemble_one(code: str, prog: dict) -> str:
-    pending = [p for p in prog["pages"].values() if p["status"] == "pending"]
+    pending = [p for p in prog["pages"].values() if p["status"] in ("pending", "inflight")]
     if pending:
         return f"{code}: {len(pending)} page(s) still pending"
     done = {p["slot"] for p in prog["pages"].values() if p["status"] == "done"}
@@ -319,7 +343,7 @@ def cmd_scoreable() -> None:
 
 def cmd_status(as_json: bool) -> None:
     q = load()
-    rows, tot = [], {"done": 0, "pending": 0, "failed": 0, "blocked": 0}
+    rows, tot = [], {"done": 0, "pending": 0, "inflight": 0, "failed": 0, "blocked": 0}
     for code, prog in sorted(q["programs"].items()):
         counts = {k: 0 for k in tot}
         for p in prog["pages"].values():
@@ -337,16 +361,16 @@ def cmd_status(as_json: bool) -> None:
     if as_json:
         print(json.dumps({"summary": summary, "programs": rows}, indent=1))
         return
-    print(f"{'code':<14}{'done':>6}{'pend':>6}{'fail':>6}{'blk':>5}  assembled")
+    print(f"{'code':<14}{'done':>6}{'pend':>6}{'live':>6}{'fail':>6}{'blk':>5}  assembled")
     for r in rows:
         print(
-            f"{r['code']:<14}{r['done']:>6}{r['pending']:>6}{r['failed']:>6}"
-            f"{r['blocked']:>5}  {'yes' if r['assembled'] else ''}"
+            f"{r['code']:<14}{r['done']:>6}{r['pending']:>6}{r['inflight']:>6}"
+            f"{r['failed']:>6}{r['blocked']:>5}  {'yes' if r['assembled'] else ''}"
         )
     print(
         f"\n{summary['assembled']}/{summary['programs']} programs assembled · "
         f"pages: {tot['done']} done, {tot['pending']} pending, "
-        f"{tot['failed']} failed, {tot['blocked']} blocked"
+        f"{tot['inflight']} leased, {tot['failed']} failed, {tot['blocked']} blocked"
     )
 
 
