@@ -15,9 +15,22 @@ export const meta = {
 // workflow: the handbook blocks by IP, so parallel scraping re-trips it and
 // takes the whole cohort down. Capture serially (scrape-v4-cohort.py, 3s
 // paced), then score in parallel from disk.
-const codes = args
+// args can arrive as a real array or as a JSON-encoded string depending on how
+// the caller passed it — a scheduled run that stringifies it would otherwise
+// fail on every fire and silently score nothing.
+let codes = args
+if (typeof codes === 'string') {
+  try {
+    codes = JSON.parse(codes)
+  } catch {
+    codes = codes.split(/[\s,]+/).filter(Boolean)
+  }
+}
+if (typeof codes === 'string') codes = [codes]
 if (!Array.isArray(codes) || codes.length === 0) {
-  throw new Error('args must be a non-empty array of program codes with extracts in scrapes/v4/')
+  throw new Error(
+    `args must be program codes with extracts in scrapes/v4/ — received ${JSON.stringify(args)}`,
+  )
 }
 
 const ITEM = {
