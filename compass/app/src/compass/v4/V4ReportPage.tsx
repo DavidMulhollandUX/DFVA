@@ -13,6 +13,7 @@ import {
   type V4RubricItem,
 } from "./data/v4Rubric";
 import { v4PanelCByCode, type V4ItemResult, type V4PanelC } from "./data/v4PanelC";
+import { HowThisRubricWorksDialog } from "./HowThisRubricWorksDialog";
 
 const X_MIN = 60;
 const X_MAX = 100;
@@ -440,9 +441,12 @@ export default function V4ReportPage() {
         <Card className="mb-6">
           <CardContent className="pt-6">
             <CardLabel>Curriculum Adaptiveness — Panel C v4</CardLabel>
-            <CardTitle className="text-lg">
-              The four adaptive capabilities, plus inquiry
-            </CardTitle>
+            <div className="flex flex-wrap items-center justify-between gap-3">
+              <CardTitle className="text-lg">
+                The four adaptive capabilities, plus inquiry
+              </CardTitle>
+              <HowThisRubricWorksDialog />
+            </div>
             <p className="text-muted-foreground mt-1 mb-6 text-sm">
               Five items anchored on the TEQSA adaptive capabilities [1], scored 0–3 from 2026
               handbook evidence. Tap an item to see the construct, the level anchors, the
