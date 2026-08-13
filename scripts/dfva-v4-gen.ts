@@ -40,8 +40,13 @@ docs/dfva-panelc-v4-recommendation.md and docs/dfva-adaptiveness-literature-revi
 
 ## Inputs you will be given
 
-1. The program's handbook extract (course page + core-unit pages), scraped via
-   Crawl4AI. Score ONLY from this text.
+1. The program's handbook extract at scrapes/v4/<code>.txt — the course, outcomes
+   and structure pages plus the core subject and assessment pages, concatenated
+   and each headed by a "===== SOURCE: <url> =====" line. Score ONLY from this
+   text. It is captured page text, so structure is carried by headings and
+   whitespace rather than markup: a subject's assessment table reads as
+   description / timing / percentage on consecutive lines. Quote whichever lines
+   carry the evidence; do not expect markdown tables.
 2. The program code and name.
 
 ## Non-negotiable scoring rules
