@@ -205,6 +205,8 @@ const reportMeta: Record<
   "dfva-244cw": { score: "23 / 36", riskBand: "MODERATE RISK" },
   "dfva-market-244cw": { score: null, riskBand: null },
   "dfva-recommend-244cw": { score: null, riskBand: null },
+  // v4 pilot (draft instrument) — no v1-style composite; the report carries its own scores
+  "dfva-v4-244cw": { score: null, riskBand: null },
 };
 
 const DIMENSIONS = [
@@ -1407,10 +1409,14 @@ function ReportDetailView({
   >("idle");
 
   const meta = reportSlug ? reportMeta[slugsByType.assessment] : null;
-  const scoreText =
+  // v4 reports carry the draft Panel C v4 instrument: no v1 composite exists
+  // for them, so the hero score is suppressed rather than defaulted.
+  const isV4Report = slugsByType.assessment.startsWith("dfva-v4-");
+  const scoreText: string | null =
     simulatedScore !== null
       ? `${simulatedScore} / 36`
-      : meta?.score || `${program?.score ?? 20} / 36`;
+      : (meta?.score ??
+        (isV4Report ? null : `${program?.score ?? 20} / 36`));
 
   // 7. Form submission: Update intervention assignment
   async function handleAssignOwner(e: React.FormEvent<HTMLFormElement>) {
@@ -1649,7 +1655,9 @@ function ReportDetailView({
               )}
             </div>
             <p className="text-muted-foreground mt-1">
-              {report.institution} · {program?.level || "Undergraduate"}
+              {report.institution} ·{" "}
+              {program?.level ||
+                (isV4Report ? "Panel C v4 (draft instrument)" : "Undergraduate")}
             </p>
           </div>
           <div className="flex items-center gap-3">
@@ -1662,14 +1670,16 @@ function ReportDetailView({
                 {meta.riskBand}
               </span>
             )}
-            <div className="flex flex-col items-end">
-              <span className="text-foreground text-2xl font-black tracking-tight">
-                {scoreText}
-              </span>
-              <span className="text-muted-foreground text-[10px] font-bold uppercase">
-                DFVA Durability Index
-              </span>
-            </div>
+            {scoreText && (
+              <div className="flex flex-col items-end">
+                <span className="text-foreground text-2xl font-black tracking-tight">
+                  {scoreText}
+                </span>
+                <span className="text-muted-foreground text-[10px] font-bold uppercase">
+                  DFVA Durability Index
+                </span>
+              </div>
+            )}
           </div>
         </div>
 

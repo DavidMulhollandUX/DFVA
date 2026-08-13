@@ -214,6 +214,7 @@ export const REPORT_CONTENT_LOADERS: Record<
   "dfva-recommend-mc-urbdes": () => import("./dfva-recommend-mc-urbdes"),
   "dfva-recommend-mc-urbhort": () => import("./dfva-recommend-mc-urbhort"),
   "dfva-recommend-me-dcd": () => import("./dfva-recommend-me-dcd"),
+  "dfva-v4-244cw": () => import("./dfva-v4-244cw"),
 };
 
 export function hasReportContent(slug: string): boolean {
