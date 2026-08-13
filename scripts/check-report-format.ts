@@ -280,10 +280,12 @@ for (const file of V4_FILES) {
     issues.push('section 5 must open with the mandatory interpretation sentence')
   }
 
-  // 4. Every scorecard item row cites at least one [n] reference marker
-  const scorecardRows = lines.filter((l) => /^\| C\d /.test(l.trim()))
+  // 4. Every scorecard item row cites at least one [n] reference marker.
+  //    Scoped to §2: other sections (e.g. §5 implications) also key rows by item.
+  const scorecardSection = (content.split(/^## 2\. /m)[1] ?? '').split(/^## \d\. /m)[0] ?? ''
+  const scorecardRows = scorecardSection.split('\n').filter((l) => /^\| C\d /.test(l.trim()))
   if (scorecardRows.length !== 5) {
-    issues.push(`scorecard: expected 5 item rows (C1–C5), found ${scorecardRows.length}`)
+    issues.push(`section 2 scorecard: expected 5 item rows (C1–C5), found ${scorecardRows.length}`)
   }
   scorecardRows.forEach((row) => {
     if (!/\[\d+\]/.test(row)) issues.push(`scorecard row lacks a reference marker: "${row.slice(0, 60)}…"`)
@@ -368,6 +370,24 @@ for (const file of V4_RECOMMEND_FILES) {
   // 5. No v1 composite, no Irreplaceability
   if (/\d{1,2}\/36/.test(content)) issues.push('carries a v1 composite ("N/36") — forbidden in the v4 family')
   if (/Irreplaceability.*\d\/3|\bB:\s*\d\/3/.test(content)) issues.push('carries an Irreplaceability score — retired in v4')
+
+  // 6. Every section 1–6 carries its content in a table, not flat prose
+  const sectionBodies = content.split(/^## (?=\d\. )/m).slice(1)
+  sectionBodies.forEach((body, i) => {
+    if (!/^\|.*\|\s*$/m.test(body)) {
+      issues.push(`section ${i + 1}: no markdown table — v4 recommend sections are tabular`)
+    }
+  })
+
+  // 7. Full citations belong in REFERENCES, not inline: bare URLs outside the
+  //    reference list defeat the linked-mark form and clutter the body.
+  const bodyOnly = content.split(/^## REFERENCES$/m)[0] ?? ''
+  const bareUrls = (bodyOnly.match(/(?<!\()https?:\/\/\S+/g) ?? []).filter(
+    (u) => !u.includes('handbook.unimelb.edu.au')
+  )
+  if (bareUrls.length) {
+    issues.push(`${bareUrls.length} bare URL(s) in the body — cite as [[n]](url) and keep full citations in REFERENCES`)
+  }
 
   if (issues.length) errors.push(...issues.map((i) => `${slug}: ${i}`))
 }

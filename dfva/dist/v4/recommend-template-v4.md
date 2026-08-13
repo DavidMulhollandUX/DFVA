@@ -15,27 +15,33 @@ Every `reports/dfva-v4-recommend-<code>.md` must follow this template.
 **Position basis:** Destination AI Exposure <NN.NN> (measured) × Curriculum Adaptiveness <N>/15 (v4 draft) — no v1 composite, no position label until the v4 migration cycle
 ```
 
-## Sections (all required, in order)
+A note under the header states that citation marks refer to the numbered list in
+References and that full citations are not repeated in the body.
+
+## Sections (all required, in order) — each carries its content in a TABLE
 
 1. **DIAGNOSTIC SUMMARY — Basis: inferred** — opens with the mandatory
    sentence: *"This plan argues from the scored evidence and market data
-   above; it is interpretation, not observation."* Then: where the score
-   concentrates, which single item is the binding constraint, and why.
-2. **SCORE-TO-ACTION MAP — Basis: inferred** — one block per item scoring
-   below 3: current level → the NEXT anchor's text (quoted) → the concrete
-   curriculum action that would satisfy it, cited to the item's evidence base.
-3. **MARKET ALIGNMENT — Basis: reported → inferred** — each intervention
-   mapped to the skill-shift rows / signals that warrant it, with the market
-   report's own confidence level restated.
-4. **PRIORITISED INTERVENTIONS — Basis: inferred** — table:
-   `| # | Item(s) | Action | Anchor satisfied | Market warrant | Evidence base | Effort | Sequence |`
-   with levers numbered P1..Pn. Effort ∈ low/medium/high; Sequence is a
-   term-level ordering with documentation-only fixes first.
-5. **GATE GUARDRAILS — Basis: scored** — G1 and G2 restated as regression
-   checks: what any redesign must not break.
-6. **WHAT WOULD CHANGE THE SCORE — Basis: inferred** — explicit anchor
-   deltas per lever, AND what would NOT move a score (outcome-statement
-   edits per rule R2; electives where the anchor requires core).
+   above; it is interpretation, not observation."* Two short paragraphs, then:
+   `| Item | Score | Levels below maximum | Market evidence for the gap | Priority |`
+   with an adaptiveness total row.
+2. **SCORE-TO-ACTION MAP — Basis: inferred** —
+   `| Item | Now → target | Anchor requirement at the target level (verbatim) | Curriculum action | Sources |`
+   One row per level step, including any second step on the same item.
+3. **MARKET ALIGNMENT — Basis: reported → inferred** —
+   `| Lever | Item | Market evidence | Location in market report | Confidence |`
+   Confidence restated from the market report, not re-derived.
+4. **PRIORITISED INTERVENTIONS — Basis: inferred** —
+   `| # | Item | Action | Anchor satisfied | Effort | Sequence | Sources |`
+   Levers numbered P1..Pn. Effort ∈ low/medium/high; Sequence is a term-level
+   ordering with documentation-only fixes first.
+5. **GATE GUARDRAILS — Basis: scored** —
+   `| Gate | Status | Evidence carrying the gate | Constraint on redesign | Sources |`
+6. **WHAT WOULD CHANGE THE SCORE — Basis: inferred** — two tables:
+   `| Lever | Item | From | To | Change | Cumulative adaptiveness |` and
+   `| Change | Why it does not move a score | Governing rule | Sources |`
+   The second must cover outcome-statement edits (rule R2) and electives where
+   the anchor requires core placement.
 7. **REFERENCES** — the canonical list, verbatim, ending the file.
 
 ## Lint rules (v4 recommend family in check-report-format.ts)
@@ -45,6 +51,7 @@ Every `reports/dfva-v4-recommend-<code>.md` must follow this template.
 3. At least one web-linked citation mark `[[n]](http...)`.
 4. REFERENCES matches the canonical generated list, byte-exact.
 5. No v1 composite ("N/36"), no Irreplaceability score, anywhere.
+6. Every section 1–6 contains at least one markdown table.
 
 ## REFERENCES (canonical)
 

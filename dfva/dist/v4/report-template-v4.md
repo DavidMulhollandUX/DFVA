@@ -60,16 +60,18 @@ A G1 FAIL is flagged prominently regardless of the adaptiveness score.
 
 ### 4. MARKET EVIDENCE — Basis: reported
 
-The Part B run endorsed in the August 2026 review, unchanged in structure:
-JOB FAMILY MAP · RECENT JOB AD SIGNALS · CURRENT DISCUSSION SIGNALS ·
-SKILL SHIFT SUMMARY. Confidence stated per subsection. No scoring language.
+Condensed from the market report, in two tables — destination job families with
+their exposure values, and signals/skill shifts with their direction and the
+scored item each bears on. Confidence restated from the market report. No
+scoring language.
 
 ### 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
 Opens with the mandatory sentence: *"This section argues from the evidence
-above; it is interpretation, not observation."* Implications are keyed to
-C-items (e.g. "C2 at 1/3 → …") and phrased as options with trade-offs, not
-directives.
+above; it is interpretation, not observation."* Then a table:
+`| Item | Score | Implication | Cost | Sources |`, ordered by priority and
+pointing at the v4 improvement plan for anchor text and sequencing. Phrased as
+options with costs, not directives.
 
 ### 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 

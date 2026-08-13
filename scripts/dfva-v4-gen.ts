@@ -156,16 +156,18 @@ A G1 FAIL is flagged prominently regardless of the adaptiveness score.
 
 ### 4. MARKET EVIDENCE — Basis: reported
 
-The Part B run endorsed in the August 2026 review, unchanged in structure:
-JOB FAMILY MAP · RECENT JOB AD SIGNALS · CURRENT DISCUSSION SIGNALS ·
-SKILL SHIFT SUMMARY. Confidence stated per subsection. No scoring language.
+Condensed from the market report, in two tables — destination job families with
+their exposure values, and signals/skill shifts with their direction and the
+scored item each bears on. Confidence restated from the market report. No
+scoring language.
 
 ### 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
 Opens with the mandatory sentence: *"This section argues from the evidence
-above; it is interpretation, not observation."* Implications are keyed to
-C-items (e.g. "C2 at 1/3 → …") and phrased as options with trade-offs, not
-directives.
+above; it is interpretation, not observation."* Then a table:
+\`| Item | Score | Implication | Cost | Sources |\`, ordered by priority and
+pointing at the v4 improvement plan for anchor text and sequencing. Phrased as
+options with costs, not directives.
 
 ### 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
@@ -225,9 +227,14 @@ Write \`reports/dfva-v4-recommend-<code>.md\` following
 - **Market-warranted.** Each intervention names the skill-shift row or signal
   from the market report that makes it worth doing. An action no market
   evidence supports does not appear.
-- **Cited.** Inline citations use the web-linked form \`[[n]](url)\` for
-  URL-bearing sources, plain \`[n]\` otherwise, resolving to the canonical
-  REFERENCES list, which ends the file verbatim.
+- **Tabular.** Sections 1–6 carry their content in tables, not in prose
+  paragraphs. Prose is limited to the mandatory sentence in §1, one or two
+  framing sentences per section, and any note a table cannot hold.
+- **Cited, with the citations collected.** Citation marks belong in a dedicated
+  \`Sources\` column (or the table's last column), NOT scattered through
+  sentences. Use the web-linked form \`[[n]](url)\` for URL-bearing sources and
+  plain \`[n]\` otherwise. Full citations appear only in the REFERENCES section
+  at the end of the file, never inline.
 - **Interpretation is marked.** The diagnostic summary opens with the
   mandatory sentence — this document argues from evidence; it is not itself
   evidence.
@@ -266,27 +273,33 @@ Every \`reports/dfva-v4-recommend-<code>.md\` must follow this template.
 **Position basis:** Destination AI Exposure <NN.NN> (measured) × Curriculum Adaptiveness <N>/${V4_ADAPTIVENESS_MAX} (v4 draft) — no v1 composite, no position label until the v4 migration cycle
 \`\`\`
 
-## Sections (all required, in order)
+A note under the header states that citation marks refer to the numbered list in
+References and that full citations are not repeated in the body.
+
+## Sections (all required, in order) — each carries its content in a TABLE
 
 1. **DIAGNOSTIC SUMMARY — Basis: inferred** — opens with the mandatory
    sentence: *"This plan argues from the scored evidence and market data
-   above; it is interpretation, not observation."* Then: where the score
-   concentrates, which single item is the binding constraint, and why.
-2. **SCORE-TO-ACTION MAP — Basis: inferred** — one block per item scoring
-   below 3: current level → the NEXT anchor's text (quoted) → the concrete
-   curriculum action that would satisfy it, cited to the item's evidence base.
-3. **MARKET ALIGNMENT — Basis: reported → inferred** — each intervention
-   mapped to the skill-shift rows / signals that warrant it, with the market
-   report's own confidence level restated.
-4. **PRIORITISED INTERVENTIONS — Basis: inferred** — table:
-   \`| # | Item(s) | Action | Anchor satisfied | Market warrant | Evidence base | Effort | Sequence |\`
-   with levers numbered P1..Pn. Effort ∈ low/medium/high; Sequence is a
-   term-level ordering with documentation-only fixes first.
-5. **GATE GUARDRAILS — Basis: scored** — G1 and G2 restated as regression
-   checks: what any redesign must not break.
-6. **WHAT WOULD CHANGE THE SCORE — Basis: inferred** — explicit anchor
-   deltas per lever, AND what would NOT move a score (outcome-statement
-   edits per rule R2; electives where the anchor requires core).
+   above; it is interpretation, not observation."* Two short paragraphs, then:
+   \`| Item | Score | Levels below maximum | Market evidence for the gap | Priority |\`
+   with an adaptiveness total row.
+2. **SCORE-TO-ACTION MAP — Basis: inferred** —
+   \`| Item | Now → target | Anchor requirement at the target level (verbatim) | Curriculum action | Sources |\`
+   One row per level step, including any second step on the same item.
+3. **MARKET ALIGNMENT — Basis: reported → inferred** —
+   \`| Lever | Item | Market evidence | Location in market report | Confidence |\`
+   Confidence restated from the market report, not re-derived.
+4. **PRIORITISED INTERVENTIONS — Basis: inferred** —
+   \`| # | Item | Action | Anchor satisfied | Effort | Sequence | Sources |\`
+   Levers numbered P1..Pn. Effort ∈ low/medium/high; Sequence is a term-level
+   ordering with documentation-only fixes first.
+5. **GATE GUARDRAILS — Basis: scored** —
+   \`| Gate | Status | Evidence carrying the gate | Constraint on redesign | Sources |\`
+6. **WHAT WOULD CHANGE THE SCORE — Basis: inferred** — two tables:
+   \`| Lever | Item | From | To | Change | Cumulative adaptiveness |\` and
+   \`| Change | Why it does not move a score | Governing rule | Sources |\`
+   The second must cover outcome-statement edits (rule R2) and electives where
+   the anchor requires core placement.
 7. **REFERENCES** — the canonical list, verbatim, ending the file.
 
 ## Lint rules (v4 recommend family in check-report-format.ts)
@@ -296,6 +309,7 @@ Every \`reports/dfva-v4-recommend-<code>.md\` must follow this template.
 3. At least one web-linked citation mark \`[[n]](http...)\`.
 4. REFERENCES matches the canonical generated list, byte-exact.
 5. No v1 composite ("N/36"), no Irreplaceability score, anywhere.
+6. Every section 1–6 contains at least one markdown table.
 
 ## REFERENCES (canonical)
 

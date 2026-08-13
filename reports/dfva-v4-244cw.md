@@ -120,65 +120,58 @@ item at 2; in v4 it is stated in the anchor rather than applied as rater judgeme
 
 ## 4. MARKET EVIDENCE — Basis: reported
 
-Condensed from the [full market intelligence report](dfva-market-244cw.md); confidence
-levels are stated per subsection there and restated here.
+Condensed from the [full market intelligence report](dfva-market-244cw.md), where
+confidence levels are stated per section.
 
-**Job family map** (HIGH confidence on exposure values; program's own alumni record,
-n = 562). Destinations span epidemiology and biostatistics (exposure 74–98), policy
-and government (97.4), health promotion and community practice (80.1),
-communicable-disease field response (64.5, the lowest in the set), health economics
-and evaluation (95–97), program management (93.6), and global and planetary health.
-The program mean is 89.46.
+**Destination job families** (exposure values HIGH confidence; program's own alumni
+record, n = 562). Program mean exposure 89.46.
 
-**Recent job advertisement signals** (MEDIUM confidence). Public health unit intake
-has been sustained since the pandemic; the Australian Centre for Disease Control has
-created demand for surveillance and preparedness roles; evaluation and economic
-evaluation are increasingly specified as separate capabilities; climate-health and One
-Health terms are appearing in position descriptions; competence with statistical
-tooling is treated as a baseline rather than a differentiator; Indigenous data
-governance appears as a named requirement in Commonwealth and state positions.
+| Job family | Exposure | Position in the set |
+|---|---|---|
+| Policy and government | 97.41 | Highest |
+| Health economics and evaluation | 95–97 | — |
+| Program and health services management | 93.63 | — |
+| Epidemiology and biostatistics | 74–98 | Widest range |
+| Health promotion and community practice | 80.08 | — |
+| Communicable disease and field response | 64.49 | Lowest |
+| Global and planetary health | — | Not separately crosswalked |
 
-**Current discussion signals** (MEDIUM confidence). Practitioners describe
-descriptive analysis as largely automated, with professional value concentrating in
-causal reasoning and the defence of inferences; government staff describe a shift from
-drafting briefs to verifying machine-produced drafts; the adoption of automated
-evidence-synthesis tools is reported to be outpacing critical-appraisal skill;
-community engagement and trust are described as the least automatable part of the
-work; preparedness is treated as a standing capability rather than a surge response.
+**Signals and skill shifts** (MEDIUM confidence; directional synthesis, not a dated
+extraction).
 
-**Skill shift summary** (MEDIUM confidence). Rising sharply: causal inference; AI
-verification and provenance. Rising: evaluation design; community co-design and
-cultural safety; Indigenous data governance; cross-system framing. Stable:
-qualitative research rigour. Falling: descriptive analysis execution; first-pass
-literature synthesis; drafting fluency.
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| AI verification, provenance and disclosure | Rising sharply | C3 — absent from the compulsory core |
+| Causal inference and confounder reasoning | Rising sharply | C5 — the retained task once descriptive analysis is automated |
+| Evaluation and economic evaluation design | Rising | C4 — named as a scarce capability in advertisements |
+| Community co-design and cultural safety | Rising | C1 — least automatable destination cluster |
+| Indigenous data governance | Rising | C3 — named requirement in Commonwealth and state positions |
+| Cross-system framing (climate-health, One Health) | Rising | C4 — recent subject additions track the shift |
+| Qualitative research rigour | Stable | C5 — already taught compulsorily |
+| Descriptive analysis execution | Falling sharply | C3, C5 — automated; still a large share of entry-role output |
+| First-pass literature synthesis | Falling sharply | C2 — automated synthesis tools now competent |
+| Report and brief drafting fluency | Falling | C1, C2 — drafting assisted; verification retained |
+
+Three discussion themes bear directly on the scored items: descriptive analysis is
+described as largely automated, with professional value concentrating in the defence
+of inferences; government staff describe a shift from drafting briefs to verifying
+machine-produced drafts; and the adoption of automated evidence-synthesis tools is
+reported to be outpacing critical-appraisal skill.
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
 *This section argues from the evidence above; it is interpretation, not observation.*
 
-1. **C2 (2/3).** The appraisal and reflection assessments required for level 3
-   already exist in the core. Extending one of them to require students to document
-   and justify reliance on machine-assisted work would satisfy the level 3 anchor
-   [[4]](https://doi.org/10.1007/s10734-017-0220-3)[[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) without a new subject. The cost is assessment redesign in one or two
-   subjects.
-2. **C3 (1/3).** Graduate destinations average 89.5 exposure while no compulsory
-   subject addresses AI capabilities, limitations or governance, and the discussion
-   signals identify unverified machine output as a current professional risk. A
-   component addressing AI capabilities and verification within Biostatistics or
-   Epidemiology 1 would reach every graduate; an elective would not
-   [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[11]](https://doi.org/10.1145/3313831.3376727)[[12]](https://unesdoc.unesco.org/ark:/48223/pf0000391105).
-3. **C5 (2/3).** The level 3 anchor requires a primary-evidence project of all
-   students. The capability exists on the Research Project route; the question is one
-   of course design (whether to make that route, or an equivalent element, a
-   requirement), weighed against supervision capacity [14][15].
-4. **C4 (2/3).** The evidence gap is documentary: if the Public Health in Practice
-   route assesses independent-learning structure, publishing that detail in the
-   handbook would complete the level 3 evidence at no curriculum cost. This follows
-   from the instrument's scope, which is documented curriculum intent (§6).
-5. **C1 (2/3).** Team-based assessment is established. Specifying the role of AI
-   tools within one existing team task — allocation of drafting, verification and
-   sign-off — would document the human–AI component of the construct
-   [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[5]](https://doi.org/10.1093/qje/qjx022).
+The prioritised plan, with anchor text, sequencing and score deltas, is in the
+[v4 improvement plan](dfva-v4-recommend-244cw.md). In summary:
+
+| Item | Score | Implication | Cost | Sources |
+|---|---|---|---|---|
+| C3 | 1/3 | Destinations average 89.46 exposure while no compulsory subject addresses AI capabilities, limitations or governance, and the discussion signals identify unverified machine output as a current professional risk. A component within Biostatistics or Epidemiology 1 would reach every graduate; an elective would not. | Medium | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[11]](https://doi.org/10.1145/3313831.3376727)[[12]](https://unesdoc.unesco.org/ark:/48223/pf0000391105) |
+| C2 | 2/3 | The appraisal and reflection assessments required at level 3 already exist in the core; extending one to require justified reliance decisions on machine-assisted work would satisfy the anchor without a new subject. | Medium | [[4]](https://doi.org/10.1007/s10734-017-0220-3)[[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) |
+| C1 | 2/3 | Team-based assessment is established. Specifying the role of AI tools within one existing team task — allocation of drafting, verification and sign-off — would document the human–AI component of the construct. | Low–medium | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[5]](https://doi.org/10.1093/qje/qjx022) |
+| C4 | 2/3 | The gap is documentary. If the Public Health in Practice route assesses independent-learning structure, publishing that detail in the handbook would complete the level 3 evidence at no curriculum cost, since the instrument scores documented intent (§6). | Low | [[9]](https://www.nationalacademies.org/read/13398/chapter/2)[[10]](https://doi.org/10.1007/s10459-025-10413-y) |
+| C5 | 2/3 | The level 3 anchor requires a primary-evidence project of all students. The capability exists on the Research Project route; the question is one of course design, weighed against supervision capacity. | High | [14][15] |
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 

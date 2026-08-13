@@ -20,9 +20,14 @@ Write `reports/dfva-v4-recommend-<code>.md` following
 - **Market-warranted.** Each intervention names the skill-shift row or signal
   from the market report that makes it worth doing. An action no market
   evidence supports does not appear.
-- **Cited.** Inline citations use the web-linked form `[[n]](url)` for
-  URL-bearing sources, plain `[n]` otherwise, resolving to the canonical
-  REFERENCES list, which ends the file verbatim.
+- **Tabular.** Sections 1–6 carry their content in tables, not in prose
+  paragraphs. Prose is limited to the mandatory sentence in §1, one or two
+  framing sentences per section, and any note a table cannot hold.
+- **Cited, with the citations collected.** Citation marks belong in a dedicated
+  `Sources` column (or the table's last column), NOT scattered through
+  sentences. Use the web-linked form `[[n]](url)` for URL-bearing sources and
+  plain `[n]` otherwise. Full citations appear only in the REFERENCES section
+  at the end of the file, never inline.
 - **Interpretation is marked.** The diagnostic summary opens with the
   mandatory sentence — this document argues from evidence; it is not itself
   evidence.
