@@ -1,10 +1,21 @@
 // GENERATED FILE — DO NOT EDIT.
 // Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
 // Regenerate: npm --prefix scripts run dfva:gen-v4
+/** Present when adversarial verification moved a score. Recorded rather than
+ *  overwritten: which anchor clause failed on scrutiny is response-process
+ *  evidence, and the IRR study reads it. */
+export interface V4Adjudication {
+  originalScore: number;
+  demotedTo?: number;
+  promotedTo?: number;
+  reason: string;
+}
+
 export interface V4ItemResult {
   score: number;
   rationale: string;
   evidenceLines: string[];
+  adjudication?: V4Adjudication;
 }
 
 export interface V4GateResult {
@@ -48,19 +59,14 @@ export interface V4Meta {
 
 export const V4_META: V4Meta = {
   "cohortSize": 34,
-  "scored": 1,
-  "workplaceScored": 0,
+  "scored": 6,
+  "workplaceScored": 6,
   "workplaceComplete": false,
   "complete": false,
   "adaptMedian": null,
   "expMedian": 90.9,
   "pending": [
-    "527cl",
-    "746st",
-    "mc-apbusa",
-    "mc-arch",
     "mc-ba",
-    "mc-base",
     "mc-busana",
     "mc-clind",
     "mc-cs",
@@ -176,118 +182,838 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "439fs": {
+    "instrument": "4.1-draft",
     "C1": {
       "score": 2,
-      "rationale": "Level 2 anchor met: at least one core unit assesses collaborative practice. Advanced Food Processing Technology (FOOD90007), one of the eight compulsory subjects, carries a 20% 'Group written assignment' alongside individually-marked work. Not level 3: the anchor requires assessed collaborative practice to RECUR across the program AND at least one assessment requiring coordination of work across people and tools/AI systems. Group assessment appears in only one core unit; the other seven compulsory subjects assess individually (tests, exams, individual reports, individual practical reports). The group-based capstone FOOD90043 is one route among four capstone options, not a program-wide requirement, and nothing in the extract documents role or tool allocation, multidisciplinary accountability, or any coordination with AI/tool systems. Team capability otherwise appears only as a course-level generic skill claim, which under R2 cannot lift the score.",
+      "rationale": "Level 2 anchor is met: at least one core unit assesses collaborative practice. Core FOOD90007 Advanced Food Processing Technology carries a 'Group written assignment' worth 20%, so level 1 ('no core unit assesses it') is contradicted despite teamwork also appearing in the program generic skills. Not level 3: assessed collaborative practice does not recur across the compulsory core (it is a single group task in one of eight compulsory subjects; the group route in FOOD90043 is only one of three capstone options), and no assessment anywhere in the extract requires coordinating work across people AND tools/AI systems - there is no documented role/tool allocation and no assessed division of work between people and systems.",
       "evidenceLines": [
-        "Group written assignment",
-        "Assignments may be industry-based.",
         "Advanced Food Processing Technology (FOOD90007)",
+        "Group written assignment",
         "Ability to participate effectively as a member of a team",
-        "The research is conducted as a group project with 2-3 students.",
-        "Group oral presentation",
-        "Students must complete a minimum of 25 points of capstone subjects from the following:"
+        "Assignments may be industry-based."
       ]
     },
     "C2": {
       "score": 1,
-      "rationale": "Level 1 anchor met exactly: reflection/self-appraisal appears in the graduate attributes ('awareness of personal strengths and limitations', 'aptitude for continued self directed learning') and in the course generic skills, but no CORE unit assesses appraisal of the quality of work against criteria. Level 2 requires core assessment containing criterion-referenced appraisal of quality — peer review, structured critique, portfolio with standards, marking against exemplars. The only peer-review assessment in the extract is 'Poster Design and Peer Review' in FOOD90031 Food Packaging Materials and Processes, which the course structure lists under Electives, not the eight compulsory subjects, so it does not satisfy an anchor worded 'core assessment'. The 'quality' language throughout the core (Food Safety and Quality, 'Evaluate important quality control concepts', 'quality maintenance of the processed products') refers to food-product quality, not appraisal of the quality of work, and so is not evidence for this construct. No assessment anywhere in the extract requires documenting or justifying reliance decisions on a tool, source or collaborator, so level 3 is not in contention.",
+      "rationale": "Level 1 anchor: self-direction and self-awareness appear in the program generic skills and graduate attributes, but no core unit assesses appraisal of the quality of work against criteria. The only documented peer review in the extract ('Poster Design and Peer Review') sits in FOOD90031, an elective, and level 2 requires CORE assessment. The capstone's 'critical evaluation of research or experimental protocols' is methodological critique of the discipline's own research, which under one-construct-one-home is scored in C5 (inquiry/methodology), not as criterion-referenced appraisal of work quality; it is also not documented as criterion-referenced. Nothing requires students to document or justify reliance decisions on a tool, source or collaborator, so level 3 is not in reach.",
       "evidenceLines": [
-        "Have excellent interpersonal and decision-making skills, including an awareness of personal strengths and limitations",
-        "Be critical and creative thinkers, with an aptitude for continued self directed learning",
         "Capacity for independent critical thought, rational inquiry and self-directed learning and research",
-        "Poster Design and Peer Review- Innovative food packaging material.",
-        "Students must complete a minimum of 50 and maximum of 75 credit points from the following:",
-        "Students must complete all of the following eight subjects (100 points):",
-        "Evaluate important quality control concepts and skills."
+        "Have excellent interpersonal and decision-making skills, including an awareness of personal strengths and limitations",
+        "Poster Design and Peer Review- Innovative food packaging material."
       ]
     },
     "C3": {
       "score": 1,
-      "rationale": "Level 1 anchor met: digital tooling appears as tool operation/training — the compulsory subject AGRI90075 Research Methods For Life Sciences teaches and assesses 'Practical skills working with data in the R software environment' and lists 'Apply research tools in the R software environment' as an outcome, and the course generic skills claim computer-based skills and use of communication technology for data storage and analysis. This is precisely the operational level the anchor caps at 1. Level 2 requires core units to address AI capabilities AND limitations/ethics with use-with-limits assessed: the extract contains no mention of artificial intelligence, machine learning or generative AI in any core subject, elective, outcome or assessment. The nearest technology content ('Food 3D printing', 'Genetically modified microorganisms', 'new generation technologies') is domain process technology, not AI, and carries no capability/limitation or governance framing. Not level 0, because digital tool content is documented inside a compulsory subject rather than being absent.",
+      "rationale": "Level 1 anchor: digital tools appear only as tool operation/training - core AGRI90075 Research Methods For Life Sciences teaches and assesses operation of the R software environment, and the program generic skills describe utilising communication technology for data storage and analysis. Level 2 requires core units to address AI capabilities AND limitations/ethics; the extract contains no mention of artificial intelligence, generative AI or machine learning anywhere (zero hits across all 2,199 lines), so neither level 2 nor the level-3 governance/critique route can be reached.",
       "evidenceLines": [
         "Practical skills working with data in the R software environment",
         "Apply research tools in the R software environment.",
-        "Awareness of and ability to utilise appropriate communication technology and methods for the storage, management and analysis of data",
-        "Highly developed computer - based skills to allow for effective on-line learning and communication.",
-        "Food 3D printing",
-        "Genetically modified microorganisms"
+        "Awareness of and ability to utilise appropriate communication technology and methods for the storage, management and analysis of data"
       ]
     },
     "C4": {
       "score": 2,
-      "rationale": "Level 2 anchor met, level 3 not established (demoted from 3 on adversarial verification). Level 2 is securely met: core assessment addresses novel problems — the compulsory AGRI90075 assesses practical work on real-life data across five graded practicals, and core coursework requires a 'Review including analysis of data from industry, on a designated topic'. Level 3 requires a SELF-SCOPED capstone or research project, assessed identification of one's own knowledge gaps, or WIL in an untaught context. The self-scoping claim does not survive: 'Integrate and apply disciplinary knowledge and skills to an independently generated research question and investigation' sits under Intended learning outcomes and is capped at level 1 by R2, and 'Students are strongly encouraged to initiate project ideas...' is hedged overview prose that is neither a requirement nor an assessment. A graded, hurdle-gated project proposal evidences that a project was proposed, not that the student scoped it. The same handbook paragraph states the project's content and extent are determined by the supervisor in consultation with the student, and the group capstone route offers students projects to choose from — both cut directly against self-scoping. No assessment of one's own knowledge gaps appears anywhere, and the industry-visit hurdle is attendance, not performance in an untaught context. Ambiguity between 2 and 3 resolves DOWN under the instrument's scoring-direction rule.",
+      "rationale": "Level 2 anchor: a required 25-50 credit point original research project applies disciplinary knowledge to novel or unfamiliar problems, evidenced by a graded proposal hurdle, a 15,000-word thesis and an oral presentation. Level 3 was proposed on self-scoping but is NOT awarded: the distinguishing feature is not carried by assessment evidence as R2 requires. The assessment tables document only that a proposal is written and graded, not who scoped the project, and the handbook overview states the opposite - 'The content and extent of the project will be determined by a project supervisor in consultation with the student and Subject Coordinator, where necessary'. The 'strongly encouraged to initiate project ideas' line is hortatory, and the FOOD90043 route removes self-scoping outright ('Students will be offered different group projects to choose'). The 'independently generated research question' phrase is an intended learning outcome, which R2 never accepts as sufficient. Ambiguity between 2 and 3 resolves to the lower level.",
       "evidenceLines": [
         "Between 25 and 50 credit points of Capstone subjects",
-        "Students must complete a minimum of 25 points of capstone subjects from the following:",
-        "This subject enables students to conduct an original research topic under supervision, as approved by an academic project supervisor.",
-        "The content and extent of the project will be determined by a project supervisor in consultation with the student and Subject Coordinator, where necessary",
-        "Students will be offered different group projects to choose",
         "Hurdle requirement: A pass in the project proposal",
-        "A thesis/body of work due Monday 9.00am after the SWOTVAC period",
-        "Hurdle requirement: Student must participate in at least 1 industry visit"
+        "The content and extent of the project will be determined by a project supervisor in consultation with the student and Subject Coordinator, where necessary",
+        "Students will be offered different group projects to choose."
       ]
     },
     "C5": {
       "score": 2,
-      "rationale": "Level 2 anchor met in full: students design and conduct an assessed inquiry with methodology selection and data collection. The compulsory AGRI90075 covers sampling and experimental design and assesses it through five practical assessments worth 60% plus an exam; the required capstone has students investigate 'a problem using an approved methodology' assessed via proposal, thesis and oral presentation; core Plant Food Products requires students to 'Perform experiments' and submit a practical report. Held at 2 rather than 3 because the level-3 anchor requires a substantial project GENERATING PRIMARY EVIDENCE to be required. The handbook defines the capstone disjunctively — 'a review of a body of relevant literature, together with a critical evaluation of research or experimental protocols, a modest original experiment, OR limited exploration of a scientific problem, OR an investigation into a problem using an approved methodology' — so a capstone satisfying the requirement need not generate primary evidence at all. The methodology-under-scrutiny half of the anchor is arguably present (hurdle proposal, supervised progress meetings, oral presentation), but with primary-evidence generation optional the evidence straddles 2 and 3, and the lower level is taken.",
+      "rationale": "Level 2 anchor met: students design and conduct an assessed inquiry with methodology selection and data collection - core AGRI90075 covers research design, sampling and experimental design and assesses it through five practical assessments, and the required capstone conducts a supervised original research topic assessed by proposal, thesis and oral presentation. Held at 2 rather than 3 because level 3 requires a substantial project GENERATING PRIMARY EVIDENCE to be required and not one route among several: the handbook explicitly permits the project to be 'a critical evaluation of research or experimental protocols' or 'limited exploration of a scientific problem' INSTEAD of 'a modest original experiment', so primary evidence generation is optional within the required project. No viva or defence is documented; the proposal hurdle and supervisor progress meetings are the only scrutiny. Ambiguity resolved downward per the scoring-direction rule.",
       "evidenceLines": [
-        "An introduction to sampling techniques and experimental design",
-        "Complete five of Six practical assessments in weeks 2, 4, 6, 8, 10",
-        "Identify appropriate methodological frameworks and match research tools to these approaches;",
+        "This subject enables students to conduct an original research topic under supervision, as approved by an academic project supervisor.",
         "The project represents a capstone subject and comprises a review of a body of relevant literature, together with a critical evaluation of research or experimental protocols, a modest original experiment, or limited exploration of a scientific problem, or an investigation into a problem using an approved methodology.",
-        "Hurdle requirement: A pass in the project proposal",
-        "A thesis/body of work due Monday 9.00am after the SWOTVAC period",
-        "projects will generally involve regular meetings with their supervisor where students report on progress, difficulties and research plans",
-        "Perform experiments to demonstrate how composition and processing techniques affect the structure and quality of food",
-        "Practical report"
+        "The subject will focus on the design of research projects, investigation and interpretation of data, and the application of scientific computing to research problems.",
+        "Identify appropriate methodological frameworks and match research tools to these approaches;"
       ]
     },
     "adaptiveness": 8,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1 anchor: communication appears extensively in program generic skills and graduate attributes (which Barrie forbids scoring, R2), and core assessment adds spoken communication to peers and staff - FOOD90012 assesses a 10-minute oral presentation and the required capstone a 15-minute oral presentation - but no core assessment documents an audience beyond the teaching team. Level 2's other route, a recognised professional genre, is available in the extract only through FOOD90008's food safety plan, which under one-construct-one-home is scored in W2 (fidelity of the artefact produced) because W1's construct centres on communicating to people who are not your examiner and no audience beyond the marker is documented for that task. No external practitioner audience and no assessed professional-conduct criteria appear anywhere, so level 3 is out of reach.",
+      "evidenceLines": [
+        "Oral presentation based on the written assignment, due in approximately Week 8",
+        "Present research findings in clear, concise and persuasive written and verbal forms",
+        "Highly developed oral communication skills to allow informed dialogue and liaison with individuals and groups from industry, government and the community."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2 anchor: at least one core assessment produces the artefact a practitioner would produce. Core FOOD90008 assesses a 'Food safety plan draft' against the HACCP principles and the Australian and international regulatory environment - a HACCP food safety plan is the food-industry practitioner's own deliverable, judged by the profession's regulatory criteria, so level 1 ('the artefact produced and the criteria applied remain academic') is contradicted. Scored only on documented task features per R4, not on any 'industry-relevant' labelling. Not level 3: such tasks are nowhere near the assessment spine - the eight compulsory subjects are otherwise carried by written examinations, mid-semester tests, essays, reviews and laboratory/practical reports, and the industry connection elsewhere is conditional ('Assignments may be industry-based').",
+      "evidenceLines": [
+        "Food safety plan draft",
+        "Apply HACCP principles in a food safety plan",
+        "Understand and analyse the Australian and international regulatory environment relating to the food chain",
+        "Review including analysis of data from industry, on a designated topic",
+        "Assignments may be industry-based."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1 anchor exactly: work-situated learning exists only as an elective. AGRI90076 Industry Internship appears solely in the elective list, from which students choose 50-75 credit points, so no student is required to take it. Level 2 requires a CORE unit placing students in a real workplace with practitioner supervision and assessment; the closest core-adjacent evidence is FOOD90043's assessed industry-visit hurdle, but a visit is not supervised participation in a workplace, and FOOD90043 is one of three capstone routes rather than compulsory. Manufacturer visits in FOOD90031/FOOD90032 are also electives.",
+      "evidenceLines": [
+        "Students must complete a minimum of 50 and maximum of 75 credit points from the following:",
+        "Industry Internship",
+        "Group Industry Visit Report equivalent to 1000 words per student",
+        "Hurdle requirement: Student must participate in at least 1 industry visit"
+      ]
+    },
+    "workplace": 4,
     "gates": {
       "G1": {
         "result": "PASS",
-        "rationale": "PASS on the all-compulsory-specialist-core route. Half the 200-point degree is a fixed core of eight named food-science subjects that every student must complete, spanning food chemistry, microbiology, processing technology, safety and quality, plant and animal commodity streams, plus a research-methods subject — coherent disciplinary identity with technical and methodological depth, not generic or interchangeable content. Capped by a compulsory supervised research capstone.",
+        "rationale": "A coherent specialist core is documented: eight all-compulsory food-science subjects totalling 100 of the 200 credit points, spanning food chemistry, microbiology, processing technology, safety and quality, meat, dairy and plant products, supported by practical laboratory programs and completed by a compulsory capstone research project. This is disciplinary identity, not generic or interchangeable content.",
         "evidenceLines": [
-          "The Master of Food Science requires the successful completion of 200 credit points.",
-          "100 credit points of compulsory subjects",
           "Students must complete all of the following eight subjects (100 points):",
-          "Be able to demonstrate advanced knowledge and skills in the interdiscplinary field of food science",
-          "Between 25 and 50 credit points of Capstone subjects"
+          "Advanced Food Processing Technology (FOOD90007)",
+          "This course is supported by a practical laboratory program, which emphasises analytical and instrumental techniques.",
+          "Be able to demonstrate advanced knowledge and skills in the interdiscplinary field of food science"
         ]
       },
       "G2": {
         "result": "PASS",
-        "rationale": "PASS on the capstone route: a supervised original research project is compulsory and carries real uncertainty and personal accountability — a hurdle-gated proposal, a 15,000-word thesis and a defended oral presentation, with progress and 'difficulties' reported to a supervisor. Core coursework independently requires defended trade-off decisions rather than recall: Food Safety and Quality assesses risk identification and application of HACCP principles through a food safety plan draft and an open-book examination, and Advanced Food Processing Technology requires evaluating processing technologies for appropriate application.",
+        "rationale": "The required capstone is a supervised original research project carrying real uncertainty and accountability: the methodology must pass a gated proposal before the work proceeds, and the project is an open investigation rather than a scripted exercise. Core coursework also requires defended judgement calls rather than recall - evaluating processing technologies for appropriate application, and identifying and analysing risks in the food chain under a risk-management and HACCP framework.",
         "evidenceLines": [
+          "Between 25 and 50 credit points of Capstone subjects",
           "Hurdle requirement: A pass in the project proposal",
-          "A thesis/body of work due Monday 9.00am after the SWOTVAC period",
-          "projects will generally involve regular meetings with their supervisor where students report on progress, difficulties and research plans",
-          "Analyse and identify potential risks in the food chain",
-          "Apply HACCP principles in a food safety plan",
-          "Food safety plan draft",
-          "Evaluate processing technologies for their appropriate application"
+          "Evaluate processing technologies for their appropriate application",
+          "Analyse and identify potential risks in the food chain"
         ]
       }
     },
     "ambiguities": [
-      "C1 straddled 2 and 3: the group-based capstone FOOD90043 ('The research is conducted as a group project with 2-3 students') plus the core FOOD90007 group assignment could read as recurrence, but FOOD90043 is one of four capstone routes rather than required, and the second half of the level-3 anchor (coordination of work across people AND tools/AI systems) has no documentary support. Lower level taken; recorded here.",
-      "C2 straddled 1 and 2: a genuine criterion-referenced peer-review assessment exists ('Poster Design and Peer Review'), but only in FOOD90031, which the course structure lists under Electives while the level-2 anchor is worded 'Core assessment includes'. Lower level taken.",
-      "C3 straddled 0 and 1: there is no AI content anywhere in the extract, which points at 0, but the level-1 anchor also covers digital tool operation/training, and R programming is taught and assessed inside a compulsory subject. Scored 1 on the tool-operation clause; the ceiling is set by the total absence of AI capability/limitation/governance content, so level 2 was never in contention.",
-      "C4 straddled 2 and 3 and was demoted from 3 to 2 on adversarial verification. The level-3 case rested on the capstone being self-scoped, but the only self-scoping language is an intended learning outcome (R2-capped at level 1) and hedged 'strongly encouraged' overview prose; the handbook elsewhere states the project's content and extent are determined by the supervisor, and the group capstone offers students projects to choose from. A hurdle-gated project proposal evidences that a project was proposed, not that the student scoped it. Lower level taken.",
-      "C5 straddled 2 and 3: the capstone is required and methodology is reviewed in stages (hurdle proposal, supervisor meetings, oral presentation), but the handbook's own disjunctive definition of the project permits a literature review plus critical evaluation of protocols or a 'limited exploration' in place of generating primary evidence, so the level-3 requirement that primary-evidence generation be REQUIRED is not documented. Lower level taken."
+      "C1 straddled 1 and 2: the core group task is documented only as 'Group written assignment' with no documented individual accountability, which the level-2 anchor names as an exemplar. Scored 2 because level 1's condition ('no core unit assesses it') is directly contradicted by the assessment table, not because individual accountability was inferred.",
+      "C2 straddled 1 and 2: the required capstone includes 'a critical evaluation of research or experimental protocols', which could read as structured critique (level 2). Resolved to 1 by two rules - the critique is not documented as criterion-referenced, and one-construct-one-home routes methodological critique to C5. The only explicit peer review in the extract is in an elective (FOOD90031), which level 2's 'core assessment' wording excludes.",
+      "C4 straddled 2 and 3 and was DEMOTED from 3 to 2 on adversarial review. Self-scoping is documented only by an intended learning outcome ('an independently generated research question') and a hortatory encouragement line, neither of which satisfies R2; the handbook overview assigns scoping to the supervisor, and one permitted capstone route (FOOD90043) offers pre-set group projects. Resolved to the lower level, consistent with the same submission's downward resolution of C5 on the identical structural fact.",
+      "C5 straddled 2 and 3: the capstone is compulsory and methodology passes a gated proposal plus staged supervisor review (satisfying the level-3 scrutiny conjunct), but primary-evidence generation is only one of several permitted project forms. Resolved DOWN to 2 per the scoring-direction rule.",
+      "W1/W2 one-construct-one-home conflict: FOOD90008's 'Food safety plan draft' satisfies W1's 'recognised professional genre' route AND W2's 'artefact a practitioner would produce'. Scored once, in W2, because W1's construct centres on communicating to an audience beyond the examiner and no such audience is documented for this task. Had it been homed in W1 instead, W1 would be 2 and W2 1 - the allocation moves a point between the two workplace items without changing which evidence exists.",
+      "W2 straddled 1 and 2: the task is a 'draft' of 1000 words at 15%, which strains 'reproduces a professional task end to end'. Held at 2 rather than raised to 3, and not dropped to 1, because level 1 requires the artefact to remain academic and a HACCP food safety plan is not an academic artefact.",
+      "C3 has no AI evidence in either direction: the extract contains zero occurrences of 'artificial intelligence', 'generative AI', 'machine learning' or 'AI' across all 2,199 lines. The score of 1 rests entirely on documented digital tool operation (R), not on an inference that AI content is absent from the actual curriculum.",
+      "AGRI90076 Industry Internship is listed in the course structure but its own subject page is not in the extract. This does not limit W3, since level 1 explicitly covers an optional internship and elective status alone caps the item at 1.",
+      "FOOD90028 Sensory Evaluation is included in the extract but marked 'Not available in 2026'; it is an elective and was not used as evidence for any item."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-14"
+    }
+  },
+  "527cl": {
+    "instrument": "4.1-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: a core unit assesses collaborative practice via 'interprofessional activity'. PSYC90125 Core Skills in Psychological Practice embeds the Ways of Knowing interprofessional program and assesses it directly (25% written reflection on interprofessional learning following the interdisciplinary panel). Not level 3: level 3 requires assessed collaborative practice recurring across the program AND at least one assessment requiring coordination of work across people AND tools/AI systems. Nothing in the extract assesses any division of work between people and systems, or tool/AI allocation — the extract contains no AI or system-coordination assessment at all. Placement-based multidisciplinary work ('Work effectively with a range of professionals and support staff in the workplace') is placement evidence and is housed in W3 per one-construct-one-home, so it does not lift C1.",
+      "evidenceLines": [
+        "Students will also complete the Ways of Knowing program.  This interprofessional curriculum activity brings together students from a range of disciplines to engage with multiple knowledges and ways of knowing.",
+        "Written reflection on interprofessional learning and culturally safe practices following the interdisciplinary panel discussion component of Ways of Knowing program",
+        "Develop an understanding of 'collaborative practice' in interprofessional contexts",
+        "Ontological and epistemological ''knowing'' in healthcare and apply that in a clinical interprofessional context.",
+        "Teamwork and working with others"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "The level-2 anchor requires CORE ASSESSMENT to include criterion-referenced appraisal of quality (peer review, structured critique, portfolio with standards, marking against exemplars). No such task exists anywhere in the extract. Every assessment table in all 15 subject assessment pages was enumerated: PSYC90030 Principles of Psychological Assessment — the sole basis for the 2 — assesses only 'A written report' (1000 words, 40%) and 'A written examination' (1.5 hours, 60%), both content-unspecified; neither description mentions appraisal, criteria, or quality of work. The four lines carrying the score (handbook lines 1690, 1696, 1702 are intended learning outcomes and 1707 is a generic-skills bullet) are precisely the outcome statements R2 caps at level 1: 'a capability that appears in learning outcomes but is never assessed scores 1, everywhere, uniformly'. The rationale's assertion that 'this is not an outcome-only claim (R2 satisfied)' is an inference from ILO to undescribed artefact, not documented evidence. No peer review, critique task, portfolio, or exemplar-referenced marking appears in any core unit. The only assessed appraisal-adjacent tasks are reflections (placement reflection 'to satisfaction of placement coordinator', cultural-walk reflection, self-care self-reflection) — none criterion-referenced, and the placement one houses in W3 under one-construct-one-home. Level 1's declarative is true of the extract (reflection/self-assessment appears in the graduate attributes: 'Skills in self-assessment, reflective thinking and self-awareness...', but no core unit assesses it against criteria), so 1 is the lowest level whose declarative holds and the never-resolve-upward rule binds. Consequence: adaptiveness drops from 10 to 9.",
+      "evidenceLines": [
+        "Demonstrate mastery of the principal criteria practicing psychologists use to evaluate the quality of psychological data, as they relate to the clinical assessment of individuals.",
+        "Apply criteria for evaluation of psychological test reliability and validity to enhance the accuracy of psychological classification decisions.",
+        "Demonstrate practical implementation a critical understanding of the strategies employed in evaluating the validity of psychological opinions.",
+        "Ability to evaluate the quality of data against formal criteria",
+        "A written report",
+        "A written examination",
+        "Evaluating the effectiveness of their professional practice (in conjunction with clinical supervisors), identifying areas for improvement and implementing changes where needed.",
+        "Hurdle requirement: Satisfactory completion of placement reflection (300-500 words) to satisfaction of placement coordinator."
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor: digital content appears only at the operational/incidental level TEQSA identifies as non-durable. The single program-level digital reference is one clause naming e-health as a modality to consider; the only other digital material in the extract is delivery-mode or operational training (an online risk-awareness training module as a placement hurdle, an online quiz, an LMS test, and 4.5 hours of training in administration and scoring of neurocognitive tests). Not level 2: no core unit addresses AI capabilities AND limitations/ethics — the extract contains no mention of artificial intelligence, generative AI, algorithms or automated decision systems anywhere, and the extensive ethics content in PSYC90008 is professional/clinical ethics with no digital or AI dimension. Level 3 (critique or governance of AI systems in the discipline's context) is therefore unreachable.",
+      "evidenceLines": [
+        "They will consider interventions in a range of modalities, including e-health.",
+        "Finally, they will be required to complete an online training module that provides training in awareness of the risks associated with the clinical placement environment and ways to manage or control for these risks.",
+        "Hurdle requirement: Online training as hurdle component to be completed prior to students commencing placement activities.",
+        "Students are also required to attend 4.5 hours of training in the administration and scoring of neurocognitive tests."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3 anchor is satisfied on its own terms: the program documents structured progression toward independent learning through a self-scoped research project. The thesis is required, not one route among several ('All subjects are compulsory'), and the extract documents the scoping sequence: PSYC90003 Literature Review requires students to determine their own research question by identifying a gap in the literature, feeding the required PSYC90095/PSYC90096 thesis, and PSYC90029 Graduate Research Methods assesses the self-scoped proposal by 20-minute oral presentation (40%) and a 3000-word proposal report (60%). R2 is met because the level is carried by assessment-table lines, not outcome statements. This is above level 2 (application to novel problems assessed) because the progression is toward the student scoping their own project, not applying taught method to a supplied novel case. The work-integrated-learning route to level 3 was not used; that evidence is housed in W3.",
+      "evidenceLines": [
+        "This review of the literature will enable them to determine a pertinent research question by identifying a gap in the literature.",
+        "Students will conduct their own research projects as outlined in PSYC90095 Thesis (Masters/coursework) Part 1 / PSYC90096 Thesis (Masters/coursework) Part 2.",
+        "This course consists of coursework, placement and a minor research thesis (6,000 to 10,000 words).",
+        "All subjects are compulsory.",
+        "Develop and complete a research proposal of relevance to a research question in clinical psychology or clinical neuropsychology.",
+        "Oral Presentation of research proposal",
+        "Report of a research proposal (including brief literature review, rationale, and proposed methodology and analysis)",
+        "Thesis (Masters/coursework) Part 1",
+        "Thesis (Masters/coursework) Part 2"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: students design and conduct an inquiry with methodology selection and data collection, assessed. PSYC90029 assesses a full research proposal including proposed methodology and analysis (60%) plus an oral presentation of it (40%), and a minor thesis of 6,000-10,000 words is a required component of the course. Held at 2 rather than 3 under the lower-level rule: level 3 additionally requires the methodology to be 'defended under scrutiny (viva, defence, or staged supervised review)', and the extract documents no such event for the thesis itself — the assessment pages for PSYC90095 and PSYC90096 are not in the extract, so no viva, defence, supervisory review or examination arrangement can be quoted. The 20-minute oral presentation of a research proposal is consistent with a staged supervised review but is a proposal-stage presentation rather than a documented defence of the completed inquiry, and ambiguity resolves down.",
+      "evidenceLines": [
+        "This course consists of coursework, placement and a minor research thesis (6,000 to 10,000 words).",
+        "Report of a research proposal (including brief literature review, rationale, and proposed methodology and analysis)",
+        "Oral Presentation of research proposal",
+        "Critically evaluate the importance of integrating theory, measurement, research design, empirical observation and inference for applied mental health research",
+        "Address internal and external validity questions through application of a range of data analytic approaches",
+        "Assess research designs relevant to their professional field of psychology.",
+        "Thesis (Masters/coursework) Part 1"
+      ]
+    },
+    "adaptiveness": 9,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: core assessment requires recognised professional genres of clinical psychology — a written clinical case formulation and treatment plan (PSYC90007, 100% of marks), a diagnostic work-up report and an oral demonstration of interview technique including a Mental State Examination (PSYC90125, 60% of marks), a role-play practical (PSYC90011, 30%) — and professional conduct is assessed through the ethics quiz on the APS and registration board guidelines and the ethical-dilemma case report. Held at 2 rather than 3 under the lower-level and one-construct-one-home rules: level 3 needs at least one core assessment delivered to, or judged by, a real external audience or practitioner with professional conduct or accountability explicitly among the assessed criteria. The only assessments judged by an external practitioner are placement hurdles (case histories judged 'to standard determined by placement supervisor'), which are placement evidence and are housed in W3; the case-conference presentation is judged 'to satisfaction of academic staff', i.e. the teaching team, which the anchor excludes. The extract also documents no assessed conduct criteria for the simulated/role-play tasks.",
+      "evidenceLines": [
+        "Written clinical case formulation",
+        "A written treatment plan",
+        "Oral presentation - demonstration of basic interview techniques, including Mental State Examination",
+        "Written report - diagnostic work up of case study",
+        "Practical class exercise (role-play)",
+        "Interpret and communicate assessment findings in oral and written formats, including formal psychological reports, using culturally appropriate language.",
+        "Online quiz (25 questions) covering ethical guidelines provided by Australian Psychology Society and the Australian Registration Board",
+        "Report addressing case study of ethical dilemma",
+        "Hurdle requirement: Attendance at, and participation, at 80% of case conference sessions each semester. Presentation of own clinical work to satisfaction of academic staff."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied several times over: core assessment reproduces a professional task end to end — a realistic problem supplied as case material, producing the artefact a practitioner produces (case formulation, intervention plan, treatment plan, diagnostic work-up, mental state examination). PSYC90023 assesses nothing but a case formulation (40%) and a formulation-plus-intervention-plan (60%), both 'based on case material provided'; PSYC90007 assesses a written clinical case formulation and a written treatment plan; PSYC90009 sets an observed written examination built around a video case study; PSYC90125 uses role-plays and simulated client interactions. Held at 2 rather than 3 under the lower-level rule. Level 3 requires such tasks to be the assessment spine AND at least one to carry a genuine constraint of practice. The evidence is consistent with both levels: the first year is densely case-based, but the only second-year non-placement subject page in the extract (PSYC90016) assesses MCQ quizzes and two 600-650 word written assignments, so 'at least one per stage' cannot be documented without importing placement evidence that houses in W3; and per R4 the extract nowhere documents the criteria used to judge any coursework task, so 'judged against criteria drawn from practice' rests on the artefacts being the profession's own rather than on any stated criteria. Ambiguity resolved downward.",
+      "evidenceLines": [
+        "Case Formulation: Development of a clinical case formulation, based on case material provided.",
+        "Intervention Plan (written): Development of a clinical case formulation and an ensuing intervention plan, based on case material provided.",
+        "Written clinical case formulation",
+        "A written treatment plan",
+        "Written report - diagnostic work up of case study",
+        "Observed Examination (written) - 1.5 hours which includes watching a video based case study",
+        "The subject will include opportunities for students to practise newly acquired skills through role-plays and simulated client interactions during the teaching sessions which are primarily full-day workshops.",
+        "A practical exercise",
+        "2 x MCQ quizzes based on material presented in Weeks 1-6",
+        "One written assignment based on material presented in Weeks 7-9"
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3 anchor is satisfied in every conjunct with quotable assessment evidence: substantial required work-situated learning (125 days of placement across a compulsory sequence of three placement subjects, 300 hours in Clinical Placement 1 and 350 hours each in Clinical Placements 2 and 3, in a real clinic and two external agencies); practitioner supervision (Psychology Board of Australia-approved registered psychologists and PBA-endorsed external supervisors); assessment (competency hurdles, four mental state examinations and five case histories judged to the placement supervisor's standard); accountability to the host (a placement contract, and a logbook checked and endorsed by the primary placement supervisor at least every fortnight, plus mid- and end-placement reviews); and structured reflection on professional practice (a required placement reflection to the satisfaction of the placement coordinator). This is a sequence in the core, not a single short placement, so it is above level 2.",
+      "evidenceLines": [
+        "Coursework consists of 14 classroom-based subjects taken over the two years of the course (see below) and 125 days of Placement (30 days in the first-year and 95 days in the second-year).",
+        "In their first year, all students assess and provide treatment for adult clients referred to the University of Melbourne Psychology Clinic. In addition, all students undertake two second year field placements- one where the focus is on assessment and treatment of children and/or adolescents and the other focussing on clinical work with adults.",
+        "Hurdle requirement: Attendance at placement on rostered placement days to accrue at least 150 hours direct client activity and a further 200 hours of indirect client related activity, including regular (weekly or equivalent as negotiated with the subject coordinator/clinical supervisor) attendance at supervision.",
+        "External supervisors must be registered psychologists and be a Psychology Board of Australia-approved higher degree supervisor.",
+        "Hurdle requirement: Satisfactory demonstration of competencies, informed by regular discussion between the placement coordinator, site clinical supervisor and other relevant educators, and the student.",
+        "Hurdle requirement: Completion of placement contract outlining the details of the learning agreement between student and supervisor.",
+        "Hurdle requirement: Submission of record of placement activities (including direct client hours, other client related activity and supervision hours- aka 'logbook'). Students must provide evidence that logbooks are checked and endorsed by their primary placement supervisor at least every fortnight.",
+        "Hurdle requirement: Completion of five case histories to a satisfactory standard, including mental state examination, history, diagnosis, formulation, and where relevant treatment recommendations, as appropriate to the placement context to standard determined by placement supervisor.",
+        "Hurdle requirement: Satisfactory completion of placement reflection (300-500 words) to satisfaction of placement coordinator."
+      ]
+    },
+    "workplace": 7,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "PASS on the anchor's first and second routes simultaneously: an all-compulsory specialist core and an accredited sequence. Every subject is compulsory, the course is APAC-accredited as 'the required sequence of subjects' for registration, and the structure is staged across first-year and second-year subject lists with methodological and clinical depth building from Principles of Psychological Assessment and Introduction to Assessment and Diagnosis through Advanced Psychopathology and Advanced Psychological Practice, and from Literature Review through Graduate Research Methods to the thesis. Content is disciplinary throughout, not generic or interchangeable.",
+        "evidenceLines": [
+          "All subjects are compulsory.",
+          "The course is accredited by the Australian Psychology Accreditation Council (APAC), providing the required sequence of subjects for graduates wishing to attain generalist registration as a psychologist in Australia as well as competency in knowledge and skills relevant to the clinical psychology specialisation.",
+          "In order to satisfy the requirements of the Master of Psychology (Clinical) students must complete the following subjects:",
+          "Accredited by the Australian Psychology Accreditation Council and recognised by the Australian Health Practitioner Regulation Agency (AHPRA)",
+          "Advanced Psychopathology",
+          "Thesis (Masters/coursework) Part 1"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "PASS: assessment requires defended trade-off decisions and live work with real uncertainty and accountability, not recall or scripted responses. PSYC90008 assesses resolution of ethical dilemmas through a case-study report and an essay that must be passed, alongside risk assessment and management including assessment of dangerousness; core clinical subjects require selecting among competing interventions and judging when a more complex intervention is warranted, and modifying interventions as a case formulation evolves; and clinical placements put students in front of real referred clients where risk must be assessed and managed. Recall-only assessment (the MCQ quizzes and LMS test) is present but is not the whole picture.",
+        "evidenceLines": [
+          "The exploration, clarification and possible resolution of selected ethical dilemmas commonly faced by psychologists will be covered and may include:",
+          "Report addressing case study of ethical dilemma",
+          "Assess client risk (ie suicidality, self-harm, harm to others) and implement appropriate responses;",
+          "Describe brief interventions that are appropriate to particular clients' needs and determine when more complex interventions are appropriate.",
+          "Apply knowledge to monitor client outcomes, identify barriers to treatment progress and modify interventions on the basis of an evolving case formulation and inter and intrapersonal changes.",
+          "An ability to confront and manage unfamiliar problems",
+          "Conducting assessments of risk, including consideration of information from multiple sources if appropriate;"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3, levels 0 vs 1: the level-0 declarative ('No digital/AI content in any core unit or program-level outcome') is falsified by exactly one clause — 'They will consider interventions in a range of modalities, including e-health' — so 0 cannot be asserted, while level 1's description of incidental/operational appearance fits the online risk-training module and neurocognitive-test administration training. Scored at the lowest level whose declarative is true of the extract, i.e. 1.",
+      "C5, levels 2 vs 3: a required primary-evidence project is documented (compulsory minor thesis), which is half of the level-3 conjunction, and the assessed 20-minute oral presentation of the research proposal is consistent with 'staged supervised review'. Because the thesis subject pages are absent and no viva, defence or supervised methodology review is quotable, the lower-level rule resolved this to 2.",
+      "W2, levels 2 vs 3: the first year is a dense spine of practitioner-artefact tasks with externally supplied case material (a listed genuine constraint of practice), supporting 3; but the only documented second-year non-placement assessment is MCQ quizzes and short written assignments, so 'at least one per stage' cannot be shown without importing placement evidence housed in W3, and no marking criteria drawn from practice are documented anywhere for coursework (R4). Resolved downward to 2.",
+      "W1, levels 2 vs 3: professional-genre assessment is repeated and progressive across the program, and placement hurdles are judged by an external registered-psychologist supervisor with logbook and contract accountability, which would satisfy level 3. That is placement evidence and, under one-construct-one-home, is scored in W3; the non-placement route to level 3 fails because the case-conference presentation is judged by academic staff (the teaching team) and no conduct criteria are documented for the simulated/role-play tasks. Resolved downward to 2. This is the sharpest interpretive fault line in this program and the most likely source of rater disagreement, since W1's level-3 anchor names practitioner and patient audiences that in a clinical program arise almost only on placement.",
+      "C2 vs W3: the mid-placement and end-placement reviews and the supervisor-informed competency discussions could be read as process-focused evidence of strategy adjustment over time (C2 level 3). They are placement evidence and were scored in W3; C2 was scored 1 after adversarial verification, which found no criterion-referenced appraisal of quality in any core assessment table.",
+      "C1 vs W3: 'Work effectively with a range of professionals and support staff in the workplace and communicate and collaborate effectively' is the strongest collaboration statement in the extract but is a placement learning outcome, so it was excluded from C1 per the explicit rule that placement evidence scores in W3, never in C1 or C4. C1 rests instead on the assessed Ways of Knowing interprofessional activity."
     ],
     "notScoreable": [
-      "C2 level-3 evidence (documented and justified reliance decisions on a tool, source or collaborator; defence of AI-output quality; assessed strategy adjustment over time) is entirely absent from the extract — no such assessment task appears in any core, elective or capstone page. Scored on the level-1 anchor from graduate-attribute text rather than inferred upward.",
-      "No 'Eligibility and requirements' page was captured for any subject, so the prerequisite-chain route to G1 could not be checked; G1 was passed on the independently documented all-compulsory-core route instead.",
-      "AGRI90082 Major Research Project Part 2 has no substantive content in the extract ('Refer to AGRI90080 Major Research Project Part 1 for further details' on every field, including its assessment page), so it contributed no independent evidence; the AGRI90080 assessment statement is documented as covering both parts.",
-      "Assessment pages were not captured for four electives (FOOD90040, FOOD90033, AGRI90057, AGRI90089, AGRI90012, AGRI90014, AGRI90076 Industry Internship, CHEM90055), so no elective-side evidence beyond FOOD90031/FOOD90032/FOOD90034/FOOD90028 was available. This does not affect C1–C5, whose level-2 and level-3 anchors turn on core and required-capstone assessment."
+      "No item was left wholly unscoreable, but five compulsory subjects have no page in the extract and their absence constrains the ceiling on C5, W1 and W2: PSYC90095 and PSYC90096 Thesis (Masters/coursework) Parts 1 and 2 (no overview or assessment page, hence no documented thesis assessment, examination or defence), PSYC90017 Advanced Psychological Practice 1, PSYC90010 Mental Health Issues Across the Lifespan, and PSYC90027 Clinical Psychology in Medical Settings (no second-year coursework assessment evidence beyond PSYC90016)."
     ],
     "verified": {
       "adversarial": true,
       "mechanical": true,
       "date": "2026-08-14"
     }
+  },
+  "746st": {
+    "C1": {
+      "score": 2,
+      "rationale": "Meets the level-2 anchor 'at least one core unit assesses collaborative practice — group projects with individual accountability': the core unit CVEN90035 assesses two group design reports in groups of five with a per-student workload equivalence (1500 and 500 words per student), i.e. group work with individual accounting. It does not reach level 3, which requires that assessed collaborative practice RECURS across the program AND that at least one assessment requires coordinating work across people AND tools/AI systems: the other core unit (CVEN90024) assesses only individual assignments and an exam, so collaboration sits in one of two core units, and nothing in the extract documents assessed role or tool allocation, or a division of work between people and systems. The teamwork statements in the CVEN90024 generic-skills list are outcome-level claims, which R2 caps at level 1 on their own.",
+      "evidenceLines": [
+        "One group design report in groups of 5 students. Equivalent to 1500 words per student, 35 hours. Intended Learning outcomes (ILOs) 2, 3, 4 and 5 are addressed in this assessment.",
+        "ILOs 3and 5 are addressed in this assessment.",
+        "A 2500 word assignment. ILOs 2 to 5 and 9 to 12 are addressed in this assignment.",
+        "One written examination. ILOs 1 to 12 are addressed in this examination.",
+        "Ability to function effectively as an individual and in multidisciplinary and multicultural teams, as a team leader or manager as well as an effective team member."
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Matches the level-1 anchor exactly: 'Reflection or self-assessment appears in outcomes or graduate attributes, but no core unit assesses it against criteria.' The program outcome claims critical reflection on theory and professional practice, but the two core units' assessment schedules (CVEN90035: two group design reports plus a written exam; CVEN90024: two assignments plus a written exam) contain no peer review, structured critique, portfolio against standards or marking against exemplars, so the level-2 requirement of criterion-referenced appraisal of quality in CORE assessment is not documented. Level 3 (documented and justified reliance decisions on a tool, source or collaborator) is not met anywhere in the core; the nearest evidence — independent hand-check of software output — sits in a selective, not the core.",
+      "evidenceLines": [
+        "Cognitive skills to demonstrate mastery of theoretical knowledge and to reflect critically on theory and professional practice of structural engineering;",
+        "One written three hour end-of-semester examination. ILOS 1 to 5 are addressed in this assessment.",
+        "One written examination. ILOs 1 to 12 are addressed in this examination.",
+        "ILO 9. Undertake independent checks of analysis results by hand calculations in support of structural engineering practice."
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Matches the level-1 anchor 'AI or digital tools appear only as electives or as tool operation/training — the operational level TEQSA identifies as non-durable.' Both core units document digital-tool operation only: computer/finite-element modelling and structural analysis using a commercial package. The level-2 requirement that core units address AI capabilities AND limitations/ethics, with use-with-limits discussed and assessed, is absent — the extract contains no gen-AI or AI-ethics content in either core unit or in any program-level outcome, and therefore no level-3 critique or governance of AI systems (bias, accountability, transparency, regulation, data governance) either.",
+      "evidenceLines": [
+        "Develop computer models for analysing structural systems in buildings",
+        "Undertake structural analyses of different types of structures using commercial package",
+        "Application of finite element analysis and design methods for modular and prefabricated buildings and steel structures under fires are also introduced to provide students with comprehensive knowledge of modern construction methods.",
+        "Skills acquired from the above topics will be integrated and applied to the assignment which consists of a detailed analysis of a typical high rise building."
+      ]
+    },
+    "C4": {
+      "score": 1,
+      "rationale": "Matches the level-1 anchor 'Transfer is claimed in outcomes (\"apply knowledge in new settings\") but not assessed': the course outcomes claim application of established theories to different bodies of knowledge or practice, creativity and initiative in new situations, and planning and executing a substantial piece of scholarship. Level 2 requires at least one CORE assessment to require application to novel or unfamiliar problems (case variation, unseen datasets, cross-context projects); the documented core tasks are a detailed analysis of a typical high rise building and design reports within the taught content, which the extract does not document as novel or unfamiliar. Level 3 fails outright: the 746ST structure contains no self-scoped capstone or research project in the core (its core is two taught subjects) and no assessed identification of one's own knowledge gaps with a plan to close them.",
+      "evidenceLines": [
+        "Cognitive, technical and creative skills to investigate, analyse and synthesise complex information, problems, concepts and theories and to apply established theories to different bodies of knowledge or practice in structural engineering;",
+        "With creativity and initiative to new situations in professional practice and/or for further learning;",
+        "To plan and execute a substantial piece of scholarship.",
+        "Skills acquired from the above topics will be integrated and applied to the assignment which consists of a detailed analysis of a typical high rise building.",
+        "Students must complete 100 points. This consists of a 2 subjects (25 points) which are selected from the Core Subjects, a minimum of 3 subjects (37.5 points) from Structural Engineering selectives and up to 3 subjects are selected from the Infrastructure Engineering electives."
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Matches the level-1 anchor 'Introductory methods unit; literature-review assessment' — research training exists but only off the core: the outcome states students will have HAD THE OPPORTUNITY to develop research principles and methods, research subjects are available only by approval among electives, and the only documented research-genre assessment in the extract (a 2000-word critical literature review) sits in an Infrastructure Engineering elective. Level 2 requires students to design and conduct an inquiry with methodology selection and data collection, assessed; neither core unit does this — both are taught design subjects assessed by design reports, assignments and exams. Level 3 fails because no substantial primary-evidence project is REQUIRED and no methodology defence (viva, defence, staged supervised review) is documented.",
+      "evidenceLines": [
+        "Had the opportunity to develop research principles and methods in the field of structural engineering;",
+        "Students may also choose one Infrastructure Engineering elective subject not in the list below. Research subjects are subject to approval.",
+        "One critical literature review of approximately 2000 words. ILOs 1, 2 and 5 are addressed in the review",
+        "Must complete both of the core subjects. Total of 25 points."
+      ]
+    },
+    "adaptiveness": 6,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1's first clause is squarely met — communication to engineering and non-engineering audiences appears in the course outcomes, and communicating effectively appears in the subjects' generic-skills lists, which under R2/Barrie cannot themselves lift the score. Level 2 requires at least one core assessment in a recognised professional genre OR to an audience beyond the teaching team, judged against criteria drawn from professional practice; the core assessment stock is group design reports, written assignments and closed examinations submitted to the marker, and while the design reports are code-based, the extract documents no audience beyond the teaching team, no assessed professional-conduct criteria and no spoken or oral assessment in either core unit. Level 3 (repeated, progressive professional communication with a real external audience or practitioner judge) is not documented at all.",
+      "evidenceLines": [
+        "Communication and technical research skills to justify and interpret theoretical propositions, methodologies, conclusions and professional decisions to engineering and non-engineering audiences;",
+        "One group design report in groups of 5 students. Equivalent to 1500 words per student, 35 hours. Intended Learning outcomes (ILOs) 2, 3, 4 and 5 are addressed in this assessment.",
+        "A 500 word assignment. Intended Learning Outcomes (ILOs) 2 to 5 and 9 to 12 are addressed in this assignment.",
+        "One written three hour end-of-semester examination. ILOS 1 to 5 are addressed in this assessment."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Meets the level-2 anchor 'at least one core assessment reproduces a professional task end to end: a real or realistic problem, producing the artefact a practitioner would produce, judged against criteria drawn from practice.' The core unit CVEN90035 assesses a group design report against outcomes that include applying Australian design codes and undertaking preliminary and detailed design — a design report judged against the profession's own codes is the artefact a structural engineer produces. Per R4 the phrase 'real-world structures' is not itself scored; the documented features (design report, code compliance, detailed design) carry the score. Level 3 is not reached: such tasks are not the assessment spine — both core units are weighted 60% and 70% to closed written examinations, with design tasks as a minority component and no documented scaffolded sequence or stage-by-stage recurrence, and no genuine constraint of practice (ambiguous or externally supplied problem, real resource/time limit, consequential audience) is documented.",
+      "evidenceLines": [
+        "One group design report in groups of 5 students. Equivalent to 1500 words per student, 35 hours. Intended Learning outcomes (ILOs) 2, 3, 4 and 5 are addressed in this assessment.",
+        "Apply Australian design codes to design steel and composite structures",
+        "Undertake preliminary and detailed design of real-world structures",
+        "Students will also experience design exercises of real-world structures from senior experienced practising engineers, which will place them at the forefront of both theory and practice.",
+        "One written three hour end-of-semester examination. ILOS 1 to 5 are addressed in this assessment.",
+        "One written examination. ILOs 1 to 12 are addressed in this examination."
+      ]
+    },
+    "W3": {
+      "score": 0,
+      "rationale": "Matches the level-0 anchor 'No work-integrated learning, placement, practicum or community-based project appears anywhere in the course structure.' The 746ST course structure is 25 points of two taught core subjects, a minimum of 37.5 points of Structural Engineering selectives and up to 37.5 points of Infrastructure Engineering electives; none of the listed subjects is a placement, practicum, internship or community-based project, and no practitioner supervision in a workplace setting is documented anywhere for this course. Level 1 would require work-situated learning to exist at least as an elective or optional internship, which the 746ST subject lists do not contain.",
+      "evidenceLines": [
+        "Students must complete 100 points. This consists of a 2 subjects (25 points) which are selected from the Core Subjects, a minimum of 3 subjects (37.5 points) from Structural Engineering selectives and up to 3 subjects are selected from the Infrastructure Engineering electives.",
+        "Must complete both of the core subjects. Total of 25 points.",
+        "Select a minimum of 3 subjects from the following list. Total of 37.5 points.",
+        "Select up to 3 subjects from the following list. Total of 37.5 points.",
+        "Students may also choose one Infrastructure Engineering elective subject not in the list below. Research subjects are subject to approval."
+      ]
+    },
+    "workplace": 3,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The gate PASSES on the 'coherent specialist core' route rather than the all-compulsory route: content is unmistakably structural-engineering-specific, not the generic or interchangeable content the FAIL condition names. Two compulsory structural subjects (25 points) plus a mandatory minimum of three subjects (37.5 points) drawn from a closed Structural Engineering selectives list constrain 62.5 of 100 points to the discipline, the stated major themes are structural, and the core documents build-on-prior-knowledge progression. Noted weakness against the anchor: only 25 of 100 points are all-compulsory and no staged prerequisite chain within the course is documented, so this is a PASS at the lower end.",
+        "evidenceLines": [
+          "The major themes of this course are: structural systems, conceptual design, sustainable design, extreme loading and advanced analysis techniques.",
+          "Must complete both of the core subjects. Total of 25 points.",
+          "Select a minimum of 3 subjects from the following list. Total of 37.5 points.",
+          "The subject builds on fundamental structural engineering knowledge and when learnt together with other structural engineering electives will provide students who successfully complete the subjects a well-rounded knowledge of a range of structural engineering design skills."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "The gate PASSES on the 'assessments require defended trade-off decisions' route and clearly avoids the FAIL condition of recall or scripted responses only. Core assessment in CVEN90024 (a 500-word and a 2500-word assignment addressing ILOs 2 to 5) requires developing conceptual designs of floor systems and of lateral load resisting systems — selection among competing structural systems under wind and earthquake loading — and the core CVEN90035 group design report requires preliminary and detailed design against Australian codes. The course frames its outcomes on complex, open-ended engineering tasks and problems. Noted limit: no viva, defence or documented adversarial scrutiny of the trade-offs appears in the extract, so the 'defended' element rests on the design-decision content of the assignments rather than on a documented defence event.",
+        "evidenceLines": [
+          "The Master of Engineering Structures aims to produce graduates who are both skilled in structural engineering principles and have the ability to apply them to complex, open-ended engineering tasks and problems.",
+          "Develop conceptual designs of floors using different floor systems",
+          "Develop conceptual designs of lateral load resisting systems for buildings",
+          "A 2500 word assignment. ILOs 2 to 5 and 9 to 12 are addressed in this assignment.",
+          "Undertake preliminary and detailed design of real-world structures"
+        ]
+      }
+    },
+    "ambiguities": [
+      "Scope of 'core'. The extract also contains the course-structure page for a DIFFERENT course, the Master of Engineering Structural specialisation (mc-eng-spec-17, 300 points), whose core includes ENGR90037/ENGR90038 Engineering Capstone Project and whose elective list includes ENGR90033 Internship, and it contains the subject and assessment pages for that course's core (CVEN30008, CVEN30009, ENEN20002, ENGR20004, ENGR30002, MAST20029). 746ST's own structure page defines its core as exactly two subjects, CVEN90024 and CVEN90035. R1 (score what the handbook documents for this program) resolved this: only CVEN90024 and CVEN90035 were treated as core for 746ST, and the capstone and internship of the other course were NOT scored in C4, C5 or W3. Had the mc-eng-spec-17 core been treated as 746ST's, C4/C5 (capstone) and W3 (elective internship) would score higher.",
+      "C4 straddled levels 1 and 2. The core CVEN90035 group design report addresses 'Undertake preliminary and detailed design of real-world structures', which could be read as application to a novel problem (level 2), but the extract documents no feature establishing the problem as novel or unfamiliar, and the CVEN90024 assignment is explicitly an integration of the taught topics onto a typical high rise building. Scoring direction (never resolve ambiguity upward) fixed it at 1.",
+      "C5 straddled levels 0 and 1. Level 0 asserts 'no research-methods training', which is too strong given the outcome 'Had the opportunity to develop research principles and methods' and the availability of approved research subjects and an elective critical literature review; level 1's anchor ('introductory methods unit; literature-review assessment') is the better fit even though none of it is core. Scored 1, the lower of the two levels that could describe an inquiry-capable program, with the note that nothing in the core assesses inquiry.",
+      "W1 straddled levels 1 and 2. A code-compliant structural design report is arguably a recognised professional genre judged against criteria drawn from practice (level 2), but no audience beyond the teaching team, no assessed conduct criteria and no oral or spoken assessment appear in either core unit. Scoring direction fixed it at 1; the report's task fidelity was scored in W2 instead, per 'one construct, one home'.",
+      "W2 straddled levels 2 and 3. Design-report tasks appear in both core units, which could be read as a spine, and 'Apply Australian design codes' is the profession's own standard of performance. But examinations carry 60% and 70% of the two core units and no scaffolded progression or capstone is documented, so the tasks are not the assessment spine. Scored 2.",
+      "C2 versus C3 boundary. CVEN90018 ILO 9 ('Undertake independent checks of analysis results by hand calculations') is the strongest reliance-on-a-tool evidence in the extract and would be C2 rather than C3 material, but CVEN90018 is a Structural Engineering selective, not core, so it could not satisfy C2 level 2 or 3, both of which require core assessment.",
+      "Selectives are not core. Students must take a minimum of three from the five Structural Engineering selectives but no individual selective is required of every student, so selective evidence (e.g. the CVEN90016 group laboratory experiment, the CVEN90017 group assignments) was not used to satisfy anchors worded 'core unit' or 'core assessment'."
+    ],
+    "notScoreable": [
+      "W1 level-1's second clause (whether core assessment adds a presentation to peers or staff) could not be verified positively or negatively for professional CONDUCT criteria: the extract's core assessment tables list description, timing and percentage only, and carry no marking criteria, so no statement about assessed standards of reliability, ethics or accountability is available for either core unit.",
+      "C3's AI dimension has no evidence of any kind in the 746ST core: the extract documents no gen-AI content, AI ethics, or AI governance in CVEN90024 or CVEN90035 or in the course-level outcomes. The level-1 score rests on documented digital-tool operation, not on any AI evidence; a program-level AI statement, if one exists, is absent from this extract."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-14"
+    },
+    "instrument": "4.1-draft"
+  },
+  "mc-apbusa": {
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: core units assess collaborative practice as group projects, and one capstone assessment documents individual accountability inside the group work (an attendance-and-contribution hurdle). Not level 3: although assessed collaboration recurs across the program, no assessment line documents coordinating work across people AND tools/AI systems — there is no documented role-and-tool allocation and no task where the division of work between people and systems is itself assessed. The Programming for Analytics outcome about environment management 'to support collaborative development' is an outcome, not an assessment, so R2 bars it from lifting the score.",
+      "evidenceLines": [
+        "Work effectively in teams on complex data-driven projects",
+        "Syndicate Project 1 portfolio (normally in groups of 4 - 5 students)",
+        "Syndicate assignment (normally in groups of 4 - 5 students)",
+        "Group Project (groups of 2 students)",
+        "Syndicate case assignments; (4 - 5 students in each group)",
+        "Hurdle requirement: Students need to attend & contribute to the group work to pass the subject"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Held at level 1: reflection is present and a capstone Reflection Essay carries 20%, but nothing in the extract documents criterion-referenced appraisal of the quality of work — no peer review, structured critique, portfolio against standards, or marking against exemplars. The evaluation language ('evaluate the benefits and disadvantages of different methodologies', 'assess the strengths and weaknesses of AI techniques') is stated in intended learning outcomes, which R2 forbids scoring, and the appraisal target is a method, not a piece of work. Level 3 is not approached: no assessment requires students to document or justify reliance decisions on a tool, source or collaborator, or to defend judgements of AI-output quality.",
+      "evidenceLines": [
+        "Reflection Essay",
+        "Group problem interpretation: challenge identification and possible solution methodologies (normally in groups of 3 - 4 students)",
+        "Evaluate the benefits and disadvantages of using different methodologies, analytical approaches, and software to address the marketing-related business problem.",
+        "Assess the strengths and weaknesses of AI techniques in business contexts."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2 anchor is met squarely: a compulsory subject addresses AI capabilities AND limitations/ethics, and its content is assessed (case study, knowledge checks, and a final examination that is a pass hurdle). Held below level 3 under the ambiguity-downward rule: the level-3 anchor requires the ASSESSMENT to require critique or governance of AI systems, and the assessment lines are generic ('Case Study', 'Final Examination') — governance, regulation and accountability appear only in the subject description and its intended learning outcomes, which R2 makes insufficient for a 3. The programme is therefore documented as teaching AI governance without documenting that it assesses it.",
+      "evidenceLines": [
+        "AI and Ethics in Analytics (BUSA90577)",
+        "50 credit points of Compulsory subjects",
+        "This subject provides a foundational understanding of Artificial Intelligence (AI) in the context of business analytics, with a strong emphasis on ethical concerns.",
+        "Topics include algorithmic bias, data privacy, fairness, transparency, accountability, and the regulatory landscape governing AI.",
+        "Develop strategies for ensuring compliance with regulations, and fostering appropriate AI governance within organisations.",
+        "Case Study",
+        "Hurdle requirement: Students are required to pass the final examination to pass the subject."
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2 is documented: a required 25-point project applies the taught methods to a concrete, previously unfamiliar business problem over 20 weeks, and case-based syndicate assignments apply methods to varied business contexts. Not level 3: the level-3 anchor needs a self-scoped capstone or research project, or assessed identification of one's own knowledge gaps with a plan to close them. The capstone is a team project whose problem and data are supplied to the students ('the data provided'), and no assessment line requires students to identify their own knowledge gaps. Ambiguity resolved downward.",
+      "evidenceLines": [
+        "25 credit points of Capstone subjects or 25 credit points of Research Pathway subject",
+        "The subject integrates academic learning and practical challenges in modelling, solving and implementing an optimisation solution to a concrete business problem via a project undertaken over 20 weeks.",
+        "Develop the skill to interpret real business problems in supply chain or revenue management with ambiguity into mathematical optimisation models.",
+        "Implementation skills: These skills include (1) selecting the right software and/or computer language to code the optimisation algorithms proposed and (2) handling and cleaning the data provided to use as input to the optimisation algorithm developed.",
+        "Syndicate case assignments; (4 - 5 students in each group)"
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 1 anchor fits: there is an introductory methods unit covering probability, statistics, inference and sample statistics. Level 2 requires students to design and conduct an inquiry with methodology selection AND data collection, assessed — methodology selection is assessed (a hurdle 'problem interpretation' task and a 3500-word syndicate research report), but data collection is not merely undocumented, it is contradicted: the capstone describes cleaning 'the data provided'. Nothing in the extract documents students generating primary evidence, so level 3 (a required substantial primary-evidence project with methodology defended under scrutiny) is well out of reach even though the oral presentation is a hurdle.",
+      "evidenceLines": [
+        "The subject introduces foundational concepts within, mathematics, probability and statistics, and demonstrates their applications in business settings.",
+        "Students learn the concepts of probability and random variables, descriptive statistics and their use, the meaning and interpretation of common business variables, and applications of sample statistics and inference.",
+        "Group syndicate research report (normally in groups of 3 - 4 students)",
+        "Implementation skills: These skills include (1) selecting the right software and/or computer language to code the optimisation algorithms proposed and (2) handling and cleaning the data provided to use as input to the optimisation algorithm developed.",
+        "Individual Research Project"
+      ]
+    },
+    "adaptiveness": 8,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1 anchor matches exactly: communication to technical and non-technical audiences appears in the course outcomes and graduate attributes, and core assessment adds presentations — syndicate presentations and a 40-minute capstone oral presentation carrying a hurdle. Level 2 requires a recognised professional genre or an audience beyond the teaching team, judged against criteria drawn from professional practice; no assessment line names a client brief, consultancy or policy advice, pitch or public-facing artefact, and no audience beyond the teaching team is documented. Barrie's constraint applies with full force: the 'non-technical audience' language sits in outcomes and attributes, never in an assessment description, so R2 bars it from lifting the score.",
+      "evidenceLines": [
+        "Effectively communicate the results of a technical analysis to technical and non-technical audiences",
+        "Communicate the results of technical analysis to both technical and non-technical audiences effectively.",
+        "Communicate analytical insights to a non-technical audience via effective data visualisations.",
+        "Syndicate project: Presentation (4 - 5 students in each group)",
+        "Group syndicate oral presentation (normally in groups of 3 - 4 students)"
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Demoted from 2 to 1 on adversarial review. The level-2 anchor is conjunctive — a real or realistic problem AND the practitioner's artefact AND judgement against criteria drawn from professional practice — and two of the three clauses fail on the documentation. No marking criteria or rubrics appear anywhere in the extract, so the criteria clause cannot be met; treating that as 'undocumentable rather than evidence against' inverts R1 and the ambiguity-downward rule, and is inconsistent with the C5 treatment where a missing half of a conjunctive anchor forced the drop. The artefacts are a group syndicate research report and a reflection essay — academic genres, not the deliverable a practising analyst produces, which is level 1's condition that the artefact and criteria remain academic. Provenance compounds this: the lines carrying the level-2 case come from capstone subjects listed 'Not available in 2026', the syndicate case assignments come from an elective rather than the core, and the 'real-world case studies' phrasing is an R4-barred label from an unavailable elective. Level 1 is squarely met by the compulsory AI-and-ethics case study and the elective case assignments: methods are applied to case material, but the artefact produced and the criteria applied remain academic. The assessment spine is hurdle final examinations at 40–50% across nearly every core subject.",
+      "evidenceLines": [
+        "The subject integrates academic learning and practical challenges in modelling, solving and implementing an optimisation solution to a concrete business problem via a project undertaken over 20 weeks.",
+        "Group syndicate research report (normally in groups of 3 - 4 students)",
+        "Hurdle requirement: Students need to pass this assessment to pass the subject",
+        "Hurdle requirement: Students are required to pass the final examination to pass the subject",
+        "Syndicate case assignments; (4 - 5 students in each group)",
+        "Case Study",
+        "Reflection Essay"
+      ],
+      "adjudication": {
+        "originalScore": 2,
+        "demotedTo": 1,
+        "reason": "Conjunctive level-2 anchor fails on two clauses: no marking criteria drawn from professional practice are documented anywhere in the extract, and the artefacts (syndicate research report, reflection essay) are academic genres. Supporting lines also come from capstones marked 'Not available in 2026' and from an elective, and one line is an R4-barred 'real-world' label."
+      }
+    },
+    "W3": {
+      "score": 0,
+      "rationale": "Level 0 anchor is met on the face of the course structure: the 150 points are enumerated as foundational core, compulsory, elective and capstone/research-pathway subjects, and no placement, practicum, internship, live client project or community-based project appears anywhere in that structure or in any subject page in the extract. Not even level 1 (an elective or optional internship) is reachable, since no such option is listed. The only workplace language is a capstone outcome claiming skills are put into practice 'in a workplace context' — an outcome statement with no host, no practitioner supervision and no accountability to a host, which the construct requires and R2 bars from scoring.",
+      "evidenceLines": [
+        "The Master of Applied Business Analytics requires the successful completion of 150 credit points.",
+        "50 credit points of Foundational Core subjects",
+        "50 credit points of Compulsory subjects",
+        "25 credit points of Elective subjects",
+        "25 credit points of Capstone subjects or 25 credit points of Research Pathway subject",
+        "Put into practice communication, interpersonal, organisational and time management skills in a workplace context."
+      ]
+    },
+    "workplace": 2,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program documents a coherent specialist core with progressive technical depth: 100 of 150 points are foundational core plus compulsory analytics subjects, running from a foundations unit in mathematics, probability and statistics through predictive modelling to machine learning, and closing on a required 25-point project. The stated design is explicitly foundation-to-advanced within one discipline, not generic interchangeable content.",
+        "evidenceLines": [
+          "The course will cover foundation and advanced data analytics techniques, as well as frameworks for applying those techniques to a variety of business contexts.",
+          "50 credit points of Foundational Core subjects",
+          "50 credit points of Compulsory subjects",
+          "Foundations of Data Analytics (BUSA90578)",
+          "Adv Bus Analytics: Machine Learning (BUSA90568)",
+          "25 credit points of Capstone subjects or 25 credit points of Research Pathway subject"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Assessment goes beyond recall or scripted response: a compulsory decision-analytics subject is built on modelling decisions under uncertainty and bias and terminates in a hurdle-gated modelling project, and the required capstone asks students to translate an ambiguous business problem into a model and defend the choice of algorithm, with the report and presentation both hurdles. Judgement under ambiguity is also a course-level outcome, though the gate is carried by the assessed work rather than that statement.",
+        "evidenceLines": [
+          "Make appropriate judgements about how to proceed in an environment with ambiguities and/or bias in data",
+          "Structure and analyse mathematical models of decision problems, including decision trees, optimisation, and simulation.",
+          "Final modelling project",
+          "Hurdle requirement: Students need to pass the final exam to pass the subject",
+          "Develop the skill to interpret real business problems in supply chain or revenue management with ambiguity into mathematical optimisation models.",
+          "Group syndicate research report (normally in groups of 3 - 4 students)"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C2 straddled levels 1 and 2. The assessed Reflection Essay (20% of the capstone) and the hurdle 'problem interpretation' task are appraisal-adjacent, but neither is documented as criterion-referenced appraisal of the quality of work. Resolved down to 1 by the ambiguity-downward rule plus R2.",
+      "C3 straddled levels 2 and 3. AI governance, regulation, accountability and transparency are explicit subject content and outcomes in a compulsory subject, but the assessment lines are generic ('Case Study', 'Final Examination') and never state that critique or governance is what is assessed. Resolved down to 2 by the level-3 requirement that assessment evidence, not outcome statements, carry the score (R2).",
+      "C4 straddled levels 2 and 3. A substantial project is required of every student, which reads toward level 3, but it is team-based with a supplied problem and supplied data, so it is not documentably self-scoped, and no assessment requires students to identify their own knowledge gaps. Resolved down to 2.",
+      "C5 straddled levels 1 and 2. Methodology selection is genuinely assessed under hurdle conditions, but the second half of the level-2 anchor — data collection — is contradicted rather than merely absent, the capstone describing 'the data provided'. Resolved down to 1.",
+      "W1 straddled levels 1 and 2. The 40-minute capstone oral presentation with a hurdle is substantial and the outcomes repeatedly promise communication to non-technical audiences, but no assessment line names a professional genre or an audience beyond the teaching team. Resolved down to 1 under R2 and the Barrie constraint on stated attributes.",
+      "W2 was scored 2 on first pass and demoted to 1 on adversarial review. The level-2 anchor is conjunctive and the 'judged against criteria drawn from professional practice' clause fails outright — no marking criteria or rubrics appear anywhere in the extract — while the artefacts (syndicate research report, reflection essay) are academic genres rather than the practitioner's deliverable. The first-pass reasoning treated the missing criteria as 'undocumentable rather than evidence against', which inverts R1 and is inconsistent with its own C5 treatment. Supporting lines also came from capstones marked 'Not available in 2026', from an elective rather than the core, and from an R4-barred 'real-world case studies' label.",
+      "Course-structure caveat affecting C4, C5, W2 and G1: the capstone evidence comes from subject pages flagged 'Not available in 2026' — all four Capstone options are listed as unavailable, as are three subjects in the compulsory and foundational-core lists, leaving the Research Pathway as the only project route actually on offer in 2026. Scored on the documented 2026 curriculum structure per R1, with the availability note recorded here rather than used to lower scores.",
+      "Core membership is itself partly elective: 50 points are chosen from six listed foundational-core subjects (75 points) and 50 from five listed compulsory subjects (62.5 points), so a given student may not take every subject cited above. Only AI and Ethics in Analytics and Analytics for Business Decisions appear on both lists, and the C3 score depends on the former being taken.",
+      "C1 versus W1 boundary: the syndicate presentations were scored once only, in W1 as communication, not again in C1 as coordination, per the one-construct-one-home rule."
+    ],
+    "notScoreable": [
+      "BUSA90504 Individual Research Project — the only capstone or research-pathway subject actually available in 2026 — has no overview, outcomes or assessment page in the extract. Its contribution to C4 (self-scoped project), C5 (primary evidence generation and methodology defence) and W2 could not be assessed, and it is the single most likely source of upward revision if captured.",
+      "BUSA90573 Investment Analytics Project and BUSA90579 Applied Business Analytics Project have no subject or assessment pages in the extract; the capstone evidence rests on the two project subjects that were captured (BUSA90572, BUSA90574).",
+      "No marking criteria or rubrics appear anywhere in the extract, so the 'judged against criteria drawn from practice' clause of W2 level 2 and the 'criterion-referenced' clause of C2 level 2 could not be verified from documentation for any subject."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-14"
+    },
+    "instrument": "4.1-draft"
+  },
+  "mc-arch": {
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: more than one core unit assesses collaborative practice with individual accountability — Applied Architectural Technology runs three graded group submissions alongside a hurdled individual detailing task, Architectural Practice assesses a group submission on project initiation and procurement, and Introduction to High-Performance Design assesses a group interim proposal. Not level 3: although assessed collaboration recurs across the core, the second conjunct fails — no core assessment requires coordinating work across people AND tools/AI systems, and nothing documents role-and-tool allocation or makes the division of work between people and systems itself assessable. Placement/community evidence is deliberately excluded here and scored in W3 (one construct, one home).",
+      "evidenceLines": [
+        "Group Project Submission 1 (3 students per group) | 3x A1 sheets",
+        "Individual Project Detailing , 3x A1 sheets",
+        "Group Project Submission :Letters and reports on project initiation and procurement scenarios",
+        "Assignment 2: Interim proposal (group work – 2‐3 students), 4 x A2 size panels",
+        "Assignment 3 : Final proposal oral presentation (group work: 2‐3 students, 500 word equivalent per student )",
+        "The ability to work individually and collaboratively to prepare and deliver a design project."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied by assessment evidence, not outcomes: the core design studios require hurdled booklets in which students critically evaluate their own developing design and document attainment against an external standard — the National Standard of Competency for Architects Performance Criteria — which is criterion-referenced appraisal of quality against published standards. Held at 2 rather than 3: the level-3 anchor needs documented and justified reliance decisions (on a tool, source or collaborator), defence of AI-output quality, or evidenced strategy adjustment over time. The booklets document and reflect upon iterative design exploration, which is close to the process-focused route, but 'strategy adjustment' and any reliance decision are nowhere named in the extract, so the lower level is taken per the ambiguity rule.",
+      "evidenceLines": [
+        "Booklet (Final): Re-submit revised and developed booklet containing evidence of application of Indigenous cultural competencies, knowledge of relevant architectural precedents and theories, design research to the design challenge; as well as iterative exploration and critical evaluation of the developing design. Format: A5 digital book, 96 pages +/-10% (inclusive of interim submission)",
+        "Hurdle requirement: A pass is required to pass overall subject.",
+        "Booklet (Interim): Document and reflect upon iterative design exploration and disciplinary research; and, document understanding of and engagement with relevant professional knowledge, in particular the following National Standard of Competency for Architects (NSCA) Performance Criteria (PC) PC3, PC12, PC16, PC18, PC23, PC24",
+        "Booklet (final): Booklet with completed and finalised tasks demonstrating attainment of NSCA Performance Criteria PC10, PC28, PC31, PC33, PC35, and PC45."
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor — AI appears as electives and digital content appears at the level of tool operation. AI is named in a core learning outcome in Architectural Practice, but R2 binds: that subject's four assessment tasks (procurement letters, contract-administration letters, class participation, invigilated exam) nowhere document AI or digital-technology content being assessed, so an outcome statement cannot carry level 2. Dedicated AI and machine-learning content sits in the architecture electives (AI in Architectural Design and Practice; Computational Design and Optimisation), and the core studios introduce 'digital tools' as technique support. Not level 2: no core unit is documented as addressing AI capabilities AND limitations/ethics with use-with-limits assessed; not level 3: no core assessment requires critique or governance of AI systems (bias, accountability, transparency, regulation, data governance).",
+      "evidenceLines": [
+        "Investigate and assess the impacts of disruptive change to the profession, such as new technologies, artificial intelligence and climate change, on architectural practice workflows, and business.",
+        "Invigilated written exam",
+        "ABPL90452\tAI in Architectural Design and Practice",
+        "Apply a variety of optimisation and machine learning techniques to solve design problems",
+        "Seminar series, workshops and/or online modules will introduce students to design theories, design techniques and digital tools related to the design challenge(s), as a creative and intellectual counterpoint to design-led exploration in-studio."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3 anchor — the program documents structured progression toward independent learning through a self-scoped capstone, and it is carried by assessment rather than outcome statements. Design Thesis is a required core capstone named in the course structure; students scope their own research question and thesis statement in an assessed Week 4 proposal, refine it in an assessed Week 8 interim crit, and are hurdled on a resolved thesis that explores that self-set question, with the studios explicitly framed around self-directed research inquiries. The staging (proposal to interim to resolved, each separately weighted) is the documented progression the anchor asks for. Ambiguity noted: 'opportunities for' is hedged language, but the assessed proposal task applies to all students in the subject.",
+      "evidenceLines": [
+        "250 points of core subjects (including the capstone subject: ABPL90169 Design Thesis).",
+        "These studios will allow opportunities for self-directed research inquiries/projects.",
+        "Preliminary Thesis Proposal: Oral presentation (7 minutes) of research questions, accompanied by critical evaluation of relevant precedents from practice and research, and a draft 'thesis statement'",
+        "Hurdle requirement: Must pass Resolved Design to pass the subject",
+        "The ability to prepare, structure, schedule, evaluate and deliver a substantial research or design-research project."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2 anchor — students design and conduct an inquiry that is assessed: the Design Thesis interim crit assesses a refined research question supported by site investigations, concept test models and multi-media experiments 'as appropriate to the research', and the core studios assess the application of design research techniques to explore a site's context. Held at 2 rather than 3 despite the capstone being required and reviewed in stages: the extract does not document that the project must generate primary evidence, nor that methodology itself is defended under scrutiny — the crits are described as design crits on the design, and no viva, methodology defence or data-collection requirement appears. Two of the three level-3 limbs are met and one is unevidenced, so the lower level is taken.",
+      "evidenceLines": [
+        "Interim design: Design crit comprising oral presentation (7 minutes) of refined research question accompanied by representations of design-in-progress, that might include including site investigations, sketches, drawings, maquettes, concept test models and/or digital multi-media experiments, as appropriate to the research.",
+        "Resolved Design: Fully resolved architectural design thesis that explores the research question presented in two forms: A5 digital book that records the research investigation through text and visual representations that may include drawings, digital multi-media and physical models as appropriate to the design; and Design crit (10 minutes)",
+        "Demonstrate an understanding of design as a form of research enquiry.",
+        "Apply design research techniques to iteratively explore the socio-cultural, environmental, economic, political and legal context of a site.",
+        "A knowledge of research and design-research methodologies and methods, including empirical and advanced research methods drawn from the sciences and humanities relevant to the discipline of architecture."
+      ]
+    },
+    "adaptiveness": 10,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 anchor — at least one core assessment requires a recognised professional genre: Architectural Practice assesses individually written letters and reports on contract-administration scenarios, in a subject whose criteria are drawn from professional practice (professional conduct responsibilities, liability, duty of care, regulatory obligations), and Design Studio C assesses a concept presentation whose representations must suit consultation with clients, stakeholders and users. Not level 3: the second conjunct fails. Professional communication does recur across the studios and thesis, but no core assessment is documented as delivered to or judged by a real external audience or practitioner — the studio 'clients' are in scare quotes, the crits are internal, and no industry panel, public exhibition or external client judging is named; nor is professional conduct explicitly listed among the assessed criteria of any single task.",
+      "evidenceLines": [
+        "Individual Project Submission: Letters and reports on contract administration scenarios",
+        "Interpret and apply the architect's professional conduct responsibilities, including liability, duty of care, and other regulatory obligations, in both traditional and new forms of architectural services and evolving legal, environmental and social standards.",
+        "Concept Design: Design submission and verbal/visual presentation (7 minutes). Representations of the architectural design appropriate for consulting with 'clients'/stakeholders/users. Format: Concept model(s), 2 x A2 dwgs, or 10 pptx slides",
+        "Class Participation: in-class weekly interactive oral assessment related to the topics of the lectures.",
+        "Communicate the design vision in a clear and professional manner ."
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3 anchor — both conjuncts are documented in assessment. First, professional-fidelity tasks are the assessment spine, not a single instance: three 25-point core design studios (C, D, E) plus the 25-point capstone thesis each require the artefact a practitioner produces (resolved design drawings, models and documentation) under hurdle conditions, with earlier scaffolding in Applied Architectural Technology's staged design-development submissions. Second, at least one carries a genuine constraint of practice measured by the profession's own standards of performance, not a label: Studio E's resolved design and final booklet are assessed against named NSCA Performance Criteria, Studio D requires integration of NSCA spatial requirements and the Building Code of Australia, and Studio C's briefs are set on sites with legal and political complexity. Per R4 no credit is taken from the word 'real-world'; only the documented task features are scored. Appraisal of quality is excluded here and scored in C2.",
+      "evidenceLines": [
+        "Resolved Design; Design submission comprising oral presentation accompanied by representations appropriate for the design, and may include drawings, documentation of process work, digital multi-media, and physical models. NSCA Performance Criteria PC39 is met",
+        "Architectural designs produced by students will be expected to integrate selected spatial requirements set out in the National Standards of Competency for Architects (NSCA) and in the Building Code of Australia (BCA) and consider environmental and ethical impact.",
+        "Resolved Design: Design submission and verbal/visual presentation (10 minutes). Representations appropriate to show architectural design resolution. Format: equivalent to 2sqm (min) – 3sqm (max) of pin-up space; and model(s) - physical or digital.",
+        "Hurdle requirement: completion of the Design presentation and a pass in the Resolved Design is required to pass the subject.",
+        "Common to all studios will be sites that have cultural, environmental, political and legal complexities which designs will need to address.",
+        "Students explore and translate their own complex design propositions into an architectural proposal that considers:"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1 anchor — work-situated learning exists only as an elective. Neither core list (the 100-point first-year core, the 150-point second/third-year core, or the 250-point core of the 300-point program) contains a placement, practicum or community-based unit; the only community-based, off-campus offering, Bower Studio - Community Development, sits in the 25 points of architecture electives, and the workplace component of professional formation is explicitly located after graduation. Not level 2: no core unit places students in a real workplace or professional-community setting with practitioner supervision and assessment. Simulated client work in the studios is excluded here by construction and scores in W2.",
+      "evidenceLines": [
+        "ABPL90152\tBower Studio - Community Development",
+        "Winter Term (Off Campus)",
+        "25 points of architecture electives.",
+        "250 points of core subjects (including the capstone subject: ABPL90169 Design Thesis).",
+        "In addition, professional experience post-graduation is required to sit the registration examination."
+      ]
+    },
+    "workplace": 6,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program documents an all-compulsory specialist core inside an accredited sequence with staged depth: 250 of 300 points (or 150 of 200) are core, the core is a lettered design-studio progression (Studio A/B, then C, D, E) terminating in a required capstone thesis, and the whole sequence is the accredited academic requirement for architect registration with the ARBV and recognised by the RAIA and the Commonwealth Association of Architects. Content is disciplinary and non-interchangeable, so the FAIL condition (generic content without disciplinary identity) does not apply.",
+        "evidenceLines": [
+          "The Master of Architecture requires the successful completion of 300 credit points.",
+          "250 points of core subjects (including the capstone subject: ABPL90169 Design Thesis).",
+          "Completion of a three-year Bachelors degree in Architecture + the 2-year (entry point) of the Master of Architecture OR the 3-year (entry point) of the Master of Architecture meets the academic requirements for registration as an architect under the Architects Registration Board of Victoria.",
+          "The Master of Architecture is recognised for graduate membership to the Royal Australian Institute of Architecture (RAIA) and verified by Commonwealth Association of Architects."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Assessment requires defended trade-off decisions and capstone-scale work with real uncertainty. Architectural Practice requires students to evaluate procurement and contractual options and determine strategies balancing scope, cost, time and quality, and assesses that in scenario letters and reports plus a hurdled exam; the core studios set ill-defined briefs on sites with cultural, environmental, political and legal complexity, require critical evaluation of results against context and stakeholder needs, and defend the outcome in hurdled design crits. Recall-and-script-only would fail; that is not what is documented.",
+        "evidenceLines": [
+          "Analyse and evaluate diverse procurement methods and contractual relationships, to determine appropriate strategies for managing project scope, cost, time and quality.",
+          "Engagement with unexpected problems by identifying relevant solutions and risk mitigation strategies",
+          "Critically evaluate results in relation to the environmental and socio-cultural context, stakeholder needs and relevant design practices and theories.",
+          "Common to all studios will be sites that have cultural, environmental, political and legal complexities which designs will need to address.",
+          "Critically evaluate design outcomes in relation to relevant professional practices."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C2 straddled 2 and 3: the studio booklets are process-focused, hurdled and repeatedly submitted ('Document and reflect upon iterative design exploration'), which approaches the level-3 'evidence strategy adjustment over time' route, but no reliance decision on a tool, source or collaborator is named and 'strategy adjustment' is not documented. Lower level taken per the ambiguity rule.",
+      "C3 straddled 1 and 2: AI appears in a CORE learning outcome (Architectural Practice: impacts of new technologies and artificial intelligence on practice), which reads toward level 2, but none of that subject's four assessment tasks documents AI content being assessed. R2 (a capability in outcomes but never assessed scores 1) plus the lower-level rule resolved this to 1.",
+      "C4 straddled 2 and 3: 'These studios will allow opportunities for self-directed research inquiries/projects' is hedged, which would suggest self-scoping is one route among several. Resolved upward to 3 only because the assessed Preliminary Thesis Proposal requires every student to present their own research questions and draft thesis statement, and the resolved thesis is hurdled on exploring that question — i.e. the level-3 anchor is met by assessment evidence, not by the hedged sentence.",
+      "C5 straddled 2 and 3: the Design Thesis is required (not one route among several) and is reviewed in supervised stages at Weeks 4, 8 and final — two of the level-3 conditions — but the extract documents design crits on the design rather than a defence of methodology, and does not require primary-evidence generation or data collection. Lower level taken.",
+      "The Design Thesis evidence legitimately bears on C4 and C5. Split under 'one construct, one home': the self-scoping and staged progression toward independent work score in C4; the research-question inquiry and investigation score in C5. No line is used for both.",
+      "The Architectural Practice letters-and-reports tasks bear on C1 and W1. Split: the group submission (collaboration with individual accountability) scores in C1; the individual submission (professional genre) scores in W1.",
+      "W3 relies on the elective title 'Bower Studio - Community Development' and its off-campus delivery; the subject page is not in the extract, so its work-situated character is inferred from the structure listing. This cannot change the score, since it is an elective and no core placement exists — the item is capped at 1 either way."
+    ],
+    "notScoreable": [
+      "The 300-point program's first-year core subject pages are absent from the extract — ABPL90284 Master of Architecture Studio A, ABPL90285 Master of Architecture Studio B, ABPL90286 Construction Methods, ABPL90287 Design and Construction, ABPL90288 Architectural Cultures 1: Modernism and ABPL90289 Architectural Cultures 2: After Modernism appear in the structure but have no overview or assessment page. All items were therefore scored on the shared 150/250-point core (Studios C, D, E, Design Thesis, Architectural Practice, Applied Architectural Technology, Introduction to High-Performance Design, Twenty-first Century Architecture) plus the documented electives.",
+      "The elective ABPL90452 AI in Architectural Design and Practice has no subject or assessment page in the extract, so nothing beyond its existence and elective status could be scored for C3.",
+      "ABPL90430 Design with Country: Resilience Studio, named in the structure note as an approved substitution, has no page in the extract and was not scored."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-14"
+    },
+    "instrument": "4.1-draft"
+  },
+  "mc-base": {
+    "C1": {
+      "score": 2,
+      "rationale": "Meets the level-2 anchor: multiple core units assess collaborative practice as syndicate work in groups of 4-5 with a per-student word allocation, i.e. group tasks with individual accountability, and 'Collaborate with real business partners' sits in the program outcomes. Level 3 is not reached because no assessment in the extract requires coordinating work across people AND tools/AI systems — there is no documented role-and-tool allocation, and nothing where the division of work between people and systems is itself assessed. Under v4.1 the placement/live-project route to C1 level 3 has moved to W3, so the Senior Executive Project's workplace character is not scored here.",
+      "evidenceLines": [
+        "Data Driven Decision-Making: Syndicate assignment. 800-words each student with 4-5 students in each group.",
+        "Developing Strategy: Strategic challenge presentation (group of 4 - 5 students)",
+        "Organisational Behaviour: Syndicate Assignment (group of 4-5 students)",
+        "Ethical Leadership: Case preparation and syndicate case discussion (group of 4 – 5 students)",
+        "Work effectively in diverse teams",
+        "Collaborate with real business partners to apply knowledge in projects"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Reflection is named in component outcomes and appears as assessed tasks, but the extract nowhere documents criterion-referenced appraisal of the quality of work — no peer review against criteria, no structured critique, no portfolio judged against standards, no marking against exemplars. The assessed reflection pieces are reflection on ethical dilemmas and on a field study, not appraisal of work quality, so the level-2 anchor is not satisfied on documented evidence (R1). Level 3 is far off: nothing requires students to document or justify reliance decisions on a tool, source or collaborator. Evidence straddles 1 and 2; resolved down per the lower-level rule.",
+      "evidenceLines": [
+        "Ethical Leadership: Written Reflection Assignment",
+        "Individual reflection piece",
+        "Develop reflection and influencing skills to leverage advanced leadership models and analytical tools for addressing complex organisational issues",
+        "You will undertake a leadership diagnostic to understand your areas of strength and areas for leadership capability development for you to focus upon throughout the program.",
+        "In this final module, students will present the outcomes of their project to faculty, industry mentors and peers, receiving feedback on the process and findings of their work."
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Digital content in the core is strategic and analytic rather than governance-focused: data analysis technique and modelling in Foundations of Decision-Making, and emerging-technology strategy in Technology & Innovation. Level 2 requires core units to address AI capabilities AND limitations/ethics with use-with-limits assessed; the extract documents ethics of 'emerging technologies' generically and never documents AI capabilities or limitations, and AI appears only as one possible cohort theme ('such as ESG or AI'). Scoring the strategic-technology content up to 2 would infer AI treatment the handbook does not document (R1). Level 3 (critique or governance of AI systems in the discipline's context) has no assessment evidence at all.",
+      "evidenceLines": [
+        "It delves into key concepts such as disruptive innovation, digital transformation, and competitive advantage in the context of emerging technologies.",
+        "Apply data analysis techniques and computational frameworks to evaluate business situations and support effective decision making.",
+        "Critically evaluate the ethical responsibilities of organisations, including those related to social responsibility, supply chains, modern slavery and emerging technologies, in order to integrate ethical priorities into organisational purpose, strategic goals, and governance.",
+        "Each cohort will focus on a specific, high-impact theme—such as ESG or AI—ensuring a deep, interdisciplinary exploration of a strategic challenge.",
+        "Technology & Innovation: Individual assignment"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Meets the level-3 anchor's self-scoped-project route with assessment evidence (R2): the Senior Executive Project is a student-scoped consulting/research project on an organisation of the student's own choosing, staged across five core subjects (I to V) with scoping, a viability pitch, budgeting, and a final individual assignment carrying a hurdle. The Leading with Influence strand additionally documents assessed identification of one's own development gaps and a plan to close them — a leadership diagnostic at entry and a career action plan presented at exit. This is structured progression toward independent learning, not merely application to novel problems (level 2). Only the self-scoping and gap-identification features are scored here; the project's workplace-participation features are scored in W3 and its task fidelity in W2.",
+      "evidenceLines": [
+        "This subject offers an action-learning opportunity where senior executive MBA students conduct research and provide consulting for their own or another organisation, addressing a current global issue.",
+        "In this module, we set the foundation for the project by addressing topics essential for project delivery including project scoping, diagnosing organisational problems through data and insights, assessing organisational readiness for change and presentation skills.",
+        "In this module, students will pitch their proposed projects for feedback from faculty, industry advisors and peers.",
+        "Senior Executive Project: Individual Assignment",
+        "2500 words (equivalent)",
+        "Hurdle requirement: Students must pass this assessment in order to pass the subject.",
+        "You will undertake a leadership diagnostic to understand your areas of strength and areas for leadership capability development for you to focus upon throughout the program.",
+        "Working with industry mentors, you will refine your leadership brand and narrative for your future leadership roadmap, culminating in a presentation on your leadership journey to-date and action plan for your career."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Meets level 2: a compulsory field-study subject requires students to design and conduct an inquiry — an industry consulting study in a developing Asian market — with primary research named in the outcomes and the inquiry assessed through a staged briefing, presentation and final report. Level 3 is not reached because the extract does not document that a substantial project generating PRIMARY evidence is required (the Asia outcomes pair primary with secondary research skills, and the Senior Executive Project is described as research-and-consulting without specifying primary data generation), and no methodology defence under scrutiny is documented — the project presentations are described as receiving feedback, not as a viva, defence or staged supervised methodological review. Ambiguity resolved downward.",
+      "evidenceLines": [
+        "The main deliverable in the subject is a detailed, highly-integrated research report describing a consulting study in one of the developing markets of Asia.",
+        "Developed primary research skills as a basis for identifying challenges and opportunities confronting selected industries in diverse contexts",
+        "Developed secondary research skills as a basis for identifying challenges and opportunities confronting selected industries in diverse contexts",
+        "Syndicate initial project briefing",
+        "Syndicate final report",
+        "Apply data analysis techniques and computational frameworks to evaluate business situations and support effective decision making."
+      ]
+    },
+    "adaptiveness": 9,
+    "W1": {
+      "score": 2,
+      "rationale": "Meets level 2: core assessment requires recognised professional genres rather than only academic genres addressed to the marker — a syndicate project briefing, a consulting study report, and assessed syndicate presentations, plus a 15-minute interactive oral exam. Level 3 fails on both of its conjuncts: the appearances before industry advisors and mentors are documented as occasions for feedback, not as assessment items delivered to or judged by an external audience, and professional conduct or accountability is nowhere documented among assessed criteria — 'Communicate effectively, in oral, written and digital forms' is a stated generic skill, which Barrie forbids scoring (R2). Resolved down.",
+      "evidenceLines": [
+        "Syndicate initial project briefing",
+        "Syndicate presentation (equivalent to individual 1000 word assessment)",
+        "The main deliverable in the subject is a detailed, highly-integrated research report describing a consulting study in one of the developing markets of Asia.",
+        "Data Driven Decision-Making: 15 minute interactive oral exam",
+        "In this final module, students will present the outcomes of their project to faculty, industry mentors and peers, receiving feedback on the process and findings of their work.",
+        "Communicate effectively, in oral, written and digital forms"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2 holds and level 3 does not (demoted on adversarial review). Level 2: core assessment requires students to produce the artefact a practitioner would produce on a real problem — the Industry Studies in Asia deliverable is a consulting study report on a real industry in a developing Asian market, and the Senior Executive Project is an action-learning consulting engagement in a real organisation, assessed through syndicate briefing, presentation and report. Level 3 fails on its second conjunct, a genuine constraint of practice documented in the assessment task itself (R4). The problem is student-selected rather than externally supplied ('their own or another organisation'; 'students will pitch their proposed projects'). The '7-day field study' descriptor is documented only for Industry Studies in America and Industry Studies in Europe, is absent for the Asia subject, and in any case describes the subject's delivery format rather than a constraint carried by an assessment task. The industry-advisor and mentor appearances are documented as feedback occasions, not as judged external assessment — the same reading applied in W1 and W3, so it cannot be read the other way here. Budgeting, financing and 'project viability and feasibility' appear only in module-description prose and in no assessment row. With the level-2 'criteria drawn from practice' element already read charitably (no assessment criteria are published anywhere in the extract), the extra level-3 conjunct cannot also be read charitably; ambiguity between 2 and 3 resolves down. Scored on task fidelity only — workplace participation is scored in W3 and appraisal of quality is excluded to C2.",
+      "evidenceLines": [
+        "The main deliverable in the subject is a detailed, highly-integrated research report describing a consulting study in one of the developing markets of Asia.",
+        "This subject offers an action-learning opportunity where senior executive MBA students conduct research and provide consulting for their own or another organisation, addressing a current global issue.",
+        "Syndicate initial project briefing",
+        "Syndicate final report",
+        "Syndicate project presentation (equivalent to individual 1000 word assessment)"
+      ]
+    },
+    "W3": {
+      "score": 2,
+      "rationale": "Meets level 2 via the level-2 anchor's named 'live client project' exemplar: the Senior Executive Project is core and compulsory, sited in a real organisation, supported by industry partners and project mentors, and assessed with hurdle requirements. Level 3 is not reached: the extract documents no extended placement or practicum and no sequence of them, no accountability to a host organisation, and no structured reflection on professional practice attached to the project (the 5,000-word reflection hurdle belongs to the Asia field study, not to the project). The field studies are 7-day visit-based subjects, not supervised participation in a workplace. Resolved down.",
+      "evidenceLines": [
+        "This subject offers an action-learning opportunity where senior executive MBA students conduct research and provide consulting for their own or another organisation, addressing a current global issue.",
+        "Emphasising collaboration with alumni and industry partners, students will engage with guest speakers and project mentors, enriching the learning experience and fostering connections to enhance the project’s impact.",
+        "Senior Executive Project: Individual Assignment",
+        "Hurdle requirement: Students must pass this assessment in order to pass the subject.",
+        "In this final module, students will present the outcomes of their project to faculty, industry mentors and peers, receiving feedback on the process and findings of their work."
+      ]
+    },
+    "workplace": 6,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "An all-compulsory specialist core: every one of the ten subjects is core, and the sequence is staged from Foundations of Decision-Making through leadership, value creation and uncertainty modules to a named consolidation subject, with the Leading with Influence and Senior Executive Project strands running I to V across it. This is a coherent core with progressive depth, not generic interchangeable content.",
+        "evidenceLines": [
+          "The total number of credit points is 225 and all subjects are compulsory core subjects.",
+          "This program is specifically designed for senior executives with a minimum 10 years of management experience.",
+          "In order to pass the subject, students are required to pass each component.",
+          "In this module, we set the foundation for the project by addressing topics essential for project delivery including project scoping, diagnosing organisational problems through data and insights, assessing organisational readiness for change and presentation skills."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Assessment goes well beyond recall or scripted response: a whole core subject is built on leading through uncertainty, component outcomes require decision-making under uncertainty, ambiguity and time pressure and the design of strategy for high-stakes auction and tender settings, and the live consulting project requires defended trade-off decisions about project viability, feasibility and financing under real organisational conditions. These sit behind hurdle-weighted individual assignments.",
+        "evidenceLines": [
+          "Apply insights from neuroscience and behavioural science to improve executive decision-making under uncertainty, ambiguity, and time pressure, particularly in high-stake environments.",
+          "Design strategic approaches for high-stakes competitive environments, including auction and tender processes, to maximise value capture and strengthen the firm's market performance.",
+          "The focus will be on assessing project viability and feasibility as well as how to improve on their presentation skills.",
+          "Developing Strategy: Strategic challenge write-up",
+          "Technology & Innovation: Individual assignment"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C2 straddled levels 1 and 2: assessed reflection tasks exist and carry hurdles (Ethical Leadership written reflection; 5,000-word individual reflection piece), but the extract never documents criterion-referenced appraisal of the quality of work — no criteria, exemplars, peer-review structure or standards are described anywhere in the handbook text. Resolved to 1 by the lower-level rule and R1.",
+      "C3 straddled levels 1 and 2: core units do treat digital transformation, emerging technologies and the ethics of emerging technologies, which is more than the 'electives or tool operation' picture of level 1, but no AI capabilities or limitations content is documented, and AI appears only as one illustrative cohort theme. Resolved to 1 by the lower-level rule.",
+      "C5 straddled levels 2 and 3: a required field-study inquiry with primary research skills in its outcomes and staged assessed deliverables would reach 3 if primary evidence generation were required and methodology were defended, but the outcomes pair primary with secondary research and the project presentations are described only as receiving feedback. Resolved to 2.",
+      "W1 straddled levels 2 and 3: professional genres recur (briefing, consulting report, presentations, oral exam) and industry advisors and mentors are present, but their role is documented as feedback rather than assessment, and no conduct or accountability criterion is documented. Resolved to 2.",
+      "W2 straddled levels 2 and 3 and was resolved to 2 on adversarial review (initially scored 3): no genuine constraint of practice is documented in an assessment task. The problem is student-selected rather than externally supplied; the '7-day field study' descriptor attaches only to the America and Europe subjects (not Asia) and describes delivery format, not an assessed constraint; the industry-mentor appearances are feedback rather than judged external assessment, consistent with the readings used in W1 and W3; and budgeting, financing and viability appear only in module prose, never in an assessment row.",
+      "W3 straddled levels 2 and 3: the Senior Executive Project runs across five core subjects, which reads as extended, but it is a live client project rather than a placement or practicum, and neither accountability to a host nor structured reflection on professional practice is documented for it. Resolved to 2.",
+      "One-construct-one-home applied to the Senior Executive Project, which is a single program feature with three separable documented aspects: its student-scoped, staged, gap-closing design scored in C4 (the self-scoped-project route that v4.1 leaves in C4); its task fidelity and practice constraints scored in W2; its siting in a real organisation with industry mentors scored in W3. No aspect was counted twice, and the project's collaborative-syndicate character was deliberately not used to lift C1 above the level it reaches on syndicate assessment alone.",
+      "Assessment criteria are never published anywhere in this extract — every assessment row gives description, timing and percentage only. W1 level 2 and W2 level 2 each require criteria 'drawn from practice'; these were scored on the documented genre and task features instead, which is the most the handbook supports, and this charitable reading is one reason W2 could not also be read charitably at level 3."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-14"
+    },
+    "instrument": "4.1-draft"
   }
 };
 
