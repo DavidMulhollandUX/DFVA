@@ -1,13 +1,19 @@
 // GENERATED FILE — DO NOT EDIT.
 // Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)
 // Regenerate: npm --prefix scripts run dfva:gen-v4
-export const V4_INSTRUMENT = "4.0-draft";
+export const V4_INSTRUMENT = "4.1-draft";
+
+export const V4_ADAPTIVENESS_MAX = 15;
+export const V4_WORKPLACE_MAX = 9;
+
+export type V4Subscale = "adaptive" | "workplace";
 
 export interface V4RubricItem {
   id: string;
   name: string;
   short: string;
   construct: string;
+  subscale: V4Subscale;
   refs: number[];
   levels: [string, string, string, string];
 }
@@ -32,6 +38,7 @@ export const V4_RUBRIC: V4RubricItem[] = [
     "name": "Distributed cognition & relational capability",
     "short": "Distributed",
     "construct": "How cognitive processes, information and tasks are shared across people, tools, artefacts and gen AI systems — teams, human–AI collaboration, coordinating roles and resources (TEQSA capability #2).",
+    "subscale": "adaptive",
     "refs": [
       1,
       5,
@@ -39,9 +46,9 @@ export const V4_RUBRIC: V4RubricItem[] = [
     ],
     "levels": [
       "No collaborative, stakeholder or team-based work is assessed anywhere in the core.",
-      "Collaboration/teamwork/communication appears in learning outcomes, but no core unit assesses it.",
+      "Collaboration/teamwork appears in learning outcomes, but no core unit assesses it.",
       "At least one core unit assesses collaborative practice — group projects with individual accountability, client or stakeholder work, interprofessional activity.",
-      "Assessed collaborative practice recurs across the program AND at least one assessment requires coordinating work across people and tools/AI systems (e.g. team capstones with documented role/tool allocation, supervised placements with multidisciplinary accountability)."
+      "Assessed collaborative practice recurs across the program AND at least one assessment requires coordinating work across people AND tools/AI systems — e.g. a team capstone with documented role and tool allocation, or a task where the division of work between people and systems is itself assessed."
     ]
   },
   {
@@ -49,6 +56,7 @@ export const V4_RUBRIC: V4RubricItem[] = [
     "name": "Hybrid metacognition & evaluative judgement",
     "short": "Metacognition",
     "construct": "Regulation of thinking and learning within any cognitive system including human–AI networks — evaluative judgement, deciding when to rely on or override a tool, co-regulation, ethical reasoning about use (TEQSA capability #3).",
+    "subscale": "adaptive",
     "refs": [
       1,
       4,
@@ -66,6 +74,7 @@ export const V4_RUBRIC: V4RubricItem[] = [
     "name": "Digital & AI literacy, including governance",
     "short": "AI Literacy",
     "construct": "Using digital tools including gen AI effectively, ethically and safely — extended, per TEQSA, to critical understanding of principles, limitations, ethics, societal impact and power structures (TEQSA capability #1).",
+    "subscale": "adaptive",
     "refs": [
       1,
       13,
@@ -85,6 +94,7 @@ export const V4_RUBRIC: V4RubricItem[] = [
     "name": "Life-long learning & transfer",
     "short": "Transfer",
     "construct": "Sustaining motivation, capability and adaptability to learn continuously — identifying knowledge gaps, independently acquiring skills, transferring learning across tasks, domains and tools (TEQSA capability #4).",
+    "subscale": "adaptive",
     "refs": [
       1,
       9,
@@ -95,7 +105,7 @@ export const V4_RUBRIC: V4RubricItem[] = [
       "Fixed content sequence; no assessment requires applying methods outside the taught context.",
       "Transfer is claimed in outcomes (\"apply knowledge in new settings\") but not assessed.",
       "At least one core assessment requires application to novel or unfamiliar problems — case variation, unseen datasets, cross-context projects.",
-      "The program documents structured progression toward independent learning: self-scoped capstone or research project, assessed identification of one's own knowledge gaps, or work-integrated learning requiring performance in a context not taught."
+      "The program documents structured progression toward independent learning: a self-scoped capstone or research project, or assessed identification of one's own knowledge gaps together with the plan to close them."
     ]
   },
   {
@@ -103,6 +113,7 @@ export const V4_RUBRIC: V4RubricItem[] = [
     "name": "Inquiry & evidence generation",
     "short": "Inquiry",
     "construct": "The capacity to generate primary evidence and defend methodology.",
+    "subscale": "adaptive",
     "refs": [
       14,
       15,
@@ -113,6 +124,67 @@ export const V4_RUBRIC: V4RubricItem[] = [
       "Introductory methods unit; literature-review assessment.",
       "Students design and conduct an inquiry with methodology selection and data collection, assessed.",
       "A substantial project generating primary evidence is REQUIRED (not one route among several), with methodology defended under scrutiny (viva, defence, or staged supervised review)."
+    ]
+  },
+  {
+    "id": "W1",
+    "name": "Professional communication & conduct",
+    "short": "Professional",
+    "construct": "Communicating disciplinary work, and conducting oneself, as a professional with people who are not your examiner — the genres the profession actually uses, audiences beyond the teaching team, and assessed standards of reliability, ethics and accountability. Generic skills \"and their application in the context of the field(s) of education or disciplines involved\" (HESF cl. 1.4.2(b)–(c)).",
+    "subscale": "workplace",
+    "refs": [
+      19,
+      20,
+      21,
+      31,
+      5,
+      32
+    ],
+    "levels": [
+      "All core assessment is in academic genres addressed to the marker (exams, essays, lab reports); no professional-genre or spoken communication is assessed.",
+      "Communication or professional conduct appears in learning outcomes or graduate attributes; core assessment adds presentation to peers/staff, but no professional genre and no audience beyond the teaching team.",
+      "At least one core assessment requires a recognised professional genre or an audience beyond the teaching team — client brief, consultancy or policy advice, clinical handover, pitch, public-facing artefact — judged against criteria drawn from professional practice.",
+      "Professional communication is assessed repeatedly and progressively across the program AND at least one core assessment is delivered to, or judged by, a real external audience or practitioner (industry panel, client, patient or simulated patient, public exhibition), with professional conduct or accountability explicitly among the assessed criteria."
+    ]
+  },
+  {
+    "id": "W2",
+    "name": "Authentic task design",
+    "short": "Authentic",
+    "construct": "How closely core assessment resembles the criterion situation of the discipline's own professional practice — the task, its context, the form of the result, and the criteria used to judge it (Gulikers et al. 2004), and its realism and cognitive challenge (Villarroel et al. 2018). Scored relative to the discipline's practice, never to a fixed exemplar. Explicitly EXCLUDES evaluative judgement, Villarroel's third dimension, which is C2.",
+    "subscale": "workplace",
+    "refs": [
+      22,
+      23,
+      25,
+      26,
+      24
+    ],
+    "levels": [
+      "Core assessment is entirely decontextualised — exams, problem sets and essays with no situational framing.",
+      "Contextualised or scenario-framed tasks appear (case studies, worked scenarios), but the artefact produced and the criteria applied remain academic.",
+      "At least one core assessment reproduces a professional task end to end: a real or realistic problem, producing the artefact a practitioner would produce, judged against criteria drawn from practice.",
+      "Such tasks are the program's assessment spine rather than a single instance (a capstone plus earlier scaffolding, or at least one per stage) AND at least one carries a genuine constraint of practice — an ambiguous or externally supplied problem, real resource/time limits, a consequential audience, or the profession's own standards of performance."
+    ]
+  },
+  {
+    "id": "W3",
+    "name": "Work-situated learning",
+    "short": "Situated",
+    "construct": "Extended, supervised, assessed participation in a real workplace or professional community — the \"deeper learning approach\" sense of placements: a high-impact practice (Kuh 2008) whose distinctive mechanism is membership and accountability in a community of practice, and with it pre-professional identity formation (Jackson 2016). Simulation is NOT scored here; it is W2.",
+    "subscale": "workplace",
+    "refs": [
+      19,
+      27,
+      29,
+      28,
+      30
+    ],
+    "levels": [
+      "No work-integrated learning, placement, practicum or community-based project appears anywhere in the course structure.",
+      "Work-situated learning exists only as an elective, an optional internship, or an unassessed extracurricular or careers activity.",
+      "A core unit places students in a real workplace or professional-community setting with practitioner supervision and assessment — placement, practicum, live client project, community-based project — but it is short or stands alone.",
+      "Substantial required work-situated learning: an extended placement or practicum, or a sequence of them, in the core, supervised by a practitioner, assessed, with accountability to the host and structured reflection on professional practice."
     ]
   }
 ];
@@ -224,5 +296,85 @@ export const V4_REFERENCES: V4Reference[] = [
     "n": 18,
     "citation": "Woods L, Lyons K, et al. (2026). Assessing the effectiveness of artificial intelligence education and training for healthcare workers: a systematic review. BMC Medical Education 26:549. (The construct-validity critique v4 answers.)",
     "url": "https://doi.org/10.1186/s12909-026-08969-3"
+  },
+  {
+    "n": 19,
+    "citation": "Higher Education Standards Framework (Threshold Standards) 2021, F2021L00488. Clause 1.4.2(b)–(d) (generic and employment-related learning outcomes, applied in disciplinary context), 1.4.3 (assessment must confirm the outcomes), 5.4.1 (work-integrated learning and placements are quality assured, including supervision).",
+    "url": "https://www.legislation.gov.au/F2021L00488"
+  },
+  {
+    "n": 20,
+    "citation": "QILT Employer Satisfaction Survey (ESS) — national employer ratings across five graduate attribute domains: foundation, adaptive, collaborative, technical and employability skills. (2025 national results: technical 94.0%, foundation 93.3%, adaptive 90.7%, collaborative 88.6%, employability 86.2%.)",
+    "url": "https://www.qilt.edu.au/surveys/employer-satisfaction-survey-(ess)"
+  },
+  {
+    "n": 21,
+    "citation": "Core Skills for Work Developmental Framework (Australian Government, 2013). Three clusters — navigate the world of work, interact with others, get the work done — over ten skill areas and five performance stages. Anchor-content source; a VET framework, not a higher-education construct authority.",
+    "url": "https://www.dewr.gov.au/skills-information-training-providers/resources/core-skills-work-developmental-framework"
+  },
+  {
+    "n": 22,
+    "citation": "Gulikers JTM, Bastiaens TJ, Kirschner PA (2004). A five-dimensional framework for authentic assessment. Educational Technology Research and Development 52(3):67–86. (Task, physical context, social context, result/form, criteria; authenticity is a continuum defined against the criterion situation — design rule R4.)",
+    "url": "https://doi.org/10.1007/BF02504676"
+  },
+  {
+    "n": 23,
+    "citation": "Villarroel V, Bloxham S, Bruna D, Bruna C, Herrera-Seda C (2018). Authentic assessment: creating a blueprint for course design. Assessment & Evaluation in Higher Education 43(5):840–854. (Realism, cognitive challenge, evaluative judgement — the third dimension is DFVA C2, not W2.)",
+    "url": "https://doi.org/10.1080/02602938.2017.1412396"
+  },
+  {
+    "n": 24,
+    "citation": "Fawns T, Bearman M, Dawson P, Nieminen JH, Ashford-Rowe K, Willey K, Jensen LX, Damşa C, Press N (2024). Authentic assessment: from panacea to criticality. Assessment & Evaluation in Higher Education 50(3):396–408. (The label risks becoming a 'thought-terminating cliché' — the constraint behind R4.)",
+    "url": "https://doi.org/10.1080/02602938.2024.2404634"
+  },
+  {
+    "n": 25,
+    "citation": "Sokhanvar Z, Salehi K, Sokhanvar F (2021). Advantages of authentic assessment for improving the learning experience and employability skills of higher education students: a systematic literature review. Studies in Educational Evaluation 70:101030. (26 studies, 2010–2019; outcomes largely student self-report.)",
+    "url": "https://doi.org/10.1016/j.stueduc.2021.101030"
+  },
+  {
+    "n": 26,
+    "citation": "Gibbs G, Simpson C (2004). Conditions under which assessment supports students' learning. Learning and Teaching in Higher Education 1:3–31. (Assessment governs what and how students study — the mechanism warrant for scoring assessment design rather than curriculum statement.)",
+    "url": null
+  },
+  {
+    "n": 27,
+    "citation": "Kuh GD (2008). High-Impact Educational Practices: What They Are, Who Has Access to Them, and Why They Matter. AAC&U. (Internships, capstones, undergraduate research, collaborative and community-based learning; shared features include sustained time and effort, feedback, and application in novel settings.)",
+    "url": null
+  },
+  {
+    "n": 28,
+    "citation": "Jackson D, Collings D (2018). The influence of work-integrated learning and paid work during studies on graduate employment and underemployment. Higher Education 76:403–425. (WIL did NOT raise full-time employment rates; evidence for better relevance and quality of employment — the honest bound on the W3 claim.)",
+    "url": "https://doi.org/10.1007/s10734-017-0216-z"
+  },
+  {
+    "n": 29,
+    "citation": "Jackson D (2016). Re-conceptualising graduate employability: the importance of pre-professional identity. Higher Education Research & Development 35(5):925–939. (Identity formed through participation in communities of practice — the mechanism distinguishing W3 from W2.)",
+    "url": "https://doi.org/10.1080/07294360.2016.1139551"
+  },
+  {
+    "n": 30,
+    "citation": "Australian Universities Accord Final Report (2024), Department of Education. (WIL as national priority; placement poverty and the Commonwealth Prac Payment — the equity limitation declared against W3.)",
+    "url": "https://www.education.gov.au/australian-universities-accord/resources/final-report"
+  },
+  {
+    "n": 31,
+    "citation": "NACE Career Readiness Competencies (rev. April 2024). Eight competencies: career & self-development, communication, critical thinking, equity & inclusion, leadership, professionalism, teamwork, technology.",
+    "url": "https://www.naceweb.org/career-readiness/competencies/career-readiness-defined"
+  },
+  {
+    "n": 32,
+    "citation": "Heckman JJ, Stixrud J, Urzua S (2006). The effects of cognitive and noncognitive abilities on labor market outcomes and social behavior. Journal of Labor Economics 24(3):411–482.",
+    "url": "https://doi.org/10.1086/504455"
+  },
+  {
+    "n": 33,
+    "citation": "Barrie SC (2006). Understanding what we mean by the generic attributes of graduates. Higher Education 51:215–241; and Barrie SC (2007), A conceptual framework for the teaching and learning of generic graduate attributes, Studies in Higher Education 32(4):439–458. (Stated graduate attributes are not evidence of attainment — why R2 binds hardest on W1.)",
+    "url": null
+  },
+  {
+    "n": 34,
+    "citation": "Tomlinson M (2017). Forms of graduate capital and their relationship to graduate employability. Education + Training 59(4):338–352. (Scoping source: social, cultural and psychological capital are student and network properties, not curriculum properties, and are therefore out of scope.)",
+    "url": null
   }
 ];

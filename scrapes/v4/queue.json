@@ -1,7 +1,7 @@
 {
  "programs": {
   "439fs": {
-   "assembled": false,
+   "assembled": true,
    "base": "https://handbook.unimelb.edu.au/2026/courses/439fs",
    "name": "Master of Food Science",
    "pages": {
@@ -24,16 +24,16 @@
      "ts": "2026-08-13T12:43:20+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/agri90072": {
-     "chars": 0,
+     "chars": 3040,
      "slot": "subj-agri90072",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:24:09+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/agri90072/assessment": {
-     "chars": 0,
+     "chars": 736,
      "slot": "subj-agri90072-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:24:30+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/agri90075": {
      "chars": 2745,
@@ -144,52 +144,52 @@
      "ts": "2026-08-13T13:08:23+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/food90028": {
-     "chars": 0,
+     "chars": 2835,
      "slot": "subj-food90028",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:24:55+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/food90028/assessment": {
-     "chars": 0,
+     "chars": 670,
      "slot": "subj-food90028-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:25:17+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/food90031": {
-     "chars": 0,
+     "chars": 2915,
      "slot": "subj-food90031",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:25:43+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/food90031/assessment": {
-     "chars": 0,
+     "chars": 877,
      "slot": "subj-food90031-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:26:04+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/food90032": {
-     "chars": 0,
+     "chars": 2778,
      "slot": "subj-food90032",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:26:28+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/food90032/assessment": {
-     "chars": 0,
+     "chars": 882,
      "slot": "subj-food90032-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:26:51+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/food90034": {
-     "chars": 0,
+     "chars": 4066,
      "slot": "subj-food90034",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:27:19+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/food90034/assessment": {
-     "chars": 0,
+     "chars": 565,
      "slot": "subj-food90034-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:27:40+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/food90035": {
      "chars": 3654,
@@ -204,21 +204,21 @@
      "ts": "2026-08-13T13:09:20+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/food90043": {
-     "chars": 0,
+     "chars": 3228,
      "slot": "subj-food90043",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:28:07+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/food90043/assessment": {
-     "chars": 0,
+     "chars": 935,
      "slot": "subj-food90043-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:28:30+00:00"
     }
    }
   },
   "527cl": {
-   "assembled": false,
+   "assembled": true,
    "base": "https://handbook.unimelb.edu.au/2026/courses/527cl",
    "name": "Master of Clinical Psychology",
    "pages": {
@@ -277,16 +277,16 @@
      "ts": "2026-08-13T13:03:42+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/psyc90008": {
-     "chars": 0,
+     "chars": 2800,
      "slot": "subj-psyc90008",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:28:56+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/psyc90008/assessment": {
-     "chars": 0,
+     "chars": 1209,
      "slot": "subj-psyc90008-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:29:20+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/psyc90009": {
      "chars": 2709,
@@ -325,28 +325,28 @@
      "ts": "2026-08-13T13:06:25+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/psyc90015": {
-     "chars": 0,
+     "chars": 1881,
      "slot": "subj-psyc90015",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:29:44+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/psyc90015/assessment": {
-     "chars": 0,
+     "chars": 1560,
      "slot": "subj-psyc90015-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:30:08+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/psyc90016": {
-     "chars": 0,
+     "chars": 2819,
      "slot": "subj-psyc90016",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:30:33+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/psyc90016/assessment": {
-     "chars": 0,
+     "chars": 1009,
      "slot": "subj-psyc90016-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:30:57+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/psyc90023": {
      "chars": 2598,
@@ -397,45 +397,45 @@
      "ts": "2026-08-13T13:09:47+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/psyc90077": {
-     "chars": 0,
+     "chars": 4083,
      "slot": "subj-psyc90077",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:31:28+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/psyc90077/assessment": {
-     "chars": 0,
+     "chars": 2959,
      "slot": "subj-psyc90077-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:31:55+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/psyc90078": {
-     "chars": 0,
+     "chars": 4211,
      "slot": "subj-psyc90078",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:32:26+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/psyc90078/assessment": {
-     "chars": 0,
+     "chars": 2959,
      "slot": "subj-psyc90078-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:32:53+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/psyc90125": {
-     "chars": 0,
+     "chars": 3678,
      "slot": "subj-psyc90125",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:33:23+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/psyc90125/assessment": {
-     "chars": 0,
+     "chars": 2450,
      "slot": "subj-psyc90125-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:33:49+00:00"
     }
    }
   },
   "746st": {
-   "assembled": false,
+   "assembled": true,
    "base": "https://handbook.unimelb.edu.au/2026/courses/746st",
    "name": "Master of Engineering Structures",
    "pages": {
@@ -464,28 +464,28 @@
      "ts": "2026-08-13T13:10:25+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/cven30008": {
-     "chars": 0,
+     "chars": 3180,
      "slot": "subj-cven30008",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:34:18+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/cven30008/assessment": {
-     "chars": 0,
+     "chars": 1021,
      "slot": "subj-cven30008-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:25:52+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/cven30009": {
-     "chars": 0,
+     "chars": 2934,
      "slot": "subj-cven30009",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:26:18+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/cven30009/assessment": {
-     "chars": 0,
+     "chars": 979,
      "slot": "subj-cven30009-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:26:40+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/cven90016": {
      "chars": 2754,
@@ -560,105 +560,105 @@
      "ts": "2026-08-13T13:18:10+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/cven90043": {
-     "chars": 0,
+     "chars": 1191,
      "slot": "subj-cven90043",
-     "status": "inflight",
-     "ts": "2026-08-13T13:11:40+00:00"
+     "status": "done",
+     "ts": "2026-08-13T13:18:45+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/cven90043/assessment": {
-     "chars": 0,
+     "chars": 1191,
      "slot": "subj-cven90043-assessment",
-     "status": "inflight",
-     "ts": "2026-08-13T13:11:40+00:00"
+     "status": "done",
+     "ts": "2026-08-13T13:19:13+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/cven90062": {
-     "chars": 0,
+     "chars": 2160,
      "slot": "subj-cven90062",
-     "status": "inflight",
-     "ts": "2026-08-13T13:11:40+00:00"
+     "status": "done",
+     "ts": "2026-08-13T13:19:45+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/cven90062/assessment": {
-     "chars": 0,
+     "chars": 1678,
      "slot": "subj-cven90062-assessment",
-     "status": "inflight",
-     "ts": "2026-08-13T13:11:40+00:00"
+     "status": "done",
+     "ts": "2026-08-13T13:20:13+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/enen20002": {
-     "chars": 0,
+     "chars": 2766,
      "slot": "subj-enen20002",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:27:06+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/enen20002/assessment": {
-     "chars": 0,
+     "chars": 1774,
      "slot": "subj-enen20002-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:27:30+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/enen90031": {
-     "chars": 0,
+     "chars": 3475,
      "slot": "subj-enen90031",
-     "status": "inflight",
-     "ts": "2026-08-13T13:11:40+00:00"
+     "status": "done",
+     "ts": "2026-08-13T13:20:46+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/enen90031/assessment": {
-     "chars": 0,
+     "chars": 1259,
      "slot": "subj-enen90031-assessment",
-     "status": "inflight",
-     "ts": "2026-08-13T13:11:40+00:00"
+     "status": "done",
+     "ts": "2026-08-13T13:21:12+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/enen90033": {
-     "chars": 0,
+     "chars": 2665,
      "slot": "subj-enen90033",
-     "status": "inflight",
-     "ts": "2026-08-13T13:11:40+00:00"
+     "status": "done",
+     "ts": "2026-08-13T13:21:41+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/enen90033/assessment": {
-     "chars": 0,
+     "chars": 773,
      "slot": "subj-enen90033-assessment",
-     "status": "inflight",
-     "ts": "2026-08-13T13:11:40+00:00"
+     "status": "done",
+     "ts": "2026-08-13T22:27:51+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/engr20004": {
-     "chars": 0,
+     "chars": 2662,
      "slot": "subj-engr20004",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:28:18+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/engr20004/assessment": {
-     "chars": 0,
+     "chars": 1249,
      "slot": "subj-engr20004-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:28:42+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/engr30002": {
-     "chars": 0,
+     "chars": 2884,
      "slot": "subj-engr30002",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:29:09+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/engr30002/assessment": {
-     "chars": 0,
+     "chars": 982,
      "slot": "subj-engr30002-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:29:32+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/mast20029": {
-     "chars": 0,
+     "chars": 2601,
      "slot": "subj-mast20029",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:29:58+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/mast20029/assessment": {
-     "chars": 0,
+     "chars": 2506,
      "slot": "subj-mast20029-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:30:25+00:00"
     }
    }
   },
   "mc-apbusa": {
-   "assembled": false,
+   "assembled": true,
    "base": "https://handbook.unimelb.edu.au/2026/courses/mc-apbusa",
    "name": "Master of Applied Business Analytics",
    "pages": {
@@ -681,28 +681,28 @@
      "ts": "2026-08-13T13:11:46+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90093": {
-     "chars": 0,
+     "chars": 1983,
      "slot": "subj-busa90093",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:30:52+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90093/assessment": {
-     "chars": 0,
+     "chars": 954,
      "slot": "subj-busa90093-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:31:16+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90227": {
-     "chars": 0,
+     "chars": 2824,
      "slot": "subj-busa90227",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:31:41+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90227/assessment": {
-     "chars": 0,
+     "chars": 916,
      "slot": "subj-busa90227-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:32:04+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90243": {
      "chars": 2053,
@@ -753,124 +753,124 @@
      "ts": "2026-08-13T13:18:16+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90566": {
-     "chars": 0,
+     "chars": 1594,
      "slot": "subj-busa90566",
-     "status": "inflight",
-     "ts": "2026-08-13T13:14:54+00:00"
+     "status": "done",
+     "ts": "2026-08-13T13:18:43+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90566/assessment": {
-     "chars": 0,
+     "chars": 709,
      "slot": "subj-busa90566-assessment",
-     "status": "inflight",
-     "ts": "2026-08-13T13:14:54+00:00"
+     "status": "done",
+     "ts": "2026-08-13T13:19:08+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90567": {
-     "chars": 0,
+     "chars": 1854,
      "slot": "subj-busa90567",
-     "status": "inflight",
-     "ts": "2026-08-13T13:14:54+00:00"
+     "status": "done",
+     "ts": "2026-08-13T13:19:34+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90567/assessment": {
-     "chars": 0,
+     "chars": 690,
      "slot": "subj-busa90567-assessment",
-     "status": "inflight",
-     "ts": "2026-08-13T13:14:54+00:00"
+     "status": "done",
+     "ts": "2026-08-13T13:19:59+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90568": {
-     "chars": 0,
+     "chars": 1588,
      "slot": "subj-busa90568",
-     "status": "inflight",
-     "ts": "2026-08-13T13:14:54+00:00"
+     "status": "done",
+     "ts": "2026-08-13T13:20:26+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90568/assessment": {
-     "chars": 0,
+     "chars": 676,
      "slot": "subj-busa90568-assessment",
-     "status": "inflight",
-     "ts": "2026-08-13T13:14:54+00:00"
+     "status": "done",
+     "ts": "2026-08-13T13:20:52+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90569": {
-     "chars": 0,
+     "chars": 1839,
      "slot": "subj-busa90569",
-     "status": "inflight",
-     "ts": "2026-08-13T13:14:54+00:00"
+     "status": "done",
+     "ts": "2026-08-13T13:21:18+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90569/assessment": {
-     "chars": 0,
+     "chars": 666,
      "slot": "subj-busa90569-assessment",
-     "status": "inflight",
-     "ts": "2026-08-13T13:14:54+00:00"
+     "status": "done",
+     "ts": "2026-08-13T13:21:43+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90570": {
-     "chars": 0,
+     "chars": 1539,
      "slot": "subj-busa90570",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:32:29+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90570/assessment": {
-     "chars": 0,
+     "chars": 633,
      "slot": "subj-busa90570-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:32:52+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90571": {
-     "chars": 0,
+     "chars": 1740,
      "slot": "subj-busa90571",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:33:15+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90571/assessment": {
-     "chars": 0,
+     "chars": 630,
      "slot": "subj-busa90571-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:33:36+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90572": {
-     "chars": 0,
+     "chars": 2123,
      "slot": "subj-busa90572",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:34:00+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90572/assessment": {
-     "chars": 0,
+     "chars": 957,
      "slot": "subj-busa90572-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:34:23+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90574": {
-     "chars": 0,
+     "chars": 2262,
      "slot": "subj-busa90574",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:34:49+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90574/assessment": {
-     "chars": 0,
+     "chars": 1003,
      "slot": "subj-busa90574-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:35:12+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90577": {
-     "chars": 0,
+     "chars": 2127,
      "slot": "subj-busa90577",
-     "status": "inflight",
-     "ts": "2026-08-13T13:14:54+00:00"
+     "status": "done",
+     "ts": "2026-08-13T22:35:38+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90577/assessment": {
-     "chars": 0,
+     "chars": 692,
      "slot": "subj-busa90577-assessment",
-     "status": "inflight",
-     "ts": "2026-08-13T13:14:54+00:00"
+     "status": "done",
+     "ts": "2026-08-13T22:26:18+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90578": {
-     "chars": 0,
+     "chars": 1789,
      "slot": "subj-busa90578",
-     "status": "inflight",
-     "ts": "2026-08-13T13:14:54+00:00"
+     "status": "done",
+     "ts": "2026-08-13T22:26:50+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90578/assessment": {
-     "chars": 0,
+     "chars": 726,
      "slot": "subj-busa90578-assessment",
-     "status": "inflight",
-     "ts": "2026-08-13T13:14:54+00:00"
+     "status": "done",
+     "ts": "2026-08-13T22:27:11+00:00"
     }
    }
   },
@@ -879,6 +879,18 @@
    "base": "https://handbook.unimelb.edu.au/2026/courses/mc-arch",
    "name": "Master of Architecture",
    "pages": {
+    "https://handbook.unimelb.edu.au/2026/components/mc-arch-entry-1/course-structure": {
+     "chars": 6314,
+     "slot": "comp-mc-arch-entry-1",
+     "status": "done",
+     "ts": "2026-08-13T22:35:25+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/components/mc-arch-entry-2/course-structure": {
+     "chars": 7369,
+     "slot": "comp-mc-arch-entry-2",
+     "status": "done",
+     "ts": "2026-08-13T22:36:26+00:00"
+    },
     "https://handbook.unimelb.edu.au/2026/courses/mc-arch": {
      "chars": 2221,
      "slot": "course",
@@ -898,10 +910,202 @@
      "ts": "2026-08-13T13:13:06+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/courses/mc-arch/majors-minors-specialisations": {
-     "chars": 0,
+     "chars": 1106,
      "slot": "specialisations",
+     "status": "done",
+     "ts": "2026-08-13T22:27:33+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/abpl90017": {
+     "chars": 1511,
+     "slot": "subj-abpl90017",
+     "status": "done",
+     "ts": "2026-08-13T22:36:34+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/abpl90017/assessment": {
+     "chars": 0,
+     "slot": "subj-abpl90017-assessment",
      "status": "inflight",
-     "ts": "2026-08-13T13:14:54+00:00"
+     "ts": "2026-08-13T22:36:09+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/abpl90020": {
+     "chars": 0,
+     "slot": "subj-abpl90020",
+     "status": "inflight",
+     "ts": "2026-08-13T22:36:09+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/abpl90020/assessment": {
+     "chars": 0,
+     "slot": "subj-abpl90020-assessment",
+     "status": "inflight",
+     "ts": "2026-08-13T22:36:09+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/abpl90075": {
+     "chars": 0,
+     "slot": "subj-abpl90075",
+     "status": "inflight",
+     "ts": "2026-08-13T22:36:09+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/abpl90075/assessment": {
+     "chars": 0,
+     "slot": "subj-abpl90075-assessment",
+     "status": "inflight",
+     "ts": "2026-08-13T22:36:09+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/abpl90086": {
+     "chars": 0,
+     "slot": "subj-abpl90086",
+     "status": "inflight",
+     "ts": "2026-08-13T22:36:09+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/abpl90086/assessment": {
+     "chars": 0,
+     "slot": "subj-abpl90086-assessment",
+     "status": "inflight",
+     "ts": "2026-08-13T22:36:09+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/abpl90089": {
+     "chars": 0,
+     "slot": "subj-abpl90089",
+     "status": "inflight",
+     "ts": "2026-08-13T22:36:09+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/abpl90089/assessment": {
+     "chars": 0,
+     "slot": "subj-abpl90089-assessment",
+     "status": "inflight",
+     "ts": "2026-08-13T22:36:09+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/abpl90117": {
+     "chars": 0,
+     "slot": "subj-abpl90117",
+     "status": "inflight",
+     "ts": "2026-08-13T22:36:09+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/abpl90117/assessment": {
+     "chars": 0,
+     "slot": "subj-abpl90117-assessment",
+     "status": "inflight",
+     "ts": "2026-08-13T22:36:09+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/abpl90118": {
+     "chars": 0,
+     "slot": "subj-abpl90118",
+     "status": "inflight",
+     "ts": "2026-08-13T22:36:09+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/abpl90118/assessment": {
+     "chars": 0,
+     "slot": "subj-abpl90118-assessment",
+     "status": "inflight",
+     "ts": "2026-08-13T22:36:09+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/abpl90123": {
+     "chars": 0,
+     "slot": "subj-abpl90123",
+     "status": "inflight",
+     "ts": "2026-08-13T22:36:09+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/abpl90123/assessment": {
+     "chars": 0,
+     "slot": "subj-abpl90123-assessment",
+     "status": "inflight",
+     "ts": "2026-08-13T22:36:09+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/abpl90140": {
+     "chars": 0,
+     "slot": "subj-abpl90140",
+     "status": "inflight",
+     "ts": "2026-08-13T22:36:09+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/abpl90140/assessment": {
+     "chars": 0,
+     "slot": "subj-abpl90140-assessment",
+     "status": "inflight",
+     "ts": "2026-08-13T22:36:09+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/abpl90149": {
+     "chars": 0,
+     "slot": "subj-abpl90149",
+     "status": "inflight",
+     "ts": "2026-08-13T22:36:09+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/abpl90149/assessment": {
+     "chars": 0,
+     "slot": "subj-abpl90149-assessment",
+     "status": "inflight",
+     "ts": "2026-08-13T22:36:09+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/abpl90153": {
+     "chars": 0,
+     "slot": "subj-abpl90153",
+     "status": "inflight",
+     "ts": "2026-08-13T22:36:09+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/abpl90153/assessment": {
+     "chars": 0,
+     "slot": "subj-abpl90153-assessment",
+     "status": "inflight",
+     "ts": "2026-08-13T22:36:09+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/abpl90169": {
+     "chars": 0,
+     "slot": "subj-abpl90169",
+     "status": "inflight",
+     "ts": "2026-08-13T22:36:09+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/abpl90169/assessment": {
+     "chars": 0,
+     "slot": "subj-abpl90169-assessment",
+     "status": "inflight",
+     "ts": "2026-08-13T22:36:09+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/abpl90424": {
+     "chars": 0,
+     "slot": "subj-abpl90424",
+     "status": "inflight",
+     "ts": "2026-08-13T22:36:09+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/abpl90424/assessment": {
+     "chars": 0,
+     "slot": "subj-abpl90424-assessment",
+     "status": "pending",
+     "ts": null
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/abpl90437": {
+     "chars": 0,
+     "slot": "subj-abpl90437",
+     "status": "pending",
+     "ts": null
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/abpl90437/assessment": {
+     "chars": 0,
+     "slot": "subj-abpl90437-assessment",
+     "status": "pending",
+     "ts": null
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/abpl90438": {
+     "chars": 0,
+     "slot": "subj-abpl90438",
+     "status": "pending",
+     "ts": null
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/abpl90438/assessment": {
+     "chars": 0,
+     "slot": "subj-abpl90438-assessment",
+     "status": "pending",
+     "ts": null
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/abpl90439": {
+     "chars": 0,
+     "slot": "subj-abpl90439",
+     "status": "pending",
+     "ts": null
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/abpl90439/assessment": {
+     "chars": 0,
+     "slot": "subj-abpl90439-assessment",
+     "status": "pending",
+     "ts": null
     }
    }
   },
@@ -929,40 +1133,40 @@
      "ts": "2026-08-13T13:14:45+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90042": {
-     "chars": 0,
+     "chars": 2219,
      "slot": "subj-busa90042",
-     "status": "inflight",
-     "ts": "2026-08-13T13:14:54+00:00"
+     "status": "done",
+     "ts": "2026-08-13T22:27:57+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90042/assessment": {
-     "chars": 0,
+     "chars": 717,
      "slot": "subj-busa90042-assessment",
-     "status": "inflight",
-     "ts": "2026-08-13T13:14:54+00:00"
+     "status": "done",
+     "ts": "2026-08-13T22:28:25+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90053": {
-     "chars": 0,
+     "chars": 2857,
      "slot": "subj-busa90053",
-     "status": "inflight",
-     "ts": "2026-08-13T13:14:54+00:00"
+     "status": "done",
+     "ts": "2026-08-13T22:28:58+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90053/assessment": {
-     "chars": 0,
+     "chars": 1840,
      "slot": "subj-busa90053-assessment",
-     "status": "inflight",
-     "ts": "2026-08-13T13:14:54+00:00"
+     "status": "done",
+     "ts": "2026-08-13T22:29:24+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90090": {
-     "chars": 0,
+     "chars": 1495,
      "slot": "subj-busa90090",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:29:53+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90090/assessment": {
-     "chars": 0,
+     "chars": 764,
      "slot": "subj-busa90090-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:30:14+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90226": {
      "chars": 1312,
@@ -983,142 +1187,142 @@
      "ts": "2026-08-13T13:18:27+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90227/assessment": {
-     "chars": 0,
+     "chars": 916,
      "slot": "subj-busa90227-assessment",
-     "status": "inflight",
-     "ts": "2026-08-13T13:17:09+00:00"
+     "status": "done",
+     "ts": "2026-08-13T13:18:52+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90248": {
-     "chars": 0,
+     "chars": 1671,
      "slot": "subj-busa90248",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:30:37+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90248/assessment": {
-     "chars": 0,
+     "chars": 774,
      "slot": "subj-busa90248-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:30:59+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90258": {
-     "chars": 0,
+     "chars": 1999,
      "slot": "subj-busa90258",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:31:22+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90258/assessment": {
-     "chars": 0,
+     "chars": 717,
      "slot": "subj-busa90258-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:31:43+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90261": {
-     "chars": 0,
+     "chars": 1818,
      "slot": "subj-busa90261",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:32:08+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90261/assessment": {
-     "chars": 0,
+     "chars": 963,
      "slot": "subj-busa90261-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:32:30+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90482": {
-     "chars": 0,
+     "chars": 9130,
      "slot": "subj-busa90482",
-     "status": "inflight",
-     "ts": "2026-08-13T13:17:09+00:00"
+     "status": "done",
+     "ts": "2026-08-13T13:19:35+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90482/assessment": {
-     "chars": 0,
+     "chars": 3097,
      "slot": "subj-busa90482-assessment",
-     "status": "inflight",
-     "ts": "2026-08-13T13:17:09+00:00"
+     "status": "done",
+     "ts": "2026-08-13T13:20:08+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90483": {
-     "chars": 0,
+     "chars": 8990,
      "slot": "subj-busa90483",
-     "status": "inflight",
-     "ts": "2026-08-13T13:17:09+00:00"
+     "status": "done",
+     "ts": "2026-08-13T13:20:52+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90483/assessment": {
-     "chars": 0,
+     "chars": 3383,
      "slot": "subj-busa90483-assessment",
-     "status": "inflight",
-     "ts": "2026-08-13T13:17:09+00:00"
+     "status": "done",
+     "ts": "2026-08-13T13:21:27+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90491": {
-     "chars": 0,
+     "chars": 1717,
      "slot": "subj-busa90491",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:32:53+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90491/assessment": {
-     "chars": 0,
+     "chars": 743,
      "slot": "subj-busa90491-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:33:15+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90492": {
-     "chars": 0,
+     "chars": 1372,
      "slot": "subj-busa90492",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:33:37+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90492/assessment": {
-     "chars": 0,
+     "chars": 715,
      "slot": "subj-busa90492-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-13T22:34:00+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90533": {
-     "chars": 0,
+     "chars": 2147,
      "slot": "subj-busa90533",
-     "status": "inflight",
-     "ts": "2026-08-13T13:17:09+00:00"
+     "status": "done",
+     "ts": "2026-08-13T22:34:25+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90533/assessment": {
-     "chars": 0,
+     "chars": 788,
      "slot": "subj-busa90533-assessment",
-     "status": "inflight",
-     "ts": "2026-08-13T13:17:09+00:00"
+     "status": "done",
+     "ts": "2026-08-13T22:34:47+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90534": {
-     "chars": 0,
+     "chars": 1774,
      "slot": "subj-busa90534",
-     "status": "inflight",
-     "ts": "2026-08-13T13:17:09+00:00"
+     "status": "done",
+     "ts": "2026-08-13T22:35:10+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90534/assessment": {
-     "chars": 0,
+     "chars": 803,
      "slot": "subj-busa90534-assessment",
-     "status": "inflight",
-     "ts": "2026-08-13T13:17:09+00:00"
+     "status": "done",
+     "ts": "2026-08-13T22:35:31+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90580": {
-     "chars": 0,
+     "chars": 2225,
      "slot": "subj-busa90580",
-     "status": "inflight",
-     "ts": "2026-08-13T13:17:09+00:00"
+     "status": "done",
+     "ts": "2026-08-13T22:35:58+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90580/assessment": {
      "chars": 0,
      "slot": "subj-busa90580-assessment",
      "status": "inflight",
-     "ts": "2026-08-13T13:17:09+00:00"
+     "ts": "2026-08-13T22:34:27+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90581": {
      "chars": 0,
      "slot": "subj-busa90581",
      "status": "inflight",
-     "ts": "2026-08-13T13:17:09+00:00"
+     "ts": "2026-08-13T22:34:27+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90581/assessment": {
      "chars": 0,
      "slot": "subj-busa90581-assessment",
      "status": "inflight",
-     "ts": "2026-08-13T13:17:09+00:00"
+     "ts": "2026-08-13T22:34:27+00:00"
     }
    }
   },
@@ -1149,121 +1353,121 @@
      "chars": 0,
      "slot": "subj-busa90505",
      "status": "inflight",
-     "ts": "2026-08-13T13:11:40+00:00"
+     "ts": "2026-08-13T22:34:27+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90505/assessment": {
      "chars": 0,
      "slot": "subj-busa90505-assessment",
      "status": "inflight",
-     "ts": "2026-08-13T13:11:40+00:00"
+     "ts": "2026-08-13T22:34:27+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90506": {
      "chars": 0,
      "slot": "subj-busa90506",
      "status": "inflight",
-     "ts": "2026-08-13T13:11:40+00:00"
+     "ts": "2026-08-13T22:34:27+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90506/assessment": {
      "chars": 0,
      "slot": "subj-busa90506-assessment",
      "status": "inflight",
-     "ts": "2026-08-13T13:11:40+00:00"
+     "ts": "2026-08-13T22:34:27+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90507": {
      "chars": 0,
      "slot": "subj-busa90507",
      "status": "inflight",
-     "ts": "2026-08-13T13:17:09+00:00"
+     "ts": "2026-08-13T22:34:27+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90507/assessment": {
      "chars": 0,
      "slot": "subj-busa90507-assessment",
      "status": "inflight",
-     "ts": "2026-08-13T13:17:09+00:00"
+     "ts": "2026-08-13T22:34:27+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90508": {
      "chars": 0,
      "slot": "subj-busa90508",
      "status": "inflight",
-     "ts": "2026-08-13T13:17:09+00:00"
+     "ts": "2026-08-13T22:34:27+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90508/assessment": {
      "chars": 0,
      "slot": "subj-busa90508-assessment",
      "status": "inflight",
-     "ts": "2026-08-13T13:17:09+00:00"
+     "ts": "2026-08-13T22:34:27+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90509": {
      "chars": 0,
      "slot": "subj-busa90509",
      "status": "inflight",
-     "ts": "2026-08-13T13:17:09+00:00"
+     "ts": "2026-08-13T22:34:27+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90509/assessment": {
      "chars": 0,
      "slot": "subj-busa90509-assessment",
      "status": "inflight",
-     "ts": "2026-08-13T13:17:09+00:00"
+     "ts": "2026-08-13T22:34:27+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90510": {
      "chars": 0,
      "slot": "subj-busa90510",
      "status": "inflight",
-     "ts": "2026-08-13T13:17:09+00:00"
+     "ts": "2026-08-13T22:34:27+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90510/assessment": {
      "chars": 0,
      "slot": "subj-busa90510-assessment",
      "status": "inflight",
-     "ts": "2026-08-13T13:17:09+00:00"
+     "ts": "2026-08-13T22:34:27+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90511": {
      "chars": 0,
      "slot": "subj-busa90511",
      "status": "inflight",
-     "ts": "2026-08-13T13:17:09+00:00"
+     "ts": "2026-08-13T22:34:27+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90511/assessment": {
      "chars": 0,
      "slot": "subj-busa90511-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "inflight",
+     "ts": "2026-08-13T22:34:27+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90512": {
      "chars": 0,
      "slot": "subj-busa90512",
-     "status": "pending",
-     "ts": null
+     "status": "inflight",
+     "ts": "2026-08-13T22:34:27+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90512/assessment": {
      "chars": 0,
      "slot": "subj-busa90512-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "inflight",
+     "ts": "2026-08-13T22:34:27+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90513": {
      "chars": 0,
      "slot": "subj-busa90513",
-     "status": "pending",
-     "ts": null
+     "status": "inflight",
+     "ts": "2026-08-13T22:34:27+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90513/assessment": {
      "chars": 0,
      "slot": "subj-busa90513-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "inflight",
+     "ts": "2026-08-13T22:34:27+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90514": {
      "chars": 0,
      "slot": "subj-busa90514",
-     "status": "pending",
-     "ts": null
+     "status": "inflight",
+     "ts": "2026-08-13T22:34:27+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90514/assessment": {
      "chars": 0,
      "slot": "subj-busa90514-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "inflight",
+     "ts": "2026-08-13T22:34:27+00:00"
     }
    }
   },

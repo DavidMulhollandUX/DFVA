@@ -1,7 +1,7 @@
 <!-- GENERATED FILE — DO NOT EDIT.
      Source: dfva/source/rubricV4.ts · Generator: scripts/dfva-v4-gen.ts
      Regenerate: npm --prefix scripts run dfva:gen-v4 -->
-# DFVA v4 Improvement Plan Template — Canonical Spec (instrument 4.0-draft)
+# DFVA v4 Improvement Plan Template — Canonical Spec (instrument 4.1-draft)
 
 Every `reports/dfva-v4-recommend-<code>.md` must follow this template.
 
@@ -10,9 +10,9 @@ Every `reports/dfva-v4-recommend-<code>.md` must follow this template.
 ```markdown
 # DFVA v4 IMPROVEMENT PLAN: <Program Name> (<CODE>)
 
-**Instrument:** DFVA 4.0-draft — Panel C v4 on the TEQSA adaptive capabilities [[1]](<teqsa url>)
+**Instrument:** DFVA 4.1-draft — Panel C v4 on the TEQSA adaptive capabilities [[1]](<teqsa url>)
 **Assessment date:** <YYYY-MM-DD> · **Derived from:** the verified panelCv4 scoring + reports/dfva-market-<code>.md
-**Position basis:** Destination AI Exposure <NN.NN> (measured) × Curriculum Adaptiveness <N>/15 (v4 draft) — no v1 composite, no position label until the v4 migration cycle
+**Position basis:** Destination AI Exposure <NN.NN> (measured) × Curriculum Adaptiveness <N>/15 (v4.1 draft, sub-scale A) · Workplace practice <N>/9 (sub-scale W, reported beside the axis, not in it) — no v1 composite, no position label until the v4 migration cycle
 ```
 
 A note under the header states that citation marks refer to the numbered list in
@@ -23,8 +23,9 @@ References and that full citations are not repeated in the body.
 1. **DIAGNOSTIC SUMMARY — Basis: inferred** — opens with the mandatory
    sentence: *"This plan argues from the scored evidence and market data
    above; it is interpretation, not observation."* Two short paragraphs, then:
-   `| Item | Score | Levels below maximum | Market evidence for the gap | Priority |`
-   with an adaptiveness total row.
+   `| Item | Sub-scale | Score | Levels below maximum | Market evidence for the gap | Priority |`
+   with an adaptive subtotal row and a workplace subtotal row — never a
+   combined Panel C total.
 2. **SCORE-TO-ACTION MAP — Basis: inferred** —
    `| Item | Now → target | Anchor requirement at the target level (verbatim) | Curriculum action | Sources |`
    One row per level step, including any second step on the same item.
@@ -38,15 +39,15 @@ References and that full citations are not repeated in the body.
 5. **GATE GUARDRAILS — Basis: scored** —
    `| Gate | Status | Evidence carrying the gate | Constraint on redesign | Sources |`
 6. **WHAT WOULD CHANGE THE SCORE — Basis: inferred** — two tables:
-   `| Lever | Item | From | To | Change | Cumulative adaptiveness |` and
+   `| Lever | Item | From | To | Change | Cumulative adaptive | Cumulative workplace |` and
    `| Change | Why it does not move a score | Governing rule | Sources |`
-   The second must cover outcome-statement edits (rule R2) and electives where
-   the anchor requires core placement.
+   The second must cover outcome-statement edits (rule R2), authenticity
+   relabelling (rule R4), and electives where the anchor requires core placement.
 7. **REFERENCES** — the canonical list, verbatim, ending the file.
 
 ## Lint rules (v4 recommend family in check-report-format.ts)
 
-1. Title `# DFVA v4 IMPROVEMENT PLAN:`; header carries `**Instrument:** DFVA 4.0-draft`.
+1. Title `# DFVA v4 IMPROVEMENT PLAN:`; header carries `**Instrument:** DFVA 4.1-draft`.
 2. Sections 1–6 present, in order, each with a `Basis:` tag; §1 opens with the mandatory sentence.
 3. At least one web-linked citation mark `[[n]](http...)`.
 4. REFERENCES matches the canonical generated list, byte-exact.
@@ -74,4 +75,20 @@ References and that full citations are not repeated in the body.
 16. Knight FH (1921). Risk, Uncertainty and Profit. Houghton Mifflin.
 17. Kane MT (2013). Validating the interpretations and uses of test scores. Journal of Educational Measurement 50(1):1–73. (The validity-argument frame for the v4 evidence plan.)
 18. Woods L, Lyons K, et al. (2026). Assessing the effectiveness of artificial intelligence education and training for healthcare workers: a systematic review. BMC Medical Education 26:549. (The construct-validity critique v4 answers.) https://doi.org/10.1186/s12909-026-08969-3
+19. Higher Education Standards Framework (Threshold Standards) 2021, F2021L00488. Clause 1.4.2(b)–(d) (generic and employment-related learning outcomes, applied in disciplinary context), 1.4.3 (assessment must confirm the outcomes), 5.4.1 (work-integrated learning and placements are quality assured, including supervision). https://www.legislation.gov.au/F2021L00488
+20. QILT Employer Satisfaction Survey (ESS) — national employer ratings across five graduate attribute domains: foundation, adaptive, collaborative, technical and employability skills. (2025 national results: technical 94.0%, foundation 93.3%, adaptive 90.7%, collaborative 88.6%, employability 86.2%.) https://www.qilt.edu.au/surveys/employer-satisfaction-survey-(ess)
+21. Core Skills for Work Developmental Framework (Australian Government, 2013). Three clusters — navigate the world of work, interact with others, get the work done — over ten skill areas and five performance stages. Anchor-content source; a VET framework, not a higher-education construct authority. https://www.dewr.gov.au/skills-information-training-providers/resources/core-skills-work-developmental-framework
+22. Gulikers JTM, Bastiaens TJ, Kirschner PA (2004). A five-dimensional framework for authentic assessment. Educational Technology Research and Development 52(3):67–86. (Task, physical context, social context, result/form, criteria; authenticity is a continuum defined against the criterion situation — design rule R4.) https://doi.org/10.1007/BF02504676
+23. Villarroel V, Bloxham S, Bruna D, Bruna C, Herrera-Seda C (2018). Authentic assessment: creating a blueprint for course design. Assessment & Evaluation in Higher Education 43(5):840–854. (Realism, cognitive challenge, evaluative judgement — the third dimension is DFVA C2, not W2.) https://doi.org/10.1080/02602938.2017.1412396
+24. Fawns T, Bearman M, Dawson P, Nieminen JH, Ashford-Rowe K, Willey K, Jensen LX, Damşa C, Press N (2024). Authentic assessment: from panacea to criticality. Assessment & Evaluation in Higher Education 50(3):396–408. (The label risks becoming a 'thought-terminating cliché' — the constraint behind R4.) https://doi.org/10.1080/02602938.2024.2404634
+25. Sokhanvar Z, Salehi K, Sokhanvar F (2021). Advantages of authentic assessment for improving the learning experience and employability skills of higher education students: a systematic literature review. Studies in Educational Evaluation 70:101030. (26 studies, 2010–2019; outcomes largely student self-report.) https://doi.org/10.1016/j.stueduc.2021.101030
+26. Gibbs G, Simpson C (2004). Conditions under which assessment supports students' learning. Learning and Teaching in Higher Education 1:3–31. (Assessment governs what and how students study — the mechanism warrant for scoring assessment design rather than curriculum statement.)
+27. Kuh GD (2008). High-Impact Educational Practices: What They Are, Who Has Access to Them, and Why They Matter. AAC&U. (Internships, capstones, undergraduate research, collaborative and community-based learning; shared features include sustained time and effort, feedback, and application in novel settings.)
+28. Jackson D, Collings D (2018). The influence of work-integrated learning and paid work during studies on graduate employment and underemployment. Higher Education 76:403–425. (WIL did NOT raise full-time employment rates; evidence for better relevance and quality of employment — the honest bound on the W3 claim.) https://doi.org/10.1007/s10734-017-0216-z
+29. Jackson D (2016). Re-conceptualising graduate employability: the importance of pre-professional identity. Higher Education Research & Development 35(5):925–939. (Identity formed through participation in communities of practice — the mechanism distinguishing W3 from W2.) https://doi.org/10.1080/07294360.2016.1139551
+30. Australian Universities Accord Final Report (2024), Department of Education. (WIL as national priority; placement poverty and the Commonwealth Prac Payment — the equity limitation declared against W3.) https://www.education.gov.au/australian-universities-accord/resources/final-report
+31. NACE Career Readiness Competencies (rev. April 2024). Eight competencies: career & self-development, communication, critical thinking, equity & inclusion, leadership, professionalism, teamwork, technology. https://www.naceweb.org/career-readiness/competencies/career-readiness-defined
+32. Heckman JJ, Stixrud J, Urzua S (2006). The effects of cognitive and noncognitive abilities on labor market outcomes and social behavior. Journal of Labor Economics 24(3):411–482. https://doi.org/10.1086/504455
+33. Barrie SC (2006). Understanding what we mean by the generic attributes of graduates. Higher Education 51:215–241; and Barrie SC (2007), A conceptual framework for the teaching and learning of generic graduate attributes, Studies in Higher Education 32(4):439–458. (Stated graduate attributes are not evidence of attainment — why R2 binds hardest on W1.)
+34. Tomlinson M (2017). Forms of graduate capital and their relationship to graduate employability. Education + Training 59(4):338–352. (Scoping source: social, cultural and psychological capital are student and network properties, not curriculum properties, and are therefore out of scope.)
 ```

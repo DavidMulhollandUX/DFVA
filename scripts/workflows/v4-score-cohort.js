@@ -56,12 +56,17 @@ const SCORE_SCHEMA = {
   required: ['code', 'panelCv4'],
   properties: {
     code: { type: 'string' },
+    // v4.1 scores two independent sub-scales. They are reported separately and
+    // never summed — whether they behave as one construct or two is the open
+    // question the instrument exists to test.
     panelCv4: {
       type: 'object',
-      required: ['C1', 'C2', 'C3', 'C4', 'C5', 'adaptiveness', 'gates'],
+      required: ['C1', 'C2', 'C3', 'C4', 'C5', 'adaptiveness', 'W1', 'W2', 'W3', 'workplace', 'gates'],
       properties: {
         C1: ITEM, C2: ITEM, C3: ITEM, C4: ITEM, C5: ITEM,
         adaptiveness: { type: 'integer', minimum: 0, maximum: 15 },
+        W1: ITEM, W2: ITEM, W3: ITEM,
+        workplace: { type: 'integer', minimum: 0, maximum: 9 },
         gates: { type: 'object', required: ['G1', 'G2'], properties: { G1: GATE, G2: GATE } },
         ambiguities: { type: 'array', items: { type: 'string' } },
         notScoreable: { type: 'array', items: { type: 'string' } },
@@ -93,7 +98,9 @@ const results = await pipeline(
   (code) =>
     agent(
       `Read dfva/dist/v4/DFVA-V4-SCORING-PROMPT.md and follow it EXACTLY to score program ` +
-        `"${code}" on Panel C v4. The handbook evidence is the file scrapes/v4/${code}.txt — ` +
+        `"${code}" on Panel C v4.1 — BOTH sub-scales: the adaptive capabilities C1-C5 ` +
+        `(/15) and workplace practice W1-W3 (/9). Report them separately and never sum ` +
+        `them into one figure. The handbook evidence is the file scrapes/v4/${code}.txt — ` +
         `read it in full and score ONLY from it. Do not fetch anything; do not use prior ` +
         `knowledge of this program. Every evidenceLines entry must be copied verbatim from ` +
         `that file. Where the evidence is consistent with two levels, take the LOWER level and ` +
@@ -103,7 +110,8 @@ const results = await pipeline(
     ),
   (scored, code) =>
     agent(
-      `Adversarially verify this Panel C v4 scoring for "${code}": ` +
+      `Adversarially verify this Panel C v4.1 scoring for "${code}" — the C1-C5 items ` +
+        `AND the W1-W3 workplace items: ` +
         `${JSON.stringify(scored.panelCv4)}. Read the anchors in ` +
         `dfva/dist/v4/DFVA-V4-SCORING-PROMPT.md and the evidence in scrapes/v4/${code}.txt. ` +
         `(1) Try to REFUTE every level-3 score: does the quoted ASSESSMENT evidence really ` +
@@ -118,7 +126,8 @@ const results = await pipeline(
     agent(
       `Apply these verified Panel C v4 results for "${r.code}": ${JSON.stringify(r)}. ` +
         `(1) Apply every demotion and drop any item whose evidence was unquotable, then ` +
-        `recompute adaptiveness as the sum of C1..C5. ` +
+        `recompute adaptiveness as the sum of C1..C5 and workplace as the sum of W1..W3. ` +
+        `Keep the two totals separate — never emit a combined Panel C figure. ` +
         `(2) Merge the panelCv4 block into dfva/source/evidence/${r.code}.json, preserving the ` +
         `existing v1 "byDimension" content untouched. Most cohort programs have no evidence ` +
         `file yet — if it is absent, create it as {"code": "${r.code}", "panelCv4": {...}} and ` +
@@ -131,10 +140,11 @@ const results = await pipeline(
         phase: 'Persist',
         schema: {
           type: 'object',
-          required: ['code', 'adaptiveness'],
+          required: ['code', 'adaptiveness', 'workplace'],
           properties: {
             code: { type: 'string' },
             adaptiveness: { type: 'integer' },
+            workplace: { type: 'integer' },
             gates: { type: 'object' },
             ambiguities: { type: 'array', items: { type: 'string' } },
           },
