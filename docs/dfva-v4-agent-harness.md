@@ -96,9 +96,30 @@ prompt's output section):
 
 ## Batch Workflow script
 
-Run with `Workflow({script, args: ["244cw", "mc-cs", …]})` — one pipeline chain
-per program, no barriers between programs. The scoring prompt is read from dist
-at run time so the workflow never embeds a copy of the rubric.
+> **Capture serially, score in parallel.** The handbook rate-limits by IP, and a
+> fast run trips a site-wide block ("Pardon Our Interruption") that persists for
+> a long time and takes the whole cohort down with it — this happened on
+> 2026-08-13 at ~0.4s spacing. A workflow that pipelines scrape→score per
+> program runs ~10 concurrent scrapers and re-trips the block immediately, so
+> **capture is not part of the workflow.** Capture with
+> `scripts/scrape-v4-cohort.py` (serial, 3s paced, waits out blocks, resumable),
+> then fan out scoring from the extracts on disk. The scoring workflow performs
+> no network access at all.
+
+The reusable scoring workflow is [`scripts/workflows/v4-score-cohort.js`](../scripts/workflows/v4-score-cohort.js).
+Scout the work-list inline first, then pass only captured programs:
+
+```bash
+ls scrapes/v4/*.txt | xargs -n1 basename | sed 's/.txt//'
+```
+
+`Workflow({scriptPath: "scripts/workflows/v4-score-cohort.js", args: [<codes>]})`
+— one chain per program (score → adversarially verify → persist), no barriers.
+The scoring prompt is read from dist at run time, so the workflow never embeds a
+copy of the rubric.
+
+The single-program pipeline below remains the reference for the full per-program
+flow including report drafting.
 
 ```js
 export const meta = {
