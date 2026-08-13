@@ -1,6 +1,9 @@
 # Recommendation: Panel C v4 — Re-anchoring Curriculum Adaptiveness on the TEQSA Adaptive Capabilities
 
 **Status:** ADOPTED as working draft (§7 decisions 1–2) · outreach held (§7 decision 3) · 2026-08-13
+**Extended by:** [Panel C v4.1](dfva-panelc-v41-recommendation.md) (2026-08-14) — C1–C5 unchanged,
+plus a workplace-practice sub-scale W1–W3. Two anchors here are superseded there: C1 level 3 and
+C4 level 3 each drop their placement/WIL exemplar, which W3 now scores.
 **Derived from:** [Curriculum Adaptiveness literature review](dfva-adaptiveness-literature-review.md)
 (all citations below are verified against full text there; section references `LR §n`)
 **Decision owner:** DM, with A/Prof Kayley Lyons as proposed methodological reviewer

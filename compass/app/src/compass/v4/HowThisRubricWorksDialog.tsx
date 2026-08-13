@@ -44,7 +44,13 @@ export function Cite({ refs }: { refs: number[] }) {
   );
 }
 
-function ModalSection({ title, children }: { title: string; children: React.ReactNode }) {
+function ModalSection({
+  title,
+  children,
+}: {
+  title: string;
+  children: React.ReactNode;
+}) {
   return (
     <section>
       <h3 className="text-foreground mb-1.5 text-[11px] font-semibold tracking-[0.18em] uppercase">
@@ -60,7 +66,12 @@ function ModalSection({ title, children }: { title: string; children: React.Reac
 /** The derivation chain per item: which construct it operationalises and the
  * literature that put it in the instrument. Reference numbers resolve to the
  * generated V4_REFERENCES list. */
-const ITEM_DERIVATIONS: { id: string; name: string; refs: number[]; from: string }[] = [
+const ITEM_DERIVATIONS: {
+  id: string;
+  name: string;
+  refs: number[];
+  from: string;
+}[] = [
   {
     id: "C1",
     name: "Distributed cognition & relational capability",
@@ -91,6 +102,24 @@ const ITEM_DERIVATIONS: { id: string; name: string; refs: number[]; from: string
     refs: [14, 15, 7],
     from: "The capacity to generate and defend primary evidence, following Boyer's account of scholarship and Brew's analysis of the relation between research and teaching. Creative intelligence is a second Frey and Osborne bottleneck. The item is retained from the previous instrument, where its grounding was not in question.",
   },
+  {
+    id: "W1",
+    name: "Professional communication & conduct",
+    refs: [19, 20, 21, 31],
+    from: "Added in v4.1, in response to review feedback that the instrument scored what makes a graduate durable against AI but not what makes a graduate effective at work at all. The Higher Education Standards Framework already requires of every accredited course both generic skills applied in disciplinary context and the knowledge and skills required for employment. The national Employer Satisfaction Survey shows why this cannot be inferred from technical competence: in 2025 employers rated technical skills at 94.0 per cent but collaborative skills at 88.6 and employability skills at 86.2, so the domains do not move together.",
+  },
+  {
+    id: "W2",
+    name: "Authentic task design",
+    refs: [22, 23, 26, 24],
+    from: "How closely core assessment resembles the criterion situation of the discipline's own professional practice, following the five dimensions of Gulikers, Bastiaens and Kirschner and the realism and cognitive challenge dimensions of Villarroel and colleagues. Their third dimension, evaluative judgement, is deliberately excluded here because it is already item C2. Gibbs and Simpson supply the mechanism: assessment governs what and how students study. Fawns and colleagues supply the constraint, which is written into the scoring rules — the word 'authentic' in a handbook earns nothing; only documented features of the task are scored.",
+  },
+  {
+    id: "W3",
+    name: "Work-situated learning",
+    refs: [19, 27, 29, 28],
+    from: "Extended, supervised, assessed participation in a real workplace or professional community — a separately regulated category of provision under clause 5.4.1 of the Standards Framework, and a high-impact practice in Kuh's sense. Its distinctive mechanism, which simulation cannot supply, is membership and accountability in a community of practice and the pre-professional identity that forms there. The claim is deliberately bounded: Jackson and Collings found that work-integrated learning did not raise full-time employment rates, so the item is justified by skill development, employment relevance and identity formation, not by employment outcomes.",
+  },
 ];
 
 export function HowThisRubricWorksDialog() {
@@ -107,28 +136,34 @@ export function HowThisRubricWorksDialog() {
       </DialogTrigger>
       <DialogContent className="max-h-[85vh] max-w-2xl overflow-y-auto">
         <DialogHeader>
-          <DialogTitle className="font-serif text-xl">How this rubric works</DialogTitle>
+          <DialogTitle className="font-serif text-xl">
+            How this rubric works
+          </DialogTitle>
           <DialogDescription>
-            What Panel C v4 measures, the sources of each item, and how scores are decided.
-            Citation marks [n] open the source where one is available online.
+            What Panel C v4 measures, the sources of each item, and how scores
+            are decided. Citation marks [n] open the source where one is
+            available online.
           </DialogDescription>
         </DialogHeader>
 
         <div className="flex flex-col gap-5">
           <ModalSection title="What it measures">
             <p>
-              The rubric measures curriculum adaptiveness: the extent to which the documented
-              curriculum develops the <em>adaptive capabilities</em> defined in guidance
-              commissioned by TEQSA in 2026 —{" "}
+              The rubric measures curriculum adaptiveness: the extent to which
+              the documented curriculum develops the{" "}
+              <em>adaptive capabilities</em> defined in guidance commissioned by
+              TEQSA in 2026 —{" "}
               <span className="text-foreground">
-                “the high-level, integrated capacities that enable graduates to navigate complex,
-                novel and gen AI-integrated environments … to deploy, adapt and transfer their
-                specific, demonstrable skills effectively and ethically”
+                “the high-level, integrated capacities that enable graduates to
+                navigate complex, novel and gen AI-integrated environments … to
+                deploy, adapt and transfer their specific, demonstrable skills
+                effectively and ethically”
               </span>
-              <Cite refs={[1]} />. The previous version of this instrument defined the construct
-              only through its own scoring anchors. Anchoring the present version on an external
-              framework addresses a limitation identified in the measurement literature, where
-              locally developed instruments without external referents are noted to risk
+              <Cite refs={[1]} />. The previous version of this instrument
+              defined the construct only through its own scoring anchors.
+              Anchoring the present version on an external framework addresses a
+              limitation identified in the measurement literature, where locally
+              developed instruments without external referents are noted to risk
               construct underrepresentation
               <Cite refs={[18]} />.
             </p>
@@ -150,57 +185,65 @@ export function HowThisRubricWorksDialog() {
 
           <ModalSection title="Why disciplinary depth is a gate rather than a scored item">
             <p>
-              The TEQSA framework places deep disciplinary knowledge beneath the four
-              capabilities, describing it as “the epistemic foundation for authentic judgement
-              and expertise”, rather than listing it among them
-              <Cite refs={[1]} />. The labour-market evidence supports the same treatment:
-              Deming and Noray estimate that the earnings premium for applied science and
-              engineering degrees declines from 44 per cent at age 24 to 14 per cent by the
-              mid-thirties, which they attribute to the comparatively rapid obsolescence of
-              applied technical skills
-              <Cite refs={[6]} />. Disciplinary depth is accordingly treated as a precondition
-              (gate G1): a program that lacks it is flagged whatever its adaptiveness score.
-              The Irreplaceability item used in earlier versions has been removed. Its anchors
-              restated the content of other items, so its high item–total correlation is better
-              explained as a general-impression effect than as a distinct signal.
+              The TEQSA framework places deep disciplinary knowledge beneath the
+              four capabilities, describing it as “the epistemic foundation for
+              authentic judgement and expertise”, rather than listing it among
+              them
+              <Cite refs={[1]} />. The labour-market evidence supports the same
+              treatment: Deming and Noray estimate that the earnings premium for
+              applied science and engineering degrees declines from 44 per cent
+              at age 24 to 14 per cent by the mid-thirties, which they attribute
+              to the comparatively rapid obsolescence of applied technical
+              skills
+              <Cite refs={[6]} />. Disciplinary depth is accordingly treated as
+              a precondition (gate G1): a program that lacks it is flagged
+              whatever its adaptiveness score. The Irreplaceability item used in
+              earlier versions has been removed. Its anchors restated the
+              content of other items, so its high item–total correlation is
+              better explained as a general-impression effect than as a distinct
+              signal.
             </p>
           </ModalSection>
 
           <ModalSection title="How a score is decided">
             <ul className="list-disc space-y-1 pl-5">
               <li>
-                Each anchor is a declarative statement about documented curriculum evidence,
-                following the form of the Suitability-for-Machine-Learning rubric of
-                Brynjolfsson, Mitchell and Rock
-                <Cite refs={[8]} />. Scores are not holistic impressions of graduate
-                capability.
+                Each anchor is a declarative statement about documented
+                curriculum evidence, following the form of the
+                Suitability-for-Machine-Learning rubric of Brynjolfsson,
+                Mitchell and Rock
+                <Cite refs={[8]} />. Scores are not holistic impressions of
+                graduate capability.
               </li>
               <li>
-                Level 3 requires assessment evidence. A capability that appears in learning
-                outcomes but is not assessed is scored at level 1 in every item.
+                Level 3 requires assessment evidence. A capability that appears
+                in learning outcomes but is not assessed is scored at level 1 in
+                every item.
               </li>
               <li>
-                Each score cites the handbook passages that satisfy the anchor (shown under
-                each item on this page); the quoted passages are verified against the captured
-                source text.
+                Each score cites the handbook passages that satisfy the anchor
+                (shown under each item on this page); the quoted passages are
+                verified against the captured source text.
               </li>
               <li>
-                Where the evidence is consistent with two levels, the lower level is recorded
-                and the ambiguity is documented.
+                Where the evidence is consistent with two levels, the lower
+                level is recorded and the ambiguity is documented.
               </li>
             </ul>
           </ModalSection>
 
           <ModalSection title="The current status of the instrument">
             <p>
-              Version 4 is a working draft, applied here by a single rater whose scoring was
-              checked against the source text and reviewed adversarially. The validity argument
-              is being assembled following Kane's argument-based approach
-              <Cite refs={[17]} />. A content-validity panel with competency-framework
-              crosswalks, and an inter-rater reliability study on these items, are specified
-              but have not yet been conducted. Until they have, these scores should be read as
-              a systematic single-rater reading of the handbook, conservative in construction
-              but not independently replicated.
+              Version 4 is a working draft, applied here by a single rater whose
+              scoring was checked against the source text and reviewed
+              adversarially. The validity argument is being assembled following
+              Kane's argument-based approach
+              <Cite refs={[17]} />. A content-validity panel with
+              competency-framework crosswalks, and an inter-rater reliability
+              study on these items, are specified but have not yet been
+              conducted. Until they have, these scores should be read as a
+              systematic single-rater reading of the handbook, conservative in
+              construction but not independently replicated.
             </p>
           </ModalSection>
 
@@ -210,11 +253,12 @@ export function HowThisRubricWorksDialog() {
               <span className="text-foreground font-medium">
                 Part C → References
               </span>{" "}
-              on this page, and the same list, generated from the instrument's source
-              definition, ends every report in the v4 family. The full derivation of the
-              instrument — the literature review, the analysis of the previous version, and the
-              migration protocol — is recorded in the project's Panel C v4 recommendation and
-              literature review documents.
+              on this page, and the same list, generated from the instrument's
+              source definition, ends every report in the v4 family. The full
+              derivation of the instrument — the literature review, the analysis
+              of the previous version, and the migration protocol — is recorded
+              in the project's Panel C v4 recommendation and literature review
+              documents.
             </p>
           </ModalSection>
         </div>

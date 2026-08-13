@@ -6,14 +6,18 @@
 import { promises as fs } from 'node:fs'
 import * as path from 'node:path'
 import {
+  ALL_V4_ITEMS,
   GATES_V4,
   PANEL_C_V4,
+  PANEL_W_V4,
   V4_REFERENCES,
   refMarks,
   V4_ADAPTIVENESS_MAX,
   V4_DESIGN_RULES,
+  V4_PANEL_C_MAX,
   V4_RETIRED,
   V4_VERSION,
+  V4_WORKPLACE_MAX,
   renderV4GatesTable,
   renderV4ItemBlocks,
   renderV4References,
@@ -33,10 +37,24 @@ const banner = (source: string): string =>
 function scoringPrompt(): string {
   return `${banner('dfva/source/rubricV4.ts')}# DFVA-V4-SCORING-PROMPT (instrument ${V4_VERSION})
 
-You are scoring one university program's **Curriculum Adaptiveness (Panel C v4)**
-from its public handbook evidence. The instrument implements the four adaptive
-capabilities defined by TEQSA (Lodge et al., 2026) [1]; the full derivation is
-docs/dfva-panelc-v4-recommendation.md and docs/dfva-adaptiveness-literature-review.md.
+You are scoring one university program's **Panel C v4.1** from its public
+handbook evidence. Panel C has TWO sub-scales, scored independently:
+
+- **Adaptive capabilities (C1–C5, /${V4_ADAPTIVENESS_MAX})** — the four adaptive capabilities
+  defined by TEQSA (Lodge et al., 2026) [1]. What makes a graduate durable as AI
+  takes over tasks. Derivation: docs/dfva-panelc-v4-recommendation.md and
+  docs/dfva-adaptiveness-literature-review.md.
+- **Workplace practice (W1–W3, /${V4_WORKPLACE_MAX})** — what makes a graduate effective in ANY
+  workplace, including AI-integrated ones: professional communication and conduct,
+  authentic task design, and work-situated learning. Anchored on the Higher
+  Education Standards Framework 2021 cl. 1.4.2 and 5.4.1 [19], the QILT Employer
+  Satisfaction Survey domains [20], and the authentic-assessment and WIL
+  literatures. Derivation: docs/dfva-panelc-v41-recommendation.md and
+  docs/dfva-workplace-readiness-literature-review.md.
+
+Report the two sub-scores separately. **Never sum them into a single figure in
+your output** — whether they behave as one construct or two is an open empirical
+question the instrument exists to test.
 
 ## Inputs you will be given
 
@@ -54,20 +72,29 @@ docs/dfva-panelc-v4-recommendation.md and docs/dfva-adaptiveness-literature-revi
 - **R1 — ${V4_DESIGN_RULES.R1}**
 - **R2 — ${V4_DESIGN_RULES.R2}**
 - **R3 — ${V4_DESIGN_RULES.R3}**
+- **R4 — ${V4_DESIGN_RULES.R4}**
 - Scoring direction: when the evidence is ambiguous between two levels, take the
   LOWER level and record the ambiguity in the rationale. Never resolve ambiguity
   upward.
 - A level-3 score additionally requires quoting the assessment evidence
   (assessment task, hurdle, placement requirement) — an outcome statement is
   never sufficient (R2).
+- **One construct, one home.** Each piece of evidence scores in exactly one
+  item. Placement evidence scores in W3, never in C1 or C4. Appraisal of the
+  quality of work scores in C2, never in W2. If evidence seems to fit two items,
+  say so in \`ambiguities\` and score it in the one whose construct names it.
 - Do NOT compute exposure, position, quadrant, or stability — those come from
-  Panel A and the enumeration layer downstream. Your output is the five item
+  Panel A and the enumeration layer downstream. Your output is the eight item
   scores, two gates, and evidence.
 - ${V4_RETIRED.B} Never emit an irreplaceability score.
 
-## The five scored items (0–3 each; adaptiveness = sum, /${V4_ADAPTIVENESS_MAX})
+## Sub-scale A — adaptive capabilities (0–3 each; adaptiveness = sum, /${V4_ADAPTIVENESS_MAX})
 
-${renderV4ItemBlocks()}
+${renderV4ItemBlocks(PANEL_C_V4)}
+
+## Sub-scale W — workplace practice (0–3 each; workplace = sum, /${V4_WORKPLACE_MAX})
+
+${renderV4ItemBlocks(PANEL_W_V4)}
 
 ## The two gates (PASS/FAIL, excluded from the sum)
 
@@ -86,6 +113,10 @@ ${renderV4GatesTable()}
     "C4": { "score": 0, "rationale": "...", "evidenceLines": ["..."] },
     "C5": { "score": 0, "rationale": "...", "evidenceLines": ["..."] },
     "adaptiveness": 0,
+    "W1": { "score": 0, "rationale": "...", "evidenceLines": ["..."] },
+    "W2": { "score": 0, "rationale": "...", "evidenceLines": ["..."] },
+    "W3": { "score": 0, "rationale": "...", "evidenceLines": ["..."] },
+    "workplace": 0,
     "gates": {
       "G1": { "result": "PASS", "rationale": "...", "evidenceLines": ["..."] },
       "G2": { "result": "PASS", "rationale": "...", "evidenceLines": ["..."] }
@@ -134,20 +165,27 @@ Lyons's August 2026 feedback identified; LR §1, §7).
 ### 1. POSITION — Basis: measured × scored
 
 Destination AI Exposure <NN.NN> (Felten AIOE, measured; portfolio median <NN.N>)
-× Curriculum Adaptiveness <N>/${V4_ADAPTIVENESS_MAX} (scored on Panel C v4 [1]).
+× Curriculum Adaptiveness <N>/${V4_ADAPTIVENESS_MAX} (scored on Panel C v4.1 sub-scale A [1]).
+The position axis remains adaptiveness alone; the workplace sub-score
+<N>/${V4_WORKPLACE_MAX} is reported beside it, not folded into the axis, until the internal-structure
+analysis says whether the two behave as one construct.
 Position label only if stable per the v3.1 §5.2 rules; state modal probability
 and stability class. Never render an unstable label.
 
-### 2. PANEL C v4 SCORECARD — Basis: scored
+### 2. PANEL C v4.1 SCORECARD — Basis: scored
 
-A table of the five items. Every row cites its literature anchor by reference
-number and its handbook evidence:
+One table, the two sub-scales kept visually separate with their own subtotals.
+The two sub-scores are reported side by side and **never added together** —
+Panel C's total is a bookkeeping figure, not a construct. Every row cites its
+literature anchor by reference number and its handbook evidence:
 
 \`\`\`markdown
 | Item | Score | Rationale (anchor-referenced) |
 | --- | --- | --- |
 ${PANEL_C_V4.map((d) => `| ${d.id} ${d.name} ${refMarks(d.evidenceBase)} | <0–3> | <rationale citing the anchor met and the handbook evidence> |`).join('\n')}
-| **Adaptiveness** | **<N> / ${V4_ADAPTIVENESS_MAX}** | |
+| **Adaptive capabilities** | **<N> / ${V4_ADAPTIVENESS_MAX}** | |
+${PANEL_W_V4.map((d) => `| ${d.id} ${d.name} ${refMarks(d.evidenceBase)} | <0–3> | <rationale citing the anchor met and the handbook evidence> |`).join('\n')}
+| **Workplace practice** | **<N> / ${V4_WORKPLACE_MAX}** | |
 \`\`\`
 
 Followed by one evidence paragraph per item quoting the decisive handbook
@@ -185,6 +223,20 @@ plus the v4 standing limitations verbatim:
 - Indigenous data governance is not scored as a distinct construct; C3 level 3
   counts it where taught (CARE Principles; Lodge et al. 2025 Principle 4 [2]).
 - Perception/manipulation (Frey & Osborne's third bottleneck [7]) is unscored.
+- A high W3 score describes curriculum design, not student welfare: required
+  placements can disadvantage students who cannot afford unpaid work or
+  relocation (Accord [30]; Fawns et al. [24] on ableism and elitism).
+- W2 is scored against each discipline's own criterion situation [22], so
+  cross-disciplinary W2 comparison is weaker than within-discipline comparison.
+- W3 excludes simulation by design (simulation scores in W2), so programs whose
+  professional norm is high-fidelity simulation may score low on W3 for a
+  defensible pedagogic choice. Read the two sub-scores together.
+- The authentic-assessment employability evidence rests largely on student
+  self-report [25]; W2's warrant is documented design fidelity plus the
+  assessment-drives-learning mechanism [26], not demonstrated employment effects.
+- Work-integrated learning is NOT claimed to raise employment rates — Jackson &
+  Collings [28] found it does not. W3's warrant is skill development, employment
+  relevance and professional identity formation [29].
 
 ### REFERENCES
 
@@ -209,6 +261,8 @@ ${renderV4RubricTable()}
    quotes assessment evidence.
 5. REFERENCES section matches the canonical list (generated, byte-exact).
 6. No v1 composite ("N/36"), no Irreplaceability score, anywhere.
+7. The scorecard carries all eight item rows (C1–C5, W1–W3) and both subtotal
+   rows, and states no combined "/${V4_PANEL_C_MAX}" Panel C figure as a headline score.
 `
 }
 
@@ -247,6 +301,16 @@ Write \`reports/dfva-v4-recommend-<code>.md\` following
   quadrant/position label if none is published for this program.
 - **R2 discipline carries over:** an intervention that only edits outcome
   statements cannot claim to move a score — say so explicitly in §6.
+- **R4 discipline carries over:** relabelling an existing task "authentic",
+  "real-world" or "industry-relevant" moves nothing. A W2 step requires a change
+  to the task, the artefact produced, or the criteria applied.
+- **Both sub-scales get plans.** Adaptive (C1–C5) and workplace (W1–W3)
+  interventions appear in the same tables, each row naming its sub-scale, with
+  separate cumulative subtotals in §6. Never present a combined Panel C total.
+- **W3 honesty rule:** never justify a placement intervention by employment
+  rates — Jackson & Collings [28] found WIL does not raise them. Justify it by
+  skill development, employment relevance or professional identity [29], and
+  note the equity cost of unpaid or relocation-dependent placements [30].
 
 ## The instrument you are planning against
 
@@ -275,7 +339,7 @@ Every \`reports/dfva-v4-recommend-<code>.md\` must follow this template.
 
 **Instrument:** DFVA ${V4_VERSION} — Panel C v4 on the TEQSA adaptive capabilities [[1]](<teqsa url>)
 **Assessment date:** <YYYY-MM-DD> · **Derived from:** the verified panelCv4 scoring + reports/dfva-market-<code>.md
-**Position basis:** Destination AI Exposure <NN.NN> (measured) × Curriculum Adaptiveness <N>/${V4_ADAPTIVENESS_MAX} (v4 draft) — no v1 composite, no position label until the v4 migration cycle
+**Position basis:** Destination AI Exposure <NN.NN> (measured) × Curriculum Adaptiveness <N>/${V4_ADAPTIVENESS_MAX} (v4.1 draft, sub-scale A) · Workplace practice <N>/${V4_WORKPLACE_MAX} (sub-scale W, reported beside the axis, not in it) — no v1 composite, no position label until the v4 migration cycle
 \`\`\`
 
 A note under the header states that citation marks refer to the numbered list in
@@ -286,8 +350,9 @@ References and that full citations are not repeated in the body.
 1. **DIAGNOSTIC SUMMARY — Basis: inferred** — opens with the mandatory
    sentence: *"This plan argues from the scored evidence and market data
    above; it is interpretation, not observation."* Two short paragraphs, then:
-   \`| Item | Score | Levels below maximum | Market evidence for the gap | Priority |\`
-   with an adaptiveness total row.
+   \`| Item | Sub-scale | Score | Levels below maximum | Market evidence for the gap | Priority |\`
+   with an adaptive subtotal row and a workplace subtotal row — never a
+   combined Panel C total.
 2. **SCORE-TO-ACTION MAP — Basis: inferred** —
    \`| Item | Now → target | Anchor requirement at the target level (verbatim) | Curriculum action | Sources |\`
    One row per level step, including any second step on the same item.
@@ -301,10 +366,10 @@ References and that full citations are not repeated in the body.
 5. **GATE GUARDRAILS — Basis: scored** —
    \`| Gate | Status | Evidence carrying the gate | Constraint on redesign | Sources |\`
 6. **WHAT WOULD CHANGE THE SCORE — Basis: inferred** — two tables:
-   \`| Lever | Item | From | To | Change | Cumulative adaptiveness |\` and
+   \`| Lever | Item | From | To | Change | Cumulative adaptive | Cumulative workplace |\` and
    \`| Change | Why it does not move a score | Governing rule | Sources |\`
-   The second must cover outcome-statement edits (rule R2) and electives where
-   the anchor requires core placement.
+   The second must cover outcome-statement edits (rule R2), authenticity
+   relabelling (rule R4), and electives where the anchor requires core placement.
 7. **REFERENCES** — the canonical list, verbatim, ending the file.
 
 ## Lint rules (v4 recommend family in check-report-format.ts)
@@ -333,11 +398,12 @@ const TS_BANNER = [
 
 /** Client-side v4 rubric data (anchors, gates, references) for the report page. */
 function appRubricModule(): string {
-  const items = PANEL_C_V4.map((d) => ({
+  const items = ALL_V4_ITEMS.map((d) => ({
     id: d.id,
     name: d.name,
     short: d.short,
     construct: d.construct,
+    subscale: d.id.startsWith('W') ? 'workplace' : 'adaptive',
     refs: d.evidenceBase.map((k) => (V4_REFERENCES as Record<string, { n: number }>)[k].n),
     levels: d.levels,
   }))
@@ -354,7 +420,9 @@ function appRubricModule(): string {
   return (
     TS_BANNER +
     `export const V4_INSTRUMENT = ${JSON.stringify(V4_VERSION)};\n\n` +
-    'export interface V4RubricItem {\n  id: string;\n  name: string;\n  short: string;\n  construct: string;\n  refs: number[];\n  levels: [string, string, string, string];\n}\n\n' +
+    `export const V4_ADAPTIVENESS_MAX = ${V4_ADAPTIVENESS_MAX};\nexport const V4_WORKPLACE_MAX = ${V4_WORKPLACE_MAX};\n\n` +
+    'export type V4Subscale = "adaptive" | "workplace";\n\n' +
+    'export interface V4RubricItem {\n  id: string;\n  name: string;\n  short: string;\n  construct: string;\n  subscale: V4Subscale;\n  refs: number[];\n  levels: [string, string, string, string];\n}\n\n' +
     'export interface V4RubricGate {\n  id: string;\n  name: string;\n  construct: string;\n  pass: string;\n  fail: string;\n}\n\n' +
     'export interface V4Reference {\n  n: number;\n  citation: string;\n  url: string | null;\n}\n\n' +
     `export const V4_RUBRIC: V4RubricItem[] = ${JSON.stringify(items, null, 2)};\n\n` +
@@ -376,14 +444,33 @@ function appRubricModule(): string {
  */
 async function appPanelCModule(): Promise<string> {
   const evidenceDir = path.join(repoRoot, 'dfva', 'source', 'evidence')
-  const results: Record<string, { adaptiveness?: number }> = {}
+  const results: Record<string, { adaptiveness?: number; workplace?: number }> = {}
   for (const f of (await fs.readdir(evidenceDir)).sort()) {
     if (!f.endsWith('.json')) continue
     const data = JSON.parse(await fs.readFile(path.join(evidenceDir, f), 'utf8')) as {
       code?: string
-      panelCv4?: { adaptiveness?: number }
+      panelCv4?: { instrument?: string; adaptiveness?: number; workplace?: number }
     }
-    if (data.panelCv4 && data.code) results[data.code] = data.panelCv4
+    if (!data.panelCv4 || !data.code) continue
+
+    // Every score record must state which instrument produced it — the v4 §4
+    // migration cycle compares scores across a version boundary, so an
+    // unlabelled or mislabelled record corrupts the audit trail. The item set
+    // determines the version unambiguously (W1–W3 do not exist before 4.1), so
+    // derive it rather than trusting a scoring run's own string, and say so
+    // when the two disagree.
+    const derived = PANEL_W_V4.every((w) => data.panelCv4![w.id as keyof typeof data.panelCv4])
+      ? '4.1-draft'
+      : '4.0-draft'
+    const stated = data.panelCv4.instrument
+    if (stated && stated !== derived) {
+      console.warn(
+        `  warn: ${f} declares instrument "${stated}" but its item set is ${derived} — using ${derived}.`,
+      )
+    } else if (!stated) {
+      console.warn(`  warn: ${f} states no instrument — derived ${derived} from its item set.`)
+    }
+    results[data.code] = { ...data.panelCv4, instrument: derived }
   }
 
   // The reference cohort is the basis for the median (v3.1 §10a rule 2: the
@@ -410,9 +497,17 @@ async function appPanelCModule(): Promise<string> {
       : (values[values.length / 2 - 1] + values[values.length / 2]) / 2
     : null
 
+  // v4.1 added the W sub-scale, so a program scored under 4.0-draft is missing
+  // W1–W3. Tracked separately: the workplace sub-score is only publishable once
+  // every reference program has been re-scored on the full eight items.
+  const workplaceScored = referenceCodes.filter((c) => typeof results[c]?.workplace === 'number')
+
   const meta = {
     cohortSize: referenceCodes.length,
     scored: scored.length,
+    workplaceScored: workplaceScored.length,
+    workplaceComplete:
+      workplaceScored.length === referenceCodes.length && referenceCodes.length > 0,
     complete,
     adaptMedian: median,
     // Panel A is unchanged by v4; the exposure threshold is inherited as-is.
@@ -422,12 +517,18 @@ async function appPanelCModule(): Promise<string> {
 
   return (
     TS_BANNER +
-    'export interface V4ItemResult {\n  score: number;\n  rationale: string;\n  evidenceLines: string[];\n}\n\n' +
+    '/** Present when adversarial verification moved a score. Recorded rather than\n' +
+    ' *  overwritten: which anchor clause failed on scrutiny is response-process\n' +
+    ' *  evidence, and the IRR study reads it. */\n' +
+    'export interface V4Adjudication {\n  originalScore: number;\n  demotedTo?: number;\n  promotedTo?: number;\n  reason: string;\n}\n\n' +
+    'export interface V4ItemResult {\n  score: number;\n  rationale: string;\n  evidenceLines: string[];\n  adjudication?: V4Adjudication;\n}\n\n' +
     'export interface V4GateResult {\n  result: "PASS" | "FAIL";\n  rationale: string;\n  evidenceLines: string[];\n}\n\n' +
-    'export interface V4PanelC {\n  instrument: string;\n  C1: V4ItemResult;\n  C2: V4ItemResult;\n  C3: V4ItemResult;\n  C4: V4ItemResult;\n  C5: V4ItemResult;\n  adaptiveness: number;\n  gates: { G1: V4GateResult; G2: V4GateResult };\n  ambiguities: string[];\n  notScoreable: string[];\n  verified?: { adversarial: boolean; mechanical: boolean; date: string };\n}\n\n' +
+    '/** W1–W3 and `workplace` are optional: programs scored before v4.1 carry\n' +
+    ' *  only the adaptive sub-scale and must be re-scored, not back-filled. */\n' +
+    'export interface V4PanelC {\n  instrument: string;\n  C1: V4ItemResult;\n  C2: V4ItemResult;\n  C3: V4ItemResult;\n  C4: V4ItemResult;\n  C5: V4ItemResult;\n  adaptiveness: number;\n  W1?: V4ItemResult;\n  W2?: V4ItemResult;\n  W3?: V4ItemResult;\n  workplace?: number;\n  gates: { G1: V4GateResult; G2: V4GateResult };\n  ambiguities: string[];\n  notScoreable: string[];\n  verified?: { adversarial: boolean; mechanical: boolean; date: string };\n}\n\n' +
     '/** Migration-cycle status. `adaptMedian` is null until every reference-cohort\n' +
     ' *  program is scored on v4; position labels stay withheld while it is null. */\n' +
-    'export interface V4Meta {\n  cohortSize: number;\n  scored: number;\n  complete: boolean;\n  adaptMedian: number | null;\n  expMedian: number;\n  pending: string[];\n}\n\n' +
+    'export interface V4Meta {\n  cohortSize: number;\n  scored: number;\n  workplaceScored: number;\n  workplaceComplete: boolean;\n  complete: boolean;\n  adaptMedian: number | null;\n  expMedian: number;\n  pending: string[];\n}\n\n' +
     `export const V4_META: V4Meta = ${JSON.stringify(meta, null, 2)};\n\n` +
     `export const V4_PANEL_C: Record<string, V4PanelC> = ${JSON.stringify(results, null, 2)};\n\n` +
     'export const v4PanelCByCode = (code: string): V4PanelC | undefined =>\n  V4_PANEL_C[code.toLowerCase()];\n'
