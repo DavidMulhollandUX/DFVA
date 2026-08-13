@@ -293,6 +293,24 @@ export const V4_REFERENCES: Record<string, V4Reference> = {
 export const refMarks = (keys: string[]): string =>
   keys.map((k) => `[${V4_REFERENCES[k].n}]`).join('')
 
+/**
+ * Web-linked citation marks for report markdown: `[[n]](url)` renders as a
+ * clickable "[n]" wherever the source has a URL, so an annotation is never a
+ * dead number on a web page. URL-less sources stay plain `[n]` — their full
+ * citation is in the REFERENCES section that ends every v4 report.
+ */
+export const mdCiteByN = (ns: number[]): string =>
+  ns
+    .map((n) => {
+      const ref = Object.values(V4_REFERENCES).find((r) => r.n === n)
+      if (!ref) throw new Error(`mdCiteByN: no reference numbered ${n}`)
+      return ref.url ? `[[${n}]](${ref.url})` : `[${n}]`
+    })
+    .join('')
+
+export const mdCite = (keys: string[]): string =>
+  mdCiteByN(keys.map((k) => V4_REFERENCES[k].n))
+
 /** The C1–C5 rubric as a markdown table with reference markers. */
 export function renderV4RubricTable(): string {
   const head = '| # | Item | 0 | 1 | 2 | 3 | Refs |\n|---|---|---|---|---|---|---|'

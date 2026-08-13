@@ -11,7 +11,16 @@ cycle is published (§4 of the recommendation forbids silent re-positioning).
 | Generated artifact | Role |
 | --- | --- |
 | `dfva/dist/v4/DFVA-V4-SCORING-PROMPT.md` | The scoring agent's full prompt: anchors, R1–R3 rules, gates, output JSON contract, numbered references |
+| `dfva/dist/v4/DFVA-V4-RECOMMEND-PROMPT.md` | The recommender agent's prompt: derives an improvement plan from the verified `panelCv4` block + the market report, anchor-referenced and market-warranted |
 | `dfva/dist/v4/report-template-v4.md` | Canonical report template for the site (`reports/dfva-v4-<code>.md` family), with literature references and per-section epistemic-status tags |
+| `dfva/dist/v4/recommend-template-v4.md` | Canonical improvement-plan template (`reports/dfva-v4-recommend-<code>.md` family): score-to-action map, market alignment, P-lever table, gate guardrails, explicit score deltas |
+| `compass/app/src/compass/v4/data/{v4Rubric,v4PanelC}.ts` | App data modules for the `/insights/v4/:code` page |
+
+**Citations must work on the web.** Inline marks in report markdown use the
+linked form `[[n]](url)` wherever the source has a URL (plain `[n]` otherwise,
+resolving to the REFERENCES list that ends every file); the native page renders
+every mark through the `Cite` component (tooltip + source link). A dead `[n]`
+fails lint rule 3 of the recommend family.
 
 Never hand-edit the dist files; edit `rubricV4.ts` and regenerate — the same
 discipline `dfva:gen` enforces for v1.
@@ -29,7 +38,9 @@ program code ─┘
                              mechanical pass: every evidenceLine greps verbatim in the scrape
               4 PERSIST      dfva/source/evidence/<code>.json gains the panelCv4 block
               5 REPORT       draft reports/dfva-v4-<code>.md per report-template-v4.md
-              6 LINT         template rules 1–6 (v4 family; to be added to check-report-format.ts)
+              6 RECOMMEND    draft reports/dfva-v4-recommend-<code>.md per DFVA-V4-RECOMMEND-PROMPT.md
+                             (inputs: the verified panelCv4 block + reports/dfva-market-<code>.md)
+              7 LINT         both v4 families in check-report-format.ts (wired)
 ```
 
 Stage rules:
@@ -158,6 +169,20 @@ const results = await pipeline(
       schema: { type: 'object', required: ['code', 'adaptiveness', 'reportPath'],
         properties: { code: { type: 'string' }, adaptiveness: { type: 'integer' },
           gates: { type: 'object' }, reportPath: { type: 'string' } } } }),
+  (draft, code) => agent(
+    `Read dfva/dist/v4/DFVA-V4-RECOMMEND-PROMPT.md and follow it EXACTLY to write the ` +
+    `improvement plan for ${code}. Inputs: the verified panelCv4 block in ` +
+    `dfva/source/evidence/${code}.json and reports/dfva-market-${code}.md. Write ` +
+    `reports/dfva-v4-recommend-${code}.md per dfva/dist/v4/recommend-template-v4.md — every ` +
+    `intervention targets a named item's NEXT anchor level and cites a named market signal; ` +
+    `inline citations use the web-linked [[n]](url) form. Then run ` +
+    `"npm --prefix scripts run dfva:report-lint" and fix any v4-recommend errors. ` +
+    `Return {code, levers, recommendPath}.`,
+    { label: `recommend:${code}`, phase: 'Draft',
+      schema: { type: 'object', required: ['code', 'recommendPath'],
+        properties: { code: { type: 'string' }, levers: { type: 'integer' },
+          recommendPath: { type: 'string' } } } })
+    .then((r) => ({ ...draft, recommend: r })),
 )
 return { drafted: results.filter(Boolean) }
 ```

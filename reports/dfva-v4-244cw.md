@@ -1,6 +1,6 @@
 # DFVA v4 DURABILITY REPORT: Master of Public Health (244CW)
 
-**Instrument:** DFVA 4.0-draft — Panel C v4 on the TEQSA adaptive capabilities [1]
+**Instrument:** DFVA 4.0-draft — Panel C v4 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)
 **Assessment date:** 2026-08-13
 **Handbook vintage:** 2026 · **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/244cw (course, structure, attributes) plus the six compulsory-subject and two capstone subject/assessment pages
 **Coordinator:** Kayley Lyons (Melbourne School of Population and Global Health)
@@ -17,7 +17,7 @@
 destination record (n = 562, 15 titles) crosswalked to the published Felten AIOE index,
 rescaled 0–100 (v3.1 Panel A, extension cohort; v3.1 portfolio median 90.9).
 
-**Curriculum Adaptiveness: 9 / 15** — scored on Panel C v4 [1] from 2026 handbook
+**Curriculum Adaptiveness: 9 / 15** — scored on Panel C v4 [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook
 evidence, under the v4 evidence rules (declarative anchors; level 3 requires assessment
 evidence; ambiguity resolves down).
 
@@ -30,11 +30,11 @@ and stands as measured.
 
 | Item | Score | Rationale (anchor-referenced) |
 | --- | --- | --- |
-| C1 Distributed cognition & relational capability [1][5][7] | 2 | Collaborative practice is assessed in the core; no assessment coordinates work across people *and* tools/AI systems |
-| C2 Hybrid metacognition & evaluative judgement [1][4][3] | 2 | Criterion-referenced appraisal and peer feedback are assessed; no assessment documents reliance decisions or AI-output judgement |
-| C3 Digital & AI literacy, including governance [1][13][11][12][2] | 1 | Core digital content is tool operation (assessed Stata practicals); no AI capabilities-and-limitations content in any core unit |
-| C4 Life-long learning & transfer [1][9][10][2] | 2 | Novel-problem application assessed in the core; level 3 blocked by a capstone route whose assessment evidence is undocumented, under rule R2 |
-| C5 Inquiry & evidence generation [14][15][7] | 2 | Inquiry design assessed in the core at 60% weight; primary-evidence generation is one capstone route among several, not required |
+| C1 Distributed cognition & relational capability [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[5]](https://doi.org/10.1093/qje/qjx022)[[7]](https://doi.org/10.1016/j.techfore.2016.08.019) | 2 | Collaborative practice is assessed in the core; no assessment coordinates work across people *and* tools/AI systems |
+| C2 Hybrid metacognition & evaluative judgement [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[4]](https://doi.org/10.1007/s10734-017-0220-3)[[3]](https://www.teqsa.gov.au/sites/default/files/2023-09/assessment-reform-age-artificial-intelligence-discussion-paper.pdf) | 2 | Criterion-referenced appraisal and peer feedback are assessed; no assessment documents reliance decisions or AI-output judgement |
+| C3 Digital & AI literacy, including governance [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[13][[11]](https://doi.org/10.1145/3313831.3376727)[[12]](https://unesdoc.unesco.org/ark:/48223/pf0000391105)[[2]](https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/) | 1 | Core digital content is tool operation (assessed Stata practicals); no AI capabilities-and-limitations content in any core unit |
+| C4 Life-long learning & transfer [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[9]](https://www.nationalacademies.org/read/13398/chapter/2)[[10]](https://doi.org/10.1007/s10459-025-10413-y)[[2]](https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/) | 2 | Novel-problem application assessed in the core; level 3 blocked by a capstone route whose assessment evidence is undocumented, under rule R2 |
+| C5 Inquiry & evidence generation [14][15][[7]](https://doi.org/10.1016/j.techfore.2016.08.019) | 2 | Inquiry design assessed in the core at 60% weight; primary-evidence generation is one capstone route among several, not required |
 | **Adaptiveness** | **9 / 15** | |
 
 ### C1 — Distributed cognition & relational capability: 2/3
@@ -48,11 +48,11 @@ and states the outcome *"Accomplish creative and authentic solutions to real-wor
 challenges for public health issues by working in an effective and diverse team."*
 Level 3 is denied: collaborative assessment recurs, but no assessment requires
 coordinating work across people **and** tools/AI systems — the human–AI teaming half
-of the distributed-cognition construct [1] is absent from the documented curriculum.
+of the distributed-cognition construct [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) is absent from the documented curriculum.
 
 ### C2 — Hybrid metacognition & evaluative judgement: 2/3
 
-The core assesses appraisal of quality [4]: Qualitative Research in Public Health
+The core assesses appraisal of quality [[4]](https://doi.org/10.1007/s10734-017-0220-3): Qualitative Research in Public Health
 assesses students who can *"Critically appraise the findings, strengths and weaknesses
 of published qualitative research in public health"* and sets *"A critical reflection
 on achievement of course objectives through classroom and assessment activities"*;
@@ -67,9 +67,9 @@ anywhere in the program.
 The only digital capability assessed in the compulsory core is statistical tool
 operation: Biostatistics' *"Tutorial and Stata practical oral assessment"* and the
 outcome *"Perform simple statistical analyses using appropriate software."* That is
-the operational level the TEQSA framework identifies as non-durable [1], and the
+the operational level the TEQSA framework identifies as non-durable [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities), and the
 Lodge et al. framework's Principle 6 warns against as having *"limited future
-utility"* [2]. No core unit addresses AI capabilities and limitations, ethics or
+utility"* [[2]](https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/). No core unit addresses AI capabilities and limitations, ethics or
 governance. This independently reproduces the v3.1 finding (D5 = 1) on the new
 instrument.
 
@@ -86,7 +86,7 @@ Practice capstone route's assessment evidence is not in the handbook extract, an
 universal course-level outcome (*"Design and manage a detailed investigation of a
 public health issue in a substantial project, with a high level of personal autonomy
 and accountability"*) is an outcome statement, which level 3 does not accept in place
-of assessment evidence [9].
+of assessment evidence [[9]](https://www.nationalacademies.org/read/13398/chapter/2).
 
 ### C5 — Inquiry & evidence generation: 2/3
 
@@ -106,7 +106,7 @@ v3.1, now written into the anchor rather than applied as rater judgement.
 - **G1 Disciplinary foundation:** PASS — *"75 credit points of compulsory subjects"*
   across six named public-health subjects plus a required 25-point capstone; the
   methods subjects document early-sequence staging (*"Students should enrol in this
-  subject early in their program of study"*). [1][6]
+  subject early in their program of study"*). [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[6]](https://doi.org/10.1093/qje/qjaa021)
 - **G2 Decision-making under uncertainty:** PASS — assessed defended trade-offs
   including a timed *"Exam: Ethical Dilemma Analysis"* and prioritisation outcomes
   (*"Prioritise and select strategies and interventions to address health needs"*)
@@ -150,7 +150,7 @@ synthesis, drafting fluency.
    infrastructure already exists (critical reflections, peer feedback, appraisal of
    published research). Extending one existing core assessment to require students to
    document and justify reliance decisions on machine-assisted work — the evaluative-
-   judgement move [4][1] — would reach level 3 without a new subject. Trade-off:
+   judgement move [[4]](https://doi.org/10.1007/s10734-017-0220-3)[[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) — would reach level 3 without a new subject. Trade-off:
    assessment redesign effort in two subjects against the largest per-point gain
    available.
 2. **C3 at 1/3 → the structural gap the market evidence corroborates.** Destinations
@@ -158,7 +158,7 @@ synthesis, drafting fluency.
    limits or governance; the discussion signals independently name unverified machine
    output as the live professional risk. An AI-verification-and-governance component
    inside Biostatistics or Epidemiology 1 addresses it for every graduate; an elective
-   would reach only those who least need it. [1][11][12]
+   would reach only those who least need it. [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[11]](https://doi.org/10.1145/3313831.3376727)[[12]](https://unesdoc.unesco.org/ark:/48223/pf0000391105)
 3. **C5 at 2/3 → a route-design decision, not a teaching gap.** Making the Research
    Project (or an equivalent primary-evidence experience) the default capstone would
    satisfy the level-3 universality clause; the capability already exists on one
@@ -170,7 +170,7 @@ synthesis, drafting fluency.
    general point that this instrument scores *documented* intent (§6).
 5. **C1 at 2/3 → extend, don't add.** Team assessment is established; specifying a
    role for AI tools inside one existing team task (who verifies, who coordinates,
-   who signs off) would document the human–AI teaming half of the construct [1][5].
+   who signs off) would document the human–AI teaming half of the construct [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[5]](https://doi.org/10.1093/qje/qjx022).
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
@@ -193,11 +193,11 @@ flagged for the content-validity panel.
   capability; the extrapolation warrant is constructive alignment, stated as an
   assumption (Kane [17]).
 - Indigenous data governance is not scored as a distinct construct; C3 level 3 counts
-  it where taught (CARE Principles; Lodge et al. 2025 Principle 4 [2]). This program
+  it where taught (CARE Principles; Lodge et al. 2025 Principle 4 [[2]](https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/)). This program
   carries a dedicated elective and compulsory Indigenous health content — visible in
   the evidence, not separately scored.
-- Perception/manipulation (Frey & Osborne's third bottleneck [7]) is unscored.
-- The construct-validity program answering Woods, Lyons et al. [18] — CVI panel,
+- Perception/manipulation (Frey & Osborne's third bottleneck [[7]](https://doi.org/10.1016/j.techfore.2016.08.019)) is unscored.
+- The construct-validity program answering Woods, Lyons et al. [[18]](https://doi.org/10.1186/s12909-026-08969-3) — CVI panel,
   competency-framework crosswalk, inter-rater reliability on this instrument — is
   specified in the v4 recommendation and not yet executed; until it is, these scores
   are a single-rater application of a draft instrument.

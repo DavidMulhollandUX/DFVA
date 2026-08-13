@@ -13,7 +13,7 @@ import {
   type V4RubricItem,
 } from "./data/v4Rubric";
 import { v4PanelCByCode, type V4ItemResult, type V4PanelC } from "./data/v4PanelC";
-import { HowThisRubricWorksDialog } from "./HowThisRubricWorksDialog";
+import { Cite, HowThisRubricWorksDialog } from "./HowThisRubricWorksDialog";
 
 const X_MIN = 60;
 const X_MAX = 100;
@@ -55,14 +55,6 @@ function MethodDetails({ summary, children }: { summary: string; children: React
   );
 }
 
-function RefMarks({ refs }: { refs: number[] }) {
-  return (
-    <span className="text-secondary-muted-foreground font-mono text-xs">
-      {refs.map((n) => `[${n}]`).join("")}
-    </span>
-  );
-}
-
 function DimBar({ label, score }: { label: string; score: number }) {
   const barPct = Math.round((score / 3) * 100);
   const color = score >= 3 ? QUADRANTS["well-positioned"].hex : "#E9A23B";
@@ -100,7 +92,7 @@ function RatedV4Item({ item, result }: { item: V4RubricItem; result: V4ItemResul
       </summary>
       <div className="bg-card-accent mt-2 mb-1 ml-5 rounded-md p-3">
         <p className="text-foreground text-sm font-medium">
-          {item.id} · {item.name} <RefMarks refs={item.refs} />
+          {item.id} · {item.name} <Cite refs={item.refs} />
         </p>
         <p className="text-muted-foreground mt-1 text-xs italic">{item.construct}</p>
         <p className="text-muted-foreground mt-3 mb-1.5 text-[10px] font-semibold tracking-[0.18em] uppercase">
@@ -289,7 +281,7 @@ export default function V4ReportPage() {
           <nav className="text-muted-foreground mt-5 flex flex-wrap gap-x-6 gap-y-1 text-sm">
             <span className="text-foreground font-medium">In this report:</span>
             <a href="#finding" className="underline">Part A — The finding</a>
-            <a href="#market" className="underline">Part B — Market evidence &amp; implications</a>
+            <a href="#market" className="underline">Part B — Market evidence &amp; improvement plan</a>
             <a href="#method" className="underline">Part C — Method, instrument &amp; references</a>
           </nav>
         </div>
@@ -308,7 +300,7 @@ export default function V4ReportPage() {
                 <strong className="text-foreground font-medium">
                   TEQSA adaptive capabilities
                 </strong>{" "}
-                (Lodge et al., 2026 [1]) and is the adopted working draft, piloted on this
+                (Lodge et al., 2026<Cite refs={[1]} />) and is the adopted working draft, piloted on this
                 program. Its adaptiveness score is{" "}
                 <strong className="text-foreground font-medium">not comparable</strong> to the
                 published v3.1 value, and no position label exists until the v4 migration cycle
@@ -448,7 +440,7 @@ export default function V4ReportPage() {
               <HowThisRubricWorksDialog />
             </div>
             <p className="text-muted-foreground mt-1 mb-6 text-sm">
-              Five items anchored on the TEQSA adaptive capabilities [1], scored 0–3 from 2026
+              Five items anchored on the TEQSA adaptive capabilities<Cite refs={[1]} />, scored 0–3 from 2026
               handbook evidence. Tap an item to see the construct, the level anchors, the
               rater's reasoning, and the verbatim handbook lines behind the score. Level 3
               always requires <em>assessment</em> evidence — outcomes-only claims cap at 1.
@@ -489,7 +481,7 @@ export default function V4ReportPage() {
             </div>
             <p className="text-muted-foreground mt-3 text-xs">
               Gates are preconditions, not adaptiveness: G1 holds disciplinary depth (which TEQSA
-              places <em>under</em> the capabilities, not among them [1]), G2 holds
+              places <em>under</em> the capabilities, not among them<Cite refs={[1]} />), G2 holds
               decision-making under uncertainty. The v3.1 Irreplaceability bonus is retired in
               v4.
             </p>
@@ -497,14 +489,14 @@ export default function V4ReportPage() {
         </Card>
 
         {/* ================= PART B — MARKET EVIDENCE ================= */}
-        <PartHeading id="market" part="Part B" title="Market evidence & implications" />
+        <PartHeading id="market" part="Part B" title="Market evidence & improvement plan" />
         <p className="text-muted-foreground mb-5 text-sm">
           The market evidence is instrument-independent and carries over unchanged; confidence is
-          stated on each section. Curriculum implications keyed to the v4 items are in the{" "}
-          <Link to={`/reports/dfva-v4-${program.code}`} className="underline">
-            full v4 report
-          </Link>{" "}
-          (§5, marked as interpretation).
+          stated on each section. The improvement plan below it is derived from exactly two
+          inputs — the verified Panel C v4 scoring (Part A) and this market evidence — with
+          every intervention targeting a named item's next anchor level and citing its
+          literature{" "}
+          (<Cite refs={[1]} /> and per-lever marks link to their sources).
         </p>
 
         <ReportMarkdownCard
@@ -513,6 +505,14 @@ export default function V4ReportPage() {
           title="Labour-Market Intelligence"
           subtitle="Job families, hiring signals, and skill shifts for this program's destinations — confidence level stated per section"
         />
+        <div id="plan" className="scroll-mt-6">
+          <ReportMarkdownCard
+            slug={`dfva-v4-recommend-${program.code}`}
+            label="Redesign Recommendations · v4"
+            title="Improvement Plan (Panel C v4)"
+            subtitle="Anchor-referenced interventions derived from the v4 scoring and the market evidence — prioritised P1–P6, with gate guardrails and explicit score deltas"
+          />
+        </div>
 
         {/* ================= PART C — METHOD ================= */}
         <PartHeading id="method" part="Part C" title="Method, instrument & references" />
@@ -528,17 +528,17 @@ export default function V4ReportPage() {
               <p className="text-muted-foreground mb-3 text-sm">
                 v3.1's five items (D2, D3, D7, B, D5) defined adaptiveness by their own anchors,
                 with no external referent — the construct-underrepresentation critique published
-                by Woods, Lyons et al. [18]. v4 adopts the regulator-commissioned definition of{" "}
-                <em>adaptive capabilities</em> (Lodge et al., 2026 [1]): digital literacy,
+                by Woods, Lyons et al.<Cite refs={[18]} /> v4 adopts the regulator-commissioned definition of{" "}
+                <em>adaptive capabilities</em> (Lodge et al., 2026<Cite refs={[1]} />): digital literacy,
                 distributed cognition, hybrid metacognition and life-long learning, built on deep
                 disciplinary knowledge. C1–C4 map those four; C5 retains inquiry; disciplinary
-                depth moves to gate G1 (per Deming &amp; Noray [6], technical depth is a
+                depth moves to gate G1 (per Deming &amp; Noray<Cite refs={[6]} />, technical depth is a
                 precondition whose premium decays, not adaptiveness evidence); the
                 Irreplaceability bonus is retired as a halo item.
               </p>
               <p className="text-muted-foreground text-sm">
                 Anchors are declarative statements about documented curriculum evidence (the
-                Brynjolfsson–Mitchell–Rock SML form [8]); level 3 requires assessment evidence;
+                Brynjolfsson–Mitchell–Rock SML form<Cite refs={[8]} />); level 3 requires assessment evidence;
                 every score cites verbatim handbook lines; ambiguity resolves down. Full
                 derivation:{" "}
                 <span className="font-mono text-xs">docs/dfva-panelc-v4-recommendation.md</span>{" "}
@@ -598,14 +598,13 @@ export default function V4ReportPage() {
                 <li>
                   <strong className="text-foreground font-medium">No content-validity panel yet.</strong>{" "}
                   CVI panel + crosswalk to CEPH / WHO-ASPHER / AMIA frameworks is the specified
-                  next step (Kane's argument-based frame [17]).
+                  next step (Kane's argument-based frame<Cite refs={[17]} />).
                 </li>
                 <li>
                   <strong className="text-foreground font-medium">Declared scope limits.</strong>{" "}
                   Scores describe documented curriculum intent (the constructive-alignment
                   warrant is an assumption); Indigenous data governance is not a distinct
-                  construct (counted under C3 level 3 where taught [2]); perception/manipulation
-                  [7] is unscored.
+                  construct (counted under C3 level 3 where taught<Cite refs={[2]} />); perception/manipulation<Cite refs={[7]} /> is unscored.
                 </li>
               </ul>
             </CardContent>

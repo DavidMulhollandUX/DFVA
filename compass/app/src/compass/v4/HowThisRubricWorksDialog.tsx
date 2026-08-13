@@ -10,8 +10,9 @@ import { V4_REFERENCES } from "./data/v4Rubric";
 
 /** Inline citation marks. Each [n] resolves against the generated reference
  * list (single source: dfva/source/rubricV4.ts) and links to the source where
- * a URL exists; the full citation is always in the title tooltip. */
-function Cite({ refs }: { refs: number[] }) {
+ * a URL exists; the full citation is always in the title tooltip. Exported so
+ * every [n] on the v4 page is interactive, not a dead number. */
+export function Cite({ refs }: { refs: number[] }) {
   return (
     <sup className="ml-0.5 whitespace-nowrap">
       {refs.map((n) => {

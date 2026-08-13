@@ -205,6 +205,7 @@ import r198 from "./reportContent/dfva-recommend-mc-urbdes";
 import r199 from "./reportContent/dfva-recommend-mc-urbhort";
 import r200 from "./reportContent/dfva-recommend-me-dcd";
 import r201 from "./reportContent/dfva-v4-244cw";
+import r202 from "./reportContent/dfva-v4-recommend-244cw";
 
 export const REPORT_CONTENT: Record<
   string,
@@ -412,4 +413,5 @@ export const REPORT_CONTENT: Record<
   "dfva-recommend-mc-urbhort": r199,
   "dfva-recommend-me-dcd": r200,
   "dfva-v4-244cw": r201,
+  "dfva-v4-recommend-244cw": r202,
 };

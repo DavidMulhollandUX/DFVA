@@ -27,8 +27,13 @@ const REPORT_FILES = readdirSync(reportsDir).filter(
 )
 const MARKET_FILES = readdirSync(reportsDir).filter((f) => f.startsWith('dfva-market-') && f.endsWith('.md'))
 const RECOMMEND_FILES = readdirSync(reportsDir).filter((f) => f.startsWith('dfva-recommend-') && f.endsWith('.md'))
-// v4 family — canonical template: dfva/dist/v4/report-template-v4.md (generated from dfva/source/rubricV4.ts)
-const V4_FILES = readdirSync(reportsDir).filter((f) => f.startsWith('dfva-v4-') && f.endsWith('.md'))
+// v4 families — canonical templates in dfva/dist/v4/ (generated from dfva/source/rubricV4.ts)
+const V4_FILES = readdirSync(reportsDir).filter(
+  (f) => f.startsWith('dfva-v4-') && !f.startsWith('dfva-v4-recommend-') && f.endsWith('.md')
+)
+const V4_RECOMMEND_FILES = readdirSync(reportsDir).filter(
+  (f) => f.startsWith('dfva-v4-recommend-') && f.endsWith('.md')
+)
 
 // ── GRANDFATHERED: files already non-conformant when this check was introduced ──
 // Remove slugs here as phases 1-2 align them. End state = empty Set, strict for all.
@@ -308,11 +313,71 @@ for (const file of V4_FILES) {
   if (issues.length) errors.push(...issues.map((i) => `${slug}: ${i}`))
 }
 
+// ── v4 recommend checks (rules at the foot of dfva/dist/v4/recommend-template-v4.md) ──
+
+const V4_RECOMMEND_TEMPLATE = path.join(repoRoot, 'dfva', 'dist', 'v4', 'recommend-template-v4.md')
+
+for (const file of V4_RECOMMEND_FILES) {
+  const slug = file.replace('.md', '')
+  const content = readReport(file)
+  const lines = content.split('\n')
+  const issues: string[] = []
+
+  // 1. Title + instrument line
+  if (!lines[0].startsWith('# DFVA v4 IMPROVEMENT PLAN:')) {
+    issues.push(`title mismatch: "${lines[0]}"`)
+  }
+  if (!content.includes('**Instrument:** DFVA 4.0-draft')) {
+    issues.push('missing "**Instrument:** DFVA 4.0-draft" header line')
+  }
+
+  // 2. Sections 1–6 in order, each with a Basis: tag; §1 opens with the mandatory sentence
+  const sectionHeads = lines.filter((l) => /^## \d\. /.test(l))
+  const expected = ['## 1. DIAGNOSTIC SUMMARY', '## 2. SCORE-TO-ACTION MAP', '## 3. MARKET ALIGNMENT', '## 4. PRIORITISED INTERVENTIONS', '## 5. GATE GUARDRAILS', '## 6. WHAT WOULD CHANGE THE SCORE']
+  expected.forEach((prefix, i) => {
+    const head = sectionHeads[i]
+    if (!head || !head.startsWith(prefix)) {
+      issues.push(`section ${i + 1}: expected heading starting "${prefix}", got "${head ?? 'missing'}"`)
+    } else if (!head.includes('Basis:')) {
+      issues.push(`section ${i + 1}: heading is missing its "Basis:" tag`)
+    }
+  })
+  const s1 = content.split(/^## 1\. /m)[1] ?? ''
+  if (!s1.includes('This plan argues from the scored evidence and market data')) {
+    issues.push('section 1 must open with the mandatory interpretation sentence')
+  }
+
+  // 3. At least one web-linked citation mark
+  if (!/\[\[\d+\]\]\(http/.test(content)) {
+    issues.push('no web-linked citation mark ("[[n]](http…)") found')
+  }
+
+  // 4. REFERENCES byte-exact against the canonical generated list
+  if (existsSync(V4_RECOMMEND_TEMPLATE)) {
+    const tmpl = readFileSync(V4_RECOMMEND_TEMPLATE, 'utf-8')
+    const refBlock = (tmpl.split(/^## REFERENCES \(canonical\)$/m)[1] ?? '').split('```')[1] ?? ''
+    const canonical = refBlock.split('\n').filter((l) => /^\d+\. /.test(l))
+    const inReport = (content.split(/^## REFERENCES$/m)[1] ?? '').split('\n').filter((l) => /^\d+\. /.test(l))
+    if (canonical.length === 0 || inReport.join('\n') !== canonical.join('\n')) {
+      issues.push('REFERENCES section does not match the canonical generated list (dfva/dist/v4/recommend-template-v4.md)')
+    }
+  } else {
+    issues.push('canonical v4 recommend template missing — run: npm --prefix scripts run dfva:gen-v4')
+  }
+
+  // 5. No v1 composite, no Irreplaceability
+  if (/\d{1,2}\/36/.test(content)) issues.push('carries a v1 composite ("N/36") — forbidden in the v4 family')
+  if (/Irreplaceability.*\d\/3|\bB:\s*\d\/3/.test(content)) issues.push('carries an Irreplaceability score — retired in v4')
+
+  if (issues.length) errors.push(...issues.map((i) => `${slug}: ${i}`))
+}
+
 // ── Output ──
 
-const totalFiles = REPORT_FILES.length + MARKET_FILES.length + RECOMMEND_FILES.length + V4_FILES.length
+const totalFiles =
+  REPORT_FILES.length + MARKET_FILES.length + RECOMMEND_FILES.length + V4_FILES.length + V4_RECOMMEND_FILES.length
 console.log(
-  `Reports: ${REPORT_FILES.length} assessment + ${MARKET_FILES.length} market + ${RECOMMEND_FILES.length} recommend + ${V4_FILES.length} v4 = ${totalFiles} total`
+  `Reports: ${REPORT_FILES.length} assessment + ${MARKET_FILES.length} market + ${RECOMMEND_FILES.length} recommend + ${V4_FILES.length} v4 + ${V4_RECOMMEND_FILES.length} v4-recommend = ${totalFiles} total`
 )
 
 if (warnings.length) {

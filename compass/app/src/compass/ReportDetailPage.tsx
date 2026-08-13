@@ -205,8 +205,9 @@ const reportMeta: Record<
   "dfva-244cw": { score: "23 / 36", riskBand: "MODERATE RISK" },
   "dfva-market-244cw": { score: null, riskBand: null },
   "dfva-recommend-244cw": { score: null, riskBand: null },
-  // v4 pilot (draft instrument) — no v1-style composite; the report carries its own scores
+  // v4 pilot (draft instrument) — no v1-style composite; the reports carry their own scores
   "dfva-v4-244cw": { score: null, riskBand: null },
+  "dfva-v4-recommend-244cw": { score: null, riskBand: null },
 };
 
 const DIMENSIONS = [

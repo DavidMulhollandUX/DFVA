@@ -205,6 +205,106 @@ ${renderV4RubricTable()}
 `
 }
 
+function recommendPrompt(): string {
+  return `${banner('dfva/source/rubricV4.ts')}# DFVA-V4-RECOMMEND-PROMPT (instrument ${V4_VERSION})
+
+You are writing the **improvement plan** for a program already scored on Panel
+C v4. The plan derives every intervention from two inputs and nothing else:
+
+1. The program's verified \`panelCv4\` block (scores, rationales, evidence
+   lines, gates, ambiguities) from \`dfva/source/evidence/<code>.json\`.
+2. The program's market intelligence report
+   (\`reports/dfva-market-<code>.md\`) — job families, signals, skill shifts.
+
+Write \`reports/dfva-v4-recommend-<code>.md\` following
+\`dfva/dist/v4/recommend-template-v4.md\` EXACTLY. Non-negotiable rules:
+
+- **Anchor-referenced actions.** An intervention targets a named item's NEXT
+  anchor level, quoting the anchor text it would satisfy. Never recommend
+  toward a capability the anchors do not describe.
+- **Market-warranted.** Each intervention names the skill-shift row or signal
+  from the market report that makes it worth doing. An action no market
+  evidence supports does not appear.
+- **Cited.** Inline citations use the web-linked form \`[[n]](url)\` for
+  URL-bearing sources, plain \`[n]\` otherwise, resolving to the canonical
+  REFERENCES list, which ends the file verbatim.
+- **Interpretation is marked.** The diagnostic summary opens with the
+  mandatory sentence — this document argues from evidence; it is not itself
+  evidence.
+- **No v1 composite ("N/36"), no Irreplaceability, anywhere.** Do not state a
+  quadrant/position label if none is published for this program.
+- **R2 discipline carries over:** an intervention that only edits outcome
+  statements cannot claim to move a score — say so explicitly in §6.
+
+## The instrument you are planning against
+
+${renderV4RubricTable()}
+
+Gates (regression checks during redesign — a change that breaks one is
+flagged regardless of its adaptiveness effect):
+
+${renderV4GatesTable()}
+
+## REFERENCES
+
+${renderV4References()}
+`
+}
+
+function recommendTemplate(): string {
+  return `${banner('dfva/source/rubricV4.ts')}# DFVA v4 Improvement Plan Template — Canonical Spec (instrument ${V4_VERSION})
+
+Every \`reports/dfva-v4-recommend-<code>.md\` must follow this template.
+
+## Header
+
+\`\`\`markdown
+# DFVA v4 IMPROVEMENT PLAN: <Program Name> (<CODE>)
+
+**Instrument:** DFVA ${V4_VERSION} — Panel C v4 on the TEQSA adaptive capabilities [[1]](<teqsa url>)
+**Assessment date:** <YYYY-MM-DD> · **Derived from:** the verified panelCv4 scoring + reports/dfva-market-<code>.md
+**Position basis:** Destination AI Exposure <NN.NN> (measured) × Curriculum Adaptiveness <N>/${V4_ADAPTIVENESS_MAX} (v4 draft) — no v1 composite, no position label until the v4 migration cycle
+\`\`\`
+
+## Sections (all required, in order)
+
+1. **DIAGNOSTIC SUMMARY — Basis: inferred** — opens with the mandatory
+   sentence: *"This plan argues from the scored evidence and market data
+   above; it is interpretation, not observation."* Then: where the score
+   concentrates, which single item is the binding constraint, and why.
+2. **SCORE-TO-ACTION MAP — Basis: inferred** — one block per item scoring
+   below 3: current level → the NEXT anchor's text (quoted) → the concrete
+   curriculum action that would satisfy it, cited to the item's evidence base.
+3. **MARKET ALIGNMENT — Basis: reported → inferred** — each intervention
+   mapped to the skill-shift rows / signals that warrant it, with the market
+   report's own confidence level restated.
+4. **PRIORITISED INTERVENTIONS — Basis: inferred** — table:
+   \`| # | Item(s) | Action | Anchor satisfied | Market warrant | Evidence base | Effort | Sequence |\`
+   with levers numbered P1..Pn. Effort ∈ low/medium/high; Sequence is a
+   term-level ordering with documentation-only fixes first.
+5. **GATE GUARDRAILS — Basis: scored** — G1 and G2 restated as regression
+   checks: what any redesign must not break.
+6. **WHAT WOULD CHANGE THE SCORE — Basis: inferred** — explicit anchor
+   deltas per lever, AND what would NOT move a score (outcome-statement
+   edits per rule R2; electives where the anchor requires core).
+7. **REFERENCES** — the canonical list, verbatim, ending the file.
+
+## Lint rules (v4 recommend family in check-report-format.ts)
+
+1. Title \`# DFVA v4 IMPROVEMENT PLAN:\`; header carries \`**Instrument:** DFVA ${V4_VERSION}\`.
+2. Sections 1–6 present, in order, each with a \`Basis:\` tag; §1 opens with the mandatory sentence.
+3. At least one web-linked citation mark \`[[n]](http...)\`.
+4. REFERENCES matches the canonical generated list, byte-exact.
+5. No v1 composite ("N/36"), no Irreplaceability score, anywhere.
+
+## REFERENCES (canonical)
+
+\`\`\`markdown
+${renderV4References()}
+\`\`\`
+`
+}
+
 const TS_BANNER = [
   '// GENERATED FILE — DO NOT EDIT.',
   '// Source: dfva/source/rubricV4.ts + dfva/source/evidence/*.json (panelCv4 blocks)',
@@ -269,7 +369,9 @@ async function appPanelCModule(): Promise<string> {
 async function main(): Promise<void> {
   const out = new Map<string, string>([
     ['dfva/dist/v4/DFVA-V4-SCORING-PROMPT.md', scoringPrompt()],
+    ['dfva/dist/v4/DFVA-V4-RECOMMEND-PROMPT.md', recommendPrompt()],
     ['dfva/dist/v4/report-template-v4.md', reportTemplate()],
+    ['dfva/dist/v4/recommend-template-v4.md', recommendTemplate()],
     ['compass/app/src/compass/v4/data/v4Rubric.ts', appRubricModule()],
     ['compass/app/src/compass/v4/data/v4PanelC.ts', await appPanelCModule()],
   ])
