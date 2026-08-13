@@ -107,7 +107,9 @@ const results = await pipeline(
         `(1) Apply every demotion and drop any item whose evidence was unquotable, then ` +
         `recompute adaptiveness as the sum of C1..C5. ` +
         `(2) Merge the panelCv4 block into dfva/source/evidence/${r.code}.json, preserving the ` +
-        `existing v1 "byDimension" content untouched, and stamp ` +
+        `existing v1 "byDimension" content untouched. Most cohort programs have no evidence ` +
+        `file yet — if it is absent, create it as {"code": "${r.code}", "panelCv4": {...}} and ` +
+        `do NOT invent any v1 content. Stamp ` +
         `"verified": {"adversarial": true, "mechanical": true, "date": "<today>"}. ` +
         `(3) Do NOT write any report file — this pass produces scores only. ` +
         `Return {code, adaptiveness, gates, ambiguities}.`,

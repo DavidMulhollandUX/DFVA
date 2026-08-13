@@ -1,7 +1,7 @@
 # DFVA
 
 **Tech stack:** TypeScript (scripts), Wasp 0.24 (compass app; config in main.wasp.ts — Wasp Spec, requires Node 24), Prisma (PostgreSQL), React 19
-**Key constraint:** Handbook scraper UNBLOCKED (2026-07-01) — Crawl4AI bypasses anti-bot. Use `PYTHONPATH="" bash ~/.hermes/scripts/crawl4ai_scrape.sh "<url>"` for handbook extraction.
+**Key constraint:** The UoM handbook refuses Crawl4AI ("Pardon Our Interruption") but serves a real browser normally. Capture UoM handbook evidence through the browser-based queue — `/v4-capture` or `python3 scripts/v4-capture-queue.py` ([runbook](docs/dfva-v4-capture-system.md)), paced at ~1 page per 20–30s. Crawl4AI (`PYTHONPATH="" bash ~/.hermes/scripts/crawl4ai_scrape.sh "<url>"`) still works for the Go8 handbooks below.
 
 **Go8 scraping:** `PYTHONPATH="" ~/.venv-crawl4ai-uv/bin/python3 scripts/scrape-go8-handbooks.py <command> <unikey>`
 
