@@ -44,7 +44,12 @@ COHORT = os.path.join(ROOT, "scripts", "v4_cohort.json")
 # Caps mirror scripts/scrape-v4-cohort.py so an extract captured by either route
 # has the same shape, and the scoring prompt sees one consistent evidence base.
 MAX_COMPONENTS = 6
-MAX_SUBJECTS = 10
+# 10 truncated the capstone alternatives on the first program scored (439fs
+# reached its cap before two of its four permitted capstone routes), which caps
+# C4 and C5 for a reason about the capture rather than the curriculum. That
+# error has a direction — it only ever depresses scores — so it would have bent
+# the cohort median downward while looking authoritative.
+MAX_SUBJECTS = 16
 
 # Ordering within a program. Scoring rule R2 awards level 3 only on assessment
 # evidence, so assessment pages are never the part that gets dropped: they sort
@@ -220,13 +225,17 @@ def discover(prog: dict, slot: str, links: list[str]) -> int:
         for c in sorted(comps)[:MAX_COMPONENTS]:
             add_page(prog, f"https://handbook.unimelb.edu.au/2026/components/{c}/course-structure", f"comp-{c}")
 
-    have = sum(1 for p in prog["pages"].values() if p["slot"].startswith("subj-") and "-assessment" not in p["slot"])
+    known = {p["slot"][5:] for p in prog["pages"].values()
+             if p["slot"].startswith("subj-") and not p["slot"].endswith("-assessment")}
     subjects = []
     for h in links:
         m = re.search(r"/subjects/([a-z]{4}\d{5})", h)
-        if m and m.group(1) not in subjects:
+        # Filter out subjects already queued BEFORE applying the cap — slicing
+        # the raw list first would return only subjects already held, so a
+        # capped program could never take on new ones when the cap was raised.
+        if m and m.group(1) not in subjects and m.group(1) not in known:
             subjects.append(m.group(1))
-    for s in subjects[: max(0, MAX_SUBJECTS - have)]:
+    for s in subjects[: max(0, MAX_SUBJECTS - len(known))]:
         add_page(prog, f"https://handbook.unimelb.edu.au/2026/subjects/{s}", f"subj-{s}")
         add_page(prog, f"https://handbook.unimelb.edu.au/2026/subjects/{s}/assessment", f"subj-{s}-assessment")
     return len(prog["pages"]) - before
@@ -350,6 +359,9 @@ def cmd_rediscover() -> None:
                 continue
             found = discover(prog, page["slot"], data.get("links") or [])
             if found:
+                # New evidence means any extract already written is incomplete,
+                # and so is any score derived from it.
+                prog["assembled"] = False
                 print(f"{code}/{page['slot']}: +{found}")
                 total += found
     save_queue(q)
