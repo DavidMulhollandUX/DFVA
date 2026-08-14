@@ -59,14 +59,13 @@ export interface V4Meta {
 
 export const V4_META: V4Meta = {
   "cohortSize": 34,
-  "scored": 15,
-  "workplaceScored": 15,
+  "scored": 16,
+  "workplaceScored": 16,
   "workplaceComplete": false,
   "complete": false,
   "adaptMedian": null,
   "expMedian": 90.9,
   "pending": [
-    "mc-dvetmed",
     "mc-ed",
     "mc-envsc",
     "mc-gencoun",
@@ -2318,22 +2317,148 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "date": "2026-08-14"
     }
   },
+  "mc-dvetmed": {
+    "instrument": "4.1-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: several core DVM1 subjects carry an assessed 'Group assignment' (5%) alongside learning outcomes that name collaborative practice, so collaboration is assessed in core units, not merely claimed. Level 3 is not reached: the anchor additionally requires at least one assessment where work is coordinated across people AND tools/AI systems (documented role and tool allocation, or the human/system division of labour itself assessed) — nothing in the extract documents any tool or AI system in the division of work, and the group tasks are 500-word assignments with no documented role allocation or individual accountability. Placement/WIL evidence is deliberately excluded here and scored in W3.",
+      "evidenceLines": [
+        "Group assignment",
+        "Work collaboratively, communicate effectively, and apply an understanding of the structure and function of the digestive tract in order to analyse and interpret clinical problems related to this system in animals",
+        "Through case-based syndicate work relevant to the major extensive production systems (beef cattle, dairy cattle, sheep, camelids and goats)",
+        "Describe the varied roles of the veterinarian in the community and in industry, and develop and demonstrate the professional skills required to work effectively as a leader, a team member and independently"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1 anchor fits: reflection and critical appraisal appear in the course-level intended learning outcomes, and a 'Personal reflection' task is graded in a core subject, but the extract nowhere documents that any core assessment is a criterion-referenced appraisal of the QUALITY of work — no peer review, structured critique, portfolio against standards, or marking against exemplars is described, and the reflection's criteria are not stated. Level 2 would require that criterion-referenced appraisal of quality be documented, and level 3 would require documented reliance decisions (when a tool, source or collaborator was relied on or overridden) — neither appears anywhere in the extract. Ambiguity between 1 and 2 resolved DOWNWARD per the scoring-direction rule.",
+      "evidenceLines": [
+        "Practise reflection and self-directed learning, recognise personal and resource-related limitations, seek assistance as needed, and be aware of the breadth of non-clinical professional opportunities available",
+        "Personal reflection",
+        "Critically evaluate the scientific literature in order to practise evidence-based veterinary medicine, to ask and answer research questions, and to advance knowledge in the profession"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor — digital tools appear only at the operational level. The extract's entire digital content is an online literature-search hurdle activity, an outcome about how research results are 'communicated and accessed', and the interpretation of digital diagnostic artefacts (diagnostic images, electrocardiograms) as clinical content. There is NO mention of artificial intelligence anywhere in the extract, so level 2 (core units addressing AI capabilities AND limitations/ethics, assessed) and level 3 (assessed critique or governance of AI systems — bias, accountability, transparency, regulation, data governance) both fail outright. Ambiguity between 0 and 1 noted and resolved to 1 only because level 0's declarative statement ('no digital content in any core unit or program-level outcome') is falsified by the online literature-search hurdle and the imaging/ECG interpretation outcomes.",
+      "evidenceLines": [
+        "Online activity - literature search",
+        "Describe principles of scientific method and how research results are communicated and accessed",
+        "Differentiate the normal and abnormal appearance of components of the cardiovascular system on gross observation and in histological preparations, diagnostic images, and electrocardiograms"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2 anchor is met: core assessment in every biosciences subject is built on graded case-study exercises requiring students to interpret data from clinical cases they have not seen and apply taught structure/function knowledge to interpret the problem — case variation applied to unfamiliar presentations, assessed. Level 3 is not awarded: the anchor requires documented structured progression toward independent learning (a self-scoped capstone or research project, or assessed identification of one's own knowledge gaps plus the plan to close them). The course structure does list core subjects named Veterinary Research Project A and Veterinary Research Project B, but their subject and assessment pages are absent from the extract, so there is nothing quotable showing the project is student-scoped or that gap-identification is assessed — R2 forbids a level 3 without assessment evidence, and the ambiguity is resolved downward. Self-directed learning appears only as a course outcome, which R2 caps at level 1 on its own.",
+      "evidenceLines": [
+        "Up to four online quizzes of case study exercises, each taking approximately 30 minutes to complete, each equally weighted.",
+        "Interpret data acquired from clinical cases, and apply understanding of the cellular and system structure and function in order to analyse and interpret clinical problems",
+        "Have the capacity to participate fully in collaborative learning and to find solutions to unfamiliar problems",
+        "Veterinary Research Project A"
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 1 anchor — the documented inquiry evidence is a hurdle online literature-search activity, an outcome on scientific method and how research is accessed, and an assessed oral presentation of a 'research activity' whose stated purpose is integrating and communicating concepts rather than generating primary evidence. Level 2 requires students to design and conduct an inquiry with methodology selection and data collection, assessed: the only candidate is the core Veterinary Research Project A/B pair, which appears in the extract as subject titles in the course-structure table with no subject page and no assessment page, so nothing documents methodology selection, data collection, or how it is assessed. Level 3 additionally requires methodology defended under scrutiny (viva, defence, staged supervised review), of which there is no trace. Straddle between 1 and 2 resolved to the LOWER level per the scoring-direction rule rather than inferring a research project's design from its title (R1).",
+      "evidenceLines": [
+        "Online activity - literature search",
+        "Oral presentation of a research activity that demonstrates the ability to integrate concepts across different discipline areas and organ systems, and to communicate these concepts to a lay audience. Presented online in video format.",
+        "Critically evaluate the scientific literature in order to practise evidence-based veterinary medicine, to ask and answer research questions, and to advance knowledge in the profession",
+        "Veterinary Research Project B"
+      ]
+    },
+    "adaptiveness": 7,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1 anchor: professional communication and conduct are stated at course level ('Demonstrate adaptive and professional communication skills appropriate for the intended audience'), and core assessment does add spoken communication — a 10% oral presentation delivered online in video format, notionally addressed to a lay/diverse audience. But R2 and Barrie forbid scoring the stated attribute, and the presentation is submitted to the teaching team: nothing documents a recognised professional genre (client brief, clinical handover, consultancy or policy advice, public-facing artefact) or a real audience beyond the teaching team, which level 2 requires, nor practice-derived criteria applied to the communication. Level 3 (repeated, progressive professional communication judged by a real external audience or practitioner, with conduct explicitly among the criteria) has no documentary support in the extract. The bulk of core assessment remains written tests and examinations addressed to the marker. Ambiguity between 1 and 2 resolved downward.",
+      "evidenceLines": [
+        "Demonstrate adaptive and professional communication skills appropriate for the intended audience",
+        "Oral presentation of a research activity that demonstrates the ability to integrate concepts across different discipline areas and organ systems, and to communicate these concepts to a lay audience. Presented online in video format.",
+        "Communicate orally and effectively complex scientific information to a diverse audience",
+        "Written examination"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2 anchor: at least one core assessment reproduces a professional task judged against criteria drawn from practice — the hurdle-gated structured assessments of animal handling require students to demonstrate safe handling and restraint of cattle, horses, sheep, dogs and cats to a pass standard, in the real physical context with live animals, applying animal-behaviour and risk-assessment principles, with a prior 'safe to attempt' participation hurdle. Level 1 is rejected because its declarative statement — that the artefact produced and the criteria applied remain academic — is false here: the criterion is the profession's own safety standard, not an academic one. Level 3 fails clearly: such tasks are not the assessment spine. The documented spine is online case-study quizzes, a mid-semester written test and a written examination carrying 55–60% in nearly every core subject, so scenario-framed academic tasks dominate rather than practice-fidelity tasks with a genuine constraint of practice. Per R4 no credit is taken from the overview's 'authentic cases' language — only the documented task features are scored.",
+      "evidenceLines": [
+        "Up to five structured assessments of animal handling skills",
+        "Hurdle requirement: Students must pass the five structured assessments that evaluate safe handling of different domestic animal species. Students will be given the opportunity to practise their animal handling skills and receive formative feedback before demonstrating their proficiency in the structured assessments.",
+        "Hurdle requirement: Students must attend and participate in all timetabled animal handling practicals to be considered as 'safe to attempt' the structured assessments of safe animal handling skills",
+        "Apply principles of animal behaviour and risk assessment in order to safely handle and restrain the common domesticated animal species",
+        "Written examination"
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3 anchor: substantial REQUIRED work-situated learning as a sequence in the core, assessed, with structured reflection. The course structure mandates 12 weeks of extramural placement across years one and two and a further 21 weeks of clinical extramural placement across years three and four — 33 required weeks in real extramural workplaces, explicitly labelled WIL, in a course where every subject is core. It is assessed rather than merely required: the one-week extramural placement is a named hurdle requirement for VETS90127 (and VETS30032) and carries a second hurdle for the written placement report, and a subject outcome requires reflective and critical analysis of the personal industry-based experience. That is far beyond level 2's 'short or stands alone'. R2 is satisfied by quotable hurdle text rather than an outcome statement. Simulation-based work (animal-handling practicals) is excluded here and scored in W2.",
+      "evidenceLines": [
+        "Across the first and second year of the course, students must undertake 12 weeks of animal husbandry/pre-clinical extramural placements across extensive, intensive, and other types of sites.",
+        "Students undertake preclinical and animal husbandry WIL in an extramural workplace settings of each of the following species/disciplines: equine, production animals, and companion animals.",
+        "Across the third and fourth year of the of the course, students must undertake 21 weeks of clinical extramural placements including experience across the following species: equine, production animals, and companion animals.",
+        "Hurdle requirement: Students must complete a one-week extramural placement in Category A (extensive production industries), Category B (intensive production industries) or Category C (educational farms, welfare/small animal shelters and zoos) by the end of this subject to be eligible to pass the subject.",
+        "Written extramural placement report",
+        "Hurdle requirement: Students must complete a brief written summary of the extramural placement.",
+        "Apply an understanding of the principal determinants of animal health in reflective and critical analysis of a personal industry‐based experience in order to evaluate the relevant animal production system"
+      ]
+    },
+    "workplace": 6,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The gate's PASS condition is met on all three of its alternative routes. The core is all-compulsory ('All subjects in the Doctor of Veterinary Medicine course are core'), the sequence is externally accredited by three veterinary boards on a seven-year cycle, and the structure is staged with progressive depth — bioscience systems subjects in DVM1, pathology/microbiology/epidemiology in DVM2, species-based clinical subjects in DVM3, and a 100-point year-long final-year subject, with Veterinary Professional Practice 1 through 5 forming an explicit spine. This is specialist disciplinary content with a clear identity, not generic or interchangeable material.",
+        "evidenceLines": [
+          "All subjects in the Doctor of Veterinary Medicine course are core.",
+          "The veterinary program at the University of Melbourne is accredited by the Australasian Veterinary Boards Council, the Royal College Veterinary Surgeons (London, United Kingdom), and the American Veterinary Medical Association.",
+          "Veterinary Professional Practice 5"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "The gate PASSes on its second route — live projects with real uncertainty and accountability. Extramural placements in working production and clinical settings are hurdle requirements students must complete and report on, and the final year immerses students in working veterinary clinics; these are uncontrolled real settings, not scripted responses. Assessed case-study exercises recur throughout every core bioscience subject, requiring interpretation of clinical case data rather than recall, and the course outcomes frame the required decisions as explicit trade-offs across welfare, legal, ethical, prognostic, economic and public-health considerations. Note the outcome statement alone would not carry the gate; the hurdle-assessed placements and graded case exercises do.",
+        "evidenceLines": [
+          "Safely collect and appropriately interpret information, use knowledge of biological processes, and apply critical thinking and problem-solving skills to recommend effective solutions, taking into account animal welfare, legal, ethical, prognostic, economic and public health considerations",
+          "Up to 5 online assessments of weekly case study exercises (each equally weighted)",
+          "Hurdle requirement: Students must complete a one-week extramural placement in Category A (extensive production industries), Category B (intensive production industries) or Category C (educational farms, welfare/small animal shelters and zoos) by the end of this subject to be eligible to pass the subject.",
+          "By the time they reach the final year of the DVM, students will be immersed in a community of best practice in veterinary clinics"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C2 straddled levels 1 and 2: a 'Personal reflection' worth 20% is genuinely assessed in a core subject (which is more than level 1's 'not assessed'), but the extract documents no criteria and no appraisal of the quality of work. Resolved DOWN to 1 under the scoring-direction rule.",
+      "C3 straddled levels 0 and 1: no AI content of any kind appears in the extract, which argues for 0, but level 0's statement 'no digital/AI content in any core unit or program-level outcome' is falsified by the hurdle online literature-search activity and the diagnostic-image/ECG interpretation outcomes. Scored 1 because level 0's declarative anchor is not true of this evidence; the level-1 ceiling on tool-operation content applies.",
+      "C4 and C5 both straddled a level because the core subjects Veterinary Research Project A (VETS90078) and Veterinary Research Project B (VETS90079) appear only as titles in the course-structure table — no subject page, no assessment page. Both resolved DOWN (C4 to 2, C5 to 1) rather than inferring a self-scoped project or a designed inquiry from a subject title, per R1 and R2.",
+      "W1 straddled levels 1 and 2: the oral presentation names a 'lay'/'diverse' audience, but the extract documents delivery online in video format to the teaching team, with no professional genre and no practice-derived criteria. Resolved DOWN to 1; Barrie/R2 bar the stated communication attribute from carrying the score.",
+      "W2 straddled levels 1 and 2: safe animal handling and restraint is a component clinical skill rather than an end-to-end professional task, which argues for 1. Scored 2 because level 1's declarative statement that 'the criteria applied remain academic' is false — the structured assessments apply the profession's own safety standard as a pass/fail hurdle with live animals.",
+      "W3: level 3's 'supervised by a practitioner' and 'accountability to the host' are not stated verbatim anywhere in the extract; supervision is implied by the extramural workplace and clinic settings only. This does not discriminate between levels 2 and 3 (level 2's anchor requires practitioner supervision too), and the 12+21 required weeks plus hurdle-assessed reports decisively exceed level 2's 'short or stands alone', so 3 stands with the gap declared.",
+      "Cross-item: the extramural placements and the reflective analysis of the industry-based experience would also read as evidence for C1 (relational capability) and C4 (transfer). Per the one-construct-one-home rule they are scored only in W3."
+    ],
+    "notScoreable": [
+      "Partial-evidence caveat, not an unscoreable item: the extract contains subject and assessment pages for DVM1 only (VETS90120-90127 and the B-SCI Veterinary Bioscience route VETS30014-30032). No subject or assessment page is present for any DVM2, DVM3 or DVM4 subject — including Veterinary Professional Practice 1-5 (VETS90132, VETS90139, VETS90141, VETS90146, VETS90096), the species-based clinical subjects, and Veterinary Research Project A/B (VETS90078/90079). C5 and the level-3 anchors of C4, W1 and W2 are therefore scored on year-one assessment evidence plus the course-structure page alone, and would need re-scoring if the clinical-year pages were captured.",
+      "No evidence bearing on artificial intelligence — capabilities, limitations, ethics, governance or tool use — appears anywhere in the extract, so C3 could not be tested above the tool-operation level."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-14"
+    }
+  },
   "mc-mgmthre": {
     "instrument": "4.1-draft",
     "C1": {
       "score": 2,
-      "rationale": "Level 2 is met many times over: group assessment appears in every compulsory subject captured — MGMT90140 'Group project (normally in groups of 4-5)' 30%, MGMT90280 'Group assignment (groups of 4-6)' 25% plus a group presentation, MGMT90016 'Group consulting report (groups of 2 - 3 students)' 30%, MGMT90010 '3500 word group assignment' 40%, and comparable group tasks in MGMT90015, MGMT90018, MGMT90027, MGMT90176, MGMT90141 and MKTG90037. Level 3 requires recurrence AND at least one assessment in which work is coordinated across people AND tools or AI systems. The recurrence limb is satisfied more strongly than in any program scored to date. The tool limb is not: nothing in the extract assesses the division of work between people and systems. MGMT90280 teaches analytical software ('Appreciate software capabilities used for business analysis') but its group assignment documents no allocation of work between team members and tools.",
+      "rationale": "Level 2's anchor — 'At least one core unit assesses collaborative practice — group projects with individual accountability' — is met many times over in the compulsory core: MGMT90018, MGMT90027, MGMT90015, MGMT90176, MGMT90280, MGMT90141 and the MGMT90010 capstone all carry weighted group assignments, several with an individual component or presentation alongside the group artefact. Level 3 needs the recurrence limb AND at least one assessment requiring coordination of work across people AND tools/AI systems — a documented role-and-tool allocation, or a task where the division of work between people and systems is itself assessed. The recurrence limb holds comfortably; the human-plus-tool limb is nowhere documented. No assessment table in the extract names a tool, system or AI component whose allocation against human effort is assessed; the only AI statement is a course-level outcome (R2 caps it at 1 and it homes in C3 anyway). Scored at 2 accordingly.",
       "evidenceLines": [
-        "Group project (normally in groups of 4-5), 3500 words",
-        "Group assignment (groups of 4-6), 5000 words",
-        "Group consulting report (groups of 2 - 3 students), 2000 words (equivalent)",
+        "Group assignment (groups of 3-5), 3000 words",
+        "Group assignment (groups of 3-5 students) comprising 10 minute presentation and 1000 word written assignment, 2000 words (equivalent)",
+        "Group assignment (3-5 students per group), 4000 words",
         "3500 word group assignment (usually in groups of3-4), 3500 words",
-        "Appreciate software capabilities used for business analysis"
+        "Collaboration for group-based work and activities, including in diverse and multicultural contexts"
       ]
     },
     "C2": {
       "score": 2,
-      "rationale": "Level 2 is met in the compulsory core, and by design rather than incidentally: MGMT90140 Management Competencies assesses 'Critical reflection on competence development' (40%) and 'Ongoing competence development mini-assignments' (10%) against the named competence set in its ILO. That is criterion-referenced appraisal of one's own work, assessed, in a subject every student takes. Level 3 requires documented and justified reliance decisions, defended judgements of AI-output quality, or evidenced strategy adjustment over time. Nothing documents reliance decisions or AI-output judgement. The third limb is the live question: a semester of ongoing development assignments culminating in a 40% critical reflection is process-focused assessment of change over time. But the handbook says the reflection is on competence development, not on adjustment of strategy, and it never states that the student must evidence what they changed and why. Ambiguity resolves DOWN under the never-resolve-upward rule.",
+      "rationale": "Level 2 asks for 'criterion-referenced appraisal of quality' in core assessment. MGMT90140 Management Competencies is a foundation core subject every student must complete in first semester, and its assessment table carries 'Critical reflection on competence development' at 40% plus 'Ongoing competence development mini-assignments' at 10%; the subject ILO names the competence set against which that appraisal is made (self-awareness, self-management, political acumen, networking, problem solving, motivating, collaboration, conflict management). That is assessed appraisal of the quality of one's own work against a named standard, in a compulsory subject — not the level-1 case where reflection appears only in outcomes and no core unit assesses it. Level 3 requires students to document and justify reliance decisions on a tool, source or collaborator, to defend judgements of AI-output quality, or to evidence strategy adjustment over time. No reliance decision and no AI-output appraisal is documented anywhere. The 'strategy adjustment over time' route is the arguable one — a semester of ongoing development mini-assignments culminating in a 40% critical reflection is process-focused — but the handbook says the reflection is on competence development and never states that the student must evidence what they changed and why, so the ambiguity is resolved DOWN to 2.",
       "evidenceLines": [
         "Critical reflection on competence development, 2000 words",
         "Ongoing competence development mini-assignments, 1000 words",
@@ -2343,103 +2468,105 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     },
     "C3": {
       "score": 1,
-      "rationale": "Level 1 is the anchor that matches. AI reaches the program in exactly two places, both of which the anchors cap at level 1. First, as a course-level intended learning outcome — 'Leverage artificial intelligence and digital tools to enhance human resource decision-making and processes' — which rule R2 caps at 1 because no compulsory subject assesses it. Second, as an elective: MGMT90267 Artificial Intelligence in Organisations sits in the elective list, which is the level-1 anchor's own wording. Level 2 requires core units to address AI capabilities AND limitations or ethics. The nearest compulsory evidence is MGMT90280, which assesses 'Understand and evaluate the power and limitations of optimisation and data analytical techniques' and 'Understand new decision analytics and emerging technologies and their potential in the workplace'. That is capability-and-limits reasoning about analytical technique in a compulsory subject, which would satisfy level 2 if it were about AI — it is about optimisation and data analytics, names no AI, and carries no ethics component. Evidence straddles 1 and 2 and resolves DOWN. Level 3 is unreachable: no governance, bias, accountability, transparency or data-governance content appears in any assessment.",
+      "rationale": "Level 1's anchor — 'AI or digital tools appear only as electives or as tool operation/training' — describes this program exactly. AI appears at course level as an intended learning outcome ('Leverage artificial intelligence and digital tools...'), which R2 caps at 1 because no core assessment is documented against it. The one subject that would satisfy level 2 on content — MGMT90267 Artificial Intelligence in Organisations, which assesses reports against ILOs covering the function, limitations and 'ethicalities' of AI — is listed only in the elective set, so it is not something the program requires. Level 2 needs core units addressing AI capabilities AND limitations/ethics, discussed and assessed. The nearest core evidence is MGMT90280 Managerial Decision Analytics, whose ILOs cover emerging technologies and the 'power and limitations' of analytical techniques — but that is analytics rather than AI, carries no ethics or governance content, and its assessment lines (test, group assignment, presentation, exam) do not name the AI or limitations content. Ambiguity between 1 and 2 resolves DOWN. Level 3 (critique or governance of AI systems in the discipline's context — bias, accountability, transparency, regulation, data governance) is not approached in any core assessment, which is notable given HR is a field where algorithmic recruitment and selection are governed activity.",
       "evidenceLines": [
         "Leverage artificial intelligence and digital tools to enhance human resource decision-making and processes.",
         "MGMT90267 Artificial Intelligence in Organisations (Term 2, Online)",
-        "Understand and evaluate the power and limitations of optimisation and data analytical techniques",
         "Understand new decision analytics and emerging technologies and their potential in the workplace",
-        "Elective subjects (37.5 points)"
+        "Understand and evaluate the power and limitations of optimisation and data analytical techniques",
+        "Students must complete three subjects from the following list:"
       ]
     },
     "C4": {
       "score": 2,
-      "rationale": "Level 2 is met: the MGMT90010 capstone requires students to critically analyse a series of cases on topical issues and develop recommendations, and MGMT90280 assesses 'Apply the methods, tools and techniques learned to real word business problems' — application beyond the taught instance. Level 3 asks for a self-scoped capstone or research project, or assessed identification of one's own knowledge gaps together with the plan to close them. The self-scoped route exists but is not required and is heavily restricted: the research option needs 'at least 100 points and have achieved a WAM of 80', places are limited and Program Director approval is required. The second limb is the close one, and it rests on the same MGMT90140 architecture as C2: an ILO requiring students to analyse the competencies they need, assessed through ongoing development assignments and a 40% critical reflection. That is assessed identification of one's own gaps; what the handbook does not document is the plan to close them. Resolved DOWN.",
+      "rationale": "Level 2 requires at least one core assessment applying methods to novel or unfamiliar problems, with 'case variation' and 'cross-context projects' named as exemplars. The compulsory capstone MGMT90010 documents exactly a cross-context case task: students draw on their core business subjects and HR studies to analyse a series of cases on topical issues and develop recommendations, assessed through a 40% group assignment and an exam; MGMT90015 and MGMT90141 add case-study and 'real and hypothetical situations' application in core, and MGMT90280 names application to real-world business problems. Level 3 requires documented structured progression toward independent learning: a self-scoped capstone or research project, or assessed identification of one's own knowledge gaps with the plan to close them. The research option would supply the self-scoped project, but it is one route among several and is gated (100 points completed, WAM of 80, Program Director approval, possible research proposal), so it is not what the program documents for its students. The MGMT90140 reflection is the other candidate for the gap-identification route but it is scored once, in C2, under one-construct-one-home. Held at 2.",
       "evidenceLines": [
-        "This capstone subject involves the analysis of organisational decisions and actions with a focus on implications for HR policy and practice.",
-        "Apply the methods, tools and techniques learned to real word business problems",
-        "Students who wish to take the research option must have completed at least 100 points and have achieved a WAM of 80 across all subjects completed.",
-        "Analyse and evaluate key competencies you need to become a more effective manager, including self-awareness, self-management, political acumen, networking, problem solving, motivating, collaboration, and conflict management"
+        "In this subject students will draw on their core business subjects and HR studies to critically analyse a series of cases on topical issues and develop recommendations that promote organisational sustainability.",
+        "3500 word group assignment (usually in groups of3-4), 3500 words",
+        "Apply key concepts and research to individual HR problems, presented in case studies",
+        "Apply different models to real and hypothetical situations.",
+        "Students who wish to take the research option must have completed at least 100 points and have achieved a WAM of 80 across all subjects completed."
       ]
     },
     "C5": {
       "score": 1,
-      "rationale": "Level 1 fits and level 2 does not. The compulsory core contains analytical-methods teaching — MGMT90280 Managerial Decision Analytics and MGMT90141 Business Analysis and Decision Making, the latter introducing 'the different types of information that business analysts and decision makers gather, and how that information is processed' — which is the level-1 introductory methods unit. Level 2 requires students to design and conduct an inquiry with methodology selection and data collection, assessed. No compulsory subject documents this. MGMT90141's ILOs stop at describing, evaluating and applying decision-making approaches to 'real and hypothetical situations'; MGMT90280's stop at applying tools to business problems. The course-level claim to 'Analyse complex organisational and employee level data to develop human resources policies and recommendations' is an outcome statement, capped at 1 by R2. The genuine inquiry route — MGMT90206 Management & Marketing Special Topics 1 plus an advanced subject — is the restricted research option, not a program requirement, and the anchors score what every student must do.",
+      "rationale": "Level 1's anchor — an introductory methods unit and secondary/literature-based assessment — is what the compulsory core documents. MGMT90141 introduces how business analysts gather and process information; MGMT90280 trains prescriptive and predictive analytic techniques; the course-level generic skills name conducting research and retrieving information from a variety of sources. Level 2 requires students to design and conduct an inquiry with methodology selection and data collection, assessed. Nothing in the core assessment tables documents that: every core assessment is an individual assignment, a group assignment, a presentation, participation or an exam, and none is described as collecting primary data or selecting a methodology. MGMT90261 HR Analytics is the only subject teaching students to design HR metrics, collect data and choose statistical tests, and it sits in the capstone-selective and elective lists, not the core. The research option (MGMT90206 plus an advanced subject, with a possible research proposal) would reach further, but level 3's anchor explicitly excludes evidence that is 'one route among several', and this route additionally requires a WAM of 80 and Program Director approval. Resolved DOWN to 1.",
       "evidenceLines": [
-        "Apply different models to real and hypothetical situations.",
         "This subject introduces students to the different types of information that business analysts and decision makers gather, and how that information is processed to make effective business decisions.",
-        "Analyse complex organisational and employee level data to develop human resources policies and recommendations",
-        "Students who wish to take the research option must have completed at least 100 points and have achieved a WAM of 80 across all subjects completed."
+        "Conducting research, including the retrieval of information from a variety of sources",
+        "Research skills through the search and review of literature and preparation of the written exercises",
+        "Students who wish to take the research option must have completed at least 100 points and have achieved a WAM of 80 across all subjects completed.",
+        "Places in the research subjects are limited and students will be required to obtain Program Director approval prior to undertaking the research option."
       ]
     },
     "adaptiveness": 8,
     "W1": {
       "score": 2,
-      "rationale": "Level 2 is met in a compulsory discipline-core subject: MGMT90016 Performance and Reward Management assesses a 'Group consulting report (groups of 2 - 3 students)' worth 30%. A consulting report is a recognised professional genre in HR practice, not an academic genre addressed to a marker, which is what the anchor asks for and what HESF cl. 1.4.2(b) requires as generic skills applied in the discipline's own context. Level 3 requires both recurrence across the program and at least one core assessment delivered to, or judged by, a real external audience or practitioner with professional conduct among the criteria. Neither limb holds on the required path. The consulting report is a single instance; the other compulsory subjects assess by individual assignment, group assignment and examination, and every presentation in them is delivered to staff and peers. The one genuine external audience in the program is BUSA90473's presentation to its host company with 360-degree feedback — a capstone selective, not something every student does. The course-level generic skills claims are outcome statements, capped at 1 by R2 and by Barrie's finding that such attributes are asserted and not measured.",
+      "rationale": "Level 2's anchor names 'consultancy or policy advice' among the recognised professional genres, and one is documented in the compulsory discipline core: MGMT90016 Performance and Reward Management assesses a 'Group consulting report' at 30%. That is a practitioner genre, not an academic genre addressed to the marker, and it sits in a subject every student must complete — which falsifies level 1, whose anchor requires that no professional genre be assessed. Level 3 requires professional communication to be assessed repeatedly and progressively AND at least one core assessment delivered to or judged by a real external audience or practitioner, with conduct or accountability among the assessed criteria. Neither limb holds: every presentation in the core (MGMT90014, MGMT90015, MGMT90141, MGMT90280, MKTG90037) is delivered to peers and staff, and the only external-audience assessment in the extract — the BUSA90473 'Presentation 2 - to host company' — sits in the capstone-selective list, not the core, and is scored under W3's construct home. The course-level claims about communicating to 'the wider community' and to 'specialist and non-specialist audiences' are outcome and graduate-attribute statements, which R2 and Barrie forbid scoring.",
       "evidenceLines": [
         "Group consulting report (groups of 2 - 3 students), 2000 words (equivalent)",
-        "Interpretation and communication of research results to specialist and non-specialist audiences",
-        "Managing relationships with a range of stakeholders",
-        "Presentation 2 - to host company, 40-minute presentation and 20-minute Q&A (Individual performance 10%). Due at the end of the in-company component. 60 minutes (total)",
-        "360-degree feedback, 600 words"
+        "Group presentation (normally in groups of 2-4) in allocated weeks throughout semester, 20 minutes",
+        "Communication of human resources concepts, theories and solutions to peers and the wider community",
+        "Interpretation and communication of research results to specialist and non-specialist audiences"
       ]
     },
     "W2": {
-      "score": 2,
-      "rationale": "Level 2 is met: the MGMT90016 group consulting report reproduces an HR consulting task end to end and produces the artefact a practitioner produces, and the MGMT90010 capstone requires students to develop recommendations from a series of cases. Level 3 needs both limbs and fails both. The spine limb: authentic artefacts are two instances, not the program's assessment spine — an end-of-semester examination worth 40-50% appears in nine of the eleven compulsory subjects, and the dominant non-exam form is the academic group assignment. The practice-constraint limb: no compulsory assessment carries an externally supplied problem, real resource constraints or a consequential audience. Those constraints exist in the program, but only in BUSA90473, which supplies a real host company and hurdle in-company training tasks, and which a student may never take. Per R4, nothing was credited for the 'real word business problems' or 'real-world business issues' phrasing; only documented task features were scored.",
+      "score": 1,
+      "rationale": "Level 1's anchor — 'Contextualised or scenario-framed tasks appear (case studies, worked scenarios), but the artefact produced and the criteria applied remain academic' — describes the core precisely. Case studies, scenarios and role plays are documented across MGMT90140, MGMT90015, MGMT90016, MGMT90141 and the MGMT90010 capstone, but the artefacts assessed are word-counted individual and group assignments plus a 50%-weighted end-of-semester exam in almost every core subject. Level 2 requires all three limbs: a real or realistic problem, the artefact a practitioner would produce, AND criteria drawn from practice. The MGMT90016 group consulting report is the one practitioner-shaped artefact in the core, but the handbook documents no external or ambiguous problem source and no criteria drawn from practice for it, so the three-part anchor is not satisfied; under one-construct-one-home that report is scored once, as a professional genre, in W1. R4 also bars reading the program's SHRM/AHRI alignment or its 'practice-oriented activities' phrasing as evidence of task fidelity. Level 3 (such tasks as the assessment spine, with a genuine constraint of practice) is far out of reach when exams carry 50% of nearly every core subject.",
       "evidenceLines": [
-        "Group consulting report (groups of 2 - 3 students), 2000 words (equivalent)",
-        "In this subject students will draw on their core business subjects and HR studies to critically analyse a series of cases on topical issues and develop recommendations that promote organisational sustainability.",
-        "Apply theory and practice of graduate level studies in commerce to resolving real-world business issues",
-        "In-company training tasks (individual assessment consisting of teaching activity 4-hours, and written task 600-words"
+        "Develop key competencies through practice-oriented activities such as scenarios, role plays, team activities, video presentations, reflective exercises.",
+        "The subject content will include conceptual foundations, practical tools, and case studies to discuss the costs, benefits and risks of the various analytical methods that will be introduced.",
+        "End of semester examination, 2 hours",
+        "Individual assignment, 2000 words"
       ]
     },
     "W3": {
-      "score": 2,
-      "rationale": "Level 2 is met and level 3 is not, on the required/optional distinction rather than on depth — the same structural pattern the Master of Public Health presented. Work-situated learning of real quality exists inside the required capstone band: BUSA90473 Business Practicum places student teams with a host organisation off campus, with an academic mentor and the practicum organisation both in the supervision loop, hurdle in-company training tasks, a presentation delivered to the host company, and 360-degree feedback. BUSA90485 Global Business Practicum and BUSA90525 Business and Economics Internship sit alongside it. Level 3 requires the work-situated learning to be required, and it is not. The capstone band offers six selectives, of which three are workplace-based and the rest — MGMT90017 HR Consulting, MGMT90261 HR Analytics — are classroom subjects; MGMT90017's assessment is an individual assignment, a group assignment, a group presentation and a 50% examination, with no external host. The same practicum subjects also appear in the elective list, which is the level-1 anchor's language, but their place in the required capstone band lifts the item to 2. A student may complete this degree with no work-situated learning at all. Resolved DOWN.",
+      "score": 1,
+      "rationale": "Level 1's anchor — 'Work-situated learning exists only as an elective, an optional internship' — is the exact shape of this program. Three genuine work-situated subjects appear (BUSA90473 Business Practicum, BUSA90485 Global Business Practicum, BUSA90525 Business and Economics Internship, the last a professional work placement with a 90-hour hurdle confirmed by a workplace supervisor), and on depth the internship would read higher. But all three appear only in the capstone-selective list and the elective list; the capstone-selective slot is a choice among six, of which HR Consulting, HR Analytics and (in principle) Design Innovation and Leadership involve no workplace at all, and the research option replaces the coursework capstone entirely. A student can therefore complete the entire 200-point program without ever entering a workplace. Level 2 requires a CORE unit to place students in a real workplace with practitioner supervision and assessment; no core subject does. Ambiguity between 1 and 2 — a required-choice capstone slot is stronger than a free elective — is resolved DOWN per the never-resolve-upward rule and recorded below.",
       "evidenceLines": [
         "Students must complete one of the following subjects:",
-        "Identify key strategic questions, assess options related to the exercise, communicate progress and check direction with team members, academic mentor and the practicum organisation",
-        "Presentation 2 - to host company, 40-minute presentation and 20-minute Q&A (Individual performance 10%). Due at the end of the in-company component. 60 minutes (total)",
-        "Group presentation: 15 minutes presentation plus 5 minute question time (usually in groups of 4-5), 20 minutes",
-        "Capstone selective subjects"
+        "Capstone selective subjects",
+        "BUSA90473 Business Practicum; BUSA90485 Global Business Practicum; BUSA90525 Business and Economics Internship;",
+        "This subject involves the completion of a professional work placement (internship) either:",
+        "Hurdle requirement: Students must participate in a minimum of 90-hours at the work placement to pass the subject."
       ]
     },
-    "workplace": 6,
+    "workplace": 4,
     "gates": {
       "G1": {
         "result": "PASS",
-        "rationale": "A coherent specialist core with progressive, staged depth and external professional accreditation. Of 200 credit points, 137.5 are compulsory across a staged sequence — foundation subjects in the first semester, core subjects in the second, four discipline core subjects, and a capstone core subject in the final semester. The sequence is externally attested by AHRI accreditation and SHRM alignment. This is the accredited-sequence form of the PASS criterion.",
+        "rationale": "The program documents a coherent specialist core with staged progression, not generic interchangeable content: 50 points of compulsory foundation subjects taken in the first semester, 37.5 points of core taken in the second semester, 50 points of named HR discipline core (People and Capability, International HRM, Performance and Reward Management, HRM in the New World of Work), and a compulsory capstone core subject in the final semester. Only 37.5 of 200 points are free electives. The sequence is externally warranted by accreditation with the Australian HR Institute and alignment with SHRM.",
         "evidenceLines": [
-          "Foundation subjects (50 points)",
-          "Students must complete the following subjects in their second semester of study:",
           "Discipline core subjects (50 points)",
+          "Students must complete the following subjects in their first semester of study:",
           "Capstone core subject (final semester)",
-          "The Master of Management (Human Resources) is accredited by the Australian HR Institute.",
-          "The Master of Management (Human Resources) is aligned with the internationally recognised Society for Human Resource Management (SHRM)."
+          "This program is aligned with the internationally recognised Society for Human Resource Management (SHRM) and accredited with the Australian Human Resources Institute (AHRI).",
+          "The Master of Management (Human Resources) is accredited by the Australian HR Institute."
         ]
       },
       "G2": {
         "result": "PASS",
-        "rationale": "Assessment requires defended trade-off decisions rather than recall. The compulsory MGMT90010 capstone requires students to identify HR implications prior to decisions being taken and to develop HR responses that promote organisational sustainability, assessed through a 40% group assignment; MGMT90280 requires students to evaluate a business problem from an analytical perspective and to weigh the power and limitations of the techniques applied; MGMT90141 assesses evaluation of the underlying assumptions and implications for practice of different approaches.",
+        "rationale": "Defended trade-off decisions are documented in the compulsory core rather than left to recall. MGMT90176 People and Capability is built on an explicit make-or-buy trade-off (train versus recruit and select) and assesses it through individual and group assignments; the MGMT90010 capstone requires identifying HR implications of organisational decisions before those decisions are taken and developing recommendations under case conditions; MGMT90141 frames its content around the costs, benefits and risks of competing analytical methods. That satisfies the 'defended trade-off decisions' limb. The gate does not require the uncertainty to be externally sourced, so the absence of live-project uncertainty (which cost W2 and W3) does not defeat it.",
         "evidenceLines": [
+          "This subject evaluates the decision to “make” (train) or “buy” (recruit and select) employees for the organisation.",
           "Identify the HR implications of organisational decisions prior to decisions being taken;",
-          "Develop HR responses to organisational decisions that promote organisational sustainability;",
-          "Develop the competence required to evaluate a business problem from an analytical perspective",
-          "Analyse and evaluate the underlying assumptions and implications for practice of the different approaches;"
+          "In this subject students will draw on their core business subjects and HR studies to critically analyse a series of cases on topical issues and develop recommendations that promote organisational sustainability.",
+          "The subject content will include conceptual foundations, practical tools, and case studies to discuss the costs, benefits and risks of the various analytical methods that will be introduced."
         ]
       }
     },
     "ambiguities": [
-      "C2 and C4 straddle 2 and 3 on the SAME evidence: MGMT90140's competence-development architecture (an ILO requiring students to analyse the competencies they need, ongoing development mini-assignments across the semester, and a 40% critical reflection on competence development). C2's level-3 third limb asks for evidenced strategy adjustment over time; C4's second limb asks for assessed identification of one's own knowledge gaps together with the plan to close them. The handbook documents the diagnosis and the reflection but neither the strategy adjustment nor the plan. Both resolved DOWN. This is the strongest single piece of curriculum evidence in the program and it lands just under the bar on two items for the same reason — a granularity question the content-validity panel should settle, because the answer would move this program by up to two points.",
-      "C3 straddles 1 and 2. MGMT90280 is a compulsory subject that assesses the power and limitations of analytical technique, which is the shape level 2 asks for, but the subject is about optimisation and data analytics rather than AI and carries no ethics component, and the program's only AI subject is an elective. Resolved DOWN.",
-      "W3 straddles 1 and 2 on whether the capstone band counts as 'a core unit'. The practicum subjects appear both in the required capstone selective list and in the elective list; read only as electives they would score 1. Scored 2 for consistency with the Master of Public Health, whose capstone has the same shape. If the panel decides a competitively-chosen selective is not a core unit, both programs move to 1 together.",
-      "Construct-boundary check. The BUSA90473 practicum was scored in W3 only; its host-company presentation was cited in W1 solely as evidence that the external audience exists OUTSIDE the required path, not as W1 credit, and it was not used to lift C1 or C4, whose v4.1 level-3 anchors no longer name placements. Group work throughout the compulsory core scored in C1 and was not counted again in W1. The MGMT90140 critical reflection scored in C2 and was considered for C4 but not for W2. The MGMT90016 consulting report is cited in both W1 (professional genre) and W2 (practitioner artefact): these are different properties of the same task — who it addresses versus what it reproduces — and the anchors treat them as separate constructs, but the dependency is recorded because a rater who rejects the task rejects both scores."
+      "C2 straddled 2 and 3. 'Ongoing competence development mini-assignments' running through the semester plus a 40% 'Critical reflection on competence development' is process-focused assessment of change over time, which is one of the three level-3 routes. But the handbook never states that the student must evidence what strategy they adjusted and why, and no reliance decision on a tool, source or collaborator is documented. Resolved DOWN to 2 by the never-resolve-upward rule.",
+      "C3 straddled 1 and 2. MGMT90280 is core and its ILOs cover emerging technologies and the 'power and limitations' of analytical techniques, which reads toward level 2's 'capabilities AND limitations'. Against that: it never names AI, carries no ethics content, and its assessment lines do not name that content, while the one subject that does carry AI ethics (MGMT90267) is elective-only and the AI statement at course level is an outcome (R2). Resolved DOWN to 1.",
+      "C4 straddled 1 and 2. The cross-context case work is documented in the MGMT90010 subject overview rather than in its assessment lines, which say only 'seminar preparation and participation', '3500 word group assignment' and 'End of semester examination'. Level 2 was retained because the capstone's documented content is case analysis and the group assignment is its only substantial vehicle, but a stricter assessment-line-only reading would give 1.",
+      "W1 straddled 1 and 2. The 'Group consulting report' in the compulsory MGMT90016 is a professional genre named in the level-2 anchor itself ('consultancy or policy advice'), which falsifies level 1's requirement that no professional genre be assessed; but the second half of the level-2 clause — 'judged against criteria drawn from professional practice' — is nowhere documented, and there is no audience beyond the teaching team. Scored 2 on the genre limb; a rater weighting the criteria clause as strictly conjunctive would score 1.",
+      "W1 vs W2: the same MGMT90016 group consulting report could support W2 level 2 as a practitioner artefact. One-construct-one-home puts it in W1 (genre and audience) and leaves W2 to be scored on task fidelity, where no real or externally supplied problem and no practice-drawn criteria are documented. It is scored once.",
+      "W3 straddled 1 and 2. The capstone-selective slot is compulsory in the sense that every student must complete one of the six listed subjects, and three of the six are genuine placements — stronger than a free elective. But no core unit places students in a workplace, and a student may complete the degree through HR Consulting, HR Analytics or the research option with no workplace exposure at all, which is precisely level 1's 'optional internship'. Resolved DOWN to 1.",
+      "C1 vs C3: the course-level outcome 'Leverage artificial intelligence and digital tools to enhance human resource decision-making and processes' is the only human-plus-tool statement in the extract and could be read toward C1 level 3. It is an outcome, not an assessment (R2), and its construct home is C3, so it does not lift C1."
     ],
     "notScoreable": [
-      "The foundation selective (one of ACCT90041, ECON90015, FNCE90065) was not captured; it is one of eleven compulsory-equivalent subjects and no item's score turns on it.",
-      "MGMT90267 Artificial Intelligence in Organisations has no subject page in the extract. Its elective status is documented on the course structure page, which is what C3 scores; its content would not change the score.",
-      "The 150-point entry-point program was not scored. This assessment is of the 200-point program."
+      "No item was left wholly unscoreable — every compulsory subject in the 200pt structure has both an overview and an assessment page in the extract. Two gaps constrain the ceilings rather than the scores: (1) the foundation selective subjects (ACCT90041, ECON90015, FNCE90065) have no pages in the extract, so one of the four foundation subjects each student takes is undocumented; (2) among the capstone selectives, BUSA90485 Global Business Practicum, MGMT90017 HR Consulting and MGMT90261 HR Analytics are present but ENGR90034 is not — this does not affect W3, which turns on the optionality of the whole selective slot rather than on any one subject's depth.",
+      "C3 level-3 evidence (governance, bias, accountability or regulation of AI systems in an HR context) is absent from the extract entirely rather than merely weak; the MGMT90267 assessment table names only 'Written activity', 'Report' and 'Quiz' with word counts, so even that elective's AI-ethics ILO has no assessment specification behind it."
     ],
     "verified": {
       "adversarial": true,
