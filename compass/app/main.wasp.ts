@@ -27,6 +27,8 @@ import DevPortalComparePage from "./src/compass/DevPortalComparePage" with { typ
 import FragilityDashboardPage from "./src/compass/FragilityDashboardPage" with { type: "ref" };
 import WhyStructuredDataPage from "./src/compass/WhyStructuredDataPage" with { type: "ref" };
 import ImpactReportDetail from "./src/compass/ImpactReportDetail" with { type: "ref" };
+import PrivacyPolicyPage from "./src/legal/PrivacyPolicyPage" with { type: "ref" };
+import TermsOfServicePage from "./src/legal/TermsOfServicePage" with { type: "ref" };
 
 // Auth / server / db functions
 import {
@@ -197,6 +199,8 @@ export default app({
 
     //#region Payment
     route("PricingPageRoute", "/pricing", page(PricingPage)),
+    route("PrivacyPolicyRoute", "/privacy", page(PrivacyPolicyPage)),
+    route("TermsOfServiceRoute", "/terms", page(TermsOfServicePage)),
     route(
       "CheckoutResultRoute",
       "/checkout",
@@ -270,9 +274,15 @@ export default app({
       facultyDashboardPage,
     ),
 
-    action(assessProgram, { entities: ["AssessmentJob", "User", "T1ProgramSnapshot"] }),
-    query(getAssessmentJobs, { entities: ["AssessmentJob", "T1ProgramSnapshot"] }),
-    query(getAssessmentJob, { entities: ["AssessmentJob", "T1ProgramSnapshot"] }),
+    action(assessProgram, {
+      entities: ["AssessmentJob", "User", "T1ProgramSnapshot"],
+    }),
+    query(getAssessmentJobs, {
+      entities: ["AssessmentJob", "T1ProgramSnapshot"],
+    }),
+    query(getAssessmentJob, {
+      entities: ["AssessmentJob", "T1ProgramSnapshot"],
+    }),
     query(getSyllabusMap, { entities: ["AssessmentJob"] }),
     action(updateCourseIntervention, {
       entities: ["CourseInterventionOwner", "AssessmentJob"],
@@ -324,7 +334,12 @@ export default app({
 
     // TechnologyOne Data Connector (feat-011)
     action(importT1Data, {
-      entities: ["T1ImportJob", "T1ProgramSnapshot", "T1EnrolmentTrend", "Institution"],
+      entities: [
+        "T1ImportJob",
+        "T1ProgramSnapshot",
+        "T1EnrolmentTrend",
+        "Institution",
+      ],
     }),
     query(getT1ImportJob, {
       entities: ["T1ImportJob", "T1ProgramSnapshot"],
