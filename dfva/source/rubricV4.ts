@@ -375,7 +375,9 @@ export const V4_REFERENCES: Record<string, V4Reference> = {
     n: 20,
     citation:
       'QILT Employer Satisfaction Survey (ESS) — national employer ratings across five graduate attribute domains: foundation, adaptive, collaborative, technical and employability skills. (2025 national results: technical 94.0%, foundation 93.3%, adaptive 90.7%, collaborative 88.6%, employability 86.2%.)',
-    url: 'https://www.qilt.edu.au/surveys/employer-satisfaction-survey-(ess)',
+    // Parentheses are percent-encoded: the raw form breaks every markdown
+    // [[n]](url) citation mark the report generator emits.
+    url: 'https://www.qilt.edu.au/surveys/employer-satisfaction-survey-%28ess%29',
   },
   csfw2013: {
     n: 21,

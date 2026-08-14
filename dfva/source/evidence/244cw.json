@@ -190,7 +190,7 @@
     }
   },
   "panelCv4": {
-    "instrument": "4.0-draft",
+    "instrument": "4.1-draft",
     "C1": {
       "score": 2,
       "rationale": "Two compulsory subjects assess collaborative work: POPH90274 (two group presentations and mentor-marked group participation) and POPH90218 (a team presentation of approximately five students). This satisfies the level 2 anchor. The level 3 anchor additionally requires at least one assessment in which work is coordinated across people and tools or AI systems; no such assessment is documented, so level 3 is not awarded.",
@@ -241,6 +241,39 @@
       ]
     },
     "adaptiveness": 9,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 is met in the compulsory core: POPH90218 Public Health Leadership and Policy assesses a 'Policy Advocacy Pitch + Campaign Materials' (30%) and a systems-mapping team presentation (20%), and POPH90274 Applied Program Development assesses a 'Health program proposal document' (50%). An advocacy pitch with campaign materials and a program proposal are recognised professional genres in public health, not academic genres addressed to a marker. Level 3 requires BOTH that professional communication recur progressively across the program AND that at least one core assessment be delivered to, or judged by, a real external audience or practitioner with conduct or accountability among the criteria. The recurrence limb holds; the external-audience limb does not. Every presentation in the six compulsory subjects is delivered to staff and peers. The only practitioner judgement documented anywhere is the workplace supervisor hurdle in POPH90286, which sits in one of three capstone routes and is entered competitively, so it is not something the program requires of every student. The course-level claim to 'Communicate effectively in written, oral and visual format to a range of audiences' is an outcome statement and is capped at level 1 by R2; it cannot carry level 3.",
+      "evidenceLines": [
+        "5-minute Individual Presentation plus Q&A: Policy Advocacy Pitch + Campaign Materials",
+        "8-minute Team Presentation (approximately 5 students per group) plus 3-minute Q&A: Systems Mapping",
+        "Health program proposal document",
+        "Communicate effectively in written, oral and visual format to a range of audiences",
+        "Workplace supervisor assessment of the student's completion of the project"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2 is securely met: the POPH90274 'Health program proposal document' (50%) reproduces a public-health program-development task end to end and produces the artefact a practitioner produces, and POPH90218's advocacy pitch with campaign materials does the same for policy advocacy. Level 3 needs both limbs. The spine limb is arguable — two of six compulsory subjects carry practitioner-shaped artefacts and every student completes a capstone — but the practice-constraint limb fails on the path the program actually requires. Of the three capstone routes only Professional Practice supplies an externally set problem and real host constraints; the Public Health in Practice route is problem-based learning on teacher-supplied scenarios, and a student may complete the degree without ever meeting a constraint set by anyone outside the university. Scoring what the program requires of every student rather than its best available route — the discipline C5's level-3 anchor already states as 'not one route among several' — resolves this DOWN to 2. The remaining four compulsory subjects assess by exam, essay, short answer and quiz.",
+      "evidenceLines": [
+        "Health program proposal document",
+        "5-minute Individual Presentation plus Q&A: Policy Advocacy Pitch + Campaign Materials",
+        "Students select one 25 credit point capstone options:",
+        "Within this capstone, students will apply their public health training to real world scenarios through a problem based learning approach in Public Health in Practice."
+      ]
+    },
+    "W3": {
+      "score": 2,
+      "rationale": "Level 2 is met and level 3 is not, on the required/optional distinction rather than on depth. The Professional Practice capstone is genuine work-situated learning of the strongest kind the anchors describe: a supervised year-long placement with an external host, negotiated between student, host and coordinator, assessed, with the workplace supervisor's assessment carrying a hurdle. On depth alone it would read as level 3. But level 3 requires the work-situated learning to be REQUIRED, and it is not: it is one of three capstone routes, and 'Entry is competitive'. A student may complete the MPH through the Research Project or Public Health in Practice route with no placement at all. Ambiguity between 2 and 3 resolves DOWN. Note this is the item most likely to move if the anchor's treatment of competitive-entry routes is sharpened after the content-validity panel.",
+      "evidenceLines": [
+        "Students will undertake a supervised placement with an appropriate organisation, negotiated between the student, the host organisation, and the Professional Practice Coordinator.",
+        "Entry is competitive and selection is based on academic merit, subjects completed, relevant background and experience, and alignment of skills with available placements.",
+        "Workplace supervisor assessment of the student's completion of the project",
+        "The workplace supervisor assessment is a hurdle requirement.",
+        "Students select one 25 credit point capstone options:"
+      ]
+    },
+    "workplace": 6,
     "gates": {
       "G1": {
         "result": "PASS",
@@ -261,7 +294,11 @@
     },
     "ambiguities": [
       "C4: the evidence straddled levels 2 and 3. The required capstone documents independent-learning assessment on two of three routes, but the third route's assessment page was not in the extract, and the universal course-level outcome is a statement of intent rather than assessment evidence (rule R2). The score was resolved to the lower level under the ambiguity rule.",
-      "C5: the interval between the level 1 anchor (an introductory methods unit) and the level 2 anchor (design and conduct of an inquiry with data collection) is wide. This program's three assessed methods subjects exceed level 1 considerably, while design (core) and conduct (capstone) are distributed across components. The score was resolved at 2 on the basis of the level 3 anchor's explicit requirement that the project be compulsory, which implies that level 2 does not carry that requirement. The width of this interval is noted for the content-validity panel."
+      "C5: the interval between the level 1 anchor (an introductory methods unit) and the level 2 anchor (design and conduct of an inquiry with data collection) is wide. This program's three assessed methods subjects exceed level 1 considerably, while design (core) and conduct (capstone) are distributed across components. The score was resolved at 2 on the basis of the level 3 anchor's explicit requirement that the project be compulsory, which implies that level 2 does not carry that requirement. The width of this interval is noted for the content-validity panel.",
+      "W1 straddled 2 and 3 on the external-audience limb. The POPH90286 workplace supervisor hurdle is practitioner judgement of professional conduct, which would satisfy level 3, but it sits in a competitively-entered capstone route rather than in what every student must do. Resolved DOWN to 2.",
+      "W2 straddled 2 and 3 on the practice-constraint limb, for the same structural reason: only one of three capstone routes supplies an externally set problem. Resolved DOWN to 2.",
+      "W3 straddled 2 and 3 on depth versus requirement. The placement is a year-long supervised external placement with a supervisor hurdle — level-3 depth — but is one route among three with competitive entry, so the 'required' limb of level 3 fails. Resolved DOWN to 2. All three W items turn on the same fact, which is a dependency the IRR study should watch: they are not independent observations of this program.",
+      "Construct-boundary check: the POPH90286 placement was scored in W3 only. It was NOT re-used to lift C1 (whose v4.1 level-3 anchor no longer lists placements) or C4 (whose v4.1 level-3 anchor no longer lists work-integrated learning). The POPH90218 peer-feedback and reflective assessments stay in C2 (appraisal of quality) and are not counted again as W1 professional communication."
     ],
     "notScoreable": [
       "The assessment page for POPH90227 (Public Health in Practice capstone) was not captured in the extract. This affects only the C4 level 3 judgement, which was resolved to the lower level in any case."
@@ -269,7 +306,7 @@
     "verified": {
       "adversarial": true,
       "mechanical": true,
-      "date": "2026-08-13"
+      "date": "2026-08-14"
     }
   }
 }

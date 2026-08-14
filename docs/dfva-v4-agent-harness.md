@@ -1,16 +1,36 @@
-# DFVA v4 Agent Harness — Panel C v4 report generation
+# DFVA v4.1 Agent Harness — Panel C report generation
 
-**Status:** ready to run — the [recommendation](dfva-panelc-v4-recommendation.md)'s
-§7 decisions 1–2 were taken 2026-08-13 (v4 adopted as working draft; IRR targets v4).
-Output remains *draft* artifacts: nothing renders on the site until the v4 migration
-cycle is published (§4 of the recommendation forbids silent re-positioning).
+**Status:** ready to run — the [v4 recommendation](dfva-panelc-v4-recommendation.md)'s
+§7 decisions 1–2 were taken 2026-08-13 (adopted as working draft; IRR targets v4), and the
+[v4.1 recommendation](dfva-panelc-v41-recommendation.md) added the workplace-practice
+sub-scale on 2026-08-14. Output remains *draft* artifacts: nothing renders on the site
+until the migration cycle is published (§4 of the v4 recommendation forbids silent
+re-positioning).
+
+**What v4.1 changed for the harness.** Panel C now carries **two sub-scales scored in one
+pass**: C1–C5 adaptive capabilities (/15) and W1–W3 workplace practice (/9). Every stage
+below handles eight ordinal items, not five. Three specific consequences:
+
+1. The scoring schema requires `W1`–`W3` and `workplace`; a run that returns only C-items
+   is a failed run, not a partial one — the two sub-scales are scored from the same extract
+   in the same pass, so splitting them would double the handbook reading for nothing.
+2. **`workplace` is never summed with `adaptiveness`.** No agent, template or page emits a
+   combined `/24` as a headline figure.
+3. The verifier gained a construct-boundary check (stage 3), because v4.1's anti-overlap
+   edits only bind if something enforces them. Placement evidence must score in W3 and
+   nowhere else; appraisal of quality in C2 and not W2.
+
+**Re-scoring, never back-filling.** A program scored under `4.0-draft` has no W score and
+none may be inferred from its C scores — it goes through the pipeline again from stage 2.
+`V4_META.workplaceScored` tracks that coverage separately from `scored`, and the report
+page states the absence rather than rendering empty rows.
 
 **Instrument single source:** `dfva/source/rubricV4.ts` →
 `npm --prefix scripts run dfva:gen-v4` →
 
 | Generated artifact | Role |
 | --- | --- |
-| `dfva/dist/v4/DFVA-V4-SCORING-PROMPT.md` | The scoring agent's full prompt: anchors, R1–R3 rules, gates, output JSON contract, numbered references |
+| `dfva/dist/v4/DFVA-V4-SCORING-PROMPT.md` | The scoring agent's full prompt: both sub-scales' anchors, R1–R4 rules, the one-construct-one-home rule, gates, output JSON contract, numbered references |
 | `dfva/dist/v4/DFVA-V4-RECOMMEND-PROMPT.md` | The recommender agent's prompt: derives an improvement plan from the verified `panelCv4` block + the market report, anchor-referenced and market-warranted |
 | `dfva/dist/v4/report-template-v4.md` | Canonical report template for the site (`reports/dfva-v4-<code>.md` family), with literature references and per-section epistemic-status tags |
 | `dfva/dist/v4/recommend-template-v4.md` | Canonical improvement-plan template (`reports/dfva-v4-recommend-<code>.md` family): score-to-action map, market alignment, P-lever table, gate guardrails, explicit score deltas |
@@ -34,8 +54,10 @@ handbook URL ─┐
               ├─ 1 SCRAPE    Crawl4AI → course page + core-unit pages (text extract)
 program code ─┘
               2 SCORE        agent follows DFVA-V4-SCORING-PROMPT.md → panelCv4 JSON
+                             (C1-C5 + W1-W3 in ONE pass, from the same extract)
               3 VERIFY       adversarial pass: refute every level-3 and every gate PASS;
-                             mechanical pass: every evidenceLine greps verbatim in the scrape
+                             mechanical pass: every evidenceLine greps verbatim in the scrape;
+                             boundary pass: no evidence line scores in two items
               4 PERSIST      dfva/source/evidence/<code>.json gains the panelCv4 block
               5 REPORT       draft reports/dfva-v4-<code>.md per report-template-v4.md
               6 RECOMMEND    draft reports/dfva-v4-recommend-<code>.md per DFVA-V4-RECOMMEND-PROMPT.md
@@ -50,13 +72,30 @@ Stage rules:
   program in a cycle (recommendation §4.2).
 - **2 SCORE** — the prompt enforces R1 (declarative evidence), R2 (level 3 needs
   *assessment* evidence; outcomes-only caps at 1), R3 (verbatim evidence lines),
-  ambiguity-resolves-down, and never emits an Irreplaceability score.
-- **3 VERIFY** — two independent checks. *Adversarial:* a second agent, given only
+  **R4** (authenticity scored from documented task features, never from the words
+  "authentic", "real-world" or "industry-relevant"), ambiguity-resolves-down, and
+  never emits an Irreplaceability score. Both sub-scales are scored in this one pass.
+- **3 VERIFY** — three independent checks. *Adversarial:* a second agent, given only
   the scrape and the anchors, tries to refute each level-3 score and each gate
   PASS; a refuted claim drops a level and the disagreement is logged in
   `ambiguities`. *Mechanical:* every `evidenceLines` entry must appear verbatim
   in the scrape text — an unquotable line fails the run, mirroring the
   build-fails-on-unmapped-title rule in the Panel A extension protocol.
+  *Boundary (new in v4.1):* the anti-overlap edits are only real if something
+  enforces them, so the verifier checks that no evidence line is doing work in two
+  items and records the result in `ambiguities` as an explicit construct-boundary
+  note. The three pairs to check are the ones v4.1 separated:
+
+  | Evidence | Scores in | Must NOT also score in |
+  | --- | --- | --- |
+  | placement / practicum / WIL | W3 | C1 (coordination), C4 (transfer) |
+  | appraisal of the quality of work | C2 | W2 (task fidelity) |
+  | group work | C1 | W1 (communication to audiences) |
+
+  A same-evidence dependency across items is not automatically an error — MPH's three
+  W scores all turn on one fact about its capstone routes — but it must be *stated*,
+  because it means those items are not independent observations and the IRR analysis
+  cannot treat them as such.
 - **4 PERSIST** — the `panelCv4` block *extends* the existing evidence file; the
   v1 `byDimension` block stays untouched (both instruments coexist through the
   migration, as v2/v3/v3.1 do today).
@@ -77,12 +116,17 @@ prompt's output section):
 ```json
 {
   "panelCv4": {
+    "instrument": "4.1-draft",
     "C1": { "score": 2, "rationale": "…", "evidenceLines": ["…"] },
     "C2": { "score": 1, "rationale": "…", "evidenceLines": ["…"] },
     "C3": { "score": 2, "rationale": "…", "evidenceLines": ["…"] },
     "C4": { "score": 1, "rationale": "…", "evidenceLines": ["…"] },
     "C5": { "score": 2, "rationale": "…", "evidenceLines": ["…"] },
     "adaptiveness": 8,
+    "W1": { "score": 2, "rationale": "…", "evidenceLines": ["…"] },
+    "W2": { "score": 2, "rationale": "…", "evidenceLines": ["…"] },
+    "W3": { "score": 2, "rationale": "…", "evidenceLines": ["…"] },
+    "workplace": 6,
     "gates": {
       "G1": { "result": "PASS", "rationale": "…", "evidenceLines": ["…"] },
       "G2": { "result": "PASS", "rationale": "…", "evidenceLines": ["…"] }
@@ -93,6 +137,17 @@ prompt's output section):
   }
 }
 ```
+
+`adaptiveness` is the sum of C1–C5 only and `workplace` the sum of W1–W3 only. There is
+no field for their total, deliberately: the shape of the record is what stops a combined
+figure being computed by habit somewhere downstream. `instrument` records which version
+scored the block, so a `4.0-draft` record is identifiable as needing a re-run rather than
+mistaken for a program that scored zero on workplace practice.
+
+At least one `ambiguities` entry should be a construct-boundary note naming what was
+considered under two items and where it was scored (stage 3's boundary pass). A block with
+an empty `ambiguities` array on a program with any placement, capstone-route choice or
+peer-assessment structure has almost certainly not had that check run.
 
 ## Batch Workflow script
 
@@ -141,11 +196,15 @@ const ITEM = { type: 'object', required: ['score', 'rationale', 'evidenceLines']
 const GATE = { type: 'object', required: ['result', 'rationale', 'evidenceLines'],
   properties: { result: { enum: ['PASS', 'FAIL'] }, rationale: { type: 'string' },
     evidenceLines: { type: 'array', items: { type: 'string' } } } }
+// Both sub-scales are REQUIRED. A response carrying only C-items is a failed run.
 const SCORE_SCHEMA = { type: 'object', required: ['code', 'panelCv4'],
   properties: { code: { type: 'string' },
-    panelCv4: { type: 'object', required: ['C1','C2','C3','C4','C5','adaptiveness','gates'],
+    panelCv4: { type: 'object',
+      required: ['C1','C2','C3','C4','C5','adaptiveness','W1','W2','W3','workplace','gates'],
       properties: { C1: ITEM, C2: ITEM, C3: ITEM, C4: ITEM, C5: ITEM,
         adaptiveness: { type: 'integer', minimum: 0, maximum: 15 },
+        W1: ITEM, W2: ITEM, W3: ITEM,
+        workplace: { type: 'integer', minimum: 0, maximum: 9 },
         gates: { type: 'object', required: ['G1','G2'], properties: { G1: GATE, G2: GATE } },
         ambiguities: { type: 'array', items: { type: 'string' } },
         notScoreable: { type: 'array', items: { type: 'string' } } } } } }
@@ -169,16 +228,21 @@ const results = await pipeline(
     `Return the JSON contract the prompt specifies.`,
     { label: `score:${code}`, phase: 'Score', schema: SCORE_SCHEMA }),
   (scored, code) => agent(
-    `Adversarially verify this Panel C v4 scoring for ${code}: ${JSON.stringify(scored.panelCv4)}. ` +
+    `Adversarially verify this Panel C v4.1 scoring for ${code}: ${JSON.stringify(scored.panelCv4)}. ` +
     `Read the anchors in dfva/dist/v4/DFVA-V4-SCORING-PROMPT.md and the extract at scrapes/v4/${code}.txt. ` +
-    `Try to REFUTE every level-3 score (does quoted ASSESSMENT evidence really exist?) and every ` +
-    `gate PASS. Also verify each evidenceLines entry appears verbatim in the extract; a missing ` +
-    `line demotes that item to the highest level its remaining evidence supports.`,
+    `Try to REFUTE every level-3 score across BOTH sub-scales (does quoted ASSESSMENT evidence really ` +
+    `exist?) and every gate PASS. Also verify each evidenceLines entry appears verbatim in the extract; ` +
+    `a missing line demotes that item to the highest level its remaining evidence supports. ` +
+    `Then run the construct-boundary check: no evidence line may do work in two items. Placement ` +
+    `evidence scores in W3 and must not also be carrying C1 or C4; appraisal of quality scores in C2 ` +
+    `and must not also be carrying W2; group work scores in C1 and must not also be carrying W1. ` +
+    `Report any shared-evidence dependency as a boundary note even where the scores are defensible.`,
     { label: `verify:${code}`, phase: 'Verify', schema: VERDICT })
     .then((v) => ({ scored, verdict: v })),
   (r, code) => agent(
-    `Apply these verified Panel C v4 results for ${code}: ${JSON.stringify(r)}. ` +
-    `(1) Apply any demotions to the scores and recompute adaptiveness. ` +
+    `Apply these verified Panel C v4.1 results for ${code}: ${JSON.stringify(r)}. ` +
+    `(1) Apply any demotions and recompute adaptiveness (C1..C5) and workplace (W1..W3) ` +
+    `separately. Never write their total anywhere. ` +
     `(2) Merge the panelCv4 block (with a "verified" stamp) into dfva/source/evidence/${code}.json, ` +
     `preserving the existing v1 byDimension content. ` +
     `(3) Draft reports/dfva-v4-${code}.md following dfva/dist/v4/report-template-v4.md exactly — ` +
@@ -187,8 +251,9 @@ const results = await pipeline(
     `"pending v4 cycle" placeholders unless v3 Panel A data exists for this code. ` +
     `Return {code, adaptiveness, gates, reportPath}.`,
     { label: `draft:${code}`, phase: 'Draft',
-      schema: { type: 'object', required: ['code', 'adaptiveness', 'reportPath'],
+      schema: { type: 'object', required: ['code', 'adaptiveness', 'workplace', 'reportPath'],
         properties: { code: { type: 'string' }, adaptiveness: { type: 'integer' },
+          workplace: { type: 'integer' },
           gates: { type: 'object' }, reportPath: { type: 'string' } } } }),
   (draft, code) => agent(
     `Read dfva/dist/v4/DFVA-V4-RECOMMEND-PROMPT.md and follow it EXACTLY to write the ` +
@@ -208,10 +273,28 @@ const results = await pipeline(
 return { drafted: results.filter(Boolean) }
 ```
 
+## Worked examples
+
+Two reports are maintained as the reference output of this harness, chosen because they
+score **identically on adaptiveness and four points apart on workplace practice** — which
+is the whole case for the v4.1 sub-scale, in two files:
+
+| Report | Program | A /15 | W /9 |
+| --- | --- | --- | --- |
+| [`reports/dfva-v4-244cw.md`](../reports/dfva-v4-244cw.md) | Master of Public Health | 9 | 6 |
+| [`reports/dfva-v4-mc-cs.md`](../reports/dfva-v4-mc-cs.md) | Master of Computer Science | 9 | 2 |
+
+Under v4.0 these two programs were indistinguishable on the scored axis. Read them as a
+pair when checking a new run's output: MPH is the case where all three W items turn on one
+structural fact (capstone-route choice), and MC-CS is the case where the W sub-scale reads
+near-floor while adaptiveness reads mid-range — the two shapes a rater is most likely to
+get wrong.
+
 ## Guards & open wiring (in dependency order)
 
-1. **Now enforced by the prompt/template:** R1–R3, ambiguity-down, no
-   Irreplaceability, reference-numbered scorecard, epistemic-status tags.
+1. **Now enforced by the prompt/template:** R1–R4, ambiguity-down, one-construct-one-home,
+   no Irreplaceability, reference-numbered scorecard, epistemic-status tags, both sub-scale
+   subtotals with no combined total.
 2. **To wire when v4 is adopted (§7 yes):**
    - v4 family in `check-report-format.ts` (lint rules are already written at the
      foot of the template);
@@ -232,7 +315,9 @@ return { drafted: results.filter(Boolean) }
 
 Item-level references are embedded in the instrument
 ([rubricV4.ts](../dfva/source/rubricV4.ts) `V4_REFERENCES`, rendered into both
-dist artifacts and every report's REFERENCES section). Verification of each
-source against full text: [literature review](dfva-adaptiveness-literature-review.md).
-Construct authority: Lodge et al. (2026), TEQSA. Validity-argument frame for the
-evidence plan: Kane (2013), per recommendation §5.
+dist artifacts and every report's REFERENCES section). Verification of each source against
+full text: [adaptiveness literature review](dfva-adaptiveness-literature-review.md) for
+refs 1–18 (C1–C5) and [workplace readiness literature review](dfva-workplace-readiness-literature-review.md)
+for refs 19–34 (W1–W3). Construct authority: Lodge et al. (2026), TEQSA, for the adaptive
+sub-scale; HESF (Threshold Standards) 2021 cl. 1.4.2 and 5.4.1 for the workplace sub-scale.
+Validity-argument frame for the evidence plan: Kane (2013), per v4 recommendation §5.

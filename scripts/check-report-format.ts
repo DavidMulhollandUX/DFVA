@@ -251,6 +251,19 @@ for (const file of RECOMMEND_FILES) {
 
 const V4_TEMPLATE = path.join(repoRoot, 'dfva', 'dist', 'v4', 'report-template-v4.md')
 
+// The instrument version is read from the canonical source, never hardcoded — a
+// v4.x bump must not require editing the linter (and must not silently pass
+// reports still stamped with the previous version).
+const V4_INSTRUMENT_VERSION = (() => {
+  const src = readFileSync(path.join(repoRoot, 'dfva', 'source', 'rubricV4.ts'), 'utf8')
+  const m = src.match(/export const V4_VERSION = '([^']+)'/)
+  if (!m) throw new Error('check-report-format: cannot read V4_VERSION from dfva/source/rubricV4.ts')
+  return m[1]
+})()
+const V4_INSTRUMENT_LINE = `**Instrument:** DFVA ${V4_INSTRUMENT_VERSION}`
+/** "4.1-draft" → "v4.1", the form the section-2 heading uses. */
+const V4_HEADING_VERSION = `v${V4_INSTRUMENT_VERSION.replace(/-draft$/, '')}`
+
 for (const file of V4_FILES) {
   const slug = file.replace('.md', '')
   const content = readReport(file)
@@ -258,13 +271,13 @@ for (const file of V4_FILES) {
   const issues: string[] = []
 
   // 1. Instrument line in the header
-  if (!content.includes('**Instrument:** DFVA 4.0-draft')) {
-    issues.push('missing "**Instrument:** DFVA 4.0-draft" header line')
+  if (!content.includes(V4_INSTRUMENT_LINE)) {
+    issues.push(`missing "${V4_INSTRUMENT_LINE}" header line`)
   }
 
   // 2. Six numbered sections, in order, each with a Basis: tag
   const sectionHeads = lines.filter((l) => /^## \d\. /.test(l))
-  const expected = ['## 1. POSITION', '## 2. PANEL C v4 SCORECARD', '## 3. GATES', '## 4. MARKET EVIDENCE', '## 5. CURRICULUM IMPLICATIONS', '## 6. EVIDENCE CONFIDENCE']
+  const expected = ['## 1. POSITION', `## 2. PANEL C ${V4_HEADING_VERSION} SCORECARD`, '## 3. GATES', '## 4. MARKET EVIDENCE', '## 5. CURRICULUM IMPLICATIONS', '## 6. EVIDENCE CONFIDENCE']
   expected.forEach((prefix, i) => {
     const head = sectionHeads[i]
     if (!head || !head.startsWith(prefix)) {
@@ -329,8 +342,8 @@ for (const file of V4_RECOMMEND_FILES) {
   if (!lines[0].startsWith('# DFVA v4 IMPROVEMENT PLAN:')) {
     issues.push(`title mismatch: "${lines[0]}"`)
   }
-  if (!content.includes('**Instrument:** DFVA 4.0-draft')) {
-    issues.push('missing "**Instrument:** DFVA 4.0-draft" header line')
+  if (!content.includes(V4_INSTRUMENT_LINE)) {
+    issues.push(`missing "${V4_INSTRUMENT_LINE}" header line`)
   }
 
   // 2. Sections 1–6 in order, each with a Basis: tag; §1 opens with the mandatory sentence
