@@ -273,6 +273,89 @@ const results = await pipeline(
 return { drafted: results.filter(Boolean) }
 ```
 
+## Market reports: discussion signals must be sourced, not synthesised
+
+A market report's §3 CURRENT DISCUSSION SIGNALS is the section most easily written from
+general knowledge and passed off as observation — it reads like reporting whether or not
+anyone reported anything. Two rules, enforced by `dfva:report-lint` (which runs in CI):
+
+1. **Declare the sources.** §3 opens with what it rests on — trade press, named
+   commentary, reported survey data, academic work — and says whether any platform was
+   sampled directly.
+2. **Attribute each theme.** Outlet, commentator or study, with a date where the source
+   carries one. Three attributions minimum across the section, and **every `### Theme`
+   heading must carry at least one of its own** — the lint checks per theme, because a
+   section can clear the global minimum while its most quotable theme rests on nothing.
+   That exact case shipped to dev on 2026-08-14: MC-MGMTHRE's theme 2 (the ~14%
+   shortlist-overlap figure) carried zero attributions while themes 1, 3 and 4 covered
+   the count.
+3. **Scope the claim to what the source measured.** A survey about AI *screening* does
+   not support a sentence about AI *interviews*; a figure about employers does not
+   support one about recruiters. When attributing after the fact, adjust the claim to
+   the evidence, not the evidence to the claim.
+
+**The distinction that matters most.** "Sourced from LinkedIn" and "a named outlet
+reported LinkedIn's data" are different claims, and in practice only the second is true.
+Write the second. If you did sample a platform, say which, over what window, and how many
+items — the lint asks for exactly that when it sees a sampling claim.
+
+Ranked by what survives scrutiny, best first:
+
+| Source type | Example from MC-MGMTHRE §3 | Why it ranks here |
+| --- | --- | --- |
+| Named regulatory instrument | WHS Amendment (Digital Work Systems) Act 2026 | Dated, checkable, binding — belongs in §2 |
+| Academic study with an effect size | Exeter RCT, n > 3,000: one-way AI interviews cut application continuation >50% | An effect, not an opinion |
+| Dated trade-press item | HR Brew, 7 April 2026, on AI pre-screening under volume | Attributable and datable |
+| Named commentator with affiliation | Ramak Salamat (RVP JAPAC, Staffbase), HRD Australia, 28 May 2026 | A person who can be quoted and checked |
+| Survey figure reported second-hand | LinkedIn/Robert Half/Greenhouse percentages via trade press | Indicative; say it is second-hand |
+| Unattributed "industry commentary suggests…" | — | Fails the lint, and should |
+
+Legacy market reports (66 of them) predate this rule and are grandfathered in
+`check-report-format.ts`; they warn rather than fail. Remove a slug from
+`MARKET_GRANDFATHERED` once its §3 complies — the lint prints which are ready.
+
+## The insights page is shared: copy must survive the next program
+
+`V4ReportPage.tsx` renders every v4 program, present and future. A live-page review
+(2026-08-14) found four defect classes that all trace to one habit: writing page copy
+that was true for the program in front of you. Each shipped to dev; each is cheap to
+avoid at write time and embarrassing to find in review.
+
+| Class | What shipped | The rule |
+| --- | --- | --- |
+| Discipline-specific copy in shared components | "crosswalks to the CEPH, WHO-ASPHER and AMIA competency frameworks" — public-health frameworks, rendered on an HR program's page | Shared copy is program-agnostic or explicitly multi-discipline. Anything naming a discipline, framework, employer, or accreditor belongs in per-program report markdown or data, never in the shared component. |
+| Hardcoded counts and ranges | "prioritised P1–P6" (this program has P7); "0 of 5 items" (v4.1 scores 8) | Derive every count, range, and version string from data: `{allScores.length}`, `{V4_INSTRUMENT}`. If a literal number in shared JSX describes the data, it is a bug waiting for the next program. |
+| Asymmetric sub-scale treatment | Adaptiveness carried a ±1 uncertainty band and a ceiling callout; the workplace sub-score carried neither | The two sub-scales get identical epistemic furniture. Any caveat, band, or callout added to one is added to the other in the same edit. |
+| Colliding numbering systems | A "Priority" column ranked 1–8 by gap size beside P1–P7 levers sequenced by effort — same-looking numbers, different orderings | If a report carries two orderings, name them differently ("Gap rank" vs "P-lever") and say in one line that they do not correspond. |
+| Unconditional links to per-program artifacts | "Full v4 report (markdown)" linked to `/reports/dfva-v4-<code>` for all 20 v4-scored programs when only 3 have a markdown report — 17 dead links | Gate every per-program link on existence (`hasReportContent(slug)`, `hasMarketReport`). A link is a claim that the target exists. |
+
+The generalisation: before adding copy or a literal to the shared page, ask "is this a
+fact about *the instrument* or about *this program*?" Instrument facts may be shared
+(and should be imported from `rubricV4.ts`, not retyped); program facts come from the
+per-program data or stay in the report markdown.
+
+## Panel A for a program outside the v3 registry
+
+A program can be scored on Panel C without being in the assessed portfolio. Exposure is
+instrument-independent, so it is still computable — but **not** through the v3 Panel A
+generator, which places a program against the reference medians on both axes and so needs
+a v2/v3.1 adaptiveness score the program has never had. `dfva:gen-v4` computes it instead,
+by the identical procedure (JIR titles → SOC-2010 → published Felten index → min–max
+rescale), and carries it on the v4 record. No position is assigned either way: that needs
+a v4 median.
+
+Two traps sit on this path. Both are silent, both only ever make a program look *less*
+evidenced than it is, and both are now caught by `scripts/dfva-panela-coverage-check.ts`
+(wired into `dfva:check`):
+
+| Trap | What it looks like | The rule |
+| --- | --- | --- |
+| Wrong source | Program absent from `data/labour-evidence.json` (41 programs) reads as "no alumni record" | `data/jir_data.json` (141 records) is the source of record. labour-evidence is an enrichment layer and is **not** evidence of absence. |
+| Unmapped titles | Record found, but most destination titles are missing from the crosswalk, so the mean is over a handful and the record looks empty | 82 of 141 records have at least one unmapped title. Map into `data/aioe/v31_extension_crosswalk.csv` from `data/aioe/felten_aioe.json` before scoring. `panelAFor` throws rather than averaging a subset. |
+
+Both fired on MC-MGMTHRE (2026-08-14) and a wrong "no alumni destination record exists"
+claim reached the dev site before either was noticed. The check reproduces both.
+
 ## Worked examples
 
 Two reports are maintained as the reference output of this harness, chosen because they

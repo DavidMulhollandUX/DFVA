@@ -3,7 +3,7 @@
  * report template from the canonical instrument in dfva/source/rubricV4.ts.
  * Run: npm --prefix scripts run dfva:gen-v4
  */
-import { promises as fs } from 'node:fs'
+import { promises as fs, existsSync, readFileSync } from 'node:fs'
 import * as path from 'node:path'
 import {
   ALL_V4_ITEMS,
@@ -25,6 +25,105 @@ import {
 } from '../dfva/source/rubricV4'
 
 const repoRoot = path.resolve(__dirname, '..')
+
+// ---------------------------------------------------------------------------
+// Panel A for v4-only programs.
+//
+// A program scored on v4 but absent from the v3 registry cannot go through the
+// v3 Panel A generator: that path places a program against the reference
+// medians on BOTH axes, and so requires a v2/v3.1 adaptiveness score, which a
+// program scored only on v4.1 has never had. Exposure itself is instrument-
+// independent — same JIR destinations, same crosswalk, same rescaling — so it
+// is computed here by the identical procedure and carried on the v4 record.
+// The position stays withheld: pairing a measured exposure with a v4
+// adaptiveness needs a v4 median, which the migration cycle has not produced.
+// ---------------------------------------------------------------------------
+
+function parseCsv(p: string): Record<string, string>[] {
+  const text = readFileSync(path.join(repoRoot, p), 'utf8')
+  const rows: string[][] = []
+  let row: string[] = [], field = '', inQuotes = false
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i]
+    if (inQuotes) {
+      if (c === '"') {
+        if (text[i + 1] === '"') { field += '"'; i++ } else inQuotes = false
+      } else field += c
+    } else if (c === '"') inQuotes = true
+    else if (c === ',') { row.push(field); field = '' }
+    else if (c === '\n' || c === '\r') {
+      if (field !== '' || row.length) { row.push(field); rows.push(row); row = []; field = '' }
+      if (c === '\r' && text[i + 1] === '\n') i++
+    } else field += c
+  }
+  if (field !== '' || row.length) { row.push(field); rows.push(row) }
+  const [header, ...body] = rows
+  return body.map((r) => Object.fromEntries(header.map((h, i) => [h, r[i] ?? ''])))
+}
+
+interface PanelA {
+  exposure: number
+  entryExposure: number | null
+  jirN: number | null
+  nTitles: number
+  nMedium: number
+}
+
+/** The same three crosswalk sources the v3 generator merges, same precedence. */
+function loadCrosswalk(): Map<string, { aioe: number; confidence: string }> {
+  const xw = new Map<string, { aioe: number; confidence: string }>()
+  for (const p of [
+    'data/aioe/reconciliation/reconcile_C_authoritative_288_index.csv',
+    'data/aioe/reconciliation/v2_panelA_new_occupation_crosswalk.csv',
+    'data/aioe/v31_extension_crosswalk.csv',
+  ]) {
+    for (const r of parseCsv(p)) {
+      const t = (r.occupation || '').trim()
+      if (t) xw.set(t, { aioe: parseFloat(r.ai_exposure_index), confidence: r.mapping_confidence || 'high' })
+    }
+  }
+  return xw
+}
+
+/**
+ * Exposure for one v4-only program, matched to its JIR record by exact program
+ * name. An unmapped destination title throws rather than being skipped: a mean
+ * over the subset that happens to be mapped is a different statistic from the
+ * one a reader would take it for, and the error only ever runs one way.
+ */
+function panelAFor(name: string, xw: Map<string, { aioe: number; confidence: string }>): PanelA | null {
+  const jir = JSON.parse(readFileSync(path.join(repoRoot, 'data', 'jir_data.json'), 'utf8')) as {
+    records: { program: string; n?: number; job_titles?: Record<string, string[]> }[]
+  }
+  const rec = jir.records.find((r) => r.program === name)
+  if (!rec?.job_titles) return null
+
+  const titles: { title: string; entry: boolean }[] = []
+  const seen = new Set<string>()
+  for (const stage of ['entry', 'early_mid', 'mid_senior'] as const) {
+    for (const t of rec.job_titles[stage] ?? []) {
+      if (seen.has(t)) continue
+      seen.add(t)
+      titles.push({ title: t, entry: stage === 'entry' })
+    }
+  }
+  if (!titles.length) return null
+
+  const vals = titles.map((t) => {
+    const hit = xw.get(t.title)
+    if (!hit) throw new Error(`Unmapped JIR title for "${name}": "${t.title}" — add it to data/aioe/v31_extension_crosswalk.csv`)
+    return { ...t, ...hit }
+  })
+  const mean = (xs: number[]) => xs.reduce((a, b) => a + b, 0) / xs.length
+  const entry = vals.filter((v) => v.entry).map((v) => v.aioe)
+  return {
+    exposure: Math.round(mean(vals.map((v) => v.aioe)) * 100) / 100,
+    entryExposure: entry.length ? Math.round(mean(entry) * 100) / 100 : null,
+    jirN: rec.n ?? null,
+    nTitles: vals.length,
+    nMedium: vals.filter((v) => v.confidence !== 'high').length,
+  }
+}
 
 const banner = (source: string): string =>
   [
@@ -502,6 +601,54 @@ async function appPanelCModule(): Promise<string> {
   // every reference program has been re-scored on the full eight items.
   const workplaceScored = referenceCodes.filter((c) => typeof results[c]?.workplace === 'number')
 
+  // Programs scored on v4 that have no Panel A record at all — not in the
+  // reference or extension cohort, so no exposure, no alumni destinations, no
+  // market report. They are a real category (an ad-hoc scoring request against a
+  // program outside the assessed portfolio), and the report page must render
+  // them with the missing half stated rather than showing "no assessment
+  // exists". The display name comes from the report markdown's own title, which
+  // is the in-repo source of record for the program's name.
+  const allV3Codes = new Set([...v3.matchAll(/"code": "([a-z0-9-]+)"/g)].map((m) => m[1]))
+  const xw = loadCrosswalk()
+  const v4Only: Record<
+    string,
+    { code: string; name: string; hasMarketReport: boolean; exposure: number | null; entryExposure: number | null; jirN: number | null; nTitles: number | null; nMedium: number | null }
+  > = {}
+  for (const code of Object.keys(results)) {
+    if (allV3Codes.has(code)) continue
+    const reportPath = path.join(repoRoot, 'reports', `dfva-v4-${code}.md`)
+    let name = code.toUpperCase()
+    try {
+      const first = (await fs.readFile(reportPath, 'utf8')).split('\n')[0]
+      const m = first.match(/^#\s*DFVA v4 DURABILITY REPORT:\s*(.+?)\s*\([^()]*\)\s*$/)
+      if (m) name = m[1]
+    } catch {
+      // No report drafted yet: fall back to the code, never to a guessed name.
+    }
+    // The report title is the program's name, which is also the JIR record key.
+    // No match means no alumni record — a real state, carried as nulls.
+    const a = panelAFor(name, xw)
+    // Whether Part B has anything to show is a fact about the filesystem, not
+    // about registry membership — the page used the latter and so kept claiming
+    // "no market evidence" beside a rendered market card.
+    const hasMarketReport = existsSync(path.join(repoRoot, 'reports', `dfva-market-${code}.md`))
+    v4Only[code] = {
+      code,
+      name,
+      hasMarketReport,
+      exposure: a?.exposure ?? null,
+      entryExposure: a?.entryExposure ?? null,
+      jirN: a?.jirN ?? null,
+      nTitles: a?.nTitles ?? null,
+      nMedium: a?.nMedium ?? null,
+    }
+    console.log(
+      a
+        ? `v4-only ${code}: exposure ${a.exposure} (n=${a.jirN}, ${a.nTitles} titles, ${a.nMedium} medium-confidence)`
+        : `v4-only ${code}: no JIR record for "${name}" — Panel C only`,
+    )
+  }
+
   const meta = {
     cohortSize: referenceCodes.length,
     scored: scored.length,
@@ -530,6 +677,17 @@ async function appPanelCModule(): Promise<string> {
     ' *  program is scored on v4; position labels stay withheld while it is null. */\n' +
     'export interface V4Meta {\n  cohortSize: number;\n  scored: number;\n  workplaceScored: number;\n  workplaceComplete: boolean;\n  complete: boolean;\n  adaptMedian: number | null;\n  expMedian: number;\n  pending: string[];\n}\n\n' +
     `export const V4_META: V4Meta = ${JSON.stringify(meta, null, 2)};\n\n` +
+    '/** A program scored on v4 that is not in the v3 registry.\n' +
+    ' *\n' +
+    ' *  Exposure is instrument-independent, so where the program has its own JIR\n' +
+    ' *  alumni record it is computed here by the identical Panel A procedure and\n' +
+    ' *  is a measured value, comparable with every other program. Where it has no\n' +
+    ' *  such record the fields are null and the page states the absence rather\n' +
+    ' *  than estimating it. Either way no POSITION is assigned: that needs a v4\n' +
+    ' *  adaptiveness median, which the migration cycle has not yet produced. */\n' +
+    'export interface V4OnlyProgram {\n  code: string;\n  name: string;\n  hasMarketReport: boolean;\n  exposure: number | null;\n  entryExposure: number | null;\n  jirN: number | null;\n  nTitles: number | null;\n  nMedium: number | null;\n}\n\n' +
+    `export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = ${JSON.stringify(v4Only, null, 2)};\n\n` +
+    'export const v4OnlyProgramByCode = (code: string): V4OnlyProgram | undefined =>\n  V4_ONLY_PROGRAMS[code.toLowerCase()];\n\n' +
     `export const V4_PANEL_C: Record<string, V4PanelC> = ${JSON.stringify(results, null, 2)};\n\n` +
     'export const v4PanelCByCode = (code: string): V4PanelC | undefined =>\n  V4_PANEL_C[code.toLowerCase()];\n'
   )

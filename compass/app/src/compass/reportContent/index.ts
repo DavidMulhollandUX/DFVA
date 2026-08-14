@@ -87,6 +87,7 @@ export const REPORT_CONTENT_LOADERS: Record<
   "dfva-market-mc-is": () => import("./dfva-market-mc-is"),
   "dfva-market-mc-journ": () => import("./dfva-market-mc-journ"),
   "dfva-market-mc-jurisd": () => import("./dfva-market-mc-jurisd"),
+  "dfva-market-mc-mgmthre": () => import("./dfva-market-mc-mgmthre"),
   "dfva-market-mc-nursc": () => import("./dfva-market-mc-nursc"),
   "dfva-market-mc-phtyph": () => import("./dfva-market-mc-phtyph"),
   "dfva-market-mc-prop": () => import("./dfva-market-mc-prop"),
@@ -218,6 +219,7 @@ export const REPORT_CONTENT_LOADERS: Record<
   "dfva-v4-mc-cs": () => import("./dfva-v4-mc-cs"),
   "dfva-v4-mc-mgmthre": () => import("./dfva-v4-mc-mgmthre"),
   "dfva-v4-recommend-244cw": () => import("./dfva-v4-recommend-244cw"),
+  "dfva-v4-recommend-mc-mgmthre": () => import("./dfva-v4-recommend-mc-mgmthre"),
 };
 
 export function hasReportContent(slug: string): boolean {

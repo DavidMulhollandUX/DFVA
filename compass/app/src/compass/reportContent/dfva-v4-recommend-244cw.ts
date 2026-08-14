@@ -25,11 +25,11 @@ item, C3 (Digital and AI literacy, including governance), scores 1 of 3: no core
 addresses AI capabilities and limitations, no assessment requires a justified reliance
 decision on machine-assisted output, and no team task specifies a role for AI tools.
 
-C3 is treated as the first priority on two grounds recorded in the table below: it is
+C3 ranks first on two grounds recorded in the table below: it is
 the only item two anchor levels below the maximum, and it is the only gap the market
 evidence identifies independently.
 
-| Item | Score | Levels below maximum | Market evidence for the gap | Priority |
+| Item | Score | Levels below maximum | Market evidence for the gap | Gap rank |
 |---|---|---|---|---|
 | C3 Digital & AI literacy, incl. governance | 1 / 3 | 2 | Direct — AI verification rising sharply; destinations average 89.46 exposure | 1 |
 | C2 Hybrid metacognition & evaluative judgement | 2 / 3 | 1 | Direct — appraisal skill reported as lagging tool adoption | 2 |
@@ -41,6 +41,10 @@ evidence identifies independently.
 | W2 Authentic task design | 2 / 3 | 1 | Indirect — same signal; the artefact is assisted, the judgement is not | 6 |
 | W3 Work-situated learning | 2 / 3 | 1 | None — WIL is not evidenced to raise employment rates [[28]](https://doi.org/10.1007/s10734-017-0216-z) | 8 |
 | **Workplace practice** | **6 / 9** | — | — | — |
+
+Gap rank orders items by size of gap and strength of market evidence. The P-numbers in
+the tables that follow are a different ordering — sequenced by effort and dependency —
+so an item's gap rank and its P-number do not correspond.
 
 ## 2. SCORE-TO-ACTION MAP — Basis: inferred
 

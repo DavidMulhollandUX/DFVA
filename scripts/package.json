@@ -8,13 +8,14 @@
     "dfva:gen-v4": "npx tsx dfva-v4-gen.ts",
     "dfva:gen-content": "npx tsx dfva-content-generate.ts",
     "dfva:gen-assessments": "npx tsx dfva-build-assessments.ts",
-    "dfva:check": "npx tsx dfva-check.ts && npx tsx dfva-content-check.ts && npx tsx dfva-registry-check.ts && npx tsx dfva-assessments-check.ts",
+    "dfva:check": "npx tsx dfva-check.ts && npx tsx dfva-content-check.ts && npx tsx dfva-registry-check.ts && npx tsx dfva-assessments-check.ts && npx tsx dfva-panela-coverage-check.ts",
     "dfva:assessments-check": "npx tsx dfva-assessments-check.ts",
     "dfva:check-registry": "npx tsx dfva-registry-check.ts",
     "dfva:content-check": "npx tsx dfva-content-check.ts",
     "dfva:completeness": "npx tsx check-course-completeness.ts",
     "dfva:report-lint": "npx tsx check-report-format.ts",
-    "dfva:sync-skill": "cp ../dfva/dist/claude-skill/SKILL.md ~/.claude/skills/dfva/SKILL.md"
+    "dfva:sync-skill": "cp ../dfva/dist/claude-skill/SKILL.md ~/.claude/skills/dfva/SKILL.md",
+    "dfva:panela-coverage": "npx tsx dfva-panela-coverage-check.ts"
   },
   "devDependencies": {
     "@types/node": "^25.9.3",

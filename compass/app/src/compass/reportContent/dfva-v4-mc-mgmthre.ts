@@ -20,8 +20,10 @@ const content = {
 > has never been assessed on v3.1, so it has no adaptiveness score on the published
 > instrument. It does, however, have its own exact-name alumni destination record, and
 > exposure does not depend on the scoring instrument — so §1 reports a measured
-> exposure computed by the identical Panel A procedure. What it still lacks is a
-> market intelligence report; §4 states that rather than filling it.
+> exposure computed by the identical Panel A procedure. It now carries the full
+> report family: [market intelligence](dfva-market-mc-mgmthre.md) and an
+> [improvement plan](dfva-v4-recommend-mc-mgmthre.md). What it does not have, and
+> will not until the migration cycle completes, is a position label.
 
 > **Correction, 2026-08-14.** An earlier version of this report stated that no alumni
 > destination record existed. That was wrong: the check was run against
@@ -285,12 +287,13 @@ The full structure shows the choice, and the score falls.
   from an analytical perspective"* weighing *"the power and limitations"* of the
   techniques used. [16]
 
-## 4. MARKET EVIDENCE — Basis: measured (destinations only)
+## 4. MARKET EVIDENCE — Basis: measured (destinations) × reported (signals)
 
-**There is no market intelligence report for this program.** What exists is its alumni
-destination record, which is where exposure comes from — so this section reports the
-destinations and their exposure values and stops there. Job families, hiring signals and
-skill shifts are the market report's work and are not inferred here.
+Condensed from the [full market intelligence report](dfva-market-mc-mgmthre.md), where
+confidence is stated per section. Destinations and exposure values are HIGH confidence
+(the program's own alumni record); the signals and skill shifts are MEDIUM — a directional
+synthesis of named regulatory instruments and public reporting, not a dated job-ad
+extraction.
 
 **Destinations** (JIR/LiveAlumni exact-name record, n = 28; AIOE via the published Felten
 index, rescaled 0–100).
@@ -323,17 +326,42 @@ scheduling, records administration, first-pass candidate matching, policy drafti
 the tasks current systems do well. The spread is narrow: this cohort has no low-exposure
 tail to fall back on, and the single destination below 90 is one title.
 
-**What is still missing, and what it costs.** Exposure says where graduates go and how
-exposed that work is. It does not say which capabilities the market is now pricing at
-those destinations, which is normally half the argument for prioritising one curriculum
-intervention over another. Section 5 therefore argues from scored curriculum evidence plus
-the destination profile, not from hiring signals. Commissioning
-\`reports/dfva-market-mc-mgmthre.md\` remains the precondition for a full improvement plan.
+**Signals and skill shifts** (MEDIUM confidence).
+
+| Signal or shift | Direction | Bearing on the scored items |
+|---|---|---|
+| EU AI Act Annex III — employment classed high-risk, obligations landing through Aug 2026 | Rising sharply | C3 — absent from the compulsory core |
+| NYC Local Law 144 — annual independent bias audits of hiring tools, USD 1,500/day penalties | Rising sharply | C3 — the governance limb of level 3 |
+| **WHS Amendment (Digital Work Systems) Act 2026 (AU)** — first statutory duty over monitoring and performance-tracking tools | Rising sharply | C3 — and it binds in Australia, unlike the two above |
+| Psychosocial hazard duties enforceable in every state since Dec 2025 | Rising | W1, C2 — documented, defensible people decisions |
+| ~93% of employers using AI against ~2.7% genuine practitioner capability | Rising | C3, C4 — the gap is capability, not adoption |
+| JSA projections: HR Managers +13.7%, HR Clerks +5.0% to 2028 | Diverging | The growth gradient runs opposite to the automation gradient |
+| First-pass screening, scheduling, status communication, records administration | Falling sharply | The entry-level task set this cohort lands in |
+| Screening-tool consistency questioned in public (~14% shortlist overlap on identical data, re-run) | Rising sharply | C3, C5 — a measurement-quality argument run by people without methods training |
+| One-way AI interviews cut application continuation >50%, worst among women and the most qualified (Exeter RCT, n>3,000, 2026) | Rising | C3, W1 — adverse selection as a governance failure with a cost |
+| Defending a people decision a system recommended | Rising sharply | C2, W1 — the retained act |
+
+**What the market evidence adds, and what it still cannot say.** It identifies which gap
+the market is actually pricing: C3, by three separate regulatory instruments — one of them
+Australian and in force — and now by practitioner discourse carrying its own numbers. The
+strongest single item is not an opinion: a 2026 University of Exeter randomised working
+paper (n > 3,000) found one-way AI interviews cut application continuation by over 50%,
+with the largest falls among women and the most qualified applicants. An HR function that
+cannot recognise that as adverse selection will not catch it.
+
+What the evidence cannot do is substitute for a dated job-ad extraction, and no platform
+was scraped — §3 of the market report is attributed commentary and reported survey data,
+which is why it carries MEDIUM confidence and why §5 leans on the destination profile
+rather than on hiring volumes.
+
+The full prioritised plan is in the
+[v4.1 improvement plan](dfva-v4-recommend-mc-mgmthre.md).
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
 *This section argues from the evidence above; it is interpretation, not observation.*
-Unusually for a DFVA report, it argues from **curriculum evidence only** — see §4.
+The prioritised plan, with anchor text, sequencing and score deltas, is in the
+[v4.1 improvement plan](dfva-v4-recommend-mc-mgmthre.md).
 
 | Item | Score | Implication | Cost | Sources |
 |---|---|---|---|---|

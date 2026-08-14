@@ -39,8 +39,81 @@ const V4_RECOMMEND_FILES = readdirSync(reportsDir).filter(
 // Remove slugs here as phases 1-2 align them. End state = empty Set, strict for all.
 const GRANDFATHERED = new Set<string>([])
 
-// Market reports — grandfathered until phases 1-2 backfill them
-const MARKET_GRANDFATHERED = new Set<string>([])
+// Market reports — grandfathered until phases 1-2 backfill them.
+//
+// The 66 slugs below predate the §3 sourcing rule added 2026-08-14 (see the
+// "Discussion signals must be SOURCED" block). They warn rather than fail, so the
+// standard binds on every NEW market report without a 66-file rewrite blocking the
+// build. Remove a slug once its §3 declares its sources and attributes its themes;
+// the lint prints which ones are ready. End state: empty set.
+const MARKET_GRANDFATHERED = new Set<string>([
+  'dfva-market-080cl',
+  'dfva-market-080cn',
+  'dfva-market-244cw',
+  'dfva-market-300bb',
+  'dfva-market-439fs',
+  'dfva-market-527cl',
+  'dfva-market-746st',
+  'dfva-market-b-des',
+  'dfva-market-b-sci',
+  'dfva-market-dh-lld',
+  'dfva-market-dh-sc',
+  'dfva-market-dr-philabp',
+  'dfva-market-dr-philagr',
+  'dfva-market-dr-philart',
+  'dfva-market-dr-philbe',
+  'dfva-market-dr-philedp',
+  'dfva-market-dr-philedu',
+  'dfva-market-dr-phileit',
+  'dfva-market-dr-philfam',
+  'dfva-market-dr-philik',
+  'dfva-market-dr-phillaw',
+  'dfva-market-dr-philmdh',
+  'dfva-market-dr-philsci',
+  'dfva-market-dr-philvet',
+  'dfva-market-mc-actsc',
+  'dfva-market-mc-apbusa',
+  'dfva-market-mc-arch',
+  'dfva-market-mc-ba',
+  'dfva-market-mc-bamktg',
+  'dfva-market-mc-base',
+  'dfva-market-mc-bmedsc',
+  'dfva-market-mc-busana',
+  'dfva-market-mc-climsci',
+  'dfva-market-mc-clind',
+  'dfva-market-mc-cs',
+  'dfva-market-mc-datasc',
+  'dfva-market-mc-ddensur',
+  'dfva-market-mc-dmed',
+  'dfva-market-mc-doptom',
+  'dfva-market-mc-dphysio',
+  'dfva-market-mc-dvetmed',
+  'dfva-market-mc-ed',
+  'dfva-market-mc-envlaw',
+  'dfva-market-mc-envsc',
+  'dfva-market-mc-gencoun',
+  'dfva-market-mc-indeng',
+  'dfva-market-mc-intedib',
+  'dfva-market-mc-is',
+  'dfva-market-mc-journ',
+  'dfva-market-mc-nursc',
+  'dfva-market-mc-phtyph',
+  'dfva-market-mc-prop',
+  'dfva-market-mc-propsyc',
+  'dfva-market-mc-scibif',
+  'dfva-market-mc-scibio',
+  'dfva-market-mc-scibit',
+  'dfva-market-mc-sciche',
+  'dfva-market-mc-sciear',
+  'dfva-market-mc-sciepi',
+  'dfva-market-mc-sciphy',
+  'dfva-market-mc-scwr',
+  'dfva-market-mc-surged',
+  'dfva-market-mc-tesol',
+  'dfva-market-mc-urbdes',
+  'dfva-market-mc-urbhort',
+  'dfva-market-me-dcd',
+])
 
 const RECOMMEND_GRANDFATHERED = new Set<string>([])
 
@@ -164,6 +237,17 @@ for (const file of REPORT_FILES) {
 
 // ── Market report checks ──
 
+// An attribution is a dated month-year, a bracketed link, or a named
+// outlet/commentator/study. Used both section-wide (3+ required) and per
+// marked theme (1+ each).
+const ATTRIBUTION_PATTERNS = [
+  /\b(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+20\d\d\b/g,
+  /\]\(https?:\/\//g,
+  /\b(?:HR Brew|HR Dive|HRD Australia|hcamag|SHRM|Personnel Today|Harvard Business Review|Fortune|LinkedIn|Deloitte|Greenhouse|Robert Half|Gartner|AHRI|Reddit|University of [A-Z][a-z]+)\b/g,
+]
+const countAttributions = (text: string): number =>
+  ATTRIBUTION_PATTERNS.reduce((n, re) => n + [...text.matchAll(re)].length, 0)
+
 for (const file of MARKET_FILES) {
   const slug = file.replace('.md', '')
   const grandfathered = MARKET_GRANDFATHERED.has(slug)
@@ -201,6 +285,62 @@ for (const file of MARKET_FILES) {
     })
     if (!found) {
       issues.push(`missing section "${alternatives.join('" or "')}"`)
+    }
+  }
+
+  // Discussion signals must be SOURCED, not synthesised.
+  //
+  // Added 2026-08-14. A market report's §3 is the section most easily written
+  // from general knowledge and passed off as observation — it reads like
+  // reporting whether or not anyone reported anything. Two rules:
+  //
+  //   (a) it must declare what kind of sources it rests on, and
+  //   (b) it must actually attribute — outlets, dates, named commentators.
+  //
+  // The specific failure this prevents: describing discourse as if sampled from
+  // X or LinkedIn when what was really consulted was trade press quoting those
+  // platforms' data. Those are different claims and only one is usually true.
+  const discussion = content.split(/^#{2,3} (?:\d+\. )?CURRENT DISCUSSION SIGNALS/m)[1]
+  if (discussion) {
+    // Body runs to the next KNOWN top-level section, not the next capitalised
+    // heading — "### Theme N" subheadings are part of §3 and must stay in scope.
+    // (The original boundary cut at the first theme heading, so the global
+    // count only ever saw the preamble; found 2026-08-14 while proving the
+    // per-theme check fires.)
+    const body = discussion.split(/^#{2,3} (?:\d+\. )?(?:SKILL SHIFT SUMMARY|CURRICULUM IMPLICATIONS|EVIDENCE CONFIDENCE)/m)[0] ?? ''
+    const declares = /What these sources are|Sourcing basis|Sources for this section/i.test(body)
+    if (!declares) {
+      issues.push(
+        'section 3 has no sourcing declaration — state what the sources are (trade press, ' +
+        'named commentary, reported survey data, academic work) and whether any platform ' +
+        'was sampled directly',
+      )
+    }
+    // Attribution: a dated month-year, a named outlet, or a bracketed link.
+    const attributions = countAttributions(body)
+    if (attributions < 3) {
+      issues.push(
+        `section 3 carries ${attributions} attribution(s) (need 3+): name the outlet, the ` +
+        'commentator or the study behind each theme, with a date where the source has one',
+      )
+    }
+    // Each marked theme must also carry its own attribution — the section total
+    // can clear 3 while one theme (often the most quotable) rests on nothing.
+    // That shipped to dev on 2026-08-14 (MC-MGMTHRE theme 2). Fires only where
+    // themes are marked as "### Theme" headings; prose-style sections are
+    // covered by the global count above.
+    const themes = body.split(/^### Theme\b/m).slice(1)
+    for (const [i, theme] of themes.entries()) {
+      if (countAttributions(theme) === 0) {
+        issues.push(
+          `section 3 theme ${i + 1} carries no attribution — every theme needs an outlet, ` +
+          'commentator or study of its own, with a date where the source has one',
+        )
+      }
+    }
+    // Claiming a platform sample is a specific, checkable claim.
+    if (/\bwe (?:sampled|scraped|extracted)\b/i.test(body) && !/not (?:a )?(?:scrape|sampled)/i.test(body)) {
+      issues.push('section 3 claims a platform sample — say which platform, over what window, and how many items')
     }
   }
 

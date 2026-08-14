@@ -1,6 +1,7 @@
 import { Link, useParams } from "react-router";
 import { Card, CardContent, CardTitle } from "../../client/components/ui/card";
 import { InsightsGate } from "../InsightsGate";
+import { hasReportContent } from "../reportContent/index";
 import { MatrixAreaLabels } from "../matrixAreaLabels";
 import { ReportMarkdownCard } from "../v2/components/ReportMarkdownCard";
 import { QUADRANTS } from "../v2/quadrants";
@@ -22,6 +23,7 @@ import {
 import {
   V4_META,
   V4_PANEL_C,
+  v4OnlyProgramByCode,
   v4PanelCByCode,
   type V4ItemResult,
   type V4PanelC,
@@ -233,7 +235,9 @@ function V4MiniMatrix({
   envelope,
   workplace,
 }: {
-  program: V3Program;
+  /** Only the fields the plane needs: a v4-only program supplies the same
+   *  three, so registry membership is not what decides whether it renders. */
+  program: Pick<V3Program, "code" | "name" | "exposure">;
   adaptiveness: number;
   envelope: [number, number];
   workplace?: number;
@@ -394,8 +398,21 @@ function V4MiniMatrix({
 
 export default function V4ReportPage() {
   const { code } = useParams<{ code: string }>();
-  const program = code ? v3ProgramByCode(code) : undefined;
+  const v3 = code ? v3ProgramByCode(code) : undefined;
   const panelC: V4PanelC | undefined = code ? v4PanelCByCode(code) : undefined;
+  // A program can be scored on Panel C without being in the assessed portfolio:
+  // no exposure, no alumni destinations, no market report. That is half a DFVA
+  // position, and the page says so rather than pretending the assessment does
+  // not exist (the old behaviour) or estimating the missing half.
+  const v4Only = !v3 && code ? v4OnlyProgramByCode(code) : undefined;
+  const program: Pick<V3Program, "code" | "name" | "faculty"> | undefined =
+    v3 ?? v4Only
+      ? {
+          code: (v3?.code ?? v4Only?.code) as string,
+          name: (v3?.name ?? v4Only?.name) as string,
+          faculty: v3?.faculty ?? "",
+        }
+      : undefined;
 
   if (!program || !panelC) {
     return (
@@ -423,12 +440,25 @@ export default function V4ReportPage() {
     panelC.adaptiveness - scores.filter((s) => s > 0).length,
     panelC.adaptiveness + scores.filter((s) => s < 3).length,
   ];
-  const itemsAtCeiling = scores.filter((s) => s === 3).length;
-  const position = v4Quadrant(program.exposure, panelC.adaptiveness);
+  // Exposure is instrument-independent, so a v4-only program with its own JIR
+  // record carries a measured value computed by the same Panel A procedure.
+  const exposure = v3 ? v3.exposure : v4Only?.exposure ?? null;
+  const position =
+    exposure !== null ? v4Quadrant(exposure, panelC.adaptiveness) : null;
   // v4.1 added W1–W3; a program scored on 4.0-draft has none of them.
   const workplaceScored =
     typeof panelC.workplace === "number" &&
     Boolean(panelC.W1 && panelC.W2 && panelC.W3);
+  const wScores = workplaceScored
+    ? [panelC.W1!.score, panelC.W2!.score, panelC.W3!.score]
+    : [];
+  const wEnvelope: [number, number] = [
+    (panelC.workplace ?? 0) - wScores.filter((s) => s > 0).length,
+    (panelC.workplace ?? 0) + wScores.filter((s) => s < 3).length,
+  ];
+  // Both sub-scales get the same ceiling accounting; W joins once scored.
+  const allScores = [...scores, ...wScores];
+  const itemsAtCeiling = allScores.filter((s) => s === 3).length;
 
   return (
     <InsightsGate>
@@ -436,13 +466,14 @@ export default function V4ReportPage() {
         {/* Hero */}
         <div className="mb-8">
           <p className="text-muted-foreground mb-2 text-xs font-semibold tracking-[0.18em] uppercase">
-            Durability Assessment · Panel C v4 pilot
+            Durability Assessment · Panel C {V4_INSTRUMENT} pilot
           </p>
           <h1 className="text-foreground font-serif text-4xl tracking-tight">
             {program.name}
           </h1>
           <p className="text-muted-foreground mt-2 font-mono text-sm uppercase">
-            {program.code} · University of Melbourne · {program.faculty}
+            {program.code} · University of Melbourne
+            {program.faculty ? ` · ${program.faculty}` : ""}
           </p>
           <nav className="text-muted-foreground mt-5 flex flex-wrap gap-x-6 gap-y-1 text-sm">
             <span className="text-foreground font-medium">In this report:</span>
@@ -475,15 +506,25 @@ export default function V4ReportPage() {
                 ). It is a working-draft instrument, applied here as a pilot.
                 The adaptiveness score is not comparable with the published v3.1
                 value, and no position label is reported until v4 portfolio
-                medians exist. The v3.1 assessment remains the assessment of
-                record:{" "}
-                <Link
-                  to={`/insights/v31/${program.code}`}
-                  className="underline"
-                >
-                  same program on v3.1
-                </Link>
-                .
+                medians exist.{" "}
+                {v3 ? (
+                  <>
+                    The v3.1 assessment remains the assessment of record:{" "}
+                    <Link
+                      to={`/insights/v31/${program.code}`}
+                      className="underline"
+                    >
+                      same program on v3.1
+                    </Link>
+                    .
+                  </>
+                ) : (
+                  <>
+                    This program has never been assessed on v3.1 or any earlier
+                    instrument, so there is no assessment of record to compare
+                    against — a v4.1 draft score is all that exists for it.
+                  </>
+                )}
               </span>
             </div>
             <div className="flex flex-col gap-5">
@@ -548,15 +589,31 @@ export default function V4ReportPage() {
                     <p className="text-muted-foreground text-xs tracking-[0.18em] uppercase">
                       Exposure (AIOE)
                     </p>
-                    <p
-                      className="font-mono text-4xl font-semibold"
-                      data-testid="v4-exposure"
-                    >
-                      {program.exposure.toFixed(2)}
-                    </p>
-                    <p className="text-muted-foreground text-xs">
-                      measured · v3.1 reference median {V3_META.expMedian}
-                    </p>
+                    {exposure !== null ? (
+                      <>
+                        <p
+                          className="font-mono text-4xl font-semibold"
+                          data-testid="v4-exposure"
+                        >
+                          {exposure.toFixed(2)}
+                        </p>
+                        <p className="text-muted-foreground text-xs">
+                          measured · v3.1 reference median {V3_META.expMedian}
+                        </p>
+                      </>
+                    ) : (
+                      <>
+                        <p
+                          className="text-muted-foreground font-mono text-4xl font-semibold"
+                          data-testid="v4-exposure"
+                        >
+                          —
+                        </p>
+                        <p className="text-muted-foreground text-xs">
+                          not available · no alumni destination record
+                        </p>
+                      </>
+                    )}
                   </div>
                   <div>
                     <p className="text-muted-foreground text-xs tracking-[0.18em] uppercase">
@@ -590,16 +647,40 @@ export default function V4ReportPage() {
                         className="bg-muted text-muted-foreground mt-1 inline-flex items-center gap-2 rounded-full px-4 py-1 text-sm font-semibold"
                         data-testid="v4-position-chip"
                       >
-                        No peer comparison yet — {V4_META.scored} of{" "}
-                        {V4_META.cohortSize} programs re-scored
+                        {exposure !== null
+                          ? `No peer comparison yet — ${V4_META.scored} of ${V4_META.cohortSize} programs re-scored`
+                          : "Not placed — no exposure value for this program"}
                       </span>
                     )}
                   </div>
                 </div>
                 <p className="text-muted-foreground mt-4 text-sm">
-                  The exposure value is independent of the scoring instrument
-                  and is measured on the program's own alumni destination record
-                  (n = {program.jirN}, {program.nTitles} titles).{" "}
+                  {exposure !== null ? (
+                    <>
+                      The exposure value is independent of the scoring
+                      instrument and is measured on the program's own alumni
+                      destination record (n = {v3 ? v3.jirN : v4Only?.jirN},{" "}
+                      {v3 ? v3.nTitles : v4Only?.nTitles} titles).{" "}
+                      {!v3 && (
+                        <>
+                          This program is not in the v3.1 registry, so it has no
+                          adaptiveness score on the published instrument — but
+                          exposure does not depend on the instrument, and its
+                          own alumni record ran through the same Panel A
+                          procedure as every other program.{" "}
+                        </>
+                      )}
+                    </>
+                  ) : (
+                    <>
+                      This program is outside the assessed portfolio: it has no
+                      alumni destination record, so no exposure value exists and
+                      none is estimated from a related program. What is on this
+                      page is the Panel C half of a DFVA assessment — the
+                      curriculum half — and the position axis stays empty until
+                      Panel A data is gathered for it.{" "}
+                    </>
+                  )}
                   {position ? (
                     <>
                       The position is assigned against the v4 medians (exposure{" "}
@@ -607,7 +688,7 @@ export default function V4ReportPage() {
                       computed from all {V4_META.cohortSize} reference-cohort
                       programs re-scored on this instrument.
                     </>
-                  ) : (
+                  ) : exposure !== null ? (
                     <>
                       A position label states where a program sits relative to
                       its peers, so it requires a v4 adaptiveness median — and
@@ -619,13 +700,22 @@ export default function V4ReportPage() {
                       estimated. The dashed lines in the figure are the v3.1
                       medians, drawn for orientation only.
                     </>
+                  ) : (
+                    <>
+                      The label is withheld twice over: there is no exposure
+                      value to place this program on the x-axis, and no v4
+                      adaptiveness median to place it on the y-axis (
+                      {V4_META.scored} of {V4_META.cohortSize} reference
+                      programs re-scored).
+                    </>
                   )}
                 </p>
                 <div className="bg-card-accent text-muted-foreground mt-4 flex items-start gap-2 rounded-md p-3 text-sm">
                   <span className="text-base">⚠</span>
                   <span>
                     <strong className="text-foreground font-medium">
-                      {itemsAtCeiling} of 5 items score the maximum (3/3).
+                      {itemsAtCeiling} of {allScores.length} items score the
+                      maximum (3/3).
                     </strong>{" "}
                     In v3.1, 31 per cent of scored items sat at the maximum and
                     could only be perturbed downward. Under v4 this program's
@@ -636,21 +726,45 @@ export default function V4ReportPage() {
                 </div>
               </div>
               <div className="w-full max-w-sm md:w-80">
-                <V4MiniMatrix
-                  program={program}
-                  adaptiveness={panelC.adaptiveness}
-                  envelope={envelope}
-                  workplace={panelC.workplace}
-                />
-                <p className="text-muted-foreground mt-1 text-xs">
-                  The filled point is this program on the v4 draft score; no
-                  quadrant is implied. Faded fills are the v3.1 reference
-                  portfolio, shown for context. Open rings are the programs
-                  already re-scored on v4.1, and each ring&rsquo;s size is its
-                  workplace sub-score — W is not an axis, so size is how it is
-                  read. Rings at the same height score identically on
-                  adaptiveness and differ on workplace practice.
-                </p>
+                {exposure !== null ? (
+                  <>
+                    <V4MiniMatrix
+                      program={{
+                        code: program.code,
+                        name: program.name,
+                        exposure,
+                      }}
+                      adaptiveness={panelC.adaptiveness}
+                      envelope={envelope}
+                      workplace={panelC.workplace}
+                    />
+                    <p className="text-muted-foreground mt-1 text-xs">
+                      The filled point is this program on the v4 draft score; no
+                      quadrant is implied. Faded fills are the v3.1 reference
+                      portfolio, shown for context. Open rings are the programs
+                      already re-scored on v4.1, and each ring&rsquo;s size is
+                      its workplace sub-score — W is not an axis, so size is how
+                      it is read. Rings at the same height score identically on
+                      adaptiveness and differ on workplace practice.
+                    </p>
+                  </>
+                ) : (
+                  <div
+                    className="border-border text-muted-foreground rounded-lg border border-dashed p-5 text-sm"
+                    data-testid="v4-no-matrix"
+                  >
+                    <p className="text-foreground mb-1 font-medium">
+                      No position figure
+                    </p>
+                    <p>
+                      The exposure–adaptiveness plane needs both coordinates.
+                      This program has one. Plotting it at an assumed or
+                      inherited exposure would put a measured-looking point on a
+                      measured-looking axis, which is the specific error the
+                      figure exists to avoid.
+                    </p>
+                  </div>
+                )}
               </div>
             </div>
           </CardContent>
@@ -742,6 +856,10 @@ export default function V4ReportPage() {
                       </span>
                     </span>
                   </div>
+                  <p className="text-muted-foreground mt-1 text-right text-xs">
+                    under ±1 rating error the score could reach {wEnvelope[0]}–
+                    {wEnvelope[1]}
+                  </p>
                 </>
               ) : (
                 <p
@@ -790,15 +908,52 @@ export default function V4ReportPage() {
           part="Part B"
           title="Market evidence & improvement plan"
         />
-        <p className="text-muted-foreground mb-5 text-sm">
-          The market evidence is independent of the scoring instrument and
-          carries over unchanged; confidence levels are stated on each section.
-          The improvement plan that follows is derived from two inputs, the
-          verified Panel C v4 scoring in Part A and this market evidence. Each
-          intervention addresses a named item's next anchor level and cites its
-          sources (<Cite refs={[1]} />; the citation marks in each entry link to
-          the source).
-        </p>
+        {v3 || v4Only?.hasMarketReport ? (
+          <p className="text-muted-foreground mb-5 text-sm">
+            The market evidence is independent of the scoring instrument and
+            carries over unchanged; confidence levels are stated on each
+            section. The improvement plan that follows is derived from two
+            inputs, the verified Panel C v4 scoring in Part A and this market
+            evidence. Each intervention addresses a named item's next anchor
+            level and cites its sources (<Cite refs={[1]} />; the citation marks
+            in each entry link to the source).
+          </p>
+        ) : (
+          <div
+            className="border-border text-muted-foreground mb-5 rounded-lg border border-dashed p-5 text-sm"
+            data-testid="v4-no-market"
+          >
+            <p className="text-foreground mb-1 font-medium">
+              No market evidence for this program
+            </p>
+            <p>
+              There is no market intelligence report for {program.name}, so this
+              part is empty rather than populated from a related program —
+              substituting a generic profile for the discipline would present
+              inference as observation.
+              {exposure !== null && (
+                <>
+                  {" "}
+                  Its alumni destination record does exist, and is where the
+                  exposure value in Part A comes from; what is missing is the
+                  job-family, hiring-signal and skill-shift analysis built on
+                  top of it.
+                </>
+              )}
+            </p>
+            <p className="mt-2">
+              This also bounds Part A: the curriculum implications there argue
+              from scored evidence
+              {exposure !== null
+                ? " and the destination profile"
+                : " alone"}{" "}
+              and cannot say which capabilities the labour market is now pricing
+              at those destinations, which is normally half the case for
+              prioritising one intervention over another. A market report for
+              this program is the precondition for an improvement plan.
+            </p>
+          </div>
+        )}
 
         <ReportMarkdownCard
           slug={`dfva-market-${program.code}`}
@@ -811,7 +966,7 @@ export default function V4ReportPage() {
             slug={`dfva-v4-recommend-${program.code}`}
             label="Redesign Recommendations · v4"
             title="Improvement Plan (Panel C v4)"
-            subtitle="Anchor-referenced interventions derived from the v4 scoring and the market evidence — prioritised P1–P6, with gate guardrails and explicit score deltas"
+            subtitle="Anchor-referenced interventions derived from the v4 scoring and the market evidence — prioritised levers with gate guardrails and explicit score deltas"
           />
         </div>
 
@@ -928,9 +1083,11 @@ export default function V4ReportPage() {
                   <strong className="text-foreground font-medium">
                     No content-validity panel yet.
                   </strong>{" "}
-                  An expert panel with crosswalks to the CEPH, WHO-ASPHER and
-                  AMIA competency frameworks is the specified next step,
-                  following Kane's argument-based approach to validation
+                  An expert panel with crosswalks to the discipline's own
+                  competency frameworks — CEPH and WHO-ASPHER for public
+                  health, AHRI and SHRM for human resources — is the specified
+                  next step, following Kane's argument-based approach to
+                  validation
                   <Cite refs={[17]} />.
                 </li>
                 <li>
@@ -991,12 +1148,19 @@ export default function V4ReportPage() {
             single-rater scoring, verified against source
           </span>
           <span className="flex gap-4">
-            <Link to={`/insights/v31/${program.code}`} className="underline">
-              Same program, published instrument (v3.1)
-            </Link>
-            <Link to={`/reports/dfva-v4-${program.code}`} className="underline">
-              Full v4 report (markdown)
-            </Link>
+            {v3 && (
+              <Link to={`/insights/v31/${program.code}`} className="underline">
+                Same program, published instrument (v3.1)
+              </Link>
+            )}
+            {hasReportContent(`dfva-v4-${program.code}`) && (
+              <Link
+                to={`/reports/dfva-v4-${program.code}`}
+                className="underline"
+              >
+                Full v4 report (markdown)
+              </Link>
+            )}
             <Link to="/insights" className="underline">
               See all assessed programs
             </Link>
