@@ -208,6 +208,10 @@ const reportMeta: Record<
   // v4 pilot (draft instrument) — no v1-style composite; the reports carry their own scores
   "dfva-v4-244cw": { score: null, riskBand: null },
   "dfva-v4-recommend-244cw": { score: null, riskBand: null },
+  "dfva-v4-mc-cs": { score: null, riskBand: null },
+  // mc-mgmthre has no v3 Panel A record, so /insights/v4/mc-mgmthre cannot render it.
+  // The markdown report is its only surface until the program is placed.
+  "dfva-v4-mc-mgmthre": { score: null, riskBand: null },
 };
 
 const DIMENSIONS = [

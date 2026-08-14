@@ -216,6 +216,7 @@ export const REPORT_CONTENT_LOADERS: Record<
   "dfva-recommend-me-dcd": () => import("./dfva-recommend-me-dcd"),
   "dfva-v4-244cw": () => import("./dfva-v4-244cw"),
   "dfva-v4-mc-cs": () => import("./dfva-v4-mc-cs"),
+  "dfva-v4-mc-mgmthre": () => import("./dfva-v4-mc-mgmthre"),
   "dfva-v4-recommend-244cw": () => import("./dfva-v4-recommend-244cw"),
 };
 
