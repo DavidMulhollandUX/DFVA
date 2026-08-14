@@ -191,15 +191,26 @@ export default function TrustPage() {
             You don't have to take our word for that one. There's no upload
             button to find.
           </p>
-          <div className="bg-muted/40 rounded-lg border p-4">
-            <p className="text-muted-foreground mb-2 text-sm font-medium">
+          <div className="bg-muted/40 space-y-3 rounded-lg border p-4">
+            <p className="text-muted-foreground text-sm font-medium">
               The personal information we do hold
             </p>
             <p className="text-muted-foreground text-sm">
-              Your email address, your username, and whether you're subscribed.
-              That's it. No student records, no staff records, nothing about
-              anyone's health or finances. Card details go directly to Stripe
-              and never touch our systems.
+              For your account: your email address, your username, and whether
+              you're subscribed. No student records, no staff records, nothing
+              about anyone's health or finances. Card details go straight to
+              Stripe and never touch our systems.
+            </p>
+            <p className="text-muted-foreground text-sm">
+              There's one other case worth naming. If your institution uploads
+              graduate destination data, we store a job title, an employer, a
+              graduation year and a program code for each graduate —{" "}
+              <strong>no names and no contact details</strong>. Those fields
+              aren't identifying on their own, but in a small cohort a
+              particular combination could point at one person, so we treat
+              this data as sensitive: it's used only to inform the assessment
+              for that program, it never appears in a benchmark, and you can
+              have it deleted on the same terms as anything else below.
             </p>
           </div>
         </Section>
@@ -384,7 +395,16 @@ export default function TrustPage() {
             deletion request starts from that acknowledgement.
           </p>
           <p className="text-muted-foreground text-sm">
-            If you're building against our API, the{" "}
+            The{" "}
+            <Link className="text-blue-600 underline" to="/privacy">
+              privacy policy
+            </Link>{" "}
+            and{" "}
+            <Link className="text-blue-600 underline" to="/terms">
+              terms of service
+            </Link>{" "}
+            are the binding versions of this. If you're building against our
+            API, the{" "}
             <Link className="text-blue-600 underline" to="/developers">
               developer portal
             </Link>{" "}

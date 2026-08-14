@@ -136,6 +136,7 @@ The `/trust` page (`compass/app/src/compass/TrustPage.tsx`, source of truth in `
 - **What's needed:** a mailbox or forwarding rule on `evidura.ai` with a named owner and a monitoring habit. Requires DNS / mail-provider access.
 - **Change if declined:** `CONTACT_EMAIL` in `TrustPage.tsx` is a single constant — swap it for another address, or drop to a contact form, in one edit.
 - **Related:** A1 Incident Response Plan and B4 (DSAR / right-to-erasure) both need an intake channel. This is that channel — do it once, use it for all three.
+- **Also fix when the mailbox is live:** the privacy policy currently directs privacy and deletion requests to `compass@unimelb.edu.au` while `/trust` gives `privacy@evidura.ai`. Two addresses for the same purpose is a defect. It was left as-is deliberately — repointing a live policy at a mailbox that does not yet exist would be worse than the inconsistency. Align both the moment T1 lands.
 
 ### T2. Confirm zero-retention terms with the LLM provider — gates one commitment
 

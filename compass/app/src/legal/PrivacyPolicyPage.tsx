@@ -35,9 +35,19 @@ export default function PrivacyPolicyPage() {
                 stored only in hashed form.
               </li>
               <li>
-                <strong>Content you provide.</strong> Program details, handbook
-                URLs, files, and alumni or curriculum data you submit for
-                assessment.
+                <strong>Content you provide.</strong> Program details and the
+                handbook URLs you submit for assessment. Handbook pages are
+                public — we read the same page a prospective student would.
+                There is currently no way to upload private or unpublished
+                curriculum, and no assessment reads from one.
+              </li>
+              <li>
+                <strong>Graduate destination data.</strong> If your institution
+                uploads it, we store a job title, employer, graduation year and
+                program code per graduate — no names and no contact details. In
+                a small cohort that combination could still point at one
+                person, so we treat it as sensitive. It informs the assessment
+                for that program only and never appears in a benchmark.
               </li>
               <li>
                 <strong>Usage analytics.</strong> If you accept analytics
@@ -80,7 +90,15 @@ export default function PrivacyPolicyPage() {
               service providers needed to run the platform — cloud hosting and
               file storage, Google Analytics (if you opt in), Stripe for
               payments, and AI providers for assessment processing — and where
-              required by law. Some providers may store data outside Australia.
+              required by law. Our application, database and file storage all
+              run in Sydney. Some providers are based overseas: OpenAI (which
+              processes assessment content), Stripe and our email provider are
+              all in the United States. The{" "}
+              <Link to="/trust" className="text-primary underline underline-offset-2">
+                Trust page
+              </Link>{" "}
+              lists every provider and its location, and we update it before
+              adding anyone new.
             </p>
           </section>
 
@@ -90,7 +108,12 @@ export default function PrivacyPolicyPage() {
               We keep personal information only as long as needed for the
               purposes above, then delete or de-identify it. Data is transmitted
               over encrypted connections and access is restricted to the project
-              team.
+              team. The{" "}
+              <Link to="/trust" className="text-primary underline underline-offset-2">
+                Trust page
+              </Link>{" "}
+              sets out how long we keep each kind of data and the deadlines we
+              hold ourselves to for deleting it on request.
             </p>
           </section>
 
@@ -122,6 +145,11 @@ export default function PrivacyPolicyPage() {
 
           <p className="text-muted-foreground text-sm">
             See also our{" "}
+            <Link to="/trust" className="underline underline-offset-2">
+              Trust page
+            </Link>{" "}
+            — where the data lives, exactly how long we keep each thing, and
+            what we commit to when curriculum upload ships — and our{" "}
             <Link to="/terms" className="underline underline-offset-2">
               Terms of Service
             </Link>
