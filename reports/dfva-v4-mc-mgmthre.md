@@ -55,23 +55,13 @@ which will not exist until the reference cohort is fully re-scored. Placing this
 program against the v3.1 median would rank a v4.1 score against a different
 instrument. The label is withheld rather than estimated.
 
-**What the two sub-scores say together.** Both sub-scores sit below their mid-points, and
-they are low for related reasons. The assessed core is built on case studies, scenarios
-and role plays, but the artefacts it collects are word-counted assignments and an
-end-of-semester examination weighted at 50% in almost every compulsory subject. That
-design limits the adaptive sub-score, because evaluative judgement and inquiry need
-assessed work that examinations do not collect, and it limits the workplace sub-score,
-because a scenario framing is not the same as a task carrying a constraint of practice.
-The program's genuine workplace subjects — a practicum, a global practicum and a
-90-hour supervised internship — are real, but every one of them is optional, so no
-student is required to encounter them.
-
-This report supersedes an earlier version scored on an incomplete extract, which
-recorded the workplace sub-score as 6/9. Thirteen handbook pages had been wrongly
-excluded during capture; with the full capstone-selective structure visible, W2 and W3
-both fall to 1. The correction is not a matter of added evidence but of falsified
-evidence: the missing pages had concealed how much of the workplace provision is
-optional. Section 6 sets out the item-level detail.
+**What the two sub-scores say together.** Adaptiveness 8/15 and workplace practice 4/9
+are close to the same proportion, and both are low. The program is neither AI-durable nor,
+on the evidence its handbook documents, distinctively work-prepared: group work is
+universal but assessed as coursework, one practitioner artefact exists in the compulsory
+core, and every route into an actual workplace is optional. Against a destination set
+averaging 94.14 exposure — the most exposed profile of any program yet scored on v4.1 —
+that is the combination the instrument is built to surface.
 
 ## 2. PANEL C v4.1 SCORECARD — Basis: scored
 

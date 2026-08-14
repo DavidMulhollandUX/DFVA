@@ -261,7 +261,11 @@ def cmd_save(code: str, slot: str) -> None:
     # A block page or a redirect to search is short and has no curriculum text.
     # Recording it as done would turn a failed fetch into missing evidence that
     # nothing downstream can distinguish from a genuinely thin program.
-    if "Pardon Our Interruption" in text:
+    # Two block shapes seen so far: the crawl4ai interstitial, and an Incapsula
+    # challenge that serves an iframe in place of the page. Note the Incapsula
+    # marker also appears in the HTML of perfectly healthy pages, so it is only
+    # a block signal here, in the extracted main-content text.
+    if any(m in text for m in ("Pardon Our Interruption", "_Incapsula_Resource")):
         prog["pages"][url].update(status="blocked", ts=now())
         save_queue(q)
         sys.exit(f"{code}/{slot}: blocked page — capture rejected, back off and retry")
