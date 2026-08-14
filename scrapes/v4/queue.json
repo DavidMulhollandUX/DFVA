@@ -2691,7 +2691,7 @@
    }
   },
   "mc-dphysio": {
-   "assembled": false,
+   "assembled": true,
    "base": "https://handbook.unimelb.edu.au/2026/courses/mc-dphysio",
    "name": "Doctor of Physiotherapy",
    "pages": {
@@ -2840,70 +2840,70 @@
      "ts": "2026-08-14T06:18:46+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/phty90120/assessment": {
-     "chars": 0,
+     "chars": 1221,
      "slot": "subj-phty90120-assessment",
-     "status": "inflight",
-     "ts": "2026-08-14T06:00:45+00:00"
+     "status": "done",
+     "ts": "2026-08-14T06:19:34+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/phty90121": {
-     "chars": 0,
+     "chars": 3497,
      "slot": "subj-phty90121",
-     "status": "inflight",
-     "ts": "2026-08-14T06:00:45+00:00"
+     "status": "done",
+     "ts": "2026-08-14T06:20:28+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/phty90121/assessment": {
-     "chars": 0,
+     "chars": 1230,
      "slot": "subj-phty90121-assessment",
-     "status": "inflight",
-     "ts": "2026-08-14T06:00:45+00:00"
+     "status": "done",
+     "ts": "2026-08-14T06:21:25+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/phty90122": {
-     "chars": 0,
+     "chars": 3940,
      "slot": "subj-phty90122",
-     "status": "inflight",
-     "ts": "2026-08-14T06:00:45+00:00"
+     "status": "done",
+     "ts": "2026-08-14T06:22:18+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/phty90122/assessment": {
-     "chars": 0,
+     "chars": 794,
      "slot": "subj-phty90122-assessment",
-     "status": "inflight",
-     "ts": "2026-08-14T06:00:45+00:00"
+     "status": "done",
+     "ts": "2026-08-14T06:23:12+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/phty90124": {
-     "chars": 0,
+     "chars": 2670,
      "slot": "subj-phty90124",
-     "status": "inflight",
-     "ts": "2026-08-14T06:00:45+00:00"
+     "status": "done",
+     "ts": "2026-08-14T06:24:03+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/phty90124/assessment": {
-     "chars": 0,
+     "chars": 1039,
      "slot": "subj-phty90124-assessment",
-     "status": "inflight",
-     "ts": "2026-08-14T06:00:45+00:00"
+     "status": "done",
+     "ts": "2026-08-14T06:24:58+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/phty90125": {
-     "chars": 0,
+     "chars": 2461,
      "slot": "subj-phty90125",
-     "status": "inflight",
-     "ts": "2026-08-14T06:00:45+00:00"
+     "status": "done",
+     "ts": "2026-08-14T06:25:52+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/phty90125/assessment": {
-     "chars": 0,
+     "chars": 573,
      "slot": "subj-phty90125-assessment",
-     "status": "inflight",
-     "ts": "2026-08-14T06:00:45+00:00"
+     "status": "done",
+     "ts": "2026-08-14T06:26:40+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/phty90133": {
-     "chars": 0,
+     "chars": 3019,
      "slot": "subj-phty90133",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-14T06:27:53+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/phty90133/assessment": {
-     "chars": 0,
+     "chars": 740,
      "slot": "subj-phty90133-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-14T06:28:15+00:00"
     }
    }
   },
@@ -2931,172 +2931,172 @@
      "ts": "2026-08-14T05:56:20+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/vets30014": {
-     "chars": 0,
+     "chars": 1926,
      "slot": "subj-vets30014",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-14T06:28:40+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/vets30014/assessment": {
-     "chars": 0,
+     "chars": 679,
      "slot": "subj-vets30014-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-14T06:29:02+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/vets30016": {
-     "chars": 0,
+     "chars": 1702,
      "slot": "subj-vets30016",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-14T06:29:26+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/vets30016/assessment": {
-     "chars": 0,
+     "chars": 660,
      "slot": "subj-vets30016-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-14T06:29:50+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/vets30017": {
-     "chars": 0,
+     "chars": 1844,
      "slot": "subj-vets30017",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-14T06:30:15+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/vets30017/assessment": {
-     "chars": 0,
+     "chars": 665,
      "slot": "subj-vets30017-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-14T06:30:38+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/vets30018": {
-     "chars": 0,
+     "chars": 2237,
      "slot": "subj-vets30018",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-14T06:31:04+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/vets30018/assessment": {
-     "chars": 0,
+     "chars": 1016,
      "slot": "subj-vets30018-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-14T06:31:29+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/vets30029": {
-     "chars": 0,
+     "chars": 2386,
      "slot": "subj-vets30029",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-14T06:31:54+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/vets30029/assessment": {
-     "chars": 0,
+     "chars": 754,
      "slot": "subj-vets30029-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-14T06:32:17+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/vets30030": {
-     "chars": 0,
+     "chars": 3519,
      "slot": "subj-vets30030",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-14T06:32:47+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/vets30030/assessment": {
-     "chars": 0,
+     "chars": 1426,
      "slot": "subj-vets30030-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-14T06:33:11+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/vets30031": {
-     "chars": 0,
+     "chars": 2786,
      "slot": "subj-vets30031",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-14T06:33:38+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/vets30031/assessment": {
-     "chars": 0,
+     "chars": 621,
      "slot": "subj-vets30031-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-14T06:34:02+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/vets30032": {
-     "chars": 0,
+     "chars": 2834,
      "slot": "subj-vets30032",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-14T06:34:28+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/vets30032/assessment": {
-     "chars": 0,
+     "chars": 1174,
      "slot": "subj-vets30032-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-14T06:34:56+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/vets90120": {
-     "chars": 0,
+     "chars": 2275,
      "slot": "subj-vets90120",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-14T06:35:29+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/vets90120/assessment": {
-     "chars": 0,
+     "chars": 959,
      "slot": "subj-vets90120-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-14T06:35:57+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/vets90121": {
-     "chars": 0,
+     "chars": 2389,
      "slot": "subj-vets90121",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-14T06:36:25+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/vets90121/assessment": {
-     "chars": 0,
+     "chars": 1076,
      "slot": "subj-vets90121-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-14T06:36:47+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/vets90122": {
-     "chars": 0,
+     "chars": 3621,
      "slot": "subj-vets90122",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-14T06:37:14+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/vets90122/assessment": {
-     "chars": 0,
+     "chars": 1781,
      "slot": "subj-vets90122-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-14T06:37:40+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/vets90123": {
-     "chars": 0,
+     "chars": 2889,
      "slot": "subj-vets90123",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-14T06:38:15+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/vets90123/assessment": {
-     "chars": 0,
+     "chars": 907,
      "slot": "subj-vets90123-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-14T06:38:41+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/vets90124": {
-     "chars": 0,
+     "chars": 2506,
      "slot": "subj-vets90124",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-14T06:39:06+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/vets90124/assessment": {
-     "chars": 0,
+     "chars": 980,
      "slot": "subj-vets90124-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-14T06:39:32+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/vets90125": {
-     "chars": 0,
+     "chars": 2387,
      "slot": "subj-vets90125",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-14T06:39:59+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/vets90125/assessment": {
-     "chars": 0,
+     "chars": 951,
      "slot": "subj-vets90125-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-14T06:40:22+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/vets90126": {
      "chars": 0,
@@ -3306,7 +3306,7 @@
    }
   },
   "mc-mgmthre": {
-   "assembled": true,
+   "assembled": false,
    "base": "https://handbook.unimelb.edu.au/2026/courses/mc-mgmthre",
    "name": "Master of Management (Human Resources)",
    "pages": {
@@ -3342,17 +3342,17 @@
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90525": {
      "chars": 0,
-     "note": "not captured this pass \u2014 compulsory-subject assessment pages prioritised; overview pages and non-core selectives deferred",
+     "note": null,
      "slot": "subj-busa90525",
-     "status": "failed",
-     "ts": "2026-08-14T06:01:45+00:00"
+     "status": "pending",
+     "ts": null
     },
     "https://handbook.unimelb.edu.au/2026/subjects/busa90525/assessment": {
      "chars": 0,
-     "note": "not captured this pass \u2014 compulsory-subject assessment pages prioritised; overview pages and non-core selectives deferred",
+     "note": null,
      "slot": "subj-busa90525-assessment",
-     "status": "failed",
-     "ts": "2026-08-14T06:01:45+00:00"
+     "status": "pending",
+     "ts": null
     },
     "https://handbook.unimelb.edu.au/2026/subjects/mgmt90010": {
      "chars": 1748,
@@ -3380,10 +3380,10 @@
     },
     "https://handbook.unimelb.edu.au/2026/subjects/mgmt90015": {
      "chars": 0,
-     "note": "not captured this pass \u2014 compulsory-subject assessment pages prioritised; overview pages and non-core selectives deferred",
+     "note": null,
      "slot": "subj-mgmt90015",
-     "status": "failed",
-     "ts": "2026-08-14T06:01:45+00:00"
+     "status": "pending",
+     "ts": null
     },
     "https://handbook.unimelb.edu.au/2026/subjects/mgmt90015/assessment": {
      "chars": 431,
@@ -3393,10 +3393,10 @@
     },
     "https://handbook.unimelb.edu.au/2026/subjects/mgmt90016": {
      "chars": 0,
-     "note": "not captured this pass \u2014 compulsory-subject assessment pages prioritised; overview pages and non-core selectives deferred",
+     "note": null,
      "slot": "subj-mgmt90016",
-     "status": "failed",
-     "ts": "2026-08-14T06:01:45+00:00"
+     "status": "pending",
+     "ts": null
     },
     "https://handbook.unimelb.edu.au/2026/subjects/mgmt90016/assessment": {
      "chars": 345,
@@ -3406,10 +3406,10 @@
     },
     "https://handbook.unimelb.edu.au/2026/subjects/mgmt90017": {
      "chars": 0,
-     "note": "not captured this pass \u2014 compulsory-subject assessment pages prioritised; overview pages and non-core selectives deferred",
+     "note": null,
      "slot": "subj-mgmt90017",
-     "status": "failed",
-     "ts": "2026-08-14T06:01:45+00:00"
+     "status": "pending",
+     "ts": null
     },
     "https://handbook.unimelb.edu.au/2026/subjects/mgmt90017/assessment": {
      "chars": 432,
@@ -3419,10 +3419,10 @@
     },
     "https://handbook.unimelb.edu.au/2026/subjects/mgmt90018": {
      "chars": 0,
-     "note": "not captured this pass \u2014 compulsory-subject assessment pages prioritised; overview pages and non-core selectives deferred",
+     "note": null,
      "slot": "subj-mgmt90018",
-     "status": "failed",
-     "ts": "2026-08-14T06:01:45+00:00"
+     "status": "pending",
+     "ts": null
     },
     "https://handbook.unimelb.edu.au/2026/subjects/mgmt90018/assessment": {
      "chars": 365,
@@ -3432,10 +3432,10 @@
     },
     "https://handbook.unimelb.edu.au/2026/subjects/mgmt90027": {
      "chars": 0,
-     "note": "not captured this pass \u2014 compulsory-subject assessment pages prioritised; overview pages and non-core selectives deferred",
+     "note": null,
      "slot": "subj-mgmt90027",
-     "status": "failed",
-     "ts": "2026-08-14T06:01:45+00:00"
+     "status": "pending",
+     "ts": null
     },
     "https://handbook.unimelb.edu.au/2026/subjects/mgmt90027/assessment": {
      "chars": 355,
@@ -3470,10 +3470,10 @@
     },
     "https://handbook.unimelb.edu.au/2026/subjects/mgmt90176": {
      "chars": 0,
-     "note": "not captured this pass \u2014 compulsory-subject assessment pages prioritised; overview pages and non-core selectives deferred",
+     "note": null,
      "slot": "subj-mgmt90176",
-     "status": "failed",
-     "ts": "2026-08-14T06:01:45+00:00"
+     "status": "pending",
+     "ts": null
     },
     "https://handbook.unimelb.edu.au/2026/subjects/mgmt90176/assessment": {
      "chars": 407,
@@ -3483,31 +3483,31 @@
     },
     "https://handbook.unimelb.edu.au/2026/subjects/mgmt90261": {
      "chars": 0,
-     "note": "not captured this pass \u2014 compulsory-subject assessment pages prioritised; overview pages and non-core selectives deferred",
+     "note": null,
      "slot": "subj-mgmt90261",
-     "status": "failed",
-     "ts": "2026-08-14T06:01:45+00:00"
+     "status": "pending",
+     "ts": null
     },
     "https://handbook.unimelb.edu.au/2026/subjects/mgmt90261/assessment": {
      "chars": 0,
-     "note": "not captured this pass \u2014 compulsory-subject assessment pages prioritised; overview pages and non-core selectives deferred",
+     "note": null,
      "slot": "subj-mgmt90261-assessment",
-     "status": "failed",
-     "ts": "2026-08-14T06:01:45+00:00"
+     "status": "pending",
+     "ts": null
     },
     "https://handbook.unimelb.edu.au/2026/subjects/mgmt90267": {
      "chars": 0,
-     "note": "not captured this pass \u2014 compulsory-subject assessment pages prioritised; overview pages and non-core selectives deferred",
+     "note": null,
      "slot": "subj-mgmt90267",
-     "status": "failed",
-     "ts": "2026-08-14T06:01:45+00:00"
+     "status": "pending",
+     "ts": null
     },
     "https://handbook.unimelb.edu.au/2026/subjects/mgmt90267/assessment": {
      "chars": 0,
-     "note": "not captured this pass \u2014 compulsory-subject assessment pages prioritised; overview pages and non-core selectives deferred",
+     "note": null,
      "slot": "subj-mgmt90267-assessment",
-     "status": "failed",
-     "ts": "2026-08-14T06:01:45+00:00"
+     "status": "pending",
+     "ts": null
     },
     "https://handbook.unimelb.edu.au/2026/subjects/mgmt90280": {
      "chars": 1772,
@@ -3523,10 +3523,10 @@
     },
     "https://handbook.unimelb.edu.au/2026/subjects/mktg90037": {
      "chars": 0,
-     "note": "not captured this pass \u2014 compulsory-subject assessment pages prioritised; overview pages and non-core selectives deferred",
+     "note": null,
      "slot": "subj-mktg90037",
-     "status": "failed",
-     "ts": "2026-08-14T06:01:46+00:00"
+     "status": "pending",
+     "ts": null
     },
     "https://handbook.unimelb.edu.au/2026/subjects/mktg90037/assessment": {
      "chars": 541,

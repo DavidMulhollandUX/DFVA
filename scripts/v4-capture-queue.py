@@ -21,7 +21,8 @@ Commands:
     init                 seed/refresh the queue from scripts/v4_cohort.json
     next [n]             emit the next n pending pages as JSON
     save <code> <slot>   file a captured page and enqueue what it links to
-    fail <code> <slot> [reason]
+    fail <code> <slot> [reason]   ONLY for a page that genuinely will not load
+    requeue [code ...]   return failed pages to pending
     assemble [code ...]  write combined extracts for complete programs
     rediscover           re-run link discovery over already-captured pages
     stalled              programs that can no longer progress on their own
@@ -298,6 +299,37 @@ def cmd_fail(code: str, slot: str, reason: str) -> None:
     sys.exit(f"{code}: no queued page for slot {slot}")
 
 
+def cmd_requeue(codes: list[str]) -> None:
+    """Return failed pages to pending so they are offered again.
+
+    `fail` is terminal by design — a page that genuinely will not load should
+    stop consuming request budget. But an agent that uses it to mean "not this
+    batch" silently truncates the evidence, and a program can then assemble and
+    score on a partial extract that looks complete. This undoes that.
+    """
+    q = load()
+    targets = codes or list(q["programs"])
+    total = 0
+    for code in targets:
+        prog = q["programs"].get(code)
+        if not prog:
+            print(f"{code}: unknown")
+            continue
+        n = 0
+        for page in prog["pages"].values():
+            if page["status"] == "failed":
+                page.update(status="pending", ts=None, note=None)
+                n += 1
+        if n:
+            # The extract on disk no longer reflects the full page set.
+            prog["assembled"] = False
+            total += n
+            print(f"{code}: {n} page(s) requeued, extract marked for reassembly")
+    save_queue(q)
+    if not total:
+        print("nothing to requeue")
+
+
 def assemble_one(code: str, prog: dict) -> str:
     pending = [p for p in prog["pages"].values() if p["status"] in ("pending", "inflight")]
     if pending:
@@ -469,6 +501,8 @@ def main() -> None:
         cmd_assemble(rest)
     elif cmd == "scoreable":
         cmd_scoreable()
+    elif cmd == "requeue":
+        cmd_requeue(rest)
     elif cmd == "rediscover":
         cmd_rediscover()
     elif cmd == "stalled":
