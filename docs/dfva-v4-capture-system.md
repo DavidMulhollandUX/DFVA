@@ -24,7 +24,7 @@ back to `curl` or `crawl4ai`.
 Two scheduled agents and a queue. The agents hold no state between runs; the
 queue file does.
 
-```
+```text
 scripts/v4-capture-queue.py        the queue — what is owed, what is captured
   |
   |  dfva-v4-handbook-capture      every 30 min: browser agent, 30 pages/batch
@@ -50,7 +50,7 @@ python3 scripts/v4-capture-queue.py init         # seed from scripts/v4_cohort.j
 python3 scripts/v4-capture-queue.py next 30      # next pages to visit, as JSON
 python3 scripts/v4-capture-queue.py save <code> <slot>
 python3 scripts/v4-capture-queue.py fail <code> <slot> <reason>   # will not load
-python3 scripts/v4-capture-queue.py requeue [code ...]            # undo a wrong fail
+python3 scripts/v4-capture-queue.py requeue [code ...]   # undo a wrong fail
 python3 scripts/v4-capture-queue.py assemble     # combined extracts for finished programs
 python3 scripts/v4-capture-queue.py scoreable    # assembled but not yet scored
 python3 scripts/v4-capture-queue.py status
