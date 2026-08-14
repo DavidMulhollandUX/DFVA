@@ -30,6 +30,7 @@ import FacultyDashboard from "./src/compass/FacultyDashboard" with { type: "ref"
 import DevPortalPage from "./src/compass/DevPortalPage" with { type: "ref" };
 import FragilityDashboardPage from "./src/compass/FragilityDashboardPage" with { type: "ref" };
 import WhyStructuredDataPage from "./src/compass/WhyStructuredDataPage" with { type: "ref" };
+import TrustPage from "./src/compass/TrustPage" with { type: "ref" };
 import ImpactReportDetail from "./src/compass/ImpactReportDetail" with { type: "ref" };
 
 // Auth / server / db functions
@@ -307,6 +308,12 @@ export default app({
     action(revokeApiKey, { entities: ["ApiKey"] }),
     query(listApiKeys, { entities: ["ApiKey"] }),
     route("DevPortalRoute", "/developers", page(DevPortalPage)),
+
+    // Trust page — security/privacy posture. Wording's source of truth is
+    // docs/trust/*.md. Unconfirmed facts are gated by two constants inside
+    // TrustPage.tsx (ZERO_RETENTION_CONFIRMED, DATABASE_REGION); both fail
+    // closed, so an unverified claim cannot ship by accident.
+    route("TrustRoute", "/trust", page(TrustPage)),
 
     // Data Fragility Monitor (feat-012)
     route(

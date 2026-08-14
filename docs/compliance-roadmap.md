@@ -123,3 +123,26 @@ No audit trail exists. A `Logs` model exists (`schema.prisma:97-103`) but is use
 2. **Which compliance platform** — Vanta / Drata / Secureframe (recommend picking one before Phase 1).
 3. **Certification scope boundary** — assumed the Wasp app + its data only (excludes the marketing static site / blog).
 4. **Auditor / certification body + budget sign-off** (AU$20–60k).
+
+---
+
+## Blockers on the published trust page (added 2026-08-14)
+
+The `/trust` page (`compass/app/src/compass/TrustPage.tsx`, source of truth in `docs/trust/`) is built, deployed to dev, and launch-ready except for these two. Both are prerequisites for a **production** deploy, not for the dev page.
+
+### T1. Stand up and monitor `privacy@evidura.ai` — BLOCKING production
+
+- **Why it blocks:** the page publishes a contact address and commits to acknowledging within **one business day**, and the deletion SLA clock (5 / 10 / 30 days, see `docs/trust/data-deletion-sla.md`) starts from that acknowledgement. Publishing an unmonitored address turns the strongest page on the site into a broken promise.
+- **What's needed:** a mailbox or forwarding rule on `evidura.ai` with a named owner and a monitoring habit. Requires DNS / mail-provider access.
+- **Change if declined:** `CONTACT_EMAIL` in `TrustPage.tsx` is a single constant — swap it for another address, or drop to a contact form, in one edit.
+- **Related:** A1 Incident Response Plan and B4 (DSAR / right-to-erasure) both need an intake channel. This is that channel — do it once, use it for all three.
+
+### T2. Confirm zero-retention terms with the LLM provider — gates one commitment
+
+- **Why it matters:** "content is sent only to a zero-retention inference endpoint" is a claim about **OpenAI's** behaviour, not ours. It is the single sentence most likely to be tested by a university's legal team, and the research in `ideas_log.md` (2026-08-14) found **no competitor** publishing an equivalent — so it is worth getting right rather than fast.
+- **What's needed:** the retention/no-training position in a contract or DPA clause, not a marketing page. Folds directly into the **A2 subprocessor register + signed DPAs** row for OpenAI, which is already on this plan.
+- **Current state:** `ZERO_RETENTION_CONFIRMED = false` in `TrustPage.tsx`. While false the commitment is **absent** from the list rather than hedged — the page reads as a complete set of six, so there is no visible hole and no deadline pressure. Flip the flag when the terms are in hand and a seventh appears.
+
+### Not blocking, but keep honest
+
+`DATABASE_REGION` is set to Sydney (`ap-southeast-2`), confirmed 2026-08-14 alongside Fly `syd`, Vercel `syd1` and S3 `ap-southeast-2`. **If the database ever moves, set the constant back to `null`** rather than leaving a stale value — the row then reads "Confirmed on request", which is true. A wrong residency claim is worse than no claim, and residency is trivially checkable by an assessor.
