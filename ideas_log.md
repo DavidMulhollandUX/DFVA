@@ -1,14 +1,14 @@
 ---
 project: DFVA
-last_source: social
-last_run: 2026-06-29
-signals_collected: 22
+last_source: competitor-privacy-research
+last_run: 2026-08-14
+signals_collected: 40
 ---
 
 # DFVA Ideas Log
 
 Competitive intelligence signals for the Degree Future-Viability Assessment project.
-Competitors tracked: Coursedog, CourseLeaf (Leepfrog), Modern Campus, TechnologyOne/CourseLoop, Akari Software, Lightcast.
+Competitors tracked: Coursedog, CourseLeaf (Leepfrog), Modern Campus, TechnologyOne/CourseLoop, Akari Software, Lightcast, Atomic Jolt.
 
 ---
 
@@ -231,3 +231,218 @@ Competitors tracked: Coursedog, CourseLeaf (Leepfrog), Modern Campus, Technology
 
 ---
 |
+## [2026-07-23] Research: reviews
+
+### Signal: CourseLeaf's G2 Crisis — 2.4/5 Market Leader Confirms Analytics Void
+- **Source:** G2 (4 reviews, 2.4/5 — 50% 1-star, 50% 4-star, zero 5-star), Gartner Peer Insights (2 reviews, 2.5/5 avg), RFP.wiki (3.5/5, features score 4.3 vs satisfaction 2.5 → widest gap in market)
+- **Score:** 9
+- **Type:** competitor_weakness / market_validation
+- **Detail:** CourseLeaf, the 29% market share leader, holds the worst G2 score of all tracked competitors (2.4 vs Coursedog 4.9, Modern Campus 3.6). The gap between feature claims (RFP.wiki 4.3) and user satisfaction (G2 2.4) is the widest in the market — a 1.9-point delta. Specific complaints: "steep learning curve" and "cumbersome onboarding" (Jan 2024, 1/5), "character count limitations are the bane of users" (Sep 2019, 4/5), "like any system, it can be a bit inflexible" (Aug 2021, 3.5/5), "cannot edit multiple sections at once" (Jan 2022, 1/5). Gartner reviewers cite "rigid workflow paths and unintuitive syllabus reuse between academic terms." RFP.wiki flags "integration friction that slows daily curriculum and catalog maintenance tasks" and notes "sparse public review volume makes peer benchmarking harder." Overall: the market leader's user satisfaction is critically low — the analytics gap is real AND the workflow isn't loved either.
+- **Why DFVA:** CourseLeaf's customer pain is DFVA's positioning validation. The market leader can't deliver analytics (confirmed) AND has workflow rigidity issues (new finding). DFVA's complementary positioning — sit alongside CourseLeaf as an independent analytics/scoring layer without replacing workflow — is reinforced. The low satisfaction + high market share = significant addressable demand for add-on tools. A CourseLeaf institution that wants analytics can't get it from CourseLeaf; DFVA fills that gap without a rip-and-replace.
+
+### Signal: Universal Reporting/Analytics Gap Confirmed Across All 5 Competitors — This Is THE Category Pain Point
+- **Source:** G2, Gartner Peer Insights, RFP.wiki — cross-platform analysis across all 5 DFVA competitors
+- **Score:** 9
+- **Type:** market_gap / market_validation
+- **Detail:** Every single tracked competitor has explicit user complaints about reporting/analytics. Coursedog: RFP.wiki flags "advanced cross-module analytics are lighter than dedicated BI platforms" and "historical reporting depth depends on how long institutions retain in-app records" (RFP.wiki 4.2/5 on Reporting). CourseLeaf: Gartner reviewer (Feb 2025, 3.0/5) — "weak report generation options prevent us from making good use of our curriculum data." Modern Campus: Most recent review (March 2026, 2.5/5) — "restrictive nature of their reporting and integrations," RFP.wiki notes "reporting and analytics are adequate for standard registrar use but not best-in-class for complex analytics teams" (RFP.wiki 4.1/5 on Reporting). CourseLoop/TechnologyOne: sole Gartner reviewer (Feb 2025, 3.0/5) — "basic reporting tools create a major problem... weak report generation options prevent us from making good use of our curriculum data." Lightcast: G2 review (Nov 2023) — "at first it is a little tough to understand which reports to pull." This is now confirmed across ALL 5 competitors across multiple review platforms over a 2019-2026 time range. It's structural, not anecdotal.
+- **Why DFVA:** This is the most important finding of the reviews cycle. The reporting/analytics gap is universal — it's the category's defining deficiency. No curriculum platform or LMI vendor delivers adequate analytics. DFVA's core value proposition (scoring dashboards, 11-dimension assessment, independent analytics layer) is directly validated. The market is demanding what DFVA is building.
+
+### Signal: Modern Campus's "Restrictive Reporting" — March 2026 Enterprise Review Confirms Analytics Gap Is Current
+- **Source:** G2 (March 12, 2026 — most recent review across all competitors)
+- **Score:** 8
+- **Type:** competitor_weakness / pain_point
+- **Detail:** Enterprise (>1000 emp.) verified user, March 2026: "Clunky Learner UI and Restrictive Reporting, Integrations, and Staff Notifications" — 2.5/5. Specific complaints: "The user interface is an ongoing issue for learners. The restrictive nature of their reporting and integrations. Additionally, the limiting nature of notifications for staff." This is the FRESHEST review across all tracked competitors and it directly validates the reporting gap. Modern Campus holds 25% market share — the #2 player. The review also notes "improved integrations into other LMS and CRM systems" in the benefits section, suggesting Modern Campus is investing in integrations but still can't deliver adequate reporting.
+- **Why DFVA:** This is the most current validation that DFVA is building what the market needs. A March 2026 enterprise user at a Modern Campus institution explicitly wants better reporting and analytics — and Modern Campus can't deliver. The complaint spans UI, reporting, integrations, AND notifications — it's a holistic experience gap, not just a missing feature. DFVA's positioning as an independent analytics layer that sits alongside Modern Campus is directly validated.
+
+### Signal: Lightcast's Data Freshness Problem — Consistent Across G2 and Gartner Since 2024
+- **Source:** G2 (Nov 2023 — "BLS data skews reports towards outdated data"), Gartner (Nov 2024 — "data is typically a few years behind"), cross-referenced with June 2026 research-loop reviews signal
+- **Score:** 8
+- **Type:** competitor_weakness
+- **Detail:** The Lightcast data freshness complaint persists across review platforms and years. G2 reviewer (Nov 2023): "Lightcast relies heavily on BLS data for its wage curves & talent supply by compensation reports which can drastically skew the reports towards outdated data." Gartner reviewers (Sep-Nov 2024): "data is typically a few years behind," "data is not up to date." The complaint is not about methodology but about source data latency — government-sourced BLS data lags structurally. Even the G2 AI-generated summary (from 30 reviews) notes: "some users note a desire for more detailed local data." Lightcast's knowledge base and support are consistently praised, but the data freshness issue is unsolved. Lightcast named to TIME's Top WorkTech Companies 2026 — brand strength is growing despite data staleness complaints.
+- **Why DFVA:** Confirms the market gap for fresher, supplementary data sources. DFVA's approach (real-time job postings, AI-synthesized demand signals, graduate outcome tracking) directly addresses Lightcast's structural limitation. The pricing complaint (Gartner: "licenses can get expensive") + data freshness = two-pronged differentiation opportunity. Also notable: Lightcast's strong reviews (4.6 G2, 4.3 Gartner) and growing brand recognition (TIME 2026) mean DFVA must move quickly — the window for a fresher alternative is open but Lightcast's brand is strengthening.
+
+### Signal: Review Scarcity as Market Failure — No Competitor Has Meaningful Independent Assessment
+- **Source:** Cross-platform review counts: Coursedog 4 reviews, CourseLeaf 4, CourseLoop 1, Lightcast 30, Modern Campus 17
+- **Score:** 7
+- **Type:** market_gap
+- **Detail:** The curriculum management category suffers from extreme review scarcity. Coursedog (14% market share): only 4 G2 reviews, zero Gartner. CourseLeaf (29% market share): 4 G2 reviews, 2 Gartner. CourseLoop: 1 Gartner review. Modern Campus: 17 G2 reviews but spread across a multi-product suite (CMS, catalog, curriculum, scheduling). RFP.wiki notes for multiple vendors: "sparse public review volume makes peer benchmarking harder." The contrast with Lightcast (30 G2 reviews, 3 Gartner) is stark — LMI data is more review-able because it's used across industries, while curriculum management is an education-only niche. This means NO independent third party provides reliable comparative assessment of curriculum platforms.
+- **Why DFVA:** DFVA could position as the independent assessment standard the market lacks — not just scoring degree programs, but providing the transparent, data-driven evaluation of programs/curriculum that review sites can't deliver. The review scarcity is a structural market failure that DFVA's methodology-driven assessment model fills. Also: the low review volume means buyer decisions are made on vendor demos and references, not independent data — creating an opening for a data-driven assessment tool.
+
+### Signal: RFP.wiki Sentiment Analysis Validates DFVA's Complementary Positioning
+- **Source:** RFP.wiki cross-vendor sentiment analysis (Coursedog 4.6, Modern Campus 4.1, CourseLeaf 3.5, CourseLoop ~3.0)
+- **Score:** 6
+- **Type:** market_data
+- **Detail:** RFP.wiki has emerged as a structured, feature-scored review source for the curriculum management category. Their methodology scores features on a 1-5 scale with pros/cons, providing more granular competitive intelligence than G2/Gartner. Coursedog leads on features (4.6) but has the lowest review confidence (37%). Modern Campus leads on review confidence (66%) and has the broadest review footprint across platforms. CourseLeaf has the strongest features-to-satisfaction gap. RFP.wiki's evaluation criteria (curriculum workflow, catalog publication, SIS integration, learning outcomes, reporting/audit) closely maps to DFVA's assessment dimensions — confirming the market is thinking about these problems the same way.
+- **Why DFVA:** RFP.wiki's structured analysis validates DFVA's dimension-based assessment model. The market is moving toward structured, criteria-based evaluation of curriculum tools — exactly what DFVA does for degree programs. Also: RFP.wiki is a potential competitive intelligence source for future research cycles — their vendor pages are more accessible than G2/Gartner (no login wall for basic data) and provide features-level scoring.
+
+---
+
+## [2026-07-23] Research: reviews
+
+### Signal: CourseLeaf's G2 Crisis — 2.4/5 Market Leader Confirms Analytics Void
+- **Source:** G2 (4 reviews, 2.4/5 — 50% 1-star, 50% 4-star, zero 5-star), Gartner Peer Insights (2 reviews, 2.5/5 avg), RFP.wiki (3.5/5, features score 4.3 vs satisfaction 2.5 — widest gap in market)
+- **Score:** 9
+- **Type:** competitor_weakness / market_validation
+- **Detail:** CourseLeaf, the 29% market share leader, holds the worst G2 score of all tracked competitors (2.4 vs Coursedog 4.9, Modern Campus 3.6). The gap between feature claims (RFP.wiki 4.3) and user satisfaction (G2 2.4) is the widest in the market — a 1.9-point delta. Specific complaints: "steep learning curve" and "cumbersome onboarding" (Jan 2024, 1/5), "character count limitations are the bane of users" (Sep 2019, 4/5), "like any system, it can be a bit inflexible" (Aug 2021, 3.5/5), "cannot edit multiple sections at once" (Jan 2022, 1/5). Gartner reviewers cite "rigid workflow paths and unintuitive syllabus reuse between academic terms." RFP.wiki flags "integration friction that slows daily curriculum and catalog maintenance tasks."
+- **Why DFVA:** CourseLeaf's customer pain is DFVA's positioning validation. The market leader can't deliver analytics (confirmed) AND has workflow rigidity issues (new finding). DFVA's complementary positioning — sit alongside CourseLeaf as an independent analytics/scoring layer without replacing workflow — is reinforced. A CourseLeaf institution that wants analytics can't get it from CourseLeaf; DFVA fills that gap.
+
+### Signal: Universal Reporting/Analytics Gap Confirmed Across All 5 Competitors
+- **Source:** G2, Gartner Peer Insights, RFP.wiki — cross-platform analysis across all 5 DFVA competitors
+- **Score:** 9
+- **Type:** market_gap / market_validation
+- **Detail:** Every single tracked competitor has explicit user complaints about reporting/analytics. Coursedog: RFP.wiki flags "advanced cross-module analytics are lighter than dedicated BI platforms." CourseLeaf: Gartner reviewer (Feb 2025, 3.0/5) — "weak report generation options prevent us from making good use of our curriculum data." Modern Campus: Most recent review (March 2026, 2.5/5) — "restrictive nature of their reporting and integrations," RFP.wiki notes "reporting and analytics are adequate for standard registrar use but not best-in-class." CourseLoop/TechnologyOne: sole Gartner reviewer (Feb 2025, 3.0/5) — "basic reporting tools create a major problem." Lightcast: G2 review (Nov 2023) — "at first it is a little tough to understand which reports to pull." Confirmed across ALL 5 competitors across multiple review platforms, 2019-2026. Structural, not anecdotal.
+- **Why DFVA:** This is the most important finding. The reporting/analytics gap is universal — it's the category's defining deficiency. No curriculum platform or LMI vendor delivers adequate analytics. DFVA's core value proposition (scoring dashboards, 11-dimension assessment, independent analytics layer) is directly validated.
+
+### Signal: Modern Campus's "Restrictive Reporting" — March 2026 Enterprise Review
+- **Source:** G2 (March 12, 2026 — most recent review across all competitors)
+- **Score:** 8
+- **Type:** competitor_weakness / pain_point
+- **Detail:** Enterprise (>1000 emp.) verified user, March 2026: "Clunky Learner UI and Restrictive Reporting, Integrations, and Staff Notifications" — 2.5/5. Specific complaints: "The user interface is an ongoing issue for learners. The restrictive nature of their reporting and integrations. Additionally, the limiting nature of notifications for staff." This is the FRESHEST review across all tracked competitors. Modern Campus holds 25% market share. The review also notes "improved integrations into other LMS and CRM systems," suggesting Modern Campus is investing in integrations but still can't deliver adequate reporting.
+- **Why DFVA:** The most current validation that DFVA is building what the market needs. A March 2026 enterprise user at a Modern Campus institution explicitly wants better reporting and analytics — and Modern Campus can't deliver. DFVA's positioning as an independent analytics layer sits alongside Modern Campus cleanly.
+
+### Signal: Lightcast's Data Freshness Problem — Consistent Across G2 and Gartner
+- **Source:** G2 (Nov 2023 — "BLS data skews reports towards outdated data"), Gartner (Nov 2024 — "data is typically a few years behind"), cross-referenced with June 2026 research-loop signal
+- **Score:** 8
+- **Type:** competitor_weakness
+- **Detail:** Lightcast data freshness complaint persists across review platforms and years. G2 reviewer (Nov 2023): "Lightcast relies heavily on BLS data for its wage curves & talent supply by compensation reports which can drastically skew the reports towards outdated data." Even the G2 AI-generated summary (from 30 reviews) notes: "some users note a desire for more detailed local data." Lightcast named to TIME's Top WorkTech Companies 2026 — brand strength is growing despite data staleness complaints. SOC code system also flagged: "often flawed" for hyper-specific jobs.
+- **Why DFVA:** Confirms market gap for fresher, supplementary data sources. DFVA's approach (real-time job postings, AI-synthesized demand signals) directly addresses Lightcast's structural limitation. Pricing + data freshness = two-pronged differentiation. Lightcast's brand is strengthening (TIME 2026) — the window is open but closing.
+
+### Signal: Review Scarcity as Market Failure — No Competitor Has Meaningful Independent Assessment
+- **Source:** Cross-platform review counts: Coursedog 4 reviews, CourseLeaf 4, CourseLoop 1, Lightcast 30, Modern Campus 17
+- **Score:** 7
+- **Type:** market_gap
+- **Detail:** The curriculum management category suffers from extreme review scarcity. Coursedog: 4 G2 reviews, zero Gartner. CourseLeaf: 4 G2, 2 Gartner. CourseLoop: 1 Gartner. Modern Campus: 17 G2 but spread across multi-product suite. RFP.wiki notes for multiple vendors: "sparse public review volume makes peer benchmarking harder." Lightcast (30 G2, 3 Gartner) contrasts sharply — LMI is cross-industry, curriculum management is education-only. No independent third party provides reliable comparative assessment.
+- **Why DFVA:** DFVA could position as the independent assessment standard — not just scoring degree programs, but providing the transparent, data-driven evaluation that review sites can't deliver. The review scarcity is a structural market failure that DFVA's methodology-driven assessment model fills.
+
+### Signal: RFP.wiki Validates DFVA's Structured Assessment Model
+- **Source:** RFP.wiki cross-vendor sentiment analysis (Coursedog 4.6, Modern Campus 4.1, CourseLeaf 3.5, CourseLoop ~3.0)
+- **Score:** 6
+- **Type:** market_data
+- **Detail:** RFP.wiki provides structured, feature-scored analysis for the curriculum management category — scoring on dimensions like curriculum workflow, catalog publication, SIS integration, learning outcomes mapping, and reporting/audit trails. Their evaluation criteria closely map to DFVA's assessment dimensions. Coursedog leads on features (4.6) but has lowest review confidence (37%). Modern Campus leads on confidence (66%) with broadest review footprint. CourseLeaf has strongest features-to-satisfaction gap.
+- **Why DFVA:** RFP.wiki's structured analysis validates DFVA's dimension-based assessment model. The market is moving toward structured, criteria-based evaluation — exactly what DFVA does for degree programs. RFP.wiki is a potential competitive intelligence source for future research cycles.
+
+---
+
+## [2026-08-13] Research: competitor-analysis (Atomic Jolt CAT)
+
+Full analysis: `content/competitors/atomic-jolt-cat.md`
+
+### Signal: Atomic Jolt CAT Ships Normative Recommendations Against an Invisible Standard
+- **Source:** [EDUCAUSE Demo Day Apr 2025](https://www.youtube.com/watch?v=uvY5YY8s7gk) (Justin Ball, CTO), sales flyer PDF (~Jul 2025, product screenshots), [official user guide](https://support.atomicjolt.com/knowledgebase/atomic-cat-curriculum-analysis-tool-user-guide), product/blog pages
+- **Score:** 9
+- **Type:** competitor_weakness / positioning
+- **Detail:** Atomic CAT indexes actual LMS materials (pages, files, PPTX, PDFs, video transcripts) via Atomic Search, LLM-extracts topics per resource, clusters ~10k topics into a few hundred, and reports coverage at Course → Session → Resource grain. Ball states on camera that they *deliberately* impose no ontology and no predetermined learning objectives. But the flyer screenshot shows generated prose making normative claims — a program has a "solid foundation" and would be improved by "expanding content on long-term care and intersectional barriers." Those gap nominations cannot come from the corpus (the topics are absent by definition); they come from the model's priors. **They do not have no ontology — they have an invisible one**, relocated from a publishable rubric into opaque model weights where it cannot be inspected, cited, versioned, or tested for reliability, and where a model upgrade silently changes recommendations. Verified 2026-08-13: the official user guide documents no external reference of any kind — no job descriptions, skill models, accreditation frameworks, labour-market data, framework import, or export — despite the flyer claiming accreditation and industry-skill-model benchmarking. Three sources agree (demo, CTO Q&A denial, support docs): those claims are copywriting.
+- **Why DFVA:** This is the sharpest differentiator found to date and it generalises past Atomic Jolt to the whole class of unvalidated LLM curriculum tools. Both products now make normative claims about curricular adequacy; only DFVA can show its working (published rubric, criterion scaffolds, versioning, IRR study underway). In accreditation and governance settings, where defensibility is the product, that is the whole argument. Deliver it as a question, not an attack: *where does that recommendation come from, and can you show a review panel?* Pairs directly with the [Lyons](docs/collaborator-kayley-lyons.md) validity work — her critique lands far harder on a black box than on a published instrument.
+
+### Signal: Over-Coverage / Redundancy Detection — Feature Gap DFVA Does Not Cover
+- **Source:** EDUCAUSE demo (Ball: five courses all covering experimental design → student fatigue → candidate for curriculum reduction)
+- **Score:** 5
+- **Type:** feature_idea
+- **Detail:** Atomic CAT surfaces topics taught *redundantly* across courses in a program, framed as learning fatigue and an opportunity to cut a course from the sequence. DFVA has no equivalent — the 11-dimension rubric scores adequacy, never duplication. Genuinely actionable for a curriculum committee and a real hole in our coverage relative to theirs.
+- **Why DFVA:** **Logged, not scheduled (decision 2026-08-13).** Two reasons to hold. (1) Data grain: detecting redundancy needs course/session-level content, which is exactly what handbook prose cannot reliably give us — this is the axis where Atomic CAT wins outright and closing it implies a much larger scope change about acquiring course-level content. (2) Off-thesis: it answers a curriculum-*efficiency* question, not a *durability* question, so building it chases a competitor into their strength on something our buyer is not asking about. Revisit only if a customer raises it directly, or if we ever acquire course-level content for another reason.
+
+### Signal: Atomic Jolt Topic-Map Export as a Potential DFVA Input Bridge
+- **Source:** EDUCAUSE demo Q&A — Ball, unprompted, described a resource→keyword spreadsheet export becoming the data source for another tool, noting CAT could be a stepping stone to that
+- **Score:** 5
+- **Type:** partnership_idea
+- **Detail:** Their extraction output (resource-level topic maps grounded in actual teaching materials) is a materially better input to DFVA's curriculum-facing dimensions than handbook prose. Practical enablers: 500-project custom dev practice, 1EdTech LTI working group seat, everything LTI 1.3. An Evidura scoring panel over their extraction layer is technically unremarkable.
+- **Why DFVA:** **Logged, not scheduled (decision 2026-08-13).** The export does not appear in their user guide, so it may not have shipped; we have no customer running both tools; and the "invitation" was a CTO musing on a webinar 16 months ago, not a conversation. Building an importer against a hypothetical export for a hypothetical shared customer is speculative work. Strategic caveat if it is ever revived: consume via export/API only, never a runtime dependency — feeding on their extraction improves our curriculum dimensions but tying to their install base costs the vendor-neutral, cross-institutional independent-standard moat. Trigger to revisit: a shared customer appears, or the export shows up in their support docs.
+
+---
+
+## [2026-08-14] Internal design: privacy model for non-public curriculum upload
+
+Origin: design discussion, not external research. Question posed — what is the product solution to data privacy when an institution uploads curriculum data that is not publicly available? Answer developed as a four-tier trust ladder. Nothing below is built or scheduled.
+
+### Signal: The Privacy Objection Is IP and Politics, Not PII
+- **Source:** Internal design reasoning (2026-08-14)
+- **Score:** 8
+- **Type:** positioning
+- **Detail:** Subject guides, ILOs and assessment specs contain almost no personal information. Building a PII-shaped compliance answer (encryption at rest, a DPA, a privacy policy) therefore misses the actual objection, which has two parts. (1) **IP leakage** — an institution's unrevised internal curriculum ending up legible, directly or by inference, to a competitor inside a benchmarking product. (2) **Political risk** — a bad score surfacing inside a restructure or workload conversation before the program owner has seen it. Both are about *who can see the derived judgement*, not about data subjects.
+- **Why DFVA:** Reframes the whole privacy surface. The design target is not "protect personal data" but "the institution controls what leaves, and controls who sees the score first." Everything below follows from that.
+
+### Signal: Trust Ladder — Four Tiers From Public-Only to Private Tenant
+- **Source:** Internal design reasoning (2026-08-14)
+- **Score:** 8
+- **Type:** feature_idea
+- **Detail:** Four rungs, each removing a different objection. **Tier 0 (today):** public-only — handbook + QILT + AIOE, no upload, no account, no procurement. **Tier 1 — ephemeral assessment:** upload subject guides, score, delete the artefacts at job completion; only derived structured claims (ILO verbs, assessment type, weighting, exposure tags) persist, with evidence stored as `{sourceHash, page, span}` plus a short quote — enough to defend a score, not to reconstruct a syllabus. Raw text to a private bucket with lifecycle expiry, never to Postgres; LLM calls on a zero-retention path. **Tier 2 — local scoring** (below). **Tier 3 — private tenant:** dedicated DB in `syd`, customer IdP SSO, customer-managed key, contractual no-training / no-benchmark clause, priced. Copy line for Tier 1: *"We keep the score, not the syllabus."* Sequencing if ever built: trust page + Tier 1 first, then Tier 2.
+- **Why DFVA:** Tier 1 is mostly retention plumbing over the existing file-upload module and is what unblocks a pilot without a six-week procurement questionnaire. The ladder also lets pricing follow assurance rather than seat count.
+
+### Signal: Local Scoring — Only the Score Vector Leaves the Institution
+- **Source:** Internal design reasoning (2026-08-14)
+- **Score:** 9
+- **Type:** feature_idea / positioning
+- **Detail:** Ship the DFVA engine to run *inside* the institution's boundary — the existing `compass/mcp` server plus a `dfva score ./curriculum/` CLI — emitting a signed bundle of roughly `{programCode, scores[], evidenceHashes[], rubricVersion, engineVersion, sig}`. The institution uploads that; curriculum text never crosses the boundary. Evidura still receives comparable, versioned, verifiable scores, and rubric versioning preserves the claim that two institutions were scored on the same instrument. The answer to "what leaves our network?" becomes literally "a short vector and some hashes," which sidesteps the cross-border-disclosure (APP 8) and residency negotiation entirely for a first sale.
+- **Why DFVA:** Strongest differentiator in the set, and it falls out of the agent-first architecture nearly for free. Every tracked competitor is cloud-ingest. **Strategic cost to decide deliberately:** local scoring forfeits the raw-curriculum corpus. Judgement is that the *score* corpus is the durable asset and raw syllabi are mostly liability — but that is a business-model call, not a privacy one, and should be made explicitly rather than drifted into.
+
+### Signal: Benchmark Pool Needs Separate Consent and k-Anonymity Enforced in Code
+- **Source:** Internal design reasoning (2026-08-14)
+- **Score:** 7
+- **Type:** feature_idea
+- **Detail:** Being scored and contributing to a peer benchmark are two different decisions; bundling them poisons the well. Design: opt-in per program, revocable, with a reciprocity rule (contribute to see peer bands). Enforce **k ≥ 5** at query time — a faculty band renders only when at least five contributing programs occupy the cell — and suppress complementary cells so a difference attack cannot recover a single institution. Publish bands, never raw scores, never an institution name without separate written consent. The check belongs in the query layer in `operations.ts` with a test, not in a policy document. Companion control for the political risk: a **draft/provisional** assessment state visible only to the uploader until published to their faculty, plus an immutable "who viewed this score, when" audit log.
+- **Why DFVA:** The draft state is the cheap unlock — institutions accept an uncomfortable number far more readily when they control who sees it first. The k-anonymity guard is also the thing that makes a cross-institutional benchmark defensible enough to be worth joining, which is the precondition for the independent-standard position (H2).
+
+---
+
+## [2026-08-14] Research: competitor privacy posture (curriculum data handling)
+
+Question: how do tracked competitors handle non-public curriculum data? Primary sources only — vendor security pages, privacy policies, terms of service, G-Cloud service definitions. **Caveat carried through all five signals:** public policies are not the MSA. Coursedog says so explicitly, so "no public commitment" means "not verifiable from outside," not "no commitment."
+
+### Signal: Lightcast ToS §4.2 Takes a Benchmark Licence Over Customer Data With No De-identification and No Opt-Out
+- **Source:** [Lightcast General Terms of Service §4.2](https://legal.lightcast.io/lightcast-legal/general-terms-of-service)
+- **Score:** 9
+- **Type:** competitor_weakness / positioning
+- **Detail:** Verbatim: "Customer authorizes Lightcast to use Customer Data (a) to compile usage and performance information related to the Services, (b) to operate, improve, and support the Services, (c) to develop and publish benchmarks and similar reports, and (d) to the extent necessary to deliver the Services." The document carries no de-identification or aggregation requirement attached to that licence, no minimum-cell threshold, and no opt-out. The only restriction is non-disclosure to third parties "except in accordance with its Privacy Policy or with Customer's express written consent" — which does not constrain Lightcast's own published benchmarks. Compare Atomic Jolt, which at least scopes its reuse: "Atomic Jolt uses only de-identified and aggregated data for its own purposes," though it then adds "We may also share de-identified and aggregated data with others for their own uses" with no threshold or consent gate either.
+- **Why DFVA:** This is the citable contrast for the [2026-08-14] benchmark-consent design. The objection an institution raises about contributing data has a named, quotable precedent in the category's biggest LMI vendor. Opt-in per program, revocable, k ≥ 5 enforced at query time, bands not raw scores — every one of those is a direct answer to a clause a customer can read for themselves. Use it as a question in the room, not an attack: *what does your current data provider's §4 let them publish?*
+
+### Signal: Nobody in Curriculum Management Publicly Addresses AI Training on Curriculum Content
+- **Source:** [Atomic Jolt security](https://www.atomicjolt.com/security) + [privacy policy](https://www.atomicjolt.com/privacy), [Coursedog privacy policy](https://www.coursedog.com/privacy-policy), [Modern Campus privacy policy](https://moderncampus.com/about/privacy-policy)
+- **Score:** 8
+- **Type:** market_gap
+- **Detail:** Checked every tracked vendor's public policy for a statement on whether customer curriculum content trains models. **None has one.** Atomic Jolt is the sharpest case: strongest public security posture in the set (SOC 2 Type 2 since 2022, annually re-audited; TX-RAMP Level 1 for Atomic Search through 2027; AWS-only; HECVAT-aligned; DOD 5220.22-M deletion; FERPA 30-day return-or-delete on termination) — and yet no AI-training clause anywhere, despite Atomic CAT running LLM extraction over actual LMS pages, files, PPTX, PDFs and video transcripts. Coursedog's privacy policy explicitly carves institutional data out of scope: data processed "on behalf of our institutional customers... is governed by our agreements with those institutions" — so the real terms are private, and the public policy names no certifications, US hosting only. Modern Campus's is a website policy: no institutional-data clauses, no retention periods, no residency, though SOC 2 / PCI-DSS / FERPA / FIPPA / GDPR are claimed elsewhere.
+- **Why DFVA:** The gap is wide open and it is the exact question a 2026 procurement office now asks first. A published, specific AI-data commitment is cheap for us and awkward for an incumbent to retrofit — particularly one whose product depends on sending course materials to a model. Pairs with the existing [2026-08-13] Atomic Jolt "invisible ontology" signal: same vendor, same shape of problem — the thing that matters is undocumented.
+
+### Signal: HECVAT 4 Added AI Governance — the Trust Page Has a Standard Form Now
+- **Source:** [EDUCAUSE HECVAT](https://www.educause.edu/higher-education-community-vendor-assessment-toolkit), [Isora GRC HECVAT 4 guide](https://www.saltycloud.com/blog/hecvat-updates/)
+- **Score:** 8
+- **Type:** market_data
+- **Detail:** HECVAT is the shared security/privacy questionnaire US and increasingly international institutions use to assess edtech vendors, built by EDUCAUSE with Internet2 and REN-ISAC. HECVAT 4 (v4.1.5, Feb 2025) was the largest revision since 2016 and folded **AI governance in as a conditional assessment domain** alongside security, privacy and accessibility — not a separate addendum. EDUCAUSE lists v4.1.6 as current as of 22 July 2026. Atomic Jolt states HECVAT alignment; nobody else in the tracked set advertises a completed HECVAT publicly.
+- **Why DFVA:** Reframes the trust-page work from marketing to procurement plumbing — a completed HECVAT 4 is the ticket to the conversation, and it converts a multi-week questionnaire into a link. The AI-governance domain is new enough that incumbent answers are likely thin, which makes it the section to over-invest in. Do this before the trust page, not after; the page should be the readable front end of the HECVAT answers.
+
+### Signal: Single-Tenancy Is Available (Akari) but Residency and Deletion Are Not
+- **Source:** [Akari Curriculum G-Cloud 14 Service Definition](https://assets.applytosupply.digitalmarketplace.service.gov.uk/g-cloud-14/documents/709676/392409189737101-service-definition-document-2024-05-07-0934.pdf) (§4.1, §8.1, §11)
+- **Score:** 7
+- **Type:** competitor_weakness
+- **Detail:** Akari is the closest existing analogue to the proposed Tier 3: "Akari Curriculum Management is a web-based Software as a Service (SaaS) Single-Tenancy solution, fully hosted by Akari within the AWS cloud environment in the Europe (London) eu-west2 region." Complete application and data isolation per customer, SSO via Shibboleth/SAML2.0/Azure/ADFS, role-based access plus configurable Teams. But: **one region only, London**, despite Akari selling into Australia, New Zealand, Asia and the Middle East — so an AU customer's curriculum sits in the UK. And offboarding is a single sentence — a plan "which would involve extraction of all customer data and completion of any outstanding services" — with no deletion commitment, no timeline, no certificate. AI appears only inside the optional BI module, which "leverages AI and ML to suggest insights and identify data trends," with no data-handling statement attached.
+- **Why DFVA:** Two lessons. (1) Single-tenancy is a proven, saleable shape in this category — Tier 3 is not exotic. (2) The gaps are where to differentiate: an AU region and a hard deletion SLA with a certificate cost little and are absent from the incumbent's own G-Cloud filing, which is a document written specifically to win government procurement.
+
+### Signal: Sovereignty Is TechnologyOne's Moat, and Local Scoring Is Nobody's
+- **Source:** [TechnologyOne IRAP](https://www.technologyonecorp.co.nz/saas/security-and-trust/certifications/irap) and [security](https://www.technology1.com/saas-plus/security) (both 403 to direct fetch — rests on search snippets, **confidence: medium**); [EdTech Magazine, Jan 2026](https://edtechmagazine.com/higher/article/2026/01/ai-higher-education-protecting-student-data-privacy-perfcon)
+- **Score:** 7
+- **Type:** competitor_strength / feature_idea
+- **Detail:** TechnologyOne (CourseLoop's owner) claims IRAP assessment up to and including PROTECTED and states it is the only enterprise software solution worldwide to hold it, with Australian data centres. For an AU university procurement that beats every other vendor in the set outright, and it is the one axis where DFVA starts behind. Separately: **no tracked vendor offers in-boundary or local scoring** — all are cloud-ingest. The only "data never leaves" examples found are institutions building it themselves, e.g. the University of Montana standing up a university-owned data centre running enterprise models so that data stays in the university system and trains nothing.
+- **Why DFVA:** Confirms the Tier 2 local-scoring idea is unoccupied, and the Montana example shows the demand is real enough that a university paid for its own data centre to get it. Also sets the honest ceiling: we will not out-certify TechnologyOne on IRAP any time soon, so the sovereignty answer has to be architectural (nothing sensitive crosses the boundary) rather than certificatory (we hold the same badge). That is a cheaper answer and a stronger one, but only if the engine genuinely runs on their side.
+
+---
+
+## [2026-08-14] Decision: privacy posture — recommended sequence
+
+Synthesis of the two sections above (internal design + competitor privacy research). **Recommended, not committed.** Nothing here is scheduled or built.
+
+**Core position:** compete on what the whole category leaves undocumented — publish a specific, checkable commitment about what happens to curriculum content — and make the sovereignty answer *architectural* (nothing sensitive crosses the boundary) rather than *certificatory* (we hold the same badge). We will not out-certify TechnologyOne's IRAP PROTECTED on any near horizon, so do not try.
+
+**Order changed from the first pass:** HECVAT 4 comes *before* the trust page, and the published AI-data commitment comes before building any tier. The trust page is the readable front end of the HECVAT answers, not a separate artefact.
+
+| When | Do | Why |
+| --- | --- | --- |
+| Weeks 0–6 | HECVAT 4 (v4.1.6) + published AI-data commitment + trust page + 30-day deletion SLA with certificate | The category gap; unblocks procurement. Over-invest in the AI-governance domain (added Feb 2025, incumbent answers likely thin). Deletion SLA beats Akari's extraction-only offboarding clause for near-zero cost. |
+| Weeks 4–10 | Tier 1 ephemeral upload | Unblocks a pilot; mostly retention plumbing over the existing file-upload module |
+| Q4 2026 | ADM / privacy-impact position documented | Australian ADM transparency rules commence **10–11 Dec 2026** |
+| Q4–Q1 | Tier 2 local scoring bundle | The moat; the architectural answer to TechnologyOne |
+| Once contributors exist | Benchmark consent + k ≥ 5 guard in the query layer | Meaningless earlier, dangerous if rushed |
+
+**The AI-data commitment, draft wording to verify before publishing:** curriculum content is never used to train any model, ours or a third party's; sent only to a zero-retention inference endpoint; deleted within 24h of assessment completion; we retain scores and short evidence citations, not documents. Every clause is checkable and no tracked competitor publishes an equivalent. **Blocker:** confirm the zero-retention contractual terms with the LLM provider before this goes live — it is the sentence most likely to be tested by a university's legal team.
+
+**ADM read (needs legal confirmation):** the December 2026 rules attach to *personal information* feeding decisions that significantly affect *a person's* rights. DFVA scores programs, not people, so they probably do not bite. But customers will ask, and there is an obvious second-order argument (a durability score feeding a restructure). Take a written position before December: programs not individuals, scores advisory to human governance, human review path exists. Cheap now, awkward if asked cold. Pair with an OAIC-style privacy impact assessment — AU universities recognise the framing and it doubles as HECVAT evidence.
+
+**Explicitly not doing:** IRAP or ISO 27001 chase (expensive, slow, largely moot once Tier 2 exists — SOC 2 Type 2 later, when a contract requires it); bundling benchmark consent into onboarding; claiming anything not yet built (the opening here is incumbent *opacity* — vagueness forfeits it); asserting competitors misuse data (their public policies are not their MSAs — the honest, stronger claim is that theirs is not verifiable from outside and ours is).
