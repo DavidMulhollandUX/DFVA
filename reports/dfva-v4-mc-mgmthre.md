@@ -2,7 +2,7 @@
 
 **Instrument:** DFVA 4.1-draft — Panel C v4.1 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
 **Assessment date:** 2026-08-14
-**Handbook vintage:** 2026 · **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-mgmthre (course, attributes, structure) plus 11 compulsory-subject assessment pages, 5 subject overview pages, and the Business Practicum and HR Consulting capstone selectives — 22 pages, 13 carrying assessment tables
+**Handbook vintage:** 2026 · **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-mgmthre (course, attributes, structure) plus the overview and assessment pages of all 11 compulsory subjects and of 5 capstone-selective and elective subjects — 35 pages, 16 carrying assessment tables
 **Program Director:** Dr Andi Pekarek (Faculty of Business and Economics)
 
 > **Draft-instrument notice.** Panel C v4.1 is a working-draft instrument
@@ -11,39 +11,67 @@
 > Neither sub-score is comparable with any v3.1 value, and no position label is
 > reported until v4 portfolio medians exist.
 
-> **This program is outside the assessed portfolio.** MC-MGMTHRE is not in the v3.1
-> registry, has no DFVA alumni-destination record, and has no market intelligence
-> report. It therefore has **no exposure value and no market evidence section** —
-> §4 below states that rather than filling it. This is a Panel C assessment only:
-> half of the DFVA position, scored on documented curriculum, with the other half
-> absent.
+> **This program is outside the v3.1 registry, but not outside Panel A.** MC-MGMTHRE
+> has never been assessed on v3.1, so it has no adaptiveness score on the published
+> instrument. It does, however, have its own exact-name alumni destination record, and
+> exposure does not depend on the scoring instrument — so §1 reports a measured
+> exposure computed by the identical Panel A procedure. What it still lacks is a
+> market intelligence report; §4 states that rather than filling it.
 
-## 1. POSITION — Basis: scored
+> **Correction, 2026-08-14.** An earlier version of this report stated that no alumni
+> destination record existed. That was wrong: the check was run against
+> `data/labour-evidence.json` (41 programs) rather than `data/jir_data.json` (141
+> records), which does contain this program. Thirteen of its fifteen destination titles
+> were unmapped in the shared crosswalk, which is why the record produced nothing on the
+> first pass; twelve have since been mapped and committed.
 
-**Destination AI Exposure: not available.** Panel A requires an alumni-destination
-record crosswalked to the Felten AIOE index. No such record exists for this program —
-it is not in the reference or extension cohort — so no exposure value is computed and
-none is estimated from a related program.
+## 1. POSITION — Basis: measured × scored
+
+**Destination AI Exposure: 94.14.** Measured on the program's own exact-name alumni
+destination record (n = 28, 15 destination titles across three career stages),
+crosswalked to the published Felten AIOE index and rescaled 0–100 by the identical
+Panel A procedure used for every other program (v3.1 portfolio median 90.9;
+entry-stage mean 91.75). All 15 titles are mapped: 12 were added to the shared
+crosswalk for this assessment, 3 of the 15 at medium mapping confidence.
+
+This is **above the portfolio median**, and the destination set is why: eleven of the
+fifteen titles map to HR specialist, recruitment or HR-assistant occupations, which
+sit at 95–96 on the index — among the most exposed occupations Felten et al. score.
+The single destination well below the mean is Volunteer Coordinator (74.69). This is a
+program whose graduates go almost uniformly into highly exposed work.
 
 **Curriculum Adaptiveness: 8 / 15.** Scored on Panel C v4.1 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026
 handbook evidence: anchors are declarative statements about documented curriculum
 evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the
 lower level.
 
-**Workplace Practice: 6 / 9.** Scored on Panel C v4.1 sub-scale W [[19]](https://www.legislation.gov.au/F2021L00488)[[20]](https://www.qilt.edu.au/surveys/employer-satisfaction-survey-%28ess%29) from the same
+**Workplace Practice: 4 / 9.** Scored on Panel C v4.1 sub-scale W [[19]](https://www.legislation.gov.au/F2021L00488)[[20]](https://www.qilt.edu.au/surveys/employer-satisfaction-survey-%28ess%29) from the same
 evidence and rules, plus R4 [[24]](https://doi.org/10.1080/02602938.2024.2404634). **The two sub-scores are reported side by side and
 are not added.**
 
-**Position label: not reported** — twice over. There is no exposure value to place this
-program on the x-axis, and no v4 portfolio median to place it on the y-axis.
+**Position label: not reported.** Both coordinates now exist, but a position states
+where a program sits relative to its peers, and that needs a v4 adaptiveness median —
+which will not exist until the reference cohort is fully re-scored. Placing this
+program against the v3.1 median would rank a v4.1 score against a different
+instrument. The label is withheld rather than estimated.
 
-**What the two sub-scores say together.** This is the first program scored on v4.1 whose
-workplace sub-score exceeds what its adaptive sub-score would predict. Its assessed
-curriculum is dense with the things any workplace requires — group work in every
-compulsory subject, an assessed competence-development cycle, a consulting report, a
-practicum route — and comparatively thin on the capabilities that distinguish durable
-work as AI absorbs routine analysis. Under the v4.0 instrument that pattern was
-invisible; the program would have read simply as 8/15.
+**What the two sub-scores say together.** Both sub-scores sit below their mid-points, and
+they are low for related reasons. The assessed core is built on case studies, scenarios
+and role plays, but the artefacts it collects are word-counted assignments and an
+end-of-semester examination weighted at 50% in almost every compulsory subject. That
+design limits the adaptive sub-score, because evaluative judgement and inquiry need
+assessed work that examinations do not collect, and it limits the workplace sub-score,
+because a scenario framing is not the same as a task carrying a constraint of practice.
+The program's genuine workplace subjects — a practicum, a global practicum and a
+90-hour supervised internship — are real, but every one of them is optional, so no
+student is required to encounter them.
+
+This report supersedes an earlier version scored on an incomplete extract, which
+recorded the workplace sub-score as 6/9. Thirteen handbook pages had been wrongly
+excluded during capture; with the full capstone-selective structure visible, W2 and W3
+both fall to 1. The correction is not a matter of added evidence but of falsified
+evidence: the missing pages had concealed how much of the workplace provision is
+optional. Section 6 sets out the item-level detail.
 
 ## 2. PANEL C v4.1 SCORECARD — Basis: scored
 
@@ -56,9 +84,9 @@ invisible; the program would have read simply as 8/15.
 | C5 Inquiry & evidence generation [14][15][[7]](https://doi.org/10.1016/j.techfore.2016.08.019) | 1 | Analytical-methods teaching in the core, but no assessed inquiry with methodology selection and data collection |
 | **Adaptive capabilities** | **8 / 15** | |
 | W1 Professional communication & conduct [[19]](https://www.legislation.gov.au/F2021L00488)[[20]](https://www.qilt.edu.au/surveys/employer-satisfaction-survey-%28ess%29)[[21]](https://www.dewr.gov.au/skills-information-training-providers/resources/core-skills-work-developmental-framework)[[31]](https://www.naceweb.org/career-readiness/competencies/career-readiness-defined)[[5]](https://doi.org/10.1093/qje/qjx022)[[32]](https://doi.org/10.1086/504455) | 2 | A compulsory group consulting report is a professional genre; no core assessment reaches an audience beyond the teaching team |
-| W2 Authentic task design [[22]](https://doi.org/10.1007/BF02504676)[[23]](https://doi.org/10.1080/02602938.2017.1412396)[[25]](https://doi.org/10.1016/j.stueduc.2021.101030)[26][[24]](https://doi.org/10.1080/02602938.2024.2404634) | 2 | Practitioner artefacts exist in two compulsory subjects; exams of 40–50% dominate nine of eleven, and no required task carries a practice constraint |
-| W3 Work-situated learning [[19]](https://www.legislation.gov.au/F2021L00488)[27][[29]](https://doi.org/10.1080/07294360.2016.1139551)[[28]](https://doi.org/10.1007/s10734-017-0216-z)[[30]](https://www.education.gov.au/australian-universities-accord/resources/final-report) | 2 | A genuine host-company practicum sits in the required capstone band, but three of the six selectives are classroom subjects |
-| **Workplace practice** | **6 / 9** | |
+| W2 Authentic task design [[22]](https://doi.org/10.1007/BF02504676)[[23]](https://doi.org/10.1080/02602938.2017.1412396)[[25]](https://doi.org/10.1016/j.stueduc.2021.101030)[26][[24]](https://doi.org/10.1080/02602938.2024.2404634) | 1 | Case studies and role plays are documented across the core, but the artefacts assessed are word-counted assignments and a 50% examination; no required task supplies an external problem or criteria drawn from practice |
+| W3 Work-situated learning [[19]](https://www.legislation.gov.au/F2021L00488)[27][[29]](https://doi.org/10.1080/07294360.2016.1139551)[[28]](https://doi.org/10.1007/s10734-017-0216-z)[[30]](https://www.education.gov.au/australian-universities-accord/resources/final-report) | 1 | Three genuine work-situated subjects exist, all of them optional; a student can complete the 200-point program without entering a workplace |
+| **Workplace practice** | **4 / 9** | |
 
 **Program shape.** 200 credit points, 16 subjects: 137.5 points compulsory across a
 staged sequence (*"Foundation subjects (50 points)"* in semester 1, *"Students must
@@ -190,29 +218,37 @@ range of stakeholders"* earned nothing: they are outcome statements, and Barrie'
 that institutions assert graduate attributes without measuring them [33] is the reason R2
 binds hardest on this item.
 
-### W2 — Authentic task design: 2/3
+### W2 — Authentic task design: 1/3
 
-Level 2 is met: the consulting report reproduces an HR consulting task end to end and
-produces the practitioner's artefact [[22]](https://doi.org/10.1007/BF02504676), and the capstone requires recommendations
-developed from real cases.
+Level 1 describes the core precisely: contextualised or scenario-framed tasks appear, but
+the artefact produced and the criteria applied remain academic. Scenarios, role plays and
+case studies are documented across MGMT90140, MGMT90015, MGMT90016, MGMT90141 and the
+MGMT90010 capstone — the program undertakes to *"Develop key competencies through
+practice-oriented activities such as scenarios, role plays, team activities, video
+presentations, reflective exercises"* — and MGMT90141 introduces *"conceptual foundations,
+practical tools, and case studies"*. What those activities collect, however, is an
+*"Individual assignment, 2000 words"* and an *"End of semester examination, 2 hours"*.
 
-Level 3 needs both limbs and fails both. The **spine** limb: authentic artefacts are two
-instances, not the program's assessment spine — an end-of-semester examination worth
-40–50% appears in nine of the eleven compulsory subjects, and the dominant non-exam form
-is the academic group assignment. The **practice-constraint** limb: no compulsory
-assessment carries an externally supplied problem, real resource limits or a consequential
-audience. Those constraints exist in the program — BUSA90473 supplies a host company and
-hurdle *"In-company training tasks"* — but only for the students who choose it.
+Level 2 requires all three limbs together: a real or realistic problem, the artefact a
+practitioner would produce, **and** criteria drawn from practice. The MGMT90016 group
+consulting report is the one practitioner-shaped artefact in the core, but the handbook
+documents no external or ambiguous problem behind it and no criteria drawn from practice
+for marking it. Under one-construct-one-home that report is scored once, as a professional
+genre, in W1. Level 3 is further out of reach still: it asks for such tasks as the
+assessment *spine*, and an examination weighted at 40–50% appears in nine of the eleven
+compulsory subjects.
+
+Genuine practice constraints do exist in the program — BUSA90473 supplies a host company
+and hurdle *"In-company training tasks"* — but only for the students who choose it, and
+that subject is scored in W3.
 
 Rule R4 did work here. The Business Practicum description offers *"resolving real-world
 business issues"* and MGMT90280 offers *"real word business problems"*. Neither phrase
 scored anything; only documented task features did [[24]](https://doi.org/10.1080/02602938.2024.2404634).
 
-### W3 — Work-situated learning: 2/3
+### W3 — Work-situated learning: 1/3
 
-The same structural pattern as the Master of Public Health, and it resolves the same way.
-
-Work-situated learning of real quality sits inside the required capstone band. BUSA90473
+Work-situated learning of real quality exists in this program. BUSA90473
 Business Practicum places student teams with a host organisation off campus, with both an
 academic mentor and the host in the supervision loop — students must *"communicate
 progress and check direction with team members, academic mentor and the practicum
@@ -220,12 +256,24 @@ organisation"* — with hurdle in-company training, a presentation to the host c
 360-degree feedback. BUSA90485 Global Business Practicum and BUSA90525 Business and
 Economics Internship sit alongside it. On depth, this is level-3 material.
 
-Level 3 requires the work-situated learning to be *required*, and it is not. The capstone
-band offers six selectives, of which three are workplace-based; the others are classroom
-subjects. MGMT90017 HR Consulting — the closest classroom substitute — assesses an
-individual assignment, a group assignment, a *"Group presentation: 15 minutes presentation
-plus 5 minute question time"* and a 50% examination, with no external host anywhere in it.
-A student may complete this degree with no work-situated learning at all. Resolved down.
+Level 1's anchor is nonetheless the one that fits: work-situated learning exists here only
+as an option. All three subjects sit in the capstone-selective list or the elective list.
+The capstone slot is a choice among six, of which HR Consulting, HR Analytics and Design
+Innovation and Leadership involve no workplace at all, and the research option replaces
+the coursework capstone entirely. MGMT90017 HR Consulting — the closest classroom
+substitute — assesses an individual assignment, a group assignment, a *"Group
+presentation: 15 minutes presentation plus 5 minute question time"* and a 50% examination,
+with no external host anywhere in it. A student can therefore complete the whole
+200-point program without ever entering a workplace.
+
+Level 2 requires a *core* unit to place students in a real workplace under practitioner
+supervision, and no core subject does. The item straddled 1 and 2, because a
+required-choice capstone slot is stronger than a free elective; it resolves down under the
+never-resolve-upward rule.
+
+This is the item the earlier, incomplete extract got wrong. With only part of the capstone
+band captured, the practicum appeared to sit in a required band and the item was scored 2.
+The full structure shows the choice, and the score falls.
 
 ## 3. GATES — Basis: scored
 
@@ -242,19 +290,50 @@ A student may complete this degree with no work-situated learning at all. Resolv
   from an analytical perspective"* weighing *"the power and limitations"* of the
   techniques used. [16]
 
-## 4. MARKET EVIDENCE — Basis: not available
+## 4. MARKET EVIDENCE — Basis: measured (destinations only)
 
-**There is no market intelligence report for this program**, and no alumni-destination
-record from which job families or exposure values could be derived. This section is left
-empty rather than populated from a related program: substituting a generic HR or business
-market profile would present inference as observation, which is the distinction every
-`Basis:` tag in this report exists to preserve.
+**There is no market intelligence report for this program.** What exists is its alumni
+destination record, which is where exposure comes from — so this section reports the
+destinations and their exposure values and stops there. Job families, hiring signals and
+skill shifts are the market report's work and are not inferred here.
 
-What follows from the absence is a limit on what the rest of the report can claim. Section
-5 argues from scored curriculum evidence alone. It cannot say which gaps the market is
-pricing, which is normally half the argument for prioritising one intervention over
-another. Commissioning `reports/dfva-market-mc-mgmthre.md` is the precondition for a
-defensible improvement plan.
+**Destinations** (JIR/LiveAlumni exact-name record, n = 28; AIOE via the published Felten
+index, rescaled 0–100).
+
+| Career stage | Destination title | Exposure |
+|---|---|---|
+| Entry | Human Capital Graduate Consultant | 96.01 |
+| Entry | Human Resources Administrator | 95.84 |
+| Entry | Human Resources Assistant | 95.84 |
+| Entry | Recruitment Administrator | 95.84 |
+| Entry | Research Assistant | 92.30 |
+| Entry | Volunteer Coordinator | 74.69 |
+| Early–mid | Human Resources Advisor · Human Resources Officer · People and Culture Advisor | 96.01 |
+| Early–mid | Talent Acquisition Coordinator · Recruitment Consultant · Technical Recruiter | 96.01 |
+| Early–mid | Workplace Relations Advisor | 95.41 |
+| Mid–senior | Human Resources Manager | 95.06 |
+| Mid–senior | Senior Human Resources Business Partner | 95.06 |
+| | **Program mean** | **94.14** |
+| | *Entry-stage mean* | *91.75* |
+
+**Named employers** in the same record: the University of Melbourne, Accenture Australia,
+Deloitte, Grant Thornton, PwC, Hays, Randstad, Sharp & Carter, ScaleneWorks People
+Solutions, the Australian Taxation Office, the Department of Health (Victoria) and
+HealthShare Victoria — professional services, recruitment agencies and public-sector HR.
+
+**What the destination set shows.** Eleven of the fifteen titles sit between 95 and 96 on
+the index. HR specialist, recruitment and HR-assistant occupations are among the most
+exposed occupations in the Felten data, because the tasks that define them — screening,
+scheduling, records administration, first-pass candidate matching, policy drafting — are
+the tasks current systems do well. The spread is narrow: this cohort has no low-exposure
+tail to fall back on, and the single destination below 90 is one title.
+
+**What is still missing, and what it costs.** Exposure says where graduates go and how
+exposed that work is. It does not say which capabilities the market is now pricing at
+those destinations, which is normally half the argument for prioritising one curriculum
+intervention over another. Section 5 therefore argues from scored curriculum evidence plus
+the destination profile, not from hiring signals. Commissioning
+`reports/dfva-market-mc-mgmthre.md` remains the precondition for a full improvement plan.
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
@@ -267,9 +346,9 @@ Unusually for a DFVA report, it argues from **curriculum evidence only** — see
 | C2 · C4 | 2/3 each | **Two points for one documentation change.** Both items stop just short because MGMT90140's competence cycle documents the diagnosis and not the response. If the ongoing development assignments require a stated development plan and the final reflection requires evidence of what the student changed and why, C4's second limb and C2's third limb are both satisfied — by the subject as it is likely already taught. Worth checking against the actual subject guide before committing. | Low | [[4]](https://doi.org/10.1007/s10734-017-0220-3)[[9]](https://www.nationalacademies.org/read/13398/chapter/2) |
 | W1 | 2/3 | The consulting report already produces a practitioner artefact; what it lacks is a reader. Putting one HR practitioner on the panel for the MGMT90016 report, with professional conduct among the criteria, satisfies level 3's second limb without changing the task. AHRI accreditation makes the practitioner network available in a way most programs cannot assume. | Low | [[19]](https://www.legislation.gov.au/F2021L00488)[[20]](https://www.qilt.edu.au/surveys/employer-satisfaction-survey-%28ess%29)[[31]](https://www.naceweb.org/career-readiness/competencies/career-readiness-defined) |
 | C5 | 1/3 | Two levels below maximum. The program teaches analytical methods but never asks students to design and run an inquiry, despite an outcome claiming exactly that. Requiring the MGMT90280 or MGMT90141 group assignment to include a stated method and a collected or supplied dataset would reach level 2. | Medium | [14][15] |
-| W2 | 2/3 | The constraint that fails is on the *required* path. Sourcing one externally supplied brief for the compulsory capstone MGMT90010 — a real organisation's problem rather than a published case — would close it for every student, not only practicum takers. | Medium | [[22]](https://doi.org/10.1007/BF02504676)[[23]](https://doi.org/10.1080/02602938.2017.1412396) |
+| W2 | 1/3 | Two levels below maximum, and the required path is where it fails. Level 2 needs three things at once in a compulsory task: a real problem, a practitioner's artefact, and criteria drawn from practice. The compulsory capstone MGMT90010 already produces recommendations, so sourcing an external brief for it — a real organisation's problem rather than a published case — and marking it against criteria an HR practitioner would apply would supply all three for every student, not only practicum takers. | Medium | [[22]](https://doi.org/10.1007/BF02504676)[[23]](https://doi.org/10.1080/02602938.2017.1412396) |
 | C1 | 2/3 | Group work is universal here, so the recurrence limb is free. Specifying, in one existing group assignment, how work was divided between team members and analytical or AI tools — and assessing that allocation — would reach level 3 at close to zero curriculum cost. | Low | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[5]](https://doi.org/10.1093/qje/qjx022) |
-| W3 | 2/3 | Moving this item means making a practicum route required rather than one of six. That is a capacity and equity decision before a curriculum one — placements bear unevenly on students who cannot afford unpaid or off-campus work [[30]](https://www.education.gov.au/australian-universities-accord/resources/final-report) — and it should not be argued on employment rates, which work-integrated learning is not evidenced to raise [[28]](https://doi.org/10.1007/s10734-017-0216-z). Listed for completeness, not recommended. | High | [[19]](https://www.legislation.gov.au/F2021L00488)[27] |
+| W3 | 1/3 | The provision already exists and is good; what it lacks is reach. Moving this item means placing students through a *core* unit rather than one selective among six, which is a capacity and equity decision before a curriculum one — placements bear unevenly on students who cannot afford unpaid or off-campus work [[30]](https://www.education.gov.au/australian-universities-accord/resources/final-report) — and it should not be argued on employment rates, which work-integrated learning is not evidenced to raise [[28]](https://doi.org/10.1007/s10734-017-0216-z). Listed for completeness, not recommended. | High | [[19]](https://www.legislation.gov.au/F2021L00488)[27] |
 
 **Sequencing, if only one thing is done:** the C2/C4 documentation change. It is the only
 intervention in the table that plausibly moves two items, is low cost, and requires no new
@@ -279,39 +358,68 @@ which is itself the finding.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel D metadata: none.** No JIR alumni match, no destination titles, no QILT
-field-level figures are attached to this program in the DFVA dataset. This is a
-curriculum-only assessment.
+**Panel D metadata.** Exact-name JIR alumni match, n = 28, 15 destination titles across
+three career stages, coverage 1.0. n = 28 is a small sample and the exposure value should
+be read with that in mind. Twelve of the fifteen titles were crosswalked for this
+assessment and committed to the shared extension crosswalk; three of the fifteen carry
+medium rather than high mapping confidence (Human Capital Graduate Consultant, Volunteer
+Coordinator, and one further recruitment title). No QILT field-level figures are attached
+to this program. The mapping method reproduced the one pre-existing HR mapping in the
+crosswalk (Recruitment Consultant → 13-1071, 96.01) independently, which is weak but real
+corroboration that the twelve new mappings follow the same rule as the existing ones.
 
 **Scoring basis.** The 2026 handbook, captured 2026-08-14 through the browser-based v4
 capture queue at one page per 20–30 seconds: course overview, attributes/outcomes, course
-structure, the assessment pages of all eleven compulsory subjects, five subject overview
-pages, and both the Business Practicum and HR Consulting capstone selectives — 22 pages,
-13 carrying assessment tables. Both sub-scales were scored from this single extract. All
-36 evidence lines quoted above were verified verbatim against the captured text.
+structure, and the overview and assessment pages of all eleven compulsory subjects and of
+five capstone-selective and elective subjects — 35 pages, 16 carrying assessment tables.
+Both sub-scales were scored from this single extract, and every evidence line quoted above
+was verified verbatim against the captured text.
+
+An earlier version of this report was scored on 22 of those pages. Thirteen had been
+marked as failed by a capture agent that used the failure state to mean "deprioritised",
+which removed them from the queue; they were returned to it and captured, and the program
+was re-scored. Only W2 and W3 changed, both downward. The point worth carrying forward is
+the direction: the missing pages did not withhold evidence that would have raised the
+score, they withheld the structure that showed how much of the workplace provision is
+optional. A partial extract can inflate as readily as it deflates.
 
 **Construct-boundary check.** The BUSA90473 practicum scored in W3 only; its host-company
 presentation is cited under W1 solely as evidence that the external audience exists
 *outside* the required path, and it was not used to lift C1 or C4, whose v4.1 level-3
 anchors no longer name placements. Group work scored in C1 and was not counted again in
 W1. The MGMT90140 critical reflection scored in C2, was considered for C4, and was not
-used in W2. One acknowledged dependency: the MGMT90016 consulting report is cited in both
-W1 and W2 — as a professional genre and as a practitioner artefact respectively. These are
-different properties of one task and the anchors treat them as separate constructs, but a
-rater who rejects the task rejects both scores.
+used in W2. The MGMT90016 consulting report is cited once only, as a professional genre in
+W1; the earlier version of this report also read it as a practitioner artefact under W2,
+and the re-score removed that second use under one-construct-one-home.
 
-**Ambiguities, all resolved downward.** Four are recorded in the evidence file. The
-consequential one: **C2 and C4 straddle 2 and 3 on the same evidence** — MGMT90140's
+**Ambiguities, all resolved downward.** Seven are recorded in the evidence file: five
+level straddles (C2, C3, C4, W1, W3) and two construct-boundary calls (W1 vs W2, C1 vs
+C3). Two are worth a rater's attention beyond the usual. **W3 straddles 1 and 2** because
+a required-choice capstone slot is genuinely stronger than a free elective, and a rater
+who weighs that differently scores this program a point higher. **W1 straddles 1 and 2**
+on a conjunctive reading: the consulting report is a professional genre named in the
+level-2 anchor, but the clause requiring criteria drawn from professional practice is
+undocumented, so a strictly conjunctive rater scores 1.
+
+The consequential one remains: **C2 and C4 straddle 2 and 3 on the same evidence** — MGMT90140's
 competence-development cycle — because both anchors ask for something slightly more
 specific than the handbook states. That is a granularity question about the instrument as
 much as a finding about the program, and it is worth the content-validity panel's
 attention: the answer moves this program by up to two points, and the same pattern will
 recur in any program built around assessed professional-competence development.
 
-**Not scoreable.** The foundation selective (one of three accounting/economics/finance
-subjects) was not captured; no item turns on it. MGMT90267 Artificial Intelligence in
-Organisations has no subject page in the extract — its elective status is what C3 scores,
-and its content would not change that. The 150-point entry-point program was not scored.
+**Not scoreable.** No item was left wholly unscoreable: every compulsory subject in the
+200-point structure now has both an overview and an assessment page in the extract. Two
+gaps constrain the ceilings rather than the scores. The foundation selective subjects
+(ACCT90041, ECON90015, FNCE90065) have no pages, so one of the four foundation subjects
+each student takes is undocumented. Among the capstone selectives, ENGR90034 is absent;
+this does not affect W3, which turns on the optionality of the whole selective slot rather
+than on any one subject's depth. Separately, C3's level-3 evidence — governance, bias,
+accountability or regulation of AI systems in an HR context — is absent from the extract
+entirely rather than merely weak: MGMT90267's assessment table names only a written
+activity, a report and a quiz with word counts, so even that elective's AI-ethics outcome
+has no assessment specification behind it. The 150-point entry-point program was not
+scored.
 
 **Standing v4.1 limitations.**
 
