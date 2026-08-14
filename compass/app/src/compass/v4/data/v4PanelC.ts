@@ -59,16 +59,13 @@ export interface V4Meta {
 
 export const V4_META: V4Meta = {
   "cohortSize": 34,
-  "scored": 10,
-  "workplaceScored": 10,
+  "scored": 13,
+  "workplaceScored": 13,
   "workplaceComplete": false,
   "complete": false,
   "adaptMedian": null,
   "expMedian": 90.9,
   "pending": [
-    "mc-clind",
-    "mc-ddensur",
-    "mc-dmed",
     "mc-doptom",
     "mc-dphysio",
     "mc-dvetmed",
@@ -95,7 +92,7 @@ export const V4_META: V4Meta = {
 
 export const V4_PANEL_C: Record<string, V4PanelC> = {
   "244cw": {
-    "instrument": "4.0-draft",
+    "instrument": "4.1-draft",
     "C1": {
       "score": 2,
       "rationale": "Two compulsory subjects assess collaborative work: POPH90274 (two group presentations and mentor-marked group participation) and POPH90218 (a team presentation of approximately five students). This satisfies the level 2 anchor. The level 3 anchor additionally requires at least one assessment in which work is coordinated across people and tools or AI systems; no such assessment is documented, so level 3 is not awarded.",
@@ -146,6 +143,39 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       ]
     },
     "adaptiveness": 9,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 is met in the compulsory core: POPH90218 Public Health Leadership and Policy assesses a 'Policy Advocacy Pitch + Campaign Materials' (30%) and a systems-mapping team presentation (20%), and POPH90274 Applied Program Development assesses a 'Health program proposal document' (50%). An advocacy pitch with campaign materials and a program proposal are recognised professional genres in public health, not academic genres addressed to a marker. Level 3 requires BOTH that professional communication recur progressively across the program AND that at least one core assessment be delivered to, or judged by, a real external audience or practitioner with conduct or accountability among the criteria. The recurrence limb holds; the external-audience limb does not. Every presentation in the six compulsory subjects is delivered to staff and peers. The only practitioner judgement documented anywhere is the workplace supervisor hurdle in POPH90286, which sits in one of three capstone routes and is entered competitively, so it is not something the program requires of every student. The course-level claim to 'Communicate effectively in written, oral and visual format to a range of audiences' is an outcome statement and is capped at level 1 by R2; it cannot carry level 3.",
+      "evidenceLines": [
+        "5-minute Individual Presentation plus Q&A: Policy Advocacy Pitch + Campaign Materials",
+        "8-minute Team Presentation (approximately 5 students per group) plus 3-minute Q&A: Systems Mapping",
+        "Health program proposal document",
+        "Communicate effectively in written, oral and visual format to a range of audiences",
+        "Workplace supervisor assessment of the student's completion of the project"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2 is securely met: the POPH90274 'Health program proposal document' (50%) reproduces a public-health program-development task end to end and produces the artefact a practitioner produces, and POPH90218's advocacy pitch with campaign materials does the same for policy advocacy. Level 3 needs both limbs. The spine limb is arguable — two of six compulsory subjects carry practitioner-shaped artefacts and every student completes a capstone — but the practice-constraint limb fails on the path the program actually requires. Of the three capstone routes only Professional Practice supplies an externally set problem and real host constraints; the Public Health in Practice route is problem-based learning on teacher-supplied scenarios, and a student may complete the degree without ever meeting a constraint set by anyone outside the university. Scoring what the program requires of every student rather than its best available route — the discipline C5's level-3 anchor already states as 'not one route among several' — resolves this DOWN to 2. The remaining four compulsory subjects assess by exam, essay, short answer and quiz.",
+      "evidenceLines": [
+        "Health program proposal document",
+        "5-minute Individual Presentation plus Q&A: Policy Advocacy Pitch + Campaign Materials",
+        "Students select one 25 credit point capstone options:",
+        "Within this capstone, students will apply their public health training to real world scenarios through a problem based learning approach in Public Health in Practice."
+      ]
+    },
+    "W3": {
+      "score": 2,
+      "rationale": "Level 2 is met and level 3 is not, on the required/optional distinction rather than on depth. The Professional Practice capstone is genuine work-situated learning of the strongest kind the anchors describe: a supervised year-long placement with an external host, negotiated between student, host and coordinator, assessed, with the workplace supervisor's assessment carrying a hurdle. On depth alone it would read as level 3. But level 3 requires the work-situated learning to be REQUIRED, and it is not: it is one of three capstone routes, and 'Entry is competitive'. A student may complete the MPH through the Research Project or Public Health in Practice route with no placement at all. Ambiguity between 2 and 3 resolves DOWN. Note this is the item most likely to move if the anchor's treatment of competitive-entry routes is sharpened after the content-validity panel.",
+      "evidenceLines": [
+        "Students will undertake a supervised placement with an appropriate organisation, negotiated between the student, the host organisation, and the Professional Practice Coordinator.",
+        "Entry is competitive and selection is based on academic merit, subjects completed, relevant background and experience, and alignment of skills with available placements.",
+        "Workplace supervisor assessment of the student's completion of the project",
+        "The workplace supervisor assessment is a hurdle requirement.",
+        "Students select one 25 credit point capstone options:"
+      ]
+    },
+    "workplace": 6,
     "gates": {
       "G1": {
         "result": "PASS",
@@ -166,7 +196,11 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     },
     "ambiguities": [
       "C4: the evidence straddled levels 2 and 3. The required capstone documents independent-learning assessment on two of three routes, but the third route's assessment page was not in the extract, and the universal course-level outcome is a statement of intent rather than assessment evidence (rule R2). The score was resolved to the lower level under the ambiguity rule.",
-      "C5: the interval between the level 1 anchor (an introductory methods unit) and the level 2 anchor (design and conduct of an inquiry with data collection) is wide. This program's three assessed methods subjects exceed level 1 considerably, while design (core) and conduct (capstone) are distributed across components. The score was resolved at 2 on the basis of the level 3 anchor's explicit requirement that the project be compulsory, which implies that level 2 does not carry that requirement. The width of this interval is noted for the content-validity panel."
+      "C5: the interval between the level 1 anchor (an introductory methods unit) and the level 2 anchor (design and conduct of an inquiry with data collection) is wide. This program's three assessed methods subjects exceed level 1 considerably, while design (core) and conduct (capstone) are distributed across components. The score was resolved at 2 on the basis of the level 3 anchor's explicit requirement that the project be compulsory, which implies that level 2 does not carry that requirement. The width of this interval is noted for the content-validity panel.",
+      "W1 straddled 2 and 3 on the external-audience limb. The POPH90286 workplace supervisor hurdle is practitioner judgement of professional conduct, which would satisfy level 3, but it sits in a competitively-entered capstone route rather than in what every student must do. Resolved DOWN to 2.",
+      "W2 straddled 2 and 3 on the practice-constraint limb, for the same structural reason: only one of three capstone routes supplies an externally set problem. Resolved DOWN to 2.",
+      "W3 straddled 2 and 3 on depth versus requirement. The placement is a year-long supervised external placement with a supervisor hurdle — level-3 depth — but is one route among three with competitive entry, so the 'required' limb of level 3 fails. Resolved DOWN to 2. All three W items turn on the same fact, which is a dependency the IRR study should watch: they are not independent observations of this program.",
+      "Construct-boundary check: the POPH90286 placement was scored in W3 only. It was NOT re-used to lift C1 (whose v4.1 level-3 anchor no longer lists placements) or C4 (whose v4.1 level-3 anchor no longer lists work-integrated learning). The POPH90218 peer-feedback and reflective assessments stay in C2 (appraisal of quality) and are not counted again as W1 professional communication."
     ],
     "notScoreable": [
       "The assessment page for POPH90227 (Public Health in Practice capstone) was not captured in the extract. This affects only the C4 level 3 judgement, which was resolved to the lower level in any case."
@@ -174,7 +208,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     "verified": {
       "adversarial": true,
       "mechanical": true,
-      "date": "2026-08-13"
+      "date": "2026-08-14"
     }
   },
   "439fs": {
@@ -457,6 +491,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "746st": {
+    "instrument": "4.1-draft",
     "C1": {
       "score": 2,
       "rationale": "Meets the level-2 anchor 'at least one core unit assesses collaborative practice — group projects with individual accountability': the core unit CVEN90035 assesses two group design reports in groups of five with a per-student workload equivalence (1500 and 500 words per student), i.e. group work with individual accounting. It does not reach level 3, which requires that assessed collaborative practice RECURS across the program AND that at least one assessment requires coordinating work across people AND tools/AI systems: the other core unit (CVEN90024) assesses only individual assignments and an exam, so collaboration sits in one of two core units, and nothing in the extract documents assessed role or tool allocation, or a division of work between people and systems. The teamwork statements in the CVEN90024 generic-skills list are outcome-level claims, which R2 caps at level 1 on their own.",
@@ -584,10 +619,10 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "adversarial": true,
       "mechanical": true,
       "date": "2026-08-14"
-    },
-    "instrument": "4.1-draft"
+    }
   },
   "mc-apbusa": {
+    "instrument": "4.1-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2 anchor is satisfied: core units assess collaborative practice as group projects, and one capstone assessment documents individual accountability inside the group work (an attendance-and-contribution hurdle). Not level 3: although assessed collaboration recurs across the program, no assessment line documents coordinating work across people AND tools/AI systems — there is no documented role-and-tool allocation and no task where the division of work between people and systems is itself assessed. The Programming for Analytics outcome about environment management 'to support collaborative development' is an outcome, not an assessment, so R2 bars it from lifting the score.",
@@ -734,10 +769,10 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "adversarial": true,
       "mechanical": true,
       "date": "2026-08-14"
-    },
-    "instrument": "4.1-draft"
+    }
   },
   "mc-arch": {
+    "instrument": "4.1-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2 anchor is satisfied: more than one core unit assesses collaborative practice with individual accountability — Applied Architectural Technology runs three graded group submissions alongside a hurdled individual detailing task, Architectural Practice assesses a group submission on project initiation and procurement, and Introduction to High-Performance Design assesses a group interim proposal. Not level 3: although assessed collaboration recurs across the core, the second conjunct fails — no core assessment requires coordinating work across people AND tools/AI systems, and nothing documents role-and-tool allocation or makes the division of work between people and systems itself assessable. Placement/community evidence is deliberately excluded here and scored in W3 (one construct, one home).",
@@ -870,10 +905,10 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "adversarial": true,
       "mechanical": true,
       "date": "2026-08-14"
-    },
-    "instrument": "4.1-draft"
+    }
   },
   "mc-ba": {
+    "instrument": "4.1-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2's anchor — 'At least one core unit assesses collaborative practice' — is met many times over: syndicate assignments carry marks in every core subject (General Management 1 and 2, Operations, Managing People, Immersive Business Experience), several with documented individual accountability inside the group ('700 words individual with 4 – 5 students in a group'). Level 3 is a conjunction and its second conjunct fails: no core assessment documents coordinating work across people AND tools/AI systems, and nowhere is the division of work between people and systems itself assessed. The one subject about AI-plus-team work, Generative AI for Business, sits in the elective list, so it cannot carry a core-recurrence claim. Scored at 2, not 3, on the missing human-plus-tool allocation evidence.",
@@ -997,10 +1032,10 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "adversarial": true,
       "mechanical": true,
       "date": "2026-08-14"
-    },
-    "instrument": "4.1-draft"
+    }
   },
   "mc-base": {
+    "instrument": "4.1-draft",
     "C1": {
       "score": 2,
       "rationale": "Meets the level-2 anchor: multiple core units assess collaborative practice as syndicate work in groups of 4-5 with a per-student word allocation, i.e. group tasks with individual accountability, and 'Collaborate with real business partners' sits in the program outcomes. Level 3 is not reached because no assessment in the extract requires coordinating work across people AND tools/AI systems — there is no documented role-and-tool allocation, and nothing where the division of work between people and systems is itself assessed. Under v4.1 the placement/live-project route to C1 level 3 has moved to W3, so the Senior Executive Project's workplace character is not scored here.",
@@ -1135,10 +1170,10 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "adversarial": true,
       "mechanical": true,
       "date": "2026-08-14"
-    },
-    "instrument": "4.1-draft"
+    }
   },
   "mc-busana": {
+    "instrument": "4.1-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2's anchor — 'at least one core unit assesses collaborative practice — group projects with individual accountability' — is met many times over: syndicate assignments and projects are weighted assessment in Programming Foundations, Business Data Platforms, Decision Making and Optimisation, Statistical Learning, Causal Analytics, Predictive Analytics, Machine Learning & AI, NLP, Marketing Analytics, Supply Chain and Risk Analytics, and the Prof Dev route adds a group-work hurdle. Level 3 is not reached because its second conjunct is undocumented: no assessment in the extract requires coordinating work across people AND tools/AI systems, and no task allocates roles and tools or assesses the division of work between people and systems. Collaboration recurs, but the human-plus-tool coordination the anchor names is absent from every assessment description.",
@@ -1281,10 +1316,151 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "adversarial": true,
       "mechanical": true,
       "date": "2026-08-14"
+    }
+  },
+  "mc-clind": {
+    "instrument": "4.1-draft",
+    "C1": {
+      "score": 1,
+      "rationale": "Level 1 anchor exactly: 'Collaboration/teamwork appears in learning outcomes, but no core unit assesses it.' Team-work sits in the course ILOs and generic skills, and the 75cp core clinical subject describes interprofessional collaborative practice as a learning activity ('The student will develop interdisciplinary links...'), but no assessment task in DENT90143/DENT90144 or DENT90108 names collaborative practice: the assessed tasks are individual case presentations, a written assignment, a seminar presentation, a written exam and an individual clinical portfolio. Level 2 fails because it requires that a core unit ASSESSES collaborative practice, and the interprofessional line is a description of learning activities, not of an assessment. Per the one-construct-one-home rule the clinical placement work at RDHM/MDC is scored in W3 and is deliberately not used here.",
+      "evidenceLines": [
+        "Capacity to value and participate in projects which require team-work",
+        "work effectively as a member of a team",
+        "The student will develop interdisciplinary links with other dental postgraduate programs to develop skills in intra- and interprofessional collaborative practice to provide comprehensive person-centred care.",
+        "Learning activities will include seminars, pre-clinical activities and clinical patient care."
+      ]
     },
-    "instrument": "4.1-draft"
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2 anchor met: 'Core assessment includes criterion-referenced appraisal of quality'. DENT90108 carries a 35% assessed critical-appraisal-of-literature exercise, matched by the subject ILO requiring 'advanced appraisal of published research literature and evidence' — appraisal of the quality of work, assessed, in a compulsory core subject. Level 3 fails: nothing in the extract requires students to document or justify reliance decisions (when they relied on or overrode a tool, source or collaborator), to defend judgements of AI-output quality, or to evidence strategy adjustment over time; the reflective-practice and give/receive-appraisal statements are graduate attributes only, which R2 and Barrie forbid scoring. The clinical portfolio is not counted here because the handbook documents no reflective or self-appraisal component in it.",
+      "evidenceLines": [
+        "Essay 2: Critical appraisal of literature (exercise)",
+        "Systematically search the available literature and demonstrate advanced appraisal of published research literature and evidence",
+        "This subject will introduce students to the principles of research and the inherent methods, as well as the methods for critical appraisal of the available scientific literature.",
+        "the ability to negotiate, give and receive appraisal and criticism constructively",
+        "a critically reflective approach to practise dentistry based on current evidence and experience"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 0 is excluded because digital content does appear in program-level outcomes, but only at the operational level the anchor for level 1 names: 'digital tools appear only as ... tool operation/training'. The two statements are a generic skill about proficiency in contemporary technologies and a graduate attribute about using information technology for documentation, records and communication — tool use, not capability-plus-limits. Level 2 fails outright: no core unit addresses AI capabilities AND limitations/ethics, and no AI content of any kind appears in the extract. Level 3 fails a fortiori — there is no assessed critique or governance of AI systems in dentistry (bias, accountability, transparency, regulation, data governance). Neither cited line is tied to any assessment task, so R2 also caps this at 1.",
+      "evidenceLines": [
+        "be proficient in the appropriate use of contemporary technologies",
+        "skills to use contemporary information technology for documentation, including patient records, communication, management of information and applications related to health care.",
+        "Employ the principles of ethical clinical research and of the responsibilities of researchers"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "DEMOTED from 3 to 2 by adversarial verification. Level 2 anchor met: the student formulates their own research question in an area of clinical interest and the varying clinical caseload is application of learning to novel problems, assessed (Essay 1: Research problem 15%; Oral presentation: Research question & methodology 20%; Essay 3: Research Proposal 30%). Level 3 fails on the anchor's own wording. L3 names 'a self-scoped capstone or research project'; the extract distinguishes plan from project explicitly — DENT90108 provides 'the practical knowledge required to plan a research project and the opportunity undertake a research investigation'. The required, assessed artefact is a PROPOSAL; the investigation itself is an opportunity, not a requirement — the same line used to deny C5 level 3, applied consistently here. The second L3 route (assessed identification of one's own knowledge gaps together with the plan to close them) is unmet: 'the ability to identify, quantify and address their own learning needs' is a graduate attribute, which R2 caps at 1, and no assessment task names gap identification. The original score straddled 2 and 3 and was resolved upward, which the scoring-direction rule forbids.",
+      "evidenceLines": [
+        "Students plan a research investigation in an area of clinical interest. In consultation with a research supervisor and/or the course coordinator, participants will formulate a research question.",
+        "Formulate a research question answerable with existing research evidence in an area of clinical interest",
+        "Manage competing demands on time, including self-directed project work",
+        "Exercise responsibility for their own learning",
+        "Essay 3: Research Proposal",
+        "Essay 1: Research problem"
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 1 anchor exactly: 'Introductory methods unit; literature-review assessment.' DENT90108 introduces the principles of research and its methods and assesses planning of a project including ethics approval, and the ILO on data-analysis techniques is 'Describe the theoretical concepts behind' them — description, not conduct. Level 2 fails because it requires students to design AND conduct an inquiry with data collection, assessed: every assessed artefact in the extract is a proposal, an essay, a training module or an oral presentation, and no data-collection or results component appears anywhere. Level 3 fails a fortiori — no substantial project generating primary evidence is required, and the course page frames research investigation as an 'opportunity' rather than a requirement.",
+      "evidenceLines": [
+        "This subject will introduce students to the principles of research and the inherent methods, as well as the methods for critical appraisal of the available scientific literature.",
+        "Describe the theoretical concepts behind a range of qualitative and quantitative data analysis techniques",
+        "Plan a research project, including the steps to obtain ethical approval",
+        "The research subject will provide students with practical knowledge required to plan a research project and the opportunity undertake a research investigation in an area of clinical interest.",
+        "Completion of RIOT training module"
+      ]
+    },
+    "adaptiveness": 7,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 anchor met: 'at least one core assessment requires a recognised professional genre ... judged against criteria drawn from professional practice'. Case presentation and defence is the clinical profession's own genre, assessed twice in the core clinical subject (10% mid-year, 20% end-year), alongside an assessed seminar presentation and a course ILO on articulating clinical knowledge in oral and written presentations. Level 3 fails on its second conjunct: the extract never documents a core assessment delivered to, or judged by, a real external audience or practitioner — no industry panel, client, patient or public exhibition is named as the audience or assessor of any assessment task, and the 'academics and specialists' line describes feedback on clinical activities, not who judges an assessment. The 90%-attendance hurdle is the only assessed conduct standard, and reliability alone does not carry professional conduct 'explicitly among the assessed criteria' of a communication task.",
+      "evidenceLines": [
+        "Demonstrate advanced capacity to articulate clinical knowledge and understanding in oral and written presentations",
+        "Case presentation and defence of known and completed clinical case",
+        "Topic based seminar presentation. The emphasis is on the understanding of the prepared topic",
+        "Oral presentation: Research question & methodology (1500 words equivalent)",
+        "Hurdle requirement: Pass/Fail. 90% Attendance for all Seminars & Clinical Sessions",
+        "exhibit professional responsibility"
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Both level-3 conjuncts are documented. Spine rather than single instance: professional-fidelity tasks are staged across the core clinical subject and carry the bulk of its weight — a pre-clinical practical hurdle in week 5, a mid-year case presentation and defence on case management to date (10%), an end-of-year case presentation and defence of a completed case (20%), and a clinical portfolio built from 542.5 hours of practice (30%, hurdle) — which is the 'capstone plus earlier scaffolding' form the anchor names. Genuine constraint of practice: the profession's own standard of performance gates the work, since the practical assessment must be passed 'prior to being allowed to start patient care', and the tasks produce the artefacts a practitioner produces (evidence-based treatment plans, managed cases) for real patients rather than for a marker. Scored on documented task features only, per R4 — no 'authentic'/'real-world' label was relied on. Workplace immersion itself is scored in W3, not here.",
+      "evidenceLines": [
+        "Practical Assessment / Pre‐Clinical assessment prior to being allowed to start patient care",
+        "Case presentation and defence of known and prepared clinical case. The emphasis is on case management to date.",
+        "Clinical Portfolio: Incorporates 542.5 hours of clinical practice during the year.",
+        "Create and develop evidence-based treatment plans for patients.",
+        "Apply the principles of occlusion, materials science and treatment planning to evidence based clinical practice.",
+        "Learning activities will include seminars, pre-clinical activities and clinical patient care."
+      ]
+    },
+    "W3": {
+      "score": 2,
+      "rationale": "Level 2 anchor met and then some on scale: a core unit places students in a real workplace with practitioner supervision and assessment — clinical training at the Royal Dental Hospital of Melbourne and Melbourne Dental Clinic, clinical performance assessable with mid- and end-year feedback, 542.5 hours captured in a hurdle-assessed clinical portfolio, and a 90%-attendance hurdle on clinical sessions. Held at 2 rather than 3 because level 3 is conjunctive and its final conjunct — 'structured reflection on professional practice' — is not documented anywhere in an assessment: the portfolio description states hours and a satisfactory-requirements hurdle only, and the reflective-practice statements are graduate attributes, which R2 bars from scoring. The extract also shows this as a single standing clinical subject rather than a sequence of placements, which is the level-2 'stands alone' qualifier.",
+      "evidenceLines": [
+        "Students will undertake clinical training at the facilities in the Royal Dental Hospital of Melbourne (RHDM) and Melbourne Dental Clinic (MDC). Clinical performance is assessable, and feedback will be given at mid and end-year.",
+        "Students will engage in clinical activities in fixed, removable and implant prosthodontics with highly effective feedback from academics and specialists. Sessions are scheduled at Royal Dental Hospital of Melbourne and Melbourne Dental Clinic.",
+        "Hurdle requirement: Must satisfactorily meet the requirements of the clinical portfolio",
+        "the ability to apply reflective practice skills and a recognition of their importance in health care"
+      ]
+    },
+    "workplace": 7,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "An all-compulsory specialist core with staged depth: 100 credit points comprising a single 75cp advanced clinical subject in the chosen specialisation plus a 25cp research subject, with no elective space documented, and an internal prerequisite gate — the pre-clinical practical assessment must be passed before patient care may begin. Content is unambiguously disciplinary (prosthodontics: occlusion, fixed/removable/implant prosthodontics, laboratory skills), not generic or interchangeable.",
+        "evidenceLines": [
+          "The Master of Clinical Dentistry requires the successful completion of a 75 credit point clinical specialisation plus a 25 credit point Research Proposal subject.",
+          "Students must successfully complete 100 credit points. This includes:",
+          "A 75 credit point advanced clinical subject",
+          "A 25 credit point research subject",
+          "Practical Assessment / Pre‐Clinical assessment prior to being allowed to start patient care",
+          "Apply knowledge relating to removable, fixed and implant prosthodontics at an advanced level."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Assessment requires defended decisions under real clinical uncertainty rather than recall or scripted response: students must defend their management of both an in-progress and a completed clinical case, and must create and develop treatment plans for real patients across 542.5 hours of clinical practice — a live setting with genuine accountability. Diagnosis, treatment planning and rehabilitation across fixed, removable and implant options is trade-off decision-making, and the written exam is only one component (15%) among predominantly case-based assessment.",
+        "evidenceLines": [
+          "Case presentation and defence of known and prepared clinical case. The emphasis is on case management to date.",
+          "Case presentation and defence of known and completed clinical case",
+          "Create and develop evidence-based treatment plans for patients.",
+          "This subject will enable students to develop their knowledge and skills in prosthodontics, including the diagnosis, treatment planning, rehabilitation, and maintenance of oral function.",
+          "Clinical Portfolio: Incorporates 542.5 hours of clinical practice during the year."
+        ]
+      },
+      "G1_unused": null
+    },
+    "ambiguities": [
+      "C1 straddled 1 and 2: the interprofessional-collaboration sentence in DENT90143 could be read as documenting assessed interprofessional activity, since it sits in a subject whose clinical portfolio is hurdle-assessed. Resolved DOWN to 1 by R2 (the sentence describes learning activities, not an assessment task) and by the scoring-direction rule.",
+      "C1 vs W3: the clinical work at RDHM/MDC would satisfy a 'client or stakeholder work' reading of C1 level 2. Resolved by the one-construct-one-home rule and the v4.1 migration note, which moves placement evidence out of C1 into W3, where it is scored once.",
+      "C2 straddled 2 and 3: the year-long clinical portfolio and the two case defences could be read as process-focused assessment evidencing strategy adjustment over time. Resolved DOWN to 2 because the handbook documents no reflective, self-appraisal or reliance-justification component in either — only hours, hurdle status and case management.",
+      "C4 straddled 2 and 3 and was RESOLVED DOWN to 2 on adversarial verification. The self-scoped research question is assessed (Essay 1 15%, Oral 20%, Essay 3 Research Proposal 30%), but the L3 anchor names a self-scoped capstone or research PROJECT, and the extract distinguishes plan from project: the proposal is required, the investigation is an 'opportunity'. The initial upward resolution violated the scoring-direction rule. This remains the most contestable item in the set and the one an IRR partner is most likely to split on.",
+      "C4 vs C5 share DENT90108 as their source subject. Split by construct: the self-scoping and independent-learning lines score in C4, the methods-training and inquiry-conduct lines in C5. The 'Essay 3: Research Proposal' task is cited in C4 only, as the assessment R2 requires there.",
+      "C5 straddled 1 and 2: students do select and present a methodology ('Oral presentation: Research question & methodology'), which is half of the level-2 anchor. Resolved DOWN to 1 because level 2 requires design AND conduct with data collection, and no data-collection or results component is assessed anywhere in the extract.",
+      "W1 straddled 2 and 3: professional communication IS assessed repeatedly and progressively (mid-year case defence on management to date, then end-year defence of a completed case, plus a seminar presentation and a research oral). Resolved DOWN to 2 because level 3's second conjunct is unmet — no assessment is documented as delivered to or judged by a real external audience or practitioner, and no assessment names professional conduct among its criteria.",
+      "W3 straddled 2 and 3: on scale and supervision this is a level-3 placement (542.5 hours, core, practitioner-supervised, hurdle-assessed, with an attendance obligation to the host). Resolved DOWN to 2 solely because 'structured reflection on professional practice' is not documented in any assessment description; the reflective-practice statements are graduate attributes, which R2 excludes. If a portfolio rubric documenting reflection were captured, this would move to 3.",
+      "W1/W2 both draw on the case presentation and defence tasks. Split by construct: W1 cites the end-of-year defence as the professional communication genre, W2 cites the mid-year defence and the pre-clinical gate as evidence of task fidelity. The construct scored differs even where the subject does not.",
+      "R4 check: the handbook uses 'person-centred care' and 'evidence based clinical practice' as framing language. No score was raised on such a label; W2 was scored on documented task features (pre-clinical gate, case defences, portfolio hours, treatment plans for patients) only."
+    ],
+    "notScoreable": [
+      "C3 — AI-specific evidence is entirely absent from the extract. There is no mention of artificial intelligence, generative AI, machine learning or data governance in any course page, subject description, outcome or assessment. C3 is therefore scored at the level-1 anchor on the two generic technology statements rather than left unscored, but the absence should be recorded: the item is discriminating on near-zero signal for this program.",
+      "DENT90145 Advanced Prosthodontics Part 2 has no assessment detail in the extract — its assessment page reads only 'Please refer to Advanced Prosthodontics Part 1.' The part-time route was therefore scored from DENT90143 (full-time) and DENT90144 (Part 1), whose assessment tables are near-identical.",
+      "Only the Prosthodontics specialisation appears in the extract; the course page says clinical training is 'in one of the specialities available' but the majors/minors page lists Prosthodontics alone. Scores describe the Prosthodontics route and cannot be generalised to any other specialisation without its own capture.",
+      "No assessment rubrics or criteria statements are in the extract for any task — only task names, timing and weights. Every level-2/3 judgement about 'criteria drawn from practice' therefore rests on task type rather than documented criteria, which is a systematic ceiling on W1 and W2 precision for this program."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-14"
+    }
   },
   "mc-cs": {
+    "instrument": "4.1-draft",
     "C1": {
       "score": 1,
       "rationale": "Level 2 requires that 'at least one core unit assesses collaborative practice'. The only unconditionally compulsory Year 1 subject is COMP90044 Research Methods, whose every assessment is individual (individual literature review, individual research methods design assignment, individual oral presentation, individual workshop exercises), and the compulsory Year 2 Research Project Parts 1-4 have no subject or assessment page in the extract. Assessed group work is documented only in subjects a student may or may not take: COMP90049 and GEOM90008 sit in the Foundational band (a required band of 25-37.5 credit points chosen from six subjects, three of which - COMP90015, COMP90048, COMP90054 - assess only individually, so the band can be completed without any group assessment), and COMP90042's group project is an elective. Teamwork also appears in subject-level outcomes (GEOM90008 ILO 5). That is the level-1 picture: collaboration appears in outcomes and in choosable units but no compulsory unit is documented to assess it. Level 3 is not reached on any reading - nothing in the extract assesses the division of work between people AND tools/AI systems.",
@@ -1426,10 +1602,10 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "adversarial": true,
       "mechanical": true,
       "date": "2026-08-14"
-    },
-    "instrument": "4.1-draft"
+    }
   },
   "mc-datasc": {
+    "instrument": "4.1-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2 ('at least one core unit assesses collaborative practice - group projects with individual accountability') is met repeatedly: COMP90024, COMP90050 and COMP90051 each carry a compulsory group assessment, and the capstone assesses team work with individual accountability via a peer assessment factor. Level 3 fails on its second conjunct: recurrence holds, but no assessment documents coordinating work across people AND tools/AI systems - no role-and-tool allocation, no task where the human/system division of labour is itself assessed.",
@@ -1547,8 +1723,283 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "adversarial": true,
       "mechanical": true,
       "date": "2026-08-14"
+    }
+  },
+  "mc-ddensur": {
+    "instrument": "4.1-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied several times over: core units assess collaborative practice through graded group tasks (Professional Practice 1 group presentation, Professional Practice 2 group presentation, both Dental Research Project subjects' group oral presentations, and an assessed collaborative online discussion in Diseases and Dentistry), and teamwork is documented as taught content in the operatory. Level 3 is not reached: the anchor requires, in addition to recurrence, at least one assessment where coordinating work across people AND tools/AI systems is itself assessed — no assessment task in the extract documents allocation of work between people and tools or systems, and no gen-AI system appears anywhere. Placement/clinical-team evidence is deliberately not counted here (it scores in W3), per the one-construct-one-home rule.",
+      "evidenceLines": [
+        "Collaborative online discussion",
+        "Group presentation (4-6 student per group)",
+        "Group Presentation - 20 minutes",
+        "Group oral presentation (4 – 5 students per group)",
+        "Group oral presentation 4-5 members per group",
+        "Students will learn about correct posture, safety, and working as a team (assistant and operator) in the dental operatory during the provision of these procedures.",
+        "Discuss interprofessional collaborative practice in healthcare"
+      ]
     },
-    "instrument": "4.1-draft"
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2 is documented: criterion-referenced appraisal of quality is embedded in core assessment as a programmatic portfolio system — student-curated portfolios responding to prescribed tasks, carrying 20–50% of the mark in every year, with regular milestone assessment and feedback against coordinator standards, plus a reflective-practice portfolio worth 50% in Professional Practice 1. Level 3 is not reached: the anchor requires assessment that makes students document and justify reliance decisions (relying on or overriding a tool, source or collaborator), defend judgements of AI-output quality, or evidence strategy adjustment over time. The handbook names reflection and self-evaluation as portfolio content but never documents a task requiring a justified reliance decision or a recorded change of strategy; the peer-reflection outcome in Dental Practice 3 is an outcome statement, not an assessment specification (R2). Ambiguity between 2 and 3 resolved downward.",
+      "evidenceLines": [
+        "Portfolio incorporating reflective practice",
+        "Portfolio: A student curated compilation that responds to prescribed tasks submitted regularly throughout the year.",
+        "The Portfolio assessment forms part of the programmatic approach to assessment being taken at MDS.",
+        "Apply the principles of reflective practice personally and with peers, to critically reflect on their clinical experience, knowledge, skills and the application of these in the provision of evidence-based dental care."
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "No generative-AI content of any kind appears in the extract. Digital content is present in core units, but at the operational level the anchor caps at 1 — describing how digital technologies manage health information, and using contemporary information technology for documentation. The single line that reaches beyond operation, the Dental Practice 3 outcome on critically evaluating digital technologies including ethical implications and system limitations, is an intended learning outcome; no assessment task in that subject (portfolio, ongoing clinical practice, case-based discussions, OSCE, written exam) is documented as requiring appraisal of digital-tool limits, so R2 forbids crediting it at level 2 ('discussed and assessed'). Ambiguity between 1 and 2 resolved downward per the scoring-direction rule.",
+      "evidenceLines": [
+        "Describe how digital technologies are used to manage health information and inform person-centred care",
+        "Describe how digital health technologies are used across the health system to manage care.",
+        "use contemporary information technology for documentation, management of information and applications related to health care;",
+        "Critically evaluate the use of digital technologies in delivering person-centred care, considering patient digital literacy, ethical implications, and health system limitations."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3's first route — documented structured progression toward independent learning via a self-scoped research project — is met with assessment evidence, not outcome statements. The research strand is required of every student and runs across two core year-long subjects: students scope a proposal in an area of their own interest, are individually assessed on research design and on formulating their own research questions, then complete and report the project under a research mentor. That is a self-scoped project with staged assessment, which is more than the level-2 floor of applying methods to unfamiliar problems (itself independently met by the unknown-case and unknown-patient assessments, though those lines are scored in W2 as the practice constraint). Placement/WIL routes are excluded here by construction in v4.1.",
+      "evidenceLines": [
+        "Students will conduct a research-based project as a required component of the degree.",
+        "Students will have the opportunity to develop a research proposal in an area of interest related to dental, oral, and craniofacial research.",
+        "Research Design (Individual)",
+        "Develop rigorous, feasible research questions based on their knowledge of study design and analysis of trends in information/data",
+        "Critically reflect on their knowledge and skills as a dental practitioner and develop a plan for continued learning"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2 is documented: students design and conduct an inquiry with methodology selection and data collection, and it is assessed — an individually assessed research design, a proposal poster and literature review in year 2, then a progress report and a 3000-word research report in year 3, with an outcome requiring justification of data-collection methods. Level 3 is not reached: the anchor requires a substantial project generating primary evidence that is REQUIRED rather than one route among several, with methodology defended under scrutiny. The subject description permits 'a small research-based or professionally focused project', so primary evidence generation is one route rather than the requirement, the project is described as small, and no viva, defence or staged supervised review of methodology is specified as an assessment task (mentor supervision and a group oral presentation are documented, but the extract does not describe methodology being defended under scrutiny). Ambiguity between 2 and 3 resolved downward.",
+      "evidenceLines": [
+        "Justify data collection methods to address a research question or project need.",
+        "Research Report",
+        "Literature Review",
+        "Under supervision of a research mentor, students will extend their knowledge and skills in the research domain.",
+        "complete a small research-based or professionally focused project"
+      ]
+    },
+    "adaptiveness": 10,
+    "W1": {
+      "score": 3,
+      "rationale": "Both level-3 conditions are documented. Progressive, repeated assessment of professional communication: an oral presentation and a group presentation in Professional Practice 1, a group presentation in Professional Practice 2, portfolio strands in Professional Practice 3, then case presentation and viva assessments in the final year, with clinical communication with patients and colleagues an assessed outcome of the year-2 and year-3 clinical subjects. Real external audience: assessment is delivered to and about real patients — a case presentation of a known patient and a viva of an unknown patient, both hurdles or heavily weighted, plus multi-source feedback drawn from beyond the teaching team. Professional conduct is explicitly among the assessed criteria as a standalone pass/fail hurdle, 'Satisfactory Professional Behaviour', so this is not a stated graduate attribute being credited (R2/Barrie satisfied).",
+      "evidenceLines": [
+        "Satisfactory Professional Behaviour (Pass/Fail)",
+        "Multi-source feedback (Pass/Fail)",
+        "Case presentation of a known patient (4000 word count equivalence)",
+        "Oral Exam (Viva Voce)- of an unknown patient (3000 word count equivalence)",
+        "Group presentation (4-6 student per group)",
+        "Demonstrate active listening and empathy and engage in respectful verbal and non-verbal communication with the person receiving care and colleagues;"
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Tasks reproducing the criterion situation of dental practice are the assessment spine, not a single instance: ongoing assessment of simulation practice and an OSCE in year 1, an OSCE plus ongoing assessment of clinical practice and a portfolio of patient case reports in year 2, mini-clinical evaluation exercises across specialist activities and case-based discussions in year 3, and an OSCE, portfolio of ongoing patient care and case presentation in the year-4 capstone — at least one per stage, with the capstone on top. The genuine constraint of practice is documented rather than labelled (R4): standardised case-based discussions and a viva on an UNKNOWN case/patient supply an externally set, ambiguous problem under time limits, and the assessed requirement to comply with national standards for safety, quality and clinical care is the profession's own standard of performance. Scored on task fidelity only — appraisal of quality is left to C2 and workplace immersion to W3.",
+      "evidenceLines": [
+        "Objective Structured Clinical Examination (OSCE) 3 Hours (3000 words equivalent)",
+        "Ongoing Assessment of Simulation Practice",
+        "Mini-Clinical Evaluation Exercises (up to 5 specialist practice activities)",
+        "Portfolio: a student curated compilation of patient case reports from general dental practice, periodontics and removable prosthodontics clinics",
+        "Standardised case-based discussion (Unknown case)",
+        "Standardised Case-Based Discussion (Unknown Case)",
+        "Comply with national standards for safety, quality and clinical care, and explain their responsibilities for the safe and effective management of persons under their care;",
+        "This year-long subject is developed as a capstone experience with a practice based learning approach."
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3 on every clause. Extended and required: clinical placement is core from year 2 and becomes the whole of the 100-credit-point final-year subject, spanning the Royal Dental Hospital of Melbourne, the Melbourne Dental Clinic, urban and rural community health centres and hospital rotations. Practitioner supervision is documented ('Under supervision, students apply knowledge in real-world settings'). It is assessed and carries accountability to the host: attendance at all clinical placements, hospital rotations, on-call and emergency service is a pass/fail hurdle, as is a portfolio of ongoing patient care, and the rural rotation carries its own presentation and report. Structured reflection on professional practice is explicit in the placement design. Simulation evidence is excluded here and scored in W2.",
+      "evidenceLines": [
+        "Clinical placement occurs at the Royal Dental Hospital of Melbourne and other metropolitan and rural sites.",
+        "This subject comprises clinical learning (general dentistry) in the Melbourne Dental Clinic (MDC), the Royal Dental Hospital of Melbourne, urban community health centres, specialist practice/hospital clinics and rural community health clinics.",
+        "Clinical experiences: Under supervision, students apply knowledge in real-world settings, focusing on general practice, periodontics and removable prosthodontics.",
+        "Attendance at all Back-to-Base sessions & Clinical Placements (including hospital rotations, On-Call, Emergency Service & Field visits) (Pass/Fail)",
+        "Portfolio of ongoing patient care (Pass/Fail)",
+        "Rural Placement Presentation and Report",
+        "The clinical practice sessions, especially at the community health centres, will allow students to reflect on emotional and practical issues of transition from the university learning environment to the world of independent clinical practice.",
+        "Ongoing assessment of clinical practice*"
+      ]
+    },
+    "workplace": 9,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "An all-compulsory specialist core with an enforced staged progression chain and external accreditation: 400 credit points of compulsory subjects, every subject in a year required before progression to the next, and the sequence externally accredited by the Australian Dental Council. Technical depth is progressive across the named subject chain (preclinical practice, then Dental Practice 2, 3 and Comprehensive Dental Practice). Nothing generic or interchangeable.",
+        "evidenceLines": [
+          "The Doctor of Dental Surgery requires the successful completion of 400 credit points of compulsory subjects.",
+          "All subjects in each year of study (100 credit points) must be successfully completed for progression to the next year of study.",
+          "Australian Dental Council (ADC)"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Assessments require defended trade-off decisions under real uncertainty and accountability: a viva of an unknown patient and standardised case-based discussions on unknown cases in years 2, 3 and 4, plus assessed treatment planning that requires proposing options and arriving with the patient at a treatment of choice for simple and complex conditions, and comprehensive planning that weighs prognosis and individual patient context. This is not recall or scripted response.",
+        "evidenceLines": [
+          "Oral Exam (Viva Voce)- of an unknown patient (3000 word count equivalence)",
+          "Standardised Case-Based Discussion (Unknown Case)",
+          "demonstrate skills in formulating appropriate treatment plans to suit the patient (for simple and complex general dental conditions), be able to propose treatment options (based on sound oral health care philosophies) and discuss with the patient to arrive at the treatment of choice;",
+          "Formulate and record a person-centred comprehensive treatment plan considering prognosis and individual patient context, incorporating specialist and other health and care professionals."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C2 straddled 2 and 3: the four-year programmatic portfolio with milestone feedback could be read as process-focused assessment evidencing strategy adjustment over time (level 3), but no task specification requires a documented and justified reliance decision or a recorded change of strategy. Scoring-direction rule (never resolve upward) held it at 2.",
+      "C3 straddled 1 and 2: 'Critically evaluate the use of digital technologies ... considering ... ethical implications, and health system limitations' addresses limits, which reads toward level 2, but it is an outcome statement with no matching assessment task, and there is no AI content at all. R2 plus the downward rule held it at 1.",
+      "C5 straddled 2 and 3: the research project is required of every student and supervised by a mentor with staged deliverables, which reads toward level 3, but the project is described as 'small' and may be 'professionally focused' rather than generating primary evidence, and no viva or defence of methodology is specified. Downward rule held it at 2.",
+      "Unknown-case and unknown-patient assessments evidence both C4 level 2 (application to unfamiliar problems) and W2 level 3 (an externally supplied, ambiguous problem). Under one-construct-one-home they are cited in W2, since W2's anchor names the practice constraint; C4 is scored 3 on separate research-project evidence.",
+      "The final-year clinical subject supplies evidence that could be read into C1 (interprofessional team coordination) and C4 (work-integrated learning). Per the v4.1 migration notes both routes moved to W3, so all placement evidence is scored there and nowhere else.",
+      "Group presentations in the two research subjects support both C1 (assessed collaboration) and C5/W1 (communicating findings). They are cited for C1's collaboration anchor; W1's score rests on patient-facing and professional-conduct assessments instead."
+    ],
+    "notScoreable": [
+      "C3 — the AI half of the construct is unevidenced rather than scored: the extract contains no mention of artificial intelligence, generative AI or AI governance in any course page, subject overview, learning outcome or assessment. The score of 1 rests entirely on digital-health evidence, so a future capture that includes any AI content should re-score this item rather than assume 1 is stable."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-14"
+    }
+  },
+  "mc-dmed": {
+    "instrument": "4.1-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 is satisfied and level 1 is factually contradicted: a compulsory core subject (MEDS90003 Student Conference 1, one of the eight compulsory subjects) assesses a group task as a hurdle, so collaboration is not merely an outcome claim. Level 3 fails on both of its conjuncts as documented: the extract carries no assessment in which the division of work between people AND tools/AI systems is itself assessed (there is no AI or digital-tool content anywhere in the core), and recurrence of assessed collaborative practice across the program cannot be shown because the assessment pages for the Year 2-4 core subjects are absent. Interprofessional teamwork appears only as a course-level outcome statement, which R2 makes insufficient on its own.",
+      "evidenceLines": [
+        "Oral Group Presentation",
+        "Hurdle requirement: Satisfactory standard.",
+        "Theme: Collaborative practitioner (Skills). Demonstrate effective teamwork skills by collaboration as members of learning groups.",
+        "Working effectively and respectfully as a leader or co-member of intra- and interprofessional health teams, recognising the contributions of all health care team members to shared learning, to improve patient and population health outcomes."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2's 'portfolio with standards' and 'peer review' exemplars are both documented in core assessment: the MEDS90031 ePortfolio is marked to a satisfactory standard in each of five named themes as a hurdle, and the Mini-CEX series explicitly includes peer assessment, i.e. students appraising the quality of clinical work against criteria. Level 3 is not reached: nothing in the extract requires students to document and justify reliance decisions, defend judgements of a tool's or source's output, or evidence strategy adjustment over time. The 'Self-regulated learner' ePortfolio theme is a named theme, not a documented requirement to evidence adjustment, so the ambiguity is resolved downward.",
+      "evidenceLines": [
+        "ePortfolio A student curated compilation that responds to prescribed tasks submitted regularly throughout the year, addressing five key themes: - First Nations - Clinician researcher - Professional practitioner - Self-regulated learner - Determinants of health and health systems",
+        "Hurdle requirement: In order to pass this hurdle, students are required to achieve a satisfactory standard in each of the five ePortfolio themes",
+        "8 Mini CEX submitted at even time points throughout the year, including a mixture of peer and tutor/clinician assessment",
+        "The level of performance required to pass each hurdle is determined by a rigorous standard setting procedure"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1's anchor is met exactly: digital content appears only in the selective (Discovery) substitution lists - Digital Transformation of Health, Digital Learning Health Systems, Elements of Bioinformatics - from which a student takes 12.5 points or may take none of them, and where the documented digital learning is tool operation ('practical activities with simulations of tools such as electronic health records...'). Level 2 fails because no compulsory core subject addresses AI or digital capabilities and their limits, and level 3 fails for the same reason plus the absence of any assessed critique or governance task. The extract contains no occurrence of 'AI', 'artificial intelligence', 'machine learning' or 'generative' anywhere, including the course-level outcomes and the 67-statement graduate attribute framework, so this is not scored 0 only because the elective route exists.",
+      "evidenceLines": [
+        "• Four selective (Discovery) subjects (87.5 points)",
+        "12.5 credit points from the following list of subjects:",
+        "Digital Transformation of Health",
+        "Digital Learning Health Systems",
+        "Elements of Bioinformatics",
+        "Demonstrate understanding of how core digital health technologies work, through practical activities with simulations of tools such as electronic health records, clinical decision support systems, patient portals, and mobile apps and wearable sensors"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2 is met by core assessment requiring application to unfamiliar problems: two written situational judgement tests (a hurdle) present unseen professional scenarios, and four cumulative achievement tests require earlier learning to be reapplied later in the year. Level 3 requires documented structured progression toward independent learning evidenced in assessment; the course page asserts a Year 4 research project in an area of interest and a Discovery pathway at each level, but the subject and assessment pages for MD Discovery 2, 3 and 4 (MEDS90040/90041/90042/90043/90044) are not in the extract, so no assessment evidence for a self-scoped project or for assessed identification of one's own knowledge gaps plus a plan to close them can be quoted. R2 forbids resolving that upward on an overview statement.",
+      "evidenceLines": [
+        "Professional Behaviour: 2 x Written situational judgement test (SJT)",
+        "Cumulative Achievement Test 1 (CAT1)",
+        "Theme: Clinical reasoning (Skills). Derive a list of potential causes for common clinical presentations, integrating knowledge of biomedical sciences and determinants of health with patient assessment findings",
+        "A highlight of the MD program is the opportunity for students to individualise their learning experiences through participation in a Discovery learning pathway at each level of the MD.",
+        "In Year 4 students complete a research project in an area of interest and undertake a clinical placement-based capstone experience- learning as trainee junior doctors."
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 1's anchor - introductory methods content and literature/evidence-appraisal assessment - is what the extract documents: research methods is named as an embedded theme, the Year 1 clinician-researcher outcome is literature searching and question formulation, and the assessed Student Conference ePortfolio includes a 'research evaluation' category. Level 2 requires students to design and conduct an inquiry with methodology selection and data collection, assessed; the only support is the course-page sentence that Year 4 students complete a research project, with no assessment page documenting methodology selection or data collection. Level 3 additionally fails on its own terms because the research route is explicitly one of two pathways ('research scholar pathway ... or a clinical scholar pathway'), and no defence under scrutiny is documented. Ambiguity between 1 and 2 resolved down.",
+      "evidenceLines": [
+        "Embedded within each of these domains are the themes of First Nations Health, Population and Global Health and research methods.",
+        "Theme: Clinician Researcher (Skills). Formulate focused clinical questions, apply the principles of literature searching and identify a range of relevant resources to resolve these questions or identify knowledge gaps.",
+        "Student Conference ePortfolio: A student curated compilation that responds to prescribed tasks addressing three categories: Conference reflection, research evaluation and academic participation",
+        "Hurdle requirement: In order to pass this hurdle, students are required to achieve a satisfactory standard in each of the three ePortfolio categories",
+        "In the final two years of Discovery learning, students can choose to follow a research scholar pathway that extends their knowledge and skills in research and leadership or a clinical scholar pathway that extends their knowledge and skills in health advocacy and leadership."
+      ]
+    },
+    "adaptiveness": 8,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 is clearly met: core assessment requires the profession's own communicative genre with an audience beyond the teaching team - mini clinical encounters conducted and judged by tutors/clinicians on placement - and professional conduct is assessed against criteria drawn from practice (the MD Professional Behaviour Guidelines, as a hurdle). Level 3 requires BOTH a clinician/external judge AND that professional communication be 'assessed repeatedly and progressively across the program'. The first conjunct holds; the second cannot be verified from this extract, which carries assessment pages for Year 1 only (MEDS90031, MEDS90003) - the pages for Principles of Clinical Practice 2 and 3, Transition to Practice and Student Conferences 2-4 are absent. Per the ambiguity rule this is resolved to the lower level rather than inferred from the sequential-build claim in the graduate attribute framework.",
+      "evidenceLines": [
+        "Professional Behaviour: Observed professional behaviour, using current MD guidelines",
+        "Hurdle requirement: Satisfactory standard in professional behaviour, as demonstrated by observed Professional Behaviour using the MD Professional Behaviour Guidelines, Situational judgement tests and satisfactory completion of the Academic Integrity Quiz.",
+        "Mini Clinical Encounter (Mini-CEX)",
+        "Hurdle requirement: Must maintain a satisfactory standard in professional behaviour, as demonstrated by observed Professional Behaviour Assessment.",
+        "Theme: Professional practitioner (Skills). Consistently display professional behaviour encompassing reliability; appropriate interactions with others; willingness to accept and respond to feedback; and personal behaviours in line with relevant codes of conduct and scope of practice."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "DEMOTED from 3 to 2 on adversarial verification. Level 2 is met exactly and is the ceiling the quotable evidence supports: the MEDS90031 clinical assessment hurdle requires a standard-set pass in the OSCE including at least one history and one physical examination station, i.e. a core assessment that reproduces a professional task end to end, produces the artefact a practitioner would produce (a taken history, a performed examination), and is judged against criteria drawn from practice. Level 3 fails on conjunct (a): the claim that such tasks form the program's assessment spine rests on the course-overview sentence about a Year 4 'clinical placement-based capstone experience', which is narrative prose on the course page, not an assessment page, task or hurdle - and the same sentence was ruled insufficient for C4 level 3 under R2, so it cannot be sufficient here. No subject or assessment page for MEDS90025 (Transition to Practice) or the Year 4 Discovery subjects is in the extract, and the 'at least one per stage' alternative fails because verifiable professional-fidelity assessment exists for Year 1 only. Conjunct (b) is also over-read: Modified Angoff and Borderline Regression are psychometric cut-score procedures, not the profession's own standards of performance in the criterion-situation sense. Evaluative judgement is scored in C2; the placement immersion itself is scored in W3.",
+      "evidenceLines": [
+        "Objective Structured Clinical Examination (OSCE)",
+        "Hurdle requirement: In order to pass this hurdle, students are required to achieve: • Satisfactory standard in each mini clinical encounter and • The standard set pass score in the OSCE, including a pass for at least one history and one physical examination station.",
+        "Minimum performance standards across all standardised assessments in the MD program (for example OSCE and MCQ assessments) are set using widely accepted standard setting methods (such as the Modified Angoff and Borderline Regression approaches).",
+        "Clinical placement is complemented with small group tutorials, simulation, clinical and procedural skills alongside online interactive learning.",
+        "The Doctor of Medicine (MD) is accredited by the Australian Medical Council."
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Every level-3 element is documented. Extended and required: clinical settings in each year of the program, with Years 2 and 3 full-time immersion in clinical placement, all within the eight compulsory subjects rather than an elective route. A sequence rather than one instance: longitudinal community and hospital placements in Year 1, full-time placement in Years 2-3, a placement-based capstone in Year 4. Practitioner-supervised: students work under the guidance of tutors from a mixture of scientific and clinical professions, and clinical encounters carry tutor/clinician assessment. Assessed: the clinical assessment hurdle requires a satisfactory standard in each mini clinical encounter. Structured reflection on professional practice: the ePortfolio, submitted regularly through the year against prescribed themes including 'Professional practitioner' and 'Self-regulated learner', is a hurdle. Simulation is excluded from this item and counted in W2.",
+      "evidenceLines": [
+        "The MD is a full-time course of study, with learning in clinical settings in each year of the program.",
+        "In years 2 and 3 students are immersed in full time clinical placement where they apply foundational knowledge and skills to a broad range of patient encounters in a wide variety of health care settings.",
+        "Clinical skills are developed through use of peer learning, simulation and longitudinal community and hospital based clinical placements.",
+        "Throughout the year, students work towards establishing introductory level clinical competencies while working under the guidance of tutors from a mixture of scientific and clinical professions.",
+        "8 Mini CEX submitted at even time points throughout the year, including a mixture of peer and tutor/clinician assessment",
+        "ePortfolio A student curated compilation that responds to prescribed tasks submitted regularly throughout the year, addressing five key themes: - First Nations - Clinician researcher - Professional practitioner - Self-regulated learner - Determinants of health and health systems",
+        "The ability to adapt to and learn within a workplace setting"
+      ]
+    },
+    "workplace": 7,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "An all-compulsory specialist core plus an accredited sequence plus a staged progression rule - the gate's three alternative PASS routes are all present. 312.5 of the 400 points are eight compulsory subjects, the course is accredited by the Australian Medical Council and leads to registration, and progression is gated on completing 100 points in each of the first three years. Nothing here is generic or interchangeable content.",
+        "evidenceLines": [
+          "• Eight compulsory subjects (312.5 points) and",
+          "Successful completion of 100 credit points of study is required in the 1st, 2nd and 3rd years of the course for progression from one year level to the next.",
+          "The Doctor of Medicine (MD) is accredited by the Australian Medical Council.",
+          "Graduates of the Doctor of Medicine are eligible for provisional registration with the Medical Board of Australia and full registration upon completion of an accredited internship."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Assessment is not recall or scripted response only. Situational judgement tests and the mini clinical encounter/OSCE hurdle require judgements made under uncertainty with accountability, and the Year 4 placement-based capstone places students in live clinical work as trainee junior doctors. The course-level outcome names prioritising a differential diagnosis and informing a management plan - a defended trade-off decision - and the assessment tasks above are where that is examined, so the gate does not rest on an outcome statement alone.",
+        "evidenceLines": [
+          "Professional Behaviour: 2 x Written situational judgement test (SJT)",
+          "Hurdle requirement: In order to pass this hurdle, students are required to achieve: • Satisfactory standard in each mini clinical encounter and • The standard set pass score in the OSCE, including a pass for at least one history and one physical examination station.",
+          "Using clinical reasoning to synthesise ongoing clinical assessment findings, best medical evidence, population-level data and patient contexts, to prioritise the differential diagnosis and inform the management plan.",
+          "In Year 4 students complete a research project in an area of interest and undertake a clinical placement-based capstone experience- learning as trainee junior doctors.",
+          "the ability to manage uncertainty"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1 (1 vs 2): the Student Conference 1 'Oral Group Presentation' is assessed as a hurdle but the extract does not document individual accountability within the group, which is one of the level-2 exemplars. Resolved to 2 rather than down, because level 1's anchor ('no core unit assesses it') is directly contradicted by an assessed group task in a compulsory subject; the exemplar detail is illustrative, not a condition.",
+      "C2 (2 vs 3): the ePortfolio's 'Self-regulated learner' theme, submitted regularly across the year, could be read as process-focused evidence of strategy adjustment over time (level 3). The extract names a theme, not a requirement to evidence adjustment or justify reliance decisions. Resolved DOWN to 2 by the lower-level rule.",
+      "C4 (2 vs 3): the course overview asserts a Year 4 research project in an area of interest and a four-level Discovery progression toward personalised learning, which reads as level-3 structured progression to independent learning. No assessment page for MD Discovery 2/3/4 is in the extract. Resolved DOWN to 2 by R2 (level 3 needs quoted assessment evidence).",
+      "C5 (1 vs 2): 'In Year 4 students complete a research project in an area of interest' could imply a designed inquiry with data collection (level 2). Nothing documents methodology selection or data collection being assessed, and the research pathway is explicitly one of two routes. Resolved DOWN to 1.",
+      "W1 (2 vs 3): the clinician-judged half of level 3 is met (Mini-CEX assessed by tutors/clinicians, professional conduct an explicit hurdle criterion), but 'assessed repeatedly and progressively across the program' cannot be verified - only Year 1 assessment pages are in the extract. Resolved DOWN to 2 by the lower-level rule.",
+      "W2 (2 vs 3) [resolved on adversarial verification]: the level-3 'assessment spine' conjunct was initially carried by the course-overview capstone sentence and by the program-wide standard-setting policy statement. Neither is an assessment page, task or hurdle, and the same capstone sentence was ruled insufficient for C4 level 3 under R2. With verifiable professional-fidelity assessment present for Year 1 only, resolved DOWN to 2.",
+      "W2 vs W3 (one construct, one home): the clinical placement is the setting for both items. The placement's existence, extent, practitioner supervision and reflective assessment are scored ONLY in W3; the fidelity of the assessed tasks (OSCE history and examination stations, standard-set performance criteria) is scored ONLY in W2. Simulation is counted in W2 per the W3 exclusion.",
+      "C2 vs W1 (shared line): the Mini-CEX line 'a mixture of peer and tutor/clinician assessment' carries two constructs. The PEER-appraisal element scores in C2 (appraisal of the quality of work); the clinician-judged clinical-encounter element scores in W1 (communication and conduct judged by a practitioner). Declared rather than double-counted at full weight in both.",
+      "C4 vs W3 (transfer on placement): the line about applying foundational knowledge to a broad range of patient encounters in varied settings is transfer-shaped, but it is placement evidence and so is scored in W3 only; C4 rests on the SJTs and cumulative achievement tests instead."
+    ],
+    "notScoreable": [
+      "All eight items were scoreable; the following are coverage gaps in the extract that capped C4, C5, W1 and W2 rather than items left unscored.",
+      "Assessment pages absent for six of the eight compulsory core subjects: MEDS90004 (Principles of Clinical Practice 2), MEDS90020 (Principles of Clinical Practice 3), MEDS90025 (Transition to Practice), MEDS90005/MEDS90022/MEDS90024 (Student Conferences 2-4). Only MEDS90031 and MEDS90003 assessment pages are present, so all program-wide recurrence claims rest on course-page statements.",
+      "Subject and assessment pages absent for MD Discovery 2/3/4 (MEDS90040, MEDS90041, MEDS90042, MEDS90043, MEDS90044) - the vehicles for the Year 4 research project, the capstone and the clinical/research scholar pathways. This is the specific evidence that would settle C4 level 3, C5 level 2 and W2 level 3.",
+      "No AI or generative-AI content appears anywhere in the extract, including the course-level outcomes and the 67-statement graduate attribute framework; C3's score reflects a documented absence, not missing pages."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-14"
+    }
   }
 };
 
