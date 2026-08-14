@@ -21,6 +21,7 @@ import {
 } from "./data/v4Rubric";
 import {
   V4_META,
+  V4_PANEL_C,
   v4PanelCByCode,
   type V4ItemResult,
   type V4PanelC,
@@ -214,18 +215,36 @@ function RatedV4Item({
   );
 }
 
-/** The exposure–adaptiveness plane with the v3.1 reference portfolio faded for
- * context. The medians are the v3.1 reference values — drawn for orientation
- * only, since v4 medians do not exist until the migration cycle. */
+/** Dot radius encoding the workplace sub-score. W is not on either axis — the
+ * position runs on adaptiveness alone — so size is how it earns its place on
+ * the figure. It also does the work the axes cannot: six scored programs sit at
+ * adaptiveness 9 with W spanning the full 2–9 range, and without this they plot
+ * as one indistinguishable stack. */
+const wRadius = (workplace: number) =>
+  3 + (Math.max(0, Math.min(9, workplace)) / 9) * 5;
+
+/** The exposure–adaptiveness plane. Two cohorts are drawn: the v3.1 reference
+ * portfolio faded for orientation, and the programs already re-scored on v4.1,
+ * sized by their workplace sub-score. The medians are v3.1 values — drawn for
+ * orientation only, since v4 medians do not exist until the migration cycle. */
 function V4MiniMatrix({
   program,
   adaptiveness,
   envelope,
+  workplace,
 }: {
   program: V3Program;
   adaptiveness: number;
   envelope: [number, number];
+  workplace?: number;
 }) {
+  // Peers re-scored on v4.1: plotted on their v4 adaptiveness (not their v3.1
+  // value, which is a different instrument) and sized by W. Programs without a
+  // W score are omitted rather than drawn at an implied zero.
+  const v4Peers = Object.entries(V4_PANEL_C)
+    .filter(([c, r]) => c !== program.code && typeof r.workplace === "number")
+    .map(([c, r]) => ({ peer: v3ProgramByCode(c), r }))
+    .filter((e): e is { peer: V3Program; r: V4PanelC } => e.peer !== undefined);
   const W = 360,
     H = 300,
     PAD = 34;
@@ -276,6 +295,20 @@ function V4MiniMatrix({
           opacity={0.14}
         />
       ))}
+      {v4Peers.map(({ peer, r }) => (
+        <circle
+          key={`v4-${peer.code}`}
+          cx={x(peer.exposure)}
+          cy={y(r.adaptiveness)}
+          r={wRadius(r.workplace as number)}
+          fill="none"
+          stroke={NEUTRAL_DOT}
+          strokeWidth={1.25}
+          opacity={0.5}
+        >
+          <title>{`${peer.name} — adaptiveness ${r.adaptiveness}/15, workplace ${r.workplace}/9`}</title>
+        </circle>
+      ))}
       <line
         x1={x(program.exposure)}
         y1={y(envelope[0])}
@@ -288,11 +321,15 @@ function V4MiniMatrix({
       <circle
         cx={x(program.exposure)}
         cy={y(adaptiveness)}
-        r={7}
+        r={typeof workplace === "number" ? wRadius(workplace) : 7}
         fill={NEUTRAL_DOT}
         stroke="var(--color-background)"
         strokeWidth={2}
-      />
+      >
+        <title>{`${program.name} — adaptiveness ${adaptiveness}/15${
+          typeof workplace === "number" ? `, workplace ${workplace}/9` : ""
+        }`}</title>
+      </circle>
       <text
         x={PAD}
         y={H - 8}
@@ -329,6 +366,28 @@ function V4MiniMatrix({
       >
         Adaptiveness /15 (v4 draft)
       </text>
+      {/* Size legend — a size encoding is unreadable without one. */}
+      <g transform={`translate(${W - PAD - 74} ${PAD + 10})`}>
+        <circle
+          cx={0}
+          cy={0}
+          r={wRadius(0)}
+          fill="none"
+          stroke={NEUTRAL_DOT}
+          strokeWidth={1.25}
+        />
+        <circle
+          cx={22}
+          cy={0}
+          r={wRadius(9)}
+          fill="none"
+          stroke={NEUTRAL_DOT}
+          strokeWidth={1.25}
+        />
+        <text x={36} y={3} fontSize={9} fill="var(--color-muted-foreground)">
+          W 0→9
+        </text>
+      </g>
     </svg>
   );
 }
@@ -581,11 +640,16 @@ export default function V4ReportPage() {
                   program={program}
                   adaptiveness={panelC.adaptiveness}
                   envelope={envelope}
+                  workplace={panelC.workplace}
                 />
                 <p className="text-muted-foreground mt-1 text-xs">
-                  The grey point is this program on the v4 draft score; no
-                  quadrant is implied. The faded points are the v3.1 reference
-                  portfolio, shown for context.
+                  The filled point is this program on the v4 draft score; no
+                  quadrant is implied. Faded fills are the v3.1 reference
+                  portfolio, shown for context. Open rings are the programs
+                  already re-scored on v4.1, and each ring&rsquo;s size is its
+                  workplace sub-score — W is not an axis, so size is how it is
+                  read. Rings at the same height score identically on
+                  adaptiveness and differ on workplace practice.
                 </p>
               </div>
             </div>

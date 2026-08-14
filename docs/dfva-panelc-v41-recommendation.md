@@ -200,6 +200,54 @@ instrument (placements are unambiguously documented), W2 the least (it requires 
 resemblance to professional practice). If W2's agreement is poor, the honest options are sharper
 anchors or dropping the item — not a reliability figure quietly averaged over the panel.
 
+### 6.1 Pre-registered decision rule: when to sum the two sub-scales
+
+The obvious objection to two sub-scores is that Panel C should produce one number. It might. This
+section fixes the rule for deciding **before** the evidence that would decide it exists, because a
+rule chosen after seeing the answer is not a test.
+
+**The rule.** At **n ≥ 30** reference programs scored on all eight items, run the internal-structure
+analysis. Then:
+
+| Result | Action |
+| --- | --- |
+| One factor **and** r(A, W) ≥ 0.6 | The sub-scale distinction is wrong. Sum to a single Panel C /24, publish it as the position axis, and record the retraction in a v4.2 note. |
+| Two correlated factors, r(A, W) in 0.3–0.6 | Keep both sub-scores. Report them separately; consider a documented composite for ranking only, never as the axis. |
+| Two factors **and** r(A, W) < 0.3 | Keep both, and the axis question becomes live in the other direction: W may deserve a display dimension or an axis of its own. |
+
+Three conditions bind the rule. It runs **once**, on the completed reference cohort, not on
+successive partial cohorts until a preferred answer appears. It runs on **multi-rater** scores
+where the IRR study covers them, since a single rater's systematic reading inflates apparent
+structure. And it does **not** run during the migration cycle: the reference medians are being
+re-based on adaptiveness, and changing what the y-axis measures partway through would make the
+migration table incomparable with itself.
+
+**The interim reading, recorded so it cannot be quietly revised.** At n = 16 of 34 (2026-08-14,
+single rater):
+
+- **r(A, W) = 0.24**, r² = 0.06 — the sub-scales are close to uncorrelated.
+- **A**: mean 8.25, sd 1.20, observed range 6–10 of a 0–15 scale.
+  **W**: mean 5.44, sd 2.21, observed range 2–9 of a 0–9 scale.
+  W discriminates roughly twice as widely as A, on a scale six points shorter.
+- Six programs tie at **A = 9** with W spanning **2 to 9** — the entire W range inside a single
+  adaptiveness value. Four tie at A = 8 with W spanning 2 to 7.
+
+This points toward the third row, but it is a correlation on a partial single-rater cohort, not a
+factor analysis, and it does not discharge the rule. It is recorded here as the prior, so that a
+later result agreeing with it cannot be presented as confirmation of something never at risk.
+
+**Why summing now would be wrong on the current evidence.** Addition asserts compensability — that
+a point of W3 substitutes for a point of C3. Two scored programs make the claim concrete:
+`mc-cs` (9, 2) sums to 11 and `mc-clind` (7, 7) sums to 14, so the total ranks a clinical placement
+above AI literacy without ever stating that it does. That is the halo mechanism that retired the
+Irreplaceability bonus (LR §2.1 defect 4), re-entering through arithmetic instead of an anchor.
+
+**The live weakness this does not fix.** W changes no published label, quadrant or median, so it is
+currently decorative — a fair objection, and separate from the summing question. The remedy is to
+give W a job that is not the axis: encoding it as a display dimension on the exposure–adaptiveness
+matrix would separate the six programs presently stacked at A = 9, which is that figure's worst
+crowding. Open decision, recorded in §10.
+
 ## 7. The cost, stated
 
 1. **The /15 scale.** v4 §3 promised not to break it. Panel C is now /24 as a bookkeeping total,
@@ -252,6 +300,8 @@ anchors or dropping the item — not a reliability figure quietly averaged over 
 | 3 | Position axis stays adaptiveness-only pending the internal-structure analysis | **proposed** |
 | 4 | Re-point the IRR protocol at eight items, not five | **done** 2026-08-14 — [protocol §0](evidura-inter-rater-reliability-study.md) rules 1–8 and §3.3/§4 updated: 10 rating targets, per-sub-scale kappa, cross-item misfiling matrix, W-spread sampling, and the two a priori reliability predictions recorded before data collection |
 | 5 | Take the content-validity panel to Lyons now that the review is implemented | **open** — v4 decision 3 (outreach held) still governs; this is the natural moment to revisit it |
+| 6 | Pre-register the sum-or-separate decision rule before the cohort completes | **done** 2026-08-14 — §6.1: thresholds fixed at n ≥ 30, run once, on multi-rater scores, not during the migration cycle; the n = 16 interim reading (r = 0.24) recorded as the prior |
+| 7 | Give W a job that is not the position axis — encode it as a display dimension on the exposure–adaptiveness matrix | **open** — the honest answer to "a sub-score that changes nothing is decorative". Blocked on nothing but a design choice; six programs currently stack at A = 9 and W separates them fully |
 
 ---
 
