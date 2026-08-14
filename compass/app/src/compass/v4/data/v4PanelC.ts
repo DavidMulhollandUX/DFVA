@@ -59,15 +59,13 @@ export interface V4Meta {
 
 export const V4_META: V4Meta = {
   "cohortSize": 34,
-  "scored": 16,
-  "workplaceScored": 16,
+  "scored": 18,
+  "workplaceScored": 18,
   "workplaceComplete": false,
   "complete": false,
   "adaptMedian": null,
   "expMedian": 90.9,
   "pending": [
-    "mc-ed",
-    "mc-envsc",
     "mc-gencoun",
     "mc-intedib",
     "mc-is",
@@ -87,18 +85,35 @@ export const V4_META: V4Meta = {
   ]
 };
 
-/** A program scored on v4 with no Panel A record: no exposure, no alumni
- *  destinations, no market report. The report page renders the Panel C half
- *  and states the other half as absent rather than estimating it. */
+/** A program scored on v4 that is not in the v3 registry.
+ *
+ *  Exposure is instrument-independent, so where the program has its own JIR
+ *  alumni record it is computed here by the identical Panel A procedure and
+ *  is a measured value, comparable with every other program. Where it has no
+ *  such record the fields are null and the page states the absence rather
+ *  than estimating it. Either way no POSITION is assigned: that needs a v4
+ *  adaptiveness median, which the migration cycle has not yet produced. */
 export interface V4OnlyProgram {
   code: string;
   name: string;
+  hasMarketReport: boolean;
+  exposure: number | null;
+  entryExposure: number | null;
+  jirN: number | null;
+  nTitles: number | null;
+  nMedium: number | null;
 }
 
 export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-mgmthre": {
     "code": "mc-mgmthre",
-    "name": "Master of Management (Human Resources)"
+    "name": "Master of Management (Human Resources)",
+    "hasMarketReport": true,
+    "exposure": 94.14,
+    "entryExposure": 91.75,
+    "jirN": 28,
+    "nTitles": 15,
+    "nMedium": 3
   }
 };
 
@@ -2436,6 +2451,285 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     "notScoreable": [
       "Partial-evidence caveat, not an unscoreable item: the extract contains subject and assessment pages for DVM1 only (VETS90120-90127 and the B-SCI Veterinary Bioscience route VETS30014-30032). No subject or assessment page is present for any DVM2, DVM3 or DVM4 subject — including Veterinary Professional Practice 1-5 (VETS90132, VETS90139, VETS90141, VETS90146, VETS90096), the species-based clinical subjects, and Veterinary Research Project A/B (VETS90078/90079). C5 and the level-3 anchors of C4, W1 and W2 are therefore scored on year-one assessment evidence plus the course-structure page alone, and would need re-scoring if the clinical-year pages were captured.",
       "No evidence bearing on artificial intelligence — capabilities, limitations, ethics, governance or tool use — appears anywhere in the extract, so C3 could not be tested above the tool-operation level."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-14"
+    }
+  },
+  "mc-ed": {
+    "instrument": "4.1-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor met: a compulsory core unit (EDUC90930 Literacies in Local and Global Contexts, one of the four compulsory First 50-point subjects) assesses collaborative practice through a 30% multimodal group presentation, and teamwork appears in both the course generic skills and that subject's generic skills. Not level 3: nothing in the extract documents assessed collaborative practice recurring across the program, and no assessment requires coordinating work across people AND tools/AI systems — the Capstone's stakeholder map is an individually produced portfolio artefact about stakeholders, not assessed coordination with them. Not level 1 because the collaboration is actually assessed, not merely claimed in outcomes.",
+      "evidenceLines": [
+        "Multimodal group presentation reflecting on academic literacies (10 min per group)",
+        "Teamwork and professional collaboration.",
+        "Digital Portfolio Part A: A portfolio including reflections on learning, annotated references and a stakeholder map",
+        "Mobilise knowledge through a partnership model, involving and giving voice to direct and indirect stakeholders"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2 anchor met: core assessment includes structured critique of the quality of others' work — a 40% critical review of key readings in the compulsory EDUC90929 and a 60% annotated bibliography plus a written reflection on the use of research in the compulsory EDUC91316, supported by that subject's ILO to critically read, evaluate and debate educational research. Not level 3: no assessment in the extract requires students to document and justify reliance decisions (when they relied on or overrode a tool, source or collaborator), defend judgements of AI-output quality, or evidence strategy adjustment over time; the Capstone's staged Digital Portfolio contains 'reflections on learning' but the extract does not document appraisal of the student's own reliance decisions or strategy change, and the Capstone is one of two exit routes. Programme-level 'good quality evidence' language is an outcome only (R2).",
+      "evidenceLines": [
+        "Written report providing a critical review of key readings",
+        "Written report: Annotated bibliography",
+        "Written reflection: Use of research for critical thinking",
+        "Demonstrate the analytical skills required to critically read, discuss, evaluate and debate educational research, including research based on First Nations knowledge",
+        "Mobilise knowledge in action, examining what constitutes good quality evidence in contextually relevant ways"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor met exactly: AI and digital tools appear only as an elective (Generative AI in Education) and as tool familiarisation. The only digital-focused subject with any critique, Foundations: Digital Futures, is one of six Foundations subjects from which only four (50 credit points) are taken, so it is not core; and its documented digital content is a 'playful introduction'/'light-touch introduction' to familiarity with generative AI tools — the operational level the anchor caps at 1. Not level 2: no compulsory core unit addresses AI capabilities AND limitations/ethics with assessment, and the four compulsory subjects and the course-level intended learning outcomes contain no digital or AI content at all. Not level 0 because digital/AI content does exist in the structure.",
+      "evidenceLines": [
+        "Generative AI in Education",
+        "This subject will provide a playful introduction to ways of working with digital and physical technology, which will be at the heart of the pedagogical approach of the Specialisation. For example, students will develop familiarity with collaborative environments and generative AI tools and will be given a light-touch introduction to the hands-on activities that will take place in some of the subjects.",
+        "Critically reflect on the relevance of technology and design for an inclusive, sustainable and decolonial education.",
+        "Digital literacy.",
+        "50 credit points of foundations subjects",
+        "Critical Reflection: Completion of an interview with a teacher, student or industry representative about the problems and opportunities of technology/space in education"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3 anchor met on its own terms: the program documents structured progression toward independent learning, and both of the two possible final-100-point routes terminate in a self-scoped project — the Capstone is a substantial project students scope from their own professional practice or specialisation, and the Research option is a supervised research project the student designs. Progression is documented and gated (students cannot enter Foundations until all four compulsory subjects are passed). R2 satisfied by assessment evidence, not outcomes alone: the Capstone is assessed via a staged Digital Portfolio (Parts A and B), presentation and report, and the Research route via a 13500-word research project. The self-scoping is universal because it holds under either pathway, so this is not a level-3 route-among-several problem.",
+      "evidenceLines": [
+        "In the final-semester Capstone subject, students undertake a research-based inquiry project directly related to their own professional practice and/or within their area of specialisation.",
+        "The Research subjects are taken at the end of the course and are designed for students intending to later pursue a graduate research degree, such as a PhD. They provide a grounding in educational research methodology and include the design and completion of a supervised research project in education.",
+        "Students can only progress to enrol in the Foundations subjects (second 50 points) if they have passed all four compulsory First 50 point subjects.",
+        "Digital Portfolio Part B: A portfolio including reflections on learning, annotated references, and a methodological note",
+        "Define a substantially complex educational problem or issue directly related to their own professional practice and/or within their area of specialisation"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2 anchor met: under the Research option students design and conduct an inquiry with methodology selection and data collection, assessed — EDUC90419 produces a 70% research proposal with a defined methodology, and EDUC91197 requires them to undertake the project and submit a 13500-word research project at 90%. Level 3 explicitly fails its own qualifier 'REQUIRED (not one route among several)': the Research subjects are one of two pathway options and are additionally gated on a WAM of 75% or above, so most of the cohort can complete the degree via the Capstone, which produces a research-informed plan rather than primary evidence. The level-3 defence element does exist (a hurdle oral presentation with questions), but the route condition is decisive, so the score is held at 2.",
+      "evidenceLines": [
+        "Undertake a research project in education.",
+        "Oral presentation (includes presentation and questions) summarising research undertaken in the subject",
+        "Hurdle requirement: Oral presentation must be presented",
+        "Eligibility for the Research subjects requires achievement of a Weighted Average Mark (WAM) of 75% or above in completed MC-ED studies, calculated at the point of enrolment in the Research subjects.",
+        "Select one Pathway option from below:",
+        "Research proposal"
+      ]
+    },
+    "adaptiveness": 10,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1 anchor met exactly: communication appears in the course generic skills and graduate attributes and in course-level outcomes (communicating to the 'wider educational community'), and core assessment adds spoken work addressed to peers and staff — a 10-minute oral discussion of a written reflection in the compulsory EDUC91316, and the Capstone conference presentation, whose documented audience is the subject's own cohort ('facilitates peer learning'). Not level 2: no core assessment in the extract requires a recognised professional genre (client brief, policy advice, clinical handover, pitch, public-facing artefact) or an audience beyond the teaching team, and no criteria drawn from professional practice are documented for any of these tasks. Per R2 and Barrie, the stated attributes and the outcome about communicating to diverse stakeholders cannot lift the score.",
+      "evidenceLines": [
+        "Oral discussion of written reflection (10 minutes)",
+        "Capstone Conference Presentation: A presentation sharing research-informed strategies for investigating an identified problem",
+        "Students will present their KMS in a conference presentation format that facilitates peer learning and fosters professional alliances and networks.",
+        "Communicate their strategies effectively to diverse stakeholders and audiences.",
+        "Evaluate and communicate contemporary educational research ideas and findings to the wider educational community",
+        "Oral and written communication skills"
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Level 1 anchor met: contextualised and scenario-framed tasks are common — analysis of a learning scenario, a case-study multimodal plan, a research/action/reflection project, and a Capstone framed on the student's own professional context — but the artefacts assessed and the criteria applied remain academic: essays, written analyses, reflections, annotated bibliographies, portfolios and written reports. Not level 2: no core assessment in the extract reproduces a professional task end to end producing the artefact a practitioner would produce judged against criteria drawn from practice. The Capstone's Knowledge Mobilisation Strategy is the nearest candidate, but the assessed items are a reflective portfolio, a conference presentation and a written report, its context may be 'a more generic future context' rather than a real one, no practice-derived criteria are documented, and per R4 the professional framing alone cannot be scored.",
+      "evidenceLines": [
+        "Written Analysis: Analysis of a learning scenario",
+        "Case Study Analysis : Multimodal plan for addressing a wellbeing challenge",
+        "Produce a research, action and reflection project",
+        "Reflective essay on transformed understanding of literacy, relating local and global contexts",
+        "The Capstone project will entail a gradual process of problem definition and mapping, and it will produce a research-informed plan (a Knowledge Mobilisation Strategy or KMS) to inform action.",
+        "Identification of a context - this can be an existing context of professional practice or a more generic future context."
+      ]
+    },
+    "W3": {
+      "score": 0,
+      "rationale": "Level 0 anchor holds literally: no work-integrated learning, placement, practicum or community-based project appears anywhere in the documented course structure — the compulsory, Foundations, Capstone, Research and elective lists contain none, and the course explicitly states it is not an initial teacher education qualification. The only practice-site element is the quota-limited Disciplined Inquiry Capstone (Travel), whose engagement is 'structured visits' to organisations with an attendance hurdle — observation, not extended supervised participation in a workplace with practitioner supervision and accountability to a host, which is the construct W3 names. Nothing in the extract documents practitioner supervision of students in a workplace.",
+      "evidenceLines": [
+        "A practical engagement with educational problems through structured visits to a number of government and non-government organisations and educational institutions in selected countries and jurisdictions.",
+        "Hurdle requirement: Participation in the overseas component, with attendance at a minimum of 75% of all scheduled visitation and activities",
+        "Identification of a context - this can be an existing context of professional practice or a more generic future context.",
+        "Please note that this course is not an initial teacher education qualification and does not provide eligibility for registration to teach in Australian schools."
+      ]
+    },
+    "workplace": 2,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program documents a staged prerequisite chain with disciplinary identity: 50 credit points of four compulsory education subjects that must all be passed before progression into the 50 credit points of Foundations subjects, then a required final 100 points via a Capstone or Research pathway; each of the ten specialisations is additionally an all-compulsory 50-credit-point specialist core. That satisfies the PASS condition (staged prerequisite chain / compulsory specialist core) rather than generic interchangeable content, notwithstanding the large elective component in the Capstone pathway.",
+        "evidenceLines": [
+          "50 credit points of compulsory subjects",
+          "Students can only progress to enrol in the Foundations subjects (second 50 points) if they have passed all four compulsory First 50 point subjects.",
+          "50 credit points of specialisation core subjects",
+          "Engaging with Research in Education",
+          "75 credit points of Elective subjects"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "The PASS condition is met via the capstone route with real uncertainty and accountability: the Capstone requires iterative problem definition and redefinition of a substantially complex, ill-defined educational problem, explicitly problematising assumptions and considering counterarguments and competing disciplinary perspectives, and requires students to plan and evaluate — i.e. choose between — research-informed strategies, assessed through a portfolio, a presentation with a participation hurdle and a written report. The Research pathway equally requires designing and defending a project. Assessment is not recall or scripted response.",
+        "evidenceLines": [
+          "Iterative, reflective and dialogic cycles of problem definition, redefinition and expansion.",
+          "Define a substantially complex educational problem or issue directly related to their own professional practice and/or within their area of specialisation",
+          "Plan and evaluate research-informed strategies to explore and address their problems in their area of professional expertise",
+          "Design a research project to investigate a significant issue in education.",
+          "Capstone Conference Presentation: A presentation sharing research-informed strategies for investigating an identified problem"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1 straddled 1 and 2: the compulsory group presentation is assessed collaborative practice, but the extract does not document individual accountability within the group, one of the level-2 exemplars. Resolved to 2 because the level-1 anchor ('no core unit assesses it') is factually false — a compulsory subject assesses group work at 30%.",
+      "C2 straddled 2 and 3: the Capstone's two-part staged Digital Portfolio with 'reflections on learning' could be read as process-focused assessment evidencing strategy adjustment over time. Resolved DOWN to 2 under the lower-level rule — the extract documents no reliance/override decisions, no appraisal of tool or AI output, and no documented strategy change; and the Capstone is one of two pathways.",
+      "C3 straddled 1 and 2: Foundations: Digital Futures carries genuine critique-flavoured ILOs about technology imaginaries and decolonial education, which would look like level 2. Resolved DOWN to 1 because only four of the six Foundations subjects are taken (50 credit points), so no individual Foundations subject is core, and the subject's documented digital content is explicitly introductory tool familiarity — the operational level the anchor caps at 1.",
+      "C4 straddled 2 and 3 on universality: the level-3 self-scoped project exists in both pathways (Capstone project scoped from the student's own practice; supervised Research Project), so unlike C5 no route-among-several problem arises, and the score is 3. Recorded because the Research route alone would not have justified it.",
+      "C5 straddled 2 and 3: EDUC91197 does generate primary evidence and its hurdle oral presentation with questions resembles the level-3 defence. Resolved DOWN to 2 by the level-3 qualifier 'REQUIRED (not one route among several)' — the Research pathway is optional and WAM-gated at 75%.",
+      "W1 straddled 1 and 2: the Capstone Conference Presentation and the Knowledge Mobilisation Strategy could be read as a professional genre. Resolved DOWN to 1 under the lower-level rule — the documented audience is the subject cohort ('facilitates peer learning'), no external or practitioner audience is documented, and no criteria drawn from professional practice are stated for any core assessment.",
+      "W2 straddled 1 and 2: the Capstone KMS is arguably the artefact an education practitioner would produce. Resolved DOWN to 1 — the assessed items are a reflective portfolio, a conference presentation and a written report; the context may be 'a more generic future context'; and no practice-derived criteria are documented. R4 forbids crediting the professional framing itself.",
+      "W3 straddled 0 and 1: the Travel Capstone's 'structured visits' to government, non-government and educational organisations, with an attendance hurdle, could be read as work-situated learning offered as an elective (level 1). Resolved DOWN to 0 under the lower-level rule — visits are not a placement, practicum, internship or community-based project, and no practitioner supervision of student work is documented.",
+      "C1 vs W1 one-construct-one-home: the compulsory multimodal group presentation could be read either as assessed collaboration (C1) or as spoken communication (W1). Scored in C1, whose construct names collaborative practice; W1 rests on the separate oral-discussion and conference-presentation evidence.",
+      "C4 vs C5 one-construct-one-home: the Capstone/Research self-scoped project supports both independent-learning progression (C4) and inquiry (C5). The self-scoping and progression evidence is scored in C4; the design-and-conduct-with-data evidence in C5."
+    ],
+    "notScoreable": [
+      "No item was wholly unscoreable, but the extract contains no subject or assessment pages for any Elective or Specialisation subject (e.g. EDUC91331 Generative AI in Education, EDUC90938 Quality Assessment Design, EDUC91324 Evaluating Educational Interventions). C3 in particular is therefore scored on the subject title and on Foundations: Digital Futures alone; if the elective's assessment page documented assessed AI critique or governance it would still cap at level 1 by the anchor's elective clause, but the evidence base for C3 is thinner than for the other items.",
+      "Assessment rubrics and marking criteria are not published in the handbook extract for any subject, so the 'judged against criteria drawn from practice' clause in W1 level 2 and W2 level 2 could only be evaluated as absent-from-evidence rather than affirmatively refuted.",
+      "EDUC91199 Research Project in Education Part 2 carries no independent content in the extract ('Refer to EDUC91198 Research Project in Education Part 1 for details.'), so Parts 1 and 2 were treated as the single assessment statement the handbook says they share."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-14"
+    }
+  },
+  "mc-envsc": {
+    "instrument": "4.1-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor met: core units assess collaborative practice with individual accountability — EVSC90017's individually-assessed group symposium presentation, and the year-2 Industry Project's group plan, group report and industry-partner assessment of group performance. Not level 3: level 3 requires, on top of recurrence, at least one assessment where work is coordinated across people AND tools/AI systems (documented role and tool allocation, or the division of work between people and systems itself assessed). No core assessment page documents any tool or system allocation, so the human-plus-tool half of the level-3 anchor has no evidence at all.",
+      "evidenceLines": [
+        "An individually-assessed group presentation during the student symposium. Each student within a group will develop and deliver a 5-10 minute presentation contributing to the given topic",
+        "Group project plan of 1200-1500 words plus appendices.",
+        "Final Group Report of 3500 words plus appendices.",
+        "Industry Partner Assessment of group performance",
+        "they will work as a team to solve an industry-relevant problem that has been identified by their assigned Industry client",
+        "The subject is structured to develop your skills in writing reports and participating in group exercises."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2 anchor met squarely: core assessment includes criterion-referenced appraisal of the quality of work — a weighted peer review of another student's manuscript in EVSC90017 (10%), a critical review in EVSC90014 (10%), and assessed critique of methodologies in EVSC90019. Not level 3: level 3 requires students to document and justify reliance decisions (where they relied on or overrode a tool, source or collaborator), defend judgements of AI-output quality, or evidence strategy adjustment over time. The closest candidate — 'Finalisation of manuscript in light of review and feedback; cover letter to editor' — is consistent with a justified response to reviewers but the handbook does not document that any justification of accepted/rejected feedback is required or assessed, so the lower level is taken.",
+      "evidenceLines": [
+        "One peer-review of up to 600 words of another student's manuscript (randomly allocated)",
+        "Finalisation of manuscript in light of review and feedback; cover letter to editor",
+        "A critical review of up to 500 words due on the first day of class",
+        "appraise and critique scientific data analysis methodologies used to address an environmental challenge.",
+        "Group Project \"Health Check\" Report"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor: digital tools appear only as electives or as tool operation/training. Digital/quantitative tooling is confined to the elective Professional Skills and discipline lists (programming, spatial data analytics, modelling, statistics subjects); the core subjects EVSC90014, EVSC90017, EVSC90019 and both capstone routes carry no digital-tool or AI content in their overviews, outcomes or assessments. Not level 2: level 2 requires core units to address AI capabilities AND limitations/ethics, assessed. The word AI (or gen AI, machine learning) does not appear anywhere in the extract, in any core unit or program-level outcome — so the level-2 and level-3 anchors have no supporting evidence, and level 0 is excluded only because digital tooling does exist at elective level.",
+      "evidenceLines": [
+        "Professional Skills (between 25 and 37.5 credit points)",
+        "Students will select at least 25 points of the following professional skills elective subjects:",
+        "You will be introduced to quantitative and qualitative tools with the objective of giving you the ability to select, apply and assess technical and socially based risk assessment.",
+        "These approaches include empirical observation, mathematical and statistical modelling, and expert opinion."
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2 anchor met: at least one core assessment requires application to an unfamiliar, out-of-class problem — EVSC90014's 2500-word report applying risk-assessment methods to a real work-based problem (50%). Not level 3: level 3 needs documented structured progression toward independent learning — a self-scoped capstone or research project, or assessed identification of one's own knowledge gaps plus the plan to close them. The self-scoped research project (with its hurdle literature survey and research plan) is documented only as a replacement available to 'outstanding students' and contingent on a suitable project and supervisor, not as the documented path; the default capstone is a team project on a problem identified by the client, i.e. externally scoped, and its workplace character is homed in W3 rather than counted here. Self-directed learning otherwise appears only as an unassessed graduate attribute, which R2 scores as claim, not evidence.",
+      "evidenceLines": [
+        "A written assignment of up to 2500 words reporting on an application of the methods to a real, work-based problem due one month after classes finish",
+        "Outstanding students may replace the Industry Project with EVSC90034 Environmental Sci. Research Project Pt 1 and EVSC90035 Environmental Sci. Research Project Pt 2 depending upon the availability of a suitable project and supervisor.",
+        "they will work as a team to solve an industry-relevant problem that has been identified by their assigned Industry client",
+        "Be critical and creative thinkers, with an aptitude for continued self-directed learning;"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2 anchor met: a core capstone requires students to design and conduct an inquiry with methodology selection, assessed — the research-project route documents designing and implementing a field, laboratory or archival project with a hurdle literature survey and research plan and a 10,000-word thesis, and the industry-project route assesses a group project plan framing and analysing an environmental challenge by scientific method. Not level 3: the level-3 anchor is explicit that the substantial primary-evidence project must be REQUIRED and not one route among several. Here the research project is precisely one route among two, and is itself conditional ('Outstanding students may replace... depending upon the availability of a suitable project and supervisor'). Nor does the extract document a viva, defence or staged supervised review of methodology — the 10-minute presentation is reported as a presentation, not a defence.",
+      "evidenceLines": [
+        "Design and implement a field, laboratory and/or literature/archival-based environmental science research project;",
+        "A preliminary literature survey and research plan",
+        "A thesis is the main requirement of the subject.",
+        "Outstanding students may replace the Industry Project with EVSC90034 Environmental Sci. Research Project Pt 1 and EVSC90035 Environmental Sci. Research Project Pt 2 depending upon the availability of a suitable project and supervisor.",
+        "Critically evaluate and design environmental monitoring programs;",
+        "Group project plan of 1200-1500 words plus appendices."
+      ]
+    },
+    "adaptiveness": 9,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 anchor met: core assessment requires professional genres and audiences beyond the teaching team — the Industry Project's one-page charter negotiated with the industry partner, its written reports and presentations addressed to industry representatives, and a 15%-weighted Industry Partner Assessment; EVSC90017 additionally assesses a scientific-manuscript genre with a cover letter to editor. Not level 3: level 3 requires, in addition to repeated progressive assessment and an external judge, that professional conduct or accountability be explicitly among the assessed criteria. The industry-partner component is documented as assessing 'group performance' with no stated conduct or accountability criterion, and the only conduct-adjacent requirement is a colloquia attendance hurdle. Evidence therefore straddles 2 and 3 and the lower level is taken; the compounding reason is that the externally judged route can be replaced by the research project, whose presentation audience is the teaching staff.",
+      "evidenceLines": [
+        "Charter - one page agreement with Industry Partner as to project specifications due Wednesday of week 2 of the semester of commencement.",
+        "Communicate complex environmental information using written reports and oral presentations to their peers, academic staff and industry representatives.",
+        "Industry Partner Assessment of group performance",
+        "Finalisation of manuscript in light of review and feedback; cover letter to editor",
+        "Oral presentation of up to 20 minutes towards the end of semester",
+        "Attendance at the Industry Colloquia"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2 anchor met: at least one core assessment reproduces a professional task end to end — EVSC90014's report applying risk-assessment methods to a real work-based problem, and the Industry Project's charter, plan, health-check and final consultancy reports on a client-identified problem, part-judged by the industry partner. These are documented task features, not the 'industry-relevant'/'genuine workplace' labels R4 forbids scoring on. Not level 3: level 3 requires such tasks to be the assessment spine rather than instances. Against the capstone-plus-scaffolding reading stands the fact that the other two core coursework subjects assess in academic genres throughout (manuscript, peer review, essay, take-home assessments), and the practice-fidelity capstone is replaceable by a thesis. The externally supplied problem would satisfy the level-3 genuine-constraint clause, so the evidence straddles 2 and 3 and the lower level is taken.",
+      "evidenceLines": [
+        "A written assignment of up to 2500 words reporting on an application of the methods to a real, work-based problem due one month after classes finish",
+        "they will work as a team to solve an industry-relevant problem that has been identified by their assigned Industry client",
+        "Final Group Report of 3500 words plus appendices.",
+        "Final Individual Report of 3500 words plus appendices.",
+        "A take-home assessment (up to 2000 words) at the end of semester due during exam period",
+        "One essay of up to 2000 words"
+      ]
+    },
+    "W3": {
+      "score": 2,
+      "rationale": "Level 2 anchor met: a core unit places students in a real workplace setting with practitioner involvement and assessment — a live client project in which students spend time in the business setting, maintain regular contact with the business and the project supervisor, and are assessed by the industry partner, with a colloquia attendance hurdle. Not level 3: level 3 requires substantial REQUIRED work-situated learning with accountability to the host AND structured reflection on professional practice. The time in the business setting is documented only as 'a specific time' with no stated duration, no structured reflection on professional practice is assessed anywhere (the health-check report is a project status document), and the placement-bearing subject pair is replaceable by the research project, which has no workplace component at all.",
+      "evidenceLines": [
+        "students will be required to spend a specific time in the business setting and to then maintain regular contact with the business, as well as the project supervisor, across the duration of the subject",
+        "Industry Partner Assessment of group performance",
+        "Charter - one page agreement with Industry Partner as to project specifications due Wednesday of week 2 of the semester of commencement.",
+        "Students must attend all scheduled colloquia",
+        "Outstanding students may replace the Industry Project with EVSC90034 Environmental Sci. Research Project Pt 1 and EVSC90035 Environmental Sci. Research Project Pt 2 depending upon the availability of a suitable project and supervisor.",
+        "Students integrate their knowledge and skills in an industry-based project or a research project for their capstone experience."
+      ]
+    },
+    "workplace": 6,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "A compulsory specialist environmental-science core of 62.5 points is documented with an explicit staged sequence: two named core subjects in year 1, the graduate seminar plus a two-part capstone in year 2, entered from prior undergraduate study in the life, chemical, physical, earth or environmental sciences. That is a staged progression with disciplinary identity rather than generic or interchangeable content, notwithstanding the wide elective menu around it.",
+        "evidenceLines": [
+          "Core Subjects (62.5 credits points)",
+          "EVSC90017 Global Environmental Change and  EVSC90014 Environmental Risk Assessment must be taken in the first year of enrolment.",
+          "EVSC90019 Graduate Seminar: Environmental Science and Industry Project in EnvironmentalSci Pt1 & Pt2 will be taken in the second year of study.",
+          "It is designed for students with existing undergraduate studies in the life, chemical, physical, earth or environmental sciences to extend their environmental scientific knowledge, and to facilitate the development of professional scientific skills in environmental analysis and risk assessment."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Core assessment requires defended decisions under uncertainty rather than recall: EVSC90014 assesses selection among competing risk-assessment approaches applied to a real work-based problem, with uncertainty named as an object of evaluation, and the core capstone is a live client project whose deliverables carry accountability to an external partner. Program outcomes likewise frame integrated decision making, and the core assessment tasks that would test it exist.",
+        "evidenceLines": [
+          "Environmental Risk Assessment aims to provide you with the skills to undertake and critically evaluate environmental risk assessments.",
+          "Critical thinking: the ability to evaluate scientific methods, findings, different types of information and uncertainty; and",
+          "A written assignment of up to 2500 words reporting on an application of the methods to a real, work-based problem due one month after classes finish",
+          "Apply an integrated scientific, economic and social approach to analyse and conduct environmental decision making;",
+          "they will work as a team to solve an industry-relevant problem that has been identified by their assigned Industry client"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C2 straddled 2 and 3: 'Finalisation of manuscript in light of review and feedback; cover letter to editor' is consistent with justifying which reviewer feedback was accepted or overridden (level 3, reliance decisions on a collaborator) but the handbook documents no required justification. Resolved DOWN to 2 by the never-resolve-upward rule.",
+      "C4 straddled 2 and 3: the research-project route is self-scoped with a hurdle research plan (level 3), but it is documented only as a replacement for 'outstanding students' contingent on supervisor availability, and the default capstone problem is client-identified. Resolved DOWN to 2 by the never-resolve-upward rule.",
+      "C5 straddled 2 and 3: the research project generates primary evidence with staged supervision, but level 3 explicitly requires it be REQUIRED and not one route among several; here it is one of two routes. Resolved DOWN to 2 by the anchor's own 'not one route among several' clause.",
+      "W1 straddled 2 and 3: communication is assessed across both years and the Industry Partner Assessment is judgement by a real external practitioner, but professional conduct or accountability is not documented among the assessed criteria (only 'group performance' plus an attendance hurdle). Resolved DOWN to 2 by the never-resolve-upward rule.",
+      "W2 straddled 2 and 3: EVSC90014's real work-based report plus the client-scoped capstone reads as capstone-plus-earlier-scaffolding with an externally supplied problem (level 3), but the remaining core coursework assesses in academic genres and the practice-fidelity capstone is replaceable. Resolved DOWN to 2 by the never-resolve-upward rule.",
+      "W3 straddled 1 and 2 in the alternative: for students taking the research-project replacement there is no work-situated learning at all (level 1). Scored 2 because the Industry Project pair sits in the Core Subjects table and the course-structure note states it is what is taken in year 2, with the research project as the replacement.",
+      "Route-dependence is the single largest source of uncertainty in this program: the year-2 capstone is either the Industry Project or the Research Project, and the two routes carry the level-3 evidence for different items (W1/W2/W3 for the industry route, C4/C5 for the research route). No student is documented as doing both, which is why no item reached 3.",
+      "Cross-item boundary: the Industry Project's group work was scored in C1 (collaboration), its client-facing reports in W1 (audience), its task fidelity in W2, and its workplace immersion in W3, per the one-construct-one-home rule; the industry-partner assessment is cited in more than one item as context but is decisive only for W1's level-2 external-audience test and W3's practitioner-assessment test."
+    ],
+    "notScoreable": [
+      "C3's level-2/3 test could only be run against the core subject pages, which are present and contain no AI content; the extract contains no subject or assessment pages for the Professional Skills electives (programming, spatial data analytics, statistics, science communication), so any AI or digital-governance content inside those electives is unverifiable from this evidence. This does not change the score, since elective-only tooling caps at level 1 by the anchor.",
+      "No assessment page in the extract documents the duration of the 'specific time in the business setting' for the Industry Project, so the extended-versus-short distinction that separates W3 level 2 from level 3 could not be tested on duration evidence."
     ],
     "verified": {
       "adversarial": true,
