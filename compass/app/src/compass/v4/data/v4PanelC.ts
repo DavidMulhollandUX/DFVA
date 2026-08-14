@@ -59,18 +59,14 @@ export interface V4Meta {
 
 export const V4_META: V4Meta = {
   "cohortSize": 34,
-  "scored": 6,
-  "workplaceScored": 6,
+  "scored": 10,
+  "workplaceScored": 10,
   "workplaceComplete": false,
   "complete": false,
   "adaptMedian": null,
   "expMedian": 90.9,
   "pending": [
-    "mc-ba",
-    "mc-busana",
     "mc-clind",
-    "mc-cs",
-    "mc-datasc",
     "mc-ddensur",
     "mc-dmed",
     "mc-doptom",
@@ -877,6 +873,133 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     },
     "instrument": "4.1-draft"
   },
+  "mc-ba": {
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2's anchor — 'At least one core unit assesses collaborative practice' — is met many times over: syndicate assignments carry marks in every core subject (General Management 1 and 2, Operations, Managing People, Immersive Business Experience), several with documented individual accountability inside the group ('700 words individual with 4 – 5 students in a group'). Level 3 is a conjunction and its second conjunct fails: no core assessment documents coordinating work across people AND tools/AI systems, and nowhere is the division of work between people and systems itself assessed. The one subject about AI-plus-team work, Generative AI for Business, sits in the elective list, so it cannot carry a core-recurrence claim. Scored at 2, not 3, on the missing human-plus-tool allocation evidence.",
+      "evidenceLines": [
+        "Business Foundations: Syndicate assignment and presentation ; Equivalent to 700 words individual with 4 – 5 students in a group",
+        "People Management: Syndicate presentation and report; 800 words individual with 4 – 5 students in a group",
+        "Syndicate case assignments; (4 - 5 students in each group)",
+        "Working in teams, students will apply the skills learned in the programs to identify managerial problems in an ambiguous context, plan and perform appropriate analysis, and derive creative insights that lead to potential solutions, and engage with the relevant stakeholders to drive towards a practically optimal solution."
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1's anchor is squarely satisfied: reflection and self-assessment appear in outcomes (the capstone exists 'to help you reflect upon your learning', PEP outcomes name identifying one's own skill gaps), and reflection is even given assessment weight in Immersive Business Experience. Level 2 requires core assessment to include criterion-referenced appraisal of quality — peer review, structured critique, portfolio with standards, marking against exemplars. The nearest candidate is the PEP 'peer and instructor evaluation of contribution to class learning', but the extract documents no criteria and the object appraised is class contribution, not the quality of work; the reflection piece likewise has no documented standards. Under R1 (score what is documented) and the lower-level rule this resolves down to 1. Level 3 (documented, justified reliance decisions on a tool, source or collaborator) has no evidence anywhere in the extract.",
+      "evidenceLines": [
+        "Personal Effectiveness 1: Contribution to class learning (attendance at skills workshops, peer and instructor evaluation of contribution to class learning)",
+        "Have identified communication, career development, and team skills that need improvement",
+        "The purpose of this final subject at Melbourne Business School is to help you reflect upon your learning and MBA experience",
+        "Integrate peer advice more fully into charting one's professional career",
+        "Individual assignment – Reflection Piece"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1's anchor — 'AI or digital tools appear only as electives or as tool operation/training' — describes this program exactly. Every subject with AI content (Generative AI for Business, Leading Data and AI Transformation, Human Resources Analytics for Leaders, Marketing Communications) sits in the 75-credit-point elective list that students choose six subjects from, so none is guaranteed. The only core digital content is the Data Analytics topic inside General Management 1, which is quantitative-method training: regression, statistical models, robustness of data analyses. Level 2 requires core units to address AI capabilities AND limitations/ethics; the core addresses limitations of data analysis, never of AI, and no core unit documents AI content at all. The governance material that would otherwise support level 3 ('Analyse governance, risk, and organisational challenges in GenAI adoption') is in an elective and so cannot be scored above level 1.",
+      "evidenceLines": [
+        "MBA students must complete six elective subjects, chosen from a list of subjects. Not all elective subjects are offered each academic year.",
+        "Analyse governance, risk, and organisational challenges in GenAI adoption.",
+        "Evaluate the robustness and appreciate the limitations of data analyses",
+        "This subject provides the fundamental quantitative skills necessary for an MBA student to extract information from data, through quantitative analysis, to make better managerial decisions."
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2's anchor — 'At least one core assessment requires application to novel or unfamiliar problems' — is met by the core Immersive Business Experience, where teams take an externally supplied business problem, must isolate it 'in an ambiguous context', and are assessed on it at 90% with a hurdle; the problem is not the taught case and the transfer of MBA frameworks to it is the assessed act. Level 3 requires the program to document structured progression toward independent learning — a self-scoped capstone or research project, or assessed identification of one's own knowledge gaps with a plan to close them. The MBA Capstone is a reflective career subject, not a self-scoped inquiry; the only self-scoped research route, Individual Research Project, is an elective and so is not program-level structured progression; and the PEP gap-identification appears as an outcome statement, which R2 forbids scoring. Held at 2.",
+      "evidenceLines": [
+        "In this project-based subject, students will work with businesses to address real managerial problems using frameworks and concepts acquired during the MBA program.",
+        "identify and isolate problems in an ambiguous context and recognise whether these problems should be approached from a disciplinary, functional or general management perspective using the tools acquired during the course",
+        "Syndicate assignment; Students are required to have regular meetings with the facilitator at different stages of their project to seek feedback and guidance with regards to their progress",
+        "Individual Research Project"
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 1's anchor — an introductory methods unit — is met by the Data Analytics topic in core General Management 1, which teaches and examines regression, statistical modelling from ambiguous business problems, and the limits of analysis. Level 2 requires students to design and conduct an inquiry with methodology selection AND data collection, assessed. The core comes close but stops short: Immersive Business Experience asks teams to 'plan and perform appropriate analysis', which is analysis of a supplied problem with no documented methodology selection or primary data collection. The one subject that clearly documents primary data collection, Marketing Research with its field project and survey instrument, is an elective. Ambiguous between 1 and 2 and resolved down. Level 3 (a required substantial primary-evidence project defended under scrutiny) has no support.",
+      "evidenceLines": [
+        "Undertake regression analysis to quantify complex relationships between multiple explanatory variables and a response variable",
+        "Construct relevant statistical models from ambiguous business problems",
+        "This subject provides the fundamental quantitative skills necessary for an MBA student to extract information from data, through quantitative analysis, to make better managerial decisions.",
+        "plan and perform appropriate analysis"
+      ]
+    },
+    "adaptiveness": 7,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2's anchor — 'at least one core assessment requires a recognised professional genre or an audience beyond the teaching team' — is met by Immersive Business Experience, whose assessed output is a consultancy report and presentation delivered to a real business client, with a matching outcome about communicating to business stakeholders. Level 3 is a three-part conjunction. The first two parts are arguably met (PEP runs across both core modules with assessed presentations in each, and the client is a real external audience), but the third fails outright: nowhere does the extract put professional conduct or accountability explicitly among the assessed criteria — the assessment lines give word counts, weights and hurdles and no conduct or accountability criteria at all. Per R4 and R1 the client framing alone cannot lift the score. Held at 2.",
+      "evidenceLines": [
+        "The analysis and proposed solutions will be presented to the business client in a format appropriate for the project, which usually takes the form of a report and presentation to the client.",
+        "present and communicate effectively their work and solutions to business stakeholders",
+        "The “Personal Effectiveness Program” (PEP) runs across the two core modules and is designed to help students develop the skills and knowledge required to effectively manage the early stages of their career.",
+        "Personal Effectiveness 2: Syndicate presentation; Staggered through the subject; 400 - Words (equivalent) individual with 4 – 5 students in a group"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2's anchor — 'at least one core assessment reproduces a professional task end to end: a real or realistic problem, producing the artefact a practitioner would produce' — is met once, by Immersive Business Experience: a real client, a real managerial problem, and the report-and-presentation a consultant would actually produce. Level 3 requires such tasks to be the program's assessment spine rather than a single instance. They are not. The core assessment spine is syndicate case work plus hurdle final examinations at 35–50% in Operations, Managing People, Financial Reporting & Analysis, Finance, Marketing Management, Economics for Managers and Data Analytics — level-1 contextualised case tasks whose artefacts and criteria stay academic, sitting alongside closed examinations. The level-3 second conjunct (a genuine constraint of practice) is independently satisfied by the ambiguous, externally supplied client problem, but the spine conjunct fails, so the item cannot rise above 2.",
+      "evidenceLines": [
+        "In this project-based subject, students will work with businesses to address real managerial problems using frameworks and concepts acquired during the MBA program.",
+        "The analysis and proposed solutions will be presented to the business client in a format appropriate for the project, which usually takes the form of a report and presentation to the client.",
+        "People Management: Final exam",
+        "Financial Reporting & Analysis: Final examination",
+        "Syndicate case assignments; (4 - 5 students in each group)"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Demoted from 2 to 1 on adversarial verification. Level 2 is a conjunction: a core unit that places students in a real workplace or professional-community setting WITH PRACTITIONER SUPERVISION and assessment. The practitioner-supervision conjunct fails on the extract's own words — the only documented supervision of Immersive Business Experience is 'regular meetings with the facilitator at different stages of their project', a Melbourne Business School facilitator rather than a practitioner in the host organisation, and no accountability to the host is documented anywhere. The first pass resolved this ambiguity upward, which the non-negotiable lower-level rule forbids, and it applied strict conjunction-failure logic at C1 L3, C4 L3, W1 L3 and W2 L3 while relaxing it here; R1 (score what is documented) requires consistency. Level 1's anchor has affirmative support: 'MBA Internship' (25 credit points) sits in the elective list and is exactly the optional internship level 1 describes. The demotion also repairs the one-construct-one-home strain, since Immersive Business Experience already scores in W2 (task fidelity) and W1 (client audience) and the extract never documents students being placed IN the business's setting, only working with businesses as clients.",
+      "evidenceLines": [
+        "MBA Internship",
+        "Elective Subjects",
+        "Syndicate assignment; Students are required to have regular meetings with the facilitator at different stages of their project to seek feedback and guidance with regards to their progress",
+        "In this project-based subject, students will work with businesses to address real managerial problems using frameworks and concepts acquired during the MBA program."
+      ]
+    },
+    "workplace": 5,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program documents an all-compulsory specialist core — 150 of 225 credit points — with explicit progressive build-up rather than interchangeable content: General Management 1 states it prepares students for more advanced subjects, its Economics topic is named as the base that strategy, finance, marketing and negotiations build on, and its quantitative topic is named as the foundation for advanced MBA subjects. The core runs as a staged sequence (General Management 1 → General Management 2 → functional core → Immersive Business Experience → Capstone) with the Personal Effectiveness Program threading both core modules. That is a coherent management core with documented methodological depth, not generic content.",
+        "evidenceLines": [
+          "Students must complete the core subjects which account for a total of 150 credit points in the full-time MBA program.",
+          "The skills and knowledge gained in this subject also prepare students for more advanced subjects in the MBA program, which will further enhance their business acumen and leadership capabilities.",
+          "Many subjects—and in particular business strategy, finance, marketing, and negotiations—build upon the material learned in Economics for Managers.",
+          "The fundamental quantitative skills from this subject provide a foundation to the advanced subjects within the MBA and provide students an analytical framework towards solving managerial problems in their career."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "The gate's 'live projects with real uncertainty and accountability' route is met by the core Immersive Business Experience: students must identify problems in an ambiguous context, balance creativity against practicality, and drive with stakeholders toward a practically optimal solution, assessed at 90% under a hurdle. The core Data Analytics topic adds assessed trade-off reasoning by requiring statistical models to be constructed from ambiguous business problems and optimal decision strategies and risks to be identified. This is well beyond recall or scripted response.",
+        "evidenceLines": [
+          "identify managerial problems in an ambiguous context",
+          "recognise the complexity of the context and appreciate that solutions to managerial problems require a balance between creativity and practicality",
+          "Hurdle requirement: students are required to pass the assessment to pass the subject",
+          "Construct relevant statistical models from ambiguous business problems",
+          "Apply quantitative methods and analyses to identify optimal decision strategies and risks"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C2 straddled levels 1 and 2. 'peer and instructor evaluation of contribution to class learning' is assessed peer evaluation inside two core modules, which reads onto the level-2 exemplar 'peer review', but the extract documents neither criteria nor appraisal of the quality of work (it appraises class contribution). Resolved DOWN to 1 by the lower-level rule plus R1.",
+      "C2 also straddled on the assessed 'Individual assignment – Reflection Piece' and the four hurdle-bearing capstone reflection assignments: reflection carries marks, which is more than level 1 describes, but no standards or exemplars are documented, so it does not reach 'criterion-referenced appraisal of quality'. Resolved DOWN.",
+      "C4 straddled levels 2 and 3 because 'Individual Research Project' (25 credit points) is a genuine self-scoped research route, but it appears only in the elective list. Resolved DOWN to 2: level 3 requires the PROGRAM to document structured progression, which one elective among thirty-odd cannot do.",
+      "C5 straddled levels 1 and 2. 'plan and perform appropriate analysis' in the core client project is close to methodology selection, and the elective Marketing Research documents a full field project with a survey instrument, but no CORE assessment documents methodology selection with data collection. Resolved DOWN to 1.",
+      "W1 straddled levels 2 and 3. Two of the three level-3 conjuncts hold (PEP presentations assessed across both core modules; a real client audience for the Immersive Business Experience). The third — professional conduct or accountability explicitly among the assessed criteria — is nowhere documented, so the conjunction fails and the score stays at 2.",
+      "W2 straddled levels 2 and 3. The level-3 'genuine constraint of practice' conjunct is clearly met (externally supplied, ambiguous client problem with a consequential audience), but the 'assessment spine' conjunct is not: hurdle final examinations at 35–50% dominate the core. Resolved DOWN to 2.",
+      "W3 straddled levels 1 and 2 and is resolved DOWN to 1 on adversarial verification. Level 2's conjunction requires practitioner supervision; the only documented supervision is 'regular meetings with the facilitator', an MBS facilitator rather than a practitioner in the host organisation, and no accountability to the host is documented. Level 1 has affirmative support in the elective 'MBA Internship'. The first pass declined the lower level on the ground that Immersive Business Experience is core and assessed, but the lower-level rule and the conjunction-failure logic applied at C1, C4, W1 and W2 govern.",
+      "C1 vs W1 boundary: the Immersive Business Experience client report is teamwork AND external communication. Per 'one construct, one home' the client-audience communication is scored in W1 only, and C1 rests on the recurring syndicate assessment across the core.",
+      "W2 vs W3 boundary: Immersive Business Experience supplies evidence to W2 (fidelity of the task — real client problem, consultant's artefact). It does not carry W3, because the extract documents students working WITH businesses as clients, never being placed IN a business's setting under practitioner supervision."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-14"
+    },
+    "instrument": "4.1-draft"
+  },
   "mc-base": {
     "C1": {
       "score": 2,
@@ -1006,6 +1129,418 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "W3 straddled levels 2 and 3: the Senior Executive Project runs across five core subjects, which reads as extended, but it is a live client project rather than a placement or practicum, and neither accountability to a host nor structured reflection on professional practice is documented for it. Resolved to 2.",
       "One-construct-one-home applied to the Senior Executive Project, which is a single program feature with three separable documented aspects: its student-scoped, staged, gap-closing design scored in C4 (the self-scoped-project route that v4.1 leaves in C4); its task fidelity and practice constraints scored in W2; its siting in a real organisation with industry mentors scored in W3. No aspect was counted twice, and the project's collaborative-syndicate character was deliberately not used to lift C1 above the level it reaches on syndicate assessment alone.",
       "Assessment criteria are never published anywhere in this extract — every assessment row gives description, timing and percentage only. W1 level 2 and W2 level 2 each require criteria 'drawn from practice'; these were scored on the documented genre and task features instead, which is the most the handbook supports, and this charitable reading is one reason W2 could not also be read charitably at level 3."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-14"
+    },
+    "instrument": "4.1-draft"
+  },
+  "mc-busana": {
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2's anchor — 'at least one core unit assesses collaborative practice — group projects with individual accountability' — is met many times over: syndicate assignments and projects are weighted assessment in Programming Foundations, Business Data Platforms, Decision Making and Optimisation, Statistical Learning, Causal Analytics, Predictive Analytics, Machine Learning & AI, NLP, Marketing Analytics, Supply Chain and Risk Analytics, and the Prof Dev route adds a group-work hurdle. Level 3 is not reached because its second conjunct is undocumented: no assessment in the extract requires coordinating work across people AND tools/AI systems, and no task allocates roles and tools or assesses the division of work between people and systems. Collaboration recurs, but the human-plus-tool coordination the anchor names is absent from every assessment description.",
+      "evidenceLines": [
+        "Syndicate Project (4 - 5 students per group)",
+        "Syndicate assignment and presentation",
+        "Syndicate assignment (4 - 5 students per group)",
+        "Syndicate project",
+        "Project/group work involving negotiation strategies",
+        "Apply Professional Standards - Students will critically evaluate and apply professional and ethical standards in the analysis of data - Students will reflect on their behaviour in teams and develop strategies to improve"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1's anchor — 'Reflection or self-assessment appears in outcomes or graduate attributes, but no core unit assesses it against criteria' — fits: reflection is stated at course level ('reflect on their behaviour in teams and develop strategies to improve') and in Prof Dev I's outcomes ('Have identified ... skills that need improvement'), and reflective/reflection essays carry marks. Level 2 requires criterion-referenced appraisal of the QUALITY of work — peer review, structured critique, portfolio against standards, marking against exemplars — and none is documented: the extract records only essay length and weighting for every reflection task, with no criteria, no peer or exemplar comparison. Critique appears in Causal Analytics and Predictive Analytics outcomes ('critique and compare competing methodologies') but the assessment rows for those subjects are quizzes, syndicate assignments and hurdle exams, so R2 caps it at 1. Level 3 (documented, justified reliance decisions over a tool, source or collaborator) has no evidence anywhere in the extract.",
+      "evidenceLines": [
+        "Apply Professional Standards - Students will critically evaluate and apply professional and ethical standards in the analysis of data - Students will reflect on their behaviour in teams and develop strategies to improve",
+        "Have identified communication, career development, and team skills that need improvement.",
+        "Reflective Essay",
+        "Reflection essay",
+        "Apply appropriate modelling and forecasting techniques to business and economic contexts, and to critique and compare competing methodologies."
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 2 requires core units to address AI capabilities AND its limitations/ethics, with use-with-limits discussed and assessed. The capabilities half is unambiguously core (Machine Learning & AI for Business, Natural Language Processing, Statistical Learning), but the limitations half fails on its own terms: the only AI-specific statement in the extract is 'an introduction to Generative AI within the context of programming' — tool-level exposure, which the migration note caps at level 1 — and nothing documents AI limitations, reliability bounds, or limits on relying on AI output. The ethics content that does exist is data ethics (cyber ethics, privacy, ethical concerns in data acquisition and storage), and the one assessment row that names it sits in BUSA90547, an alternative capstone route marked 'Not available in 2026'; in Programming Foundations ethics is an outcome only, its assessment rows being a mid-term test, a syndicate project and a hurdle exam, so R2 applies. Level 3 (critique or governance of AI systems — bias, accountability, transparency, regulation) is not assessed anywhere; the course outcome about 'ambiguities and bias in data' is an outcome statement, never sufficient under R2.",
+      "evidenceLines": [
+        "Topics such as cyber security, cyber ethics and privacy regarding the collection of individual data are also discussed. The subject also includes an introduction to Generative AI within the context of programming.",
+        "Understand ethical issues regarding privacy and cyber security.",
+        "Mid-term test",
+        "Syndicate project",
+        "Individual report on ethical concerns within data/analytics",
+        "Graduate courseworkPoints: 12.5Not available in 2026",
+        "Deal with ambiguity and uncertainty - Students will make appropriate judgements about how to proceed in an environment with incomplete information - Students will identify and be able to deal with ambiguities and bias in data"
+      ]
+    },
+    "C4": {
+      "score": 1,
+      "rationale": "Demoted from 2 to 1 on adversarial verification. The level-2 case rested entirely on the Professional Development & Application II industry project (the 5-week group project using data in/from an industry setting, assessed by a hurdle syndicate research report), but that subject is the industry placement scored at W3=2, and the non-negotiable one-construct-one-home rule states categorically that placement evidence scores in W3, never in C1 or C4. With those lines barred, the residue is outcome statements only — 'Integrate the knowledge and skills acquired to conduct research in an industry setting ... apply to a business setting with real data' and 'Have identified communication, career development, and team skills that need improvement' — plus the approval-gated Research Pathway, which is not core. No assessment row in the ten taught subjects documents application to novel or unfamiliar problems, case variation, unseen datasets or cross-context projects; every row is a quiz, a word-counted syndicate assignment, a midterm or a hurdle final exam. That is level 1: transfer is claimed in outcomes but not assessed.",
+      "evidenceLines": [
+        "Integrate the knowledge and skills acquired to conduct research in an industry setting - Students will appropriately select one or more advanced analytical techniques to apply to a business setting with real data Application of Knowledge and Skills",
+        "Have identified communication, career development, and team skills that need improvement.",
+        "Research pathway",
+        "*Note: Students who would like to take Research Pathway are required to acquire the approval of course coordinator prior to enrolment.",
+        "Mid-term test",
+        "Syndicate assignment (4 - 5 students per group)"
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Demoted from 2 to 1 on adversarial verification. Level 2's anchor is a conjunction — students design and conduct an inquiry with methodology selection AND data collection, assessed — and data collection by students is nowhere documented: the projects work on supplied industry data. A failed conjunct cannot support the level. The Causal Analytics evidence is subject-overview prose ('The gold standard for establishing causality is a randomised experiment...') and an outcome statement ('Be familiar with the key principles of experimental design' — familiarity is not designing an inquiry); its assessment rows are in-class quizzes, a 1500-word syndicate assignment and a hurdle exam, none described as an inquiry-design task, so R1/R2 apply. The only remaining candidate, the Prof Dev II syndicate research report, is placement evidence on supplied data with no documented methodology-selection requirement, and is in any case barred from C-scale application constructs by the one-construct-one-home rule. The first-pass reasoning that 'level 1 does not describe this program' resolved ambiguity upward, which the scoring-direction rule forbids. Level 1 stands: methods are taught and examined, but no assessed student-designed inquiry is documented outside the approval-gated Research Pathway.",
+      "evidenceLines": [
+        "Be familiar with the key principles of experimental design and how to analyse them.",
+        "The gold standard for establishing causality is a randomised experiment, which is becoming more common in business contacts.",
+        "In-class quizzes",
+        "Syndicate assignment (4 - 5 students per group)",
+        "Research pathway",
+        "*Note: Students who would like to take Research Pathway are required to acquire the approval of course coordinator prior to enrolment."
+      ]
+    },
+    "adaptiveness": 6,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2's anchor — at least one core assessment requiring a recognised professional genre or an audience beyond the teaching team — is met by assessed professional genres in the Prof Dev sequence: a hurdle cover letter and CV, a business-case group presentation, a syndicate oral presentation, and a technical report written for a non-technical audience. Level 3 requires, in addition to progressive repetition, that at least one core assessment be delivered to or judged by a real external audience or practitioner. That is not documented: the industry project has 'an approved supervisor' but no assessment row states who receives or judges the report or presentation, and audiences are unspecified throughout. Professional conduct IS explicitly an assessed hurdle (the NDA/behavioural requirement), which is one of level 3's conditions, but the external-audience condition is unmet, so the conjunction fails and the score resolves down.",
+      "evidenceLines": [
+        "Communicate the results of technical analysis - Students will display effective verbal communication skills when making a presentation - Students will write reports on data analysis projects which can be understood by non-technical audiences - Students will develop graphs and data visualisations to effectively convey information",
+        "Completion and Submission of Cover letter and CV",
+        "Group presentation - business case (5 - 6 students in each group)",
+        "Syndicate oral presentation",
+        "Deliver a technical report appropriate for a non-technical audience.",
+        "Behavioural requirement",
+        "Hurdle requirement: Students must follow all agreements (such as Non-Disclosure Agreement) during the placement. Breach of conduct or any agreement will lead to a fail result in this subject or academic misconduct investigations."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2's anchor — at least one core assessment reproducing a professional task end to end — is met by the Prof Dev & Application II industry project: a real externally supplied problem using industry data under an approved supervisor, producing the artefacts an analytics practitioner produces (a technical report for a non-technical audience and a client-style oral presentation). Level 3 requires such tasks to be the assessment SPINE rather than a single instance; here the spine is examinations — every one of the ten taught subjects carries a hurdle final exam at 50-60% — with syndicate assignments whose fidelity the extract never describes beyond word count, weighting and group size. Supply Chain Analytics offers case studies, which is level 1 contextualisation, not an end-to-end professional artefact. Per R4 no credit is taken from the phrase 'real world'; only the documented features of the industry project are scored, and that is one instance.",
+      "evidenceLines": [
+        "This subject integrates academic learning and practical challenges in implementing data analytics via a 5-week group project using data in/from an industry setting",
+        "Practicum skills: The completion of a 5-week project using data in/from an industry setting under an approved supervisor.",
+        "Syndicate research report",
+        "Deliver a technical report appropriate for a non-technical audience.",
+        "exposure to real world logistics and supply chain decisions through case studies",
+        "Mid-term test"
+      ]
+    },
+    "W3": {
+      "score": 2,
+      "rationale": "Level 2's anchor — a core unit placing students in a real workplace or professional-community setting with practitioner supervision and assessment, but short or standalone — fits precisely: Prof Dev & Application II is an industry placement ('the preparation for industry placement occurring in Professional Development II'), the project runs in/from an industry setting under an approved supervisor, and it is assessed by a hurdle syndicate research report, an oral presentation and a reflection essay, with accountability to the host enforced by an NDA/conduct hurdle. Level 3 fails on substance and requiredness: the placement is five weeks in a 6.25-credit-point subject — short and standalone, not an extended placement or a sequence of placements (Prof Dev I is classroom career preparation, not work-situated) — and the ten-week version sits in BUSA90547, 'Not available in 2026'. The research pathway substitutes an individual research project for the placement entirely.",
+      "evidenceLines": [
+        "These areas are the preparation for industry placement occurring in Professional Development II",
+        "Practicum skills: The completion of a 5-week project using data in/from an industry setting under an approved supervisor.",
+        "Hurdle requirement: Students must follow all agreements (such as Non-Disclosure Agreement) during the placement. Breach of conduct or any agreement will lead to a fail result in this subject or academic misconduct investigations.",
+        "Syndicate research report",
+        "Reflection essay",
+        "Practicum skills: The completion of a 10-week project using real data in/from an industry setting under an approved supervisor.",
+        "Graduate courseworkPoints: 12.5Not available in 2026"
+      ]
+    },
+    "workplace": 6,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The gate's PASS condition — a coherent specialist core with progressive technical or methodological depth — is documented. Ten compulsory analytics subjects are staged across March, May and October study periods, followed by a required capstone block, and depth is explicitly cumulative: Machine Learning & AI for Business 'builds on the material in Statistical Learning for Business and covers advanced analytic methods'. A prerequisite chain is stated for the capstone ('Successful completion of a range of core academic subjects as well as Professional Development I is a pre-requisite'). The content is disciplinary rather than interchangeable: statistical learning, optimisation, causal inference, forecasting, NLP, marketing, supply chain and risk analytics.",
+        "evidenceLines": [
+          "The knowledge and skills required to apply data analytic techniques to business problems are multi-disciplinary, drawing on mathematics, statistics, computer science, and business and economics.",
+          "This component builds on the material in Statistical Learning for Business and covers advanced analytic methods.",
+          "Successful completion of a range of core academic subjects as well as Professional Development I is a pre-requisite for this subject."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "The gate's PASS condition — assessments requiring defended trade-off decisions, or live projects with real uncertainty and accountability — is met on both limbs. Decision Making and Optimisation teaches decision making under uncertainty and the trade-off between competing methods, assessed by a syndicate project, a midterm and a hurdle exam; Risk Analytics is built on the uncertainty inherent in risk management; and the course outcome requiring judgements 'in an environment with incomplete information' is realised in the assessed industry project, which carries genuine accountability through the NDA/conduct hurdle. This is well beyond recall or scripted response.",
+        "evidenceLines": [
+          "Topics covered may include decision making under uncertainty, optimal location allocation of resources in business processes, decision trees, linear programming, integer linear programming, and Monte Carlo simulations.",
+          "Understand the most relevant methods and the trade-off between methods required to solve these models including: decision trees, linear programming, integer linear programming, local search and meta-heuristics.",
+          "Deal with ambiguity and uncertainty - Students will make appropriate judgements about how to proceed in an environment with incomplete information - Students will identify and be able to deal with ambiguities and bias in data",
+          "Understand the key challenges and appreciate the uncertainty that is inherent in risk management.",
+          "Understand the key reasons that associations in non-experiment data may be spurious and to critique analyses that do not take this into account."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C2 straddled 1 and 2: reflective and reflection essays are marked assessment, not merely stated outcomes, which pulls toward level 2, but level 2 names criterion-referenced appraisal of the quality of work (peer review, critique, exemplars, standards) and the extract documents only word count and weighting for every reflection task. Resolved DOWN to 1 by the never-resolve-upward rule plus R2.",
+      "C3 straddled 1 and 2: core subjects (Machine Learning & AI for Business, NLP) teach AI capability substantively, which is more than level 1's 'electives or tool operation', but level 2's conjunction requires limitations/ethics of AI use discussed AND assessed, and the only AI-specific content is 'an introduction to Generative AI', with the ethics content being data/privacy ethics assessed only in an alternative route subject marked 'Not available in 2026'. Resolved DOWN to 1 on the failed conjunct.",
+      "C4 was scored 2 at first pass and demoted to 1 on adversarial verification: the level-2 case rested wholly on the Prof Dev & Application II industry project, which the one-construct-one-home rule reserves for W3 (placement evidence scores in W3, never in C1 or C4). What survives is outcome statements plus the approval-gated Research Pathway, neither of which documents assessed application to novel or unfamiliar problems.",
+      "C5 was scored 2 at first pass and demoted to 1 on adversarial verification: level 2 requires methodology selection AND data collection, and the first pass itself conceded that student data collection is nowhere documented (projects use supplied industry data). The Causal Analytics support is subject-overview prose plus a 'be familiar with' outcome against quiz/assignment/exam rows, so R1/R2 apply, and the first-pass reasoning resolved ambiguity upward, which the scoring-direction rule forbids.",
+      "Pathway structure affects C5, W1, W2 and W3 alike: the capstone is a choice between Risk Analytics plus Applied Business Analytics, Prof Dev & Application I+II, and the Research Pathway. Prof Dev II evidence was treated as core for the W-scale because it is the standard full-time route requiring no approval, whereas the Individual Research Project was NOT credited at C5 level 3 because that anchor explicitly excludes 'one route among several' and the pathway requires coordinator approval.",
+      "W1 straddled 2 and 3: the professional-conduct half of level 3 is explicitly satisfied by the NDA/behavioural hurdle, and communication is assessed more than once (Prof Dev I presentation, Prof Dev II presentation, ML & AI presentation), but no assessment row names a real external audience or practitioner as recipient or judge. Resolved DOWN to 2 on the unmet conjunct.",
+      "W3 straddled 2 and 3: the placement carries practitioner supervision, assessment, host accountability and structured reflection — four of level 3's five features — but fails 'substantial/extended', being a five-week project in a 6.25-credit-point subject, with the ten-week variant unavailable in 2026. Resolved DOWN to 2.",
+      "Applied Business Analytics (BUSA90547) is listed in the course structure yet its own page reads 'Not available in 2026'. Its evidence (10-week supervised industry project, ethics report hurdle, reflection essay) was therefore noted but not used to lift any score.",
+      "R4 was applied to Supply Chain Analytics' 'real world' phrasing and to Prof Dev II's 'employability skills' framing: neither raised W2, which was scored only on documented task features."
+    ],
+    "notScoreable": [
+      "Marking criteria and rubrics are published for no subject in the extract — every assessment row gives description, timing and percentage only. W1 and W2 therefore could not be tested against their 'judged against criteria drawn from professional practice' clause on documented evidence, and were scored on genre and task features alone; if criteria evidence were available, W2 in particular could move.",
+      "No evidence bearing on C2 level 3 (documented, justified reliance decisions about a tool, source or collaborator; defence of AI-output quality; assessed strategy adjustment over time) appears anywhere in the extract — the construct is absent from this handbook rather than scored low.",
+      "Audience and assessor identity for the Prof Dev II syndicate oral presentation and research report are not stated, which is the single fact that would decide W1 between 2 and 3."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-14"
+    },
+    "instrument": "4.1-draft"
+  },
+  "mc-cs": {
+    "C1": {
+      "score": 1,
+      "rationale": "Level 2 requires that 'at least one core unit assesses collaborative practice'. The only unconditionally compulsory Year 1 subject is COMP90044 Research Methods, whose every assessment is individual (individual literature review, individual research methods design assignment, individual oral presentation, individual workshop exercises), and the compulsory Year 2 Research Project Parts 1-4 have no subject or assessment page in the extract. Assessed group work is documented only in subjects a student may or may not take: COMP90049 and GEOM90008 sit in the Foundational band (a required band of 25-37.5 credit points chosen from six subjects, three of which - COMP90015, COMP90048, COMP90054 - assess only individually, so the band can be completed without any group assessment), and COMP90042's group project is an elective. Teamwork also appears in subject-level outcomes (GEOM90008 ILO 5). That is the level-1 picture: collaboration appears in outcomes and in choosable units but no compulsory unit is documented to assess it. Level 3 is not reached on any reading - nothing in the extract assesses the division of work between people AND tools/AI systems.",
+      "evidenceLines": [
+        "12.5 credit points of Year 1 compulsory subjects",
+        "Between 25 and 37.5 credit points of Year 1 Foundational Computer Science subjects",
+        "ILO 5. Demonstrate professional skills in ethics and sustainability, communication, and teamwork.",
+        "Group research project. Addresses ILOs 1, 3 & 4.",
+        "Group project – data management design proposal. Deliverable is a report of a maximum of 5 pages (per group) (25%). (30 hours of work per group member). ILOs 1, 2, 3 and 5 are addressed in this assessment.",
+        "A group-based (group of 2-3) research project essay working from Week 6 to 12 with a Week 12 submission.",
+        "An individual critical literature review of 2000 words. Intended Learning Outcomes (ILOs) 1, 3 and 5 are addressed in this assessment."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2 asks for core assessment containing criterion-referenced appraisal of quality, of which 'structured critique' is a listed exemplar. The compulsory COMP90044 Research Methods assesses an individual critical literature review (40%) and an individual research methods evaluation and design assignment (40%), both tied to the assessed outcome of applying rigour and skepticism in the analysis, interpretation and evaluation of research findings - appraisal of the quality of research work, assessed, in a unit every student must take. Level 3 is not met: no assessment in the extract requires students to document and justify reliance decisions on a tool, source or collaborator, to defend judgements of AI-output quality, or to evidence strategy adjustment over time. The closest process-focused artefact, GEOM90008's individually written 1-page reflection on the group project, is in a choosable Foundational subject and is a reflection on a group project rather than a documented reliance decision, so it does not lift the score.",
+      "evidenceLines": [
+        "An individual critical literature review of 2000 words. Intended Learning Outcomes (ILOs) 1, 3 and 5 are addressed in this assessment.",
+        "An individual research methods evaluation and design assignment of 2000 words. ILOs 2, 3, 4 and 6 are addressed in this assessment.",
+        "Apply rigour and skepticism in the analysis, interpretation and evaluation of research findings",
+        "1 peer review assignment of other student groups' research project essays.",
+        "An individually written 1-page reflection on the group project (10%). ILOs 4 and 5 are addressed in this assessment."
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 is the anchor that matches literally: AI appears as a program-level specialisation and as elective/choosable content, not as core units addressing AI capabilities AND limitations/ethics. Artificial intelligence is named in the course outcome as one of several areas of specialist knowledge, and the AI-bearing subjects sit in the elective bands (a whole 'Artificial Intelligence electives' group, 50-62.5 credit points of Year 1 electives) or in the choosable Foundational band (COMP90049, COMP90054). COMP90054 does carry ethics content ('Ethics in AI planning') and an assessed outcome on ethical consequences, which would support level 2 if it were compulsory - it is not; the only compulsory Year 1 subject, COMP90044 Research Methods, contains no AI or digital-tool content. Level 3 is unreachable: the extract contains no occurrence of generative AI, AI governance, accountability, transparency or data governance in any assessment.",
+      "evidenceLines": [
+        "Specialist knowledge in (at least) one of artificial intelligence, cybersecurity, human-computer interaction, programming languages & distributed systems, and spatial information science",
+        "Between 50 and 62.5 credit points of Year 1 elective subjects",
+        "Artificial Intelligence electives",
+        "Ethics in AI planning",
+        "Be able to critically evaluate the strengths, weaknesses, and ethical consequences of different approaches for reasoning about action",
+        "12.5 credit points of Year 1 compulsory subjects"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "The level-3 anchor names 'a self-scoped capstone or research project' documented as structured progression toward independent learning, and the handbook documents exactly that as required curriculum rather than as an outcome statement: 100 of the 200 credit points are a compulsory Year 2 research project in four parts, described as a year-long research project in a field of choice, with the compulsory COMP90044 Research Methods explicitly sequenced into the semester immediately before it. The progression is assessed, not merely claimed: COMP90044's assessed outcome of surveying literature, identifying gaps and formulating research questions is examined through the 40% individual critical literature review and the 40% research design assignment, and the project itself is a compulsory credit-bearing sequence, not one route among several. Level 2 would understate this, since the requirement is not merely one assessment on a novel problem but a half-degree self-scoped project.",
+      "evidenceLines": [
+        "The Master of Computer Science is a research training program that gives students the opportunity to undertake a year-long research project in a field of choice, as well as a broad range of advanced computer science subjects.",
+        "100 credit points of Year 2 compulsory research project (in four parts) including",
+        "50 credit points of Part 1 and 2 Computer Science Research Project subjects",
+        "COMP90044 Research Methods should be taken in the semester immediately prior to the semester you commence your Research Project (i.e., second semester of study for full-time students).",
+        "Survey relevant literature, identify gaps and formulate productive research questions",
+        "An individual critical literature review of 2000 words. Intended Learning Outcomes (ILOs) 1, 3 and 5 are addressed in this assessment.",
+        "Research maturity, including the ability to independently carry out a research survey, and plan, execute, interpret and report on experimental or theoretical results."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2 is fully documented: the compulsory COMP90044 assesses methodology selection and research design (individual research methods evaluation and design assignment, 40%; assessed outcome 'Conduct effective research design and planning'), and the compulsory 100-credit-point four-part research project requires students to execute an inquiry. Level 3 additionally requires that methodology be 'defended under scrutiny (viva, defence, or staged supervised review)', and that element is not documented. The research project subjects COMP90078-COMP90081 have no subject or assessment page in the extract, so no viva, defence or staged supervised review of the project is quotable; the four-part staging is documented only as enrolment sequencing. The only assessed methodological defence in the extract is a 5-minute individual oral presentation in COMP90044 worth 15%, which is too thin to carry 'under scrutiny' on its own. Evidence therefore straddles 2 and 3, and the lower level is taken.",
+      "evidenceLines": [
+        "An individual research methods evaluation and design assignment of 2000 words. ILOs 2, 3, 4 and 6 are addressed in this assessment.",
+        "Conduct effective research design and planning",
+        "An individual oral presentation relating to the research methods evaluation and design assignment. ILOs 2, 3, 4 and 6 are addressed in this assessment.",
+        "100 credit points of Year 2 compulsory research project (in four parts) including",
+        "Students studying full-time must take Part 1 and 2 concurrently, and Part 3 and 4 concurrently.",
+        "Research maturity, including the ability to independently carry out a research survey, and plan, execute, interpret and report on experimental or theoretical results."
+      ]
+    },
+    "adaptiveness": 9,
+    "W1": {
+      "score": 1,
+      "rationale": "The level-1 anchor is met precisely: communication and professional conduct appear in the course-level outcomes (verbal and written communication; professional ethics and responsibility towards the profession and the community), and core assessment adds a spoken component - COMP90044's individual oral presentation, delivered to the teaching team and peers - but no professional genre and no audience beyond the teaching team is documented. Per R2 and Barrie, the stated outcomes and the Melbourne graduate attributes cannot themselves raise the score. Level 2 would require a recognised professional genre or an audience beyond the teaching team judged against criteria drawn from professional practice; the compulsory assessments are a 2000-word literature review, a 2000-word research design assignment, an oral presentation and workshop exercises - all academic genres addressed to the marker - and the extract documents no client brief, consultancy advice, pitch, panel or public-facing artefact anywhere in the core.",
+      "evidenceLines": [
+        "Verbal and written communication skills that enable them to make a meaningful contribution to our changing society.",
+        "Professional ethics and responsibility towards the profession and the community",
+        "Communicate research effectively in written and oral form",
+        "An individual oral presentation relating to the research methods evaluation and design assignment. ILOs 2, 3, 4 and 6 are addressed in this assessment.",
+        "An individual critical literature review of 2000 words. Intended Learning Outcomes (ILOs) 1, 3 and 5 are addressed in this assessment."
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Level 2 requires at least one core assessment that reproduces a professional task end to end, producing the artefact a practitioner would produce, judged against criteria drawn from practice. The compulsory COMP90044 assessments are a literature review, a research design assignment, an oral presentation and workshop exercises: contextualised by a research problem but academic in artefact and in stated criteria, which is the level-1 anchor. The genuinely practitioner-shaped tasks in the extract - GEOM90008's staged design-proposal-then-realisation of a spatial database, and INFO90004's expert evaluation and lab-based user evaluation with recommendations - sit in the choosable Foundational band, not the compulsory core, and no criteria drawn from professional practice are documented for them. The compulsory research project could plausibly be an end-to-end research-practice task, but its assessment page is absent so neither the artefact nor the criteria can be quoted. Per R4 I have scored only documented task features, ignoring the 'real-world problems' phrasing in COMP90049's outcome.",
+      "evidenceLines": [
+        "An individual critical literature review of 2000 words. Intended Learning Outcomes (ILOs) 1, 3 and 5 are addressed in this assessment.",
+        "Workshop exercises throughout the semester. Each student will be required to complete at least 8 out of 10 exercises. ILOs 1 - 6 are addressed.",
+        "ILO 3 - Design, implement, and evaluate machine learning systems for real-world problems",
+        "ASSESSMENT 1 – EXPERT EVALUATION An individual report (500 words) consisting of a Heuristic Evaluation and Cognitive Walkthrough of a given interactive technology.",
+        "Group project – realisation of the spatial database previously designed in the project design proposal, assessed via a report of a maximum of 15 pages (per group) and a set of database queries proving the realised implementation (35%). (requiring 50 hours of work per group member). ILOs 1-5 are addressed in this assessment.",
+        "Between 25 and 37.5 credit points of Year 1 Foundational Computer Science subjects"
+      ]
+    },
+    "W3": {
+      "score": 0,
+      "rationale": "Level 0 states that no work-integrated learning, placement, practicum or community-based project appears anywhere in the course structure, and that is what the extract shows. The complete statement of requirements is 100 credit points of Year 1 subjects (compulsory Research Methods, a Foundational band, and electives) plus 100 credit points of a compulsory on-campus research project; no placement, practicum, internship, work-integrated learning or industry-hosted component appears in any of it, and no practitioner supervision or host accountability is documented. Simulation is excluded here by construction and scores in W2 in any case.",
+      "evidenceLines": [
+        "All students must complete:",
+        "100 credit points of Year 1 subjects including",
+        "12.5 credit points of Year 1 compulsory subjects",
+        "Between 25 and 37.5 credit points of Year 1 Foundational Computer Science subjects",
+        "Between 50 and 62.5 credit points of Year 1 elective subjects",
+        "100 credit points of Year 2 compulsory research project (in four parts) including",
+        "The Master of Computer Science requires the successful completion of 200 credit points."
+      ]
+    },
+    "workplace": 2,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program documents a coherent specialist core with progressive technical and methodological depth: 200 credit points with a compulsory research-methods subject, a required Foundational Computer Science band, discipline-specific elective streams, and a compulsory 100-credit-point four-part research project, with an explicit staged sequence requiring Research Methods in the semester immediately before the project commences. The outcomes name a broad grounding in advanced Computer Science plus specialist depth in one named subfield. This is not generic or interchangeable content.",
+        "evidenceLines": [
+          "The Master of Computer Science requires the successful completion of 200 credit points.",
+          "A broad grounding in advanced Computer Science",
+          "In addition to a broad grounding across the breadth of advanced computer science, students will develop specialist knowledge in areas such as artificial intelligence, cybersecurity, human-computer interaction, programming languages & distributed systems, and spatial information science.",
+          "COMP90044 Research Methods should be taken in the semester immediately prior to the semester you commence your Research Project (i.e., second semester of study for full-time students).",
+          "100 credit points of Year 2 compulsory research project (in four parts) including"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Assessment requires defended trade-off decisions rather than recall or scripted response. The compulsory COMP90044 assesses a research methods evaluation and design assignment in which methods must be selected and justified, is examined against an outcome requiring rigour and skepticism in evaluating findings, and requires the student to present and answer for that design orally. The compulsory year-long research project in a field of choice is a capstone carrying genuine methodological uncertainty. Note the caveat that the project's own assessment page is not in the extract; the gate passes on the COMP90044 evidence alone.",
+        "evidenceLines": [
+          "An individual research methods evaluation and design assignment of 2000 words. ILOs 2, 3, 4 and 6 are addressed in this assessment.",
+          "Conduct effective research design and planning",
+          "Apply rigour and skepticism in the analysis, interpretation and evaluation of research findings",
+          "An individual oral presentation relating to the research methods evaluation and design assignment. ILOs 2, 3, 4 and 6 are addressed in this assessment.",
+          "100 credit points of Year 2 compulsory research project (in four parts) including"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1 straddled 1 and 2 on the meaning of 'core unit'. Assessed group work exists in the Foundational Computer Science band (COMP90049, GEOM90008, INFO90004), which is a required band, but no individual subject in it is compulsory and three of the six options (COMP90015, COMP90048, COMP90054) assess only individually, so the band is completable with no assessed collaboration. The only unconditionally compulsory Year 1 subject assesses entirely individually. Resolved DOWN to 1 by the never-resolve-upward rule.",
+      "C3 straddled 1 and 2. COMP90054 AI Planning for Autonomy documents AI ethics content and an assessed outcome on ethical consequences of approaches, which would satisfy level 2 if it were a core unit, but it is one of six selectable Foundational options. Resolved DOWN to 1.",
+      "C5 straddled 2 and 3. The required 100-credit-point four-part research project would support level 3 if methodology defence under scrutiny were documented, but COMP90078-COMP90081 have no pages in the extract, so no viva, defence or staged supervised review is quotable and the four-part structure reads only as enrolment sequencing. Resolved DOWN to 2.",
+      "W2 straddled 1 and 2. The compulsory research project may well reproduce research practice end to end, and GEOM90008/INFO90004 document practitioner-shaped artefacts, but the project's assessment page is absent and those two subjects are selectable rather than compulsory, with no criteria drawn from practice documented. Resolved DOWN to 1.",
+      "W3 straddled 0 and 1 on one line only: the Human-Computer Interaction elective list contains a subject titled INFO90006 Fieldwork for Design, whose title alone might indicate elective-level field-situated learning. No subject page for it is in the extract, so nothing documents placement in a real workplace or professional community, or practitioner supervision. Resolved DOWN to 0.",
+      "C4 and C5 rest on the same compulsory research project but score differently by design: C4's level-3 anchor asks for documented structured progression toward independent learning, which the course structure supplies, whereas C5's level-3 anchor additionally requires methodology defended under scrutiny, which it does not.",
+      "Construct-boundary check: the COMP90044 oral presentation was scored in W1 (communication to an audience) and cited in C5 only as the methodology-defence question, not double-counted as a W1 professional genre. GEOM90008's group work was considered under C1 (collaboration), not W2, and its 1-page reflection under C2 (appraisal), not W2."
+    ],
+    "notScoreable": [
+      "The four compulsory Year 2 subjects COMP90078, COMP90079, COMP90080 and COMP90081 (Computer Science Research Project Parts 1-4, 100 of the program's 200 credit points) have no subject page and no assessment page in the extract. Nothing about how the project is assessed, supervised, examined or defended is scoreable. This is the single largest evidence gap and it directly bounds C5 (no documented viva/defence/staged supervised review), W2 (no documented artefact or criteria), C1 (no way to test whether the project assesses human-plus-tool coordination) and G2 (which passes on COMP90044 evidence alone).",
+      "No elective subject pages are present for the AI and cybersecurity streams that would bear on C3 governance - notably COMP90087 The Ethics of Artificial Intelligence, COMP90073 Trustworthy Machine Learning and INFO90005 Human-AI Interaction. Since C3 caps at 1 on the elective-only reading regardless, this does not change the score, but the governance content of those subjects is unscoreable.",
+      "INFO90006 Fieldwork for Design appears as an elective title with no subject or assessment page, so whether it constitutes work-situated learning cannot be determined from the extract."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-14"
+    },
+    "instrument": "4.1-draft"
+  },
+  "mc-datasc": {
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 ('at least one core unit assesses collaborative practice - group projects with individual accountability') is met repeatedly: COMP90024, COMP90050 and COMP90051 each carry a compulsory group assessment, and the capstone assesses team work with individual accountability via a peer assessment factor. Level 3 fails on its second conjunct: recurrence holds, but no assessment documents coordinating work across people AND tools/AI systems - no role-and-tool allocation, no task where the human/system division of labour is itself assessed.",
+      "evidenceLines": [
+        "Group-based Cloud programming assignment system, requiring approximately 50-55 hours programming and 5000 word report",
+        "Project- Group project.",
+        "Students will work in teams under only general guidance from staff members.",
+        "Individual's contribution to the project measured by a peer assessment factor. (e.g. 0.5 for ½ contribution, 1 for full contribution)."
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1 ('Reflection or self-assessment appears in outcomes or graduate attributes, but no core unit assesses it against criteria') matches: reflection appears only in generic skills and graduate attributes. Level 2 needs criterion-referenced appraisal of the QUALITY of work; the nearest candidate, the capstone portfolio containing 'an assessment of the roles of others in the group', appraises CONTRIBUTION against a mark-scaling factor, not quality against criteria, and exists only in the capstone route. Level 3 (documented reliance/override decisions) is absent entirely.",
+      "evidenceLines": [
+        "Have the ability to demonstrate advanced independent critical enquiry, analysis and reflection",
+        "To justify the factor students will be expected to compile an individual portfolio including a journal, meeting summaries/minutes, their assigned role, and evidence of their contribution through draft reports and an assessment of the roles of others in the group."
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Above level 1, because AI/ML is not elective or tool-operation content: COMP90051 is compulsory and assessed on algorithmic basis and critical evaluation, not tool training. Level 2 ('Core units address AI capabilities AND limitations/ethics; use with limits discussed and assessed') is met on the limitations side - model limitations and assumption checking are core ILOs carried by examined subjects. Level 3 fails: no core assessment requires critique or governance of AI systems (bias, accountability, transparency, regulation, data governance); the only ethics evidence is an unassessed course-level ILO, which R2 caps at 1 on its own.",
+      "evidenceLines": [
+        "Critically analyse and evaluate different solutions for a machine learning problem",
+        "Understand the underlying statistical modelling framework and the limitations of such models.",
+        "Understand the statistical underpinnings of the methods used in multivariate data and be able to check when assumptions may or may not hold.",
+        "Demonstrate a sophisticated awareness of ethical implications relevant to the use of data, and particularly “big data”;"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Demoted from 3 on adversarial verification. Level 3 ('structured progression toward independent learning: a self-scoped capstone or research project') is refuted: the research pathway is merit-gated (open only to students maintaining a WAM of 80 in Data Science subjects), so it is not a route every student takes; its one explicit self-scoping line ('Students must propose a research topic and confirm the name of project supervisor') is an ENROLMENT PRECONDITION, not assessment evidence, and so fails R2. For the route every student actually takes (MAST90106/07) the extract never documents where the problem comes from - only that the project applies degree skills to 'a practical problem'. Writing a plan for a project you did not scope is not self-scoping, and a literature review is not assessed identification of one's own knowledge gaps. Level 2 ('At least one core assessment requires application to novel or unfamiliar problems') is documented: the compulsory 25-point project applies course methods to an unfamiliar practical problem, with a hurdle-assessed literature review and project plan and a 6,000-word report.",
+      "evidenceLines": [
+        "25 credit point project option of:",
+        "It will apply the skills developed during the degree to a practical problem of relevance to science, industry, commerce or society in general.",
+        "In the first part of the project students will complete a literature review and a plan for their project.",
+        "A literature review and project plan completed by the research group",
+        "Students who maintain a WAM of 80 in Data Science subjects will be eligible to undertake a 25-point individual research project in Data Science as the capstone project, to replace MAST90106 and MAST90107."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2 ('Students design and conduct an inquiry with methodology selection and data collection, assessed') is met by the compulsory 25-point project: a planned inquiry into a practical problem reported in a 6,000-word report, or a supervised research program reported as a 30-40 page thesis. Level 3 additionally requires methodology defended under scrutiny - viva, defence, or staged supervised review. The capstone runs under 'only general guidance' and its oral presentation is a group report-out; the research presentation is assessed on communication to a general audience. No defence of methodology is documented, so the lower level stands.",
+      "evidenceLines": [
+        "A written report totaling 6,000 words, or equivalent completed by the research group",
+        "In this subject, students undertake a substantial research program in the area of Data Science. The research will be conducted under the supervision of a member of the School of Mathematics and Statistics or the Computing and Information Systems academic staff. The results will be reported in the form of a thesis and an oral presentation.",
+        "A thesis is the main requirement. Theses are expected to be 30-40 pages in length, excluding references, appendices, figures, and tables.",
+        "Students will give a presentation on their research projects where they will be assessed on their presentation skills and their ability to communicate their research to a general audience in a concise manner"
+      ]
+    },
+    "adaptiveness": 9,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1 fits exactly: communication appears in course ILOs and graduate attributes, and core assessment adds oral presentation to peers and staff (COMP90050 to the class; the capstone group presentation), but no recognised professional genre and no documented audience beyond the teaching team. Level 2 would need a professional genre or external audience judged against criteria drawn from practice; the only practice-flavoured wording is the subject overview expectation about industry clients and the 'career-ready level' ILO, which R4/R2 forbid scoring as documented task features. Ambiguity resolved downward.",
+      "evidenceLines": [
+        "Communicate findings from analyses clearly and effectively, including to an audience with a diverse background in science and/or industry;",
+        "requires an oral presentation of 25-30 minutes to the class, worth 15%",
+        "Group oral presentation",
+        "They are expected to present technically correct results in a fashion acceptable to industry-based and other clients."
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Level 1 ('Contextualised or scenario-framed tasks appear, but the artefact produced and the criteria applied remain academic') matches. Core assessment is dominated by written assignments and hurdle examinations; the capstone frames a realistic practical problem but produces a literature review, a 6,000-word report and a presentation - academic artefacts - and the documented criteria are marks, hurdles and a peer contribution factor, not criteria drawn from practice. Level 2 requires all three of realistic problem, practitioner artefact and practice-derived criteria; the third is undocumented, so per R4 the label 'industry-based' cannot lift the score.",
+      "evidenceLines": [
+        "It will apply the skills developed during the degree to a practical problem of relevance to science, industry, commerce or society in general.",
+        "A written report totaling 6,000 words, or equivalent completed by the research group",
+        "Up to 20 pages of written assignments (equivalent to approx. 20 hours)",
+        "Written examination"
+      ]
+    },
+    "W3": {
+      "score": 0,
+      "rationale": "Level 0 ('No work-integrated learning, placement, practicum or community-based project appears anywhere in the course structure'). The course structure page enumerates the whole 200 points - one specialisation, 75 points of compulsory subjects and a 25-point project option - and none is a placement, practicum or community-based project. The capstone is a university team project under staff guidance, which is W2 territory, not membership in a workplace or professional community with practitioner supervision.",
+      "evidenceLines": [
+        "The Master of Data Science requires the successful completion of 200 credit points.",
+        "Completion of one formal Specialisation (100 credit points)",
+        "75 credit points of Compulsory subjects",
+        "25 credit points of Capstone Project",
+        "25 credit points of Research Pathway Project"
+      ]
+    },
+    "workplace": 2,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "A coherent all-compulsory specialist core with staged depth: 75 points of named compulsory statistics and computing subjects plus a compulsory 25-point project, with entry streams and specialisations determined by prior foundation subjects - progressive technical and methodological depth, not generic interchangeable content.",
+        "evidenceLines": [
+          "Completion of one formal Specialisation (100 credit points)",
+          "75 credit points of Compulsory subjects",
+          "COMP90051\tStatistical Machine Learning",
+          "On admission Students are placed into streams based on their background. These will help inform the Foundation subjects students need to take and which specialisations are available to them."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Assessment goes beyond recall or scripted response: a compulsory capstone or research project on a practical problem carries real uncertainty and accountability (team diaries, peer assessment factor, general-guidance supervision), and core statistical subjects require justified handling of incomplete data and critical evaluation of competing solutions.",
+        "evidenceLines": [
+          "It will apply the skills developed during the degree to a practical problem of relevance to science, industry, commerce or society in general.",
+          "Appropriately handle data related issues such as missing and incomplete data in a rigorous and justifiable manner.",
+          "Critically analyse and evaluate different solutions for a machine learning problem"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1: assessed collaboration clearly recurs across the core, which is the level-3 recurrence conjunct, but the tools/AI-coordination conjunct is undocumented; the conjunctive anchor plus the lower-level rule held it at 2.",
+      "C2: the capstone peer assessment factor and individual portfolio could be read as level-2 'portfolio with standards / peer review'. It appraises contribution for mark scaling rather than quality against criteria, and only exists in one of the two project routes, so the lower level was taken.",
+      "C3: level 2 rests on limitations rather than ethics - ethics of data appears only as an unassessed course ILO. The limitations/ethics disjunction in the anchor allowed 2; had the anchor required assessed ethics this would be 1.",
+      "C4: resolved to 2 on adversarial verification. Self-scoping is explicit only for the merit-gated research pathway (WAM 80), and only as an enrolment precondition rather than assessment evidence; for the capstone every student takes, the source of the problem is undocumented, so the level-3 'self-scoped' conjunct is unmet and the hurdle-assessed plan supports level 2 only.",
+      "C5: the compulsory project is substantial and generates evidence, but whether the group oral presentation and the hurdle plan constitute 'staged supervised review' of methodology is unclear; resolved down to 2.",
+      "W1: 'acceptable to industry-based and other clients' and 'career-ready level' straddle levels 1 and 2. Both are expectation/outcome statements rather than documented audiences or criteria, so R4 and the lower-level rule fixed it at 1.",
+      "W2: the COMP90024 group cloud system and the capstone report are practitioner-shaped artefacts, but no criteria drawn from practice are documented for either, so the level-2 three-part anchor was not satisfied."
     ],
     "notScoreable": [],
     "verified": {

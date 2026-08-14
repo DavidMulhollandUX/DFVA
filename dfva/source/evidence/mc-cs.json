@@ -1,0 +1,147 @@
+{
+  "code": "mc-cs",
+  "panelCv4": {
+    "C1": {
+      "score": 1,
+      "rationale": "Level 2 requires that 'at least one core unit assesses collaborative practice'. The only unconditionally compulsory Year 1 subject is COMP90044 Research Methods, whose every assessment is individual (individual literature review, individual research methods design assignment, individual oral presentation, individual workshop exercises), and the compulsory Year 2 Research Project Parts 1-4 have no subject or assessment page in the extract. Assessed group work is documented only in subjects a student may or may not take: COMP90049 and GEOM90008 sit in the Foundational band (a required band of 25-37.5 credit points chosen from six subjects, three of which - COMP90015, COMP90048, COMP90054 - assess only individually, so the band can be completed without any group assessment), and COMP90042's group project is an elective. Teamwork also appears in subject-level outcomes (GEOM90008 ILO 5). That is the level-1 picture: collaboration appears in outcomes and in choosable units but no compulsory unit is documented to assess it. Level 3 is not reached on any reading - nothing in the extract assesses the division of work between people AND tools/AI systems.",
+      "evidenceLines": [
+        "12.5 credit points of Year 1 compulsory subjects",
+        "Between 25 and 37.5 credit points of Year 1 Foundational Computer Science subjects",
+        "ILO 5. Demonstrate professional skills in ethics and sustainability, communication, and teamwork.",
+        "Group research project. Addresses ILOs 1, 3 & 4.",
+        "Group project – data management design proposal. Deliverable is a report of a maximum of 5 pages (per group) (25%). (30 hours of work per group member). ILOs 1, 2, 3 and 5 are addressed in this assessment.",
+        "A group-based (group of 2-3) research project essay working from Week 6 to 12 with a Week 12 submission.",
+        "An individual critical literature review of 2000 words. Intended Learning Outcomes (ILOs) 1, 3 and 5 are addressed in this assessment."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2 asks for core assessment containing criterion-referenced appraisal of quality, of which 'structured critique' is a listed exemplar. The compulsory COMP90044 Research Methods assesses an individual critical literature review (40%) and an individual research methods evaluation and design assignment (40%), both tied to the assessed outcome of applying rigour and skepticism in the analysis, interpretation and evaluation of research findings - appraisal of the quality of research work, assessed, in a unit every student must take. Level 3 is not met: no assessment in the extract requires students to document and justify reliance decisions on a tool, source or collaborator, to defend judgements of AI-output quality, or to evidence strategy adjustment over time. The closest process-focused artefact, GEOM90008's individually written 1-page reflection on the group project, is in a choosable Foundational subject and is a reflection on a group project rather than a documented reliance decision, so it does not lift the score.",
+      "evidenceLines": [
+        "An individual critical literature review of 2000 words. Intended Learning Outcomes (ILOs) 1, 3 and 5 are addressed in this assessment.",
+        "An individual research methods evaluation and design assignment of 2000 words. ILOs 2, 3, 4 and 6 are addressed in this assessment.",
+        "Apply rigour and skepticism in the analysis, interpretation and evaluation of research findings",
+        "1 peer review assignment of other student groups' research project essays.",
+        "An individually written 1-page reflection on the group project (10%). ILOs 4 and 5 are addressed in this assessment."
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 is the anchor that matches literally: AI appears as a program-level specialisation and as elective/choosable content, not as core units addressing AI capabilities AND limitations/ethics. Artificial intelligence is named in the course outcome as one of several areas of specialist knowledge, and the AI-bearing subjects sit in the elective bands (a whole 'Artificial Intelligence electives' group, 50-62.5 credit points of Year 1 electives) or in the choosable Foundational band (COMP90049, COMP90054). COMP90054 does carry ethics content ('Ethics in AI planning') and an assessed outcome on ethical consequences, which would support level 2 if it were compulsory - it is not; the only compulsory Year 1 subject, COMP90044 Research Methods, contains no AI or digital-tool content. Level 3 is unreachable: the extract contains no occurrence of generative AI, AI governance, accountability, transparency or data governance in any assessment.",
+      "evidenceLines": [
+        "Specialist knowledge in (at least) one of artificial intelligence, cybersecurity, human-computer interaction, programming languages & distributed systems, and spatial information science",
+        "Between 50 and 62.5 credit points of Year 1 elective subjects",
+        "Artificial Intelligence electives",
+        "Ethics in AI planning",
+        "Be able to critically evaluate the strengths, weaknesses, and ethical consequences of different approaches for reasoning about action",
+        "12.5 credit points of Year 1 compulsory subjects"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "The level-3 anchor names 'a self-scoped capstone or research project' documented as structured progression toward independent learning, and the handbook documents exactly that as required curriculum rather than as an outcome statement: 100 of the 200 credit points are a compulsory Year 2 research project in four parts, described as a year-long research project in a field of choice, with the compulsory COMP90044 Research Methods explicitly sequenced into the semester immediately before it. The progression is assessed, not merely claimed: COMP90044's assessed outcome of surveying literature, identifying gaps and formulating research questions is examined through the 40% individual critical literature review and the 40% research design assignment, and the project itself is a compulsory credit-bearing sequence, not one route among several. Level 2 would understate this, since the requirement is not merely one assessment on a novel problem but a half-degree self-scoped project.",
+      "evidenceLines": [
+        "The Master of Computer Science is a research training program that gives students the opportunity to undertake a year-long research project in a field of choice, as well as a broad range of advanced computer science subjects.",
+        "100 credit points of Year 2 compulsory research project (in four parts) including",
+        "50 credit points of Part 1 and 2 Computer Science Research Project subjects",
+        "COMP90044 Research Methods should be taken in the semester immediately prior to the semester you commence your Research Project (i.e., second semester of study for full-time students).",
+        "Survey relevant literature, identify gaps and formulate productive research questions",
+        "An individual critical literature review of 2000 words. Intended Learning Outcomes (ILOs) 1, 3 and 5 are addressed in this assessment.",
+        "Research maturity, including the ability to independently carry out a research survey, and plan, execute, interpret and report on experimental or theoretical results."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2 is fully documented: the compulsory COMP90044 assesses methodology selection and research design (individual research methods evaluation and design assignment, 40%; assessed outcome 'Conduct effective research design and planning'), and the compulsory 100-credit-point four-part research project requires students to execute an inquiry. Level 3 additionally requires that methodology be 'defended under scrutiny (viva, defence, or staged supervised review)', and that element is not documented. The research project subjects COMP90078-COMP90081 have no subject or assessment page in the extract, so no viva, defence or staged supervised review of the project is quotable; the four-part staging is documented only as enrolment sequencing. The only assessed methodological defence in the extract is a 5-minute individual oral presentation in COMP90044 worth 15%, which is too thin to carry 'under scrutiny' on its own. Evidence therefore straddles 2 and 3, and the lower level is taken.",
+      "evidenceLines": [
+        "An individual research methods evaluation and design assignment of 2000 words. ILOs 2, 3, 4 and 6 are addressed in this assessment.",
+        "Conduct effective research design and planning",
+        "An individual oral presentation relating to the research methods evaluation and design assignment. ILOs 2, 3, 4 and 6 are addressed in this assessment.",
+        "100 credit points of Year 2 compulsory research project (in four parts) including",
+        "Students studying full-time must take Part 1 and 2 concurrently, and Part 3 and 4 concurrently.",
+        "Research maturity, including the ability to independently carry out a research survey, and plan, execute, interpret and report on experimental or theoretical results."
+      ]
+    },
+    "adaptiveness": 9,
+    "W1": {
+      "score": 1,
+      "rationale": "The level-1 anchor is met precisely: communication and professional conduct appear in the course-level outcomes (verbal and written communication; professional ethics and responsibility towards the profession and the community), and core assessment adds a spoken component - COMP90044's individual oral presentation, delivered to the teaching team and peers - but no professional genre and no audience beyond the teaching team is documented. Per R2 and Barrie, the stated outcomes and the Melbourne graduate attributes cannot themselves raise the score. Level 2 would require a recognised professional genre or an audience beyond the teaching team judged against criteria drawn from professional practice; the compulsory assessments are a 2000-word literature review, a 2000-word research design assignment, an oral presentation and workshop exercises - all academic genres addressed to the marker - and the extract documents no client brief, consultancy advice, pitch, panel or public-facing artefact anywhere in the core.",
+      "evidenceLines": [
+        "Verbal and written communication skills that enable them to make a meaningful contribution to our changing society.",
+        "Professional ethics and responsibility towards the profession and the community",
+        "Communicate research effectively in written and oral form",
+        "An individual oral presentation relating to the research methods evaluation and design assignment. ILOs 2, 3, 4 and 6 are addressed in this assessment.",
+        "An individual critical literature review of 2000 words. Intended Learning Outcomes (ILOs) 1, 3 and 5 are addressed in this assessment."
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Level 2 requires at least one core assessment that reproduces a professional task end to end, producing the artefact a practitioner would produce, judged against criteria drawn from practice. The compulsory COMP90044 assessments are a literature review, a research design assignment, an oral presentation and workshop exercises: contextualised by a research problem but academic in artefact and in stated criteria, which is the level-1 anchor. The genuinely practitioner-shaped tasks in the extract - GEOM90008's staged design-proposal-then-realisation of a spatial database, and INFO90004's expert evaluation and lab-based user evaluation with recommendations - sit in the choosable Foundational band, not the compulsory core, and no criteria drawn from professional practice are documented for them. The compulsory research project could plausibly be an end-to-end research-practice task, but its assessment page is absent so neither the artefact nor the criteria can be quoted. Per R4 I have scored only documented task features, ignoring the 'real-world problems' phrasing in COMP90049's outcome.",
+      "evidenceLines": [
+        "An individual critical literature review of 2000 words. Intended Learning Outcomes (ILOs) 1, 3 and 5 are addressed in this assessment.",
+        "Workshop exercises throughout the semester. Each student will be required to complete at least 8 out of 10 exercises. ILOs 1 - 6 are addressed.",
+        "ILO 3 - Design, implement, and evaluate machine learning systems for real-world problems",
+        "ASSESSMENT 1 – EXPERT EVALUATION An individual report (500 words) consisting of a Heuristic Evaluation and Cognitive Walkthrough of a given interactive technology.",
+        "Group project – realisation of the spatial database previously designed in the project design proposal, assessed via a report of a maximum of 15 pages (per group) and a set of database queries proving the realised implementation (35%). (requiring 50 hours of work per group member). ILOs 1-5 are addressed in this assessment.",
+        "Between 25 and 37.5 credit points of Year 1 Foundational Computer Science subjects"
+      ]
+    },
+    "W3": {
+      "score": 0,
+      "rationale": "Level 0 states that no work-integrated learning, placement, practicum or community-based project appears anywhere in the course structure, and that is what the extract shows. The complete statement of requirements is 100 credit points of Year 1 subjects (compulsory Research Methods, a Foundational band, and electives) plus 100 credit points of a compulsory on-campus research project; no placement, practicum, internship, work-integrated learning or industry-hosted component appears in any of it, and no practitioner supervision or host accountability is documented. Simulation is excluded here by construction and scores in W2 in any case.",
+      "evidenceLines": [
+        "All students must complete:",
+        "100 credit points of Year 1 subjects including",
+        "12.5 credit points of Year 1 compulsory subjects",
+        "Between 25 and 37.5 credit points of Year 1 Foundational Computer Science subjects",
+        "Between 50 and 62.5 credit points of Year 1 elective subjects",
+        "100 credit points of Year 2 compulsory research project (in four parts) including",
+        "The Master of Computer Science requires the successful completion of 200 credit points."
+      ]
+    },
+    "workplace": 2,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program documents a coherent specialist core with progressive technical and methodological depth: 200 credit points with a compulsory research-methods subject, a required Foundational Computer Science band, discipline-specific elective streams, and a compulsory 100-credit-point four-part research project, with an explicit staged sequence requiring Research Methods in the semester immediately before the project commences. The outcomes name a broad grounding in advanced Computer Science plus specialist depth in one named subfield. This is not generic or interchangeable content.",
+        "evidenceLines": [
+          "The Master of Computer Science requires the successful completion of 200 credit points.",
+          "A broad grounding in advanced Computer Science",
+          "In addition to a broad grounding across the breadth of advanced computer science, students will develop specialist knowledge in areas such as artificial intelligence, cybersecurity, human-computer interaction, programming languages & distributed systems, and spatial information science.",
+          "COMP90044 Research Methods should be taken in the semester immediately prior to the semester you commence your Research Project (i.e., second semester of study for full-time students).",
+          "100 credit points of Year 2 compulsory research project (in four parts) including"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Assessment requires defended trade-off decisions rather than recall or scripted response. The compulsory COMP90044 assesses a research methods evaluation and design assignment in which methods must be selected and justified, is examined against an outcome requiring rigour and skepticism in evaluating findings, and requires the student to present and answer for that design orally. The compulsory year-long research project in a field of choice is a capstone carrying genuine methodological uncertainty. Note the caveat that the project's own assessment page is not in the extract; the gate passes on the COMP90044 evidence alone.",
+        "evidenceLines": [
+          "An individual research methods evaluation and design assignment of 2000 words. ILOs 2, 3, 4 and 6 are addressed in this assessment.",
+          "Conduct effective research design and planning",
+          "Apply rigour and skepticism in the analysis, interpretation and evaluation of research findings",
+          "An individual oral presentation relating to the research methods evaluation and design assignment. ILOs 2, 3, 4 and 6 are addressed in this assessment.",
+          "100 credit points of Year 2 compulsory research project (in four parts) including"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1 straddled 1 and 2 on the meaning of 'core unit'. Assessed group work exists in the Foundational Computer Science band (COMP90049, GEOM90008, INFO90004), which is a required band, but no individual subject in it is compulsory and three of the six options (COMP90015, COMP90048, COMP90054) assess only individually, so the band is completable with no assessed collaboration. The only unconditionally compulsory Year 1 subject assesses entirely individually. Resolved DOWN to 1 by the never-resolve-upward rule.",
+      "C3 straddled 1 and 2. COMP90054 AI Planning for Autonomy documents AI ethics content and an assessed outcome on ethical consequences of approaches, which would satisfy level 2 if it were a core unit, but it is one of six selectable Foundational options. Resolved DOWN to 1.",
+      "C5 straddled 2 and 3. The required 100-credit-point four-part research project would support level 3 if methodology defence under scrutiny were documented, but COMP90078-COMP90081 have no pages in the extract, so no viva, defence or staged supervised review is quotable and the four-part structure reads only as enrolment sequencing. Resolved DOWN to 2.",
+      "W2 straddled 1 and 2. The compulsory research project may well reproduce research practice end to end, and GEOM90008/INFO90004 document practitioner-shaped artefacts, but the project's assessment page is absent and those two subjects are selectable rather than compulsory, with no criteria drawn from practice documented. Resolved DOWN to 1.",
+      "W3 straddled 0 and 1 on one line only: the Human-Computer Interaction elective list contains a subject titled INFO90006 Fieldwork for Design, whose title alone might indicate elective-level field-situated learning. No subject page for it is in the extract, so nothing documents placement in a real workplace or professional community, or practitioner supervision. Resolved DOWN to 0.",
+      "C4 and C5 rest on the same compulsory research project but score differently by design: C4's level-3 anchor asks for documented structured progression toward independent learning, which the course structure supplies, whereas C5's level-3 anchor additionally requires methodology defended under scrutiny, which it does not.",
+      "Construct-boundary check: the COMP90044 oral presentation was scored in W1 (communication to an audience) and cited in C5 only as the methodology-defence question, not double-counted as a W1 professional genre. GEOM90008's group work was considered under C1 (collaboration), not W2, and its 1-page reflection under C2 (appraisal), not W2."
+    ],
+    "notScoreable": [
+      "The four compulsory Year 2 subjects COMP90078, COMP90079, COMP90080 and COMP90081 (Computer Science Research Project Parts 1-4, 100 of the program's 200 credit points) have no subject page and no assessment page in the extract. Nothing about how the project is assessed, supervised, examined or defended is scoreable. This is the single largest evidence gap and it directly bounds C5 (no documented viva/defence/staged supervised review), W2 (no documented artefact or criteria), C1 (no way to test whether the project assesses human-plus-tool coordination) and G2 (which passes on COMP90044 evidence alone).",
+      "No elective subject pages are present for the AI and cybersecurity streams that would bear on C3 governance - notably COMP90087 The Ethics of Artificial Intelligence, COMP90073 Trustworthy Machine Learning and INFO90005 Human-AI Interaction. Since C3 caps at 1 on the elective-only reading regardless, this does not change the score, but the governance content of those subjects is unscoreable.",
+      "INFO90006 Fieldwork for Design appears as an elective title with no subject or assessment page, so whether it constitutes work-situated learning cannot be determined from the extract."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-14"
+    }
+  }
+}
