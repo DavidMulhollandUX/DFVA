@@ -108,6 +108,12 @@ At that rate the full cohort takes about 5 hours of app-open time.
   `V4_META.complete` enforces it and `compass/app/src/compass/__tests__/v4Medians.test.ts`
   guards it. Do not hand-compute a preview median from a partial cohort — it is a
   different statistic from the one a reader would take it for.
-- **Extension programs** (mc-urbhort, b-des, 244cw, b-sci) are not in the queue.
-  Per v3.1 §10a rule 2 they are placed against the reference thresholds and never
-  re-base them.
+- **Reference vs extension.** The queue holds 35 programs: the 34 reference
+  programs from `scripts/v4_cohort.json` plus mc-mgmthre. Only the 34 contribute
+  to the median. Membership is not a judgement call — the reference cohort is
+  *defined* by carrying a v3.1 adaptiveness score (every cohort entry has a
+  `v31` field, range 6–14), because that is what the v4 pass re-bases. mc-mgmthre
+  has no v3.1 score and appears in no v3 registry data, so it cannot be a
+  reference program; it is an extension program, placed against the reference
+  thresholds and never re-basing them, per v3.1 §10a rule 2. The other extension
+  programs (mc-urbhort, b-des, 244cw, b-sci) are not in the queue at all.
