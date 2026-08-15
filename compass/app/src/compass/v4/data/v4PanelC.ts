@@ -59,15 +59,13 @@ export interface V4Meta {
 
 export const V4_META: V4Meta = {
   "cohortSize": 34,
-  "scored": 27,
-  "workplaceScored": 27,
+  "scored": 29,
+  "workplaceScored": 29,
   "workplaceComplete": false,
   "complete": false,
   "adaptMedian": null,
   "expMedian": 90.9,
   "pending": [
-    "mc-journ",
-    "mc-nursc",
     "mc-phtyph",
     "mc-sciphy",
     "mc-surged",
@@ -3149,6 +3147,158 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "date": "2026-08-15"
     }
   },
+  "mc-journ": {
+    "instrument": "4.1-draft",
+    "C1": {
+      "score": 1,
+      "rationale": "Level 1 anchor: 'Collaboration/teamwork appears in learning outcomes, but no core unit assesses it.' Teamwork is stated as an outcome in JOUR90010 ('Operate efficiently within a newsroom, whether working independently or within a team.'), JOUR90004 (teamwork strategies) and the elective JOUR90011 (team-based newsroom environments), but every assessed artefact in the core-list subjects is individually produced — news writing exercises, individual portfolios, individual stories. JOUR90010's subject description offers collaboration as an opportunity, not a requirement, and its only non-story component is 'Participation and reflection', which is not documented as assessing collaborative practice. Not level 2 because no core unit's assessment table names a group project, client or stakeholder task; the only genuinely team-assessed item in the extract ('Participation in the live event production') sits in JOUR90030, which is an elective and 'Not available in 2026'. Level 3 is out entirely: nothing assesses the division of work between people and tools/AI systems.",
+      "evidenceLines": [
+        "Operate efficiently within a newsroom, whether working independently or within a team.",
+        "There will be opportunities for workshopping stories and for collaboration with fellow students",
+        "Plan and manage a budget, identify and cultivate target audiences, and develop effective teamwork strategies for small to medium-sized journalism enterprises",
+        "Collaborate effectively in team-based newsroom environments to produce high-quality data journalism packages that meet professional standards.",
+        "Participation and reflection",
+        "A final portfolio of three news stories"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2 anchor: 'Core assessment includes criterion-referenced appraisal of quality: peer review, structured critique, portfolio with standards, marking against exemplars.' Core-list assessment repeatedly requires structured critique of exemplar work — JOUR90009's essay analysing a selected piece of literary journalism (15%), JOUR90023's class paper on a case study (30%) tied to the outcome of conveying informed critiques of journalistic decisions, and JOUR90022's photographic case study and class paper (20%). Held at 2 rather than 3 because level 3 requires students to document and justify reliance decisions, defend judgements of AI-output quality, or evidence strategy adjustment over time; the nearest candidates — JOUR90013's 'Task #2 Draft and progress report' and JOUR90010's 'Participation and reflection' — are named only as titles, with no documented requirement to record or defend how judgements changed, so the evidence straddles 2 and 3 and the lower level is taken.",
+      "evidenceLines": [
+        "Essay (and associated class presentation) analysing one of a selection of pieces of literary journalism",
+        "Class paper on a case study",
+        "Critically analyse case studies of international business journalism, reflecting on the ethical dimensions and practices, and convey informed critiques of journalistic decisions.",
+        "Photographic case study and class paper",
+        "Critically analyse the quality of information and sources.",
+        "Task #2 Draft and progress report",
+        "Participation and reflection"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor: 'AI or digital tools appear only as electives or as tool operation/training — the operational level TEQSA identifies as non-durable.' The only subject naming AI, 'Fact-checking, Misinformation and AI', is listed under Elective Subjects in all three program lengths and has no subject or assessment page in the extract. Digital content in the core-list subjects is tool operation — industry-standard audio equipment in JOUR90005, industry-standard video and audio equipment in JOUR90008 — plus thematic discussion of technological change (JOUR90004 on social media and the public sphere, JOUR90013 on verification technologies). Not level 2 because that anchor requires core units to address AI capabilities AND limitations/ethics with use-with-limits assessed; no core assessment in the extract addresses AI capabilities or limits at all. Level 3 (critique or governance of AI systems — bias, accountability, transparency, regulation) is absent.",
+      "evidenceLines": [
+        "Fact-checking, Misinformation and AI",
+        "Elective Subjects",
+        "Produce broadcast-ready news stories by compiling, scripting, recording, editing, and filing audio packages using industry-standard tools and techniques",
+        "Film interviews and other components of a basic video news story using industry-standard video and audio equipment",
+        "Adapt news and current affairs storytelling techniques to emerging media formats and technologies, anticipating future industry trends and audience expectations.",
+        "Assess the impact of social media on the public sphere, drawing on relevant theoretical frameworks"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3 anchor: 'The program documents structured progression toward independent learning: a self-scoped capstone or research project.' This is a program requirement, not an outcome statement — the handbook states that all students must complete the Capstone Requirement and every one of the three permitted routes is a substantial student-scoped project: Stream 1 requires 'planning and executing a substantial research-based project', Stream 3 'a substantial professionally focused project ... a book, portfolio of articles or other substantial journalistic project', Stream 2 a professionally focused project aimed at publication. Level 2 is comfortably exceeded independently: JOUR90013 requires students to initiate, plan and undertake an original investigation, and JOUR90009 requires students to choose their own topic and angle. The extract carries no assessed identification of one's own knowledge gaps, so the score rests on the self-scoped-capstone route alone.",
+      "evidenceLines": [
+        "All students are required to complete the Capstone Requirement for the program (at least 25 points). Students must complete one of the following capstone options:",
+        "Purpose: An opportunity to integrate knowledge and research skills to address a specific Journalism research by planning and executing a substantial research-based project.",
+        "Purpose: An opportunity to complete a substantial professionally focused project under industry standard supervision. This might be a book, portfolio of articles or other substantial journalistic project.",
+        "Tasks #1 and #2 require students to initiate, plan and undertake an original investigation as part of the subject",
+        "students choose their own topic and angle, and then pitch a non-fiction article to a guest editor from a major magazine or other outlet",
+        "The thesis option requires two consecutive semesters of enrolment."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2 anchor: 'Students design and conduct an inquiry with methodology selection and data collection, assessed.' JOUR90013 assesses an original investigation across two staged items — 'Task #1 Pitch and plan for investigative project' (15%) and 'Task #2 Draft and progress report' (35%) — with an explicit methodology repertoire the student selects from (public records, open source intelligence, FOI, crowd sourcing, data analysis). JOUR90001 and JOUR90023 add assessed research-method selection and primary research. Level 3 is explicitly barred: it requires that a substantial primary-evidence project be REQUIRED and 'not one route among several', whereas the minor thesis is one of three capstone options a student may decline in favour of the internship or project stream, and the extract contains no viva, defence or staged supervised methodology review.",
+      "evidenceLines": [
+        "Task #1 Pitch and plan for investigative project",
+        "Enlisting a story-based inquiry methodology, students will explore and interrogate a range of opportunities to source information: public records, open source intelligence, Freedom of Information legislation, crowd sourcing, data analysis, advanced verification and security and safety technologies.",
+        "Identify and implement appropriate research methods to gather relevant information and develop compelling story ideas",
+        "Investigate contemporary international business and financial settings using primary and secondary research methods to identify and report on emerging issues and trends.",
+        "Students must complete one of the following capstone options:",
+        "Capstone Stream 1: Minor Thesis option"
+      ]
+    },
+    "adaptiveness": 9,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 anchor: 'At least one core assessment requires a recognised professional genre or an audience beyond the teaching team ... judged against criteria drawn from professional practice.' Met several times over: JOUR90010's assessed items are newsroom stories written to be considered for publication on The Citizen and required to meet 'professional industry standards'; JOUR90009 assesses a 'Pitch of an idea for a non-fiction essay'; JOUR90005 and JOUR90008 assess broadcast genres ('News broadcast exercise', 'On camera presentation'). Held below 3: level 3 additionally requires that professional conduct or accountability be explicitly among the assessed criteria, and the extract shows conduct only as learning outcomes ('Conduct resourceful, rigorous and ethical reporting practice.') with generic attendance and submission hurdles that are identical across every subject and carry no professional-conduct standard. The guest editor in JOUR90009 is a real external practitioner the pitch is delivered to, but the handbook does not state the editor judges the assessment, so the evidence straddles 2 and 3 and the lower level is taken.",
+      "evidenceLines": [
+        "which will be considered for publication on The Citizen, the flagship publication of Centre Advancing Journalism",
+        "Produce news stories and features to professional industry standards that are clear, concise and engaging, adapting content appropriately for different publications, platforms and audiences.",
+        "Pitch of an idea for a non-fiction essay",
+        "students choose their own topic and angle, and then pitch a non-fiction article to a guest editor from a major magazine or other outlet",
+        "News broadcast exercise",
+        "On camera presentation",
+        "Conduct resourceful, rigorous and ethical reporting practice.",
+        "Hurdle requirement: 1. Attendance hurdle requirement: This subject has a minimum requirement of 80% attendance at tutorials, seminars, or workshops.\tThroughout the teaching period\tN/A"
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3 anchor: such tasks are 'the program's assessment spine rather than a single instance ... AND at least one carries a genuine constraint of practice'. Spine: the compulsory 25-point JOUR90001 ends in 'A final portfolio of three news stories' (35%); every core-list subject's dominant assessment is the artefact a working journalist produces — 'Feature package', 'Video news package', 'Portfolio of photojournalism', 'Portfolio of business journalism', 'Newsroom story #1 final', 'Task #3 Final story/stories or analytical essay' — and a required capstone producing a thesis, a published-facing internship project or a substantial journalistic project closes the sequence. Genuine constraint of practice, scored on documented features rather than the 'industry-standard' label (R4): JOUR90010's stories are written for consideration for publication on The Citizen, an outlet outside the classroom, and are marked against publishability — 'striving to publishable standard'; JOUR90013's task is an externally undetermined, self-initiated investigation whose outcome may fail, with a documented fallback. Not scored down to 2 because the practitioner-artefact task is not a single instance but the recurring assessment form across the compulsory subject, the core list and the capstone.",
+      "evidenceLines": [
+        "A final portfolio of three news stories",
+        "The goal will be to produce a Portfolio of 3 stories (equivalent 4000 words) striving to publishable standard.",
+        "Newsroom story #1 final",
+        "Feature package",
+        "Video news package",
+        "Portfolio of photojournalism",
+        "Portfolio of business journalism",
+        "Task #3 Final story/stories or analytical essay",
+        "with an option at Task #3 to defer or cease their own investigation and alternatively produce an analytical essay on a published/ high profile investigation"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1 anchor: 'Work-situated learning exists only as an elective, an optional internship, or an unassessed extracurricular or careers activity.' The handbook states the internship in permissive terms — 'Students may undertake an internship with an external organisation' — and the 20-day industry placement sits inside Capstone Stream 2, one of three capstone options; a student completing Stream 1 (minor thesis) or Stream 3 (journalism project) graduates with no placement at all. Not level 2: that anchor requires a CORE unit to place students in a real workplace with practitioner supervision and assessment, and although JOUR90003 Journalism Internship appears on the 150pt Core Subjects list, that list is a menu ('A minimum of 25 points of core subjects') from which no individual subject is compelled, and in the 100pt and 200pt structures JOUR90003 appears only as a capstone-stream option. The evidence straddles 1 and 2 — a 20-day supervised, credit-bearing placement is substantially more than an extracurricular activity — and the lower level is taken because no route makes it required.",
+      "evidenceLines": [
+        "Students may undertake an internship with an external organisation, and gain valuable practical experience and extend their professional networks.",
+        "Purpose: An opportunity to complete a professionally focused project under industry standard supervision, aimed at publication in The Citizen, and participating in the newsroom experience and also completing a 20 day placement in the industry.",
+        "All students are required to complete the Capstone Requirement for the program (at least 25 points). Students must complete one of the following capstone options:",
+        "Capstone Stream 2: Internship Option",
+        "A minimum of 25 points of core subjects"
+      ]
+    },
+    "workplace": 6,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "PASS condition: 'a coherent specialist core with progressive technical or methodological depth: an all-compulsory specialist core, an accredited sequence, or a staged prerequisite chain.' The 200-point program opens with one compulsory 25-point specialist subject, JOUR90001 Researching/Writing Stories, which the handbook designates a prerequisite for JOUR90005, JOUR90008, JOUR90009, JOUR90013 and JOUR90023 — a staged prerequisite chain running from foundational reporting into advanced audio, video, long-form, investigative and business specialisations — and every student must then complete a capstone. The content is disciplinary journalism throughout, not generic or interchangeable.",
+        "evidenceLines": [
+          "One compulsory subject (25 points)",
+          "JOUR90001 Researching/Writing Stories (25 points)",
+          "Students are strongly advised to complete JOUR90001 in their first semester of the degree. This subject will be a prerequisite for the subjects JOUR90005, JOUR90008 and JOUR90023.",
+          "This subject will be a prerequisite for the existing subjects JOUR90005, JOUR90008, JOUR90009, JOUR90013 and JOUR90023, unless the course coordinator grants exemption from these requirements, which may be done on the grounds of previous study or industry experience.",
+          "A minimum of 75 points of core subjects",
+          "All students are required to complete the Capstone Requirement for the program (at least 25 points). Students must complete one of the following capstone options:"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "PASS condition: 'Assessments require defended trade-off decisions, or simulations/capstones/live projects with real uncertainty and accountability.' JOUR90013 assesses a self-initiated investigation whose success is genuinely uncertain — the handbook provides for the student to defer or cease their own investigation at Task #3. JOUR90010 assesses work produced inside a simulated newsroom news conference where stories are debated and refined and the reporter must weigh fairness, accuracy, public interest and news judgement in selecting material for publication. JOUR90006 assesses 'An analysis of an ethical problem' and 'An analysis of a legal problem', both requiring a defended judgement rather than recall. No assessment in the extract is recall or scripted response only.",
+        "evidenceLines": [
+          "with an option at Task #3 to defer or cease their own investigation and alternatively produce an analytical essay on a published/ high profile investigation",
+          "Synthesise, prioritise and select materials for publication/broadcast by applying principles of fairness, accuracy, public interest and news judgement.",
+          "Students, operating as reporters, will be expected to liaise closely with the lecturer/editors of The Citizen as they refine their ideas and settle on specific reporting assignments.",
+          "An analysis of an ethical problem",
+          "An analysis of a legal problem",
+          "Utilise relevant philosophical theory and industry codes of ethics to practice journalism with sound judgement and integrity"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1 straddled 1 and 2: JOUR90010's 'Participation and reflection' (25%) is earned in seminars that 'incorporate/ simulate industry newsroom news conferences', which could be read as assessed collaborative practice, but the description frames collaboration as 'opportunities' and all three assessed artefacts are individual stories. Lower level taken per the ambiguity rule.",
+      "C2 straddled 2 and 3: 'Task #2 Draft and progress report' (JOUR90013, 35%) and 'Participation and reflection' (JOUR90010, 25%) are process-focused in form and could evidence strategy adjustment over time, but neither is documented as requiring students to record or justify how their judgements or reliance decisions changed. Lower level taken.",
+      "W1 straddled 2 and 3: professional genres are assessed repeatedly and progressively (compulsory JOUR90001 portfolios, then broadcast, photographic, business and newsroom genres behind a prerequisite chain), and JOUR90009 delivers a pitch to 'a guest editor from a major magazine or other outlet' — a real external practitioner. Held at 2 because the handbook does not state the external editor judges the assessment, and professional conduct/accountability appears only in outcomes, never as an assessed criterion (R2, Barrie). Lower level taken.",
+      "W3 straddled 1 and 2: JOUR90003 Journalism Internship is a credit-bearing 12.5-point subject carrying a 20-day industry placement under industry-standard supervision, which exceeds 'an unassessed extracurricular' — and it is listed on the 150pt Core Subjects table. Held at 1 because the core list is a points menu rather than a set of compelled subjects, and in every program length a student can satisfy the capstone via the thesis or project stream with no placement. Lower level taken.",
+      "One-construct-one-home calls: the 20-day placement was scored in W3 only, never in C1 or C4; the guest-editor pitch was scored in W1 (audience) and its self-chosen topic in C4 (self-scoped work), not in W2; the critique-of-exemplars evidence (JOUR90009 essay, JOUR90023/JOUR90022 case-study papers) was scored in C2, not W2.",
+      "The core-subject lists in all three program lengths are menus ('A minimum of 25 points of core subjects' / 'minimum 75 points'), so apart from JOUR90001 no named subject is compulsory for every student. All 'core unit' judgements above treat the listed core subjects as core while noting that no individual one is guaranteed in a given student's program."
+    ],
+    "notScoreable": [
+      "No item was left unscored; the entries below record evidence that was absent from the extract and that bounded the scores.",
+      "Assessment pages are absent for every capstone subject — JOUR90003 Journalism Internship, JOUR90015/JOUR90016 Journalism Thesis Parts 1 and 2, JOUR90025/JOUR90026 Journalism Project Parts 1 and 2, and ARTS90032 Research Principles & Practices Graduate. C4 therefore rests on the Capstone Requirement statement rather than on capstone assessment tasks; C5 could not test for a viva or staged supervised methodology review; W3 could not test for practitioner supervision criteria, host accountability or structured reflection in JOUR90003.",
+      "No subject or assessment page for JOUR90028 Fact-checking, Misinformation and AI, the only subject in the program naming AI. C3 could not be tested against level 2 or 3 content even at elective level, and its elective status caps it at level 1 regardless.",
+      "No subject or assessment page for JOUR90005's remaining detail beyond the assessment table, and none at all for MECM90037, MECM90046, PUBL90003/90006/90009/90010/90013/90014, JOUR90024 or JOUR90029 — all electives, so they do not bear on any anchor, which requires core evidence.",
+      "No marking rubrics or assessment criteria are published anywhere in the extract, only task titles, word counts, timings and percentages. Judgements about whether tasks are 'judged against criteria drawn from practice' (W1, W2) and 'criterion-referenced appraisal' (C2) rest on task descriptions and subject overviews, not on criteria documents."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-15"
+    }
+  },
   "mc-jurisd": {
     "instrument": "4.1-draft",
     "C1": {
@@ -3420,6 +3570,149 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "adversarial": true,
       "mechanical": true,
       "date": "2026-08-14"
+    }
+  },
+  "mc-nursc": {
+    "instrument": "4.1-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied several times over: core units assess collaborative practice, including a group project with individual accountability (NURS90155 pairs an assessed group activity with an assessed individual reflection on it). Not level 3: level 3 requires, on top of recurring assessed collaboration, at least one assessment where work is coordinated across people AND tools/AI systems, or where the division of work between people and systems is itself assessed. Nothing in the extract documents an assessment of role-and-tool allocation; the only human-plus-system content (electronic medical records) appears as a learning outcome with 'practical activities', not as an assessed coordination task, and it is homed in C3. Interprofessional collaboration appears in subject overviews and generic-skill lists rather than in any assessment description, so per R1/R2 it cannot lift the score. Placement teamwork is deliberately not counted here (it is homed in W3 per the one-construct-one-home rule).",
+      "evidenceLines": [
+        "Group work project",
+        "Group Activity (Online discussion and online group presentation)",
+        "Individual reflection of group activity",
+        "Group task assessment",
+        "2 x team based MCQ assessments",
+        "Students will develop abilities to work in interprofessional collaboration with medicine and allied health to deliver safe, effective, evidence-based collaborative care."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2 anchor ('criterion-referenced appraisal of quality: peer review, structured critique, portfolio with standards') is met by assessed peer review inside a core unit's discussion-board activities (30% of NURS90158) and by the 50%-weighted core e-portfolio in NURS90154. Level 3 requires assessment that makes reliance decisions explicit — documenting and justifying when a tool, source or collaborator was relied on or overridden, defending judgements of AI-output quality, or evidencing strategy adjustment over time. No such task is documented: the reflective components are hurdle-gated genuine-attempt reflections and portfolio entries, with no documented requirement to justify a reliance decision. The longitudinal 'reflect on their evolving practice' portfolio line is the nearest thing to process-focused strategy adjustment, but it is homed in W3 as structured reflection on professional practice, and taken on its own it is ambiguous between levels 2 and 3, so the downward rule applies.",
+      "evidenceLines": [
+        "Two Discussion Board Activities (includes oral presentation and peer reviews) (750 words each equivalent) 15% each Discussion Board activity",
+        "E -Portfolio",
+        "Hurdle requirement: For the purposes of meeting this hurdle requirement, each submitted assessment must be complete and constitute a genuine attempt to address the requirements of the task."
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Not level 0: digital content is present in core units and in a program-level outcome. Level 1 is the correct ceiling because what is documented in the core is tool operation and digital-literacy skill acquisition — electronic medical records understood 'through practical activities', digital literacy listed among generic skills, information-technology/software skills as an outcome — which is exactly the operational level the anchor caps at 1. Level 2 requires core units to address AI capabilities AND limitations/ethics with use-with-limits assessed: the extract contains no reference to artificial intelligence or generative AI anywhere (0 matches across all program and subject pages), and the one ethics-adjacent statement, on 'legal and ethical implications of core and emerging digital health technologies', is an intended learning outcome with no assessment task tied to it, so R2 bars it from scoring above 1. The subject that would carry this content, Digital Transformation of Health, is an elective — the level-1 anchor's other route.",
+      "evidenceLines": [
+        "Evaluate and integrate new knowledge derived from the digital transformation of clinical care into one's practice to provide evidence-based care and support the digital literacy of patients, clients, carers and citizens.",
+        "Critically analyse how electronic medical records can optimise information use in a range of healthcare settings and contexts and demonstrate understanding of how electronic medical records work through practical activities.",
+        "Practice according to relevant professional, ethical and legal frameworks and demonstrate consideration of the legal and ethical implications of core and emerging digital health technologies",
+        "development of digital literacy skills required to acquire and communicate new knowledge",
+        "Demonstrate the application of information technology skills, including software systems"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2 anchor ('at least one core assessment requires application to novel or unfamiliar problems — case variation') is clearly met: the core Applied Pathophysiology case study is a hurdle-gated 50% task built on a case-study approach that varies the specialty context, and further case-study analyses recur in other core units. Level 3 needs documented structured progression toward independent learning — a self-scoped capstone or research project, or assessed identification of one's own knowledge gaps with a plan to close them. The capstone (NURS90157) is case-based and portfolio-based rather than self-scoped; the graduate attribute 'The ability to identify and address their own learning needs' is an attribute statement, which R2 and Barrie forbid scoring. The one self-scoped element in the program, the student-chosen research proposal, is homed in C5, and on its own it straddles levels 2 and 3 here, so the downward rule applies.",
+      "evidenceLines": [
+        "Using a case study based approach, learners will be provided with opportunities to apply their knowledge",
+        "Case Study",
+        "Hurdle requirement: Students must pass.",
+        "Demonstrating the ability and confidence to comprehend complex concepts when confronted with unfamiliar problems"
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 1 anchor ('Introductory methods unit; literature-review assessment') is met exactly: a core research-methods subject whose assessment opens with a 2000-word literature review, alongside a core critical-appraisal subject. Level 2 requires students to design AND conduct an inquiry with methodology selection and data collection, assessed. Methodology selection is assessed (the research proposal, 45%), but no assessed data collection is documented anywhere in the core — the terminal artefact is a proposal, not a conducted study. The subject overview's phrase about 'design and conduct of original research' makes the evidence straddle levels 1 and 2; the assessment table decides it downward. Level 3 is not in contention: no substantial required primary-evidence project and no viva, defence or staged supervised methodological scrutiny appears in the extract.",
+      "evidenceLines": [
+        "Literature review",
+        "Written assignment - Research Proposal",
+        "The focus of this subject is developing skills in the design and conduct of original research in an area of practice that is of interest to the student",
+        "Formulate appropriate research approaches and methodologies to address research questions",
+        "Demonstrating knowledge and skills in critically appraising research using relevant appraisal frameworks"
+      ]
+    },
+    "adaptiveness": 8,
+    "W1": {
+      "score": 2,
+      "rationale": "Demoted from 3 on adversarial verification. Level 2 is met squarely: the NURS90157 professional portfolio (50%) is a recognised professional genre judged against criteria drawn from professional practice — the seven domains of the NMBA Registered Nurse Standards for Practice (2016) — and it sits alongside repeated assessed communication tasks (2 x clinical communication during clinical encounter, 25%, in NURS90154; a podcast and a 10-minute oral presentation in other core units). Level 3 fails because its two conjuncts must hold of ONE assessment: delivery to, or judgement by, a real external audience or practitioner, AND professional conduct or accountability explicitly among that same assessment's criteria. Here the conjuncts split across two tasks — the audience conjunct rests on the clinical-communication task, the conduct-criteria conjunct on the NMBA-domains portfolio, which has no documented external audience or practitioner assessor. The audience conjunct is itself inferential rather than documented: the clinical-communication task is timed 'Prior to each Professional Experience placement' (i.e. pre-placement laboratory) and the extract contains no occurrence of 'simulated patient', 'standardised patient' or any named external assessor — only the phrase 'clinical encounter'. The one assessment that would satisfy both conjuncts cleanly, the ANSAT completed by clinical educators and preceptors against the profession's own standards, is homed in W3 and cannot be borrowed back. The supporting ILO lines ('Demonstrate foundational professional communication…', 'Use evidence-based, culturally safe communication skills…') are intended learning outcomes and barred by R2/Barrie from lifting a level-3 score.",
+      "evidenceLines": [
+        "2 x Clinical communication during clinical encounter",
+        "Professional portfolio based on seven domains of the Nursing and Midwifery Board of Australia (NMBA) Registered Nurse Standards for Practice (2016)",
+        "Use evidence-based, culturally safe communication skills as a member of the interprofessional team and to facilitate a therapeutic nurse patient relationship",
+        "Demonstrate foundational professional communication, including an understanding of professional boundaries, reflective practice, and self-awareness;",
+        "Podcast (equivalent to 1000 words)",
+        "Oral Presentation (10 mins)"
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3's first condition — practice-fidelity tasks as the assessment spine, 'a capstone plus earlier scaffolding' — is met literally: Year 1 carries hurdle-gated Objective Structured Clinical Examinations and compulsory simulated-learning-laboratory practice in patient assessment, infection prevention and medication administration; Year 2 carries a capstone built on case-based scenarios featuring complex patient problems, immersive and advanced-life-support simulations, and a medication management test. Second condition — a genuine constraint of practice — is met by the profession's own standards of performance operating as gates on practice: the OSCE must be passed and the drug calculation tests completed before the student may attend placement, i.e. the task is judged at the safety threshold the profession applies. Simulation is scored here rather than in W3 as the construct note directs, and the placement itself is excluded from this item. The score rests on documented task features (artefact produced, setting reproduced, pass conditions), not on any authenticity label (R4).",
+      "evidenceLines": [
+        "2 x Objective Structured Clinical Examination (OSCE)",
+        "Hurdle requirement: Must be passed.",
+        "In the simulated learning laboratory, through facilitated clinical practice, students will develop skills relating to a comprehensive systems-based patient physical and health assessment, infection prevention, basic nursing interventions and enteral medication administration.",
+        "2 x Drug calculation Tests (online assessment, open book)",
+        "Must be completed prior to attending clinical placement",
+        "Attendance at all Simulated Learning Laboratory classes",
+        "Clinical Simulation",
+        "This is a capstone subject in which students will further consolidate and apply the knowledge they have acquired throughout the degree through case-based learning scenarios which feature complex patient health problems.",
+        "In the clinical skills laboratory students will refine and consolidate their procedural skills, including basic life support and advanced life support simulations, utilising a self-directed learning approach.",
+        "Medication management test (online, open book) (1 hr)"
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Every element of the level-3 anchor is documented: a sequence of required placements in the core (400 hours in the Year-1 core subject, 520 hours in the Year-2 capstone) rather than a single short instance, so it is 'substantial' and 'extended'; practitioner supervision, stated as clinical educators and clinical preceptors guiding students during the professional experience placement; assessment, via the ANSAT clinical assessment tool completed in the final week of each placement; accountability to the host, enforced as a 100% attendance hurdle in both subjects and a pass on the first ANSAT as the condition of returning to placement; and structured reflection on professional practice, via the capstone e-portfolio requiring reflection on evolving practice throughout clinical placement against the NMBA Registered Nurse Standard of Practice. Placement evidence is scored only here, never in C1 or C4.",
+      "evidenceLines": [
+        "Professional Experience placement during assigned professional placement period",
+        "400 hours",
+        "Hurdle requirement: 100% attendance",
+        "Professional Experience placement including completion of associated ANSAT clinical assessment tools assigned during professional placement periods",
+        "520 hours",
+        "During the professional experience placement, under the guidance of clinical educators and clinical preceptors, students will gain experience in settings that enable them to meet the learning objectives of this subject.",
+        "2 x Completion of Clinical Assessment tool ANSAT",
+        "Under the guidance of clinical educators and preceptors, students focus on the transition from nursing student to registered nurse with the goal of achieving readiness to practice as a registered nurse.",
+        "The capstone experience is in the form of a professional e-portfolio where throughout the academic year and throughout their clinical placement practice students must reflect on their evolving practice within the context of Nursing and Midwifery Registered Nurse Standard of Practice 2018."
+      ]
+    },
+    "workplace": 8,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The G1 PASS condition is met on all three of its alternative routes at once: an all-compulsory specialist core (13 compulsory subjects, 187.5 of 200 credit points, with only one elective), an accredited sequence (NMBA approval and ANMAC accreditation), and a staged prerequisite chain in which the Year-1 foundations and acute-nursing subjects gate the Year-2 capstone, chronic-conditions and pharmacology subjects, and anatomy gates pathophysiology. Content is disciplinary rather than generic or interchangeable throughout.",
+        "evidenceLines": [
+          "Master of Nursing Science involves completion of 13 core subjects and one elective subject.",
+          "13 compulsory subjects (187.5 points)",
+          "The Master of Nursing Science has been approved by Nursing and Midwifery Board of Australia (NMBA) and accredited by the Australian Nursing and Midwifery Council (ANMAC).",
+          "Foundations of Nursing Practice is a prerequisite for NURS90157 Transition to Nursing Practice, NURS90158 Nursing of Chronic Health Conditions and NURS90075 Applications of Clinical Pharmacology."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Assessment goes well beyond recall or scripted response. Core assessment requires defended clinical trade-off decisions — prioritising nursing problems and planning interventions under a Clinical Decision Making Framework, individualising the decision-making process to a practice context, and modifying practice where clinically indicated — and is delivered through open-book take-home case analyses rather than closed recall. Real uncertainty with accountability is present in the capstone's complex-patient scenarios and in supervised placement practice.",
+        "evidenceLines": [
+          "Using a Clinical Decision Making Framework, plan nursing interventions for patients with acute health conditions, based on best available evidence including the use of pharmacological agents",
+          "Evaluate the implementation of patient care and patient outcomes, modifying practice where clinically indicated",
+          "Individualise the use of the clinical decision making process as the framework for gathering and organising medication information, planning, administering, documenting and evaluation to suit their own practice needs.",
+          "Case study analysis (Open book, take home SAQ & Long answer questions))"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C2 — the capstone e-portfolio requires reflection on 'evolving practice' across a full academic year and across placement, which is arguably the level-3 route 'evidence strategy adjustment over time (process-focused assessment)'. No reliance/override decision is documented, and the line is homed in W3 as structured reflection; resolved DOWN to 2 by the ambiguity rule.",
+      "C3 — the capstone outcome on 'legal and ethical implications of core and emerging digital health technologies' reads toward the level-2 anchor's 'limitations/ethics ... discussed'. It is an outcome with no assessment task attached (barred by R2), it concerns digital health technology rather than AI, and the extract contains no AI reference at all; resolved DOWN to 1.",
+      "C4 — the Nursing Research proposal is written on a topic 'of interest to the student', which could support the level-3 route 'a self-scoped ... research project'. The evidence is homed in C5 (inquiry), a proposal is not a conducted project, and no program-wide 'structured progression toward independent learning' is documented; resolved DOWN to 2.",
+      "C5 — the subject overview claims 'design and conduct of original research' (level 2) while the assessment table lists only a literature review, a 5-minute oral presentation and a written proposal, with no data collection; resolved DOWN to 1 on the assessment evidence per R1/R2.",
+      "W1 — level 3 was claimed and DEMOTED to 2 on adversarial verification: the level-3 conjuncts (external audience/practitioner AND professional-conduct criteria) were spliced across two different assessments (the clinical-communication task and the NMBA-domains portfolio), and the external-audience conjunct is inferential — the communication task is scheduled prior to placement and no simulated/standardised patient or external assessor is named anywhere in the extract.",
+      "W1 vs C1 — the interprofessional-team communication outcome could be read as C1 coordination. Scored in W1 only, as W1's construct names communication to audiences; C1 was scored on group-work assessment lines instead.",
+      "W2 vs W3 — the OSCEs, simulated learning laboratory and immersive simulations sit immediately adjacent to the placements in the same two subjects. Per the construct note, simulation is scored in W2 and only the placements themselves in W3; ANSAT and placement hours were used once, in W3.",
+      "W1 vs W3 — the ANSAT clinical assessment tool could support W1's 'judged by a real practitioner' route. It is homed in W3 and cannot be borrowed back into W1, which is part of why W1 could not reach level 3."
+    ],
+    "notScoreable": [
+      "C3 (AI-specific evidence) — the extract contains no mention of artificial intelligence or generative AI in any program-level outcome or core subject page (zero matches across all 2,370 lines), so the anchor's AI capabilities/limitations/governance content could not be evaluated on its own terms; C3 was scored on the digital-tool route only, and a re-capture that included any AI-in-practice content could change this item.",
+      "ANSAT criteria — the extract names the tool ('Clinical Assessment tool ANSAT') but does not expand the acronym or list its assessed criteria, so W3's assessment content is documented only as the fact of a hurdle-gated placement assessment tool, not by its rubric.",
+      "Elective subject pages for NURS90121, NURS90142, POPH90257, POPH90308 and ISYS90069 Digital Transformation of Health are absent from the extract. No scoring depended on them (electives cannot lift any anchor above level 1), but the digital/AI picture would be incomplete if those subjects were ever counted."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-15"
     }
   },
   "mc-prop": {
