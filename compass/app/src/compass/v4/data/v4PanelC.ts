@@ -59,15 +59,13 @@ export interface V4Meta {
 
 export const V4_META: V4Meta = {
   "cohortSize": 34,
-  "scored": 18,
-  "workplaceScored": 18,
+  "scored": 20,
+  "workplaceScored": 20,
   "workplaceComplete": false,
   "complete": false,
   "adaptMedian": null,
   "expMedian": 90.9,
   "pending": [
-    "mc-gencoun",
-    "mc-intedib",
     "mc-is",
     "mc-journ",
     "mc-jurisd",
@@ -2735,6 +2733,292 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "adversarial": true,
       "mechanical": true,
       "date": "2026-08-14"
+    }
+  },
+  "mc-gencoun": {
+    "instrument": "4.1-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is met: core units assess collaborative practice through group-assessed tasks — POPH90226's group oral presentation, GENE90022's group presentation and WELF90010's group presentation are all in the 200-credit-point compulsory core. Level 3 is not reached: the anchor requires assessed collaborative practice to recur AND at least one assessment to require coordinating work across people AND tools/AI systems, and no assessment in the extract makes the division of work between people and systems, or role/tool allocation, itself an object of assessment. Teamwork also appears only as an outcome/generic-skill claim in several subjects ('Be meaningful contributors to teams'; 'contribute evidence based genetics and counselling expertise to multidisciplinary clinical teams'), which under R2 cannot lift the score. Placement and multidisciplinary-team participation in PAED90020 is not scored here — one construct, one home: it scores in W3.",
+      "evidenceLines": [
+        "Group Oral Presentation (3-4 students per group)",
+        "Group Presentation",
+        "Group presentation",
+        "Be meaningful contributors to teams; working in small and larger group settings",
+        "contribute evidence based genetics and counselling expertise to multidisciplinary clinical teams;"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2 anchor is met: core assessment includes criterion-referenced appraisal of quality — HLTH90014's 2500-word 'Critique of papers' (50%) is structured critique, and WELF90010's assessed portfolio is explicitly judged against an external standard set (the HGSA professional competencies), i.e. a portfolio with standards. Level 3 is not awarded: its anchors require students to document and justify reliance decisions (when they relied on or overrode a tool, source or collaborator), defend judgements of AI-output quality, or evidence strategy adjustment over time. Nothing in the extract assesses reliance or tool-quality judgement at all. The reflective apparatus (self-reflection on role-play learnings, staged progress reports, reflection on research experience) is serial and process-visible but is documented as reflection on experience rather than as assessed adjustment of strategy, so the evidence straddles 2 and 3 and the ambiguity rule resolves it down to 2.",
+      "evidenceLines": [
+        "'Critique of papers'",
+        "Portfolio of education and placement activites and student reflections",
+        "Hurdle requirement: The activities demonstrated by this portfolio fulfill the requirements of the HGSA professional competenices for genetic counselling practice.",
+        "AT3 Written self-reflection on AT2 role play learnings",
+        "Written reflection on research experience (1000 words) - Semester 2, Week 11",
+        "Written progress report x3 - Semester 1, Week 3; Semester 1, Week 12; Semester 2, Week 6"
+      ]
+    },
+    "C3": {
+      "score": 0,
+      "rationale": "Level 0 anchor — no digital or AI content in any core unit or program-level outcome — is what the extract documents. The course, outcomes, structure and all twelve core subject and assessment pages contain no reference to artificial intelligence, generative AI, digital literacy, data governance or algorithmic systems. The technology content that is present is biomedical, not digital: genomic tests, genetic techniques and variant classification, with 'on-line content' appearing only as a delivery mode. The nearest candidate for level 1 (tool operation) is GENE90001's undifferentiated 'tools used by genetic counsellors to access information', which the handbook never characterises as digital tools; that leaves the evidence ambiguous between 0 and 1 and the ambiguity rule resolves it down. Level 2 would additionally require core units to address AI capabilities and limitations, and level 3 critique or governance of AI systems, neither of which appears anywhere.",
+      "evidenceLines": [
+        "This subject will introduce students to the complexity of the human genome, and tools used by genetic counsellors to access information and inform risk assessment.",
+        "Use relevant tools to obtain pertinent information about a genetic condition",
+        "The subject will be delivered via a combination of on-line content and case-based face-to-face tutorials.",
+        "Understand and apply current knowledge of genetic technologies and/or techniques, including testing strategies, approaches and result interpretation, with awareness of the limitations and quickly changing landscape of genomic medicine",
+        "Evaluate the integration of genomic technologies into public health practice"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3 anchor is met on the self-scoped-project route: the program documents a structured progression toward independent learning across three compulsory subjects — HLTH90014 (methods, Year 1 Sem 1) into HLTH90011, where students design their own original project and draft the HREC application, into HLTH90013, where that project is carried out and written up under supervision. It is required rather than one route among several, since the course is 200 credit points of compulsory subjects. R2 is satisfied by assessment evidence, not outcome statements: the HREC application and project proposal (50%) and the monograph are assessed tasks, and self-directed learning is named as the subject's own skill target. Level 2 alone would understate this, since the progression is staged and the project is student-scoped rather than a single novel-problem task.",
+      "evidenceLines": [
+        "200 credit points of Compulsory subjects.",
+        "This subject offers students the opportunity to design an original research project with academic supervision.",
+        "Students are encouraged to collaborate with a research supervisor to develop their own research project",
+        "Written draft of HREC application and Project Proposal",
+        "An original research project will be conducted and a monograph of 5,000 words completed under academic supervision.",
+        "Skills in self-directed learning."
+      ]
+    },
+    "C5": {
+      "score": 3,
+      "rationale": "Level 3 anchor is met in full: a substantial primary-evidence project is required (HLTH90013 sits in the all-compulsory 200-credit-point core), students collect and/or analyse their own research data rather than synthesising secondary literature, and the methodology is defended under scrutiny — a viva presentation of findings in the examination period, a monograph examined by two examiners appointed by the Board of Examiners, and staged supervised review through three written progress reports and class updates. Methodology selection is separately trained and assessed in HLTH90014 ('Design a research project'). This exceeds level 2, which would require only a designed and conducted inquiry without defence under scrutiny.",
+      "evidenceLines": [
+        "Data collection commences in Year 2 and students are required to collect and/or analyse research data, interpret findings and write a monograph to be submitted at the end of Semester 2.",
+        "Viva presentation of findings - Semester 2 exam period",
+        "Written monograph 5000 words assessed by 2 examiners chosen by the Board of Examiners (Program Director, Research Coordinator and other senior faculty) - Semester 2, Week 9",
+        "Written progress report x3 - Semester 1, Week 3; Semester 1, Week 12; Semester 2, Week 6",
+        "Design a research project",
+        "200 credit points of Compulsory subjects."
+      ]
+    },
+    "adaptiveness": 10,
+    "W1": {
+      "score": 2,
+      "rationale": "Demoted from 3 to 2 on adversarial verification. Level 2 is met beyond doubt on non-placement evidence: core assessment requires communication in recognised professional genres and to audiences beyond the teaching team — a lay-communication written task in GENE90001, a class presentation of a clinical case with written summary and presentation materials, and a written job application with resume, cover letter and key-selection-criteria statement. Level 3 is not reached. Its second limb (assessment delivered to, or judged by, a real external audience or practitioner, with professional conduct or accountability explicitly among the assessed criteria) was carried only by two PAED90020 lines — the supervisor-with-student placement assessment and the 'fit to practice' minimum-competency hurdle — which are load-bearing for W3=3. Scoring the same assessment rows in two items breaches one construct, one home, and the tie-break sends practitioner-supervised workplace assessment to W3, whose construct names it. No non-placement evidence fills the gap: POPH90226's 'Produce written information about personal genomics for a general audience' is an intended learning outcome (its assessments are an undescribed 1500-word written task plus quizzes), so R2 caps it at 1; all role-plays are with peers or the tutor, never a simulated patient; and GENE90021's poster and 3-minute presentation is judged by the teaching team, with its professional-standard hurdle already serving as W2's genuine-constraint evidence.",
+      "evidenceLines": [
+        "Written task (Lay communication)",
+        "Class presentation of clinical case and submission of written summary and presentation materials (week 10-12)",
+        "Written job application including resume, cover letter and statement of key selection criteria",
+        "Written letter to patient (from long case report 2)",
+        "These core competencies include effective communication skills, reflective practice, critical thinking, proficient case management abilities, and maintaining professional and ethical standards."
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3 anchor is met: professional-fidelity tasks are the assessment spine rather than a single instance — pedigree construction and familial risk assessment and lay communication in GENE90001, videoed role-play counselling and the competency portfolio in WELF90004/WELF90010 across Year 1, then the clinical poster and abstract, the analysed simulated counselling session, long case reports, a 50-case logbook and a job application in Year 2. Each produces the artefact a practitioner actually produces (pedigree, case report, patient letter, case log, counselling session). The genuine constraint of practice is the profession's own standard of performance, quoted as an explicit hurdle criterion in GENE90021 and again in the fitness-to-practise hurdle. Per R4 the score rests on these documented task features, not on the course page's 'assessment tasks mirror the skills needed' claim, which was disregarded. Workplace immersion itself is scored in W3, and appraisal of quality in C2.",
+      "evidenceLines": [
+        "Written task (Pedigree construction and familial risk assessment)",
+        "750-word poster and abstract and 3-minute presentation",
+        "the subject's learning outcomes to a professional standard that is expected in the genetic counselling workforce",
+        "Essay - analysis and reflection of videotaped simulated counselling session",
+        "Written long case report 1",
+        "Written professional portfolio containing a logbook of 50 cases and education report",
+        "Written letter to patient (from long case report 2)"
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3 anchor is met without ambiguity: PAED90020 Clinical Practice is a compulsory year-long, off-campus subject requiring a minimum of 48 days of clinical placement in real clinical genetics services — an extended sequence of two 24-day placements, not a short standalone unit. It is practitioner-supervised, assessed by that supervisor jointly with the student, and carries accountability to the host expressed as a 70% hurdle on the second placement report certifying minimum competencies to practise. Structured reflection on professional practice is separately assessed in each placement report and reinforced through the co-requisite supervision subjects. Simulation-based tasks were not counted here; they score in W2.",
+      "evidenceLines": [
+        "Successful completion of this year-long subject necessitates a minimum of 48 days of clinical placements in clinical genetics settings",
+        "In this subject, students will engage in a dynamic learning experience that combines observation, supervised practice, and increasing levels of responsibility throughout their clinical placements.",
+        "Supervision will play a key role in this subject, allowing students to engage in discussions and critical reflections on ethical issues, thereby enhancing their self-awareness (LO3).",
+        "Assessment by the supervisor with the student for placement 1, 750 words total (24 day placement) AND student reflection on placement 1, 1125 words total.",
+        "Assessment by the supervisor with the student for placement 2, 750 words total (24 day placement) AND Student reflection on placement 2, 1125 words total.",
+        "minimum competencies to be 'fit to practice' as a genetic counsellor",
+        "200 credit points of Compulsory subjects."
+      ]
+    },
+    "workplace": 8,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "An all-compulsory specialist core plus an accredited sequence: the whole 200 credit points are compulsory subjects, the award is the accredited professional qualification for HGSA certification, and depth is staged — GENE90001 into GENE90002 into Advanced Clinical Genomics 1 and 2, foundational into advanced counselling practice, and research methods into two research-project subjects — with a documented 70% progression requirement gating entry to the second year. No generic or interchangeable content substitutes for the disciplinary core.",
+        "evidenceLines": [
+          "The Master of Genetic Counselling requires the successful completion of 200 credit points.",
+          "200 credit points of Compulsory subjects.",
+          "The Master of Genetic Counselling constitutes the professional qualification for entry into employment as an Associate Genetic Counsellor and for Part 1 Certification, awarded through the Board of Censors in Genetic Counselling (Human Genetics Society of Australasia)",
+          "Students must achieve 70% in all subjects to progress to the second year of the course."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Assessment goes well beyond recall or scripted response. Core outcomes require defended clinical trade-off judgements under acknowledged limits — interpreting genomic reports into clinical recommendations, appraising care recommendations, and reasoning about the limits of integrating variant analysis into routine care — and these are exercised in live clinical placements with genuine uncertainty and accountability to a supervisor and host service, assessed through long case reports and supervisor assessment. Counselling assessment likewise requires managing emotionally charged, multi-party interactions with no scripted answer.",
+        "evidenceLines": [
+          "Interpret and apply genetic and genomic reports to develop sound clinical recommendations;",
+          "Appraise clinical care recommendations for individuals and families living with specific genetic conditions",
+          "Explain the processes and limitations of integrating genomic variant analysis into routine clinical care",
+          "In this subject, students will engage in a dynamic learning experience that combines observation, supervised practice, and increasing levels of responsibility throughout their clinical placements.",
+          "Demonstrate approaches for managing diverse counselling interactions, including sessions with multiple participants, heightened emotional intensity, and varied psychosocial dynamics",
+          "Written long case report 1"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C2 straddled levels 2 and 3. The program has an unusually dense assessed reflective apparatus that is serial and process-visible — self-reflection on prior role-play learnings, three staged written progress reports, a written reflection on research experience, and paired placement reports whose hurdle turns on 'maintenance or further development of their skills and competencies'. That is arguably level 3's 'evidence strategy adjustment over time (process-focused assessment)'. But the handbook documents these as reflection on experience, never as assessed adjustment of strategy, and level 3's other two routes (reliance decisions, judging AI-output quality) are wholly absent. Resolved DOWN to 2 by the never-resolve-upward rule.",
+      "C3 straddled levels 0 and 1. GENE90001's 'tools used by genetic counsellors to access information' and 'Use relevant tools to obtain pertinent information about a genetic condition' would be level-1 tool operation IF those tools are the digital variant and phenotype databases the discipline in fact uses — but the handbook never characterises them as digital, and no AI or digital-literacy content appears anywhere. Resolved DOWN to 0 by the never-resolve-upward rule.",
+      "W1 straddled levels 2 and 3 and was resolved DOWN to 2 on adversarial verification. The level-3 external-audience/practitioner-judged limb rested entirely on two PAED90020 placement rows that are also load-bearing for W3=3 (the supervisor-with-student placement assessment and the 'fit to practice' hurdle). One construct, one home sends practitioner-supervised workplace assessment to W3; W1 was rescored on non-placement evidence alone, which reaches level 2 but not level 3.",
+      "Placement evidence could have been read into C1 (multidisciplinary team participation) and C4 (work-integrated learning). Per one-construct-one-home it was scored only in W3, and C1/C4 were scored without it.",
+      "PAED90020's paired supervisor-with-student placement assessment could be read as evaluative judgement (C2) as well as work-situated assessment (W3). It was scored in W3, the construct that names supervised workplace participation, and C2 was scored on the critique and portfolio-against-standards evidence instead."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-15"
+    }
+  },
+  "mc-intedib": {
+    "instrument": "4.1-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor met: a compulsory core subject assesses collaborative practice with individual accountability. EDUC90333 Introduction to the IB is listed under 'Compulsory subjects' and its first assessment is a paired presentation weighted 10%, with the word allocation specified per student — the anchor's 'group projects with individual accountability' exemplar. Not level 3: no other core assessment is collaborative (all remaining core tasks are individual essays, planning documents, presentations and research reports), so assessed collaboration does not recur across the program; and nothing in the extract requires coordinating work across people AND tools/AI systems, or makes the division of work between people and systems itself assessable. Not level 1, because the collaboration is assessed rather than only stated in outcomes.",
+      "evidenceLines": [
+        "Critical reading presentation (in pairs, 500 words per student; 1000 words equivalent for the subject)",
+        "10 minutes",
+        "Compulsory subjects",
+        "Understand the importance of purposeful, collaborative planning within the PYP",
+        "Graduates are also aware of the social and cultural diversity in communities and can work collaboratively with people from diverse linguistic and cultural backgrounds."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2 anchor met: core assessment includes structured critique of the quality of work. The compulsory capstone EDUC90871 assesses a 'Research Review' at 25% and documents that students critically analyse a prior research project; the core capstone prerequisite EDUC90926 assesses a literature review at 40% against the stated skill of evaluating the quality of research and research papers. Not level 3: no core assessment requires students to document and justify reliance decisions (when they relied on or overrode a tool, source or collaborator), to defend judgements of AI-output quality, or to evidence strategy adjustment over time — the repeated generic-skill claim about using constructive criticism of their own work is an outcome statement only, and R2 bars scoring it. Not level 1, because the appraisal is carried by weighted assessment tasks, not only outcomes.",
+      "evidenceLines": [
+        "Research Review",
+        "Students undertake a critical analysis of the original project and then design their own research using the original data.",
+        "Literature review",
+        "Analyse and evaluate the quality of research and research papers",
+        "Evaluate and use constructive criticism of their own work and of the institutions/ communities in which they teach;",
+        "Evaluate a range of assessment tools and styles and reporting strategies including rubrics, teacher and school self-evaluation, and the rationale for them in the area of teaching and learning;"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor met and no higher: digital tools appear only at the operational level TEQSA identifies as non-durable. ICT appears in the program-level generic skills and again in EDUC90330's generic skills as using ICT to participate in learning communities — tool participation, not capability critique — and the only other digital reference is undertaking data management and analysis on pre-existing data sets. Not level 0, because that operational digital content does appear in a program-level outcome. Not level 2: no core unit in the extract addresses AI capabilities AND limitations or ethics of AI; generative AI is not mentioned anywhere in the extract. Not level 3: no core assessment requires critique or governance of AI systems — bias, accountability, transparency, regulation or data governance — in the education context. Research ethics is addressed (EDUC90926, EDUC90871), but research ethics is not AI or digital governance.",
+      "evidenceLines": [
+        "Effectively use ICT to participate in learning communities as a source of professional learning;",
+        "Effectively use ICT to participate in learning communities as a source of professional learning.",
+        "Undertake data management, analysis and report writing using pre-existing small-scale qualitative and quantitative data sets;",
+        "Identify ethical issues in education research and evaluate responses",
+        "Conduct education research in an ethical manner;"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3 anchor met: the program documents structured progression toward independent learning via a self-scoped required research project, and R2's assessment requirement is satisfied by weighted tasks, not an outcome statement. The course structure mandates 25 points of capstone subjects taken at the end of the degree, with EDUC90926 a prerequisite or corequisite for EDUC90871; EDUC90871 is the compulsory AQF capstone, in which students complete an independent research project, design their own research, and are expected to plan and execute that project — assessed by a Research Review (25%), Research Poster (25%) and Final research report (50%). That is the staged prerequisite chain plus self-scoped project the level-3 anchor names, which is more than the level-2 requirement of a single application to novel problems.",
+      "evidenceLines": [
+        "capstone subjects totalling 25 points",
+        "The capstone subjects are taken at the end of the degree.",
+        "EDUC90926 Researching Education Practice is a prerequisite or corequisite for EDUC90871 International Baccalaureate Capstone",
+        "Drawing on theory, knowledge and skills developed throughout the Master of International Education (International Baccalaureate), students will complete an independent research project.",
+        "Plan and execute their capstone research project",
+        "Final research report",
+        "Investigate systematically a matter of concern in an IB context; or conduct a constructively critical literature review."
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 1 anchor matches the documented evidence exactly: an introductory methods unit with literature-review assessment. EDUC90926 is described as the first part of the capstone experience covering methodologies, research ethics and data management, and assesses a Literature review at 40%. Level 2 requires students to 'design and conduct an inquiry with methodology selection and data collection, assessed' — the data-collection half is explicitly negated by the extract: the capstone has students access data from a prior research project and the program generic skills specify pre-existing small-scale qualitative and quantitative data sets. Methodology selection is assessed (Research design report, 40%), so the evidence straddles levels 1 and 2; the rule to resolve ambiguity downward applies. Level 3 is clearly not met: no substantial project generating primary evidence is required, the capstone ILO permits a critical literature review as an alternative route ('one route among several'), and no viva, defence or staged supervised review of methodology is documented.",
+      "evidenceLines": [
+        "In this subject, students will develop an understanding of research in education, as the first part of their capstone experience, and advanced skills to analyse complex educational problems and the bodies of knowledge associated with them.",
+        "Literature review",
+        "Research design report",
+        "In this subject, students access data from a prior research project about teaching and learning strategies in IB classrooms.",
+        "Undertake data management, analysis and report writing using pre-existing small-scale qualitative and quantitative data sets",
+        "Investigate systematically a matter of concern in an IB context; or conduct a constructively critical literature review."
+      ]
+    },
+    "adaptiveness": 9,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1 anchor met: communication appears in outcomes and core assessment adds spoken presentation, but no professional genre of communication and no audience beyond the teaching team is documented. Outcomes claim graduates can articulate research in written and oral presentations and are effective oral and written communicators; core assessment delivers on the spoken half repeatedly — a learner profile presentation (30%) in the compulsory EDUC90333, an oral presentation (20%) in the core capstone EDUC90926, and 20-minute presentations in the specialisation core subjects. Not level 2: no core assessment names a recognised professional communication genre judged against practice-drawn criteria, and no assessment is addressed to an audience beyond the teaching team — the delivery mode is online class and no client, panel, practitioner or public audience is named. The practitioner artefacts (unit planner, planning document, assessment framework) score in W2 under one-construct-one-home, not here. Not level 3 for the same reasons, and because professional conduct is nowhere among stated assessment criteria.",
+      "evidenceLines": [
+        "Be able to articulate research in written and oral presentations.",
+        "Learner profile presentation (1500 words equivalent)",
+        "Oral presentation (equivalent to 1000 words)",
+        "Oral Presentation: IB Diploma Programme (20 minutes)",
+        "Presentation: interdisciplinary learning (20 minutes)",
+        "Online exhibition related to the PYP Exhibition",
+        "Research Poster",
+        "Communicate research results clearly and persuasively."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2 anchor met: at least one core assessment produces the artefact a practitioner would produce, judged against criteria drawn from practice. The compulsory EDUC90331 assesses a 'Scaffolded assessment framework' at 40% within a subject whose outcomes are the IB's own assessment and reporting requirements; the specialisation core subjects assess a Planning document (50%), an Annotated Unit of Inquiry (45%), an MYP unit planner (45%) and an Annotated subject timeline (45%) — curriculum planning documents are the education profession's own artefact — with the stated criterion being curriculum that incorporates and balances the IB's standards and practices, and the course itself accredited by the IB. Not level 3: such tasks are not documented as the assessment spine. The compulsory entry subject EDUC90333 assesses a presentation, a presentation and a 3000-word essay, and the entire 25-point capstone stage assesses academic research genres (research review, poster, research report), so the anchor's 'capstone plus earlier scaffolding, or at least one per stage' is not satisfied. Evidence straddles 2 and 3 (the IB standards-and-practices criterion would supply the level-3 'profession's own standards of performance'), resolved downward. Per R4, nothing was scored up on a 'real-world' or 'authentic' label; only documented task features were used.",
+      "evidenceLines": [
+        "Scaffolded assessment framework",
+        "Planning document",
+        "Demonstrate the ability to design and critique curriculum that incorporates and balances PYP standards and practices;",
+        "Annotated Unit of Inquiry",
+        "Written task: MYP unit planner",
+        "Annotated subject timeline",
+        "Demonstrate the ability to design and critique curriculum that incorporates DP standards and practices and addresses the objectives of subject specific content and common core learning.",
+        "The course is accredited by the International Baccalaureate®",
+        "International education essay"
+      ]
+    },
+    "W3": {
+      "score": 0,
+      "rationale": "Level 0 anchor met: no work-integrated learning, placement, practicum or community-based project appears anywhere in the course structure. The degree is a fully online program and its four structural components are exhaustively enumerated as 25 points of compulsory subjects, one 25-point specialisation, 25 points of electives and 25 points of capstone subjects — none is a placement or practicum, and every named subject is delivered Online with written, presentation and research assessment only. The capstone is explicitly desk-based on a prior project's data rather than sited in a workplace. Not level 1: work-situated learning does not even appear as an elective, optional internship or unassessed careers activity in the extract. The cohort is described as teachers already working in education and several outcomes refer to the institutions or communities in which they teach, but no supervised, assessed participation in a workplace is documented in the course structure — under R1 the graduate's own employment is not curriculum evidence.",
+      "evidenceLines": [
+        "Masters (Coursework)Year: 2026Delivered: Online",
+        "25 points of compulsory subjects",
+        "at least one specialisation, each consisting of 25 points of study",
+        "electives totalling 25 points",
+        "capstone subjects totalling 25 points",
+        "Please note that this program will not provide graduates with initial teacher education qualifications to teach in Australia.",
+        "In this subject, students access data from a prior research project about teaching and learning strategies in IB classrooms.",
+        "Evaluate and reflect upon their teaching and on the work of the institutions/ communities in which they teach;"
+      ]
+    },
+    "workplace": 3,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program documents a coherent specialist core with progressive depth by two of the three routes the gate names: an accredited sequence (the course carries International Baccalaureate professional accreditation) and a staged prerequisite chain (Introduction to the IB gates the Curriculum Frameworks subject in every specialisation, Assessment & Reporting gates each Advanced subject, and Researching Education Practice gates the capstone). Content is disciplinarily specific rather than interchangeable — it is described as a specialist degree, and subject content is IB curriculum, assessment and pedagogy throughout.",
+        "evidenceLines": [
+          "Professional accreditation",
+          "The course is accredited by the International Baccalaureate®",
+          "It offers a specialist degree for teachers and administrators working at all levels of education.",
+          "EDUC90333 Introduction to the IB is a prerequisite for EDUC90261 Curriculum Frameworks in the IB PYP",
+          "EDUC90331 Assessment & Reporting in the IB is a prerequisite for EDUC90260 IB PYP Advanced",
+          "EDUC90926 Researching Education Practice is a prerequisite or corequisite for EDUC90871 International Baccalaureate Capstone"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "The gate's capstone route is satisfied: the compulsory AQF capstone requires students to design their own research and plan and execute the project, with the design itself assessed (Research design report, 40% in the prerequisite subject) and the outcome assessed (Final research report, 50%) — defended methodological trade-offs under genuine uncertainty rather than recall or scripted response. The specialisation core adds designed-and-critiqued curriculum judged against IB standards. Noted as a bound: the capstone's data are supplied rather than collected, which narrows the uncertainty, and the ILO permits a literature-review route; the gate is nonetheless met on the research-design evidence.",
+        "evidenceLines": [
+          "This subject comprises the compulsory [AQF] Capstone experience for this course.",
+          "Students undertake a critical analysis of the original project and then design their own research using the original data.",
+          "Research design report",
+          "Understand and apply a range of methodologies for evaluating behaviour in a classroom context;",
+          "Demonstrate the ability to design and critique curriculum that incorporates and balances PYP standards and practices;"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1: the sole collaborative core assessment is a 10%-weighted paired presentation. Ambiguous between level 1 (token, effectively outcome-level) and level 2; resolved UP to 2 only because the anchor's bar is explicit ('at least one core unit assesses collaborative practice') and the pairing plus per-student word allocation is documented in the assessment table, not the outcomes. Its slightness is why level 3's 'recurs across the program' fails.",
+      "C2: the level-2 anchor requires criterion-referenced appraisal. The critique tasks (Research Review, the recurring Critical Reading Tasks, critical analysis of the prior project) are assessed and weighted, but no rubric, exemplar or explicit criterion set is quoted in the extract. Straddles 1 and 2; scored 2 because the critique is carried by weighted assessment rather than outcomes, with the criterion-referencing left undocumented.",
+      "C5: the strongest straddle. Methodology selection and a designed, conducted inquiry are assessed (Research design report 40%; Final research report 50%), which reads as level 2, but level 2 conjoins methodology selection AND data collection, and data collection is explicitly absent (pre-existing supplied data). Resolved DOWN to 1 per the ambiguity rule.",
+      "C4: the capstone is self-scoped in its question but not in its data (the dataset is supplied), and the ILO permits a critical literature review as an alternative route. Scored 3 because the level-3 anchor asks for structured progression toward independent learning via a self-scoped capstone or research project, which the prerequisite chain plus independent project documents; the supplied data constrain C5, not C4.",
+      "W1: 'Online exhibition related to the PYP Exhibition' (45%) and 'Research Poster' (25%) could be read as public-facing artefacts qualifying for level 2, but neither names an audience beyond the teaching team nor criteria drawn from professional practice. Resolved DOWN to 1.",
+      "W2: practitioner-artefact tasks appear in three or more core subjects and the IB's own standards and practices supply the level-3 'profession's own standards of performance', but the compulsory entry subject and the whole 25-point capstone stage assess academic genres, so 'assessment spine' / 'at least one per stage' is not documented. Resolved DOWN to 2.",
+      "W1 vs W2 boundary: the unit planner, planning document and scaffolded assessment framework are professional artefacts. Under one-construct-one-home they are scored as task fidelity in W2, not as professional communication in W1.",
+      "Scope limitation affecting C1, C2, W1 and W2: the 'Majors, minors and specialisations' page was not captured. The six specialisation subjects are known only from the electives table plus the prerequisite lines that call them 'the core subjects in the ... specialisation'. They were treated as core on that basis; if any is in fact optional, W2's level-2 evidence still stands on the compulsory EDUC90331 'Scaffolded assessment framework' alone.",
+      "G2: the capstone's supplied dataset and the permitted literature-review route reduce the uncertainty the gate contemplates; PASS rests on the assessed research-design decisions, not on live-project accountability, of which there is none."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-15"
     }
   },
   "mc-mgmthre": {
