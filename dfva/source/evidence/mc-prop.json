@@ -1,0 +1,139 @@
+{
+  "code": "mc-prop",
+  "panelCv4": {
+    "instrument": "4.1-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is met: core units assess collaborative practice as group projects with documented individual accountability — Property Development (core) carries a group presentation plus two group assignments, and Corporate Real Estate Management (core) carries two group case-study projects each specified per-student. Level 3 fails on its second, conjunctive clause: no assessment in the extract requires coordinating work across people AND tools/AI systems, and nothing documents role or tool allocation, or makes the division of work between people and systems itself the object of assessment. Industry-standard software (ARGUS) appears only as subject content and an outcome statement, never as an assessed allocation problem, so the human-plus-tool coordination the v4.1 anchor names is absent.",
+      "evidenceLines": [
+        "Assignment 1: One group presentation, (equivalent to 500 words per student)",
+        "Assignment 3: group assignment",
+        "Group Case Study Project 1, totalling 1500 words per student",
+        "Group Case Study Project 2, totalling 1500 words per student",
+        "team working;"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2 anchor — core assessment includes structured critique of the quality of work — is met by the Mock Court Room Presentation in Statutory Valuation (PG), a core subject, where the student must act as cross examiner of a compensation valuation and satisfactorily complete it as a hurdle; cross-examination of a valuation is a structured critique of work quality, not merely producing work. Level 3 fails: nothing in the extract requires students to document and justify reliance decisions — when they relied on or overrode a tool, source or collaborator — to defend judgements of AI-output quality, or to evidence strategy adjustment over time. 'Evaluate, reflect and report critically on the research work carried out' is a learning outcome, and R2 bars scoring outcomes.",
+      "evidenceLines": [
+        "Mock Court Room Presentation - the student will be required to act as both an expert witness and also as a cross examiner based on the findings of Assignment 2 - compensation valuation, equivalent to 500 words per student",
+        "Be involved in a moot court.",
+        "Evaluate, reflect and report critically on the research work carried out."
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor — digital tools appear as tool operation/training, the level TEQSA identifies as non-durable — is exactly what the extract documents: ARGUS applied to the development process, SPSS/RStudio as prescribed software, spreadsheet financial modelling, and generic-skill statements about computer and information technologies and word-processing/graphics packages. Level 0 is excluded because digital content is plainly present in core units. Level 2 fails: no core unit in the extract addresses AI capabilities AND limitations or ethics, and no gen-AI content appears anywhere; level 3's requirement for assessed critique or governance of AI systems (bias, accountability, transparency, regulation, data governance) has no counterpart in the text.",
+      "evidenceLines": [
+        "Apply industry standard software to the development process;",
+        "Prescribed software programs with a cost",
+        "Develop and use spreadsheet based financial modelling techniques.",
+        "Computer and information technologies;",
+        "IT skills: use of appropriate word processing, data and graphics packages for report preparation and data analysis;"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3 anchor — the program documents structured progression toward independent learning via a self-scoped research project — is satisfied with assessment evidence, not an outcome claim (R2): the core subject Property Research and Analysis assesses, at 70%, a scholarly report on a topic defined by the student in consultation with the coordinator, and that work is the documented prerequisite input to the required research subject in the following stage. The progression is structural (90363 feeds 90362) rather than asserted. Level 2 is also independently met — Property Investment and Finance assesses four separate case analyses requiring decisions in unfamiliar investment contexts — but the self-scoped, staged route lifts the item above it. Scored on transfer and self-directed learning only; the work-integrated route that formerly sat here is scored in W3.",
+      "evidenceLines": [
+        "A scholarly report containing research problem definition, development proposal and literature review on a topic defined by the student in consultation with the subject coordinator, and establishing the basis for the empirical work that will be carried out in ABPL90362 Research Thesis - Property",
+        "Knowledge and materials prepared in the ABPL90363 Property Research and Analysis are to inform the final research report.",
+        "Enhance the ability of self-direct learning;",
+        "The subject provides students with an opportunity to produce an ordered, critical exposition of autonomously gained knowledge, thus demonstrating proper understanding of the nature, development strategies and conventions of research work, with particular focus in their area of specialisation.",
+        "Assignment 1: Analysis of a case requiring decision related to repositioning of an investment portfolio"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2 anchor — students design and conduct an inquiry with methodology selection and data collection, assessed — is met in the core: Property Research and Analysis carries a discrete assessed data-collection and analysis task plus a 4000-word scholarly report defining the research problem, and a research subject is compulsory (one of the two selectives must be taken). Level 3 is not awarded because its first clause requires a substantial project GENERATING PRIMARY EVIDENCE, and the handbook explicitly leaves the data secondary-permissible ('primary or secondary') in both the outcome and the assessment line; the extract nowhere requires primary evidence. The level-3 scrutiny clause is arguably met (hurdle research development presentation, supervisor seminars), but the conjunction fails, and the ambiguity is resolved downward per the scoring direction.",
+      "evidenceLines": [
+        "Data collection (primary or secondary) and analysis assignment",
+        "Be able to plan and collect primary and secondary data for analysis of specific research problem;",
+        "Apply contemporary research methods in a property research project.",
+        "Note: Students should take and complete only one of the above two research subjects in their entire study time in the course.",
+        "Research development presentation"
+      ]
+    },
+    "adaptiveness": 10,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 anchor — at least one core assessment requires a recognised professional genre judged against criteria drawn from professional practice — is met squarely: Statutory Valuation (PG) assesses a full professional standard compensation valuation report, a statutory-valuation genre with the profession's own standard named as the criterion, and Property Securitisation assesses an individual oral business case. Level 3 fails on both of its clauses. No core assessment in the extract is delivered to, or judged by, a real external audience or practitioner — the moot court is a simulation, and the host-organisation presentation belongs to the work-situated selective and is scored in W3. Nor is professional conduct or accountability documented among the assessed criteria, and no progressive sequencing of communication assessment is documented across stages.",
+      "evidenceLines": [
+        "Assignment 2 - A full professional standard compensation valuation report",
+        "Oral presentation (individual) on business case for property fund",
+        "Use effective written communications in a professional report;",
+        "Professional/industry communication;"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2 anchor — at least one core assessment reproduces a professional task end to end, producing the artefact a practitioner would produce — is met several times over: a multiple-regression mass valuation of 6,000 properties submitted as an Excel worksheet and Word report, staged case analyses producing investment and financing decisions, and a securitisation portfolio paper. Level 3 is withheld because its first clause requires such tasks to be the assessment spine, tested as a capstone plus earlier scaffolding or at least one per stage, and that cannot be established from this extract: several core subjects remain examination- or essay-dominated (Land and Property Economics is a multiple-choice test plus two essays; Advanced Property Analysis, Property Development, Property Law and International Real Estate Economics each carry a 50–60% examination), and none of the 300-point Year 1 core subject pages are present, so the first stage is unverifiable. Per R4, no score was taken from the course overview's 'real-world projects' framing — only from documented task features.",
+      "evidenceLines": [
+        "Assignment 1 - Multiple Regression Analysis estimating the value of 6,000 properties. Excel worksheet & Word report required to be submitted",
+        "Complete a development appraisal for a major property development;",
+        "Assignment 4: Analysis of a case requiring examination of various financing options",
+        "Class paper on Securitisation Portfolio",
+        "Multiple Choice Test",
+        "One examination"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1 anchor — work-situated learning exists only as an elective or optional internship — is what the structure documents. Industry Based Research - Property does place students with a host organisation under a designated host supervisor and is assessed, but it sits in the selective block as one of two alternatives, the other being a desk-based research thesis, and it is quota-limited; the course overview itself hedges that professional experience 'can be' part of the program. Level 2 requires A CORE UNIT to place students in a real workplace, which is not the case here, so the evidence is ambiguous between 1 and 2 and resolves downward. Level 3 fails additionally on extent: participation is capped at no more than 12 days, which is neither extended nor a sequence.",
+      "evidenceLines": [
+        "Students enrolled in this subject will partner with a host organization to complete an industry-based research project. Firms may be based in the commercial property development, investment, valuation, management and consultancy fields. Students will be supervised by the Subject Coordinator in collaboration with a designated party at the host organisation. Students will work on a research topic chosen by the host organization and will spend no more than 12 days working at the host organization over the course of the subject. Work will be limited to that needed to complete the research project. The Industry-Based Research Project will enable students to extend and apply the knowledge acquired through the Master of Property coursework subjects, will provide students with a valuable professional experience, and will extend their professional networks. This project can be taken to fulfil the research requirement of the Master’s in Property and may replace ABPL90362 Research Thesis – Property",
+        "Selective subjects (12.5 points)",
+        "Note: Students should take and complete only one of the above two research subjects in their entire study time in the course.",
+        "(Quotas apply)",
+        "A work-plan developed in consultation with the host organisation and the Subject Coordinator",
+        "Professional experience can be an integral part of the program, a unique practical experience enriching the connection to the related fields of work that may also contribute to professional accreditation requirements. There is also the opportunity to take research subjects which may enable students to progress to further studies as a PhD candidate."
+      ]
+    },
+    "workplace": 5,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program documents a coherent specialist core with progressive depth on all three of the gate's alternative routes. The core is large and compulsory (225 of 300 points, or 125 of 200), and the core list is almost entirely discipline-specific property subjects (valuation, property law, development, securitisation, property economics). It is staged, with Year 1 core separated from Year 2 and 3 core in the 300-point entry, and it carries a prerequisite chain from Property Research and Analysis into the research subject. It is also an accredited sequence, recognised by two property-profession bodies. Nothing here reads as generic or interchangeable content.",
+        "evidenceLines": [
+          "225 points of core subjects",
+          "100 credit points of Year 1 core subjects",
+          "125 credit points of Year 2 and 3 core subjects",
+          "Australian Property Institute (API)",
+          "Royal Institution of Chartered Surveyors (RICS)",
+          "Knowledge and materials prepared in the ABPL90363 Property Research and Analysis are to inform the final research report."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Core assessment requires defended trade-off decisions under genuine uncertainty rather than recall or scripted response. Property Investment and Finance assesses four successive case analyses each framed as a decision — portfolio repositioning, portfolio construction, an investment decision on a proposed development, and a choice among financing options — and Property Development assesses development appraisal against viability, risk and return, with the outcome expressed as evaluating the viability of proposals. The program's own outcome statement frames property projects as evaluated in terms of risk allocations and viability, and the assessed cases operationalise that. This clears the v1 D4 >= 2 equivalent.",
+        "evidenceLines": [
+          "Assignment 1: Analysis of a case requiring decision related to repositioning of an investment portfolio",
+          "ssignment 3: Analysis of a case requiring investment decision for a proposed development project",
+          "Assignment 4: Analysis of a case requiring examination of various financing options",
+          "Evaluate the viability of property development proposals.",
+          "price and worth; risk, return and risk analysis.",
+          "Recongise and demonstrate an understanding of how property (development, investment and management) projects are evaluated, structured and delivered in terms of their risk allocations and viability;"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C2 straddled 1 and 2. The Mock Court Room cross-examination is documented assessment in a core unit and is a hurdle, but the handbook does not state the criteria it is judged against, so 'criterion-referenced' is inferred from the moot-court form rather than quoted. Scored 2 on the anchor's own exemplar 'structured critique'; a reviewer who requires explicit criteria would score 1.",
+      "C4 and C5 both draw on the ABPL90363/ABPL90362 research sequence. Under one-construct-one-home, the self-scoped topic and the documented progression toward autonomous work score in C4 (transfer and self-directed learning); the data collection, methods and supervised review score in C5 (inquiry and evidence generation). No line is used in both items.",
+      "C5 straddled 2 and 3. A substantial research project is compulsory (one of two selectives must be taken, and both are research subjects) and it carries staged supervised review, which satisfies the level-3 scrutiny clause. But the level-3 primary-evidence clause is contradicted by the handbook's own wording, 'primary or secondary'. The scoring direction resolved this to 2.",
+      "W2 straddled 2 and 3. Professional-artefact tasks recur across at least four core subjects, and 'full professional standard' supplies the profession's own standard of performance that level 3's second clause wants. The first clause failed: the assessment spine cannot be demonstrated when several core subjects are examination- or essay-dominated and the 300-point Year 1 stage is missing from the extract. Resolved downward to 2.",
+      "W3 straddled 1 and 2. The Industry Based Research subject has every feature of a level-2 placement except the one the anchor makes decisive — it is not a core unit. It is a quota-limited selective alternative to a desk-based thesis. Resolved downward to 1.",
+      "W1 level 3 would have been reachable if the host-organisation oral presentation in Industry Based Research counted as delivery to an external practitioner audience. It was excluded from W1 under one-construct-one-home, since placement evidence scores in W3, and it is in any case not core."
+    ],
+    "notScoreable": [
+      "The 300-point entry's Year 1 core subjects (ABPL90290, ABPL90274, ABPL90275, ACCT90041, ABPL90130, ABPL90029, FNCE90060, ECON90015) appear in the course structure but none of their subject or assessment pages are in the extract. The first stage of the 300-point program is therefore unscored, which specifically bounds W2's 'at least one per stage' test and any claim of progressive sequencing in W1. All items were scored on the core shared by both entry points.",
+      "Advanced Property Analysis (ABPL90011, core) lists 'Assignment one' and 'Assignment two' with word counts only and no task description, so its two 25% assessments could not be characterised for C1, C2, W1 or W2.",
+      "No gen-AI content of any kind appears in the extract — no core unit, elective or program-level outcome mentions artificial intelligence — so C3's levels 2 and 3 had no evidence to weigh rather than evidence that failed."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-15"
+    }
+  }
+}
