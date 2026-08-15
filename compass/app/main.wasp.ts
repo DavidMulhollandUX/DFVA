@@ -119,10 +119,14 @@ export default app({
     "<meta property='og:site_name' content='Evidura' />",
     "<meta property='og:url' content='https://evidura.ai' />",
     "<meta property='og:description' content='Evaluate university program resilience against AI-driven labour market change.' />",
-    "<meta property='og:image' content='https://evidura.ai/public-banner.webp' />",
-    "<meta name='twitter:image' content='https://evidura.ai/public-banner.webp' />",
-    "<meta name='twitter:image:width' content='800' />",
-    "<meta name='twitter:image:height' content='400' />",
+    // og-evidura.png is hosted on dev.evidura.ai until prod (main) redeploys; flip to evidura.ai at prod cutover
+    "<meta property='og:image' content='https://dev.evidura.ai/og-evidura.png' />",
+    "<meta property='og:image:width' content='1200' />",
+    "<meta property='og:image:height' content='630' />",
+    "<meta property='og:image:alt' content='Evidura — the independent durability rating for university degrees' />",
+    "<meta name='twitter:image' content='https://dev.evidura.ai/og-evidura.png' />",
+    "<meta name='twitter:image:width' content='1200' />",
+    "<meta name='twitter:image:height' content='630' />",
     "<meta name='twitter:card' content='summary_large_image' />",
   ],
 
