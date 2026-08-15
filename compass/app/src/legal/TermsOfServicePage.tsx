@@ -3,7 +3,7 @@
 import { Link } from "react-router";
 import { brand } from "../branding/brandConfig";
 
-const LAST_UPDATED = "14 August 2026";
+const LAST_UPDATED = "15 August 2026";
 
 export default function TermsOfServicePage() {
   return (
@@ -113,10 +113,10 @@ export default function TermsOfServicePage() {
               These terms are governed by the laws of Victoria, Australia.
               Questions about these terms:{" "}
               <a
-                href="mailto:compass@unimelb.edu.au"
+                href="mailto:privacy@evidura.ai"
                 className="text-primary underline underline-offset-2"
               >
-                compass@unimelb.edu.au
+                privacy@evidura.ai
               </a>
               .
             </p>
