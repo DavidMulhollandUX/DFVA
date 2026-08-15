@@ -269,6 +269,21 @@ def cmd_save(code: str, slot: str) -> None:
         prog["pages"][url].update(status="blocked", ts=now())
         save_queue(q)
         sys.exit(f"{code}/{slot}: blocked page — capture rejected, back off and retry")
+    # A subject the handbook does not publish for 2026 is neither a capture
+    # failure nor evidence. Retrying it forever is pointless, and recording it
+    # as done puts "Page not found" into the extract and lets it count toward
+    # the assessment-page bar that decides whether a program is scoreable.
+    # It gets its own terminal state: no page file, no retry, no bearing on
+    # completeness either way.
+    if "not currently published" in text or "Page not found" in text:
+        prog["pages"][url].update(status="notfound", chars=len(text), ts=now())
+        page_file = os.path.join(PAGES, f"{code}__{slot}.txt")
+        if os.path.exists(page_file):
+            os.remove(page_file)
+        prog["assembled"] = False
+        save_queue(q)
+        print(f"{code}/{slot}: not published for 2026 — recorded, not counted as evidence")
+        return
     # An assessment page is legitimately short — often just a task/weighting
     # table — so it gets a lower bar than a course or structure page.
     floor = 150 if slot.startswith("subj-") else 400
@@ -458,7 +473,7 @@ def cmd_scoreable() -> None:
 
 def cmd_status(as_json: bool) -> None:
     q = load()
-    rows, tot = [], {"done": 0, "pending": 0, "inflight": 0, "failed": 0, "blocked": 0}
+    rows, tot = [], {"done": 0, "pending": 0, "inflight": 0, "failed": 0, "blocked": 0, "notfound": 0}
     for code, prog in sorted(q["programs"].items()):
         counts = {k: 0 for k in tot}
         for p in prog["pages"].values():
@@ -485,7 +500,8 @@ def cmd_status(as_json: bool) -> None:
     print(
         f"\n{summary['assembled']}/{summary['programs']} programs assembled · "
         f"pages: {tot['done']} done, {tot['pending']} pending, "
-        f"{tot['inflight']} leased, {tot['failed']} failed, {tot['blocked']} blocked"
+        f"{tot['inflight']} leased, {tot['failed']} failed, {tot['blocked']} blocked, "
+        f"{tot['notfound']} unpublished"
     )
 
 
