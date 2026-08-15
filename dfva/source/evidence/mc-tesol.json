@@ -1,0 +1,134 @@
+{
+  "code": "mc-tesol",
+  "panelCv4": {
+    "instrument": "4.1-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Meets the level-2 anchor 'at least one core unit assesses collaborative practice': the compulsory subject Literacies in Local and Global Contexts assesses a multimodal group presentation at 30%, and Teamwork and professional collaboration is a stated program generic skill. Not level 3, which requires BOTH recurrence of assessed collaborative practice across the program AND at least one assessment that requires coordinating work across people AND tools/AI systems. No core (or elective) assessment in the extract documents any allocation of work between people and tools or AI systems, and no role/tool allocation is itself assessed anywhere. Recurring group work does exist but only in the Additional Languages electives (group oral presentation with Q&A in Language in Bilingual Education; group lesson plan in Content and Language Integrated Pedagogy), not in the compulsory core, so even the recurrence half of level 3 rests on optional subjects.",
+      "evidenceLines": [
+        "Multimodal group presentation reflecting on academic literacies (10 min per group)",
+        "Teamwork and professional collaboration",
+        "Group oral presentation with Q&A (30 minutes)",
+        "Group lesson plan (2000 words equivalent; 20%) and group oral presentation with Q&A (30 minutes; 30%)"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Meets the level-2 anchor 'core assessment includes criterion-referenced appraisal of quality: peer review, structured critique': the compulsory subject Key Concepts of Academic Writing assesses in-class written responses carrying peer feedback across eight classes at 25%, and Education Policy in Context assesses a written critical review of key readings at 40%. Not level 3, which requires students to document and justify reliance decisions (relying on or overriding a tool, source or collaborator), defend judgements of AI-output quality, or evidence strategy adjustment over time. Nothing in the extract requires a reliance decision to be recorded or defended, and no AI-output appraisal is assessed anywhere. The closest level-3 candidate is the compulsory reflective essay on transformed understanding of literacy, but transformation of understanding is not documented strategy adjustment, so the lower level is taken.",
+      "evidenceLines": [
+        "In-class written responses with peer feedback using concepts and metalanguage (8 in total, equally weighted, completed over 8 classes)",
+        "Written report providing a critical review of key readings",
+        "Reflective essay on transformed understanding of literacy, relating local and global contexts"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Meets the level-1 anchor 'AI or digital tools appear only as electives or as tool operation/training — the operational level TEQSA identifies as non-durable'. Generative AI appears once, in Foundations: Digital Futures, which is one of six Foundations subjects from which students choose two, and it appears there as a light-touch playful familiarisation with tools plus 'Digital literacy' as a generic skill; Generative AI in Education is likewise an elective. Not level 2, which needs core units addressing AI capabilities AND limitations/ethics, assessed: none of the six compulsory subjects (Education Policy in Context, Literacies in Local and Global Contexts, Understanding the Student as Learner, Engaging with Research in Education, Key Concepts of Academic Writing, Key Concepts of Language) contains any digital or AI content, and no program-level intended learning outcome or graduate attribute mentions digital or AI. Not level 3 a fortiori: no assessment anywhere requires critique or governance of AI systems (bias, accountability, transparency, regulation, data governance).",
+      "evidenceLines": [
+        "For example, students will develop familiarity with collaborative environments and generative AI tools and will be given a light-touch introduction to the hands-on activities that will take place in some of the subjects.",
+        "Foundations subjects (25 points) (choice of 2):",
+        "Digital literacy.",
+        "Generative AI in Education"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Meets the level-3 anchor 'The program documents structured progression toward independent learning: a self-scoped capstone or research project'. The course structure makes one of two terminal routes compulsory for every student: Option 1 requires 25 points of Capstone subjects in the final semester, in which students undertake a research-based inquiry project scoped to their own professional practice or specialisation; Option 2 requires 50 points of Research subjects comprising the design and completion of a supervised research project. The self-scoping is explicit ('directly related to their own professional practice and/or within their area of specialisation'), and the requirement is a documented piece of credit-bearing work in a named subject, not a graduate-attribute claim, so R2 is satisfied by a required-work statement of the same kind as a placement requirement rather than by an outcome statement. Level 2 alone would understate the evidence: the level-2 route (core assessment on novel or unfamiliar problems) is in fact the weaker of the two here, being only loosely evidenced by the compulsory research, action and reflection project.",
+      "evidenceLines": [
+        "And 25 points of Capstone* subjects (taken in the final semester)",
+        "In the final-semester Capstone subject, students undertake a research-based inquiry project directly related to their own professional practice and/or within their area of specialisation.",
+        "They provide a grounding in educational research methodology and include the design and completion of a supervised research project in education.",
+        "Produce a research, action and reflection project",
+        "Develop an education research based project, or produce a piece of education research scholarship within the area of EAL."
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Demoted from 2 to 1 on adversarial review. Level 2 requires 'methodology selection AND data collection, assessed'. Data collection is documented nowhere: grep for 'data collection|collect data|primary data|fieldwork|ethics approval' returns zero hits across all 2,924 lines of the extract, as does 'viva|defence'. The two sources originally cited for level 2 are a course-structure blurb for the Research subjects (Option 2 only, WAM 75% gated) and a bare subject name ('Disciplined Inquiry Capstone') in a table; the assessment pages for EDUC90989, EDUC91353, EDUC90419, EDUC91197, EDUC91198 and EDUC91199 are all absent from the extract, so no assessed inquiry design exists in evidence. The only compulsory inquiry-adjacent task, EDUC91029's 'Produce a research, action and reflection project' (50%), sits in a subject whose overview and ILOs are entirely about learner variability and contain no methodology or data component. The original scoring conceded the point and then resolved UPWARD on an inference from level 3's 'REQUIRED (not one route among several)' wording, inverting the non-negotiable rule that ambiguity between two levels takes the LOWER level. Level 1 is fully documented and unambiguous: EDUC91316 Engaging with Research in Education is an introductory research subject assessed by a 3000-word annotated bibliography at 60%, which is the level-1 anchor verbatim ('Introductory methods unit; literature-review assessment').",
+      "evidenceLines": [
+        "Written report: Annotated bibliography",
+        "They provide a grounding in educational research methodology and include the design and completion of a supervised research project in education.",
+        "Disciplined Inquiry Capstone",
+        "Eligibility for the Research subjects requires achievement of a Weighted Average Mark (WAM) of 75% or above in completed MC-TESOL studies, calculated at the point of enrolment in the Research subjects."
+      ]
+    },
+    "adaptiveness": 9,
+    "W1": {
+      "score": 1,
+      "rationale": "Meets the level-1 anchor exactly: communication appears in program generic skills and subject generic skills, and core assessment adds spoken presentation to peers and staff — an assessed 10-minute oral discussion of a written reflection in the compulsory Engaging with Research in Education — but no professional genre and no audience beyond the teaching team. Not level 2, which needs a recognised professional genre or an audience beyond the teaching team judged against criteria drawn from professional practice. Every compulsory assessment in the extract is an academic genre addressed to the marker: essays, analytical essays, reflective essays, annotated bibliographies, in-class quizzes and written responses. The nearest professional genre, a group lesson plan, sits in an Additional Languages elective, and the only task involving an outside person — an interview with a teacher, student or industry representative — is in the optional Foundations: Digital Futures and has that person as a source, not as the audience judging the work. Per R2 and Barrie, the stated attributes cannot lift the score.",
+      "evidenceLines": [
+        "Oral discussion of written reflection (10 minutes)",
+        "Communication",
+        "Oral and written communication skills",
+        "Analytical essay",
+        "Critical Reflection: Completion of an interview with a teacher, student or industry representative about the problems and opportunities of technology/space in education"
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Meets the level-1 anchor 'contextualised or scenario-framed tasks appear (case studies, worked scenarios), but the artefact produced and the criteria applied remain academic'. Education Policy in Context is built on case studies of policy reform yet assesses an essay on an education policy issue; Understanding the Student as Learner assesses a written essay on individual student learning integrating research evidence and personal reflection; Literacies requires reflection situated in students' own professional contexts. Not level 0, because that situational framing is present. Not level 2, which requires at least one CORE assessment that reproduces a professional task end to end, producing the artefact a practitioner would produce, judged against criteria drawn from practice: the only practitioner artefact in the extract is the group lesson plan in Content and Language Integrated Pedagogy, an Additional Languages elective, and no criteria drawn from professional practice are documented for it. Per R4 no credit is given for framing language alone.",
+      "evidenceLines": [
+        "Through studying case studies of policy reform, students will consider the issues that underpin education policies and practice.",
+        "Essay on an education policy issue",
+        "Written essay on individual student learning integrating research evidence and personal reflection",
+        "Critically reflect on their literacy practices within their personal and professional contexts, spanning the local and global levels",
+        "Group lesson plan (2000 words equivalent; 20%) and group oral presentation with Q&A (30 minutes; 30%)"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Meets the level-1 anchor 'work-situated learning exists only as an elective, an optional internship'. A 22-day supervised teaching placement exists, but only inside the EAL Teaching Specialisation, which the course structure offers as one alternative to Additional Languages Electives and which is further restricted to students eligible for Victorian Institute of Teaching registration; Supervised Observation (Second Language) is likewise an Additional Languages elective. Not level 2, which requires a CORE unit placing students in a real workplace with practitioner supervision and assessment: no placement, practicum or community-based project appears among the compulsory subjects of any route, and the course states it is not an initial teacher education qualification. Not level 0, because placement provision demonstrably exists in the structure.",
+      "evidenceLines": [
+        "The specialisation comprises four compulsory subjects, and includes 22 days of supervised teaching placement at a school or similar setting during school hours.",
+        "50 points of EAL Teaching Specialisation^",
+        "75 points of Additional Languages Electives; or",
+        "Supervised Observation (Second Language)",
+        "this course is not an initial teacher education qualification and does not provide eligibility for registration to teach in Australian schools"
+      ]
+    },
+    "workplace": 3,
+    "gates": {
+      "G1": {
+        "result": "FAIL",
+        "rationale": "Demoted from PASS to FAIL on adversarial review. The G1 PASS anchor is a disjunction of three routes and none is documented in the extract. (1) All-compulsory specialist core: every TESOL-specialist subject — Second Language Teaching Methodology (EDUC90048), Second Language Acquisition and Teaching (EDUC90631), Grammar for Language Teachers (EDUC90587), Supervised Observation (EDUC90096) — sits in the optional Additional Languages Electives pool or the VIT-gated EAL Teaching Specialisation. Four of the six compulsory subjects are generic education content with no language or TESOL framing in their overviews or ILOs (EDUC90929 Education Policy in Context, EDUC91029 Understanding the Student as Learner, EDUC91316 Engaging with Research in Education, EDUC91314 Key Concepts of Academic Writing), and all six Foundations options are generic Master-of-Education offerings. That is 100 of 200 credit points of interchangeable content — the FAIL condition's own words. (2) Accredited sequence: the handbook explicitly disclaims accreditation — 'this course is not an initial teacher education qualification and does not provide eligibility for registration to teach in Australian schools'. The single VIT reference is an ENTRY pre-requisite for an optional specialisation, not an accreditation the course confers. (3) Staged prerequisite chain: grep for 'prerequisit|pre-requisit|corequisit' across the entire extract returns exactly one hit (line 451, VIT registration for EDUC90050). There are zero subject-to-subject prerequisites, and every compulsory subject, Foundations option and elective is offered in both semesters with no sequencing, so no progressive technical or methodological depth is documented. The original PASS rested on the First 50 / Second 50 / Final 100 credit-point ordering, which is an ordering of volume, not of depth, while conceding all three absences verbatim.",
+        "evidenceLines": [
+          "Students must complete 200 credit points, made up of:",
+          "50 points of Compulsory subjects",
+          "75 points of Additional Languages Electives; or",
+          "this course is not an initial teacher education qualification and does not provide eligibility for registration to teach in Australian schools",
+          "Language is both the means and object of education and having a shared metalanguage for language is part of professional formation for teachers."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Meets the PASS condition via the capstone route: every student completes either a final-semester research-based inquiry project scoped to their own professional practice, or a supervised research project — capstones with genuine uncertainty rather than scripted responses. Core assessment also requires defended analytical judgements, not recall: Education Policy in Context requires critical analysis of how evidence is used in policy debates, assessed as an essay, and Understanding the Student as Learner requires a research, action and reflection project. Recall-style quizzes exist in several compulsory subjects but are not the only mode.",
+        "evidenceLines": [
+          "In the final-semester Capstone subject, students undertake a research-based inquiry project directly related to their own professional practice and/or within their area of specialisation.",
+          "Critically analyse educational policy research, examining how issues are understood, different policy narratives, and the way evidence is used in debates and the relevant literature.",
+          "Essay on an education policy issue",
+          "Produce a research, action and reflection project"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3 straddled levels 0 and 1: level 0's literal text (no digital/AI content in any core unit or program-level outcome) is also satisfied, since digital/AI appears nowhere in the six compulsory subjects or the program outcomes. Level 1 was chosen because it is the anchor that names this case precisely — AI appearing only as electives and as tool familiarisation — and scoring 0 would deny that the content exists at all.",
+      "C4 straddled levels 2 and 3 in evidence TYPE rather than level: the level-3 route (a required self-scoped capstone or research project) is documented in the course structure, while the level-2 route (core assessment on novel problems) is only weakly evidenced. Resolved to 3 on the anchor's own wording, 'The program documents structured progression toward independent learning', treating the compulsory capstone-or-research requirement as required-work evidence of the same kind the prompt admits for placement requirements. Flagged because the capstone's own assessment table is not in the extract.",
+      "C5 straddled levels 1 and 2 and was resolved DOWN to 1 on adversarial review. The upward resolution originally taken rested on an inference from level 3's 'REQUIRED (not one route among several)' clause; because data collection is documented nowhere for either the capstone or the research project, and the relevant assessment pages are absent from the extract, the lower-level rule applies and level 1 (introductory methods unit, annotated-bibliography assessment) is the only fully documented level.",
+      "W3: for students who take the EAL Teaching Specialisation the 22-day placement is compulsory, practitioner-supervised and substantial, which would read as level 2 or 3 at the student level. Scored 1 at the program level because the specialisation is one alternative among several and is additionally gated on VIT registration eligibility, and the level-2 anchor requires a CORE unit.",
+      "The 22-day placement and the Supervised Observation / Supervised Teaching subjects could be read into C1 (coordinating roles) or C4 (work-integrated learning), but under 'one construct, one home' the v4.1 migration note assigns all placement evidence to W3, so they were excluded from C1 and C4.",
+      "The multimodal group presentation in Literacies is both collaborative practice and spoken communication. It was scored in C1 only (collaboration), and W1 was scored on the separate oral discussion task in Engaging with Research in Education, to avoid double-counting one piece of evidence.",
+      "G1 was initially recorded as a qualified PASS and was demoted to FAIL on adversarial review. Every TESOL-specialist subject (Second Language Teaching Methodology, Second Language Acquisition and Teaching, Grammar for Language Teachers) is elective, four of the six compulsory subjects plus the whole Foundations pool are shared Master of Education offerings, the handbook disclaims accreditation, and the extract contains no subject-to-subject prerequisite. With all three PASS routes absent, the staged First 50 / Second 50 / Final 100 structure orders volume rather than depth and cannot carry the gate."
+    ],
+    "notScoreable": [
+      "No item was wholly unscoreable, but the extract omits the subject and assessment pages for the Disciplined Inquiry Capstone (EDUC90989) and Disciplined Inquiry Capstone (Travel) (EDUC91353), so C4 level 3, C5 and G2 rest on the course-structure description of the capstone rather than on an assessment table.",
+      "The extract omits the subject and assessment pages for the Research subjects — Education Research Methodology (EDUC90419), Research Project in Education (EDUC91197) and its Part 1/Part 2 variants — so whether the research project generates primary evidence, and whether any methodology defence occurs, could not be established for C5.",
+      "The extract omits every EAL Teaching Specialisation subject page, including Supervised Teaching (Second Language) (EDUC90050), as well as Supervised Observation (Second Language) (EDUC90096), so placement duration beyond the stated 22 days, supervision arrangements, assessment and structured reflection could not be verified for W3.",
+      "The extract omits the assessment pages of the Additional Languages electives Grammar for Language Teachers (EDUC90587), Second Language Teaching Methodology (EDUC90048) and Second Language Acquisition and Teaching (EDUC90631), which are the program's TESOL-specialist subjects; this constrains W1 and W2 but does not change their scores, since both anchors at level 2 require CORE assessment."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-15"
+    }
+  }
+}

@@ -6516,14 +6516,14 @@
      "chars": 0,
      "note": "404 - MAST90045 not published in 2026 Handbook (only 2017-2025 versions exist); handbook serves a Page not found interstitial, not a block",
      "slot": "subj-mast90045",
-     "status": "failed",
+     "status": "notfound",
      "ts": "2026-08-15T06:02:56+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/mast90045/assessment": {
      "chars": 0,
      "note": "404 - MAST90045 not published in 2026 Handbook; assessment tab 404s for the same reason as the overview page",
      "slot": "subj-mast90045-assessment",
-     "status": "failed",
+     "status": "notfound",
      "ts": "2026-08-15T06:03:28+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/phyc90006": {
@@ -6684,16 +6684,196 @@
      "ts": "2026-08-15T06:08:43+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/courses/mc-surged/attributes-outcomes-skills": {
-     "chars": 0,
+     "chars": 3960,
      "slot": "attributes",
-     "status": "inflight",
-     "ts": "2026-08-15T06:06:38+00:00"
+     "status": "done",
+     "ts": "2026-08-15T06:10:10+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/courses/mc-surged/course-structure": {
-     "chars": 0,
+     "chars": 3660,
      "slot": "structure",
+     "status": "done",
+     "ts": "2026-08-15T06:12:11+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/meds90006": {
+     "chars": 3192,
+     "slot": "subj-meds90006",
+     "status": "done",
+     "ts": "2026-08-15T06:12:45+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/meds90006/assessment": {
+     "chars": 2120,
+     "slot": "subj-meds90006-assessment",
+     "status": "done",
+     "ts": "2026-08-15T06:14:12+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/meds90007": {
+     "chars": 2415,
+     "slot": "subj-meds90007",
+     "status": "done",
+     "ts": "2026-08-15T06:15:02+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/meds90007/assessment": {
+     "chars": 2333,
+     "slot": "subj-meds90007-assessment",
+     "status": "done",
+     "ts": "2026-08-15T06:15:48+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/meds90008": {
+     "chars": 2146,
+     "slot": "subj-meds90008",
+     "status": "done",
+     "ts": "2026-08-15T06:16:36+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/meds90008/assessment": {
+     "chars": 2081,
+     "slot": "subj-meds90008-assessment",
+     "status": "done",
+     "ts": "2026-08-15T06:17:21+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/meds90009": {
+     "chars": 2157,
+     "slot": "subj-meds90009",
+     "status": "done",
+     "ts": "2026-08-15T06:18:08+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/meds90009/assessment": {
+     "chars": 1819,
+     "slot": "subj-meds90009-assessment",
+     "status": "done",
+     "ts": "2026-08-15T06:18:54+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/meds90011": {
+     "chars": 2243,
+     "slot": "subj-meds90011",
+     "status": "done",
+     "ts": "2026-08-15T06:19:41+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/meds90011/assessment": {
+     "chars": 1612,
+     "slot": "subj-meds90011-assessment",
+     "status": "done",
+     "ts": "2026-08-15T06:20:30+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/meds90012": {
+     "chars": 3545,
+     "slot": "subj-meds90012",
+     "status": "done",
+     "ts": "2026-08-15T06:21:21+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/meds90012/assessment": {
+     "chars": 1702,
+     "slot": "subj-meds90012-assessment",
+     "status": "done",
+     "ts": "2026-08-15T06:22:08+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/meds90013": {
+     "chars": 3942,
+     "slot": "subj-meds90013",
+     "status": "done",
+     "ts": "2026-08-15T06:22:59+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/meds90013/assessment": {
+     "chars": 2026,
+     "slot": "subj-meds90013-assessment",
+     "status": "done",
+     "ts": "2026-08-15T06:23:47+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/meds90014": {
+     "chars": 0,
+     "slot": "subj-meds90014",
      "status": "inflight",
-     "ts": "2026-08-15T06:06:38+00:00"
+     "ts": "2026-08-15T06:12:15+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/meds90014/assessment": {
+     "chars": 0,
+     "slot": "subj-meds90014-assessment",
+     "status": "inflight",
+     "ts": "2026-08-15T06:12:15+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/meds90015": {
+     "chars": 0,
+     "slot": "subj-meds90015",
+     "status": "inflight",
+     "ts": "2026-08-15T06:12:15+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/meds90015/assessment": {
+     "chars": 0,
+     "slot": "subj-meds90015-assessment",
+     "status": "inflight",
+     "ts": "2026-08-15T06:12:15+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/meds90016": {
+     "chars": 0,
+     "slot": "subj-meds90016",
+     "status": "inflight",
+     "ts": "2026-08-15T06:12:15+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/meds90016/assessment": {
+     "chars": 0,
+     "slot": "subj-meds90016-assessment",
+     "status": "inflight",
+     "ts": "2026-08-15T06:12:15+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/meds90017": {
+     "chars": 0,
+     "slot": "subj-meds90017",
+     "status": "inflight",
+     "ts": "2026-08-15T06:12:15+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/meds90017/assessment": {
+     "chars": 0,
+     "slot": "subj-meds90017-assessment",
+     "status": "inflight",
+     "ts": "2026-08-15T06:12:15+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/meds90018": {
+     "chars": 0,
+     "slot": "subj-meds90018",
+     "status": "inflight",
+     "ts": "2026-08-15T06:12:15+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/meds90018/assessment": {
+     "chars": 0,
+     "slot": "subj-meds90018-assessment",
+     "status": "inflight",
+     "ts": "2026-08-15T06:12:15+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/meds90029": {
+     "chars": 0,
+     "slot": "subj-meds90029",
+     "status": "inflight",
+     "ts": "2026-08-15T06:12:15+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/meds90029/assessment": {
+     "chars": 0,
+     "slot": "subj-meds90029-assessment",
+     "status": "inflight",
+     "ts": "2026-08-15T06:12:15+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/meds90030": {
+     "chars": 0,
+     "slot": "subj-meds90030",
+     "status": "inflight",
+     "ts": "2026-08-15T06:12:15+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/meds90030/assessment": {
+     "chars": 0,
+     "slot": "subj-meds90030-assessment",
+     "status": "inflight",
+     "ts": "2026-08-15T06:12:15+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/meds90033": {
+     "chars": 0,
+     "slot": "subj-meds90033",
+     "status": "inflight",
+     "ts": "2026-08-15T06:12:15+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/meds90033/assessment": {
+     "chars": 0,
+     "slot": "subj-meds90033-assessment",
+     "status": "inflight",
+     "ts": "2026-08-15T06:12:15+00:00"
     }
    }
   },
@@ -6927,7 +7107,7 @@
    }
   },
   "mc-urbdes": {
-   "assembled": false,
+   "assembled": true,
    "base": "https://handbook.unimelb.edu.au/2026/courses/mc-urbdes",
    "name": "Master of Urban Design",
    "pages": {

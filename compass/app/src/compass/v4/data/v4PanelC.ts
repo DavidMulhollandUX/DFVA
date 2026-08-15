@@ -59,18 +59,14 @@ export interface V4Meta {
 
 export const V4_META: V4Meta = {
   "cohortSize": 34,
-  "scored": 29,
-  "workplaceScored": 29,
+  "scored": 33,
+  "workplaceScored": 33,
   "workplaceComplete": false,
   "complete": false,
   "adaptMedian": null,
   "expMedian": 90.9,
   "pending": [
-    "mc-phtyph",
-    "mc-sciphy",
-    "mc-surged",
-    "mc-tesol",
-    "mc-urbdes"
+    "mc-surged"
   ]
 };
 
@@ -3715,6 +3711,154 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "date": "2026-08-15"
     }
   },
+  "mc-phtyph": {
+    "instrument": "4.1-draft",
+    "C1": {
+      "score": 1,
+      "rationale": "Level 1, not 2: collaboration and interprofessional practice are pervasive in program and subject outcomes ('Communicate and collaborate with the interdisciplinary clinical team...'; the PHTY90002 and PHTY90003 team-role ILOs), but no core assessment task in the extract is documented as assessing collaborative practice in the level-2 sense — no group project with individual accountability, no assessed interprofessional activity, no assessed coordination of work across people AND tools. The only recurring shared-space task in the core is assessed discussion-board contribution, which is an individually written contribution to a forum rather than documented collaborative practice. Per the ambiguity rule this resolves down. Note also that placement/clinical-attendance evidence is deliberately NOT scored here — it belongs to W3 under the v4.1 migration rule.",
+      "evidenceLines": [
+        "Communicate and collaborate with the interdisciplinary clinical team and all involved parties in case management",
+        "Explain the role of a physiotherapist in continence and pelvic health clinical teams, with a specific focus on collaboration and negotiation with the client and health professionals.",
+        "Critically discuss the role of a physiotherapist within the multi-disciplinary team, including education, collaboration, consultation and negotiation with the client and health professionals, including the effective transfer/referral of complex clients.",
+        "an appreciation of a team approach to learning",
+        "Discussion Board contributions (Contributions throughout teaching period, assessed at end of the teaching period)"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2 is met on the anchor's 'structured critique' route: the compulsory REHB90010 assesses a 30% 'Critical Appraisal of Research' against the appraisal criteria the subject teaches ('techniques for critical evaluation of all aspects of published research'), and the compulsory REHB90003 requires criterion-referenced appraisal of the quality of measurement tools (validity, reliability, feasibility, clinical utility). Level 3 is not reached: no core assessment is documented as requiring students to record and justify reliance-or-override decisions about a tool, source or collaborator, to defend judgements of AI-output quality, or to evidence strategy adjustment over time. The nearest candidates — the REHB90013 'Lab Book' and 'Research Reflection Essay' — sit on only one of two capstone routes and are described as research documentation, not as reliance-decision or process-regulation tasks.",
+      "evidenceLines": [
+        "Critical Appraisal of Research",
+        "There will be a focus on principles of evidence based practice including the techniques for critical evaluation of all aspects of published research.",
+        "Critically appraise experimental studies, including clinical trials as well as systematic reviews and synthesize their application to contemporary clinical practice.",
+        "Apply an evidenced-based methodology to identify and critically analyse the psychometric properties of tools used to evaluate rehabilitation practice including the analysis of the tools validity, reliability, feasibility and clinical utility.",
+        "Lab Book"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1, not 2. The extract contains no mention of artificial intelligence or generative AI anywhere — not in the course pages, not in any core or elective subject page — so the level-2 anchor ('Core units address AI capabilities AND limitations/ethics; use with limits discussed and assessed') cannot be satisfied. What digital content exists in the core is exactly the operational kind the anchor caps at level 1: 'computer database searching' in PHTY90002. Technology critique appears as an unassessed core outcome in PHTY90004 and, more substantially, only in the elective REHB90009 'Innovation and Emerging Technologies' — electives are level 1 by the anchor's own wording. Not level 0, because digital content is present in a core unit and in a program-level outcome.",
+      "evidenceLines": [
+        "An introduction to evidence based practice and computer database searching are provided.",
+        "Critique innovative technologies and resources, including communication technologies, to inform clients and other stakeholders and improve access to and quality of physiotherapy care.",
+        "Critically utilise technical and communication skills to design, evaluate, implement, analyse and theorise about developments that contribute to advancement of practice in Women's, Men's and Pelvic Health physiotherapy",
+        "Innovation and Emerging Technologies",
+        "Students select four of the following electives (50 credit points):"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3 on the anchor's 'documents structured progression toward independent learning: a self-scoped capstone or research project' route, with assessment evidence as R2 requires. A 25-credit-point capstone is compulsory and explicitly gated behind the whole compulsory core, which is the documented structured progression; both available capstone routes satisfy a branch of the anchor — REHB90012 is self-scoped from the student's own needs assessment of their practice context, and REHB90013 is literally a research project. Each carries a major assessed report ('Professional Project Report', 'Research Report'), so this does not rest on outcome statements. Level 2 is separately and comfortably met (REHB90003's evaluation plan for the student's own unfamiliar work context), which is why the score does not stop there.",
+      "evidenceLines": [
+        "One capstone subject (25 credit points)",
+        "Students are required to complete all compulsory subjects prior to completing their capstone subject.",
+        "Students will conduct a professional project based on a needs assessment within their professional practice context, identifying and justifying priority service areas.",
+        "Professional Project Report",
+        "Research Report",
+        "Plan and manage independent learning and develop sustainable strategies for lifelong learning and reflective practice"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2, not 3. Students design and conduct an inquiry with methodology selection, assessed: the compulsory REHB90010 requires a research proposal with PICO question formulation, methodology and measurement-tool selection and research ethics (40% 'Research proposal'), and whichever capstone is taken requires executing an inquiry and reporting results ('Lab Book', 'Research Report'; or systematic data collection from the practice setting in REHB90012). Level 3 fails on its own explicit condition that a substantial primary-evidence project be REQUIRED and not one route among several: the capstone is a choice of two, and within REHB90013 the question may be answered by a literature-only systematic review or by analysing an existing data set, so no student is guaranteed to generate primary evidence. No viva, defence or staged supervised review of methodology is documented.",
+      "evidenceLines": [
+        "Write a research proposal, including development of PICO questions, selection of appropriate research methodology and measurement tools and demonstrate advanced knowledge of the ethical requirements for research implementation.",
+        "Research proposal",
+        "Students choose one of the two following capstone subjects (25 credit points):",
+        "The research question can be answered by a systematic review of the literature, by an analysis of an existing data set or by testing a hypothesis within an existing research project.",
+        "Students are required to select a project from a list of research projects made available to them.",
+        "Systematically and ethically collect data from their practice setting to ensure an informed and criterion based analysis of the practice setting."
+      ]
+    },
+    "adaptiveness": 9,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: at least one core assessment requires a recognised professional genre or public-facing artefact — the compulsory PHTY90004 assesses a 'Poster, handout, or social media post' produced to inform clients and other stakeholders, which is a patient/public-facing professional artefact rather than an academic genre addressed to the marker; spoken professional communication is also assessed in the compulsory REHB90010 ('Presentation', with the subject teaching poster and oral-presentation communication of research findings) and in the capstone 'Project Presentation'. Level 3 fails on its second conjunct: no core assessment in the extract is documented as delivered to, or judged by, a real external audience or practitioner, and professional conduct or accountability is not named among assessed criteria in any core task. The one subject with practitioner-judged work — PHTY90114's 'Supervisor Report A and Supervisor Report B' — is an elective, so it cannot lift a core score.",
+      "evidenceLines": [
+        "Poster, handout, or social media post",
+        "Critique innovative technologies and resources, including communication technologies, to inform clients and other stakeholders and improve access to and quality of physiotherapy care.",
+        "Presentation",
+        "Further they will have developed skills in communicating research findings such as designing posters, oral presentations and written research proposals.",
+        "Project Presentation",
+        "Demonstrate academic writing, oral and creative skills to present information to both specialists in academic forums and specialists and non-specialist in clinical contexts.",
+        "Supervisor Report A and Supervisor Report B (both based on observation of student practice, 10% each, 20 hours of practice x 2) due throughout the study period as determined by the student",
+        "Students select four of the following electives (50 credit points):"
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3: practice-form tasks are the assessment spine rather than a single instance, and at least one carries a genuine constraint of practice. Five of the six compulsory subjects carry an assessment that reproduces a physiotherapy task in the form a practitioner would produce it — hurdle practical skills examinations in PHTY90002 and PHTY90003, a video practical examination and a client-facing information artefact in PHTY90004, a physical assessment video and a case study in PHTY90097, and a three-part service-evaluation plan for the student's own real service in REHB90003 — with the capstone adding a program/service design carrying a business case. Genuine constraints of practice are documented in two forms: hurdle pass standards on the clinical performance examinations, and the externally supplied, resource-constrained real service context of the REHB90003 evaluation plan and the REHB90012 project judged on sustainability, feasibility and stakeholder value. Per R4 no credit is taken from the word 'authentic' in the REHB90003 outcome — the score rests on the documented features (real service in the student's own work context, feasibility constraint, practitioner artefact). Placement and clinical observation evidence is excluded here and scored in W3.",
+      "evidenceLines": [
+        "Practical skills examination",
+        "Hurdle requirement: Students must obtain a pass in this component in order to pass the subject overall.",
+        "Perform safe, targeted and effective clinical assessments of clients who present with urinary incontinence and pelvic organ prolapse symptom, ensuring accurate documentation.",
+        "Practical examination (video submission)",
+        "Physical assessment video",
+        "Case study",
+        "Written assignment – Part C: Evaluation plan",
+        "Design an authentic, feasible and evidence informed plan to evaluate a service, program or individual patient intervention relevant to the students work context.",
+        "Selecting a priority area in collaboration with an academic and professional mentor they will design, justify and present a program, service or resource, including a business case, to address the identified area of need and design a project to meet this need.",
+        "Evaluation of their project ensuring sustainability, feasibility and stakeholder value."
+      ]
+    },
+    "W3": {
+      "score": 2,
+      "rationale": "Level 2, not 1 and not 3. Level 1 is factually contradicted: work-situated learning is not confined to electives or to unassessed activity — the compulsory PHTY90002 makes attendance at stipulated clinical placements a hurdle requirement, and the compulsory PHTY90004 assesses five hours of clinical observation with a written clinical reflection at 10%. Level 3 fails clearly: neither is extended or a sequence, no duration is stated for the PHTY90002 placements, and there is no documented accountability to a host. The anchor's 'short or stands alone' qualifier at level 2 fits both instances exactly. The only placement-like activity with documented practitioner supervision and practitioner-authored assessment — PHTY90114's 40 hours of supervised practice with two supervisor reports — is an elective and therefore cannot raise the score.",
+      "evidenceLines": [
+        "Attendance requirement",
+        "Hurdle requirement: Students must attend all stipulated clinical placements.",
+        "Clinical observation hours and clinical reflection 1000 words",
+        "5 hours",
+        "Physiotherapy Advanced Clinical Practice",
+        "Students select four of the following electives (50 credit points):"
+      ]
+    },
+    "workplace": 7,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Meets the PASS condition on two of the three named routes: an all-compulsory specialist core (six compulsory subjects, 75 of 150 credit points, all in pelvic-health physiotherapy or rehabilitation research method) and a staged prerequisite chain, since the whole compulsory core must be completed before the capstone. Content is discipline-specific rather than interchangeable, and the course documents alignment to the profession's own competency and standards frameworks and to professional titling.",
+        "evidenceLines": [
+          "Six compulsory subjects (75 credit points)",
+          "Students are required to complete all compulsory subjects prior to completing their capstone subject.",
+          "Graduate attributes are aligned with those of The Melbourne Graduate; and is further distinguished by established discipline-specific professional competencies and standards frameworks in the domain of women’s, men’s and pelvic health.",
+          "This course scaffolds students to strategically align their learning with established competencies to support their progress to women’s, men’s and pelvic health professional physiotherapy titling and to design their career for the local as well as international context."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Assessment requires defended trade-off decisions rather than recall or scripted responses. The compulsory PHTY90003 requires weighing risks and benefits to select optimal interventions and responding where values or bias threaten care quality, assessed through a hurdle practical skills examination and a 2500-word written assignment; PHTY90097 assesses a 2500-word case study built on differential diagnosis; REHB90003 requires a defended evaluation design for a real service; and the capstone requires identifying a service gap and defending a project judged on feasibility and stakeholder value — a live project with real uncertainty and accountability.",
+        "evidenceLines": [
+          "Synthesise and apply all relevant sources of information to select optimal interventions, considering the risks and benefits in initial and ongoing clinical decision making.",
+          "Identify and respond effectively in situations in which client and physiotherapist values, culture, biases, or preferences may threaten the quality of care and management.",
+          "Written assignment",
+          "Case study",
+          "Critically review policy and services outcomes within one rehabilitation practice context with a view to identifying gaps to provision of best practice as a basis of a project proposal.",
+          "Evaluation of their project ensuring sustainability, feasibility and stakeholder value."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1 straddled 1 and 2. Assessed 'Contribution to online discussions' / 'Discussion Board contributions' appears in four compulsory subjects and could be read as assessed collaborative practice, but the extract describes only individually authored contributions with no group product, no individual-accountability structure and no interprofessional task. Resolved DOWN to 1 by the lower-level rule.",
+      "C1 also straddled on the capstone. REHB90013 states students 'will be part of a research team' collaborating with an experienced researcher, and both capstones offer peer review and interdisciplinary networking — but all four assessed artefacts on each capstone route are individual, the peer review is described as an 'opportunity' rather than an assessed task, and only one of the two capstones is taken. Resolved DOWN.",
+      "C2 straddled 2 and 3. REHB90003's assessed analysis of whether a measurement tool is psychometrically sound is arguably 'justifying a reliance decision on a tool', and REHB90013's 'Lab Book' is process-focused documentation. Both readings resolved DOWN to 2, because the level-3 anchor asks for documented reliance-or-override decisions and evidenced strategy adjustment, which no task description states.",
+      "C4's level-3 anchor is satisfied by different branches on the two capstone routes: REHB90012 by 'self-scoped capstone' (project scoped from the student's own needs assessment) and REHB90013 by 'research project', even though REHB90013 projects are selected from a supplied list and scoped by the coordinator and supervisor. Scored 3 because every student takes one of the two and each branch is met on its own route; a stricter reading requiring self-scoping on ALL routes would score 2.",
+      "C4 and W2 both draw on the capstone, and C4 and C5 both draw on REHB90013. Kept to one construct one home by scoring distinct features: C4 the required capstone and its documented progression, C5 the inquiry and evidence generation, W2 the fidelity of the professional project task (business case, stakeholder value).",
+      "W2 straddled 2 and 3 on whether a 30–40 minute 'Practical skills examination' reproduces a professional task end to end, since the extract does not describe the client, patient or simulated patient involved. Scored 3 regardless, because the level-3 spine and constraint conditions are independently met by the REHB90003 real-workplace evaluation plan, the PHTY90004 client-facing artefact, the PHTY90097 case study and the REHB90012 business case; if the practical examinations were discounted entirely the score would still be 3 but with a thinner spine.",
+      "W3 straddled 1 and 2 because practitioner supervision — an explicit element of the level-2 anchor — is not documented for either the PHTY90002 stipulated clinical placements or the PHTY90004 clinical observation hours. Resolved to 2 rather than 1 because the level-1 anchor ('exists only as an elective, an optional internship, or an unassessed extracurricular') is directly contradicted by a hurdle in a compulsory subject and a 10%-weighted assessed reflection in another."
+    ],
+    "notScoreable": [
+      "No marking criteria, rubrics or standards documents appear anywhere in the extract. Where anchors require judgement 'against criteria drawn from practice' (W2 level 2) or 'criterion-referenced' appraisal (C2 level 2), this had to be read from task descriptions, hurdle statements and intended learning outcomes rather than from published criteria.",
+      "PHTY90002's clinical placements are hurdle-required but the extract gives no duration, no host setting, no supervision arrangement and no assessment weighting ('Hurdle requirement: Students must attend all stipulated clinical placements.' followed by 'N/A'). W3 could not be scored on the substance of that placement, only on its existence and its hurdle status.",
+      "Three elective subject pages listed in the course structure (HLTH90017 Sports Nutrition, PHRM90022 Sports Pharmacotherapeutics, RADI90024 Neuromusculoskeletal Radiology) are absent from the extract. This does not affect any score, since all eight items were resolved on core evidence.",
+      "C3's AI-specific anchors could not be evaluated on their own terms: the extract contains no occurrence of 'AI', 'artificial intelligence' or generative AI in any page. The score rests entirely on the digital-tool branch of the anchor, and the absence of AI content is what rules out levels 2 and 3 rather than any judgement about how AI is taught."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-15"
+    }
+  },
   "mc-prop": {
     "instrument": "4.1-draft",
     "C1": {
@@ -4437,6 +4581,414 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "Extract coverage: subject pages are supplied for the Atmospheric Science core and four Geology core subjects only. Several Geology core-menu subjects (e.g. Ore Reserve Estimation, Exploration Field Skills, Sedimentary Basins and Resource Analysis, Remote Sensing) and all Professional Skills subjects have no page in the extract, so their assessment design could not be inspected. Scores reflect the supplied text only."
     ],
     "notScoreable": [],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-15"
+    }
+  },
+  "mc-sciphy": {
+    "instrument": "4.1-draft",
+    "C1": {
+      "score": 1,
+      "rationale": "Level 1 anchor: collaboration appears in learning outcomes but no core unit assesses it. Group work in MC-SCIPHY is stated only as a generic skill repeated across the discipline subjects ('participate as an effective member of a group in discussions and collaborative assignments'), while every documented assessment in those subjects is an individual written assignment or written examination. The one genuinely collaborative assessment in the extract, BUSA90403's syndicate group assessments, sits inside the Professional Skills slot where students take only one of twelve listed subjects, so no student is required to encounter it — it is not core. Not level 2, which needs at least one CORE unit assessing collaborative practice; and nothing anywhere assesses coordination of work across people AND tools/AI systems, which level 3 additionally requires.",
+      "evidenceLines": [
+        "participate as an effective member of a group in discussions and collaborative assignments;",
+        "Participating as an effective member of a group in discussions and collaborative assignments;",
+        "Assignment totalling up to 18 pages of written work (due at the end of week 5)",
+        "One written examination",
+        "Students must take one of the following subjects:",
+        "Syndicate group assessments totalling 3,000 words or equivalent"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1 anchor: reflection appears in graduate attributes but no core unit assesses appraisal of quality against criteria. The course-level attribute 'advanced independent critical enquiry, analysis and reflection' is a stated attribute, which R2 and Barrie forbid scoring above 1. The only criterion-referenced appraisal tasks in the extract — SCIE90013's peer-review hurdle, SCIE90005's authorship essay paired with peer review, MAST90007's 'Assess published research from a statistical point of view' — all sit in the choose-one Professional Skills list, so none is core. Not level 2, which requires core assessment to include peer review, structured critique or marking against exemplars. No assessment anywhere documents reliance decisions on a tool, source or collaborator, so level 3 is not reached.",
+      "evidenceLines": [
+        "have the ability to demonstrate advanced independent critical enquiry, analysis and reflection;",
+        "Students must take one of the following subjects:",
+        "Third written task: 1000 word Nature/Science news article. As part of the task, students will peer review each others' work. Initial submission for peer review due week 7 (hurdle requirement), final submission due week 10",
+        "Assess published research from a statistical point of view."
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor: digital tools appear only as electives or as tool operation/training. Every digital or computational element in the extract is optional and operational — MAST90007's 'skills in the use of statistical software' assessed through software quizzes, PHYC90006's MATLAB-based computational methods (a subject not available in 2026), and the Professional Skills options in scientific computation and quantum computing, all inside the choose-one list. Not level 2, which requires core units to address AI capabilities AND limitations/ethics with use-with-limits assessed: the one subject in the extract that names AI, LAWS90203 Science & AI: Legal & Ethical Challenges, is both an option and not available in 2026, and no page for it was captured. No AI governance or critique appears in any assessment, so level 3 fails.",
+      "evidenceLines": [
+        "Demonstrate skills in the use of statistical software;",
+        "Up to 8 online quizzes, including the use of statistical software (continuous assessment), equivalent to approximately 1000 words.",
+        "Students will develop both analytic and computational problem-solving methods, the latter using standard tools such as MATLAB.",
+        "Students must take one of the following subjects:"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3 anchor: the program documents structured progression toward independent learning through a self-scoped research project. The research project is not one route among several — it is 100 of the 200 points, required of every student, in a field of the student's own choosing, sequenced across up to four consecutive semesters as staged subjects (Pt 1 to Pt 4) with a supervisor-negotiated study plan. The assessment evidence R2 demands is the thesis submitted for examination at the end of the final semester, not merely the outcome statement about self-directed learning. This exceeds level 2, which needs only one core assessment applying methods to a novel problem.",
+      "evidenceLines": [
+        "The Master of Science (Physics) is a coursework masters degree incorporating a substantial research project.",
+        "The Master of Science (Physics) gives students the opportunity to undertake a substantive research project in a field of choice as well as a broad range of coursework subjects including a professional skills component, as a pathway to PhD study or to the workforce",
+        "Research Project (100 points).",
+        "Students will gain research experience in Physics by completing a 100 point Research Project.",
+        "The research project can be sequenced according to one of the following streams:",
+        "The thesis will be due for submission at the end of the formal examination period of the final semester of research project enrolment (usually fourth semester) if an earlier date is not specified.",
+        "You must consult your supervisor to discuss an appropriate study plan prior to enrolling in your subjects online through the Student Portal."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2 anchor: students design and conduct an inquiry with methodology selection and data collection, assessed. The required 100-point research project, taken over consecutive semesters under a supervisor and submitted as a thesis for examination, documents exactly that, and it is required rather than one route among several. Level 3 additionally requires the methodology to be defended under scrutiny — a viva, defence or staged supervised review — and the extract documents no such event: the research-project subject pages (PHYC90029/90030/90033/90034/90035/90038/90040/90044) were not captured, so the only assessment fact available is thesis submission. Reading the four-part enrolment sequence as 'staged supervised review' would be an inference, so the lower level is taken.",
+      "evidenceLines": [
+        "Research Project (100 points).",
+        "Students will gain research experience in Physics by completing a 100 point Research Project.",
+        "The research project will be taken over consecutive semesters (to a maximum of four) and will begin on the Monday of the first semester of research project enrolment (semesters 1 or 2) and continue until the end of the final semester of research project enrolment. The research project work continues over summer and winter breaks, minus recreation leave of 4 weeks per year",
+        "The thesis will be due for submission at the end of the formal examination period of the final semester of research project enrolment (usually fourth semester) if an earlier date is not specified.",
+        "For how long and at what time within the enrolment the actual period of leave is to be taken needs to be negotiated with a student's supervisor."
+      ]
+    },
+    "adaptiveness": 8,
+    "W1": {
+      "score": 0,
+      "rationale": "Level 0 anchor: all core assessment is in academic genres addressed to the marker, and no professional-genre or spoken communication is assessed. Every captured discipline subject assesses only written assignments and a written examination, and the required research project culminates in a thesis submitted to examiners. Communication appears in the graduate attributes, which Barrie and R2 bar from scoring. Level 1 would additionally require core assessment to add presentation to peers or staff; there is none — the conference-style spoken presentation and journal-genre writing tasks are in SCIE90013, one of twelve Professional Skills options, and the oral presentation in SCIE90005 is likewise optional and not available in 2026.",
+      "evidenceLines": [
+        "reach a high level of achievement in writing, research or project activities, problem-solving and communication;",
+        "Two assignments totalling up to 36 pages of written work, spaced equally",
+        "One written examination",
+        "4 hour written examination (open book)",
+        "The thesis will be due for submission at the end of the formal examination period of the final semester of research project enrolment (usually fourth semester) if an earlier date is not specified.",
+        "Students must take one of the following subjects:",
+        "8 minute conference-style spoken presentation, due week 11 or 12"
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Level 1 anchor: contextualised tasks appear, but the artefact produced and the criteria applied remain academic. The coursework half of the program is problem-set assignments and long written examinations, which is level 0 territory; what lifts it to 1 is the required research project on a live physics problem, whose artefact is a thesis examined by academics against academic standards. Level 2 would require at least one core assessment to reproduce a professional task end to end with criteria drawn from practice, and the extract documents no criteria for the research project at all — the research-project subject pages were not captured. Per R4, the course statement about preparing 'a career as a professional physicist' is a label, not a documented feature of any task, and does not raise the score.",
+      "evidenceLines": [
+        "Two assignments totalling up to 36 pages of written work, one due early-semester and the other late-semester",
+        "One written examination",
+        "The Master of Science (Physics) is a coursework masters degree incorporating a substantial research project.",
+        "Students will gain research experience in Physics by completing a 100 point Research Project.",
+        "The thesis will be due for submission at the end of the formal examination period of the final semester of research project enrolment (usually fourth semester) if an earlier date is not specified."
+      ]
+    },
+    "W3": {
+      "score": 0,
+      "rationale": "Level 0 anchor: no work-integrated learning, placement, practicum or community-based project appears anywhere in the course structure. The 200 points decompose exhaustively into discipline subjects, one professional-skills subject and the research project, all delivered on campus at Parkville; no internship, practicum or host organisation is named anywhere in the extract, so not even the elective route at level 1 is documented. The research project is supervised university research, not participation in an external workplace or professional community, and its scoring home is C5 and C4.",
+      "evidenceLines": [
+        "Masters (Coursework)Year: 2026Delivered: On Campus (Parkville)",
+        "Students must complete 200 pts comprising:",
+        "Discipline Component subjects (87.5 points);",
+        "Professional Skills subject (12.5 points);",
+        "Research Project (100 points)."
+      ]
+    },
+    "workplace": 1,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The specialist core is coherent and disciplinary even though it is chosen rather than fixed: all ten Discipline Component options are graduate physics subjects, seven of which must be taken, and the 100-point research project is physics research. Progressive technical depth is documented both as a backward prerequisite condition (compulsory 300-level Statistical Physics or Electrodynamics where not previously taken) and as a forward sequence within the pool, Quantum Field Theory explicitly providing the foundation for the advanced subject that follows it. This is not generic or interchangeable content.",
+        "evidenceLines": [
+          "Discipline Component subjects (87.5 points);",
+          "Students must select seven of the following subjects:",
+          "*Students may substitute at most two approved subjects at 300 level or higher. It will be compulsory to take 300-level Statistical Physics or 300-level Electrodynamics if the student did not take these subjects (or their equivalent at another institution) during undergraduate studies. Please contact course coordinator for approval.",
+          "to provide the foundation for more advanced studies in quantum field theory.",
+          "This subject develops an advanced understanding of the quantum properties of non-Abelian gauge theory via the use of modern field-theoretical methods.",
+          "Research Project (100 points)."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "The gate's capstone route is met: half the degree is a required, multi-semester research project in a field of the student's choice, carrying the genuine uncertainty of an unresolved research question and accountability to a supervisor and to thesis examination. This is not recall or scripted response. The pass rests on the project, not on the coursework, which is assignments and closed examinations.",
+        "evidenceLines": [
+          "The Master of Science (Physics) is a coursework masters degree incorporating a substantial research project.",
+          "Students will gain research experience in Physics by completing a 100 point Research Project.",
+          "The research project can be sequenced according to one of the following streams:",
+          "The thesis will be due for submission at the end of the formal examination period of the final semester of research project enrolment (usually fourth semester) if an earlier date is not specified.",
+          "You must consult your supervisor to discuss an appropriate study plan prior to enrolling in your subjects online through the Student Portal."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1 straddled 1 and 2: BUSA90403 assesses 'Syndicate group assessments totalling 3,000 words or equivalent', which would satisfy level 2 if it were core, but it is one of twelve Professional Skills options ('Students must take one of the following subjects:'), so no student is required to take it. Resolved down to 1 under the lower-level rule and R1 (score documented curriculum, not the plausible path a student takes).",
+      "C2 straddled 1 and 2: SCIE90013's peer-review hurdle and SCIE90005's authorship essay paired with peer review are criterion-referenced appraisal, but both are Professional Skills options rather than core units. Resolved down to 1.",
+      "C3 straddled 1 and 2: LAWS90203 'Science & AI: Legal & Ethical Challenges' would bear on AI ethics and governance, but it is an option, is marked 'Not available in 2026', and no subject page for it was captured. Resolved down to 1.",
+      "C5 straddled 2 and 3: the project is required and substantial, satisfying the first half of level 3, but 'methodology defended under scrutiny' is undocumented — the four-part staged enrolment plus supervisor negotiation could be read as staged supervised review, which would be an inference rather than quotable evidence. Resolved down to 2 under the lower-level rule.",
+      "W1 straddled 0 and 1: communication is named in the graduate attributes (level 1's first clause) but level 1 also requires core assessment to add presentation to peers or staff, and every core assessment captured is written. Resolved down to 0; R2/Barrie bar scoring the stated attribute.",
+      "W2 straddled 1 and 2: in a research discipline a thesis is arguably the practitioner's own artefact, which would support level 2, but the criteria applied are academic examination criteria and no assessment criteria for the research project are documented in the extract. Resolved down to 1, reinforced by R4 (the course's 'professional physicist' framing is a label, not a task feature).",
+      "C4 vs C5 division: the same 100-point research project supports C4 level 3 and C5 level 2. It is scored at different levels because the two anchors demand different additional evidence — C4 level 3 needs self-scoped structured progression (documented) and C5 level 3 needs a methodology defence (not documented). No evidence was reused to lift both.",
+      "C4/C5 vs W3 division: the research project is supervised university research, so it scores as inquiry and independent learning, never as work-situated learning (W3), per 'one construct, one home'."
+    ],
+    "notScoreable": [
+      "The assessment pages for the research-project subjects (PHYC90029, PHYC90030, PHYC90033, PHYC90034, PHYC90035, PHYC90038, PHYC90040, PHYC90044) are absent from the extract. Since these subjects carry 100 of the program's 200 points, the assessment design of the largest required component — task type, criteria, any milestone review or defence — is unevidenced. This bounded C5 at 2 and W2 at 1; a captured assessment page could move either.",
+      "No subject pages were captured for seven of the twelve Professional Skills options (MAST90045, MULT90063, LAWS90203, SCIE90026, COMP90072, HPSC40016, SCIE90012), so their content and assessment could not be examined. This did not change any score, because the choose-one structure keeps all of them outside the core regardless.",
+      "No entry-requirements page was captured, so any prerequisite chain beyond the 300-level substitution note could not be verified; G1 passes on the evidence that was captured."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-15"
+    }
+  },
+  "mc-tesol": {
+    "instrument": "4.1-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Meets the level-2 anchor 'at least one core unit assesses collaborative practice': the compulsory subject Literacies in Local and Global Contexts assesses a multimodal group presentation at 30%, and Teamwork and professional collaboration is a stated program generic skill. Not level 3, which requires BOTH recurrence of assessed collaborative practice across the program AND at least one assessment that requires coordinating work across people AND tools/AI systems. No core (or elective) assessment in the extract documents any allocation of work between people and tools or AI systems, and no role/tool allocation is itself assessed anywhere. Recurring group work does exist but only in the Additional Languages electives (group oral presentation with Q&A in Language in Bilingual Education; group lesson plan in Content and Language Integrated Pedagogy), not in the compulsory core, so even the recurrence half of level 3 rests on optional subjects.",
+      "evidenceLines": [
+        "Multimodal group presentation reflecting on academic literacies (10 min per group)",
+        "Teamwork and professional collaboration",
+        "Group oral presentation with Q&A (30 minutes)",
+        "Group lesson plan (2000 words equivalent; 20%) and group oral presentation with Q&A (30 minutes; 30%)"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Meets the level-2 anchor 'core assessment includes criterion-referenced appraisal of quality: peer review, structured critique': the compulsory subject Key Concepts of Academic Writing assesses in-class written responses carrying peer feedback across eight classes at 25%, and Education Policy in Context assesses a written critical review of key readings at 40%. Not level 3, which requires students to document and justify reliance decisions (relying on or overriding a tool, source or collaborator), defend judgements of AI-output quality, or evidence strategy adjustment over time. Nothing in the extract requires a reliance decision to be recorded or defended, and no AI-output appraisal is assessed anywhere. The closest level-3 candidate is the compulsory reflective essay on transformed understanding of literacy, but transformation of understanding is not documented strategy adjustment, so the lower level is taken.",
+      "evidenceLines": [
+        "In-class written responses with peer feedback using concepts and metalanguage (8 in total, equally weighted, completed over 8 classes)",
+        "Written report providing a critical review of key readings",
+        "Reflective essay on transformed understanding of literacy, relating local and global contexts"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Meets the level-1 anchor 'AI or digital tools appear only as electives or as tool operation/training — the operational level TEQSA identifies as non-durable'. Generative AI appears once, in Foundations: Digital Futures, which is one of six Foundations subjects from which students choose two, and it appears there as a light-touch playful familiarisation with tools plus 'Digital literacy' as a generic skill; Generative AI in Education is likewise an elective. Not level 2, which needs core units addressing AI capabilities AND limitations/ethics, assessed: none of the six compulsory subjects (Education Policy in Context, Literacies in Local and Global Contexts, Understanding the Student as Learner, Engaging with Research in Education, Key Concepts of Academic Writing, Key Concepts of Language) contains any digital or AI content, and no program-level intended learning outcome or graduate attribute mentions digital or AI. Not level 3 a fortiori: no assessment anywhere requires critique or governance of AI systems (bias, accountability, transparency, regulation, data governance).",
+      "evidenceLines": [
+        "For example, students will develop familiarity with collaborative environments and generative AI tools and will be given a light-touch introduction to the hands-on activities that will take place in some of the subjects.",
+        "Foundations subjects (25 points) (choice of 2):",
+        "Digital literacy.",
+        "Generative AI in Education"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Meets the level-3 anchor 'The program documents structured progression toward independent learning: a self-scoped capstone or research project'. The course structure makes one of two terminal routes compulsory for every student: Option 1 requires 25 points of Capstone subjects in the final semester, in which students undertake a research-based inquiry project scoped to their own professional practice or specialisation; Option 2 requires 50 points of Research subjects comprising the design and completion of a supervised research project. The self-scoping is explicit ('directly related to their own professional practice and/or within their area of specialisation'), and the requirement is a documented piece of credit-bearing work in a named subject, not a graduate-attribute claim, so R2 is satisfied by a required-work statement of the same kind as a placement requirement rather than by an outcome statement. Level 2 alone would understate the evidence: the level-2 route (core assessment on novel or unfamiliar problems) is in fact the weaker of the two here, being only loosely evidenced by the compulsory research, action and reflection project.",
+      "evidenceLines": [
+        "And 25 points of Capstone* subjects (taken in the final semester)",
+        "In the final-semester Capstone subject, students undertake a research-based inquiry project directly related to their own professional practice and/or within their area of specialisation.",
+        "They provide a grounding in educational research methodology and include the design and completion of a supervised research project in education.",
+        "Produce a research, action and reflection project",
+        "Develop an education research based project, or produce a piece of education research scholarship within the area of EAL."
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Demoted from 2 to 1 on adversarial review. Level 2 requires 'methodology selection AND data collection, assessed'. Data collection is documented nowhere: grep for 'data collection|collect data|primary data|fieldwork|ethics approval' returns zero hits across all 2,924 lines of the extract, as does 'viva|defence'. The two sources originally cited for level 2 are a course-structure blurb for the Research subjects (Option 2 only, WAM 75% gated) and a bare subject name ('Disciplined Inquiry Capstone') in a table; the assessment pages for EDUC90989, EDUC91353, EDUC90419, EDUC91197, EDUC91198 and EDUC91199 are all absent from the extract, so no assessed inquiry design exists in evidence. The only compulsory inquiry-adjacent task, EDUC91029's 'Produce a research, action and reflection project' (50%), sits in a subject whose overview and ILOs are entirely about learner variability and contain no methodology or data component. The original scoring conceded the point and then resolved UPWARD on an inference from level 3's 'REQUIRED (not one route among several)' wording, inverting the non-negotiable rule that ambiguity between two levels takes the LOWER level. Level 1 is fully documented and unambiguous: EDUC91316 Engaging with Research in Education is an introductory research subject assessed by a 3000-word annotated bibliography at 60%, which is the level-1 anchor verbatim ('Introductory methods unit; literature-review assessment').",
+      "evidenceLines": [
+        "Written report: Annotated bibliography",
+        "They provide a grounding in educational research methodology and include the design and completion of a supervised research project in education.",
+        "Disciplined Inquiry Capstone",
+        "Eligibility for the Research subjects requires achievement of a Weighted Average Mark (WAM) of 75% or above in completed MC-TESOL studies, calculated at the point of enrolment in the Research subjects."
+      ]
+    },
+    "adaptiveness": 9,
+    "W1": {
+      "score": 1,
+      "rationale": "Meets the level-1 anchor exactly: communication appears in program generic skills and subject generic skills, and core assessment adds spoken presentation to peers and staff — an assessed 10-minute oral discussion of a written reflection in the compulsory Engaging with Research in Education — but no professional genre and no audience beyond the teaching team. Not level 2, which needs a recognised professional genre or an audience beyond the teaching team judged against criteria drawn from professional practice. Every compulsory assessment in the extract is an academic genre addressed to the marker: essays, analytical essays, reflective essays, annotated bibliographies, in-class quizzes and written responses. The nearest professional genre, a group lesson plan, sits in an Additional Languages elective, and the only task involving an outside person — an interview with a teacher, student or industry representative — is in the optional Foundations: Digital Futures and has that person as a source, not as the audience judging the work. Per R2 and Barrie, the stated attributes cannot lift the score.",
+      "evidenceLines": [
+        "Oral discussion of written reflection (10 minutes)",
+        "Communication",
+        "Oral and written communication skills",
+        "Analytical essay",
+        "Critical Reflection: Completion of an interview with a teacher, student or industry representative about the problems and opportunities of technology/space in education"
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Meets the level-1 anchor 'contextualised or scenario-framed tasks appear (case studies, worked scenarios), but the artefact produced and the criteria applied remain academic'. Education Policy in Context is built on case studies of policy reform yet assesses an essay on an education policy issue; Understanding the Student as Learner assesses a written essay on individual student learning integrating research evidence and personal reflection; Literacies requires reflection situated in students' own professional contexts. Not level 0, because that situational framing is present. Not level 2, which requires at least one CORE assessment that reproduces a professional task end to end, producing the artefact a practitioner would produce, judged against criteria drawn from practice: the only practitioner artefact in the extract is the group lesson plan in Content and Language Integrated Pedagogy, an Additional Languages elective, and no criteria drawn from professional practice are documented for it. Per R4 no credit is given for framing language alone.",
+      "evidenceLines": [
+        "Through studying case studies of policy reform, students will consider the issues that underpin education policies and practice.",
+        "Essay on an education policy issue",
+        "Written essay on individual student learning integrating research evidence and personal reflection",
+        "Critically reflect on their literacy practices within their personal and professional contexts, spanning the local and global levels",
+        "Group lesson plan (2000 words equivalent; 20%) and group oral presentation with Q&A (30 minutes; 30%)"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Meets the level-1 anchor 'work-situated learning exists only as an elective, an optional internship'. A 22-day supervised teaching placement exists, but only inside the EAL Teaching Specialisation, which the course structure offers as one alternative to Additional Languages Electives and which is further restricted to students eligible for Victorian Institute of Teaching registration; Supervised Observation (Second Language) is likewise an Additional Languages elective. Not level 2, which requires a CORE unit placing students in a real workplace with practitioner supervision and assessment: no placement, practicum or community-based project appears among the compulsory subjects of any route, and the course states it is not an initial teacher education qualification. Not level 0, because placement provision demonstrably exists in the structure.",
+      "evidenceLines": [
+        "The specialisation comprises four compulsory subjects, and includes 22 days of supervised teaching placement at a school or similar setting during school hours.",
+        "50 points of EAL Teaching Specialisation^",
+        "75 points of Additional Languages Electives; or",
+        "Supervised Observation (Second Language)",
+        "this course is not an initial teacher education qualification and does not provide eligibility for registration to teach in Australian schools"
+      ]
+    },
+    "workplace": 3,
+    "gates": {
+      "G1": {
+        "result": "FAIL",
+        "rationale": "Demoted from PASS to FAIL on adversarial review. The G1 PASS anchor is a disjunction of three routes and none is documented in the extract. (1) All-compulsory specialist core: every TESOL-specialist subject — Second Language Teaching Methodology (EDUC90048), Second Language Acquisition and Teaching (EDUC90631), Grammar for Language Teachers (EDUC90587), Supervised Observation (EDUC90096) — sits in the optional Additional Languages Electives pool or the VIT-gated EAL Teaching Specialisation. Four of the six compulsory subjects are generic education content with no language or TESOL framing in their overviews or ILOs (EDUC90929 Education Policy in Context, EDUC91029 Understanding the Student as Learner, EDUC91316 Engaging with Research in Education, EDUC91314 Key Concepts of Academic Writing), and all six Foundations options are generic Master-of-Education offerings. That is 100 of 200 credit points of interchangeable content — the FAIL condition's own words. (2) Accredited sequence: the handbook explicitly disclaims accreditation — 'this course is not an initial teacher education qualification and does not provide eligibility for registration to teach in Australian schools'. The single VIT reference is an ENTRY pre-requisite for an optional specialisation, not an accreditation the course confers. (3) Staged prerequisite chain: grep for 'prerequisit|pre-requisit|corequisit' across the entire extract returns exactly one hit (line 451, VIT registration for EDUC90050). There are zero subject-to-subject prerequisites, and every compulsory subject, Foundations option and elective is offered in both semesters with no sequencing, so no progressive technical or methodological depth is documented. The original PASS rested on the First 50 / Second 50 / Final 100 credit-point ordering, which is an ordering of volume, not of depth, while conceding all three absences verbatim.",
+        "evidenceLines": [
+          "Students must complete 200 credit points, made up of:",
+          "50 points of Compulsory subjects",
+          "75 points of Additional Languages Electives; or",
+          "this course is not an initial teacher education qualification and does not provide eligibility for registration to teach in Australian schools",
+          "Language is both the means and object of education and having a shared metalanguage for language is part of professional formation for teachers."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Meets the PASS condition via the capstone route: every student completes either a final-semester research-based inquiry project scoped to their own professional practice, or a supervised research project — capstones with genuine uncertainty rather than scripted responses. Core assessment also requires defended analytical judgements, not recall: Education Policy in Context requires critical analysis of how evidence is used in policy debates, assessed as an essay, and Understanding the Student as Learner requires a research, action and reflection project. Recall-style quizzes exist in several compulsory subjects but are not the only mode.",
+        "evidenceLines": [
+          "In the final-semester Capstone subject, students undertake a research-based inquiry project directly related to their own professional practice and/or within their area of specialisation.",
+          "Critically analyse educational policy research, examining how issues are understood, different policy narratives, and the way evidence is used in debates and the relevant literature.",
+          "Essay on an education policy issue",
+          "Produce a research, action and reflection project"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3 straddled levels 0 and 1: level 0's literal text (no digital/AI content in any core unit or program-level outcome) is also satisfied, since digital/AI appears nowhere in the six compulsory subjects or the program outcomes. Level 1 was chosen because it is the anchor that names this case precisely — AI appearing only as electives and as tool familiarisation — and scoring 0 would deny that the content exists at all.",
+      "C4 straddled levels 2 and 3 in evidence TYPE rather than level: the level-3 route (a required self-scoped capstone or research project) is documented in the course structure, while the level-2 route (core assessment on novel problems) is only weakly evidenced. Resolved to 3 on the anchor's own wording, 'The program documents structured progression toward independent learning', treating the compulsory capstone-or-research requirement as required-work evidence of the same kind the prompt admits for placement requirements. Flagged because the capstone's own assessment table is not in the extract.",
+      "C5 straddled levels 1 and 2 and was resolved DOWN to 1 on adversarial review. The upward resolution originally taken rested on an inference from level 3's 'REQUIRED (not one route among several)' clause; because data collection is documented nowhere for either the capstone or the research project, and the relevant assessment pages are absent from the extract, the lower-level rule applies and level 1 (introductory methods unit, annotated-bibliography assessment) is the only fully documented level.",
+      "W3: for students who take the EAL Teaching Specialisation the 22-day placement is compulsory, practitioner-supervised and substantial, which would read as level 2 or 3 at the student level. Scored 1 at the program level because the specialisation is one alternative among several and is additionally gated on VIT registration eligibility, and the level-2 anchor requires a CORE unit.",
+      "The 22-day placement and the Supervised Observation / Supervised Teaching subjects could be read into C1 (coordinating roles) or C4 (work-integrated learning), but under 'one construct, one home' the v4.1 migration note assigns all placement evidence to W3, so they were excluded from C1 and C4.",
+      "The multimodal group presentation in Literacies is both collaborative practice and spoken communication. It was scored in C1 only (collaboration), and W1 was scored on the separate oral discussion task in Engaging with Research in Education, to avoid double-counting one piece of evidence.",
+      "G1 was initially recorded as a qualified PASS and was demoted to FAIL on adversarial review. Every TESOL-specialist subject (Second Language Teaching Methodology, Second Language Acquisition and Teaching, Grammar for Language Teachers) is elective, four of the six compulsory subjects plus the whole Foundations pool are shared Master of Education offerings, the handbook disclaims accreditation, and the extract contains no subject-to-subject prerequisite. With all three PASS routes absent, the staged First 50 / Second 50 / Final 100 structure orders volume rather than depth and cannot carry the gate."
+    ],
+    "notScoreable": [
+      "No item was wholly unscoreable, but the extract omits the subject and assessment pages for the Disciplined Inquiry Capstone (EDUC90989) and Disciplined Inquiry Capstone (Travel) (EDUC91353), so C4 level 3, C5 and G2 rest on the course-structure description of the capstone rather than on an assessment table.",
+      "The extract omits the subject and assessment pages for the Research subjects — Education Research Methodology (EDUC90419), Research Project in Education (EDUC91197) and its Part 1/Part 2 variants — so whether the research project generates primary evidence, and whether any methodology defence occurs, could not be established for C5.",
+      "The extract omits every EAL Teaching Specialisation subject page, including Supervised Teaching (Second Language) (EDUC90050), as well as Supervised Observation (Second Language) (EDUC90096), so placement duration beyond the stated 22 days, supervision arrangements, assessment and structured reflection could not be verified for W3.",
+      "The extract omits the assessment pages of the Additional Languages electives Grammar for Language Teachers (EDUC90587), Second Language Teaching Methodology (EDUC90048) and Second Language Acquisition and Teaching (EDUC90631), which are the program's TESOL-specialist subjects; this constrains W1 and W2 but does not change their scores, since both anchors at level 2 require CORE assessment."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-15"
+    }
+  },
+  "mc-urbdes": {
+    "instrument": "4.1-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Meets the level-2 anchor 'at least one core unit assesses collaborative practice — group projects with individual accountability': the core subject Strategic Plan Making assesses two group tasks (20% each) alongside a 50% individually-marked strategic plan, giving assessed collaboration with individual accountability. Not level 3: assessed collaboration does not recur — it is confined to this one core unit (the three core studios and the capstone are assessed by individual jury review), and no core assessment requires coordinating the division of work across people AND tools/AI systems. The studios' 'Engagement' generic-skills statement about contributing to others' work is an outcome statement, not an assessed task (R2).",
+      "evidenceLines": [
+        "Site analysis poster (group work 3-4 students),",
+        "Policy analysis report (group work 3-4 students)",
+        "Strategic plan, including implementation and monitoring/evaluation plan (individual work)",
+        "Be able to work effectively as a group member making valuable contributions to group discussions and group projects.",
+        "Engagement: engage with and contribute to not only their own work and others in the studio but also the work of the studio generally;"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Meets level 2 'core assessment includes criterion-referenced appraisal of quality': the core Planning Law & Statutory Planning assignment requires students to appraise a submitted planning application and critically review the process, judged against the statutory provisions that supply the criteria. Not level 3: no core assessment requires students to document or justify reliance decisions about a tool, source or collaborator, defend judgements of AI-output quality, or evidence strategy adjustment over time. The staged Urban Design Theory journal (preliminary then final submission) and the studios' 'Critique' generic skill are the nearest candidates, but the journal's description carries no process-focused or strategy-revision requirement and the critique statement is an outcome, not an assessed task (R2).",
+      "evidenceLines": [
+        "Assignment 2 :Undertake an assessment of a planning application for use and development, including a critical review of the process",
+        "an understanding of the limitations of current approaches and of possible alternatives.",
+        "Journal (equivalent to 2500 words , 50% in total) , including preliminary submission , mid-semester, 15%, and final submission end of semester 35%)",
+        "Critique: Be able to demonstrate a critical assessment of precedents and their own design proposal – where are the strengths and weaknesses, what can be learned or concluded by the proposal? What further research would they do if they were continue with the project?"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Matches level 1 'AI or digital tools appear only as electives or as tool operation/training — the operational level TEQSA identifies as non-durable'. Core digital content is operational: big-data and urban-analytics use inside the studios, and GIS inside Strategic Plan Making. The only subject addressing AI capabilities together with their limits — Computational Design and Optimisation, which teaches machine-learning methods and requires critical reflection on the limits of computational technique — sits in the 50 points of electives, not the 125-point core. Not level 2: no core unit is documented as addressing AI limitations or ethics, and nothing in core assessment requires critique or governance of AI systems (bias, accountability, transparency, regulation, data governance) in urban design's own context.",
+      "evidenceLines": [
+        "To engage with concepts and possibilities of 'big data' and develop skills to use large data sets to directly inform design concepts and decision making in innovative and meaningful ways.",
+        "Analysis: engage with contemporary forms of urban analysis techniques which may include solar, wind, energy modelling.",
+        "Electives (50 points)",
+        "Apply a variety of optimisation and machine learning techniques to solve design problems",
+        "Describe a variety of computational design techniques, and identify both challenges and limits of using such techniques in real-world scenarios;"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Meets level 2 'at least one core assessment requires application to novel or unfamiliar problems': the core Strategic Plan Making requires a plan formulated from problems the student identifies during a hurdle field trip to an unfamiliar site, and the core Planning Law assignment applies statutory method to a site the student has not previously studied. Held at 2 rather than 3 under the never-resolve-upward rule: the required capstone is delivered through 'a number of autonomous studio groups', so the problem is set within a studio brief rather than self-scoped by the student, and the individually supervised route is conditional on being high-achieving and on coordinator approval — not a documented structured progression to independent learning for all students. The thesis outcome 'Develop an urban design project proposal' is an outcome statement, which R2 forbids as the basis for a 3.",
+      "evidenceLines": [
+        "Formulate a strategic plan based upon observation and analysis of problem(s) identified during the field trip;",
+        "Assignment 1 : Undertake a preliminary assessment of a site and its surrounds. Determine the planning provisions relevant to the site, and consider their implications.",
+        "It will consist of a number of autonomous studio groups offering a range of opportunities for students to demonstrate an original approach to design synthesis in urban design, which is based on research and critical thinking.",
+        "With course coordinator approval, high-achieving students may undertake the Urban Design Thesis as an individually supervised design investigation.",
+        "Develop an urban design project proposal."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Meets level 2 'students design and conduct an inquiry with methodology selection and data collection, assessed': the core studios are run as design-research exercises with fieldwork, Studio B requires students to set a design research question and articulate and test a method, and Strategic Plan Making makes primary site observation a hurdle whose data feeds the assessed strategic plan and site-analysis poster. Not level 3: the required capstone's assessment is described as graphic, verbal and written presentation of design concept and explorations with exhibition panels — no viva, defence or staged supervised review of METHODOLOGY is documented, and the research-methods subjects (MSD Research Project Short, Analytical Methods, Human Environments Relations) are electives rather than a required primary-evidence route. Evidence straddling 2 and 3 resolved downward.",
+      "evidenceLines": [
+        "Studio projects are always approached as design-research exercises, where innovation and discovery represent a major part of the educational experience.",
+        "Introduce students to design as a form of research. To be able to identify an urban design problem or challenge; set out a design research question and aim; articulate a design approach or method, test their approach with rigor to put forward an urban design proposition; and draw conclusions identifying weakness and strengths of their approach.",
+        "This subject involves a site visit (field trip) which will run in place of the lecture and tutorial in week three. The site visit is an assessment hurdle requirement and students will be required to cover the local public transport costs.",
+        "Multi-scale urban analysis (graphic and written) 2xA3 sheets",
+        "Research Methods"
+      ]
+    },
+    "adaptiveness": 9,
+    "W1": {
+      "score": 2,
+      "rationale": "Meets level 2 'at least one core assessment requires a recognised professional genre ... judged against criteria drawn from professional practice': core assessment requires a strategic plan complete with implementation and monitoring/evaluation plan, a statutory assessment of a planning application, and a capstone submission delivered as exhibition panels with an accompanying document — the artefacts and genres of planning and urban design practice, in a PIA-accredited course. Not level 3: no assessment line documents a real external audience or practitioner as the judge (the jury reviews are not described as externally constituted), and professional conduct or accountability is nowhere named among assessed criteria. The overview's claim of professional and wider community involvement is a course-level statement not tied to any assessment (R1).",
+      "evidenceLines": [
+        "Strategic plan, including implementation and monitoring/evaluation plan (individual work)",
+        "Assignment 2: Graphic, verbal and written presentation of design concept, analytical work and design explorations. Students will present their final work comprising models, drawings or animations as relevant to the individual design This will include exhibition panels and an accompanying document",
+        "It is expected that graduates of the Master of Urban Design will have completed the academic requirements for membership of Planning Institute of Australia (PIA)",
+        "Communication skills, including developing, constructing and supporting arguments in written form, engaging in academic and policy debates, translating complex and technical academic and statutory information into accessible content and communicating ideas in writing",
+        "Professional and wider community involvement is a regular part of the Master of Urban Design studio experience."
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Meets both level-3 conjuncts. Spine, not single instance: three core design studios (25 points each) plus the 25-point capstone thesis are assessed by jury review of design output — models, drawings, site analyses — for specific metropolitan sites, so a practitioner-form task recurs at every stage and culminates in the capstone; 125 of the 150 core points are such tasks. Genuine constraint of practice: the core Planning Law assignment supplies a real site externally and requires the student to determine and apply the Victorian statutory provisions that are the profession's own standard of performance, and Strategic Plan Making sources its problem from a hurdle field trip rather than a written case. Scored on documented task features, not on any 'real-world' label (R4); the appraisal component of the planning-application task is scored in C2, not here.",
+      "evidenceLines": [
+        "A mid-semester jury review (critique) oral presentation equivalent to 100 hours of work demonstrating design output that may include physical or digital models, drawings, written assignments, site analyses, journals and sketches.",
+        "An end of semester jury review (critique) oral presentation equivalent to 240 hours of work building on work developed throughout the semester demonstrating design output that may include physical or digital models, drawings, written assignments, site analyses, journals and sketches.",
+        "Students will undertake introductory abstract design exercises in the first half of semester providing the foundation for a major urban design proposition and the development of that proposition for end of semester assessment.",
+        "Assignment 1 : Undertake a preliminary assessment of a site and its surrounds. Determine the planning provisions relevant to the site, and consider their implications.",
+        "The subject focuses on the legal frameworks and mechanisms used in Australia, with particular emphasis on Victoria.",
+        "Engage in a complex area of the metropolis and to analyse the existing fabric and represent this analysis in a clear graphic language at a range of scales."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Matches level 1 'work-situated learning exists only as an elective, an optional internship': MSD Vocational Placement appears in the Urban Design Practice elective list, not in the 125-point core or the 25-point capstone. Not level 2: no core unit places students in a real workplace or professional-community setting with practitioner supervision. The studios and the field trip are simulation and fieldwork, which the instrument scores in W2, not W3; the overview's reference to professional and wider community involvement names no placement, practicum or supervised host.",
+      "evidenceLines": [
+        "ABPL90307\tMSD Vocational Placement",
+        "Urban Design Practice",
+        "Students must complete all of the following subjects.",
+        "150 points of core subjects, including 25 points of capstone subject(s).",
+        "50 points of elective subjects."
+      ]
+    },
+    "workplace": 6,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "An all-compulsory specialist core with staged technical depth: 125 points of named compulsory subjects plus a compulsory 25-point capstone, carrying a progressive studio sequence (Studio A introductory exercises → Studio B in-depth propositional work → Studio C integrating urban analytics and complex adaptive systems → Urban Design Thesis as culmination), with an external professional body accrediting the academic requirement. This is disciplinary identity, not interchangeable generic content.",
+        "evidenceLines": [
+          "150 points of core subjects, including 25 points of capstone subject(s).",
+          "Students must complete all of the following subjects.",
+          "Students must also complete the following subject, which comprise the degree's capstone experience and provide students with the necessary research preparation for doctoral study.",
+          "This subject is the culmination of each student's studies in Master of Urban Design.",
+          "It is expected that graduates of the Master of Urban Design will have completed the academic requirements for membership of Planning Institute of Australia (PIA)",
+          "The key quality of the Master of Urban Design is its combined strength of urban design theory, urban morphological analysis and four design studios."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Core assessment requires defended trade-off decisions and capstone-scale work under real uncertainty, not recall or scripted response: studio jury reviews require students to argue for propositions generated and tested against alternatives for complex metropolitan sites; the core economics subject frames its content as judgements about competing demands; and the core planning-law assignment requires a considered position formulated and communicated on the limitations of current statutory provisions. Recall assessment exists (the 40% open book examination, a 15% quiz) but does not exhaust the core.",
+        "evidenceLines": [
+          "Complex planning issues, requiring judgements about the competing demands of economic development and social needs, are associated with the growth and decline of sectors and places in their particular urban contexts.",
+          "Formulate and communicate a considered position on the challenges to, and limitations of, current statutory provisions, including professional ethics, ongoing development pressures, climate change, indigenous cultural heritage, and achievement of diverse social, environmental and economic goals.",
+          "analytical and design skills for generating and testing alternative approaches to the urban design development of specific sites",
+          "To develop the ability to put forward, and provide convincing arguments for unconventional and provocative urban design propositions",
+          "Develop and justify planning responses to (un)desirable changes in urban economic activities."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C2 straddled 2 and 3: the Urban Design Theory journal is staged (preliminary submission mid-semester, final end of semester), which could be read as process-focused assessment evidencing strategy adjustment over time. Nothing in the description requires documenting revised strategy or reliance decisions, so the never-resolve-upward rule fixed it at 2.",
+      "C4 straddled 2 and 3: the required capstone is individual design work and its outcome names developing an urban design project proposal, which reads toward a self-scoped capstone. But delivery is through 'a number of autonomous studio groups' and the individually supervised investigation is gated on being high-achieving plus coordinator approval, so the self-scoping is not documented as required for all students. R2 (outcome statements never sufficient for 3) plus never-resolve-upward fixed it at 2.",
+      "C5 straddled 2 and 3: studios are described as design-research exercises assessed by mid- and end-of-semester jury review, which resembles staged supervised review of a required project. The capstone assessment lines describe presentation of design concept and explorations, never defence of methodology, and the research-methods subjects are electives, so it resolved to 2.",
+      "W1 straddled 2 and 3: the capstone's exhibition panels and the overview's statement that professional and wider community involvement is regular in studios both point toward a real external audience. Neither is tied in an assessment line to an external judge, and no assessed criterion names professional conduct or accountability, so R1/R2 fixed it at 2.",
+      "C1 vs W1 boundary: the studios' 'Engagement' generic skill (contributing to the work of others in the studio) could be read as either collaborative practice or professional conduct. It was treated as neither, being an outcome statement with no matching assessed task.",
+      "W2 vs W3 boundary: the studio fieldwork, the Strategic Plan Making hurdle site visit, and the overview's professional/community involvement claim could be mistaken for work-situated learning. Per the instrument, simulation and fieldwork score in W2; only supervised participation in a real workplace scores in W3, and none is in the core.",
+      "C2 vs W2 boundary: Planning Law Assignment 2 combines appraisal of a planning application (quality judgement) with a practitioner-form task. Per 'one construct, one home' the appraisal scored in C2, and W2 rests on Assignment 1 and the studio/capstone design tasks instead."
+    ],
+    "notScoreable": [
+      "C3 governance sub-evidence: the extract contains no core-subject page addressing AI ethics, bias, accountability or data governance, so the level-2/3 AI-governance anchors could not be tested against core evidence — the item was scored 1 on what the extract does document (operational core digital use plus elective AI content), not scored as absent.",
+      "W1 external-audience sub-evidence: the composition of the studio 'jury' is nowhere described in the extract (whether jurors are teaching staff or external practitioners), so the level-3 external-judge condition could not be evaluated on evidence either way."
+    ],
     "verified": {
       "adversarial": true,
       "mechanical": true,
