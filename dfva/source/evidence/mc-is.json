@@ -215,5 +215,130 @@
         }
       ]
     }
+  },
+  "panelCv4": {
+    "instrument": "4.1-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor ('at least one core unit assesses collaborative practice — group projects with individual accountability, client or stakeholder work') is satisfied several times over in the compulsory core: team database design (INFO90002), group assignment (ISYS90043), group consulting report (ISYS90045), group case (ISYS90026). Level 3 is NOT reached: it requires assessed collaboration to recur AND at least one assessment requiring coordination of work across people AND tools/AI systems, with role and tool allocation documented or the human/system division of work itself assessed. Recurrence is met, but no core assessment line in the extract documents any allocation of work between people and tools or AI systems — the only tool content is operation (Python, SQL, a CASE tool) and the only division-of-work documents are team member counts. Per the downward rule, the second condition fails and the score stays at 2.",
+      "evidenceLines": [
+        "One team based database design assignment (20%) with 3-4 team members, comprising of a database design and a data dictionary equivalent to approximately 3000 words, released week 2 and due in week 6, requiring approximately 26-30 hours of work per student. Intended Learning Outcomes (ILO's) 1 to 3 are addressed in the database design and data dictionary.",
+        "One group based assignment with 3-5 group members of approximately 3500 words due at the end of week 9, requiring approximately 48-52 hours of work per student. Intended Learning Outcomes (ILO's) 1, 3, 4 and 5 are addressed in the assignment.",
+        "Group based report with 3-4 group members of approximately 4000 words. Intended Learning Outcomes (ILO's) 1 to 7 are addressed in this report.",
+        "Group case: Students form groups of 3 students, and together analyse and respond to a case study. Approximately 2,500 words per group, requiring 15-20 hours per student. ILO's 1 to 7 are addressed in this assessment."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Above level 1 ('reflection appears in outcomes ... but no core unit assesses it against criteria'): reflection is assessed in the compulsory core, not merely stated — ISYS90118's self-reflection research journal carries 20% and a submission hurdle and is tied to ILOs 1 and 4-6, including reflecting on the strengths and weaknesses of the student's own chosen research method, and ISYS90038 makes an individual reflection on the group assignment a pass hurdle. That is criterion-referenced appraisal of the quality of work in the level-2 sense. Level 3 requires assessment that makes students document and justify reliance decisions — when they relied on or overrode a tool, source or collaborator — defend judgements of AI-output quality, or evidence strategy adjustment over time. The three journals due weeks 3, 6 and 12 are consistent with process-focused evidencing of strategy adjustment, but the handbook documents only reflection on strengths and weaknesses, never a required record of reliance or override decisions; ambiguity between 2 and 3 resolves downward.",
+      "evidenceLines": [
+        "Other- Self-reflection research journal: Three journals of 250 words each over the semester. Estimated hours: 8 hours for the first two journal entries and 9 hours for the final journal entry (25 hours in total). 5% for each of the first two journal entries, and 10% for the last journal entry leading to 20% in total. Due weeks 3, 6, and 12. ILOs 1 and 4-6 are addressed in this assessment.",
+        "ILO6 - Reflect on the strengths and weaknesses of their chosen research method, in relation to a research or development context.",
+        "Individual Reflection: An individual reflection on the group assignment, approximately 300 words, requiring approximately 1/2 hour of work per student.",
+        "Provide constructive feedback through peer review"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor ('AI or digital tools appear only as electives or as tool operation/training — the operational level TEQSA identifies as non-durable') matches exactly. Core digital content is tool operation: programming constructs and modules in COMP90059, CASE-tool and SQL competence in INFO90002. Every AI-titled subject in the extract sits in the elective lists, never the compulsory 125 credit points. Level 2 requires core units to address AI capabilities AND limitations/ethics with use-with-limits assessed — no core subject page in the extract mentions AI content at all; the single core mention of AI is an assessment-security statement about mitigating misuse in open assessments, which is not AI curriculum. Level 3 requires core assessment critiquing or governing AI systems; the substantial core governance content (ISYS90038's ICT governance frameworks, ISYS90090's security policy) is ICT and data governance without any documented AI object, so it cannot satisfy an anchor whose head noun is AI systems.",
+      "evidenceLines": [
+        "Fundamental programming constructs; fundamental data structures; abstraction; basic program structures; algorithmic problem solving; use of modules.",
+        "Competently use a CASE tool (computer-aided software engineering)",
+        "Majority of assessment in this subject takes the form of case discussion and analysis, delivered through a staged approach that is integrated with the weekly tutorials. This design emphasizes the progressive development of skills and the mitigation of the misuse of AI in open assessments by requiring students to complete or demonstrate some selected assessment tasks during tutorials.",
+        "Topics covered in the subject include: critical and strategic thinking, modes of strategic planning, ICT strategic frameworks, ICT Governance frameworks, ICT Governance policy documents, ICT Governance design frameworks, ICT Governance arrangements, models of organisational decision making, operating models, relationship of ICT Governance design to the development of enterprise architectures, ICT Governance design methodologies, and value creation through ICT Governance design and implementation. The course also focuses on sustainable strategy and governance practices."
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2 anchor ('at least one core assessment requires application to novel or unfamiliar problems — case variation, unseen datasets, cross-context projects') is met repeatedly: ISYS90026's individual and group cases, ISYS90050's critical analysis of an unseen project case scenario, and ISYS90038's plan for a case organisation, with the subject page stating students must respond to business problems and produce a credible solution. It is above level 1 because transfer is not merely claimed in the generic-skills list, it is assessed. Level 3 requires documented structured progression toward independent learning via a self-scoped capstone or research project, or assessed identification of one's own knowledge gaps plus a plan to close them. The two candidate bodies of evidence are homed elsewhere by the one-construct-one-home rule: the self-scoped research capstone is C5's evidence, and the internship's assessed personal professional development plans are placement evidence that scores only in W3. What remains in core — a 2000-word research proposal in ISYS90118 — is a proposal, not a self-scoped project, and the reflective journal addresses method strengths and weaknesses rather than the student's own knowledge gaps and a plan to close them. Ambiguity resolves downward to 2.",
+      "evidenceLines": [
+        "Individual case: Students are asked to fully analyse and respond to a case study. Approximately 1,500 words, requiring 25-30 hours. ILO's 1 to 4, 6 and 7 are addressed in this assessment.",
+        "One individual critical analysis report of a project case scenario of approximately 1000 words. ILO's 3 to 6 are addressed in the critical analysis report.",
+        "Additionally, this approach trains students in solving problems from different points of view and equips students with critical analysis skills and competencies. It also requires students to respond to business problems, highlight weaknesses and opportunities for the businesses, and provide a credible solution and analysis for the business.",
+        "Have a set of flexible and transferable skills for different types of employment"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2 anchor ('Students design and conduct an inquiry with methodology selection and data collection, assessed') is met: the compulsory ISYS90118 assesses justification of a discipline-appropriate research method through a 2000-word written proposal, and the capstone research project route has students design and conduct an investigation with data collection and analysis, assessed by a 7500-word report at 90% under a pass hurdle. Level 3 is explicitly blocked by its own anchor wording — the substantial primary-evidence project must be REQUIRED, not one route among several — and the course structure documents the research project as one of four capstone options students select between. The extract also documents no viva, defence or staged supervised review of methodology beyond supervisor milestones and a 15-minute oral presentation, so the second level-3 condition is unmet as well.",
+      "evidenceLines": [
+        "ILO4 - Research and justify a discipline-appropriate research method to answer a specific research question",
+        "Written Proposal: 2000 word proposal not including references. ILOs 1-3 are addressed in this assessment.",
+        "Students undertake an original investigation of a topic relevant to Information Systems (or cognate discipline). Specific research projects will depend on the availability of appropriate expertise but may address a range of issues within Information Systems research. Under the supervision and guidance of an academic researcher, students are required to design and conduct a research investigation. This would typically involve a literature review, data collection and data analysis. The results will be written as a project report and presented publicly. In some instances, it is expected that the results will also be submitted for publication in a conference or journal.",
+        "One project report (90%) of approximately 7500 words documenting the complete details of your research project. This requires approximately 150 hours of work. Supervisors will set mid-project milestones as part of the project report work. Intended Learning Outcomes (ILO's) 1 to 5 are addressed in the project report.",
+        "25 credit points of Capstone experience subjects (where students select one of four capstone options) including"
+      ]
+    },
+    "adaptiveness": 9,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 anchor ('at least one core assessment requires a recognised professional genre or an audience beyond the teaching team — client brief, consultancy or policy advice ... pitch') is met inside the compulsory core: ISYS90045 assesses a 4000-word consulting report plus a class presentation against ILOs that include communicating technical concepts to a management audience, and ISYS90118 assesses a 10-minute proposal pitch as a pass hurdle. Level 3 needs both repetition/progression AND at least one core assessment delivered to or judged by a real external audience or practitioner, with professional conduct or accountability explicitly among the assessed criteria. Repetition is present, but the external-audience condition fails on the documented features: the pitch audience is hypothetical stakeholders, the consulting presentations are class presentations, and industry involvement in ISYS90045 is documented as guest speakers, who are not judges. Per R4 the practice-oriented framing of the subject does not substitute for a documented external audience.",
+      "evidenceLines": [
+        "Group based report with 3-4 group members of approximately 4000 words. Intended Learning Outcomes (ILO's) 1 to 7 are addressed in this report.",
+        "One class presentation of first group based report of approximately 15 minutes duration. ILO's 1 to 7 are addressed in this presentation.",
+        "Communicate technical concepts to a management audience, both verbally and in writing",
+        "Final Proposal Pitch Presentation (building on feedback and initial work from written proposal): 10-minute presentation, pitching the the proposal to hypothetical stakeholders. ILOs 1-6 are addressed in this assessment.",
+        "Students work individually and in syndicate groups. Classes are interactive and focus on practice, with reading and research tasks undertaken largely outside class. Most classes feature a guest speaker from industry."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2 anchor ('at least one core assessment reproduces a professional task end to end ... producing the artefact a practitioner would produce') is met more than once: ISYS90038's staged ICT Governance Plan documenting a case organisation's current strategy and governance plus governance changes and an implementation plan, ISYS90050's project planning report, and ISYS90049's business-analysis reports on real-world-derived case studies. Level 3 requires both that such tasks form the assessment spine AND that at least one carries a genuine constraint of practice — an ambiguous or externally supplied problem, real resource/time limits, a consequential audience, or the profession's own standards of performance. The spine condition is arguably met across Year 1, Year 2 and the required capstone block, but the constraint condition is not documented in what W2 may score: the externally supplied client problems belong to capstone routes whose live-client and workplace evidence is homed in W3, and BABOK/PMBOK appear in subject descriptions as taught content, never as documented assessment criteria. Under R4 a practice-oriented description is not a scoreable feature of the task, so the ambiguity resolves downward to 2.",
+      "evidenceLines": [
+        "Assignment 1: A group report (5-6 members). Students will develop an ICT Governance Plan showing the current strategy and governance of a case organisation as well as a set of governance changes and their implementation plan. The assignment will have three submissions during the semester (Weeks 5, 10 and 12) as specified below. Totalling approximately 2500 words per student, requiring in total approximately 60-65 hours of work per student. ILO's 1 - 5 addressed in the plan.",
+        "One group based planning report with 3-4 group members of approximately 1400 words per student. Intended Learning Outcomes (ILO's) 1 to 4 are addressed in the planning report.",
+        "This subject focuses on business analysis from the context of digital technologies. It introduces modern business analysis techniques, including a selection of those in the Business Analysis Body of Knowledge (BABOK) by the International Institute of Business Analysis (IIBA), and exemplifies them by means of digital technologies applied to solve problems or exploit new business opportunities. It also includes in-depth case studies in which business problems and opportunities, drawn from real-world scenarios, are mapped to digital solutions. The work is summarised in seven guiding principles that should be followed by every business analyst."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1 anchor ('Work-situated learning exists only as an elective, an optional internship') is the exact match. A supervised workplace placement with an external supervisor at a host organisation exists and is assessed (ENGR90033), but it is one of four capstone options a student selects between, so no student is required to undertake it. Level 2 requires a CORE unit that places students in a real workplace or professional-community setting with practitioner supervision and assessment; the 25-credit-point capstone block is compulsory while the work-situated route within it is not, and the alternative industry-facing route (ISYS90119) is a campus-based group project for an industry client allocated an academic mentor, with no practitioner supervision documented. Ambiguity between 1 and 2 — the internship sitting inside a compulsory block — resolves downward.",
+      "evidenceLines": [
+        "25 credit points of Capstone experience subjects (where students select one of four capstone options) including",
+        "Capstone experience selective subjects",
+        "This subject involves students undertaking professional work experience with a Host Organisation, generally at the Host Organisation’s premises. Students will work under the supervision of both an academic mentor and an external supervisor at the Host Organisation.",
+        "This subject provides final semester Master of Information Systems (MIS) students with the opportunity to undertake an industry-based project to demonstrate and apply their knowledge and skills in Information Systems. Students will work in a group of four to solve specific problems experienced by their industry client. Each group will be allocated an academic mentor."
+      ]
+    },
+    "workplace": 5,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "PASS condition met: the program documents a coherent specialist core with progressive depth — 125 of 200 credit points are compulsory Information Systems subjects, split into a staged Year 1 (87.5 cp) and Year 2 sequence and terminating in a required 25 cp capstone experience — and it is an accredited sequence, carrying Australian Computer Society accreditation. This is not generic or interchangeable content: every compulsory subject is IS-specific (concepts, data modelling, business analysis, security management, consulting, research skills, project management, enterprise architecture, strategy and governance).",
+        "evidenceLines": [
+          "125 credit points of compulsory subjects including",
+          "87.5 credit points of Year 1 compulsory subjects",
+          "25 credit points of Capstone experience subjects (where students select one of four capstone options) including",
+          "The new MC-IS course has been provided with accreditation by the Australian Computer Society."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "PASS condition met: core assessment requires defended trade-off decisions rather than recall or scripted responses. ISYS90038's staged group assignment requires students to propose a set of governance changes and an implementation plan for a case organisation; ISYS90050 assesses identification and evaluation of project risks in a group planning report and an individual critical analysis of an unseen project scenario; and ISYS90026 documents that its case assessments require students to highlight weaknesses and opportunities and provide a credible solution for the business. Exams exist but do not exhaust the assessment.",
+        "evidenceLines": [
+          "Assignment 1: A group report (5-6 members). Students will develop an ICT Governance Plan showing the current strategy and governance of a case organisation as well as a set of governance changes and their implementation plan. The assignment will have three submissions during the semester (Weeks 5, 10 and 12) as specified below. Totalling approximately 2500 words per student, requiring in total approximately 60-65 hours of work per student. ILO's 1 - 5 addressed in the plan.",
+          "Identify and evaluate risks associated with projects",
+          "Additionally, this approach trains students in solving problems from different points of view and equips students with critical analysis skills and competencies. It also requires students to respond to business problems, highlight weaknesses and opportunities for the businesses, and provide a credible solution and analysis for the business.",
+          "One individual critical analysis report of a project case scenario of approximately 1000 words. ILO's 3 to 6 are addressed in the critical analysis report."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1 (2 vs 3): assessed collaboration clearly recurs across the core, which satisfies the first half of the level-3 anchor, but nothing documents coordination of work across people AND tools/AI systems. ISYS90050's ILO 'allocate/coordinate resources' is project-management resource allocation, not a documented division of work between people and systems. Resolved down by the ambiguity rule.",
+      "C2 (2 vs 3): three reflective journals due weeks 3, 6 and 12 are process-focused and spread over time, which could read as evidencing strategy adjustment over time (level 3), but the documented object of reflection is the strengths and weaknesses of a chosen research method, not reliance or override decisions about a tool, source or collaborator. Resolved down.",
+      "C3 (1 vs 2/3): MC-IS has genuinely substantial core governance content (ICT governance frameworks, ICT governance policy documents, security policy and culture) assessed through an ICT Governance Plan, which for an IS program is the discipline's own governance context. Both the level-2 and level-3 anchors name AI specifically, and no core subject page mentions AI content; AI subjects appear only in the elective lists. Held at level 1, where the anchor caps tool-operation content.",
+      "C4 (2 vs 3): a 25 cp capstone experience is compulsory and three of its four routes are self-scoped projects with hurdle proposals, which reads toward level 3. The one-construct-one-home rule sends the research capstone to C5 and the internship's assessed personal professional development plans to W3, leaving no unhomed core evidence of self-scoped independent learning. Resolved down.",
+      "C5 (1 vs 2): the compulsory methods subject ISYS90118 assesses methodology selection and justification but stops at a proposal; actual design-and-conduct with data collection sits in the capstone research route. Scored 2 rather than 1 because only the level-3 anchor carries the 'not one route among several' qualifier, which implies level 2 tolerates route optionality.",
+      "W1 (2 vs 3): professional-genre communication is assessed repeatedly across the core (consulting report, class presentations, governance plan, pitch), satisfying the progression half of level 3, but the audiences documented are hypothetical stakeholders and the class; industry presence is guest speakers, not judges. The capstone route ISYS90119 does document communicating with practitioners and assesses ethical conduct, but it is one of four options and not core. Resolved down.",
+      "W2 (2 vs 3): the spine condition is plausibly met (practitioner artefacts in Year 1 and Year 2 core plus a required capstone), but the genuine-constraint condition depends on externally supplied client problems that belong to W3-homed capstone routes, or on BABOK/PMBOK, which appear as taught content rather than documented assessment criteria (R4). Resolved down.",
+      "W3 (1 vs 2): the internship sits inside a compulsory 25 cp capstone block, which could be read as 'in the core', but students select one of four options so no student is required to undertake work-situated learning. Resolved down to the 'optional internship' anchor.",
+      "Group-based tasks were scored in two different items only via distinct assessments — INFO90002/ISYS90043/ISYS90045/ISYS90026 group tasks for collaboration in C1, and ISYS90038/ISYS90050/ISYS90049 for artefact fidelity in W2 — to avoid double counting the same evidence."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-15"
+    }
   }
 }
