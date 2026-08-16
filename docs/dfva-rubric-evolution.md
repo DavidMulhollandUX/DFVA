@@ -214,13 +214,19 @@ bands, and the three integrated capabilities that became the report family:
 Viability Assessment, Market Intelligence, Curriculum Redesign Advisor. The
 rubric therefore existed in full by 22 April 2026 at the latest.
 
-**Stage 1 — conversational design (pre-repo, evidence indirect).** The
-Perplexity export in the initial commit — *"Act as a prompt engineer, I want
-to turn this workflow into a skill to run this within VSCode"* — cites its
-own source as a `pasted-text.txt`: the DFVA workflow was pasted *into* that
-session from an earlier artifact. The rubric was thus designed in at least
-one prior AI conversation whose transcript is not preserved; what survives
-is its complete output, embedded in the export as the DFVA system prompt:
+**Stage 1 — conversational design (the origin conversation, now preserved).**
+The Perplexity export in the initial commit — *"Act as a prompt engineer, I
+want to turn this workflow into a skill to run this within VSCode"* — cites
+its own source as a `pasted-text.txt`: the DFVA workflow was pasted *into*
+that session from an earlier conversation. That earlier conversation was
+recovered in August 2026 and is preserved verbatim at
+[dfva-origin-conversation.md](dfva-origin-conversation.md), with a full
+source reconstruction in
+[dfva-rubric-original-sources.md](dfva-rubric-original-sources.md). It shows
+the rubric created in three turns: an eight-point research brief on "human
+middleware" → a cited synthesis → *"create an assessment based on the above
+which can be applied to any course"* → the rubric, complete. Its output,
+embedded in the packaging export as the DFVA system prompt, comprised:
 the persona, the 10 dimensions + Irreplaceability bonus with 0–3 anchors in
 one table, the risk bands (with traffic-light emoji; CRITICAL glossed
 "human middleware"), the Three Threshold Questions ("Could a well-prompted
