@@ -98,7 +98,7 @@ const results = await pipeline(
   (code) =>
     agent(
       `Read dfva/dist/v4/DFVA-V4-SCORING-PROMPT.md and follow it EXACTLY to score program ` +
-        `"${code}" on Panel C v4.1 — BOTH sub-scales: the adaptive capabilities C1-C5 ` +
+        `"${code}" on Panel C (the instrument version the prompt states) — BOTH sub-scales: the adaptive capabilities C1-C5 ` +
         `(/15) and workplace practice W1-W3 (/9). Report them separately and never sum ` +
         `them into one figure. The handbook evidence is the file scrapes/v4/${code}.txt — ` +
         `read it in full and score ONLY from it. Do not fetch anything; do not use prior ` +
@@ -110,7 +110,7 @@ const results = await pipeline(
     ),
   (scored, code) =>
     agent(
-      `Adversarially verify this Panel C v4.1 scoring for "${code}" — the C1-C5 items ` +
+      `Adversarially verify this Panel C scoring for "${code}" — the C1-C5 items ` +
         `AND the W1-W3 workplace items: ` +
         `${JSON.stringify(scored.panelCv4)}. Read the anchors in ` +
         `dfva/dist/v4/DFVA-V4-SCORING-PROMPT.md and the evidence in scrapes/v4/${code}.txt. ` +

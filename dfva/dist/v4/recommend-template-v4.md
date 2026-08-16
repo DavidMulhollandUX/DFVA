@@ -1,7 +1,7 @@
 <!-- GENERATED FILE — DO NOT EDIT.
      Source: dfva/source/rubricV4.ts · Generator: scripts/dfva-v4-gen.ts
      Regenerate: npm --prefix scripts run dfva:gen-v4 -->
-# DFVA v4 Improvement Plan Template — Canonical Spec (instrument 4.1-draft)
+# DFVA v4 Improvement Plan Template — Canonical Spec (instrument 4.2-draft)
 
 Every `reports/dfva-v4-recommend-<code>.md` must follow this template.
 
@@ -10,7 +10,7 @@ Every `reports/dfva-v4-recommend-<code>.md` must follow this template.
 ```markdown
 # DFVA v4 IMPROVEMENT PLAN: <Program Name> (<CODE>)
 
-**Instrument:** DFVA 4.1-draft — Panel C v4 on the TEQSA adaptive capabilities [[1]](<teqsa url>)
+**Instrument:** DFVA 4.2-draft — Panel C v4 on the TEQSA adaptive capabilities [[1]](<teqsa url>)
 **Assessment date:** <YYYY-MM-DD> · **Derived from:** the verified panelCv4 scoring + reports/dfva-market-<code>.md
 **Position basis:** Destination AI Exposure <NN.NN> (measured) × Curriculum Adaptiveness <N>/15 (v4.1 draft, sub-scale A) · Workplace practice <N>/9 (sub-scale W, reported beside the axis, not in it) — no v1 composite, no position label until the v4 migration cycle
 ```
@@ -47,7 +47,7 @@ References and that full citations are not repeated in the body.
 
 ## Lint rules (v4 recommend family in check-report-format.ts)
 
-1. Title `# DFVA v4 IMPROVEMENT PLAN:`; header carries `**Instrument:** DFVA 4.1-draft`.
+1. Title `# DFVA v4 IMPROVEMENT PLAN:`; header carries `**Instrument:** DFVA 4.2-draft`.
 2. Sections 1–6 present, in order, each with a `Basis:` tag; §1 opens with the mandatory sentence.
 3. At least one web-linked citation mark `[[n]](http...)`.
 4. REFERENCES matches the canonical generated list, byte-exact.
@@ -91,4 +91,5 @@ References and that full citations are not repeated in the body.
 32. Heckman JJ, Stixrud J, Urzua S (2006). The effects of cognitive and noncognitive abilities on labor market outcomes and social behavior. Journal of Labor Economics 24(3):411–482. https://doi.org/10.1086/504455
 33. Barrie SC (2006). Understanding what we mean by the generic attributes of graduates. Higher Education 51:215–241; and Barrie SC (2007), A conceptual framework for the teaching and learning of generic graduate attributes, Studies in Higher Education 32(4):439–458. (Stated graduate attributes are not evidence of attainment — why R2 binds hardest on W1.)
 34. Tomlinson M (2017). Forms of graduate capital and their relationship to graduate employability. Education + Training 59(4):338–352. (Scoping source: social, cultural and psychological capital are student and network properties, not curriculum properties, and are therefore out of scope.)
+35. Lester S, Costley C (2010). Work-based learning at higher education level: value, practice and critique. Studies in Higher Education 35(5):561–575. (Work-based learning in the learner's own employment as an established higher-education mode for in-practice cohorts — the warrant for W3's own-practice route, added in v4.2.) https://doi.org/10.1080/03075070903216635
 ```

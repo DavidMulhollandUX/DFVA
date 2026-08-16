@@ -373,6 +373,74 @@ structural fact (capstone-route choice), and MC-CS is the case where the W sub-s
 near-floor while adaptiveness reads mid-range — the two shapes a rater is most likely to
 get wrong.
 
+## W3 and in-practice cohorts: the v4.2 amendment
+
+v4.1's W3 anchors presumed a **pre-professional cohort placed into a host workplace** — the
+level-2/3 clauses named placement, practitioner supervision and accountability to a host.
+That presumption fails for mid-career cohorts who are already practising, where the
+workplace is the student's own practice and no host, placement or supervisor exists to be
+documented. The failure was not that such a program scored low; it was that **W3 stopped
+discriminating** — levels 0 and 2 were excluded by the evidence, level 1's exemplars
+(*elective, optional, unassessed*) fit its opposite, and the strongest available in-practice
+evidence (core, assessed, real recipients, measured outcome) landed on the same score as an
+unassessed elective. Like the Panel A traps above, the error had a direction: it only ever
+made such a program look *less* evidenced than it is.
+
+**v4.2 repairs this in the anchors themselves.** W3 levels 2–3 now carry an explicit
+in-practice route — grounded in the work-based-learning literature (Lester & Costley 2010),
+which recognises assessed learning in the student's own employment as an established
+higher-education mode. The construct is unchanged: for a cohort documented as already
+practising, community-of-practice membership already exists, so the item scores the
+program's documented **use** of that practice rather than its acquisition:
+
+| Level | In-practice route (placement route unchanged) |
+| --- | --- |
+| 2 | A core unit assesses activity conducted in the student's own professional practice, with real recipients and a documented outcome measure — but short or standing alone |
+| 3 | A **required sequence** of assessed own-practice activity with structured reflection and documented accountability to workplace stakeholders (trainees, patients, clients or employer) |
+
+Scoring notes for this route:
+
+- **The cohort must be documented as practising in the extract** (entry requirements,
+  cohort description) — never assumed from the program's title.
+- One-construct-one-home still binds: the authentic-artefact spine homed in W2 does not
+  also score here. W3 takes the participation evidence, W2 the artefact evidence.
+- The amendment is **additive**: the placement route is word-for-word unchanged, so every
+  v4.1 score taken on that route carries forward without re-scoring. Records keep the
+  instrument label of the run that produced them (`4.1-draft` or `4.2-draft`); the
+  generator accepts both within the 8-item family.
+- Amending W3 touches only the workplace sub-scale. The published adaptiveness median is
+  computed over C1–C5 and is untouched, as are position labels.
+
+Worked example — **MC-SURGED** (Master of Surgical Education). Under v4.1 it scored W3 = 1
+as the lower live reading of anchors that fit at neither 0, 1 nor 2 (scored 2026-08-15; the
+misfit is preserved in that run's `ambiguities`). MEDS90007 requires participants to
+design, deliver and reflect on their own teaching in workplace-based activity, with a
+measure of outcome for the real trainees receiving it; the program is delivered online,
+places nobody, and names no supervisor or host anywhere in the extract; the cohort are
+practising surgeons. Under v4.2's in-practice route this evidence is scorable as itself.
+
+**Cohort audit (2026-08-16):** all 36 scored records were reviewed for the same misfit when
+the route was introduced; mc-surged is the only re-score. Three negative examples fix the
+route's boundaries. **MC-ED** fails the cohort gate — the handbook serves "current educators
+*as well as* those who are interested in" education, a mixed cohort, and its capstone
+inquiry is "related to their own professional practice **and/or** within their area of
+specialisation", making own-practice optional even there. **MC-TESOL** fails it decisively
+(the two-year stream is "designed for people with little or no prior education
+qualifications or experience"). **MC-INTEDIB** is the instructive near-miss: the cohort gate
+*passes* ("a specialist degree for teachers and administrators working at all levels of
+education") but the activity condition fails — the compulsory subjects assess critical
+readings, presentations and essays, and the capstone is explicitly desk-based on a prior
+project's data, so no core unit assesses activity conducted in anyone's classroom. Both
+conditions are required; a practising cohort with a desk-based curriculum scores exactly as
+before.
+
+A residual construct question is deliberately left open for the IRR study: whether
+consequentiality (real recipient, real outcome) and external accountability structure
+(supervision, host judgement) should become **separate items** — they decouple in this
+population, and the argument for reporting decoupled things separately is the same one that
+justifies the C/W split. That is a structural change (W max moves), so it waits for
+inter-rater evidence rather than one program's.
+
 ## Guards & open wiring (in dependency order)
 
 1. **Now enforced by the prompt/template:** R1–R4, ambiguity-down, one-construct-one-home,
@@ -393,6 +461,19 @@ get wrong.
 3. **Deliberately not built:** anything that re-bases the published v3.1 medians
    or renders a v4 position on the site — that is the published migration cycle,
    a decision, not a script.
+
+## After scoring: socialising the report
+
+A scored report is not the end of the pipeline — the first thing that happens to it is a
+session with subject-matter experts and curriculum staff, whose purpose is to **correct**
+it. That pack (facilitator's guide + Evidura-branded deck + the link back) has its own
+harness: [socialisation harness](dfva-v4-socialisation-harness.md),
+`Workflow({scriptPath: "scripts/workflows/socialisation-pack.js", args: [<codes>]})` or
+`/socialise <code>`.
+
+It reads the report family and never writes a score. Evidence the session produces re-enters
+*this* harness at stage 1 (capture) or 2 (score) — a score never changes because a room
+disagreed with it, only because new evidence was captured and re-scored.
 
 ## Literature trail
 

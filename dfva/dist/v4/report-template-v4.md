@@ -1,7 +1,7 @@
 <!-- GENERATED FILE — DO NOT EDIT.
      Source: dfva/source/rubricV4.ts · Generator: scripts/dfva-v4-gen.ts
      Regenerate: npm --prefix scripts run dfva:gen-v4 -->
-# DFVA v4 Report Template — Canonical Spec (instrument 4.1-draft)
+# DFVA v4 Report Template — Canonical Spec (instrument 4.2-draft)
 
 Every `reports/dfva-v4-<code>.md` must follow this template. It extends the
 v3.1 display grammar (Part A finding / Part B market evidence / Part C method)
@@ -17,7 +17,7 @@ Lyons's August 2026 feedback identified; LR §1, §7).
 ```markdown
 # DFVA v4 DURABILITY REPORT: <Program Name> (<CODE>)
 
-**Instrument:** DFVA 4.1-draft — Panel C v4 on the TEQSA adaptive capabilities [1]
+**Instrument:** DFVA 4.2-draft — Panel C v4 on the TEQSA adaptive capabilities [1]
 **Assessment date:** <YYYY-MM-DD>
 **Handbook vintage:** <year> · **Source URL(s):** <handbook url(s)>
 **Coordinator:** <name (school)> — omit line if unknown
@@ -53,7 +53,7 @@ literature anchor by reference number and its handbook evidence:
 | **Adaptive capabilities** | **<N> / 15** | |
 | W1 Professional communication & conduct [19][20][21][31][5][32] | <0–3> | <rationale citing the anchor met and the handbook evidence> |
 | W2 Authentic task design [22][23][25][26][24] | <0–3> | <rationale citing the anchor met and the handbook evidence> |
-| W3 Work-situated learning [19][27][29][28][30] | <0–3> | <rationale citing the anchor met and the handbook evidence> |
+| W3 Work-situated learning [19][27][29][28][35][30] | <0–3> | <rationale citing the anchor met and the handbook evidence> |
 | **Workplace practice** | **<N> / 9** | |
 ```
 
@@ -147,6 +147,7 @@ The numbered list below, verbatim, ending the report:
 32. Heckman JJ, Stixrud J, Urzua S (2006). The effects of cognitive and noncognitive abilities on labor market outcomes and social behavior. Journal of Labor Economics 24(3):411–482. https://doi.org/10.1086/504455
 33. Barrie SC (2006). Understanding what we mean by the generic attributes of graduates. Higher Education 51:215–241; and Barrie SC (2007), A conceptual framework for the teaching and learning of generic graduate attributes, Studies in Higher Education 32(4):439–458. (Stated graduate attributes are not evidence of attainment — why R2 binds hardest on W1.)
 34. Tomlinson M (2017). Forms of graduate capital and their relationship to graduate employability. Education + Training 59(4):338–352. (Scoping source: social, cultural and psychological capital are student and network properties, not curriculum properties, and are therefore out of scope.)
+35. Lester S, Costley C (2010). Work-based learning at higher education level: value, practice and critique. Studies in Higher Education 35(5):561–575. (Work-based learning in the learner's own employment as an established higher-education mode for in-practice cohorts — the warrant for W3's own-practice route, added in v4.2.) https://doi.org/10.1080/03075070903216635
 ```
 
 ---
@@ -162,11 +163,11 @@ The numbered list below, verbatim, ending the report:
 | C5 | Inquiry & evidence generation | Secondary synthesis only; no research-methods training. | Introductory methods unit; literature-review assessment. | Students design and conduct an inquiry with methodology selection and data collection, assessed. | A substantial project generating primary evidence is REQUIRED (not one route among several), with methodology defended under scrutiny (viva, defence, or staged supervised review). | [14][15][7] |
 | W1 | Professional communication & conduct | All core assessment is in academic genres addressed to the marker (exams, essays, lab reports); no professional-genre or spoken communication is assessed. | Communication or professional conduct appears in learning outcomes or graduate attributes; core assessment adds presentation to peers/staff, but no professional genre and no audience beyond the teaching team. | At least one core assessment requires a recognised professional genre or an audience beyond the teaching team — client brief, consultancy or policy advice, clinical handover, pitch, public-facing artefact — judged against criteria drawn from professional practice. | Professional communication is assessed repeatedly and progressively across the program AND at least one core assessment is delivered to, or judged by, a real external audience or practitioner (industry panel, client, patient or simulated patient, public exhibition), with professional conduct or accountability explicitly among the assessed criteria. | [19][20][21][31][5][32] |
 | W2 | Authentic task design | Core assessment is entirely decontextualised — exams, problem sets and essays with no situational framing. | Contextualised or scenario-framed tasks appear (case studies, worked scenarios), but the artefact produced and the criteria applied remain academic. | At least one core assessment reproduces a professional task end to end: a real or realistic problem, producing the artefact a practitioner would produce, judged against criteria drawn from practice. | Such tasks are the program's assessment spine rather than a single instance (a capstone plus earlier scaffolding, or at least one per stage) AND at least one carries a genuine constraint of practice — an ambiguous or externally supplied problem, real resource/time limits, a consequential audience, or the profession's own standards of performance. | [22][23][25][26][24] |
-| W3 | Work-situated learning | No work-integrated learning, placement, practicum or community-based project appears anywhere in the course structure. | Work-situated learning exists only as an elective, an optional internship, or an unassessed extracurricular or careers activity. | A core unit places students in a real workplace or professional-community setting with practitioner supervision and assessment — placement, practicum, live client project, community-based project — but it is short or stands alone. | Substantial required work-situated learning: an extended placement or practicum, or a sequence of them, in the core, supervised by a practitioner, assessed, with accountability to the host and structured reflection on professional practice. | [19][27][29][28][30] |
+| W3 | Work-situated learning | No work-integrated learning, placement, practicum or community-based project appears anywhere in the course structure. | Work-situated learning exists only as an elective, an optional internship, or an unassessed extracurricular or careers activity. | A core unit places students in a real workplace or professional-community setting with practitioner supervision and assessment — placement, practicum, live client project, community-based project — OR, for a cohort documented as already practising in the profession, a core unit assesses activity conducted in the student's own professional practice with real recipients and a documented outcome measure — but it is short or stands alone. | Substantial required work-situated learning: an extended placement or practicum, or a sequence of them, in the core, supervised by a practitioner, assessed, with accountability to the host and structured reflection on professional practice — OR, for a cohort documented as already practising, a required sequence of assessed own-practice activity with structured reflection and documented accountability to workplace stakeholders (trainees, patients, clients or employer). | [19][27][29][28][35][30] |
 
 ## Lint rules (for the future v4 family in check-report-format.ts)
 
-1. Header carries `**Instrument:** DFVA 4.1-draft`.
+1. Header carries `**Instrument:** DFVA 4.2-draft`.
 2. All six numbered sections present, in order, each with a `Basis:` tag.
 3. Section 5 opens with the mandatory interpretation sentence.
 4. Every scorecard row cites at least one reference number; every level-3 score

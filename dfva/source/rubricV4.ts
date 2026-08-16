@@ -1,5 +1,5 @@
 /**
- * DFVA Panel C v4.1 — canonical instrument definition (SINGLE SOURCE).
+ * DFVA Panel C v4.2 — canonical instrument definition (SINGLE SOURCE).
  *
  * Status: WORKING DRAFT — implements docs/dfva-panelc-v4-recommendation.md
  * (adopted per its §7 decision log, 2026-08-13) as extended by
@@ -21,7 +21,7 @@
  *     WIL literatures. Trail: docs/dfva-workplace-readiness-literature-review.md.
  */
 
-export const V4_VERSION = '4.1-draft'
+export const V4_VERSION = '4.2-draft'
 
 /** Sub-scale A — adaptive capabilities: 5 items × 0–3 (v4.0 scale, unchanged). */
 export const V4_ADAPTIVENESS_MAX = 15
@@ -201,15 +201,22 @@ export const PANEL_W_V4: V4Item[] = [
     name: 'Work-situated learning',
     short: 'Situated',
     construct:
-      'Extended, supervised, assessed participation in a real workplace or professional community — the "deeper learning approach" sense of placements: a high-impact practice (Kuh 2008) whose distinctive mechanism is membership and accountability in a community of practice, and with it pre-professional identity formation (Jackson 2016). Simulation is NOT scored here; it is W2.',
-    evidenceBase: ['hesf2021', 'kuh2008', 'jackson2016', 'jacksonCollings2018', 'accord2024'],
+      'Extended, supervised, assessed participation in a real workplace or professional community — the "deeper learning approach" sense of placements: a high-impact practice (Kuh 2008) whose distinctive mechanism is membership and accountability in a community of practice, and with it pre-professional identity formation (Jackson 2016). For a cohort documented as already practising in the profession, that membership already exists, so the item scores the program’s documented use of it — assessed work-based learning in the student’s own practice (Lester & Costley 2010) — not its acquisition. Simulation is NOT scored here; it is W2.',
+    evidenceBase: [
+      'hesf2021',
+      'kuh2008',
+      'jackson2016',
+      'jacksonCollings2018',
+      'lesterCostley2010',
+      'accord2024',
+    ],
     absorbs:
-      "Takes the WIL evidence previously scored, inconsistently, inside C1 level 3 and C4 level 3. Warrant is skill development, employment relevance and professional identity — NOT employment rates, which Jackson & Collings (2018) found WIL does not raise.",
+      "Takes the WIL evidence previously scored, inconsistently, inside C1 level 3 and C4 level 3. Warrant is skill development, employment relevance and professional identity — NOT employment rates, which Jackson & Collings (2018) found WIL does not raise. v4.2: levels 2–3 gain an in-practice route (work-based learning in the student's own practice) so the item discriminates for cohorts who are already practitioners; the placement route is unchanged, so v4.1 scores on that route carry forward.",
     levels: [
       'No work-integrated learning, placement, practicum or community-based project appears anywhere in the course structure.',
       'Work-situated learning exists only as an elective, an optional internship, or an unassessed extracurricular or careers activity.',
-      'A core unit places students in a real workplace or professional-community setting with practitioner supervision and assessment — placement, practicum, live client project, community-based project — but it is short or stands alone.',
-      'Substantial required work-situated learning: an extended placement or practicum, or a sequence of them, in the core, supervised by a practitioner, assessed, with accountability to the host and structured reflection on professional practice.',
+      "A core unit places students in a real workplace or professional-community setting with practitioner supervision and assessment — placement, practicum, live client project, community-based project — OR, for a cohort documented as already practising in the profession, a core unit assesses activity conducted in the student's own professional practice with real recipients and a documented outcome measure — but it is short or stands alone.",
+      "Substantial required work-situated learning: an extended placement or practicum, or a sequence of them, in the core, supervised by a practitioner, assessed, with accountability to the host and structured reflection on professional practice — OR, for a cohort documented as already practising, a required sequence of assessed own-practice activity with structured reflection and documented accountability to workplace stakeholders (trainees, patients, clients or employer).",
     ],
   },
 ]
@@ -458,6 +465,12 @@ export const V4_REFERENCES: Record<string, V4Reference> = {
     n: 34,
     citation:
       'Tomlinson M (2017). Forms of graduate capital and their relationship to graduate employability. Education + Training 59(4):338–352. (Scoping source: social, cultural and psychological capital are student and network properties, not curriculum properties, and are therefore out of scope.)',
+  },
+  lesterCostley2010: {
+    n: 35,
+    citation:
+      "Lester S, Costley C (2010). Work-based learning at higher education level: value, practice and critique. Studies in Higher Education 35(5):561–575. (Work-based learning in the learner's own employment as an established higher-education mode for in-practice cohorts — the warrant for W3's own-practice route, added in v4.2.)",
+    url: 'https://doi.org/10.1080/03075070903216635',
   },
 } as const
 

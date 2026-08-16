@@ -1,7 +1,7 @@
 <!-- GENERATED FILE — DO NOT EDIT.
      Source: dfva/source/rubricV4.ts · Generator: scripts/dfva-v4-gen.ts
      Regenerate: npm --prefix scripts run dfva:gen-v4 -->
-# DFVA-V4-SCORING-PROMPT (instrument 4.1-draft)
+# DFVA-V4-SCORING-PROMPT (instrument 4.2-draft)
 
 You are scoring one university program's **Panel C v4.1** from its public
 handbook evidence. Panel C has TWO sub-scales, scored independently:
@@ -142,17 +142,17 @@ question the instrument exists to test.
 | 2 | At least one core assessment reproduces a professional task end to end: a real or realistic problem, producing the artefact a practitioner would produce, judged against criteria drawn from practice. |
 | 3 | Such tasks are the program's assessment spine rather than a single instance (a capstone plus earlier scaffolding, or at least one per stage) AND at least one carries a genuine constraint of practice — an ambiguous or externally supplied problem, real resource/time limits, a consequential audience, or the profession's own standards of performance. |
 
-### W3 · Work-situated learning [19][27][29][28][30]
+### W3 · Work-situated learning [19][27][29][28][35][30]
 
-**Construct:** Extended, supervised, assessed participation in a real workplace or professional community — the "deeper learning approach" sense of placements: a high-impact practice (Kuh 2008) whose distinctive mechanism is membership and accountability in a community of practice, and with it pre-professional identity formation (Jackson 2016). Simulation is NOT scored here; it is W2.
-**Migration:** Takes the WIL evidence previously scored, inconsistently, inside C1 level 3 and C4 level 3. Warrant is skill development, employment relevance and professional identity — NOT employment rates, which Jackson & Collings (2018) found WIL does not raise.
+**Construct:** Extended, supervised, assessed participation in a real workplace or professional community — the "deeper learning approach" sense of placements: a high-impact practice (Kuh 2008) whose distinctive mechanism is membership and accountability in a community of practice, and with it pre-professional identity formation (Jackson 2016). For a cohort documented as already practising in the profession, that membership already exists, so the item scores the program’s documented use of it — assessed work-based learning in the student’s own practice (Lester & Costley 2010) — not its acquisition. Simulation is NOT scored here; it is W2.
+**Migration:** Takes the WIL evidence previously scored, inconsistently, inside C1 level 3 and C4 level 3. Warrant is skill development, employment relevance and professional identity — NOT employment rates, which Jackson & Collings (2018) found WIL does not raise. v4.2: levels 2–3 gain an in-practice route (work-based learning in the student's own practice) so the item discriminates for cohorts who are already practitioners; the placement route is unchanged, so v4.1 scores on that route carry forward.
 
 | Level | Anchor (documented curriculum evidence) |
 | --- | --- |
 | 0 | No work-integrated learning, placement, practicum or community-based project appears anywhere in the course structure. |
 | 1 | Work-situated learning exists only as an elective, an optional internship, or an unassessed extracurricular or careers activity. |
-| 2 | A core unit places students in a real workplace or professional-community setting with practitioner supervision and assessment — placement, practicum, live client project, community-based project — but it is short or stands alone. |
-| 3 | Substantial required work-situated learning: an extended placement or practicum, or a sequence of them, in the core, supervised by a practitioner, assessed, with accountability to the host and structured reflection on professional practice. |
+| 2 | A core unit places students in a real workplace or professional-community setting with practitioner supervision and assessment — placement, practicum, live client project, community-based project — OR, for a cohort documented as already practising in the profession, a core unit assesses activity conducted in the student's own professional practice with real recipients and a documented outcome measure — but it is short or stands alone. |
+| 3 | Substantial required work-situated learning: an extended placement or practicum, or a sequence of them, in the core, supervised by a practitioner, assessed, with accountability to the host and structured reflection on professional practice — OR, for a cohort documented as already practising, a required sequence of assessed own-practice activity with structured reflection and documented accountability to workplace stakeholders (trainees, patients, clients or employer). |
 
 ## The two gates (PASS/FAIL, excluded from the sum)
 
@@ -166,7 +166,7 @@ question the instrument exists to test.
 ```json
 {
   "code": "<program code, lowercase>",
-  "instrument": "4.1-draft",
+  "instrument": "4.2-draft",
   "panelCv4": {
     "C1": { "score": 0, "rationale": "<why this level and not the one above>", "evidenceLines": ["<verbatim handbook line>", "..."] },
     "C2": { "score": 0, "rationale": "...", "evidenceLines": ["..."] },
@@ -228,3 +228,4 @@ unquotable claim is not evidence (R3).
 32. Heckman JJ, Stixrud J, Urzua S (2006). The effects of cognitive and noncognitive abilities on labor market outcomes and social behavior. Journal of Labor Economics 24(3):411–482. https://doi.org/10.1086/504455
 33. Barrie SC (2006). Understanding what we mean by the generic attributes of graduates. Higher Education 51:215–241; and Barrie SC (2007), A conceptual framework for the teaching and learning of generic graduate attributes, Studies in Higher Education 32(4):439–458. (Stated graduate attributes are not evidence of attainment — why R2 binds hardest on W1.)
 34. Tomlinson M (2017). Forms of graduate capital and their relationship to graduate employability. Education + Training 59(4):338–352. (Scoping source: social, cultural and psychological capital are student and network properties, not curriculum properties, and are therefore out of scope.)
+35. Lester S, Costley C (2010). Work-based learning at higher education level: value, practice and critique. Studies in Higher Education 35(5):561–575. (Work-based learning in the learner's own employment as an established higher-education mode for in-practice cohorts — the warrant for W3's own-practice route, added in v4.2.) https://doi.org/10.1080/03075070903216635

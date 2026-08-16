@@ -555,21 +555,24 @@ async function appPanelCModule(): Promise<string> {
     // Every score record must state which instrument produced it — the v4 §4
     // migration cycle compares scores across a version boundary, so an
     // unlabelled or mislabelled record corrupts the audit trail. The item set
-    // determines the version unambiguously (W1–W3 do not exist before 4.1), so
-    // derive it rather than trusting a scoring run's own string, and say so
-    // when the two disagree.
-    const derived = PANEL_W_V4.every((w) => data.panelCv4![w.id as keyof typeof data.panelCv4])
-      ? '4.1-draft'
-      : '4.0-draft'
+    // pins the version FAMILY unambiguously (W1–W3 do not exist before 4.1),
+    // but 4.1 and 4.2 share the 8-item set (4.2 only amended W3's anchor text),
+    // so within the family the record's own label is trusted. An unlabelled or
+    // out-of-family label falls back to the family's oldest member — the
+    // conservative reading, since every unlabelled record predates 4.2.
+    const family = PANEL_W_V4.every((w) => data.panelCv4![w.id as keyof typeof data.panelCv4])
+      ? ['4.1-draft', '4.2-draft']
+      : ['4.0-draft']
     const stated = data.panelCv4.instrument
-    if (stated && stated !== derived) {
+    const instrument = stated && family.includes(stated) ? stated : family[0]
+    if (stated && !family.includes(stated)) {
       console.warn(
-        `  warn: ${f} declares instrument "${stated}" but its item set is ${derived} — using ${derived}.`,
+        `  warn: ${f} declares instrument "${stated}" but its item set is the ${family[0]} family — using ${instrument}.`,
       )
     } else if (!stated) {
-      console.warn(`  warn: ${f} states no instrument — derived ${derived} from its item set.`)
+      console.warn(`  warn: ${f} states no instrument — derived ${instrument} from its item set.`)
     }
-    results[data.code] = { ...data.panelCv4, instrument: derived }
+    results[data.code] = { ...data.panelCv4, instrument }
   }
 
   // The reference cohort is the basis for the median (v3.1 §10a rule 2: the
