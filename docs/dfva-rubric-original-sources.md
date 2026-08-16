@@ -10,8 +10,10 @@ question: **when each of the eleven v1 dimensions was written, what evidence
 was it actually standing on?**
 
 Companion documents: [rubric evolution](dfva-rubric-evolution.md) ·
-[v1 methodology](dfva-methodology.md) (the June 2026 retrospective academic
-grounding, which this document predates and reconstructs beneath).
+[synthesis reverse-engineering](dfva-synthesis-reverse-engineering.md) (how
+the synthesis itself was produced) · [v1 methodology](dfva-methodology.md)
+(the June 2026 retrospective academic grounding, which this document
+predates and reconstructs beneath).
 
 ---
 
