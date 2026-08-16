@@ -196,8 +196,20 @@ authority, or a pre-registered test that could kill it.
 
 ### Origins: before the repo
 
-The rubric predates the repository, and the initial commit (2026-05-07,
-`1579583`) preserves the full chain of its conversational development in
+The rubric predates the repository. Its full provenance chain — recovered
+in stages during August 2026 — runs: a **video monologue** on degrees
+obsolete by 2027 (transcribed as a seed prompt) → a **Gemini Deep Research
+session (2026-02-18)** producing the "Great Flattening" report
+([preserved](dfva-origin-gemini-report.md) ·
+[reviewed](dfva-origin-gemini-review.md)) → its research plan, transcribed
+and re-run through **Perplexity** (~April 2026;
+[preserved](dfva-origin-conversation.md) ·
+[sources verified](dfva-rubric-original-sources.md) ·
+[reverse-engineered](dfva-synthesis-reverse-engineering.md)) → the rubric.
+Two dimension names (D2 Systems Thinking, D4 Decision-Making Under
+Uncertainty), the human-middleware frame, the 2027 horizon and the frank
+advisory posture come from the video seed essentially verbatim. The initial
+commit (2026-05-07, `1579583`) preserves the later links of that chain in
 three artifacts.
 
 **Stage 0 — the institutional spark (April 2026).**

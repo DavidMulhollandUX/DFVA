@@ -234,6 +234,21 @@ scaffolding phrases could have been coined at step 1 or 2 of the chain
 rather than by Perplexity itself; wherever in the chain they arose, they are
 machine-coined and uncited.)
 
+> **Confirmed (2026-08-16).** DM subsequently recovered the upstream thread:
+> a **Gemini Deep Research session of 18 February 2026**, whose plan card is
+> the 8-point brief and whose report ("The Great Flattening") is preserved
+> at [dfva-origin-gemini-report.md](dfva-origin-gemini-report.md). The seed
+> prompt was DM's transcription of a **video monologue** (YouTube/TikTok) —
+> which is why no public post could be located. The reconstruction above
+> was correct on the mechanism (plan-card assistant → image transcription →
+> Perplexity) and on the tool; the attribution of the scaffolding shifts
+> partly further upstream: the middleware-applied-to-degrees move, the
+> degree list, the 2027 deadline, "systems thinking" and "decision making
+> under uncertainty" come from the video seed; "the boundary of
+> obsolescence" from Gemini's planner; the boundary triad and "degree
+> archetypes" from the Perplexity pass. Full analysis:
+> [dfva-origin-gemini-review.md](dfva-origin-gemini-review.md).
+
 ## 7. What the rubric actually inherited
 
 The decomposition in §4 yields the finding that matters for the instrument:
