@@ -227,8 +227,11 @@ const wRadius = (workplace: number) =>
 
 /** The exposure–adaptiveness plane. Two cohorts are drawn: the v3.1 reference
  * portfolio faded for orientation, and the programs already re-scored on v4.1,
- * sized by their workplace sub-score. The medians are v3.1 values — drawn for
- * orientation only, since v4 medians do not exist until the migration cycle. */
+ * sized by their workplace sub-score. The median lines follow whichever
+ * instrument the position label is assigned against: v4 once the migration
+ * cycle is complete, v3.1 (orientation only) while it is not. Drawing the v3.1
+ * adaptiveness median under a v4 quadrant label would put a program on the
+ * opposite side of the line from its own chip. */
 function V4MiniMatrix({
   program,
   adaptiveness,
@@ -255,14 +258,22 @@ function V4MiniMatrix({
   const x = (e: number) =>
     PAD + ((e - X_MIN) / (X_MAX - X_MIN)) * (W - 2 * PAD);
   const y = (a: number) => H - PAD - (a / 15) * (H - 2 * PAD);
-  const mx = x(V3_META.expMedian);
-  const my = y(V3_META.adaptMedian);
+  // Same condition the position label uses, so the lines and the chip can never
+  // disagree about which instrument's median a program sits above.
+  const v4Adapt = V4_META.complete ? V4_META.adaptMedian : null;
+  const onV4Medians = v4Adapt !== null;
+  const mx = x(onV4Medians ? V4_META.expMedian : V3_META.expMedian);
+  const my = y(v4Adapt ?? V3_META.adaptMedian);
   return (
     <svg
       viewBox={`0 0 ${W} ${H}`}
       className="w-full"
       role="img"
-      aria-label="Exposure–adaptiveness plane with the v4 draft score; v3.1 reference medians shown for context only"
+      aria-label={
+        onV4Medians
+          ? "Exposure–adaptiveness plane with the v4 draft score, against the v4 portfolio medians"
+          : "Exposure–adaptiveness plane with the v4 draft score; v3.1 reference medians shown for context only"
+      }
     >
       <rect
         x={PAD}
@@ -505,8 +516,11 @@ export default function V4ReportPage() {
                 <Cite refs={[1]} />
                 ). It is a working-draft instrument, applied here as a pilot.
                 The adaptiveness score is not comparable with the published v3.1
-                value, and no position label is reported until v4 portfolio
-                medians exist.{" "}
+                value
+                {V4_META.complete
+                  ? ", so any position label on this page is assigned against the v4 medians, never the v3.1 ones"
+                  : ", and no position label is reported until v4 portfolio medians exist"}
+                .{" "}
                 {v3 ? (
                   <>
                     The v3.1 assessment remains the assessment of record:{" "}
@@ -522,7 +536,7 @@ export default function V4ReportPage() {
                   <>
                     This program has never been assessed on v3.1 or any earlier
                     instrument, so there is no assessment of record to compare
-                    against — a v4.1 draft score is all that exists for it.
+                    against — a v4 draft score is all that exists for it.
                   </>
                 )}
               </span>
@@ -598,7 +612,7 @@ export default function V4ReportPage() {
                           {exposure.toFixed(2)}
                         </p>
                         <p className="text-muted-foreground text-xs">
-                          measured · v3.1 reference median {V3_META.expMedian}
+                          measured · portfolio median {V4_META.expMedian}
                         </p>
                       </>
                     ) : (
@@ -742,7 +756,7 @@ export default function V4ReportPage() {
                       The filled point is this program on the v4 draft score; no
                       quadrant is implied. Faded fills are the v3.1 reference
                       portfolio, shown for context. Open rings are the programs
-                      already re-scored on v4.1, and each ring&rsquo;s size is
+                      already re-scored on v4, and each ring&rsquo;s size is
                       its workplace sub-score — W is not an axis, so size is how
                       it is read. Rings at the same height score identically on
                       adaptiveness and differ on workplace practice.
@@ -773,7 +787,7 @@ export default function V4ReportPage() {
         {/* Panel C v4 — the scored axis */}
         <Card className="mb-6">
           <CardContent className="pt-6">
-            <CardLabel>Panel C v4.1 — two sub-scales</CardLabel>
+            <CardLabel>Panel C v4 — two sub-scales</CardLabel>
             <div className="flex flex-wrap items-center justify-between gap-3">
               <CardTitle className="text-lg">
                 Adaptive capabilities: the four TEQSA capabilities, plus inquiry
@@ -846,7 +860,7 @@ export default function V4ReportPage() {
                   </div>
                   <div className="border-border mt-4 flex items-center justify-between border-t pt-4">
                     <span className="text-muted-foreground text-sm">
-                      Total workplace practice (v4.1 draft)
+                      Total workplace practice (v4 draft)
                     </span>
                     <span className="font-mono text-xl font-semibold">
                       {panelC.workplace}
@@ -1063,13 +1077,28 @@ export default function V4ReportPage() {
             <CardContent className="pt-4">
               <ul className="text-muted-foreground list-disc space-y-2 pl-5 text-sm">
                 <li>
-                  <strong className="text-foreground font-medium">
-                    No v4 medians or stability layer.
-                  </strong>{" "}
-                  Position labels, quadrant probabilities and stability classes
-                  require the portfolio to be re-scored on v4, which is planned
-                  as a published migration cycle with a v3.1-to-v4 comparison
-                  table.
+                  {V4_META.complete ? (
+                    <>
+                      <strong className="text-foreground font-medium">
+                        No v4 stability layer.
+                      </strong>{" "}
+                      The migration cycle is complete, so v4 medians exist and
+                      position labels are reported. Quadrant probabilities and
+                      stability classes are not: those need a rating-error model
+                      on v4, which the specified validation program has not yet
+                      run. The v3.1-to-v4 comparison table is still to publish.
+                    </>
+                  ) : (
+                    <>
+                      <strong className="text-foreground font-medium">
+                        No v4 medians or stability layer.
+                      </strong>{" "}
+                      Position labels, quadrant probabilities and stability
+                      classes require the portfolio to be re-scored on v4, which
+                      is planned as a published migration cycle with a
+                      v3.1-to-v4 comparison table.
+                    </>
+                  )}
                 </li>
                 <li>
                   <strong className="text-foreground font-medium">
