@@ -2,6 +2,11 @@
 
 **Date:** 2026-06-10 | **Methodology:** Same DFVA rubric applied to handbook/course page content via Hermes LLM
 
+> ⚠️ **Not reproducible.** The source extracts behind this comparison were never persisted to
+> `data/`, and no Go8 scraper exists in the repo. Treat the scores below as a one-off historical
+> read, not a maintained benchmark. See the Handbook capture section of `CLAUDE.md` for what
+> rebuilding it would require.
+
 ---
 
 ## Methodology

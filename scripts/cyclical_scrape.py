@@ -3,22 +3,54 @@
 Cyclical handbook scraper — runs until all programs are scraped.
 Designed to be called hourly by cron, with built-in rate-limit awareness.
 
-Usage (must use crawl4ai venv Python — system python3 has pydantic_core mismatch):
+Runs from any clone — the repo root is derived from this file's location.
+
+Usage:
+    python3 scripts/cyclical_scrape.py --dry-run          # inspect the queue, no network, no crawl4ai
     PYTHONPATH="" ~/.venv-crawl4ai-uv/bin/python3 scripts/cyclical_scrape.py           # UniMelb (default)
     PYTHONPATH="" ~/.venv-crawl4ai-uv/bin/python3 scripts/cyclical_scrape.py latrobe   # La Trobe University
-    PYTHONPATH="" ~/.venv-crawl4ai-uv/bin/python3 scripts/cyclical_scrape.py unimelb   # UniMelb (explicit)
+
+crawl4ai is imported lazily; run with the interpreter that has it, or set
+CRAWL4AI_SITE_PACKAGES to its site-packages directory.
+
+Captured text is written to a versioned file under data/ — never to a gitignored
+cache. A capture that only exists locally cannot be re-examined or re-scored, and
+`npm --prefix scripts run dfva:capture-check` enforces that for scored programs.
 
 Universities:
     - unimelb: handbook.unimelb.edu.au/2026/courses/{mc-XXXX} + /course-structure/ sub-page
     - latrobe: handbook.latrobe.edu.au/courses/2026/{CODE} (structure embedded in main page)
 """
 import json, asyncio, sys, os
-from datetime import datetime
+from datetime import datetime, timezone
 
-sys.path.insert(0, os.path.expanduser("~/.venv-crawl4ai-uv/lib/python3.14/site-packages"))
-from crawl4ai import AsyncWebCrawler
+# Repo root is derived from this file's own location so the script runs from any
+# clone. Previously this was hardcoded to one machine's ~/Documents path, which
+# is why captured handbook text was never reproducible off that machine.
+PROJ_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-PROJ_DIR = os.path.expanduser("~/Documents/SXD-Github/DFVA")
+
+def load_crawler():
+    """Import crawl4ai lazily so --dry-run and --help work without the venv.
+
+    Set CRAWL4AI_SITE_PACKAGES to add a site-packages dir to sys.path if
+    crawl4ai lives in a venv you are not running this script with.
+    """
+    extra = os.environ.get("CRAWL4AI_SITE_PACKAGES")
+    if extra:
+        sys.path.insert(0, os.path.expanduser(extra))
+    try:
+        from crawl4ai import AsyncWebCrawler
+    except ImportError as e:
+        sys.exit(
+            f"crawl4ai is not importable ({e}).\n"
+            "Run this script with the interpreter that has it installed, e.g.:\n"
+            '  PYTHONPATH="" ~/.venv-crawl4ai-uv/bin/python3 '
+            "scripts/cyclical_scrape.py unimelb\n"
+            "or set CRAWL4AI_SITE_PACKAGES to its site-packages directory.\n"
+            "Use --dry-run to inspect the work queue without crawl4ai."
+        )
+    return AsyncWebCrawler
 
 # ── University configs ──────────────────────────────────────────────────────
 UNI_CONFIGS = {
@@ -28,6 +60,7 @@ UNI_CONFIGS = {
         "structure_url": "https://handbook.unimelb.edu.au/2026/courses/{code}/course-structure/",
         "has_separate_structure": True,
         "codes_file": "data/all_course_codes.json",
+        "queue_file": "data/capture_queue.json",
         "handbook_file": "data/handbook_data.json",
         "pending_file": "data/pending_scrapes.json",
         "code_prefix": "mc-",
@@ -53,7 +86,7 @@ UNI_CONFIGS = {
 }
 
 
-async def scrape_one(config: dict, code: str) -> dict | None:
+async def scrape_one(config: dict, code: str, AsyncWebCrawler) -> dict | None:
     """Scrape overview (+ optionally structure) for one program. Returns None if blocked."""
     md = ""
 
@@ -92,12 +125,13 @@ async def scrape_one(config: dict, code: str) -> dict | None:
             "success": True,
             "markdown": md,
             "length": len(md),
-            "scraped_at": datetime.now().isoformat(),
+            "scraped_at": datetime.now(timezone.utc).isoformat(),
+            "method": "crawl4ai",
         }
     return None
 
 
-async def main(uni_key: str = "unimelb"):
+async def main(uni_key: str = "unimelb", dry_run: bool = False):
     config = UNI_CONFIGS.get(uni_key)
     if not config:
         print(f"Unknown university: {uni_key}. Options: {', '.join(UNI_CONFIGS)}")
@@ -116,8 +150,14 @@ async def main(uni_key: str = "unimelb"):
 
     scraped_codes = {h["code"] for h in handbook if h.get("success")}
 
-    # Load all course codes
-    if os.path.exists(codes_file):
+    # Load all course codes. The queue file (if present) is the canonical work
+    # list — it carries every known-but-uncaptured code, not just the 42 that
+    # happened to be in all_course_codes.json.
+    queue_file = os.path.join(PROJ_DIR, config.get("queue_file") or "")
+    if config.get("queue_file") and os.path.exists(queue_file):
+        with open(queue_file) as f:
+            all_codes = json.load(f)["codes"]
+    elif os.path.exists(codes_file):
         with open(codes_file) as f:
             all_codes = json.load(f)
     else:
@@ -130,8 +170,11 @@ async def main(uni_key: str = "unimelb"):
             print(f"No course codes file found at {codes_file}")
             sys.exit(1)
 
-    # Filter by prefix (if applicable)
-    if config["code_prefix"]:
+    # Filter by prefix (if applicable). An explicit queue is already scoped, so
+    # the prefix filter is skipped for it — otherwise gc-/gd-/sc-/pr- codes in
+    # the queue would be silently dropped.
+    using_queue = bool(config.get("queue_file")) and os.path.exists(queue_file)
+    if config["code_prefix"] and not using_queue:
         pending = [c for c in all_codes if c not in scraped_codes and c.startswith(config["code_prefix"])]
     else:
         pending = [c for c in all_codes if c not in scraped_codes]
@@ -143,6 +186,16 @@ async def main(uni_key: str = "unimelb"):
     BATCH_SIZE = config["batch_size"]
     batch = pending[:BATCH_SIZE]
 
+    if dry_run:
+        print(f"[{config['name']}] DRY RUN — no network calls made.")
+        print(f"  captured already : {len(scraped_codes)}")
+        print(f"  pending          : {len(pending)}")
+        print(f"  next batch ({len(batch)}) : {', '.join(batch)}")
+        print(f"  source           : {'queue ' + config['queue_file'] if using_queue else codes_file}")
+        return "dry-run"
+
+    AsyncWebCrawler = load_crawler()
+
     print(f"[{config['name']}] Scraping {len(batch)} of {len(pending)} pending "
           f"({len(scraped_codes)} already done)...")
 
@@ -153,9 +206,10 @@ async def main(uni_key: str = "unimelb"):
         await asyncio.sleep(config["request_delay"])
 
         print(f"  [{i+1}/{len(batch)}] {code}...", end=" ", flush=True)
-        result = await scrape_one(config, code)
+        result = await scrape_one(config, code, AsyncWebCrawler)
 
         if result:
+            handbook = [h for h in handbook if h.get("code") != code]
             handbook.append(result)
             new_count += 1
             print(f"{result['length']} chars OK")
@@ -192,6 +246,11 @@ async def main(uni_key: str = "unimelb"):
 
 
 if __name__ == "__main__":
-    uni_key = sys.argv[1] if len(sys.argv) > 1 else "unimelb"
-    result = asyncio.run(main(uni_key))
-    sys.exit(0 if result == "complete" else 1)
+    args = [a for a in sys.argv[1:] if not a.startswith("-")]
+    flags = {a for a in sys.argv[1:] if a.startswith("-")}
+    if "-h" in flags or "--help" in flags:
+        print(__doc__)
+        sys.exit(0)
+    uni_key = args[0] if args else "unimelb"
+    result = asyncio.run(main(uni_key, dry_run="--dry-run" in flags))
+    sys.exit(0 if result in ("complete", "dry-run") else 1)

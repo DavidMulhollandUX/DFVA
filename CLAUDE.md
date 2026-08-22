@@ -1,25 +1,35 @@
 # DFVA
 
 **Tech stack:** TypeScript (scripts), Wasp 0.24 (compass app; config in main.wasp.ts — Wasp Spec, requires Node 24), Prisma (PostgreSQL), React 19
-**Key constraint:** Handbook scraper UNBLOCKED (2026-07-01) — Crawl4AI bypasses anti-bot. Use `PYTHONPATH="" bash ~/.hermes/scripts/crawl4ai_scrape.sh "<url>"` for handbook extraction.
+**Key constraint:** Handbook capture requires network access to `handbook.unimelb.edu.au` and a
+Python interpreter with `crawl4ai` installed. Crawl4AI bypasses the Akamai anti-bot (unblocked
+2026-07-01). Cloud/CI sessions are usually egress-blocked for that host — capture runs locally.
 
-**Go8 scraping:** `PYTHONPATH="" ~/.venv-crawl4ai-uv/bin/python3 scripts/scrape-go8-handbooks.py <command> <unikey>`
+## Handbook capture
 
-| Command | Example | What it does |
-|---------|---------|---------------|
-| `discover` | `discover unsw` | Extract program codes (sitemap/API/catalogue) |
-| `scrape` | `scrape usyd` | Batch-scrape handbook pages (5 at a time) |
-| `status` | `status monash` | Show progress for a university |
-| `status` | `status` | Show progress for all Go8 unis |
+Captured text MUST land in a versioned file under `data/`. Never leave it only in
+`compass/app/.handbook-cache/` — that path is gitignored, and it is why the June-2026 batch of 74
+"ready to score" courses evaporated to 9 on a fresh clone. `dfva:capture-check` enforces this.
 
-Universities: `usyd`, `unsw`, `anu`, `monash`, `uq`, `uwa`, `adelaide`
+```bash
+python3 scripts/build-capture-queue.py         # rebuild data/capture_queue.json (the work list)
+python3 scripts/cyclical_scrape.py --dry-run   # inspect the next batch; no network, no crawl4ai
+PYTHONPATH="" ~/.venv-crawl4ai-uv/bin/python3 scripts/cyclical_scrape.py unimelb   # capture a batch
+npm --prefix scripts run dfva:capture-check    # assert every scored program is capture-backed
+```
 
-Discovery methods per uni: USyd/UNSW/Monash=sitemap, ANU=REST API, UQ/UWA/Adelaide=catalogue
+The scraper is resumable and merge-not-clobber: it skips codes already captured, upserts results,
+and stops a batch after 2 consecutive blocks. Run it repeatedly until the queue drains. Set
+`CRAWL4AI_SITE_PACKAGES` if crawl4ai lives in a venv you are not invoking directly.
 
-Output pattern (per uni): `data/go8_{unikey}_handbook_data.json` — same format as `handbook_data.json`
-Config: `scripts/go8_handbook_config.json`
+Universities configured in `scripts/cyclical_scrape.py`: `unimelb`, `latrobe`.
 
-**No anti-bot: all Go8 handbooks are crawlable via Crawl4AI. No CAPTCHAs or Cloudflare.**
+**Go8 benchmarking is NOT implemented.** `docs/dfva-go8-comparison.md` (2026-06-10) was authored
+from ad-hoc extracts that were never persisted, so it cannot be reproduced or extended. There is no
+Go8 scraper, no `scripts/go8_handbook_config.json`, and no `data/go8_*_handbook_data.json`. To
+rebuild it, add the Go8 hosts to `UNI_CONFIGS` in `cyclical_scrape.py` and capture into versioned
+files like every other source.
+
 **See:** compass/app/README.md
 
 ## Quick start
