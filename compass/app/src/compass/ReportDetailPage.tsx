@@ -1420,8 +1420,7 @@ function ReportDetailView({
   const scoreText: string | null =
     simulatedScore !== null
       ? `${simulatedScore} / 36`
-      : (meta?.score ??
-        (isV4Report ? null : `${program?.score ?? 20} / 36`));
+      : meta?.score ?? (isV4Report ? null : `${program?.score ?? 20} / 36`);
 
   // 7. Form submission: Update intervention assignment
   async function handleAssignOwner(e: React.FormEvent<HTMLFormElement>) {
@@ -1662,7 +1661,9 @@ function ReportDetailView({
             <p className="text-muted-foreground mt-1">
               {report.institution} ·{" "}
               {program?.level ||
-                (isV4Report ? "Panel C v4 (draft instrument)" : "Undergraduate")}
+                (isV4Report
+                  ? "Panel C v4 (draft instrument)"
+                  : "Undergraduate")}
             </p>
           </div>
           <div className="flex items-center gap-3">

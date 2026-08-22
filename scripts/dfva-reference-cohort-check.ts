@@ -32,7 +32,7 @@ export async function checkReferenceCohort(): Promise<string[]> {
   const src = await fs.readFile(V3_PROGRAMS, 'utf8')
 
   // Same extraction the generator uses, so the guard cannot drift from the gate.
-  const refs = [...src.matchAll(/"code": "([a-z0-9-]+)",[\s\S]*?"cohort": "reference"/g)].map(
+  const refs = [...src.matchAll(/"?code"?: "([a-z0-9-]+)",[\s\S]*?"?cohort"?: "reference"/g)].map(
     (m) => m[1]
   )
   const errors: string[] = []

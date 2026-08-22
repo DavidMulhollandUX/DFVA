@@ -1,16 +1,23 @@
 # DFVA v4 DURABILITY REPORT: Master of Public Health (244CW)
 
-**Instrument:** DFVA 4.1-draft — Panel C v4.1 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
+**Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
 **Assessment date:** 2026-08-14 (adaptive sub-scale first scored 2026-08-13)
 **Handbook vintage:** 2026 · **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/244cw (course, structure, attributes) plus the six compulsory-subject and two capstone subject/assessment pages
 **Coordinator:** Kayley Lyons (Melbourne School of Population and Global Health)
 
-> **Draft-instrument notice.** Panel C v4.1 is a working-draft instrument
+> **Draft-instrument notice.** Panel C v4.2 is a working-draft instrument
 > ([v4 recommendation §7](../docs/dfva-panelc-v4-recommendation.md), decisions of
 > 2026-08-13; [v4.1 recommendation](../docs/dfva-panelc-v41-recommendation.md),
-> 2026-08-14). Neither sub-score is comparable with the published v3.1 value for this
+> 2026-08-14;
+> [v4.2 amendment](../docs/dfva-rubric-evolution.md), 2026-08-16). Neither sub-score is comparable with the published v3.1 value for this
 > program, and no position label is reported until v4 portfolio medians exist. The v3.1
 > assessment remains the assessment of record.
+
+> **Scores carry forward from the v4.1 run.** v4.2's only amendment adds an
+> in-practice route to W3 levels 2–3 for cohorts documented as already practising
+> ([rubric evolution § v4.2](../docs/dfva-rubric-evolution.md)). It is additive, so
+> every v4.1 score taken on the placement route stands unchanged. A cohort audit of
+> all 36 v4 records found no program other than MC-SURGED qualifies for the new route.
 
 > **What changed since the v4.0 run of this report.** The adaptive sub-scale is
 > unchanged at 9/15 — the v4.1 anchor edits removed a placement exemplar from C1 level 3
@@ -42,7 +49,7 @@ instruments and is therefore withheld. The position axis remains adaptiveness al
 the workplace sub-score sits beside it and is not folded into the axis. The exposure
 value is independent of the scoring instrument and is reported as measured.
 
-## 2. PANEL C v4.1 SCORECARD — Basis: scored
+## 2. PANEL C v4.2 SCORECARD — Basis: scored
 
 | Item | Score | Rationale (anchor-referenced) |
 | --- | --- | --- |
@@ -377,3 +384,4 @@ structure differently will move all three items together.
 32. Heckman JJ, Stixrud J, Urzua S (2006). The effects of cognitive and noncognitive abilities on labor market outcomes and social behavior. Journal of Labor Economics 24(3):411–482. https://doi.org/10.1086/504455
 33. Barrie SC (2006). Understanding what we mean by the generic attributes of graduates. Higher Education 51:215–241; and Barrie SC (2007), A conceptual framework for the teaching and learning of generic graduate attributes, Studies in Higher Education 32(4):439–458. (Stated graduate attributes are not evidence of attainment — why R2 binds hardest on W1.)
 34. Tomlinson M (2017). Forms of graduate capital and their relationship to graduate employability. Education + Training 59(4):338–352. (Scoping source: social, cultural and psychological capital are student and network properties, not curriculum properties, and are therefore out of scope.)
+35. Lester S, Costley C (2010). Work-based learning at higher education level: value, practice and critique. Studies in Higher Education 35(5):561–575. (Work-based learning in the learner's own employment as an established higher-education mode for in-practice cohorts — the warrant for W3's own-practice route, added in v4.2.) https://doi.org/10.1080/03075070903216635

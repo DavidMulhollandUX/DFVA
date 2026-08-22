@@ -83,7 +83,7 @@ const notes: string[] = []
 
 // --- which codes already have Panel A through the v3 pipeline ----------------
 const v3Src = readFileSync(path.join(ROOT, 'compass/app/src/compass/v3/data/v3Programs.ts'), 'utf8')
-const v3Codes = new Set([...v3Src.matchAll(/"code": "([a-z0-9-]+)"/g)].map((m) => m[1]))
+const v3Codes = new Set([...v3Src.matchAll(/"?code"?: "([a-z0-9-]+)"/g)].map((m) => m[1]))
 
 // --- the v4-only programs and the exposure the generator gave them -----------
 const v4Src = readFileSync(path.join(ROOT, 'compass/app/src/compass/v4/data/v4PanelC.ts'), 'utf8')

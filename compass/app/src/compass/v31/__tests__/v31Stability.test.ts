@@ -1,6 +1,14 @@
 import { describe, expect, it } from "vitest";
-import { V3_META, V3_PROGRAMS, v3ProgramByCode } from "../../v3/data/v3Programs";
-import { V31_META, V31_STABILITY, v31StabilityByCode } from "../data/v31Stability";
+import {
+  V3_META,
+  V3_PROGRAMS,
+  v3ProgramByCode,
+} from "../../v3/data/v3Programs";
+import {
+  V31_META,
+  V31_STABILITY,
+  v31StabilityByCode,
+} from "../data/v31Stability";
 
 /** The externally validated cohort the published spec figures describe. */
 const referenceStability = () => {
@@ -19,7 +27,8 @@ const byCode = (code: string) => {
 describe("v3.1 exact position-stability layer", () => {
   it("covers exactly the v3 placed portfolio", () => {
     expect(V31_STABILITY).toHaveLength(V3_PROGRAMS.length);
-    for (const s of V31_STABILITY) expect(v3ProgramByCode(s.code)).toBeDefined();
+    for (const s of V31_STABILITY)
+      expect(v3ProgramByCode(s.code)).toBeDefined();
   });
 
   it("reproduces the spec's exact reference values (§5.2)", () => {
@@ -49,14 +58,20 @@ describe("v3.1 exact position-stability layer", () => {
 
   it("the empirical empty band exists: no modal probability in (0.848, 0.979)", () => {
     for (const s of V31_STABILITY) {
-      expect(s.modalProbability <= 0.848 || s.modalProbability >= 0.979).toBe(true);
+      expect(s.modalProbability <= 0.848 || s.modalProbability >= 0.979).toBe(
+        true,
+      );
     }
   });
 
   it("sensitivity is monotone: optimistic ≥ published ≥ pessimistic", () => {
     for (const s of V31_STABILITY) {
-      expect(s.modalProbabilityOptimistic).toBeGreaterThanOrEqual(s.modalProbability);
-      expect(s.modalProbability).toBeGreaterThanOrEqual(s.modalProbabilityPessimistic);
+      expect(s.modalProbabilityOptimistic).toBeGreaterThanOrEqual(
+        s.modalProbability,
+      );
+      expect(s.modalProbability).toBeGreaterThanOrEqual(
+        s.modalProbabilityPessimistic,
+      );
     }
   });
 
@@ -85,21 +100,25 @@ describe("v3.1 exact position-stability layer", () => {
   });
 
   it("published sensitivity counts are computed from the data, not carried", () => {
-    expect(V31_STABILITY.filter((s) => s.modalProbabilityOptimistic < 0.8)).toHaveLength(
-      V31_META.failSingleLabel.optimistic,
-    );
+    expect(
+      V31_STABILITY.filter((s) => s.modalProbabilityOptimistic < 0.8),
+    ).toHaveLength(V31_META.failSingleLabel.optimistic);
     expect(V31_STABILITY.filter((s) => s.modalProbability < 0.8)).toHaveLength(
       V31_META.failSingleLabel.published,
     );
-    expect(V31_STABILITY.filter((s) => s.modalProbabilityPessimistic < 0.8)).toHaveLength(
-      V31_META.failSingleLabel.pessimistic,
-    );
+    expect(
+      V31_STABILITY.filter((s) => s.modalProbabilityPessimistic < 0.8),
+    ).toHaveLength(V31_META.failSingleLabel.pessimistic);
   });
 
   it("reference cohort still gives the spec headline 0 / 2 / 14", () => {
     const ref = referenceStability();
-    expect(ref.filter((s) => s.modalProbabilityOptimistic < 0.8)).toHaveLength(0);
+    expect(ref.filter((s) => s.modalProbabilityOptimistic < 0.8)).toHaveLength(
+      0,
+    );
     expect(ref.filter((s) => s.modalProbability < 0.8)).toHaveLength(2);
-    expect(ref.filter((s) => s.modalProbabilityPessimistic < 0.8)).toHaveLength(14);
+    expect(ref.filter((s) => s.modalProbabilityPessimistic < 0.8)).toHaveLength(
+      14,
+    );
   });
 });

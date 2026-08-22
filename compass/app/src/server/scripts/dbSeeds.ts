@@ -27,9 +27,11 @@ export async function seedFragilityIncidents(prismaClient: PrismaClient) {
       statesAffected: JSON.stringify(["MN", "MA", "CT", "VT", "WV", "PA"]),
       blastRadius: 6,
       sourceUrl: "https://github.com/sjpiper145/cc-coursemap/issues",
-      sourceDescription: "cc-coursemap production scraper suffered simultaneous 6-state regression across Coursedog/CourseLeaf platforms",
+      sourceDescription:
+        "cc-coursemap production scraper suffered simultaneous 6-state regression across Coursedog/CourseLeaf platforms",
       recoveryHours: null,
-      description: "A single upstream HTML change broke all parsers simultaneously across 6 states. The scraper could not parse program data from Coursedog or CourseLeaf for MN, MA, CT, VT, WV, and PA. Confirms HTML-based curriculum data is structurally fragile.",
+      description:
+        "A single upstream HTML change broke all parsers simultaneously across 6 states. The scraper could not parse program data from Coursedog or CourseLeaf for MN, MA, CT, VT, WV, and PA. Confirms HTML-based curriculum data is structurally fragile.",
       isActive: true,
     },
     {
@@ -38,9 +40,11 @@ export async function seedFragilityIncidents(prismaClient: PrismaClient) {
       statesAffected: JSON.stringify(["Prod"]),
       blastRadius: 1,
       sourceUrl: "https://github.com/sjpiper145/cc-coursemap/issues",
-      sourceDescription: "cc-coursemap production health check failing — June 23 incident",
+      sourceDescription:
+        "cc-coursemap production health check failing — June 23 incident",
       recoveryHours: null,
-      description: "Production health check for cc-coursemap scraper began failing on June 23, indicating an upstream Coursedog change that prevented program data extraction. Incident remained open at discovery time.",
+      description:
+        "Production health check for cc-coursemap scraper began failing on June 23, indicating an upstream Coursedog change that prevented program data extraction. Incident remained open at discovery time.",
       isActive: true,
     },
     {
@@ -49,9 +53,11 @@ export async function seedFragilityIncidents(prismaClient: PrismaClient) {
       statesAffected: JSON.stringify(["Single university"]),
       blastRadius: 1,
       sourceUrl: "https://github.com/sjpiper145/cc-coursemap/pull/1",
-      sourceDescription: "Modern Campus → Coursedog migration requiring custom scraping tools (coursedog-importer: 9 PRs, Mar–Apr 2026)",
+      sourceDescription:
+        "Modern Campus → Coursedog migration requiring custom scraping tools (coursedog-importer: 9 PRs, Mar–Apr 2026)",
       recoveryHours: 336,
-      description: "A real university migration from Modern Campus to Coursedog required building custom Python/Selenium extraction code because Modern Campus stored degree requirements as freeform HTML blocks — no structured data export available. 2 weeks of custom development just to extract data.",
+      description:
+        "A real university migration from Modern Campus to Coursedog required building custom Python/Selenium extraction code because Modern Campus stored degree requirements as freeform HTML blocks — no structured data export available. 2 weeks of custom development just to extract data.",
       isActive: true,
     },
     {
@@ -60,9 +66,11 @@ export async function seedFragilityIncidents(prismaClient: PrismaClient) {
       statesAffected: JSON.stringify(["Mercy University"]),
       blastRadius: 1,
       sourceUrl: "https://github.com/sjpiper145/cc-coursemap/issues",
-      sourceDescription: "Mercy University 25Live → Coursedog migration (June 2026) — second confirmed migration requiring custom Selenium extraction",
+      sourceDescription:
+        "Mercy University 25Live → Coursedog migration (June 2026) — second confirmed migration requiring custom Selenium extraction",
       recoveryHours: 168,
-      description: "Mercy University's 25Live-to-Coursedog migration is the second independent confirmed migration requiring custom Selenium/Python extraction code. Legacy systems provide no structured data export. Every Coursedog migration requires custom scraping.",
+      description:
+        "Mercy University's 25Live-to-Coursedog migration is the second independent confirmed migration requiring custom Selenium/Python extraction code. Legacy systems provide no structured data export. Every Coursedog migration requires custom scraping.",
       isActive: true,
     },
   ];

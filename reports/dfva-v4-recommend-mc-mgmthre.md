@@ -1,8 +1,8 @@
 # DFVA v4 IMPROVEMENT PLAN: Master of Management (Human Resources) (MC-MGMTHRE)
 
-**Instrument:** DFVA 4.1-draft — Panel C v4.1 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
+**Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
 **Assessment date:** 2026-08-14 · **Derived from:** the verified panelCv4 scoring + [reports/dfva-market-mc-mgmthre.md](dfva-market-mc-mgmthre.md)
-**Position basis:** Destination AI Exposure 94.14 (measured, n = 28) × Curriculum Adaptiveness 8/15 (v4.1 draft, sub-scale A) · Workplace practice 4/9 (sub-scale W, reported beside the axis, not in it) — no v1 composite, no position label until the v4 migration cycle
+**Position basis:** Destination AI Exposure 94.14 (measured, n = 28) × Curriculum Adaptiveness 8/15 (v4.2 draft, sub-scale A) · Workplace practice 4/9 (sub-scale W, reported beside the axis, not in it) — no v1 composite, no position label until the v4 migration cycle
 
 Citation marks refer to the numbered list in References; full citations are not repeated
 in the body.
@@ -165,3 +165,4 @@ valid; comparison with v3.1 values is not [17][[18]](https://doi.org/10.1186/s12
 32. Heckman JJ, Stixrud J, Urzua S (2006). The effects of cognitive and noncognitive abilities on labor market outcomes and social behavior. Journal of Labor Economics 24(3):411–482. https://doi.org/10.1086/504455
 33. Barrie SC (2006). Understanding what we mean by the generic attributes of graduates. Higher Education 51:215–241; and Barrie SC (2007), A conceptual framework for the teaching and learning of generic graduate attributes, Studies in Higher Education 32(4):439–458. (Stated graduate attributes are not evidence of attainment — why R2 binds hardest on W1.)
 34. Tomlinson M (2017). Forms of graduate capital and their relationship to graduate employability. Education + Training 59(4):338–352. (Scoping source: social, cultural and psychological capital are student and network properties, not curriculum properties, and are therefore out of scope.)
+35. Lester S, Costley C (2010). Work-based learning at higher education level: value, practice and critique. Studies in Higher Education 35(5):561–575. (Work-based learning in the learner's own employment as an established higher-education mode for in-practice cohorts — the warrant for W3's own-practice route, added in v4.2.) https://doi.org/10.1080/03075070903216635

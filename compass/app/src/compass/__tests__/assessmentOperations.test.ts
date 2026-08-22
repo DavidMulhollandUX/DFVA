@@ -180,9 +180,9 @@ describe("assessProgram — public submission", () => {
   it("caps anonymous throughput, but never the signed-in path", async () => {
     // Drain the anonymous budget.
     for (let i = 0; i < 40; i++) {
-      await assessProgram({ handbookUrl: VALID_URL }, mockContext(null) as any)
-        .then(() => undefined)
-        .catch(() => undefined);
+      await Promise.resolve(
+        assessProgram({ handbookUrl: VALID_URL }, mockContext(null) as any),
+      ).catch(() => undefined);
     }
 
     await expect(

@@ -756,9 +756,9 @@ export default function V4ReportPage() {
                       The filled point is this program on the v4 draft score; no
                       quadrant is implied. Faded fills are the v3.1 reference
                       portfolio, shown for context. Open rings are the programs
-                      already re-scored on v4, and each ring&rsquo;s size is
-                      its workplace sub-score — W is not an axis, so size is how
-                      it is read. Rings at the same height score identically on
+                      already re-scored on v4, and each ring&rsquo;s size is its
+                      workplace sub-score — W is not an axis, so size is how it
+                      is read. Rings at the same height score identically on
                       adaptiveness and differ on workplace practice.
                     </p>
                   </>
@@ -1113,10 +1113,9 @@ export default function V4ReportPage() {
                     No content-validity panel yet.
                   </strong>{" "}
                   An expert panel with crosswalks to the discipline's own
-                  competency frameworks — CEPH and WHO-ASPHER for public
-                  health, AHRI and SHRM for human resources — is the specified
-                  next step, following Kane's argument-based approach to
-                  validation
+                  competency frameworks — CEPH and WHO-ASPHER for public health,
+                  AHRI and SHRM for human resources — is the specified next
+                  step, following Kane's argument-based approach to validation
                   <Cite refs={[17]} />.
                 </li>
                 <li>

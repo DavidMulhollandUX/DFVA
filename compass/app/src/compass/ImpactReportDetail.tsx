@@ -65,8 +65,7 @@ export default function ImpactReportDetail() {
   }
 
   const reportSignals = (signals ?? []).filter(
-    (s: any) =>
-      s.source?.includes(reportMeta.source),
+    (s: any) => s.source?.includes(reportMeta.source),
   );
 
   if (reportSignals.length === 0) {
@@ -90,15 +89,16 @@ export default function ImpactReportDetail() {
   }
 
   // Build report metadata from signals
-  const credibilityScores = reportSignals.map((s: any) => s.credibilityScore ?? 0);
+  const credibilityScores = reportSignals.map(
+    (s: any) => s.credibilityScore ?? 0,
+  );
   const avgCredibility =
     credibilityScores.length > 0
       ? credibilityScores.reduce((a: number, b: number) => a + b, 0) /
         credibilityScores.length
       : 0;
 
-  const primaryUrl =
-    reportSignals.find((s: any) => s.url)?.url ?? "";
+  const primaryUrl = reportSignals.find((s: any) => s.url)?.url ?? "";
 
   // Related signals: other market_validation category signals not in this report
   const relatedSignals = (signals ?? [])
@@ -169,9 +169,7 @@ export default function ImpactReportDetail() {
                 <p>{signal.relevantClaim}</p>
               </div>
               <div className="text-muted-foreground mt-2 flex items-center gap-4 text-xs">
-                <span>
-                  Credibility: {signal.credibilityScore}/10
-                </span>
+                <span>Credibility: {signal.credibilityScore}/10</span>
                 {signal.dateDiscovered && (
                   <span>
                     Discovered:{" "}
@@ -196,7 +194,8 @@ export default function ImpactReportDetail() {
         <div className="border-border bg-card text-muted-foreground space-y-4 rounded-lg border p-6 text-sm leading-relaxed">
           <p>
             <strong className="text-foreground">
-              Lightcast validates the need. DFVA delivers the education-specific answer.
+              Lightcast validates the need. DFVA delivers the education-specific
+              answer.
             </strong>{" "}
             Lightcast's 2026 Customer Impact Report provides the strongest
             third-party validation yet of DFVA's core thesis: AI adoption is
@@ -221,11 +220,11 @@ export default function ImpactReportDetail() {
             <strong className="text-foreground">
               Independent third-party standard vs vendor-published claims.
             </strong>{" "}
-            Coursedog, CourseLeaf, and Lightcast all publish their own
-            analytics — but those analytics are tied to their platforms and
-            data. DFVA is platform-agnostic: the 11-dimension methodology works
-            across any university's curriculum, regardless of which vendor they
-            use. This independence is the structural moat.
+            Coursedog, CourseLeaf, and Lightcast all publish their own analytics
+            — but those analytics are tied to their platforms and data. DFVA is
+            platform-agnostic: the 11-dimension methodology works across any
+            university's curriculum, regardless of which vendor they use. This
+            independence is the structural moat.
           </p>
 
           <p>

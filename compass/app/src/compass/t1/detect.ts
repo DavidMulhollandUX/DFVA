@@ -10,8 +10,8 @@ const ZIP_MAGIC = new Uint8Array([0x50, 0x4b, 0x03, 0x04]);
 
 /** T1 .t1etlp ELP header markers (text-based, UTF-8/ASCII) */
 const ETlP_MARKERS = [
-  "ELP",           // Enrolment & Load Planning header
-  "Enrolment",     // Full header variant
+  "ELP", // Enrolment & Load Planning header
+  "Enrolment", // Full header variant
   "Load Planning", // Alternative header
 ];
 
@@ -41,7 +41,7 @@ function getExtension(filename: string): string {
  */
 export function detectT1FileType(
   buffer: Uint8Array,
-  filename: string
+  filename: string,
 ): T1FileType {
   // Content-based detection
   if (buffer.length >= 4 && hasMagicBytes(buffer, ZIP_MAGIC)) {
@@ -50,7 +50,7 @@ export function detectT1FileType(
   }
 
   const head = new TextDecoder("utf-8", { fatal: false }).decode(
-    buffer.slice(0, 1024)
+    buffer.slice(0, 1024),
   );
 
   if (T1DM_MARKER && head.includes(T1DM_MARKER)) {
@@ -85,6 +85,6 @@ export function detectT1FileType(
 
   throw new Error(
     `Unknown T1 format: file "${filename}" does not match any known T1 export format. ` +
-      `Supported formats: .t1xl, .t1etlp, .t1dm, .t1db`
+      `Supported formats: .t1xl, .t1etlp, .t1dm, .t1db`,
   );
 }

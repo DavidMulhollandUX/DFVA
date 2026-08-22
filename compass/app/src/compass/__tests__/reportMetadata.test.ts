@@ -109,7 +109,11 @@ describe("stripToolingMetadata", () => {
   });
 
   it("leaves report bodies untouched", () => {
-    const src = ["### 1. PROGRAM PROFILE", "", "Prose about the prompt version."].join("\n");
+    const src = [
+      "### 1. PROGRAM PROFILE",
+      "",
+      "Prose about the prompt version.",
+    ].join("\n");
     expect(stripToolingMetadata(src)).toBe(src);
   });
 });

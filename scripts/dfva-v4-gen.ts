@@ -615,7 +615,7 @@ async function appPanelCModule(): Promise<string> {
     'utf8',
   )
   const referenceCodes = [
-    ...v3.matchAll(/"code": "([a-z0-9-]+)",[\s\S]*?"cohort": "reference"/g),
+    ...v3.matchAll(/"?code"?: "([a-z0-9-]+)",[\s\S]*?"?cohort"?: "reference"/g),
   ]
     .map((m) => m[1])
     .filter((c, i, a) => a.indexOf(c) === i)
@@ -644,7 +644,7 @@ async function appPanelCModule(): Promise<string> {
   // exists". The display name comes from the report markdown's own title, or —
   // where no report is drafted yet — from the cohort manifest that admitted the
   // program. Both are in-repo records of the program's name; neither is a guess.
-  const allV3Codes = new Set([...v3.matchAll(/"code": "([a-z0-9-]+)"/g)].map((m) => m[1]))
+  const allV3Codes = new Set([...v3.matchAll(/"?code"?: "([a-z0-9-]+)"/g)].map((m) => m[1]))
   const cohortNames = await loadCohortNames()
   const xw = loadCrosswalk()
   const v4Only: Record<

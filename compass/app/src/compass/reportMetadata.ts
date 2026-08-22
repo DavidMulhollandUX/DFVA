@@ -29,8 +29,7 @@
  * instead — correct there, because its pages render the position in their own
  * hero.
  */
-const SUPERSEDED_COMPOSITE_LINE =
-  /^\*\*(Current|Target):\*\*\s*\d{1,2}\/36\b/;
+const SUPERSEDED_COMPOSITE_LINE = /^\*\*(Current|Target):\*\*\s*\d{1,2}\/36\b/;
 
 export function stripSupersededCompositeLine(markdown: string): string {
   return markdown
@@ -51,8 +50,7 @@ export function stripSupersededCompositeLine(markdown: string): string {
  * `**Assessment date:**` is deliberately kept: when a program was assessed is
  * real provenance for the reader, and this page shows it nowhere else.
  */
-const TOOLING_METADATA_LINE =
-  /^\*\*(Prompt [Vv]ersion|Source Report):\*\*/;
+const TOOLING_METADATA_LINE = /^\*\*(Prompt [Vv]ersion|Source Report):\*\*/;
 
 export function stripToolingMetadata(markdown: string): string {
   return markdown

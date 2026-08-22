@@ -108,6 +108,36 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
     "nTitles": 14,
     "nMedium": 13
   },
+  "175aa": {
+    "code": "175aa",
+    "name": "Master of Arts and Cultural Management",
+    "hasMarketReport": false,
+    "exposure": 85.86,
+    "entryExposure": 81.76,
+    "jirN": 98,
+    "nTitles": 15,
+    "nMedium": 11
+  },
+  "192aa": {
+    "code": "192aa",
+    "name": "Master of International Tax",
+    "hasMarketReport": false,
+    "exposure": null,
+    "entryExposure": null,
+    "jirN": null,
+    "nTitles": null,
+    "nMedium": null
+  },
+  "195aa": {
+    "code": "195aa",
+    "name": "Master of Construction Law",
+    "hasMarketReport": false,
+    "exposure": 95.64,
+    "entryExposure": 94.68,
+    "jirN": 88,
+    "nTitles": 15,
+    "nMedium": 2
+  },
   "305bb": {
     "code": "305bb",
     "name": "Master of Clinical Audiology",
@@ -597,6 +627,348 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "adversarial": true,
       "mechanical": true,
       "date": "2026-08-19"
+    }
+  },
+  "175aa": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 requires at least one core unit to assess collaborative practice with individual accountability. AMGT90001 (Principles of Arts Management) includes 'A group project and class presentation with individual written component' (30%), assessed with both group and individual accountability. MULT90064 (Arts Management Project) assesses 'capacity for effective teamwork through a group creative project, discussions and collaboration'. Not level 3: the anchor requires coordination across people AND tools/AI systems, which is not documented anywhere. Per one-construct-one-home, the ARTS90024 placement evidence scores in W3.",
+      "evidenceLines": [
+        "A group project and class presentation with individual written component",
+        "2000 words (equivalent)",
+        "End of the teaching period\t30%",
+        "Increased their capacity for effective teamwork through group discussions and collaboration"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2 requires criterion-referenced appraisal of quality in core assessment. MULT90064 (Arts Management Project) includes 'Peer Feedback' (1000 words, Week 12, 10%) — a structured peer review component. AMGT90001 includes 'A group project and class presentation with individual written component' where individual appraisal is part of the grade. Not level 3: the anchor requires students to document and justify reliance decisions (when they relied on or overrode a tool, source or collaborator) or defend judgements of AI-output quality; no such assessment is documented.",
+      "evidenceLines": [
+        "Peer Feedback",
+        "1000 words",
+        "Week 12\t10%"
+      ]
+    },
+    "C3": {
+      "score": 0,
+      "rationale": "Level 0: no digital/AI content appears in any core unit or program-level outcome. The compulsory subjects (AMGT90001, AMGT90004, AMGT90013, AMGT90018, AMGT90029) address arts management, cultural policy, arts operations, economics, and research methods — none address AI or digital tools as core content. The elective MECM90007 (Media Convergence and Digital Culture) is not core. No AI or digital tool content is documented in any core unit's learning outcomes or assessment.",
+      "evidenceLines": [
+        "Compulsory subjects",
+        "62.5 credit points of compulsory subjects"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2 requires at least one core assessment to require application to novel or unfamiliar problems — case variation, unseen datasets, cross-context projects. AMGT90001 (Principles of Arts Management) assessment includes 'A group project and class presentation' and 'A major piece of assessment' addressing issues 'specific to the arts industry' and 'core issues in arts management' with 'case studies' and 'exercises to develop students skills'. AMGT90029 (Applied Research Methods) requires students to 'Design a basic research project for an arts or cultural organisation' — applying methods to an organisation's own context. Not level 3: the anchor requires structured progression toward independent learning with a self-scoped capstone or research project with identification of knowledge gaps and a plan to close them. The thesis capstone stream (AMGT90027/90028) is one of three capstone options (not required), and the ARTS90024 placement is also one of three options.",
+      "evidenceLines": [
+        "Design a basic research project for an arts or cultural organisation",
+        "Use a variety of research methods as problem-solving tools in arts and cultural organisations.",
+        "A group project and class presentation with individual written component"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2 requires students to design and conduct an inquiry with methodology selection and data collection, assessed. AMGT90029 (Applied Research Methods, a compulsory subject) requires students to 'Design a basic research project for an arts or cultural organisation' with a 'Research proposal' (3000 words, 50%). The thesis capstone stream (AMGT90027/90028) requires 'both theoretical inquiry and primary research' and a 12,000-word thesis. Not level 3: the anchor requires a substantial project generating primary evidence to be REQUIRED (not one route among several) with methodology defended under scrutiny (viva, defence). The thesis is one of three capstone options and is not required. The ARTS90024 placement and MULT90064 project are the other two options.",
+      "evidenceLines": [
+        "Design a basic research project for an arts or cultural organisation",
+        "Research proposal",
+        "3000 words",
+        "2 Weeks after the end of teaching\t50%",
+        "The research will incorporate both theoretical inquiry and primary research."
+      ]
+    },
+    "adaptiveness": 6,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 requires at least one core assessment using a recognised professional genre or an audience beyond the teaching team, judged against criteria drawn from professional practice. ARTS90024 (Arts Management Placement, a capstone stream) requires '150 hours of on-site work experience' in 'a professional working environment' with assessment including 'Reflective Journal' and 'Research Report or Essay' (6000 words, 60%) — delivered to and judged by workplace supervisors. MULT90064 (Arts Management Project, another capstone) requires a 'Creative Portfolio' (5000 words equivalent, 50%) and a team project delivered under supervision. AMGT90001 includes 'class presentation' assessed against professional management criteria. Not level 3: the anchor requires professional communication assessed repeatedly and progressively across the program AND at least one core assessment delivered to a real external audience or practitioner. The placement (ARTS90024) is one of three capstone options, not progressive across the program.",
+      "evidenceLines": [
+        "Students will be required to complete 150 hours of on-site work experience to fulfill this component of the subject.",
+        "Reflective Journal, four entries evenly spaced over the semester",
+        "Research Report or Essay",
+        "6000 words",
+        "Creative Portfolio",
+        "5000 words (equivalent)",
+        "During the examination period\t50%"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2 requires at least one core assessment to reproduce a professional task end to end — a real or realistic problem, producing the artefact a practitioner would produce, judged against criteria drawn from practice. AMGT90013 (Arts Operations, compulsory) requires students to 'Prepare a detailed proposal, budget, and project management timeline as part of grant management' and 'Plan and implement operational strategies for arts organisations' — reproducing the work of an arts operations manager. AMGT90001 requires assessment of 'strategic planning' and 'governance' in arts organisations. The capstone streams (ARTS90024 placement, MULT90064 project) involve real or realistic professional practice. Not level 3: the anchor requires such tasks to be the program's assessment spine (capstone plus earlier scaffolding) AND at least one to carry a genuine constraint of practice. The professional-task assessments appear in compulsory subjects but the capstone is one of three options.",
+      "evidenceLines": [
+        "Prepare a detailed proposal, budget, and project management timeline as part of grant management",
+        "Plan and implement operational strategies for arts organisations.",
+        "This capstone subject requires teams of students to work in cross-disciplinary teams to conceive and complete an entrepreneurial arts project over the semester."
+      ]
+    },
+    "W3": {
+      "score": 2,
+      "rationale": "Level 2 requires a core unit to place students in a real workplace or professional-community setting with practitioner supervision and assessment — placement, practicum, live client project. ARTS90024 (Arts Management Placement) is a capstone stream requiring '150 hours of on-site work experience' where students 'gain direct exposure to professional practice' and 'work under the guidance of a senior staff member'. This is a placement with practitioner supervision and assessment. The 'but it is short or stands alone' qualifier at level 2 applies — it is one capstone, not a sequence. Not level 3: the anchor requires substantial required work-situated learning — an extended placement or a sequence, supervised by a practitioner, with accountability to the host and structured reflection. The placement is one of three capstone options (not required), and while it includes reflection, it is not a sequence. Per one-construct-one-home, the placement evidence scores here, not in C1 or C4.",
+      "evidenceLines": [
+        "For the placement component, students will be assisted to find a placement in a professional working environment where they will gain direct exposure to professional practice in their chosen field.",
+        "They will work under the guidance of a senior staff member, with additional support from the subject coordinator.",
+        "Students will be required to complete 150 hours of on-site work experience to fulfill this component of the subject.",
+        "Reflective Journal, four entries evenly spaced over the semester"
+      ]
+    },
+    "workplace": 6,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program documents a coherent specialist core with progressive depth: 62.5 credit points of compulsory subjects (AMGT90001 Principles of Arts Management, AMGT90004 Cultural Policy, AMGT90013 Arts Operations, AMGT90018 The Economics of Culture, AMGT90029 Applied Research Methods) plus a required capstone stream (25-37.5 points). The compulsory subjects build from foundational management through operations, economics, policy and research methods, culminating in a capstone. This is a coherent specialist core with progressive depth.",
+        "evidenceLines": [
+          "Compulsory subjects",
+          "62.5 credit points of compulsory subjects",
+          "Capstone subjects",
+          "25 credit points of Capstone stream 1 or 25 credit points of Capstone stream 2 or 37.5 credit points of Capstone stream 3",
+          "All compulsory and capstone subjects must be completed to be eligible to graduate from the program."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "G2 requires assessments with defended trade-off decisions, or simulations/capstones/live projects with real uncertainty and accountability. The capstone streams involve real uncertainty: ARTS90024 (placement in a professional environment), MULT90064 (entrepreneurial project with 'unstructured and incomplete information'), and AMGT90027/90028 (thesis with methodology defended). AMGT90001 assessment includes 'a test' requiring analysis of 'issues specific to the arts industry' with 'class discussion'. The research proposal (AMGT90029, 50%) requires designing a research project with methodology selection — a defended trade-off decision.",
+        "evidenceLines": [
+          "Students will learn to work with unstructured and incomplete information, develop professional networks and team skills to support the delivery of professional outcomes",
+          "Plan and execute an arts and cultural management research based project, or produce a piece of arts and cultural management-related research scholarship within their area of specialisation.",
+          "Research proposal",
+          "3000 words",
+          "2 Weeks after the end of teaching\t50%"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C4: The thesis capstone (AMGT90027/90028) could support level 3 (self-scoped research project with identified knowledge gaps) but it is one of three optional capstone streams, not required — R2 and the level-3 anchor both require it to be the program's spine, so the lower level (2) is taken.",
+      "C5: Same thesis ambiguity — primary research is documented but the thesis is not required, so level 2 is taken.",
+      "W1/W3: The ARTS90024 placement could support W1 level 3 (external audience judging) but it is one of three capstone options, not repeated progressively across the program — level 2 taken for both."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-22"
+    }
+  },
+  "192aa": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 1,
+      "rationale": "Level 1: collaboration/teamwork appears in graduate attributes — 'Capacity to value and participate in teamwork' and 'Small class sizes and an intensive teaching format are valuable in encouraging group dynamics and teamwork' — but no core unit assesses collaborative practice as a graded component. LAWS70006 assessment is 'Class participation' (10%), 'In-class test' (20%), and 'Take-home examination' (70%) — no group project or collaborative assessment. LAWS70319 has 'Class participation and leading topic discussions' (10%) — individual participation, not collaborative practice. No core unit assesses group projects with individual accountability or interprofessional activity.",
+      "evidenceLines": [
+        "Capacity to value and participate in teamwork",
+        "Small class sizes and an intensive teaching format are valuable in encouraging group dynamics and teamwork."
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1: reflection or self-assessment appears in graduate attributes — 'Ability to investigate, evaluate, synthesise and apply existing knowledge' and 'Well-developed problem solving abilities, characterised by flexibility of approach' — but no core unit assesses criterion-referenced appraisal of quality (peer review, structured critique, portfolio with standards). LAWS70319 assessment includes 'class participation and leading topic discussions' which involves discussion but not criterion-referenced appraisal of quality. LAWS70323 (Foundations of Tax Law) includes a 'Class presentation' (10%) but this is a presentation, not a quality appraisal. Not level 2: no core assessment includes structured peer review, portfolio with standards, or marking against exemplars.",
+      "evidenceLines": [
+        "Ability to investigate, evaluate, synthesise and apply existing knowledge in the relevant area(s) with creativity and initiative",
+        "Well-developed problem solving abilities, characterised by flexibility of approach"
+      ]
+    },
+    "C3": {
+      "score": 0,
+      "rationale": "Level 0: no digital/AI content in any core unit or program-level outcome. The program is Master of International Tax — all core subjects address tax law, tax treaties, transfer pricing, tax policy. No AI or digital tool content appears in any subject's learning outcomes, overview, or assessment. The graduate attribute 'Advanced working skills in the use of new technology' refers to IT infrastructure in the Law Library and Moot Court, not AI or digital tools as curricular content.",
+      "evidenceLines": [
+        "The most advanced IT infrastructure is available to Melbourne Law Masters students in the Law Library, the Moot Court Room, classroom settings and for private study."
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2 requires at least one core assessment requiring application to novel or unfamiliar problems. LAWS70006 (International Tax: Principles, Structure) requires a 'Take-home examination' (4000 words, 70%) covering 'rules for the taxation and avoidance of double tax of residents' foreign income' and 'rules for the taxation of non-residents' Australian source income' — applying principles to unseen problems. LAWS70323 (Foundations of Tax Law) has a 'Written task' (90 minutes, 20%) and 'Written Assignment' (3000 words, 60%) applying tax law to 'a range of commonly encountered circumstances'. LAWS70319 (Tax Policy) has 'In-class task' (1 hour, Day 5, 20%) and 'Take-home examination' (4000 words, 70%) requiring analysis of 'major issues in tax policy'. Not level 3: no self-scoped capstone or research project with identification of knowledge gaps is required (the research paper option in some subjects is one of two options, not required).",
+      "evidenceLines": [
+        "Be able to critically examine, analyse, interpret and assess the effectiveness of Australia's rules for the taxation of inbound and outbound transactions",
+        "Have the cognitive and technical skills to independently examine, research and analyse current and emerging legal issues relating on international taxation",
+        "Be able to critically examine, analyse, interpret and apply the core Australian income tax rules as they apply to a range of commonly encountered circumstances"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2 requires students to design and conduct an inquiry with methodology selection and data collection, assessed. LAWS70323 (Foundations of Tax Law) includes a 'Written Assignment' (3000 words, 60%) requiring independent research and analysis. LAWS70319 (Tax Policy) offers a 'Research paper on a topic approved by the subject coordinator' (5000 words, 70%) — an independent inquiry with methodology. LAWS70009 (Comparative Corporate Tax) offers 'Research paper on a topic approved by the subject coordinator' (6000 words, 100%). Not level 3: the anchor requires a substantial project generating primary evidence to be REQUIRED (not one route among several) with methodology defended under scrutiny (viva, defence). The research paper is always one of two options (the other being a take-home exam), and no viva or defence is documented.",
+      "evidenceLines": [
+        "Option 2: Research paper on a topic approved by the subject coordinator",
+        "6000 words",
+        "17 February 2027\t100%",
+        "Have the cognitive and technical skills to independently examine, research and analyse current and emerging legal issues relating on international taxation"
+      ]
+    },
+    "adaptiveness": 5,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 requires at least one core assessment using a recognised professional genre or an audience beyond the teaching team, judged against criteria drawn from professional practice. LAWS70319 (Tax Policy) requires 'Class participation and leading topic discussions' and an 'In-class task' on 'Day 5' — simulating the professional genre of policy debate. LAWS70006 requires 'oral and written communication skills to articulate and convey complex information regarding international taxation to specialist and non-specialist audiences' — communicating to non-specialist audiences is a professional genre beyond the teaching team. The 'Take-home examination' format itself is a professional legal genre (legal opinion/analysis). Not level 3: the anchor requires professional communication assessed repeatedly and progressively AND at least one core assessment delivered to a real external audience or practitioner. While communication to non-specialist audiences is a stated outcome, no assessment is delivered to an actual external audience.",
+      "evidenceLines": [
+        "Have the oral and written communication skills to articulate and convey complex information regarding international taxation to specialist and non-specialist audiences.",
+        "Have the communicative skills to articulate and express complex information on tax treaties to specialist and non-specialist audiences",
+        "interpret and transmit their knowledge, skills and ideas to specialist and non-specialist audiences"
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Level 1: contextualised or scenario-framed tasks appear, but the artefact produced and the criteria applied remain academic. The 'Take-home examination' in most subjects is a research essay or problem-solving exercise framed around tax scenarios — but it produces an academic essay, not a professional artefact like a tax advice letter, ruling, or policy submission. The 'In-class test' in LAWS70006 (1 hour, Day 5, 20%) and LAWS70319 (1 hour, Day 5, 20%) are scenario-based but assessed academically. Not level 2: no core assessment reproduces a professional task end to end — a real or realistic problem producing the artefact a practitioner would produce, judged against criteria drawn from practice. The research paper is an academic genre, not a professional artefact.",
+      "evidenceLines": [
+        "In-class test",
+        "1 hours",
+        "Day 5\t20%",
+        "Take-home examination",
+        "4000 words",
+        "May: 3 - 6 July 2026 | September: 16 - 19 October 2026\t70%"
+      ]
+    },
+    "W3": {
+      "score": 0,
+      "rationale": "Level 0: no work-integrated learning, placement, practicum, or community-based project appears anywhere in the course structure. The program is 100 credit points of tax law subjects with no placement, internship, or practicum component. LAWS70067 (International Legal Internship) appears in the subject options list but is not a core unit and is listed under 'Further subjects relevant to this course' — it is not required. The program structure is entirely classroom/examination-based.",
+      "evidenceLines": [
+        "Students in the Master of International Tax must complete 100 credit points from the prescribed list.",
+        "LAWS70067\tInternational Legal Internship"
+      ]
+    },
+    "workplace": 3,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program documents a coherent specialist core with progressive depth: 'Foundations of Tax Law' provides grounding, 'International Tax: Principles, Structure' builds the core international tax framework, and subjects like 'Tax Treaties', 'Transfer Pricing', 'Comparative Corporate Tax' and 'Comparative International Tax' provide progressive specialist depth. The program is 'a globally recognised specialist tax qualification' with 'a substantial selection of international and comparative tax subjects'. This is a coherent specialist core with progressive technical depth.",
+        "evidenceLines": [
+          "The international tax program is a globally recognised specialist tax qualification equipping graduates for the practice of taxation law in a rapidly changing economic world.",
+          "Students in the Master of International Tax must complete 100 credit points from the prescribed list.",
+          "Foundations of Tax Law",
+          "International Tax: Principles, Structure"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "G2 requires assessments with defended trade-off decisions, or simulations/capstones/live projects with real uncertainty and accountability. The take-home examinations require analysis of 'the effectiveness of' tax rules — defended trade-off assessments. LAWS70319 (Tax Policy) requires 'Identify and appraise the major issues in tax policy in Australia and critically evaluate tax policy options in Australian and other countries' contexts' — defending positions on policy trade-offs. The 'In-class task' (LAWS70006, Day 5, 20%) requires real-time analysis under time pressure. The research paper option in multiple subjects requires defending a position on a self-selected topic.",
+        "evidenceLines": [
+          "Be able to critically examine, analyse, interpret and assess the effectiveness of Australia's rules for the taxation of inbound and outbound transactions",
+          "Identify and appraise the major issues in tax policy in Australia and critically evaluate tax policy options in Australian and other countries' contexts.",
+          "In-class task",
+          "1 hours",
+          "Day 5\t20%"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1: 'Class participation' (10%) in LAWS70006 could be read as collaborative practice, but it is individual participation in discussion, not a group project with individual accountability — level 1 taken.",
+      "W1: Communication to 'non-specialist audiences' is stated in outcomes and assessed via take-home examination format, but no assessment is delivered to an actual external audience — level 2 taken, not 3.",
+      "W2: The take-home examination scenarios are professionally contextualised, but the artefact is an academic essay, not a professional deliverable — level 1 taken."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-22"
+    }
+  },
+  "195aa": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 1,
+      "rationale": "Level 1: collaboration/teamwork appears in graduate attributes — 'Capacity to value and participate in teamwork' and 'Small class sizes and an intensive teaching format are valuable in encouraging group dynamics and teamwork' — but no core unit assesses collaborative practice as a graded group component. LAWS70112 assessment is 'Written assessment' (15%) plus 'Take-home examination' (85%) or 'Research paper' — no group project. LAWS70270 (Construction Contract Analysis, Drafting) has 'Interim written assessment' (15%) and 'Take-home examination' (85%) — individual work. LAWS70329 (Residential Construction Law) includes 'Class Participation (including group research exercise)' (20%) but this is participation, not a graded group project with individual accountability. Not level 2: no core unit assesses collaborative practice with group projects, individual accountability, or interprofessional activity.",
+      "evidenceLines": [
+        "Capacity to value and participate in teamwork",
+        "Small class sizes and an intensive teaching format are valuable in encouraging group dynamics and teamwork.",
+        "Class Participation (including group research exercise)",
+        "Throughout the teaching period\t20%"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1: reflection and self-assessment appear in graduate attributes — 'Ability to investigate, evaluate, synthesise and apply existing knowledge' and 'Well-developed problem solving abilities, characterised by flexibility of approach' — but no core unit assesses criterion-referenced appraisal of quality (peer review, structured critique, portfolio with standards). Not level 2: no core assessment includes structured peer review or marking against exemplars. The 'Class participation' components in some subjects involve discussion but not criterion-referenced quality appraisal.",
+      "evidenceLines": [
+        "Ability to investigate, evaluate, synthesise and apply existing knowledge in the relevant area(s) with creativity and initiative",
+        "Well-developed problem solving abilities, characterised by flexibility of approach"
+      ]
+    },
+    "C3": {
+      "score": 0,
+      "rationale": "Level 0: no digital/AI content in any core unit or program-level outcome. The program is Master of Construction Law — all core subjects address construction law, contracting, risk, project delivery, dispute resolution. No AI or digital tool content appears in any subject's learning outcomes, overview, or assessment. The graduate attribute 'Advanced working skills in the use of new technology' refers to IT infrastructure in the Law Library and Moot Court, not AI or digital tools as curricular content.",
+      "evidenceLines": [
+        "The most advanced IT infrastructure is available to Melbourne Law Masters students in the Law Library, the Moot Court Room, classroom settings and for private study."
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2 requires at least one core assessment requiring application to novel or unfamiliar problems. LAWS70314 (Principles of Construction Law) includes an 'In-class test' (1 hour, 20%) applying law to unseen hypothetical scenarios. LAWS70112 (Remedies in the Construction Context) requires a 'Take-home examination' (4500 words, 85%) applying remedies law to novel construction disputes. LAWS70149 (Construction Risk) requires 'Take-home examination' (4000 words, 100%) applying risk allocation to unseen scenarios. LAWS70176 (Construction Law) includes 'construction site visits and detailed case studies' and requires analysis of 'the interaction between the technical, commercial and legal aspects'. Not level 3: no self-scoped capstone or research project with identification of knowledge gaps is required (the research paper is one of two options, not required).",
+      "evidenceLines": [
+        "In addition to classroom discussion, students have the opportunity to see principles put into practice through construction site visits and detailed case studies.",
+        "In-class test",
+        "1 hours",
+        "During the teaching period\t20%",
+        "Be familiar with, be able to critically reflect on, and be confident in working across, the interaction points between the technical, commercial and legal aspects of construction procurement"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2 requires students to design and conduct an inquiry with methodology selection and data collection, assessed. LAWS70270 (Construction Contract Analysis, Drafting) requires analysis and drafting of construction contracts — an applied inquiry. Multiple subjects offer 'Research paper on a topic approved by the subject coordinator' (e.g., LAWS70176: 6000 words, 100%; LAWS70112: 6000 words, 85%; LAWS70149: 5000 words, 100%; LAWS70239: 6000 words, 100%) — independent research with methodology selection. Not level 3: the anchor requires a substantial project generating primary evidence to be REQUIRED with methodology defended under scrutiny (viva, defence). The research paper is always one of two options, not required, and no viva or defence is documented.",
+      "evidenceLines": [
+        "Option 2: Research paper on a topic approved by the subject coordinator",
+        "6000 words",
+        "16 September 2026\t100%",
+        "Independently investigate, examine and analyse existing and emerging legal issues relating to construction projects."
+      ]
+    },
+    "adaptiveness": 5,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 requires at least one core assessment using a recognised professional genre or an audience beyond the teaching team, judged against criteria drawn from professional practice. LAWS70270 (Construction Contract Analysis, Drafting) requires 'Interim written assessment' (500 words, 15%) and 'Take-home examination' (4500 words, 85%) — the take-home exam involves drafting and analysing construction contracts, a professional legal genre. LAWS70176 (Construction Law) involves 'construction site visits' and assessment of 'the interaction between the technical, commercial and legal aspects' — judged against professional practice criteria. LAWS70329 (Residential Construction Law) is taught by 'Judge Suzanne Kirton' and 'Dr Matthew Bell (whose PhD was on residential construction regulation)' — assessment criteria drawn from professional practice. Not level 3: the anchor requires professional communication assessed repeatedly and progressively AND at least one core assessment delivered to a real external audience or practitioner. No assessment is delivered to an external audience.",
+      "evidenceLines": [
+        "This subject is designed to develop and enhance students' abilities to draft, analyse and administer construction contracts at an advanced level.",
+        "In addition to classroom discussion, students have the opportunity to see principles put into practice through construction site visits and detailed case studies.",
+        "The subject lecturers are Dr Matthew Bell (whose PhD was on residential construction regulation) and Suzanne Kirton (Judge of the County Court and Vice President of VCAT, with extensive practising experience in residential construction law)."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2 requires at least one core assessment to reproduce a professional task end to end — a real or realistic problem, producing the artefact a practitioner would produce, judged against criteria drawn from practice. LAWS70270 (Construction Contract Analysis, Drafting) requires students to 'analyse and draft construction contracts' and 'take a critical approach to the drafting and risk allocation of each contract' — reproducing the professional task of contract drafting and analysis. LAWS70112 (Remedies in the Construction Context) addresses 'remedies available under many causes of action' — practical legal advice for construction disputes. LAWS70149 (Construction Risk) addresses 'risk and insurance' management — a core professional task. Not level 3: the anchor requires such tasks to be the program's assessment spine (capstone plus earlier scaffolding) AND at least one to carry a genuine constraint of practice. While the subjects are professionally oriented, the assessments are take-home exams and research papers, not live professional deliverables with external constraints.",
+      "evidenceLines": [
+        "This subject is designed to develop and enhance students' abilities to draft, analyse and administer construction contracts at an advanced level.",
+        "Students will be expected to take a critical approach to the drafting and risk allocation of each contract.",
+        "analyse and draft construction contracts",
+        "Practitioners need to be confident in their understanding of the remedies available under many causes of action."
+      ]
+    },
+    "W3": {
+      "score": 0,
+      "rationale": "Level 0: no work-integrated learning, placement, practicum, or community-based project appears anywhere in the course structure. The program is 100 credit points of construction law subjects. LAWS70067 (International Legal Internship) appears in the 'Further subjects related to course' list but is not a core unit and is not required. The program structure is entirely classroom/examination-based with no placement component.",
+      "evidenceLines": [
+        "Students must complete 100 credit points in total.",
+        "LAWS70067\tInternational Legal Internship"
+      ]
+    },
+    "workplace": 4,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program documents a coherent specialist core with progressive depth: foundation subjects (LAWS70176 Construction Law or LAWS70314 Principles of Construction Law), contracting subjects (LAWS70270 Construction Contract Analysis Drafting, LAWS70149 Construction Risk, LAWS70239 Payment Matters), project delivery subjects, dispute avoidance subjects, and a capstone (LAWS70128 Advanced Construction Law). The structure requires 'at least 62.5 credit points from the Construction Law list' — a coherent specialist core with progressive depth from foundations through contracting to capstone.",
+        "evidenceLines": [
+          "Students must complete 100 credit points in total.",
+          "Students with a law degree from a common law jurisdiction must complete at least 87.5 credit points from the prescribed lists. Of those, at least 62.5 credit points must be from the Construction Law list.",
+          "Construction Law - Foundation subjects",
+          "Construction Law - Contracting subjects",
+          "Construction Law - Project delivery subjects",
+          "Construction Law - Dispute avoidance and resolution subjects",
+          "Construction Law - Capstone subject"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "G2 requires assessments with defended trade-off decisions, or simulations/capstones/live projects with real uncertainty and accountability. LAWS70270 (Construction Contract Analysis, Drafting) requires 'a critical approach to the drafting and risk allocation of each contract' — defended trade-off decisions on risk allocation. LAWS70149 (Construction Risk) addresses 'risk allocation in construction contracts and consultancy agreements, and how these are reflected in standard forms' — trade-off analysis. LAWS90229 (Rethinking Construction Contracting Risk) requires students to 'contemplate reform' and 'interrogate whether current construction law, construction contracts and habits and behaviours are adequate and appropriate' — defending positions on reform. The take-home examinations require analysis of hypothetical scenarios with real uncertainty.",
+        "evidenceLines": [
+          "Students will be expected to take a critical approach to the drafting and risk allocation of each contract.",
+          "Philosophies and commercial drivers affecting risk allocation in construction contracts and consultancy agreements, and how these are reflected in standard forms",
+          "The subject encourages students to contemplate reform in the way that the construction industry approaches risk by interrogating whether current construction law, construction contracts and habits and behaviours are adequate and appropriate for the efficient and cost-effective management of risks."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1: 'Class Participation (including group research exercise)' (LAWS70329, 20%) could be level 2 collaborative practice, but a 'group research exercise' within class participation is not a graded group project with individual accountability — level 1 taken.",
+      "W1: Construction site visits (LAWS70176) bring professional context into assessment, but no assessment is delivered to an external audience — level 2 taken, not 3.",
+      "W2: Contract drafting (LAWS70270) reproduces a professional task, but the assessment is a take-home exam, not a live professional deliverable — level 2 taken, not 3."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-22"
     }
   },
   "244cw": {

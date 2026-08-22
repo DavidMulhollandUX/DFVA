@@ -45,9 +45,9 @@ export default function PrivacyPolicyPage() {
                 <strong>Graduate destination data.</strong> If your institution
                 uploads it, we store a job title, employer, graduation year and
                 program code per graduate — no names and no contact details. In
-                a small cohort that combination could still point at one
-                person, so we treat it as sensitive. It informs the assessment
-                for that program only and never appears in a benchmark.
+                a small cohort that combination could still point at one person,
+                so we treat it as sensitive. It informs the assessment for that
+                program only and never appears in a benchmark.
               </li>
               <li>
                 <strong>Usage analytics.</strong> If you accept analytics
@@ -94,7 +94,10 @@ export default function PrivacyPolicyPage() {
               run in Sydney. Some providers are based overseas: OpenAI (which
               processes assessment content), Stripe and our email provider are
               all in the United States. The{" "}
-              <Link to="/trust" className="text-primary underline underline-offset-2">
+              <Link
+                to="/trust"
+                className="text-primary underline underline-offset-2"
+              >
                 Trust page
               </Link>{" "}
               lists every provider and its location, and we update it before
@@ -109,7 +112,10 @@ export default function PrivacyPolicyPage() {
               purposes above, then delete or de-identify it. Data is transmitted
               over encrypted connections and access is restricted to the project
               team. The{" "}
-              <Link to="/trust" className="text-primary underline underline-offset-2">
+              <Link
+                to="/trust"
+                className="text-primary underline underline-offset-2"
+              >
                 Trust page
               </Link>{" "}
               sets out how long we keep each kind of data and the deadlines we
