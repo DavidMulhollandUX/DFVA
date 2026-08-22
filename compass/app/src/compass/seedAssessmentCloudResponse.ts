@@ -94,7 +94,9 @@ export async function seedAssessmentCloudResponse(prismaClient: PrismaClient) {
     },
   });
   if (!existingEvent) {
-    await prismaClient.competitiveEvent.create({ data: ASSESSMENT_CLOUD_EVENT });
+    await prismaClient.competitiveEvent.create({
+      data: ASSESSMENT_CLOUD_EVENT,
+    });
     created++;
     console.log("✓ CompetitiveEvent: Assessment Cloud pillar launch");
   } else {
@@ -112,7 +114,9 @@ export async function seedAssessmentCloudResponse(prismaClient: PrismaClient) {
     }
   }
   console.log(
-    `✓ MarketValidationSignals: ${ASSESSMENT_CLOUD_SIGNALS.length} signals checked (${created - (created > 0 ? 1 : 0)} new, rest deduped)`
+    `✓ MarketValidationSignals: ${
+      ASSESSMENT_CLOUD_SIGNALS.length
+    } signals checked (${created - (created > 0 ? 1 : 0)} new, rest deduped)`,
   );
 
   // 3. MarketWindowSnapshot — upsert pattern
@@ -130,7 +134,9 @@ export async function seedAssessmentCloudResponse(prismaClient: PrismaClient) {
         recommendedActions: MARKET_WINDOW_UPDATE.recommendedActions,
       },
     });
-    console.log(`✓ MarketWindowSnapshot updated to ${MARKET_WINDOW_UPDATE.status}`);
+    console.log(
+      `✓ MarketWindowSnapshot updated to ${MARKET_WINDOW_UPDATE.status}`,
+    );
   } else {
     await prismaClient.marketWindowSnapshot.create({
       data: {
@@ -140,7 +146,9 @@ export async function seedAssessmentCloudResponse(prismaClient: PrismaClient) {
         recommendedActions: MARKET_WINDOW_UPDATE.recommendedActions,
       },
     });
-    console.log(`✓ MarketWindowSnapshot created (${MARKET_WINDOW_UPDATE.status})`);
+    console.log(
+      `✓ MarketWindowSnapshot created (${MARKET_WINDOW_UPDATE.status})`,
+    );
   }
 
   return created;

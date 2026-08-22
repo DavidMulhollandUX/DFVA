@@ -72,7 +72,9 @@ describe("derivations", () => {
     const fac = facultyRows(rows);
     expect(fac.reduce((s, f) => s + f.programs, 0)).toBe(V3_META.total);
     expect(fac.reduce((s, f) => s + f.placed, 0)).toBe(V3_META.placed);
-    expect(fac.every((f) => f.avgAdaptiveness >= 0 && f.avgAdaptiveness <= 15)).toBe(true);
+    expect(
+      fac.every((f) => f.avgAdaptiveness >= 0 && f.avgAdaptiveness <= 15),
+    ).toBe(true);
   });
 
   it("reports the near-threshold count from the exact stability layer", () => {

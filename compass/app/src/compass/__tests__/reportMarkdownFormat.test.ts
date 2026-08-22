@@ -19,9 +19,13 @@ describe("preserveLabelLineBreaks", () => {
   });
 
   it("leaves prose, tables and headings untouched", () => {
-    const src = ["### Private practice", "", "| a | b |", "| --- | --- |", "Plain prose line."].join(
-      "\n",
-    );
+    const src = [
+      "### Private practice",
+      "",
+      "| a | b |",
+      "| --- | --- |",
+      "Plain prose line.",
+    ].join("\n");
     expect(preserveLabelLineBreaks(src)).toBe(src);
   });
 

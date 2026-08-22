@@ -1,6 +1,12 @@
 import { useQuery } from "wasp/client/operations";
 import { getValidationSignals } from "wasp/client/operations";
-import { BarChart3, ExternalLink, TrendingUp, ChevronDown, ChevronUp } from "lucide-react";
+import {
+  BarChart3,
+  ExternalLink,
+  TrendingUp,
+  ChevronDown,
+  ChevronUp,
+} from "lucide-react";
 import { useState } from "react";
 
 /**
@@ -180,8 +186,7 @@ export default function ImpactReportCard() {
               automation exposure, systems thinking, AI literacy, research
               rigour. Lightcast's data answers "what jobs exist?"; DFVA answers
               "is this degree preparing students for them?" The two are
-              complementary, and DFVA's methodology layer is the
-              differentiator.
+              complementary, and DFVA's methodology layer is the differentiator.
             </p>
 
             <p>
@@ -201,12 +206,12 @@ export default function ImpactReportCard() {
                 The competitive window is narrowing.
               </strong>{" "}
               Lightcast was named to TIME's Top WorkTech Companies 2026,
-              confirming their brand strength in the education market.
-              Coursedog has launched an Assessment Cloud with ClassRanked
-              integration. CourseLeaf is expanding analytics. The market is
-              converging on data-driven curriculum decisions — and DFVA's
-              independent, methodology-first approach must establish its
-              position before vendor-integrated analytics become "good enough."
+              confirming their brand strength in the education market. Coursedog
+              has launched an Assessment Cloud with ClassRanked integration.
+              CourseLeaf is expanding analytics. The market is converging on
+              data-driven curriculum decisions — and DFVA's independent,
+              methodology-first approach must establish its position before
+              vendor-integrated analytics become "good enough."
             </p>
 
             <a

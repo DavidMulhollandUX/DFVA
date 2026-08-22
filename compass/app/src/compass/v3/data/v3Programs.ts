@@ -5,7 +5,11 @@
 // v2_panelA_authoritative_aioe.csv. Panel C from v2Programs.ts (unchanged).
 // Regenerate: cd scripts && npx tsx dfva-v3-panela.ts
 
-export type V3Quadrant = "well-positioned" | "comfortable" | "attention" | "sheltered";
+export type V3Quadrant =
+  | "well-positioned"
+  | "comfortable"
+  | "attention"
+  | "sheltered";
 
 export interface V3Destination {
   title: string;
@@ -42,7 +46,13 @@ export interface V3Program {
   /** "reference" = the externally validated 34 the medians derive from. */
   cohort: "reference" | "extension";
   adaptiveness: number;
-  dimensionScores: { D2: number; D3: number; D7: number; B: number; D5: number };
+  dimensionScores: {
+    D2: number;
+    D3: number;
+    D7: number;
+    B: number;
+    D5: number;
+  };
   gateD4: "PASS" | "FAIL";
   gateD6: "PASS" | "FAIL";
   quadrant: V3Quadrant;
@@ -74,10473 +84,8788 @@ export interface V3Meta {
 }
 
 export const V3_META: V3Meta = {
-  "exposureIndexName": "Felten-AIOE",
-  "exposureIndexVintage": "AIOE_DataAppendix.xlsx @ AIOE-Data/AIOE main (n=773, z −2.670…1.528)",
-  "exposureRescaling": "min-max 0-100 over published population",
-  "exposureComputedAt": "2026-08-10",
-  "destinationBasis": "JIR/LiveAlumni alumni titles (all placed programs); JSA HEO not used on this axis",
-  "crosswalkAuthored": "inherited 288-title index + 80 titles mapped Aug 2026 (reconciliation package) + 196 titles mapped for the extension cohort",
-  "perturbation": {
-    "draws": 20000,
-    "pPerturb": 0.1,
-    "items": [
-      "D2",
-      "D3",
-      "D7",
-      "B",
-      "D5"
-    ]
+  exposureIndexName: "Felten-AIOE",
+  exposureIndexVintage:
+    "AIOE_DataAppendix.xlsx @ AIOE-Data/AIOE main (n=773, z −2.670…1.528)",
+  exposureRescaling: "min-max 0-100 over published population",
+  exposureComputedAt: "2026-08-10",
+  destinationBasis:
+    "JIR/LiveAlumni alumni titles (all placed programs); JSA HEO not used on this axis",
+  crosswalkAuthored:
+    "inherited 288-title index + 80 titles mapped Aug 2026 (reconciliation package) + 196 titles mapped for the extension cohort",
+  perturbation: {
+    draws: 20000,
+    pPerturb: 0.1,
+    items: ["D2", "D3", "D7", "B", "D5"],
   },
-  "placed": 37,
-  "referenceCohort": 34,
-  "extensionCohort": 3,
-  "total": 66,
-  "expMedian": 90.9,
-  "adaptMedian": 10,
-  "expRange": [
-    61,
-    97.2
-  ],
-  "v2ExpMedian": 61.8,
-  "v2AdaptMedian": 11
+  placed: 37,
+  referenceCohort: 34,
+  extensionCohort: 3,
+  total: 66,
+  expMedian: 90.9,
+  adaptMedian: 10,
+  expRange: [61, 97.2],
+  v2ExpMedian: 61.8,
+  v2AdaptMedian: 11,
 };
 
 export const V3_PROGRAMS: V3Program[] = [
   {
-    "code": "439fs",
-    "name": "Master of Food Science",
-    "faculty": "Science",
-    "v1Score": 23,
-    "v1Band": "MODERATE RISK",
-    "v2Exposure": 58.5,
-    "v2Quadrant": "sheltered",
-    "exposure": 79.43,
-    "entryExposure": 71.85,
-    "jirN": 50,
-    "coverage": 1,
-    "nTitles": 15,
-    "nMedium": 13,
-    "nInherited": 15,
-    "nNewlyMapped": 0,
-    "nExtension": 0,
-    "matchTier": "exact",
-    "extensionNote": null,
-    "cohort": "reference",
-    "adaptiveness": 9,
-    "dimensionScores": {
-      "D2": 2,
-      "D3": 2,
-      "D7": 2,
-      "B": 2,
-      "D5": 1
+    code: "439fs",
+    name: "Master of Food Science",
+    faculty: "Science",
+    v1Score: 23,
+    v1Band: "MODERATE RISK",
+    v2Exposure: 58.5,
+    v2Quadrant: "sheltered",
+    exposure: 79.43,
+    entryExposure: 71.85,
+    jirN: 50,
+    coverage: 1,
+    nTitles: 15,
+    nMedium: 13,
+    nInherited: 15,
+    nNewlyMapped: 0,
+    nExtension: 0,
+    matchTier: "exact",
+    extensionNote: null,
+    cohort: "reference",
+    adaptiveness: 9,
+    dimensionScores: {
+      D2: 2,
+      D3: 2,
+      D7: 2,
+      B: 2,
+      D5: 1,
     },
-    "gateD4": "PASS",
-    "gateD6": "PASS",
-    "quadrant": "sheltered",
-    "quadrantDist": {
+    gateD4: "PASS",
+    gateD6: "PASS",
+    quadrant: "sheltered",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 0.185,
-      "attention": 0,
-      "sheltered": 0.815
+      comfortable: 0.185,
+      attention: 0,
+      sheltered: 0.815,
     },
-    "modalProb": 0.815,
-    "runnerUpQuadrant": "comfortable",
-    "adaptInterval": [
-      5,
-      12
+    modalProb: 0.815,
+    runnerUpQuadrant: "comfortable",
+    adaptInterval: [5, 12],
+    nearBoundary: true,
+    destinations: [
+      {
+        title: "Laboratory Technician",
+        soc: "19-4099",
+        socTitle: "Life, Physical, and Social Science Technicians, All Other",
+        aioe: 74.33,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Quality Assurance Officer",
+        soc: "19-4011",
+        socTitle: "Agricultural and Food Science Technicians",
+        aioe: 65.89,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Product Development Technologist",
+        soc: "19-1012",
+        socTitle: "Food Scientists and Technologists",
+        aioe: 82.53,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Food Technologist",
+        soc: "19-1012",
+        socTitle: "Food Scientists and Technologists",
+        aioe: 82.53,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Food Analyst",
+        soc: "19-4011",
+        socTitle: "Agricultural and Food Science Technicians",
+        aioe: 65.89,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Research And Development Assistant",
+        soc: "19-4011",
+        socTitle: "Agricultural and Food Science Technicians",
+        aioe: 65.89,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Food Microbiology Analyst",
+        soc: "19-4011",
+        socTitle: "Agricultural and Food Science Technicians",
+        aioe: 65.89,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "New Product Development Technologist",
+        soc: "19-1012",
+        socTitle: "Food Scientists and Technologists",
+        aioe: 82.53,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Research And Development Technologist",
+        soc: "19-1012",
+        socTitle: "Food Scientists and Technologists",
+        aioe: 82.53,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Category Development Analyst",
+        soc: "13-1161",
+        socTitle: "Market Research Analysts and Marketing Specialists",
+        aioe: 97.6,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Nutritionist",
+        soc: "29-1031",
+        socTitle: "Dietitians and Nutritionists",
+        aioe: 95.6,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Quality Assurance Manager",
+        soc: "11-3051",
+        socTitle: "Industrial Production Managers",
+        aioe: 75.72,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Head of Quality Department",
+        soc: "11-3051",
+        socTitle: "Industrial Production Managers",
+        aioe: 75.72,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Head Of Research And Development",
+        soc: "11-9121",
+        socTitle: "Natural Sciences Managers",
+        aioe: 95.24,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Product Development Manager",
+        soc: "11-9041",
+        socTitle: "Engineering Managers",
+        aioe: 83.55,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
     ],
-    "nearBoundary": true,
-    "destinations": [
-      {
-        "title": "Laboratory Technician",
-        "soc": "19-4099",
-        "socTitle": "Life, Physical, and Social Science Technicians, All Other",
-        "aioe": 74.33,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Quality Assurance Officer",
-        "soc": "19-4011",
-        "socTitle": "Agricultural and Food Science Technicians",
-        "aioe": 65.89,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Product Development Technologist",
-        "soc": "19-1012",
-        "socTitle": "Food Scientists and Technologists",
-        "aioe": 82.53,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Food Technologist",
-        "soc": "19-1012",
-        "socTitle": "Food Scientists and Technologists",
-        "aioe": 82.53,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Food Analyst",
-        "soc": "19-4011",
-        "socTitle": "Agricultural and Food Science Technicians",
-        "aioe": 65.89,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Research And Development Assistant",
-        "soc": "19-4011",
-        "socTitle": "Agricultural and Food Science Technicians",
-        "aioe": 65.89,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Food Microbiology Analyst",
-        "soc": "19-4011",
-        "socTitle": "Agricultural and Food Science Technicians",
-        "aioe": 65.89,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "New Product Development Technologist",
-        "soc": "19-1012",
-        "socTitle": "Food Scientists and Technologists",
-        "aioe": 82.53,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Research And Development Technologist",
-        "soc": "19-1012",
-        "socTitle": "Food Scientists and Technologists",
-        "aioe": 82.53,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Category Development Analyst",
-        "soc": "13-1161",
-        "socTitle": "Market Research Analysts and Marketing Specialists",
-        "aioe": 97.6,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Nutritionist",
-        "soc": "29-1031",
-        "socTitle": "Dietitians and Nutritionists",
-        "aioe": 95.6,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Quality Assurance Manager",
-        "soc": "11-3051",
-        "socTitle": "Industrial Production Managers",
-        "aioe": 75.72,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Head of Quality Department",
-        "soc": "11-3051",
-        "socTitle": "Industrial Production Managers",
-        "aioe": 75.72,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Head Of Research And Development",
-        "soc": "11-9121",
-        "socTitle": "Natural Sciences Managers",
-        "aioe": 95.24,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Product Development Manager",
-        "soc": "11-9041",
-        "socTitle": "Engineering Managers",
-        "aioe": 83.55,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      }
-    ]
   },
   {
-    "code": "527cl",
-    "name": "Master of Clinical Psychology",
-    "faculty": "Medicine, Dentistry & Health",
-    "v1Score": 28,
-    "v1Band": "RESILIENT",
-    "v2Exposure": 61.8,
-    "v2Quadrant": "well-positioned",
-    "exposure": 95.57,
-    "entryExposure": 93.63,
-    "jirN": 47,
-    "coverage": 1,
-    "nTitles": 15,
-    "nMedium": 13,
-    "nInherited": 15,
-    "nNewlyMapped": 0,
-    "nExtension": 0,
-    "matchTier": "exact",
-    "extensionNote": null,
-    "cohort": "reference",
-    "adaptiveness": 11,
-    "dimensionScores": {
-      "D2": 2,
-      "D3": 2,
-      "D7": 3,
-      "B": 3,
-      "D5": 1
+    code: "527cl",
+    name: "Master of Clinical Psychology",
+    faculty: "Medicine, Dentistry & Health",
+    v1Score: 28,
+    v1Band: "RESILIENT",
+    v2Exposure: 61.8,
+    v2Quadrant: "well-positioned",
+    exposure: 95.57,
+    entryExposure: 93.63,
+    jirN: 47,
+    coverage: 1,
+    nTitles: 15,
+    nMedium: 13,
+    nInherited: 15,
+    nNewlyMapped: 0,
+    nExtension: 0,
+    matchTier: "exact",
+    extensionNote: null,
+    cohort: "reference",
+    adaptiveness: 11,
+    dimensionScores: {
+      D2: 2,
+      D3: 2,
+      D7: 3,
+      B: 3,
+      D5: 1,
     },
-    "gateD4": "PASS",
-    "gateD6": "PASS",
-    "quadrant": "well-positioned",
-    "quadrantDist": {
+    gateD4: "PASS",
+    gateD6: "PASS",
+    quadrant: "well-positioned",
+    quadrantDist: {
       "well-positioned": 0.981,
-      "comfortable": 0,
-      "attention": 0.019,
-      "sheltered": 0
+      comfortable: 0,
+      attention: 0.019,
+      sheltered: 0,
     },
-    "modalProb": 0.981,
-    "runnerUpQuadrant": "attention",
-    "adaptInterval": [
-      7,
-      13
+    modalProb: 0.981,
+    runnerUpQuadrant: "attention",
+    adaptInterval: [7, 13],
+    nearBoundary: true,
+    destinations: [
+      {
+        title: "Research Assistant",
+        soc: "19-4061",
+        socTitle: "Social Science Research Assistants",
+        aioe: 92.3,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Psychology Research Assistant",
+        soc: "19-4061",
+        socTitle: "Social Science Research Assistants",
+        aioe: 92.3,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Behavioural Research Assistant",
+        soc: "19-4061",
+        socTitle: "Social Science Research Assistants",
+        aioe: 92.3,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Market Research Assistant",
+        soc: "13-1161",
+        socTitle: "Market Research Analysts and Marketing Specialists",
+        aioe: 97.6,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "UX Researcher",
+        soc: "15-1199",
+        socTitle: "Computer Occupations, All Other",
+        aioe: 92.97,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Behavioural Scientist",
+        soc: "19-3099",
+        socTitle: "Social Scientists and Related Workers, All Other",
+        aioe: 95.24,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Research Consultant",
+        soc: "13-1161",
+        socTitle: "Market Research Analysts and Marketing Specialists",
+        aioe: 97.6,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Behavioural Research Executive",
+        soc: "13-1161",
+        socTitle: "Market Research Analysts and Marketing Specialists",
+        aioe: 97.6,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Research Executive",
+        soc: "13-1161",
+        socTitle: "Market Research Analysts and Marketing Specialists",
+        aioe: 97.6,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Customer Insights Consultant",
+        soc: "13-1161",
+        socTitle: "Market Research Analysts and Marketing Specialists",
+        aioe: 97.6,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Behavioural Strategy Consultant",
+        soc: "13-1111",
+        socTitle: "Management Analysts",
+        aioe: 97.73,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Behavioural Strategy Consultant",
+        soc: "13-1111",
+        socTitle: "Management Analysts",
+        aioe: 97.73,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Behavioural Strategy Manager",
+        soc: "13-1111",
+        socTitle: "Management Analysts",
+        aioe: 97.73,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Behavioural Scientist",
+        soc: "19-3099",
+        socTitle: "Social Scientists and Related Workers, All Other",
+        aioe: 95.24,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Researcher",
+        soc: "",
+        socTitle: "unmatched -> imputed",
+        aioe: 91.95,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
     ],
-    "nearBoundary": true,
-    "destinations": [
-      {
-        "title": "Research Assistant",
-        "soc": "19-4061",
-        "socTitle": "Social Science Research Assistants",
-        "aioe": 92.3,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Psychology Research Assistant",
-        "soc": "19-4061",
-        "socTitle": "Social Science Research Assistants",
-        "aioe": 92.3,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Behavioural Research Assistant",
-        "soc": "19-4061",
-        "socTitle": "Social Science Research Assistants",
-        "aioe": 92.3,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Market Research Assistant",
-        "soc": "13-1161",
-        "socTitle": "Market Research Analysts and Marketing Specialists",
-        "aioe": 97.6,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "UX Researcher",
-        "soc": "15-1199",
-        "socTitle": "Computer Occupations, All Other",
-        "aioe": 92.97,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Behavioural Scientist",
-        "soc": "19-3099",
-        "socTitle": "Social Scientists and Related Workers, All Other",
-        "aioe": 95.24,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Research Consultant",
-        "soc": "13-1161",
-        "socTitle": "Market Research Analysts and Marketing Specialists",
-        "aioe": 97.6,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Behavioural Research Executive",
-        "soc": "13-1161",
-        "socTitle": "Market Research Analysts and Marketing Specialists",
-        "aioe": 97.6,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Research Executive",
-        "soc": "13-1161",
-        "socTitle": "Market Research Analysts and Marketing Specialists",
-        "aioe": 97.6,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Customer Insights Consultant",
-        "soc": "13-1161",
-        "socTitle": "Market Research Analysts and Marketing Specialists",
-        "aioe": 97.6,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Behavioural Strategy Consultant",
-        "soc": "13-1111",
-        "socTitle": "Management Analysts",
-        "aioe": 97.73,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Behavioural Strategy Consultant",
-        "soc": "13-1111",
-        "socTitle": "Management Analysts",
-        "aioe": 97.73,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Behavioural Strategy Manager",
-        "soc": "13-1111",
-        "socTitle": "Management Analysts",
-        "aioe": 97.73,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Behavioural Scientist",
-        "soc": "19-3099",
-        "socTitle": "Social Scientists and Related Workers, All Other",
-        "aioe": 95.24,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Researcher",
-        "soc": "",
-        "socTitle": "unmatched -> imputed",
-        "aioe": 91.95,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      }
-    ]
   },
   {
-    "code": "746st",
-    "name": "Master of Engineering Structures",
-    "faculty": "Engineering & IT",
-    "v1Score": 22,
-    "v1Band": "MODERATE RISK",
-    "v2Exposure": 58,
-    "v2Quadrant": "sheltered",
-    "exposure": 91.09,
-    "entryExposure": 91.98,
-    "jirN": 48,
-    "coverage": 1,
-    "nTitles": 15,
-    "nMedium": 4,
-    "nInherited": 2,
-    "nNewlyMapped": 13,
-    "nExtension": 0,
-    "matchTier": "exact",
-    "extensionNote": null,
-    "cohort": "reference",
-    "adaptiveness": 10,
-    "dimensionScores": {
-      "D2": 3,
-      "D3": 3,
-      "D7": 1,
-      "B": 2,
-      "D5": 1
+    code: "746st",
+    name: "Master of Engineering Structures",
+    faculty: "Engineering & IT",
+    v1Score: 22,
+    v1Band: "MODERATE RISK",
+    v2Exposure: 58,
+    v2Quadrant: "sheltered",
+    exposure: 91.09,
+    entryExposure: 91.98,
+    jirN: 48,
+    coverage: 1,
+    nTitles: 15,
+    nMedium: 4,
+    nInherited: 2,
+    nNewlyMapped: 13,
+    nExtension: 0,
+    matchTier: "exact",
+    extensionNote: null,
+    cohort: "reference",
+    adaptiveness: 10,
+    dimensionScores: {
+      D2: 3,
+      D3: 3,
+      D7: 1,
+      B: 2,
+      D5: 1,
     },
-    "gateD4": "PASS",
-    "gateD6": "PASS",
-    "quadrant": "well-positioned",
-    "quadrantDist": {
+    gateD4: "PASS",
+    gateD6: "PASS",
+    quadrant: "well-positioned",
+    quadrantDist: {
       "well-positioned": 0.796,
-      "comfortable": 0,
-      "attention": 0.204,
-      "sheltered": 0
+      comfortable: 0,
+      attention: 0.204,
+      sheltered: 0,
     },
-    "modalProb": 0.796,
-    "runnerUpQuadrant": "attention",
-    "adaptInterval": [
-      7,
-      13
+    modalProb: 0.796,
+    runnerUpQuadrant: "attention",
+    adaptInterval: [7, 13],
+    nearBoundary: true,
+    destinations: [
+      {
+        title: "Graduate Civil Engineer",
+        soc: "17-2051",
+        socTitle: "Civil Engineers",
+        aioe: 94.17,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["entry"],
+      },
+      {
+        title: "Graduate Structural Engineer",
+        soc: "17-2051",
+        socTitle: "Civil Engineers",
+        aioe: 94.17,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["entry"],
+      },
+      {
+        title: "Graduate Engineer",
+        soc: "17-2199",
+        socTitle: "Engineers, All Other",
+        aioe: 82.37,
+        confidence: "medium",
+        crosswalkSource: "new_this_session",
+        stages: ["entry"],
+      },
+      {
+        title: "Graduate Geotechnical Engineer",
+        soc: "17-2051",
+        socTitle: "Civil Engineers",
+        aioe: 94.17,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["entry"],
+      },
+      {
+        title: "Graduate Water Engineer",
+        soc: "17-2051",
+        socTitle: "Civil Engineers",
+        aioe: 94.17,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["entry"],
+      },
+      {
+        title: "Graduate Transport Planner",
+        soc: "19-3051",
+        socTitle: "Urban and Regional Planners",
+        aioe: 92.85,
+        confidence: "medium",
+        crosswalkSource: "new_this_session",
+        stages: ["entry"],
+      },
+      {
+        title: "Civil Engineer",
+        soc: "17-2051",
+        socTitle: "Civil Engineers",
+        aioe: 94.17,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Project Engineer",
+        soc: "17-2199",
+        socTitle: "Engineers, All Other",
+        aioe: 82.37,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Structural Engineer",
+        soc: "17-2051",
+        socTitle: "Civil Engineers",
+        aioe: 94.17,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Geotechnical Engineer",
+        soc: "17-2051",
+        socTitle: "Civil Engineers",
+        aioe: 94.17,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Water Resources Engineer",
+        soc: "17-2051",
+        socTitle: "Civil Engineers",
+        aioe: 94.17,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Structural Design Engineer",
+        soc: "17-2051",
+        socTitle: "Civil Engineers",
+        aioe: 94.17,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Project Manager",
+        soc: "11-9199",
+        socTitle: "Managers, All Other",
+        aioe: 86.59,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Project Manager",
+        soc: "11-9199",
+        socTitle: "Managers, All Other",
+        aioe: 86.59,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Project and Construction Director",
+        soc: "11-9021",
+        socTitle: "Construction Managers",
+        aioe: 88.12,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["senior"],
+      },
     ],
-    "nearBoundary": true,
-    "destinations": [
-      {
-        "title": "Graduate Civil Engineer",
-        "soc": "17-2051",
-        "socTitle": "Civil Engineers",
-        "aioe": 94.17,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Graduate Structural Engineer",
-        "soc": "17-2051",
-        "socTitle": "Civil Engineers",
-        "aioe": 94.17,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Graduate Engineer",
-        "soc": "17-2199",
-        "socTitle": "Engineers, All Other",
-        "aioe": 82.37,
-        "confidence": "medium",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Graduate Geotechnical Engineer",
-        "soc": "17-2051",
-        "socTitle": "Civil Engineers",
-        "aioe": 94.17,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Graduate Water Engineer",
-        "soc": "17-2051",
-        "socTitle": "Civil Engineers",
-        "aioe": 94.17,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Graduate Transport Planner",
-        "soc": "19-3051",
-        "socTitle": "Urban and Regional Planners",
-        "aioe": 92.85,
-        "confidence": "medium",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Civil Engineer",
-        "soc": "17-2051",
-        "socTitle": "Civil Engineers",
-        "aioe": 94.17,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Project Engineer",
-        "soc": "17-2199",
-        "socTitle": "Engineers, All Other",
-        "aioe": 82.37,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Structural Engineer",
-        "soc": "17-2051",
-        "socTitle": "Civil Engineers",
-        "aioe": 94.17,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Geotechnical Engineer",
-        "soc": "17-2051",
-        "socTitle": "Civil Engineers",
-        "aioe": 94.17,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Water Resources Engineer",
-        "soc": "17-2051",
-        "socTitle": "Civil Engineers",
-        "aioe": 94.17,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Structural Design Engineer",
-        "soc": "17-2051",
-        "socTitle": "Civil Engineers",
-        "aioe": 94.17,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Project Manager",
-        "soc": "11-9199",
-        "socTitle": "Managers, All Other",
-        "aioe": 86.59,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Project Manager",
-        "soc": "11-9199",
-        "socTitle": "Managers, All Other",
-        "aioe": 86.59,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Project and Construction Director",
-        "soc": "11-9021",
-        "socTitle": "Construction Managers",
-        "aioe": 88.12,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "senior"
-        ]
-      }
-    ]
   },
   {
-    "code": "mc-apbusa",
-    "name": "Master of Applied Business Analytics",
-    "faculty": "Business & Economics",
-    "v1Score": 22,
-    "v1Band": "MODERATE RISK",
-    "v2Exposure": 67.4,
-    "v2Quadrant": "well-positioned",
-    "exposure": 90.73,
-    "entryExposure": 89.56,
-    "jirN": 655,
-    "coverage": 1,
-    "nTitles": 13,
-    "nMedium": 7,
-    "nInherited": 7,
-    "nNewlyMapped": 6,
-    "nExtension": 0,
-    "matchTier": "exact",
-    "extensionNote": null,
-    "cohort": "reference",
-    "adaptiveness": 12,
-    "dimensionScores": {
-      "D2": 2,
-      "D3": 3,
-      "D7": 2,
-      "B": 2,
-      "D5": 3
+    code: "mc-apbusa",
+    name: "Master of Applied Business Analytics",
+    faculty: "Business & Economics",
+    v1Score: 22,
+    v1Band: "MODERATE RISK",
+    v2Exposure: 67.4,
+    v2Quadrant: "well-positioned",
+    exposure: 90.73,
+    entryExposure: 89.56,
+    jirN: 655,
+    coverage: 1,
+    nTitles: 13,
+    nMedium: 7,
+    nInherited: 7,
+    nNewlyMapped: 6,
+    nExtension: 0,
+    matchTier: "exact",
+    extensionNote: null,
+    cohort: "reference",
+    adaptiveness: 12,
+    dimensionScores: {
+      D2: 2,
+      D3: 3,
+      D7: 2,
+      B: 2,
+      D5: 3,
     },
-    "gateD4": "PASS",
-    "gateD6": "PASS",
-    "quadrant": "comfortable",
-    "quadrantDist": {
+    gateD4: "PASS",
+    gateD6: "PASS",
+    quadrant: "comfortable",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 0.999,
-      "attention": 0,
-      "sheltered": 0.001
+      comfortable: 0.999,
+      attention: 0,
+      sheltered: 0.001,
     },
-    "modalProb": 0.999,
-    "runnerUpQuadrant": "sheltered",
-    "adaptInterval": [
-      9,
-      15
+    modalProb: 0.999,
+    runnerUpQuadrant: "sheltered",
+    adaptInterval: [9, 15],
+    nearBoundary: true,
+    destinations: [
+      {
+        title: "Business Analyst",
+        soc: "13-1111",
+        socTitle: "Management Analysts",
+        aioe: 97.73,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Project Coordinator",
+        soc: "13-1199",
+        socTitle: "Business Operations Specialists, All Other",
+        aioe: 88.56,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Assistant Manager",
+        soc: "11-1021",
+        socTitle: "General and Operations Managers",
+        aioe: 77.3,
+        confidence: "medium",
+        crosswalkSource: "new_this_session",
+        stages: ["entry"],
+      },
+      {
+        title: "Account Manager",
+        soc: "41-3099",
+        socTitle: "Sales Representatives, Services, All Other",
+        aioe: 94.64,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["entry"],
+      },
+      {
+        title: "Management Consultant",
+        soc: "13-1111",
+        socTitle: "Management Analysts",
+        aioe: 97.73,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Consultant",
+        soc: "13-1111",
+        socTitle: "Management Analysts",
+        aioe: 97.73,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Project Manager",
+        soc: "11-9199",
+        socTitle: "Managers, All Other",
+        aioe: 86.59,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Business Development Manager",
+        soc: "11-2022",
+        socTitle: "Sales Managers",
+        aioe: 93.77,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Human Resources Manager",
+        soc: "11-3121",
+        socTitle: "Human Resources Managers",
+        aioe: 95.06,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Finance Manager",
+        soc: "11-3031",
+        socTitle: "Financial Managers",
+        aioe: 98.06,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Senior Consultant",
+        soc: "13-1111",
+        socTitle: "Management Analysts",
+        aioe: 97.73,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Director Of Operations",
+        soc: "11-1021",
+        socTitle: "General and Operations Managers",
+        aioe: 77.3,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["senior"],
+      },
+      {
+        title: "Managing Director",
+        soc: "11-1021",
+        socTitle: "General and Operations Managers",
+        aioe: 77.3,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["senior"],
+      },
     ],
-    "nearBoundary": true,
-    "destinations": [
-      {
-        "title": "Business Analyst",
-        "soc": "13-1111",
-        "socTitle": "Management Analysts",
-        "aioe": 97.73,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Project Coordinator",
-        "soc": "13-1199",
-        "socTitle": "Business Operations Specialists, All Other",
-        "aioe": 88.56,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Assistant Manager",
-        "soc": "11-1021",
-        "socTitle": "General and Operations Managers",
-        "aioe": 77.3,
-        "confidence": "medium",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Account Manager",
-        "soc": "41-3099",
-        "socTitle": "Sales Representatives, Services, All Other",
-        "aioe": 94.64,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Management Consultant",
-        "soc": "13-1111",
-        "socTitle": "Management Analysts",
-        "aioe": 97.73,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Consultant",
-        "soc": "13-1111",
-        "socTitle": "Management Analysts",
-        "aioe": 97.73,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Project Manager",
-        "soc": "11-9199",
-        "socTitle": "Managers, All Other",
-        "aioe": 86.59,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Business Development Manager",
-        "soc": "11-2022",
-        "socTitle": "Sales Managers",
-        "aioe": 93.77,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Human Resources Manager",
-        "soc": "11-3121",
-        "socTitle": "Human Resources Managers",
-        "aioe": 95.06,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Finance Manager",
-        "soc": "11-3031",
-        "socTitle": "Financial Managers",
-        "aioe": 98.06,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Senior Consultant",
-        "soc": "13-1111",
-        "socTitle": "Management Analysts",
-        "aioe": 97.73,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Director Of Operations",
-        "soc": "11-1021",
-        "socTitle": "General and Operations Managers",
-        "aioe": 77.3,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Managing Director",
-        "soc": "11-1021",
-        "socTitle": "General and Operations Managers",
-        "aioe": 77.3,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "senior"
-        ]
-      }
-    ]
   },
   {
-    "code": "mc-arch",
-    "name": "Master of Architecture",
-    "faculty": "Architecture, Building & Planning",
-    "v1Score": 29,
-    "v1Band": "RESILIENT",
-    "v2Exposure": 60.9,
-    "v2Quadrant": "comfortable",
-    "exposure": 87.99,
-    "entryExposure": 87.08,
-    "jirN": 621,
-    "coverage": 1,
-    "nTitles": 15,
-    "nMedium": 7,
-    "nInherited": 15,
-    "nNewlyMapped": 0,
-    "nExtension": 0,
-    "matchTier": "exact",
-    "extensionNote": null,
-    "cohort": "reference",
-    "adaptiveness": 13,
-    "dimensionScores": {
-      "D2": 3,
-      "D3": 3,
-      "D7": 3,
-      "B": 3,
-      "D5": 1
+    code: "mc-arch",
+    name: "Master of Architecture",
+    faculty: "Architecture, Building & Planning",
+    v1Score: 29,
+    v1Band: "RESILIENT",
+    v2Exposure: 60.9,
+    v2Quadrant: "comfortable",
+    exposure: 87.99,
+    entryExposure: 87.08,
+    jirN: 621,
+    coverage: 1,
+    nTitles: 15,
+    nMedium: 7,
+    nInherited: 15,
+    nNewlyMapped: 0,
+    nExtension: 0,
+    matchTier: "exact",
+    extensionNote: null,
+    cohort: "reference",
+    adaptiveness: 13,
+    dimensionScores: {
+      D2: 3,
+      D3: 3,
+      D7: 3,
+      B: 3,
+      D5: 1,
     },
-    "gateD4": "PASS",
-    "gateD6": "PASS",
-    "quadrant": "comfortable",
-    "quadrantDist": {
+    gateD4: "PASS",
+    gateD6: "PASS",
+    quadrant: "comfortable",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 1,
-      "attention": 0,
-      "sheltered": 0
+      comfortable: 1,
+      attention: 0,
+      sheltered: 0,
     },
-    "modalProb": 1,
-    "runnerUpQuadrant": null,
-    "adaptInterval": [
-      10,
-      14
+    modalProb: 1,
+    runnerUpQuadrant: null,
+    adaptInterval: [10, 14],
+    nearBoundary: false,
+    destinations: [
+      {
+        title: "Architecture Graduate",
+        soc: "17-1011",
+        socTitle: "Architects, Except Landscape and Naval",
+        aioe: 88.55,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Architectural Assistant",
+        soc: "17-3011",
+        socTitle: "Architectural and Civil Drafters",
+        aioe: 85.6,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Architectural Designer",
+        soc: "17-1011",
+        socTitle: "Architects, Except Landscape and Naval",
+        aioe: 88.55,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Architectural Draftsperson",
+        soc: "17-3011",
+        socTitle: "Architectural and Civil Drafters",
+        aioe: 85.6,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Architectural Technician",
+        soc: "17-3011",
+        socTitle: "Architectural and Civil Drafters",
+        aioe: 85.6,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Project Coordinator",
+        soc: "13-1199",
+        socTitle: "Business Operations Specialists, All Other",
+        aioe: 88.56,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Architect",
+        soc: "17-1011",
+        socTitle: "Architects, Except Landscape and Naval",
+        aioe: 88.55,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Project Architect",
+        soc: "17-1011",
+        socTitle: "Architects, Except Landscape and Naval",
+        aioe: 88.55,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Interior Architect",
+        soc: "27-1025",
+        socTitle: "Interior Designers",
+        aioe: 90.33,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Urban Designer",
+        soc: "19-3051",
+        socTitle: "Urban and Regional Planners",
+        aioe: 92.85,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Design Manager",
+        soc: "11-9041",
+        socTitle: "Engineering Managers",
+        aioe: 83.55,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Senior Architect",
+        soc: "17-1011",
+        socTitle: "Architects, Except Landscape and Naval",
+        aioe: 88.55,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Registered Architect",
+        soc: "17-1011",
+        socTitle: "Architects, Except Landscape and Naval",
+        aioe: 88.55,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Principal Architect",
+        soc: "17-1011",
+        socTitle: "Architects, Except Landscape and Naval",
+        aioe: 88.55,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Design Director",
+        soc: "27-1011",
+        socTitle: "Art Directors",
+        aioe: 87.97,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
     ],
-    "nearBoundary": false,
-    "destinations": [
-      {
-        "title": "Architecture Graduate",
-        "soc": "17-1011",
-        "socTitle": "Architects, Except Landscape and Naval",
-        "aioe": 88.55,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Architectural Assistant",
-        "soc": "17-3011",
-        "socTitle": "Architectural and Civil Drafters",
-        "aioe": 85.6,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Architectural Designer",
-        "soc": "17-1011",
-        "socTitle": "Architects, Except Landscape and Naval",
-        "aioe": 88.55,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Architectural Draftsperson",
-        "soc": "17-3011",
-        "socTitle": "Architectural and Civil Drafters",
-        "aioe": 85.6,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Architectural Technician",
-        "soc": "17-3011",
-        "socTitle": "Architectural and Civil Drafters",
-        "aioe": 85.6,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Project Coordinator",
-        "soc": "13-1199",
-        "socTitle": "Business Operations Specialists, All Other",
-        "aioe": 88.56,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Architect",
-        "soc": "17-1011",
-        "socTitle": "Architects, Except Landscape and Naval",
-        "aioe": 88.55,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Project Architect",
-        "soc": "17-1011",
-        "socTitle": "Architects, Except Landscape and Naval",
-        "aioe": 88.55,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Interior Architect",
-        "soc": "27-1025",
-        "socTitle": "Interior Designers",
-        "aioe": 90.33,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Urban Designer",
-        "soc": "19-3051",
-        "socTitle": "Urban and Regional Planners",
-        "aioe": 92.85,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Design Manager",
-        "soc": "11-9041",
-        "socTitle": "Engineering Managers",
-        "aioe": 83.55,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Senior Architect",
-        "soc": "17-1011",
-        "socTitle": "Architects, Except Landscape and Naval",
-        "aioe": 88.55,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Registered Architect",
-        "soc": "17-1011",
-        "socTitle": "Architects, Except Landscape and Naval",
-        "aioe": 88.55,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Principal Architect",
-        "soc": "17-1011",
-        "socTitle": "Architects, Except Landscape and Naval",
-        "aioe": 88.55,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Design Director",
-        "soc": "27-1011",
-        "socTitle": "Art Directors",
-        "aioe": 87.97,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      }
-    ]
   },
   {
-    "code": "mc-ba",
-    "name": "Master of Business Administration",
-    "faculty": "Business & Economics",
-    "v1Score": 25,
-    "v1Band": "MODERATE RISK",
-    "v2Exposure": 65.1,
-    "v2Quadrant": "well-positioned",
-    "exposure": 91.73,
-    "entryExposure": 95.09,
-    "jirN": 422,
-    "coverage": 1,
-    "nTitles": 15,
-    "nMedium": 9,
-    "nInherited": 15,
-    "nNewlyMapped": 0,
-    "nExtension": 0,
-    "matchTier": "exact",
-    "extensionNote": null,
-    "cohort": "reference",
-    "adaptiveness": 11,
-    "dimensionScores": {
-      "D2": 2,
-      "D3": 2,
-      "D7": 1,
-      "B": 3,
-      "D5": 3
+    code: "mc-ba",
+    name: "Master of Business Administration",
+    faculty: "Business & Economics",
+    v1Score: 25,
+    v1Band: "MODERATE RISK",
+    v2Exposure: 65.1,
+    v2Quadrant: "well-positioned",
+    exposure: 91.73,
+    entryExposure: 95.09,
+    jirN: 422,
+    coverage: 1,
+    nTitles: 15,
+    nMedium: 9,
+    nInherited: 15,
+    nNewlyMapped: 0,
+    nExtension: 0,
+    matchTier: "exact",
+    extensionNote: null,
+    cohort: "reference",
+    adaptiveness: 11,
+    dimensionScores: {
+      D2: 2,
+      D3: 2,
+      D7: 1,
+      B: 3,
+      D5: 3,
     },
-    "gateD4": "PASS",
-    "gateD6": "PASS",
-    "quadrant": "well-positioned",
-    "quadrantDist": {
+    gateD4: "PASS",
+    gateD6: "PASS",
+    quadrant: "well-positioned",
+    quadrantDist: {
       "well-positioned": 0.98,
-      "comfortable": 0,
-      "attention": 0.02,
-      "sheltered": 0
+      comfortable: 0,
+      attention: 0.02,
+      sheltered: 0,
     },
-    "modalProb": 0.98,
-    "runnerUpQuadrant": "attention",
-    "adaptInterval": [
-      8,
-      14
+    modalProb: 0.98,
+    runnerUpQuadrant: "attention",
+    adaptInterval: [8, 14],
+    nearBoundary: true,
+    destinations: [
+      {
+        title: "Business Analyst",
+        soc: "13-1111",
+        socTitle: "Management Analysts",
+        aioe: 97.73,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Consultant",
+        soc: "13-1111",
+        socTitle: "Management Analysts",
+        aioe: 97.73,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Management Consultant",
+        soc: "13-1111",
+        socTitle: "Management Analysts",
+        aioe: 97.73,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Project Officer",
+        soc: "13-1199",
+        socTitle: "Business Operations Specialists, All Other",
+        aioe: 88.56,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Financial Analyst",
+        soc: "13-2051",
+        socTitle: "Financial Analysts",
+        aioe: 96.5,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Research Assistant",
+        soc: "19-4061",
+        socTitle: "Social Science Research Assistants",
+        aioe: 92.3,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Project Manager",
+        soc: "11-9199",
+        socTitle: "Managers, All Other",
+        aioe: 86.59,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Business Development Manager",
+        soc: "11-2022",
+        socTitle: "Sales Managers",
+        aioe: 93.77,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Operations Manager",
+        soc: "11-1021",
+        socTitle: "General and Operations Managers",
+        aioe: 77.3,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Senior Business Analyst",
+        soc: "13-1111",
+        socTitle: "Management Analysts",
+        aioe: 97.73,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Program Manager",
+        soc: "11-9199",
+        socTitle: "Managers, All Other",
+        aioe: 86.59,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "General Manager",
+        soc: "11-1021",
+        socTitle: "General and Operations Managers",
+        aioe: 77.3,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Director",
+        soc: "11-1011",
+        socTitle: "Chief Executives",
+        aioe: 95.39,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Chief Operating Officer",
+        soc: "11-1011",
+        socTitle: "Chief Executives",
+        aioe: 95.39,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Chief Executive Officer",
+        soc: "11-1011",
+        socTitle: "Chief Executives",
+        aioe: 95.39,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
     ],
-    "nearBoundary": true,
-    "destinations": [
-      {
-        "title": "Business Analyst",
-        "soc": "13-1111",
-        "socTitle": "Management Analysts",
-        "aioe": 97.73,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Consultant",
-        "soc": "13-1111",
-        "socTitle": "Management Analysts",
-        "aioe": 97.73,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Management Consultant",
-        "soc": "13-1111",
-        "socTitle": "Management Analysts",
-        "aioe": 97.73,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Project Officer",
-        "soc": "13-1199",
-        "socTitle": "Business Operations Specialists, All Other",
-        "aioe": 88.56,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Financial Analyst",
-        "soc": "13-2051",
-        "socTitle": "Financial Analysts",
-        "aioe": 96.5,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Research Assistant",
-        "soc": "19-4061",
-        "socTitle": "Social Science Research Assistants",
-        "aioe": 92.3,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Project Manager",
-        "soc": "11-9199",
-        "socTitle": "Managers, All Other",
-        "aioe": 86.59,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Business Development Manager",
-        "soc": "11-2022",
-        "socTitle": "Sales Managers",
-        "aioe": 93.77,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Operations Manager",
-        "soc": "11-1021",
-        "socTitle": "General and Operations Managers",
-        "aioe": 77.3,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Senior Business Analyst",
-        "soc": "13-1111",
-        "socTitle": "Management Analysts",
-        "aioe": 97.73,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Program Manager",
-        "soc": "11-9199",
-        "socTitle": "Managers, All Other",
-        "aioe": 86.59,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "General Manager",
-        "soc": "11-1021",
-        "socTitle": "General and Operations Managers",
-        "aioe": 77.3,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Director",
-        "soc": "11-1011",
-        "socTitle": "Chief Executives",
-        "aioe": 95.39,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Chief Operating Officer",
-        "soc": "11-1011",
-        "socTitle": "Chief Executives",
-        "aioe": 95.39,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Chief Executive Officer",
-        "soc": "11-1011",
-        "socTitle": "Chief Executives",
-        "aioe": 95.39,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      }
-    ]
   },
   {
-    "code": "mc-base",
-    "name": "Master of Advanced Social Enterprise",
-    "faculty": "Business & Economics",
-    "v1Score": 20,
-    "v1Band": "MODERATE RISK",
-    "v2Exposure": 62.5,
-    "v2Quadrant": "attention",
-    "exposure": 96.05,
-    "entryExposure": 95.96,
-    "jirN": 66,
-    "coverage": 1,
-    "nTitles": 13,
-    "nMedium": 13,
-    "nInherited": 13,
-    "nNewlyMapped": 0,
-    "nExtension": 0,
-    "matchTier": "exact",
-    "extensionNote": null,
-    "cohort": "reference",
-    "adaptiveness": 6,
-    "dimensionScores": {
-      "D2": 2,
-      "D3": 1,
-      "D7": 1,
-      "B": 1,
-      "D5": 1
+    code: "mc-base",
+    name: "Master of Advanced Social Enterprise",
+    faculty: "Business & Economics",
+    v1Score: 20,
+    v1Band: "MODERATE RISK",
+    v2Exposure: 62.5,
+    v2Quadrant: "attention",
+    exposure: 96.05,
+    entryExposure: 95.96,
+    jirN: 66,
+    coverage: 1,
+    nTitles: 13,
+    nMedium: 13,
+    nInherited: 13,
+    nNewlyMapped: 0,
+    nExtension: 0,
+    matchTier: "exact",
+    extensionNote: null,
+    cohort: "reference",
+    adaptiveness: 6,
+    dimensionScores: {
+      D2: 2,
+      D3: 1,
+      D7: 1,
+      B: 1,
+      D5: 1,
     },
-    "gateD4": "PASS",
-    "gateD6": "PASS",
-    "quadrant": "attention",
-    "quadrantDist": {
+    gateD4: "PASS",
+    gateD6: "PASS",
+    quadrant: "attention",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 0,
-      "attention": 1,
-      "sheltered": 0
+      comfortable: 0,
+      attention: 1,
+      sheltered: 0,
     },
-    "modalProb": 1,
-    "runnerUpQuadrant": null,
-    "adaptInterval": [
-      2,
-      9
+    modalProb: 1,
+    runnerUpQuadrant: null,
+    adaptInterval: [2, 9],
+    nearBoundary: false,
+    destinations: [
+      {
+        title: "Policy Officer",
+        soc: "19-3094",
+        socTitle: "Political Scientists",
+        aioe: 97.41,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Policy and Program Officer",
+        soc: "19-3094",
+        socTitle: "Political Scientists",
+        aioe: 97.41,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Graduate Policy and Advocacy Officer",
+        soc: "19-3094",
+        socTitle: "Political Scientists",
+        aioe: 97.41,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Social Policy Officer",
+        soc: "19-3094",
+        socTitle: "Political Scientists",
+        aioe: 97.41,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Research Assistant",
+        soc: "19-4061",
+        socTitle: "Social Science Research Assistants",
+        aioe: 92.3,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Research Officer",
+        soc: "19-4061",
+        socTitle: "Social Science Research Assistants",
+        aioe: 92.3,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Graduate Analyst",
+        soc: "13-1111",
+        socTitle: "Management Analysts",
+        aioe: 97.73,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Project Officer, Social Policy",
+        soc: "19-3094",
+        socTitle: "Political Scientists",
+        aioe: 97.41,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Communications & Policy Officer",
+        soc: "27-3031",
+        socTitle: "Public Relations Specialists",
+        aioe: 94.22,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Policy Adviser",
+        soc: "19-3094",
+        socTitle: "Political Scientists",
+        aioe: 97.41,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Policy Analyst",
+        soc: "19-3094",
+        socTitle: "Political Scientists",
+        aioe: 97.41,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Social Planning Officer",
+        soc: "19-3051",
+        socTitle: "Urban and Regional Planners",
+        aioe: 92.85,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Senior Policy Officer",
+        soc: "19-3094",
+        socTitle: "Political Scientists",
+        aioe: 97.41,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
     ],
-    "nearBoundary": false,
-    "destinations": [
-      {
-        "title": "Policy Officer",
-        "soc": "19-3094",
-        "socTitle": "Political Scientists",
-        "aioe": 97.41,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Policy and Program Officer",
-        "soc": "19-3094",
-        "socTitle": "Political Scientists",
-        "aioe": 97.41,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Graduate Policy and Advocacy Officer",
-        "soc": "19-3094",
-        "socTitle": "Political Scientists",
-        "aioe": 97.41,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Social Policy Officer",
-        "soc": "19-3094",
-        "socTitle": "Political Scientists",
-        "aioe": 97.41,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Research Assistant",
-        "soc": "19-4061",
-        "socTitle": "Social Science Research Assistants",
-        "aioe": 92.3,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Research Officer",
-        "soc": "19-4061",
-        "socTitle": "Social Science Research Assistants",
-        "aioe": 92.3,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Graduate Analyst",
-        "soc": "13-1111",
-        "socTitle": "Management Analysts",
-        "aioe": 97.73,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Project Officer, Social Policy",
-        "soc": "19-3094",
-        "socTitle": "Political Scientists",
-        "aioe": 97.41,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Communications & Policy Officer",
-        "soc": "27-3031",
-        "socTitle": "Public Relations Specialists",
-        "aioe": 94.22,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Policy Adviser",
-        "soc": "19-3094",
-        "socTitle": "Political Scientists",
-        "aioe": 97.41,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Policy Analyst",
-        "soc": "19-3094",
-        "socTitle": "Political Scientists",
-        "aioe": 97.41,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Social Planning Officer",
-        "soc": "19-3051",
-        "socTitle": "Urban and Regional Planners",
-        "aioe": 92.85,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Senior Policy Officer",
-        "soc": "19-3094",
-        "socTitle": "Political Scientists",
-        "aioe": 97.41,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      }
-    ]
   },
   {
-    "code": "mc-busana",
-    "name": "Master of Business Analytics",
-    "faculty": "Business & Economics",
-    "v1Score": 30,
-    "v1Band": "RESILIENT",
-    "v2Exposure": 67.4,
-    "v2Quadrant": "well-positioned",
-    "exposure": 90.73,
-    "entryExposure": 89.56,
-    "jirN": 655,
-    "coverage": 1,
-    "nTitles": 13,
-    "nMedium": 7,
-    "nInherited": 7,
-    "nNewlyMapped": 6,
-    "nExtension": 0,
-    "matchTier": "exact",
-    "extensionNote": null,
-    "cohort": "reference",
-    "adaptiveness": 14,
-    "dimensionScores": {
-      "D2": 3,
-      "D3": 3,
-      "D7": 2,
-      "B": 3,
-      "D5": 3
+    code: "mc-busana",
+    name: "Master of Business Analytics",
+    faculty: "Business & Economics",
+    v1Score: 30,
+    v1Band: "RESILIENT",
+    v2Exposure: 67.4,
+    v2Quadrant: "well-positioned",
+    exposure: 90.73,
+    entryExposure: 89.56,
+    jirN: 655,
+    coverage: 1,
+    nTitles: 13,
+    nMedium: 7,
+    nInherited: 7,
+    nNewlyMapped: 6,
+    nExtension: 0,
+    matchTier: "exact",
+    extensionNote: null,
+    cohort: "reference",
+    adaptiveness: 14,
+    dimensionScores: {
+      D2: 3,
+      D3: 3,
+      D7: 2,
+      B: 3,
+      D5: 3,
     },
-    "gateD4": "PASS",
-    "gateD6": "PASS",
-    "quadrant": "comfortable",
-    "quadrantDist": {
+    gateD4: "PASS",
+    gateD6: "PASS",
+    quadrant: "comfortable",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 1,
-      "attention": 0,
-      "sheltered": 0
+      comfortable: 1,
+      attention: 0,
+      sheltered: 0,
     },
-    "modalProb": 1,
-    "runnerUpQuadrant": null,
-    "adaptInterval": [
-      11,
-      15
+    modalProb: 1,
+    runnerUpQuadrant: null,
+    adaptInterval: [11, 15],
+    nearBoundary: true,
+    destinations: [
+      {
+        title: "Business Analyst",
+        soc: "13-1111",
+        socTitle: "Management Analysts",
+        aioe: 97.73,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Project Coordinator",
+        soc: "13-1199",
+        socTitle: "Business Operations Specialists, All Other",
+        aioe: 88.56,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Assistant Manager",
+        soc: "11-1021",
+        socTitle: "General and Operations Managers",
+        aioe: 77.3,
+        confidence: "medium",
+        crosswalkSource: "new_this_session",
+        stages: ["entry"],
+      },
+      {
+        title: "Account Manager",
+        soc: "41-3099",
+        socTitle: "Sales Representatives, Services, All Other",
+        aioe: 94.64,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["entry"],
+      },
+      {
+        title: "Management Consultant",
+        soc: "13-1111",
+        socTitle: "Management Analysts",
+        aioe: 97.73,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Consultant",
+        soc: "13-1111",
+        socTitle: "Management Analysts",
+        aioe: 97.73,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Project Manager",
+        soc: "11-9199",
+        socTitle: "Managers, All Other",
+        aioe: 86.59,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Business Development Manager",
+        soc: "11-2022",
+        socTitle: "Sales Managers",
+        aioe: 93.77,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Human Resources Manager",
+        soc: "11-3121",
+        socTitle: "Human Resources Managers",
+        aioe: 95.06,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Finance Manager",
+        soc: "11-3031",
+        socTitle: "Financial Managers",
+        aioe: 98.06,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Senior Consultant",
+        soc: "13-1111",
+        socTitle: "Management Analysts",
+        aioe: 97.73,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Director Of Operations",
+        soc: "11-1021",
+        socTitle: "General and Operations Managers",
+        aioe: 77.3,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["senior"],
+      },
+      {
+        title: "Managing Director",
+        soc: "11-1021",
+        socTitle: "General and Operations Managers",
+        aioe: 77.3,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["senior"],
+      },
     ],
-    "nearBoundary": true,
-    "destinations": [
-      {
-        "title": "Business Analyst",
-        "soc": "13-1111",
-        "socTitle": "Management Analysts",
-        "aioe": 97.73,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Project Coordinator",
-        "soc": "13-1199",
-        "socTitle": "Business Operations Specialists, All Other",
-        "aioe": 88.56,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Assistant Manager",
-        "soc": "11-1021",
-        "socTitle": "General and Operations Managers",
-        "aioe": 77.3,
-        "confidence": "medium",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Account Manager",
-        "soc": "41-3099",
-        "socTitle": "Sales Representatives, Services, All Other",
-        "aioe": 94.64,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Management Consultant",
-        "soc": "13-1111",
-        "socTitle": "Management Analysts",
-        "aioe": 97.73,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Consultant",
-        "soc": "13-1111",
-        "socTitle": "Management Analysts",
-        "aioe": 97.73,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Project Manager",
-        "soc": "11-9199",
-        "socTitle": "Managers, All Other",
-        "aioe": 86.59,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Business Development Manager",
-        "soc": "11-2022",
-        "socTitle": "Sales Managers",
-        "aioe": 93.77,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Human Resources Manager",
-        "soc": "11-3121",
-        "socTitle": "Human Resources Managers",
-        "aioe": 95.06,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Finance Manager",
-        "soc": "11-3031",
-        "socTitle": "Financial Managers",
-        "aioe": 98.06,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Senior Consultant",
-        "soc": "13-1111",
-        "socTitle": "Management Analysts",
-        "aioe": 97.73,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Director Of Operations",
-        "soc": "11-1021",
-        "socTitle": "General and Operations Managers",
-        "aioe": 77.3,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Managing Director",
-        "soc": "11-1021",
-        "socTitle": "General and Operations Managers",
-        "aioe": 77.3,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "senior"
-        ]
-      }
-    ]
   },
   {
-    "code": "mc-clind",
-    "name": "Master of Clinical Dentistry",
-    "faculty": "Medicine, Dentistry & Health",
-    "v1Score": 25,
-    "v1Band": "MODERATE RISK",
-    "v2Exposure": 35,
-    "v2Quadrant": "sheltered",
-    "exposure": 60.96,
-    "entryExposure": 60.92,
-    "jirN": 40,
-    "coverage": 1,
-    "nTitles": 15,
-    "nMedium": 9,
-    "nInherited": 15,
-    "nNewlyMapped": 0,
-    "nExtension": 0,
-    "matchTier": "exact",
-    "extensionNote": null,
-    "cohort": "reference",
-    "adaptiveness": 8,
-    "dimensionScores": {
-      "D2": 1,
-      "D3": 2,
-      "D7": 2,
-      "B": 3,
-      "D5": 0
+    code: "mc-clind",
+    name: "Master of Clinical Dentistry",
+    faculty: "Medicine, Dentistry & Health",
+    v1Score: 25,
+    v1Band: "MODERATE RISK",
+    v2Exposure: 35,
+    v2Quadrant: "sheltered",
+    exposure: 60.96,
+    entryExposure: 60.92,
+    jirN: 40,
+    coverage: 1,
+    nTitles: 15,
+    nMedium: 9,
+    nInherited: 15,
+    nNewlyMapped: 0,
+    nExtension: 0,
+    matchTier: "exact",
+    extensionNote: null,
+    cohort: "reference",
+    adaptiveness: 8,
+    dimensionScores: {
+      D2: 1,
+      D3: 2,
+      D7: 2,
+      B: 3,
+      D5: 0,
     },
-    "gateD4": "PASS",
-    "gateD6": "PASS",
-    "quadrant": "sheltered",
-    "quadrantDist": {
+    gateD4: "PASS",
+    gateD6: "PASS",
+    quadrant: "sheltered",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 0.012,
-      "attention": 0,
-      "sheltered": 0.988
+      comfortable: 0.012,
+      attention: 0,
+      sheltered: 0.988,
     },
-    "modalProb": 0.988,
-    "runnerUpQuadrant": "comfortable",
-    "adaptInterval": [
-      5,
-      11
+    modalProb: 0.988,
+    runnerUpQuadrant: "comfortable",
+    adaptInterval: [5, 11],
+    nearBoundary: false,
+    destinations: [
+      {
+        title: "Orthodontic Resident",
+        soc: "29-1023",
+        socTitle: "Orthodontists",
+        aioe: 67.46,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Endodontic Registrar",
+        soc: "29-1021",
+        socTitle: "Dentists, General",
+        aioe: 59.28,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Paediatric Dentistry Registrar",
+        soc: "29-1021",
+        socTitle: "Dentists, General",
+        aioe: 59.28,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Paediatric Dental Registrar",
+        soc: "29-1021",
+        socTitle: "Dentists, General",
+        aioe: 59.28,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Dental Officer",
+        soc: "29-1021",
+        socTitle: "Dentists, General",
+        aioe: 59.28,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "General Dentist",
+        soc: "29-1021",
+        socTitle: "Dentists, General",
+        aioe: 59.28,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Orthodontist",
+        soc: "29-1023",
+        socTitle: "Orthodontists",
+        aioe: 67.46,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Endodontist",
+        soc: "29-1021",
+        socTitle: "Dentists, General",
+        aioe: 59.28,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Periodontist",
+        soc: "29-1021",
+        socTitle: "Dentists, General",
+        aioe: 59.28,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Prosthodontist",
+        soc: "29-1024",
+        socTitle: "Prosthodontists",
+        aioe: 59.88,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Paediatric Dentist",
+        soc: "29-1021",
+        socTitle: "Dentists, General",
+        aioe: 59.28,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Specialist Orthodontist",
+        soc: "29-1023",
+        socTitle: "Orthodontists",
+        aioe: 67.46,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Specialist Paediatric Dentist",
+        soc: "29-1021",
+        socTitle: "Dentists, General",
+        aioe: 59.28,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Oral Medicine Specialist",
+        soc: "29-1021",
+        socTitle: "Dentists, General",
+        aioe: 59.28,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Principal Dentist",
+        soc: "29-1021",
+        socTitle: "Dentists, General",
+        aioe: 59.28,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
     ],
-    "nearBoundary": false,
-    "destinations": [
-      {
-        "title": "Orthodontic Resident",
-        "soc": "29-1023",
-        "socTitle": "Orthodontists",
-        "aioe": 67.46,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Endodontic Registrar",
-        "soc": "29-1021",
-        "socTitle": "Dentists, General",
-        "aioe": 59.28,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Paediatric Dentistry Registrar",
-        "soc": "29-1021",
-        "socTitle": "Dentists, General",
-        "aioe": 59.28,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Paediatric Dental Registrar",
-        "soc": "29-1021",
-        "socTitle": "Dentists, General",
-        "aioe": 59.28,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Dental Officer",
-        "soc": "29-1021",
-        "socTitle": "Dentists, General",
-        "aioe": 59.28,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "General Dentist",
-        "soc": "29-1021",
-        "socTitle": "Dentists, General",
-        "aioe": 59.28,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Orthodontist",
-        "soc": "29-1023",
-        "socTitle": "Orthodontists",
-        "aioe": 67.46,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Endodontist",
-        "soc": "29-1021",
-        "socTitle": "Dentists, General",
-        "aioe": 59.28,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Periodontist",
-        "soc": "29-1021",
-        "socTitle": "Dentists, General",
-        "aioe": 59.28,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Prosthodontist",
-        "soc": "29-1024",
-        "socTitle": "Prosthodontists",
-        "aioe": 59.88,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Paediatric Dentist",
-        "soc": "29-1021",
-        "socTitle": "Dentists, General",
-        "aioe": 59.28,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Specialist Orthodontist",
-        "soc": "29-1023",
-        "socTitle": "Orthodontists",
-        "aioe": 67.46,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Specialist Paediatric Dentist",
-        "soc": "29-1021",
-        "socTitle": "Dentists, General",
-        "aioe": 59.28,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Oral Medicine Specialist",
-        "soc": "29-1021",
-        "socTitle": "Dentists, General",
-        "aioe": 59.28,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Principal Dentist",
-        "soc": "29-1021",
-        "socTitle": "Dentists, General",
-        "aioe": 59.28,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      }
-    ]
   },
   {
-    "code": "mc-cs",
-    "name": "Master of Computer Science",
-    "faculty": "Engineering & IT",
-    "v1Score": 29,
-    "v1Band": "RESILIENT",
-    "v2Exposure": 71.3,
-    "v2Quadrant": "well-positioned",
-    "exposure": 92.8,
-    "entryExposure": 93.33,
-    "jirN": 41,
-    "coverage": 1,
-    "nTitles": 15,
-    "nMedium": 11,
-    "nInherited": 15,
-    "nNewlyMapped": 0,
-    "nExtension": 0,
-    "matchTier": "exact",
-    "extensionNote": null,
-    "cohort": "reference",
-    "adaptiveness": 14,
-    "dimensionScores": {
-      "D2": 2,
-      "D3": 3,
-      "D7": 3,
-      "B": 3,
-      "D5": 3
+    code: "mc-cs",
+    name: "Master of Computer Science",
+    faculty: "Engineering & IT",
+    v1Score: 29,
+    v1Band: "RESILIENT",
+    v2Exposure: 71.3,
+    v2Quadrant: "well-positioned",
+    exposure: 92.8,
+    entryExposure: 93.33,
+    jirN: 41,
+    coverage: 1,
+    nTitles: 15,
+    nMedium: 11,
+    nInherited: 15,
+    nNewlyMapped: 0,
+    nExtension: 0,
+    matchTier: "exact",
+    extensionNote: null,
+    cohort: "reference",
+    adaptiveness: 14,
+    dimensionScores: {
+      D2: 2,
+      D3: 3,
+      D7: 3,
+      B: 3,
+      D5: 3,
     },
-    "gateD4": "PASS",
-    "gateD6": "PASS",
-    "quadrant": "well-positioned",
-    "quadrantDist": {
+    gateD4: "PASS",
+    gateD6: "PASS",
+    quadrant: "well-positioned",
+    quadrantDist: {
       "well-positioned": 1,
-      "comfortable": 0,
-      "attention": 0,
-      "sheltered": 0
+      comfortable: 0,
+      attention: 0,
+      sheltered: 0,
     },
-    "modalProb": 1,
-    "runnerUpQuadrant": null,
-    "adaptInterval": [
-      11,
-      15
+    modalProb: 1,
+    runnerUpQuadrant: null,
+    adaptInterval: [11, 15],
+    nearBoundary: true,
+    destinations: [
+      {
+        title: "Software Engineer",
+        soc: "15-1132",
+        socTitle: "Software Developers, Applications",
+        aioe: 92.22,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Software Developer",
+        soc: "15-1132",
+        socTitle: "Software Developers, Applications",
+        aioe: 92.22,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Graduate Software Engineer",
+        soc: "15-1132",
+        socTitle: "Software Developers, Applications",
+        aioe: 92.22,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Machine Learning Engineer",
+        soc: "15-1111",
+        socTitle: "Computer and Information Research Scientists",
+        aioe: 91.1,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Data Scientist",
+        soc: "15-2041",
+        socTitle: "Statisticians",
+        aioe: 96.55,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Data Engineer",
+        soc: "15-1141",
+        socTitle: "Database Administrators",
+        aioe: 94.22,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Cognitive Engineer",
+        soc: "19-3032",
+        socTitle: "Industrial-Organizational Psychologists",
+        aioe: 97.02,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Artificial Intelligence Engineer",
+        soc: "15-1111",
+        socTitle: "Computer and Information Research Scientists",
+        aioe: 91.1,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Algorithm Developer",
+        soc: "15-1133",
+        socTitle: "Software Developers, Systems Software",
+        aioe: 94.18,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Full Stack Developer",
+        soc: "15-1132",
+        socTitle: "Software Developers, Applications",
+        aioe: 92.22,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Quantitative Trader",
+        soc: "41-3031",
+        socTitle:
+          "Securities, Commodities, and Financial Services Sales Agents",
+        aioe: 93.53,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Technology Consultant",
+        soc: "15-1121",
+        socTitle: "Computer Systems Analysts",
+        aioe: 92.15,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Senior Software Engineer",
+        soc: "15-1132",
+        socTitle: "Software Developers, Applications",
+        aioe: 92.22,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Developer",
+        soc: "15-1132",
+        socTitle: "Software Developers, Applications",
+        aioe: 92.22,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Technical Project Manager",
+        soc: "11-3021",
+        socTitle: "Computer and Information Systems Managers",
+        aioe: 88.85,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
     ],
-    "nearBoundary": true,
-    "destinations": [
-      {
-        "title": "Software Engineer",
-        "soc": "15-1132",
-        "socTitle": "Software Developers, Applications",
-        "aioe": 92.22,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Software Developer",
-        "soc": "15-1132",
-        "socTitle": "Software Developers, Applications",
-        "aioe": 92.22,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Graduate Software Engineer",
-        "soc": "15-1132",
-        "socTitle": "Software Developers, Applications",
-        "aioe": 92.22,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Machine Learning Engineer",
-        "soc": "15-1111",
-        "socTitle": "Computer and Information Research Scientists",
-        "aioe": 91.1,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Data Scientist",
-        "soc": "15-2041",
-        "socTitle": "Statisticians",
-        "aioe": 96.55,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Data Engineer",
-        "soc": "15-1141",
-        "socTitle": "Database Administrators",
-        "aioe": 94.22,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Cognitive Engineer",
-        "soc": "19-3032",
-        "socTitle": "Industrial-Organizational Psychologists",
-        "aioe": 97.02,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Artificial Intelligence Engineer",
-        "soc": "15-1111",
-        "socTitle": "Computer and Information Research Scientists",
-        "aioe": 91.1,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Algorithm Developer",
-        "soc": "15-1133",
-        "socTitle": "Software Developers, Systems Software",
-        "aioe": 94.18,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Full Stack Developer",
-        "soc": "15-1132",
-        "socTitle": "Software Developers, Applications",
-        "aioe": 92.22,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Quantitative Trader",
-        "soc": "41-3031",
-        "socTitle": "Securities, Commodities, and Financial Services Sales Agents",
-        "aioe": 93.53,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Technology Consultant",
-        "soc": "15-1121",
-        "socTitle": "Computer Systems Analysts",
-        "aioe": 92.15,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Senior Software Engineer",
-        "soc": "15-1132",
-        "socTitle": "Software Developers, Applications",
-        "aioe": 92.22,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Developer",
-        "soc": "15-1132",
-        "socTitle": "Software Developers, Applications",
-        "aioe": 92.22,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Technical Project Manager",
-        "soc": "11-3021",
-        "socTitle": "Computer and Information Systems Managers",
-        "aioe": 88.85,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      }
-    ]
   },
   {
-    "code": "mc-datasc",
-    "name": "Master of Data Science",
-    "faculty": "Science",
-    "v1Score": 26,
-    "v1Band": "MODERATE RISK",
-    "v2Exposure": 72,
-    "v2Quadrant": "well-positioned",
-    "exposure": 94.94,
-    "entryExposure": 96.08,
-    "jirN": 96,
-    "coverage": 1,
-    "nTitles": 15,
-    "nMedium": 14,
-    "nInherited": 15,
-    "nNewlyMapped": 0,
-    "nExtension": 0,
-    "matchTier": "exact",
-    "extensionNote": null,
-    "cohort": "reference",
-    "adaptiveness": 11,
-    "dimensionScores": {
-      "D2": 2,
-      "D3": 3,
-      "D7": 2,
-      "B": 2,
-      "D5": 2
+    code: "mc-datasc",
+    name: "Master of Data Science",
+    faculty: "Science",
+    v1Score: 26,
+    v1Band: "MODERATE RISK",
+    v2Exposure: 72,
+    v2Quadrant: "well-positioned",
+    exposure: 94.94,
+    entryExposure: 96.08,
+    jirN: 96,
+    coverage: 1,
+    nTitles: 15,
+    nMedium: 14,
+    nInherited: 15,
+    nNewlyMapped: 0,
+    nExtension: 0,
+    matchTier: "exact",
+    extensionNote: null,
+    cohort: "reference",
+    adaptiveness: 11,
+    dimensionScores: {
+      D2: 2,
+      D3: 3,
+      D7: 2,
+      B: 2,
+      D5: 2,
     },
-    "gateD4": "PASS",
-    "gateD6": "PASS",
-    "quadrant": "well-positioned",
-    "quadrantDist": {
+    gateD4: "PASS",
+    gateD6: "PASS",
+    quadrant: "well-positioned",
+    quadrantDist: {
       "well-positioned": 0.98,
-      "comfortable": 0,
-      "attention": 0.02,
-      "sheltered": 0
+      comfortable: 0,
+      attention: 0.02,
+      sheltered: 0,
     },
-    "modalProb": 0.98,
-    "runnerUpQuadrant": "attention",
-    "adaptInterval": [
-      7,
-      14
+    modalProb: 0.98,
+    runnerUpQuadrant: "attention",
+    adaptInterval: [7, 14],
+    nearBoundary: true,
+    destinations: [
+      {
+        title: "Data Scientist",
+        soc: "15-2041",
+        socTitle: "Statisticians",
+        aioe: 96.55,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Data Analyst",
+        soc: "15-2041",
+        socTitle: "Statisticians",
+        aioe: 96.55,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Business Analyst",
+        soc: "13-1111",
+        socTitle: "Management Analysts",
+        aioe: 97.73,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Technology Graduate",
+        soc: "15-1199",
+        socTitle: "Computer Occupations, All Other",
+        aioe: 92.97,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Technology Solutions Graduate",
+        soc: "15-1199",
+        socTitle: "Computer Occupations, All Other",
+        aioe: 92.97,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Actuarial Graduate",
+        soc: "15-2011",
+        socTitle: "Actuaries",
+        aioe: 99.73,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Machine Learning Engineer",
+        soc: "15-1111",
+        socTitle: "Computer and Information Research Scientists",
+        aioe: 91.1,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Data Engineer",
+        soc: "15-1141",
+        socTitle: "Database Administrators",
+        aioe: 94.22,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Analytics Engineer",
+        soc: "15-1199",
+        socTitle: "Computer Occupations, All Other",
+        aioe: 92.97,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Data Science Consultant",
+        soc: "15-2041",
+        socTitle: "Statisticians",
+        aioe: 96.55,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Data Science Lead",
+        soc: "15-2041",
+        socTitle: "Statisticians",
+        aioe: 96.55,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Senior Data Scientist",
+        soc: "15-2041",
+        socTitle: "Statisticians",
+        aioe: 96.55,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Data Engineer",
+        soc: "15-1141",
+        socTitle: "Database Administrators",
+        aioe: 94.22,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Analytics Consultant",
+        soc: "15-2041",
+        socTitle: "Statisticians",
+        aioe: 96.55,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Chapter Lead, Analytics and Insights",
+        soc: "11-3021",
+        socTitle: "Computer and Information Systems Managers",
+        aioe: 88.85,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
     ],
-    "nearBoundary": true,
-    "destinations": [
-      {
-        "title": "Data Scientist",
-        "soc": "15-2041",
-        "socTitle": "Statisticians",
-        "aioe": 96.55,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Data Analyst",
-        "soc": "15-2041",
-        "socTitle": "Statisticians",
-        "aioe": 96.55,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Business Analyst",
-        "soc": "13-1111",
-        "socTitle": "Management Analysts",
-        "aioe": 97.73,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Technology Graduate",
-        "soc": "15-1199",
-        "socTitle": "Computer Occupations, All Other",
-        "aioe": 92.97,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Technology Solutions Graduate",
-        "soc": "15-1199",
-        "socTitle": "Computer Occupations, All Other",
-        "aioe": 92.97,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Actuarial Graduate",
-        "soc": "15-2011",
-        "socTitle": "Actuaries",
-        "aioe": 99.73,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Machine Learning Engineer",
-        "soc": "15-1111",
-        "socTitle": "Computer and Information Research Scientists",
-        "aioe": 91.1,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Data Engineer",
-        "soc": "15-1141",
-        "socTitle": "Database Administrators",
-        "aioe": 94.22,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Analytics Engineer",
-        "soc": "15-1199",
-        "socTitle": "Computer Occupations, All Other",
-        "aioe": 92.97,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Data Science Consultant",
-        "soc": "15-2041",
-        "socTitle": "Statisticians",
-        "aioe": 96.55,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Data Science Lead",
-        "soc": "15-2041",
-        "socTitle": "Statisticians",
-        "aioe": 96.55,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Senior Data Scientist",
-        "soc": "15-2041",
-        "socTitle": "Statisticians",
-        "aioe": 96.55,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Data Engineer",
-        "soc": "15-1141",
-        "socTitle": "Database Administrators",
-        "aioe": 94.22,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Analytics Consultant",
-        "soc": "15-2041",
-        "socTitle": "Statisticians",
-        "aioe": 96.55,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Chapter Lead, Analytics and Insights",
-        "soc": "11-3021",
-        "socTitle": "Computer and Information Systems Managers",
-        "aioe": 88.85,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      }
-    ]
   },
   {
-    "code": "mc-ddensur",
-    "name": "Doctor of Dental Surgery",
-    "faculty": "Medicine, Dentistry & Health",
-    "v1Score": 25,
-    "v1Band": "MODERATE RISK",
-    "v2Exposure": 47.3,
-    "v2Quadrant": "comfortable",
-    "exposure": 63.31,
-    "entryExposure": 64.24,
-    "jirN": 194,
-    "coverage": 1,
-    "nTitles": 12,
-    "nMedium": 3,
-    "nInherited": 3,
-    "nNewlyMapped": 9,
-    "nExtension": 0,
-    "matchTier": "exact",
-    "extensionNote": null,
-    "cohort": "reference",
-    "adaptiveness": 11,
-    "dimensionScores": {
-      "D2": 2,
-      "D3": 2,
-      "D7": 3,
-      "B": 3,
-      "D5": 1
+    code: "mc-ddensur",
+    name: "Doctor of Dental Surgery",
+    faculty: "Medicine, Dentistry & Health",
+    v1Score: 25,
+    v1Band: "MODERATE RISK",
+    v2Exposure: 47.3,
+    v2Quadrant: "comfortable",
+    exposure: 63.31,
+    entryExposure: 64.24,
+    jirN: 194,
+    coverage: 1,
+    nTitles: 12,
+    nMedium: 3,
+    nInherited: 3,
+    nNewlyMapped: 9,
+    nExtension: 0,
+    matchTier: "exact",
+    extensionNote: null,
+    cohort: "reference",
+    adaptiveness: 11,
+    dimensionScores: {
+      D2: 2,
+      D3: 2,
+      D7: 3,
+      B: 3,
+      D5: 1,
     },
-    "gateD4": "PASS",
-    "gateD6": "PASS",
-    "quadrant": "comfortable",
-    "quadrantDist": {
+    gateD4: "PASS",
+    gateD6: "PASS",
+    quadrant: "comfortable",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 0.981,
-      "attention": 0,
-      "sheltered": 0.019
+      comfortable: 0.981,
+      attention: 0,
+      sheltered: 0.019,
     },
-    "modalProb": 0.981,
-    "runnerUpQuadrant": "sheltered",
-    "adaptInterval": [
-      7,
-      14
+    modalProb: 0.981,
+    runnerUpQuadrant: "sheltered",
+    adaptInterval: [7, 14],
+    nearBoundary: true,
+    destinations: [
+      {
+        title: "Graduate Dentist",
+        soc: "29-1021",
+        socTitle: "Dentists, General",
+        aioe: 59.28,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["entry"],
+      },
+      {
+        title: "Dental Resident",
+        soc: "29-1021",
+        socTitle: "Dentists, General",
+        aioe: 59.28,
+        confidence: "medium",
+        crosswalkSource: "new_this_session",
+        stages: ["entry"],
+      },
+      {
+        title: "Dental Officer",
+        soc: "29-1021",
+        socTitle: "Dentists, General",
+        aioe: 59.28,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Research Assistant",
+        soc: "19-4061",
+        socTitle: "Social Science Research Assistants",
+        aioe: 92.3,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Dental Assistant",
+        soc: "31-9091",
+        socTitle: "Dental Assistants",
+        aioe: 51.05,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["entry"],
+      },
+      {
+        title: "Dentist",
+        soc: "29-1021",
+        socTitle: "Dentists, General",
+        aioe: 59.28,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Dental Surgeon",
+        soc: "29-1022",
+        socTitle: "Oral and Maxillofacial Surgeons",
+        aioe: 57.91,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Cosmetic Dentist",
+        soc: "29-1021",
+        socTitle: "Dentists, General",
+        aioe: 59.28,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Oral Surgery Resident",
+        soc: "29-1022",
+        socTitle: "Oral and Maxillofacial Surgeons",
+        aioe: 57.91,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Clinical Demonstrator",
+        soc: "25-1071",
+        socTitle: "Health Specialties Teachers, Postsecondary",
+        aioe: 85.64,
+        confidence: "medium",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Principal Dentist",
+        soc: "29-1021",
+        socTitle: "Dentists, General",
+        aioe: 59.28,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Dentist",
+        soc: "29-1021",
+        socTitle: "Dentists, General",
+        aioe: 59.28,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["senior"],
+      },
     ],
-    "nearBoundary": true,
-    "destinations": [
-      {
-        "title": "Graduate Dentist",
-        "soc": "29-1021",
-        "socTitle": "Dentists, General",
-        "aioe": 59.28,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Dental Resident",
-        "soc": "29-1021",
-        "socTitle": "Dentists, General",
-        "aioe": 59.28,
-        "confidence": "medium",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Dental Officer",
-        "soc": "29-1021",
-        "socTitle": "Dentists, General",
-        "aioe": 59.28,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Research Assistant",
-        "soc": "19-4061",
-        "socTitle": "Social Science Research Assistants",
-        "aioe": 92.3,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Dental Assistant",
-        "soc": "31-9091",
-        "socTitle": "Dental Assistants",
-        "aioe": 51.05,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Dentist",
-        "soc": "29-1021",
-        "socTitle": "Dentists, General",
-        "aioe": 59.28,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Dental Surgeon",
-        "soc": "29-1022",
-        "socTitle": "Oral and Maxillofacial Surgeons",
-        "aioe": 57.91,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Cosmetic Dentist",
-        "soc": "29-1021",
-        "socTitle": "Dentists, General",
-        "aioe": 59.28,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Oral Surgery Resident",
-        "soc": "29-1022",
-        "socTitle": "Oral and Maxillofacial Surgeons",
-        "aioe": 57.91,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Clinical Demonstrator",
-        "soc": "25-1071",
-        "socTitle": "Health Specialties Teachers, Postsecondary",
-        "aioe": 85.64,
-        "confidence": "medium",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Principal Dentist",
-        "soc": "29-1021",
-        "socTitle": "Dentists, General",
-        "aioe": 59.28,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Dentist",
-        "soc": "29-1021",
-        "socTitle": "Dentists, General",
-        "aioe": 59.28,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "senior"
-        ]
-      }
-    ]
   },
   {
-    "code": "mc-dmed",
-    "name": "Doctor of Medicine",
-    "faculty": "Medicine, Dentistry & Health",
-    "v1Score": 27,
-    "v1Band": "MODERATE RISK",
-    "v2Exposure": 44.2,
-    "v2Quadrant": "comfortable",
-    "exposure": 80.58,
-    "entryExposure": 73.78,
-    "jirN": 762,
-    "coverage": 1,
-    "nTitles": 15,
-    "nMedium": 12,
-    "nInherited": 15,
-    "nNewlyMapped": 0,
-    "nExtension": 0,
-    "matchTier": "exact",
-    "extensionNote": null,
-    "cohort": "reference",
-    "adaptiveness": 12,
-    "dimensionScores": {
-      "D2": 3,
-      "D3": 3,
-      "D7": 2,
-      "B": 3,
-      "D5": 1
+    code: "mc-dmed",
+    name: "Doctor of Medicine",
+    faculty: "Medicine, Dentistry & Health",
+    v1Score: 27,
+    v1Band: "MODERATE RISK",
+    v2Exposure: 44.2,
+    v2Quadrant: "comfortable",
+    exposure: 80.58,
+    entryExposure: 73.78,
+    jirN: 762,
+    coverage: 1,
+    nTitles: 15,
+    nMedium: 12,
+    nInherited: 15,
+    nNewlyMapped: 0,
+    nExtension: 0,
+    matchTier: "exact",
+    extensionNote: null,
+    cohort: "reference",
+    adaptiveness: 12,
+    dimensionScores: {
+      D2: 3,
+      D3: 3,
+      D7: 2,
+      B: 3,
+      D5: 1,
     },
-    "gateD4": "PASS",
-    "gateD6": "PASS",
-    "quadrant": "comfortable",
-    "quadrantDist": {
+    gateD4: "PASS",
+    gateD6: "PASS",
+    quadrant: "comfortable",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 0.999,
-      "attention": 0,
-      "sheltered": 0.001
+      comfortable: 0.999,
+      attention: 0,
+      sheltered: 0.001,
     },
-    "modalProb": 0.999,
-    "runnerUpQuadrant": "sheltered",
-    "adaptInterval": [
-      9,
-      14
+    modalProb: 0.999,
+    runnerUpQuadrant: "sheltered",
+    adaptInterval: [9, 14],
+    nearBoundary: false,
+    destinations: [
+      {
+        title: "Medical Intern",
+        soc: "29-1069",
+        socTitle: "Physicians and Surgeons, All Other",
+        aioe: 80.49,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Resident Medical Officer",
+        soc: "29-1069",
+        socTitle: "Physicians and Surgeons, All Other",
+        aioe: 80.49,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Junior Doctor",
+        soc: "29-1069",
+        socTitle: "Physicians and Surgeons, All Other",
+        aioe: 80.49,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Hospital Medical Officer",
+        soc: "29-1069",
+        socTitle: "Physicians and Surgeons, All Other",
+        aioe: 80.49,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Contact Tracer",
+        soc: "21-1094",
+        socTitle: "Community Health Workers",
+        aioe: 64.49,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Student Health Promotion Consultant",
+        soc: "21-1091",
+        socTitle: "Health Educators",
+        aioe: 80.08,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Disability Support Worker",
+        soc: "39-9021",
+        socTitle: "Personal and Home Care Aides",
+        aioe: 49.93,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Surgical Resident",
+        soc: "29-1067",
+        socTitle: "Surgeons",
+        aioe: 62.4,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Psychiatry Registrar",
+        soc: "29-1066",
+        socTitle: "Psychiatrists",
+        aioe: 94.12,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Public Health Officer",
+        soc: "21-1091",
+        socTitle: "Health Educators",
+        aioe: 80.08,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Project Manager",
+        soc: "11-9199",
+        socTitle: "Managers, All Other",
+        aioe: 86.59,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "General Practitioner",
+        soc: "29-1062",
+        socTitle: "Family and General Practitioners",
+        aioe: 88.19,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Medical Director",
+        soc: "11-9111",
+        socTitle: "Medical and Health Services Managers",
+        aioe: 93.63,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Deputy Director of Medical Services",
+        soc: "11-9111",
+        socTitle: "Medical and Health Services Managers",
+        aioe: 93.63,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Director of Clinical Development & Innovation",
+        soc: "11-9111",
+        socTitle: "Medical and Health Services Managers",
+        aioe: 93.63,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
     ],
-    "nearBoundary": false,
-    "destinations": [
-      {
-        "title": "Medical Intern",
-        "soc": "29-1069",
-        "socTitle": "Physicians and Surgeons, All Other",
-        "aioe": 80.49,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Resident Medical Officer",
-        "soc": "29-1069",
-        "socTitle": "Physicians and Surgeons, All Other",
-        "aioe": 80.49,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Junior Doctor",
-        "soc": "29-1069",
-        "socTitle": "Physicians and Surgeons, All Other",
-        "aioe": 80.49,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Hospital Medical Officer",
-        "soc": "29-1069",
-        "socTitle": "Physicians and Surgeons, All Other",
-        "aioe": 80.49,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Contact Tracer",
-        "soc": "21-1094",
-        "socTitle": "Community Health Workers",
-        "aioe": 64.49,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Student Health Promotion Consultant",
-        "soc": "21-1091",
-        "socTitle": "Health Educators",
-        "aioe": 80.08,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Disability Support Worker",
-        "soc": "39-9021",
-        "socTitle": "Personal and Home Care Aides",
-        "aioe": 49.93,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Surgical Resident",
-        "soc": "29-1067",
-        "socTitle": "Surgeons",
-        "aioe": 62.4,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Psychiatry Registrar",
-        "soc": "29-1066",
-        "socTitle": "Psychiatrists",
-        "aioe": 94.12,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Public Health Officer",
-        "soc": "21-1091",
-        "socTitle": "Health Educators",
-        "aioe": 80.08,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Project Manager",
-        "soc": "11-9199",
-        "socTitle": "Managers, All Other",
-        "aioe": 86.59,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "General Practitioner",
-        "soc": "29-1062",
-        "socTitle": "Family and General Practitioners",
-        "aioe": 88.19,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Medical Director",
-        "soc": "11-9111",
-        "socTitle": "Medical and Health Services Managers",
-        "aioe": 93.63,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Deputy Director of Medical Services",
-        "soc": "11-9111",
-        "socTitle": "Medical and Health Services Managers",
-        "aioe": 93.63,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Director of Clinical Development & Innovation",
-        "soc": "11-9111",
-        "socTitle": "Medical and Health Services Managers",
-        "aioe": 93.63,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      }
-    ]
   },
   {
-    "code": "mc-doptom",
-    "name": "Doctor of Optometry",
-    "faculty": "Medicine, Dentistry & Health",
-    "v1Score": 24,
-    "v1Band": "MODERATE RISK",
-    "v2Exposure": 72,
-    "v2Quadrant": "well-positioned",
-    "exposure": 80.13,
-    "entryExposure": 77.63,
-    "jirN": 199,
-    "coverage": 1,
-    "nTitles": 15,
-    "nMedium": 4,
-    "nInherited": 2,
-    "nNewlyMapped": 13,
-    "nExtension": 0,
-    "matchTier": "exact",
-    "extensionNote": null,
-    "cohort": "reference",
-    "adaptiveness": 11,
-    "dimensionScores": {
-      "D2": 2,
-      "D3": 3,
-      "D7": 2,
-      "B": 3,
-      "D5": 1
+    code: "mc-doptom",
+    name: "Doctor of Optometry",
+    faculty: "Medicine, Dentistry & Health",
+    v1Score: 24,
+    v1Band: "MODERATE RISK",
+    v2Exposure: 72,
+    v2Quadrant: "well-positioned",
+    exposure: 80.13,
+    entryExposure: 77.63,
+    jirN: 199,
+    coverage: 1,
+    nTitles: 15,
+    nMedium: 4,
+    nInherited: 2,
+    nNewlyMapped: 13,
+    nExtension: 0,
+    matchTier: "exact",
+    extensionNote: null,
+    cohort: "reference",
+    adaptiveness: 11,
+    dimensionScores: {
+      D2: 2,
+      D3: 3,
+      D7: 2,
+      B: 3,
+      D5: 1,
     },
-    "gateD4": "PASS",
-    "gateD6": "PASS",
-    "quadrant": "comfortable",
-    "quadrantDist": {
+    gateD4: "PASS",
+    gateD6: "PASS",
+    quadrant: "comfortable",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 0.979,
-      "attention": 0,
-      "sheltered": 0.021
+      comfortable: 0.979,
+      attention: 0,
+      sheltered: 0.021,
     },
-    "modalProb": 0.979,
-    "runnerUpQuadrant": "sheltered",
-    "adaptInterval": [
-      8,
-      14
+    modalProb: 0.979,
+    runnerUpQuadrant: "sheltered",
+    adaptInterval: [8, 14],
+    nearBoundary: true,
+    destinations: [
+      {
+        title: "Graduate Optometrist",
+        soc: "29-1041",
+        socTitle: "Optometrists",
+        aioe: 75.61,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["entry"],
+      },
+      {
+        title: "Locum Optometrist",
+        soc: "29-1041",
+        socTitle: "Optometrists",
+        aioe: 75.61,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["entry"],
+      },
+      {
+        title: "Optometry Development Consultant",
+        soc: "19-2099",
+        socTitle: "Physical Scientists, All Other",
+        aioe: 90.77,
+        confidence: "medium",
+        crosswalkSource: "new_this_session",
+        stages: ["entry"],
+      },
+      {
+        title: "Research Assistant",
+        soc: "19-4061",
+        socTitle: "Social Science Research Assistants",
+        aioe: 92.3,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Optical Dispenser",
+        soc: "29-2081",
+        socTitle: "Opticians, Dispensing",
+        aioe: 66.02,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["entry"],
+      },
+      {
+        title: "Optical Assistant",
+        soc: "29-2057",
+        socTitle: "Ophthalmic Medical Technicians",
+        aioe: 65.48,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["entry"],
+      },
+      {
+        title: "Optometrist",
+        soc: "29-1041",
+        socTitle: "Optometrists",
+        aioe: 75.61,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Clinical Optometrist",
+        soc: "29-1041",
+        socTitle: "Optometrists",
+        aioe: 75.61,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Dry Eye Optometrist",
+        soc: "29-1041",
+        socTitle: "Optometrists",
+        aioe: 75.61,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Clinical Research Optometrist",
+        soc: "29-1041",
+        socTitle: "Optometrists",
+        aioe: 75.61,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Practice Manager",
+        soc: "11-9111",
+        socTitle: "Medical and Health Services Managers",
+        aioe: 93.63,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Senior Optometrist",
+        soc: "29-1041",
+        socTitle: "Optometrists",
+        aioe: 75.61,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["senior"],
+      },
+      {
+        title: "Principal Optometrist",
+        soc: "29-1041",
+        socTitle: "Optometrists",
+        aioe: 75.61,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["senior"],
+      },
+      {
+        title: "Optometry Director",
+        soc: "11-9121",
+        socTitle: "Natural Sciences Managers",
+        aioe: 95.24,
+        confidence: "medium",
+        crosswalkSource: "new_this_session",
+        stages: ["senior"],
+      },
+      {
+        title: "Clinical Director",
+        soc: "11-9111",
+        socTitle: "Medical and Health Services Managers",
+        aioe: 93.63,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["senior"],
+      },
     ],
-    "nearBoundary": true,
-    "destinations": [
-      {
-        "title": "Graduate Optometrist",
-        "soc": "29-1041",
-        "socTitle": "Optometrists",
-        "aioe": 75.61,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Locum Optometrist",
-        "soc": "29-1041",
-        "socTitle": "Optometrists",
-        "aioe": 75.61,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Optometry Development Consultant",
-        "soc": "19-2099",
-        "socTitle": "Physical Scientists, All Other",
-        "aioe": 90.77,
-        "confidence": "medium",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Research Assistant",
-        "soc": "19-4061",
-        "socTitle": "Social Science Research Assistants",
-        "aioe": 92.3,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Optical Dispenser",
-        "soc": "29-2081",
-        "socTitle": "Opticians, Dispensing",
-        "aioe": 66.02,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Optical Assistant",
-        "soc": "29-2057",
-        "socTitle": "Ophthalmic Medical Technicians",
-        "aioe": 65.48,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Optometrist",
-        "soc": "29-1041",
-        "socTitle": "Optometrists",
-        "aioe": 75.61,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Clinical Optometrist",
-        "soc": "29-1041",
-        "socTitle": "Optometrists",
-        "aioe": 75.61,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Dry Eye Optometrist",
-        "soc": "29-1041",
-        "socTitle": "Optometrists",
-        "aioe": 75.61,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Clinical Research Optometrist",
-        "soc": "29-1041",
-        "socTitle": "Optometrists",
-        "aioe": 75.61,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Practice Manager",
-        "soc": "11-9111",
-        "socTitle": "Medical and Health Services Managers",
-        "aioe": 93.63,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Senior Optometrist",
-        "soc": "29-1041",
-        "socTitle": "Optometrists",
-        "aioe": 75.61,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Principal Optometrist",
-        "soc": "29-1041",
-        "socTitle": "Optometrists",
-        "aioe": 75.61,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Optometry Director",
-        "soc": "11-9121",
-        "socTitle": "Natural Sciences Managers",
-        "aioe": 95.24,
-        "confidence": "medium",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Clinical Director",
-        "soc": "11-9111",
-        "socTitle": "Medical and Health Services Managers",
-        "aioe": 93.63,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "senior"
-        ]
-      }
-    ]
   },
   {
-    "code": "mc-dphysio",
-    "name": "Doctor of Physiotherapy",
-    "faculty": "Medicine, Dentistry & Health",
-    "v1Score": 26,
-    "v1Band": "MODERATE RISK",
-    "v2Exposure": 45.7,
-    "v2Quadrant": "sheltered",
-    "exposure": 71.03,
-    "entryExposure": 72.66,
-    "jirN": 448,
-    "coverage": 1,
-    "nTitles": 11,
-    "nMedium": 5,
-    "nInherited": 11,
-    "nNewlyMapped": 0,
-    "nExtension": 0,
-    "matchTier": "exact",
-    "extensionNote": null,
-    "cohort": "reference",
-    "adaptiveness": 10,
-    "dimensionScores": {
-      "D2": 2,
-      "D3": 2,
-      "D7": 2,
-      "B": 3,
-      "D5": 1
+    code: "mc-dphysio",
+    name: "Doctor of Physiotherapy",
+    faculty: "Medicine, Dentistry & Health",
+    v1Score: 26,
+    v1Band: "MODERATE RISK",
+    v2Exposure: 45.7,
+    v2Quadrant: "sheltered",
+    exposure: 71.03,
+    entryExposure: 72.66,
+    jirN: 448,
+    coverage: 1,
+    nTitles: 11,
+    nMedium: 5,
+    nInherited: 11,
+    nNewlyMapped: 0,
+    nExtension: 0,
+    matchTier: "exact",
+    extensionNote: null,
+    cohort: "reference",
+    adaptiveness: 10,
+    dimensionScores: {
+      D2: 2,
+      D3: 2,
+      D7: 2,
+      B: 3,
+      D5: 1,
     },
-    "gateD4": "PASS",
-    "gateD6": "PASS",
-    "quadrant": "comfortable",
-    "quadrantDist": {
+    gateD4: "PASS",
+    gateD6: "PASS",
+    quadrant: "comfortable",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 0.804,
-      "attention": 0,
-      "sheltered": 0.196
+      comfortable: 0.804,
+      attention: 0,
+      sheltered: 0.196,
     },
-    "modalProb": 0.804,
-    "runnerUpQuadrant": "sheltered",
-    "adaptInterval": [
-      6,
-      13
+    modalProb: 0.804,
+    runnerUpQuadrant: "sheltered",
+    adaptInterval: [6, 13],
+    nearBoundary: true,
+    destinations: [
+      {
+        title: "Physiotherapist",
+        soc: "29-1123",
+        socTitle: "Physical Therapists",
+        aioe: 55.07,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Allied Health Assistant",
+        soc: "31-9099",
+        socTitle: "Healthcare Support Workers, All Other",
+        aioe: 67.56,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Physiotherapy Assistant",
+        soc: "31-2021",
+        socTitle: "Physical Therapist Assistants",
+        aioe: 50.96,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Research Assistant",
+        soc: "19-4061",
+        socTitle: "Social Science Research Assistants",
+        aioe: 92.3,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Policy Officer",
+        soc: "19-3094",
+        socTitle: "Political Scientists",
+        aioe: 97.41,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Exercise Physiologist",
+        soc: "29-1128",
+        socTitle: "Exercise Physiologists",
+        aioe: 62.81,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Rehabilitation Consultant",
+        soc: "21-1015",
+        socTitle: "Rehabilitation Counselors",
+        aioe: 75.58,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Senior Physiotherapist",
+        soc: "29-1123",
+        socTitle: "Physical Therapists",
+        aioe: 55.07,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Principal Physiotherapist",
+        soc: "29-1123",
+        socTitle: "Physical Therapists",
+        aioe: 55.07,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Clinical Educator",
+        soc: "25-1072",
+        socTitle: "Nursing Instructors and Teachers, Postsecondary",
+        aioe: 75.92,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Practice Manager",
+        soc: "11-9111",
+        socTitle: "Medical and Health Services Managers",
+        aioe: 93.63,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
     ],
-    "nearBoundary": true,
-    "destinations": [
-      {
-        "title": "Physiotherapist",
-        "soc": "29-1123",
-        "socTitle": "Physical Therapists",
-        "aioe": 55.07,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Allied Health Assistant",
-        "soc": "31-9099",
-        "socTitle": "Healthcare Support Workers, All Other",
-        "aioe": 67.56,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Physiotherapy Assistant",
-        "soc": "31-2021",
-        "socTitle": "Physical Therapist Assistants",
-        "aioe": 50.96,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Research Assistant",
-        "soc": "19-4061",
-        "socTitle": "Social Science Research Assistants",
-        "aioe": 92.3,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Policy Officer",
-        "soc": "19-3094",
-        "socTitle": "Political Scientists",
-        "aioe": 97.41,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Exercise Physiologist",
-        "soc": "29-1128",
-        "socTitle": "Exercise Physiologists",
-        "aioe": 62.81,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Rehabilitation Consultant",
-        "soc": "21-1015",
-        "socTitle": "Rehabilitation Counselors",
-        "aioe": 75.58,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Senior Physiotherapist",
-        "soc": "29-1123",
-        "socTitle": "Physical Therapists",
-        "aioe": 55.07,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Principal Physiotherapist",
-        "soc": "29-1123",
-        "socTitle": "Physical Therapists",
-        "aioe": 55.07,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Clinical Educator",
-        "soc": "25-1072",
-        "socTitle": "Nursing Instructors and Teachers, Postsecondary",
-        "aioe": 75.92,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Practice Manager",
-        "soc": "11-9111",
-        "socTitle": "Medical and Health Services Managers",
-        "aioe": 93.63,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      }
-    ]
   },
   {
-    "code": "mc-dvetmed",
-    "name": "Doctor of Veterinary Medicine",
-    "faculty": "Medicine, Dentistry & Health",
-    "v1Score": 27,
-    "v1Band": "MODERATE RISK",
-    "v2Exposure": 72,
-    "v2Quadrant": "well-positioned",
-    "exposure": 62.4,
-    "entryExposure": 63.57,
-    "jirN": 275,
-    "coverage": 1,
-    "nTitles": 12,
-    "nMedium": 1,
-    "nInherited": 1,
-    "nNewlyMapped": 11,
-    "nExtension": 0,
-    "matchTier": "exact",
-    "extensionNote": null,
-    "cohort": "reference",
-    "adaptiveness": 12,
-    "dimensionScores": {
-      "D2": 3,
-      "D3": 3,
-      "D7": 2,
-      "B": 3,
-      "D5": 1
+    code: "mc-dvetmed",
+    name: "Doctor of Veterinary Medicine",
+    faculty: "Medicine, Dentistry & Health",
+    v1Score: 27,
+    v1Band: "MODERATE RISK",
+    v2Exposure: 72,
+    v2Quadrant: "well-positioned",
+    exposure: 62.4,
+    entryExposure: 63.57,
+    jirN: 275,
+    coverage: 1,
+    nTitles: 12,
+    nMedium: 1,
+    nInherited: 1,
+    nNewlyMapped: 11,
+    nExtension: 0,
+    matchTier: "exact",
+    extensionNote: null,
+    cohort: "reference",
+    adaptiveness: 12,
+    dimensionScores: {
+      D2: 3,
+      D3: 3,
+      D7: 2,
+      B: 3,
+      D5: 1,
     },
-    "gateD4": "PASS",
-    "gateD6": "PASS",
-    "quadrant": "comfortable",
-    "quadrantDist": {
+    gateD4: "PASS",
+    gateD6: "PASS",
+    quadrant: "comfortable",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 0.999,
-      "attention": 0,
-      "sheltered": 0.001
+      comfortable: 0.999,
+      attention: 0,
+      sheltered: 0.001,
     },
-    "modalProb": 0.999,
-    "runnerUpQuadrant": "sheltered",
-    "adaptInterval": [
-      8,
-      14
+    modalProb: 0.999,
+    runnerUpQuadrant: "sheltered",
+    adaptInterval: [8, 14],
+    nearBoundary: false,
+    destinations: [
+      {
+        title: "Veterinarian",
+        soc: "29-1131",
+        socTitle: "Veterinarians",
+        aioe: 61.82,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["entry"],
+      },
+      {
+        title: "Research Assistant",
+        soc: "19-4061",
+        socTitle: "Social Science Research Assistants",
+        aioe: 92.3,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Veterinary Nurse",
+        soc: "29-2056",
+        socTitle: "Veterinary Technologists and Technicians",
+        aioe: 54.97,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["entry"],
+      },
+      {
+        title: "Veterinary Assistant",
+        soc: "31-9096",
+        socTitle: "Veterinary Assistants and Laboratory Animal Caretakers",
+        aioe: 45.17,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["entry"],
+      },
+      {
+        title: "Small Animal Veterinarian",
+        soc: "29-1131",
+        socTitle: "Veterinarians",
+        aioe: 61.82,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Equine Veterinarian",
+        soc: "29-1131",
+        socTitle: "Veterinarians",
+        aioe: 61.82,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Emergency Veterinarian",
+        soc: "29-1131",
+        socTitle: "Veterinarians",
+        aioe: 61.82,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Veterinary Officer",
+        soc: "29-1131",
+        socTitle: "Veterinarians",
+        aioe: 61.82,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Veterinary Director",
+        soc: "29-1131",
+        socTitle: "Veterinarians",
+        aioe: 61.82,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Veterinarian",
+        soc: "29-1131",
+        socTitle: "Veterinarians",
+        aioe: 61.82,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["senior"],
+      },
+      {
+        title: "Head Veterinarian",
+        soc: "29-1131",
+        socTitle: "Veterinarians",
+        aioe: 61.82,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["senior"],
+      },
+      {
+        title: "Veterinary Practice Owner",
+        soc: "29-1131",
+        socTitle: "Veterinarians",
+        aioe: 61.82,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["senior"],
+      },
     ],
-    "nearBoundary": false,
-    "destinations": [
-      {
-        "title": "Veterinarian",
-        "soc": "29-1131",
-        "socTitle": "Veterinarians",
-        "aioe": 61.82,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Research Assistant",
-        "soc": "19-4061",
-        "socTitle": "Social Science Research Assistants",
-        "aioe": 92.3,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Veterinary Nurse",
-        "soc": "29-2056",
-        "socTitle": "Veterinary Technologists and Technicians",
-        "aioe": 54.97,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Veterinary Assistant",
-        "soc": "31-9096",
-        "socTitle": "Veterinary Assistants and Laboratory Animal Caretakers",
-        "aioe": 45.17,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Small Animal Veterinarian",
-        "soc": "29-1131",
-        "socTitle": "Veterinarians",
-        "aioe": 61.82,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Equine Veterinarian",
-        "soc": "29-1131",
-        "socTitle": "Veterinarians",
-        "aioe": 61.82,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Emergency Veterinarian",
-        "soc": "29-1131",
-        "socTitle": "Veterinarians",
-        "aioe": 61.82,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Veterinary Officer",
-        "soc": "29-1131",
-        "socTitle": "Veterinarians",
-        "aioe": 61.82,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Veterinary Director",
-        "soc": "29-1131",
-        "socTitle": "Veterinarians",
-        "aioe": 61.82,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Veterinarian",
-        "soc": "29-1131",
-        "socTitle": "Veterinarians",
-        "aioe": 61.82,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Head Veterinarian",
-        "soc": "29-1131",
-        "socTitle": "Veterinarians",
-        "aioe": 61.82,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Veterinary Practice Owner",
-        "soc": "29-1131",
-        "socTitle": "Veterinarians",
-        "aioe": 61.82,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "senior"
-        ]
-      }
-    ]
   },
   {
-    "code": "mc-ed",
-    "name": "Master of Education",
-    "faculty": "Education",
-    "v1Score": 24,
-    "v1Band": "MODERATE RISK",
-    "v2Exposure": 60.7,
-    "v2Quadrant": "sheltered",
-    "exposure": 92.44,
-    "entryExposure": 94.16,
-    "jirN": 611,
-    "coverage": 1,
-    "nTitles": 15,
-    "nMedium": 11,
-    "nInherited": 15,
-    "nNewlyMapped": 0,
-    "nExtension": 0,
-    "matchTier": "exact",
-    "extensionNote": null,
-    "cohort": "reference",
-    "adaptiveness": 9,
-    "dimensionScores": {
-      "D2": 2,
-      "D3": 1,
-      "D7": 2,
-      "B": 3,
-      "D5": 1
+    code: "mc-ed",
+    name: "Master of Education",
+    faculty: "Education",
+    v1Score: 24,
+    v1Band: "MODERATE RISK",
+    v2Exposure: 60.7,
+    v2Quadrant: "sheltered",
+    exposure: 92.44,
+    entryExposure: 94.16,
+    jirN: 611,
+    coverage: 1,
+    nTitles: 15,
+    nMedium: 11,
+    nInherited: 15,
+    nNewlyMapped: 0,
+    nExtension: 0,
+    matchTier: "exact",
+    extensionNote: null,
+    cohort: "reference",
+    adaptiveness: 9,
+    dimensionScores: {
+      D2: 2,
+      D3: 1,
+      D7: 2,
+      B: 3,
+      D5: 1,
     },
-    "gateD4": "PASS",
-    "gateD6": "PASS",
-    "quadrant": "attention",
-    "quadrantDist": {
+    gateD4: "PASS",
+    gateD6: "PASS",
+    quadrant: "attention",
+    quadrantDist: {
       "well-positioned": 0.157,
-      "comfortable": 0,
-      "attention": 0.844,
-      "sheltered": 0
+      comfortable: 0,
+      attention: 0.844,
+      sheltered: 0,
     },
-    "modalProb": 0.844,
-    "runnerUpQuadrant": "well-positioned",
-    "adaptInterval": [
-      6,
-      12
+    modalProb: 0.844,
+    runnerUpQuadrant: "well-positioned",
+    adaptInterval: [6, 12],
+    nearBoundary: true,
+    destinations: [
+      {
+        title: "Research Assistant",
+        soc: "19-4061",
+        socTitle: "Social Science Research Assistants",
+        aioe: 92.3,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Education Officer",
+        soc: "25-9031",
+        socTitle: "Instructional Coordinators",
+        aioe: 94.62,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Instructional Designer",
+        soc: "25-9031",
+        socTitle: "Instructional Coordinators",
+        aioe: 94.62,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Learning Designer",
+        soc: "25-9031",
+        socTitle: "Instructional Coordinators",
+        aioe: 94.62,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Educational Designer",
+        soc: "25-9031",
+        socTitle: "Instructional Coordinators",
+        aioe: 94.62,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Educational Consultant",
+        soc: "25-9031",
+        socTitle: "Instructional Coordinators",
+        aioe: 94.62,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Research Officer",
+        soc: "19-4061",
+        socTitle: "Social Science Research Assistants",
+        aioe: 92.3,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Learning Specialist",
+        soc: "25-9031",
+        socTitle: "Instructional Coordinators",
+        aioe: 94.62,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Education Manager",
+        soc: "11-9039",
+        socTitle: "Education Administrators, All Other",
+        aioe: 72.04,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Senior Lecturer",
+        soc: "",
+        socTitle: "unmatched -> imputed",
+        aioe: 92.5,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Lecturer",
+        soc: "",
+        socTitle: "unmatched -> imputed",
+        aioe: 92.5,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Research Fellow",
+        soc: "",
+        socTitle: "unmatched -> imputed",
+        aioe: 91.95,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Project Officer",
+        soc: "13-1199",
+        socTitle: "Business Operations Specialists, All Other",
+        aioe: 88.56,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Educational Psychologist",
+        soc: "19-3031",
+        socTitle: "Clinical, Counseling, and School Psychologists",
+        aioe: 98.3,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Director of Learning and Teaching",
+        soc: "11-9033",
+        socTitle: "Education Administrators, Postsecondary",
+        aioe: 98.42,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
     ],
-    "nearBoundary": true,
-    "destinations": [
-      {
-        "title": "Research Assistant",
-        "soc": "19-4061",
-        "socTitle": "Social Science Research Assistants",
-        "aioe": 92.3,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Education Officer",
-        "soc": "25-9031",
-        "socTitle": "Instructional Coordinators",
-        "aioe": 94.62,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Instructional Designer",
-        "soc": "25-9031",
-        "socTitle": "Instructional Coordinators",
-        "aioe": 94.62,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Learning Designer",
-        "soc": "25-9031",
-        "socTitle": "Instructional Coordinators",
-        "aioe": 94.62,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Educational Designer",
-        "soc": "25-9031",
-        "socTitle": "Instructional Coordinators",
-        "aioe": 94.62,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Educational Consultant",
-        "soc": "25-9031",
-        "socTitle": "Instructional Coordinators",
-        "aioe": 94.62,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Research Officer",
-        "soc": "19-4061",
-        "socTitle": "Social Science Research Assistants",
-        "aioe": 92.3,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Learning Specialist",
-        "soc": "25-9031",
-        "socTitle": "Instructional Coordinators",
-        "aioe": 94.62,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Education Manager",
-        "soc": "11-9039",
-        "socTitle": "Education Administrators, All Other",
-        "aioe": 72.04,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Senior Lecturer",
-        "soc": "",
-        "socTitle": "unmatched -> imputed",
-        "aioe": 92.5,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Lecturer",
-        "soc": "",
-        "socTitle": "unmatched -> imputed",
-        "aioe": 92.5,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Research Fellow",
-        "soc": "",
-        "socTitle": "unmatched -> imputed",
-        "aioe": 91.95,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Project Officer",
-        "soc": "13-1199",
-        "socTitle": "Business Operations Specialists, All Other",
-        "aioe": 88.56,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Educational Psychologist",
-        "soc": "19-3031",
-        "socTitle": "Clinical, Counseling, and School Psychologists",
-        "aioe": 98.3,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Director of Learning and Teaching",
-        "soc": "11-9033",
-        "socTitle": "Education Administrators, Postsecondary",
-        "aioe": 98.42,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      }
-    ]
   },
   {
-    "code": "mc-envsc",
-    "name": "Master of Environmental Science",
-    "faculty": "Science",
-    "v1Score": 25,
-    "v1Band": "MODERATE RISK",
-    "v2Exposure": 56.9,
-    "v2Quadrant": "sheltered",
-    "exposure": 83.13,
-    "entryExposure": 75.79,
-    "jirN": 32,
-    "coverage": 1,
-    "nTitles": 15,
-    "nMedium": 9,
-    "nInherited": 15,
-    "nNewlyMapped": 0,
-    "nExtension": 0,
-    "matchTier": "exact",
-    "extensionNote": null,
-    "cohort": "reference",
-    "adaptiveness": 10,
-    "dimensionScores": {
-      "D2": 3,
-      "D3": 2,
-      "D7": 2,
-      "B": 2,
-      "D5": 1
+    code: "mc-envsc",
+    name: "Master of Environmental Science",
+    faculty: "Science",
+    v1Score: 25,
+    v1Band: "MODERATE RISK",
+    v2Exposure: 56.9,
+    v2Quadrant: "sheltered",
+    exposure: 83.13,
+    entryExposure: 75.79,
+    jirN: 32,
+    coverage: 1,
+    nTitles: 15,
+    nMedium: 9,
+    nInherited: 15,
+    nNewlyMapped: 0,
+    nExtension: 0,
+    matchTier: "exact",
+    extensionNote: null,
+    cohort: "reference",
+    adaptiveness: 10,
+    dimensionScores: {
+      D2: 3,
+      D3: 2,
+      D7: 2,
+      B: 2,
+      D5: 1,
     },
-    "gateD4": "PASS",
-    "gateD6": "PASS",
-    "quadrant": "comfortable",
-    "quadrantDist": {
+    gateD4: "PASS",
+    gateD6: "PASS",
+    quadrant: "comfortable",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 0.804,
-      "attention": 0,
-      "sheltered": 0.196
+      comfortable: 0.804,
+      attention: 0,
+      sheltered: 0.196,
     },
-    "modalProb": 0.804,
-    "runnerUpQuadrant": "sheltered",
-    "adaptInterval": [
-      6,
-      13
+    modalProb: 0.804,
+    runnerUpQuadrant: "sheltered",
+    adaptInterval: [6, 13],
+    nearBoundary: true,
+    destinations: [
+      {
+        title: "Graduate Environmental Scientist",
+        soc: "19-2041",
+        socTitle: "Environmental Scientists and Specialists, Including Health",
+        aioe: 87.77,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Graduate Environmental Consultant",
+        soc: "19-2041",
+        socTitle: "Environmental Scientists and Specialists, Including Health",
+        aioe: 87.77,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Graduate Zoologist",
+        soc: "19-1023",
+        socTitle: "Zoologists and Wildlife Biologists",
+        aioe: 71.17,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Environmental Technician",
+        soc: "19-4091",
+        socTitle:
+          "Environmental Science and Protection Technicians, Including Health",
+        aioe: 64.01,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Graduate Technician",
+        soc: "17-3029",
+        socTitle: "Engineering Technicians, Except Drafters, All Other",
+        aioe: 68.23,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Environmental Consultant",
+        soc: "19-2041",
+        socTitle: "Environmental Scientists and Specialists, Including Health",
+        aioe: 87.77,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Environmental Scientist",
+        soc: "19-2041",
+        socTitle: "Environmental Scientists and Specialists, Including Health",
+        aioe: 87.77,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Environment Adviser",
+        soc: "19-2041",
+        socTitle: "Environmental Scientists and Specialists, Including Health",
+        aioe: 87.77,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Ecological Restoration Consultant",
+        soc: "19-1031",
+        socTitle: "Conservation Scientists",
+        aioe: 65.25,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Sustainability Officer",
+        soc: "19-2041",
+        socTitle: "Environmental Scientists and Specialists, Including Health",
+        aioe: 87.77,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Environmental Officer",
+        soc: "19-2041",
+        socTitle: "Environmental Scientists and Specialists, Including Health",
+        aioe: 87.77,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Research Assistant",
+        soc: "19-4061",
+        socTitle: "Social Science Research Assistants",
+        aioe: 92.3,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Senior Environmental Advisor",
+        soc: "19-2041",
+        socTitle: "Environmental Scientists and Specialists, Including Health",
+        aioe: 87.77,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Laboratory Manager",
+        soc: "11-9121",
+        socTitle: "Natural Sciences Managers",
+        aioe: 95.24,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Project Officer",
+        soc: "13-1199",
+        socTitle: "Business Operations Specialists, All Other",
+        aioe: 88.56,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
     ],
-    "nearBoundary": true,
-    "destinations": [
-      {
-        "title": "Graduate Environmental Scientist",
-        "soc": "19-2041",
-        "socTitle": "Environmental Scientists and Specialists, Including Health",
-        "aioe": 87.77,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Graduate Environmental Consultant",
-        "soc": "19-2041",
-        "socTitle": "Environmental Scientists and Specialists, Including Health",
-        "aioe": 87.77,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Graduate Zoologist",
-        "soc": "19-1023",
-        "socTitle": "Zoologists and Wildlife Biologists",
-        "aioe": 71.17,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Environmental Technician",
-        "soc": "19-4091",
-        "socTitle": "Environmental Science and Protection Technicians, Including Health",
-        "aioe": 64.01,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Graduate Technician",
-        "soc": "17-3029",
-        "socTitle": "Engineering Technicians, Except Drafters, All Other",
-        "aioe": 68.23,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Environmental Consultant",
-        "soc": "19-2041",
-        "socTitle": "Environmental Scientists and Specialists, Including Health",
-        "aioe": 87.77,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Environmental Scientist",
-        "soc": "19-2041",
-        "socTitle": "Environmental Scientists and Specialists, Including Health",
-        "aioe": 87.77,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Environment Adviser",
-        "soc": "19-2041",
-        "socTitle": "Environmental Scientists and Specialists, Including Health",
-        "aioe": 87.77,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Ecological Restoration Consultant",
-        "soc": "19-1031",
-        "socTitle": "Conservation Scientists",
-        "aioe": 65.25,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Sustainability Officer",
-        "soc": "19-2041",
-        "socTitle": "Environmental Scientists and Specialists, Including Health",
-        "aioe": 87.77,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Environmental Officer",
-        "soc": "19-2041",
-        "socTitle": "Environmental Scientists and Specialists, Including Health",
-        "aioe": 87.77,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Research Assistant",
-        "soc": "19-4061",
-        "socTitle": "Social Science Research Assistants",
-        "aioe": 92.3,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Senior Environmental Advisor",
-        "soc": "19-2041",
-        "socTitle": "Environmental Scientists and Specialists, Including Health",
-        "aioe": 87.77,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Laboratory Manager",
-        "soc": "11-9121",
-        "socTitle": "Natural Sciences Managers",
-        "aioe": 95.24,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Project Officer",
-        "soc": "13-1199",
-        "socTitle": "Business Operations Specialists, All Other",
-        "aioe": 88.56,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      }
-    ]
   },
   {
-    "code": "mc-gencoun",
-    "name": "Master of Genetic Counselling",
-    "faculty": "Medicine, Dentistry & Health",
-    "v1Score": 27,
-    "v1Band": "MODERATE RISK",
-    "v2Exposure": 52.1,
-    "v2Quadrant": "sheltered",
-    "exposure": 93.27,
-    "entryExposure": 94.5,
-    "jirN": 35,
-    "coverage": 1,
-    "nTitles": 15,
-    "nMedium": 10,
-    "nInherited": 15,
-    "nNewlyMapped": 0,
-    "nExtension": 0,
-    "matchTier": "exact",
-    "extensionNote": null,
-    "cohort": "reference",
-    "adaptiveness": 10,
-    "dimensionScores": {
-      "D2": 2,
-      "D3": 2,
-      "D7": 2,
-      "B": 3,
-      "D5": 1
+    code: "mc-gencoun",
+    name: "Master of Genetic Counselling",
+    faculty: "Medicine, Dentistry & Health",
+    v1Score: 27,
+    v1Band: "MODERATE RISK",
+    v2Exposure: 52.1,
+    v2Quadrant: "sheltered",
+    exposure: 93.27,
+    entryExposure: 94.5,
+    jirN: 35,
+    coverage: 1,
+    nTitles: 15,
+    nMedium: 10,
+    nInherited: 15,
+    nNewlyMapped: 0,
+    nExtension: 0,
+    matchTier: "exact",
+    extensionNote: null,
+    cohort: "reference",
+    adaptiveness: 10,
+    dimensionScores: {
+      D2: 2,
+      D3: 2,
+      D7: 2,
+      B: 3,
+      D5: 1,
     },
-    "gateD4": "PASS",
-    "gateD6": "PASS",
-    "quadrant": "well-positioned",
-    "quadrantDist": {
+    gateD4: "PASS",
+    gateD6: "PASS",
+    quadrant: "well-positioned",
+    quadrantDist: {
       "well-positioned": 0.809,
-      "comfortable": 0,
-      "attention": 0.191,
-      "sheltered": 0
+      comfortable: 0,
+      attention: 0.191,
+      sheltered: 0,
     },
-    "modalProb": 0.809,
-    "runnerUpQuadrant": "attention",
-    "adaptInterval": [
-      7,
-      14
+    modalProb: 0.809,
+    runnerUpQuadrant: "attention",
+    adaptInterval: [7, 14],
+    nearBoundary: true,
+    destinations: [
+      {
+        title: "Genetic Counsellor",
+        soc: "29-9092",
+        socTitle: "Genetic Counselors",
+        aioe: 100,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Research Genetic Counsellor",
+        soc: "29-9092",
+        socTitle: "Genetic Counselors",
+        aioe: 100,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Cancer Genetic Counselor",
+        soc: "29-9092",
+        socTitle: "Genetic Counselors",
+        aioe: 100,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Research Assistant",
+        soc: "19-4061",
+        socTitle: "Social Science Research Assistants",
+        aioe: 92.3,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Genetics Education Officer",
+        soc: "25-9031",
+        socTitle: "Instructional Coordinators",
+        aioe: 94.62,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Health Promotion Officer",
+        soc: "21-1091",
+        socTitle: "Health Educators",
+        aioe: 80.08,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Ethical, Legal & Social Adviser",
+        soc: "19-3099",
+        socTitle: "Social Scientists and Related Workers, All Other",
+        aioe: 95.24,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Lecturer in Genetic Counselling",
+        soc: "25-1071",
+        socTitle: "Health Specialties Teachers, Postsecondary",
+        aioe: 85.64,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Research Fellow",
+        soc: "",
+        socTitle: "unmatched -> imputed",
+        aioe: 91.95,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Senior Project Coordinator",
+        soc: "13-1199",
+        socTitle: "Business Operations Specialists, All Other",
+        aioe: 88.56,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Research Implementation Lead",
+        soc: "11-9121",
+        socTitle: "Natural Sciences Managers",
+        aioe: 95.24,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Program Director",
+        soc: "11-9199",
+        socTitle: "Managers, All Other",
+        aioe: 86.59,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Principal Genetic Counsellor",
+        soc: "29-9092",
+        socTitle: "Genetic Counselors",
+        aioe: 100,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Genomic Education Development Lead",
+        soc: "25-9031",
+        socTitle: "Instructional Coordinators",
+        aioe: 94.62,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Education Training and Workforce Developement Lead",
+        soc: "11-3131",
+        socTitle: "Training and Development Managers",
+        aioe: 94.2,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
     ],
-    "nearBoundary": true,
-    "destinations": [
-      {
-        "title": "Genetic Counsellor",
-        "soc": "29-9092",
-        "socTitle": "Genetic Counselors",
-        "aioe": 100,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Research Genetic Counsellor",
-        "soc": "29-9092",
-        "socTitle": "Genetic Counselors",
-        "aioe": 100,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Cancer Genetic Counselor",
-        "soc": "29-9092",
-        "socTitle": "Genetic Counselors",
-        "aioe": 100,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Research Assistant",
-        "soc": "19-4061",
-        "socTitle": "Social Science Research Assistants",
-        "aioe": 92.3,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Genetics Education Officer",
-        "soc": "25-9031",
-        "socTitle": "Instructional Coordinators",
-        "aioe": 94.62,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Health Promotion Officer",
-        "soc": "21-1091",
-        "socTitle": "Health Educators",
-        "aioe": 80.08,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Ethical, Legal & Social Adviser",
-        "soc": "19-3099",
-        "socTitle": "Social Scientists and Related Workers, All Other",
-        "aioe": 95.24,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Lecturer in Genetic Counselling",
-        "soc": "25-1071",
-        "socTitle": "Health Specialties Teachers, Postsecondary",
-        "aioe": 85.64,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Research Fellow",
-        "soc": "",
-        "socTitle": "unmatched -> imputed",
-        "aioe": 91.95,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Senior Project Coordinator",
-        "soc": "13-1199",
-        "socTitle": "Business Operations Specialists, All Other",
-        "aioe": 88.56,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Research Implementation Lead",
-        "soc": "11-9121",
-        "socTitle": "Natural Sciences Managers",
-        "aioe": 95.24,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Program Director",
-        "soc": "11-9199",
-        "socTitle": "Managers, All Other",
-        "aioe": 86.59,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Principal Genetic Counsellor",
-        "soc": "29-9092",
-        "socTitle": "Genetic Counselors",
-        "aioe": 100,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Genomic Education Development Lead",
-        "soc": "25-9031",
-        "socTitle": "Instructional Coordinators",
-        "aioe": 94.62,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Education Training and Workforce Developement Lead",
-        "soc": "11-3131",
-        "socTitle": "Training and Development Managers",
-        "aioe": 94.2,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      }
-    ]
   },
   {
-    "code": "mc-intedib",
-    "name": "Master of International Education (IB)",
-    "faculty": "Education",
-    "v1Score": 18,
-    "v1Band": "HIGH RISK",
-    "v2Exposure": 60.7,
-    "v2Quadrant": "sheltered",
-    "exposure": 92.44,
-    "entryExposure": 94.16,
-    "jirN": 611,
-    "coverage": 1,
-    "nTitles": 15,
-    "nMedium": 11,
-    "nInherited": 15,
-    "nNewlyMapped": 0,
-    "nExtension": 0,
-    "matchTier": "exact",
-    "extensionNote": null,
-    "cohort": "reference",
-    "adaptiveness": 6,
-    "dimensionScores": {
-      "D2": 2,
-      "D3": 1,
-      "D7": 1,
-      "B": 1,
-      "D5": 1
+    code: "mc-intedib",
+    name: "Master of International Education (IB)",
+    faculty: "Education",
+    v1Score: 18,
+    v1Band: "HIGH RISK",
+    v2Exposure: 60.7,
+    v2Quadrant: "sheltered",
+    exposure: 92.44,
+    entryExposure: 94.16,
+    jirN: 611,
+    coverage: 1,
+    nTitles: 15,
+    nMedium: 11,
+    nInherited: 15,
+    nNewlyMapped: 0,
+    nExtension: 0,
+    matchTier: "exact",
+    extensionNote: null,
+    cohort: "reference",
+    adaptiveness: 6,
+    dimensionScores: {
+      D2: 2,
+      D3: 1,
+      D7: 1,
+      B: 1,
+      D5: 1,
     },
-    "gateD4": "PASS",
-    "gateD6": "PASS",
-    "quadrant": "attention",
-    "quadrantDist": {
+    gateD4: "PASS",
+    gateD6: "PASS",
+    quadrant: "attention",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 0,
-      "attention": 1,
-      "sheltered": 0
+      comfortable: 0,
+      attention: 1,
+      sheltered: 0,
     },
-    "modalProb": 1,
-    "runnerUpQuadrant": null,
-    "adaptInterval": [
-      3,
-      9
+    modalProb: 1,
+    runnerUpQuadrant: null,
+    adaptInterval: [3, 9],
+    nearBoundary: true,
+    destinations: [
+      {
+        title: "Research Assistant",
+        soc: "19-4061",
+        socTitle: "Social Science Research Assistants",
+        aioe: 92.3,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Education Officer",
+        soc: "25-9031",
+        socTitle: "Instructional Coordinators",
+        aioe: 94.62,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Instructional Designer",
+        soc: "25-9031",
+        socTitle: "Instructional Coordinators",
+        aioe: 94.62,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Learning Designer",
+        soc: "25-9031",
+        socTitle: "Instructional Coordinators",
+        aioe: 94.62,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Educational Designer",
+        soc: "25-9031",
+        socTitle: "Instructional Coordinators",
+        aioe: 94.62,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Educational Consultant",
+        soc: "25-9031",
+        socTitle: "Instructional Coordinators",
+        aioe: 94.62,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Research Officer",
+        soc: "19-4061",
+        socTitle: "Social Science Research Assistants",
+        aioe: 92.3,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Learning Specialist",
+        soc: "25-9031",
+        socTitle: "Instructional Coordinators",
+        aioe: 94.62,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Education Manager",
+        soc: "11-9039",
+        socTitle: "Education Administrators, All Other",
+        aioe: 72.04,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Senior Lecturer",
+        soc: "",
+        socTitle: "unmatched -> imputed",
+        aioe: 92.5,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Lecturer",
+        soc: "",
+        socTitle: "unmatched -> imputed",
+        aioe: 92.5,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Research Fellow",
+        soc: "",
+        socTitle: "unmatched -> imputed",
+        aioe: 91.95,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Project Officer",
+        soc: "13-1199",
+        socTitle: "Business Operations Specialists, All Other",
+        aioe: 88.56,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Educational Psychologist",
+        soc: "19-3031",
+        socTitle: "Clinical, Counseling, and School Psychologists",
+        aioe: 98.3,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Director of Learning and Teaching",
+        soc: "11-9033",
+        socTitle: "Education Administrators, Postsecondary",
+        aioe: 98.42,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
     ],
-    "nearBoundary": true,
-    "destinations": [
-      {
-        "title": "Research Assistant",
-        "soc": "19-4061",
-        "socTitle": "Social Science Research Assistants",
-        "aioe": 92.3,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Education Officer",
-        "soc": "25-9031",
-        "socTitle": "Instructional Coordinators",
-        "aioe": 94.62,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Instructional Designer",
-        "soc": "25-9031",
-        "socTitle": "Instructional Coordinators",
-        "aioe": 94.62,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Learning Designer",
-        "soc": "25-9031",
-        "socTitle": "Instructional Coordinators",
-        "aioe": 94.62,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Educational Designer",
-        "soc": "25-9031",
-        "socTitle": "Instructional Coordinators",
-        "aioe": 94.62,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Educational Consultant",
-        "soc": "25-9031",
-        "socTitle": "Instructional Coordinators",
-        "aioe": 94.62,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Research Officer",
-        "soc": "19-4061",
-        "socTitle": "Social Science Research Assistants",
-        "aioe": 92.3,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Learning Specialist",
-        "soc": "25-9031",
-        "socTitle": "Instructional Coordinators",
-        "aioe": 94.62,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Education Manager",
-        "soc": "11-9039",
-        "socTitle": "Education Administrators, All Other",
-        "aioe": 72.04,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Senior Lecturer",
-        "soc": "",
-        "socTitle": "unmatched -> imputed",
-        "aioe": 92.5,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Lecturer",
-        "soc": "",
-        "socTitle": "unmatched -> imputed",
-        "aioe": 92.5,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Research Fellow",
-        "soc": "",
-        "socTitle": "unmatched -> imputed",
-        "aioe": 91.95,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Project Officer",
-        "soc": "13-1199",
-        "socTitle": "Business Operations Specialists, All Other",
-        "aioe": 88.56,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Educational Psychologist",
-        "soc": "19-3031",
-        "socTitle": "Clinical, Counseling, and School Psychologists",
-        "aioe": 98.3,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Director of Learning and Teaching",
-        "soc": "11-9033",
-        "socTitle": "Education Administrators, Postsecondary",
-        "aioe": 98.42,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      }
-    ]
   },
   {
-    "code": "mc-is",
-    "name": "Master of Information Systems",
-    "faculty": "Business & Economics",
-    "v1Score": 20,
-    "v1Band": "MODERATE RISK",
-    "v2Exposure": 69.3,
-    "v2Quadrant": "attention",
-    "exposure": 91.69,
-    "entryExposure": 90.82,
-    "jirN": 257,
-    "coverage": 1,
-    "nTitles": 14,
-    "nMedium": 10,
-    "nInherited": 14,
-    "nNewlyMapped": 0,
-    "nExtension": 0,
-    "matchTier": "exact",
-    "extensionNote": null,
-    "cohort": "reference",
-    "adaptiveness": 8,
-    "dimensionScores": {
-      "D2": 2,
-      "D3": 2,
-      "D7": 2,
-      "B": 1,
-      "D5": 1
+    code: "mc-is",
+    name: "Master of Information Systems",
+    faculty: "Business & Economics",
+    v1Score: 20,
+    v1Band: "MODERATE RISK",
+    v2Exposure: 69.3,
+    v2Quadrant: "attention",
+    exposure: 91.69,
+    entryExposure: 90.82,
+    jirN: 257,
+    coverage: 1,
+    nTitles: 14,
+    nMedium: 10,
+    nInherited: 14,
+    nNewlyMapped: 0,
+    nExtension: 0,
+    matchTier: "exact",
+    extensionNote: null,
+    cohort: "reference",
+    adaptiveness: 8,
+    dimensionScores: {
+      D2: 2,
+      D3: 2,
+      D7: 2,
+      B: 1,
+      D5: 1,
     },
-    "gateD4": "PASS",
-    "gateD6": "PASS",
-    "quadrant": "attention",
-    "quadrantDist": {
+    gateD4: "PASS",
+    gateD6: "PASS",
+    quadrant: "attention",
+    quadrantDist: {
       "well-positioned": 0.018,
-      "comfortable": 0,
-      "attention": 0.982,
-      "sheltered": 0
+      comfortable: 0,
+      attention: 0.982,
+      sheltered: 0,
     },
-    "modalProb": 0.982,
-    "runnerUpQuadrant": "well-positioned",
-    "adaptInterval": [
-      5,
-      11
+    modalProb: 0.982,
+    runnerUpQuadrant: "well-positioned",
+    adaptInterval: [5, 11],
+    nearBoundary: true,
+    destinations: [
+      {
+        title: "Business Analyst",
+        soc: "13-1111",
+        socTitle: "Management Analysts",
+        aioe: 97.73,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Data Analyst",
+        soc: "15-2041",
+        socTitle: "Statisticians",
+        aioe: 96.55,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Systems Analyst",
+        soc: "15-1121",
+        socTitle: "Computer Systems Analysts",
+        aioe: 92.15,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "IT Support Officer",
+        soc: "15-1151",
+        socTitle: "Computer User Support Specialists",
+        aioe: 70.74,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Application Developer",
+        soc: "15-1132",
+        socTitle: "Software Developers, Applications",
+        aioe: 92.22,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Graduate Technology Risk Consultant",
+        soc: "15-1122",
+        socTitle: "Information Security Analysts",
+        aioe: 93.39,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Information Technology Graduate",
+        soc: "15-1199",
+        socTitle: "Computer Occupations, All Other",
+        aioe: 92.97,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Project Manager",
+        soc: "11-9199",
+        socTitle: "Managers, All Other",
+        aioe: 86.59,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Product Manager",
+        soc: "11-2021",
+        socTitle: "Marketing Managers",
+        aioe: 94.93,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Software Engineer",
+        soc: "15-1132",
+        socTitle: "Software Developers, Applications",
+        aioe: 92.22,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Technology Consultant",
+        soc: "15-1121",
+        socTitle: "Computer Systems Analysts",
+        aioe: 92.15,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Senior Business Analyst",
+        soc: "13-1111",
+        socTitle: "Management Analysts",
+        aioe: 97.73,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Consultant",
+        soc: "13-1111",
+        socTitle: "Management Analysts",
+        aioe: 97.73,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Project Manager",
+        soc: "11-9199",
+        socTitle: "Managers, All Other",
+        aioe: 86.59,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
     ],
-    "nearBoundary": true,
-    "destinations": [
-      {
-        "title": "Business Analyst",
-        "soc": "13-1111",
-        "socTitle": "Management Analysts",
-        "aioe": 97.73,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Data Analyst",
-        "soc": "15-2041",
-        "socTitle": "Statisticians",
-        "aioe": 96.55,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Systems Analyst",
-        "soc": "15-1121",
-        "socTitle": "Computer Systems Analysts",
-        "aioe": 92.15,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "IT Support Officer",
-        "soc": "15-1151",
-        "socTitle": "Computer User Support Specialists",
-        "aioe": 70.74,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Application Developer",
-        "soc": "15-1132",
-        "socTitle": "Software Developers, Applications",
-        "aioe": 92.22,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Graduate Technology Risk Consultant",
-        "soc": "15-1122",
-        "socTitle": "Information Security Analysts",
-        "aioe": 93.39,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Information Technology Graduate",
-        "soc": "15-1199",
-        "socTitle": "Computer Occupations, All Other",
-        "aioe": 92.97,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Project Manager",
-        "soc": "11-9199",
-        "socTitle": "Managers, All Other",
-        "aioe": 86.59,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Product Manager",
-        "soc": "11-2021",
-        "socTitle": "Marketing Managers",
-        "aioe": 94.93,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Software Engineer",
-        "soc": "15-1132",
-        "socTitle": "Software Developers, Applications",
-        "aioe": 92.22,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Technology Consultant",
-        "soc": "15-1121",
-        "socTitle": "Computer Systems Analysts",
-        "aioe": 92.15,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Senior Business Analyst",
-        "soc": "13-1111",
-        "socTitle": "Management Analysts",
-        "aioe": 97.73,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Consultant",
-        "soc": "13-1111",
-        "socTitle": "Management Analysts",
-        "aioe": 97.73,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Project Manager",
-        "soc": "11-9199",
-        "socTitle": "Managers, All Other",
-        "aioe": 86.59,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      }
-    ]
   },
   {
-    "code": "mc-journ",
-    "name": "Master of Journalism",
-    "faculty": "Arts",
-    "v1Score": 21,
-    "v1Band": "MODERATE RISK",
-    "v2Exposure": 69.3,
-    "v2Quadrant": "attention",
-    "exposure": 91.48,
-    "entryExposure": 92.18,
-    "jirN": 51,
-    "coverage": 1,
-    "nTitles": 15,
-    "nMedium": 3,
-    "nInherited": 15,
-    "nNewlyMapped": 0,
-    "nExtension": 0,
-    "matchTier": "exact",
-    "extensionNote": null,
-    "cohort": "reference",
-    "adaptiveness": 8,
-    "dimensionScores": {
-      "D2": 2,
-      "D3": 1,
-      "D7": 2,
-      "B": 2,
-      "D5": 1
+    code: "mc-journ",
+    name: "Master of Journalism",
+    faculty: "Arts",
+    v1Score: 21,
+    v1Band: "MODERATE RISK",
+    v2Exposure: 69.3,
+    v2Quadrant: "attention",
+    exposure: 91.48,
+    entryExposure: 92.18,
+    jirN: 51,
+    coverage: 1,
+    nTitles: 15,
+    nMedium: 3,
+    nInherited: 15,
+    nNewlyMapped: 0,
+    nExtension: 0,
+    matchTier: "exact",
+    extensionNote: null,
+    cohort: "reference",
+    adaptiveness: 8,
+    dimensionScores: {
+      D2: 2,
+      D3: 1,
+      D7: 2,
+      B: 2,
+      D5: 1,
     },
-    "gateD4": "PASS",
-    "gateD6": "PASS",
-    "quadrant": "attention",
-    "quadrantDist": {
+    gateD4: "PASS",
+    gateD6: "PASS",
+    quadrant: "attention",
+    quadrantDist: {
       "well-positioned": 0.02,
-      "comfortable": 0,
-      "attention": 0.98,
-      "sheltered": 0
+      comfortable: 0,
+      attention: 0.98,
+      sheltered: 0,
     },
-    "modalProb": 0.98,
-    "runnerUpQuadrant": "well-positioned",
-    "adaptInterval": [
-      5,
-      11
+    modalProb: 0.98,
+    runnerUpQuadrant: "well-positioned",
+    adaptInterval: [5, 11],
+    nearBoundary: true,
+    destinations: [
+      {
+        title: "Journalist",
+        soc: "27-3022",
+        socTitle: "Reporters and Correspondents",
+        aioe: 91.88,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Reporter",
+        soc: "27-3022",
+        socTitle: "Reporters and Correspondents",
+        aioe: 91.88,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Freelance Journalist",
+        soc: "27-3022",
+        socTitle: "Reporters and Correspondents",
+        aioe: 91.88,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Cadet Journalist",
+        soc: "27-3022",
+        socTitle: "Reporters and Correspondents",
+        aioe: 91.88,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Digital Content Officer",
+        soc: "27-3031",
+        socTitle: "Public Relations Specialists",
+        aioe: 94.22,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Media and Communications Coordinator",
+        soc: "27-3031",
+        socTitle: "Public Relations Specialists",
+        aioe: 94.22,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Social Media Coordinator",
+        soc: "27-3031",
+        socTitle: "Public Relations Specialists",
+        aioe: 94.22,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Content Writer",
+        soc: "27-3043",
+        socTitle: "Writers and Authors",
+        aioe: 87.14,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Research Assistant",
+        soc: "19-4061",
+        socTitle: "Social Science Research Assistants",
+        aioe: 92.3,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "News Reporter",
+        soc: "27-3022",
+        socTitle: "Reporters and Correspondents",
+        aioe: 91.88,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Digital Reporter",
+        soc: "27-3022",
+        socTitle: "Reporters and Correspondents",
+        aioe: 91.88,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Producer",
+        soc: "27-2012",
+        socTitle: "Producers and Directors",
+        aioe: 85.97,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "News Editor",
+        soc: "27-3041",
+        socTitle: "Editors",
+        aioe: 90.48,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Managing Editor",
+        soc: "27-3041",
+        socTitle: "Editors",
+        aioe: 90.48,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Reporter",
+        soc: "27-3022",
+        socTitle: "Reporters and Correspondents",
+        aioe: 91.88,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
     ],
-    "nearBoundary": true,
-    "destinations": [
-      {
-        "title": "Journalist",
-        "soc": "27-3022",
-        "socTitle": "Reporters and Correspondents",
-        "aioe": 91.88,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Reporter",
-        "soc": "27-3022",
-        "socTitle": "Reporters and Correspondents",
-        "aioe": 91.88,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Freelance Journalist",
-        "soc": "27-3022",
-        "socTitle": "Reporters and Correspondents",
-        "aioe": 91.88,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Cadet Journalist",
-        "soc": "27-3022",
-        "socTitle": "Reporters and Correspondents",
-        "aioe": 91.88,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Digital Content Officer",
-        "soc": "27-3031",
-        "socTitle": "Public Relations Specialists",
-        "aioe": 94.22,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Media and Communications Coordinator",
-        "soc": "27-3031",
-        "socTitle": "Public Relations Specialists",
-        "aioe": 94.22,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Social Media Coordinator",
-        "soc": "27-3031",
-        "socTitle": "Public Relations Specialists",
-        "aioe": 94.22,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Content Writer",
-        "soc": "27-3043",
-        "socTitle": "Writers and Authors",
-        "aioe": 87.14,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Research Assistant",
-        "soc": "19-4061",
-        "socTitle": "Social Science Research Assistants",
-        "aioe": 92.3,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "News Reporter",
-        "soc": "27-3022",
-        "socTitle": "Reporters and Correspondents",
-        "aioe": 91.88,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Digital Reporter",
-        "soc": "27-3022",
-        "socTitle": "Reporters and Correspondents",
-        "aioe": 91.88,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Producer",
-        "soc": "27-2012",
-        "socTitle": "Producers and Directors",
-        "aioe": 85.97,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "News Editor",
-        "soc": "27-3041",
-        "socTitle": "Editors",
-        "aioe": 90.48,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Managing Editor",
-        "soc": "27-3041",
-        "socTitle": "Editors",
-        "aioe": 90.48,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Reporter",
-        "soc": "27-3022",
-        "socTitle": "Reporters and Correspondents",
-        "aioe": 91.88,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      }
-    ]
   },
   {
-    "code": "mc-jurisd",
-    "name": "Juris Doctor",
-    "faculty": "Law",
-    "v1Score": 24,
-    "v1Band": "MODERATE RISK",
-    "v2Exposure": 66.8,
-    "v2Quadrant": "attention",
-    "exposure": 94.43,
-    "entryExposure": 93.12,
-    "jirN": 1277,
-    "coverage": 1,
-    "nTitles": 15,
-    "nMedium": 7,
-    "nInherited": 15,
-    "nNewlyMapped": 0,
-    "nExtension": 0,
-    "matchTier": "exact",
-    "extensionNote": null,
-    "cohort": "reference",
-    "adaptiveness": 9,
-    "dimensionScores": {
-      "D2": 2,
-      "D3": 1,
-      "D7": 2,
-      "B": 2,
-      "D5": 2
+    code: "mc-jurisd",
+    name: "Juris Doctor",
+    faculty: "Law",
+    v1Score: 24,
+    v1Band: "MODERATE RISK",
+    v2Exposure: 66.8,
+    v2Quadrant: "attention",
+    exposure: 94.43,
+    entryExposure: 93.12,
+    jirN: 1277,
+    coverage: 1,
+    nTitles: 15,
+    nMedium: 7,
+    nInherited: 15,
+    nNewlyMapped: 0,
+    nExtension: 0,
+    matchTier: "exact",
+    extensionNote: null,
+    cohort: "reference",
+    adaptiveness: 9,
+    dimensionScores: {
+      D2: 2,
+      D3: 1,
+      D7: 2,
+      B: 2,
+      D5: 2,
     },
-    "gateD4": "PASS",
-    "gateD6": "PASS",
-    "quadrant": "attention",
-    "quadrantDist": {
+    gateD4: "PASS",
+    gateD6: "PASS",
+    quadrant: "attention",
+    quadrantDist: {
       "well-positioned": 0.186,
-      "comfortable": 0,
-      "attention": 0.814,
-      "sheltered": 0
+      comfortable: 0,
+      attention: 0.814,
+      sheltered: 0,
     },
-    "modalProb": 0.814,
-    "runnerUpQuadrant": "well-positioned",
-    "adaptInterval": [
-      5,
-      12
+    modalProb: 0.814,
+    runnerUpQuadrant: "well-positioned",
+    adaptInterval: [5, 12],
+    nearBoundary: true,
+    destinations: [
+      {
+        title: "Law Graduate",
+        soc: "23-1011",
+        socTitle: "Lawyers",
+        aioe: 95.26,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Paralegal",
+        soc: "23-2011",
+        socTitle: "Paralegals and Legal Assistants",
+        aioe: 94.39,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Seasonal Clerk",
+        soc: "43-9061",
+        socTitle: "Office Clerks, General",
+        aioe: 87.16,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Law Clerk",
+        soc: "23-2011",
+        socTitle: "Paralegals and Legal Assistants",
+        aioe: 94.39,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Legal Assistant",
+        soc: "23-2011",
+        socTitle: "Paralegals and Legal Assistants",
+        aioe: 94.39,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Legal Counsel",
+        soc: "23-1011",
+        socTitle: "Lawyers",
+        aioe: 95.26,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Policy Officer",
+        soc: "19-3094",
+        socTitle: "Political Scientists",
+        aioe: 97.41,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Legal Officer",
+        soc: "23-1011",
+        socTitle: "Lawyers",
+        aioe: 95.26,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Legal Analyst",
+        soc: "23-2011",
+        socTitle: "Paralegals and Legal Assistants",
+        aioe: 94.39,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Research Assistant",
+        soc: "19-4061",
+        socTitle: "Social Science Research Assistants",
+        aioe: 92.3,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Solicitor",
+        soc: "23-1011",
+        socTitle: "Lawyers",
+        aioe: 95.26,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Lawyer",
+        soc: "23-1011",
+        socTitle: "Lawyers",
+        aioe: 95.26,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Barrister",
+        soc: "23-1011",
+        socTitle: "Lawyers",
+        aioe: 95.26,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Lawyer",
+        soc: "23-1011",
+        socTitle: "Lawyers",
+        aioe: 95.26,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Legal Counsel",
+        soc: "23-1011",
+        socTitle: "Lawyers",
+        aioe: 95.26,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
     ],
-    "nearBoundary": true,
-    "destinations": [
-      {
-        "title": "Law Graduate",
-        "soc": "23-1011",
-        "socTitle": "Lawyers",
-        "aioe": 95.26,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Paralegal",
-        "soc": "23-2011",
-        "socTitle": "Paralegals and Legal Assistants",
-        "aioe": 94.39,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Seasonal Clerk",
-        "soc": "43-9061",
-        "socTitle": "Office Clerks, General",
-        "aioe": 87.16,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Law Clerk",
-        "soc": "23-2011",
-        "socTitle": "Paralegals and Legal Assistants",
-        "aioe": 94.39,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Legal Assistant",
-        "soc": "23-2011",
-        "socTitle": "Paralegals and Legal Assistants",
-        "aioe": 94.39,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Legal Counsel",
-        "soc": "23-1011",
-        "socTitle": "Lawyers",
-        "aioe": 95.26,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Policy Officer",
-        "soc": "19-3094",
-        "socTitle": "Political Scientists",
-        "aioe": 97.41,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Legal Officer",
-        "soc": "23-1011",
-        "socTitle": "Lawyers",
-        "aioe": 95.26,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Legal Analyst",
-        "soc": "23-2011",
-        "socTitle": "Paralegals and Legal Assistants",
-        "aioe": 94.39,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Research Assistant",
-        "soc": "19-4061",
-        "socTitle": "Social Science Research Assistants",
-        "aioe": 92.3,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Solicitor",
-        "soc": "23-1011",
-        "socTitle": "Lawyers",
-        "aioe": 95.26,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Lawyer",
-        "soc": "23-1011",
-        "socTitle": "Lawyers",
-        "aioe": 95.26,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Barrister",
-        "soc": "23-1011",
-        "socTitle": "Lawyers",
-        "aioe": 95.26,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Lawyer",
-        "soc": "23-1011",
-        "socTitle": "Lawyers",
-        "aioe": 95.26,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Legal Counsel",
-        "soc": "23-1011",
-        "socTitle": "Lawyers",
-        "aioe": 95.26,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      }
-    ]
   },
   {
-    "code": "mc-nursc",
-    "name": "Master of Nursing Science",
-    "faculty": "Medicine, Dentistry & Health",
-    "v1Score": 27,
-    "v1Band": "MODERATE RISK",
-    "v2Exposure": 39,
-    "v2Quadrant": "sheltered",
-    "exposure": 72.69,
-    "entryExposure": 69.07,
-    "jirN": 129,
-    "coverage": 1,
-    "nTitles": 14,
-    "nMedium": 3,
-    "nInherited": 14,
-    "nNewlyMapped": 0,
-    "nExtension": 0,
-    "matchTier": "exact",
-    "extensionNote": null,
-    "cohort": "reference",
-    "adaptiveness": 10,
-    "dimensionScores": {
-      "D2": 2,
-      "D3": 2,
-      "D7": 2,
-      "B": 3,
-      "D5": 1
+    code: "mc-nursc",
+    name: "Master of Nursing Science",
+    faculty: "Medicine, Dentistry & Health",
+    v1Score: 27,
+    v1Band: "MODERATE RISK",
+    v2Exposure: 39,
+    v2Quadrant: "sheltered",
+    exposure: 72.69,
+    entryExposure: 69.07,
+    jirN: 129,
+    coverage: 1,
+    nTitles: 14,
+    nMedium: 3,
+    nInherited: 14,
+    nNewlyMapped: 0,
+    nExtension: 0,
+    matchTier: "exact",
+    extensionNote: null,
+    cohort: "reference",
+    adaptiveness: 10,
+    dimensionScores: {
+      D2: 2,
+      D3: 2,
+      D7: 2,
+      B: 3,
+      D5: 1,
     },
-    "gateD4": "PASS",
-    "gateD6": "PASS",
-    "quadrant": "comfortable",
-    "quadrantDist": {
+    gateD4: "PASS",
+    gateD6: "PASS",
+    quadrant: "comfortable",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 0.806,
-      "attention": 0,
-      "sheltered": 0.194
+      comfortable: 0.806,
+      attention: 0,
+      sheltered: 0.194,
     },
-    "modalProb": 0.806,
-    "runnerUpQuadrant": "sheltered",
-    "adaptInterval": [
-      6,
-      13
+    modalProb: 0.806,
+    runnerUpQuadrant: "sheltered",
+    adaptInterval: [6, 13],
+    nearBoundary: true,
+    destinations: [
+      {
+        title: "Registered Nurse",
+        soc: "29-1141",
+        socTitle: "Registered Nurses",
+        aioe: 69.07,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Graduate Nurse",
+        soc: "29-1141",
+        socTitle: "Registered Nurses",
+        aioe: 69.07,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Registered Nurse Emergency Department",
+        soc: "29-1141",
+        socTitle: "Registered Nurses",
+        aioe: 69.07,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Intensive Care Nurse",
+        soc: "29-1141",
+        socTitle: "Registered Nurses",
+        aioe: 69.07,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Medical Surgical Nurse",
+        soc: "29-1141",
+        socTitle: "Registered Nurses",
+        aioe: 69.07,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Mental Health Nurse",
+        soc: "29-1141",
+        socTitle: "Registered Nurses",
+        aioe: 69.07,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Community Registered Nurse",
+        soc: "29-1141",
+        socTitle: "Registered Nurses",
+        aioe: 69.07,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Clinical Nurse Specialist",
+        soc: "29-1141",
+        socTitle: "Registered Nurses",
+        aioe: 69.07,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Clinical Nurse Consultant",
+        soc: "29-1141",
+        socTitle: "Registered Nurses",
+        aioe: 69.07,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Nurse Coordinator",
+        soc: "29-1141",
+        socTitle: "Registered Nurses",
+        aioe: 69.07,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Practice Development Nurse",
+        soc: "29-1141",
+        socTitle: "Registered Nurses",
+        aioe: 69.07,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Clinical Trial Coordinator",
+        soc: "11-9121",
+        socTitle: "Natural Sciences Managers",
+        aioe: 95.24,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Clinical Research Nurse",
+        soc: "29-1141",
+        socTitle: "Registered Nurses",
+        aioe: 69.07,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Healthcare Manager",
+        soc: "11-9111",
+        socTitle: "Medical and Health Services Managers",
+        aioe: 93.63,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
     ],
-    "nearBoundary": true,
-    "destinations": [
-      {
-        "title": "Registered Nurse",
-        "soc": "29-1141",
-        "socTitle": "Registered Nurses",
-        "aioe": 69.07,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Graduate Nurse",
-        "soc": "29-1141",
-        "socTitle": "Registered Nurses",
-        "aioe": 69.07,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Registered Nurse Emergency Department",
-        "soc": "29-1141",
-        "socTitle": "Registered Nurses",
-        "aioe": 69.07,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Intensive Care Nurse",
-        "soc": "29-1141",
-        "socTitle": "Registered Nurses",
-        "aioe": 69.07,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Medical Surgical Nurse",
-        "soc": "29-1141",
-        "socTitle": "Registered Nurses",
-        "aioe": 69.07,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Mental Health Nurse",
-        "soc": "29-1141",
-        "socTitle": "Registered Nurses",
-        "aioe": 69.07,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Community Registered Nurse",
-        "soc": "29-1141",
-        "socTitle": "Registered Nurses",
-        "aioe": 69.07,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Clinical Nurse Specialist",
-        "soc": "29-1141",
-        "socTitle": "Registered Nurses",
-        "aioe": 69.07,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Clinical Nurse Consultant",
-        "soc": "29-1141",
-        "socTitle": "Registered Nurses",
-        "aioe": 69.07,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Nurse Coordinator",
-        "soc": "29-1141",
-        "socTitle": "Registered Nurses",
-        "aioe": 69.07,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Practice Development Nurse",
-        "soc": "29-1141",
-        "socTitle": "Registered Nurses",
-        "aioe": 69.07,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Clinical Trial Coordinator",
-        "soc": "11-9121",
-        "socTitle": "Natural Sciences Managers",
-        "aioe": 95.24,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Clinical Research Nurse",
-        "soc": "29-1141",
-        "socTitle": "Registered Nurses",
-        "aioe": 69.07,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Healthcare Manager",
-        "soc": "11-9111",
-        "socTitle": "Medical and Health Services Managers",
-        "aioe": 93.63,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      }
-    ]
   },
   {
-    "code": "mc-phtyph",
-    "name": "Master of Physiotherapy (Pelvic Health)",
-    "faculty": "Medicine, Dentistry & Health",
-    "v1Score": 27,
-    "v1Band": "MODERATE RISK",
-    "v2Exposure": 45.7,
-    "v2Quadrant": "sheltered",
-    "exposure": 71.03,
-    "entryExposure": 72.66,
-    "jirN": 448,
-    "coverage": 1,
-    "nTitles": 11,
-    "nMedium": 5,
-    "nInherited": 11,
-    "nNewlyMapped": 0,
-    "nExtension": 0,
-    "matchTier": "exact",
-    "extensionNote": null,
-    "cohort": "reference",
-    "adaptiveness": 10,
-    "dimensionScores": {
-      "D2": 1,
-      "D3": 2,
-      "D7": 3,
-      "B": 3,
-      "D5": 1
+    code: "mc-phtyph",
+    name: "Master of Physiotherapy (Pelvic Health)",
+    faculty: "Medicine, Dentistry & Health",
+    v1Score: 27,
+    v1Band: "MODERATE RISK",
+    v2Exposure: 45.7,
+    v2Quadrant: "sheltered",
+    exposure: 71.03,
+    entryExposure: 72.66,
+    jirN: 448,
+    coverage: 1,
+    nTitles: 11,
+    nMedium: 5,
+    nInherited: 11,
+    nNewlyMapped: 0,
+    nExtension: 0,
+    matchTier: "exact",
+    extensionNote: null,
+    cohort: "reference",
+    adaptiveness: 10,
+    dimensionScores: {
+      D2: 1,
+      D3: 2,
+      D7: 3,
+      B: 3,
+      D5: 1,
     },
-    "gateD4": "PASS",
-    "gateD6": "PASS",
-    "quadrant": "comfortable",
-    "quadrantDist": {
+    gateD4: "PASS",
+    gateD6: "PASS",
+    quadrant: "comfortable",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 0.798,
-      "attention": 0,
-      "sheltered": 0.202
+      comfortable: 0.798,
+      attention: 0,
+      sheltered: 0.202,
     },
-    "modalProb": 0.798,
-    "runnerUpQuadrant": "sheltered",
-    "adaptInterval": [
-      6,
-      13
+    modalProb: 0.798,
+    runnerUpQuadrant: "sheltered",
+    adaptInterval: [6, 13],
+    nearBoundary: true,
+    destinations: [
+      {
+        title: "Physiotherapist",
+        soc: "29-1123",
+        socTitle: "Physical Therapists",
+        aioe: 55.07,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Allied Health Assistant",
+        soc: "31-9099",
+        socTitle: "Healthcare Support Workers, All Other",
+        aioe: 67.56,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Physiotherapy Assistant",
+        soc: "31-2021",
+        socTitle: "Physical Therapist Assistants",
+        aioe: 50.96,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Research Assistant",
+        soc: "19-4061",
+        socTitle: "Social Science Research Assistants",
+        aioe: 92.3,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Policy Officer",
+        soc: "19-3094",
+        socTitle: "Political Scientists",
+        aioe: 97.41,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Exercise Physiologist",
+        soc: "29-1128",
+        socTitle: "Exercise Physiologists",
+        aioe: 62.81,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Rehabilitation Consultant",
+        soc: "21-1015",
+        socTitle: "Rehabilitation Counselors",
+        aioe: 75.58,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Senior Physiotherapist",
+        soc: "29-1123",
+        socTitle: "Physical Therapists",
+        aioe: 55.07,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Principal Physiotherapist",
+        soc: "29-1123",
+        socTitle: "Physical Therapists",
+        aioe: 55.07,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Clinical Educator",
+        soc: "25-1072",
+        socTitle: "Nursing Instructors and Teachers, Postsecondary",
+        aioe: 75.92,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Practice Manager",
+        soc: "11-9111",
+        socTitle: "Medical and Health Services Managers",
+        aioe: 93.63,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
     ],
-    "nearBoundary": true,
-    "destinations": [
-      {
-        "title": "Physiotherapist",
-        "soc": "29-1123",
-        "socTitle": "Physical Therapists",
-        "aioe": 55.07,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Allied Health Assistant",
-        "soc": "31-9099",
-        "socTitle": "Healthcare Support Workers, All Other",
-        "aioe": 67.56,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Physiotherapy Assistant",
-        "soc": "31-2021",
-        "socTitle": "Physical Therapist Assistants",
-        "aioe": 50.96,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Research Assistant",
-        "soc": "19-4061",
-        "socTitle": "Social Science Research Assistants",
-        "aioe": 92.3,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Policy Officer",
-        "soc": "19-3094",
-        "socTitle": "Political Scientists",
-        "aioe": 97.41,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Exercise Physiologist",
-        "soc": "29-1128",
-        "socTitle": "Exercise Physiologists",
-        "aioe": 62.81,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Rehabilitation Consultant",
-        "soc": "21-1015",
-        "socTitle": "Rehabilitation Counselors",
-        "aioe": 75.58,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Senior Physiotherapist",
-        "soc": "29-1123",
-        "socTitle": "Physical Therapists",
-        "aioe": 55.07,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Principal Physiotherapist",
-        "soc": "29-1123",
-        "socTitle": "Physical Therapists",
-        "aioe": 55.07,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Clinical Educator",
-        "soc": "25-1072",
-        "socTitle": "Nursing Instructors and Teachers, Postsecondary",
-        "aioe": 75.92,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Practice Manager",
-        "soc": "11-9111",
-        "socTitle": "Medical and Health Services Managers",
-        "aioe": 93.63,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      }
-    ]
   },
   {
-    "code": "mc-prop",
-    "name": "Master of Property",
-    "faculty": "Architecture, Building & Planning",
-    "v1Score": 23,
-    "v1Band": "MODERATE RISK",
-    "v2Exposure": 67.6,
-    "v2Quadrant": "attention",
-    "exposure": 89.89,
-    "entryExposure": 89.51,
-    "jirN": 65,
-    "coverage": 1,
-    "nTitles": 15,
-    "nMedium": 9,
-    "nInherited": 15,
-    "nNewlyMapped": 0,
-    "nExtension": 0,
-    "matchTier": "exact",
-    "extensionNote": null,
-    "cohort": "reference",
-    "adaptiveness": 9,
-    "dimensionScores": {
-      "D2": 2,
-      "D3": 2,
-      "D7": 2,
-      "B": 2,
-      "D5": 1
+    code: "mc-prop",
+    name: "Master of Property",
+    faculty: "Architecture, Building & Planning",
+    v1Score: 23,
+    v1Band: "MODERATE RISK",
+    v2Exposure: 67.6,
+    v2Quadrant: "attention",
+    exposure: 89.89,
+    entryExposure: 89.51,
+    jirN: 65,
+    coverage: 1,
+    nTitles: 15,
+    nMedium: 9,
+    nInherited: 15,
+    nNewlyMapped: 0,
+    nExtension: 0,
+    matchTier: "exact",
+    extensionNote: null,
+    cohort: "reference",
+    adaptiveness: 9,
+    dimensionScores: {
+      D2: 2,
+      D3: 2,
+      D7: 2,
+      B: 2,
+      D5: 1,
     },
-    "gateD4": "PASS",
-    "gateD6": "PASS",
-    "quadrant": "sheltered",
-    "quadrantDist": {
+    gateD4: "PASS",
+    gateD6: "PASS",
+    quadrant: "sheltered",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 0.186,
-      "attention": 0,
-      "sheltered": 0.814
+      comfortable: 0.186,
+      attention: 0,
+      sheltered: 0.814,
     },
-    "modalProb": 0.814,
-    "runnerUpQuadrant": "comfortable",
-    "adaptInterval": [
-      6,
-      13
+    modalProb: 0.814,
+    runnerUpQuadrant: "comfortable",
+    adaptInterval: [6, 13],
+    nearBoundary: true,
+    destinations: [
+      {
+        title: "Assistant Valuer",
+        soc: "13-2021",
+        socTitle: "Appraisers and Assessors of Real Estate",
+        aioe: 83.65,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Property Graduate",
+        soc: "11-9141",
+        socTitle: "Property, Real Estate, and Community Association Managers",
+        aioe: 92.56,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Graduate Valuer",
+        soc: "13-2021",
+        socTitle: "Appraisers and Assessors of Real Estate",
+        aioe: 83.65,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Assistant Development Manager",
+        soc: "11-9021",
+        socTitle: "Construction Managers",
+        aioe: 88.12,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Property Analyst",
+        soc: "13-2051",
+        socTitle: "Financial Analysts",
+        aioe: 96.5,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Assistant Property Manager",
+        soc: "11-9141",
+        socTitle: "Property, Real Estate, and Community Association Managers",
+        aioe: 92.56,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Valuer",
+        soc: "13-2021",
+        socTitle: "Appraisers and Assessors of Real Estate",
+        aioe: 83.65,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Development Manager",
+        soc: "11-9021",
+        socTitle: "Construction Managers",
+        aioe: 88.12,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Project Manager",
+        soc: "11-9199",
+        socTitle: "Managers, All Other",
+        aioe: 86.59,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Property Manager",
+        soc: "11-9141",
+        socTitle: "Property, Real Estate, and Community Association Managers",
+        aioe: 92.56,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Asset Manager",
+        soc: "11-9141",
+        socTitle: "Property, Real Estate, and Community Association Managers",
+        aioe: 92.56,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Investment Manager",
+        soc: "11-3031",
+        socTitle: "Financial Managers",
+        aioe: 98.06,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Valuer",
+        soc: "13-2021",
+        socTitle: "Appraisers and Assessors of Real Estate",
+        aioe: 83.65,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Development Manager",
+        soc: "11-9021",
+        socTitle: "Construction Managers",
+        aioe: 88.12,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Portfolio Manager",
+        soc: "11-3031",
+        socTitle: "Financial Managers",
+        aioe: 98.06,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
     ],
-    "nearBoundary": true,
-    "destinations": [
-      {
-        "title": "Assistant Valuer",
-        "soc": "13-2021",
-        "socTitle": "Appraisers and Assessors of Real Estate",
-        "aioe": 83.65,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Property Graduate",
-        "soc": "11-9141",
-        "socTitle": "Property, Real Estate, and Community Association Managers",
-        "aioe": 92.56,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Graduate Valuer",
-        "soc": "13-2021",
-        "socTitle": "Appraisers and Assessors of Real Estate",
-        "aioe": 83.65,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Assistant Development Manager",
-        "soc": "11-9021",
-        "socTitle": "Construction Managers",
-        "aioe": 88.12,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Property Analyst",
-        "soc": "13-2051",
-        "socTitle": "Financial Analysts",
-        "aioe": 96.5,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Assistant Property Manager",
-        "soc": "11-9141",
-        "socTitle": "Property, Real Estate, and Community Association Managers",
-        "aioe": 92.56,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Valuer",
-        "soc": "13-2021",
-        "socTitle": "Appraisers and Assessors of Real Estate",
-        "aioe": 83.65,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Development Manager",
-        "soc": "11-9021",
-        "socTitle": "Construction Managers",
-        "aioe": 88.12,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Project Manager",
-        "soc": "11-9199",
-        "socTitle": "Managers, All Other",
-        "aioe": 86.59,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Property Manager",
-        "soc": "11-9141",
-        "socTitle": "Property, Real Estate, and Community Association Managers",
-        "aioe": 92.56,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Asset Manager",
-        "soc": "11-9141",
-        "socTitle": "Property, Real Estate, and Community Association Managers",
-        "aioe": 92.56,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Investment Manager",
-        "soc": "11-3031",
-        "socTitle": "Financial Managers",
-        "aioe": 98.06,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Valuer",
-        "soc": "13-2021",
-        "socTitle": "Appraisers and Assessors of Real Estate",
-        "aioe": 83.65,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Development Manager",
-        "soc": "11-9021",
-        "socTitle": "Construction Managers",
-        "aioe": 88.12,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Portfolio Manager",
-        "soc": "11-3031",
-        "socTitle": "Financial Managers",
-        "aioe": 98.06,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      }
-    ]
   },
   {
-    "code": "mc-propsyc",
-    "name": "Master of Professional Psychology",
-    "faculty": "Medicine, Dentistry & Health",
-    "v1Score": 27,
-    "v1Band": "MODERATE RISK",
-    "v2Exposure": 43.9,
-    "v2Quadrant": "sheltered",
-    "exposure": 97.19,
-    "entryExposure": 98.3,
-    "jirN": 66,
-    "coverage": 1,
-    "nTitles": 14,
-    "nMedium": 7,
-    "nInherited": 14,
-    "nNewlyMapped": 0,
-    "nExtension": 0,
-    "matchTier": "exact",
-    "extensionNote": null,
-    "cohort": "reference",
-    "adaptiveness": 10,
-    "dimensionScores": {
-      "D2": 2,
-      "D3": 2,
-      "D7": 2,
-      "B": 3,
-      "D5": 1
+    code: "mc-propsyc",
+    name: "Master of Professional Psychology",
+    faculty: "Medicine, Dentistry & Health",
+    v1Score: 27,
+    v1Band: "MODERATE RISK",
+    v2Exposure: 43.9,
+    v2Quadrant: "sheltered",
+    exposure: 97.19,
+    entryExposure: 98.3,
+    jirN: 66,
+    coverage: 1,
+    nTitles: 14,
+    nMedium: 7,
+    nInherited: 14,
+    nNewlyMapped: 0,
+    nExtension: 0,
+    matchTier: "exact",
+    extensionNote: null,
+    cohort: "reference",
+    adaptiveness: 10,
+    dimensionScores: {
+      D2: 2,
+      D3: 2,
+      D7: 2,
+      B: 3,
+      D5: 1,
     },
-    "gateD4": "PASS",
-    "gateD6": "PASS",
-    "quadrant": "well-positioned",
-    "quadrantDist": {
+    gateD4: "PASS",
+    gateD6: "PASS",
+    quadrant: "well-positioned",
+    quadrantDist: {
       "well-positioned": 0.8,
-      "comfortable": 0,
-      "attention": 0.2,
-      "sheltered": 0
+      comfortable: 0,
+      attention: 0.2,
+      sheltered: 0,
     },
-    "modalProb": 0.8,
-    "runnerUpQuadrant": "attention",
-    "adaptInterval": [
-      7,
-      13
+    modalProb: 0.8,
+    runnerUpQuadrant: "attention",
+    adaptInterval: [7, 13],
+    nearBoundary: true,
+    destinations: [
+      {
+        title: "Provisional Psychologist",
+        soc: "19-3031",
+        socTitle: "Clinical, Counseling, and School Psychologists",
+        aioe: 98.3,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Psychologist",
+        soc: "19-3031",
+        socTitle: "Clinical, Counseling, and School Psychologists",
+        aioe: 98.3,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Clinical Neuropsychologist",
+        soc: "19-3031",
+        socTitle: "Clinical, Counseling, and School Psychologists",
+        aioe: 98.3,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Clinical Psychologist",
+        soc: "19-3031",
+        socTitle: "Clinical, Counseling, and School Psychologists",
+        aioe: 98.3,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "School Psychologist",
+        soc: "19-3031",
+        socTitle: "Clinical, Counseling, and School Psychologists",
+        aioe: 98.3,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Assistant Psychologist",
+        soc: "19-3031",
+        socTitle: "Clinical, Counseling, and School Psychologists",
+        aioe: 98.3,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Psychologist (Clinical Psychology Registrar)",
+        soc: "19-3031",
+        socTitle: "Clinical, Counseling, and School Psychologists",
+        aioe: 98.3,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Research Psychologist",
+        soc: "19-3039",
+        socTitle: "Psychologists, All Other",
+        aioe: 96.72,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Research Officer",
+        soc: "19-4061",
+        socTitle: "Social Science Research Assistants",
+        aioe: 92.3,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Senior Clinical Neuropsychologist",
+        soc: "19-3031",
+        socTitle: "Clinical, Counseling, and School Psychologists",
+        aioe: 98.3,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Rehabilitation Psychologist",
+        soc: "19-3039",
+        socTitle: "Psychologists, All Other",
+        aioe: 96.72,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Psychology Team Leader",
+        soc: "19-3031",
+        socTitle: "Clinical, Counseling, and School Psychologists",
+        aioe: 98.3,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Research Fellow",
+        soc: "",
+        socTitle: "unmatched -> imputed",
+        aioe: 91.95,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Clinical and Team Lead Neuropsychology",
+        soc: "19-3031",
+        socTitle: "Clinical, Counseling, and School Psychologists",
+        aioe: 98.3,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
     ],
-    "nearBoundary": true,
-    "destinations": [
-      {
-        "title": "Provisional Psychologist",
-        "soc": "19-3031",
-        "socTitle": "Clinical, Counseling, and School Psychologists",
-        "aioe": 98.3,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Psychologist",
-        "soc": "19-3031",
-        "socTitle": "Clinical, Counseling, and School Psychologists",
-        "aioe": 98.3,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Clinical Neuropsychologist",
-        "soc": "19-3031",
-        "socTitle": "Clinical, Counseling, and School Psychologists",
-        "aioe": 98.3,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Clinical Psychologist",
-        "soc": "19-3031",
-        "socTitle": "Clinical, Counseling, and School Psychologists",
-        "aioe": 98.3,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "School Psychologist",
-        "soc": "19-3031",
-        "socTitle": "Clinical, Counseling, and School Psychologists",
-        "aioe": 98.3,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Assistant Psychologist",
-        "soc": "19-3031",
-        "socTitle": "Clinical, Counseling, and School Psychologists",
-        "aioe": 98.3,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Psychologist (Clinical Psychology Registrar)",
-        "soc": "19-3031",
-        "socTitle": "Clinical, Counseling, and School Psychologists",
-        "aioe": 98.3,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Research Psychologist",
-        "soc": "19-3039",
-        "socTitle": "Psychologists, All Other",
-        "aioe": 96.72,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Research Officer",
-        "soc": "19-4061",
-        "socTitle": "Social Science Research Assistants",
-        "aioe": 92.3,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Senior Clinical Neuropsychologist",
-        "soc": "19-3031",
-        "socTitle": "Clinical, Counseling, and School Psychologists",
-        "aioe": 98.3,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Rehabilitation Psychologist",
-        "soc": "19-3039",
-        "socTitle": "Psychologists, All Other",
-        "aioe": 96.72,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Psychology Team Leader",
-        "soc": "19-3031",
-        "socTitle": "Clinical, Counseling, and School Psychologists",
-        "aioe": 98.3,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Research Fellow",
-        "soc": "",
-        "socTitle": "unmatched -> imputed",
-        "aioe": 91.95,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Clinical and Team Lead Neuropsychology",
-        "soc": "19-3031",
-        "socTitle": "Clinical, Counseling, and School Psychologists",
-        "aioe": 98.3,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      }
-    ]
   },
   {
-    "code": "mc-scibit",
-    "name": "Master of Biotechnology",
-    "faculty": "Science",
-    "v1Score": 24,
-    "v1Band": "MODERATE RISK",
-    "v2Exposure": 62.4,
-    "v2Quadrant": "attention",
-    "exposure": 86.37,
-    "entryExposure": 83.68,
-    "jirN": 151,
-    "coverage": 1,
-    "nTitles": 15,
-    "nMedium": 12,
-    "nInherited": 15,
-    "nNewlyMapped": 0,
-    "nExtension": 0,
-    "matchTier": "exact",
-    "extensionNote": null,
-    "cohort": "reference",
-    "adaptiveness": 10,
-    "dimensionScores": {
-      "D2": 2,
-      "D3": 2,
-      "D7": 2,
-      "B": 3,
-      "D5": 1
+    code: "mc-scibit",
+    name: "Master of Biotechnology",
+    faculty: "Science",
+    v1Score: 24,
+    v1Band: "MODERATE RISK",
+    v2Exposure: 62.4,
+    v2Quadrant: "attention",
+    exposure: 86.37,
+    entryExposure: 83.68,
+    jirN: 151,
+    coverage: 1,
+    nTitles: 15,
+    nMedium: 12,
+    nInherited: 15,
+    nNewlyMapped: 0,
+    nExtension: 0,
+    matchTier: "exact",
+    extensionNote: null,
+    cohort: "reference",
+    adaptiveness: 10,
+    dimensionScores: {
+      D2: 2,
+      D3: 2,
+      D7: 2,
+      B: 3,
+      D5: 1,
     },
-    "gateD4": "PASS",
-    "gateD6": "PASS",
-    "quadrant": "comfortable",
-    "quadrantDist": {
+    gateD4: "PASS",
+    gateD6: "PASS",
+    quadrant: "comfortable",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 0.807,
-      "attention": 0,
-      "sheltered": 0.193
+      comfortable: 0.807,
+      attention: 0,
+      sheltered: 0.193,
     },
-    "modalProb": 0.807,
-    "runnerUpQuadrant": "sheltered",
-    "adaptInterval": [
-      7,
-      13
+    modalProb: 0.807,
+    runnerUpQuadrant: "sheltered",
+    adaptInterval: [7, 13],
+    nearBoundary: true,
+    destinations: [
+      {
+        title: "Research Assistant",
+        soc: "19-4061",
+        socTitle: "Social Science Research Assistants",
+        aioe: 92.3,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Laboratory Technician",
+        soc: "19-4099",
+        socTitle: "Life, Physical, and Social Science Technicians, All Other",
+        aioe: 74.33,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Microbiologist",
+        soc: "19-1022",
+        socTitle: "Microbiologists",
+        aioe: 80.18,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Biochemist",
+        soc: "19-1021",
+        socTitle: "Biochemists and Biophysicists",
+        aioe: 85.19,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Biochemical Engineer",
+        soc: "17-2041",
+        socTitle: "Chemical Engineers",
+        aioe: 95.56,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Research Officer",
+        soc: "19-4061",
+        socTitle: "Social Science Research Assistants",
+        aioe: 92.3,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Quality Control Technician",
+        soc: "19-4011",
+        socTitle: "Agricultural and Food Science Technicians",
+        aioe: 65.89,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Research Scientist",
+        soc: "",
+        socTitle: "unmatched -> imputed",
+        aioe: 91.95,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Medical Laboratory Scientist",
+        soc: "29-2011",
+        socTitle: "Medical and Clinical Laboratory Technologists",
+        aioe: 70.32,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Regulatory Affairs Specialist",
+        soc: "13-1041",
+        socTitle:
+          "Compliance Officers, Except Agriculture, Construction, Health and Safety, and Transportation",
+        aioe: 80.24,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Medical Project Analyst",
+        soc: "13-1111",
+        socTitle: "Management Analysts",
+        aioe: 97.73,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Business Development Manager",
+        soc: "11-2022",
+        socTitle: "Sales Managers",
+        aioe: 93.77,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Patent Analyst",
+        soc: "13-1199",
+        socTitle: "Business Operations Specialists, All Other",
+        aioe: 88.56,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Senior Scientist",
+        soc: "",
+        socTitle: "unmatched -> imputed",
+        aioe: 91.95,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Manager, Science & Regulatory",
+        soc: "11-9121",
+        socTitle: "Natural Sciences Managers",
+        aioe: 95.24,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
     ],
-    "nearBoundary": true,
-    "destinations": [
-      {
-        "title": "Research Assistant",
-        "soc": "19-4061",
-        "socTitle": "Social Science Research Assistants",
-        "aioe": 92.3,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Laboratory Technician",
-        "soc": "19-4099",
-        "socTitle": "Life, Physical, and Social Science Technicians, All Other",
-        "aioe": 74.33,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Microbiologist",
-        "soc": "19-1022",
-        "socTitle": "Microbiologists",
-        "aioe": 80.18,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Biochemist",
-        "soc": "19-1021",
-        "socTitle": "Biochemists and Biophysicists",
-        "aioe": 85.19,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Biochemical Engineer",
-        "soc": "17-2041",
-        "socTitle": "Chemical Engineers",
-        "aioe": 95.56,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Research Officer",
-        "soc": "19-4061",
-        "socTitle": "Social Science Research Assistants",
-        "aioe": 92.3,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Quality Control Technician",
-        "soc": "19-4011",
-        "socTitle": "Agricultural and Food Science Technicians",
-        "aioe": 65.89,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Research Scientist",
-        "soc": "",
-        "socTitle": "unmatched -> imputed",
-        "aioe": 91.95,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Medical Laboratory Scientist",
-        "soc": "29-2011",
-        "socTitle": "Medical and Clinical Laboratory Technologists",
-        "aioe": 70.32,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Regulatory Affairs Specialist",
-        "soc": "13-1041",
-        "socTitle": "Compliance Officers, Except Agriculture, Construction, Health and Safety, and Transportation",
-        "aioe": 80.24,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Medical Project Analyst",
-        "soc": "13-1111",
-        "socTitle": "Management Analysts",
-        "aioe": 97.73,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Business Development Manager",
-        "soc": "11-2022",
-        "socTitle": "Sales Managers",
-        "aioe": 93.77,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Patent Analyst",
-        "soc": "13-1199",
-        "socTitle": "Business Operations Specialists, All Other",
-        "aioe": 88.56,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Senior Scientist",
-        "soc": "",
-        "socTitle": "unmatched -> imputed",
-        "aioe": 91.95,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Manager, Science & Regulatory",
-        "soc": "11-9121",
-        "socTitle": "Natural Sciences Managers",
-        "aioe": 95.24,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      }
-    ]
   },
   {
-    "code": "mc-sciche",
-    "name": "Master of Science (Chemistry)",
-    "faculty": "Science",
-    "v1Score": 25,
-    "v1Band": "MODERATE RISK",
-    "v2Exposure": 63.2,
-    "v2Quadrant": "well-positioned",
-    "exposure": 78.95,
-    "entryExposure": 74.97,
-    "jirN": 318,
-    "coverage": 1,
-    "nTitles": 14,
-    "nMedium": 6,
-    "nInherited": 5,
-    "nNewlyMapped": 9,
-    "nExtension": 0,
-    "matchTier": "exact",
-    "extensionNote": null,
-    "cohort": "reference",
-    "adaptiveness": 12,
-    "dimensionScores": {
-      "D2": 2,
-      "D3": 3,
-      "D7": 3,
-      "B": 3,
-      "D5": 1
+    code: "mc-sciche",
+    name: "Master of Science (Chemistry)",
+    faculty: "Science",
+    v1Score: 25,
+    v1Band: "MODERATE RISK",
+    v2Exposure: 63.2,
+    v2Quadrant: "well-positioned",
+    exposure: 78.95,
+    entryExposure: 74.97,
+    jirN: 318,
+    coverage: 1,
+    nTitles: 14,
+    nMedium: 6,
+    nInherited: 5,
+    nNewlyMapped: 9,
+    nExtension: 0,
+    matchTier: "exact",
+    extensionNote: null,
+    cohort: "reference",
+    adaptiveness: 12,
+    dimensionScores: {
+      D2: 2,
+      D3: 3,
+      D7: 3,
+      B: 3,
+      D5: 1,
     },
-    "gateD4": "PASS",
-    "gateD6": "PASS",
-    "quadrant": "comfortable",
-    "quadrantDist": {
+    gateD4: "PASS",
+    gateD6: "PASS",
+    quadrant: "comfortable",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 0.999,
-      "attention": 0,
-      "sheltered": 0.001
+      comfortable: 0.999,
+      attention: 0,
+      sheltered: 0.001,
     },
-    "modalProb": 0.999,
-    "runnerUpQuadrant": "sheltered",
-    "adaptInterval": [
-      9,
-      14
+    modalProb: 0.999,
+    runnerUpQuadrant: "sheltered",
+    adaptInterval: [9, 14],
+    nearBoundary: false,
+    destinations: [
+      {
+        title: "Research Assistant",
+        soc: "19-4061",
+        socTitle: "Social Science Research Assistants",
+        aioe: 92.3,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Laboratory Technician",
+        soc: "19-4099",
+        socTitle: "Life, Physical, and Social Science Technicians, All Other",
+        aioe: 74.33,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Quality Control Analyst",
+        soc: "51-9061",
+        socTitle: "Inspectors, Testers, Sorters, Samplers, and Weighers",
+        aioe: 62.91,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["entry"],
+      },
+      {
+        title: "Laboratory Analyst",
+        soc: "29-2011",
+        socTitle: "Medical and Clinical Laboratory Technologists",
+        aioe: 70.32,
+        confidence: "medium",
+        crosswalkSource: "new_this_session",
+        stages: ["entry"],
+      },
+      {
+        title: "Analytical Chemist",
+        soc: "19-2031",
+        socTitle: "Chemists",
+        aioe: 75.54,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Production Chemist",
+        soc: "19-2031",
+        socTitle: "Chemists",
+        aioe: 75.54,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Quality Control Chemist",
+        soc: "19-2031",
+        socTitle: "Chemists",
+        aioe: 75.54,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Research & Development Chemist",
+        soc: "19-2031",
+        socTitle: "Chemists",
+        aioe: 75.54,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Environmental Officer",
+        soc: "19-2041",
+        socTitle: "Environmental Scientists and Specialists, Including Health",
+        aioe: 87.77,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Research Officer",
+        soc: "19-4061",
+        socTitle: "Social Science Research Assistants",
+        aioe: 92.3,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Research Scientist",
+        soc: "",
+        socTitle: "unmatched -> imputed",
+        aioe: 91.95,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Quality Assurance Specialist",
+        soc: "13-1041",
+        socTitle:
+          "Compliance Officers, Except Agriculture, Construction, Health and Safety, and Transportation",
+        aioe: 80.24,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Quality Control Chemist",
+        soc: "19-2031",
+        socTitle: "Chemists",
+        aioe: 75.54,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Radiochemist",
+        soc: "19-2031",
+        socTitle: "Chemists",
+        aioe: 75.54,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["senior"],
+      },
     ],
-    "nearBoundary": false,
-    "destinations": [
-      {
-        "title": "Research Assistant",
-        "soc": "19-4061",
-        "socTitle": "Social Science Research Assistants",
-        "aioe": 92.3,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Laboratory Technician",
-        "soc": "19-4099",
-        "socTitle": "Life, Physical, and Social Science Technicians, All Other",
-        "aioe": 74.33,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Quality Control Analyst",
-        "soc": "51-9061",
-        "socTitle": "Inspectors, Testers, Sorters, Samplers, and Weighers",
-        "aioe": 62.91,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Laboratory Analyst",
-        "soc": "29-2011",
-        "socTitle": "Medical and Clinical Laboratory Technologists",
-        "aioe": 70.32,
-        "confidence": "medium",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Analytical Chemist",
-        "soc": "19-2031",
-        "socTitle": "Chemists",
-        "aioe": 75.54,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Production Chemist",
-        "soc": "19-2031",
-        "socTitle": "Chemists",
-        "aioe": 75.54,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Quality Control Chemist",
-        "soc": "19-2031",
-        "socTitle": "Chemists",
-        "aioe": 75.54,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Research & Development Chemist",
-        "soc": "19-2031",
-        "socTitle": "Chemists",
-        "aioe": 75.54,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Environmental Officer",
-        "soc": "19-2041",
-        "socTitle": "Environmental Scientists and Specialists, Including Health",
-        "aioe": 87.77,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Research Officer",
-        "soc": "19-4061",
-        "socTitle": "Social Science Research Assistants",
-        "aioe": 92.3,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Research Scientist",
-        "soc": "",
-        "socTitle": "unmatched -> imputed",
-        "aioe": 91.95,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Quality Assurance Specialist",
-        "soc": "13-1041",
-        "socTitle": "Compliance Officers, Except Agriculture, Construction, Health and Safety, and Transportation",
-        "aioe": 80.24,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Quality Control Chemist",
-        "soc": "19-2031",
-        "socTitle": "Chemists",
-        "aioe": 75.54,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Radiochemist",
-        "soc": "19-2031",
-        "socTitle": "Chemists",
-        "aioe": 75.54,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "senior"
-        ]
-      }
-    ]
   },
   {
-    "code": "mc-sciear",
-    "name": "Master of Science (Earth Sciences)",
-    "faculty": "Science",
-    "v1Score": 24,
-    "v1Band": "MODERATE RISK",
-    "v2Exposure": 65,
-    "v2Quadrant": "well-positioned",
-    "exposure": 85.44,
-    "entryExposure": 81.91,
-    "jirN": 46,
-    "coverage": 1,
-    "nTitles": 15,
-    "nMedium": 2,
-    "nInherited": 2,
-    "nNewlyMapped": 13,
-    "nExtension": 0,
-    "matchTier": "exact",
-    "extensionNote": null,
-    "cohort": "reference",
-    "adaptiveness": 11,
-    "dimensionScores": {
-      "D2": 2,
-      "D3": 3,
-      "D7": 3,
-      "B": 2,
-      "D5": 1
+    code: "mc-sciear",
+    name: "Master of Science (Earth Sciences)",
+    faculty: "Science",
+    v1Score: 24,
+    v1Band: "MODERATE RISK",
+    v2Exposure: 65,
+    v2Quadrant: "well-positioned",
+    exposure: 85.44,
+    entryExposure: 81.91,
+    jirN: 46,
+    coverage: 1,
+    nTitles: 15,
+    nMedium: 2,
+    nInherited: 2,
+    nNewlyMapped: 13,
+    nExtension: 0,
+    matchTier: "exact",
+    extensionNote: null,
+    cohort: "reference",
+    adaptiveness: 11,
+    dimensionScores: {
+      D2: 2,
+      D3: 3,
+      D7: 3,
+      B: 2,
+      D5: 1,
     },
-    "gateD4": "PASS",
-    "gateD6": "PASS",
-    "quadrant": "comfortable",
-    "quadrantDist": {
+    gateD4: "PASS",
+    gateD6: "PASS",
+    quadrant: "comfortable",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 0.98,
-      "attention": 0,
-      "sheltered": 0.02
+      comfortable: 0.98,
+      attention: 0,
+      sheltered: 0.02,
     },
-    "modalProb": 0.98,
-    "runnerUpQuadrant": "sheltered",
-    "adaptInterval": [
-      8,
-      14
+    modalProb: 0.98,
+    runnerUpQuadrant: "sheltered",
+    adaptInterval: [8, 14],
+    nearBoundary: true,
+    destinations: [
+      {
+        title: "Graduate Geologist",
+        soc: "19-2042",
+        socTitle: "Geoscientists, Except Hydrologists and Geographers",
+        aioe: 80.62,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["entry"],
+      },
+      {
+        title: "Graduate Geoscientist",
+        soc: "19-2042",
+        socTitle: "Geoscientists, Except Hydrologists and Geographers",
+        aioe: 80.62,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["entry"],
+      },
+      {
+        title: "Research Assistant",
+        soc: "19-4061",
+        socTitle: "Social Science Research Assistants",
+        aioe: 92.3,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Environmental Scientist",
+        soc: "19-2041",
+        socTitle: "Environmental Scientists and Specialists, Including Health",
+        aioe: 87.77,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Field Technician",
+        soc: "17-3029",
+        socTitle: "Engineering Technicians, Except Drafters, All Other",
+        aioe: 68.23,
+        confidence: "medium",
+        crosswalkSource: "new_this_session",
+        stages: ["entry"],
+      },
+      {
+        title: "Mine Geologist",
+        soc: "19-2042",
+        socTitle: "Geoscientists, Except Hydrologists and Geographers",
+        aioe: 80.62,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Exploration Geologist",
+        soc: "19-2042",
+        socTitle: "Geoscientists, Except Hydrologists and Geographers",
+        aioe: 80.62,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Project Geologist",
+        soc: "17-2151",
+        socTitle:
+          "Mining and Geological Engineers, Including Mining Safety Engineers",
+        aioe: 95.69,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Field Geologist",
+        soc: "19-2042",
+        socTitle: "Geoscientists, Except Hydrologists and Geographers",
+        aioe: 80.62,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Resource Geologist",
+        soc: "19-2042",
+        socTitle: "Geoscientists, Except Hydrologists and Geographers",
+        aioe: 80.62,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Engineering Geologist",
+        soc: "17-2151",
+        socTitle:
+          "Mining and Geological Engineers, Including Mining Safety Engineers",
+        aioe: 95.69,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Geotechnical Engineer",
+        soc: "17-2051",
+        socTitle: "Civil Engineers",
+        aioe: 94.17,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Geophysicist",
+        soc: "19-2042",
+        socTitle: "Geoscientists, Except Hydrologists and Geographers",
+        aioe: 80.62,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Senior Mine Geologist",
+        soc: "17-2151",
+        socTitle:
+          "Mining and Geological Engineers, Including Mining Safety Engineers",
+        aioe: 95.69,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Environmental Scientist",
+        soc: "19-2041",
+        socTitle: "Environmental Scientists and Specialists, Including Health",
+        aioe: 87.77,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["senior"],
+      },
     ],
-    "nearBoundary": true,
-    "destinations": [
-      {
-        "title": "Graduate Geologist",
-        "soc": "19-2042",
-        "socTitle": "Geoscientists, Except Hydrologists and Geographers",
-        "aioe": 80.62,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Graduate Geoscientist",
-        "soc": "19-2042",
-        "socTitle": "Geoscientists, Except Hydrologists and Geographers",
-        "aioe": 80.62,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Research Assistant",
-        "soc": "19-4061",
-        "socTitle": "Social Science Research Assistants",
-        "aioe": 92.3,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Environmental Scientist",
-        "soc": "19-2041",
-        "socTitle": "Environmental Scientists and Specialists, Including Health",
-        "aioe": 87.77,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Field Technician",
-        "soc": "17-3029",
-        "socTitle": "Engineering Technicians, Except Drafters, All Other",
-        "aioe": 68.23,
-        "confidence": "medium",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Mine Geologist",
-        "soc": "19-2042",
-        "socTitle": "Geoscientists, Except Hydrologists and Geographers",
-        "aioe": 80.62,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Exploration Geologist",
-        "soc": "19-2042",
-        "socTitle": "Geoscientists, Except Hydrologists and Geographers",
-        "aioe": 80.62,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Project Geologist",
-        "soc": "17-2151",
-        "socTitle": "Mining and Geological Engineers, Including Mining Safety Engineers",
-        "aioe": 95.69,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Field Geologist",
-        "soc": "19-2042",
-        "socTitle": "Geoscientists, Except Hydrologists and Geographers",
-        "aioe": 80.62,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Resource Geologist",
-        "soc": "19-2042",
-        "socTitle": "Geoscientists, Except Hydrologists and Geographers",
-        "aioe": 80.62,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Engineering Geologist",
-        "soc": "17-2151",
-        "socTitle": "Mining and Geological Engineers, Including Mining Safety Engineers",
-        "aioe": 95.69,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Geotechnical Engineer",
-        "soc": "17-2051",
-        "socTitle": "Civil Engineers",
-        "aioe": 94.17,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Geophysicist",
-        "soc": "19-2042",
-        "socTitle": "Geoscientists, Except Hydrologists and Geographers",
-        "aioe": 80.62,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Senior Mine Geologist",
-        "soc": "17-2151",
-        "socTitle": "Mining and Geological Engineers, Including Mining Safety Engineers",
-        "aioe": 95.69,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Environmental Scientist",
-        "soc": "19-2041",
-        "socTitle": "Environmental Scientists and Specialists, Including Health",
-        "aioe": 87.77,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "senior"
-        ]
-      }
-    ]
   },
   {
-    "code": "mc-sciphy",
-    "name": "Master of Science (Physics)",
-    "faculty": "Science",
-    "v1Score": 25,
-    "v1Band": "MODERATE RISK",
-    "v2Exposure": 70.8,
-    "v2Quadrant": "well-positioned",
-    "exposure": 94.4,
-    "entryExposure": 94.55,
-    "jirN": 189,
-    "coverage": 1,
-    "nTitles": 15,
-    "nMedium": 8,
-    "nInherited": 8,
-    "nNewlyMapped": 7,
-    "nExtension": 0,
-    "matchTier": "exact",
-    "extensionNote": null,
-    "cohort": "reference",
-    "adaptiveness": 12,
-    "dimensionScores": {
-      "D2": 2,
-      "D3": 3,
-      "D7": 3,
-      "B": 3,
-      "D5": 1
+    code: "mc-sciphy",
+    name: "Master of Science (Physics)",
+    faculty: "Science",
+    v1Score: 25,
+    v1Band: "MODERATE RISK",
+    v2Exposure: 70.8,
+    v2Quadrant: "well-positioned",
+    exposure: 94.4,
+    entryExposure: 94.55,
+    jirN: 189,
+    coverage: 1,
+    nTitles: 15,
+    nMedium: 8,
+    nInherited: 8,
+    nNewlyMapped: 7,
+    nExtension: 0,
+    matchTier: "exact",
+    extensionNote: null,
+    cohort: "reference",
+    adaptiveness: 12,
+    dimensionScores: {
+      D2: 2,
+      D3: 3,
+      D7: 3,
+      B: 3,
+      D5: 1,
     },
-    "gateD4": "PASS",
-    "gateD6": "PASS",
-    "quadrant": "well-positioned",
-    "quadrantDist": {
+    gateD4: "PASS",
+    gateD6: "PASS",
+    quadrant: "well-positioned",
+    quadrantDist: {
       "well-positioned": 0.999,
-      "comfortable": 0,
-      "attention": 0.001,
-      "sheltered": 0
+      comfortable: 0,
+      attention: 0.001,
+      sheltered: 0,
     },
-    "modalProb": 0.999,
-    "runnerUpQuadrant": "attention",
-    "adaptInterval": [
-      9,
-      14
+    modalProb: 0.999,
+    runnerUpQuadrant: "attention",
+    adaptInterval: [9, 14],
+    nearBoundary: false,
+    destinations: [
+      {
+        title: "Research Assistant",
+        soc: "19-4061",
+        socTitle: "Social Science Research Assistants",
+        aioe: 92.3,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Data Analyst",
+        soc: "15-2041",
+        socTitle: "Statisticians",
+        aioe: 96.55,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Graduate Meteorologist",
+        soc: "19-2021",
+        socTitle: "Atmospheric and Space Scientists",
+        aioe: 96.34,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["entry"],
+      },
+      {
+        title: "Junior Physicist",
+        soc: "19-2012",
+        socTitle: "Physicists",
+        aioe: 95.67,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["entry"],
+      },
+      {
+        title: "Software Developer",
+        soc: "15-1132",
+        socTitle: "Software Developers, Applications",
+        aioe: 92.22,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Software Engineer",
+        soc: "15-1132",
+        socTitle: "Software Developers, Applications",
+        aioe: 92.22,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Graduate Data Scientist",
+        soc: "15-2041",
+        socTitle: "Statisticians",
+        aioe: 96.55,
+        confidence: "medium",
+        crosswalkSource: "new_this_session",
+        stages: ["entry"],
+      },
+      {
+        title: "Data Scientist",
+        soc: "15-2041",
+        socTitle: "Statisticians",
+        aioe: 96.55,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Research Analyst",
+        soc: "13-1161",
+        socTitle: "Market Research Analysts and Marketing Specialists",
+        aioe: 97.6,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Business Analyst",
+        soc: "13-1111",
+        socTitle: "Management Analysts",
+        aioe: 97.73,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Research Scientist",
+        soc: "",
+        socTitle: "unmatched -> imputed",
+        aioe: 91.95,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Laser Scientist",
+        soc: "19-2012",
+        socTitle: "Physicists",
+        aioe: 95.67,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Physicist",
+        soc: "19-2012",
+        socTitle: "Physicists",
+        aioe: 95.67,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Senior Data Scientist",
+        soc: "15-2041",
+        socTitle: "Statisticians",
+        aioe: 96.55,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Applied Research Engineer",
+        soc: "17-2199",
+        socTitle: "Engineers, All Other",
+        aioe: 82.37,
+        confidence: "medium",
+        crosswalkSource: "new_this_session",
+        stages: ["senior"],
+      },
     ],
-    "nearBoundary": false,
-    "destinations": [
-      {
-        "title": "Research Assistant",
-        "soc": "19-4061",
-        "socTitle": "Social Science Research Assistants",
-        "aioe": 92.3,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Data Analyst",
-        "soc": "15-2041",
-        "socTitle": "Statisticians",
-        "aioe": 96.55,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Graduate Meteorologist",
-        "soc": "19-2021",
-        "socTitle": "Atmospheric and Space Scientists",
-        "aioe": 96.34,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Junior Physicist",
-        "soc": "19-2012",
-        "socTitle": "Physicists",
-        "aioe": 95.67,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Software Developer",
-        "soc": "15-1132",
-        "socTitle": "Software Developers, Applications",
-        "aioe": 92.22,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Software Engineer",
-        "soc": "15-1132",
-        "socTitle": "Software Developers, Applications",
-        "aioe": 92.22,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Graduate Data Scientist",
-        "soc": "15-2041",
-        "socTitle": "Statisticians",
-        "aioe": 96.55,
-        "confidence": "medium",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Data Scientist",
-        "soc": "15-2041",
-        "socTitle": "Statisticians",
-        "aioe": 96.55,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Research Analyst",
-        "soc": "13-1161",
-        "socTitle": "Market Research Analysts and Marketing Specialists",
-        "aioe": 97.6,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Business Analyst",
-        "soc": "13-1111",
-        "socTitle": "Management Analysts",
-        "aioe": 97.73,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Research Scientist",
-        "soc": "",
-        "socTitle": "unmatched -> imputed",
-        "aioe": 91.95,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Laser Scientist",
-        "soc": "19-2012",
-        "socTitle": "Physicists",
-        "aioe": 95.67,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Physicist",
-        "soc": "19-2012",
-        "socTitle": "Physicists",
-        "aioe": 95.67,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Senior Data Scientist",
-        "soc": "15-2041",
-        "socTitle": "Statisticians",
-        "aioe": 96.55,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Applied Research Engineer",
-        "soc": "17-2199",
-        "socTitle": "Engineers, All Other",
-        "aioe": 82.37,
-        "confidence": "medium",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "senior"
-        ]
-      }
-    ]
   },
   {
-    "code": "mc-surged",
-    "name": "Master of Surgical Education",
-    "faculty": "Medicine, Dentistry & Health",
-    "v1Score": 25,
-    "v1Band": "MODERATE RISK",
-    "v2Exposure": 60.7,
-    "v2Quadrant": "sheltered",
-    "exposure": 92.44,
-    "entryExposure": 94.16,
-    "jirN": 611,
-    "coverage": 1,
-    "nTitles": 15,
-    "nMedium": 11,
-    "nInherited": 15,
-    "nNewlyMapped": 0,
-    "nExtension": 0,
-    "matchTier": "exact",
-    "extensionNote": null,
-    "cohort": "reference",
-    "adaptiveness": 9,
-    "dimensionScores": {
-      "D2": 2,
-      "D3": 1,
-      "D7": 2,
-      "B": 3,
-      "D5": 1
+    code: "mc-surged",
+    name: "Master of Surgical Education",
+    faculty: "Medicine, Dentistry & Health",
+    v1Score: 25,
+    v1Band: "MODERATE RISK",
+    v2Exposure: 60.7,
+    v2Quadrant: "sheltered",
+    exposure: 92.44,
+    entryExposure: 94.16,
+    jirN: 611,
+    coverage: 1,
+    nTitles: 15,
+    nMedium: 11,
+    nInherited: 15,
+    nNewlyMapped: 0,
+    nExtension: 0,
+    matchTier: "exact",
+    extensionNote: null,
+    cohort: "reference",
+    adaptiveness: 9,
+    dimensionScores: {
+      D2: 2,
+      D3: 1,
+      D7: 2,
+      B: 3,
+      D5: 1,
     },
-    "gateD4": "PASS",
-    "gateD6": "PASS",
-    "quadrant": "attention",
-    "quadrantDist": {
+    gateD4: "PASS",
+    gateD6: "PASS",
+    quadrant: "attention",
+    quadrantDist: {
       "well-positioned": 0.156,
-      "comfortable": 0,
-      "attention": 0.844,
-      "sheltered": 0
+      comfortable: 0,
+      attention: 0.844,
+      sheltered: 0,
     },
-    "modalProb": 0.844,
-    "runnerUpQuadrant": "well-positioned",
-    "adaptInterval": [
-      6,
-      12
+    modalProb: 0.844,
+    runnerUpQuadrant: "well-positioned",
+    adaptInterval: [6, 12],
+    nearBoundary: true,
+    destinations: [
+      {
+        title: "Research Assistant",
+        soc: "19-4061",
+        socTitle: "Social Science Research Assistants",
+        aioe: 92.3,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Education Officer",
+        soc: "25-9031",
+        socTitle: "Instructional Coordinators",
+        aioe: 94.62,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Instructional Designer",
+        soc: "25-9031",
+        socTitle: "Instructional Coordinators",
+        aioe: 94.62,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Learning Designer",
+        soc: "25-9031",
+        socTitle: "Instructional Coordinators",
+        aioe: 94.62,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Educational Designer",
+        soc: "25-9031",
+        socTitle: "Instructional Coordinators",
+        aioe: 94.62,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Educational Consultant",
+        soc: "25-9031",
+        socTitle: "Instructional Coordinators",
+        aioe: 94.62,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Research Officer",
+        soc: "19-4061",
+        socTitle: "Social Science Research Assistants",
+        aioe: 92.3,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Learning Specialist",
+        soc: "25-9031",
+        socTitle: "Instructional Coordinators",
+        aioe: 94.62,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Education Manager",
+        soc: "11-9039",
+        socTitle: "Education Administrators, All Other",
+        aioe: 72.04,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Senior Lecturer",
+        soc: "",
+        socTitle: "unmatched -> imputed",
+        aioe: 92.5,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Lecturer",
+        soc: "",
+        socTitle: "unmatched -> imputed",
+        aioe: 92.5,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Research Fellow",
+        soc: "",
+        socTitle: "unmatched -> imputed",
+        aioe: 91.95,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Project Officer",
+        soc: "13-1199",
+        socTitle: "Business Operations Specialists, All Other",
+        aioe: 88.56,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Educational Psychologist",
+        soc: "19-3031",
+        socTitle: "Clinical, Counseling, and School Psychologists",
+        aioe: 98.3,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Director of Learning and Teaching",
+        soc: "11-9033",
+        socTitle: "Education Administrators, Postsecondary",
+        aioe: 98.42,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
     ],
-    "nearBoundary": true,
-    "destinations": [
-      {
-        "title": "Research Assistant",
-        "soc": "19-4061",
-        "socTitle": "Social Science Research Assistants",
-        "aioe": 92.3,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Education Officer",
-        "soc": "25-9031",
-        "socTitle": "Instructional Coordinators",
-        "aioe": 94.62,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Instructional Designer",
-        "soc": "25-9031",
-        "socTitle": "Instructional Coordinators",
-        "aioe": 94.62,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Learning Designer",
-        "soc": "25-9031",
-        "socTitle": "Instructional Coordinators",
-        "aioe": 94.62,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Educational Designer",
-        "soc": "25-9031",
-        "socTitle": "Instructional Coordinators",
-        "aioe": 94.62,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Educational Consultant",
-        "soc": "25-9031",
-        "socTitle": "Instructional Coordinators",
-        "aioe": 94.62,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Research Officer",
-        "soc": "19-4061",
-        "socTitle": "Social Science Research Assistants",
-        "aioe": 92.3,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Learning Specialist",
-        "soc": "25-9031",
-        "socTitle": "Instructional Coordinators",
-        "aioe": 94.62,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Education Manager",
-        "soc": "11-9039",
-        "socTitle": "Education Administrators, All Other",
-        "aioe": 72.04,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Senior Lecturer",
-        "soc": "",
-        "socTitle": "unmatched -> imputed",
-        "aioe": 92.5,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Lecturer",
-        "soc": "",
-        "socTitle": "unmatched -> imputed",
-        "aioe": 92.5,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Research Fellow",
-        "soc": "",
-        "socTitle": "unmatched -> imputed",
-        "aioe": 91.95,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Project Officer",
-        "soc": "13-1199",
-        "socTitle": "Business Operations Specialists, All Other",
-        "aioe": 88.56,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Educational Psychologist",
-        "soc": "19-3031",
-        "socTitle": "Clinical, Counseling, and School Psychologists",
-        "aioe": 98.3,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Director of Learning and Teaching",
-        "soc": "11-9033",
-        "socTitle": "Education Administrators, Postsecondary",
-        "aioe": 98.42,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      }
-    ]
   },
   {
-    "code": "mc-tesol",
-    "name": "Master of TESOL",
-    "faculty": "Education",
-    "v1Score": 21,
-    "v1Band": "MODERATE RISK",
-    "v2Exposure": 58.9,
-    "v2Quadrant": "sheltered",
-    "exposure": 93.99,
-    "entryExposure": 95.74,
-    "jirN": 26,
-    "coverage": 1,
-    "nTitles": 15,
-    "nMedium": 5,
-    "nInherited": 15,
-    "nNewlyMapped": 0,
-    "nExtension": 0,
-    "matchTier": "exact",
-    "extensionNote": null,
-    "cohort": "reference",
-    "adaptiveness": 8,
-    "dimensionScores": {
-      "D2": 2,
-      "D3": 1,
-      "D7": 2,
-      "B": 2,
-      "D5": 1
+    code: "mc-tesol",
+    name: "Master of TESOL",
+    faculty: "Education",
+    v1Score: 21,
+    v1Band: "MODERATE RISK",
+    v2Exposure: 58.9,
+    v2Quadrant: "sheltered",
+    exposure: 93.99,
+    entryExposure: 95.74,
+    jirN: 26,
+    coverage: 1,
+    nTitles: 15,
+    nMedium: 5,
+    nInherited: 15,
+    nNewlyMapped: 0,
+    nExtension: 0,
+    matchTier: "exact",
+    extensionNote: null,
+    cohort: "reference",
+    adaptiveness: 8,
+    dimensionScores: {
+      D2: 2,
+      D3: 1,
+      D7: 2,
+      B: 2,
+      D5: 1,
     },
-    "gateD4": "PASS",
-    "gateD6": "PASS",
-    "quadrant": "attention",
-    "quadrantDist": {
+    gateD4: "PASS",
+    gateD6: "PASS",
+    quadrant: "attention",
+    quadrantDist: {
       "well-positioned": 0.019,
-      "comfortable": 0,
-      "attention": 0.981,
-      "sheltered": 0
+      comfortable: 0,
+      attention: 0.981,
+      sheltered: 0,
     },
-    "modalProb": 0.981,
-    "runnerUpQuadrant": "well-positioned",
-    "adaptInterval": [
-      4,
-      12
+    modalProb: 0.981,
+    runnerUpQuadrant: "well-positioned",
+    adaptInterval: [4, 12],
+    nearBoundary: false,
+    destinations: [
+      {
+        title: "English Language Teacher",
+        soc: "25-3011",
+        socTitle:
+          "Adult Literacy, Remedial Education, and GED Teachers and Instructors",
+        aioe: 95.74,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "ELICOS Teacher",
+        soc: "25-3011",
+        socTitle:
+          "Adult Literacy, Remedial Education, and GED Teachers and Instructors",
+        aioe: 95.74,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "English Second Language Teacher",
+        soc: "25-3011",
+        socTitle:
+          "Adult Literacy, Remedial Education, and GED Teachers and Instructors",
+        aioe: 95.74,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "ESL Teacher",
+        soc: "25-3011",
+        socTitle:
+          "Adult Literacy, Remedial Education, and GED Teachers and Instructors",
+        aioe: 95.74,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "General English Teacher",
+        soc: "25-3011",
+        socTitle:
+          "Adult Literacy, Remedial Education, and GED Teachers and Instructors",
+        aioe: 95.74,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "English for Academic Purposes Teacher",
+        soc: "25-3011",
+        socTitle:
+          "Adult Literacy, Remedial Education, and GED Teachers and Instructors",
+        aioe: 95.74,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Business English Teacher",
+        soc: "25-3011",
+        socTitle:
+          "Adult Literacy, Remedial Education, and GED Teachers and Instructors",
+        aioe: 95.74,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "IELTS Trainer",
+        soc: "25-3011",
+        socTitle:
+          "Adult Literacy, Remedial Education, and GED Teachers and Instructors",
+        aioe: 95.74,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Learning Designer",
+        soc: "25-9031",
+        socTitle: "Instructional Coordinators",
+        aioe: 94.62,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Instructional Designer",
+        soc: "25-9031",
+        socTitle: "Instructional Coordinators",
+        aioe: 94.62,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Academic Manager",
+        soc: "11-9033",
+        socTitle: "Education Administrators, Postsecondary",
+        aioe: 98.42,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Head Teacher",
+        soc: "11-9039",
+        socTitle: "Education Administrators, All Other",
+        aioe: 72.04,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Learning and Teaching Support Manager",
+        soc: "11-9033",
+        socTitle: "Education Administrators, Postsecondary",
+        aioe: 98.42,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Refugee Education Program Coordinator",
+        soc: "11-9151",
+        socTitle: "Social and Community Service Managers",
+        aioe: 91.15,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "School Improvement Program Advisor",
+        soc: "25-9031",
+        socTitle: "Instructional Coordinators",
+        aioe: 94.62,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
     ],
-    "nearBoundary": false,
-    "destinations": [
-      {
-        "title": "English Language Teacher",
-        "soc": "25-3011",
-        "socTitle": "Adult Literacy, Remedial Education, and GED Teachers and Instructors",
-        "aioe": 95.74,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "ELICOS Teacher",
-        "soc": "25-3011",
-        "socTitle": "Adult Literacy, Remedial Education, and GED Teachers and Instructors",
-        "aioe": 95.74,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "English Second Language Teacher",
-        "soc": "25-3011",
-        "socTitle": "Adult Literacy, Remedial Education, and GED Teachers and Instructors",
-        "aioe": 95.74,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "ESL Teacher",
-        "soc": "25-3011",
-        "socTitle": "Adult Literacy, Remedial Education, and GED Teachers and Instructors",
-        "aioe": 95.74,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "General English Teacher",
-        "soc": "25-3011",
-        "socTitle": "Adult Literacy, Remedial Education, and GED Teachers and Instructors",
-        "aioe": 95.74,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "English for Academic Purposes Teacher",
-        "soc": "25-3011",
-        "socTitle": "Adult Literacy, Remedial Education, and GED Teachers and Instructors",
-        "aioe": 95.74,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Business English Teacher",
-        "soc": "25-3011",
-        "socTitle": "Adult Literacy, Remedial Education, and GED Teachers and Instructors",
-        "aioe": 95.74,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "IELTS Trainer",
-        "soc": "25-3011",
-        "socTitle": "Adult Literacy, Remedial Education, and GED Teachers and Instructors",
-        "aioe": 95.74,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Learning Designer",
-        "soc": "25-9031",
-        "socTitle": "Instructional Coordinators",
-        "aioe": 94.62,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Instructional Designer",
-        "soc": "25-9031",
-        "socTitle": "Instructional Coordinators",
-        "aioe": 94.62,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Academic Manager",
-        "soc": "11-9033",
-        "socTitle": "Education Administrators, Postsecondary",
-        "aioe": 98.42,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Head Teacher",
-        "soc": "11-9039",
-        "socTitle": "Education Administrators, All Other",
-        "aioe": 72.04,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Learning and Teaching Support Manager",
-        "soc": "11-9033",
-        "socTitle": "Education Administrators, Postsecondary",
-        "aioe": 98.42,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Refugee Education Program Coordinator",
-        "soc": "11-9151",
-        "socTitle": "Social and Community Service Managers",
-        "aioe": 91.15,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "School Improvement Program Advisor",
-        "soc": "25-9031",
-        "socTitle": "Instructional Coordinators",
-        "aioe": 94.62,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      }
-    ]
   },
   {
-    "code": "mc-urbdes",
-    "name": "Master of Urban Design",
-    "faculty": "Architecture, Building & Planning",
-    "v1Score": 25,
-    "v1Band": "MODERATE RISK",
-    "v2Exposure": 59.1,
-    "v2Quadrant": "sheltered",
-    "exposure": 92.85,
-    "entryExposure": 92.85,
-    "jirN": 130,
-    "coverage": 1,
-    "nTitles": 15,
-    "nMedium": 6,
-    "nInherited": 15,
-    "nNewlyMapped": 0,
-    "nExtension": 0,
-    "matchTier": "exact",
-    "extensionNote": null,
-    "cohort": "reference",
-    "adaptiveness": 10,
-    "dimensionScores": {
-      "D2": 3,
-      "D3": 0,
-      "D7": 3,
-      "B": 3,
-      "D5": 1
+    code: "mc-urbdes",
+    name: "Master of Urban Design",
+    faculty: "Architecture, Building & Planning",
+    v1Score: 25,
+    v1Band: "MODERATE RISK",
+    v2Exposure: 59.1,
+    v2Quadrant: "sheltered",
+    exposure: 92.85,
+    entryExposure: 92.85,
+    jirN: 130,
+    coverage: 1,
+    nTitles: 15,
+    nMedium: 6,
+    nInherited: 15,
+    nNewlyMapped: 0,
+    nExtension: 0,
+    matchTier: "exact",
+    extensionNote: null,
+    cohort: "reference",
+    adaptiveness: 10,
+    dimensionScores: {
+      D2: 3,
+      D3: 0,
+      D7: 3,
+      B: 3,
+      D5: 1,
     },
-    "gateD4": "PASS",
-    "gateD6": "PASS",
-    "quadrant": "well-positioned",
-    "quadrantDist": {
+    gateD4: "PASS",
+    gateD6: "PASS",
+    quadrant: "well-positioned",
+    quadrantDist: {
       "well-positioned": 0.83,
-      "comfortable": 0,
-      "attention": 0.17,
-      "sheltered": 0
+      comfortable: 0,
+      attention: 0.17,
+      sheltered: 0,
     },
-    "modalProb": 0.83,
-    "runnerUpQuadrant": "attention",
-    "adaptInterval": [
-      7,
-      12
+    modalProb: 0.83,
+    runnerUpQuadrant: "attention",
+    adaptInterval: [7, 12],
+    nearBoundary: true,
+    destinations: [
+      {
+        title: "Graduate Planner",
+        soc: "19-3051",
+        socTitle: "Urban and Regional Planners",
+        aioe: 92.85,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Graduate Town Planner",
+        soc: "19-3051",
+        socTitle: "Urban and Regional Planners",
+        aioe: 92.85,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Graduate Urban Planner",
+        soc: "19-3051",
+        socTitle: "Urban and Regional Planners",
+        aioe: 92.85,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Assistant Town Planner",
+        soc: "19-3051",
+        socTitle: "Urban and Regional Planners",
+        aioe: 92.85,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Planning Assistant",
+        soc: "19-3051",
+        socTitle: "Urban and Regional Planners",
+        aioe: 92.85,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Town Planner",
+        soc: "19-3051",
+        socTitle: "Urban and Regional Planners",
+        aioe: 92.85,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Urban Planner",
+        soc: "19-3051",
+        socTitle: "Urban and Regional Planners",
+        aioe: 92.85,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Statutory Planner",
+        soc: "19-3051",
+        socTitle: "Urban and Regional Planners",
+        aioe: 92.85,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Strategic Planner",
+        soc: "19-3051",
+        socTitle: "Urban and Regional Planners",
+        aioe: 92.85,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Environmental Planner",
+        soc: "19-3051",
+        socTitle: "Urban and Regional Planners",
+        aioe: 92.85,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Urban Designer",
+        soc: "19-3051",
+        socTitle: "Urban and Regional Planners",
+        aioe: 92.85,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Policy Planner",
+        soc: "19-3051",
+        socTitle: "Urban and Regional Planners",
+        aioe: 92.85,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Senior Planner",
+        soc: "19-3051",
+        socTitle: "Urban and Regional Planners",
+        aioe: 92.85,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Strategic Planner",
+        soc: "19-3051",
+        socTitle: "Urban and Regional Planners",
+        aioe: 92.85,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Principal Planner",
+        soc: "19-3051",
+        socTitle: "Urban and Regional Planners",
+        aioe: 92.85,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
     ],
-    "nearBoundary": true,
-    "destinations": [
-      {
-        "title": "Graduate Planner",
-        "soc": "19-3051",
-        "socTitle": "Urban and Regional Planners",
-        "aioe": 92.85,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Graduate Town Planner",
-        "soc": "19-3051",
-        "socTitle": "Urban and Regional Planners",
-        "aioe": 92.85,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Graduate Urban Planner",
-        "soc": "19-3051",
-        "socTitle": "Urban and Regional Planners",
-        "aioe": 92.85,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Assistant Town Planner",
-        "soc": "19-3051",
-        "socTitle": "Urban and Regional Planners",
-        "aioe": 92.85,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Planning Assistant",
-        "soc": "19-3051",
-        "socTitle": "Urban and Regional Planners",
-        "aioe": 92.85,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Town Planner",
-        "soc": "19-3051",
-        "socTitle": "Urban and Regional Planners",
-        "aioe": 92.85,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Urban Planner",
-        "soc": "19-3051",
-        "socTitle": "Urban and Regional Planners",
-        "aioe": 92.85,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Statutory Planner",
-        "soc": "19-3051",
-        "socTitle": "Urban and Regional Planners",
-        "aioe": 92.85,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Strategic Planner",
-        "soc": "19-3051",
-        "socTitle": "Urban and Regional Planners",
-        "aioe": 92.85,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Environmental Planner",
-        "soc": "19-3051",
-        "socTitle": "Urban and Regional Planners",
-        "aioe": 92.85,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Urban Designer",
-        "soc": "19-3051",
-        "socTitle": "Urban and Regional Planners",
-        "aioe": 92.85,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Policy Planner",
-        "soc": "19-3051",
-        "socTitle": "Urban and Regional Planners",
-        "aioe": 92.85,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Senior Planner",
-        "soc": "19-3051",
-        "socTitle": "Urban and Regional Planners",
-        "aioe": 92.85,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Strategic Planner",
-        "soc": "19-3051",
-        "socTitle": "Urban and Regional Planners",
-        "aioe": 92.85,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Principal Planner",
-        "soc": "19-3051",
-        "socTitle": "Urban and Regional Planners",
-        "aioe": 92.85,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      }
-    ]
   },
   {
-    "code": "mc-urbhort",
-    "name": "Master of Urban Horticulture",
-    "faculty": "Science",
-    "v1Score": 24,
-    "v1Band": "MODERATE RISK",
-    "v2Exposure": null,
-    "v2Quadrant": "no-exposure",
-    "exposure": 79.91,
-    "entryExposure": 85.22,
-    "jirN": 44,
-    "coverage": 1,
-    "nTitles": 13,
-    "nMedium": 6,
-    "nInherited": 1,
-    "nNewlyMapped": 0,
-    "nExtension": 12,
-    "matchTier": "exact",
-    "extensionNote": "Map correction: dfva_jir_map pointed at a non-existent 'Doctor of Urban Horticulture' record while the program's own exact-name JIR report exists.",
-    "cohort": "extension",
-    "adaptiveness": 10,
-    "dimensionScores": {
-      "D2": 3,
-      "D3": 2,
-      "D7": 2,
-      "B": 2,
-      "D5": 1
+    code: "mc-urbhort",
+    name: "Master of Urban Horticulture",
+    faculty: "Science",
+    v1Score: 24,
+    v1Band: "MODERATE RISK",
+    v2Exposure: null,
+    v2Quadrant: "no-exposure",
+    exposure: 79.91,
+    entryExposure: 85.22,
+    jirN: 44,
+    coverage: 1,
+    nTitles: 13,
+    nMedium: 6,
+    nInherited: 1,
+    nNewlyMapped: 0,
+    nExtension: 12,
+    matchTier: "exact",
+    extensionNote:
+      "Map correction: dfva_jir_map pointed at a non-existent 'Doctor of Urban Horticulture' record while the program's own exact-name JIR report exists.",
+    cohort: "extension",
+    adaptiveness: 10,
+    dimensionScores: {
+      D2: 3,
+      D3: 2,
+      D7: 2,
+      B: 2,
+      D5: 1,
     },
-    "gateD4": "PASS",
-    "gateD6": "PASS",
-    "quadrant": "comfortable",
-    "quadrantDist": {
+    gateD4: "PASS",
+    gateD6: "PASS",
+    quadrant: "comfortable",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 0.807,
-      "attention": 0,
-      "sheltered": 0.193
+      comfortable: 0.807,
+      attention: 0,
+      sheltered: 0.193,
     },
-    "modalProb": 0.807,
-    "runnerUpQuadrant": "sheltered",
-    "adaptInterval": [
-      7,
-      13
+    modalProb: 0.807,
+    runnerUpQuadrant: "sheltered",
+    adaptInterval: [7, 13],
+    nearBoundary: true,
+    destinations: [
+      {
+        title: "Horticulturist",
+        soc: "19-1013",
+        socTitle: "Soil and Plant Scientists",
+        aioe: 78.66,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Graduate Landscape Designer",
+        soc: "17-1012",
+        socTitle: "Landscape Architects",
+        aioe: 88.25,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Landscape Designer & Horticulturist",
+        soc: "17-1012",
+        socTitle: "Landscape Architects",
+        aioe: 88.25,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Vertical Garden Specialist",
+        soc: "19-1013",
+        socTitle: "Soil and Plant Scientists",
+        aioe: 78.66,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Research Assistant",
+        soc: "19-4061",
+        socTitle: "Social Science Research Assistants",
+        aioe: 92.3,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Horticulturalist",
+        soc: "19-1013",
+        socTitle: "Soil and Plant Scientists",
+        aioe: 78.66,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Horticultural Researcher",
+        soc: "19-1013",
+        socTitle: "Soil and Plant Scientists",
+        aioe: 78.66,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Consultant Urban Horticulturalist",
+        soc: "19-1013",
+        socTitle: "Soil and Plant Scientists",
+        aioe: 78.66,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Sustainability Projects Officer",
+        soc: "19-2041",
+        socTitle: "Environmental Scientists and Specialists, Including Health",
+        aioe: 87.77,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Open Space Planner",
+        soc: "19-3051",
+        socTitle: "Urban and Regional Planners",
+        aioe: 92.85,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Program Leader Arboriculture and Nursery",
+        soc: "45-1011",
+        socTitle:
+          "First-Line Supervisors/Managers of Farming, Fishing, and Forestry Workers",
+        aioe: 52.19,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "City Greening Lead",
+        soc: "19-1031",
+        socTitle: "Conservation Scientists",
+        aioe: 65.25,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Soil Scientist",
+        soc: "19-1013",
+        socTitle: "Soil and Plant Scientists",
+        aioe: 78.66,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
     ],
-    "nearBoundary": true,
-    "destinations": [
-      {
-        "title": "Horticulturist",
-        "soc": "19-1013",
-        "socTitle": "Soil and Plant Scientists",
-        "aioe": 78.66,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Graduate Landscape Designer",
-        "soc": "17-1012",
-        "socTitle": "Landscape Architects",
-        "aioe": 88.25,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Landscape Designer & Horticulturist",
-        "soc": "17-1012",
-        "socTitle": "Landscape Architects",
-        "aioe": 88.25,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Vertical Garden Specialist",
-        "soc": "19-1013",
-        "socTitle": "Soil and Plant Scientists",
-        "aioe": 78.66,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Research Assistant",
-        "soc": "19-4061",
-        "socTitle": "Social Science Research Assistants",
-        "aioe": 92.3,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Horticulturalist",
-        "soc": "19-1013",
-        "socTitle": "Soil and Plant Scientists",
-        "aioe": 78.66,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Horticultural Researcher",
-        "soc": "19-1013",
-        "socTitle": "Soil and Plant Scientists",
-        "aioe": 78.66,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Consultant Urban Horticulturalist",
-        "soc": "19-1013",
-        "socTitle": "Soil and Plant Scientists",
-        "aioe": 78.66,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Sustainability Projects Officer",
-        "soc": "19-2041",
-        "socTitle": "Environmental Scientists and Specialists, Including Health",
-        "aioe": 87.77,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Open Space Planner",
-        "soc": "19-3051",
-        "socTitle": "Urban and Regional Planners",
-        "aioe": 92.85,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Program Leader Arboriculture and Nursery",
-        "soc": "45-1011",
-        "socTitle": "First-Line Supervisors/Managers of Farming, Fishing, and Forestry Workers",
-        "aioe": 52.19,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "City Greening Lead",
-        "soc": "19-1031",
-        "socTitle": "Conservation Scientists",
-        "aioe": 65.25,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Soil Scientist",
-        "soc": "19-1013",
-        "socTitle": "Soil and Plant Scientists",
-        "aioe": 78.66,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      }
-    ]
   },
   {
-    "code": "b-des",
-    "name": "Bachelor of Design",
-    "faculty": "Architecture, Building & Planning",
-    "v1Score": 18,
-    "v1Band": "HIGH RISK",
-    "v2Exposure": null,
-    "v2Quadrant": "no-exposure",
-    "exposure": 88.09,
-    "entryExposure": 87.8,
-    "jirN": 543,
-    "coverage": 1,
-    "nTitles": 75,
-    "nMedium": 35,
-    "nInherited": 17,
-    "nNewlyMapped": 3,
-    "nExtension": 55,
-    "matchTier": "aggregate-own-majors",
-    "extensionNote": "The JIR reports this program per major, so all six Bachelor of Design major reports are aggregated. These are the program's own graduates, but a title appearing in several majors still counts once, so the mean is over the union of destinations rather than weighted by major size.",
-    "cohort": "extension",
-    "adaptiveness": 7,
-    "dimensionScores": {
-      "D2": 2,
-      "D3": 1,
-      "D7": 1,
-      "B": 2,
-      "D5": 1
+    code: "b-des",
+    name: "Bachelor of Design",
+    faculty: "Architecture, Building & Planning",
+    v1Score: 18,
+    v1Band: "HIGH RISK",
+    v2Exposure: null,
+    v2Quadrant: "no-exposure",
+    exposure: 88.09,
+    entryExposure: 87.8,
+    jirN: 543,
+    coverage: 1,
+    nTitles: 75,
+    nMedium: 35,
+    nInherited: 17,
+    nNewlyMapped: 3,
+    nExtension: 55,
+    matchTier: "aggregate-own-majors",
+    extensionNote:
+      "The JIR reports this program per major, so all six Bachelor of Design major reports are aggregated. These are the program's own graduates, but a title appearing in several majors still counts once, so the mean is over the union of destinations rather than weighted by major size.",
+    cohort: "extension",
+    adaptiveness: 7,
+    dimensionScores: {
+      D2: 2,
+      D3: 1,
+      D7: 1,
+      B: 2,
+      D5: 1,
     },
-    "gateD4": "PASS",
-    "gateD6": "PASS",
-    "quadrant": "sheltered",
-    "quadrantDist": {
+    gateD4: "PASS",
+    gateD6: "PASS",
+    quadrant: "sheltered",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 0.001,
-      "attention": 0,
-      "sheltered": 0.999
+      comfortable: 0.001,
+      attention: 0,
+      sheltered: 0.999,
     },
-    "modalProb": 0.999,
-    "runnerUpQuadrant": "comfortable",
-    "adaptInterval": [
-      4,
-      11
+    modalProb: 0.999,
+    runnerUpQuadrant: "comfortable",
+    adaptInterval: [4, 11],
+    nearBoundary: false,
+    destinations: [
+      {
+        title: "Architectural Assistant",
+        soc: "17-3011",
+        socTitle: "Architectural and Civil Drafters",
+        aioe: 85.6,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Graduate Architect",
+        soc: "17-1011",
+        socTitle: "Architects, Except Landscape and Naval",
+        aioe: 88.55,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Architectural Designer",
+        soc: "17-1011",
+        socTitle: "Architects, Except Landscape and Naval",
+        aioe: 88.55,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Architectural Draftsperson",
+        soc: "17-3011",
+        socTitle: "Architectural and Civil Drafters",
+        aioe: 85.6,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Architectural Technician",
+        soc: "17-3011",
+        socTitle: "Architectural and Civil Drafters",
+        aioe: 85.6,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Architect",
+        soc: "17-1011",
+        socTitle: "Architects, Except Landscape and Naval",
+        aioe: 88.55,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Urban Designer",
+        soc: "19-3051",
+        socTitle: "Urban and Regional Planners",
+        aioe: 92.85,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Landscape Architect",
+        soc: "17-1012",
+        socTitle: "Landscape Architects",
+        aioe: 88.25,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Interior Designer",
+        soc: "27-1025",
+        socTitle: "Interior Designers",
+        aioe: 90.33,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Project Coordinator",
+        soc: "13-1199",
+        socTitle: "Business Operations Specialists, All Other",
+        aioe: 88.56,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Project Manager",
+        soc: "11-9199",
+        socTitle: "Managers, All Other",
+        aioe: 86.59,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Architectural Designer",
+        soc: "17-1011",
+        socTitle: "Architects, Except Landscape and Naval",
+        aioe: 88.55,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Urban Planner",
+        soc: "19-3051",
+        socTitle: "Urban and Regional Planners",
+        aioe: 92.85,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Sustainability Consultant",
+        soc: "19-2041",
+        socTitle: "Environmental Scientists and Specialists, Including Health",
+        aioe: 87.77,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Graduate Builder",
+        soc: "11-9021",
+        socTitle: "Construction Managers",
+        aioe: 88.12,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Graduate Cost Manager",
+        soc: "13-1051",
+        socTitle: "Cost Estimators",
+        aioe: 96.19,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Cadet Quantity Surveyor",
+        soc: "13-1051",
+        socTitle: "Cost Estimators",
+        aioe: 96.19,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Junior Estimator",
+        soc: "13-1051",
+        socTitle: "Cost Estimators",
+        aioe: 96.19,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Construction Cadet",
+        soc: "11-9021",
+        socTitle: "Construction Managers",
+        aioe: 88.12,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Assistant Project Manager",
+        soc: "11-9021",
+        socTitle: "Construction Managers",
+        aioe: 88.12,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Project Engineer",
+        soc: "17-2199",
+        socTitle: "Engineers, All Other",
+        aioe: 82.37,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Quantity Surveyor",
+        soc: "13-1051",
+        socTitle: "Cost Estimators",
+        aioe: 96.19,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Cost Manager",
+        soc: "13-1051",
+        socTitle: "Cost Estimators",
+        aioe: 96.19,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Site Engineer",
+        soc: "17-2051",
+        socTitle: "Civil Engineers",
+        aioe: 94.17,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Site Manager",
+        soc: "11-9021",
+        socTitle: "Construction Managers",
+        aioe: 88.12,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Construction Supervisor",
+        soc: "47-1011",
+        socTitle:
+          "First-Line Supervisors/Managers of Construction Trades and Extraction Workers",
+        aioe: 56.33,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Contract Administrator",
+        soc: "13-1051",
+        socTitle: "Cost Estimators",
+        aioe: 96.19,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Graphic Designer",
+        soc: "27-1024",
+        socTitle: "Graphic Designers",
+        aioe: 80.66,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Freelance Graphic Designer",
+        soc: "27-1024",
+        socTitle: "Graphic Designers",
+        aioe: 80.66,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Visual Identity Designer",
+        soc: "27-1024",
+        socTitle: "Graphic Designers",
+        aioe: 80.66,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Illustrator",
+        soc: "27-1013",
+        socTitle:
+          "Fine Artists, Including Painters, Sculptors, and Illustrators",
+        aioe: 50.05,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Content Designer",
+        soc: "27-3043",
+        socTitle: "Writers and Authors",
+        aioe: 87.14,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Digital Designer",
+        soc: "27-1024",
+        socTitle: "Graphic Designers",
+        aioe: 80.66,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Service Designer",
+        soc: "27-1021",
+        socTitle: "Commercial and Industrial Designers",
+        aioe: 84.26,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "UI/UX Designer",
+        soc: "15-1199",
+        socTitle: "Computer Occupations, All Other",
+        aioe: 92.97,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Brand and Visual Designer",
+        soc: "27-1024",
+        socTitle: "Graphic Designers",
+        aioe: 80.66,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Head of Design",
+        soc: "27-1011",
+        socTitle: "Art Directors",
+        aioe: 87.97,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Design Manager",
+        soc: "11-9041",
+        socTitle: "Engineering Managers",
+        aioe: 83.55,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Creative Lead",
+        soc: "27-1011",
+        socTitle: "Art Directors",
+        aioe: 87.97,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Communications Director",
+        soc: "11-2031",
+        socTitle: "Public Relations Managers",
+        aioe: 94.43,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Graduate Valuation Analyst",
+        soc: "13-2021",
+        socTitle: "Appraisers and Assessors of Real Estate",
+        aioe: 83.65,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Graduate Quantity Surveyor",
+        soc: "13-1051",
+        socTitle: "Cost Estimators",
+        aioe: 96.19,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Graduate Project Manager",
+        soc: "11-9021",
+        socTitle: "Construction Managers",
+        aioe: 88.12,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Assistant Development Manager",
+        soc: "11-9021",
+        socTitle: "Construction Managers",
+        aioe: 88.12,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Assistant Valuer",
+        soc: "13-2021",
+        socTitle: "Appraisers and Assessors of Real Estate",
+        aioe: 83.65,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Valuation Analyst",
+        soc: "13-2021",
+        socTitle: "Appraisers and Assessors of Real Estate",
+        aioe: 83.65,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Residential Property Valuer",
+        soc: "13-2021",
+        socTitle: "Appraisers and Assessors of Real Estate",
+        aioe: 83.65,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Property Manager",
+        soc: "11-9141",
+        socTitle: "Property, Real Estate, and Community Association Managers",
+        aioe: 92.56,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Property Administrator",
+        soc: "11-9141",
+        socTitle: "Property, Real Estate, and Community Association Managers",
+        aioe: 92.56,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Managing Director",
+        soc: "11-1021",
+        socTitle: "General and Operations Managers",
+        aioe: 77.3,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["senior"],
+      },
+      {
+        title: "Graduate Planner",
+        soc: "19-3051",
+        socTitle: "Urban and Regional Planners",
+        aioe: 92.85,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Assistant Planner",
+        soc: "19-3051",
+        socTitle: "Urban and Regional Planners",
+        aioe: 92.85,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Graduate Transport Planner",
+        soc: "19-3051",
+        socTitle: "Urban and Regional Planners",
+        aioe: 92.85,
+        confidence: "medium",
+        crosswalkSource: "new_this_session",
+        stages: ["entry"],
+      },
+      {
+        title: "Graduate Environmental Planner",
+        soc: "19-3051",
+        socTitle: "Urban and Regional Planners",
+        aioe: 92.85,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Graduate GIS Analyst",
+        soc: "19-3092",
+        socTitle: "Geographers",
+        aioe: 97.82,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Graduate Interior Designer",
+        soc: "27-1025",
+        socTitle: "Interior Designers",
+        aioe: 90.33,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Urban Planner",
+        soc: "19-3051",
+        socTitle: "Urban and Regional Planners",
+        aioe: 92.85,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Planner",
+        soc: "19-3051",
+        socTitle: "Urban and Regional Planners",
+        aioe: 92.85,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Environmental Planner",
+        soc: "19-3051",
+        socTitle: "Urban and Regional Planners",
+        aioe: 92.85,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "GIS Analyst",
+        soc: "19-3092",
+        socTitle: "Geographers",
+        aioe: 97.82,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Senior Planning Consultant",
+        soc: "19-3051",
+        socTitle: "Urban and Regional Planners",
+        aioe: 92.85,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Strategic Planner",
+        soc: "19-3051",
+        socTitle: "Urban and Regional Planners",
+        aioe: 92.85,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Environmental Planner",
+        soc: "19-3051",
+        socTitle: "Urban and Regional Planners",
+        aioe: 92.85,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "UX Designer",
+        soc: "15-1199",
+        socTitle: "Computer Occupations, All Other",
+        aioe: 92.97,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Junior UX/UI Designer",
+        soc: "15-1199",
+        socTitle: "Computer Occupations, All Other",
+        aioe: 92.97,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Junior Graphic Designer",
+        soc: "27-1024",
+        socTitle: "Graphic Designers",
+        aioe: 80.66,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Web Designer",
+        soc: "15-1134",
+        socTitle: "Web Developers",
+        aioe: 89.56,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Experience Designer",
+        soc: "15-1199",
+        socTitle: "Computer Occupations, All Other",
+        aioe: 92.97,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Product Designer",
+        soc: "27-1021",
+        socTitle: "Commercial and Industrial Designers",
+        aioe: 84.26,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "UX/UI Designer",
+        soc: "15-1199",
+        socTitle: "Computer Occupations, All Other",
+        aioe: 92.97,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Software Developer",
+        soc: "15-1132",
+        socTitle: "Software Developers, Applications",
+        aioe: 92.22,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Product Director",
+        soc: "11-1021",
+        socTitle: "General and Operations Managers",
+        aioe: 77.3,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Media Director",
+        soc: "11-2011",
+        socTitle: "Advertising and Promotions Managers",
+        aioe: 94.44,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Website Director",
+        soc: "15-1134",
+        socTitle: "Web Developers",
+        aioe: 89.56,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Information Technology Officer",
+        soc: "15-1151",
+        socTitle: "Computer User Support Specialists",
+        aioe: 70.74,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
     ],
-    "nearBoundary": false,
-    "destinations": [
-      {
-        "title": "Architectural Assistant",
-        "soc": "17-3011",
-        "socTitle": "Architectural and Civil Drafters",
-        "aioe": 85.6,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Graduate Architect",
-        "soc": "17-1011",
-        "socTitle": "Architects, Except Landscape and Naval",
-        "aioe": 88.55,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Architectural Designer",
-        "soc": "17-1011",
-        "socTitle": "Architects, Except Landscape and Naval",
-        "aioe": 88.55,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Architectural Draftsperson",
-        "soc": "17-3011",
-        "socTitle": "Architectural and Civil Drafters",
-        "aioe": 85.6,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Architectural Technician",
-        "soc": "17-3011",
-        "socTitle": "Architectural and Civil Drafters",
-        "aioe": 85.6,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Architect",
-        "soc": "17-1011",
-        "socTitle": "Architects, Except Landscape and Naval",
-        "aioe": 88.55,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Urban Designer",
-        "soc": "19-3051",
-        "socTitle": "Urban and Regional Planners",
-        "aioe": 92.85,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Landscape Architect",
-        "soc": "17-1012",
-        "socTitle": "Landscape Architects",
-        "aioe": 88.25,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Interior Designer",
-        "soc": "27-1025",
-        "socTitle": "Interior Designers",
-        "aioe": 90.33,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Project Coordinator",
-        "soc": "13-1199",
-        "socTitle": "Business Operations Specialists, All Other",
-        "aioe": 88.56,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Project Manager",
-        "soc": "11-9199",
-        "socTitle": "Managers, All Other",
-        "aioe": 86.59,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Architectural Designer",
-        "soc": "17-1011",
-        "socTitle": "Architects, Except Landscape and Naval",
-        "aioe": 88.55,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Urban Planner",
-        "soc": "19-3051",
-        "socTitle": "Urban and Regional Planners",
-        "aioe": 92.85,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Sustainability Consultant",
-        "soc": "19-2041",
-        "socTitle": "Environmental Scientists and Specialists, Including Health",
-        "aioe": 87.77,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Graduate Builder",
-        "soc": "11-9021",
-        "socTitle": "Construction Managers",
-        "aioe": 88.12,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Graduate Cost Manager",
-        "soc": "13-1051",
-        "socTitle": "Cost Estimators",
-        "aioe": 96.19,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Cadet Quantity Surveyor",
-        "soc": "13-1051",
-        "socTitle": "Cost Estimators",
-        "aioe": 96.19,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Junior Estimator",
-        "soc": "13-1051",
-        "socTitle": "Cost Estimators",
-        "aioe": 96.19,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Construction Cadet",
-        "soc": "11-9021",
-        "socTitle": "Construction Managers",
-        "aioe": 88.12,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Assistant Project Manager",
-        "soc": "11-9021",
-        "socTitle": "Construction Managers",
-        "aioe": 88.12,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Project Engineer",
-        "soc": "17-2199",
-        "socTitle": "Engineers, All Other",
-        "aioe": 82.37,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Quantity Surveyor",
-        "soc": "13-1051",
-        "socTitle": "Cost Estimators",
-        "aioe": 96.19,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Cost Manager",
-        "soc": "13-1051",
-        "socTitle": "Cost Estimators",
-        "aioe": 96.19,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Site Engineer",
-        "soc": "17-2051",
-        "socTitle": "Civil Engineers",
-        "aioe": 94.17,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Site Manager",
-        "soc": "11-9021",
-        "socTitle": "Construction Managers",
-        "aioe": 88.12,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Construction Supervisor",
-        "soc": "47-1011",
-        "socTitle": "First-Line Supervisors/Managers of Construction Trades and Extraction Workers",
-        "aioe": 56.33,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Contract Administrator",
-        "soc": "13-1051",
-        "socTitle": "Cost Estimators",
-        "aioe": 96.19,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Graphic Designer",
-        "soc": "27-1024",
-        "socTitle": "Graphic Designers",
-        "aioe": 80.66,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Freelance Graphic Designer",
-        "soc": "27-1024",
-        "socTitle": "Graphic Designers",
-        "aioe": 80.66,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Visual Identity Designer",
-        "soc": "27-1024",
-        "socTitle": "Graphic Designers",
-        "aioe": 80.66,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Illustrator",
-        "soc": "27-1013",
-        "socTitle": "Fine Artists, Including Painters, Sculptors, and Illustrators",
-        "aioe": 50.05,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Content Designer",
-        "soc": "27-3043",
-        "socTitle": "Writers and Authors",
-        "aioe": 87.14,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Digital Designer",
-        "soc": "27-1024",
-        "socTitle": "Graphic Designers",
-        "aioe": 80.66,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Service Designer",
-        "soc": "27-1021",
-        "socTitle": "Commercial and Industrial Designers",
-        "aioe": 84.26,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "UI/UX Designer",
-        "soc": "15-1199",
-        "socTitle": "Computer Occupations, All Other",
-        "aioe": 92.97,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Brand and Visual Designer",
-        "soc": "27-1024",
-        "socTitle": "Graphic Designers",
-        "aioe": 80.66,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Head of Design",
-        "soc": "27-1011",
-        "socTitle": "Art Directors",
-        "aioe": 87.97,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Design Manager",
-        "soc": "11-9041",
-        "socTitle": "Engineering Managers",
-        "aioe": 83.55,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Creative Lead",
-        "soc": "27-1011",
-        "socTitle": "Art Directors",
-        "aioe": 87.97,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Communications Director",
-        "soc": "11-2031",
-        "socTitle": "Public Relations Managers",
-        "aioe": 94.43,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Graduate Valuation Analyst",
-        "soc": "13-2021",
-        "socTitle": "Appraisers and Assessors of Real Estate",
-        "aioe": 83.65,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Graduate Quantity Surveyor",
-        "soc": "13-1051",
-        "socTitle": "Cost Estimators",
-        "aioe": 96.19,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Graduate Project Manager",
-        "soc": "11-9021",
-        "socTitle": "Construction Managers",
-        "aioe": 88.12,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Assistant Development Manager",
-        "soc": "11-9021",
-        "socTitle": "Construction Managers",
-        "aioe": 88.12,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Assistant Valuer",
-        "soc": "13-2021",
-        "socTitle": "Appraisers and Assessors of Real Estate",
-        "aioe": 83.65,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Valuation Analyst",
-        "soc": "13-2021",
-        "socTitle": "Appraisers and Assessors of Real Estate",
-        "aioe": 83.65,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Residential Property Valuer",
-        "soc": "13-2021",
-        "socTitle": "Appraisers and Assessors of Real Estate",
-        "aioe": 83.65,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Property Manager",
-        "soc": "11-9141",
-        "socTitle": "Property, Real Estate, and Community Association Managers",
-        "aioe": 92.56,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Property Administrator",
-        "soc": "11-9141",
-        "socTitle": "Property, Real Estate, and Community Association Managers",
-        "aioe": 92.56,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Managing Director",
-        "soc": "11-1021",
-        "socTitle": "General and Operations Managers",
-        "aioe": 77.3,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Graduate Planner",
-        "soc": "19-3051",
-        "socTitle": "Urban and Regional Planners",
-        "aioe": 92.85,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Assistant Planner",
-        "soc": "19-3051",
-        "socTitle": "Urban and Regional Planners",
-        "aioe": 92.85,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Graduate Transport Planner",
-        "soc": "19-3051",
-        "socTitle": "Urban and Regional Planners",
-        "aioe": 92.85,
-        "confidence": "medium",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Graduate Environmental Planner",
-        "soc": "19-3051",
-        "socTitle": "Urban and Regional Planners",
-        "aioe": 92.85,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Graduate GIS Analyst",
-        "soc": "19-3092",
-        "socTitle": "Geographers",
-        "aioe": 97.82,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Graduate Interior Designer",
-        "soc": "27-1025",
-        "socTitle": "Interior Designers",
-        "aioe": 90.33,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Urban Planner",
-        "soc": "19-3051",
-        "socTitle": "Urban and Regional Planners",
-        "aioe": 92.85,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Planner",
-        "soc": "19-3051",
-        "socTitle": "Urban and Regional Planners",
-        "aioe": 92.85,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Environmental Planner",
-        "soc": "19-3051",
-        "socTitle": "Urban and Regional Planners",
-        "aioe": 92.85,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "GIS Analyst",
-        "soc": "19-3092",
-        "socTitle": "Geographers",
-        "aioe": 97.82,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Senior Planning Consultant",
-        "soc": "19-3051",
-        "socTitle": "Urban and Regional Planners",
-        "aioe": 92.85,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Strategic Planner",
-        "soc": "19-3051",
-        "socTitle": "Urban and Regional Planners",
-        "aioe": 92.85,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Environmental Planner",
-        "soc": "19-3051",
-        "socTitle": "Urban and Regional Planners",
-        "aioe": 92.85,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "UX Designer",
-        "soc": "15-1199",
-        "socTitle": "Computer Occupations, All Other",
-        "aioe": 92.97,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Junior UX/UI Designer",
-        "soc": "15-1199",
-        "socTitle": "Computer Occupations, All Other",
-        "aioe": 92.97,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Junior Graphic Designer",
-        "soc": "27-1024",
-        "socTitle": "Graphic Designers",
-        "aioe": 80.66,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Web Designer",
-        "soc": "15-1134",
-        "socTitle": "Web Developers",
-        "aioe": 89.56,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Experience Designer",
-        "soc": "15-1199",
-        "socTitle": "Computer Occupations, All Other",
-        "aioe": 92.97,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Product Designer",
-        "soc": "27-1021",
-        "socTitle": "Commercial and Industrial Designers",
-        "aioe": 84.26,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "UX/UI Designer",
-        "soc": "15-1199",
-        "socTitle": "Computer Occupations, All Other",
-        "aioe": 92.97,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Software Developer",
-        "soc": "15-1132",
-        "socTitle": "Software Developers, Applications",
-        "aioe": 92.22,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Product Director",
-        "soc": "11-1021",
-        "socTitle": "General and Operations Managers",
-        "aioe": 77.3,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Media Director",
-        "soc": "11-2011",
-        "socTitle": "Advertising and Promotions Managers",
-        "aioe": 94.44,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Website Director",
-        "soc": "15-1134",
-        "socTitle": "Web Developers",
-        "aioe": 89.56,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Information Technology Officer",
-        "soc": "15-1151",
-        "socTitle": "Computer User Support Specialists",
-        "aioe": 70.74,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      }
-    ]
   },
   {
-    "code": "b-sci",
-    "name": "Bachelor of Science",
-    "faculty": "Science",
-    "v1Score": 23,
-    "v1Band": "MODERATE RISK",
-    "v2Exposure": null,
-    "v2Quadrant": "no-exposure",
-    "exposure": 82.72,
-    "entryExposure": 78.11,
-    "jirN": 3650,
-    "coverage": 1,
-    "nTitles": 215,
-    "nMedium": 112,
-    "nInherited": 52,
-    "nNewlyMapped": 34,
-    "nExtension": 129,
-    "matchTier": "aggregate-own-majors",
-    "extensionNote": "The JIR reports this program per major, so all 23 Bachelor of Science major reports are aggregated. These are the program's own graduates, but a title appearing in several majors still counts once, so the mean is over the union of destinations rather than weighted by major size — a material caveat here, because the majors span veterinary science through data science and differ greatly in size.",
-    "cohort": "extension",
-    "adaptiveness": 11,
-    "dimensionScores": {
-      "D2": 2,
-      "D3": 3,
-      "D7": 3,
-      "B": 2,
-      "D5": 1
+    code: "b-sci",
+    name: "Bachelor of Science",
+    faculty: "Science",
+    v1Score: 23,
+    v1Band: "MODERATE RISK",
+    v2Exposure: null,
+    v2Quadrant: "no-exposure",
+    exposure: 82.72,
+    entryExposure: 78.11,
+    jirN: 3650,
+    coverage: 1,
+    nTitles: 215,
+    nMedium: 112,
+    nInherited: 52,
+    nNewlyMapped: 34,
+    nExtension: 129,
+    matchTier: "aggregate-own-majors",
+    extensionNote:
+      "The JIR reports this program per major, so all 23 Bachelor of Science major reports are aggregated. These are the program's own graduates, but a title appearing in several majors still counts once, so the mean is over the union of destinations rather than weighted by major size — a material caveat here, because the majors span veterinary science through data science and differ greatly in size.",
+    cohort: "extension",
+    adaptiveness: 11,
+    dimensionScores: {
+      D2: 2,
+      D3: 3,
+      D7: 3,
+      B: 2,
+      D5: 1,
     },
-    "gateD4": "PASS",
-    "gateD6": "PASS",
-    "quadrant": "comfortable",
-    "quadrantDist": {
+    gateD4: "PASS",
+    gateD6: "PASS",
+    quadrant: "comfortable",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 0.979,
-      "attention": 0,
-      "sheltered": 0.021
+      comfortable: 0.979,
+      attention: 0,
+      sheltered: 0.021,
     },
-    "modalProb": 0.979,
-    "runnerUpQuadrant": "sheltered",
-    "adaptInterval": [
-      7,
-      14
+    modalProb: 0.979,
+    runnerUpQuadrant: "sheltered",
+    adaptInterval: [7, 14],
+    nearBoundary: true,
+    destinations: [
+      {
+        title: "Veterinary Assistant",
+        soc: "31-9096",
+        socTitle: "Veterinary Assistants and Laboratory Animal Caretakers",
+        aioe: 45.17,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["entry"],
+      },
+      {
+        title: "Animal Technician",
+        soc: "31-9096",
+        socTitle: "Veterinary Assistants and Laboratory Animal Caretakers",
+        aioe: 45.17,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Research Assistant",
+        soc: "19-4061",
+        socTitle: "Social Science Research Assistants",
+        aioe: 92.3,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry", "early"],
+      },
+      {
+        title: "Laboratory Technician",
+        soc: "19-4099",
+        socTitle: "Life, Physical, and Social Science Technicians, All Other",
+        aioe: 74.33,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Veterinary Receptionist",
+        soc: "31-9096",
+        socTitle: "Veterinary Assistants and Laboratory Animal Caretakers",
+        aioe: 45.17,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Veterinary Nurse",
+        soc: "29-2056",
+        socTitle: "Veterinary Technologists and Technicians",
+        aioe: 54.97,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early", "entry"],
+      },
+      {
+        title: "Research Officer",
+        soc: "19-4061",
+        socTitle: "Social Science Research Assistants",
+        aioe: 92.3,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["early", "entry"],
+      },
+      {
+        title: "Epidemiologist",
+        soc: "19-1041",
+        socTitle: "Epidemiologists",
+        aioe: 97.82,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early", "senior"],
+      },
+      {
+        title: "Biosecurity Officer",
+        soc: "45-2011",
+        socTitle: "Agricultural Inspectors",
+        aioe: 67.67,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Research Veterinarian",
+        soc: "29-1131",
+        socTitle: "Veterinarians",
+        aioe: 61.82,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior", "early"],
+      },
+      {
+        title: "Senior Epidemiologist",
+        soc: "19-1041",
+        socTitle: "Epidemiologists",
+        aioe: 97.82,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Postdoctoral Researcher",
+        soc: "19-1042",
+        socTitle: "Medical Scientists, Except Epidemiologists",
+        aioe: 94.1,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Veterinarian",
+        soc: "29-1131",
+        socTitle: "Veterinarians",
+        aioe: 61.82,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["senior", "early"],
+      },
+      {
+        title: "Laboratory Assistant",
+        soc: "19-4021",
+        socTitle: "Biological Technicians",
+        aioe: 70.78,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Medical Laboratory Technician",
+        soc: "29-2012",
+        socTitle: "Medical and Clinical Laboratory Technicians",
+        aioe: 60.57,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Graduate Scientist",
+        soc: "19-1029",
+        socTitle: "Biological Scientists, All Other",
+        aioe: 87.67,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Data Analyst",
+        soc: "15-2041",
+        socTitle: "Statisticians",
+        aioe: 96.55,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Clinical Trial Coordinator",
+        soc: "11-9121",
+        socTitle: "Natural Sciences Managers",
+        aioe: 95.24,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry", "early"],
+      },
+      {
+        title: "Laboratory Demonstrator",
+        soc: "25-1191",
+        socTitle: "Graduate Teaching Assistants",
+        aioe: 90.08,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Research Technician",
+        soc: "19-4021",
+        socTitle: "Biological Technicians",
+        aioe: 70.78,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Medical Laboratory Scientist",
+        soc: "29-2011",
+        socTitle: "Medical and Clinical Laboratory Technologists",
+        aioe: 70.32,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Research & Development Scientist",
+        soc: "19-1042",
+        socTitle: "Medical Scientists, Except Epidemiologists",
+        aioe: 94.1,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Business Intelligence Analyst",
+        soc: "15-1121",
+        socTitle: "Computer Systems Analysts",
+        aioe: 92.15,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early", "entry"],
+      },
+      {
+        title: "Research Fellow",
+        soc: "",
+        socTitle: "unmatched -> imputed",
+        aioe: 91.95,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Scientist",
+        soc: "",
+        socTitle: "unmatched -> imputed",
+        aioe: 91.95,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Clinical Trial Assistant",
+        soc: "19-4021",
+        socTitle: "Biological Technicians",
+        aioe: 70.78,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry", "early"],
+      },
+      {
+        title: "Microbiology Analyst",
+        soc: "19-1022",
+        socTitle: "Microbiologists",
+        aioe: 80.18,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Quality Control Analyst",
+        soc: "51-9061",
+        socTitle: "Inspectors, Testers, Sorters, Samplers, and Weighers",
+        aioe: 62.91,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["entry"],
+      },
+      {
+        title: "Scientific Affairs Assistant",
+        soc: "19-4099",
+        socTitle: "Life, Physical, and Social Science Technicians, All Other",
+        aioe: 74.33,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Biotechnologist",
+        soc: "19-1029",
+        socTitle: "Biological Scientists, All Other",
+        aioe: 87.67,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Bioinformatician",
+        soc: "19-1029",
+        socTitle: "Biological Scientists, All Other",
+        aioe: 87.67,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Product Development Specialist",
+        soc: "19-1012",
+        socTitle: "Food Scientists and Technologists",
+        aioe: 82.53,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Quality Assurance Specialist",
+        soc: "13-1041",
+        socTitle:
+          "Compliance Officers, Except Agriculture, Construction, Health and Safety, and Transportation",
+        aioe: 80.24,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Analytical Chemist",
+        soc: "19-2031",
+        socTitle: "Chemists",
+        aioe: 75.54,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Business Development Manager",
+        soc: "11-2022",
+        socTitle: "Sales Managers",
+        aioe: 93.77,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Laboratory Analyst",
+        soc: "29-2011",
+        socTitle: "Medical and Clinical Laboratory Technologists",
+        aioe: 70.32,
+        confidence: "medium",
+        crosswalkSource: "new_this_session",
+        stages: ["entry"],
+      },
+      {
+        title: "Analytical Chemist",
+        soc: "19-2031",
+        socTitle: "Chemists",
+        aioe: 75.54,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Production Chemist",
+        soc: "19-2031",
+        socTitle: "Chemists",
+        aioe: 75.54,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Quality Control Chemist",
+        soc: "19-2031",
+        socTitle: "Chemists",
+        aioe: 75.54,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Research & Development Chemist",
+        soc: "19-2031",
+        socTitle: "Chemists",
+        aioe: 75.54,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Environmental Officer",
+        soc: "19-2041",
+        socTitle: "Environmental Scientists and Specialists, Including Health",
+        aioe: 87.77,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Research Scientist",
+        soc: "",
+        socTitle: "unmatched -> imputed",
+        aioe: 91.95,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["early", "senior"],
+      },
+      {
+        title: "Senior Quality Control Chemist",
+        soc: "19-2031",
+        socTitle: "Chemists",
+        aioe: 75.54,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Radiochemist",
+        soc: "19-2031",
+        socTitle: "Chemists",
+        aioe: 75.54,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["senior"],
+      },
+      {
+        title: "Software Engineer",
+        soc: "15-1132",
+        socTitle: "Software Developers, Applications",
+        aioe: 92.22,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry", "early"],
+      },
+      {
+        title: "Software Developer",
+        soc: "15-1132",
+        socTitle: "Software Developers, Applications",
+        aioe: 92.22,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Technology Graduate",
+        soc: "15-1199",
+        socTitle: "Computer Occupations, All Other",
+        aioe: 92.97,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Data Engineer",
+        soc: "15-1141",
+        socTitle: "Database Administrators",
+        aioe: 94.22,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Full Stack Developer",
+        soc: "15-1132",
+        socTitle: "Software Developers, Applications",
+        aioe: 92.22,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Full Stack Software Engineer",
+        soc: "15-1132",
+        socTitle: "Software Developers, Applications",
+        aioe: 92.22,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Machine Learning Engineer",
+        soc: "15-1111",
+        socTitle: "Computer and Information Research Scientists",
+        aioe: 91.1,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Security Analyst",
+        soc: "15-1122",
+        socTitle: "Information Security Analysts",
+        aioe: 93.39,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Business Analyst",
+        soc: "13-1111",
+        socTitle: "Management Analysts",
+        aioe: 97.73,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early", "entry"],
+      },
+      {
+        title: "Software Architect",
+        soc: "15-1133",
+        socTitle: "Software Developers, Systems Software",
+        aioe: 94.18,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Software Engineer",
+        soc: "15-1132",
+        socTitle: "Software Developers, Applications",
+        aioe: 92.22,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Software Developer",
+        soc: "15-1132",
+        socTitle: "Software Developers, Applications",
+        aioe: 92.22,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Lead Engineer",
+        soc: "17-2199",
+        socTitle: "Engineers, All Other",
+        aioe: 82.37,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Product Manager",
+        soc: "11-2021",
+        socTitle: "Marketing Managers",
+        aioe: 94.93,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Graduate Data Scientist",
+        soc: "15-2041",
+        socTitle: "Statisticians",
+        aioe: 96.55,
+        confidence: "medium",
+        crosswalkSource: "new_this_session",
+        stages: ["entry"],
+      },
+      {
+        title: "Junior Data Scientist",
+        soc: "15-2031",
+        socTitle: "Operations Research Analysts",
+        aioe: 96.96,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Junior Business Analyst",
+        soc: "13-1111",
+        socTitle: "Management Analysts",
+        aioe: 97.73,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Data Scientist",
+        soc: "15-2041",
+        socTitle: "Statisticians",
+        aioe: 96.55,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Strategy Analyst",
+        soc: "13-1111",
+        socTitle: "Management Analysts",
+        aioe: 97.73,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Risk Management Analyst",
+        soc: "13-2051",
+        socTitle: "Financial Analysts",
+        aioe: 96.5,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Data Science Manager",
+        soc: "11-9121",
+        socTitle: "Natural Sciences Managers",
+        aioe: 95.24,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Lead Data Scientist",
+        soc: "15-2031",
+        socTitle: "Operations Research Analysts",
+        aioe: 96.96,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Field Ecologist",
+        soc: "19-1031",
+        socTitle: "Conservation Scientists",
+        aioe: 65.25,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry", "early"],
+      },
+      {
+        title: "Graduate Ecologist",
+        soc: "19-1031",
+        socTitle: "Conservation Scientists",
+        aioe: 65.25,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Graduate Environmental Scientist",
+        soc: "19-2041",
+        socTitle: "Environmental Scientists and Specialists, Including Health",
+        aioe: 87.77,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Graduate Botanist",
+        soc: "19-1020",
+        socTitle: "Biologists",
+        aioe: 81.52,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Ecologist",
+        soc: "19-1031",
+        socTitle: "Conservation Scientists",
+        aioe: 65.25,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Environmental Scientist",
+        soc: "19-2041",
+        socTitle: "Environmental Scientists and Specialists, Including Health",
+        aioe: 87.77,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early", "entry"],
+      },
+      {
+        title: "Field Botanist",
+        soc: "19-1020",
+        socTitle: "Biologists",
+        aioe: 81.52,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Wildlife Officer",
+        soc: "19-1023",
+        socTitle: "Zoologists and Wildlife Biologists",
+        aioe: 71.17,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Wildlife Educator and Presenter",
+        soc: "25-9021",
+        socTitle: "Farm and Home Management Advisors",
+        aioe: 84.1,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Ecology Support Officer",
+        soc: "19-4093",
+        socTitle: "Forest and Conservation Technicians",
+        aioe: 47.71,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Environment Protection Officer",
+        soc: "19-2041",
+        socTitle: "Environmental Scientists and Specialists, Including Health",
+        aioe: 87.77,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Senior Botanist",
+        soc: "19-1020",
+        socTitle: "Biologists",
+        aioe: 81.52,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Environmental Information Specialist",
+        soc: "19-2041",
+        socTitle: "Environmental Scientists and Specialists, Including Health",
+        aioe: 87.77,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Sustainability Graduate",
+        soc: "19-2041",
+        socTitle: "Environmental Scientists and Specialists, Including Health",
+        aioe: 87.77,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Graduate Environmental Consultant",
+        soc: "19-2041",
+        socTitle: "Environmental Scientists and Specialists, Including Health",
+        aioe: 87.77,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Environment Cadet",
+        soc: "19-2041",
+        socTitle: "Environmental Scientists and Specialists, Including Health",
+        aioe: 87.77,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Science and Planning Graduate",
+        soc: "19-3051",
+        socTitle: "Urban and Regional Planners",
+        aioe: 92.85,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Land, Planning and Environment Graduate",
+        soc: "19-3051",
+        socTitle: "Urban and Regional Planners",
+        aioe: 92.85,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Environmental Consultant",
+        soc: "19-2041",
+        socTitle: "Environmental Scientists and Specialists, Including Health",
+        aioe: 87.77,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Environmental Advisor",
+        soc: "19-2041",
+        socTitle: "Environmental Scientists and Specialists, Including Health",
+        aioe: 87.77,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Environmental Coordinator",
+        soc: "19-2041",
+        socTitle: "Environmental Scientists and Specialists, Including Health",
+        aioe: 87.77,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Environmental Research Analyst",
+        soc: "19-2041",
+        socTitle: "Environmental Scientists and Specialists, Including Health",
+        aioe: 87.77,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Sustainability Consultant",
+        soc: "19-2041",
+        socTitle: "Environmental Scientists and Specialists, Including Health",
+        aioe: 87.77,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Sustainability Officer",
+        soc: "19-2041",
+        socTitle: "Environmental Scientists and Specialists, Including Health",
+        aioe: 87.77,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Senior Environmental Officer",
+        soc: "19-2041",
+        socTitle: "Environmental Scientists and Specialists, Including Health",
+        aioe: 87.77,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Food Technologist",
+        soc: "19-1012",
+        socTitle: "Food Scientists and Technologists",
+        aioe: 82.53,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Food Safety Technician",
+        soc: "19-4011",
+        socTitle: "Agricultural and Food Science Technicians",
+        aioe: 65.89,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Product Developer Graduate",
+        soc: "19-1012",
+        socTitle: "Food Scientists and Technologists",
+        aioe: 82.53,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Culinary Development Technologist",
+        soc: "19-1012",
+        socTitle: "Food Scientists and Technologists",
+        aioe: 82.53,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "New Product Development Technologist",
+        soc: "19-1012",
+        socTitle: "Food Scientists and Technologists",
+        aioe: 82.53,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "New Product Development Officer",
+        soc: "19-1012",
+        socTitle: "Food Scientists and Technologists",
+        aioe: 82.53,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Quality Assurance Officer",
+        soc: "19-4011",
+        socTitle: "Agricultural and Food Science Technicians",
+        aioe: 65.89,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["early", "entry"],
+      },
+      {
+        title: "Quality Specialist",
+        soc: "19-4099",
+        socTitle: "Life, Physical, and Social Science Technicians, All Other",
+        aioe: 74.33,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Nutrition Scientist",
+        soc: "19-1012",
+        socTitle: "Food Scientists and Technologists",
+        aioe: 82.53,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Product Development Manager",
+        soc: "11-9041",
+        socTitle: "Engineering Managers",
+        aioe: 83.55,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Food Technologist",
+        soc: "19-1012",
+        socTitle: "Food Scientists and Technologists",
+        aioe: 82.53,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Quality Manager",
+        soc: "11-3051",
+        socTitle: "Industrial Production Managers",
+        aioe: 75.72,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Production Biotechnologist",
+        soc: "19-1029",
+        socTitle: "Biological Scientists, All Other",
+        aioe: 87.67,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry", "early"],
+      },
+      {
+        title: "Plant Breeding Assistant",
+        soc: "19-4011",
+        socTitle: "Agricultural and Food Science Technicians",
+        aioe: 65.89,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Genetic Counsellor",
+        soc: "29-9092",
+        socTitle: "Genetic Counselors",
+        aioe: 100,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Computational Biologist",
+        soc: "19-1029",
+        socTitle: "Biological Scientists, All Other",
+        aioe: 87.67,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Clinical Research Coordinator",
+        soc: "19-1042",
+        socTitle: "Medical Scientists, Except Epidemiologists",
+        aioe: 94.1,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Project Officer",
+        soc: "13-1199",
+        socTitle: "Business Operations Specialists, All Other",
+        aioe: 88.56,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Senior Research Assistant",
+        soc: "19-4021",
+        socTitle: "Biological Technicians",
+        aioe: 70.78,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Clinical Research Scientist",
+        soc: "19-1042",
+        socTitle: "Medical Scientists, Except Epidemiologists",
+        aioe: 94.1,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Graduate Geologist",
+        soc: "19-2042",
+        socTitle: "Geoscientists, Except Hydrologists and Geographers",
+        aioe: 80.62,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["entry"],
+      },
+      {
+        title: "Graduate Geoscientist",
+        soc: "19-2042",
+        socTitle: "Geoscientists, Except Hydrologists and Geographers",
+        aioe: 80.62,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["entry"],
+      },
+      {
+        title: "Field Technician",
+        soc: "17-3029",
+        socTitle: "Engineering Technicians, Except Drafters, All Other",
+        aioe: 68.23,
+        confidence: "medium",
+        crosswalkSource: "new_this_session",
+        stages: ["entry"],
+      },
+      {
+        title: "Mine Geologist",
+        soc: "19-2042",
+        socTitle: "Geoscientists, Except Hydrologists and Geographers",
+        aioe: 80.62,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Exploration Geologist",
+        soc: "19-2042",
+        socTitle: "Geoscientists, Except Hydrologists and Geographers",
+        aioe: 80.62,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Project Geologist",
+        soc: "17-2151",
+        socTitle:
+          "Mining and Geological Engineers, Including Mining Safety Engineers",
+        aioe: 95.69,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Field Geologist",
+        soc: "19-2042",
+        socTitle: "Geoscientists, Except Hydrologists and Geographers",
+        aioe: 80.62,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Resource Geologist",
+        soc: "19-2042",
+        socTitle: "Geoscientists, Except Hydrologists and Geographers",
+        aioe: 80.62,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Engineering Geologist",
+        soc: "17-2151",
+        socTitle:
+          "Mining and Geological Engineers, Including Mining Safety Engineers",
+        aioe: 95.69,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Geotechnical Engineer",
+        soc: "17-2051",
+        socTitle: "Civil Engineers",
+        aioe: 94.17,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Geophysicist",
+        soc: "19-2042",
+        socTitle: "Geoscientists, Except Hydrologists and Geographers",
+        aioe: 80.62,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Senior Mine Geologist",
+        soc: "17-2151",
+        socTitle:
+          "Mining and Geological Engineers, Including Mining Safety Engineers",
+        aioe: 95.69,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Environmental Scientist",
+        soc: "19-2041",
+        socTitle: "Environmental Scientists and Specialists, Including Health",
+        aioe: 87.77,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["senior"],
+      },
+      {
+        title: "Graduate Physiotherapist",
+        soc: "29-1123",
+        socTitle: "Physical Therapists",
+        aioe: 55.07,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Allied Health Assistant",
+        soc: "31-9099",
+        socTitle: "Healthcare Support Workers, All Other",
+        aioe: 67.56,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Anatomy Tutor",
+        soc: "25-1191",
+        socTitle: "Graduate Teaching Assistants",
+        aioe: 90.08,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Physiotherapist",
+        soc: "29-1123",
+        socTitle: "Physical Therapists",
+        aioe: 55.07,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Speech Pathologist",
+        soc: "29-1127",
+        socTitle: "Speech-Language Pathologists",
+        aioe: 90.91,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Occupational Therapist",
+        soc: "29-1122",
+        socTitle: "Occupational Therapists",
+        aioe: 66.35,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Registered Nurse",
+        soc: "29-1141",
+        socTitle: "Registered Nurses",
+        aioe: 69.07,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Medical Doctor",
+        soc: "29-1069",
+        socTitle: "Physicians and Surgeons, All Other",
+        aioe: 80.49,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Surgical Resident",
+        soc: "29-1067",
+        socTitle: "Surgeons",
+        aioe: 62.4,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Principal Physiotherapist",
+        soc: "29-1123",
+        socTitle: "Physical Therapists",
+        aioe: 55.07,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Graduate Meteorologist",
+        soc: "19-2021",
+        socTitle: "Atmospheric and Space Scientists",
+        aioe: 96.34,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["entry"],
+      },
+      {
+        title: "Actuarial Analyst",
+        soc: "15-2011",
+        socTitle: "Actuaries",
+        aioe: 99.73,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Supply Chain Analyst",
+        soc: "13-1081",
+        socTitle: "Logisticians",
+        aioe: 94.51,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Research Analyst",
+        soc: "13-1161",
+        socTitle: "Market Research Analysts and Marketing Specialists",
+        aioe: 97.6,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Laser Scientist",
+        soc: "19-2012",
+        socTitle: "Physicists",
+        aioe: 95.67,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Market Risk Analyst",
+        soc: "13-2051",
+        socTitle: "Financial Analysts",
+        aioe: 96.5,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "System Safety & Assurance Engineer",
+        soc: "17-2199",
+        socTitle: "Engineers, All Other",
+        aioe: 82.37,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Senior Supply Chain Analyst",
+        soc: "13-1081",
+        socTitle: "Logisticians",
+        aioe: 94.51,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Consultant - Machine Learning and AI",
+        soc: "15-2031",
+        socTitle: "Operations Research Analysts",
+        aioe: 96.96,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Chief Operating Officer",
+        soc: "11-1011",
+        socTitle: "Chief Executives",
+        aioe: 95.39,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Quantitative Trader",
+        soc: "41-3031",
+        socTitle:
+          "Securities, Commodities, and Financial Services Sales Agents",
+        aioe: 93.53,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Statistician",
+        soc: "15-2041",
+        socTitle: "Statisticians",
+        aioe: 96.55,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Quantitative Research Analyst",
+        soc: "13-2051",
+        socTitle: "Financial Analysts",
+        aioe: 96.5,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Senior Data Analyst",
+        soc: "15-2031",
+        socTitle: "Operations Research Analysts",
+        aioe: 96.96,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Analytics Consultant",
+        soc: "15-2041",
+        socTitle: "Statisticians",
+        aioe: 96.55,
+        confidence: "low",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Head of Data and Analytics",
+        soc: "11-9121",
+        socTitle: "Natural Sciences Managers",
+        aioe: 95.24,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Research Manager",
+        soc: "11-9121",
+        socTitle: "Natural Sciences Managers",
+        aioe: 95.24,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Business Analyst",
+        soc: "13-1111",
+        socTitle: "Management Analysts",
+        aioe: 97.73,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Technical Assistant",
+        soc: "19-4099",
+        socTitle: "Life, Physical, and Social Science Technicians, All Other",
+        aioe: 74.33,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Microbiologist",
+        soc: "19-1022",
+        socTitle: "Microbiologists",
+        aioe: 80.18,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Medical Scientist",
+        soc: "19-1042",
+        socTitle: "Medical Scientists, Except Epidemiologists",
+        aioe: 94.1,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Microbiology Laboratory Analyst",
+        soc: "19-1022",
+        socTitle: "Microbiologists",
+        aioe: 80.18,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Clinical Trial Manager",
+        soc: "11-9121",
+        socTitle: "Natural Sciences Managers",
+        aioe: 95.24,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Research Officer",
+        soc: "19-1042",
+        socTitle: "Medical Scientists, Except Epidemiologists",
+        aioe: 94.1,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Clinical Trials Assistant",
+        soc: "19-4021",
+        socTitle: "Biological Technicians",
+        aioe: 70.78,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Behavioral Therapist",
+        soc: "21-1014",
+        socTitle: "Mental Health Counselors",
+        aioe: 95.59,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Neuroscientist",
+        soc: "19-1042",
+        socTitle: "Medical Scientists, Except Epidemiologists",
+        aioe: 94.1,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Psychologist",
+        soc: "19-3031",
+        socTitle: "Clinical, Counseling, and School Psychologists",
+        aioe: 98.3,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Neuropsychologist",
+        soc: "19-3039",
+        socTitle: "Psychologists, All Other",
+        aioe: 96.72,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Neuroscientist",
+        soc: "19-1042",
+        socTitle: "Medical Scientists, Except Epidemiologists",
+        aioe: 94.1,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Postdoctoral Research Fellow",
+        soc: "19-1042",
+        socTitle: "Medical Scientists, Except Epidemiologists",
+        aioe: 94.1,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Mental Health Services Manager",
+        soc: "11-9111",
+        socTitle: "Medical and Health Services Managers",
+        aioe: 93.63,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Epidemiology Support Officer",
+        soc: "19-4099",
+        socTitle: "Life, Physical, and Social Science Technicians, All Other",
+        aioe: 74.33,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Health Information Analyst",
+        soc: "29-2071",
+        socTitle: "Medical Records and Health Information Technicians",
+        aioe: 77.28,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Public Health Officer",
+        soc: "21-1091",
+        socTitle: "Health Educators",
+        aioe: 80.08,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early", "entry"],
+      },
+      {
+        title: "Evaluation Officer",
+        soc: "13-1111",
+        socTitle: "Management Analysts",
+        aioe: 97.73,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Senior Project Officer",
+        soc: "13-1199",
+        socTitle: "Business Operations Specialists, All Other",
+        aioe: 88.56,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Evaluation Manager",
+        soc: "13-1111",
+        socTitle: "Management Analysts",
+        aioe: 97.73,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Pharmacy Technician",
+        soc: "29-2052",
+        socTitle: "Pharmacy Technicians",
+        aioe: 63.77,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Reagent Formulation Technician",
+        soc: "19-4031",
+        socTitle: "Chemical Technicians",
+        aioe: 65.1,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Pharmacist",
+        soc: "29-1051",
+        socTitle: "Pharmacists",
+        aioe: 78.04,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "PhD Candidate",
+        soc: "25-1191",
+        socTitle: "Graduate Teaching Assistants",
+        aioe: 90.08,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Project Manager",
+        soc: "11-9199",
+        socTitle: "Managers, All Other",
+        aioe: 86.59,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Research Support Officer",
+        soc: "19-4099",
+        socTitle: "Life, Physical, and Social Science Technicians, All Other",
+        aioe: 74.33,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Pharmaceutical Sales Representative",
+        soc: "41-4011",
+        socTitle:
+          "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
+        aioe: 84.84,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Junior Physicist",
+        soc: "19-2012",
+        socTitle: "Physicists",
+        aioe: 95.67,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["entry"],
+      },
+      {
+        title: "Physicist",
+        soc: "19-2012",
+        socTitle: "Physicists",
+        aioe: 95.67,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "Senior Data Scientist",
+        soc: "15-2041",
+        socTitle: "Statisticians",
+        aioe: 96.55,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Applied Research Engineer",
+        soc: "17-2199",
+        socTitle: "Engineers, All Other",
+        aioe: 82.37,
+        confidence: "medium",
+        crosswalkSource: "new_this_session",
+        stages: ["senior"],
+      },
+      {
+        title: "Graduate Audiologist",
+        soc: "29-1181",
+        socTitle: "Audiologists",
+        aioe: 78.68,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Physiotherapy Assistant",
+        soc: "31-2021",
+        socTitle: "Physical Therapist Assistants",
+        aioe: 50.96,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["entry"],
+      },
+      {
+        title: "Exercise Scientist",
+        soc: "29-1128",
+        socTitle: "Exercise Physiologists",
+        aioe: 62.81,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Clinical Audiologist",
+        soc: "29-1181",
+        socTitle: "Audiologists",
+        aioe: 78.68,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Health Promotion Officer",
+        soc: "21-1091",
+        socTitle: "Health Educators",
+        aioe: 80.08,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Health & Public Service Analyst",
+        soc: "13-1111",
+        socTitle: "Management Analysts",
+        aioe: 97.73,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Psychology Tutor",
+        soc: "25-1191",
+        socTitle: "Graduate Teaching Assistants",
+        aioe: 90.08,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Mental Health Support Worker",
+        soc: "21-1093",
+        socTitle: "Social and Human Service Assistants",
+        aioe: 74.69,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Support Worker",
+        soc: "21-1093",
+        socTitle: "Social and Human Service Assistants",
+        aioe: 74.69,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Therapy Assistant",
+        soc: "31-2011",
+        socTitle: "Occupational Therapist Assistants",
+        aioe: 56.09,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Client Services Officer",
+        soc: "43-4051",
+        socTitle: "Customer Service Representatives",
+        aioe: 86.39,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Provisional Psychologist",
+        soc: "19-3031",
+        socTitle: "Clinical, Counseling, and School Psychologists",
+        aioe: 98.3,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Education Officer",
+        soc: "25-9031",
+        socTitle: "Instructional Coordinators",
+        aioe: 94.62,
+        confidence: "medium",
+        crosswalkSource: "preexisting_288",
+        stages: ["early"],
+      },
+      {
+        title: "Recruitment Consultant",
+        soc: "13-1071",
+        socTitle: "Employment, Recruitment, and Placement Specialists",
+        aioe: 96.01,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Registered Psychologist",
+        soc: "19-3031",
+        socTitle: "Clinical, Counseling, and School Psychologists",
+        aioe: 98.3,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Clinical Psychologist",
+        soc: "19-3031",
+        socTitle: "Clinical, Counseling, and School Psychologists",
+        aioe: 98.3,
+        confidence: "high",
+        crosswalkSource: "preexisting_288",
+        stages: ["senior"],
+      },
+      {
+        title: "Mental Health Clinician",
+        soc: "21-1014",
+        socTitle: "Mental Health Counselors",
+        aioe: 95.59,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Human Resources Manager",
+        soc: "11-3121",
+        socTitle: "Human Resources Managers",
+        aioe: 95.06,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["senior"],
+      },
+      {
+        title: "Animal Attendant",
+        soc: "39-2021",
+        socTitle: "Nonfarm Animal Caretakers",
+        aioe: 42.42,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Operating Theatre Technician",
+        soc: "29-2055",
+        socTitle: "Surgical Technologists",
+        aioe: 52.1,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["entry"],
+      },
+      {
+        title: "Small Animal Veterinarian",
+        soc: "29-1131",
+        socTitle: "Veterinarians",
+        aioe: 61.82,
+        confidence: "high",
+        crosswalkSource: "new_this_session",
+        stages: ["early"],
+      },
+      {
+        title: "GP and ECC Veterinarian",
+        soc: "29-1131",
+        socTitle: "Veterinarians",
+        aioe: 61.82,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Locum Vet",
+        soc: "29-1131",
+        socTitle: "Veterinarians",
+        aioe: 61.82,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Veterinary Surgeon",
+        soc: "29-1131",
+        socTitle: "Veterinarians",
+        aioe: 61.82,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Relief Veterinarian",
+        soc: "29-1131",
+        socTitle: "Veterinarians",
+        aioe: 61.82,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Veterinary Ophthalmology Resident",
+        soc: "29-1131",
+        socTitle: "Veterinarians",
+        aioe: 61.82,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Emergency and Critical Care Resident",
+        soc: "29-1131",
+        socTitle: "Veterinarians",
+        aioe: 61.82,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Zoologist",
+        soc: "19-1023",
+        socTitle: "Zoologists and Wildlife Biologists",
+        aioe: 71.17,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Conservation Officer",
+        soc: "19-1031",
+        socTitle: "Conservation Scientists",
+        aioe: 65.25,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["early"],
+      },
+      {
+        title: "Ecological Consultant",
+        soc: "19-1031",
+        socTitle: "Conservation Scientists",
+        aioe: 65.25,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Ecologist and Team Lead",
+        soc: "19-1031",
+        socTitle: "Conservation Scientists",
+        aioe: 65.25,
+        confidence: "medium",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
+      {
+        title: "Senior Environment Protection Officer",
+        soc: "19-2041",
+        socTitle: "Environmental Scientists and Specialists, Including Health",
+        aioe: 87.77,
+        confidence: "high",
+        crosswalkSource: "extension_2026_08",
+        stages: ["senior"],
+      },
     ],
-    "nearBoundary": true,
-    "destinations": [
-      {
-        "title": "Veterinary Assistant",
-        "soc": "31-9096",
-        "socTitle": "Veterinary Assistants and Laboratory Animal Caretakers",
-        "aioe": 45.17,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Animal Technician",
-        "soc": "31-9096",
-        "socTitle": "Veterinary Assistants and Laboratory Animal Caretakers",
-        "aioe": 45.17,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Research Assistant",
-        "soc": "19-4061",
-        "socTitle": "Social Science Research Assistants",
-        "aioe": 92.3,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry",
-          "early"
-        ]
-      },
-      {
-        "title": "Laboratory Technician",
-        "soc": "19-4099",
-        "socTitle": "Life, Physical, and Social Science Technicians, All Other",
-        "aioe": 74.33,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Veterinary Receptionist",
-        "soc": "31-9096",
-        "socTitle": "Veterinary Assistants and Laboratory Animal Caretakers",
-        "aioe": 45.17,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Veterinary Nurse",
-        "soc": "29-2056",
-        "socTitle": "Veterinary Technologists and Technicians",
-        "aioe": 54.97,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early",
-          "entry"
-        ]
-      },
-      {
-        "title": "Research Officer",
-        "soc": "19-4061",
-        "socTitle": "Social Science Research Assistants",
-        "aioe": 92.3,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early",
-          "entry"
-        ]
-      },
-      {
-        "title": "Epidemiologist",
-        "soc": "19-1041",
-        "socTitle": "Epidemiologists",
-        "aioe": 97.82,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early",
-          "senior"
-        ]
-      },
-      {
-        "title": "Biosecurity Officer",
-        "soc": "45-2011",
-        "socTitle": "Agricultural Inspectors",
-        "aioe": 67.67,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Research Veterinarian",
-        "soc": "29-1131",
-        "socTitle": "Veterinarians",
-        "aioe": 61.82,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior",
-          "early"
-        ]
-      },
-      {
-        "title": "Senior Epidemiologist",
-        "soc": "19-1041",
-        "socTitle": "Epidemiologists",
-        "aioe": 97.82,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Postdoctoral Researcher",
-        "soc": "19-1042",
-        "socTitle": "Medical Scientists, Except Epidemiologists",
-        "aioe": 94.1,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Veterinarian",
-        "soc": "29-1131",
-        "socTitle": "Veterinarians",
-        "aioe": 61.82,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "senior",
-          "early"
-        ]
-      },
-      {
-        "title": "Laboratory Assistant",
-        "soc": "19-4021",
-        "socTitle": "Biological Technicians",
-        "aioe": 70.78,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Medical Laboratory Technician",
-        "soc": "29-2012",
-        "socTitle": "Medical and Clinical Laboratory Technicians",
-        "aioe": 60.57,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Graduate Scientist",
-        "soc": "19-1029",
-        "socTitle": "Biological Scientists, All Other",
-        "aioe": 87.67,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Data Analyst",
-        "soc": "15-2041",
-        "socTitle": "Statisticians",
-        "aioe": 96.55,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Clinical Trial Coordinator",
-        "soc": "11-9121",
-        "socTitle": "Natural Sciences Managers",
-        "aioe": 95.24,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry",
-          "early"
-        ]
-      },
-      {
-        "title": "Laboratory Demonstrator",
-        "soc": "25-1191",
-        "socTitle": "Graduate Teaching Assistants",
-        "aioe": 90.08,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Research Technician",
-        "soc": "19-4021",
-        "socTitle": "Biological Technicians",
-        "aioe": 70.78,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Medical Laboratory Scientist",
-        "soc": "29-2011",
-        "socTitle": "Medical and Clinical Laboratory Technologists",
-        "aioe": 70.32,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Research & Development Scientist",
-        "soc": "19-1042",
-        "socTitle": "Medical Scientists, Except Epidemiologists",
-        "aioe": 94.1,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Business Intelligence Analyst",
-        "soc": "15-1121",
-        "socTitle": "Computer Systems Analysts",
-        "aioe": 92.15,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early",
-          "entry"
-        ]
-      },
-      {
-        "title": "Research Fellow",
-        "soc": "",
-        "socTitle": "unmatched -> imputed",
-        "aioe": 91.95,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Scientist",
-        "soc": "",
-        "socTitle": "unmatched -> imputed",
-        "aioe": 91.95,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Clinical Trial Assistant",
-        "soc": "19-4021",
-        "socTitle": "Biological Technicians",
-        "aioe": 70.78,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry",
-          "early"
-        ]
-      },
-      {
-        "title": "Microbiology Analyst",
-        "soc": "19-1022",
-        "socTitle": "Microbiologists",
-        "aioe": 80.18,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Quality Control Analyst",
-        "soc": "51-9061",
-        "socTitle": "Inspectors, Testers, Sorters, Samplers, and Weighers",
-        "aioe": 62.91,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Scientific Affairs Assistant",
-        "soc": "19-4099",
-        "socTitle": "Life, Physical, and Social Science Technicians, All Other",
-        "aioe": 74.33,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Biotechnologist",
-        "soc": "19-1029",
-        "socTitle": "Biological Scientists, All Other",
-        "aioe": 87.67,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Bioinformatician",
-        "soc": "19-1029",
-        "socTitle": "Biological Scientists, All Other",
-        "aioe": 87.67,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Product Development Specialist",
-        "soc": "19-1012",
-        "socTitle": "Food Scientists and Technologists",
-        "aioe": 82.53,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Quality Assurance Specialist",
-        "soc": "13-1041",
-        "socTitle": "Compliance Officers, Except Agriculture, Construction, Health and Safety, and Transportation",
-        "aioe": 80.24,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Analytical Chemist",
-        "soc": "19-2031",
-        "socTitle": "Chemists",
-        "aioe": 75.54,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Business Development Manager",
-        "soc": "11-2022",
-        "socTitle": "Sales Managers",
-        "aioe": 93.77,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Laboratory Analyst",
-        "soc": "29-2011",
-        "socTitle": "Medical and Clinical Laboratory Technologists",
-        "aioe": 70.32,
-        "confidence": "medium",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Analytical Chemist",
-        "soc": "19-2031",
-        "socTitle": "Chemists",
-        "aioe": 75.54,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Production Chemist",
-        "soc": "19-2031",
-        "socTitle": "Chemists",
-        "aioe": 75.54,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Quality Control Chemist",
-        "soc": "19-2031",
-        "socTitle": "Chemists",
-        "aioe": 75.54,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Research & Development Chemist",
-        "soc": "19-2031",
-        "socTitle": "Chemists",
-        "aioe": 75.54,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Environmental Officer",
-        "soc": "19-2041",
-        "socTitle": "Environmental Scientists and Specialists, Including Health",
-        "aioe": 87.77,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Research Scientist",
-        "soc": "",
-        "socTitle": "unmatched -> imputed",
-        "aioe": 91.95,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early",
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Quality Control Chemist",
-        "soc": "19-2031",
-        "socTitle": "Chemists",
-        "aioe": 75.54,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Radiochemist",
-        "soc": "19-2031",
-        "socTitle": "Chemists",
-        "aioe": 75.54,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Software Engineer",
-        "soc": "15-1132",
-        "socTitle": "Software Developers, Applications",
-        "aioe": 92.22,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry",
-          "early"
-        ]
-      },
-      {
-        "title": "Software Developer",
-        "soc": "15-1132",
-        "socTitle": "Software Developers, Applications",
-        "aioe": 92.22,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Technology Graduate",
-        "soc": "15-1199",
-        "socTitle": "Computer Occupations, All Other",
-        "aioe": 92.97,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Data Engineer",
-        "soc": "15-1141",
-        "socTitle": "Database Administrators",
-        "aioe": 94.22,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Full Stack Developer",
-        "soc": "15-1132",
-        "socTitle": "Software Developers, Applications",
-        "aioe": 92.22,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Full Stack Software Engineer",
-        "soc": "15-1132",
-        "socTitle": "Software Developers, Applications",
-        "aioe": 92.22,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Machine Learning Engineer",
-        "soc": "15-1111",
-        "socTitle": "Computer and Information Research Scientists",
-        "aioe": 91.1,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Security Analyst",
-        "soc": "15-1122",
-        "socTitle": "Information Security Analysts",
-        "aioe": 93.39,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Business Analyst",
-        "soc": "13-1111",
-        "socTitle": "Management Analysts",
-        "aioe": 97.73,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early",
-          "entry"
-        ]
-      },
-      {
-        "title": "Software Architect",
-        "soc": "15-1133",
-        "socTitle": "Software Developers, Systems Software",
-        "aioe": 94.18,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Software Engineer",
-        "soc": "15-1132",
-        "socTitle": "Software Developers, Applications",
-        "aioe": 92.22,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Software Developer",
-        "soc": "15-1132",
-        "socTitle": "Software Developers, Applications",
-        "aioe": 92.22,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Lead Engineer",
-        "soc": "17-2199",
-        "socTitle": "Engineers, All Other",
-        "aioe": 82.37,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Product Manager",
-        "soc": "11-2021",
-        "socTitle": "Marketing Managers",
-        "aioe": 94.93,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Graduate Data Scientist",
-        "soc": "15-2041",
-        "socTitle": "Statisticians",
-        "aioe": 96.55,
-        "confidence": "medium",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Junior Data Scientist",
-        "soc": "15-2031",
-        "socTitle": "Operations Research Analysts",
-        "aioe": 96.96,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Junior Business Analyst",
-        "soc": "13-1111",
-        "socTitle": "Management Analysts",
-        "aioe": 97.73,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Data Scientist",
-        "soc": "15-2041",
-        "socTitle": "Statisticians",
-        "aioe": 96.55,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Strategy Analyst",
-        "soc": "13-1111",
-        "socTitle": "Management Analysts",
-        "aioe": 97.73,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Risk Management Analyst",
-        "soc": "13-2051",
-        "socTitle": "Financial Analysts",
-        "aioe": 96.5,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Data Science Manager",
-        "soc": "11-9121",
-        "socTitle": "Natural Sciences Managers",
-        "aioe": 95.24,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Lead Data Scientist",
-        "soc": "15-2031",
-        "socTitle": "Operations Research Analysts",
-        "aioe": 96.96,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Field Ecologist",
-        "soc": "19-1031",
-        "socTitle": "Conservation Scientists",
-        "aioe": 65.25,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry",
-          "early"
-        ]
-      },
-      {
-        "title": "Graduate Ecologist",
-        "soc": "19-1031",
-        "socTitle": "Conservation Scientists",
-        "aioe": 65.25,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Graduate Environmental Scientist",
-        "soc": "19-2041",
-        "socTitle": "Environmental Scientists and Specialists, Including Health",
-        "aioe": 87.77,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Graduate Botanist",
-        "soc": "19-1020",
-        "socTitle": "Biologists",
-        "aioe": 81.52,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Ecologist",
-        "soc": "19-1031",
-        "socTitle": "Conservation Scientists",
-        "aioe": 65.25,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Environmental Scientist",
-        "soc": "19-2041",
-        "socTitle": "Environmental Scientists and Specialists, Including Health",
-        "aioe": 87.77,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early",
-          "entry"
-        ]
-      },
-      {
-        "title": "Field Botanist",
-        "soc": "19-1020",
-        "socTitle": "Biologists",
-        "aioe": 81.52,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Wildlife Officer",
-        "soc": "19-1023",
-        "socTitle": "Zoologists and Wildlife Biologists",
-        "aioe": 71.17,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Wildlife Educator and Presenter",
-        "soc": "25-9021",
-        "socTitle": "Farm and Home Management Advisors",
-        "aioe": 84.1,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Ecology Support Officer",
-        "soc": "19-4093",
-        "socTitle": "Forest and Conservation Technicians",
-        "aioe": 47.71,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Environment Protection Officer",
-        "soc": "19-2041",
-        "socTitle": "Environmental Scientists and Specialists, Including Health",
-        "aioe": 87.77,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Senior Botanist",
-        "soc": "19-1020",
-        "socTitle": "Biologists",
-        "aioe": 81.52,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Environmental Information Specialist",
-        "soc": "19-2041",
-        "socTitle": "Environmental Scientists and Specialists, Including Health",
-        "aioe": 87.77,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Sustainability Graduate",
-        "soc": "19-2041",
-        "socTitle": "Environmental Scientists and Specialists, Including Health",
-        "aioe": 87.77,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Graduate Environmental Consultant",
-        "soc": "19-2041",
-        "socTitle": "Environmental Scientists and Specialists, Including Health",
-        "aioe": 87.77,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Environment Cadet",
-        "soc": "19-2041",
-        "socTitle": "Environmental Scientists and Specialists, Including Health",
-        "aioe": 87.77,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Science and Planning Graduate",
-        "soc": "19-3051",
-        "socTitle": "Urban and Regional Planners",
-        "aioe": 92.85,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Land, Planning and Environment Graduate",
-        "soc": "19-3051",
-        "socTitle": "Urban and Regional Planners",
-        "aioe": 92.85,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Environmental Consultant",
-        "soc": "19-2041",
-        "socTitle": "Environmental Scientists and Specialists, Including Health",
-        "aioe": 87.77,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Environmental Advisor",
-        "soc": "19-2041",
-        "socTitle": "Environmental Scientists and Specialists, Including Health",
-        "aioe": 87.77,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Environmental Coordinator",
-        "soc": "19-2041",
-        "socTitle": "Environmental Scientists and Specialists, Including Health",
-        "aioe": 87.77,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Environmental Research Analyst",
-        "soc": "19-2041",
-        "socTitle": "Environmental Scientists and Specialists, Including Health",
-        "aioe": 87.77,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Sustainability Consultant",
-        "soc": "19-2041",
-        "socTitle": "Environmental Scientists and Specialists, Including Health",
-        "aioe": 87.77,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Sustainability Officer",
-        "soc": "19-2041",
-        "socTitle": "Environmental Scientists and Specialists, Including Health",
-        "aioe": 87.77,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Senior Environmental Officer",
-        "soc": "19-2041",
-        "socTitle": "Environmental Scientists and Specialists, Including Health",
-        "aioe": 87.77,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Food Technologist",
-        "soc": "19-1012",
-        "socTitle": "Food Scientists and Technologists",
-        "aioe": 82.53,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Food Safety Technician",
-        "soc": "19-4011",
-        "socTitle": "Agricultural and Food Science Technicians",
-        "aioe": 65.89,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Product Developer Graduate",
-        "soc": "19-1012",
-        "socTitle": "Food Scientists and Technologists",
-        "aioe": 82.53,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Culinary Development Technologist",
-        "soc": "19-1012",
-        "socTitle": "Food Scientists and Technologists",
-        "aioe": 82.53,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "New Product Development Technologist",
-        "soc": "19-1012",
-        "socTitle": "Food Scientists and Technologists",
-        "aioe": 82.53,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "New Product Development Officer",
-        "soc": "19-1012",
-        "socTitle": "Food Scientists and Technologists",
-        "aioe": 82.53,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Quality Assurance Officer",
-        "soc": "19-4011",
-        "socTitle": "Agricultural and Food Science Technicians",
-        "aioe": 65.89,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early",
-          "entry"
-        ]
-      },
-      {
-        "title": "Quality Specialist",
-        "soc": "19-4099",
-        "socTitle": "Life, Physical, and Social Science Technicians, All Other",
-        "aioe": 74.33,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Nutrition Scientist",
-        "soc": "19-1012",
-        "socTitle": "Food Scientists and Technologists",
-        "aioe": 82.53,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Product Development Manager",
-        "soc": "11-9041",
-        "socTitle": "Engineering Managers",
-        "aioe": 83.55,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Food Technologist",
-        "soc": "19-1012",
-        "socTitle": "Food Scientists and Technologists",
-        "aioe": 82.53,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Quality Manager",
-        "soc": "11-3051",
-        "socTitle": "Industrial Production Managers",
-        "aioe": 75.72,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Production Biotechnologist",
-        "soc": "19-1029",
-        "socTitle": "Biological Scientists, All Other",
-        "aioe": 87.67,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry",
-          "early"
-        ]
-      },
-      {
-        "title": "Plant Breeding Assistant",
-        "soc": "19-4011",
-        "socTitle": "Agricultural and Food Science Technicians",
-        "aioe": 65.89,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Genetic Counsellor",
-        "soc": "29-9092",
-        "socTitle": "Genetic Counselors",
-        "aioe": 100,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Computational Biologist",
-        "soc": "19-1029",
-        "socTitle": "Biological Scientists, All Other",
-        "aioe": 87.67,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Clinical Research Coordinator",
-        "soc": "19-1042",
-        "socTitle": "Medical Scientists, Except Epidemiologists",
-        "aioe": 94.1,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Project Officer",
-        "soc": "13-1199",
-        "socTitle": "Business Operations Specialists, All Other",
-        "aioe": 88.56,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Senior Research Assistant",
-        "soc": "19-4021",
-        "socTitle": "Biological Technicians",
-        "aioe": 70.78,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Clinical Research Scientist",
-        "soc": "19-1042",
-        "socTitle": "Medical Scientists, Except Epidemiologists",
-        "aioe": 94.1,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Graduate Geologist",
-        "soc": "19-2042",
-        "socTitle": "Geoscientists, Except Hydrologists and Geographers",
-        "aioe": 80.62,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Graduate Geoscientist",
-        "soc": "19-2042",
-        "socTitle": "Geoscientists, Except Hydrologists and Geographers",
-        "aioe": 80.62,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Field Technician",
-        "soc": "17-3029",
-        "socTitle": "Engineering Technicians, Except Drafters, All Other",
-        "aioe": 68.23,
-        "confidence": "medium",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Mine Geologist",
-        "soc": "19-2042",
-        "socTitle": "Geoscientists, Except Hydrologists and Geographers",
-        "aioe": 80.62,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Exploration Geologist",
-        "soc": "19-2042",
-        "socTitle": "Geoscientists, Except Hydrologists and Geographers",
-        "aioe": 80.62,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Project Geologist",
-        "soc": "17-2151",
-        "socTitle": "Mining and Geological Engineers, Including Mining Safety Engineers",
-        "aioe": 95.69,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Field Geologist",
-        "soc": "19-2042",
-        "socTitle": "Geoscientists, Except Hydrologists and Geographers",
-        "aioe": 80.62,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Resource Geologist",
-        "soc": "19-2042",
-        "socTitle": "Geoscientists, Except Hydrologists and Geographers",
-        "aioe": 80.62,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Engineering Geologist",
-        "soc": "17-2151",
-        "socTitle": "Mining and Geological Engineers, Including Mining Safety Engineers",
-        "aioe": 95.69,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Geotechnical Engineer",
-        "soc": "17-2051",
-        "socTitle": "Civil Engineers",
-        "aioe": 94.17,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Geophysicist",
-        "soc": "19-2042",
-        "socTitle": "Geoscientists, Except Hydrologists and Geographers",
-        "aioe": 80.62,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Senior Mine Geologist",
-        "soc": "17-2151",
-        "socTitle": "Mining and Geological Engineers, Including Mining Safety Engineers",
-        "aioe": 95.69,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Environmental Scientist",
-        "soc": "19-2041",
-        "socTitle": "Environmental Scientists and Specialists, Including Health",
-        "aioe": 87.77,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Graduate Physiotherapist",
-        "soc": "29-1123",
-        "socTitle": "Physical Therapists",
-        "aioe": 55.07,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Allied Health Assistant",
-        "soc": "31-9099",
-        "socTitle": "Healthcare Support Workers, All Other",
-        "aioe": 67.56,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Anatomy Tutor",
-        "soc": "25-1191",
-        "socTitle": "Graduate Teaching Assistants",
-        "aioe": 90.08,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Physiotherapist",
-        "soc": "29-1123",
-        "socTitle": "Physical Therapists",
-        "aioe": 55.07,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Speech Pathologist",
-        "soc": "29-1127",
-        "socTitle": "Speech-Language Pathologists",
-        "aioe": 90.91,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Occupational Therapist",
-        "soc": "29-1122",
-        "socTitle": "Occupational Therapists",
-        "aioe": 66.35,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Registered Nurse",
-        "soc": "29-1141",
-        "socTitle": "Registered Nurses",
-        "aioe": 69.07,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Medical Doctor",
-        "soc": "29-1069",
-        "socTitle": "Physicians and Surgeons, All Other",
-        "aioe": 80.49,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Surgical Resident",
-        "soc": "29-1067",
-        "socTitle": "Surgeons",
-        "aioe": 62.4,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Principal Physiotherapist",
-        "soc": "29-1123",
-        "socTitle": "Physical Therapists",
-        "aioe": 55.07,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Graduate Meteorologist",
-        "soc": "19-2021",
-        "socTitle": "Atmospheric and Space Scientists",
-        "aioe": 96.34,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Actuarial Analyst",
-        "soc": "15-2011",
-        "socTitle": "Actuaries",
-        "aioe": 99.73,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Supply Chain Analyst",
-        "soc": "13-1081",
-        "socTitle": "Logisticians",
-        "aioe": 94.51,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Research Analyst",
-        "soc": "13-1161",
-        "socTitle": "Market Research Analysts and Marketing Specialists",
-        "aioe": 97.6,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Laser Scientist",
-        "soc": "19-2012",
-        "socTitle": "Physicists",
-        "aioe": 95.67,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Market Risk Analyst",
-        "soc": "13-2051",
-        "socTitle": "Financial Analysts",
-        "aioe": 96.5,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "System Safety & Assurance Engineer",
-        "soc": "17-2199",
-        "socTitle": "Engineers, All Other",
-        "aioe": 82.37,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Senior Supply Chain Analyst",
-        "soc": "13-1081",
-        "socTitle": "Logisticians",
-        "aioe": 94.51,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Consultant - Machine Learning and AI",
-        "soc": "15-2031",
-        "socTitle": "Operations Research Analysts",
-        "aioe": 96.96,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Chief Operating Officer",
-        "soc": "11-1011",
-        "socTitle": "Chief Executives",
-        "aioe": 95.39,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Quantitative Trader",
-        "soc": "41-3031",
-        "socTitle": "Securities, Commodities, and Financial Services Sales Agents",
-        "aioe": 93.53,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Statistician",
-        "soc": "15-2041",
-        "socTitle": "Statisticians",
-        "aioe": 96.55,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Quantitative Research Analyst",
-        "soc": "13-2051",
-        "socTitle": "Financial Analysts",
-        "aioe": 96.5,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Senior Data Analyst",
-        "soc": "15-2031",
-        "socTitle": "Operations Research Analysts",
-        "aioe": 96.96,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Analytics Consultant",
-        "soc": "15-2041",
-        "socTitle": "Statisticians",
-        "aioe": 96.55,
-        "confidence": "low",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Head of Data and Analytics",
-        "soc": "11-9121",
-        "socTitle": "Natural Sciences Managers",
-        "aioe": 95.24,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Research Manager",
-        "soc": "11-9121",
-        "socTitle": "Natural Sciences Managers",
-        "aioe": 95.24,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Business Analyst",
-        "soc": "13-1111",
-        "socTitle": "Management Analysts",
-        "aioe": 97.73,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Technical Assistant",
-        "soc": "19-4099",
-        "socTitle": "Life, Physical, and Social Science Technicians, All Other",
-        "aioe": 74.33,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Microbiologist",
-        "soc": "19-1022",
-        "socTitle": "Microbiologists",
-        "aioe": 80.18,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Medical Scientist",
-        "soc": "19-1042",
-        "socTitle": "Medical Scientists, Except Epidemiologists",
-        "aioe": 94.1,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Microbiology Laboratory Analyst",
-        "soc": "19-1022",
-        "socTitle": "Microbiologists",
-        "aioe": 80.18,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Clinical Trial Manager",
-        "soc": "11-9121",
-        "socTitle": "Natural Sciences Managers",
-        "aioe": 95.24,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Research Officer",
-        "soc": "19-1042",
-        "socTitle": "Medical Scientists, Except Epidemiologists",
-        "aioe": 94.1,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Clinical Trials Assistant",
-        "soc": "19-4021",
-        "socTitle": "Biological Technicians",
-        "aioe": 70.78,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Behavioral Therapist",
-        "soc": "21-1014",
-        "socTitle": "Mental Health Counselors",
-        "aioe": 95.59,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Neuroscientist",
-        "soc": "19-1042",
-        "socTitle": "Medical Scientists, Except Epidemiologists",
-        "aioe": 94.1,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Psychologist",
-        "soc": "19-3031",
-        "socTitle": "Clinical, Counseling, and School Psychologists",
-        "aioe": 98.3,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Neuropsychologist",
-        "soc": "19-3039",
-        "socTitle": "Psychologists, All Other",
-        "aioe": 96.72,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Neuroscientist",
-        "soc": "19-1042",
-        "socTitle": "Medical Scientists, Except Epidemiologists",
-        "aioe": 94.1,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Postdoctoral Research Fellow",
-        "soc": "19-1042",
-        "socTitle": "Medical Scientists, Except Epidemiologists",
-        "aioe": 94.1,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Mental Health Services Manager",
-        "soc": "11-9111",
-        "socTitle": "Medical and Health Services Managers",
-        "aioe": 93.63,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Epidemiology Support Officer",
-        "soc": "19-4099",
-        "socTitle": "Life, Physical, and Social Science Technicians, All Other",
-        "aioe": 74.33,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Health Information Analyst",
-        "soc": "29-2071",
-        "socTitle": "Medical Records and Health Information Technicians",
-        "aioe": 77.28,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Public Health Officer",
-        "soc": "21-1091",
-        "socTitle": "Health Educators",
-        "aioe": 80.08,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early",
-          "entry"
-        ]
-      },
-      {
-        "title": "Evaluation Officer",
-        "soc": "13-1111",
-        "socTitle": "Management Analysts",
-        "aioe": 97.73,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Senior Project Officer",
-        "soc": "13-1199",
-        "socTitle": "Business Operations Specialists, All Other",
-        "aioe": 88.56,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Evaluation Manager",
-        "soc": "13-1111",
-        "socTitle": "Management Analysts",
-        "aioe": 97.73,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Pharmacy Technician",
-        "soc": "29-2052",
-        "socTitle": "Pharmacy Technicians",
-        "aioe": 63.77,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Reagent Formulation Technician",
-        "soc": "19-4031",
-        "socTitle": "Chemical Technicians",
-        "aioe": 65.1,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Pharmacist",
-        "soc": "29-1051",
-        "socTitle": "Pharmacists",
-        "aioe": 78.04,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "PhD Candidate",
-        "soc": "25-1191",
-        "socTitle": "Graduate Teaching Assistants",
-        "aioe": 90.08,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Project Manager",
-        "soc": "11-9199",
-        "socTitle": "Managers, All Other",
-        "aioe": 86.59,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Research Support Officer",
-        "soc": "19-4099",
-        "socTitle": "Life, Physical, and Social Science Technicians, All Other",
-        "aioe": 74.33,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Pharmaceutical Sales Representative",
-        "soc": "41-4011",
-        "socTitle": "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
-        "aioe": 84.84,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Junior Physicist",
-        "soc": "19-2012",
-        "socTitle": "Physicists",
-        "aioe": 95.67,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Physicist",
-        "soc": "19-2012",
-        "socTitle": "Physicists",
-        "aioe": 95.67,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Senior Data Scientist",
-        "soc": "15-2041",
-        "socTitle": "Statisticians",
-        "aioe": 96.55,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Applied Research Engineer",
-        "soc": "17-2199",
-        "socTitle": "Engineers, All Other",
-        "aioe": 82.37,
-        "confidence": "medium",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Graduate Audiologist",
-        "soc": "29-1181",
-        "socTitle": "Audiologists",
-        "aioe": 78.68,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Physiotherapy Assistant",
-        "soc": "31-2021",
-        "socTitle": "Physical Therapist Assistants",
-        "aioe": 50.96,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Exercise Scientist",
-        "soc": "29-1128",
-        "socTitle": "Exercise Physiologists",
-        "aioe": 62.81,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Clinical Audiologist",
-        "soc": "29-1181",
-        "socTitle": "Audiologists",
-        "aioe": 78.68,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Health Promotion Officer",
-        "soc": "21-1091",
-        "socTitle": "Health Educators",
-        "aioe": 80.08,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Health & Public Service Analyst",
-        "soc": "13-1111",
-        "socTitle": "Management Analysts",
-        "aioe": 97.73,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Psychology Tutor",
-        "soc": "25-1191",
-        "socTitle": "Graduate Teaching Assistants",
-        "aioe": 90.08,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Mental Health Support Worker",
-        "soc": "21-1093",
-        "socTitle": "Social and Human Service Assistants",
-        "aioe": 74.69,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Support Worker",
-        "soc": "21-1093",
-        "socTitle": "Social and Human Service Assistants",
-        "aioe": 74.69,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Therapy Assistant",
-        "soc": "31-2011",
-        "socTitle": "Occupational Therapist Assistants",
-        "aioe": 56.09,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Client Services Officer",
-        "soc": "43-4051",
-        "socTitle": "Customer Service Representatives",
-        "aioe": 86.39,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Provisional Psychologist",
-        "soc": "19-3031",
-        "socTitle": "Clinical, Counseling, and School Psychologists",
-        "aioe": 98.3,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Education Officer",
-        "soc": "25-9031",
-        "socTitle": "Instructional Coordinators",
-        "aioe": 94.62,
-        "confidence": "medium",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Recruitment Consultant",
-        "soc": "13-1071",
-        "socTitle": "Employment, Recruitment, and Placement Specialists",
-        "aioe": 96.01,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Registered Psychologist",
-        "soc": "19-3031",
-        "socTitle": "Clinical, Counseling, and School Psychologists",
-        "aioe": 98.3,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Clinical Psychologist",
-        "soc": "19-3031",
-        "socTitle": "Clinical, Counseling, and School Psychologists",
-        "aioe": 98.3,
-        "confidence": "high",
-        "crosswalkSource": "preexisting_288",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Mental Health Clinician",
-        "soc": "21-1014",
-        "socTitle": "Mental Health Counselors",
-        "aioe": 95.59,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Human Resources Manager",
-        "soc": "11-3121",
-        "socTitle": "Human Resources Managers",
-        "aioe": 95.06,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Animal Attendant",
-        "soc": "39-2021",
-        "socTitle": "Nonfarm Animal Caretakers",
-        "aioe": 42.42,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Operating Theatre Technician",
-        "soc": "29-2055",
-        "socTitle": "Surgical Technologists",
-        "aioe": 52.1,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "entry"
-        ]
-      },
-      {
-        "title": "Small Animal Veterinarian",
-        "soc": "29-1131",
-        "socTitle": "Veterinarians",
-        "aioe": 61.82,
-        "confidence": "high",
-        "crosswalkSource": "new_this_session",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "GP and ECC Veterinarian",
-        "soc": "29-1131",
-        "socTitle": "Veterinarians",
-        "aioe": 61.82,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Locum Vet",
-        "soc": "29-1131",
-        "socTitle": "Veterinarians",
-        "aioe": 61.82,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Veterinary Surgeon",
-        "soc": "29-1131",
-        "socTitle": "Veterinarians",
-        "aioe": 61.82,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Relief Veterinarian",
-        "soc": "29-1131",
-        "socTitle": "Veterinarians",
-        "aioe": 61.82,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Veterinary Ophthalmology Resident",
-        "soc": "29-1131",
-        "socTitle": "Veterinarians",
-        "aioe": 61.82,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Emergency and Critical Care Resident",
-        "soc": "29-1131",
-        "socTitle": "Veterinarians",
-        "aioe": 61.82,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Zoologist",
-        "soc": "19-1023",
-        "socTitle": "Zoologists and Wildlife Biologists",
-        "aioe": 71.17,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Conservation Officer",
-        "soc": "19-1031",
-        "socTitle": "Conservation Scientists",
-        "aioe": 65.25,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "early"
-        ]
-      },
-      {
-        "title": "Ecological Consultant",
-        "soc": "19-1031",
-        "socTitle": "Conservation Scientists",
-        "aioe": 65.25,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Ecologist and Team Lead",
-        "soc": "19-1031",
-        "socTitle": "Conservation Scientists",
-        "aioe": 65.25,
-        "confidence": "medium",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      },
-      {
-        "title": "Senior Environment Protection Officer",
-        "soc": "19-2041",
-        "socTitle": "Environmental Scientists and Specialists, Including Health",
-        "aioe": 87.77,
-        "confidence": "high",
-        "crosswalkSource": "extension_2026_08",
-        "stages": [
-          "senior"
-        ]
-      }
-    ]
-  }
+  },
 ];
 
 export function v3ProgramByCode(code: string): V3Program | undefined {

@@ -43,8 +43,7 @@ const GROUP_META: Record<SourceGroup, { title: string; note?: string }> = {
   },
   market: {
     title: "Trend reports informing the market-intelligence sections",
-    note:
-      "The market-intelligence sections are analyst syntheses written against the published reports below, at the confidence level stated on each section (LOW/MEDIUM). They reflect structural sector knowledge as of the assessment date, not live data retrieval — specific counts and percentages attributed to these reports are directional unless independently verified.",
+    note: "The market-intelligence sections are analyst syntheses written against the published reports below, at the confidence level stated on each section (LOW/MEDIUM). They reflect structural sector knowledge as of the assessment date, not live data retrieval — specific counts and percentages attributed to these reports are directional unless independently verified.",
   },
 };
 
@@ -62,12 +61,18 @@ const SOURCES: Record<
     group: "exposure",
     citation: (
       <>
-        Felten, E., Raj, M., &amp; Seamans, R. (2021). Occupational, industry, and geographic
-        exposure to artificial intelligence: A novel dataset and its potential uses.{" "}
-        <em>Strategic Management Journal, 42</em>(12), 2195–2217.
+        Felten, E., Raj, M., &amp; Seamans, R. (2021). Occupational, industry,
+        and geographic exposure to artificial intelligence: A novel dataset and
+        its potential uses. <em>Strategic Management Journal, 42</em>(12),
+        2195–2217.
       </>
     ),
-    links: [{ label: "https://doi.org/10.1002/smj.3286", href: "https://doi.org/10.1002/smj.3286" }],
+    links: [
+      {
+        label: "https://doi.org/10.1002/smj.3286",
+        href: "https://doi.org/10.1002/smj.3286",
+      },
+    ],
     usedFor:
       "The AI Occupational Exposure (AIOE) index behind every exposure value in this report.",
     grain:
@@ -77,13 +82,16 @@ const SOURCES: Record<
     group: "exposure",
     citation: (
       <>
-        Felten, E., Raj, M., &amp; Seamans, R. (2021). <em>AIOE data appendix</em> [Data set:
-        AIOE_DataAppendix.xlsx, Appendix A]. GitHub repository AIOE-Data/AIOE. Accessed August
-        2026.
+        Felten, E., Raj, M., &amp; Seamans, R. (2021).{" "}
+        <em>AIOE data appendix</em> [Data set: AIOE_DataAppendix.xlsx, Appendix
+        A]. GitHub repository AIOE-Data/AIOE. Accessed August 2026.
       </>
     ),
     links: [
-      { label: "https://github.com/AIOE-Data/AIOE", href: "https://github.com/AIOE-Data/AIOE" },
+      {
+        label: "https://github.com/AIOE-Data/AIOE",
+        href: "https://github.com/AIOE-Data/AIOE",
+      },
     ],
     usedFor:
       "The 774 published raw AIOE values (−2.670 to 1.528), min–max rescaled 0–100 for this instrument. Every exposure value on this page is validated against this file when the report is built.",
@@ -92,9 +100,10 @@ const SOURCES: Record<
     group: "exposure",
     citation: (
       <>
-        University of Melbourne Careers &amp; Employability. (2026). <em>Job Insights Reports</em>{" "}
-        [Unpublished internal data set]. LinkedIn-derived alumni employment titles compiled via
-        LiveAlumni and curated by University careers specialists.
+        University of Melbourne Careers &amp; Employability. (2026).{" "}
+        <em>Job Insights Reports</em> [Unpublished internal data set].
+        LinkedIn-derived alumni employment titles compiled via LiveAlumni and
+        curated by University careers specialists.
       </>
     ),
     usedFor:
@@ -106,8 +115,8 @@ const SOURCES: Record<
     group: "exposure",
     citation: (
       <>
-        National Center for O*NET Development. (2010). <em>O*NET-SOC 2010 occupational taxonomy</em>.
-        U.S. Department of Labor.
+        National Center for O*NET Development. (2010).{" "}
+        <em>O*NET-SOC 2010 occupational taxonomy</em>. U.S. Department of Labor.
       </>
     ),
     links: [
@@ -125,11 +134,15 @@ const SOURCES: Record<
     group: "curriculum",
     citation: (
       <>
-        University of Melbourne. (2026). <em>Handbook 2026</em> [Program and subject entries].
+        University of Melbourne. (2026). <em>Handbook 2026</em> [Program and
+        subject entries].
       </>
     ),
     links: [
-      { label: "https://handbook.unimelb.edu.au", href: "https://handbook.unimelb.edu.au" },
+      {
+        label: "https://handbook.unimelb.edu.au",
+        href: "https://handbook.unimelb.edu.au",
+      },
     ],
     usedFor:
       "All curriculum-adaptiveness scoring and gate evidence — subject aims, assessment structures, and capstone/elective availability.",
@@ -140,8 +153,8 @@ const SOURCES: Record<
     group: "curriculum",
     citation: (
       <>
-        Evidura. (2026). <em>DFVA assessment rubric</em> (v2 revision) [Internal methodology
-        record].
+        Evidura. (2026). <em>DFVA assessment rubric</em> (v2 revision) [Internal
+        methodology record].
       </>
     ),
     usedFor:
@@ -151,12 +164,15 @@ const SOURCES: Record<
     group: "labour",
     citation: (
       <>
-        Quality Indicators for Learning and Teaching. (2024). <em>Graduate Outcomes Survey 2024</em>{" "}
-        [National report tables]. Social Research Centre, on behalf of the Australian Government
-        Department of Education.
+        Quality Indicators for Learning and Teaching. (2024).{" "}
+        <em>Graduate Outcomes Survey 2024</em> [National report tables]. Social
+        Research Centre, on behalf of the Australian Government Department of
+        Education.
       </>
     ),
-    links: [{ label: "https://www.qilt.edu.au", href: "https://www.qilt.edu.au" }],
+    links: [
+      { label: "https://www.qilt.edu.au", href: "https://www.qilt.edu.au" },
+    ],
     usedFor:
       "Full-time employment rates and median starting salaries quoted in the market and improvement-plan sections.",
     grain:
@@ -166,12 +182,15 @@ const SOURCES: Record<
     group: "labour",
     citation: (
       <>
-        Jobs and Skills Australia. (2025). <em>Higher education outcomes</em> [ATO tax-linked
-        administrative data]. Australian Government.
+        Jobs and Skills Australia. (2025). <em>Higher education outcomes</em>{" "}
+        [ATO tax-linked administrative data]. Australian Government.
       </>
     ),
     links: [
-      { label: "https://www.jobsandskills.gov.au", href: "https://www.jobsandskills.gov.au" },
+      {
+        label: "https://www.jobsandskills.gov.au",
+        href: "https://www.jobsandskills.gov.au",
+      },
     ],
     usedFor:
       "Field-of-education destination shares and occupation shortage ratings in the improvement plans; also the destination basis of the superseded v2 exposure measurement.",
@@ -181,11 +200,15 @@ const SOURCES: Record<
     group: "labour",
     citation: (
       <>
-        Adzuna Australia. (2026). <em>Live job vacancy listings</em> [Data extracts, 2026].
+        Adzuna Australia. (2026). <em>Live job vacancy listings</em> [Data
+        extracts, 2026].
       </>
     ),
-    links: [{ label: "https://www.adzuna.com.au", href: "https://www.adzuna.com.au" }],
-    usedFor: "Demand-side “hiring now” employer lists and advertised salary ranges.",
+    links: [
+      { label: "https://www.adzuna.com.au", href: "https://www.adzuna.com.au" },
+    ],
+    usedFor:
+      "Demand-side “hiring now” employer lists and advertised salary ranges.",
     grain:
       "Job advertisements — evidence of demand, not of alumni destinations; advertised salaries differ from paid salaries.",
   },
@@ -193,12 +216,16 @@ const SOURCES: Record<
     group: "labour",
     citation: (
       <>
-        IBISWorld. (2026). <em>University and other higher education in Australia</em> (Industry
+        IBISWorld. (2026).{" "}
+        <em>University and other higher education in Australia</em> (Industry
         Report P8102, June 2026).
       </>
     ),
-    links: [{ label: "https://www.ibisworld.com", href: "https://www.ibisworld.com" }],
-    usedFor: "Sector revenue and profit context cited in the improvement plans.",
+    links: [
+      { label: "https://www.ibisworld.com", href: "https://www.ibisworld.com" },
+    ],
+    usedFor:
+      "Sector revenue and profit context cited in the improvement plans.",
     grain: "Subscription industry research at sector grain.",
   },
   wefFoj: {
@@ -210,7 +237,8 @@ const SOURCES: Record<
     ),
     links: [
       {
-        label: "https://www.weforum.org/publications/the-future-of-jobs-report-2025/",
+        label:
+          "https://www.weforum.org/publications/the-future-of-jobs-report-2025/",
         href: "https://www.weforum.org/publications/the-future-of-jobs-report-2025/",
       },
     ],
@@ -230,7 +258,8 @@ const SOURCES: Record<
         href: "https://economicgraph.linkedin.com",
       },
     ],
-    usedFor: "Title-level posting trends cited in the job-family and hiring-signal sections.",
+    usedFor:
+      "Title-level posting trends cited in the job-family and hiring-signal sections.",
   },
   stackOverflow: {
     group: "market",
@@ -240,9 +269,13 @@ const SOURCES: Record<
       </>
     ),
     links: [
-      { label: "https://survey.stackoverflow.co/2025/", href: "https://survey.stackoverflow.co/2025/" },
+      {
+        label: "https://survey.stackoverflow.co/2025/",
+        href: "https://survey.stackoverflow.co/2025/",
+      },
     ],
-    usedFor: "Developer tooling and AI-adoption signals in technology-program market scans.",
+    usedFor:
+      "Developer tooling and AI-adoption signals in technology-program market scans.",
   },
   gartnerIt: {
     group: "market",
@@ -251,7 +284,9 @@ const SOURCES: Record<
         Gartner. (2025). <em>IT role and skills survey research</em>.
       </>
     ),
-    links: [{ label: "https://www.gartner.com", href: "https://www.gartner.com" }],
+    links: [
+      { label: "https://www.gartner.com", href: "https://www.gartner.com" },
+    ],
     usedFor: "Enterprise IT role-evolution signals in the job-family analysis.",
   },
   isacaSoc: {
@@ -268,7 +303,8 @@ const SOURCES: Record<
     group: "market",
     citation: (
       <>
-        Project Management Institute. (2025). <em>Pulse of the Profession 2025</em>.
+        Project Management Institute. (2025).{" "}
+        <em>Pulse of the Profession 2025</em>.
       </>
     ),
     links: [{ label: "https://www.pmi.org", href: "https://www.pmi.org" }],
@@ -278,25 +314,38 @@ const SOURCES: Record<
     group: "market",
     citation: (
       <>
-        McKinsey &amp; Company. (2024–2025). <em>AI and the workforce</em> research series.
+        McKinsey &amp; Company. (2024–2025). <em>AI and the workforce</em>{" "}
+        research series.
       </>
     ),
-    links: [{ label: "https://www.mckinsey.com", href: "https://www.mckinsey.com" }],
-    usedFor: "Workforce-automation adoption context in the skill-shift analysis.",
+    links: [
+      { label: "https://www.mckinsey.com", href: "https://www.mckinsey.com" },
+    ],
+    usedFor:
+      "Workforce-automation adoption context in the skill-shift analysis.",
   },
   seekObs: {
     group: "market",
     citation: (
       <>
-        Seek.com.au. (2025–2026). Job posting observations [Australian employment marketplace].
+        Seek.com.au. (2025–2026). Job posting observations [Australian
+        employment marketplace].
       </>
     ),
-    links: [{ label: "https://www.seek.com.au", href: "https://www.seek.com.au" }],
-    usedFor: "Australian posting-volume and emerging-title observations in the hiring signals.",
+    links: [
+      { label: "https://www.seek.com.au", href: "https://www.seek.com.au" },
+    ],
+    usedFor:
+      "Australian posting-volume and emerging-title observations in the hiring signals.",
   },
 };
 
-const GROUP_ORDER: SourceGroup[] = ["exposure", "curriculum", "labour", "market"];
+const GROUP_ORDER: SourceGroup[] = [
+  "exposure",
+  "curriculum",
+  "labour",
+  "market",
+];
 
 export function SourceReferences({ sources }: { sources: SourceKey[] }) {
   let n = 0;
@@ -307,15 +356,19 @@ export function SourceReferences({ sources }: { sources: SourceKey[] }) {
       id="sources"
     >
       <summary className="text-foreground hover:bg-card-accent cursor-pointer rounded-lg px-5 py-4 text-sm font-medium">
-        Data sources &amp; references — where every number on this page comes from
+        Data sources &amp; references — where every number on this page comes
+        from
       </summary>
       <div className="px-5 pt-1 pb-5">
         <p className="text-muted-foreground mb-4 text-sm">
-          Full citations for every data source and analysis input this report draws on.{" "}
-          <em>Used for</em> states the role each source plays in the report; <em>Grain</em> states
-          the level the data is reported at and its known limitations.
+          Full citations for every data source and analysis input this report
+          draws on. <em>Used for</em> states the role each source plays in the
+          report; <em>Grain</em> states the level the data is reported at and
+          its known limitations.
         </p>
-        {GROUP_ORDER.filter((g) => sources.some((k) => SOURCES[k].group === g)).map((g) => (
+        {GROUP_ORDER.filter((g) =>
+          sources.some((k) => SOURCES[k].group === g),
+        ).map((g) => (
           <div key={g} className="mb-5 last:mb-0">
             <h4 className="text-muted-foreground mb-2 text-xs font-medium tracking-[0.18em] uppercase">
               {GROUP_META[g].title}
@@ -332,7 +385,11 @@ export function SourceReferences({ sources }: { sources: SourceKey[] }) {
                   const s = SOURCES[k];
                   n += 1;
                   return (
-                    <li key={k} className="flex gap-3 text-sm" data-testid={`source-${k}`}>
+                    <li
+                      key={k}
+                      className="flex gap-3 text-sm"
+                      data-testid={`source-${k}`}
+                    >
                       <span className="text-muted-foreground shrink-0 font-mono text-xs leading-6">
                         [{n}]
                       </span>
@@ -354,12 +411,16 @@ export function SourceReferences({ sources }: { sources: SourceKey[] }) {
                           ))}
                         </p>
                         <p className="text-muted-foreground mt-1 leading-relaxed">
-                          <span className="text-foreground font-medium">Used for:</span>{" "}
+                          <span className="text-foreground font-medium">
+                            Used for:
+                          </span>{" "}
                           {s.usedFor}
                           {s.grain && (
                             <>
                               {" "}
-                              <span className="text-foreground font-medium">Grain:</span>{" "}
+                              <span className="text-foreground font-medium">
+                                Grain:
+                              </span>{" "}
                               {s.grain}
                             </>
                           )}

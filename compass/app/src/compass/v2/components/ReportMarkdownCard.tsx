@@ -1,7 +1,11 @@
 import { useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import { Card, CardContent, CardTitle } from "../../../client/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardTitle,
+} from "../../../client/components/ui/card";
 import {
   loadReportContent,
   type ReportContent,
@@ -53,11 +57,19 @@ function splitSections(markdown: string): MarkdownSection[] {
     }
     if (line.startsWith("# ")) continue;
     // Tooling metadata is never rendered, wherever it appears in the body.
-    if (/^\*\*(Prompt Version|Prompt version|Source Report)\b/.test(line.trim())) continue;
-    const inMetadataZone = !current.title || (sectionCount === 1 && atLeadingRun);
+    if (
+      /^\*\*(Prompt Version|Prompt version|Source Report)\b/.test(line.trim())
+    )
+      continue;
+    const inMetadataZone =
+      !current.title || (sectionCount === 1 && atLeadingRun);
     if (inMetadataZone) {
       const trimmed = line.trim();
-      if (/^\*\*[^*]+:\*\*/.test(trimmed) || trimmed === "---" || trimmed === "") {
+      if (
+        /^\*\*[^*]+:\*\*/.test(trimmed) ||
+        trimmed === "---" ||
+        trimmed === ""
+      ) {
         continue;
       }
       if (current.title) atLeadingRun = false;

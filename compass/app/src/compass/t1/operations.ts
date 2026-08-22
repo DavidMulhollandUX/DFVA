@@ -43,7 +43,7 @@ async function sha256(buffer: ArrayBuffer): Promise<string> {
  */
 async function findOrCreateInstitution(
   code: string,
-  institutions: { findUnique: Function; create: Function }
+  institutions: { findUnique: Function; create: Function },
 ): Promise<Institution> {
   let inst = await institutions.findUnique({ where: { code } });
   if (!inst) {
@@ -68,7 +68,7 @@ async function findOrCreateInstitution(
 
 export const importT1Data: ImportT1Data = async (
   { fileBuffer, fileName, institutionCode },
-  context
+  context,
 ) => {
   const {
     entities: {
@@ -80,7 +80,10 @@ export const importT1Data: ImportT1Data = async (
   } = context;
 
   if (!fileBuffer || !fileName || !institutionCode) {
-    throw new HttpError(400, "fileBuffer, fileName, and institutionCode are required");
+    throw new HttpError(
+      400,
+      "fileBuffer, fileName, and institutionCode are required",
+    );
   }
 
   const buffer = new Uint8Array(fileBuffer);
@@ -93,7 +96,9 @@ export const importT1Data: ImportT1Data = async (
     return {
       importJobId: existing.id,
       programCount: existing.entityCount,
-      warnings: [`Duplicate file (${fileName}) — existing import ${existing.id} returned.`],
+      warnings: [
+        `Duplicate file (${fileName}) — existing import ${existing.id} returned.`,
+      ],
       status: existing.status,
     };
   }
@@ -107,7 +112,10 @@ export const importT1Data: ImportT1Data = async (
   }
 
   // Resolve institution
-  const institution = await findOrCreateInstitution(institutionCode, institutions);
+  const institution = await findOrCreateInstitution(
+    institutionCode,
+    institutions,
+  );
 
   // Create import job (queued → processing)
   const job = await importJobs.create({
@@ -226,9 +234,11 @@ export const importT1Data: ImportT1Data = async (
 
 export const getT1ImportJob: GetT1ImportJob = async (
   { importJobId },
-  context
+  context,
 ) => {
-  const { entities: { T1ImportJob: importJobs } } = context;
+  const {
+    entities: { T1ImportJob: importJobs },
+  } = context;
   const job = await importJobs.findUnique({
     where: { id: importJobId },
     include: { snapshots: true },
@@ -246,7 +256,7 @@ export const getT1ImportJob: GetT1ImportJob = async (
 
 export const getT1Portfolio: GetT1Portfolio = async (
   { institutionCode },
-  context
+  context,
 ) => {
   const {
     entities: {
@@ -259,7 +269,8 @@ export const getT1Portfolio: GetT1Portfolio = async (
   const institution = await institutions.findUnique({
     where: { code: institutionCode },
   });
-  if (!institution) throw new HttpError(404, `Institution "${institutionCode}" not found`);
+  if (!institution)
+    throw new HttpError(404, `Institution "${institutionCode}" not found`);
 
   const programSnapshots = await snapshots.findMany({
     where: { institutionId: institution.id, isActive: true },
@@ -277,7 +288,7 @@ export const getT1Portfolio: GetT1Portfolio = async (
         ...snap,
         latestAssessment: latestAssessment ?? null,
       };
-    })
+    }),
   );
 
   return enriched;
@@ -291,7 +302,7 @@ export const getT1Portfolio: GetT1Portfolio = async (
 
 export const getT1EnrolmentTrends: GetT1EnrolmentTrends = async (
   { institutionCode, programCode },
-  context
+  context,
 ) => {
   const {
     entities: { Institution: institutions, T1EnrolmentTrend: trends },
@@ -300,7 +311,8 @@ export const getT1EnrolmentTrends: GetT1EnrolmentTrends = async (
   const institution = await institutions.findUnique({
     where: { code: institutionCode },
   });
-  if (!institution) throw new HttpError(404, `Institution "${institutionCode}" not found`);
+  if (!institution)
+    throw new HttpError(404, `Institution "${institutionCode}" not found`);
 
   const where: any = { institutionId: institution.id };
   if (programCode) {
@@ -323,7 +335,7 @@ export const getT1EnrolmentTrends: GetT1EnrolmentTrends = async (
 
 export const assessT1Programs: AssessT1Programs = async (
   { institutionCode },
-  context
+  context,
 ) => {
   const {
     entities: {
@@ -336,14 +348,18 @@ export const assessT1Programs: AssessT1Programs = async (
   const institution = await institutions.findUnique({
     where: { code: institutionCode },
   });
-  if (!institution) throw new HttpError(404, `Institution "${institutionCode}" not found`);
+  if (!institution)
+    throw new HttpError(404, `Institution "${institutionCode}" not found`);
 
   const programSnapshots = await snapshots.findMany({
     where: { institutionId: institution.id, isActive: true },
   });
 
   if (programSnapshots.length === 0) {
-    throw new HttpError(400, `No T1 program data found for institution "${institutionCode}". Upload a T1 export first.`);
+    throw new HttpError(
+      400,
+      `No T1 program data found for institution "${institutionCode}". Upload a T1 export first.`,
+    );
   }
 
   const MAX_CONCURRENT = 10;
@@ -368,7 +384,9 @@ export const assessT1Programs: AssessT1Programs = async (
         }
 
         const service = getAssessmentService();
-        const handbookUrl = snap.handbookUrl || `https://handbook.unimelb.edu.au/courses/${snap.programCode.toLowerCase()}`;
+        const handbookUrl =
+          snap.handbookUrl ||
+          `https://handbook.unimelb.edu.au/courses/${snap.programCode.toLowerCase()}`;
 
         const result = await service.assess(handbookUrl);
 
@@ -390,7 +408,7 @@ export const assessT1Programs: AssessT1Programs = async (
         });
         created.push(job.id);
         return job;
-      })
+      }),
     );
 
     // Log any failures in this batch
