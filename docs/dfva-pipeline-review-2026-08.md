@@ -108,8 +108,7 @@ UI are indistinguishable from a 20k-char-backed assessment.
 | Dimension evidence | **31/66** — 35 programs have none | rubric popover shows no linked recommendations |
 | Labour evidence (JIR/QILT crosswalk) | **41/66** — 25 missing | D10 / market sections unevidenced |
 | Unresolved faculty | `dh-lld`, `dr-philik` → `"Other"` | dropped from `/insights` faculty pages and MCP `faculty` filter |
-| Level mislabelling | 16 research doctorates labelled `postgraduate`, not `graduate-research` | `query_assessments` level filtering is wrong; only 3 of ~25 research degrees are findable as such |
-| Score ceiling | all 66 entries carry `maxScore: 36`; `rubric.ts` sets `MAX_ACHIEVABLE_SCORE = 33` | every program renders ~8% lower than its true ceiling |
+| Level mislabelling | **15** research degrees (12 PhDs, DEd, 2 higher doctorates) labelled `postgraduate` | `levelOf()` at `scripts/dfva-build-assessments.ts:58` only matches `doctor*`/`phd` — "Graduate Research, AQF Level 10" falls through; one-line fix |
 | Ratchet slack | **all 24** grandfathered programs are now complete | the completeness guardrail is not yet enforcing anything |
 
 ## 6. Portfolio shape
@@ -136,10 +135,13 @@ cheapest way to find out.
 2. **Resolve the two `"Other"` faculties** (`dh-lld` → Law, `dr-philik` →
    Arts/Indigenous per institutional mapping) so they stop disappearing from
    `/insights` and MCP faculty queries.
-3. **Fix the 16 mislabelled levels** (`postgraduate` → `graduate-research`) in
-   `dfva/source/assessments.json` and regenerate.
-4. **Settle /36 vs /33.** Either set `maxScore: 33` across the registry, or add a
-   comment recording that /36 is a deliberate legacy nominal ceiling.
+3. **Fix `levelOf()`** in `scripts/dfva-build-assessments.ts` to recognise
+   "Graduate Research" / "Higher Doctorate" strings, then regenerate — corrects
+   all 15 mislabelled levels in one line. (The 6 professional doctorates are
+   AQF-9 extended masters and correctly `postgraduate`.)
+4. **Surface the evidence-confidence note structurally.** Each thin-evidence
+   report already carries a §10 "Market Confidence: Low" note in prose; add a
+   flag the /reports listing and rating badge can render.
 
 ### P1 — unblocks everything else (make capture reproducible)
 
@@ -192,3 +194,39 @@ P3                        → Go8 benchmark rebuilt on persisted data
 Everything in P0 is a small, well-guarded change against green CI. P1 is the one
 that matters: without it, every subsequent tranche re-creates the same
 un-reproducible state that made this review necessary.
+
+---
+
+## Reassessment addendum (second pass, 2026-08-22)
+
+An independent re-derivation of every figure above, run adversarially against the
+first pass. All headline counts reproduce exactly (66/66/66, 198 reports, 31
+evidence files, 41 JIR-enriched, 15/13% union figures). Three findings were
+**corrected or sharpened**:
+
+1. **/36 vs /33 is already settled — dropped from P0.** `dfva/source/rubric.ts`
+   explicitly documents `MAX_SCORE = 36` as a "LEGACY nominal ceiling, kept only
+   as the published /36 denominator and the upper bound of the RESILIENT band".
+   The first pass grepped past the comment block. No action needed.
+2. **Level mislabelling is 15, not 16, with a one-line root cause.** `levelOf()`
+   (`dfva-build-assessments.ts:58`) classifies by `startsWith('doctor')` or
+   `\bphd\b`, so every "Graduate Research, AQF Level 10" and "Higher Doctorate"
+   string falls through to `postgraduate`. The 3 correctly-tagged research
+   degrees only match because their strings contain "PhD". The 6 professional
+   doctorates (MD, DDS, OD, DPT, DVM, DCD) are AQF-9 extended-masters coursework
+   and are **correctly** `postgraduate` — they were over-counted before.
+3. **The thin-evidence doctorates are honest in prose, silent in structure.**
+   Every `dr-phil*` report carries an explicit §10 note — "Confidence: **Low** …
+   handbook page is a single generic sentence" — and the market reports flag
+   that no live job-ad scrape was performed. The defensibility gap is therefore
+   narrower than "indistinguishable in the UI": the caveat exists, but nothing
+   structured (badge, field, filter) carries it to the /reports listing, the
+   score table, or MCP consumers. P2 item 10 is rescoped accordingly: this is a
+   surfacing problem before it is a re-scoring problem.
+
+Also confirmed on this pass: the two “Other” faculties are a `getFaculty()`
+fallback-regex miss (`\blaw\b` doesn't match "Doctor of **Laws**"; "Indigenous
+Knowledge" matches no branch) — fix with two explicit `PROGRAM_FACULTY` entries
+in `compass/app/src/compass/faculty.ts`. NA-aware scoring is live but exercised
+only by `dh-lld`/`dh-sc` (3 NA dimensions each); no shipped program is
+`NOT RATABLE`. Everything else in the review stands as written.
