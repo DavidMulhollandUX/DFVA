@@ -154,8 +154,9 @@
     {
       "id": "feat-013",
       "name": "Coursedog ClassRanked Acquisition \u2014 Counter-Positioning as Methodology-First Independent Standard",
-      "status": "approved",
+      "status": "in_progress",
       "spec_file": "features/feat-013.md",
+      "branch": "feat/feat-013",
       "created": "2026-07-09",
       "priority": "high",
       "score": 9,
