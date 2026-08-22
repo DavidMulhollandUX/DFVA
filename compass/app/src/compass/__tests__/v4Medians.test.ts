@@ -41,7 +41,9 @@ describe("V4_META migration-cycle contract", () => {
  *  is checked independently of the data currently on disk. */
 function median(values: number[]): number {
   const v = [...values].sort((a, b) => a - b);
-  return v.length % 2 ? v[(v.length - 1) / 2] : (v[v.length / 2 - 1] + v[v.length / 2]) / 2;
+  return v.length % 2
+    ? v[(v.length - 1) / 2]
+    : (v[v.length / 2 - 1] + v[v.length / 2]) / 2;
 }
 
 describe("adaptiveness median arithmetic", () => {

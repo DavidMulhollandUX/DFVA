@@ -15,7 +15,8 @@ import { PrismaClient } from "@prisma/client";
 export const CLASSRANKED_ACQUISITION_EVENT = {
   competitor: "Coursedog",
   eventType: "ACQUISITION",
-  title: "Coursedog Acquires ClassRanked, Rebrands to Intelligent Academic Operations Platform",
+  title:
+    "Coursedog Acquires ClassRanked, Rebrands to Intelligent Academic Operations Platform",
   description:
     "Coursedog has acquired ClassRanked (AI-driven course evaluations) and rebranded to " +
     "\u201CIntelligent Academic Operations Platform.\u201D The expanded product stack now includes: " +

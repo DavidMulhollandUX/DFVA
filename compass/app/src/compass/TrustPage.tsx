@@ -43,14 +43,42 @@ const DATABASE_REGION: string | null = "Sydney, Australia (ap-southeast-2)";
 const LAST_UPDATED = "14 August 2026";
 const CONTACT_EMAIL = "privacy@evidura.ai";
 
-const SUBPROCESSORS: { name: string; purpose: string; region: string | null }[] = [
-  { name: "Fly.io", purpose: "Runs the application", region: "Sydney, Australia" },
-  { name: "Vercel", purpose: "Serves the website. No customer data is stored here.", region: "Sydney, Australia" },
-  { name: "Amazon S3", purpose: "File storage", region: "Sydney, Australia (ap-southeast-2)" },
+const SUBPROCESSORS: {
+  name: string;
+  purpose: string;
+  region: string | null;
+}[] = [
+  {
+    name: "Fly.io",
+    purpose: "Runs the application",
+    region: "Sydney, Australia",
+  },
+  {
+    name: "Vercel",
+    purpose: "Serves the website. No customer data is stored here.",
+    region: "Sydney, Australia",
+  },
+  {
+    name: "Amazon S3",
+    purpose: "File storage",
+    region: "Sydney, Australia (ap-southeast-2)",
+  },
   { name: "PostgreSQL", purpose: "The database", region: DATABASE_REGION },
-  { name: "OpenAI", purpose: "Runs the model that drafts assessments", region: "United States" },
-  { name: "Stripe", purpose: "Payments. Card details go straight to Stripe and never reach us.", region: "United States" },
-  { name: "SendGrid", purpose: "Sends account emails", region: "United States" },
+  {
+    name: "OpenAI",
+    purpose: "Runs the model that drafts assessments",
+    region: "United States",
+  },
+  {
+    name: "Stripe",
+    purpose: "Payments. Card details go straight to Stripe and never reach us.",
+    region: "United States",
+  },
+  {
+    name: "SendGrid",
+    purpose: "Sends account emails",
+    region: "United States",
+  },
 ];
 
 const RETENTION = [
@@ -119,24 +147,25 @@ export default function TrustPage() {
       : []),
     <>
       <strong>Your documents are deleted within 24 hours.</strong> Once the
-      assessment finishes, the files go. They aren't archived or moved into
-      cold storage — they're deleted, automatically.
+      assessment finishes, the files go. They aren't archived or moved into cold
+      storage — they're deleted, automatically.
     </>,
     <>
       <strong>We keep the score, not the syllabus.</strong> What stays behind is
-      the result: the dimension scores, the band, which version of the rubric
-      we used, and short quotations showing where each score came from. That's
+      the result: the dimension scores, the band, which version of the rubric we
+      used, and short quotations showing where each score came from. That's
       enough to defend a score in a review meeting. It isn't enough to rebuild
       your curriculum.
     </>,
     <>
       <strong>Nothing goes into a benchmark unless you say so.</strong> Being
-      assessed and sharing your results with other institutions are two
-      separate decisions. We'll never treat a yes to the first as a yes to the
-      second.
+      assessed and sharing your results with other institutions are two separate
+      decisions. We'll never treat a yes to the first as a yes to the second.
     </>,
     <>
-      <strong>We won't name your institution without your written consent.</strong>{" "}
+      <strong>
+        We won't name your institution without your written consent.
+      </strong>{" "}
       Benchmarks show bands rather than raw scores, and only when at least five
       programs are in the comparison.
     </>,
@@ -207,10 +236,10 @@ export default function TrustPage() {
               graduation year and a program code for each graduate —{" "}
               <strong>no names and no contact details</strong>. Those fields
               aren't identifying on their own, but in a small cohort a
-              particular combination could point at one person, so we treat
-              this data as sensitive: it's used only to inform the assessment
-              for that program, it never appears in a benchmark, and you can
-              have it deleted on the same terms as anything else below.
+              particular combination could point at one person, so we treat this
+              data as sensitive: it's used only to inform the assessment for
+              that program, it never appears in a benchmark, and you can have it
+              deleted on the same terms as anything else below.
             </p>
           </div>
         </Section>
@@ -227,8 +256,8 @@ export default function TrustPage() {
             <table className="w-full text-sm">
               <thead>
                 <tr className="border-b text-left">
-                  <th className="pb-2 pr-4 font-medium">Provider</th>
-                  <th className="pb-2 pr-4 font-medium">What they do</th>
+                  <th className="pr-4 pb-2 font-medium">Provider</th>
+                  <th className="pr-4 pb-2 font-medium">What they do</th>
                   <th className="pb-2 font-medium">Where</th>
                 </tr>
               </thead>
@@ -283,8 +312,8 @@ export default function TrustPage() {
             <table className="w-full text-sm">
               <thead>
                 <tr className="border-b text-left">
-                  <th className="pb-2 pr-4 font-medium">What</th>
-                  <th className="pb-2 pr-4 font-medium">How long</th>
+                  <th className="pr-4 pb-2 font-medium">What</th>
+                  <th className="pr-4 pb-2 font-medium">How long</th>
                   <th className="pb-2 font-medium">Why</th>
                 </tr>
               </thead>
@@ -317,7 +346,10 @@ export default function TrustPage() {
         >
           <div className="grid gap-4 sm:grid-cols-3">
             {[
-              { t: "5 business days", d: "Delete a single document you uploaded" },
+              {
+                t: "5 business days",
+                d: "Delete a single document you uploaded",
+              },
               {
                 t: "10 business days",
                 d: "Delete a program's assessment along with its source material, or export everything we hold for you",
