@@ -45,6 +45,11 @@ async function assertOwnsAssessmentJob(
 /**
  * Submit a handbook URL for assessment.
  * Returns the AssessmentJob record.
+ *
+ * Deliberately public (no auth check): /assess is open to anyone. An anonymous
+ * job is stored with userId = null, which makes it readable only by whoever
+ * holds its (unguessable) id — see getAssessmentJob. Signing in is what gives a
+ * job an owner and therefore a durable, listable history.
  */
 const assessProgramInputSchema = z.object({
   handbookUrl: z
@@ -53,21 +58,46 @@ const assessProgramInputSchema = z.object({
     .refine((u) => /^https?:\/\//.test(u), "Handbook URL must be http(s)"),
 });
 
+/**
+ * Anonymous submissions have no account to rate-limit against and, with
+ * DFVA_MOCK=false, each one spends money on the LLM pipeline. This caps how
+ * many the server will start per minute across all anonymous callers. Signed-in
+ * users are unaffected. Tune with the deployment's budget in mind.
+ */
+const ANON_ASSESSMENTS_PER_MINUTE = 20;
+const anonSubmissions: number[] = [];
+
+function anonBudgetAvailable(): boolean {
+  const cutoff = Date.now() - 60_000;
+  while (anonSubmissions.length > 0 && anonSubmissions[0] < cutoff) {
+    anonSubmissions.shift();
+  }
+  if (anonSubmissions.length >= ANON_ASSESSMENTS_PER_MINUTE) return false;
+  anonSubmissions.push(Date.now());
+  return true;
+}
+
 export const assessProgram: AssessProgram<
   { handbookUrl: string },
   AssessmentJob
 > = async (rawArgs, context) => {
-  if (!context.user) throw new HttpError(401, "Authentication required");
   const { handbookUrl } = ensureArgsSchemaOrThrowHttpError(
     assessProgramInputSchema,
     rawArgs,
   );
 
+  if (!context.user && !anonBudgetAvailable()) {
+    throw new HttpError(
+      429,
+      "Too many assessments are being run right now. Try again in a minute, or sign in.",
+    );
+  }
+
   const job = await context.entities.AssessmentJob.create({
     data: {
       handbookUrl,
       status: "processing",
-      userId: context.user.id,
+      userId: context.user?.id ?? null,
     },
   });
 
@@ -145,7 +175,12 @@ export const getAssessmentJobs: GetAssessmentJobs<
   void,
   AssessmentJobListItem[]
 > = async (_args, context) => {
-  if (!context.user) throw new HttpError(401, "Authentication required");
+  // Anonymous callers get an empty history rather than a 401: /assess is public
+  // and works signed-out. Anonymous jobs are deliberately NOT listed here —
+  // nothing distinguishes one anonymous visitor from another, so listing them
+  // would show every visitor everyone else's submissions. The client tracks its
+  // own anonymous jobs by id instead.
+  if (!context.user) return [];
 
   // The assessment runs as a fire-and-forget promise (see assessProgram); a
   // server restart mid-run would otherwise strand the job in `processing` and
@@ -210,7 +245,6 @@ export const getAssessmentJob: GetAssessmentJob<
   { id: string },
   AssessmentJob | null
 > = async (rawArgs, context) => {
-  if (!context.user) throw new HttpError(401, "Authentication required");
   const { id } = ensureArgsSchemaOrThrowHttpError(jobIdInputSchema, rawArgs);
 
   const job = await context.entities.AssessmentJob.findUnique({
@@ -220,8 +254,14 @@ export const getAssessmentJob: GetAssessmentJob<
   // Return null if job doesn't exist (not an auth issue)
   if (!job) return null;
 
-  // If the job belongs to a different user, return 404 to hide its existence
-  if (job.userId !== context.user.id) {
+  // An ownerless job came from an anonymous submission on the public /assess
+  // page. Its uuid is the only handle on it, so holding the id is what grants
+  // access — the client that submitted it polls here for the result.
+  if (job.userId === null) return job;
+
+  // Otherwise the job is owned: only its owner may see it. 404 (not 403) so an
+  // id probe can't distinguish "someone else's job" from "no such job".
+  if (job.userId !== context.user?.id) {
     throw new HttpError(404, "Assessment job not found");
   }
 

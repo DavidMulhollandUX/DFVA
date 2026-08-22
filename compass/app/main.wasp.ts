@@ -267,7 +267,9 @@ export default app({
     //#endregion
 
     //#region COMPASS
-    route("AssessRoute", "/assess", page(AssessorPage, { authRequired: true })),
+    // Public: anyone can assess a program without an account. Signing in only
+    // adds a durable history (see getAssessmentJobs).
+    route("AssessRoute", "/assess", page(AssessorPage)),
     route("ReportsRoute", "/reports", page(ReportsPage)),
     route("ReportDetailRoute", "/reports/:reportSlug", page(ReportDetailPage)),
     // v2 (dev branch): /insights IS the v2 matrix dashboard; v1 hub moves to /insights/v1
