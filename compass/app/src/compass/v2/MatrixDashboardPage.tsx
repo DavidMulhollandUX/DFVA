@@ -1,5 +1,6 @@
 import { useMemo, useState } from "react";
 import { Link } from "react-router";
+import { programReportPath } from "../reportLinks";
 import { AlertTriangle, ArrowRight, CheckCircle2, Info } from "lucide-react";
 import {
   Card,
@@ -65,11 +66,8 @@ function SectionHeading({
 }
 
 function ProgramLink({ row }: { row: PortfolioRow }) {
-  const target = row.placed
-    ? `/insights/v31/${row.code}`
-    : `/insights/program/${row.code}`;
   return (
-    <Link to={target} className="hover:text-primary transition-colors">
+    <Link to={programReportPath(row.code)} className="hover:text-primary transition-colors">
       {row.name}
     </Link>
   );
@@ -622,7 +620,7 @@ export default function MatrixDashboardPage() {
             {V3_META.exposureComputedAt}
           </span>
           <span className="flex gap-4">
-            <Link to="/insights/v31/mc-jurisd" className="underline">
+            <Link to="/reports/mc-jurisd" className="underline">
               Example program report (Juris Doctor)
             </Link>
             <Link to="/insights/faculty" className="underline">

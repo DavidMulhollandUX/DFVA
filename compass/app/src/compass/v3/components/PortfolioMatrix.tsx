@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router";
+import { programReportPath } from "../../reportLinks";
 import { MatrixAreaLabels } from "../../matrixAreaLabels";
 import { DIMENSION_LABELS, QUADRANTS } from "../../v2/quadrants";
 import { V3_META, type V3Program } from "../data/v3Programs";
@@ -143,7 +144,7 @@ export function PortfolioMatrix({
                   }
                 }}
                 onMouseLeave={() => setTooltip(null)}
-                onClick={() => navigate(`/insights/v31/${p.code}`)}
+                onClick={() => navigate(programReportPath(p.code))}
               />
               {showLabel(x, y) && (
                 <text

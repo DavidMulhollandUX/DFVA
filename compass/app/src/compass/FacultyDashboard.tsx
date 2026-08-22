@@ -1,5 +1,6 @@
 import { useMemo } from "react";
 import { Link, useParams } from "react-router";
+import { codeFromSlug, programReportPath } from "./reportLinks";
 import { PROGRAMS, type ProgramReport } from "./sharedProgramData";
 import { getFaculty, facultySlug } from "./faculty";
 import { FACULTY_OUTCOMES, type FacultyOutcome } from "./facultyOutcomes";
@@ -352,7 +353,7 @@ function FacultyDetail({ f }: { f: FacultyStats }) {
                     </td>
                     <td className="px-3 py-3 text-right">
                       <Link
-                        to={`/reports/${p.assessmentSlug}`}
+                        to={programReportPath(codeFromSlug(p.assessmentSlug))}
                         className="text-primary inline-flex items-center gap-1 text-xs hover:underline"
                       >
                         Report <ArrowUpRight className="h-3 w-3" />

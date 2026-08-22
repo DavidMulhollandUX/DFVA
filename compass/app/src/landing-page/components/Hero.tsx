@@ -39,7 +39,7 @@ export default function Hero() {
           </p>
           <div className="mt-9 flex flex-wrap items-center gap-4">
             <Button size="lg" variant="default" asChild>
-              <RouterLink to={`/insights/v31/${SAMPLE_CODE}`}>
+              <RouterLink to={`/reports/${SAMPLE_CODE}`}>
                 View an example report <span aria-hidden="true">→</span>
               </RouterLink>
             </Button>
@@ -142,7 +142,7 @@ function SamplePositionCard() {
       </div>
 
       <RouterLink
-        to={`/insights/v31/${SAMPLE_CODE}`}
+        to={`/reports/${SAMPLE_CODE}`}
         className="text-secondary-muted-foreground mt-4 inline-block text-xs font-semibold underline"
       >
         Read the full report →

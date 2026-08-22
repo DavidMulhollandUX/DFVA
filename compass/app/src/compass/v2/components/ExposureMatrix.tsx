@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router";
+import { programReportPath } from "../../reportLinks";
 import { V2_META, type V2Program } from "../data/v2Programs";
 import { QUADRANTS } from "../quadrants";
 
@@ -265,7 +266,7 @@ export function ExposureMatrix({
                   }
                 }}
                 onMouseLeave={() => setTooltip(null)}
-                onClick={() => navigate(`/insights/program/${p.code}`)}
+                onClick={() => navigate(programReportPath(p.code))}
               />
               {label && (
                 <text

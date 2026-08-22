@@ -37,21 +37,34 @@ record('landing loads', (await page.title()) !== '');
 record('navbar has Insights link', await page.locator('nav a:has-text("Insights")').count() > 0);
 await shot(page, 'landing');
 
-// --- 2. Reports listing: faceted nav ----------------------------------------
+// --- 2. Reports listing: v4-first index -------------------------------------
 await page.goto(`${BASE}/reports`, { waitUntil: 'networkidle' });
-const cardCount = await page.locator('a[href^="/reports/dfva-"]').count();
-record('reports listing shows 41 programs', cardCount >= 41, `${cardCount} report links`);
+const cardCount = await page.locator('[data-testid="report-card"]').count();
+record('reports listing shows every program (>= 90)', cardCount >= 90, `${cardCount} cards`);
+record('every card has exactly one report link', await page.locator('[data-testid="durability-report-link"]').count() === cardCount);
+record('archived (v4 pending) status shown', await page.locator('[data-testid="status-archived"]').count() > 0);
+record('current (v4) status shown', await page.locator('[data-testid="status-current"]').count() >= 60);
+record('no card links to a legacy dfva- slug', await page.locator('[data-testid="report-card"] a[href^="/reports/dfva-"]').count() === 0);
 const selects = page.locator('select');
-record('faceted nav present (faculty/risk/sort selects)', (await selects.count()) >= 3);
+record('faceted nav present (status/position/faculty selects)', (await selects.count()) >= 3);
 await shot(page, 'reports-all');
-// filter to HIGH RISK and confirm the list shrinks
-await selects.nth(1).selectOption('HIGH RISK');
+await selects.nth(0).selectOption('archived');
 await page.waitForTimeout(400);
-const highCount = await page.locator('a[href^="/reports/dfva-"]').count();
-record('risk filter narrows list', highCount > 0 && highCount < cardCount, `${highCount} after filter`);
-await shot(page, 'reports-high-risk-filter');
+const archivedCount = await page.locator('[data-testid="report-card"]').count();
+record('status filter narrows list', archivedCount > 0 && archivedCount < cardCount, `${archivedCount} archived`);
+await shot(page, 'reports-archived-filter');
 
-// --- 3. Report detail (b-des): radar + three tabs ----------------------------
+// --- 2b. v4 Durability Report at the canonical URL ---------------------------
+await page.goto(`${BASE}/reports/mc-mgmthre`, { waitUntil: 'networkidle' });
+record('mc-mgmthre: v4 report renders at /reports/:code', await page.locator('[data-testid="finding-block"]').count() === 1);
+await page.goto(`${BASE}/reports/mc-cs`, { waitUntil: 'networkidle' });
+record('mc-cs: archived reports linked from v4 page', await page.locator('[data-testid="archived-reports"]').count() === 1);
+await page.goto(`${BASE}/reports/b-des`, { waitUntil: 'networkidle' });
+record('b-des: v4 pending state with archived v1 link', await page.locator('[data-testid="archived-v1-link"]').count() === 1);
+await page.goto(`${BASE}/insights/v4/mc-cs`, { waitUntil: 'networkidle' });
+record('legacy /insights/v4 route still renders', await page.locator('[data-testid="finding-block"]').count() === 1);
+
+// --- 3. Archived v1 report detail (b-des) still renders via legacy slug -------
 await page.goto(`${BASE}/reports/dfva-b-des`, { waitUntil: 'networkidle' });
 record('b-des: HIGH RISK badge', await page.locator('text=HIGH RISK').count() > 0);
 record('b-des: Dimension Fingerprint radar', await page.locator('text=Dimension Fingerprint').count() === 1 && await page.locator('svg polygon').count() > 3);

@@ -1,5 +1,6 @@
 // compass/app/src/compass/PortfolioHealthPage.tsx
 import { Link } from "react-router";
+import { codeFromSlug, programReportPath } from "./reportLinks";
 import { InsightsGate } from "./InsightsGate";
 import { PROGRAMS } from "./sharedProgramData";
 import { useMemo } from "react";
@@ -239,7 +240,7 @@ export default function PortfolioHealthPage() {
               {stats.threshold.map((p) => (
                 <Link
                   key={p.assessmentSlug}
-                  to={`/reports/${p.assessmentSlug}`}
+                  to={programReportPath(codeFromSlug(p.assessmentSlug))}
                   className="border-border hover:border-primary/40 flex items-center justify-between rounded-lg border p-3 transition-colors"
                 >
                   <div>
