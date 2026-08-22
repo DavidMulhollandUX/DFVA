@@ -14,6 +14,7 @@
     "dfva:content-check": "npx tsx dfva-content-check.ts",
     "dfva:completeness": "npx tsx check-course-completeness.ts",
     "dfva:report-lint": "npx tsx check-report-format.ts",
+    "dfva:deck": "python3 build-evidura-deck.py",
     "dfva:sync-skill": "cp ../dfva/dist/claude-skill/SKILL.md ~/.claude/skills/dfva/SKILL.md",
     "dfva:panela-coverage": "npx tsx dfva-panela-coverage-check.ts"
   },
