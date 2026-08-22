@@ -203,7 +203,8 @@ function MiniMatrix({
   program: V3Program;
   stability: V31Stability;
 }) {
-  const W = 360,
+  // Landscape plane: spans the full report column at a readable height.
+  const W = 720,
     H = 300,
     PAD = 34;
   const x = (e: number) =>
@@ -476,7 +477,7 @@ export default function V31ReportPage() {
         <Card className="mb-6">
           <CardContent className="pt-6">
             <CardLabel>Position · with its precision</CardLabel>
-            <div className="grid gap-6 md:grid-cols-[1fr_auto]">
+            <div className="grid gap-6">
               <div>
                 <div className="flex flex-wrap items-baseline gap-x-8 gap-y-3">
                   <div>
@@ -631,7 +632,7 @@ export default function V31ReportPage() {
                   </div>
                 )}
               </div>
-              <div className="w-full max-w-sm md:w-80">
+              <div className="w-full">
                 <MiniMatrix program={program} stability={s} />
                 <p className="text-muted-foreground mt-1 text-xs">
                   The vertical bar is the score range reachable under ±1 rating

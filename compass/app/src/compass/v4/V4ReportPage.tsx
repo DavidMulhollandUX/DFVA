@@ -234,7 +234,8 @@ function V4MiniMatrix({
     .filter(([c, r]) => c !== program.code && typeof r.workplace === "number")
     .map(([c, r]) => ({ peer: v3ProgramByCode(c), r }))
     .filter((e): e is { peer: V3Program; r: V4PanelC } => e.peer !== undefined);
-  const W = 360,
+  // Landscape plane: spans the full report column at a readable height.
+  const W = 720,
     H = 300,
     PAD = 34;
   const x = (e: number) =>
@@ -623,7 +624,7 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
         <Card className="mb-6">
           <CardContent className="pt-6">
             <CardLabel>Position · coordinates only</CardLabel>
-            <div className="grid gap-6 md:grid-cols-[1fr_auto]">
+            <div className="grid gap-6">
               <div>
                 <div className="flex flex-wrap items-baseline gap-x-8 gap-y-3">
                   <div>
@@ -766,7 +767,7 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
                   </span>
                 </div>
               </div>
-              <div className="w-full max-w-sm md:w-80">
+              <div className="w-full">
                 {exposure !== null ? (
                   <>
                     <V4MiniMatrix
