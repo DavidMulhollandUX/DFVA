@@ -104,9 +104,25 @@ def extract(page: Page, url: str) -> tuple[str | None, str, list[str]]:
     return None, result["text"], result["links"]
 
 
-def wait_for_person(page: Page, url: str, why: str) -> None:
-    print(f"\n  {why}\n  Clear the check in the Chrome window, then press Enter here…", flush=True)
-    input()
+def wait_for_person(page: Page, url: str, why: str, timeout_s: int = 600) -> None:
+    """Hold until a person clears the check in the Chrome window. Polls the
+    page rather than reading stdin, so the runner can be launched from a
+    scheduler or an agent while the human only touches the browser."""
+    print(f"\n  {why}\n  Clear the check in the Chrome window — polling up to {timeout_s // 60} min…", flush=True)
+    deadline = time.monotonic() + timeout_s
+    last_reload = time.monotonic()
+    while time.monotonic() < deadline:
+        time.sleep(10)
+        marker = challenge_on(page)
+        if marker is None:
+            print("  cleared", flush=True)
+            break
+        # The flat Incapsula shell never resolves on its own; reload it, but no
+        # more than once a minute — polling must not look like a burst.
+        if "blank" in marker and time.monotonic() - last_reload > 60:
+            last_reload = time.monotonic()
+            page.goto(url, wait_until="domcontentloaded", timeout=45_000)
+            page.wait_for_timeout(2_000)
     page.goto(url, wait_until="domcontentloaded", timeout=45_000)
     page.wait_for_timeout(2_000)
 
