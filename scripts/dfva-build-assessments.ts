@@ -18,7 +18,7 @@
 import { writeFileSync, readFileSync, existsSync } from 'node:fs'
 import * as path from 'node:path'
 import { PROGRAMS, type ProgramReport } from '../compass/app/src/compass/sharedProgramData'
-import { getFaculty } from '../compass/app/src/compass/faculty'
+import { getFaculty, NON_FACULTY_PROGRAMS } from '../compass/app/src/compass/faculty'
 import { RUBRIC } from '../dfva/source/rubric'
 import type {
   ProgramAssessment,
@@ -58,6 +58,11 @@ function codeFromSlug(slug: string): string {
 function levelOf(level: string): ProgramAssessment['level'] {
   const w = level.trim().toLowerCase()
   if (w.startsWith('bachelor')) return 'undergraduate'
+  // "Graduate Coursework (Masters Extended)" professional doctorates (MD, DDS, …)
+  // are AQF-9 coursework and must stay 'postgraduate', so match research strings
+  // before the generic doctor/phd catch: "Graduate Research, AQF Level 10" and
+  // the higher doctorates by examination (LLD, DSc).
+  if (w.includes('graduate research') || w.includes('higher doctorate')) return 'graduate-research'
   if (w.startsWith('doctor') || /\bphd\b/.test(w)) return 'graduate-research'
   return 'postgraduate'
 }
@@ -141,6 +146,7 @@ function buildOne(p: ProgramReport): ProgramAssessment {
     programCode: code,
     programName: p.program,
     faculty: getFaculty(p.program),
+    ...(p.evidenceConfidence ? { evidenceConfidence: p.evidenceConfidence } : {}),
     level: levelOf(p.level),
     overallScore: p.score, // /36 — consistent with rubric RISK_BANDS + riskBand
     riskCategory: p.riskBand,
@@ -159,7 +165,7 @@ export function buildAssessments(): ProgramAssessment[] {
   const missingFaculty: string[] = []
   const out = PROGRAMS.map((p) => {
     const a = buildOne(p)
-    if (!a.faculty || a.faculty === 'Other') missingFaculty.push(a.programCode)
+    if ((!a.faculty || a.faculty === 'Other') && !NON_FACULTY_PROGRAMS.has(a.programName)) missingFaculty.push(a.programCode)
     return a
   }).sort((a, b) => a.programCode.localeCompare(b.programCode))
   if (missingFaculty.length) {

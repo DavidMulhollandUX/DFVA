@@ -293,6 +293,14 @@ export default function ReportsPage() {
                       <span>{p.level}</span>
                       <span className="text-muted-foreground/30">•</span>
                       <span>Assessed {p.date}</span>
+                      {p.evidenceConfidence === "low" && (
+                        <span
+                          className="rounded border border-amber-500/40 bg-amber-500/10 px-1.5 py-0.5 text-[10px] font-semibold tracking-wide text-amber-700 uppercase dark:text-amber-400"
+                          title="Scored from a thin handbook capture — see the Market Confidence note in the report"
+                        >
+                          Limited evidence
+                        </span>
+                      )}
                     </div>
 
                     {/* Expand/Collapse Panel Trigger */}

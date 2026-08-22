@@ -54,6 +54,8 @@ export interface ProgramAssessment {
   marketReportPath: string;
   /** Real graduate-outcome evidence; present only for programs covered by JIR/QILT data. */
   labourEvidence?: LabourEvidence;
+  /** "low" = scored from a thin handbook capture (see sharedProgramData.ts); absent = full capture. */
+  evidenceConfidence?: 'low';
 }
 
 export interface AssessmentQuery {
