@@ -273,3 +273,32 @@ npm --prefix scripts run dfva:capture-check
 scraper that does not exist, and `docs/dfva-go8-comparison.md` carries a not-reproducible banner.
 Rebuilding it means adding the Go8 hosts to `UNI_CONFIGS` — deliberately not written blind, since
 none of it could be tested against the live sites from here.
+
+---
+
+## Correction (2026-08-22, later) — capture method and the doctorate remedy
+
+Two claims above were wrong, both from trusting `CLAUDE.md` instead of the data's own provenance.
+
+**1. crawl4ai was never the working capture path.** `CLAUDE.md` billed the handbook scraper as
+"UNBLOCKED (2026-07-01)", and the P1 work took that at face value and documented crawl4ai as *the*
+workflow. The stores disagree: of 43 records in `handbook_data.json`, 23 carry a `scraped_at` and
+every one is stamped **2026-07-01** — a single day, with nothing since. Meanwhile
+`handbook_discovered.json` records `"method": "applescript-chrome"`, `scripts/discover_courses.py`
+describes real-Chrome driving as "the only reliable Imperva/Incapsula bypass as of June 2026", and
+`handbook_doctorate_data.json` uses a structured-extraction schema
+(`study_level_type`, `aqf_level`, `duration`, `text`) that **no script in the repo produces** — it
+came from an agent-driven browser session. Actual practice has been browser-based; crawl4ai was one
+good day. `CLAUDE.md` now states the capture *contract* (versioned `data/`, required fields,
+≥2,000 chars) and lists what has really been used, rather than prescribing a tool.
+
+**2. The 24 thin doctorate captures cannot be fixed by re-capturing.** The review framed them as a
+capture-quality problem and queued them for re-scraping. The source pages are genuinely
+one-paragraph generic PhD descriptions (~180–940 chars) — the reports say so themselves
+("handbook page is a single generic sentence"). Any tool returns the same text. Clearing those
+flags requires **different sources** — faculty RHD pages, graduate-research handbook sections —
+which is a scoping decision, not a tooling one. The `evidenceConfidence: "low"` flag and the
+guardrail remain correct; only the proposed remedy was wrong.
+
+Everything else in the review — the sync finding, the backlog counts, the reproducibility fixes,
+the guardrail — is unaffected.
