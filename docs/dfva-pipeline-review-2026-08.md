@@ -230,3 +230,46 @@ Knowledge" matches no branch) — fix with two explicit `PROGRAM_FACULTY` entrie
 in `compass/app/src/compass/faculty.ts`. NA-aware scoring is live but exercised
 only by `dh-lld`/`dh-sc` (3 NA dimensions each); no shipped program is
 `NOT RATABLE`. Everything else in the review stands as written.
+
+---
+
+## P0 + P1 status (2026-08-22)
+
+**P0 — landed** in [#10](https://github.com/DavidMulhollandUX/DFVA/pull/10): `levelOf()` fixed (15
+research degrees reclassified), Doctor of Laws pinned to Law, the PhD in Indigenous Knowledge
+documented as deliberately non-faculty, `GRANDFATHERED` emptied, and `evidenceConfidence: "low"`
+added to the 24 thin-capture doctorates with a "Limited evidence" badge on the report surfaces.
+
+**P1 — capture is now reproducible.** The root cause was not a missing scraper; it was two
+hardcoded paths. `cyclical_scrape.py` pinned `PROJ_DIR` to one machine's `~/Documents/...` and
+injected a home-directory venv into `sys.path`, so it could never run from a clone. Fixed:
+
+| Change | Effect |
+|---|---|
+| `PROJ_DIR` derived from `__file__` | runs from any clone |
+| lazy `crawl4ai` import + `CRAWL4AI_SITE_PACKAGES` | no hardcoded venv; clear error instead of ImportError |
+| `--dry-run` | inspect the work queue with no network and no crawl4ai (CI-safe) |
+| `data/capture_queue.json` (generated, committed) | the backlog is now a versioned work list, not prose in a doc |
+| upsert instead of append; `scrape_handbooks.py` merges instead of clobbering | a partially-blocked run can no longer delete existing captures |
+| `dfva:capture-check`, wired into `dfva:check` | every scored program must be capture-backed, or thin-and-flagged, or explicitly exempt |
+
+`MIN_CAPTURE_CHARS = 2000` separates the two observed populations cleanly: coursework captures run
+6,341–35,417 chars, the research doctorates 179–936, and nothing sits between. Current state:
+**36 capture-backed · 24 thin (all flagged) · 6 exempt** = 66.
+
+The queue holds **472 codes**: 390 discovered, 74 from the June batch, 42 from the older code list,
+and 30 re-captures (every thin or blocked existing capture, including all 24 doctorates).
+
+**Still outstanding — the capture run itself.** `handbook.unimelb.edu.au` is egress-blocked from
+cloud sessions (403 at the proxy), so the batches must be run somewhere with access:
+
+```bash
+python3 scripts/build-capture-queue.py
+PYTHONPATH="" ~/.venv-crawl4ai-uv/bin/python3 scripts/cyclical_scrape.py unimelb   # repeat until drained
+npm --prefix scripts run dfva:capture-check
+```
+
+**Go8 (P3) reduced to an honest state** rather than built: `CLAUDE.md` no longer documents a
+scraper that does not exist, and `docs/dfva-go8-comparison.md` carries a not-reproducible banner.
+Rebuilding it means adding the Go8 hosts to `UNI_CONFIGS` — deliberately not written blind, since
+none of it could be tested against the live sites from here.
