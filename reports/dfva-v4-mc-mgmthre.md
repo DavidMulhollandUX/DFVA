@@ -5,6 +5,12 @@
 **Handbook vintage:** 2026 · **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-mgmthre (course, attributes, structure) plus the overview and assessment pages of all 11 compulsory subjects and of 5 capstone-selective and elective subjects — 35 pages, 16 carrying assessment tables
 **Program Director:** Dr Andi Pekarek (Faculty of Business and Economics)
 
+<!-- Socialisation pack (internal — stripped from the published page by dfva:gen-content):
+     guide:   docs/evidura-facilitation-guide-mc-mgmthre.md
+     deck:    docs/decks/evidura-socialisation-mc-mgmthre.pptx (spec: .deck.json alongside)
+     harness: docs/dfva-v4-socialisation-harness.md -->
+
+
 > **Draft-instrument notice.** Panel C v4.1 is a working-draft instrument
 > ([v4 recommendation §7](../docs/dfva-panelc-v4-recommendation.md), 2026-08-13;
 > [v4.1 recommendation](../docs/dfva-panelc-v41-recommendation.md), 2026-08-14).
