@@ -75,8 +75,26 @@ export function PortfolioMatrix({
         />
 
         {/* Median thresholds — the only lines that define position */}
-        <line x1={mx} y1={pad.top} x2={mx} y2={H - pad.bottom} stroke="#5C7088" strokeWidth="1.5" strokeDasharray="6,4" opacity="0.5" />
-        <line x1={pad.left} y1={my} x2={W - pad.right} y2={my} stroke="#5C7088" strokeWidth="1.5" strokeDasharray="6,4" opacity="0.5" />
+        <line
+          x1={mx}
+          y1={pad.top}
+          x2={mx}
+          y2={H - pad.bottom}
+          stroke="#5C7088"
+          strokeWidth="1.5"
+          strokeDasharray="6,4"
+          opacity="0.5"
+        />
+        <line
+          x1={pad.left}
+          y1={my}
+          x2={W - pad.right}
+          y2={my}
+          stroke="#5C7088"
+          strokeWidth="1.5"
+          strokeDasharray="6,4"
+          opacity="0.5"
+        />
 
         <MatrixAreaLabels
           left={pad.left}
@@ -113,7 +131,8 @@ export function PortfolioMatrix({
                 className="cursor-pointer"
                 onMouseEnter={(e) => {
                   const rect = (
-                    e.currentTarget.ownerSVGElement?.parentElement as HTMLElement
+                    e.currentTarget.ownerSVGElement
+                      ?.parentElement as HTMLElement
                   )?.getBoundingClientRect();
                   if (rect) {
                     setTooltip({
@@ -143,8 +162,15 @@ export function PortfolioMatrix({
         })}
 
         {/* Axis labels, in words */}
-        <text x={W / 2} y={H - 10} fill="#5C7088" fontSize={11} textAnchor="middle">
-          Destination AI exposure — how much graduates' occupations overlap with what AI can do →
+        <text
+          x={W / 2}
+          y={H - 10}
+          fill="#5C7088"
+          fontSize={11}
+          textAnchor="middle"
+        >
+          Destination AI exposure — how much graduates' occupations overlap with
+          what AI can do →
         </text>
         <text
           x={14}
@@ -157,12 +183,26 @@ export function PortfolioMatrix({
           Curriculum adaptiveness (out of 15) →
         </text>
         {[60, 70, 80, 90, 100].map((x) => (
-          <text key={`tx${x}`} x={sx(x)} y={H - pad.bottom + 16} fill="#8593A6" fontSize={10} textAnchor="middle">
+          <text
+            key={`tx${x}`}
+            x={sx(x)}
+            y={H - pad.bottom + 16}
+            fill="#8593A6"
+            fontSize={10}
+            textAnchor="middle"
+          >
             {x}
           </text>
         ))}
         {[0, 3, 6, 9, 12, 15].map((y) => (
-          <text key={`ty${y}`} x={pad.left - 8} y={sy(y) + 4} fill="#8593A6" fontSize={10} textAnchor="end">
+          <text
+            key={`ty${y}`}
+            x={pad.left - 8}
+            y={sy(y) + 4}
+            fill="#8593A6"
+            fontSize={10}
+            textAnchor="end"
+          >
             {y}
           </text>
         ))}
@@ -177,7 +217,9 @@ export function PortfolioMatrix({
             {tooltip.program.name}
           </div>
           <div
-            className={`mb-2 inline-block rounded-full px-2 py-0.5 text-[0.7rem] font-medium ${QUADRANTS[tooltip.program.quadrant].badgeClass}`}
+            className={`mb-2 inline-block rounded-full px-2 py-0.5 text-[0.7rem] font-medium ${
+              QUADRANTS[tooltip.program.quadrant].badgeClass
+            }`}
           >
             {QUADRANTS[tooltip.program.quadrant].desc}
           </div>
@@ -186,12 +228,16 @@ export function PortfolioMatrix({
             <span>{tooltip.program.exposure.toFixed(1)}</span>
           </div>
           <div className="mb-1.5 flex justify-between gap-6">
-            <span className="text-muted-foreground">Curriculum adaptiveness</span>
+            <span className="text-muted-foreground">
+              Curriculum adaptiveness
+            </span>
             <span>{tooltip.program.adaptiveness}/15</span>
           </div>
           {DIMENSION_ORDER.map((d) => (
             <div key={d} className="flex justify-between gap-6 text-[0.7rem]">
-              <span className="text-muted-foreground">{DIMENSION_LABELS[d]}</span>
+              <span className="text-muted-foreground">
+                {DIMENSION_LABELS[d]}
+              </span>
               <span>{tooltip.program.dimensionScores[d]}/3</span>
             </div>
           ))}

@@ -1,9 +1,9 @@
 /**
  * Lightcast 2026 Customer Impact Report — Market Validation Signal seed data.
- * 
+ *
  * Usage:
  *   cd compass/app && DATABASE_URL="postgresql://..." npx tsx src/compass/seedLightcast2026Report.ts
- * 
+ *
  * Idempotent: uses skipDuplicates: true on (source, excerpt).
  */
 
@@ -94,7 +94,10 @@ export async function seedLightcast2026Report(prismaClient: PrismaClient) {
 }
 
 // Allow running directly: npx tsx src/compass/seedLightcast2026Report.ts
-if (import.meta.url === `file://${process.argv[1]}` || process.argv[1]?.endsWith("seedLightcast2026Report.ts")) {
+if (
+  import.meta.url === `file://${process.argv[1]}` ||
+  process.argv[1]?.endsWith("seedLightcast2026Report.ts")
+) {
   const prisma = new PrismaClient();
   seedLightcast2026Report(prisma)
     .then((count) => {

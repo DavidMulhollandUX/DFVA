@@ -20,8 +20,7 @@ export default function ValidatedByResearch() {
           </h2>
           <p className="text-muted-foreground mt-6 text-lg leading-8">
             Lightcast surveyed ~1,000 institutions for their 2026 Customer
-            Impact Report. The findings confirm what {brand.name} was built
-            for:{" "}
+            Impact Report. The findings confirm what {brand.name} was built for:{" "}
             <strong className="text-foreground">
               96% of institutions say LMI is essential
             </strong>
@@ -37,7 +36,8 @@ export default function ValidatedByResearch() {
           {[
             {
               stat: "96%",
-              label: "of ~1,000 customers say LMI is essential to their operations",
+              label:
+                "of ~1,000 customers say LMI is essential to their operations",
             },
             {
               stat: "90%",
@@ -65,10 +65,7 @@ export default function ValidatedByResearch() {
           ))}
         </div>
 
-        <Reveal
-          delay={210}
-          className="mx-auto mt-10 max-w-3xl text-center"
-        >
+        <Reveal delay={210} className="mx-auto mt-10 max-w-3xl text-center">
           <p className="text-muted-foreground text-sm">
             Source:{" "}
             <a

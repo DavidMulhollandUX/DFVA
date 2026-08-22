@@ -28,868 +28,759 @@ export interface V31Meta {
   stabilityClassCutNote: string;
   boundaryCount: number;
   stableCount: number;
-  failSingleLabel: { optimistic: number; published: number; pessimistic: number };
+  failSingleLabel: {
+    optimistic: number;
+    published: number;
+    pessimistic: number;
+  };
   expMedian: number;
   adaptMedian: number;
 }
 
 export const V31_META: V31Meta = {
-  "method": "exact enumeration, 3^5 = 243 states",
-  "errorRates": {
-    "published": 0.1,
-    "optimistic": 0.05,
-    "pessimistic": 0.2
+  method: "exact enumeration, 3^5 = 243 states",
+  errorRates: {
+    published: 0.1,
+    optimistic: 0.05,
+    pessimistic: 0.2,
   },
-  "stabilityClassCut": 0.9,
-  "stabilityClassCutNote": "empirical empty band 0.848–0.979; any cut in [0.85, 0.98] gives the identical partition",
-  "boundaryCount": 16,
-  "stableCount": 22,
-  "failSingleLabel": {
-    "optimistic": 0,
-    "published": 2,
-    "pessimistic": 16
+  stabilityClassCut: 0.9,
+  stabilityClassCutNote:
+    "empirical empty band 0.848–0.979; any cut in [0.85, 0.98] gives the identical partition",
+  boundaryCount: 16,
+  stableCount: 22,
+  failSingleLabel: {
+    optimistic: 0,
+    published: 2,
+    pessimistic: 16,
   },
-  "expMedian": 90.9,
-  "adaptMedian": 10
+  expMedian: 90.9,
+  adaptMedian: 10,
 };
 
 export const V31_STABILITY: V31Stability[] = [
   {
-    "code": "439fs",
-    "modalQuadrant": "sheltered",
-    "runnerUpQuadrant": "comfortable",
-    "quadrantDist": {
+    code: "439fs",
+    modalQuadrant: "sheltered",
+    runnerUpQuadrant: "comfortable",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 0.18645,
-      "attention": 0,
-      "sheltered": 0.81355
+      comfortable: 0.18645,
+      attention: 0,
+      sheltered: 0.81355,
     },
-    "modalProbability": 0.81355,
-    "modalProbabilityOptimistic": 0.89225,
-    "modalProbabilityPessimistic": 0.71624,
-    "adaptEnvelope": [
-      4,
-      14
-    ],
-    "itemsAtCeiling": 0,
-    "stabilityClass": "boundary",
-    "nearDisplayThreshold": true,
-    "distToAdaptMedian": -1
+    modalProbability: 0.81355,
+    modalProbabilityOptimistic: 0.89225,
+    modalProbabilityPessimistic: 0.71624,
+    adaptEnvelope: [4, 14],
+    itemsAtCeiling: 0,
+    stabilityClass: "boundary",
+    nearDisplayThreshold: true,
+    distToAdaptMedian: -1,
   },
   {
-    "code": "527cl",
-    "modalQuadrant": "well-positioned",
-    "runnerUpQuadrant": "attention",
-    "quadrantDist": {
+    code: "527cl",
+    modalQuadrant: "well-positioned",
+    runnerUpQuadrant: "attention",
+    quadrantDist: {
       "well-positioned": 0.97939,
-      "comfortable": 0,
-      "attention": 0.02061,
-      "sheltered": 0
+      comfortable: 0,
+      attention: 0.02061,
+      sheltered: 0,
     },
-    "modalProbability": 0.97939,
-    "modalProbabilityOptimistic": 0.99432,
-    "modalProbabilityPessimistic": 0.93235,
-    "adaptEnvelope": [
-      6,
-      14
-    ],
-    "itemsAtCeiling": 2,
-    "stabilityClass": "stable",
-    "nearDisplayThreshold": false,
-    "distToAdaptMedian": 1
+    modalProbability: 0.97939,
+    modalProbabilityOptimistic: 0.99432,
+    modalProbabilityPessimistic: 0.93235,
+    adaptEnvelope: [6, 14],
+    itemsAtCeiling: 2,
+    stabilityClass: "stable",
+    nearDisplayThreshold: false,
+    distToAdaptMedian: 1,
   },
   {
-    "code": "746st",
-    "modalQuadrant": "well-positioned",
-    "runnerUpQuadrant": "attention",
-    "quadrantDist": {
+    code: "746st",
+    modalQuadrant: "well-positioned",
+    runnerUpQuadrant: "attention",
+    quadrantDist: {
       "well-positioned": 0.79855,
-      "comfortable": 0,
-      "attention": 0.20145,
-      "sheltered": 0
+      comfortable: 0,
+      attention: 0.20145,
+      sheltered: 0,
     },
-    "modalProbability": 0.79855,
-    "modalProbabilityOptimistic": 0.88792,
-    "modalProbabilityPessimistic": 0.67165,
-    "adaptEnvelope": [
-      5,
-      13
-    ],
-    "itemsAtCeiling": 2,
-    "stabilityClass": "boundary",
-    "nearDisplayThreshold": true,
-    "distToAdaptMedian": 0
+    modalProbability: 0.79855,
+    modalProbabilityOptimistic: 0.88792,
+    modalProbabilityPessimistic: 0.67165,
+    adaptEnvelope: [5, 13],
+    itemsAtCeiling: 2,
+    stabilityClass: "boundary",
+    nearDisplayThreshold: true,
+    distToAdaptMedian: 0,
   },
   {
-    "code": "mc-apbusa",
-    "modalQuadrant": "comfortable",
-    "runnerUpQuadrant": "sheltered",
-    "quadrantDist": {
+    code: "mc-apbusa",
+    modalQuadrant: "comfortable",
+    runnerUpQuadrant: "sheltered",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 0.99891,
-      "attention": 0,
-      "sheltered": 0.00109
+      comfortable: 0.99891,
+      attention: 0,
+      sheltered: 0.00109,
     },
-    "modalProbability": 0.99891,
-    "modalProbabilityOptimistic": 0.99985,
-    "modalProbabilityPessimistic": 0.99249,
-    "adaptEnvelope": [
-      7,
-      15
-    ],
-    "itemsAtCeiling": 2,
-    "stabilityClass": "stable",
-    "nearDisplayThreshold": false,
-    "distToAdaptMedian": 2
+    modalProbability: 0.99891,
+    modalProbabilityOptimistic: 0.99985,
+    modalProbabilityPessimistic: 0.99249,
+    adaptEnvelope: [7, 15],
+    itemsAtCeiling: 2,
+    stabilityClass: "stable",
+    nearDisplayThreshold: false,
+    distToAdaptMedian: 2,
   },
   {
-    "code": "mc-arch",
-    "modalQuadrant": "comfortable",
-    "runnerUpQuadrant": "sheltered",
-    "quadrantDist": {
+    code: "mc-arch",
+    modalQuadrant: "comfortable",
+    runnerUpQuadrant: "sheltered",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 0.99997,
-      "attention": 0,
-      "sheltered": 0.00003
+      comfortable: 0.99997,
+      attention: 0,
+      sheltered: 0.00003,
     },
-    "modalProbability": 0.99997,
-    "modalProbabilityOptimistic": 1,
-    "modalProbabilityPessimistic": 0.99955,
-    "adaptEnvelope": [
-      8,
-      14
-    ],
-    "itemsAtCeiling": 4,
-    "stabilityClass": "stable",
-    "nearDisplayThreshold": false,
-    "distToAdaptMedian": 3
+    modalProbability: 0.99997,
+    modalProbabilityOptimistic: 1,
+    modalProbabilityPessimistic: 0.99955,
+    adaptEnvelope: [8, 14],
+    itemsAtCeiling: 4,
+    stabilityClass: "stable",
+    nearDisplayThreshold: false,
+    distToAdaptMedian: 3,
   },
   {
-    "code": "mc-ba",
-    "modalQuadrant": "well-positioned",
-    "runnerUpQuadrant": "attention",
-    "quadrantDist": {
+    code: "mc-ba",
+    modalQuadrant: "well-positioned",
+    runnerUpQuadrant: "attention",
+    quadrantDist: {
       "well-positioned": 0.97939,
-      "comfortable": 0,
-      "attention": 0.02061,
-      "sheltered": 0
+      comfortable: 0,
+      attention: 0.02061,
+      sheltered: 0,
     },
-    "modalProbability": 0.97939,
-    "modalProbabilityOptimistic": 0.99432,
-    "modalProbabilityPessimistic": 0.93235,
-    "adaptEnvelope": [
-      6,
-      14
-    ],
-    "itemsAtCeiling": 2,
-    "stabilityClass": "stable",
-    "nearDisplayThreshold": false,
-    "distToAdaptMedian": 1
+    modalProbability: 0.97939,
+    modalProbabilityOptimistic: 0.99432,
+    modalProbabilityPessimistic: 0.93235,
+    adaptEnvelope: [6, 14],
+    itemsAtCeiling: 2,
+    stabilityClass: "stable",
+    nearDisplayThreshold: false,
+    distToAdaptMedian: 1,
   },
   {
-    "code": "mc-base",
-    "modalQuadrant": "attention",
-    "runnerUpQuadrant": "well-positioned",
-    "quadrantDist": {
+    code: "mc-base",
+    modalQuadrant: "attention",
+    runnerUpQuadrant: "well-positioned",
+    quadrantDist: {
       "well-positioned": 0.00003,
-      "comfortable": 0,
-      "attention": 0.99997,
-      "sheltered": 0
+      comfortable: 0,
+      attention: 0.99997,
+      sheltered: 0,
     },
-    "modalProbability": 0.99997,
-    "modalProbabilityOptimistic": 1,
-    "modalProbabilityPessimistic": 0.99959,
-    "adaptEnvelope": [
-      1,
-      11
-    ],
-    "itemsAtCeiling": 0,
-    "stabilityClass": "stable",
-    "nearDisplayThreshold": false,
-    "distToAdaptMedian": -4
+    modalProbability: 0.99997,
+    modalProbabilityOptimistic: 1,
+    modalProbabilityPessimistic: 0.99959,
+    adaptEnvelope: [1, 11],
+    itemsAtCeiling: 0,
+    stabilityClass: "stable",
+    nearDisplayThreshold: false,
+    distToAdaptMedian: -4,
   },
   {
-    "code": "mc-busana",
-    "modalQuadrant": "comfortable",
-    "runnerUpQuadrant": "sheltered",
-    "quadrantDist": {
+    code: "mc-busana",
+    modalQuadrant: "comfortable",
+    runnerUpQuadrant: "sheltered",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 1,
-      "attention": 0,
-      "sheltered": 0
+      comfortable: 1,
+      attention: 0,
+      sheltered: 0,
     },
-    "modalProbability": 1,
-    "modalProbabilityOptimistic": 1,
-    "modalProbabilityPessimistic": 0.99999,
-    "adaptEnvelope": [
-      9,
-      15
-    ],
-    "itemsAtCeiling": 4,
-    "stabilityClass": "stable",
-    "nearDisplayThreshold": false,
-    "distToAdaptMedian": 4
+    modalProbability: 1,
+    modalProbabilityOptimistic: 1,
+    modalProbabilityPessimistic: 0.99999,
+    adaptEnvelope: [9, 15],
+    itemsAtCeiling: 4,
+    stabilityClass: "stable",
+    nearDisplayThreshold: false,
+    distToAdaptMedian: 4,
   },
   {
-    "code": "mc-clind",
-    "modalQuadrant": "sheltered",
-    "runnerUpQuadrant": "comfortable",
-    "quadrantDist": {
+    code: "mc-clind",
+    modalQuadrant: "sheltered",
+    runnerUpQuadrant: "comfortable",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 0.01234,
-      "attention": 0,
-      "sheltered": 0.98766
+      comfortable: 0.01234,
+      attention: 0,
+      sheltered: 0.98766,
     },
-    "modalProbability": 0.98766,
-    "modalProbabilityOptimistic": 0.9966,
-    "modalProbabilityPessimistic": 0.95961,
-    "adaptEnvelope": [
-      4,
-      12
-    ],
-    "itemsAtCeiling": 1,
-    "stabilityClass": "stable",
-    "nearDisplayThreshold": false,
-    "distToAdaptMedian": -2
+    modalProbability: 0.98766,
+    modalProbabilityOptimistic: 0.9966,
+    modalProbabilityPessimistic: 0.95961,
+    adaptEnvelope: [4, 12],
+    itemsAtCeiling: 1,
+    stabilityClass: "stable",
+    nearDisplayThreshold: false,
+    distToAdaptMedian: -2,
   },
   {
-    "code": "mc-cs",
-    "modalQuadrant": "well-positioned",
-    "runnerUpQuadrant": "attention",
-    "quadrantDist": {
+    code: "mc-cs",
+    modalQuadrant: "well-positioned",
+    runnerUpQuadrant: "attention",
+    quadrantDist: {
       "well-positioned": 1,
-      "comfortable": 0,
-      "attention": 0,
-      "sheltered": 0
+      comfortable: 0,
+      attention: 0,
+      sheltered: 0,
     },
-    "modalProbability": 1,
-    "modalProbabilityOptimistic": 1,
-    "modalProbabilityPessimistic": 0.99999,
-    "adaptEnvelope": [
-      9,
-      15
-    ],
-    "itemsAtCeiling": 4,
-    "stabilityClass": "stable",
-    "nearDisplayThreshold": false,
-    "distToAdaptMedian": 4
+    modalProbability: 1,
+    modalProbabilityOptimistic: 1,
+    modalProbabilityPessimistic: 0.99999,
+    adaptEnvelope: [9, 15],
+    itemsAtCeiling: 4,
+    stabilityClass: "stable",
+    nearDisplayThreshold: false,
+    distToAdaptMedian: 4,
   },
   {
-    "code": "mc-datasc",
-    "modalQuadrant": "well-positioned",
-    "runnerUpQuadrant": "attention",
-    "quadrantDist": {
+    code: "mc-datasc",
+    modalQuadrant: "well-positioned",
+    runnerUpQuadrant: "attention",
+    quadrantDist: {
       "well-positioned": 0.98001,
-      "comfortable": 0,
-      "attention": 0.01999,
-      "sheltered": 0
+      comfortable: 0,
+      attention: 0.01999,
+      sheltered: 0,
     },
-    "modalProbability": 0.98001,
-    "modalProbabilityOptimistic": 0.99441,
-    "modalProbabilityPessimistic": 0.93646,
-    "adaptEnvelope": [
-      6,
-      15
-    ],
-    "itemsAtCeiling": 1,
-    "stabilityClass": "stable",
-    "nearDisplayThreshold": false,
-    "distToAdaptMedian": 1
+    modalProbability: 0.98001,
+    modalProbabilityOptimistic: 0.99441,
+    modalProbabilityPessimistic: 0.93646,
+    adaptEnvelope: [6, 15],
+    itemsAtCeiling: 1,
+    stabilityClass: "stable",
+    nearDisplayThreshold: false,
+    distToAdaptMedian: 1,
   },
   {
-    "code": "mc-ddensur",
-    "modalQuadrant": "comfortable",
-    "runnerUpQuadrant": "sheltered",
-    "quadrantDist": {
+    code: "mc-ddensur",
+    modalQuadrant: "comfortable",
+    runnerUpQuadrant: "sheltered",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 0.97939,
-      "attention": 0,
-      "sheltered": 0.02061
+      comfortable: 0.97939,
+      attention: 0,
+      sheltered: 0.02061,
     },
-    "modalProbability": 0.97939,
-    "modalProbabilityOptimistic": 0.99432,
-    "modalProbabilityPessimistic": 0.93235,
-    "adaptEnvelope": [
-      6,
-      14
-    ],
-    "itemsAtCeiling": 2,
-    "stabilityClass": "stable",
-    "nearDisplayThreshold": false,
-    "distToAdaptMedian": 1
+    modalProbability: 0.97939,
+    modalProbabilityOptimistic: 0.99432,
+    modalProbabilityPessimistic: 0.93235,
+    adaptEnvelope: [6, 14],
+    itemsAtCeiling: 2,
+    stabilityClass: "stable",
+    nearDisplayThreshold: false,
+    distToAdaptMedian: 1,
   },
   {
-    "code": "mc-dmed",
-    "modalQuadrant": "comfortable",
-    "runnerUpQuadrant": "sheltered",
-    "quadrantDist": {
+    code: "mc-dmed",
+    modalQuadrant: "comfortable",
+    runnerUpQuadrant: "sheltered",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 0.99889,
-      "attention": 0,
-      "sheltered": 0.00111
+      comfortable: 0.99889,
+      attention: 0,
+      sheltered: 0.00111,
     },
-    "modalProbability": 0.99889,
-    "modalProbabilityOptimistic": 0.99985,
-    "modalProbabilityPessimistic": 0.99215,
-    "adaptEnvelope": [
-      7,
-      14
-    ],
-    "itemsAtCeiling": 3,
-    "stabilityClass": "stable",
-    "nearDisplayThreshold": false,
-    "distToAdaptMedian": 2
+    modalProbability: 0.99889,
+    modalProbabilityOptimistic: 0.99985,
+    modalProbabilityPessimistic: 0.99215,
+    adaptEnvelope: [7, 14],
+    itemsAtCeiling: 3,
+    stabilityClass: "stable",
+    nearDisplayThreshold: false,
+    distToAdaptMedian: 2,
   },
   {
-    "code": "mc-doptom",
-    "modalQuadrant": "comfortable",
-    "runnerUpQuadrant": "sheltered",
-    "quadrantDist": {
+    code: "mc-doptom",
+    modalQuadrant: "comfortable",
+    runnerUpQuadrant: "sheltered",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 0.97939,
-      "attention": 0,
-      "sheltered": 0.02061
+      comfortable: 0.97939,
+      attention: 0,
+      sheltered: 0.02061,
     },
-    "modalProbability": 0.97939,
-    "modalProbabilityOptimistic": 0.99432,
-    "modalProbabilityPessimistic": 0.93235,
-    "adaptEnvelope": [
-      6,
-      14
-    ],
-    "itemsAtCeiling": 2,
-    "stabilityClass": "stable",
-    "nearDisplayThreshold": false,
-    "distToAdaptMedian": 1
+    modalProbability: 0.97939,
+    modalProbabilityOptimistic: 0.99432,
+    modalProbabilityPessimistic: 0.93235,
+    adaptEnvelope: [6, 14],
+    itemsAtCeiling: 2,
+    stabilityClass: "stable",
+    nearDisplayThreshold: false,
+    distToAdaptMedian: 1,
   },
   {
-    "code": "mc-dphysio",
-    "modalQuadrant": "comfortable",
-    "runnerUpQuadrant": "sheltered",
-    "quadrantDist": {
+    code: "mc-dphysio",
+    modalQuadrant: "comfortable",
+    runnerUpQuadrant: "sheltered",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 0.8062,
-      "attention": 0,
-      "sheltered": 0.1938
+      comfortable: 0.8062,
+      attention: 0,
+      sheltered: 0.1938,
     },
-    "modalProbability": 0.8062,
-    "modalProbabilityOptimistic": 0.89011,
-    "modalProbabilityPessimistic": 0.6948,
-    "adaptEnvelope": [
-      5,
-      14
-    ],
-    "itemsAtCeiling": 1,
-    "stabilityClass": "boundary",
-    "nearDisplayThreshold": true,
-    "distToAdaptMedian": 0
+    modalProbability: 0.8062,
+    modalProbabilityOptimistic: 0.89011,
+    modalProbabilityPessimistic: 0.6948,
+    adaptEnvelope: [5, 14],
+    itemsAtCeiling: 1,
+    stabilityClass: "boundary",
+    nearDisplayThreshold: true,
+    distToAdaptMedian: 0,
   },
   {
-    "code": "mc-dvetmed",
-    "modalQuadrant": "comfortable",
-    "runnerUpQuadrant": "sheltered",
-    "quadrantDist": {
+    code: "mc-dvetmed",
+    modalQuadrant: "comfortable",
+    runnerUpQuadrant: "sheltered",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 0.99889,
-      "attention": 0,
-      "sheltered": 0.00111
+      comfortable: 0.99889,
+      attention: 0,
+      sheltered: 0.00111,
     },
-    "modalProbability": 0.99889,
-    "modalProbabilityOptimistic": 0.99985,
-    "modalProbabilityPessimistic": 0.99215,
-    "adaptEnvelope": [
-      7,
-      14
-    ],
-    "itemsAtCeiling": 3,
-    "stabilityClass": "stable",
-    "nearDisplayThreshold": false,
-    "distToAdaptMedian": 2
+    modalProbability: 0.99889,
+    modalProbabilityOptimistic: 0.99985,
+    modalProbabilityPessimistic: 0.99215,
+    adaptEnvelope: [7, 14],
+    itemsAtCeiling: 3,
+    stabilityClass: "stable",
+    nearDisplayThreshold: false,
+    distToAdaptMedian: 2,
   },
   {
-    "code": "mc-ed",
-    "modalQuadrant": "attention",
-    "runnerUpQuadrant": "well-positioned",
-    "quadrantDist": {
+    code: "mc-ed",
+    modalQuadrant: "attention",
+    runnerUpQuadrant: "well-positioned",
+    quadrantDist: {
       "well-positioned": 0.15242,
-      "comfortable": 0,
-      "attention": 0.84758,
-      "sheltered": 0
+      comfortable: 0,
+      attention: 0.84758,
+      sheltered: 0,
     },
-    "modalProbability": 0.84758,
-    "modalProbabilityOptimistic": 0.91279,
-    "modalProbabilityPessimistic": 0.76494,
-    "adaptEnvelope": [
-      4,
-      13
-    ],
-    "itemsAtCeiling": 1,
-    "stabilityClass": "boundary",
-    "nearDisplayThreshold": false,
-    "distToAdaptMedian": -1
+    modalProbability: 0.84758,
+    modalProbabilityOptimistic: 0.91279,
+    modalProbabilityPessimistic: 0.76494,
+    adaptEnvelope: [4, 13],
+    itemsAtCeiling: 1,
+    stabilityClass: "boundary",
+    nearDisplayThreshold: false,
+    distToAdaptMedian: -1,
   },
   {
-    "code": "mc-envsc",
-    "modalQuadrant": "comfortable",
-    "runnerUpQuadrant": "sheltered",
-    "quadrantDist": {
+    code: "mc-envsc",
+    modalQuadrant: "comfortable",
+    runnerUpQuadrant: "sheltered",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 0.8062,
-      "attention": 0,
-      "sheltered": 0.1938
+      comfortable: 0.8062,
+      attention: 0,
+      sheltered: 0.1938,
     },
-    "modalProbability": 0.8062,
-    "modalProbabilityOptimistic": 0.89011,
-    "modalProbabilityPessimistic": 0.6948,
-    "adaptEnvelope": [
-      5,
-      14
-    ],
-    "itemsAtCeiling": 1,
-    "stabilityClass": "boundary",
-    "nearDisplayThreshold": true,
-    "distToAdaptMedian": 0
+    modalProbability: 0.8062,
+    modalProbabilityOptimistic: 0.89011,
+    modalProbabilityPessimistic: 0.6948,
+    adaptEnvelope: [5, 14],
+    itemsAtCeiling: 1,
+    stabilityClass: "boundary",
+    nearDisplayThreshold: true,
+    distToAdaptMedian: 0,
   },
   {
-    "code": "mc-gencoun",
-    "modalQuadrant": "well-positioned",
-    "runnerUpQuadrant": "attention",
-    "quadrantDist": {
+    code: "mc-gencoun",
+    modalQuadrant: "well-positioned",
+    runnerUpQuadrant: "attention",
+    quadrantDist: {
       "well-positioned": 0.8062,
-      "comfortable": 0,
-      "attention": 0.1938,
-      "sheltered": 0
+      comfortable: 0,
+      attention: 0.1938,
+      sheltered: 0,
     },
-    "modalProbability": 0.8062,
-    "modalProbabilityOptimistic": 0.89011,
-    "modalProbabilityPessimistic": 0.6948,
-    "adaptEnvelope": [
-      5,
-      14
-    ],
-    "itemsAtCeiling": 1,
-    "stabilityClass": "boundary",
-    "nearDisplayThreshold": true,
-    "distToAdaptMedian": 0
+    modalProbability: 0.8062,
+    modalProbabilityOptimistic: 0.89011,
+    modalProbabilityPessimistic: 0.6948,
+    adaptEnvelope: [5, 14],
+    itemsAtCeiling: 1,
+    stabilityClass: "boundary",
+    nearDisplayThreshold: true,
+    distToAdaptMedian: 0,
   },
   {
-    "code": "mc-intedib",
-    "modalQuadrant": "attention",
-    "runnerUpQuadrant": "well-positioned",
-    "quadrantDist": {
+    code: "mc-intedib",
+    modalQuadrant: "attention",
+    runnerUpQuadrant: "well-positioned",
+    quadrantDist: {
       "well-positioned": 0.00003,
-      "comfortable": 0,
-      "attention": 0.99997,
-      "sheltered": 0
+      comfortable: 0,
+      attention: 0.99997,
+      sheltered: 0,
     },
-    "modalProbability": 0.99997,
-    "modalProbabilityOptimistic": 1,
-    "modalProbabilityPessimistic": 0.99959,
-    "adaptEnvelope": [
-      1,
-      11
-    ],
-    "itemsAtCeiling": 0,
-    "stabilityClass": "stable",
-    "nearDisplayThreshold": false,
-    "distToAdaptMedian": -4
+    modalProbability: 0.99997,
+    modalProbabilityOptimistic: 1,
+    modalProbabilityPessimistic: 0.99959,
+    adaptEnvelope: [1, 11],
+    itemsAtCeiling: 0,
+    stabilityClass: "stable",
+    nearDisplayThreshold: false,
+    distToAdaptMedian: -4,
   },
   {
-    "code": "mc-is",
-    "modalQuadrant": "attention",
-    "runnerUpQuadrant": "well-positioned",
-    "quadrantDist": {
+    code: "mc-is",
+    modalQuadrant: "attention",
+    runnerUpQuadrant: "well-positioned",
+    quadrantDist: {
       "well-positioned": 0.01938,
-      "comfortable": 0,
-      "attention": 0.98062,
-      "sheltered": 0
+      comfortable: 0,
+      attention: 0.98062,
+      sheltered: 0,
     },
-    "modalProbability": 0.98062,
-    "modalProbabilityOptimistic": 0.99449,
-    "modalProbabilityPessimistic": 0.94034,
-    "adaptEnvelope": [
-      3,
-      13
-    ],
-    "itemsAtCeiling": 0,
-    "stabilityClass": "stable",
-    "nearDisplayThreshold": false,
-    "distToAdaptMedian": -2
+    modalProbability: 0.98062,
+    modalProbabilityOptimistic: 0.99449,
+    modalProbabilityPessimistic: 0.94034,
+    adaptEnvelope: [3, 13],
+    itemsAtCeiling: 0,
+    stabilityClass: "stable",
+    nearDisplayThreshold: false,
+    distToAdaptMedian: -2,
   },
   {
-    "code": "mc-journ",
-    "modalQuadrant": "attention",
-    "runnerUpQuadrant": "well-positioned",
-    "quadrantDist": {
+    code: "mc-journ",
+    modalQuadrant: "attention",
+    runnerUpQuadrant: "well-positioned",
+    quadrantDist: {
       "well-positioned": 0.01938,
-      "comfortable": 0,
-      "attention": 0.98062,
-      "sheltered": 0
+      comfortable: 0,
+      attention: 0.98062,
+      sheltered: 0,
     },
-    "modalProbability": 0.98062,
-    "modalProbabilityOptimistic": 0.99449,
-    "modalProbabilityPessimistic": 0.94034,
-    "adaptEnvelope": [
-      3,
-      13
-    ],
-    "itemsAtCeiling": 0,
-    "stabilityClass": "stable",
-    "nearDisplayThreshold": false,
-    "distToAdaptMedian": -2
+    modalProbability: 0.98062,
+    modalProbabilityOptimistic: 0.99449,
+    modalProbabilityPessimistic: 0.94034,
+    adaptEnvelope: [3, 13],
+    itemsAtCeiling: 0,
+    stabilityClass: "stable",
+    nearDisplayThreshold: false,
+    distToAdaptMedian: -2,
   },
   {
-    "code": "mc-jurisd",
-    "modalQuadrant": "attention",
-    "runnerUpQuadrant": "well-positioned",
-    "quadrantDist": {
+    code: "mc-jurisd",
+    modalQuadrant: "attention",
+    runnerUpQuadrant: "well-positioned",
+    quadrantDist: {
       "well-positioned": 0.18645,
-      "comfortable": 0,
-      "attention": 0.81355,
-      "sheltered": 0
+      comfortable: 0,
+      attention: 0.81355,
+      sheltered: 0,
     },
-    "modalProbability": 0.81355,
-    "modalProbabilityOptimistic": 0.89225,
-    "modalProbabilityPessimistic": 0.71624,
-    "adaptEnvelope": [
-      4,
-      14
-    ],
-    "itemsAtCeiling": 0,
-    "stabilityClass": "boundary",
-    "nearDisplayThreshold": true,
-    "distToAdaptMedian": -1
+    modalProbability: 0.81355,
+    modalProbabilityOptimistic: 0.89225,
+    modalProbabilityPessimistic: 0.71624,
+    adaptEnvelope: [4, 14],
+    itemsAtCeiling: 0,
+    stabilityClass: "boundary",
+    nearDisplayThreshold: true,
+    distToAdaptMedian: -1,
   },
   {
-    "code": "mc-nursc",
-    "modalQuadrant": "comfortable",
-    "runnerUpQuadrant": "sheltered",
-    "quadrantDist": {
+    code: "mc-nursc",
+    modalQuadrant: "comfortable",
+    runnerUpQuadrant: "sheltered",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 0.8062,
-      "attention": 0,
-      "sheltered": 0.1938
+      comfortable: 0.8062,
+      attention: 0,
+      sheltered: 0.1938,
     },
-    "modalProbability": 0.8062,
-    "modalProbabilityOptimistic": 0.89011,
-    "modalProbabilityPessimistic": 0.6948,
-    "adaptEnvelope": [
-      5,
-      14
-    ],
-    "itemsAtCeiling": 1,
-    "stabilityClass": "boundary",
-    "nearDisplayThreshold": true,
-    "distToAdaptMedian": 0
+    modalProbability: 0.8062,
+    modalProbabilityOptimistic: 0.89011,
+    modalProbabilityPessimistic: 0.6948,
+    adaptEnvelope: [5, 14],
+    itemsAtCeiling: 1,
+    stabilityClass: "boundary",
+    nearDisplayThreshold: true,
+    distToAdaptMedian: 0,
   },
   {
-    "code": "mc-phtyph",
-    "modalQuadrant": "comfortable",
-    "runnerUpQuadrant": "sheltered",
-    "quadrantDist": {
+    code: "mc-phtyph",
+    modalQuadrant: "comfortable",
+    runnerUpQuadrant: "sheltered",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 0.79855,
-      "attention": 0,
-      "sheltered": 0.20145
+      comfortable: 0.79855,
+      attention: 0,
+      sheltered: 0.20145,
     },
-    "modalProbability": 0.79855,
-    "modalProbabilityOptimistic": 0.88792,
-    "modalProbabilityPessimistic": 0.67165,
-    "adaptEnvelope": [
-      5,
-      13
-    ],
-    "itemsAtCeiling": 2,
-    "stabilityClass": "boundary",
-    "nearDisplayThreshold": true,
-    "distToAdaptMedian": 0
+    modalProbability: 0.79855,
+    modalProbabilityOptimistic: 0.88792,
+    modalProbabilityPessimistic: 0.67165,
+    adaptEnvelope: [5, 13],
+    itemsAtCeiling: 2,
+    stabilityClass: "boundary",
+    nearDisplayThreshold: true,
+    distToAdaptMedian: 0,
   },
   {
-    "code": "mc-prop",
-    "modalQuadrant": "sheltered",
-    "runnerUpQuadrant": "comfortable",
-    "quadrantDist": {
+    code: "mc-prop",
+    modalQuadrant: "sheltered",
+    runnerUpQuadrant: "comfortable",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 0.18645,
-      "attention": 0,
-      "sheltered": 0.81355
+      comfortable: 0.18645,
+      attention: 0,
+      sheltered: 0.81355,
     },
-    "modalProbability": 0.81355,
-    "modalProbabilityOptimistic": 0.89225,
-    "modalProbabilityPessimistic": 0.71624,
-    "adaptEnvelope": [
-      4,
-      14
-    ],
-    "itemsAtCeiling": 0,
-    "stabilityClass": "boundary",
-    "nearDisplayThreshold": true,
-    "distToAdaptMedian": -1
+    modalProbability: 0.81355,
+    modalProbabilityOptimistic: 0.89225,
+    modalProbabilityPessimistic: 0.71624,
+    adaptEnvelope: [4, 14],
+    itemsAtCeiling: 0,
+    stabilityClass: "boundary",
+    nearDisplayThreshold: true,
+    distToAdaptMedian: -1,
   },
   {
-    "code": "mc-propsyc",
-    "modalQuadrant": "well-positioned",
-    "runnerUpQuadrant": "attention",
-    "quadrantDist": {
+    code: "mc-propsyc",
+    modalQuadrant: "well-positioned",
+    runnerUpQuadrant: "attention",
+    quadrantDist: {
       "well-positioned": 0.8062,
-      "comfortable": 0,
-      "attention": 0.1938,
-      "sheltered": 0
+      comfortable: 0,
+      attention: 0.1938,
+      sheltered: 0,
     },
-    "modalProbability": 0.8062,
-    "modalProbabilityOptimistic": 0.89011,
-    "modalProbabilityPessimistic": 0.6948,
-    "adaptEnvelope": [
-      5,
-      14
-    ],
-    "itemsAtCeiling": 1,
-    "stabilityClass": "boundary",
-    "nearDisplayThreshold": true,
-    "distToAdaptMedian": 0
+    modalProbability: 0.8062,
+    modalProbabilityOptimistic: 0.89011,
+    modalProbabilityPessimistic: 0.6948,
+    adaptEnvelope: [5, 14],
+    itemsAtCeiling: 1,
+    stabilityClass: "boundary",
+    nearDisplayThreshold: true,
+    distToAdaptMedian: 0,
   },
   {
-    "code": "mc-scibit",
-    "modalQuadrant": "comfortable",
-    "runnerUpQuadrant": "sheltered",
-    "quadrantDist": {
+    code: "mc-scibit",
+    modalQuadrant: "comfortable",
+    runnerUpQuadrant: "sheltered",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 0.8062,
-      "attention": 0,
-      "sheltered": 0.1938
+      comfortable: 0.8062,
+      attention: 0,
+      sheltered: 0.1938,
     },
-    "modalProbability": 0.8062,
-    "modalProbabilityOptimistic": 0.89011,
-    "modalProbabilityPessimistic": 0.6948,
-    "adaptEnvelope": [
-      5,
-      14
-    ],
-    "itemsAtCeiling": 1,
-    "stabilityClass": "boundary",
-    "nearDisplayThreshold": true,
-    "distToAdaptMedian": 0
+    modalProbability: 0.8062,
+    modalProbabilityOptimistic: 0.89011,
+    modalProbabilityPessimistic: 0.6948,
+    adaptEnvelope: [5, 14],
+    itemsAtCeiling: 1,
+    stabilityClass: "boundary",
+    nearDisplayThreshold: true,
+    distToAdaptMedian: 0,
   },
   {
-    "code": "mc-sciche",
-    "modalQuadrant": "comfortable",
-    "runnerUpQuadrant": "sheltered",
-    "quadrantDist": {
+    code: "mc-sciche",
+    modalQuadrant: "comfortable",
+    runnerUpQuadrant: "sheltered",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 0.99889,
-      "attention": 0,
-      "sheltered": 0.00111
+      comfortable: 0.99889,
+      attention: 0,
+      sheltered: 0.00111,
     },
-    "modalProbability": 0.99889,
-    "modalProbabilityOptimistic": 0.99985,
-    "modalProbabilityPessimistic": 0.99215,
-    "adaptEnvelope": [
-      7,
-      14
-    ],
-    "itemsAtCeiling": 3,
-    "stabilityClass": "stable",
-    "nearDisplayThreshold": false,
-    "distToAdaptMedian": 2
+    modalProbability: 0.99889,
+    modalProbabilityOptimistic: 0.99985,
+    modalProbabilityPessimistic: 0.99215,
+    adaptEnvelope: [7, 14],
+    itemsAtCeiling: 3,
+    stabilityClass: "stable",
+    nearDisplayThreshold: false,
+    distToAdaptMedian: 2,
   },
   {
-    "code": "mc-sciear",
-    "modalQuadrant": "comfortable",
-    "runnerUpQuadrant": "sheltered",
-    "quadrantDist": {
+    code: "mc-sciear",
+    modalQuadrant: "comfortable",
+    runnerUpQuadrant: "sheltered",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 0.97939,
-      "attention": 0,
-      "sheltered": 0.02061
+      comfortable: 0.97939,
+      attention: 0,
+      sheltered: 0.02061,
     },
-    "modalProbability": 0.97939,
-    "modalProbabilityOptimistic": 0.99432,
-    "modalProbabilityPessimistic": 0.93235,
-    "adaptEnvelope": [
-      6,
-      14
-    ],
-    "itemsAtCeiling": 2,
-    "stabilityClass": "stable",
-    "nearDisplayThreshold": false,
-    "distToAdaptMedian": 1
+    modalProbability: 0.97939,
+    modalProbabilityOptimistic: 0.99432,
+    modalProbabilityPessimistic: 0.93235,
+    adaptEnvelope: [6, 14],
+    itemsAtCeiling: 2,
+    stabilityClass: "stable",
+    nearDisplayThreshold: false,
+    distToAdaptMedian: 1,
   },
   {
-    "code": "mc-sciphy",
-    "modalQuadrant": "well-positioned",
-    "runnerUpQuadrant": "attention",
-    "quadrantDist": {
+    code: "mc-sciphy",
+    modalQuadrant: "well-positioned",
+    runnerUpQuadrant: "attention",
+    quadrantDist: {
       "well-positioned": 0.99889,
-      "comfortable": 0,
-      "attention": 0.00111,
-      "sheltered": 0
+      comfortable: 0,
+      attention: 0.00111,
+      sheltered: 0,
     },
-    "modalProbability": 0.99889,
-    "modalProbabilityOptimistic": 0.99985,
-    "modalProbabilityPessimistic": 0.99215,
-    "adaptEnvelope": [
-      7,
-      14
-    ],
-    "itemsAtCeiling": 3,
-    "stabilityClass": "stable",
-    "nearDisplayThreshold": false,
-    "distToAdaptMedian": 2
+    modalProbability: 0.99889,
+    modalProbabilityOptimistic: 0.99985,
+    modalProbabilityPessimistic: 0.99215,
+    adaptEnvelope: [7, 14],
+    itemsAtCeiling: 3,
+    stabilityClass: "stable",
+    nearDisplayThreshold: false,
+    distToAdaptMedian: 2,
   },
   {
-    "code": "mc-surged",
-    "modalQuadrant": "attention",
-    "runnerUpQuadrant": "well-positioned",
-    "quadrantDist": {
+    code: "mc-surged",
+    modalQuadrant: "attention",
+    runnerUpQuadrant: "well-positioned",
+    quadrantDist: {
       "well-positioned": 0.15242,
-      "comfortable": 0,
-      "attention": 0.84758,
-      "sheltered": 0
+      comfortable: 0,
+      attention: 0.84758,
+      sheltered: 0,
     },
-    "modalProbability": 0.84758,
-    "modalProbabilityOptimistic": 0.91279,
-    "modalProbabilityPessimistic": 0.76494,
-    "adaptEnvelope": [
-      4,
-      13
-    ],
-    "itemsAtCeiling": 1,
-    "stabilityClass": "boundary",
-    "nearDisplayThreshold": false,
-    "distToAdaptMedian": -1
+    modalProbability: 0.84758,
+    modalProbabilityOptimistic: 0.91279,
+    modalProbabilityPessimistic: 0.76494,
+    adaptEnvelope: [4, 13],
+    itemsAtCeiling: 1,
+    stabilityClass: "boundary",
+    nearDisplayThreshold: false,
+    distToAdaptMedian: -1,
   },
   {
-    "code": "mc-tesol",
-    "modalQuadrant": "attention",
-    "runnerUpQuadrant": "well-positioned",
-    "quadrantDist": {
+    code: "mc-tesol",
+    modalQuadrant: "attention",
+    runnerUpQuadrant: "well-positioned",
+    quadrantDist: {
       "well-positioned": 0.01938,
-      "comfortable": 0,
-      "attention": 0.98062,
-      "sheltered": 0
+      comfortable: 0,
+      attention: 0.98062,
+      sheltered: 0,
     },
-    "modalProbability": 0.98062,
-    "modalProbabilityOptimistic": 0.99449,
-    "modalProbabilityPessimistic": 0.94034,
-    "adaptEnvelope": [
-      3,
-      13
-    ],
-    "itemsAtCeiling": 0,
-    "stabilityClass": "stable",
-    "nearDisplayThreshold": false,
-    "distToAdaptMedian": -2
+    modalProbability: 0.98062,
+    modalProbabilityOptimistic: 0.99449,
+    modalProbabilityPessimistic: 0.94034,
+    adaptEnvelope: [3, 13],
+    itemsAtCeiling: 0,
+    stabilityClass: "stable",
+    nearDisplayThreshold: false,
+    distToAdaptMedian: -2,
   },
   {
-    "code": "mc-urbdes",
-    "modalQuadrant": "well-positioned",
-    "runnerUpQuadrant": "attention",
-    "quadrantDist": {
+    code: "mc-urbdes",
+    modalQuadrant: "well-positioned",
+    runnerUpQuadrant: "attention",
+    quadrantDist: {
       "well-positioned": 0.82953,
-      "comfortable": 0,
-      "attention": 0.17047,
-      "sheltered": 0
+      comfortable: 0,
+      attention: 0.17047,
+      sheltered: 0,
     },
-    "modalProbability": 0.82953,
-    "modalProbabilityOptimistic": 0.90774,
-    "modalProbabilityPessimistic": 0.7074,
-    "adaptEnvelope": [
-      6,
-      12
-    ],
-    "itemsAtCeiling": 3,
-    "stabilityClass": "boundary",
-    "nearDisplayThreshold": false,
-    "distToAdaptMedian": 0
+    modalProbability: 0.82953,
+    modalProbabilityOptimistic: 0.90774,
+    modalProbabilityPessimistic: 0.7074,
+    adaptEnvelope: [6, 12],
+    itemsAtCeiling: 3,
+    stabilityClass: "boundary",
+    nearDisplayThreshold: false,
+    distToAdaptMedian: 0,
   },
   {
-    "code": "mc-urbhort",
-    "modalQuadrant": "comfortable",
-    "runnerUpQuadrant": "sheltered",
-    "quadrantDist": {
+    code: "mc-urbhort",
+    modalQuadrant: "comfortable",
+    runnerUpQuadrant: "sheltered",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 0.8062,
-      "attention": 0,
-      "sheltered": 0.1938
+      comfortable: 0.8062,
+      attention: 0,
+      sheltered: 0.1938,
     },
-    "modalProbability": 0.8062,
-    "modalProbabilityOptimistic": 0.89011,
-    "modalProbabilityPessimistic": 0.6948,
-    "adaptEnvelope": [
-      5,
-      14
-    ],
-    "itemsAtCeiling": 1,
-    "stabilityClass": "boundary",
-    "nearDisplayThreshold": true,
-    "distToAdaptMedian": 0
+    modalProbability: 0.8062,
+    modalProbabilityOptimistic: 0.89011,
+    modalProbabilityPessimistic: 0.6948,
+    adaptEnvelope: [5, 14],
+    itemsAtCeiling: 1,
+    stabilityClass: "boundary",
+    nearDisplayThreshold: true,
+    distToAdaptMedian: 0,
   },
   {
-    "code": "b-des",
-    "modalQuadrant": "sheltered",
-    "runnerUpQuadrant": "comfortable",
-    "quadrantDist": {
+    code: "b-des",
+    modalQuadrant: "sheltered",
+    runnerUpQuadrant: "comfortable",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 0.00104,
-      "attention": 0,
-      "sheltered": 0.99896
+      comfortable: 0.00104,
+      attention: 0,
+      sheltered: 0.99896,
     },
-    "modalProbability": 0.99896,
-    "modalProbabilityOptimistic": 0.99986,
-    "modalProbabilityPessimistic": 0.99314,
-    "adaptEnvelope": [
-      2,
-      12
-    ],
-    "itemsAtCeiling": 0,
-    "stabilityClass": "stable",
-    "nearDisplayThreshold": false,
-    "distToAdaptMedian": -3
+    modalProbability: 0.99896,
+    modalProbabilityOptimistic: 0.99986,
+    modalProbabilityPessimistic: 0.99314,
+    adaptEnvelope: [2, 12],
+    itemsAtCeiling: 0,
+    stabilityClass: "stable",
+    nearDisplayThreshold: false,
+    distToAdaptMedian: -3,
   },
   {
-    "code": "244cw",
-    "modalQuadrant": "sheltered",
-    "runnerUpQuadrant": "comfortable",
-    "quadrantDist": {
+    code: "244cw",
+    modalQuadrant: "sheltered",
+    runnerUpQuadrant: "comfortable",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 0.18645,
-      "attention": 0,
-      "sheltered": 0.81355
+      comfortable: 0.18645,
+      attention: 0,
+      sheltered: 0.81355,
     },
-    "modalProbability": 0.81355,
-    "modalProbabilityOptimistic": 0.89225,
-    "modalProbabilityPessimistic": 0.71624,
-    "adaptEnvelope": [
-      4,
-      14
-    ],
-    "itemsAtCeiling": 0,
-    "stabilityClass": "boundary",
-    "nearDisplayThreshold": true,
-    "distToAdaptMedian": -1
+    modalProbability: 0.81355,
+    modalProbabilityOptimistic: 0.89225,
+    modalProbabilityPessimistic: 0.71624,
+    adaptEnvelope: [4, 14],
+    itemsAtCeiling: 0,
+    stabilityClass: "boundary",
+    nearDisplayThreshold: true,
+    distToAdaptMedian: -1,
   },
   {
-    "code": "b-sci",
-    "modalQuadrant": "comfortable",
-    "runnerUpQuadrant": "sheltered",
-    "quadrantDist": {
+    code: "b-sci",
+    modalQuadrant: "comfortable",
+    runnerUpQuadrant: "sheltered",
+    quadrantDist: {
       "well-positioned": 0,
-      "comfortable": 0.97939,
-      "attention": 0,
-      "sheltered": 0.02061
+      comfortable: 0.97939,
+      attention: 0,
+      sheltered: 0.02061,
     },
-    "modalProbability": 0.97939,
-    "modalProbabilityOptimistic": 0.99432,
-    "modalProbabilityPessimistic": 0.93235,
-    "adaptEnvelope": [
-      6,
-      14
-    ],
-    "itemsAtCeiling": 2,
-    "stabilityClass": "stable",
-    "nearDisplayThreshold": false,
-    "distToAdaptMedian": 1
-  }
+    modalProbability: 0.97939,
+    modalProbabilityOptimistic: 0.99432,
+    modalProbabilityPessimistic: 0.93235,
+    adaptEnvelope: [6, 14],
+    itemsAtCeiling: 2,
+    stabilityClass: "stable",
+    nearDisplayThreshold: false,
+    distToAdaptMedian: 1,
+  },
 ];
 
 export function v31StabilityByCode(code: string): V31Stability | undefined {

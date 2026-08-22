@@ -32,7 +32,9 @@ export async function seedCourseLeafAnalyticsResponse(prisma: PrismaClient) {
     });
     console.log("[seed] CompetitiveEvent: CourseLeaf PRODUCT_UPDATE created");
   } else {
-    console.log("[seed] CompetitiveEvent: CourseLeaf PRODUCT_UPDATE already exists");
+    console.log(
+      "[seed] CompetitiveEvent: CourseLeaf PRODUCT_UPDATE already exists",
+    );
   }
 
   // ── 2. MarketValidationSignal records ─────────────────────────────────────
@@ -40,7 +42,10 @@ export async function seedCourseLeafAnalyticsResponse(prisma: PrismaClient) {
 
   // Signal 1: Career Data Integration — LMI becoming table stakes
   const sig1Exists = await prisma.marketValidationSignal.findFirst({
-    where: { source: "CourseLeaf Product Pages (research-loop monitoring)", category: "market_convergence" },
+    where: {
+      source: "CourseLeaf Product Pages (research-loop monitoring)",
+      category: "market_convergence",
+    },
   });
   if (!sig1Exists) {
     await prisma.marketValidationSignal.create({
@@ -57,17 +62,23 @@ export async function seedCourseLeafAnalyticsResponse(prisma: PrismaClient) {
         isActive: true,
       },
     });
-    console.log("[seed] MarketValidationSignal 1/4: Career Data Integration created");
+    console.log(
+      "[seed] MarketValidationSignal 1/4: Career Data Integration created",
+    );
   }
 
   // Signal 2: API poverty confirmed by third-party tools
   const sig2Exists = await prisma.marketValidationSignal.findFirst({
-    where: { category: "competitor_weakness", source: { contains: "Open-source ecosystem" } },
+    where: {
+      category: "competitor_weakness",
+      source: { contains: "Open-source ecosystem" },
+    },
   });
   if (!sig2Exists) {
     await prisma.marketValidationSignal.create({
       data: {
-        source: "Open-source ecosystem analysis (research-loop GitHub intelligence)",
+        source:
+          "Open-source ecosystem analysis (research-loop GitHub intelligence)",
         excerpt:
           "CourseLeaf's API poverty is confirmed by three independent open-source projects: (1) University of Illinois built an Azure Function specifically to load CourseLeaf data because no native export exists; (2) APInception is a meta-API wrapper built because CourseLeaf's native API is insufficient for programmatic access; (3) cc-coursemap includes a dedicated CourseLeaf scraper for program/catalog data extraction. This tool ecosystem exists because CourseLeaf stores degree requirements as unstructured HTML blocks — not structured, queryable records. Any analytics CourseLeaf builds will be constrained by this architectural limitation.",
         url: "https://github.com/unimelb-mdap/cc-coursemap",
@@ -79,12 +90,17 @@ export async function seedCourseLeafAnalyticsResponse(prisma: PrismaClient) {
         isActive: true,
       },
     });
-    console.log("[seed] MarketValidationSignal 2/4: API poverty confirmed created");
+    console.log(
+      "[seed] MarketValidationSignal 2/4: API poverty confirmed created",
+    );
   }
 
   // Signal 3: Learning Outcomes Mapping
   const sig3Exists = await prisma.marketValidationSignal.findFirst({
-    where: { category: "market_convergence", excerpt: { contains: "Learning Outcomes Mapping" } },
+    where: {
+      category: "market_convergence",
+      excerpt: { contains: "Learning Outcomes Mapping" },
+    },
   });
   if (!sig3Exists) {
     await prisma.marketValidationSignal.create({
@@ -101,12 +117,18 @@ export async function seedCourseLeafAnalyticsResponse(prisma: PrismaClient) {
         isActive: true,
       },
     });
-    console.log("[seed] MarketValidationSignal 3/4: Learning Outcomes Mapping created");
+    console.log(
+      "[seed] MarketValidationSignal 3/4: Learning Outcomes Mapping created",
+    );
   }
 
   // Signal 4: Operational vs strategic analytics distinction
   const sig4Exists = await prisma.marketValidationSignal.findFirst({
-    where: { excerpt: { contains: "Registration Optimization and Course Demand Analytics" } },
+    where: {
+      excerpt: {
+        contains: "Registration Optimization and Course Demand Analytics",
+      },
+    },
   });
   if (!sig4Exists) {
     await prisma.marketValidationSignal.create({
@@ -123,7 +145,9 @@ export async function seedCourseLeafAnalyticsResponse(prisma: PrismaClient) {
         isActive: true,
       },
     });
-    console.log("[seed] MarketValidationSignal 4/4: Operational vs strategic created");
+    console.log(
+      "[seed] MarketValidationSignal 4/4: Operational vs strategic created",
+    );
   }
 
   // ── 3. Update MarketWindowSnapshot (append to latest, keep status NARROWING) ─
@@ -140,22 +164,32 @@ export async function seedCourseLeafAnalyticsResponse(prisma: PrismaClient) {
     const newActionEntry =
       "Position DFVA as the complementary analytics layer for CourseLeaf campuses — the strategic assessment depth their platform structurally cannot deliver. Frame as 'making your CourseLeaf data analytically powerful,' not 'replacing CourseLeaf.'";
 
-    const threatAlreadyPresent = keyThreats.some((t: string) => t.includes("CourseLeaf"));
-    const actionAlreadyPresent = recommendedActions.some((a: string) => a.includes("CourseLeaf"));
+    const threatAlreadyPresent = keyThreats.some((t: string) =>
+      t.includes("CourseLeaf"),
+    );
+    const actionAlreadyPresent = recommendedActions.some((a: string) =>
+      a.includes("CourseLeaf"),
+    );
 
     if (!threatAlreadyPresent || !actionAlreadyPresent) {
       await prisma.marketWindowSnapshot.update({
         where: { id: latest.id },
         data: {
-          keyThreats: threatAlreadyPresent ? keyThreats : [...keyThreats, newThreatEntry],
+          keyThreats: threatAlreadyPresent
+            ? keyThreats
+            : [...keyThreats, newThreatEntry],
           recommendedActions: actionAlreadyPresent
             ? recommendedActions
             : [...recommendedActions, newActionEntry],
         },
       });
-      console.log("[seed] MarketWindowSnapshot: updated with CourseLeaf opportunity signal");
+      console.log(
+        "[seed] MarketWindowSnapshot: updated with CourseLeaf opportunity signal",
+      );
     } else {
-      console.log("[seed] MarketWindowSnapshot: CourseLeaf entries already present");
+      console.log(
+        "[seed] MarketWindowSnapshot: CourseLeaf entries already present",
+      );
     }
   } else {
     // First snapshot (unlikely — feat-017 should have created one — but handle gracefully)
@@ -174,7 +208,9 @@ export async function seedCourseLeafAnalyticsResponse(prisma: PrismaClient) {
         ] as any,
       },
     });
-    console.log("[seed] MarketWindowSnapshot: created initial snapshot with CourseLeaf signal");
+    console.log(
+      "[seed] MarketWindowSnapshot: created initial snapshot with CourseLeaf signal",
+    );
   }
 }
 

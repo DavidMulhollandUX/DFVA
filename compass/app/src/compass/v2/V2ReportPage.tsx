@@ -89,7 +89,10 @@ export default function V2ReportPage() {
         <p className="text-muted-foreground mb-6">
           No v2 assessment exists for “{code}”.
         </p>
-        <Link to="/insights" className="text-secondary-muted-foreground underline">
+        <Link
+          to="/insights"
+          className="text-secondary-muted-foreground underline"
+        >
           Back to the portfolio overview
         </Link>
       </div>
@@ -100,9 +103,7 @@ export default function V2ReportPage() {
   const detail = reportDetailFor(program.code);
   const gaugePct =
     program.exposure !== null
-      ? Math.round(
-          ((program.exposure - X_MIN) / (X_MAX - X_MIN)) * 100,
-        )
+      ? Math.round(((program.exposure - X_MIN) / (X_MAX - X_MIN)) * 100)
       : null;
   const medianPct = Math.round(
     ((V2_META.exp_median - X_MIN) / (X_MAX - X_MIN)) * 100,
@@ -117,17 +118,45 @@ export default function V2ReportPage() {
   ];
 
   const v1Rows: [string, string, string][] = [
-    ["D1 Automation Exposure", "→ Panel A (measured)", "Labour-market claim; moved from scoring to measurement"],
-    ["D2 Systems Thinking", "→ Panel C (scored)", "Retained; evidence from handbook curriculum"],
+    [
+      "D1 Automation Exposure",
+      "→ Panel A (measured)",
+      "Labour-market claim; moved from scoring to measurement",
+    ],
+    [
+      "D2 Systems Thinking",
+      "→ Panel C (scored)",
+      "Retained; evidence from handbook curriculum",
+    ],
     ["D3 Technical Depth", "→ Panel C (scored)", "Retained"],
-    ["D4 Decision-making", "→ Gate (binary)", ">70% of programs use same level; gate, not measure"],
+    [
+      "D4 Decision-making",
+      "→ Gate (binary)",
+      ">70% of programs use same level; gate, not measure",
+    ],
     ["D5 AI Literacy", "→ Panel C (scored)", "Retained with guardrail anchors"],
     ["D6 Domain Depth", "→ Gate (binary)", ">83% modal; gate, not measure"],
     ["D7 Research Methods", "→ Panel C (scored)", "Retained"],
-    ["D8 Human/Relational", "→ Panel A (measured)", "Property of destination, not curriculum"],
-    ["D9 Curriculum Currency", "→ Dropped", "Item-total correlation 0.06; unscorable from handbook"],
-    ["D10 Outcome Evidence", "→ Panel D (metadata)", "Moved to evidence confidence"],
-    ["B Irreplaceability", "→ Panel C (scored)", "Retained; highest v1 dimension coherence"],
+    [
+      "D8 Human/Relational",
+      "→ Panel A (measured)",
+      "Property of destination, not curriculum",
+    ],
+    [
+      "D9 Curriculum Currency",
+      "→ Dropped",
+      "Item-total correlation 0.06; unscorable from handbook",
+    ],
+    [
+      "D10 Outcome Evidence",
+      "→ Panel D (metadata)",
+      "Moved to evidence confidence",
+    ],
+    [
+      "B Irreplaceability",
+      "→ Panel C (scored)",
+      "Retained; highest v1 dimension coherence",
+    ],
   ];
 
   return (
@@ -180,7 +209,10 @@ export default function V2ReportPage() {
               <div className="flex flex-col gap-5">
                 <div>
                   <CardLabel>The finding</CardLabel>
-                  <p className="text-foreground text-base leading-relaxed" data-testid="finding-block">
+                  <p
+                    className="text-foreground text-base leading-relaxed"
+                    data-testid="finding-block"
+                  >
                     {V2_FINDINGS[program.code].finding}
                   </p>
                 </div>
@@ -249,8 +281,8 @@ export default function V2ReportPage() {
                       <strong className="text-foreground font-medium">
                         What exposure means.
                       </strong>{" "}
-                      Exposure is measured on the AI Occupational Exposure
-                      index (AIOE;{" "}
+                      Exposure is measured on the AI Occupational Exposure index
+                      (AIOE;{" "}
                       <a
                         href="https://doi.org/10.1002/smj.3286"
                         target="_blank"
@@ -264,12 +296,12 @@ export default function V2ReportPage() {
                       This figure says how much of the destination work current
                       AI touches. It does{" "}
                       <strong className="text-foreground">not</strong> mean
-                      those jobs are disappearing — across the Australian
-                      labour market, the most AI-exposed occupations are
-                      projected to grow, because exposed work tends to be
-                      skilled work. Exposure indicates where the <em>content</em>{" "}
-                      of work is likely to change; what that means for graduates
-                      depends on the adaptiveness axis.
+                      those jobs are disappearing — across the Australian labour
+                      market, the most AI-exposed occupations are projected to
+                      grow, because exposed work tends to be skilled work.
+                      Exposure indicates where the <em>content</em> of work is
+                      likely to change; what that means for graduates depends on
+                      the adaptiveness axis.
                     </span>
                   </div>
                   {detail && (
@@ -334,8 +366,8 @@ export default function V2ReportPage() {
                 <span
                   className={`rounded-full px-4 py-1.5 text-xs font-semibold tracking-[0.18em] uppercase ${
                     program.gate_D4 === "PASS"
-                      ? "bg-[#E8F5EE] text-band-resilient"
-                      : "bg-[#FDE8E8] text-band-critical"
+                      ? "text-band-resilient bg-[#E8F5EE]"
+                      : "text-band-critical bg-[#FDE8E8]"
                   }`}
                 >
                   D4 Decision-making {program.gate_D4 === "PASS" ? "✓" : "✗"}
@@ -343,8 +375,8 @@ export default function V2ReportPage() {
                 <span
                   className={`rounded-full px-4 py-1.5 text-xs font-semibold tracking-[0.18em] uppercase ${
                     program.gate_D6 === "PASS"
-                      ? "bg-[#E8F5EE] text-band-resilient"
-                      : "bg-[#FDE8E8] text-band-critical"
+                      ? "text-band-resilient bg-[#E8F5EE]"
+                      : "text-band-critical bg-[#FDE8E8]"
                   }`}
                 >
                   D6 Domain depth {program.gate_D6 === "PASS" ? "✓" : "✗"}
@@ -456,50 +488,50 @@ export default function V2ReportPage() {
                   </tbody>
                 </table>
               ) : (
-              <table className="w-full border-collapse text-sm">
-                <tbody>
-                  <tr className="border-border border-b">
-                    <td className="text-muted-foreground py-2">JIR match</td>
-                    <td className="py-2">
-                      {program.has_jir
-                        ? "Destination data matched"
-                        : "No JIR match — handbook evidence only"}
-                    </td>
-                  </tr>
-                  <tr className="border-border border-b">
-                    <td className="text-muted-foreground py-2">
-                      Evidence tier
-                    </td>
-                    <td className="py-2">
-                      {program.has_jir ? (
-                        <span className="text-band-resilient">● Strong</span>
-                      ) : (
-                        <span className="text-band-moderate">● Limited</span>
-                      )}
-                    </td>
-                  </tr>
-                  <tr className="border-border border-b">
-                    <td className="text-muted-foreground py-2">
-                      Exposure measurement
-                    </td>
-                    <td className="py-2 font-mono">
-                      {program.exposure !== null
-                        ? `${program.exposure.toFixed(1)} AIOE`
-                        : "—"}
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="text-muted-foreground py-2">
-                      Destination data
-                    </td>
-                    <td className="py-2">
-                      {program.has_jir
-                        ? "Program-level alumni destinations matched"
-                        : "Awaiting destination mapping"}
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+                <table className="w-full border-collapse text-sm">
+                  <tbody>
+                    <tr className="border-border border-b">
+                      <td className="text-muted-foreground py-2">JIR match</td>
+                      <td className="py-2">
+                        {program.has_jir
+                          ? "Destination data matched"
+                          : "No JIR match — handbook evidence only"}
+                      </td>
+                    </tr>
+                    <tr className="border-border border-b">
+                      <td className="text-muted-foreground py-2">
+                        Evidence tier
+                      </td>
+                      <td className="py-2">
+                        {program.has_jir ? (
+                          <span className="text-band-resilient">● Strong</span>
+                        ) : (
+                          <span className="text-band-moderate">● Limited</span>
+                        )}
+                      </td>
+                    </tr>
+                    <tr className="border-border border-b">
+                      <td className="text-muted-foreground py-2">
+                        Exposure measurement
+                      </td>
+                      <td className="py-2 font-mono">
+                        {program.exposure !== null
+                          ? `${program.exposure.toFixed(1)} AIOE`
+                          : "—"}
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="text-muted-foreground py-2">
+                        Destination data
+                      </td>
+                      <td className="py-2">
+                        {program.has_jir
+                          ? "Program-level alumni destinations matched"
+                          : "Awaiting destination mapping"}
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
               )}
             </CardContent>
           </Card>
@@ -511,63 +543,70 @@ export default function V2ReportPage() {
             What changed from DFVA v1 — the composite ({program.v1_score}/36) is
             superseded; how each v1 dimension was re-treated
           </summary>
-        <Card className="border-0 shadow-none">
-          <CardContent className="pt-2">
-            <CardLabel>Version comparison</CardLabel>
-            <CardTitle className="text-lg">What changed from DFVA v1</CardTitle>
-            <p className="text-muted-foreground mt-1 mb-6 text-sm">
-              The v1 composite scored {program.v1_score}/36 ({program.v1_band}).
-              v2 decomposes into measured exposure and scored adaptiveness —
-              never summed across evidence types.
-            </p>
-            <div className="overflow-x-auto">
-              <table className="w-full border-collapse text-sm">
-                <thead>
-                  <tr>
-                    {(detail
-                      ? ["v1 Dimension", "v1 Score", "v2 Disposition", "Rationale"]
-                      : ["v1 Dimension", "v2 Disposition", "Rationale"]
-                    ).map((h) => (
-                      <th
-                        key={h}
-                        className="text-muted-foreground border-border border-b-2 px-3 py-2 text-left text-xs font-medium tracking-[0.18em] uppercase"
-                      >
-                        {h}
-                      </th>
-                    ))}
-                  </tr>
-                </thead>
-                <tbody>
-                  {detail
-                    ? detail.v1Comparison.map((row) => (
-                        <tr
-                          key={row.dimension}
-                          className="border-border border-b"
+          <Card className="border-0 shadow-none">
+            <CardContent className="pt-2">
+              <CardLabel>Version comparison</CardLabel>
+              <CardTitle className="text-lg">
+                What changed from DFVA v1
+              </CardTitle>
+              <p className="text-muted-foreground mt-1 mb-6 text-sm">
+                The v1 composite scored {program.v1_score}/36 ({program.v1_band}
+                ). v2 decomposes into measured exposure and scored adaptiveness
+                — never summed across evidence types.
+              </p>
+              <div className="overflow-x-auto">
+                <table className="w-full border-collapse text-sm">
+                  <thead>
+                    <tr>
+                      {(detail
+                        ? [
+                            "v1 Dimension",
+                            "v1 Score",
+                            "v2 Disposition",
+                            "Rationale",
+                          ]
+                        : ["v1 Dimension", "v2 Disposition", "Rationale"]
+                      ).map((h) => (
+                        <th
+                          key={h}
+                          className="text-muted-foreground border-border border-b-2 px-3 py-2 text-left text-xs font-medium tracking-[0.18em] uppercase"
                         >
-                          <td className="px-3 py-2">{row.dimension}</td>
-                          <td className="px-3 py-2 font-mono">
-                            {row.v1Score ?? "—"}
-                          </td>
-                          <td className="px-3 py-2">{row.disposition}</td>
-                          <td className="text-muted-foreground px-3 py-2">
-                            {row.rationale}
-                          </td>
-                        </tr>
-                      ))
-                    : v1Rows.map(([dim, disposition, rationale]) => (
-                        <tr key={dim} className="border-border border-b">
-                          <td className="px-3 py-2">{dim}</td>
-                          <td className="px-3 py-2">{disposition}</td>
-                          <td className="text-muted-foreground px-3 py-2">
-                            {rationale}
-                          </td>
-                        </tr>
+                          {h}
+                        </th>
                       ))}
-                </tbody>
-              </table>
-            </div>
-          </CardContent>
-        </Card>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {detail
+                      ? detail.v1Comparison.map((row) => (
+                          <tr
+                            key={row.dimension}
+                            className="border-border border-b"
+                          >
+                            <td className="px-3 py-2">{row.dimension}</td>
+                            <td className="px-3 py-2 font-mono">
+                              {row.v1Score ?? "—"}
+                            </td>
+                            <td className="px-3 py-2">{row.disposition}</td>
+                            <td className="text-muted-foreground px-3 py-2">
+                              {row.rationale}
+                            </td>
+                          </tr>
+                        ))
+                      : v1Rows.map(([dim, disposition, rationale]) => (
+                          <tr key={dim} className="border-border border-b">
+                            <td className="px-3 py-2">{dim}</td>
+                            <td className="px-3 py-2">{disposition}</td>
+                            <td className="text-muted-foreground px-3 py-2">
+                              {rationale}
+                            </td>
+                          </tr>
+                        ))}
+                  </tbody>
+                </table>
+              </div>
+            </CardContent>
+          </Card>
         </details>
 
         {/* Market intelligence + redesign recommendations (generated from
@@ -627,8 +666,7 @@ export default function V2ReportPage() {
           <span>Evidura · Durability Assessment · v2</span>
           {detail && (
             <span>
-              Assessment date: {detail.assessmentDate} · Source:{" "}
-              {detail.source}
+              Assessment date: {detail.assessmentDate} · Source: {detail.source}
             </span>
           )}
           <span className="flex gap-4">

@@ -135,21 +135,55 @@ export function ExposureMatrix({
         />
 
         {/* Quadrant labels */}
-        <text x={sx(qx.right)} y={sy(qy.top) + 5} fill={QUADRANTS["well-positioned"].hex} fontSize={fontSize} textAnchor="middle" opacity="0.7">
+        <text
+          x={sx(qx.right)}
+          y={sy(qy.top) + 5}
+          fill={QUADRANTS["well-positioned"].hex}
+          fontSize={fontSize}
+          textAnchor="middle"
+          opacity="0.7"
+        >
           Well-positioned
         </text>
-        <text x={sx(qx.left)} y={sy(qy.top) + 5} fill={QUADRANTS.comfortable.hex} fontSize={fontSize} textAnchor="middle" opacity="0.7">
+        <text
+          x={sx(qx.left)}
+          y={sy(qy.top) + 5}
+          fill={QUADRANTS.comfortable.hex}
+          fontSize={fontSize}
+          textAnchor="middle"
+          opacity="0.7"
+        >
           Comfortable
         </text>
-        <text x={sx(qx.right)} y={sy(qy.bottom) + 5} fill={QUADRANTS.attention.hex} fontSize={fontSize} textAnchor="middle" opacity="0.7">
+        <text
+          x={sx(qx.right)}
+          y={sy(qy.bottom) + 5}
+          fill={QUADRANTS.attention.hex}
+          fontSize={fontSize}
+          textAnchor="middle"
+          opacity="0.7"
+        >
           Attention
         </text>
-        <text x={sx(qx.left)} y={sy(qy.bottom) + 5} fill={QUADRANTS.sheltered.hex} fontSize={fontSize} textAnchor="middle" opacity="0.7">
+        <text
+          x={sx(qx.left)}
+          y={sy(qy.bottom) + 5}
+          fill={QUADRANTS.sheltered.hex}
+          fontSize={fontSize}
+          textAnchor="middle"
+          opacity="0.7"
+        >
           Sheltered
         </text>
 
         {/* Axis labels + ticks */}
-        <text x={W / 2} y={H - 5} fill="#5C7088" fontSize={fontSize} textAnchor="middle">
+        <text
+          x={W / 2}
+          y={H - 5}
+          fill="#5C7088"
+          fontSize={fontSize}
+          textAnchor="middle"
+        >
           Destination AI Exposure (AIOE) →
         </text>
         <text
@@ -164,13 +198,27 @@ export function ExposureMatrix({
         </text>
         {!compact &&
           [35, 45, 55, 65, 75].map((x) => (
-            <text key={`tx${x}`} x={sx(x)} y={H - pad.bottom + 18} fill="#8593A6" fontSize={tickSize} textAnchor="middle">
+            <text
+              key={`tx${x}`}
+              x={sx(x)}
+              y={H - pad.bottom + 18}
+              fill="#8593A6"
+              fontSize={tickSize}
+              textAnchor="middle"
+            >
               {x}
             </text>
           ))}
         {!compact &&
           gridY.map((y) => (
-            <text key={`ty${y}`} x={pad.left - 8} y={sy(y) + 4} fill="#8593A6" fontSize={tickSize} textAnchor="end">
+            <text
+              key={`ty${y}`}
+              x={pad.left - 8}
+              y={sy(y) + 4}
+              fill="#8593A6"
+              fontSize={tickSize}
+              textAnchor="end"
+            >
               {y}
             </text>
           ))}
@@ -192,8 +240,7 @@ export function ExposureMatrix({
           const x = sx(p.exposure);
           const y = sy(p.adaptiveness_raw);
           const isHighlight = highlightCode === p.code;
-          const label =
-            isHighlight || (!compact && showLabel(x, y));
+          const label = isHighlight || (!compact && showLabel(x, y));
           return (
             <g key={p.code}>
               <circle

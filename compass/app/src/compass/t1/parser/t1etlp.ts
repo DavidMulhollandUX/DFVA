@@ -8,14 +8,17 @@ import { parse } from "csv-parse/sync";
 import type { T1RawProgram, T1RawCourse, T1ParseResult } from "../types";
 
 /** Column name variants for ELP exports */
-const ELP_COLUMN_MAP: Record<string, { field: keyof T1RawProgram; isCourse?: boolean }> = {
+const ELP_COLUMN_MAP: Record<
+  string,
+  { field: keyof T1RawProgram; isCourse?: boolean }
+> = {
   // Program-level
-  "program": { field: "programCode" },
+  program: { field: "programCode" },
   "program code": { field: "programCode" },
-  "program_code": { field: "programCode" },
+  program_code: { field: "programCode" },
   programcode: { field: "programCode" },
   "program name": { field: "programName" },
-  "program_name": { field: "programName" },
+  program_name: { field: "programName" },
   programname: { field: "programName" },
   name: { field: "programName" },
   level: { field: "level" },
@@ -88,10 +91,7 @@ function parseELPNumber(value: unknown): number | undefined {
 /**
  * Parse a .t1etlp buffer and extract T1RawProgram records.
  */
-export function parseT1etlp(
-  text: string,
-  filename: string
-): T1ParseResult {
+export function parseT1etlp(text: string, filename: string): T1ParseResult {
   const warnings: string[] = [];
 
   // Detect delimiter from first non-empty line
@@ -120,7 +120,9 @@ export function parseT1etlp(
     });
   } catch (err) {
     throw new Error(
-      `Failed to parse .t1etlp file "${filename}": ${err instanceof Error ? err.message : String(err)}`
+      `Failed to parse .t1etlp file "${filename}": ${
+        err instanceof Error ? err.message : String(err)
+      }`,
     );
   }
 
@@ -128,7 +130,10 @@ export function parseT1etlp(
   const detectedColumns = rawHeaders.map((h) => String(h));
 
   // Group rows by program code (assuming program-level rows exist)
-  const programMap = new Map<string, { program: Partial<T1RawProgram>; courses: T1RawCourse[] }>();
+  const programMap = new Map<
+    string,
+    { program: Partial<T1RawProgram>; courses: T1RawCourse[] }
+  >();
   let hasProgramLevel = false;
 
   for (const row of rows) {
@@ -164,7 +169,8 @@ export function parseT1etlp(
           mapping.field === "offers" ||
           mapping.field === "acceptances"
         ) {
-          (programFields as Record<string, unknown>)[mapping.field] = parseELPNumber(value);
+          (programFields as Record<string, unknown>)[mapping.field] =
+            parseELPNumber(value);
         } else if (
           mapping.field === "retentionRate" ||
           mapping.field === "progressionRate"
@@ -172,7 +178,8 @@ export function parseT1etlp(
           const num = parseELPNumber(value);
           if (num !== undefined) {
             // Normalize to 0-1 range if > 1
-            (programFields as Record<string, unknown>)[mapping.field] = num > 1 ? num / 100 : num;
+            (programFields as Record<string, unknown>)[mapping.field] =
+              num > 1 ? num / 100 : num;
           }
         }
       }
@@ -203,14 +210,16 @@ export function parseT1etlp(
     // Fallback: treat the entire file as one program, each row is a course
     warnings.push(
       `No program-level column detected. Treating entire file as single program. ` +
-        `Add "Program Code" or "Program" column for multi-program exports.`
+        `Add "Program Code" or "Program" column for multi-program exports.`,
     );
     const program: Partial<T1RawProgram> = {
       programCode: filename.replace(/\.(t1etlp|csv)$/i, ""),
       programName: filename,
     };
     const courses: T1RawCourse[] = rows.map((row, i) => ({
-      courseCode: String(row["Course Code"] || row["course"] || `COURSE_${i + 1}`),
+      courseCode: String(
+        row["Course Code"] || row["course"] || `COURSE_${i + 1}`,
+      ),
       courseName: String(row["Course Name"] || row["course_name"] || ""),
     }));
     return {
@@ -248,9 +257,7 @@ export function parseT1etlp(
         rawRow: {},
       });
     } else {
-      warnings.push(
-        `Skipped group: missing programCode or programName`
-      );
+      warnings.push(`Skipped group: missing programCode or programName`);
     }
   }
 

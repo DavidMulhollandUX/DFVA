@@ -53,11 +53,11 @@ const GLOSSARY: Record<
   },
   medianQuadrant: {
     term: "Portfolio median / position",
-    def: "Positions (e.g. \"High exposure · low adaptiveness\") are defined by whether a program sits above or below the median of the assessed portfolio on each axis. They are relative to this portfolio at this assessment — not absolute grades, and not comparable across institutions.",
+    def: 'Positions (e.g. "High exposure · low adaptiveness") are defined by whether a program sits above or below the median of the assessed portfolio on each axis. They are relative to this portfolio at this assessment — not absolute grades, and not comparable across institutions.',
   },
   positionConfidence: {
     term: "Position confidence",
-    def: "How robust the position is to rating error on the five scored items: every possible ±1 rating difference is enumerated exactly, and the confidence is the share of those weighted outcomes in which the position is unchanged. \"Near a threshold\" means a single rating difference could move it; \"firm\" means it could not. This is about rating precision, never about program quality.",
+    def: 'How robust the position is to rating error on the five scored items: every possible ±1 rating difference is enumerated exactly, and the confidence is the share of those weighted outcomes in which the position is unchanged. "Near a threshold" means a single rating difference could move it; "firm" means it could not. This is about rating precision, never about program quality.',
   },
   envelope: {
     term: "Exact envelope",
@@ -99,14 +99,19 @@ const GLOSSARY: Record<
 
 export function MethodGlossary({ terms }: { terms: GlossaryTerm[] }) {
   return (
-    <details className="border-border mb-4 rounded-lg border" data-testid="method-glossary">
+    <details
+      className="border-border mb-4 rounded-lg border"
+      data-testid="method-glossary"
+    >
       <summary className="text-foreground hover:bg-card-accent cursor-pointer rounded-lg px-5 py-4 text-sm font-medium">
         Terms used in this report — every measurement term, defined
       </summary>
       <dl className="flex flex-col gap-3 px-5 pt-1 pb-5">
         {terms.map((key) => (
           <div key={key}>
-            <dt className="text-foreground text-sm font-semibold">{GLOSSARY[key].term}</dt>
+            <dt className="text-foreground text-sm font-semibold">
+              {GLOSSARY[key].term}
+            </dt>
             <dd className="text-muted-foreground text-sm leading-relaxed">
               {GLOSSARY[key].def}
               {GLOSSARY[key].links?.map((l) => (

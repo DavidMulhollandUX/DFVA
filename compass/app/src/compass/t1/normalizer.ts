@@ -18,7 +18,12 @@ export interface NormalizedT1Program {
   acceptances: number | null;
   retentionRate: number | null;
   progressionRate: number | null;
-  courseList: { courseCode: string; courseName: string; enrolment?: number; level?: string }[];
+  courseList: {
+    courseCode: string;
+    courseName: string;
+    enrolment?: number;
+    level?: string;
+  }[];
 }
 
 /** Normalization result with validation warnings */
@@ -68,7 +73,7 @@ function aggregateEnrolment(courses: T1RawCourse[]): number | null {
  */
 export function normalizePrograms(
   raw: T1RawProgram[],
-  institutionCode: string
+  institutionCode: string,
 ): NormalizationResult {
   const warnings: string[] = [];
   const programs: NormalizedT1Program[] = [];
@@ -77,7 +82,9 @@ export function normalizePrograms(
   for (const rawProg of raw) {
     if (!rawProg.programCode || !rawProg.programName) {
       warnings.push(
-        `Skipping program: missing code or name in raw record "${rawProg.programCode || "?"}"`
+        `Skipping program: missing code or name in raw record "${
+          rawProg.programCode || "?"
+        }"`,
       );
       continue;
     }
@@ -120,7 +127,9 @@ export function normalizePrograms(
 
   if (uniquePrograms.length < programs.length) {
     warnings.push(
-      `Deduplicated ${programs.length - uniquePrograms.length} duplicate program codes (kept most recent).`
+      `Deduplicated ${
+        programs.length - uniquePrograms.length
+      } duplicate program codes (kept most recent).`,
     );
   }
 

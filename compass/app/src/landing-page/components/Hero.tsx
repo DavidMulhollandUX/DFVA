@@ -157,7 +157,8 @@ function HeroMiniMatrix({ code }: { code: string }) {
   const PAD = 26;
   const X_MIN = 60;
   const X_MAX = 100;
-  const x = (e: number) => PAD + ((e - X_MIN) / (X_MAX - X_MIN)) * (W - 2 * PAD);
+  const x = (e: number) =>
+    PAD + ((e - X_MIN) / (X_MAX - X_MIN)) * (W - 2 * PAD);
   const y = (a: number) => H - PAD - (a / 15) * (H - 2 * PAD);
   const program = v3ProgramByCode(code);
   if (!program) return null;

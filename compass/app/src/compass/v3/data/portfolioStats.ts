@@ -13,7 +13,12 @@
 import { V2_PROGRAMS } from "../../v2/data/v2Programs";
 import { DIMENSION_LABELS } from "../../v2/quadrants";
 import { V31_STABILITY } from "../../v31/data/v31Stability";
-import { V3_META, V3_PROGRAMS, type V3Program, type V3Quadrant } from "./v3Programs";
+import {
+  V3_META,
+  V3_PROGRAMS,
+  type V3Program,
+  type V3Quadrant,
+} from "./v3Programs";
 
 export type DimensionKey = "D2" | "D3" | "D7" | "B" | "D5";
 
@@ -82,7 +87,9 @@ export function portfolioRows(): PortfolioRow[] {
         domainDepth: v3.gateD6,
         position: v3.quadrant,
         confidence:
-          stability?.stabilityClass === "boundary" ? "near a threshold" : "firm",
+          stability?.stabilityClass === "boundary"
+            ? "near a threshold"
+            : "firm",
         placed: true,
       };
     }
@@ -117,7 +124,9 @@ export function dimensionAverages(rows: PortfolioRow[]): DimensionAverage[] {
   }));
 }
 
-export function positionCounts(rows: PortfolioRow[]): Record<V3Quadrant, number> {
+export function positionCounts(
+  rows: PortfolioRow[],
+): Record<V3Quadrant, number> {
   const counts: Record<V3Quadrant, number> = {
     "well-positioned": 0,
     comfortable: 0,
@@ -143,12 +152,16 @@ export function quickWins(rows: PortfolioRow[]): PortfolioRow[] {
 }
 
 /** Exposed destinations with the least curriculum defence built so far. */
-export function needsAttention(rows: PortfolioRow[], limit = 5): PortfolioRow[] {
+export function needsAttention(
+  rows: PortfolioRow[],
+  limit = 5,
+): PortfolioRow[] {
   return rows
     .filter((r) => r.position === "attention")
     .sort(
       (a, b) =>
-        a.adaptiveness - b.adaptiveness || (b.exposure ?? 0) - (a.exposure ?? 0),
+        a.adaptiveness - b.adaptiveness ||
+        (b.exposure ?? 0) - (a.exposure ?? 0),
     )
     .slice(0, limit);
 }
@@ -170,7 +183,8 @@ export function facultyRows(rows: PortfolioRow[]): FacultyRow[] {
         programs: list.length,
         placed: placed.length,
         avgExposure: placed.length
-          ? placed.reduce((s, r) => s + (r.exposure as number), 0) / placed.length
+          ? placed.reduce((s, r) => s + (r.exposure as number), 0) /
+            placed.length
           : null,
         avgAdaptiveness:
           list.reduce((s, r) => s + r.adaptiveness, 0) / list.length,

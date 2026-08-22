@@ -3,9 +3,20 @@ import { Link } from "react-router";
 import { InsightsGate } from "./InsightsGate";
 import { PROGRAMS } from "./sharedProgramData";
 import { getFaculty, facultySlug } from "./faculty";
-import { getFragilityIncidents, getCompetitiveEvents } from "wasp/client/operations";
+import {
+  getFragilityIncidents,
+  getCompetitiveEvents,
+} from "wasp/client/operations";
 import { useQuery } from "wasp/client/operations";
-import { Building2, TrendingUp, ArrowRight, Shield, AlertTriangle, BarChart3, Swords } from "lucide-react";
+import {
+  Building2,
+  TrendingUp,
+  ArrowRight,
+  Shield,
+  AlertTriangle,
+  BarChart3,
+  Swords,
+} from "lucide-react";
 import { useMemo } from "react";
 import ImpactReportCard from "./ImpactReportCard";
 import CompetitiveThreatCard from "./CompetitiveThreatCard";
@@ -100,7 +111,7 @@ export default function InsightsPage() {
         </Card>
 
         {/* Data Fragility widget */}
-        <Card className="border-red-500/20 bg-red-500/5 mb-8">
+        <Card className="mb-8 border-red-500/20 bg-red-500/5">
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
               <AlertTriangle className="h-5 w-5 text-red-500" />
@@ -110,7 +121,11 @@ export default function InsightsPage() {
           <CardContent>
             <p className="text-muted-foreground mb-4 text-sm">
               {fragilityCount > 0
-                ? `${fragilityCount} scraper regression incident${fragilityCount !== 1 ? "s" : ""} tracked across ${fragilityPlatforms} platform${fragilityPlatforms !== 1 ? "s" : ""} — HTML-based curriculum data is structurally fragile.`
+                ? `${fragilityCount} scraper regression incident${
+                    fragilityCount !== 1 ? "s" : ""
+                  } tracked across ${fragilityPlatforms} platform${
+                    fragilityPlatforms !== 1 ? "s" : ""
+                  } — HTML-based curriculum data is structurally fragile.`
                 : "Tracking scraper regression incidents across curriculum platforms."}
             </p>
             <Link
@@ -172,12 +187,16 @@ export default function InsightsPage() {
               </h2>
             </div>
             <p className="text-muted-foreground mb-4 text-sm">
-              Market convergence and opportunity signals — competitive moves that
-              validate DFVA's thesis rather than threaten it.
+              Market convergence and opportunity signals — competitive moves
+              that validate DFVA's thesis rather than threaten it.
             </p>
             <div className="space-y-4">
               {marketSignals.map((event: any) => (
-                <CompetitiveThreatCard key={event.id} event={event} variant="opportunity" />
+                <CompetitiveThreatCard
+                  key={event.id}
+                  event={event}
+                  variant="opportunity"
+                />
               ))}
             </div>
           </div>

@@ -9,12 +9,12 @@ import type { T1RawProgram, T1RawCourse, T1ParseResult } from "../types";
 /** Column name variants that T1 uses across versions */
 const COLUMN_MAP: Record<string, keyof T1RawProgram> = {
   "program code": "programCode",
-  "program_code": "programCode",
+  program_code: "programCode",
   programcode: "programCode",
   code: "programCode",
   "course code": "programCode", // Some exports use "Course Code" for program-level
   "program name": "programName",
-  "program_name": "programName",
+  program_name: "programName",
   programname: "programName",
   name: "programName",
   title: "programName",
@@ -54,7 +54,7 @@ const PROGRAM_SHEET_COLUMNS = [
 function scoreSheet(columns: string[]): number {
   const lowerColumns = columns.map((c) => c.toLowerCase().trim());
   return PROGRAM_SHEET_COLUMNS.filter((col) =>
-    lowerColumns.some((c) => c.includes(col))
+    lowerColumns.some((c) => c.includes(col)),
   ).length;
 }
 
@@ -64,7 +64,7 @@ function scoreSheet(columns: string[]): number {
 function mapField(
   row: Record<string, unknown>,
   header: string,
-  target: keyof T1RawProgram
+  target: keyof T1RawProgram,
 ): unknown {
   const value = row[header];
   if (value === undefined || value === null) return undefined;
@@ -103,7 +103,10 @@ function mapField(
 /**
  * Parse a .t1xl spreadsheet buffer and extract T1RawProgram records.
  */
-export function parseT1xl(buffer: ArrayBuffer, filename: string): T1ParseResult {
+export function parseT1xl(
+  buffer: ArrayBuffer,
+  filename: string,
+): T1ParseResult {
   const workbook = read(buffer, { type: "array" });
   const warnings: string[] = [];
   const allPrograms: T1RawProgram[] = [];
@@ -140,13 +143,15 @@ export function parseT1xl(buffer: ArrayBuffer, filename: string): T1ParseResult 
 
     for (const [header, value] of Object.entries(row)) {
       const lowerHeader = header.toLowerCase().trim();
-      const targetField = COLUMN_MAP[lowerHeader] || COLUMN_MAP[lowerHeader.replace(/[^a-z0-9]/g, "")];
+      const targetField =
+        COLUMN_MAP[lowerHeader] ||
+        COLUMN_MAP[lowerHeader.replace(/[^a-z0-9]/g, "")];
 
       if (targetField) {
         (program as Record<string, unknown>)[targetField] = mapField(
           row,
           header,
-          targetField
+          targetField,
         );
       }
     }
@@ -167,7 +172,7 @@ export function parseT1xl(buffer: ArrayBuffer, filename: string): T1ParseResult 
       });
     } else {
       warnings.push(
-        `Skipped row: missing programCode ("${program.programCode}") or programName ("${program.programName}")`
+        `Skipped row: missing programCode ("${program.programCode}") or programName ("${program.programName}")`,
       );
     }
   }

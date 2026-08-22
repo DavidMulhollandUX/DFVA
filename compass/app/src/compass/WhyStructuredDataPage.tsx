@@ -27,7 +27,10 @@ export default function WhyStructuredDataPage() {
 
   const stats = useMemo(() => {
     if (!incidents || incidents.length === 0) return null;
-    const totalBlastRadius = incidents.reduce((sum, i) => sum + i.blastRadius, 0);
+    const totalBlastRadius = incidents.reduce(
+      (sum, i) => sum + i.blastRadius,
+      0,
+    );
     const platforms = new Set(incidents.map((i) => i.platform));
     return {
       totalIncidents: incidents.length,
@@ -49,26 +52,32 @@ export default function WhyStructuredDataPage() {
           </div>
           {stats && (
             <p className="text-muted-foreground mx-auto mb-4 max-w-2xl text-lg">
-              <span className="font-bold text-red-500">{stats.totalIncidents} incidents</span>{" "}
+              <span className="font-bold text-red-500">
+                {stats.totalIncidents} incidents
+              </span>{" "}
               across{" "}
-              <span className="font-bold text-orange-500">{stats.uniquePlatforms} platforms</span>{" "}
+              <span className="font-bold text-orange-500">
+                {stats.uniquePlatforms} platforms
+              </span>{" "}
               have affected{" "}
-              <span className="font-bold text-yellow-600">{stats.totalBlastRadius}+ states and institutions</span>{" "}
-              — and every one of them confirms the same thing: curriculum
-              data stored as HTML is structurally fragile.
+              <span className="font-bold text-yellow-600">
+                {stats.totalBlastRadius}+ states and institutions
+              </span>{" "}
+              — and every one of them confirms the same thing: curriculum data
+              stored as HTML is structurally fragile.
             </p>
           )}
           {!stats && (
             <p className="text-muted-foreground mx-auto mb-4 max-w-2xl text-lg">
-              Curriculum platforms store degree requirements as unstructured HTML
-              blocks. When the HTML changes — and it always does — the data
+              Curriculum platforms store degree requirements as unstructured
+              HTML blocks. When the HTML changes — and it always does — the data
               becomes inaccessible. DFVA takes a different approach.
             </p>
           )}
           <p className="text-muted-foreground mx-auto mb-8 max-w-2xl">
-            DFVA uses a structured, API-first data model. No scraping. No HTML parsing.
-            Just clean, queryable, machine-readable degree data that stays
-            accessible no matter what changes upstream.
+            DFVA uses a structured, API-first data model. No scraping. No HTML
+            parsing. Just clean, queryable, machine-readable degree data that
+            stays accessible no matter what changes upstream.
           </p>
           <Link
             to="/assess"
@@ -84,16 +93,28 @@ export default function WhyStructuredDataPage() {
         <section className="bg-card border-b py-8">
           <div className="mx-auto grid max-w-5xl grid-cols-3 gap-8 px-4 text-center">
             <div>
-              <div className="text-3xl font-bold text-red-500">{stats.totalIncidents}</div>
-              <div className="text-muted-foreground text-sm">Documented Incidents</div>
+              <div className="text-3xl font-bold text-red-500">
+                {stats.totalIncidents}
+              </div>
+              <div className="text-muted-foreground text-sm">
+                Documented Incidents
+              </div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-orange-500">{stats.totalBlastRadius}+</div>
-              <div className="text-muted-foreground text-sm">Institutions/States Affected</div>
+              <div className="text-3xl font-bold text-orange-500">
+                {stats.totalBlastRadius}+
+              </div>
+              <div className="text-muted-foreground text-sm">
+                Institutions/States Affected
+              </div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-yellow-500">{stats.uniquePlatforms}</div>
-              <div className="text-muted-foreground text-sm">Platforms Affected</div>
+              <div className="text-3xl font-bold text-yellow-500">
+                {stats.uniquePlatforms}
+              </div>
+              <div className="text-muted-foreground text-sm">
+                Platforms Affected
+              </div>
             </div>
           </div>
         </section>
@@ -103,18 +124,20 @@ export default function WhyStructuredDataPage() {
       <section className="mx-auto max-w-5xl px-4 py-16">
         <div className="mb-8 flex items-center gap-3">
           <Clock className="h-6 w-6 text-red-500" />
-          <h2 className="text-foreground text-2xl font-bold">Evidence Timeline</h2>
+          <h2 className="text-foreground text-2xl font-bold">
+            Evidence Timeline
+          </h2>
         </div>
 
         {isLoading && (
-          <div className="text-muted-foreground animate-pulse text-center py-8">
+          <div className="text-muted-foreground animate-pulse py-8 text-center">
             Loading evidence data...
           </div>
         )}
 
         {incidents && incidents.length === 0 && (
           <Card>
-            <CardContent className="pt-6 text-center py-12">
+            <CardContent className="py-12 pt-6 text-center">
               <p className="text-muted-foreground">
                 Incident data is being compiled. Check back soon.
               </p>
@@ -128,7 +151,7 @@ export default function WhyStructuredDataPage() {
               <Card key={incident.id}>
                 <CardContent className="pt-6">
                   <div className="mb-3 flex flex-wrap items-center gap-2">
-                    <span className="bg-red-500/10 text-red-600 rounded px-2 py-0.5 text-xs font-semibold">
+                    <span className="rounded bg-red-500/10 px-2 py-0.5 text-xs font-semibold text-red-600">
                       {incident.platform}
                     </span>
                     <span className="text-muted-foreground text-xs">
@@ -139,7 +162,7 @@ export default function WhyStructuredDataPage() {
                       })}
                     </span>
                     {incident.recoveryHours != null && (
-                      <span className="bg-yellow-500/10 text-yellow-600 rounded px-2 py-0.5 text-xs font-semibold">
+                      <span className="rounded bg-yellow-500/10 px-2 py-0.5 text-xs font-semibold text-yellow-600">
                         {Math.round(incident.recoveryHours / 24)} days recovery
                       </span>
                     )}

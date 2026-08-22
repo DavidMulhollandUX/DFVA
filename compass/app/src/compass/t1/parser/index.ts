@@ -16,7 +16,7 @@ import { parseT1etlp } from "./t1etlp";
 export function parseT1File(
   buffer: Uint8Array,
   fileType: T1FileType,
-  filename: string
+  filename: string,
 ): T1ParseResult {
   switch (fileType) {
     case "T1XL":
@@ -25,19 +25,19 @@ export function parseT1File(
     case "T1ETLP":
       return parseT1etlp(
         new TextDecoder("utf-8", { fatal: false }).decode(buffer),
-        filename
+        filename,
       );
 
     case "T1DM":
       throw new Error(
         `T1 Data Model (.t1dm) parser not yet implemented. ` +
-          `This format will be supported in a future release.`
+          `This format will be supported in a future release.`,
       );
 
     case "T1DB":
       throw new Error(
         `T1 Database Snapshot (.t1db) parser not yet implemented. ` +
-          `This format will be supported in a future release.`
+          `This format will be supported in a future release.`,
       );
 
     default:

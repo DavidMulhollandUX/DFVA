@@ -1,4 +1,11 @@
-import { AlertTriangle, ExternalLink, TrendingUp, ChevronDown, ChevronUp, Swords } from "lucide-react";
+import {
+  AlertTriangle,
+  ExternalLink,
+  TrendingUp,
+  ChevronDown,
+  ChevronUp,
+  Swords,
+} from "lucide-react";
 import { useState } from "react";
 import type { CompetitiveEvent } from "wasp/entities";
 import { useQuery } from "wasp/client/operations";
@@ -200,7 +207,7 @@ export default function CompetitiveThreatCard({
           </div>
 
           {/* Title */}
-          <h3 className="text-foreground mb-2 text-base font-semibold leading-snug">
+          <h3 className="text-foreground mb-2 text-base leading-snug font-semibold">
             {event.title}
           </h3>
 
@@ -228,9 +235,7 @@ export default function CompetitiveThreatCard({
       <div className="border-border border-t px-5 py-2">
         <div className="flex items-center gap-2 text-xs">
           <span className="text-muted-foreground font-medium">Impact:</span>
-          <span className={`font-bold ${impact.color}`}>
-            {displayScore}/10
-          </span>
+          <span className={`font-bold ${impact.color}`}>{displayScore}/10</span>
           <div className="bg-muted h-1.5 flex-1 overflow-hidden rounded-full">
             <div
               className={`h-full rounded-full ${

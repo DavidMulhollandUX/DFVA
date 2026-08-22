@@ -1,10 +1,6 @@
 import { useState } from "react";
 import { Link, useParams } from "react-router";
-import {
-  Card,
-  CardContent,
-  CardTitle,
-} from "../../client/components/ui/card";
+import { Card, CardContent, CardTitle } from "../../client/components/ui/card";
 import { InsightsGate } from "../InsightsGate";
 import { MethodGlossary } from "../MethodGlossary";
 import { SourceReferences } from "../SourceReferences";
@@ -29,10 +25,26 @@ const V3_QUADRANT_LABELS: Record<
   V3Quadrant,
   { measured: string; compact: string; narrative: string }
 > = {
-  "well-positioned": { measured: "High exposure · high adaptiveness", compact: "High exp · high adapt", narrative: "Well-positioned" },
-  comfortable: { measured: "Low exposure · high adaptiveness", compact: "Low exp · high adapt", narrative: "Comfortable" },
-  attention: { measured: "High exposure · low adaptiveness", compact: "High exp · low adapt", narrative: "formerly “Attention”" },
-  sheltered: { measured: "Low exposure · low adaptiveness", compact: "Low exp · low adapt", narrative: "formerly “Sheltered (for now)”" },
+  "well-positioned": {
+    measured: "High exposure · high adaptiveness",
+    compact: "High exp · high adapt",
+    narrative: "Well-positioned",
+  },
+  comfortable: {
+    measured: "Low exposure · high adaptiveness",
+    compact: "Low exp · high adapt",
+    narrative: "Comfortable",
+  },
+  attention: {
+    measured: "High exposure · low adaptiveness",
+    compact: "High exp · low adapt",
+    narrative: "formerly “Attention”",
+  },
+  sheltered: {
+    measured: "Low exposure · low adaptiveness",
+    compact: "Low exp · low adapt",
+    narrative: "formerly “Sheltered (for now)”",
+  },
 };
 
 function quadrantAt(exposure: number, adaptiveness: number): V3Quadrant {
@@ -54,13 +66,23 @@ function CardLabel({ children }: { children: React.ReactNode }) {
   );
 }
 
-function PartHeading({ id, part, title }: { id: string; part: string; title: string }) {
+function PartHeading({
+  id,
+  part,
+  title,
+}: {
+  id: string;
+  part: string;
+  title: string;
+}) {
   return (
     <div id={id} className="mt-14 mb-6 scroll-mt-6">
       <p className="text-secondary-muted-foreground text-xs font-semibold tracking-[0.18em] uppercase">
         {part}
       </p>
-      <h2 className="text-foreground font-serif text-2xl tracking-tight">{title}</h2>
+      <h2 className="text-foreground font-serif text-2xl tracking-tight">
+        {title}
+      </h2>
     </div>
   );
 }
@@ -93,7 +115,9 @@ function PositionLabel({ program }: { program: V3Program }) {
   const q = QUADRANTS[program.quadrant];
   if (program.modalProb >= 0.8) {
     return (
-      <span className={`inline-flex items-center gap-2 rounded-full px-4 py-1 text-sm font-semibold ${q.badgeClass}`}>
+      <span
+        className={`inline-flex items-center gap-2 rounded-full px-4 py-1 text-sm font-semibold ${q.badgeClass}`}
+      >
         {modal.measured}
       </span>
     );
@@ -101,7 +125,9 @@ function PositionLabel({ program }: { program: V3Program }) {
   if (program.modalProb >= 0.6 && program.runnerUpQuadrant) {
     const runner = V3_QUADRANT_LABELS[program.runnerUpQuadrant];
     return (
-      <span className={`inline-flex items-center gap-2 rounded-full px-4 py-1 text-sm font-semibold ${q.badgeClass}`}>
+      <span
+        className={`inline-flex items-center gap-2 rounded-full px-4 py-1 text-sm font-semibold ${q.badgeClass}`}
+      >
         {modal.measured} / {runner.measured} — boundary case
       </span>
     );
@@ -117,18 +143,52 @@ function V3MiniMatrix({ program }: { program: V3Program }) {
   const W = 360;
   const H = 300;
   const PAD = 34;
-  const x = (e: number) => PAD + ((e - X_MIN) / (X_MAX - X_MIN)) * (W - 2 * PAD);
+  const x = (e: number) =>
+    PAD + ((e - X_MIN) / (X_MAX - X_MIN)) * (W - 2 * PAD);
   const y = (a: number) => H - PAD - (a / 15) * (H - 2 * PAD);
   const mx = x(V3_META.expMedian);
   const my = y(V3_META.adaptMedian);
   return (
-    <svg viewBox={`0 0 ${W} ${H}`} className="w-full" role="img" aria-label="v3 exposure–adaptiveness matrix">
-      <rect x={PAD} y={PAD} width={W - 2 * PAD} height={H - 2 * PAD} fill="none" stroke="var(--color-border)" />
-      <line x1={mx} y1={PAD} x2={mx} y2={H - PAD} stroke="var(--color-border)" strokeDasharray="4 3" />
-      <line x1={PAD} y1={my} x2={W - PAD} y2={my} stroke="var(--color-border)" strokeDasharray="4 3" />
+    <svg
+      viewBox={`0 0 ${W} ${H}`}
+      className="w-full"
+      role="img"
+      aria-label="v3 exposure–adaptiveness matrix"
+    >
+      <rect
+        x={PAD}
+        y={PAD}
+        width={W - 2 * PAD}
+        height={H - 2 * PAD}
+        fill="none"
+        stroke="var(--color-border)"
+      />
+      <line
+        x1={mx}
+        y1={PAD}
+        x2={mx}
+        y2={H - PAD}
+        stroke="var(--color-border)"
+        strokeDasharray="4 3"
+      />
+      <line
+        x1={PAD}
+        y1={my}
+        x2={W - PAD}
+        y2={my}
+        stroke="var(--color-border)"
+        strokeDasharray="4 3"
+      />
       <MatrixAreaLabels left={PAD} right={W - PAD} top={PAD} bottom={H - PAD} />
       {V3_PROGRAMS.filter((p) => p.code !== program.code).map((p) => (
-        <circle key={p.code} cx={x(p.exposure)} cy={y(p.adaptiveness)} r={3.5} fill={QUADRANTS[p.quadrant].hex} opacity={0.22} />
+        <circle
+          key={p.code}
+          cx={x(p.exposure)}
+          cy={y(p.adaptiveness)}
+          r={3.5}
+          fill={QUADRANTS[p.quadrant].hex}
+          opacity={0.22}
+        />
       ))}
       {/* adaptiveness perturbation interval (vertical) */}
       <line
@@ -140,11 +200,50 @@ function V3MiniMatrix({ program }: { program: V3Program }) {
         strokeWidth={2}
         opacity={0.45}
       />
-      <circle cx={x(program.exposure)} cy={y(program.adaptiveness)} r={7} fill={QUADRANTS[program.quadrant].hex} stroke="var(--color-background)" strokeWidth={2} />
-      <text x={PAD} y={H - 8} fontSize={10} fill="var(--color-muted-foreground)">{X_MIN}</text>
-      <text x={W - PAD} y={H - 8} fontSize={10} textAnchor="end" fill="var(--color-muted-foreground)">{X_MAX}</text>
-      <text x={W / 2} y={H - 8} fontSize={10} textAnchor="middle" fill="var(--color-muted-foreground)">Destination AI exposure (Felten AIOE)</text>
-      <text x={10} y={H / 2} fontSize={10} fill="var(--color-muted-foreground)" transform={`rotate(-90 10 ${H / 2})`} textAnchor="middle">Adaptiveness /15</text>
+      <circle
+        cx={x(program.exposure)}
+        cy={y(program.adaptiveness)}
+        r={7}
+        fill={QUADRANTS[program.quadrant].hex}
+        stroke="var(--color-background)"
+        strokeWidth={2}
+      />
+      <text
+        x={PAD}
+        y={H - 8}
+        fontSize={10}
+        fill="var(--color-muted-foreground)"
+      >
+        {X_MIN}
+      </text>
+      <text
+        x={W - PAD}
+        y={H - 8}
+        fontSize={10}
+        textAnchor="end"
+        fill="var(--color-muted-foreground)"
+      >
+        {X_MAX}
+      </text>
+      <text
+        x={W / 2}
+        y={H - 8}
+        fontSize={10}
+        textAnchor="middle"
+        fill="var(--color-muted-foreground)"
+      >
+        Destination AI exposure (Felten AIOE)
+      </text>
+      <text
+        x={10}
+        y={H / 2}
+        fontSize={10}
+        fill="var(--color-muted-foreground)"
+        transform={`rotate(-90 10 ${H / 2})`}
+        textAnchor="middle"
+      >
+        Adaptiveness /15
+      </text>
     </svg>
   );
 }
@@ -161,9 +260,17 @@ function InterventionSimulator({ program }: { program: V3Program }) {
     .filter(([, s]) => s < 3)
     .map(([d, s]) => {
       const adapt = program.adaptiveness + 1;
-      return { dim: d, from: s, to: s + 1, adapt, quadrant: quadrantAt(program.exposure, adapt) };
+      return {
+        dim: d,
+        from: s,
+        to: s + 1,
+        adapt,
+        quadrant: quadrantAt(program.exposure, adapt),
+      };
     });
-  const anySingleFlips = singleMoves.some((m) => m.quadrant !== program.quadrant);
+  const anySingleFlips = singleMoves.some(
+    (m) => m.quadrant !== program.quadrant,
+  );
 
   return (
     <div>
@@ -185,7 +292,10 @@ function InterventionSimulator({ program }: { program: V3Program }) {
             <span className="w-10 text-center font-mono">
               {sim[d]}
               {sim[d] !== base[d] && (
-                <span className="text-secondary-muted-foreground text-xs"> ({base[d]})</span>
+                <span className="text-secondary-muted-foreground text-xs">
+                  {" "}
+                  ({base[d]})
+                </span>
               )}
             </span>
             <button
@@ -225,11 +335,16 @@ function InterventionSimulator({ program }: { program: V3Program }) {
         <table className="w-full border-collapse text-sm">
           <thead>
             <tr>
-              {["Single improvement", "Adaptiveness", "Resulting position"].map((h) => (
-                <th key={h} className="text-muted-foreground border-border border-b-2 px-3 py-2 text-left text-xs font-medium tracking-[0.18em] uppercase">
-                  {h}
-                </th>
-              ))}
+              {["Single improvement", "Adaptiveness", "Resulting position"].map(
+                (h) => (
+                  <th
+                    key={h}
+                    className="text-muted-foreground border-border border-b-2 px-3 py-2 text-left text-xs font-medium tracking-[0.18em] uppercase"
+                  >
+                    {h}
+                  </th>
+                ),
+              )}
             </tr>
           </thead>
           <tbody>
@@ -242,7 +357,10 @@ function InterventionSimulator({ program }: { program: V3Program }) {
                 <td className="px-3 py-2">
                   {V3_QUADRANT_LABELS[m.quadrant].measured}
                   {m.quadrant !== program.quadrant && (
-                    <span className="text-band-resilient font-semibold"> ← changes</span>
+                    <span className="text-band-resilient font-semibold">
+                      {" "}
+                      ← changes
+                    </span>
                   )}
                 </td>
               </tr>
@@ -252,7 +370,9 @@ function InterventionSimulator({ program }: { program: V3Program }) {
       </div>
       {!anySingleFlips && (
         <div className="bg-card-accent text-muted-foreground mt-4 flex items-start gap-2 rounded-md p-3 text-sm">
-          <span className="text-foreground text-xs font-semibold tracking-wide uppercase">Note</span>
+          <span className="text-foreground text-xs font-semibold tracking-wide uppercase">
+            Note
+          </span>
           <span>
             <strong className="text-foreground font-medium">
               No single-dimension improvement moves this program's position.
@@ -263,8 +383,8 @@ function InterventionSimulator({ program }: { program: V3Program }) {
             </span>{" "}
             points to reach the adaptiveness threshold — and the exposure
             coordinate is a property of the destinations, not the curriculum.
-            Exposure generates steering interventions, not scoring
-            interventions (recommendation rule R2).
+            Exposure generates steering interventions, not scoring interventions
+            (recommendation rule R2).
           </span>
         </div>
       )}
@@ -283,18 +403,25 @@ export default function V3ReportPage() {
           Program not found
         </h1>
         <p className="text-muted-foreground mb-6">
-          No v3 assessment exists for “{code}” — v3 covers the{" "}
-          {V3_META.placed} programs with a destination exposure measurement.
+          No v3 assessment exists for “{code}” — v3 covers the {V3_META.placed}{" "}
+          programs with a destination exposure measurement.
         </p>
-        <Link to="/insights" className="text-secondary-muted-foreground underline">
+        <Link
+          to="/insights"
+          className="text-secondary-muted-foreground underline"
+        >
           Back to the portfolio overview
         </Link>
       </div>
     );
   }
 
-  const gaugePct = Math.round(((program.exposure - X_MIN) / (X_MAX - X_MIN)) * 100);
-  const medianPct = Math.round(((V3_META.expMedian - X_MIN) / (X_MAX - X_MIN)) * 100);
+  const gaugePct = Math.round(
+    ((program.exposure - X_MIN) / (X_MAX - X_MIN)) * 100,
+  );
+  const medianPct = Math.round(
+    ((V3_META.expMedian - X_MIN) / (X_MAX - X_MIN)) * 100,
+  );
   const quadrantMoved = program.quadrant !== program.v2Quadrant;
   const finding = findingFor(program);
 
@@ -315,9 +442,15 @@ export default function V3ReportPage() {
           {/* In this report — three-part map (U10) */}
           <nav className="text-muted-foreground mt-5 flex flex-wrap gap-x-6 gap-y-1 text-sm">
             <span className="text-foreground font-medium">In this report:</span>
-            <a href="#finding" className="underline">Part A — The finding</a>
-            <a href="#market" className="underline">Part B — Market evidence &amp; improvement plan</a>
-            <a href="#method" className="underline">Part C — Method &amp; provenance</a>
+            <a href="#finding" className="underline">
+              Part A — The finding
+            </a>
+            <a href="#market" className="underline">
+              Part B — Market evidence &amp; improvement plan
+            </a>
+            <a href="#method" className="underline">
+              Part C — Method &amp; provenance
+            </a>
           </nav>
         </div>
 
@@ -329,19 +462,27 @@ export default function V3ReportPage() {
             <div className="flex flex-col gap-5">
               <div>
                 <CardLabel>The finding</CardLabel>
-                <p className="text-foreground text-base leading-relaxed" data-testid="finding-block">
+                <p
+                  className="text-foreground text-base leading-relaxed"
+                  data-testid="finding-block"
+                >
                   {finding.finding}
                 </p>
               </div>
               <div>
                 <CardLabel>What this does and does not mean</CardLabel>
-                <p className="text-muted-foreground text-sm leading-relaxed">{finding.meaning}</p>
+                <p className="text-muted-foreground text-sm leading-relaxed">
+                  {finding.meaning}
+                </p>
               </div>
               <div>
                 <CardLabel>How firm is this</CardLabel>
                 <p className="text-muted-foreground text-sm leading-relaxed">
                   {finding.firmness}{" "}
-                  <a href="#method" className="text-secondary-muted-foreground underline">
+                  <a
+                    href="#method"
+                    className="text-secondary-muted-foreground underline"
+                  >
                     Full measurement provenance: Part C.
                   </a>
                 </p>
@@ -355,7 +496,10 @@ export default function V3ReportPage() {
                 </ol>
                 <p className="text-muted-foreground mt-2 text-xs">
                   Scoped with owners and timelines in{" "}
-                  <a href="#market" className="underline">Part B</a>.
+                  <a href="#market" className="underline">
+                    Part B
+                  </a>
+                  .
                 </p>
               </div>
             </div>
@@ -373,7 +517,10 @@ export default function V3ReportPage() {
                     <p className="text-muted-foreground text-xs tracking-[0.18em] uppercase">
                       Exposure (AIOE)
                     </p>
-                    <p className="font-mono text-4xl font-semibold" data-testid="v3-exposure">
+                    <p
+                      className="font-mono text-4xl font-semibold"
+                      data-testid="v3-exposure"
+                    >
                       {program.exposure.toFixed(1)}
                     </p>
                     <p className="text-muted-foreground text-xs">
@@ -389,8 +536,8 @@ export default function V3ReportPage() {
                       <span className="text-muted-foreground text-lg">/15</span>
                     </p>
                     <p className="text-muted-foreground text-xs">
-                      ±1 interval {program.adaptInterval[0]}–{program.adaptInterval[1]} · median{" "}
-                      {V3_META.adaptMedian}
+                      ±1 interval {program.adaptInterval[0]}–
+                      {program.adaptInterval[1]} · median {V3_META.adaptMedian}
                     </p>
                   </div>
                   <div>
@@ -408,20 +555,28 @@ export default function V3ReportPage() {
                   </div>
                 </div>
                 <div className="mt-6 grid max-w-md grid-cols-1 gap-x-8 gap-y-1.5 text-sm sm:grid-cols-2">
-                  {(Object.entries(program.quadrantDist) as [V3Quadrant, number][]).map(
-                    ([q, p]) => (
-                      <div key={q} className="flex items-center justify-between gap-2">
-                        <span className="text-muted-foreground flex items-center gap-1.5 text-xs whitespace-nowrap">
-                          <span
-                            className="inline-block h-2 w-2 shrink-0 rounded-full"
-                            style={{ backgroundColor: QUADRANTS[q].hex }}
-                          />
-                          {V3_QUADRANT_LABELS[q].compact}
-                        </span>
-                        <span className="font-mono text-xs">{(p * 100).toFixed(1)}%</span>
-                      </div>
-                    ),
-                  )}
+                  {(
+                    Object.entries(program.quadrantDist) as [
+                      V3Quadrant,
+                      number,
+                    ][]
+                  ).map(([q, p]) => (
+                    <div
+                      key={q}
+                      className="flex items-center justify-between gap-2"
+                    >
+                      <span className="text-muted-foreground flex items-center gap-1.5 text-xs whitespace-nowrap">
+                        <span
+                          className="inline-block h-2 w-2 shrink-0 rounded-full"
+                          style={{ backgroundColor: QUADRANTS[q].hex }}
+                        />
+                        {V3_QUADRANT_LABELS[q].compact}
+                      </span>
+                      <span className="font-mono text-xs">
+                        {(p * 100).toFixed(1)}%
+                      </span>
+                    </div>
+                  ))}
                 </div>
               </div>
               <div className="w-full max-w-sm md:w-80">
@@ -463,20 +618,29 @@ export default function V3ReportPage() {
                     <span>{X_MAX}</span>
                   </div>
                   <p className="text-muted-foreground text-right text-xs">
-                    Portfolio median <span className="font-mono">{V3_META.expMedian}</span>
+                    Portfolio median{" "}
+                    <span className="font-mono">{V3_META.expMedian}</span>
                   </p>
                 </div>
               </div>
               <div className="grid grid-cols-3 gap-3 text-center">
                 <div className="bg-card-accent rounded-md p-3">
-                  <p className="font-mono text-xl font-semibold">{program.exposure.toFixed(1)}</p>
-                  <p className="text-muted-foreground text-xs">Unweighted mean (axis)</p>
+                  <p className="font-mono text-xl font-semibold">
+                    {program.exposure.toFixed(1)}
+                  </p>
+                  <p className="text-muted-foreground text-xs">
+                    Unweighted mean (axis)
+                  </p>
                 </div>
                 <div className="bg-card-accent rounded-md p-3">
                   <p className="font-mono text-xl font-semibold">
-                    {program.entryExposure === null ? "—" : program.entryExposure.toFixed(1)}
+                    {program.entryExposure === null
+                      ? "—"
+                      : program.entryExposure.toFixed(1)}
                   </p>
-                  <p className="text-muted-foreground text-xs">Entry-stage only (R6)</p>
+                  <p className="text-muted-foreground text-xs">
+                    Entry-stage only (R6)
+                  </p>
                 </div>
                 <div className="bg-card-accent rounded-md p-3">
                   <p className="font-mono text-xl font-semibold">—</p>
@@ -500,21 +664,20 @@ export default function V3ReportPage() {
                   >
                     Felten, Raj &amp; Seamans, 2021
                   </a>
-                  ): a published measure, for each of ~770 occupations, of
-                  how much that occupation's tasks overlap with what current AI
-                  can do, rescaled 0–100. A value of{" "}
-                  {program.exposure.toFixed(1)} says a large share of the tasks
-                  in this program's destination occupations overlap with AI
-                  capability. It does <strong className="text-foreground">not</strong>{" "}
-                  mean those jobs are disappearing — across the Australian
-                  labour market, the most AI-exposed occupations are projected
-                  to grow, because exposed work tends to be skilled work.
-                  Exposure indicates where the <em>content</em> of work is
-                  likely to change; what that change means for graduates depends
-                  on the adaptiveness axis. (Every placed program sits high on
-                  AIOE — portfolio minimum {V3_META.expRange[0]} — because the
-                  index's low end is physical and manual work graduates do not
-                  enter.)
+                  ): a published measure, for each of ~770 occupations, of how
+                  much that occupation's tasks overlap with what current AI can
+                  do, rescaled 0–100. A value of {program.exposure.toFixed(1)}{" "}
+                  says a large share of the tasks in this program's destination
+                  occupations overlap with AI capability. It does{" "}
+                  <strong className="text-foreground">not</strong> mean those
+                  jobs are disappearing — across the Australian labour market,
+                  the most AI-exposed occupations are projected to grow, because
+                  exposed work tends to be skilled work. Exposure indicates
+                  where the <em>content</em> of work is likely to change; what
+                  that change means for graduates depends on the adaptiveness
+                  axis. (Every placed program sits high on AIOE — portfolio
+                  minimum {V3_META.expRange[0]} — because the index's low end is
+                  physical and manual work graduates do not enter.)
                 </span>
               </div>
             </CardContent>
@@ -529,11 +692,11 @@ export default function V3ReportPage() {
                 Scored from curriculum evidence, 0–3 per dimension
               </p>
               <div className="flex flex-col gap-3">
-                {(Object.entries(program.dimensionScores) as [string, number][]).map(
-                  ([d, s]) => (
-                    <DimBar key={d} code={d} score={s} />
-                  ),
-                )}
+                {(
+                  Object.entries(program.dimensionScores) as [string, number][]
+                ).map(([d, s]) => (
+                  <DimBar key={d} code={d} score={s} />
+                ))}
               </div>
               <div className="border-border mt-4 flex items-center justify-between border-t pt-4">
                 <span className="text-muted-foreground text-sm">
@@ -559,8 +722,8 @@ export default function V3ReportPage() {
                     key={label}
                     className={`rounded-full px-4 py-1.5 text-xs font-semibold tracking-[0.18em] uppercase ${
                       result === "PASS"
-                        ? "bg-[#E8F5EE] text-band-resilient"
-                        : "bg-[#FDE8E8] text-band-critical"
+                        ? "text-band-resilient bg-[#E8F5EE]"
+                        : "text-band-critical bg-[#FDE8E8]"
                     }`}
                   >
                     {label} {result === "PASS" ? "✓" : "✗"}
@@ -572,10 +735,14 @@ export default function V3ReportPage() {
         </div>
 
         {/* ================= PART B — MARKET EVIDENCE & PLAN ================= */}
-        <PartHeading id="market" part="Part B" title="Market evidence & improvement plan" />
+        <PartHeading
+          id="market"
+          part="Part B"
+          title="Market evidence & improvement plan"
+        />
         <p className="text-muted-foreground mb-5 text-sm">
-          Confidence is stated on each section below; every data source behind these figures is
-          cited in full in{" "}
+          Confidence is stated on each section below; every data source behind
+          these figures is cited in full in{" "}
           <a href="#sources" className="underline">
             Data sources &amp; references
           </a>{" "}
@@ -598,8 +765,18 @@ export default function V3ReportPage() {
               <table className="w-full border-collapse text-sm">
                 <thead>
                   <tr>
-                    {["Destination title", "SOC occupation", "AIOE", "Stages", "Crosswalk", "Mapping"].map((h) => (
-                      <th key={h} className="text-muted-foreground border-border border-b-2 px-3 py-2 text-left text-xs font-medium tracking-[0.18em] uppercase">
+                    {[
+                      "Destination title",
+                      "SOC occupation",
+                      "AIOE",
+                      "Stages",
+                      "Crosswalk",
+                      "Mapping",
+                    ].map((h) => (
+                      <th
+                        key={h}
+                        className="text-muted-foreground border-border border-b-2 px-3 py-2 text-left text-xs font-medium tracking-[0.18em] uppercase"
+                      >
                         {h}
                       </th>
                     ))}
@@ -612,14 +789,19 @@ export default function V3ReportPage() {
                       <tr key={d.title} className="border-border border-b">
                         <td className="px-3 py-2">{d.title}</td>
                         <td className="text-muted-foreground px-3 py-2">
-                          {d.socTitle} <span className="font-mono text-xs">({d.soc})</span>
+                          {d.socTitle}{" "}
+                          <span className="font-mono text-xs">({d.soc})</span>
                         </td>
-                        <td className="px-3 py-2 font-mono">{d.aioe.toFixed(1)}</td>
+                        <td className="px-3 py-2 font-mono">
+                          {d.aioe.toFixed(1)}
+                        </td>
                         <td className="text-muted-foreground px-3 py-2 text-xs">
                           {d.stages.join(", ")}
                         </td>
                         <td className="text-muted-foreground px-3 py-2 text-xs">
-                          {d.crosswalkSource === "preexisting_288" ? "inherited" : "Aug 2026"}
+                          {d.crosswalkSource === "preexisting_288"
+                            ? "inherited"
+                            : "Aug 2026"}
                         </td>
                         <td className="px-3 py-2">
                           <span
@@ -703,17 +885,31 @@ export default function V3ReportPage() {
                       ],
                       [
                         "coverage",
-                        `${(program.coverage * 100).toFixed(0)}% — ${program.nTitles}/${program.nTitles} destination titles mapped (${program.nMedium} medium/low-confidence)`,
+                        `${(program.coverage * 100).toFixed(0)}% — ${
+                          program.nTitles
+                        }/${program.nTitles} destination titles mapped (${
+                          program.nMedium
+                        } medium/low-confidence)`,
                       ],
                       [
                         "crosswalk_mix",
-                        `${program.nInherited} titles via inherited 288-title index · ${program.nNewlyMapped} newly mapped Aug 2026${program.nExtension ? ` · ${program.nExtension} mapped in the extension pass` : ""}`,
+                        `${
+                          program.nInherited
+                        } titles via inherited 288-title index · ${
+                          program.nNewlyMapped
+                        } newly mapped Aug 2026${
+                          program.nExtension
+                            ? ` · ${program.nExtension} mapped in the extension pass`
+                            : ""
+                        }`,
                       ],
                       ["crosswalk_authored", V3_META.crosswalkAuthored],
                     ] as [string, string][]
                   ).map(([k, v]) => (
                     <tr key={k} className="border-border border-b">
-                      <td className="text-muted-foreground py-2 pr-4 font-mono text-xs">{k}</td>
+                      <td className="text-muted-foreground py-2 pr-4 font-mono text-xs">
+                        {k}
+                      </td>
                       <td className="py-2">{v}</td>
                     </tr>
                   ))}
@@ -744,55 +940,98 @@ export default function V3ReportPage() {
             Version comparison — how this measurement differs from the previous
             instrument (DFVA v2)
           </summary>
-        <Card className="border-0 shadow-none">
-          <CardContent className="pt-2">
-            <CardLabel>Version comparison</CardLabel>
-            <CardTitle className="text-lg">What changed from DFVA v2</CardTitle>
-            <p className="text-muted-foreground mt-1 mb-6 text-sm">
-              v2 published exposure {program.v2Exposure} from a provisional
-              LLM-scored proxy (Spearman ρ = 0.42 against the specified index).
-              v3 measures {program.exposure.toFixed(1)} on the published Felten
-              AIOE —{" "}
-              {quadrantMoved
-                ? `this program's position changes (${program.v2Quadrant} → ${program.quadrant})`
-                : `this program's position holds (${V3_QUADRANT_LABELS[program.quadrant].measured.toLowerCase()}), now with a stated ${Math.round(program.modalProb * 100)}% stability`}
-              . Across the reference cohort, 20 of 34 placed programs change
-              quadrant under the authoritative index.
-            </p>
-            <div className="overflow-x-auto">
-              <table className="w-full border-collapse text-sm">
-                <thead>
-                  <tr>
-                    {["", "v2 (published)", "v3 (this report)"].map((h, i) => (
-                      <th key={i} className="text-muted-foreground border-border border-b-2 px-3 py-2 text-left text-xs font-medium tracking-[0.18em] uppercase">
-                        {h}
-                      </th>
-                    ))}
-                  </tr>
-                </thead>
-                <tbody>
-                  {(
-                    [
-                      ["Exposure index", "Provisional LLM proxy (marked for replacement)", "Felten AIOE, published appendix, provenance pinned (R1)"],
-                      ["This program's exposure", String(program.v2Exposure), program.exposure.toFixed(1)],
-                      ["Portfolio exposure median", String(V3_META.v2ExpMedian), String(V3_META.expMedian)],
-                      ["Destination coverage", "Not reported per program", `Reported and enforced — ${program.nTitles}/${program.nTitles} titles mapped (R2)`],
-                      ["Quadrant label", "Categorical, narrative name", `Probability-qualified, measurement-first name (R4, R10) — ${Math.round(program.modalProb * 100)}% modal`],
-                      ["Uncertainty", "Not stated", `Adaptiveness ±1 interval [${program.adaptInterval[0]}–${program.adaptInterval[1]}]; full quadrant distribution shown`],
-                      ["Destination grain", "Proxy scored per program from mixed evidence", "Alumni titles of this program's own graduates (JIR cohort n = " + program.jirN + "); entry-stage exposure published (R6); share-weighting (R5) open — no shares at alumni-title grain"],
-                    ] as [string, string, string][]
-                  ).map(([k, a, b]) => (
-                    <tr key={k} className="border-border border-b">
-                      <td className="text-muted-foreground px-3 py-2">{k}</td>
-                      <td className="px-3 py-2">{a}</td>
-                      <td className="px-3 py-2">{b}</td>
+          <Card className="border-0 shadow-none">
+            <CardContent className="pt-2">
+              <CardLabel>Version comparison</CardLabel>
+              <CardTitle className="text-lg">
+                What changed from DFVA v2
+              </CardTitle>
+              <p className="text-muted-foreground mt-1 mb-6 text-sm">
+                v2 published exposure {program.v2Exposure} from a provisional
+                LLM-scored proxy (Spearman ρ = 0.42 against the specified
+                index). v3 measures {program.exposure.toFixed(1)} on the
+                published Felten AIOE —{" "}
+                {quadrantMoved
+                  ? `this program's position changes (${program.v2Quadrant} → ${program.quadrant})`
+                  : `this program's position holds (${V3_QUADRANT_LABELS[
+                      program.quadrant
+                    ].measured.toLowerCase()}), now with a stated ${Math.round(
+                      program.modalProb * 100,
+                    )}% stability`}
+                . Across the reference cohort, 20 of 34 placed programs change
+                quadrant under the authoritative index.
+              </p>
+              <div className="overflow-x-auto">
+                <table className="w-full border-collapse text-sm">
+                  <thead>
+                    <tr>
+                      {["", "v2 (published)", "v3 (this report)"].map(
+                        (h, i) => (
+                          <th
+                            key={i}
+                            className="text-muted-foreground border-border border-b-2 px-3 py-2 text-left text-xs font-medium tracking-[0.18em] uppercase"
+                          >
+                            {h}
+                          </th>
+                        ),
+                      )}
                     </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </CardContent>
-        </Card>
+                  </thead>
+                  <tbody>
+                    {(
+                      [
+                        [
+                          "Exposure index",
+                          "Provisional LLM proxy (marked for replacement)",
+                          "Felten AIOE, published appendix, provenance pinned (R1)",
+                        ],
+                        [
+                          "This program's exposure",
+                          String(program.v2Exposure),
+                          program.exposure.toFixed(1),
+                        ],
+                        [
+                          "Portfolio exposure median",
+                          String(V3_META.v2ExpMedian),
+                          String(V3_META.expMedian),
+                        ],
+                        [
+                          "Destination coverage",
+                          "Not reported per program",
+                          `Reported and enforced — ${program.nTitles}/${program.nTitles} titles mapped (R2)`,
+                        ],
+                        [
+                          "Quadrant label",
+                          "Categorical, narrative name",
+                          `Probability-qualified, measurement-first name (R4, R10) — ${Math.round(
+                            program.modalProb * 100,
+                          )}% modal`,
+                        ],
+                        [
+                          "Uncertainty",
+                          "Not stated",
+                          `Adaptiveness ±1 interval [${program.adaptInterval[0]}–${program.adaptInterval[1]}]; full quadrant distribution shown`,
+                        ],
+                        [
+                          "Destination grain",
+                          "Proxy scored per program from mixed evidence",
+                          "Alumni titles of this program's own graduates (JIR cohort n = " +
+                            program.jirN +
+                            "); entry-stage exposure published (R6); share-weighting (R5) open — no shares at alumni-title grain",
+                        ],
+                      ] as [string, string, string][]
+                    ).map(([k, a, b]) => (
+                      <tr key={k} className="border-border border-b">
+                        <td className="text-muted-foreground px-3 py-2">{k}</td>
+                        <td className="px-3 py-2">{a}</td>
+                        <td className="px-3 py-2">{b}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </CardContent>
+          </Card>
         </details>
 
         <MethodGlossary

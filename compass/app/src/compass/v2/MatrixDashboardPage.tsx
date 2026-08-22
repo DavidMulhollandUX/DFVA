@@ -55,7 +55,7 @@ function SectionHeading({
   blurb: string;
 }) {
   return (
-    <div id={id} className="scroll-mt-6 mt-12 mb-5 first:mt-0">
+    <div id={id} className="mt-12 mb-5 scroll-mt-6 first:mt-0">
       <h2 className="text-foreground font-serif text-2xl tracking-tight">
         {title}
       </h2>
@@ -164,9 +164,9 @@ export default function MatrixDashboardPage() {
                   <span className="font-medium">
                     {stats.weakest.label} is the portfolio's weakest capability
                   </span>{" "}
-                  at an average of {stats.weakest.avg.toFixed(1)} out of 3 —
-                  the single dimension where a coordinated response would move
-                  the most programs.
+                  at an average of {stats.weakest.avg.toFixed(1)} out of 3 — the
+                  single dimension where a coordinated response would move the
+                  most programs.
                 </p>
               </div>
               <div className="flex items-start gap-3">
@@ -209,9 +209,7 @@ export default function MatrixDashboardPage() {
                   return (
                     <div key={q}>
                       <div className="mb-1 flex items-baseline justify-between gap-4 text-sm">
-                        <span className="font-medium">
-                          {QUADRANTS[q].desc}
-                        </span>
+                        <span className="font-medium">{QUADRANTS[q].desc}</span>
                         <span className="shrink-0 font-medium">
                           {count}{" "}
                           <span className="text-muted-foreground text-xs">
@@ -341,8 +339,7 @@ export default function MatrixDashboardPage() {
                     >
                       <ProgramLink row={r} />
                       <span className="text-muted-foreground shrink-0 text-xs">
-                        {r.adaptiveness}/15 · exposure{" "}
-                        {r.exposure?.toFixed(0)}
+                        {r.adaptiveness}/15 · exposure {r.exposure?.toFixed(0)}
                       </span>
                     </li>
                   ))}
@@ -434,7 +431,10 @@ export default function MatrixDashboardPage() {
                 </thead>
                 <tbody>
                   {stats.faculties.map((f) => (
-                    <tr key={f.name} className="border-border hover:bg-card-accent border-b">
+                    <tr
+                      key={f.name}
+                      className="border-border hover:bg-card-accent border-b"
+                    >
                       <td className="px-3 py-2 font-medium">
                         <Link
                           to={`/insights/faculty/${facultySlug(f.name)}`}
@@ -460,7 +460,9 @@ export default function MatrixDashboardPage() {
                       </td>
                       <td className="px-3 py-2">
                         {f.positions.attention > 0 ? (
-                          <span className={`rounded-full px-2 py-0.5 text-xs font-medium ${QUADRANTS.attention.badgeClass}`}>
+                          <span
+                            className={`rounded-full px-2 py-0.5 text-xs font-medium ${QUADRANTS.attention.badgeClass}`}
+                          >
                             {f.positions.attention}
                           </span>
                         ) : (
@@ -516,7 +518,10 @@ export default function MatrixDashboardPage() {
                 </thead>
                 <tbody>
                   {tableRows.map((r) => (
-                    <tr key={r.code} className="border-border/40 hover:bg-card-accent border-b">
+                    <tr
+                      key={r.code}
+                      className="border-border/40 hover:bg-card-accent border-b"
+                    >
                       <td className="px-3 py-1.5 font-medium whitespace-nowrap">
                         <ProgramLink row={r} />
                       </td>
@@ -526,7 +531,9 @@ export default function MatrixDashboardPage() {
                       <td className="px-3 py-1.5">
                         {r.position ? (
                           <span
-                            className={`inline-block rounded-full px-2 py-0.5 text-xs font-medium whitespace-nowrap ${QUADRANTS[r.position].badgeClass}`}
+                            className={`inline-block rounded-full px-2 py-0.5 text-xs font-medium whitespace-nowrap ${
+                              QUADRANTS[r.position].badgeClass
+                            }`}
                           >
                             {QUADRANTS[r.position].desc}
                           </span>
@@ -551,12 +558,20 @@ export default function MatrixDashboardPage() {
                         </td>
                       ))}
                       <td
-                        className={`px-3 py-1.5 text-xs ${r.decisionMaking === "PASS" ? "text-band-resilient" : "text-band-critical"}`}
+                        className={`px-3 py-1.5 text-xs ${
+                          r.decisionMaking === "PASS"
+                            ? "text-band-resilient"
+                            : "text-band-critical"
+                        }`}
                       >
                         {r.decisionMaking === "PASS" ? "Held" : "Not held"}
                       </td>
                       <td
-                        className={`px-3 py-1.5 text-xs ${r.domainDepth === "PASS" ? "text-band-resilient" : "text-band-critical"}`}
+                        className={`px-3 py-1.5 text-xs ${
+                          r.domainDepth === "PASS"
+                            ? "text-band-resilient"
+                            : "text-band-critical"
+                        }`}
                       >
                         {r.domainDepth === "PASS" ? "Held" : "Not held"}
                       </td>
