@@ -250,6 +250,58 @@
    },
    "priority": true
   },
+  "080cl": {
+   "assembled": false,
+   "base": "https://handbook.unimelb.edu.au/2026/courses/080cl",
+   "name": "Master of Psychology (Clinical Psychology)/Doctor of Philosophy",
+   "pages": {
+    "https://handbook.unimelb.edu.au/2026/courses/080cl": {
+     "chars": 0,
+     "slot": "course",
+     "status": "pending",
+     "ts": null
+    },
+    "https://handbook.unimelb.edu.au/2026/courses/080cl/attributes-outcomes-skills": {
+     "chars": 0,
+     "slot": "attributes",
+     "status": "pending",
+     "ts": null
+    },
+    "https://handbook.unimelb.edu.au/2026/courses/080cl/course-structure": {
+     "chars": 0,
+     "slot": "structure",
+     "status": "pending",
+     "ts": null
+    }
+   },
+   "priority": true
+  },
+  "080cn": {
+   "assembled": false,
+   "base": "https://handbook.unimelb.edu.au/2026/courses/080cn",
+   "name": "Master of Psychology (Clinical Neuropsychology)/Doctor of Philosophy",
+   "pages": {
+    "https://handbook.unimelb.edu.au/2026/courses/080cn": {
+     "chars": 0,
+     "slot": "course",
+     "status": "pending",
+     "ts": null
+    },
+    "https://handbook.unimelb.edu.au/2026/courses/080cn/attributes-outcomes-skills": {
+     "chars": 0,
+     "slot": "attributes",
+     "status": "pending",
+     "ts": null
+    },
+    "https://handbook.unimelb.edu.au/2026/courses/080cn/course-structure": {
+     "chars": 0,
+     "slot": "structure",
+     "status": "pending",
+     "ts": null
+    }
+   },
+   "priority": true
+  },
   "097ab": {
    "assembled": true,
    "base": "https://handbook.unimelb.edu.au/2026/courses/097ab",
@@ -1860,6 +1912,32 @@
      "ts": null
     }
    }
+  },
+  "300bb": {
+   "assembled": false,
+   "base": "https://handbook.unimelb.edu.au/2026/courses/300bb",
+   "name": "Doctor of Education",
+   "pages": {
+    "https://handbook.unimelb.edu.au/2026/courses/300bb": {
+     "chars": 0,
+     "slot": "course",
+     "status": "pending",
+     "ts": null
+    },
+    "https://handbook.unimelb.edu.au/2026/courses/300bb/attributes-outcomes-skills": {
+     "chars": 0,
+     "slot": "attributes",
+     "status": "pending",
+     "ts": null
+    },
+    "https://handbook.unimelb.edu.au/2026/courses/300bb/course-structure": {
+     "chars": 0,
+     "slot": "structure",
+     "status": "pending",
+     "ts": null
+    }
+   },
+   "priority": true
   },
   "305bb": {
    "assembled": true,
@@ -6596,6 +6674,32 @@
     }
    }
   },
+  "b-des": {
+   "assembled": false,
+   "base": "https://handbook.unimelb.edu.au/2026/courses/b-des",
+   "name": "Bachelor of Design",
+   "pages": {
+    "https://handbook.unimelb.edu.au/2026/courses/b-des": {
+     "chars": 0,
+     "slot": "course",
+     "status": "pending",
+     "ts": null
+    },
+    "https://handbook.unimelb.edu.au/2026/courses/b-des/attributes-outcomes-skills": {
+     "chars": 0,
+     "slot": "attributes",
+     "status": "pending",
+     "ts": null
+    },
+    "https://handbook.unimelb.edu.au/2026/courses/b-des/course-structure": {
+     "chars": 0,
+     "slot": "structure",
+     "status": "pending",
+     "ts": null
+    }
+   },
+   "priority": true
+  },
   "b-faacting": {
    "assembled": false,
    "base": "https://handbook.unimelb.edu.au/2026/courses/b-faacting",
@@ -6846,6 +6950,32 @@
     }
    }
   },
+  "b-sci": {
+   "assembled": false,
+   "base": "https://handbook.unimelb.edu.au/2026/courses/b-sci",
+   "name": "Bachelor of Science",
+   "pages": {
+    "https://handbook.unimelb.edu.au/2026/courses/b-sci": {
+     "chars": 0,
+     "slot": "course",
+     "status": "pending",
+     "ts": null
+    },
+    "https://handbook.unimelb.edu.au/2026/courses/b-sci/attributes-outcomes-skills": {
+     "chars": 0,
+     "slot": "attributes",
+     "status": "pending",
+     "ts": null
+    },
+    "https://handbook.unimelb.edu.au/2026/courses/b-sci/course-structure": {
+     "chars": 0,
+     "slot": "structure",
+     "status": "pending",
+     "ts": null
+    }
+   },
+   "priority": true
+  },
   "b-sciextd": {
    "assembled": false,
    "base": "https://handbook.unimelb.edu.au/2026/courses/b-sciextd",
@@ -6895,6 +7025,32 @@
      "ts": null
     }
    }
+  },
+  "dr-philedp": {
+   "assembled": false,
+   "base": "https://handbook.unimelb.edu.au/2026/courses/dr-philedp",
+   "name": "Master of Psychology (Educational and Developmental)/Doctor of Philosophy",
+   "pages": {
+    "https://handbook.unimelb.edu.au/2026/courses/dr-philedp": {
+     "chars": 0,
+     "slot": "course",
+     "status": "pending",
+     "ts": null
+    },
+    "https://handbook.unimelb.edu.au/2026/courses/dr-philedp/attributes-outcomes-skills": {
+     "chars": 0,
+     "slot": "attributes",
+     "status": "pending",
+     "ts": null
+    },
+    "https://handbook.unimelb.edu.au/2026/courses/dr-philedp/course-structure": {
+     "chars": 0,
+     "slot": "structure",
+     "status": "pending",
+     "ts": null
+    }
+   },
+   "priority": true
   },
   "j17re": {
    "assembled": false,
@@ -7142,6 +7298,32 @@
      "slot": "subj-musi90263-assessment",
      "status": "done",
      "ts": "2026-08-20T07:44:37+00:00"
+    }
+   },
+   "priority": true
+  },
+  "mc-actsc": {
+   "assembled": false,
+   "base": "https://handbook.unimelb.edu.au/2026/courses/mc-actsc",
+   "name": "Master of Actuarial Science",
+   "pages": {
+    "https://handbook.unimelb.edu.au/2026/courses/mc-actsc": {
+     "chars": 0,
+     "slot": "course",
+     "status": "pending",
+     "ts": null
+    },
+    "https://handbook.unimelb.edu.au/2026/courses/mc-actsc/attributes-outcomes-skills": {
+     "chars": 0,
+     "slot": "attributes",
+     "status": "pending",
+     "ts": null
+    },
+    "https://handbook.unimelb.edu.au/2026/courses/mc-actsc/course-structure": {
+     "chars": 0,
+     "slot": "structure",
+     "status": "pending",
+     "ts": null
     }
    },
    "priority": true
@@ -8690,6 +8872,32 @@
     }
    }
   },
+  "mc-bamktg": {
+   "assembled": false,
+   "base": "https://handbook.unimelb.edu.au/2026/courses/mc-bamktg",
+   "name": "Master of Business Administration (Marketing)",
+   "pages": {
+    "https://handbook.unimelb.edu.au/2026/courses/mc-bamktg": {
+     "chars": 0,
+     "slot": "course",
+     "status": "pending",
+     "ts": null
+    },
+    "https://handbook.unimelb.edu.au/2026/courses/mc-bamktg/attributes-outcomes-skills": {
+     "chars": 0,
+     "slot": "attributes",
+     "status": "pending",
+     "ts": null
+    },
+    "https://handbook.unimelb.edu.au/2026/courses/mc-bamktg/course-structure": {
+     "chars": 0,
+     "slot": "structure",
+     "status": "pending",
+     "ts": null
+    }
+   },
+   "priority": true
+  },
   "mc-base": {
    "assembled": true,
    "base": "https://handbook.unimelb.edu.au/2026/courses/mc-base",
@@ -8884,6 +9092,32 @@
      "ts": null
     }
    }
+  },
+  "mc-bmedsc": {
+   "assembled": false,
+   "base": "https://handbook.unimelb.edu.au/2026/courses/mc-bmedsc",
+   "name": "Master of Biomedical Science",
+   "pages": {
+    "https://handbook.unimelb.edu.au/2026/courses/mc-bmedsc": {
+     "chars": 0,
+     "slot": "course",
+     "status": "pending",
+     "ts": null
+    },
+    "https://handbook.unimelb.edu.au/2026/courses/mc-bmedsc/attributes-outcomes-skills": {
+     "chars": 0,
+     "slot": "attributes",
+     "status": "pending",
+     "ts": null
+    },
+    "https://handbook.unimelb.edu.au/2026/courses/mc-bmedsc/course-structure": {
+     "chars": 0,
+     "slot": "structure",
+     "status": "pending",
+     "ts": null
+    }
+   },
+   "priority": true
   },
   "mc-bus": {
    "assembled": false,
@@ -9570,6 +9804,32 @@
     "https://handbook.unimelb.edu.au/2026/subjects/mast20029/assessment": {
      "chars": 0,
      "slot": "subj-mast20029-assessment",
+     "status": "pending",
+     "ts": null
+    }
+   },
+   "priority": true
+  },
+  "mc-climsci": {
+   "assembled": false,
+   "base": "https://handbook.unimelb.edu.au/2026/courses/mc-climsci",
+   "name": "Master of Climate Science",
+   "pages": {
+    "https://handbook.unimelb.edu.au/2026/courses/mc-climsci": {
+     "chars": 0,
+     "slot": "course",
+     "status": "pending",
+     "ts": null
+    },
+    "https://handbook.unimelb.edu.au/2026/courses/mc-climsci/attributes-outcomes-skills": {
+     "chars": 0,
+     "slot": "attributes",
+     "status": "pending",
+     "ts": null
+    },
+    "https://handbook.unimelb.edu.au/2026/courses/mc-climsci/course-structure": {
+     "chars": 0,
+     "slot": "structure",
      "status": "pending",
      "ts": null
     }
@@ -12483,6 +12743,32 @@
     }
    }
   },
+  "mc-envlaw": {
+   "assembled": false,
+   "base": "https://handbook.unimelb.edu.au/2026/courses/mc-envlaw",
+   "name": "Master of Environmental Law",
+   "pages": {
+    "https://handbook.unimelb.edu.au/2026/courses/mc-envlaw": {
+     "chars": 0,
+     "slot": "course",
+     "status": "pending",
+     "ts": null
+    },
+    "https://handbook.unimelb.edu.au/2026/courses/mc-envlaw/attributes-outcomes-skills": {
+     "chars": 0,
+     "slot": "attributes",
+     "status": "pending",
+     "ts": null
+    },
+    "https://handbook.unimelb.edu.au/2026/courses/mc-envlaw/course-structure": {
+     "chars": 0,
+     "slot": "structure",
+     "status": "pending",
+     "ts": null
+    }
+   },
+   "priority": true
+  },
   "mc-envsc": {
    "assembled": true,
    "base": "https://handbook.unimelb.edu.au/2026/courses/mc-envsc",
@@ -13245,6 +13531,32 @@
      "ts": null
     }
    }
+  },
+  "mc-indeng": {
+   "assembled": false,
+   "base": "https://handbook.unimelb.edu.au/2026/courses/mc-indeng",
+   "name": "Master of Industrial Engineering",
+   "pages": {
+    "https://handbook.unimelb.edu.au/2026/courses/mc-indeng": {
+     "chars": 0,
+     "slot": "course",
+     "status": "pending",
+     "ts": null
+    },
+    "https://handbook.unimelb.edu.au/2026/courses/mc-indeng/attributes-outcomes-skills": {
+     "chars": 0,
+     "slot": "attributes",
+     "status": "pending",
+     "ts": null
+    },
+    "https://handbook.unimelb.edu.au/2026/courses/mc-indeng/course-structure": {
+     "chars": 0,
+     "slot": "structure",
+     "status": "pending",
+     "ts": null
+    }
+   },
+   "priority": true
   },
   "mc-inslead": {
    "assembled": false,
@@ -15989,6 +16301,58 @@
     }
    }
   },
+  "mc-scibif": {
+   "assembled": false,
+   "base": "https://handbook.unimelb.edu.au/2026/courses/mc-scibif",
+   "name": "Master of Science (Bioinformatics)",
+   "pages": {
+    "https://handbook.unimelb.edu.au/2026/courses/mc-scibif": {
+     "chars": 0,
+     "slot": "course",
+     "status": "pending",
+     "ts": null
+    },
+    "https://handbook.unimelb.edu.au/2026/courses/mc-scibif/attributes-outcomes-skills": {
+     "chars": 0,
+     "slot": "attributes",
+     "status": "pending",
+     "ts": null
+    },
+    "https://handbook.unimelb.edu.au/2026/courses/mc-scibif/course-structure": {
+     "chars": 0,
+     "slot": "structure",
+     "status": "pending",
+     "ts": null
+    }
+   },
+   "priority": true
+  },
+  "mc-scibio": {
+   "assembled": false,
+   "base": "https://handbook.unimelb.edu.au/2026/courses/mc-scibio",
+   "name": "Master of Science (BioSciences)",
+   "pages": {
+    "https://handbook.unimelb.edu.au/2026/courses/mc-scibio": {
+     "chars": 0,
+     "slot": "course",
+     "status": "pending",
+     "ts": null
+    },
+    "https://handbook.unimelb.edu.au/2026/courses/mc-scibio/attributes-outcomes-skills": {
+     "chars": 0,
+     "slot": "attributes",
+     "status": "pending",
+     "ts": null
+    },
+    "https://handbook.unimelb.edu.au/2026/courses/mc-scibio/course-structure": {
+     "chars": 0,
+     "slot": "structure",
+     "status": "pending",
+     "ts": null
+    }
+   },
+   "priority": true
+  },
   "mc-scibit": {
    "assembled": true,
    "base": "https://handbook.unimelb.edu.au/2026/courses/mc-scibit",
@@ -16640,6 +17004,32 @@
     }
    }
   },
+  "mc-sciepi": {
+   "assembled": false,
+   "base": "https://handbook.unimelb.edu.au/2026/courses/mc-sciepi",
+   "name": "Master of Science (Epidemiology)",
+   "pages": {
+    "https://handbook.unimelb.edu.au/2026/courses/mc-sciepi": {
+     "chars": 0,
+     "slot": "course",
+     "status": "pending",
+     "ts": null
+    },
+    "https://handbook.unimelb.edu.au/2026/courses/mc-sciepi/attributes-outcomes-skills": {
+     "chars": 0,
+     "slot": "attributes",
+     "status": "pending",
+     "ts": null
+    },
+    "https://handbook.unimelb.edu.au/2026/courses/mc-sciepi/course-structure": {
+     "chars": 0,
+     "slot": "structure",
+     "status": "pending",
+     "ts": null
+    }
+   },
+   "priority": true
+  },
   "mc-scimat": {
    "assembled": false,
    "base": "https://handbook.unimelb.edu.au/2026/courses/mc-scimat",
@@ -16908,6 +17298,32 @@
      "ts": null
     }
    }
+  },
+  "mc-scwr": {
+   "assembled": false,
+   "base": "https://handbook.unimelb.edu.au/2026/courses/mc-scwr",
+   "name": "Master of Screenwriting",
+   "pages": {
+    "https://handbook.unimelb.edu.au/2026/courses/mc-scwr": {
+     "chars": 0,
+     "slot": "course",
+     "status": "pending",
+     "ts": null
+    },
+    "https://handbook.unimelb.edu.au/2026/courses/mc-scwr/attributes-outcomes-skills": {
+     "chars": 0,
+     "slot": "attributes",
+     "status": "pending",
+     "ts": null
+    },
+    "https://handbook.unimelb.edu.au/2026/courses/mc-scwr/course-structure": {
+     "chars": 0,
+     "slot": "structure",
+     "status": "pending",
+     "ts": null
+    }
+   },
+   "priority": true
   },
   "mc-socw": {
    "assembled": false,
@@ -17962,6 +18378,32 @@
     }
    }
   },
+  "mc-urbhort": {
+   "assembled": false,
+   "base": "https://handbook.unimelb.edu.au/2026/courses/mc-urbhort",
+   "name": "Master of Urban Horticulture",
+   "pages": {
+    "https://handbook.unimelb.edu.au/2026/courses/mc-urbhort": {
+     "chars": 0,
+     "slot": "course",
+     "status": "pending",
+     "ts": null
+    },
+    "https://handbook.unimelb.edu.au/2026/courses/mc-urbhort/attributes-outcomes-skills": {
+     "chars": 0,
+     "slot": "attributes",
+     "status": "pending",
+     "ts": null
+    },
+    "https://handbook.unimelb.edu.au/2026/courses/mc-urbhort/course-structure": {
+     "chars": 0,
+     "slot": "structure",
+     "status": "pending",
+     "ts": null
+    }
+   },
+   "priority": true
+  },
   "mc-urpl": {
    "assembled": false,
    "base": "https://handbook.unimelb.edu.au/2026/courses/mc-urpl",
@@ -18037,6 +18479,32 @@
      "ts": null
     }
    }
+  },
+  "me-dcd": {
+   "assembled": false,
+   "base": "https://handbook.unimelb.edu.au/2026/courses/me-dcd",
+   "name": "Doctor of Clinical Dentistry",
+   "pages": {
+    "https://handbook.unimelb.edu.au/2026/courses/me-dcd": {
+     "chars": 0,
+     "slot": "course",
+     "status": "pending",
+     "ts": null
+    },
+    "https://handbook.unimelb.edu.au/2026/courses/me-dcd/attributes-outcomes-skills": {
+     "chars": 0,
+     "slot": "attributes",
+     "status": "pending",
+     "ts": null
+    },
+    "https://handbook.unimelb.edu.au/2026/courses/me-dcd/course-structure": {
+     "chars": 0,
+     "slot": "structure",
+     "status": "pending",
+     "ts": null
+    }
+   },
+   "priority": true
   },
   "n01aa": {
    "assembled": false,

@@ -273,3 +273,31 @@ def test_init_preserves_priority(q, tmp_path, monkeypatch):
     monkeypatch.setattr(q, "COHORT_EXT", str(tmp_path / "absent.json"))
     q.cmd_init()
     assert q.load()["programs"]["aaa"]["priority"] is True
+
+
+def test_only_scopes_the_batch(q):
+    """`--only` must skip programs outside the set, even in-flight ones that
+    would otherwise sort first — a targeted cycle never spends its batches
+    finishing the wider backlog."""
+    qq = q.load()
+    qq["programs"]["b-des"] = {
+        "name": "Bachelor of Design",
+        "base": "https://example.invalid/b-des",
+        "assembled": False,
+        "pages": {
+            "https://example.invalid/b-des": {
+                "slot": "course", "status": "pending", "chars": 0, "ts": None,
+            }
+        },
+    }
+    # Make the 439fs lease stale so it would normally be reclaimed first.
+    qq["programs"]["439fs"]["pages"]["https://example.invalid/439fs"]["ts"] = (
+        datetime.now(timezone.utc) - timedelta(hours=2)
+    ).isoformat()
+    q.save_queue(qq)
+
+    batch = q.take_batch(q.load(), 8, only={"b-des"})
+    assert [b["code"] for b in batch] == ["b-des"]
+
+    unscoped = q.take_batch(q.load(), 8)
+    assert {b["code"] for b in unscoped} == {"439fs", "b-des"}

@@ -6,7 +6,7 @@ describe("MockAssessmentService", () => {
 
   it("matches known program by URL", async () => {
     const result = await service.assess(
-      "https://handbook.unimelb.edu.au/2025/courses/b-des",
+      "https://handbook.unimelb.edu.au/2026/courses/b-des",
     );
     expect(result.programName).toBe("Bachelor of Design");
     expect(result.score).toBe(18);
@@ -26,7 +26,7 @@ describe("MockAssessmentService", () => {
 
   it("matches case-insensitive URL", async () => {
     const result = await service.assess(
-      "HTTPS://HANDBOOK.UNIMELB.EDU.AU/2025/COURSES/B-DES",
+      "HTTPS://HANDBOOK.UNIMELB.EDU.AU/2026/COURSES/B-DES",
     );
     expect(result.programName).toBe("Bachelor of Design");
   });
@@ -48,7 +48,7 @@ describe("MockAssessmentService", () => {
 
   it("sets reportJson with correct slugs", async () => {
     const result = await service.assess(
-      "https://handbook.unimelb.edu.au/2025/courses/b-des",
+      "https://handbook.unimelb.edu.au/2026/courses/b-des",
     );
     expect(result.reportJson.assessmentSlug).toBe("dfva-b-des");
     expect(result.reportJson.marketSlug).toBe("dfva-market-b-des");

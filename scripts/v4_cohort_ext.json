@@ -1174,5 +1174,131 @@
   "url": "https://handbook.unimelb.edu.au/2026/courses/n01aa",
   "cohort": "extension",
   "faculty": "Medicine, Dentistry and Health Sciences"
+ },
+ {
+  "code": "b-des",
+  "name": "Bachelor of Design",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/b-des",
+  "cohort": "extension",
+  "faculty": "Architecture, Building & Planning"
+ },
+ {
+  "code": "b-sci",
+  "name": "Bachelor of Science",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/b-sci",
+  "cohort": "extension",
+  "faculty": "Science"
+ },
+ {
+  "code": "mc-urbhort",
+  "name": "Master of Urban Horticulture",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-urbhort",
+  "cohort": "extension",
+  "faculty": "Science"
+ },
+ {
+  "code": "mc-sciepi",
+  "name": "Master of Science (Epidemiology)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-sciepi",
+  "cohort": "extension",
+  "faculty": "Science"
+ },
+ {
+  "code": "mc-scibif",
+  "name": "Master of Science (Bioinformatics)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-scibif",
+  "cohort": "extension",
+  "faculty": "Science"
+ },
+ {
+  "code": "mc-actsc",
+  "name": "Master of Actuarial Science",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-actsc",
+  "cohort": "extension",
+  "faculty": "Science"
+ },
+ {
+  "code": "mc-bmedsc",
+  "name": "Master of Biomedical Science",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-bmedsc",
+  "cohort": "extension",
+  "faculty": "Medicine, Dentistry & Health"
+ },
+ {
+  "code": "mc-scibio",
+  "name": "Master of Science (BioSciences)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-scibio",
+  "cohort": "extension",
+  "faculty": "Science"
+ },
+ {
+  "code": "mc-climsci",
+  "name": "Master of Climate Science",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-climsci",
+  "cohort": "extension",
+  "faculty": "Science"
+ },
+ {
+  "code": "mc-bamktg",
+  "name": "Master of Business Administration (Marketing)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-bamktg",
+  "cohort": "extension",
+  "faculty": "Business & Economics"
+ },
+ {
+  "code": "mc-envlaw",
+  "name": "Master of Environmental Law",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-envlaw",
+  "cohort": "extension",
+  "faculty": "Law"
+ },
+ {
+  "code": "mc-indeng",
+  "name": "Master of Industrial Engineering",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-indeng",
+  "cohort": "extension",
+  "faculty": "Engineering & IT"
+ },
+ {
+  "code": "mc-scwr",
+  "name": "Master of Screenwriting",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-scwr",
+  "cohort": "extension",
+  "faculty": "Arts"
+ },
+ {
+  "code": "me-dcd",
+  "name": "Doctor of Clinical Dentistry",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/me-dcd",
+  "cohort": "extension",
+  "faculty": "Medicine, Dentistry & Health"
+ },
+ {
+  "code": "dr-philedp",
+  "name": "Master of Psychology (Educational and Developmental)/Doctor of Philosophy",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/dr-philedp",
+  "cohort": "extension",
+  "faculty": "Medicine, Dentistry & Health"
+ },
+ {
+  "code": "080cn",
+  "name": "Master of Psychology (Clinical Neuropsychology)/Doctor of Philosophy",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/080cn",
+  "cohort": "extension",
+  "faculty": "Medicine, Dentistry & Health"
+ },
+ {
+  "code": "080cl",
+  "name": "Master of Psychology (Clinical Psychology)/Doctor of Philosophy",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/080cl",
+  "cohort": "extension",
+  "faculty": "Medicine, Dentistry & Health"
+ },
+ {
+  "code": "300bb",
+  "name": "Doctor of Education",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/300bb",
+  "cohort": "extension",
+  "faculty": "Education"
  }
 ]

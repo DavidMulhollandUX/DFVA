@@ -58,7 +58,7 @@ export const PROGRAMS: ProgramReport[] = [
     assessmentSlug: "dfva-b-des",
     marketSlug: "dfva-market-b-des",
     recommendSlug: "dfva-recommend-b-des",
-    handbookUrl: "https://handbook.unimelb.edu.au/2025/courses/b-des",
+    handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/b-des",
   },
   {
     program: "Master of Information Systems",
@@ -112,7 +112,7 @@ export const PROGRAMS: ProgramReport[] = [
     assessmentSlug: "dfva-b-sci",
     marketSlug: "dfva-market-b-sci",
     recommendSlug: "dfva-recommend-b-sci",
-    handbookUrl: "https://handbook.unimelb.edu.au/2025/courses/b-sci",
+    handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/b-sci",
   },
   {
     program: "Master of Biotechnology",
@@ -193,7 +193,7 @@ export const PROGRAMS: ProgramReport[] = [
     assessmentSlug: "dfva-mc-sciepi",
     marketSlug: "dfva-market-mc-sciepi",
     recommendSlug: "dfva-recommend-mc-sciepi",
-    handbookUrl: "https://handbook.unimelb.edu.au/2025/courses/mc-sciepi",
+    handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-sciepi",
   },
   {
     program: "Master of Computer Science",

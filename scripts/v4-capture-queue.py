@@ -267,8 +267,12 @@ def sort_key(code: str, page: dict) -> tuple:
     return (2, 0, slot.replace("-assessment", "~"))
 
 
-def take_batch(q: dict, n: int) -> list[dict]:
+def take_batch(q: dict, n: int, only: set[str] | None = None) -> list[dict]:
     """Lease and return the next n pages to capture.
+
+    `only` restricts the batch to those program codes — a targeted cycle
+    (e.g. the 18 coursework programs) that must not spend its batches
+    finishing the wider backlog's in-flight programs.
 
     Programs already in flight are finished before new ones are started: a
     program is only scoreable once complete, so depth beats breadth here — a
@@ -283,6 +287,8 @@ def take_batch(q: dict, n: int) -> list[dict]:
     """
     order = []
     for code, prog in q["programs"].items():
+        if only is not None and code not in only:
+            continue
         pending = [(u, p) for u, p in prog["pages"].items() if claimable(p)]
         if not pending:
             continue
@@ -310,7 +316,7 @@ def take_batch(q: dict, n: int) -> list[dict]:
     return batch
 
 
-def cmd_next(n: int) -> None:
+def cmd_next(n: int, only: set[str] | None = None) -> None:
     """Emit the next pages to capture, as JSON.
 
     Honours the breaker: while a block cool-off is running this hands out
@@ -329,12 +335,12 @@ def cmd_next(n: int) -> None:
         )
         print("[]")
         return
-    batch = take_batch(q, n)
+    batch = take_batch(q, n, only)
     save_queue(q)
     print(json.dumps(batch, indent=1))
 
 
-def cmd_plan(n: int) -> None:
+def cmd_plan(n: int, only: set[str] | None = None) -> None:
     """Say what this run should do, as one JSON object.
 
     A scheduled run asks this first. `next` alone cannot distinguish "cohort
@@ -371,7 +377,7 @@ def cmd_plan(n: int) -> None:
             indent=1,
         ))
         return
-    batch = take_batch(q, n)
+    batch = take_batch(q, n, only)
     save_queue(q)
     if not batch:
         print(json.dumps({"action": "idle", "batch": []}, indent=1))
@@ -833,16 +839,21 @@ def main() -> None:
     if len(sys.argv) < 2:
         sys.exit(__doc__)
     cmd, rest = sys.argv[1], sys.argv[2:]
+    only: set[str] | None = None
+    if "--only" in rest:
+        i = rest.index("--only")
+        only = {c for c in rest[i + 1].split(",") if c}
+        rest = rest[:i] + rest[i + 2 :]
     if cmd == "init":
         cmd_init()
     elif cmd == "plan":
-        cmd_plan(int(rest[0]) if rest else 8)
+        cmd_plan(int(rest[0]) if rest else 8, only)
     elif cmd == "block":
         cmd_block(" ".join(rest) or "unspecified")
     elif cmd == "unblock":
         cmd_unblock()
     elif cmd == "next":
-        cmd_next(int(rest[0]) if rest else 8)
+        cmd_next(int(rest[0]) if rest else 8, only)
     elif cmd == "save":
         cmd_save(rest[0], rest[1])
     elif cmd == "fail":

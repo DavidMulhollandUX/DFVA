@@ -43,5 +43,22 @@
   "bh-mus",
   "bh-sci",
   "bh-sciadv"
- ]
+ ],
+ "excludedResearch": [
+  "dr-phileit",
+  "dr-philbe",
+  "dr-philart",
+  "dr-philsci",
+  "dr-philagr",
+  "dr-philabp",
+  "dr-philmdh",
+  "dr-philedu",
+  "dr-philfam",
+  "dr-philik",
+  "dr-phillaw",
+  "dr-philvet",
+  "dh-lld",
+  "dh-sc"
+ ],
+ "excludedResearchNote": "Thesis PhDs and higher doctorates by examination: Panel C v4 scores taught curriculum structure and these carry none (same rule as excludedMPhil; see the 552aa precedent in docs/dfva-v4-handbook-backfill-plan.md \u00a72). They keep their v1 evidence file and market report; /reports shows them as 'research', never 'v4 pending'."
 }
