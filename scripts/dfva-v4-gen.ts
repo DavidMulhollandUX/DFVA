@@ -69,6 +69,27 @@ interface PanelA {
   nMedium: number
 }
 
+/**
+ * Program names from the extension-cohort manifest, keyed by code. This is the
+ * handbook name recorded when the program was admitted to the cohort, so it is
+ * the in-repo record of the name for every program scored before its report is
+ * drafted. Absent file or entry is not an error: the caller falls back.
+ */
+async function loadCohortNames(): Promise<Map<string, string>> {
+  const names = new Map<string, string>()
+  try {
+    const ext = JSON.parse(
+      await fs.readFile(path.join(repoRoot, 'scripts/v4_cohort_ext.json'), 'utf8'),
+    ) as { code?: string; name?: string }[]
+    for (const p of ext) {
+      if (p.code && p.name) names.set(p.code, p.name)
+    }
+  } catch {
+    // No extension cohort file yet — every program falls back to its code.
+  }
+  return names
+}
+
 /** The same three crosswalk sources the v3 generator merges, same precedence. */
 function loadCrosswalk(): Map<string, { aioe: number; confidence: string }> {
   const xw = new Map<string, { aioe: number; confidence: string }>()
@@ -86,16 +107,27 @@ function loadCrosswalk(): Map<string, { aioe: number; confidence: string }> {
 }
 
 /**
- * Exposure for one v4-only program, matched to its JIR record by exact program
- * name. An unmapped destination title throws rather than being skipped: a mean
- * over the subset that happens to be mapped is a different statistic from the
- * one a reader would take it for, and the error only ever runs one way.
+ * Loose comparison so a punctuation or case difference cannot hide a record.
+ * Must stay identical to the guard's `norm` in dfva-panela-coverage-check.ts —
+ * an exact-match lookup here silently reports "no JIR record" for a program that
+ * has one, which is the failure the guard exists to catch (511aa's record is
+ * titled "Master of Public And International Law", capital "And").
+ */
+const normProgramName = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, '')
+
+/**
+ * Exposure for one v4-only program, matched to its JIR record by normalised
+ * program name. An unmapped destination title throws rather than being skipped:
+ * a mean over the subset that happens to be mapped is a different statistic than
+ * the one a reader would take it for, and the error only ever runs one way.
  */
 function panelAFor(name: string, xw: Map<string, { aioe: number; confidence: string }>): PanelA | null {
   const jir = JSON.parse(readFileSync(path.join(repoRoot, 'data', 'jir_data.json'), 'utf8')) as {
     records: { program: string; n?: number; job_titles?: Record<string, string[]> }[]
   }
-  const rec = jir.records.find((r) => r.program === name)
+  const rec =
+    jir.records.find((r) => r.program === name) ??
+    jir.records.find((r) => normProgramName(r.program) === normProgramName(name))
   if (!rec?.job_titles) return null
 
   const titles: { title: string; entry: boolean }[] = []
@@ -609,9 +641,11 @@ async function appPanelCModule(): Promise<string> {
   // market report. They are a real category (an ad-hoc scoring request against a
   // program outside the assessed portfolio), and the report page must render
   // them with the missing half stated rather than showing "no assessment
-  // exists". The display name comes from the report markdown's own title, which
-  // is the in-repo source of record for the program's name.
+  // exists". The display name comes from the report markdown's own title, or —
+  // where no report is drafted yet — from the cohort manifest that admitted the
+  // program. Both are in-repo records of the program's name; neither is a guess.
   const allV3Codes = new Set([...v3.matchAll(/"code": "([a-z0-9-]+)"/g)].map((m) => m[1]))
+  const cohortNames = await loadCohortNames()
   const xw = loadCrosswalk()
   const v4Only: Record<
     string,
@@ -620,16 +654,21 @@ async function appPanelCModule(): Promise<string> {
   for (const code of Object.keys(results)) {
     if (allV3Codes.has(code)) continue
     const reportPath = path.join(repoRoot, 'reports', `dfva-v4-${code}.md`)
-    let name = code.toUpperCase()
+    // Precedence: the report title, then the cohort manifest, then the code.
+    // The code is a last resort and not a name — it is the string the page would
+    // show if nothing in the repo knows what the program is called, and it also
+    // matches no JIR record, so it suppresses Panel A as a side effect. Reaching
+    // for the manifest first keeps that fallback for genuinely unknown programs.
+    let name = cohortNames.get(code) ?? code.toUpperCase()
     try {
       const first = (await fs.readFile(reportPath, 'utf8')).split('\n')[0]
       const m = first.match(/^#\s*DFVA v4 DURABILITY REPORT:\s*(.+?)\s*\([^()]*\)\s*$/)
       if (m) name = m[1]
     } catch {
-      // No report drafted yet: fall back to the code, never to a guessed name.
+      // No report drafted yet: the manifest name (or the code) already stands.
     }
-    // The report title is the program's name, which is also the JIR record key.
-    // No match means no alumni record — a real state, carried as nulls.
+    // The program's name is also the JIR record key. No match means no alumni
+    // record — a real state, carried as nulls.
     const a = panelAFor(name, xw)
     // Whether Part B has anything to show is a fact about the filesystem, not
     // about registry membership — the page used the latter and so kept claiming

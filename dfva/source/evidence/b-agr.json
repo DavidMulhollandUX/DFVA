@@ -1,0 +1,137 @@
+{
+  "code": "b-agr",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2's anchor — 'At least one core unit assesses collaborative practice' — is satisfied several times over: four Level 1 Degree Core subjects and ENVS10001 carry weighted group assessment tasks. Level 3 is not reached because its second conjunct is absent: no assessment in the extract requires coordinating work across people AND tools/AI systems, and no task documents role or tool allocation, so the recurrence half of the anchor cannot carry a 3 on its own. Placement/internship evidence is deliberately excluded here and scored in W3 (one construct, one home).",
+      "evidenceLines": [
+        "Group Assessment / Project- Group practical report (3-4 students per group)",
+        "Group practical report (3-4 students per group)",
+        "Group assignment of not more than 1500 words",
+        "Group report based on activities from module 2",
+        "Assignment 3: Oral presentation of site visit findings (group task)"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1's anchor — 'Reflection or self-assessment appears in outcomes or graduate attributes, but no core unit assesses it against criteria' — matches exactly. Reflection appears in the Discovery core subject's generic skills and there is a hurdle reflection task, but the extract documents neither criteria nor standards against which the reflection is judged, and it appraises the student rather than the quality of work. Level 2 requires criterion-referenced appraisal of quality (peer review, structured critique, portfolio with standards, exemplars) in CORE assessment; the only peer review in the extract sits in ANSC10001, a Level 1 elective, so it cannot lift a core-scored item. Nothing anywhere requires documenting or justifying a reliance decision on a tool or source, so level 3 is not in play.",
+      "evidenceLines": [
+        "Demonstrate foundational skills in an investigation including self reflection and directed research",
+        "Two written self-reflections",
+        "Peer review of two other student presentations",
+        "Demonstrate breadth and depth of knowledge relevant to agriculture, and the ability to critically evaluate knowledge gained from a range of scientific, economic and social sources"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 0 is falsified — digital content does exist: data management, data visualisation and statistics are taught and assessed in the Level 1 Degree Core, and precision farming is named in the program-level overview. But that content is exactly what level 1 describes: 'AI or digital tools appear only as electives or as tool operation/training'. Precision agriculture is available only as a Level 3 elective, and the core's digital content is operational data handling. Level 2 requires core units addressing AI capabilities AND limitations/ethics: the word AI, and any treatment of tool limitations, ethics, bias, governance or data governance, is absent from the entire extract, so 2 and 3 both fail.",
+      "evidenceLines": [
+        "Students will develop an understanding of fundamental scientific concepts, and will learn to apply this understanding to a range of agricultural contexts, including precision farming.",
+        "Mathematics topics in this subject will include: data visualisation; data analyses, including population statistics and correlation; determination of key data parameters such as rate of change, maxima and minima.",
+        "Integrate the use of numerical data, graphical analysis, basic statistics, and mapping, to represent and interpret phenomena in the natural world, in particular as they operate in agricultural environments",
+        "Applications in Precision Agriculture",
+        "Level 3 electives"
+      ]
+    },
+    "C4": {
+      "score": 1,
+      "rationale": "Level 1's anchor — 'Transfer is claimed in outcomes (\"apply knowledge in new settings\") but not assessed' — is met almost verbatim: both Foundations core subjects claim application to 'familiar and novel situations' in their ILOs, and self-direction is claimed in generic skills across the core. Level 2 needs a core ASSESSMENT that requires application to novel or unfamiliar problems; every core assessment description in the extract is a quiz, intra-semester test, examination, or a report based on the subject's own practicals, field trips or module activities — i.e. within the taught context — with no documented case variation, unseen dataset or cross-context brief (R1: score what is documented, not what students plausibly do). The level-3 route (self-scoped capstone or research project) cannot be established: the structure requires a Capstone subject, but no Level 3 subject page is in the extract, so whether it is self-scoped is undocumented, and R2 bars awarding 3 on a structural line alone.",
+      "evidenceLines": [
+        "Apply principles in physics and chemistry using logical reasoning, together with appropriate mathematical reasoning, to a variety of familiar and novel situations, both biological and physical, and to problems in agricultural contexts",
+        "Apply principles in physics and chemistry using logical reasoning, together with appropriate mathematical reasoning, to a variety of familiar and novel situations and problems in agricultural sciences",
+        "Think independently and analytically, and direct his or her own learning",
+        "You will also conduct a small project in an area of Agriculture of your choosing.",
+        "50 credit points of Level 3 Major subjects including a Capstone subject"
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 0 is falsified — this is not secondary synthesis only: experimental design principles are taught and assessed through laboratory practicals in a core subject, and a core soil subject assesses analysis of data the students collected in the field. That is level 1's 'introductory methods unit'. Level 2 requires students to DESIGN and conduct an inquiry with methodology SELECTION and data collection, assessed: the assessed artefacts here are reports 'based on' prescribed practicals, field trips and set module activities, and nothing in the extract documents students choosing a methodology. The program ILO does claim methodology choice, but that is an outcome statement, which R1/R2 exclude as the basis for a step up. Level 3 (a required substantial primary-evidence project defended under scrutiny) fails outright: the only research-scale project named, AGRI30006 Industry Project, is a Level 3 elective, and no viva or staged defence appears anywhere.",
+      "evidenceLines": [
+        "demonstrate the principles of experimental design and analysis through simple laboratory practicals and assignments",
+        "Choose and apply research methodologies necessary to design, conduct and interpret small scientific research projects",
+        "Report 1 based on field trips, practicals or workshops",
+        "Evaluate the relationship between land use and soil by analysing data on soil properties collected from the field.",
+        "Have developed skills in recording observations, analysis and interpretation of data"
+      ]
+    },
+    "adaptiveness": 6,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1's anchor is met precisely: communication with industry, government, community and clients is claimed repeatedly in the course ILOs and generic skills, and core assessment does add a spoken task — a group oral presentation of site-visit findings in the core ENVS10001. Level 2 requires a recognised professional genre or an audience beyond the teaching team, judged against criteria drawn from professional practice. The oral presentation has no documented audience beyond staff and peers; every other core artefact is an examination, test, quiz, written assignment or practical/field report addressed to the marker. AGRI20038's 'advise land managers and other stakeholders' is an ILO whose assessments are reports and an exam — and Barrie (2006, 2007) via R2 binds hardest here, forbidding a score off stated attributes.",
+      "evidenceLines": [
+        "Communicate and discuss scientific and industry information with relevant stakeholders in a variety of media and settings",
+        "Initiate and maintain cooperative relationships with colleagues, employers and clients",
+        "Highly developed written communication skills to allow informed dialogue with individuals and groups from industry, government and the community",
+        "Assignment 3: Oral presentation of site visit findings (group task)",
+        "Advise land managers and other stakeholders on how soil properties influence agriculture production"
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Level 0 is falsified — core assessment is not entirely decontextualised: a report on the Dookie farm follows a compulsory field trip, a Landscape Function Analysis report follows site work, and two soil reports are grounded in field trips. That situational framing is exactly level 1: 'Contextualised or scenario-framed tasks appear ... but the artefact produced and the criteria applied remain academic.' Level 2 requires a core assessment that reproduces a professional task end to end — the practitioner's own artefact, judged against criteria drawn from practice. The artefacts here are 1000–1800-word student reports on subject activities, and no criteria drawn from professional practice, external brief or client are documented for any of them. Per R4 the field-based framing is not itself a warrant to score up, and the assessment spine of the core remains examinations, tests and quizzes, which also rules out level 3.",
+      "evidenceLines": [
+        "Report based on the Dookie farm",
+        "Hurdle requirement: Participation in the Dookie field trip in Week 6",
+        "Assignment 5: Landscape Function Analysis (LFA) Report",
+        "Report 1 based on field trips, practicals or workshops",
+        "Written examination paper"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1's anchor — 'Work-situated learning exists only as an elective, an optional internship' — is met exactly. The overview frames industry placement as an opportunity, not a requirement, and AGRI30041 Industry Internship and AGRI30006 Industry Project both appear under Level 3 electives; the progression rule confirms the internship is something students are 'permitted to undertake', not required to. Level 2 needs a CORE unit placing students with practitioner supervision and assessment, which the structure does not contain. The v4.2 in-practice route does not apply: this is a school-leaver-entry undergraduate degree and the extract documents no cohort already practising in the profession. The Dookie field trips and campus option are university-taught activity, not participation in a workplace or professional community, and simulation-like field work is W2 by construction.",
+      "evidenceLines": [
+        "Students will also have an opportunity to undertake industry placements.",
+        "Level 3 electives",
+        "The exception to this is AGRI30041 / Industry Internship, which students in the Bachelor of Agriculture are permitted to undertake after the completion of Year 1.",
+        "Industry Project"
+      ]
+    },
+    "workplace": 3,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program documents a coherent specialist core with progressive depth on two of the anchor's three routes: an all-compulsory specialist core (100 credit points of Level 1 Degree Core plus 37.5 of Level 2 Degree Core, all agriculture-discipline subjects), and a staged year-level progression chain gating entry to each subsequent level, terminating in a prescribed major with a required Capstone subject. Content is disciplinary throughout — soil science, agricultural biochemistry, agricultural economics, genetics, plant and animal production systems — not generic or interchangeable.",
+        "evidenceLines": [
+          "100 credit points of Level 1 Degree Core subjects including",
+          "37.5 credit points of Level 2 Degree Core subjects",
+          "Completion of one prescribed major (consisting of a total of 87.5 credit points, including 12.5 credit points of Degree Core subject, 75 credit points of Major subjects and a Capstone subject)",
+          "Completion of at least 50 points of Level 1 study before proceeding to the next subject year level.",
+          "Completion of at least 50 points of Level 2 study before proceeding to the next subject year level."
+        ]
+      },
+      "G2": {
+        "result": "FAIL",
+        "rationale": "The PASS condition requires that ASSESSMENTS require defended trade-off decisions, or simulations/capstones/live projects with real uncertainty and accountability. Nothing in the extract's documented assessment set does so: every core task is an examination, intra-semester test, quiz, written assignment or a report based on the subject's own practicals or field trips, and no task description mentions weighing options, defending a choice, or accountability to anyone beyond the marker. The trade-off language sits only in ILOs — 'Critically evaluate options, and formulate plans' at course level and 'Critically evaluate how land management influences soil health' in a core subject — which R1 excludes as evidence of what is assessed. The capstone route is undocumented rather than satisfied: the structure requires a Capstone subject, but no Level 3 subject page is in the extract, so its uncertainty and accountability features cannot be read. Applying the instrument's no-upward-resolution rule to that gap, the gate does not pass on this evidence.",
+        "evidenceLines": [
+          "Critically evaluate options, and formulate plans that will ensure long term industry and environmental sustainability",
+          "Critically evaluate how land management influences soil health",
+          "Written examination paper",
+          "Report 1 based on field trips, practicals or workshops",
+          "50 credit points of Level 3 Major subjects including a Capstone subject"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C2 straddled 1 and 2: the Discovery core subject's 'Two written self-reflections' are hurdle-assessed ('must complete and pass all reflections'), which could read as assessment against a standard (level 2), but no criteria, exemplars or appraisal of the quality of work are documented, and the only peer review in the extract (ANSC10001) is a Level 1 elective. Resolved DOWN to 1 by the no-upward-resolution rule plus the core-assessment requirement in the level-2 anchor.",
+      "C4 straddled 1 and 2: the Dookie farm report and the Landscape Function Analysis report apply taught methods in field settings, which could be read as cross-context application (level 2), but both are 'based on' the subject's own compulsory field trips and practicals, i.e. within the taught context, and no novel case, unseen dataset or unfamiliar problem is documented. Resolved DOWN to 1.",
+      "C4 level-3 route unresolvable: 'a Capstone subject' is a documented structural requirement of every prescribed major, but no Level 3 or capstone subject page is in the extract, so whether it is self-scoped is undocumented. R2 (level 3 needs quoted assessment evidence) kept the score at 1.",
+      "C5 straddled 1 and 2: AGRI20038 assesses 'analysing data on soil properties collected from the field' and AGRI10050 assesses experimental-design principles through practicals, which approaches design-and-conduct (level 2), but methodology SELECTION by the student is documented only in a course-level ILO, never in an assessment. Resolved DOWN to 1.",
+      "W2 straddled 1 and 2: field-grounded soil and landscape reports are close to practitioner artefacts in agronomy and land management, but no criteria drawn from professional practice, external client or brief are documented for any of them. R4 forbids scoring up on situational framing alone. Resolved DOWN to 1.",
+      "G2 straddled PASS and FAIL: the core is not recall-only (field-based reports require critical evaluation), yet no assessment documents defended trade-off decisions, and the required Capstone subject's page is absent so the capstone route could not be evaluated. Resolved to FAIL rather than resolving the gap upward.",
+      "Cross-item note: the group oral presentation in ENVS10001 could be read into either C1 (collaborative practice) or W1 (spoken communication). It is scored in C1 for the collaboration construct and cited in W1 only as the level-1 'presentation to peers/staff' evidence, not as a second collaboration score.",
+      "Cross-item note: the Dookie field trips and the Dookie campus semester option could be read as work-situated learning, but they are university-taught activity with no practitioner supervision or host accountability documented, so they are treated as situational framing under W2 and excluded from W3."
+    ],
+    "notScoreable": [
+      "No Level 3 subject page appears in the extract — neither the required Capstone subject, nor AGRI30041 Industry Internship, nor AGRI30006 Industry Project, nor any Level 3 major subject. All eight items were scoreable from the Level 1/Level 2 core evidence present, but the level-3 routes for C4 and C5, the assessment-spine test for W2, and the capstone route for G2 could not be evaluated on this extract; a capture of the Level 3 core/capstone pages could change C4, C5, W2 and G2.",
+      "Assessment pages for the two remaining Level 2 Degree Core subjects are present, but no core subject page in the extract documents marking criteria or rubrics for any task, so the 'judged against criteria drawn from practice' conjunct in W1 level 2 and W2 level 2 could not be tested directly for any assessment — it was treated as undocumented, not as satisfied."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-16"
+    }
+  }
+}

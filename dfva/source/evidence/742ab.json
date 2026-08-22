@@ -1,0 +1,143 @@
+{
+  "code": "742ab",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 0,
+      "rationale": "Level 0 anchor ('No collaborative, stakeholder or team-based work is assessed anywhere in the core') holds after adversarial verification. The C1 level-1 anchor requires collaboration/teamwork to appear in LEARNING OUTCOMES; teamwork appears in the extract only in the Graduate attributes block ('Capacity to value and participate in teamwork', supported by class-size commentary), never in the Intended learning outcomes block, and C1's anchor deliberately says 'learning outcomes' where C2 L1 and W1 L1 both say 'outcomes or graduate attributes'. Every other 'group' occurrence in the extract refers to consolidated corporate groups (tax law content), not student groups. The remaining candidate, 'Be an engaged participant in debate regarding emerging and contemporary issues in the field', is individual discursive participation, not shared task or cognition. No collaborative assessment exists anywhere: the only recurring interactive assessment is individually marked class participation and individual class presentations, so levels 2 and 3 are also out.",
+      "evidenceLines": [
+        "Capacity to value and participate in teamwork",
+        "Small class sizes and an intensive teaching format are valuable in encouraging group dynamics and teamwork.",
+        "Be an engaged participant in debate regarding emerging and contemporary issues in the field",
+        "Class Participation: including in class discussions and responses to readings",
+        "Class participation"
+      ]
+    },
+    "C2": {
+      "score": 0,
+      "rationale": "Level 0 anchor ('No assessment requires students to appraise the quality of work — their own, peers', or a tool's') holds. The extract contains no peer review, no structured critique of work, no portfolio with standards, no marking against exemplars and no process-focused assessment, so level 2 and level 3 are out. Level 1 requires reflection or self-assessment to appear in outcomes or graduate attributes; the only candidate lines attach 'critically reflect' to complex information, concepts and theories (i.e. subject content), and 'autonomy and accountability' to time management, neither of which is regulation or appraisal of one's own or others' work. Under the lower-level rule that straddle resolves to 0.",
+      "evidenceLines": [
+        "analyse, critically reflect on and synthesise complex information, concepts and theories in the field of taxation law",
+        "Capacity to manage competing demands on time and ability to work with a high level of autonomy and accountability",
+        "Class Participation: including in class discussions and responses to readings",
+        "Take-home examination",
+        "Written Assignment"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor ('AI or digital tools appear only as electives or as tool operation/training — the operational level TEQSA identifies as non-durable') matches: the sole program-level digital claim is an IT-skills attribute whose supporting text describes access to infrastructure, and the only digital-adjacent subject is an elective in a 'Further subjects related to course' list. No core unit addresses AI capabilities AND limitations/ethics, and no assessment requires critique or governance of AI systems in tax practice, so levels 2 and 3 fail. Level 0 was arguable because no program intended learning outcome mentions digital or AI content; level 1 was retained because the tool-operation claim and the elective are both documented in the extract.",
+      "evidenceLines": [
+        "Advanced working skills in the use of new technology",
+        "The most advanced IT infrastructure is available to Melbourne Law Masters students in the Law Library, the Moot Court Room, classroom settings and for private study.",
+        "Cryptoassets in Global Context"
+      ]
+    },
+    "C4": {
+      "score": 1,
+      "rationale": "Level 1 anchor ('Transfer is claimed in outcomes ... but not assessed') matches. Transfer and adaptability are claimed in the course outcomes and repeatedly in subject outcomes, but level 2 requires at least one CORE assessment requiring application to novel or unfamiliar problems, and this course has no compulsory core: 100 points are chosen from prescribed lists (only Foundations of Tax Law is compulsory, and only for international students). The strongest level-2 candidates — worked problems across varied private and business contexts, and a subject that integrates content from several others — sit in selectable subjects, and their handbook framing is explicitly 'circumstances commonly encountered in professional practice' rather than novel ones. Level 3 fails because the research-paper route is one option among several, not documented structured progression to independent learning.",
+      "evidenceLines": [
+        "research and apply such information, concepts and theories to the relevant body of knowledge and practice",
+        "Students must complete at least 75 credit points from the prescribed lists and may select up to 25 credit points from the subjects offered in the Master of Commercial Law.",
+        "This core tax subject examines the law, policy and structural features of capital gains tax (CGT) in Australia and considers and applies CGT rules in a number of different private and business contexts.",
+        "Contribution to worked problems in class",
+        "Explain and analyse the application of Australian capital gains rules as they apply to a range of circumstances commonly encountered in professional practice",
+        "It builds on and integrates the core content of other subjects, including"
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 1 anchor ('Introductory methods unit; literature-review assessment') matches: research-paper and research-based assessment exists and is claimed at program level, but it is doctrinal/secondary scholarship. Level 2 requires students to design and conduct an inquiry with methodology selection and data collection, assessed — the extract documents no research-methods training, no methodology selection and no data collection. Level 3 explicitly requires the substantial primary-evidence project to be REQUIRED and not one route among several; here the research paper is 'Option 2' in a small number of selectable subjects and the handbook states students choose between assessment options, and no viva, defence or staged supervised review is documented.",
+      "evidenceLines": [
+        "Advanced competencies in legal research and analysis",
+        "All graduates of an LLM will have demonstrated, through subject assessment, the ability to use their research skills to plan, develop and execute substantial research-based project(s) and/or piece(s) of scholarship.",
+        "Option 2: Research paper on a topic approved by the subject coordinator",
+        "Note: Students must choose assessment from the options listed above.",
+        "Research papers and other research tasks are expected to attain a degree of creativity, originality and discovery that befits a postgraduate program of the highest quality, and students are encouraged and assisted to publish original work of a high standard in refereed journals."
+      ]
+    },
+    "adaptiveness": 3,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1 anchor matches exactly: communication is claimed in graduate attributes and course outcomes, and assessment adds spoken performance to peers and staff (class presentations, leading class discussions, class participation), but no professional genre and no audience beyond the teaching team is documented. Level 2 would need a core assessment in a recognised professional genre or to an external audience judged against practice-drawn criteria; the closest evidence — formulating advice to taxpayers or government officers, and preparing objections, appeal statements, affidavits and submissions — appears in subject learning outcomes and topic lists, never in an assessment description, and R2 forbids scoring an outcome statement. Barrie's constraint on stated graduate attributes bites here.",
+      "evidenceLines": [
+        "Capacity to effectively communicate complex legal ideas and theories, orally and in writing, to a variety of audiences",
+        "Classroom discussion and formal presentations provide an opportunity to hone oral communication skills, and written assessment tasks are graded in part on written communication skills.",
+        "interpret and transmit their knowledge, skills and ideas to specialist and non-specialist audiences",
+        "Class presentation",
+        "Leading class discussions",
+        "Formulate and communicate well-reasoned advice to taxpayers or government officers on the scope and limits of The Commissioner's powers",
+        "It addresses the system of tax appeals, administrative and judicial review of decisions made by the Commissioner, evidence-gathering and the preparation of objections, tax appeal statements, affidavits, expert reports and legal submissions in a tax case."
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Level 1 anchor ('Contextualised or scenario-framed tasks appear (case studies, worked scenarios), but the artefact produced and the criteria applied remain academic'). Case-study and practice-problem framing is documented at course and subject level, but every documented assessment artefact is academic in form: assignments in word counts, take-home examinations, in-class tests, quizzes and research papers. Level 2 requires a core assessment reproducing a professional task end to end and producing the artefact a practitioner would produce, judged against practice-drawn criteria — no advice memo, objection, submission, ruling request or client deliverable is named in any assessment description. Per R4 the marketing language about 'practical application' and a subject being 'commercially essential' was not scored.",
+      "evidenceLines": [
+        "Practical case studies allow in-depth analysis of tax law to equip students with detailed tax law knowledge, its underlying principles and practical application, generating a real advantage in this competitive professional area.",
+        "The subject addresses complex and sometimes competing principles from different parts of the tax law through topical case studies",
+        "The focus of the subject is on the practical, and not theoretical, application of these principles.",
+        "Contribution to worked problems in class",
+        "Take-home examination",
+        "In-class test",
+        "Mid-semester assessment exercise"
+      ]
+    },
+    "W3": {
+      "score": 0,
+      "rationale": "Level 0 anchor ('No work-integrated learning, placement, practicum or community-based project appears anywhere in the course structure'). The course structure page lists only subject options plus a study-abroad opportunity at Oxford, which is study, not work-situated learning, so even level 1 (WIL as an elective or optional internship) is unmet. The v4.2 in-practice route was tested: the cohort is documented as practising professionals (tax advisers, ATO professionals, government officials), but levels 2 and 3 on that route require a core unit assessing activity conducted in the student's own professional practice with real recipients and a documented outcome measure, and no assessment in the extract references the student's own workplace, workplace stakeholders or accountability to a host.",
+      "evidenceLines": [
+        "Study Abroad at Oxford",
+        "Students enrolled in the Master of Tax also have the opportunity to study abroad at the University of Oxford. Learn more",
+        "The program provides a valuable enhancement to the careers of lawyers, accountants and other professionals working as tax advisers in business or government.",
+        "This advanced and commercially essential subject is aimed at professionals in the ATO as well as general and",
+        "This subject is designed for tax professionals and government officials who wish to complete or update their education in corporate tax law and practice."
+      ]
+    },
+    "workplace": 2,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "PASS on the accredited-sequence and staged-foundation limbs of the anchor rather than the all-compulsory-core limb. Content is unambiguously specialist tax law with a clear disciplinary identity — not generic or interchangeable — and the handbook documents an externally accredited introductory/advanced structure for Tax Practitioners Board registration, a foundation subject stated to underpin later tax subjects, and explicit progression advice that an integrative subject is best taken late in the course.",
+        "evidenceLines": [
+          "Melbourne Law School’s specialisation in tax is a globally recognised advanced tax law degree.",
+          "The subject marked (I) is approved as an introductory subject, and subjects marked (A) are approved as advanced subjects for participant accreditation as a tax agent with the Tax Practitioners Board (TPB).",
+          "All international students are required to undertake Foundations of Tax Law.",
+          "It provides the foundation for successful study in the other tax subjects studied in the course.",
+          "this subject may be best studied towards the end of your tax course"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "PASS on the 'defended trade-off decisions' limb, not the simulation/capstone limb. Assessed subjects require weighing competing solutions and reaching a defended conclusion, evaluating policy options against competing criteria, and distinguishing permissible planning from impermissible avoidance — judgement under genuine legal uncertainty rather than recall or scripted response. Assessment is by extended take-home examination, written assignment and in-class task rather than closed recall tests.",
+        "evidenceLines": [
+          "Be able to identify any problems an SMSF might face, research and evaluate various different solutions and form a reasoned conclusion as to which solution might best address the problem",
+          "Identify and appraise the major issues in tax policy in Australia and critically evaluate tax policy options in Australian and other countries' contexts.",
+          "consider the differences between permissible tax planning and impermissible tax avoidance",
+          "Have an ability to identify and resolve tax problems and issues at an advanced level from theoretical and practical perspectives in the area of tax avoidance.",
+          "Most subjects approach knowledge by reference to various issues or problems. Students are required to critically analyse problems and identify and develop a range of appropriate solutions through class discussion, individual study and assessment tasks."
+        ]
+      }
+    },
+    "ambiguities": [
+      "Structural: the course has no compulsory core at all — 100 points are selected from prescribed lists and only Foundations of Tax Law is required, and only for international students. Several subjects call themselves 'This core tax subject' in their own overview. Every anchor phrased as 'at least one core assessment' (C1 L2, C2 L2, C4 L2, W1 L2, W2 L2, W3 L2) was therefore read against selectable subjects, and each such straddle was resolved to the lower level.",
+      "C1 0 vs 1 (RESOLVED TO 0 on adversarial verification): teamwork appears in the extract only in the Graduate attributes block, never in the Intended learning outcomes block, and C1's level-1 anchor names 'learning outcomes' only where C2 L1 and W1 L1 name graduate attributes explicitly. The initial pass scored 1 on the documented-construct reading and flagged that a strict outcomes-only reading would give 0; the never-resolve-ambiguity-upward rule requires 0. Adaptiveness accordingly falls from 4 to 3.",
+      "C1 1 vs 2: assessed class participation and 'Contribution to worked problems in class' are interactive but individually marked, and match none of the level-2 exemplars (group project with individual accountability, client/stakeholder work, interprofessional activity). Resolved down.",
+      "C2 0 vs 1: 'analyse, critically reflect on and synthesise complex information, concepts and theories' contains the word 'reflect', which under a loose reading would satisfy level 1's 'Reflection ... appears in outcomes'. The reflection is directed at subject content, not at the quality of the student's own or others' work, so the C2 construct is not documented; lower-level rule gives 0.",
+      "C2 1 vs 2: 'Class Participation: including in class discussions and responses to readings' (30% in one subject) could be read as structured critique, but nothing documents criterion-referenced appraisal of work quality against standards or exemplars. Resolved down.",
+      "C3 0 vs 1: no program intended learning outcome mentions digital or AI content; the only program-level digital claim is the graduate attribute 'Advanced working skills in the use of new technology', whose supporting text describes IT infrastructure availability rather than curriculum content. Scored 1 on the tool-operation limb; 0 was defensible.",
+      "C4 1 vs 2: 'Contribution to worked problems in class' in a subject that 'considers and applies CGT rules in a number of different private and business contexts' is close to level 2's 'case variation', and one subject 'builds on and integrates the core content of other subjects'. Both sit in selectable rather than compulsory subjects, and the matching outcome frames the circumstances as 'commonly encountered in professional practice' rather than novel. Resolved down to 1.",
+      "C5 1 vs 2/3: research papers are assessed and the program claims substantial research-based scholarship, but they are 'Option 2' alternatives that students may decline, and no methodology selection, data collection or defence is documented. Resolved down to 1.",
+      "W1 1 vs 2: Tax Administration's outcome 'Formulate and communicate well-reasoned advice to taxpayers or government officers' and Tax Litigation's topic list of objections, appeal statements, affidavits and submissions name professional genres, but only in outcomes and topic lists; the corresponding assessment rows are class participation, leading class discussions, an in-class test and take-home examinations. R2 forbids scoring the outcome, so resolved down to 1.",
+      "W2 1 vs 2: the practice-oriented framing ('Problems in Practice', 'practical, and not theoretical', 'Practical case studies') is label-level under R4; the documented artefacts are word-counted assignments, take-home examinations and research papers, i.e. academic in form and criteria. Resolved down to 1.",
+      "W3 0 vs 1: 'Study Abroad at Oxford' is the only optional out-of-classroom opportunity in the course structure and is study, not work-situated learning, so it does not reach level 1. The cohort is documented as already practising, opening the v4.2 in-practice route, but no assessment references the student's own practice, so the route does not lift the score.",
+      "Evidence assigned under 'one construct, one home': assessed class presentations and leading class discussions scored in W1 (communication to an audience), not C1; case-study framing scored in W2 (task fidelity), not C4; the practising-professional cohort statements scored in W3 only."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-18"
+    }
+  }
+}

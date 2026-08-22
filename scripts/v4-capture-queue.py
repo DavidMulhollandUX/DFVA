@@ -8,10 +8,15 @@ has been captured, what is still owed, and what each page turned out to link to.
 
 An agent run is a loop of three calls:
 
-    next 8                 -> the next pages to visit, as JSON
+    plan 30                -> what to do: capture (with a batch) / cooloff / attend / idle
     (visit each, write scrapes/v4/raw/<code>__<slot>.json)
     save <code> <slot>     -> file it, discover follow-up pages
     assemble               -> build scrapes/v4/<code>.txt for finished programs
+
+The site can also refuse everyone at once — since 2026-08-16 with an hCaptcha no
+unattended agent can clear. That is a site-level fact, not a page-level one, so
+it is held centrally: `block` opens a circuit breaker, `plan` refuses to hand out
+work while it is open, and a page served in full closes it again.
 
 Pages are discovered progressively: a program starts with three fixed pages, and
 its component and subject pages only enter the queue once the course-structure
@@ -19,21 +24,32 @@ page has been captured and its links read.
 
 Commands:
     init                 seed/refresh the queue from scripts/v4_cohort.json
+    plan [n]             what this run should do, as one JSON object
+    block <reason>       record a site-level refusal: release leases, back off
+    unblock              clear the breaker (after a person clears the challenge)
     next [n]             emit the next n pending pages as JSON
     save <code> <slot>   file a captured page and enqueue what it links to
     fail <code> <slot> [reason]   ONLY for a page that genuinely will not load
     requeue [code ...]   return failed pages to pending
+    prioritise [code ...] | prioritise --clear
+                         move some programs to the front of the queue (no args: show
+                         what is flagged). Reversible; never re-bases the median.
     assemble [code ...]  write combined extracts for complete programs
     rediscover           re-run link discovery over already-captured pages
     stalled              programs that can no longer progress on their own
     scoreable            assembled programs that still need a panelCv4 block
     status [--json]      progress
 """
+# Scheduled runs resolve `python3` to /usr/bin/python3 (3.9), which cannot parse the
+# `str | None` annotations below. Deferring annotation evaluation keeps the hints while
+# letting the script run on the interpreter the cron task actually gets.
+from __future__ import annotations
+
 import json
 import os
 import re
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "scrapes", "v4")
@@ -41,6 +57,12 @@ RAW = os.path.join(OUT, "raw")
 PAGES = os.path.join(OUT, "pages")
 QUEUE = os.path.join(OUT, "queue.json")
 COHORT = os.path.join(ROOT, "scripts", "v4_cohort.json")
+# The Wave 1 backfill cohort. Kept in a SEPARATE file from v4_cohort.json on
+# purpose: v4_cohort.json is the record of the 34-program reference cohort that
+# the adaptiveness median is based on, and that set has to stay auditable at a
+# glance. Everything here is extension cohort — placed against the reference
+# thresholds, never re-basing them (v3.1 §10a rule 2).
+COHORT_EXT = os.path.join(ROOT, "scripts", "v4_cohort_ext.json")
 
 # Caps mirror scripts/scrape-v4-cohort.py so an extract captured by either route
 # has the same shape, and the scoring prompt sees one consistent evidence base.
@@ -51,6 +73,29 @@ MAX_COMPONENTS = 6
 # error has a direction — it only ever depresses scores — so it would have bent
 # the cohort median downward while looking authoritative.
 MAX_SUBJECTS = 16
+
+# A combined degree ("Master of Architecture/Master of Urban Planning") carries two
+# programs' curriculum behind one code, so a cap sized for one truncates it by
+# construction. That error has a direction — it only ever removes curriculum, which
+# only ever depresses C4/C5 — so it would read as "this double degree is less
+# adaptive" when what happened is that we stopped looking. Wave 1 adds ~12 of them.
+# Doubling the caps rather than removing them keeps the request budget bounded.
+DOUBLE_DEGREE_MULTIPLIER = 2
+
+
+def is_double_degree(prog: dict) -> bool:
+    """A combined award: two full degree names joined by a slash."""
+    return "/" in prog.get("name", "")
+
+
+def caps_for(prog: dict) -> tuple[int, int]:
+    """(max components, max subjects) for this program."""
+    if is_double_degree(prog):
+        return (
+            MAX_COMPONENTS * DOUBLE_DEGREE_MULTIPLIER,
+            MAX_SUBJECTS * DOUBLE_DEGREE_MULTIPLIER,
+        )
+    return MAX_COMPONENTS, MAX_SUBJECTS
 
 # Ordering within a program. Scoring rule R2 awards level 3 only on assessment
 # evidence, so assessment pages are never the part that gets dropped: they sort
@@ -65,8 +110,86 @@ SLOT_ORDER = ["course", "attributes", "structure"]
 LEASE_SECONDS = 1200
 
 
+# --- Site-level block: the circuit breaker -----------------------------------
+#
+# A lease handles ONE agent dying. It does not handle the site refusing everyone,
+# which is a different failure with a different remedy. Since 2026-08-16 the
+# handbook answers an unrecognised session with a real hCaptcha, and no
+# unattended agent can clear that — solving it is a human action, and not one the
+# agent is permitted to take on the user's behalf.
+#
+# Without a breaker the scheduled task rediscovers this every 30 minutes: it
+# opens a browser, walks into the gate, captures nothing, and leaves its batch
+# leased for 20 minutes. That is a steady stream of challenge hits against a site
+# whose access was regained by behaving like a reader, and it buys nothing.
+#
+# So a block is recorded centrally and the queue itself stops handing out work
+# for a growing window. Backoff doubles from the schedule interval to a 12-hour
+# ceiling; after BLOCK_ATTEND_AFTER consecutive blocks the queue stops asking a
+# robot to keep trying and says so — the remedy at that point is a person
+# clearing the challenge once, not another retry.
+BLOCK_BACKOFF_MINUTES = [30, 60, 120, 240, 480, 720]
+BLOCK_ATTEND_AFTER = 3
+
+
 def now() -> str:
     return datetime.now(timezone.utc).isoformat(timespec="seconds")
+
+
+def parse_ts(ts: str | None) -> datetime | None:
+    try:
+        return datetime.fromisoformat(ts)  # type: ignore[arg-type]
+    except (TypeError, ValueError):
+        return None
+
+
+def block_state(q: dict) -> dict:
+    return q.setdefault(
+        "block", {"consecutive": 0, "since": None, "until": None, "reason": None}
+    )
+
+
+def cooloff_seconds(q: dict) -> int:
+    """Seconds left on the current cool-off, 0 if capture may proceed."""
+    until = parse_ts((q.get("block") or {}).get("until"))
+    if until is None:
+        return 0
+    return max(0, int((until - datetime.now(timezone.utc)).total_seconds()))
+
+
+def trip_breaker(q: dict, reason: str) -> dict:
+    """Record a site-level block and open the breaker for a backoff window.
+
+    Also releases every leased page immediately. A blocked run captured nothing,
+    so holding its batch for the rest of the lease only delays the next attempt
+    without protecting anything.
+    """
+    b = block_state(q)
+    released = 0
+    for prog in q["programs"].values():
+        for page in prog["pages"].values():
+            if page["status"] == "inflight":
+                page.update(status="pending", ts=None)
+                released += 1
+    b["consecutive"] = b.get("consecutive", 0) + 1
+    minutes = BLOCK_BACKOFF_MINUTES[min(b["consecutive"] - 1, len(BLOCK_BACKOFF_MINUTES) - 1)]
+    b["since"] = b.get("since") or now()
+    b["until"] = (
+        datetime.now(timezone.utc) + timedelta(minutes=minutes)
+    ).isoformat(timespec="seconds")
+    b["reason"] = reason
+    b["released"] = released
+    b["minutes"] = minutes
+    return b
+
+
+def clear_breaker(q: dict) -> bool:
+    """Reset the breaker. Any page served in full is proof the block has lifted."""
+    b = block_state(q)
+    if not (b.get("consecutive") or b.get("until")):
+        return False
+    b.update(consecutive=0, since=None, until=None, reason=None, released=0, minutes=0)
+    return True
 
 
 def lease_expired(ts: str | None) -> bool:
@@ -80,7 +203,13 @@ def lease_expired(ts: str | None) -> bool:
 
 
 def claimable(page: dict) -> bool:
-    return page["status"] == "pending" or (page["status"] == "inflight" and lease_expired(page["ts"]))
+    # "blocked" is a fact about the site refusing us, not about the page, so it
+    # must not be terminal — `requeue` only rescues "failed", so a blocked page
+    # would otherwise never be offered again. Reuse the lease clock as a cool-off:
+    # it comes back on its own once the block has had time to clear.
+    if page["status"] in ("inflight", "blocked"):
+        return lease_expired(page["ts"])
+    return page["status"] == "pending"
 
 
 def load() -> dict:
@@ -110,6 +239,8 @@ def add_page(prog: dict, url: str, slot: str) -> None:
 def cmd_init() -> None:
     q = load()
     cohort = json.load(open(COHORT))
+    if os.path.exists(COHORT_EXT):
+        cohort = cohort + json.load(open(COHORT_EXT))
     added = 0
     for p in cohort:
         prog = q["programs"].setdefault(
@@ -136,14 +267,20 @@ def sort_key(code: str, page: dict) -> tuple:
     return (2, 0, slot.replace("-assessment", "~"))
 
 
-def cmd_next(n: int) -> None:
-    """Emit the next pages to capture.
+def take_batch(q: dict, n: int) -> list[dict]:
+    """Lease and return the next n pages to capture.
 
     Programs already in flight are finished before new ones are started: a
     program is only scoreable once complete, so depth beats breadth here — a
     half-captured cohort produces no median at all.
+
+    Among programs at the same stage, those flagged by `prioritise` lead. Note
+    the order of the key: `started` still comes FIRST, so priority never
+    preempts a half-captured program and strands it. Priority decides which
+    program is picked up next, not which one is abandoned.
+
+    Mutates `q`; the caller saves.
     """
-    q = load()
     order = []
     for code, prog in q["programs"].items():
         pending = [(u, p) for u, p in prog["pages"].items() if claimable(p)]
@@ -151,12 +288,13 @@ def cmd_next(n: int) -> None:
             continue
         done = sum(1 for p in prog["pages"].values() if p["status"] == "done")
         started = 0 if done else 1  # 0 sorts first, so in-flight programs lead
+        rank = 0 if prog.get("priority") else 1  # 0 sorts first, so priority leads
         pending.sort(key=lambda up: sort_key(code, up[1]))
-        order.append((started, code, pending))
-    order.sort(key=lambda o: (o[0], o[1]))
+        order.append((started, rank, code, pending))
+    order.sort(key=lambda o: (o[0], o[1], o[2]))
 
     batch = []
-    for _, code, pending in order:
+    for _, _, code, pending in order:
         for url, page in pending:
             page.update(status="inflight", ts=now())
             batch.append(
@@ -168,11 +306,106 @@ def cmd_next(n: int) -> None:
                 }
             )
             if len(batch) >= n:
-                save_queue(q)
-                print(json.dumps(batch, indent=1))
-                return
+                return batch
+    return batch
+
+
+def cmd_next(n: int) -> None:
+    """Emit the next pages to capture, as JSON.
+
+    Honours the breaker: while a block cool-off is running this hands out
+    nothing, so a caller that only knows "empty list means stop" still backs off
+    correctly. The reason goes to stderr so it cannot corrupt the JSON on stdout.
+    """
+    q = load()
+    left = cooloff_seconds(q)
+    if left:
+        b = block_state(q)
+        print(
+            f"# blocked: cool-off {left // 60}m left "
+            f"(block {b.get('consecutive')}, until {b.get('until')}) — "
+            f"run `plan` for the recommended action",
+            file=sys.stderr,
+        )
+        print("[]")
+        return
+    batch = take_batch(q, n)
     save_queue(q)
     print(json.dumps(batch, indent=1))
+
+
+def cmd_plan(n: int) -> None:
+    """Say what this run should do, as one JSON object.
+
+    A scheduled run asks this first. `next` alone cannot distinguish "cohort
+    finished" from "site is refusing us" — both are an empty list — and those
+    call for opposite responses: one closes the task, the other must not even
+    open a browser.
+
+      capture  batch leased, proceed
+      cooloff  a block is backing off; do nothing, touch no browser
+      attend   blocked repeatedly; only a person clearing the challenge helps
+      idle     nothing pending
+    """
+    q = load()
+    b = block_state(q)
+    left = cooloff_seconds(q)
+    if left:
+        consecutive = b.get("consecutive", 0)
+        attend = consecutive >= BLOCK_ATTEND_AFTER
+        print(json.dumps(
+            {
+                "action": "attend" if attend else "cooloff",
+                "minutesRemaining": left // 60,
+                "until": b.get("until"),
+                "consecutive": consecutive,
+                "reason": b.get("reason"),
+                "hint": (
+                    "Unattended retries cannot clear this. A person opens the handbook "
+                    "in their own browser, clears the challenge once, then runs "
+                    "`v4-capture-queue.py unblock`."
+                    if attend else
+                    "Do not open a browser. The next run after the cool-off retries automatically."
+                ),
+            },
+            indent=1,
+        ))
+        return
+    batch = take_batch(q, n)
+    save_queue(q)
+    if not batch:
+        print(json.dumps({"action": "idle", "batch": []}, indent=1))
+        return
+    print(json.dumps({"action": "capture", "attempt": b.get("consecutive", 0) + 1, "batch": batch}, indent=1))
+
+
+def cmd_block(reason: str) -> None:
+    """Record that the site refused us, and back off.
+
+    Called by a capture agent the moment it meets the gate. `save` trips the
+    breaker too, but only for a page that reached it — an agent stopped at the
+    challenge before any page loaded has nothing to save, which is exactly the
+    case this exists for.
+    """
+    q = load()
+    b = trip_breaker(q, reason)
+    save_queue(q)
+    action = "attend" if b["consecutive"] >= BLOCK_ATTEND_AFTER else "cooloff"
+    print(
+        f"blocked ({reason}): {b['released']} lease(s) released, "
+        f"backing off {b['minutes']}m until {b['until']} "
+        f"— consecutive block {b['consecutive']}, action {action}"
+    )
+
+
+def cmd_unblock() -> None:
+    """Clear the breaker — after a person has cleared the challenge, or by hand."""
+    q = load()
+    if clear_breaker(q):
+        save_queue(q)
+        print("breaker cleared — capture resumes on the next run")
+    else:
+        print("breaker already clear")
 
 
 def clean(text: str) -> str:
@@ -208,6 +441,7 @@ def discover(prog: dict, slot: str, links: list[str]) -> int:
     if slot not in ("structure", "specialisations") and not slot.startswith("comp-"):
         return 0
     before = len(prog["pages"])
+    max_components, max_subjects = caps_for(prog)
 
     # Some programs (MC-CLIND and other specialisation-structured degrees) list
     # no subjects on course-structure at all — it just points at the
@@ -223,7 +457,7 @@ def discover(prog: dict, slot: str, links: list[str]) -> int:
             m = re.match(r"https://handbook\.unimelb\.edu\.au/(?:\d{4}/)?components/([\w-]+)", h)
             if m and m.group(1) not in comps:
                 comps.append(m.group(1))
-        for c in sorted(comps)[:MAX_COMPONENTS]:
+        for c in sorted(comps)[:max_components]:
             add_page(prog, f"https://handbook.unimelb.edu.au/2026/components/{c}/course-structure", f"comp-{c}")
 
     known = {p["slot"][5:] for p in prog["pages"].values()
@@ -236,7 +470,7 @@ def discover(prog: dict, slot: str, links: list[str]) -> int:
         # capped program could never take on new ones when the cap was raised.
         if m and m.group(1) not in subjects and m.group(1) not in known:
             subjects.append(m.group(1))
-    for s in subjects[: max(0, MAX_SUBJECTS - len(known))]:
+    for s in subjects[: max(0, max_subjects - len(known))]:
         add_page(prog, f"https://handbook.unimelb.edu.au/2026/subjects/{s}", f"subj-{s}")
         add_page(prog, f"https://handbook.unimelb.edu.au/2026/subjects/{s}/assessment", f"subj-{s}-assessment")
     return len(prog["pages"]) - before
@@ -267,8 +501,28 @@ def cmd_save(code: str, slot: str) -> None:
     # a block signal here, in the extracted main-content text.
     if any(m in text for m in ("Pardon Our Interruption", "_Incapsula_Resource")):
         prog["pages"][url].update(status="blocked", ts=now())
+        b = trip_breaker(q, f"{code}/{slot}: interstitial")
         save_queue(q)
-        sys.exit(f"{code}/{slot}: blocked page — capture rejected, back off and retry")
+        sys.exit(
+            f"{code}/{slot}: blocked page — capture rejected, backing off {b['minutes']}m. "
+            f"Stop the batch; run `plan` next time."
+        )
+    # The Incapsula block also has a silent shape: HTTP 200 with a well-formed but
+    # EMPTY document, the marker living in an iframe the extractor never reads. That
+    # lands here as an empty extract, and without this branch it fell through to the
+    # "too short" case below and was recorded as *failed* — terminal, so a perfectly
+    # good page left the queue for good (hit 507aa/subj-laws90057 on 2026-08-17).
+    # No real handbook page has zero main-content text, so empty always means the
+    # fetch did not happen. A slow render lands here too; calling that blocked costs
+    # a retry, whereas calling it failed loses the page — so bias to blocked.
+    if not text.strip():
+        prog["pages"][url].update(status="blocked", ts=now())
+        b = trip_breaker(q, f"{code}/{slot}: empty extract")
+        save_queue(q)
+        sys.exit(
+            f"{code}/{slot}: empty extract — treated as blocked, backing off {b['minutes']}m. "
+            f"Stop the batch; run `plan` next time."
+        )
     # A subject the handbook does not publish for 2026 is neither a capture
     # failure nor evidence. Retrying it forever is pointless, and recording it
     # as done puts "Page not found" into the extract and lets it count toward
@@ -277,6 +531,7 @@ def cmd_save(code: str, slot: str) -> None:
     # completeness either way.
     if "not currently published" in text or "Page not found" in text:
         prog["pages"][url].update(status="notfound", chars=len(text), ts=now())
+        clear_breaker(q)  # the handbook answered; whatever block there was has lifted
         page_file = os.path.join(PAGES, f"{code}__{slot}.txt")
         if os.path.exists(page_file):
             os.remove(page_file)
@@ -298,6 +553,10 @@ def cmd_save(code: str, slot: str) -> None:
     prog["pages"][url].update(status="done", chars=len(text), ts=now())
     found = discover(prog, slot, data.get("links") or [])
     prog["assembled"] = False
+    # A page served in full is the only reliable evidence the block has lifted,
+    # so success resets the backoff. Without this the window would ratchet upward
+    # across unrelated blocks and eventually park capture at the 12-hour ceiling.
+    clear_breaker(q)
     save_queue(q)
 
     pend = sum(1 for p in prog["pages"].values() if p["status"] == "pending")
@@ -419,6 +678,46 @@ def cmd_rediscover() -> None:
     print(f"rediscovered {total} page(s)")
 
 
+def cmd_prioritise(codes: list[str], clear: bool = False) -> None:
+    """Move some programs to the front of the queue.
+
+    Sequencing lives here rather than in the cohort files on purpose: which
+    programs matter most is a decision about this week, while the cohort files
+    are the auditable record of what the cohort IS. Flagging is idempotent and
+    `--clear` puts everything back, so nothing here is a commitment.
+
+    Codes come from whatever picked the set — e.g. `destination-profiles.py
+    ready` for the programs that can yield a two-axis record today. This script
+    deliberately does not compute that itself; it would drag the capture queue
+    into a dependency on the JIR data and three crosswalk CSVs.
+    """
+    q = load()
+    if clear:
+        n = 0
+        for prog in q["programs"].values():
+            if prog.pop("priority", None):
+                n += 1
+        save_queue(q)
+        print(f"priority cleared on {n} program(s)")
+        return
+    if not codes:
+        flagged = sorted(c for c, p in q["programs"].items() if p.get("priority"))
+        print(f"{len(flagged)} program(s) prioritised: {' '.join(flagged) or '(none)'}")
+        return
+    # A typo'd code must not silently do nothing — the whole point of this
+    # command is that the next scheduled run captures a DIFFERENT set, and a
+    # dropped code would show up days later as a program that never got picked.
+    unknown = [c for c in codes if c not in q["programs"]]
+    for c in codes:
+        if c in q["programs"]:
+            q["programs"][c]["priority"] = True
+    save_queue(q)
+    total = sum(1 for p in q["programs"].values() if p.get("priority"))
+    print(f"prioritised {len(codes) - len(unknown)} of {len(codes)} code(s); {total} flagged in total")
+    if unknown:
+        print(f"  NOT in the queue, ignored: {' '.join(unknown)}")
+
+
 def cmd_stalled() -> None:
     """Programs that can no longer make progress on their own.
 
@@ -480,22 +779,35 @@ def cmd_status(as_json: bool) -> None:
             counts[p["status"]] = counts.get(p["status"], 0) + 1
         for k in tot:
             tot[k] += counts[k]
-        rows.append({"code": code, "assembled": prog["assembled"], **counts})
+        rows.append(
+            {
+                "code": code,
+                "assembled": prog["assembled"],
+                "priority": bool(prog.get("priority")),
+                **counts,
+            }
+        )
     complete = [r["code"] for r in rows if r["assembled"]]
+    prio = [r for r in rows if r["priority"]]
+    left = cooloff_seconds(q)
     summary = {
         "programs": len(rows),
         "assembled": len(complete),
         "assembledCodes": complete,
+        "priority": len(prio),
+        "priorityRemaining": sum(1 for r in prio if not r["assembled"]),
         "pages": tot,
+        "block": {**(q.get("block") or {}), "cooloffMinutesRemaining": left // 60},
     }
     if as_json:
         print(json.dumps({"summary": summary, "programs": rows}, indent=1))
         return
-    print(f"{'code':<14}{'done':>6}{'pend':>6}{'live':>6}{'fail':>6}{'blk':>5}  assembled")
+    print(f"{'code':<14}{'done':>6}{'pend':>6}{'live':>6}{'fail':>6}{'blk':>5}  {'pri':<5}assembled")
     for r in rows:
         print(
             f"{r['code']:<14}{r['done']:>6}{r['pending']:>6}{r['inflight']:>6}"
-            f"{r['failed']:>6}{r['blocked']:>5}  {'yes' if r['assembled'] else ''}"
+            f"{r['failed']:>6}{r['blocked']:>5}  {'*' if r['priority'] else '':<5}"
+            f"{'yes' if r['assembled'] else ''}"
         )
     print(
         f"\n{summary['assembled']}/{summary['programs']} programs assembled · "
@@ -503,6 +815,18 @@ def cmd_status(as_json: bool) -> None:
         f"{tot['inflight']} leased, {tot['failed']} failed, {tot['blocked']} blocked, "
         f"{tot['notfound']} unpublished"
     )
+    if summary["priority"]:
+        print(
+            f"{summary['priority']} program(s) prioritised — "
+            f"{summary['priorityRemaining']} still to assemble"
+        )
+    if left:
+        b = block_state(q)
+        verb = "NEEDS A PERSON" if b.get("consecutive", 0) >= BLOCK_ATTEND_AFTER else "cooling off"
+        print(
+            f"\nBREAKER OPEN — {verb}: {left // 60}m left, consecutive block "
+            f"{b.get('consecutive')}, reason {b.get('reason')!r}"
+        )
 
 
 def main() -> None:
@@ -511,6 +835,12 @@ def main() -> None:
     cmd, rest = sys.argv[1], sys.argv[2:]
     if cmd == "init":
         cmd_init()
+    elif cmd == "plan":
+        cmd_plan(int(rest[0]) if rest else 8)
+    elif cmd == "block":
+        cmd_block(" ".join(rest) or "unspecified")
+    elif cmd == "unblock":
+        cmd_unblock()
     elif cmd == "next":
         cmd_next(int(rest[0]) if rest else 8)
     elif cmd == "save":
@@ -525,6 +855,8 @@ def main() -> None:
         cmd_requeue(rest)
     elif cmd == "rediscover":
         cmd_rediscover()
+    elif cmd == "prioritise":
+        cmd_prioritise([c for c in rest if c != "--clear"], clear="--clear" in rest)
     elif cmd == "stalled":
         cmd_stalled()
     elif cmd == "status":

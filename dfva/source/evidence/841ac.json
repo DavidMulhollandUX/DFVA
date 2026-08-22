@@ -1,0 +1,163 @@
+{
+  "code": "841ac",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2's anchor — 'at least one core unit assesses collaborative practice' — is met many times over: assessed group presentations and group written work appear in ORAL10001, ORAL20001, ORAL20003 and ORAL30001, so the first conjunct of level 3 ('assessed collaborative practice recurs across the program') is satisfied. Level 3 fails on its second, conjunctive requirement: no assessment in the extract requires coordinating work across people AND tools/AI systems, and no task makes the division of work between people and systems itself assessable. The team evidence that does exist is human-only (dental team, assistant/operator pairing, research groups). Per v4.1 the placement/clinical-team evidence is not available to C1 — it scores in W3. Held at 2.",
+      "evidenceLines": [
+        "20-minute group presentation (3-person group) equivalent to 1,000 words per student",
+        "Group oral presentation (Health Promotion Principles) in groups of 4 students",
+        "Written assignment - group lesson plan (Applied Health Education) in groups of 4 students",
+        "Group oral presentation",
+        "Group written report",
+        "Group Presentation - Sociology evaluation",
+        "Students will learn about correct posture, safety, and working as a team (assistant and operator) in the dental operatory during the provision of these procedures.",
+        "Students will be assigned to research groups, to enable peer support and collaboration with students researching similar topics."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2's anchor — 'criterion-referenced appraisal of quality: peer review, structured critique, portfolio with standards' — is met by the year-long curated portfolios assessed in ORAL10001 (35%), ORAL10005 (30%), ORAL20005 (20%) and ORAL30002 (40%), and by the assessed Literature review in ORAL30001 whose outcome is to 'critically review, appraise and synthesise existing evidence'. Level 3 requires assessment that makes students document and justify reliance decisions, defend judgements of a tool's output, or evidence strategy adjustment over time. The extract carries reflective components (a 500-word reflective journal entry; repeated reflective-practice assessments in OHP1) and portfolios explicitly described as formative-across-the-year, which is consistent with process-focused assessment — but the extract never states what the 'prescribed tasks' require, and no reliance or override decision is named anywhere. Evidence consistent with both 2 and 3, resolved DOWN per the scoring-direction rule.",
+      "evidenceLines": [
+        "Portfolio - A student curated compilation that responds to prescribed tasks submitted regularly throughout the year",
+        "Portfolio: A student curated compilation that responds to prescribed tasks submitted regularly throughout the year",
+        "1 x 500-word reflective journal entry",
+        "*The portfolio assessment is formative throughout the teaching period. Students may be asked to demonstrate progress and may also seek feedback throughout the year. It is submitted as a body of work at the end of the teaching period.",
+        "There will be 1 conducted in the first half of the year, and 2 conducted in the second half of the year.",
+        "Literature review",
+        "Critically review, appraise and synthesise existing evidence related to a specific area of oral health",
+        "Identify and appraise literature for application to the practice of oral health therapy"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "The extract contains no occurrence of AI, artificial intelligence or generative tools anywhere — not in a course outcome, a subject description or an assessment. Level 0's anchor ('no digital/AI content in any core unit or program-level outcome') is nevertheless not quite met, because digital content is present at exactly the operational level level 1 describes: information-technology and academic-database skills, educational technology and aids, multimedia, communication systems and clinical photography, all stated as tool skills. Level 2 requires core units to address AI capabilities AND limitations/ethics with use-with-limits assessed; nothing of the kind is documented, so level 3's governance/critique requirement is unreachable. Scored at the tool-operation level, 1.",
+      "evidenceLines": [
+        "Skills in Information technology and use of academic databases;",
+        "Applied Health Education: School curriculum frameworks, settings and strategies for health education, educational technology and aids for oral health and applied health education experience via in-class practical sessions, interviews and field visits.",
+        "Multimedia;",
+        "Development and management of communication systems;",
+        "Taking clinical photographs and other dental records,"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3's anchor — 'the program documents structured progression toward independent learning: a self-scoped capstone or research project' — is met by ORAL30001, a year-long final-year core subject in which the research area is the student's own choice and the deliverable is an individual proposal. R2 is satisfied by assessment evidence, not outcome statements: the progression is itself assessed and staged (Literature review 25% → Presentation - Proposed research methods 15% → Research proposal 30%), with a supervisor supporting each student's individual proposal. This sits above level 1 (transfer merely claimed in outcomes such as 'the skills to acquire, synthesize and adapt knowledge to a variety of situations') and above level 2. Per v4.1 the work-integrated-learning route to level 3 is not used here — that evidence scores in W3.",
+      "evidenceLines": [
+        "In this subject, students will work on a research area, of their choice, relevant to the field of oral health therapy.",
+        "Each group will be appointed a research supervisor who will support them in the development of their individual research proposal.",
+        "Literature review",
+        "Presentation - Proposed research methods",
+        "Research proposal",
+        "Independent and self-directed learning",
+        "the capacity for rational inquiry, self directed learning and the integration of new knowledge;",
+        "the skills to acquire, synthesize and adapt knowledge to a variety of situations;"
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 1's anchor — 'introductory methods unit; literature-review assessment' — is exactly what ORAL30001 documents: an assessed 2000-word Literature review plus research-methodology instruction. Level 2 requires students to 'design and conduct an inquiry with methodology selection and data collection, assessed'. Methodology selection is assessed ('Plan a research project, selecting appropriate research methods'; 'Presentation - Proposed research methods'), but the subject terminates at a proposal: the extract documents formulating questions and developing a proposal, and nowhere documents data collection, primary evidence generation, or a defence under scrutiny. The design half without the conduct half leaves the level-2 anchor unsatisfied; held at 1.",
+      "evidenceLines": [
+        "Students will undertake a literature review, formulate research questions or hypotheses, and develop a research proposal, applying the principles of research methodology and evidence-based practice to address their identified research problem.",
+        "Literature review",
+        "Plan a research project, selecting appropriate research methods to answer the research question",
+        "Presentation - Proposed research methods",
+        "Research proposal"
+      ]
+    },
+    "adaptiveness": 9,
+    "W1": {
+      "score": 2,
+      "rationale": "DEMOTED from 3 to 2 on adversarial verification. Level 2 holds: the professional communication genres are documented and assessed (Objective Structured Clinical Examination, Viva Voce Examination, Viva voce, Oral presentation, Health policy analysis, group lesson plan, and the rural placement written assessment and presentation), and assessed oral communication recurs in all three years. Level 3's second conjunct — at least one core assessment delivered to, or judged by, a real external audience or practitioner — is supported only by two intended learning outcomes ('Communicate professionally amongst peers and patients;' ORAL10005; 'Effectively communicate information regarding oral health status, a range of treatment options and potential outcomes to the patient (and their family)...' ORAL20005). The extract documents no criteria for the OSCE or the End of Course Clinical Assessment and neither instrument names a patient, so the claim that they are judged on communication with patients is not evidenced. The one assessment line that could carry a patient audience ('Ongoing assessment of clinical practice') is homed in W3 under the one-construct-one-home rule and is not available here. R2 and the instrument's 'an outcome statement is never sufficient' clause forbid resting the conjunct on ILOs. Conjunct 1 (repeated assessed oral communication across all three years) and conjunct 3 (fitness to practice as a pass condition; maintenance of an appropriate standard of conduct) do hold, but a conjunctive level-3 anchor half-met resolves to 2.",
+      "evidenceLines": [
+        "Communicate professionally amongst peers and patients;",
+        "Effectively communicate information regarding oral health status, a range of treatment options and potential outcomes to the patient (and their family), and oral health and general health care providers as necessary;",
+        "Objective Structured Clinical Examination",
+        "Viva Voce Examination",
+        "Viva voce",
+        "Oral presentation",
+        "During the final placement period",
+        "Rural placement written assessment and presentation (Group written assignment and oral presentation equiv to 500 words per person)",
+        "Demonstration of 'fitness to practice' through:",
+        "Consistent satisfactory professional behaviour.",
+        "(c) maintain an appropriate standard of conduct."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "DEMOTED from 3 to 2 on adversarial verification. Level 2's anchor — assessment that reproduces a professional task end to end — is met by the Objective Structured Clinical Examination, the Local Anaesthesia Practical Assessment and the End of Course Clinical Assessment, and the assessment-spine conjunct of level 3 also holds on documented tasks (OSCE plus simulation hurdle in first year; OSCE, Local Anaesthesia Practical Assessment and simulation/clinical hurdles in second year; End of Course Clinical Assessment plus viva in third year). Level 3's second conjunct — the profession's own standards of performance operating as a genuine constraint — fails on R2: it rests only on an ORAL20005 intended learning outcome ('Examine, diagnose, plan and provide treatment as specified in the dental legislation within Australia...') and a knowledge-acquisition sentence in the ORAL10005 overview ('Students will gain knowledge of their responsibilities under the law... together with knowledge of the current published standards of practice.'). Neither is assessment evidence and neither documents a standard applied as a constraint on an assessed performance. The alternative level-3 routes also fail on documented features: hurdle consequence is student-facing rather than a constraint of practice; the 2-hour OSCE and 20-minute End of Course Clinical Assessment are exam durations, not the real resource or time limits of practice; no ambiguous or externally supplied problem appears; and the consequential-audience route would require the clinical-practice and placement evidence already homed in W3. Held at 2.",
+      "evidenceLines": [
+        "Ongoing assessment of simulation practice",
+        "Objective Structured Clinical Examination",
+        "it is the culmination of the preclinical work and sits alongside the OSCE to demonstrate acquisition of the practical dentistry skills required to progress to second year.",
+        "Students will develop initial manual dexterity and self-evaluation skills using virtual simulation facilities.",
+        "Local Anaesthesia Practical Assessment",
+        "End of Course Clinical Assessment",
+        "Hurdle requirement: Must pass this assessment in order to pass the subject",
+        "Examine, diagnose, plan and provide treatment as specified in the dental legislation within Australia for Oral Health Therapy (dental therapy and dental hygiene);",
+        "Students will gain knowledge of their responsibilities under the law to provide a safe environment for their patients, staff and themselves, together with knowledge of the current published standards of practice."
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3's placement route is satisfied on every element. 'Extended … or a sequence of them, in the core': clinical practicum is core in second year and clinical placement runs through the third-year 75-point subject, with clinical work at the Royal Dental Hospital in all years and at metropolitan and rural community health centres in the final year — a sequence, not a single short block, its scale evidenced by a 12,000-word-equivalent load completed during timetabled clinical placement. 'Supervised by a practitioner, assessed': supported clinical practice within general and specialist dental practices, with ongoing assessment of clinical practice as a pass hurdle in both second and third year. 'Accountability to the host': performance is audited at the end of each placement period and managed against attendance, standard and conduct criteria. 'Structured reflection on professional practice': the third-year subject is built on student-directed learning, self-assessment and reflective practice. This is well above level 2, where such learning is short or stands alone.",
+      "evidenceLines": [
+        "Clinical work is undertaken at the Royal Dental Hospital of Melbourne in all years of the course and at other metropolitan and rural community health centres in the final year of the course.",
+        "This subject comprises lectures, seminars, preclinical practicum, and clinical practicum.",
+        "Ongoing assessment of clinical practice (hurdle)",
+        "Ongoing assessment of clinical practice*",
+        "Throughout the teaching period, audited at end of each placement period.",
+        "Students will engage in supported clinical practice providing the full oral health therapy scope of practice within general and specialist dental practices in the public and private sectors, in rural and metropolitan settings, special needs and outreach dental care programs.",
+        "(b) complete at a satisfactory standard the academic or professional components specified for the professional placement; or",
+        "This subject comprises lectures, seminars, on-line modules, preclinical and clinical experience and encompasses all aspects of oral health therapy patient care utilising student directed learning and self-assessment, reflective practice and problem-based learning.",
+        "During the rural placement"
+      ]
+    },
+    "workplace": 7,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The gate's PASS condition is met on two of its three routes at once: an all-compulsory specialist core (a fixed three-year program in which every listed subject is undertaken by all students, with no electives shown) and an accredited sequence (Australian Dental Council). Depth is staged rather than interchangeable — the ORAL100xx / ORAL200xx / ORAL300xx level chain runs paired science and practice strands from Oral Health Sciences 1 and Oral Health Practice 1 through to Oral Health Practice 3, with content explicitly building from preclinical simulation to full scope of practice. No generic or interchangeable content without disciplinary identity.",
+        "evidenceLines": [
+          "The Bachelor of Oral Health is a fixed, three-year, full-time program.",
+          "Australian Dental Council (ADC)",
+          "Over the three year program, students will undertake the following subjects:",
+          "This subject comprises lectures, seminars, preclinical practicum, and clinical practicum.",
+          "This subject completes the clinical and educational preparation for full Oral Health Therapy (OHT) scope of practice including:"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "The gate's PASS condition — assessments requiring defended trade-off decisions, or live projects with real uncertainty and accountability — is met, not by recall or scripted responses. Viva voce examinations in second and third year require decisions to be defended orally; autonomous examination, diagnosis and treatment planning for patients of all ages is assessed in live clinical practice under a pass hurdle; and the assessed outcomes require evaluating treatment responses, identifying the limits of treatment modalities, adapting care, and recognising the boundary at which a case must be referred out — trade-off judgement with patient consequence, not scripted performance.",
+        "evidenceLines": [
+          "Viva Voce Examination",
+          "Viva voce",
+          "autonomous examination, diagnosis and treatment planning for patients of all ages",
+          "Critically evaluate responses to treatment provided to patients, identify limitations of particular treatment modalities and adapt care appropriately;",
+          "Identify conditions beyond the scope of an oral health therapist and facilitate appropriate referrals.",
+          "self- assessment and recognition of boundaries of professional competence and appropriate referral",
+          "Critical analysis and decision making.",
+          "Ongoing assessment of clinical practice*"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C2 straddled 2 and 3: year-long curated portfolios described as formative with progress demonstration and feedback, plus a reflective journal entry and three timetabled reflective-practice assessments, are consistent with the level-3 'evidence strategy adjustment over time (process-focused assessment)' route — but the extract never specifies what the prescribed portfolio tasks require and never names a reliance or override decision. Resolved DOWN to 2 by the scoring-direction rule.",
+      "C1 straddled 2 and 3: the first conjunct of level 3 (assessed collaborative practice recurring across the program) is clearly met in all three years, but the second conjunct (coordination across people AND tools/AI systems) has no evidence at all. A conjunctive anchor half-met resolves to 2.",
+      "C3 straddled 0 and 1: the extract contains no mention of AI or generative tools anywhere, which points at 0, but information-technology/database skills, educational technology, multimedia and communication systems are documented as tool skills, which is precisely level 1's tool-operation description. Scored 1 on the presence of digital tool-operation content; note that C3 is at 1 for absence of AI content, not for absence of digital content.",
+      "C5 straddled 1 and 2: methodology selection IS assessed (Presentation - Proposed research methods; Research proposal), which is half of level 2, but the subject stops at a proposal and no data collection or primary evidence generation is documented. Design without conduct resolves DOWN to 1.",
+      "C4 and C5 both draw on ORAL30001 — one construct, one home was applied: the self-scoped, staged, supervised project scores the C4 level-3 'structured progression toward independent learning' anchor, while the inquiry content scores separately in C5 and is capped there at 1 because no primary evidence is generated.",
+      "Clinical evidence straddled W1, W2 and W3 — allocated by the instrument's non-overlap rule: workplace immersion (placement, practicum, host accountability, structured reflection) to W3; task fidelity (simulation, OSCE, practical and end-of-course clinical assessments, practice standards) to W2; audience and professional conduct (patient communication, fitness to practice, standard of conduct) to W1. No line was used to lift two items above the same level on the same construct.",
+      "'Fitness to practice' evidence could be read as self-evaluation (C2) or professional conduct (W1); scored in W1, whose construct names conduct and accountability. Self-evaluation statements in ORAL10005/ORAL20005 generic skills were NOT used to raise C2, since they are outcome statements, not assessment (R2).",
+      "W2 was scored on documented task features only. The handbook's own framing terms ('vocational clinical practice', 'patient-centred', 'evidence based practice') were disregarded as labels under R4; the level-3 constraint-of-practice reading rested on the legislated scope and published standards of practice, and was overturned on adversarial verification because both lines are an intended learning outcome and a knowledge-acquisition sentence rather than assessment evidence.",
+      "Adversarial verification demoted W1 from 3 to 2 and W2 from 3 to 2, both on R2: the level-3 conjuncts in each case (a real external audience/practitioner judging an assessment in W1; the profession's standards applied as a constraint on an assessed performance in W2) rested on intended learning outcomes rather than on documented assessment features, and the clinical-practice lines that could have carried them are homed in W3. Workplace total moved from 9 to 7; adaptiveness is unaffected at 9."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-16"
+    }
+  }
+}

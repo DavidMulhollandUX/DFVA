@@ -1,0 +1,47 @@
+{
+ "note": "Alias code -> the code actually scored. Same curriculum, different intake/mode/credit-point variant. On-campus full-time code preferred; 294be over 294fn/294pn is an arbitrary tiebreak (identical 162.5cp, differ only in duration).",
+ "aliases": {
+  "mc-baptme": "mc-ba",
+  "mc-ba218": "mc-ba",
+  "mc-baol": "mc-ba",
+  "960ba": "mc-ed",
+  "mc-edmo": "mc-ed",
+  "mc-phmo": "244cw",
+  "294fn": "294be",
+  "294pn": "294be",
+  "mc-po": "342aa"
+ },
+ "excludedMPhil": [
+  "mr-artsast",
+  "mr-artsths",
+  "mr-fa",
+  "mr-irchem",
+  "mr-musres",
+  "mr-philabp",
+  "mr-philagr",
+  "mr-philbms",
+  "mr-phildsc",
+  "mr-philedu",
+  "mr-phileit",
+  "mr-philhlt",
+  "mr-phillaw",
+  "mr-philmed",
+  "mr-philpgh",
+  "mr-philpsy",
+  "mr-philsci",
+  "mr-philvet",
+  "mr-resmed"
+ ],
+ "excludedHonours": [
+  "bh-agr",
+  "bh-arts",
+  "bh-bmed",
+  "bh-com",
+  "bh-des",
+  "bh-fa",
+  "bh-medsci",
+  "bh-mus",
+  "bh-sci",
+  "bh-sciadv"
+ ]
+}
