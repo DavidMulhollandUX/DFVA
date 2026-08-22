@@ -18,7 +18,8 @@ import AdminSettings from "./src/admin/elements/settings/SettingsPage" with { ty
 import { NotFoundPage } from "./src/client/components/NotFoundPage" with { type: "ref" };
 import AssessorPage from "./src/compass/AssessorPage" with { type: "ref" };
 import ReportsPage from "./src/compass/ReportsPage" with { type: "ref" };
-import ReportDetailPage from "./src/compass/ReportDetailPage" with { type: "ref" };
+import ReportPage from "./src/compass/ReportPage" with { type: "ref" };
+import V4ReportsPage from "./src/compass/v4/V4ReportsPage" with { type: "ref" };
 import InsightsPage from "./src/compass/InsightsPage" with { type: "ref" };
 import MatrixDashboardPage from "./src/compass/v2/MatrixDashboardPage" with { type: "ref" };
 import V2ReportPage from "./src/compass/v2/V2ReportPage" with { type: "ref" };
@@ -270,8 +271,14 @@ export default app({
     // Public: anyone can assess a program without an account. Signing in only
     // adds a durable history (see getAssessmentJobs).
     route("AssessRoute", "/assess", page(AssessorPage)),
-    route("ReportsRoute", "/reports", page(ReportsPage)),
-    route("ReportDetailRoute", "/reports/:reportSlug", page(ReportDetailPage)),
+    // v4 is the main report format: /reports is the v4-first index and
+    // /reports/:code the Durability Report. Legacy dfva-* slugs still resolve
+    // (archived v1 workspace) via the ReportPage dispatcher; the old v1 index
+    // stays reachable at /reports/archive. Nothing user-facing links to the
+    // retired v1/v2/v3/v3.1 routes any more, but they all keep working.
+    route("ReportsRoute", "/reports", page(V4ReportsPage)),
+    route("ReportsArchiveRoute", "/reports/archive", page(ReportsPage)),
+    route("ReportDetailRoute", "/reports/:reportSlug", page(ReportPage)),
     // v2 (dev branch): /insights IS the v2 matrix dashboard; v1 hub moves to /insights/v1
     route("InsightsRoute", "/insights", page(MatrixDashboardPage)),
     route("InsightsV1Route", "/insights/v1", page(InsightsPage)),

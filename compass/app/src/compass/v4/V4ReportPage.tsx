@@ -29,6 +29,11 @@ import {
   type V4PanelC,
 } from "./data/v4PanelC";
 import { Cite, HowThisRubricWorksDialog } from "./HowThisRubricWorksDialog";
+import { PROGRAMS } from "../sharedProgramData";
+import {
+  V4_QUADRANT_LABELS as QUADRANT_LABELS,
+  v4Quadrant,
+} from "./v4Position";
 
 const X_MIN = 60;
 const X_MAX = 100;
@@ -38,29 +43,6 @@ const X_MAX = 100;
 const NEUTRAL_DOT = "#6B7280";
 
 const ITEM_IDS = ["C1", "C2", "C3", "C4", "C5"] as const;
-
-const QUADRANT_LABELS = {
-  "well-positioned": "High exposure · high adaptiveness",
-  comfortable: "Low exposure · high adaptiveness",
-  attention: "High exposure · low adaptiveness",
-  sheltered: "Low exposure · low adaptiveness",
-} as const;
-
-type Quadrant = keyof typeof QUADRANT_LABELS;
-
-/**
- * The v3 quadrant rule, restated on the v4 medians: exposure strictly above
- * its median, adaptiveness at or above its median. Returns null while the
- * migration cycle is incomplete — no v4 median exists, so no label may be
- * shown. (The exposure median is inherited; v4 does not touch Panel A.)
- */
-function v4Quadrant(exposure: number, adaptiveness: number): Quadrant | null {
-  if (!V4_META.complete || V4_META.adaptMedian === null) return null;
-  const highExp = exposure > V4_META.expMedian;
-  const highAdapt = adaptiveness >= V4_META.adaptMedian;
-  if (highExp) return highAdapt ? "well-positioned" : "attention";
-  return highAdapt ? "comfortable" : "sheltered";
-}
 
 function CardLabel({ children }: { children: React.ReactNode }) {
   return (
@@ -407,8 +389,13 @@ function V4MiniMatrix({
   );
 }
 
-export default function V4ReportPage() {
-  const { code } = useParams<{ code: string }>();
+export default function V4ReportPage({ code: codeProp }: { code?: string }) {
+  const { code: paramCode } = useParams<{ code: string }>();
+  const code = codeProp ?? paramCode;
+  // Archived v1 report (the format this page replaced), where one exists.
+  const v1 = code
+    ? PROGRAMS.find((p) => p.assessmentSlug === `dfva-${code}`)
+    : undefined;
   const v3 = code ? v3ProgramByCode(code) : undefined;
   const panelC: V4PanelC | undefined = code ? v4PanelCByCode(code) : undefined;
   // A program can be scored on Panel C without being in the assessed portfolio:
@@ -428,19 +415,59 @@ export default function V4ReportPage() {
   if (!program || !panelC) {
     return (
       <div className="mx-auto max-w-2xl px-4 py-24 text-center">
-        <h1 className="text-foreground mb-3 font-serif text-3xl">
-          No v4 draft assessment
-        </h1>
-        <p className="text-muted-foreground mb-6">
-          No Panel C v4 scoring exists for “{code}” — v4 is a working-draft
-          instrument and has been piloted on selected programs only.
+        <p className="text-muted-foreground mb-2 text-xs font-semibold tracking-[0.18em] uppercase">
+          Durability Assessment · Panel C {V4_INSTRUMENT}
         </p>
-        <Link
-          to="/insights"
-          className="text-secondary-muted-foreground underline"
-        >
-          Back to the portfolio overview
-        </Link>
+        <h1 className="text-foreground mb-3 font-serif text-3xl">
+          {v1 ? v1.program : "No Durability Report"}
+        </h1>
+        {v1 ? (
+          <>
+            <p
+              className="text-muted-foreground mb-6"
+              data-testid="v4-pending-notice"
+            >
+              This program has not yet been scored on the v4 instrument, so it
+              has no current Durability Report. Its earlier assessment is kept
+              as an archived report.
+            </p>
+            <div className="flex flex-wrap justify-center gap-4 text-sm">
+              <Link
+                to={`/reports/${v1.assessmentSlug}`}
+                className="text-secondary-muted-foreground underline"
+                data-testid="archived-v1-link"
+              >
+                Archived v1 assessment
+              </Link>
+              {v1.recommendSlug && (
+                <Link
+                  to={`/reports/${v1.recommendSlug}`}
+                  className="text-secondary-muted-foreground underline"
+                >
+                  Archived v1 improvement plan
+                </Link>
+              )}
+              <Link
+                to={`/reports/${v1.marketSlug}`}
+                className="text-secondary-muted-foreground underline"
+              >
+                Market intelligence
+              </Link>
+            </div>
+          </>
+        ) : (
+          <p className="text-muted-foreground mb-6">
+            No Panel C v4 scoring exists for “{code}”.
+          </p>
+        )}
+        <div className="mt-8">
+          <Link
+            to="/reports"
+            className="text-secondary-muted-foreground underline"
+          >
+            Back to all reports
+          </Link>
+        </div>
       </div>
     );
   }
@@ -523,12 +550,12 @@ export default function V4ReportPage() {
                 .{" "}
                 {v3 ? (
                   <>
-                    The v3.1 assessment remains the assessment of record:{" "}
+                    The earlier v3.1 assessment is kept as an archived report:{" "}
                     <Link
                       to={`/insights/v31/${program.code}`}
                       className="underline"
                     >
-                      same program on v3.1
+                      same program on v3.1 (archived)
                     </Link>
                     .
                   </>
@@ -1175,11 +1202,38 @@ export default function V4ReportPage() {
             Evidura · Durability Assessment · Panel C {V4_INSTRUMENT} pilot ·
             single-rater scoring, verified against source
           </span>
-          <span className="flex gap-4">
-            {v3 && (
-              <Link to={`/insights/v31/${program.code}`} className="underline">
-                Same program, published instrument (v3.1)
-              </Link>
+          <span className="flex flex-wrap gap-4">
+            {(v3 || v1) && (
+              <span
+                className="flex flex-wrap gap-3"
+                data-testid="archived-reports"
+              >
+                <span className="text-foreground font-medium">Archived:</span>
+                {v1 && (
+                  <Link
+                    to={`/reports/${v1.assessmentSlug}`}
+                    className="underline"
+                  >
+                    v1 assessment
+                  </Link>
+                )}
+                {v1?.recommendSlug && (
+                  <Link
+                    to={`/reports/${v1.recommendSlug}`}
+                    className="underline"
+                  >
+                    v1 improvement plan
+                  </Link>
+                )}
+                {v3 && (
+                  <Link
+                    to={`/insights/v31/${program.code}`}
+                    className="underline"
+                  >
+                    v3.1 assessment
+                  </Link>
+                )}
+              </span>
             )}
             {hasReportContent(`dfva-v4-${program.code}`) && (
               <Link
@@ -1189,8 +1243,8 @@ export default function V4ReportPage() {
                 Full v4 report (markdown)
               </Link>
             )}
-            <Link to="/insights" className="underline">
-              See all assessed programs
+            <Link to="/reports" className="underline">
+              All reports
             </Link>
           </span>
         </div>

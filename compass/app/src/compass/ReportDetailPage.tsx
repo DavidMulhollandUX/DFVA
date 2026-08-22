@@ -1646,6 +1646,24 @@ function ReportDetailView({
           <ArrowLeft className="h-4 w-4" />
           All reports
         </Link>
+        {!isV4Report && (
+          <div
+            className="bg-card-accent text-muted-foreground mb-4 flex flex-wrap items-center gap-2 rounded-md px-3 py-2 text-sm"
+            data-testid="archived-report-banner"
+          >
+            <span className="text-foreground text-xs font-semibold tracking-wide uppercase">
+              Archived report
+            </span>
+            <span>
+              This is the earlier-instrument (v1) assessment, kept for
+              reference.{" "}
+              <Link to={`/reports/${code}`} className="underline">
+                Current report for this program
+              </Link>
+              .
+            </span>
+          </div>
+        )}
         <div className="flex flex-wrap items-start justify-between gap-4">
           <div>
             <div className="flex items-center gap-2">
