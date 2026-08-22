@@ -36,6 +36,9 @@ const PROGRAM_FACULTY: Record<string, string> = {
   "Master of Industrial Engineering": "Engineering & IT",
   // Law
   "Master of Environmental Law": "Law",
+  // Higher doctorate awarded by Melbourne Law School; "Laws" defeats the \blaw\b
+  // fallback regex, so pin it explicitly.
+  "Doctor of Laws": "Law",
   // Medicine, Dentistry & Health
   "Master of Biomedical Science": "Medicine, Dentistry & Health",
   "Master of Clinical Dentistry": "Medicine, Dentistry & Health",
@@ -96,6 +99,15 @@ export function getFaculty(program: string): string {
     return "Science";
   return "Other";
 }
+
+// Programs that genuinely sit outside the 9 faculties. The PhD in Indigenous
+// Knowledge is coordinated by the Indigenous Knowledge Institute across all
+// disciplines (per its own assessment report), so "Other" is a deliberate
+// assignment here, not a fallback miss — consumers can distinguish it from an
+// unresolved name via this set.
+export const NON_FACULTY_PROGRAMS = new Set<string>([
+  "Doctor of Philosophy - Indigenous Knowledge",
+]);
 
 // Clean, stable slug — handles the commas & ampersands in official faculty names.
 // e.g. "Medicine, Dentistry & Health" -> "medicine-dentistry-and-health".
