@@ -77,8 +77,13 @@ async function renderEvidenceTs(): Promise<string | null> {
   const map: Record<string, unknown> = {}
   for (const f of files) {
     const data = JSON.parse(await fs.readFile(path.join(evidenceDir, f), 'utf8'))
+    // A program scored on Panel C v4 but never assessed under v1 has a panelCv4
+    // block and no v1 dimension evidence. That is a legitimate state during the
+    // v4 migration, not a malformed file — most of the 34-program reference
+    // cohort is in it.
+    if (data.panelCv4 && !data.byDimension) continue
     if (!data.programSlug || !data.byDimension) {
-      throw new Error(`evidence/${f} must have { programSlug, byDimension }`)
+      throw new Error(`evidence/${f} must have { programSlug, byDimension }, or a panelCv4 block`)
     }
     map[data.programSlug] = data.byDimension
   }

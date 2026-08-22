@@ -15,6 +15,7 @@ export const REPORT_CONTENT_LOADERS: Record<
 > = {
   "dfva-080cl": () => import("./dfva-080cl"),
   "dfva-080cn": () => import("./dfva-080cn"),
+  "dfva-244cw": () => import("./dfva-244cw"),
   "dfva-300bb": () => import("./dfva-300bb"),
   "dfva-439fs": () => import("./dfva-439fs"),
   "dfva-527cl": () => import("./dfva-527cl"),
@@ -38,6 +39,7 @@ export const REPORT_CONTENT_LOADERS: Record<
   "dfva-dr-philvet": () => import("./dfva-dr-philvet"),
   "dfva-market-080cl": () => import("./dfva-market-080cl"),
   "dfva-market-080cn": () => import("./dfva-market-080cn"),
+  "dfva-market-244cw": () => import("./dfva-market-244cw"),
   "dfva-market-300bb": () => import("./dfva-market-300bb"),
   "dfva-market-439fs": () => import("./dfva-market-439fs"),
   "dfva-market-527cl": () => import("./dfva-market-527cl"),
@@ -85,6 +87,7 @@ export const REPORT_CONTENT_LOADERS: Record<
   "dfva-market-mc-is": () => import("./dfva-market-mc-is"),
   "dfva-market-mc-journ": () => import("./dfva-market-mc-journ"),
   "dfva-market-mc-jurisd": () => import("./dfva-market-mc-jurisd"),
+  "dfva-market-mc-mgmthre": () => import("./dfva-market-mc-mgmthre"),
   "dfva-market-mc-nursc": () => import("./dfva-market-mc-nursc"),
   "dfva-market-mc-phtyph": () => import("./dfva-market-mc-phtyph"),
   "dfva-market-mc-prop": () => import("./dfva-market-mc-prop"),
@@ -147,6 +150,7 @@ export const REPORT_CONTENT_LOADERS: Record<
   "dfva-me-dcd": () => import("./dfva-me-dcd"),
   "dfva-recommend-080cl": () => import("./dfva-recommend-080cl"),
   "dfva-recommend-080cn": () => import("./dfva-recommend-080cn"),
+  "dfva-recommend-244cw": () => import("./dfva-recommend-244cw"),
   "dfva-recommend-300bb": () => import("./dfva-recommend-300bb"),
   "dfva-recommend-439fs": () => import("./dfva-recommend-439fs"),
   "dfva-recommend-527cl": () => import("./dfva-recommend-527cl"),
@@ -211,6 +215,11 @@ export const REPORT_CONTENT_LOADERS: Record<
   "dfva-recommend-mc-urbdes": () => import("./dfva-recommend-mc-urbdes"),
   "dfva-recommend-mc-urbhort": () => import("./dfva-recommend-mc-urbhort"),
   "dfva-recommend-me-dcd": () => import("./dfva-recommend-me-dcd"),
+  "dfva-v4-244cw": () => import("./dfva-v4-244cw"),
+  "dfva-v4-mc-cs": () => import("./dfva-v4-mc-cs"),
+  "dfva-v4-mc-mgmthre": () => import("./dfva-v4-mc-mgmthre"),
+  "dfva-v4-recommend-244cw": () => import("./dfva-v4-recommend-244cw"),
+  "dfva-v4-recommend-mc-mgmthre": () => import("./dfva-v4-recommend-mc-mgmthre"),
 };
 
 export function hasReportContent(slug: string): boolean {

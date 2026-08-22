@@ -1,0 +1,139 @@
+{
+  "code": "mc-urbdes",
+  "panelCv4": {
+    "instrument": "4.1-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Meets the level-2 anchor 'at least one core unit assesses collaborative practice — group projects with individual accountability': the core subject Strategic Plan Making assesses two group tasks (20% each) alongside a 50% individually-marked strategic plan, giving assessed collaboration with individual accountability. Not level 3: assessed collaboration does not recur — it is confined to this one core unit (the three core studios and the capstone are assessed by individual jury review), and no core assessment requires coordinating the division of work across people AND tools/AI systems. The studios' 'Engagement' generic-skills statement about contributing to others' work is an outcome statement, not an assessed task (R2).",
+      "evidenceLines": [
+        "Site analysis poster (group work 3-4 students),",
+        "Policy analysis report (group work 3-4 students)",
+        "Strategic plan, including implementation and monitoring/evaluation plan (individual work)",
+        "Be able to work effectively as a group member making valuable contributions to group discussions and group projects.",
+        "Engagement: engage with and contribute to not only their own work and others in the studio but also the work of the studio generally;"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Meets level 2 'core assessment includes criterion-referenced appraisal of quality': the core Planning Law & Statutory Planning assignment requires students to appraise a submitted planning application and critically review the process, judged against the statutory provisions that supply the criteria. Not level 3: no core assessment requires students to document or justify reliance decisions about a tool, source or collaborator, defend judgements of AI-output quality, or evidence strategy adjustment over time. The staged Urban Design Theory journal (preliminary then final submission) and the studios' 'Critique' generic skill are the nearest candidates, but the journal's description carries no process-focused or strategy-revision requirement and the critique statement is an outcome, not an assessed task (R2).",
+      "evidenceLines": [
+        "Assignment 2 :Undertake an assessment of a planning application for use and development, including a critical review of the process",
+        "an understanding of the limitations of current approaches and of possible alternatives.",
+        "Journal (equivalent to 2500 words , 50% in total) , including preliminary submission , mid-semester, 15%, and final submission end of semester 35%)",
+        "Critique: Be able to demonstrate a critical assessment of precedents and their own design proposal – where are the strengths and weaknesses, what can be learned or concluded by the proposal? What further research would they do if they were continue with the project?"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Matches level 1 'AI or digital tools appear only as electives or as tool operation/training — the operational level TEQSA identifies as non-durable'. Core digital content is operational: big-data and urban-analytics use inside the studios, and GIS inside Strategic Plan Making. The only subject addressing AI capabilities together with their limits — Computational Design and Optimisation, which teaches machine-learning methods and requires critical reflection on the limits of computational technique — sits in the 50 points of electives, not the 125-point core. Not level 2: no core unit is documented as addressing AI limitations or ethics, and nothing in core assessment requires critique or governance of AI systems (bias, accountability, transparency, regulation, data governance) in urban design's own context.",
+      "evidenceLines": [
+        "To engage with concepts and possibilities of 'big data' and develop skills to use large data sets to directly inform design concepts and decision making in innovative and meaningful ways.",
+        "Analysis: engage with contemporary forms of urban analysis techniques which may include solar, wind, energy modelling.",
+        "Electives (50 points)",
+        "Apply a variety of optimisation and machine learning techniques to solve design problems",
+        "Describe a variety of computational design techniques, and identify both challenges and limits of using such techniques in real-world scenarios;"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Meets level 2 'at least one core assessment requires application to novel or unfamiliar problems': the core Strategic Plan Making requires a plan formulated from problems the student identifies during a hurdle field trip to an unfamiliar site, and the core Planning Law assignment applies statutory method to a site the student has not previously studied. Held at 2 rather than 3 under the never-resolve-upward rule: the required capstone is delivered through 'a number of autonomous studio groups', so the problem is set within a studio brief rather than self-scoped by the student, and the individually supervised route is conditional on being high-achieving and on coordinator approval — not a documented structured progression to independent learning for all students. The thesis outcome 'Develop an urban design project proposal' is an outcome statement, which R2 forbids as the basis for a 3.",
+      "evidenceLines": [
+        "Formulate a strategic plan based upon observation and analysis of problem(s) identified during the field trip;",
+        "Assignment 1 : Undertake a preliminary assessment of a site and its surrounds. Determine the planning provisions relevant to the site, and consider their implications.",
+        "It will consist of a number of autonomous studio groups offering a range of opportunities for students to demonstrate an original approach to design synthesis in urban design, which is based on research and critical thinking.",
+        "With course coordinator approval, high-achieving students may undertake the Urban Design Thesis as an individually supervised design investigation.",
+        "Develop an urban design project proposal."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Meets level 2 'students design and conduct an inquiry with methodology selection and data collection, assessed': the core studios are run as design-research exercises with fieldwork, Studio B requires students to set a design research question and articulate and test a method, and Strategic Plan Making makes primary site observation a hurdle whose data feeds the assessed strategic plan and site-analysis poster. Not level 3: the required capstone's assessment is described as graphic, verbal and written presentation of design concept and explorations with exhibition panels — no viva, defence or staged supervised review of METHODOLOGY is documented, and the research-methods subjects (MSD Research Project Short, Analytical Methods, Human Environments Relations) are electives rather than a required primary-evidence route. Evidence straddling 2 and 3 resolved downward.",
+      "evidenceLines": [
+        "Studio projects are always approached as design-research exercises, where innovation and discovery represent a major part of the educational experience.",
+        "Introduce students to design as a form of research. To be able to identify an urban design problem or challenge; set out a design research question and aim; articulate a design approach or method, test their approach with rigor to put forward an urban design proposition; and draw conclusions identifying weakness and strengths of their approach.",
+        "This subject involves a site visit (field trip) which will run in place of the lecture and tutorial in week three. The site visit is an assessment hurdle requirement and students will be required to cover the local public transport costs.",
+        "Multi-scale urban analysis (graphic and written) 2xA3 sheets",
+        "Research Methods"
+      ]
+    },
+    "adaptiveness": 9,
+    "W1": {
+      "score": 2,
+      "rationale": "Meets level 2 'at least one core assessment requires a recognised professional genre ... judged against criteria drawn from professional practice': core assessment requires a strategic plan complete with implementation and monitoring/evaluation plan, a statutory assessment of a planning application, and a capstone submission delivered as exhibition panels with an accompanying document — the artefacts and genres of planning and urban design practice, in a PIA-accredited course. Not level 3: no assessment line documents a real external audience or practitioner as the judge (the jury reviews are not described as externally constituted), and professional conduct or accountability is nowhere named among assessed criteria. The overview's claim of professional and wider community involvement is a course-level statement not tied to any assessment (R1).",
+      "evidenceLines": [
+        "Strategic plan, including implementation and monitoring/evaluation plan (individual work)",
+        "Assignment 2: Graphic, verbal and written presentation of design concept, analytical work and design explorations. Students will present their final work comprising models, drawings or animations as relevant to the individual design This will include exhibition panels and an accompanying document",
+        "It is expected that graduates of the Master of Urban Design will have completed the academic requirements for membership of Planning Institute of Australia (PIA)",
+        "Communication skills, including developing, constructing and supporting arguments in written form, engaging in academic and policy debates, translating complex and technical academic and statutory information into accessible content and communicating ideas in writing",
+        "Professional and wider community involvement is a regular part of the Master of Urban Design studio experience."
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Meets both level-3 conjuncts. Spine, not single instance: three core design studios (25 points each) plus the 25-point capstone thesis are assessed by jury review of design output — models, drawings, site analyses — for specific metropolitan sites, so a practitioner-form task recurs at every stage and culminates in the capstone; 125 of the 150 core points are such tasks. Genuine constraint of practice: the core Planning Law assignment supplies a real site externally and requires the student to determine and apply the Victorian statutory provisions that are the profession's own standard of performance, and Strategic Plan Making sources its problem from a hurdle field trip rather than a written case. Scored on documented task features, not on any 'real-world' label (R4); the appraisal component of the planning-application task is scored in C2, not here.",
+      "evidenceLines": [
+        "A mid-semester jury review (critique) oral presentation equivalent to 100 hours of work demonstrating design output that may include physical or digital models, drawings, written assignments, site analyses, journals and sketches.",
+        "An end of semester jury review (critique) oral presentation equivalent to 240 hours of work building on work developed throughout the semester demonstrating design output that may include physical or digital models, drawings, written assignments, site analyses, journals and sketches.",
+        "Students will undertake introductory abstract design exercises in the first half of semester providing the foundation for a major urban design proposition and the development of that proposition for end of semester assessment.",
+        "Assignment 1 : Undertake a preliminary assessment of a site and its surrounds. Determine the planning provisions relevant to the site, and consider their implications.",
+        "The subject focuses on the legal frameworks and mechanisms used in Australia, with particular emphasis on Victoria.",
+        "Engage in a complex area of the metropolis and to analyse the existing fabric and represent this analysis in a clear graphic language at a range of scales."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Matches level 1 'work-situated learning exists only as an elective, an optional internship': MSD Vocational Placement appears in the Urban Design Practice elective list, not in the 125-point core or the 25-point capstone. Not level 2: no core unit places students in a real workplace or professional-community setting with practitioner supervision. The studios and the field trip are simulation and fieldwork, which the instrument scores in W2, not W3; the overview's reference to professional and wider community involvement names no placement, practicum or supervised host.",
+      "evidenceLines": [
+        "ABPL90307\tMSD Vocational Placement",
+        "Urban Design Practice",
+        "Students must complete all of the following subjects.",
+        "150 points of core subjects, including 25 points of capstone subject(s).",
+        "50 points of elective subjects."
+      ]
+    },
+    "workplace": 6,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "An all-compulsory specialist core with staged technical depth: 125 points of named compulsory subjects plus a compulsory 25-point capstone, carrying a progressive studio sequence (Studio A introductory exercises → Studio B in-depth propositional work → Studio C integrating urban analytics and complex adaptive systems → Urban Design Thesis as culmination), with an external professional body accrediting the academic requirement. This is disciplinary identity, not interchangeable generic content.",
+        "evidenceLines": [
+          "150 points of core subjects, including 25 points of capstone subject(s).",
+          "Students must complete all of the following subjects.",
+          "Students must also complete the following subject, which comprise the degree's capstone experience and provide students with the necessary research preparation for doctoral study.",
+          "This subject is the culmination of each student's studies in Master of Urban Design.",
+          "It is expected that graduates of the Master of Urban Design will have completed the academic requirements for membership of Planning Institute of Australia (PIA)",
+          "The key quality of the Master of Urban Design is its combined strength of urban design theory, urban morphological analysis and four design studios."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Core assessment requires defended trade-off decisions and capstone-scale work under real uncertainty, not recall or scripted response: studio jury reviews require students to argue for propositions generated and tested against alternatives for complex metropolitan sites; the core economics subject frames its content as judgements about competing demands; and the core planning-law assignment requires a considered position formulated and communicated on the limitations of current statutory provisions. Recall assessment exists (the 40% open book examination, a 15% quiz) but does not exhaust the core.",
+        "evidenceLines": [
+          "Complex planning issues, requiring judgements about the competing demands of economic development and social needs, are associated with the growth and decline of sectors and places in their particular urban contexts.",
+          "Formulate and communicate a considered position on the challenges to, and limitations of, current statutory provisions, including professional ethics, ongoing development pressures, climate change, indigenous cultural heritage, and achievement of diverse social, environmental and economic goals.",
+          "analytical and design skills for generating and testing alternative approaches to the urban design development of specific sites",
+          "To develop the ability to put forward, and provide convincing arguments for unconventional and provocative urban design propositions",
+          "Develop and justify planning responses to (un)desirable changes in urban economic activities."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C2 straddled 2 and 3: the Urban Design Theory journal is staged (preliminary submission mid-semester, final end of semester), which could be read as process-focused assessment evidencing strategy adjustment over time. Nothing in the description requires documenting revised strategy or reliance decisions, so the never-resolve-upward rule fixed it at 2.",
+      "C4 straddled 2 and 3: the required capstone is individual design work and its outcome names developing an urban design project proposal, which reads toward a self-scoped capstone. But delivery is through 'a number of autonomous studio groups' and the individually supervised investigation is gated on being high-achieving plus coordinator approval, so the self-scoping is not documented as required for all students. R2 (outcome statements never sufficient for 3) plus never-resolve-upward fixed it at 2.",
+      "C5 straddled 2 and 3: studios are described as design-research exercises assessed by mid- and end-of-semester jury review, which resembles staged supervised review of a required project. The capstone assessment lines describe presentation of design concept and explorations, never defence of methodology, and the research-methods subjects are electives, so it resolved to 2.",
+      "W1 straddled 2 and 3: the capstone's exhibition panels and the overview's statement that professional and wider community involvement is regular in studios both point toward a real external audience. Neither is tied in an assessment line to an external judge, and no assessed criterion names professional conduct or accountability, so R1/R2 fixed it at 2.",
+      "C1 vs W1 boundary: the studios' 'Engagement' generic skill (contributing to the work of others in the studio) could be read as either collaborative practice or professional conduct. It was treated as neither, being an outcome statement with no matching assessed task.",
+      "W2 vs W3 boundary: the studio fieldwork, the Strategic Plan Making hurdle site visit, and the overview's professional/community involvement claim could be mistaken for work-situated learning. Per the instrument, simulation and fieldwork score in W2; only supervised participation in a real workplace scores in W3, and none is in the core.",
+      "C2 vs W2 boundary: Planning Law Assignment 2 combines appraisal of a planning application (quality judgement) with a practitioner-form task. Per 'one construct, one home' the appraisal scored in C2, and W2 rests on Assignment 1 and the studio/capstone design tasks instead."
+    ],
+    "notScoreable": [
+      "C3 governance sub-evidence: the extract contains no core-subject page addressing AI ethics, bias, accountability or data governance, so the level-2/3 AI-governance anchors could not be tested against core evidence — the item was scored 1 on what the extract does document (operational core digital use plus elective AI content), not scored as absent.",
+      "W1 external-audience sub-evidence: the composition of the studio 'jury' is nowhere described in the extract (whether jurors are teaching staff or external practitioners), so the level-3 external-judge condition could not be evaluated on evidence either way."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-15"
+    }
+  }
+}

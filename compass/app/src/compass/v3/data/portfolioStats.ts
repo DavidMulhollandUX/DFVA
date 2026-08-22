@@ -2,10 +2,11 @@
  * Portfolio-level derivations for the insights page.
  *
  * Basis: the current (authoritative Felten AIOE) measurement in v3Programs
- * for the 34 programs with destination data, plus v31Stability for position
- * confidence. Curriculum scores exist for all 66 assessed programs, so
+ * for every program with matched destination data, plus v31Stability for
+ * position confidence. Curriculum scores exist for all assessed programs, so
  * curriculum derivations run over the full set while exposure derivations
- * run over the placed subset only.
+ * run over the placed subset only. Counts are derived, never hardcoded —
+ * both sets grow as coverage extends.
  *
  * Pure functions — no React, so the numbers on the page are unit-testable.
  */

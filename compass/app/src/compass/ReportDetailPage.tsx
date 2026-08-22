@@ -38,6 +38,10 @@ import {
 import { useAuth } from "wasp/client/auth";
 
 import { loadReportContent, type ReportContent } from "./reportContent/index";
+import {
+  stripSupersededCompositeLine,
+  stripToolingMetadata,
+} from "./reportMetadata";
 import { PROGRAMS } from "./sharedProgramData";
 import { ProgramRadar } from "../client/components/ProgramRadar";
 import { WhyThisMatters } from "./WhyThisMatters";
@@ -198,6 +202,16 @@ const reportMeta: Record<
   "dfva-mc-jurisd": { score: "24 / 36", riskBand: "MODERATE RISK" },
   "dfva-market-mc-jurisd": { score: null, riskBand: null },
   "dfva-recommend-mc-jurisd": { score: null, riskBand: null },
+  "dfva-244cw": { score: "23 / 36", riskBand: "MODERATE RISK" },
+  "dfva-market-244cw": { score: null, riskBand: null },
+  "dfva-recommend-244cw": { score: null, riskBand: null },
+  // v4 pilot (draft instrument) — no v1-style composite; the reports carry their own scores
+  "dfva-v4-244cw": { score: null, riskBand: null },
+  "dfva-v4-recommend-244cw": { score: null, riskBand: null },
+  "dfva-v4-mc-cs": { score: null, riskBand: null },
+  // mc-mgmthre has no v3 Panel A record, so /insights/v4/mc-mgmthre cannot render it.
+  // The markdown report is its only surface until the program is placed.
+  "dfva-v4-mc-mgmthre": { score: null, riskBand: null },
 };
 
 const DIMENSIONS = [
@@ -1111,7 +1125,9 @@ function stripHtmlComments(markdown: string): string {
 
 function parseMarkdownToSections(markdown: string): MarkdownSection[] {
   if (!markdown) return [];
-  const parts = stripHtmlComments(markdown).split(/\n##\s+/);
+  const parts = stripToolingMetadata(
+    stripSupersededCompositeLine(stripHtmlComments(markdown)),
+  ).split(/\n##\s+/);
   const sections: MarkdownSection[] = [];
   let intro = parts[0].trim();
   if (intro.startsWith("# ")) {
@@ -1398,10 +1414,13 @@ function ReportDetailView({
   >("idle");
 
   const meta = reportSlug ? reportMeta[slugsByType.assessment] : null;
-  const scoreText =
+  // v4 reports carry the draft Panel C v4 instrument: no v1 composite exists
+  // for them, so the hero score is suppressed rather than defaulted.
+  const isV4Report = slugsByType.assessment.startsWith("dfva-v4-");
+  const scoreText: string | null =
     simulatedScore !== null
       ? `${simulatedScore} / 36`
-      : meta?.score || `${program?.score ?? 20} / 36`;
+      : meta?.score ?? (isV4Report ? null : `${program?.score ?? 20} / 36`);
 
   // 7. Form submission: Update intervention assignment
   async function handleAssignOwner(e: React.FormEvent<HTMLFormElement>) {
@@ -1640,7 +1659,11 @@ function ReportDetailView({
               )}
             </div>
             <p className="text-muted-foreground mt-1">
-              {report.institution} · {program?.level || "Undergraduate"}
+              {report.institution} ·{" "}
+              {program?.level ||
+                (isV4Report
+                  ? "Panel C v4 (draft instrument)"
+                  : "Undergraduate")}
             </p>
           </div>
           <div className="flex items-center gap-3">
@@ -1653,14 +1676,16 @@ function ReportDetailView({
                 {meta.riskBand}
               </span>
             )}
-            <div className="flex flex-col items-end">
-              <span className="text-foreground text-2xl font-black tracking-tight">
-                {scoreText}
-              </span>
-              <span className="text-muted-foreground text-[10px] font-bold uppercase">
-                DFVA Durability Index
-              </span>
-            </div>
+            {scoreText && (
+              <div className="flex flex-col items-end">
+                <span className="text-foreground text-2xl font-black tracking-tight">
+                  {scoreText}
+                </span>
+                <span className="text-muted-foreground text-[10px] font-bold uppercase">
+                  DFVA Durability Index
+                </span>
+              </div>
+            )}
           </div>
         </div>
 

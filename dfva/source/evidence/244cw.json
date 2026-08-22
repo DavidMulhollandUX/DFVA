@@ -1,0 +1,312 @@
+{
+  "code": "244cw",
+  "programSlug": "dfva-244cw",
+  "byDimension": {
+    "D1": {
+      "rationale": "Entry destinations split rather than cluster: research analyst (97.60), policy officer (97.41), data analyst (96.55) and research assistant (92.30) involve substantially templated, AI-assisted output from day one, while health promotion officer (80.08), epidemiology support officer (74.33) and contact tracing support officer (64.49) require presence, local knowledge and trust. Measured entry-stage exposure of 84.77 sits between the two clusters and describes neither. Mixed routine and non-routine work.",
+      "recommendations": [
+        {
+          "action": "Credential community engagement and co-design as an assessed competency through the Professional Practice route and Community Engagement for Health Impact, including a cultural-safety and Indigenous-engagement component",
+          "priority": "P5",
+          "effort": "Medium",
+          "dimRefs": [
+            "D8",
+            "D1"
+          ]
+        },
+        {
+          "action": "Embed an assessed AI in Public Health Evidence strand across the three compulsory methods subjects (Biostatistics, Epidemiology 1, Qualitative Research) — automated evidence-synthesis audit, verification and fabricated-citation checking, provenance and disclosure, AI governance in health data",
+          "priority": "P1",
+          "effort": "High",
+          "dimRefs": [
+            "D5",
+            "D9",
+            "B"
+          ]
+        }
+      ]
+    },
+    "D2": {
+      "rationale": "The social-determinants framing taught in Foundations of Public Health is a genuine systems model, and Applied Program Development plus Public Health Leadership and Policy carry it into assessed program design; 'examine issues from multiple disciplinary perspectives within public health' is a stated graduate attribute. But no compulsory subject assesses trade-off reasoning or failure-mode analysis, which is what separates level 3 from level 2.",
+      "recommendations": [
+        {
+          "action": "Add an assessed systems-framing and failure-mode component to Foundations of Public Health and Applied Program Development — trade-off reasoning across determinants and structured analysis of how public health programs fail",
+          "priority": "P3",
+          "effort": "Medium",
+          "dimRefs": [
+            "D2"
+          ]
+        }
+      ]
+    },
+    "D3": {
+      "rationale": "Biostatistics and Epidemiology 1 are both compulsory, giving every graduate a solid quantitative grounding clearly above an introductory unit. All depth beyond that — Epidemiology 2, Regression Methods in Health Research, Survival Analysis and Regression for Rates, Infectious Diseases Modelling, Genetic Epidemiology, Health Economics — is elective, so 100 of 200 points can be completed with no further quantitative content. Solid grounding, not a technical core embedded throughout.",
+      "recommendations": [
+        {
+          "action": "Introduce a compulsory quantitative-depth requirement of at least 12.5 points from the advanced epidemiology, modelling, health economics and evaluation electives",
+          "priority": "P4",
+          "effort": "Medium",
+          "dimRefs": [
+            "D3",
+            "B"
+          ]
+        },
+        {
+          "action": "Embed an assessed AI in Public Health Evidence strand across the three compulsory methods subjects (Biostatistics, Epidemiology 1, Qualitative Research) — automated evidence-synthesis audit, verification and fabricated-citation checking, provenance and disclosure, AI governance in health data",
+          "priority": "P1",
+          "effort": "High",
+          "dimRefs": [
+            "D5",
+            "D9",
+            "B"
+          ]
+        }
+      ]
+    },
+    "D4": {
+      "rationale": "The compulsory 25-point capstone carries live accountability on every available route: a year-long Research Project, a year-long Professional Practice placement with a health agency, or problem-based application to real scenarios in Public Health in Practice. 'The ability to manage uncertainty' is a stated graduate attribute and the course ILOs require critical reflection on decision-making in practice, including personal attitudes and beliefs. At the level-3 anchor.",
+      "recommendations": [
+        {
+          "action": "Make the Research Project the default capstone route — primary data generation, defended methodology, explicit limitation and failure-mode analysis, with a documented rationale required to take an alternative route",
+          "priority": "P2",
+          "effort": "High",
+          "dimRefs": [
+            "D7",
+            "D4",
+            "B"
+          ]
+        }
+      ]
+    },
+    "D5": {
+      "rationale": "AI appears in exactly one elective — COMP90094 Transforming Healthcare with Data and AI — with INFO90011 Digital Learning Health Systems and POPH90308 Indigenous Data Governance in Health adjacent but not AI-specific. The 75-point compulsory core contains no AI content, so most graduates complete the degree without encountering it while entering the most AI-exposed destination set in the health faculty. This is the program's binding constraint.",
+      "recommendations": [
+        {
+          "action": "Embed an assessed AI in Public Health Evidence strand across the three compulsory methods subjects (Biostatistics, Epidemiology 1, Qualitative Research) — automated evidence-synthesis audit, verification and fabricated-citation checking, provenance and disclosure, AI governance in health data",
+          "priority": "P1",
+          "effort": "High",
+          "dimRefs": [
+            "D5",
+            "D9",
+            "B"
+          ]
+        }
+      ]
+    },
+    "D6": {
+      "rationale": "Specialisation streams and 100 credit points of disciplinary electives create a clear specialist focus, and the ILOs commit to applying 'specialist public health knowledge and skills in a public health discipline'. But the MPH is a breadth-first generalist qualification with no registration or regulatory moat; it does not build the deep regulatory, clinical or scientific expertise the level-3 anchor describes. Structural to the degree's design rather than a defect.",
+      "recommendations": []
+    },
+    "D7": {
+      "rationale": "Unusually strong for a professional masters: three of six compulsory core subjects (Biostatistics, Epidemiology 1, Qualitative Research in Public Health) are research methods — 37.5 of 75 compulsory points, spanning both quantitative and qualitative traditions — and the course ILO requires graduates to 'design and manage a detailed investigation of a public health issue in a substantial project, with a high level of personal autonomy and accountability'. Every graduate can design and conduct research. Level 3 is withheld only because just one of the three capstone routes available in 2026 reliably generates primary data; this score is the single most sensitive judgement in the assessment and a +1 here moves the program off the adaptiveness median.",
+      "recommendations": [
+        {
+          "action": "Make the Research Project the default capstone route — primary data generation, defended methodology, explicit limitation and failure-mode analysis, with a documented rationale required to take an alternative route",
+          "priority": "P2",
+          "effort": "High",
+          "dimRefs": [
+            "D7",
+            "D4",
+            "B"
+          ]
+        }
+      ]
+    },
+    "D8": {
+      "rationale": "Meaningful and assessed: inter-disciplinary teamwork, respectful engagement across diverse backgrounds, Aboriginal and Torres Strait Islander cultural principles in practice, community needs assessment and advocacy communication are explicit ILOs, and the Professional Practice route places students in agencies for a year. This is stakeholder and ethical practice rather than the clinical or care accountability the level-3 anchor describes — and it is also the least AI-exposed capability in the destination set, so it is worth credentialing explicitly.",
+      "recommendations": [
+        {
+          "action": "Credential community engagement and co-design as an assessed competency through the Professional Practice route and Community Engagement for Health Impact, including a cultural-safety and Indigenous-engagement component",
+          "priority": "P5",
+          "effort": "Medium",
+          "dimRefs": [
+            "D8",
+            "D1"
+          ]
+        }
+      ]
+    },
+    "D9": {
+      "rationale": "Clear evidence of a recent major refresh: a block of new subjects (Climate Change and Health, Health and Social Justice, Pandemic Preparedness and Response, Health System Transformation, Indigenous Data Governance in Health, Putting One Health into Practice, Sustainability and Healthcare, Introduction to Health Services Research, Healthcare Environment Evaluation) and a restructured four-route capstone. The level-2 anchor's second clause — AI in core units — is not met; that signal is carried by D5 rather than double-counted here.",
+      "recommendations": [
+        {
+          "action": "Embed an assessed AI in Public Health Evidence strand across the three compulsory methods subjects (Biostatistics, Epidemiology 1, Qualitative Research) — automated evidence-synthesis audit, verification and fabricated-citation checking, provenance and disclosure, AI governance in health data",
+          "priority": "P1",
+          "effort": "High",
+          "dimRefs": [
+            "D5",
+            "D9",
+            "B"
+          ]
+        }
+      ]
+    },
+    "D10": {
+      "rationale": "The program has its own exact-name graduate-destination record (n = 562, the second-largest alumni sample in the Faculty of Medicine, Dentistry and Health after the Doctor of Medicine), giving role titles segmented by career stage, named employers and skill profiles, alongside QILT GOS field-level employment and salary data. The evidence exists at level 3; the gap is that it is not surfaced to applicants, who currently see clinically-weighted field-level proxies instead.",
+      "recommendations": [
+        {
+          "action": "Publish program-level destination data — role titles, employers, career-stage progression, salary bands and time-to-employment — from the existing n=562 alumni record, replacing field-level QILT proxies in applicant-facing material",
+          "priority": "P6",
+          "effort": "Low",
+          "dimRefs": [
+            "D10"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "rationale": "A real dual-skill combination — epidemiological and biostatistical method plus policy, program and community judgment — that resists straightforward substitution and is reinforced by a genuinely strong methods core. It falls short of rare integration because the technical layer stops at the compulsory-core boundary (D3:2), there is no AI or governance capability anywhere in the core (D5:1), and no credential moat protects the qualification the way registration protects the clinical programs in this faculty.",
+      "recommendations": [
+        {
+          "action": "Embed an assessed AI in Public Health Evidence strand across the three compulsory methods subjects (Biostatistics, Epidemiology 1, Qualitative Research) — automated evidence-synthesis audit, verification and fabricated-citation checking, provenance and disclosure, AI governance in health data",
+          "priority": "P1",
+          "effort": "High",
+          "dimRefs": [
+            "D5",
+            "D9",
+            "B"
+          ]
+        },
+        {
+          "action": "Introduce a compulsory quantitative-depth requirement of at least 12.5 points from the advanced epidemiology, modelling, health economics and evaluation electives",
+          "priority": "P4",
+          "effort": "Medium",
+          "dimRefs": [
+            "D3",
+            "B"
+          ]
+        },
+        {
+          "action": "Make the Research Project the default capstone route — primary data generation, defended methodology, explicit limitation and failure-mode analysis, with a documented rationale required to take an alternative route",
+          "priority": "P2",
+          "effort": "High",
+          "dimRefs": [
+            "D7",
+            "D4",
+            "B"
+          ]
+        }
+      ]
+    }
+  },
+  "panelCv4": {
+    "instrument": "4.1-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Two compulsory subjects assess collaborative work: POPH90274 (two group presentations and mentor-marked group participation) and POPH90218 (a team presentation of approximately five students). This satisfies the level 2 anchor. The level 3 anchor additionally requires at least one assessment in which work is coordinated across people and tools or AI systems; no such assessment is documented, so level 3 is not awarded.",
+      "evidenceLines": [
+        "Group presentation 1: 4-5 students per group. Students will be assessed as a group. 8 minutes + 5 minutes Q&A",
+        "8-minute Team Presentation (approximately 5 students per group) plus 3-minute Q&A: Systems Mapping",
+        "Accomplish creative and authentic solutions to real-world challenges for public health issues by working in an effective and diverse team;",
+        "Demonstrate a capacity to work collaboratively within an inter-disciplinary team"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Criterion-referenced appraisal is assessed in the compulsory core: POPH90231 assesses critical appraisal of published research and a reflection against course objectives, and POPH90218 assesses weekly peer feedback and a reflective assessment. This satisfies the level 2 anchor. The level 3 anchor requires an assessment in which students document and justify decisions to rely on or override a tool, source or collaborator; no assessment of this kind, and no assessed judgement of AI output, is documented.",
+      "evidenceLines": [
+        "Critically appraise the findings, strengths and weaknesses of published qualitative research in public health.",
+        "A critical reflection on achievement of course objectives through classroom and assessment activities",
+        "Weekly Tutorial Participation and Peer-Feedback",
+        "Individual assessment - Interview Video Podcast: Reflective Leadership"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "The digital content assessed in the compulsory core is the operation of statistical software (assessed Stata practical work in POPH90013). This corresponds to the level 1 anchor. The level 2 anchor requires core units to address AI capabilities together with limitations or ethics; no AI content of any kind is documented in the core. The result is consistent with the v3.1 finding for the corresponding item (D5 = 1), reached on separate evidence.",
+      "evidenceLines": [
+        "Tutorial and Stata practical oral assessment",
+        "Perform simple statistical analyses using appropriate software",
+        "Using statistical software."
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "The level 2 anchor is satisfied in the core: the POPH90274 program proposal (50% of assessment) requires application of program-design methods to case-study scenarios. The level 3 anchor was considered but not awarded. Two of the three capstone routes document assessed independent-learning structure (a hurdle learning plan in Professional Practice; a supervised, self-scoped project in the Research Project); the assessment detail for the third route was not available in the extract, and rule R2 does not permit the course-level outcome statement to substitute for assessment evidence.",
+      "evidenceLines": [
+        "Health program proposal document",
+        "Learning Plan - between 500-750 words",
+        "Solve practical problems whilst working with potentially unstructured and incomplete information",
+        "Design and manage a detailed investigation of a public health issue in a substantial project, with a high level of personal autonomy and accountability;"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Inquiry design is assessed in the core: the POPH90231 research proposal (60% of assessment) requires a design covering sampling, recruitment and data-collection methods. Conduct and defence of primary research are assessed in the Research Project capstone (a final report with a pass hurdle and an examined oral presentation). The level 3 anchor requires that a primary-evidence project be a requirement of the program rather than one option among several; the Research Project is one of three capstone routes, so level 3 is not awarded. The same consideration held the corresponding v3.1 item at 2.",
+      "evidenceLines": [
+        "A research proposal",
+        "Formulate a qualitative research design to answer a public health question, including; selecting the population and sample, recruitment methods, data collection tools and approach to analyses.",
+        "A Final report",
+        "An oral presentation (10 minutes presentation and 10 minutes Q&A)"
+      ]
+    },
+    "adaptiveness": 9,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 is met in the compulsory core: POPH90218 Public Health Leadership and Policy assesses a 'Policy Advocacy Pitch + Campaign Materials' (30%) and a systems-mapping team presentation (20%), and POPH90274 Applied Program Development assesses a 'Health program proposal document' (50%). An advocacy pitch with campaign materials and a program proposal are recognised professional genres in public health, not academic genres addressed to a marker. Level 3 requires BOTH that professional communication recur progressively across the program AND that at least one core assessment be delivered to, or judged by, a real external audience or practitioner with conduct or accountability among the criteria. The recurrence limb holds; the external-audience limb does not. Every presentation in the six compulsory subjects is delivered to staff and peers. The only practitioner judgement documented anywhere is the workplace supervisor hurdle in POPH90286, which sits in one of three capstone routes and is entered competitively, so it is not something the program requires of every student. The course-level claim to 'Communicate effectively in written, oral and visual format to a range of audiences' is an outcome statement and is capped at level 1 by R2; it cannot carry level 3.",
+      "evidenceLines": [
+        "5-minute Individual Presentation plus Q&A: Policy Advocacy Pitch + Campaign Materials",
+        "8-minute Team Presentation (approximately 5 students per group) plus 3-minute Q&A: Systems Mapping",
+        "Health program proposal document",
+        "Communicate effectively in written, oral and visual format to a range of audiences",
+        "Workplace supervisor assessment of the student's completion of the project"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2 is securely met: the POPH90274 'Health program proposal document' (50%) reproduces a public-health program-development task end to end and produces the artefact a practitioner produces, and POPH90218's advocacy pitch with campaign materials does the same for policy advocacy. Level 3 needs both limbs. The spine limb is arguable — two of six compulsory subjects carry practitioner-shaped artefacts and every student completes a capstone — but the practice-constraint limb fails on the path the program actually requires. Of the three capstone routes only Professional Practice supplies an externally set problem and real host constraints; the Public Health in Practice route is problem-based learning on teacher-supplied scenarios, and a student may complete the degree without ever meeting a constraint set by anyone outside the university. Scoring what the program requires of every student rather than its best available route — the discipline C5's level-3 anchor already states as 'not one route among several' — resolves this DOWN to 2. The remaining four compulsory subjects assess by exam, essay, short answer and quiz.",
+      "evidenceLines": [
+        "Health program proposal document",
+        "5-minute Individual Presentation plus Q&A: Policy Advocacy Pitch + Campaign Materials",
+        "Students select one 25 credit point capstone options:",
+        "Within this capstone, students will apply their public health training to real world scenarios through a problem based learning approach in Public Health in Practice."
+      ]
+    },
+    "W3": {
+      "score": 2,
+      "rationale": "Level 2 is met and level 3 is not, on the required/optional distinction rather than on depth. The Professional Practice capstone is genuine work-situated learning of the strongest kind the anchors describe: a supervised year-long placement with an external host, negotiated between student, host and coordinator, assessed, with the workplace supervisor's assessment carrying a hurdle. On depth alone it would read as level 3. But level 3 requires the work-situated learning to be REQUIRED, and it is not: it is one of three capstone routes, and 'Entry is competitive'. A student may complete the MPH through the Research Project or Public Health in Practice route with no placement at all. Ambiguity between 2 and 3 resolves DOWN. Note this is the item most likely to move if the anchor's treatment of competitive-entry routes is sharpened after the content-validity panel.",
+      "evidenceLines": [
+        "Students will undertake a supervised placement with an appropriate organisation, negotiated between the student, the host organisation, and the Professional Practice Coordinator.",
+        "Entry is competitive and selection is based on academic merit, subjects completed, relevant background and experience, and alignment of skills with available placements.",
+        "Workplace supervisor assessment of the student's completion of the project",
+        "The workplace supervisor assessment is a hurdle requirement.",
+        "Students select one 25 credit point capstone options:"
+      ]
+    },
+    "workplace": 6,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program documents a coherent specialist core: 75 credit points of compulsory subjects across six named public-health subjects, a required 25-point capstone, and documented early-sequence staging of the methods subjects.",
+        "evidenceLines": [
+          "75 credit points of compulsory subjects",
+          "This subject is a core subject within the Master of Public Health, the Master of Epidemiology, the Master of Science (Epidemiology) and the Master of Biostatistics. Students should enrol in this subject early in their program of study."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Assessment requires defended trade-off decisions: a timed ethical-dilemma examination (POPH90218) and assessed prioritisation and selection of intervention strategies (POPH90274). The capstone routes add project work under supervision with accountability.",
+        "evidenceLines": [
+          "Exam: Ethical Dilemma Analysis",
+          "Prioritise and select strategies and interventions to address health needs"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C4: the evidence straddled levels 2 and 3. The required capstone documents independent-learning assessment on two of three routes, but the third route's assessment page was not in the extract, and the universal course-level outcome is a statement of intent rather than assessment evidence (rule R2). The score was resolved to the lower level under the ambiguity rule.",
+      "C5: the interval between the level 1 anchor (an introductory methods unit) and the level 2 anchor (design and conduct of an inquiry with data collection) is wide. This program's three assessed methods subjects exceed level 1 considerably, while design (core) and conduct (capstone) are distributed across components. The score was resolved at 2 on the basis of the level 3 anchor's explicit requirement that the project be compulsory, which implies that level 2 does not carry that requirement. The width of this interval is noted for the content-validity panel.",
+      "W1 straddled 2 and 3 on the external-audience limb. The POPH90286 workplace supervisor hurdle is practitioner judgement of professional conduct, which would satisfy level 3, but it sits in a competitively-entered capstone route rather than in what every student must do. Resolved DOWN to 2.",
+      "W2 straddled 2 and 3 on the practice-constraint limb, for the same structural reason: only one of three capstone routes supplies an externally set problem. Resolved DOWN to 2.",
+      "W3 straddled 2 and 3 on depth versus requirement. The placement is a year-long supervised external placement with a supervisor hurdle — level-3 depth — but is one route among three with competitive entry, so the 'required' limb of level 3 fails. Resolved DOWN to 2. All three W items turn on the same fact, which is a dependency the IRR study should watch: they are not independent observations of this program.",
+      "Construct-boundary check: the POPH90286 placement was scored in W3 only. It was NOT re-used to lift C1 (whose v4.1 level-3 anchor no longer lists placements) or C4 (whose v4.1 level-3 anchor no longer lists work-integrated learning). The POPH90218 peer-feedback and reflective assessments stay in C2 (appraisal of quality) and are not counted again as W1 professional communication."
+    ],
+    "notScoreable": [
+      "The assessment page for POPH90227 (Public Health in Practice capstone) was not captured in the extract. This affects only the C4 level 3 judgement, which was resolved to the lower level in any case."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-14"
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "code": "mc-envsc",
+  "panelCv4": {
+    "instrument": "4.1-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor met: core units assess collaborative practice with individual accountability — EVSC90017's individually-assessed group symposium presentation, and the year-2 Industry Project's group plan, group report and industry-partner assessment of group performance. Not level 3: level 3 requires, on top of recurrence, at least one assessment where work is coordinated across people AND tools/AI systems (documented role and tool allocation, or the division of work between people and systems itself assessed). No core assessment page documents any tool or system allocation, so the human-plus-tool half of the level-3 anchor has no evidence at all.",
+      "evidenceLines": [
+        "An individually-assessed group presentation during the student symposium. Each student within a group will develop and deliver a 5-10 minute presentation contributing to the given topic",
+        "Group project plan of 1200-1500 words plus appendices.",
+        "Final Group Report of 3500 words plus appendices.",
+        "Industry Partner Assessment of group performance",
+        "they will work as a team to solve an industry-relevant problem that has been identified by their assigned Industry client",
+        "The subject is structured to develop your skills in writing reports and participating in group exercises."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2 anchor met squarely: core assessment includes criterion-referenced appraisal of the quality of work — a weighted peer review of another student's manuscript in EVSC90017 (10%), a critical review in EVSC90014 (10%), and assessed critique of methodologies in EVSC90019. Not level 3: level 3 requires students to document and justify reliance decisions (where they relied on or overrode a tool, source or collaborator), defend judgements of AI-output quality, or evidence strategy adjustment over time. The closest candidate — 'Finalisation of manuscript in light of review and feedback; cover letter to editor' — is consistent with a justified response to reviewers but the handbook does not document that any justification of accepted/rejected feedback is required or assessed, so the lower level is taken.",
+      "evidenceLines": [
+        "One peer-review of up to 600 words of another student's manuscript (randomly allocated)",
+        "Finalisation of manuscript in light of review and feedback; cover letter to editor",
+        "A critical review of up to 500 words due on the first day of class",
+        "appraise and critique scientific data analysis methodologies used to address an environmental challenge.",
+        "Group Project \"Health Check\" Report"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor: digital tools appear only as electives or as tool operation/training. Digital/quantitative tooling is confined to the elective Professional Skills and discipline lists (programming, spatial data analytics, modelling, statistics subjects); the core subjects EVSC90014, EVSC90017, EVSC90019 and both capstone routes carry no digital-tool or AI content in their overviews, outcomes or assessments. Not level 2: level 2 requires core units to address AI capabilities AND limitations/ethics, assessed. The word AI (or gen AI, machine learning) does not appear anywhere in the extract, in any core unit or program-level outcome — so the level-2 and level-3 anchors have no supporting evidence, and level 0 is excluded only because digital tooling does exist at elective level.",
+      "evidenceLines": [
+        "Professional Skills (between 25 and 37.5 credit points)",
+        "Students will select at least 25 points of the following professional skills elective subjects:",
+        "You will be introduced to quantitative and qualitative tools with the objective of giving you the ability to select, apply and assess technical and socially based risk assessment.",
+        "These approaches include empirical observation, mathematical and statistical modelling, and expert opinion."
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2 anchor met: at least one core assessment requires application to an unfamiliar, out-of-class problem — EVSC90014's 2500-word report applying risk-assessment methods to a real work-based problem (50%). Not level 3: level 3 needs documented structured progression toward independent learning — a self-scoped capstone or research project, or assessed identification of one's own knowledge gaps plus the plan to close them. The self-scoped research project (with its hurdle literature survey and research plan) is documented only as a replacement available to 'outstanding students' and contingent on a suitable project and supervisor, not as the documented path; the default capstone is a team project on a problem identified by the client, i.e. externally scoped, and its workplace character is homed in W3 rather than counted here. Self-directed learning otherwise appears only as an unassessed graduate attribute, which R2 scores as claim, not evidence.",
+      "evidenceLines": [
+        "A written assignment of up to 2500 words reporting on an application of the methods to a real, work-based problem due one month after classes finish",
+        "Outstanding students may replace the Industry Project with EVSC90034 Environmental Sci. Research Project Pt 1 and EVSC90035 Environmental Sci. Research Project Pt 2 depending upon the availability of a suitable project and supervisor.",
+        "they will work as a team to solve an industry-relevant problem that has been identified by their assigned Industry client",
+        "Be critical and creative thinkers, with an aptitude for continued self-directed learning;"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2 anchor met: a core capstone requires students to design and conduct an inquiry with methodology selection, assessed — the research-project route documents designing and implementing a field, laboratory or archival project with a hurdle literature survey and research plan and a 10,000-word thesis, and the industry-project route assesses a group project plan framing and analysing an environmental challenge by scientific method. Not level 3: the level-3 anchor is explicit that the substantial primary-evidence project must be REQUIRED and not one route among several. Here the research project is precisely one route among two, and is itself conditional ('Outstanding students may replace... depending upon the availability of a suitable project and supervisor'). Nor does the extract document a viva, defence or staged supervised review of methodology — the 10-minute presentation is reported as a presentation, not a defence.",
+      "evidenceLines": [
+        "Design and implement a field, laboratory and/or literature/archival-based environmental science research project;",
+        "A preliminary literature survey and research plan",
+        "A thesis is the main requirement of the subject.",
+        "Outstanding students may replace the Industry Project with EVSC90034 Environmental Sci. Research Project Pt 1 and EVSC90035 Environmental Sci. Research Project Pt 2 depending upon the availability of a suitable project and supervisor.",
+        "Critically evaluate and design environmental monitoring programs;",
+        "Group project plan of 1200-1500 words plus appendices."
+      ]
+    },
+    "adaptiveness": 9,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 anchor met: core assessment requires professional genres and audiences beyond the teaching team — the Industry Project's one-page charter negotiated with the industry partner, its written reports and presentations addressed to industry representatives, and a 15%-weighted Industry Partner Assessment; EVSC90017 additionally assesses a scientific-manuscript genre with a cover letter to editor. Not level 3: level 3 requires, in addition to repeated progressive assessment and an external judge, that professional conduct or accountability be explicitly among the assessed criteria. The industry-partner component is documented as assessing 'group performance' with no stated conduct or accountability criterion, and the only conduct-adjacent requirement is a colloquia attendance hurdle. Evidence therefore straddles 2 and 3 and the lower level is taken; the compounding reason is that the externally judged route can be replaced by the research project, whose presentation audience is the teaching staff.",
+      "evidenceLines": [
+        "Charter - one page agreement with Industry Partner as to project specifications due Wednesday of week 2 of the semester of commencement.",
+        "Communicate complex environmental information using written reports and oral presentations to their peers, academic staff and industry representatives.",
+        "Industry Partner Assessment of group performance",
+        "Finalisation of manuscript in light of review and feedback; cover letter to editor",
+        "Oral presentation of up to 20 minutes towards the end of semester",
+        "Attendance at the Industry Colloquia"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2 anchor met: at least one core assessment reproduces a professional task end to end — EVSC90014's report applying risk-assessment methods to a real work-based problem, and the Industry Project's charter, plan, health-check and final consultancy reports on a client-identified problem, part-judged by the industry partner. These are documented task features, not the 'industry-relevant'/'genuine workplace' labels R4 forbids scoring on. Not level 3: level 3 requires such tasks to be the assessment spine rather than instances. Against the capstone-plus-scaffolding reading stands the fact that the other two core coursework subjects assess in academic genres throughout (manuscript, peer review, essay, take-home assessments), and the practice-fidelity capstone is replaceable by a thesis. The externally supplied problem would satisfy the level-3 genuine-constraint clause, so the evidence straddles 2 and 3 and the lower level is taken.",
+      "evidenceLines": [
+        "A written assignment of up to 2500 words reporting on an application of the methods to a real, work-based problem due one month after classes finish",
+        "they will work as a team to solve an industry-relevant problem that has been identified by their assigned Industry client",
+        "Final Group Report of 3500 words plus appendices.",
+        "Final Individual Report of 3500 words plus appendices.",
+        "A take-home assessment (up to 2000 words) at the end of semester due during exam period",
+        "One essay of up to 2000 words"
+      ]
+    },
+    "W3": {
+      "score": 2,
+      "rationale": "Level 2 anchor met: a core unit places students in a real workplace setting with practitioner involvement and assessment — a live client project in which students spend time in the business setting, maintain regular contact with the business and the project supervisor, and are assessed by the industry partner, with a colloquia attendance hurdle. Not level 3: level 3 requires substantial REQUIRED work-situated learning with accountability to the host AND structured reflection on professional practice. The time in the business setting is documented only as 'a specific time' with no stated duration, no structured reflection on professional practice is assessed anywhere (the health-check report is a project status document), and the placement-bearing subject pair is replaceable by the research project, which has no workplace component at all.",
+      "evidenceLines": [
+        "students will be required to spend a specific time in the business setting and to then maintain regular contact with the business, as well as the project supervisor, across the duration of the subject",
+        "Industry Partner Assessment of group performance",
+        "Charter - one page agreement with Industry Partner as to project specifications due Wednesday of week 2 of the semester of commencement.",
+        "Students must attend all scheduled colloquia",
+        "Outstanding students may replace the Industry Project with EVSC90034 Environmental Sci. Research Project Pt 1 and EVSC90035 Environmental Sci. Research Project Pt 2 depending upon the availability of a suitable project and supervisor.",
+        "Students integrate their knowledge and skills in an industry-based project or a research project for their capstone experience."
+      ]
+    },
+    "workplace": 6,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "A compulsory specialist environmental-science core of 62.5 points is documented with an explicit staged sequence: two named core subjects in year 1, the graduate seminar plus a two-part capstone in year 2, entered from prior undergraduate study in the life, chemical, physical, earth or environmental sciences. That is a staged progression with disciplinary identity rather than generic or interchangeable content, notwithstanding the wide elective menu around it.",
+        "evidenceLines": [
+          "Core Subjects (62.5 credits points)",
+          "EVSC90017 Global Environmental Change and  EVSC90014 Environmental Risk Assessment must be taken in the first year of enrolment.",
+          "EVSC90019 Graduate Seminar: Environmental Science and Industry Project in EnvironmentalSci Pt1 & Pt2 will be taken in the second year of study.",
+          "It is designed for students with existing undergraduate studies in the life, chemical, physical, earth or environmental sciences to extend their environmental scientific knowledge, and to facilitate the development of professional scientific skills in environmental analysis and risk assessment."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Core assessment requires defended decisions under uncertainty rather than recall: EVSC90014 assesses selection among competing risk-assessment approaches applied to a real work-based problem, with uncertainty named as an object of evaluation, and the core capstone is a live client project whose deliverables carry accountability to an external partner. Program outcomes likewise frame integrated decision making, and the core assessment tasks that would test it exist.",
+        "evidenceLines": [
+          "Environmental Risk Assessment aims to provide you with the skills to undertake and critically evaluate environmental risk assessments.",
+          "Critical thinking: the ability to evaluate scientific methods, findings, different types of information and uncertainty; and",
+          "A written assignment of up to 2500 words reporting on an application of the methods to a real, work-based problem due one month after classes finish",
+          "Apply an integrated scientific, economic and social approach to analyse and conduct environmental decision making;",
+          "they will work as a team to solve an industry-relevant problem that has been identified by their assigned Industry client"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C2 straddled 2 and 3: 'Finalisation of manuscript in light of review and feedback; cover letter to editor' is consistent with justifying which reviewer feedback was accepted or overridden (level 3, reliance decisions on a collaborator) but the handbook documents no required justification. Resolved DOWN to 2 by the never-resolve-upward rule.",
+      "C4 straddled 2 and 3: the research-project route is self-scoped with a hurdle research plan (level 3), but it is documented only as a replacement for 'outstanding students' contingent on supervisor availability, and the default capstone problem is client-identified. Resolved DOWN to 2 by the never-resolve-upward rule.",
+      "C5 straddled 2 and 3: the research project generates primary evidence with staged supervision, but level 3 explicitly requires it be REQUIRED and not one route among several; here it is one of two routes. Resolved DOWN to 2 by the anchor's own 'not one route among several' clause.",
+      "W1 straddled 2 and 3: communication is assessed across both years and the Industry Partner Assessment is judgement by a real external practitioner, but professional conduct or accountability is not documented among the assessed criteria (only 'group performance' plus an attendance hurdle). Resolved DOWN to 2 by the never-resolve-upward rule.",
+      "W2 straddled 2 and 3: EVSC90014's real work-based report plus the client-scoped capstone reads as capstone-plus-earlier-scaffolding with an externally supplied problem (level 3), but the remaining core coursework assesses in academic genres and the practice-fidelity capstone is replaceable. Resolved DOWN to 2 by the never-resolve-upward rule.",
+      "W3 straddled 1 and 2 in the alternative: for students taking the research-project replacement there is no work-situated learning at all (level 1). Scored 2 because the Industry Project pair sits in the Core Subjects table and the course-structure note states it is what is taken in year 2, with the research project as the replacement.",
+      "Route-dependence is the single largest source of uncertainty in this program: the year-2 capstone is either the Industry Project or the Research Project, and the two routes carry the level-3 evidence for different items (W1/W2/W3 for the industry route, C4/C5 for the research route). No student is documented as doing both, which is why no item reached 3.",
+      "Cross-item boundary: the Industry Project's group work was scored in C1 (collaboration), its client-facing reports in W1 (audience), its task fidelity in W2, and its workplace immersion in W3, per the one-construct-one-home rule; the industry-partner assessment is cited in more than one item as context but is decisive only for W1's level-2 external-audience test and W3's practitioner-assessment test."
+    ],
+    "notScoreable": [
+      "C3's level-2/3 test could only be run against the core subject pages, which are present and contain no AI content; the extract contains no subject or assessment pages for the Professional Skills electives (programming, spatial data analytics, statistics, science communication), so any AI or digital-governance content inside those electives is unverifiable from this evidence. This does not change the score, since elective-only tooling caps at level 1 by the anchor.",
+      "No assessment page in the extract documents the duration of the 'specific time in the business setting' for the Industry Project, so the extended-versus-short distinction that separates W3 level 2 from level 3 could not be tested on duration evidence."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-14"
+    }
+  }
+}

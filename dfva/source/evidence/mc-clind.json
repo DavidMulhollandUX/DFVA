@@ -1,0 +1,143 @@
+{
+  "code": "mc-clind",
+  "panelCv4": {
+    "instrument": "4.1-draft",
+    "C1": {
+      "score": 1,
+      "rationale": "Level 1 anchor exactly: 'Collaboration/teamwork appears in learning outcomes, but no core unit assesses it.' Team-work sits in the course ILOs and generic skills, and the 75cp core clinical subject describes interprofessional collaborative practice as a learning activity ('The student will develop interdisciplinary links...'), but no assessment task in DENT90143/DENT90144 or DENT90108 names collaborative practice: the assessed tasks are individual case presentations, a written assignment, a seminar presentation, a written exam and an individual clinical portfolio. Level 2 fails because it requires that a core unit ASSESSES collaborative practice, and the interprofessional line is a description of learning activities, not of an assessment. Per the one-construct-one-home rule the clinical placement work at RDHM/MDC is scored in W3 and is deliberately not used here.",
+      "evidenceLines": [
+        "Capacity to value and participate in projects which require team-work",
+        "work effectively as a member of a team",
+        "The student will develop interdisciplinary links with other dental postgraduate programs to develop skills in intra- and interprofessional collaborative practice to provide comprehensive person-centred care.",
+        "Learning activities will include seminars, pre-clinical activities and clinical patient care."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2 anchor met: 'Core assessment includes criterion-referenced appraisal of quality'. DENT90108 carries a 35% assessed critical-appraisal-of-literature exercise, matched by the subject ILO requiring 'advanced appraisal of published research literature and evidence' — appraisal of the quality of work, assessed, in a compulsory core subject. Level 3 fails: nothing in the extract requires students to document or justify reliance decisions (when they relied on or overrode a tool, source or collaborator), to defend judgements of AI-output quality, or to evidence strategy adjustment over time; the reflective-practice and give/receive-appraisal statements are graduate attributes only, which R2 and Barrie forbid scoring. The clinical portfolio is not counted here because the handbook documents no reflective or self-appraisal component in it.",
+      "evidenceLines": [
+        "Essay 2: Critical appraisal of literature (exercise)",
+        "Systematically search the available literature and demonstrate advanced appraisal of published research literature and evidence",
+        "This subject will introduce students to the principles of research and the inherent methods, as well as the methods for critical appraisal of the available scientific literature.",
+        "the ability to negotiate, give and receive appraisal and criticism constructively",
+        "a critically reflective approach to practise dentistry based on current evidence and experience"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 0 is excluded because digital content does appear in program-level outcomes, but only at the operational level the anchor for level 1 names: 'digital tools appear only as ... tool operation/training'. The two statements are a generic skill about proficiency in contemporary technologies and a graduate attribute about using information technology for documentation, records and communication — tool use, not capability-plus-limits. Level 2 fails outright: no core unit addresses AI capabilities AND limitations/ethics, and no AI content of any kind appears in the extract. Level 3 fails a fortiori — there is no assessed critique or governance of AI systems in dentistry (bias, accountability, transparency, regulation, data governance). Neither cited line is tied to any assessment task, so R2 also caps this at 1.",
+      "evidenceLines": [
+        "be proficient in the appropriate use of contemporary technologies",
+        "skills to use contemporary information technology for documentation, including patient records, communication, management of information and applications related to health care.",
+        "Employ the principles of ethical clinical research and of the responsibilities of researchers"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "DEMOTED from 3 to 2 by adversarial verification. Level 2 anchor met: the student formulates their own research question in an area of clinical interest and the varying clinical caseload is application of learning to novel problems, assessed (Essay 1: Research problem 15%; Oral presentation: Research question & methodology 20%; Essay 3: Research Proposal 30%). Level 3 fails on the anchor's own wording. L3 names 'a self-scoped capstone or research project'; the extract distinguishes plan from project explicitly — DENT90108 provides 'the practical knowledge required to plan a research project and the opportunity undertake a research investigation'. The required, assessed artefact is a PROPOSAL; the investigation itself is an opportunity, not a requirement — the same line used to deny C5 level 3, applied consistently here. The second L3 route (assessed identification of one's own knowledge gaps together with the plan to close them) is unmet: 'the ability to identify, quantify and address their own learning needs' is a graduate attribute, which R2 caps at 1, and no assessment task names gap identification. The original score straddled 2 and 3 and was resolved upward, which the scoring-direction rule forbids.",
+      "evidenceLines": [
+        "Students plan a research investigation in an area of clinical interest. In consultation with a research supervisor and/or the course coordinator, participants will formulate a research question.",
+        "Formulate a research question answerable with existing research evidence in an area of clinical interest",
+        "Manage competing demands on time, including self-directed project work",
+        "Exercise responsibility for their own learning",
+        "Essay 3: Research Proposal",
+        "Essay 1: Research problem"
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 1 anchor exactly: 'Introductory methods unit; literature-review assessment.' DENT90108 introduces the principles of research and its methods and assesses planning of a project including ethics approval, and the ILO on data-analysis techniques is 'Describe the theoretical concepts behind' them — description, not conduct. Level 2 fails because it requires students to design AND conduct an inquiry with data collection, assessed: every assessed artefact in the extract is a proposal, an essay, a training module or an oral presentation, and no data-collection or results component appears anywhere. Level 3 fails a fortiori — no substantial project generating primary evidence is required, and the course page frames research investigation as an 'opportunity' rather than a requirement.",
+      "evidenceLines": [
+        "This subject will introduce students to the principles of research and the inherent methods, as well as the methods for critical appraisal of the available scientific literature.",
+        "Describe the theoretical concepts behind a range of qualitative and quantitative data analysis techniques",
+        "Plan a research project, including the steps to obtain ethical approval",
+        "The research subject will provide students with practical knowledge required to plan a research project and the opportunity undertake a research investigation in an area of clinical interest.",
+        "Completion of RIOT training module"
+      ]
+    },
+    "adaptiveness": 7,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 anchor met: 'at least one core assessment requires a recognised professional genre ... judged against criteria drawn from professional practice'. Case presentation and defence is the clinical profession's own genre, assessed twice in the core clinical subject (10% mid-year, 20% end-year), alongside an assessed seminar presentation and a course ILO on articulating clinical knowledge in oral and written presentations. Level 3 fails on its second conjunct: the extract never documents a core assessment delivered to, or judged by, a real external audience or practitioner — no industry panel, client, patient or public exhibition is named as the audience or assessor of any assessment task, and the 'academics and specialists' line describes feedback on clinical activities, not who judges an assessment. The 90%-attendance hurdle is the only assessed conduct standard, and reliability alone does not carry professional conduct 'explicitly among the assessed criteria' of a communication task.",
+      "evidenceLines": [
+        "Demonstrate advanced capacity to articulate clinical knowledge and understanding in oral and written presentations",
+        "Case presentation and defence of known and completed clinical case",
+        "Topic based seminar presentation. The emphasis is on the understanding of the prepared topic",
+        "Oral presentation: Research question & methodology (1500 words equivalent)",
+        "Hurdle requirement: Pass/Fail. 90% Attendance for all Seminars & Clinical Sessions",
+        "exhibit professional responsibility"
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Both level-3 conjuncts are documented. Spine rather than single instance: professional-fidelity tasks are staged across the core clinical subject and carry the bulk of its weight — a pre-clinical practical hurdle in week 5, a mid-year case presentation and defence on case management to date (10%), an end-of-year case presentation and defence of a completed case (20%), and a clinical portfolio built from 542.5 hours of practice (30%, hurdle) — which is the 'capstone plus earlier scaffolding' form the anchor names. Genuine constraint of practice: the profession's own standard of performance gates the work, since the practical assessment must be passed 'prior to being allowed to start patient care', and the tasks produce the artefacts a practitioner produces (evidence-based treatment plans, managed cases) for real patients rather than for a marker. Scored on documented task features only, per R4 — no 'authentic'/'real-world' label was relied on. Workplace immersion itself is scored in W3, not here.",
+      "evidenceLines": [
+        "Practical Assessment / Pre‐Clinical assessment prior to being allowed to start patient care",
+        "Case presentation and defence of known and prepared clinical case. The emphasis is on case management to date.",
+        "Clinical Portfolio: Incorporates 542.5 hours of clinical practice during the year.",
+        "Create and develop evidence-based treatment plans for patients.",
+        "Apply the principles of occlusion, materials science and treatment planning to evidence based clinical practice.",
+        "Learning activities will include seminars, pre-clinical activities and clinical patient care."
+      ]
+    },
+    "W3": {
+      "score": 2,
+      "rationale": "Level 2 anchor met and then some on scale: a core unit places students in a real workplace with practitioner supervision and assessment — clinical training at the Royal Dental Hospital of Melbourne and Melbourne Dental Clinic, clinical performance assessable with mid- and end-year feedback, 542.5 hours captured in a hurdle-assessed clinical portfolio, and a 90%-attendance hurdle on clinical sessions. Held at 2 rather than 3 because level 3 is conjunctive and its final conjunct — 'structured reflection on professional practice' — is not documented anywhere in an assessment: the portfolio description states hours and a satisfactory-requirements hurdle only, and the reflective-practice statements are graduate attributes, which R2 bars from scoring. The extract also shows this as a single standing clinical subject rather than a sequence of placements, which is the level-2 'stands alone' qualifier.",
+      "evidenceLines": [
+        "Students will undertake clinical training at the facilities in the Royal Dental Hospital of Melbourne (RHDM) and Melbourne Dental Clinic (MDC). Clinical performance is assessable, and feedback will be given at mid and end-year.",
+        "Students will engage in clinical activities in fixed, removable and implant prosthodontics with highly effective feedback from academics and specialists. Sessions are scheduled at Royal Dental Hospital of Melbourne and Melbourne Dental Clinic.",
+        "Hurdle requirement: Must satisfactorily meet the requirements of the clinical portfolio",
+        "the ability to apply reflective practice skills and a recognition of their importance in health care"
+      ]
+    },
+    "workplace": 7,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "An all-compulsory specialist core with staged depth: 100 credit points comprising a single 75cp advanced clinical subject in the chosen specialisation plus a 25cp research subject, with no elective space documented, and an internal prerequisite gate — the pre-clinical practical assessment must be passed before patient care may begin. Content is unambiguously disciplinary (prosthodontics: occlusion, fixed/removable/implant prosthodontics, laboratory skills), not generic or interchangeable.",
+        "evidenceLines": [
+          "The Master of Clinical Dentistry requires the successful completion of a 75 credit point clinical specialisation plus a 25 credit point Research Proposal subject.",
+          "Students must successfully complete 100 credit points. This includes:",
+          "A 75 credit point advanced clinical subject",
+          "A 25 credit point research subject",
+          "Practical Assessment / Pre‐Clinical assessment prior to being allowed to start patient care",
+          "Apply knowledge relating to removable, fixed and implant prosthodontics at an advanced level."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Assessment requires defended decisions under real clinical uncertainty rather than recall or scripted response: students must defend their management of both an in-progress and a completed clinical case, and must create and develop treatment plans for real patients across 542.5 hours of clinical practice — a live setting with genuine accountability. Diagnosis, treatment planning and rehabilitation across fixed, removable and implant options is trade-off decision-making, and the written exam is only one component (15%) among predominantly case-based assessment.",
+        "evidenceLines": [
+          "Case presentation and defence of known and prepared clinical case. The emphasis is on case management to date.",
+          "Case presentation and defence of known and completed clinical case",
+          "Create and develop evidence-based treatment plans for patients.",
+          "This subject will enable students to develop their knowledge and skills in prosthodontics, including the diagnosis, treatment planning, rehabilitation, and maintenance of oral function.",
+          "Clinical Portfolio: Incorporates 542.5 hours of clinical practice during the year."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1 straddled 1 and 2: the interprofessional-collaboration sentence in DENT90143 could be read as documenting assessed interprofessional activity, since it sits in a subject whose clinical portfolio is hurdle-assessed. Resolved DOWN to 1 by R2 (the sentence describes learning activities, not an assessment task) and by the scoring-direction rule.",
+      "C1 vs W3: the clinical work at RDHM/MDC would satisfy a 'client or stakeholder work' reading of C1 level 2. Resolved by the one-construct-one-home rule and the v4.1 migration note, which moves placement evidence out of C1 into W3, where it is scored once.",
+      "C2 straddled 2 and 3: the year-long clinical portfolio and the two case defences could be read as process-focused assessment evidencing strategy adjustment over time. Resolved DOWN to 2 because the handbook documents no reflective, self-appraisal or reliance-justification component in either — only hours, hurdle status and case management.",
+      "C4 straddled 2 and 3 and was RESOLVED DOWN to 2 on adversarial verification. The self-scoped research question is assessed (Essay 1 15%, Oral 20%, Essay 3 Research Proposal 30%), but the L3 anchor names a self-scoped capstone or research PROJECT, and the extract distinguishes plan from project: the proposal is required, the investigation is an 'opportunity'. The initial upward resolution violated the scoring-direction rule. This remains the most contestable item in the set and the one an IRR partner is most likely to split on.",
+      "C4 vs C5 share DENT90108 as their source subject. Split by construct: the self-scoping and independent-learning lines score in C4, the methods-training and inquiry-conduct lines in C5. The 'Essay 3: Research Proposal' task is cited in C4 only, as the assessment R2 requires there.",
+      "C5 straddled 1 and 2: students do select and present a methodology ('Oral presentation: Research question & methodology'), which is half of the level-2 anchor. Resolved DOWN to 1 because level 2 requires design AND conduct with data collection, and no data-collection or results component is assessed anywhere in the extract.",
+      "W1 straddled 2 and 3: professional communication IS assessed repeatedly and progressively (mid-year case defence on management to date, then end-year defence of a completed case, plus a seminar presentation and a research oral). Resolved DOWN to 2 because level 3's second conjunct is unmet — no assessment is documented as delivered to or judged by a real external audience or practitioner, and no assessment names professional conduct among its criteria.",
+      "W3 straddled 2 and 3: on scale and supervision this is a level-3 placement (542.5 hours, core, practitioner-supervised, hurdle-assessed, with an attendance obligation to the host). Resolved DOWN to 2 solely because 'structured reflection on professional practice' is not documented in any assessment description; the reflective-practice statements are graduate attributes, which R2 excludes. If a portfolio rubric documenting reflection were captured, this would move to 3.",
+      "W1/W2 both draw on the case presentation and defence tasks. Split by construct: W1 cites the end-of-year defence as the professional communication genre, W2 cites the mid-year defence and the pre-clinical gate as evidence of task fidelity. The construct scored differs even where the subject does not.",
+      "R4 check: the handbook uses 'person-centred care' and 'evidence based clinical practice' as framing language. No score was raised on such a label; W2 was scored on documented task features (pre-clinical gate, case defences, portfolio hours, treatment plans for patients) only."
+    ],
+    "notScoreable": [
+      "C3 — AI-specific evidence is entirely absent from the extract. There is no mention of artificial intelligence, generative AI, machine learning or data governance in any course page, subject description, outcome or assessment. C3 is therefore scored at the level-1 anchor on the two generic technology statements rather than left unscored, but the absence should be recorded: the item is discriminating on near-zero signal for this program.",
+      "DENT90145 Advanced Prosthodontics Part 2 has no assessment detail in the extract — its assessment page reads only 'Please refer to Advanced Prosthodontics Part 1.' The part-time route was therefore scored from DENT90143 (full-time) and DENT90144 (Part 1), whose assessment tables are near-identical.",
+      "Only the Prosthodontics specialisation appears in the extract; the course page says clinical training is 'in one of the specialities available' but the majors/minors page lists Prosthodontics alone. Scores describe the Prosthodontics route and cannot be generalised to any other specialisation without its own capture.",
+      "No assessment rubrics or criteria statements are in the extract for any task — only task names, timing and weights. Every level-2/3 judgement about 'criteria drawn from practice' therefore rests on task type rather than documented criteria, which is a systematic ceiling on W1 and W2 precision for this program."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-14"
+    }
+  }
+}

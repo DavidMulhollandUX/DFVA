@@ -17,17 +17,103 @@ const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..'
 const reportsDir = path.join(repoRoot, 'reports')
 
 const REPORT_FILES = readdirSync(reportsDir).filter(
-  (f) => f.startsWith('dfva-') && f.endsWith('.md') && !f.includes('recommend-') && !f.includes('market-') && !f.includes('faculty-')
+  (f) =>
+    f.startsWith('dfva-') &&
+    f.endsWith('.md') &&
+    !f.includes('recommend-') &&
+    !f.includes('market-') &&
+    !f.includes('faculty-') &&
+    !f.startsWith('dfva-v4-')
 )
 const MARKET_FILES = readdirSync(reportsDir).filter((f) => f.startsWith('dfva-market-') && f.endsWith('.md'))
 const RECOMMEND_FILES = readdirSync(reportsDir).filter((f) => f.startsWith('dfva-recommend-') && f.endsWith('.md'))
+// v4 families — canonical templates in dfva/dist/v4/ (generated from dfva/source/rubricV4.ts)
+const V4_FILES = readdirSync(reportsDir).filter(
+  (f) => f.startsWith('dfva-v4-') && !f.startsWith('dfva-v4-recommend-') && f.endsWith('.md')
+)
+const V4_RECOMMEND_FILES = readdirSync(reportsDir).filter(
+  (f) => f.startsWith('dfva-v4-recommend-') && f.endsWith('.md')
+)
 
 // ── GRANDFATHERED: files already non-conformant when this check was introduced ──
 // Remove slugs here as phases 1-2 align them. End state = empty Set, strict for all.
 const GRANDFATHERED = new Set<string>([])
 
-// Market reports — grandfathered until phases 1-2 backfill them
-const MARKET_GRANDFATHERED = new Set<string>([])
+// Market reports — grandfathered until phases 1-2 backfill them.
+//
+// The 66 slugs below predate the §3 sourcing rule added 2026-08-14 (see the
+// "Discussion signals must be SOURCED" block). They warn rather than fail, so the
+// standard binds on every NEW market report without a 66-file rewrite blocking the
+// build. Remove a slug once its §3 declares its sources and attributes its themes;
+// the lint prints which ones are ready. End state: empty set.
+const MARKET_GRANDFATHERED = new Set<string>([
+  'dfva-market-080cl',
+  'dfva-market-080cn',
+  'dfva-market-244cw',
+  'dfva-market-300bb',
+  'dfva-market-439fs',
+  'dfva-market-527cl',
+  'dfva-market-746st',
+  'dfva-market-b-des',
+  'dfva-market-b-sci',
+  'dfva-market-dh-lld',
+  'dfva-market-dh-sc',
+  'dfva-market-dr-philabp',
+  'dfva-market-dr-philagr',
+  'dfva-market-dr-philart',
+  'dfva-market-dr-philbe',
+  'dfva-market-dr-philedp',
+  'dfva-market-dr-philedu',
+  'dfva-market-dr-phileit',
+  'dfva-market-dr-philfam',
+  'dfva-market-dr-philik',
+  'dfva-market-dr-phillaw',
+  'dfva-market-dr-philmdh',
+  'dfva-market-dr-philsci',
+  'dfva-market-dr-philvet',
+  'dfva-market-mc-actsc',
+  'dfva-market-mc-apbusa',
+  'dfva-market-mc-arch',
+  'dfva-market-mc-ba',
+  'dfva-market-mc-bamktg',
+  'dfva-market-mc-base',
+  'dfva-market-mc-bmedsc',
+  'dfva-market-mc-busana',
+  'dfva-market-mc-climsci',
+  'dfva-market-mc-clind',
+  'dfva-market-mc-cs',
+  'dfva-market-mc-datasc',
+  'dfva-market-mc-ddensur',
+  'dfva-market-mc-dmed',
+  'dfva-market-mc-doptom',
+  'dfva-market-mc-dphysio',
+  'dfva-market-mc-dvetmed',
+  'dfva-market-mc-ed',
+  'dfva-market-mc-envlaw',
+  'dfva-market-mc-envsc',
+  'dfva-market-mc-gencoun',
+  'dfva-market-mc-indeng',
+  'dfva-market-mc-intedib',
+  'dfva-market-mc-is',
+  'dfva-market-mc-journ',
+  'dfva-market-mc-nursc',
+  'dfva-market-mc-phtyph',
+  'dfva-market-mc-prop',
+  'dfva-market-mc-propsyc',
+  'dfva-market-mc-scibif',
+  'dfva-market-mc-scibio',
+  'dfva-market-mc-scibit',
+  'dfva-market-mc-sciche',
+  'dfva-market-mc-sciear',
+  'dfva-market-mc-sciepi',
+  'dfva-market-mc-sciphy',
+  'dfva-market-mc-scwr',
+  'dfva-market-mc-surged',
+  'dfva-market-mc-tesol',
+  'dfva-market-mc-urbdes',
+  'dfva-market-mc-urbhort',
+  'dfva-market-me-dcd',
+])
 
 const RECOMMEND_GRANDFATHERED = new Set<string>([])
 
@@ -151,6 +237,17 @@ for (const file of REPORT_FILES) {
 
 // ── Market report checks ──
 
+// An attribution is a dated month-year, a bracketed link, or a named
+// outlet/commentator/study. Used both section-wide (3+ required) and per
+// marked theme (1+ each).
+const ATTRIBUTION_PATTERNS = [
+  /\b(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+20\d\d\b/g,
+  /\]\(https?:\/\//g,
+  /\b(?:HR Brew|HR Dive|HRD Australia|hcamag|SHRM|Personnel Today|Harvard Business Review|Fortune|LinkedIn|Deloitte|Greenhouse|Robert Half|Gartner|AHRI|Reddit|University of [A-Z][a-z]+)\b/g,
+]
+const countAttributions = (text: string): number =>
+  ATTRIBUTION_PATTERNS.reduce((n, re) => n + [...text.matchAll(re)].length, 0)
+
 for (const file of MARKET_FILES) {
   const slug = file.replace('.md', '')
   const grandfathered = MARKET_GRANDFATHERED.has(slug)
@@ -188,6 +285,62 @@ for (const file of MARKET_FILES) {
     })
     if (!found) {
       issues.push(`missing section "${alternatives.join('" or "')}"`)
+    }
+  }
+
+  // Discussion signals must be SOURCED, not synthesised.
+  //
+  // Added 2026-08-14. A market report's §3 is the section most easily written
+  // from general knowledge and passed off as observation — it reads like
+  // reporting whether or not anyone reported anything. Two rules:
+  //
+  //   (a) it must declare what kind of sources it rests on, and
+  //   (b) it must actually attribute — outlets, dates, named commentators.
+  //
+  // The specific failure this prevents: describing discourse as if sampled from
+  // X or LinkedIn when what was really consulted was trade press quoting those
+  // platforms' data. Those are different claims and only one is usually true.
+  const discussion = content.split(/^#{2,3} (?:\d+\. )?CURRENT DISCUSSION SIGNALS/m)[1]
+  if (discussion) {
+    // Body runs to the next KNOWN top-level section, not the next capitalised
+    // heading — "### Theme N" subheadings are part of §3 and must stay in scope.
+    // (The original boundary cut at the first theme heading, so the global
+    // count only ever saw the preamble; found 2026-08-14 while proving the
+    // per-theme check fires.)
+    const body = discussion.split(/^#{2,3} (?:\d+\. )?(?:SKILL SHIFT SUMMARY|CURRICULUM IMPLICATIONS|EVIDENCE CONFIDENCE)/m)[0] ?? ''
+    const declares = /What these sources are|Sourcing basis|Sources for this section/i.test(body)
+    if (!declares) {
+      issues.push(
+        'section 3 has no sourcing declaration — state what the sources are (trade press, ' +
+        'named commentary, reported survey data, academic work) and whether any platform ' +
+        'was sampled directly',
+      )
+    }
+    // Attribution: a dated month-year, a named outlet, or a bracketed link.
+    const attributions = countAttributions(body)
+    if (attributions < 3) {
+      issues.push(
+        `section 3 carries ${attributions} attribution(s) (need 3+): name the outlet, the ` +
+        'commentator or the study behind each theme, with a date where the source has one',
+      )
+    }
+    // Each marked theme must also carry its own attribution — the section total
+    // can clear 3 while one theme (often the most quotable) rests on nothing.
+    // That shipped to dev on 2026-08-14 (MC-MGMTHRE theme 2). Fires only where
+    // themes are marked as "### Theme" headings; prose-style sections are
+    // covered by the global count above.
+    const themes = body.split(/^### Theme\b/m).slice(1)
+    for (const [i, theme] of themes.entries()) {
+      if (countAttributions(theme) === 0) {
+        issues.push(
+          `section 3 theme ${i + 1} carries no attribution — every theme needs an outlet, ` +
+          'commentator or study of its own, with a date where the source has one',
+        )
+      }
+    }
+    // Claiming a platform sample is a specific, checkable claim.
+    if (/\bwe (?:sampled|scraped|extracted)\b/i.test(body) && !/not (?:a )?(?:scrape|sampled)/i.test(body)) {
+      issues.push('section 3 claims a platform sample — say which platform, over what window, and how many items')
     }
   }
 
@@ -234,11 +387,170 @@ for (const file of RECOMMEND_FILES) {
   }
 }
 
+// ── v4 report checks (rules 1–6 at the foot of dfva/dist/v4/report-template-v4.md) ──
+
+const V4_TEMPLATE = path.join(repoRoot, 'dfva', 'dist', 'v4', 'report-template-v4.md')
+
+// The instrument version is read from the canonical source, never hardcoded — a
+// v4.x bump must not require editing the linter (and must not silently pass
+// reports still stamped with the previous version).
+const V4_INSTRUMENT_VERSION = (() => {
+  const src = readFileSync(path.join(repoRoot, 'dfva', 'source', 'rubricV4.ts'), 'utf8')
+  const m = src.match(/export const V4_VERSION = '([^']+)'/)
+  if (!m) throw new Error('check-report-format: cannot read V4_VERSION from dfva/source/rubricV4.ts')
+  return m[1]
+})()
+const V4_INSTRUMENT_LINE = `**Instrument:** DFVA ${V4_INSTRUMENT_VERSION}`
+/** "4.1-draft" → "v4.1", the form the section-2 heading uses. */
+const V4_HEADING_VERSION = `v${V4_INSTRUMENT_VERSION.replace(/-draft$/, '')}`
+
+for (const file of V4_FILES) {
+  const slug = file.replace('.md', '')
+  const content = readReport(file)
+  const lines = content.split('\n')
+  const issues: string[] = []
+
+  // 1. Instrument line in the header
+  if (!content.includes(V4_INSTRUMENT_LINE)) {
+    issues.push(`missing "${V4_INSTRUMENT_LINE}" header line`)
+  }
+
+  // 2. Six numbered sections, in order, each with a Basis: tag
+  const sectionHeads = lines.filter((l) => /^## \d\. /.test(l))
+  const expected = ['## 1. POSITION', `## 2. PANEL C ${V4_HEADING_VERSION} SCORECARD`, '## 3. GATES', '## 4. MARKET EVIDENCE', '## 5. CURRICULUM IMPLICATIONS', '## 6. EVIDENCE CONFIDENCE']
+  expected.forEach((prefix, i) => {
+    const head = sectionHeads[i]
+    if (!head || !head.startsWith(prefix)) {
+      issues.push(`section ${i + 1}: expected heading starting "${prefix}", got "${head ?? 'missing'}"`)
+    } else if (!head.includes('Basis:')) {
+      issues.push(`section ${i + 1}: heading is missing its "Basis:" tag`)
+    }
+  })
+
+  // 3. Section 5 opens with the mandatory interpretation sentence
+  const s5 = content.split(/^## 5\. /m)[1] ?? ''
+  if (!s5.includes('This section argues from the evidence above; it is interpretation, not observation.')) {
+    issues.push('section 5 must open with the mandatory interpretation sentence')
+  }
+
+  // 4. Every scorecard item row cites at least one [n] reference marker.
+  //    Scoped to §2: other sections (e.g. §5 implications) also key rows by item.
+  const scorecardSection = (content.split(/^## 2\. /m)[1] ?? '').split(/^## \d\. /m)[0] ?? ''
+  const scorecardRows = scorecardSection.split('\n').filter((l) => /^\| C\d /.test(l.trim()))
+  if (scorecardRows.length !== 5) {
+    issues.push(`section 2 scorecard: expected 5 item rows (C1–C5), found ${scorecardRows.length}`)
+  }
+  scorecardRows.forEach((row) => {
+    if (!/\[\d+\]/.test(row)) issues.push(`scorecard row lacks a reference marker: "${row.slice(0, 60)}…"`)
+  })
+
+  // 5. REFERENCES section matches the canonical generated list, byte-exact per entry
+  if (existsSync(V4_TEMPLATE)) {
+    const tmpl = readFileSync(V4_TEMPLATE, 'utf-8')
+    // The canonical list lives in the fenced block under "### REFERENCES".
+    const refBlock = (tmpl.split(/^### REFERENCES$/m)[1] ?? '').split('```')[1] ?? ''
+    const canonical = refBlock.split('\n').filter((l) => /^\d+\. /.test(l))
+    const inReport = (content.split(/^## REFERENCES$/m)[1] ?? '').split('\n').filter((l) => /^\d+\. /.test(l))
+    if (canonical.length && inReport.join('\n') !== canonical.slice(0, inReport.length).join('\n')) {
+      issues.push('REFERENCES section does not match the canonical generated list (dfva/dist/v4/report-template-v4.md)')
+    }
+    if (inReport.length !== canonical.length) {
+      issues.push(`REFERENCES: expected ${canonical.length} entries, found ${inReport.length}`)
+    }
+  } else {
+    issues.push('canonical v4 template missing — run: npm --prefix scripts run dfva:gen-v4')
+  }
+
+  // 6. No v1 composite, no Irreplaceability score, anywhere
+  if (/\d{1,2}\/36/.test(content)) issues.push('carries a v1 composite ("N/36") — forbidden in the v4 family')
+  if (/Irreplaceability.*\d\/3|\bB:\s*\d\/3/.test(content)) issues.push('carries an Irreplaceability score — retired in v4')
+
+  if (issues.length) errors.push(...issues.map((i) => `${slug}: ${i}`))
+}
+
+// ── v4 recommend checks (rules at the foot of dfva/dist/v4/recommend-template-v4.md) ──
+
+const V4_RECOMMEND_TEMPLATE = path.join(repoRoot, 'dfva', 'dist', 'v4', 'recommend-template-v4.md')
+
+for (const file of V4_RECOMMEND_FILES) {
+  const slug = file.replace('.md', '')
+  const content = readReport(file)
+  const lines = content.split('\n')
+  const issues: string[] = []
+
+  // 1. Title + instrument line
+  if (!lines[0].startsWith('# DFVA v4 IMPROVEMENT PLAN:')) {
+    issues.push(`title mismatch: "${lines[0]}"`)
+  }
+  if (!content.includes(V4_INSTRUMENT_LINE)) {
+    issues.push(`missing "${V4_INSTRUMENT_LINE}" header line`)
+  }
+
+  // 2. Sections 1–6 in order, each with a Basis: tag; §1 opens with the mandatory sentence
+  const sectionHeads = lines.filter((l) => /^## \d\. /.test(l))
+  const expected = ['## 1. DIAGNOSTIC SUMMARY', '## 2. SCORE-TO-ACTION MAP', '## 3. MARKET ALIGNMENT', '## 4. PRIORITISED INTERVENTIONS', '## 5. GATE GUARDRAILS', '## 6. WHAT WOULD CHANGE THE SCORE']
+  expected.forEach((prefix, i) => {
+    const head = sectionHeads[i]
+    if (!head || !head.startsWith(prefix)) {
+      issues.push(`section ${i + 1}: expected heading starting "${prefix}", got "${head ?? 'missing'}"`)
+    } else if (!head.includes('Basis:')) {
+      issues.push(`section ${i + 1}: heading is missing its "Basis:" tag`)
+    }
+  })
+  const s1 = content.split(/^## 1\. /m)[1] ?? ''
+  if (!s1.includes('This plan argues from the scored evidence and market data')) {
+    issues.push('section 1 must open with the mandatory interpretation sentence')
+  }
+
+  // 3. At least one web-linked citation mark
+  if (!/\[\[\d+\]\]\(http/.test(content)) {
+    issues.push('no web-linked citation mark ("[[n]](http…)") found')
+  }
+
+  // 4. REFERENCES byte-exact against the canonical generated list
+  if (existsSync(V4_RECOMMEND_TEMPLATE)) {
+    const tmpl = readFileSync(V4_RECOMMEND_TEMPLATE, 'utf-8')
+    const refBlock = (tmpl.split(/^## REFERENCES \(canonical\)$/m)[1] ?? '').split('```')[1] ?? ''
+    const canonical = refBlock.split('\n').filter((l) => /^\d+\. /.test(l))
+    const inReport = (content.split(/^## REFERENCES$/m)[1] ?? '').split('\n').filter((l) => /^\d+\. /.test(l))
+    if (canonical.length === 0 || inReport.join('\n') !== canonical.join('\n')) {
+      issues.push('REFERENCES section does not match the canonical generated list (dfva/dist/v4/recommend-template-v4.md)')
+    }
+  } else {
+    issues.push('canonical v4 recommend template missing — run: npm --prefix scripts run dfva:gen-v4')
+  }
+
+  // 5. No v1 composite, no Irreplaceability
+  if (/\d{1,2}\/36/.test(content)) issues.push('carries a v1 composite ("N/36") — forbidden in the v4 family')
+  if (/Irreplaceability.*\d\/3|\bB:\s*\d\/3/.test(content)) issues.push('carries an Irreplaceability score — retired in v4')
+
+  // 6. Every section 1–6 carries its content in a table, not flat prose
+  const sectionBodies = content.split(/^## (?=\d\. )/m).slice(1)
+  sectionBodies.forEach((body, i) => {
+    if (!/^\|.*\|\s*$/m.test(body)) {
+      issues.push(`section ${i + 1}: no markdown table — v4 recommend sections are tabular`)
+    }
+  })
+
+  // 7. Full citations belong in REFERENCES, not inline: bare URLs outside the
+  //    reference list defeat the linked-mark form and clutter the body.
+  const bodyOnly = content.split(/^## REFERENCES$/m)[0] ?? ''
+  const bareUrls = (bodyOnly.match(/(?<!\()https?:\/\/\S+/g) ?? []).filter(
+    (u) => !u.includes('handbook.unimelb.edu.au')
+  )
+  if (bareUrls.length) {
+    issues.push(`${bareUrls.length} bare URL(s) in the body — cite as [[n]](url) and keep full citations in REFERENCES`)
+  }
+
+  if (issues.length) errors.push(...issues.map((i) => `${slug}: ${i}`))
+}
+
 // ── Output ──
 
-const totalFiles = REPORT_FILES.length + MARKET_FILES.length + RECOMMEND_FILES.length
+const totalFiles =
+  REPORT_FILES.length + MARKET_FILES.length + RECOMMEND_FILES.length + V4_FILES.length + V4_RECOMMEND_FILES.length
 console.log(
-  `Reports: ${REPORT_FILES.length} assessment + ${MARKET_FILES.length} market + ${RECOMMEND_FILES.length} recommend = ${totalFiles} total`
+  `Reports: ${REPORT_FILES.length} assessment + ${MARKET_FILES.length} market + ${RECOMMEND_FILES.length} recommend + ${V4_FILES.length} v4 + ${V4_RECOMMEND_FILES.length} v4-recommend = ${totalFiles} total`
 )
 
 if (warnings.length) {

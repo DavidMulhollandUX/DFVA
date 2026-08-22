@@ -69,6 +69,12 @@ function deriveTitle(key: string, md: string): string {
   if (key.startsWith('dfva-market-')) {
     name = line1.replace(/^#+\s*DFVA MARKET INTELLIGENCE:\s*/, '')
     suffix = ' — Market Intelligence'
+  } else if (key.startsWith('dfva-v4-recommend-')) {
+    name = line1.replace(/^#+\s*DFVA v4 IMPROVEMENT PLAN:\s*/, '')
+    suffix = ' — Improvement Plan (v4 draft)'
+  } else if (key.startsWith('dfva-v4-')) {
+    name = line1.replace(/^#+\s*DFVA v4 DURABILITY REPORT:\s*/, '')
+    suffix = ' — Durability Report (v4 draft)'
   } else if (key.startsWith('dfva-recommend-')) {
     name = line1.replace(/^#+\s*IMPROVEMENT PLAN:\s*/, '')
     suffix = ' — Improvement Plan'

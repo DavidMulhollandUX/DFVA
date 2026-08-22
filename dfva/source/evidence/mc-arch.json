@@ -1,0 +1,139 @@
+{
+  "code": "mc-arch",
+  "panelCv4": {
+    "instrument": "4.1-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: more than one core unit assesses collaborative practice with individual accountability — Applied Architectural Technology runs three graded group submissions alongside a hurdled individual detailing task, Architectural Practice assesses a group submission on project initiation and procurement, and Introduction to High-Performance Design assesses a group interim proposal. Not level 3: although assessed collaboration recurs across the core, the second conjunct fails — no core assessment requires coordinating work across people AND tools/AI systems, and nothing documents role-and-tool allocation or makes the division of work between people and systems itself assessable. Placement/community evidence is deliberately excluded here and scored in W3 (one construct, one home).",
+      "evidenceLines": [
+        "Group Project Submission 1 (3 students per group) | 3x A1 sheets",
+        "Individual Project Detailing , 3x A1 sheets",
+        "Group Project Submission :Letters and reports on project initiation and procurement scenarios",
+        "Assignment 2: Interim proposal (group work – 2‐3 students), 4 x A2 size panels",
+        "Assignment 3 : Final proposal oral presentation (group work: 2‐3 students, 500 word equivalent per student )",
+        "The ability to work individually and collaboratively to prepare and deliver a design project."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied by assessment evidence, not outcomes: the core design studios require hurdled booklets in which students critically evaluate their own developing design and document attainment against an external standard — the National Standard of Competency for Architects Performance Criteria — which is criterion-referenced appraisal of quality against published standards. Held at 2 rather than 3: the level-3 anchor needs documented and justified reliance decisions (on a tool, source or collaborator), defence of AI-output quality, or evidenced strategy adjustment over time. The booklets document and reflect upon iterative design exploration, which is close to the process-focused route, but 'strategy adjustment' and any reliance decision are nowhere named in the extract, so the lower level is taken per the ambiguity rule.",
+      "evidenceLines": [
+        "Booklet (Final): Re-submit revised and developed booklet containing evidence of application of Indigenous cultural competencies, knowledge of relevant architectural precedents and theories, design research to the design challenge; as well as iterative exploration and critical evaluation of the developing design. Format: A5 digital book, 96 pages +/-10% (inclusive of interim submission)",
+        "Hurdle requirement: A pass is required to pass overall subject.",
+        "Booklet (Interim): Document and reflect upon iterative design exploration and disciplinary research; and, document understanding of and engagement with relevant professional knowledge, in particular the following National Standard of Competency for Architects (NSCA) Performance Criteria (PC) PC3, PC12, PC16, PC18, PC23, PC24",
+        "Booklet (final): Booklet with completed and finalised tasks demonstrating attainment of NSCA Performance Criteria PC10, PC28, PC31, PC33, PC35, and PC45."
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor — AI appears as electives and digital content appears at the level of tool operation. AI is named in a core learning outcome in Architectural Practice, but R2 binds: that subject's four assessment tasks (procurement letters, contract-administration letters, class participation, invigilated exam) nowhere document AI or digital-technology content being assessed, so an outcome statement cannot carry level 2. Dedicated AI and machine-learning content sits in the architecture electives (AI in Architectural Design and Practice; Computational Design and Optimisation), and the core studios introduce 'digital tools' as technique support. Not level 2: no core unit is documented as addressing AI capabilities AND limitations/ethics with use-with-limits assessed; not level 3: no core assessment requires critique or governance of AI systems (bias, accountability, transparency, regulation, data governance).",
+      "evidenceLines": [
+        "Investigate and assess the impacts of disruptive change to the profession, such as new technologies, artificial intelligence and climate change, on architectural practice workflows, and business.",
+        "Invigilated written exam",
+        "ABPL90452\tAI in Architectural Design and Practice",
+        "Apply a variety of optimisation and machine learning techniques to solve design problems",
+        "Seminar series, workshops and/or online modules will introduce students to design theories, design techniques and digital tools related to the design challenge(s), as a creative and intellectual counterpoint to design-led exploration in-studio."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3 anchor — the program documents structured progression toward independent learning through a self-scoped capstone, and it is carried by assessment rather than outcome statements. Design Thesis is a required core capstone named in the course structure; students scope their own research question and thesis statement in an assessed Week 4 proposal, refine it in an assessed Week 8 interim crit, and are hurdled on a resolved thesis that explores that self-set question, with the studios explicitly framed around self-directed research inquiries. The staging (proposal to interim to resolved, each separately weighted) is the documented progression the anchor asks for. Ambiguity noted: 'opportunities for' is hedged language, but the assessed proposal task applies to all students in the subject.",
+      "evidenceLines": [
+        "250 points of core subjects (including the capstone subject: ABPL90169 Design Thesis).",
+        "These studios will allow opportunities for self-directed research inquiries/projects.",
+        "Preliminary Thesis Proposal: Oral presentation (7 minutes) of research questions, accompanied by critical evaluation of relevant precedents from practice and research, and a draft 'thesis statement'",
+        "Hurdle requirement: Must pass Resolved Design to pass the subject",
+        "The ability to prepare, structure, schedule, evaluate and deliver a substantial research or design-research project."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2 anchor — students design and conduct an inquiry that is assessed: the Design Thesis interim crit assesses a refined research question supported by site investigations, concept test models and multi-media experiments 'as appropriate to the research', and the core studios assess the application of design research techniques to explore a site's context. Held at 2 rather than 3 despite the capstone being required and reviewed in stages: the extract does not document that the project must generate primary evidence, nor that methodology itself is defended under scrutiny — the crits are described as design crits on the design, and no viva, methodology defence or data-collection requirement appears. Two of the three level-3 limbs are met and one is unevidenced, so the lower level is taken.",
+      "evidenceLines": [
+        "Interim design: Design crit comprising oral presentation (7 minutes) of refined research question accompanied by representations of design-in-progress, that might include including site investigations, sketches, drawings, maquettes, concept test models and/or digital multi-media experiments, as appropriate to the research.",
+        "Resolved Design: Fully resolved architectural design thesis that explores the research question presented in two forms: A5 digital book that records the research investigation through text and visual representations that may include drawings, digital multi-media and physical models as appropriate to the design; and Design crit (10 minutes)",
+        "Demonstrate an understanding of design as a form of research enquiry.",
+        "Apply design research techniques to iteratively explore the socio-cultural, environmental, economic, political and legal context of a site.",
+        "A knowledge of research and design-research methodologies and methods, including empirical and advanced research methods drawn from the sciences and humanities relevant to the discipline of architecture."
+      ]
+    },
+    "adaptiveness": 10,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 anchor — at least one core assessment requires a recognised professional genre: Architectural Practice assesses individually written letters and reports on contract-administration scenarios, in a subject whose criteria are drawn from professional practice (professional conduct responsibilities, liability, duty of care, regulatory obligations), and Design Studio C assesses a concept presentation whose representations must suit consultation with clients, stakeholders and users. Not level 3: the second conjunct fails. Professional communication does recur across the studios and thesis, but no core assessment is documented as delivered to or judged by a real external audience or practitioner — the studio 'clients' are in scare quotes, the crits are internal, and no industry panel, public exhibition or external client judging is named; nor is professional conduct explicitly listed among the assessed criteria of any single task.",
+      "evidenceLines": [
+        "Individual Project Submission: Letters and reports on contract administration scenarios",
+        "Interpret and apply the architect's professional conduct responsibilities, including liability, duty of care, and other regulatory obligations, in both traditional and new forms of architectural services and evolving legal, environmental and social standards.",
+        "Concept Design: Design submission and verbal/visual presentation (7 minutes). Representations of the architectural design appropriate for consulting with 'clients'/stakeholders/users. Format: Concept model(s), 2 x A2 dwgs, or 10 pptx slides",
+        "Class Participation: in-class weekly interactive oral assessment related to the topics of the lectures.",
+        "Communicate the design vision in a clear and professional manner ."
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3 anchor — both conjuncts are documented in assessment. First, professional-fidelity tasks are the assessment spine, not a single instance: three 25-point core design studios (C, D, E) plus the 25-point capstone thesis each require the artefact a practitioner produces (resolved design drawings, models and documentation) under hurdle conditions, with earlier scaffolding in Applied Architectural Technology's staged design-development submissions. Second, at least one carries a genuine constraint of practice measured by the profession's own standards of performance, not a label: Studio E's resolved design and final booklet are assessed against named NSCA Performance Criteria, Studio D requires integration of NSCA spatial requirements and the Building Code of Australia, and Studio C's briefs are set on sites with legal and political complexity. Per R4 no credit is taken from the word 'real-world'; only the documented task features are scored. Appraisal of quality is excluded here and scored in C2.",
+      "evidenceLines": [
+        "Resolved Design; Design submission comprising oral presentation accompanied by representations appropriate for the design, and may include drawings, documentation of process work, digital multi-media, and physical models. NSCA Performance Criteria PC39 is met",
+        "Architectural designs produced by students will be expected to integrate selected spatial requirements set out in the National Standards of Competency for Architects (NSCA) and in the Building Code of Australia (BCA) and consider environmental and ethical impact.",
+        "Resolved Design: Design submission and verbal/visual presentation (10 minutes). Representations appropriate to show architectural design resolution. Format: equivalent to 2sqm (min) – 3sqm (max) of pin-up space; and model(s) - physical or digital.",
+        "Hurdle requirement: completion of the Design presentation and a pass in the Resolved Design is required to pass the subject.",
+        "Common to all studios will be sites that have cultural, environmental, political and legal complexities which designs will need to address.",
+        "Students explore and translate their own complex design propositions into an architectural proposal that considers:"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1 anchor — work-situated learning exists only as an elective. Neither core list (the 100-point first-year core, the 150-point second/third-year core, or the 250-point core of the 300-point program) contains a placement, practicum or community-based unit; the only community-based, off-campus offering, Bower Studio - Community Development, sits in the 25 points of architecture electives, and the workplace component of professional formation is explicitly located after graduation. Not level 2: no core unit places students in a real workplace or professional-community setting with practitioner supervision and assessment. Simulated client work in the studios is excluded here by construction and scores in W2.",
+      "evidenceLines": [
+        "ABPL90152\tBower Studio - Community Development",
+        "Winter Term (Off Campus)",
+        "25 points of architecture electives.",
+        "250 points of core subjects (including the capstone subject: ABPL90169 Design Thesis).",
+        "In addition, professional experience post-graduation is required to sit the registration examination."
+      ]
+    },
+    "workplace": 6,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program documents an all-compulsory specialist core inside an accredited sequence with staged depth: 250 of 300 points (or 150 of 200) are core, the core is a lettered design-studio progression (Studio A/B, then C, D, E) terminating in a required capstone thesis, and the whole sequence is the accredited academic requirement for architect registration with the ARBV and recognised by the RAIA and the Commonwealth Association of Architects. Content is disciplinary and non-interchangeable, so the FAIL condition (generic content without disciplinary identity) does not apply.",
+        "evidenceLines": [
+          "The Master of Architecture requires the successful completion of 300 credit points.",
+          "250 points of core subjects (including the capstone subject: ABPL90169 Design Thesis).",
+          "Completion of a three-year Bachelors degree in Architecture + the 2-year (entry point) of the Master of Architecture OR the 3-year (entry point) of the Master of Architecture meets the academic requirements for registration as an architect under the Architects Registration Board of Victoria.",
+          "The Master of Architecture is recognised for graduate membership to the Royal Australian Institute of Architecture (RAIA) and verified by Commonwealth Association of Architects."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Assessment requires defended trade-off decisions and capstone-scale work with real uncertainty. Architectural Practice requires students to evaluate procurement and contractual options and determine strategies balancing scope, cost, time and quality, and assesses that in scenario letters and reports plus a hurdled exam; the core studios set ill-defined briefs on sites with cultural, environmental, political and legal complexity, require critical evaluation of results against context and stakeholder needs, and defend the outcome in hurdled design crits. Recall-and-script-only would fail; that is not what is documented.",
+        "evidenceLines": [
+          "Analyse and evaluate diverse procurement methods and contractual relationships, to determine appropriate strategies for managing project scope, cost, time and quality.",
+          "Engagement with unexpected problems by identifying relevant solutions and risk mitigation strategies",
+          "Critically evaluate results in relation to the environmental and socio-cultural context, stakeholder needs and relevant design practices and theories.",
+          "Common to all studios will be sites that have cultural, environmental, political and legal complexities which designs will need to address.",
+          "Critically evaluate design outcomes in relation to relevant professional practices."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C2 straddled 2 and 3: the studio booklets are process-focused, hurdled and repeatedly submitted ('Document and reflect upon iterative design exploration'), which approaches the level-3 'evidence strategy adjustment over time' route, but no reliance decision on a tool, source or collaborator is named and 'strategy adjustment' is not documented. Lower level taken per the ambiguity rule.",
+      "C3 straddled 1 and 2: AI appears in a CORE learning outcome (Architectural Practice: impacts of new technologies and artificial intelligence on practice), which reads toward level 2, but none of that subject's four assessment tasks documents AI content being assessed. R2 (a capability in outcomes but never assessed scores 1) plus the lower-level rule resolved this to 1.",
+      "C4 straddled 2 and 3: 'These studios will allow opportunities for self-directed research inquiries/projects' is hedged, which would suggest self-scoping is one route among several. Resolved upward to 3 only because the assessed Preliminary Thesis Proposal requires every student to present their own research questions and draft thesis statement, and the resolved thesis is hurdled on exploring that question — i.e. the level-3 anchor is met by assessment evidence, not by the hedged sentence.",
+      "C5 straddled 2 and 3: the Design Thesis is required (not one route among several) and is reviewed in supervised stages at Weeks 4, 8 and final — two of the level-3 conditions — but the extract documents design crits on the design rather than a defence of methodology, and does not require primary-evidence generation or data collection. Lower level taken.",
+      "The Design Thesis evidence legitimately bears on C4 and C5. Split under 'one construct, one home': the self-scoping and staged progression toward independent work score in C4; the research-question inquiry and investigation score in C5. No line is used for both.",
+      "The Architectural Practice letters-and-reports tasks bear on C1 and W1. Split: the group submission (collaboration with individual accountability) scores in C1; the individual submission (professional genre) scores in W1.",
+      "W3 relies on the elective title 'Bower Studio - Community Development' and its off-campus delivery; the subject page is not in the extract, so its work-situated character is inferred from the structure listing. This cannot change the score, since it is an elective and no core placement exists — the item is capped at 1 either way."
+    ],
+    "notScoreable": [
+      "The 300-point program's first-year core subject pages are absent from the extract — ABPL90284 Master of Architecture Studio A, ABPL90285 Master of Architecture Studio B, ABPL90286 Construction Methods, ABPL90287 Design and Construction, ABPL90288 Architectural Cultures 1: Modernism and ABPL90289 Architectural Cultures 2: After Modernism appear in the structure but have no overview or assessment page. All items were therefore scored on the shared 150/250-point core (Studios C, D, E, Design Thesis, Architectural Practice, Applied Architectural Technology, Introduction to High-Performance Design, Twenty-first Century Architecture) plus the documented electives.",
+      "The elective ABPL90452 AI in Architectural Design and Practice has no subject or assessment page in the extract, so nothing beyond its existence and elective status could be scored for C3.",
+      "ABPL90430 Design with Country: Resilience Studio, named in the structure note as an approved substitution, has no page in the extract and was not scored."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-14"
+    }
+  }
+}

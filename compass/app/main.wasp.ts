@@ -24,12 +24,16 @@ import MatrixDashboardPage from "./src/compass/v2/MatrixDashboardPage" with { ty
 import V2ReportPage from "./src/compass/v2/V2ReportPage" with { type: "ref" };
 import V3ReportPage from "./src/compass/v3/V3ReportPage" with { type: "ref" };
 import V31ReportPage from "./src/compass/v31/V31ReportPage" with { type: "ref" };
+import V4ReportPage from "./src/compass/v4/V4ReportPage" with { type: "ref" };
 import PortfolioHealthPage from "./src/compass/PortfolioHealthPage" with { type: "ref" };
 import FacultyDashboard from "./src/compass/FacultyDashboard" with { type: "ref" };
 import DevPortalPage from "./src/compass/DevPortalPage" with { type: "ref" };
 import FragilityDashboardPage from "./src/compass/FragilityDashboardPage" with { type: "ref" };
 import WhyStructuredDataPage from "./src/compass/WhyStructuredDataPage" with { type: "ref" };
+import TrustPage from "./src/compass/TrustPage" with { type: "ref" };
 import ImpactReportDetail from "./src/compass/ImpactReportDetail" with { type: "ref" };
+import PrivacyPolicyPage from "./src/legal/PrivacyPolicyPage" with { type: "ref" };
+import TermsOfServicePage from "./src/legal/TermsOfServicePage" with { type: "ref" };
 
 // Auth / server / db functions
 import {
@@ -115,10 +119,14 @@ export default app({
     "<meta property='og:site_name' content='Evidura' />",
     "<meta property='og:url' content='https://evidura.ai' />",
     "<meta property='og:description' content='Evaluate university program resilience against AI-driven labour market change.' />",
-    "<meta property='og:image' content='https://evidura.ai/public-banner.webp' />",
-    "<meta name='twitter:image' content='https://evidura.ai/public-banner.webp' />",
-    "<meta name='twitter:image:width' content='800' />",
-    "<meta name='twitter:image:height' content='400' />",
+    // og-evidura.png is hosted on dev.evidura.ai until prod (main) redeploys; flip to evidura.ai at prod cutover
+    "<meta property='og:image' content='https://dev.evidura.ai/og-evidura.png' />",
+    "<meta property='og:image:width' content='1200' />",
+    "<meta property='og:image:height' content='630' />",
+    "<meta property='og:image:alt' content='Evidura — the independent durability rating for university degrees' />",
+    "<meta name='twitter:image' content='https://dev.evidura.ai/og-evidura.png' />",
+    "<meta name='twitter:image:width' content='1200' />",
+    "<meta name='twitter:image:height' content='630' />",
     "<meta name='twitter:card' content='summary_large_image' />",
   ],
 
@@ -200,6 +208,8 @@ export default app({
 
     //#region Payment
     route("PricingPageRoute", "/pricing", page(PricingPage)),
+    route("PrivacyPolicyRoute", "/privacy", page(PrivacyPolicyPage)),
+    route("TermsOfServiceRoute", "/terms", page(TermsOfServicePage)),
     route(
       "CheckoutResultRoute",
       "/checkout",
@@ -257,7 +267,9 @@ export default app({
     //#endregion
 
     //#region COMPASS
-    route("AssessRoute", "/assess", page(AssessorPage, { authRequired: true })),
+    // Public: anyone can assess a program without an account. Signing in only
+    // adds a durable history (see getAssessmentJobs).
+    route("AssessRoute", "/assess", page(AssessorPage)),
     route("ReportsRoute", "/reports", page(ReportsPage)),
     route("ReportDetailRoute", "/reports/:reportSlug", page(ReportDetailPage)),
     // v2 (dev branch): /insights IS the v2 matrix dashboard; v1 hub moves to /insights/v1
@@ -266,6 +278,7 @@ export default app({
     route("V2ReportRoute", "/insights/program/:code", page(V2ReportPage)),
     route("V3ReportRoute", "/insights/v3/:code", page(V3ReportPage)),
     route("V31ReportRoute", "/insights/v31/:code", page(V31ReportPage)),
+    route("V4ReportRoute", "/insights/v4/:code", page(V4ReportPage)),
     route(
       "PortfolioHealthRoute",
       "/insights/portfolio",
@@ -278,9 +291,15 @@ export default app({
       facultyDashboardPage,
     ),
 
-    action(assessProgram, { entities: ["AssessmentJob", "User", "T1ProgramSnapshot"] }),
-    query(getAssessmentJobs, { entities: ["AssessmentJob", "T1ProgramSnapshot"] }),
-    query(getAssessmentJob, { entities: ["AssessmentJob", "T1ProgramSnapshot"] }),
+    action(assessProgram, {
+      entities: ["AssessmentJob", "User", "T1ProgramSnapshot"],
+    }),
+    query(getAssessmentJobs, {
+      entities: ["AssessmentJob", "T1ProgramSnapshot"],
+    }),
+    query(getAssessmentJob, {
+      entities: ["AssessmentJob", "T1ProgramSnapshot"],
+    }),
     query(getSyllabusMap, { entities: ["AssessmentJob"] }),
     action(updateCourseIntervention, {
       entities: ["CourseInterventionOwner", "AssessmentJob"],
@@ -306,6 +325,12 @@ export default app({
     query(listApiKeys, { entities: ["ApiKey"] }),
     route("DevPortalRoute", "/developers", page(DevPortalPage)),
 
+    // Trust page — security/privacy posture. Wording's source of truth is
+    // docs/trust/*.md. Unconfirmed facts are gated by two constants inside
+    // TrustPage.tsx (ZERO_RETENTION_CONFIRMED, DATABASE_REGION); both fail
+    // closed, so an unverified claim cannot ship by accident.
+    route("TrustRoute", "/trust", page(TrustPage)),
+
     // Data Fragility Monitor (feat-012)
     route(
       "FragilityRoute",
@@ -327,7 +352,12 @@ export default app({
 
     // TechnologyOne Data Connector (feat-011)
     action(importT1Data, {
-      entities: ["T1ImportJob", "T1ProgramSnapshot", "T1EnrolmentTrend", "Institution"],
+      entities: [
+        "T1ImportJob",
+        "T1ProgramSnapshot",
+        "T1EnrolmentTrend",
+        "Institution",
+      ],
     }),
     query(getT1ImportJob, {
       entities: ["T1ImportJob", "T1ProgramSnapshot"],

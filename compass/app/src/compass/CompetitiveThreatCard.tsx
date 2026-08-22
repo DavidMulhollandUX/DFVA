@@ -55,7 +55,8 @@ function impactLabel(impactScore: number): {
  * Static "What this means for DFVA" analysis mapped by event title.
  * NOT LLM-generated — strategic judgment, consistent across all surfaces.
  */
-function whatThisMeans(title: string): {
+/** Exported for testing — see __tests__/classRankedWhatThisMeans.test.ts */
+export function whatThisMeans(title: string): {
   paragraphs: string[];
   sourceUrl: string | null;
 } {
@@ -80,6 +81,18 @@ function whatThisMeans(title: string): {
         "The market window is actually OPENING here, not closing. As CourseLeaf educates the market about analytics, more institutions will discover their platform can't deliver the depth they need — creating demand for DFVA's independent standard.",
       ],
       sourceUrl: "https://www.courseleaf.com/products/",
+    };
+  }
+
+  if (title.includes("ClassRanked")) {
+    return {
+      paragraphs: [
+        "Coursedog acquiring ClassRanked validates the assessment category — they wouldn't acquire an AI-driven course evaluations company if assessment weren't a standalone market. This is the strongest possible market validation for DFVA's thesis: assessment is a distinct product category, not a feature of operations software.",
+        "But the acquisition also creates a structural conflict of interest. When the assessment tool is owned by the platform it assesses, the assessment optimizes for the platform — not for the institution. Coursedog's course evaluations will tune toward making Curriculum Cloud and Scheduling Cloud look good, not toward surfacing hard truths about program durability.",
+        "DFVA's independence is the product, not a feature. The assessment exists to inform institutional strategy — not to optimize a vendor's platform. An independent standard can tell a university that a program is fragile; a vendor-owned assessment will always have a structural incentive to frame results as manageable within the platform's workflow.",
+        "The prescriptive vs descriptive distinction is now sharper. Coursedog Intelligence, Inferred Program Maps, and Course Demand Projections are descriptive analytics — they show what IS happening (enrollments, demand, scheduling). DFVA's 11-dimension durability scoring is prescriptive — it shows what SHOULD exist for a degree to remain viable in an AI-disrupted labour market. Methodology, not AI insights.",
+      ],
+      sourceUrl: "https://www.coursedog.com/product/assessment",
     };
   }
 

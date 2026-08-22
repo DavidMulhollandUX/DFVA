@@ -1,5 +1,5 @@
 /** Bump on every PROGRAMS change to invalidate stale client caches. */
-export const CACHE_VERSION = 4;
+export const CACHE_VERSION = 5;
 
 export interface DimensionScore {
   label: string;
@@ -1847,6 +1847,33 @@ export const PROGRAMS: ProgramReport[] = [
     marketSlug: "dfva-market-mc-dphysio",
     recommendSlug: "dfva-recommend-mc-dphysio",
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-dphysio",
+  },
+  {
+    program: "Master of Public Health",
+    institution: "University of Melbourne",
+    level: "Graduate Coursework (Masters Coursework), AQF Level 9",
+    date: "2026-08-11",
+    score: 23,
+    maxScore: 36,
+    riskBand: "MODERATE RISK",
+    thresholds: { q1: "UNCERTAIN", q2: "YES", q3: "UNCERTAIN" },
+    dimensions: [
+      { label: "Automation Exposure", score: 2, max: 3 },
+      { label: "Systems Thinking", score: 2, max: 3 },
+      { label: "Technical Depth", score: 2, max: 3 },
+      { label: "Decision-Making", score: 3, max: 3 },
+      { label: "AI Literacy", score: 1, max: 3 },
+      { label: "Domain Depth", score: 2, max: 3 },
+      { label: "Research Rigour", score: 2, max: 3 },
+      { label: "Human & Relational", score: 2, max: 3 },
+      { label: "Curriculum Currency", score: 2, max: 3 },
+      { label: "Outcome Evidence", score: 3, max: 3 },
+      { label: "Irreplaceability (bonus)", score: 2, max: 3 },
+    ],
+    assessmentSlug: "dfva-244cw",
+    marketSlug: "dfva-market-244cw",
+    recommendSlug: "dfva-recommend-244cw",
+    handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/244cw",
   },
 ];
 
