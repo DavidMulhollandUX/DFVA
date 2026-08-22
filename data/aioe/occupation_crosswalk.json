@@ -1,0 +1,679 @@
+{
+  "description": "Destination-title → O*NET-SOC 2010 crosswalk for DFVA v3 Panel A. Titles are JSA HEO field-level destinations (labour-evidence.json) plus JIR/LiveAlumni alumni titles (jir_data.json) for programs without a JSA field match. Every SOC code must appear in data/aioe/felten_aioe.json (published Felten AIOE appendix); the generator (scripts/dfva-v3-panela.ts) fails if any does not.",
+  "authored": "2026-08-08",
+  "mappings": [
+    {
+      "title": "Accountant (General)",
+      "soc": "13-2011",
+      "socTitle": "Accountants and Auditors",
+      "confidence": "high"
+    },
+    {
+      "title": "Allied Health Assistant",
+      "soc": "31-2022",
+      "socTitle": "Physical Therapist Aides",
+      "confidence": "medium",
+      "note": "Generic allied-health support role; mapped to therapy-aide family given physiotherapy context"
+    },
+    {
+      "title": "Architect",
+      "soc": "17-1011",
+      "socTitle": "Architects, Except Landscape and Naval",
+      "confidence": "high"
+    },
+    {
+      "title": "Architectural Draftsperson",
+      "soc": "17-3011",
+      "socTitle": "Architectural and Civil Drafters",
+      "confidence": "high"
+    },
+    {
+      "title": "Barrister",
+      "soc": "23-1011",
+      "socTitle": "Lawyers",
+      "confidence": "high"
+    },
+    {
+      "title": "Chemical Engineer",
+      "soc": "17-2041",
+      "socTitle": "Chemical Engineers",
+      "confidence": "high"
+    },
+    {
+      "title": "Child Care Worker",
+      "soc": "39-9011",
+      "socTitle": "Child Care Workers",
+      "confidence": "high"
+    },
+    {
+      "title": "Civil Engineer",
+      "soc": "17-2051",
+      "socTitle": "Civil Engineers",
+      "confidence": "high"
+    },
+    {
+      "title": "Clinical Demonstrator",
+      "soc": "25-1071",
+      "socTitle": "Health Specialties Teachers, Postsecondary",
+      "confidence": "medium"
+    },
+    {
+      "title": "Clinical Director",
+      "soc": "11-9111",
+      "socTitle": "Medical and Health Services Managers",
+      "confidence": "high"
+    },
+    {
+      "title": "Clinical Educator",
+      "soc": "25-1071",
+      "socTitle": "Health Specialties Teachers, Postsecondary",
+      "confidence": "medium"
+    },
+    {
+      "title": "Clinical Optometrist",
+      "soc": "29-1041",
+      "socTitle": "Optometrists",
+      "confidence": "high"
+    },
+    {
+      "title": "Clinical Research Optometrist",
+      "soc": "29-1041",
+      "socTitle": "Optometrists",
+      "confidence": "high"
+    },
+    {
+      "title": "Construction Project Manager",
+      "soc": "11-9021",
+      "socTitle": "Construction Managers",
+      "confidence": "high"
+    },
+    {
+      "title": "Contact Tracer",
+      "soc": "21-1094",
+      "socTitle": "Community Health Workers",
+      "confidence": "medium"
+    },
+    {
+      "title": "Cosmetic Dentist",
+      "soc": "29-1021",
+      "socTitle": "Dentists, General",
+      "confidence": "high"
+    },
+    {
+      "title": "Dental Assistant",
+      "soc": "31-9091",
+      "socTitle": "Dental Assistants",
+      "confidence": "high"
+    },
+    {
+      "title": "Dental Officer",
+      "soc": "29-1021",
+      "socTitle": "Dentists, General",
+      "confidence": "high"
+    },
+    {
+      "title": "Dental Resident",
+      "soc": "29-1021",
+      "socTitle": "Dentists, General",
+      "confidence": "high"
+    },
+    {
+      "title": "Dental Surgeon",
+      "soc": "29-1022",
+      "socTitle": "Oral and Maxillofacial Surgeons",
+      "confidence": "high"
+    },
+    {
+      "title": "Dentist",
+      "soc": "29-1021",
+      "socTitle": "Dentists, General",
+      "confidence": "high"
+    },
+    {
+      "title": "Deputy Director of Medical Services",
+      "soc": "11-9111",
+      "socTitle": "Medical and Health Services Managers",
+      "confidence": "high"
+    },
+    {
+      "title": "Developer Programmer",
+      "soc": "15-1131",
+      "socTitle": "Computer Programmers",
+      "confidence": "high"
+    },
+    {
+      "title": "Director of Clinical Development & Innovation",
+      "soc": "11-9111",
+      "socTitle": "Medical and Health Services Managers",
+      "confidence": "medium"
+    },
+    {
+      "title": "Disability Support Worker",
+      "soc": "39-9021",
+      "socTitle": "Personal and Home Care Aides",
+      "confidence": "medium"
+    },
+    {
+      "title": "Dry Eye Optometrist",
+      "soc": "29-1041",
+      "socTitle": "Optometrists",
+      "confidence": "high"
+    },
+    {
+      "title": "Early Childhood (Pre-primary School) Teacher",
+      "soc": "25-2011",
+      "socTitle": "Preschool Teachers, Except Special Education",
+      "confidence": "high"
+    },
+    {
+      "title": "Electrical Engineer",
+      "soc": "17-2071",
+      "socTitle": "Electrical Engineers",
+      "confidence": "high"
+    },
+    {
+      "title": "Emergency Veterinarian",
+      "soc": "29-1131",
+      "socTitle": "Veterinarians",
+      "confidence": "high"
+    },
+    {
+      "title": "Engineering Professionals nec",
+      "soc": "17-2199",
+      "socTitle": "Engineers, All Other",
+      "confidence": "high"
+    },
+    {
+      "title": "Environmental Consultant",
+      "soc": "19-2041",
+      "socTitle": "Environmental Scientists and Specialists, Including Health",
+      "confidence": "high"
+    },
+    {
+      "title": "Equine Veterinarian",
+      "soc": "29-1131",
+      "socTitle": "Veterinarians",
+      "confidence": "high"
+    },
+    {
+      "title": "Exercise Physiologist",
+      "soc": "29-1128",
+      "socTitle": "Exercise Physiologists",
+      "confidence": "high"
+    },
+    {
+      "title": "General Clerk",
+      "soc": "43-9061",
+      "socTitle": "Office Clerks, General",
+      "confidence": "high"
+    },
+    {
+      "title": "General Practitioner",
+      "soc": "29-1062",
+      "socTitle": "Family and General Practitioners",
+      "confidence": "high"
+    },
+    {
+      "title": "Geologist",
+      "soc": "19-2042",
+      "socTitle": "Geoscientists, Except Hydrologists and Geographers",
+      "confidence": "high"
+    },
+    {
+      "title": "Graduate Dentist",
+      "soc": "29-1021",
+      "socTitle": "Dentists, General",
+      "confidence": "high"
+    },
+    {
+      "title": "Graduate Optometrist",
+      "soc": "29-1041",
+      "socTitle": "Optometrists",
+      "confidence": "high"
+    },
+    {
+      "title": "Graphic Designer",
+      "soc": "27-1024",
+      "socTitle": "Graphic Designers",
+      "confidence": "high"
+    },
+    {
+      "title": "Head Veterinarian",
+      "soc": "29-1131",
+      "socTitle": "Veterinarians",
+      "confidence": "high"
+    },
+    {
+      "title": "Hospital Medical Officer",
+      "soc": "29-1069",
+      "socTitle": "Physicians and Surgeons, All Other",
+      "confidence": "high"
+    },
+    {
+      "title": "ICT Business Analyst",
+      "soc": "15-1121",
+      "socTitle": "Computer Systems Analysts",
+      "confidence": "high"
+    },
+    {
+      "title": "ICT Customer Support Officer",
+      "soc": "15-1151",
+      "socTitle": "Computer User Support Specialists",
+      "confidence": "high"
+    },
+    {
+      "title": "Interior Designer",
+      "soc": "27-1025",
+      "socTitle": "Interior Designers",
+      "confidence": "high"
+    },
+    {
+      "title": "Junior Doctor",
+      "soc": "29-1069",
+      "socTitle": "Physicians and Surgeons, All Other",
+      "confidence": "high"
+    },
+    {
+      "title": "Law Clerk",
+      "soc": "23-2011",
+      "socTitle": "Paralegals and Legal Assistants",
+      "confidence": "medium",
+      "note": "AU law-firm clerkship, closer to paralegal than US judicial law clerk"
+    },
+    {
+      "title": "Law Graduate",
+      "soc": "23-1011",
+      "socTitle": "Lawyers",
+      "confidence": "medium",
+      "note": "Pre-admission graduate role in a legal practice"
+    },
+    {
+      "title": "Lawyer",
+      "soc": "23-1011",
+      "socTitle": "Lawyers",
+      "confidence": "high"
+    },
+    {
+      "title": "Legal Analyst",
+      "soc": "23-1011",
+      "socTitle": "Lawyers",
+      "confidence": "medium"
+    },
+    {
+      "title": "Legal Assistant",
+      "soc": "23-2011",
+      "socTitle": "Paralegals and Legal Assistants",
+      "confidence": "high"
+    },
+    {
+      "title": "Legal Counsel",
+      "soc": "23-1011",
+      "socTitle": "Lawyers",
+      "confidence": "high"
+    },
+    {
+      "title": "Legal Officer",
+      "soc": "23-1011",
+      "socTitle": "Lawyers",
+      "confidence": "high"
+    },
+    {
+      "title": "Locum Optometrist",
+      "soc": "29-1041",
+      "socTitle": "Optometrists",
+      "confidence": "high"
+    },
+    {
+      "title": "Management Consultant",
+      "soc": "13-1111",
+      "socTitle": "Management Analysts",
+      "confidence": "high"
+    },
+    {
+      "title": "Marketing Specialist",
+      "soc": "13-1161",
+      "socTitle": "Market Research Analysts and Marketing Specialists",
+      "confidence": "high"
+    },
+    {
+      "title": "Mechanical Engineer",
+      "soc": "17-2141",
+      "socTitle": "Mechanical Engineers",
+      "confidence": "high"
+    },
+    {
+      "title": "Medical Director",
+      "soc": "11-9111",
+      "socTitle": "Medical and Health Services Managers",
+      "confidence": "high"
+    },
+    {
+      "title": "Medical Intern",
+      "soc": "29-1069",
+      "socTitle": "Physicians and Surgeons, All Other",
+      "confidence": "high"
+    },
+    {
+      "title": "Medical Laboratory Scientist",
+      "soc": "29-2011",
+      "socTitle": "Medical and Clinical Laboratory Technologists",
+      "confidence": "high"
+    },
+    {
+      "title": "Medical Laboratory Technician",
+      "soc": "29-2012",
+      "socTitle": "Medical and Clinical Laboratory Technicians",
+      "confidence": "high"
+    },
+    {
+      "title": "Middle School Teacher (Aus) \\ Intermediate School Teacher (NZ)",
+      "soc": "25-2022",
+      "socTitle": "Middle School Teachers, Except Special and Vocational Education",
+      "confidence": "high"
+    },
+    {
+      "title": "Occupational Therapist",
+      "soc": "29-1122",
+      "socTitle": "Occupational Therapists",
+      "confidence": "high"
+    },
+    {
+      "title": "Optical Assistant",
+      "soc": "29-2081",
+      "socTitle": "Opticians, Dispensing",
+      "confidence": "medium"
+    },
+    {
+      "title": "Optical Dispenser",
+      "soc": "29-2081",
+      "socTitle": "Opticians, Dispensing",
+      "confidence": "high"
+    },
+    {
+      "title": "Optometrist",
+      "soc": "29-1041",
+      "socTitle": "Optometrists",
+      "confidence": "high"
+    },
+    {
+      "title": "Optometry Development Consultant",
+      "soc": "29-1041",
+      "socTitle": "Optometrists",
+      "confidence": "medium"
+    },
+    {
+      "title": "Optometry Director",
+      "soc": "11-9111",
+      "socTitle": "Medical and Health Services Managers",
+      "confidence": "medium"
+    },
+    {
+      "title": "Oral Surgery Resident",
+      "soc": "29-1022",
+      "socTitle": "Oral and Maxillofacial Surgeons",
+      "confidence": "high"
+    },
+    {
+      "title": "Paralegal",
+      "soc": "23-2011",
+      "socTitle": "Paralegals and Legal Assistants",
+      "confidence": "high"
+    },
+    {
+      "title": "Physiotherapist",
+      "soc": "29-1123",
+      "socTitle": "Physical Therapists",
+      "confidence": "high"
+    },
+    {
+      "title": "Physiotherapy Assistant",
+      "soc": "31-2021",
+      "socTitle": "Physical Therapist Assistants",
+      "confidence": "high"
+    },
+    {
+      "title": "Policy Officer",
+      "soc": "13-1111",
+      "socTitle": "Management Analysts",
+      "confidence": "medium",
+      "note": "Government/organisational policy role; no direct SOC-2010 equivalent"
+    },
+    {
+      "title": "Practice Manager",
+      "soc": "11-9111",
+      "socTitle": "Medical and Health Services Managers",
+      "confidence": "high"
+    },
+    {
+      "title": "Primary School Teacher",
+      "soc": "25-2021",
+      "socTitle": "Elementary School Teachers, Except Special Education",
+      "confidence": "high"
+    },
+    {
+      "title": "Principal Dentist",
+      "soc": "29-1021",
+      "socTitle": "Dentists, General",
+      "confidence": "high"
+    },
+    {
+      "title": "Principal Optometrist",
+      "soc": "29-1041",
+      "socTitle": "Optometrists",
+      "confidence": "high"
+    },
+    {
+      "title": "Principal Physiotherapist",
+      "soc": "29-1123",
+      "socTitle": "Physical Therapists",
+      "confidence": "high"
+    },
+    {
+      "title": "Program or Project Administrator",
+      "soc": "11-9199",
+      "socTitle": "Managers, All Other",
+      "confidence": "medium",
+      "note": "SOC-2010 has no Project Management Specialists category (added in SOC-2018)"
+    },
+    {
+      "title": "Project Manager",
+      "soc": "11-9199",
+      "socTitle": "Managers, All Other",
+      "confidence": "medium"
+    },
+    {
+      "title": "Psychiatry Registrar",
+      "soc": "29-1066",
+      "socTitle": "Psychiatrists",
+      "confidence": "high"
+    },
+    {
+      "title": "Public Health Officer",
+      "soc": "11-9111",
+      "socTitle": "Medical and Health Services Managers",
+      "confidence": "medium"
+    },
+    {
+      "title": "Public Relations Professional",
+      "soc": "27-3031",
+      "socTitle": "Public Relations Specialists",
+      "confidence": "high"
+    },
+    {
+      "title": "Registered Nurse (Critical Care and Emergency)",
+      "soc": "29-1141",
+      "socTitle": "Registered Nurses",
+      "confidence": "high"
+    },
+    {
+      "title": "Registered Nurse (Medical)",
+      "soc": "29-1141",
+      "socTitle": "Registered Nurses",
+      "confidence": "high"
+    },
+    {
+      "title": "Registered Nurses nec",
+      "soc": "29-1141",
+      "socTitle": "Registered Nurses",
+      "confidence": "high"
+    },
+    {
+      "title": "Rehabilitation Consultant",
+      "soc": "21-1015",
+      "socTitle": "Rehabilitation Counselors",
+      "confidence": "medium"
+    },
+    {
+      "title": "Research Assistant",
+      "soc": "19-4061",
+      "socTitle": "Social Science Research Assistants",
+      "confidence": "medium",
+      "note": "Generic academic research-support title; field varies by program"
+    },
+    {
+      "title": "Resident Medical Officer",
+      "soc": "29-1069",
+      "socTitle": "Physicians and Surgeons, All Other",
+      "confidence": "high"
+    },
+    {
+      "title": "Sales Assistant (General)",
+      "soc": "41-2031",
+      "socTitle": "Retail Salespersons",
+      "confidence": "high"
+    },
+    {
+      "title": "Sales and Marketing Manager",
+      "soc": "11-2022",
+      "socTitle": "Sales Managers",
+      "confidence": "high"
+    },
+    {
+      "title": "School Teachers nfd",
+      "soc": "25-2031",
+      "socTitle": "Secondary School Teachers, Except Special and Vocational Education",
+      "confidence": "medium",
+      "note": "Not further defined in JSA data; mapped to secondary as the modal teaching destination"
+    },
+    {
+      "title": "Seasonal Clerk",
+      "soc": "23-2011",
+      "socTitle": "Paralegals and Legal Assistants",
+      "confidence": "medium"
+    },
+    {
+      "title": "Secondary School Teacher",
+      "soc": "25-2031",
+      "socTitle": "Secondary School Teachers, Except Special and Vocational Education",
+      "confidence": "high"
+    },
+    {
+      "title": "Senior Dentist",
+      "soc": "29-1021",
+      "socTitle": "Dentists, General",
+      "confidence": "high"
+    },
+    {
+      "title": "Senior Lawyer",
+      "soc": "23-1011",
+      "socTitle": "Lawyers",
+      "confidence": "high"
+    },
+    {
+      "title": "Senior Legal Counsel",
+      "soc": "23-1011",
+      "socTitle": "Lawyers",
+      "confidence": "high"
+    },
+    {
+      "title": "Senior Optometrist",
+      "soc": "29-1041",
+      "socTitle": "Optometrists",
+      "confidence": "high"
+    },
+    {
+      "title": "Senior Physiotherapist",
+      "soc": "29-1123",
+      "socTitle": "Physical Therapists",
+      "confidence": "high"
+    },
+    {
+      "title": "Senior Veterinarian",
+      "soc": "29-1131",
+      "socTitle": "Veterinarians",
+      "confidence": "high"
+    },
+    {
+      "title": "Small Animal Veterinarian",
+      "soc": "29-1131",
+      "socTitle": "Veterinarians",
+      "confidence": "high"
+    },
+    {
+      "title": "Software Engineer",
+      "soc": "15-1132",
+      "socTitle": "Software Developers, Applications",
+      "confidence": "high"
+    },
+    {
+      "title": "Solicitor",
+      "soc": "23-1011",
+      "socTitle": "Lawyers",
+      "confidence": "high"
+    },
+    {
+      "title": "Student Health Promotion Consultant",
+      "soc": "21-1091",
+      "socTitle": "Health Educators",
+      "confidence": "medium"
+    },
+    {
+      "title": "Surgical Resident",
+      "soc": "29-1067",
+      "socTitle": "Surgeons",
+      "confidence": "high"
+    },
+    {
+      "title": "Urban and Regional Planner",
+      "soc": "19-3051",
+      "socTitle": "Urban and Regional Planners",
+      "confidence": "high"
+    },
+    {
+      "title": "Veterinarian",
+      "soc": "29-1131",
+      "socTitle": "Veterinarians",
+      "confidence": "high"
+    },
+    {
+      "title": "Veterinary Assistant",
+      "soc": "31-9096",
+      "socTitle": "Veterinary Assistants and Laboratory Animal Caretakers",
+      "confidence": "high"
+    },
+    {
+      "title": "Veterinary Director",
+      "soc": "11-9111",
+      "socTitle": "Medical and Health Services Managers",
+      "confidence": "medium"
+    },
+    {
+      "title": "Veterinary Nurse",
+      "soc": "29-2056",
+      "socTitle": "Veterinary Technologists and Technicians",
+      "confidence": "high"
+    },
+    {
+      "title": "Veterinary Officer",
+      "soc": "29-1131",
+      "socTitle": "Veterinarians",
+      "confidence": "high"
+    },
+    {
+      "title": "Veterinary Practice Owner",
+      "soc": "11-9111",
+      "socTitle": "Medical and Health Services Managers",
+      "confidence": "medium"
+    }
+  ]
+}

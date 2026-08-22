@@ -20,10 +20,16 @@ import AssessorPage from "./src/compass/AssessorPage" with { type: "ref" };
 import ReportsPage from "./src/compass/ReportsPage" with { type: "ref" };
 import ReportDetailPage from "./src/compass/ReportDetailPage" with { type: "ref" };
 import InsightsPage from "./src/compass/InsightsPage" with { type: "ref" };
+import MatrixDashboardPage from "./src/compass/v2/MatrixDashboardPage" with { type: "ref" };
+import V2ReportPage from "./src/compass/v2/V2ReportPage" with { type: "ref" };
+import V3ReportPage from "./src/compass/v3/V3ReportPage" with { type: "ref" };
+import V31ReportPage from "./src/compass/v31/V31ReportPage" with { type: "ref" };
 import PortfolioHealthPage from "./src/compass/PortfolioHealthPage" with { type: "ref" };
 import FacultyDashboard from "./src/compass/FacultyDashboard" with { type: "ref" };
 import DevPortalPage from "./src/compass/DevPortalPage" with { type: "ref" };
-import DevPortalComparePage from "./src/compass/DevPortalComparePage" with { type: "ref" };
+import FragilityDashboardPage from "./src/compass/FragilityDashboardPage" with { type: "ref" };
+import WhyStructuredDataPage from "./src/compass/WhyStructuredDataPage" with { type: "ref" };
+import ImpactReportDetail from "./src/compass/ImpactReportDetail" with { type: "ref" };
 
 // Auth / server / db functions
 import {
@@ -33,6 +39,7 @@ import {
 import { getEmailUserFields } from "./src/auth/userSignupFields" with { type: "ref" };
 import { seedMockUsers } from "./src/server/scripts/dbSeeds" with { type: "ref" };
 import { serverEnvValidationSchema } from "./src/env" with { type: "ref" };
+import { serverMiddlewareConfigFn } from "./src/serverSetup" with { type: "ref" };
 
 // Operations
 import {
@@ -70,7 +77,16 @@ import {
   generateApiKey,
   revokeApiKey,
   listApiKeys,
+  addFragilityIncident,
+  getFragilityIncidents,
 } from "./src/compass/operations" with { type: "ref" };
+import {
+  importT1Data,
+  getT1ImportJob,
+  getT1Portfolio,
+  getT1EnrolmentTrends,
+  assessT1Programs,
+} from "./src/compass/t1/operations" with { type: "ref" };
 import { scanMarketDrift } from "./src/compass/marketDrift" with { type: "ref" };
 
 // FacultyComparisonRoute and FacultyDetailRoute render the same page.
@@ -143,6 +159,7 @@ export default app({
 
   server: {
     envValidationSchema: serverEnvValidationSchema,
+    middlewareConfigFn: serverMiddlewareConfigFn,
   },
 
   emailSender: {
@@ -243,7 +260,12 @@ export default app({
     route("AssessRoute", "/assess", page(AssessorPage, { authRequired: true })),
     route("ReportsRoute", "/reports", page(ReportsPage)),
     route("ReportDetailRoute", "/reports/:reportSlug", page(ReportDetailPage)),
-    route("InsightsRoute", "/insights", page(InsightsPage)),
+    // v2 (dev branch): /insights IS the v2 matrix dashboard; v1 hub moves to /insights/v1
+    route("InsightsRoute", "/insights", page(MatrixDashboardPage)),
+    route("InsightsV1Route", "/insights/v1", page(InsightsPage)),
+    route("V2ReportRoute", "/insights/program/:code", page(V2ReportPage)),
+    route("V3ReportRoute", "/insights/v3/:code", page(V3ReportPage)),
+    route("V31ReportRoute", "/insights/v31/:code", page(V31ReportPage)),
     route(
       "PortfolioHealthRoute",
       "/insights/portfolio",
@@ -256,9 +278,9 @@ export default app({
       facultyDashboardPage,
     ),
 
-    action(assessProgram, { entities: ["AssessmentJob", "User"] }),
-    query(getAssessmentJobs, { entities: ["AssessmentJob"] }),
-    query(getAssessmentJob, { entities: ["AssessmentJob"] }),
+    action(assessProgram, { entities: ["AssessmentJob", "User", "T1ProgramSnapshot"] }),
+    query(getAssessmentJobs, { entities: ["AssessmentJob", "T1ProgramSnapshot"] }),
+    query(getAssessmentJob, { entities: ["AssessmentJob", "T1ProgramSnapshot"] }),
     query(getSyllabusMap, { entities: ["AssessmentJob"] }),
     action(updateCourseIntervention, {
       entities: ["CourseInterventionOwner", "AssessmentJob"],
@@ -283,11 +305,42 @@ export default app({
     action(revokeApiKey, { entities: ["ApiKey"] }),
     query(listApiKeys, { entities: ["ApiKey"] }),
     route("DevPortalRoute", "/developers", page(DevPortalPage)),
+
+    // Data Fragility Monitor (feat-012)
     route(
-      "DevPortalCompareRoute",
-      "/developers/compare",
-      page(DevPortalComparePage),
+      "FragilityRoute",
+      "/insights/fragility",
+      page(FragilityDashboardPage),
     ),
+    route(
+      "WhyStructuredDataRoute",
+      "/why-structured-data",
+      page(WhyStructuredDataPage),
+    ),
+    route(
+      "ImpactReportDetailRoute",
+      "/insights/validation/:slug",
+      page(ImpactReportDetail),
+    ),
+    action(addFragilityIncident, { entities: ["FragilityIncident", "User"] }),
+    query(getFragilityIncidents, { entities: ["FragilityIncident"] }),
+
+    // TechnologyOne Data Connector (feat-011)
+    action(importT1Data, {
+      entities: ["T1ImportJob", "T1ProgramSnapshot", "T1EnrolmentTrend", "Institution"],
+    }),
+    query(getT1ImportJob, {
+      entities: ["T1ImportJob", "T1ProgramSnapshot"],
+    }),
+    query(getT1Portfolio, {
+      entities: ["Institution", "T1ProgramSnapshot", "AssessmentJob"],
+    }),
+    query(getT1EnrolmentTrends, {
+      entities: ["Institution", "T1EnrolmentTrend"],
+    }),
+    action(assessT1Programs, {
+      entities: ["Institution", "T1ProgramSnapshot", "AssessmentJob"],
+    }),
     //#endregion
   ],
 });

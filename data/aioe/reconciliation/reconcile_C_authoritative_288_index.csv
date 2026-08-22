@@ -1,0 +1,289 @@
+occupation,ai_exposure_index,anzsco_code,onet_soc_code,index_source,mapping_confidence,mapping_note,soc_clean,in_aioe_population,recomputed_from_appendix,abs_diff
+Academic Manager,98.42,,11-9033,Felten-AIOE,high,"11-9033 Education Administrators, Postsecondary: Postsecondary education administrator.",11-9033,True,98.4153,0.0047
+Actuarial Graduate,99.73,,15-2011,Felten-AIOE,high,15-2011 Actuaries: Entry-level actuary; seniority does not change SOC.,15-2011,True,99.7333,0.0033
+Algorithm Developer,94.18,,15-1133,Felten-AIOE,medium,"15-1133 Software Developers, Systems Software: Systems software developer; algorithm-implementation role.",15-1133,True,94.1784,0.0016
+Allied Health Assistant,67.56,,31-9099,Felten-AIOE,high,"31-9099 Healthcare Support Workers, All Other: Healthcare support worker, all other.",31-9099,True,67.5597,0.0003
+Analytics Engineer,92.97,,15-1199,Felten-AIOE,medium,"15-1199 Computer Occupations, All Other: Computer occupations, all other; no SOC 2010 cell for analytics engineering.",15-1199,True,92.9728,0.0028
+Application Developer,92.22,,15-1132,Felten-AIOE,high,"15-1132 Software Developers, Applications: Applications software developer.",15-1132,True,92.2156,0.0044
+Architect,88.55,,17-1011,Felten-AIOE,high,"17-1011 Architects, Except Landscape and Naval: Architect, except landscape and naval.",17-1011,True,88.5519,0.0019
+Architectural Assistant,85.6,,17-3011,Felten-AIOE,medium,17-3011 Architectural and Civil Drafters: Pre-registration architectural support; drafting/documentation work.,17-3011,True,85.6037,0.0037
+Architectural Designer,88.55,,17-1011,Felten-AIOE,medium,"17-1011 Architects, Except Landscape and Naval: Design work within an architecture practice.",17-1011,True,88.5519,0.0019
+Architectural Draftsperson,85.6,,17-3011,Felten-AIOE,high,17-3011 Architectural and Civil Drafters: Architectural and civil drafter.,17-3011,True,85.6037,0.0037
+Architectural Technician,85.6,,17-3011,Felten-AIOE,high,17-3011 Architectural and Civil Drafters: Architectural and civil drafter.,17-3011,True,85.6037,0.0037
+Architecture Graduate,88.55,,17-1011,Felten-AIOE,high,"17-1011 Architects, Except Landscape and Naval: Entry-level architect.",17-1011,True,88.5519,0.0019
+Artificial Intelligence Engineer,91.1,,15-1111,Felten-AIOE,medium,15-1111 Computer and Information Research Scientists: Computer and information research scientist; closest SOC 2010 cell for AI/ML engineering.,15-1111,True,91.1041,0.0041
+Asset Manager,92.56,,11-9141,Felten-AIOE,medium,"11-9141 Property, Real Estate, and Community Association Managers: Read as property/real-estate asset management given the property cluster; finance reading would map to 11-3031.",11-9141,True,92.5604,0.0004
+Assistant Development Manager,88.12,,11-9021,Felten-AIOE,medium,11-9021 Construction Managers: Property development management; construction managers is the closest SOC cell.,11-9021,True,88.123,0.003
+Assistant Property Manager,92.56,,11-9141,Felten-AIOE,high,"11-9141 Property, Real Estate, and Community Association Managers: Property, real estate and community association manager.",11-9141,True,92.5604,0.0004
+Assistant Psychologist,98.3,,19-3031,Felten-AIOE,medium,"19-3031 Clinical, Counseling, and School Psychologists: Performs psychologist tasks under supervision.",19-3031,True,98.3012,0.0012
+Assistant Town Planner,92.85,,19-3051,Felten-AIOE,high,19-3051 Urban and Regional Planners: Urban and regional planner.,19-3051,True,92.8492,0.0008
+Assistant Valuer,83.65,,13-2021,Felten-AIOE,high,13-2021 Appraisers and Assessors of Real Estate: Appraiser/assessor of real estate.,13-2021,True,83.6484,0.0016
+Barrister,95.26,,23-1011,Felten-AIOE,high,23-1011 Lawyers: Lawyer.,23-1011,True,95.2618,0.0018
+Behavioural Research Assistant,92.3,,19-4061,Felten-AIOE,high,19-4061 Social Science Research Assistants: Social science research assistant.,19-4061,True,92.3044,0.0044
+Behavioural Research Executive,97.6,,13-1161,Felten-AIOE,medium,13-1161 Market Research Analysts and Marketing Specialists: 'Research executive' is a market-research industry title.,13-1161,True,97.5959,0.0041
+Behavioural Scientist,95.24,,19-3099,Felten-AIOE,medium,"19-3099 Social Scientists and Related Workers, All Other: Social scientists and related workers, all other.",19-3099,True,95.2443,0.0043
+Behavioural Strategy Consultant,97.73,,13-1111,Felten-AIOE,medium,13-1111 Management Analysts: Management analyst / consultant.,13-1111,True,97.7308,0.0008
+Biochemical Engineer,95.56,,17-2041,Felten-AIOE,medium,17-2041 Chemical Engineers: Bioprocess engineering; closest cell is chemical engineers.,17-2041,True,95.5608,0.0008
+Biochemist,85.19,,19-1021,Felten-AIOE,high,19-1021 Biochemists and Biophysicists: Biochemists and biophysicists.,19-1021,True,85.1905,0.0005
+Business Analyst,97.73,,13-1111,Felten-AIOE,medium,13-1111 Management Analysts: Management analyst; an IT-BA reading would map to 15-1121.,13-1111,True,97.7308,0.0008
+Business Development Manager,93.77,,11-2022,Felten-AIOE,medium,11-2022 Sales Managers: Sales manager.,11-2022,True,93.7727,0.0027
+Business English Teacher,95.74,,25-3011,Felten-AIOE,medium,"25-3011 Adult Literacy, Remedial Education, and GED Teachers and Instructors: ESL/adult language instruction sits in SOC 25-3011.",25-3011,True,95.7422,0.0022
+Cadet Journalist,91.88,,27-3022,Felten-AIOE,high,27-3022 Reporters and Correspondents: Reporter/correspondent.,27-3022,True,91.8763,0.0037
+Cancer Genetic Counselor,100.0,,29-9092,Felten-AIOE,high,29-9092 Genetic Counselors: Genetic counselor.,29-9092,True,100.0,0.0
+Category Development Analyst,97.6,,13-1161,Felten-AIOE,medium,13-1161 Market Research Analysts and Marketing Specialists: Market research analyst / marketing specialist.,13-1161,True,97.5959,0.0041
+"Chapter Lead, Analytics and Insights",88.85,,11-3021,Felten-AIOE,medium,11-3021 Computer and Information Systems Managers: Leads an analytics discipline; computer and information systems manager.,11-3021,True,88.8547,0.0047
+Chief Executive Officer,95.39,,11-1011,Felten-AIOE,high,11-1011 Chief Executives: Chief executive.,11-1011,False,,
+Chief Operating Officer,95.39,,11-1011,Felten-AIOE,high,11-1011 Chief Executives: Chief executive.,11-1011,False,,
+Clinical Educator,75.92,,25-1072,Felten-AIOE,medium,"25-1072 Nursing Instructors and Teachers, Postsecondary: Hospital clinical educators are typically nurse educators.",25-1072,True,75.9234,0.0034
+Clinical Neuropsychologist,98.3,,19-3031,Felten-AIOE,high,"19-3031 Clinical, Counseling, and School Psychologists: Clinical/counseling/school psychologist.",19-3031,True,98.3012,0.0012
+Clinical Nurse Consultant,69.07,,29-1141,Felten-AIOE,high,29-1141 Registered Nurses: Registered nurse (advanced practice).,29-1141,True,69.0701,0.0001
+Clinical Nurse Specialist,69.07,,29-1141,Felten-AIOE,high,29-1141 Registered Nurses: Registered nurse (advanced practice).,29-1141,True,69.0701,0.0001
+Clinical Psychologist,98.3,,19-3031,Felten-AIOE,high,"19-3031 Clinical, Counseling, and School Psychologists: Clinical/counseling/school psychologist.",19-3031,True,98.3012,0.0012
+Clinical Trial Coordinator,95.24,,11-9121,Felten-AIOE,medium,11-9121 Natural Sciences Managers: O*NET places Clinical Research Coordinators (11-9121.01) under natural sciences managers.,11-9121,True,95.2409,0.0009
+Clinical and Team Lead Neuropsychology,98.3,,19-3031,Felten-AIOE,medium,"19-3031 Clinical, Counseling, and School Psychologists: Clinical psychologist with team-lead duties; SOC unchanged by seniority.",19-3031,True,98.3012,0.0012
+Cognitive Engineer,97.02,,19-3032,Felten-AIOE,low,19-3032 Industrial-Organizational Psychologists: Read as human-factors/behavioural role given the behavioural-science cluster; an engineering reading would map to 17-2112.,19-3032,True,97.0174,0.0026
+Communications & Policy Officer,94.22,,27-3031,Felten-AIOE,medium,27-3031 Public Relations Specialists: Public relations specialist.,27-3031,True,94.2169,0.0031
+Community Registered Nurse,69.07,,29-1141,Felten-AIOE,high,29-1141 Registered Nurses: Registered nurse.,29-1141,True,69.0701,0.0001
+Consultant,97.73,,13-1111,Felten-AIOE,medium,13-1111 Management Analysts: Generic consultant; management analyst is the default cell.,13-1111,True,97.7308,0.0008
+Contact Tracer,64.49,,21-1094,Felten-AIOE,medium,21-1094 Community Health Workers: Public-health fieldwork; community health worker.,21-1094,True,64.4891,0.0009
+Content Writer,87.14,,27-3043,Felten-AIOE,high,27-3043 Writers and Authors: Writers and authors.,27-3043,True,87.1412,0.0012
+Customer Insights Consultant,97.6,,13-1161,Felten-AIOE,medium,13-1161 Market Research Analysts and Marketing Specialists: Market research analyst.,13-1161,True,97.5959,0.0041
+Data Analyst,96.55,,15-2041,Felten-AIOE,medium,15-2041 Statisticians: Statisticians; SOC 2010 has no Data Scientist cell (15-2051 is SOC 2018).,15-2041,True,96.5469,0.0031
+Data Engineer,94.22,,15-1141,Felten-AIOE,medium,15-1141 Database Administrators: Database administrator is the closest SOC 2010 cell.,15-1141,True,94.2154,0.0046
+Data Science Consultant,96.55,,15-2041,Felten-AIOE,medium,15-2041 Statisticians: Statisticians; no SOC 2010 Data Scientist cell.,15-2041,True,96.5469,0.0031
+Data Science Lead,96.55,,15-2041,Felten-AIOE,medium,15-2041 Statisticians: Statisticians; seniority does not change SOC.,15-2041,True,96.5469,0.0031
+Data Scientist,96.55,,15-2041,Felten-AIOE,medium,15-2041 Statisticians: Statisticians; SOC 2010 has no Data Scientist cell (15-2051 is SOC 2018).,15-2041,True,96.5469,0.0031
+Dental Officer,59.28,,29-1021,Felten-AIOE,high,"29-1021 Dentists, General: Dentist, general.",29-1021,True,59.2846,0.0046
+Deputy Director of Medical Services,93.63,,11-9111,Felten-AIOE,high,11-9111 Medical and Health Services Managers: Medical and health services manager.,11-9111,True,93.6292,0.0008
+Design Director,87.97,,27-1011,Felten-AIOE,low,27-1011 Art Directors: Read as creative direction (art directors); an architecture reading would map to 17-1011.,27-1011,True,87.9651,0.0049
+Design Manager,83.55,,11-9041,Felten-AIOE,low,11-9041 Engineering Managers: Read as design-delivery management (engineering managers); ambiguous with creative design management.,11-9041,True,83.5457,0.0043
+Development Manager,88.12,,11-9021,Felten-AIOE,medium,11-9021 Construction Managers: Property development management; construction managers is the closest SOC cell.,11-9021,True,88.123,0.003
+Digital Content Officer,94.22,,27-3031,Felten-AIOE,medium,27-3031 Public Relations Specialists: Organisational content/communications; public relations specialist.,27-3031,True,94.2169,0.0031
+Digital Reporter,91.88,,27-3022,Felten-AIOE,high,27-3022 Reporters and Correspondents: Reporter/correspondent.,27-3022,True,91.8763,0.0037
+Director,95.39,,11-1011,Felten-AIOE,low,11-1011 Chief Executives: Bare title; read as company director (chief executives). Highly ambiguous.,11-1011,False,,
+Director of Clinical Development & Innovation,93.63,,11-9111,Felten-AIOE,medium,11-9111 Medical and Health Services Managers: Medical and health services manager.,11-9111,True,93.6292,0.0008
+Director of Learning and Teaching,98.42,,11-9033,Felten-AIOE,medium,"11-9033 Education Administrators, Postsecondary: Postsecondary education administrator.",11-9033,True,98.4153,0.0047
+Disability Support Worker,49.93,,39-9021,Felten-AIOE,medium,39-9021 Personal and Home Care Aides: Personal and home care aide.,39-9021,True,49.9349,0.0049
+ELICOS Teacher,95.74,,25-3011,Felten-AIOE,high,"25-3011 Adult Literacy, Remedial Education, and GED Teachers and Instructors: ESL/adult language instruction.",25-3011,True,95.7422,0.0022
+ESL Teacher,95.74,,25-3011,Felten-AIOE,high,"25-3011 Adult Literacy, Remedial Education, and GED Teachers and Instructors: ESL/adult language instruction.",25-3011,True,95.7422,0.0022
+Ecological Restoration Consultant,65.25,,19-1031,Felten-AIOE,medium,19-1031 Conservation Scientists: Conservation scientist.,19-1031,True,65.2493,0.0007
+Education Manager,72.04,,11-9039,Felten-AIOE,medium,"11-9039 Education Administrators, All Other: Education administrators, all other.",11-9039,True,72.0414,0.0014
+Education Officer,94.62,,25-9031,Felten-AIOE,medium,25-9031 Instructional Coordinators: Instructional coordinator.,25-9031,True,94.6202,0.0002
+Education Training and Workforce Developement Lead,94.2,,11-3131,Felten-AIOE,medium,11-3131 Training and Development Managers: Training and development manager.,11-3131,True,94.2049,0.0049
+Educational Consultant,94.62,,25-9031,Felten-AIOE,medium,25-9031 Instructional Coordinators: Instructional coordinator.,25-9031,True,94.6202,0.0002
+Educational Designer,94.62,,25-9031,Felten-AIOE,high,25-9031 Instructional Coordinators: Instructional coordinator (instructional design).,25-9031,True,94.6202,0.0002
+Endodontic Registrar,59.28,,29-1021,Felten-AIOE,medium,"29-1021 Dentists, General: SOC 2010 has no dental-specialist-nec cell; imputed from dentists, general.",29-1021,True,59.2846,0.0046
+Endodontist,59.28,,29-1021,Felten-AIOE,medium,"29-1021 Dentists, General: SOC 2010 has no dental-specialist-nec cell; imputed from dentists, general.",29-1021,True,59.2846,0.0046
+English Language Teacher,95.74,,25-3011,Felten-AIOE,high,"25-3011 Adult Literacy, Remedial Education, and GED Teachers and Instructors: ESL/adult language instruction.",25-3011,True,95.7422,0.0022
+English Second Language Teacher,95.74,,25-3011,Felten-AIOE,high,"25-3011 Adult Literacy, Remedial Education, and GED Teachers and Instructors: ESL/adult language instruction.",25-3011,True,95.7422,0.0022
+English for Academic Purposes Teacher,95.74,,25-3011,Felten-AIOE,high,"25-3011 Adult Literacy, Remedial Education, and GED Teachers and Instructors: ESL/adult language instruction.",25-3011,True,95.7422,0.0022
+Environment Adviser,87.77,,19-2041,Felten-AIOE,medium,"19-2041 Environmental Scientists and Specialists, Including Health: Environmental scientist/specialist.",19-2041,True,87.765,0.005
+Environmental Consultant,87.77,,19-2041,Felten-AIOE,high,"19-2041 Environmental Scientists and Specialists, Including Health: Environmental scientist/specialist.",19-2041,True,87.765,0.005
+Environmental Officer,87.77,,19-2041,Felten-AIOE,medium,"19-2041 Environmental Scientists and Specialists, Including Health: Environmental scientist/specialist.",19-2041,True,87.765,0.005
+Environmental Planner,92.85,,19-3051,Felten-AIOE,medium,19-3051 Urban and Regional Planners: Urban and regional planner (environmental planning).,19-3051,True,92.8492,0.0008
+Environmental Scientist,87.77,,19-2041,Felten-AIOE,high,"19-2041 Environmental Scientists and Specialists, Including Health: Environmental scientist/specialist.",19-2041,True,87.765,0.005
+Environmental Technician,64.01,,19-4091,Felten-AIOE,high,"19-4091 Environmental Science and Protection Technicians, Including Health: Environmental science and protection technician.",19-4091,True,64.0084,0.0016
+"Ethical, Legal & Social Adviser",95.24,,19-3099,Felten-AIOE,low,"19-3099 Social Scientists and Related Workers, All Other: ELSI/bioethics adviser; social scientists, all other. Could alternatively read as legal.",19-3099,True,95.2443,0.0043
+Exercise Physiologist,62.81,,29-1128,Felten-AIOE,high,29-1128 Exercise Physiologists: Exercise physiologist.,29-1128,True,62.8139,0.0039
+Financial Analyst,96.5,,13-2051,Felten-AIOE,high,13-2051 Financial Analysts: Financial analyst.,13-2051,True,96.4966,0.0034
+Food Analyst,65.89,,19-4011,Felten-AIOE,medium,19-4011 Agricultural and Food Science Technicians: Agricultural and food science technician.,19-4011,True,65.8851,0.0049
+Food Microbiology Analyst,65.89,,19-4011,Felten-AIOE,medium,19-4011 Agricultural and Food Science Technicians: Food-lab analyst; agricultural and food science technician.,19-4011,True,65.8851,0.0049
+Food Technologist,82.53,,19-1012,Felten-AIOE,high,19-1012 Food Scientists and Technologists: Food scientist and technologist.,19-1012,True,82.5295,0.0005
+Freelance Journalist,91.88,,27-3022,Felten-AIOE,high,27-3022 Reporters and Correspondents: Reporter/correspondent.,27-3022,True,91.8763,0.0037
+Full Stack Developer,92.22,,15-1132,Felten-AIOE,medium,"15-1132 Software Developers, Applications: Applications software developer; a web-specific reading would map to 15-1134.",15-1132,True,92.2156,0.0044
+General Dentist,59.28,,29-1021,Felten-AIOE,high,"29-1021 Dentists, General: Dentist, general.",29-1021,True,59.2846,0.0046
+General English Teacher,95.74,,25-3011,Felten-AIOE,high,"25-3011 Adult Literacy, Remedial Education, and GED Teachers and Instructors: ESL/adult language instruction.",25-3011,True,95.7422,0.0022
+General Manager,77.3,,11-1021,Felten-AIOE,high,11-1021 General and Operations Managers: General and operations manager.,11-1021,True,77.3006,0.0006
+General Practitioner,88.19,,29-1062,Felten-AIOE,high,29-1062 Family and General Practitioners: Family and general practitioner.,29-1062,True,88.1894,0.0006
+Genetic Counsellor,100.0,,29-9092,Felten-AIOE,high,29-9092 Genetic Counselors: Genetic counselor.,29-9092,True,100.0,0.0
+Genetics Education Officer,94.62,,25-9031,Felten-AIOE,low,25-9031 Instructional Coordinators: Education/outreach role in genomics; instructional coordinator.,25-9031,True,94.6202,0.0002
+Genomic Education Development Lead,94.62,,25-9031,Felten-AIOE,low,25-9031 Instructional Coordinators: Education/outreach role in genomics; instructional coordinator.,25-9031,True,94.6202,0.0002
+Graduate Analyst,97.73,,13-1111,Felten-AIOE,low,13-1111 Management Analysts: Bare 'analyst' title; management analyst as default.,13-1111,True,97.7308,0.0008
+Graduate Environmental Consultant,87.77,,19-2041,Felten-AIOE,high,"19-2041 Environmental Scientists and Specialists, Including Health: Environmental scientist/specialist.",19-2041,True,87.765,0.005
+Graduate Environmental Scientist,87.77,,19-2041,Felten-AIOE,high,"19-2041 Environmental Scientists and Specialists, Including Health: Environmental scientist/specialist.",19-2041,True,87.765,0.005
+Graduate Nurse,69.07,,29-1141,Felten-AIOE,high,29-1141 Registered Nurses: Registered nurse.,29-1141,True,69.0701,0.0001
+Graduate Planner,92.85,,19-3051,Felten-AIOE,high,19-3051 Urban and Regional Planners: Urban and regional planner.,19-3051,True,92.8492,0.0008
+Graduate Policy and Advocacy Officer,97.41,,19-3094,Felten-AIOE,medium,19-3094 Political Scientists: Policy analysis maps to political scientists in SOC.,19-3094,True,97.4078,0.0022
+Graduate Software Engineer,92.22,,15-1132,Felten-AIOE,high,"15-1132 Software Developers, Applications: Applications software developer.",15-1132,True,92.2156,0.0044
+Graduate Technician,68.23,,17-3029,Felten-AIOE,low,"17-3029 Engineering Technicians, Except Drafters, All Other: Bare 'technician' title; engineering technicians, all other.",17-3029,True,68.2296,0.0004
+Graduate Technology Risk Consultant,93.39,,15-1122,Felten-AIOE,medium,15-1122 Information Security Analysts: Information security analyst (technology risk).,15-1122,True,93.3883,0.0017
+Graduate Town Planner,92.85,,19-3051,Felten-AIOE,high,19-3051 Urban and Regional Planners: Urban and regional planner.,19-3051,True,92.8492,0.0008
+Graduate Urban Planner,92.85,,19-3051,Felten-AIOE,high,19-3051 Urban and Regional Planners: Urban and regional planner.,19-3051,True,92.8492,0.0008
+Graduate Valuer,83.65,,13-2021,Felten-AIOE,high,13-2021 Appraisers and Assessors of Real Estate: Appraiser/assessor of real estate.,13-2021,True,83.6484,0.0016
+Graduate Zoologist,71.17,,19-1023,Felten-AIOE,high,19-1023 Zoologists and Wildlife Biologists: Zoologist/wildlife biologist.,19-1023,True,71.1711,0.0011
+Head Of Research And Development,95.24,,11-9121,Felten-AIOE,medium,11-9121 Natural Sciences Managers: Natural sciences manager.,11-9121,True,95.2409,0.0009
+Head Teacher,72.04,,11-9039,Felten-AIOE,low,"11-9039 Education Administrators, All Other: Read as language-centre/adult-education head (education administrators, all other); a school reading would map to 11-9032.",11-9039,True,72.0414,0.0014
+Head of Quality Department,75.72,,11-3051,Felten-AIOE,medium,11-3051 Industrial Production Managers: O*NET places Quality Control Systems Managers (11-3051.01) under industrial production managers.,11-3051,True,75.7237,0.0037
+Health Promotion Officer,80.08,,21-1091,Felten-AIOE,high,21-1091 Health Educators: Health educator.,21-1091,True,80.0828,0.0028
+Healthcare Manager,93.63,,11-9111,Felten-AIOE,high,11-9111 Medical and Health Services Managers: Medical and health services manager.,11-9111,True,93.6292,0.0008
+Hospital Medical Officer,80.49,,29-1069,Felten-AIOE,medium,"29-1069 Physicians and Surgeons, All Other: Junior hospital doctor; physicians and surgeons, all other.",29-1069,True,80.4867,0.0033
+IELTS Trainer,95.74,,25-3011,Felten-AIOE,high,"25-3011 Adult Literacy, Remedial Education, and GED Teachers and Instructors: ESL/adult language instruction.",25-3011,True,95.7422,0.0022
+IT Support Officer,70.74,,15-1151,Felten-AIOE,high,15-1151 Computer User Support Specialists: Computer user support specialist.,15-1151,True,70.7362,0.0038
+Information Technology Graduate,92.97,,15-1199,Felten-AIOE,medium,"15-1199 Computer Occupations, All Other: Computer occupations, all other.",15-1199,True,92.9728,0.0028
+Instructional Designer,94.62,,25-9031,Felten-AIOE,high,25-9031 Instructional Coordinators: Instructional coordinator.,25-9031,True,94.6202,0.0002
+Intensive Care Nurse,69.07,,29-1141,Felten-AIOE,high,29-1141 Registered Nurses: Registered nurse.,29-1141,True,69.0701,0.0001
+Interior Architect,90.33,,27-1025,Felten-AIOE,medium,27-1025 Interior Designers: Interior designer.,27-1025,True,90.3277,0.0023
+Investment Manager,98.06,,11-3031,Felten-AIOE,medium,11-3031 Financial Managers: O*NET places Investment Fund Managers (11-3031.03) under financial managers.,11-3031,True,98.0599,0.0001
+Journalist,91.88,,27-3022,Felten-AIOE,high,27-3022 Reporters and Correspondents: Reporter/correspondent.,27-3022,True,91.8763,0.0037
+Junior Doctor,80.49,,29-1069,Felten-AIOE,medium,"29-1069 Physicians and Surgeons, All Other: Physicians and surgeons, all other.",29-1069,True,80.4867,0.0033
+Laboratory Manager,95.24,,11-9121,Felten-AIOE,medium,11-9121 Natural Sciences Managers: Natural sciences manager.,11-9121,True,95.2409,0.0009
+Laboratory Technician,74.33,,19-4099,Felten-AIOE,medium,"19-4099 Life, Physical, and Social Science Technicians, All Other: Bare 'lab technician'; life/physical/social science technicians, all other.",19-4099,True,74.328,0.002
+Law Clerk,94.39,,23-2011,Felten-AIOE,medium,"23-2011 Paralegals and Legal Assistants: AU 'law clerk' is a law-firm paralegal role, not a US judicial clerk (23-1012).",23-2011,True,94.3867,0.0033
+Law Graduate,95.26,,23-1011,Felten-AIOE,medium,23-1011 Lawyers: Entry-level lawyer.,23-1011,True,95.2618,0.0018
+Lawyer,95.26,,23-1011,Felten-AIOE,high,23-1011 Lawyers: Lawyer.,23-1011,True,95.2618,0.0018
+Learning Designer,94.62,,25-9031,Felten-AIOE,high,25-9031 Instructional Coordinators: Instructional coordinator.,25-9031,True,94.6202,0.0002
+Learning Specialist,94.62,,25-9031,Felten-AIOE,low,25-9031 Instructional Coordinators: Instructional coordinator; ambiguous with the Victorian school 'Learning Specialist' teacher role (25-2031).,25-9031,True,94.6202,0.0002
+Learning and Teaching Support Manager,98.42,,11-9033,Felten-AIOE,medium,"11-9033 Education Administrators, Postsecondary: Postsecondary education administrator.",11-9033,True,98.4153,0.0047
+Lecturer,92.5,,,Felten-AIOE (family-mean imputation),low,unmatched -> imputed: No single SOC cell for a discipline-agnostic lecturer; imputed from the postsecondary-teacher family. (mean of SOC 25-1xxx postsecondary teachers (n=35)),nan,False,,
+Lecturer in Genetic Counselling,85.64,,25-1071,Felten-AIOE,medium,"25-1071 Health Specialties Teachers, Postsecondary: Health specialties teacher, postsecondary.",25-1071,True,85.6361,0.0039
+Legal Analyst,94.39,,23-2011,Felten-AIOE,medium,23-2011 Paralegals and Legal Assistants: Paralegal/legal assistant.,23-2011,True,94.3867,0.0033
+Legal Assistant,94.39,,23-2011,Felten-AIOE,high,23-2011 Paralegals and Legal Assistants: Paralegal/legal assistant.,23-2011,True,94.3867,0.0033
+Legal Counsel,95.26,,23-1011,Felten-AIOE,high,23-1011 Lawyers: In-house lawyer.,23-1011,True,95.2618,0.0018
+Legal Officer,95.26,,23-1011,Felten-AIOE,medium,23-1011 Lawyers: Lawyer.,23-1011,True,95.2618,0.0018
+Machine Learning Engineer,91.1,,15-1111,Felten-AIOE,medium,15-1111 Computer and Information Research Scientists: Computer and information research scientist; closest SOC 2010 cell for ML engineering.,15-1111,True,91.1041,0.0041
+Management Consultant,97.73,,13-1111,Felten-AIOE,high,13-1111 Management Analysts: Management analyst.,13-1111,True,97.7308,0.0008
+"Manager, Science & Regulatory",95.24,,11-9121,Felten-AIOE,medium,11-9121 Natural Sciences Managers: Natural sciences manager.,11-9121,True,95.2409,0.0009
+Managing Editor,90.48,,27-3041,Felten-AIOE,high,27-3041 Editors: Editor.,27-3041,True,90.4835,0.0035
+Market Research Assistant,97.6,,13-1161,Felten-AIOE,medium,13-1161 Market Research Analysts and Marketing Specialists: Market research analyst.,13-1161,True,97.5959,0.0041
+Media and Communications Coordinator,94.22,,27-3031,Felten-AIOE,high,27-3031 Public Relations Specialists: Public relations specialist.,27-3031,True,94.2169,0.0031
+Medical Director,93.63,,11-9111,Felten-AIOE,medium,11-9111 Medical and Health Services Managers: Medical and health services manager.,11-9111,True,93.6292,0.0008
+Medical Intern,80.49,,29-1069,Felten-AIOE,medium,"29-1069 Physicians and Surgeons, All Other: Physicians and surgeons, all other.",29-1069,True,80.4867,0.0033
+Medical Laboratory Scientist,70.32,,29-2011,Felten-AIOE,high,29-2011 Medical and Clinical Laboratory Technologists: Medical and clinical laboratory technologist.,29-2011,True,70.3185,0.0015
+Medical Project Analyst,97.73,,13-1111,Felten-AIOE,low,13-1111 Management Analysts: Analyst role in a health setting; management analyst as default.,13-1111,True,97.7308,0.0008
+Medical Surgical Nurse,69.07,,29-1141,Felten-AIOE,high,29-1141 Registered Nurses: Registered nurse.,29-1141,True,69.0701,0.0001
+Mental Health Nurse,69.07,,29-1141,Felten-AIOE,high,29-1141 Registered Nurses: Registered nurse.,29-1141,True,69.0701,0.0001
+Microbiologist,80.18,,19-1022,Felten-AIOE,high,19-1022 Microbiologists: Microbiologist.,19-1022,True,80.1759,0.0041
+New Product Development Technologist,82.53,,19-1012,Felten-AIOE,medium,19-1012 Food Scientists and Technologists: Food scientist and technologist (NPD in food manufacturing).,19-1012,True,82.5295,0.0005
+News Editor,90.48,,27-3041,Felten-AIOE,high,27-3041 Editors: Editor.,27-3041,True,90.4835,0.0035
+News Reporter,91.88,,27-3022,Felten-AIOE,high,27-3022 Reporters and Correspondents: Reporter/correspondent.,27-3022,True,91.8763,0.0037
+Nurse Coordinator,69.07,,29-1141,Felten-AIOE,medium,29-1141 Registered Nurses: Registered nurse with coordination duties.,29-1141,True,69.0701,0.0001
+Nutritionist,95.6,,29-1031,Felten-AIOE,high,29-1031 Dietitians and Nutritionists: Dietitian and nutritionist.,29-1031,True,95.5959,0.0041
+Operations Manager,77.3,,11-1021,Felten-AIOE,high,11-1021 General and Operations Managers: General and operations manager.,11-1021,True,77.3006,0.0006
+Oral Medicine Specialist,59.28,,29-1021,Felten-AIOE,medium,"29-1021 Dentists, General: SOC 2010 has no dental-specialist-nec cell; imputed from dentists, general.",29-1021,True,59.2846,0.0046
+Orthodontic Resident,67.46,,29-1023,Felten-AIOE,medium,29-1023 Orthodontists: Orthodontist in training.,29-1023,True,67.4561,0.0039
+Orthodontist,67.46,,29-1023,Felten-AIOE,high,29-1023 Orthodontists: Orthodontist.,29-1023,True,67.4561,0.0039
+Paediatric Dental Registrar,59.28,,29-1021,Felten-AIOE,medium,"29-1021 Dentists, General: SOC 2010 has no paediatric-dentist cell; imputed from dentists, general.",29-1021,True,59.2846,0.0046
+Paediatric Dentist,59.28,,29-1021,Felten-AIOE,medium,"29-1021 Dentists, General: SOC 2010 has no paediatric-dentist cell; imputed from dentists, general.",29-1021,True,59.2846,0.0046
+Paediatric Dentistry Registrar,59.28,,29-1021,Felten-AIOE,medium,"29-1021 Dentists, General: SOC 2010 has no paediatric-dentist cell; imputed from dentists, general.",29-1021,True,59.2846,0.0046
+Paralegal,94.39,,23-2011,Felten-AIOE,high,23-2011 Paralegals and Legal Assistants: Paralegal/legal assistant.,23-2011,True,94.3867,0.0033
+Patent Analyst,88.56,,13-1199,Felten-AIOE,low,"13-1199 Business Operations Specialists, All Other: Prior-art/IP analysis; business operations specialists, all other.",13-1199,True,88.5649,0.0049
+Periodontist,59.28,,29-1021,Felten-AIOE,medium,"29-1021 Dentists, General: SOC 2010 has no dental-specialist-nec cell; imputed from dentists, general.",29-1021,True,59.2846,0.0046
+Physiotherapist,55.07,,29-1123,Felten-AIOE,high,29-1123 Physical Therapists: Physical therapist.,29-1123,True,55.071,0.001
+Physiotherapy Assistant,50.96,,31-2021,Felten-AIOE,high,31-2021 Physical Therapist Assistants: Physical therapist assistant.,31-2021,True,50.9575,0.0025
+Planning Assistant,92.85,,19-3051,Felten-AIOE,medium,19-3051 Urban and Regional Planners: Urban and regional planner (assistant grade).,19-3051,True,92.8492,0.0008
+Policy Adviser,97.41,,19-3094,Felten-AIOE,medium,19-3094 Political Scientists: Policy analysis maps to political scientists in SOC.,19-3094,True,97.4078,0.0022
+Policy Analyst,97.41,,19-3094,Felten-AIOE,medium,19-3094 Political Scientists: Policy analysis maps to political scientists in SOC.,19-3094,True,97.4078,0.0022
+Policy Officer,97.41,,19-3094,Felten-AIOE,medium,19-3094 Political Scientists: Policy analysis maps to political scientists in SOC.,19-3094,True,97.4078,0.0022
+Policy Planner,92.85,,19-3051,Felten-AIOE,medium,19-3051 Urban and Regional Planners: Urban and regional planner (policy planning).,19-3051,True,92.8492,0.0008
+Policy and Program Officer,97.41,,19-3094,Felten-AIOE,medium,19-3094 Political Scientists: Policy analysis maps to political scientists in SOC.,19-3094,True,97.4078,0.0022
+Portfolio Manager,98.06,,11-3031,Felten-AIOE,medium,11-3031 Financial Managers: O*NET places Investment Fund Managers (11-3031.03) under financial managers.,11-3031,True,98.0599,0.0001
+Practice Development Nurse,69.07,,29-1141,Felten-AIOE,medium,29-1141 Registered Nurses: Registered nurse (practice development).,29-1141,True,69.0701,0.0001
+Practice Manager,93.63,,11-9111,Felten-AIOE,medium,11-9111 Medical and Health Services Managers: Medical/dental practice manager.,11-9111,True,93.6292,0.0008
+Principal Architect,88.55,,17-1011,Felten-AIOE,high,"17-1011 Architects, Except Landscape and Naval: Architect; seniority does not change SOC.",17-1011,True,88.5519,0.0019
+Principal Dentist,59.28,,29-1021,Felten-AIOE,high,"29-1021 Dentists, General: Dentist, general.",29-1021,True,59.2846,0.0046
+Principal Genetic Counsellor,100.0,,29-9092,Felten-AIOE,high,29-9092 Genetic Counselors: Genetic counselor.,29-9092,True,100.0,0.0
+Principal Physiotherapist,55.07,,29-1123,Felten-AIOE,high,29-1123 Physical Therapists: Physical therapist.,29-1123,True,55.071,0.001
+Principal Planner,92.85,,19-3051,Felten-AIOE,high,19-3051 Urban and Regional Planners: Urban and regional planner.,19-3051,True,92.8492,0.0008
+Producer,85.97,,27-2012,Felten-AIOE,high,27-2012 Producers and Directors: Producers and directors.,27-2012,True,85.971,0.001
+Product Development Manager,83.55,,11-9041,Felten-AIOE,low,11-9041 Engineering Managers: Engineering manager; ambiguous with marketing-side product management (11-2021).,11-9041,True,83.5457,0.0043
+Product Development Technologist,82.53,,19-1012,Felten-AIOE,medium,19-1012 Food Scientists and Technologists: Food scientist and technologist.,19-1012,True,82.5295,0.0005
+Product Manager,94.93,,11-2021,Felten-AIOE,medium,11-2021 Marketing Managers: Marketing manager is the standard SOC 2010 home for product management.,11-2021,True,94.9342,0.0042
+Program Director,86.59,,11-9199,Felten-AIOE,low,"11-9199 Managers, All Other: Bare 'director' of a program; managers, all other.",11-9199,True,86.5875,0.0025
+Program Manager,86.59,,11-9199,Felten-AIOE,medium,"11-9199 Managers, All Other: Managers, all other; SOC 2018's 13-1082 has no AIOE cell.",11-9199,True,86.5875,0.0025
+Project Architect,88.55,,17-1011,Felten-AIOE,high,"17-1011 Architects, Except Landscape and Naval: Architect.",17-1011,True,88.5519,0.0019
+Project Coordinator,88.56,,13-1199,Felten-AIOE,medium,"13-1199 Business Operations Specialists, All Other: Business operations specialists, all other.",13-1199,True,88.5649,0.0049
+Project Manager,86.59,,11-9199,Felten-AIOE,medium,"11-9199 Managers, All Other: Managers, all other; SOC 2018's 13-1082 (Project Management Specialists) has no AIOE cell.",11-9199,True,86.5875,0.0025
+Project Officer,88.56,,13-1199,Felten-AIOE,medium,"13-1199 Business Operations Specialists, All Other: Business operations specialists, all other.",13-1199,True,88.5649,0.0049
+"Project Officer, Social Policy",97.41,,19-3094,Felten-AIOE,medium,19-3094 Political Scientists: Policy analysis maps to political scientists in SOC.,19-3094,True,97.4078,0.0022
+Property Analyst,96.5,,13-2051,Felten-AIOE,low,13-2051 Financial Analysts: Property investment/market analysis; financial analyst. Could read as 13-2021.,13-2051,True,96.4966,0.0034
+Property Graduate,92.56,,11-9141,Felten-AIOE,low,"11-9141 Property, Real Estate, and Community Association Managers: Generic property-industry entry role.",11-9141,True,92.5604,0.0004
+Property Manager,92.56,,11-9141,Felten-AIOE,high,"11-9141 Property, Real Estate, and Community Association Managers: Property, real estate and community association manager.",11-9141,True,92.5604,0.0004
+Prosthodontist,59.88,,29-1024,Felten-AIOE,high,29-1024 Prosthodontists: Prosthodontist.,29-1024,True,59.8848,0.0048
+Provisional Psychologist,98.3,,19-3031,Felten-AIOE,high,"19-3031 Clinical, Counseling, and School Psychologists: Psychologist under provisional registration.",19-3031,True,98.3012,0.0012
+Psychiatry Registrar,94.12,,29-1066,Felten-AIOE,high,29-1066 Psychiatrists: Psychiatrist in training.,29-1066,True,94.1175,0.0025
+Psychologist,98.3,,19-3031,Felten-AIOE,high,"19-3031 Clinical, Counseling, and School Psychologists: Clinical/counseling/school psychologist.",19-3031,True,98.3012,0.0012
+Psychologist (Clinical Psychology Registrar),98.3,,19-3031,Felten-AIOE,high,"19-3031 Clinical, Counseling, and School Psychologists: Clinical psychologist in training.",19-3031,True,98.3012,0.0012
+Psychology Research Assistant,92.3,,19-4061,Felten-AIOE,high,19-4061 Social Science Research Assistants: Social science research assistant.,19-4061,True,92.3044,0.0044
+Psychology Team Leader,98.3,,19-3031,Felten-AIOE,medium,"19-3031 Clinical, Counseling, and School Psychologists: Psychologist with team-lead duties.",19-3031,True,98.3012,0.0012
+Public Health Officer,80.08,,21-1091,Felten-AIOE,medium,21-1091 Health Educators: Health educator; an epidemiology reading would map to 19-1041.,21-1091,True,80.0828,0.0028
+Quality Assurance Manager,75.72,,11-3051,Felten-AIOE,medium,11-3051 Industrial Production Managers: O*NET places Quality Control Systems Managers (11-3051.01) under industrial production managers.,11-3051,True,75.7237,0.0037
+Quality Assurance Officer,65.89,,19-4011,Felten-AIOE,low,19-4011 Agricultural and Food Science Technicians: Read as food/manufacturing QA (agricultural and food science technician).,19-4011,True,65.8851,0.0049
+Quality Control Technician,65.89,,19-4011,Felten-AIOE,medium,19-4011 Agricultural and Food Science Technicians: Food/lab QC; agricultural and food science technician.,19-4011,True,65.8851,0.0049
+Quantitative Trader,93.53,,41-3031,Felten-AIOE,medium,"41-3031 Securities, Commodities, and Financial Services Sales Agents: O*NET places Securities and Commodities Traders (41-3031.01) here.",41-3031,True,93.5349,0.0049
+Refugee Education Program Coordinator,91.15,,11-9151,Felten-AIOE,medium,11-9151 Social and Community Service Managers: Social and community service manager.,11-9151,True,91.149,0.001
+Registered Architect,88.55,,17-1011,Felten-AIOE,high,"17-1011 Architects, Except Landscape and Naval: Architect.",17-1011,True,88.5519,0.0019
+Registered Nurse,69.07,,29-1141,Felten-AIOE,high,29-1141 Registered Nurses: Registered nurse.,29-1141,True,69.0701,0.0001
+Registered Nurse Emergency Department,69.07,,29-1141,Felten-AIOE,high,29-1141 Registered Nurses: Registered nurse.,29-1141,True,69.0701,0.0001
+Regulatory Affairs Specialist,80.24,,13-1041,Felten-AIOE,medium,"13-1041 Compliance Officers, Except Agriculture, Construction, Health and Safety, and Transportation: Compliance officer.",13-1041,True,80.2368,0.0032
+Rehabilitation Consultant,75.58,,21-1015,Felten-AIOE,medium,21-1015 Rehabilitation Counselors: Rehabilitation counselor.,21-1015,True,75.5763,0.0037
+Reporter,91.88,,27-3022,Felten-AIOE,high,27-3022 Reporters and Correspondents: Reporter/correspondent.,27-3022,True,91.8763,0.0037
+Research And Development Assistant,65.89,,19-4011,Felten-AIOE,low,19-4011 Agricultural and Food Science Technicians: R&D lab support in a food/product setting.,19-4011,True,65.8851,0.0049
+Research And Development Technologist,82.53,,19-1012,Felten-AIOE,medium,19-1012 Food Scientists and Technologists: Food scientist and technologist.,19-1012,True,82.5295,0.0005
+Research Assistant,92.3,,19-4061,Felten-AIOE,medium,19-4061 Social Science Research Assistants: Social science research assistant; a wet-lab RA would map to 19-4021.,19-4061,True,92.3044,0.0044
+Research Consultant,97.6,,13-1161,Felten-AIOE,low,13-1161 Market Research Analysts and Marketing Specialists: Read as market/social research consultancy; market research analyst.,13-1161,True,97.5959,0.0041
+Research Executive,97.6,,13-1161,Felten-AIOE,medium,13-1161 Market Research Analysts and Marketing Specialists: 'Research executive' is a market-research industry title.,13-1161,True,97.5959,0.0041
+Research Fellow,91.95,,,Felten-AIOE (family-mean imputation),low,"unmatched -> imputed: Discipline-agnostic academic researcher; imputed from the 'scientists, all other' family. (mean of SOC 19-1029/19-1042/19-2099/19-3099 'scientists, all other' (n=4))",nan,False,,
+Research Genetic Counsellor,100.0,,29-9092,Felten-AIOE,high,29-9092 Genetic Counselors: Genetic counselor.,29-9092,True,100.0,0.0
+Research Implementation Lead,95.24,,11-9121,Felten-AIOE,low,11-9121 Natural Sciences Managers: Natural sciences manager (research translation).,11-9121,True,95.2409,0.0009
+Research Officer,92.3,,19-4061,Felten-AIOE,low,19-4061 Social Science Research Assistants: Research support grade; social science research assistant.,19-4061,True,92.3044,0.0044
+Research Psychologist,96.72,,19-3039,Felten-AIOE,medium,"19-3039 Psychologists, All Other: Psychologists, all other.",19-3039,True,96.7167,0.0033
+Research Scientist,91.95,,,Felten-AIOE (family-mean imputation),low,"unmatched -> imputed: Discipline-agnostic research scientist; imputed from the 'scientists, all other' family. (mean of SOC 19-1029/19-1042/19-2099/19-3099 'scientists, all other' (n=4))",nan,False,,
+Resident Medical Officer,80.49,,29-1069,Felten-AIOE,medium,"29-1069 Physicians and Surgeons, All Other: Physicians and surgeons, all other.",29-1069,True,80.4867,0.0033
+School Improvement Program Advisor,94.62,,25-9031,Felten-AIOE,medium,25-9031 Instructional Coordinators: Instructional coordinator.,25-9031,True,94.6202,0.0002
+School Psychologist,98.3,,19-3031,Felten-AIOE,high,"19-3031 Clinical, Counseling, and School Psychologists: Clinical/counseling/school psychologist.",19-3031,True,98.3012,0.0012
+Seasonal Clerk,87.16,,43-9061,Felten-AIOE,low,"43-9061 Office Clerks, General: Bare clerical title; office clerks, general.",43-9061,True,87.1643,0.0043
+Senior Analytics Consultant,96.55,,15-2041,Felten-AIOE,low,15-2041 Statisticians: Analytics/statistical consulting; no SOC 2010 Data Scientist cell.,15-2041,True,96.5469,0.0031
+Senior Architect,88.55,,17-1011,Felten-AIOE,high,"17-1011 Architects, Except Landscape and Naval: Architect.",17-1011,True,88.5519,0.0019
+Senior Behavioural Scientist,95.24,,19-3099,Felten-AIOE,medium,"19-3099 Social Scientists and Related Workers, All Other: Social scientists and related workers, all other.",19-3099,True,95.2443,0.0043
+Senior Behavioural Strategy Consultant,97.73,,13-1111,Felten-AIOE,medium,13-1111 Management Analysts: Management analyst.,13-1111,True,97.7308,0.0008
+Senior Behavioural Strategy Manager,97.73,,13-1111,Felten-AIOE,low,13-1111 Management Analysts: Management analyst; managerial reading would shift to 11-9199.,13-1111,True,97.7308,0.0008
+Senior Business Analyst,97.73,,13-1111,Felten-AIOE,medium,13-1111 Management Analysts: Management analyst.,13-1111,True,97.7308,0.0008
+Senior Clinical Neuropsychologist,98.3,,19-3031,Felten-AIOE,high,"19-3031 Clinical, Counseling, and School Psychologists: Clinical psychologist.",19-3031,True,98.3012,0.0012
+Senior Clinical Research Nurse,69.07,,29-1141,Felten-AIOE,high,29-1141 Registered Nurses: Registered nurse.,29-1141,True,69.0701,0.0001
+Senior Consultant,97.73,,13-1111,Felten-AIOE,medium,13-1111 Management Analysts: Management analyst.,13-1111,True,97.7308,0.0008
+Senior Data Engineer,94.22,,15-1141,Felten-AIOE,medium,15-1141 Database Administrators: Database administrator is the closest SOC 2010 cell.,15-1141,True,94.2154,0.0046
+Senior Data Scientist,96.55,,15-2041,Felten-AIOE,medium,15-2041 Statisticians: Statisticians; no SOC 2010 Data Scientist cell.,15-2041,True,96.5469,0.0031
+Senior Developer,92.22,,15-1132,Felten-AIOE,medium,"15-1132 Software Developers, Applications: Applications software developer.",15-1132,True,92.2156,0.0044
+Senior Development Manager,88.12,,11-9021,Felten-AIOE,medium,11-9021 Construction Managers: Property development management.,11-9021,True,88.123,0.003
+Senior Educational Psychologist,98.3,,19-3031,Felten-AIOE,high,"19-3031 Clinical, Counseling, and School Psychologists: Clinical/counseling/school psychologist.",19-3031,True,98.3012,0.0012
+Senior Environmental Advisor,87.77,,19-2041,Felten-AIOE,medium,"19-2041 Environmental Scientists and Specialists, Including Health: Environmental scientist/specialist.",19-2041,True,87.765,0.005
+Senior Lawyer,95.26,,23-1011,Felten-AIOE,high,23-1011 Lawyers: Lawyer.,23-1011,True,95.2618,0.0018
+Senior Lecturer,92.5,,,Felten-AIOE (family-mean imputation),low,unmatched -> imputed: No single SOC cell for a discipline-agnostic lecturer; imputed from the postsecondary-teacher family. (mean of SOC 25-1xxx postsecondary teachers (n=35)),nan,False,,
+Senior Legal Counsel,95.26,,23-1011,Felten-AIOE,high,23-1011 Lawyers: In-house lawyer.,23-1011,True,95.2618,0.0018
+Senior Physiotherapist,55.07,,29-1123,Felten-AIOE,high,29-1123 Physical Therapists: Physical therapist.,29-1123,True,55.071,0.001
+Senior Planner,92.85,,19-3051,Felten-AIOE,high,19-3051 Urban and Regional Planners: Urban and regional planner.,19-3051,True,92.8492,0.0008
+Senior Policy Officer,97.41,,19-3094,Felten-AIOE,medium,19-3094 Political Scientists: Policy analysis maps to political scientists in SOC.,19-3094,True,97.4078,0.0022
+Senior Project Coordinator,88.56,,13-1199,Felten-AIOE,medium,"13-1199 Business Operations Specialists, All Other: Business operations specialists, all other.",13-1199,True,88.5649,0.0049
+Senior Project Manager,86.59,,11-9199,Felten-AIOE,medium,"11-9199 Managers, All Other: Managers, all other.",11-9199,True,86.5875,0.0025
+Senior Project Officer,88.56,,13-1199,Felten-AIOE,medium,"13-1199 Business Operations Specialists, All Other: Business operations specialists, all other.",13-1199,True,88.5649,0.0049
+Senior Rehabilitation Psychologist,96.72,,19-3039,Felten-AIOE,medium,"19-3039 Psychologists, All Other: Psychologists, all other.",19-3039,True,96.7167,0.0033
+Senior Reporter,91.88,,27-3022,Felten-AIOE,high,27-3022 Reporters and Correspondents: Reporter/correspondent.,27-3022,True,91.8763,0.0037
+Senior Research Fellow,91.95,,,Felten-AIOE (family-mean imputation),low,"unmatched -> imputed: Discipline-agnostic academic researcher; imputed from the 'scientists, all other' family. (mean of SOC 19-1029/19-1042/19-2099/19-3099 'scientists, all other' (n=4))",nan,False,,
+Senior Researcher,91.95,,,Felten-AIOE (family-mean imputation),low,"unmatched -> imputed: Discipline-agnostic researcher; imputed from the 'scientists, all other' family. (mean of SOC 19-1029/19-1042/19-2099/19-3099 'scientists, all other' (n=4))",nan,False,,
+Senior Scientist,91.95,,,Felten-AIOE (family-mean imputation),low,"unmatched -> imputed: Discipline-agnostic scientist; imputed from the 'scientists, all other' family. (mean of SOC 19-1029/19-1042/19-2099/19-3099 'scientists, all other' (n=4))",nan,False,,
+Senior Software Engineer,92.22,,15-1132,Felten-AIOE,high,"15-1132 Software Developers, Applications: Applications software developer.",15-1132,True,92.2156,0.0044
+Senior Strategic Planner,92.85,,19-3051,Felten-AIOE,medium,19-3051 Urban and Regional Planners: Urban strategic planning given the planning cluster.,19-3051,True,92.8492,0.0008
+Senior Valuer,83.65,,13-2021,Felten-AIOE,high,13-2021 Appraisers and Assessors of Real Estate: Appraiser/assessor of real estate.,13-2021,True,83.6484,0.0016
+Social Media Coordinator,94.22,,27-3031,Felten-AIOE,medium,27-3031 Public Relations Specialists: Public relations specialist.,27-3031,True,94.2169,0.0031
+Social Planning Officer,92.85,,19-3051,Felten-AIOE,medium,19-3051 Urban and Regional Planners: Urban and regional planner (social planning).,19-3051,True,92.8492,0.0008
+Social Policy Officer,97.41,,19-3094,Felten-AIOE,medium,19-3094 Political Scientists: Policy analysis maps to political scientists in SOC.,19-3094,True,97.4078,0.0022
+Software Developer,92.22,,15-1132,Felten-AIOE,high,"15-1132 Software Developers, Applications: Applications software developer.",15-1132,True,92.2156,0.0044
+Software Engineer,92.22,,15-1132,Felten-AIOE,high,"15-1132 Software Developers, Applications: Applications software developer.",15-1132,True,92.2156,0.0044
+Solicitor,95.26,,23-1011,Felten-AIOE,high,23-1011 Lawyers: Lawyer.,23-1011,True,95.2618,0.0018
+Specialist Orthodontist,67.46,,29-1023,Felten-AIOE,high,29-1023 Orthodontists: Orthodontist.,29-1023,True,67.4561,0.0039
+Specialist Paediatric Dentist,59.28,,29-1021,Felten-AIOE,medium,"29-1021 Dentists, General: SOC 2010 has no paediatric-dentist cell; imputed from dentists, general.",29-1021,True,59.2846,0.0046
+Statutory Planner,92.85,,19-3051,Felten-AIOE,high,19-3051 Urban and Regional Planners: Urban and regional planner.,19-3051,True,92.8492,0.0008
+Strategic Planner,92.85,,19-3051,Felten-AIOE,medium,19-3051 Urban and Regional Planners: Urban strategic planning given the planning cluster.,19-3051,True,92.8492,0.0008
+Student Health Promotion Consultant,80.08,,21-1091,Felten-AIOE,medium,21-1091 Health Educators: Health educator.,21-1091,True,80.0828,0.0028
+Surgical Resident,62.4,,29-1067,Felten-AIOE,medium,29-1067 Surgeons: Surgeon in training.,29-1067,True,62.4027,0.0027
+Sustainability Officer,87.77,,19-2041,Felten-AIOE,medium,"19-2041 Environmental Scientists and Specialists, Including Health: Environmental scientist/specialist.",19-2041,True,87.765,0.005
+Systems Analyst,92.15,,15-1121,Felten-AIOE,high,15-1121 Computer Systems Analysts: Computer systems analyst.,15-1121,True,92.1495,0.0005
+Technical Project Manager,88.85,,11-3021,Felten-AIOE,medium,11-3021 Computer and Information Systems Managers: Computer and information systems manager.,11-3021,True,88.8547,0.0047
+Technology Consultant,92.15,,15-1121,Felten-AIOE,medium,15-1121 Computer Systems Analysts: Computer systems analyst.,15-1121,True,92.1495,0.0005
+Technology Graduate,92.97,,15-1199,Felten-AIOE,medium,"15-1199 Computer Occupations, All Other: Computer occupations, all other.",15-1199,True,92.9728,0.0028
+Technology Solutions Graduate,92.97,,15-1199,Felten-AIOE,medium,"15-1199 Computer Occupations, All Other: Computer occupations, all other.",15-1199,True,92.9728,0.0028
+Town Planner,92.85,,19-3051,Felten-AIOE,high,19-3051 Urban and Regional Planners: Urban and regional planner.,19-3051,True,92.8492,0.0008
+UX Researcher,92.97,,15-1199,Felten-AIOE,medium,"15-1199 Computer Occupations, All Other: SOC 2010 places UX/digital-interface roles in computer occupations, all other.",15-1199,True,92.9728,0.0028
+Urban Designer,92.85,,19-3051,Felten-AIOE,medium,19-3051 Urban and Regional Planners: Urban and regional planner; a design reading would map to 17-1012.,19-3051,True,92.8492,0.0008
+Urban Planner,92.85,,19-3051,Felten-AIOE,high,19-3051 Urban and Regional Planners: Urban and regional planner.,19-3051,True,92.8492,0.0008
+Valuer,83.65,,13-2021,Felten-AIOE,high,13-2021 Appraisers and Assessors of Real Estate: Appraiser/assessor of real estate.,13-2021,True,83.6484,0.0016

@@ -2,6 +2,7 @@
 
 *Version 1.0 — June 2026*
 *Service Experience & Design, University of Melbourne*
+*Successor: the [DFVA v2 Durability Assessment methodology](dfva-v2-methodology.md) (prototype) decomposes this composite into measured/scored/gated panels.*
 
 ---
 

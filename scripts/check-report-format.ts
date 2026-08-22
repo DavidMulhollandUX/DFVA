@@ -171,17 +171,23 @@ for (const file of MARKET_FILES) {
     issues.push(`${h3Sections.length} section(s) use ### (H3) instead of ## (H2): ${h3Sections.slice(0, 3).join(', ')}`)
   }
 
-  // 6 sections required
-  const requiredSections = [
-    'JOB FAMILY MAP', 'RECENT JOB AD SIGNALS', 'CURRENT DISCUSSION SIGNALS',
-    'SKILL SHIFT SUMMARY', 'CURRICULUM IMPLICATIONS', 'EVIDENCE CONFIDENCE + GAPS',
+  // 6 sections required. The third slot accepts either title: files whose
+  // section 3 is a salary table (not discourse) use INDICATIVE SALARY BANDS
+  // per the 2026-08 UX review (U11 — heading must match content).
+  const requiredSections: string[][] = [
+    ['JOB FAMILY MAP'], ['RECENT JOB AD SIGNALS'],
+    ['CURRENT DISCUSSION SIGNALS', 'INDICATIVE SALARY BANDS'],
+    ['SKILL SHIFT SUMMARY'], ['CURRICULUM IMPLICATIONS'], ['EVIDENCE CONFIDENCE + GAPS'],
   ]
-  for (const sec of requiredSections) {
-    // Sections are H2/H3 with an optional "N. " numeric prefix, e.g. "## 1. JOB FAMILY MAP"
-    const secEsc = sec.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
-    const secRe = new RegExp(`^#{2,3} (?:\\d+\\. )?${secEsc}`, 'm')
-    if (!secRe.test(content)) {
-      issues.push(`missing section "${sec}"`)
+  for (const alternatives of requiredSections) {
+    // Sections are H2/H3 with an optional "N. " numeric prefix, e.g. "## 1. JOB FAMILY MAP";
+    // a confidence suffix after the name (e.g. " — LOW CONFIDENCE") is allowed.
+    const found = alternatives.some((sec) => {
+      const secEsc = sec.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+      return new RegExp(`^#{2,3} (?:\\d+\\. )?${secEsc}`, 'm').test(content)
+    })
+    if (!found) {
+      issues.push(`missing section "${alternatives.join('" or "')}"`)
     }
   }
 

@@ -25,6 +25,7 @@ const competitors: CompetitorPoint[] = [
     annotation: "No vendor owns\nthe analytics layer",
   },
   { name: "Coursedog", analyticsMaturity: 3, marketShare: 4, fill: "#6b7280" },
+  { name: "CourseLeaf", analyticsMaturity: 2, marketShare: 5, fill: "#10b981" },
   { name: "CourseLoop", analyticsMaturity: 2, marketShare: 4, fill: "#9ca3af" },
   {
     name: "Modern Campus",
@@ -35,7 +36,7 @@ const competitors: CompetitorPoint[] = [
   {
     name: "Curriculog",
     analyticsMaturity: 1,
-    marketShare: 3,
+    marketShare: 2,
     fill: "#e5e7eb",
   },
 ];

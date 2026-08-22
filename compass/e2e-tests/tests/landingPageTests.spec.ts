@@ -14,7 +14,7 @@ test.describe("general landing page tests", () => {
       .getByRole("link", { name: /View an example report/ })
       .first()
       .click();
-    await page.waitForURL("**/reports");
+    await page.waitForURL("**/insights/v31/**");
   });
 
   test("headings", async ({ page }) => {

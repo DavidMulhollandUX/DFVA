@@ -433,6 +433,8 @@ import type {
   GenerateApiKey,
   RevokeApiKey,
   ListApiKeys,
+  AddFragilityIncident,
+  GetFragilityIncidents,
 } from "wasp/server/operations";
 
 /**
@@ -576,4 +578,78 @@ export const listApiKeys: ListApiKeys<void, ApiKeyResult[]> = async (
   });
 
   return keys;
+};
+
+// --- Data Fragility Monitor (feat-012) ---
+
+const addFragilityIncidentInputSchema = z.object({
+  date: z.string().refine((d) => !Number.isNaN(Date.parse(d)), "Invalid date"),
+  platform: z.string().min(1).max(100),
+  statesAffected: z.array(z.string().min(1).max(10)).min(1).max(100),
+  blastRadius: z.number().int().min(1),
+  sourceUrl: z.string().url(),
+  sourceDescription: z.string().min(1).max(500),
+  recoveryHours: z.number().int().min(0).nullable().optional(),
+  description: z.string().min(1).max(2000),
+});
+
+type FragilityIncidentResult = {
+  id: string;
+  date: Date;
+  platform: string;
+  statesAffected: any;
+  blastRadius: number;
+  sourceUrl: string;
+  sourceDescription: string;
+  recoveryHours: number | null;
+  description: string;
+  isActive: boolean;
+  createdAt: Date;
+};
+
+export const addFragilityIncident: AddFragilityIncident<
+  {
+    date: string;
+    platform: string;
+    statesAffected: string[];
+    blastRadius: number;
+    sourceUrl: string;
+    sourceDescription: string;
+    recoveryHours?: number | null;
+    description: string;
+  },
+  FragilityIncidentResult
+> = async (rawArgs, context) => {
+  if (!context.user) throw new HttpError(401, "Authentication required");
+  if (!context.user.isAdmin) throw new HttpError(403, "Admin access required");
+
+  const args = ensureArgsSchemaOrThrowHttpError(
+    addFragilityIncidentInputSchema,
+    rawArgs,
+  );
+
+  return context.entities.FragilityIncident.create({
+    data: {
+      date: new Date(args.date),
+      platform: args.platform,
+      statesAffected: args.statesAffected,
+      blastRadius: args.blastRadius,
+      sourceUrl: args.sourceUrl,
+      sourceDescription: args.sourceDescription,
+      recoveryHours: args.recoveryHours ?? null,
+      description: args.description,
+      isActive: true,
+    },
+  });
+};
+
+// Public query — no auth required, backs the fragility dashboard and public evidence page.
+export const getFragilityIncidents: GetFragilityIncidents<
+  void,
+  FragilityIncidentResult[]
+> = async (_args, context) => {
+  return context.entities.FragilityIncident.findMany({
+    where: { isActive: true },
+    orderBy: { date: "desc" },
+  });
 };

@@ -19,18 +19,57 @@ const content = {
 
 ## 1. JOB FAMILY MAP
 
-| Job Family | Typical Entry Titles | Core Tasks | AI Substitution Pressure | Skills Increasing in Demand | Evidence Notes |
-|---|---|---|---|---|---|
-| ML Engineer / AI Scientist | ML Engineer, AI Research Scientist, Applied Scientist | Model design, training pipeline engineering, evaluation, deployment, research experimentation | **LOW** — research component irreducible | LLM fine-tuning, RLHF, model evaluation, MLOps, multi-modal systems | LinkedIn: ML Engineer roles +35% YoY ANZ. Research Scientist roles require MSc minimum — MC-CS directly targets this |
-| Software Engineer (Systems/Platform) | Software Engineer, Platform Engineer, Infrastructure Engineer | Distributed systems design, API development, cloud architecture, performance optimisation | **MEDIUM** — routine CRUD development compressing; systems design growing | Distributed systems, cloud-native (K8s), Rust/Go, system reliability engineering | Stack Overflow 2025: systems-level roles growing 12% YoY; full-stack web roles declining |
-| Data Engineer / Analytics Engineer | Data Engineer, Analytics Engineer, ML Platform Engineer | Data pipeline construction, data modelling, feature engineering, infrastructure for ML | **LOW-MEDIUM** — pipeline automation advancing but design requires judgment | dbt, Apache Spark/Flink, data mesh architecture, streaming systems | LinkedIn: Analytics Engineer +31% YoY; Reporting Analyst -22% YoY |
-| Cybersecurity Analyst / Engineer | Security Engineer, Application Security Analyst, Cloud Security Engineer | Threat modelling, vulnerability assessment, security architecture, incident response | **LOW** — adversarial domain resists automation | Cloud security, AI-powered threat detection, zero-trust architecture, supply chain security | ISACA 2025: cybersecurity roles growing 18% CAGR; AI security specialist +47% |
-| DevOps / Cloud Engineer | DevOps Engineer, Cloud Engineer, SRE | CI/CD pipeline management, infrastructure-as-code, observability, incident management | **MEDIUM** — routine operations automating; architecture design remains human | Kubernetes, Terraform, observability engineering, platform engineering | Gartner 2025: platform engineering as #1 DevOps trend; pure ops roles declining |
-| HCI / UX Researcher | UX Researcher, HCI Specialist, AI Interaction Designer | User research, interaction design for AI systems, usability evaluation, human-AI workflow design | **LOW** — human-centred research irreducible | AI interaction design, conversational UX, responsible AI design, accessibility | LinkedIn: "AI UX Designer" +28% YoY; HCI PhDs increasingly recruited by big tech |
+### ML Engineer / AI Scientist
+
+**Typical entry titles:** ML Engineer, AI Research Scientist, Applied Scientist
+**Core tasks:** Model design, training pipeline engineering, evaluation, deployment, research experimentation
+**AI substitution pressure:** LOW — research component irreducible
+**Skills rising in demand:** LLM fine-tuning, RLHF, model evaluation, MLOps, multi-modal systems
+**Evidence:** LinkedIn: ML Engineer roles +35% YoY ANZ. Research Scientist roles require MSc minimum — MC-CS directly targets this
+
+### Software Engineer (Systems/Platform)
+
+**Typical entry titles:** Software Engineer, Platform Engineer, Infrastructure Engineer
+**Core tasks:** Distributed systems design, API development, cloud architecture, performance optimisation
+**AI substitution pressure:** MEDIUM — routine CRUD development compressing; systems design growing
+**Skills rising in demand:** Distributed systems, cloud-native (K8s), Rust/Go, system reliability engineering
+**Evidence:** Stack Overflow 2025: systems-level roles growing 12% YoY; full-stack web roles declining
+
+### Data Engineer / Analytics Engineer
+
+**Typical entry titles:** Data Engineer, Analytics Engineer, ML Platform Engineer
+**Core tasks:** Data pipeline construction, data modelling, feature engineering, infrastructure for ML
+**AI substitution pressure:** LOW-MEDIUM — pipeline automation advancing but design requires judgment
+**Skills rising in demand:** dbt, Apache Spark/Flink, data mesh architecture, streaming systems
+**Evidence:** LinkedIn: Analytics Engineer +31% YoY; Reporting Analyst -22% YoY
+
+### Cybersecurity Analyst / Engineer
+
+**Typical entry titles:** Security Engineer, Application Security Analyst, Cloud Security Engineer
+**Core tasks:** Threat modelling, vulnerability assessment, security architecture, incident response
+**AI substitution pressure:** LOW — adversarial domain resists automation
+**Skills rising in demand:** Cloud security, AI-powered threat detection, zero-trust architecture, supply chain security
+**Evidence:** ISACA 2025: cybersecurity roles growing 18% CAGR; AI security specialist +47%
+
+### DevOps / Cloud Engineer
+
+**Typical entry titles:** DevOps Engineer, Cloud Engineer, SRE
+**Core tasks:** CI/CD pipeline management, infrastructure-as-code, observability, incident management
+**AI substitution pressure:** MEDIUM — routine operations automating; architecture design remains human
+**Skills rising in demand:** Kubernetes, Terraform, observability engineering, platform engineering
+**Evidence:** Gartner 2025: platform engineering as #1 DevOps trend; pure ops roles declining
+
+### HCI / UX Researcher
+
+**Typical entry titles:** UX Researcher, HCI Specialist, AI Interaction Designer
+**Core tasks:** User research, interaction design for AI systems, usability evaluation, human-AI workflow design
+**AI substitution pressure:** LOW — human-centred research irreducible
+**Skills rising in demand:** AI interaction design, conversational UX, responsible AI design, accessibility
+**Evidence:** LinkedIn: "AI UX Designer" +28% YoY; HCI PhDs increasingly recruited by big tech
 
 ---
 
-## 2. RECENT JOB AD SIGNALS
+## 2. RECENT JOB AD SIGNALS — MEDIUM CONFIDENCE
 
 > **Confidence: MEDIUM** — Patterns from documented trend data and employer hiring language.
 
@@ -57,7 +96,7 @@ ANZ tech employers (Atlassian, Canva, REA Group, NAB) increasingly referencing "
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS (professional discourse on X) — MEDIUM CONFIDENCE
 
 > **Confidence: MEDIUM** — Pattern-based from known discourse.
 
@@ -99,13 +138,13 @@ Regulatory pressure (EU AI Act, AU mandatory guardrails) driving demand for engi
 
 | # | Implication | Dimension | Action |
 |---|---|---|---|
-| CI-1 | No compulsory AI governance or responsible AI engineering unit despite documented employer demand and regulatory pressure (EU AI Act, AU guardrails) | D5 AI Readiness | Add a compulsory core unit: "AI Systems Governance and Safety Engineering" covering regulatory compliance, auditable AI design, and responsible deployment |
-| CI-2 | Research project is a genuine market differentiator for MSc-level AI/ML roles — this positioning should be made explicit in graduate communications and employer engagement | D1 Graduate Employment Outcomes | Develop targeted employer briefs positioning MC-CS research project graduates for research-engineer pipelines at ANZ tech firms |
-| CI-3 | Cybersecurity electives (Web Security, Cryptography, Trustworthy ML) align well with sustained hiring signals — but are optional, risking under-uptake | D3 Technical Currency | Create a named "Cybersecurity and Trustworthy Systems" elective stream with guided pathway communications to students |
-| CI-4 | ML platform engineering (combining ML + distributed systems) is an emerging high-demand role cluster; current curriculum supports it but no explicit pathway exists | D1 Graduate Employment Outcomes | Define and publish a "ML Infrastructure" study pathway combining Statistical ML, Cluster/Cloud Computing, and Distributed Systems electives |
-| CI-5 | Industry connection signals indicate employer preference for candidates with applied research experience; current industry engagement mechanisms not documented in handbook | D4 Industry Connection | Formalise industry-partnered capstone research projects with named ANZ tech employers; target minimum 30% of research projects industry-co-supervised |
-| CI-6 | Quantum computing elective is well-timed for an emerging job market (47 ANZ postings Q1 2026) but the scale remains small; over-investing curriculum resources carries risk | D7 Research Currency | Maintain elective offering; add a qualifying note in program communications about market maturity horizon (3-5 years to mass hiring) |
-| CI-7 | HCI electives map to "AI UX Designer" growth (+28% YoY) but are not visibly surfaced in program positioning for this career pathway | D1 Graduate Employment Outcomes | Publish an "AI Interaction Design" study pathway combining HCI, AI electives, and research project options targeting human-AI systems roles |
+| CI-1 | No compulsory AI governance or responsible AI engineering unit despite documented employer demand and regulatory pressure (EU AI Act, AU guardrails) | AI Readiness | Add a compulsory core unit: "AI Systems Governance and Safety Engineering" covering regulatory compliance, auditable AI design, and responsible deployment |
+| CI-2 | Research project is a genuine market differentiator for MSc-level AI/ML roles — this positioning should be made explicit in graduate communications and employer engagement | Graduate Employment Outcomes | Develop targeted employer briefs positioning MC-CS research project graduates for research-engineer pipelines at ANZ tech firms |
+| CI-3 | Cybersecurity electives (Web Security, Cryptography, Trustworthy ML) align well with sustained hiring signals — but are optional, risking under-uptake | Technical Currency | Create a named "Cybersecurity and Trustworthy Systems" elective stream with guided pathway communications to students |
+| CI-4 | ML platform engineering (combining ML + distributed systems) is an emerging high-demand role cluster; current curriculum supports it but no explicit pathway exists | Graduate Employment Outcomes | Define and publish a "ML Infrastructure" study pathway combining Statistical ML, Cluster/Cloud Computing, and Distributed Systems electives |
+| CI-5 | Industry connection signals indicate employer preference for candidates with applied research experience; current industry engagement mechanisms not documented in handbook | Industry Connection | Formalise industry-partnered capstone research projects with named ANZ tech employers; target minimum 30% of research projects industry-co-supervised |
+| CI-6 | Quantum computing elective is well-timed for an emerging job market (47 ANZ postings Q1 2026) but the scale remains small; over-investing curriculum resources carries risk | Research Currency | Maintain elective offering; add a qualifying note in program communications about market maturity horizon (3-5 years to mass hiring) |
+| CI-7 | HCI electives map to "AI UX Designer" growth (+28% YoY) but are not visibly surfaced in program positioning for this career pathway | Graduate Employment Outcomes | Publish an "AI Interaction Design" study pathway combining HCI, AI electives, and research project options targeting human-AI systems roles |
 
 ---
 

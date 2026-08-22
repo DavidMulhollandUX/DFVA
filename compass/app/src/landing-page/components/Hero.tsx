@@ -1,16 +1,19 @@
 import { Link as RouterLink } from "react-router";
 import { brand } from "../../branding/brandConfig";
 import { Button } from "../../client/components/ui/button";
-import { ProgramRadar } from "../../client/components/ProgramRadar";
+import { MatrixAreaLabels } from "../../compass/matrixAreaLabels";
+import { findingFor } from "../../compass/reportFindings";
+import { QUADRANTS } from "../../compass/v2/quadrants";
 import {
-  PROGRAMS,
-  riskBandConfig,
-  dimBarColor,
-} from "../../compass/sharedProgramData";
+  V3_META,
+  V3_PROGRAMS,
+  v3ProgramByCode,
+} from "../../compass/v3/data/v3Programs";
+import { v31StabilityByCode } from "../../compass/v31/data/v31Stability";
 
-// Real sample assessment — the rating is the hero asset. Honest, named, addressable.
-const sample =
-  PROGRAMS.find((p) => p.program === "Bachelor of Design") ?? PROGRAMS[0];
+// Real sample assessment — the position is the hero asset. Honest, named,
+// addressable, and rendered exactly as the report renders it.
+const SAMPLE_CODE = "mc-jurisd";
 
 export default function Hero() {
   return (
@@ -29,13 +32,14 @@ export default function Hero() {
           </h1>
           <p className="text-muted-foreground mt-6 max-w-xl text-lg leading-8">
             {brand.name} is the independent durability assessment for university
-            degrees — a confidential, evidence-led analysis commissioned by the
-            institution, delivered at the moment of design, approval and
-            enrolment, not five years too late.
+            degrees — how exposed a program's real graduate destinations are to
+            AI, how well its curriculum prepares graduates for that change, and
+            how confident the answer is. Delivered at the moment of design,
+            approval and enrolment, not five years too late.
           </p>
           <div className="mt-9 flex flex-wrap items-center gap-4">
             <Button size="lg" variant="default" asChild>
-              <RouterLink to="/reports">
+              <RouterLink to={`/insights/v31/${SAMPLE_CODE}`}>
                 View an example report <span aria-hidden="true">→</span>
               </RouterLink>
             </Button>
@@ -48,81 +52,192 @@ export default function Hero() {
           </p>
         </div>
 
-        {/* Right: the rating itself */}
-        <SampleRatingCard />
+        {/* Right: the position itself */}
+        <SamplePositionCard />
       </div>
     </div>
   );
 }
 
-function SampleRatingCard() {
-  const cfg = riskBandConfig[sample.riskBand];
-  // Two weakest named dimensions — "the gaps are named, and addressable". Not-Applicable
-  // dimensions (score === null) are not weaknesses, so they are excluded from the gap list.
-  const gaps = sample.dimensions
-    .filter(
-      (d): d is typeof d & { score: number } =>
-        d.score !== null && !d.label.toLowerCase().includes("bonus"),
-    )
-    .sort((a, b) => a.score / a.max - b.score / b.max)
-    .slice(0, 3);
+function SamplePositionCard() {
+  const program = v3ProgramByCode(SAMPLE_CODE);
+  const stability = v31StabilityByCode(SAMPLE_CODE);
+  if (!program || !stability) return null;
+  const finding = findingFor(program);
+  const q = QUADRANTS[program.quadrant];
+  const confidenceLabel =
+    stability.stabilityClass === "boundary" ? "near a threshold" : "firm";
+  const confidenceChip =
+    stability.stabilityClass === "boundary"
+      ? "bg-[#FEF5E7] text-[#B97E26]"
+      : "bg-[#E8F5EE] text-[#1F9D6B]";
+  const measured =
+    program.quadrant === "well-positioned"
+      ? "High exposure · high adaptiveness"
+      : program.quadrant === "comfortable"
+        ? "Low exposure · high adaptiveness"
+        : program.quadrant === "attention"
+          ? "High exposure · low adaptiveness"
+          : "Low exposure · low adaptiveness";
 
   return (
     <div className="bg-card border-border shadow-card-2 hover:shadow-default mx-auto w-full max-w-md rounded-2xl border p-6 transition-shadow duration-300 sm:p-8">
-      <div className="flex items-start justify-between gap-4">
-        <div>
-          <p className="text-muted-foreground text-xs font-medium tracking-wide uppercase">
-            {sample.institution}
-          </p>
-          <h2 className="text-foreground mt-1 text-lg font-semibold">
-            {sample.program}
-          </h2>
-        </div>
+      <p className="text-muted-foreground text-xs font-medium tracking-wide uppercase">
+        University of Melbourne
+      </p>
+      <h2 className="text-foreground mt-1 text-lg font-semibold">
+        {program.name}
+      </h2>
+
+      <div className="mt-4 flex flex-wrap items-center gap-2">
         <span
-          className={`rounded-full border px-3 py-1 text-xs font-bold tracking-wider uppercase ${cfg.bg} ${cfg.text} ${cfg.border}`}
+          className={`rounded-full px-3 py-1 text-xs font-semibold ${q.badgeClass}`}
         >
-          {sample.riskBand}
+          {measured}
+        </span>
+        <span
+          className={`rounded-full px-3 py-1 text-xs font-semibold ${confidenceChip}`}
+        >
+          confidence: {confidenceLabel}
         </span>
       </div>
 
-      <div className="mt-2 flex items-baseline gap-1.5">
-        <span className="text-foreground font-mono text-5xl font-bold tabular-nums">
-          {sample.score}
-        </span>
-        <span className="text-muted-foreground font-mono text-lg tabular-nums">
-          / {sample.maxScore}
-        </span>
+      <div className="mt-5 grid grid-cols-2 gap-4">
+        <div>
+          <p className="text-muted-foreground text-[10px] font-medium tracking-wide uppercase">
+            Destination AI exposure
+          </p>
+          <p className="text-foreground font-mono text-3xl font-bold tabular-nums">
+            {program.exposure.toFixed(1)}
+          </p>
+          <p className="text-muted-foreground text-xs">
+            portfolio median {V3_META.expMedian}
+          </p>
+        </div>
+        <div>
+          <p className="text-muted-foreground text-[10px] font-medium tracking-wide uppercase">
+            Curriculum adaptiveness
+          </p>
+          <p className="text-foreground font-mono text-3xl font-bold tabular-nums">
+            {program.adaptiveness}
+            <span className="text-muted-foreground text-lg">/15</span>
+          </p>
+          <p className="text-muted-foreground text-xs">
+            portfolio median {V3_META.adaptMedian}
+          </p>
+        </div>
       </div>
 
-      <ProgramRadar
-        dimensions={sample.dimensions}
-        baseScore={sample.score}
-        size={220}
-        className="my-2"
-      />
+      <HeroMiniMatrix code={SAMPLE_CODE} />
 
-      <div className="space-y-2.5">
+      <div className="mt-4 space-y-2">
         <p className="text-muted-foreground text-xs font-medium tracking-wide uppercase">
-          Biggest gaps
+          The highest-value changes
         </p>
-        {gaps.map((d) => (
-          <div key={d.label} className="flex items-center gap-3">
-            <span className="text-foreground w-36 shrink-0 truncate text-xs">
-              {d.label}
-            </span>
-            <div className="bg-muted h-1.5 flex-1 overflow-hidden rounded-full">
-              <div
-                className={`h-full rounded-full ${dimBarColor(d.score, d.max)}`}
-                style={{ width: `${(d.score / d.max) * 100}%` }}
-              />
-            </div>
-            <span className="text-muted-foreground w-7 shrink-0 text-right font-mono text-xs tabular-nums">
-              {d.score}/{d.max}
-            </span>
-          </div>
-        ))}
+        <ol className="text-foreground list-decimal space-y-1 pl-4 text-xs leading-relaxed">
+          {finding.actions.map((a) => (
+            <li key={a}>{a}</li>
+          ))}
+        </ol>
       </div>
+
+      <RouterLink
+        to={`/insights/v31/${SAMPLE_CODE}`}
+        className="text-secondary-muted-foreground mt-4 inline-block text-xs font-semibold underline"
+      >
+        Read the full report →
+      </RouterLink>
     </div>
+  );
+}
+
+function HeroMiniMatrix({ code }: { code: string }) {
+  const W = 340;
+  const H = 190;
+  const PAD = 26;
+  const X_MIN = 60;
+  const X_MAX = 100;
+  const x = (e: number) =>
+    PAD + ((e - X_MIN) / (X_MAX - X_MIN)) * (W - 2 * PAD);
+  const y = (a: number) => H - PAD - (a / 15) * (H - 2 * PAD);
+  const program = v3ProgramByCode(code);
+  if (!program) return null;
+  return (
+    <svg
+      viewBox={`0 0 ${W} ${H}`}
+      className="mt-5 w-full"
+      role="img"
+      aria-label="Portfolio matrix: destination AI exposure by curriculum adaptiveness, this program highlighted"
+    >
+      <rect
+        x={PAD}
+        y={PAD / 2}
+        width={W - 2 * PAD}
+        height={H - PAD - PAD / 2}
+        fill="none"
+        stroke="var(--color-border)"
+      />
+      <line
+        x1={x(V3_META.expMedian)}
+        y1={PAD / 2}
+        x2={x(V3_META.expMedian)}
+        y2={H - PAD}
+        stroke="var(--color-border)"
+        strokeDasharray="4 3"
+      />
+      <line
+        x1={PAD}
+        y1={y(V3_META.adaptMedian)}
+        x2={W - PAD}
+        y2={y(V3_META.adaptMedian)}
+        stroke="var(--color-border)"
+        strokeDasharray="4 3"
+      />
+      <MatrixAreaLabels
+        left={PAD}
+        right={W - PAD}
+        top={PAD / 2}
+        bottom={H - PAD}
+        fontSize={8}
+      />
+      {V3_PROGRAMS.filter((p) => p.code !== code).map((p) => (
+        <circle
+          key={p.code}
+          cx={x(p.exposure)}
+          cy={y(p.adaptiveness)}
+          r={3}
+          fill={QUADRANTS[p.quadrant].hex}
+          opacity={0.25}
+        />
+      ))}
+      <circle
+        cx={x(program.exposure)}
+        cy={y(program.adaptiveness)}
+        r={6}
+        fill={QUADRANTS[program.quadrant].hex}
+        stroke="var(--color-background)"
+        strokeWidth={2}
+      />
+      <text
+        x={W / 2}
+        y={H - 6}
+        fontSize={9}
+        textAnchor="middle"
+        fill="var(--color-muted-foreground)"
+      >
+        Destination AI exposure → · each dot is an assessed program
+      </text>
+      <text
+        x={8}
+        y={H / 2}
+        fontSize={9}
+        fill="var(--color-muted-foreground)"
+        transform={`rotate(-90 8 ${H / 2})`}
+        textAnchor="middle"
+      >
+        Adaptiveness →
+      </text>
+    </svg>
   );
 }
 

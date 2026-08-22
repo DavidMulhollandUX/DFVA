@@ -1,0 +1,197 @@
+occupation,onet_soc_code,onet_soc_title,ai_exposure_index,mapping_confidence,index_source,mapping_note
+Actuarial Analyst,15-2011,Actuaries,99.73,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Actuarial work; 'analyst' is seniority.
+Anatomy Tutor,25-1191,Graduate Teaching Assistants,90.08,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",University tutoring by a graduate; closest SOC occupation.
+Animal Attendant,39-2021,Nonfarm Animal Caretakers,42.42,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match to animal care work.
+Animal Technician,31-9096,Veterinary Assistants and Laboratory Animal Caretakers,45.17,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Laboratory animal care.
+Assistant Planner,19-3051,Urban and Regional Planners,92.85,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Town-planning work; 'assistant' is seniority.
+Assistant Project Manager,11-9021,Construction Managers,88.12,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Project management in a built-environment cohort; 'assistant' is seniority.
+Behavioral Therapist,21-1014,Mental Health Counselors,95.59,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Behavioural therapy delivery; SOC 2010 has no dedicated behaviour-therapist occupation.
+Bioinformatician,19-1029,"Biological Scientists, All Other",87.67,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Computational biology; no dedicated SOC 2010 bioinformatics occupation.
+Biosecurity Officer,45-2011,Agricultural Inspectors,67.67,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",AU biosecurity inspection of agricultural and border goods.
+Biotechnologist,19-1029,"Biological Scientists, All Other",87.67,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Biotechnology practice; no dedicated SOC 2010 occupation.
+Brand and Visual Designer,27-1024,Graphic Designers,80.66,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Visual identity and brand design is graphic design.
+Business Intelligence Analyst,15-1121,Computer Systems Analysts,92.15,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",BI sits between systems analysis and management analysis in SOC 2010.
+Cadet Quantity Surveyor,13-1051,Cost Estimators,96.19,high,"Felten-AIOE (Appendix A, rescaled 0-100)",AU quantity surveying is construction cost estimating; 'cadet' is seniority.
+City Greening Lead,19-1031,Conservation Scientists,65.25,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Leads urban vegetation/land-quality programs; no urban-greening occupation in SOC 2010.
+Client Services Officer,43-4051,Customer Service Representatives,86.39,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Client-facing service role.
+Clinical Audiologist,29-1181,Audiologists,78.68,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match.
+Clinical Research Coordinator,19-1042,"Medical Scientists, Except Epidemiologists",94.1,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Coordinates clinical research; task content is medical research delivery.
+Clinical Research Scientist,19-1042,"Medical Scientists, Except Epidemiologists",94.1,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match to medical research science.
+Clinical Trial Assistant,19-4021,Biological Technicians,70.78,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Support role in clinical research; technician-level task content.
+Clinical Trial Manager,11-9121,Natural Sciences Managers,95.24,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Manages scientific/clinical research delivery.
+Clinical Trials Assistant,19-4021,Biological Technicians,70.78,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Spelling variant of Clinical Trial Assistant; same occupation.
+Communications Director,11-2031,Public Relations Managers,94.43,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Directs communications function; closest SOC 2010 management occupation.
+Computational Biologist,19-1029,"Biological Scientists, All Other",87.67,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Same occupation as Bioinformatician; no dedicated SOC 2010 code.
+Conservation Officer,19-1031,Conservation Scientists,65.25,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Conservation and land-management work.
+Construction Cadet,11-9021,Construction Managers,88.12,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",AU cadetship is trainee site/project management; seniority stripped per rule 1
+Construction Supervisor,47-1011,First-Line Supervisors/Managers of Construction Trades and Extraction Workers,56.33,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct supervision of construction trades.
+Consultant Urban Horticulturalist,19-1013,Soil and Plant Scientists,78.66,high,"Felten-AIOE (Appendix A, rescaled 0-100)","Horticultural science advice; 'consultant' is an engagement mode, not a different occupation."
+Content Designer,27-3043,Writers and Authors,87.14,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Content design is primarily writing/structuring copy; no SOC 2010 content-design occupation.
+Cost Manager,13-1051,Cost Estimators,96.19,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Construction cost management; same occupation as quantity surveying.
+Creative Lead,27-1011,Art Directors,87.97,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",directs visual/creative output of a design or agency team; 'Lead' stripped
+Culinary Development Technologist,19-1012,Food Scientists and Technologists,82.53,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Food product development.
+Data Science Manager,11-9121,Natural Sciences Managers,95.24,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Manages a technical/analytical function; no SOC 2010 data-science occupation.
+Digital Designer,27-1024,Graphic Designers,80.66,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Digital visual design sits in graphic design.
+Ecological Consultant,19-1031,Conservation Scientists,65.25,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Ecological assessment and advice; could also read as Zoologists/Wildlife Biologists.
+Ecologist,19-1031,Conservation Scientists,65.25,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Ecology practice; SOC 2010 has no dedicated ecologist occupation.
+Ecology Support Officer,19-4093,Forest and Conservation Technicians,47.71,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Technician-level ecological support.
+Emergency and Critical Care Resident,29-1131,Veterinarians,61.82,medium,"Felten-AIOE (Appendix A, rescaled 0-100)","In a Veterinary Bioscience cohort, ECC residency is veterinary specialist training."
+Environment Cadet,19-2041,"Environmental Scientists and Specialists, Including Health",87.77,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Entry-level environmental practice; 'cadet' is seniority.
+Environment Protection Officer,19-2041,"Environmental Scientists and Specialists, Including Health",87.77,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Environmental regulation and protection work.
+Environmental Advisor,19-2041,"Environmental Scientists and Specialists, Including Health",87.77,high,"Felten-AIOE (Appendix A, rescaled 0-100)",direct match: advising on environmental compliance and impact
+Environmental Coordinator,19-2041,"Environmental Scientists and Specialists, Including Health",87.77,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Coordinates environmental compliance/programs.
+Environmental Research Analyst,19-2041,"Environmental Scientists and Specialists, Including Health",87.77,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Environmental research and analysis.
+Epidemiologist,19-1041,Epidemiologists,97.82,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match.
+Epidemiology Support Officer,19-4099,"Life, Physical, and Social Science Technicians, All Other",74.33,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Technician-level epidemiology support.
+Evaluation Manager,13-1111,Management Analysts,97.73,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Same as Evaluation Officer; 'manager' is seniority.
+Evaluation Officer,13-1111,Management Analysts,97.73,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Program evaluation; closest SOC 2010 analytical occupation.
+Exercise Scientist,29-1128,Exercise Physiologists,62.81,high,"Felten-AIOE (Appendix A, rescaled 0-100)",AU exercise science maps to exercise physiology.
+Experience Designer,15-1199,"Computer Occupations, All Other",92.97,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Interface/experience design has no SOC 2010 occupation (added as 15-1255 only in SOC 2018).
+Field Botanist,19-1020,Biologists,81.52,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Plant biology field work; SOC 2010 has no dedicated botanist occupation.
+Field Ecologist,19-1031,Conservation Scientists,65.25,medium,"Felten-AIOE (Appendix A, rescaled 0-100)","Same as Ecologist; field work is a setting, not an occupation."
+Food Safety Technician,19-4011,Agricultural and Food Science Technicians,65.89,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match.
+Freelance Graphic Designer,27-1024,Graphic Designers,80.66,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match; 'freelance' is an employment mode.
+Full Stack Software Engineer,15-1132,"Software Developers, Applications",92.22,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Application software development.
+GIS Analyst,19-3092,Geographers,97.82,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Spatial analysis; SOC 2010 has no dedicated GIS occupation.
+GP and ECC Veterinarian,29-1131,Veterinarians,61.82,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match; specialisation stripped.
+Graduate Architect,17-1011,"Architects, Except Landscape and Naval",88.55,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match; 'graduate' is seniority.
+Graduate Audiologist,29-1181,Audiologists,78.68,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match; 'graduate' is seniority.
+Graduate Botanist,19-1020,Biologists,81.52,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Same as Field Botanist; 'graduate' is seniority.
+Graduate Builder,11-9021,Construction Managers,88.12,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",AU 'builder' is a construction management pathway; 'graduate' is seniority.
+Graduate Cost Manager,13-1051,Cost Estimators,96.19,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Same as Cost Manager; 'graduate' is seniority.
+Graduate Ecologist,19-1031,Conservation Scientists,65.25,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Same as Ecologist; 'graduate' is seniority.
+Graduate Environmental Planner,19-3051,Urban and Regional Planners,92.85,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Environmental planning is a planning specialisation; 'graduate' is seniority.
+Graduate GIS Analyst,19-3092,Geographers,97.82,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Same as GIS Analyst; 'graduate' is seniority.
+Graduate Interior Designer,27-1025,Interior Designers,90.33,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match; 'graduate' is seniority.
+Graduate Landscape Designer,17-1012,Landscape Architects,88.25,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Landscape design work; 'graduate' is seniority.
+Graduate Physiotherapist,29-1123,Physical Therapists,55.07,high,"Felten-AIOE (Appendix A, rescaled 0-100)",AU physiotherapy maps to physical therapy; 'graduate' is seniority.
+Graduate Project Manager,11-9021,Construction Managers,88.12,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Same as Assistant Project Manager; 'graduate' is seniority.
+Graduate Quantity Surveyor,13-1051,Cost Estimators,96.19,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Same as Quantity Surveyor; 'graduate' is seniority.
+Graduate Scientist,19-1029,"Biological Scientists, All Other",87.67,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Discipline unspecified; life-science bucket for a BSc cohort.
+Graduate Valuation Analyst,13-2021,Appraisers and Assessors of Real Estate,83.65,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Property valuation; 'graduate' is seniority.
+Graphic Designer,27-1024,Graphic Designers,80.66,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match.
+Head of Data and Analytics,11-9121,Natural Sciences Managers,95.24,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Same as Data Science Manager; leadership of an analytics function.
+Head of Design,27-1011,Art Directors,87.97,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Leads a design function; Art Directors is the SOC 2010 design-leadership occupation.
+Health & Public Service Analyst,13-1111,Management Analysts,97.73,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Consulting-style analysis in health/public sector.
+Health Information Analyst,29-2071,Medical Records and Health Information Technicians,77.28,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Health information work; analyst-level but same domain occupation.
+Horticultural Researcher,19-1013,Soil and Plant Scientists,78.66,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Plant science research.
+Horticulturalist,19-1013,Soil and Plant Scientists,78.66,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match to the plant-science occupation.
+Horticulturist,19-1013,Soil and Plant Scientists,78.66,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Spelling variant of Horticulturalist; same occupation.
+Illustrator,27-1013,"Fine Artists, Including Painters, Sculptors, and Illustrators",50.05,high,"Felten-AIOE (Appendix A, rescaled 0-100)",illustrator is named in the SOC title
+Information Technology Officer,15-1151,Computer User Support Specialists,70.74,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Generalist IT support role; ambiguous between support and administration.
+Interior Designer,27-1025,Interior Designers,90.33,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match.
+Junior Business Analyst,13-1111,Management Analysts,97.73,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Business analysis; 'junior' is seniority.
+Junior Data Scientist,15-2031,Operations Research Analysts,96.96,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",SOC 2010 predates a data-scientist occupation; operations research is the closest analytical match.
+Junior Estimator,13-1051,Cost Estimators,96.19,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match; 'junior' is seniority.
+Junior Graphic Designer,27-1024,Graphic Designers,80.66,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match; 'junior' is seniority.
+Junior UX/UI Designer,15-1199,"Computer Occupations, All Other",92.97,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",SOC 2010 has no digital interface designer; UX/UI sits in this residual computer category
+Laboratory Assistant,19-4021,Biological Technicians,70.78,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Laboratory support in a life-science cohort.
+Laboratory Demonstrator,25-1191,Graduate Teaching Assistants,90.08,high,"Felten-AIOE (Appendix A, rescaled 0-100)",University lab demonstrating is graduate teaching.
+"Land, Planning and Environment Graduate",19-3051,Urban and Regional Planners,92.85,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Graduate program spanning land use and planning.
+Landscape Architect,17-1012,Landscape Architects,88.25,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match.
+Landscape Designer & Horticulturist,17-1012,Landscape Architects,88.25,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",primary task is designing planted outdoor spaces; horticulture is the secondary element
+Lead Data Scientist,15-2031,Operations Research Analysts,96.96,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Same as Junior Data Scientist; 'lead' is seniority.
+Lead Engineer,17-2199,"Engineers, All Other",82.37,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Engineering discipline unspecified; generic engineering bucket.
+Locum Vet,29-1131,Veterinarians,61.82,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match; 'locum' is an engagement mode.
+Market Risk Analyst,13-2051,Financial Analysts,96.5,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Financial market risk analysis.
+Media Director,11-2011,Advertising and Promotions Managers,94.44,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Directs media planning/buying; closest SOC 2010 management occupation.
+Medical Doctor,29-1069,"Physicians and Surgeons, All Other",80.49,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",unspecified medical specialty; generic physician category per rule 4
+Medical Laboratory Technician,29-2012,Medical and Clinical Laboratory Technicians,60.57,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match.
+Medical Scientist,19-1042,"Medical Scientists, Except Epidemiologists",94.1,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match.
+Mental Health Clinician,21-1014,Mental Health Counselors,95.59,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Clinical mental-health practice below registered-psychologist level.
+Mental Health Services Manager,11-9111,Medical and Health Services Managers,93.63,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Manages health service delivery.
+Mental Health Support Worker,21-1093,Social and Human Service Assistants,74.69,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match to human-service support work.
+Microbiology Analyst,19-1022,Microbiologists,80.18,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Microbiological analysis.
+Microbiology Laboratory Analyst,19-1022,Microbiologists,80.18,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Same occupation; setting stripped.
+Neuropsychologist,19-3039,"Psychologists, All Other",96.72,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Specialist psychology outside the clinical/counselling code.
+Neuroscientist,19-1042,"Medical Scientists, Except Epidemiologists",94.1,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Neuroscience research; SOC 2010 has no neuroscientist occupation.
+New Product Development Officer,19-1012,Food Scientists and Technologists,82.53,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Same domain; product development.
+Nutrition Scientist,19-1012,Food Scientists and Technologists,82.53,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Nutrition research; could also read as Dietitians (29-1031) in clinical settings.
+Occupational Therapist,29-1122,Occupational Therapists,66.35,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match.
+Open Space Planner,19-3051,Urban and Regional Planners,92.85,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Public open-space planning is urban/regional planning.
+Operating Theatre Technician,29-2055,Surgical Technologists,52.1,high,"Felten-AIOE (Appendix A, rescaled 0-100)",AU theatre technician maps to surgical technologist.
+PhD Candidate,25-1191,Graduate Teaching Assistants,90.08,medium,"Felten-AIOE (Appendix A, rescaled 0-100)","Only SOC occupation covering employed graduate students, though the work is primarily research."
+Pharmaceutical Sales Representative,41-4011,"Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",84.84,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Technical/scientific product sales.
+Pharmacist,29-1051,Pharmacists,78.04,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match.
+Pharmacy Technician,29-2052,Pharmacy Technicians,63.77,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match.
+Planner,19-3051,Urban and Regional Planners,92.85,high,"Felten-AIOE (Appendix A, rescaled 0-100)","In a Bachelor of Design (Urban Planning) cohort, 'Planner' is town planning."
+Plant Breeding Assistant,19-4011,Agricultural and Food Science Technicians,65.89,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Agricultural science technician work.
+Postdoctoral Research Fellow,19-1042,"Medical Scientists, Except Epidemiologists",94.1,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Postdoctoral research in a life-science cohort; SOC 2010 has no postdoc occupation.
+Postdoctoral Researcher,19-1042,"Medical Scientists, Except Epidemiologists",94.1,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Same as Postdoctoral Research Fellow.
+Product Designer,27-1021,Commercial and Industrial Designers,84.26,medium,"Felten-AIOE (Appendix A, rescaled 0-100)","Industrial/product design; in digital contexts this title can mean UX, hence medium."
+Product Developer Graduate,19-1012,Food Scientists and Technologists,82.53,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Product development in a food-science cohort.
+Product Development Specialist,19-1012,Food Scientists and Technologists,82.53,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Same domain; product development.
+Product Director,11-1021,General and Operations Managers,77.3,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Product leadership has no SOC 2010 occupation; generic management bucket.
+Production Biotechnologist,19-1029,"Biological Scientists, All Other",87.67,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Applied biotechnology production.
+Program Leader Arboriculture and Nursery,45-1011,"First-Line Supervisors/Managers of Farming, Fishing, and Forestry Workers",52.19,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Supervises arboriculture and nursery operations; could also read as Foresters (19-1032).
+Property Administrator,11-9141,"Property, Real Estate, and Community Association Managers",92.56,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Property administration and management.
+Psychology Tutor,25-1191,Graduate Teaching Assistants,90.08,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",University tutoring.
+Quality Manager,11-3051,Industrial Production Managers,75.72,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Quality function management in production settings.
+Quality Specialist,19-4099,"Life, Physical, and Social Science Technicians, All Other",74.33,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Quality assurance in a scientific setting.
+Quantitative Research Analyst,13-2051,Financial Analysts,96.5,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Quantitative finance research.
+Quantity Surveyor,13-1051,Cost Estimators,96.19,high,"Felten-AIOE (Appendix A, rescaled 0-100)",AU quantity surveying maps to construction cost estimating.
+Reagent Formulation Technician,19-4031,Chemical Technicians,65.1,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Chemical formulation technician work.
+Recruitment Consultant,13-1071,"Employment, Recruitment, and Placement Specialists",96.01,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match.
+Registered Psychologist,19-3031,"Clinical, Counseling, and School Psychologists",98.3,high,"Felten-AIOE (Appendix A, rescaled 0-100)",AU registered psychologists practise clinically.
+Relief Veterinarian,29-1131,Veterinarians,61.82,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match; 'relief' is an engagement mode.
+Research & Development Scientist,19-1042,"Medical Scientists, Except Epidemiologists",94.1,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",R&D science in a life-science cohort.
+Research Manager,11-9121,Natural Sciences Managers,95.24,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Manages scientific research.
+Research Support Officer,19-4099,"Life, Physical, and Social Science Technicians, All Other",74.33,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Ambiguous between lab support and research administration.
+Research Technician,19-4021,Biological Technicians,70.78,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Laboratory research technician.
+Research Veterinarian,29-1131,Veterinarians,61.82,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match; research is a setting.
+Residential Property Valuer,13-2021,Appraisers and Assessors of Real Estate,83.65,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match to real-estate appraisal.
+Risk Management Analyst,13-2051,Financial Analysts,96.5,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Risk analysis; financial-analyst bucket in SOC 2010.
+Science and Planning Graduate,19-3051,Urban and Regional Planners,92.85,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Graduate program in science-informed planning.
+Scientific Affairs Assistant,19-4099,"Life, Physical, and Social Science Technicians, All Other",74.33,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Scientific support/affairs role.
+Security Analyst,15-1122,Information Security Analysts,93.39,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Information security analysis.
+Senior Analytical Chemist,19-2031,Chemists,75.54,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match; 'senior/analytical' are seniority and specialisation.
+Senior Architectural Designer,17-1011,"Architects, Except Landscape and Naval",88.55,medium,"Felten-AIOE (Appendix A, rescaled 0-100)","Building design task content; AU architectural designers are often unregistered, hence medium."
+Senior Botanist,19-1020,Biologists,81.52,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Same; 'senior' is seniority.
+Senior Consultant - Machine Learning and AI,15-2031,Operations Research Analysts,96.96,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",ML/AI consulting; SOC 2010 has no machine-learning occupation.
+Senior Contract Administrator,13-1051,Cost Estimators,96.19,medium,"Felten-AIOE (Appendix A, rescaled 0-100)","AU construction contract administration is cost/variation/claims work, consistent with the Quantity Surveyor precedent"
+Senior Data Analyst,15-2031,Operations Research Analysts,96.96,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Quantitative analysis; no dedicated SOC 2010 data-analyst occupation.
+Senior Ecologist and Team Lead,19-1031,Conservation Scientists,65.25,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Same as Ecologist; seniority and team leadership stripped.
+Senior Environment Protection Officer,19-2041,"Environmental Scientists and Specialists, Including Health",87.77,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Same; 'senior' is seniority.
+Senior Environmental Information Specialist,19-2041,"Environmental Scientists and Specialists, Including Health",87.77,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Environmental data/information work; specialist bucket.
+Senior Environmental Officer,19-2041,"Environmental Scientists and Specialists, Including Health",87.77,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Same occupation; 'senior' is seniority.
+Senior Environmental Planner,19-3051,Urban and Regional Planners,92.85,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Same as Graduate Environmental Planner; 'senior' is seniority.
+Senior Epidemiologist,19-1041,Epidemiologists,97.82,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match; 'senior' is seniority.
+Senior Food Technologist,19-1012,Food Scientists and Technologists,82.53,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match; 'senior' is seniority.
+Senior Neuroscientist,19-1042,"Medical Scientists, Except Epidemiologists",94.1,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Same; 'senior' is seniority.
+Senior Planning Consultant,19-3051,Urban and Regional Planners,92.85,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Planning advice; 'senior/consultant' are seniority and engagement mode.
+Senior Research Assistant,19-4021,Biological Technicians,70.78,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Research support; 'senior' is seniority.
+Senior Research Officer,19-1042,"Medical Scientists, Except Epidemiologists",94.1,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Research role in a life-science cohort.
+Senior Software Developer,15-1132,"Software Developers, Applications",92.22,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match; 'senior' is seniority.
+Senior Soil Scientist,19-1013,Soil and Plant Scientists,78.66,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match; 'senior' is seniority.
+Senior Supply Chain Analyst,13-1081,Logisticians,94.51,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Supply-chain analysis; 'senior' is seniority.
+Senior Sustainability Consultant,19-2041,"Environmental Scientists and Specialists, Including Health",87.77,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Built-environment sustainability advice; generic environmental-specialist bucket.
+Senior Urban Planner,19-3051,Urban and Regional Planners,92.85,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match; 'senior' is seniority.
+Service Designer,27-1021,Commercial and Industrial Designers,84.26,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",human-centred design practice with no SOC 2010 service-design occupation
+Site Engineer,17-2051,Civil Engineers,94.17,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Construction site engineering is civil engineering.
+Site Manager,11-9021,Construction Managers,88.12,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Manages a construction site.
+Software Architect,15-1133,"Software Developers, Systems Software",94.18,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Systems-level software design.
+Speech Pathologist,29-1127,Speech-Language Pathologists,90.91,high,"Felten-AIOE (Appendix A, rescaled 0-100)",AU speech pathology maps directly.
+Statistician,15-2041,Statisticians,96.55,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match.
+Strategy Analyst,13-1111,Management Analysts,97.73,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Strategy consulting/analysis.
+Supply Chain Analyst,13-1081,Logisticians,94.51,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match.
+Support Worker,21-1093,Social and Human Service Assistants,74.69,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Generic community support work.
+Sustainability Consultant,19-2041,"Environmental Scientists and Specialists, Including Health",87.77,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Sustainability advice; generic environmental-specialist bucket.
+Sustainability Graduate,19-2041,"Environmental Scientists and Specialists, Including Health",87.77,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",sustainability roles perform environmental assessment and reporting; 'Graduate' stripped
+Sustainability Projects Officer,19-2041,"Environmental Scientists and Specialists, Including Health",87.77,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Environmental/sustainability project delivery; generic environmental-specialist bucket.
+System Safety & Assurance Engineer,17-2199,"Engineers, All Other",82.37,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Safety assurance engineering; discipline not in SOC 2010.
+Technical Assistant,19-4099,"Life, Physical, and Social Science Technicians, All Other",74.33,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Generic science technical support.
+Therapy Assistant,31-2011,Occupational Therapist Assistants,56.09,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Allied-health therapy support; discipline unspecified.
+UI/UX Designer,15-1199,"Computer Occupations, All Other",92.97,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",digital interface design has no dedicated SOC 2010 code
+UX Designer,15-1199,"Computer Occupations, All Other",92.97,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",No SOC 2010 UX occupation (added as 15-1255 in SOC 2018).
+UX/UI Designer,15-1199,"Computer Occupations, All Other",92.97,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Same as UX Designer; no SOC 2010 occupation.
+Valuation Analyst,13-2021,Appraisers and Assessors of Real Estate,83.65,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Property valuation analysis.
+Vertical Garden Specialist,19-1013,Soil and Plant Scientists,78.66,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Applied horticulture in built environments; no specific SOC 2010 occupation.
+Veterinary Ophthalmology Resident,29-1131,Veterinarians,61.82,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Veterinary specialist training; specialisation stripped.
+Veterinary Receptionist,31-9096,Veterinary Assistants and Laboratory Animal Caretakers,45.17,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Veterinary practice support; SOC 2010 has no veterinary-receptionist occupation.
+Veterinary Surgeon,29-1131,Veterinarians,61.82,high,"Felten-AIOE (Appendix A, rescaled 0-100)",AU/UK term for a qualified veterinarian.
+Visual Identity Designer,27-1024,Graphic Designers,80.66,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Brand identity design is graphic design.
+Web Designer,15-1134,Web Developers,89.56,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",SOC 2010 folds web design into Web Developers.
+Website Director,15-1134,Web Developers,89.56,medium,"Felten-AIOE (Appendix A, rescaled 0-100)","'Director' stripped; role runs and maintains a website, closest SOC 2010 web occupation"
+Wildlife Educator and Presenter,25-9021,Farm and Home Management Advisors,84.1,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Public science education/outreach; no close SOC 2010 occupation.
+Wildlife Officer,19-1023,Zoologists and Wildlife Biologists,71.17,medium,"Felten-AIOE (Appendix A, rescaled 0-100)",Wildlife management work.
+Zoologist,19-1023,Zoologists and Wildlife Biologists,71.17,high,"Felten-AIOE (Appendix A, rescaled 0-100)",Direct match.

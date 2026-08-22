@@ -8,6 +8,14 @@
 # holds the SMTP_* secrets, so we flip to SMTP for the build and revert on exit.
 set -e
 
+# The EXIT trap below reverts main.wasp.ts via git checkout — on any branch
+# other than main that could silently discard uncommitted dev work, and the
+# shared backend must only ever be deployed from main anyway.
+if [ "$(git branch --show-current)" != "main" ]; then
+  echo "❌ deploy-server.sh must run from the main branch (currently on '$(git branch --show-current)')."
+  exit 1
+fi
+
 APP="compass-server-sxd"
 BUILD_DIR=".wasp/out"
 # The canonical production frontend origin. Wasp uses WASP_WEB_CLIENT_URL as
