@@ -1,0 +1,135 @@
+{
+  "code": "761em",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2's anchor — 'At least one core unit assesses collaborative practice — group projects with individual accountability' — is documented twice over: ENGM90016 assesses a group project in groups of 4 with an individually-weighted assignment and an individual reflection alongside it, and MGMT90146 assesses a group simulation, strategy statement and board report in groups of 4-5. Not level 3, because level 3 additionally requires that at least one assessment 'requires coordinating work across people AND tools/AI systems' with documented role and tool allocation; the extract documents group size and word counts but nothing about how work is divided between people and systems, and no tool or AI allocation is assessed anywhere. Per R2 the teamwork ILO alone could not lift this.",
+      "evidenceLines": [
+        "Group Project (Case or Simulation) groups of 4 with a workload equivalent to 1500 words per student. (40-45 hours per student) ILOs 1-5 are addressed in this assessment.",
+        "Progress reports for group project equivalent. 2 group reports equivalent to 200 words each. (8 hours for each report) ILOs 1 and 2 are addressed in this assessment.",
+        "Individual Assignment, report with a workload equivalent to 1500 words. ILOs 2, 3 and 4 are addressed in this assignment.",
+        "Capstone Simulation (groups of 4-5), approximately 5 hours work per week across semester",
+        "Capstone Board Report (groups of 4-5)",
+        "A well-developed capacity to understand and participate in a multi-disciplinary and multi-cultural team environment as either a leader or a technical support specialist"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 0 is excluded: an assessed 'Individual reflection on the group project' does require students to appraise their own work. But level 2's anchor requires 'criterion-referenced appraisal of quality: peer review, structured critique, portfolio with standards, marking against exemplars', and the extract documents none of those — the reflection is described only by word count, timing and the ILOs it addresses, with no criteria, standards, exemplars or peer-review structure. The evidence sits between the level-1 anchor (reflection present, not assessed against criteria) and level 2; per the scoring-direction rule I take the LOWER level. Level 3 (documented and justified reliance decisions on a tool, source or collaborator) has no evidence at all. The ENGM90016 ILO about evaluating alternative engineering solutions is appraisal of options, not of the quality of work, so it does not carry C2.",
+      "evidenceLines": [
+        "Individual reflection on the group project (750 words). ILOs 1-3 are addressed in this assessment",
+        "Identify key issues encountered in engineering management and/or engineering projects, evaluate among alternative engineering solutions and make recommendations based on best possible project"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1's anchor — 'AI or digital tools appear only as electives or as tool operation/training — the operational level TEQSA identifies as non-durable' — is exactly what is documented: a program-level outcome claiming 'working skills in the application of computers, software', and, in the elective pool only, accounting-software operation with an 'Individual software assignment'. Level 2 requires core units to address AI capabilities AND limitations/ethics, assessed; neither required subject (ENGM90016, MGMT90146) mentions AI, data or digital tools at all, and no ethics-of-use content is assessed. No AI governance, bias, accountability or regulation content appears anywhere, so level 3 is not in reach.",
+      "evidenceLines": [
+        "Advanced working skills in the application of computers, software and new technologies relevant to management of technological enterprises",
+        "It also provides students with the opportunity to learn how to use accounting software and connect that to the recording of economic transactions.",
+        "Individual software assignment",
+        "Students must select three electives from the below list:"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2's anchor — 'At least one core assessment requires application to novel or unfamiliar problems — case variation, unseen datasets, cross-context projects' — is met by the required MGMT90146 capstone, which is documented as an integrative task applying knowledge from previous subjects to a competitive simulation whose outcomes depend on other teams' decisions, and by ENGM90016's assessed group project built on business cases or simulated business cases. Not level 3: that anchor requires documented structured progression toward independent learning — 'a self-scoped capstone or research project, or assessed identification of one's own knowledge gaps together with the plan to close them'. Both capstone tasks are supplied cases or simulations, not self-scoped, and the only gap-identification evidence ('Ongoing competence development mini-assignments', 'Critical reflection on competence development') sits in MGMT90140, an elective, not the core. The life-long-learning ILO is an outcome statement and cannot score under R2.",
+      "evidenceLines": [
+        "This subject provides an integrative learning experience and affords students the opportunity to apply the skills and knowledge acquired in previous subjects in a coherent way to solve business problems. In a business strategy simulation students are required to make decisions, assess outcomes, and compete with other management teams for resources, opportunities and markets.",
+        "It will make use of business cases, or simulation of business cases that are relevant to decision making and practice in the engineering management profession.",
+        "Group Project (Case or Simulation) groups of 4 with a workload equivalent to 1500 words per student. (40-45 hours per student) ILOs 1-5 are addressed in this assessment.",
+        "A sound attitude for undertaking life-long learning in technical and management fields",
+        "Critical reflection on competence development"
+      ]
+    },
+    "C5": {
+      "score": 0,
+      "rationale": "Level 0's anchor — 'Secondary synthesis only; no research-methods training' — is what the documented structure shows. The required content is one 12.5-point capstone plus a second required capstone; neither documents methodology selection, data collection, or a literature-review assessment. Level 1 requires an introductory methods unit or a literature-review assessment, and no such unit exists in the core; the only research references are generic-skills lines in the elective subjects MGMT90140 and MGMT90141, which by the level-1 anchor's own terms ('methods unit') do not qualify. Ambiguity between 0 and 1 was resolved DOWN per the scoring-direction rule.",
+      "evidenceLines": [
+        "Core Subjects (12.5 points)",
+        "All students will complete the following Engineering Capstone Project",
+        "And the following Capstone Project (12.5 points)",
+        "Research skills developed through preparation of exercises and assessment;",
+        "Use evidence evidence-based research techniques to support your decision making, and competence development"
+      ]
+    },
+    "adaptiveness": 6,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 1's anchor requires that core assessment involve 'no professional genre and no audience beyond the teaching team'; that is contradicted here. The required ENGM90016 assessment addresses ILO 1, which specifies formulating 'business cases and proposals for engineering projects to the senior levels of organisations such as the Board of Directors', and is assessed as a 20-minute presentation with Q&A; the required MGMT90146 assessment produces a 'Capstone Board Report' at 35%. A business case, proposal and board report are recognised professional genres, satisfying the first limb of level 2. Not level 3: that requires delivery to, or judgement by, a real external audience or practitioner (industry panel, client, patient, public exhibition) with professional conduct explicitly among the assessed criteria — the extract documents no external assessor and no conduct criterion. Under R4 the 'senior levels of organisations' framing is treated as the documented audience of a simulated task, not as evidence of a real one.",
+      "evidenceLines": [
+        "Work in teams to formulate business cases and proposals for engineering projects to the senior levels of organisations such as the Board of Directors",
+        "20 minute presentation with 5 minutes for questions and answers with a workload equivalent to 750 words. ILOs 1 and 2 are addressed in this assessment.",
+        "Capstone Board Report (groups of 4-5)",
+        "Capstone Strategy Statement (groups of 4-5)"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2's anchor — 'At least one core assessment reproduces a professional task end to end: a real or realistic problem, producing the artefact a practitioner would produce' — is documented: ENGM90016 assesses a group project on business cases or simulated business cases whose ILO output is 'a complete project management plan' covering scoping, cost modelling, budgeting, risk management, procurement, schedule and control measures, and MGMT90146 assesses a board report and strategy statement out of a firm simulation. These are practitioner artefacts, not academic ones, so level 1 (artefact and criteria remain academic) is excluded. Not level 3: that requires such tasks to be the assessment spine across the program AND at least one to carry a genuine constraint of practice — an ambiguous or externally supplied problem, real resource/time limits, or a consequential audience. Every documented problem is a supplied case or a simulation, no external client or supplier of the problem appears, and the spine claim cannot be established because the 37.5-point specialisation is absent from the extract while the documented elective pool is exam-weighted. Ambiguity between 2 and 3 resolved DOWN.",
+      "evidenceLines": [
+        "Analyse information and organise tasks to create a complete project management plan which may include but not limited to scoping, task definition, cost modelling, budgeting, risk management, procurement, schedule, sequencing of tasks and control measures",
+        "It will make use of business cases, or simulation of business cases that are relevant to decision making and practice in the engineering management profession.",
+        "Group Project (Case or Simulation) groups of 4 with a workload equivalent to 1500 words per student. (40-45 hours per student) ILOs 1-5 are addressed in this assessment.",
+        "Capstone Board Report (groups of 4-5)",
+        "This subject provides an integrative learning experience and affords students the opportunity to apply the skills and knowledge acquired in previous subjects in a coherent way to solve business problems. In a business strategy simulation students are required to make decisions, assess outcomes, and compete with other management teams for resources, opportunities and markets."
+      ]
+    },
+    "W3": {
+      "score": 0,
+      "rationale": "Level 0's anchor — 'No work-integrated learning, placement, practicum or community-based project appears anywhere in the course structure' — holds for the documented structure: the course-structure page lists one core capstone, an elective menu, a second required capstone and a specialisation, with no placement, practicum, internship or live client project named. Level 1 would require work-situated learning to exist at least as an elective or optional internship, and none appears. The item's own construct excludes simulation ('Simulation is NOT scored here; it is W2'), so ENGM90016's 'Case or Simulation' project and MGMT90146's business strategy simulation cannot score here. The in-practice route is unavailable: the overview describes the intended audience ('Project Management is for engineers to develop advanced project management skills in managerial roles') but the cohort is not documented as already practising, and no core unit assesses activity conducted in a student's own workplace with real recipients.",
+      "evidenceLines": [
+        "Core Subjects (12.5 points)",
+        "All students will complete the following Engineering Capstone Project",
+        "And the following Capstone Project (12.5 points)",
+        "Plus one specialisation (37.5 points)",
+        "Group Project (Case or Simulation) groups of 4 with a workload equivalent to 1500 words per student. (40-45 hours per student) ILOs 1-5 are addressed in this assessment."
+      ]
+    },
+    "workplace": 4,
+    "gates": {
+      "G1": {
+        "result": "FAIL",
+        "rationale": "The PASS condition requires a documented coherent specialist core with progressive technical or methodological depth — an all-compulsory specialist core, an accredited sequence, or a staged prerequisite chain. What the extract documents is 25 of 100 points compulsory (ENGM90016 plus the required MGMT90146 capstone), 37.5 points chosen freely from a menu of eight general-management subjects drawn from the Master of Management offering, and a 37.5-point specialisation whose content is not in the extract. No prerequisite chain or staged sequence is documented anywhere, and the capstone is offered in both semesters with no documented precondition. The AACSB reference is a business-school accreditation of the award, not a documented specialist sequence with progressive depth. That matches the FAIL condition, 'Generic or interchangeable content without disciplinary identity', on the documented evidence. Recorded as ambiguous in ambiguities and resolved against PASS per the never-resolve-upward rule; the missing specialisation pages are the main reason this could change.",
+        "evidenceLines": [
+          "The Master of Engineering Management is a 100 Point Program, and students will have a choice of two specialisations: Project Management or Change Management.",
+          "Core Subjects (12.5 points)",
+          "Students must select three electives from the below list:",
+          "Plus one specialisation (37.5 points)",
+          "See links to specialisations below (Change Management and Project Management).",
+          "The Master of Engineering Management is accredited by the Association to Advance Collegiate Schools of Business (AACSB).",
+          "The Master of Engineering Management has been developed in conjunction with Melbourne Business School to offer broader business study opportunities to our students. Students will choose from selected Master of Management subject offerings."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "The PASS condition is met by 'simulations/capstones/live projects with real uncertainty and accountability' plus assessments requiring defended trade-off decisions. MGMT90146's required capstone is a competitive simulation in which teams make decisions, assess outcomes and compete against other teams for resources and markets — the outcome depends on other teams' choices, which is genuine uncertainty — and the 35% board report defends those decisions. ENGM90016 assesses devising and applying decision criteria to economic and financial analysis and evaluating among alternative engineering solutions to make recommendations. This is well beyond the FAIL condition of recall or scripted responses, notwithstanding the heavy end-of-semester exam weighting in the elective pool.",
+        "evidenceLines": [
+          "This subject provides an integrative learning experience and affords students the opportunity to apply the skills and knowledge acquired in previous subjects in a coherent way to solve business problems. In a business strategy simulation students are required to make decisions, assess outcomes, and compete with other management teams for resources, opportunities and markets.",
+          "Devise and apply decision criteria to economic and financial analysis outcomes, and use them to make informed decisions as well as to make estimates in budgets",
+          "Identify key issues encountered in engineering management and/or engineering projects, evaluate among alternative engineering solutions and make recommendations based on best possible project",
+          "Capstone Board Report (groups of 4-5)"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C2 straddled levels 1 and 2: 'Individual reflection on the group project (750 words)' is an assessed self-appraisal, but no criteria, standards, exemplars or peer-review structure are documented, which level 2 requires. Resolved DOWN to 1 by the scoring-direction rule.",
+      "C4 straddled levels 2 and 3: both required subjects are titled capstones, which invites a level-3 reading, but neither is documented as self-scoped (both work from supplied cases or a simulation) and the only knowledge-gap identification is in the MGMT90140 elective. Resolved DOWN to 2.",
+      "C5 straddled levels 0 and 1: 'Research skills developed through preparation of exercises and assessment;' (MGMT90140) and equivalent lines in MGMT90141 are elective generic-skills claims, not an introductory methods unit or literature-review assessment. Resolved DOWN to 0.",
+      "W1 straddled levels 1 and 2: level 2's second limb, 'judged against criteria drawn from professional practice', is nowhere documented — the extract gives no marking criteria for any assessment in the program. It was scored 2 rather than 1 because level 1's anchor positively requires 'no professional genre', and the board report and board-level business case are professional genres; the missing criteria are recorded here rather than resolved upward into level 3.",
+      "W2 straddled levels 2 and 3: two of two required subjects carry practitioner-artefact tasks, which could read as an assessment spine, but no genuine constraint of practice is documented (every problem is a supplied case or a simulation, no external client or consequential audience) and the 37.5-point specialisation is missing so spine coverage cannot be verified. Resolved DOWN to 2.",
+      "G1 straddled PASS and FAIL: the AACSB accreditation line could be read as the 'accredited sequence' PASS route, but it accredits the award through the business school rather than documenting a staged specialist sequence, and only 25 of 100 points are compulsory with no prerequisite chain documented. Resolved to FAIL per the never-resolve-upward rule.",
+      "One-construct-one-home calls: ENGM90016's group composition and 'Progress reports for group project' scored in C1, while its 20-minute presentation addressing the board-proposal ILO scored in W1 (audience and genre), not C1. The 'Individual reflection on the group project' scored in C2 (appraisal of quality), not W2. The MGMT90146 and ENGM90016 simulations scored the fidelity of the task in W2 and are explicitly excluded from W3 per that item's construct."
+    ],
+    "notScoreable": [
+      "Specialisation subjects (37.5 points, i.e. 37.5% of the award) are entirely absent from the extract. The course-structure page states 'Plus one specialisation (37.5 points)' and 'See links to specialisations below (Change Management and Project Management).' but no specialisation subject page or assessment page was captured. All eight item scores therefore rest on the two required subjects (ENGM90016, MGMT90016's companion MGMT90146) and the eight documented elective subjects only. This bounds C1 level 3, C3, C4 level 3, C5, W2 level 3 and W3 in particular, and is the single most likely thing to change G1.",
+      "No marking criteria, rubrics or standards are documented for any assessment in the extract — assessment rows carry description, timing and percentage only. The 'criterion-referenced' limb of C2 level 2, and the 'judged against criteria drawn from practice' limb of W1 and W2 level 2, therefore cannot be verified from this evidence for any subject in the program."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-16"
+    }
+  }
+}

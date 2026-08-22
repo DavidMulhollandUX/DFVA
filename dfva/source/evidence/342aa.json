@@ -1,0 +1,141 @@
+{
+  "code": "342aa",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 1,
+      "rationale": "Level 1 anchor — collaboration appears in stated skills but no core unit assesses it. Multidisciplinary teamwork is asserted only in the repeated 'Generic skills' block of the core subjects (PSYT90004, PSYT90024, PSYT90094) and in an unassessed Old Age outcome about referral to other specialists; R2 bars scoring stated attributes. Level 2 would need a core unit to assess collaborative practice: the only candidate is the small-group preparation described in the Special Topics teaching narrative, but the assessed item is an individual 'Oral presentation as part of a series of related presentations and discussion' and the group work is nowhere named as the assessed object, so the group/individual boundary is undocumented. Ambiguity resolved down per the lower-level rule. Placement and workplace-supervisor evidence is excluded here and scored in W3 (one construct, one home).",
+      "evidenceLines": [
+        "Skills in collaborative working within multidisciplinary teams as well as peers, and across multiple organisations",
+        "Utilise appropriate referral to other specialists and services (both medical and social) for older people.",
+        "For some sessions, small groups of students will be assigned to prepare and contribute, every student having one opportunity to do so during the semester.",
+        "Oral presentation as part of a series of related presentations and discussion"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1 anchor — critical appraisal and critical evaluation appear in course aims, core learning outcomes and the generic-skills block, but no CORE unit assesses appraisal of quality against criteria. The core assessment inventory is written examinations emulating the RANZCP exam format, written assignments, essays, a literature-review assignment and oral presentations; none is described as peer review, structured critique, portfolio against standards, or marking against exemplars. The genuinely criterion-referenced critique tasks ('Critical Analysis of a published paper...') sit in selective subjects (PSYT90010, PSYT90016, PSYT90061), which students choose four of, so they are not core assessment as level 2 requires. Nothing anywhere requires documenting or justifying reliance decisions, so level 3 is not in play.",
+      "evidenceLines": [
+        "To promote research and critical evaluation in clinical practice",
+        "Demonstrate skills in critical appraisal of research.",
+        "Advanced critical appraisal and clinical analytic skills",
+        "A written examination emulating the format of the Royal Australian and New Zealand College of Psychiatrists Examinations",
+        "Written assignment including brief literature review - Psychiatry of Old Age focus",
+        "Critical Analysis of a published paper presenting an empirical research study and its methodology within an agreed research topic area. (This will form the basis of a thesis for those continuing on to complete the Research Project)"
+      ]
+    },
+    "C3": {
+      "score": 0,
+      "rationale": "Level 0 anchor — no digital or AI content in any core unit or program-level outcome. The extract carries the course overview, the program aims, and the overview, learning outcomes and assessment pages of all six core subjects; the content lists enumerate history taking, mental state examination, formulation, risk and cognitive assessment, legal and ethical issues, basic sciences, treatments, research methodology and critical appraisal, with no digital, computational or AI element. 'Online' appears throughout only as a delivery mode and an attendance-hurdle alternative, which is not digital-literacy content. Level 1 would need AI or digital tools at least as an elective or as tool operation; the selective list (substance use, CBT, ethics, forensic, psychopharmacology, research methods, psychodynamic therapy, transcultural, history and philosophy) contains none.",
+      "evidenceLines": [
+        "This subject will cover skills such as history taking, mental state examination, formulation, risk and cognitive assessment, legal and ethical issues and basic sciences, psychological, social and biological treatments, research methodology and critical appraisal of research;",
+        "To provide education about the specific attitudes, knowledge and skills needed to effectively work in the area of mental health",
+        "Students must complete six core subjects and four selective subjects.",
+        "Hurdle requirement: 75% attendance of sessions (for face to face students) OR 75% completion of online modules (for online students)."
+      ]
+    },
+    "C4": {
+      "score": 1,
+      "rationale": "DEMOTED from 2 to 1 on adversarial verification. The level-2 case rested entirely on the Consultation Liaison case study, whose load-bearing feature is that it is 'derived for the students current placement' — and the one-construct-one-home rule states that placement evidence scores in W3, never in C1 or C4; the same line is already carried by W2 and W3. With it removed, no remaining core assessment is documented as requiring application to a novel or unfamiliar problem: the rest of the core inventory is a literature-review assignment, set-topic essays, written assignments, oral presentations and RANZCP-format written examinations, none described as case variation, unseen data or cross-context transfer. Every other line cited for C4 ('To encourage students to become critical thinkers and pursue lifelong learning...', 'Improve self-directed learning skills...', 'Generate a plan to support the attainment of skills...') is an outcome statement, which R2 caps at level 1. Level 3 remains out of reach for the reason originally given: the self-scoped Psychiatric Research Project is one of two capstone routes, so structured progression toward independent learning is not documented for the cohort. Level 1 anchor — transfer claimed in outcomes but not assessed.",
+      "evidenceLines": [
+        "To encourage students to become critical thinkers and pursue lifelong learning and self-directed professional development",
+        "Improve self-directed learning skills and enhance motivation to innovate and incorporate novel ideas in day-to-day work",
+        "Generate a plan to support the attainment of skills and maintenance of currency throughout their professional career",
+        "Students have the option to complete a thesis or do a dissertation if they choose the Psychiatric Research Subject. Those not undertaking the Psychiatric Research Subject will complete the other Capstone subject, Special Topics in Psychiatry. There is also the possibility of taking some or the entire course on a continuing education, rather than a degree basis.",
+        "EITHER PSYT90094 - Special Topics in Psychiatry OR PSYT90093 - Psychiatric Research Project*"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2 anchor — students design and conduct an inquiry with methodology selection and data collection, assessed. The Psychiatric Research Project requires methodology choice, data collection, analysis and a 6000-word report, assessed with a staged supervisor's report; the prerequisite Research Methods subject supplies the introductory methods and ethics training. Level 3 is explicitly withheld because its anchor demands the substantial primary-evidence project be REQUIRED and not one route among several — the course structure states the capstone as an either/or with Special Topics in Psychiatry, so a student can complete the degree without generating primary evidence. The fortnightly supervisor meetings and three staged supervisor reports would otherwise satisfy the 'staged supervised review' clause, which is what makes the 2/3 boundary the live one; resolved down per the lower-level rule.",
+      "evidenceLines": [
+        "EITHER PSYT90094 - Special Topics in Psychiatry OR PSYT90093 - Psychiatric Research Project*",
+        "In this unit students will be given an introduction to research tools and practice at a basic or introductory level. The course will cover aspects of critical appraisal, research study design qualitative and quantitative statistical methodology and practical aspects of research, such as Ethics submission and seeking funding.",
+        "Conduct data collection, analysing and interpreting data, critically discussing the implications of the findings,",
+        "Final Research Report (organised into Abstract, Introduction, Methods, Results, Discussion, Conclusion, References) - incorporates work undertaken in research prerequisite subject",
+        "Supervisor's Report (standards of self-direction, initiative, data collection, ethical conduct) 3 reports. One at start, oner at mid-term, one at end of term.",
+        "Hurdle requirement: Fortnightly meetings with supervisor througout the subject"
+      ]
+    },
+    "adaptiveness": 5,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1 anchor — communication appears in outcomes and generic skills, and core assessment adds presentation to peers and staff, but no professional genre and no audience beyond the teaching team. Core spoken assessment is the oral presentation in Child and Adolescent Psychiatry and in Special Topics, both delivered within the seminar series; the Child and Adolescent outcome names communication 'of these ideas to ones peers'. All core written assessment is academic genre addressed to the marker — essays, written assignments, and examinations emulating the RANZCP examination format (an examination is a credentialing genre judged by examiners, not communication to a professional audience). Level 2 would need a recognised professional genre or an external audience judged against practice criteria in core assessment; none is documented. The RANZCP workplace-based assessments by workplace supervisors are the only external-practitioner judgement in the program and are scored in W3, not double counted here.",
+      "evidenceLines": [
+        "Improved written and communication skills",
+        "Transfer theoretical readings and synthesis of the available evidence base into key ideas, and develop skills in succinct communication (orally and in professional written form) of these ideas to ones peers.",
+        "Oral presentation as part of a series of related presentations and discussion",
+        "Written essay on child and adolescent psychiatry",
+        "One written examination (for face to face students) OR examination conducted entirely online requiring typing (for online students) emulating the format of the Royal Australian and New Zealand College of Psychiatrists Examinations",
+        "Written Assessment"
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Level 1 anchor — contextualised and case-framed tasks appear, but the artefact produced and the criteria applied remain academic. Core assessment is a word-counted case study, a literature-review assignment, a set-topic essay, written assignments and timed written examinations; the case study is drawn from real practice, which supplies the situational framing level 1 describes, but the deliverable is a 2000-word account 'illustrating a number or principles in C-L psychiatry' rather than the artefact a psychiatrist produces (a clinical assessment, formulation, consultation note or management plan) judged against practice criteria, so level 2's end-to-end professional-task test is not met. Per R4 the RANZCP-alignment wording is not scored as authenticity; only documented task features count, and the documented feature is an examination format. Real workplace activity is scored in W3, and appraisal of quality in C2. Ambiguity resolved down.",
+      "evidenceLines": [
+        "A brief case study derived for the students current placement, illustrating a number or principles in C-L psychiatry",
+        "Written assignment including brief literature review - Psychiatry of Old Age focus",
+        "Essay - set topic will focus on vocational aspects of the psychiatrist role (Capstone)",
+        "One written examination (for face to face students) OR examination conducted entirely online requiring typing (for online students) emulating the format of the Royal Australian and New Zealand College of Psychiatrists Examinations",
+        "A written assignment"
+      ]
+    },
+    "W3": {
+      "score": 2,
+      "rationale": "DEMOTED from 3 to 2 on adversarial verification. Level 2's in-practice route is fully satisfied: the cohort is documented as already practising (doctors; psychiatric trainees complementing the RANZCP Training Program) and core units assess activity in the student's own practice with a documented outcome measure — every core subject carries a fieldwork hurdle of three RANZCP workplace-based assessments or three workplace practical activity log sheets. Level 3's in-practice route is conjunctive and two conjuncts fail. (a) Documented accountability to workplace stakeholders is not REQUIRED: all six fieldwork hurdles are an OR against a WPAL route with no workplace supervisor — 'completed by a suitable peer and checked by the subject coordinator' (PSYT90004, PSYT90024, PSYT90094) or merely 'taken away and then checked by the subject coordinator' (PSYT90006, PSYT90078, PSYT90079) — so a student can clear every fieldwork hurdle without any workplace supervisor judging them. (b) Structured reflection on professional practice is not documented in any assessment: the Consultation Liaison case study's stated purpose is 'illustrating a number or principles in C-L psychiatry' (application of taught principles, not reflection), and the Old Age/capstone item is a 'set topic' essay on the psychiatrist role in general, with no documented requirement to reflect on the student's own practice — R1 bars scoring what plausibly happens over what is documented. Coverage is also narrower than a level-3 reading assumed: PSYT90093, one of the two capstone routes, carries no fieldwork hurdle at all. Resolved down to 2.",
+      "evidenceLines": [
+        "With the need to improve and facilitate the delivery of psychiatric care to a broader cross section of the community, this academic qualification provides doctors with the opportunity to develop their knowledge and skills in working with patients experiencing mental illness.",
+        "Psychiatric trainees will particularly appreciate the benefits of this program, as they complement the RANZCP Training Program.",
+        "Hurdle requirement: Fieldwork – 3 RANZCP workplace based assessments (WBAs) by workplace supervisors (approx 90mins each or longer depending on competency) OR 3 Workplace Practical Activity Log sheets (WPALs) to be taken away and then checked by the subject coordinator after submission.",
+        "Hurdle requirement: Fieldwork - either: 3 RANZCP workplace based assessments (WBAs) by workplace supervisors (approx. 90min each, or more time depending on competency), OR 3 Workplace Practical Activity Log sheets (WPALs) to be taken away and then checked by the subject coordinator after submission.",
+        "Hurdle requirement: Either: 3 RANZCP Workplace Based Assessments (WBAs) by workplace supervisors OR 3 Workplace Practical Activity Log sheets (WPALs) to be completed by a suitable peer and checked by the subject coordinator after submission.",
+        "A brief case study derived for the students current placement, illustrating a number or principles in C-L psychiatry",
+        "Essay - set topic will focus on vocational aspects of the psychiatrist role (Capstone)"
+      ]
+    },
+    "workplace": 4,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "A coherent specialist core with progressive depth and an accredited sequence: six compulsory specialist psychiatry subjects plus four selectives, professionally accredited by the RANZCP, aligned to the College's competency-based fellowship, staged across three years (Core Psychiatry I then II, then subspecialty subjects, then a final-semester capstone), with a documented prerequisite chain into the research capstone. Nothing here is generic or interchangeable content.",
+        "evidenceLines": [
+          "Royal Australian and New Zealand College of Psychiatrists (RANZCP)",
+          "Students must complete six core subjects and four selective subjects.",
+          "This subject will aim to align with the proposed new Competency Based Fellowship of the Royal Australian and New Zealand College of Psychiatrists.",
+          "* prerequisite subject for Psychiatry Research Project (PSYT90010 Research Methods in Psychiatry)",
+          "This is one of two capstone subject options, taught in the final semester of the Master of Psychiatry course. As such, it aims to help students integrate the diverse knowledge and skills acquired in the previous five semesters to prepare them for their transition to professional practice."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Core assessment goes beyond recall or scripted response: the Consultation Liaison case study is built from a real, externally supplied case in the student's own placement with genuine clinical uncertainty and accountability, and the core clinical outcomes require formulation, differential diagnosis and management decisions under the ambiguity of an individual presentation and its social milieu, with the workplace-based assessment hurdles judged by supervisors in live practice. Written examinations exist alongside these but are not the only mode.",
+        "evidenceLines": [
+          "A brief case study derived for the students current placement, illustrating a number or principles in C-L psychiatry",
+          "Formulate a comprehensive psychiatric assessment following on from a clinical interview of older persons to effectively assess mental state with particular reference to cognitive function.",
+          "Analyse and apply the skills necessary to manage common psychiatric disorders affecting older people and the sensitivity to the social milieu in which the aged person lives with particular reference to the need to support and assist carers of older persons with psychiatric disorders.",
+          "Hurdle requirement: Fieldwork – 3 RANZCP workplace based assessments (WBAs) by workplace supervisors (approx 90mins each or longer depending on competency) OR 3 Workplace Practical Activity Log sheets (WPALs) to be taken away and then checked by the subject coordinator after submission."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1 straddled 1 and 2: Special Topics documents that 'small groups of students will be assigned to prepare and contribute', but the assessed item is described only as an oral presentation, with no documented group product or individual accountability within a group — resolved to 1 by the never-resolve-upward rule.",
+      "C2 straddled 1 and 2: genuine criterion-referenced critique tasks exist (Research Methods 'Critical Analysis of a published paper', Forensic Psychiatry critical review, Psychopharmacology critical analysis exercise) but all sit in selective subjects, and the level-2 anchor requires CORE assessment — resolved to 1.",
+      "C4 straddled 1 and 2 and was resolved to 1 on adversarial verification: the level-2 reading rested on the Consultation Liaison case study, but its novelty comes from the student's own placement, and placement evidence has its home in W3 (one construct, one home). The remaining C4 lines are outcome statements, which R2 caps at level 1. The 2/3 question is therefore moot; the earlier note that the self-scoped Psychiatric Research Project is only one of two capstone routes ('EITHER PSYT90094 ... OR PSYT90093') still holds against any level-3 reading.",
+      "C5 straddled 2 and 3: staged supervised review is documented (three supervisor's reports plus fortnightly supervisor meetings), but the level-3 anchor's explicit 'REQUIRED (not one route among several)' clause fails because the primary-evidence project is an alternative to Special Topics — resolved to 2.",
+      "W1 vs W3 (one construct, one home): the RANZCP workplace-based assessments are judged by workplace supervisors, i.e. practitioners beyond the teaching team, which could be read into W1 level 3 ('judged by a real external audience or practitioner'). Scored in W3 only, whose construct names assessed activity in the student's own practice; W1 therefore rests on in-seminar presentation evidence and scores 1.",
+      "W2 vs W3: the Consultation Liaison case study is used in W2 as evidence of situational framing (level 1) and in W3 as evidence of assessed own-practice activity. The same task informs two items, so it is noted here; its fidelity-of-artefact reading did not lift W2 to 2, and on verification it was also found not to establish reflection on the student's own practice for W3.",
+      "W3 straddled 2 and 3 and was resolved DOWN to 2 on adversarial verification, correcting an initial level-3 score that had been recorded as the one place the scoring did not resolve downward. Level 3's conjuncts fail twice: every fieldwork hurdle offers a WPAL route with no workplace supervisor (peer-completed or coordinator-checked), so accountability to workplace stakeholders is not required; and no core assessment documents structured reflection on the student's own practice — the placement case study is framed as illustrating taught principles and the capstone essay is a set topic on the psychiatrist role in general."
+    ],
+    "notScoreable": [
+      "C3: no absence-of-evidence problem — the extract carries the program aims plus the overview, outcomes and assessment pages of all six core subjects, and none mentions digital or AI content, so level 0 is documented rather than inferred. The only 'technology' occurrences in the whole extract are 'assisted reproduction technology' in Perinatal Psychiatry, a selective marked 'Not available in 2026'.",
+      "No eligibility-and-requirements page text was captured for any subject, so prerequisite-level detail beyond the course-structure footnote could not be checked; this did not affect any item score.",
+      "Assessment detail for the Standard-vs-Intensive delivery split (how the six core subjects are sequenced in the one-year intensive mode) is not in the extract; scoring treated the six core subjects as common to both modes, as the course-structure page states."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-17"
+    }
+  }
+}

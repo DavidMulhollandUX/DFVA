@@ -88,6 +88,246 @@ export interface V4OnlyProgram {
 }
 
 export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
+  "038ab": {
+    "code": "038ab",
+    "name": "Master of Art Curatorship",
+    "hasMarketReport": false,
+    "exposure": 76.58,
+    "entryExposure": 74.44,
+    "jirN": 94,
+    "nTitles": 15,
+    "nMedium": 10
+  },
+  "097ab": {
+    "code": "097ab",
+    "name": "Master of Development Studies",
+    "hasMarketReport": false,
+    "exposure": 92.5,
+    "entryExposure": 92.94,
+    "jirN": 104,
+    "nTitles": 14,
+    "nMedium": 13
+  },
+  "175aa": {
+    "code": "175aa",
+    "name": "Master of Arts and Cultural Management",
+    "hasMarketReport": false,
+    "exposure": 85.86,
+    "entryExposure": 81.76,
+    "jirN": 98,
+    "nTitles": 15,
+    "nMedium": 11
+  },
+  "192aa": {
+    "code": "192aa",
+    "name": "Master of International Tax",
+    "hasMarketReport": false,
+    "exposure": null,
+    "entryExposure": null,
+    "jirN": null,
+    "nTitles": null,
+    "nMedium": null
+  },
+  "195aa": {
+    "code": "195aa",
+    "name": "Master of Construction Law",
+    "hasMarketReport": false,
+    "exposure": 95.64,
+    "entryExposure": 94.68,
+    "jirN": 88,
+    "nTitles": 15,
+    "nMedium": 2
+  },
+  "305bb": {
+    "code": "305bb",
+    "name": "Master of Clinical Audiology",
+    "hasMarketReport": false,
+    "exposure": 81.09,
+    "entryExposure": 79.31,
+    "jirN": 156,
+    "nTitles": 15,
+    "nMedium": 5
+  },
+  "342aa": {
+    "code": "342aa",
+    "name": "Master of Psychiatry",
+    "hasMarketReport": false,
+    "exposure": 90.74,
+    "entryExposure": 88.67,
+    "jirN": 54,
+    "nTitles": 14,
+    "nMedium": 7
+  },
+  "344ab": {
+    "code": "344ab",
+    "name": "Master of Public Policy and Management",
+    "hasMarketReport": false,
+    "exposure": 95.04,
+    "entryExposure": 92.34,
+    "jirN": 165,
+    "nTitles": 15,
+    "nMedium": 13
+  },
+  "502cw": {
+    "code": "502cw",
+    "name": "Master of Laws",
+    "hasMarketReport": false,
+    "exposure": 94.83,
+    "entryExposure": 94.15,
+    "jirN": 676,
+    "nTitles": 15,
+    "nMedium": 6
+  },
+  "504aa": {
+    "code": "504aa",
+    "name": "Master of Commercial Law",
+    "hasMarketReport": false,
+    "exposure": 94.39,
+    "entryExposure": null,
+    "jirN": 63,
+    "nTitles": 15,
+    "nMedium": 6
+  },
+  "507aa": {
+    "code": "507aa",
+    "name": "Master of Health and Medical Law",
+    "hasMarketReport": false,
+    "exposure": null,
+    "entryExposure": null,
+    "jirN": null,
+    "nTitles": null,
+    "nMedium": null
+  },
+  "510aa": {
+    "code": "510aa",
+    "name": "Master of Employment and Labour Relations Law",
+    "hasMarketReport": false,
+    "exposure": null,
+    "entryExposure": null,
+    "jirN": null,
+    "nTitles": null,
+    "nMedium": null
+  },
+  "511aa": {
+    "code": "511aa",
+    "name": "Master of Public and International Law",
+    "hasMarketReport": false,
+    "exposure": 95.8,
+    "entryExposure": null,
+    "jirN": 39,
+    "nTitles": 12,
+    "nMedium": 5
+  },
+  "526aa": {
+    "code": "526aa",
+    "name": "Master of Banking and Finance Law",
+    "hasMarketReport": false,
+    "exposure": null,
+    "entryExposure": null,
+    "jirN": null,
+    "nTitles": null,
+    "nMedium": null
+  },
+  "527cn": {
+    "code": "527cn",
+    "name": "Master of Psychology (Clinical Neuropsychology)",
+    "hasMarketReport": false,
+    "exposure": null,
+    "entryExposure": null,
+    "jirN": null,
+    "nTitles": null,
+    "nMedium": null
+  },
+  "742ab": {
+    "code": "742ab",
+    "name": "Master of Tax",
+    "hasMarketReport": false,
+    "exposure": 98.37,
+    "entryExposure": 98.91,
+    "jirN": 57,
+    "nTitles": 13,
+    "nMedium": 5
+  },
+  "761em": {
+    "code": "761em",
+    "name": "Master of Engineering Management",
+    "hasMarketReport": false,
+    "exposure": 91.05,
+    "entryExposure": 89.03,
+    "jirN": 89,
+    "nTitles": 15,
+    "nMedium": 10
+  },
+  "841ac": {
+    "code": "841ac",
+    "name": "Bachelor of Oral Health",
+    "hasMarketReport": false,
+    "exposure": 64.6,
+    "entryExposure": 60.88,
+    "jirN": 61,
+    "nTitles": 12,
+    "nMedium": 3
+  },
+  "872bb": {
+    "code": "872bb",
+    "name": "Master of Veterinary Science",
+    "hasMarketReport": false,
+    "exposure": null,
+    "entryExposure": null,
+    "jirN": null,
+    "nTitles": null,
+    "nMedium": null
+  },
+  "991aa": {
+    "code": "991aa",
+    "name": "Master of Biostatistics",
+    "hasMarketReport": false,
+    "exposure": null,
+    "entryExposure": null,
+    "jirN": null,
+    "nTitles": null,
+    "nMedium": null
+  },
+  "b-agr": {
+    "code": "b-agr",
+    "name": "Bachelor of Agriculture",
+    "hasMarketReport": false,
+    "exposure": null,
+    "entryExposure": null,
+    "jirN": null,
+    "nTitles": null,
+    "nMedium": null
+  },
+  "b-arts": {
+    "code": "b-arts",
+    "name": "Bachelor of Arts",
+    "hasMarketReport": false,
+    "exposure": null,
+    "entryExposure": null,
+    "jirN": null,
+    "nTitles": null,
+    "nMedium": null
+  },
+  "b-bmed": {
+    "code": "b-bmed",
+    "name": "Bachelor of Biomedicine",
+    "hasMarketReport": false,
+    "exposure": null,
+    "entryExposure": null,
+    "jirN": null,
+    "nTitles": null,
+    "nMedium": null
+  },
+  "b-com": {
+    "code": "b-com",
+    "name": "Bachelor of Commerce",
+    "hasMarketReport": false,
+    "exposure": null,
+    "entryExposure": null,
+    "jirN": null,
+    "nTitles": null,
+    "nMedium": null
+  },
   "mc-mgmthre": {
     "code": "mc-mgmthre",
     "name": "Master of Management (Human Resources)",
@@ -104,6 +344,633 @@ export const v4OnlyProgramByCode = (code: string): V4OnlyProgram | undefined =>
   V4_ONLY_PROGRAMS[code.toLowerCase()];
 
 export const V4_PANEL_C: Record<string, V4PanelC> = {
+  "038ab": {
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2's anchor — 'At least one core unit assesses collaborative practice — group projects with individual accountability' — is met inside the compulsory subject ACUR90001 Issues in Art Conservation, which assesses three group presentations (15% each) plus an individually-submitted reflection on the group activity (10%), so collaboration is graded with individual accountability rather than only claimed. Not level 3: the anchor additionally requires an assessment in which work is coordinated across people AND tools/AI systems (documented role and tool allocation, or the human/system division of labour itself assessed), and nothing in the extract documents any tool or system in a collaborative task; recurrence across the program also rests on the capstone streams, only one of which (ACUR90011) documents team work, and it is one of three electable streams. Per the one-construct-one-home rule the ACUR90012 placement evidence is excluded here and scored in W3.",
+      "evidenceLines": [
+        "Group presentation (Disaser Preparation/Management) - 5 minutes",
+        "Group presentation (Packing for Travelling Exhibition) - 5 minutes",
+        "Group presentation (Condition of Display)",
+        "Individual reflection of group activity",
+        "Be able to participate in team work through involvement in syndicate groups and group discussions.",
+        "Participate productively in teamwork through involvement in syndicate groups and group discussions",
+        "Industry Project Proposal (An exhibition content proposal, developed and presented in a team, with individual written version to be submitted by each student)"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1's anchor — reflection appears in outcomes/attributes but no core unit assesses it against criteria — is the highest anchor the documented evidence supports. Reflection is assessed in core (ACUR90001's 'Individual reflection of group activity', 10%) and in two of three capstone streams ('Reflective Journal', 20%), but level 2 requires criterion-referenced appraisal of the quality of work — peer review, structured critique, portfolio with standards, marking against exemplars — and the extract documents no criteria, standards or exemplars against which any of that reflection is judged. The nearest peer-review evidence is an outcome statement in ARTS90032 ('applying professional skills like drafting, editing, and peer reviewing'), which is an outcome on one capstone stream and never appears as an assessment task, so R2 caps it at 1. The critique verbs that do appear in core outcomes are critique of discourse, display strategies and mission statements — appraisal of external artefacts, not appraisal of the quality of one's own, peers' or a tool's work. No assessment anywhere requires documenting or justifying a reliance decision, so level 3 is not in contention.",
+      "evidenceLines": [
+        "Individual reflection of group activity",
+        "Reflective Journal",
+        "Reflect on authentic, vocationally relevant experiences gained in course of conceiving and managing an exhibition project.",
+        "Reflect on authentic vocational experiences gained in an industry setting.",
+        "Produce persuasive academic writing in various genres, such as literature reviews and research proposals, by applying professional skills like drafting, editing, and peer reviewing.",
+        "Critique the current discourse associated with the management of museums, including issues relating to access, education, and funding",
+        "Apply an understanding of the relationship between museums and concepts of national and cultural identity to critique the mission statements of public arts institutions."
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1's anchor — digital content appearing only as electives — is what the structure documents: 'Writing and Editing for Digital Media' (PUBL90006) sits in the elective list in all three program lengths, and the only other technology content is the elective ACUR90007's reference to the impact of new technologies on collection practice. Not level 2: that anchor requires core units to address AI capabilities AND limitations/ethics with use-with-limits assessed, and none of the four compulsory subjects (ACUR90001, ACUR90002, ACUR90006, AHIS90005) mentions digital tools, data or AI in its description, outcomes or assessment table. The words 'artificial intelligence', 'AI', 'algorithm' and 'machine learning' do not occur anywhere in the extract, so the level-3 governance/critique anchor cannot be tested at all. The program-level references to technology are narrative graduate-attribute prose, not assessed content, so R2 bars them from lifting the score.",
+      "evidenceLines": [
+        "Writing and Editing for Digital Media",
+        "of art history and the impact of new technologies to specific skills associated with accessioning and de-accessioning, cataloguing systems, and collection policies.",
+        "Elective subjects",
+        "Students will gain a deep understanding of the changing contexts in which the profession operates, such as globalisation, new curatorial innovations, shifts in art and art museums, and the impact of new technologies on art museums, art galleries and professional practice."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3's anchor — 'The program documents structured progression toward independent learning: a self-scoped capstone or research project' — is met and is assessment-backed as R2 demands. The capstone is compulsory and unwaivable, must sit in the final hundred points, and every one of the three streams requires the student to scope their own research topic: stream 1 requires a student-submitted research proposal that the coordinator may reject before entry to the minor thesis, assessed as a 12,000-word thesis at 100%; stream 2 requires original research on an approved topic selected in consultation with the supervisor, assessed as a 3,000-word Research Essay at 30%; stream 3 requires self-directed research on an approved topic, assessed identically. Because the self-scoping route exists on all three streams, the level-3 requirement holds regardless of which capstone a student elects, which is what distinguishes this from the level-2 anchor of a single novel-problem assessment. The 200-point structure also documents the progression itself: foundation electives in the first 50 points, compulsory subjects, then the capstone in the final hundred.",
+      "evidenceLines": [
+        "All students are required to complete one Capstone stream (at least 25 points). This requirement cannot be waived or replaced in any circumstances.",
+        "Capstone subjects must be completed in the final hundred points of the program.",
+        "Students need to submit a research proposal",
+        "As part of the classroom component, students will also conduct self-directed research on an approved topic selected in consultation with the subject coordinator.",
+        "As part of the classroom component, students will also conduct original research on an approved topic selected in consultation with the supervisor.",
+        "A thesis on an approved topic, written over two consecutive semesters",
+        "Research Essay",
+        "Apply knowledge and skills to demonstrate autonomy, expert judgement, adaptability and responsibility as researcher",
+        "Foundation elective subjects (50 points) - must be completed in the first 50 points of the program"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2's anchor — students design and conduct an inquiry with methodology selection and data collection, assessed — is documented on the thesis stream: the research must incorporate primary as well as theoretical inquiry, the outcomes require differentiating research methods for collecting primary and secondary data, the companion ARTS90032 requires identifying and applying methodologies including data collection and analysis, and both are assessed (12,000-word thesis at 100%; 2,500-word research proposal at 50%). Level 3 fails on its own exclusion clause: it requires that the substantial primary-evidence project be REQUIRED and 'not one route among several', whereas the thesis is one of three capstone streams a student chooses between, the other two of which document research without any primary-data-collection requirement. The 80%-supervision-meeting hurdle is the closest thing to staged supervised review, but no viva or defence is documented and it too binds only on the thesis route, so the ambiguity resolves down.",
+      "evidenceLines": [
+        "Students enrolled in this subject will undertake a piece of research in arts management approved by the course coordinator. The research will incorporate both theoretical inquiry and primary research.",
+        "Differentiate research methods for the collection of both primary and secondary data.",
+        "Identify and apply appropriate research methodologies and practices, including data collection, analysis, and interpretation techniques, to address their research question in the field of culture and communication.",
+        "A thesis on an approved topic, written over two consecutive semesters",
+        "Hurdle requirement: 1. Students are required to attend a minimum of 80% of supervision meetings in order to qualify to have their written work assessed.",
+        "Choose one of the capstone options:",
+        "Capstone stream 1"
+      ]
+    },
+    "adaptiveness": 9,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2's anchor — at least one core assessment requiring a recognised professional genre — is met by the compulsory ACUR90006 Exhibition Management, whose two assessments are a venue analysis (20%) and a 4,000-word exhibition proposal (80%). A venue analysis and an exhibition proposal are the genres a curator actually writes, and per R4 that is a documented feature of the task rather than an 'industry-relevant' label; the criteria clause is supported by the subject's own outcomes framing the proposal against best practice and key responsibilities in venue-based exhibition management. Level 1 is excluded because it requires that no professional genre be assessed, and the exhibition proposal contradicts that. Not level 3: that anchor requires professional communication assessed repeatedly and progressively AND at least one core assessment delivered to or judged by a real external audience or practitioner, with conduct or accountability explicitly among the assessed criteria; the extract documents no external audience or practitioner assessor in any compulsory subject, and the conduct language (governance, ethics and accountability in ACUR90002) is an outcome statement only, which R2 and Barrie forbid scoring.",
+      "evidenceLines": [
+        "A venue analysis",
+        "An exhibition proposal",
+        "Identify best practice and key responsivities in managing the development and presentation of venue-based exhibitions",
+        "Apply knowledge and expertise to the development of a thorough and detailed exhibition proposal applicable in a future real-world industry context",
+        "Analyse professional performance expectations in the museum sector, especially as relating to governance, ethics and accountability, and apply this to professional practice in an art museum.",
+        "Demonstrate highly developed skills in presentations"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2's anchor — at least one core assessment reproducing a professional task end to end, producing the artefact a practitioner would produce — is met by ACUR90006's venue analysis followed by a full exhibition proposal, which together carry 100% of that compulsory subject and reproduce the curatorial planning sequence, judged per the subject's outcomes against key steps in conceptualising, planning and implementing venue-based exhibition projects. Not level 3: that anchor requires such tasks to be the program's assessment spine rather than a single instance. Of the four compulsory subjects, only ACUR90006 produces a practitioner artefact — ACUR90002 assesses a seminar paper and a take-home exam, AHIS90005 an exercise, a research essay and participation, and ACUR90001 group presentations plus a take-home exam. The strongest authentic evidence (ACUR90011's Industry Portfolio and 138-hour practical exhibition project, ACUR90012's Industry Portfolio for a host organisation) sits in capstone streams a student may decline in favour of the thesis, so the spine is not documented for all students and the ambiguity resolves down.",
+      "evidenceLines": [
+        "A venue analysis",
+        "An exhibition proposal",
+        "Determine key steps in conceptualising, planning and implementing venue-based art and cultural artefacts displays and exhibition projects relevant to a career in the visual arts industry",
+        "A seminar paper",
+        "A take home exam",
+        "An exercise",
+        "A research essay",
+        "Industry Portfolio (A portfolio of work for the host organisation created as part of the industry project)",
+        "Practical Exhibition Project",
+        "Choose one of the capstone options:"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1's anchor — work-situated learning existing as an optional internship — is exactly what the structure documents. ACUR90012 Art Curatorship Core and Placement carries a genuine 150-hour supervised placement with a hurdle and a portfolio produced for the host organisation, but it is capstone stream 3, one of three electable streams, and the course overview itself frames the internship as an opportunity that may be substituted by an exhibition-based project. Level 2 requires that 'a core unit places students in a real workplace or professional-community setting', and no compulsory subject does: a student may complete the entire degree via the thesis stream with no workplace participation at all. The in-practice route added at v4.2 does not apply — nothing in the extract documents this cohort as already practising in the profession. ACUR90011's exhibition project is supervised by subject coordinators rather than a host workplace and is scored as task fidelity in W2, not here.",
+      "evidenceLines": [
+        "Students have the opportunity to do an industry internship as part of their studies, or to engage in an exhibition based project.",
+        "Capstone stream 3",
+        "Choose one of the capstone options:",
+        "For the placement component, students will be assisted to find a placement in a professional working environment where they will gain direct exposure to professional practice in gallery and museum contexts.",
+        "They will work under the guidance of a senior staff member, with additional support from the subject coordinator.",
+        "Students will be required to complete 150 hours of on-site work experience to fulfil this component of the subject.",
+        "Internship Placement",
+        "Hurdle requirement: Students must complete this practical component of the subject."
+      ]
+    },
+    "workplace": 5,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program documents a coherent specialist core with staged progression rather than interchangeable generic content: 50 points of compulsory discipline subjects (art conservation, art museums and curatorship, exhibition management, history and philosophy of museums) common to the 100-, 150- and 200-point entries, an unwaivable capstone that must fall in the final hundred points, and, in the 200-point entry, 50 points of foundation art-history electives that must be completed first. The sequence foundation-then-core-then-capstone is the staged chain the PASS anchor names, and every compulsory and capstone subject sits in the ACUR/AHIS discipline codes.",
+        "evidenceLines": [
+          "Compulsory subjects (50 points)",
+          "All compulsory and capstone subjects must be completed to be eligible to graduate from the program.",
+          "Capstone subjects must be completed in the final hundred points of the program.",
+          "All students are required to complete one Capstone stream (at least 25 points). This requirement cannot be waived or replaced in any circumstances.",
+          "Foundation elective subjects (50 points) - must be completed in the first 50 points of the program"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "The PASS anchor is satisfied by capstones and live projects with real uncertainty and accountability, plus assessments requiring defended trade-off decisions. Every student must complete a capstone, and all three streams place the student in genuine uncertainty: a self-scoped thesis whose proposal can be rejected, a team-delivered real exhibition project with a 138-hour practical hurdle, or a 150-hour placement with a portfolio owed to a host organisation. In the compulsory core, ACUR90006's exhibition proposal requires committing to a venue and a plan, and ACUR90001 assesses group work on disaster preparation, packing for travel and condition of display alongside outcomes requiring students to weigh the ethical and theoretical trade-offs of cleaning, restoration and authentication. This is not recall or scripted response.",
+        "evidenceLines": [
+          "For the practice-based component, teams of students will conceive and deliver a real-world exhibition project that applies knowledge learned within their program.",
+          "Practical Exhibition Project",
+          "Hurdle requirement: Students must complete this practical component of the subject.",
+          "An exhibition proposal",
+          "Discuss ethical and theoretical issues raised by the cleaning, restoration, authentication and presentation of works of art",
+          "Group presentation (Disaser Preparation/Management) - 5 minutes",
+          "All students are required to complete one Capstone stream (at least 25 points). This requirement cannot be waived or replaced in any circumstances."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3 straddled 0 and 1: no compulsory subject and no intended learning outcome carries digital or AI content, which literally satisfies the level-0 anchor, but 'Writing and Editing for Digital Media' is listed as an elective in all three program lengths and the graduate-attribute prose names the impact of new technologies on professional practice. Resolved at 1 because the level-1 anchor ('appear only as electives') is affirmatively met by documented curriculum, whereas level 0 asserts an absence the elective list contradicts.",
+      "C2 straddled 1 and 2: a compulsory subject does assess reflection ('Individual reflection of group activity', 10%), which strains the level-1 wording that no core unit assesses it, but the level-2 anchor requires criterion-referenced appraisal of quality and no criteria, standards or exemplars are documented for that task. Resolved DOWN to 1 per the never-resolve-upward rule.",
+      "C5 straddled 2 and 3: the thesis stream documents primary research, methodology differentiation and an 80%-supervision-meeting hurdle that resembles staged supervised review, but level 3 explicitly excludes a project that is 'one route among several' and the thesis is one of three capstone streams. Resolved at 2.",
+      "W1 and W2 both turn on the clause 'judged against criteria drawn from practice'. The handbook publishes assessment names, weights and word counts but never rubrics, so the criteria evidence rests on ACUR90006's intended learning outcomes (best practice, key steps in venue-based exhibition delivery) rather than on a documented marking scheme. Both were held at 2 rather than lifted, and R4 was applied to ignore the 'real-world industry context' phrasing.",
+      "W2 straddled 2 and 3: capstone streams 2 and 3 (Industry Portfolio, 138-hour practical exhibition project, portfolio for a host organisation) would support the level-3 'assessment spine plus a genuine constraint of practice' reading, but stream 1 (thesis) is fully academic and a student may elect it, so the spine is not documented for all students. Resolved DOWN to 2.",
+      "W3 straddled 1 and 2: the placement is a formally assessed 25-point subject with practitioner supervision, 150 hours and a hurdle — not extracurricular — but it is electable rather than core, and the level-2 anchor requires that a core unit place students. Resolved DOWN to 1.",
+      "C1 versus W3: the ACUR90012 placement and its workplace-mentor collaboration language could read as coordination across people, but per the one-construct-one-home rule placement evidence is scored only in W3. C1 versus W1: the ACUR90001 group presentations are scored as collaboration in C1, not as communication in W1, where the exhibition proposal genre carries the score instead."
+    ],
+    "notScoreable": [
+      "No item was left unscored, but two evidence types the instrument leans on are absent from this extract by nature of the source: (a) marking rubrics or assessment criteria are never published in the UoM handbook, so the 'criteria drawn from practice' clauses in W1 and W2 and the 'criterion-referenced' clause in C2 could only be tested against subject learning outcomes; (b) the extract contains no occurrence of 'artificial intelligence', 'AI', 'algorithm', 'machine learning' or 'data' in any core subject, so C3's level-2 and level-3 anchors had no evidence to be tested against in either direction — the score of 1 rests on the documented elective placement of digital content, not on an inference about AI teaching."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-19"
+    },
+    "instrument": "4.1-draft"
+  },
+  "097ab": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor met: at least one core unit assesses collaborative practice. DEVT90009 Development Theories — compulsory in all six entry-point programs — carries a weighted 'Case study group presentation' (20%), and DEVT90040 Gender Issues in Development (compulsory in the 200pt Development Studies and all Gender and Development programs) assesses a group presentation with an individual oral Q&A, i.e. group work with individual accountability. Not level 3: the anchor additionally requires at least one assessment that requires coordinating work across people AND tools/AI systems (documented role and tool allocation, or the division of work between people and systems itself assessed). Nothing in the extract assesses, or even mentions, tool or AI allocation in any team task, so the level-3 conjunct fails outright rather than ambiguously.",
+      "evidenceLines": [
+        "Case study group presentation",
+        "and individual oral assessment Q&A (15 minutes)",
+        "Work on team-based projects requiring coordination and negotiation skills",
+        "Group Oral Case Analysis: An in-class and timed group oral analysis of a case study M&E Framework, diagnosing strengths and weaknesses and proposing improvements"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1 anchor: reflection and critical appraisal appear in outcomes and graduate attributes, but no core unit is documented as assessing appraisal of the quality of work against criteria. The program ILO commits to rigorous interrogation of arguments and evidence, and DEVT90009 (compulsory everywhere) carries a 'Reflexive critique' at 30%; that is above level 0, which requires that no assessment ask students to appraise quality at all. Level 2 requires criterion-referenced appraisal of quality — peer review, structured critique, portfolio with standards, or marking against exemplars — and the extract documents no criteria, no peer review, no exemplars and no standards attached to any of these tasks; the object appraised is development theory, not work. Level 3 is not reached: no assessment requires documenting or justifying reliance decisions on a tool, source or collaborator, defending judgements of AI-output quality, or evidencing strategy adjustment over time.",
+      "evidenceLines": [
+        "Reflexive critique",
+        "Critically and constructively analyse development problems and interventions through rigorous interrogation of arguments and evidence.",
+        "Analyse the strengths, weaknesses, and embedded assumptions of these theories",
+        "Enhance their ability to critically appraise development projects"
+      ]
+    },
+    "C3": {
+      "score": 0,
+      "rationale": "DEMOTED from 1 to 0 on adversarial verification. The submitted rationale conceded that C3 straddled 0 and 1 and then resolved UPWARD, which the instrument forbids ('when the evidence is ambiguous between two levels, take the LOWER level... Never resolve ambiguity upward'); the stated justification — that the two anchors are 'mutually exclusive by design' — is an interpretive invention with no support in the anchor text. Level 0's literal text is fully satisfied and the scorer conceded it: no core unit, no program-level intended learning outcome and no generic skill in this course mentions AI or generative AI at all, and no assessment in any captured subject page concerns digital or AI use. Verified against the extract: searching for digital/AI/technology/software returns only six identical elective-table lines 'MECM90016 Digital Politics' (lines 436, 676, 933, 1191, 1446, 1700) plus three subject-page lines. None of the three quoted evidence lines supports level 1's condition (AI or digital tools appearing only as electives or as tool operation/training): the ASIA90001 line sits under 'Generic skills' on an elective page and describes library and archival research, not digital-tool operation; the two ASIA90014/ASIA90017 lines are intended-learning-outcome statements about evaluating information from media, not about tool use. All three are outcome or generic-skill statements about evaluating information, in elective subjects, none assessed, and none about a digital or AI tool. The only genuinely digital item, MECM90016 Digital Politics, is known by title alone — no subject or assessment page in the extract — and was not quoted in evidence at all, so under R3 the level-1 claim rests on no admissible evidence.",
+      "evidenceLines": [
+        "MECM90016\tDigital Politics",
+        "Become skilled in information management and information literacy through the practice of library and archival research and engagement with electronic databases",
+        "Gain an ability to evaluate information from print and online media covering contemporary China",
+        "Apply their analytical skills to conflicting online and historical material"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2 anchor met: core assessment requires application to novel or unfamiliar problems by case variation. DEVT90053 Development Systems and Interventions (compulsory in five of the six entry-point programs) assesses a linked interactive oral plus a case study at 60% of the subject, and DEVT90009 assesses a case-study task; DEVT90058 commits to synthesising and applying knowledge across different contexts. Level 3 requires the program to document structured progression toward independent learning — a self-scoped capstone or research project, or assessed identification of one's own knowledge gaps with a plan to close them. A capstone is genuinely required and cannot be waived, and one of its three streams is a student-scoped minor thesis; but a student may instead satisfy the same requirement through Capstone stream 1 or stream 3, neither of which the handbook documents as self-scoped. The evidence therefore straddles 2 and 3 and is held at the lower level.",
+      "evidenceLines": [
+        "Linked interactive oral assessment (1000 words equivalent and 20%) and case study (2000 words and 40%)",
+        "Synthesise and apply knowledge across different contexts",
+        "All students are required to complete one Capstone Subject Option (at least 25 points). Capstone subject options must be completed in the final hundred points of the program. This requirement cannot be waived or replaced in any circumstances.",
+        "Students enrolled in this subject will undertake a piece of research in Development Studies approved by the course coordinator."
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 1 anchor fits positively and completely: an introductory methods unit plus literature-review assessment. DEVT90041 is described as giving 'a basic introduction' to quantitative data and mixed methods, and its assessed output is a research design essay; the thesis route requires a 5,000-word literature review. Level 2 requires that students design AND conduct an inquiry with methodology selection AND data collection, assessed. Design and methodology selection are documented (research design essay, 50%), but no captured page documents students collecting data: the minor thesis is described as engaging critically and independently with intellectual debates to provide original insights, with the assessed artefact a 15,000-word thesis, and no fieldwork, dataset or data-collection task is documented as assessed. The missing conjunct holds the item at 1. Level 3 is barred by its own text — a substantial primary-evidence project must be REQUIRED and not one route among several, whereas the thesis is one of three capstone streams, and no viva, defence or staged supervised methodology scrutiny is documented for it.",
+      "evidenceLines": [
+        "A research design essay",
+        "a basic introduction to understanding and collecting quantitative data as well as mixed research methods",
+        "5,000-word literature review: To be submitted halfway through the thesis year",
+        "Have written a coherent and empirically substantiated thesis.",
+        "25 credit points of Capstone stream 1 or 62.5 credit points of Capstone stream 2 or 25 credit points of Capstone stream 3"
+      ]
+    },
+    "adaptiveness": 6,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 anchor met on the professional-genre limb: DEVT90058 Disaster and Humanitarian Aid, a compulsory subject of the 200pt Development Studies program, assesses a 'Policy brief or briefing paper' at 40% — a recognised professional genre of development practice, not an academic genre addressed to the marker. Level 1 is positively contradicted, since it requires that no professional genre be assessed and that core assessment go no further than presentation to peers and staff. Level 3 is not reached: no core assessment is documented as delivered to, or judged by, a real external audience or practitioner (no industry panel, client, patient or public exhibition), and professional conduct or accountability is nowhere named among assessed criteria — attendance and submission hurdles are compliance rules, not assessed conduct standards. Per R4 the score rests on the documented genre, not on any claim of professional relevance. Upheld on adversarial verification: unlike the W2 evidence, DEVT90058 is compulsory within the 200pt Development Studies entry point, which is a distinct program rather than an avoidable stream within one program, so a student in that entry point cannot opt out of the policy brief.",
+      "evidenceLines": [
+        "Policy brief or briefing paper",
+        "leadership and communication",
+        "Communicate complex ideas clearly and persuasively in both written and oral forms",
+        "Communicate their knowledge effectively in a variety of oral and written formats"
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "DEMOTED from 2 to 1 on adversarial verification. W2 level 2 requires at least one CORE assessment that reproduces a professional task end to end. The compulsory sets verified from the six entry-point structure pages are: entry-1 DEVT90009/90053/90040/90045/90058/90039; entry-2 90009/90053/90040/90045; entry-3 90009/90053; entry-4 90009/90080/90040/90053/90084/GEND90006; entry-5 90009/90080/90040/90053/90084; entry-6 90009/90080/90040. DEVT90001 and DEVT90035 — which carried the submitted level-2 case (project proposal at 65%; M&E plan with oral defence) — appear in NO entry point's compulsory list. Both sit under 'Capstone stream 3 subjects', and the structure page reads 'One of:' followed by '25 credit points of Capstone stream 1 or 62.5 credit points of Capstone stream 2 or 25 credit points of Capstone stream 3', so a student may complete the degree via the internship or the thesis and never produce a project proposal or an M&E plan. The submitted scoring applied exactly this route-not-requirement reasoning to bar C5 level 3 and W3 level 2 and then abandoned it here. Stripping the stream-3 evidence, the remaining core evidence is DEVT90053's 'Written proposal' (2000 words, during the examination period, 40%), which the handbook never characterises, so it does not document the artefact a practitioner would produce. DEVT90058's 'Policy brief or briefing paper' cannot rescue W2, since it is homed in W1 under one-construct-one-home and W1 is scored on it. What remains across the compulsory spine is essays, research papers and case-study tasks (DEVT90045 essay 30% + essay 60%; DEVT90039 essay 30% + research proposal 10% + final research paper 60%; DEVT90040 research essay 50%; DEVT90009 reflexive critique + research essay), plus case-study framing in DEVT90009 and DEVT90053 — which is level 1 verbatim: contextualised or scenario-framed tasks appear (case studies, worked scenarios), but the artefact produced and the criteria applied remain academic. Level 2's trailing conjunct 'judged against criteria drawn from practice' is also nowhere documented.",
+      "evidenceLines": [
+        "Written proposal",
+        "25 credit points of Capstone stream 1 or 62.5 credit points of Capstone stream 2 or 25 credit points of Capstone stream 3",
+        "A final research paper",
+        "A research proposal due towards the end of semester.",
+        "An essay"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1 anchor: work-situated learning exists only as an optional internship. The handbook states in terms that Internship in Development is an elective subject, and structurally DEVT90060 is Capstone stream 1 — one of three alternative ways to meet the capstone requirement, so a student may complete the degree via the thesis or the project-management/M&E stream and never enter a workplace. Level 2 requires a CORE unit that places students in a real workplace with practitioner supervision and assessment; that condition is unmet despite the internship's substantial assessment suite (organisational analysis, reflective essay, professional portfolio/report, progress report and oral presentation, several as hurdles, timed during placement hours), which would otherwise sit at the top of this item. The v4.2 in-practice route does not apply: the overview says the course is usually taken by graduates working in development fields, but that is a statement about who enrols, not a cohort documented as already practising, and no core unit assesses activity conducted in a student's own professional practice with real recipients and an outcome measure.",
+      "evidenceLines": [
+        "Internship in Development is an elective subject available to graduate students in Development and various cognate disciplines and fields of study.",
+        "25 credit points of Capstone stream 1 or 62.5 credit points of Capstone stream 2 or 25 credit points of Capstone stream 3",
+        "Professional portfolio/report",
+        "During placement hours"
+      ]
+    },
+    "workplace": 4,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program documents a coherent specialist core with staged progression rather than generic interchangeable content: compulsory DEVT-coded subjects (Development Theories, Development Systems and Interventions, Gender Issues in Development, Political Economy of Development, Disaster and Humanitarian Aid, Civil Society NGOs and the State) scaled by entry point, an unwaivable capstone that must fall in the final hundred points, and an attainment-gated progression rule into the thesis requiring 37.5 credit points of compulsory and core subjects at an H1 average plus an approved 1000-word proposal.",
+        "evidenceLines": [
+          "Six compulsory subjects (75 points)",
+          "All students are required to complete one Capstone Subject Option (at least 25 points). Capstone subject options must be completed in the final hundred points of the program. This requirement cannot be waived or replaced in any circumstances.",
+          "Students admitted into the 200 point program must have completed 37.5 credit points of compulsory and core subjects within the program, with an average of H1 (80%).",
+          "To be eligible to enrol in the thesis, students must submit a 1000 word thesis proposal for approval by the course coordinator prior to the semester of enrolment in the thesis.",
+          "All program requirements must be completed to be eligible to graduate from the program."
+        ],
+        "score": 0
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Assessment goes beyond recall or scripted response: judgements must be defended under live scrutiny. DEVT90009 (compulsory in every entry point) pairs its research essay with a 10-minute oral defence; DEVT90053 and DEVT90058 both use linked interactive oral assessments tied to a case study or research essay; DEVT90035 requires a 15-minute oral defence of the M&E plan; and DEVT90058 names defending arguments with evidence and reasoning under critique as a generic skill. Combined with an unwaivable capstone requiring a self-directed proposal, thesis or project design, this satisfies defended trade-off decision-making.",
+        "evidenceLines": [
+          "Research essay (1500 words, 30%) and 10-minute oral defence of the research essay (1000 words equivalent, 20%)",
+          "Linked research essay (2000 words and 40%) and interactive oral assessment (1000 words equivalent and 20%)",
+          "Linked interactive oral assessment (1000 words equivalent and 20%) and case study (2000 words and 40%)",
+          "Respond constructively to critique and to defend arguments with evidence and reasoning"
+        ],
+        "score": 0
+      }
+    },
+    "ambiguities": [
+      "C3 (post-verification): the submitted score of 1 was DEMOTED to 0. The scorer admitted C3 straddled 0 and 1 and resolved upward on the ground that the anchors are 'mutually exclusive by design' — an interpretive move the instrument's never-resolve-upward rule forbids. Level 0's literal text holds: no core unit, no program-level outcome and no generic skill mentions AI or generative AI, and no assessment concerns digital or AI use. The only digital item in the extract, MECM90016 Digital Politics, appears by title alone in six elective tables with no subject page, so the level-1 claim rests on no admissible evidence under R3.",
+      "W2 (post-verification): the submitted score of 2 was DEMOTED to 1. DEVT90001's project proposal (65%) and DEVT90035's M&E plan sit in Capstone stream 3, one of three alternative capstone routes, and appear in no entry point's compulsory list — so they are not core assessment. The scorer half-conceded this in the original ambiguity note while still scoring on the evidence. With stream-3 evidence stripped and DEVT90058's policy brief homed in W1, the compulsory spine is essays, research papers and case-framed tasks — level 1 verbatim.",
+      "C4 straddled 2 and 3: a capstone is required and cannot be waived, and Capstone stream 2 is a student-scoped minor thesis (topic approved by the coordinator on a 1000-word proposal), which reads as level 3's self-scoped capstone; but streams 1 and 3 satisfy the identical requirement without documented self-scoping, so the program does not document structured progression to independent learning for all students. Resolved DOWN to 2 under the never-resolve-upward rule.",
+      "C5 straddled 1 and 2: DEVT90041 assesses a research design essay (methodology selection) and the thesis route requires an empirically substantiated 15,000-word thesis (conducting an inquiry), but level 2's 'data collection' conjunct is nowhere documented as assessed — the thesis is described in terms of engaging with intellectual debates and providing original insights, and DEVT90041's own description calls its quantitative component 'a basic introduction'. Resolved DOWN to 1, which the level-1 anchor (introductory methods unit; literature-review assessment) also fits positively.",
+      "W1 vs W2 one-construct-one-home: DEVT90058's 'Policy brief or briefing paper' could be read into either item. Scored in W1, whose construct names the genres the profession uses. On verification this homing was upheld, and W2 was scored without it — which is part of why W2 falls to 1.",
+      "W1 rests on the professional-genre limb of its level-2 anchor while the trailing conjunct 'judged against criteria drawn from professional practice' is nowhere documented — UoM handbook assessment tables never state marking criteria. Held at 2 rather than dropped to 1 because level 1 is positively contradicted (a professional genre IS assessed), not merely under-evidenced. Per R4 no credit was taken from the words 'professional', 'practical' or 'real-world' anywhere in the extract. W1 was also tested against the W2 demotion logic and survives it: DEVT90058 is compulsory within the 200pt Development Studies entry point, a distinct program rather than an avoidable stream.",
+      "W3 straddled 1 and 2 in substance: the internship's assessment suite (organisational analysis, reflective essay, 5000-word professional portfolio/report, progress report, oral presentation, several as hurdles, timed during placement hours) is stronger than level 2 describes, but the anchor's gating condition is that a CORE unit place the student, and the handbook calls DEVT90060 an elective and offers two non-workplace alternatives for the same capstone requirement. Resolved DOWN to 1.",
+      "C1 level 2 rests partly on DEVT90040, which is compulsory in the 200pt Development Studies program and in all Gender and Development programs but not in the 100/150pt Development Studies programs; DEVT90009's group presentation is compulsory in all six, so the level holds on either reading.",
+      "Entry-point variation: this course has six entry-point programs with different compulsory sets (2, 4 or 6 subjects for Development Studies; 3, 5 or 6 for Gender and Development). 'Core' was read as the compulsory list of the entry point in which each cited subject is compulsory, and the entry point is named in each rationale where it matters."
+    ],
+    "notScoreable": [
+      "No item was left unscoreable, but the extract's subject-page coverage is incomplete for the Gender and Development streams: no subject or assessment page was captured for DEVT90080 Gender Analysis in Development Practice, DEVT90084 Rethinking Rights and Global Development, GEND90011/GEND90012 Gender and Development Thesis Parts 1 and 2, or GEND90006. Three of these are compulsory in Gender and Development entry points, so all eight item scores should be read as scoped to the documented Development Studies core plus the shared capstone streams; assessment evidence sitting only in those four uncaptured pages could not be considered."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-19"
+    }
+  },
+  "175aa": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 requires at least one core unit to assess collaborative practice with individual accountability. AMGT90001 (Principles of Arts Management) includes 'A group project and class presentation with individual written component' (30%), assessed with both group and individual accountability. MULT90064 (Arts Management Project) assesses 'capacity for effective teamwork through a group creative project, discussions and collaboration'. Not level 3: the anchor requires coordination across people AND tools/AI systems, which is not documented anywhere. Per one-construct-one-home, the ARTS90024 placement evidence scores in W3.",
+      "evidenceLines": [
+        "A group project and class presentation with individual written component",
+        "2000 words (equivalent)",
+        "End of the teaching period\t30%",
+        "Increased their capacity for effective teamwork through group discussions and collaboration"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2 requires criterion-referenced appraisal of quality in core assessment. MULT90064 (Arts Management Project) includes 'Peer Feedback' (1000 words, Week 12, 10%) — a structured peer review component. AMGT90001 includes 'A group project and class presentation with individual written component' where individual appraisal is part of the grade. Not level 3: the anchor requires students to document and justify reliance decisions (when they relied on or overrode a tool, source or collaborator) or defend judgements of AI-output quality; no such assessment is documented.",
+      "evidenceLines": [
+        "Peer Feedback",
+        "1000 words",
+        "Week 12\t10%"
+      ]
+    },
+    "C3": {
+      "score": 0,
+      "rationale": "Level 0: no digital/AI content appears in any core unit or program-level outcome. The compulsory subjects (AMGT90001, AMGT90004, AMGT90013, AMGT90018, AMGT90029) address arts management, cultural policy, arts operations, economics, and research methods — none address AI or digital tools as core content. The elective MECM90007 (Media Convergence and Digital Culture) is not core. No AI or digital tool content is documented in any core unit's learning outcomes or assessment.",
+      "evidenceLines": [
+        "Compulsory subjects",
+        "62.5 credit points of compulsory subjects"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2 requires at least one core assessment to require application to novel or unfamiliar problems — case variation, unseen datasets, cross-context projects. AMGT90001 (Principles of Arts Management) assessment includes 'A group project and class presentation' and 'A major piece of assessment' addressing issues 'specific to the arts industry' and 'core issues in arts management' with 'case studies' and 'exercises to develop students skills'. AMGT90029 (Applied Research Methods) requires students to 'Design a basic research project for an arts or cultural organisation' — applying methods to an organisation's own context. Not level 3: the anchor requires structured progression toward independent learning with a self-scoped capstone or research project with identification of knowledge gaps and a plan to close them. The thesis capstone stream (AMGT90027/90028) is one of three capstone options (not required), and the ARTS90024 placement is also one of three options.",
+      "evidenceLines": [
+        "Design a basic research project for an arts or cultural organisation",
+        "Use a variety of research methods as problem-solving tools in arts and cultural organisations.",
+        "A group project and class presentation with individual written component"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2 requires students to design and conduct an inquiry with methodology selection and data collection, assessed. AMGT90029 (Applied Research Methods, a compulsory subject) requires students to 'Design a basic research project for an arts or cultural organisation' with a 'Research proposal' (3000 words, 50%). The thesis capstone stream (AMGT90027/90028) requires 'both theoretical inquiry and primary research' and a 12,000-word thesis. Not level 3: the anchor requires a substantial project generating primary evidence to be REQUIRED (not one route among several) with methodology defended under scrutiny (viva, defence). The thesis is one of three capstone options and is not required. The ARTS90024 placement and MULT90064 project are the other two options.",
+      "evidenceLines": [
+        "Design a basic research project for an arts or cultural organisation",
+        "Research proposal",
+        "3000 words",
+        "2 Weeks after the end of teaching\t50%",
+        "The research will incorporate both theoretical inquiry and primary research."
+      ]
+    },
+    "adaptiveness": 6,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 requires at least one core assessment using a recognised professional genre or an audience beyond the teaching team, judged against criteria drawn from professional practice. ARTS90024 (Arts Management Placement, a capstone stream) requires '150 hours of on-site work experience' in 'a professional working environment' with assessment including 'Reflective Journal' and 'Research Report or Essay' (6000 words, 60%) — delivered to and judged by workplace supervisors. MULT90064 (Arts Management Project, another capstone) requires a 'Creative Portfolio' (5000 words equivalent, 50%) and a team project delivered under supervision. AMGT90001 includes 'class presentation' assessed against professional management criteria. Not level 3: the anchor requires professional communication assessed repeatedly and progressively across the program AND at least one core assessment delivered to a real external audience or practitioner. The placement (ARTS90024) is one of three capstone options, not progressive across the program.",
+      "evidenceLines": [
+        "Students will be required to complete 150 hours of on-site work experience to fulfill this component of the subject.",
+        "Reflective Journal, four entries evenly spaced over the semester",
+        "Research Report or Essay",
+        "6000 words",
+        "Creative Portfolio",
+        "5000 words (equivalent)",
+        "During the examination period\t50%"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2 requires at least one core assessment to reproduce a professional task end to end — a real or realistic problem, producing the artefact a practitioner would produce, judged against criteria drawn from practice. AMGT90013 (Arts Operations, compulsory) requires students to 'Prepare a detailed proposal, budget, and project management timeline as part of grant management' and 'Plan and implement operational strategies for arts organisations' — reproducing the work of an arts operations manager. AMGT90001 requires assessment of 'strategic planning' and 'governance' in arts organisations. The capstone streams (ARTS90024 placement, MULT90064 project) involve real or realistic professional practice. Not level 3: the anchor requires such tasks to be the program's assessment spine (capstone plus earlier scaffolding) AND at least one to carry a genuine constraint of practice. The professional-task assessments appear in compulsory subjects but the capstone is one of three options.",
+      "evidenceLines": [
+        "Prepare a detailed proposal, budget, and project management timeline as part of grant management",
+        "Plan and implement operational strategies for arts organisations.",
+        "This capstone subject requires teams of students to work in cross-disciplinary teams to conceive and complete an entrepreneurial arts project over the semester."
+      ]
+    },
+    "W3": {
+      "score": 2,
+      "rationale": "Level 2 requires a core unit to place students in a real workplace or professional-community setting with practitioner supervision and assessment — placement, practicum, live client project. ARTS90024 (Arts Management Placement) is a capstone stream requiring '150 hours of on-site work experience' where students 'gain direct exposure to professional practice' and 'work under the guidance of a senior staff member'. This is a placement with practitioner supervision and assessment. The 'but it is short or stands alone' qualifier at level 2 applies — it is one capstone, not a sequence. Not level 3: the anchor requires substantial required work-situated learning — an extended placement or a sequence, supervised by a practitioner, with accountability to the host and structured reflection. The placement is one of three capstone options (not required), and while it includes reflection, it is not a sequence. Per one-construct-one-home, the placement evidence scores here, not in C1 or C4.",
+      "evidenceLines": [
+        "For the placement component, students will be assisted to find a placement in a professional working environment where they will gain direct exposure to professional practice in their chosen field.",
+        "They will work under the guidance of a senior staff member, with additional support from the subject coordinator.",
+        "Students will be required to complete 150 hours of on-site work experience to fulfill this component of the subject.",
+        "Reflective Journal, four entries evenly spaced over the semester"
+      ]
+    },
+    "workplace": 6,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program documents a coherent specialist core with progressive depth: 62.5 credit points of compulsory subjects (AMGT90001 Principles of Arts Management, AMGT90004 Cultural Policy, AMGT90013 Arts Operations, AMGT90018 The Economics of Culture, AMGT90029 Applied Research Methods) plus a required capstone stream (25-37.5 points). The compulsory subjects build from foundational management through operations, economics, policy and research methods, culminating in a capstone. This is a coherent specialist core with progressive depth.",
+        "evidenceLines": [
+          "Compulsory subjects",
+          "62.5 credit points of compulsory subjects",
+          "Capstone subjects",
+          "25 credit points of Capstone stream 1 or 25 credit points of Capstone stream 2 or 37.5 credit points of Capstone stream 3",
+          "All compulsory and capstone subjects must be completed to be eligible to graduate from the program."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "G2 requires assessments with defended trade-off decisions, or simulations/capstones/live projects with real uncertainty and accountability. The capstone streams involve real uncertainty: ARTS90024 (placement in a professional environment), MULT90064 (entrepreneurial project with 'unstructured and incomplete information'), and AMGT90027/90028 (thesis with methodology defended). AMGT90001 assessment includes 'a test' requiring analysis of 'issues specific to the arts industry' with 'class discussion'. The research proposal (AMGT90029, 50%) requires designing a research project with methodology selection — a defended trade-off decision.",
+        "evidenceLines": [
+          "Students will learn to work with unstructured and incomplete information, develop professional networks and team skills to support the delivery of professional outcomes",
+          "Plan and execute an arts and cultural management research based project, or produce a piece of arts and cultural management-related research scholarship within their area of specialisation.",
+          "Research proposal",
+          "3000 words",
+          "2 Weeks after the end of teaching\t50%"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C4: The thesis capstone (AMGT90027/90028) could support level 3 (self-scoped research project with identified knowledge gaps) but it is one of three optional capstone streams, not required — R2 and the level-3 anchor both require it to be the program's spine, so the lower level (2) is taken.",
+      "C5: Same thesis ambiguity — primary research is documented but the thesis is not required, so level 2 is taken.",
+      "W1/W3: The ARTS90024 placement could support W1 level 3 (external audience judging) but it is one of three capstone options, not repeated progressively across the program — level 2 taken for both."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-22"
+    }
+  },
+  "192aa": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 1,
+      "rationale": "Level 1: collaboration/teamwork appears in graduate attributes — 'Capacity to value and participate in teamwork' and 'Small class sizes and an intensive teaching format are valuable in encouraging group dynamics and teamwork' — but no core unit assesses collaborative practice as a graded component. LAWS70006 assessment is 'Class participation' (10%), 'In-class test' (20%), and 'Take-home examination' (70%) — no group project or collaborative assessment. LAWS70319 has 'Class participation and leading topic discussions' (10%) — individual participation, not collaborative practice. No core unit assesses group projects with individual accountability or interprofessional activity.",
+      "evidenceLines": [
+        "Capacity to value and participate in teamwork",
+        "Small class sizes and an intensive teaching format are valuable in encouraging group dynamics and teamwork."
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1: reflection or self-assessment appears in graduate attributes — 'Ability to investigate, evaluate, synthesise and apply existing knowledge' and 'Well-developed problem solving abilities, characterised by flexibility of approach' — but no core unit assesses criterion-referenced appraisal of quality (peer review, structured critique, portfolio with standards). LAWS70319 assessment includes 'class participation and leading topic discussions' which involves discussion but not criterion-referenced appraisal of quality. LAWS70323 (Foundations of Tax Law) includes a 'Class presentation' (10%) but this is a presentation, not a quality appraisal. Not level 2: no core assessment includes structured peer review, portfolio with standards, or marking against exemplars.",
+      "evidenceLines": [
+        "Ability to investigate, evaluate, synthesise and apply existing knowledge in the relevant area(s) with creativity and initiative",
+        "Well-developed problem solving abilities, characterised by flexibility of approach"
+      ]
+    },
+    "C3": {
+      "score": 0,
+      "rationale": "Level 0: no digital/AI content in any core unit or program-level outcome. The program is Master of International Tax — all core subjects address tax law, tax treaties, transfer pricing, tax policy. No AI or digital tool content appears in any subject's learning outcomes, overview, or assessment. The graduate attribute 'Advanced working skills in the use of new technology' refers to IT infrastructure in the Law Library and Moot Court, not AI or digital tools as curricular content.",
+      "evidenceLines": [
+        "The most advanced IT infrastructure is available to Melbourne Law Masters students in the Law Library, the Moot Court Room, classroom settings and for private study."
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2 requires at least one core assessment requiring application to novel or unfamiliar problems. LAWS70006 (International Tax: Principles, Structure) requires a 'Take-home examination' (4000 words, 70%) covering 'rules for the taxation and avoidance of double tax of residents' foreign income' and 'rules for the taxation of non-residents' Australian source income' — applying principles to unseen problems. LAWS70323 (Foundations of Tax Law) has a 'Written task' (90 minutes, 20%) and 'Written Assignment' (3000 words, 60%) applying tax law to 'a range of commonly encountered circumstances'. LAWS70319 (Tax Policy) has 'In-class task' (1 hour, Day 5, 20%) and 'Take-home examination' (4000 words, 70%) requiring analysis of 'major issues in tax policy'. Not level 3: no self-scoped capstone or research project with identification of knowledge gaps is required (the research paper option in some subjects is one of two options, not required).",
+      "evidenceLines": [
+        "Be able to critically examine, analyse, interpret and assess the effectiveness of Australia's rules for the taxation of inbound and outbound transactions",
+        "Have the cognitive and technical skills to independently examine, research and analyse current and emerging legal issues relating on international taxation",
+        "Be able to critically examine, analyse, interpret and apply the core Australian income tax rules as they apply to a range of commonly encountered circumstances"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2 requires students to design and conduct an inquiry with methodology selection and data collection, assessed. LAWS70323 (Foundations of Tax Law) includes a 'Written Assignment' (3000 words, 60%) requiring independent research and analysis. LAWS70319 (Tax Policy) offers a 'Research paper on a topic approved by the subject coordinator' (5000 words, 70%) — an independent inquiry with methodology. LAWS70009 (Comparative Corporate Tax) offers 'Research paper on a topic approved by the subject coordinator' (6000 words, 100%). Not level 3: the anchor requires a substantial project generating primary evidence to be REQUIRED (not one route among several) with methodology defended under scrutiny (viva, defence). The research paper is always one of two options (the other being a take-home exam), and no viva or defence is documented.",
+      "evidenceLines": [
+        "Option 2: Research paper on a topic approved by the subject coordinator",
+        "6000 words",
+        "17 February 2027\t100%",
+        "Have the cognitive and technical skills to independently examine, research and analyse current and emerging legal issues relating on international taxation"
+      ]
+    },
+    "adaptiveness": 5,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 requires at least one core assessment using a recognised professional genre or an audience beyond the teaching team, judged against criteria drawn from professional practice. LAWS70319 (Tax Policy) requires 'Class participation and leading topic discussions' and an 'In-class task' on 'Day 5' — simulating the professional genre of policy debate. LAWS70006 requires 'oral and written communication skills to articulate and convey complex information regarding international taxation to specialist and non-specialist audiences' — communicating to non-specialist audiences is a professional genre beyond the teaching team. The 'Take-home examination' format itself is a professional legal genre (legal opinion/analysis). Not level 3: the anchor requires professional communication assessed repeatedly and progressively AND at least one core assessment delivered to a real external audience or practitioner. While communication to non-specialist audiences is a stated outcome, no assessment is delivered to an actual external audience.",
+      "evidenceLines": [
+        "Have the oral and written communication skills to articulate and convey complex information regarding international taxation to specialist and non-specialist audiences.",
+        "Have the communicative skills to articulate and express complex information on tax treaties to specialist and non-specialist audiences",
+        "interpret and transmit their knowledge, skills and ideas to specialist and non-specialist audiences"
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Level 1: contextualised or scenario-framed tasks appear, but the artefact produced and the criteria applied remain academic. The 'Take-home examination' in most subjects is a research essay or problem-solving exercise framed around tax scenarios — but it produces an academic essay, not a professional artefact like a tax advice letter, ruling, or policy submission. The 'In-class test' in LAWS70006 (1 hour, Day 5, 20%) and LAWS70319 (1 hour, Day 5, 20%) are scenario-based but assessed academically. Not level 2: no core assessment reproduces a professional task end to end — a real or realistic problem producing the artefact a practitioner would produce, judged against criteria drawn from practice. The research paper is an academic genre, not a professional artefact.",
+      "evidenceLines": [
+        "In-class test",
+        "1 hours",
+        "Day 5\t20%",
+        "Take-home examination",
+        "4000 words",
+        "May: 3 - 6 July 2026 | September: 16 - 19 October 2026\t70%"
+      ]
+    },
+    "W3": {
+      "score": 0,
+      "rationale": "Level 0: no work-integrated learning, placement, practicum, or community-based project appears anywhere in the course structure. The program is 100 credit points of tax law subjects with no placement, internship, or practicum component. LAWS70067 (International Legal Internship) appears in the subject options list but is not a core unit and is listed under 'Further subjects relevant to this course' — it is not required. The program structure is entirely classroom/examination-based.",
+      "evidenceLines": [
+        "Students in the Master of International Tax must complete 100 credit points from the prescribed list.",
+        "LAWS70067\tInternational Legal Internship"
+      ]
+    },
+    "workplace": 3,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program documents a coherent specialist core with progressive depth: 'Foundations of Tax Law' provides grounding, 'International Tax: Principles, Structure' builds the core international tax framework, and subjects like 'Tax Treaties', 'Transfer Pricing', 'Comparative Corporate Tax' and 'Comparative International Tax' provide progressive specialist depth. The program is 'a globally recognised specialist tax qualification' with 'a substantial selection of international and comparative tax subjects'. This is a coherent specialist core with progressive technical depth.",
+        "evidenceLines": [
+          "The international tax program is a globally recognised specialist tax qualification equipping graduates for the practice of taxation law in a rapidly changing economic world.",
+          "Students in the Master of International Tax must complete 100 credit points from the prescribed list.",
+          "Foundations of Tax Law",
+          "International Tax: Principles, Structure"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "G2 requires assessments with defended trade-off decisions, or simulations/capstones/live projects with real uncertainty and accountability. The take-home examinations require analysis of 'the effectiveness of' tax rules — defended trade-off assessments. LAWS70319 (Tax Policy) requires 'Identify and appraise the major issues in tax policy in Australia and critically evaluate tax policy options in Australian and other countries' contexts' — defending positions on policy trade-offs. The 'In-class task' (LAWS70006, Day 5, 20%) requires real-time analysis under time pressure. The research paper option in multiple subjects requires defending a position on a self-selected topic.",
+        "evidenceLines": [
+          "Be able to critically examine, analyse, interpret and assess the effectiveness of Australia's rules for the taxation of inbound and outbound transactions",
+          "Identify and appraise the major issues in tax policy in Australia and critically evaluate tax policy options in Australian and other countries' contexts.",
+          "In-class task",
+          "1 hours",
+          "Day 5\t20%"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1: 'Class participation' (10%) in LAWS70006 could be read as collaborative practice, but it is individual participation in discussion, not a group project with individual accountability — level 1 taken.",
+      "W1: Communication to 'non-specialist audiences' is stated in outcomes and assessed via take-home examination format, but no assessment is delivered to an actual external audience — level 2 taken, not 3.",
+      "W2: The take-home examination scenarios are professionally contextualised, but the artefact is an academic essay, not a professional deliverable — level 1 taken."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-22"
+    }
+  },
+  "195aa": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 1,
+      "rationale": "Level 1: collaboration/teamwork appears in graduate attributes — 'Capacity to value and participate in teamwork' and 'Small class sizes and an intensive teaching format are valuable in encouraging group dynamics and teamwork' — but no core unit assesses collaborative practice as a graded group component. LAWS70112 assessment is 'Written assessment' (15%) plus 'Take-home examination' (85%) or 'Research paper' — no group project. LAWS70270 (Construction Contract Analysis, Drafting) has 'Interim written assessment' (15%) and 'Take-home examination' (85%) — individual work. LAWS70329 (Residential Construction Law) includes 'Class Participation (including group research exercise)' (20%) but this is participation, not a graded group project with individual accountability. Not level 2: no core unit assesses collaborative practice with group projects, individual accountability, or interprofessional activity.",
+      "evidenceLines": [
+        "Capacity to value and participate in teamwork",
+        "Small class sizes and an intensive teaching format are valuable in encouraging group dynamics and teamwork.",
+        "Class Participation (including group research exercise)",
+        "Throughout the teaching period\t20%"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1: reflection and self-assessment appear in graduate attributes — 'Ability to investigate, evaluate, synthesise and apply existing knowledge' and 'Well-developed problem solving abilities, characterised by flexibility of approach' — but no core unit assesses criterion-referenced appraisal of quality (peer review, structured critique, portfolio with standards). Not level 2: no core assessment includes structured peer review or marking against exemplars. The 'Class participation' components in some subjects involve discussion but not criterion-referenced quality appraisal.",
+      "evidenceLines": [
+        "Ability to investigate, evaluate, synthesise and apply existing knowledge in the relevant area(s) with creativity and initiative",
+        "Well-developed problem solving abilities, characterised by flexibility of approach"
+      ]
+    },
+    "C3": {
+      "score": 0,
+      "rationale": "Level 0: no digital/AI content in any core unit or program-level outcome. The program is Master of Construction Law — all core subjects address construction law, contracting, risk, project delivery, dispute resolution. No AI or digital tool content appears in any subject's learning outcomes, overview, or assessment. The graduate attribute 'Advanced working skills in the use of new technology' refers to IT infrastructure in the Law Library and Moot Court, not AI or digital tools as curricular content.",
+      "evidenceLines": [
+        "The most advanced IT infrastructure is available to Melbourne Law Masters students in the Law Library, the Moot Court Room, classroom settings and for private study."
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2 requires at least one core assessment requiring application to novel or unfamiliar problems. LAWS70314 (Principles of Construction Law) includes an 'In-class test' (1 hour, 20%) applying law to unseen hypothetical scenarios. LAWS70112 (Remedies in the Construction Context) requires a 'Take-home examination' (4500 words, 85%) applying remedies law to novel construction disputes. LAWS70149 (Construction Risk) requires 'Take-home examination' (4000 words, 100%) applying risk allocation to unseen scenarios. LAWS70176 (Construction Law) includes 'construction site visits and detailed case studies' and requires analysis of 'the interaction between the technical, commercial and legal aspects'. Not level 3: no self-scoped capstone or research project with identification of knowledge gaps is required (the research paper is one of two options, not required).",
+      "evidenceLines": [
+        "In addition to classroom discussion, students have the opportunity to see principles put into practice through construction site visits and detailed case studies.",
+        "In-class test",
+        "1 hours",
+        "During the teaching period\t20%",
+        "Be familiar with, be able to critically reflect on, and be confident in working across, the interaction points between the technical, commercial and legal aspects of construction procurement"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2 requires students to design and conduct an inquiry with methodology selection and data collection, assessed. LAWS70270 (Construction Contract Analysis, Drafting) requires analysis and drafting of construction contracts — an applied inquiry. Multiple subjects offer 'Research paper on a topic approved by the subject coordinator' (e.g., LAWS70176: 6000 words, 100%; LAWS70112: 6000 words, 85%; LAWS70149: 5000 words, 100%; LAWS70239: 6000 words, 100%) — independent research with methodology selection. Not level 3: the anchor requires a substantial project generating primary evidence to be REQUIRED with methodology defended under scrutiny (viva, defence). The research paper is always one of two options, not required, and no viva or defence is documented.",
+      "evidenceLines": [
+        "Option 2: Research paper on a topic approved by the subject coordinator",
+        "6000 words",
+        "16 September 2026\t100%",
+        "Independently investigate, examine and analyse existing and emerging legal issues relating to construction projects."
+      ]
+    },
+    "adaptiveness": 5,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 requires at least one core assessment using a recognised professional genre or an audience beyond the teaching team, judged against criteria drawn from professional practice. LAWS70270 (Construction Contract Analysis, Drafting) requires 'Interim written assessment' (500 words, 15%) and 'Take-home examination' (4500 words, 85%) — the take-home exam involves drafting and analysing construction contracts, a professional legal genre. LAWS70176 (Construction Law) involves 'construction site visits' and assessment of 'the interaction between the technical, commercial and legal aspects' — judged against professional practice criteria. LAWS70329 (Residential Construction Law) is taught by 'Judge Suzanne Kirton' and 'Dr Matthew Bell (whose PhD was on residential construction regulation)' — assessment criteria drawn from professional practice. Not level 3: the anchor requires professional communication assessed repeatedly and progressively AND at least one core assessment delivered to a real external audience or practitioner. No assessment is delivered to an external audience.",
+      "evidenceLines": [
+        "This subject is designed to develop and enhance students' abilities to draft, analyse and administer construction contracts at an advanced level.",
+        "In addition to classroom discussion, students have the opportunity to see principles put into practice through construction site visits and detailed case studies.",
+        "The subject lecturers are Dr Matthew Bell (whose PhD was on residential construction regulation) and Suzanne Kirton (Judge of the County Court and Vice President of VCAT, with extensive practising experience in residential construction law)."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2 requires at least one core assessment to reproduce a professional task end to end — a real or realistic problem, producing the artefact a practitioner would produce, judged against criteria drawn from practice. LAWS70270 (Construction Contract Analysis, Drafting) requires students to 'analyse and draft construction contracts' and 'take a critical approach to the drafting and risk allocation of each contract' — reproducing the professional task of contract drafting and analysis. LAWS70112 (Remedies in the Construction Context) addresses 'remedies available under many causes of action' — practical legal advice for construction disputes. LAWS70149 (Construction Risk) addresses 'risk and insurance' management — a core professional task. Not level 3: the anchor requires such tasks to be the program's assessment spine (capstone plus earlier scaffolding) AND at least one to carry a genuine constraint of practice. While the subjects are professionally oriented, the assessments are take-home exams and research papers, not live professional deliverables with external constraints.",
+      "evidenceLines": [
+        "This subject is designed to develop and enhance students' abilities to draft, analyse and administer construction contracts at an advanced level.",
+        "Students will be expected to take a critical approach to the drafting and risk allocation of each contract.",
+        "analyse and draft construction contracts",
+        "Practitioners need to be confident in their understanding of the remedies available under many causes of action."
+      ]
+    },
+    "W3": {
+      "score": 0,
+      "rationale": "Level 0: no work-integrated learning, placement, practicum, or community-based project appears anywhere in the course structure. The program is 100 credit points of construction law subjects. LAWS70067 (International Legal Internship) appears in the 'Further subjects related to course' list but is not a core unit and is not required. The program structure is entirely classroom/examination-based with no placement component.",
+      "evidenceLines": [
+        "Students must complete 100 credit points in total.",
+        "LAWS70067\tInternational Legal Internship"
+      ]
+    },
+    "workplace": 4,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program documents a coherent specialist core with progressive depth: foundation subjects (LAWS70176 Construction Law or LAWS70314 Principles of Construction Law), contracting subjects (LAWS70270 Construction Contract Analysis Drafting, LAWS70149 Construction Risk, LAWS70239 Payment Matters), project delivery subjects, dispute avoidance subjects, and a capstone (LAWS70128 Advanced Construction Law). The structure requires 'at least 62.5 credit points from the Construction Law list' — a coherent specialist core with progressive depth from foundations through contracting to capstone.",
+        "evidenceLines": [
+          "Students must complete 100 credit points in total.",
+          "Students with a law degree from a common law jurisdiction must complete at least 87.5 credit points from the prescribed lists. Of those, at least 62.5 credit points must be from the Construction Law list.",
+          "Construction Law - Foundation subjects",
+          "Construction Law - Contracting subjects",
+          "Construction Law - Project delivery subjects",
+          "Construction Law - Dispute avoidance and resolution subjects",
+          "Construction Law - Capstone subject"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "G2 requires assessments with defended trade-off decisions, or simulations/capstones/live projects with real uncertainty and accountability. LAWS70270 (Construction Contract Analysis, Drafting) requires 'a critical approach to the drafting and risk allocation of each contract' — defended trade-off decisions on risk allocation. LAWS70149 (Construction Risk) addresses 'risk allocation in construction contracts and consultancy agreements, and how these are reflected in standard forms' — trade-off analysis. LAWS90229 (Rethinking Construction Contracting Risk) requires students to 'contemplate reform' and 'interrogate whether current construction law, construction contracts and habits and behaviours are adequate and appropriate' — defending positions on reform. The take-home examinations require analysis of hypothetical scenarios with real uncertainty.",
+        "evidenceLines": [
+          "Students will be expected to take a critical approach to the drafting and risk allocation of each contract.",
+          "Philosophies and commercial drivers affecting risk allocation in construction contracts and consultancy agreements, and how these are reflected in standard forms",
+          "The subject encourages students to contemplate reform in the way that the construction industry approaches risk by interrogating whether current construction law, construction contracts and habits and behaviours are adequate and appropriate for the efficient and cost-effective management of risks."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1: 'Class Participation (including group research exercise)' (LAWS70329, 20%) could be level 2 collaborative practice, but a 'group research exercise' within class participation is not a graded group project with individual accountability — level 1 taken.",
+      "W1: Construction site visits (LAWS70176) bring professional context into assessment, but no assessment is delivered to an external audience — level 2 taken, not 3.",
+      "W2: Contract drafting (LAWS70270) reproduces a professional task, but the assessment is a take-home exam, not a live professional deliverable — level 2 taken, not 3."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-22"
+    }
+  },
   "244cw": {
     "instrument": "4.1-draft",
     "C1": {
@@ -222,6 +1089,456 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "adversarial": true,
       "mechanical": true,
       "date": "2026-08-14"
+    }
+  },
+  "305bb": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2's anchor ('At least one core unit assesses collaborative practice — group projects with individual accountability, client or stakeholder work, interprofessional activity') is satisfied many times over: group presentations are assessed components in five compulsory subjects and the year-long capstone is run by a student-led team with teamwork as an assessed outcome. Level 3 is NOT reached because its second, conjunctive condition — 'at least one assessment requires coordinating work across people AND tools/AI systems ... a team capstone with documented role and tool allocation, or a task where the division of work between people and systems is itself assessed' — has no counterpart anywhere in the extract: no assessment documents role/tool allocation, and no tool or system is named as a party to the division of work. Recurrence alone does not lift the item. Per the one-construct-one-home rule, the clinical placement evidence is scored in W3, not here.",
+      "evidenceLines": [
+        "Group presentation",
+        "Group case study presentation",
+        "Group oral presentation (approx. 3 students per group)",
+        "Demonstrate teamwork, project planning/management and leadership skills to investigate a problem, issue or intervention related to the field.",
+        "The project is run by a student-led team and is supported by a teaching staff member.",
+        "Collaborate with other health professionals to ensure patient safety and to enhance the quality of care;"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2's anchor ('Core assessment includes criterion-referenced appraisal of quality: peer review, structured critique, portfolio with standards, marking against exemplars') is met by assessment, not outcome statements: a marked Peer review component in the capstone, a Portfolio hurdle in Professionalism and Clinical Processes B, and a compulsory Evidence-Based Practice subject whose assessed outcome is critical appraisal of evidence. Level 3 requires assessment that makes students 'document and justify reliance decisions — when they relied on or overrode a tool, source or collaborator; defend judgements of AI-output quality; or evidence strategy adjustment over time'. The E-portfolio is longitudinal and compiles self-reflection, but the extract describes it as documenting reflective practice and skill development, never as documenting or justifying a decision to rely on or override a source, tool or collaborator, and never as recording an adjusted strategy. Evidence straddles 2 and 3 on that last route; resolved DOWN per the ambiguity rule.",
+      "evidenceLines": [
+        "Peer review",
+        "Portfolio",
+        "Hurdle requirement: Portfolio must be passed",
+        "Evaluate and critically appraise available evidence to inform intervention options/strategies and education programs related to screenings, referral guidelines and pathways.",
+        "Hurdle requirement: Students must obtain satisfactory mark in E-portfolio to pass. Successful completion of the E-portfolio includes evidence compiled throughout the year. The E-Portfolio must include (but is not limited to): documentation of reflective practice through self-reflection of clinical placements and Objective Structured Clinical Exams (OSCEs); evidence of clinical skill development through OSCEs case reports, clinical feedback of clinical placements, and evidence of clinical placement attendance."
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 0 ('No digital/AI content in any core unit or program-level outcome') is falsified: core subjects carry outcomes about how hearing devices function, how they are fitted, adjusted and monitored, and the limitations of industry tools. But that is exactly the level-1 anchor — digital tools appearing 'as tool operation/training — the operational level TEQSA identifies as non-durable'. Level 2 requires core units to 'address AI capabilities AND limitations/ethics', and level 3 requires assessed critique or governance of AI systems (bias, accountability, transparency, regulation, data governance). Neither is reachable: artificial intelligence, gen AI, machine learning and algorithmic systems are absent from the extract entirely, so the technology-limitation outcomes cannot be read onto the AI anchors. The ethics content present is clinical/professional ethics, not the ethics of digital or AI systems.",
+      "evidenceLines": [
+        "Describe how hearing devices function including how the function of hearing devices can be influenced by extrinsic and intrinsic factors.",
+        "Discuss using plain and inclusive language how hearing devices function and how they can be fitted, adjusted and monitored.",
+        "Evaluate and understand the limitations of technologies and interventions related to hearing needs."
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2's anchor ('At least one core assessment requires application to novel or unfamiliar problems — case variation, unseen datasets, cross-context projects') is clearly met: a compulsory year-long subject built on complex, multifaceted cases, assessed by case-based written work, a group case study presentation and an oral exam, plus case-based assessments in other core subjects. Level 3 requires 'structured progression toward independent learning: a self-scoped capstone or research project, or assessed identification of one's own knowledge gaps together with the plan to close them'. Neither route is documented cleanly. The capstone is student-led and staff-supported but the extract never says students scope the problem themselves; and the only knowledge-gap-plus-plan language is a generic-skills list item repeated identically in twelve places, which R2 and Barrie forbid scoring as attainment. The capstone's inquiry evidence is additionally homed in C5 under the one-construct-one-home rule. Ambiguity between 2 and 3 resolved DOWN.",
+      "evidenceLines": [
+        "This subject uses case studies to build student competencies in working with complex, multifaceted clinical cases.",
+        "Case based written assignment",
+        "Adapt to solve problems in complex case management, considering all external and internal factors that impact on client care (e.g., disability, cultural, financial, time, resources, other health providers).",
+        "Reflect upon and identify deficiencies in knowledge, skills and attitudes and consider strategies to address those deficiencies."
+      ]
+    },
+    "C5": {
+      "score": 3,
+      "rationale": "Level 3's anchor requires 'A substantial project generating primary evidence ... REQUIRED (not one route among several), with methodology defended under scrutiny (viva, defence, or staged supervised review)'. All three elements are documented in assessment, not outcome, terms. Required: the 25-credit-point Audiology Research Project is one of four compulsory Year 2 subjects in an all-compulsory 200-point structure, with no alternative route offered. Primary evidence: students develop a research proposal and data analysis plan and perform data collection and analysis. Defence under scrutiny: a hurdle manuscript plus a separately hurdled oral defence of that manuscript. This exceeds level 2 ('design and conduct an inquiry with methodology selection and data collection, assessed'), which lacks the required-and-defended conditions.",
+      "evidenceLines": [
+        "This capstone subject provides students with a research opportunity that allows investigation of a problem, intervention or issue related to the field.",
+        "Students will develop a research proposal and data analysis plan, write a narrative literature review and perform data collection and analysis of the data/outcomes of the project.",
+        "Hurdle requirement: Student must achieve pass mark for manuscript",
+        "Oral defence of written manuscript",
+        "Hurdle requirement: Oral presentation must be passed",
+        "100 credit points of Year 2 compulsory subjects"
+      ]
+    },
+    "adaptiveness": 10,
+    "W1": {
+      "score": 3,
+      "rationale": "All three of level 3's conjunctive conditions have quotable assessment evidence. Assessed 'repeatedly and progressively across the program': OSCEs, roleplay OSCEs, group presentations, a clinical exam, an oral exam, a three-minute thesis and an oral defence appear as graded or hurdle components in both years, escalating from simple to complex clinical information. 'Delivered to, or judged by, a real external audience or practitioner ... patient or simulated patient': the hurdled Clinical simulation patient exam, backed by an outcome that places diagnostic assessment in simulation settings, and by clinical feedback from placements compiled into the E-portfolio. 'Professional conduct or accountability explicitly among the assessed criteria': a 15% assessment component literally named Research Professionalism, plus a pass/fail Clinical passport hurdle inside a subject whose assessed outcome is performing clinical duties professionally. Level 2 would understate this, since it caps at a single professional-genre instance with no repetition and no external or simulated audience.",
+      "evidenceLines": [
+        "Clinical simulation patient exam",
+        "Apply diagnostic assessments to adult and paediatric client groups in simulation settings.",
+        "Roleplay OSCE",
+        "OSCE: comprising 2 x 10 minute stations.",
+        "Research Professionalism",
+        "Clinical passport",
+        "Hurdle requirement: Pass/Fail hurdle",
+        "Accurately and professionally perform routine audiological clinical duties in a timely manner using a client-centred approach.",
+        "Communicate simple clinical information professionally using verbal, non-verbal, and written formats.",
+        "Three-minute thesis"
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Scored on documented task features only (R4) — no weight given to any 'authentic' or 'real-world' label. Level 2 is met because timed OSCEs and clinical exams reproduce the audiologist's own criterion situation end to end: taking a history, selecting and performing the assessment, interpreting it and forming a management plan, producing the practitioner's own artefact. Level 3's first condition, 'the program's assessment spine rather than a single instance ... at least one per stage', holds: an OSCE, roleplay OSCE, clinical simulation patient exam or clinical exam is a graded or hurdle component in eight of the twelve compulsory subjects, across both years. Its second condition, 'a genuine constraint of practice — an ambiguous or externally supplied problem, real resource/time limits ... or the profession's own standards of performance', is met by the fixed clinical station times, by a compulsory subject requiring problem-solving under stated external constraints including time and resources, and by a course explicitly built to the registration requirements of the profession's regulator. Simulation is scored here rather than in W3 as the instrument directs.",
+      "evidenceLines": [
+        "OSCE: comprising 2 x 10 minute stations.",
+        "Clinical simulation patient exam",
+        "Clinical exam",
+        "Roleplay OSCE",
+        "Three-part case study assignment",
+        "Adapt to solve problems in complex case management, considering all external and internal factors that impact on client care (e.g., disability, cultural, financial, time, resources, other health providers).",
+        "This course prepares students to meet the registration requirements of Audiology Australia.",
+        "Use evidence-based practice to develop and justify an appropriate management plan, considering the best available research evidence, clinical expertise, the individual patient and the practice context;"
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 2's qualifier — 'but it is short or stands alone' — is directly contradicted by the course overview, which documents placements beginning in Year 1 and increasing through the course; they are therefore a sequence, not a single instance. Level 3's remaining elements are each documented on the placement route: 'in the core' (Clinic placements is a hurdle in a compulsory Year 1 subject, placement attendance a hurdle in a compulsory Year 2 subject); 'assessed' and 'accountability to the host' (85% attendance hurdles in both years, plus clinical feedback from placements as required E-portfolio evidence); and 'structured reflection on professional practice' (the E-portfolio hurdle requires documented reflective practice through self-reflection of clinical placements). Simulation and OSCE work is excluded from this item and scored in W2, as the anchor directs.",
+      "evidenceLines": [
+        "The two year full time clinical degree consists of a combination of on-campus teaching and clinical placements. Clinical placements commence in the first year and gradually increase throughout the course. In the final year of the course, students are also involved in a research project related to the field.",
+        "Clinic placements",
+        "Hurdle requirement: Attendance at 85% of placements",
+        "Hurdle requirement: Students must obtain satisfactory mark in E-portfolio to pass. Successful completion of the E-portfolio includes evidence compiled throughout the year. The E-Portfolio must include (but is not limited to): documentation of reflective practice through self-reflection of clinical placements and Objective Structured Clinical Exams (OSCEs); evidence of clinical skill development through OSCEs case reports, clinical feedback of clinical placements, and evidence of clinical placement attendance."
+      ]
+    },
+    "workplace": 9,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The gate's PASS condition — 'a coherent specialist core with progressive technical or methodological depth: an all-compulsory specialist core, an accredited sequence, or a staged prerequisite chain' — is satisfied on all three routes simultaneously. Every one of the 200 credit points is compulsory, all twelve subjects carry the single AUDI discipline prefix, the paired A/B subjects and Year 2 advanced subjects form a staged depth chain, progression from Year 1 to Year 2 is gated on completing all first-year subjects, and the course is built to a named regulator's registration requirements with professional accreditation. Nothing here is generic or interchangeable.",
+        "evidenceLines": [
+          "100 credit points of Year 1 compulsory subjects",
+          "100 credit points of Year 2 compulsory subjects",
+          "* To progress from Year 1 to Year 2, students must complete all first-year subjects.",
+          "This course prepares students to meet the registration requirements of Audiology Australia.",
+          "Audiological Society of Australia (ASA)"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "The gate's PASS condition — 'Assessments require defended trade-off decisions, or simulations/capstones/live projects with real uncertainty and accountability' — is met on both routes. Defended trade-offs: a compulsory subject requires weighing evidence-based methodology to differentially diagnose and plan, and another requires justifying a management plan against competing considerations (research evidence, clinical expertise, the individual patient, the practice context). Uncertainty with accountability: hurdle-gated OSCEs and a clinical simulation patient exam, a year-long complex-case subject explicitly framed around external and internal constraints, and a capstone research project whose methodology is defended orally under a hurdle. This is not recall or scripted response.",
+        "evidenceLines": [
+          "Weigh-up evidence-based methodology to differentially diagnose, plan, consult on, and implement intervention and education plans.",
+          "Use evidence-based practice to develop and justify an appropriate management plan, considering the best available research evidence, clinical expertise, the individual patient and the practice context;",
+          "Adapt to solve problems in complex case management, considering all external and internal factors that impact on client care (e.g., disability, cultural, financial, time, resources, other health providers).",
+          "Clinical simulation patient exam",
+          "Oral defence of written manuscript"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C2 (2 vs 3): the hurdled E-portfolio is longitudinal and compiles self-reflection plus clinical feedback, which could be read as level 3's 'evidence strategy adjustment over time (process-focused assessment)'. But the extract describes only documentation of reflective practice and of skill development — never a documented or justified reliance/override decision, and never a recorded adjustment of strategy. Resolved DOWN to 2 by the never-resolve-upward rule.",
+      "C4 (2 vs 3): the Audiology Research Project is labelled a capstone, is student-led and requires students to develop their own research proposal, which is close to level 3's 'self-scoped capstone or research project'. The extract does not, however, document that students scope the problem themselves (it is 'supported by a teaching staff member'), and the alternative level-3 route — assessed identification of one's own knowledge gaps with a plan to close them — rests only on a generic-skills line repeated verbatim in twelve subjects, which R2 excludes. Resolved DOWN to 2; the capstone's inquiry evidence is homed in C5 under one-construct-one-home.",
+      "C3 (0 vs 1): whether clinical hearing devices count as 'digital tools' is arguable. Resolved at 1 rather than 0 because level 0's anchor ('No digital/AI content in any core unit or program-level outcome') is affirmatively falsified by core outcomes on device function, fitting, adjustment, monitoring and the limitations of industry tools — this is a determination that level 0 fails, not an upward resolution of ambiguity between 1 and 2.",
+      "W3 (supervision wording): level 3 names supervision 'by a practitioner'. The extract never uses the word supervision or supervisor; practitioner involvement is documented indirectly, as 'clinical feedback of clinical placements' required as E-portfolio evidence. This did not change the level, because level 2's own qualifier ('short or stands alone') is contradicted by placements that commence in Year 1 and increase across the course, so 2 is not available.",
+      "W1 vs C1 boundary: the group presentations assessed in five core subjects could be read as either collaborative practice (C1) or spoken communication (W1). Scored in C1 for the collaboration construct and in W1 only via the distinct simulated-patient, OSCE and named-professionalism evidence, so no single assessment carries both items.",
+      "W1 vs W3 boundary: clinical placement feedback is an external-practitioner judgement that could support W1 level 3's external-audience condition. W1's level 3 is carried instead by the Clinical simulation patient exam and the named Research Professionalism component, leaving the placement evidence in W3."
+    ],
+    "notScoreable": [
+      "C3, AI-specific anchors: no mention of artificial intelligence, generative AI, machine learning, algorithms or automated decision tools appears anywhere in the extract. The level-2 condition ('Core units address AI capabilities AND limitations/ethics') and the level-3 condition (assessed critique or governance of AI systems) therefore have no evidence to be tested against, and the item was scored on digital-device evidence alone. This is an absence of evidence in the captured pages, not a finding that the program excludes AI content.",
+      "C1 level-3 tool-allocation condition: nothing in the extract describes how work is divided between people and systems in any assessment, so the human-plus-tool coordination half of the level-3 anchor could not be evaluated on evidence either way.",
+      "Assessment criteria and rubrics: the handbook publishes assessment descriptions, timings, weights and hurdle conditions but no marking criteria for any task. Anchors phrased as 'judged against criteria drawn from practice' (W1 level 2, W2 level 2) were therefore evaluated from the documented task form and the program's stated registration/accreditation standards, not from criteria text."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-17"
+    }
+  },
+  "342aa": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 1,
+      "rationale": "Level 1 anchor — collaboration appears in stated skills but no core unit assesses it. Multidisciplinary teamwork is asserted only in the repeated 'Generic skills' block of the core subjects (PSYT90004, PSYT90024, PSYT90094) and in an unassessed Old Age outcome about referral to other specialists; R2 bars scoring stated attributes. Level 2 would need a core unit to assess collaborative practice: the only candidate is the small-group preparation described in the Special Topics teaching narrative, but the assessed item is an individual 'Oral presentation as part of a series of related presentations and discussion' and the group work is nowhere named as the assessed object, so the group/individual boundary is undocumented. Ambiguity resolved down per the lower-level rule. Placement and workplace-supervisor evidence is excluded here and scored in W3 (one construct, one home).",
+      "evidenceLines": [
+        "Skills in collaborative working within multidisciplinary teams as well as peers, and across multiple organisations",
+        "Utilise appropriate referral to other specialists and services (both medical and social) for older people.",
+        "For some sessions, small groups of students will be assigned to prepare and contribute, every student having one opportunity to do so during the semester.",
+        "Oral presentation as part of a series of related presentations and discussion"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1 anchor — critical appraisal and critical evaluation appear in course aims, core learning outcomes and the generic-skills block, but no CORE unit assesses appraisal of quality against criteria. The core assessment inventory is written examinations emulating the RANZCP exam format, written assignments, essays, a literature-review assignment and oral presentations; none is described as peer review, structured critique, portfolio against standards, or marking against exemplars. The genuinely criterion-referenced critique tasks ('Critical Analysis of a published paper...') sit in selective subjects (PSYT90010, PSYT90016, PSYT90061), which students choose four of, so they are not core assessment as level 2 requires. Nothing anywhere requires documenting or justifying reliance decisions, so level 3 is not in play.",
+      "evidenceLines": [
+        "To promote research and critical evaluation in clinical practice",
+        "Demonstrate skills in critical appraisal of research.",
+        "Advanced critical appraisal and clinical analytic skills",
+        "A written examination emulating the format of the Royal Australian and New Zealand College of Psychiatrists Examinations",
+        "Written assignment including brief literature review - Psychiatry of Old Age focus",
+        "Critical Analysis of a published paper presenting an empirical research study and its methodology within an agreed research topic area. (This will form the basis of a thesis for those continuing on to complete the Research Project)"
+      ]
+    },
+    "C3": {
+      "score": 0,
+      "rationale": "Level 0 anchor — no digital or AI content in any core unit or program-level outcome. The extract carries the course overview, the program aims, and the overview, learning outcomes and assessment pages of all six core subjects; the content lists enumerate history taking, mental state examination, formulation, risk and cognitive assessment, legal and ethical issues, basic sciences, treatments, research methodology and critical appraisal, with no digital, computational or AI element. 'Online' appears throughout only as a delivery mode and an attendance-hurdle alternative, which is not digital-literacy content. Level 1 would need AI or digital tools at least as an elective or as tool operation; the selective list (substance use, CBT, ethics, forensic, psychopharmacology, research methods, psychodynamic therapy, transcultural, history and philosophy) contains none.",
+      "evidenceLines": [
+        "This subject will cover skills such as history taking, mental state examination, formulation, risk and cognitive assessment, legal and ethical issues and basic sciences, psychological, social and biological treatments, research methodology and critical appraisal of research;",
+        "To provide education about the specific attitudes, knowledge and skills needed to effectively work in the area of mental health",
+        "Students must complete six core subjects and four selective subjects.",
+        "Hurdle requirement: 75% attendance of sessions (for face to face students) OR 75% completion of online modules (for online students)."
+      ]
+    },
+    "C4": {
+      "score": 1,
+      "rationale": "DEMOTED from 2 to 1 on adversarial verification. The level-2 case rested entirely on the Consultation Liaison case study, whose load-bearing feature is that it is 'derived for the students current placement' — and the one-construct-one-home rule states that placement evidence scores in W3, never in C1 or C4; the same line is already carried by W2 and W3. With it removed, no remaining core assessment is documented as requiring application to a novel or unfamiliar problem: the rest of the core inventory is a literature-review assignment, set-topic essays, written assignments, oral presentations and RANZCP-format written examinations, none described as case variation, unseen data or cross-context transfer. Every other line cited for C4 ('To encourage students to become critical thinkers and pursue lifelong learning...', 'Improve self-directed learning skills...', 'Generate a plan to support the attainment of skills...') is an outcome statement, which R2 caps at level 1. Level 3 remains out of reach for the reason originally given: the self-scoped Psychiatric Research Project is one of two capstone routes, so structured progression toward independent learning is not documented for the cohort. Level 1 anchor — transfer claimed in outcomes but not assessed.",
+      "evidenceLines": [
+        "To encourage students to become critical thinkers and pursue lifelong learning and self-directed professional development",
+        "Improve self-directed learning skills and enhance motivation to innovate and incorporate novel ideas in day-to-day work",
+        "Generate a plan to support the attainment of skills and maintenance of currency throughout their professional career",
+        "Students have the option to complete a thesis or do a dissertation if they choose the Psychiatric Research Subject. Those not undertaking the Psychiatric Research Subject will complete the other Capstone subject, Special Topics in Psychiatry. There is also the possibility of taking some or the entire course on a continuing education, rather than a degree basis.",
+        "EITHER PSYT90094 - Special Topics in Psychiatry OR PSYT90093 - Psychiatric Research Project*"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2 anchor — students design and conduct an inquiry with methodology selection and data collection, assessed. The Psychiatric Research Project requires methodology choice, data collection, analysis and a 6000-word report, assessed with a staged supervisor's report; the prerequisite Research Methods subject supplies the introductory methods and ethics training. Level 3 is explicitly withheld because its anchor demands the substantial primary-evidence project be REQUIRED and not one route among several — the course structure states the capstone as an either/or with Special Topics in Psychiatry, so a student can complete the degree without generating primary evidence. The fortnightly supervisor meetings and three staged supervisor reports would otherwise satisfy the 'staged supervised review' clause, which is what makes the 2/3 boundary the live one; resolved down per the lower-level rule.",
+      "evidenceLines": [
+        "EITHER PSYT90094 - Special Topics in Psychiatry OR PSYT90093 - Psychiatric Research Project*",
+        "In this unit students will be given an introduction to research tools and practice at a basic or introductory level. The course will cover aspects of critical appraisal, research study design qualitative and quantitative statistical methodology and practical aspects of research, such as Ethics submission and seeking funding.",
+        "Conduct data collection, analysing and interpreting data, critically discussing the implications of the findings,",
+        "Final Research Report (organised into Abstract, Introduction, Methods, Results, Discussion, Conclusion, References) - incorporates work undertaken in research prerequisite subject",
+        "Supervisor's Report (standards of self-direction, initiative, data collection, ethical conduct) 3 reports. One at start, oner at mid-term, one at end of term.",
+        "Hurdle requirement: Fortnightly meetings with supervisor througout the subject"
+      ]
+    },
+    "adaptiveness": 5,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1 anchor — communication appears in outcomes and generic skills, and core assessment adds presentation to peers and staff, but no professional genre and no audience beyond the teaching team. Core spoken assessment is the oral presentation in Child and Adolescent Psychiatry and in Special Topics, both delivered within the seminar series; the Child and Adolescent outcome names communication 'of these ideas to ones peers'. All core written assessment is academic genre addressed to the marker — essays, written assignments, and examinations emulating the RANZCP examination format (an examination is a credentialing genre judged by examiners, not communication to a professional audience). Level 2 would need a recognised professional genre or an external audience judged against practice criteria in core assessment; none is documented. The RANZCP workplace-based assessments by workplace supervisors are the only external-practitioner judgement in the program and are scored in W3, not double counted here.",
+      "evidenceLines": [
+        "Improved written and communication skills",
+        "Transfer theoretical readings and synthesis of the available evidence base into key ideas, and develop skills in succinct communication (orally and in professional written form) of these ideas to ones peers.",
+        "Oral presentation as part of a series of related presentations and discussion",
+        "Written essay on child and adolescent psychiatry",
+        "One written examination (for face to face students) OR examination conducted entirely online requiring typing (for online students) emulating the format of the Royal Australian and New Zealand College of Psychiatrists Examinations",
+        "Written Assessment"
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Level 1 anchor — contextualised and case-framed tasks appear, but the artefact produced and the criteria applied remain academic. Core assessment is a word-counted case study, a literature-review assignment, a set-topic essay, written assignments and timed written examinations; the case study is drawn from real practice, which supplies the situational framing level 1 describes, but the deliverable is a 2000-word account 'illustrating a number or principles in C-L psychiatry' rather than the artefact a psychiatrist produces (a clinical assessment, formulation, consultation note or management plan) judged against practice criteria, so level 2's end-to-end professional-task test is not met. Per R4 the RANZCP-alignment wording is not scored as authenticity; only documented task features count, and the documented feature is an examination format. Real workplace activity is scored in W3, and appraisal of quality in C2. Ambiguity resolved down.",
+      "evidenceLines": [
+        "A brief case study derived for the students current placement, illustrating a number or principles in C-L psychiatry",
+        "Written assignment including brief literature review - Psychiatry of Old Age focus",
+        "Essay - set topic will focus on vocational aspects of the psychiatrist role (Capstone)",
+        "One written examination (for face to face students) OR examination conducted entirely online requiring typing (for online students) emulating the format of the Royal Australian and New Zealand College of Psychiatrists Examinations",
+        "A written assignment"
+      ]
+    },
+    "W3": {
+      "score": 2,
+      "rationale": "DEMOTED from 3 to 2 on adversarial verification. Level 2's in-practice route is fully satisfied: the cohort is documented as already practising (doctors; psychiatric trainees complementing the RANZCP Training Program) and core units assess activity in the student's own practice with a documented outcome measure — every core subject carries a fieldwork hurdle of three RANZCP workplace-based assessments or three workplace practical activity log sheets. Level 3's in-practice route is conjunctive and two conjuncts fail. (a) Documented accountability to workplace stakeholders is not REQUIRED: all six fieldwork hurdles are an OR against a WPAL route with no workplace supervisor — 'completed by a suitable peer and checked by the subject coordinator' (PSYT90004, PSYT90024, PSYT90094) or merely 'taken away and then checked by the subject coordinator' (PSYT90006, PSYT90078, PSYT90079) — so a student can clear every fieldwork hurdle without any workplace supervisor judging them. (b) Structured reflection on professional practice is not documented in any assessment: the Consultation Liaison case study's stated purpose is 'illustrating a number or principles in C-L psychiatry' (application of taught principles, not reflection), and the Old Age/capstone item is a 'set topic' essay on the psychiatrist role in general, with no documented requirement to reflect on the student's own practice — R1 bars scoring what plausibly happens over what is documented. Coverage is also narrower than a level-3 reading assumed: PSYT90093, one of the two capstone routes, carries no fieldwork hurdle at all. Resolved down to 2.",
+      "evidenceLines": [
+        "With the need to improve and facilitate the delivery of psychiatric care to a broader cross section of the community, this academic qualification provides doctors with the opportunity to develop their knowledge and skills in working with patients experiencing mental illness.",
+        "Psychiatric trainees will particularly appreciate the benefits of this program, as they complement the RANZCP Training Program.",
+        "Hurdle requirement: Fieldwork – 3 RANZCP workplace based assessments (WBAs) by workplace supervisors (approx 90mins each or longer depending on competency) OR 3 Workplace Practical Activity Log sheets (WPALs) to be taken away and then checked by the subject coordinator after submission.",
+        "Hurdle requirement: Fieldwork - either: 3 RANZCP workplace based assessments (WBAs) by workplace supervisors (approx. 90min each, or more time depending on competency), OR 3 Workplace Practical Activity Log sheets (WPALs) to be taken away and then checked by the subject coordinator after submission.",
+        "Hurdle requirement: Either: 3 RANZCP Workplace Based Assessments (WBAs) by workplace supervisors OR 3 Workplace Practical Activity Log sheets (WPALs) to be completed by a suitable peer and checked by the subject coordinator after submission.",
+        "A brief case study derived for the students current placement, illustrating a number or principles in C-L psychiatry",
+        "Essay - set topic will focus on vocational aspects of the psychiatrist role (Capstone)"
+      ]
+    },
+    "workplace": 4,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "A coherent specialist core with progressive depth and an accredited sequence: six compulsory specialist psychiatry subjects plus four selectives, professionally accredited by the RANZCP, aligned to the College's competency-based fellowship, staged across three years (Core Psychiatry I then II, then subspecialty subjects, then a final-semester capstone), with a documented prerequisite chain into the research capstone. Nothing here is generic or interchangeable content.",
+        "evidenceLines": [
+          "Royal Australian and New Zealand College of Psychiatrists (RANZCP)",
+          "Students must complete six core subjects and four selective subjects.",
+          "This subject will aim to align with the proposed new Competency Based Fellowship of the Royal Australian and New Zealand College of Psychiatrists.",
+          "* prerequisite subject for Psychiatry Research Project (PSYT90010 Research Methods in Psychiatry)",
+          "This is one of two capstone subject options, taught in the final semester of the Master of Psychiatry course. As such, it aims to help students integrate the diverse knowledge and skills acquired in the previous five semesters to prepare them for their transition to professional practice."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Core assessment goes beyond recall or scripted response: the Consultation Liaison case study is built from a real, externally supplied case in the student's own placement with genuine clinical uncertainty and accountability, and the core clinical outcomes require formulation, differential diagnosis and management decisions under the ambiguity of an individual presentation and its social milieu, with the workplace-based assessment hurdles judged by supervisors in live practice. Written examinations exist alongside these but are not the only mode.",
+        "evidenceLines": [
+          "A brief case study derived for the students current placement, illustrating a number or principles in C-L psychiatry",
+          "Formulate a comprehensive psychiatric assessment following on from a clinical interview of older persons to effectively assess mental state with particular reference to cognitive function.",
+          "Analyse and apply the skills necessary to manage common psychiatric disorders affecting older people and the sensitivity to the social milieu in which the aged person lives with particular reference to the need to support and assist carers of older persons with psychiatric disorders.",
+          "Hurdle requirement: Fieldwork – 3 RANZCP workplace based assessments (WBAs) by workplace supervisors (approx 90mins each or longer depending on competency) OR 3 Workplace Practical Activity Log sheets (WPALs) to be taken away and then checked by the subject coordinator after submission."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1 straddled 1 and 2: Special Topics documents that 'small groups of students will be assigned to prepare and contribute', but the assessed item is described only as an oral presentation, with no documented group product or individual accountability within a group — resolved to 1 by the never-resolve-upward rule.",
+      "C2 straddled 1 and 2: genuine criterion-referenced critique tasks exist (Research Methods 'Critical Analysis of a published paper', Forensic Psychiatry critical review, Psychopharmacology critical analysis exercise) but all sit in selective subjects, and the level-2 anchor requires CORE assessment — resolved to 1.",
+      "C4 straddled 1 and 2 and was resolved to 1 on adversarial verification: the level-2 reading rested on the Consultation Liaison case study, but its novelty comes from the student's own placement, and placement evidence has its home in W3 (one construct, one home). The remaining C4 lines are outcome statements, which R2 caps at level 1. The 2/3 question is therefore moot; the earlier note that the self-scoped Psychiatric Research Project is only one of two capstone routes ('EITHER PSYT90094 ... OR PSYT90093') still holds against any level-3 reading.",
+      "C5 straddled 2 and 3: staged supervised review is documented (three supervisor's reports plus fortnightly supervisor meetings), but the level-3 anchor's explicit 'REQUIRED (not one route among several)' clause fails because the primary-evidence project is an alternative to Special Topics — resolved to 2.",
+      "W1 vs W3 (one construct, one home): the RANZCP workplace-based assessments are judged by workplace supervisors, i.e. practitioners beyond the teaching team, which could be read into W1 level 3 ('judged by a real external audience or practitioner'). Scored in W3 only, whose construct names assessed activity in the student's own practice; W1 therefore rests on in-seminar presentation evidence and scores 1.",
+      "W2 vs W3: the Consultation Liaison case study is used in W2 as evidence of situational framing (level 1) and in W3 as evidence of assessed own-practice activity. The same task informs two items, so it is noted here; its fidelity-of-artefact reading did not lift W2 to 2, and on verification it was also found not to establish reflection on the student's own practice for W3.",
+      "W3 straddled 2 and 3 and was resolved DOWN to 2 on adversarial verification, correcting an initial level-3 score that had been recorded as the one place the scoring did not resolve downward. Level 3's conjuncts fail twice: every fieldwork hurdle offers a WPAL route with no workplace supervisor (peer-completed or coordinator-checked), so accountability to workplace stakeholders is not required; and no core assessment documents structured reflection on the student's own practice — the placement case study is framed as illustrating taught principles and the capstone essay is a set topic on the psychiatrist role in general."
+    ],
+    "notScoreable": [
+      "C3: no absence-of-evidence problem — the extract carries the program aims plus the overview, outcomes and assessment pages of all six core subjects, and none mentions digital or AI content, so level 0 is documented rather than inferred. The only 'technology' occurrences in the whole extract are 'assisted reproduction technology' in Perinatal Psychiatry, a selective marked 'Not available in 2026'.",
+      "No eligibility-and-requirements page text was captured for any subject, so prerequisite-level detail beyond the course-structure footnote could not be checked; this did not affect any item score.",
+      "Assessment detail for the Standard-vs-Intensive delivery split (how the six core subjects are sequenced in the one-year intensive mode) is not in the extract; scoring treated the six core subjects as common to both modes, as the course-structure page states."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-17"
+    }
+  },
+  "344ab": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 1,
+      "rationale": "Level 1 anchor: collaboration appears in outcomes but no core unit assesses it. Teamwork is claimed at program and subject-outcome level, but the compulsory core (PPMN90006 The Principles of Public Management, PPMN90007 Theories of Policy Process) assesses only individually written case analyses, observed written exercises and papers — no collaborative task. Level 2 ('at least one core unit assesses collaborative practice') is not reached because the only assessed group work sits in PPMN90010, one of three alternative capstone streams, so a student can complete the program without any assessed collaboration; per the downward-resolution rule the 1/2 straddle takes 1. Level 3 fails outright — nothing in the extract assesses coordination of work across people AND tools/AI systems.",
+      "evidenceLines": [
+        "Demonstrate organisational skills and ability to work collaboratively;",
+        "Demonstrate organisational skills and ability to work collaboratively.",
+        "Case Analysis",
+        "Observed 2-hour written scenario-analysis exercise",
+        "Strategy Design Paper",
+        "Descriptive outline of a policy problem",
+        "Observed 1.5-hour written exercise",
+        "Policy analysis paper",
+        "Group presentation (groups of 4-5 students assessed collectively, 20 minutes in length)",
+        "Collectively written component of group project",
+        "Capstone Stream 3: PPMN90010 Professional Practice in Policy Research (25 points)"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1 anchor: reflection and evaluative judgement appear in generic skills/outcomes, but no core unit assesses appraisal of quality against criteria. 'Display evaluative judgement' and 'Exercise reflection skills' are stated at program level and repeated in PPMN90006's generic skills, yet neither compulsory subject's assessment table contains peer review, structured critique of work, a portfolio with standards, or marking against exemplars — the level-2 anchor's named forms. R2 binds: an unassessed outcome scores 1. The reflective essay in the Executive Internship is assessed but is (a) route-optional and (b) not documented as criterion-referenced appraisal of quality of work, so it cannot lift this to 2. No documented reliance/override or AI-output-quality justification, so level 3 is not in play.",
+      "evidenceLines": [
+        "Exercise reflection skills;",
+        "Display evaluative judgement;",
+        "Apply evaluative judgment",
+        "Exercise reflection skills",
+        "Case Analysis",
+        "Observed 2-hour written scenario-analysis exercise",
+        "Strategy Design Paper",
+        "Policy analysis paper",
+        "Reflective Essay"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor: digital/AI appears only as electives or as declared capability, not in core units addressing capabilities AND limitations/ethics. 'Display digital literacy skills.' is a program-level generic skill, which rules out level 0. The only unit engaging AI and algorithmic harms — PPMN90065 Public Policy in the Digital Age, covering data privacy, algorithmic bias and digital exclusion — sits in the elective pool, not the compulsory core, which is exactly the level-1 condition. Level 2 requires core units to address AI capabilities and limits; neither compulsory subject mentions AI or digital tools in its outcomes or assessment. Level 3 (assessed critique or governance of AI systems in core assessment) has no evidence at all.",
+      "evidenceLines": [
+        "Display digital literacy skills.",
+        "Public Policy in the Digital Age (PPMN90065)",
+        "Elective Subjects (112.5-137.5 points)",
+        "Apply suitable analysis, implementation and consultation methods to interrogate public management problems and evaluate viable solutions and outcomes"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2 anchor: at least one core assessment requires application to novel or unfamiliar problems. The capstone requirement is universal and every stream requires assessed application beyond the taught case — an original thesis research question, a real-time contemporary project, or research exercises framed by a host organisation — and the compulsory core adds observed scenario-analysis exercises. Level 3 ('structured progression toward independent learning: a self-scoped capstone or research project') is genuinely close: compulsory subjects are timetabled into the first 100 points and the thesis into the final 100, and Streams 1 and 3 are self-scoped scholarship with assessment evidence (15,000-word thesis; 5,000-word research report and recommendations). It is withheld because the self-scoped-project route is one of three alternatives, and the third route's self-direction is placement evidence that the one-construct-one-home rule assigns to W3 — so no self-scoped research project is required of every student. Ambiguous between 2 and 3, resolved down.",
+      "evidenceLines": [
+        "All students are required to meet the Capstone Requirement for the program. There are 3 Capstone streams offered in this course which satisfy the capstone requirements:",
+        "Observed 2-hour written scenario-analysis exercise",
+        "Observed 1.5-hour written exercise",
+        "Apply appropriate theories and methods to scrutinise real-world public policy and management case studies",
+        "Design a research project within a clearly formulated scope to answer an original and relevant research question within a realm of public or social policy",
+        "Purpose: An opportunity to apply and integrate policy knowledge and research skills to solve problems that arise in political and public sector contexts through a sustained piece of scholarship.",
+        "Research report and recommendations",
+        "The following three compulsory subjects must be taken in the first 100 points of study.",
+        "Students admitted into the 200 and 150 point programs must complete the thesis in their final 100 points of study and have an average mark of H1 (80%) prior to enrolment in the thesis"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2 anchor: students design and conduct an inquiry with methodology selection and data collection, assessed. Every capstone route documents this — the thesis requires collecting and analysing data and is assessed as a 15,000-word supervised thesis; PPMN90010 requires appropriately selected research methods assessed via a research report; the internship has students carry out research exercises, with ethics approval contemplated for primary research. Level 3 is explicitly barred by its own anchor: a substantial primary-evidence project must be REQUIRED and 'not one route among several', and the thesis is one of three capstone streams. The staged supervision (progress report, full draft, regular supervision meetings) would otherwise supply the 'staged supervised review' clause, which makes the route-optionality the sole binding failure.",
+      "evidenceLines": [
+        "Apply appropriate research methods and analytical skills to collect and analyse data relevant to a specific research question relating to public or social policy",
+        "This subject involves a supervised thesis of 15,000 words, embodying the results of the student's own research.",
+        "Apply key concepts of policy analysis and appropriately selected research methods within the framework of a specific policy issue, developing a coherent analytical approach",
+        "Research report and recommendations",
+        "Students will carry out research or analytical exercises of relevance to the organisation that will be involved in high-level and complex policy making.",
+        "If primary research is carried out during the internship, ethics approval is the responsibility of the host organisation.",
+        "Capstone Stream 1: PPMN90049 Public/Social Policy Thesis Part 1 and PPMN90050 Public/Social Policy Thesis Part 2 and PPMN90058 The Research Policy Nexus (50 points total)",
+        "Capstone Stream 2: PPMN90039 Executive Internship (25 points)",
+        "Hurdle requirement: Students are required to attend regular supervision meetings."
+      ]
+    },
+    "adaptiveness": 7,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1 anchor: communication appears in outcomes and graduate attributes, and core assessment adds spoken presentation, but no professional genre judged against practice criteria and no audience beyond the teaching team. Program outcomes claim effective communication of complex ideas; spoken assessment exists inside the capstone block (a 20-minute group presentation in PPMN90010, an oral presentation hurdle in the internship), which rules out level 0. Level 2 fails on the anchor's criterion clause: the compulsory core produces only marker-addressed academic artefacts, and where a nearer-professional artefact exists it is not documented as judged against criteria drawn from professional practice, nor delivered to any audience beyond the teaching team. Under R4 the 'professional' in 'Professional portfolio / report' is a label, not a documented task feature.",
+      "evidenceLines": [
+        "Communicate complex ideas effectively in the context of public policy and management",
+        "Demonstrate effective oral, written and non-verbal communication skills;",
+        "Policy analysis paper",
+        "Strategy Design Paper",
+        "Case Analysis",
+        "Group presentation (groups of 4-5 students assessed collectively, 20 minutes in length)",
+        "Oral presentation",
+        "Communicate social or public policy research in writing to an academic audience."
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Level 1 anchor: contextualised and scenario-framed tasks appear, but the artefact produced and the criteria applied remain academic. The compulsory core is built on case analysis, observed scenario-analysis exercises and analytical papers — situationally framed, but the products are marker-facing papers with no criteria drawn from practice documented anywhere in the extract. Level 2 requires a core assessment reproducing a professional task end to end with practice-drawn criteria: PPMN90010's research report and recommendations comes closest and satisfies two of the three clauses, but the judging criteria are undocumented and the subject is one of three capstone routes. R4 forbids upgrading on the 'real-world' framing in the outcome statements. Ambiguous between 1 and 2, resolved down. Level 3 (an assessment spine of such tasks plus a genuine constraint of practice) is not reached.",
+      "evidenceLines": [
+        "Case Analysis",
+        "Observed 2-hour written scenario-analysis exercise",
+        "Strategy Design Paper",
+        "Descriptive outline of a policy problem",
+        "Policy analysis paper",
+        "Apply appropriate theories and methods to scrutinise real-world public policy and management case studies",
+        "Research report and recommendations",
+        "Design robust, theoretically-informed solutions to public policy and management dilemmas"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1 anchor: work-situated learning exists as an optional internship. The Executive Internship is a real placement with senior-manager supervision, an academic supervisor and substantial assessment — but it is offered as 'Option 2 Internship (25 points)', one of three capstone streams a student may choose instead of a thesis or a coursework project, which is precisely the 'optional internship' wording at level 1. Level 2 requires a CORE unit that places students; no placement is required of every student, so the 1/2 straddle resolves down. The v4.2 in-practice route does not open either: the cohort is documented as 'working professionals (both current and aspiring)', so it is not a cohort documented as already practising, and no core unit assesses activity conducted in a student's own professional practice.",
+      "evidenceLines": [
+        "Option 2 Internship (25 points)",
+        "Capstone Stream 2: PPMN90039 Executive Internship (25 points)",
+        "In this subject students will be placed in an organisation which either has governmental responsibilities or deals with government, where they will work under the supervision and guidance of a senior manager in the organisation.",
+        "Students will be required to use their own networks to make an initial contact with a potential organisation.",
+        "Organisational analysis",
+        "Reflective Essay",
+        "Professional portfolio / report",
+        "The course is structured around working professionals (both current and aspiring) and therefore emphasises flexibility and tailored options.",
+        "All students are required to meet the Capstone Requirement for the program. There are 3 Capstone streams offered in this course which satisfy the capstone requirements:"
+      ]
+    },
+    "workplace": 3,
+    "gates": {
+      "G1": {
+        "result": "FAIL",
+        "rationale": "FAIL (demoted from PASS on adversarial verification). The PASS rationale rested on a misreading of the extract: it asserted a universal capstone taken in the final 100 points with an H1 eligibility threshold, but both the final-100-points rule and the H1 (80%) threshold appear ONLY under 'Option 1 Minor Thesis (50 points)', introduced by 'Please note the following prior to enrolling in the minor thesis'. They bind the thesis route alone; the Executive Internship and Professional Practice routes carry no timing or progression rule. The capstone requirement is universal, but its placement in the final 100 points is not. With that misattribution removed, none of the PASS anchor's three limbs is documented: (a) NOT an all-compulsory specialist core — 37.5 of 200 points compulsory (19%), against 112.5–137.5 points of electives spanning eleven thematic clusters including 'The Politics of Food', 'Politics and Business in post-Mao China', 'Health Program Design & Implementation', 'Social Enterprise Incubator' and 'Migration and Development'; (b) NO accredited sequence anywhere in the extract; (c) NO staged prerequisite chain — zero prerequisites are documented (every subject's 'Eligibility and requirements' page appears as a navigation label only, never as captured content), and 'The following three compulsory subjects must be taken in the first 100 points of study.' is a placement rule among three same-level subjects with no dependency between them, not a chain. The one genuinely methodological subject, PPMN90058 The Research Policy Nexus, is compulsory only for thesis-route students and otherwise sits in the elective pool, so documented methodological depth is itself route-optional. Acknowledged counter-argument, recorded rather than suppressed: the FAIL condition as worded ('Generic or interchangeable content without disciplinary identity') is not literally met, since the three compulsory subjects are unmistakably PPMN-coded discipline content and the graduate attributes name 'the various disciplinary foundations of public policy making'. The gate is genuinely underdetermined between its two conditions; resolved to FAIL under the never-resolve-upward rule and because the affirmative PASS case as written is factually unsupported by the extract. Coverage limit: if the uncaptured 'Eligibility and requirements' pages document prerequisites, or if PPMN90059 Foundations of Government sequences the other two, G1 could return to PASS on re-capture.",
+        "evidenceLines": [
+          "Compulsory subjects (37.5 points)",
+          "The following three compulsory subjects must be taken in the first 100 points of study.",
+          "All students are required to meet the Capstone Requirement for the program.",
+          "Option 1 Minor Thesis (50 points)",
+          "Please note the following prior to enrolling in the minor thesis",
+          "Students admitted into the 200 and 150 point programs must complete the thesis in their final 100 points of study and have an average mark of H1 (80%) prior to enrolment in the thesis",
+          "An extensive knowledge of the various disciplinary foundations of public policy making and their relationship to a range of contemporary policy environments and challenges;",
+          "Elective subjects (coursework option 137.5 points, minor thesis option 112.5 points)"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "PASS: assessments require defended trade-off decisions, and the required capstone is a project carrying real uncertainty. The compulsory core assesses an observed timed scenario-analysis exercise and a strategy design paper against outcomes framed as designing strategies for public management dilemmas; the capstone project explicitly requires developing alternatives, evaluating them against criteria and recognising the trade-offs between them. This is well beyond recall or scripted response.",
+        "evidenceLines": [
+          "Observed 2-hour written scenario-analysis exercise",
+          "Strategy Design Paper",
+          "Plan strategies informed by theoretical awareness and a practical skillset in public management to address public management dilemmas and routine challenges of public managers",
+          "Design robust, theoretically-informed solutions to public policy and management dilemmas",
+          "Working both in teams as well as independently, students will identify and formulate key problems, develop a set of alternatives to address them, evaluate the alternatives against a set of criteria and recognise the trade-offs between them.",
+          "Observed 1.5-hour written exercise"
+        ]
+      }
+    },
+    "ambiguities": [
+      "Structural ambiguity affecting C1, C2, C4, C5, W1, W2 and W3 alike: the capstone requirement is universal but is met by any one of three streams (thesis / Executive Internship / Professional Practice in Policy Research). Evidence appearing in only one stream is therefore not required of every graduate. Wherever an anchor turns on 'core', I treated the capstone REQUIREMENT as core but a single stream's distinctive features as route-optional, and resolved the resulting straddle downward.",
+      "C1, straddle 1 vs 2: PPMN90010 carries genuinely assessed collaboration ('Group presentation (groups of 4-5 students assessed collectively, 20 minutes in length)' and 'Collectively written component of group project'), which would meet level 2's 'at least one core unit assesses collaborative practice'. Resolved to 1 because that subject is one of three capstone routes and neither compulsory subject assesses teamwork, so collaboration remains an outcome claim for a thesis-route or internship-route student.",
+      "C2, straddle 0 vs 1: no core assessment appraises the quality of work, which reads as level 0; level 1 is reached only because 'Display evaluative judgement;' and 'Exercise reflection skills;' are stated program-level generic skills. Resolved up to 1 on that outcome evidence, which level 1 explicitly contemplates. Separately, the internship's assessed 'Reflective Essay' was considered for level 2 and rejected — it is route-optional and not documented as criterion-referenced appraisal of quality.",
+      "C4, straddle 2 vs 3: level 3's 'self-scoped capstone or research project' is documented for Streams 1 and 3 with assessment evidence (15,000-word thesis; research report and recommendations), and the first-100-points/final-100-points sequencing supplies 'structured progression'. Resolved down to 2 because the self-scoped-project route is one of three, and the remaining route's self-direction (finding one's own host organisation, scoping work for it) is placement evidence that the one-construct-one-home rule assigns to W3 and may not be re-used here. Note: the adversarial pass established that the final-100-points rule binds only the thesis route, which weakens the 'structured progression' limb further and confirms the downward resolution.",
+      "C5, straddle 1 vs 2: PPMN90058's assessments are a 'Research rationale' and a 'Research plan' — design without data collection, which is level-1 shaped — and PPMN90007 is explicitly retrospective engagement with existing data sources and policy documents, i.e. secondary synthesis. Resolved to 2 because all three capstone routes, not merely the thesis, document an assessed inquiry with methodology selection and data collection or analysis, so the level-2 anchor holds whichever route a student takes.",
+      "C5, level 3 considered and rejected on the anchor's own words: the staged supervised review clause is arguably met (progress report, full draft five weeks before submission, required regular supervision meetings), but 'REQUIRED (not one route among several)' fails because the thesis is one of three capstone streams.",
+      "W1, straddle 0 vs 1 and 1 vs 2: level 0 was rejected because spoken communication is assessed within the capstone block (a 20-minute group presentation; an oral presentation hurdle in the internship). Level 2 was rejected because no assessment is documented as addressed to an audience beyond the teaching team or judged against criteria drawn from professional practice — 'Professional portfolio / report' is a title, and R4 bars scoring the label rather than the documented task features.",
+      "W2, straddle 1 vs 2: PPMN90010 satisfies two of level 2's three clauses (a real contemporary problem worked in real time; a research report with recommendations, which is the artefact a policy analyst produces) but not the third — the criteria applied are nowhere documented as drawn from practice — and it is route-optional. Resolved to 1. The outcome phrases 'real-world' and 'authentic day-to-day scenarios' were disregarded under R4.",
+      "W3, straddle 1 vs 2: the Executive Internship substantively matches level 2's mechanism — placement in a real organisation, supervision by a senior manager in that organisation, an academic supervisor, and 100 points' worth of assessment including a progress-report hurdle. It scores 1 because it is elected as one of three capstone streams, which is level 1's 'optional internship' wording verbatim in construct. The v4.2 in-practice route was tested and does not apply: 'working professionals (both current and aspiring)' does not document a cohort as already practising, and no core unit assesses own-practice activity with real recipients.",
+      "G1, PASS vs FAIL, demoted to FAIL on adversarial verification. The original PASS rested on a staged-sequence reading that misattributed the thesis-route timing and H1 rules ('Option 1 Minor Thesis (50 points)') to the whole program; with that removed no limb of the PASS anchor is documented — 19% compulsory core, no accreditation, and zero prerequisites captured anywhere in the extract. The counter-argument is preserved: the FAIL condition ('generic or interchangeable content without disciplinary identity') is not literally met, since the compulsory subjects are PPMN-coded discipline content and the graduate attributes name the field's own disciplinary foundations. Genuinely underdetermined; resolved to FAIL under the never-resolve-upward rule. Re-capture of the uncaptured 'Eligibility and requirements' pages could return this to PASS."
+    ],
+    "notScoreable": [
+      "PPMN90059 Foundations of Government is a compulsory subject in the 200-point program ('PPMN90059\tFoundations of Government'), but the extract contains no subject overview or assessment page for it. One third of the 200-point compulsory core is therefore unobserved, and C1, C2, C3, C4, W1 and W2 are all scored on incomplete core-assessment coverage; any of them could move if that page documents collaboration, criterion-referenced appraisal, AI content, or a professional-genre task.",
+      "No assessment page in the extract mentions generative AI, AI tools, or rules on their use, in any core or capstone subject. C3's ceiling is therefore set by absence of evidence rather than by documented absence of practice.",
+      "W1 level 2/3 and W2 level 2/3 both turn on the criteria used to judge assessments; the handbook's assessment tables give description, timing and percentage only, and never state marking criteria. Neither item can be scored above the level its documented task features support, and no external-audience or practitioner-judging evidence exists anywhere in the extract.",
+      "No prerequisite or co-requisite information was captured for any subject: every 'Eligibility and requirements' page appears as a navigation label only. G1's staged-chain limb is therefore unobserved rather than disproven, and the gate could change on re-capture."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-17"
     }
   },
   "439fs": {
@@ -345,6 +1662,868 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "mechanical": true,
       "date": "2026-08-14"
     }
+  },
+  "502cw": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 1,
+      "rationale": "Anchor level 1 — 'Collaboration/teamwork appears in learning outcomes, but no core unit assesses it' — is exactly satisfied: teamwork is a stated graduate attribute, justified only by class format ('Small class sizes and an intensive teaching format'), never by an assessment task. Level 2 requires 'At least one core unit assesses collaborative practice', and the course has no core: the only structural requirement is '100 credit points of subjects available in the Melbourne Law Masters (MLM) program'. Assessed group work does exist in the extract (a 35% group presentation in LAWS90289 Asia-Pacific Comparative Consumer Law), but that subject is one elective among 150+ and is listed 'Not available in 2026', so it cannot satisfy a core-unit anchor. Nothing anywhere assesses coordination across people AND tools/AI systems, so level 3 is not reached on any reading.",
+      "evidenceLines": [
+        "Capacity to value and participate in teamwork",
+        "Small class sizes and an intensive teaching format are valuable in encouraging group dynamics and teamwork.",
+        "100 credit points of subjects available in the Melbourne Law Masters (MLM) program",
+        "Group presentation:",
+        "Reflect critically on the challenges and opportunities of group collaboration in the area of consumer law, including how these skills may be applied to future employment."
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1 — 'Reflection or self-assessment appears in outcomes or graduate attributes, but no core unit assesses it against criteria' — fits: the course ILOs claim graduates 'critically reflect on and synthesise complex information', and no core unit exists to assess appraisal against criteria. Level 2 requires 'Core assessment includes criterion-referenced appraisal of quality'; the extract's nearest instances are elective and unavailable in 2026 (LAWS90289's generic skill of critically evaluating the contributions of others; LAWS90302's reflective essays on assigned readings), and neither documents criterion-referenced appraisal of the quality of work. No assessment anywhere requires documenting or justifying reliance decisions on a tool, source or collaborator, so level 3 is untouched.",
+      "evidenceLines": [
+        "analyse, critically reflect on and synthesise complex information, concepts and theories in in selected areas of law",
+        "100 credit points of subjects available in the Melbourne Law Masters (MLM) program",
+        "Critically evaluate the contributions of others, and provide supporting or alternative viewpoints in a persuasive and respectful manner.",
+        "Reflective essays on the assigned readings."
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 is the anchor's own description of this program: 'AI or digital tools appear only as electives or as tool operation/training — the operational level TEQSA identifies as non-durable.' AI and digital law appear extensively but exclusively as elective options (an entire 'Digital Law and Technological Innovation' subject-options group, plus AI subjects in the Asian Law and Communications Law lists), and the only program-level digital claim is tool-operational — 'Advanced working skills in the use of new technology', justified by IT infrastructure rather than by any assessed capability. Level 2 requires 'Core units address AI capabilities AND limitations/ethics'; there are no core units, so the substantive AI-governance content (e.g. LAWS90339's evidentiary standards for AI-generated evidence, 'comparative approaches to AI governance') cannot be scored above the elective ceiling the anchor sets.",
+      "evidenceLines": [
+        "Advanced working skills in the use of new technology",
+        "The most advanced IT infrastructure is available to Melbourne Law Masters students in the Law Library, the Moot Court Room, classroom settings and for private study.",
+        "Digital Law and Technological Innovation",
+        "comparative approaches to AI governance.",
+        "Identify and explain the legal principles and evidentiary standards applicable to digital and AI-generated evidence across different jurisdictions.",
+        "100 credit points of subjects available in the Melbourne Law Masters (MLM) program"
+      ]
+    },
+    "C4": {
+      "score": 1,
+      "rationale": "Level 1 — 'Transfer is claimed in outcomes (\"apply knowledge in new settings\") but not assessed' — matches the course ILOs, which claim graduates apply knowledge 'as a practitioner and learner' to demonstrate 'adaptability and responsibility' with no assessment attached. Level 2 requires 'At least one core assessment requires application to novel or unfamiliar problems'; the course prescribes no core assessment at all. The level-3 route ('a self-scoped capstone or research project') is approached by the Minor Thesis but the handbook documents it as an option contingent on grades, approval and supervisor availability, not as structured program-wide progression — 'The Law School can give no assurance it can provide a supervisor'. Resolved down per the ambiguity rule.",
+      "evidenceLines": [
+        "Apply their knowledge and skills, as a practitioner and learner in selected areas of law, to demonstrate:",
+        "adaptability and responsibility.",
+        "The Master of Laws includes a Minor Thesis option. To undertake this option students complete 50 credit points drawn from the subjects prescribed by the Law School as part of the coursework program and a minor thesis (50 credit points of study) on a topic approved by the Law School.",
+        "Upon successful completion of 37.5 credit points of coursework subjects with a minimum of 75% in each, and having completed at least one research paper of 5,000 words or more, candidates admitted to the Master of Laws can seek approval to enrol in the minor thesis.",
+        "Candidates are required to submit a thesis topic and outline and seek an appropriate supervisor before final approval can be granted. The Law School can give no assurance it can provide a supervisor, and this may mean that students will need to select another topic for the minor thesis or not enrol in the minor thesis."
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 1 — 'Introductory methods unit; literature-review assessment' — is what the extract documents: research-methods content appears in an elective (LAWS90292's 'Introduction to comparative constitutional studies and research methods') and the recurring assessed artefact is a doctrinal research paper on an approved topic. Level 2 requires an inquiry designed and conducted 'with methodology selection and data collection, assessed'; the captured research papers document topic selection and supervision but no data collection, so the evidence straddles 1 and 2 and the lower level is taken. Level 3 is explicitly ruled out by its own anchor — a substantial primary-evidence project must be 'REQUIRED (not one route among several)', and the handbook frames the 20,000-word thesis as an option students 'may also choose'. The graduate-attribute claim that all LLM graduates execute substantial research projects is a stated attribute, which R2 and Barrie forbid scoring.",
+      "evidenceLines": [
+        "Introduction to comparative constitutional studies and research methods",
+        "Students taking this subject will be able to first obtain an understanding of broader issues and debates in the field of comparative constitutional studies before undertaking individual research projects on topics they will choose to work upon under the supervision of the instructor.",
+        "Research paper on a topic approved by the subject coordinator",
+        "Appreciation of the design, conduct and reporting of original research",
+        "Class preparation and class discussions are designed to enhance these skills, which are tested in all forms of assessment. All graduates of an LLM will have demonstrated, through subject assessment, the ability to use their research skills to plan, develop and execute substantial research-based project(s) and/or piece(s) of scholarship.",
+        "This option requires a dissertation of 20,000 words or two major articles of 10,000 words each, suitable for publication in a learned legal journal. The two papers must be in the same subject area so that it is possible to have one supervisor for both papers."
+      ]
+    },
+    "adaptiveness": 5,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1 fits both halves as closely as the structure allows: communication is a stated graduate attribute ('Capacity to effectively communicate complex legal ideas and theories, orally and in writing, to a variety of audiences') and the documented assessment adds spoken work to peers and staff — class participation, oral presentations, presentation components — with no audience beyond the teaching team. Level 0 ('no professional-genre or spoken communication is assessed') is false, since presentations carry percentage weightings. Level 2 requires 'At least one core assessment requires a recognised professional genre or an audience beyond the teaching team'; professional genres do appear (a Biotechnology Regulatory Briefing note; a written law reform or policy paper proposal) but only inside elective subjects, and the course prescribes no core. Per R2/Barrie the graduate-attribute statements themselves score nothing.",
+      "evidenceLines": [
+        "Capacity to effectively communicate complex legal ideas and theories, orally and in writing, to a variety of audiences",
+        "Classroom discussion and formal presentations provide an opportunity to hone oral communication skills, and written assessment tasks are graded in part on written communication skills.",
+        "interpret and transmit their knowledge, skills and ideas to specialist and non-specialist audiences",
+        "Oral presentation",
+        "Class participation and presentation",
+        "Biotechnology Regulatory Briefing note",
+        "A written law reform or policy paper proposal",
+        "100 credit points of subjects available in the Melbourne Law Masters (MLM) program"
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Level 1 — 'Contextualised or scenario-framed tasks appear (case studies, worked scenarios), but the artefact produced and the criteria applied remain academic' — describes the documented assessment precisely: paired corporate-governance case studies, comparative research papers and take-home examinations of 3,000–6,000 words. Level 2 requires 'At least one core assessment reproduces a professional task end to end'; the closest candidate, LAWS90097's simulated investment deal in which 'students will act as lawyers advising an international investor', is an elective listed 'Not available in 2026' whose assessed artefacts are class participation and a take-home examination rather than the practitioner's artefact, and there is no core in which any such task could sit. Per R4 no credit is taken from framing language about practice or real-life experience.",
+      "evidenceLines": [
+        "Corporate governance case studies x 2 (2,500 words each)",
+        "Take-home examination",
+        "Research paper on a topic approved by the subject coordinator",
+        "Class participation",
+        "100 credit points of subjects available in the Melbourne Law Masters (MLM) program"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1 — 'Work-situated learning exists only as an elective, an optional internship' — is met exactly: the only work-situated offering in the entire course structure is LAWS70067 International Legal Internship, listed under 'Further subjects related to course' among freely chosen options, so level 0 ('No work-integrated learning, placement, practicum or community-based project appears anywhere in the course structure') is excluded. Level 2 requires a core unit placing students in a real workplace, or a core unit assessing own-practice activity for a cohort documented as already practising; the course has no core, and admission is documented only as 'This course is available only for law graduates', which evidences a law degree, not current practice, so the v4.2 in-practice route does not open.",
+      "evidenceLines": [
+        "Further subjects related to course",
+        "LAWS70067\tInternational Legal Internship",
+        "This course is available only for law graduates.",
+        "100 credit points of subjects available in the Melbourne Law Masters (MLM) program"
+      ]
+    },
+    "workplace": 3,
+    "gates": {
+      "G1": {
+        "result": "FAIL",
+        "rationale": "PASS requires one of three documented structures — 'an all-compulsory specialist core, an accredited sequence, or a staged prerequisite chain'. The handbook documents none: the sole completion requirement is 100 credit points drawn from any MLM subject, students 'can choose from all subjects available in the Melbourne Law Masters', and the only compulsory subject named applies to one admissions subgroup (non-common-law graduates). No prerequisite chain or staged progression is documented anywhere in the course structure, so there is no evidence of progressive technical or methodological depth. The content is emphatically disciplinary (law only, law graduates only), which pulls against the FAIL wording 'without disciplinary identity', but the subjects are interchangeable by design and the ambiguity is resolved downward per the scoring-direction rule.",
+        "evidenceLines": [
+          "The course requires satisfactory completion of:",
+          "100 credit points of subjects available in the Melbourne Law Masters (MLM) program",
+          "Students enrolled in the LLM can choose from all subjects available in the Melbourne Law Masters, allowing them to tailor the degree to suit their professional aspirations and personal interests. Students may also choose to undertake the Master of Laws as a combination of coursework and a minor thesis.",
+          "Students who have a law degree not from a common law jurisdiction are required to complete LAW70217 - Fundamentals of the Common Law (you’ll find this under the ‘Other Subjects’ heading below).",
+          "This course is available only for law graduates."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "The FAIL condition — 'Recall or scripted responses only' — is contradicted by every assessment task in the extract. Assessed artefacts require defended positions under genuine legal uncertainty: a 45%-weighted written law reform or policy paper proposal, a 20%-weighted regulatory briefing note attached to an outcome requiring students to 'Formulate preliminary legal advice on biotechnology-related matters', and reform-proposal outcomes requiring students to 'Design and justify evidence-based reform proposals ... by evaluating foreign models, regulatory choices and institutional constraints'. No task in the extract is recall-based. The gate is passed on documented assessment character, with the caveat that none of these subjects is core.",
+        "evidenceLines": [
+          "A written law reform or policy paper proposal",
+          "Biotechnology Regulatory Briefing note",
+          "Formulate preliminary legal advice on biotechnology-related matters using comparative insights from Asian and Australian legal contexts.",
+          "Design and justify evidence-based reform proposals for criminal justice regimes by evaluating foreign models, regulatory choices and institutional constraints across selected jurisdictions.",
+          "Conduct research into new and emerging comparative corporate governance controversies to test existing corporate governance theories or generate new theoretical understandings."
+        ]
+      }
+    },
+    "ambiguities": [
+      "Structural driver of the whole profile: 502CW prescribes no core at all ('100 credit points of subjects available in the Melbourne Law Masters (MLM) program'), while C1, C2, C3, C4, W1, W2 and W3 all gate level 2 on core-unit or core-assessment evidence. Every item therefore sits at level 1 by construction of the anchors, not because the elective content is thin. Wherever elective evidence would have supported a higher level, the core requirement was applied and the lower level taken.",
+      "C1 1 vs 2: LAWS90289 assesses a 35% 'Group presentation:' with a subject outcome on group collaboration — level-2 content — but the subject is an elective listed 'Not available in 2026' and the anchor requires a core unit. Resolved to 1 by the core requirement and the lower-level rule.",
+      "C3 1 vs 3 (content) — the strongest tension in this score: elective subjects document genuine AI-governance critique (Digital and AI Evidence Law in Asia, AI Law and Policy in Asia, Regulating AI, AI and Justice, International Law and AI), which is level-3 subject matter. Level 1's anchor text explicitly caps content that appears 'only as electives', and R2 requires core assessment for level 3, so 1 stands. If this program is ever re-scored under an instrument that recognises elective depth, C3 is the item that would move.",
+      "C4 1 vs 3: the Minor Thesis is a self-scoped research project (level-3 flavour: student-proposed topic, outline, supervisor) but the handbook documents it as an option contingent on 37.5 credit points at 75%+, Law School approval and supervisor availability. Not documented program-wide progression; resolved to 1.",
+      "C5 1 vs 2: research papers on student-chosen, coordinator-approved topics, plus an elective research-methods component, sit between 'literature-review assessment' (1) and 'design and conduct an inquiry with methodology selection and data collection' (2). No data collection is documented and the doctrinal artefact is secondary synthesis, so the lower level was taken.",
+      "W1 1 vs 2: two recognised professional genres are assessed in the extract — a 'Biotechnology Regulatory Briefing note' (20%) and 'A written law reform or policy paper proposal' (45%) — but both sit in elective subjects and neither documents an audience beyond the teaching team or criteria drawn from professional practice. Resolved to 1 on the core requirement.",
+      "W2 1 vs 2: LAWS90097 documents an end-to-end simulated transaction (students act as lawyers advising an investor, draft documents, negotiate, close the deal), which would be level-2 fidelity, but its assessed artefacts are class participation and a take-home examination, it is elective, and it is 'Not available in 2026'. Resolved to 1.",
+      "G1 PASS vs FAIL: the program has an unmistakable disciplinary identity (law only, law graduates only, 150+ specialist law subjects), which argues against the FAIL wording 'without disciplinary identity'; but none of the three PASS structures (all-compulsory specialist core / accredited sequence / staged prerequisite chain) is documented, and the subjects are interchangeable by design. Resolved downward to FAIL per the scoring-direction rule. This is the single most contestable judgement in this score.",
+      "G2 PASS with caveat: the gate text does not restrict itself to core assessment, so it was scored on the documented character of assessment across the extract. Applying the same core test used for the items would have produced FAIL; the gate's own FAIL condition ('recall or scripted responses only') is clearly not met, so PASS was recorded.",
+      "One-construct-one-home checks applied: presentations and class participation scored in W1 (audience/communication), not C1 (coordination); the LAWS90289 group presentation was considered for C1 only; simulation (LAWS90097) scored in W2 and explicitly not in W3; the internship scored in W3 only, not in C1 or C4."
+    ],
+    "notScoreable": [
+      "Extract coverage limitation: the course page states 'More than 150 subjects are offered each year', but the extract captures subject and assessment pages for the Asian Law option group only (LAWS70230, LAWS70415, LAWS90097, LAWS90142, LAWS90230, LAWS90289, LAWS90291, LAWS90292, LAWS90299, LAWS90301, LAWS90302, LAWS90317, LAWS90323, LAWS90339, LAWS90347, LAWS90355). Roughly 140 listed subjects have no captured page. Because none of them is core, this does not change any anchor decision, but it means the elective evidence base behind every item is a non-random slice.",
+      "No subject or assessment page was captured for LAWS70003 / LAWS70015 Minor Thesis (LLM). C4 and C5 were therefore scored from the course-structure description of the thesis option only; no thesis assessment task, supervision arrangement or examination/defence evidence was available to test C5's level-3 'methodology defended under scrutiny' condition.",
+      "No subject or assessment page was captured for LAWS70067 International Legal Internship. W3 was scored from its listing in the course structure alone; its duration, supervision, assessment and reflection requirements are absent from the extract, so the level-2/3 placement route could not be tested even hypothetically.",
+      "No subject or assessment page was captured for LAWS90226 Legal Leadership Essentials or LAWS70350 Management for Professionals (the Legal Leadership group), the two subjects most likely to carry professional-conduct and workplace-practice evidence relevant to W1 and W3.",
+      "Eight of the sixteen captured subjects are listed 'Not available in 2026' (LAWS70415, LAWS90097, LAWS90142, LAWS90230, LAWS90289, LAWS90299, LAWS90301, LAWS90302, LAWS90317, LAWS90323), and several assessment tables carry stale dates (e.g. 2024 and 2025 due dates). Where such a subject supplied the only candidate evidence for a higher level, that is recorded in ambiguities rather than used to score."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-17"
+    }
+  },
+  "504aa": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 1,
+      "rationale": "Level 1's anchor — 'Collaboration/teamwork appears in learning outcomes, but no core unit assesses it' — is what the handbook documents. Teamwork appears only as a graduate attribute, and the handbook attributes it to class size and teaching format rather than to any assessment. Level 2 requires 'At least one core unit assesses collaborative practice', and the structure documents no compulsory unit at all beyond Fundamentals of the Common Law (required only of students without a common-law degree, and its subject page is absent from the extract): 87.5 of 100 credit points are chosen by the student from a prescribed list. The assessed team tasks that can be quoted sit in prescribed-list options, one of which is not available in 2026, and the one group project described in a subject overview is not among that subject's listed assessments. Level 3 is unreachable independently of the core question: no assessment anywhere in the extract requires coordinating work across people AND tools/AI systems.",
+      "evidenceLines": [
+        "Capacity to value and participate in teamwork",
+        "Small class sizes and an intensive teaching format are valuable in encouraging group dynamics and teamwork.",
+        "Assessment 1: Team presentation/exercise (in class)",
+        "Group presentations",
+        "culminating in a group project that synthesises these elements",
+        "Students with a law degree from a common law jurisdiction must complete at least 87.5 credit points from the prescribed list and may choose",
+        "Graduate courseworkPoints: 12.5Not available in 2026"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1's anchor — reflection appearing in outcomes or graduate attributes with 'no core unit assesses it against criteria' — is the documented state: the course intended learning outcomes claim students 'critically reflect on' complex information, a graduate attribute claims an ability to evaluate existing knowledge, and prescribed-list subjects repeat a reflection claim in their generic skills. Level 2 requires 'criterion-referenced appraisal of quality: peer review, structured critique, portfolio with standards, marking against exemplars' — none of these appears anywhere in the extract; a full-text search finds no peer review, portfolio, exemplar or self-assessment task. The one appraisal-of-work-quality claim (assessing the effectiveness of legal documentation) is an elective learning outcome, never an assessment criterion, and the closest critique task ('Reviewing and critiquing impact funds') appears in a topic list rather than in that subject's assessment. Level 3's documented reliance or tool-quality justification is entirely absent.",
+      "evidenceLines": [
+        "analyse, critically reflect on and synthesise complex information, concepts and theories in the field of commercial law",
+        "Ability to investigate, evaluate, synthesise and apply existing knowledge in the relevant area(s) with creativity and initiative",
+        "expert, specialised cognitive and technical skills for critical and independent thought and reflection in the context of blockchain technology",
+        "critically examine, analyse, interpret and assess the effectiveness of such documentation",
+        "Reviewing and critiquing impact funds in practical case studies, lessons learnt from recent failures, and the toolbox of the responsible investor."
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1's anchor — 'AI or digital tools appear only as electives or as tool operation/training' — describes this program exactly. Every AI and digital subject in the extract is a prescribed-list option (an 'Artificial Intelligence and the Law' subject, a 'Regulating AI' subject marked not available in 2026, an 'AI and Justice' subject, and a whole 'Digital Law and Technological Innovation' grouping), so none is core. The only program-level digital claim is a graduate attribute about technology skills whose supporting text is IT infrastructure availability — the operational, non-durable level TEQSA identifies. Level 2 requires 'Core units address AI capabilities AND limitations/ethics; use with limits discussed and assessed', and there are no core units in which that could be documented; level 3's core assessment of AI critique or governance is likewise absent.",
+      "evidenceLines": [
+        "Advanced working skills in the use of new technology",
+        "The most advanced IT infrastructure is available to Melbourne Law Masters students in the Law Library, the Moot Court Room, classroom settings and for private study.",
+        "Digital Law and Technological Innovation",
+        "Artificial Intelligence and the Law",
+        "AI and Justice",
+        "Regulating AI"
+      ]
+    },
+    "C4": {
+      "score": 1,
+      "rationale": "Level 1's anchor — transfer claimed in outcomes but not assessed — is met: the course outcomes claim application of knowledge and skills 'as a practitioner and learner' with 'adaptability and responsibility', and a graduate attribute claims knowledge is 'adapted to current circumstances'. Level 2 requires 'At least one core assessment requires application to novel or unfamiliar problems', and no compulsory unit is documented, so no core assessment can be cited. Level 3 requires 'structured progression toward independent learning: a self-scoped capstone or research project' — the self-scoped research papers here are explicitly one route among several, each offered as an alternative to a take-home examination under a note that students must choose between options, and the structure expressly excludes the Minor Thesis. No progression, no assessed identification of one's own knowledge gaps with a plan to close them.",
+      "evidenceLines": [
+        "Apply their knowledge and skills, as a practitioner and learner in the field of commercial law, to:",
+        "adaptability and responsibility.",
+        "Small classes, a discussion-based environment and the emphasis on quality teaching and learning create an environment in which knowledge is exchanged, critically examined and adapted to current circumstances.",
+        "Option 1: Take-home examination",
+        "Research paper on a topic approved by the subject coordinator",
+        "Note: Students must choose assessment from the options listed above. If an option contains parts, all parts must be completed if that option is chosen.",
+        "the remaining 12.5 credit points from the subjects available in the Master of Laws (excluding Fundamentals of the Common Law and the Minor Thesis)."
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 1's anchor — 'Introductory methods unit; literature-review assessment' — is the closest true description: research-paper assessment is documented across subjects and the graduate attributes claim research skills are tested through subject assessment, but what is described is doctrinal and comparative scholarship, i.e. secondary synthesis of statutes, cases and secondary materials. Level 2 requires students to 'design and conduct an inquiry with methodology selection and data collection, assessed' — no methodology-selection or data-collection component is documented for any research paper in the extract. Level 3 requires a substantial primary-evidence project 'REQUIRED (not one route among several), with methodology defended under scrutiny': every research paper here is an option against a take-home examination, and no viva, defence or staged supervised review appears anywhere.",
+      "evidenceLines": [
+        "Advanced competencies in legal research and analysis",
+        "Class preparation and class discussions are designed to enhance these skills, which are tested in all forms of assessment. All graduates of an LLM will have demonstrated, through subject assessment, the ability to use their research skills to plan, develop and execute substantial research-based project(s) and/or piece(s) of scholarship.",
+        "Appreciation of the design, conduct and reporting of original research",
+        "Research papers and other research tasks are expected to attain a degree of creativity, originality and discovery that befits a postgraduate program of the highest quality",
+        "Research paper on a topic approved by the subject coordinator",
+        "Option 1: Take-home examination"
+      ]
+    },
+    "adaptiveness": 5,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1's anchor is met on both clauses: communication and professional conduct appear as graduate attributes and course outcomes, and the assessed spoken tasks documented are class presentations and participation — presentation to peers and staff, with no audience beyond the teaching team. Level 2 requires 'At least one core assessment requires a recognised professional genre or an audience beyond the teaching team ... judged against criteria drawn from professional practice'. The one professional-genre artefact quotable in the extract is a 400-word legal memorandum worth 20% in a prescribed-list subject, not a core unit, and no practice-derived criteria are documented for it. Per R2 and Barrie, the 'variety of audiences' claim in the graduate attributes cannot be scored: the handbook's own supporting sentence resolves it to classroom discussion and written tasks graded on communication skills. Level 3's repeated, progressive assessment judged by a real external practitioner is absent.",
+      "evidenceLines": [
+        "Capacity to effectively communicate complex legal ideas and theories, orally and in writing, to a variety of audiences",
+        "Classroom discussion and formal presentations provide an opportunity to hone oral communication skills, and written assessment tasks are graded in part on written communication skills.",
+        "interpret and transmit their knowledge, skills and ideas to specialist and non-specialist audiences",
+        "Profound respect for truth and intellectual integrity, including the ethics of scholarship",
+        "Oral presentation",
+        "Participation and leading class discussions.",
+        "A brief memorandum on a topic or transaction of your choice, identifying the key legal issues"
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Level 1's anchor — 'Contextualised or scenario-framed tasks appear (case studies, worked scenarios), but the artefact produced and the criteria applied remain academic' — matches precisely. Case-study assessments are documented, but the dominant assessed artefacts across every subject page in the extract are 4000-6000 word take-home examinations, research papers and class participation, all academic in form. Level 2 requires a core assessment that 'reproduces a professional task end to end ... judged against criteria drawn from practice'. The strongest candidate describes students acting as lawyers who draft contractual documents, negotiate and close a deal — but its listed assessments are class participation and a take-home examination, so the assessed artefact is academic; it is also a prescribed-list option marked not available in 2026, not a core unit. Applying R4, the 'distinctly practical approach' label in another subject is not scored, only documented task features.",
+      "evidenceLines": [
+        "Case study activity",
+        "Corporate governance case studies x 2 (2,500 words each)",
+        "In this subject, students will act as lawyers advising an international investor in a hypothetical investment project in a developing Asian jurisdiction (based on real life experience of the subject coordinator).",
+        "Students will study relevant laws, draft contractual documents, analyse legal issues, give advice, negotiate with the local government, project finance lenders and other parties and bring the deal to closure.",
+        "Class participation",
+        "Take-home examination",
+        "The subject has a distinctly practical approach and is designed to assist students in developing the skills to assess, prioritise and negotiate impact transactions.",
+        "Graduate courseworkPoints: 12.5Not available in 2026"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1's anchor — 'Work-situated learning exists only as an elective, an optional internship' — is exactly what the course structure shows: the sole work-situated item anywhere in the structure is an International Legal Internship subject, listed among optional 'Further subjects related to course'. A full-text search of the extract finds no placement, practicum, live client project or community-based project. Level 2's placement route requires a core unit, which the structure does not document. Level 2's v4.2 in-practice route requires 'a core unit assesses activity conducted in the student's own professional practice with real recipients and a documented outcome measure': the cohort is described as lawyers and other professionals, but no assessment in the extract is situated in a student's own practice with real recipients or an outcome measure — the nearest, a memorandum on 'a transaction of your choice', is an elective task with neither, and the only hurdle attached to subjects is class attendance.",
+      "evidenceLines": [
+        "International Legal Internship",
+        "Further subjects related to course",
+        "Lawyers and other professionals will deepen their understanding of many aspects of commercial law from both a domestic and international perspective.",
+        "A brief memorandum on a topic or transaction of your choice, identifying the key legal issues",
+        "Hurdle requirement: A minimum of 75% attendance is required."
+      ]
+    },
+    "workplace": 3,
+    "gates": {
+      "G1": {
+        "result": "FAIL",
+        "rationale": "The PASS condition requires a documented 'coherent specialist core with progressive technical or methodological depth: an all-compulsory specialist core, an accredited sequence, or a staged prerequisite chain'. The structure documents none of the three. Of 100 credit points, 87.5 are chosen by the student from a prescribed list; the only compulsory subject applies to one subgroup (students without a common-law degree); and the remaining 12.5 points may be drawn from any Master of Laws subject. No prerequisite chain, staged sequence or accreditation is documented anywhere in the extract, and the prescribed list itself ranges well beyond commercial law into human rights, health and medical, environmental and comparative criminal justice subjects — so the specialist depth is elective-contingent and the units are substitutable for one another.",
+        "evidenceLines": [
+          "Students must complete 100 credit points in total.",
+          "Students who do not have a law degree from a common law jurisdiction must complete Fundamentals of the Common Law, as well as",
+          "87.5 credit points from the prescribed list.",
+          "the remaining 12.5 credit points from the subjects available in the Master of Laws (excluding Fundamentals of the Common Law and the Minor Thesis).",
+          "Note: Most subjects in the MLM program are 12.5 credit points each. Check individual subject handbook entries for confirmation.",
+          "Human Rights Law",
+          "Health and Medical Law",
+          "Medical Litigation",
+          "Water Law & Natural Resources Management",
+          "Comparative Criminal Justice in Asia"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "The FAIL condition, 'Recall or scripted responses only', is contradicted by the documented assessment: 4000-6000 word take-home examinations and case-study assessments on regulatory-policy questions, with outcomes that require designing and justifying reform proposals, weighing the strengths and weaknesses of competing regulatory approaches, and applying principles to practical scenarios. The program-level graduate attributes likewise document assessment tasks requiring students to develop a range of appropriate solutions to problems, i.e. defended trade-off decisions rather than recall. Caveat recorded against the gate: every assessment instance cited sits in a prescribed-list option rather than a verifiable core, so the gate passes on the units the extract samples, not on a compulsory sequence.",
+        "evidenceLines": [
+          "Most subjects approach knowledge by reference to various issues or problems. Students are required to critically analyse problems and identify and develop a range of appropriate solutions through class discussion, individual study and assessment tasks.",
+          "Design and justify evidence-based reform proposals for criminal justice regimes by evaluating foreign models, regulatory choices and institutional constraints across selected jurisdictions.",
+          "Identify the strengths and weaknesses of different regulatory approaches to protecting the interests of consumers of financial services.",
+          "Critically analyse the principles governing bank regulation and apply them to practical scenarios;",
+          "Corporate governance case studies x 2 (2,500 words each)",
+          "Advise multinational companies seeking to engage in foreign direct investment in Asia (whether by way of a Greenfield investment, Mergers & Acquisitions arrangement, or joint venture project) on the practical corporate governance issues involved;"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1 straddled 1 and 2: assessed collaborative practice is quotable ('Assessment 1: Team presentation/exercise (in class)' at 20%; 'Group presentations' at 15%), which would satisfy level 2 if prescribed-list subjects counted as core. The structure documents them as student-chosen options against 87.5 of 100 credit points of free choice, and one of the two is 'Not available in 2026'. Resolved down to 1 by the level-2 anchor's 'core unit' requirement plus the scoring-direction rule.",
+      "C2 sat on the 0/1 boundary: the level-1 trigger is satisfied only on the anchor's literal terms — the word 'reflect' appears in the course outcomes, but it is directed at 'complex information, concepts and theories', not at appraising the quality of the student's own, a peer's or a tool's work, which is what the C2 construct means. A level-0 reading ('No assessment requires students to appraise the quality of work') is also literally true of this extract. Scored 1 because level 0 would deny that any such claim appears in the outcomes, when it does; no upward move past 1 is available because no appraisal-against-criteria assessment exists anywhere.",
+      "C4 straddled 1 and 3: self-scoped research papers on a topic approved by the coordinator resemble level 3's 'self-scoped ... research project'. Resolved down to 1 because level 3 requires documented structured progression and because every such paper is presented as one option against a take-home examination ('Note: Students must choose assessment from the options listed above'), which is the same 'one route among several' disqualifier level 3 states for C5.",
+      "C5 straddled 1 and 3 on the same research-paper evidence, and the graduate attributes claim LLM graduates demonstrate 'substantial research-based project(s)'. Resolved down to 1: that sentence is about graduates of an LLM rather than this award, the structure excludes the Minor Thesis, the papers are optional alternatives to examinations, and no methodology defence under scrutiny is documented.",
+      "W1 straddled 1 and 2: a 400-word legal memorandum identifying key legal issues is a recognised professional genre, which would carry level 2 if it were core-assessed. Resolved down to 1 — it is a prescribed-list subject's task at 20%, and no criteria drawn from professional practice and no audience beyond the teaching team are documented for it.",
+      "W2 straddled 1 and 2: one subject describes an end-to-end professional simulation (drafting contractual documents, negotiating with government and lenders, closing the deal). Resolved down to 1 because that subject's assessed artefacts are class participation and a take-home examination — the simulation is taught activity, not the assessed task — and the subject is an option marked 'Not available in 2026'.",
+      "W3 straddled 1 and 2 on the v4.2 in-practice route: the cohort is documented as 'Lawyers and other professionals', which opens the own-practice route, and one elective memorandum is on 'a transaction of your choice' that could come from a student's own practice. Resolved down to 1 because the route additionally requires a core unit, real recipients and a documented outcome measure, none of which appear.",
+      "G1's FAIL wording ('Generic or interchangeable content without disciplinary identity') fits imperfectly: the subject matter is unmistakably legal and commercial-law-specific. The gate fails on the absence of any documented compulsory sequence or progressive depth — the PASS condition — not on vagueness of disciplinary identity. Recorded so the flag is read correctly downstream."
+    ],
+    "notScoreable": [
+      "Core assessment evidence for all eight items. The structure documents only one compulsory subject, Fundamentals of the Common Law, and only for students without a common-law degree — and the extract contains no subject or assessment page for it (no handbook.unimelb.edu.au/2026/subjects/laws70217 source block). Consequently no level-2 or level-3 anchor that requires 'core assessment' or a 'core unit' could be tested for any of C1, C2, C3, C4, W1, W2 or W3. All eight items are held at 1 by the absence of a verifiable core, not by an observed level-1 ceiling in the units that were captured.",
+      "Assessment-spine coverage. The extract carries 16 subject pages, all prescribed-list options and 12 of them marked 'Not available in 2026', out of roughly 200 subjects listed across some 20 subject groupings. The anchors that ask whether practice reproduces or recurs 'across the program' (C1 level 3, W2 level 3, W1 level 3) therefore cannot be evaluated on evidence; they were scored down rather than inferred.",
+      "C2's level-2 and level-3 evidence types are wholly absent from the extract: no peer review, portfolio with standards, marking against exemplars, structured critique task, or documented reliance/override or AI-output-quality justification appears anywhere in the 2,519 lines captured. The C2 score therefore rests entirely on outcome-statement evidence.",
+      "C5's methodology evidence. No subject page in the extract describes methodology selection, data collection, supervision arrangements or a defence/viva for any research paper, so the distinction between level 1 and level 2 rests on the absence of that documentation rather than on a positive finding about the papers' design."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-17"
+    }
+  },
+  "507aa": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 1,
+      "rationale": "Level 1 anchor: 'Collaboration/teamwork appears in learning outcomes, but no core unit assesses it.' Teamwork appears only as a stated graduate attribute, and the accompanying gloss attributes it to class format ('Small class sizes and an intensive teaching format') rather than to any assessed task. Level 2 requires 'At least one core unit assesses collaborative practice - group projects with individual accountability, client or stakeholder work, interprofessional activity'; no assessment table in the extract contains a group project, client task or interprofessional activity - every assessment is individual (research paper, take-home examination, class participation, class presentation). Level 2 also fails on 'core unit': the course structure prescribes only a volume of credit (87.5 of 100 credit points from prescribed lists), so no individual subject is compulsory for all students and no single subject's assessment can be attributed to the core. Nothing in the extract documents coordination of work across people AND tools/AI systems, so level 3 is not reachable.",
+      "evidenceLines": [
+        "Capacity to value and participate in teamwork",
+        "Small class sizes and an intensive teaching format are valuable in encouraging group dynamics and teamwork.",
+        "Class participation",
+        "Class Participation",
+        "Students must complete 100 credit points in total."
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1 anchor: 'Reflection or self-assessment appears in outcomes or graduate attributes, but no core unit assesses it against criteria.' The program ILO names critical reflection and the graduate attributes name evaluation of knowledge, but no assessment in the extract is documented as criterion-referenced appraisal of the quality of work - own, peers' or a tool's. Level 2 requires 'peer review, structured critique, portfolio with standards, marking against exemplars'; the two reflective assessments present (Gender and Health Law 'Reflective analysis' 20%; Ageing and Human Rights class participation including a reflective/analytical piece) sit in prescribed-list subjects that no student is required to take, and neither is described as appraisal against criteria or standards - they are reflection on subject content, not on the quality of work. Critique in the subject ILOs is disciplinary critique of law and policy, which is not the construct (appraisal of the quality of work). No assessment requires documenting or justifying reliance decisions on a tool, source or collaborator, so level 3 fails outright.",
+      "evidenceLines": [
+        "analyse, critically reflect on and synthesise complex information, concepts and theories in the field of health and medical law",
+        "Ability to investigate, evaluate, synthesise and apply existing knowledge in the relevant area(s) with creativity and initiative",
+        "Reflective analysis",
+        "Assessment 1: Class participation (including the preparation and presentation of a short reflective/analytical piece of 1,200 words)"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor: 'AI or digital tools appear only as electives or as tool operation/training - the operational level TEQSA identifies as non-durable.' That is exactly what the extract documents. The only program-level digital statement is a graduate attribute about IT infrastructure available in the Law Library and Moot Court Room - infrastructure/tool access, not capability. All AI and data-governance content sits in prescribed-list subjects a student may or may not take: 'AI in health care' (Comparative Health Law), big data/AI/machine learning (Law and Emerging Health Technologies), machine-learning oversight and algorithmic accountability (Health Data Governance), and a listed but unpaged 'Science & AI: Legal & Ethical Challenges'. Level 2 requires 'Core units address AI capabilities AND limitations/ethics'; there is no core unit, and three of the four AI-bearing subjects are marked 'Not available in 2026'. Level 3 would require core ASSESSMENT requiring critique or governance of AI systems (R2); the AI material appears in overviews and ILOs only - the assessment tables for those subjects list research papers and take-home examinations with no AI-specific requirement.",
+      "evidenceLines": [
+        "Advanced working skills in the use of new technology",
+        "The most advanced IT infrastructure is available to Melbourne Law Masters students in the Law Library, the Moot Court Room, classroom settings and for private study.",
+        "AI in health care",
+        "‘Big data’, data analytics, AI and machine-based learning in healthcare",
+        "Oversight and approval mechanisms, with consideration of issues raised by increasing use of new techniques of machine learning and analysis of big data",
+        "LAWS90203\tScience & AI: Legal & Ethical Challenges\tNot available in 2026\t12.5",
+        "Graduate coursework level 7Points: 12.5Not available in 2026"
+      ]
+    },
+    "C4": {
+      "score": 1,
+      "rationale": "Level 1 anchor: 'Transfer is claimed in outcomes (\"apply knowledge in new settings\") but not assessed.' The program ILOs claim application to practice and adaptability as a practitioner and learner, but no required assessment is documented as demanding application to novel or unfamiliar problems. Level 2 requires 'At least one CORE assessment requires application to novel or unfamiliar problems'; the course structure prescribes only a credit volume from prescribed lists, so no subject's assessment is core to all students. Level 3 requires that 'The program documents structured progression toward independent learning: a self-scoped capstone or research project'. The recurring 'Research paper on a topic approved by the subject coordinator' is self-scoped and assessed, which reads toward level 3, but the level-3 stem is structured PROGRESSION and the extract documents none: subjects are standalone month-long intensives with no prerequisite chain, there is no capstone, and the Minor Thesis is explicitly excluded from the elective choice. Per the scoring-direction rule the straddle resolves down, and level 2's 'core' condition is unmet, leaving 1.",
+      "evidenceLines": [
+        "research and apply such information, concepts and theories to the relevant body of knowledge and practice; and",
+        "Apply their knowledge and skills, as a practitioner and learner in the field of health and medical law, to demonstrate:",
+        "adaptability and responsibility",
+        "Research paper on a topic approved by the subject coordinator"
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 1 anchor: 'Introductory methods unit; literature-review assessment.' The program documents substantial assessed research writing - 4,000-10,000 word research papers on coordinator-approved topics, worth 70-100% in most prescribed-list subjects - and a graduate attribute asserting research skills are 'tested in all forms of assessment'. That is the level-1 literature/scholarship route. Level 2 requires that 'Students design and conduct an inquiry with methodology selection and data collection, assessed'; no methods unit exists in the extract and no assessment mentions methodology selection or data collection - the research papers are doctrinal secondary synthesis. Level 3 additionally requires a primary-evidence project that is REQUIRED 'not one route among several' with methodology defended under scrutiny; in Class Actions, Regulation of Health Practitioners, Law and Emerging Health Technologies, Ageing and Human Rights and Pandemic Law the research paper is expressly Option 2 against a take-home examination, Comparative Health Law offers only a take-home examination, and no viva, defence or staged supervised review appears anywhere.",
+      "evidenceLines": [
+        "Appreciation of the design, conduct and reporting of original research",
+        "Research papers and other research tasks are expected to attain a degree of creativity, originality and discovery that befits a postgraduate program of the highest quality, and students are encouraged and assisted to publish original work of a high standard in refereed journals.",
+        "Advanced competencies in legal research and analysis",
+        "Class preparation and class discussions are designed to enhance these skills, which are tested in all forms of assessment. All graduates of an LLM will have demonstrated, through subject assessment, the ability to use their research skills to plan, develop and execute substantial research-based project(s) and/or piece(s) of scholarship.",
+        "Research paper on a topic approved by the subject coordinator",
+        "Option 1: Take-home examination",
+        "Take-home examination"
+      ]
+    },
+    "adaptiveness": 5,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1 anchor: 'Communication or professional conduct appears in learning outcomes or graduate attributes; core assessment adds presentation to peers/staff, but no professional genre and no audience beyond the teaching team.' Communication to specialist and non-specialist audiences is a program ILO and a graduate attribute, and assessed spoken work exists - a 5-minute oral presentation with 10 minutes of questions '(in class)' in Medical Ethics, 10-minute class presentations in Regulation of Health Practitioners and Mental Health and Disability Law, and assessed class participation in several subjects. All are delivered in class to peers and staff. Level 2 requires 'a recognised professional genre or an audience beyond the teaching team - client brief, consultancy or policy advice, clinical handover, pitch, public-facing artefact - judged against criteria drawn from professional practice'. No such artefact appears in any assessment table: the genres are research paper, take-home examination, presentation and participation. Legal advice to plaintiffs and defendants appears in a program ILO only, and per R2/Barrie an outcome statement cannot lift the score. The 75% attendance hurdle is a participation condition, not assessed professional conduct criteria.",
+      "evidenceLines": [
+        "Capacity to effectively communicate complex legal ideas and theories, orally and in writing, to a variety of audiences",
+        "Classroom discussion and formal presentations provide an opportunity to hone oral communication skills, and written assessment tasks are graded in part on written communication skills.",
+        "interpret and transmit their knowledge, skills and ideas to specialist and non-specialist audiences",
+        "5-minute oral presentation and 10-minute questions (in class)",
+        "Class presentation",
+        "Class Presentation",
+        "the provision of concise legal advice to plaintiffs and defendants in medical litigation"
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Level 1 anchor: 'Contextualised or scenario-framed tasks appear (case studies, worked scenarios), but the artefact produced and the criteria applied remain academic.' The program documents a problem-based approach that reaches assessment tasks ('Most subjects approach knowledge by reference to various issues or problems... through class discussion, individual study and assessment tasks'), which lifts it off level 0's 'entirely decontextualised'. But every artefact named in every assessment table in the extract is academic: research paper, take-home examination, class presentation, class participation, reflective analysis. Level 2 requires that 'At least one core assessment reproduces a professional task end to end: a real or realistic problem, producing the artefact a practitioner would produce, judged against criteria drawn from practice' - no advice, brief, submission, pleading or regulatory instrument is set as an assessment task, no assessment criteria are published anywhere in the extract, and no subject is core. Per R4 the practitioner credentials of coordinators and the practice-oriented subject overviews are not scored: only documented task features count.",
+      "evidenceLines": [
+        "Well-developed problem solving abilities, characterised by flexibility of approach",
+        "Most subjects approach knowledge by reference to various issues or problems. Students are required to critically analyse problems and identify and develop a range of appropriate solutions through class discussion, individual study and assessment tasks.",
+        "Research paper on a topic approved by the subject coordinator",
+        "Option 1: Take-home exam",
+        "Reflective analysis"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1 anchor: 'Work-situated learning exists only as an elective, an optional internship, or an unassessed extracurricular or careers activity.' The course structure lists LAWS70067 International Legal Internship among 'Further subjects related to course' - an optional internship subject a student may choose but is never required to take. Level 2's placement route requires 'A core unit places students in a real workplace or professional-community setting with practitioner supervision and assessment'; no subject is core here and the internship's subject and assessment pages are absent from the extract, so neither supervision nor assessment can be evidenced. Level 2's v4.2 in-practice route requires a cohort 'documented as already practising in the profession' AND a core unit assessing activity conducted in the student's own practice with real recipients and a documented outcome measure. The overview documents only that the specialisation is OPEN to lawyers, doctors, other health professionals and administrators - an admission statement, not documentation that the cohort is practising - and no assessment in the extract is set in the student's own workplace. The course is delivered On Campus (Parkville) with a 75% attendance hurdle in every subject.",
+      "evidenceLines": [
+        "LAWS70067\tInternational Legal Internship",
+        "The health and medical law specialisation is open to lawyers and to doctors and other health professionals and administrators (with no prior legal qualification).",
+        "Masters (Coursework)Year: 2026Delivered: On Campus (Parkville)",
+        "Hurdle requirement: A minimum of 75% attendance is required.\tThroughout the teaching period\tN/A"
+      ]
+    },
+    "workplace": 3,
+    "gates": {
+      "G1": {
+        "result": "FAIL",
+        "rationale": "Demoted from PASS on adversarial review. The G1 PASS condition requires a documented 'coherent specialist core with progressive technical or methodological depth: an all-compulsory specialist core, an accredited sequence, or a staged prerequisite chain'. None of the three is documented. The course structure prescribes only a credit VOLUME ('Students must complete 100 credit points in total'); the sole compulsory subject, Fundamentals of the Common Law, applies to one admissions subgroup only (entrants without a common-law degree); the 87.5 points come from prescribed lists (plural), the second of which ('Further subjects related to course') carries substitutable general-law content - Principles of International Law, Legal Leadership Essentials, Privacy Law, Workplace Health and Safety, Negligence, Expert Evidence, Class Actions, Current Issues in Civil Litigation - so the specialist depth is elective-contingent and the units are substitutable for one another; subjects are standalone month-long level-7 intensives with no prerequisite chain and no capstone (the Minor Thesis is expressly excluded); no accreditation appears anywhere in the extract. 'Progressive technical or methodological depth' is therefore asserted from the AQF level, not documented, and resolving that ambiguity upward would breach the scoring-direction rule. Precedent binds: dfva/source/evidence/504aa.json (Master of Commercial Law) carries the identical Melbourne Law Masters course-structure sentences and was scored FAIL on exactly this reasoning; dfva/source/evidence/502cw.json (Master of Laws) FAILs after explicitly considering and rejecting the 'the FAIL wording does not apply' argument.",
+        "evidenceLines": [
+          "Have an advanced and integrated understanding of the complex body of knowledge in the field of health and medical law, including:",
+          "Students must complete 100 credit points in total.",
+          "Health and Medical Law subjects",
+          "Subject options"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "The FAIL condition is 'Recall or scripted responses only', and the documented assessment is the opposite: 4,000-6,000 word take-home examinations and 4,000-10,000 word research papers on contested topics, plus assessed class participation and presentations that require students to take and defend a position. The program documents at graduate-attribute level that students must analyse problems and develop a range of appropriate solutions through assessment tasks, and the subject material is explicitly framed around irreducible disagreement and uncertainty - Medical Ethics states the goal is not to provide answers but to have students justify their own position to others, and Law and Emerging Health Technologies is built on challenges of uncertainty and ambiguity and asks students to suggest and evaluate regulatory changes. That is defended trade-off decision-making. No simulation, capstone or live project with external accountability is documented, so the PASS rests on the defended-decision route alone.",
+        "evidenceLines": [
+          "Most subjects approach knowledge by reference to various issues or problems. Students are required to critically analyse problems and identify and develop a range of appropriate solutions through class discussion, individual study and assessment tasks.",
+          "Have the cognitive and technical skills to generate critical and creative ideas relating medical ethics and to critically evaluate existing laws, policies, and ethical arguments pertaining to medical ethics",
+          "Challenges of uncertainty, ambiguity, transformative potential and technological ‘drivers’",
+          "Be able to suggest and evaluate legal and other changes that may be appropriate to regulate emerging technologies.",
+          "Option 1: Take-home examination"
+        ]
+      }
+    },
+    "ambiguities": [
+      "Structural ambiguity affecting C1, C2, C3, C4, W1, W2 and W3 alike: the course structure prescribes a credit VOLUME from prescribed lists (87.5 of 100 cp) rather than named compulsory subjects, so apart from Fundamentals of the Common Law (required only of entrants without a common-law degree) no subject is core to all students. Every anchor whose level 2 or 3 requires that 'a core unit assesses' something is therefore unsatisfiable on subject-level evidence, and each such item was held at the level supportable by program-level statements. Resolved down under the scoring-direction rule rather than treating prescribed-list subjects as core.",
+      "C1: assessed 'Class participation' (10-20% in Law and Global Health, Regulation of Health Practitioners, Mental Health and Disability Law, Comparative Health Law, Health Data Governance, Health Law and Human Rights, Trade Investment IP and Health, Pandemic Law) could be argued as assessed collaborative practice, lifting C1 to 2. Resolved down: the level-2 exemplars are group projects with individual accountability, client/stakeholder work and interprofessional activity; participation in class discussion is individually credited contribution, not collaborative practice, and the subjects are not core.",
+      "C2: 'Reflective analysis' (Gender and Health Law, 20%) and the reflective/analytical piece inside Ageing and Human Rights class participation are assessed reflection, which could be argued to level 2. Resolved down: level 2 requires criterion-referenced appraisal of the QUALITY of work against standards, exemplars or peer review, none of which is documented, and neither subject is core.",
+      "C3: the substance of Health Data Governance ('algorithmic accountability in the health care context', OECD/GDPR benchmarking) and Law and Emerging Health Technologies is governance-grade content that would read as level 3 material if it were core and assessed. Resolved down to level 1 because the anchor for level 1 explicitly covers AI appearing 'only as electives', both subjects are marked 'Not available in 2026', and their assessment tables set only research papers, take-home examinations and class presentations with no AI-specific requirement (R2).",
+      "C4: the recurring 'Research paper on a topic approved by the subject coordinator' is a self-scoped, assessed research project - the level-3 exemplar - which straddles 3 against 1. Resolved down to 1: level 3's stem requires documented STRUCTURED PROGRESSION toward independent learning, and the extract documents standalone intensives with no prerequisite chain, no capstone, and the Minor Thesis excluded; level 2 was also unavailable because it requires a core assessment.",
+      "C5: straddles 0 and 1. Level 0's text ('Secondary synthesis only; no research-methods training') is literally satisfied - the research papers are doctrinal secondary synthesis and no methods unit exists. Scored 1 rather than 0 because level 1's second marker, an assessed literature/scholarship research task, is documented at 70-100% weight across the prescribed list; level 0 is reserved for programs with no research assessment at all. This is the one place the straddle was not resolved to the lower level, and the reason is that level 1's own marker is affirmatively met.",
+      "W1: the 75% attendance hurdle in every subject, and the graduate attribute on accountability for 'commitment to study and output', could be read as assessed professional conduct. Resolved down: a hurdle is an eligibility condition, not conduct or accountability among assessed criteria, and level 2 in any case requires a professional genre or an external audience.",
+      "W2: straddles 0 and 1. The named artefacts (research paper, take-home examination, presentation, participation, reflective analysis) are academic genres, which reads as level 0; the program-level statement that most subjects work from issues/problems and carry this into assessment tasks reads as level 1. Scored 1 because level 0 requires assessment to be ENTIRELY decontextualised and that program-level statement is documented curriculum evidence.",
+      "W3: the cohort description ('open to lawyers and to doctors and other health professionals and administrators') gestures at the v4.2 in-practice route. Resolved down: an admission-eligibility statement is not a cohort 'documented as already practising', and no assessment anywhere in the extract is conducted in a student's own practice with real recipients or a documented outcome measure.",
+      "G1: initially recorded PASS on disciplinary identity and prescribed specialist volume, then DEMOTED to FAIL on adversarial review. The submission itself conceded that none of the three named PASS routes (all-compulsory specialist core, accredited sequence, staged prerequisite chain) is documented, and recording PASS on the ground that the FAIL wording did not apply resolved the ambiguity upward, which the scoring-direction rule forbids. The second prescribed list ('Further subjects related to course') also carries substitutable general-law content, so specialist depth is elective-contingent. FAIL matches 504aa and 502cw on identical Melbourne Law Masters structural evidence.",
+      "Evidence-integrity note (no score effect): two quoted lines failed byte-verbatim verification because of the known v4-capture U+00A0 (non-breaking space) flattening artefact and were dropped from the record - one C4 line on the 87.5/12.5 credit-point split and one G1 line on the Fundamentals of the Common Law requirement. C4 retains four byte-verbatim lines that fully support level 1, and the G1 FAIL rests on substance, not on the dropped line."
+    ],
+    "notScoreable": [
+      "Fundamentals of the Common Law (LAWS70217) - the only genuinely compulsory subject in the course (for entrants without a common-law degree) - has no subject or assessment page in the extract, so the assessment of the program's one required unit could not be examined for any item.",
+      "International Legal Internship (LAWS70067) has no subject or assessment page in the extract, so W3 could not be evaluated beyond its listing as an optional subject: duration, practitioner supervision, assessment and reflection are all unknown. This did not change the score (an optional internship caps at level 1 regardless), but it bounds any future re-score.",
+      "No assessment criteria, rubrics or marking standards appear anywhere in the extract. W2's 'criteria drawn from practice' and C2's 'criterion-referenced' condition therefore could not be tested directly and were treated as unmet rather than inferred.",
+      "The form of the take-home examinations (4,000-6,000 words) is not described - whether they are problem/scenario questions or essay questions is unknown, which bears on W2 and could not be resolved from the extract.",
+      "Twelve prescribed-list subjects named in the course structure have no pages in the extract at all (including Science & AI: Legal & Ethical Challenges LAWS90203, Law Science and Technology LAWS90129, Negligence, Expert Evidence, Privacy Law, Workplace Health and Safety, Legal Leadership Essentials, Regulatory Design Compliance & Enforcement, Disability Human Rights Law, Current Issues in Civil Litigation, Principles of International Law, Biotechnology and the Law in Asia), so their assessment design is unknown; LAWS90203 in particular is the most likely source of additional C3 evidence."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-17"
+    }
+  },
+  "510aa": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 1,
+      "rationale": "Level 1 anchor: collaboration appears in outcomes/graduate attributes but no core unit assesses it. Teamwork is named only as a graduate attribute, and the warrant offered is class format ('small class sizes and an intensive teaching format'), not an assessed task. Level 2 requires 'at least one core unit assesses collaborative practice'; the only assessed group work in the extract is a 'Group in-class presentation' in AI and Justice, which the course structure lists under 'Further subjects related to course' — an elective, not core. No assessment anywhere allocates work across people AND tools/AI systems, so level 3 is not in reach.",
+      "evidenceLines": [
+        "Capacity to value and participate in teamwork",
+        "Small class sizes and an intensive teaching format are valuable in encouraging group dynamics and teamwork.",
+        "Group in-class presentation",
+        "Further subjects related to course",
+        "Students with a law degree from a common law jurisdiction must complete at least 50 credit points from the list of Employment and Labour Relations Law subjects. The remaining subjects can be taken from the Employment and Labour Relations Law subjects and the further subjects list (excluding Fundamentals of the Common Law)."
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1 anchor: reflection appears in outcomes but no core unit assesses it against criteria. The course ILO claims students will 'critically reflect on' complex information, and a graduate attribute claims capacity to 'investigate, evaluate, synthesise'. Level 2 requires criterion-referenced appraisal of the quality of work — peer review, structured critique, portfolio with standards, marking against exemplars — and no assessment task in the extract is any of those; the assessment tables list only presentations, class participation, take-home examinations and research papers. Critical evaluation of legal theories and rules is appraisal of the discipline's content, not appraisal of work quality (own, peers' or a tool's), so it does not satisfy the C2 construct. No task requires documenting or justifying reliance decisions, so level 3 is not in reach.",
+      "evidenceLines": [
+        "analyse, critically reflect on and synthesise complex information, concepts and theories in the field of employment and labour relations law",
+        "Ability to investigate, evaluate, synthesise and apply existing knowledge in the relevant area(s) with creativity and initiative",
+        "Have the cognitive and technical skills to generate critical and creative ideas relating to equality and discrimination issues, and to critically evaluate existing legal theories, principles and concepts with creativity and autonomy",
+        "Take-home examination",
+        "Research paper on a topic approved by the subject coordinator"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor names exactly this pattern: 'AI or digital tools appear only as electives or as tool operation/training'. The two AI/digital subjects — Digital Technologies and Labour Law, and AI and Justice — are not core: the first is 'Not available in 2026' and the second is listed under 'Further subjects related to course'. The only program-level digital statement is a graduate attribute about IT infrastructure available in the Law Library and Moot Court Room, i.e. facilities, not curriculum content. Level 2 requires core units addressing AI capabilities AND limitations/ethics with assessment; no core unit does, so the level-3 governance route (which would otherwise be plausible given AI and Justice's transparency and equality topics) is unreachable because that subject is elective.",
+      "evidenceLines": [
+        "Advanced working skills in the use of new technology",
+        "The most advanced IT infrastructure is available to Melbourne Law Masters students in the Law Library, the Moot Court Room, classroom settings and for private study.",
+        "Digital Technologies and Labour Law",
+        "Graduate courseworkPoints: 12.5Not available in 2026",
+        "AI and Justice",
+        "Further subjects related to course"
+      ]
+    },
+    "C4": {
+      "score": 1,
+      "rationale": "Level 1 anchor: transfer/adaptability is claimed in outcomes but not assessed. The course ILO claims graduates will 'demonstrate autonomy, expert judgment, adaptability', and a graduate attribute claims problem solving 'characterised by flexibility of approach'. Level 2 requires at least one core assessment applying methods to novel or unfamiliar problems; the nearest thing to a core subject, Principles of Employment Law, is assessed only by 'Option 1: Take-home examination' or 'Option 2: Research paper' with no documented novel-problem or unseen-case framing. Level 3 requires documented structured progression toward independent learning; there is no prerequisite chain and no required capstone — sequencing is only 'strongly recommended', and the research paper is one option among two within individual subjects.",
+      "evidenceLines": [
+        "Apply their knowledge and skills to demonstrate autonomy, expert judgment, adaptability and responsibility as a practitioner and learner in the field of employment and labour relations law.",
+        "Well-developed problem solving abilities, characterised by flexibility of approach",
+        "Most subjects approach knowledge by reference to various issues or problems. Students are required to critically analyse problems and identify and develop a range of appropriate solutions through class discussion, individual study and assessment tasks.",
+        "Option 1: Take-home examination",
+        "Option 2: Research paper",
+        "Principles of Employment Law is compulsory for students who do not have a law degree from a common law jurisdiction, and it is strongly recommended that this subject be taken before any other employment and labour relations law subjects."
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 1 anchor is satisfied by the second clause — literature-review-type research assessment — and not by the first: there is no research-methods unit anywhere in the structure. Research papers of 3500-8000 words on coordinator-approved topics are documented, and originality of research is claimed as a graduate attribute. Level 2 requires students to design and conduct an inquiry with methodology selection and data collection, assessed; the extract documents no data collection and no methodology component except a single 1500-word 'Option 2, Part A: Research proposal' inside International Equality Law, which is both an elective and one route among several within that subject. Level 3 requires a REQUIRED primary-evidence project with methodology defended under scrutiny — the research paper is always an alternative to a take-home examination, never required, and no viva or defence appears.",
+      "evidenceLines": [
+        "Advanced competencies in legal research and analysis",
+        "Appreciation of the design, conduct and reporting of original research",
+        "Research papers and other research tasks are expected to attain a degree of creativity, originality and discovery that befits a postgraduate program of the highest quality, and students are encouraged and assisted to publish original work of a high standard in refereed journals.",
+        "Research paper on a topic approved by the subject coordinator",
+        "Option 2, Part A: Research proposal",
+        "Option 1: Take-home examination"
+      ]
+    },
+    "adaptiveness": 5,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1 anchor matches on both clauses: communication appears in graduate attributes and course ILOs, and assessment adds presentation to peers/staff — a 30% 'Presentation and supporting resource' and assessed class participation — but no professional genre and no audience beyond the teaching team. Level 0 is excluded because its disqualifying clause ('no professional-genre or spoken communication is assessed') is contradicted: spoken communication is assessed across the subject lists from which the whole 100 credit points are drawn. Level 2 requires a recognised professional genre or an external audience judged against practice-drawn criteria; Conducting Workplace Investigations states practitioner capacities ('draft procedurally fair allegations.') as learning outcomes, but its assessment table lists only an in-class exercise, a short analysis exercise and a take-home examination, and per R2 an outcome statement is not the assessed artefact.",
+      "evidenceLines": [
+        "Capacity to effectively communicate complex legal ideas and theories, orally and in writing, to a variety of audiences",
+        "Classroom discussion and formal presentations provide an opportunity to hone oral communication skills, and written assessment tasks are graded in part on written communication skills.",
+        "interpret and transmit their knowledge, skills and ideas to professional specialist and non-specialist audiences",
+        "Presentation and supporting resource",
+        "Class participation and contributions to class discussions",
+        "draft procedurally fair allegations.",
+        "prepare the scope or terms of reference of an investigation and an investigation plan.",
+        "Individual in-class exercise",
+        "Short analysis exercise"
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Level 1 anchor: scenario-framed tasks appear, but the artefact produced and the criteria applied remain academic. The clearest instance is 'Option 1 - Take-home examination (hypothetical problem)', supported by the graduate-attribute claim that most subjects work 'by reference to various issues or problems'. Level 0 is excluded because assessment is not entirely decontextualised. Level 2 requires at least one core assessment reproducing a professional task end to end and producing the artefact a practitioner would produce; every documented artefact in the extract is an examination script, an essay/research paper, a class presentation or an unspecified 'Short analysis exercise' — none is a practitioner deliverable, and none is judged against stated practice-drawn criteria. Per R4 the practice-facing framing of subject overviews is not scored as authenticity.",
+      "evidenceLines": [
+        "Option 1 - Take-home examination (hypothetical problem)",
+        "Most subjects approach knowledge by reference to various issues or problems. Students are required to critically analyse problems and identify and develop a range of appropriate solutions through class discussion, individual study and assessment tasks.",
+        "Short analysis exercise",
+        "Individual in-class exercise",
+        "Take-home examination",
+        "Research paper on a topic approved by the subject coordinator"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1 anchor: work-situated learning exists only as an elective/optional internship. 'International Legal Internship' appears solely in the 'Further subjects related to course' list, so it is neither required nor part of any core. Level 0 is excluded because that internship option does appear in the course structure. Level 2's placement route requires a core unit placing students in a real workplace with practitioner supervision and assessment — none exists. Level 2's v4.2 in-practice route requires a cohort documented as already practising plus a core unit assessing activity in the student's own practice with real recipients and a documented outcome measure; the overview describes who the specialisation 'caters for', which is a target-audience statement rather than documentation that the cohort is practising, and no assessment task anywhere is set in a student's own workplace.",
+      "evidenceLines": [
+        "International Legal Internship",
+        "Further subjects related to course",
+        "This specialisation caters for legal practitioners as well as non-lawyers with experience and interest in the legal regulation of employment and labour relations.",
+        "Students must complete 100 credit points in total."
+      ]
+    },
+    "workplace": 3,
+    "gates": {
+      "G1": {
+        "result": "FAIL",
+        "rationale": "PASS requires a coherent specialist core with progressive technical or methodological depth, evidenced by one of three routes: an all-compulsory specialist core, an accredited sequence, or a staged prerequisite chain. None is documented. Nothing is compulsory for students holding a common-law degree — they choose at least 50 of 100 credit points from a subject list; the only compulsory subjects apply to one cohort, and the sequencing statement is explicitly a recommendation ('strongly recommended that this subject be taken before any other'), not a prerequisite. All listed subjects are the same 12.5-point graduate-coursework level with no staging, and no accreditation is documented. The content is unambiguously disciplinary rather than generic, so the FAIL clause fits imperfectly; per the never-resolve-upward rule the unmet PASS conditions govern, and this is recorded in ambiguities.",
+        "evidenceLines": [
+          "Students with a law degree from a common law jurisdiction must complete at least 50 credit points from the list of Employment and Labour Relations Law subjects. The remaining subjects can be taken from the Employment and Labour Relations Law subjects and the further subjects list (excluding Fundamentals of the Common Law).",
+          "Principles of Employment Law is compulsory for students who do not have a law degree from a common law jurisdiction, and it is strongly recommended that this subject be taken before any other employment and labour relations law subjects.",
+          "Students must complete 100 credit points in total.",
+          "Graduate coursework level 7Points: 12.5On Campus (Parkville)"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "PASS requires assessments demanding defended trade-off decisions rather than recall or scripted responses. Take-home examinations are set on hypothetical problems, subject matter is expressly contested ('the very meaning of equality is highly contested'), and assessed work requires applying legal tests and standards of proof to make defensible findings and generating critical ideas with autonomy. None of the documented assessment is recall-based or scripted; the extract contains no invigilated closed-book or multiple-choice component.",
+        "evidenceLines": [
+          "Option 1 - Take-home examination (hypothetical problem)",
+          "Achieving equality is elusive and, indeed, the very meaning of equality is highly contested.",
+          "Making findings - evaluating the information gathered; applying the relevant legal tests, burden of proof and standard of proof and assessing credibility",
+          "Have the cognitive and technical skills to generate critical and creative ideas relating to equality and discrimination issues, and to critically evaluate existing legal theories, principles and concepts with creativity and autonomy",
+          "Most subjects approach knowledge by reference to various issues or problems. Students are required to critically analyse problems and identify and develop a range of appropriate solutions through class discussion, individual study and assessment tasks."
+        ]
+      }
+    },
+    "ambiguities": [
+      "Program-wide: the course has no universal core — students holding a common-law degree take 100% electable subjects from two lists. Every candidate level-2 instance (group presentation, AI governance content, professional-genre outcomes, research proposal) sits inside an electable subject, so 'core unit assesses it' is never satisfied. This single structural fact holds C1, C3, C5, W1 and W2 at level 1 and is the largest source of ambiguity in this score.",
+      "C1 straddled 1 and 2: 'Group in-class presentation' (15%) in AI and Justice is genuinely assessed collaborative practice, but AI and Justice is listed under 'Further subjects related to course'. Resolved down to 1 by the level-2 requirement for a CORE unit and the never-resolve-upward rule.",
+      "C2 straddled 1 and 2: assessed critical evaluation of legal theories and (in Conducting Workplace Investigations) assessment of information and credibility could be read as structured critique. Resolved down to 1 under 'one construct, one home' — C2 scores appraisal of the QUALITY OF WORK (own, peers', a tool's), not appraisal of legal doctrine or evidence, and no peer review/portfolio/exemplar marking is documented.",
+      "C3 straddled 1 and 3: AI and Justice covers algorithmic bias, transparency and privacy — level-3 governance content — and is assessed by research essay. Resolved down to 1 because the level-1 anchor explicitly caps electives at 1, and Digital Technologies and Labour Law is in any case 'Not available in 2026'.",
+      "C4 straddled 1 and 2: the graduate-attribute claim that assessment tasks require developing 'a range of appropriate solutions' to problems suggests novel-problem application, but it is a Barrie-type attribute statement, not a documented assessment task, and the nearest-to-core subject's assessment is an unspecified take-home exam or research paper. Resolved down to 1 under R2.",
+      "C4 straddled 1 and 3 on the self-scoped-project route: coordinator-approved research papers are self-scoped. Resolved down because they are always one of two options within a subject and no structured progression (prerequisite chain, staged capstone) is documented.",
+      "C5 straddled 1 and 2: International Equality Law's staged 'Option 2, Part A: Research proposal' (20%) plus 8,000-word paper resembles assessed methodology selection under supervision. Resolved down to 1 — elective, one route among several, and no data collection documented.",
+      "W1 straddled 0 and 1: on a strict 'core assessment' reading no core unit assesses spoken communication (Principles of Employment Law is 100% exam or paper), which would give 0. Scored 1 because level 0's own disqualifying clause — 'no professional-genre or spoken communication is assessed' — is contradicted by assessed presentations and class participation across the subject lists that constitute the entire degree. Level 1 is therefore the lower level actually consistent with the evidence.",
+      "W1 straddled 1 and 2: Conducting Workplace Investigations names practitioner genres (allegations, terms of reference, investigation plan) in its outcomes. Resolved down to 1 because its assessment table documents none of those artefacts, and R2 forbids scoring outcome statements at level 2/3.",
+      "W3 straddled 1 and 2 on the v4.2 in-practice route: the overview describes a practitioner-facing cohort. Resolved down to 1 — a statement of who a course 'caters for' is not a cohort documented as already practising, and no core unit assesses own-practice activity with real recipients or an outcome measure.",
+      "G1: the FAIL clause ('generic or interchangeable content without disciplinary identity') fits poorly — the content is strongly disciplinary and half the degree is locked to a named labour-law subject list. FAIL was recorded because none of the three PASS routes is documented and progressive depth is absent; a reviewer applying the FAIL clause literally would score PASS. Flagging this as the score most likely to move on adjudication."
+    ],
+    "notScoreable": [
+      "No subject or assessment page for Fundamentals of the Common Law (LAWS70217) is present in the extract, although it is compulsory for students without a common-law degree — the only genuinely compulsory content for that cohort is therefore only half visible, which bounds C4, C5 and G1.",
+      "No subject or assessment page for International Legal Internship (LAWS70067) is present; only its listing under 'Further subjects related to course' is visible. Its duration, supervision, and whether it is assessed cannot be checked, so W3 can be verified only to level 1 (elective/optional internship) and no higher.",
+      "No page is present for LAWS90226 Legal Leadership Essentials, LAWS90113 Mediation: Principles and Practice, LAWS90062 Business Negotiations and Deal-Making or LAWS90331 Alternative Dispute Resolution — the four listed subjects most likely to carry simulation, negotiation or role-play evidence relevant to C1, W1 and W2. All four are elective 'further subjects', so their absence cannot lift any item past the core requirement, but it does mean the extract understates the program's practice-oriented offering."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-18"
+    }
+  },
+  "511aa": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 0,
+      "rationale": "Level 0 anchor — no assessed collaborative work. Demoted from a submitted 1 on adversarial verification. The C1 level-1 anchor requires collaboration/teamwork to appear in LEARNING OUTCOMES; it does not. The Intended learning outcomes block contains no teamwork, group or collaboration claim; the only such statement, 'Capacity to value and participate in teamwork', sits under the separate 'Graduate attributes' heading, warranted by class format ('Small class sizes and an intensive teaching format are valuable in encouraging group dynamics and teamwork'). The omission is deliberate in the instrument: C2's and W1's level-1 anchors read 'outcomes or graduate attributes', C1's reads 'learning outcomes' only. The original rationale conceded a strict reading would give 0 and then resolved the straddle upward, which the scoring-direction rule forbids. Level 0 is affirmatively satisfied: no group task, no team assessment, no stakeholder or client work appears in any of the 16 subject assessment tables, all of which list only 'Option 1: Take-home examination', 'Option 2: Research paper on a topic approved by the subject coordinator' and (once) 'Class participation'.",
+      "evidenceLines": [
+        "Capacity to value and participate in teamwork",
+        "Small class sizes and an intensive teaching format are valuable in encouraging group dynamics and teamwork.",
+        "Option 1: Take-home examination",
+        "Option 2: Research paper on a topic approved by the subject coordinator",
+        "Note: Students must choose assessment from the options listed above. If an option contains parts, all parts must be completed if that option is chosen."
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1 anchor — reflection appears in the intended learning outcomes but no unit assesses appraisal of quality against criteria. The course ILOs claim graduates can 'analyse, critically reflect on and synthesise complex information, concepts and theories', and subject ILOs claim critique of scholarship (LAWS70379: 'critically evaluate the key academic texts'; LAWS90011: 'evaluate the constitutional projects of others'). Level 2 requires core assessment containing criterion-referenced appraisal of quality — peer review, structured critique, portfolio with standards, marking against exemplars. None of the 32 pages documents any of these: the assessment tables list only a take-home examination or a research paper, marked by the subject coordinator, with no peer or self-appraisal component. Level 3's reliance-decision or process-focused evidence (documenting when a tool, source or collaborator was relied on or overridden) is absent entirely.",
+      "evidenceLines": [
+        "analyse, critically reflect on and synthesise complex information, concepts and theories in the field of public and international law",
+        "Be able to critically evaluate the key academic texts that have set out the main theories of adjudication, at an advanced level",
+        "Be able to critically examine, analyse, and evaluate the constitutional projects of others",
+        "Option 2: Research paper on a topic approved by the subject coordinator"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor read literally — 'AI or digital tools appear only as electives'. AI and digital subjects are present solely as entries on the subject-options menu: 'LAWS90145\tArtificial Intelligence and the Law', 'LAWS90248\tAI and Justice', 'LAWS90334\tInternational Law and AI'. The course structure makes all of these optional: 'The remaining credit points may be taken from all subjects listed below.' Level 2 requires core units addressing AI capabilities AND limitations/ethics with use-with-limits assessed; the program documents no compulsory core at all, and no subject page for any AI subject is in the extract, so no AI content — let alone assessed governance critique for level 3 — can be evidenced. The only program-level technology claim is infrastructural ('The most advanced IT infrastructure is available...'), which is a facilities statement, not curriculum, and cannot lift the score.",
+      "evidenceLines": [
+        "LAWS90145\tArtificial Intelligence and the Law",
+        "LAWS90248\tAI and Justice",
+        "LAWS90334\tInternational Law and AI",
+        "The remaining credit points may be taken from all subjects listed below. The subjects below are organised by specialisation. All subjects below have been deemed relevant to the Public and International Law specialisation.",
+        "Advanced working skills in the use of new technology",
+        "The most advanced IT infrastructure is available to Melbourne Law Masters students in the Law Library, the Moot Court Room, classroom settings and for private study."
+      ]
+    },
+    "C4": {
+      "score": 1,
+      "rationale": "Level 1 anchor — transfer is claimed in outcomes but not assessed. Subject ILOs repeatedly claim application beyond the taught context ('be able to apply this understanding in diverse contexts'; 'be able to apply to other contexts, insights from significant themes'; 'Be well-placed to anticipate and apply analytical skills to other problems of method and substance in public law'; 'including ones that the student has not encountered before'). Level 2 requires at least one core assessment that demands application to novel or unfamiliar problems; the assessment tables document only a word count, a date and a percentage for a take-home examination or a research paper, with no documented feature establishing novel-problem application (R1 — score what the handbook documents, not what the task plausibly involves). Level 3 fails on two counts: the self-scoped research paper is never required, only ever 'Option 2' with an examination alternative ('Note: Students must choose assessment from the options listed above'), and no structured progression toward independent learning is documented — the course prescribes no compulsory sequence, prerequisite chain or capstone.",
+      "evidenceLines": [
+        "Have an advanced and integrated understanding of constitution-making processes and constitutional development and be able to apply this understanding in diverse contexts",
+        "Be familiar with, and be able to apply to other contexts, insights from significant themes that run across one or more seminars including, for example, judicial method, interinstitutional tensions, and the challenges of pluralism",
+        "Be well-placed to anticipate and apply analytical skills to other problems of method and substance in public law.",
+        "An advanced ability to assess the strengths and limitations of such bodies of law and institutions—including ones that the student has not encountered before",
+        "Note: Students must choose assessment from the options listed above."
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 1 anchor — methods content and research-paper (literature-based) assessment, but no assessed inquiry with methodology selection and data collection. Methodological training is documented in listed subjects ('Methodological challenges in comparative constitutional law'; 'Methods for study and practice of Constitutionalism'; generic skills 'Match research methods with a research question in a context specific manner'), which defeats level 0's 'no research-methods training'. Level 2 requires students to design AND conduct an inquiry with methodology selection and data collection, assessed: the extract documents word counts and due dates only, no data collection, and the research route is always optional. Level 3 is excluded expressly by its own wording — the substantial research project is 'one route among several' ('Option 2: Research paper... Note: Students must choose assessment from the options listed above') — and no viva, defence or staged supervised review is documented anywhere. The program-level claim that all graduates execute substantial research-based projects is a graduate-attribute statement, and the documented subject assessment contradicts its necessity because every subject offers a take-home examination alternative.",
+      "evidenceLines": [
+        "Methodological challenges in comparative constitutional law",
+        "Methods for study and practice of Constitutionalism",
+        "Match research methods with a research question in a context specific manner",
+        "Be able to plan and undertake comparative constitutional projects at a sophisticated level",
+        "Class preparation and class discussions are designed to enhance these skills, which are tested in all forms of assessment. All graduates of an LLM will have demonstrated, through subject assessment, the ability to use their research skills to plan, develop and execute substantial research-based project(s) and/or piece(s) of scholarship.",
+        "Note: Students must choose assessment from the options listed above."
+      ]
+    },
+    "adaptiveness": 4,
+    "W1": {
+      "score": 0,
+      "rationale": "Level 0 anchor — written academic assessment only, no professional genre and no audience beyond the marker. Demoted from a submitted 1 on adversarial verification. The W1 level-1 anchor is conjunctive: communication in outcomes/attributes AND 'core assessment adds presentation to peers/staff'. The second limb fails: the course structure documents no compulsory core at all ('The remaining credit points may be taken from all subjects listed below'), so no core assessment can add anything. The two spoken items are both non-core and both weaker than the anchor — LAWS90149's 'Class participation' (20%) is graded seminar discussion, not a presentation to peers/staff, and LAWS70379's 'a rough preliminary draft of which is to be presented in class' sits inside the optional Option 2 route of a subject the extract marks 'Not available in 2026'. The original rationale conceded a strict core-assessment reading would give 0 and then resolved the straddle upward, which the scoring-direction rule forbids. Every written artefact in all 32 pages is a take-home examination or a coordinator-approved research paper, i.e. an academic genre addressed to the marker.",
+      "evidenceLines": [
+        "interpret and transmit their knowledge, skills and ideas to specialist and non-specialist audiences",
+        "Capacity to effectively communicate complex legal ideas and theories, orally and in writing, to a variety of audiences",
+        "Classroom discussion and formal presentations provide an opportunity to hone oral communication skills, and written assessment tasks are graded in part on written communication skills.",
+        "Class participation",
+        "Option 2: Research paper on a topic approved by the subject coordinator, a rough preliminary draft of which is to be presented in class",
+        "The remaining credit points may be taken from all subjects listed below. The subjects below are organised by specialisation. All subjects below have been deemed relevant to the Public and International Law specialisation."
+      ]
+    },
+    "W2": {
+      "score": 0,
+      "rationale": "Level 0 anchor — the assessment documented for this course is entirely decontextualised: exams and essays with no situational framing. Every one of the 16 subjects' assessment tables lists the same two academic artefacts, 'Option 1: Take-home examination' and 'Option 2: Research paper on a topic approved by the subject coordinator', described only by word count, date and percentage; the sole variant adds 'Class participation'. Level 1 requires contextualised or scenario-framed TASKS to appear. Case-study material is documented, but as taught content and syllabus topics (LAWS70269's 'Selected case studies drawn from Egypt, Fiji, Indonesia...'), never as a feature of an assessment task — and W2 scores the fidelity of assessment, so teaching content cannot satisfy it (R1). Level 2's end-to-end professional task producing a practitioner's artefact judged against practice criteria, and level 3's assessment spine plus a genuine constraint of practice, have no documentary basis at all. Per R4, the recurring 'practice', 'practical experience' and 'real life challenges' language in subject overviews is a label and was disregarded.",
+      "evidenceLines": [
+        "Option 1: Take-home examination",
+        "Option 2: Research paper on a topic approved by the subject coordinator",
+        "Note: Students must choose assessment from the options listed above. If an option contains parts, all parts must be completed if that option is chosen.",
+        "Selected case studies drawn from Egypt, Fiji, Indonesia, Iraq, Kenya, Pakistan, the Philippines, Solomon Islands, South Africa, Sri Lanka, Swaziland, Thailand, Timor-Leste, Tunisia, Yemen and Zimbabwe among others."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1 anchor — work-situated learning exists only as an optional internship. 'LAWS70067\tInternational Legal Internship' appears once, under the course-structure heading 'Further subjects related to course', and the structure makes every listed subject optional beyond the conditional entry requirements: 'The remaining credit points may be taken from all subjects listed below.' Level 2 requires a CORE unit placing students in a real workplace or professional-community setting with practitioner supervision and assessment; this course documents no compulsory unit of any kind, and no subject page for LAWS70067 was captured, so neither supervision nor assessment can be evidenced. The v4.2 in-practice route also fails: the cohort is not documented as already practising — the overview says only that the program 'will appeal both to practitioners and to scholars', an appeal statement rather than documentation of a practising cohort — and no assessment of activity conducted in a student's own practice with real recipients and an outcome measure appears anywhere. Placement evidence is scored only here, not in C1 or C4.",
+      "evidenceLines": [
+        "LAWS70067\tInternational Legal Internship",
+        "The remaining credit points may be taken from all subjects listed below. The subjects below are organised by specialisation. All subjects below have been deemed relevant to the Public and International Law specialisation.",
+        "The specialisation in public and international law brings together constitutional, administrative and public international law in recognition of the increasing interdependence of international and domestic law. An extraordinary range of subjects across the entire field of public law offers students access to the latest developments in theory and practice in Australia and elsewhere. The program will appeal both to practitioners and to scholars with backgrounds or interests in government, international institutions, not-for-profit organisations, business/government relations and international development. Students may specialise in international law, Australian public law or comparative public law, or may choose a range of subjects from across different areas to suit their own interests and needs."
+      ]
+    },
+    "workplace": 1,
+    "gates": {
+      "G1": {
+        "result": "FAIL",
+        "rationale": "PASS requires a documented coherent specialist core with progressive depth — an all-compulsory specialist core, an accredited sequence, or a staged prerequisite chain. The course structure documents none of the three. The 100 credit points are free choice ('The remaining credit points may be taken from all subjects listed below'), and the only near-compulsory subjects are conditional entry remediation that is contingent on prior study and expressly waivable ('Students can obtain a waiver for this requirement from the Director of Studies'), with International Law required only of those who have not studied it before. No prerequisite chain, staging or capstone is documented, and the permitted menu is deemed relevant en bloc while spanning tax, construction, entertainment, communications and dispute-resolution subjects — i.e. interchangeable choice rather than a specialist core. The disciplinary identity of the individual subjects (all graduate-level LAWS, AQF level 9) is not in doubt; what is missing is the documented core and progression the gate requires, so it fails on the PASS condition.",
+        "evidenceLines": [
+          "Students must complete 100 credit points in total.",
+          "Any students who have not studied international law before must complete the subject International Law, and in any case we strongly recommend this subject for all.",
+          "Students who do not have a law degree from a common law jurisdiction must generally complete Fundamentals of the Common Law. Students can obtain a waiver for this requirement from the Director of Studies. This is dependent on your previous study and your proposed program of study.",
+          "The remaining credit points may be taken from all subjects listed below. The subjects below are organised by specialisation. All subjects below have been deemed relevant to the Public and International Law specialisation."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "PASS on the defended-trade-off route, not the simulation route. The handbook ties argued choice among competing solutions directly to assessment: 'Students are required to critically analyse problems and identify and develop a range of appropriate solutions through class discussion, individual study and assessment tasks.' Subject ILOs require the same at doctrinal level — 'Be aware of, and able to critically choose between, substantive constitutional mechanisms to meet particular goals and resolve particular problems' — and the documented tasks are 5,000–10,000-word take-home examinations and research papers expected to show 'creativity, originality and discovery', which is not the FAIL condition of recall or scripted responses. No simulation, capstone or live project with real uncertainty and accountability is documented, so the PASS rests solely on defended judgement in extended written work.",
+        "evidenceLines": [
+          "Most subjects approach knowledge by reference to various issues or problems. Students are required to critically analyse problems and identify and develop a range of appropriate solutions through class discussion, individual study and assessment tasks.",
+          "Be aware of, and able to critically choose between, substantive constitutional mechanisms to meet particular goals and resolve particular problems",
+          "Research papers and other research tasks are expected to attain a degree of creativity, originality and discovery that befits a postgraduate program of the highest quality, and students are encouraged and assisted to publish original work of a high standard in refereed journals.",
+          "Well-developed problem solving abilities, characterised by flexibility of approach"
+        ]
+      }
+    },
+    "ambiguities": [
+      "The course documents no compulsory core at all, so every anchor phrased as 'core assessment' (C1–C5 levels 2–3, W1–W3 levels 2–3) is unsatisfiable on its face. Rather than treat this as unscoreable, the discriminating feature of each anchor was applied and non-core evidence was never allowed to reach level 2 or above.",
+      "C1 straddled 0 and 1 and was resolved DOWN to 0 on adversarial verification: the teamwork claim ('Capacity to value and participate in teamwork') sits under 'Graduate attributes', whereas the C1 level-1 anchor names 'learning outcomes' specifically — C2 and W1 anchors say 'outcomes or graduate attributes', C1's does not. Nothing collaborative is assessed anywhere.",
+      "C2 straddles 0 and 1. The reflection claim in the ILOs ('critically reflect on and synthesise complex information, concepts and theories') is reflection directed at subject matter, not metacognitive appraisal of one's own or others' work. Scored 1 on the anchor's literal 'reflection appears in outcomes' test; the 1/2 boundary was resolved DOWN because no criterion-referenced appraisal of quality is documented.",
+      "C5 straddles 1 and 2. An 8,000–10,000-word self-scoped research paper on an approved topic could be read as designing and conducting an inquiry; resolved DOWN to 1 per the lower-level rule because no data collection is documented, methodology selection is claimed only in ILOs, and the research route is always an alternative to a take-home examination.",
+      "W1 straddled 0 and 1 and was resolved DOWN to 0 on adversarial verification: the level-1 anchor is conjunctive and requires core assessment to add presentation to peers/staff. The course has no core at all; the assessed spoken elements ('Class participation' at LAWS90149; the in-class draft presentation at LAWS70379, a subject marked 'Not available in 2026') sit in optional subjects, and graded seminar discussion is not a presentation.",
+      "W2 straddles 0 and 1. Case-study framing is pervasive in the taught syllabi (LAWS70269, LAWS90255, LAWS90119), which would support level 1 if 'tasks' included teaching activities. Resolved DOWN to 0 per the lower-level rule because W2 scores assessment, and no documented assessment task carries any situational framing.",
+      "LAWS70379's 'rough preliminary draft of which is to be presented in class' could be read into C2 (process-focused assessment) or W1 (spoken communication). Scored once, in W1, per the one-construct-one-home rule: no appraisal against criteria is documented, so it does not meet C2's construct. With W1 demoted to 0 it lifts neither item.",
+      "G2 PASS rests on argued choice in extended written assessment; the handbook documents no simulation, capstone or live project. If the gate is read as requiring uncertainty and accountability in a task rather than in an argument, this would fail."
+    ],
+    "notScoreable": [
+      "No item was left without a score, but four evidence gaps limit confidence and are recorded here. (1) The extract contains no subject page for LAWS70173 International Law or LAWS70217 Fundamentals of the Common Law — the only two conditionally required subjects — so the assessment design of the nearest thing this course has to a core is unknown.",
+      "(2) No subject page was captured for any AI or digital subject (LAWS90145 Artificial Intelligence and the Law, LAWS90248 AI and Justice, LAWS90334 International Law and AI), so C3 could be scored only from the fact of their elective listing; their capabilities/limitations/governance content could not be examined.",
+      "(3) No subject page was captured for LAWS70067 International Legal Internship, so W3's supervision, assessment and reflection features are undocumented; the score rests on its optional listing alone.",
+      "(4) 13 of the 16 subject pages in the extract are marked 'Not available in 2026', and several carry assessment dates from 2018–2025, so the assessment evidence available for C1–C5 and W1–W2 is drawn largely from subjects not offered in the scored year; only LAWS90149, LAWS90217 and LAWS90218 are documented as running in 2026."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-18"
+    }
+  },
+  "526aa": {
+    "C1": {
+      "score": 1,
+      "rationale": "Level 1 anchor: collaboration/teamwork appears in outcomes and graduate attributes, but no core unit assesses it. The only compulsory unit in the course structure (Fundamentals of the Common Law, required for non-common-law graduates) assesses a case analysis, a research essay and attendance - nothing collaborative. Assessed group work exists only in prescribed-list subjects a student may never take (team presentation in LAWS70106, itself 'Not available in 2026'; group presentations in LAWS90216), so level 2's 'at least one core unit assesses collaborative practice' is not met - the instrument treats elective-only appearance as level 1 (cf. the C3 level-1 anchor). Nothing anywhere documents coordinating work across people AND tools/AI systems, so level 3 is unreachable.",
+      "evidenceLines": [
+        "Capacity to value and participate in teamwork",
+        "Small class sizes and an intensive teaching format are valuable in encouraging group dynamics and teamwork.",
+        "work effectively as a team member to resolve dispute resolution challenges as future legal professionals; and",
+        "Assessment 1: Team presentation/exercise (in class)",
+        "Group presentations",
+        "Students with a law degree from a common law jurisdiction must complete 87.5 credit points of study from the prescribed list and may choose 12.5 credit points from the subjects"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1 anchor: reflection/self-assessment appears in the program ILOs and graduate attributes but no core unit assesses it against criteria. The compulsory unit's tasks are a case analysis and a research essay graded pass/fail - no peer review, structured critique, portfolio against standards or marking against exemplars, so level 2's criterion-referenced appraisal of the quality of work is absent from required study. The one documented instance of appraising one's own and others' work is the LAWS90062 role-play component, a prescribed-list elective, which cannot lift a 'core assessment' anchor. No assessment requires documenting or justifying reliance on a tool, source or collaborator, so level 3 fails on its own terms.",
+      "evidenceLines": [
+        "analyse, critically reflect on and synthesise complex information, concepts and theories in the field of banking and finance law;",
+        "Ability to investigate, evaluate, synthesise and apply existing knowledge in the relevant area(s) with creativity and initiative",
+        "Participation in class exercises (15%), and role plays (15%), including the constructive assessment of one's own progress and actions as well as those of others",
+        "Case analysis",
+        "Research Essay",
+        "The case analysis and essay are graded on a pass/fail basis."
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor: digital content appears only as electives, not in any required unit. Digital subject matter is real but sits entirely in the prescribed-list subjects (blockchain, cryptoassets, FinTech and payments), several marked 'Not available in 2026', and the only technology claim at program level is IT infrastructure in the library and classrooms - facilities, not curriculum. Level 2 requires core units addressing capabilities AND limitations/ethics assessed; no unit is core and no assessment task in the extract is directed at technology capability or limits. Level 0 does not hold because a program-level outcome names e-commerce and the overview names FinTech and blockchain regulation. The AI half of the construct is unevidenced: the extract contains no mention of AI or generative AI anywhere (see notScoreable).",
+      "evidenceLines": [
+        "the impact of globalisation, e-commerce and regulatory reform on the provision of financial services in Australia and internationally.",
+        "financial technology (FinTech) and the regulation of blockchain.",
+        "Advanced working skills in the use of new technology",
+        "The most advanced IT infrastructure is available to Melbourne Law Masters students in the Law Library, the Moot Court Room, classroom settings and for private study.",
+        "This subject is designed to introduce students to the emerging social, economic and legal issues associated with blockchain and cryptocurrencies."
+      ]
+    },
+    "C4": {
+      "score": 1,
+      "rationale": "Level 1 anchor: transfer and adaptability are claimed in outcomes ('apply their knowledge and skills as a practitioner and learner ... adaptability and responsibility', 'flexibility of approach') but not assessed in any required unit. The compulsory unit's assessed task is a written legal argument 'in response to a topic' - topic set, within the taught method - so level 2's application to novel or unfamiliar problems is not documented for required study. Level 3 needs structured progression to independent learning: no capstone appears, the Minor Thesis is expressly excluded from this course, and the self-selected research paper is only one of two options inside prescribed-list subjects, never required.",
+      "evidenceLines": [
+        "Apply their knowledge and skills as a practitioner and learner in the field of banking and finance law to demonstrate:",
+        "adaptability and responsibility.",
+        "Well-developed problem solving abilities, characterised by flexibility of approach",
+        "research and apply such information, concepts and theories to the relevant body of knowledge and practice; and",
+        "Construct a written legal argument in response to a topic, with appropriate referencing using the Australian Guide to Legal Citation (4th ed.).",
+        "Research paper on a topic approved by the subject coordinator"
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 1 anchor: foundational method training plus literature/doctrinal research assessment. The compulsory unit teaches how to read, use and interpret cases and legislation and assesses a 3500-word Research Essay; legal research skills are claimed to be tested in all forms of assessment. This is secondary doctrinal synthesis - level 2 requires students to design and conduct an inquiry with methodology selection and data collection, and no task in the extract involves data collection or defended methodology. The graduate attribute claiming design, conduct and reporting of original research is an attribute statement, not assessment evidence (R2), and is scoped to 'graduates of an LLM'. Level 3 fails outright: the research paper is one route among several and the Minor Thesis is excluded from this course.",
+      "evidenceLines": [
+        "Advanced competencies in legal research and analysis",
+        "Class preparation and class discussions are designed to enhance these skills, which are tested in all forms of assessment. All graduates of an LLM will have demonstrated, through subject assessment, the ability to use their research skills to plan, develop and execute substantial research-based project(s) and/or piece(s) of scholarship.",
+        "Appreciation of the design, conduct and reporting of original research",
+        "Research Essay",
+        "3500 words",
+        "Research paper on a topic approved by the subject coordinator"
+      ]
+    },
+    "adaptiveness": 5,
+    "W1": {
+      "score": 0,
+      "rationale": "Demoted from 1 to 0 on adversarial review. Level 1 requires positively that core assessment adds presentation to peers/staff. The only compulsory unit is LAWS70217, whose full assessment table is Case analysis 1500w, Research Essay 3500w and an Attendance and Participation hurdle documented solely as 'A minimum of 75% attendance is required' - no presentation exists in required study. Level 0's first clause ('All core assessment is in academic genres addressed to the marker') is literally satisfied, and that clause's 'core' qualifier governs the unqualified second clause (as C1 level 0's 'anywhere in the core' does). The original level-1 hold rested on pervasive assessed class participation across the prescribed list, but that reasoning is unavailable to a scoring that defines 'core' as required study and refuses elective evidence at C1, C2, W2 and W3; the scoring-direction rule also forbids resolving straddled levels upward. The pervasiveness premise is overstated: 'Class participation' appears in 8-9 of 17 sampled subject pages, and assessment evidence exists for only 14 of roughly 35 prescribed subjects. Every presentation cited (LAWS70106, 'Not available in 2026'; LAWS70380; LAWS90216) is an elective a student can complete the degree without touching.",
+      "evidenceLines": [
+        "Capacity to effectively communicate complex legal ideas and theories, orally and in writing, to a variety of audiences",
+        "Classroom discussion and formal presentations provide an opportunity to hone oral communication skills, and written assessment tasks are graded in part on written communication skills.",
+        "interpret and transmit their knowledge, skills and ideas to specialist and non-specialist audiences.",
+        "Case analysis",
+        "Research Essay",
+        "A minimum of 75% attendance is required",
+        "Class presentation on an agreed topic with PPT slides submitted as a PDF documentation after the presentation. (No more than 500 words)"
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Level 1 anchor: contextualised, problem-framed tasks appear, but the artefact produced and the criteria applied remain academic. The program documents that most subjects work from issues or problems and that students develop a range of solutions through assessment tasks; the assessed artefacts across the extract are take-home examinations (3000-6000 words), research papers, a case analysis and a case study activity - academic forms marked by the teaching team. Level 2 requires at least one core assessment reproducing a professional task end to end and producing the artefact a practitioner would produce, judged against practice-derived criteria; the nearest instances (negotiation role plays, an impact-investing case study activity) are prescribed-list electives and the extract documents no practice-derived criteria for them. Per R4 the overview's 'practical focus' label is not scored.",
+      "evidenceLines": [
+        "Most subjects approach knowledge by reference to various issues or problems. Students are required to critically analyse problems and identify and develop a range of appropriate solutions through class discussion, individual study and assessment tasks.",
+        "Take-home examination",
+        "Research paper on a topic approved by the subject coordinator",
+        "Case analysis",
+        "Case study activity",
+        "actively participate in a series of useful, interesting and challenging negotiation concepts, strategies, and simulation negotiation scenarios helpful in the field of law;"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1 anchor exactly: work-situated learning exists only as an optional internship. The course structure lists International Legal Internship as one entry among the prescribed subject options, from which students choose; no placement, practicum, live client project or community-based project is required, and the words placement, practicum and supervision (in the WIL sense) appear nowhere in the extract. Level 2 needs a core unit placing students in a real workplace with practitioner supervision and assessment. The v4.2 in-practice route does not open: the overview describes a mixed intake of 'students, practitioners and other professionals' rather than a cohort documented as already practising, and no unit assesses activity conducted in a student's own practice with real recipients.",
+      "evidenceLines": [
+        "International Legal Internship",
+        "Subject options",
+        "Students with a law degree from a common law jurisdiction must complete 87.5 credit points of study from the prescribed list and may choose 12.5 credit points from the subjects",
+        "The specialisation in banking and finance law is designed to provide students, practitioners and other professionals with a sophisticated understanding of the legal and regulatory framework for the Australian and international financial sector."
+      ]
+    },
+    "workplace": 2,
+    "gates": {
+      "G1": {
+        "result": "FAIL",
+        "rationale": "Demoted from PASS to FAIL on adversarial review. The gate's PASS condition is exhaustive and enumerated - a coherent specialist core with progressive technical or methodological depth, evidenced by an all-compulsory specialist core, an accredited sequence, or a staged prerequisite chain - and the extract positively refutes all three routes. (a) No all-compulsory specialist core: common-law graduates have zero compulsory subjects and 12.5cp of unrestricted choice 'from the subjects available in the Master of Laws', so an eighth of the degree is by construction interchangeable; the one compulsory subject, LAWS70217, is compulsory only for the other cohort and is a generic MLM foundational-skills unit shared across eight unrelated masters, not banking-and-finance content. (b) No accredited sequence: 'accredit' appears nowhere in the extract. (c) No staged prerequisite chain: 'prerequisite' and 'co-requisite' appear nowhere; all 35 prescribed subjects are level 7, 12.5 points, offered as standalone intensives in arbitrary months, with no ordering. The LAWS70217 staging lines say 'We recommend' and 'strongly recommended' - a recommendation is not a documented prerequisite chain, and R1 binds the score to what the handbook documents. A flat, unordered, mostly-unavailable menu (16 of 35 marked 'Not available in 2026') from which students self-assemble 87.5cp evidences disciplinary breadth but no documented progression or depth staging. The original PASS inverted the gate by testing only whether the FAIL sentence fired.",
+        "evidenceLines": [
+          "as well as 87.5 credit points of study from the prescribed list of subjects.",
+          "Students with a law degree from a common law jurisdiction must complete 87.5 credit points of study from the prescribed list and may choose 12.5 credit points from the subjects available in the Master of Laws",
+          "This is a foundational subject in the Melbourne Law Masters (MLM) which is compulsory for graduates of disciplines other than law and for law graduates from countries with a non-common law system.",
+          "This subject is an important foundational skills-based subject for many common-law focussed subjects in the Melbourne Law Masters. We recommend Masters students needing an introduction to the common law enrol in this subject when they first start their program of study.",
+          "Not available in 2026"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "The FAIL condition (recall or scripted responses only) is contradicted even on core evidence alone: the compulsory unit assesses a 1500-word case analysis plus a 3500-word research essay, and the program documents that assessment is problem-based, requiring students to analyse problems and develop a range of appropriate solutions through assessment tasks. The dominant assessed forms across the prescribed list are 3000-6000 word take-home examinations and research papers requiring critical evaluation. Note that the most probative-sounding line, 'Devise advise to companies and investors when assessing insolvency risks...', sits on LAWS90112's overview page as an intended learning outcome, not assessment, so it carries no weight under R2; the gate holds on the take-home-examination and research-paper evidence only.",
+        "evidenceLines": [
+          "Most subjects approach knowledge by reference to various issues or problems. Students are required to critically analyse problems and identify and develop a range of appropriate solutions through class discussion, individual study and assessment tasks.",
+          "Take-home examination",
+          "Case analysis",
+          "Research Essay",
+          "expert judgment; and"
+        ]
+      }
+    },
+    "ambiguities": [
+      "What counts as 'core' is the governing ambiguity for every item. This course has essentially no compulsory core: only Fundamentals of the Common Law is required, and only for students without a common-law degree; the remaining 87.5 of 100 credit points are chosen from a prescribed list. 'Core' was scored as required study, and prescribed-list subjects treated as electives, which is what the instrument itself implies at the C3 level-1 anchor ('appear only as electives'). Reading the prescribed list as core would lift C1 and C2 to 2 (team presentation and group presentations; assessed appraisal of one's own and others' work in role plays). Resolved down per the scoring-direction rule.",
+      "C1 straddled 1 and 2: assessed group work is documented in two prescribed-list subjects, one of them 'Not available in 2026'. Because a student can complete the degree without ever taking either, level 2's 'at least one core unit assesses collaborative practice' fails; scored 1.",
+      "W1 straddled 0 and 1 and was resolved DOWN to 0 on adversarial review. The original scoring held it at 1 on the ground that assessed class participation is pervasive across the prescribed list; that reasoning is unavailable to a scoring that treats prescribed-list subjects as electives everywhere else, and the scoring-direction rule forbids upward resolution. Level 1's positive condition (core assessment adds presentation to peers/staff) fails on the only compulsory unit, whose tasks are a case analysis, a research essay and a 75% attendance hurdle.",
+      "W2 straddled 1 and 2: an impact-investing 'Case study activity' (40%) and assessed negotiation role plays are the nearest professional-task instances, but both are prescribed-list electives and the extract documents no criteria drawn from practice for either. Resolved down to 1. Per R4 the overview's 'Most subjects have a practical focus' was excluded from scoring as a label rather than a documented task feature.",
+      "C4 straddled 1 and 2: the compulsory unit's case analysis could be read as application to a novel case, but the taught content is precisely how to read and analyse a case, so the task is within the taught context. Resolved down to 1.",
+      "C5 straddled 1 and 2 on the graduate attribute claiming design, conduct and reporting of original research; that is an attribute statement, not assessment evidence (R2), and the research paper is one option among two. Resolved down to 1.",
+      "G1 was the least secure judgement and was demoted to FAIL. The original PASS rested on the prescribed-list envelope rather than any of the three enumerated PASS routes; on review none of the three is documented, and 'progressive technical or methodological depth' is the operative substance of the gate. The residual ambiguity runs the other way: a lenient reading that counts a discipline-confined prescribed list plus a recommended foundational subject as a 'coherent specialist core' would PASS.",
+      "G2 holds, but its evidence base is thinner than it first appears: the clearest simulation and trade-off language sits in prescribed-list electives and in intended-learning-outcome text excluded under R2. The compulsory unit alone (a 1500w case analysis plus a 3500w research essay, both pass/fail) is what carries the gate.",
+      "Several quoted assessment pages carry dates from 2023-2025 for subjects marked 'Not available in 2026' (for example LAWS70106, LAWS70110, LAWS70125, LAWS90112). Their content was scored as documented, but their unavailability reinforces that they cannot be required study."
+    ],
+    "notScoreable": [
+      "C3 (AI half of the construct): the extract contains no occurrence of 'AI', 'artificial intelligence' or 'generative' anywhere - not in the course pages, not in any subject page. The C3 score of 1 rests entirely on the digital/FinTech/blockchain route; the AI capability, limitation, ethics and governance evidence the item asks for is absent rather than negative, and no AI-related level was inferred.",
+      "Assessment evidence is present for only 14 of the roughly 35 subjects in the prescribed list; the remaining subject pages are not in the extract. C1, C2, W1 and W2 are therefore scored on a partial sample of the list, which bounds any upward revision more than any downward one."
+    ],
+    "instrument": "4.1-draft"
   },
   "527cl": {
     "instrument": "4.1-draft",
@@ -503,6 +2682,297 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "date": "2026-08-14"
     }
   },
+  "527cn": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor ('at least one core unit assesses collaborative practice — ... interprofessional activity') is met by PSYC90125 Core Skills in Psychological Practice, a compulsory year-long core subject whose assessed tasks include a 25%-weighted written reflection on interprofessional learning arising from the Ways of Knowing interdisciplinary activity, plus a 5% reflection on its cultural walk component; collaboration also appears at program level ('consult and collaborate with colleagues, including those from other professions'), but under R2 the outcome statement alone would only support level 1, and the assessed task lifts it to 2. Level 3 fails on its second conjunct: no assessment anywhere in the extract requires coordinating work across people AND tools/AI systems, and no documented role-and-tool allocation appears. Placement teamwork and case-conference work is not counted here — per one-construct-one-home it is scored in W3.",
+      "evidenceLines": [
+        "Written reflection on interprofessional learning and culturally safe practices following the interdisciplinary panel discussion component of Ways of Knowing program",
+        "Written reflection on cultural walk component of Ways of Knowing program",
+        "Develop an understanding of 'collaborative practice' in interprofessional contexts",
+        "Teamwork and working with others",
+        "They will demonstrate the ability to consult and collaborate with colleagues, including those from other professions."
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1 anchor is met exactly: reflection and self-assessment appear in the graduate attributes ('Skills in self-assessment, reflective thinking and self-awareness') and criterion-referenced appraisal of quality appears in PSYC90030's intended learning outcomes and generic skills ('evaluate the quality of psychological data', 'Ability to evaluate the quality of data against formal criteria'). Level 2 requires that CORE ASSESSMENT include criterion-referenced appraisal of quality (peer review, structured critique, portfolio with standards, marking against exemplars); PSYC90030's assessment descriptions name only 'A written report' and 'A written examination', with no appraisal task documented, so under R2 the capability is stated but not documented as assessed. The three reflective tasks that ARE assessed (PSYC90125, 5% + 25% + 10%) take cultural learning, interprofessional learning and self-care needs as their object, not the quality of work against criteria. No assessment requires documenting or justifying reliance decisions on a tool, source or collaborator, so level 3 is not in contention.",
+      "evidenceLines": [
+        "Skills in self-assessment, reflective thinking and self-awareness; placing great importance on their personal and professional integrity, and on the willingness to explore, experiment and learn from mistakes.",
+        "Demonstrate mastery of the principal criteria practicing psychologists use to evaluate the quality of psychological data, as they relate to the clinical assessment of individuals.",
+        "Ability to evaluate the quality of data against formal criteria",
+        "A written report",
+        "A written examination",
+        "Written report - self-reflection on self-care needs"
+      ]
+    },
+    "C3": {
+      "score": 0,
+      "rationale": "Level 0 anchor ('No digital/AI content in any core unit or program-level outcome') holds on this extract: across the 16 captured subject pages and both program-level outcome pages there is no mention of artificial intelligence, generative AI, data governance, algorithmic accountability or digital capability. The technology that does appear is clinical instrumentation and delivery modality — critical appraisal of neuroimaging methods (MRI, EEG, TMS) as a research consumer, 'interactive virtual technologies' listed as a learning modality in neuroanatomy, and an online compliance module (RiskAware) as a placement hurdle. None is a digital or AI tool competency. Level 1 ('AI or digital tools appear only as electives or as tool operation/training') is not reached either: the program has no electives ('All subjects are compulsory.') and documents no digital-tool operation or training; the only tool training documented is administration and scoring of standardised neuropsychological tests, which are psychometric instruments rather than digital tools. Ambiguity between 0 and 1 resolved downward per the scoring-direction rule.",
+      "evidenceLines": [
+        "Identify the strengths and weakness of cognitive neuroscience methods, including MRI, EEG and TMS, to be a better consumer of clinical research where such methods are applied;",
+        "Learning by multiple converging modalities, through conventional texts, photographic records, interactive virtual technologies",
+        "Hurdle requirement: RiskAware online training as hurdle component to be completed prior to students commencing placement activities.",
+        "All subjects are compulsory.",
+        "Competent administration and scoring of a wide range of standardized neuropsychological tests and abilities measures, and demonstrate understanding of their psychometric underpinnings and underlying cognitive and behavioural processes."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3 anchor's first route — 'The program documents structured progression toward independent learning: a self-scoped capstone or research project' — is documented and, as R2 requires, assessed at each stage. PSYC90003 Literature Review has students determine their own research question by identifying a gap in the literature, assessed through a staged outline (Week 6, hurdle) then the review itself (hurdle); PSYC90029 Graduate Research Methods then assesses a research proposal the student develops (3000-word report, 60%, plus a 20-minute oral presentation, 40%); the required minor research thesis (PSYC90095/PSYC90096) is where the self-scoped project is carried out, and the course structure documents it as compulsory. Level 2 is independently satisfied (application to unfamiliar problems in case-based assessment across PSYC90023, PSYC90007 and PSYC90008), so the discriminating evidence is the assessed progression to an independently scoped project. Placement is excluded from this item per one-construct-one-home (v4.1 moved the WIL route to W3).",
+      "evidenceLines": [
+        "This review of the literature will enable them to determine a pertinent research question by identifying a gap in the literature.",
+        "Students will conduct their own research projects as outlined in PSYC90095 Thesis (Masters/coursework) Part 1 / PSYC90096 Thesis (Masters/coursework) Part 2.",
+        "Prepare outline of literature review",
+        "Prepare literature review.",
+        "Develop and complete a research proposal of relevance to a research question in clinical psychology or clinical neuropsychology.",
+        "This course consists of coursework, placement and a minor research thesis (equivalent to 10,000 words).",
+        "All subjects are compulsory.",
+        "Case Formulation: Development of a clinical case formulation, based on case material provided."
+      ]
+    },
+    "C5": {
+      "score": 3,
+      "rationale": "Level 3 anchor's two conjuncts are both documented. (i) 'A substantial project generating primary evidence is REQUIRED (not one route among several)': the course structure states the course consists of coursework, placement and a minor research thesis equivalent to 10,000 words, delivered as PSYC90095 and PSYC90096 (18.75 credit points each), and the overview states all subjects are compulsory — there is no coursework-only exit. Students 'conduct their own research projects', and the research-methods subject covers design, measurement, sampling and data-analysis decisions, i.e. primary evidence generation rather than secondary synthesis. (ii) 'methodology defended under scrutiny (viva, defence, or staged supervised review)': the methodology is scrutinised in an assessed staged sequence — literature-review outline and review (hurdles), then a 3000-word proposal report setting out proposed methodology and analysis (60%) and a 20-minute Oral Presentation of research proposal (40%, hurdle), before the thesis subjects. This satisfies R2's demand for assessment evidence at level 3 from lines present in the extract. Level 1 (literature-review assessment) and level 2 (design and conduct an inquiry) are subsumed by the same sequence.",
+      "evidenceLines": [
+        "This course consists of coursework, placement and a minor research thesis (equivalent to 10,000 words).",
+        "All subjects are compulsory.",
+        "Students will conduct their own research projects as outlined in PSYC90095 Thesis (Masters/coursework) Part 1 / PSYC90096 Thesis (Masters/coursework) Part 2.",
+        "Topics may include: major design and measurement decisions; survey approaches; sampling issues; practical management of research; the development of research proposals and theses; and data analysis options.",
+        "Oral Presentation of research proposal",
+        "Report of a research proposal (including brief literature review, rationale, and proposed methodology and analysis)",
+        "Develop and complete a research proposal of relevance to a research question in clinical psychology or clinical neuropsychology."
+      ]
+    },
+    "adaptiveness": 9,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 anchor ('At least one core assessment requires a recognised professional genre ... judged against criteria drawn from professional practice') is met several times over in classroom core subjects: a written clinical case formulation and a written treatment plan (PSYC90007, 50%/50%, both hurdles), a written intervention plan (PSYC90023, 60%), and report writing taught and assessed in PSYC90082, whose outcomes name formal psychological reports. These are the profession's own genres, and the criteria are drawn from a practice sequence accredited by APAC for registration. Level 3 fails on its second conjunct within this item's construct: the assessments named above are addressed to the teaching team, the case presentations required in the placement subjects are judged 'to the satisfaction of attending teaching staff', and the only judgement by an external practitioner with professional conduct among the criteria is placement supervision by AHPRA-registered field supervisors — evidence that one-construct-one-home assigns to W3, not W1. Ambiguity resolved downward.",
+      "evidenceLines": [
+        "Written clinical case formulation",
+        "A written treatment plan",
+        "Intervention Plan (written): Development of a clinical case formulation and an ensuing intervention plan, based on case material provided.",
+        "Communicate findings in oral and written formats, including formal psychological reports, using culturally appropriate language.",
+        "Oral presentation - demonstration of basic interview techniques, including Mental State Examination",
+        "The course is accredited by the Australian Psychology Accreditation Council (APAC), providing the required sequence of subjects for graduates wishing to attain generalist registration as a psychologist in Australia as well as competency in knowledge and skills relevant to the clinical neuropsychology specialisation.",
+        "Hurdle requirement: Attendance at a minimum of 80% of university-based case conferences, and presentation of at least 3 cases to the satisfaction of attending teaching staff"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2 anchor ('At least one core assessment reproduces a professional task end to end ... producing the artefact a practitioner would produce') is clearly met: core assessment requires clinical case formulations, treatment plans and intervention plans built from supplied case material, a diagnostic work-up of a case study, a report on an ethical dilemma case, and a 15-minute practical exercise in delivering brief interventions — these are practitioner artefacts, not academic essays, which places the program above level 1's scenario-framed-but-academic anchor. Level 3 requires both that such tasks be the assessment spine AND that at least one carry a genuine constraint of practice. The spine conjunct is arguably met, but the constraint conjunct is not documented within this item's own evidence: the case material is supplied by the teaching team rather than externally, no consequential audience or real resource limit is stated, and the one documented instance of the profession's own standards of performance — the case book completed to College of Clinical Neuropsychologists guidelines — is placement evidence owned by W3. Per R4 the accreditation label alone cannot lift the score. Ambiguity between 2 and 3 resolved downward.",
+      "evidenceLines": [
+        "Case Formulation: Development of a clinical case formulation, based on case material provided.",
+        "Intervention Plan (written): Development of a clinical case formulation and an ensuing intervention plan, based on case material provided.",
+        "Written clinical case formulation",
+        "A written treatment plan",
+        "A practical exercise",
+        "Written report - diagnostic work up of case study",
+        "Report addressing case study of ethical dilemma",
+        "The subject will include opportunities for students to practise newly acquired skills through role-plays and simulated client interactions during the teaching sessions which are primarily full-day workshops."
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3 anchor's placement route is documented in every part: 'Substantial required work-situated learning' — 126 days of placement across the two years, with a minimum of 1000 hours of placement training required for accreditation; 'an extended placement or practicum, or a sequence of them, in the core' — three compulsory placement subjects (PSYC90039 over forty-three days, then two 48-day external field placements, PSYC90079 and PSYC90080, each spanning two settings over 24 weeks); 'supervised by a practitioner' — all principal field supervisors are AHPRA-registered supervisors and Members of the College of Clinical Neuropsychologists, and field neuropsychologists meet APAC standards; 'assessed, with accountability to the host' — performance is a hurdle judged to the satisfaction of field supervisors, with an endorsed logbook checked every 30 hours and written summaries of all assessments and interventions conducted, and the placements are graded satisfactory/unsatisfactory on fulfilment of all of these; 'structured reflection on professional practice' — weekly university case conferences with at least three case presentations, a case book completed to College guidelines, and the requirement to evaluate the effectiveness of their own professional practice with clinical supervisors and implement changes. The in-practice route is not needed and not used; the cohort is trainees, not already-practising professionals.",
+      "evidenceLines": [
+        "Coursework consists of 14 classroom-based subjects taken over the two years of the course (see below) and 126 days of Placement (30 days in the first-year and 96 days in the second-year).",
+        "It is a requirement of the Australian Accreditation Council and the Australian Psychological Society College of Clinical Neuropsychologists that students complete a minimum of 1000 hours of placement training during the two-year Master of Psychology (Clinical Neuropsychology) course.",
+        "All principal field supervisors are registered supervisors with AHPRA, and Members (or eligible for Membership) of the College of Clinical Neuropsychologists of the Australian Psychological Society.",
+        "A 48 day external field placement concentrating on neuropsychological services in adult neurology/neurosurgery and adult psychiatry.",
+        "Hurdle requirement: Performance on placement to the satisfaction of field supervisors and the Convenor of Clinical Neuropsychology, formally evaluated against requirements specified approved by the Professional Programs Committee of the School of Psychological Science, a completed logbook of daily placement activities, and written summaries of all assessments/interventions conducted",
+        "Hurdle requirement: Completion of a case book according to the guidelines of the College of Clinical Neuropsychologists of the Australian Psychological Society",
+        "Hurdle requirement: Students must provide evidence that log books are checked and endorsed every 30 hours of placement or fortnightly, whichever occurs first.",
+        "Evaluate the effectiveness of their professional practice (in conjunction with clinical supervisors), identifying areas for improvement and implementing changes where needed.",
+        "University and field supervisors will conjointly determine whether the student has passed the placements."
+      ]
+    },
+    "workplace": 7,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The gate's PASS condition is met on two of its three named routes: an all-compulsory specialist core ('All subjects are compulsory.') and an accredited sequence (APAC accreditation supplying the required sequence of subjects for registration, recognised by AHPRA). Depth is progressive and disciplinary rather than generic: first year builds foundations (Neuroanatomy for Neuropsychologists, Principles of Psychological Assessment, Adult Neuropsychological Disorders, Clinical Skills in Neuropsychology) alongside a 43-day placement, and second year moves to specialised and lifespan content (Developmental Neuropsychology, Neuropsychological Rehabilitation, Child Psychopathology), two 48-day external field placements and the thesis. Nothing here is interchangeable across disciplines.",
+        "evidenceLines": [
+          "The course is accredited by the Australian Psychology Accreditation Council (APAC), providing the required sequence of subjects for graduates wishing to attain generalist registration as a psychologist in Australia as well as competency in knowledge and skills relevant to the clinical neuropsychology specialisation.",
+          "All subjects are compulsory.",
+          "Accredited by the Australian Psychology Accreditation Council (APAC) and recognised by the Australian Health Practitioner Regulation Agency (AHPRA)",
+          "This course consists of coursework, placement and a minor research thesis (equivalent to 10,000 words)."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "The gate's PASS condition — assessments requiring defended trade-off decisions, or live projects with real uncertainty and accountability — is met on both limbs. Core assessment requires students to choose and justify a course of action under clinical uncertainty: intervention plans developed from a case formulation, judgements about when brief interventions suffice and when more complex ones are appropriate, monitoring of outcomes and modification of interventions on an evolving formulation, and a report resolving an ethical dilemma. Separately, the placement subjects are live practice with real patients and accountability to field supervisors, explicitly designed to develop the capacity to confront and manage unfamiliar problems. This is not recall or scripted response, although two subjects (Adult Psychopathology, Neuroanatomy) are examined largely by quiz and examination.",
+        "evidenceLines": [
+          "Intervention Plan (written): Development of a clinical case formulation and an ensuing intervention plan, based on case material provided.",
+          "Describe brief interventions that are appropriate to particular clients' needs and determine when more complex interventions are appropriate.",
+          "Apply knowledge to monitor client outcomes, identify barriers to treatment progress and modify interventions on the basis of an evolving case formulation and inter and intrapersonal changes.",
+          "Report addressing case study of ethical dilemma",
+          "This placement subject is designed to promote an in-depth understanding of specialist practice, to expand the range of ways in which learning occurs; to develop a capacity to work collaboratively, to confront and manage unfamiliar problems, to value different cultures, and to develop a high regard for human rights, ethics and equity.",
+          "Construct the clinical approach that is most appropriate for the clinical setting and the individual patient in a culturally sensitive manner."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C2 straddled 1 and 2. PSYC90030 Principles of Psychological Assessment is a core subject whose outcomes and generic skills are explicitly criterion-referenced appraisal of quality ('Ability to evaluate the quality of data against formal criteria'), which would satisfy the level-2 anchor if the appraisal were documented as assessed; its two assessment descriptions read only 'A written report' and 'A written examination'. R2 (a capability in outcomes but not documented as assessed scores 1) and the take-the-lower-level rule resolved this to 1.",
+      "C3 straddled 0 and 1. Technology appears in the extract as clinical research instrumentation ('MRI, EEG and TMS'), a learning modality ('interactive virtual technologies') and an online compliance module ('RiskAware online training'), none of which is digital or AI tool competency; and the level-1 anchor's elective route is unavailable because all subjects are compulsory. Resolved down to 0.",
+      "W1 straddled 2 and 3. The level-3 conjunct 'judged by a real external audience or practitioner ... with professional conduct or accountability explicitly among the assessed criteria' is literally satisfied by placement performance judged by AHPRA-registered field supervisors against Professional Programs Committee requirements. One construct, one home assigns placement evidence to W3, and within non-placement core assessment every audience documented is the teaching team, so W1 scored 2.",
+      "W2 straddled 2 and 3. The professional-artefact tasks plausibly form an assessment spine (case formulation, treatment plan, intervention plan, diagnostic work-up, practical exercise, across both years), but the level-3 conjunct 'a genuine constraint of practice' is documented only in the placement case book completed to College of Clinical Neuropsychologists guidelines — W3's evidence. Case material in the classroom tasks is supplied by the teaching team, which is scenario framing rather than an externally supplied problem. Resolved down to 2.",
+      "The Ways of Knowing assessed reflections could be read into C2 (reflection) as well as C1 (interprofessional activity). They scored in C1 because C1's construct names interprofessional activity, and their object is collaborative and culturally safe practice, not appraisal of the quality of work against criteria.",
+      "The required research sequence (Literature Review, Graduate Research Methods, Thesis Parts 1 and 2) supports both C4 level 3 and C5 level 3. This is not a rule breach — the v4.1 anchors name a self-scoped research project in C4 and required primary evidence generation with defended methodology in C5 — but it is recorded because two of the three level-3 scores on the adaptive sub-scale rest on the same curricular structure.",
+      "The extract's assessment tables are captured page text, so several assessment descriptions are bare noun phrases ('A written report', 'A written examination', 'A practical exercise') whose disciplinary content had to be read from the subject the table belongs to rather than from the description itself. Where that reading would have raised a score (C2), it was not made."
+    ],
+    "notScoreable": [
+      "No item was wholly unscoreable, but the extract omits four of the program's compulsory subjects: PSYC90033 Neuropsychological Rehabilitation, PSYC90042 Developmental Neuropsychology, PSYC90095 Thesis (Masters/coursework) Part 1 and PSYC90096 Thesis (Masters/coursework) Part 2. Sixteen subject pages plus the three course pages were available.",
+      "C5's level-3 determination consequently rests on the course-structure line documenting the required minor thesis and on the assessed staged sequence in PSYC90003 and PSYC90029, not on the thesis subjects' own assessment tables, which are absent. If those tables document no examination or defence, the 'staged supervised review' route still stands on the assessed oral presentation of the research proposal; if they document a viva, the score is unchanged.",
+      "C3's score of 0 is an absence finding over the 16 captured subject pages and both program-level outcome pages. The four missing subject pages could in principle contain digital or AI content, though none of their titles suggests it."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-18"
+    }
+  },
+  "742ab": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 0,
+      "rationale": "Level 0 anchor ('No collaborative, stakeholder or team-based work is assessed anywhere in the core') holds after adversarial verification. The C1 level-1 anchor requires collaboration/teamwork to appear in LEARNING OUTCOMES; teamwork appears in the extract only in the Graduate attributes block ('Capacity to value and participate in teamwork', supported by class-size commentary), never in the Intended learning outcomes block, and C1's anchor deliberately says 'learning outcomes' where C2 L1 and W1 L1 both say 'outcomes or graduate attributes'. Every other 'group' occurrence in the extract refers to consolidated corporate groups (tax law content), not student groups. The remaining candidate, 'Be an engaged participant in debate regarding emerging and contemporary issues in the field', is individual discursive participation, not shared task or cognition. No collaborative assessment exists anywhere: the only recurring interactive assessment is individually marked class participation and individual class presentations, so levels 2 and 3 are also out.",
+      "evidenceLines": [
+        "Capacity to value and participate in teamwork",
+        "Small class sizes and an intensive teaching format are valuable in encouraging group dynamics and teamwork.",
+        "Be an engaged participant in debate regarding emerging and contemporary issues in the field",
+        "Class Participation: including in class discussions and responses to readings",
+        "Class participation"
+      ]
+    },
+    "C2": {
+      "score": 0,
+      "rationale": "Level 0 anchor ('No assessment requires students to appraise the quality of work — their own, peers', or a tool's') holds. The extract contains no peer review, no structured critique of work, no portfolio with standards, no marking against exemplars and no process-focused assessment, so level 2 and level 3 are out. Level 1 requires reflection or self-assessment to appear in outcomes or graduate attributes; the only candidate lines attach 'critically reflect' to complex information, concepts and theories (i.e. subject content), and 'autonomy and accountability' to time management, neither of which is regulation or appraisal of one's own or others' work. Under the lower-level rule that straddle resolves to 0.",
+      "evidenceLines": [
+        "analyse, critically reflect on and synthesise complex information, concepts and theories in the field of taxation law",
+        "Capacity to manage competing demands on time and ability to work with a high level of autonomy and accountability",
+        "Class Participation: including in class discussions and responses to readings",
+        "Take-home examination",
+        "Written Assignment"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor ('AI or digital tools appear only as electives or as tool operation/training — the operational level TEQSA identifies as non-durable') matches: the sole program-level digital claim is an IT-skills attribute whose supporting text describes access to infrastructure, and the only digital-adjacent subject is an elective in a 'Further subjects related to course' list. No core unit addresses AI capabilities AND limitations/ethics, and no assessment requires critique or governance of AI systems in tax practice, so levels 2 and 3 fail. Level 0 was arguable because no program intended learning outcome mentions digital or AI content; level 1 was retained because the tool-operation claim and the elective are both documented in the extract.",
+      "evidenceLines": [
+        "Advanced working skills in the use of new technology",
+        "The most advanced IT infrastructure is available to Melbourne Law Masters students in the Law Library, the Moot Court Room, classroom settings and for private study.",
+        "Cryptoassets in Global Context"
+      ]
+    },
+    "C4": {
+      "score": 1,
+      "rationale": "Level 1 anchor ('Transfer is claimed in outcomes ... but not assessed') matches. Transfer and adaptability are claimed in the course outcomes and repeatedly in subject outcomes, but level 2 requires at least one CORE assessment requiring application to novel or unfamiliar problems, and this course has no compulsory core: 100 points are chosen from prescribed lists (only Foundations of Tax Law is compulsory, and only for international students). The strongest level-2 candidates — worked problems across varied private and business contexts, and a subject that integrates content from several others — sit in selectable subjects, and their handbook framing is explicitly 'circumstances commonly encountered in professional practice' rather than novel ones. Level 3 fails because the research-paper route is one option among several, not documented structured progression to independent learning.",
+      "evidenceLines": [
+        "research and apply such information, concepts and theories to the relevant body of knowledge and practice",
+        "Students must complete at least 75 credit points from the prescribed lists and may select up to 25 credit points from the subjects offered in the Master of Commercial Law.",
+        "This core tax subject examines the law, policy and structural features of capital gains tax (CGT) in Australia and considers and applies CGT rules in a number of different private and business contexts.",
+        "Contribution to worked problems in class",
+        "Explain and analyse the application of Australian capital gains rules as they apply to a range of circumstances commonly encountered in professional practice",
+        "It builds on and integrates the core content of other subjects, including"
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 1 anchor ('Introductory methods unit; literature-review assessment') matches: research-paper and research-based assessment exists and is claimed at program level, but it is doctrinal/secondary scholarship. Level 2 requires students to design and conduct an inquiry with methodology selection and data collection, assessed — the extract documents no research-methods training, no methodology selection and no data collection. Level 3 explicitly requires the substantial primary-evidence project to be REQUIRED and not one route among several; here the research paper is 'Option 2' in a small number of selectable subjects and the handbook states students choose between assessment options, and no viva, defence or staged supervised review is documented.",
+      "evidenceLines": [
+        "Advanced competencies in legal research and analysis",
+        "All graduates of an LLM will have demonstrated, through subject assessment, the ability to use their research skills to plan, develop and execute substantial research-based project(s) and/or piece(s) of scholarship.",
+        "Option 2: Research paper on a topic approved by the subject coordinator",
+        "Note: Students must choose assessment from the options listed above.",
+        "Research papers and other research tasks are expected to attain a degree of creativity, originality and discovery that befits a postgraduate program of the highest quality, and students are encouraged and assisted to publish original work of a high standard in refereed journals."
+      ]
+    },
+    "adaptiveness": 3,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1 anchor matches exactly: communication is claimed in graduate attributes and course outcomes, and assessment adds spoken performance to peers and staff (class presentations, leading class discussions, class participation), but no professional genre and no audience beyond the teaching team is documented. Level 2 would need a core assessment in a recognised professional genre or to an external audience judged against practice-drawn criteria; the closest evidence — formulating advice to taxpayers or government officers, and preparing objections, appeal statements, affidavits and submissions — appears in subject learning outcomes and topic lists, never in an assessment description, and R2 forbids scoring an outcome statement. Barrie's constraint on stated graduate attributes bites here.",
+      "evidenceLines": [
+        "Capacity to effectively communicate complex legal ideas and theories, orally and in writing, to a variety of audiences",
+        "Classroom discussion and formal presentations provide an opportunity to hone oral communication skills, and written assessment tasks are graded in part on written communication skills.",
+        "interpret and transmit their knowledge, skills and ideas to specialist and non-specialist audiences",
+        "Class presentation",
+        "Leading class discussions",
+        "Formulate and communicate well-reasoned advice to taxpayers or government officers on the scope and limits of The Commissioner's powers",
+        "It addresses the system of tax appeals, administrative and judicial review of decisions made by the Commissioner, evidence-gathering and the preparation of objections, tax appeal statements, affidavits, expert reports and legal submissions in a tax case."
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Level 1 anchor ('Contextualised or scenario-framed tasks appear (case studies, worked scenarios), but the artefact produced and the criteria applied remain academic'). Case-study and practice-problem framing is documented at course and subject level, but every documented assessment artefact is academic in form: assignments in word counts, take-home examinations, in-class tests, quizzes and research papers. Level 2 requires a core assessment reproducing a professional task end to end and producing the artefact a practitioner would produce, judged against practice-drawn criteria — no advice memo, objection, submission, ruling request or client deliverable is named in any assessment description. Per R4 the marketing language about 'practical application' and a subject being 'commercially essential' was not scored.",
+      "evidenceLines": [
+        "Practical case studies allow in-depth analysis of tax law to equip students with detailed tax law knowledge, its underlying principles and practical application, generating a real advantage in this competitive professional area.",
+        "The subject addresses complex and sometimes competing principles from different parts of the tax law through topical case studies",
+        "The focus of the subject is on the practical, and not theoretical, application of these principles.",
+        "Contribution to worked problems in class",
+        "Take-home examination",
+        "In-class test",
+        "Mid-semester assessment exercise"
+      ]
+    },
+    "W3": {
+      "score": 0,
+      "rationale": "Level 0 anchor ('No work-integrated learning, placement, practicum or community-based project appears anywhere in the course structure'). The course structure page lists only subject options plus a study-abroad opportunity at Oxford, which is study, not work-situated learning, so even level 1 (WIL as an elective or optional internship) is unmet. The v4.2 in-practice route was tested: the cohort is documented as practising professionals (tax advisers, ATO professionals, government officials), but levels 2 and 3 on that route require a core unit assessing activity conducted in the student's own professional practice with real recipients and a documented outcome measure, and no assessment in the extract references the student's own workplace, workplace stakeholders or accountability to a host.",
+      "evidenceLines": [
+        "Study Abroad at Oxford",
+        "Students enrolled in the Master of Tax also have the opportunity to study abroad at the University of Oxford. Learn more",
+        "The program provides a valuable enhancement to the careers of lawyers, accountants and other professionals working as tax advisers in business or government.",
+        "This advanced and commercially essential subject is aimed at professionals in the ATO as well as general and",
+        "This subject is designed for tax professionals and government officials who wish to complete or update their education in corporate tax law and practice."
+      ]
+    },
+    "workplace": 2,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "PASS on the accredited-sequence and staged-foundation limbs of the anchor rather than the all-compulsory-core limb. Content is unambiguously specialist tax law with a clear disciplinary identity — not generic or interchangeable — and the handbook documents an externally accredited introductory/advanced structure for Tax Practitioners Board registration, a foundation subject stated to underpin later tax subjects, and explicit progression advice that an integrative subject is best taken late in the course.",
+        "evidenceLines": [
+          "Melbourne Law School’s specialisation in tax is a globally recognised advanced tax law degree.",
+          "The subject marked (I) is approved as an introductory subject, and subjects marked (A) are approved as advanced subjects for participant accreditation as a tax agent with the Tax Practitioners Board (TPB).",
+          "All international students are required to undertake Foundations of Tax Law.",
+          "It provides the foundation for successful study in the other tax subjects studied in the course.",
+          "this subject may be best studied towards the end of your tax course"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "PASS on the 'defended trade-off decisions' limb, not the simulation/capstone limb. Assessed subjects require weighing competing solutions and reaching a defended conclusion, evaluating policy options against competing criteria, and distinguishing permissible planning from impermissible avoidance — judgement under genuine legal uncertainty rather than recall or scripted response. Assessment is by extended take-home examination, written assignment and in-class task rather than closed recall tests.",
+        "evidenceLines": [
+          "Be able to identify any problems an SMSF might face, research and evaluate various different solutions and form a reasoned conclusion as to which solution might best address the problem",
+          "Identify and appraise the major issues in tax policy in Australia and critically evaluate tax policy options in Australian and other countries' contexts.",
+          "consider the differences between permissible tax planning and impermissible tax avoidance",
+          "Have an ability to identify and resolve tax problems and issues at an advanced level from theoretical and practical perspectives in the area of tax avoidance.",
+          "Most subjects approach knowledge by reference to various issues or problems. Students are required to critically analyse problems and identify and develop a range of appropriate solutions through class discussion, individual study and assessment tasks."
+        ]
+      }
+    },
+    "ambiguities": [
+      "Structural: the course has no compulsory core at all — 100 points are selected from prescribed lists and only Foundations of Tax Law is required, and only for international students. Several subjects call themselves 'This core tax subject' in their own overview. Every anchor phrased as 'at least one core assessment' (C1 L2, C2 L2, C4 L2, W1 L2, W2 L2, W3 L2) was therefore read against selectable subjects, and each such straddle was resolved to the lower level.",
+      "C1 0 vs 1 (RESOLVED TO 0 on adversarial verification): teamwork appears in the extract only in the Graduate attributes block, never in the Intended learning outcomes block, and C1's level-1 anchor names 'learning outcomes' only where C2 L1 and W1 L1 name graduate attributes explicitly. The initial pass scored 1 on the documented-construct reading and flagged that a strict outcomes-only reading would give 0; the never-resolve-ambiguity-upward rule requires 0. Adaptiveness accordingly falls from 4 to 3.",
+      "C1 1 vs 2: assessed class participation and 'Contribution to worked problems in class' are interactive but individually marked, and match none of the level-2 exemplars (group project with individual accountability, client/stakeholder work, interprofessional activity). Resolved down.",
+      "C2 0 vs 1: 'analyse, critically reflect on and synthesise complex information, concepts and theories' contains the word 'reflect', which under a loose reading would satisfy level 1's 'Reflection ... appears in outcomes'. The reflection is directed at subject content, not at the quality of the student's own or others' work, so the C2 construct is not documented; lower-level rule gives 0.",
+      "C2 1 vs 2: 'Class Participation: including in class discussions and responses to readings' (30% in one subject) could be read as structured critique, but nothing documents criterion-referenced appraisal of work quality against standards or exemplars. Resolved down.",
+      "C3 0 vs 1: no program intended learning outcome mentions digital or AI content; the only program-level digital claim is the graduate attribute 'Advanced working skills in the use of new technology', whose supporting text describes IT infrastructure availability rather than curriculum content. Scored 1 on the tool-operation limb; 0 was defensible.",
+      "C4 1 vs 2: 'Contribution to worked problems in class' in a subject that 'considers and applies CGT rules in a number of different private and business contexts' is close to level 2's 'case variation', and one subject 'builds on and integrates the core content of other subjects'. Both sit in selectable rather than compulsory subjects, and the matching outcome frames the circumstances as 'commonly encountered in professional practice' rather than novel. Resolved down to 1.",
+      "C5 1 vs 2/3: research papers are assessed and the program claims substantial research-based scholarship, but they are 'Option 2' alternatives that students may decline, and no methodology selection, data collection or defence is documented. Resolved down to 1.",
+      "W1 1 vs 2: Tax Administration's outcome 'Formulate and communicate well-reasoned advice to taxpayers or government officers' and Tax Litigation's topic list of objections, appeal statements, affidavits and submissions name professional genres, but only in outcomes and topic lists; the corresponding assessment rows are class participation, leading class discussions, an in-class test and take-home examinations. R2 forbids scoring the outcome, so resolved down to 1.",
+      "W2 1 vs 2: the practice-oriented framing ('Problems in Practice', 'practical, and not theoretical', 'Practical case studies') is label-level under R4; the documented artefacts are word-counted assignments, take-home examinations and research papers, i.e. academic in form and criteria. Resolved down to 1.",
+      "W3 0 vs 1: 'Study Abroad at Oxford' is the only optional out-of-classroom opportunity in the course structure and is study, not work-situated learning, so it does not reach level 1. The cohort is documented as already practising, opening the v4.2 in-practice route, but no assessment references the student's own practice, so the route does not lift the score.",
+      "Evidence assigned under 'one construct, one home': assessed class presentations and leading class discussions scored in W1 (communication to an audience), not C1; case-study framing scored in W2 (task fidelity), not C4; the practising-professional cohort statements scored in W3 only."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-18"
+    }
+  },
   "746st": {
     "instrument": "4.1-draft",
     "C1": {
@@ -632,6 +3102,1178 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "adversarial": true,
       "mechanical": true,
       "date": "2026-08-14"
+    }
+  },
+  "761em": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2's anchor — 'At least one core unit assesses collaborative practice — group projects with individual accountability' — is documented twice over: ENGM90016 assesses a group project in groups of 4 with an individually-weighted assignment and an individual reflection alongside it, and MGMT90146 assesses a group simulation, strategy statement and board report in groups of 4-5. Not level 3, because level 3 additionally requires that at least one assessment 'requires coordinating work across people AND tools/AI systems' with documented role and tool allocation; the extract documents group size and word counts but nothing about how work is divided between people and systems, and no tool or AI allocation is assessed anywhere. Per R2 the teamwork ILO alone could not lift this.",
+      "evidenceLines": [
+        "Group Project (Case or Simulation) groups of 4 with a workload equivalent to 1500 words per student. (40-45 hours per student) ILOs 1-5 are addressed in this assessment.",
+        "Progress reports for group project equivalent. 2 group reports equivalent to 200 words each. (8 hours for each report) ILOs 1 and 2 are addressed in this assessment.",
+        "Individual Assignment, report with a workload equivalent to 1500 words. ILOs 2, 3 and 4 are addressed in this assignment.",
+        "Capstone Simulation (groups of 4-5), approximately 5 hours work per week across semester",
+        "Capstone Board Report (groups of 4-5)",
+        "A well-developed capacity to understand and participate in a multi-disciplinary and multi-cultural team environment as either a leader or a technical support specialist"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 0 is excluded: an assessed 'Individual reflection on the group project' does require students to appraise their own work. But level 2's anchor requires 'criterion-referenced appraisal of quality: peer review, structured critique, portfolio with standards, marking against exemplars', and the extract documents none of those — the reflection is described only by word count, timing and the ILOs it addresses, with no criteria, standards, exemplars or peer-review structure. The evidence sits between the level-1 anchor (reflection present, not assessed against criteria) and level 2; per the scoring-direction rule I take the LOWER level. Level 3 (documented and justified reliance decisions on a tool, source or collaborator) has no evidence at all. The ENGM90016 ILO about evaluating alternative engineering solutions is appraisal of options, not of the quality of work, so it does not carry C2.",
+      "evidenceLines": [
+        "Individual reflection on the group project (750 words). ILOs 1-3 are addressed in this assessment",
+        "Identify key issues encountered in engineering management and/or engineering projects, evaluate among alternative engineering solutions and make recommendations based on best possible project"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1's anchor — 'AI or digital tools appear only as electives or as tool operation/training — the operational level TEQSA identifies as non-durable' — is exactly what is documented: a program-level outcome claiming 'working skills in the application of computers, software', and, in the elective pool only, accounting-software operation with an 'Individual software assignment'. Level 2 requires core units to address AI capabilities AND limitations/ethics, assessed; neither required subject (ENGM90016, MGMT90146) mentions AI, data or digital tools at all, and no ethics-of-use content is assessed. No AI governance, bias, accountability or regulation content appears anywhere, so level 3 is not in reach.",
+      "evidenceLines": [
+        "Advanced working skills in the application of computers, software and new technologies relevant to management of technological enterprises",
+        "It also provides students with the opportunity to learn how to use accounting software and connect that to the recording of economic transactions.",
+        "Individual software assignment",
+        "Students must select three electives from the below list:"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2's anchor — 'At least one core assessment requires application to novel or unfamiliar problems — case variation, unseen datasets, cross-context projects' — is met by the required MGMT90146 capstone, which is documented as an integrative task applying knowledge from previous subjects to a competitive simulation whose outcomes depend on other teams' decisions, and by ENGM90016's assessed group project built on business cases or simulated business cases. Not level 3: that anchor requires documented structured progression toward independent learning — 'a self-scoped capstone or research project, or assessed identification of one's own knowledge gaps together with the plan to close them'. Both capstone tasks are supplied cases or simulations, not self-scoped, and the only gap-identification evidence ('Ongoing competence development mini-assignments', 'Critical reflection on competence development') sits in MGMT90140, an elective, not the core. The life-long-learning ILO is an outcome statement and cannot score under R2.",
+      "evidenceLines": [
+        "This subject provides an integrative learning experience and affords students the opportunity to apply the skills and knowledge acquired in previous subjects in a coherent way to solve business problems. In a business strategy simulation students are required to make decisions, assess outcomes, and compete with other management teams for resources, opportunities and markets.",
+        "It will make use of business cases, or simulation of business cases that are relevant to decision making and practice in the engineering management profession.",
+        "Group Project (Case or Simulation) groups of 4 with a workload equivalent to 1500 words per student. (40-45 hours per student) ILOs 1-5 are addressed in this assessment.",
+        "A sound attitude for undertaking life-long learning in technical and management fields",
+        "Critical reflection on competence development"
+      ]
+    },
+    "C5": {
+      "score": 0,
+      "rationale": "Level 0's anchor — 'Secondary synthesis only; no research-methods training' — is what the documented structure shows. The required content is one 12.5-point capstone plus a second required capstone; neither documents methodology selection, data collection, or a literature-review assessment. Level 1 requires an introductory methods unit or a literature-review assessment, and no such unit exists in the core; the only research references are generic-skills lines in the elective subjects MGMT90140 and MGMT90141, which by the level-1 anchor's own terms ('methods unit') do not qualify. Ambiguity between 0 and 1 was resolved DOWN per the scoring-direction rule.",
+      "evidenceLines": [
+        "Core Subjects (12.5 points)",
+        "All students will complete the following Engineering Capstone Project",
+        "And the following Capstone Project (12.5 points)",
+        "Research skills developed through preparation of exercises and assessment;",
+        "Use evidence evidence-based research techniques to support your decision making, and competence development"
+      ]
+    },
+    "adaptiveness": 6,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 1's anchor requires that core assessment involve 'no professional genre and no audience beyond the teaching team'; that is contradicted here. The required ENGM90016 assessment addresses ILO 1, which specifies formulating 'business cases and proposals for engineering projects to the senior levels of organisations such as the Board of Directors', and is assessed as a 20-minute presentation with Q&A; the required MGMT90146 assessment produces a 'Capstone Board Report' at 35%. A business case, proposal and board report are recognised professional genres, satisfying the first limb of level 2. Not level 3: that requires delivery to, or judgement by, a real external audience or practitioner (industry panel, client, patient, public exhibition) with professional conduct explicitly among the assessed criteria — the extract documents no external assessor and no conduct criterion. Under R4 the 'senior levels of organisations' framing is treated as the documented audience of a simulated task, not as evidence of a real one.",
+      "evidenceLines": [
+        "Work in teams to formulate business cases and proposals for engineering projects to the senior levels of organisations such as the Board of Directors",
+        "20 minute presentation with 5 minutes for questions and answers with a workload equivalent to 750 words. ILOs 1 and 2 are addressed in this assessment.",
+        "Capstone Board Report (groups of 4-5)",
+        "Capstone Strategy Statement (groups of 4-5)"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2's anchor — 'At least one core assessment reproduces a professional task end to end: a real or realistic problem, producing the artefact a practitioner would produce' — is documented: ENGM90016 assesses a group project on business cases or simulated business cases whose ILO output is 'a complete project management plan' covering scoping, cost modelling, budgeting, risk management, procurement, schedule and control measures, and MGMT90146 assesses a board report and strategy statement out of a firm simulation. These are practitioner artefacts, not academic ones, so level 1 (artefact and criteria remain academic) is excluded. Not level 3: that requires such tasks to be the assessment spine across the program AND at least one to carry a genuine constraint of practice — an ambiguous or externally supplied problem, real resource/time limits, or a consequential audience. Every documented problem is a supplied case or a simulation, no external client or supplier of the problem appears, and the spine claim cannot be established because the 37.5-point specialisation is absent from the extract while the documented elective pool is exam-weighted. Ambiguity between 2 and 3 resolved DOWN.",
+      "evidenceLines": [
+        "Analyse information and organise tasks to create a complete project management plan which may include but not limited to scoping, task definition, cost modelling, budgeting, risk management, procurement, schedule, sequencing of tasks and control measures",
+        "It will make use of business cases, or simulation of business cases that are relevant to decision making and practice in the engineering management profession.",
+        "Group Project (Case or Simulation) groups of 4 with a workload equivalent to 1500 words per student. (40-45 hours per student) ILOs 1-5 are addressed in this assessment.",
+        "Capstone Board Report (groups of 4-5)",
+        "This subject provides an integrative learning experience and affords students the opportunity to apply the skills and knowledge acquired in previous subjects in a coherent way to solve business problems. In a business strategy simulation students are required to make decisions, assess outcomes, and compete with other management teams for resources, opportunities and markets."
+      ]
+    },
+    "W3": {
+      "score": 0,
+      "rationale": "Level 0's anchor — 'No work-integrated learning, placement, practicum or community-based project appears anywhere in the course structure' — holds for the documented structure: the course-structure page lists one core capstone, an elective menu, a second required capstone and a specialisation, with no placement, practicum, internship or live client project named. Level 1 would require work-situated learning to exist at least as an elective or optional internship, and none appears. The item's own construct excludes simulation ('Simulation is NOT scored here; it is W2'), so ENGM90016's 'Case or Simulation' project and MGMT90146's business strategy simulation cannot score here. The in-practice route is unavailable: the overview describes the intended audience ('Project Management is for engineers to develop advanced project management skills in managerial roles') but the cohort is not documented as already practising, and no core unit assesses activity conducted in a student's own workplace with real recipients.",
+      "evidenceLines": [
+        "Core Subjects (12.5 points)",
+        "All students will complete the following Engineering Capstone Project",
+        "And the following Capstone Project (12.5 points)",
+        "Plus one specialisation (37.5 points)",
+        "Group Project (Case or Simulation) groups of 4 with a workload equivalent to 1500 words per student. (40-45 hours per student) ILOs 1-5 are addressed in this assessment."
+      ]
+    },
+    "workplace": 4,
+    "gates": {
+      "G1": {
+        "result": "FAIL",
+        "rationale": "The PASS condition requires a documented coherent specialist core with progressive technical or methodological depth — an all-compulsory specialist core, an accredited sequence, or a staged prerequisite chain. What the extract documents is 25 of 100 points compulsory (ENGM90016 plus the required MGMT90146 capstone), 37.5 points chosen freely from a menu of eight general-management subjects drawn from the Master of Management offering, and a 37.5-point specialisation whose content is not in the extract. No prerequisite chain or staged sequence is documented anywhere, and the capstone is offered in both semesters with no documented precondition. The AACSB reference is a business-school accreditation of the award, not a documented specialist sequence with progressive depth. That matches the FAIL condition, 'Generic or interchangeable content without disciplinary identity', on the documented evidence. Recorded as ambiguous in ambiguities and resolved against PASS per the never-resolve-upward rule; the missing specialisation pages are the main reason this could change.",
+        "evidenceLines": [
+          "The Master of Engineering Management is a 100 Point Program, and students will have a choice of two specialisations: Project Management or Change Management.",
+          "Core Subjects (12.5 points)",
+          "Students must select three electives from the below list:",
+          "Plus one specialisation (37.5 points)",
+          "See links to specialisations below (Change Management and Project Management).",
+          "The Master of Engineering Management is accredited by the Association to Advance Collegiate Schools of Business (AACSB).",
+          "The Master of Engineering Management has been developed in conjunction with Melbourne Business School to offer broader business study opportunities to our students. Students will choose from selected Master of Management subject offerings."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "The PASS condition is met by 'simulations/capstones/live projects with real uncertainty and accountability' plus assessments requiring defended trade-off decisions. MGMT90146's required capstone is a competitive simulation in which teams make decisions, assess outcomes and compete against other teams for resources and markets — the outcome depends on other teams' choices, which is genuine uncertainty — and the 35% board report defends those decisions. ENGM90016 assesses devising and applying decision criteria to economic and financial analysis and evaluating among alternative engineering solutions to make recommendations. This is well beyond the FAIL condition of recall or scripted responses, notwithstanding the heavy end-of-semester exam weighting in the elective pool.",
+        "evidenceLines": [
+          "This subject provides an integrative learning experience and affords students the opportunity to apply the skills and knowledge acquired in previous subjects in a coherent way to solve business problems. In a business strategy simulation students are required to make decisions, assess outcomes, and compete with other management teams for resources, opportunities and markets.",
+          "Devise and apply decision criteria to economic and financial analysis outcomes, and use them to make informed decisions as well as to make estimates in budgets",
+          "Identify key issues encountered in engineering management and/or engineering projects, evaluate among alternative engineering solutions and make recommendations based on best possible project",
+          "Capstone Board Report (groups of 4-5)"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C2 straddled levels 1 and 2: 'Individual reflection on the group project (750 words)' is an assessed self-appraisal, but no criteria, standards, exemplars or peer-review structure are documented, which level 2 requires. Resolved DOWN to 1 by the scoring-direction rule.",
+      "C4 straddled levels 2 and 3: both required subjects are titled capstones, which invites a level-3 reading, but neither is documented as self-scoped (both work from supplied cases or a simulation) and the only knowledge-gap identification is in the MGMT90140 elective. Resolved DOWN to 2.",
+      "C5 straddled levels 0 and 1: 'Research skills developed through preparation of exercises and assessment;' (MGMT90140) and equivalent lines in MGMT90141 are elective generic-skills claims, not an introductory methods unit or literature-review assessment. Resolved DOWN to 0.",
+      "W1 straddled levels 1 and 2: level 2's second limb, 'judged against criteria drawn from professional practice', is nowhere documented — the extract gives no marking criteria for any assessment in the program. It was scored 2 rather than 1 because level 1's anchor positively requires 'no professional genre', and the board report and board-level business case are professional genres; the missing criteria are recorded here rather than resolved upward into level 3.",
+      "W2 straddled levels 2 and 3: two of two required subjects carry practitioner-artefact tasks, which could read as an assessment spine, but no genuine constraint of practice is documented (every problem is a supplied case or a simulation, no external client or consequential audience) and the 37.5-point specialisation is missing so spine coverage cannot be verified. Resolved DOWN to 2.",
+      "G1 straddled PASS and FAIL: the AACSB accreditation line could be read as the 'accredited sequence' PASS route, but it accredits the award through the business school rather than documenting a staged specialist sequence, and only 25 of 100 points are compulsory with no prerequisite chain documented. Resolved to FAIL per the never-resolve-upward rule.",
+      "One-construct-one-home calls: ENGM90016's group composition and 'Progress reports for group project' scored in C1, while its 20-minute presentation addressing the board-proposal ILO scored in W1 (audience and genre), not C1. The 'Individual reflection on the group project' scored in C2 (appraisal of quality), not W2. The MGMT90146 and ENGM90016 simulations scored the fidelity of the task in W2 and are explicitly excluded from W3 per that item's construct."
+    ],
+    "notScoreable": [
+      "Specialisation subjects (37.5 points, i.e. 37.5% of the award) are entirely absent from the extract. The course-structure page states 'Plus one specialisation (37.5 points)' and 'See links to specialisations below (Change Management and Project Management).' but no specialisation subject page or assessment page was captured. All eight item scores therefore rest on the two required subjects (ENGM90016, MGMT90016's companion MGMT90146) and the eight documented elective subjects only. This bounds C1 level 3, C3, C4 level 3, C5, W2 level 3 and W3 in particular, and is the single most likely thing to change G1.",
+      "No marking criteria, rubrics or standards are documented for any assessment in the extract — assessment rows carry description, timing and percentage only. The 'criterion-referenced' limb of C2 level 2, and the 'judged against criteria drawn from practice' limb of W1 and W2 level 2, therefore cannot be verified from this evidence for any subject in the program."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-16"
+    }
+  },
+  "841ac": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2's anchor — 'at least one core unit assesses collaborative practice' — is met many times over: assessed group presentations and group written work appear in ORAL10001, ORAL20001, ORAL20003 and ORAL30001, so the first conjunct of level 3 ('assessed collaborative practice recurs across the program') is satisfied. Level 3 fails on its second, conjunctive requirement: no assessment in the extract requires coordinating work across people AND tools/AI systems, and no task makes the division of work between people and systems itself assessable. The team evidence that does exist is human-only (dental team, assistant/operator pairing, research groups). Per v4.1 the placement/clinical-team evidence is not available to C1 — it scores in W3. Held at 2.",
+      "evidenceLines": [
+        "20-minute group presentation (3-person group) equivalent to 1,000 words per student",
+        "Group oral presentation (Health Promotion Principles) in groups of 4 students",
+        "Written assignment - group lesson plan (Applied Health Education) in groups of 4 students",
+        "Group oral presentation",
+        "Group written report",
+        "Group Presentation - Sociology evaluation",
+        "Students will learn about correct posture, safety, and working as a team (assistant and operator) in the dental operatory during the provision of these procedures.",
+        "Students will be assigned to research groups, to enable peer support and collaboration with students researching similar topics."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2's anchor — 'criterion-referenced appraisal of quality: peer review, structured critique, portfolio with standards' — is met by the year-long curated portfolios assessed in ORAL10001 (35%), ORAL10005 (30%), ORAL20005 (20%) and ORAL30002 (40%), and by the assessed Literature review in ORAL30001 whose outcome is to 'critically review, appraise and synthesise existing evidence'. Level 3 requires assessment that makes students document and justify reliance decisions, defend judgements of a tool's output, or evidence strategy adjustment over time. The extract carries reflective components (a 500-word reflective journal entry; repeated reflective-practice assessments in OHP1) and portfolios explicitly described as formative-across-the-year, which is consistent with process-focused assessment — but the extract never states what the 'prescribed tasks' require, and no reliance or override decision is named anywhere. Evidence consistent with both 2 and 3, resolved DOWN per the scoring-direction rule.",
+      "evidenceLines": [
+        "Portfolio - A student curated compilation that responds to prescribed tasks submitted regularly throughout the year",
+        "Portfolio: A student curated compilation that responds to prescribed tasks submitted regularly throughout the year",
+        "1 x 500-word reflective journal entry",
+        "*The portfolio assessment is formative throughout the teaching period. Students may be asked to demonstrate progress and may also seek feedback throughout the year. It is submitted as a body of work at the end of the teaching period.",
+        "There will be 1 conducted in the first half of the year, and 2 conducted in the second half of the year.",
+        "Literature review",
+        "Critically review, appraise and synthesise existing evidence related to a specific area of oral health",
+        "Identify and appraise literature for application to the practice of oral health therapy"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "The extract contains no occurrence of AI, artificial intelligence or generative tools anywhere — not in a course outcome, a subject description or an assessment. Level 0's anchor ('no digital/AI content in any core unit or program-level outcome') is nevertheless not quite met, because digital content is present at exactly the operational level level 1 describes: information-technology and academic-database skills, educational technology and aids, multimedia, communication systems and clinical photography, all stated as tool skills. Level 2 requires core units to address AI capabilities AND limitations/ethics with use-with-limits assessed; nothing of the kind is documented, so level 3's governance/critique requirement is unreachable. Scored at the tool-operation level, 1.",
+      "evidenceLines": [
+        "Skills in Information technology and use of academic databases;",
+        "Applied Health Education: School curriculum frameworks, settings and strategies for health education, educational technology and aids for oral health and applied health education experience via in-class practical sessions, interviews and field visits.",
+        "Multimedia;",
+        "Development and management of communication systems;",
+        "Taking clinical photographs and other dental records,"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3's anchor — 'the program documents structured progression toward independent learning: a self-scoped capstone or research project' — is met by ORAL30001, a year-long final-year core subject in which the research area is the student's own choice and the deliverable is an individual proposal. R2 is satisfied by assessment evidence, not outcome statements: the progression is itself assessed and staged (Literature review 25% → Presentation - Proposed research methods 15% → Research proposal 30%), with a supervisor supporting each student's individual proposal. This sits above level 1 (transfer merely claimed in outcomes such as 'the skills to acquire, synthesize and adapt knowledge to a variety of situations') and above level 2. Per v4.1 the work-integrated-learning route to level 3 is not used here — that evidence scores in W3.",
+      "evidenceLines": [
+        "In this subject, students will work on a research area, of their choice, relevant to the field of oral health therapy.",
+        "Each group will be appointed a research supervisor who will support them in the development of their individual research proposal.",
+        "Literature review",
+        "Presentation - Proposed research methods",
+        "Research proposal",
+        "Independent and self-directed learning",
+        "the capacity for rational inquiry, self directed learning and the integration of new knowledge;",
+        "the skills to acquire, synthesize and adapt knowledge to a variety of situations;"
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 1's anchor — 'introductory methods unit; literature-review assessment' — is exactly what ORAL30001 documents: an assessed 2000-word Literature review plus research-methodology instruction. Level 2 requires students to 'design and conduct an inquiry with methodology selection and data collection, assessed'. Methodology selection is assessed ('Plan a research project, selecting appropriate research methods'; 'Presentation - Proposed research methods'), but the subject terminates at a proposal: the extract documents formulating questions and developing a proposal, and nowhere documents data collection, primary evidence generation, or a defence under scrutiny. The design half without the conduct half leaves the level-2 anchor unsatisfied; held at 1.",
+      "evidenceLines": [
+        "Students will undertake a literature review, formulate research questions or hypotheses, and develop a research proposal, applying the principles of research methodology and evidence-based practice to address their identified research problem.",
+        "Literature review",
+        "Plan a research project, selecting appropriate research methods to answer the research question",
+        "Presentation - Proposed research methods",
+        "Research proposal"
+      ]
+    },
+    "adaptiveness": 9,
+    "W1": {
+      "score": 2,
+      "rationale": "DEMOTED from 3 to 2 on adversarial verification. Level 2 holds: the professional communication genres are documented and assessed (Objective Structured Clinical Examination, Viva Voce Examination, Viva voce, Oral presentation, Health policy analysis, group lesson plan, and the rural placement written assessment and presentation), and assessed oral communication recurs in all three years. Level 3's second conjunct — at least one core assessment delivered to, or judged by, a real external audience or practitioner — is supported only by two intended learning outcomes ('Communicate professionally amongst peers and patients;' ORAL10005; 'Effectively communicate information regarding oral health status, a range of treatment options and potential outcomes to the patient (and their family)...' ORAL20005). The extract documents no criteria for the OSCE or the End of Course Clinical Assessment and neither instrument names a patient, so the claim that they are judged on communication with patients is not evidenced. The one assessment line that could carry a patient audience ('Ongoing assessment of clinical practice') is homed in W3 under the one-construct-one-home rule and is not available here. R2 and the instrument's 'an outcome statement is never sufficient' clause forbid resting the conjunct on ILOs. Conjunct 1 (repeated assessed oral communication across all three years) and conjunct 3 (fitness to practice as a pass condition; maintenance of an appropriate standard of conduct) do hold, but a conjunctive level-3 anchor half-met resolves to 2.",
+      "evidenceLines": [
+        "Communicate professionally amongst peers and patients;",
+        "Effectively communicate information regarding oral health status, a range of treatment options and potential outcomes to the patient (and their family), and oral health and general health care providers as necessary;",
+        "Objective Structured Clinical Examination",
+        "Viva Voce Examination",
+        "Viva voce",
+        "Oral presentation",
+        "During the final placement period",
+        "Rural placement written assessment and presentation (Group written assignment and oral presentation equiv to 500 words per person)",
+        "Demonstration of 'fitness to practice' through:",
+        "Consistent satisfactory professional behaviour.",
+        "(c) maintain an appropriate standard of conduct."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "DEMOTED from 3 to 2 on adversarial verification. Level 2's anchor — assessment that reproduces a professional task end to end — is met by the Objective Structured Clinical Examination, the Local Anaesthesia Practical Assessment and the End of Course Clinical Assessment, and the assessment-spine conjunct of level 3 also holds on documented tasks (OSCE plus simulation hurdle in first year; OSCE, Local Anaesthesia Practical Assessment and simulation/clinical hurdles in second year; End of Course Clinical Assessment plus viva in third year). Level 3's second conjunct — the profession's own standards of performance operating as a genuine constraint — fails on R2: it rests only on an ORAL20005 intended learning outcome ('Examine, diagnose, plan and provide treatment as specified in the dental legislation within Australia...') and a knowledge-acquisition sentence in the ORAL10005 overview ('Students will gain knowledge of their responsibilities under the law... together with knowledge of the current published standards of practice.'). Neither is assessment evidence and neither documents a standard applied as a constraint on an assessed performance. The alternative level-3 routes also fail on documented features: hurdle consequence is student-facing rather than a constraint of practice; the 2-hour OSCE and 20-minute End of Course Clinical Assessment are exam durations, not the real resource or time limits of practice; no ambiguous or externally supplied problem appears; and the consequential-audience route would require the clinical-practice and placement evidence already homed in W3. Held at 2.",
+      "evidenceLines": [
+        "Ongoing assessment of simulation practice",
+        "Objective Structured Clinical Examination",
+        "it is the culmination of the preclinical work and sits alongside the OSCE to demonstrate acquisition of the practical dentistry skills required to progress to second year.",
+        "Students will develop initial manual dexterity and self-evaluation skills using virtual simulation facilities.",
+        "Local Anaesthesia Practical Assessment",
+        "End of Course Clinical Assessment",
+        "Hurdle requirement: Must pass this assessment in order to pass the subject",
+        "Examine, diagnose, plan and provide treatment as specified in the dental legislation within Australia for Oral Health Therapy (dental therapy and dental hygiene);",
+        "Students will gain knowledge of their responsibilities under the law to provide a safe environment for their patients, staff and themselves, together with knowledge of the current published standards of practice."
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3's placement route is satisfied on every element. 'Extended … or a sequence of them, in the core': clinical practicum is core in second year and clinical placement runs through the third-year 75-point subject, with clinical work at the Royal Dental Hospital in all years and at metropolitan and rural community health centres in the final year — a sequence, not a single short block, its scale evidenced by a 12,000-word-equivalent load completed during timetabled clinical placement. 'Supervised by a practitioner, assessed': supported clinical practice within general and specialist dental practices, with ongoing assessment of clinical practice as a pass hurdle in both second and third year. 'Accountability to the host': performance is audited at the end of each placement period and managed against attendance, standard and conduct criteria. 'Structured reflection on professional practice': the third-year subject is built on student-directed learning, self-assessment and reflective practice. This is well above level 2, where such learning is short or stands alone.",
+      "evidenceLines": [
+        "Clinical work is undertaken at the Royal Dental Hospital of Melbourne in all years of the course and at other metropolitan and rural community health centres in the final year of the course.",
+        "This subject comprises lectures, seminars, preclinical practicum, and clinical practicum.",
+        "Ongoing assessment of clinical practice (hurdle)",
+        "Ongoing assessment of clinical practice*",
+        "Throughout the teaching period, audited at end of each placement period.",
+        "Students will engage in supported clinical practice providing the full oral health therapy scope of practice within general and specialist dental practices in the public and private sectors, in rural and metropolitan settings, special needs and outreach dental care programs.",
+        "(b) complete at a satisfactory standard the academic or professional components specified for the professional placement; or",
+        "This subject comprises lectures, seminars, on-line modules, preclinical and clinical experience and encompasses all aspects of oral health therapy patient care utilising student directed learning and self-assessment, reflective practice and problem-based learning.",
+        "During the rural placement"
+      ]
+    },
+    "workplace": 7,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The gate's PASS condition is met on two of its three routes at once: an all-compulsory specialist core (a fixed three-year program in which every listed subject is undertaken by all students, with no electives shown) and an accredited sequence (Australian Dental Council). Depth is staged rather than interchangeable — the ORAL100xx / ORAL200xx / ORAL300xx level chain runs paired science and practice strands from Oral Health Sciences 1 and Oral Health Practice 1 through to Oral Health Practice 3, with content explicitly building from preclinical simulation to full scope of practice. No generic or interchangeable content without disciplinary identity.",
+        "evidenceLines": [
+          "The Bachelor of Oral Health is a fixed, three-year, full-time program.",
+          "Australian Dental Council (ADC)",
+          "Over the three year program, students will undertake the following subjects:",
+          "This subject comprises lectures, seminars, preclinical practicum, and clinical practicum.",
+          "This subject completes the clinical and educational preparation for full Oral Health Therapy (OHT) scope of practice including:"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "The gate's PASS condition — assessments requiring defended trade-off decisions, or live projects with real uncertainty and accountability — is met, not by recall or scripted responses. Viva voce examinations in second and third year require decisions to be defended orally; autonomous examination, diagnosis and treatment planning for patients of all ages is assessed in live clinical practice under a pass hurdle; and the assessed outcomes require evaluating treatment responses, identifying the limits of treatment modalities, adapting care, and recognising the boundary at which a case must be referred out — trade-off judgement with patient consequence, not scripted performance.",
+        "evidenceLines": [
+          "Viva Voce Examination",
+          "Viva voce",
+          "autonomous examination, diagnosis and treatment planning for patients of all ages",
+          "Critically evaluate responses to treatment provided to patients, identify limitations of particular treatment modalities and adapt care appropriately;",
+          "Identify conditions beyond the scope of an oral health therapist and facilitate appropriate referrals.",
+          "self- assessment and recognition of boundaries of professional competence and appropriate referral",
+          "Critical analysis and decision making.",
+          "Ongoing assessment of clinical practice*"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C2 straddled 2 and 3: year-long curated portfolios described as formative with progress demonstration and feedback, plus a reflective journal entry and three timetabled reflective-practice assessments, are consistent with the level-3 'evidence strategy adjustment over time (process-focused assessment)' route — but the extract never specifies what the prescribed portfolio tasks require and never names a reliance or override decision. Resolved DOWN to 2 by the scoring-direction rule.",
+      "C1 straddled 2 and 3: the first conjunct of level 3 (assessed collaborative practice recurring across the program) is clearly met in all three years, but the second conjunct (coordination across people AND tools/AI systems) has no evidence at all. A conjunctive anchor half-met resolves to 2.",
+      "C3 straddled 0 and 1: the extract contains no mention of AI or generative tools anywhere, which points at 0, but information-technology/database skills, educational technology, multimedia and communication systems are documented as tool skills, which is precisely level 1's tool-operation description. Scored 1 on the presence of digital tool-operation content; note that C3 is at 1 for absence of AI content, not for absence of digital content.",
+      "C5 straddled 1 and 2: methodology selection IS assessed (Presentation - Proposed research methods; Research proposal), which is half of level 2, but the subject stops at a proposal and no data collection or primary evidence generation is documented. Design without conduct resolves DOWN to 1.",
+      "C4 and C5 both draw on ORAL30001 — one construct, one home was applied: the self-scoped, staged, supervised project scores the C4 level-3 'structured progression toward independent learning' anchor, while the inquiry content scores separately in C5 and is capped there at 1 because no primary evidence is generated.",
+      "Clinical evidence straddled W1, W2 and W3 — allocated by the instrument's non-overlap rule: workplace immersion (placement, practicum, host accountability, structured reflection) to W3; task fidelity (simulation, OSCE, practical and end-of-course clinical assessments, practice standards) to W2; audience and professional conduct (patient communication, fitness to practice, standard of conduct) to W1. No line was used to lift two items above the same level on the same construct.",
+      "'Fitness to practice' evidence could be read as self-evaluation (C2) or professional conduct (W1); scored in W1, whose construct names conduct and accountability. Self-evaluation statements in ORAL10005/ORAL20005 generic skills were NOT used to raise C2, since they are outcome statements, not assessment (R2).",
+      "W2 was scored on documented task features only. The handbook's own framing terms ('vocational clinical practice', 'patient-centred', 'evidence based practice') were disregarded as labels under R4; the level-3 constraint-of-practice reading rested on the legislated scope and published standards of practice, and was overturned on adversarial verification because both lines are an intended learning outcome and a knowledge-acquisition sentence rather than assessment evidence.",
+      "Adversarial verification demoted W1 from 3 to 2 and W2 from 3 to 2, both on R2: the level-3 conjuncts in each case (a real external audience/practitioner judging an assessment in W1; the profession's standards applied as a constraint on an assessed performance in W2) rested on intended learning outcomes rather than on documented assessment features, and the clinical-practice lines that could have carried them are homed in W3. Workplace total moved from 9 to 7; adaptiveness is unaffected at 9."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-16"
+    }
+  },
+  "872bb": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 1,
+      "rationale": "Level 1 anchor exactly: 'Collaboration/teamwork appears in learning outcomes, but no core unit assesses it.' Teamwork appears only as a generic-skills statement in both core subjects ('Developing interpersonal skills to work as part of a team'), and R2 caps outcome-only capabilities at 1. The two documented core assessments are an individual 3-hour written examination (VETS70002, 100%) and an individually authored 30,000-word thesis (VETS90027) — neither assesses collaborative practice, so the level 2 anchor ('at least one core unit assesses collaborative practice') is not met. Clinical-rounds and hospital participation is workplace immersion, which under one-construct-one-home is housed in W3, not C1. Nothing anywhere allocates or assesses work across people AND tools/AI systems, so level 3 is out of reach.",
+      "evidenceLines": [
+        "Developing interpersonal skills to work as part of a team;",
+        "developing interpersonal skills to work as part of a team;",
+        "Written examination",
+        "3 hours",
+        "Candidates will be required to undertake research culminating in the production of a thesis of no more than 30,000 words to be submitted for examination by two external examiners. The format of the thesis, including a statement on authorship, must follow prescriptions laid down by the University and found in the Masters by Research Generic Guidelines."
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1 anchor: appraisal language appears in stated outcomes and generic skills ('Approaching scientific research in a critical, perceptive and constructive way', research ethics and integrity) but no core unit assesses appraisal against criteria. The level 2 anchor requires criterion-referenced appraisal of quality in CORE assessment — peer review, structured critique, portfolio with standards, marking against exemplars. The extract's two assessment tables document only 'Written examination / 3 hours / 100%' with no content description, and a 30,000-word thesis examined by two external examiners. External examination is appraisal OF the student's work by others, not appraisal BY the student, so it does not satisfy the construct. Level 3 (documented and justified reliance decisions on a tool, source or collaborator, or defended judgements of AI-output quality) has no evidence of any kind.",
+      "evidenceLines": [
+        "Approaching scientific research in a critical, perceptive and constructive way;",
+        "demonstrate an understanding of, and commitment to, research ethics and integrity.",
+        "Written examination",
+        "Theses are examined by the Melbourne School of Graduate Research. Three months prior to the submission date of the thesis, the candidate is required to submit an 80-word summary of the thesis argument to the Melbourne School of Graduate Research. The summary activates the process of nominating potential examiners for the thesis."
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor: digital content appears only as tool operation — 'Acquiring skills in the searching and manipulation of scientific literature and other relevant data bases', stated as a generic skill of both core subjects. That contradicts level 0 ('No digital/AI content in any core unit or program-level outcome'), but it is precisely the operational level TEQSA identifies as non-durable, and it is not assessed in either assessment table. Level 2 requires core units to address AI capabilities AND limitations/ethics: the extract contains no mention of artificial intelligence, generative AI, machine learning or any digital tool beyond literature/database searching, so neither level 2 nor the level-3 governance/critique route can be reached.",
+      "evidenceLines": [
+        "Acquiring skills in the searching and manipulation of scientific literature and other relevant data bases; and",
+        "acquiring skills in the searching and manipulation of scientific literature and other relevant data bases;",
+        "Written examination",
+        "3 hours"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2 anchor is met: a required core assessment applies method to novel problems — the thesis 'should demonstrate a critical application of specialist knowledge and make an independent contribution to existing scholarship', and it is required (75% of the degree, 'A pass is required in both components'). Level 3 requires documented structured progression toward independent learning instantiated as a SELF-SCOPED research project, or assessed identification of one's own knowledge gaps with a plan to close them. The extract documents the opposite of self-scoping: the project is arranged by the supervisors and Advisory Committee 'in consultation with the candidate'. The self-direction claim ('independently design and execute a substantial piece of research') is an intended learning outcome, which R2 never accepts as sufficient, and no assessed knowledge-gap identification appears. The candidature-progression evidence (probationary period, confirmation report and seminar) is scored once, in C5's staged-supervised-review route, per one-construct-one-home. Ambiguity between 2 and 3 resolved to the lower level.",
+      "evidenceLines": [
+        "A thesis is submitted in partial fulfillment of the degree. The thesis should demonstrate a critical application of specialist knowledge and make an independent contribution to existing scholarship in the area of research.",
+        "Assessment will be weighted 75% to the research thesis and 25% to the practicum component. A pass is required in both components.",
+        "A candidate will have appropriately experienced supervisors and an Advisory Committee who, in consultation with the candidate, will arrange a course of supervised research designed to suit the individual requirements and interests of the candidate. A candidate may be required to supplement their research program by attendance at, or enrolment in, additional subjects if considered necessary by the supervisors.",
+        "independently design and execute a substantial piece of research that makes a contribution to knowledge within their field;"
+      ]
+    },
+    "C5": {
+      "score": 3,
+      "rationale": "Level 3 anchor is met on all three conjuncts, with assessment evidence as R2 demands. (a) Substantial project generating primary evidence: 'Research training based on the conduct of experiments, or analysis of clinical cases, under appropriate supervision', culminating in a 30,000-word thesis. (b) REQUIRED, not one route among several: the thesis carries 75% of the degree and 'A pass is required in both components'; there is no non-empirical alternative route in the structure — the only other component is the practicum. (c) Methodology defended under scrutiny: the thesis is 'submitted for examination by two external examiners', and candidature runs a staged supervised review — 'a probationary period, confirmation report and seminar, and completion seminar'. Level 2 is exceeded because the inquiry is not merely designed and conducted but externally examined and staged-reviewed.",
+      "evidenceLines": [
+        "The Master of Veterinary Science is a graduate research degree that can be undertaken in any of the Faculty of Science clinical research programs. Research training based on the conduct of experiments, or analysis of clinical cases, under appropriate supervision, is given in a selected field of veterinary science.",
+        "Candidates will be required to undertake research culminating in the production of a thesis of no more than 30,000 words to be submitted for examination by two external examiners. The format of the thesis, including a statement on authorship, must follow prescriptions laid down by the University and found in the Masters by Research Generic Guidelines.",
+        "Assessment will be weighted 75% to the research thesis and 25% to the practicum component. A pass is required in both components.",
+        "Regular progress reporting requirements apply, such as a probationary period, confirmation report and seminar, and completion seminar.",
+        "apply scientific methods to the definition and solution of problems by research;"
+      ]
+    },
+    "adaptiveness": 8,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1 anchor: communication appears in the program's intended learning outcomes and in both core subjects' generic skills ('disseminate research findings effectively in the professional arena'; 'Communicating effectively through both the spoken and written medium and to both professional colleagues and the wider community') — outcome statements Barrie forbids scoring and R2 caps at 1 — and the program adds required spoken communication to staff and research peers: candidates 'present their work in the Faculty's research seminar program', with a confirmation seminar and completion seminar as regular progress requirements. Level 2 requires a recognised professional genre or an audience beyond the teaching team judged against criteria drawn from professional practice. The two documented assessed artefacts are a 3-hour written examination and a research thesis, both academic genres; the two external examiners are academic markers appointed through the Melbourne School of Graduate Research, not a professional audience, and the thesis format follows the University's own 'Masters by Research Generic Guidelines' rather than criteria drawn from practice. Ambiguity 1 vs 2 resolved down.",
+      "evidenceLines": [
+        "disseminate research findings effectively in the professional arena;",
+        "Communicating effectively through both the spoken and written medium and to both professional colleagues and the wider community.",
+        "Candidates are expected to meet regularly with their research supervisor(s) and present their work in the Faculty’s research seminar program. They are assisted to participate in relevant national or international conferences.",
+        "Regular progress reporting requirements apply, such as a probationary period, confirmation report and seminar, and completion seminar.",
+        "Theses are examined by the Melbourne School of Graduate Research. Three months prior to the submission date of the thesis, the candidate is required to submit an 80-word summary of the thesis argument to the Melbourne School of Graduate Research. The summary activates the process of nominating potential examiners for the thesis."
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Level 1 anchor: 'Contextualised or scenario-framed tasks appear (case studies, worked scenarios), but the artefact produced and the criteria applied remain academic.' The practicum 'will consist primarily of case studies in the Veterinary Hospital', so the tasks are situated — but the assessed artefacts are a three-hour written examination (100% of VETS70002) and a 30,000-word thesis whose format 'must follow prescriptions laid down by the University and found in the Masters by Research Generic Guidelines', i.e. academic criteria. Level 2 requires at least one core assessment to reproduce a professional task end to end — the artefact a practitioner would produce, judged against criteria drawn from practice. Neither documented assessment does: a timed written exam is not a veterinary practitioner's deliverable, and the thesis is judged against the University's own research guidelines by academic examiners. Per R4 no credit is taken from the 'advanced clinical training' framing — only documented task features are scored — and the hospital immersion itself is housed in W3. Ambiguity 1 vs 2 (the thesis as a clinical researcher's own artefact, drawn from real clinical cases) resolved to the lower level.",
+      "evidenceLines": [
+        "This is a subject for the practicum component of the Master of Veterinary Science (Clinical). For most students, the practicum will consist primarily of case studies in the Veterinary Hospital. Students will be provided with advanced clinical training in diagnostic, therapeutic, and technical skills associated with veterinary clinical sciences.",
+        "Written examination",
+        "3 hours",
+        "Candidates will be required to undertake research culminating in the production of a thesis of no more than 30,000 words to be submitted for examination by two external examiners. The format of the thesis, including a statement on authorship, must follow prescriptions laid down by the University and found in the Masters by Research Generic Guidelines."
+      ]
+    },
+    "W3": {
+      "score": 2,
+      "rationale": "Level 2 anchor is met squarely: a core unit places students in a real workplace with practitioner supervision and assessment — VETS70002 is a compulsory practicum subject ('Practicum subjects (37.5 points)') in the Veterinary Hospital, where students take part in 'the clinical investigation and management of clinical cases under supervision of senior staff', assessed by a three-hour written examination contributing 25% of the degree, with a pass required. Level 3 requires, on top of an extended core practicum supervised by a practitioner and assessed, BOTH accountability to the host AND structured reflection on professional practice; neither is documented anywhere in the extract — the only assessment line is 'Written examination / 3 hours / 100%', with no reflective component, no logbook, no supervisor report and no host sign-off. The own-practice route for an already-practising cohort (Clinical Residency Training Program candidates) fails at level 3 on the same two missing conjuncts. Ambiguity 2 vs 3 — the practicum is extended and required rather than 'short or stands alone' — resolved to the lower level because the level-3 conjuncts are absent.",
+      "evidenceLines": [
+        "Practicum subjects (37.5 points)",
+        "In addition to research and publication of a thesis, students will obtain advanced professional training through participation in the clinical investigation and management of clinical cases under supervision of senior staff (Clinical Practicum). This portion of the Masters is assessed by a 3 hour examination held in the final year of candidacy.",
+        "The practicum component of this program will be undertaken during enrolment in the MVSc. It will involve participation in clinical rounds, tutorials, seminars, and other similar activities, according to the candidate’s area of interest. The practicum component must be clearly related to the research project and will be in an area such as small animal medicine and surgery, anaesthesia, equine medicine and surgery, diagnostic imaging, dairy medicine, and pathology. The practicum component will be assessed by a three-hour written examination at the end of the candidacy and will contribute 25% to the final assessment for the degree.",
+        "Students who enroll in this course as part of the Clinical Residency Training Program will be enrolled on a part-time basis. The expected duration of part-time candidature is three years, with the possibility of two six-month extensions. For local students, RTP is available for a maximum of two years full-time equivalent (four years part-time).",
+        "Written examination"
+      ]
+    },
+    "workplace": 4,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "PASS on the 'coherent specialist core with progressive technical or methodological depth' condition. Both components are compulsory and mutually tied ('A pass is required in both components'; the practicum 'must be clearly related to the research project'), the practicum is located in a named veterinary clinical specialty (small animal medicine and surgery, anaesthesia, equine medicine and surgery, diagnostic imaging, dairy medicine, pathology), and depth is staged through candidature milestones — probationary period, confirmation report and seminar, completion seminar — ending in external examination of a 30,000-word thesis. This is not generic or interchangeable content.",
+        "evidenceLines": [
+          "The Master of Veterinary Science is a graduate research degree that can be undertaken in any of the Faculty of Science clinical research programs. Research training based on the conduct of experiments, or analysis of clinical cases, under appropriate supervision, is given in a selected field of veterinary science.",
+          "Assessment will be weighted 75% to the research thesis and 25% to the practicum component. A pass is required in both components.",
+          "The practicum component of this program will be undertaken during enrolment in the MVSc. It will involve participation in clinical rounds, tutorials, seminars, and other similar activities, according to the candidate’s area of interest. The practicum component must be clearly related to the research project and will be in an area such as small animal medicine and surgery, anaesthesia, equine medicine and surgery, diagnostic imaging, dairy medicine, and pathology. The practicum component will be assessed by a three-hour written examination at the end of the candidacy and will contribute 25% to the final assessment for the degree.",
+          "Regular progress reporting requirements apply, such as a probationary period, confirmation report and seminar, and completion seminar."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "PASS on the 'live projects with real uncertainty and accountability' condition rather than the trade-off-decision condition. The required thesis is a live research project whose outcome is not known in advance — it must 'make an independent contribution to existing scholarship' — conducted through experiments or analysis of clinical cases and held accountable by examination by two external examiners plus staged candidature review. The practicum places candidates in the clinical investigation and management of real cases under senior supervision. This is not recall or scripted response, although the practicum's own assessment instrument (an unspecified three-hour written examination) carries no documented uncertainty of its own.",
+        "evidenceLines": [
+          "A thesis is submitted in partial fulfillment of the degree. The thesis should demonstrate a critical application of specialist knowledge and make an independent contribution to existing scholarship in the area of research.",
+          "The Master of Veterinary Science is a graduate research degree that can be undertaken in any of the Faculty of Science clinical research programs. Research training based on the conduct of experiments, or analysis of clinical cases, under appropriate supervision, is given in a selected field of veterinary science.",
+          "Candidates will be required to undertake research culminating in the production of a thesis of no more than 30,000 words to be submitted for examination by two external examiners. The format of the thesis, including a statement on authorship, must follow prescriptions laid down by the University and found in the Masters by Research Generic Guidelines.",
+          "In addition to research and publication of a thesis, students will obtain advanced professional training through participation in the clinical investigation and management of clinical cases under supervision of senior staff (Clinical Practicum). This portion of the Masters is assessed by a 3 hour examination held in the final year of candidacy."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1 straddled 1 and 2: clinical rounds and hospital case management are inherently collaborative work, but neither documented assessment (3-hour written exam; individually authored thesis) assesses collaboration, and the immersion itself is housed in W3 under one-construct-one-home. Resolved down to 1.",
+      "C2 straddled 0 and 1: no assessment requires appraisal of quality (the level-0 condition holds), while critical-appraisal and research-integrity language does appear in outcomes and generic skills (the level-1 condition). Scored 1 because the level-1 distinguishing feature — the outcome statement — is present on its face, and R2 caps outcome-only capabilities at exactly 1; level 2 was never in reach.",
+      "C3 straddled 0 and 1: the extract contains no AI content at all, but 'searching and manipulation of ... data bases' is digital tool-operation content in a core subject's stated skills, which contradicts level 0. Held at the operational level 1.",
+      "C4 straddled 2 and 3: a required, individually oriented research thesis with staged candidature milestones reads toward level 3, but the level-3 anchor's route is a SELF-SCOPED project and the course structure states the research course is arranged by supervisors and an Advisory Committee 'in consultation with the candidate'. The self-direction claim is an ILO, which R2 excludes. Resolved down to 2, consistent with the same wording holding 439fs at 2.",
+      "C5's scrutiny conjunct: the thesis is examined by two external examiners on written report — there is no documented viva or oral defence. Level 3 is carried by the alternative 'staged supervised review' route (probationary period, confirmation report and seminar, completion seminar), which is documented explicitly.",
+      "W1 straddled 0 and 1: all assessed artefacts are academic genres addressed to markers (level 0), but required spoken communication exists as the Faculty research seminar program plus confirmation and completion seminars, and communication appears in outcomes (level 1). Scored 1; the seminars are documented as candidature progress requirements rather than lines in either assessment table, which is why level 2 was not tested on them.",
+      "W2 straddled 1 and 2: the thesis could be read as the artefact a clinical-research practitioner produces, drawn from real clinical cases, which would reach 2. Resolved down to 1 because the criteria applied are explicitly the University's 'Masters by Research Generic Guidelines' and academic examiners, not criteria drawn from professional practice, and the practicum's own assessment is an undescribed timed written exam.",
+      "W3 straddled 2 and 3: the practicum is core, extended across candidature (37.5 points, Semesters 1 and 2), practitioner-supervised and assessed at 25% — it is neither short nor optional, which argues against the level-2 qualifier. Resolved down to 2 because both level-3 conjuncts — documented accountability to the host and structured reflection on professional practice — are absent from the extract on either the placement route or the already-practising own-practice route.",
+      "Assessment-table detail is thin: VETS70002 documents only 'Written examination / 3 hours / 100%' with no content description, and VETS90027 documents only the 30,000-word thesis. Several items (C2, W1, W2) would move if the exam's content were specified; on the evidence as captured they cannot."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-16"
+    }
+  },
+  "991aa": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 1,
+      "rationale": "Level 1 anchor exactly: collaboration/teamwork appears in the program's stated attributes ('participate fully in collaborative learning') and the program ILOs claim communication with clinical/health professionals, but no core unit assesses collaborative practice. The five core subjects (POPH90014, MAST90101, MAST90102, MAST90100, MAST90099) have only individual practical exercises, assignments and examinations; the only team-assessed tasks in the extract sit in elective subjects (INFO90002, ISYS90069, POPH90271), which students choose from a list of seventeen and which therefore cannot satisfy level 2's 'at least one core unit assesses collaborative practice'. Level 2 is not reached because no core assessment documents group work, client or interprofessional activity; level 3's requirement of coordination across people AND tools/AI systems appears nowhere.",
+      "evidenceLines": [
+        "have the capacity to participate fully in collaborative learning and to confront unfamiliar problems",
+        "employ sound communication skills relating to biostatistical issues with clinical/health professionals including appropriate presentation of statistical material",
+        "Students must complete the following core subjects:",
+        "Practical exercise 1",
+        "Major assignment 2",
+        "Written Exam",
+        "Students must select FIVE electives from the following list:",
+        "One team based database design assignment (20%) with 3-4 team members, comprising of a database design and a data dictionary equivalent to approximately 3000 words, released week 2 and due in week 6, requiring approximately 26-30 hours of work per student. Intended Learning Outcomes (ILO's) 1 to 3 are addressed in the database design and data dictionary."
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1: critical appraisal and self-directed learning are claimed in outcomes and graduate attributes — Epidemiology 1's ILO to 'Evaluate epidemiological evidence' and MAST90100's ILO to 'Critically interpret' inferential tools — but no core assessment description documents criterion-referenced appraisal of the quality of work. The core assessment descriptions are bare titles ('Written Short Answer Assignment', 'Major assignment 2', 'On-campus Written Examination') with no peer review, structured critique, portfolio-against-standards or exemplar marking, which level 2 requires as documented assessment (R2). The only peer-evaluated task in the extract is in an elective (ISYS90069, 'peer evaluation 10%'). Nothing documents students justifying reliance on or overriding a tool, source or collaborator, so level 3 is not in evidence.",
+      "evidenceLines": [
+        "Evaluate epidemiological evidence from experimental and observational studies",
+        "Critically interpret the commonly used tools of statistical inference, such as p-values, confidence intervals and Bayesian posterior distributions, as they are used in medical and scientific investigations",
+        "be critical and creative thinkers, with an aptitude for continued self-directed learning",
+        "Written Short Answer Assignment",
+        "Major assignment 2",
+        "On-campus Written Examination",
+        "One major group project report. Class presentation of 10 minutes PLUS written project report of 3000 words. Presentation due in week 12. Written report due in week 14. Presentation 10%; written report 20%, peer evaluation 10% (40% in total). ILO's 4 and 5 are addressed in this assessment."
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1's anchor names exactly what is documented: digital content in the core is tool operation/training — MAST90101 is hands-on Stata and R data manipulation — and AI content appears only in electives (MAST90141 Machine Learning for Biostatistics, MAST90083, and ISYS90069, where digital-health ethics is examined). Level 0 is excluded because core digital content plainly exists. Level 2 requires core units to address AI capabilities AND limitations/ethics with use-with-limits assessed; the core's only governance-adjacent content is one MAST90101 ILO recognising confidentiality and privacy principles, and no core assessment description documents it being assessed. No core assessment requires critique or governance of AI systems, so level 3 fails.",
+      "evidenceLines": [
+        "Gain experience in data manipulation and management using two major statistical software packages (Stata and R).",
+        "Demonstrate fundamental programming skills for efficient use of software packages.",
+        "Recognise key principles regarding confidentiality and privacy in data storage, management and analysis.",
+        "display skills in a range of complex statistical analyses using modern statistical software and programming skills",
+        "demonstrate skills in data collection and data management, including database design, quality control procedures and the ethical handling of data",
+        "Students must select FIVE electives from the following list:",
+        "Digital health technologies are examined from ethical, historical, technological, and psycho-social perspectives, considering positive and negative impacts."
+      ]
+    },
+    "C4": {
+      "score": 1,
+      "rationale": "Level 1: transfer and self-directed learning are claimed in outcomes and graduate attributes ('flexible and transferable skills', 'flexibility of approach', 'aptitude for continued self-directed learning') but are not assessed. Level 2 requires at least one CORE assessment requiring application to novel or unfamiliar problems; the five core subjects' assessment descriptions are unelaborated titles (practical exercises, major assignments, written examinations) that document no case variation, unseen dataset or cross-context task. The required Research Project could be read into level 3's 'self-scoped capstone or research project', but the one-construct-one-home rule puts the research project in C5, whose construct names inquiry and primary-evidence generation, and nothing in the extract documents the project as self-scoped or documents assessed identification of one's own knowledge gaps with a plan to close them.",
+      "evidenceLines": [
+        "have a set of flexible and transferable skills for different types of employment",
+        "display problem-solving abilities in biostatistics, characterised by flexibility of approach",
+        "be critical and creative thinkers, with an aptitude for continued self-directed learning",
+        "Practical exercise 1",
+        "Major assignment 1",
+        "Major assignment 2",
+        "On-campus Written Examination"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2's anchor is met and documented as required curriculum: both structure options compel a Research Project, and the program ILOs require developing research questions with corresponding statistical designs, data-collection and data-management skills, and planning and executing a research-based project. That is designing and conducting an inquiry with methodology selection, in a credit-bearing assessed subject. Level 3 additionally requires methodology defended under scrutiny — viva, defence or staged supervised review — and while the project is required, substantial (12.5 or 25 points), supervised, and the year-long route is staged into consecutive Parts 1 and 2, no defence, viva or review event is documented, and the Research Project subject pages (POPH90288/90289/90149) are not in the extract. Ambiguity between 2 and 3 resolved downward.",
+      "evidenceLines": [
+        "FIVE core subjects, FIVE elective subjects, the Capstone Selective subject POPH90123 Longitudinal and Correlated Data and a 12.5 point Research Project",
+        "FIVE core subjects, FIVE electives subjects and a 25 point Research Project",
+        "plan and execute a research-based project that applies the necessary practical and technical skills to answer the proposed research question",
+        "develop research questions (descriptive, causal, predictive) and corresponding appropriate statistical designs and/or analysis methods in medical/health settings",
+        "demonstrate skills in data collection and data management, including database design, quality control procedures and the ethical handling of data",
+        "On completion of the Masters degree, graduates will have had the opportunity to complete a research-based project under expert biostatistical supervision and will attain the required skills for employment as a professional biostatistician or for continuing to a research higher degree.",
+        "Students may take a 25 point Research Project. Students have the option of enrolling in a year-long project or a semester-long project. Students enrolling in the year-long project (POPH90288 & POPH90289) MUST complete the project in two semesters consecutively in the correct sequence i.e. Part 1 followed by Part 2)."
+      ]
+    },
+    "adaptiveness": 6,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1 fits line by line: professional communication is claimed in the program ILOs and generic skills ('Communicate effectively to a range of audiences'; communication with clinical/health professionals), and core assessment does add spoken work — Epidemiology 1's tutorial oral assessment — but that audience is the teaching team and peers, and every other core task is an academic genre addressed to the marker (written exams, short-answer assignments, practical exercises). Level 2 needs a core assessment in a recognised professional genre or to an audience beyond the teaching team judged against practice-drawn criteria; the journal-format reporting requirement sits in an elective (MAST90140) and in POPH90123, which is required only on Option One and only as an ILO, not in its assessment description ('Report #1', 'Report #2'). No external audience or assessed professional-conduct criterion appears anywhere, so level 3 fails outright.",
+      "evidenceLines": [
+        "Communicate effectively to a range of audiences",
+        "employ sound communication skills relating to biostatistical issues with clinical/health professionals including appropriate presentation of statistical material",
+        "Tutorial Oral Assessment and Participation (15% oral assessment, 5% participation)",
+        "Written Exam",
+        "On-campus Written Examination",
+        "Major assignment 1",
+        "A written report covering a practical problem that allows demonstration of the understanding of concepts, the application of these concepts and interpretation of results. Presentation of results is in a format suitable for a journal publication.",
+        "Express the results of statistical analyses of longitudinal data in language suitable for communication to medical investigators or publication in biomedical or epidemiological journal articles."
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Level 1: core tasks are contextualised in the discipline's data setting — MAST90101 prepares students for analysis of data typically encountered in health and medical research, with dataset checking and cleaning and a written assignment with programming — but the artefact and the criteria remain academic (practical exercises, written assignments, a written examination). Level 0 is excluded because the core is not entirely decontextualised exams and essays. Level 2 requires at least one core assessment reproducing a professional task end to end, producing the artefact a practitioner would produce and judged against criteria drawn from practice; no core assessment description documents that, and per R4 nothing is scored up on 'real contexts' framing alone. The consulting-practice subject MAST90027 is an elective, and the Research Project's fidelity cannot be assessed because its subject page is absent — and its evidence is scored in C5 under one-construct-one-home.",
+      "evidenceLines": [
+        "The aim of this subject is to equip students with the knowledge and skills required for moderate to high level data manipulation and management in preparation for statistical analysis of data typically encountered in health and medical research.",
+        "Perform checks and clean datasets to ensure data integrity.",
+        "Written assignment with programming",
+        "Practical exercise",
+        "On-campus Written Examination",
+        "Written Short Answer Assignment",
+        "The subject deals with thinking about data in a broad context, and skills required in statistical consulting."
+      ]
+    },
+    "W3": {
+      "score": 0,
+      "rationale": "Level 0's anchor holds: no work-integrated learning, placement, practicum or community-based project appears anywhere in the course structure. The structure is five core subjects, five electives and a Research Project under academic biostatistical supervision, with the capstone options listed as coursework subjects — no host workplace, practitioner supervision or accountability to a workplace stakeholder is documented. Level 1 is not reached either: no optional internship or elective placement is listed; the nearest elective, MAST90027, teaches consulting skills in class, which the item explicitly routes to W2 rather than W3. The v4.2 in-practice route does not apply because nothing in the extract documents the cohort as already practising in the profession.",
+      "evidenceLines": [
+        "Students must choose between Option One or Option Two:",
+        "FIVE core subjects, FIVE elective subjects, the Capstone Selective subject POPH90123 Longitudinal and Correlated Data and a 12.5 point Research Project",
+        "FIVE core subjects, FIVE electives subjects and a 25 point Research Project",
+        "There are 2 capstone options to choose from. The capstone experience should be undertaken in the final year or final semester of the Master of Biostatistics.",
+        "On completion of the Masters degree, graduates will have had the opportunity to complete a research-based project under expert biostatistical supervision and will attain the required skills for employment as a professional biostatistician or for continuing to a research higher degree.",
+        "The subject deals with thinking about data in a broad context, and skills required in statistical consulting."
+      ]
+    },
+    "workplace": 2,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "PASS on the anchor's 'all-compulsory specialist core' and 'accredited sequence' routes together. Five compulsory specialist biostatistics subjects are named as core, the award carries professional accreditation from the Statistical Society of Australia, and the methodological depth is staged: Foundations of Regression precedes Advanced Regression, which extends the same methods to counts, rates and time-to-event data, alongside Probability & Inference in Biostatistics. This is disciplinary identity, not generic or interchangeable content.",
+        "evidenceLines": [
+          "Statistical Society of Australia (SSA)",
+          "Students must complete the following core subjects:",
+          "The Master of Biostatistics provides advanced biostatistical training with a solid foundation in mathematics and probability for a diverse range of students.",
+          "This subject provides the foundation for understanding and using regression methods in biostatistics.",
+          "This subject extends the use of regression methods in biostatistics to include the analysis of frequency counts and event rates.",
+          "This subject covers the fundamental theory of probability and statistical inference that is needed as a foundation for understanding and practice of the core methods of biostatistics, understood as the science of drawing conclusions from data in health and medical investigations."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "PASS on the gate's capstone route and on defended trade-off decisions in core assessment. A Research Project capstone is required under both structure options, and the core regression and inference subjects require students to build and validate models and to estimate causal effects while stating and justifying the required causal and parametric assumptions, and to interpret p-values and confidence intervals critically — assumption-dependent choices under sampling uncertainty rather than recall or scripted response. The gate is not FAIL: the core is not examination-recall only, though it is noted that the core assessment descriptions are terse titles and the Research Project's own assessment page is absent from the extract.",
+        "evidenceLines": [
+          "FIVE core subjects, FIVE electives subjects and a 25 point Research Project",
+          "There are 2 capstone options to choose from. The capstone experience should be undertaken in the final year or final semester of the Master of Biostatistics.",
+          "Explain the concepts of regression models for continuous and binary outcomes as tools for description, prediction, and causal inference in health research, including the required assumptions.",
+          "Explain the key principles involved in building and validating regression models for prediction purposes.",
+          "Use multivariable regression models to estimate causal effects such as the rate ratio or hazard ratio, based on standard epidemiological study designs, including the required causal and parametric assumptions.",
+          "Critically interpret the commonly used tools of statistical inference, such as p-values, confidence intervals and Bayesian posterior distributions, as they are used in medical and scientific investigations",
+          "Explain and employ the key elements of statistical inference: target parameters, sampling variability, and frequentist methods including confidence intervals and hypothesis testing"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1 (1 vs 2): assessed team work is documented in three electives — INFO90002's team database design assignment, ISYS90069's group project with peer evaluation, POPH90271's group oral presentation — but students choose five from seventeen electives, so no team assessment is guaranteed. Level 2 says 'at least one core unit assesses collaborative practice'; electives are not core, so resolved down to 1.",
+      "C2 (1 vs 2): Epidemiology 1's ILO to 'Evaluate epidemiological evidence' and MAST90100's 'Critically interpret' ILO are appraisal-shaped, and the subjects carry written assignments that plausibly carry them, but the assessment descriptions are bare titles with no criteria, exemplars, peer review or portfolio standards. R2 requires documented assessment for level 2 here, so resolved down to 1.",
+      "C3 (1 vs 2): MAST90101's confidentiality-and-privacy ILO and the program ILO on 'ethical handling of data' are governance content in the core, which could be read as 'use with limits'. But level 2 requires core units to address AI capabilities AND limitations/ethics, and there is no AI content in any core unit — machine learning and digital-health ethics are elective-only. Resolved down to 1.",
+      "C4 (1 vs 3) and C5 (2 vs 3): the required Research Project is the same piece of evidence for both items. Under one-construct-one-home it is scored in C5, whose construct names inquiry and primary-evidence generation; C4 therefore rests only on unassessed transfer claims in outcomes and attributes. Within C5, level 3 was not awarded because no viva, defence or staged supervised review is documented — the consecutive Part 1/Part 2 sequencing rule is a sequencing requirement, not a documented review event.",
+      "W1 (1 vs 2): POPH90123's ILO requires results expressed in language suitable for medical investigators or journal publication, and MAST90140's assessment explicitly requires journal-format presentation. POPH90123 is compulsory only on Option One and its journal framing is an ILO, not an assessment description ('Report #1', 'Report #2'); MAST90140 is an elective. Neither is core assessment for all students, so resolved down to 1.",
+      "W2 (1 vs 2): the core is framed on health and medical research data and includes programming and dataset-cleaning work, which approaches a practitioner task, but no core assessment description states the artefact produced or criteria drawn from practice. R4 forbids scoring up on 'real contexts' framing, so resolved down to 1.",
+      "W3 (0 vs 1): MAST90027 'Practice of Statistics & Data Science' is an elective covering statistical consulting and statistician–client interactions, which could look like work-situated learning as an elective (level 1). The prompt routes simulated/in-class professional practice to W2, and no workplace participation, host or practitioner supervision is documented, so resolved down to 0."
+    ],
+    "notScoreable": [
+      "Assessment descriptions for the required capstone Research Project subjects (POPH90288 Biostatistics Research Project Part 1, POPH90289 Part 2, POPH90149 Research Project - S) are absent from the extract — only the course-structure listing appears. This caps the evidence available to C5 (no documented defence or supervised review), and leaves the project's task fidelity (W2) and any client or workplace accountability (W3) unevidenced.",
+      "The entry and participation requirements page is not in the extract, so there is no evidence on whether the cohort is documented as already practising in the profession — the v4.2 in-practice route for W3 levels 2–3 could not be tested.",
+      "Subject pages for two core-adjacent electives that students may or may not take (e.g. POPH90139, MAST90141) and for the capstone selective's teaching detail are only partially present; scoring used only the pages supplied."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-16"
+    }
+  },
+  "b-agr": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2's anchor — 'At least one core unit assesses collaborative practice' — is satisfied several times over: four Level 1 Degree Core subjects and ENVS10001 carry weighted group assessment tasks. Level 3 is not reached because its second conjunct is absent: no assessment in the extract requires coordinating work across people AND tools/AI systems, and no task documents role or tool allocation, so the recurrence half of the anchor cannot carry a 3 on its own. Placement/internship evidence is deliberately excluded here and scored in W3 (one construct, one home).",
+      "evidenceLines": [
+        "Group Assessment / Project- Group practical report (3-4 students per group)",
+        "Group practical report (3-4 students per group)",
+        "Group assignment of not more than 1500 words",
+        "Group report based on activities from module 2",
+        "Assignment 3: Oral presentation of site visit findings (group task)"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1's anchor — 'Reflection or self-assessment appears in outcomes or graduate attributes, but no core unit assesses it against criteria' — matches exactly. Reflection appears in the Discovery core subject's generic skills and there is a hurdle reflection task, but the extract documents neither criteria nor standards against which the reflection is judged, and it appraises the student rather than the quality of work. Level 2 requires criterion-referenced appraisal of quality (peer review, structured critique, portfolio with standards, exemplars) in CORE assessment; the only peer review in the extract sits in ANSC10001, a Level 1 elective, so it cannot lift a core-scored item. Nothing anywhere requires documenting or justifying a reliance decision on a tool or source, so level 3 is not in play.",
+      "evidenceLines": [
+        "Demonstrate foundational skills in an investigation including self reflection and directed research",
+        "Two written self-reflections",
+        "Peer review of two other student presentations",
+        "Demonstrate breadth and depth of knowledge relevant to agriculture, and the ability to critically evaluate knowledge gained from a range of scientific, economic and social sources"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 0 is falsified — digital content does exist: data management, data visualisation and statistics are taught and assessed in the Level 1 Degree Core, and precision farming is named in the program-level overview. But that content is exactly what level 1 describes: 'AI or digital tools appear only as electives or as tool operation/training'. Precision agriculture is available only as a Level 3 elective, and the core's digital content is operational data handling. Level 2 requires core units addressing AI capabilities AND limitations/ethics: the word AI, and any treatment of tool limitations, ethics, bias, governance or data governance, is absent from the entire extract, so 2 and 3 both fail.",
+      "evidenceLines": [
+        "Students will develop an understanding of fundamental scientific concepts, and will learn to apply this understanding to a range of agricultural contexts, including precision farming.",
+        "Mathematics topics in this subject will include: data visualisation; data analyses, including population statistics and correlation; determination of key data parameters such as rate of change, maxima and minima.",
+        "Integrate the use of numerical data, graphical analysis, basic statistics, and mapping, to represent and interpret phenomena in the natural world, in particular as they operate in agricultural environments",
+        "Applications in Precision Agriculture",
+        "Level 3 electives"
+      ]
+    },
+    "C4": {
+      "score": 1,
+      "rationale": "Level 1's anchor — 'Transfer is claimed in outcomes (\"apply knowledge in new settings\") but not assessed' — is met almost verbatim: both Foundations core subjects claim application to 'familiar and novel situations' in their ILOs, and self-direction is claimed in generic skills across the core. Level 2 needs a core ASSESSMENT that requires application to novel or unfamiliar problems; every core assessment description in the extract is a quiz, intra-semester test, examination, or a report based on the subject's own practicals, field trips or module activities — i.e. within the taught context — with no documented case variation, unseen dataset or cross-context brief (R1: score what is documented, not what students plausibly do). The level-3 route (self-scoped capstone or research project) cannot be established: the structure requires a Capstone subject, but no Level 3 subject page is in the extract, so whether it is self-scoped is undocumented, and R2 bars awarding 3 on a structural line alone.",
+      "evidenceLines": [
+        "Apply principles in physics and chemistry using logical reasoning, together with appropriate mathematical reasoning, to a variety of familiar and novel situations, both biological and physical, and to problems in agricultural contexts",
+        "Apply principles in physics and chemistry using logical reasoning, together with appropriate mathematical reasoning, to a variety of familiar and novel situations and problems in agricultural sciences",
+        "Think independently and analytically, and direct his or her own learning",
+        "You will also conduct a small project in an area of Agriculture of your choosing.",
+        "50 credit points of Level 3 Major subjects including a Capstone subject"
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 0 is falsified — this is not secondary synthesis only: experimental design principles are taught and assessed through laboratory practicals in a core subject, and a core soil subject assesses analysis of data the students collected in the field. That is level 1's 'introductory methods unit'. Level 2 requires students to DESIGN and conduct an inquiry with methodology SELECTION and data collection, assessed: the assessed artefacts here are reports 'based on' prescribed practicals, field trips and set module activities, and nothing in the extract documents students choosing a methodology. The program ILO does claim methodology choice, but that is an outcome statement, which R1/R2 exclude as the basis for a step up. Level 3 (a required substantial primary-evidence project defended under scrutiny) fails outright: the only research-scale project named, AGRI30006 Industry Project, is a Level 3 elective, and no viva or staged defence appears anywhere.",
+      "evidenceLines": [
+        "demonstrate the principles of experimental design and analysis through simple laboratory practicals and assignments",
+        "Choose and apply research methodologies necessary to design, conduct and interpret small scientific research projects",
+        "Report 1 based on field trips, practicals or workshops",
+        "Evaluate the relationship between land use and soil by analysing data on soil properties collected from the field.",
+        "Have developed skills in recording observations, analysis and interpretation of data"
+      ]
+    },
+    "adaptiveness": 6,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1's anchor is met precisely: communication with industry, government, community and clients is claimed repeatedly in the course ILOs and generic skills, and core assessment does add a spoken task — a group oral presentation of site-visit findings in the core ENVS10001. Level 2 requires a recognised professional genre or an audience beyond the teaching team, judged against criteria drawn from professional practice. The oral presentation has no documented audience beyond staff and peers; every other core artefact is an examination, test, quiz, written assignment or practical/field report addressed to the marker. AGRI20038's 'advise land managers and other stakeholders' is an ILO whose assessments are reports and an exam — and Barrie (2006, 2007) via R2 binds hardest here, forbidding a score off stated attributes.",
+      "evidenceLines": [
+        "Communicate and discuss scientific and industry information with relevant stakeholders in a variety of media and settings",
+        "Initiate and maintain cooperative relationships with colleagues, employers and clients",
+        "Highly developed written communication skills to allow informed dialogue with individuals and groups from industry, government and the community",
+        "Assignment 3: Oral presentation of site visit findings (group task)",
+        "Advise land managers and other stakeholders on how soil properties influence agriculture production"
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Level 0 is falsified — core assessment is not entirely decontextualised: a report on the Dookie farm follows a compulsory field trip, a Landscape Function Analysis report follows site work, and two soil reports are grounded in field trips. That situational framing is exactly level 1: 'Contextualised or scenario-framed tasks appear ... but the artefact produced and the criteria applied remain academic.' Level 2 requires a core assessment that reproduces a professional task end to end — the practitioner's own artefact, judged against criteria drawn from practice. The artefacts here are 1000–1800-word student reports on subject activities, and no criteria drawn from professional practice, external brief or client are documented for any of them. Per R4 the field-based framing is not itself a warrant to score up, and the assessment spine of the core remains examinations, tests and quizzes, which also rules out level 3.",
+      "evidenceLines": [
+        "Report based on the Dookie farm",
+        "Hurdle requirement: Participation in the Dookie field trip in Week 6",
+        "Assignment 5: Landscape Function Analysis (LFA) Report",
+        "Report 1 based on field trips, practicals or workshops",
+        "Written examination paper"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1's anchor — 'Work-situated learning exists only as an elective, an optional internship' — is met exactly. The overview frames industry placement as an opportunity, not a requirement, and AGRI30041 Industry Internship and AGRI30006 Industry Project both appear under Level 3 electives; the progression rule confirms the internship is something students are 'permitted to undertake', not required to. Level 2 needs a CORE unit placing students with practitioner supervision and assessment, which the structure does not contain. The v4.2 in-practice route does not apply: this is a school-leaver-entry undergraduate degree and the extract documents no cohort already practising in the profession. The Dookie field trips and campus option are university-taught activity, not participation in a workplace or professional community, and simulation-like field work is W2 by construction.",
+      "evidenceLines": [
+        "Students will also have an opportunity to undertake industry placements.",
+        "Level 3 electives",
+        "The exception to this is AGRI30041 / Industry Internship, which students in the Bachelor of Agriculture are permitted to undertake after the completion of Year 1.",
+        "Industry Project"
+      ]
+    },
+    "workplace": 3,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program documents a coherent specialist core with progressive depth on two of the anchor's three routes: an all-compulsory specialist core (100 credit points of Level 1 Degree Core plus 37.5 of Level 2 Degree Core, all agriculture-discipline subjects), and a staged year-level progression chain gating entry to each subsequent level, terminating in a prescribed major with a required Capstone subject. Content is disciplinary throughout — soil science, agricultural biochemistry, agricultural economics, genetics, plant and animal production systems — not generic or interchangeable.",
+        "evidenceLines": [
+          "100 credit points of Level 1 Degree Core subjects including",
+          "37.5 credit points of Level 2 Degree Core subjects",
+          "Completion of one prescribed major (consisting of a total of 87.5 credit points, including 12.5 credit points of Degree Core subject, 75 credit points of Major subjects and a Capstone subject)",
+          "Completion of at least 50 points of Level 1 study before proceeding to the next subject year level.",
+          "Completion of at least 50 points of Level 2 study before proceeding to the next subject year level."
+        ]
+      },
+      "G2": {
+        "result": "FAIL",
+        "rationale": "The PASS condition requires that ASSESSMENTS require defended trade-off decisions, or simulations/capstones/live projects with real uncertainty and accountability. Nothing in the extract's documented assessment set does so: every core task is an examination, intra-semester test, quiz, written assignment or a report based on the subject's own practicals or field trips, and no task description mentions weighing options, defending a choice, or accountability to anyone beyond the marker. The trade-off language sits only in ILOs — 'Critically evaluate options, and formulate plans' at course level and 'Critically evaluate how land management influences soil health' in a core subject — which R1 excludes as evidence of what is assessed. The capstone route is undocumented rather than satisfied: the structure requires a Capstone subject, but no Level 3 subject page is in the extract, so its uncertainty and accountability features cannot be read. Applying the instrument's no-upward-resolution rule to that gap, the gate does not pass on this evidence.",
+        "evidenceLines": [
+          "Critically evaluate options, and formulate plans that will ensure long term industry and environmental sustainability",
+          "Critically evaluate how land management influences soil health",
+          "Written examination paper",
+          "Report 1 based on field trips, practicals or workshops",
+          "50 credit points of Level 3 Major subjects including a Capstone subject"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C2 straddled 1 and 2: the Discovery core subject's 'Two written self-reflections' are hurdle-assessed ('must complete and pass all reflections'), which could read as assessment against a standard (level 2), but no criteria, exemplars or appraisal of the quality of work are documented, and the only peer review in the extract (ANSC10001) is a Level 1 elective. Resolved DOWN to 1 by the no-upward-resolution rule plus the core-assessment requirement in the level-2 anchor.",
+      "C4 straddled 1 and 2: the Dookie farm report and the Landscape Function Analysis report apply taught methods in field settings, which could be read as cross-context application (level 2), but both are 'based on' the subject's own compulsory field trips and practicals, i.e. within the taught context, and no novel case, unseen dataset or unfamiliar problem is documented. Resolved DOWN to 1.",
+      "C4 level-3 route unresolvable: 'a Capstone subject' is a documented structural requirement of every prescribed major, but no Level 3 or capstone subject page is in the extract, so whether it is self-scoped is undocumented. R2 (level 3 needs quoted assessment evidence) kept the score at 1.",
+      "C5 straddled 1 and 2: AGRI20038 assesses 'analysing data on soil properties collected from the field' and AGRI10050 assesses experimental-design principles through practicals, which approaches design-and-conduct (level 2), but methodology SELECTION by the student is documented only in a course-level ILO, never in an assessment. Resolved DOWN to 1.",
+      "W2 straddled 1 and 2: field-grounded soil and landscape reports are close to practitioner artefacts in agronomy and land management, but no criteria drawn from professional practice, external client or brief are documented for any of them. R4 forbids scoring up on situational framing alone. Resolved DOWN to 1.",
+      "G2 straddled PASS and FAIL: the core is not recall-only (field-based reports require critical evaluation), yet no assessment documents defended trade-off decisions, and the required Capstone subject's page is absent so the capstone route could not be evaluated. Resolved to FAIL rather than resolving the gap upward.",
+      "Cross-item note: the group oral presentation in ENVS10001 could be read into either C1 (collaborative practice) or W1 (spoken communication). It is scored in C1 for the collaboration construct and cited in W1 only as the level-1 'presentation to peers/staff' evidence, not as a second collaboration score.",
+      "Cross-item note: the Dookie field trips and the Dookie campus semester option could be read as work-situated learning, but they are university-taught activity with no practitioner supervision or host accountability documented, so they are treated as situational framing under W2 and excluded from W3."
+    ],
+    "notScoreable": [
+      "No Level 3 subject page appears in the extract — neither the required Capstone subject, nor AGRI30041 Industry Internship, nor AGRI30006 Industry Project, nor any Level 3 major subject. All eight items were scoreable from the Level 1/Level 2 core evidence present, but the level-3 routes for C4 and C5, the assessment-spine test for W2, and the capstone route for G2 could not be evaluated on this extract; a capture of the Level 3 core/capstone pages could change C4, C5, W2 and G2.",
+      "Assessment pages for the two remaining Level 2 Degree Core subjects are present, but no core subject page in the extract documents marking criteria or rubrics for any task, so the 'judged against criteria drawn from practice' conjunct in W1 level 2 and W2 level 2 could not be tested directly for any assessment — it was treated as undocumented, not as satisfied."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-16"
+    }
+  },
+  "b-arts": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 1,
+      "rationale": "Level 1 anchor: collaboration/teamwork appears in learning outcomes but no core unit assesses it. Teamwork is stated at course level ('Work effectively in groups...') and in subject generic-skills lists, but no assessment task in any compulsory-pool subject is a group or team task — the assessment tables of all thirteen Arts Discovery subjects (the only compulsory subject category the extract documents) contain individual essays, exams, quizzes, critiques and individually-graded participation. Not level 2: no core unit assesses collaborative practice with individual accountability, client or stakeholder work. The only assessed team task in the extract ('A team presentation analysing the strategic plan and mission of your host organisations and their relationship to community development goals') sits in MULT20014, an elective WIL subject marked 'Not available in 2026'; ARTS30001's 'small consulting team' is likewise elective, and R1 forbids scoring elective evidence as core.",
+      "evidenceLines": [
+        "Work effectively in groups to meet a shared goal with people whose disciplinary and cultural backgrounds differ from their own",
+        "Work collaboratively and productively in groups and across disciplines",
+        "Contribute to team projects through active participation and effective collaboration",
+        "Contribute to a team project through active participation and effective collaboration",
+        "Participation in class",
+        "Class participation",
+        "In-class discussion questions",
+        "A team presentation analysing the strategic plan and mission of your host organisations and their relationship to community development goals",
+        "Students may only complete one of the listed Work Integrated Learning subjects per semester, and students cannot complete the same Work Integrated Learning subject at different year levels."
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1 anchor: self-assessment and reflection appear in the graduate attributes ('highly self-aware and reflective, with skills in self-assessment') but no unit that every student must take assesses appraisal against criteria. Level 2's named exemplars do occur — 'Peer review essay plan' (ARTS10005, 25%), 'A written critique' (CRIM10001, 15%), 'A critical text comparison' (POLS10003), 'Critical research video review' (LANG10001) — but each sits in one option of the thirteen-subject Arts Discovery pool, and documented pathways exist with no appraisal task at all (PHIL10002's assessment is short answers, an essay, an examination and weekly quizzes). The evidence is therefore consistent with both level 1 and level 2 depending on whether a menu-selected option counts as 'a core unit'; the scoring direction requires the lower level. Level 3 is absent outright: no assessment requires documenting or justifying reliance decisions on a tool, source or collaborator, or evidencing strategy adjustment over time.",
+      "evidenceLines": [
+        "They are also highly self-aware and reflective, with skills in self-assessment, and place great importance on their personal and professional integrity.",
+        "Peer review essay plan",
+        "A written critique",
+        "A critical text comparison",
+        "Critical research video review",
+        "Students will take an Arts Discovery subject within their first semester of study. Undertaking at least one Arts Discovery subject is a requirement of the Bachelor of Arts.",
+        "An examination",
+        "Weekly quizzes"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor: digital tools appear as tool operation/training only — the operational level TEQSA identifies as non-durable. Digital capability is stated at program level as proficiency in 'appropriate information technologies' and communication 'on digital platforms', and the operational instances documented are database and web-tool searching. AI appears once, as subject-matter content in one Discovery option's overview paragraph, not as assessed treatment of capabilities and limits. Not level 0, because digital content is present in program-level generic skills. Not level 2: no core unit is documented as addressing AI capabilities AND limitations/ethics with use-with-limits assessed, and no assessment task in the extract names AI or digital tools.",
+      "evidenceLines": [
+        "Effectively use information from diverse sources and be proficient in the use of appropriate information technologies; and",
+        "Communicate effectively, in oral and written forms and on digital platforms",
+        "Demonstrate high level research skills, including the ability to extend their knowledge-base beyond subject materials using web-based research tools",
+        "learn to apply Buddhist thought to illuminate contemporary debates, from climate change and gender equality to financial regulation and AI"
+      ]
+    },
+    "C4": {
+      "score": 1,
+      "rationale": "Level 1 anchor: transfer is claimed in outcomes but not assessed. The course outcomes claim application 'within complex changing social contexts' and independence in 'the workplace and personal life', and the generic skills claim self-directed study, but no assessment task in the extract requires application to a novel or unfamiliar problem — the documented tasks are essays, exams, quizzes and bibliographies on taught material, so level 2 is not reached. Level 3 is not scoreable on this extract: the course structure requires a Capstone subject, but R2 requires assessment evidence for a level 3 and the extract contains no capstone subject page, no capstone assessment table and no evidence that any capstone is self-scoped.",
+      "evidenceLines": [
+        "Apply critical and analytical skills and methods to the identification and resolution of problems within complex changing social contexts",
+        "Work with independence, self-reflection and creativity to meet goals and challenges in the workplace and personal life.",
+        "Engage confidently in self-directed study and research",
+        "A minimum of 37.5 credit points of Level 3 Major subjects including a Capstone subject",
+        "Completion of at least 50 points of Level 1 study before proceeding to the next subject year level."
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 1 anchor: introductory methods training and literature-review assessment. Methods training is documented as a hurdle module ('Researching History' in HIST10015) and literature-review assessment recurs as annotated-bibliography tasks across several Discovery options; the course outcome claims 'rigorous methods of inquiry'. Not level 0, because that training and those tasks exist. Not level 2: the only documented design-and-collect inquiry is LING10002's interviewing and systematic observation, assessed via two Reports — but LING10002 is one option of thirteen in the Discovery pool, so the program does not document that students design and conduct an inquiry; the ambiguity resolves down. Level 3 requires a substantial required primary-evidence project defended under scrutiny, which the extract does not document for any required subject.",
+      "evidenceLines": [
+        "Apply an independent approach to knowledge that uses rigorous methods of inquiry and appropriate theories and methodologies that are applied with intellectual honesty and a respect for ethical values",
+        "Researching History Module",
+        "Hurdle requirement: If they have not already done so, students must successfully complete the online 'Researching History' module in order to submit assignments and to pass this subject.",
+        "Analytical exercise (annotated bibliography)",
+        "An essay plan with annotated bibliography",
+        "Expanded annotated bibliography",
+        "Annotated Bibliography",
+        "You will interview other people in your class, creating a sense of connection and belonging, as well as systematically observing instances of communication and miscommunication as it occurs across campus and in our communities."
+      ]
+    },
+    "adaptiveness": 5,
+    "W1": {
+      "score": 0,
+      "rationale": "Level 0 anchor (demoted from 1 on adversarial verification): every documented core assessment artefact is an academic genre addressed to the marker, and no core assessment task establishes a spoken deliverable. Level 1 requires BOTH that communication appear in outcomes AND that core assessment add presentation to peers/staff; the second clause is unsupported. Every named spoken/presentation task in the extract sits in an ELECTIVE Work Integrated Learning subject — ARTS30001's 'Linked Project Report and interactive orals', MULT20010's 'Personal/Professional Portfolio with a Student-led Interactive Oral Review', and MULT20014's team presentation (that subject is 'Not available in 2026'). No assessment table in any of the thirteen Arts Discovery subjects — the only compulsory subject category the extract documents — contains a presentation, oral, seminar or spoken deliverable. The three items previously cited as spoken work are participation marks, not presentations: 'Participation in class' (AHIS10001, 5%), 'Class participation' (HIST10015, 20%, sized '800 words (equivalent)') and 'In-class discussion questions' (ENGL10002, 10%, sized '400 words (equivalent)'); two of the three are quantified in WORD equivalents, so nothing establishes the mark is for oral contribution, and they appear in only 3 of the 13 substitutable Discovery options — the same minority-of-pool situation used to hold C2 and C5 down to 1. Holding W1 at 1 on the program-level generic skill 'Communicate effectively, in oral and written forms and on digital platforms' is barred twice over: by the scoring direction (resolve ambiguity to the LOWER level) and by W1's own migration note invoking Barrie (2006, 2007), which forbids scoring stated graduate attributes.",
+      "evidenceLines": [
+        "Communicate effectively, in oral and written forms and on digital platforms",
+        "Apply scholarly and ethical thinking to personal and academic conduct and engage in rigorous and respectful debate",
+        "Participation in class",
+        "Class participation",
+        "In-class discussion questions",
+        "Linked Project Report and interactive orals",
+        "Students may only complete one of the listed Work Integrated Learning subjects per semester, and students cannot complete the same Work Integrated Learning subject at different year levels."
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Level 1 anchor: contextualised or scenario-framed tasks appear, but the artefact produced and the criteria applied remain academic. Case-study framing recurs across the compulsory Discovery pool (art-history case studies, philosophy-of-science case studies, a historical argument built on one case study), yet every documented assessment artefact is an essay, exam, quiz, bibliography or academic report judged by the teaching team. Not level 0, because the framing is present. Not level 2: no core assessment reproduces a professional task end to end producing the artefact a practitioner would produce; the closest documented instance, ARTS30001's project report and interactive orals for an industry partner, is an elective, and R4 bars scoring up on its 'genuine professional setting' label.",
+      "evidenceLines": [
+        "This subject will introduce you to the study of art history by focusing on case studies drawn from historical and contemporary contexts.",
+        "We will look at various case studies ranging from string theory to psychology, to acupuncture to climate change scepticism.",
+        "Build a historical argument on one case study, based on both primary and secondary sources, and communicate it clearly in a variety of media.",
+        "A take-home exam",
+        "An invigilated exam",
+        "An essay plan with annotated bibliography",
+        "In this subject you will collaborate on a real project for an actual industry partner as part of a small consulting team."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1 anchor: work-situated learning exists only as an elective or optional internship. The course structure lists Work Integrated Learning as a category of Arts Discipline subjects that students 'may' complete, capped at one per semester, and the overview presents internship and volunteering as things students may undertake; no placement, practicum or community-based project appears among the course's completion requirements. MULT20010 documents an 80-100 hour self-sourced placement and MULT20014 a not-for-profit placement with an 80-hour attendance hurdle, but both are elective (and MULT20014 is 'Not available in 2026'), so level 2's requirement of a core unit placing students in a real workplace is not met. The in-practice route does not apply: nothing documents this cohort as already practising in a profession.",
+      "evidenceLines": [
+        "Work Integrated Learning",
+        "Students may only complete one of the listed Work Integrated Learning subjects per semester, and students cannot complete the same Work Integrated Learning subject at different year levels.",
+        "Undertake specialised fieldwork, research options and integrated internship and volunteering programs which provide opportunities for professional work experience and community engagement",
+        "Through the completion of 80 to 100 hours of self-sourced work placement, students will test themselves in a workplace environment",
+        "Internship: Personal and Career Growth (MULT20010)",
+        "Industry Project (ARTS30001)"
+      ]
+    },
+    "workplace": 2,
+    "gates": {
+      "G1": {
+        "result": "FAIL",
+        "rationale": "FAIL condition: generic or interchangeable content without disciplinary identity. The extract documents no all-compulsory specialist core — the only compulsory subject requirement is one Arts Discovery subject chosen from thirteen unrelated options, plus 50 credit points of Breadth outside the discipline, plus an explicit diversity-of-study rule capping any single discipline at 125 of 300 points, with roughly thirty substitutable discipline lists offered. Neither of the other PASS routes is evidenced here: the accreditation named at course level is APAC, which the handbook itself refers to the Psychology major rather than the degree; and the progression rules quoted are credit-point thresholds by year level, not a prerequisite chain with technical or methodological depth. The majors-and-capstone rule is real counter-evidence, but the extract contains no major subject list, no prerequisite chain and no capstone page with which to test progressive depth.",
+        "evidenceLines": [
+          "Diversity of study: a maximum of 125 points from any single discipline may be completed.",
+          "A minimum of 50 credit points of Breadth subjects including",
+          "Completion of between one and two Majors",
+          "A minimum of 37.5 credit points of Level 3 Major subjects including a Capstone subject",
+          "Completion of at least 50 points of Level 1 study before proceeding to the next subject year level.",
+          "Australian Psychology Accreditation Council (APAC)",
+          "See the Handbook entry for the Psychology major for details of its accreditation.",
+          "Students will take an Arts Discovery subject within their first semester of study. Undertaking at least one Arts Discovery subject is a requirement of the Bachelor of Arts."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "The FAIL condition — recall or scripted responses only — is not met. Documented core assessment requires students to weigh competing accounts and defend a conclusion: outcomes require evaluating competing explanations and drawing conclusions, creating well-reasoned arguments about a contested question, and evaluating the strengths and weaknesses of measurement techniques, and the corresponding tasks are argumentative essays and take-home exams rather than quizzes alone. This passes on the defended-judgement route only; the capstone and live-project route could not be assessed because no capstone subject or assessment page appears in the extract.",
+        "evidenceLines": [
+          "Develop sociological arguments by using evidence, evaluating competing explanations, and drawing conclusions",
+          "Create well-reasoned arguments about the scientific status of a field of knowledge",
+          "Critically evaluate the strengths and weaknesses of techniques used to measure, classify and define crime and criminality.",
+          "A take-home exam",
+          "A written critique"
+        ]
+      }
+    },
+    "ambiguities": [
+      "Structural ambiguity affecting every item: the only compulsory subject-level requirement the extract documents is one Arts Discovery subject chosen from thirteen options, so 'at least one core unit assesses X' is indeterminate whenever X appears in a minority of that pool. Rule applied uniformly: where level-2 evidence sits in a minority of the substitutable pool, resolve to the lower level and record it here.",
+      "C2 straddled levels 1 and 2. 'Peer review essay plan' (ARTS10005) and 'A written critique' (CRIM10001) are literally the level-2 exemplars, but a student can satisfy the Discovery requirement with PHIL10002, whose assessment is short answers, an essay, an examination and quizzes — no appraisal task. Resolved down to 1 by the lower-level rule.",
+      "C5 straddled levels 1 and 2. LING10002's interviewing and systematic observation, assessed by two Reports, would meet level 2's design-and-conduct-an-inquiry anchor, but it is one Discovery option of thirteen. Resolved down to 1 by the lower-level rule.",
+      "C1 and W1 both had candidate evidence in ARTS30001 (real industry partner, small consulting team, interactive orals) and MULT20010. Scored in neither, because both subjects are elective Work Integrated Learning, and the elective placement evidence was scored once, in W3 at level 1, per the one-construct-one-home rule.",
+      "W1 straddled levels 0 and 1 and was RESOLVED DOWN TO 0 on adversarial verification. The initial pass held it at 1 on the program-level generic skill 'Communicate effectively, in oral and written forms and on digital platforms' plus assessed class participation, but every named presentation/oral task in the extract is elective (ARTS30001, MULT20010, MULT20014), the three participation items appear in only 3 of the 13 Discovery options and two are sized in word equivalents, and Barrie (2006, 2007) via R2 forbids scoring stated graduate attributes. The lower-level rule applies, matching the treatment already given to C2 and C5.",
+      "G1 was a close call. The majors architecture (Level 2 and Level 3 major depth plus a required Capstone) is genuine counter-evidence to FAIL, but it is stated only as credit-point rules; against it stand the 125-point single-discipline cap, 50 points of compulsory Breadth, ~30 substitutable discipline lists and no compulsory specialist core, with no major or capstone page in the extract to evidence progressive depth. Resolved to FAIL.",
+      "G2 passes on the defended-argument route in essay-based assessment; whether contested-scholarship argumentation counts as 'defended trade-off decisions' is arguable, but the stated FAIL condition (recall or scripted responses only) is clearly not met.",
+      "R4 applied to ARTS30001, whose overview uses 'genuine professional setting', 'real project', 'practical workplace' and 'employability'. These labels were disregarded; only the documented features of the task were considered, and it is elective in any case."
+    ],
+    "notScoreable": [
+      "The Capstone subject required by the course structure ('A minimum of 37.5 credit points of Level 3 Major subjects including a Capstone subject') has no subject page and no assessment table in the extract. This makes the level-3 routes of C4 (self-scoped capstone), C5 (substantial required primary-evidence project), W2 (assessment spine) and the capstone route of G2 untestable; each was scored on the remaining evidence rather than inferred.",
+      "No major or minor subject list is present in the extract — only the discipline index pages are named. Level 2 and Level 3 major content, and any prerequisite chain, are therefore absent from the evidence base for C1-C5, W1-W2 and G1.",
+      "No AI-specific or digital-governance unit evidence exists anywhere in the extract, so C3 levels 2 and 3 could not be tested; C3 was scored on program-level generic skills and database/web-tool operation only."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-16"
+    }
+  },
+  "b-bmed": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Meets the level-2 anchor: at least one core unit assesses collaborative practice with individual accountability. BIOM10001 (compulsory, first semester) assesses a group-of-4 written proposal and a group presentation; BIOL10002 assesses a written report split into an individual component, a team-member evaluation and a group report; BIOM20001 assesses a group work-preparation task and a group examination component. Not level 3: although assessed collaboration recurs across Levels 1-2 as the anchor's first clause requires, the second clause fails - no core assessment is documented as requiring coordination of work across people AND tools/AI systems, and no documented role or tool allocation is itself assessed. Placement/WIL evidence is excluded here by the one-construct-one-home rule and scored in W3.",
+      "evidenceLines": [
+        "Group project - written proposal, requiring completion of all preparation milestones and final proposal (completed as a group of 4) 1500‐Words total (500 word draft proposal plus 1000 word final proposal; equivalent to 375 words total per student)",
+        "Group Presentation‐ Group project presentation (completed as a group of 4) 1600 words equivalent (400 words per student)",
+        "Written Assignment- A written report comprising: (i) Individual component (200-word equivalent per student) due Week 5-7, 4%; (ii) Team member evaluation (100-word equivalent per student), due Week 12, 2% (iii) Group report: (700 words per group), due Week 10-12, 14%.",
+        "Written assignment (group work preparation - 4-6 students)",
+        "2 x examinations Part 1: written exam, individual assignment, 2 hours (30%) Part 2: written exam, group (4-6 students) assignment, 1 hour (10%)",
+        "Demonstrate effective, respectful and inclusive teamwork and collaboration"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Meets the level-2 anchor, which names peer review as an instance of criterion-referenced appraisal of quality: BIOM30001 (compulsory Level 3) carries a graded, anonymous written peer assessment, and BIOL10002 assesses a team-member evaluation as a marked component. This clears level 1, whose anchor requires that no core unit assesses appraisal. Not level 3: no core assessment is documented as requiring students to record and justify reliance decisions, defend judgements of AI-output quality, or evidence strategy adjustment over time - the BIOM10001 e-portfolio is described only as 'written reflections' with no documented process-focused or gap-closing requirement.",
+      "evidenceLines": [
+        "Peer assessment (anonymous, online, written)",
+        "Written Assignment- A written report comprising: (i) Individual component (200-word equivalent per student) due Week 5-7, 4%; (ii) Team member evaluation (100-word equivalent per student), due Week 12, 2% (iii) Group report: (700 words per group), due Week 10-12, 14%.",
+        "Completion of an e-portfolio of written reflections",
+        "Collaborative learning is emphasised throughout the course as students work in laboratories, tutorials, workshops and small group activities, and undertake peer review."
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Matches the level-1 anchor - AI and digital tools appear only as electives or as tool operation, the level TEQSA identifies as non-durable. Core subjects state digital literacy only as a generic skill, and the only digital content documented in a core unit is computer-aided learning and use of electronic databases/forms of communication (tool operation). Machine-learning, informatics and neural-network subjects sit in the discipline-elective list, not the compulsory core. This is above level 0 because digital literacy does appear in core-unit generic skills. Not level 2: no core unit is documented as addressing AI capabilities AND limitations/ethics with use-with-limits assessed, and no core assessment requires critique or governance of AI systems (level 3).",
+      "evidenceLines": [
+        "Demonstrates digital and scientific literacy skills",
+        "the utilisation of computer-aided learning activities to enhance understanding.",
+        "the ability to interpret scientific literature and interpret data from electronic databases;",
+        "Effectively search for, critically evaluate, and discriminate reliable sources of information and apply that information in support of scientific investigation, scholarly debate, and/or social and professional settings;",
+        "Computer Science and Software Engineering",
+        "A full list of subjects available as credit (electives) for the Bachelor of Biomedicine (B-BMED) can be found via the link below."
+      ]
+    },
+    "C4": {
+      "score": 1,
+      "rationale": "Matches the level-1 anchor: self-directed learning and transfer are claimed in program intended learning outcomes and generic skills but no core assessment is documented against them. Not level 2 - no core assessment is described as requiring application to novel or unfamiliar problems (case variation, unseen datasets, cross-context projects); the CHEM10006 independent-learning hurdle is assessed but its tasks are not documented as novel-context application. Not level 3 - the anchor's structured progression to independent learning fails because the self-scoped research project subjects (SCIE30001, BIOM30003) sit under discipline electives, not the compulsory core, and no assessed identification of one's own knowledge gaps with a plan to close them is documented.",
+      "evidenceLines": [
+        "Demonstrate skills in reflective practice, self-directed learning and effective decision-making, to set personal and learning goals, manage tasks, and evaluate progress;",
+        "Engage confidently in self-reflection, self-directed study and research;",
+        "Hurdle requirement: Independent learning tasks need to be completed in order to pass the subject.",
+        "Research Project Subjects",
+        "25 credit points of Compulsory Level 3 Discipline subjects"
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Matches the level-1 anchor: introductory methods content and literature-based assessment. The core assesses an annotated bibliography and a conference abstract (BIOM10002), prescribed laboratory practical work (CHEM10006 hurdle) and a written physiology lab report (BIOM20002). Not level 2 - 'design and perform an inquiry-based project' appears only as a BIOL10002 intended learning outcome, and the corresponding assessment items (practical attendance hurdle, group written report) are not documented as student-selected methodology with data collection, so R2/the lower-level rule holds it at 1. Not level 3 - the substantial primary-evidence project is an elective route (Research Project Subjects), not required, and no viva or staged supervised defence is documented.",
+      "evidenceLines": [
+        "design and perform an inquiry-based project and interpret the data.",
+        "Develop literature research skills specific to the biomedical sciences",
+        "Annotated bibliography",
+        "Conference abstract",
+        "Ongoing assessment of practical work (6 x 3 hour practicals)",
+        "Written Physiology Lab Report",
+        "Execute basic laboratory experiments; analyse and interpret experimental data and write laboratory reports;",
+        "Research Project Subjects"
+      ]
+    },
+    "adaptiveness": 7,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1 anchor (demoted from 2 on adversarial verification): communication appears in outcomes and core assessment adds presentation to peers/staff, but nothing clears level 2's conjunction. The level-2 anchor requires a recognised professional genre OR an audience beyond the teaching team, AND judgement against criteria drawn from professional practice; the second clause is undocumented everywhere in the extract. BIOM10002's 'Conference abstract' and 'Virtual conference ePoster + 2 minute video synopsis' are research-training genres staged as an in-class virtual conference, with no documented audience beyond the teaching team and no practice-drawn criteria. BIOM30001's 'Writing for your audience' names no audience, and its debate exercise and BIOM10001's group presentation are delivered to peers and staff — the level-1 anchor verbatim. The remaining line, 'communicate effectively to different audiences about the ethical implications and social and patient outcomes of medical research', is a BIOM30002 intended learning outcome, which R2 and Barrie (2006, 2007) exclude — R2 binds hardest on W1. Cohort precedent is consistent: 872bb scored W1=1 while treating faculty research-seminar presentation and an externally examined thesis as academic rather than professional genres; mc-sciear scored 1 with assessed in-class orals and an in-class negotiation simulation; 991aa scored 1 with an assessed tutorial oral. Every published W1=2 rests on a genre aimed outside the academy or judged by a practitioner (mc-phtyph's client-facing 'Poster, handout, or social media post'; mc-scibit's industry-partner-assessed presentation; mc-jurisd's 'Memorandum to a partner'; mc-clind's clinical case formulation). b-bmed documents no such line, and resolving upward on a conceded gap is barred by the scoring direction (never resolve ambiguity upward).",
+      "evidenceLines": [
+        "Conference abstract",
+        "Virtual conference ePoster + 2 minute video synopsis",
+        "Writing for your audience",
+        "Debate/discussion exercise (15 min oral presentation across 6 students); (approx. 2.5 mins per student)",
+        "Group Presentation‐ Group project presentation (completed as a group of 4) 1600 words equivalent (400 words per student)",
+        "communicate effectively to different audiences about the ethical implications and social and patient outcomes of medical research."
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Matches the level-1 anchor: contextualised and scenario-framed tasks appear - clinically relevant case studies in BIOM20001 and six case-based 'malady' modules in BIOM30002 - but the artefacts produced and the criteria applied remain academic (intra-semester tests, written assignments, lab reports and written examinations dominate every core subject's assessment table). Not level 2: no core assessment is documented as reproducing a professional task end to end with an artefact a practitioner would produce judged against criteria drawn from practice. Per R4 the case-study framing is scored on its documented features only. The conference abstract/ePoster is scored in W1 under the one-construct-one-home rule (it is named there as a professional genre).",
+      "evidenceLines": [
+        "Integrate and apply knowledge of the basic principles of pathology to clinically relevant case studies.",
+        "Students spend 5-6 hours addressing each of six “maladies”, selected to demonstrate the holistic nature of medical practice and the integration of biomedical research into the development of novel diagnostics and evidence-based therapies.",
+        "Written Physiology Lab Report",
+        "2 x 35 min intra-semester tests (15% each)",
+        "Graphical analysis written assignment",
+        "Written examination"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Matches the level-1 anchor: work-situated learning exists only as an elective. The sole internship subject appears under the discipline-elective listing, not in the compulsory core, which comprises 50 points of Level 1, 50 points of Level 2 and 25 points of Level 3 discipline subjects with no placement, practicum, live-client or community-based project. Above level 0 because such an option does appear in the course structure. Not level 2: no core unit places students in a workplace or professional-community setting with practitioner supervision, and the cohort is not documented as already practising in the profession, so the v4.2 in-practice route does not apply.",
+      "evidenceLines": [
+        "Internship",
+        "A full list of subjects available as credit (electives) for the Bachelor of Biomedicine (B-BMED) can be found via the link below.",
+        "50 credit points of Compulsory Level 1 Discipline subjects",
+        "50 credit points of Compulsory Level 2 Discipline subjects",
+        "25 credit points of Compulsory Level 3 Discipline subjects",
+        "Compulsory Level 3 Discipline subjects"
+      ]
+    },
+    "workplace": 3,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Satisfies the PASS condition on two of its three routes: a compulsory specialist core at every year level (125 points of core subjects) and a staged prerequisite chain, with named Level 1 core subjects that must be completed before progression to Level 2 core, plus 50 points of Level 3 major study for disciplinary depth. This is not generic or interchangeable content - the core is biomedical-science specific from BIOM10001 through BIOM30001.",
+        "evidenceLines": [
+          "Students are required to complete a total of 300 points of study, including 125 points of core subjects across the degree. Depth within a particular biomedical science or health-related discipline is achieved by completing 50 points (4 subjects) in a major at Level 3.",
+          "50 credit points of Compulsory Level 1 Discipline subjects",
+          "50 credit points of Compulsory Level 2 Discipline subjects",
+          "25 credit points of Compulsory Level 3 Discipline subjects",
+          "In particular, BIOL10002 Biomolecules & Cells, BIOM10001 Discovering Biomedicine, BIOM10002 Exploring Biomedicine and CHEM10006 Chemistry for Biomedicine must be completed before students may proceed to Level 2 core subjects."
+        ]
+      },
+      "G2": {
+        "result": "FAIL",
+        "rationale": "The PASS condition requires assessments that demand defended trade-off decisions, or simulations/capstones/live projects carrying real uncertainty and accountability. Neither is documented in the core: every compulsory subject's assessment table is dominated by intra-semester tests, quizzes, written assignments and written examinations, and the capstone-like research project sits outside the core as an elective. The closest candidates - a 2.5-minute-per-student debate exercise and a self-chosen group proposal on a current topic - are argued or scoped tasks, but neither is documented as requiring a trade-off decision to be defended, nor does either carry documented accountability under real uncertainty.",
+        "evidenceLines": [
+          "5x intra-semester test (10% each) Throughout the teaching period",
+          "2 x 35 min intra-semester tests (15% each)",
+          "6 online quizzes assessing the Discovery modules.",
+          "5 Progressive Learning Tasks (4% each)",
+          "Written examination",
+          "Debate/discussion exercise (15 min oral presentation across 6 students); (approx. 2.5 mins per student)",
+          "Identify, critically evaluate and effectively communicate a current topic or issue in Biomedical Science or Health",
+          "Research Project Subjects"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C2 straddled 1 and 2: BIOM30001's 'Peer assessment (anonymous, online, written)' is a marked core task but the extract never states the criteria against which peers judge quality, so the level-2 phrase 'criterion-referenced' is inferred from the anchor's own naming of peer review as an instance. Resolved at 2 because level 1's anchor requires that no core unit assesses appraisal, which the graded peer assessment and team-member evaluation contradict.",
+      "C2 vs C4 over the BIOM10001 e-portfolio: 'Completion of an e-portfolio of written reflections' could read as C2's 'portfolio with standards' or as C4's assessed identification of knowledge gaps. Scored in C2 under one-construct-one-home (its construct is appraisal/regulation of one's own work) and it lifts neither item to 3, because neither the standards nor the gap-closing plan is documented.",
+      "C3 straddled 0 and 1: no core unit teaches AI, and digital content in the core is only generic-skill statements plus computer-aided learning. Resolved at 1 rather than 0 because the level-0 anchor requires no digital content in any core unit or program-level outcome, which the core generic skills contradict; the level-1 anchor's 'only as electives or as tool operation' fits exactly.",
+      "C5 straddled 1 and 2: BIOL10002's outcome 'design and perform an inquiry-based project and interpret the data.' would satisfy level 2 if an assessment item named it, but its assessment table lists only a practical-attendance hurdle, tests, a group written report and an exam. Resolved down to 1 by R2 and the never-resolve-upward rule.",
+      "W1 straddled 1 and 2: a conference abstract and virtual-conference ePoster are recognised genres of biomedical research practice, but level 2's qualifier 'judged against criteria drawn from professional practice' is not documented, and the conference is virtual/in-class with no evidenced audience beyond the teaching team. Resolved DOWN to 1 on adversarial verification: level 2 is a conjunction and the second clause is conceded absent, so the never-resolve-upward rule governs; presentation to peers and staff is the level-1 anchor exactly.",
+      "G2 was the closest call: the BIOM30001 debate exercise and the BIOM10001 self-chosen group proposal involve contestable positions, but neither is documented as a defended trade-off decision nor carries accountability under real uncertainty. Resolved to FAIL under the never-resolve-upward rule."
+    ],
+    "notScoreable": [
+      "Coverage caveat rather than an unscored item: the extract carries the course pages, the eight compulsory core subjects and the Level 1 foundation electives, but no subject page for any Level 3 major (the 50-point depth component) or for SCIE30002 Science and Technology Internship. Any assessment evidence those pages carry could not be scored, so C4, C5, W2 and W3 rest on the compulsory core alone."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-16"
+    }
+  },
+  "b-com": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor met: at least one required unit assesses collaborative practice with individual accountability. The compulsory Foundation requirement forces 4 subjects out of a list of 7, and 5 of those 7 carry a marked group assignment (ACCT10001, ECON10003, MKTG10001, MGMT10002, CMCE10002) while only FNCE10002 and ACTL10001 do not — so no completion path avoids assessed group work; ACCT10001's per-student word allocation documents individual accountability, and the standard quantitative path adds two more group written assignments in ECON10005. Not level 3: level 3 additionally requires an assessment coordinating work across people AND tools/AI systems, and the extract contains no mention of AI, gen AI or machine learning anywhere, and no assessment where the division of work between people and systems is itself assessed.",
+      "evidenceLines": [
+        "A minimum of 50 credit points of Foundation subjects",
+        "Complete a minimum of 50 credit points of subjects from the following list of introductory Commerce subjects:",
+        "Group assignment (3000 words, in groups of 3-4 students)",
+        "750-1000 words (each)",
+        "Written group assignment (groups of up to 3)",
+        "Group assignment (groups of 3-5 students)",
+        "Group assignment (usually in groups of 2-4)",
+        "Group assignment (4,000 words equivalent, in groups of 3-4 students)",
+        "Group written assignment 1 (3 - 4 students per group)",
+        "Work collaboratively and productively in groups with others from diverse backgrounds and perspectives, and demonstrate an understanding of and respect for cultural and interpersonal differences"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1 anchor: critical evaluation and self-directed appraisal appear in the program's intended learning outcomes and generic skills, but no unit that every student must complete assesses appraisal of the quality of work against criteria. The only criterion-referenced appraisal task in the extract is FNCE10002's peer-review sets, and FNCE10002 is one of seven substitutable Foundation-pool subjects — a student can complete the degree without it, so the pigeonhole test that carries C1 fails here. Not level 2: no core assessment documents peer review, structured critique, portfolio against standards or marking against exemplars. Level 3 is out under R2 — nothing requires documenting or justifying reliance decisions on a tool, source or collaborator.",
+      "evidenceLines": [
+        "Four short sets of peer-review tasks (750 words equivalent)",
+        "Adopt a critical approach to evaluate the access, analysis and use of evidence from diverse sources to enable robust evidence-based decision-making",
+        "Critically evaluate new ideas, research findings, methodologies and theoretical frameworks in a specialised field of study",
+        "Complete a minimum of 50 credit points of subjects from the following list of introductory Commerce subjects:",
+        "Analyse and interpret major financial statements and the accounting policy choices that influence their preparation;"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor exactly: the digital content documented across the required spine is tool operation — Excel, Excel Solver, statistical packages, 'use of computer software' — the operational level the anchor caps at 1, and the one subject that goes beyond it (CMCE10002, data governance and the ethical implications of analytics) sits in the substitutable Foundation pool, i.e. 'appear only as electives'. Not level 2: no unit every student must complete addresses capabilities AND limitations/ethics of AI; the extract contains no occurrence of AI, artificial intelligence, generative AI or machine learning at all. Level 3 is unreachable for the same reason.",
+      "evidenceLines": [
+        "Be proficient in the use of appropriate information technologies",
+        "Skilled in the use of computer systems and software used in commerce and business through practical assignments, exercises and demonstrations.",
+        "Students will gain experience in the use of Excel to visualise and communicate key features of data, and in the use of data to inform decisions made in business and economics.",
+        "Apply Excel Solver to solve the optimisation models",
+        "Use statistical program to estimate econometric models, test hypotheses, and undertake forecasting exercises.; and",
+        "Relate ethical principles to the collection, storage, and use of data by business and government organisations;",
+        "Complete a minimum of 50 credit points of subjects from the following list of introductory Commerce subjects:"
+      ]
+    },
+    "C4": {
+      "score": 1,
+      "rationale": "Level 1 anchor: transfer and self-directed learning are claimed in the program's generic skills and intended learning outcomes but are not assessed in any unit every student must take. Not level 2: the case-based and novel-problem assessments in the extract (MGMT10002's case-study assignments, MKTG20004's project) belong to substitutable pool subjects, and the assessments on the guaranteed path are tests, exams and written assignments whose descriptions document no novel or unfamiliar application. Not level 3: R2 blocks it — the course structure requires a capstone subject, but no capstone subject page is in the extract, so there is no assessment evidence that it is self-scoped or that students identify and plan to close their own knowledge gaps.",
+      "evidenceLines": [
+        "Engage confidently in self-directed study and research",
+        "Analyse business and economic issues in different international cultural, societal and institutional settings",
+        "Develop new ideas, insights and solutions through creative applications of disciplinary knowledge that address complex business and economic problems",
+        "A minimum of 37.5 credit points of Level 3 major subjects including a capstone subject.",
+        "Apply major theories and models from the field of management to analyse organisational problems and generate realistic solutions and recommendations, as presented in case studies;"
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 1 anchor: an introductory methods requirement is compulsory on both pathways — ECON10005 Quantitative Methods 1 (or MAST20005 Statistics) plus a level-2 quantitative subject — teaching estimation, hypothesis testing and regression, assessed by written assignments and examinations. Not level 2: no assessment that every student must complete documents students designing and conducting an inquiry with methodology selection and data collection. The single subject that does describe conducting a research project (MKTG20004) is one of four options within the standard pathway only and is unavailable to mathematics-pathway students. Not level 3: nothing in the extract makes a primary-evidence project required, and no viva, defence or staged supervised review of methodology is documented.",
+      "evidenceLines": [
+        "Completion of one of the two quantitative requirements (i.e., the standard or mathematics pathway)",
+        "This subject develops skills in descriptive and inferential statistical analysis that underpin data-informed decision-making in the various specializations within the faculty.",
+        "Conduct simple regression analysis to model the relationship between variables and draw inferences about relationships.",
+        "Fit statistical models to data by both estimating and testing hypotheses about model parameters.",
+        "Three written assignments due at regular intervals amounting to a total of up to 50 pages",
+        "A written examination",
+        "Apply market and business research principles by conducting an in-depth market research project for a real management problem.",
+        "Research skills including the retrieval of information from a variety of business, commerce and economics sources"
+      ]
+    },
+    "adaptiveness": 6,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1 anchor: communication and professional conduct appear in the intended learning outcomes, generic skills and graduate attributes, and assessed spoken communication to peers and staff does exist — tutorial participation is marked in the compulsory ECON10004 and across the quantitative spine, and presentation tasks appear in ACTL10001 and ECON10003 — but there is no professional genre and no audience beyond the teaching team. Level 0 is defeated because spoken communication is assessed. Not level 2: no assessment description in the extract documents a client brief, consultancy or policy advice, pitch or public-facing artefact judged against criteria drawn from professional practice; the assessment tables name only essays, individual and group written assignments, quizzes, tests and 2-hour examinations. Per R2 and Barrie, the stated graduate attributes cannot lift this.",
+      "evidenceLines": [
+        "Effectively communicate an understanding of disciplinary knowledge, concepts, theoretical models and frameworks, and modes of analysis in the major(s) to diverse groups, using a range of approaches, media and information modes",
+        "Communicate ideas effectively and professionally using a diverse range of alternative formats, information, and media",
+        "Effective communicators on matters related to economics and commerce",
+        "Ethical and collegial in professional practice.",
+        "Tutorial attendance and participation",
+        "Tutorial preparation, participation and contribution to group discussions",
+        "Assignment 2 - Oral presentation",
+        "In-tutorial presentation task (groups up to 3)",
+        "Individual essay",
+        "End-of-semester examination"
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Level 1 anchor exactly: contextualised and scenario-framed tasks are pervasive — management and marketing case studies, business-analytics case contexts, decision models motivated by business applications — but the artefact produced and the criteria applied remain academic in every documented assessment: individual essays and assignments, group written assignments, quizzes, mid-semester tests and 2-hour examinations. Not level 2: nothing documents an assessment reproducing a professional task end to end, producing the artefact a practitioner would produce, judged against criteria drawn from practice. Per R4 the handbook's 'real-world business problems' and 'real management problem' phrasing is not scored as authenticity — only documented task features are, and none are given.",
+      "evidenceLines": [
+        "Students will be introduced to management theory, research and case studies that will develop their ability to manage complex real-world business problems, and to create a workplace where people can thrive.",
+        "Apply creativity and knowledge of major theories and models to marketing problems presented in case studies and assignments; and",
+        "Theoretical models discussed are motivated by real-life business applications and decision problems.",
+        "Individual essay",
+        "Individual assignment",
+        "Group assignment 1 (groups of 4 students)",
+        "End of semester examination",
+        "Individual written assignment"
+      ]
+    },
+    "W3": {
+      "score": 0,
+      "rationale": "Level 0 anchor met literally: no work-integrated learning, placement, practicum, internship or community-based project appears anywhere in the course structure. The course-structure page enumerates the full 300 credit points — commerce discipline subjects by level, the foundation pool, the quantitative requirement, breadth and free subjects, the majors and the capstone — and contains no work-situated component, and no subject page in the extract mentions placement, practicum, internship, supervision by a practitioner or a live client. The cohort is not documented as already practising, so the v4.2 in-practice route does not apply.",
+      "evidenceLines": [
+        "The Bachelor of Commerce requires the successful completion of 300 credit points.",
+        "237.5 credit points of Commerce discipline subjects including",
+        "A minimum of 50 credit points of Foundation subjects",
+        "A minimum of 62.5 credit points of Level 2 Commerce discipline subjects including",
+        "A minimum of 37.5 credit points of Level 3 major subjects including a capstone subject.",
+        "50 credit points of Breadth subjects including",
+        "Completion of between one and two prescribed majors"
+      ]
+    },
+    "workplace": 2,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program documents a coherent specialist core with progressive depth on two of the three routes the gate names: accredited sequences (the Accounting major accredited by CPA and CAANZ, the Actuarial Studies major by AIA) and a staged prerequisite chain enforced by progression rules that gate each year level on completed credit at the level below, running from a compulsory first-semester degree core subject through required level-2 and level-3 commerce discipline loads to a required level-3 capstone within a prescribed major. Content is specialist commerce, not generic or interchangeable — breadth is explicitly excluded from the faculty's own disciplines.",
+        "evidenceLines": [
+          "The Accounting major is accredited by Certified Practising Accountant Australia (CPA).",
+          "Chartered Accountants Australia and New Zealand (CAANZ)",
+          "The Actuarial Studies major is accredited by Actuaries Institute Australia (AIA).",
+          "12.5 credit points of degree core subjects",
+          "Completion of ECON10004 Introductory Microeconomics and the compulsory Joining Melbourne Modules within the first semester of commencement in the course.",
+          "Completion of at least 50 points of Level 1 study before proceeding to the next subject year level.",
+          "A minimum of 62.5 credit points of Level 2 Commerce discipline subjects including",
+          "A minimum of 37.5 credit points of Level 3 major subjects including a capstone subject.",
+          "Completion of between one and two prescribed majors"
+        ]
+      },
+      "G2": {
+        "result": "FAIL",
+        "rationale": "Resolved downward on missing evidence, not on a judgement that the program is recall-only. The gate PASSES on defended trade-off decisions, or on capstones/simulations/live projects with real uncertainty and accountability. The strongest candidate — MGMT20005 Business Decision Analysis, whose outcomes require formulating decision problems with decision trees, optimisation and simulation and developing an optimal strategy across decision alternatives — is one of four substitutable options within the standard quantitative pathway only, so no completion path is guaranteed to include it. The required capstone subject would be the other route, but its subject and assessment pages are absent from the extract, so neither uncertainty nor accountability is documented for it. On the guaranteed path the documented assessments are tests, examinations, written individual assignments and group written assignments whose descriptions record no defended trade-off, and the decision-making claims sit in graduate attributes, which R2 excludes.",
+        "evidenceLines": [
+          "Formulate and analyse business decision problems using advanced decision making/modelling techniques such as decision trees, optimisation and simulation",
+          "Adopt the decision analysis approach with perfect and sample information to develop an optimal strategy and to quantitively analyse decision alternatives using spreadsheets",
+          "Completion of one of the two quantitative requirements (i.e., the standard or mathematics pathway)",
+          "A minimum of 37.5 credit points of Level 3 major subjects including a capstone subject.",
+          "Effective decision makers in business and commerce",
+          "Mid-semester test",
+          "Individual written assignment",
+          "End-of-semester examination"
+        ]
+      }
+    },
+    "ambiguities": [
+      "Definition of 'core' governs five items. B-COM names only 12.5 credit points of 'degree core subjects' (ECON10004); the Foundation requirement (50 cp chosen from seven listed subjects) and the quantitative requirement (one of two pathways) are compulsory components with substitutable members. I applied one rule consistently: evidence counts as core only when every completion path must include it. C1 survives that test by pigeonhole (only 2 of the 7 Foundation subjects lack a group assignment, and 4 must be taken, so at least 2 group-assessed subjects are unavoidable); C2, C3, C4, C5, W1 and W2 do not.",
+      "C1: strictly reading 'core unit' as the single named degree core subject ECON10004 — whose assessment is a mid-semester test, an individual written assignment, tutorial participation and an examination, with no group task — would give level 1. Scored 2 because the pigeonhole over the compulsory Foundation pool makes assessed group work unavoidable on every path; this is the one item where the ambiguity was not resolved downward, and it rests on structure rather than on a single quotable core assessment.",
+      "C2: straddles 1 and 2. FNCE10002's four sets of peer-review tasks are criterion-referenced appraisal of quality and would satisfy level 2 if any single Foundation-pool subject counted as core. Resolved to 1 under the lower-level rule because FNCE10002 is avoidable.",
+      "C3: straddles 1 and 2. CMCE10002 addresses data governance and the ethical implications of analytics and assesses it through case-based group work, which would satisfy level 2 if it were compulsory. Resolved to 1 because it is one of seven substitutable Foundation subjects, and because the anchor's level-2 wording is about AI capabilities and limitations specifically, which the extract never mentions.",
+      "C4: straddles 1 and 2. MGMT10002 assesses case-study application and MKTG20004 documents a market research project on a real management problem; either would support level 2 as a core assessment. Resolved to 1 because both are substitutable. The required capstone is the natural level-3 route and was blocked by R2 for want of an assessment page.",
+      "C5: straddles 1 and 2 on the same MKTG20004 evidence (conducting an in-depth market research project), which documents inquiry design and data collection. Resolved to 1 because MKTG20004 is one of four level-2 options on the standard pathway and is not open to mathematics-pathway students.",
+      "W1: straddles 1 and 2. CMCE10002's learning outcome about communicating analytics results to a non-technical audience of decision-makers and stakeholders, and ECON20003's outcome about communicating professionally to a variety of audiences, both point at a professional genre and a wider audience. Resolved to 1 because both are outcome statements in substitutable subjects and R2/Barrie forbid scoring stated outcomes, and because their assessment tables describe only generic group and individual assignments.",
+      "W2: straddles 1 and 2 on MKTG20004's 'real management problem' project. Resolved to 1 under R4 — the phrase is a label, and no documented feature of the task (its artefact, its context, or criteria drawn from practice) is given in the assessment description, which reads only as two 3000-word group assignments.",
+      "G2: straddles PASS and FAIL. The required capstone subject and MGMT20005's decision-analysis assignments each point at PASS. Resolved to FAIL under the downward rule because neither is evidenced on a guaranteed path with documented uncertainty and accountability. Adding the capstone subject page to the extract is the single change most likely to flip this gate."
+    ],
+    "notScoreable": [
+      "The capstone subject required by the course structure ('A minimum of 37.5 credit points of Level 3 major subjects including a capstone subject.') has no subject or assessment page in the extract. Its absence directly limits C4 (level-3 self-scoped project route), C5 (level-3 required primary-evidence project), W1 and W2 (a capstone is where professional genre and end-to-end professional task design would most likely appear) and G2 (the capstone route to PASS). All five were scored on the evidence present rather than inferred from the capstone's existence.",
+      "No Level 2 or Level 3 major subject pages are in the extract at all — only the degree core subject, the seven Foundation-pool subjects and the quantitative-requirement subjects. Panel C evidence that lives in the majors (which carry 25 cp at level 2 and 37.5 cp at level 3 for every student) could not be assessed.",
+      "W3 was scored 0 rather than marked unscoreable because the course-structure page — which is present and enumerates all 300 credit points — documents no work-situated component, and the level-0 anchor is a statement about the course structure. The caveat above about missing major subject pages still applies."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-18"
     }
   },
   "mc-apbusa": {

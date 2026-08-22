@@ -1,0 +1,37 @@
+{
+  "_comment": "Destination titles adjudicated as NOT mappable to a single O*NET SOC, and titles whose proposed mapping was killed in adversarial review. Read by scripts/destination-profiles.py: `nextbatch` skips refused titles and the programs they hold (a program clears only when EVERY title maps, so a program carrying a refused title cannot clear and its other titles are not live work). Full reasoning per title: docs/tasks/dfva-crosswalk-backfill.SKILL.md. Use `nextbatch N --all` to see the raw queue.",
+  "refused": [
+    {"title": "Teacher", "run": "rule 5", "why": "Blocks primary and secondary programs at once; Elementary 25-2021 (84.74) vs Secondary 25-2031 (91.99) is a 7-point swing with no correct answer."},
+    {"title": "Classroom Teacher", "run": "rule 5", "why": "Same level split; blocks mc-teachpr and mc-teachsa simultaneously."},
+    {"title": "Casual Relief Teacher", "run": "rule 5", "why": "Same level split; blocks mc-teachpr and mc-teachsa simultaneously."},
+    {"title": "English Teacher", "run": "rule 5", "why": "Blocks mc-apling (adult TESOL) and mc-teachpr (primary) — different occupations."},
+    {"title": "Assistant Language Teacher", "run": "rule 5", "why": "Names a rank, not an occupation; level unfixed."},
+    {"title": "Learning Support Teacher", "run": "19th", "why": "Special-education level spread; residual 25-2059 is the LOWEST of the family (raw AIOE Preschool 0.375 / K-Elem 0.736 / Middle 1.296 / Secondary 0.959 / All Other -0.663) — picking it is the Management Trainee failure mode."},
+    {"title": "Special Education Teacher", "run": "19th", "why": "Same special-education level spread."},
+    {"title": "Teacher of the Deaf", "run": "19th", "why": "Same special-education level spread."},
+    {"title": "Specialist Remedial Teacher", "run": "19th", "why": "Same special-education level spread."},
+    {"title": "Management Trainee", "run": "overturned 2026-08-17", "why": "Rule 5 fails: 'International Business' names no SOC. Candidates spread 20.4 points and 11-1021 is the lowest, so the row would systematically deflate mc-ib."},
+    {"title": "Crime Prevention Officer", "run": "overturned 2026-08-17; convention #5", "why": "Sworn divisional posting in VIC/NSW vs civilian community-safety read; Delta 43.46 to 33-3051 and the civilian side has no settled SOC."},
+    {"title": "Family Violence & Review Officer", "run": "rule 5; convention #5", "why": "Names a statutory function, not an occupation; 274ab record does not link titles to employers."},
+    {"title": "Technical Leader", "run": "10th", "why": "Names seniority in an unspecified technical discipline; mc-eleceng record does not fix the occupation."},
+    {"title": "Design Assistant", "run": "19th", "why": "Assistant + generic 'design'; the crosswalk's Assistant precedent is 6-for-6 on titles that name the discipline, and this one does not."},
+    {"title": "Senior Product Manager", "run": "killed twice; convention #3", "why": "Product management has no settled SOC — 11-2021 (94.93) is only shippable in a commit that also re-points Product Director (77.30), 15.67 points apart on one occupation at two ranks."},
+    {"title": "Clinical Specialist", "run": "7th", "why": "Industry title (medical-device field role) vs clinical practitioner; unresolved for mc-biomeng."},
+    {"title": "Innovation Manager", "run": "8th", "why": "Generic management title with no discipline anchor."},
+    {"title": "Publishing Assistant", "run": "11th", "why": "Assistant rank with no occupation named; publishing spans editorial and production SOCs."},
+    {"title": "Content Manager", "run": "11th", "why": "Verified candidate set spans marketing, editorial and web SOCs with no O*NET title anchor separating them — see the 11th run's candidate table."},
+    {"title": "Agribusiness Graduate", "run": "9th", "why": "'Graduate' is not an occupation."},
+    {"title": "Research and Development Officer", "run": "9th", "why": "R&D spans the discipline; mc-agsc record does not fix which science."},
+    {"title": "Head of National Beef Development", "run": "9th", "why": "Bespoke industry leadership title with no SOC analogue."},
+    {"title": "Collections Assistant", "run": "overturned 20th", "why": "The Management Trainee shape with a twist — Assistant rank plus a museum/library ambiguity; candidates too far apart."},
+    {"title": "Heritage consultant", "run": "20th", "why": "Heritage work spans archaeology, planning and architecture SOCs; band wider than previously recorded."},
+    {"title": "Heritage Officer", "run": "20th", "why": "Same heritage span; no anchor separates the candidates."}
+  ],
+  "overturned_with_replacement": [
+    {"title": "Pilot Plant Operator", "killed": "51-8091", "propose": "19-4031", "why": "O*NET 19-4031 carries the literal task 'Operate experimental pilot plants'."},
+    {"title": "Cloud Solution Architect", "killed": "15-1143", "propose": "15-1199", "why": "15-1199.02 lists 'Solutions Architect' as a reported title; 15-1143 is strictly LAN/WAN."},
+    {"title": "Full-Stack Web Developer | Python Django, Javascri", "killed": "15-1132", "propose": "15-1134", "why": "Matches Frontend Developer and Web Developer in the same record; Delta 2.66."},
+    {"title": "Nurse Research Coordinator", "killed": "19-1042", "propose": "29-1141 (applied)", "why": "Senior Clinical Research Nurse -> 29-1141 is the exact precedent; Delta 25.03."},
+    {"title": "Analyst - Financial Crime Operations", "killed": "13-2061, then 13-1041", "propose": "13-2099 (applied)", "why": "O*NET 13-2099.04 Fraud Examiners is the literal home."}
+  ]
+}

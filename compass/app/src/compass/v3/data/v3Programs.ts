@@ -88,11 +88,11 @@ export const V3_META: V3Meta = {
   exposureIndexVintage:
     "AIOE_DataAppendix.xlsx @ AIOE-Data/AIOE main (n=773, z −2.670…1.528)",
   exposureRescaling: "min-max 0-100 over published population",
-  exposureComputedAt: "2026-08-11",
+  exposureComputedAt: "2026-08-14",
   destinationBasis:
     "JIR/LiveAlumni alumni titles (all placed programs); JSA HEO not used on this axis",
   crosswalkAuthored:
-    "inherited 288-title index + 80 titles mapped Aug 2026 (reconciliation package) + 201 titles mapped for the extension cohort",
+    "inherited 288-title index + 80 titles mapped Aug 2026 (reconciliation package) + 213 titles mapped for the extension cohort",
   perturbation: {
     draws: 20000,
     pPerturb: 0.1,

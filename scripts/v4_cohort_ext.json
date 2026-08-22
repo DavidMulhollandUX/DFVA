@@ -1,0 +1,1178 @@
+[
+ {
+  "code": "038ab",
+  "name": "Master of Art Curatorship",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/038ab",
+  "cohort": "extension",
+  "faculty": "Arts"
+ },
+ {
+  "code": "097ab",
+  "name": "Master of Development Studies",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/097ab",
+  "cohort": "extension",
+  "faculty": "Arts"
+ },
+ {
+  "code": "175aa",
+  "name": "Master of Arts and Cultural Management",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/175aa",
+  "cohort": "extension",
+  "faculty": "Arts"
+ },
+ {
+  "code": "192aa",
+  "name": "Master of International Tax",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/192aa",
+  "cohort": "extension",
+  "faculty": "Law"
+ },
+ {
+  "code": "195aa",
+  "name": "Master of Construction Law",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/195aa",
+  "cohort": "extension",
+  "faculty": "Law"
+ },
+ {
+  "code": "274ab",
+  "name": "Master of Criminology",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/274ab",
+  "cohort": "extension",
+  "faculty": "Arts"
+ },
+ {
+  "code": "277aa",
+  "name": "Master of Intellectual Property Law",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/277aa",
+  "cohort": "extension",
+  "faculty": "Law"
+ },
+ {
+  "code": "294be",
+  "name": "Master of Marketing",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/294be",
+  "cohort": "extension",
+  "faculty": "Melbourne Business School"
+ },
+ {
+  "code": "305bb",
+  "name": "Master of Clinical Audiology",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/305bb",
+  "cohort": "extension",
+  "faculty": "Medicine, Dentistry and Health Sciences"
+ },
+ {
+  "code": "342aa",
+  "name": "Master of Psychiatry",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/342aa",
+  "cohort": "extension",
+  "faculty": "Medicine, Dentistry and Health Sciences"
+ },
+ {
+  "code": "344ab",
+  "name": "Master of Public Policy and Management",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/344ab",
+  "cohort": "extension",
+  "faculty": "Arts"
+ },
+ {
+  "code": "502cw",
+  "name": "Master of Laws",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/502cw",
+  "cohort": "extension",
+  "faculty": "Law"
+ },
+ {
+  "code": "504aa",
+  "name": "Master of Commercial Law",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/504aa",
+  "cohort": "extension",
+  "faculty": "Law"
+ },
+ {
+  "code": "507aa",
+  "name": "Master of Health and Medical Law",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/507aa",
+  "cohort": "extension",
+  "faculty": "Law"
+ },
+ {
+  "code": "510aa",
+  "name": "Master of Employment and Labour Relations Law",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/510aa",
+  "cohort": "extension",
+  "faculty": "Law"
+ },
+ {
+  "code": "511aa",
+  "name": "Master of Public and International Law",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/511aa",
+  "cohort": "extension",
+  "faculty": "Law"
+ },
+ {
+  "code": "526aa",
+  "name": "Master of Banking and Finance Law",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/526aa",
+  "cohort": "extension",
+  "faculty": "Law"
+ },
+ {
+  "code": "527cn",
+  "name": "Master of Psychology (Clinical Neuropsychology)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/527cn",
+  "cohort": "extension",
+  "faculty": "Medicine, Dentistry and Health Sciences"
+ },
+ {
+  "code": "572at",
+  "name": "Master of Medicine",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/572at",
+  "cohort": "extension",
+  "faculty": "Medicine, Dentistry and Health Sciences"
+ },
+ {
+  "code": "635aa",
+  "name": "Master of Law and Development",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/635aa",
+  "cohort": "extension",
+  "faculty": "Law"
+ },
+ {
+  "code": "706aa",
+  "name": "Master of Social Policy",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/706aa",
+  "cohort": "extension",
+  "faculty": "Arts"
+ },
+ {
+  "code": "742ab",
+  "name": "Master of Tax",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/742ab",
+  "cohort": "extension",
+  "faculty": "Law"
+ },
+ {
+  "code": "761em",
+  "name": "Master of Engineering Management",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/761em",
+  "cohort": "extension",
+  "faculty": "Engineering and IT"
+ },
+ {
+  "code": "841ac",
+  "name": "Bachelor of Oral Health",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/841ac",
+  "cohort": "extension",
+  "faculty": null
+ },
+ {
+  "code": "872bb",
+  "name": "Master of Veterinary Science",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/872bb",
+  "cohort": "extension",
+  "faculty": "Science"
+ },
+ {
+  "code": "991aa",
+  "name": "Master of Biostatistics",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/991aa",
+  "cohort": "extension",
+  "faculty": "Medicine, Dentistry and Health Sciences"
+ },
+ {
+  "code": "b-agr",
+  "name": "Bachelor of Agriculture",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/b-agr",
+  "cohort": "extension",
+  "faculty": null
+ },
+ {
+  "code": "b-arts",
+  "name": "Bachelor of Arts",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/b-arts",
+  "cohort": "extension",
+  "faculty": null
+ },
+ {
+  "code": "b-bmed",
+  "name": "Bachelor of Biomedicine",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/b-bmed",
+  "cohort": "extension",
+  "faculty": null
+ },
+ {
+  "code": "b-com",
+  "name": "Bachelor of Commerce",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/b-com",
+  "cohort": "extension",
+  "faculty": null
+ },
+ {
+  "code": "b-faacting",
+  "name": "Bachelor of Fine Arts (Acting)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/b-faacting",
+  "cohort": "extension",
+  "faculty": null
+ },
+ {
+  "code": "b-faanim",
+  "name": "Bachelor of Fine Arts (Animation)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/b-faanim",
+  "cohort": "extension",
+  "faculty": null
+ },
+ {
+  "code": "b-fadance",
+  "name": "Bachelor of Fine Arts (Dance)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/b-fadance",
+  "cohort": "extension",
+  "faculty": null
+ },
+ {
+  "code": "b-fafilmtv",
+  "name": "Bachelor of Fine Arts (Film and Television)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/b-fafilmtv",
+  "cohort": "extension",
+  "faculty": null
+ },
+ {
+  "code": "b-famusth",
+  "name": "Bachelor of Fine Arts (Music Theatre)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/b-famusth",
+  "cohort": "extension",
+  "faculty": null
+ },
+ {
+  "code": "b-fapro",
+  "name": "Bachelor of Fine Arts (Production)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/b-fapro",
+  "cohort": "extension",
+  "faculty": null
+ },
+ {
+  "code": "b-fascwri",
+  "name": "Bachelor of Fine Arts (Screenwriting)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/b-fascwri",
+  "cohort": "extension",
+  "faculty": null
+ },
+ {
+  "code": "b-fath",
+  "name": "Bachelor of Fine Arts (Theatre)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/b-fath",
+  "cohort": "extension",
+  "faculty": null
+ },
+ {
+  "code": "b-favisart",
+  "name": "Bachelor of Fine Arts (Visual Art)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/b-favisart",
+  "cohort": "extension",
+  "faculty": null
+ },
+ {
+  "code": "b-mus",
+  "name": "Bachelor of Music",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/b-mus",
+  "cohort": "extension",
+  "faculty": null
+ },
+ {
+  "code": "b-sciextd",
+  "name": "Bachelor of Science (Extended)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/b-sciextd",
+  "cohort": "extension",
+  "faculty": null
+ },
+ {
+  "code": "d01lf",
+  "name": "Master of Creative Writing, Publishing and Editing",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/d01lf",
+  "cohort": "extension",
+  "faculty": "Arts"
+ },
+ {
+  "code": "j17re",
+  "name": "Master of Advanced Social Work",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/j17re",
+  "cohort": "extension",
+  "faculty": "Medicine, Dentistry and Health Sciences"
+ },
+ {
+  "code": "m04aa",
+  "name": "Master of Music Therapy",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/m04aa",
+  "cohort": "extension",
+  "faculty": "Fine Arts and Music"
+ },
+ {
+  "code": "mc-actscen",
+  "name": "Master of Actuarial Science (Enhanced)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-actscen",
+  "cohort": "extension",
+  "faculty": "Business and Economics"
+ },
+ {
+  "code": "mc-actscex",
+  "name": "Master of Actuarial Science (Extended)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-actscex",
+  "cohort": "extension",
+  "faculty": "Business and Economics"
+ },
+ {
+  "code": "mc-adolhw",
+  "name": "Master of Adolescent Health and Wellbeing",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-adolhw",
+  "cohort": "extension",
+  "faculty": "Medicine, Dentistry and Health Sciences"
+ },
+ {
+  "code": "mc-advnpph",
+  "name": "Master of Advanced Nursing Practice/Master of Public Health",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-advnpph",
+  "cohort": "extension",
+  "faculty": "Medicine, Dentistry and Health Sciences"
+ },
+ {
+  "code": "mc-aecoenh",
+  "name": "Master of Applied Econometrics (Enhanced)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-aecoenh",
+  "cohort": "extension",
+  "faculty": "Business and Economics"
+ },
+ {
+  "code": "mc-aemtrcs",
+  "name": "Master of Applied Econometrics",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-aemtrcs",
+  "cohort": "extension",
+  "faculty": "Business and Economics"
+ },
+ {
+  "code": "mc-agsc",
+  "name": "Master of Agricultural Sciences",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-agsc",
+  "cohort": "extension",
+  "faculty": "Science"
+ },
+ {
+  "code": "mc-aimo",
+  "name": "Master of Artificial Intelligence",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-aimo",
+  "cohort": "extension",
+  "faculty": "Engineering and IT"
+ },
+ {
+  "code": "mc-anamgt",
+  "name": "Master of Analytics Management",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-anamgt",
+  "cohort": "extension",
+  "faculty": "Melbourne Business School"
+ },
+ {
+  "code": "mc-anp",
+  "name": "Master of Advanced Nursing Practice",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-anp",
+  "cohort": "extension",
+  "faculty": "Medicine, Dentistry and Health Sciences"
+ },
+ {
+  "code": "mc-anpnp",
+  "name": "Master of Advanced Nursing Practice (Nurse Practitioner)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-anpnp",
+  "cohort": "extension",
+  "faculty": "Medicine, Dentistry and Health Sciences"
+ },
+ {
+  "code": "mc-ap",
+  "name": "Master of Applied Psychology",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-ap",
+  "cohort": "extension",
+  "faculty": "Medicine, Dentistry and Health Sciences"
+ },
+ {
+  "code": "mc-apling",
+  "name": "Master of Applied Linguistics",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-apling",
+  "cohort": "extension",
+  "faculty": "(faculty unlisted)"
+ },
+ {
+  "code": "mc-app",
+  "name": "Master of Applied Positive Psychology",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-app",
+  "cohort": "extension",
+  "faculty": "Education"
+ },
+ {
+  "code": "mc-archcm",
+  "name": "Master of Architecture/Master of Construction Management",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-archcm",
+  "cohort": "extension",
+  "faculty": "(faculty unlisted)"
+ },
+ {
+  "code": "mc-archeng",
+  "name": "Master of Architectural Engineering",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-archeng",
+  "cohort": "extension",
+  "faculty": "Architecture, Building and Planning"
+ },
+ {
+  "code": "mc-archuch",
+  "name": "Master of Architecture/Master of Urban Cultural Heritage",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-archuch",
+  "cohort": "extension",
+  "faculty": "Architecture, Building and Planning"
+ },
+ {
+  "code": "mc-archud",
+  "name": "Master of Architecture/Master of Urban Design",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-archud",
+  "cohort": "extension",
+  "faculty": "Architecture, Building and Planning"
+ },
+ {
+  "code": "mc-archup",
+  "name": "Master of Architecture/Master of Urban Planning",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-archup",
+  "cohort": "extension",
+  "faculty": "Architecture, Building and Planning"
+ },
+ {
+  "code": "mc-arclarc",
+  "name": "Master of Architecture/Master of Landscape Architecture",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-arclarc",
+  "cohort": "extension",
+  "faculty": "Architecture, Building and Planning"
+ },
+ {
+  "code": "mc-arcprop",
+  "name": "Master of Architecture/Master of Property",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-arcprop",
+  "cohort": "extension",
+  "faculty": "Architecture, Building and Planning"
+ },
+ {
+  "code": "mc-biomeng",
+  "name": "Master of Biomedical Engineering",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-biomeng",
+  "cohort": "extension",
+  "faculty": "Engineering and IT"
+ },
+ {
+  "code": "mc-biosenh",
+  "name": "Master of Biostatistics (Enhanced)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-biosenh",
+  "cohort": "extension",
+  "faculty": "Medicine, Dentistry and Health Sciences"
+ },
+ {
+  "code": "mc-bus",
+  "name": "Master of Business",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-bus",
+  "cohort": "extension",
+  "faculty": "Business and Economics"
+ },
+ {
+  "code": "mc-cat",
+  "name": "Master of Creative Arts Therapy",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-cat",
+  "cohort": "extension",
+  "faculty": "Fine Arts and Music"
+ },
+ {
+  "code": "mc-chemeng",
+  "name": "Master of Chemical Engineering",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-chemeng",
+  "cohort": "extension",
+  "faculty": "Engineering and IT"
+ },
+ {
+  "code": "mc-civeng",
+  "name": "Master of Civil Engineering",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-civeng",
+  "cohort": "extension",
+  "faculty": "Engineering and IT"
+ },
+ {
+  "code": "mc-clined",
+  "name": "Master of Clinical Education",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-clined",
+  "cohort": "extension",
+  "faculty": "Medicine, Dentistry and Health Sciences"
+ },
+ {
+  "code": "mc-clinrhb",
+  "name": "Master of Clinical Rehabilitation",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-clinrhb",
+  "cohort": "extension",
+  "faculty": "Medicine, Dentistry and Health Sciences"
+ },
+ {
+  "code": "mc-cm",
+  "name": "Master of Construction Management",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-cm",
+  "cohort": "extension",
+  "faculty": "Architecture, Building and Planning"
+ },
+ {
+  "code": "mc-cmprop",
+  "name": "Master of Construction Management/Master of Property",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-cmprop",
+  "cohort": "extension",
+  "faculty": "Architecture, Building and Planning"
+ },
+ {
+  "code": "mc-cncrsc",
+  "name": "Master of Cancer Sciences",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-cncrsc",
+  "cohort": "extension",
+  "faculty": "Medicine, Dentistry and Health Sciences"
+ },
+ {
+  "code": "mc-comact",
+  "name": "Master of Commerce (Accounting)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-comact",
+  "cohort": "extension",
+  "faculty": "Business and Economics"
+ },
+ {
+  "code": "mc-comacts",
+  "name": "Master of Commerce (Actuarial Science)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-comacts",
+  "cohort": "extension",
+  "faculty": "Business and Economics"
+ },
+ {
+  "code": "mc-comdrfs",
+  "name": "Master of Commerce (Decision, Risk and Financial Sciences)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-comdrfs",
+  "cohort": "extension",
+  "faculty": "Business and Economics"
+ },
+ {
+  "code": "mc-comeco",
+  "name": "Master of Commerce (Economics)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-comeco",
+  "cohort": "extension",
+  "faculty": "Business and Economics"
+ },
+ {
+  "code": "mc-comfin",
+  "name": "Master of Commerce (Finance)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-comfin",
+  "cohort": "extension",
+  "faculty": "Business and Economics"
+ },
+ {
+  "code": "mc-commgmt",
+  "name": "Master of Commerce (Management)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-commgmt",
+  "cohort": "extension",
+  "faculty": "Business and Economics"
+ },
+ {
+  "code": "mc-commktg",
+  "name": "Master of Commerce (Marketing)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-commktg",
+  "cohort": "extension",
+  "faculty": "Business and Economics"
+ },
+ {
+  "code": "mc-contcs",
+  "name": "Master of Contemporary Chinese Studies",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-contcs",
+  "cohort": "extension",
+  "faculty": "Arts"
+ },
+ {
+  "code": "mc-counsmo",
+  "name": "Master of Counselling",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-counsmo",
+  "cohort": "extension",
+  "faculty": "Medicine, Dentistry and Health Sciences"
+ },
+ {
+  "code": "mc-ctpyart",
+  "name": "Master of Contemporary Art",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-ctpyart",
+  "cohort": "extension",
+  "faculty": "Fine Arts and Music"
+ },
+ {
+  "code": "mc-cu",
+  "name": "Master of Clinical Ultrasound",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-cu",
+  "cohort": "extension",
+  "faculty": "Medicine, Dentistry and Health Sciences"
+ },
+ {
+  "code": "mc-culmc",
+  "name": "Master of Cultural Materials Conservation",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-culmc",
+  "cohort": "extension",
+  "faculty": "(faculty unlisted)"
+ },
+ {
+  "code": "mc-cybscmo",
+  "name": "Master of Cyber Security",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-cybscmo",
+  "cohort": "extension",
+  "faculty": "Engineering and IT"
+ },
+ {
+  "code": "mc-desprod",
+  "name": "Master of Design and Production",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-desprod",
+  "cohort": "extension",
+  "faculty": "(faculty unlisted)"
+ },
+ {
+  "code": "mc-dinfeng",
+  "name": "Master of Digital Infrastructure Engineering",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-dinfeng",
+  "cohort": "extension",
+  "faculty": "Engineering and IT"
+ },
+ {
+  "code": "mc-dmktg",
+  "name": "Master of Digital Marketing",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-dmktg",
+  "cohort": "extension",
+  "faculty": "Business and Economics"
+ },
+ {
+  "code": "mc-dnce",
+  "name": "Master of Dance",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-dnce",
+  "cohort": "extension",
+  "faculty": "Fine Arts and Music"
+ },
+ {
+  "code": "mc-eco",
+  "name": "Master of Economics",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-eco",
+  "cohort": "extension",
+  "faculty": "Business and Economics"
+ },
+ {
+  "code": "mc-ecosmc",
+  "name": "Master of Ecosystem Management and Conservation",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-ecosmc",
+  "cohort": "extension",
+  "faculty": "Science"
+ },
+ {
+  "code": "mc-edebt",
+  "name": "Master of Education in Evidence-Based Teaching",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-edebt",
+  "cohort": "extension",
+  "faculty": "Education"
+ },
+ {
+  "code": "mc-eleceng",
+  "name": "Master of Electrical Engineering",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-eleceng",
+  "cohort": "extension",
+  "faculty": "Engineering and IT"
+ },
+ {
+  "code": "mc-engysys",
+  "name": "Master of Energy Systems",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-engysys",
+  "cohort": "extension",
+  "faculty": "Engineering and IT"
+ },
+ {
+  "code": "mc-enrslaw",
+  "name": "Master of Energy and Resources Law",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-enrslaw",
+  "cohort": "extension",
+  "faculty": "Law"
+ },
+ {
+  "code": "mc-ensysen",
+  "name": "Master of Environmental Systems Engineering",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-ensysen",
+  "cohort": "extension",
+  "faculty": "Engineering and IT"
+ },
+ {
+  "code": "mc-entrpsp",
+  "name": "Master of Entrepreneurship",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-entrpsp",
+  "cohort": "extension",
+  "faculty": "Business and Economics"
+ },
+ {
+  "code": "mc-env",
+  "name": "Master of Environment",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-env",
+  "cohort": "extension",
+  "faculty": "Science"
+ },
+ {
+  "code": "mc-enveng",
+  "name": "Master of Environmental Engineering",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-enveng",
+  "cohort": "extension",
+  "faculty": "Engineering and IT"
+ },
+ {
+  "code": "mc-evalo",
+  "name": "Master of Evaluation",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-evalo",
+  "cohort": "extension",
+  "faculty": "Education"
+ },
+ {
+  "code": "mc-filmtv",
+  "name": "Master of Film and Television",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-filmtv",
+  "cohort": "extension",
+  "faculty": "Fine Arts and Music"
+ },
+ {
+  "code": "mc-finance",
+  "name": "Master of Finance",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-finance",
+  "cohort": "extension",
+  "faculty": "Business and Economics"
+ },
+ {
+  "code": "mc-finenh",
+  "name": "Master of Finance (Enhanced)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-finenh",
+  "cohort": "extension",
+  "faculty": "Business and Economics"
+ },
+ {
+  "code": "mc-foodpi",
+  "name": "Master of Food and Packaging Innovation",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-foodpi",
+  "cohort": "extension",
+  "faculty": "Science"
+ },
+ {
+  "code": "mc-gcclaw",
+  "name": "Master of Global Competition and Consumer Law",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-gcclaw",
+  "cohort": "extension",
+  "faculty": "Law"
+ },
+ {
+  "code": "mc-genohlt",
+  "name": "Master of Genomics and Health",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-genohlt",
+  "cohort": "extension",
+  "faculty": "Medicine, Dentistry and Health Sciences"
+ },
+ {
+  "code": "mc-geog",
+  "name": "Master of Geography",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-geog",
+  "cohort": "extension",
+  "faculty": "Science"
+ },
+ {
+  "code": "mc-geosc",
+  "name": "Master of Geoscience",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-geosc",
+  "cohort": "extension",
+  "faculty": "Science"
+ },
+ {
+  "code": "mc-gmcom",
+  "name": "Master of Global Media Communication",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-gmcom",
+  "cohort": "extension",
+  "faculty": "Arts"
+ },
+ {
+  "code": "mc-hrmmo",
+  "name": "Master of Human Resource Management",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-hrmmo",
+  "cohort": "extension",
+  "faculty": "(faculty unlisted)"
+ },
+ {
+  "code": "mc-humrlaw",
+  "name": "Master of Human Rights Law",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-humrlaw",
+  "cohort": "extension",
+  "faculty": "Law"
+ },
+ {
+  "code": "mc-ib",
+  "name": "Master of International Business",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-ib",
+  "cohort": "extension",
+  "faculty": "Business and Economics"
+ },
+ {
+  "code": "mc-ibl",
+  "name": "Master of Indigenous Business Leadership",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-ibl",
+  "cohort": "extension",
+  "faculty": "Business and Economics"
+ },
+ {
+  "code": "mc-inslead",
+  "name": "Master of Instructional Leadership",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-inslead",
+  "cohort": "extension",
+  "faculty": "Education"
+ },
+ {
+  "code": "mc-intjour",
+  "name": "Master of International Journalism",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-intjour",
+  "cohort": "extension",
+  "faculty": "Arts"
+ },
+ {
+  "code": "mc-ir",
+  "name": "Master of International Relations",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-ir",
+  "cohort": "extension",
+  "faculty": "Arts"
+ },
+ {
+  "code": "mc-it",
+  "name": "Master of Information Technology",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-it",
+  "cohort": "extension",
+  "faculty": "Engineering and IT"
+ },
+ {
+  "code": "mc-larch",
+  "name": "Master of Landscape Architecture",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-larch",
+  "cohort": "extension",
+  "faculty": "Architecture, Building and Planning"
+ },
+ {
+  "code": "mc-larchud",
+  "name": "Master of Landscape Architecture/Master of Urban Design",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-larchud",
+  "cohort": "extension",
+  "faculty": "Architecture, Building and Planning"
+ },
+ {
+  "code": "mc-larchup",
+  "name": "Master of Landscape Architecture/Master of Urban Planning",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-larchup",
+  "cohort": "extension",
+  "faculty": "Architecture, Building and Planning"
+ },
+ {
+  "code": "mc-li",
+  "name": "Master of Learning Intervention",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-li",
+  "cohort": "extension",
+  "faculty": "Education"
+ },
+ {
+  "code": "mc-mecheng",
+  "name": "Master of Mechanical Engineering",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-mecheng",
+  "cohort": "extension",
+  "faculty": "Engineering and IT"
+ },
+ {
+  "code": "mc-mgmt",
+  "name": "Master of Management",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-mgmt",
+  "cohort": "extension",
+  "faculty": "Business and Economics"
+ },
+ {
+  "code": "mc-mgmtact",
+  "name": "Master of Management (Accounting)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-mgmtact",
+  "cohort": "extension",
+  "faculty": "(faculty unlisted)"
+ },
+ {
+  "code": "mc-mgmtafn",
+  "name": "Master of Management (Accounting and Finance)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-mgmtafn",
+  "cohort": "extension",
+  "faculty": "Business and Economics"
+ },
+ {
+  "code": "mc-mgmtein",
+  "name": "Master of Management (Entrepreneurship and Innovation)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-mgmtein",
+  "cohort": "extension",
+  "faculty": "Business and Economics"
+ },
+ {
+  "code": "mc-mgmtfin",
+  "name": "Master of Management (Finance)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-mgmtfin",
+  "cohort": "extension",
+  "faculty": "Business and Economics"
+ },
+ {
+  "code": "mc-mgmtmkt",
+  "name": "Master of Management (Marketing)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-mgmtmkt",
+  "cohort": "extension",
+  "faculty": "Business and Economics"
+ },
+ {
+  "code": "mc-mgmtscm",
+  "name": "Master of Management (Supply Chain Management)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-mgmtscm",
+  "cohort": "extension",
+  "faculty": "Business and Economics"
+ },
+ {
+  "code": "mc-mktcomm",
+  "name": "Master of Marketing Communications",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-mktcomm",
+  "cohort": "extension",
+  "faculty": "Arts"
+ },
+ {
+  "code": "mc-mled",
+  "name": "Master of Modern Languages Education",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-mled",
+  "cohort": "extension",
+  "faculty": "Education"
+ },
+ {
+  "code": "mc-mti",
+  "name": "Master of Medical Technology Innovation",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-mti",
+  "cohort": "extension",
+  "faculty": "Engineering and IT"
+ },
+ {
+  "code": "mc-mtrneng",
+  "name": "Master of Mechatronics Engineering",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-mtrneng",
+  "cohort": "extension",
+  "faculty": "Engineering and IT"
+ },
+ {
+  "code": "mc-musop",
+  "name": "Master of Music (Opera Performance)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-musop",
+  "cohort": "extension",
+  "faculty": "Fine Arts and Music"
+ },
+ {
+  "code": "mc-musorp",
+  "name": "Master of Music (Orchestral Performance)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-musorp",
+  "cohort": "extension",
+  "faculty": "Fine Arts and Music"
+ },
+ {
+  "code": "mc-muspt",
+  "name": "Master of Music (Performance Teaching)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-muspt",
+  "cohort": "extension",
+  "faculty": "Fine Arts and Music"
+ },
+ {
+  "code": "mc-ntcw",
+  "name": "Master of Narrative Therapy and Community Work",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-ntcw",
+  "cohort": "extension",
+  "faculty": "Medicine, Dentistry and Health Sciences"
+ },
+ {
+  "code": "mc-phtypae",
+  "name": "Master of Physiotherapy (Paediatrics)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-phtypae",
+  "cohort": "extension",
+  "faculty": "Medicine, Dentistry and Health Sciences"
+ },
+ {
+  "code": "mc-privlaw",
+  "name": "Master of Private Law",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-privlaw",
+  "cohort": "extension",
+  "faculty": "Law"
+ },
+ {
+  "code": "mc-propup",
+  "name": "Master of Property/Master of Urban Planning",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-propup",
+  "cohort": "extension",
+  "faculty": "Architecture, Building and Planning"
+ },
+ {
+  "code": "mc-psyched",
+  "name": "Master of Psychology (Educational and Developmental)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-psyched",
+  "cohort": "extension",
+  "faculty": "Education"
+ },
+ {
+  "code": "mc-pubcom",
+  "name": "Master of Publishing and Communications",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-pubcom",
+  "cohort": "extension",
+  "faculty": "Arts"
+ },
+ {
+  "code": "mc-scimat",
+  "name": "Master of Science (Mathematics and Statistics)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-scimat",
+  "cohort": "extension",
+  "faculty": "Science"
+ },
+ {
+  "code": "mc-scl",
+  "name": "Master of Social Change Leadership",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-scl",
+  "cohort": "extension",
+  "faculty": "Education"
+ },
+ {
+  "code": "mc-socw",
+  "name": "Master of Social Work",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-socw",
+  "cohort": "extension",
+  "faculty": "Medicine, Dentistry and Health Sciences"
+ },
+ {
+  "code": "mc-softeng",
+  "name": "Master of Software Engineering",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-softeng",
+  "cohort": "extension",
+  "faculty": "Engineering and IT"
+ },
+ {
+  "code": "mc-spchpth",
+  "name": "Master of Speech Pathology",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-spchpth",
+  "cohort": "extension",
+  "faculty": "Medicine, Dentistry and Health Sciences"
+ },
+ {
+  "code": "mc-spmed",
+  "name": "Master of Sports Medicine",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-spmed",
+  "cohort": "extension",
+  "faculty": "Medicine, Dentistry and Health Sciences"
+ },
+ {
+  "code": "mc-tchecp",
+  "name": "Master of Teaching (Early Childhood and Primary)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-tchecp",
+  "cohort": "extension",
+  "faculty": "Education"
+ },
+ {
+  "code": "mc-teachec",
+  "name": "Master of Teaching (Early Childhood)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-teachec",
+  "cohort": "extension",
+  "faculty": "Education"
+ },
+ {
+  "code": "mc-teachpr",
+  "name": "Master of Teaching (Primary)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-teachpr",
+  "cohort": "extension",
+  "faculty": "Education"
+ },
+ {
+  "code": "mc-teachsa",
+  "name": "Master of Teaching (Secondary)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-teachsa",
+  "cohort": "extension",
+  "faculty": "Education"
+ },
+ {
+  "code": "mc-teachsi",
+  "name": "Master of Teaching (Secondary) Internship",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-teachsi",
+  "cohort": "extension",
+  "faculty": "Education"
+ },
+ {
+  "code": "mc-thtr",
+  "name": "Master of Theatre",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-thtr",
+  "cohort": "extension",
+  "faculty": "Fine Arts and Music"
+ },
+ {
+  "code": "mc-thtrdir",
+  "name": "Master of Theatre (Directing)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-thtrdir",
+  "cohort": "extension",
+  "faculty": "Fine Arts and Music"
+ },
+ {
+  "code": "mc-thtrdra",
+  "name": "Master of Theatre (Dramaturgy)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-thtrdra",
+  "cohort": "extension",
+  "faculty": "Fine Arts and Music"
+ },
+ {
+  "code": "mc-thtrwri",
+  "name": "Master of Theatre (Writing)",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-thtrwri",
+  "cohort": "extension",
+  "faculty": "Fine Arts and Music"
+ },
+ {
+  "code": "mc-tranint",
+  "name": "Master of Translation and Interpreting",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-tranint",
+  "cohort": "extension",
+  "faculty": "Arts"
+ },
+ {
+  "code": "mc-uch",
+  "name": "Master of Urban and Cultural Heritage",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-uch",
+  "cohort": "extension",
+  "faculty": "Architecture, Building and Planning"
+ },
+ {
+  "code": "mc-upud",
+  "name": "Master of Urban Planning/Master of Urban Design",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-upud",
+  "cohort": "extension",
+  "faculty": "Architecture, Building and Planning"
+ },
+ {
+  "code": "mc-urpl",
+  "name": "Master of Urban Planning",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-urpl",
+  "cohort": "extension",
+  "faculty": "Architecture, Building and Planning"
+ },
+ {
+  "code": "mc-vetstdr",
+  "name": "Master of Veterinary Studies",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-vetstdr",
+  "cohort": "extension",
+  "faculty": "Science"
+ },
+ {
+  "code": "mc-ymhmo",
+  "name": "Master of Youth Mental Health",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/mc-ymhmo",
+  "cohort": "extension",
+  "faculty": "Medicine, Dentistry and Health Sciences"
+ },
+ {
+  "code": "n01aa",
+  "name": "Master of Clinical Research",
+  "url": "https://handbook.unimelb.edu.au/2026/courses/n01aa",
+  "cohort": "extension",
+  "faculty": "Medicine, Dentistry and Health Sciences"
+ }
+]

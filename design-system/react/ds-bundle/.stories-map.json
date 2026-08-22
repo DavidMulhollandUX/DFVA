@@ -1,0 +1,94 @@
+{
+  "global": "EviduraUI",
+  "pkg": "@evidura/ui",
+  "pkgDir": "/Users/djmulholland/Documents/SXD-Github/DFVA/design-system/react",
+  "extraEntries": [],
+  "exported": [
+    "BandBadge",
+    "Button",
+    "Card",
+    "CardBody",
+    "CardHeader",
+    "CardTitle",
+    "ScoreDisplay",
+    "StrataMark",
+    "ValidationSignalCard"
+  ],
+  "storybookStatic": null,
+  "keyRecipe": 7,
+  "cfgSliceGlobal": "a139d95ad8ab0a8ba08b44a258c54602e36090304087f48fe923c61aa5a8ae08",
+  "components": [
+    {
+      "name": "BandBadge",
+      "group": "general",
+      "srcSha": null,
+      "sourceKey": "6309cf4a4938230b",
+      "cfgSlice": "5ff899b099eb6923833804cda955efdd69101524bec86f67dac5537cd81802e8",
+      "stories": []
+    },
+    {
+      "name": "Button",
+      "group": "general",
+      "srcSha": null,
+      "sourceKey": "0fe3850a20179e83",
+      "cfgSlice": "5ff899b099eb6923833804cda955efdd69101524bec86f67dac5537cd81802e8",
+      "stories": []
+    },
+    {
+      "name": "Card",
+      "group": "general",
+      "srcSha": null,
+      "sourceKey": "ef9b77a92a485f7a",
+      "cfgSlice": "5ff899b099eb6923833804cda955efdd69101524bec86f67dac5537cd81802e8",
+      "stories": []
+    },
+    {
+      "name": "CardBody",
+      "group": "general",
+      "srcSha": null,
+      "sourceKey": "39e99120b35f12f2",
+      "cfgSlice": "5ff899b099eb6923833804cda955efdd69101524bec86f67dac5537cd81802e8",
+      "stories": []
+    },
+    {
+      "name": "CardHeader",
+      "group": "general",
+      "srcSha": null,
+      "sourceKey": "39e99120b35f12f2",
+      "cfgSlice": "5ff899b099eb6923833804cda955efdd69101524bec86f67dac5537cd81802e8",
+      "stories": []
+    },
+    {
+      "name": "CardTitle",
+      "group": "general",
+      "srcSha": null,
+      "sourceKey": "39e99120b35f12f2",
+      "cfgSlice": "5ff899b099eb6923833804cda955efdd69101524bec86f67dac5537cd81802e8",
+      "stories": []
+    },
+    {
+      "name": "ScoreDisplay",
+      "group": "general",
+      "srcSha": null,
+      "sourceKey": "6b27171c6a16a684",
+      "cfgSlice": "5ff899b099eb6923833804cda955efdd69101524bec86f67dac5537cd81802e8",
+      "stories": []
+    },
+    {
+      "name": "StrataMark",
+      "group": "general",
+      "srcSha": null,
+      "sourceKey": "49dec9b6bcc3b3b8",
+      "cfgSlice": "5ff899b099eb6923833804cda955efdd69101524bec86f67dac5537cd81802e8",
+      "stories": []
+    },
+    {
+      "name": "ValidationSignalCard",
+      "group": "general",
+      "srcSha": null,
+      "sourceKey": "a1397fecdbe5086f",
+      "cfgSlice": "5ff899b099eb6923833804cda955efdd69101524bec86f67dac5537cd81802e8",
+      "stories": []
+    }
+  ]
+}

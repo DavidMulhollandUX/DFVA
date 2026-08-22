@@ -1,0 +1,157 @@
+{
+  "captured": [
+    {
+      "code": "195aa",
+      "slot": "subj-laws90099-assessment",
+      "chars": 2208
+    },
+    {
+      "code": "195aa",
+      "slot": "subj-laws90208",
+      "chars": 4390
+    },
+    {
+      "code": "195aa",
+      "slot": "subj-laws90208-assessment",
+      "chars": 1785
+    },
+    {
+      "code": "195aa",
+      "slot": "subj-laws90229",
+      "chars": 3511
+    },
+    {
+      "code": "195aa",
+      "slot": "subj-laws90229-assessment",
+      "chars": 1620
+    },
+    {
+      "code": "195aa",
+      "slot": "subj-laws90267",
+      "chars": 6452
+    },
+    {
+      "code": "195aa",
+      "slot": "subj-laws90267-assessment",
+      "chars": 1028
+    },
+    {
+      "code": "195aa",
+      "slot": "subj-laws90305",
+      "chars": 4063
+    },
+    {
+      "code": "195aa",
+      "slot": "subj-laws90305-assessment",
+      "chars": 754
+    },
+    {
+      "code": "706aa",
+      "slot": "subj-ppmn90049",
+      "chars": 2074
+    },
+    {
+      "code": "706aa",
+      "slot": "subj-ppmn90049-assessment",
+      "chars": 2269
+    },
+    {
+      "code": "706aa",
+      "slot": "subj-ppmn90050",
+      "chars": 1684
+    },
+    {
+      "code": "706aa",
+      "slot": "subj-ppmn90050-assessment",
+      "chars": 930
+    },
+    {
+      "code": "706aa",
+      "slot": "subj-ppmn90058",
+      "chars": 2690
+    },
+    {
+      "code": "706aa",
+      "slot": "subj-ppmn90058-assessment",
+      "chars": 1613
+    },
+    {
+      "code": "706aa",
+      "slot": "subj-soci90003",
+      "chars": 2081
+    },
+    {
+      "code": "706aa",
+      "slot": "subj-soci90003-assessment",
+      "chars": 1720
+    },
+    {
+      "code": "706aa",
+      "slot": "subj-soci90004",
+      "chars": 2620
+    },
+    {
+      "code": "706aa",
+      "slot": "subj-soci90004-assessment",
+      "chars": 1637
+    },
+    {
+      "code": "706aa",
+      "slot": "subj-soci90005",
+      "chars": 2260
+    },
+    {
+      "code": "706aa",
+      "slot": "subj-soci90005-assessment",
+      "chars": 1681
+    },
+    {
+      "code": "706aa",
+      "slot": "subj-soci90010",
+      "chars": 2592
+    },
+    {
+      "code": "706aa",
+      "slot": "subj-soci90010-assessment",
+      "chars": 1552
+    },
+    {
+      "code": "706aa",
+      "slot": "subj-soci90011",
+      "chars": 2245
+    },
+    {
+      "code": "706aa",
+      "slot": "subj-soci90011-assessment",
+      "chars": 1813
+    },
+    {
+      "code": "706aa",
+      "slot": "subj-soci90012",
+      "chars": 2025
+    },
+    {
+      "code": "706aa",
+      "slot": "subj-soci90012-assessment",
+      "chars": 1389
+    },
+    {
+      "code": "706aa",
+      "slot": "subj-soci90013",
+      "chars": 2410
+    },
+    {
+      "code": "706aa",
+      "slot": "subj-soci90013-assessment",
+      "chars": 2951
+    },
+    {
+      "code": "706aa",
+      "slot": "subj-soci90018",
+      "chars": 2066
+    }
+  ],
+  "failed": [],
+  "blocked": false,
+  "block_reason": null
+}

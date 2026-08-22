@@ -7,8 +7,16 @@
 import { promises as fs, existsSync } from 'node:fs'
 import * as path from 'node:path'
 import { generateAll, repoRoot } from './dfva-lib'
+import { checkReferenceCohort } from './dfva-reference-cohort-check'
 
 async function main(): Promise<void> {
+  const cohortErrors = await checkReferenceCohort()
+  if (cohortErrors.length > 0) {
+    console.error('Reference-cohort check failed:')
+    for (const e of cohortErrors) console.error('  - ' + e)
+    process.exit(1)
+  }
+
   const expected = await generateAll()
   const drift: string[] = []
   for (const [rel, content] of expected) {

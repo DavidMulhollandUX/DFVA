@@ -1,0 +1,149 @@
+{
+  "code": "510aa",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 1,
+      "rationale": "Level 1 anchor: collaboration appears in outcomes/graduate attributes but no core unit assesses it. Teamwork is named only as a graduate attribute, and the warrant offered is class format ('small class sizes and an intensive teaching format'), not an assessed task. Level 2 requires 'at least one core unit assesses collaborative practice'; the only assessed group work in the extract is a 'Group in-class presentation' in AI and Justice, which the course structure lists under 'Further subjects related to course' — an elective, not core. No assessment anywhere allocates work across people AND tools/AI systems, so level 3 is not in reach.",
+      "evidenceLines": [
+        "Capacity to value and participate in teamwork",
+        "Small class sizes and an intensive teaching format are valuable in encouraging group dynamics and teamwork.",
+        "Group in-class presentation",
+        "Further subjects related to course",
+        "Students with a law degree from a common law jurisdiction must complete at least 50 credit points from the list of Employment and Labour Relations Law subjects. The remaining subjects can be taken from the Employment and Labour Relations Law subjects and the further subjects list (excluding Fundamentals of the Common Law)."
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1 anchor: reflection appears in outcomes but no core unit assesses it against criteria. The course ILO claims students will 'critically reflect on' complex information, and a graduate attribute claims capacity to 'investigate, evaluate, synthesise'. Level 2 requires criterion-referenced appraisal of the quality of work — peer review, structured critique, portfolio with standards, marking against exemplars — and no assessment task in the extract is any of those; the assessment tables list only presentations, class participation, take-home examinations and research papers. Critical evaluation of legal theories and rules is appraisal of the discipline's content, not appraisal of work quality (own, peers' or a tool's), so it does not satisfy the C2 construct. No task requires documenting or justifying reliance decisions, so level 3 is not in reach.",
+      "evidenceLines": [
+        "analyse, critically reflect on and synthesise complex information, concepts and theories in the field of employment and labour relations law",
+        "Ability to investigate, evaluate, synthesise and apply existing knowledge in the relevant area(s) with creativity and initiative",
+        "Have the cognitive and technical skills to generate critical and creative ideas relating to equality and discrimination issues, and to critically evaluate existing legal theories, principles and concepts with creativity and autonomy",
+        "Take-home examination",
+        "Research paper on a topic approved by the subject coordinator"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor names exactly this pattern: 'AI or digital tools appear only as electives or as tool operation/training'. The two AI/digital subjects — Digital Technologies and Labour Law, and AI and Justice — are not core: the first is 'Not available in 2026' and the second is listed under 'Further subjects related to course'. The only program-level digital statement is a graduate attribute about IT infrastructure available in the Law Library and Moot Court Room, i.e. facilities, not curriculum content. Level 2 requires core units addressing AI capabilities AND limitations/ethics with assessment; no core unit does, so the level-3 governance route (which would otherwise be plausible given AI and Justice's transparency and equality topics) is unreachable because that subject is elective.",
+      "evidenceLines": [
+        "Advanced working skills in the use of new technology",
+        "The most advanced IT infrastructure is available to Melbourne Law Masters students in the Law Library, the Moot Court Room, classroom settings and for private study.",
+        "Digital Technologies and Labour Law",
+        "Graduate courseworkPoints: 12.5Not available in 2026",
+        "AI and Justice",
+        "Further subjects related to course"
+      ]
+    },
+    "C4": {
+      "score": 1,
+      "rationale": "Level 1 anchor: transfer/adaptability is claimed in outcomes but not assessed. The course ILO claims graduates will 'demonstrate autonomy, expert judgment, adaptability', and a graduate attribute claims problem solving 'characterised by flexibility of approach'. Level 2 requires at least one core assessment applying methods to novel or unfamiliar problems; the nearest thing to a core subject, Principles of Employment Law, is assessed only by 'Option 1: Take-home examination' or 'Option 2: Research paper' with no documented novel-problem or unseen-case framing. Level 3 requires documented structured progression toward independent learning; there is no prerequisite chain and no required capstone — sequencing is only 'strongly recommended', and the research paper is one option among two within individual subjects.",
+      "evidenceLines": [
+        "Apply their knowledge and skills to demonstrate autonomy, expert judgment, adaptability and responsibility as a practitioner and learner in the field of employment and labour relations law.",
+        "Well-developed problem solving abilities, characterised by flexibility of approach",
+        "Most subjects approach knowledge by reference to various issues or problems. Students are required to critically analyse problems and identify and develop a range of appropriate solutions through class discussion, individual study and assessment tasks.",
+        "Option 1: Take-home examination",
+        "Option 2: Research paper",
+        "Principles of Employment Law is compulsory for students who do not have a law degree from a common law jurisdiction, and it is strongly recommended that this subject be taken before any other employment and labour relations law subjects."
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 1 anchor is satisfied by the second clause — literature-review-type research assessment — and not by the first: there is no research-methods unit anywhere in the structure. Research papers of 3500-8000 words on coordinator-approved topics are documented, and originality of research is claimed as a graduate attribute. Level 2 requires students to design and conduct an inquiry with methodology selection and data collection, assessed; the extract documents no data collection and no methodology component except a single 1500-word 'Option 2, Part A: Research proposal' inside International Equality Law, which is both an elective and one route among several within that subject. Level 3 requires a REQUIRED primary-evidence project with methodology defended under scrutiny — the research paper is always an alternative to a take-home examination, never required, and no viva or defence appears.",
+      "evidenceLines": [
+        "Advanced competencies in legal research and analysis",
+        "Appreciation of the design, conduct and reporting of original research",
+        "Research papers and other research tasks are expected to attain a degree of creativity, originality and discovery that befits a postgraduate program of the highest quality, and students are encouraged and assisted to publish original work of a high standard in refereed journals.",
+        "Research paper on a topic approved by the subject coordinator",
+        "Option 2, Part A: Research proposal",
+        "Option 1: Take-home examination"
+      ]
+    },
+    "adaptiveness": 5,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1 anchor matches on both clauses: communication appears in graduate attributes and course ILOs, and assessment adds presentation to peers/staff — a 30% 'Presentation and supporting resource' and assessed class participation — but no professional genre and no audience beyond the teaching team. Level 0 is excluded because its disqualifying clause ('no professional-genre or spoken communication is assessed') is contradicted: spoken communication is assessed across the subject lists from which the whole 100 credit points are drawn. Level 2 requires a recognised professional genre or an external audience judged against practice-drawn criteria; Conducting Workplace Investigations states practitioner capacities ('draft procedurally fair allegations.') as learning outcomes, but its assessment table lists only an in-class exercise, a short analysis exercise and a take-home examination, and per R2 an outcome statement is not the assessed artefact.",
+      "evidenceLines": [
+        "Capacity to effectively communicate complex legal ideas and theories, orally and in writing, to a variety of audiences",
+        "Classroom discussion and formal presentations provide an opportunity to hone oral communication skills, and written assessment tasks are graded in part on written communication skills.",
+        "interpret and transmit their knowledge, skills and ideas to professional specialist and non-specialist audiences",
+        "Presentation and supporting resource",
+        "Class participation and contributions to class discussions",
+        "draft procedurally fair allegations.",
+        "prepare the scope or terms of reference of an investigation and an investigation plan.",
+        "Individual in-class exercise",
+        "Short analysis exercise"
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Level 1 anchor: scenario-framed tasks appear, but the artefact produced and the criteria applied remain academic. The clearest instance is 'Option 1 - Take-home examination (hypothetical problem)', supported by the graduate-attribute claim that most subjects work 'by reference to various issues or problems'. Level 0 is excluded because assessment is not entirely decontextualised. Level 2 requires at least one core assessment reproducing a professional task end to end and producing the artefact a practitioner would produce; every documented artefact in the extract is an examination script, an essay/research paper, a class presentation or an unspecified 'Short analysis exercise' — none is a practitioner deliverable, and none is judged against stated practice-drawn criteria. Per R4 the practice-facing framing of subject overviews is not scored as authenticity.",
+      "evidenceLines": [
+        "Option 1 - Take-home examination (hypothetical problem)",
+        "Most subjects approach knowledge by reference to various issues or problems. Students are required to critically analyse problems and identify and develop a range of appropriate solutions through class discussion, individual study and assessment tasks.",
+        "Short analysis exercise",
+        "Individual in-class exercise",
+        "Take-home examination",
+        "Research paper on a topic approved by the subject coordinator"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1 anchor: work-situated learning exists only as an elective/optional internship. 'International Legal Internship' appears solely in the 'Further subjects related to course' list, so it is neither required nor part of any core. Level 0 is excluded because that internship option does appear in the course structure. Level 2's placement route requires a core unit placing students in a real workplace with practitioner supervision and assessment — none exists. Level 2's v4.2 in-practice route requires a cohort documented as already practising plus a core unit assessing activity in the student's own practice with real recipients and a documented outcome measure; the overview describes who the specialisation 'caters for', which is a target-audience statement rather than documentation that the cohort is practising, and no assessment task anywhere is set in a student's own workplace.",
+      "evidenceLines": [
+        "International Legal Internship",
+        "Further subjects related to course",
+        "This specialisation caters for legal practitioners as well as non-lawyers with experience and interest in the legal regulation of employment and labour relations.",
+        "Students must complete 100 credit points in total."
+      ]
+    },
+    "workplace": 3,
+    "gates": {
+      "G1": {
+        "result": "FAIL",
+        "rationale": "PASS requires a coherent specialist core with progressive technical or methodological depth, evidenced by one of three routes: an all-compulsory specialist core, an accredited sequence, or a staged prerequisite chain. None is documented. Nothing is compulsory for students holding a common-law degree — they choose at least 50 of 100 credit points from a subject list; the only compulsory subjects apply to one cohort, and the sequencing statement is explicitly a recommendation ('strongly recommended that this subject be taken before any other'), not a prerequisite. All listed subjects are the same 12.5-point graduate-coursework level with no staging, and no accreditation is documented. The content is unambiguously disciplinary rather than generic, so the FAIL clause fits imperfectly; per the never-resolve-upward rule the unmet PASS conditions govern, and this is recorded in ambiguities.",
+        "evidenceLines": [
+          "Students with a law degree from a common law jurisdiction must complete at least 50 credit points from the list of Employment and Labour Relations Law subjects. The remaining subjects can be taken from the Employment and Labour Relations Law subjects and the further subjects list (excluding Fundamentals of the Common Law).",
+          "Principles of Employment Law is compulsory for students who do not have a law degree from a common law jurisdiction, and it is strongly recommended that this subject be taken before any other employment and labour relations law subjects.",
+          "Students must complete 100 credit points in total.",
+          "Graduate coursework level 7Points: 12.5On Campus (Parkville)"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "PASS requires assessments demanding defended trade-off decisions rather than recall or scripted responses. Take-home examinations are set on hypothetical problems, subject matter is expressly contested ('the very meaning of equality is highly contested'), and assessed work requires applying legal tests and standards of proof to make defensible findings and generating critical ideas with autonomy. None of the documented assessment is recall-based or scripted; the extract contains no invigilated closed-book or multiple-choice component.",
+        "evidenceLines": [
+          "Option 1 - Take-home examination (hypothetical problem)",
+          "Achieving equality is elusive and, indeed, the very meaning of equality is highly contested.",
+          "Making findings - evaluating the information gathered; applying the relevant legal tests, burden of proof and standard of proof and assessing credibility",
+          "Have the cognitive and technical skills to generate critical and creative ideas relating to equality and discrimination issues, and to critically evaluate existing legal theories, principles and concepts with creativity and autonomy",
+          "Most subjects approach knowledge by reference to various issues or problems. Students are required to critically analyse problems and identify and develop a range of appropriate solutions through class discussion, individual study and assessment tasks."
+        ]
+      }
+    },
+    "ambiguities": [
+      "Program-wide: the course has no universal core — students holding a common-law degree take 100% electable subjects from two lists. Every candidate level-2 instance (group presentation, AI governance content, professional-genre outcomes, research proposal) sits inside an electable subject, so 'core unit assesses it' is never satisfied. This single structural fact holds C1, C3, C5, W1 and W2 at level 1 and is the largest source of ambiguity in this score.",
+      "C1 straddled 1 and 2: 'Group in-class presentation' (15%) in AI and Justice is genuinely assessed collaborative practice, but AI and Justice is listed under 'Further subjects related to course'. Resolved down to 1 by the level-2 requirement for a CORE unit and the never-resolve-upward rule.",
+      "C2 straddled 1 and 2: assessed critical evaluation of legal theories and (in Conducting Workplace Investigations) assessment of information and credibility could be read as structured critique. Resolved down to 1 under 'one construct, one home' — C2 scores appraisal of the QUALITY OF WORK (own, peers', a tool's), not appraisal of legal doctrine or evidence, and no peer review/portfolio/exemplar marking is documented.",
+      "C3 straddled 1 and 3: AI and Justice covers algorithmic bias, transparency and privacy — level-3 governance content — and is assessed by research essay. Resolved down to 1 because the level-1 anchor explicitly caps electives at 1, and Digital Technologies and Labour Law is in any case 'Not available in 2026'.",
+      "C4 straddled 1 and 2: the graduate-attribute claim that assessment tasks require developing 'a range of appropriate solutions' to problems suggests novel-problem application, but it is a Barrie-type attribute statement, not a documented assessment task, and the nearest-to-core subject's assessment is an unspecified take-home exam or research paper. Resolved down to 1 under R2.",
+      "C4 straddled 1 and 3 on the self-scoped-project route: coordinator-approved research papers are self-scoped. Resolved down because they are always one of two options within a subject and no structured progression (prerequisite chain, staged capstone) is documented.",
+      "C5 straddled 1 and 2: International Equality Law's staged 'Option 2, Part A: Research proposal' (20%) plus 8,000-word paper resembles assessed methodology selection under supervision. Resolved down to 1 — elective, one route among several, and no data collection documented.",
+      "W1 straddled 0 and 1: on a strict 'core assessment' reading no core unit assesses spoken communication (Principles of Employment Law is 100% exam or paper), which would give 0. Scored 1 because level 0's own disqualifying clause — 'no professional-genre or spoken communication is assessed' — is contradicted by assessed presentations and class participation across the subject lists that constitute the entire degree. Level 1 is therefore the lower level actually consistent with the evidence.",
+      "W1 straddled 1 and 2: Conducting Workplace Investigations names practitioner genres (allegations, terms of reference, investigation plan) in its outcomes. Resolved down to 1 because its assessment table documents none of those artefacts, and R2 forbids scoring outcome statements at level 2/3.",
+      "W3 straddled 1 and 2 on the v4.2 in-practice route: the overview describes a practitioner-facing cohort. Resolved down to 1 — a statement of who a course 'caters for' is not a cohort documented as already practising, and no core unit assesses own-practice activity with real recipients or an outcome measure.",
+      "G1: the FAIL clause ('generic or interchangeable content without disciplinary identity') fits poorly — the content is strongly disciplinary and half the degree is locked to a named labour-law subject list. FAIL was recorded because none of the three PASS routes is documented and progressive depth is absent; a reviewer applying the FAIL clause literally would score PASS. Flagging this as the score most likely to move on adjudication."
+    ],
+    "notScoreable": [
+      "No subject or assessment page for Fundamentals of the Common Law (LAWS70217) is present in the extract, although it is compulsory for students without a common-law degree — the only genuinely compulsory content for that cohort is therefore only half visible, which bounds C4, C5 and G1.",
+      "No subject or assessment page for International Legal Internship (LAWS70067) is present; only its listing under 'Further subjects related to course' is visible. Its duration, supervision, and whether it is assessed cannot be checked, so W3 can be verified only to level 1 (elective/optional internship) and no higher.",
+      "No page is present for LAWS90226 Legal Leadership Essentials, LAWS90113 Mediation: Principles and Practice, LAWS90062 Business Negotiations and Deal-Making or LAWS90331 Alternative Dispute Resolution — the four listed subjects most likely to carry simulation, negotiation or role-play evidence relevant to C1, W1 and W2. All four are elective 'further subjects', so their absence cannot lift any item past the core requirement, but it does mean the extract understates the program's practice-oriented offering."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-18"
+    }
+  }
+}

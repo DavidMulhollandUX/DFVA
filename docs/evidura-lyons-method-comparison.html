@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kayley Lyons: research profile and method comparison | Evidura</title>
+<style>
+:root{
+  --ink:#0F2236; --signal:#E9A23B; --paper:#F4F2EC; --slate:#5C7088;
+  --ink-900:#0A1828; --ink-700:#1B3554; --ink-100:#DDE3EB;
+  --signal-700:#B97E26; --paper-200:#E7E3D8;
+  --font-sans:'Inter','SF Pro Display',-apple-system,'Segoe UI',system-ui,sans-serif;
+  --font-serif:'Fraunces',Georgia,'Times New Roman',serif;
+  --font-mono:'Source Code Pro',ui-monospace,SFMono-Regular,Menlo,monospace;
+  --r-sm:6px; --r-md:12px; --r-lg:20px; --r-pill:999px;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--font-sans);
+  font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1120px;margin:0 auto;padding:0 32px}
+h1,h2,h3,h4{line-height:1.2;margin:0}
+.display{font-family:var(--font-serif);font-weight:600;letter-spacing:-.02em}
+.mono{font-family:var(--font-mono)}
+code{font-family:var(--font-mono);font-size:.92em}
+a{color:var(--signal-700)}
+
+/* ---------- hero ---------- */
+.hero{background:var(--ink);color:var(--paper);padding:56px 0 60px}
+.brandrow{display:flex;align-items:center;gap:14px;margin-bottom:52px}
+.brandrow svg{width:34px;height:34px;display:block}
+.brandname{font-weight:600;font-size:20px;letter-spacing:-.02em}
+.brandstrap{font-size:10px;letter-spacing:2.4px;opacity:.55;font-weight:600;margin-left:2px}
+.eyebrow{font-size:11px;letter-spacing:2.2px;font-weight:600;color:var(--signal);margin-bottom:20px}
+.hero h1{font-size:clamp(30px,4.2vw,46px);max-width:24ch}
+.hero .sub{margin-top:22px;max-width:70ch;font-size:17px;color:#B8C6D6;line-height:1.6}
+.metastrip{margin-top:40px;padding-top:24px;border-top:1px solid var(--ink-700);
+  display:flex;flex-wrap:wrap;gap:40px}
+.metastrip div{font-size:13px;color:#8FA3B8}
+.metastrip b{display:block;color:var(--paper);font-size:15px;font-weight:600;margin-bottom:2px}
+
+/* ---------- sections ---------- */
+section{padding:68px 0;border-bottom:1px solid var(--ink-100)}
+section.dark{background:var(--ink);color:var(--paper);border-bottom:none}
+section.dark h2,section.dark h3{color:var(--paper)}
+.secnum{font-family:var(--font-mono);font-size:12px;color:var(--signal-700);
+  letter-spacing:1px;margin-bottom:12px;font-weight:600}
+section.dark .secnum{color:var(--signal)}
+h2.display{font-size:clamp(24px,3vw,33px);max-width:30ch}
+.lede{margin-top:18px;max-width:74ch;font-size:16.5px;color:var(--slate)}
+section.dark .lede{color:#B8C6D6}
+h3{font-size:18px;font-weight:600;margin-top:44px;margin-bottom:14px}
+p{max-width:74ch}
+
+/* ---------- cards & grids ---------- */
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:32px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:32px}
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:32px}
+.card{background:#fff;border:1px solid var(--ink-100);border-radius:var(--r-md);padding:24px}
+section.dark .card{background:var(--ink-900);border-color:var(--ink-700)}
+.card h4{font-size:15px;font-weight:600;margin-bottom:8px}
+.card p{font-size:14px;color:var(--slate);margin:0;max-width:none}
+section.dark .card p{color:#8FA3B8}
+.stat{font-family:var(--font-mono);font-size:34px;font-weight:600;letter-spacing:-1px;display:block}
+.statlbl{font-size:12px;color:var(--slate);letter-spacing:.4px;margin-top:4px}
+section.dark .statlbl{color:#8FA3B8}
+
+.tag{display:inline-block;font-size:11px;font-weight:600;letter-spacing:.6px;
+  padding:3px 10px;border-radius:var(--r-pill);background:var(--paper-200);
+  color:var(--slate);margin-right:6px;margin-bottom:6px}
+
+/* ---------- tables ---------- */
+table{width:100%;border-collapse:collapse;margin-top:28px;font-size:14px}
+th,td{text-align:left;padding:13px 14px;border-bottom:1px solid var(--ink-100);vertical-align:top}
+th{font-size:11px;letter-spacing:1.1px;text-transform:uppercase;color:var(--slate);font-weight:600}
+td.axis{font-weight:600;width:20%}
+.pill{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.8px;
+  padding:2px 8px;border-radius:var(--r-pill)}
+.pill.her{background:var(--ink);color:var(--paper)}
+.pill.ev{background:rgba(233,162,59,.22);color:var(--signal-700)}
+caption{caption-side:bottom;text-align:left;font-size:12.5px;color:var(--slate);
+  padding-top:14px;line-height:1.6}
+
+/* ---------- pipeline ---------- */
+.pipes{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:36px}
+.pipe{border:1px solid var(--ink-100);border-radius:var(--r-md);overflow:hidden;background:#fff}
+.pipe header{padding:18px 22px;background:var(--ink);color:var(--paper)}
+.pipe.ev header{background:var(--signal);color:var(--ink-900)}
+.pipe header .t{font-weight:600;font-size:15px}
+.pipe header .s{font-size:12px;opacity:.75;margin-top:3px}
+.stage{padding:18px 22px;border-top:1px solid var(--ink-100)}
+.stage .n{font-family:var(--font-mono);font-size:11px;color:var(--slate);letter-spacing:.8px;margin-bottom:6px}
+.stage .h{font-weight:600;font-size:14px;margin-bottom:8px}
+.stage ul{margin:0;padding-left:18px;font-size:13px;color:var(--slate);line-height:1.75}
+.stage code{background:var(--paper-200);padding:1px 5px;border-radius:var(--r-sm);color:var(--ink)}
+
+/* ---------- callout ---------- */
+.callout{margin-top:40px;border-left:3px solid var(--signal);background:#fff;
+  border-radius:0 var(--r-md) var(--r-md) 0;padding:26px 30px}
+section.dark .callout{background:var(--ink-900)}
+.callout .k{font-size:11px;letter-spacing:2px;font-weight:600;color:var(--signal-700);margin-bottom:10px}
+section.dark .callout .k{color:var(--signal)}
+.callout p{font-size:15.5px;margin:0 0 12px}
+.callout p:last-child{margin-bottom:0}
+blockquote{margin:20px 0;padding-left:20px;border-left:2px solid var(--ink-100);
+  color:var(--slate);max-width:72ch;font-size:15px}
+
+.note{font-size:12.5px;color:var(--slate);margin-top:14px;max-width:78ch;line-height:1.6}
+section.dark .note{color:#8FA3B8}
+figure{margin:32px 0 0}
+figcaption{font-size:12.5px;color:var(--slate);margin-top:12px;max-width:78ch;line-height:1.6}
+section.dark figcaption{color:#8FA3B8}
+svg .lbl{font-family:var(--font-sans);font-size:11px;fill:var(--slate)}
+svg .lblm{font-family:var(--font-mono);font-size:10.5px;fill:var(--slate)}
+svg .val{font-family:var(--font-mono);font-size:11px;fill:var(--ink);font-weight:600}
+
+footer{background:var(--ink-900);color:#8FA3B8;padding:52px 0;font-size:13px}
+footer h4{color:var(--paper);font-size:13px;letter-spacing:1.4px;margin-bottom:16px}
+footer ol{padding-left:20px;line-height:1.9;max-width:90ch}
+footer a{color:#B8C6D6}
+
+@media (max-width:900px){
+  .grid2,.grid3,.grid4,.pipes{grid-template-columns:1fr}
+  .wrap{padding:0 20px}
+  section{padding:50px 0}
+}
+@media print{
+  .hero,section.dark,footer{background:#fff !important;color:#000 !important}
+  .hero h1,section.dark h2,section.dark h3{color:#000 !important}
+  section{page-break-inside:avoid}
+}
+</style>
+</head>
+<body>
+
+<!-- ============ HERO ============ -->
+<div class="hero">
+  <div class="wrap">
+    <div class="brandrow">
+      <svg viewBox="0 0 200 200" role="img" aria-label="Evidura" style="color:#F4F2EC">
+        <rect x="40" y="58"  width="120" height="18" rx="9" fill="#E9A23B"/>
+        <rect x="40" y="91"  width="84"  height="18" rx="9" fill="currentColor"/>
+        <rect x="40" y="124" width="120" height="18" rx="9" fill="currentColor"/>
+      </svg>
+      <div>
+        <div class="brandname">Evidura</div>
+        <div class="brandstrap">DURABILITY, MADE VISIBLE</div>
+      </div>
+    </div>
+
+    <div class="eyebrow">INTERNAL WORKING NOTE</div>
+    <h1 class="display">Kayley Lyons: research profile and method comparison</h1>
+    <p class="sub">This note summarises the research programme of A/Prof Kayley Lyons and compares the
+      competency-mapping method reported in Mun, Chanchlani, Lyons &amp; Gray (2024) with the DFVA v3.1
+      instrument. The comparison is structural: it sets out what each method takes as input, what
+      operation it performs, and what it treats as a possible source of error.</p>
+
+    <div class="metastrip">
+      <div><b>Director, Master of Public Health</b>Melbourne School of Population and Global Health</div>
+      <div><b>PharmD · MS · PhD</b>Learning Sciences &amp; Psychological Studies</div>
+      <div><b>Evidura scope</b>DFVA v3.1 only</div>
+      <div><b>Compiled</b>11 August 2026</div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ 1 · PROFILE ============ -->
+<section>
+  <div class="wrap">
+    <div class="secnum">01 — RESEARCH BACKGROUND</div>
+    <h2 class="display">Training and research interests</h2>
+    <p class="lede">Lyons holds a Doctor of Pharmacy, a Master of Science in Health-System
+      Administration with coursework at the UNC Gillings School of Global Public Health, and a PhD in
+      Learning Sciences and Psychological Studies. She held the role of Digital Health Education and
+      Workforce Development Lead at the Centre for Digital Transformation of Health prior to the
+      current appointment. The doctoral training is in learning sciences rather than clinical practice,
+      which is relevant to the measurement questions discussed in sections 3 to 5.</p>
+
+    <div class="grid4">
+      <div class="card"><span class="stat">1,419</span><div class="statlbl">Citations</div></div>
+      <div class="card"><span class="stat">19</span><div class="statlbl">h-index</div></div>
+      <div class="card"><span class="stat">31</span><div class="statlbl">i10-index</div></div>
+      <div class="card"><span class="stat">~41</span><div class="statlbl">Peer-reviewed articles</div></div>
+    </div>
+    <p class="note">Citation metrics from Google Scholar, retrieved 10 August 2026. The article count is
+      drawn from a secondary summary of the university profile page and has not been independently
+      verified.</p>
+
+    <h3>Four areas of published work</h3>
+    <div class="grid4">
+      <div class="card">
+        <h4>Curriculum design and competency mapping</h4>
+        <p>Mapping learning outcomes onto external competency frameworks as a basis for program
+          redesign. This is the area compared with DFVA v3.1 in section 3.</p>
+        <div style="margin-top:12px"><span class="tag">AMIA</span><span class="tag">AHICF</span></div>
+      </div>
+      <div class="card">
+        <h4>Artificial intelligence in education</h4>
+        <p>Two 2026 evidence syntheses, together with learning-analytics work on machine-generated and
+          machine-assessed student writing.</p>
+        <div style="margin-top:12px"><span class="tag">LAK</span><span class="tag">Gašević</span></div>
+      </div>
+      <div class="card">
+        <h4>Learning sciences and measurement</h4>
+        <p>Learner motivation, collaborative learning, socially shared metacognition and cognitive
+          apprenticeship in health sciences education.</p>
+        <div style="margin-top:12px"><span class="tag">AMEE Guide 137</span></div>
+      </div>
+      <div class="card">
+        <h4>Workforce development</h4>
+        <p>Design, delivery and evaluation of the Learning Health Systems Academy, an interprofessional
+          fellowship for clinicians.</p>
+        <div style="margin-top:12px"><span class="tag">CDTH</span></div>
+      </div>
+    </div>
+
+    <h3>Twenty most-cited publications</h3>
+    <figure>
+      <svg viewBox="0 0 1060 470" width="100%" role="img"
+           aria-label="Horizontal bar chart of Kayley Lyons's twenty most-cited publications">
+        <g class="lbl">
+          <line x1="380" y1="8" x2="380" y2="440" stroke="#DDE3EB"/>
+          <line x1="530" y1="8" x2="530" y2="440" stroke="#DDE3EB"/>
+          <line x1="680" y1="8" x2="680" y2="440" stroke="#DDE3EB"/>
+          <line x1="830" y1="8" x2="830" y2="440" stroke="#DDE3EB"/>
+          <line x1="980" y1="8" x2="980" y2="440" stroke="#DDE3EB"/>
+          <text x="380" y="458">0</text><text x="530" y="458">50</text>
+          <text x="680" y="458">100</text><text x="830" y="458">150</text><text x="980" y="458">200</text>
+        </g>
+        <g>
+          <text class="lbl" x="372" y="20" text-anchor="end">Cognitive apprenticeship in health sciences ’16</text>
+          <rect x="380" y="10" width="618" height="13" rx="3" fill="#0F2236"/><text class="val" x="1006" y="21">206</text>
+
+          <text class="lbl" x="372" y="42" text-anchor="end">Can LLMs write reflectively ’23</text>
+          <rect x="380" y="32" width="444" height="13" rx="3" fill="#E9A23B"/><text class="val" x="832" y="43">148</text>
+
+          <text class="lbl" x="372" y="64" text-anchor="end">Sustainable pharmacy education, COVID ’20</text>
+          <rect x="380" y="54" width="348" height="13" rx="3" fill="#0F2236"/><text class="val" x="736" y="65">116</text>
+
+          <text class="lbl" x="372" y="86" text-anchor="end">Socioemotional regulation in PBL ’21</text>
+          <rect x="380" y="76" width="276" height="13" rx="3" fill="#0F2236"/><text class="val" x="664" y="87">92</text>
+
+          <text class="lbl" x="372" y="108" text-anchor="end">Socially shared metacognition ’21</text>
+          <rect x="380" y="98" width="267" height="13" rx="3" fill="#0F2236"/><text class="val" x="655" y="109">89</text>
+
+          <text class="lbl" x="372" y="130" text-anchor="end">Design-based research: a web-based tool ’21</text>
+          <rect x="380" y="120" width="249" height="13" rx="3" fill="#5C7088"/><text class="val" x="637" y="131">83</text>
+
+          <text class="lbl" x="372" y="152" text-anchor="end">Innovation in clinical pharmacy practice ’14</text>
+          <rect x="380" y="142" width="168" height="13" rx="3" fill="#0F2236"/><text class="val" x="556" y="153">56</text>
+
+          <text class="lbl" x="372" y="174" text-anchor="end">Preparedness for practice ’21</text>
+          <rect x="380" y="164" width="141" height="13" rx="3" fill="#0F2236"/><text class="val" x="529" y="175">47</text>
+
+          <text class="lbl" x="372" y="196" text-anchor="end">Design-based research in pharmacy ’19</text>
+          <rect x="380" y="186" width="138" height="13" rx="3" fill="#5C7088"/><text class="val" x="526" y="197">46</text>
+
+          <text class="lbl" x="372" y="218" text-anchor="end">Layered learning in oncology ’16</text>
+          <rect x="380" y="208" width="138" height="13" rx="3" fill="#0F2236"/><text class="val" x="526" y="219">46</text>
+
+          <text class="lbl" x="372" y="240" text-anchor="end">Evidence-centered assessment w/ GenAI ’24</text>
+          <rect x="380" y="230" width="132" height="13" rx="3" fill="#E9A23B"/><text class="val" x="520" y="241">44</text>
+
+          <text class="lbl" x="372" y="262" text-anchor="end">AMEE Guide 137 — learner motivation ’21</text>
+          <rect x="380" y="252" width="123" height="13" rx="3" fill="#0F2236"/><text class="val" x="511" y="263">41</text>
+
+          <text class="lbl" x="372" y="284" text-anchor="end">Predictors of student performance ’20</text>
+          <rect x="380" y="274" width="90" height="13" rx="3" fill="#0F2236"/><text class="val" x="478" y="285">30</text>
+
+          <text class="lbl" x="372" y="306" text-anchor="end">COVID curriculum change strategies ’21</text>
+          <rect x="380" y="296" width="78" height="13" rx="3" fill="#0F2236"/><text class="val" x="466" y="307">26</text>
+
+          <text class="lbl" x="372" y="328" text-anchor="end">Therapeutic reasoning: scoping review ’23</text>
+          <rect x="380" y="318" width="72" height="13" rx="3" fill="#0F2236"/><text class="val" x="460" y="329">24</text>
+
+          <text class="lbl" x="372" y="350" text-anchor="end">Predictors of residency attainment ’18</text>
+          <rect x="380" y="340" width="72" height="13" rx="3" fill="#0F2236"/><text class="val" x="460" y="351">24</text>
+
+          <text class="lbl" x="372" y="372" text-anchor="end">Learning, teaching &amp; assessment in HPE ’24</text>
+          <rect x="380" y="362" width="66" height="13" rx="3" fill="#0F2236"/><text class="val" x="454" y="373">22</text>
+
+          <text class="lbl" x="372" y="394" text-anchor="end">AI-empowered analytics of reflection ’23</text>
+          <rect x="380" y="384" width="63" height="13" rx="3" fill="#E9A23B"/><text class="val" x="451" y="395">21</text>
+
+          <text class="lbl" x="372" y="416" text-anchor="end">GenAI as a virtual tutor ’25</text>
+          <rect x="380" y="406" width="60" height="13" rx="3" fill="#E9A23B"/><text class="val" x="448" y="417">20</text>
+
+          <text class="lbl" x="372" y="438" text-anchor="end">Conceptualising transitions ’22</text>
+          <rect x="380" y="428" width="54" height="13" rx="3" fill="#0F2236"/><text class="val" x="442" y="439">18</text>
+        </g>
+      </svg>
+      <figcaption>
+        <span style="display:inline-block;width:10px;height:10px;background:#E9A23B;border-radius:2px"></span>
+        artificial intelligence &nbsp;·&nbsp;
+        <span style="display:inline-block;width:10px;height:10px;background:#5C7088;border-radius:2px"></span>
+        design-based research &nbsp;·&nbsp;
+        <span style="display:inline-block;width:10px;height:10px;background:#0F2236;border-radius:2px"></span>
+        other. Source: Google Scholar, retrieved 10 August 2026. Four papers in the artificial
+        intelligence group were published between 2023 and 2025 and account for 233 of the citations
+        shown.
+      </figcaption>
+    </figure>
+
+    <div class="callout">
+      <div class="k">METHODOLOGICAL PRECEDENT</div>
+      <p>Lyons, Lobczowski, Greene, Whitley &amp; McLaughlin (2021), <em>Computers &amp; Education</em>:
+        “Using a design-based research approach to develop and study a web-based tool.”</p>
+      <p>The paper sets out a procedure for developing an educational web tool and studying it within
+        the same research programme. This is the situation Evidura is in, and the paper offers an
+        existing design rather than one that would need to be constructed.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 2 · EVIDENCE BASE ============ -->
+<section class="dark">
+  <div class="wrap">
+    <div class="secnum">02 — TWO 2026 EVIDENCE SYNTHESES</div>
+    <h2 class="display">Reviews of artificial intelligence in health professions education</h2>
+    <p class="lede">Lyons is a co-author on two 2026 syntheses that screened 18,607 records between
+      them. Both bear on DFVA: the first provides an external reference for the AI-literacy construct,
+      and the second reports both an absence of higher-level evaluation evidence and a general
+      methodological limitation in the field.</p>
+
+    <div class="grid2">
+      <div class="card">
+        <h4 style="color:#F4F2EC">Astbury, Fortune, Dal Ponte, Lyons &amp; Shaw (2026)</h4>
+        <p style="margin-bottom:18px">Generative artificial intelligence for teaching and assessment in
+          health professions education: a scoping review. <em>Nurse Education in Practice</em> 91:104697.
+          The author-contributions statement records that Lyons and Shaw conceptualised the study.</p>
+        <svg viewBox="0 0 470 190" width="100%" role="img" aria-label="Screening funnel: 8975 records to 23 included studies">
+          <g>
+            <rect x="10" y="10" width="450" height="34" rx="5" fill="#1B3554"/>
+            <text x="24" y="32" class="lbl" style="fill:#F4F2EC">Records identified</text>
+            <text x="446" y="32" class="val" style="fill:#F4F2EC" text-anchor="end">8,975</text>
+
+            <rect x="10" y="54" width="292" height="34" rx="5" fill="#1B3554"/>
+            <text x="24" y="76" class="lbl" style="fill:#F4F2EC">Screened after de-duplication</text>
+            <text x="288" y="76" class="val" style="fill:#F4F2EC" text-anchor="end">5,826</text>
+
+            <rect x="10" y="98" width="120" height="34" rx="5" fill="#1B3554"/>
+            <text x="24" y="120" class="lbl" style="fill:#F4F2EC">Full text assessed</text>
+            <text x="140" y="120" class="val" style="fill:#F4F2EC" text-anchor="start">73</text>
+
+            <rect x="10" y="142" width="72" height="34" rx="5" fill="#E9A23B"/>
+            <text x="24" y="164" class="lbl" style="fill:#0A1828;font-weight:600">Included</text>
+            <text x="96" y="164" class="val" style="fill:#E9A23B" text-anchor="start">23</text>
+          </g>
+        </svg>
+        <p class="note" style="margin-top:6px">The review reports that 41 of the 73 full texts were
+          excluded because the studies did not use the term “artificial intelligence” in the title,
+          abstract or keywords.</p>
+        <p style="margin-top:16px"><strong style="color:#F4F2EC">Relevance to DFVA.</strong> The review
+          produces an implementation checklist and a taxonomy of curriculum topics, either of which
+          could serve as an external reference for the AI-literacy item in Panel C. The review also
+          reports that governance and regulation appeared in 11 per cent of the programs surveyed,
+          which is relevant to whether the item discriminates between programs.</p>
+      </div>
+
+      <div class="card">
+        <h4 style="color:#F4F2EC">Woods, Lyons, Van Der Vegt, Olsen, Huang, Khor, Xu &amp; Sullivan (2026)</h4>
+        <p style="margin-bottom:18px">Assessing the effectiveness of artificial intelligence education
+          and training for healthcare workers: a systematic review. <em>BMC Medical Education</em> 26:549.
+          PROSPERO CRD42024575061. 9,632 records screened; 27 studies included, covering approximately
+          2,160 learners. Lyons is second author.</p>
+        <svg viewBox="0 0 470 215" width="100%" role="img"
+             aria-label="Kirkpatrick-Barr evaluation levels: 19 studies at level 1, 21 at level 2, 2 at level 3, none at level 4">
+          <g>
+            <text x="10" y="28" class="lbl" style="fill:#8FA3B8">L1 · reaction</text>
+            <rect x="200" y="12" width="190" height="26" rx="4" fill="#1B3554"/>
+            <text x="398" y="30" class="val" style="fill:#F4F2EC">19</text>
+
+            <text x="10" y="72" class="lbl" style="fill:#8FA3B8">L2 · attitudes / knowledge</text>
+            <rect x="200" y="56" width="210" height="26" rx="4" fill="#1B3554"/>
+            <text x="418" y="74" class="val" style="fill:#F4F2EC">21</text>
+
+            <text x="10" y="116" class="lbl" style="fill:#8FA3B8">L3 · behaviour change</text>
+            <rect x="200" y="100" width="20" height="26" rx="4" fill="#E9A23B"/>
+            <text x="228" y="118" class="val" style="fill:#E9A23B">2</text>
+
+            <text x="10" y="153" class="lbl" style="fill:#8FA3B8">L4 · organisational</text>
+            <text x="10" y="167" class="lbl" style="fill:#8FA3B8">practice / client benefit</text>
+            <rect x="200" y="144" width="2" height="26" rx="1" fill="#5C7088"/>
+            <text x="210" y="162" class="val" style="fill:#E9A23B">0</text>
+            <line x1="200" y1="188" x2="440" y2="188" stroke="#1B3554"/>
+            <text x="200" y="204" class="lblm" style="fill:#8FA3B8">n studies (of 27) reaching each level</text>
+          </g>
+        </svg>
+        <p style="margin-top:16px"><strong style="color:#F4F2EC">Relevance to DFVA.</strong> No included
+          study evaluated its program at Kirkpatrick-Barr Level 4. This absence of downstream outcome
+          evidence is what the graduate-outcome dimension in DFVA attempts to detect, and the
+          Kirkpatrick-Barr hierarchy is an established framework for describing it.</p>
+      </div>
+    </div>
+
+    <div class="callout">
+      <div class="k">REPORTED LIMITATION IN THE FIELD</div>
+      <blockquote style="color:#B8C6D6;border-left-color:#1B3554">
+        “most authors developed their own constructs, tests, and surveys without evidence of validity,
+        reliability, or generalizability… increases the risk of multiple types of measurement errors,
+        including construct underrepresentation and method bias.”
+      </blockquote>
+      <p style="color:#B8C6D6">Woods, Lyons et al. (2026). The observation applies to DFVA as currently
+        specified. Panel C is a five-item scale, scored 0 to 3 by a language model, for which no rater
+        study has been published.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 3 · METHOD COMPARISON ============ -->
+<section>
+  <div class="wrap">
+    <div class="secnum">03 — METHOD COMPARISON</div>
+    <h2 class="display">Two procedures for assessing a curriculum against a reference</h2>
+    <p class="lede">Both methods reduce a curriculum to structured statements, compare those statements
+      against a reference, and produce a judgment about the program's position. They differ in what
+      each treats as the likely source of error, and therefore in what each does to guard against it.</p>
+
+    <div class="pipes">
+      <div class="pipe">
+        <header>
+          <div class="t">Mun, Chanchlani, Lyons &amp; Gray (2024)</div>
+          <div class="s">JMIR Med Educ 10:e54112 · Viewpoint · one program · three-month commission</div>
+        </header>
+        <div class="stage">
+          <div class="n">STAGE 1</div>
+          <div class="h">Market context and needs analysis</div>
+          <ul>
+            <li>National and local digital health strategic plans</li>
+            <li>Course evaluation and feedback, 2021–2023</li>
+            <li>Commissioned market analysis report, 2021</li>
+            <li>HEIMS enrolment data, 2021–2023</li>
+            <li>Health sector needs analysis, 2022</li>
+            <li>Institutional stakeholder feedback, 2023</li>
+            <li>699 job advertisements, October 2020 – January 2021</li>
+          </ul>
+        </div>
+        <div class="stage">
+          <div class="n">STAGE 2</div>
+          <div class="h">Competency mapping</div>
+          <ul>
+            <li>Gap analysis against the AMIA core clinical informatics competencies (five domains)</li>
+            <li>Review of national and international syllabi</li>
+            <li>Subject-level learning outcomes compared to statement-level competencies</li>
+            <li>Alignment confirmed against the Australian Health Informatics Competency Framework</li>
+            <li>Expert panel of subject coordinators and centre leadership</li>
+          </ul>
+        </div>
+        <div class="stage">
+          <div class="n">STAGE 3</div>
+          <div class="h">Structure redesign and electives</div>
+          <ul>
+            <li>Subject catalogue review: 79 identified, 50 excluded, 13 selected</li>
+            <li>Core and elective suitability assessment</li>
+            <li>Stakeholder validation</li>
+            <li>Course overview and title updated</li>
+          </ul>
+        </div>
+        <div class="stage" style="background:var(--paper-200)">
+          <div class="n">OUTPUT</div>
+          <div class="h">Three core subjects reduced to two, two elective slots, 13 electives, revised course learning outcomes, program retitled</div>
+          <ul><li>Traceability runs in both directions: course-level outcomes map upward to the five AMIA domains and downward to subject-level outcomes</li></ul>
+        </div>
+      </div>
+
+      <div class="pipe ev">
+        <header>
+          <div class="t">DFVA v3.1</div>
+          <div class="s">August 2026 · amends v3 §4, §5.2, §7, §8 · 34 placed programs</div>
+        </header>
+        <div class="stage">
+          <div class="n">PANEL A — MEASURED</div>
+          <div class="h">Destination exposure</div>
+          <ul>
+            <li>Mean Felten AI Occupational Exposure across the occupations graduates enter</li>
+            <li>Destination titles drawn from JIR/LiveAlumni data at program grain</li>
+            <li>Crosswalk of 368 titles to 106 O*NET-SOC codes, a ratio of 3.47 to 1</li>
+            <li>Coverage is 100 per cent for placed programs; the build fails on an unmapped title</li>
+            <li>Provenance is a required machine-checked field</li>
+          </ul>
+        </div>
+        <div class="stage">
+          <div class="n">PANEL C — SCORED</div>
+          <div class="h">Curriculum adaptiveness</div>
+          <ul>
+            <li>Five items, each scored <code>0..3</code>: systems thinking, technical depth, research
+              methods, irreplaceability, AI literacy</li>
+            <li>Scored from handbook and syllabus text</li>
+            <li>No external competency framework is used as a reference</li>
+            <li>No inter-rater study has been conducted (open item R9)</li>
+          </ul>
+        </div>
+        <div class="stage">
+          <div class="n">UNCERTAINTY</div>
+          <div class="h">Exact enumeration</div>
+          <ul>
+            <li>All <code>3⁵ = 243</code> perturbation states are enumerated rather than sampled</li>
+            <li>The Monte-Carlo procedure and its seed were removed; output is identical between runs</li>
+            <li>Computed at three assumed rater-error rates: <code>e = 0.05</code>, <code>0.10</code>, <code>0.20</code></li>
+            <li>Each distribution must sum to 1 within <code>1e-12</code> or the build fails</li>
+          </ul>
+        </div>
+        <div class="stage" style="background:rgba(233,162,59,.12)">
+          <div class="n">OUTPUT</div>
+          <div class="h">Coordinate pair, quadrant label, stability class</div>
+          <ul>
+            <li>Label rule: <code>m ≥ 0.80</code> single label, <code>0.60–0.80</code> dual label, below <code>0.60</code> suppressed</li>
+            <li><code>stabilityClass</code> cut at 0.90, within the observed empty band</li>
+            <li>The full four-quadrant distribution is displayed beneath the label</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <table>
+      <caption>Table 1. Structural comparison. The Evidura column describes DFVA v3.1 only; the v1
+        eleven-dimension total score and the v2 categorical quadrant judgment are outside the scope of
+        this comparison.</caption>
+      <thead><tr><th>Dimension of comparison</th><th><span class="pill her">LYONS 2024</span></th><th><span class="pill ev">DFVA V3.1</span></th></tr></thead>
+      <tbody>
+        <tr><td class="axis">Unit of analysis</td><td>One program</td><td>34 placed programs of 66</td></tr>
+        <tr><td class="axis">Curriculum input</td><td>Subject-level learning outcomes, read manually</td><td>Handbook text reduced to five scored items</td></tr>
+        <tr><td class="axis">Reference framework</td><td>AMIA and AHICF, both externally published</td><td>None; the rubric defines its own scale</td></tr>
+        <tr><td class="axis">Comparison operation</td><td>Statement-level, by human judgment</td><td>Rubric levels 0–3, scored by a language model</td></tr>
+        <tr><td class="axis">Labour-market evidence</td><td>699 job advertisements, October 2020 – January 2021</td><td>Felten AIOE over alumni destination titles, updated on regeneration</td></tr>
+        <tr><td class="axis">Validation</td><td>Expert panel of subject coordinators and centre leadership</td><td>None conducted; recorded as open item R9</td></tr>
+        <tr><td class="axis">Uncertainty quantification</td><td>None reported</td><td>Exact enumeration of 243 states at three error rates; full distribution published</td></tr>
+        <tr><td class="axis">Reproducibility</td><td>Not re-runnable; depends on human judgment</td><td>Output identical between runs; no random seed</td></tr>
+        <tr><td class="axis">Provenance</td><td>Described in the methods section</td><td>Required machine-checked fields; the build fails if absent</td></tr>
+        <tr><td class="axis">Traceability</td><td>Bidirectional: to framework domains and to subject outcomes</td><td>Downward only; no link to an external framework</td></tr>
+        <tr><td class="axis">Cost of repetition</td><td>A three-month commissioned engagement</td><td>Regeneration of the dataset</td></tr>
+        <tr><td class="axis">Output</td><td>Revised learning outcomes, two core subjects and 13 electives, retitled program</td><td>Coordinate pair, quadrant label and stability class</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ============ 4 · COMPLEMENTARITY ============ -->
+<section class="dark">
+  <div class="wrap">
+    <div class="secnum">04 — POINTS OF COMPLEMENTARITY</div>
+    <h2 class="display">Each method addresses a limitation present in the other</h2>
+    <p class="lede">The two methods have non-overlapping weaknesses. DFVA v3.1 quantifies rating
+      uncertainty but assumes the rate at which raters err; the 2024 method obtains expert agreement but
+      does not report what that agreement was or what would follow from disagreement.</p>
+
+    <div class="grid2" style="margin-top:44px">
+      <div class="card">
+        <h4 style="color:#F4F2EC">The v3.1 error rate is assumed rather than measured</h4>
+        <p>The uncertainty layer in v3.1 is parameterised by <code style="color:#F4F2EC">e</code>, the
+          per-item rater-error rate. The specification states this directly:</p>
+        <blockquote style="color:#B8C6D6;border-left-color:#1B3554;font-size:14px">
+          “No inter-rater study has been run, so none of the three is empirically grounded (v3 open item
+          R9). Publishing only the middle column presents a choice of assumption as a property of the
+          portfolio.”
+        </blockquote>
+        <p>An expert panel independently confirming a mapping, as used in stage 2 of the 2024 method, is
+          one procedure by which <code style="color:#F4F2EC">e</code> could be estimated from data.</p>
+      </div>
+      <div class="card">
+        <h4 style="color:#F4F2EC">The 2024 method reports no uncertainty</h4>
+        <p>The mapping is reported as settled. No rater-agreement statistic, sensitivity analysis, or
+          account of what a second panel's disagreement would have implied is given. The limitation the
+          authors do state is narrower:</p>
+        <blockquote style="color:#B8C6D6;border-left-color:#1B3554;font-size:14px">
+          “Consultation for this project was informed by reports that included student evaluations but
+          mainly occurred at the faculty educators and executive level.”
+        </blockquote>
+        <p>The enumeration procedure in v3.1 is a means of identifying which mapping decisions determine
+          the result and which do not.</p>
+      </div>
+    </div>
+
+    <div class="callout">
+      <div class="k">SENSITIVITY OF THE PUBLISHED RESULT TO THE ASSUMED ERROR RATE</div>
+      <p>The number of programs reported as boundary cases depends on the assumed rate rather than on
+        the underlying scores. Across the 34 placed programs:</p>
+      <figure style="margin-top:24px">
+        <svg viewBox="0 0 900 190" width="100%" role="img"
+             aria-label="Programs failing the m greater than or equal to 0.80 label rule at three assumed rater-error rates: 0 at e=0.05, 2 at e=0.10, 14 at e=0.20">
+          <g>
+            <text x="10" y="34" class="lblm" style="fill:#8FA3B8">e = 0.05 &nbsp;optimistic</text>
+            <rect x="180" y="18" width="4" height="26" rx="2" fill="#5C7088"/>
+            <text x="196" y="37" class="val" style="fill:#F4F2EC">0 of 34 below the rule</text>
+
+            <text x="10" y="88" class="lblm" style="fill:#8FA3B8">e = 0.10 &nbsp;published</text>
+            <rect x="180" y="72" width="38" height="26" rx="3" fill="#E9A23B"/>
+            <text x="230" y="91" class="val" style="fill:#E9A23B">2 of 34 below the rule</text>
+
+            <text x="10" y="142" class="lblm" style="fill:#8FA3B8">e = 0.20 &nbsp;pessimistic</text>
+            <rect x="180" y="126" width="265" height="26" rx="3" fill="#1B3554"/>
+            <text x="457" y="145" class="val" style="fill:#F4F2EC">14 of 34 below the rule</text>
+
+            <line x1="180" y1="168" x2="700" y2="168" stroke="#1B3554"/>
+            <text x="180" y="184" class="lblm" style="fill:#8FA3B8">bar width ∝ programs whose modal probability falls below the m ≥ 0.80 single-label threshold</text>
+          </g>
+        </svg>
+      </figure>
+      <p style="color:#B8C6D6;margin-top:18px">The count varies by a factor of seven across the range of
+        assumed rates. Estimating the rate from data would therefore constrain a result that is at
+        present determined by an assumption. This is a study Lyons is qualified to design and conduct.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 5 · v3.1 LIMITATIONS ============ -->
+<section>
+  <div class="wrap">
+    <div class="secnum">05 — LIMITATIONS DOCUMENTED IN v3.1</div>
+    <h2 class="display">The modal-probability distribution is bimodal and the published threshold falls inside the lower cluster</h2>
+    <p class="lede">Exact enumeration showed structure that the earlier sampling procedure had obscured.
+      The 34 modal probabilities take 13 distinct values, forming two clusters separated by a band 0.13
+      wide in which no program falls. The published <code>m ≥ 0.80</code> rule cuts within the lower
+      cluster rather than between the two.</p>
+
+    <figure>
+      <svg viewBox="0 0 1060 300" width="100%" role="img"
+           aria-label="Strip plot of 34 modal probabilities showing a boundary cluster from 0.799 to 0.848, an empty band to 0.979, and a stable cluster to 1.0">
+        <g>
+          <rect x="353" y="40" width="539" height="150" fill="#E7E3D8"/>
+          <text x="622" y="118" class="lbl" text-anchor="middle" style="font-size:13px;fill:#5C7088;font-weight:600">EMPTY BAND — 0.13 wide</text>
+          <text x="622" y="138" class="lblm" text-anchor="middle">no program lands here</text>
+
+          <line x1="80" y1="190" x2="1020" y2="190" stroke="#0F2236" stroke-width="1.5"/>
+          <g class="lblm" text-anchor="middle">
+            <line x1="80"  y1="190" x2="80"  y2="196" stroke="#5C7088"/><text x="80"  y="212">0.78</text>
+            <line x1="285" y1="190" x2="285" y2="196" stroke="#5C7088"/><text x="285" y="212">0.83</text>
+            <line x1="490" y1="190" x2="490" y2="196" stroke="#5C7088"/><text x="490" y="212">0.88</text>
+            <line x1="694" y1="190" x2="694" y2="196" stroke="#5C7088"/><text x="694" y="212">0.93</text>
+            <line x1="899" y1="190" x2="899" y2="196" stroke="#5C7088"/><text x="899" y="212">0.98</text>
+          </g>
+          <text x="550" y="240" class="lbl" text-anchor="middle" style="font-size:12px">modal quadrant probability &nbsp;<tspan class="mono">m</tspan>&nbsp; at e = 0.10</text>
+
+          <line x1="162" y1="30" x2="162" y2="200" stroke="#E9A23B" stroke-width="2" stroke-dasharray="5 4"/>
+          <text x="168" y="30" class="lbl" style="fill:#B97E26;font-weight:600;font-size:12px">m ≥ 0.80 published rule</text>
+
+          <line x1="571" y1="46" x2="571" y2="190" stroke="#0F2236" stroke-width="1.5" stroke-dasharray="3 3"/>
+          <text x="578" y="60" class="lbl" style="font-weight:600;font-size:12px">stabilityClass cut at 0.90</text>
+          <text x="578" y="76" class="lblm">any cut in [0.85, 0.98] is identical</text>
+
+          <g fill="#0F2236">
+            <circle cx="153" cy="180" r="6"/><circle cx="153" cy="165" r="6"/>
+            <circle cx="185" cy="180" r="6"/><circle cx="185" cy="165" r="6"/><circle cx="185" cy="150" r="6"/>
+            <circle cx="185" cy="135" r="6"/><circle cx="185" cy="120" r="6"/><circle cx="185" cy="105" r="6"/>
+            <circle cx="215" cy="180" r="6"/><circle cx="215" cy="165" r="6"/><circle cx="215" cy="150" r="6"/>
+            <circle cx="265" cy="180" r="6"/><circle cx="310" cy="180" r="6"/><circle cx="350" cy="180" r="6"/>
+          </g>
+          <text x="147" y="145" class="lblm" text-anchor="end" style="fill:#B97E26;font-weight:600">2 below rule</text>
+          <text x="250" y="56"  class="lbl"  text-anchor="middle" style="font-weight:600;font-size:13px">BOUNDARY CLUSTER · n = 14</text>
+          <text x="250" y="73"  class="lblm" text-anchor="middle">0.79855 – 0.84758 · all 0–1 adaptiveness points from the median</text>
+
+          <g fill="#0F2236">
+            <circle cx="880" cy="180" r="6"/><circle cx="898" cy="180" r="6"/><circle cx="916" cy="180" r="6"/>
+            <circle cx="934" cy="180" r="6"/><circle cx="952" cy="180" r="6"/><circle cx="964" cy="180" r="6"/>
+            <circle cx="898" cy="165" r="6"/><circle cx="916" cy="165" r="6"/><circle cx="934" cy="165" r="6"/>
+            <circle cx="952" cy="165" r="6"/><circle cx="964" cy="165" r="6"/>
+            <circle cx="916" cy="150" r="6"/><circle cx="934" cy="150" r="6"/><circle cx="952" cy="150" r="6"/>
+            <circle cx="964" cy="150" r="6"/>
+            <circle cx="934" cy="135" r="6"/><circle cx="952" cy="135" r="6"/><circle cx="964" cy="135" r="6"/>
+            <circle cx="952" cy="120" r="6"/><circle cx="964" cy="120" r="6"/>
+          </g>
+          <text x="922" y="88"  class="lbl" text-anchor="middle" style="font-weight:600;font-size:13px">STABLE CLUSTER · n = 20</text>
+          <text x="922" y="104" class="lblm" text-anchor="middle">0.97939 – 1.00000</text>
+        </g>
+      </svg>
+      <figcaption>Figure 1. Values are plotted exactly where the v3.1 specification publishes them: two
+        programs at 0.79855, six at 0.80620, and eleven at or below 0.81355. The remaining
+        boundary-cluster positions are indicative within the stated range 0.79855 to 0.84758;
+        per-program values are held in <span class="mono">v31_reference_position_stability.csv</span>.
+        The 0.80 threshold separates two programs at 0.79855 from six at 0.80620, a difference of 0.008.</figcaption>
+    </figure>
+
+    <div class="grid3" style="margin-top:44px">
+      <div class="card">
+        <h4>What v3.1 changed</h4>
+        <p>The Monte-Carlo procedure was replaced by exact enumeration of the 243 states. The published
+          dual-label count had previously depended on the random seed, returning 0, 1 or 2 on re-runs.
+          It is now deterministic.</p>
+      </div>
+      <div class="card">
+        <h4>What v3.1 discloses</h4>
+        <p>53 of 170 scored items, or 31 per cent, sit at the top of the scale, which makes the error
+          model asymmetric with an expected drift of −0.075 points. A symmetric alternative was tested
+          and no program changed label regime.</p>
+      </div>
+      <div class="card">
+        <h4>What remains open</h4>
+        <p>The rater study (R9); the hybrid-crosswalk trade-off; the evidence-tier trade-off; coverage
+          bias, since 32 of 66 programs are unplaced; and re-anchoring of the AI-literacy item.</p>
+      </div>
+    </div>
+
+    <div class="callout">
+      <div class="k">SUMMARY</div>
+      <p>DFVA v3.1 applies a precise uncertainty procedure to a measurement that has not been validated.
+        It enumerates the consequences of a rating error whose rate has not been estimated, across five
+        items that are not anchored to an external framework.</p>
+      <p>The 2024 method has the opposite profile: an externally anchored and expert-confirmed mapping,
+        with no account of its own uncertainty and a refresh cycle measured in years.</p>
+      <p>Neither method is complete on its own, and the limitations are of a kind that the other
+        addresses. Combining them is a defensible basis for a joint study.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <h4>REFERENCES</h4>
+    <ol>
+      <li>Mun M, Chanchlani S, Lyons K, Gray K (2024). Transforming the future of digital health education: redesign of a graduate program using competency mapping. <em>JMIR Medical Education</em> 10:e54112. [Viewpoint] <a href="https://doi.org/10.2196/54112">doi:10.2196/54112</a></li>
+      <li>Astbury H, Fortune E, Dal Ponte CD, Lyons K, Shaw L (2026). Generative artificial intelligence for teaching and assessment in health professions education: a scoping review. <em>Nurse Education in Practice</em> 91:104697. <a href="https://doi.org/10.1016/j.nepr.2025.104697">doi:10.1016/j.nepr.2025.104697</a></li>
+      <li>Woods L, Lyons K, Van Der Vegt A, Olsen Q, Huang W, Khor JS, Xu N, Sullivan C (2026). Assessing the effectiveness of artificial intelligence education and training for healthcare workers: a systematic review. <em>BMC Medical Education</em> 26:549. <a href="https://doi.org/10.1186/s12909-026-08969-3">doi:10.1186/s12909-026-08969-3</a></li>
+      <li>McLaughlin JE, Dal Ponte CD, Lyons K (2025). Student perceptions of GenAI as a virtual tutor to support collaborative research training for health professionals. <em>BMC Medical Education</em> 25:895. <a href="https://doi.org/10.1186/s12909-025-07390-6">doi:10.1186/s12909-025-07390-6</a></li>
+      <li>Lyons KM, Lobczowski NG, Greene JA, Whitley J, McLaughlin JE (2021). Using a design-based research approach to develop and study a web-based tool. <em>Computers &amp; Education</em> 175:104329.</li>
+      <li>Google Scholar citation profile, retrieved 10 August 2026.</li>
+      <li><em>DFVA v3.1: exact position stability — methodology and implementation specification</em>, August 2026 (<span class="mono">docs/dfva-v31-methodology.md</span>), amending <em>DFVA v3 methodology</em> §4, §5.2, §7 and §8.</li>
+    </ol>
+    <p style="margin-top:32px;font-size:12px;opacity:.75">
+      Evidura — internal working note, not for external circulation. Quotations were verified against
+      the source PDFs on 11 August 2026. References to the Evidura method throughout describe DFVA v3.1.
+      DFVA is the internal name for the methodology and is not used in external material.
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>

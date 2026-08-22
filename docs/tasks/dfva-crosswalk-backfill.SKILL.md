@@ -22,12 +22,26 @@ This is the highest-value data work available: it converts existing measured evi
 into usable exposure figures. It also unblocks the hold-out validation that gates the
 whole inferred-profiles workstream.
 
-**Opened at 48 programs / 443 titles; at 13 / 64 as of 2026-08-18** (see the run log
-below — the header used to carry the opening figures and read as current). Get the live
-count from `destination-profiles.py nextbatch 1`, and the fully-cleared set from
-`destination-profiles.py ready`. Note the endgame is not zero: ~6 programs are blocked by
-titles that cannot be resolved while the crosswalk is keyed on title alone, and the run
-log records which — do not keep re-proposing them.
+**Opened at 48 programs / 443 titles; at 13 programs / 40 titles as of 2026-08-19** (see
+the run log below — the header used to carry the opening figures and read as current). Get
+the live count from `destination-profiles.py nextbatch 1`, and the fully-cleared set from
+`destination-profiles.py ready`.
+
+**As of the twenty-first run the queue is EXHAUSTED, and this is verified, not assumed:**
+all 40 remaining titles are refused or parked, and each of the 13 blocked programs carries
+at least one refused title, so no mapping run can clear another program. A program clears
+only when *every* one of its titles maps — that is why refusals do not shrink the
+denominator. Read the twenty-first run entry before doing anything else; the next real
+increment requires the crosswalk key to carry the program, not more mapping. Do not
+re-propose the parked titles.
+
+**The exhaustion is now machine-readable (twenty-second run).** The refusals live in
+`data/aioe/crosswalk-refused.json`, and `nextbatch` reads them: it drops refused titles
+*and* the programs those titles hold, so `nextbatch 1` prints `[]` and a run exits at the
+first command instead of re-deriving the whole adjudication. The parked set is printed to
+stderr, so nothing is hidden. `nextbatch N --all` still shows the unfiltered queue. If you
+are reading this far into the file without having been sent here by a non-empty
+`nextbatch`, stop — there is no live work.
 
 ## Check first — exit cheaply if there is nothing to do
 
@@ -35,7 +49,11 @@ log records which — do not keep re-proposing them.
 cd /Users/djmulholland/Documents/SXD-Github/DFVA && python3 scripts/destination-profiles.py nextbatch 1
 ```
 
-If that prints `[]`, every blocking title is mapped. Reply with one line saying so and STOP.
+If that prints `[]`, there is no live work — either every blocking title is mapped, or
+every program still blocked is held by a title already refused in
+`data/aioe/crosswalk-refused.json` (the stderr note lists which). Reply with one line
+saying so and STOP. Do not run `--all` and start mapping the parked titles: they unblock
+nothing and add contamination risk for any future program reporting the same string.
 
 Otherwise take the **first 20 titles**:
 
@@ -1503,10 +1521,344 @@ single-profession clusters left**, and both are what `dfva:check` names as most 
 the obvious next batch. `dfva:check` still also names **Bachelor of Music (Performance) (15/15)**,
 which is **not** a Wave 1 blocker and does not appear in `unmapped` — do not take that bait.
 
+## Nineteenth run, 2026-08-19 — 13 applied, ONE refused; mc-larch NOT cleared (1 blocker left)
+
+`nextbatch 40` returned the same **23 previously refused/parked titles** before any live work, unchanged
+for the fourth run running. Batch was the complete **mc-larch (Master of Landscape Architecture, n=38,
+Faculty of Architecture Building & Planning)** cluster, all 14 blockers, every one reported by mc-larch
+alone (checked against `job_titles.all` in all 141 records — **blast radius clean for the sixth time**).
+Blocking titles **64 → 51**, blocked programs **13 → 13**, fully-mappable holdout programs **40 → 40**.
+Applied: `Graduate/Assistant/Senior/Freelance Landscape Architect`, `Principal Landscape Architect
+(Acting)`, `Landscape Planner`, `Landscape Designer`, `Garden Designer`, `Urban Designer/ Landscape
+Architect`, `Senior Urban Designer/ Landscape Architect` (all 17-1012 — the first landscape-architecture
+rows beyond the single existing `Landscape Architect` row); `Landscape Assistant`, `Landscape Technician`
+(**17-3011**, the first architectural/civil-drafter rows in the extension file); `Senior Open Space
+Planner` (19-3051). Record mean **88.20** over 14 mappable titles of 15.
+
+Two reviewers ran, one on SOC choice and one on the notes. **Nothing was overturned**; `Design Assistant`
+was **REFUSED**. Between them the reviewers found **12 factual errors, 7 load-bearing**, in a draft that
+had been written against the eighteenth run's warnings — the error rate is not falling.
+
+### mc-larch did NOT clear, and the SOC reviewer said it did — refusals do not shrink the denominator
+
+The reviewer refused `Design Assistant` and wrote "13 titles remain; mc-larch still clears", computing a
+record mean of 88.20 as if the refused title were dropped from the average. **That is the exact statistic
+`panelAFor()` refuses to compute.** A refused title stays *unmapped*, and one unmapped title blocks the
+whole program — mc-larch went 14 blockers → 1 and is now parked beside mc-eleceng, mc-ib and mc-softeng.
+Reviewers reason about *rows*; the gate is about *programs*. **Never accept a reviewer's "still clears" —
+re-derive it from `nextbatch`.**
+
+### `Design Assistant` — refused, and the reason generalises
+
+Rule 5's real test is whether the program's discipline fixes the **occupation**, not the **domain**.
+Landscape Architecture fixes the domain of `Design Assistant` and leaves the function open across
+17-3011 (85.60), 17-1012 (88.25), 27-1025 (90.33) and 27-1024 (80.66) — the `Assistant Language Teacher`
+shape exactly. Note the band is only 9.67 wide, so this refusal is **not** justified by materiality; it is
+justified because the crosswalk is keyed on title alone and a bare `Design Assistant` row would later be
+served to any fashion, graphic or interior cohort that reports the string. Currently mc-larch-only.
+
+### The crosswalk's `Assistant` precedent is 6-for-6, not 8-for-8 — and five cited rows do not exist
+
+The single most reusable finding of this run. SKILL.md line 1112 and the shipped `Accounts Assistant`
+note both state the `Assistant <Profession>` family "runs 8-for-8" and name the supporting rows. **Only
+six `Assistant `-prefixed rows exist** — `Assistant Planner` (19-3051), `Assistant Project Manager`
+(11-9021), `Assistant Director` (19-3094), `Assistant Curator` (25-4012), `Assistant Editor` (27-3041),
+`Assistant Accountant` (13-2011). These are cited across shipped notes and **do not exist**:
+
+| Phantom row | Cited by |
+| --- | --- |
+| `Assistant Psychologist -> 19-3031` | SKILL.md 8-for-8 list, `Accounts Assistant` note |
+| `Assistant Valuer -> 13-2021` | SKILL.md 8-for-8 list, `Accounts Assistant` note |
+| `Assistant Town Planner -> 19-3051` | SKILL.md 8-for-8 list |
+| `Architectural Assistant -> 17-3011` | `Editorial Assistant` note, `Accounts Assistant` note |
+| `Planning Assistant -> 19-3051` | `Accounts Assistant` note |
+| `Veterinary Director -> 29-1131` | **Open conventions #6**, and two shipped notes |
+
+Nearest real rows are `Registered Psychologist -> 19-3031` and `Residential Property Valuer -> 13-2021`.
+**Open convention #6 is materially weakened**: its lead example is a phantom, and the real
+`Product Director -> 11-1021` row runs the other way. Verify a cited row with
+`grep -E '^<Title>,' data/aioe/v31_extension_crosswalk.csv` before reusing it — a precedent quoted in a
+shipped note is not evidence that the row exists, and this file has been propagating six of them.
+
+### `Landscape Technician` — the 65.46-point rejection, and the precedent that was retro-fitted
+
+The batch's contested row, upheld by both reviewers after direct attack. `Landscape Technician` is
+verbatim at **37-3011 Landscaping and Groundskeeping Workers (20.14), src=02,08,10**, and was mapped to
+**17-3011 (85.60)** instead — a **65.46-point** rejection of an incumbent-sourced anchor, more than double
+the largest previously recorded (29.35). It survives because 17-3011 is **not a residual**: it anchors
+`Architectural Technician`, `Architecture Technician`, `Architectural Technologist`, `Civil Technician`,
+`Architectural Designer` (src=02) and the landscape-specific `Landscape Drafter` (src=08), so rule 4's
+failure mode does not reach it; and because 37-3011 is no-degree manual grounds work while all 13
+employers are design studios plus the University of Melbourne.
+
+**The draft's cited precedent was retro-fitted and the note now says so.** `Collections Officer -> 25-4013`
+*is* a convergent instance — a real verbatim `Collections Officer` sits at 43-3011 (src=02, debt
+collection) — but its own note never mentions 43-3011 and rejects only 25-4011 Archivists on
+object-vs-record grounds. **This run therefore ESTABLISHES "a verbatim anchor may be rejected on an
+industry-sense mismatch, on employer evidence"; it does not follow it.** Treat it as new precedent under
+test, not settled law.
+
+### Proving a low code carries "no such string" is where the near-miss hides
+
+The draft rejected 37-3011 for both Assistant rows partly on "carrying no Assistant string". **False:
+37-3011.00 carries `Landscaping Assistant` (src=10)** — one morpheme from `Landscape Assistant`, the very
+title being mapped. Substring greps on the *head noun* are not enough; grep the low rival for the
+*qualifier* too. Both rows now reject 37-3011 on employer evidence and on src=10 being the weakest
+source, not on absence.
+
+### Durable facts, so nobody re-derives them
+
+- **`Open Space Planner -> 19-3051` (high) ALREADY SHIPS.** `Senior Open Space Planner` is a pure rank-strip
+  onto an existing row, which is why it went out at `high`. The draft never found it and argued from
+  scratch. Grep the crosswalk for the rank-stripped string before reasoning about any `Senior <X>`.
+- **Bare `Planner` is verbatim at SIX codes** — 19-3051 (src=02,08,10), 17-1012 (src=02), 17-1011 (src=02),
+  13-1121 (src=10), 17-3026 (src=08), 19-3099.01 (src=02). "The generic Planner points at 19-3051" is
+  wrong: it points at both live candidates in this record, which is why the `Landscape Planner -> 17-1012`
+  / `Senior Open Space Planner -> 19-3051` split rests on each string's OWN anchor, not on the head noun.
+- **19-3051 DOES carry designer strings** — `City Designer` and `Sustainable Communities Designer`
+  (both src=08). Never reject Urban and Regional Planners on "planners are not designers".
+- **`Landscape Architect` is verbatim at 17-1012.00 only** (src=02,04,10) across all 55,120 rows, as are
+  `Landscape Planner` (src=02) and `Landscape Designer` (**src=02,04,06,08,10**, all five sources — the
+  most corroborated anchor seen in this task).
+- **`Urban Designer`, `Urban Design`, `Open Space`, `Garden Designer`, `Design Assistant` (and every
+  Assistant/Designer word-order variant) return ZERO rows**, substring-checked.
+- **The Freelance family is 8 distinct titles, not 9** — the ninth is a duplicate `Freelance Writer`.
+  27-3043.00 carries it at src=08 while 27-3043.05 carries it at src=02,04,06; both fold to 27-3043.
+- **17-3011 has 60 alternate-title rows** and is the design-office drafter/technician tier.
+- **`Landscape Irrigation Specialist` sits at 17-2021** (src=10), so `Landscape Drafter` is not quite "the
+  only landscape-specific technician-tier anchor".
+
+### Two clusters examined and deliberately not taken
+
+- **mc-li (Master of Learning Intervention, 13 blockers)** is next in `nextbatch` order and is a **trap**:
+  every title is a special-education teaching role, and SOC 2010 splits special education by school level
+  exactly as it splits general teaching — 25-2051 Preschool **72.54**, 25-2052 Kindergarten/Elementary
+  **81.13**, 25-2053 Middle School **94.48**, 25-2054 Secondary **86.45**, 25-2059 All Other **47.80**. That
+  is a **21.94-point** spread across the live codes (46.68 including the residual) on a qualification that
+  spans all levels — strictly worse than the 7.15-point Elementary/Secondary swing that got `Teacher`
+  refused. **Do not take mc-li until the crosswalk key carries the program.**
+- **mc-culmc (Master of Cultural Materials Conservation, 14 blockers)** is the opposite: twelve of its
+  fourteen are impeccably anchored, because **25-4013 Museum Technicians and Conservators (61.43) carries
+  `Conservator` (src=02,06,10), `Objects Conservator` (src=02,04), `Textile Conservator` (src=02,04),
+  `Paper Conservator` (src=02,04), `Conservation Technician` (src=02,04,08), `Art Conservator`,
+  `Artifacts Conservator`, `Paintings Conservator` and `Museum Registrar`**. But **`Heritage consultant`
+  and `Heritage Officer` block it and both look refusable**: the substring `heritage` returns **ZERO rows
+  in all 55,120**, and the candidate band spans **28.36 points** (25-4013 61.43, 25-4011 Archivists 79.72,
+  19-3091 80.20, 25-4012 Curators 81.16, 19-3093 Historians 89.79, the last anchored only by
+  `Historic Preservationist` at src=10). Conservation fixes the domain and not the function — the
+  `Assistant Language Teacher` shape again — and mapping both to 25-4013 would put two unanchored picks at
+  the FLOOR of that band, moving the record mean by 3.78. Note also `Conservation Officer -> 19-1031`
+  already ships as a **land-management** row, so the string is domain-ambiguous across the file. Whoever
+  takes mc-culmc should map the twelve and expect to refuse the two.
+
+## Twentieth run, 2026-08-19 — 11 applied, ONE overturned, TWO refused; mc-culmc NOT cleared (3 blockers left)
+
+`nextbatch 40` returned **37 previously refused/parked titles** before any live work — the parked head has now
+grown past a full batch, so a run that reads only the first 20 sees nothing but dead rows. Batch was the
+**mc-culmc (Master of Cultural Materials Conservation, n=40, Faculty of Arts)** cluster, 12 of its 14 blockers,
+scoped in advance by the nineteenth run. Blocking titles **51 → 40**, blocked programs **13 → 13**,
+fully-mappable holdout programs **40 → 40**. All 11 applied rows go to **25-4013 Museum Technicians and
+Conservators (61.43)** — the first conservator-family rows in the extension file beyond the shipped
+`Conservation Officer -> 19-1031` land-management row.
+
+Applied: `Conservator`, `Graduate Conservator`, `Assistant Conservator`, `Conservation Technician`,
+`Objects Conservator`, `Textiles Conservator`, `Book and Paper Conservator`, `Preventive Conservator`,
+`Senior Conservator, Exhibitions` (all high); `Senior Conservation Officer`, `Manager, Preventive
+Conservation` (medium). Blast radius clean for the seventh run running — every applied title is reported by
+mc-culmc alone.
+
+Two reviewers ran, one on SOC choice and one on the notes. **`Collections Assistant` was OVERTURNED**;
+`Heritage consultant` and `Heritage Officer` were **REFUSED**, as the nineteenth run predicted. The
+fact-checker found 3 false claims, **0 load-bearing** — the anchors, absences, indices and distances all held,
+and every error was in the *precedent* layer. That is the first run where the error rate fell, and the reason
+is that nine of the twelve rows rest on a verbatim anchor rather than on a cited row.
+
+### `Collections Assistant` — overturned, and it is the `Management Trainee` shape with a twist
+
+Unanchored (`Collections Assistant` and `Collection Assistant` return zero rows), three candidates spanning
+19.73 (25-4013 61.43 / 43-4121 Library Assistants 68.46 / 25-4012 Curators 81.16), and the draft picked the
+lowest. Three things killed it, and the third is the reusable one:
+
+- **The qualifier's own anchor points the other way.** The only museum-sense "Collections" strings in all
+  55,120 rows are `Collections Curator` (src=02,04) and `Collections Manager` (src=02,04,06), **both at
+  25-4012**. 25-4013 carries no "Collections" string at all.
+- **It blocks two programs, and fails rule 5 in the second.** It is also reported by BA (Ancient World
+  Studies), where it sits in the same entry tier as `Curatorial Assistant -> 25-4012` — the row would place it
+  19.73 below its own sibling. That cohort's skills are Research / Analysis / Artefact Analysis / Cultural
+  Heritage with heritage-consultancy employers, so the "object-handling work the programme trains for"
+  defence does not carry across.
+- **A batch may not cite a contra-O\*NET row on one line and disqualify its mirror image on another.** The
+  draft disqualified `Exhibitions Coordinator -> 25-4012` as precedent *because* it contradicts O\*NET's
+  verbatim placement of that string at 25-4013 — then leaned on `Collections Manager -> 25-4013`, which has
+  the identical defect with the sign flipped. **Check a batch for that asymmetry before shipping it.**
+
+Counter-evidence found and rejected as insufficient: 25-4013 does carry `Museum Registrar` (src=02,04,06), so
+the collections-documentation function genuinely splits across the two codes. That makes it a coin flip, which
+under the standing rule drops the row rather than shipping it at `medium`.
+
+### Two shipped rows contradict a verbatim O\*NET anchor, in opposite directions — 19.73 points each
+
+Found while gathering evidence, **not fixed** (out of scope; changing a shipped row moves already-computed
+means). Both are in this batch's own domain and both are Δ19.73:
+
+| Shipped row | O\*NET's verbatim placement |
+| --- | --- |
+| `Collections Manager -> 25-4013` (61.43) | 25-4012 src=02,04,06 (also 11-3031 src=08, 43-1011 src=10) |
+| `Exhibitions Coordinator -> 25-4012` (81.16) | 25-4013 src=10, and `Exhibits Coordinator` src=02,10 |
+
+Neither note mentions the anchor. Whoever re-opens the museum family should settle both together — they are
+inverted, so fixing one and not the other makes the family *less* consistent, not more.
+
+### `Heritage consultant` and `Heritage Officer` — refused, and the band is wider than previously recorded
+
+The nineteenth run recorded a 28.36-point candidate band. Adding the Australian statutory-planning reading
+(Heritage Victoria issues permits; council heritage advisors sit in planning departments) puts **19-3051 Urban
+and Regional Planners at 92.85** in the band, taking it to **31.42**: 25-4013 61.43, 43-4121 68.46, 25-4011
+Archivists 79.72, 19-3091 Anthropologists and Archeologists 80.20, 25-4012 Curators 81.16, 19-3093 Historians
+89.79 (anchored only by `Historic Preservationist`, src=10), 19-3051 92.85. Confirmed independently: the
+substring `heritage` returns **ZERO rows across all 55,120**, checked in every column. Cultural Materials
+Conservation fixes the *domain* and leaves the *function* open across conservation, archives, archaeology,
+history and statutory planning — the `Assistant Language Teacher` / `Design Assistant` shape. mc-culmc is now
+parked beside mc-eleceng, mc-ib, mc-larch and mc-softeng.
+
+### Durable facts, so nobody re-derives them
+
+- **The conservator family is a closed set and it lives at one code.** Substring `conservator` returns **10
+  rows in all 55,120; nine are 25-4013.00** — `Conservator` (src=02,06,10), `Art Conservator` (04,06,08),
+  `Artifacts Conservator` (08), `Objects Conservator` (02,04), `Paintings Conservator` (02,04), `Paper
+  Conservator` (02,04), `Textile Conservator` (02,04), `Ethnographic Materials Conservator` (04), `Conservator
+  Technician` (10). The tenth is `Estate Conservator` at 23-1011, which is legal guardianship. **25-4012
+  Curators carries zero conservator strings** across its 25 titles, and so does 19-1031.
+- **25-4013 is NOT a floor — it is the 49th percentile** of the 774 Felten occupations (median 62.39). "All
+  rows went to the low code" is not by itself a deflation finding; check the percentile before arguing it.
+- **`Conservation Technician` is double-anchored and the sources break the tie**: 25-4013 src=02,04,08 against
+  19-4071 (SOC 2010 **19-4093**, 47.71) src=10. Δ13.72.
+- **`Conservation Officer` is anchored ONLY at environmental codes** — 19-4071 (08), 33-3031 Fish and Game
+  Wardens (02), 45-4011 Forest and Conservation Workers (02) — **all of them below 25-4013**, so following the
+  anchor literally deflates harder than rejecting it. The shipped `Conservation Officer -> 19-1031` row is
+  itself unanchored on the bare string (19-1031 carries `Conservation Science Officer`), and it serves BSc
+  (Zoology), a different faculty. Note also that `Conservation Specialist` anchors at **both** 25-4013 (02)
+  and 19-1031 (08), so the "Conservation \<role\> family" argument is split, not clean.
+- **11-9199 Managers, All Other is unanchored in this domain, not merely distant** — none of its **312**
+  alternate titles is museum, gallery, heritage, conservation or collections.
+- **The in-domain `<X> Manager` rows run 4-to-1 to 25-4012** — `Gallery Manager`, `Art Centre Manager`,
+  `Public Programs Manager`, `Museum Manager and Curator` against `Collections Manager -> 25-4013`. All four
+  name curatorial or programming functions, which is why `Manager, Preventive Conservation` still went to
+  25-4013; the split is on the function named, not on the word Manager.
+- **`Textiles Conservator`, `Collections Assistant`, `Preventive Conservator`, `Book and Paper Conservator`,
+  `Graduate Conservator`, `Assistant Conservator`, `Senior Conservator` all return ZERO rows**, exact and
+  substring, all columns. Substring `preventive` returns **five** rows in the whole file (three Preventive
+  Medicine at 29-1229.05, one instrumentation inspector, one plant-maintenance coordinator) — a reviewer who
+  reports six has miscounted.
+- **Bookbinding sits at 51-5113 Print Binding and Finishing Workers (42.02)**, 19.41 below 25-4013, and
+  carries no conservator string — the one place `Book and Paper Conservator` could have split downward.
+  25-4011 Archivists (79.72) is the upward rival, live because of State Library Victoria and National
+  Archives; its 16 titles are all archivist/records strings with zero conservation.
+
+### Two family counts in this file are overstated — corrected here
+
+- **The `Assistant <Profession>` family is 5 verifiable, not 8-for-8 or 7-for-7.** The nineteenth run corrected
+  8 to 6; the true figure is lower again. Seven `^Assistant ` rows exist, and only five have a base profession
+  row to verify against — `Assistant Planner`, `Assistant Curator`, `Assistant Editor`, `Assistant Accountant`,
+  `Assistant Landscape Architect`. `Assistant Director -> 19-3094` is marked **do-not-generalise in its own
+  shipped note** and is a rank, not a profession; `Assistant Project Manager -> 11-9021` has no base
+  `Project Manager` row.
+- **The `Graduate <X>` family is 32 of 34, not 34 of 34.** The two exceptions are named in the crosswalk's own
+  notes: `Graduate Project Manager -> 11-9021` and `Graduate Nutritionist -> 19-1011`.
+
+### The parked head is now 37 titles — a `nextbatch 20` sees no live work at all
+
+Every title ahead of mc-culmc in `nextbatch` order is refused or parked: `Technical Leader` (mc-eleceng),
+`Management Trainee` (mc-ib), `Design Assistant` (mc-larch), `Senior Product Manager` (mc-softeng),
+`Crime Prevention Officer` and `Family Violence & Review Officer` (274ab), `English Teacher` and
+`Assistant Language Teacher` (mc-apling), `Clinical Specialist` and `Innovation Manager` (mc-biomeng),
+`Publishing Assistant` and `Content Manager` (mc-pubcom), the three mc-agsc titles, the six mc-teachpr and
+three mc-teachsa titles, and the thirteen mc-li titles. **The task instruction to "take the first 20" no
+longer surfaces any live work** — a future run must filter the parked set first, or `nextbatch` needs a flag
+that excludes refused titles. After this run the only live cluster left in the whole queue is
+**mc-agsc's `Agribusiness Graduate` / `Research and Development Officer` / `Head of National Beef
+Development`**, all three of which are already recorded as refused. On the current refusal set, **the queue is
+exhausted**: 40 blocking titles across 13 programs, and every one is refused or parked. The next real
+increment requires changing the crosswalk key to carry the program, not more mapping runs.
+
+## Twenty-first run, 2026-08-19 — 0 applied, 0 refused; queue exhaustion INDEPENDENTLY VERIFIED
+
+No mappings. `nextbatch 60` returns **40 titles across 13 programs and every one is already
+refused or parked** — the twentieth run's exhaustion finding, re-derived from the data rather
+than taken on trust. Blocking titles 40 → 40, blocked programs 13 → 13, fully-mappable
+holdout programs 40 → 40. `status` reads: Wave 1 168 programs, 53 with a measured record,
+115 needing a profile.
+
+**The verification, so it need not be repeated.** Exhaustion here means something stricter than
+"the head of the queue is parked": a program clears only when *every* one of its titles maps, so
+the queue is dead iff each of the 13 blocked programs carries ≥1 refused title. Checked
+program-by-program against `unmapped 60` blast radius and the per-title adjudications in this
+file — all 13 do:
+
+| Program | Refused title(s) holding it | Recorded |
+| --- | --- | --- |
+| mc-eleceng | `Technical Leader` | tenth run |
+| mc-ib | `Management Trainee` | overturned, rule 5 |
+| mc-larch | `Design Assistant` | nineteenth run |
+| mc-softeng | `Senior Product Manager` | killed twice; convention #3 |
+| 274ab | `Crime Prevention Officer`, `Family Violence & Review Officer` | rule 5, convention #5 |
+| mc-apling | `English Teacher`, `Assistant Language Teacher` | rule 5 |
+| mc-biomeng | `Clinical Specialist`, `Innovation Manager` | seventh/eighth runs |
+| mc-pubcom | `Publishing Assistant`, `Content Manager` | eleventh run |
+| mc-agsc | `Agribusiness Graduate`, `Research and Development Officer`, `Head of National Beef Development` | ninth run |
+| mc-culmc | `Collections Assistant`, `Heritage consultant`, `Heritage Officer` | twentieth run |
+| mc-teachsa | `Teacher`, `Classroom Teacher`, `Casual Relief Teacher` | rule 5 |
+| mc-teachpr | the same four teaching-family titles | rule 5 |
+| mc-li | `Learning Support Teacher`, `Special Education Teacher`, `Teacher of the Deaf`, `Specialist Remedial Teacher` | nineteenth run, family |
+
+**No mapping run can clear another program.** The next increment requires the crosswalk key to
+carry the program, not more mapping. Two titles — `Classroom Teacher` and `Casual Relief Teacher`
+— block mc-teachpr *and* mc-teachsa simultaneously, which is the cleanest statement of why:
+one row keyed on title alone must serve both primary and secondary at once.
+
+### The mc-li family refusal is right, but its stated reason is wrong for 9 of the 13 titles
+
+The nineteenth run refused mc-li on "every title is a special-education teaching role". That claim
+does not survive reading the 13: only **four** are level-splittable teaching titles
+(`Learning Support Teacher`, `Special Education Teacher`, `Teacher of the Deaf`,
+`Specialist Remedial Teacher`). The other nine are advisory, coordination, leadership or
+administrative — `Learning Diversity Leader`, `Disability Inclusion Leader`, `Learning Intervention
+Coordinator`, `Head of Learning Support`, `Special Education Advisor`, `Students with Disabilities
+Funding Assessor`, `Development Education Officer`, `School Wide Positive Behaviour Support Coach`,
+`Senior School Individual Needs Advisor`. Several of those are probably mappable on their own terms.
+
+**The conclusion still holds, for a different reason:** the four teaching titles are refused, so
+mc-li cannot clear no matter what happens to the other nine, and mapping them would add rows that
+unblock nothing while creating contamination risk for any future program reporting the same string.
+Do not take them. But do not re-refuse mc-li on the blanket claim either — if the crosswalk key
+ever carries the program, only four of these thirteen are actually hard.
+
+### The level spread behind the teaching refusals, verified from `felten_aioe.json` raw scores
+
+Re-derived this run because it is the single load-bearing number in the whole parked set. Raw
+Felten AIOE (not the rescaled index), which preserves the ordering: special education
+**Preschool 0.375 / K-Elementary 0.736 / Middle 1.296 / Secondary 0.959 / All Other −0.663**.
+The residual 25-2059 is the *lowest of the family*, so the tempting "level-agnostic qualification →
+level-agnostic residual" move is the `Management Trainee` failure mode — picking the floor of a wide
+spread. General teaching splits the same way: 25-2021 Elementary **0.887** vs 25-2031 Secondary
+**1.191**. Both refusals rest on real numbers.
+
+### The "take the first 20" instruction is now inert and should be changed at the source
+
+Third run in a row to spend its budget rediscovering this. The scheduled-task file still says take
+the first 20 from `nextbatch`; the parked head is 40, so a compliant run sees **zero** live work and
+must read this file's run log to learn that. The fix is not another run — it is either a
+`nextbatch --exclude-refused` flag or a `refused.json` the script reads. Until one exists, every
+scheduled invocation costs a full verification pass to reach "nothing to do".
+
 ## Open conventions — resolve before they decide more rows
 
 6. **"Director" is split, and the split line is whether the title names the clinical
-   discipline.** RESOLVED 2026-08-17 from the existing rows: named-discipline directors take
+   discipline.** RESOLVED 2026-08-17 from the existing rows — but **WEAKENED 2026-08-19**: its
+   lead example `Veterinary Director -> 29-1131` **does not exist as a row** (one of six phantom
+   precedents found that day; see the nineteenth run), and the real `Product Director -> 11-1021`
+   row runs the other way. Re-verify every row below with `grep -E '^<Title>,'` before relying on
+   this convention. As originally written: named-discipline directors take
    the **practitioner** code (`Veterinary Director -> 29-1131`, `Clinical Director, Mental
    Health Drugs and Alcohol -> 29-1066`, and now `Registered Music Therapist, Director ->
    29-1125`); bare strings take the **management** code (`Clinical Director -> 11-9111`
@@ -1568,3 +1920,51 @@ One short paragraph: how many titles mapped, how many programs that unblocked
 (`python3 scripts/destination-profiles.py status`), any titles you refused to map and why,
 and any mapping the adversarial reviewer overturned. Report the refusals explicitly —
 they are the useful signal, not a failure.
+
+## Twenty-second run, 2026-08-19 — 0 applied, 0 refused; the queue filter built
+
+No mappings, and none were available. Exhaustion re-verified a third time from the data —
+40 blocking titles, 13 blocked programs, same 13 as the twenty-first run, and every one
+carries ≥1 refused title (checked by inverting `unmapped`'s blast-radius map into
+per-program title sets and intersecting with the refused list, rather than trusting
+`nextbatch`'s attribution). `status` unchanged: 168 Wave 1, 53 measured, 115 needing a
+profile.
+
+**This run spent its budget on the fix the last three runs kept naming instead of another
+verification pass.** `data/aioe/crosswalk-refused.json` now holds the 25 refused titles with
+their reason and the run that decided them, plus the five overturned-with-replacement rows.
+`scripts/destination-profiles.py` reads it in `cmd_nextbatch` and drops both the refused
+titles and the programs holding them, because a program carrying a refused title cannot
+clear and its *other* titles are therefore not live work either. `nextbatch 1` → `[]`;
+the parked programs and the titles holding them go to stderr; `nextbatch N --all` restores
+the raw queue. `unmapped` is deliberately untouched — it is the blast-radius view and
+should keep showing everything. `dfva:check` green (5 generated files, 207 report bodies,
+67 programs, 57 v4-scored, no exposure gaps; the six REPORT_CONTENT warnings and the
+dh-lld/dr-philik faculty warning are pre-existing).
+
+### One correction to the twenty-first run's exhaustion table
+
+It records mc-teachpr as blocked by "the same four teaching-family titles" as mc-teachsa.
+Read against `nextbatch` output alone that looks false — `nextbatch` attributes each title
+to exactly one program (the nearest-to-complete one), so mc-teachpr appears there holding
+six *different*, never-adjudicated titles (`Teacher's Aide`, `Education Support`, `Middle
+School Teacher`, `EAL Teacher`, `Classroom Teacher and Team Leader`, `Leader of
+Differentiated Learning`) while `Teacher`/`Classroom Teacher`/`Casual Relief Teacher` are
+billed to mc-teachsa and `English Teacher` to mc-apling. The substance of the table is
+right — `unmapped` shows mc-teachpr is held by all four — but the appearance of live work
+is an artifact of the attribution, and it cost this run a detour. **`nextbatch` shows one
+program per title; only `unmapped` shows the true per-program blocking set.** The new
+filter closes the trap: those six titles no longer surface at all.
+
+### The 15 never-adjudicated titles, and why they stay unmapped
+
+Nine sit in mc-li (`Learning Diversity Leader`, `Disability Inclusion Leader`, `Learning
+Intervention Coordinator`, `Head of Learning Support`, `Special Education Advisor`,
+`Students with Disabilities Funding Assessor`, `Development Education Officer`, `School
+Wide Positive Behaviour Support Coach`, `Senior School Individual Needs Advisor`) and six
+in mc-teachpr (above). Several are probably mappable on their own terms — the
+twenty-first run says so of the mc-li nine. Both programs are held by refused teaching
+titles regardless, so mapping any of them unblocks nothing while creating a row that a
+future program reporting the same string would inherit. They are filtered, not refused:
+they carry no adjudication, and if the crosswalk key ever carries the program they become
+live work again.

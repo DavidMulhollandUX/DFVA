@@ -1,0 +1,147 @@
+{
+  "code": "502cw",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 1,
+      "rationale": "Anchor level 1 — 'Collaboration/teamwork appears in learning outcomes, but no core unit assesses it' — is exactly satisfied: teamwork is a stated graduate attribute, justified only by class format ('Small class sizes and an intensive teaching format'), never by an assessment task. Level 2 requires 'At least one core unit assesses collaborative practice', and the course has no core: the only structural requirement is '100 credit points of subjects available in the Melbourne Law Masters (MLM) program'. Assessed group work does exist in the extract (a 35% group presentation in LAWS90289 Asia-Pacific Comparative Consumer Law), but that subject is one elective among 150+ and is listed 'Not available in 2026', so it cannot satisfy a core-unit anchor. Nothing anywhere assesses coordination across people AND tools/AI systems, so level 3 is not reached on any reading.",
+      "evidenceLines": [
+        "Capacity to value and participate in teamwork",
+        "Small class sizes and an intensive teaching format are valuable in encouraging group dynamics and teamwork.",
+        "100 credit points of subjects available in the Melbourne Law Masters (MLM) program",
+        "Group presentation:",
+        "Reflect critically on the challenges and opportunities of group collaboration in the area of consumer law, including how these skills may be applied to future employment."
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1 — 'Reflection or self-assessment appears in outcomes or graduate attributes, but no core unit assesses it against criteria' — fits: the course ILOs claim graduates 'critically reflect on and synthesise complex information', and no core unit exists to assess appraisal against criteria. Level 2 requires 'Core assessment includes criterion-referenced appraisal of quality'; the extract's nearest instances are elective and unavailable in 2026 (LAWS90289's generic skill of critically evaluating the contributions of others; LAWS90302's reflective essays on assigned readings), and neither documents criterion-referenced appraisal of the quality of work. No assessment anywhere requires documenting or justifying reliance decisions on a tool, source or collaborator, so level 3 is untouched.",
+      "evidenceLines": [
+        "analyse, critically reflect on and synthesise complex information, concepts and theories in in selected areas of law",
+        "100 credit points of subjects available in the Melbourne Law Masters (MLM) program",
+        "Critically evaluate the contributions of others, and provide supporting or alternative viewpoints in a persuasive and respectful manner.",
+        "Reflective essays on the assigned readings."
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 is the anchor's own description of this program: 'AI or digital tools appear only as electives or as tool operation/training — the operational level TEQSA identifies as non-durable.' AI and digital law appear extensively but exclusively as elective options (an entire 'Digital Law and Technological Innovation' subject-options group, plus AI subjects in the Asian Law and Communications Law lists), and the only program-level digital claim is tool-operational — 'Advanced working skills in the use of new technology', justified by IT infrastructure rather than by any assessed capability. Level 2 requires 'Core units address AI capabilities AND limitations/ethics'; there are no core units, so the substantive AI-governance content (e.g. LAWS90339's evidentiary standards for AI-generated evidence, 'comparative approaches to AI governance') cannot be scored above the elective ceiling the anchor sets.",
+      "evidenceLines": [
+        "Advanced working skills in the use of new technology",
+        "The most advanced IT infrastructure is available to Melbourne Law Masters students in the Law Library, the Moot Court Room, classroom settings and for private study.",
+        "Digital Law and Technological Innovation",
+        "comparative approaches to AI governance.",
+        "Identify and explain the legal principles and evidentiary standards applicable to digital and AI-generated evidence across different jurisdictions.",
+        "100 credit points of subjects available in the Melbourne Law Masters (MLM) program"
+      ]
+    },
+    "C4": {
+      "score": 1,
+      "rationale": "Level 1 — 'Transfer is claimed in outcomes (\"apply knowledge in new settings\") but not assessed' — matches the course ILOs, which claim graduates apply knowledge 'as a practitioner and learner' to demonstrate 'adaptability and responsibility' with no assessment attached. Level 2 requires 'At least one core assessment requires application to novel or unfamiliar problems'; the course prescribes no core assessment at all. The level-3 route ('a self-scoped capstone or research project') is approached by the Minor Thesis but the handbook documents it as an option contingent on grades, approval and supervisor availability, not as structured program-wide progression — 'The Law School can give no assurance it can provide a supervisor'. Resolved down per the ambiguity rule.",
+      "evidenceLines": [
+        "Apply their knowledge and skills, as a practitioner and learner in selected areas of law, to demonstrate:",
+        "adaptability and responsibility.",
+        "The Master of Laws includes a Minor Thesis option. To undertake this option students complete 50 credit points drawn from the subjects prescribed by the Law School as part of the coursework program and a minor thesis (50 credit points of study) on a topic approved by the Law School.",
+        "Upon successful completion of 37.5 credit points of coursework subjects with a minimum of 75% in each, and having completed at least one research paper of 5,000 words or more, candidates admitted to the Master of Laws can seek approval to enrol in the minor thesis.",
+        "Candidates are required to submit a thesis topic and outline and seek an appropriate supervisor before final approval can be granted. The Law School can give no assurance it can provide a supervisor, and this may mean that students will need to select another topic for the minor thesis or not enrol in the minor thesis."
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 1 — 'Introductory methods unit; literature-review assessment' — is what the extract documents: research-methods content appears in an elective (LAWS90292's 'Introduction to comparative constitutional studies and research methods') and the recurring assessed artefact is a doctrinal research paper on an approved topic. Level 2 requires an inquiry designed and conducted 'with methodology selection and data collection, assessed'; the captured research papers document topic selection and supervision but no data collection, so the evidence straddles 1 and 2 and the lower level is taken. Level 3 is explicitly ruled out by its own anchor — a substantial primary-evidence project must be 'REQUIRED (not one route among several)', and the handbook frames the 20,000-word thesis as an option students 'may also choose'. The graduate-attribute claim that all LLM graduates execute substantial research projects is a stated attribute, which R2 and Barrie forbid scoring.",
+      "evidenceLines": [
+        "Introduction to comparative constitutional studies and research methods",
+        "Students taking this subject will be able to first obtain an understanding of broader issues and debates in the field of comparative constitutional studies before undertaking individual research projects on topics they will choose to work upon under the supervision of the instructor.",
+        "Research paper on a topic approved by the subject coordinator",
+        "Appreciation of the design, conduct and reporting of original research",
+        "Class preparation and class discussions are designed to enhance these skills, which are tested in all forms of assessment. All graduates of an LLM will have demonstrated, through subject assessment, the ability to use their research skills to plan, develop and execute substantial research-based project(s) and/or piece(s) of scholarship.",
+        "This option requires a dissertation of 20,000 words or two major articles of 10,000 words each, suitable for publication in a learned legal journal. The two papers must be in the same subject area so that it is possible to have one supervisor for both papers."
+      ]
+    },
+    "adaptiveness": 5,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1 fits both halves as closely as the structure allows: communication is a stated graduate attribute ('Capacity to effectively communicate complex legal ideas and theories, orally and in writing, to a variety of audiences') and the documented assessment adds spoken work to peers and staff — class participation, oral presentations, presentation components — with no audience beyond the teaching team. Level 0 ('no professional-genre or spoken communication is assessed') is false, since presentations carry percentage weightings. Level 2 requires 'At least one core assessment requires a recognised professional genre or an audience beyond the teaching team'; professional genres do appear (a Biotechnology Regulatory Briefing note; a written law reform or policy paper proposal) but only inside elective subjects, and the course prescribes no core. Per R2/Barrie the graduate-attribute statements themselves score nothing.",
+      "evidenceLines": [
+        "Capacity to effectively communicate complex legal ideas and theories, orally and in writing, to a variety of audiences",
+        "Classroom discussion and formal presentations provide an opportunity to hone oral communication skills, and written assessment tasks are graded in part on written communication skills.",
+        "interpret and transmit their knowledge, skills and ideas to specialist and non-specialist audiences",
+        "Oral presentation",
+        "Class participation and presentation",
+        "Biotechnology Regulatory Briefing note",
+        "A written law reform or policy paper proposal",
+        "100 credit points of subjects available in the Melbourne Law Masters (MLM) program"
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Level 1 — 'Contextualised or scenario-framed tasks appear (case studies, worked scenarios), but the artefact produced and the criteria applied remain academic' — describes the documented assessment precisely: paired corporate-governance case studies, comparative research papers and take-home examinations of 3,000–6,000 words. Level 2 requires 'At least one core assessment reproduces a professional task end to end'; the closest candidate, LAWS90097's simulated investment deal in which 'students will act as lawyers advising an international investor', is an elective listed 'Not available in 2026' whose assessed artefacts are class participation and a take-home examination rather than the practitioner's artefact, and there is no core in which any such task could sit. Per R4 no credit is taken from framing language about practice or real-life experience.",
+      "evidenceLines": [
+        "Corporate governance case studies x 2 (2,500 words each)",
+        "Take-home examination",
+        "Research paper on a topic approved by the subject coordinator",
+        "Class participation",
+        "100 credit points of subjects available in the Melbourne Law Masters (MLM) program"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1 — 'Work-situated learning exists only as an elective, an optional internship' — is met exactly: the only work-situated offering in the entire course structure is LAWS70067 International Legal Internship, listed under 'Further subjects related to course' among freely chosen options, so level 0 ('No work-integrated learning, placement, practicum or community-based project appears anywhere in the course structure') is excluded. Level 2 requires a core unit placing students in a real workplace, or a core unit assessing own-practice activity for a cohort documented as already practising; the course has no core, and admission is documented only as 'This course is available only for law graduates', which evidences a law degree, not current practice, so the v4.2 in-practice route does not open.",
+      "evidenceLines": [
+        "Further subjects related to course",
+        "LAWS70067\tInternational Legal Internship",
+        "This course is available only for law graduates.",
+        "100 credit points of subjects available in the Melbourne Law Masters (MLM) program"
+      ]
+    },
+    "workplace": 3,
+    "gates": {
+      "G1": {
+        "result": "FAIL",
+        "rationale": "PASS requires one of three documented structures — 'an all-compulsory specialist core, an accredited sequence, or a staged prerequisite chain'. The handbook documents none: the sole completion requirement is 100 credit points drawn from any MLM subject, students 'can choose from all subjects available in the Melbourne Law Masters', and the only compulsory subject named applies to one admissions subgroup (non-common-law graduates). No prerequisite chain or staged progression is documented anywhere in the course structure, so there is no evidence of progressive technical or methodological depth. The content is emphatically disciplinary (law only, law graduates only), which pulls against the FAIL wording 'without disciplinary identity', but the subjects are interchangeable by design and the ambiguity is resolved downward per the scoring-direction rule.",
+        "evidenceLines": [
+          "The course requires satisfactory completion of:",
+          "100 credit points of subjects available in the Melbourne Law Masters (MLM) program",
+          "Students enrolled in the LLM can choose from all subjects available in the Melbourne Law Masters, allowing them to tailor the degree to suit their professional aspirations and personal interests. Students may also choose to undertake the Master of Laws as a combination of coursework and a minor thesis.",
+          "Students who have a law degree not from a common law jurisdiction are required to complete LAW70217 - Fundamentals of the Common Law (you’ll find this under the ‘Other Subjects’ heading below).",
+          "This course is available only for law graduates."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "The FAIL condition — 'Recall or scripted responses only' — is contradicted by every assessment task in the extract. Assessed artefacts require defended positions under genuine legal uncertainty: a 45%-weighted written law reform or policy paper proposal, a 20%-weighted regulatory briefing note attached to an outcome requiring students to 'Formulate preliminary legal advice on biotechnology-related matters', and reform-proposal outcomes requiring students to 'Design and justify evidence-based reform proposals ... by evaluating foreign models, regulatory choices and institutional constraints'. No task in the extract is recall-based. The gate is passed on documented assessment character, with the caveat that none of these subjects is core.",
+        "evidenceLines": [
+          "A written law reform or policy paper proposal",
+          "Biotechnology Regulatory Briefing note",
+          "Formulate preliminary legal advice on biotechnology-related matters using comparative insights from Asian and Australian legal contexts.",
+          "Design and justify evidence-based reform proposals for criminal justice regimes by evaluating foreign models, regulatory choices and institutional constraints across selected jurisdictions.",
+          "Conduct research into new and emerging comparative corporate governance controversies to test existing corporate governance theories or generate new theoretical understandings."
+        ]
+      }
+    },
+    "ambiguities": [
+      "Structural driver of the whole profile: 502CW prescribes no core at all ('100 credit points of subjects available in the Melbourne Law Masters (MLM) program'), while C1, C2, C3, C4, W1, W2 and W3 all gate level 2 on core-unit or core-assessment evidence. Every item therefore sits at level 1 by construction of the anchors, not because the elective content is thin. Wherever elective evidence would have supported a higher level, the core requirement was applied and the lower level taken.",
+      "C1 1 vs 2: LAWS90289 assesses a 35% 'Group presentation:' with a subject outcome on group collaboration — level-2 content — but the subject is an elective listed 'Not available in 2026' and the anchor requires a core unit. Resolved to 1 by the core requirement and the lower-level rule.",
+      "C3 1 vs 3 (content) — the strongest tension in this score: elective subjects document genuine AI-governance critique (Digital and AI Evidence Law in Asia, AI Law and Policy in Asia, Regulating AI, AI and Justice, International Law and AI), which is level-3 subject matter. Level 1's anchor text explicitly caps content that appears 'only as electives', and R2 requires core assessment for level 3, so 1 stands. If this program is ever re-scored under an instrument that recognises elective depth, C3 is the item that would move.",
+      "C4 1 vs 3: the Minor Thesis is a self-scoped research project (level-3 flavour: student-proposed topic, outline, supervisor) but the handbook documents it as an option contingent on 37.5 credit points at 75%+, Law School approval and supervisor availability. Not documented program-wide progression; resolved to 1.",
+      "C5 1 vs 2: research papers on student-chosen, coordinator-approved topics, plus an elective research-methods component, sit between 'literature-review assessment' (1) and 'design and conduct an inquiry with methodology selection and data collection' (2). No data collection is documented and the doctrinal artefact is secondary synthesis, so the lower level was taken.",
+      "W1 1 vs 2: two recognised professional genres are assessed in the extract — a 'Biotechnology Regulatory Briefing note' (20%) and 'A written law reform or policy paper proposal' (45%) — but both sit in elective subjects and neither documents an audience beyond the teaching team or criteria drawn from professional practice. Resolved to 1 on the core requirement.",
+      "W2 1 vs 2: LAWS90097 documents an end-to-end simulated transaction (students act as lawyers advising an investor, draft documents, negotiate, close the deal), which would be level-2 fidelity, but its assessed artefacts are class participation and a take-home examination, it is elective, and it is 'Not available in 2026'. Resolved to 1.",
+      "G1 PASS vs FAIL: the program has an unmistakable disciplinary identity (law only, law graduates only, 150+ specialist law subjects), which argues against the FAIL wording 'without disciplinary identity'; but none of the three PASS structures (all-compulsory specialist core / accredited sequence / staged prerequisite chain) is documented, and the subjects are interchangeable by design. Resolved downward to FAIL per the scoring-direction rule. This is the single most contestable judgement in this score.",
+      "G2 PASS with caveat: the gate text does not restrict itself to core assessment, so it was scored on the documented character of assessment across the extract. Applying the same core test used for the items would have produced FAIL; the gate's own FAIL condition ('recall or scripted responses only') is clearly not met, so PASS was recorded.",
+      "One-construct-one-home checks applied: presentations and class participation scored in W1 (audience/communication), not C1 (coordination); the LAWS90289 group presentation was considered for C1 only; simulation (LAWS90097) scored in W2 and explicitly not in W3; the internship scored in W3 only, not in C1 or C4."
+    ],
+    "notScoreable": [
+      "Extract coverage limitation: the course page states 'More than 150 subjects are offered each year', but the extract captures subject and assessment pages for the Asian Law option group only (LAWS70230, LAWS70415, LAWS90097, LAWS90142, LAWS90230, LAWS90289, LAWS90291, LAWS90292, LAWS90299, LAWS90301, LAWS90302, LAWS90317, LAWS90323, LAWS90339, LAWS90347, LAWS90355). Roughly 140 listed subjects have no captured page. Because none of them is core, this does not change any anchor decision, but it means the elective evidence base behind every item is a non-random slice.",
+      "No subject or assessment page was captured for LAWS70003 / LAWS70015 Minor Thesis (LLM). C4 and C5 were therefore scored from the course-structure description of the thesis option only; no thesis assessment task, supervision arrangement or examination/defence evidence was available to test C5's level-3 'methodology defended under scrutiny' condition.",
+      "No subject or assessment page was captured for LAWS70067 International Legal Internship. W3 was scored from its listing in the course structure alone; its duration, supervision, assessment and reflection requirements are absent from the extract, so the level-2/3 placement route could not be tested even hypothetically.",
+      "No subject or assessment page was captured for LAWS90226 Legal Leadership Essentials or LAWS70350 Management for Professionals (the Legal Leadership group), the two subjects most likely to carry professional-conduct and workplace-practice evidence relevant to W1 and W3.",
+      "Eight of the sixteen captured subjects are listed 'Not available in 2026' (LAWS70415, LAWS90097, LAWS90142, LAWS90230, LAWS90289, LAWS90299, LAWS90301, LAWS90302, LAWS90317, LAWS90323), and several assessment tables carry stale dates (e.g. 2024 and 2025 due dates). Where such a subject supplied the only candidate evidence for a higher level, that is recorded in ambiguities rather than used to score."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-17"
+    }
+  }
+}

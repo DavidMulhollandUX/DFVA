@@ -70,3 +70,10 @@ docs/archive/claude-rules-changelog-*.md
 # the evidence the scores quote from; these two dirs are just how they got built.
 scrapes/v4/raw/
 scrapes/v4/pages/
+
+# Ad-hoc scrape status logs — process detritus, rewritten each run
+/go8-*.txt
+/go8-*.log
+/go8_*.txt
+/output.txt
+scraping/

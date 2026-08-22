@@ -9,6 +9,7 @@ import {
   marketingNavigationItems,
 } from "./components/NavBar/constants";
 import CookieConsentBanner from "./components/cookie-consent/Banner";
+import PrototypeBanner from "./components/PrototypeBanner";
 
 /**
  * use this component to wrap all child components
@@ -56,6 +57,7 @@ export default function App() {
           <Outlet />
         ) : (
           <>
+            <PrototypeBanner />
             {shouldDisplayAppNavBar && (
               <NavBar navigationItems={navigationItems} />
             )}
