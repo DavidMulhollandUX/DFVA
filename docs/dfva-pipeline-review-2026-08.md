@@ -40,6 +40,7 @@ Everything below is what that reframing surfaces.
 | June-2026 "cached & unscored" batch (`docs/dfva-batch-backlog.md`) | 74 | **9 scored, 65 still unscored** |
 | Discovered course codes (`data/handbook_discovered.json`) | 390 | **385 unscored** (mc 146, gc 86, gd 43, sc 31, pr 17, legacy numeric ~50) |
 | Overlap between the two | 2 | they are effectively **two separate discovery sets** |
+| **Union of all known course codes** | **514** | **448 unscored** — i.e. the shipped 66 is 13% of what is already identified |
 
 The 65-course remnant of the June batch is the highest-value cohort — all
 coursework masters, and it fills exactly the faculties the portfolio is thinnest in:
