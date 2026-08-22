@@ -12,7 +12,7 @@ import {
 import { REPORT_INDEX, type ReportIndexEntry } from "./reportIndex";
 import { V4_QUADRANT_LABELS } from "./v4Position";
 
-type StatusFilter = "all" | "current" | "archived";
+type StatusFilter = "all" | "current" | "archived" | "research";
 
 function Stat({ label, value }: { label: string; value: string }) {
   return (
@@ -26,6 +26,17 @@ function Stat({ label, value }: { label: string; value: string }) {
 }
 
 function StatusBadge({ entry }: { entry: ReportIndexEntry }) {
+  if (entry.status === "research") {
+    return (
+      <span
+        className="bg-muted text-muted-foreground shrink-0 rounded px-2 py-0.5 text-[11px] font-semibold whitespace-nowrap"
+        title="Panel C v4 scores taught curriculum; research degrees have none to score"
+        data-testid="status-research"
+      >
+        Research degree · v4 n/a
+      </span>
+    );
+  }
   if (entry.status === "archived") {
     return (
       <span
@@ -87,6 +98,12 @@ function ReportCard({ entry }: { entry: ReportIndexEntry }) {
               }
             />
           </div>
+        ) : entry.status === "research" ? (
+          <p className="text-muted-foreground text-sm">
+            Panel C v4 scores taught curriculum, which this research degree does
+            not carry. Its archived v1 assessment and market intelligence stand
+            as its report.
+          </p>
         ) : (
           <p className="text-muted-foreground text-sm">
             Not yet scored on the v4 instrument. The report page holds the
@@ -181,6 +198,7 @@ export default function V4ReportsPage() {
           <option value="all">All statuses</option>
           <option value="current">Current (v4)</option>
           <option value="archived">Archived (v4 pending)</option>
+          <option value="research">Research degree (v4 n/a)</option>
         </select>
         <select
           value={position}

@@ -343,6 +343,25 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
 export const v4OnlyProgramByCode = (code: string): V4OnlyProgram | undefined =>
   V4_ONLY_PROGRAMS[code.toLowerCase()];
 
+/** Research degrees excluded from Panel C v4 by scope (thesis PhDs, higher
+ *  doctorates): no taught curriculum to score. Source: scripts/v4_cohort_ext_exclusions.json. */
+export const V4_RESEARCH_DEGREES: readonly string[] = [
+  "dh-lld",
+  "dh-sc",
+  "dr-philabp",
+  "dr-philagr",
+  "dr-philart",
+  "dr-philbe",
+  "dr-philedu",
+  "dr-phileit",
+  "dr-philfam",
+  "dr-philik",
+  "dr-phillaw",
+  "dr-philmdh",
+  "dr-philsci",
+  "dr-philvet"
+];
+
 export const V4_PANEL_C: Record<string, V4PanelC> = {
   "038ab": {
     "C1": {

@@ -645,6 +645,17 @@ async function appPanelCModule(): Promise<string> {
   // where no report is drafted yet — from the cohort manifest that admitted the
   // program. Both are in-repo records of the program's name; neither is a guess.
   const allV3Codes = new Set([...v3.matchAll(/"?code"?: "([a-z0-9-]+)"/g)].map((m) => m[1]))
+  // Research degrees (thesis PhDs, higher doctorates) carry no taught
+  // curriculum for Panel C to score. They are recorded in the exclusions file
+  // and emitted so the site can show "v4 not applicable" rather than "pending".
+  // A block for one of them is a scoping error, not a score — refuse it.
+  const exclusions = JSON.parse(
+    readFileSync(path.join(repoRoot, 'scripts/v4_cohort_ext_exclusions.json'), 'utf8'),
+  ) as { excludedResearch?: string[] }
+  const researchDegrees = (exclusions.excludedResearch ?? []).slice().sort()
+  for (const code of researchDegrees) {
+    if (results[code]) throw new Error(`${code} is a research degree (excludedResearch) but carries a panelCv4 block`)
+  }
   const cohortNames = await loadCohortNames()
   const xw = loadCrosswalk()
   const v4Only: Record<
@@ -730,6 +741,9 @@ async function appPanelCModule(): Promise<string> {
     'export interface V4OnlyProgram {\n  code: string;\n  name: string;\n  hasMarketReport: boolean;\n  exposure: number | null;\n  entryExposure: number | null;\n  jirN: number | null;\n  nTitles: number | null;\n  nMedium: number | null;\n}\n\n' +
     `export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = ${JSON.stringify(v4Only, null, 2)};\n\n` +
     'export const v4OnlyProgramByCode = (code: string): V4OnlyProgram | undefined =>\n  V4_ONLY_PROGRAMS[code.toLowerCase()];\n\n' +
+    '/** Research degrees excluded from Panel C v4 by scope (thesis PhDs, higher\n' +
+    ' *  doctorates): no taught curriculum to score. Source: scripts/v4_cohort_ext_exclusions.json. */\n' +
+    `export const V4_RESEARCH_DEGREES: readonly string[] = ${JSON.stringify(researchDegrees, null, 2)};\n\n` +
     `export const V4_PANEL_C: Record<string, V4PanelC> = ${JSON.stringify(results, null, 2)};\n\n` +
     'export const v4PanelCByCode = (code: string): V4PanelC | undefined =>\n  V4_PANEL_C[code.toLowerCase()];\n'
   )

@@ -23,6 +23,7 @@ import {
 import {
   V4_META,
   V4_PANEL_C,
+  V4_RESEARCH_DEGREES,
   v4OnlyProgramByCode,
   v4PanelCByCode,
   type V4ItemResult,
@@ -424,14 +425,26 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
         </h1>
         {v1 ? (
           <>
-            <p
-              className="text-muted-foreground mb-6"
-              data-testid="v4-pending-notice"
-            >
-              This program has not yet been scored on the v4 instrument, so it
-              has no current Durability Report. Its earlier assessment is kept
-              as an archived report.
-            </p>
+            {code && V4_RESEARCH_DEGREES.includes(code) ? (
+              <p
+                className="text-muted-foreground mb-6"
+                data-testid="v4-research-notice"
+              >
+                Panel C v4 scores taught curriculum structure, which this
+                research degree does not carry, so no v4 Durability Report
+                applies. Its earlier assessment and market intelligence stand as
+                its report.
+              </p>
+            ) : (
+              <p
+                className="text-muted-foreground mb-6"
+                data-testid="v4-pending-notice"
+              >
+                This program has not yet been scored on the v4 instrument, so it
+                has no current Durability Report. Its earlier assessment is kept
+                as an archived report.
+              </p>
+            )}
             <div className="flex flex-wrap justify-center gap-4 text-sm">
               <Link
                 to={`/reports/${v1.assessmentSlug}`}

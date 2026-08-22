@@ -1,6 +1,10 @@
 import { describe, expect, it } from "vitest";
 import { PROGRAMS } from "../sharedProgramData";
-import { V4_ONLY_PROGRAMS, V4_PANEL_C } from "../v4/data/v4PanelC";
+import {
+  V4_ONLY_PROGRAMS,
+  V4_PANEL_C,
+  V4_RESEARCH_DEGREES,
+} from "../v4/data/v4PanelC";
 import { REPORT_INDEX } from "../v4/reportIndex";
 import { codeFromSlug, hasV4, programReportPath } from "../reportLinks";
 
@@ -19,12 +23,28 @@ describe("REPORT_INDEX", () => {
       expect(codes).toContain(code);
   });
 
-  it("marks a program current iff it has a Panel C v4 score", () => {
+  it("marks a program current iff it has a Panel C v4 score, research if excluded", () => {
     for (const e of REPORT_INDEX) {
-      expect(e.status).toBe(e.code in V4_PANEL_C ? "current" : "archived");
+      const expected =
+        e.code in V4_PANEL_C
+          ? "current"
+          : V4_RESEARCH_DEGREES.includes(e.code)
+            ? "research"
+            : "archived";
+      expect(e.status).toBe(expected);
       if (e.status === "current") expect(e.adaptiveness).not.toBeNull();
-      else expect(e.archived.v1).toBe(true); // an archived row must have something to show
+      else expect(e.archived.v1).toBe(true); // a non-current row must have something to show
     }
+  });
+
+  it("never lets a research degree carry a v4 score or read as pending", () => {
+    for (const code of V4_RESEARCH_DEGREES) {
+      expect(V4_PANEL_C[code]).toBeUndefined();
+      expect(REPORT_INDEX.find((e) => e.code === code)?.status).toBe(
+        "research",
+      );
+    }
+    expect(V4_RESEARCH_DEGREES.length).toBe(14);
   });
 
   it("always has at least one archived or current report to link to", () => {

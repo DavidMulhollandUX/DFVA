@@ -1,18 +1,23 @@
 import { PROGRAMS } from "../sharedProgramData";
 import { getFaculty } from "../faculty";
 import { v3ProgramByCode } from "../v3/data/v3Programs";
-import { V4_ONLY_PROGRAMS, v4PanelCByCode } from "./data/v4PanelC";
+import {
+  V4_ONLY_PROGRAMS,
+  V4_RESEARCH_DEGREES,
+  v4PanelCByCode,
+} from "./data/v4PanelC";
 import { v4Quadrant, type V4Quadrant } from "./v4Position";
 
 /** One row of the /reports index: every program the site knows about, on v4
  *  terms. `status` is the only thing a card needs to decide how to present
  *  itself — "current" programs carry a v4 Durability Report, "archived" ones
- *  only an earlier-instrument report pending a v4 score. */
+ *  only an earlier-instrument report pending a v4 score, and "research"
+ *  degrees are out of Panel C's scope (no taught curriculum) so never pending. */
 export interface ReportIndexEntry {
   code: string;
   name: string;
   faculty: string;
-  status: "current" | "archived";
+  status: "current" | "archived" | "research";
   exposure: number | null;
   adaptiveness: number | null;
   workplace: number | null;
@@ -35,7 +40,11 @@ function entry(
     code,
     name,
     faculty: v3?.faculty || faculty,
-    status: panelC ? "current" : "archived",
+    status: panelC
+      ? "current"
+      : V4_RESEARCH_DEGREES.includes(code)
+        ? "research"
+        : "archived",
     exposure,
     adaptiveness,
     workplace: typeof panelC?.workplace === "number" ? panelC.workplace : null,
