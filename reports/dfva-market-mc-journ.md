@@ -55,28 +55,21 @@ Podcast producer and audio journalist roles have become a consistent Seek catego
 
 ## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
-> **Confidence: MEDIUM** — Pattern-based from known professional discourse.
+> **Confidence: MEDIUM** — inferred from the declared evidence, with named sources where they exist; see the sourcing note below.
 
-**Theme 1 — "The Commodity Layer Is Gone"**
-The dominant professional discourse among working journalists on X (Twitter) and LinkedIn through 2025–2026 is that AI has permanently automated the commodity news layer — wire rewrites, brief sports results, local government meeting summaries. The consensus view is that the profession is bifurcating into high-trust investigative/explanatory journalism and AI-assisted content production, with minimal middle ground. This has direct implications for what skills a postgraduate program needs to build to the highest level.
+**What these sources are.** The themes below are this report's reading of the labour-market evidence it declares — WEF Future of Jobs, the LinkedIn Workforce Report, Jobs and Skills Australia / Labour Market Insights, Seek trend data and domain-specific industry reporting — together with domain knowledge of the field. Direct extraction from X, LinkedIn, Reddit or any professional forum was **not** performed and no platform was sampled: "discussion" here means what that evidence implies practitioners are facing, not an observed corpus of posts. Named organisations and publications are cited where they exist. Dates are given where a source carries one.
 
-**Theme 2 — Verification and Trust as Competitive Moat**
-Australian journalist communities on X have intensified discussion of verification tradecraft as the core differentiator between professional journalism and AI-generated content. The MEAA (Media, Entertainment & Arts Alliance) published guidance in early 2026 on verification standards in an AI era. Professionals argue that source-based verification, understanding of document authentication, and forensic open-source intelligence (OSINT) skills are now the primary basis for reader trust and employer differentiation.
+**Theme 1 — the commodity news layer has been automated**
+Wire rewrites, brief sports results and local government meeting summaries are the work these tools absorb. What remains splits between high-trust investigative and explanatory journalism and AI-assisted content production, with little in between. That split determines which skills a postgraduate program has to build to the highest level.
 
-**Theme 3 — The "Vibe Shift" in Media Employment: Freelance and Portfolio Careers**
-Australian media Twitter/LinkedIn discourse reflects a structural shift from staff employment to portfolio careers — mixing freelance commissions, newsletter income, podcast work, communications consulting, and institutional roles. Journalists who graduated in 2020–2023 describe building multi-revenue-stream careers as a deliberate strategy rather than a fallback. Postgraduate programs are being critiqued when they do not prepare students for this reality.
+**Theme 2 — verification is the competitive moat**
+The Media, Entertainment & Arts Alliance published guidance on verification standards in an AI era in early 2026. Source-based verification, document authentication and forensic open-source intelligence are the basis on which professional journalism is distinguished from generated content, and on which employers differentiate graduates.
 
-**Theme 4 — FOI and Public Interest Reporting Under Resourcing Pressure**
-The closure of regional newsrooms (more than 100 regional mastheads reduced or closed in AU since 2020, per MEAA data) is a persistent discussion thread. The Centre for Advancing Journalism at UniMelb is itself part of this discourse, publishing research on news desert formation. Journalists and academics argue that university journalism programs have a responsibility to produce graduates capable of sustaining public interest reporting with fewer institutional resources — including grant-funded and not-for-profit journalism models.
+**Theme 3 — media employment is shifting from staff roles to portfolio careers**
+Freelance commissions, newsletter income, podcast work, communications consulting and institutional roles are combined rather than chosen between. Graduates entering since 2020 have built multi-revenue-stream careers deliberately rather than as a fallback, and a postgraduate program that does not prepare for it is preparing for a market that has moved.
 
-**Theme 5 — AI Ethics and Editorial Responsibility**
-Discussion of where editorial responsibility lies when AI tools are in the production chain is intensifying in ANZ journalist forums. The MEAA's AI in Journalism working group and the Media Diversity Australia network both generated significant discourse in 2025. Graduates who cannot articulate clear editorial responsibility frameworks when using AI tools are seen as a liability by risk-averse media organisations — particularly post the NYT v OpenAI copyright litigation discourse.
-
-**Theme 6 — Data Journalism's Credibility Premium**
-The ABC's viral data journalism pieces on housing affordability and the AFR's interactive tax data coverage generated sustained professional discussion about the audience trust premium attached to verifiable data-driven stories. Working data journalists are active on X arguing that the combination of coding skills and narrative journalism craft is the single highest-leverage combination for career differentiation in the current market. This is not contested in ANZ journalism discourse.
-
-**Theme 7 — Audience Analytics as Editorial Literacy**
-There is active debate among editors and senior journalists about whether analytics literacy is a newsroom management skill or a frontline journalist skill. The emerging consensus, visible in discussions among digital editors at Nine, Guardian, and SBS, is that journalists who cannot read their own audience analytics and adapt accordingly are increasingly disadvantaged in performance reviews and commissioning decisions. The framing has shifted from "analytics is a business tool" to "analytics is editorial feedback."
+**Theme 4 — public interest reporting is under resourcing pressure**
+More than 100 regional mastheads have been reduced or closed in Australia since 2020 (MEAA). The Centre for Advancing Journalism at the University of Melbourne publishes research on news desert formation. The implication for this program is graduates capable of sustaining public interest reporting with fewer institutional resources, including grant-funded and not-for-profit models.
 
 ---
 

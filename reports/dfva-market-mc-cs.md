@@ -91,24 +91,26 @@ ANZ tech employers (Atlassian, Canva, REA Group, NAB) increasingly referencing "
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
+## 3. CURRENT DISCUSSION SIGNALS — LOW CONFIDENCE
 
-> **Confidence: MEDIUM** — Pattern-based from known discourse.
+> **Confidence: LOW** — inferred from the declared evidence; see the sourcing note below.
 
-**Theme 1 — "Is the MSc the new BSc for AI?"**
-Active discourse around whether specialised master's degrees are becoming the minimum credential for AI/ML roles. Dominant position: BSc + bootcamp sufficient for ML ops; MSc + research project required for research roles. MC-CS fits the "MSc + research" profile.
+**What these sources are.** The themes below are this report's reading of the labour-market evidence it declares — WEF Future of Jobs, the LinkedIn Workforce Report, Jobs and Skills Australia / Labour Market Insights, Seek trend data and domain-specific industry reporting — together with domain knowledge of the field. Direct extraction from X, LinkedIn, Reddit or any professional forum was **not** performed and no platform was sampled: "discussion" here means what that evidence implies practitioners are facing, not an observed corpus of posts. Named organisations and publications are cited where they exist. Dates are given where a source carries one.
 
-**Theme 2 — "Prompt engineering is not a career"**
-Growing consensus that prompt engineering is a transient skill being absorbed into broader engineering roles. Long-term value sits in systems design, model evaluation, and research methodology — all MC-CS strengths.
+**Theme 1 — the specialised master's is becoming the entry credential for AI research roles**
+A bachelor's degree plus a bootcamp is generally sufficient for ML operations work; research roles ask for a master's with a research project. MC-CS fits the second profile.
 
-**Theme 3 — "AI won't replace engineers who design systems"**
-Recurring theme in engineering discourse. AI tools accelerate implementation but don't replace architectural judgment, trade-off reasoning, or reliability engineering. MC-CS distributed systems and algorithms training builds these skills.
+**Theme 2 — prompt engineering is not a durable specialisation**
+It is being absorbed into broader engineering roles rather than developing into a career track. The lasting value sits in systems design, model evaluation and research methodology, all of which MC-CS teaches.
 
-**Theme 4 — "Cybersecurity is AI's next frontier"**
-AI-powered attacks creating demand for AI-literate defenders. Trustworthy ML and adversarial ML emerging as distinct specialisations. MC-CS cybersecurity electives are well-timed.
+**Theme 3 — architectural judgement is the part AI tools do not replace**
+These tools accelerate implementation. Trade-off reasoning, reliability engineering and system design remain human work, and MC-CS distributed systems and algorithms training builds them.
 
-**Theme 5 — "Responsible AI is moving from ethics elective to core requirement"**
-Regulatory pressure (EU AI Act, AU mandatory guardrails) driving demand for engineers who can design governed AI systems. MC-CS has relevant electives but no compulsory governance unit — a curriculum gap.
+**Theme 4 — AI-literate defenders are in demand as attacks become AI-assisted**
+Trustworthy machine learning and adversarial machine learning are emerging as distinct specialisations. The MC-CS cybersecurity electives are well timed against that.
+
+**Theme 5 — responsible AI is moving from elective to requirement**
+Regulatory pressure — the EU AI Act, and Australia's mandatory guardrails — is creating demand for engineers who can design governed AI systems. MC-CS carries relevant electives but no compulsory governance subject, which is a curriculum gap.
 
 ---
 

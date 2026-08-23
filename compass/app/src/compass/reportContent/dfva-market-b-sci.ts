@@ -129,30 +129,32 @@ Seek ANZ new title appearances (Q4 2025–Q1 2026):
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
+## 3. CURRENT DISCUSSION SIGNALS — LOW CONFIDENCE
 
-> **Confidence: MEDIUM**
+> **Confidence: LOW** — inferred from the declared evidence; see the sourcing note below.
 
-**Theme 1 — "Is the research assistant role already gone?"**
-Active discourse in academic science communities throughout 2025–2026. Dominant view: AI tools (AlphaFold, Elicit, automated lab platforms) have absorbed the cognitive and some physical components of junior RA work. Counter-view: AI has created new RA work — validating, governing, and interpreting AI outputs. The survivors are those who moved to validation before automation absorbed execution.
+**What these sources are.** The themes below are this report's reading of the labour-market evidence it declares — WEF Future of Jobs, the LinkedIn Workforce Report, Jobs and Skills Australia / Labour Market Insights, Seek trend data and domain-specific industry reporting — together with domain knowledge of the field. Direct extraction from X, LinkedIn, Reddit or any professional forum was **not** performed and no platform was sampled: "discussion" here means what that evidence implies practitioners are facing, not an observed corpus of posts. No quotation in this section is attributed to a speaker, because none was recorded. Dates are given where a source carries one.
 
-**Theme 2 — "Junior data analyst is a dead-end title"**
-Recurring in Australian data professional networks. Dominant framing: "if your job is pulling reports and building dashboards, ChatGPT or Julius has your job." Emerging consensus that viable entry is analytics engineering or ML engineering, not data analysis. B-Sci Cluster B graduates with only spreadsheet and basic SQL skills are explicitly called out as misaligned.
+**Theme 1 — the junior research assistant role is contracting**
+AI tools (AlphaFold, Elicit, automated lab platforms) have absorbed the cognitive and some physical components of junior RA work. Against that, validating, governing and interpreting AI outputs is new RA work. The distinction that matters for graduates is whether they can do the validation, not the execution.
 
-**Theme 3 — "AlphaFold didn't kill structural biology — it killed junior structural biology"**
-Frequently cited in biochemistry and bioinformatics academic discourse. Senior structural biologists report their junior pipeline has compressed because AI handles prediction work that previously required 1–2 years of postdoc time. The remaining human work is experimental validation, failure-mode analysis, and judgment about when the model is wrong.
+**Theme 2 — junior data analyst is a weak entry point**
+Roles whose content is pulling reports and building dashboards are directly exposed to general-purpose AI tools. The more durable entry points are analytics engineering and ML engineering. B-Sci Cluster B graduates with only spreadsheet and basic SQL skills are poorly positioned against that shift.
 
-**Theme 4 — "Environmental consulting needs people who can argue with the AI"**
-Discussion in Australian environmental science professional networks framing the new junior value-add as: "anyone can run the model now — clients need someone who can tell them where the model is wrong and why." Graduates who arrive only able to operate the tool are already undifferentiated.
+**Theme 3 — AlphaFold compressed the junior structural biology pipeline, not the field**
+Structure prediction that previously required one to two years of postdoc time is now automated, which removes the work junior researchers used to be trained on. What remains is experimental validation, failure-mode analysis, and judgement about when the model is wrong.
 
-**Theme 5 — "CSIRO and ARC are hiring domain-AI hybrids"**
-Active discussion in Australian research community noting that CSIRO and ARC-funded projects are explicitly seeking candidates with domain science depth + AI evaluation competency. "Pure ML is a commodity. Domain science + ML is the scarce combination." This is the primary signal for B-Sci Cluster B graduates with quantitative depth.
+**Theme 4 — environmental consulting values judgement about model error over model operation**
+Running the model is no longer the scarce skill; identifying where it is wrong, and explaining why to a client, is. Graduates who arrive able only to operate the tool are undifferentiated.
 
-**Theme 6 — "Science graduates need to learn to fact-check the AI, not just use it"**
-Government science and APS policy discourse. Recurring: "our graduate intake can use Copilot and Elicit but they can't tell us whether the output is right." Science communication and critical evaluation of AI-generated content is the skill gap most frequently cited by APS science managers in 2025–2026.
+**Theme 5 — domain science combined with AI evaluation is the scarce pairing**
+CSIRO and ARC-funded projects seek candidates with domain science depth alongside AI evaluation competency. Machine learning capability on its own is widely available; the combination with deep domain knowledge is not. This is the primary signal for B-Sci Cluster B graduates with quantitative depth.
 
-**Theme 7 — "The JORC code is going to need to address AI"**
-Resources sector discussion. Australian geologists noting that the JORC competent person framework has not yet addressed AI-assisted resource estimation. Prediction: new disclosure and validation requirements incoming within 2–3 years. Graduates who understand both the domain and the governance requirement will be positioned; those who only know the tools will not.
+**Theme 6 — science graduates need to evaluate AI output, not just use it**
+Fluency with tools such as Copilot and Elicit is now common at graduate intake; the ability to judge whether the output is correct is not. Science communication and critical evaluation of AI-generated content is the clearer gap.
+
+**Theme 7 — the JORC code has not yet addressed AI-assisted resource estimation**
+The JORC competent person framework does not currently cover AI-assisted estimation, and disclosure and validation requirements are likely to follow. Graduates who understand both the domain and the governance requirement will be positioned for that; those who know only the tools will not.
 
 ---
 
