@@ -234,6 +234,10 @@ import r227 from "./reportContent/dfva-v4-recommend-mc-climsci";
 import r228 from "./reportContent/dfva-v4-recommend-mc-envlaw";
 import r229 from "./reportContent/dfva-v4-recommend-mc-indeng";
 import r230 from "./reportContent/dfva-v4-recommend-mc-mgmthre";
+import r231 from "./reportContent/dfva-v4-recommend-mc-scibif";
+import r232 from "./reportContent/dfva-v4-recommend-mc-scibio";
+import r233 from "./reportContent/dfva-v4-recommend-mc-sciepi";
+import r234 from "./reportContent/dfva-v4-recommend-mc-scwr";
 
 export const REPORT_CONTENT: Record<
   string,
@@ -470,4 +474,8 @@ export const REPORT_CONTENT: Record<
   "dfva-v4-recommend-mc-envlaw": r228,
   "dfva-v4-recommend-mc-indeng": r229,
   "dfva-v4-recommend-mc-mgmthre": r230,
+  "dfva-v4-recommend-mc-scibif": r231,
+  "dfva-v4-recommend-mc-scibio": r232,
+  "dfva-v4-recommend-mc-sciepi": r233,
+  "dfva-v4-recommend-mc-scwr": r234,
 };

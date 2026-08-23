@@ -1,0 +1,155 @@
+{
+  "code": "mc-scibif",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2's anchor ('At least one core unit assesses collaborative practice — group projects with individual accountability') is met by BINF90018 Skills for Data-intensive Research, a compulsory subject in every stream, which assesses a 4-5 student group project twice (a hurdled group presentation and a hurdled group report). Level 3 is not reached: it requires assessed collaborative practice to RECUR across the program AND at least one assessment where coordinating work across people AND tools/AI systems is itself assessed. The only other core group task (CEDB20003's group poster) is core in the Mathematics/Statistics and Computer Science streams but not the Biology/Biomedicine stream, so recurrence is not documented program-wide, and no assessment documents an allocation of work between people and systems — version control and workflow sharing appear as BINF90018 learning outcomes, never as an assessed division of labour between humans and tools (R2).",
+      "evidenceLines": [
+        "BINF90018\tSkills for Data-intensive Research",
+        "Interactive Oral Assessment (IOA):Group Presentation Group project 4-5 students per group 10h of work required. 10 min talk per group and 10 min Q& A",
+        "Hurdle requirement: Students must achieve 10/20 for group project. Students must attend presentation day\tEnd of the teaching period\t20%",
+        "Group project report (code + text) 4-5 students per group",
+        "Hurdle requirement: Students must achieve 15/30 for group project\t2 Weeks after the end of teaching\t20%",
+        "Manage, organise, and share software and data analysis projects, in independent and teamwork settings.",
+        "Poster; group submission",
+        "Effective teamwork and interdisciplinary collaboration"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "DEMOTED 2→1 on adversarial verification. C2's ladder is about appraising the quality of WORK — level 0 names it as 'their own, peers', or a tool's'. BINF90002's 'Critical Review' (500 words, 10%) is an academic review of the published research literature, mapped to the ILO 'Review and critique bioinformatics applications in the research literature' — it is neither the student's own work, a classmate's, nor a tool's output, and no marking criteria appear anywhere in the extract, so the level-2 head requirement 'criterion-referenced appraisal of quality' is not documented. The supporting evidence collapses on inspection: BINF90018's 'Interpret and assess the quality of coding and data analysis projects' is an ILO (R2 caps outcomes at 1); CEDB20003's 'Reflection tasks; delivered online' (5%) carry no documented criteria AND CEDB20003 is not core in the Biology/Biomedicine stream, so it is not program-wide core; and the only true peer review in the extract, GENE20001's, is documented as 'A written assignment and optional peer reviews' — optional, and also not core for Biology/Biomedicine. Level 1's anchor fits: reflection and critique appear in outcomes and graduate attributes ('advanced independent critical enquiry, analysis and reflection'), but no core unit assesses appraisal of work quality against criteria.",
+      "evidenceLines": [
+        "Critical Review",
+        "500 words",
+        "Review and critique bioinformatics applications in the research literature",
+        "Interpret and assess the quality of coding and data analysis projects.",
+        "Reflection tasks; delivered online",
+        "A written assignment and optional peer reviews",
+        "advanced independent critical enquiry, analysis and reflection"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1's anchor — 'AI or digital tools appear only as electives or as tool operation/training — the operational level TEQSA identifies as non-durable' — describes this core exactly. The core is heavy in digital tool operation (Python programming, algorithms, command line, version control, workflow automation, R-based omics analysis), which the migration note caps at level 1. Every subject that would carry AI content (COMP90049 Introduction to Machine Learning, COMP90089 Machine Learning Applications for Health, COMP90090 Text Analytics for Health) sits in the General Elective list of which students take exactly one. Level 2 is not reached because no core unit is documented as addressing AI capabilities AND their limitations or ethics; BINF90018's reproducibility principles and the program's generic 'ethics of scholarship' attribute are research-practice statements, not assessed treatment of AI limits.",
+      "evidenceLines": [
+        "Use the command-line to read, summarise, and manipulate files and data, and to interact with different computing environments.",
+        "Document computational work utilising version control and software packaging systems.",
+        "Identify and describe the major software tools / analysis pipelines and their application areas",
+        "All Streams - General Elective subjects",
+        "Students must take one 12.5 credit point General elective subject.",
+        "COMP90049\tIntroduction to Machine Learning",
+        "COMP90089\tMachine Learning Applications for Health",
+        "Identify the principles of reproducible research and articulate their importance to scientific practice."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3's anchor is that 'The program documents structured progression toward independent learning: a self-scoped capstone or research project'. The course structure documents exactly that as a required curriculum component, not as an outcome claim: 50 credit points of Research Project subjects taken consecutively by all students, scoped with the project coordinator, gated behind a progression rule requiring 37.5 points of core first, with a required Professional Skills subject that cannot start until the project has begun. That is documented required structure rather than a graduate-attribute statement, which is what R2 forbids relying on. Level 2 is separately met (BINF90017 and COMP90038 assign work on data and problems beyond worked examples), so the item resolves at 3.",
+      "evidenceLines": [
+        "50 credit points of Research Project subjects, undertaken consecutively",
+        "All students undertake a research project for a total of 50 points. The research project comprises of a series of two, three or four subjects which must be completed in consecutive semesters. The research project is normally commenced in the second semester of enrolment. The following research project structures are possible. Students will determine which stream they follow in consultation with the project coordinator.",
+        "Completion of at least 37.5 points of core subjects, or stream specific compulsory subjects, before commencing the research project is normally required. Completed subjects must include BINF90002 and COMP90059 if subject is a required core subject in the stream.",
+        "Note: SCIE90013 should not commence until the Research Project has begun.",
+        "The Master of Science (Bioinformatics) is a coursework masters degree incorporating a research project.",
+        "Project work during semester due around weeks 7 and 11, addressing all Intended Learning Outcomes (ILOs) 1-4.",
+        "Apply key analysis methodologies to transcriptomic data using R, and accurately interpret the results."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2's anchor ('Students design and conduct an inquiry with methodology selection and data collection, assessed') is satisfied by the required 50-point research project sequence, supported by core methods teaching in sampling and experimental design. Level 3 additionally requires that the methodology be 'defended under scrutiny (viva, defence, or staged supervised review)'. The project is staged (Pt 1 / Pt 2 / Pt 3 across consecutive semesters) and scoped in consultation with a project coordinator, which is consistent with a staged supervised review, but no review, defence or viva is documented anywhere in the extract — the research-project subject pages are not present. Evidence consistent with both 2 and 3 resolves DOWN.",
+      "evidenceLines": [
+        "All students undertake a research project for a total of 50 points. The research project comprises of a series of two, three or four subjects which must be completed in consecutive semesters. The research project is normally commenced in the second semester of enrolment. The following research project structures are possible. Students will determine which stream they follow in consultation with the project coordinator.",
+        "50 credit points of Research Project subjects, undertaken consecutively",
+        "the principles of sampling and experimental design;",
+        "You will undertake independent research in bioinformatics with the potential to progress to a PhD.",
+        "Combine reasoning and problem-solving skills to work independently within a bioinformatics research setting."
+      ]
+    },
+    "adaptiveness": 9,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1's anchor fits precisely: communication appears in the course learning outcomes and generic skills, and core assessment adds spoken communication to peers and staff — BINF90018's hurdled group presentation with Q&A on a 'presentation day' — but no core assessment is documented in a recognised professional genre and none is documented as reaching an audience beyond the teaching team. Level 2 would require a client brief, consultancy or policy advice, public-facing artefact or equivalent judged against criteria drawn from professional practice; the remaining core assessment is essays, critical review, written assignments, quizzes and hurdled examinations addressed to the marker. The oral presentations in BTCH90009 and BTCH90005 sit in the elective list, not the core, so they cannot lift the item.",
+      "evidenceLines": [
+        "Communicate scientific information in a variety of written and oral formats;",
+        "Improved verbal and written communication capabilities",
+        "Interactive Oral Assessment (IOA):Group Presentation Group project 4-5 students per group 10h of work required. 10 min talk per group and 10 min Q& A",
+        "Hurdle requirement: Students must achieve 10/20 for group project. Students must attend presentation day\tEnd of the teaching period\t20%",
+        "Essay",
+        "Final Examination"
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "DEMOTED 2→1 on adversarial verification. Level 2 requires a core assessment that 'reproduces a professional task end to end: a real or realistic problem, producing the artefact a practitioner would produce, judged against criteria drawn from practice.' Two of the three conjuncts are undocumented. The extract documents no real or realistic problem for BINF90018's group project — the assessment table says only 'Group project report (code + text) 4-5 students per group / 30 hours (of work required)', with no problem, client, dataset provenance or context of any kind — and no criteria drawn from practice appear for any core assessment. The remaining W2 evidence is ILOs ('Design, reproduce and scale analyses through automated workflows...', 'Document computational work utilising version control and software packaging systems.'), which R2 caps at level 1. The documented core assessment profile is hurdled examinations (BINF90002 50%, BINF90017 60%, COMP90038 60%, COMP90059 60%), essays, written assignments, quizzes and take-home programming assignments — level 1's anchor exactly: contextualised tasks appear (R analysis of transcriptomic data, bioinformatics pipelines, coding projects) but the artefact produced and the criteria applied remain academic. BINF90018's self-description as delivering 'critical professional skills' was disregarded under R4.",
+      "evidenceLines": [
+        "Programming individual assignment (take-home) 12 hours of work required, and Observed Examination (In-Class Quiz) 1-hour test",
+        "Group project report (code + text) 4-5 students per group",
+        "30 hours (of work required)",
+        "Design, reproduce and scale analyses through automated workflows to enhance productivity and consistency.",
+        "Document computational work utilising version control and software packaging systems.",
+        "Interpret and assess the quality of coding and data analysis projects.",
+        "Hurdle requirement: Students must achieve a mark of 50% to successfully pass the subject.\tDuring the examination period\t50%",
+        "A written closed book examination, addressing all Intended Learning Outcomes (ILOs) 1-4."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1's anchor — 'Work-situated learning exists only as an elective, an optional internship' — is exactly the documented position: SCIE90017 Science and Technology Internship appears only in the All Streams General Elective list, from which students take one 12.5-point subject. Level 2 would require a CORE unit placing students in a real workplace or professional-community setting with practitioner supervision; the core contains no placement, practicum, live client project or community-based project. The v4.2 in-practice route does not apply — nothing documents this cohort as already practising in the profession, and the required research project is on-campus research, which is not workplace membership.",
+      "evidenceLines": [
+        "All Streams - General Elective subjects",
+        "Students must take one 12.5 credit point General elective subject.",
+        "SCIE90017\tScience and Technology Internship",
+        "Summer Term (Off Campus)",
+        "Masters (Coursework)Year: 2026Delivered: On Campus (Parkville)"
+      ]
+    },
+    "workplace": 3,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program documents a coherent specialist core with a staged prerequisite chain, which is the G1 PASS condition. 125 credit points of discipline core plus stream-specific compulsory subjects, a subject every stream must complete (BINF90002), explicit prerequisite chains (COMP90059 to COMP90038; MAST90044 to BINF90017; MAST20006 to MAST20005; MAST90044 or MAST20005 to BINF90001), a common second-year bioinformatics core, and a progression rule gating the research project behind 37.5 points of core. This is disciplinary identity, not interchangeable generic content.",
+        "evidenceLines": [
+          "125 credit points of Discipline core subjects including compulsory subjects listed for each stream",
+          "Students in all streams must complete BINF90002 Elements of Bioinformatics.",
+          "Note: Completing COMP90059 meets the prerequisite for COMP90038",
+          "Note: Completing MAST90044 meets prerequisite enrolment requirements for BINF90017",
+          "Note: Completing MAST90044 or MAST20005 meets prerequisite enrolment requirements for BINF90001",
+          "Completion of at least 37.5 points of core subjects, or stream specific compulsory subjects, before commencing the research project is normally required. Completed subjects must include BINF90002 and COMP90059 if subject is a required core subject in the stream."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "G2 passes on the 'simulations/capstones/live projects with real uncertainty and accountability' route: a 50-point research project is required of every student, scoped with a project coordinator and staged across consecutive semesters — inquiry whose result is not known in advance. Defended trade-off decisions are additionally documented in assessed core work: BINF90002's outcome requires selecting an appropriate technology platform and analysis pipeline for different applications (assessed by essay, critical review and hurdled examination), and COMP90038's hurdled examination and semester project work address all ILOs over content that explicitly includes space and time trade-offs. This is beyond recall or scripted response.",
+        "evidenceLines": [
+          "All students undertake a research project for a total of 50 points. The research project comprises of a series of two, three or four subjects which must be completed in consecutive semesters. The research project is normally commenced in the second semester of enrolment. The following research project structures are possible. Students will determine which stream they follow in consultation with the project coordinator.",
+          "Select an appropriate technology platform and analysis pipeline for a variety of different applications",
+          "Topics covered include complexity classes and asymptotic notation; empirical analysis of algorithms; abstract data types including queues, trees, priority queues and graphs; algorithmic techniques including brute force, divide-and-conquer, dynamic programming and greedy approaches; space and time trade-offs; and the theoretical limits of algorithm power.",
+          "Project work during semester due around weeks 7 and 11, addressing all Intended Learning Outcomes (ILOs) 1-4.",
+          "Recognize the design techniques of standard algorithms, and apply these techniques to develop new computational solutions to problems"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1 straddled 2 and 3: BINF90018 assesses a group project whose outcomes cover version control, packaging and workflow sharing, which could be read as coordinating work across people AND tools. Nothing documents the division of work between people and systems as itself assessed, and the second core group task (CEDB20003 group poster) is not core in the Biology/Biomedicine stream, so recurrence program-wide is unproven. Resolved DOWN to 2.",
+      "C2 straddled 1 and 2 and was RESOLVED DOWN TO 1 on adversarial verification (the candidate pass scored 2). The 'Critical Review' in BINF90002 is a discrete assessed critique task, but its object is the published research literature rather than the student's own work, a peer's, or a tool's output — which is what the C2 ladder appraises — and no marking criteria are published anywhere in the extract, so level 2's 'criterion-referenced appraisal of quality' is undocumented. The only genuine peer review in the extract (GENE20001) is optional and not core for the Biology/Biomedicine stream.",
+      "C4 straddled 2 and 3: the level-3 evidence is the documented required research-project structure (50 points, consecutive subjects, progression gate) rather than a quoted assessment task, because the research-project subject pages are absent from the extract. Scored 3 because the level-3 anchor is itself framed as what 'the program documents' and these are compulsory credit-bearing curriculum requirements, not the outcome statements R2 excludes. If the harness requires a quoted assessment task for every level 3 without exception, this item falls to 2.",
+      "C5 straddled 2 and 3: the substantial primary-evidence project is genuinely REQUIRED (not one route among several), satisfying the first half of level 3, but no viva, defence or documented staged supervised review appears in the extract. Resolved DOWN to 2 per the lower-level rule.",
+      "W2 straddled 1 and 2 and was RESOLVED DOWN TO 1 on adversarial verification (the candidate pass scored 2). Two of level 2's three conjuncts are undocumented: the extract gives no problem, client, dataset provenance or context for BINF90018's group project, and no marking criteria drawn from professional practice are published for any core assessment. The remaining support is ILO text, which R2 caps at level 1.",
+      "W1/C1 boundary: BINF90018's group presentation with Q&A carries both collaborative and communicative evidence. Under 'one construct, one home' the group-work fact scores in C1 and the spoken-delivery fact scores in W1; neither was counted twice.",
+      "C4/C5/W3 boundary: the required 50-point research project supports C4's independent-learning progression and C5's inquiry, but is NOT scored in W3 — it is on-campus research, not membership of a workplace or professional community."
+    ],
+    "notScoreable": [
+      "The four second-year all-stream core subjects (BINF90001 Statistics for Bioinformatics, BINF90004 Bioinformatics Case Studies, COMP90014 Algorithms for Bioinformatics, COMP90016 Computational Genomics) have no subject or assessment page in the extract. BINF90004's title alone suggests case-based work relevant to W2 and C4, but with no assessment text it was not scored anywhere.",
+      "The required Professional Skills subject SCIE90013 Communication for Research Scientists has no subject or assessment page in the extract. It is the most likely home for professional-genre communication evidence, so W1's score of 1 is bounded by a coverage gap, not by a positive finding that no such assessment exists.",
+      "All research-project subject pages (BINF90008-BINF90016) are absent, so no assessment task, hurdle or supervision/defence requirement for the 50-point project could be quoted. This directly caps C5 at 2 and is the reason C4's level 3 rests on course-structure requirements rather than a quoted assessment task.",
+      "No core-subject page in the extract mentions generative AI in any form, so C3's treatment of AI capabilities, limitations, ethics or governance could not be assessed positively at level 2 or 3 from core evidence — only the elective machine-learning and digital-health subjects appear."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-23"
+    }
+  }
+}

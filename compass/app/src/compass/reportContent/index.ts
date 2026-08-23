@@ -244,6 +244,10 @@ export const REPORT_CONTENT_LOADERS: Record<
   "dfva-v4-recommend-mc-envlaw": () => import("./dfva-v4-recommend-mc-envlaw"),
   "dfva-v4-recommend-mc-indeng": () => import("./dfva-v4-recommend-mc-indeng"),
   "dfva-v4-recommend-mc-mgmthre": () => import("./dfva-v4-recommend-mc-mgmthre"),
+  "dfva-v4-recommend-mc-scibif": () => import("./dfva-v4-recommend-mc-scibif"),
+  "dfva-v4-recommend-mc-scibio": () => import("./dfva-v4-recommend-mc-scibio"),
+  "dfva-v4-recommend-mc-sciepi": () => import("./dfva-v4-recommend-mc-sciepi"),
+  "dfva-v4-recommend-mc-scwr": () => import("./dfva-v4-recommend-mc-scwr"),
 };
 
 export function hasReportContent(slug: string): boolean {

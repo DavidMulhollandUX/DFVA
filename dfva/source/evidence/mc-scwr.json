@@ -1,0 +1,154 @@
+{
+  "code": "mc-scwr",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor: at least one core unit assesses collaborative practice. FLTV70042 Cinematic Writing assesses a Group Presentation (25%), and FLTV70046 Script Development Hothouse assesses interprofessional collaboration with actors, directors and tutors (active contribution and participation 20%, script development report 80%). Level 3 is not reached because the program documents no assessment requiring the coordination of work across people AND tools/AI systems, and no division of work between people and systems is assessed.",
+      "evidenceLines": [
+        "Group Presentation",
+        "Through working with actors, directors and tutors, this intensive workshop enables students to make significant progress in the development of their first draft script.",
+        "Students learn how to work with actors to workshop a scene from their script and will be required to be on site to write intensively during the hothouse.",
+        "Students will also gain insight into the nature of television as a collaborative writing medium as well as an understanding of the current television landscape. Students will read, analyse and discuss television scripts and attend screenings of TV programs.",
+        "develop an understand of working collaboratively as a writer;",
+        "ability to work collaboratively as part of creative team."
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1 anchor: reflection, self-assessment and peer review appear in outcomes and generic skills, but no core unit assesses appraisal of quality against explicit criteria. The course generic skills claim students \"overcome limitations both critically and creatively\", FLTV70042 generic skills include \"develop positive self critical and peer review skills\", FLTV70041 generic skills include \"analysis and peer feedback\", FLTV70046 ILOs include \"develop skills in hearing and assimilating critical feedback\" and \"heightened skills of critical analysis, both in giving an receiving criticism\", and FLTV70044/47 ILOs claim script analysis and feedback skills. However, core assessment tables list only participation hours, script drafts, development reports, and business folios; no task is documented as criterion-referenced peer review, structured critique against standards, portfolio against standards, or marking against exemplars (Level 2). Level 3 is untouched as no reliance/override decisions or process-focused judgements of AI outputs are documented (R2).",
+      "evidenceLines": [
+        "develop positive self critical and peer review skills;",
+        "analysis and peer feedback;",
+        "develop skills in hearing and assimilating critical feedback.",
+        "heightened skills of critical analysis, both in giving an receiving criticism;",
+        "gain further practice in and understanding of script analysis and feedback;",
+        "further develop script analysis and feedback skills;",
+        "overcome limitations both critically and creatively;"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor: digital/tool content is present only at the tool-operation and new-media level. FLTV70042 core includes learning \"professional script formatting\" and FLTV70045 ILO includes \"develop a business confidence to encourage productivity in all forms of writing, including new media\", delivered alongside \"new media creatives\". Level 2 requires core units to address AI capabilities AND limitations/ethics with use limits assessed; artificial intelligence, machine learning, and algorithmic systems are completely absent from the extract. Level 3 (assessed AI governance, bias, or regulation) is entirely unreachable.",
+      "evidenceLines": [
+        "learn professional script formatting.",
+        "learn skills necessary to develop short film documents and understand correct script formatting;",
+        "develop a business confidence to encourage productivity in all forms of writing, including new media;",
+        "Delivered by industry professionals including representatives from funding bodies, professional writers, distribution companies, new media creatives, directors, and producers, this subject will enable students to define the business aspects of the industry."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3 anchor: the program documents structured progression toward independent learning through a self-scoped capstone creative project. Progression is staged across the 150-point core from initial craft and concept development (FLTV70041/42/43 in Year 1 Sem 1), through intensive scene work and the self-scoped 37.5-point first draft in FLTV70047 (15,000\u201320,000 words), culminating in the 37.5-point independent redrafting in FLTV70044 Writing and Rewriting (second draft of 15,000\u201318,000 words submitted to a professional standard, where students on their own initiative organize readings and actor workshops) and commercialization folio in FLTV70045. This satisfies the self-scoped capstone project progression of level 3.",
+      "evidenceLines": [
+        "Students are expected to write a complete first draft long-form script project, most likely a feature film script or equivalent length television script(s) plus \u2018Bible\u2019.",
+        "First Draft Script",
+        "Following on from \u2018Major Script Project\u2019 the previous semester, students undertake to write subsequent drafts of their script.",
+        "Students are expected to submit as a minimum a completed second draft long form script; (most likely a feature film script) plus accompanying short documents, or television script(s) of equivalent length plus a \u2018Bible\u2019.",
+        "Students may, on their own initiative, organise script readings and/or actor workshops for script development and feedback purposes.",
+        "complete a second draft (minimum) long form script to a professional standard;",
+        "Second Draft major script",
+        "Folio detailing the business strategies behind a major (script) production"
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 1 anchor: introductory research methods training for writers is documented in core units. FLTV70042 introduces students to \"a variety of methods through which writers can access information and inspiration necessary for both their academic and creative work\" with an ILO to \"research, write and present a paper on a topic of their choice\", FLTV70043 has students \"choose and research a topic of interest for their creative work\", and the course ILO claims \"developed skills in research methodology for writers\". Level 2 requires students to design and conduct an inquiry with methodology selection and data collection, assessed; no empirical or field data collection is assessed. The creative capstone produces screenplays and is homed in C4 and W2 per one-construct-one-home, rather than primary research evidence. Level 3 (required primary evidence project defended under viva/scrutiny) is not met.",
+      "evidenceLines": [
+        "demonstrated developed skills in research methodology for writers;",
+        "This subject also introduces students to a variety of methods through which writers can access information and inspiration necessary for both their academic and creative work.",
+        "develop skills enabling the student to research, write and present a paper on a topic of their choice.",
+        "Students will choose and research a topic of interest for their creative work and present their work to the class.",
+        "develop skills that will enable the student to research, write and present a paper on a topic of their choice.",
+        "apply learned knowledge of researching, screenwriting and storytelling craft skills to writing a creative project;"
+      ]
+    },
+    "adaptiveness": 8,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 anchor: core assessments repeatedly require recognised professional genres judged against criteria drawn from professional practice. Assessed tasks include Draft Treatment for Feature Film plus short documents (FLTV70042, 65%), Television Series Development documents / TV Bible (FLTV70043, 65%), Folio detailing the business strategies behind a major script production and submissions to industry funding bodies (FLTV70045, 60%), and feature screenplay drafts (FLTV70047, 90%; FLTV70044, 90%). Level 3 is not reached: while professional communication recurs across the program and industry professionals participate in delivering FLTV70045 and the FLTV70046 Hothouse, the handbook does not document that assessments are judged by an external practitioner panel, nor are professional conduct or accountability explicitly listed among the assessed criteria of any task (R2).",
+      "evidenceLines": [
+        "Draft Treatment for Feature Film plus short documents",
+        "Television Series Development documents",
+        "Students will be made familiar with contemporary TV program development practices and gain an understanding of essential development documents such as the TV series \u2018Bible\u2019.",
+        "Folio detailing the business strategies behind a major (script) production",
+        "enable students to prepare submissions to industry funding bodies;",
+        "First Draft Script",
+        "Second Draft major script",
+        "exhibit strong professional, skills, discipline and ethics"
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3 anchor: authentic professional tasks form the program's entire assessment spine (not a single instance) and carry genuine constraints of professional practice. Across the 150-point all-compulsory curriculum there are zero exams or academic essays; every core subject assesses the creation of practitioner artefacts (film treatments, TV bibles, full-length 15,000\u201320,000 word screenplays, script development reports, and business strategy folios for funding bodies). Practice constraints are documented in FLTV70044 (\"complete a second draft (minimum) long form script to a professional standard\"), FLTV70045 (\"prepare submissions to industry funding bodies\"), and FLTV70046 (intensive on-site workshop constraints with actors and directors).",
+      "evidenceLines": [
+        "Draft Treatment for Feature Film plus short documents",
+        "Television Series Development documents",
+        "First Draft Script",
+        "Second Draft major script",
+        "Folio detailing the business strategies behind a major (script) production",
+        "complete a second draft (minimum) long form script to a professional standard;",
+        "enable students to prepare submissions to industry funding bodies;",
+        "Students learn how to work with actors to workshop a scene from their script and will be required to be on site to write intensively during the hothouse."
+      ]
+    },
+    "W3": {
+      "score": 0,
+      "rationale": "Level 0 anchor: no work-integrated learning, placement, practicum or community-based project appears anywhere in the course structure. The 150-point curriculum consists entirely of on-campus coursework subjects at Southbank. Intensive on-campus workshops with actors/directors in FLTV70046 represent studio simulation, which the rubric explicitly excludes from W3 and homes in W2. The cohort is not documented as already practising professionals, so the in-practice route does not open.",
+      "evidenceLines": [
+        "150-point program of compulsory subjects",
+        "Semester 1 (On Campus - Southbank)",
+        "Semester 2 (On Campus - Southbank)",
+        "Semester 1 (Extended) (On Campus - Southbank)",
+        "Through working with actors, directors and tutors, this intensive workshop enables students to make significant progress in the development of their first draft script."
+      ]
+    },
+    "workplace": 5,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program documents a coherent specialist core with progressive technical depth across an all-compulsory 150-point structure (seven FLTV subjects with zero interchangeable electives), staged sequentially from foundational craft to intensive scene work, long-form drafting, advanced revision, and industry business.",
+        "evidenceLines": [
+          "150-point program of compulsory subjects",
+          "FLTV70041\tStorytelling Workshop",
+          "FLTV70042\tCinematic Writing",
+          "FLTV70043\tWriting for Television",
+          "FLTV70046\tScript Development Hothouse",
+          "FLTV70047\tMajor Screenwriting Project",
+          "FLTV70044\tWriting and Rewriting",
+          "FLTV70045\tBusiness of Screenwriting"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Assessment requires continuous decision-making under genuine creative, narrative and commercial uncertainty, including writing and revising full-length feature scripts and TV series bibles, developing funding submission business folios, and real-time scene rewriting based on actor/director workshops. The FAIL condition (recall or scripted responses only) is completely absent.",
+        "evidenceLines": [
+          "overcome limitations both critically and creatively;",
+          "demonstrate a flexible and innovative approach to current professional challenges",
+          "First Draft Script",
+          "Second Draft major script",
+          "Folio detailing the business strategies behind a major (script) production",
+          "enable students to prepare submissions to industry funding bodies;"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1 straddled 1 and 2: FLTV70042's 25% Group Presentation is an assessed group task in a compulsory subject, and FLTV70046 assesses active contribution to interprofessional actor/director workshops, meeting level 2. Level 3 fails because no division of work between people and AI/tools is assessed.",
+      "C2 straddled 1 and 2: Peer review and critical self-evaluation are prominent across ILOs and generic skills, and subjects include \"Script development report\" and tutorial participation. However, no core assessment is documented as criterion-referenced peer review, structured critique against rubrics, or marking against exemplars. Resolved DOWN to 1 per R2 and the downward ambiguity rule.",
+      "C4 straddled 2 and 3: The 37.5-point First Draft (FLTV70047) and 37.5-point Second Draft (FLTV70044) form a self-scoped long-form creative capstone project with documented staged progression across the degree, meeting level 3's self-scoped capstone project route.",
+      "C5 straddled 1 and 2: Research methods training for writers is documented in FLTV70042 and FLTV70043 (\"methods through which writers can access information and inspiration\", \"research methodology for writers\"). However, no empirical/field data collection is assessed; the creative project produces screenplays rather than primary empirical inquiry evidence, homed in C4 and W2 under one-construct-one-home. Lower level 1 taken.",
+      "W1 straddled 2 and 3: Multiple professional genres are assessed across the core (treatments, TV bibles, scripts, funding folios), satisfying level 2. FLTV70045 is delivered by industry professionals and FLTV70046 involves working with actors/directors, but the handbook does not document external practitioner judging or explicit assessment of professional conduct criteria. Resolved DOWN to 2.",
+      "W2 straddled 2 and 3: Authentic tasks form 100% of the core assessment spine (zero exams or academic essays across the 150 points) and carry documented practice constraints (profession's own standards of performance in FLTV70044, industry funding body submission standards in FLTV70045, on-site live actor workshop constraints in FLTV70046). Level 3 awarded.",
+      "W3 vs W2 boundary: The intensive actor/director workshop in FLTV70046 is on-campus studio simulation, which the rubric explicitly directs to home in W2 rather than W3. With no placement, practicum, or internship in the core or electives, W3 scores 0."
+    ],
+    "notScoreable": [
+      "C3 AI governance anchors: Artificial intelligence, machine learning, and automated systems are not mentioned in the extract; scored on digital tools and new media only.",
+      "Assessment rubrics and criteria: Handbook provides task titles, hours/word counts, timings, and percentages, but no detailed marking criteria text."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-23"
+    }
+  }
+}
