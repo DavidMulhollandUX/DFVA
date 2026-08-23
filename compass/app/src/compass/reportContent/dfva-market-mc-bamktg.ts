@@ -58,7 +58,7 @@ Traditional consumer research roles are contracting in volume but growing in sen
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
 > **Confidence: MEDIUM** — Pattern-based from known professional discourse.
 

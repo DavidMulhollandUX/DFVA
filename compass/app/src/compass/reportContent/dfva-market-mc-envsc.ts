@@ -43,7 +43,7 @@ Water resource and catchment management roles remain consistently advertised acr
 **Signal 7 — Industry Project Unit as Differentiator**
 Employer signals (inferred from consulting and government graduate program criteria) favour candidates with demonstrated stakeholder-facing project experience. The MC-ENVSC 25-point industry project unit is a tangible differentiator vs. research-only or purely technical graduates. Employers in consulting and government advisory functions signal preference for graduates who can communicate findings to non-technical audiences.
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — LOW CONFIDENCE
 
 | Competitor Program | Institution | Key Difference vs MC-ENVSC |
 |---|---|---|

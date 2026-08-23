@@ -58,7 +58,7 @@ Management consulting firms (Big Four, Accenture, Kearney, McKinsey operations p
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
 > **Confidence: MEDIUM** — Pattern-based from known professional discourse.
 

@@ -53,7 +53,7 @@ Commercial workplace redesign — driven by hybrid work normalisation — is sus
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
 > **Confidence: MEDIUM** — Pattern-based from known professional discourse as of mid-2026.
 

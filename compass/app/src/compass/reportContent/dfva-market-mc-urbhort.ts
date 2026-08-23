@@ -58,7 +58,7 @@ Across all job families, language around "climate resilience," "urban heat mitig
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
 > **Confidence: MEDIUM** — Pattern-based from known professional discourse.
 

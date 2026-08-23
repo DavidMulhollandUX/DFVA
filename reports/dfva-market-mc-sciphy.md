@@ -38,7 +38,7 @@ LiDAR for autonomous systems, fibre sensing for infrastructure, and photonic int
 **Signal 7 — PHD PATHWAY REMAINS PRIMARY EXIT**
 A significant share of MC-SCIPHY graduates proceed to PhD programs domestically and internationally. The 100-point research project component is explicitly cited by recruiters as evidence of research readiness. The MSc functions as both a terminal professional qualification and a PhD on-ramp — both pathways are active in 2026.
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — LOW CONFIDENCE
 
 - Quantum computing hiring appearing in ANZ at scale for the first time (47 postings Q1 2026)
 - Physics PhD pathway remains primary; MSc functions as stepping stone with strong employer acceptance

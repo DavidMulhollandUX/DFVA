@@ -53,7 +53,7 @@ Urbis, SGS Economics, and WSP ANZ posted planning/property economics roles in 20
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
 > **Confidence: MEDIUM** — Pattern-based from known professional discourse as of early 2026.
 

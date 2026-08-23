@@ -129,7 +129,7 @@ Seek ANZ new title appearances (Q4 2025–Q1 2026):
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
 > **Confidence: MEDIUM**
 

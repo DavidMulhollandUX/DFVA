@@ -44,7 +44,7 @@ Australia's agricultural export intensity (particularly dairy, red meat, seafood
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — LOW-MEDIUM CONFIDENCE
 
 | Role | Entry (0–2 yrs) | Mid (3–6 yrs) | Senior (7+ yrs) | Notes |
 |---|---|---|---|---|

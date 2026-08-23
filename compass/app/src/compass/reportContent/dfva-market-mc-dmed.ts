@@ -40,7 +40,7 @@ const content = {
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — LOW CONFIDENCE
 | Role / Career Stage | Entry (Intern/RMO) | Mid (Registrar) | Senior (Consultant/Fellow) |
 |---|---|---|---|
 | Hospital medicine (general) | AUD $75,000–$85,000 | AUD $110,000–$150,000 | AUD $250,000–$450,000+ |

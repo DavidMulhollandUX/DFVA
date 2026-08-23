@@ -46,7 +46,7 @@ Seek ANZ new title appearances (Q4 2025–Q1 2026): "AI Validation Scientist" �
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — LOW CONFIDENCE
 
 **Theme 1 — AlphaFold didn't kill structural biology jobs; it created a validation job.** The human value in 2026 is deciding when AlphaFold is wrong and what experimental validation is required. MC-SCIBIT graduates with computational electives are positioned for this.
 

@@ -52,7 +52,7 @@ Organisations including the Smith Family, Brotherhood of St Laurence, and Centre
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
 > **Confidence: MEDIUM** — Pattern-based from known professional discourse.
 

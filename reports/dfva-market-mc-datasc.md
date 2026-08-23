@@ -52,7 +52,7 @@ Prompt engineering, RAG pipeline design, and LLM evaluation skills now appear in
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — LOW CONFIDENCE
 
 **Theme 1 — "The junior data scientist is a dying role"**
 Active discourse around whether entry-level data science roles are being absorbed by AI tools. Consensus: routine analytics roles are compressing; the remaining roles require experimental design, causal reasoning, or domain expertise — skills coursework alone doesn't build.

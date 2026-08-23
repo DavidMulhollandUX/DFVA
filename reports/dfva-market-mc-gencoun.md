@@ -38,7 +38,7 @@ NHMRC-funded genomics research programs and the Australian Genomics Health Allia
 **Signal 7 — Genomics Coordinator as a Growing Adjacent Role**
 Health networks scaling genomic medicine programs are creating Genomics Navigator or Coordinator roles that sit adjacent to genetic counselling. While not always requiring full HGSA certification, job ads frequently specify genetic counselling training or background as highly desirable. These roles represent additional employment pathways for graduates who want patient-facing coordination work before or alongside clinical practice.
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — LOW CONFIDENCE
 
 | Role | ANZ Salary Range (2025–26) | Demand Trend | Notes |
 |---|---|---|---|

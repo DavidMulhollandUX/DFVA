@@ -18,7 +18,9 @@
     "dfva:sync-skill": "cp ../dfva/dist/claude-skill/SKILL.md ~/.claude/skills/dfva/SKILL.md",
     "dfva:panela-coverage": "npx tsx dfva-panela-coverage-check.ts",
     "dfva:capture-check": "npx tsx check-capture-provenance.ts",
-    "dfva:capture-queue": "python3 build-capture-queue.py"
+    "dfva:capture-queue": "python3 build-capture-queue.py",
+    "dfva:report-prose": "python3 ../scripts/check-report-prose.py",
+    "dfva:sync-report-review": "mkdir -p ../.claude/skills/dfva-report-review && cp ../dfva/skills/dfva-report-review/SKILL.md ../.claude/skills/dfva-report-review/SKILL.md"
   },
   "devDependencies": {
     "@types/node": "^25.9.3",

@@ -34,7 +34,7 @@
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — LOW CONFIDENCE
 
 | Career Stage | Indicative Salary Band (AUD, public/private blended) |
 |---|---|

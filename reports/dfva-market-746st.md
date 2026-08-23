@@ -53,7 +53,7 @@ Victorian state government agencies (Vic Roads, MRPV, Level Crossing Removal Aut
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
 > **Confidence: MEDIUM** — Pattern-based from known professional discourse.
 

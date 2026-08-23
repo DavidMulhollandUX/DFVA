@@ -44,7 +44,7 @@ Royal Commission implementation is forcing aged care providers to upgrade clinic
 **Signal 7 — MENTAL HEALTH NURSING SHORTFALL IS STRUCTURAL**
 Victoria's mental health system reform (following the Royal Commission into Victoria's Mental Health System, 2021) has created a sustained demand signal for mental health nurses with advanced qualifications. The MNursingSc pathway into mental health nursing is explicitly acknowledged in health service workforce plans.
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
 > **Confidence: MEDIUM** — based on known ANZ health system structure; not validated by employer interviews.
 

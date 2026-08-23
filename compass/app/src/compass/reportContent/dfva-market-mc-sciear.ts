@@ -46,7 +46,7 @@ CCS projects (Gorgon, CarbonNet, Browse) are hiring geologists for subsurface ch
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — LOW CONFIDENCE
 
 **Theme 1 — "AlphaFold didn't kill structural biology — and AI won't kill geology."** Repeated professional discourse emphasises that AI tools accelerate geological interpretation but cannot replace physical ground-truth. The consensus: AI is a powerful assistant for desktop geology, but the profession's value sits in field validation, regulatory accountability, and physical sample integrity.
 

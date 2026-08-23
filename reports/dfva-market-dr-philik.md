@@ -41,7 +41,7 @@ Large corporates and financial institutions with "Elevate" and "Stretch" RAPs in
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — LOW CONFIDENCE
 
 | Role / Career Stage | Entry | Mid | Senior |
 |---|---|---|---|

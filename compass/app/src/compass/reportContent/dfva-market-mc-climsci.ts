@@ -70,7 +70,7 @@ Graduates with strong academic profiles are competitive for UNDP, UNEP, World Ba
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — LOW CONFIDENCE
 
 | Employer Type | Key Employers (ANZ) | Graduate Entry Point | Notes |
 |---|---|---|---|

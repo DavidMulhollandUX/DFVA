@@ -39,7 +39,7 @@ const content = {
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — LOW CONFIDENCE
 | Role / Career Stage | Entry | Mid | Senior |
 |---|---|---|---|
 | General Dentist (Metro, Employee) | AUD 90,000–130,000 | AUD 150,000–220,000 | AUD 220,000–350,000+ |

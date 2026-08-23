@@ -110,7 +110,7 @@ Seek.com.au (Q1 2026 vs Q1 2025): postings requiring less than 2 years experienc
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (professional discourse on X) — MEDIUM CONFIDENCE
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
 > **Confidence: MEDIUM** — Pattern-based from known discourse; not live retrieval.
 

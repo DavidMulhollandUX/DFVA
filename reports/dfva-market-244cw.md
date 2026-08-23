@@ -50,7 +50,7 @@ Positions in Commonwealth and state health agencies increasingly cite Indigenous
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
 > **Confidence: MEDIUM** — pattern-based synthesis of professional discourse; not a dated extraction.
 

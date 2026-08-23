@@ -52,7 +52,7 @@ The 2024–2025 revision of the RACS Surgical Competence and Performance Guide (
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
 > **Confidence: MEDIUM** — Pattern-based from known professional discourse in LinkedIn, ASE/AMEE conference proceedings, and ANZ surgical education forums.
 

@@ -57,7 +57,7 @@ APRA CPS 230 (Operational Risk Management) implementation is driving sustained d
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — LOW CONFIDENCE
 
 **Theme 1 — "Is the traditional actuary a dying profession?"**
 Active professional discourse throughout 2025-2026. Dominant positions: the traditional actuarial analyst role is compressing; the profession survives by moving up the value chain into judgment, governance, and AI oversight. MC-ACTSC prepares graduates for the compressing tier, not the growing one.

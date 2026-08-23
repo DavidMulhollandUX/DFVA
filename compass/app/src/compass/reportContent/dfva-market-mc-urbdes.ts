@@ -58,7 +58,7 @@ Job ads from councils and state agencies increasingly require demonstrated knowl
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
 > **Confidence: MEDIUM** — Pattern-based from known professional discourse on LinkedIn, PIA forums, AILA events, and Planning Institute conference proceedings to early 2026.
 

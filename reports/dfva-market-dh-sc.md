@@ -28,7 +28,7 @@
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — LOW CONFIDENCE
 
 Because the DH-SC has no career-stage salary ladder (candidates are already senior, tenured, or otherwise established), the standard entry/mid/senior salary table does not apply. In its place, a **credential-value discussion table**:
 

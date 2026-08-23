@@ -91,7 +91,7 @@ ANZ tech employers (Atlassian, Canva, REA Group, NAB) increasingly referencing "
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (professional discourse on X) — MEDIUM CONFIDENCE
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
 > **Confidence: MEDIUM** — Pattern-based from known discourse.
 

@@ -57,7 +57,7 @@ Early-signal job ads (primarily from larger NFPs and consulting firms) are begin
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
 > **Confidence: MEDIUM** — Pattern-based from known professional discourse as of early 2026.
 
