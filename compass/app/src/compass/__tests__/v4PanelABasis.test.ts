@@ -86,7 +86,9 @@ describe("V4 Panel A basis contract", () => {
           // A field-basis median exists → a label can be assigned.
           const exp = V4_ONLY_PROGRAMS[code]?.exposure ?? null;
           if (exp !== null)
-            expect(v4Quadrant(exp, V4_PANEL_C[code].adaptiveness, b)).not.toBeNull();
+            expect(
+              v4Quadrant(exp, V4_PANEL_C[code].adaptiveness, b),
+            ).not.toBeNull();
         } else {
           expect(v4Quadrant(80, 9, b)).toBeNull();
         }

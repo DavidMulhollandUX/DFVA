@@ -521,11 +521,9 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
   const basis = code ? v4PanelABasisByCode(code) : undefined;
   const expMedian = basisMedian(basis);
   const position =
-    exposure !== null
-      ? v4Quadrant(exposure, panelC.adaptiveness, basis)
-      : null;
-  const jirN = v3 ? v3.jirN : (v4Only?.jirN ?? null);
-  const nTitles = v3 ? v3.nTitles : (v4Only?.nTitles ?? null);
+    exposure !== null ? v4Quadrant(exposure, panelC.adaptiveness, basis) : null;
+  const jirN = v3 ? v3.jirN : v4Only?.jirN ?? null;
+  const nTitles = v3 ? v3.nTitles : v4Only?.nTitles ?? null;
   const weightedDiffers =
     basis?.exposureWeighted !== undefined &&
     exposure !== null &&
@@ -691,7 +689,11 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
                         >
                           {basis ? V4_TIER_LABELS[basis.tier] : "measured"}
                           {expMedian !== null
-                            ? ` · ${basis?.tier === "field" ? "field-basis" : "portfolio"} median ${expMedian}`
+                            ? ` · ${
+                                basis?.tier === "field"
+                                  ? "field-basis"
+                                  : "portfolio"
+                              } median ${expMedian}`
                             : " · no median published for this basis"}
                         </p>
                         {weightedDiffers && basis && (
@@ -768,9 +770,8 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
                       </span>
                       . Every basis runs through the same Panel A procedure
                       (destination title → O*NET-SOC → published Felten AIOE →
-                      unweighted mean); what differs is whose destinations
-                      stand for the program, and that is stated rather than
-                      hidden.{" "}
+                      unweighted mean); what differs is whose destinations stand
+                      for the program, and that is stated rather than hidden.{" "}
                       {basis?.dominantShare && (
                         <>
                           {basis.dominantShare.name} holds{" "}
@@ -784,7 +785,9 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
                           {basis.excludedSources
                             .map(
                               (x) =>
-                                `${x.name} (carries ${x.refusedTitles.join(", ")}, adjudicated unmappable)`,
+                                `${x.name} (carries ${x.refusedTitles.join(
+                                  ", ",
+                                )}, adjudicated unmappable)`,
                             )
                             .join("; ")}
                           .{" "}
@@ -873,16 +876,19 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
                     <p className="text-muted-foreground mt-1 text-xs">
                       {isOwnRecord(basis) || !basis
                         ? "The filled point is this program on the v4 draft score"
-                        : `The dashed point is this program on the v4 draft score — dashed because its exposure is a ${V4_TIER_LABELS[basis.tier]} estimate, not its own graduates`}
+                        : `The dashed point is this program on the v4 draft score — dashed because its exposure is a ${
+                            V4_TIER_LABELS[basis.tier]
+                          } estimate, not its own graduates`}
                       {basis?.tier === "field"
                         ? "; the vertical line is the field-basis exposure median"
                         : ""}
-                      ; no quadrant is implied. Faded fills are the v3.1 reference
-                      portfolio, shown for context. Open rings are the programs
-                      already re-scored on v4, and each ring&rsquo;s size is its
-                      workplace sub-score — W is not an axis, so size is how it
-                      is read. Rings at the same height score identically on
-                      adaptiveness and differ on workplace practice.
+                      ; no quadrant is implied. Faded fills are the v3.1
+                      reference portfolio, shown for context. Open rings are the
+                      programs already re-scored on v4, and each ring&rsquo;s
+                      size is its workplace sub-score — W is not an axis, so
+                      size is how it is read. Rings at the same height score
+                      identically on adaptiveness and differ on workplace
+                      practice.
                     </p>
                   </>
                 ) : (

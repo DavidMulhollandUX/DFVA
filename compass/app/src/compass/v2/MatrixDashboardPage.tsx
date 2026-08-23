@@ -67,7 +67,10 @@ function SectionHeading({
 
 function ProgramLink({ row }: { row: PortfolioRow }) {
   return (
-    <Link to={programReportPath(row.code)} className="hover:text-primary transition-colors">
+    <Link
+      to={programReportPath(row.code)}
+      className="hover:text-primary transition-colors"
+    >
       {row.name}
     </Link>
   );
