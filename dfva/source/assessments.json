@@ -729,56 +729,57 @@
       }
     ],
     "aiLiteracyScore": 1,
-    "labourMarketAlignment": 2.6,
+    "labourMarketAlignment": 2.4,
     "assessedAt": "2026-06-08T00:00:00Z",
     "recommendationSummary": "Assessed MODERATE RISK; see the full recommendation report for the improvement pathway.",
     "marketReportPath": "reports/dfva-market-439fs.md",
     "labourEvidence": {
-      "field": "health",
-      "qiltStudyArea": "Health",
+      "field": "science",
+      "qiltStudyArea": "Science",
       "qilt": {
-        "employmentRate": 0.871,
-        "medianSalary": 103000,
-        "employmentRate3yr": 0.952,
-        "occupationDemand": "SHORTAGE",
+        "employmentRate": 0.793,
+        "medianSalary": 100000,
+        "employmentRate3yr": 0.943,
+        "occupationDemand": "RECRUITMENT_DIFFICULTY",
         "year": 2024
       },
       "destinations": {
         "entry": [
-          "Registered Nurses nec (15%)",
-          "Physiotherapist (6%)",
-          "Registered Nurse (Medical) (6%)",
-          "Resident Medical Officer (5%)",
-          "Registered Nurse (Critical Care and Emergency) (5%)"
+          "Sales Assistant (General) (6%)",
+          "Medical Laboratory Scientist (6%)",
+          "Geologist (5%)",
+          "General Clerk (4%)",
+          "Medical Laboratory Technician (4%)"
         ],
         "early": [
-          "Registered Nurses nec (14%)",
-          "Physiotherapist (6%)",
-          "Registered Nurse (Medical) (6%)",
-          "Registered Nurse (Critical Care and Emergency) (5%)",
-          "Occupational Therapist (4%)"
+          "Medical Laboratory Scientist (7%)",
+          "Geologist (5%)",
+          "Sales Assistant (General) (4%)",
+          "Medical Laboratory Technician (4%)",
+          "General Clerk (4%)"
         ],
         "senior": [
-          "Registered Nurses nec (14%)",
-          "Physiotherapist (6%)",
-          "Registered Nurse (Medical) (5%)",
-          "Registered Nurse (Critical Care and Emergency) (5%)",
-          "Occupational Therapist (4%)"
+          "Medical Laboratory Scientist (7%)",
+          "Geologist (5%)",
+          "Program or Project Administrator (4%)",
+          "Environmental Consultant (4%)",
+          "Medical Laboratory Technician (3%)"
         ]
       },
       "demandEmployers": [
-        "Healthcare Australia (HCA)",
-        "UnitingCare Queensland",
-        "Coastal Physiotherapy",
-        "Outreach Physiotherapy",
-        "Stream Healthcare Recruitment",
-        "Southern Cross Care WA",
-        "Anderson Neurological and Developmental Services",
-        "ORS Group",
-        "Ability Action Australia",
-        "Early Start Australia"
+        "NSW Health Pathology",
+        "Dorevitch Pathology (Healius)",
+        "Sonic Healthcare Australia",
+        "4Cyte Pathology",
+        "CSIRO",
+        "ANSTO",
+        "WEHI",
+        "Canva",
+        "Glencore",
+        "Rio Tinto",
+        "Fortescue"
       ],
-      "demandSalary": "A$68.6k–130k"
+      "demandSalary": "A$73.4k–145k"
     }
   },
   {
@@ -3904,57 +3905,58 @@
       }
     ],
     "aiLiteracyScore": 1,
-    "labourMarketAlignment": 2.4,
+    "labourMarketAlignment": 2.8,
     "assessedAt": "2026-06-08T00:00:00Z",
     "recommendationSummary": "Assessed MODERATE RISK; see the full recommendation report for the improvement pathway.",
     "marketReportPath": "reports/dfva-market-mc-actsc.md",
     "labourEvidence": {
-      "field": "science",
-      "qiltStudyArea": "Science",
+      "field": "business",
+      "qiltStudyArea": "Business & Management",
       "qilt": {
-        "employmentRate": 0.793,
-        "medianSalary": 100000,
-        "employmentRate3yr": 0.943,
-        "occupationDemand": "RECRUITMENT_DIFFICULTY",
+        "employmentRate": 0.923,
+        "medianSalary": 124000,
+        "employmentRate3yr": 0.962,
+        "occupationDemand": "MET",
         "year": 2024
       },
       "destinations": {
         "entry": [
-          "Sales Assistant (General) (6%)",
-          "Medical Laboratory Scientist (6%)",
-          "Geologist (5%)",
-          "General Clerk (4%)",
-          "Medical Laboratory Technician (4%)"
+          "Accountant (General) (16%)",
+          "General Clerk (5%)",
+          "Marketing Specialist (4%)",
+          "Sales Assistant (General) (4%)",
+          "Sales and Marketing Manager (4%)"
         ],
         "early": [
-          "Medical Laboratory Scientist (7%)",
-          "Geologist (5%)",
-          "Sales Assistant (General) (4%)",
-          "Medical Laboratory Technician (4%)",
-          "General Clerk (4%)"
+          "Accountant (General) (16%)",
+          "Sales and Marketing Manager (5%)",
+          "Marketing Specialist (4%)",
+          "Management Consultant (4%)",
+          "General Clerk (3%)"
         ],
         "senior": [
-          "Medical Laboratory Scientist (7%)",
-          "Geologist (5%)",
-          "Program or Project Administrator (4%)",
-          "Environmental Consultant (4%)",
-          "Medical Laboratory Technician (3%)"
+          "Accountant (General) (15%)",
+          "Sales and Marketing Manager (5%)",
+          "Marketing Specialist (4%)",
+          "Management Consultant (4%)",
+          "Program or Project Administrator (3%)"
         ]
       },
       "demandEmployers": [
-        "NSW Health Pathology",
-        "Dorevitch Pathology (Healius)",
-        "Sonic Healthcare Australia",
-        "4Cyte Pathology",
-        "CSIRO",
-        "ANSTO",
-        "WEHI",
-        "Canva",
-        "Glencore",
-        "Rio Tinto",
-        "Fortescue"
+        "Commonwealth Bank",
+        "Westpac",
+        "NAB",
+        "CMC Markets",
+        "Woolworths Group",
+        "Ventia",
+        "Brand Collective",
+        "EY (Ernst & Young)",
+        "Bed Bath N' Table",
+        "EssilorLuxottica",
+        "Alinta Energy",
+        "VetPartners Australia"
       ],
-      "demandSalary": "A$73.4k–145k"
+      "demandSalary": "A$80k–125k"
     }
   },
   {
@@ -9077,57 +9079,58 @@
       }
     ],
     "aiLiteracyScore": 1,
-    "labourMarketAlignment": 2.2,
+    "labourMarketAlignment": 2.8,
     "assessedAt": "2026-06-09T00:00:00Z",
     "recommendationSummary": "Assessed MODERATE RISK; see the full recommendation report for the improvement pathway.",
     "marketReportPath": "reports/dfva-market-mc-prop.md",
     "labourEvidence": {
-      "field": "architecture",
-      "qiltStudyArea": "Architecture & Building",
+      "field": "business",
+      "qiltStudyArea": "Business & Management",
       "qilt": {
-        "employmentRate": 0.748,
-        "medianSalary": 84500,
-        "employmentRate3yr": 0.948,
-        "occupationDemand": "RECRUITMENT_DIFFICULTY",
+        "employmentRate": 0.923,
+        "medianSalary": 124000,
+        "employmentRate3yr": 0.962,
+        "occupationDemand": "MET",
         "year": 2024
       },
       "destinations": {
         "entry": [
-          "Architect (19%)",
-          "Urban and Regional Planner (15%)",
-          "Architectural Draftsperson (11%)",
-          "Construction Project Manager (8%)",
-          "Interior Designer (6%)"
+          "Accountant (General) (16%)",
+          "General Clerk (5%)",
+          "Marketing Specialist (4%)",
+          "Sales Assistant (General) (4%)",
+          "Sales and Marketing Manager (4%)"
         ],
         "early": [
-          "Architect (20%)",
-          "Urban and Regional Planner (16%)",
-          "Architectural Draftsperson (10%)",
-          "Construction Project Manager (10%)",
-          "Interior Designer (7%)"
+          "Accountant (General) (16%)",
+          "Sales and Marketing Manager (5%)",
+          "Marketing Specialist (4%)",
+          "Management Consultant (4%)",
+          "General Clerk (3%)"
         ],
         "senior": [
-          "Architect (21%)",
-          "Urban and Regional Planner (16%)",
-          "Construction Project Manager (11%)",
-          "Architectural Draftsperson (9%)",
-          "Interior Designer (7%)"
+          "Accountant (General) (15%)",
+          "Sales and Marketing Manager (5%)",
+          "Marketing Specialist (4%)",
+          "Management Consultant (4%)",
+          "Program or Project Administrator (3%)"
         ]
       },
       "demandEmployers": [
-        "Woods Bagot",
-        "HASSELL",
-        "AECOM",
-        "Aurecon",
-        "Architectus",
-        "Cox Architecture",
-        "BVN",
-        "Colliers (formerly Ethos Urban)",
-        "Solar Start",
-        "CPB Contractors",
-        "Lendlease"
+        "Commonwealth Bank",
+        "Westpac",
+        "NAB",
+        "CMC Markets",
+        "Woolworths Group",
+        "Ventia",
+        "Brand Collective",
+        "EY (Ernst & Young)",
+        "Bed Bath N' Table",
+        "EssilorLuxottica",
+        "Alinta Energy",
+        "VetPartners Australia"
       ],
-      "demandSalary": "A$90k–170k"
+      "demandSalary": "A$80k–125k"
     }
   },
   {
@@ -10441,57 +10444,56 @@
       }
     ],
     "aiLiteracyScore": 1,
-    "labourMarketAlignment": 2.4,
+    "labourMarketAlignment": 2.6,
     "assessedAt": "2026-05-15T00:00:00Z",
     "recommendationSummary": "Add \"AI Validation in Epidemiology\" module — apply epidemiological methods (sensitivity, specificity, external validity, bias assessment) to evaluate AI health tools; Encourage major research project pathway (50pts) through advising; consider making minor project available only with coordinator approval.",
     "marketReportPath": "reports/dfva-market-mc-sciepi.md",
     "labourEvidence": {
-      "field": "science",
-      "qiltStudyArea": "Science",
+      "field": "health",
+      "qiltStudyArea": "Health",
       "qilt": {
-        "employmentRate": 0.793,
-        "medianSalary": 100000,
-        "employmentRate3yr": 0.943,
-        "occupationDemand": "RECRUITMENT_DIFFICULTY",
+        "employmentRate": 0.871,
+        "medianSalary": 103000,
+        "employmentRate3yr": 0.952,
+        "occupationDemand": "SHORTAGE",
         "year": 2024
       },
       "destinations": {
         "entry": [
-          "Sales Assistant (General) (6%)",
-          "Medical Laboratory Scientist (6%)",
-          "Geologist (5%)",
-          "General Clerk (4%)",
-          "Medical Laboratory Technician (4%)"
+          "Registered Nurses nec (15%)",
+          "Physiotherapist (6%)",
+          "Registered Nurse (Medical) (6%)",
+          "Resident Medical Officer (5%)",
+          "Registered Nurse (Critical Care and Emergency) (5%)"
         ],
         "early": [
-          "Medical Laboratory Scientist (7%)",
-          "Geologist (5%)",
-          "Sales Assistant (General) (4%)",
-          "Medical Laboratory Technician (4%)",
-          "General Clerk (4%)"
+          "Registered Nurses nec (14%)",
+          "Physiotherapist (6%)",
+          "Registered Nurse (Medical) (6%)",
+          "Registered Nurse (Critical Care and Emergency) (5%)",
+          "Occupational Therapist (4%)"
         ],
         "senior": [
-          "Medical Laboratory Scientist (7%)",
-          "Geologist (5%)",
-          "Program or Project Administrator (4%)",
-          "Environmental Consultant (4%)",
-          "Medical Laboratory Technician (3%)"
+          "Registered Nurses nec (14%)",
+          "Physiotherapist (6%)",
+          "Registered Nurse (Medical) (5%)",
+          "Registered Nurse (Critical Care and Emergency) (5%)",
+          "Occupational Therapist (4%)"
         ]
       },
       "demandEmployers": [
-        "NSW Health Pathology",
-        "Dorevitch Pathology (Healius)",
-        "Sonic Healthcare Australia",
-        "4Cyte Pathology",
-        "CSIRO",
-        "ANSTO",
-        "WEHI",
-        "Canva",
-        "Glencore",
-        "Rio Tinto",
-        "Fortescue"
+        "Healthcare Australia (HCA)",
+        "UnitingCare Queensland",
+        "Coastal Physiotherapy",
+        "Outreach Physiotherapy",
+        "Stream Healthcare Recruitment",
+        "Southern Cross Care WA",
+        "Anderson Neurological and Developmental Services",
+        "ORS Group",
+        "Ability Action Australia",
+        "Early Start Australia"
       ],
-      "demandSalary": "A$73.4k–145k"
+      "demandSalary": "A$68.6k–130k"
     }
   },
   {
@@ -11609,57 +11611,27 @@
       }
     ],
     "aiLiteracyScore": 1,
-    "labourMarketAlignment": 2.2,
+    "labourMarketAlignment": 2.4,
     "assessedAt": "2026-06-09T00:00:00Z",
     "recommendationSummary": "Assessed MODERATE RISK; see the full recommendation report for the improvement pathway.",
     "marketReportPath": "reports/dfva-market-mc-urbhort.md",
     "labourEvidence": {
-      "field": "architecture",
-      "qiltStudyArea": "Architecture & Building",
+      "field": "agriculture",
+      "qiltStudyArea": "Agriculture & Environment",
       "qilt": {
-        "employmentRate": 0.748,
-        "medianSalary": 84500,
-        "employmentRate3yr": 0.948,
-        "occupationDemand": "RECRUITMENT_DIFFICULTY",
+        "employmentRate": 0.803,
+        "medianSalary": 94000,
+        "employmentRate3yr": 0.935,
+        "occupationDemand": "SHORTAGE",
         "year": 2024
       },
       "destinations": {
-        "entry": [
-          "Architect (19%)",
-          "Urban and Regional Planner (15%)",
-          "Architectural Draftsperson (11%)",
-          "Construction Project Manager (8%)",
-          "Interior Designer (6%)"
-        ],
-        "early": [
-          "Architect (20%)",
-          "Urban and Regional Planner (16%)",
-          "Architectural Draftsperson (10%)",
-          "Construction Project Manager (10%)",
-          "Interior Designer (7%)"
-        ],
-        "senior": [
-          "Architect (21%)",
-          "Urban and Regional Planner (16%)",
-          "Construction Project Manager (11%)",
-          "Architectural Draftsperson (9%)",
-          "Interior Designer (7%)"
-        ]
+        "entry": [],
+        "early": [],
+        "senior": []
       },
-      "demandEmployers": [
-        "Woods Bagot",
-        "HASSELL",
-        "AECOM",
-        "Aurecon",
-        "Architectus",
-        "Cox Architecture",
-        "BVN",
-        "Colliers (formerly Ethos Urban)",
-        "Solar Start",
-        "CPB Contractors",
-        "Lendlease"
-      ],
-      "demandSalary": "A$90k–170k"
+      "demandEmployers": [],
+      "demandSalary": ""
     }
   },
   {
