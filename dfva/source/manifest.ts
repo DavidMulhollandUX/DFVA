@@ -24,4 +24,9 @@ export const TARGETS: Target[] = [
   // The global ~/.claude/skills/dfva/SKILL.md runs standalone (no repo access), so it
   // keeps the instrument inline; generated here, then copied out by `npm run dfva:sync-skill`.
   { template: 'claude-skill/SKILL.md.tmpl', output: 'dfva/dist/claude-skill/SKILL.md' },
+  // The report-review guidance is single-sourced in blocks/report-review.md and
+  // emitted to every agent surface — the block is included by the copilot and
+  // continue targets above, and this target carries the full Claude procedure.
+  // Authoring agents are not all Claude; the rules must not be Claude-only.
+  { template: 'report-review-skill/SKILL.md.tmpl', output: '.claude/skills/dfva-report-review/SKILL.md' },
 ]
