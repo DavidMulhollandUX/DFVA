@@ -63,7 +63,10 @@ describe("reportLinks", () => {
   });
   it("knows which programs carry a v4 score", () => {
     expect(hasV4("mc-mgmthre")).toBe(true);
-    expect(hasV4("mc-urbhort")).toBe(false);
+    // A research degree, not an unscored coursework program: Panel C has no
+    // taught curriculum to read, so this stays false by design. The previous
+    // case (mc-urbhort) went stale the moment that program was scored.
+    expect(hasV4("dr-philsci")).toBe(false);
   });
   it("strips the legacy slug prefix", () => {
     expect(codeFromSlug("dfva-mc-cs")).toBe("mc-cs");

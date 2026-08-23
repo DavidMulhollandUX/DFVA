@@ -195,3 +195,39 @@ and did not bargain AI provisions; environmental-consulting employment is declin
 stable; CSIRO is cutting posts, not recruiting), scoped one down (the Australian epidemiology
 shortage is a 2009 structural finding, not post-COVID demand), and removed eight themes for
 which no source existed. Those four sections are the current reference for house form.
+
+---
+
+## Research degrees: the `dfva-v4r-*` family
+
+The 14 research degrees in `V4_RESEARCH_DEGREES` carry **no v4 score of any kind**, for two
+independent reasons that the report must state separately:
+
+- **Panel C has nothing to score.** It reads taught curriculum structure; a research degree
+  is examined on an original contribution. This is a category fact — capturing more handbook
+  pages would not produce a score.
+- **Panel A has no destination basis.** The resolver returns none for any of the 14 at any
+  tier. Unlike the Panel C exclusion this is an evidence gap that could in principle be
+  closed by data. It has not been.
+
+Stating only the first reads as "Panel A is pending", which is the misreading this family
+exists to prevent — so the lint requires both sentences in §1.
+
+Scaffold the whole family, or named programs:
+
+```bash
+cd scripts && npx tsx dfva-v4r-report-scaffold.ts            # all 14
+cd scripts && npx tsx dfva-v4r-report-scaffold.ts dh-lld     # one
+```
+
+The scaffold derives §1 and §4 and carries §2 from the v1 report's threshold questions,
+analogue profile and verdict, and §3 from the market report — so there are no AUTHOR blocks.
+
+**Narrative only, no scores.** The v1 composite, the per-dimension scores and the retired
+Irreplaceability bonus are stripped, and the lint fails on `N/36`, `d/3` or an
+Irreplaceability figure anywhere in the family. A single number beside a program with no v4
+score invites exactly the comparison that would be wrong. The scaffold refuses to write a
+file when score-like text survives stripping rather than mangling a verdict silently.
+
+§3 states when the market report's §3 is grandfathered, and condenses nothing from it — an
+unsourced claim does not become sound by being restated in a second report.
