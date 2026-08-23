@@ -21241,7 +21241,7 @@
    }
   },
   "mc-urbhort": {
-   "assembled": false,
+   "assembled": true,
    "base": "https://handbook.unimelb.edu.au/2026/courses/mc-urbhort",
    "name": "Master of Urban Horticulture",
    "pages": {
@@ -21438,22 +21438,22 @@
      "ts": "2026-08-23T12:02:08+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/scie90017/assessment": {
-     "chars": 0,
+     "chars": 4462,
      "slot": "subj-scie90017-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-23T12:03:10+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/scie90027": {
-     "chars": 0,
+     "chars": 5675,
      "slot": "subj-scie90027",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-23T12:04:07+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/scie90027/assessment": {
-     "chars": 0,
+     "chars": 1375,
      "slot": "subj-scie90027-assessment",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-23T12:05:08+00:00"
     }
    },
    "priority": true
@@ -21535,27 +21535,63 @@
    }
   },
   "me-dcd": {
-   "assembled": false,
+   "assembled": true,
    "base": "https://handbook.unimelb.edu.au/2026/courses/me-dcd",
    "name": "Doctor of Clinical Dentistry",
    "pages": {
     "https://handbook.unimelb.edu.au/2026/courses/me-dcd": {
-     "chars": 0,
+     "chars": 2256,
      "slot": "course",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-23T12:06:08+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/courses/me-dcd/attributes-outcomes-skills": {
-     "chars": 0,
+     "chars": 11987,
      "slot": "attributes",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-23T12:07:08+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/courses/me-dcd/course-structure": {
-     "chars": 0,
+     "chars": 932,
      "slot": "structure",
-     "status": "pending",
-     "ts": null
+     "status": "done",
+     "ts": "2026-08-23T12:08:08+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/dent90108": {
+     "chars": 2289,
+     "slot": "subj-dent90108",
+     "status": "done",
+     "ts": "2026-08-23T12:09:08+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/dent90108/assessment": {
+     "chars": 1036,
+     "slot": "subj-dent90108-assessment",
+     "status": "done",
+     "ts": "2026-08-23T12:10:08+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/dent90109": {
+     "chars": 2032,
+     "slot": "subj-dent90109",
+     "status": "done",
+     "ts": "2026-08-23T12:11:09+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/dent90109/assessment": {
+     "chars": 1266,
+     "slot": "subj-dent90109-assessment",
+     "status": "done",
+     "ts": "2026-08-23T12:12:10+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/dent90110": {
+     "chars": 974,
+     "slot": "subj-dent90110",
+     "status": "done",
+     "ts": "2026-08-23T12:13:10+00:00"
+    },
+    "https://handbook.unimelb.edu.au/2026/subjects/dent90110/assessment": {
+     "chars": 655,
+     "slot": "subj-dent90110-assessment",
+     "status": "done",
+     "ts": "2026-08-23T12:14:09+00:00"
     }
    },
    "priority": true

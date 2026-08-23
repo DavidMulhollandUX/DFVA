@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Evidura — Chief of Staff Agent Console</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <style>
+    :root {
+      --bg-base: #0B1926;
+      --bg-surface: #0F2236;
+      --bg-surface-elevated: #162C44;
+      --bg-surface-hover: #1D3754;
+      --border-subtle: rgba(244, 242, 236, 0.1);
+      --border-focus: rgba(59, 130, 246, 0.5);
+      --text-primary: #F4F2EC;
+      --text-secondary: #94A3B8;
+      --text-muted: #64748B;
+      --accent-blue: #3B82F6;
+      --accent-blue-hover: #2563EB;
+      --accent-emerald: #10B981;
+      --accent-gold: #F59E0B;
+      --accent-rose: #F43F5E;
+      --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-base);
+      color: var(--text-primary);
+      font-family: var(--font-sans);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+
+    /* Top Navigation Header */
+    header {
+      background: var(--bg-surface);
+      border-bottom: 1px solid var(--border-subtle);
+      padding: 0.85rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+    }
+
+    .brand-group {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .brand-mark {
+      width: 32px;
+      height: 32px;
+      background: linear-gradient(135deg, #3B82F6, #10B981);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      color: #0B1926;
+      font-size: 1.1rem;
+    }
+
+    .brand-text h1 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: var(--text-primary);
+    }
+
+    .brand-text span {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    .status-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: rgba(16, 185, 129, 0.12);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      color: var(--accent-emerald);
+      padding: 0.35rem 0.8rem;
+      border-radius: 9999px;
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+
+    .status-dot {
+      width: 7px;
+      height: 7px;
+      background: var(--accent-emerald);
+      border-radius: 50%;
+      box-shadow: 0 0 8px var(--accent-emerald);
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+
+    /* Main Container Grid */
+    main {
+      flex: 1;
+      display: grid;
+      grid-template-columns: 320px 1fr;
+      height: calc(100vh - 65px);
+    }
+
+    /* Sidebar Navigation & Radar */
+    aside {
+      background: var(--bg-surface);
+      border-right: 1px solid var(--border-subtle);
+      padding: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      overflow-y: auto;
+    }
+
+    .section-title {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+    }
+
+    .nav-btn {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      width: 100%;
+      padding: 0.7rem 0.85rem;
+      background: transparent;
+      border: 1px solid transparent;
+      border-radius: 8px;
+      color: var(--text-secondary);
+      font-size: 0.85rem;
+      font-weight: 500;
+      cursor: pointer;
+      text-align: left;
+      transition: all 0.15s ease;
+    }
+
+    .nav-btn:hover {
+      background: var(--bg-surface-elevated);
+      color: var(--text-primary);
+    }
+
+    .nav-btn.active {
+      background: var(--bg-surface-elevated);
+      border-color: var(--border-focus);
+      color: var(--text-primary);
+      font-weight: 600;
+    }
+
+    .telemetry-card {
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--border-subtle);
+      border-radius: 10px;
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .telemetry-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.8rem;
+    }
+
+    .telemetry-label {
+      color: var(--text-secondary);
+    }
+
+    .telemetry-val {
+      font-family: var(--font-mono);
+      font-weight: 600;
+      color: var(--text-primary);
+    }
+
+    /* Content Area */
+    .content-area {
+      display: flex;
+      flex-direction: column;
+      background: var(--bg-base);
+      height: 100%;
+      overflow: hidden;
+    }
+
+    /* Tab: Chat Interface */
+    .chat-view {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+
+    .chat-messages {
+      flex: 1;
+      padding: 1.5rem 2rem;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .message {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      max-width: 85%;
+    }
+
+    .message.user {
+      align-self: flex-end;
+    }
+
+    .message.agent {
+      align-self: flex-start;
+      max-width: 90%;
+    }
+
+    .message-bubble {
+      padding: 1rem 1.25rem;
+      border-radius: 12px;
+      font-size: 0.92rem;
+      line-height: 1.6;
+    }
+
+    .message.user .message-bubble {
+      background: var(--accent-blue);
+      color: #ffffff;
+      border-bottom-right-radius: 2px;
+    }
+
+    .message.agent .message-bubble {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      color: var(--text-primary);
+      border-bottom-left-radius: 2px;
+    }
+
+    .message-meta {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      display: flex;
+      gap: 0.5rem;
+      align-items: center;
+    }
+
+    .mode-tag {
+      background: var(--bg-surface-elevated);
+      padding: 0.15rem 0.45rem;
+      border-radius: 4px;
+      font-weight: 600;
+      color: var(--accent-blue);
+    }
+
+    /* Action Chips */
+    .quick-actions {
+      padding: 0.75rem 2rem;
+      background: var(--bg-surface);
+      border-top: 1px solid var(--border-subtle);
+      display: flex;
+      gap: 0.6rem;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+
+    .chip-btn {
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--border-subtle);
+      color: var(--text-secondary);
+      font-size: 0.8rem;
+      font-weight: 500;
+      padding: 0.45rem 0.85rem;
+      border-radius: 9999px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      transition: all 0.15s ease;
+    }
+
+    .chip-btn:hover {
+      background: var(--bg-surface-hover);
+      color: var(--text-primary);
+      border-color: var(--border-focus);
+    }
+
+    /* Input Bar */
+    .chat-input-container {
+      padding: 1rem 2rem 1.5rem;
+      background: var(--bg-surface);
+      display: flex;
+      gap: 0.75rem;
+      align-items: flex-end;
+    }
+
+    .chat-textarea {
+      flex: 1;
+      background: var(--bg-base);
+      border: 1px solid var(--border-subtle);
+      border-radius: 10px;
+      color: var(--text-primary);
+      padding: 0.85rem 1rem;
+      font-family: var(--font-sans);
+      font-size: 0.9rem;
+      resize: none;
+      min-height: 48px;
+      max-height: 140px;
+      outline: none;
+      transition: border-color 0.15s ease;
+    }
+
+    .chat-textarea:focus {
+      border-color: var(--accent-blue);
+    }
+
+    .send-btn {
+      background: var(--accent-blue);
+      color: #ffffff;
+      border: none;
+      border-radius: 10px;
+      padding: 0.85rem 1.4rem;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.15s ease;
+      height: 48px;
+    }
+
+    .send-btn:hover {
+      background: var(--accent-blue-hover);
+    }
+
+    /* Tab: Registers / Vault View */
+    .vault-view {
+      display: none;
+      padding: 2rem;
+      overflow-y: auto;
+      height: 100%;
+    }
+
+    .vault-container {
+      max-width: 960px;
+      margin: 0 auto;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: 12px;
+      padding: 2rem;
+    }
+
+    .vault-tabs {
+      display: flex;
+      gap: 0.5rem;
+      border-bottom: 1px solid var(--border-subtle);
+      padding-bottom: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .vault-tab-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-secondary);
+      font-size: 0.88rem;
+      font-weight: 600;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .vault-tab-btn.active {
+      background: var(--bg-surface-elevated);
+      color: var(--text-primary);
+    }
+
+    .markdown-content {
+      line-height: 1.7;
+      color: var(--text-primary);
+      font-size: 0.9rem;
+    }
+
+    .markdown-content h1, .markdown-content h2, .markdown-content h3 {
+      color: var(--text-primary);
+      margin: 1.2rem 0 0.6rem;
+      font-weight: 700;
+    }
+
+    .markdown-content pre {
+      background: var(--bg-base);
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      padding: 1rem;
+      overflow-x: auto;
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+      margin: 0.8rem 0;
+    }
+
+    .markdown-content code {
+      font-family: var(--font-mono);
+      background: rgba(255,255,255,0.06);
+      padding: 0.15rem 0.35rem;
+      border-radius: 4px;
+      font-size: 0.85rem;
+    }
+
+    .markdown-content table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+    }
+
+    .markdown-content th, .markdown-content td {
+      border: 1px solid var(--border-subtle);
+      padding: 0.6rem 0.8rem;
+      text-align: left;
+      font-size: 0.85rem;
+    }
+
+    .markdown-content th {
+      background: var(--bg-surface-elevated);
+      color: var(--text-primary);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Header -->
+  <header>
+    <div class="brand-group">
+      <div class="brand-mark">E</div>
+      <div class="brand-text">
+        <h1>Evidura Chief of Staff</h1>
+        <span>Platform: evidura.ai · Engine: DFVA™ · Signal: Durability Rating™</span>
+      </div>
+    </div>
+    <div class="status-pill">
+      <div class="status-dot"></div>
+      <span>ANTIGRAVITY CONNECTED</span>
+    </div>
+  </header>
+
+  <!-- Main Grid -->
+  <main>
+    <!-- Left Navigation Sidebar -->
+    <aside>
+      <div>
+        <div class="section-title">Operational Views</div>
+        <div style="display: flex; flex-direction: column; gap: 0.4rem;">
+          <button class="nav-btn active" onclick="switchView('chat')">
+            <span>💬</span> Executive Console
+          </button>
+          <button class="nav-btn" onclick="switchView('vault', 'decisions')">
+            <span>📜</span> Decision Register (ADRs)
+          </button>
+          <button class="nav-btn" onclick="switchView('vault', 'hypotheses')">
+            <span>🔬</span> Hypothesis Ledger (H0–H4)
+          </button>
+          <button class="nav-btn" onclick="switchView('vault', 'risks')">
+            <span>🎯</span> Risk Radar & Premortems
+          </button>
+          <button class="nav-btn" onclick="switchView('vault', 'stakeholders')">
+            <span>👥</span> Stakeholder Matrix & CRM
+          </button>
+        </div>
+      </div>
+
+      <!-- Live Telemetry Card -->
+      <div>
+        <div class="section-title">Live Venture Telemetry</div>
+        <div class="telemetry-card">
+          <div class="telemetry-item">
+            <span class="telemetry-label">Canonical Reports</span>
+            <span class="telemetry-val" id="telemetry-reports">225</span>
+          </div>
+          <div class="telemetry-item">
+            <span class="telemetry-label">Recorded ADRs</span>
+            <span class="telemetry-val" id="telemetry-decisions">3</span>
+          </div>
+          <div class="telemetry-item">
+            <span class="telemetry-label">Go8 Coverage</span>
+            <span class="telemetry-val" style="color: var(--accent-emerald);">7 Unis Tracked</span>
+          </div>
+          <div class="telemetry-item">
+            <span class="telemetry-label">UoM Queue</span>
+            <span class="telemetry-val" style="color: var(--accent-blue);">Paced Chrome</span>
+          </div>
+          <div class="telemetry-item">
+            <span class="telemetry-label">Trademark Gate</span>
+            <span class="telemetry-val" style="color: var(--accent-gold);">Classes 9/35/41/42</span>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <div class="content-area">
+      <!-- View 1: Chat Console -->
+      <div id="chat-view" class="chat-view">
+        <div id="chat-messages" class="chat-messages">
+          <div class="message agent">
+            <div class="message-meta">
+              <span class="mode-tag">EXECUTIVE BRIEFING</span>
+              <span>Chief of Staff Agent</span>
+            </div>
+            <div class="message-bubble">
+              <p><strong>Welcome, David.</strong> I am your Chief of Staff for the <strong>Evidura</strong> venture (<code>evidura.ai</code>).</p>
+              <br/>
+              <p>I am actively tracking our five core operational pillars: <strong>Venture Strategy & UoM Spinout</strong>, <strong>DFVA Scoring & Reliability</strong>, <strong>Wasp Full-Stack & MCP Server</strong>, <strong>Go8 Scraping Pipelines</strong>, and <strong>Stakeholder Discovery</strong>.</p>
+              <br/>
+              <p>Click any quick action below to run a real-time situational pulse or pressure-test our strategic assumptions.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Action Chips -->
+        <div class="quick-actions">
+          <button class="chip-btn" onclick="sendQuickAction('Run full executive pulse briefing', 'pulse')">
+            📊 Executive Pulse
+          </button>
+          <button class="chip-btn" onclick="sendQuickAction('Red-team our monetization hypothesis H3 against faculty procurement reality', 'adversarial')">
+            ⚔️ Red-Team Monetization (H3)
+          </button>
+          <button class="chip-btn" onclick="sendQuickAction('Run report integrity audit with dfva:check', 'audit')">
+            🔍 Check Report Parity
+          </button>
+          <button class="chip-btn" onclick="sendQuickAction('Check Go8 scraper progress and status', 'go8')">
+            🌐 Go8 Scraper Status
+          </button>
+          <button class="chip-btn" onclick="promptNewDecision()">
+            ✍️ Log New ADR Decision
+          </button>
+        </div>
+
+        <!-- Chat Input Bar -->
+        <div class="chat-input-container">
+          <textarea
+            id="chat-input"
+            class="chat-textarea"
+            placeholder="Ask Chief of Staff for strategic analysis, pipeline execution, or decision logging..."
+            rows="1"
+            onkeydown="handleKeyDown(event)"
+          ></textarea>
+          <button class="send-btn" onclick="sendMessage()">Send</button>
+        </div>
+      </div>
+
+      <!-- View 2: Registers & Vault -->
+      <div id="vault-view" class="vault-view">
+        <div class="vault-container">
+          <div class="vault-tabs">
+            <button class="vault-tab-btn active" id="tab-decisions" onclick="loadVaultTab('decisions')">Decision Register</button>
+            <button class="vault-tab-btn" id="tab-hypotheses" onclick="loadVaultTab('hypotheses')">Hypothesis Ledger</button>
+            <button class="vault-tab-btn" id="tab-risks" onclick="loadVaultTab('risks')">Risk Radar</button>
+            <button class="vault-tab-btn" id="tab-stakeholders" onclick="loadVaultTab('stakeholders')">Stakeholder Matrix</button>
+          </div>
+          <div id="vault-content" class="markdown-content">
+            Loading governance vault...
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    let vaultData = {};
+
+    async function init() {
+      try {
+        const res = await fetch('/api/pulse');
+        if (res.ok) {
+          const data = await res.json();
+          if (data.canonical_reports) {
+            document.getElementById('telemetry-reports').textContent = data.canonical_reports;
+          }
+        }
+      } catch (e) {
+        console.log("Telemetry initialized in local mode.");
+      }
+    }
+
+    function switchView(viewName, vaultTab = 'decisions') {
+      const chatView = document.getElementById('chat-view');
+      const vaultView = document.getElementById('vault-view');
+      const navBtns = document.querySelectorAll('.nav-btn');
+      
+      navBtns.forEach(btn => btn.classList.remove('active'));
+
+      if (viewName === 'chat') {
+        chatView.style.display = 'flex';
+        vaultView.style.display = 'none';
+        navBtns[0].classList.add('active');
+      } else {
+        chatView.style.display = 'none';
+        vaultView.style.display = 'block';
+        loadVaultTab(vaultTab);
+      }
+    }
+
+    async function loadVaultTab(tab) {
+      document.querySelectorAll('.vault-tab-btn').forEach(btn => btn.classList.remove('active'));
+      const activeBtn = document.getElementById(`tab-${tab}`);
+      if (activeBtn) activeBtn.classList.add('active');
+
+      const contentEl = document.getElementById('vault-content');
+      contentEl.innerHTML = '<p>Loading markdown register...</p>';
+
+      try {
+        if (!vaultData.decisions) {
+          const res = await fetch('/api/registers');
+          if (res.ok) {
+            vaultData = await res.json();
+          }
+        }
+
+        const rawMd = vaultData[tab] || `# ${tab.toUpperCase()}\nNo records found.`;
+        contentEl.innerHTML = marked.parse(rawMd);
+      } catch (e) {
+        contentEl.innerHTML = `<p>Error loading register. Ensure <code>python3 scripts/cos-server.py</code> is running.</p>`;
+      }
+    }
+
+    function handleKeyDown(e) {
+      if (e.key === 'Enter' && !e.shiftKey) {
+        e.preventDefault();
+        sendMessage();
+      }
+    }
+
+    async function sendMessage() {
+      const input = document.getElementById('chat-input');
+      const text = input.value.trim();
+      if (!text) return;
+
+      appendMessage('user', text, 'YOU');
+      input.value = '';
+
+      try {
+        const res = await fetch('/api/chat', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ prompt: text, mode: 'general' })
+        });
+
+        if (res.ok) {
+          const data = await res.json();
+          appendMessage('agent', data.content, data.mode || 'Chief of Staff');
+        } else {
+          appendMessage('agent', 'Error connecting to Antigravity backend server.', 'SYSTEM ERROR');
+        }
+      } catch (err) {
+        appendMessage('agent', 'Unable to reach backend gateway at <code>/api/chat</code>. Make sure <code>python3 scripts/cos-server.py</code> is active.', 'CONNECTION ERROR');
+      }
+    }
+
+    function sendQuickAction(promptText, mode) {
+      appendMessage('user', promptText, 'QUICK ACTION');
+      fetch('/api/chat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ prompt: promptText, mode: mode })
+      })
+      .then(res => res.json())
+      .then(data => {
+        appendMessage('agent', data.content, data.mode || 'Executive Command');
+      })
+      .catch(err => {
+        appendMessage('agent', 'Failed to execute quick action. Backend server required.', 'ERROR');
+      });
+    }
+
+    function appendMessage(sender, content, tag) {
+      const messagesContainer = document.getElementById('chat-messages');
+      const msgDiv = document.createElement('div');
+      msgDiv.className = `message ${sender}`;
+
+      const parsedHtml = typeof marked !== 'undefined' ? marked.parse(content) : content;
+
+      msgDiv.innerHTML = `
+        <div class="message-meta">
+          <span class="mode-tag">${tag}</span>
+          <span>${new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</span>
+        </div>
+        <div class="message-bubble">${parsedHtml}</div>
+      `;
+
+      messagesContainer.appendChild(msgDiv);
+      messagesContainer.scrollTop = messagesContainer.scrollHeight;
+    }
+
+    async function promptNewDecision() {
+      const title = prompt("Enter Decision Title (e.g. 'Adopt New Handbook Ingestion Buffer'):");
+      if (!title) return;
+      const context = prompt("Enter Context / Problem:");
+      if (!context) return;
+      const decision = prompt("Enter Decision Taken:");
+      if (!decision) return;
+      const refutation = prompt("Enter Refutation Trigger ('We are wrong if...'):");
+      if (!refutation) return;
+
+      const res = await fetch('/api/decision', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ title, context, decision, refutation })
+      });
+
+      if (res.ok) {
+        appendMessage('agent', `✅ **Successfully recorded new ADR to Decision Register:**\n\n- **Title**: ${title}\n- **Decision**: ${decision}\n- **Refutation Trigger**: ${refutation}`, 'DECISION REGISTER');
+        vaultData = {}; // clear cache
+      }
+    }
+
+    window.onload = init;
+  </script>
+</body>
+</html>
