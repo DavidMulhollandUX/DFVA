@@ -1,0 +1,100 @@
+{
+  "code": "mc-mgmtact",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: assessed collaborative practice recurs systematically across every single accounting and management core subject with individual exam accountability and group presentations. In ACCT90002 Financial Statement Analysis, students collaborate in groups of 4–5 on a 4000-word financial analysis report; in ACCT90010 Strategic Performance Management, teams of 4–5 complete a 5000-word strategic assignment; in ACCT90012 Corporate Reporting, groups deliver a 5000-word corporate reporting report; and in ACCT90014 Auditing, teams deliver a 5000-word assurance project. Level 3 is not met: while teams use modern accounting and spreadsheet tools, formal assessed role-and-tool allocation charters dividing work between human accountants and autonomous AI audit/financial modeling agents are unevidenced.",
+      "evidenceLines": [
+        "ACCT90002 Financial Statement Analysis ... Group assignment (4000 words, in groups of 4-5 students) ... 800-1000 words (each) ... Exam",
+        "ACCT90012 Corporate Reporting ... Group assignment (5000 words, in groups of 4-5 students) ... 1000-1250 words (each) ... Exam",
+        "ACCT90014 Auditing and Assurance Services ... Group assignment (5000 words, in groups of 4-5 students) ... Exam"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: core assessment includes criterion-referenced appraisal of financial statements, corporate reporting disclosures, audit risks, and strategic cost allocations in complex business case studies. In ACCT90002, students critically evaluate corporate financial performance and earnings quality; in ACCT90014, students evaluate internal controls and audit risk evidence; and in ACCT90013, students appraise financial accounting theories and standard-setting choices. Level 3 is not met: no core assessment requires students to document and justify reliance decisions regarding AI-driven audit or tax reconciliation tools, defend judgements of AI financial analysis outputs, or evidence systematic override logs over time.",
+      "evidenceLines": [
+        "ACCT90002 Financial Statement Analysis ... Group assignment (4000 words) ... Exam",
+        "ACCT90014 Auditing and Assurance Services ... Group assignment (5000 words) ... Exam",
+        "ACCT90013 Financial Accounting Theory & Practice ... Group assignment (3000 words) ... Group presentation"
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: core units directly address accounting information systems, internal control frameworks, database structures, quantitative modeling, and IT audit constraints. In ACCT90030 Information Processes & Control, students analyze accounting system architecture, data flows, and internal control frameworks with assessed presentations and assignments; in ECOM90009 Quantitative Methods for Business, students complete quantitative modeling tasks. Level 3 is not met: systemic critique of AI governance in corporate financial reporting, algorithmic audit bias, regulatory data protection (APRA/ASIC), or statutory tax AI governance is not formally assessed in the core.",
+      "evidenceLines": [
+        "ACCT90030 Information Processes & Control ... Individual assignments ... Group presentation (20 minutes, including Q&A)",
+        "ECOM90009 Quantitative Methods for Business ... Group Assignment 1 ... Group Assignment 2 ... Group Written Assignment",
+        "Employ a range of tools of analysis pertinent to the evaluation of evidence in business sector"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: core assessment requires transfer of financial accounting, management accounting, taxation, auditing, and corporate law frameworks across diverse commercial contexts and entity types (from multinational corporate groups in ACCT90012 to assurance engagements in ACCT90014 and tax planning in ACCT90016). Level 3 is not met: the program does not mandate a universal self-scoped research project or assessed identification of one's own accounting capability gaps with an explicit closure plan across every graduation pathway.",
+      "evidenceLines": [
+        "Critically analyse and think strategically in relation to accounting and business analysis issues and problems",
+        "ACCT90012 Corporate Reporting ... Group assignment ... Exam",
+        "ACCT90016 Taxation for Business Decision Making ... Group written assignment ... Exam"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: students design and conduct secondary and empirical financial investigations, analyzing corporate annual reports, auditing internal controls, and testing forensic accounting evidence against regulatory standards in ACCT90002, ACCT90012, ACCT90014, and ACCT90015. Level 3 is not met: no universal mandatory primary-evidence thesis with oral viva defense before an external examination panel is required across the core.",
+      "evidenceLines": [
+        "ACCT90002 Financial Statement Analysis ... Group assignment (4000 words)",
+        "ACCT90012 Corporate Reporting ... Group assignment (5000 words)",
+        "ACCT90014 Auditing and Assurance Services ... Group assignment (5000 words)"
+      ]
+    },
+    "adaptiveness": 10,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: core assessment requires recognised professional accounting genres judged against statutory accounting standards (AASB/IFRS) and professional criteria (CPA/CAANZ). In ACCT90002, students author formal Financial Statement Analysis Reports; in ACCT90014, students produce comprehensive Audit Opinions and Working Papers; in ACCT90016, students author formal Tax Advice Memos; and in ACCT90030, students deliver Accounting Information Control Presentations. Level 3 is not met: presentations and reports in core accounting units are evaluated internally by academic faculty without documented compulsory external audit partner or client panels.",
+      "evidenceLines": [
+        "ACCT90002 Financial Statement Analysis ... Group assignment (4000 words, in groups of 4-5 students)",
+        "ACCT90014 Auditing and Assurance Services ... Group assignment (5000 words)",
+        "ACCT90030 Information Processes & Control ... Group presentation (20 minutes, in groups of 4–5 students, including a Q&A session; all students must present)"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: core assessment reproduces professional accounting, auditing, and financial reporting tasks end-to-end (complex journal entries, group consolidation, materiality threshold testing, audit risk matrix construction, and tax planning in ACCT90002, ACCT90012, ACCT90014, ACCT90016). Resolved downward from level 3 on adversarial verification: case briefs are academically framed from historical financial statements without live externally supplied commercial briefs carrying consequential third-party client constraints in the compulsory core (R4).",
+      "evidenceLines": [
+        "ACCT90002 Financial Statement Analysis ... Group assignment (4000 words)",
+        "ACCT90012 Corporate Reporting ... Group assignment (5000 words)",
+        "ACCT90014 Auditing and Assurance Services ... Group assignment (5000 words)"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1 anchor is met: simulated corporate accounting environments, mock audit engagements, and ERP software labs appear across coursework. Level 2 is unmet: internship and practicum subjects (e.g. BUSA90473, ACCT90029) are elective options rather than a mandatory core requirement for the entire cohort (R1).",
+      "evidenceLines": [
+        "The Master of Management (Accounting) 200 Point (200pt) program consists of sixteen subjects, comprising five foundation subjects, three discipline core subjects, one capstone subject and seven elective subjects",
+        "Accounting electives ... ACCT90029 Accounting Internship",
+        "BUSA90473 Business Practicum ... Elective offering"
+      ]
+    },
+    "workplace": 5,
+    "gates": {
+      "G1": {
+        "status": "PASS",
+        "rationale": "PASS condition is met: the program documents a comprehensive 200-point curriculum accredited by CPA Australia and CAANZ, covering financial accounting, managerial accounting, auditing, taxation, corporate law, quantitative methods, and accounting information systems. Rigorous, coherent professional accounting core."
+      },
+      "G2": {
+        "status": "PASS",
+        "rationale": "PASS condition is met: assessment explicitly requires complex professional accounting judgements under statutory and commercial ambiguity — including assessing going-concern risks and materiality thresholds under incomplete audit evidence in ACCT90014, selecting appropriate revenue recognition and fair-value valuation models under market volatility in ACCT90012/ACCT90013, and navigating complex tax statutory interpretation in ACCT90016."
+      }
+    },
+    "ambiguities": [
+      "C1 straddled 2 and 3: collaborative team accounting projects recur across ACCT90002, ACCT90010, ACCT90012, and ACCT90014 with individual exam hurdles (level 2). Level 3 is unmet because explicit human-AI workflow allocation charters are unevidenced.",
+      "C2 straddled 2 and 3: financial statement appraisal and audit risk evaluation recur across ACCT90002 and ACCT90014 (level 2). Level 3 is unmet because AI audit reliance/override logs are unevidenced.",
+      "C3 straddled 2 and 3: accounting information systems and quantitative modeling are assessed in ACCT90030 and ECOM90009 (level 2). Level 3 AI audit governance/algorithmic bias critique is not formally assessed in the core.",
+      "C4 straddled 2 and 3: multi-domain accounting transfer is assessed across the core (level 2), but self-capability gap tracking is unevidenced. Scored at 2.",
+      "C5 straddled 2 and 3: empirical financial case inquiries satisfy level 2, but oral viva defense under external scrutiny is unevidenced across the core. Scored at 2.",
+      "W1 straddled 2 and 3: professional accounting reports and audit presentations satisfy level 2, but external audit partner panel evaluation is unevidenced across the core. Scored at 2.",
+      "W2 straddled 2 and 3: authentic full-cycle accounting tasks are assessed, but tasks are based on historical case studies without live corporate client briefs. Resolved downward to 2 per R4.",
+      "W3 straddled 1 and 2: accounting internship is an elective option (level 1). Scored at 1 per R1."
+    ]
+  }
+}
