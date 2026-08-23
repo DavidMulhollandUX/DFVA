@@ -63,7 +63,7 @@ describe("reportLinks", () => {
   });
   it("knows which programs carry a v4 score", () => {
     expect(hasV4("mc-mgmthre")).toBe(true);
-    expect(hasV4("b-des")).toBe(false);
+    expect(hasV4("mc-urbhort")).toBe(false);
   });
   it("strips the legacy slug prefix", () => {
     expect(codeFromSlug("dfva-mc-cs")).toBe("mc-cs");

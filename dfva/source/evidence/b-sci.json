@@ -272,5 +272,145 @@
         }
       ]
     }
+  },
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2's anchor — 'At least one core unit assesses collaborative practice — group projects with individual accountability, client or stakeholder work, interprofessional activity' — is met in the program's only compulsory unit. B-SCI mandates '12.5 credit points of Level 1 Compulsory subjects', which is SCIE10005 alone, and that subject's assessment table carries a 40% hurdled 'Group project', matched by its ILO to collaborate in small groups. This clears level 1, whose anchor requires that no core unit assess collaboration. Level 3 is not reached on either conjunct: assessed collaborative practice does not recur across the program (there is exactly one compulsory subject, taken in the first semester), and nothing in the extract assesses coordinating work across people AND tools or AI systems — no documented role-and-tool allocation, no assessed division of labour between people and systems.",
+      "evidenceLines": [
+        "12.5 credit points of Level 1 Compulsory subjects",
+        "SCIE10005\tToday's Science, Tomorrow's World",
+        "Collaborate in small groups to achieve a common goal;",
+        "Group project - students present project based on chosen modules (project presentation may be in variety of forms, poster video, performance etc.)",
+        "Hurdle requirement: Satisfactory completion\tWeek 12\t40%",
+        "Work effectively in groups to meet a shared goal with people whose disciplinary and cultural backgrounds differ from their own"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1's anchor — appraisal appears in outcomes but no core unit assesses it against criteria — is the level the documented evidence supports. The single candidate for level 2's 'structured critique' is SCIE10005's 'Report 2 - Evaluation of scientific paper' (800 words, 20%, hurdled), but neither the task description nor the subject ILO names appraisal of the QUALITY or validity of the work: the ILO evaluates 'the role of science' and the contribution of research 'in addressing social and environmental issues', which is appraisal of significance, not of quality. No criteria, rubric, standard set, exemplar or peer-review component is documented anywhere in the extract, so 'criterion-referenced appraisal of quality' is not established. Evidence straddles 1 and 2; resolved down per the scoring-direction rule. Level 3 is far off — nothing requires students to document and justify reliance decisions, defend judgements of AI-output quality, or evidence strategy adjustment over time.",
+      "evidenceLines": [
+        "Report 2 - Evaluation of scientific paper",
+        "Hurdle requirement: Satisfactory completion\tWeek 10\t20%",
+        "Critically evaluate the role of science and assess scientific research in addressing social and environmental issues;",
+        "Recognise the need for information; effectively search for, evaluate, manage and apply that information in support of scientific investigation or scholarly debate",
+        "Critical thinking and information management: Identifying and evaluating information and ideas from a range of sources; synthesising and conceptualising this information to enable its effective application."
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1's anchor — 'AI or digital tools appear only as electives or as tool operation/training — the operational level TEQSA identifies as non-durable' — describes this program exactly. Every AI-bearing subject in the extract (Artificial Intelligence, Machine Learning, Real and Artificial Neural Networks) sits in the elective Science Discipline subject list, from which students choose; none is compulsory. The only compulsory subject documents no AI or digital content in its ILOs, generic skills or assessment. Level 0 is negated by a program-level outcome claiming students are 'adept with a range of technologies', but that is an outcome statement, not assessment (R2), so it cannot lift the score. Level 2 requires core units addressing AI capabilities AND limitations/ethics with use-with-limits discussed and assessed; no compulsory unit in the extract does either.",
+      "evidenceLines": [
+        "Employ highly developed conceptual, analytical, quantitative and technical skills and are adept with a range of technologies",
+        "COMP30024\tArtificial Intelligence",
+        "COMP30027\tMachine Learning",
+        "NEUR30006\tReal and Artificial Neural Networks",
+        "A full list of subjects available for science credit for the new generation Bachelor of Science course (B-SCI):",
+        "Demonstrate scientific thinking and scientific literacy;"
+      ]
+    },
+    "C4": {
+      "score": 1,
+      "rationale": "Level 1's anchor — 'Transfer is claimed in outcomes (\"apply knowledge in new settings\") but not assessed' — is met precisely: the course outcome claims application of broad knowledge 'across a range of fields' and the generic skill claims problem-solving 'in a range of novel contexts', while the only compulsory subject's assessment (five module quizzes, two 800-word reports, a group presentation) documents no application to novel or unfamiliar problems, so level 2's requirement of at least one core assessment on unseen or cross-context material is unmet. Level 3's route — documented structured progression toward independent learning via a self-scoped capstone or research project, or assessed identification of one's own knowledge gaps with a plan to close them — is also unmet: 'SCIE30001\tScience Research Project' is listed among the elective Science Discipline subjects, not required by the course structure, and no gap-identification task is assessed.",
+      "evidenceLines": [
+        "Apply their broad knowledge of science across a range of fields, with in-depth knowledge in at least one area of study, while demonstrating an understanding of the local and global contexts in which science is practised",
+        "Problem-solving: Applying appropriate methods of research, investigation and design to solve problems in a range of novel contexts.",
+        "5 quizzes addressing Joining Melbourne Modules",
+        "Report 1 - Understanding climate change",
+        "SCIE30001\tScience Research Project"
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 1's anchor — an introductory methods unit with literature-based assessment — is met by the compulsory SCIE10005, whose ILO is to articulate the scientific method and the practices underpinning modern research and whose assessed 'Report 2 - Evaluation of scientific paper' is literature-based appraisal. Level 2 requires students to design and conduct an inquiry with methodology selection and data collection, assessed; no compulsory unit documents this, and the program's own outcome hedges with 'planning and/or conduct', which makes conduct optional and is in any case an outcome, not assessment (R2). The practical/experimental subjects that do assess data collection (the AGRI and ANAT pages in the extract) and the Science Research Project are elective discipline subjects, so the required program does not guarantee them. Level 3 additionally needs a REQUIRED substantial primary-evidence project with methodology defended under scrutiny — absent.",
+      "evidenceLines": [
+        "Articulate the scientific method and explain the principles and practices underpinning modern scientific research;",
+        "Articulate the methods of science and explain why current scientific knowledge is both contestable and testable by further inquiry",
+        "Report 2 - Evaluation of scientific paper",
+        "Apply appropriate methods of research, investigation and design, to solve problems in science, mathematics, technology and/or engineering, including the planning and/or conduct of a significant project, problem or investigation",
+        "SCIE30001\tScience Research Project"
+      ]
+    },
+    "adaptiveness": 6,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1's anchor is matched clause for clause: communication appears in learning outcomes and graduate/generic skills, and core assessment adds a presentation ('Group project - students present project...'), but no professional genre and no audience beyond the teaching team is documented. Barrie's constraint applies with full force here — the course outcome about matching mode of communication to expert and non-expert audiences is a stated attribute, not evidence of an assessed audience. Level 2 requires at least one core assessment in a recognised professional genre (client brief, consultancy or policy advice, clinical handover, pitch, public-facing artefact) or before an audience beyond the teaching team, judged against criteria drawn from professional practice: the compulsory assessments are quizzes and reports plus a class-facing presentation whose recipients and criteria are not documented. Level 0 is negated because spoken/presented communication is assessed.",
+      "evidenceLines": [
+        "Communicate clearly and convincingly about science and technology ideas, practice and future contributions to expert and non-expert audiences, matching the mode of communication to their audience.",
+        "Effectively communicate the scientific issues pertinent to climate change and sustainability to a variety of audiences.",
+        "Ability to present scientific information to a range of audiences",
+        "Group project - students present project based on chosen modules (project presentation may be in variety of forms, poster video, performance etc.)",
+        "Report 1 - Understanding climate change"
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Level 1's anchor — 'Contextualised or scenario-framed tasks appear... but the artefact produced and the criteria applied remain academic' — fits the compulsory core. The tasks are framed on a live issue (climate change and sustainability, technical discussion of it) rather than being bare exams or problem sets, which negates level 0's 'entirely decontextualised... no situational framing'. But the artefacts are an 800-word report, a paper evaluation, module quizzes and a class presentation, all pass/fail, and none is the artefact a practising scientist produces for a practice recipient. Level 2 requires at least one core assessment reproducing a professional task end to end, judged against criteria drawn from practice — no such task, context, result form or criterion set is documented (R4: the subject's framing language about tackling real challenges is not scoreable; only documented task features are).",
+      "evidenceLines": [
+        "Report 1 - Understanding climate change",
+        "Report 2 - Evaluation of scientific paper",
+        "5 quizzes addressing Joining Melbourne Modules",
+        "Group project - students present project based on chosen modules (project presentation may be in variety of forms, poster video, performance etc.)",
+        "Engage in technical discussions concerning climate change and sustainability;",
+        "This subject is marked on a pass/fail basis and is not included in the weighted average mark (WAM) calculation."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1's anchor — 'Work-situated learning exists only as an elective, an optional internship' — is exactly what the course structure documents: a single 'Internship' heading in the elective Science Discipline subject list carrying 'SCIE30002\tScience and Technology Internship'. Level 0 is negated because that internship does appear in the course structure. Level 2's placement route requires a CORE unit placing students in a real workplace or professional-community setting with practitioner supervision and assessment; the program's only compulsory unit is a first-semester on-campus subject, so no placement is required of any student. The v4.2 in-practice route does not apply: nothing in the extract documents this cohort as already practising in a profession (it is an undergraduate entry degree), so there is no own-practice activity to assess.",
+      "evidenceLines": [
+        "Internship",
+        "SCIE30002\tScience and Technology Internship",
+        "12.5 credit points of Level 1 Compulsory subjects",
+        "SCIE10005\tToday's Science, Tomorrow's World"
+      ]
+    },
+    "workplace": 3,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The PASS condition allows 'a staged prerequisite chain' as an alternative to an all-compulsory specialist core, and the course structure documents one: completion of one Major is mandatory, disciplinary depth is staged by mandated minima that rise across levels (62.5 points at Level 1, 62.5 at Level 2, 75 at Level 3), and progression rules gate movement between levels in both directions. Two majors additionally carry external professional accreditation (ACS, APAC). This is not the FAIL condition of 'generic or interchangeable content without disciplinary identity' — the 225-point science component must resolve into a named major with a Level 3 weighting. The caveat is recorded in ambiguities: the majors pages are not in the extract, so the internal core of any major is undocumented and this PASS rests on the course-level rules alone.",
+        "evidenceLines": [
+          "Completion of one Major",
+          "A minimum of 62.5 credit points of Level 1 discipline subjects",
+          "A minimum of 62.5 credit points of Level 2 discipline subjects",
+          "A minimum of 75 credit points of Level 3 discipline subjects",
+          "Completion of at least 50 points of Level 1 study before proceeding to the next subject year level is normally required.",
+          "Completion of at least 50 points of Level 2 study before proceeding to the next subject year level is normally required.",
+          "Australian Computer Society (ACS)",
+          "Australian Psychology Accreditation Council (APAC)"
+        ]
+      },
+      "G2": {
+        "result": "FAIL",
+        "rationale": "The PASS condition requires assessments demanding defended trade-off decisions, or simulations/capstones/live projects with real uncertainty and accountability. Nothing required of every student meets it: the program's only compulsory subject assesses five module quizzes, two 800-word reports and a group presentation, all marked as satisfactory-completion hurdles on a pass/fail subject, with no documented trade-off to defend and no accountability beyond the teaching team. The capstone-type subjects that would satisfy the gate appear in the extract only as elective discipline subjects — 'AGRI30038\tProfessional Practice for Agriculture' is described as a capstone, but it is one option on the science subject menu, not a course requirement. Recorded as an ambiguity: the gate is failed on the documented required curriculum, and the majors pages that might contain a required capstone were not captured.",
+        "evidenceLines": [
+          "5 quizzes addressing Joining Melbourne Modules",
+          "Report 1 - Understanding climate change",
+          "Report 2 - Evaluation of scientific paper",
+          "Group project - students present project based on chosen modules (project presentation may be in variety of forms, poster video, performance etc.)",
+          "AGRI30038\tProfessional Practice for Agriculture",
+          "This capstone subject provides students with the opportunity to apply the theoretical and practical knowledge acquired during their Bachelor of Agriculture degree or Bachelor of Science (Agricultural Science major) to analysis of large-scale challenges confronting agricultural industries."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C2 straddled levels 1 and 2. 'Report 2 - Evaluation of scientific paper' is a named, weighted, hurdled core assessment and could be read as level 2's 'structured critique'; but the paired ILO appraises the ROLE of science and research's contribution to social and environmental issues rather than the quality or validity of the work, and no criteria, rubric or standard is documented, so 'criterion-referenced appraisal of quality' is not established. Resolved DOWN to 1 by the scoring-direction rule. This is the single most likely item to move on rescore if the SCIE10005 assessment rubric were captured.",
+      "W2 straddled levels 0 and 1. Level 0 requires assessment to be 'entirely decontextualised'; the compulsory tasks are topic-framed on climate change and sustainability and the group project may be delivered as poster, video or performance, which is more than a bare exam/essay set. Resolved UP to 1 only because level 0's condition is affirmatively negated by that framing, not by any claim of authenticity (R4). Whether topic framing counts as 'situational framing' is the open question.",
+      "C1 level 2's anchor names 'group projects with individual accountability' as its exemplar; SCIE10005's group project documents no individual accountability component. Scored 2 anyway because level 1's condition ('no core unit assesses it') is falsified — the exemplar qualifier does not gate the anchor's main clause.",
+      "One-construct-one-home checks made: the SCIE10005 group presentation was scored for coordination in C1 and for audience/genre in W1 without double counting the same feature; the 'Evaluation of scientific paper' task was weighed for appraisal in C2 and for literature-based methods in C5, and the paper-quality reading was not reused to lift C5; 'SCIE30002 Science and Technology Internship' was scored only in W3, never in C1 or C4.",
+      "G1 PASS rests on course-level structural rules (required major, staged level minima, progression rules, two accredited majors) because the majors/specialisations pages are not in the extract. If a major's internal structure proved generic, this gate would be re-examined.",
+      "G2 FAIL is recorded against the documented REQUIRED curriculum. Capstone and project subjects capable of satisfying the gate exist in the extract (AGRI30038, and Science Research Project) but only as electives; a required capstone inside a major would change the result."
+    ],
+    "notScoreable": [
+      "Major-level core assessment is absent from the extract. The captured pages cover the course rules, the course outcomes, the full elective Science Discipline subject menu, the sole compulsory subject SCIE10005, and a sample of elective subject/assessment pages (AGRI, ANAT, BTCH). The 'Majors, minors and specialisations' pages were not captured, so the assessment design of the 225-credit-point discipline component — where a student's capstone, research project, laboratory inquiry and any work-integrated learning would actually sit — is undocumented. C4, C5, W2, W3 and gate G2 are therefore scored against what the single compulsory subject documents, and each of them would be the first to move if the major structures were captured.",
+      "No item was left unscored: every C and W item had at least outcome-level or structure-level evidence in the extract."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-23"
+    }
   }
 }

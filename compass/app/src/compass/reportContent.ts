@@ -212,7 +212,10 @@ import r205 from "./reportContent/dfva-v4-recommend-080cl";
 import r206 from "./reportContent/dfva-v4-recommend-080cn";
 import r207 from "./reportContent/dfva-v4-recommend-244cw";
 import r208 from "./reportContent/dfva-v4-recommend-300bb";
-import r209 from "./reportContent/dfva-v4-recommend-mc-mgmthre";
+import r209 from "./reportContent/dfva-v4-recommend-b-des";
+import r210 from "./reportContent/dfva-v4-recommend-b-sci";
+import r211 from "./reportContent/dfva-v4-recommend-dr-philedp";
+import r212 from "./reportContent/dfva-v4-recommend-mc-mgmthre";
 
 export const REPORT_CONTENT: Record<
   string,
@@ -427,5 +430,8 @@ export const REPORT_CONTENT: Record<
   "dfva-v4-recommend-080cn": r206,
   "dfva-v4-recommend-244cw": r207,
   "dfva-v4-recommend-300bb": r208,
-  "dfva-v4-recommend-mc-mgmthre": r209,
+  "dfva-v4-recommend-b-des": r209,
+  "dfva-v4-recommend-b-sci": r210,
+  "dfva-v4-recommend-dr-philedp": r211,
+  "dfva-v4-recommend-mc-mgmthre": r212,
 };

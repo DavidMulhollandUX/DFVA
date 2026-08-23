@@ -222,6 +222,9 @@ export const REPORT_CONTENT_LOADERS: Record<
   "dfva-v4-recommend-080cn": () => import("./dfva-v4-recommend-080cn"),
   "dfva-v4-recommend-244cw": () => import("./dfva-v4-recommend-244cw"),
   "dfva-v4-recommend-300bb": () => import("./dfva-v4-recommend-300bb"),
+  "dfva-v4-recommend-b-des": () => import("./dfva-v4-recommend-b-des"),
+  "dfva-v4-recommend-b-sci": () => import("./dfva-v4-recommend-b-sci"),
+  "dfva-v4-recommend-dr-philedp": () => import("./dfva-v4-recommend-dr-philedp"),
   "dfva-v4-recommend-mc-mgmthre": () => import("./dfva-v4-recommend-mc-mgmthre"),
 };
 

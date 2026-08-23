@@ -853,6 +853,28 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "note": "union of 6 \"Bachelor of Commerce (…)\" records"
     }
   },
+  "dr-philedp": {
+    "code": "dr-philedp",
+    "name": "Master of Psychology (Educational and Developmental)/Doctor of Philosophy",
+    "hasMarketReport": true,
+    "exposure": 95.57,
+    "entryExposure": 93.63,
+    "jirN": 47,
+    "nTitles": 15,
+    "nMedium": 13,
+    "exposureBasis": {
+      "tier": "partial",
+      "grain": "related-program",
+      "sources": [
+        {
+          "name": "Master of Applied Psychology",
+          "n": 47
+        }
+      ],
+      "indexVariant": "AIOE-2021",
+      "note": "Professional psychology stream; same program-family record the reconciliation package used for 527cl."
+    }
+  },
   "mc-mgmthre": {
     "code": "mc-mgmthre",
     "name": "Master of Management (Human Resources)",
@@ -1390,6 +1412,150 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     ],
     "indexVariant": "AIOE-2021",
     "note": "union of 6 \"Bachelor of Commerce (…)\" records"
+  },
+  "b-des": {
+    "tier": "pooled",
+    "grain": "program-family",
+    "sources": [
+      {
+        "name": "Bachelor of Design (Architecture)",
+        "n": 248
+      },
+      {
+        "name": "Bachelor of Design (Construction)",
+        "n": 97
+      },
+      {
+        "name": "Bachelor of Design (Graphic Design)",
+        "n": 90
+      },
+      {
+        "name": "Bachelor of Design (Property)",
+        "n": 47
+      },
+      {
+        "name": "Bachelor of Design (Urban Planning)",
+        "n": 33
+      },
+      {
+        "name": "Bachelor of Design (User Experience Design)",
+        "n": 28
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "union of 6 \"Bachelor of Design (…)\" records"
+  },
+  "b-sci": {
+    "tier": "pooled",
+    "grain": "program-family",
+    "sources": [
+      {
+        "name": "Bachelor of Science (Animal Health And Disease)",
+        "n": 68
+      },
+      {
+        "name": "Bachelor of Science (Biochemistry and Molecular",
+        "n": 141
+      },
+      {
+        "name": "Bachelor of Science (Biotechnology)",
+        "n": 113
+      },
+      {
+        "name": "Bachelor of Science (Chemistry)",
+        "n": 318
+      },
+      {
+        "name": "Bachelor of Science (Computing And Software",
+        "n": 328
+      },
+      {
+        "name": "Bachelor of Science (Data Science)",
+        "n": 212
+      },
+      {
+        "name": "Bachelor of Science (Ecology And Evolutionary",
+        "n": 48
+      },
+      {
+        "name": "Bachelor of Science (Environmental Science)",
+        "n": 90
+      },
+      {
+        "name": "Bachelor of Science (Food Science)",
+        "n": 99
+      },
+      {
+        "name": "Bachelor of Science (Genetics)",
+        "n": 112
+      },
+      {
+        "name": "Bachelor of Science (Geology)",
+        "n": 46
+      },
+      {
+        "name": "Bachelor of Science (Human Structure and",
+        "n": 154
+      },
+      {
+        "name": "Bachelor of Science (Mathematical Physics)",
+        "n": 56
+      },
+      {
+        "name": "Bachelor of Science (Mathematics and Statistics)",
+        "n": 122
+      },
+      {
+        "name": "Bachelor of Science (Microbiology)",
+        "n": 54
+      },
+      {
+        "name": "Bachelor of Science (Neuroscience)",
+        "n": 373
+      },
+      {
+        "name": "Bachelor of Science (Pathology)",
+        "n": 57
+      },
+      {
+        "name": "Bachelor of Science (Pharmacology)",
+        "n": 154
+      },
+      {
+        "name": "Bachelor of Science (Physics)",
+        "n": 189
+      },
+      {
+        "name": "Bachelor of Science (Physiology)",
+        "n": 439
+      },
+      {
+        "name": "Bachelor of Science (Psychology)",
+        "n": 351
+      },
+      {
+        "name": "Bachelor of Science (Veterinary Bioscience)",
+        "n": 34
+      },
+      {
+        "name": "Bachelor of Science (Zoology)",
+        "n": 92
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "union of 23 \"Bachelor of Science (…)\" records"
+  },
+  "dr-philedp": {
+    "tier": "partial",
+    "grain": "related-program",
+    "sources": [
+      {
+        "name": "Master of Applied Psychology",
+        "n": 47
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "Professional psychology stream; same program-family record the reconciliation package used for 527cl."
   },
   "mc-apbusa": {
     "tier": "partial",
@@ -6152,6 +6318,454 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "adversarial": true,
       "mechanical": true,
       "date": "2026-08-18"
+    }
+  },
+  "b-des": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 1,
+      "rationale": "Level 1 anchor (demoted from 2 on adversarial verification): collaboration/teamwork appears in learning outcomes but no core unit is documented to assess it. Level 2 requires 'At least one CORE unit assesses collaborative practice', and the extract documents no compulsory subject at all: the course-structure page's only requirements are credit-point minima by level, 'Completion of between one and two prescribed majors', and the non-credit Joining Melbourne modules. All sixteen captured subject pages — including ABPL10005, CONS10001, ABPL20036 and ARCH20002, which carry the group assessment cited for level 2 — sit beneath the heading 'Electives', governed by 'Electives are chosen from any subject offered within the Bachelor of Design.' The 'Majors, minors and specialisations' page was not captured, so no subject can be shown to be core, and unlike b-com (pigeonhole over a forced 4-of-7 Foundation pool) or b-agr ('four Level 1 Degree Core subjects') no completion-path argument is available. This is the same cohort convention already applied in b-agr C2, b-com C2 and b-arts C1: elective evidence cannot lift a core-scored item. Level 1 fits exactly — collaboration is stated in the generic skills ('Work collaboratively and productively in groups and across disciplines;') with no core assessment of it. Resolved down per the scoring-direction rule.",
+      "evidenceLines": [
+        "Work collaboratively and productively in groups and across disciplines;",
+        "Site and Team Member Details Summary (as a group), listing group members and summarising details of selected bulding projects to be observed",
+        "Final Site Observation Report (as a group), describing the observation of building projects in order to demonstrate an understanding of the people, roles, materials, equipment, processes and issues involved in the construction of buildings",
+        "Group Assignment - a collaborative group task where students develop and communicate the design of a structural system.",
+        "Assignment 1: Mapping and Analysis Group work with individual component and oral presentation, demonstrating site analysis and design responses that may include physical or digital models, drawings, written assignments, site analyses, journals and sketches of design ideas",
+        "Completion of between one and two prescribed majors",
+        "Electives are chosen from any subject offered within the Bachelor of Design. Prerequisites for some subjects will apply. Please check subject Handbook entries for prerequisite requirements."
+      ],
+      "instrument": "4.2-draft"
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1 anchor (demoted from 2 on adversarial verification), on three independent grounds, any one sufficient. (a) No criterion-referencing is documented anywhere: the strings 'criteri' (criteria/criterion), 'rubric', 'exemplar' and 'peer review' appear zero times in the 100,592-character extract, and the four hits for 'standard' are all ILO or subject-overview prose. Level 2 demands 'criterion-referenced appraisal of quality: peer review, structured critique, portfolio with standards, marking against exemplars', so the anchor's defining qualifier is unsupported. (b) The 'Individual review (critique)' tasks (ARCH10003 ×3, ARCH20001 ×3, ARCH20002) are the student's own design output being reviewed BY a panel; nothing documents the student appraising the quality of work, which is the C2 construct. The 'Critical Portfolio' is documented only as 'summarising and reflecting on each week of the subject' — no standards. ARCH20003's 'Design research and interpretation exercise' is a research task; reading it as appraisal of disciplinary works is inference beyond the documented line. (c) The core-unit defect described under C1 applies verbatim — every subject named sits in the Electives listing. Level 1 fits: critical evaluation appears in the generic skills ('Critically evaluate new ideas, research findings, methodologies and theoretical frameworks in their discipline; and') with no core unit assessing it against criteria.",
+      "evidenceLines": [
+        "Critically evaluate new ideas, research findings, methodologies and theoretical frameworks in their discipline; and",
+        "Assignment 1: Individual review (critique) and oral presentation, demonstrating design output that may include physical or digital models, drawings, written assignments, site analyses, journals and sketches.",
+        "Assignment 1: Critical Portfolio: summarising and reflecting on each week of the subject (personal assignment).",
+        "Identify, analyse and appraise ideas in architecture texts, drawings, films and buildings.",
+        "Design research and interpretation exercise",
+        "Apply critical thinking to the assessment of design proposals, and to make changes and improvements based on that assessment through iterative design processes;",
+        "Design Journal, completed throughout semester, based on themes developed through the lectures."
+      ],
+      "instrument": "4.2-draft"
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1's anchor — 'AI or digital tools appear only as electives or as tool operation/training — the operational level TEQSA identifies as non-durable' — describes this extract exactly. Digital content is pervasive but operational: prescribed drafting, modelling, image and layout software; digital fabrication; 'Ability to integrate digital tools into the design generation and design development processes'. The only AI-named subjects in the extract (COMP30024 Artificial Intelligence, COMP30027 Machine Learning) sit in the elective listing under a structure page whose only rule is that 'Electives are chosen from any subject offered within the Bachelor of Design'. Level 2 requires units that address AI capabilities AND limitations/ethics with use-with-limits assessed; no unit in the extract addresses AI capabilities or limitations at all. ARCH20004's critical reflection on how tools shape outcomes is the closest approach and is genuinely tool-critical, but it concerns design tools generally, not AI capability, limitation, ethics or governance — resolved down per the ambiguity rule. Level 0 is ruled out because digital content is plainly present. Upheld on adversarial verification.",
+      "evidenceLines": [
+        "Use appropriate technologies;",
+        "by demonstrating skills and use of technologies to enable production of designed outcomes appropriate to the relevant discipline; and",
+        "Ability to integrate digital tools into the design generation and design development processes",
+        "Critically reflect on and discuss digital and physical artefacts, and their role in design processes and techniques.",
+        "Electives are chosen from any subject offered within the Bachelor of Design. Prerequisites for some subjects will apply. Please check subject Handbook entries for prerequisite requirements.",
+        "COMP30024\tArtificial Intelligence",
+        "COMP30027\tMachine Learning"
+      ],
+      "instrument": "4.2-draft"
+    },
+    "C4": {
+      "score": 1,
+      "rationale": "Level 1 anchor (demoted from 2 on adversarial verification): transfer is claimed in outcomes but no core assessment requires it. The transfer task is real in content — ABPL20035's 30% poster genuinely transposes an international planning case to Melbourne — but ABPL20035 appears only in the 'Electives' listing, as do ABPL20036 and ABPL20033, so level 2's 'At least one CORE assessment requires application to novel or unfamiliar problems' is unmet (the core-unit defect set out under C1; the original submission already conceded it when denying level 3). Level 0 is falsified: the sequence is not fixed and transfer content plainly exists. Level 1 is satisfied by the course-level claim ('through the application of knowledge of the local and global contexts in which their discipline is practised') and the generic skills ('Engage confidently in self-directed study and research;', 'Capacity to tackle unfamiliar problems') without a documented core assessment of transfer.",
+      "evidenceLines": [
+        "Poster on how lessons from an international planning success story can be applied to Melbourne - 500 words plus illustrations",
+        "Assignment 3: Final report that characterises the life cycle environmental performance and indoor environmental quality of a case study house, internationally (group assignment)",
+        "Engage confidently in self-directed study and research;",
+        "Capacity to tackle unfamiliar problems",
+        "Completion of at least 50 points of Level 1 study before proceeding to the next subject year level.",
+        "Electives are chosen from any subject offered within the Bachelor of Design. Prerequisites for some subjects will apply. Please check subject Handbook entries for prerequisite requirements.",
+        "ABPL30061\tLandscape Capstone Studio"
+      ],
+      "instrument": "4.2-draft"
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 1's anchor — 'Introductory methods unit; literature-review assessment' — fits: research and essay-based inquiry is assessed across ARCH20003, LARC10001 and PROP10001, and the only named methods subject (PLAN30003 Research Methods for Planners) sits in the elective listing. Level 2 requires students to 'design and conduct an inquiry with methodology selection and data collection, assessed', and only the second leg is documented: primary data collection is genuinely assessed (site-observation reports, a field-study catalogue, photo-based observation studies), but in every case the method is prescribed by the task and no assessment documents students selecting a methodology or designing the inquiry. That straddle is resolved downward per the scoring-direction rule. Level 3 is not in contention: no substantial required primary-evidence project with methodology defended under scrutiny appears anywhere in the extract. Upheld on adversarial verification — C5's level-2 anchor carries no 'core' clause, so the elective defect is not the operative ground here; the missing methodology-selection leg is.",
+      "evidenceLines": [
+        "Final Site Observation Report (as a group), describing the observation of building projects in order to demonstrate an understanding of the people, roles, materials, equipment, processes and issues involved in the construction of buildings",
+        "Assignment 3: Catalogue from field study (individual)",
+        "Written and sketched site observation report",
+        "Test hypotheses related to urban outcomes by identifying and interpreting economic data relevant to land and property markets.",
+        "Assessment 2: Report comparing the outcomes of land and property markets for cities.",
+        "Research, structure, argue and cite academic inquiry in written tasks at an undergraduate standard.",
+        "PLAN30003\tResearch Methods for Planners"
+      ],
+      "instrument": "4.2-draft"
+    },
+    "adaptiveness": 5,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1 anchor (demoted from 2 on adversarial verification): communication is claimed in outcomes and assessment adds presentation to peers and staff, but no professional genre is judged against documented practice criteria. Level 2 requires a professional genre or external audience 'judged against criteria drawn from professional practice', and that clause is refuted directly — 'criteri' occurs zero times in the extract, and every assessment table in all sixteen captured subjects is description/timing/percentage only, with no criteria stated for any task. The original submission conceded exactly this ('level 2's qualifier ... is not stated anywhere in the extract; I read it as inherent to a job-interview task. Had I required the criteria to be documented explicitly, this would be 1'); R4 forbids that inference (score only documented task features, never the task's framing) and the scoring-direction rule forbids resolving the straddle upward. Independently, ABPL20036 (the technical interview) sits in the Electives listing, so the 'core assessment' clause fails too. Level 0 is falsified, not level 1: communication is claimed in the ILOs and spoken assessment is documented throughout, including a 40% hurdle oral presentation.",
+      "evidenceLines": [
+        "Assignment 4: Technical interview for an environmental sustainability designer position in an international firm (personal assignment), 20 minutes.",
+        "Present, substantiate and advocate a design proposal in a public setting, and appropriately respond to constructive critique;",
+        "Assignment 3: Living Neighbourhood and Living House – Final Oral Presentation",
+        "Hurdle requirement: Participation in the oral presentation is a hurdle requirement. Presenting only part of this assessment, or presenting on an irrelevant topic will not meet this hurdle requirement\tWeek 14\t40%",
+        "through communicating clearly and convincingly about design, technology, practice and future contributions to expert and non-expert audiences.",
+        "Electives are chosen from any subject offered within the Bachelor of Design. Prerequisites for some subjects will apply. Please check subject Handbook entries for prerequisite requirements."
+      ],
+      "instrument": "4.2-draft"
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Level 1 anchor (demoted from 2 on adversarial verification): situational and scenario framing is pervasive — studio briefs on a designated Melbourne site, an international case-study house, given case studies — while the documented artefacts remain academic and no criteria drawn from practice are documented. Level 2's two qualifying clauses both fail. (a) No criteria appear anywhere in the extract (zero 'criteri' hits; assessment tables carry description/timing/percentage only), so 'judged against criteria drawn from practice' is unsupported. (b) The practice-standards evidence relied on — 'Understanding and awareness of design standards associated with residential typology ... parking requirements, disability standard, design requirement for ageing population;' — is not an assessment specification: it sits in ARCH20002's OVERVIEW under 'this studio will focus on the development of the following set of specific design skills', i.e. an outcome statement, which R2 bars from carrying an assessment-dependent claim. (c) The core clause fails as under C1, which the original submission already conceded when denying level 3's spine leg — the same concession disposes of level 2's 'core assessment'. Per R4 the ABPL20036 claim that the subject 'emulates industry tasks' is ignored. This restores consistency with the comparable broad bachelor's degrees, all at W2=1 (b-agr, b-com, b-arts).",
+      "evidenceLines": [
+        "Design to the specifics of the brief, understand and incorporate site and landscape interface",
+        "Understanding and awareness of design standards associated with residential typology (e.g. stairs, bathroom, kitchen, courtyard/backyard, roof system, storage system, parking requirements, disability standard, design requirement for ageing population);",
+        "Assignment 3: Final report that characterises the life cycle environmental performance and indoor environmental quality of a case study house, internationally (group assignment)",
+        "Assignment 3 :Craft - A portfolio of creative works including storyboards, montages, 3D modelling and associated process work.",
+        "225 credit points of Design subjects including",
+        "Completion of between one and two prescribed majors",
+        "Electives are chosen from any subject offered within the Bachelor of Design. Prerequisites for some subjects will apply. Please check subject Handbook entries for prerequisite requirements."
+      ],
+      "instrument": "4.2-draft"
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1's anchor — 'Work-situated learning exists only as an elective, an optional internship, or an unassessed extracurricular or careers activity' — is exactly what the course structure documents: ABPL30068 Design Internship, ABPL30064 Humanitarian Design Internship and ABPL30044 Industry Partner project Studio all appear in the elective listing governed by the rule that electives are freely chosen, and no core requirement names any of them. Level 2 would require a core unit placing students in a real workplace or professional-community setting with practitioner supervision and assessment; the strongest candidate, ABPL10005, offers 'Construction site visits and industry professionals' as demonstration of theory, which is a field visit rather than supervised participation, and its assessed report observes building projects from outside rather than joining a community of practice. The in-practice route does not apply: nothing documents this cohort as already practising in the profession. Level 0 is ruled out because internships and an industry-partner studio do appear in the course structure. Upheld on adversarial verification — level 1's anchor carries no core dependency, so the program-wide elective defect does not disturb it.",
+      "evidenceLines": [
+        "ABPL30068\tDesign Internship",
+        "ABPL30064\tHumanitarian Design Internship\tNot available in 2026\t12.5",
+        "ABPL30044\tIndustry Partner project Studio",
+        "Electives are chosen from any subject offered within the Bachelor of Design. Prerequisites for some subjects will apply. Please check subject Handbook entries for prerequisite requirements.",
+        "Students will have access to site visits, field trips, subjects taught by world renowned academics and industry-based practitioners, participation in classes with real-world design briefs, and advanced fabrication technologies. Graduates of the Bachelor of Design with the skills to enter the workforce directly, go on to graduate study and then enter a profession or to a research higher degree.",
+        "Construction site visits and industry professionals provide a real-world demonstration of the theories and principles covered."
+      ],
+      "instrument": "4.2-draft"
+    },
+    "workplace": 3,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "UPHELD on adversarial verification. The gate passes on its 'staged prerequisite chain' route rather than the all-compulsory-core route. The structure page mandates completion of one to two prescribed majors, imposes graduated Level 1/2/3 credit-point minima and bars progression to the next year level without 50 points at the level below; individual subjects document explicit prerequisite dependency (ARCH20004 on ARCH10001) and the listing carries numbered technical sequences (Architectural Technologies 1: Place → 2: Analyse → 3: Implement; Design Studio Alpha → Beta → Gamma → Delta → Epsilon). Professional accreditation by the Australian Computer Society applies to one major. The FAIL anchor is 'generic or interchangeable content without disciplinary identity', which all of the above contradicts. This is genuinely the weak end of PASS: the specialist depth resides in the prescribed major, whose compulsory subject list was never captured, and at course level the requirement is credit-point-based with all listed subjects presented as electives.",
+        "evidenceLines": [
+          "Completion of between one and two prescribed majors",
+          "A minimum of 75 credit points of Level 3 discipline subjects",
+          "Completion of at least 50 points of Level 1 study before proceeding to the next subject year level.",
+          "This subject builds on the knowledge and skills learnt through its prerequisite “Foundations of Design: Representation” by introducing students to contemporary design-enabling approaches and techniques.",
+          "Australian Computer Society (ACS)",
+          "Graduates of a Bachelor of Design will have a broad and coherent body of knowledge of design as a concept, with depth in the underlying principles and concepts of at least one discipline in the areas of built environments, performing and visual arts, engineering, and relevant technologies as a basis for independent lifelong learning."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "UPHELD on adversarial verification, but re-grounded. The FAIL anchor is 'recall or scripted responses only', and the extract documents assessed defended-decision tasks, not merely stated outcomes: ARCH20002's 40% hurdle final oral presentation of a design proposal, three weighted 'Individual review (critique) and oral presentation' points across ARCH10003 and ARCH20001, and ABPL20036's 50% technical interview. The design studios are open-ended speculative projects on real sites with genuine uncertainty, where a proposal is formulated, tested and defended rather than recalled. Noted for the record: five of the six evidence lines originally cited for this gate are ILOs rather than assessment tasks (evaluating alternative design and construction systems, selecting structural systems against performance and sustainability, iterative speculative design, developing and evaluating solutions to urban problems) — the PASS holds on the assessment lines above, not on those. Examinations and quizzes also carry substantial weight in several subjects, but they do not exhaust the assessment.",
+        "evidenceLines": [
+          "Assignment 3: Living Neighbourhood and Living House – Final Oral Presentation",
+          "Hurdle requirement: Participation in the oral presentation is a hurdle requirement. Presenting only part of this assessment, or presenting on an irrelevant topic will not meet this hurdle requirement\tWeek 14\t40%",
+          "Assignment 1: Individual review (critique) and oral presentation, demonstrating design output that may include physical or digital models, drawings, written assignments, site analyses, journals and sketches.",
+          "Assignment 4: Technical interview for an environmental sustainability designer position in an international firm (personal assignment), 20 minutes.",
+          "Present, substantiate and advocate for design proposals in a public setting, and accept critique in a constructive manner;",
+          "Employ the iterative processes of production, review, incorporation and resolution, to formulate a conceptual design proposal that is tested and developed as a speculative design proposition;"
+        ]
+      }
+    },
+    "ambiguities": [
+      "Program-wide, and decisive for every anchor containing the words 'core unit' or 'core assessment': the course structure page documents no compulsory subject at all. Its requirements are credit-point minima by level plus 'Completion of between one and two prescribed majors' plus the non-credit Joining Melbourne modules, and all sixteen subjects whose pages were captured appear beneath the 'Electives' heading, governed by 'Electives are chosen from any subject offered within the Bachelor of Design.' The 'Majors, minors and specialisations' page was not captured. On adversarial verification this defect was applied consistently rather than selectively: it caps C1, C2, C4, W1 and W2 at level 1, not merely W2's and C4's level-3 routes. Unlike b-com (pigeonhole over a forced 4-of-7 Foundation pool) or b-agr ('four Level 1 Degree Core subjects'), no completion-path argument reaches any subject here.",
+      "No criterion-referencing is documented anywhere in the 100,592-character extract: 'criteri' (criteria/criterion), 'rubric', 'exemplar' and 'peer review' return zero hits, and every assessment table across all sixteen subjects is description/timing/percentage only. This independently defeats the level-2 anchors of C2, W1 and W2, each of which requires judgement against stated criteria or standards.",
+      "C2 straddled 1 and 2 on two readings, both resolved down. ARCH20001's outcome 'Apply critical thinking to the assessment of design proposals, and to make changes and improvements based on that assessment through iterative design processes' plus the semester-long Design Journal approaches level 3's strategy-adjustment route, but the iteration language is an outcome (R2) and the journal is described only as 'based on themes developed through the lectures'. Separately, the 'Individual review (critique)' tasks are the student's work being reviewed by a panel, not the student appraising quality — the wrong direction for the C2 construct.",
+      "C3 straddled 1 and 2. ARCH20004 documents genuine tool-criticality — a 'critical awareness of the relationship between design tools and outcomes' tested through reflective writing, and an assessed outcome to 'Critically reflect on and discuss digital and physical artefacts, and their role in design processes and techniques.' That is not AI capabilities and limitations/ethics, which is what level 2 names. Resolved down.",
+      "C5 straddled 1 and 2. Assessed primary data collection is real (ABPL10005 site observation reports at 50%, LARC10001 field-study catalogue, PLAN10002 site observation report), and ABPL20033 has students 'calculate how buildings perform'. Level 2 also requires methodology selection, which no assessment documents — every method is prescribed by the task. Resolved down per the scoring-direction rule. Note that C5's level-2 anchor carries no 'core' clause, so this item turns on the methodology-selection gap alone.",
+      "W1 was the least secure score in the submission and was demoted on the scorer's own stated grounds. The ABPL20036 technical interview is unambiguously a professional genre, but level 2's qualifier 'judged against criteria drawn from professional practice' is nowhere in the extract; the submission read it as inherent to a job-interview task and flagged that 'had I required the criteria to be documented explicitly, this would be 1'. R4 bars inference from task framing and the scoring-direction rule bars upward resolution.",
+      "W2's level-3 practice-constraint leg was argued from ARCH20002's residential design standards, but that text sits in the subject OVERVIEW under 'this studio will focus on the development of the following set of specific design skills' — an outcome statement, not an assessment specification, so R2 bars it from carrying either the level-3 or the level-2 claim. If the prescribed majors' compulsory studio sequences and their assessment criteria were captured, W2 would need re-examination.",
+      "G1 is a genuine weak PASS. The FAIL anchor ('generic or interchangeable content without disciplinary identity') is clearly contradicted by the mandated prescribed majors, the graduated credit minima with progression bars, the documented ARCH20004-on-ARCH10001 prerequisite, the numbered studio and technology sequences and ACS accreditation — but the specialist depth all resides in a prescribed major whose subject list was never captured.",
+      "G2 passes on assessed defended-decision tasks (the 40% hurdle oral presentation, the weighted individual critiques, the 50% technical interview), not on the ILO lines originally cited, five of six of which are outcome statements rather than assessment tasks.",
+      "Boundary calls made under 'one construct, one home': the internship and industry-partner elective evidence was scored only in W3, never in C1 or C4; the studio critique/review evidence was considered as appraisal of quality in C2 and as professional genre in W1 without double-counting the same leg; ARCH20002's group work was considered in C1 and its design-standards language in W2."
+    ],
+    "notScoreable": [
+      "No item was left unscored and none was dropped for unquotable evidence — all five C items and all three W items had sufficient quoted evidence in the extract to place at a level. The entries below record coverage gaps that capped specific items, not items that could not be scored.",
+      "Coverage gap, decisive: the compulsory subject lists for the prescribed majors are absent from the extract (the 'Majors, minors and specialisations' page was not captured), so no subject in the extract can be shown to be core. This caps C1, C2, C4, W1 and W2 at level 1.",
+      "Coverage gap: no assessment criteria, rubrics or marking standards appear for any task in any of the sixteen captured subjects — assessment tables carry description, timing and percentage only. This independently caps C2, W1 and W2.",
+      "Coverage gap: no assessment pages were captured for any Level 3 design studio (ARCH30001 Design Studio Delta, ARCH30002 Design Studio Epsilon) or for any capstone in the listing (ABPL30061, GEOM30012, ABPL30074), so the level-3 routes for C4 (self-scoped capstone or research project) and W2 (capstone plus earlier scaffolding) could not be checked against assessment evidence.",
+      "Coverage gap: no assessment page was captured for ABPL30068 Design Internship or ABPL30044 Industry Partner project Studio, so W3's level-2 and level-3 supervision, assessment and reflection requirements could not be examined; the item rests on their elective status in the course structure, which is sufficient for level 1 regardless."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-23"
+    }
+  },
+  "b-sci": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2's anchor — 'At least one core unit assesses collaborative practice — group projects with individual accountability, client or stakeholder work, interprofessional activity' — is met in the program's only compulsory unit. B-SCI mandates '12.5 credit points of Level 1 Compulsory subjects', which is SCIE10005 alone, and that subject's assessment table carries a 40% hurdled 'Group project', matched by its ILO to collaborate in small groups. This clears level 1, whose anchor requires that no core unit assess collaboration. Level 3 is not reached on either conjunct: assessed collaborative practice does not recur across the program (there is exactly one compulsory subject, taken in the first semester), and nothing in the extract assesses coordinating work across people AND tools or AI systems — no documented role-and-tool allocation, no assessed division of labour between people and systems.",
+      "evidenceLines": [
+        "12.5 credit points of Level 1 Compulsory subjects",
+        "SCIE10005\tToday's Science, Tomorrow's World",
+        "Collaborate in small groups to achieve a common goal;",
+        "Group project - students present project based on chosen modules (project presentation may be in variety of forms, poster video, performance etc.)",
+        "Hurdle requirement: Satisfactory completion\tWeek 12\t40%",
+        "Work effectively in groups to meet a shared goal with people whose disciplinary and cultural backgrounds differ from their own"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1's anchor — appraisal appears in outcomes but no core unit assesses it against criteria — is the level the documented evidence supports. The single candidate for level 2's 'structured critique' is SCIE10005's 'Report 2 - Evaluation of scientific paper' (800 words, 20%, hurdled), but neither the task description nor the subject ILO names appraisal of the QUALITY or validity of the work: the ILO evaluates 'the role of science' and the contribution of research 'in addressing social and environmental issues', which is appraisal of significance, not of quality. No criteria, rubric, standard set, exemplar or peer-review component is documented anywhere in the extract, so 'criterion-referenced appraisal of quality' is not established. Evidence straddles 1 and 2; resolved down per the scoring-direction rule. Level 3 is far off — nothing requires students to document and justify reliance decisions, defend judgements of AI-output quality, or evidence strategy adjustment over time.",
+      "evidenceLines": [
+        "Report 2 - Evaluation of scientific paper",
+        "Hurdle requirement: Satisfactory completion\tWeek 10\t20%",
+        "Critically evaluate the role of science and assess scientific research in addressing social and environmental issues;",
+        "Recognise the need for information; effectively search for, evaluate, manage and apply that information in support of scientific investigation or scholarly debate",
+        "Critical thinking and information management: Identifying and evaluating information and ideas from a range of sources; synthesising and conceptualising this information to enable its effective application."
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1's anchor — 'AI or digital tools appear only as electives or as tool operation/training — the operational level TEQSA identifies as non-durable' — describes this program exactly. Every AI-bearing subject in the extract (Artificial Intelligence, Machine Learning, Real and Artificial Neural Networks) sits in the elective Science Discipline subject list, from which students choose; none is compulsory. The only compulsory subject documents no AI or digital content in its ILOs, generic skills or assessment. Level 0 is negated by a program-level outcome claiming students are 'adept with a range of technologies', but that is an outcome statement, not assessment (R2), so it cannot lift the score. Level 2 requires core units addressing AI capabilities AND limitations/ethics with use-with-limits discussed and assessed; no compulsory unit in the extract does either.",
+      "evidenceLines": [
+        "Employ highly developed conceptual, analytical, quantitative and technical skills and are adept with a range of technologies",
+        "COMP30024\tArtificial Intelligence",
+        "COMP30027\tMachine Learning",
+        "NEUR30006\tReal and Artificial Neural Networks",
+        "A full list of subjects available for science credit for the new generation Bachelor of Science course (B-SCI):",
+        "Demonstrate scientific thinking and scientific literacy;"
+      ]
+    },
+    "C4": {
+      "score": 1,
+      "rationale": "Level 1's anchor — 'Transfer is claimed in outcomes (\"apply knowledge in new settings\") but not assessed' — is met precisely: the course outcome claims application of broad knowledge 'across a range of fields' and the generic skill claims problem-solving 'in a range of novel contexts', while the only compulsory subject's assessment (five module quizzes, two 800-word reports, a group presentation) documents no application to novel or unfamiliar problems, so level 2's requirement of at least one core assessment on unseen or cross-context material is unmet. Level 3's route — documented structured progression toward independent learning via a self-scoped capstone or research project, or assessed identification of one's own knowledge gaps with a plan to close them — is also unmet: 'SCIE30001\tScience Research Project' is listed among the elective Science Discipline subjects, not required by the course structure, and no gap-identification task is assessed.",
+      "evidenceLines": [
+        "Apply their broad knowledge of science across a range of fields, with in-depth knowledge in at least one area of study, while demonstrating an understanding of the local and global contexts in which science is practised",
+        "Problem-solving: Applying appropriate methods of research, investigation and design to solve problems in a range of novel contexts.",
+        "5 quizzes addressing Joining Melbourne Modules",
+        "Report 1 - Understanding climate change",
+        "SCIE30001\tScience Research Project"
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 1's anchor — an introductory methods unit with literature-based assessment — is met by the compulsory SCIE10005, whose ILO is to articulate the scientific method and the practices underpinning modern research and whose assessed 'Report 2 - Evaluation of scientific paper' is literature-based appraisal. Level 2 requires students to design and conduct an inquiry with methodology selection and data collection, assessed; no compulsory unit documents this, and the program's own outcome hedges with 'planning and/or conduct', which makes conduct optional and is in any case an outcome, not assessment (R2). The practical/experimental subjects that do assess data collection (the AGRI and ANAT pages in the extract) and the Science Research Project are elective discipline subjects, so the required program does not guarantee them. Level 3 additionally needs a REQUIRED substantial primary-evidence project with methodology defended under scrutiny — absent.",
+      "evidenceLines": [
+        "Articulate the scientific method and explain the principles and practices underpinning modern scientific research;",
+        "Articulate the methods of science and explain why current scientific knowledge is both contestable and testable by further inquiry",
+        "Report 2 - Evaluation of scientific paper",
+        "Apply appropriate methods of research, investigation and design, to solve problems in science, mathematics, technology and/or engineering, including the planning and/or conduct of a significant project, problem or investigation",
+        "SCIE30001\tScience Research Project"
+      ]
+    },
+    "adaptiveness": 6,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1's anchor is matched clause for clause: communication appears in learning outcomes and graduate/generic skills, and core assessment adds a presentation ('Group project - students present project...'), but no professional genre and no audience beyond the teaching team is documented. Barrie's constraint applies with full force here — the course outcome about matching mode of communication to expert and non-expert audiences is a stated attribute, not evidence of an assessed audience. Level 2 requires at least one core assessment in a recognised professional genre (client brief, consultancy or policy advice, clinical handover, pitch, public-facing artefact) or before an audience beyond the teaching team, judged against criteria drawn from professional practice: the compulsory assessments are quizzes and reports plus a class-facing presentation whose recipients and criteria are not documented. Level 0 is negated because spoken/presented communication is assessed.",
+      "evidenceLines": [
+        "Communicate clearly and convincingly about science and technology ideas, practice and future contributions to expert and non-expert audiences, matching the mode of communication to their audience.",
+        "Effectively communicate the scientific issues pertinent to climate change and sustainability to a variety of audiences.",
+        "Ability to present scientific information to a range of audiences",
+        "Group project - students present project based on chosen modules (project presentation may be in variety of forms, poster video, performance etc.)",
+        "Report 1 - Understanding climate change"
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Level 1's anchor — 'Contextualised or scenario-framed tasks appear... but the artefact produced and the criteria applied remain academic' — fits the compulsory core. The tasks are framed on a live issue (climate change and sustainability, technical discussion of it) rather than being bare exams or problem sets, which negates level 0's 'entirely decontextualised... no situational framing'. But the artefacts are an 800-word report, a paper evaluation, module quizzes and a class presentation, all pass/fail, and none is the artefact a practising scientist produces for a practice recipient. Level 2 requires at least one core assessment reproducing a professional task end to end, judged against criteria drawn from practice — no such task, context, result form or criterion set is documented (R4: the subject's framing language about tackling real challenges is not scoreable; only documented task features are).",
+      "evidenceLines": [
+        "Report 1 - Understanding climate change",
+        "Report 2 - Evaluation of scientific paper",
+        "5 quizzes addressing Joining Melbourne Modules",
+        "Group project - students present project based on chosen modules (project presentation may be in variety of forms, poster video, performance etc.)",
+        "Engage in technical discussions concerning climate change and sustainability;",
+        "This subject is marked on a pass/fail basis and is not included in the weighted average mark (WAM) calculation."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1's anchor — 'Work-situated learning exists only as an elective, an optional internship' — is exactly what the course structure documents: a single 'Internship' heading in the elective Science Discipline subject list carrying 'SCIE30002\tScience and Technology Internship'. Level 0 is negated because that internship does appear in the course structure. Level 2's placement route requires a CORE unit placing students in a real workplace or professional-community setting with practitioner supervision and assessment; the program's only compulsory unit is a first-semester on-campus subject, so no placement is required of any student. The v4.2 in-practice route does not apply: nothing in the extract documents this cohort as already practising in a profession (it is an undergraduate entry degree), so there is no own-practice activity to assess.",
+      "evidenceLines": [
+        "Internship",
+        "SCIE30002\tScience and Technology Internship",
+        "12.5 credit points of Level 1 Compulsory subjects",
+        "SCIE10005\tToday's Science, Tomorrow's World"
+      ]
+    },
+    "workplace": 3,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The PASS condition allows 'a staged prerequisite chain' as an alternative to an all-compulsory specialist core, and the course structure documents one: completion of one Major is mandatory, disciplinary depth is staged by mandated minima that rise across levels (62.5 points at Level 1, 62.5 at Level 2, 75 at Level 3), and progression rules gate movement between levels in both directions. Two majors additionally carry external professional accreditation (ACS, APAC). This is not the FAIL condition of 'generic or interchangeable content without disciplinary identity' — the 225-point science component must resolve into a named major with a Level 3 weighting. The caveat is recorded in ambiguities: the majors pages are not in the extract, so the internal core of any major is undocumented and this PASS rests on the course-level rules alone.",
+        "evidenceLines": [
+          "Completion of one Major",
+          "A minimum of 62.5 credit points of Level 1 discipline subjects",
+          "A minimum of 62.5 credit points of Level 2 discipline subjects",
+          "A minimum of 75 credit points of Level 3 discipline subjects",
+          "Completion of at least 50 points of Level 1 study before proceeding to the next subject year level is normally required.",
+          "Completion of at least 50 points of Level 2 study before proceeding to the next subject year level is normally required.",
+          "Australian Computer Society (ACS)",
+          "Australian Psychology Accreditation Council (APAC)"
+        ]
+      },
+      "G2": {
+        "result": "FAIL",
+        "rationale": "The PASS condition requires assessments demanding defended trade-off decisions, or simulations/capstones/live projects with real uncertainty and accountability. Nothing required of every student meets it: the program's only compulsory subject assesses five module quizzes, two 800-word reports and a group presentation, all marked as satisfactory-completion hurdles on a pass/fail subject, with no documented trade-off to defend and no accountability beyond the teaching team. The capstone-type subjects that would satisfy the gate appear in the extract only as elective discipline subjects — 'AGRI30038\tProfessional Practice for Agriculture' is described as a capstone, but it is one option on the science subject menu, not a course requirement. Recorded as an ambiguity: the gate is failed on the documented required curriculum, and the majors pages that might contain a required capstone were not captured.",
+        "evidenceLines": [
+          "5 quizzes addressing Joining Melbourne Modules",
+          "Report 1 - Understanding climate change",
+          "Report 2 - Evaluation of scientific paper",
+          "Group project - students present project based on chosen modules (project presentation may be in variety of forms, poster video, performance etc.)",
+          "AGRI30038\tProfessional Practice for Agriculture",
+          "This capstone subject provides students with the opportunity to apply the theoretical and practical knowledge acquired during their Bachelor of Agriculture degree or Bachelor of Science (Agricultural Science major) to analysis of large-scale challenges confronting agricultural industries."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C2 straddled levels 1 and 2. 'Report 2 - Evaluation of scientific paper' is a named, weighted, hurdled core assessment and could be read as level 2's 'structured critique'; but the paired ILO appraises the ROLE of science and research's contribution to social and environmental issues rather than the quality or validity of the work, and no criteria, rubric or standard is documented, so 'criterion-referenced appraisal of quality' is not established. Resolved DOWN to 1 by the scoring-direction rule. This is the single most likely item to move on rescore if the SCIE10005 assessment rubric were captured.",
+      "W2 straddled levels 0 and 1. Level 0 requires assessment to be 'entirely decontextualised'; the compulsory tasks are topic-framed on climate change and sustainability and the group project may be delivered as poster, video or performance, which is more than a bare exam/essay set. Resolved UP to 1 only because level 0's condition is affirmatively negated by that framing, not by any claim of authenticity (R4). Whether topic framing counts as 'situational framing' is the open question.",
+      "C1 level 2's anchor names 'group projects with individual accountability' as its exemplar; SCIE10005's group project documents no individual accountability component. Scored 2 anyway because level 1's condition ('no core unit assesses it') is falsified — the exemplar qualifier does not gate the anchor's main clause.",
+      "One-construct-one-home checks made: the SCIE10005 group presentation was scored for coordination in C1 and for audience/genre in W1 without double counting the same feature; the 'Evaluation of scientific paper' task was weighed for appraisal in C2 and for literature-based methods in C5, and the paper-quality reading was not reused to lift C5; 'SCIE30002 Science and Technology Internship' was scored only in W3, never in C1 or C4.",
+      "G1 PASS rests on course-level structural rules (required major, staged level minima, progression rules, two accredited majors) because the majors/specialisations pages are not in the extract. If a major's internal structure proved generic, this gate would be re-examined.",
+      "G2 FAIL is recorded against the documented REQUIRED curriculum. Capstone and project subjects capable of satisfying the gate exist in the extract (AGRI30038, and Science Research Project) but only as electives; a required capstone inside a major would change the result."
+    ],
+    "notScoreable": [
+      "Major-level core assessment is absent from the extract. The captured pages cover the course rules, the course outcomes, the full elective Science Discipline subject menu, the sole compulsory subject SCIE10005, and a sample of elective subject/assessment pages (AGRI, ANAT, BTCH). The 'Majors, minors and specialisations' pages were not captured, so the assessment design of the 225-credit-point discipline component — where a student's capstone, research project, laboratory inquiry and any work-integrated learning would actually sit — is undocumented. C4, C5, W2, W3 and gate G2 are therefore scored against what the single compulsory subject documents, and each of them would be the first to move if the major structures were captured.",
+      "No item was left unscored: every C and W item had at least outcome-level or structure-level evidence in the extract."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-23"
+    }
+  },
+  "dr-philedp": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is met: a core unit assesses collaborative practice with individual accountability — Working with Groups carries a group oral presentation weighted per student plus an individual reflection, and Consultation in Educational Settings assesses a consultation package produced for an organisation with 'Deliver a consultation in a team' among its outcomes. Not level 3: the level-3 anchor additionally requires at least one assessment where work is coordinated across people AND tools/AI systems (documented role and tool allocation, or the human/system division of labour itself assessed) and nothing in the extract assesses tool or system allocation. Interprofessional collaboration also appears in the course outcomes and in the practicum overviews, but outcome statements cannot lift the level (R2) and the practicum evidence is homed in W3 per the one-construct-one-home rule.",
+      "evidenceLines": [
+        "Group oral presentation demonstrating basic group management skills (15 minutes in total; weighted at 15% per student), and individual written reflection (250 words; 5%)",
+        "A consultation package to an organisation in the form of a program that addresses contemporary issues of concern to the educational system",
+        "Deliver a consultation in a team;",
+        "Consult and collaborate with colleagues, including those from other professions, and coordinate programs for meeting developmental needs, in keeping with principles of inter-professional learning and practice",
+        "Apply an interdisciplinary collaborative approach in working with people with exceptional needs;"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2 anchor is met: core assessment includes criterion-referenced appraisal of the quality of work — Counselling Skills assesses a transcript-and-analysis essay and a taped interview judged for 'competence in the counselling skills taught in the program' with a 500-word reflective analysis attached, and Learning Processes and Supports assesses an 'Evaluation of Intervention' against the unit's stated requirement to critically assess effectiveness and limitations. Not level 3: the level-3 anchor requires assessment that documents and justifies reliance decisions (when a tool, source or collaborator was relied on or overridden), defends judgements of AI-output quality, or evidences strategy adjustment over time. The nearest candidate — selecting and evaluating assessment instruments and integrating diverse data sources in clinical decision-making — is a Psychological Tests learning outcome, and the matching assessment lines ('Written report', 'Learning tasks') do not document a reliance-justification requirement, so R2 bars the ceiling.",
+      "evidenceLines": [
+        "Taped counselling interview demonstrating competence in the counselling skills taught in the program (30-40 minutes; 2500 word equivalent) and a 500 word reflective analysis",
+        "Essay incorporating transcript and analysis of a recorded interview",
+        "Written Assignment: Evaluation of Intervention",
+        "Employ a variety of diagnostic methods to identify specific learning disorders and critically assess the effectiveness and limitations of each approach.",
+        "Select and evaluate appropriate assessment instruments for particular presenting issues, integrate diverse sources of psychological data for diagnostic and assessment purposes in the process of clinical decision-making.",
+        "observe and evaluate the contribution of group members in therapy groups;"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Not level 0 — digital content exists in a core unit: Learning Processes and Supports states a digital-literacy outcome covering critical evaluation and ethical use of technology tools. But that unit's two assessment lines are 'Written Assignment: Evaluation of Intervention' and 'Written Assignment: Report', neither of which documents digital or AI content, so under R2 a capability that appears in outcomes but is never assessed scores 1 uniformly. The only other digital evidence is tool operation — data management and analysis using computer software in the Research Methods laboratory component — which the level-1 anchor names explicitly as the non-durable operational level. Level 2 would require core units addressing AI capabilities AND limitations/ethics with use-with-limits assessed; no AI content of any kind appears in the extract.",
+      "evidenceLines": [
+        "Demonstrate digital literacy by critically evaluating and ethically utilising technology tools for diagnosing, reporting, and communicating about learning differences, ensuring responsible and effective practice.",
+        "Written Assignment: Evaluation of Intervention",
+        "Written Assignment: Report",
+        "Practical aspects of data management and data analysis using computer software are included in the laboratory component.",
+        "Datasets relevant to the practice of educational and developmental psychology are analysed in exercises where students practice statistical and qualitative analysis and interpretation."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3 anchor is met with assessment evidence, not an outcome statement: the program documents a structured progression toward independent learning across three assessed stages — Research Methods requires students to plan an independent enquiry and assesses a 2500-word Research Proposal at 50%; the year-2 Research Proposal subject is assessed 100% on a 5000-word student-scoped thesis proposal prepared under supervision that must state its own research questions and justify the topic; and the PhD thesis follows. That is the 'self-scoped capstone or research project' route, documented and assessed rather than claimed. Level 2 (application to novel problems) is also satisfied but is subsumed. Placement evidence was deliberately excluded here per the one-construct-one-home rule.",
+      "evidenceLines": [
+        "Plan an independent enquiry in psychology and education.",
+        "The student will prepare under supervision a thesis proposal, providing a clear indication of the nature and purpose of the research to be undertaken in the thesis. The proposal should contain:",
+        "a justification of why the chosen topic is a worthwhile one to research;",
+        "Research proposal",
+        "5000 words",
+        "Extend their capacity to evaluate research literature in educational psychology in order to make informed decisions about the conduct of independent enquiries in psychology and education."
+      ]
+    },
+    "C5": {
+      "score": 3,
+      "rationale": "Level 3 anchor is met: a substantial primary-evidence project is REQUIRED rather than one route among several — the course structure states the combined degree requires the coursework plus a PhD thesis, and the course lists the thesis in years 2 through 5. Methodology is defended under staged supervised review: the Research Proposal subject is assessed 100% on a proposal that must contain a critical discussion of the proposed methodology and its appropriateness for the research questions, prepared under supervision, with Research Methods assessing methodology selection and data analysis beforehand. Level 2 (design and conduct an inquiry, assessed) is cleared by Research Methods alone; the required thesis plus the supervised methodology defence lifts it to 3.",
+      "evidenceLines": [
+        "The Master of Psychology (Educational and Developmental)/Doctor of Philosophy requires the successful completion of 162.5 credit points of coursework, and a PhD thesis.",
+        "a critical discussion of the research methodology proposed, showing its appropriateness for answering the research question(s); and",
+        "Select and use appropriate data analysis techniques to address specific research questions.",
+        "An integrated approach to research in the field of educational and developmental psychology. The interdependence of quantitative and qualitative methods, measurement, design, and analysis is emphasised.",
+        "Report"
+      ]
+    },
+    "adaptiveness": 11,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is met: core assessment requires recognised professional genres — Psychological Tests assesses a written report against the outcome of creating client-focused psycho-educational psychological reports on contemporary frameworks, and Consultation in Educational Settings assesses a consultation package written for an organisation, both practitioner genres rather than academic ones. Held at 2, not 3, because the level-3 anchor requires at least one core assessment delivered to or judged by a real external audience or practitioner with professional conduct explicitly among the assessed criteria; the only evidence that would satisfy that is the field-placement host-supervisor judgement, which is placement evidence and is homed in W3 under the one-construct-one-home rule. Every non-placement communication task in the extract is marked by the teaching team or presented to peers (group oral presentation, live test-administration demonstration, taped interview). Conduct language ('Demonstrate professional conduct as a psychologist') appears in generic-skills lists, which Barrie forbids scoring (R2).",
+      "evidenceLines": [
+        "Create client focused psycho-educational psychological reports that are based on contemporary frameworks.",
+        "Written report",
+        "A consultation package to an organisation in the form of a program that addresses contemporary issues of concern to the educational system",
+        "Compose reports to other professionals, parents, and organisations",
+        "Group oral presentation demonstrating basic group management skills (15 minutes in total; weighted at 15% per student), and individual written reflection (250 words; 5%)",
+        "Demonstrate professional, effective written and oral communication."
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3 anchor is met on documented task features, not on any 'authentic' or 'work-ready' label (R4). Professional-fidelity tasks are the assessment spine rather than a single instance: Psychological Tests assesses a 20-minute live demonstration of test administration plus the psycho-educational report a practitioner would write; Counselling Skills assesses a 30-40 minute taped counselling interview; Consultation assesses a consultation package for an organisation; and case presentations recur in year 2 and year 3. At least one carries a genuine constraint of practice in the anchor's 'profession's own standards of performance' sense: the OSCE must reach a satisfactory standard in each component consistent with APAC Level 3 competencies, and the case presentation must address APAC Level 4 competencies. Simulation is scored here, not in W3, per the W3 construct note; the field-placement hours and supervisor sign-off are excluded from this item and scored in W3.",
+      "evidenceLines": [
+        "20-minute Live demonstration of test administration",
+        "Taped counselling interview demonstrating competence in the counselling skills taught in the program (30-40 minutes; 2500 word equivalent) and a 500 word reflective analysis",
+        "Objective Structured Clinical Examination (OSCE)",
+        "To pass, students must achieve a satisfactory standard in each component of the Observed Structured Clinical Exam consistent with the competencies expected at Level 3 of the APAC standards.",
+        "To pass, students must present a case study during a group supervision case conference. The case study must address competencies expected at Level 4 of the APAC standards.",
+        "A consultation package to an organisation in the form of a program that addresses contemporary issues of concern to the educational system"
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3 anchor is met on the placement route: four field practicums totalling 50 credit points are compulsory core across years 1 to 3 (180, 220, 300 and 300 hours), each a real workplace setting with practitioner supervision. They are assessed — the host supervisor judges attainment of APAC professional competencies as a pass/fail hurdle — and accountability to the host is documented through fortnightly logbook endorsement, a placement proposal, a mid-placement review and an end-of-placement student evaluation, with 100% placement attendance as a hurdle. Structured reflection on professional practice is assessed through the supervision requirement in Practicum 1. This is a required sequence, not a single short placement, so level 2's 'short or stands alone' qualifier does not apply.",
+      "evidenceLines": [
+        "Four field practicums (totalling 50 points of coursework); and",
+        "Field placement: The assessment is undertaken by the host supervisor, in consultation with the Placement Coordinator, based on satisfactory attainment of professional graduate Level 3 competencies against Australian Psychology Accreditation Council standards. Completion of placement goals are assessed on a pass/fail basis.",
+        "300 hours",
+        "220 hours",
+        "180 hours",
+        "Student logbooks are checked and endorsed by the host supervisor AT LEAST every fortnight. Formative feedback is provided by the host supervisor in the logbook.",
+        "Students are required to complete a placement proposal at the commencement of placement; a mid-placement review where formative feedback is provided in consultation with the host supervisor; and a student evaluation of placement at the conclusion.",
+        "Hurdle requirement: 100% attendance on all placement days.",
+        "Demonstrate preparedness for supervision sessions and apply reflective practice during the process of supervision;"
+      ]
+    },
+    "workplace": 8,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "An all-compulsory specialist core in a fixed sequence, externally accredited: ten core subjects plus four field practicums plus a thesis are mandatory, the handbook fixes the order of study, and the sequence is accredited by APAC and recognised by the Psychology Board of Australia. Content is disciplinary throughout (psychological tests, exceptionality, counselling, intervention, development, consultation), not generic or interchangeable, and depth progresses from Practicum 1 to Practicum 4 and from Research Methods to the Research Proposal and thesis.",
+        "evidenceLines": [
+          "To obtain the combined degree, candidates must complete:",
+          "Ten core subjects (totalling 112.5 credit points of coursework);",
+          "Four field practicums (totalling 50 points of coursework); and",
+          "Students undertake the following subjects in this order:",
+          "This course is accredited by the Australian Psychology Accreditation Council (APAC), and recognised by the Australian Health Practitioner Regulation Agency, Psychology Board of Australia (PsyBA)."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Assessment requires defended judgement under real uncertainty rather than recall or scripted response: the OSCE and live test-administration demonstration are performance assessments judged against APAC competency standards; Working with Groups assesses a written analysis of a selected problem interpreting its genesis, maintenance and possible solution; Psychological Tests requires selecting and evaluating instruments and integrating diverse data sources in clinical decision-making; and the Research Proposal must justify the chosen methodology's appropriateness. Placements add live accountability with real clients and a pass/fail supervisor judgement.",
+        "evidenceLines": [
+          "Written analysis of a selected problem and an interpretation of its genesis, maintenance and possible solution in systemic terms",
+          "Select and evaluate appropriate assessment instruments for particular presenting issues, integrate diverse sources of psychological data for diagnostic and assessment purposes in the process of clinical decision-making.",
+          "To pass, students must achieve a satisfactory standard in each component of the Observed Structured Clinical Exam consistent with the competencies expected at Level 3 of the APAC standards.",
+          "a critical discussion of the research methodology proposed, showing its appropriateness for answering the research question(s); and",
+          "apply an intervention (while on field practicum) in a systematic manner to a major problem of childhood and adolescence;"
+        ]
+      }
+    },
+    "ambiguities": [
+      "W1 straddled 2 and 3. The level-3 route (an assessment judged by a real practitioner, with conduct among the criteria) is satisfied only by the field-placement host-supervisor judgement and the practicum conduct requirement ('Students are required to conduct themselves in an autonomous professional manner'). One-construct-one-home puts placement evidence in W3, and the ambiguity rule resolves downward, so W1 stands at 2 on non-placement professional genres alone.",
+      "C1 straddled 2 and 3 only if practicum interprofessional work were counted ('Consult and collaborate with colleagues, including those from other professions'). Placement evidence is barred from C1 explicitly, and no tool/AI coordination is assessed anywhere, so 2 stands.",
+      "C2 straddled 2 and 3. 'Select and evaluate appropriate assessment instruments for particular presenting issues, integrate diverse sources of psychological data for diagnostic and assessment purposes in the process of clinical decision-making.' is a reliance-decision construct, but it is a learning outcome and the matching Psychological Tests assessment lines do not require the decision to be documented and justified. R2 and the downward rule resolved it to 2.",
+      "C3 straddled 1 and 2. The digital-literacy outcome in Learning Processes and Supports names critical evaluation and ethical use, which is level-2 content, but that unit's assessment lines are two generic written assignments with no documented digital component. R2 caps it at 1.",
+      "W2's case presentations sit inside practicum subjects. They were scored in W2 as professional-genre task fidelity, distinct from the field-placement hours and supervisor sign-off scored in W3; the OSCE is simulation and the instrument assigns simulation to W2 explicitly.",
+      "C4 and C5 both draw on the research sequence. They were separated by construct: C4 scores the documented progression to self-scoped independent work (Research Methods proposal to the 5000-word supervised thesis proposal), C5 scores the required primary-evidence project and its methodology defence.",
+      "W3's 300-hour figures appear as bare lines in the assessment tables ('300 hours', '220 hours', '180 hours') adjacent to the field-placement descriptions; they were read as the hours requirement of those placements, which the additional-details note ('attendance for the required number of hours') supports."
+    ],
+    "notScoreable": [
+      "The PhD thesis component itself carries no assessment description in the extract — the structure pages show 'EDUC80001' with 'No longer available' for years 2 to 5 and point offsite ('Detailed information on the thesis is available at Graduate Research Hub'). C5's level-3 'defended under scrutiny' was therefore scored on the assessed Research Proposal as a staged supervised review, not on any thesis examination or viva, which the extract does not document.",
+      "No AI content of any kind (capabilities, limitations, governance, ethics of gen AI) appears anywhere in the extract, so C3's level-2 and level-3 anchors had no evidence to test beyond the single digital-literacy outcome."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-23"
     }
   },
   "mc-apbusa": {
