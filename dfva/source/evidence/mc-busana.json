@@ -1,7 +1,7 @@
 {
   "code": "mc-busana",
   "panelCv4": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2's anchor — 'at least one core unit assesses collaborative practice — group projects with individual accountability' — is met many times over: syndicate assignments and projects are weighted assessment in Programming Foundations, Business Data Platforms, Decision Making and Optimisation, Statistical Learning, Causal Analytics, Predictive Analytics, Machine Learning & AI, NLP, Marketing Analytics, Supply Chain and Risk Analytics, and the Prof Dev route adds a group-work hurdle. Level 3 is not reached because its second conjunct is undocumented: no assessment in the extract requires coordinating work across people AND tools/AI systems, and no task allocates roles and tools or assesses the division of work between people and systems. Collaboration recurs, but the human-plus-tool coordination the anchor names is absent from every assessment description.",
