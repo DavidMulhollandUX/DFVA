@@ -35,17 +35,27 @@
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS — LOW CONFIDENCE
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
-| Role / Career Stage | Entry | Mid | Senior |
-|---|---|---|---|
-| School leadership (Principal class) | N/A (not an entry-level EdD pathway) | AU$140K–180K | AU$180K–260K+ |
-| Education policy / system strategy | N/A | AU$120K–160K | AU$170K–230K |
-| Academic development / higher-ed leadership | N/A | AU$130K–170K | AU$180K–250K+ |
-| Applied research / evaluation leadership | N/A | AU$110K–150K | AU$150K–200K |
-| Professional learning / instructional coaching | N/A | AU$110K–145K | AU$140K–180K |
+**What these sources are.** Australian Institute for Teaching and School Leadership ([AITSL](https://www.aitsl.edu.au/)), Australian Council for Educational Research ([ACER](https://www.acer.org/au)), Australian Curriculum, Assessment and Reporting Authority ([ACARA](https://www.acara.edu.au/)), and peer-reviewed educational leadership scholarship ([Journal of Educational Administration and History](https://www.tandfonline.com/toc/cjeh20/current), [February 2025](https://www.tandfonline.com/toc/cjeh20/current)). Direct extraction from X or LinkedIn was **not** performed and no social media forum was sampled — where this section refers to discourse, it denotes published educational leadership frameworks, government inquiries, and documented policy debates by named bodies and authors. Dates are stated where available.
 
-> **Confidence: LOW.** Bands are drawn from general knowledge of Australian public-sector, independent-school, and university salary structures (SES/Band equivalents, principal-class awards), not a live compensation-data scrape. No "Entry" band is populated because EdD candidates enter the program already mid-to-senior career; there is no fresh-graduate salary point for this credential.
+### Theme 1 — generative AI in education systems: policy governance and assessment integrity
+
+Sector guidance from [AITSL](https://www.aitsl.edu.au/) (November 2024) and [ACARA](https://www.acara.edu.au/) focuses on the ethical governance of generative AI across primary, secondary, and tertiary education. Commentators stress that education leaders must move beyond reactive prohibition to formulate system-wide AI literacy frameworks, defend assessment validity against synthetic text generation, and safeguard student data privacy.
+
+**Bearing:** C2, C3, and G2.
+
+### Theme 2 — evidence-informed practice and research-practice partnerships (RPPs)
+
+Scholarship in *Journal of Educational Administration and History* (February 2025) and [ACER](https://www.acer.org/au) highlights that educational reform fails when driven by top-down administrative fiat. System leaders require deep relational capability to facilitate collaborative practitioner inquiry, build psychological safety, and lead evidence-based school improvement.
+
+**Bearing:** C1, W1, and W3.
+
+### Theme 3 — practitioner doctoral research: methodological rigor and workplace transformation
+
+Doctoral education reviews across the Group of Eight and [ACER](https://www.acer.org/au) (2024/2025) argue that the Doctor of Education must maintain rigorous empirical scrutiny while generating actionable interventions in the candidate's host institution. Candidates must defend their intervention methodologies against both academic and systemic stakeholder scrutiny.
+
+**Bearing:** C5, C4, and G1.
 
 ---
 

@@ -15,7 +15,7 @@
           ]
         },
         {
-          "action": "Embed an assessed AI in Public Health Evidence strand across the three compulsory methods subjects (Biostatistics, Epidemiology 1, Qualitative Research) — automated evidence-synthesis audit, verification and fabricated-citation checking, provenance and disclosure, AI governance in health data",
+          "action": "Embed an assessed AI in Public Health Evidence strand across the three compulsory methods subjects (Biostatistics, Epidemiology 1, Qualitative Research) \u2014 automated evidence-synthesis audit, verification and fabricated-citation checking, provenance and disclosure, AI governance in health data",
           "priority": "P1",
           "effort": "High",
           "dimRefs": [
@@ -30,7 +30,7 @@
       "rationale": "The social-determinants framing taught in Foundations of Public Health is a genuine systems model, and Applied Program Development plus Public Health Leadership and Policy carry it into assessed program design; 'examine issues from multiple disciplinary perspectives within public health' is a stated graduate attribute. But no compulsory subject assesses trade-off reasoning or failure-mode analysis, which is what separates level 3 from level 2.",
       "recommendations": [
         {
-          "action": "Add an assessed systems-framing and failure-mode component to Foundations of Public Health and Applied Program Development — trade-off reasoning across determinants and structured analysis of how public health programs fail",
+          "action": "Add an assessed systems-framing and failure-mode component to Foundations of Public Health and Applied Program Development \u2014 trade-off reasoning across determinants and structured analysis of how public health programs fail",
           "priority": "P3",
           "effort": "Medium",
           "dimRefs": [
@@ -40,7 +40,7 @@
       ]
     },
     "D3": {
-      "rationale": "Biostatistics and Epidemiology 1 are both compulsory, giving every graduate a solid quantitative grounding clearly above an introductory unit. All depth beyond that — Epidemiology 2, Regression Methods in Health Research, Survival Analysis and Regression for Rates, Infectious Diseases Modelling, Genetic Epidemiology, Health Economics — is elective, so 100 of 200 points can be completed with no further quantitative content. Solid grounding, not a technical core embedded throughout.",
+      "rationale": "Biostatistics and Epidemiology 1 are both compulsory, giving every graduate a solid quantitative grounding clearly above an introductory unit. All depth beyond that \u2014 Epidemiology 2, Regression Methods in Health Research, Survival Analysis and Regression for Rates, Infectious Diseases Modelling, Genetic Epidemiology, Health Economics \u2014 is elective, so 100 of 200 points can be completed with no further quantitative content. Solid grounding, not a technical core embedded throughout.",
       "recommendations": [
         {
           "action": "Introduce a compulsory quantitative-depth requirement of at least 12.5 points from the advanced epidemiology, modelling, health economics and evaluation electives",
@@ -52,7 +52,7 @@
           ]
         },
         {
-          "action": "Embed an assessed AI in Public Health Evidence strand across the three compulsory methods subjects (Biostatistics, Epidemiology 1, Qualitative Research) — automated evidence-synthesis audit, verification and fabricated-citation checking, provenance and disclosure, AI governance in health data",
+          "action": "Embed an assessed AI in Public Health Evidence strand across the three compulsory methods subjects (Biostatistics, Epidemiology 1, Qualitative Research) \u2014 automated evidence-synthesis audit, verification and fabricated-citation checking, provenance and disclosure, AI governance in health data",
           "priority": "P1",
           "effort": "High",
           "dimRefs": [
@@ -67,7 +67,7 @@
       "rationale": "The compulsory 25-point capstone carries live accountability on every available route: a year-long Research Project, a year-long Professional Practice placement with a health agency, or problem-based application to real scenarios in Public Health in Practice. 'The ability to manage uncertainty' is a stated graduate attribute and the course ILOs require critical reflection on decision-making in practice, including personal attitudes and beliefs. At the level-3 anchor.",
       "recommendations": [
         {
-          "action": "Make the Research Project the default capstone route — primary data generation, defended methodology, explicit limitation and failure-mode analysis, with a documented rationale required to take an alternative route",
+          "action": "Make the Research Project the default capstone route \u2014 primary data generation, defended methodology, explicit limitation and failure-mode analysis, with a documented rationale required to take an alternative route",
           "priority": "P2",
           "effort": "High",
           "dimRefs": [
@@ -79,10 +79,10 @@
       ]
     },
     "D5": {
-      "rationale": "AI appears in exactly one elective — COMP90094 Transforming Healthcare with Data and AI — with INFO90011 Digital Learning Health Systems and POPH90308 Indigenous Data Governance in Health adjacent but not AI-specific. The 75-point compulsory core contains no AI content, so most graduates complete the degree without encountering it while entering the most AI-exposed destination set in the health faculty. This is the program's binding constraint.",
+      "rationale": "AI appears in exactly one elective \u2014 COMP90094 Transforming Healthcare with Data and AI \u2014 with INFO90011 Digital Learning Health Systems and POPH90308 Indigenous Data Governance in Health adjacent but not AI-specific. The 75-point compulsory core contains no AI content, so most graduates complete the degree without encountering it while entering the most AI-exposed destination set in the health faculty. This is the program's binding constraint.",
       "recommendations": [
         {
-          "action": "Embed an assessed AI in Public Health Evidence strand across the three compulsory methods subjects (Biostatistics, Epidemiology 1, Qualitative Research) — automated evidence-synthesis audit, verification and fabricated-citation checking, provenance and disclosure, AI governance in health data",
+          "action": "Embed an assessed AI in Public Health Evidence strand across the three compulsory methods subjects (Biostatistics, Epidemiology 1, Qualitative Research) \u2014 automated evidence-synthesis audit, verification and fabricated-citation checking, provenance and disclosure, AI governance in health data",
           "priority": "P1",
           "effort": "High",
           "dimRefs": [
@@ -98,10 +98,10 @@
       "recommendations": []
     },
     "D7": {
-      "rationale": "Unusually strong for a professional masters: three of six compulsory core subjects (Biostatistics, Epidemiology 1, Qualitative Research in Public Health) are research methods — 37.5 of 75 compulsory points, spanning both quantitative and qualitative traditions — and the course ILO requires graduates to 'design and manage a detailed investigation of a public health issue in a substantial project, with a high level of personal autonomy and accountability'. Every graduate can design and conduct research. Level 3 is withheld only because just one of the three capstone routes available in 2026 reliably generates primary data; this score is the single most sensitive judgement in the assessment and a +1 here moves the program off the adaptiveness median.",
+      "rationale": "Unusually strong for a professional masters: three of six compulsory core subjects (Biostatistics, Epidemiology 1, Qualitative Research in Public Health) are research methods \u2014 37.5 of 75 compulsory points, spanning both quantitative and qualitative traditions \u2014 and the course ILO requires graduates to 'design and manage a detailed investigation of a public health issue in a substantial project, with a high level of personal autonomy and accountability'. Every graduate can design and conduct research. Level 3 is withheld only because just one of the three capstone routes available in 2026 reliably generates primary data; this score is the single most sensitive judgement in the assessment and a +1 here moves the program off the adaptiveness median.",
       "recommendations": [
         {
-          "action": "Make the Research Project the default capstone route — primary data generation, defended methodology, explicit limitation and failure-mode analysis, with a documented rationale required to take an alternative route",
+          "action": "Make the Research Project the default capstone route \u2014 primary data generation, defended methodology, explicit limitation and failure-mode analysis, with a documented rationale required to take an alternative route",
           "priority": "P2",
           "effort": "High",
           "dimRefs": [
@@ -113,7 +113,7 @@
       ]
     },
     "D8": {
-      "rationale": "Meaningful and assessed: inter-disciplinary teamwork, respectful engagement across diverse backgrounds, Aboriginal and Torres Strait Islander cultural principles in practice, community needs assessment and advocacy communication are explicit ILOs, and the Professional Practice route places students in agencies for a year. This is stakeholder and ethical practice rather than the clinical or care accountability the level-3 anchor describes — and it is also the least AI-exposed capability in the destination set, so it is worth credentialing explicitly.",
+      "rationale": "Meaningful and assessed: inter-disciplinary teamwork, respectful engagement across diverse backgrounds, Aboriginal and Torres Strait Islander cultural principles in practice, community needs assessment and advocacy communication are explicit ILOs, and the Professional Practice route places students in agencies for a year. This is stakeholder and ethical practice rather than the clinical or care accountability the level-3 anchor describes \u2014 and it is also the least AI-exposed capability in the destination set, so it is worth credentialing explicitly.",
       "recommendations": [
         {
           "action": "Credential community engagement and co-design as an assessed competency through the Professional Practice route and Community Engagement for Health Impact, including a cultural-safety and Indigenous-engagement component",
@@ -127,10 +127,10 @@
       ]
     },
     "D9": {
-      "rationale": "Clear evidence of a recent major refresh: a block of new subjects (Climate Change and Health, Health and Social Justice, Pandemic Preparedness and Response, Health System Transformation, Indigenous Data Governance in Health, Putting One Health into Practice, Sustainability and Healthcare, Introduction to Health Services Research, Healthcare Environment Evaluation) and a restructured four-route capstone. The level-2 anchor's second clause — AI in core units — is not met; that signal is carried by D5 rather than double-counted here.",
+      "rationale": "Clear evidence of a recent major refresh: a block of new subjects (Climate Change and Health, Health and Social Justice, Pandemic Preparedness and Response, Health System Transformation, Indigenous Data Governance in Health, Putting One Health into Practice, Sustainability and Healthcare, Introduction to Health Services Research, Healthcare Environment Evaluation) and a restructured four-route capstone. The level-2 anchor's second clause \u2014 AI in core units \u2014 is not met; that signal is carried by D5 rather than double-counted here.",
       "recommendations": [
         {
-          "action": "Embed an assessed AI in Public Health Evidence strand across the three compulsory methods subjects (Biostatistics, Epidemiology 1, Qualitative Research) — automated evidence-synthesis audit, verification and fabricated-citation checking, provenance and disclosure, AI governance in health data",
+          "action": "Embed an assessed AI in Public Health Evidence strand across the three compulsory methods subjects (Biostatistics, Epidemiology 1, Qualitative Research) \u2014 automated evidence-synthesis audit, verification and fabricated-citation checking, provenance and disclosure, AI governance in health data",
           "priority": "P1",
           "effort": "High",
           "dimRefs": [
@@ -145,7 +145,7 @@
       "rationale": "The program has its own exact-name graduate-destination record (n = 562, the second-largest alumni sample in the Faculty of Medicine, Dentistry and Health after the Doctor of Medicine), giving role titles segmented by career stage, named employers and skill profiles, alongside QILT GOS field-level employment and salary data. The evidence exists at level 3; the gap is that it is not surfaced to applicants, who currently see clinically-weighted field-level proxies instead.",
       "recommendations": [
         {
-          "action": "Publish program-level destination data — role titles, employers, career-stage progression, salary bands and time-to-employment — from the existing n=562 alumni record, replacing field-level QILT proxies in applicant-facing material",
+          "action": "Publish program-level destination data \u2014 role titles, employers, career-stage progression, salary bands and time-to-employment \u2014 from the existing n=562 alumni record, replacing field-level QILT proxies in applicant-facing material",
           "priority": "P6",
           "effort": "Low",
           "dimRefs": [
@@ -155,10 +155,10 @@
       ]
     },
     "B": {
-      "rationale": "A real dual-skill combination — epidemiological and biostatistical method plus policy, program and community judgment — that resists straightforward substitution and is reinforced by a genuinely strong methods core. It falls short of rare integration because the technical layer stops at the compulsory-core boundary (D3:2), there is no AI or governance capability anywhere in the core (D5:1), and no credential moat protects the qualification the way registration protects the clinical programs in this faculty.",
+      "rationale": "A real dual-skill combination \u2014 epidemiological and biostatistical method plus policy, program and community judgment \u2014 that resists straightforward substitution and is reinforced by a genuinely strong methods core. It falls short of rare integration because the technical layer stops at the compulsory-core boundary (D3:2), there is no AI or governance capability anywhere in the core (D5:1), and no credential moat protects the qualification the way registration protects the clinical programs in this faculty.",
       "recommendations": [
         {
-          "action": "Embed an assessed AI in Public Health Evidence strand across the three compulsory methods subjects (Biostatistics, Epidemiology 1, Qualitative Research) — automated evidence-synthesis audit, verification and fabricated-citation checking, provenance and disclosure, AI governance in health data",
+          "action": "Embed an assessed AI in Public Health Evidence strand across the three compulsory methods subjects (Biostatistics, Epidemiology 1, Qualitative Research) \u2014 automated evidence-synthesis audit, verification and fabricated-citation checking, provenance and disclosure, AI governance in health data",
           "priority": "P1",
           "effort": "High",
           "dimRefs": [
@@ -177,7 +177,7 @@
           ]
         },
         {
-          "action": "Make the Research Project the default capstone route — primary data generation, defended methodology, explicit limitation and failure-mode analysis, with a documented rationale required to take an alternative route",
+          "action": "Make the Research Project the default capstone route \u2014 primary data generation, defended methodology, explicit limitation and failure-mode analysis, with a documented rationale required to take an alternative route",
           "priority": "P2",
           "effort": "High",
           "dimRefs": [
@@ -190,7 +190,7 @@
     }
   },
   "panelCv4": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Two compulsory subjects assess collaborative work: POPH90274 (two group presentations and mentor-marked group participation) and POPH90218 (a team presentation of approximately five students). This satisfies the level 2 anchor. The level 3 anchor additionally requires at least one assessment in which work is coordinated across people and tools or AI systems; no such assessment is documented, so level 3 is not awarded.",
@@ -254,7 +254,7 @@
     },
     "W2": {
       "score": 2,
-      "rationale": "Level 2 is securely met: the POPH90274 'Health program proposal document' (50%) reproduces a public-health program-development task end to end and produces the artefact a practitioner produces, and POPH90218's advocacy pitch with campaign materials does the same for policy advocacy. Level 3 needs both limbs. The spine limb is arguable — two of six compulsory subjects carry practitioner-shaped artefacts and every student completes a capstone — but the practice-constraint limb fails on the path the program actually requires. Of the three capstone routes only Professional Practice supplies an externally set problem and real host constraints; the Public Health in Practice route is problem-based learning on teacher-supplied scenarios, and a student may complete the degree without ever meeting a constraint set by anyone outside the university. Scoring what the program requires of every student rather than its best available route — the discipline C5's level-3 anchor already states as 'not one route among several' — resolves this DOWN to 2. The remaining four compulsory subjects assess by exam, essay, short answer and quiz.",
+      "rationale": "Level 2 is securely met: the POPH90274 'Health program proposal document' (50%) reproduces a public-health program-development task end to end and produces the artefact a practitioner produces, and POPH90218's advocacy pitch with campaign materials does the same for policy advocacy. Level 3 needs both limbs. The spine limb is arguable \u2014 two of six compulsory subjects carry practitioner-shaped artefacts and every student completes a capstone \u2014 but the practice-constraint limb fails on the path the program actually requires. Of the three capstone routes only Professional Practice supplies an externally set problem and real host constraints; the Public Health in Practice route is problem-based learning on teacher-supplied scenarios, and a student may complete the degree without ever meeting a constraint set by anyone outside the university. Scoring what the program requires of every student rather than its best available route \u2014 the discipline C5's level-3 anchor already states as 'not one route among several' \u2014 resolves this DOWN to 2. The remaining four compulsory subjects assess by exam, essay, short answer and quiz.",
       "evidenceLines": [
         "Health program proposal document",
         "5-minute Individual Presentation plus Q&A: Policy Advocacy Pitch + Campaign Materials",
@@ -297,7 +297,7 @@
       "C5: the interval between the level 1 anchor (an introductory methods unit) and the level 2 anchor (design and conduct of an inquiry with data collection) is wide. This program's three assessed methods subjects exceed level 1 considerably, while design (core) and conduct (capstone) are distributed across components. The score was resolved at 2 on the basis of the level 3 anchor's explicit requirement that the project be compulsory, which implies that level 2 does not carry that requirement. The width of this interval is noted for the content-validity panel.",
       "W1 straddled 2 and 3 on the external-audience limb. The POPH90286 workplace supervisor hurdle is practitioner judgement of professional conduct, which would satisfy level 3, but it sits in a competitively-entered capstone route rather than in what every student must do. Resolved DOWN to 2.",
       "W2 straddled 2 and 3 on the practice-constraint limb, for the same structural reason: only one of three capstone routes supplies an externally set problem. Resolved DOWN to 2.",
-      "W3 straddled 2 and 3 on depth versus requirement. The placement is a year-long supervised external placement with a supervisor hurdle — level-3 depth — but is one route among three with competitive entry, so the 'required' limb of level 3 fails. Resolved DOWN to 2. All three W items turn on the same fact, which is a dependency the IRR study should watch: they are not independent observations of this program.",
+      "W3 straddled 2 and 3 on depth versus requirement. The placement is a year-long supervised external placement with a supervisor hurdle \u2014 level-3 depth \u2014 but is one route among three with competitive entry, so the 'required' limb of level 3 fails. Resolved DOWN to 2. All three W items turn on the same fact, which is a dependency the IRR study should watch: they are not independent observations of this program.",
       "Construct-boundary check: the POPH90286 placement was scored in W3 only. It was NOT re-used to lift C1 (whose v4.1 level-3 anchor no longer lists placements) or C4 (whose v4.1 level-3 anchor no longer lists work-integrated learning). The POPH90218 peer-feedback and reflective assessments stay in C2 (appraisal of quality) and are not counted again as W1 professional communication."
     ],
     "notScoreable": [
