@@ -137,11 +137,16 @@ RULES = [
                r"\b(widely|commonly|generally) (reported|discussed|held|believed|accepted)\b",
                r"\b(many|some|most) (practitioners|employers|academics|commentators|"
                r"professionals) (say|report|note|argue|believe)\b"]),
+    # Only a WHOLLY quoted heading is a fabricated quotation. A quoted term
+    # inside a longer heading — "Mission Drift" Tension…, Sustainability Is the
+    # "New Lean" — is a scare-quoted term of art, which is legitimate and was a
+    # false-positive class in the first version of this rule.
     dict(id="quoted-theme-without-source", sev="error", genres={"market"},
          desc="a theme heading is presented as a quotation with nobody quoted",
          fix="attribute the quote, or restate it as an unquoted claim",
          scope="raw",
-         pats=[r"(?m)^\*\*Theme \d+ [—-] [\"“]"]),
+         pats=[r"(?m)^\*\*Theme \d+ [—-] [\"“][^\"”]+[\"”]\.?\*\*\s*$",
+               r"(?m)^### Theme \d+ [—-] [\"“][^\"”]+[\"”]\.?\s*$"]),
     dict(id="vague-attribution", sev="error", genres=None,
          desc="opinion attributed to a phantom authority",
          fix="name the source or cut the claim",
