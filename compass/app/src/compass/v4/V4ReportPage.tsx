@@ -518,9 +518,25 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
                 data-testid="v4-research-notice"
               >
                 Panel C v4 scores taught curriculum structure, which this
-                research degree does not carry, so no v4 Durability Report
-                applies. Its earlier assessment and market intelligence stand as
-                its report.
+                research degree does not carry, and Panel A resolves to no
+                destination basis for it, so no v4 score of any kind applies.
+                {hasReportContent(`dfva-v4r-${code}`) ? (
+                  <>
+                    {" "}
+                    The{" "}
+                    <Link
+                      to={`/reports/dfva-v4r-${code}`}
+                      className="underline"
+                      data-testid="v4r-report-link"
+                    >
+                      research degree report
+                    </Link>{" "}
+                    sets out why, and carries the earlier assessment as
+                    narrative.
+                  </>
+                ) : (
+                  " Its earlier assessment and market intelligence stand as its report."
+                )}
               </p>
             ) : (
               <p

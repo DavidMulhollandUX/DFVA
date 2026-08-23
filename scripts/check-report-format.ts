@@ -12,6 +12,7 @@
 import { readFileSync, readdirSync, existsSync } from 'node:fs'
 import * as path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { V4_RESEARCH_DEGREES } from '../compass/app/src/compass/v4/data/v4PanelC'
 
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const reportsDir = path.join(repoRoot, 'reports')
@@ -23,7 +24,8 @@ const REPORT_FILES = readdirSync(reportsDir).filter(
     !f.includes('recommend-') &&
     !f.includes('market-') &&
     !f.includes('faculty-') &&
-    !f.startsWith('dfva-v4-')
+    !f.startsWith('dfva-v4-') &&
+    !f.startsWith('dfva-v4r-')
 )
 const MARKET_FILES = readdirSync(reportsDir).filter((f) => f.startsWith('dfva-market-') && f.endsWith('.md'))
 const RECOMMEND_FILES = readdirSync(reportsDir).filter((f) => f.startsWith('dfva-recommend-') && f.endsWith('.md'))
@@ -33,6 +35,12 @@ const V4_FILES = readdirSync(reportsDir).filter(
 )
 const V4_RECOMMEND_FILES = readdirSync(reportsDir).filter(
   (f) => f.startsWith('dfva-v4-recommend-') && f.endsWith('.md')
+)
+// Research degrees: no Panel C (no taught curriculum) and no Panel A (no
+// destination basis resolves), so this family carries the v1 assessment as
+// NARRATIVE ONLY. Scaffold: scripts/dfva-v4r-report-scaffold.ts
+const V4R_FILES = readdirSync(reportsDir).filter(
+  (f) => f.startsWith('dfva-v4r-') && f.endsWith('.md')
 )
 
 // ── GRANDFATHERED: files already non-conformant when this check was introduced ──
@@ -551,10 +559,70 @@ for (const file of V4_RECOMMEND_FILES) {
 
 // ── Output ──
 
+// ── v4r research-degree checks ─────────────────────────────────────────────
+// This family exists because a research degree can carry NO v4 score: Panel C
+// has no taught curriculum to read (a category fact) and Panel A resolves to no
+// destination basis (an evidence gap). The report's whole job is to say both and
+// then carry the v1 assessment as narrative. So the rules enforce exactly that:
+// the two reasons are stated, and no score of any instrument appears.
+for (const file of V4R_FILES) {
+  const slug = file.replace('.md', '')
+  const content = readReport(file)
+  const lines = content.split('\n')
+  const issues: string[] = []
+
+  if (!/^# DFVA RESEARCH DEGREE REPORT: .+ \(.+\)$/.test(lines[0].trim())) {
+    issues.push(`title mismatch: "${lines[0].trim()}"`)
+  }
+
+  // Four numbered sections, in order, each carrying a Basis: tag.
+  const heads = lines.filter((l) => /^## \d\. /.test(l))
+  const expected = [
+    '## 1. WHY THIS PROGRAM CARRIES NO v4 SCORE',
+    '## 2. ASSESSMENT CARRIED FORWARD',
+    '## 3. MARKET EVIDENCE',
+    '## 4. LIMITATIONS',
+  ]
+  for (const [i, prefix] of expected.entries()) {
+    const head = heads[i]
+    if (!head?.startsWith(prefix)) {
+      issues.push(`section ${i + 1}: expected heading starting "${prefix}", got "${head ?? 'missing'}"`)
+    } else if (!/Basis:/.test(head)) {
+      issues.push(`section ${i + 1}: heading is missing its "Basis:" tag`)
+    }
+  }
+
+  // Both non-applicability reasons must be stated. Stating only the curriculum
+  // one reads as "Panel A is pending", which is the misreading this family exists
+  // to prevent.
+  const s1 = (content.split(/^## 1\. /m)[1] ?? '').split(/^## \d\. /m)[0] ?? ''
+  if (!/Panel C has nothing to score/.test(s1)) {
+    issues.push('section 1 must state the Panel C reason ("Panel C has nothing to score" — no taught curriculum)')
+  }
+  if (!/Panel A has no destination basis/.test(s1)) {
+    issues.push('section 1 must state the Panel A reason ("Panel A has no destination basis" — the resolver returns none)')
+  }
+
+  // Narrative only: no score from any instrument, v1 or v4.
+  if (/\b\d{1,2}\/36\b/.test(content)) issues.push('carries a v1 composite ("N/36") — this family is narrative only')
+  if (/\b\d\/3\b/.test(content)) issues.push('carries a dimension or Panel C score ("d/3") — this family is narrative only')
+  if (/Irreplaceability[^.]*\b\d\b/.test(content)) issues.push('carries an Irreplaceability score — retired, and this family is narrative only')
+
+  // A scored program must not be in this family, and vice versa.
+  const code = slug.replace(/^dfva-v4r-/, '')
+  if (!V4_RESEARCH_DEGREES.includes(code)) {
+    issues.push(`${code} is not in V4_RESEARCH_DEGREES — only research degrees belong in this family`)
+  }
+
+  if (issues.length) {
+    errors.push(...issues.map((i) => `${slug}: ${i}`))
+  }
+}
+
 const totalFiles =
-  REPORT_FILES.length + MARKET_FILES.length + RECOMMEND_FILES.length + V4_FILES.length + V4_RECOMMEND_FILES.length
+  REPORT_FILES.length + MARKET_FILES.length + RECOMMEND_FILES.length + V4_FILES.length + V4_RECOMMEND_FILES.length + V4R_FILES.length
 console.log(
-  `Reports: ${REPORT_FILES.length} assessment + ${MARKET_FILES.length} market + ${RECOMMEND_FILES.length} recommend + ${V4_FILES.length} v4 + ${V4_RECOMMEND_FILES.length} v4-recommend = ${totalFiles} total`
+  `Reports: ${REPORT_FILES.length} assessment + ${MARKET_FILES.length} market + ${RECOMMEND_FILES.length} recommend + ${V4_FILES.length} v4 + ${V4_RECOMMEND_FILES.length} v4-recommend + ${V4R_FILES.length} v4r-research = ${totalFiles} total`
 )
 
 if (warnings.length) {

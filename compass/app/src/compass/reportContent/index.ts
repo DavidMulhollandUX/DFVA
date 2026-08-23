@@ -252,6 +252,20 @@ export const REPORT_CONTENT_LOADERS: Record<
   "dfva-v4-recommend-mc-scibio": () => import("./dfva-v4-recommend-mc-scibio"),
   "dfva-v4-recommend-mc-sciepi": () => import("./dfva-v4-recommend-mc-sciepi"),
   "dfva-v4-recommend-mc-scwr": () => import("./dfva-v4-recommend-mc-scwr"),
+  "dfva-v4r-dh-lld": () => import("./dfva-v4r-dh-lld"),
+  "dfva-v4r-dh-sc": () => import("./dfva-v4r-dh-sc"),
+  "dfva-v4r-dr-philabp": () => import("./dfva-v4r-dr-philabp"),
+  "dfva-v4r-dr-philagr": () => import("./dfva-v4r-dr-philagr"),
+  "dfva-v4r-dr-philart": () => import("./dfva-v4r-dr-philart"),
+  "dfva-v4r-dr-philbe": () => import("./dfva-v4r-dr-philbe"),
+  "dfva-v4r-dr-philedu": () => import("./dfva-v4r-dr-philedu"),
+  "dfva-v4r-dr-phileit": () => import("./dfva-v4r-dr-phileit"),
+  "dfva-v4r-dr-philfam": () => import("./dfva-v4r-dr-philfam"),
+  "dfva-v4r-dr-philik": () => import("./dfva-v4r-dr-philik"),
+  "dfva-v4r-dr-phillaw": () => import("./dfva-v4r-dr-phillaw"),
+  "dfva-v4r-dr-philmdh": () => import("./dfva-v4r-dr-philmdh"),
+  "dfva-v4r-dr-philsci": () => import("./dfva-v4r-dr-philsci"),
+  "dfva-v4r-dr-philvet": () => import("./dfva-v4r-dr-philvet"),
 };
 
 export function hasReportContent(slug: string): boolean {
