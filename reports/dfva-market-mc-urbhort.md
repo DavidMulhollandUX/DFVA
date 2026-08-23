@@ -139,19 +139,13 @@ Professionals are experimenting with AI tools for species selection (e.g., Green
 <!-- LABOUR-EVIDENCE:START -->
 ## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
 
-**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+**Where graduates of this field actually work** — not available for this program. The JSA HEO destination cut for Agriculture & Environment (field of education broad 05, where urban horticulture sits) has not been extracted into this repository, so no destination table is published here rather than one borrowed from another field. The QILT outcomes below are field-level and are sourced.
 
-| Career stage | Top occupations |
-|---|---|
-| Entry (~1yr) | Architect (19%), Urban and Regional Planner (15%), Architectural Draftsperson (11%), Construction Project Manager (8%), Interior Designer (6%) |
-| Early (~3yr) | Architect (20%), Urban and Regional Planner (16%), Architectural Draftsperson (10%), Construction Project Manager (10%), Interior Designer (7%) |
-| Senior (~5yr) | Architect (21%), Urban and Regional Planner (16%), Construction Project Manager (11%), Architectural Draftsperson (9%), Interior Designer (7%) |
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 80% full-time employment · median salary $94,000 · 3-year employment 94% · JSA occupation demand: **Shortage**.
 
-**Graduate outcomes** (QILT GOS 2024, postgraduate): 75% full-time employment · median salary $84,500 · 3-year employment 95% · JSA occupation demand: **Recruitment Difficulty**.
-
-**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): Woods Bagot, HASSELL, AECOM, Aurecon, Architectus, Cox Architecture, BVN, Colliers (formerly Ethos Urban), Solar Start, CPB Contractors, Lendlease. Advertised salary A$90k–170k.
+**Hiring now (demand-side)** — not available: no Adzuna vacancy pull has been run for this field.
 
 **Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
 
-*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
+*Sources: QILT GOS 2024; IBISWorld P8102. Outcomes are field-of-education level (not per-degree). JSA HEO destinations and Adzuna employers are pending for this field.*
 <!-- LABOUR-EVIDENCE:END -->

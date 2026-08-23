@@ -123,13 +123,13 @@ Australia's agricultural export intensity (particularly dairy, red meat, seafood
 
 | Career stage | Top occupations |
 |---|---|
-| Entry (~1yr) | Registered Nurses nec (15%), Physiotherapist (6%), Registered Nurse (Medical) (6%), Resident Medical Officer (5%), Registered Nurse (Critical Care and Emergency) (5%) |
-| Early (~3yr) | Registered Nurses nec (14%), Physiotherapist (6%), Registered Nurse (Medical) (6%), Registered Nurse (Critical Care and Emergency) (5%), Occupational Therapist (4%) |
-| Senior (~5yr) | Registered Nurses nec (14%), Physiotherapist (6%), Registered Nurse (Medical) (5%), Registered Nurse (Critical Care and Emergency) (5%), Occupational Therapist (4%) |
+| Entry (~1yr) | Sales Assistant (General) (6%), Medical Laboratory Scientist (6%), Geologist (5%), General Clerk (4%), Medical Laboratory Technician (4%) |
+| Early (~3yr) | Medical Laboratory Scientist (7%), Geologist (5%), Sales Assistant (General) (4%), Medical Laboratory Technician (4%), General Clerk (4%) |
+| Senior (~5yr) | Medical Laboratory Scientist (7%), Geologist (5%), Program or Project Administrator (4%), Environmental Consultant (4%), Medical Laboratory Technician (3%) |
 
-**Graduate outcomes** (QILT GOS 2024, postgraduate): 87% full-time employment · median salary $103,000 · 3-year employment 95% · JSA occupation demand: **Shortage**.
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 79% full-time employment · median salary $100,000 · 3-year employment 94% · JSA occupation demand: **Recruitment Difficulty**.
 
-**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): Healthcare Australia (HCA), UnitingCare Queensland, Coastal Physiotherapy, Outreach Physiotherapy, Stream Healthcare Recruitment, Southern Cross Care WA, Anderson Neurological and Developmental Services, ORS Group, Ability Action Australia, Early Start Australia. Advertised salary A$68.6k–130k.
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): NSW Health Pathology, Dorevitch Pathology (Healius), Sonic Healthcare Australia, 4Cyte Pathology, CSIRO, ANSTO, WEHI, Canva, Glencore, Rio Tinto, Fortescue. Advertised salary A$73.4k–145k.
 
 **Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
 
