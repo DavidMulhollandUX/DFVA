@@ -67,9 +67,10 @@ docs/archive/claude-rules-changelog-*.md
 ~$*
 
 # v4 capture intermediates — the assembled scrapes/v4/<code>.txt extracts are
-# the evidence the scores quote from; these two dirs are just how they got built.
+# the evidence the scores quote from; these dirs are just how they got built.
 scrapes/v4/raw/
 scrapes/v4/pages/
+scrapes/v4/inbox/
 
 # Ad-hoc scrape status logs — process detritus, rewritten each run
 /go8-*.txt

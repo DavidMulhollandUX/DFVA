@@ -776,24 +776,30 @@ def cmd_scoreable() -> None:
     print(json.dumps(out, indent=1))
 
 
-def cmd_status(as_json: bool) -> None:
+def cmd_status(as_json: bool, only: set[str] | None = None) -> None:
     q = load()
     rows, tot = [], {"done": 0, "pending": 0, "inflight": 0, "failed": 0, "blocked": 0, "notfound": 0}
+    target_rows, target_tot = [], {"done": 0, "pending": 0, "inflight": 0, "failed": 0, "blocked": 0, "notfound": 0}
     for code, prog in sorted(q["programs"].items()):
         counts = {k: 0 for k in tot}
         for p in prog["pages"].values():
             counts[p["status"]] = counts.get(p["status"], 0) + 1
         for k in tot:
             tot[k] += counts[k]
-        rows.append(
-            {
-                "code": code,
-                "assembled": prog["assembled"],
-                "priority": bool(prog.get("priority")),
-                **counts,
-            }
-        )
+        row = {
+            "code": code,
+            "assembled": prog["assembled"],
+            "priority": bool(prog.get("priority")),
+            **counts,
+        }
+        rows.append(row)
+        if only is None or code in only:
+            target_rows.append(row)
+            for k in target_tot:
+                target_tot[k] += counts[k]
+
     complete = [r["code"] for r in rows if r["assembled"]]
+    target_complete = [r["code"] for r in target_rows if r["assembled"]]
     prio = [r for r in rows if r["priority"]]
     left = cooloff_seconds(q)
     summary = {
@@ -803,20 +809,34 @@ def cmd_status(as_json: bool) -> None:
         "priority": len(prio),
         "priorityRemaining": sum(1 for r in prio if not r["assembled"]),
         "pages": tot,
+        "target": {
+            "programs": len(target_rows),
+            "assembled": len(target_complete),
+            "assembledCodes": target_complete,
+            "pages": target_tot,
+        },
         "block": {**(q.get("block") or {}), "cooloffMinutesRemaining": left // 60},
     }
     if as_json:
-        print(json.dumps({"summary": summary, "programs": rows}, indent=1))
+        print(json.dumps({"summary": summary, "programs": target_rows if only else rows}, indent=1))
         return
+
+    display_rows = target_rows if only else rows
     print(f"{'code':<14}{'done':>6}{'pend':>6}{'live':>6}{'fail':>6}{'blk':>5}  {'pri':<5}assembled")
-    for r in rows:
+    for r in display_rows:
         print(
             f"{r['code']:<14}{r['done']:>6}{r['pending']:>6}{r['inflight']:>6}"
             f"{r['failed']:>6}{r['blocked']:>5}  {'*' if r['priority'] else '':<5}"
             f"{'yes' if r['assembled'] else ''}"
         )
+    if only:
+        print(
+            f"\n🎯 Target cohort ({len(target_rows)} programs): {len(target_complete)}/{len(target_rows)} assembled · "
+            f"pages: {target_tot['done']} done, {target_tot['pending']} pending, "
+            f"{target_tot['inflight']} leased, {target_tot['failed']} failed, {target_tot['blocked']} blocked"
+        )
     print(
-        f"\n{summary['assembled']}/{summary['programs']} programs assembled · "
+        f"🌐 Global ({summary['programs']} programs): {summary['assembled']}/{summary['programs']} assembled · "
         f"pages: {tot['done']} done, {tot['pending']} pending, "
         f"{tot['inflight']} leased, {tot['failed']} failed, {tot['blocked']} blocked, "
         f"{tot['notfound']} unpublished"
@@ -871,7 +891,7 @@ def main() -> None:
     elif cmd == "stalled":
         cmd_stalled()
     elif cmd == "status":
-        cmd_status("--json" in rest)
+        cmd_status("--json" in rest, only)
     else:
         sys.exit(__doc__)
 

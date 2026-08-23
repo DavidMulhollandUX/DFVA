@@ -1,0 +1,165 @@
+{
+  "code": "mc-urbhort",
+  "instrument": "4.2-draft",
+  "panelCv4": {
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: at least one core unit assesses collaborative practice — in fact, assessed collaborative practice appears in multiple core units across the program. In ABPL90337 Managing Urban Landscapes, students complete a 'Group presentation (approximately 5 minutes per student)'; in ERTH90028 Urban Soils, Substrates and Water, students complete 'Framing an urban soil management case study (group oral presentation)'; and in HORT90048 Urban Horticulture Issues & Perspectives (the final-semester capstone), students work in teams of 4-5 to assess, plan and document solutions, assessed via 'Assessment of groups' LMS discussion', 'Group project, problem based and encompassing a technical and multi-disciplinary report due last week of second semester (3000 words per student)', and 'A group presentation due last week of second semester'. Level 3 is not met: although collaborative practice recurs across the core, no core assessment requires coordinating work across people AND tools/AI systems with documented role-and-tool allocation or an assessed division of work between people and systems.",
+      "evidenceLines": [
+        "The subject will be structured around a project in which students will work in teams of 4-5 people to assess, plan and document appropriate solutions for problems associated with an urban landscape.",
+        "Group project, problem based and encompassing a technical and multi-disciplinary report due last week of second semester (3000 words per student)",
+        "Assessment of groups' LMS discussion",
+        "A group presentation due last week of second semester",
+        "Framing an urban soil management case study (group oral presentation)",
+        "Group presentation (approximately 5 minutes per student)",
+        "Oral presentation skills and inter-personal skills for group work under pressure.",
+        "Demonstrate effective team work and presentation skills;",
+        "Ability to participate effectively as a member of a team"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: core assessment includes criterion-referenced appraisal of quality. Compulsory core subject HORT90008 Horticultural Plant Science explicitly assesses a 'Peer-to-peer feedback activity: individual peer-review of a laboratory report (up to a maximum of 750 words)' carrying 10%, directly matching the level-2 peer review anchor. In addition, core subject ABPL90337 assesses a 'Critical thinking and assessment task (paper review)'. Level 3 is not met: no core assessment requires students to document and justify reliance decisions (deciding when to rely on or override a tool, source or collaborator), defend judgements of AI-output quality, or evidence strategy adjustment over time.",
+      "evidenceLines": [
+        "Peer-to-peer feedback activity: individual peer-review of a laboratory report (up to a maximum of 750 words)",
+        "Employ scientific processes to generate and review written laboratory reports.",
+        "Critical thinking and assessment task (paper review)",
+        "evaluate and critically assess the design and functional performance of urban vegetation systems, considering plant health, soil and substrate properties and water management"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor is met: digital tools appear as tool operation/training or within electives. Program-level graduate attributes state graduates will 'be adept at learning in a range of ways, including through information and communication technologies', and electives cover operational digital tools such as Geographic Information Systems (GIS) and remote sensing in ENST90045 Spatial Tools for Ecosystem Management, and statistical data handling in R in AGRI90075. Core units mention online databases and LMS discussion. Level 2 is unmet: no core unit addresses AI capabilities AND limitations/ethics with use limits discussed and assessed. Level 3 (AI critique or governance) is entirely unevidenced.",
+      "evidenceLines": [
+        "be adept at learning in a range of ways, including through information and communication technologies",
+        "ENST90045\tSpatial Tools for Ecosystem Management",
+        "Experience and proficiency in the use of Geographic Information Systems (GIS) on multiple software platforms;",
+        "Understand emerging technologies in spatial data collection and analysis.",
+        "Practical skills working with data in the R software environment",
+        "Literature review and synthesis from a range of sources, including academic journals, online databases, and books;"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: at least one core assessment requires application to novel or unfamiliar problems through cross-context projects and case variations. In capstone HORT90048, students research current local, national or international cases using a problem-based approach to solve real-world problems in an urban landscape ('Group project, problem based and encompassing a technical and multi-disciplinary report...'); in ERTH90028, students complete an 'Urban soil management case study (individual report) up to 3000 words' investigating varied urban landscape scenarios (turf, tree, construction, roads); and in ABPL90337, students complete a 'Landscape Management case study' and 'Urban Park study'. Level 3 is not met: the program does not document structured progression toward independent learning via a self-scoped capstone or research project in the core (research projects FRST90076/77 are discipline electives, and HORT90048 is a staff- and industry-guided team-based case project rather than self-scoped independent inquiry), nor is there assessed identification of one's own knowledge gaps with a plan to close them.",
+      "evidenceLines": [
+        "This subject, undertaken in the final semester of the Masters of Urban Horticulture, provides a basis for students to integrate and apply the knowledge they have gained throughout the course to solve a real world problem.",
+        "Guided by academic staff and industry representatives, students will research current local, national or international cases using a problem based approach to develop planning, design, management, data acquisition and synthesis, and communication skills. The subject will be structured around a project in which students will work in teams of 4-5 people to assess, plan and document appropriate solutions for problems associated with an urban landscape.",
+        "Group project, problem based and encompassing a technical and multi-disciplinary report due last week of second semester (3000 words per student)",
+        "Investigate case studies of soil assessment, analysis and problem solving in different urban landscape scenarios (turf, tree, construction, horticultural, roads, etc.);",
+        "Urban soil management case study (individual report) up to 3000 words",
+        "Landscape Management case study",
+        "FRST90076\tShort Research Project B",
+        "FRST90077\tLong Research Project B"
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 1 anchor is met: introductory methods and literature-review assessments are documented in the core. HORT90004 Plant Production and Establishment explicitly assesses 'One literature review on an aspect of horticultural practice', and core units HORT90008, ERTH90028, and HORT90044 assess structured laboratory and practical reports. Level 2 requires students to design and conduct an inquiry with methodology selection and data collection, assessed; while students perform soil sampling and laboratory tests in ERTH90028 and HORT90008, these are set class practicals rather than student-designed inquiries with methodology selection. Research project subjects (FRST90076/77) and the dedicated methods unit (AGRI90075) are discipline electives rather than compulsory core, and no required primary-evidence project defended under scrutiny (viva/defence) exists in the core (level 3).",
+      "evidenceLines": [
+        "One literature review on an aspect of horticultural practice",
+        "Laboratory report 1 (equivalent to 1000 words)",
+        "Laboratory report 2 (equivalent to 2500 words)",
+        "Practical Report 1 and 2 - Based on work conducted in the practicals",
+        "Undertake field assessments/measurement of soil properties (physical, hydrologic &amp; chemical), including sampling of urban soils for laboratory analysis;",
+        "Basic field and laboratory competencies for urban soil and landscape assessments.",
+        "AGRI90075\tResearch Methods For Life Sciences",
+        "FRST90076\tShort Research Project B",
+        "Minimum of 75 points from:"
+      ]
+    },
+    "adaptiveness": 8,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: at least one core assessment requires a recognised professional genre judged against criteria drawn from professional practice. In HORT90044 Plant Health, students produce a 'Written Assignment - Management Plan' for urban plant health and pest management, accompanied by a '5 Minutes presentation and Poster'; in ERTH90028, students complete an 'Urban soil management case study (individual report) up to 3000 words' and a group oral presentation; in ABPL90337, students complete an 'Urban Park study' and 'Landscape Management case study'; and in HORT90048, students produce a multidisciplinary technical report. Level 3 is not met: while professional spoken presentations recur across multiple core units, no core assessment is documented as delivered to, or judged by, a real external audience or practitioner with professional conduct explicitly among the assessed criteria.",
+      "evidenceLines": [
+        "Written Assignment - Management Plan",
+        "5 Minutes presentation and Poster",
+        "Urban soil management case study (individual report) up to 3000 words",
+        "Framing an urban soil management case study (group oral presentation)",
+        "Landscape Management case study",
+        "Urban Park study",
+        "Group presentation (approximately 5 minutes per student)",
+        "A group presentation due last week of second semester",
+        "Report writing for a professional audience;",
+        "effectively communicate, to a range of audiences, the socio‐ecological, biodiversity, environmental and functional value of urban horticulture to develop creative, vibrant and liveable cities"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: core assessment reproduces professional tasks end-to-end for urban horticulture practitioners. Students produce urban plant health management plans for pest/disease control and safe chemical application (HORT90044), urban soil management case study reports based on field/sampling assessments (ERTH90028), urban park and landscape management studies (ABPL90337), and multidisciplinary problem-based technical reports for urban landscapes (HORT90048). Resolved downward from level 3 on adversarial verification: although authentic tasks recur across the core, they are submitted to the academic teaching team without documented external client delivery, consequential external audiences, real-world resource constraints, or external professional performance standards documented in the assessment tables (R4).",
+      "evidenceLines": [
+        "Written Assignment - Management Plan",
+        "Urban soil management case study (individual report) up to 3000 words",
+        "Urban Park study",
+        "Landscape Management case study",
+        "Group project, problem based and encompassing a technical and multi-disciplinary report due last week of second semester (3000 words per student)",
+        "2 x short answer in-class quizzes based on practical and field trip (10% each), 500 words each",
+        "Report (3000 words)",
+        "Guided by academic staff and industry representatives, students will research current local, national or international cases using a problem based approach to develop planning, design, management, data acquisition and synthesis, and communication skills. The subject will be structured around a project in which students will work in teams of 4-5 people to assess, plan and document appropriate solutions for problems associated with an urban landscape."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1 anchor is met: work-situated learning exists only as an elective. The course structure offers two formal internship subjects (SCIE90017 Science and Technology Internship, 80-100 hours with supervisor-confirmed hurdle; and SCIE90027 Ecosystem Internship, ca. 200 hours / 4-5 weeks FTE with host-institution project and presentation), but both sit within the 'Professional Skills' elective list where students can alternatively satisfy the requirement by taking classroom subjects (SCIE90012 Science Communication or ENST90045 Spatial Tools). Neither internship is compulsory in the 100-point core. The cohort is not documented as existing practitioners (overview states previous industry employment is not essential), so the own-practice route does not apply.",
+      "evidenceLines": [
+        "Professional Skills",
+        "Complete between 12.5 and 25 points of:",
+        "SCIE90017\tScience and Technology Internship",
+        "SCIE90027\tEcosystem Internship",
+        "SCIE90012\tScience Communication",
+        "ENST90045\tSpatial Tools for Ecosystem Management",
+        "Hurdle requirement: 80 hours of satisfactory work placement, confirmed by placement supervisor",
+        "Students will then spend a period of 4-5 weeks (full-time equivalent; ca. 200 hours) working within their host institution i) gaining experience, ii) shadowing institution mentors and iii) working on their internship project.",
+        "Whilst it is beneficial for students to have some experience in the horticultural industry it is not essential to have previous employment to gain entry to the course."
+      ]
+    },
+    "workplace": 5,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "PASS condition is met: the program documents an all-compulsory specialist core of 100 credit points (eight compulsory subjects) establishing technical and methodological depth in urban horticulture — covering plant science (HORT90008), plant production (HORT90004), urban soils and water (ERTH90028), green infrastructure (ENST90048), plant health (HORT90044), landscape management (ABPL90337), plants in landscapes (HORT90033), and a culminating capstone (HORT90048). Coherent disciplinary sequence with no interchangeable generic core.",
+        "evidenceLines": [
+          "100 points of core subjects",
+          "Core Subjects",
+          "HORT90033\tPlants in the Landscape",
+          "HORT90008\tHorticultural Plant Science",
+          "HORT90004\tPlant Production and Establishment",
+          "ERTH90028\tUrban Soils, Substrates and Water",
+          "ENST90048\tGreen Infrastructure for Liveable Cities",
+          "HORT90044\tPlant Health",
+          "ABPL90337\tManaging Urban Landscapes",
+          "HORT90048\tUrban Horticulture Issues & Perspectives",
+          "This subject, undertaken in the final semester of the Masters of Urban Horticulture, provides a basis for students to integrate and apply the knowledge they have gained throughout the course to solve a real world problem."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "PASS condition is met: assessment goes well beyond recall or scripted responses. Core assessments require complex trade-off decisions, diagnostic problem solving, and management plans under uncertainty — including pest and disease management decision-making and control options under regulatory/environmental constraints in HORT90044, soil remediation and alleviation problem solving across diverse landscape typologies in ERTH90028, and a problem-based capstone project assessing and planning solutions for urban landscapes in HORT90048.",
+        "evidenceLines": [
+          "The subject will be structured around a project in which students will work in teams of 4-5 people to assess, plan and document appropriate solutions for problems associated with an urban landscape.",
+          "Group project, problem based and encompassing a technical and multi-disciplinary report due last week of second semester (3000 words per student)",
+          "Written Assignment - Management Plan",
+          "Critical thinking: The ability to think independently and critically through the analysis and decision-making around various control options for plant pests and diseases",
+          "Problem solving; The ability to identify a suitable course of action for diverse plant health scenarios",
+          "Investigate case studies of soil assessment, analysis and problem solving in different urban landscape scenarios (turf, tree, construction, horticultural, roads, etc.);",
+          "Urban soil management case study (individual report) up to 3000 words"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1 straddled 2 and 3: collaborative practice recurs across multiple core subjects (ABPL90337, ERTH90028, HORT90048), but level 3 requires coordinating work across people AND tools/AI systems with assessed role/tool allocation, which is absent from the extract. Lower level (2) taken.",
+      "C2 straddled 1 and 2: HORT90008 includes an explicit assessed 'Peer-to-peer feedback activity: individual peer-review of a laboratory report (up to a maximum of 750 words)' carrying 10%, which satisfies level 2's criterion-referenced appraisal of quality (peer review). Level 3 is not approached because reliance/override justification is unevidenced.",
+      "C4 straddled 2 and 3: HORT90048 acts as a culminating capstone integrating prior knowledge to solve real-world urban landscape problems, but it is structured as a staff/industry-guided group project rather than a self-scoped independent project, and research project subjects (FRST90076/77) are discipline electives. Resolved downward to 2.",
+      "C5 straddled 1 and 2: core subjects include lab and field sampling practicals (ERTH90028, HORT90008) alongside a literature review (HORT90004), but student design of an inquiry with methodology selection is not documented in core assessment (the research methods unit AGRI90075 and research projects FRST90076/77 are electives). Lower level (1) taken per R2 and downward resolution.",
+      "W2 straddled 2 and 3: multiple core subjects assess end-to-end professional artefacts (management plans, soil case studies, park studies, multidisciplinary reports), but assessments are submitted to the teaching team without documented external client delivery, consequential external audiences, or external performance standards. Resolved downward to 2 per R4 and the downward-direction rule.",
+      "W3: SCIE90017 (80-100h placement) and SCIE90027 (200h placement) contain full WIL placement features, but both reside within the Professional Skills elective pool where non-placement subjects can be chosen instead. Scored at level 1 per the elective anchor."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-23"
+    }
+  }
+}
