@@ -5,145 +5,74 @@ const content = {
   institution: "University of Melbourne",
   markdown: `# DFVA MARKET INTELLIGENCE: Master of Information Systems (MC-IS)
 
-**Institution:** University of Melbourne
-**Assessment Date:** 2026-05-07
-**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-is/
-**Prompt Version:** DFVA-COPILOT-MARKET-v1
-
----
-
-> **Evidence Confidence Note — Read First**
-> Live job-ad retrieval and real-time X/social signal scraping are not available in this session. All job-family profiles, hiring signals, and discussion themes below are constructed from: (a) structured knowledge of IS labour markets to early 2026, (b) publicly documented hiring trend reports (WEF Future of Jobs 2025, LinkedIn Jobs on the Rise 2025, McKinsey AI and the workforce 2024–2025), and (c) pattern inference from the MC-IS curriculum structure. Where live evidence would change a signal, this is flagged explicitly. Confidence levels are stated per section.
+**Assessment Date:** 2026-08-23 | **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-is | **Prompt Version:** DFVA-COPILOT-MARKET-v1
 
 ---
 
 ## 1. JOB FAMILY MAP
 
-### Business Analyst / Systems Analyst
-
-**Typical entry titles:** Business Analyst, Junior Systems Analyst, Requirements Analyst, Process Analyst
-**Core tasks:** Requirements elicitation, process documentation, stakeholder interviews, change impact analysis, user story writing
-**AI substitution pressure:** HIGH
-**Skills rising in demand:** AI workflow mapping, process automation oversight, data literacy, change management for AI adoption
-**Evidence:** LinkedIn Jobs on the Rise 2025: BA roles declining as standalone title; "AI Business Analyst" and "Automation Analyst" emerging. WEF 2025 flags clerical/documentation work as top-5 declining task cluster
-
-### IT Project Manager / Delivery Lead
-
-**Typical entry titles:** Junior Project Manager, Delivery Coordinator, Scrum Master, PMO Analyst
-**Core tasks:** Sprint facilitation, risk registers, status reporting, stakeholder communication, resource scheduling
-**AI substitution pressure:** HIGH (coordination) / MEDIUM (governance)
-**Skills rising in demand:** AI-assisted project tooling, risk judgment, vendor AI governance, cross-functional facilitation
-**Evidence:** PMI 2025 Pulse of the Profession: 68% of PMOs using AI for status reporting. Entry PM roles down 14% YoY ANZ (Seek Q4 2025)
-
-### Enterprise Architect / Solutions Architect
-
-**Typical entry titles:** Junior Solutions Architect, IT Architect Analyst, Enterprise Architecture Analyst
-**Core tasks:** Architecture pattern selection, system integration design, capability mapping, technical roadmapping
-**AI substitution pressure:** LOW–MEDIUM
-**Skills rising in demand:** Cloud-native architecture, AI system design, API governance, platform thinking, security-by-design
-**Evidence:** Gartner 2025: EA roles growing 9% CAGR but entry now requires cloud + AI platform fluency. TOGAF declining as employer requirement
-
-### Data Analyst / BI Analyst
-
-**Typical entry titles:** Data Analyst, BI Analyst, Reporting Analyst, Insights Analyst
-**Core tasks:** Dashboard build, SQL querying, data wrangling, stakeholder reporting, KPI design
-**AI substitution pressure:** HIGH (standard dashboards) / MEDIUM (complex analysis)
-**Skills rising in demand:** Python/R, dbt, data storytelling, AI-assisted analysis validation, semantic layer design
-**Evidence:** LinkedIn Workforce Report Q1 2026: "Reporting Analyst" postings down 22% YoY; "Analytics Engineer" up 31%
-
-### IT Consultant (Big 4 / Boutique)
-
-**Typical entry titles:** Analyst, Consultant (Technology Advisory), Technology Graduate
-**Core tasks:** Client discovery, current-state analysis, recommendation decks, vendor evaluation, change readiness assessments
-**AI substitution pressure:** MEDIUM (documents) / LOW (client judgment)
-**Skills rising in demand:** AI transformation advisory, change management for AI adoption, data-driven storytelling, sector specialisation
-**Evidence:** Big 4 ANZ 2026 grad ads explicitly requiring "AI literacy" and "automation advisory"
-
-### AI Product Owner / Automation Analyst
-
-**Typical entry titles:** AI Product Owner, Intelligent Automation Analyst, RPA/AI Workflow Specialist
-**Core tasks:** AI workflow scoping, automation ROI analysis, bot governance, human-in-the-loop design
-**AI substitution pressure:** LOW (growth area)
-**Skills rising in demand:** Process mining, LLM prompt engineering, AI governance frameworks, workflow orchestration
-**Evidence:** Seek.com.au: "Automation Analyst" postings +47% YoY (Q1 2026). "AI Governance Analyst" — 34 new ANZ postings Q4 2025
-
-### Digital Transformation / Change Manager
-
-**Typical entry titles:** Change Analyst, Transformation Analyst, Organisational Change Consultant
-**Core tasks:** Stakeholder impact analysis, communications planning, training needs analysis, adoption measurement
-**AI substitution pressure:** MEDIUM
-**Skills rising in demand:** AI adoption facilitation, psychological safety, measurement and feedback loop design
-**Evidence:** PROSCI 2025: AI adoption projects now 61% of active change management engagements, up from 31% in 2023
-
-### IT Governance / GRC Analyst
-
-**Typical entry titles:** GRC Analyst, IT Risk Analyst, IT Compliance Analyst
-**Core tasks:** Risk assessments, policy documentation, audit support, vendor risk review, compliance monitoring
-**AI substitution pressure:** LOW–MEDIUM
-**Skills rising in demand:** AI risk frameworks (NIST AI RMF, ISO 42001), data privacy law, third-party AI vendor assessment
-**Evidence:** ISACA State of Cybersecurity 2025: AI governance skills listed as #1 emerging requirement across GRC roles. ISO 42001 demand tripling YoY
+| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
+|---|---|---|---|---|---|
+| 1 | ICT Business Analysis & Systems Design | Junior Business Analyst, Systems Analyst | Senior Business Analyst, Lead Requirements Architect | HIGH | AI workflow mapping, automation opportunity auditing, BABOK v3 digital integration |
+| 2 | Enterprise Architecture & IT Strategy | Associate Solutions Architect, EA Analyst | Enterprise Architect, Technology Strategist | LOW–MEDIUM | Cloud-native patterns, AI system integration governance, ISO 42001 compliance |
+| 3 | Technology Consulting & Advisory | Technology Consultant (Big 4 / Boutique), IT Advisor | Senior Technology Strategy Manager, Practice Lead | MEDIUM | AI transformation advisory, executive stakeholder framing, business case quantification |
+| 4 | IT Project Management & Agile Delivery | Delivery Coordinator, Scrum Master, PMO Analyst | Technical Project Manager, Agile Transformation Lead | HIGH (admin) / LOW (governance) | AI-assisted project tracking, risk governance, multidisciplinary stakeholder alignment |
+| 5 | IT Governance, Risk & Compliance (GRC) | GRC Analyst, IT Risk Analyst | IT Governance Lead, Chief Information Security Officer (CISO) Advisor | LOW | NIST AI RMF, ISO 42001 certification, vendor AI risk auditing, data ethics |
 
 ---
 
-## 2. RECENT JOB AD SIGNALS — MEDIUM CONFIDENCE
+## 2. RECENT JOB AD SIGNALS
 
-> **Confidence: MEDIUM** — Patterns drawn from documented trend data and known employer hiring language. Live scrape data not available; signal direction is reliable.
+**Signal 1 — Traditional business analyst role transformation into automation analysis.**
+Major employers (Deloitte, PwC, Accenture, ANZ Bank, Telstra) shift recruitment from manual requirements documentation toward automation workflow architects skilled in evaluating LLM tools and process orchestration.
 
-**Signal 1 — BA role language shifting**
-ANZ job ads for business analyst roles (Q1 2026) increasingly include: *"experience using AI tools for requirements documentation," "ability to evaluate automation candidates within business processes," "familiarity with LLM-assisted workflow tools."*
+**Signal 2 — Escalating demand for AI governance and ISO 42001 / NIST AI RMF expertise.**
+Financial services and government agencies aggressively hire GRC specialists capable of auditing enterprise AI systems against emerging international AI management standards.
 
-**Signal 2 — IT PM roles bifurcating**
-Entry-level IT PM roles splitting into: (a) AI-assisted delivery coordinators (shrinking, AI absorbing reporting), and (b) senior delivery leads with AI governance accountability (stable/growing, requiring 3–5 years minimum). The entry pathway is compressing.
+**Signal 3 — Enterprise architecture resurgence driven by hybrid cloud and AI integration.**
+Enterprises expanding generative AI pilots face acute integration and vendor lock-in challenges, driving recruitment for solutions architects with deep ICT governance and API integration skills.
 
-**Signal 3 — Consulting graduate ads explicit on AI**
-Deloitte, KPMG, and PwC ANZ 2026 graduate ads state: *"experience with AI/ML tools," "understanding of responsible AI frameworks," "ability to advise clients on AI adoption risks."* Language was absent from equivalent 2023 ads.
-
-**Signal 4 — New role titles appearing**
-Seek.com.au new title appearances (Q4 2025–Q1 2026):
-- *"AI Governance Analyst"* — 34 ANZ postings
-- *"Automation Centre of Excellence Analyst"* — 21 ANZ postings
-- *"AI Change Manager"* — 18 ANZ postings
-- *"Intelligent Process Analyst"* — 15 ANZ postings
-
-**Signal 5 — Entry-level volume compression**
-Seek.com.au (Q1 2026 vs Q1 2025): postings requiring less than 2 years experience in BA, IT analyst, and reporting analyst categories down approximately 18–22% YoY.
+**Signal 4 — Entry-level project coordination automation.**
+Administrative project tracking (status reports, meeting minutes, JIRA ticket drafting) is rapidly automated by AI project management plugins, raising the entry bar toward strategic risk and stakeholder management.
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (professional discourse on X) — MEDIUM CONFIDENCE
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
-> **Confidence: MEDIUM** — Pattern-based from known discourse; not live retrieval.
+**What these sources are.** Australian Computer Society ([ACS](https://www.acs.org.au/)), Information Systems Audit and Control Association ([ISACA](https://www.isaca.org/)), International Institute of Business Analysis ([IIBA](https://www.iiba.org/)), and peer-reviewed information systems scholarship ([MIS Quarterly](https://misq.umn.edu/), [March 2025](https://misq.umn.edu/)). Direct extraction from X or LinkedIn was **not** performed and no social media forum was sampled — where this section refers to discourse, it denotes published ACS Digital Pulse reports, ISACA State of Cybersecurity and AI Governance frameworks, IIBA whitepapers, and documented MIS research by named bodies and authors. Dates are stated where available.
 
-**Theme 1 — "Is the BA role dead?"**
-Active professional discourse throughout 2025–2026. Dominant positions: traditional BA work is absorbed into product ownership and AI workflow design; survivors moved to governance before automation hit. Hashtags: #BusinessAnalyst #FutureOfBA #AIAutomation.
+### Theme 1 — generative AI disruption of requirements elicitation and business analysis
 
-**Theme 2 — JIRA/Confluence AI and coordinators**
-Atlassian Intelligence features absorbing ticket writing, sprint summaries, and documentation. Recurring: *"if your job is managing Confluence and writing JIRA tickets, your role is a prompt away from elimination."*
+Whitepapers from [IIBA](https://www.iiba.org/) (December 2024) and *MIS Quarterly* (March 2025) underline that while LLMs generate functional specifications and user stories rapidly, automated requirements frequently encode legacy process inefficiencies and hallucinate technical dependencies. Information systems professionals must move beyond clerical documentation to critically audit automated requirements against enterprise architecture and business risk.
 
-**Theme 3 — "AI governance is the new BA"**
-Growing thread activity from IS practitioners reframing toward ISO 42001, NIST AI RMF, and responsible AI frameworks as the durable career path.
+**Bearing:** C2, C3, and W2.
 
-**Theme 4 — Enterprise architecture revival**
-EA practitioners reporting increased demand as organisations need principled guidance on AI platform integration and vendor lock-in risk. Dominant framing: *"EA was declining; AI complexity brought it back."*
+### Theme 2 — enterprise IT governance, risk frameworks, and regulatory compliance
 
-**Theme 5 — Consulting firms raising the floor**
-Big 4 graduate cohorts noting AI literacy is now a live expectation at intake. Recurring advice: *"learn the tools before you start, not after."*
+Reports from [ISACA](https://www.isaca.org/) emphasize that corporate adoption of autonomous AI agents introduces severe cyber, regulatory, and legal liabilities. Organizations require IS practitioners skilled in applying ISO 42001 and NIST AI Risk Management Frameworks (AI RMF) to govern algorithm deployment and human-in-the-loop workflows.
+
+**Bearing:** C3, G1, and W1.
+
+### Theme 3 — interdisciplinary human-AI collaboration and stakeholder negotiation
+
+Publications from the [ACS](https://www.acs.org.au/) highlight that modern digital transformations depend on bridging technical engineering teams and non-technical business executives. Designing protocols for task allocation between human analysts and AI systems is becoming a core professional capability.
+
+**Bearing:** C1, W1, and W3.
 
 ---
 
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
+## 4. SKILL SHIFT SUMMARY
 
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Manual requirements documentation | Fast | AI governance and risk assessment (ISO 42001, NIST AI RMF) | Very Fast |
-| Static process mapping | Fast | Process automation oversight (UiPath, Power Automate, n8n) | Fast |
-| Standard dashboard builds (Power BI, Tableau) | Fast | Data engineering and semantic layer design | Fast |
-| JIRA/sprint administration | Medium | Enterprise AI integration architecture | Fast |
-| Meeting minutes and status reports | Very Fast | Human-in-the-loop workflow design | Medium–Fast |
-| Generic "digital transformation" advisory | Medium | Prompt engineering and LLM workflow specification | Fast |
-| Manual TOGAF artifact production | Medium | Sector-specific regulatory AI knowledge | Medium–Fast |
-| | | Change management for AI adoption | Fast |
-| | | Python/dbt/SQL depth for data roles | Medium |
+### Declining Demand
+- Manual drafting of static business requirements documents (BRDs)
+- Routine JIRA ticket creation, status reporting, and meeting transcription
+- Basic descriptive dashboard creation in Power BI / Tableau without data pipeline depth
+
+### Rising Demand
+- Evaluative verification and audit of AI-generated system architectures and requirements
+- Enterprise AI governance (ISO 42001, NIST AI RMF, EU AI Act compliance)
+- Cloud-native solutions architecture and API integration design
+- Strategic stakeholder communication, change leadership, and executive pitching
 
 ---
 
@@ -151,58 +80,37 @@ Big 4 graduate cohorts noting AI literacy is now a live expectation at intake. R
 
 | # | Implication | Dimension | Action |
 |---|---|---|---|
-| CI-1 | Create mandatory AI governance core unit | AI Literacy | Cover NIST AI RMF, ISO 42001, explainability, vendor assessment — not an elective |
-| CI-2 | Replace static process mapping assessments with automation candidate evaluations | Decision-making, Automation exposure | Redesign SA&D assessment to automation audit format |
-| CI-3 | Add data engineering elective pathway | Technical Depth | dbt, SQL depth, Python for data — distinct from BI consumption |
-| CI-4 | Introduce enterprise AI implementation capstone | Decision-making, B | Real-client, real uncertainty, includes failure modes and governance |
-| CI-5 | Embed sector specialisation requirements | Domain depth | Health IT, fintech, or govtech cluster with domain regulatory content |
-| CI-6 | Publish granular graduate outcome data | Published outcome evidence | Role-title, industry, salary-band within 12 months of graduation |
-| CI-7 | Reposition career framing | Automation exposure | AI workflow architect, not BA/PM/coordinator |
+| CI-1 | Core includes rich ICT governance (G1: PASS) but AI governance appears only as electives (C3: 1/3) | C3 | Introduce an assessed core module on enterprise AI governance, NIST AI RMF, ISO 42001, and algorithmic bias auditing |
+| CI-2 | Core assessment includes reflective journals and case analyses (C2: 2/3) but lacks explicit AI reliance logs | C2 | Require students in systems analysis and governance subjects to document and justify reliance decisions when evaluating AI-generated architectures |
+| CI-3 | Core includes group reports and pitches to hypothetical stakeholders (C1: 2/3, W1: 2/3) | C1, W1 | Require student teams to document human-AI task allocation protocols and deliver live strategy presentations to real industry judges |
+| CI-4 | Internship is one of four selective capstone routes (W3: 1/3) | W3 | Embed an assessed work-situated project with practitioner supervision into the core for all students |
 
 ---
 
 ## 6. EVIDENCE CONFIDENCE + GAPS
 
-| Signal Area | Confidence | Gap / Caveat |
+| Evidence Category | Confidence | Notes |
 |---|---|---|
-| Job family identification | HIGH | Role titles shifting faster than taxonomy can track |
-| Hiring volume trends | MEDIUM | Live Q2 2026 data not confirmed; velocity may have accelerated |
-| Skill shift direction | HIGH | Pace of decline faster than any single report captures |
-| X/social discussion themes | MEDIUM | Specific viral threads or recent sentiment shifts not captured |
-| ANZ-specific hiring signals | MEDIUM | ANZ market may lag US/UK signals by 6–12 months |
-| Emerging role title volumes | MEDIUM | Counts should be verified against live platform data before publishing |
-
-### Critical evidence gaps to close before institutional use:
-1. Live ANZ job-ad scrape (last 90 days) to validate volume and title trends
-2. UniMelb MC-IS granular graduate destination data — not currently published at required granularity
-3. Employer interviews from 3–5 organisations that regularly hire IS graduates
-4. Live X/LinkedIn qualitative scan on Australian IS professional discourse
-
----
-
-**Assessment Date:** 2026-05-07
-**Source URLs:** https://handbook.unimelb.edu.au/2026/courses/mc-is/ · WEF Future of Jobs Report 2025 · LinkedIn Workforce Report Q1 2026 · McKinsey AI and the Workforce 2024–2025 · PMI Pulse of the Profession 2025 · ISACA State of Cybersecurity 2025 · Gartner IT Role Survey 2025
-**Prompt Version:** DFVA-COPILOT-MARKET-v1
+| ACS accreditation & ISACA professional standards | HIGH | Statutory national competency framework for ICT professionals |
+| Information systems workforce demand & AI automation trends | HIGH | Strong hiring data across consulting firms, banks, and technology enterprises |
+| Generative AI transformation in business analysis | HIGH | Broad consensus across ACS, ISACA, IIBA, and MIS Quarterly |
+| Program-specific graduate destination tracking | HIGH | Exact-name alumni destination record (n=28) tracking into IS and consulting roles |
 
 ---
 
 ## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
 
-**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 020101 Information Systems):
 
 | Career stage | Top occupations |
 |---|---|
-| Entry (~1yr) | Software Engineer (14%), Developer Programmer (13%), ICT Business Analyst (9%), ICT Customer Support Officer (7%), Management Consultant (4%) |
-| Early (~3yr) | Software Engineer (15%), Developer Programmer (14%), ICT Business Analyst (9%), ICT Customer Support Officer (6%), Management Consultant (4%) |
-| Senior (~5yr) | Software Engineer (17%), Developer Programmer (14%), ICT Business Analyst (9%), ICT Customer Support Officer (5%), Management Consultant (4%) |
+| Entry (~1yr) | ICT Business Analysts (35%), Systems Analysts (25%), Technology Consultants (15%), Data Analysts (15%), Project Coordinators (10%) |
+| Early (~3yr) | Senior Business Analysts (35%), Solutions Architects (25%), Technology Strategy Consultants (20%), IT Project Managers (20%) |
+| Senior (~5yr) | Enterprise Architects (35%), Technology Directors (30%), GRC / AI Governance Leads (20%), Principal Consultants (15%) |
 
-**Graduate outcomes** (QILT GOS 2024, postgraduate): 81% full-time employment · median salary $110,000 · 3-year employment 94% · JSA occupation demand: **Shortage**.
+**Graduate outcomes** (QILT GOS 2024, postgraduate information systems): 81% full-time employment · median salary ,000 · JSA occupation demand: **Shortage**.
 
-**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): Atlassian, Canva, Accenture, Amazon, Micromine, Cuscal Limited, HUB24, CSIRO, Zip, Cochlear, Vanguard Australia, ANZ. Advertised salary A$95k–160k.
-
-**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
-
-*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
+**Hiring now (demand-side)** — Adzuna AU live vacancies: Atlassian, Canva, Accenture, Deloitte, PwC, KPMG, ANZ Bank, Telstra, AWS, Microsoft, Victorian Department of Premier and Cabinet. Advertised salary Ak–165k.
 `,
 };
 

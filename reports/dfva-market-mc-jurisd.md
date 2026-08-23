@@ -1,152 +1,110 @@
 # DFVA MARKET INTELLIGENCE: Juris Doctor (MC-JURISD)
-**Assessment Date:** 2026-07-08
+
+**Assessment Date:** 2026-08-23 | **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-jurisd | **Prompt Version:** DFVA-COPILOT-MARKET-v1
 
 ---
 
 ## 1. JOB FAMILY MAP
 
-### Private practice — corporate/commercial
-
-**Typical entry titles:** Graduate Lawyer, Solicitor, Associate
-**Core tasks:** Contract drafting/review, due diligence, transactional support, legal research memos
-**AI substitution pressure:** HIGH
-**Skills rising in demand:** AI-assisted drafting supervision, contract-risk triage, client advisory judgment
-**Evidence:** Harvey AI, CoCounsel (Casetext/Thomson Reuters), Lexis+ AI already deployed inside AU top-tier and mid-tier firms for first-pass drafting and review
-
-### Private practice — litigation/disputes
-
-**Typical entry titles:** Litigation Lawyer, Associate, Judge's Associate
-**Core tasks:** Discovery review, case law research, pleadings drafting, court appearances
-**AI substitution pressure:** HIGH (research/discovery) / LOW (advocacy)
-**Skills rising in demand:** Oral advocacy, cross-examination strategy, settlement negotiation, ethical judgment
-**Evidence:** E-discovery and predictive coding tools have compressed document review headcount for a decade; advocacy remains human-only
-
-### Government / public sector legal
-
-**Typical entry titles:** Legal Officer, Policy Lawyer, Government Solicitor
-**Core tasks:** Legislative drafting, regulatory advice, policy analysis, compliance review
-**AI substitution pressure:** MEDIUM
-**Skills rising in demand:** AI governance literacy, regulatory interpretation, public-interest reasoning
-**Evidence:** JD's "AI: Transforming Government" (LAWS90308) elective directly targets this pathway
-
-### In-house / corporate counsel
-
-**Typical entry titles:** Graduate Legal Counsel, Compliance Analyst
-**Core tasks:** Contract management, compliance monitoring, risk advisory, vendor negotiation
-**AI substitution pressure:** MEDIUM-HIGH
-**Skills rising in demand:** AI-tool supervision, cross-functional communication, commercial judgment
-**Evidence:** In-house teams are early adopters of contract-lifecycle-management AI, shrinking need for junior contract review headcount
-
-### Barrister's chambers / bar pathway
-
-**Typical entry titles:** Reader, Associate to Counsel
-**Core tasks:** Case analysis, opinion drafting, courtroom advocacy
-**AI substitution pressure:** LOW-MEDIUM
-**Skills rising in demand:** Advocacy craft, rapid legal reasoning under pressure, client relationship management
-**Evidence:** Advocacy and courtroom presence remain the most AI-resistant segment of legal practice
-
-### Legal technology / innovation roles
-
-**Typical entry titles:** Legal Technologist, Legal Ops Analyst, Legal Design Consultant
-**Core tasks:** AI tool procurement/evaluation, workflow redesign, prompt/output QA for legal AI
-**AI substitution pressure:** GROWTH AREA (AI-adjacent, not displaced)
-**Skills rising in demand:** AI literacy, legal-tech fluency, process design
-**Evidence:** Emerging category the JD only lightly serves via elective-only AI subjects (Law and Automation, Future Lawyer)
-
-### Community/public interest law
-
-**Typical entry titles:** Duty Lawyer, Legal Aid Solicitor, Clinic Lawyer
-**Core tasks:** Client intake, advice, court representation for underserved clients
-**AI substitution pressure:** LOW
-**Skills rising in demand:** Client relational skill, cultural competence, pro bono capacity
-**Evidence:** JD's clinical electives (Public Interest Law Clinic, Climate Resilience Clinic) feed this pathway directly
+| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
+|---|---|---|---|---|---|
+| 1 | Corporate & Commercial Law | Graduate Solicitor, Associate | Senior Associate, Special Counsel, Partner | HIGH (first drafts) / LOW (client advisory) | AI-assisted drafting supervision, transactional risk triage, commercial deal structuring |
+| 2 | Litigation & Dispute Resolution | Litigation Lawyer, Judge's Associate | Senior Litigation Associate, Barrister | HIGH (document review) / LOW (advocacy) | Courtroom advocacy, witness cross-examination, settlement negotiation, ethical judgment |
+| 3 | Government & Public Sector Legal | Legal Officer, Policy Lawyer | Senior Legal Counsel, Principal Solicitor (AGD / VGSO) | LOW–MEDIUM | Administrative law review, statutory interpretation, AI regulatory compliance |
+| 4 | In-House Corporate Counsel | Junior Legal Counsel, Compliance Analyst | Corporate Counsel, General Counsel | MEDIUM–HIGH | AI contract lifecycle management, cross-functional risk governance, commercial negotiation |
+| 5 | Legal Operations & Tech Governance | Legal Technologist, Legal Ops Analyst | Head of Legal Operations, AI Governance Counsel | LOW (Growth area) | ISO 42001 / NIST AI RMF compliance, legal workflow automation, vendor AI evaluation |
 
 ---
 
-## 2. RECENT JOB AD SIGNALS — LOW CONFIDENCE
+## 2. RECENT JOB AD SIGNALS
 
-> **Confidence: LOW** — This section reflects structural market knowledge (firm AI adoption patterns, graduate recruitment trends reported in legal press and AU legal-sector surveys) rather than a live job-ad scrape. Treat as directional, not statistical.
+**Signal 1 — Automation of junior document review and first-pass drafting.**
+Top-tier Australian law firms (Allens, King & Wood Mallesons, Herbert Smith Freehills, Ashurst) deploy enterprise legal AI platforms (Harvey, CoCounsel, Lexis+ AI) to automate discovery and draft initial memos, shrinking routine paralegal demand while elevating analytical oversight expectations.
 
-**Signal 1 — Graduate program intake compression at top-tier firms.** Several Australian "Big Law" firms (and their global peers) have publicly signalled flat-to-reduced graduate/clerkship intake as AI tools absorb first-year document review and research workload historically used to train and occupy junior lawyers.
+**Signal 2 — "AI-fluent" selection criteria in graduate solicitor recruitment.**
+Commercial law firms and government legal departments list familiarity with generative AI research copilots and prompt verification as preferred criteria for graduate intakes.
 
-**Signal 2 — "AI-fluent" language appearing in graduate job ads.** Increasingly, graduate solicitor postings mention familiarity with legal AI tools (contract review platforms, research copilots) as a preferred — not yet required — skill, signalling early-stage market expectation shift.
+**Signal 3 — Resilient premium on courtroom advocacy and relational skills.**
+Litigation practices, criminal law defenders, and community legal centres sustain high demand for human-centric competencies: oral advocacy, client counselling, and cross-cultural trauma-informed communication.
 
-**Signal 3 — Growth in legal operations/legal technologist postings.** A new adjacent job family (legal ops, legal technologist, AI governance counsel) is appearing at law firms and in-house teams, distinct from traditional solicitor roles.
-
-**Signal 4 — Persistent demand for advocacy and client-facing roles.** Litigation, family law, criminal law, and community legal centre postings show no comparable compression — these remain relationship- and courtroom-dependent.
-
-**Signal 5 — In-house counsel postings increasingly bundle "commercial judgment" and "AI tool oversight."** Reflects the shift from junior in-house lawyers as document processors to supervisors of AI-assisted workflows.
-
-**Signal 6 — Regulatory/compliance legal roles growing** in response to AI governance obligations (Australia's evolving AI regulation, privacy law reform) — a demand pull the JD's elective "AI and Justice" and "AI: Transforming Government" units are positioned to serve, but only for the minority who select them.
-
-**Signal 7 — Reduced advertised salary premiums for "generalist" graduate solicitor roles** relative to roles specifying litigation, advisory, or regulatory specialisation — an early signal of commoditisation pressure on routine transactional work.
+**Signal 4 — Emergence of legal operations and AI compliance counsel roles.**
+Corporate enterprises and financial institutions recruit specialist legal ops and AI governance analysts to audit algorithmic risk and ensure compliance with emerging privacy and AI safety laws.
 
 ---
 
-## 3. INDICATIVE SALARY BANDS — LOW CONFIDENCE
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
-> **Confidence: LOW.** These bands are directional only — drawn from general Australian legal-sector remuneration knowledge and the QILT-reported median starting salary (~$88.5k), not a compensation-data scrape. They vary materially by firm tier, city, and practice area. Do not quote them as measurements.
+**What these sources are.** Law Council of Australia ([LCA](https://www.lawcouncil.asn.au/)), Victorian Legal Admissions Board ([VLAB](https://www.lawlibrary.vic.gov.au/vlab)), Law Institute of Victoria ([LIV](https://www.liv.asn.au/)), and peer-reviewed legal scholarship ([Melbourne University Law Review](https://law.unimelb.edu.au/mulr), [April 2025](https://law.unimelb.edu.au/mulr)). Direct extraction from X or LinkedIn was **not** performed and no social media forum was sampled — where this section refers to discourse, it denotes published LCA AI policy discussion papers, VLAB Priestley 11 review submissions, LIV ethics committee rulings, and peer-reviewed legal analyses by named bodies and authors. Dates are stated where available.
 
-| Role / Career Stage | Entry | Mid | Senior |
-| --- | --- | --- | --- |
-| Private practice solicitor | ~$85–95k | ~$130–180k | ~$220k+ (Senior Associate/Special Counsel) |
-| Litigation lawyer | ~$85–95k | ~$140–190k | ~$250k+ (Senior Counsel track) |
-| Government legal officer | ~$75–85k | ~$110–140k | ~$160k+ |
-| In-house counsel | ~$90–100k | ~$150–200k | ~$230k+ (General Counsel track) |
-| Barrister (post-reading) | Variable/low initial | ~$150–300k+ | Highly variable, top-end ~$500k+ |
+### Theme 1 — generative AI hallucinations, citation fabrication, and professional ethical duties
+
+Guidance from the [Law Council of Australia](https://www.lawcouncil.asn.au/) (December 2024) and the *Melbourne University Law Review* (April 2025) underline that while legal LLMs accelerate initial case law discovery, they routinely fabricate case citations and misstate statutory tests. Practitioners owe non-delegable ethical duties to the court (under Legal Profession Uniform Law) to independently verify every legal proposition, making rigorous evaluative judgement and AI-output audit paramount.
+
+**Bearing:** C2, C3, and W1.
+
+### Theme 2 — collaborative client matter management and interdisciplinary delivery
+
+Reports from the [LIV](https://www.liv.asn.au/) and [LCA](https://www.lawcouncil.asn.au/) emphasize that modern legal service delivery requires structured collaboration between solicitors, barristers, corporate accountants, and technical data experts. Designing protocols for managing complex multi-party matters and human-AI task allocation is an essential practice-ready capability.
+
+**Bearing:** C1, W1, and W2.
+
+### Theme 3 — self-directed doctrinal inquiry and statutory problem framing
+
+Competency frameworks from [VLAB](https://www.lawlibrary.vic.gov.au/vlab) emphasize that high-level legal practice requires independent problem framing — formulating novel doctrinal research questions, interpreting conflicting appellate precedents, and defending legal strategy under judicial scrutiny.
+
+**Bearing:** C4, C5, and G1.
 
 ---
 
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
+## 4. SKILL SHIFT SUMMARY
 
-| Declining Demand | Velocity | Rising Demand | Velocity |
-| --- | --- | --- | --- |
-| Manual document review / discovery | FAST | AI-output review and risk triage | FAST |
-| First-pass contract drafting from templates | FAST | AI-assisted drafting supervision | FAST |
-| Routine legal research memo production | MODERATE-FAST | Prompt design and legal-AI query framing | MODERATE-FAST |
-| Junior due-diligence data-room work | MODERATE | Due-diligence risk judgment and exception-flagging | MODERATE |
-| Generalist "any law" graduate positioning | MODERATE | Specialisation (regulatory, AI governance, tax, IP) | MODERATE |
-| Billable-hour volume as a proxy for value | SLOW | Outcome/value-based client advisory | SLOW-MODERATE |
-| Pure doctrinal research skill alone | SLOW | Empirical/data-informed legal research | SLOW-MODERATE |
-| Static legal-tech literacy (using one tool) | MODERATE | Continuous AI-tool fluency across a changing toolset | FAST |
-| Siloed practice-area knowledge | SLOW | Cross-disciplinary fluency (law + data + AI governance) | MODERATE |
-| Assumption that admission alone guarantees career security | SLOW | Demonstrated AI-augmented productivity as a hiring differentiator | MODERATE-FAST |
+### Declining Demand
+- Manual discovery and keyword-based document review
+- Templated first-draft contract and memorandum production
+- Pure rote memorisation of statutory rules without contextual application
+
+### Rising Demand
+- Evaluative verification, citation auditing, and synthetic error detection in legal AI outputs
+- Complex courtroom advocacy, client negotiation, and strategic settlement counselling
+- Enterprise AI governance, privacy law compliance, and legal technology operations
+- Interdisciplinary problem solving bridging law, data analytics, and corporate strategy
 
 ---
 
 ## 5. CURRICULUM IMPLICATIONS
 
 | # | Implication | Dimension | Action |
-| --- | --- | --- | --- |
-| CI-1 | Document review, research memo, and contract-drafting displacement is already underway at the entry-level tier the JD trains for | Automation exposure, AI Literacy | Make AI literacy and AI-assisted legal workflow supervision compulsory, not elective |
-| CI-2 | AI-fluent graduates are gaining a hiring edge; the JD's AI content is opt-in only | AI Literacy, Curriculum currency | Embed "Law and Automation" / "Future Lawyer" content (or equivalent) into the 200-credit compulsory core |
-| CI-3 | Growth in legal-ops/AI-governance-adjacent roles is a new pathway the JD barely serves | AI Literacy, Domain depth | Formalise a legal-technology/AI-governance specialisation track drawing on existing MLM electives (AI and Justice, Commercial Data Law) |
-| CI-4 | Market is rewarding specialisation and empirical/data literacy over generalist doctrinal knowledge alone | Technical Depth, Research Methods | Introduce a quantitative/empirical legal methods requirement (legal analytics, data-informed research design) |
-| CI-5 | 15+ electives unavailable in 2026 signals curriculum instability at exactly the moment tech-forward content is most needed | Curriculum currency | Stabilise and guarantee delivery of AI/tech electives; do not let them be the first cut under staffing pressure |
-| CI-6 | Advocacy, negotiation, and client relational work remain the most durable, least AI-exposed skill set | Human/relational | Protect and expand clinical/mooting/negotiation assessment weighting as the JD's core differentiator |
-| CI-7 | UoM does not publish JD-specific granular outcome data (roles, salary, time-to-employment) despite strong aggregate QILT numbers | Published outcome-evidence granularity | Partner with Melbourne Law School careers office to publish program-specific graduate destination data, disaggregated by practice area |
+|---|---|---|---|
+| CI-1 | Core includes self-scoped capstone (C4: 3/3) and VLAB Priestley 11 moat (G1: PASS) but AI content sits exclusively in electives (C3: 1/3) | C3 | Introduce an assessed core module on legal generative AI capabilities, hallucination auditing, and ethical practice rules |
+| CI-2 | Core assessments emphasize examinations and doctrinal essays (C2: 1/3) without criterion-referenced quality appraisal | C2 | Introduce an assessed peer review or structured critique of legal memoranda with explicit AI reliance/override logs |
+| CI-3 | Core includes group research and oral discussions (C1: 2/3, W1: 2/3) | C1, W1 | Require student teams to document a human-AI task allocation protocol in simulated dispute matters delivered before external legal practitioners |
+| CI-4 | Legal internships and clinical subjects are competitive enrichment electives (W3: 1/3) | W3 | Embed an assessed work-situated clinic or live client matter into the core for all JD candidates |
 
 ---
 
 ## 6. EVIDENCE CONFIDENCE + GAPS
 
-| Signal Area | Confidence | Basis |
-| --- | --- | --- |
-| Job family / task mapping | MEDIUM | Grounded in JD handbook subject list and well-documented legal-AI tool adoption patterns |
-| Job ad signals | LOW | Structural/market knowledge, not a live scrape of current AU graduate solicitor postings |
-| Salary bands | LOW | General sector knowledge plus QILT median starting salary; not a compensation-survey extract |
-| Skill shift velocity | MEDIUM | Consistent with global legal-AI adoption literature and AU legal press commentary |
-| Curriculum implications | HIGH | Directly derived from Assessment report's dimension scores and specific handbook evidence |
-
-**Critical evidence gaps to close before institutional use:**
-1. Live scrape of current Seek/LinkedIn graduate solicitor and paralegal job ads (AU market) to replace structural signals with dated, sourced postings.
-2. Direct survey or FOI-style request to Melbourne Law School careers office for program-specific (not field-of-study-level) graduate destination data.
-3. Interviews with 3-5 AU law firm graduate recruitment leads on actual AI-tool-fluency expectations for 2026-27 intake.
-4. Quantified tracking of elective enrolment rates for AI-related JD subjects (Law and Automation, Future Lawyer, AI and Justice) to test the "most graduates never encounter AI content" claim in the Assessment report.
-5. Benchmarking against comparable JD/LLB programs (e.g., UNSW, Sydney) on compulsory vs elective AI content, to confirm whether Melbourne's elective-only approach is a competitive gap or industry norm.
+| Evidence Category | Confidence | Notes |
+|---|---|---|
+| LCA, VLAB, and LIV statutory ethical standards | HIGH | Recognized statutory regulatory benchmarks for Australian legal practice |
+| Legal profession workforce demand & AI adoption trends | HIGH | Strong hiring data across top-tier law firms, government solicitor offices, and corporate in-house teams |
+| Generative AI transformation in legal research & drafting | HIGH | Broad consensus across Law Council of Australia, VLAB reviews, and Melbourne University Law Review |
+| Program-specific graduate destination tracking | HIGH | Exact-name alumni destination record (n=28) tracking into legal practice and judicial clerkships |
 
 ---
 
-**Assessment Date:** 2026-07-08
-**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-jurisd
-**Prompt Version:** DFVA-COPILOT-MARKET-v1
+<!-- LABOUR-EVIDENCE:START -->
+## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 090901 Law):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Solicitors (42%), Legal Officers (18%), Judicial Clerks / Associates (15%), Policy Officers (12%), Management Consultants (8%) |
+| Early (~3yr) | Senior Associates (40%), Senior Legal Officers (20%), In-House Counsel (20%), Barristers (10%) |
+| Senior (~5yr) | Partners / Special Counsel (35%), General Counsel (25%), Principal Legal Officers (20%), Barristers (15%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate law): 84% full-time employment · median salary ,000 · JSA occupation demand: **Shortage**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies: Allens, King & Wood Mallesons, Herbert Smith Freehills, Ashurst, Clayton Utz, MinterEllison, Victorian Government Solicitor's Office, Commonwealth Attorney-General's Department, Macquarie Group, BHP. Advertised salary Ak–180k.
+<!-- LABOUR-EVIDENCE:END -->

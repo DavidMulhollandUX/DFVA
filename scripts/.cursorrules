@@ -15,7 +15,7 @@ DFVA batch pipeline validation and tooling
 # Architecture
 
 ## Folder Map
-- No folders detected
+- `workflows/` — Project folder
 
 ## Entry Points
 - No standard entry points detected — check manually
@@ -54,18 +54,36 @@ DFVA batch pipeline validation and tooling
 ## All Commands
 | Command | What it does |
 |---------|-------------|
-| `npm run validate` | npx tsx validate-reports.ts |
-| `npm run validate:verbose` | npx tsx validate-reports.ts --verbose |
 | `npm run dfva:gen` | npx tsx dfva-generate.ts |
-| `npm run dfva:check` | npx tsx dfva-check.ts && npx tsx dfva-registry-check.ts |
+| `npm run dfva:gen-v4` | npx tsx dfva-v4-gen.ts |
+| `npm run dfva:gen-content` | npx tsx dfva-content-generate.ts |
+| `npm run dfva:gen-assessments` | npx tsx dfva-build-assessments.ts |
+| `npm run dfva:check` | npx tsx dfva-check.ts && npx tsx dfva-content-check.ts && npx tsx dfva-registry-check.ts && npx tsx dfva-assessments-check.ts && npx tsx dfva-panela-coverage-check.ts && npx tsx dfva-reports-index-check.ts && python3 check-report-prose.py |
+| `npm run dfva:assessments-check` | npx tsx dfva-assessments-check.ts |
 | `npm run dfva:check-registry` | npx tsx dfva-registry-check.ts |
+| `npm run dfva:content-check` | npx tsx dfva-content-check.ts |
+| `npm run dfva:completeness` | npx tsx check-course-completeness.ts |
+| `npm run dfva:report-lint` | npx tsx check-report-format.ts |
+| `npm run dfva:deck` | python3 build-evidura-deck.py |
 | `npm run dfva:sync-skill` | cp ../dfva/dist/claude-skill/SKILL.md ~/.claude/skills/dfva/SKILL.md |
+| `npm run dfva:panela-coverage` | npx tsx dfva-panela-coverage-check.ts |
+| `npm run dfva:capture-check` | npx tsx check-capture-provenance.ts |
+| `npm run dfva:capture-queue` | python3 build-capture-queue.py |
+| `npm run dfva:reports-index` | npx tsx dfva-reports-index-check.ts |
+| `npm run dfva:report-prose` | python3 check-report-prose.py |
 
 ---
 
 # Module Map
 
-No modules detected
+## workflows
+- **Location**: `workflows/`
+- **Purpose**: Project folder
+- **Key files**:
+  - `workflows/socialisation-pack.js`
+  - `workflows/v4-recommend-cohort.js`
+  - `workflows/v4-score-cohort.js`
+- **File count**: 3
 
 ---
 

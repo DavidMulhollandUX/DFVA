@@ -1,5 +1,5 @@
 # dfva-scripts — Claude Memory
-> Last analyzed: 2026-07-02
+> Last analyzed: 2026-08-23
 > Re-analysis needed: NO — read .claude/rules/ files instead of source files
 
 ## What this project is
@@ -19,7 +19,6 @@ DFVA batch pipeline validation and tooling
 - @.claude/rules/api.md — all routes and endpoints
 - @.claude/rules/conventions.md — naming, patterns, testing approach
 - @.claude/rules/gotchas.md — quirks, workarounds, do-not-touch
-- @.claude/rules/changelog.md — what changed and when
 
 ## Instruction
 You have full codebase knowledge from the files above.

@@ -35,7 +35,7 @@ Pharma companies (AstraZeneca, Pfizer, Novartis AU) recruit MSLs from master's +
 **Signal 7 — Regulatory Affairs Entry Roles Growing with TGA Workload**
 TGA's increased post-COVID regulatory workload has created entry-level demand for regulatory affairs associates. Melbourne-based medical device companies and CROs are advertising RA roles requiring TGA/ICH familiarity. MC-BMEDSC provides relevant science base but no explicit regulatory curriculum.
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 > **Confidence: MEDIUM** — based on published sector data and employer public statements; primary employer interviews not yet conducted
 
 **Sector Overview**

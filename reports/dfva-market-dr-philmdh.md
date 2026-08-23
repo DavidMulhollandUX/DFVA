@@ -42,7 +42,7 @@ NHMRC/ARC-style fellowship criteria continue to weight track record (publication
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — LOW CONFIDENCE
 
 | Role | Entry (0-2 yrs) | Mid (3-7 yrs, e.g. Postdoc/Sr Postdoc) | Senior (8+ yrs, e.g. Group Leader/PI) |
 |---|---|---|---|

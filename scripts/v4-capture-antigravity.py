@@ -137,33 +137,52 @@ def fetch_url_in_chrome(url: str) -> tuple[str | None, str, list[str]]:
     return None, text, links
 
 
-def get_target_status(only_codes: set[str]) -> dict:
-    rc, out = queue_cmd("status", "--json", "--only", ",".join(only_codes))
+def get_status(only_codes: set[str] | None = None) -> dict:
+    cmd_args = ["status", "--json"]
+    if only_codes:
+        cmd_args.extend(["--only", ",".join(only_codes)])
+    rc, out = queue_cmd(*cmd_args)
     if rc != 0 or not out.startswith("{"):
         return {}
     data = json.loads(out)
     progs = data.get("programs", [])
-    target_progs = [p for p in progs if p["code"] in only_codes]
-    assembled = sum(1 for p in target_progs if p["assembled"])
-    done_pages = sum(p["done"] for p in target_progs)
-    pending_pages = sum(p["pending"] for p in target_progs)
-    leased_pages = sum(p["inflight"] for p in target_progs)
-    return {
-        "total": len(target_progs),
-        "assembled": assembled,
-        "done": done_pages,
-        "pending": pending_pages,
-        "leased": leased_pages,
-        "global_assembled": data.get("summary", {}).get("assembled", 0),
-        "global_total": data.get("summary", {}).get("programs", 0),
-        "global_done": data.get("summary", {}).get("pages", {}).get("done", 0),
-    }
+    summary = data.get("summary", {})
+    
+    if only_codes:
+        target_progs = [p for p in progs if p["code"] in only_codes]
+        assembled = sum(1 for p in target_progs if p["assembled"])
+        done_pages = sum(p["done"] for p in target_progs)
+        pending_pages = sum(p["pending"] for p in target_progs)
+        leased_pages = sum(p["inflight"] for p in target_progs)
+        return {
+            "mode": "target",
+            "total": len(target_progs),
+            "assembled": assembled,
+            "done": done_pages,
+            "pending": pending_pages,
+            "leased": leased_pages,
+            "global_assembled": summary.get("assembled", 0),
+            "global_total": summary.get("programs", 0),
+            "global_done": summary.get("pages", {}).get("done", 0),
+            "global_pending": summary.get("pages", {}).get("pending", 0),
+        }
+    else:
+        return {
+            "mode": "global",
+            "global_assembled": summary.get("assembled", 0),
+            "global_total": summary.get("programs", 0),
+            "global_done": summary.get("pages", {}).get("done", 0),
+            "global_pending": summary.get("pages", {}).get("pending", 0),
+            "global_inflight": summary.get("pages", {}).get("inflight", 0),
+            "priority": summary.get("priority", 0),
+            "priority_remaining": summary.get("priorityRemaining", 0),
+        }
 
 
 def main() -> int:
     args = sys.argv[1:]
     batch_size = 1
-    only_str = DEFAULT_CODES
+    only_str: str | None = None
     delay_s = 22
 
     if args and not args[0].startswith("-"):
@@ -183,14 +202,17 @@ def main() -> int:
         if idx + 1 < len(args):
             delay_s = int(args[idx + 1])
 
-    only_set = {c.strip() for c in only_str.split(",") if c.strip()}
+    only_set = {c.strip() for c in only_str.split(",") if c.strip()} if only_str else None
 
     if not check_chrome_running():
         print("ERROR: Google Chrome is not running. Please open Google Chrome and ensure you are logged into your session.", flush=True)
         return 1
 
     # Step 1: Check queue plan
-    rc, plan_out = queue_cmd("plan", str(batch_size), "--only", only_str)
+    plan_args = ["plan", str(batch_size)]
+    if only_str:
+        plan_args.extend(["--only", only_str])
+    rc, plan_out = queue_cmd(*plan_args)
     try:
         plan = json.loads(plan_out)
     except Exception:
@@ -210,9 +232,11 @@ def main() -> int:
     elif action == "idle":
         print("QUEUE ACTION: IDLE (All target pages are currently captured or assembled).", flush=True)
         subprocess.run([sys.executable, str(LOG_SCRIPT), "--action", "idle", "--details", "All target pages in flight or complete"])
-        status = get_target_status(only_set)
-        if status:
-            print(f"Target Coursework Status: {status['assembled']}/{status['total']} assembled · {status['done']} pages done, {status['pending']} pending, {status['leased']} leased", flush=True)
+        status = get_status(only_set)
+        if status and status.get("mode") == "target":
+            print(f"Target Status: {status['assembled']}/{status['total']} assembled · {status['done']} pages done, {status['pending']} pending", flush=True)
+        elif status:
+            print(f"Global Status: {status['global_assembled']}/{status['global_total']} assembled · {status['global_done']} pages done, {status['global_pending']} pending", flush=True)
         return 0
 
     batch = plan.get("batch", [])
@@ -262,7 +286,7 @@ def main() -> int:
 
     # Step 3: Assemble & Status
     queue_cmd("assemble")
-    status = get_target_status(only_set)
+    status = get_status(only_set)
 
     summary_str = f"Batch finished: {saved_count} saved, {failed_count} failed."
     if last_saved_info:
@@ -280,10 +304,13 @@ def main() -> int:
 
     if status:
         print("\n" + "=" * 60, flush=True)
-        print(f"🎯 TARGET COHORT PROGRESS (18 Coursework Programs):", flush=True)
-        print(f"   Assembled : {status['assembled']} / {status['total']} programs", flush=True)
-        print(f"   Pages     : {status['done']} done, {status['pending']} pending, {status['leased']} in-flight", flush=True)
-        print(f"🌐 GLOBAL PROGRESS: {status['global_assembled']} / {status['global_total']} assembled ({status['global_done']} pages done)", flush=True)
+        if status.get("mode") == "target":
+            print(f"🎯 TARGET COHORT PROGRESS:", flush=True)
+            print(f"   Assembled : {status['assembled']} / {status['total']} programs", flush=True)
+            print(f"   Pages     : {status['done']} done, {status['pending']} pending, {status['leased']} in-flight", flush=True)
+        print(f"🌐 GLOBAL PROGRESS: {status['global_assembled']} / {status['global_total']} assembled ({status['global_done']} pages done, {status['global_pending']} pending)", flush=True)
+        if "priority_remaining" in status:
+            print(f"   Priority  : {status['priority_remaining']} prioritized programs still to assemble", flush=True)
         print("=" * 60, flush=True)
 
     return 0

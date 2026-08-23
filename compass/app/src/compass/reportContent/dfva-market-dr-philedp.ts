@@ -45,7 +45,7 @@ Accredited postgraduate psychology programs report ongoing difficulty securing s
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — LOW-MEDIUM CONFIDENCE
 
 | Role | Entry (0–2 yrs) | Mid (3–7 yrs) | Senior (8+ yrs) | Notes |
 |---|---|---|---|---|

@@ -1,7 +1,7 @@
 {
   "code": "mc-nursc",
   "panelCv4": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2 anchor is satisfied several times over: core units assess collaborative practice, including a group project with individual accountability (NURS90155 pairs an assessed group activity with an assessed individual reflection on it). Not level 3: level 3 requires, on top of recurring assessed collaboration, at least one assessment where work is coordinated across people AND tools/AI systems, or where the division of work between people and systems is itself assessed. Nothing in the extract documents an assessment of role-and-tool allocation; the only human-plus-system content (electronic medical records) appears as a learning outcome with 'practical activities', not as an assessed coordination task, and it is homed in C3. Interprofessional collaboration appears in subject overviews and generic-skill lists rather than in any assessment description, so per R1/R2 it cannot lift the score. Placement teamwork is deliberately not counted here (it is homed in W3 per the one-construct-one-home rule).",

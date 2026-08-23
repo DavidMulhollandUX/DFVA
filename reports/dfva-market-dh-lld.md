@@ -28,7 +28,7 @@
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. INDICATIVE SALARY BANDS — N/A
 
 | Career Stage | Salary Band (AUD) | Notes |
 |---|---|---|

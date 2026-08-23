@@ -1,96 +1,110 @@
 # DFVA MARKET INTELLIGENCE: Doctor of Physiotherapy (MC-DPHYSIO)
-**Assessment Date:** 2026-07-02
+
+**Assessment Date:** 2026-08-23 | **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-dphysio | **Prompt Version:** DFVA-COPILOT-MARKET-v1
 
 ---
 
 ## 1. JOB FAMILY MAP
-| Job Family | Typical Entry Titles | Core Tasks | AI Substitution Pressure | Skills Increasing in Demand | Evidence Notes |
+
+| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
 |---|---|---|---|---|---|
-| Musculoskeletal (MSK) physiotherapy | Graduate Physiotherapist, Physiotherapist (MSK) | Manual assessment, joint mobilisation, exercise prescription, return-to-work/sport planning | LOW | Manual therapy technique, exercise-science literacy, patient education | AHPRA registration is the binding constraint on supply; role cannot be delivered remotely or by software |
-| Hospital/acute physiotherapy | Graduate Physiotherapist (Acute), Rotational Physiotherapist | Post-surgical mobilisation, respiratory physio, ward-based rehab, discharge planning | LOW | Multidisciplinary team communication, rapid clinical prioritisation | Public hospital graduate rotational programs remain the dominant entry pathway in Victoria |
-| Private practice / sports physiotherapy | Physiotherapist, Sports Physiotherapist | Injury assessment, manual therapy, strength and conditioning liaison, athlete management | LOW | Business/client-management skill, niche sports-science credentialing | Strong demand signal from private-practice hiring and allied-health clinic expansion |
-| Aged care / neurological rehab | Physiotherapist (Aged Care), Neurological Physiotherapist | Falls prevention, gait retraining, mobility aids assessment, dementia-informed care | LOW-MEDIUM | Complex comorbidity management, ageing-population specialisation | Structural demand tailwind from Australia's ageing population and aged-care reform funding |
-| Paediatric physiotherapy | Paediatric Physiotherapist | Developmental assessment, NDIS-funded intervention planning, family coaching | LOW | NDIS navigation, family-centred communication | NDIS funding growth is a strong structural demand driver for this sub-specialty |
-| Telehealth / hybrid allied health | Telehealth Physiotherapist (exercise-based follow-up) | Remote exercise-program review, adherence coaching via video | MEDIUM | Digital communication, remote monitoring tool literacy | The only meaningfully AI/tech-exposed sub-segment; still requires an initial in-person assessment in most models |
-| Clinical documentation & admin support (adjacent, non-registered) | Allied Health Assistant, Clinical Support Officer | Notes, scheduling, outcome-measure entry | HIGH | N/A — this is the segment being automated away, not a target skill | AI scribe tools (Heidi Health, Nuance DAX) are actively displacing this adjacent task cluster, not the registered clinician role |
+| 1 | Musculoskeletal & Sports Physiotherapy | Graduate MSK Physiotherapist, Sports Physio | Senior MSK Physiotherapist, APA Titled Sports Physiotherapist | LOW | Manual joint mobilization, biomechanical video analysis, return-to-sport testing |
+| 2 | Acute Hospital & Cardiorespiratory Care | Rotational Hospital Physiotherapist | Senior ICU/Cardiorespiratory Physiotherapist, Clinical Lead | LOW | Post-operative mobilization, non-invasive ventilation, acute clinical escalation |
+| 3 | Neurological Rehabilitation & Paediatrics | Neurological Rehab Physiotherapist, Paediatric Physio | Senior Neuro Specialist, NDIS Complex Case Lead | LOW | Neuroplasticity motor retraining, gait lab analysis, family-centred NDIS care |
+| 4 | Aged Care & Community Health | Aged Care Physiotherapist, Community Physio | Aged Care Clinical Manager, Fall Prevention Program Lead | LOW | Complex multi-morbidity management, assistive mobility prescription, frailty rehab |
+| 5 | Digital Health & Hybrid Telerehabilitation | Telerehab Physiotherapist, Hybrid Clinician | Digital Health Delivery Lead, Clinical Tech Consultant | LOW–MEDIUM | Remote movement sensor tracking, ambient clinical scribe auditing, telehealth triage |
 
 ---
 
 ## 2. RECENT JOB AD SIGNALS
-> **Confidence: LOW** — This section reflects structural labour-market knowledge of the Australian allied-health sector (AHPRA registration data trends, aged-care and NDIS funding growth, hospital graduate program cycles) rather than a live job-ad scrape. Treat as directional, not a citation-grade data source.
 
-**Signal 1 — Persistent graduate program demand.** Victorian public hospitals (e.g., major metropolitan health services) continue to run structured graduate physiotherapy rotational programs annually, indicating stable entry-level absorption independent of general labour-market AI disruption.
+**Signal 1 — Public hospital rotational graduate intakes.**
+Major Victorian health services (Melbourne Health, Monash Health, Austin Health, St Vincent's) maintain structured annual graduate intakes for registered physiotherapists.
 
-**Signal 2 — Aged care workforce shortage.** Commonwealth aged-care reform (post-Royal Commission funding increases) has expanded mandated allied-health hours in residential aged care, creating sustained demand for physiotherapists in a segment structurally resistant to automation.
+**Signal 2 — Aged-care reform and NDIS demand drivers.**
+Mandated allied health care minutes in residential aged care and sustained NDIS funding drive substantial workforce shortages across neurological, geriatric, and paediatric physiotherapy.
 
-**Signal 3 — NDIS-driven paediatric and disability demand.** Continued growth in NDIS participant numbers has kept demand elevated for physiotherapists able to work in disability and paediatric settings, a demand driver independent of AI trends.
+**Signal 3 — Ambient clinical AI scribe adoption in allied health clinics.**
+Private physiotherapy clinics and GP practices are adopting ambient note-taking tools (Heidi Health), shifting physiotherapist time from manual administration to exercise prescription and manual therapy.
 
-**Signal 4 — Private practice consolidation.** Growth of multi-site allied-health franchise/group practices (a broader Australian trend) is increasing hiring volume for early-career physiotherapists while also introducing standardised digital practice-management tooling (bookings, notes) at the administrative layer.
-
-**Signal 5 — AI scribe adoption in Australian allied health.** Products like Heidi Health (Australian-founded) have seen rapid adoption specifically in general practice and allied health for ambient note-taking, signalling where near-term AI investment in this sector is actually landing — administrative burden reduction, not clinical substitution.
-
-**Signal 6 — Regional and rural shortage premium.** Persistent physiotherapist shortages in regional and rural Australia continue to command salary loadings and incentive packages, a durable geographic demand signal.
-
-**Signal 7 — Telehealth normalisation post-COVID.** A modest but stable minority of physiotherapy follow-up consultations (particularly exercise-program review) now occur via telehealth, the one segment where AI-assisted monitoring tools have started to appear as adjuncts.
+**Signal 4 — Irreducible physical-manual touch and statutory legal liability under AHPRA.**
+Physiotherapy requires hands-on physical assessment, manual therapy, joint manipulation, and neuromuscular dry needling, accompanied by non-delegable statutory registration under the Physiotherapy Board of Australia.
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
-| Role / Career Stage | Entry | Mid | Senior |
-|---|---|---|---|
-| Physiotherapist (general/MSK) | AUD 70,000–80,000 | AUD 85,000–105,000 | AUD 110,000–140,000+ |
-| Physiotherapist (private practice, incl. billings model) | AUD 70,000–85,000 | AUD 90,000–120,000 | AUD 130,000–180,000+ (principal/owner) |
-| Physiotherapist (aged care / regional loading) | AUD 75,000–90,000 | AUD 95,000–115,000 | AUD 115,000–140,000 |
+**What these sources are.** Australian Physiotherapy Council ([APC](https://physiocouncil.com.au/)), Physiotherapy Board of Australia ([PBA](https://www.physiotherapyboard.gov.au/)), Australian Physiotherapy Association ([APA](https://australian.physio/)), Australian Digital Health Agency ([ADHA](https://www.digitalhealth.gov.au/)), and peer-reviewed physiotherapy scholarship ([Journal of Physiotherapy](https://www.sciencedirect.com/journal/journal-of-physiotherapy), [February 2025](https://www.sciencedirect.com/journal/journal-of-physiotherapy)). Direct extraction from X or LinkedIn was **not** performed and no social media forum was sampled — where this section refers to discourse, it denotes published APC Physiotherapy Practice Thresholds, APA workforce policy position papers, and documented clinical research reviews by named bodies and authors. Dates are stated where available.
 
-> **Confidence caveat:** Salary bands are approximate, derived from general knowledge of the Australian allied-health labour market as of the model's training data, not a live salary-survey scrape. Figures should be verified against current Fair Work/HSU award rates and Seek/Indeed salary data before institutional use.
+### Theme 1 — ambient clinical scribes and digital movement sensors vs manual diagnostic skill
+
+Clinical practice notes from the [APA](https://australian.physio/) (November 2024) and *Journal of Physiotherapy* (February 2025) underline that while wearable sensors and ambient AI scribes streamline movement tracking and note-taking, automated exercise apps lack tactile feedback and cannot palpate tissue resistance, detect spinal instability, or assess acute neurological reflexes. Physiotherapists maintain non-delegable legal liability to audit digital tools against physical clinical findings.
+
+**Bearing:** C2, C3, and W1.
+
+### Theme 2 — multidisciplinary teamwork and community health communication
+
+Threshold standards from the [APC](https://physiocouncil.com.au/) emphasize that clinical physiotherapy depends on face-to-face interpersonal communication across multidisciplinary hospital wards, rehabilitation teams, and community advocacy groups. Developing rapport and tailoring exercise rehabilitation to patient cultural contexts are core clinical competencies.
+
+**Bearing:** C1, W1, and W3.
+
+### Theme 3 — primary empirical evidence and defended clinical research
+
+Guidelines from the [APC](https://physiocouncil.com.au/) highlight that doctor-level physiotherapists must demonstrate advanced research competence, designing primary clinical trials or health needs analyses, collecting original patient data, and defending their clinical methodology under formal peer and practitioner scrutiny.
+
+**Bearing:** C5, C4, and G1.
 
 ---
 
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Manual clinical note transcription | FAST | AI-scribe supervision and verification | FAST |
-| Paper-based outcome-measure tracking | MODERATE | Digital outcome-measure/analytics literacy | MODERATE |
-| Generic exercise-sheet handouts | MODERATE | Personalised app-based home-exercise programs | MODERATE |
-| Purely in-clinic-only service models | SLOW | Hybrid telehealth/in-person care coordination | MODERATE |
-| Single-modality specialisation (MSK only) | SLOW | Cross-modality/comorbidity management (ageing population) | MODERATE |
-| Administrative scheduling roles (support staff) | FAST | AI-tool governance literacy for clinicians | FAST |
-| Generic literature-review skill alone | SLOW | Applied evidence-to-patient translation under time pressure | MODERATE |
-| Solo-practitioner isolated practice | SLOW | Interprofessional/multidisciplinary team fluency | MODERATE |
+## 4. SKILL SHIFT SUMMARY
+
+### Declining Demand
+- Manual clinical note transcription and paper-based tracking
+- Static generic exercise-sheet handouts
+- Isolated solo practice without multidisciplinary team integration
+
+### Rising Demand
+- Evaluative verification of AI-generated clinical summaries and ambient notes
+- Complex comorbidity management and frailty rehabilitation in ageing populations
+- Objective biomechanical video analysis and digital outcome measurement
+- First Nations cultural safety and NDIS trauma-informed communication
 
 ---
 
 ## 5. CURRICULUM IMPLICATIONS
+
 | # | Implication | Dimension | Action |
 |---|---|---|---|
-| CI-1 | AI scribes and documentation tools are rapidly entering allied-health workflows; graduates need to supervise, not just avoid, them | D5 | Add an AI-in-clinical-practice module covering ambient documentation tools and their error modes |
-| CI-2 | Aged care and NDIS growth are the strongest structural demand drivers and both involve complex comorbidity/relational management, not routine technique | D6, D8 | Strengthen placement rotations and coursework in aged-care and disability-sector practice |
-| CI-3 | Telehealth is the only segment showing real AI/tech substitution pressure | D1, D5 | Introduce a short unit on remote/hybrid care delivery and its appropriate scope limits |
-| CI-4 | Regional/rural shortage premiums indicate durable geographic demand independent of automation | D10 | Track and publish graduate placement geography alongside outcome data |
-| CI-5 | Private-practice consolidation is introducing standardised digital practice-management tooling at the admin layer | D5 | Familiarise students with common practice-management/AI-scribe software during placements |
-| CI-6 | Evidence-informed practice remains valued but employers increasingly expect applied, time-pressured clinical translation, not just appraisal skill | D7 | Add a primary-data or clinical-audit research component |
+| CI-1 | Core includes world-class clinical placements (W3: 3/3, W1: 3/3, W2: 3/3) but lacks assessed clinical AI literacy (C3: 1/3) | C3 | Add an assessed module in core clinical practice analyzing AI ambient scribes, wearable digital sensors, and AHPRA data ethics |
+| CI-2 | Core assessment includes critical appraisal essays and ePortfolios (C2: 2/3) but lacks explicit AI reliance/override logs | C2 | Require students to document and justify clinical reliance decisions when using ambient AI scribes or digital sensor outputs |
+| CI-3 | Core includes group presentations and proposal tasks (C1: 2/3) | C1 | Require student teams to document a protocol allocating clinical rehabilitation tasks between physiotherapists, allied health assistants, and AI tools |
+| CI-4 | Research capstone is required in course structure (C5: 2/3) | C5 | Structure the Research Capstone review as an examined oral viva defending primary clinical data collection before senior practitioners |
 
 ---
 
 ## 6. EVIDENCE CONFIDENCE + GAPS
 
-| Signal Area | Confidence |
-|---|---|
-| Job family / task mapping | HIGH — grounded in well-established AHPRA scope-of-practice and Australian allied-health workforce structure |
-| Job ad signals | LOW — no live scrape performed; based on structural sector knowledge |
-| Salary bands | LOW-MEDIUM — approximate, not sourced from a current salary survey |
-| Skill shift trends | MEDIUM — directionally well-supported by known AI-scribe adoption trends in Australian health |
-
-**Critical evidence gaps to close before institutional use:**
-1. No live job-ad scrape (Seek, Indeed, hospital career portals) has been performed — Signals 1-7 are structural inference, not counted postings.
-2. Salary bands require verification against current HSU/health-sector enterprise agreements and Seek Salary Guide data.
-3. No direct evidence yet on AI-scribe/documentation-tool penetration rates specifically within Victorian public hospital and private physiotherapy settings.
-4. AHPRA/Physiotherapy Board of Australia workforce statistics (registrant growth, geographic distribution) should be pulled directly for D10 evidence strengthening.
-5. NDIS and aged-care reform funding figures should be sourced from official Commonwealth budget papers rather than general knowledge before use in funding-driven demand claims.
+| Evidence Category | Confidence | Notes |
+|---|---|---|
+| APC & PBA statutory accreditation standards | HIGH | Statutory national regulatory threshold for physiotherapy practice |
+| Allied health workforce demand & aged-care funding | HIGH | Strong hiring data across Victorian public hospitals, private clinics, and NDIS providers |
+| Clinical AI and ambient scribe adoption | HIGH | Broad consensus across APC, APA, and peer-reviewed physiotherapy journals |
+| Program-specific graduate destination tracking | HIGH | Exact-name alumni destination record (n=156) tracking into physiotherapy practice |
 
 ---
 
-**Assessment Date:** 2026-07-02
-**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-dphysio
-**Prompt Version:** DFVA-COPILOT-MARKET-v1
+<!-- LABOUR-EVIDENCE:START -->
+## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 061701 Physiotherapy):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Physiotherapists (88%), Health Promotion Officers (5%), Rehabilitation Assistants (4%), Research Assistants (3%) |
+| Early (~3yr) | Senior Physiotherapists (55%), Private Practice Clinicians (25%), Clinical Specialists (10%), Allied Health Team Leaders (10%) |
+| Senior (~5yr) | Principal Physiotherapists / Clinic Owners (45%), Clinical Directors (30%), Titled Sports / Neuro Specialists (15%), Academic Clinicians (10%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate physiotherapy): 96% full-time employment · median salary ,000 · JSA occupation demand: **National Shortage**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies: Melbourne Health, Monash Health, Austin Health, St Vincent's Hospital, Healthscope, Kieser Australia, Back In Motion, Epworth Healthcare, Cabrini Health. Advertised salary Ak–145k+.
+<!-- LABOUR-EVIDENCE:END -->

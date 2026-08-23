@@ -57,30 +57,32 @@ University of Melbourne, University of Queensland, and University of Adelaide ha
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
-> **Confidence: MEDIUM** — Pattern-based from known professional discourse.
+> **Confidence: MEDIUM** — inferred from the declared evidence; see the sourcing note below.
+
+**What these sources are.** The themes below are this report's reading of the labour-market evidence it declares — WEF Future of Jobs, the LinkedIn Workforce Report, Jobs and Skills Australia / Labour Market Insights, Seek trend data and domain-specific industry reporting — together with domain knowledge of the field. Direct extraction from X, LinkedIn, Reddit or any professional forum was **not** performed and no platform was sampled: "discussion" here means what that evidence implies practitioners are facing, not an observed corpus of posts. Dates are given where a source carries one.
 
 **Theme 1 — AI Diagnostic Tools as Adjunct, Not Replacement — Specialist Oversight Required**
-Discussion in Australian Dental Association forums, LinkedIn dental professional groups, and platforms like DentalTown consistently positions AI diagnostic tools (Pearl, Videa Health, Overjet) as requiring specialist review rather than replacing it. The recurring argument is that AI tools trained on population-level radiographic data will miss rare and complex presentations — precisely the case mix that justifies specialist referral in the first place. Regulatory commentary from the Dental Board of Australia reinforces the position that AI-flagged findings require clinician validation.
+AI diagnostic tools (Pearl, Videa Health, Overjet) require specialist review rather than replacing it. The recurring argument is that AI tools trained on population-level radiographic data will miss rare and complex presentations — precisely the case mix that justifies specialist referral in the first place. Regulatory commentary from the Dental Board of Australia reinforces the position that AI-flagged findings require clinician validation.
 
 **Theme 2 — CAD/CAM and Digital Dentistry as Core Specialist Competency**
-Australian specialist dentists discussing professional development on LinkedIn and at RACDS scientific meetings flag intraoral scanning, digital occlusal analysis, and software-driven treatment planning as skills they expected to be taught but were not during their specialist training. This represents a curriculum gap actively discussed in the community — graduates perceive themselves as needing to self-educate on digital workflows post-qualification.
+Intraoral scanning, digital occlusal analysis and software-driven treatment planning are expected of specialists but are not taught during specialist training. This represents a curriculum gap actively discussed in the community — graduates perceive themselves as needing to self-educate on digital workflows post-qualification.
 
 **Theme 3 — Specialist Workforce Undersupply and Long Wait Times**
 Public and media discussion throughout 2025–2026 has highlighted that specialist dental wait times in public systems (e.g., DHSV specialist clinics) stretch to 18–24 months for complex prosthodontics or oral medicine cases. This discussion reinforces the structural undersupply of credentialed specialists and is driving policy debate about whether the MCD and equivalent programs are producing enough graduates.
 
 **Theme 4 — Cultural Safety and First Nations Oral Health**
-Professional discourse in Australian dental communities has intensified around the obligation of specialist training programs to embed cultural safety and First Nations oral health content. LinkedIn posts from Aboriginal Community Controlled Health Organisation (ACCHO) dental staff and ADA indigenous health advocates call for specialist dentists entering rural and remote roles to have explicit training in culturally responsive care — a competency gap signalled as material for employer preference in public-sector hiring.
+Professional discourse in Australian dental communities has intensified around the obligation of specialist training programs to embed cultural safety and First Nations oral health content. Specialist dentists entering rural and remote roles need explicit training in culturally responsive care, and that competency is material to public-sector hiring.
 
 **Theme 5 — Medically Compromised Patient Complexity Increasing**
 Dental professional discussion boards and peer-reviewed commentary note that the average complexity of medically compromised patients requiring specialist dental care is rising — driven by ageing, polypharmacy, increasing cancer survivorship, and organ transplant volumes. This shifts specialist practice further toward interdisciplinary hospital and community health settings, which are systematically underrepresented in private-practice-oriented specialist training.
 
 **Theme 6 — Student Debt and Return on Investment Concerns**
-Discussions among dental postgraduate students on Reddit (r/Dentistry, r/AustraliaDentistry) and LinkedIn highlight concerns about the cost of MCD programs ($150K+ in fees) against the expected specialist practice income trajectory. The consensus in these discussions is that the financial return is positive but back-loaded — with income inflection occurring at years 3–5 post-specialist registration, typically when a practitioner transitions from employee to principal/owner in a specialist practice. This is a recruitment-and-retention framing issue for programs.
+MCD program fees above $150,000 weigh against the expected specialist practice income trajectory. The consensus in these discussions is that the financial return is positive but back-loaded — with income inflection occurring at years 3–5 post-specialist registration, typically when a practitioner transitions from employee to principal/owner in a specialist practice. This is a recruitment-and-retention framing issue for programs.
 
 **Theme 7 — Telehealth Regulatory Ambiguity for Dental Specialists**
-Australian dental professionals discussing telehealth on LinkedIn and the ADA's member platforms note that state-by-state regulatory inconsistency is the main barrier to specialist oral health telehealth expanding more rapidly. Several specialists note performing telehealth consultations informally but being unclear about their indemnity coverage. This signals an emerging professional literacy gap around telehealth governance for specialist dental graduates.
+State-by-state regulatory inconsistency is the main barrier to specialist oral health telehealth expanding more rapidly. Several specialists note performing telehealth consultations informally but being unclear about their indemnity coverage. This signals an emerging professional literacy gap around telehealth governance for specialist dental graduates.
 
 ---
 

@@ -58,18 +58,20 @@ Alfred Health, Royal Melbourne Hospital, and Austin Health advertise neuropsycho
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
-> **Confidence: MEDIUM** — Pattern-based from known professional discourse.
+> **Confidence: MEDIUM** — inferred from the declared evidence; see the sourcing note below.
+
+**What these sources are.** The themes below are this report's reading of the labour-market evidence it declares — WEF Future of Jobs, the LinkedIn Workforce Report, Jobs and Skills Australia / Labour Market Insights, Seek trend data and domain-specific industry reporting — together with domain knowledge of the field. Direct extraction from X, LinkedIn, Reddit or any professional forum was **not** performed and no platform was sampled: "discussion" here means what that evidence implies practitioners are facing, not an observed corpus of posts. Dates are given where a source carries one.
 
 **Theme 1 — THE AHPRA INTERNSHIP BOTTLENECK IS A PERSISTENT CRISIS TOPIC**
-The Australian psychology profession's two-year provisional registration pathway (4+2 model) or fourth-year honours + MPsych route continues to generate heated discourse on platforms including the Australian Psychological Society (APS) forums and psychology LinkedIn communities. Graduates report difficulty securing approved supervisors, particularly outside major metro centres. The MPsych's ability to reduce this burden (by embedding supervised hours within the degree) is a key competitive advantage that needs to be communicated clearly to prospective students.
+The two-year provisional registration pathway (4+2 model) and the fourth-year honours plus MPsych route remain contested within the profession. Graduates report difficulty securing approved supervisors, particularly outside major metro centres. The MPsych's ability to reduce this burden (by embedding supervised hours within the degree) is a key competitive advantage that needs to be communicated clearly to prospective students.
 
 **Theme 2 — AI TOOLS IN CLINICAL PRACTICE: FEAR VS. EXPERIMENTATION**
 Professional psychology communities are actively debating the appropriate use of AI tools for case note generation, treatment planning aids, and psychoeducation content creation. The prevailing sentiment in APS and RANZCP-adjacent discussions is cautious openness — AI is seen as capable of reducing administrative burden but is firmly rejected as unsuitable for therapeutic decisions. Graduates are entering workplaces where they will need to make informed ethical judgements about AI tool adoption, a literacy the curriculum should explicitly address.
 
 **Theme 3 — BULK BILLING CRISIS REDUCING PRIVATE PRACTICE VIABILITY FOR EARLY CAREER**
-Psychology Twitter/X and LinkedIn discussions reflect growing anxiety about the sustainability of private practice for early-career psychologists under Medicare's bulk-billing incentive structure. The gap between Medicare rebates and private fees means many clients cannot afford non-bulk-billed psychology, while bulk-billing alone is financially unviable for practitioners. This is reshaping career trajectories toward salaried roles (NDIS, EAP, hospitals), with implications for how the program frames private practice as a career pathway.
+The sustainability of private practice for early-career psychologists under Medicare's bulk-billing incentive structure is in question. The gap between Medicare rebates and private fees means many clients cannot afford non-bulk-billed psychology, while bulk-billing alone is financially unviable for practitioners. This is reshaping career trajectories toward salaried roles (NDIS, EAP, hospitals), with implications for how the program frames private practice as a career pathway.
 
 **Theme 4 — SCOPE OF PRACTICE DEBATES AROUND PRESCRIBING AND EXPANDED ROLES**
 International discussions (particularly from the US and UK) about expanding psychologist prescribing rights are beginning to surface in Australian professional forums. While prescribing rights for psychologists are not imminent in Australia, the discourse signals a profession actively examining role boundary expansion. Curriculum conversations are emerging about whether MPsych programs should include more psychopharmacology content to prepare graduates for interprofessional practice in psychiatric settings.
@@ -81,7 +83,7 @@ Online psychology communities, particularly those active on Instagram and dedica
 National discussions on psychology workforce supply consistently highlight that rural and regional Australia face severe shortages of registered psychologists, while metro areas (especially inner Melbourne) are increasingly saturated. The Victorian government's Rural Health Workforce Strategy and the NWHN are funding rural telehealth expansion. Programs are being scrutinised on whether they actively prepare or incentivise graduates for rural practice.
 
 **Theme 7 — PSYCHEDELIC-ASSISTED THERAPY TRAINING AS AN EMERGING CREDENTIAL**
-Discussions among early-career psychologists on LinkedIn and in professional development spaces reflect growing interest in psychedelic-assisted therapy (psilocybin, MDMA) following TGA scheduling changes in 2023. While still a niche pathway, the discourse indicates that graduates who acquire foundational training in this modality (through postgraduate certificates or CPD programs) are differentiated in the emerging integrative mental health market. MPsych programs are not currently required to address this, but it represents a visible CPD-to-credential pipeline forming in the profession.
+Interest in psychedelic-assisted therapy (psilocybin, MDMA) among early-career psychologists has grown since the TGA scheduling changes of 2023. While still a niche pathway, the discourse indicates that graduates who acquire foundational training in this modality (through postgraduate certificates or CPD programs) are differentiated in the emerging integrative mental health market. MPsych programs are not currently required to address this, but it represents a visible CPD-to-credential pipeline forming in the profession.
 
 ---
 

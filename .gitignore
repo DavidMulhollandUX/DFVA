@@ -35,8 +35,15 @@ Thumbs.db
 screencapture-enterprise-services-group-github-io-DFVA-2026-05-14-16_01_31.png
 docs/workflow-sop.md
 
-# Claude Code — personal/local settings (keep out of the shared repo)
-.claude/
+# Claude Code — personal/local settings (keep out of the shared repo).
+# Exception: rules/ and skills/ are shared conventions the pipeline depends on.
+# CLAUDE.md tells every agent to read .claude/rules/; a fresh clone must get them.
+/.claude/*
+!/.claude/rules/
+!/.claude/skills/
+# Nested per-subproject .claude/ dirs hold auto-generated stubs — keep them out.
+*/.claude/
+*/*/.claude/
 
 # Hermes Agent — personal/local (keep out of the shared repo)
 .hermes/

@@ -38,7 +38,7 @@ A small but growing proportion of R&D chemistry roles now mention familiarity wi
 **Signal 7 — "NOT AVAILABLE IN 2026" UNITS SIGNAL CURRICULUM FLUX**
 Multiple handbook units are flagged as not available in 2026, which is unusual. This may reflect staff departures, research priority shifts, or transition to new curriculum structures. It creates uncertainty for prospective students and warrants institutional clarification.
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — LOW CONFIDENCE
 
 | Sector | ANZ Demand Trend | Chemistry Role Density | Notes |
 |---|---|---|---|

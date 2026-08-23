@@ -53,24 +53,26 @@ IBO's examiner recruitment postings confirm ongoing need for subject-specific ex
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
-> **Confidence: MEDIUM** — Pattern-based from known professional discourse.
+> **Confidence: MEDIUM** — inferred from the declared evidence; see the sourcing note below.
+
+**What these sources are.** The themes below are this report's reading of the labour-market evidence it declares — WEF Future of Jobs, the LinkedIn Workforce Report, Jobs and Skills Australia / Labour Market Insights, Seek trend data and domain-specific industry reporting — together with domain knowledge of the field. Direct extraction from X, LinkedIn, Reddit or any professional forum was **not** performed and no platform was sampled: "discussion" here means what that evidence implies practitioners are facing, not an observed corpus of posts. Dates are given where a source carries one.
 
 **Theme 1 — AI in IB Assessment: Examiner Community Anxiety and IBO Policy Lag**
-IB educator communities on X (formerly Twitter), LinkedIn, and the IB Community Forum are actively debating how generative AI affects student Extended Essays, Theory of Knowledge essays, and Internal Assessments. Educators are concerned that current IBO academic integrity policies are insufficient, and that examiners lack reliable detection tools. This is generating demand for professional development on AI-integrity in IB assessment — a concrete curriculum opening for the MEd IB program to address.
+How generative AI affects student Extended Essays, Theory of Knowledge essays and Internal Assessments is unresolved. Educators are concerned that current IBO academic integrity policies are insufficient, and that examiners lack reliable detection tools. This is generating demand for professional development on AI-integrity in IB assessment — a concrete curriculum opening for the MEd IB program to address.
 
 **Theme 2 — IB Diploma Grade Inflation and Score Validity Concerns**
 Discourse among IB educators and university admissions staff is intensifying around reported grade inflation in IB Diploma results, particularly since 2020 COVID-era adjustments. X threads from IB practitioners cite misalignment between predicted grades and actual university performance. This has institutional implications: IB coordinators are increasingly asked to provide statistical literacy in grade prediction and moderation, requiring skills beyond traditional curriculum coordination.
 
 **Theme 3 — International School Market Consolidation and Group Ownership**
-IB educator LinkedIn discourse increasingly references the rapid consolidation of international schools under private equity and transnational school groups (Nord Anglia, Cognita, Inspired, GEMS). Educators note that this changes hiring dynamics: group-level HR standardises role requirements, reduces coordinator autonomy, and increases accountability reporting. IB graduates entering group-owned schools face a more corporate environment than the traditional founder-led international school culture.
+International schools are consolidating rapidly under private equity and transnational school groups (Nord Anglia, Cognita, Inspired, GEMS). Educators note that this changes hiring dynamics: group-level HR standardises role requirements, reduces coordinator autonomy, and increases accountability reporting. IB graduates entering group-owned schools face a more corporate environment than the traditional founder-led international school culture.
 
 **Theme 4 — Demand for Culturally Responsive IB Curriculum Design**
-X and LinkedIn discussions among IB educators flag persistent tension between IB's standardised international curriculum and local cultural contexts, particularly in African and Southeast Asian markets. Practitioners argue that IB teacher training inadequately prepares graduates for adapting IB frameworks to non-Western knowledge traditions. This is a recurring theme in IB professional learning networks and a gap that MEd IB graduates with cross-cultural education training are positioned to address.
+There is persistent tension between IB's standardised international curriculum and local cultural contexts, particularly in African and Southeast Asian markets. Practitioners argue that IB teacher training inadequately prepares graduates for adapting IB frameworks to non-Western knowledge traditions. This is a recurring theme in IB professional learning networks and a gap that MEd IB graduates with cross-cultural education training are positioned to address.
 
 **Theme 5 — Burnout and Workload in IB Teaching Roles**
-Educator communities on X and Reddit (r/IBO, r/Teachers) document significant workload concerns specific to IB teaching: volume of Internal Assessment moderation, complexity of criterion-referenced marking, pace of subject guide updates, and documentation demands of the IBO Programme Standards and Practices. For early-career MEd IB graduates, this is a retention risk signal — schools with high IB workload and inadequate coordinator support report higher turnover.
+Workload specific to IB teaching is heavy: volume of Internal Assessment moderation, complexity of criterion-referenced marking, pace of subject guide updates, and documentation demands of the IBO Programme Standards and Practices. For early-career MEd IB graduates, this is a retention risk signal — schools with high IB workload and inadequate coordinator support report higher turnover.
 
 **Theme 6 — Mandarin/Spanish-Speaking IB Educators in Short Supply**
 International school recruiters posting on LinkedIn and X comment regularly on shortage of IB-qualified language teachers — particularly Mandarin Language and Literature (Group 1) and Spanish B teachers for the IB Diploma. The shortage is acute in markets where IB schools are growing fastest (Southeast Asia, Latin America, UAE). MEd IB graduates who pair IB pedagogy with a second language have materially stronger placement prospects.

@@ -120,7 +120,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "038ab": {
     "code": "038ab",
     "name": "Master of Art Curatorship",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 76.58,
     "entryExposure": 74.44,
     "jirN": 94,
@@ -185,7 +185,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "097ab": {
     "code": "097ab",
     "name": "Master of Development Studies",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 92.5,
     "entryExposure": 92.94,
     "jirN": 104,
@@ -206,7 +206,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "175aa": {
     "code": "175aa",
     "name": "Master of Arts and Cultural Management",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 85.86,
     "entryExposure": 81.76,
     "jirN": 98,
@@ -227,7 +227,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "192aa": {
     "code": "192aa",
     "name": "Master of International Tax",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 94.83,
     "entryExposure": 94.15,
     "jirN": 676,
@@ -249,7 +249,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "195aa": {
     "code": "195aa",
     "name": "Master of Construction Law",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 95.64,
     "entryExposure": 94.68,
     "jirN": 88,
@@ -262,6 +262,27 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
         {
           "name": "Master of Construction Law",
           "n": 88
+        }
+      ],
+      "indexVariant": "AIOE-2021"
+    }
+  },
+  "277aa": {
+    "code": "277aa",
+    "name": "Master of Intellectual Property Law",
+    "hasMarketReport": true,
+    "exposure": 95.26,
+    "entryExposure": null,
+    "jirN": 36,
+    "nTitles": 12,
+    "nMedium": 3,
+    "exposureBasis": {
+      "tier": "exact",
+      "grain": "program",
+      "sources": [
+        {
+          "name": "Master of Intellectual Property Law",
+          "n": 36
         }
       ],
       "indexVariant": "AIOE-2021"
@@ -292,7 +313,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "305bb": {
     "code": "305bb",
     "name": "Master of Clinical Audiology",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 81.09,
     "entryExposure": 79.31,
     "jirN": 156,
@@ -313,7 +334,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "342aa": {
     "code": "342aa",
     "name": "Master of Psychiatry",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 90.74,
     "entryExposure": 88.67,
     "jirN": 54,
@@ -334,7 +355,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "344ab": {
     "code": "344ab",
     "name": "Master of Public Policy and Management",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 95.04,
     "entryExposure": 92.34,
     "jirN": 165,
@@ -355,7 +376,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "502cw": {
     "code": "502cw",
     "name": "Master of Laws",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 94.83,
     "entryExposure": 94.15,
     "jirN": 676,
@@ -503,6 +524,27 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "note": "Professional psychology stream; same program-family record the reconciliation package used for 527cl."
     }
   },
+  "706aa": {
+    "code": "706aa",
+    "name": "Master of Social Policy",
+    "hasMarketReport": true,
+    "exposure": 96.05,
+    "entryExposure": 95.96,
+    "jirN": 66,
+    "nTitles": 13,
+    "nMedium": 13,
+    "exposureBasis": {
+      "tier": "exact",
+      "grain": "program",
+      "sources": [
+        {
+          "name": "Master of Social Policy",
+          "n": 66
+        }
+      ],
+      "indexVariant": "AIOE-2021"
+    }
+  },
   "742ab": {
     "code": "742ab",
     "name": "Master of Tax",
@@ -591,7 +633,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "991aa": {
     "code": "991aa",
     "name": "Master of Biostatistics",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 93.92,
     "entryExposure": 93.92,
     "jirN": null,
@@ -875,6 +917,27 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "note": "Professional psychology stream; same program-family record the reconciliation package used for 527cl."
     }
   },
+  "m04aa": {
+    "code": "m04aa",
+    "name": "Master of Music Therapy",
+    "hasMarketReport": true,
+    "exposure": 70.67,
+    "entryExposure": 68.64,
+    "jirN": 43,
+    "nTitles": 12,
+    "nMedium": 9,
+    "exposureBasis": {
+      "tier": "exact",
+      "grain": "program",
+      "sources": [
+        {
+          "name": "Master of Music Therapy",
+          "n": 43
+        }
+      ],
+      "indexVariant": "AIOE-2021"
+    }
+  },
   "mc-actsc": {
     "code": "mc-actsc",
     "name": "Master of Actuarial Science",
@@ -895,6 +958,48 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       ],
       "indexVariant": "AIOE-2021",
       "note": "Actuarial discipline; the only actuarial alumni record (docs/JIR/dfva_jir_map.json named it for mc-actsc)."
+    }
+  },
+  "mc-anp": {
+    "code": "mc-anp",
+    "name": "Master of Advanced Nursing Practice",
+    "hasMarketReport": true,
+    "exposure": 76.38,
+    "entryExposure": 70.05,
+    "jirN": 69,
+    "nTitles": 15,
+    "nMedium": 5,
+    "exposureBasis": {
+      "tier": "exact",
+      "grain": "program",
+      "sources": [
+        {
+          "name": "Master of Advanced Nursing Practice",
+          "n": 69
+        }
+      ],
+      "indexVariant": "AIOE-2021"
+    }
+  },
+  "mc-ap": {
+    "code": "mc-ap",
+    "name": "Master of Applied Psychology",
+    "hasMarketReport": true,
+    "exposure": 95.57,
+    "entryExposure": 93.63,
+    "jirN": 47,
+    "nTitles": 15,
+    "nMedium": 13,
+    "exposureBasis": {
+      "tier": "exact",
+      "grain": "program",
+      "sources": [
+        {
+          "name": "Master of Applied Psychology",
+          "n": 47
+        }
+      ],
+      "indexVariant": "AIOE-2021"
     }
   },
   "mc-bamktg": {
@@ -969,6 +1074,27 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
           ]
         }
       ]
+    }
+  },
+  "mc-chemeng": {
+    "code": "mc-chemeng",
+    "name": "Master of Chemical Engineering",
+    "hasMarketReport": true,
+    "exposure": 89.78,
+    "entryExposure": 91.16,
+    "jirN": 17,
+    "nTitles": 10,
+    "nMedium": 3,
+    "exposureBasis": {
+      "tier": "exact",
+      "grain": "program",
+      "sources": [
+        {
+          "name": "Master of Chemical Engineering",
+          "n": 17
+        }
+      ],
+      "indexVariant": "AIOE-2021"
     }
   },
   "mc-climsci": {
@@ -1293,6 +1419,17 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     ],
     "indexVariant": "AIOE-2021"
   },
+  "277aa": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Intellectual Property Law",
+        "n": 36
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
   "300bb": {
     "tier": "partial",
     "grain": "related-program",
@@ -1441,6 +1578,17 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     ],
     "indexVariant": "AIOE-2021",
     "note": "Professional psychology stream; same program-family record the reconciliation package used for 527cl."
+  },
+  "706aa": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Social Policy",
+        "n": 66
+      }
+    ],
+    "indexVariant": "AIOE-2021"
   },
   "742ab": {
     "tier": "exact",
@@ -1858,6 +2006,17 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "indexVariant": "AIOE-2021",
     "note": "Professional psychology stream; same program-family record the reconciliation package used for 527cl."
   },
+  "m04aa": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Music Therapy",
+        "n": 43
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
   "mc-actsc": {
     "tier": "cognate",
     "grain": "related-program",
@@ -1869,6 +2028,28 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     ],
     "indexVariant": "AIOE-2021",
     "note": "Actuarial discipline; the only actuarial alumni record (docs/JIR/dfva_jir_map.json named it for mc-actsc)."
+  },
+  "mc-anp": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Advanced Nursing Practice",
+        "n": 69
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "mc-ap": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Applied Psychology",
+        "n": 47
+      }
+    ],
+    "indexVariant": "AIOE-2021"
   },
   "mc-apbusa": {
     "tier": "partial",
@@ -1981,6 +2162,17 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     ],
     "indexVariant": "AIOE-2021",
     "note": "Reconciliation package tier partial."
+  },
+  "mc-chemeng": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Chemical Engineering",
+        "n": 17
+      }
+    ],
+    "indexVariant": "AIOE-2021"
   },
   "mc-climsci": {
     "tier": "cognate",
@@ -2603,7 +2795,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "mechanical": true,
       "date": "2026-08-19"
     },
-    "instrument": "4.1-draft"
+    "instrument": "4.2-draft"
   },
   "080cl": {
     "instrument": "4.2-draft",
@@ -3065,7 +3257,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
         "The research will incorporate both theoretical inquiry and primary research."
       ]
     },
-    "adaptiveness": 6,
+    "adaptiveness": 8,
     "W1": {
       "score": 2,
       "rationale": "Level 2 requires at least one core assessment using a recognised professional genre or an audience beyond the teaching team, judged against criteria drawn from professional practice. ARTS90024 (Arts Management Placement, a capstone stream) requires '150 hours of on-site work experience' in 'a professional working environment' with assessment including 'Reflective Journal' and 'Research Report or Essay' (6000 words, 60%) — delivered to and judged by workplace supervisors. MULT90064 (Arts Management Project, another capstone) requires a 'Creative Portfolio' (5000 words equivalent, 50%) and a team project delivered under supervision. AMGT90001 includes 'class presentation' assessed against professional management criteria. Not level 3: the anchor requires professional communication assessed repeatedly and progressively across the program AND at least one core assessment delivered to a real external audience or practitioner. The placement (ARTS90024) is one of three capstone options, not progressive across the program.",
@@ -3293,7 +3485,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
         "Independently investigate, examine and analyse existing and emerging legal issues relating to construction projects."
       ]
     },
-    "adaptiveness": 5,
+    "adaptiveness": 6,
     "W1": {
       "score": 2,
       "rationale": "Level 2 requires at least one core assessment using a recognised professional genre or an audience beyond the teaching team, judged against criteria drawn from professional practice. LAWS70270 (Construction Contract Analysis, Drafting) requires 'Interim written assessment' (500 words, 15%) and 'Take-home examination' (4500 words, 85%) — the take-home exam involves drafting and analysing construction contracts, a professional legal genre. LAWS70176 (Construction Law) involves 'construction site visits' and assessment of 'the interaction between the technical, commercial and legal aspects' — judged against professional practice criteria. LAWS70329 (Residential Construction Law) is taught by 'Judge Suzanne Kirton' and 'Dr Matthew Bell (whose PhD was on residential construction regulation)' — assessment criteria drawn from professional practice. Not level 3: the anchor requires professional communication assessed repeatedly and progressively AND at least one core assessment delivered to a real external audience or practitioner. No assessment is delivered to an external audience.",
@@ -3359,7 +3551,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "244cw": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Two compulsory subjects assess collaborative work: POPH90274 (two group presentations and mentor-marked group participation) and POPH90218 (a team presentation of approximately five students). This satisfies the level 2 anchor. The level 3 anchor additionally requires at least one assessment in which work is coordinated across people and tools or AI systems; no such assessment is documented, so level 3 is not awarded.",
@@ -3476,6 +3668,134 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "adversarial": true,
       "mechanical": true,
       "date": "2026-08-14"
+    }
+  },
+  "277aa": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 1,
+      "rationale": "Level 1: collaboration and teamwork appear in graduate attributes — 'Capacity to value and participate in teamwork' and 'Small class sizes and an intensive teaching format are valuable in encouraging group dynamics and teamwork' — but no core unit assesses collaborative practice as a graded group project with individual accountability. In LAWS90094 (International IP Dispute Settlement), assessment includes 'Class participation in a dispute simulation (10 minute small-group exercise and 500 word report)' (20%), but this is an in-class simulation exercise with an individual report and participation mark rather than a graded collaborative project with individual accountability, and LAWS90094 is one elective option among 15 IP subjects. Not level 2: no core unit assesses collaborative practice with group projects, individual accountability, or interprofessional activity.",
+      "evidenceLines": [
+        "Capacity to value and participate in teamwork",
+        "Small class sizes and an intensive teaching format are valuable in encouraging group dynamics and teamwork.",
+        "Class participation in a dispute simulation (10 minute small-group exercise and 500 word report)"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1: reflection and evaluative judgment appear in course learning outcomes and graduate attributes — 'analyse, critically reflect on and synthesise complex information, concepts and theories in the field of intellectual property law;', 'Ability to investigate, evaluate, synthesise and apply existing knowledge in the relevant area(s) with creativity and initiative', and 'Well-developed problem solving abilities, characterised by flexibility of approach' — but no core unit assesses criterion-referenced appraisal of quality (peer review, structured critique, portfolio with standards, marking against exemplars). Not level 2: assessments consist of take-home examinations, written submissions, oral presentations, and research papers, none of which require students to appraise the quality of their own, peers', or a tool's work against criteria or document reliance/override decisions.",
+      "evidenceLines": [
+        "analyse, critically reflect on and synthesise complex information, concepts and theories in the field of intellectual property law;",
+        "Ability to investigate, evaluate, synthesise and apply existing knowledge in the relevant area(s) with creativity and initiative",
+        "Well-developed problem solving abilities, characterised by flexibility of approach"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1: AI and digital tools appear exclusively as optional elective subjects in the 'IP-relevant subjects' list (e.g. LAWS90145 Artificial Intelligence and the Law, LAWS90308 AI: Transforming Government, LAWS90286 Legal AI: Design and Development, LAWS90334 International Law and AI) and as an elective case study topic in LAWS70208 ('This subject examines the interface of competition law, intellectual property and personality rights in Australia and comparable jurisdictions. The subject will include case studies in topical areas such as big data, digital platforms, AI invention, file-sharing and online search.'). The graduate attributes mention technology only as general campus IT infrastructure ('The most advanced IT infrastructure is available to Melbourne Law Masters students in the Law Library, the Moot Court Room, classroom settings and for private study.'). Not level 2: no core unit required across the program assesses AI capabilities, limitations, or ethics.",
+      "evidenceLines": [
+        "LAWS90145\tArtificial Intelligence and the Law",
+        "LAWS90308\tAI: Transforming Government",
+        "LAWS90286\tLegal AI: Design and Development",
+        "This subject examines the interface of competition law, intellectual property and personality rights in Australia and comparable jurisdictions. The subject will include case studies in topical areas such as big data, digital platforms, AI invention, file-sharing and online search.",
+        "The most advanced IT infrastructure is available to Melbourne Law Masters students in the Law Library, the Moot Court Room, classroom settings and for private study."
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2: core assessments require application to novel or unfamiliar legal problems, case variations, and unseen scenarios. In LAWS70021 (Patent Law), students apply patent principles in workshops to actual patent claims and prior art and are assessed via an 'Outline of written submissions' (2500 words, 40%) and an 'Oral assessment' (15-20 minutes, 40%) on novel disputes. In LAWS70387 (Fundamentals of Patent Drafting), students are assessed on drafting patent specifications for novel invention disclosures (take-home draft 20%, supervised exam 75%). In LAWS70046, LAWS70061, LAWS70207, and LAWS90035, take-home examinations (4000-6500 words) require applying complex statutory and doctrinal rules to novel multi-issue fact patterns. Not level 3: the program does not document structured progression toward independent learning via a mandatory self-scoped capstone or research project.",
+      "evidenceLines": [
+        "In the workshop sessions, students apply these principles to actual patent claims, prior art and infringing embodiments.",
+        "Outline of written submissions",
+        "Oral assessment",
+        "Have the skills and ability to apply their knowledge to new situations encountered in their practice as a trade marks professional",
+        "Have the cognitive and technical skills to draft a patent specification for a simple mechanical product invention or a simple chemical/life sciences invention"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2: students design and conduct assessed legal inquiries with methodology selection and data/database collection. Multiple subjects assess substantial research papers — e.g., LAWS90298 (Intellectual Property Protection in Asia) assesses a 4000-5000 word 'Research Paper' (70%) with generic skills to 'Design, conduct and produce a research paper in the area of IP law in the Asia-Pacific region'; LAWS70242 (Internat.Issues in Intellectual Property) includes 'Option 2: Research paper on a topic approved by the subject coordinator' (6000 words, 100%); LAWS70217 (Fundamentals of the Common Law) requires a 'Research Essay' (3500 words); and specialized practice units require searching and analyzing primary patent and trade marks databases (LAWS70387, LAWS90035). Not level 3: a substantial primary research project is not compulsory across the entire cohort (research papers are elective options) and no viva or staged public defense is documented.",
+      "evidenceLines": [
+        "Option 2: Research paper on a topic approved by the subject coordinator",
+        "6000 words",
+        "Design, conduct and produce a research paper in the area of IP law in the Asia-Pacific region;",
+        "Research Paper",
+        "4000-5000 words",
+        "Research Essay",
+        "3500 words"
+      ]
+    },
+    "adaptiveness": 7,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2: core assessments require recognised professional genres and spoken communication judged against criteria drawn from professional practice. In LAWS70021 (Patent Law), assessment requires an 'Outline of written submissions' (2500 words, 40%) and an 'Oral assessment' (15-20 minutes, 40%) — formal legal submissions and oral advocacy. In LAWS70387 (Fundamentals of Patent Drafting), assessment requires a 'Take-home examination : draft patent specification (no word limit)' (20%) and a 4.5-hour supervised exam (75%), which assess drafting full patent specifications for patent office filing to TTIPAB standards. In LAWS90094 (International IP Dispute Settlement), assessment includes 'Class participation in a dispute simulation (10 minute small-group exercise and 500 word report)' (20%). In LAWS90035 (Trade Mark Practice), the curriculum explicitly covers 'The rights, privileges and professional responsibilities of a patent attorney and a trade marks attorney.' Not level 3: professional communication is not delivered to or judged by a real external audience or practitioner panel outside the teaching staff, and conduct is not formally graded on an external placement.",
+      "evidenceLines": [
+        "Outline of written submissions",
+        "Oral assessment",
+        "Take-home examination : draft patent specification (no word limit)",
+        "Class participation in a dispute simulation (10 minute small-group exercise and 500 word report)",
+        "Have the communication skills to clearly articulate and convey complex information regarding patent law and the protection of trade secrets to relevant specialist and non-specialist audiences, including clients",
+        "The rights, privileges and professional responsibilities of a patent attorney and a trade marks attorney."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2: core assessment reproduces professional tasks end to end, producing the artefact a practitioner would produce to professional regulatory standards. In LAWS70387 (Fundamentals of Patent Drafting), students learn through drafting exercises and are assessed by drafting full patent specifications ('Take-home examination : draft patent specification', 20%, plus supervised drafting exam 75%), satisfying TTIPAB Topic Group G requirements. In LAWS70021 (Patent Law), students analyze actual patent claims and prior art in hands-on workshops, producing formal written submissions and oral argument. In LAWS70061 (Interpretation and Validity of Patents), practitioner case studies develop skills in interpreting patent specifications as in daily patent attorney practice and litigation. Not level 3: authentic tasks do not constitute an unbroken program-wide assessment spine (there is no compulsory capstone, and several subjects rely on standard take-home examinations) and do not carry externally supplied live client constraints.",
+      "evidenceLines": [
+        "This subject teaches students the fundamental principles and basic skills of drafting patent specifications. It does so through a combination of in-class instruction sessions on a range of topics, in-class drafting exercises with review sessions, and out-of-class drafting exercises with tutorial review sessions. Students are assessed by two practical assessment tasks, undertaken individually outside the classroom. Passing the subject will satisfy the knowledge requirements specified by the Trans-Tasman IP Attorneys Board (TTIPAB) for Topic Group G: Drafting patent specifications.",
+        "Take-home examination : draft patent specification (no word limit)",
+        "Supervised examination (to be held at Melbourne Law School or preapproved location)",
+        "In the workshop sessions, students apply these principles to actual patent claims, prior art and infringing embodiments.",
+        "This subject will be conducted with a number of case studies carried out by a team of practitioners to develop skills in the application of the rules of interpretation to patent specifications and in the application of Australian and New Zealand patent laws."
+      ]
+    },
+    "W3": {
+      "score": 0,
+      "rationale": "Level 0: no work-integrated learning, placement, practicum, internship, or community-based project appears anywhere in the course structure. The program consists entirely of 100 credit points of graduate coursework (minimum 50 credit points of IP subjects and up to 50 credit points of IP-relevant subjects). While a note in LAWS70387 observes that students participating are mostly training patent attorneys who work in the IP industry, no core unit assesses activity conducted in the student's own professional practice with real recipients and documented outcome measures.",
+      "evidenceLines": [
+        "Students complete 100 credit point program, and choose the relevant option below.",
+        "a minimum of 50 credit points of IP subjects; AND",
+        "up to 50 credit points of IP-relevant subjects."
+      ]
+    },
+    "workplace": 4,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program documents a coherent specialist core accredited by the Trans-Tasman IP Attorneys Board (TTIPAB). Students must complete at least 50 credit points from the specialist IP subject list covering all TTIPAB Topic Groups (e.g. Patent Law [Topic Group E], Trade Marks and Unfair Competition [Topic Group C], Patent Practice [Topic Group F], Interpretation and Validity of Patents [Topic Group H], Designs Law and Practice [Topic Group I], Fundamentals of Patent Drafting [Topic Group G], Trade Mark Practice [Topic Groups B and D]). Staged prerequisite and progressive relationships exist between foundational doctrine and advanced practice (e.g. LAWS70021 Patent Law is a prerequisite for LAWS70060 Patent Practice; LAWS90035 Trade Mark Practice builds on LAWS70046 Trade Marks and Unfair Competition).",
+        "evidenceLines": [
+          "Many of the specialisation's subjects are accredited by the Trans-Tasman IP Attorneys Board (TTIPAB). This program is recommended for those seeking accreditation as a patent and/or trade marks attorney in Australia and New Zealand, and for those seeking to develop their expertise in intellectual property law more generally.",
+          "By satisfactorily completing appropriate subjects, a suitably qualified person may be accredited with satisfying all of the topic groups necessary for registration as a trade marks attorney and for registration as a patent attorney. Applicants seeking registration as a patent attorney and/or trade marks attorney should first seek advice from the TTIPAB and the Law School on subject selection at the time of enrolment. For more information, please visit the Melbourne Law School Intellectual Property Law specialisation or the Trans-Tasman IP Attorneys Board.",
+          "This subject follows on from Patent Law (which is a prerequisite) and provides students with the knowledge and practical skills required for the filing, prosecution and maintenance of an application for protection under the Australian and New Zealand patents legislation, for both local and international inventions, as well as in the major international and national jurisdictions of interest to Australian and New Zealand innovators. The lecturers are a team of experienced patent attorneys and/or patent lawyers. The subject meets the Trans-Tasman IP Attorneys Board (TTIPAB) requirements for 'Topic Group F’. Persons seeking qualification for registration as a trans-Tasman patent attorney, and in-depth knowledge about the practical application of patent law, will in particular benefit from the subject.",
+          "This subject builds on the material covered in the Trade Marks and Unfair Competition subject. Trade Mark Practice focusses on the procedures and practices of the Australian Trade Marks Office in obtaining and maintaining registered trademarks. It covers the relevant aspects of New Zealand trade mark procedures and practice where these are different from those in Australia. Thus, this subject is particularly valuable for students wishing to prosecute trade mark applications through those offices. The rights, privileges and professional responsibilities of a patent attorney and a trade marks attorney are also covered in the wider context of attorneys’ professional conduct. The lecturers in the subject have extensive experience in the obtaining of trade mark registrations and the subject meets the Trans-Tasman IP Attorneys Board (TTIPAB) requirements for ‘Topic Group B’ and ‘Topic Group D’."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Core subject assessments require defended trade-off decisions, advocacy under uncertainty, and drafting solutions to complex, ambiguous factual problems. In LAWS70021 (Patent Law), students prepare written submissions (40%) and perform oral assessment/advocacy (40%) arguing competing positions on patent validity and infringement. In LAWS90094 (International IP Dispute Settlement), students engage in a dispute simulation (20%) and take-home exam (70%) resolving international trade and IP conflicts under competing policy imperatives. In LAWS70387 (Fundamentals of Patent Drafting), students draft patent specifications (take-home 20%, supervised 75%) balancing broad claim protection against prior art and statutory sufficiency requirements.",
+        "evidenceLines": [
+          "Outline of written submissions",
+          "Oral assessment",
+          "Class participation in a dispute simulation (10 minute small-group exercise and 500 word report)",
+          "Be able to define claims that encompass an invention, and which provide novelty and a scintilla of invention over the prior art",
+          "This subject will be conducted with a number of case studies carried out by a team of practitioners to develop skills in the application of the rules of interpretation to patent specifications and in the application of Australian and New Zealand patent laws."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1 straddled 1 and 2: LAWS90094 includes a 'Class participation in a dispute simulation (10 minute small-group exercise and 500 word report)' (20%), which involves small-group work, but it is an in-class simulation with an individual report and participation mark rather than an assessed collaborative group project with individual accountability, and it is one elective among 15 IP subjects. Resolved DOWN to 1 per the never-resolve-upward rule.",
+      "C3 straddled 0 and 1: No core compulsory unit requires digital or AI content, but multiple specialized AI subjects appear in the course structure as IP-relevant electives (e.g. LAWS90145, LAWS90308, LAWS90286, LAWS90334), and LAWS70208 covers AI invention case studies. Resolved at 1 because the level-1 anchor ('AI or digital tools appear only as electives') is affirmatively met.",
+      "C5 straddled 2 and 3: Multiple subjects assess substantial research papers (e.g. LAWS90298 4000-5000 word research paper, LAWS70242 6000-word research paper, LAWS70217 3500-word research essay), but a primary research project is an elective route rather than a required compulsory component for all students, and no viva or defense is documented. Resolved DOWN to 2.",
+      "W1 and W2 straddled 2 and 3: Authentic practitioner tasks (drafting patent specifications to TTIPAB requirements in LAWS70387, written submissions and oral advocacy in LAWS70021, dispute simulation in LAWS90094) are assessed in major subjects, but they do not form an unbroken sequential program-wide assessment spine, and assessments are judged by teaching staff rather than an external practitioner panel. Resolved DOWN to 2 for both items.",
+      "W3 and cohort practice: While the teachers' note in LAWS70387 recognizes that students are mostly training patent attorneys working in industry, no core unit formally assesses activity conducted in the student's own workplace with real recipients and documented outcome measures. Resolved at 0."
+    ],
+    "notScoreable": [
+      "No item was left unscored. Marking rubrics and detailed criteria sheets are not published in the university handbook; the criteria-drawn-from-practice clauses in W1 and W2 were evaluated against intended learning outcomes, subject overviews, and TTIPAB professional competency standards."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-23"
     }
   },
   "300bb": {
@@ -4089,7 +4409,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "439fs": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2 anchor is met: at least one core unit assesses collaborative practice. Core FOOD90007 Advanced Food Processing Technology carries a 'Group written assignment' worth 20%, so level 1 ('no core unit assesses it') is contradicted despite teamwork also appearing in the program generic skills. Not level 3: assessed collaborative practice does not recur across the compulsory core (it is a single group task in one of eight compulsory subjects; the group route in FOOD90043 is only one of three capstone options), and no assessment anywhere in the extract requires coordinating work across people AND tools/AI systems - there is no documented role/tool allocation and no assessed division of work between people and systems.",
@@ -5073,7 +5393,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     "instrument": "4.1-draft"
   },
   "527cl": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2 anchor is satisfied: a core unit assesses collaborative practice via 'interprofessional activity'. PSYC90125 Core Skills in Psychological Practice embeds the Ways of Knowing interprofessional program and assesses it directly (25% written reflection on interprofessional learning following the interdisciplinary panel). Not level 3: level 3 requires assessed collaborative practice recurring across the program AND at least one assessment requiring coordination of work across people AND tools/AI systems. Nothing in the extract assesses any division of work between people and systems, or tool/AI allocation — the extract contains no AI or system-coordination assessment at all. Placement-based multidisciplinary work ('Work effectively with a range of professionals and support staff in the workplace') is placement evidence and is housed in W3 per one-construct-one-home, so it does not lift C1.",
@@ -5380,6 +5700,176 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "date": "2026-08-18"
     }
   },
+  "706aa": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 1,
+      "rationale": "Level 1's anchor — 'Collaboration/teamwork appears in learning outcomes, but no core unit assesses it' — is the documented state across the compulsory core. Teamwork and collaboration are named in program-level generic skills ('Communicate and collaborate effectively in academic and professional environments') and graduate attributes ('ability to work effectively both independently and in groups' and 'work collaboratively with people from diverse linguistic and cultural backgrounds'). However, none of the compulsory subjects (SOCI90003 Comparative Social Policy, SOCI90005 Social Research Design and Evaluation, or SOCI90011 Foundations of Social Policy) assesses collaborative practice: SOCI90003 assesses individual policy blogs, a policy brief, and a public communication campaign; SOCI90005 assesses an individual research proposal and report; and SOCI90011 assesses an individual oral presentation, in-class tests, and a policy submission. Level 2 requires that 'At least one core unit assesses collaborative practice — group projects with individual accountability, client or stakeholder work, interprofessional activity'. Assessed collaborative practice appears in only one capstone stream (SOCI90023 Project-based Policy Analysis, which includes an Applied Social Policy Group Project and Collaboration Agreement), but this is one of three electable capstone options; a student who elects the minor thesis (PPMN90049/50) or the internship (SOCI90013) completes the degree without any assessed collaborative practice. Level 3 is not reached: no assessment anywhere in the extract requires coordinating work across people AND tools/AI systems.",
+      "evidenceLines": [
+        "Communicate and collaborate effectively in academic and professional environments",
+        "ability to work effectively both independently and in groups, and place great importance on their personal and professional integrity.",
+        "awareness of the social and cultural diversity in communities and how to work collaboratively with people from diverse linguistic and cultural backgrounds. In particular, MSP students will have an understanding of and deep respect for Indigenous knowledge, culture and values;",
+        "Policy blog series (5 blogs of 200 words each)",
+        "Policy brief on a key policy area",
+        "Public communication campaign output",
+        "A research proposal",
+        "A research report",
+        "A 10-minute oral presentation",
+        "Three in-class observed 30-minute essay tests",
+        "A policy submission",
+        "Applied Social Policy Group Project with an interactive oral exposition at the Capstone Presentation Day. 3500 words per student towards an individual section and collectively written parts; 2000- words (equivalent) interactive oral exposition with defined individual contributions from each group member .",
+        "Hurdle Requirement - Project Initiation Form and Collaboration Agreement",
+        "One of:"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1's anchor — 'Reflection or self-assessment appears in outcomes or graduate attributes, but no core unit assesses it against criteria' — fits the documented curriculum evidence. Course intended learning outcomes include reflecting on skills and opportunities for professional growth, and generic skills include applying evaluative judgement. In addition, reflective assessment tasks appear in selective and elective units (a reflective essay in capstone option SOCI90013, a reflective practice paper in capstone option SOCI90023, and reflective essays/reading reflections in electives SOCI90026 and SOCI90021). Level 2 requires 'criterion-referenced appraisal of quality: peer review, structured critique, portfolio with standards, marking against exemplars'. Although SOCI90023 includes a 'Structured literature review with peer feedback', SOCI90023 is an optional capstone stream rather than a compulsory core unit, and no published marking criteria, rubrics, exemplars, or standards are documented for peer feedback or self-assessment. Level 3 is entirely absent: no assessment requires documenting or justifying reliance decisions (when students relied on or overrode a tool, source, or collaborator) or defending judgements of AI-output quality.",
+      "evidenceLines": [
+        "Apply research skills, critical thinking and evaluative judgement",
+        "Reflect on skills, expertise and opportunities for professional growth and learning in the social policy sphere",
+        "ability to critically evaluating alternative possibilities and viewpoints.",
+        "Exercise reflections skills",
+        "Display evaluative judgement.",
+        "Structured literature review with peer feedback",
+        "Reflective practice paper where participants reflect on the team process and individual lessons from the project Individual paper",
+        "A reflective essay"
+      ]
+    },
+    "C3": {
+      "score": 0,
+      "rationale": "Level 0's anchor — 'No digital/AI content in any core unit or program-level outcome' — is fully satisfied. The words 'artificial intelligence', 'AI', 'generative AI', 'algorithm', 'machine learning', 'digital', 'software', or 'computing' do not appear anywhere in the extract, including in all core and elective subjects, program-level outcomes, and generic skills. Level 1 requires digital or AI tools to appear as electives or as tool operation/training, but no such content is documented. Level 2 (core discussion and assessment of AI capabilities and limitations) and Level 3 (AI governance/critique in disciplinary context) are completely absent.",
+      "evidenceLines": [
+        "Overview",
+        "Intended learning outcomes",
+        "Generic skills",
+        "Graduate attributes"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2's anchor — 'At least one core assessment requires application to novel or unfamiliar problems — case variation, unseen datasets, cross-context projects' — is met across the compulsory core. SOCI90003 Comparative Social Policy assesses a policy brief (30%) and a public communication campaign output (50%) requiring cross-context application across OECD countries; SOCI90005 Social Research Design and Evaluation assesses an end-to-end research proposal (40%) and research report (60%) on an unfamiliar policy problem; and SOCI90011 Foundations of Social Policy assesses a policy submission (50%) developed from the perspective of a relevant stakeholder. Level 3 requires that 'The program documents structured progression toward independent learning: a self-scoped capstone or research project, or assessed identification of one's own knowledge gaps together with the plan to close them'. While the capstone is compulsory and unwaivable, and Capstone Option 1 (PPMN90049/50 Thesis) requires a student-submitted 300-word research proposal embodying their own research, the thesis is one of three alternative capstone options; students may instead choose the internship (SOCI90013) or the mentored project (SOCI90023), which are host- or client-directed rather than self-scoped independent research. Because structured progression to a self-scoped project is not compulsory for all students across all routes, the score is held at 2 under the never-resolve-upward rule.",
+      "evidenceLines": [
+        "Transfer academic skills of analysis and policy knowledge to real-world policy discussions and practices",
+        "ability to be confident of their knowledge, yet flexible, adaptable and aware of their limitations.",
+        "All compulsory subjects and one of the capstone options must be completed to be eligible to graduate from the program.",
+        "Evaluate social policies across different countries, identifying strengths, weaknesses, and outcomes",
+        "Apply comparative methods and frameworks to explore how different societies design and implement social policies, and how these policies affect social outcomes",
+        "Policy brief on a key policy area",
+        "Public communication campaign output",
+        "A research proposal",
+        "A research report",
+        "A policy submission",
+        "to be eligible to enrol in the thesis, students must submit a 300 word thesis proposal for approval by the course coordinator prior to the semester of enrolment in the thesis",
+        "One of:"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2's anchor — 'Students design and conduct an inquiry with methodology selection and data collection, assessed' — is documented in compulsory core subject SOCI90005 Social Research Design and Evaluation. Students critically examine advanced research methods, design an inquiry, and conduct a small-scale research project, assessed via a 'research proposal' (40%) and an end-to-end 'research report' (60%) where students implement appropriate research methods to collect and analyse policy data. Capstone Option 1 (PPMN90049/50 Thesis) also requires students to design and conduct original research embodying data collection and analysis (15,000 words, 100%). Level 3 is explicitly barred by its own anchor: the substantial primary-evidence project must be 'REQUIRED (not one route among several), with methodology defended under scrutiny (viva, defence, or staged supervised review)'. In 706AA, the minor thesis is one of three capstone options, and the extract documents no viva or oral defence of methodology for it.",
+      "evidenceLines": [
+        "SOCI90005\tSocial Research Design and Evaluation",
+        "Implement appropriate research methods in line with a research design and question pertaining to a relevant social policy question",
+        "Develop a research report demonstrating a practical ability to engage in an end to end research process and theoretical understanding of a relevant policy area.",
+        "A research proposal",
+        "A research report",
+        "One of:",
+        "This subject involves a supervised thesis of 15,000 words, embodying the results of the student's own research.",
+        "A thesis"
+      ]
+    },
+    "adaptiveness": 6,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2's anchor — 'At least one core assessment requires a recognised professional genre or an audience beyond the teaching team — client brief, consultancy or policy advice, clinical handover, pitch, public-facing artefact — judged against criteria drawn from professional practice' — is met directly in the compulsory core. SOCI90003 Comparative Social Policy assesses authentic policy genres: a 'Policy blog series (5 blogs of 200 words each)' (20%), a 'Policy brief on a key policy area' (30%), and a 'Public communication campaign output' (50%). In addition, SOCI90011 Foundations of Social Policy (compulsory in the 200pt program) assesses 'A policy submission' (50%) requiring students to develop a submission from the perspective of a relevant stakeholder. Level 1 is positively contradicted, as core assessment goes well beyond academic essays and exams. Level 3 requires professional communication to be assessed repeatedly and progressively AND at least one core assessment delivered to or judged by a real external audience or practitioner, with professional conduct or accountability explicitly among assessed criteria. In 706AA, core assessments are submitted to the teaching team rather than delivered to real external audiences, and although Capstone Option 3 (SOCI90023) includes an interactive oral exposition at Capstone Presentation Day and Option 2 (SOCI90013) involves an internship supervisor, these are electable streams that can be bypassed via the thesis route (PPMN90049/50), where communication is explicitly directed to an academic audience ('Communicate social or public policy research in writing to an academic audience').",
+      "evidenceLines": [
+        "Communicate policy issues and solutions to a range of audiences, including stakeholders, academic audience and general public",
+        "Policy blog series (5 blogs of 200 words each)",
+        "Policy brief on a key policy area",
+        "Public communication campaign output",
+        "A policy submission",
+        "Develop a policy submission from a perspective of a relevant stakeholder, informed by social policy theories and relevant frameworks.",
+        "A 10-minute oral presentation",
+        "Communicate social or public policy research in writing to an academic audience."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2's anchor — 'At least one core assessment reproduces a professional task end to end: a real or realistic problem, producing the artefact a practitioner would produce, judged against criteria drawn from practice' — is met in the compulsory core. SOCI90003 Comparative Social Policy requires students to produce a 'Public communication campaign output' (50%) and a 'Policy brief on a key policy area' (30%), and SOCI90011 requires 'A policy submission' (50%) from a stakeholder perspective; SOCI90005 requires an end-to-end small-scale research report (60%) for policy evaluation. These reproduce the core analytical and communication artefacts produced by social policy practitioners. Level 3 is not reached: Level 3 requires that such authentic tasks form the program's assessment spine rather than a single instance AND carry a genuine constraint of practice (ambiguous/externally supplied problem, real resource limits, consequential external audience). A student completing the degree via Capstone Option 1 (PPMN90049/50 Thesis) culminates in an academic 15,000-word thesis without external stakeholder constraints, so the practitioner-task spine is not guaranteed across all pathways.",
+      "evidenceLines": [
+        "Public communication campaign output",
+        "Policy brief on a key policy area",
+        "A policy submission",
+        "Develop a policy submission from a perspective of a relevant stakeholder, informed by social policy theories and relevant frameworks.",
+        "Develop a research report demonstrating a practical ability to engage in an end to end research process and theoretical understanding of a relevant policy area.",
+        "A research report",
+        "All compulsory subjects and one of the capstone options must be completed to be eligible to graduate from the program.",
+        "One of:"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1's anchor — 'Work-situated learning exists only as an elective, an optional internship, or an unassessed extracurricular or careers activity' — accurately describes the curriculum structure. SOCI90013 Social Policy Internship places students in an external government or policy organisation with senior manager supervision and assesses placement performance (2000 words), a reflective essay (3000 words), and a 5000-word professional portfolio/report. However, SOCI90013 is Capstone Option 2 — one of three elective capstone options alongside the minor thesis (Option 1) and the project-based policy analysis (Option 3). A student can complete the Master of Social Policy via the thesis or project streams without ever undertaking a placement. Level 2 requires that 'A core unit places students in a real workplace or professional-community setting with practitioner supervision and assessment'; because no placement is mandatory for all students, Level 2 is not met. The v4.2 in-practice route does not apply as the cohort is not documented as already practising in the profession, and no core unit assesses activity conducted in a student's own practice.",
+      "evidenceLines": [
+        "Capstone options (25 to 50 points)",
+        "One of:",
+        "SOCI90013\tSocial Policy Internship",
+        "Over the duration of the placement",
+        "A reflective essay",
+        "Professional Portfolio/Report",
+        "Oral reflection (5-10 minutes)",
+        "completion form"
+      ]
+    },
+    "workplace": 5,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program documents a coherent specialist core with progressive technical and methodological depth rather than generic interchangeable content: compulsory discipline subjects in social policy (SOCI90003 Comparative Social Policy, SOCI90005 Social Research Design and Evaluation, and SOCI90011 Foundations of Social Policy), an unwaivable capstone requirement that must be completed to graduate, and clear WAM progression thresholds (80% / H1 average) and proposal approval rules to enter the minor thesis.",
+        "evidenceLines": [
+          "All compulsory subjects and one of the capstone options must be completed to be eligible to graduate from the program.",
+          "Compulsory subjects (25 points)",
+          "Compulsory subjects (37.5 points)",
+          "SOCI90003\tComparative Social Policy",
+          "SOCI90005\tSocial Research Design and Evaluation",
+          "SOCI90011\tFoundations of Social Policy",
+          "Capstone options (25 to 50 points)",
+          "students admitted into the 100 point program must have a WAM of 80% (H1) or above from the last one hundred points of previous study (or equivalent)",
+          "Students admitted to the 150 point program must have a minimum WAM of 80% (H1) in the first 50 points of the program",
+          "Students admitted to the 200 point program must have a minimum WAM of 80% (H1) in the first 100 points of the program."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Assessment across the program requires defended trade-off decisions, research design, and applied policy recommendations rather than recall or scripted responses. SOCI90003 requires students to evaluate competing policy frameworks and justify proposals to advocate for policy change; SOCI90011 requires a stakeholder-perspective policy submission analyzing competing definitions and limitations; SOCI90005 requires formulating and executing an empirical research design; and the capstones require either a defended self-directed 15,000-word thesis, a workplace internship report, or a client project report with public oral exposition.",
+        "evidenceLines": [
+          "Public communication campaign output",
+          "Policy brief on a key policy area",
+          "Advocate for policy change through convincing arguments grounded in evidence derived from comparative dimensions.",
+          "A policy submission",
+          "Develop a policy submission from a perspective of a relevant stakeholder, informed by social policy theories and relevant frameworks.",
+          "A research report",
+          "All compulsory subjects and one of the capstone options must be completed to be eligible to graduate from the program."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1 straddled 1 and 2: Capstone Option 3 (SOCI90023 Project-based Policy Analysis) assesses collaborative practice with individual accountability (Applied Social Policy Group Project with individual sections and oral contributions, plus a Collaboration Agreement and reflective paper on team process), which fits Level 2; however, SOCI90023 is only one of three capstone options, and students electing Capstone Option 1 (Thesis) or Capstone Option 2 (Internship) have no assessed collaborative practice in their degree, as none of the compulsory subjects (SOCI90003, SOCI90005, SOCI90011) assesses teamwork. Resolved DOWN to 1 under the never-resolve-upward rule.",
+      "C4 straddled 2 and 3: Capstone Option 1 (PPMN90049/50 Thesis) requires a student-submitted 300-word thesis proposal and independent execution of original research, which resembles Level 3's self-scoped capstone; however, the thesis is one of three capstone options, and the alternative capstone streams (internship or client project) are host- or client-directed rather than self-scoped independent research. Because structured progression to a self-scoped project is not guaranteed for all students, the score is held at 2.",
+      "C5 straddled 2 and 3: Capstone Option 1 (Thesis) requires a 15,000-word empirical research thesis, but Level 3 explicitly requires that a substantial primary evidence project be REQUIRED (not one route among several), whereas the thesis is one of three capstone options and no viva or oral defence of methodology is documented. Resolved at 2.",
+      "W1 vs W2 one-construct-one-home: The policy brief and policy submission tasks could be read as authentic tasks in W2 or professional communication genres in W1. They are homed in W1 as recognised professional communication genres and scored there. W2 is supported on task fidelity by the end-to-end public communication campaign output (SOCI90003), the stakeholder policy submission (SOCI90011), and the empirical research report (SOCI90005).",
+      "W2 straddled 2 and 3: The combination of compulsory professional artefacts (policy brief, campaign output, policy submission) and capstone client projects (SOCI90023) or workplace reports (SOCI90013) resembles an authentic assessment spine, but the minor thesis stream (PPMN90049/50) is purely academic and allows students to complete the degree without client/workplace constraints. Resolved DOWN to 2.",
+      "W3 straddled 1 and 2: SOCI90013 Social Policy Internship provides a substantial 25-point workplace placement with senior manager supervision and assessed portfolio/reflection, which matches Level 2/3 features, but it is an elective capstone option rather than a mandatory core unit for all students. Under the level-1 anchor ('Work-situated learning exists only as an elective, an optional internship'), it resolves to 1."
+    ],
+    "notScoreable": [
+      "No item was left unscored. However, two evidence types the instrument evaluates are absent from this extract by nature of the handbook source: (a) marking rubrics or criterion sheets are not published in the UoM handbook, so the 'criteria drawn from practice' clauses in W1 and W2 and 'criterion-referenced' clause in C2 could only be evaluated against published subject intended learning outcomes; (b) the extract contains zero mentions of AI, generative AI, machine learning, algorithms, or digital tools across all subjects and course pages, so C3 was scored 0 based on documented curriculum absence."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-23"
+    }
+  },
   "742ab": {
     "instrument": "4.2-draft",
     "C1": {
@@ -5521,7 +6011,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "746st": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Meets the level-2 anchor 'at least one core unit assesses collaborative practice — group projects with individual accountability': the core unit CVEN90035 assesses two group design reports in groups of five with a per-student workload equivalence (1500 and 500 words per student), i.e. group work with individual accounting. It does not reach level 3, which requires that assessed collaborative practice RECURS across the program AND that at least one assessment requires coordinating work across people AND tools/AI systems: the other core unit (CVEN90024) assesses only individual assignments and an exam, so collaboration sits in one of two core units, and nothing in the extract documents assessed role or tool allocation, or a division of work between people and systems. The teamwork statements in the CVEN90024 generic-skills list are outcome-level claims, which R2 caps at level 1 on their own.",
@@ -7263,6 +7753,152 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "date": "2026-08-23"
     }
   },
+  "m04aa": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is met: at least one core unit assesses collaborative practice — group projects with individual accountability. In the compulsory practice subjects (MUSI90038, MUSI90039, MUSI90040, MUSI90187), students complete a 'Group presentation - 5 minutes per student' (20%, 25 hours of work required), which assesses collaborative presentation with explicit individual accountability (individual duration per student). In MUSI90263 Theory for Music Therapists 4, students complete an individually assessed reflection following a group discussion (25%). Furthermore, MUSI90035 assesses group facilitation ('Facilitation of 3 to 5-minute group improvisation' and 'Facilitation of 10 to 20-minute therapeutic group experience'). Not Level 3: the anchor additionally requires at least one assessment that requires coordinating work across people AND tools/AI systems (e.g. team capstone with documented role and tool allocation, or where the division of work between people and systems is itself assessed); nothing in the extract documents any collaborative task coordinating work across people and AI/systems with role allocation. Per the one-construct-one-home rule, multidisciplinary clinical placement teamwork is homed in W3.",
+      "evidenceLines": [
+        "Group presentation - 5 minutes per student",
+        "Group presentation – 5 minutes per student",
+        "Group presentation – 5 minutes per student.",
+        "10-minute individual reflection following group discussion analysing the ecological/systemic factors related to a set scenario.",
+        "Facilitation of 3 to 5-minute group improvisation",
+        "Facilitation of 10 to 20-minute therapeutic group experience",
+        "work collaboratively and professionally in a group or team environment;"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: 'Core assessment includes criterion-referenced appraisal of quality: peer review, structured critique, portfolio with standards, marking against exemplars.' In the compulsory core subject MUSI90037 Research in Music Therapy, students are assessed on a 'Written report on two research articles using appropriate assessment criteria' (20%), supported by the intended learning outcome to 'delineate criteria for assessing the quality of music therapy research across objectivist and interpretivist approaches'. This is a structured, criterion-referenced critique assessing research quality against explicit criteria. Not Level 3: that anchor requires assessment where students document and justify reliance decisions (when they relied on or overrode a tool, source or collaborator), defend judgements of AI-output quality, or evidence strategy adjustment over time. No assessment in the extract requires documenting or defending reliance decisions or AI output quality.",
+      "evidenceLines": [
+        "Written report on two research articles using appropriate assessment criteria.",
+        "Assessment will include: an interactive oral assessment evaluating the quality of two research articles using appropriate assessment criteria, a written research proposal for a specified music therapy program, as well as completing a combined written/oral assessment reflecting on ethical considerations for the proposed project.",
+        "delineate criteria for assessing the quality of music therapy research across objectivist and interpretivist approaches;",
+        "critically appraise research literature using IT resources and print journals;",
+        "Short answer responses to a series of music therapy practice scenarios including goal writing and personal reflection."
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor is met: 'AI or digital tools appear only as electives or as tool operation/training — the operational level TEQSA identifies as non-durable.' In compulsory core subjects MUSI90033 and MUSI90035, students are taught and assessed on digital audio creation and recording tools ('creating and producing electronic music tracks', 'skills in creating a multitrack recording', 'electronic media', 'multi-track recording of known songs', and '3 to 5-minute multi-track recorded original song responding to individual clinical scenario'). Digital communication and internet search also appear across generic skills. Level 0 is excluded because digital tool operation and production are explicitly taught and assessed in core units. Not Level 2: that anchor requires core units to address AI capabilities AND limitations/ethics with use-with-limits discussed and assessed; no core subject mentions AI, generative AI, or machine learning, and no assessment covers AI ethics or limitations. Level 3 AI governance/critique is entirely absent.",
+      "evidenceLines": [
+        "Skill development is focused on creating and producing electronic music tracks in order to extend known and original songs using musical and lyrical strategies.",
+        "create and produce electronic music tracks for use with existing and original musical material;",
+        "3 to 5-minute audio recording of an original song composition demonstrating skills in creating a multitrack recording.",
+        "use expert and sensitive improvisational skills (vocal, instrumental, and electronic media) to facilitate transformative therapeutic experiences;",
+        "apply skills in music arrangement to multi-track recording of known songs.",
+        "3 to 5-minute multi-track recorded original song responding to individual clinical scenario",
+        "communicate effectively in oral, written and digital forms;"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2 anchor is met: 'At least one core assessment requires application to novel or unfamiliar problems — case variation, unseen datasets, cross-context projects.' In MUSI90033 Methods 2, students are assessed on a live performance of 10 songs 'including 1 provided with 48 hours to prepare' (50%), requiring rapid application to unfamiliar assigned material. In MUSI90041, MUSI90042, and MUSI90263, core assessments require creating practice plans and theoretical rationales in response to varied unseen practice scenarios ('Create a practice plan in response to a given scenario, including a theoretical rationale', 'Short answer responses to a series of music therapy practice scenarios'). In MUSI90035, students compose an original song responding to an individual clinical scenario. Not Level 3: that anchor requires 'The program documents structured progression toward independent learning: a self-scoped capstone or research project, or assessed identification of one's own knowledge gaps together with the plan to close them.' While the core contains four research units (MUSI90036, MUSI90037, MUSI90044, MUSI90045), students produce literature reviews, pitches, and research proposals for specified programs rather than executing a self-scoped research project or thesis; MUSI90044's ILO references identifying knowledge gaps in the published literature to inform protocol design, not assessing the student's own personal learning gaps with a plan to close them. Although MUSI90187 is a capstone clinical placement where students establish novel programs, placement evidence is homed in W3 per the one-construct-one-home rule and v4.1 migration rule ('the level-3 work-integrated-learning route moves to W3, leaving transfer and self-directed learning'). Ambiguity resolved downward to 2.",
+      "evidenceLines": [
+        "30 to 40-minute video of a live performance of 10 songs including 2 originals and 8 assigned songs, including 1 provided with 48 hours to prepare",
+        "demonstrate musical skills in analysing and playing repertoire with short preparation times.",
+        "Create a practice plan in response to a given scenario, including a theoretical rationale.",
+        "Short answer responses to a series of music therapy practice scenarios including goal writing and personal reflection.",
+        "3 to 5-minute multi-track recorded original song responding to individual clinical scenario",
+        "10-minute reflection and rationale for taking a theoretical stance in response to a music therapy practice scenario."
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 1 anchor fits positively: 'Introductory methods unit; literature-review assessment.' The program contains four compulsory research subjects (50 credit points total): MUSI90036 Music Psychology Research, MUSI90037 Research in Music Therapy, MUSI90044 Objectivist Research in Music Therapy, and MUSI90045 Interpretivist Research in Music Therapy. Assessed tasks across this sequence include a 'Literature review' (2000 words, 40% in MUSI90044), 'Written report of a thematic analysis of an interview transcript' (30% in MUSI90045), 'Results of critical interpretive synthesis' (50% in MUSI90045), 'Research pitch' (10% in MUSI90044), and 'Written research proposal within a specified therapy program' (30% in MUSI90037). Level 2 requires that 'Students design and conduct an inquiry with methodology selection and data collection, assessed.' While students design research protocols/proposals (MUSI90037, MUSI90044) and analyze an interview transcript and synthesize literature (MUSI90045), no core subject requires students to conduct primary data collection or carry out an empirical inquiry. Level 3 fails a fortiori as no substantial required project generating primary evidence is assessed or defended under scrutiny (viva/defence).",
+      "evidenceLines": [
+        "This subject will provide students with an overview of research methods used in music therapy.",
+        "Literature review",
+        "Written research proposal within a specified therapy program.",
+        "Research proposal for an objectivist project, completed as a 15-minute interactive oral assessment plus a 1500-word written response.",
+        "Written report of a thematic analysis of an interview transcript, and open questions related to the qualitative method and interpretation of findings, completed as a 15-minute interview plus a 750-word precis.",
+        "Results of critical interpretive synthesis",
+        "Research pitch"
+      ]
+    },
+    "adaptiveness": 8,
+    "W1": {
+      "score": 3,
+      "rationale": "All three conjunctive conditions of Level 3 are documented in core assessment evidence. (1) 'Professional communication is assessed repeatedly and progressively across the program': Professional clinical genres and spoken communication recur across all four semesters in core subjects, including Practicum Plans (1500 words in MUSI90038, MUSI90039, MUSI90040, MUSI90187), interactive oral assessments and interviews (MUSI90037, MUSI90041, MUSI90044, MUSI90045), therapeutic group facilitations (MUSI90034, MUSI90035), live song performances and relaxations (MUSI90032, MUSI90033), and group presentations. (2) 'At least one core assessment is delivered to, or judged by, a real external audience or practitioner': In the core placement subjects MUSI90039, MUSI90040, and MUSI90187, students practice in real hospital/community settings where 'The placement industry partner provides two written reports (mid placement and on conclusion) to both the student and the placement coordinator', and MUSI90038 includes a simulated placement experience. (3) 'Professional conduct or accountability explicitly among the assessed criteria': In MUSI90038, MUSI90039, MUSI90040, and MUSI90187, passing the 160-hour placement experience is a strict hurdle requirement ('Students must pass this placement assessment to pass the subject') evaluated against professional workplace standards and the Australian Music Therapy Association (AMTA) ethical code of practice.",
+      "evidenceLines": [
+        "Practicum Plan",
+        "Practicum Placement Experience (160 accreditation hours)",
+        "Hurdle requirement: Students must pass this placement assessment to pass the subject.",
+        "The placement industry partner provides two written reports (mid placement and on conclusion) to both the student and the placement coordinator.",
+        "follow the Australian Music Therapy Association (AMTA) ethical code of practice.",
+        "Simulated Practicum Placement Experience (160 accreditation hours)",
+        "Facilitation of 10 to 20-minute therapeutic group experience",
+        "Report of key ethical considerations for a proposed project, and open questions related to human ethics processes, completed as a 15-minute interactive oral assessment and a 1500-word written response."
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3 anchor is met: authentic tasks form the program's assessment spine across all semesters rather than a single instance, AND core assessments carry genuine constraints of practice. The core assessment spine consists of practitioner-authentic tasks in every stage: simulated placement and clinical plan (MUSI90038), graded clinical practicum plans and 160-hour placements (MUSI90039, MUSI90040, MUSI90187), relaxation induction exercises and music listening facilitation (MUSI90033, MUSI90034), songwriting and group improvisation facilitation for clinical scenarios (MUSI90034, MUSI90035), and clinical practice plans (MUSI90041, MUSI90042). Genuine constraints of practice are documented: real time limits in MUSI90033 (performing 10 songs including 1 provided with only 48 hours to prepare), externally supplied ambiguous clinical cases in hospital and community facilities where students must independently conceive and deliver programs (MUSI90187), and professional performance standards tied to AMTA accreditation hurdles (640 total hours). Simulation is scored here per the rubric.",
+      "evidenceLines": [
+        "30 to 40-minute video of a live performance of 10 songs including 2 originals and 8 assigned songs, including 1 provided with 48 hours to prepare",
+        "10 to 15-minute video recording of a relaxation induction exercise followed by an instrumental improvisation designed for relaxation",
+        "3 to 5-minute multi-track recorded original song responding to individual clinical scenario",
+        "Facilitation of 10 to 20-minute therapeutic group experience",
+        "Simulated Practicum Plan",
+        "In hospital or community settings, students will design a program that is suitable to the context of the placement. Students will then deliver the program, taking responsibility for sessions where appropriate and will evaluate and measure the benefit of the intervention.",
+        "Australian Music Therapy Association (AMTA)"
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3 anchor is fully satisfied: 'Substantial required work-situated learning: an extended placement or practicum, or a sequence of them, in the core, supervised by a practitioner, assessed, with accountability to the host and structured reflection on professional practice'. In this 100% compulsory 200-point program, students are required to complete a minimum of 80 days / 640 hours of placement across four core subjects (MUSI90038, MUSI90039, MUSI90040, MUSI90187), including 480 hours of practical placements in hospitals and community settings supervised by qualified music therapists and local professional staff. Each placement subject is formally assessed (50% placement experience with a strict pass/fail hurdle), involves documented host accountability via two written industry partner reports per placement, and incorporates structured reflection on professional practice through tutorials, peer group supervision, and practicum plans.",
+      "evidenceLines": [
+        "Students undertake clinical placements of a minimum 80 days in total across the two years with an approved provider.",
+        "You will also participate regularly in placements, amounting to a minimum of 640 hours across the two years.",
+        "This subject provides students with practical placement experience in music therapy under the guidance of a qualified music therapist.",
+        "Students are required to complete 20 days (160-hours) of practical placement, which will have both observational and participatory experiences of working with clients and evaluating benefit from the intervention.",
+        "The placement industry partner provides two written reports (mid placement and on conclusion) to both the student and the placement coordinator.",
+        "Practicum Placement Experience (160 accreditation hours)",
+        "Hurdle requirement: Students must pass this placement assessment to pass the subject.",
+        "Placements will be supervised by a local professional staff member as well as peer group supervision.",
+        "Practical placement experience (160 accreditation hours)"
+      ]
+    },
+    "workplace": 9,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program documents an all-compulsory 200-credit-point specialist core across 16 subjects with staged technical and methodological progression in music therapy methods (1–4), theory (1–4), practice and clinical placement (1–4), and research methods (1–4). The entire sequence is accredited by the Australian Music Therapy Association (AMTA) leading to Registration as Music Therapists (RMT).",
+        "evidenceLines": [
+          "200-point program of compulsory subjects",
+          "100 points compulsory subjects",
+          "100 points compulsory subjects",
+          "Australian Music Therapy Association (AMTA)",
+          "Master of Music Therapy graduates are eligible for registration as Music Therapists (RMT) with the Australian Music Therapy Association (Inc.)."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "The program features 480 hours of live clinical placement with real patients in hospital and community settings (MUSI90039, MUSI90040, MUSI90187) plus a simulated clinical practicum (MUSI90038), where students must independently design, deliver, and evaluate music therapy interventions under real-world clinical uncertainty with accountability to clients and host facilities. Live performance assessments with short preparation time (48 hours in MUSI90033) and group improvisation facilitations (MUSI90035) further assess real-time decision-making under uncertainty.",
+        "evidenceLines": [
+          "Students undertake clinical placements of a minimum 80 days in total across the two years with an approved provider.",
+          "In hospital or community settings, students will design a program that is suitable to the context of the placement. Students will then deliver the program, taking responsibility for sessions where appropriate and will evaluate and measure the benefit of the intervention.",
+          "Hurdle requirement: Students must pass this placement assessment to pass the subject.",
+          "30 to 40-minute video of a live performance of 10 songs including 2 originals and 8 assigned songs, including 1 provided with 48 hours to prepare"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1 vs W3: Collaborative teamwork in clinical placement settings (interprofessional multidisciplinary team practice) could be read as distributed cognition under C1, but per the one-construct-one-home rule, all placement-situated evidence is homed in W3. C1 is supported by assessed group presentations with individual accountability in core subjects (MUSI90038, MUSI90039, MUSI90040, MUSI90187) and group facilitation tasks (MUSI90035, MUSI90263).",
+      "C4 straddled 2 and 3: The capstone subject MUSI90187 is an independent placement where students initiate and establish novel music therapy programs in clinical facilities, and students also complete four research units. However, per the v4.1 migration rule and one-construct-one-home rule, placement evidence scores in W3 rather than C4. In the research sequence, students complete proposals, pitches, literature reviews, and thematic analyses of provided transcripts rather than an executed self-scoped research project or thesis, and no assessed personal knowledge-gap plan is documented. Ambiguity resolved DOWN to 2 per the never-resolve-upward rule.",
+      "C5 straddled 1 and 2: The course documents a substantial four-subject (50 credit points) research sequence covering both objectivist and interpretivist traditions (MUSI90036, MUSI90037, MUSI90044, MUSI90045) and includes thematic qualitative analysis of an interview transcript and critical interpretive synthesis. However, level 2 requires that students design and conduct an inquiry with primary data collection; all assessed artefacts in the extract are proposals, literature reviews, pitches, synthesis, and analysis of supplied transcripts, with no student primary data collection. Resolved at 1.",
+      "W2 vs W3: Simulated placement experience in MUSI90038 (160 hours) provides high task fidelity but is simulated rather than immersion in a real workplace; per rubric instructions, simulation evidence is homed in W2, while the 480 hours of real-workplace placements in MUSI90039, MUSI90040, and MUSI90187 are homed in W3."
+    ],
+    "notScoreable": [
+      "No item was left unscored. Marking rubrics with explicit criteria are not published in the handbook extract, so criterion-referenced appraisal in C2 was evaluated against documented assessment tasks and subject intended learning outcomes. The extract contains no mention of generative AI or artificial intelligence systems, so C3's level 2 and 3 anchors had no evidence to be tested against."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-23"
+    }
+  },
   "mc-actsc": {
     "instrument": "4.2-draft",
     "C1": {
@@ -7406,8 +8042,295 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "date": "2026-08-23"
     }
   },
+  "mc-anp": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2's anchor ('at least one core unit assesses collaborative practice — group projects with individual accountability, client or stakeholder work, interprofessional activity') is satisfied in compulsory core subject NURS90069 Clinical Leadership in Context, which assesses 'Group Project Part A: Interactive Oral Presentation' (35%) and 'Group Project Part B: Peer Feedback (Invigilated & Synchronous)' (15%) alongside individual accountability through 'Individual Clinical Leadership Project' Part A (Plan, 15%) and Part B (Report, 35%). Level 3 is not reached: while collaborative practice occurs in core coursework and workshops, the extract documents no assessment requiring students to coordinate work across people AND tools or AI systems, nor any assessed division of labour between people and automated systems.",
+      "evidenceLines": [
+        "Individual Clinical Leadership Project (Part A): Clinical Leadership Project Plan",
+        "Group Project Part A: Interactive Oral Presentation",
+        "Group Project Part B: Peer Feedback (Invigilated & Synchronous)",
+        "Individual Clinical Leadership Project (Part B): Clinical Leadership Project Report",
+        "Explain how leaders can support effective team dynamics and manage conflict.",
+        "Capacity to work collaboratively with people from diverse communities to achieve goals"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2's anchor ('core assessment includes criterion-referenced appraisal of quality: peer review, structured critique, portfolio with standards, marking against exemplars') is met in compulsory core subject NURS90069 Clinical Leadership in Context by the assessed 'Group Project Part B: Peer Feedback (Invigilated & Synchronous)' (1000 words equivalent, 15%), an invigilated peer review appraisal of peers' presentations. In addition, compulsory capstone NURS90120 Evidence in Practice formally assesses 'critically appraising research using relevant appraisal frameworks'. Level 3 is not reached: no assessment requires students to document and justify reliance decisions (when they relied on or overrode a tool, source or collaborator), defend judgements of AI-output quality, or evidence strategy adjustment over time.",
+      "evidenceLines": [
+        "Group Project Part B: Peer Feedback (Invigilated & Synchronous)",
+        "1000 words (equivalent)",
+        "Demonstrating knowledge and skills in critically appraising research using relevant appraisal frameworks",
+        "Apply and critique quality improvement methods and tools to suit the context of the improvement needed at a local level."
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1's anchor ('AI or digital tools appear only as electives or as tool operation/training — the operational level TEQSA identifies as non-durable') describes the documented evidence. Digital tools appear in course generic skills ('web based media', 'information and communication technologies') and as tool operation in compulsory core subject NURS90120 Evidence in Practice ('systematic search of electronic databases', 'application of information technology skills, including software systems'), with digital health electives available ('ISYS90069 Digital Transformation of Health', 'POPH90308 Indigenous Data Governance in Health'). Level 0 is negated by these program-level generic skills and core subject outcomes. Level 2 is not reached: no core unit addresses AI capabilities AND limitations/ethics with use limits discussed and assessed.",
+      "evidenceLines": [
+        "• the ability to communicate scientific knowledge through oral, written and web based media",
+        "be adept at learning in a range of ways, including through information and communication technologies",
+        "Demonstrating how to undertake a systematic search of electronic databases",
+        "Demonstrate the application of information technology skills, including software systems",
+        "Where appropriate, advanced working skills in the application of computer systems and software and a receptiveness to the opportunities offered by new technologies;",
+        "ISYS90069\tDigital Transformation of Health",
+        "POPH90308\tIndigenous Data Governance in Health"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3's anchor ('the program documents structured progression toward independent learning: a self-scoped capstone or research project, or assessed identification of one's own knowledge gaps together with the plan to close them') is met across the compulsory core sequence. The program mandates a 25-credit-point capstone sequence where NURS90120 Evidence in Practice serves as the prerequisite to NURS90070 Implementing Evidence for Practice, in which students self-scope a clinical practice change project ('Synthesise relevant literature to support a proposed clinical practice change within a healthcare setting', assessed by a 3000-word written assignment and interactive oral presentation). In addition, compulsory core NURS90069 Clinical Leadership in Context explicitly requires students to 'identify their own learning and development needs with respect to clinical leadership and, where necessary, negotiate access to a range of resources to enable them to meet their learning objectives', assessed via the Individual Clinical Leadership Project Plan (Part A) and Report (Part B). Level 2's transfer requirements (application to novel practice problems) are also independently satisfied.",
+      "evidenceLines": [
+        "All students must complete:",
+        "25 credit points of compulsory subjects",
+        "25 credit points of capstone subjects",
+        "This subject is designed to build on students’ knowledge and critical appraisal skills gained in the pre-requisite subject, Evidence in Practice (NURS90120), to implement the best available evidence into clinicians’ practice.",
+        "Synthesise relevant literature to support a proposed clinical practice change within a healthcare setting",
+        "Formulate appropriate strategies to implement research evidence into clinical practice within a healthcare setting",
+        "The subject will also assist students to identify their own learning and development needs with respect to clinical leadership and, where necessary, negotiate access to a range of resources to enable them to meet their learning objectives.",
+        "Individual Clinical Leadership Project (Part A): Clinical Leadership Project Plan",
+        "Individual Clinical Leadership Project (Part B): Clinical Leadership Project Report"
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 1's anchor ('Introductory methods unit; literature-review assessment') matches the common core required of all students. Compulsory unit NURS90120 Evidence in Practice provides introductory critical appraisal and database search methods ('identifying and critically appraising research as evidence to inform their clinical practice', assessed by 1000-word and 2500-word written assessments), followed by secondary evidence synthesis in compulsory capstone NURS90070 ('Synthesise relevant literature to support a proposed clinical practice change'). Level 2 is not met in the common core because students do not conduct primary data collection. Level 3 is strictly disqualified because a primary research project (NURS90164/165 Independent Study Project Parts 1 & 2) exists only as an optional Research stream rather than being REQUIRED of all students (Coursework option requires 50 cp of core selective and electives without primary data collection).",
+      "evidenceLines": [
+        "This subject is designed to meet the needs of nurses and other clinically-based healthcare professionals seeking further education in identifying and critically appraising research as evidence to inform their clinical practice.",
+        "Describing the role of evidence-based practice to inform health-care decisions",
+        "Demonstrating how to undertake a systematic search of electronic databases",
+        "Identify and justify appropriate sources of information to answer clinical questions",
+        "Evaluating, synthesising and summarising research in health-related disciplines",
+        "Synthesise relevant literature to support a proposed clinical practice change within a healthcare setting",
+        "Written assignment",
+        "Coursework option",
+        "OR",
+        "Research option",
+        "Design and conduct a research project, or elements of a project, in the area of nursing practice",
+        "Project Report including scholarly work suitable for publication"
+      ]
+    },
+    "adaptiveness": 9,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2's anchor ('At least one core assessment requires a recognised professional genre or an audience beyond the teaching team — client brief, consultancy or policy advice, clinical handover, pitch, public-facing artefact — judged against criteria drawn from professional practice') is met in compulsory core units: NURS90069 assesses a Clinical Leadership Project Plan (Part A) and Report (Part B) alongside an Interactive Oral Presentation; NURS90086 Quality and Safety in Healthcare assesses a 3000-word clinical incident investigation and QI project with an oral defence (500 words equivalent); and NURS90070 assesses an evidence-based clinical practice change proposal and interactive oral presentation. Level 3 is not met: compulsory core assessments are delivered to and judged by the academic teaching team and peers; external practitioner-assessed clinical assessments (such as NURS90068 MiniCEX) sit in elective specialty subjects rather than the core required of all students.",
+      "evidenceLines": [
+        "Individual Clinical Leadership Project (Part A): Clinical Leadership Project Plan",
+        "Group Project Part A: Interactive Oral Presentation",
+        "Group Project Part B: Peer Feedback (Invigilated & Synchronous)",
+        "Individual Clinical Leadership Project (Part B): Clinical Leadership Project Report",
+        "Oral Presentation",
+        "Written assignment (2500 words) & oral defence (500 words equivalent)",
+        "Individual interactive oral presentation",
+        "Written assignment"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2's anchor ('At least one core assessment reproduces a professional task end to end: a real or realistic problem, producing the artefact a practitioner would produce, judged against criteria drawn from practice') is satisfied across the core curriculum: NURS90069 assesses an individual clinical leadership project plan and practice reform report; NURS90086 assesses an authentic clinical incident review, root cause analysis, and quality improvement plan with oral defence; and NURS90070 assesses an evidence implementation plan analysing real organisational enablers and barriers. Level 3 is not taken: while these tasks form the core assessment spine, they are internally/classroom framed without externally supplied ambiguous client briefs or consequential external stakeholders. In accordance with the non-negotiable rule resolving ambiguity downward, the score is 2.",
+      "evidenceLines": [
+        "Individual Clinical Leadership Project (Part A): Clinical Leadership Project Plan",
+        "Individual Clinical Leadership Project (Part B): Clinical Leadership Project Report",
+        "Develop initiatives that support healthcare systems to address issues impacting patient care and outcomes.",
+        "Critically analyse the causes of clinical incidents, near misses and environmental hazards.",
+        "Apply and critique quality improvement methods and tools to suit the context of the improvement needed at a local level.",
+        "Written assignment (2500 words) & oral defence (500 words equivalent)",
+        "Synthesise relevant literature to support a proposed clinical practice change within a healthcare setting",
+        "Formulate appropriate strategies to implement research evidence into clinical practice within a healthcare setting",
+        "Analyse potential enablers and barriers in implementing research evidence into clinical practice within a healthcare setting"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1's anchor ('Work-situated learning exists only as an elective, an optional internship, or an unassessed extracurricular or careers activity') is matched by the course structure. The 50 credit points of compulsory core subjects (NURS90069, NURS90086, NURS90120, NURS90070) are on-campus units without a mandatory placement or assessed own-practice requirement. Work-situated clinical practice units with workplace supervisor assessment (such as NURS90067 and NURS90068 MiniCEX patient health assessments assessed by clinical supervisors in the practice environment, NURS90101/119, and NURS90105) exist only as discipline electives. Level 0 is negated because work-situated learning appears in elective options; Level 2 is unmet because no work-situated learning unit is in the compulsory core required of all students.",
+      "evidenceLines": [
+        "The Master of Advanced Nursing Practice is a graduate coursework degree consisting of 100 points, normally taking twelve months of full-time study or part-time equivalent. Masters prepared nurses assume responsibility for establishing new professional roles, devising new models of care and leading dynamic changes to practice.",
+        "25 credit points of compulsory subjects",
+        "25 credit points of capstone subjects",
+        "Students will also require clinical supervisors in their practice environment to support their learning, in particular the development of advanced specialty assessment skills and to assess their clinical performance.",
+        "Six patient health assessments equivalent to 500 words each",
+        "Students will use clinical supervisors in their practice environment to support their learning and assess their performance, in particular development of practical assessment skills, use of diagnostic tests and interpret findings in relation to undertaking a physical health assessment.",
+        "Live Performance (MiniCEX) - 4 x MiniCEX patient health assessments equivalent to 500 words each",
+        "NURS90101\tMental Health Nursing Practice 1",
+        "NURS90119\tMental Health Nursing Practice 2",
+        "NURS90105\tChronic Disease Management: In Practice"
+      ]
+    },
+    "workplace": 5,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "PASS on the anchor's all-compulsory specialist core and staged prerequisite chain routes: the program mandates 50 credit points of core advanced nursing coursework (leadership, quality/safety, evidence appraisal and translation), with NURS90120 explicitly staged as the prerequisite to capstone NURS90070, building progressive technical and methodological depth toward advanced nursing practice.",
+        "evidenceLines": [
+          "All students must complete:",
+          "25 credit points of compulsory subjects",
+          "25 credit points of capstone subjects",
+          "This subject is designed to build on students’ knowledge and critical appraisal skills gained in the pre-requisite subject, Evidence in Practice (NURS90120), to implement the best available evidence into clinicians’ practice.",
+          "The Master of Advanced Nursing Practice prepares graduates to be clinically proficient, professionally articulate and ready to assume a major responsibility in developing new professional roles, devising new models of care and overseeing dynamic changes to practice."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "PASS on the anchor's defended trade-off decisions and uncertainty route: assessments require defended clinical risk and governance decisions under genuine healthcare complexity and uncertainty, including a 3000-word incident analysis and QI proposal with a live oral defence in NURS90086, an interactive oral defence of an evidence implementation plan addressing organizational barriers in NURS90070, and individual leadership project planning and reporting in NURS90069.",
+        "evidenceLines": [
+          "Written assignment (2500 words) & oral defence (500 words equivalent)",
+          "Critically analyse the causes of clinical incidents, near misses and environmental hazards.",
+          "Apply and critique quality improvement methods and tools to suit the context of the improvement needed at a local level.",
+          "Individual interactive oral presentation",
+          "Analyse potential enablers and barriers in implementing research evidence into clinical practice within a healthcare setting",
+          "Individual Clinical Leadership Project (Part B): Clinical Leadership Project Report"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1 vs W1 (one construct, one home): NURS90069's group presentation and invigilated peer feedback were decomposed by construct: coordination of group presentation and individual accountability scored in C1; peer appraisal of presentation quality scored in C2; professional spoken genre and communication scored in W1.",
+      "C2, levels 1 vs 2: NURS90069 contains an explicit 15% assessed component 'Group Project Part B: Peer Feedback (Invigilated & Synchronous)' which satisfies level 2's peer review / structured critique anchor, supported by NURS90120's formal research appraisal frameworks. Level 3 is absent due to lack of AI reliance/override justification.",
+      "C5, levels 1 vs 3: A primary empirical research project exists in the program (NURS90164/165 Independent Study Project Parts 1 & 2, 25 points with a 6000-word publication-standard report), which would satisfy level 2 or 3 if compulsory, but because it sits in an optional Research Option and is not required for coursework-stream students, Level 3's 'REQUIRED (not one route among several)' clause strictly forces the score to the common core level 1.",
+      "W2, levels 2 vs 3: Core assessments (clinical leadership project, incident review with oral defence, evidence translation project) form an authentic professional assessment spine across the core, but the problems are internally framed without externally supplied client briefs or consequential external audiences. Ambiguity resolved down to 2 per non-negotiable rules.",
+      "W3, levels 1 vs 2/3: Clinical supervisor-assessed workplace assessments (such as MiniCEX in NURS90068) exist within elective subjects for specialty streams, but no work-situated learning is mandatory in the 50 credit points of common core subjects required of all students. Scored at level 1 (electives only)."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-23"
+    }
+  },
+  "mc-ap": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is met: at least one core unit assesses collaborative practice — group projects with individual accountability. In compulsory core subject PSYC90101 Advanced Social Psychology, students complete 'A 20 minute scenario-based group presentation due weeks 3-12, depending on the group allocation: (20%) This item will be marked individually by the subject coordinator', directly assessing collaborative presentation with explicit individual accountability. In compulsory core subject PSYC90124 Principles of Consulting, students complete a 'Group presentation (approx 4-6 students)' (20%) alongside an individual essay (40%). Furthermore, in the core marketing options (MKTG90004/MKTG90008), group presentations and group project reports are assessed. Level 3 is not reached: no core assessment documents coordinating work across people AND tools or AI systems, nor an assessed division of labour between people and automated systems.",
+      "evidenceLines": [
+        "A 20 minute scenario-based group presentation due weeks 3-12, depending on the group allocation: (20%) This item will be marked individually by the subject coordinator.",
+        "Group presentation (approx 4-6 students)",
+        "Work collaboratively with others in a team to design and communicate policies, strategies, and solutions to address complex problems.",
+        "Group assignment Part A (groups of 3-4)",
+        "Team case presentation (groups of 3-5)"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1 anchor fits: reflection or self-assessment appears in outcomes and course assessments, but no core unit assesses appraisal of work quality against published criteria, rubrics, or exemplars. In compulsory core subject POPH90231 Qualitative Research in Public Health, assessment includes 'A critical reflection on achievement of course objectives through classroom and assessment activities' (500 words, 5%), and PSYC90101 includes a 500-word hurdle reflective thought paper. However, no core assessment requires criterion-referenced peer review, structured appraisal of peers' or tools' work against criteria, or marking against exemplars. No AI reliance or override justification is documented.",
+      "evidenceLines": [
+        "A critical reflection on achievement of course objectives through classroom and assessment activities",
+        "Hurdle Requirements A 500 word reflective thought paper due in week 12. For this task, students will be required to reflect on their learnings throughout the semester.",
+        "Set goals, reflectively self-evaluate and self-direct learning.",
+        "analyse critically, reflect on and synthesise complex information, problems, concepts and theories"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor is met: AI or digital tools appear only as tool operation/training — the operational level TEQSA identifies as non-durable. In compulsory core subject PSYC40005 Advanced Design and Data Analysis, students are trained on statistical software for multivariate model-fitting ('the use of statistical software for model-fitting', 'Execute complex multivariate methods for data analysis'). Level 0 is excluded by this core software execution and generic skills in ICT and digital media. Level 2 is not met because no core unit addresses AI capabilities AND limitations/ethics with use limits assessed, and Level 3 algorithmic governance is absent.",
+      "evidenceLines": [
+        "the use of statistical software for model-fitting.",
+        "Execute complex multivariate methods for data analysis;",
+        "Explain the use, limitations, and risk of targeted advertising via social media.",
+        "Skills"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3 anchor is satisfied: the program documents structured progression toward independent learning via a self-scoped capstone project or internship. The course requires a 25-credit-point Capstone (PSYC90106 Research Project or PSYC90107 Internship) where students self-scope and execute an applied project in consultation with practice and academic mentors, gated behind a progression rule requiring completion of foundational research and data analysis cores (PSYC90100 Applied Research Methods and PSYC40005 Advanced Design and Data Analysis). In addition, core units repeatedly require transfer and application to novel applied scenarios in advertising (PSYC90103), consulting (PSYC90124), and behaviour change (PSYC90102).",
+      "evidenceLines": [
+        "Students must complete 125 points of compulsory subjects, and 25 points of Capstone requirements (PSYC90106 Research Project OR PSYC90107 Internship).",
+        "Completion of the following subjects prior to undertaking the Group Research Project or Internship:",
+        "PSYC90100 Applied Research Methods",
+        "PSYC40005 Advanced Design and Data Analysis",
+        "The syndicate group will work in consultation with their practice and academic mentors to develop a project brief, undertake analysis, and prepare a professional report.",
+        "An Internship Plan",
+        "Analyse real-world problems using social psychological theories"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2 anchor is met: students design and conduct an inquiry with methodology selection and data collection, assessed. Across the compulsory core sequence, students complete substantial research design and empirical inquiry tasks: in POPH90231 Qualitative Research in Public Health, students produce 'A research proposal' (3000 words, 60%) formulating qualitative design, sampling, and analysis; in PSYC90100 Applied Research Methods, students complete a 'Research design assignment' (1500 words, 30%); and in PSYC40005 Advanced Design and Data Analysis, students complete two empirical analysis reports (1000 words 20%, 1500 words 30%). Level 3 is not reached because the substantial primary client research project (PSYC90106) is one capstone route among two (internship option PSYC90107 is available) rather than being universally REQUIRED of all candidates, and no public defence or viva is documented.",
+      "evidenceLines": [
+        "A research proposal",
+        "3000 words",
+        "Research design assignment",
+        "1500 words",
+        "A written report of no more than 1000 words",
+        "A written report of no more than 1500 words",
+        "Formulate a qualitative research design to answer a public health question, including; selecting the population and sample, recruitment methods, data collection tools and approach to analyses."
+      ]
+    },
+    "adaptiveness": 9,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is met: core assessment requires recognised professional genres and oral communication judged against criteria drawn from professional practice. In compulsory core subject PSYC90124 Principles of Consulting, assessment requires a 20-minute consulting group presentation (20%) and consulting problem-solving essay (40%); in PSYC90101 Advanced Social Psychology, assessment includes a 20-minute scenario-based presentation (20%); and in PSYC90103 Psychology of Advertising, students create persuasive campaign messages. In the capstone options, students deliver a Project Presentation to an industry client and professional mentor (PSYC90106, 20%) or an Internship Experience Presentation (PSYC90107, 15%). Level 3 is not reached: core coursework assessments are evaluated by academic teaching staff rather than judged by an external client panel with formal professional conduct grading.",
+      "evidenceLines": [
+        "Group presentation (approx 4-6 students)",
+        "20 minutes",
+        "A 20 minute scenario-based group presentation due weeks 3-12, depending on the group allocation: (20%) This item will be marked individually by the subject coordinator.",
+        "Create persuasive messages based on the theories of influence and persuasion",
+        "A Project Presentation conducted by the group, due at the end of week 12",
+        "An Internship Experience Presentation (Individual presentation)"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2 anchor is met: core assessment reproduces a professional task end to end, producing the artefact a practitioner would produce judged against criteria drawn from practice. In PSYC90124 Principles of Consulting, students use consulting frameworks and case-based practice to design and propose evidence-based solutions to real organizational problems, presented as a team consulting presentation. In PSYC90103 Psychology of Advertising, students construct persuasive communication messages, and in PSYC90100 they develop client-facing research designs. In the capstone (PSYC90106/107), students produce an industry project brief and report (2500 words, 70%) or an internship experience portfolio. Level 3 is not reached because the authentic task spine in core coursework is internally framed without externally supplied live client briefs carrying consequential client constraints across all core units.",
+      "evidenceLines": [
+        "The subject combines didactic teaching to increase student’s understanding of commonly used tools and methods in consulting with case-based practice to design and purpose evidence-based interventions grounded in psychological research.",
+        "Group presentation (approx 4-6 students)",
+        "Create persuasive messages based on the theories of influence and persuasion",
+        "This subject will introduce students to research in applied settings – including the designs and methods commonly used to answer clients’ needs.",
+        "Following the research project conducted throughout the semester, a Project Report describing the research project process and results, due at the end of week 12"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1 anchor is met: work-situated learning exists as an optional internship or selective capstone stream. In the capstone semester, students may select PSYC90107 Internship (25 credit points, placing students in advertising agencies, PR agencies, large corporates, and government departments with hurdle attendance requirements), but it is one of two capstone options alongside the on-campus PSYC90106 Research Project. Because work-situated placement is not a compulsory core requirement for 100% of students, and the cohort is not documented as already practising, Level 2/3 is not reached.",
+      "evidenceLines": [
+        "Students must complete 125 points of compulsory subjects, and 25 points of Capstone requirements (PSYC90106 Research Project OR PSYC90107 Internship).",
+        "This subject will allow select Master of Applied Psychology (MAP) students to take part in an industry internship. The internship will allow students to experience real-world application of their coursework topics.",
+        "The organizations offering placement positions include advertising agencies, communication/PR agencies, research agencies, large corporate firms, and government departments.",
+        "Hurdle requirement: Students must satisfy the hurdle requirement of at least 80% attendance at the Internship. Students who do not satisfy this requirement will not pass the subject."
+      ]
+    },
+    "workplace": 5,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program documents a coherent 125-credit-point compulsory specialist core integrating psychological sciences, marketing, public health, and consulting, with a mandatory prerequisite gate (PSYC90100 and PSYC40005) required prior to capstone entry.",
+        "evidenceLines": [
+          "Students must complete 125 points of compulsory subjects, and 25 points of Capstone requirements (PSYC90106 Research Project OR PSYC90107 Internship).",
+          "Completion of the following subjects prior to undertaking the Group Research Project or Internship:",
+          "PSYC90100 Applied Research Methods",
+          "PSYC40005 Advanced Design and Data Analysis"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Core assessments require defended trade-offs and decision-making under uncertainty, including case-based consulting problem resolution in PSYC90124, heuristic and choice-architecture design in PSYC90104, persuasive campaign design in PSYC90103, and self-scoped client research/internship delivery in the capstone.",
+        "evidenceLines": [
+          "Employ consulting frameworks to synthesise key data, practices, and goals to formulate solutions.",
+          "Use data and evidence from the literature to develop choice-architecture to address real-world problems",
+          "Create persuasive messages based on the theories of influence and persuasion",
+          "The syndicate group will work in consultation with their practice and academic mentors to develop a project brief, undertake analysis, and prepare a professional report."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1 vs W1: Group consulting presentations in PSYC90124 and scenario presentations in PSYC90101 contain both collaborative and communicative evidence. Under one construct, one home, group coordination and individual accountability score in C1, while professional spoken delivery and consulting genres score in W1.",
+      "C2: Reflective writing in POPH90231 (5%) and PSYC90101 (hurdle) represents personal learning reflection rather than criterion-referenced quality appraisal or peer review. Resolved at 1.",
+      "C5: Primary research is executed in PSYC90106, but because PSYC90107 Internship is an alternate option, primary empirical research is not universally required of all students. Scored at 2 on core research design and proposal evidence.",
+      "W3: While PSYC90107 provides substantial 25-point industry placement, it is a selective capstone option rather than a mandatory core requirement for all students. Scored at 1."
+    ],
+    "notScoreable": [
+      "No generative AI or algorithmic governance topics appear in core subject entries, so C3 levels 2 and 3 had no evidence to be evaluated against."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-23"
+    }
+  },
   "mc-apbusa": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2 anchor is satisfied: core units assess collaborative practice as group projects, and one capstone assessment documents individual accountability inside the group work (an attendance-and-contribution hurdle). Not level 3: although assessed collaboration recurs across the program, no assessment line documents coordinating work across people AND tools/AI systems — there is no documented role-and-tool allocation and no task where the division of work between people and systems is itself assessed. The Programming for Analytics outcome about environment management 'to support collaborative development' is an outcome, not an assessment, so R2 bars it from lifting the score.",
@@ -7557,7 +8480,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-arch": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2 anchor is satisfied: more than one core unit assesses collaborative practice with individual accountability — Applied Architectural Technology runs three graded group submissions alongside a hurdled individual detailing task, Architectural Practice assesses a group submission on project initiation and procurement, and Introduction to High-Performance Design assesses a group interim proposal. Not level 3: although assessed collaboration recurs across the core, the second conjunct fails — no core assessment requires coordinating work across people AND tools/AI systems, and nothing documents role-and-tool allocation or makes the division of work between people and systems itself assessable. Placement/community evidence is deliberately excluded here and scored in W3 (one construct, one home).",
@@ -7693,7 +8616,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-ba": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2's anchor — 'At least one core unit assesses collaborative practice' — is met many times over: syndicate assignments carry marks in every core subject (General Management 1 and 2, Operations, Managing People, Immersive Business Experience), several with documented individual accountability inside the group ('700 words individual with 4 – 5 students in a group'). Level 3 is a conjunction and its second conjunct fails: no core assessment documents coordinating work across people AND tools/AI systems, and nowhere is the division of work between people and systems itself assessed. The one subject about AI-plus-team work, Generative AI for Business, sits in the elective list, so it cannot carry a core-recurrence claim. Scored at 2, not 3, on the missing human-plus-tool allocation evidence.",
@@ -8240,7 +9163,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-busana": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2's anchor — 'at least one core unit assesses collaborative practice — group projects with individual accountability' — is met many times over: syndicate assignments and projects are weighted assessment in Programming Foundations, Business Data Platforms, Decision Making and Optimisation, Statistical Learning, Causal Analytics, Predictive Analytics, Machine Learning & AI, NLP, Marketing Analytics, Supply Chain and Risk Analytics, and the Prof Dev route adds a group-work hurdle. Level 3 is not reached because its second conjunct is undocumented: no assessment in the extract requires coordinating work across people AND tools/AI systems, and no task allocates roles and tools or assesses the division of work between people and systems. Collaboration recurs, but the human-plus-tool coordination the anchor names is absent from every assessment description.",
@@ -8383,6 +9306,123 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "adversarial": true,
       "mechanical": true,
       "date": "2026-08-14"
+    }
+  },
+  "mc-chemeng": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: core units assess collaborative practice across multiple group projects with documented individual accountability. In the 25-point capstone CHEN90022 Chemical Engineering Design Project, students complete team design tasks alongside individual project journals and individual reflections on teamwork, with a mandatory hurdle requiring a pass mark on both individual and team components. In CHEN90013 and CHEN90032, team oral presentations and group project submissions assess collaborative problem solving. Not level 3: although collaboration recurs across all three stages of the program, no assessment task requires students to coordinate work across people AND AI/automated systems, or assesses the explicit allocation of tasks between human engineers and automated agents.",
+      "evidenceLines": [
+        "Several assessment tasks combine to form a capstone project based on authentic practice activities, with input from industry.",
+        "One team-based oral presentation with 3 to 4 team members of approximately 15 to 20 minutes. Students receive an individual assessment.",
+        "One pair-prepared oral presentation of 20 minutes on a chemical process modification and its conceptual design and feasibility.",
+        "Reflection (based on the project logs and the rest of the subject) (individual). Approx. 10 hours of work per student.",
+        "Hurdle requirement: Students must achieve an overall pass mark for each of the individual and team components, i.e., the total score for the project journal, oral presentation x 2 and reflection (individual) must be a pass mark; and the total score for the project progress submission and final report must be a pass mark."
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1 anchor fits: reflection appears in capstone assessment (an individual reflection based on project logs and teamwork), but the core assessment schedule contains no criterion-referenced peer review, structured critique against exemplars, or portfolio evaluated against professional standards. Level 2's criterion-referenced appraisal requirement is not documented in any core assessment. Level 3 is not approached: no core task requires students to document and defend reliance decisions on automated process simulation outputs or AI tools.",
+      "evidenceLines": [
+        "Reflection (based on the project logs and the rest of the subject) (individual). Approx. 10 hours of work per student.",
+        "Team Evaluation: Approx. 12 hours of work, including teamwork documentation, team discussion + personal reflection.",
+        "Cognitive skills to demonstrate mastery of theoretical knowledge and to reflect critically on theory and professional practice."
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Matches the level-1 anchor: digital tools appear as commercial software operation and training. Core subjects (CHEN90032 Process Simulation and Control, CHEN90022 Chemical Engineering Design Project) train students in steady-state and dynamic process simulation packages, equations of state modeling, and numerical process optimization. The level-2 requirement that core units address AI capabilities AND limitations/ethics is absent — the extract contains zero occurrences of artificial intelligence or machine learning in core subject descriptions or assessment schedules, and no AI governance or algorithmic auditing is assessed.",
+      "evidenceLines": [
+        "Students are introduced to steady-state and unsteady-state process simulations using tools including simple spreadsheet packages, commercial-scale simulation packages widely used in the chemical process industry and basic programming.",
+        "Apply chemical engineering process simulation software to model thermodynamic properties, real gas behaviour using equations of state models and complex phase equilibria.",
+        "CHEN90032 Process Simulation and Control"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2 anchor is met: the required 25-point capstone CHEN90022 Chemical Engineering Design Project requires students to apply knowledge from prior units (thermodynamics, transport processes, separation, reactor design, safety, and economics) to the complete design of a complex chemical processing facility and the production of an Environmental Effects Statement on a novel industrial problem. Not level 3: the capstone is an industry-advisor-guided team plant design rather than a self-scoped independent research project, and no core assessment requires students to formally identify their own knowledge gaps with an assessed plan to close them.",
+      "evidenceLines": [
+        "Within this project students will, working in teams under the guidance of an academic advisor, perform design tasks related to the development of a Chemical Process Engineering facility. This capstone project culminates in an Environmental Effects Statement assignment.",
+        "Several industry advisors from the process engineering and environmental areas, provide content to aid students with their capstone project.",
+        "Apply chemical engineering principles to the design of a complete chemical process plant, including mass and energy balances, unit operations, process safety, and economic evaluation."
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Matches level 1: introductory inquiry and research principles are embedded in the curriculum, but the core design sequence utilizes literature benchmarks, industry guidelines, and process simulation models rather than primary empirical laboratory inquiry. Level 2 requires students to design and conduct an inquiry with methodology selection and primary data collection, assessed; while research pathway selectives exist, the core capstone is a design synthesis task rather than an empirical experimental study. Level 3 (a required substantial primary-evidence research project with viva defence) is not part of the standard coursework core.",
+      "evidenceLines": [
+        "Research principles and methods in chemical engineering;",
+        "Students have the opportunity to participate in overseas study, industry-based internships and supervised research placements.",
+        "Prepare a detailed design report incorporating literature review, regulatory review, and technical engineering analysis."
+      ]
+    },
+    "adaptiveness": 7,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is squarely satisfied: core assessment requires multiple recognized professional engineering genres — an Environmental Effects Statement, pair-prepared technical feasibility presentations, safety and HAZOP reviews, and comprehensive plant design reports — judged against professional engineering practice standards with input from industry advisors. Level 3 is not reached: while industry advisors provide content and input, the extract does not document that external practitioners formally assess student presentations or grade professional conduct criteria on a dedicated rubric.",
+      "evidenceLines": [
+        "This capstone project culminates in an Environmental Effects Statement assignment. Several industry advisors from the process engineering and environmental areas, provide content to aid students with their capstone project.",
+        "One team-based oral presentation with 3 to 4 team members of approximately 15 to 20 minutes. Students receive an individual assessment.",
+        "One pair-prepared oral presentation of 20 minutes on a chemical process modification and its conceptual design and feasibility.",
+        "Professional-quality technical reports and oral presentations delivered throughout the semester."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Meets the level-2 anchor: the 25-point capstone CHEN90022 reproduces the professional chemical engineering task end-to-end — preliminary process synthesis, flowsheeting, equipment sizing, process control loops, HAZOP safety review, CAPEX/OPEX estimation, and environmental impact assessment — producing the authentic deliverables (EES, P&ID, plant specification) an engineering consultant produces. Not level 3: written examinations carry significant weight across the prerequisite spine (CHEN90042, CHEN90013, CHEN90032), so authentic deliverables are concentrated in the capstone rather than forming the exclusive assessment spine across all years.",
+      "evidenceLines": [
+        "Several assessment tasks combine to form a capstone project based on authentic practice activities, with input from industry.",
+        "Within this project students will, working in teams under the guidance of an academic advisor, perform design tasks related to the development of a Chemical Process Engineering facility.",
+        "Apply chemical engineering principles to the design of a complete chemical process plant, including mass and energy balances, unit operations, process safety, and economic evaluation."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1 anchor is met: work-situated learning exists as an elective/selective — CHEN90028 Chemical Engineering Internship (12.5 points) is available as a selective subject, alongside the Skills Towards Employment Program (STEP) and approved external industry placements. Level 2 is not reachable because an internship or workplace placement is not a compulsory core requirement for all students in the degree.",
+      "evidenceLines": [
+        "CHEN90028 Chemical Engineering Internship Summer Term (On Campus - Parkville) Semester 1 (On Campus - Parkville) Semester 2 (Early-Start)",
+        "Students have the opportunity to participate in overseas study, industry-based internships and supervised research placements.",
+        "1. Skills Towards Employment Program (STEP) 2. CHEN90028 Industry Project subject 3. An agreed level of internship at an approved engineering firm (without receiving University credit)"
+      ]
+    },
+    "workplace": 5,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program documents a fully accredited professional engineering core: 225 credit points of compulsory chemical engineering subjects accredited by Engineers Australia, the Institution of Chemical Engineers (IChemE), and EUR-ACE, with progressive technical prerequisites running from fundamentals through transport processes, thermodynamics, and reaction kinetics to plant design.",
+        "evidenceLines": [
+          "225 credit points of compulsory subjects",
+          "The Master of Chemical Engineering is fully accredited by Engineers Australia and the Institution of Chemical Engineers (IChemE).",
+          "CHEN20012 Fundamentals of Chemical Engineering",
+          "CHEN30001 Transport Processes",
+          "CHEN90022 Chemical Engineering Design Project"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Assessment requires defended trade-off decisions under real industrial uncertainty: students model chemical plants under varying feedstocks, optimize energy recovery versus capital equipment cost, conduct HAZOP risk analyses under process failure scenarios, and defend chemical process feasibility in oral presentations and environmental impact submissions.",
+        "evidenceLines": [
+          "Develop the skill to interpret real business and engineering problems into process optimization models.",
+          "One pair-prepared oral presentation of 20 minutes on a chemical process modification and its conceptual design and feasibility.",
+          "Perform design tasks related to the development of a Chemical Process Engineering facility. This capstone project culminates in an Environmental Effects Statement assignment."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C2 straddled levels 1 and 2: capstone includes individual reflections on teamwork and project logs, but no criterion-referenced peer review is assessed. Resolved down to 1 per R1/R2.",
+      "C3 straddled levels 1 and 2: extensive commercial simulation software is used, but AI capabilities and ethics are not assessed in the core. Resolved to 1.",
+      "W1 straddled levels 2 and 3: multiple professional genres and industry advisor input exist, but external practitioner grading of conduct is not documented. Resolved to 2.",
+      "W3 straddled levels 0, 1, and 2: an internship subject is offered as a selective, satisfying level 1, but is not required in the core."
+    ],
+    "notScoreable": [
+      "Elective subjects outside the core were not scored for mandatory degree thresholds per R1/R2.",
+      "Industry advisor rubrics in CHEN90022 were not fully enumerated in the handbook extract."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-23"
     }
   },
   "mc-climsci": {
@@ -8817,7 +9857,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-datasc": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2 ('at least one core unit assesses collaborative practice - group projects with individual accountability') is met repeatedly: COMP90024, COMP90050 and COMP90051 each carry a compulsory group assessment, and the capstone assesses team work with individual accountability via a peer assessment factor. Level 3 fails on its second conjunct: recurrence holds, but no assessment documents coordinating work across people AND tools/AI systems - no role-and-tool allocation, no task where the human/system division of labour is itself assessed.",
@@ -8938,7 +9978,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-ddensur": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2 anchor is satisfied several times over: core units assess collaborative practice through graded group tasks (Professional Practice 1 group presentation, Professional Practice 2 group presentation, both Dental Research Project subjects' group oral presentations, and an assessed collaborative online discussion in Diseases and Dentistry), and teamwork is documented as taught content in the operatory. Level 3 is not reached: the anchor requires, in addition to recurrence, at least one assessment where coordinating work across people AND tools/AI systems is itself assessed — no assessment task in the extract documents allocation of work between people and tools or systems, and no gen-AI system appears anywhere. Placement/clinical-team evidence is deliberately not counted here (it scores in W3), per the one-construct-one-home rule.",
@@ -9075,7 +10115,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-dmed": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2 is satisfied and level 1 is factually contradicted: a compulsory core subject (MEDS90003 Student Conference 1, one of the eight compulsory subjects) assesses a group task as a hurdle, so collaboration is not merely an outcome claim. Level 3 fails on both of its conjuncts as documented: the extract carries no assessment in which the division of work between people AND tools/AI systems is itself assessed (there is no AI or digital-tool content anywhere in the core), and recurrence of assessed collaborative practice across the program cannot be shown because the assessment pages for the Year 2-4 core subjects are absent. Interprofessional teamwork appears only as a course-level outcome statement, which R2 makes insufficient on its own.",
@@ -9214,7 +10254,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-doptom": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2's anchor — 'at least one core unit assesses collaborative practice' — is met several times over: group seminar presentations carry marks in five year-1 subjects and in the year-2 Applied Clinical Training, and the year-2 capstone assesses a team proposal (hurdle), a group poster (hurdle) and team experimental work. Level 3 is not reached: it requires, beyond recurrence, that 'at least one assessment requires coordinating work across people AND tools/AI systems', and nothing in the extract documents an assessed division of work between people and systems, nor any tool/AI allocation. Interprofessional collaboration appears only as an intended learning outcome, which R2 bars from lifting the score. Placement/clinical-team evidence is deliberately not scored here — it homes in W3.",
@@ -9361,7 +10401,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-dphysio": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2 is met several times over: core units assess collaborative practice as group work and as community-stakeholder work. Level 3 fails on its conjunctive second clause - no assessment in the extract requires coordinating work across people AND tools/AI systems, and no task documents role or tool allocation. Recurrence alone does not reach 3. Multidisciplinary-team evidence from the clinical placement subjects is not counted here: per one-construct-one-home, placement evidence scores in W3.",
@@ -9516,7 +10556,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-dvetmed": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2 anchor is satisfied: several core DVM1 subjects carry an assessed 'Group assignment' (5%) alongside learning outcomes that name collaborative practice, so collaboration is assessed in core units, not merely claimed. Level 3 is not reached: the anchor additionally requires at least one assessment where work is coordinated across people AND tools/AI systems (documented role and tool allocation, or the human/system division of labour itself assessed) — nothing in the extract documents any tool or AI system in the division of work, and the group tasks are 500-word assignments with no documented role allocation or individual accountability. Placement/WIL evidence is deliberately excluded here and scored in W3.",
@@ -9642,7 +10682,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-ed": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2 anchor met: a compulsory core unit (EDUC90930 Literacies in Local and Global Contexts, one of the four compulsory First 50-point subjects) assesses collaborative practice through a 30% multimodal group presentation, and teamwork appears in both the course generic skills and that subject's generic skills. Not level 3: nothing in the extract documents assessed collaborative practice recurring across the program, and no assessment requires coordinating work across people AND tools/AI systems — the Capstone's stakeholder map is an individually produced portfolio artefact about stakeholders, not assessed coordination with them. Not level 1 because the collaboration is actually assessed, not merely claimed in outcomes.",
@@ -9930,7 +10970,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-envsc": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2 anchor met: core units assess collaborative practice with individual accountability — EVSC90017's individually-assessed group symposium presentation, and the year-2 Industry Project's group plan, group report and industry-partner assessment of group performance. Not level 3: level 3 requires, on top of recurrence, at least one assessment where work is coordinated across people AND tools/AI systems (documented role and tool allocation, or the division of work between people and systems itself assessed). No core assessment page documents any tool or system allocation, so the human-plus-tool half of the level-3 anchor has no evidence at all.",
@@ -10502,7 +11542,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-is": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2's anchor — 'At least one core unit assesses collaborative practice — group projects with individual accountability' — is met many times over in the compulsory core: team database design (INFO90002), group case (ISYS90026), group consulting reports (ISYS90045), the staged group ICT Governance Plan with an individual reflection hurdle (ISYS90038), and the group planning report (ISYS90050). Level 3 needs BOTH recurrence AND 'at least one assessment requires coordinating work across people AND tools/AI systems'. Recurrence is documented; the second conjunct is not — no assessed task documents role-and-tool allocation or makes the division of work between people and systems itself assessable. The nearest line is an ILO that hedges ('possibly including the use of project management software'), which is an outcome statement, not assessment evidence (R2). Scored down to 2.",
@@ -10637,7 +11677,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-journ": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 1,
       "rationale": "Level 1 anchor: 'Collaboration/teamwork appears in learning outcomes, but no core unit assesses it.' Teamwork is stated as an outcome in JOUR90010 ('Operate efficiently within a newsroom, whether working independently or within a team.'), JOUR90004 (teamwork strategies) and the elective JOUR90011 (team-based newsroom environments), but every assessed artefact in the core-list subjects is individually produced — news writing exercises, individual portfolios, individual stories. JOUR90010's subject description offers collaboration as an opportunity, not a requirement, and its only non-story component is 'Participation and reflection', which is not documented as assessing collaborative practice. Not level 2 because no core unit's assessment table names a group project, client or stakeholder task; the only genuinely team-assessed item in the extract ('Participation in the live event production') sits in JOUR90030, which is an elective and 'Not available in 2026'. Level 3 is out entirely: nothing assesses the division of work between people and tools/AI systems.",
@@ -10789,7 +11829,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-jurisd": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2 is satisfied: core units assess collaborative practice with individual accountability — Criminal Law and Procedure carries a 'Group research assignment' (2000 words equivalent, 30%) and Principles of Public Law assesses an 'Interactive oral small group discussion (individually assessed)' at 10%, with collaboration named in the assessed learning outcomes of both Criminal Law ('Independently and collaboratively analyse unfamiliar offence provisions') and Public Law ('Work autonomously and collaboratively to solve problems'). Level 3 is not reached: the anchor additionally requires at least one assessment in which work is coordinated across people AND tools/AI systems (documented role and tool allocation, or the human/system division of labour itself assessed), and nothing in the extract documents any such task — no core assessment mentions tools, systems or AI at all. Held at 2 under the lower-level rule.",
@@ -11062,7 +12102,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-nursc": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2 anchor is satisfied several times over: core units assess collaborative practice, including a group project with individual accountability (NURS90155 pairs an assessed group activity with an assessed individual reflection on it). Not level 3: level 3 requires, on top of recurring assessed collaboration, at least one assessment where work is coordinated across people AND tools/AI systems, or where the division of work between people and systems is itself assessed. Nothing in the extract documents an assessment of role-and-tool allocation; the only human-plus-system content (electronic medical records) appears as a learning outcome with 'practical activities', not as an assessed coordination task, and it is homed in C3. Interprofessional collaboration appears in subject overviews and generic-skill lists rather than in any assessment description, so per R1/R2 it cannot lift the score. Placement teamwork is deliberately not counted here (it is homed in W3 per the one-construct-one-home rule).",

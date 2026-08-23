@@ -41,7 +41,7 @@ const content = {
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — LOW CONFIDENCE
 
 | Career Stage | Academic Track | Policy/Government | Publishing/Editorial | Corporate/Strategy |
 |---|---|---|---|---|

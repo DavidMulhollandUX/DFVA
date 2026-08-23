@@ -41,7 +41,7 @@ const content = {
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — LOW CONFIDENCE
 
 | Role / Career Stage | Entry (0-2 yrs post-PhD) | Mid (3-7 yrs) | Senior (8+ yrs) |
 |---|---|---|---|

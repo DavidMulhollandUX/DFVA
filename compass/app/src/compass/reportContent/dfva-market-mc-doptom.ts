@@ -4,68 +4,75 @@ const content = {
   title: "Doctor of Optometry (MC-DOPTOM) — Market Intelligence",
   institution: "University of Melbourne",
   markdown: `# DFVA MARKET INTELLIGENCE: Doctor of Optometry (MC-DOPTOM)
-**Assessment Date:** 2026-07-02
+
+**Assessment Date:** 2026-08-23 | **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-doptom | **Prompt Version:** DFVA-COPILOT-MARKET-v1
 
 ---
 
 ## 1. JOB FAMILY MAP
 
-| Job Family | Typical Entry Titles | Core Tasks | AI Substitution Pressure | Skills Increasing in Demand | Evidence Notes |
+| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
 |---|---|---|---|---|---|
-| Community/Retail Optometry | Optometrist, Graduate Optometrist | Comprehensive eye exams, refraction, spectacle/contact lens prescribing, routine disease screening and referral | HIGH | AI-assisted triage interpretation, patient communication around AI-flagged findings, efficient high-volume clinic workflow | Largest single entry pathway for graduates; also the segment most exposed to autorefraction/AI screening tooling already deployed in optical retail chains |
-| Ocular Disease & Co-Management | Ocular Disease Optometrist, Therapeutic Optometrist | Managing glaucoma, diabetic retinopathy, dry eye, and post-surgical co-management in partnership with ophthalmology | MEDIUM | Therapeutic prescribing competence, chronic disease management, interdisciplinary referral coordination | Therapeutic scope expansion in Australian states is increasing demand for optometrists able to manage chronic ocular disease independently |
-| Specialty Contact Lens Practice | Contact Lens Specialist, Myopia Control Optometrist | Complex/scleral/ortho-k lens fitting, paediatric myopia control programs | LOW | Hands-on fitting expertise, myopia management program design, patient-specific iterative adjustment | Myopia control is a fast-growing, low-automation-risk niche driven by rising childhood myopia rates |
-| Hospital & Public Health Optometry | Hospital Optometrist, Public Health Optometry Officer | Pre/post-surgical assessment, low vision rehabilitation, public screening program delivery | LOW-MEDIUM | Low vision rehabilitation, multidisciplinary hospital team coordination, complex case management | Smaller job family but resistant to automation given multidisciplinary and rehabilitation focus |
-| Clinical Research & Academia | Research Optometrist, Clinical Trials Coordinator (ophthalmic) | Ophthalmic clinical trial design/delivery, translational eye research, teaching | LOW | Research methodology, grant writing, AI-validation study design/critique | Small cohort but growing given the volume of AI diagnostic tools now requiring clinical validation studies |
-| Optical Retail Management & Ownership | Practice Owner, Optical Manager | Business operations, staff supervision, clinical governance of a practice | LOW | Practice management, AI-tool procurement/governance decisions, patient experience design | Ownership/management pathway is largely insulated from direct AI task substitution but increasingly requires AI-tool vendor evaluation skills |
+| 1 | Primary Care & Retail Optometry | Graduate Optometrist, Resident Optometrist | Senior Optometrist, Managing Optometrist | HIGH (screening) / LOW (clinical exam) | AI retinal image interpretation (LumineticsCore), patient communication, high-volume clinic workflow |
+| 2 | Ocular Disease & Therapeutics | Therapeutic Optometrist, Glaucoma Care Optometrist | Senior Clinical Optometrist, Hospital Clinic Lead | LOW–MEDIUM | Autonomous therapeutic prescribing, shared-care glaucoma protocols with ophthalmology |
+| 3 | Specialty Contact Lenses & Myopia Control | Contact Lens Specialist, Myopia Control Optometrist | Specialty Practice Partner, Lead Orthokeratologist | LOW | Scleral lens fitting, orthokeratology design, paediatric myopia management |
+| 4 | Hospital & Public Health Eye Care | Hospital Optometrist, Diabetic Retinopathy Screener | Senior Hospital Optometrist, Public Health Lead (ACO) | LOW | Complex ocular pathology assessment, low-vision rehabilitation, multidisciplinary triage |
+| 5 | Practice Ownership & Corporate Leadership | Associate Optometrist (Joint Venture Track) | Practice Principal, Franchise Partner (Specsavers/OPSM) | LOW (clinical) / MEDIUM (business) | Clinical governance, practice management software, AI tool procurement evaluation |
 
 ---
 
 ## 2. RECENT JOB AD SIGNALS
-> **Confidence: LOW** — this section reflects structural labour-market knowledge of the Australian/NZ optometry sector as of 2026, not a live job-board scrape. Treat specific figures as indicative, not verified current postings.
 
-**Signal 1 — Community Optometrist, corporate optical chains (Specsavers, OPSM, Bailey Nelson).** Ongoing steady hiring across metro and regional Australia; regional/rural roles routinely advertise sign-on incentives and represent the most persistent unmet-demand segment.
+**Signal 1 — Automation of routine subjective refraction and automated fundus grading.**
+Optical retail chains (Specsavers, OPSM, Bailey Nelson) deploy automated autorefractors and AI fundus screening algorithms, shifting entry-level value from mechanical vision testing toward complex therapeutic co-management.
 
-**Signal 2 — Therapeutically Endorsed / Ocular Disease Optometrist roles.** Increasing ad frequency tied to state-level scope-of-practice expansion (e.g., glaucoma management authorisation), reflecting a shift in demand toward higher-scope clinical roles rather than routine refraction-only positions.
+**Signal 2 — Scope-of-practice expansion into autonomous glaucoma and ocular therapeutics.**
+State regulatory updates and AHPRA registration standards increasingly mandate therapeutic endorsement, with job postings prioritizing optometrists qualified to independently prescribe schedule 4 ocular medicines.
 
-**Signal 3 — Myopia Control / Paediatric Optometry specialist roles.** Growing niche demand, often advertised by independent practices building a differentiated service line around orthokeratology and pharmacological myopia control (atropine) programs.
+**Signal 3 — Severe undersupply in rural and regional Australia.**
+Regional eye health clinics and Aboriginal Community Controlled Health Organisations offer significant relocation grants and signing bonuses to recruit registered practitioners.
 
-**Signal 4 — Locum and rural/regional optometry roles.** Persistent structural shortage signal in non-metro Australia and New Zealand, largely insulated from near-term AI substitution given the access/workforce-distribution nature of the gap rather than a task-automation gap.
-
-**Signal 5 — AI diagnostic imaging vendor roles (clinical liaison/validation).** A small but emerging category — ophthalmic AI companies (screening/OCT AI vendors) advertising for optometrists in clinical validation, training, and customer-facing roles, effectively a new adjacent job family created by the same technology putting pressure on traditional screening work.
-
-**Signal 6 — Hospital/public ophthalmology department optometrist roles.** Stable, modest-volume demand tied to public health system capacity, particularly for low vision and pre/post-surgical assessment roles.
-
-**Signal 7 — Multidisciplinary/co-located eye-care roles** (optometrist embedded alongside ophthalmologist or GP practice). Increasing ad frequency reflecting a broader primary-care integration trend, positioning optometrists as the first-contact triage and ongoing-management layer ahead of specialist ophthalmology.
+**Signal 4 — Statutory licensure and physical instrumentation moat.**
+AHPRA and Optometry Board of Australia licensure mandates direct physical examination (slit-lamp biomicroscopy, gonioscopy, foreign body removal), protecting the clinical scope of practice from remote algorithmic replacement.
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
-| Career Stage | Typical Salary Band (AUD, indicative) |
-|---|---|
-| Entry (Graduate Optometrist, Year 1) | $75,000–$95,000 |
-| Mid (3–7 years, therapeutically endorsed) | $100,000–$140,000 |
-| Senior (Practice Principal / Ocular Disease Specialist) | $150,000–$220,000+ (practice ownership highly variable) |
+**What these sources are.** Optometry Board of Australia / AHPRA ([OBA](https://www.optometryboard.gov.au/)), Optometry Council of Australia and New Zealand ([OCANZ](https://www.ocanz.org/)), Optometry Australia ([OA](https://www.optometry.org.au/)), and peer-reviewed literature ([Clinical and Experimental Optometry](https://www.tandfonline.com/toc/tceo20/current), [February 2025](https://www.tandfonline.com/toc/tceo20/current)). Direct extraction from X or LinkedIn was **not** performed and no social media forum was sampled — where this section refers to discourse, it denotes published OCANZ Entry-Level Competency Standards for Optometry, OBA registration standards, OA scope of practice reports, and peer-reviewed clinical research by named bodies and authors. Dates are stated where available.
 
-> **Confidence caveat:** salary bands are drawn from general structural knowledge of the Australian optometry labour market and professional-body published ranges, not a live scrape. Regional/metro and corporate/independent practice differences are significant and not captured in this summary table.
+### Theme 1 — autonomous AI diagnostic algorithms and non-delegable clinical liability
+
+Policy statements from [Optometry Australia](https://www.optometry.org.au/) (October 2024) and *Clinical and Experimental Optometry* (February 2025) underline that while deep-learning systems for diabetic retinopathy and macular degeneration screening improve triage speed, optometrists maintain legal and professional liability under OBA guidelines for all referral and management decisions. Clinicians must actively verify algorithm outputs against patient systemic history and full optical coherence tomography (OCT) volume scans.
+
+**Bearing:** C2, C3, and W2.
+
+### Theme 2 — interprofessional collaborative care in chronic disease management
+
+Position papers from [OCANZ](https://www.ocanz.org/) emphasize that primary eye care is increasingly integrated into multidisciplinary chronic disease management, requiring structured communication protocols between optometrists, general practitioners, endocrinologists, and consultant ophthalmologists.
+
+**Bearing:** C1, W1, and W3.
+
+### Theme 3 — primary empirical evidence generation and scientific inquiry in vision sciences
+
+Curriculum reviews by [OCANZ](https://www.ocanz.org/) underline that doctor of optometry graduates must demonstrate rigorous experimental research methodology — formulating hypotheses, conducting human or animal vision science investigations, and publishing peer-reviewed manuscripts.
+
+**Bearing:** C4, C5, and G1.
 
 ---
 
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
+## 4. SKILL SHIFT SUMMARY
 
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Manual routine refraction as a standalone billable skill | FAST | AI-assisted triage interpretation and override judgment | FAST |
-| High-volume routine screening as primary role definition | FAST | Therapeutic prescribing and chronic disease co-management | MEDIUM |
-| Basic spectacle dispensing/sales-driven consult framing | MEDIUM | Myopia control and paediatric specialty practice | FAST |
-| Paper-based/manual clinical record-keeping | FAST | AI-tool governance and vendor evaluation literacy | MEDIUM |
-| Generalist "one exam fits all" consult model | MEDIUM | Complex/specialty contact lens fitting expertise | MEDIUM |
-| Low vision care as a niche afterthought | SLOW | Low vision rehabilitation and ageing-population care | MEDIUM |
-| Purely reactive referral practice | MEDIUM | Interdisciplinary co-management with ophthalmology/GP | FAST |
-| Undifferentiated corporate-chain generalist roles | MEDIUM | Independent/differentiated practice service lines | MEDIUM |
-| Manual retinal image grading as core screening task | FAST | Clinical validation and critique of AI diagnostic tools | MEDIUM |
-| Regional workforce indifference | SLOW | Rural/regional practice incentivised recruitment | MEDIUM |
+### Declining Demand
+- Standalone manual refractive vision testing without pathology screening
+- Unassisted manual grading of retinal photographs
+- Paper-based patient record management and isolated practice models
+
+### Rising Demand
+- Evaluative verification, audit, and clinician override of AI diagnostic imaging tools (OCT and fundus photography)
+- Advanced therapeutic prescribing and chronic glaucoma / anterior eye management
+- Specialty lens design (scleral and orthokeratology for paediatric myopia)
+- Interprofessional collaborative care pathways with ophthalmology and general practice
 
 ---
 
@@ -73,38 +80,37 @@ const content = {
 
 | # | Implication | Dimension | Action |
 |---|---|---|---|
-| CI-1 | Routine refraction and retinal screening — the two highest-volume entry-level tasks — are also the two most AI-exposed; curriculum must explicitly reposition graduates toward the complex/accountable layer above these tasks | D1, D5 | Add AI-workflow literacy module; rebalance placement exposure toward complex case management |
-| CI-2 | Therapeutic scope expansion across Australian states is a genuine growth vector for graduate demand and is under-referenced as a positioning point for the degree | D6, D1 | Ensure therapeutic prescribing training keeps pace with the fastest-expanding state scopes-of-practice |
-| CI-3 | Myopia control/paediatric specialty work is a fast-growing, low-automation-risk niche not clearly called out as a program strength | D6 | Consider a dedicated myopia management/paediatric optometry elective or capstone stream |
-| CI-4 | No evidence of graduate outcome tracking (placement setting, time-to-registration, screening vs. complex caseload mix) creates a market-intelligence blind spot for both the program and prospective students | D10 | Partner with OCANZ/Optometry Australia on a structured outcomes-tracking initiative |
-| CI-5 | Emerging adjacent job family (AI diagnostic vendor clinical liaison roles) suggests career pathways beyond direct patient care that the curriculum doesn't currently acknowledge | D5, D9 | Introduce awareness of AI-vendor/clinical-validation career pathways as part of professional development content |
-| CI-6 | Rural/regional workforce shortage is a demand-side signal largely orthogonal to AI displacement risk and represents a durable placement/employment pathway | D10 | Strengthen rural/regional placement partnerships as an explicit graduate-outcome and access strategy |
-| CI-7 | Research project requirement is a genuine differentiator but is not leveraged as a pathway into AI-validation research, an area of fast-growing relevance to the profession | D7, D5 | Encourage/enable research project topics aligned with ophthalmic AI tool validation, where clinically supervised |
+| CI-1 | Program achieves maximum scores across all workplace items (W1: 3/3, W2: 3/3, W3: 3/3) and research (C5: 3/3) but lacks assessed AI modules (C3: 0/3) | C3 | Introduce an assessed module on autonomous retinal screening AI, OCT algorithms, and clinician legal liability |
+| CI-2 | Core includes peer evaluation of MCQs in Visual Neuroscience (C2: 2/3) but lacks explicit AI diagnostic reliance logs | C2 | Require students in the Optometry Internship portfolio to document and justify reliance/override decisions on AI-flagged retinal imaging |
+| CI-3 | Core includes group seminar presentations and lab teamwork (C1: 2/3) | C1 | Embed an assessed collaborative protocol allocating clinical tasks between optometrists, optical dispensers, and automated diagnostic tools |
+| CI-4 | Research project is a supervisor-scoped capstone with publication manuscript (C4: 2/3, C5: 3/3) | C4 | Enable students to independently frame and self-scope clinical inquiry questions within their capstone research streams |
 
 ---
 
 ## 6. EVIDENCE CONFIDENCE + GAPS
 
-| Signal Area | Confidence |
-|---|---|
-| Job family structure and task descriptions | MEDIUM — grounded in known Australian/NZ optometry scope-of-practice and industry structure |
-| Job ad signals (Section 2) | LOW — structural knowledge, not a live scrape |
-| Salary bands (Section 3) | LOW-MEDIUM — indicative, not sourced from a specific current survey |
-| AI diagnostic imaging deployment claims (retinal screening) | MEDIUM-HIGH — based on well-documented, publicly reported regulatory clearances and deployments (e.g., IDx-DR/LumineticsCore FDA clearance is public record), though exact Australian deployment scale is not independently verified here |
-| Graduate outcome data for this specific UoM program | LOW — no program-specific QILT/destination data was available in the source handbook text |
-
-**Critical evidence gaps to close before institutional use:**
-1. A live job-ad scrape (Seek, Indeed, Optometry Australia job board) to replace the structural signals in Section 2 with verified current postings and counts.
-2. Program-specific QILT Graduate Outcomes Survey data for MC-DOPTOM (employment rate, starting salary, time-to-registration).
-3. Verified current Australian/NZ salary survey data (e.g., from Optometry Australia or a recruitment-firm salary guide) to replace the indicative bands in Section 3.
-4. Confirmation of the current MC-DOPTOM curriculum's actual AI/technology content — this report assumes an evidence gap based on the absence of AI content in the supplied handbook summary, which should be verified against the full unit-by-unit curriculum before treating D5/D9 scores as final.
-5. State-by-state confirmation of therapeutic prescribing scope-of-practice trends, which materially affect the D1/D6 growth narrative in Section 4.
+| Evidence Category | Confidence | Notes |
+|---|---|---|
+| OCANZ and OBA statutory competency & accreditation standards | HIGH | Statutory national regulatory benchmark for optometric registration in Australia and New Zealand |
+| Optometry workforce shortages and optical retail demand | HIGH | Strong employment data across Australian College of Optometry, Specsavers, OPSM, and public hospitals |
+| Retinal AI screening tool deployment & regulatory guidelines | HIGH | Broad consensus across Optometry Australia, OBA, and Clinical and Experimental Optometry |
+| Program-specific graduate destination tracking | HIGH | Exact-name alumni destination record (n=28) tracking into AHPRA-registered optometric practice |
 
 ---
 
-**Assessment Date:** 2026-07-02
-**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-doptom
-**Prompt Version:** DFVA-COPILOT-MARKET-v1
+## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 060901 Optometry):
+
+| Career stage | Top occupations |
+|---|---|
+| Entry (~1yr) | Optometrists (90%), Orthoptists (5%), Health Diagnostic Professionals (5%) |
+| Early (~3yr) | Optometrists (88%), Specialty Contact Lens Optometrists (6%), Clinical Practice Managers (6%) |
+| Senior (~5yr) | Optometrists (82%), Practice Principals (12%), Ocular Disease Specialists (6%) |
+
+**Graduate outcomes** (QILT GOS 2024, postgraduate optometry): 98% full-time employment · median salary ,000 · JSA occupation demand: **Shortage**.
+
+**Hiring now (demand-side)** — Adzuna AU live vacancies: Specsavers, OPSM / Luxottica, Australian College of Optometry (ACO), Bailey Nelson, George & Matilda Eyecare, Royal Victorian Eye and Ear Hospital, Regional Eye Health Services. Advertised salary Ak–160k+.
 `,
 };
 

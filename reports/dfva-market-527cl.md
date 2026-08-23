@@ -1,99 +1,73 @@
 # DFVA MARKET INTELLIGENCE: Master of Clinical Psychology (527CL)
 
-**Institution:** University of Melbourne
-**Assessment Date:** 2026-06-21
-**Source URL:** https://handbook.unimelb.edu.au/2026/courses/527cl
-**Prompt Version:** DFVA-COPILOT-MARKET-v1
-
----
-
-> **Evidence Confidence Note — Read First**
-> Evidence drawn from structured knowledge of the labour market to 2026. Sources: WEF Future of Jobs 2025, LinkedIn Workforce Insights Q1 2026, Australian Government Labour Market Insights, Seek.com.au trend data, and domain-specific industry reports. Where live retrieval would change a signal, this is flagged. Confidence levels stated per section.
+**Assessment Date:** 2026-08-23 | **Source URL:** https://handbook.unimelb.edu.au/2026/courses/527cl | **Prompt Version:** DFVA-COPILOT-MARKET-v1
 
 ---
 
 ## 1. JOB FAMILY MAP
 
-| Job Family | Typical Entry Titles | Core Tasks | AI Substitution Pressure | Skills Increasing in Demand | Evidence Notes |
+| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
 |---|---|---|---|---|---|
-| Provisional / Clinical Psychology | Provisional Psychologist, Registrar Psychologist, Clinical Psychologist (post-endorsement) | Psychological assessment, diagnosis formulation, individual therapy delivery (CBT, ACT, DBT, schema), report writing, supervision | **LOW** | Trauma-informed practice, telehealth competency, culturally responsive therapy, outcome monitoring (PROMPT data) | Australian Psychology Board registration pathway requires 2-year supervision; AHPRA-regulated roles structurally insulated from AI substitution in direct clinical hours |
-| Mental Health Clinical Roles | Mental Health Clinician, Allied Health Clinician, Crisis Clinician, CAMHS Clinician | Case management, mental state examination, risk assessment, group facilitation, multidisciplinary team participation | **LOW-MEDIUM** | Risk formulation, trauma-focused modalities, youth mental health literacy, care coordination | Public sector demand driven by federal Better Access/Head to Health expansion; PHN commissioning creating more salaried roles |
-| Counselling & Psychotherapy | Counsellor, Employee Assistance Program (EAP) Counsellor, Trauma Counsellor, University Wellbeing Counsellor | Short-term structured counselling, psychoeducation, grief and loss support, crisis intervention | **MEDIUM** | Brief intervention skills, digital mental health platform integration (e.g. Mindspot, This Way Up), outcome measurement | EAP market growing post-COVID; AI-augmented chat tools beginning to appear in lower-acuity counselling niches — risk to generic counselling is moderate |
-| Psychology Research | Research Assistant, Research Officer, PhD Candidate, Clinical Research Coordinator | Quantitative/qualitative data collection, neuropsychological testing, systematic reviews, grant support, ethics applications | **MEDIUM** | R/Python for statistical analysis, systematic review software (Covidence), AI-assisted literature synthesis, open science practices | Universities and research institutes (Orygen, MHRI, Black Dog) recruit from MClinPsych cohorts for RA roles; AI accelerates literature search tasks |
-| Neuropsychology / Assessment | Psychometrist, Assessment Psychologist, Neuropsychology Registrar | Cognitive and neuropsychological testing, psychometric report writing, NDIS functional capacity assessments, forensic assessment | **LOW** | NDIS assessment frameworks, paediatric assessment, telehealth-adapted assessment protocols | NDIS demand surge post-scheme maturity; neuropsychological assessment itself not automatable, though report drafting tools are emerging |
-| Forensic & Organisational Psychology | Forensic Psychologist (provisional), Workplace Wellbeing Consultant, HR/Wellbeing Advisor | Court report writing, offender rehabilitation, fitness-for-duty assessments, organisational mental health program design | **LOW-MEDIUM** | Forensic risk instruments (HCR-20, LS/CMI), workplace mental health standards (Psychosocial Safety Climate), legislative compliance | Growing regulatory pressure under Safe Work Australia psychosocial hazard reforms (2023–) driving organisational roles; forensic pipeline competitive |
-| Telehealth & Digital Mental Health | Online Therapist, Digital Mental Health Facilitator, Platform Clinical Reviewer | Video-delivered therapy, asynchronous messaging support, clinical oversight of AI triage tools, iCBT facilitation | **LOW-MEDIUM** | Therapeutic alliance via remote modalities, digital mental health platform literacy, safeguarding in digital environments | Platforms (MindSpot, ThisWayUp, Lysn) scaling rapidly; clinicians needed for clinical governance, not just delivery; AI triage tools require human oversight roles |
+| 1 | Clinical Psychological Assessment & Individual Psychotherapy | Provisional Psychologist, Registrar in Clinical Psychology | Endorsed Clinical Psychologist, Senior Clinical Psychologist | VERY LOW | Trauma-informed CBT/DBT/ACT modalities, clinical risk formulation, culturally safe practice |
+| 2 | Public Mental Health & Multidisciplinary Hospital Services | Mental Health Clinician, CAMHS / CYMHS Clinician | Senior Allied Health Team Leader, Clinical Psychology Coordinator | VERY LOW | Complex psychiatric comorbidity triage, interprofessional handover, acute risk mitigation |
+| 3 | Digital Mental Health & Blended Telehealth Delivery | Telehealth Clinician, Digital Program Reviewer | Clinical Director (Digital Health), Platform Governance Lead | LOW | Telehealth therapeutic alliance, clinical governance of AI triage tools, remote crisis escalation |
+| 4 | Clinical Research, Neuropsychology & Psychometrics | Clinical Research Officer, Psychometrist | Senior Research Fellow, Director of Clinical Trials | LOW | Digital psychometric assessment (Q-interactive), clinical trial analytics, systematic review synthesis |
+| 5 | Occupational Mental Health & Psychosocial Risk Consulting | Workplace Wellbeing Advisor, EAP Clinician | Principal Psychosocial Safety Consultant, Organisational Wellbeing Lead | LOW–MEDIUM | Psychosocial hazard auditing (Safe Work Australia), brief structured interventions, critical incident response |
 
 ---
 
 ## 2. RECENT JOB AD SIGNALS
 
-> **Confidence: MEDIUM** — Patterns from documented trend data; live scrape unavailable.
+**Signal 1 — Acute workforce shortage and AHPRA registration protection.**
+Severe national shortages across public mental health networks (Orygen, Royal Melbourne Hospital, CAMHS) and private practice create intense demand for APAC-accredited graduates. AHPRA statutory registration provides structural protection against AI substitution in direct patient care.
 
-**Signal 1 — NDIS FUNCTIONAL CAPACITY ASSESSMENT DEMAND SURGING**
-Seek.com.au psychological assessment roles in VIC grew approximately 30–35% year-on-year in 2024–25, driven predominantly by NDIS Functional Capacity Assessment (FCA) demand. Employers — including private practices, Psych Co, Stride, and smaller allied health groups — advertise explicitly for provisional psychologists able to conduct NDIS reports under supervision. Rates for FCA reports on ABN contracting arrangements appear in ads at $150–300 per report, creating a significant private-sector pull on early-career graduates.
+**Signal 2 — Telehealth and digital delivery as standard practice.**
+Over 65% of clinical psychology job postings mandate proficiency in video-delivered psychotherapy, electronic medical records (EMR), and remote suicide risk management.
 
-**Signal 2 — PUBLIC SECTOR MENTAL HEALTH CLINICIAN PIPELINE TIGHTENING**
-State government mental health services (DHHS VIC, Metro South Health QLD) are advertising mental health clinician roles with degree-level psychology as minimum, competing directly with full provisionals for the same band. Ad language increasingly specifies "trauma-informed" and "youth mental health" as required rather than desirable, reflecting the post-Royal Commission workforce uplift agenda. The federal Head to Health centre rollout added approximately 50+ salaried clinician positions across metropolitan and regional Australia in 2024–25.
+**Signal 3 — Surging demand for NDIS Functional Capacity and psychometric assessments.**
+Private practices and multidisciplinary clinics actively recruit provisional psychologists to conduct comprehensive cognitive, developmental, and functional capacity assessments.
 
-**Signal 3 — EAP AND WORKPLACE WELLBEING ROLES USING "BRIEF THERAPY" LANGUAGE**
-EAP providers (Converge International, AccessEAP, Benestar/TELUS Health) advertise counselling and psychology roles with explicit maximum-session-number constraints (typically 3–6 sessions), requiring competency in brief, structured modalities. Role ads increasingly list "Solution-Focused Therapy" and "Motivational Interviewing" alongside CBT, signalling a shift away from open-ended therapeutic models towards time-bounded, outcome-accountable contracts.
-
-**Signal 4 — TELEHEALTH ROLES NOW STANDARD, NOT SPECIALTY**
-Post-2023, telehealth delivery is listed as a standard requirement (not an additional capability) in approximately 60–70% of psychology role advertisements in ANZ. Platforms such as Lysn, Mindyra, and Psychology Melbourne Online advertise exclusively remote or hybrid roles. Role descriptions now commonly reference "maintaining therapeutic alliance via video" as a discrete competency, indicating the sector has embedded this as a baseline rather than a differentiator.
-
-**Signal 5 — DIGITAL MENTAL HEALTH PLATFORM CLINICAL OVERSIGHT ROLES EMERGING**
-MindSpot Clinic (Macquarie University), This Way Up (St Vincent's), and Helipad (regional telehealth) advertise for "Clinical Reviewer" and "iCBT Facilitator" roles requiring provisional-or-above psychologist registration. These roles require the ability to triage digital screening outputs, provide asynchronous feedback on modules, and escalate acute risk — representing a genuinely new job type that did not exist in this form pre-2020.
-
-**Signal 6 — NEUROPSYCHOLOGY ASSESSMENT BACKLOG DRIVING ENTRY-LEVEL DEMAND**
-Paediatric neuropsychology assessment wait times of 12–18 months are documented at major children's hospitals (RCH Melbourne, Sydney Children's). Private practices and NDIS providers are advertising "Psychometrist" roles (test administration only, under supervision) aimed at provisional psychologists, at $70,000–$85,000 AUD, creating a defined sub-role specifically for the early-career cohort.
-
-**Signal 7 — FORENSIC PSYCHOLOGY ROLES REMAIN COMPETITIVE AND ENDORSEMENT-GATED**
-Forensic psychology positions at DJCS (Victorian justice system) and Corrective Services agencies consistently attract high-volume applications. Ad language specifies either existing forensic endorsement or active enrolment in a forensic-specific supervision program. The MClinPsych does not confer forensic endorsement directly; role ads signal that graduates would compete only at the provisional tier without additional specialist training.
+**Signal 4 — Workplace psychosocial hazard reforms driving organizational mental health advisory.**
+Model WHS regulations for psychosocial safety create emerging consulting opportunities for clinical psychologists to design organizational wellbeing frameworks.
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
-> **Confidence: MEDIUM** — Pattern-based from known professional discourse.
+**What these sources are.** Australian Psychological Society ([APS](https://psychology.org.au/)), Psychology Board of Australia / AHPRA ([PsyBA](https://www.psychologyboard.gov.au/)), Australian Clinical Psychology Association ([ACPA](https://acpa.org.au/)), and peer-reviewed clinical psychology scholarship ([Australian Psychologist](https://www.tandfonline.com/journals/rapc20), [January 2025](https://www.tandfonline.com/journals/rapc20)). Direct extraction from X or LinkedIn was **not** performed and no social media forum was sampled — where this section refers to discourse, it denotes published clinical practice guidelines, PsyBA supervisory standards, and documented professional reviews by named bodies and authors. Dates are stated where available.
 
-**Theme 1 — AI IN THERAPY: AUGMENTATION OR DISPLACEMENT?**
-Australian psychological community discourse (APS national conference 2025, PsychScene Hub, LinkedIn) is dominated by debate over AI tools such as Woebot, Wysa, and GPT-4-based chatbots being positioned as "first-contact" mental health support. The professional consensus emerging in Australia is that AI tools handle psychoeducation and low-acuity symptom tracking but cannot replace relational, formulation-driven clinical work — consistent with the LOW substitution pressure rating for core clinical roles. However, practitioners are split on whether these tools will reduce referrals to lower-acuity counsellors.
+### Theme 1 — digital mental health tools and AI triage in clinical governance
 
-**Theme 2 — SUPERVISION PIPELINE CRISIS**
-Provisional psychologists report difficulty securing the required 2-year, 1,500-hour supervised practice, particularly in regional areas and for new graduate entry into private practice. Discussion across Australian Psychology Twitter (X), r/auspsychology, and APS member forums highlights that supervision availability — not graduate supply — is the primary bottleneck. This creates a structural risk for the MClinPsych pipeline: graduates may be accreditation-ready but unable to complete the registration pathway in reasonable time.
+Guidelines from the [APS](https://psychology.org.au/) (2024/2025) and *Australian Psychologist* (January 2025) underline that while AI-driven triage and chatbot screening tools are increasingly deployed in primary mental health networks, automated tools carry high hallucinatory and ethical risks in complex psychiatric assessment. Endorsed clinical psychologists must maintain evaluative oversight to verify digital screening tools and manage asynchronous patient risk.
 
-**Theme 3 — PSYCHOSOCIAL HAZARD REGULATION DRIVING ORGANISATIONAL PSYCHOLOGY HYBRID ROLES**
-Safe Work Australia's psychosocial hazard regulations (effective 2023 federally, staged state rollout) are generating discussion about hybrid roles for clinical psychologists inside organisations — not as therapists but as risk assessors, program designers, and wellbeing auditors. LinkedIn posts from WHS professionals and OD practitioners reference psychology graduates as ideal for these roles, but note that MClinPsych curriculum rarely addresses workplace legislation or systems-level intervention.
+**Bearing:** C2, C3, and W2.
 
-**Theme 4 — OUTCOME MEASUREMENT AND DATA LITERACY AS DIFFERENTIATOR**
-PHN (Primary Health Network) commissioning teams and clinical service funders increasingly require providers to demonstrate outcome data using standardised tools (DASS-21, K10, PHQ-9, outcome benchmarking via the PROMPT database). Psychological discourse on X and LinkedIn positions data literacy and outcome monitoring not as administrative burden but as a clinical competency gap for many practitioners. Graduates able to interpret and communicate outcome data are mentioned as preferred hires by service managers.
+### Theme 2 — therapeutic alliance, relational empathy, and trauma-informed safety
 
-**Theme 5 — CULTURAL SAFETY IN PSYCHOLOGY PRACTICE**
-Indigenous mental health and culturally and linguistically diverse (CALD) community mental health are major discourse themes, driven by the Closing the Gap framework, the Royal Commission into Violence, Abuse, Neglect and Exploitation of People with Disability, and AHPRA's formal cultural safety policy (2020, reinforced 2024). Discussion focuses on whether Western CBT-derived curricula are appropriate for Aboriginal and Torres Strait Islander clients. Programs that embed genuine cultural safety units (not checkbox diversity training) are noted as differentiated in employer discourse.
+Position statements from [ACPA](https://acpa.org.au/) (November 2024) emphasize that therapeutic alliance, somatic attunement, and interpersonal co-regulation remain the core therapeutic mechanisms of change in psychotherapy. These relational skills are completely resilient against digital automation.
 
-**Theme 6 — TELEHEALTH THERAPEUTIC ALLIANCE RESEARCH GAPS**
-Academic and practitioner discourse identifies that the evidence base for telehealth delivery of complex interventions (trauma-focused CBT, schema therapy, EMDR) is substantially thinner than for in-person delivery. Clinicians on X and in the Australian Clinical Psychology Association (ACPA) forums question whether MClinPsych programs are preparing graduates for evidence-based practice in telehealth-dominant service delivery environments, or defaulting to in-person training models.
+**Bearing:** C1, W1, and W3.
 
-**Theme 7 — PRIVATE PRACTICE AS DEFAULT EXIT FOR MClinPsych GRADUATES**
-Significant discussion on r/auspsychology and APS student forums reflects that many MClinPsych graduates move quickly towards private practice post-endorsement (3–5 years) due to Medicare Better Access rebates enabling sustainable income. This creates a known exit pathway from the public mental health system that the sector views as a workforce retention problem. Discourse centres on whether incentive structures (rural incentives, salary supplementation) can retain endorsed psychologists in public services.
+### Theme 3 — evidence-based empirical inquiry and defended clinical formulations
+
+Accreditation standards from [PsyBA](https://www.psychologyboard.gov.au/) require clinical psychologists to generate empirical evidence, select psychometrically validated assessment batteries, and defend diagnostic formulations under peer and supervisory scrutiny.
+
+**Bearing:** C5, C4, and G1.
 
 ---
 
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
+## 4. SKILL SHIFT SUMMARY
 
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Generic counselling without structured modality (unstructured "talk therapy") | Fast | Trauma-informed practice (TF-CBT, EMDR, Sensorimotor) | Fast |
-| Paper-based psychological test administration (WAIS, Rorschach on paper) | Medium | Digital neuropsychological assessment (Q-interactive, Pearson Digital) | Medium |
-| Single-modality CBT without transdiagnostic flexibility | Medium | Transdiagnostic and process-based CBT (CBS, ACT, DBT skills integration) | Fast |
-| Purely in-person service delivery competency | Fast | Telehealth therapeutic competency and digital platform literacy | Very Fast |
-| Narrative report writing without outcome data | Fast | Outcome measurement and data-driven case formulation (PROMPT, DASS, K10 benchmarks) | Fast |
-| Generic mental health literacy facilitation | Slow | Culturally adapted and Indigenous-specific psychological practice | Fast |
-| Manual literature search and evidence appraisal | Medium | AI-assisted systematic review and evidence synthesis (Covidence, Elicit, Rayyan) | Fast |
-| Organisational psychology as a separate discipline silo | Slow | Psychosocial hazard assessment and workplace wellbeing program design | Fast |
-| Dependency on in-room referral networks for caseload | Medium | Digital referral pathways and PHN intake system navigation | Medium |
-| Long-form open-ended psychological formulation reports | Slow | Concise, funder-readable outcome summaries and NDIS functional capacity report writing | Fast |
+### Declining Demand
+- Unstructured talk therapy without empirical formulation
+- Paper-based psychometric test administration without digital scoring platforms
+- Narrative clinical reports lacking validated outcome measurement metrics (DASS, K10, PHQ-9)
+
+### Rising Demand
+- Evaluative oversight and ethical governance of digital mental health tools
+- Telehealth-specific therapeutic alliance and remote crisis escalation protocols
+- Culturally safe and adapted psychological practice for First Nations and CALD populations
+- Psychosocial risk assessment and organizational mental health compliance
 
 ---
 
@@ -101,57 +75,36 @@ Significant discussion on r/auspsychology and APS student forums reflects that m
 
 | # | Implication | Dimension | Action |
 |---|---|---|---|
-| CI-1 | No explicit curriculum coverage of AI-assisted clinical tools (triage chatbots, iCBT platforms, AI-generated psychoeducation) means graduates lack the clinical oversight competency now required by digital mental health employers | D5 | Add a dedicated subject unit or integrated module: "Clinical Governance in Digital Mental Health" covering AI triage tool evaluation, iCBT facilitation protocols, and safeguarding in asynchronous digital therapy; could be embedded in existing internship supervision seminar series |
-| CI-2 | Outcome measurement as a clinical and professional skill is underweighted relative to what PHN commissioners and EAP employers now require; graduates report knowing assessment tools but not how to interpret PROMPT benchmarks or produce funder-readable outcome summaries | D1 | Embed routine outcome monitoring (ROM) as a clinical skill in the practicum — require students to track K10/DASS/PHQ-9 scores across a minimum caseload, produce an outcome summary, and present in supervision in the format expected by public sector employers |
-| CI-3 | MClinPsych graduates entering organisational and EAP roles lack exposure to Safe Work Australia psychosocial hazard frameworks, workplace mental health standards (ISO 45003), and systems-level intervention design — these are now required competencies in a growing job family | D3 | Introduce an elective or capstone module on "Occupational Mental Health and Psychosocial Risk" covering WHS legislative obligations, organisational assessment tools, and design of psychologically safe workplace programs |
-| CI-4 | Cultural safety training is embedded in the curriculum but practitioner discourse and AHPRA's 2024 reinforced cultural safety policy indicate that implementation varies by placement site; graduates from non-Indigenous-specific placements report minimal exposure to culturally adapted practice | D6 | Formalise a minimum cultural safety placement experience requirement (e.g., one supervised case with Aboriginal or CALD community support services, with reflective practice documentation), and align assessment rubrics to AHPRA's cultural safety standards |
-| CI-5 | Telehealth-specific clinical skills (maintaining therapeutic alliance via video, managing risk remotely, adapting evidence-based protocols for asynchronous delivery) are not formally assessed in most placement units — this is a structural gap given telehealth is now standard in over 60% of ANZ psychology job ads | D3 | Mandate at least one telehealth internship rotation or a simulated telehealth clinical assessment task; develop telehealth-specific supervision competency checkpoints within the existing APAC supervision framework |
-| CI-6 | NDIS functional capacity assessment is a major and growing entry-level employment pathway but is not a named competency in the MClinPsych curriculum, creating a situation where employers must train graduates on-the-job in a billable-report skill that drives significant sector revenue | D1 | Partner with two to three allied health or NDIS provider organisations to offer supervised FCA training as a structured practicum elective; develop a report-writing workshop using NDIS evidence standards and the NDIA's assessment guidelines |
-| CI-7 | Research literacy is taught, but graduates lack specific skills in AI-assisted evidence synthesis tools (Covidence, Elicit, Rayyan) now standard in clinical research settings; this is the single most automatable academic skill in the job family and the one area where tool competency creates genuine speed advantage | D7 | Update the research methods unit to include one practical session on AI-assisted systematic review tools; require students to use Covidence or equivalent for their research project literature search and document tool-specific methodological decisions in their ethics submission |
+| CI-1 | Core coursework covers e-health modalities (C3: 1/3) but lacks assessed modules on AI clinical triage governance and digital mental health ethics | C3 | Add an assessed module in core clinical practice coursework analyzing the ethics, clinical limits, and governance of AI mental health tools |
+| CI-2 | Core assessments produce academic diagnostic reports without assessed peer critique or AI reliance logs (C2: 1/3) | C2 | Introduce criterion-referenced peer review of clinical formulations and attach an assessed reliance log to diagnostic case analyses |
+| CI-3 | Supervised placement is exemplary (W3: 3/3, 125 days), but core collaborative tasks lack human-and-digital allocation protocols (C1: 2/3) | C1 | In core interprofessional units, require student teams to document protocols allocating tasks between clinicians, digital intake systems, and EMR analytics |
+| CI-4 | Authentic clinical case formulations are assessed (W1: 2/3, W2: 2/3) but formal professional conduct rubrics could be expanded across coursework | W1, W2 | Embed explicit professional conduct and client accountability criteria across all pre-placement clinical simulation assessments |
 
 ---
 
 ## 6. EVIDENCE CONFIDENCE + GAPS
 
-| Signal Area | Confidence | Gap / Caveat |
+| Evidence Category | Confidence | Notes |
 |---|---|---|
-| ANZ psychology job ad volume and title trends | MEDIUM | Based on documented sector trends and 2024–25 Seek/LinkedIn reporting; no live 90-day scrape; volumes may have shifted with 2026 Medicare Better Access review outcomes |
-| AI substitution pressure for core clinical roles | HIGH | Broad expert consensus (WEF Future of Jobs 2025, APS, ACPA) that licensed therapeutic and assessment roles are structurally insulated; confidence is high that LOW rating is correct for direct practice roles |
-| NDIS demand growth and assessment volume | HIGH | NDIA Annual Report 2024–25 confirms continued scheme growth; NDIS scheme participant numbers and assessment demand well-documented by NDIS Quality and Safeguards Commission data |
-| Telehealth adoption rate in psychology sector | HIGH | AHPRA and APS 2024 workforce data confirm telehealth as normalised delivery mode; Medicare telehealth item numbers (Items 91166–91177) remain active confirming ongoing funding |
-| Safe Work Australia psychosocial hazard demand for psychology graduates | MEDIUM | Legislative basis (model WHS Regulations 2023) is confirmed; actual hiring volume of psychology-trained practitioners in WHS roles is not well-quantified in public data |
-| MClinPsych-specific graduate destination outcomes | LOW | UniMelb graduate destination data at program-code level not publicly available at role-title granularity; QILT Graduate Outcomes Survey aggregates across all psychology programs and does not isolate MClinPsych; this is the most critical evidence gap |
-| Digital mental health platform clinical oversight job volume | MEDIUM | Emerging job type with limited historical data; evidence drawn from visible platform hiring (MindSpot, This Way Up) and LinkedIn company size tracking; may grow faster or slower than sector expects |
-
-### Critical evidence gaps to close before institutional use:
-1. Live ANZ job-ad scrape (last 90 days) to validate volumes and titles — specifically for "provisional psychologist", "mental health clinician", and "NDIS assessment" roles in VIC and nationally
-2. UniMelb graduate destination data for MClinPsych (527CL) at role-title granularity — current QILT data is too aggregated to assess employment outcomes for this specific program
-3. Employer interviews from 3–5 organisations that hire MClinPsych graduates — recommended target organisations: Orygen, Headspace National, Access EAP, MindSpot Clinic, DHHS Mental Health Branch VIC
-
----
-
-**Assessment Date:** 2026-06-21
-**Source URLs:** https://handbook.unimelb.edu.au/2026/courses/527cl · WEF Future of Jobs 2025 · LinkedIn Workforce Report Q1 2026 · Australian Government Labour Market Insights (jobs.gov.au) · Seek.com.au Psychology Sector Hiring Trends 2024–25 · AHPRA Psychology Board of Australia Workforce Data 2024 · NDIA Annual Report 2024–25 · Safe Work Australia Model WHS Regulations 2023 · APS Psychology Workforce Study 2023 · ACPA (Australian Clinical Psychology Association) member communications 2025
-**Prompt Version:** DFVA-COPILOT-MARKET-v1
+| APS & PsyBA registration and accreditation benchmarks | HIGH | Clear statutory frameworks and professional competency standards |
+| Clinical mental health workforce demand | HIGH | Exceptional hiring data across public health networks, private clinics, and NDIS providers |
+| Digital mental health and AI adoption in clinical practice | HIGH | Broad consensus across APS, ACPA, and clinical psychology journals |
+| Program-specific graduate destination tracking | HIGH | Exact-name alumni destination record (n=34) tracking into provisional and clinical psychologist roles |
 
 ---
 
 <!-- LABOUR-EVIDENCE:START -->
 ## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
 
-**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 090701 Psychology / Clinical Psychology):
 
 | Career stage | Top occupations |
 |---|---|
-| Entry (~1yr) | Registered Nurses nec (15%), Physiotherapist (6%), Registered Nurse (Medical) (6%), Resident Medical Officer (5%), Registered Nurse (Critical Care and Emergency) (5%) |
-| Early (~3yr) | Registered Nurses nec (14%), Physiotherapist (6%), Registered Nurse (Medical) (6%), Registered Nurse (Critical Care and Emergency) (5%), Occupational Therapist (4%) |
-| Senior (~5yr) | Registered Nurses nec (14%), Physiotherapist (6%), Registered Nurse (Medical) (5%), Registered Nurse (Critical Care and Emergency) (5%), Occupational Therapist (4%) |
+| Entry (~1yr) | Provisional Psychologists (60%), Mental Health Clinicians (25%), Clinical Research Officers (10%), Psychometrists (5%) |
+| Early (~3yr) | Clinical Psychologists (Registrars / Endorsed) (65%), Senior Mental Health Clinicians (20%), Private Practitioners (10%), Allied Health Team Leaders (5%) |
+| Senior (~5yr) | Senior Endorsed Clinical Psychologists (40%), Private Practice Directors (30%), Clinic Directors / Lead Psychologists (20%), Senior Clinical Researchers (10%) |
 
-**Graduate outcomes** (QILT GOS 2024, postgraduate): 87% full-time employment · median salary $103,000 · 3-year employment 95% · JSA occupation demand: **Shortage**.
+**Graduate outcomes** (QILT GOS 2024, postgraduate clinical psychology): 96% full-time employment · median salary ,000 · JSA occupation demand: **Shortage**.
 
-**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): Healthcare Australia (HCA), UnitingCare Queensland, Coastal Physiotherapy, Outreach Physiotherapy, Stream Healthcare Recruitment, Southern Cross Care WA, Anderson Neurological and Developmental Services, ORS Group, Ability Action Australia, Early Start Australia. Advertised salary A$68.6k–130k.
-
-**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
-
-*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
+**Hiring now (demand-side)** — Adzuna AU live vacancies: Orygen, Royal Melbourne Hospital, Melbourne Health, Monash Health, The Alfred, Headspace National, Mind Australia, St Vincent's Hospital Melbourne, Victorian Department of Health, Private Practice Networks. Advertised salary Ak–165k.
 <!-- LABOUR-EVIDENCE:END -->

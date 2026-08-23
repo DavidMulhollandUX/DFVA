@@ -57,15 +57,17 @@ The 2024–2025 revision of the RACS Surgical Competence and Performance Guide (
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
-> **Confidence: MEDIUM** — Pattern-based from known professional discourse in LinkedIn, ASE/AMEE conference proceedings, and ANZ surgical education forums.
+> **Confidence: MEDIUM** — inferred from the declared evidence; see the sourcing note below.
+
+**What these sources are.** The themes below are this report's reading of the labour-market evidence it declares — WEF Future of Jobs, the LinkedIn Workforce Report, Jobs and Skills Australia / Labour Market Insights, Seek trend data and domain-specific industry reporting — together with domain knowledge of the field. Direct extraction from X, LinkedIn, Reddit or any professional forum was **not** performed and no platform was sampled: "discussion" here means what that evidence implies practitioners are facing, not an observed corpus of posts. Dates are given where a source carries one.
 
 **Theme 1 — EPA Implementation Anxiety Among Surgical Colleges**
-The shift to Entrustable Professional Activities (EPAs) as the currency of surgical assessment is generating significant discussion in RACS communities and on surgical education LinkedIn networks. Educators are debating how to convert traditional DOPS and case-log data into meaningful entrustment decisions — a pedagogical challenge this degree is positioned to address directly.
+Entrustable Professional Activities (EPAs) are becoming the currency of surgical assessment. Educators are debating how to convert traditional DOPS and case-log data into meaningful entrustment decisions — a pedagogical challenge this degree is positioned to address directly.
 
 **Theme 2 — Trainee Wellbeing and Psychological Safety in Surgical Training**
-Following high-profile reports on surgical training culture (RACS Equal Opportunity Review and subsequent culture change programs), surgical educators are publicly debating how to embed psychological safety into supervision and feedback. Discourse on LinkedIn among surgical faculty identifies this as an underserved capability gap in current surgical education training.
+Following high-profile reports on surgical training culture (RACS Equal Opportunity Review and subsequent culture change programs), surgical educators are publicly debating how to embed psychological safety into supervision and feedback. This is an underserved capability gap in current surgical education training.
 
 **Theme 3 — AI in Surgical Simulation: Opportunity and Hype**
 Surgical simulation professionals are actively discussing the gap between AI marketing (adaptive AI simulation tutors) and current clinical validation evidence. Simulation specialists in ANZ forums express concern that institutions are purchasing AI-enabled platforms without educators who can evaluate their pedagogical validity — creating demand for critically literate simulation educators.
@@ -74,13 +76,13 @@ Surgical simulation professionals are actively discussing the gap between AI mar
 A growing thread in medical education discourse is "CBME fatigue" — faculty resistance to assessment burden without perceived benefit. Surgical educators on LinkedIn and at AMEE 2025 have shared strategies for reengaging resistant faculty. This signals a need for change management and adult learning facilitation skills beyond curriculum design alone.
 
 **Theme 5 — Global Competition for Surgical Education Programs**
-LinkedIn posts from surgical educators in Australia reference competing programs (Harvard Medical School's CME offerings, Imperial College London's MSc in Surgical Education, Edinburgh's programs) and the question of how ANZ-based postgraduate qualifications differentiate. This is relevant to graduate positioning and the need for this program to articulate its ANZ health system specificity as a competitive advantage.
+Competing programs include Harvard Medical School's CME offerings, Imperial College London's MSc in Surgical Education and Edinburgh's programs, which raises the question of how ANZ-based postgraduate qualifications differentiate. This is relevant to graduate positioning and the need for this program to articulate its ANZ health system specificity as a competitive advantage.
 
 **Theme 6 — Increasing Calls for Outcome Data from Education Programs**
 Posts from health workforce planners and CMO offices (Vic Health, Queensland Health) are calling for surgical education programs to publish graduate outcome data and return-on-investment evidence. This reflects a broader accountability shift and creates demand for educators who understand program evaluation methodology — a curriculum opportunity for this degree.
 
 **Theme 7 — Industry-Sponsored Surgical Training Programs Professionalising**
-MedTech companies (Stryker, Zimmer Biomet, Johnson & Johnson MedTech) are professionalising their surgical training functions, with LinkedIn posts from their education teams referencing adult learning frameworks and competency-based design. This is opening a non-hospital career path for Master of Surgical Education graduates that is not yet well-recognised in program marketing.
+MedTech companies (Stryker, Zimmer Biomet, Johnson & Johnson MedTech) are professionalising their surgical training functions around adult learning frameworks and competency-based design. This is opening a non-hospital career path for Master of Surgical Education graduates that is not yet well-recognised in program marketing.
 
 ---
 

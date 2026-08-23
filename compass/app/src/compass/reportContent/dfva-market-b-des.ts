@@ -24,7 +24,7 @@ const content = {
 | Commodity visual-production tasks increasingly bundled or automated | Up (automation) | Pure production pathways face stronger displacement pressure |
 | Cross-functional collaboration requirements (product, engineering, data, marketing) | Up | Curriculum must train communication and trade-off negotiation under constraints |
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — LOW CONFIDENCE
 | Theme | Observed Direction | Curriculum Relevance |
 |---|---|---|
 | Debate over "designer as prompt operator" vs "designer as decision owner" | Strong and persistent | Reinforces need for assessment based on accountability and defended choices |

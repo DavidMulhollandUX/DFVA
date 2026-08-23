@@ -46,21 +46,25 @@ CCS projects (Gorgon, CarbonNet, Browse) are hiring geologists for subsurface ch
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — LOW CONFIDENCE
 
-**Theme 1 — "AlphaFold didn't kill structural biology — and AI won't kill geology."** Repeated professional discourse emphasises that AI tools accelerate geological interpretation but cannot replace physical ground-truth. The consensus: AI is a powerful assistant for desktop geology, but the profession's value sits in field validation, regulatory accountability, and physical sample integrity.
+> **Confidence: LOW** — inferred from the declared evidence; see the sourcing note below.
 
-**Theme 2 — Climate science PhD glut vs industry placement shortage.** Ongoing discussion about oversupply of climate PhDs relative to permanent research positions, while industry (energy transition, consulting, government) cannot find enough graduates willing to leave academia for applied roles. Masters-level graduates with industry orientation may be better positioned than PhDs for non-academic pathways.
+**What these sources are.** The themes below are this report's reading of the labour-market evidence it declares — WEF Future of Jobs, the LinkedIn Workforce Report, Jobs and Skills Australia / Labour Market Insights, Seek trend data and domain-specific industry reporting — together with domain knowledge of the field. Direct extraction from X, LinkedIn, Reddit or any professional forum was **not** performed and no platform was sampled: "discussion" here means what that evidence implies practitioners are facing, not an observed corpus of posts. No quotation in this section is attributed to a speaker, because none was recorded. Dates are given where a source carries one.
 
-**Theme 3 — Automated drill core logging is compressing junior geological logging roles.** AI-powered core photography and ML-based lithology identification (e.g., Imago, DeepCore) are reducing time needed for routine logging. Professional discourse acknowledges this changes junior geologist workflow but emphasises that interpretation, structural context, and field mapping remain human-owned.
+**Theme 1 — AI accelerates geological interpretation but does not replace ground truth.** Desktop geology is the part these tools reach. Field validation, regulatory accountability and physical sample integrity are where the profession's value sits, and none of them is automated by an interpretation aid.
 
-**Theme 4 — "The geologist of 2030 is a data scientist who can swing a hammer."** Emerging consensus that future geologists need computational skills (Python, GIS, ML) alongside traditional field skills. Programs that don't integrate both are producing incomplete graduates. Discussion frames this as opportunity, not threat — AI makes geologists more productive, not redundant.
+**Theme 2 — climate science PhD supply exceeds permanent research positions while applied roles go unfilled.** Energy transition, consulting and government employers compete for graduates willing to leave academia. Masters-level graduates with an industry orientation may be better positioned than PhDs for non-academic pathways.
 
-**Theme 5 — Critical minerals sovereignty driving government investment in geoscience capability.** National security discourse around rare earths and battery minerals is driving government investment in geological surveys, new exploration tenements, and graduate pipeline programs. Australia's Geoscience Australia and state surveys are expanding, not contracting.
+**Theme 3 — automated core logging is compressing junior geological logging roles.** AI-powered core photography and ML-based lithology identification (Imago, DeepCore) reduce the time routine logging takes. That changes junior geologist workflow; interpretation, structural context and field mapping remain human work.
 
-**Theme 6 — Environmental regulatory tightening increasing demand for qualified assessors.** PFAS, mine rehabilitation, and biodiversity offset regulations are creating sustained demand for qualified environmental scientists who can conduct field assessments and sign regulatory reports. AI cannot hold professional accreditation or legal liability.
+**Theme 4 — future geologists need computational skills alongside field skills.** Python, GIS and machine learning sit beside traditional field capability rather than replacing it. Programs that integrate only one of the two produce graduates who are incomplete against the roles being advertised.
 
-**Theme 7 — Atmospheric science graduates face "model operator vs model critic" bifurcation.** Discussion notes that running existing climate models is becoming commoditised (AI can configure and execute standard runs), while validating models against observations, diagnosing failures, and communicating uncertainty to decision-makers remains human work. The Masters-level graduate must position as the latter.
+**Theme 5 — critical minerals policy is driving government investment in geoscience capability.** Rare earths and battery minerals have made geological survey capacity a sovereign concern, funding new exploration tenements and graduate pipeline programs. Geoscience Australia and the state surveys are expanding rather than contracting.
+
+**Theme 6 — environmental regulation is increasing demand for qualified assessors.** PFAS, mine rehabilitation and biodiversity offset requirements sustain demand for environmental scientists who can conduct field assessments and sign regulatory reports. An AI system cannot hold professional accreditation or legal liability.
+
+**Theme 7 — atmospheric science graduates face a model-operator against model-critic split.** Running existing climate models is commoditising, since standard runs can be configured and executed automatically. Validating models against observations, diagnosing failures and communicating uncertainty to decision-makers is not. The Masters-level graduate must position as the second.
 
 ---
 

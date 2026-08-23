@@ -8,7 +8,7 @@
     "dfva:gen-v4": "npx tsx dfva-v4-gen.ts",
     "dfva:gen-content": "npx tsx dfva-content-generate.ts",
     "dfva:gen-assessments": "npx tsx dfva-build-assessments.ts",
-    "dfva:check": "npx tsx dfva-check.ts && npx tsx dfva-content-check.ts && npx tsx dfva-registry-check.ts && npx tsx dfva-assessments-check.ts && npx tsx dfva-panela-coverage-check.ts && npx tsx dfva-reports-index-check.ts",
+    "dfva:check": "npx tsx dfva-check.ts && npx tsx dfva-content-check.ts && npx tsx dfva-registry-check.ts && npx tsx dfva-assessments-check.ts && npx tsx dfva-panela-coverage-check.ts && npx tsx dfva-reports-index-check.ts && python3 check-report-prose.py",
     "dfva:assessments-check": "npx tsx dfva-assessments-check.ts",
     "dfva:check-registry": "npx tsx dfva-registry-check.ts",
     "dfva:content-check": "npx tsx dfva-content-check.ts",
@@ -19,7 +19,8 @@
     "dfva:panela-coverage": "npx tsx dfva-panela-coverage-check.ts",
     "dfva:capture-check": "npx tsx check-capture-provenance.ts",
     "dfva:capture-queue": "python3 build-capture-queue.py",
-    "dfva:reports-index": "npx tsx dfva-reports-index-check.ts"
+    "dfva:reports-index": "npx tsx dfva-reports-index-check.ts",
+    "dfva:report-prose": "python3 check-report-prose.py"
   },
   "devDependencies": {
     "@types/node": "^25.9.3",
