@@ -482,6 +482,13 @@ inter-rater evidence rather than one program's.
    equal the resolver's; the reference cohort reproduces its published v3 values; every
    ANZSCO title in a field list in use is mapped or refused; field-tier programs are never
    published without `expMedianField`.
+   **Enforced in CI since 2026-08-23 (`dfva-reports-index-check.ts`):** every program with a
+   `panelCv4` block appears in the generated `V4_PANEL_C`, which is the single condition
+   `/reports` reads to mark a program "current". Scoring a program does not publish it —
+   `dfva:gen-v4` does — and the earlier coverage check skipped the v3 cohort
+   (`if (v3Codes.has(code)) continue`), leaving the larger half of the portfolio able to sit
+   scored-but-archived indefinitely. The guard also fails the inverse (a published block with
+   no evidence behind it) and a research degree carrying a Panel C score.
 2. **To wire when v4 is adopted (§7 yes):**
    - v4 family in `check-report-format.ts` (lint rules are already written at the
      foot of the template);
