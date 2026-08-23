@@ -9,11 +9,13 @@ name: CI — Wasp build check
 # reaches dev unseen and is only discovered when a deploy build fails.
 
 on:
+  # '.github/workflows/**' is in the filter so a change to this file exercises
+  # itself; without it a broken or mis-triggered workflow edit ships unverified.
   push:
     branches: [main, dev]
-    paths: ['compass/app/**', 'compass/mcp/**', 'dfva/**', 'reports/**', 'scripts/**']
+    paths: ['compass/app/**', 'compass/mcp/**', 'dfva/**', 'reports/**', 'scripts/**', '.github/workflows/**']
   pull_request:
-    paths: ['compass/app/**', 'compass/mcp/**', 'dfva/**', 'reports/**', 'scripts/**']
+    paths: ['compass/app/**', 'compass/mcp/**', 'dfva/**', 'reports/**', 'scripts/**', '.github/workflows/**']
 
 permissions:
   contents: read
