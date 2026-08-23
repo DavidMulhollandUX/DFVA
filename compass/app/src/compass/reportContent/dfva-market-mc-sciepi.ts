@@ -44,19 +44,89 @@ My Health Record expansion and state health data linkage infrastructure (SAIL, S
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
-**Theme 1 — AI can run your regression but can't design your study.** Dominant professional discourse emphasises that AI tools (automated statistical analysis, LLM-assisted literature reviews) accelerate epidemiological workflow but cannot replace the core skill: deciding what question to ask, what study design answers it validly, and what biases threaten validity. The consensus is clear: AI is making epidemiologists more productive, not redundant.
+**What these sources are.** Peer-reviewed methodological commentary in the epidemiology
+journals (*International Journal of Epidemiology*, *BMJ Medicine*, *American Journal of
+Epidemiology*, *Annals of Epidemiology*), a systematic review with meta-analysis of clinical
+AI validation, Australian regulator guidance (TGA), and Australian workforce analysis.
+Direct extraction from X or LinkedIn was **not** performed and no professional forum was
+sampled — where this section says "discourse" it means published commentary by named
+authors, not practitioner posts. Dates are given where the source carries one. One earlier
+theme asserting a post-COVID demand surge and one asserting a rise in mixed-methods
+epidemiology are **removed**: neither had a source, and the workforce evidence below
+measures something different.
 
-**Theme 2 — Who validates the AI health tools?** Growing discussion about the need for epidemiologically-trained professionals to validate AI diagnostic, prognostic, and surveillance tools. The argument: clinical AI validation requires epidemiological methodology (sensitivity, specificity, predictive values, calibration, external validity) — and most AI developers lack this training.
+### Theme 1 — the automation argument is being made in the methods journals, not won
 
-**Theme 3 — Epidemiology graduate pipeline insufficient for post-COVID demand.** Australian epidemiology workforce analysis consistently identifies undersupply relative to demand. Government investment in pandemic preparedness and climate health is creating positions faster than the educational pipeline produces graduates. This is a demand-driven market.
+The claim that AI accelerates epidemiological work without replacing the design judgement
+at its centre is argued explicitly in
+[*Why can't epidemiology be automated (yet)?*](https://doi.org/10.1093/ije/dyaf210)
+(*International Journal of Epidemiology*, 2026) and in Burgess and Lawlor's
+[*Epidemiology: a partnership of technical expertise and clinical insight*](https://pmc.ncbi.nlm.nih.gov/articles/PMC12215109/)
+(*BMJ Medicine*, July 2025), which argues the discipline is practised in partnership across
+domains rather than as solitary analysis. An empirical test of the narrower question —
+whether causal-discovery algorithms can substitute for expert knowledge — is reported in
+[*Can algorithms replace expert knowledge for causal inference?*](https://academic.oup.com/aje/article/194/5/1399/7746726)
+(*American Journal of Epidemiology*, 2025), a novice-use case study.
 
-**Theme 4 — Real-world evidence is eating clinical trials.** Regulatory acceptance of RWE (TGA, FDA, EMA) expanding the role of observational epidemiology in drug development and post-market surveillance. Epidemiologists who can design valid observational studies using electronic health records and claims data are increasingly valued — a growth area.
+Scope this carefully: these are argued positions and one case study, not a survey of
+employer behaviour. They support "the design step is not automated yet", not "epidemiology
+employment is safe".
 
-**Theme 5 — The epidemiologist as AI auditor.** Emerging consensus that epidemiological methods (bias assessment, confounding control, external validity evaluation) are exactly what's needed to audit AI health tools. This positions epidemiologists as natural AI governance professionals in healthcare — validating whether algorithms work fairly and accurately across populations.
+**Bearing:** C5 and C2.
 
-**Theme 6 — Qualitative and mixed-methods epidemiology rising.** Growing recognition that purely quantitative epidemiology misses implementation context. Health departments and research funders increasingly value mixed-methods approaches. Programs that offer both quantitative and qualitative methods (like POPH90231) are producing more complete graduates.
+### Theme 2 — validating clinical AI is being claimed as epidemiology's territory
+
+[*Guiding artificial intelligence in public health and medicine with epidemiology: a
+lifecycle framework for mitigating AI misalignment*](https://www.sciencedirect.com/science/article/abs/pii/S1047279725003369)
+(*Annals of Epidemiology*, 2025) sets out the claim directly, and
+[*Is artificial intelligence a friend or foe to epidemiology?*](https://www.sciencedirect.com/science/article/abs/pii/S1047279726000116)
+(*Annals of Epidemiology*, 2026) puts the counter-case alongside it. The gap they point at is
+measurable: a
+[systematic review and meta-analysis of AI scoring systems in intensive care](https://pmc.ncbi.nlm.nih.gov/articles/PMC11702098/)
+found only **84 of 572 studies (14.7%) were externally validated**, rising to 23.9% by 2023,
+with AUROC falling by more than 0.05 on external data in **49.5%** of studies. The
+*Lancet Digital Health*
+[guidance on performance measures for predictive clinical AI](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(25)00098-6/fulltext)
+(2025) is the methodological response.
+
+**Bearing:** C3 and C5. This is a governance and validity role, and it is an argument being
+advanced by the discipline about itself — not yet an observed hiring pattern.
+
+### Theme 3 — the Australian capacity concern is long-standing, and that is the honest framing
+
+The peak body's own analysis,
+[*The epidemiology workforce: are we planning for the future?*](https://link.springer.com/article/10.1186/1743-8462-6-26)
+(*Australia and New Zealand Health Policy*, 2009), reports a perceived shortage of
+high-level epidemiological training capacity and records the Australasian Epidemiological
+Association convening a working group in 2007; the PHERP Review it cites named epidemiology
+alongside biostatistics and health economics as lacking critical mass, partly because
+epidemiology is a small component of most MPH programs. The
+[Australian Field Epidemiology Training Programme](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9912282/)
+(the MAE, established 1991) exists to address that gap, and its COVID-19 contribution is
+documented for 2020.
+
+This is a **2009 finding about a structural gap**, not evidence of a post-COVID surge. It
+supports "specialist epidemiological training has long been scarce relative to demand"; it
+does not license a claim about current vacancy volumes.
+
+**Bearing:** C4 and W3.
+
+### Theme 4 — regulators have made observational evidence a formal pathway
+
+The TGA's
+[Real World Evidence guidance for medical devices](https://www.tga.gov.au/sites/default/files/2024-04/real-world-evidence-guidance.pdf)
+(April 2024) sets out when RWE can be submitted for regulatory decisions, following its 2021
+review that found ambiguity was limiting adoption. Australia has separately
+[adopted the FDA guidance on real-world data and real-world evidence](https://www.tga.gov.au/resources/resources/international-scientific-guidelines-adopted-australia/considerations-use-real-world-data-and-real-world-evidence-support-regulatory-decision-making-drug-and-biological-products-guidance-industry)
+for drugs and biologicals, and the EMA registry-based studies guideline (EMA/426390/2021).
+The designs named as acceptable — pragmatic trials, single-arm trials with external
+controls, prospective and retrospective observational studies — are the observational
+epidemiology toolkit.
+
+**Bearing:** C5 and W2. Regulatory acceptance is documented; the hiring consequence is
+inferred, not measured.
 
 ---
 
