@@ -11464,57 +11464,27 @@
       }
     ],
     "aiLiteracyScore": 1,
-    "labourMarketAlignment": 2.2,
+    "labourMarketAlignment": 2.4,
     "assessedAt": "2026-06-09T00:00:00Z",
     "recommendationSummary": "Assessed MODERATE RISK; see the full recommendation report for the improvement pathway.",
     "marketReportPath": "reports/dfva-market-mc-urbhort.md",
     "labourEvidence": {
-      "field": "architecture",
-      "qiltStudyArea": "Architecture & Building",
+      "field": "agriculture",
+      "qiltStudyArea": "Agriculture & Environment",
       "qilt": {
-        "employmentRate": 0.748,
-        "medianSalary": 84500,
-        "employmentRate3yr": 0.948,
-        "occupationDemand": "RECRUITMENT_DIFFICULTY",
+        "employmentRate": 0.803,
+        "medianSalary": 94000,
+        "employmentRate3yr": 0.935,
+        "occupationDemand": "SHORTAGE",
         "year": 2024
       },
       "destinations": {
-        "entry": [
-          "Architect (19%)",
-          "Urban and Regional Planner (15%)",
-          "Architectural Draftsperson (11%)",
-          "Construction Project Manager (8%)",
-          "Interior Designer (6%)"
-        ],
-        "early": [
-          "Architect (20%)",
-          "Urban and Regional Planner (16%)",
-          "Architectural Draftsperson (10%)",
-          "Construction Project Manager (10%)",
-          "Interior Designer (7%)"
-        ],
-        "senior": [
-          "Architect (21%)",
-          "Urban and Regional Planner (16%)",
-          "Construction Project Manager (11%)",
-          "Architectural Draftsperson (9%)",
-          "Interior Designer (7%)"
-        ]
+        "entry": [],
+        "early": [],
+        "senior": []
       },
-      "demandEmployers": [
-        "Woods Bagot",
-        "HASSELL",
-        "AECOM",
-        "Aurecon",
-        "Architectus",
-        "Cox Architecture",
-        "BVN",
-        "Colliers (formerly Ethos Urban)",
-        "Solar Start",
-        "CPB Contractors",
-        "Lendlease"
-      ],
-      "demandSalary": "A$90k–170k"
+      "demandEmployers": [],
+      "demandSalary": ""
     }
   },
   {

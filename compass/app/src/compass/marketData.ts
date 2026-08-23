@@ -343,7 +343,7 @@ export function getFieldForCourse(courseCode: string): string {
     "mc-actsc": "business",
     "mc-urbdes": "architecture",
     "mc-urbplan": "architecture",
-    "mc-urbhort": "architecture",
+    "mc-urbhort": "agriculture",
     "mc-arch": "architecture",
     "mc-landsarch": "architecture",
     "mc-constrmgmt": "architecture",
