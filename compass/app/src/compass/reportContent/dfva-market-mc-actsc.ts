@@ -132,13 +132,13 @@ APRA's CPS 230 (Operational Risk Management) and emerging AI governance expectat
 
 | Career stage | Top occupations |
 |---|---|
-| Entry (~1yr) | Sales Assistant (General) (6%), Medical Laboratory Scientist (6%), Geologist (5%), General Clerk (4%), Medical Laboratory Technician (4%) |
-| Early (~3yr) | Medical Laboratory Scientist (7%), Geologist (5%), Sales Assistant (General) (4%), Medical Laboratory Technician (4%), General Clerk (4%) |
-| Senior (~5yr) | Medical Laboratory Scientist (7%), Geologist (5%), Program or Project Administrator (4%), Environmental Consultant (4%), Medical Laboratory Technician (3%) |
+| Entry (~1yr) | Accountant (General) (16%), General Clerk (5%), Marketing Specialist (4%), Sales Assistant (General) (4%), Sales and Marketing Manager (4%) |
+| Early (~3yr) | Accountant (General) (16%), Sales and Marketing Manager (5%), Marketing Specialist (4%), Management Consultant (4%), General Clerk (3%) |
+| Senior (~5yr) | Accountant (General) (15%), Sales and Marketing Manager (5%), Marketing Specialist (4%), Management Consultant (4%), Program or Project Administrator (3%) |
 
-**Graduate outcomes** (QILT GOS 2024, postgraduate): 79% full-time employment · median salary $100,000 · 3-year employment 94% · JSA occupation demand: **Recruitment Difficulty**.
+**Graduate outcomes** (QILT GOS 2024, postgraduate): 92% full-time employment · median salary $124,000 · 3-year employment 96% · JSA occupation demand: **Met**.
 
-**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): NSW Health Pathology, Dorevitch Pathology (Healius), Sonic Healthcare Australia, 4Cyte Pathology, CSIRO, ANSTO, WEHI, Canva, Glencore, Rio Tinto, Fortescue. Advertised salary A$73.4k–145k.
+**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): Commonwealth Bank, Westpac, NAB, CMC Markets, Woolworths Group, Ventia, Brand Collective, EY (Ernst & Young), Bed Bath N' Table, EssilorLuxottica, Alinta Energy, VetPartners Australia. Advertised salary A$80k–125k.
 
 **Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
 
