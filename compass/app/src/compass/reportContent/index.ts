@@ -284,6 +284,7 @@ export const REPORT_CONTENT_LOADERS: Record<
   "dfva-v4-mc-nursc": () => import("./dfva-v4-mc-nursc"),
   "dfva-v4-mc-scibif": () => import("./dfva-v4-mc-scibif"),
   "dfva-v4-mc-scibio": () => import("./dfva-v4-mc-scibio"),
+  "dfva-v4-mc-scibit": () => import("./dfva-v4-mc-scibit"),
   "dfva-v4-mc-sciepi": () => import("./dfva-v4-mc-sciepi"),
   "dfva-v4-mc-scwr": () => import("./dfva-v4-mc-scwr"),
   "dfva-v4-recommend-038ab": () => import("./dfva-v4-recommend-038ab"),
@@ -338,6 +339,7 @@ export const REPORT_CONTENT_LOADERS: Record<
   "dfva-v4-recommend-mc-nursc": () => import("./dfva-v4-recommend-mc-nursc"),
   "dfva-v4-recommend-mc-scibif": () => import("./dfva-v4-recommend-mc-scibif"),
   "dfva-v4-recommend-mc-scibio": () => import("./dfva-v4-recommend-mc-scibio"),
+  "dfva-v4-recommend-mc-scibit": () => import("./dfva-v4-recommend-mc-scibit"),
   "dfva-v4-recommend-mc-sciepi": () => import("./dfva-v4-recommend-mc-sciepi"),
   "dfva-v4-recommend-mc-scwr": () => import("./dfva-v4-recommend-mc-scwr"),
 };

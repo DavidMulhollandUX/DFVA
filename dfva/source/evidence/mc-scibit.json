@@ -202,7 +202,7 @@
     }
   },
   "panelCv4": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2 anchor is satisfied several times over: core units assess collaborative practice with individual accountability (SKIL90004 group charter and group presentation with per-student Q&A, SCIE90034 group digital folio, SCIE90015 group charter agreement negotiated with an industry partner, SCIE90011 group written reports at 700 words per student). Level 3 is not reached: it requires, on top of recurrence, at least one assessment in which coordinating work across people AND tools/AI systems is itself assessed — a documented role AND tool allocation, or an assessed division of work between people and systems. No core assessment line in the extract allocates or assesses work across tools or AI systems; the group tasks allocate word counts and roles between people only, and the only tool-based task in the core (SKIL90004's project-management software assignment) is individual and scored under C3. Placement/industry-immersion evidence is deliberately not counted here — it scores in W3 per the v4.1 migration note.",
