@@ -60,7 +60,9 @@ IDP Education, Navitas, and independent international education consultancies ar
 
 ## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
-> **Confidence: MEDIUM** — Pattern-based from known professional discourse.
+> **Confidence: MEDIUM** — inferred from the declared evidence; see the sourcing note below.
+
+**What these sources are.** The themes below are this report's reading of the labour-market evidence it declares — WEF Future of Jobs, the LinkedIn Workforce Report, Jobs and Skills Australia / Labour Market Insights, Seek trend data and domain-specific industry reporting — together with domain knowledge of the field. Direct extraction from X, LinkedIn, Reddit or any professional forum was **not** performed and no platform was sampled: "discussion" here means what that evidence implies practitioners are facing, not an observed corpus of posts. Dates are given where a source carries one.
 
 **Theme 1 — AI as a Teaching Partner, Not a Replacement**
 Professional discourse in TESOL communities (TESOL International Association, ATESOL Australia) through 2025–2026 centres on how teachers can use AI tools (ChatGPT, Grammarly, AI pronunciation coaches) as scaffolding for learners rather than viewing them as substitutes for instruction. The dominant frame is AI literacy as a teacher competency, not a threat to employment.
@@ -69,7 +71,7 @@ Professional discourse in TESOL communities (TESOL International Association, AT
 Discussion threads in ATESOL VIC and Australian TESOL professional networks raise concerns about AI-generated content reproducing cultural biases and Anglocentric assumptions in language learning materials. This is driving calls for TESOL professionals with skills in evaluating AI-generated content for cultural and pedagogical appropriateness — a niche expertise not yet formally taught in most programs.
 
 **Theme 3 — ELICOS Sector Regulatory Pressure (CRICOS, NEAS, ESOS)**
-Post-COVID audit activity by the Tertiary Education Quality and Standards Agency (TEQSA) and the National ELT Accreditation Scheme (NEAS) is generating practitioner anxiety and discussion about compliance gaps in smaller ELICOS providers. LinkedIn posts from Directors of Studies and coordinators frequently discuss quality framework updates and audit preparation.
+Post-COVID audit activity by the Tertiary Education Quality and Standards Agency (TEQSA) and the National ELT Accreditation Scheme (NEAS) is generating practitioner anxiety and discussion about compliance gaps in smaller ELICOS providers. Quality framework updates and audit preparation are a recurring demand on Directors of Studies and coordinators.
 
 **Theme 4 — Teacher Burnout and Workforce Sustainability**
 Australian TESOL practitioners are discussing high burnout rates in ELICOS settings, driven by casual employment contracts, unpredictable hours, and low wage growth relative to cost of living. This discourse is relevant to graduate career planning and to program framing around professional sustainability and career pathways beyond classroom teaching.
@@ -81,7 +83,7 @@ AI-powered pronunciation feedback tools (ELSA Speak, Google Pronunciation Coach)
 ATESOL and TESOL International community discussions note a persistent gap between SLA research and classroom application. Practitioners express frustration that postgraduate programs focus heavily on theory without equipping graduates to translate findings into lesson design. This is a reputational risk area for TESOL programs and an opportunity for curriculum differentiation.
 
 **Theme 7 — Emerging Demand for Workplace English and LSP Specialists**
-LinkedIn and professional forums show growing employer interest in Language for Specific Purposes (LSP) specialists — particularly workplace English, healthcare communication, and legal English — as workforce migration from non-English-speaking backgrounds continues. TESOL graduates with domain knowledge in these sectors are being described as "rare and in demand."
+Employer interest in Language for Specific Purposes (LSP) specialists — particularly workplace English, healthcare communication and legal English — is growing as workforce migration from non-English-speaking backgrounds continues. TESOL graduates with domain knowledge in these sectors are being described as "rare and in demand."
 
 ---
 

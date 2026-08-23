@@ -55,7 +55,9 @@ Job ads from councils and state agencies increasingly require demonstrated knowl
 
 ## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
-> **Confidence: MEDIUM** — Pattern-based from known professional discourse on LinkedIn, PIA forums, AILA events, and Planning Institute conference proceedings to early 2026.
+> **Confidence: MEDIUM** — inferred from the declared evidence; see the sourcing note below.
+
+**What these sources are.** The themes below are this report's reading of the labour-market evidence it declares — WEF Future of Jobs, the LinkedIn Workforce Report, Jobs and Skills Australia / Labour Market Insights, Seek trend data and domain-specific industry reporting — together with domain knowledge of the field. Direct extraction from X, LinkedIn, Reddit or any professional forum was **not** performed and no platform was sampled: "discussion" here means what that evidence implies practitioners are facing, not an observed corpus of posts. Dates are given where a source carries one.
 
 **Theme 1 — "AI will design the form but humans must hold the values"**
 The dominant practitioner discourse frames AI generative design tools (Autodesk Forma, TestFit, Delve) as productivity multipliers for massing and feasibility iteration, while insisting that community aspiration, equity, and cultural meaning cannot be automated. Senior urban designers at Arup ANZ and AECOM have publicly argued that graduate training must shift toward values-based critique and design ethics, not just tool operation. This is an opportunity for a research-informed program.
@@ -73,7 +75,7 @@ The 15-minute city concept (Moreno et al.) has moved from academic fringe to mai
 The shift from "consultation" to "co-design" in relation to First Nations communities is a recurring theme in ANZ urban design discourse. Victorian Treaty process and Caring for Country frameworks are changing procurement and design obligations. Firms that cannot demonstrate genuine co-design capability are losing government tenders. Graduate training in Indigenous design protocols is increasingly a differentiator for employment.
 
 **Theme 6 — Digital twin and smart city investment creating new roles but also anxiety**
-Melbourne's City of Melbourne digital twin initiative and Jacobs/Arup smart city work generate visible LinkedIn discussion about whether urban designers need to become data engineers or whether they need to be intelligent consumers of digital outputs. The emerging consensus is the latter, but with a higher baseline: graduates should be able to read, critique, and communicate digital twin outputs in a client context.
+City of Melbourne's digital twin initiative and Jacobs/Arup smart city work raise the question of whether urban designers need to become data engineers or intelligent consumers of digital outputs. The emerging consensus is the latter, but with a higher baseline: graduates should be able to read, critique, and communicate digital twin outputs in a client context.
 
 **Theme 7 — Climate migration and regional resilience planning as an emerging frontier**
 Discussion among strategic planners about sea-level rise, bushfire risk, and inland flooding is generating early-stage demand for graduates who understand climate migration scenarios and their implications for regional urban structure. This is not yet a mainstream job category but is appearing in strategy documents from Infrastructure Victoria, CSIRO, and the Grattan Institute, signalling 5–10 year curriculum relevance.

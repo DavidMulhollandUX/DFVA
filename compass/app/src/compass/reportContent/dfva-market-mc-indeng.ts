@@ -60,10 +60,12 @@ Management consulting firms (Big Four, Accenture, Kearney, McKinsey operations p
 
 ## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
-> **Confidence: MEDIUM** — Pattern-based from known professional discourse.
+> **Confidence: MEDIUM** — inferred from the declared evidence; see the sourcing note below.
+
+**What these sources are.** The themes below are this report's reading of the labour-market evidence it declares — WEF Future of Jobs, the LinkedIn Workforce Report, Jobs and Skills Australia / Labour Market Insights, Seek trend data and domain-specific industry reporting — together with domain knowledge of the field. Direct extraction from X, LinkedIn, Reddit or any professional forum was **not** performed and no platform was sampled: "discussion" here means what that evidence implies practitioners are facing, not an observed corpus of posts. Dates are given where a source carries one.
 
 **Theme 1 — "Will AI Replace Industrial Engineers?" Anxiety Is Peaking in 2025–26**
-Professional forums (LinkedIn, Engineers Australia community groups, Reddit r/industrialengineering) show elevated anxiety about AI replacing scheduling, forecasting, and workflow-mapping tasks. The prevailing expert response — visible in WEF 2025 commentary and IIE (Institute of Industrial and Systems Engineers) publications — is that AI augments rather than replaces industrial engineers, but only those who retool for AI-augmented workflow design. Programs that do not address this head-on are perceived as out of touch.
+Scheduling, forecasting and workflow-mapping tasks are exposed to automation. The prevailing expert response — visible in WEF 2025 commentary and IIE (Institute of Industrial and Systems Engineers) publications — is that AI augments rather than replaces industrial engineers, but only those who retool for AI-augmented workflow design. Programs that do not address this head-on are perceived as out of touch.
 
 **Theme 2 — Sustainability Engineering Is the "New Lean"**
 There is significant professional discourse positioning sustainability and circular economy engineering as the next transformative methodology for manufacturing, analogous to Lean's rise in the 1990s. Engineers Australia and the Australasian Institute of Mining and Metallurgy both published pieces in 2025 framing LCA and carbon reduction engineering as core IE competencies. Graduates who lack this framing are increasingly seen as behind the curve.
@@ -72,7 +74,7 @@ There is significant professional discourse positioning sustainability and circu
 A persistent theme in ASCM (Association for Supply Chain Management) APAC discussions is that supply chain roles now require fluency in finance (NPV of resilience investments), data science (demand sensing), and commercial negotiation — not just logistics and operations. This signals a need for interdisciplinary curriculum design that bridges pure IE methods with commercial and financial reasoning.
 
 **Theme 4 — "Engineer Who Can Communicate" Is the Most Requested Graduate Archetype**
-Employer panels at Engineers Australia events and LinkedIn posts from hiring managers repeatedly surface the same complaint: industrial engineering graduates can solve the technical problem but struggle to communicate findings to non-technical stakeholders, write a concise board paper, or run a workshop. This is described as the single biggest gap between graduate supply and employer demand in the manufacturing sector.
+Industrial engineering graduates can solve the technical problem but struggle to communicate findings to non-technical stakeholders, write a concise board paper, or run a workshop. This is described as the single biggest gap between graduate supply and employer demand in the manufacturing sector.
 
 **Theme 5 — Industry 4.0 Hype Is Giving Way to Pragmatic Implementation**
 The professional discourse has shifted from evangelism about smart factories to pragmatic questions about ROI, change management, and integration with legacy systems. Graduates who arrive with theoretical Industry 4.0 knowledge but no exposure to the organisational challenges of implementation are perceived as adding less value than expected. There is demand for graduates who understand the socio-technical dimensions of digital transformation, not just the technology stack.

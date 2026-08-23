@@ -55,19 +55,21 @@ DJSIR (Victorian Department of Jobs) data indicates Melbourne's fastest-growing 
 
 ## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
-> **Confidence: MEDIUM** — Pattern-based from known professional discourse.
+> **Confidence: MEDIUM** — inferred from the declared evidence; see the sourcing note below.
+
+**What these sources are.** The themes below are this report's reading of the labour-market evidence it declares — WEF Future of Jobs, the LinkedIn Workforce Report, Jobs and Skills Australia / Labour Market Insights, Seek trend data and domain-specific industry reporting — together with domain knowledge of the field. Direct extraction from X, LinkedIn, Reddit or any professional forum was **not** performed and no platform was sampled: "discussion" here means what that evidence implies practitioners are facing, not an observed corpus of posts. Dates are given where a source carries one.
 
 **Theme 1 — "Is a Business Analytics Master's Still Worth It Post-GPT?"**
-Active debate across LinkedIn AU and Reddit's r/analytics threads questions whether a generalist business analytics qualification adds value when GPT-4-class tools can perform basic data querying, report generation, and statistical summarisation. Sentiment is divided: practitioners argue the differentiator is judgment and business context, not tool execution; critics argue programs need to completely restructure around AI-augmented workflows to justify fees.
+Whether a generalist business analytics qualification adds value is contested, given that GPT-4-class tools perform basic data querying, report generation and statistical summarisation. Sentiment is divided: practitioners argue the differentiator is judgment and business context, not tool execution; critics argue programs need to completely restructure around AI-augmented workflows to justify fees.
 
 **Theme 2 — Python vs. No-Code: What Should Analytics Masters Teach?**
-Australian analytics communities on LinkedIn are debating whether programs should prioritise Python coding depth or "AI-first, no-code" analytics stacks (e.g., Julius AI, Polymer, Power BI Copilot). The emerging consensus in practitioner discourse is that coding fluency remains important — particularly for debugging AI-generated code — but the balance is shifting toward critical interpretation and orchestration rather than from-scratch construction.
+Whether programs should prioritise Python coding depth or "AI-first, no-code" analytics stacks (Julius AI, Polymer, Power BI Copilot) is an open curriculum question. The emerging consensus in practitioner discourse is that coding fluency remains important — particularly for debugging AI-generated code — but the balance is shifting toward critical interpretation and orchestration rather than from-scratch construction.
 
 **Theme 3 — "Storytelling With Data" Is the Hardest Skill to Hire**
 Hiring managers in ANZ analytics communities consistently report that the hardest gap to fill is not technical — it is the ability to translate analytical findings into business language for non-technical executives. This surfaces repeatedly in Melbourne analytics Meetup discussions and IAPA (Institute of Analytics Professionals Australia) forums as the skill that separates mid-career analysts from senior roles.
 
 **Theme 4 — Ethics and AI Governance Are Being Added to Job Requirements, Not Just Course Syllabi**
-The X/LinkedIn discourse among Australian analytics practitioners shows growing frustration that "AI ethics" appears heavily in academic programs but rarely translates to practical skills. Practitioners want graduates who can conduct a bias audit, write a model card, or apply a fairness metric — not graduates who can recite ethical principles. This gap is a curriculum design problem.
+"AI ethics" appears heavily in academic programs but rarely translates into practical skills. Practitioners want graduates who can conduct a bias audit, write a model card, or apply a fairness metric — not graduates who can recite ethical principles. This gap is a curriculum design problem.
 
 **Theme 5 — The "Hybrid BA" Is Rising: Business Analyst + Data Analyst in One Role**
 Small-to-medium enterprises in ANZ cannot afford to hire separate business analysts and data analysts, so "hybrid BA/DA" role descriptions are proliferating on Seek. Graduates who can do requirements gathering AND build the dashboard AND present to the board are disproportionately attractive to this market segment — which is also growing faster than enterprise in post-COVID Melbourne.
@@ -76,7 +78,7 @@ Small-to-medium enterprises in ANZ cannot afford to hire separate business analy
 The IAPA (Institute of Analytics Professionals Australia) offers a Certified Analytics Professional (CAP) track. ANZ analytics discussions increasingly reference this credential as the one meaningful professional signal in the field, yet few business analytics programs in Australia have formal articulation with IAPA pathways. Graduates who complete a master's without a clear pathway to CAP are perceived as less professionally credentialed than counterparts in more established fields.
 
 **Theme 7 — Real-World Capstone Projects Are the Primary Differentiator**
-Across LinkedIn job seeker posts and employer commentary in ANZ, the single most-cited differentiator for analytics master's graduates is whether their program involved a genuine industry-partnered capstone with real data and a business problem to solve. Simulated case studies and Kaggle competitions are viewed as insufficient; graduates who can reference a real client, a real dataset, and a real decision outcome are distinctly preferred.
+The clearest differentiator for analytics master's graduates is whether their program involved a genuine industry-partnered capstone with real data and a business problem to solve. Simulated case studies and Kaggle competitions are viewed as insufficient; graduates who can reference a real client, a real dataset, and a real decision outcome are distinctly preferred.
 
 ---
 

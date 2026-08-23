@@ -55,10 +55,12 @@ Commercial workplace redesign — driven by hybrid work normalisation — is sus
 
 ## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
-> **Confidence: MEDIUM** — Pattern-based from known professional discourse as of mid-2026.
+> **Confidence: MEDIUM** — inferred from the declared evidence; see the sourcing note below.
+
+**What these sources are.** The themes below are this report's reading of the labour-market evidence it declares — WEF Future of Jobs, the LinkedIn Workforce Report, Jobs and Skills Australia / Labour Market Insights, Seek trend data and domain-specific industry reporting — together with domain knowledge of the field. Direct extraction from X, LinkedIn, Reddit or any professional forum was **not** performed and no platform was sampled: "discussion" here means what that evidence implies practitioners are facing, not an observed corpus of posts. Dates are given where a source carries one.
 
 **Theme 1 — AI-Generated Design: Tool or Threat?**
-Australian architecture Twitter/X and LinkedIn are actively debating whether tools like Midjourney, Stable Diffusion, and Autodesk Forma's AI features will displace early-career concept generation work. The dominant professional view (AIA President statements, 2025) is that AI shifts junior architects from drawing to directing — but this requires graduates who understand how to evaluate, curate, and contextualise AI outputs rather than simply produce drawings.
+Whether tools such as Midjourney, Stable Diffusion and Autodesk Forma's AI features will displace early-career concept generation work is unsettled. The dominant professional view (AIA President statements, 2025) is that AI shifts junior architects from drawing to directing — but this requires graduates who understand how to evaluate, curate, and contextualise AI outputs rather than simply produce drawings.
 
 **Theme 2 — The Registration Pipeline is Too Long**
 A recurring theme in AIA forums and AACA consultation documents is the 5–7 year gap between graduation and ARBV registration. Graduates and early-career architects are expressing frustration that the pathway to registration (RAIA Experience + Competency Assessment) is opaque, inconsistently supported by employers, and financially penalising during the experience phase. This affects retention and career satisfaction in years 1–3.
@@ -73,7 +75,7 @@ Among sustainability-focused professionals on LinkedIn, embodied carbon accounti
 A persistent complaint from principals and senior architects in AIA practice forums is that architecture graduates lack foundational commercial literacy — understanding of project contracts (AS4902, AS4300), fee structures, risk allocation, and client management. X discussions highlight this as a structural gap in university education that leaves graduates unprepared for the commercial realities of practice.
 
 **Theme 6 — Cultural Heritage and Country-Responsive Design Under Scrutiny**
-Following the Voice referendum and ongoing discussions of Country-responsive design, architecture professionals on LinkedIn are debating whether architectural education adequately prepares graduates to work respectfully with Aboriginal and Torres Strait Islander communities on cultural heritage projects. There is growing expectation from government clients and some private developers that architects demonstrate cultural competency beyond minimum compliance.
+Connection to Country requirements now sit in registration and practice standards, and whether architectural education prepares graduates to meet them on cultural heritage projects is untested here. There is growing expectation from government clients and some private developers that architects demonstrate cultural competency beyond minimum compliance.
 
 **Theme 7 — Remote and Regional Work Creating Unexpected Demand**
 Post-pandemic decentralisation has created architecture opportunities in regional Victoria, Queensland, and Western Australia that struggle to attract graduates trained in urban practices. AIA branches in these regions are actively using social media to flag unfilled positions. Graduates willing to relocate to regional centres are finding faster pathways to project responsibility and registration experience.

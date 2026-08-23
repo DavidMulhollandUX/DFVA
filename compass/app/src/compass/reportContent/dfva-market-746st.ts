@@ -60,25 +60,27 @@ Victorian state government agencies (Vic Roads, MRPV, Level Crossing Removal Aut
 
 ## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
-> **Confidence: MEDIUM** — Pattern-based from known professional discourse.
+> **Confidence: MEDIUM** — inferred from the declared evidence; see the sourcing note below.
+
+**What these sources are.** The themes below are this report's reading of the labour-market evidence it declares — WEF Future of Jobs, the LinkedIn Workforce Report, Jobs and Skills Australia / Labour Market Insights, Seek trend data and domain-specific industry reporting — together with domain knowledge of the field. Direct extraction from X, LinkedIn, Reddit or any professional forum was **not** performed and no platform was sampled: "discussion" here means what that evidence implies practitioners are facing, not an observed corpus of posts. Dates are given where a source carries one.
 
 **Theme 1 — AI Tools Are Automating Routine Structural Calculations**
-Professional discourse on LinkedIn AU and in Engineers Australia forums reflects active concern and curiosity about tools like Autodesk AI within Robot Structural Analysis and Speckle automating routine beam and column sizing tasks. The consensus among senior practitioners is that AI speeds up routine work but increases the premium on judgment-intensive tasks — conceptual structural schemes, forensic assessment, and novel material applications — that graduates need to be trained for explicitly.
+Tools such as Autodesk AI within Robot Structural Analysis, and Speckle, are automating routine beam and column sizing. The consensus among senior practitioners is that AI speeds up routine work but increases the premium on judgment-intensive tasks — conceptual structural schemes, forensic assessment, and novel material applications — that graduates need to be trained for explicitly.
 
 **Theme 2 — The Embodied Carbon Skills Gap Is Acute and Industry-Acknowledged**
-Structural engineering professionals on LinkedIn regularly discuss the absence of embodied carbon and lifecycle assessment training in university curricula. Industry bodies including Green Building Council Australia and Infrastructure Sustainability Council are calling for this to be a graduate competency. The discussion frames this as a competitive differentiator for programs that embed it versus those that do not.
+Embodied carbon and lifecycle assessment training is absent from university curricula. Industry bodies including Green Building Council Australia and Infrastructure Sustainability Council are calling for this to be a graduate competency. The discussion frames this as a competitive differentiator for programs that embed it versus those that do not.
 
 **Theme 3 — Engineers Australia CPEng Pathway Concerns Among Graduates**
-There is recurring discussion on LinkedIn and Reddit (r/AusEngineers) about graduates feeling underprepared for the Engineers Australia Chartered Professional Engineer (CPEng) pathway. Specific gaps cited include: inadequate exposure to professional practice, insufficient mentored project experience, and difficulty articulating competency evidence. This signals a curriculum gap between technical content and professional formation.
+Graduates are underprepared for the Engineers Australia Chartered Professional Engineer (CPEng) pathway. Specific gaps cited include: inadequate exposure to professional practice, insufficient mentored project experience, and difficulty articulating competency evidence. This signals a curriculum gap between technical content and professional formation.
 
 **Theme 4 — Prefabrication and Mass Timber Generating New Design Demand**
-X/Twitter and LinkedIn discussions among Australian structural engineers reflect growing industry interest in cross-laminated timber (CLT) and mass timber structures, driven by low-carbon construction mandates. Melbourne and Sydney are seeing the first wave of tall timber buildings, and structural engineers with timber design capability are scarce. This is framed as a near-term hiring opportunity with low competition from current graduates.
+Industry interest in cross-laminated timber (CLT) and mass timber structures is growing, driven by low-carbon construction mandates. Melbourne and Sydney are seeing the first wave of tall timber buildings, and structural engineers with timber design capability are scarce. This is framed as a near-term hiring opportunity with low competition from current graduates.
 
 **Theme 5 — Digital Twin Integration Moving from Pilot to Mainstream**
-Engineering directors at firms including WSP and Aurecon have posted on LinkedIn about digital twin adoption moving from R&D pilots to standard project delivery for major infrastructure. Structural engineers who understand sensor data integration, real-time monitoring, and model-to-sensor calibration are identified as rare and high-value. The discourse explicitly notes that this skill set is not taught in most MEng programs.
+Digital twin adoption at firms including WSP and Aurecon is moving from R&D pilots to standard project delivery on major infrastructure. Structural engineers who understand sensor data integration, real-time monitoring, and model-to-sensor calibration are identified as rare and high-value. The discourse explicitly notes that this skill set is not taught in most MEng programs.
 
 **Theme 6 — Climate Resilience and Extreme Weather Design Becoming Mandatory**
-Following Australian flooding events (2022, 2025) and bushfire infrastructure damage, structural engineers on LinkedIn discuss updated design standards and the growing client expectation that structures be explicitly designed for climate scenario uplift. The National Construction Code and AS/NZS standards bodies are flagged as in update cycles. Graduates who understand climate-adjusted load combinations are seen as more deployment-ready.
+After the 2022 and 2025 flooding events and bushfire infrastructure damage, design standards have been updated and clients increasingly expect structures to be designed explicitly for climate scenario uplift. The National Construction Code and AS/NZS standards bodies are flagged as in update cycles. Graduates who understand climate-adjusted load combinations are seen as more deployment-ready.
 
 **Theme 7 — Mental Health and Graduate Retention in Construction Contexts**
 A recurring theme in Engineers Australia digital forums and Slack communities is the high attrition of graduate engineers from site-based construction roles within the first 2 years, attributed to demanding conditions and inadequate support. Firms are responding with structured mentoring and hybrid roles. Programs that prepare graduates for the realities of construction environments — not just design offices — are viewed more favourably by hiring managers.

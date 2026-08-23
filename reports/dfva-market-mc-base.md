@@ -54,10 +54,12 @@ Early-signal job ads (primarily from larger NFPs and consulting firms) are begin
 
 ## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
-> **Confidence: MEDIUM** — Pattern-based from known professional discourse as of early 2026.
+> **Confidence: MEDIUM** — inferred from the declared evidence; see the sourcing note below.
+
+**What these sources are.** The themes below are this report's reading of the labour-market evidence it declares — WEF Future of Jobs, the LinkedIn Workforce Report, Jobs and Skills Australia / Labour Market Insights, Seek trend data and domain-specific industry reporting — together with domain knowledge of the field. Direct extraction from X, LinkedIn, Reddit or any professional forum was **not** performed and no platform was sampled: "discussion" here means what that evidence implies practitioners are facing, not an observed corpus of posts. Dates are given where a source carries one.
 
 **Theme 1 — "Mission Drift" Tension in Commercialising Social Enterprises**
-LinkedIn and sector forums (SVA, Social Enterprise World Forum channels) show sustained professional debate about whether social enterprises are compromising social outcomes to achieve financial sustainability. This tension is a defining career skill challenge: graduates must be able to articulate and navigate dual mandates without defaulting to either pure charity logic or commercial logic alone. Programs that address this explicitly are rated higher by employers in sector surveys.
+Whether social enterprises compromise social outcomes to achieve financial sustainability is a live tension in the sector. This tension is a defining career skill challenge: graduates must be able to articulate and navigate dual mandates without defaulting to either pure charity logic or commercial logic alone. Programs that address this explicitly are rated higher by employers in sector surveys.
 
 **Theme 2 — NDIS Reform Is Reshaping Disability Social Enterprise**
 The 2025–26 NDIS review and shifts in disability employment policy are a dominant topic across disability sector networks. Social enterprises operating in disability are navigating changed pricing, quality standards, and participant choice architecture. Professionals who understand both the policy reform and the social enterprise operating model are in scarce supply and high demand.
@@ -66,7 +68,7 @@ The 2025–26 NDIS review and shifts in disability employment policy are a domin
 A vocal professional discourse is pushing back against superficial impact measurement — SROI calculations that produce impressive multipliers without genuine attribution, or Theory of Change documents that satisfy funders but do not drive organisational learning. Employers are beginning to signal in interviews that they want graduates who can distinguish rigorous evaluation from compliance performance. This is an opportunity for programs with strong research methods grounding.
 
 **Theme 4 — B Corp Certification Is Becoming a Competitive Differentiator for Employers**
-LinkedIn posts from B Corp certified companies in ANZ increasingly reference their certification as a talent attraction strategy. Simultaneously, candidates are self-selecting toward B Corp employers. This creates a virtuous cycle where B Corp knowledge — including the certification process — is becoming a career-relevant credential even for employees who are not directly managing the certification. Programs that teach BIA methodology produce more attractive candidates for this employer segment.
+B Corp certified companies in ANZ increasingly use certification as a talent attraction strategy. Simultaneously, candidates are self-selecting toward B Corp employers. This creates a virtuous cycle where B Corp knowledge — including the certification process — is becoming a career-relevant credential even for employees who are not directly managing the certification. Programs that teach BIA methodology produce more attractive candidates for this employer segment.
 
 **Theme 5 — Blended Finance and Impact Investing Are Moving Mainstream**
 Impact Investing Australia, SVA, and the Centre for Social Impact are all running professional development programs to address blended finance literacy gaps in the sector. Professional discourse reflects a consensus that the next generation of sector leaders needs financial structuring skills — outcomes-based contracts, impact bonds, concessional capital — that have historically sat in investment banking, not social sector training. Masters programs that address this gap are positioned well.
