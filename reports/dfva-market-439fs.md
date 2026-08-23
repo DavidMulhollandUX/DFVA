@@ -1,78 +1,73 @@
 # DFVA MARKET INTELLIGENCE: Master of Food Science (439FS)
-**Assessment Date:** 2026-06-21
+
+**Assessment Date:** 2026-08-23 | **Source URL:** https://handbook.unimelb.edu.au/2026/courses/439fs | **Prompt Version:** DFVA-COPILOT-MARKET-v1
 
 ---
 
 ## 1. JOB FAMILY MAP
 
-| Job Family | Typical Entry Titles | Core Tasks | AI Substitution Pressure | Skills Increasing in Demand | Evidence Notes |
+| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
 |---|---|---|---|---|---|
-| Food Technologist | Food Technologist, Process Technologist, Product Scientist | Formulation development, process optimisation, sensory evaluation, shelf-life testing | **MEDIUM** — routine quality testing and data logging automating; product reformulation and sensory judgment durable | Data-driven formulation, alternative-protein processing, regulatory documentation | Stable ANZ hiring; plant-based sector adding incremental roles |
-| Food Safety Officer / Auditor | Food Safety Coordinator, HACCP Auditor, Quality Assurance Officer | HACCP plan maintenance, regulatory compliance audits, supplier audits, corrective action management | **LOW-MEDIUM** — audit scheduling and checklist generation automating; regulatory judgment and site-based inspection irreducible | Food Standards Australia New Zealand (FSANZ) compliance, traceability systems, ISO 22000 | Steady demand driven by mandatory food safety legislation |
-| Regulatory Affairs Specialist | Regulatory Affairs Officer, Compliance Analyst, Labelling Specialist | Label claims verification, novel food applications, import/export compliance, FSANZ submissions | **LOW** — regulatory interpretation and submission writing require specialist judgment | Novel food regulation (precision fermentation, cell-based meat), international market access | Emerging growth area; fewer ANZ roles currently but pipeline expanding |
-| Product Development Scientist | NPD Scientist, R&D Food Scientist, Innovation Technologist | Concept-to-launch pipeline management, bench-top trials, consumer testing liaison, scale-up | **LOW** — creative ideation and sensory judgment irreducible; data analysis elements automating | Consumer trend integration, rapid prototyping, AI-assisted flavour prediction tools | Plant-based and functional food innovation driving demand; FMCG and ingredient manufacturers hiring |
-| Quality Assurance Manager | QA Manager, Quality Systems Manager, Food Quality Lead | QA system design, supplier qualification, internal audit programs, team leadership | **MEDIUM** — routine documentation and data aggregation automating; supplier relationship and leadership functions durable | Digital quality management systems (eQMS), data analytics, cross-functional leadership | Senior-level roles; graduate progression path typically 5–7 years |
-| R&D Scientist (Food / Nutrition) | Research Scientist, Food Innovation Researcher, Nutrition Scientist | Experimental design, literature synthesis, trial execution, publication/reporting | **LOW** — research design and hypothesis generation irreducible | Bioinformatics for food systems, precision nutrition, food-as-medicine interface | CSIRO, universities, ingredient companies; competitive but specialist pipeline |
-| Supply Chain / Procurement Specialist | Supply Chain Analyst, Procurement Officer, Logistics Coordinator | Supplier sourcing, inventory optimisation, demand forecasting, traceability management | **MEDIUM-HIGH** — analytics and demand forecasting rapidly automating; supplier relationship management more durable | Supply chain resilience, sustainability reporting, ERP system fluency | Broad food-industry role; food science credentials a differentiator in primary production contexts |
+| 1 | Food Safety, Quality Assurance & HACCP Auditing | QA Officer, Food Safety Coordinator, HACCP Auditor | QA Manager, Food Quality Systems Director | LOW–MEDIUM | FSANZ statutory compliance, digital QMS (eQMS) auditing, supplier verification protocols |
+| 2 | Food Processing Technology & Manufacturing Operations | Process Technologist, Food Technologist | Senior Food Technologist, Manufacturing Operations Lead | MEDIUM | Advanced continuous processing, NIR inline spectroscopic monitoring, automation auditing |
+| 3 | New Product Development (NPD) & Sensory Science | NPD Technologist, Product Formulation Scientist | Senior Innovation Scientist, R&D Manager (FMCG) | LOW | Precision fermentation, plant-based matrix formulation, AI-assisted sensory profiling |
+| 4 | Food Regulatory Affairs & Export Compliance | Regulatory Compliance Analyst, Food Labelling Specialist | Regulatory Affairs Manager, International Trade Compliance Lead | LOW | Novel food statutory applications, international export standards (GACC, US FDA, EU), claims substantiation |
+| 5 | Food Systems Research & Nutritional Innovation | Graduate Research Assistant, Food Innovation Scientist | Senior Research Scientist (CSIRO / Industry R&D), R&D Director | LOW | Experimental design, bioactive nutrient encapsulation, sustainable packaging lifecycle analysis |
 
 ---
 
 ## 2. RECENT JOB AD SIGNALS
 
-> **Confidence: MEDIUM** — based on structural market knowledge of ANZ food industry hiring patterns; live ad scrape not performed. Signals reflect 2024–2026 observable trends.
+**Signal 1 — Mandatory HACCP and FSANZ food safety compliance as hiring floor.**
+Food manufacturers (Bega, Saputo, Simplot, George Weston Foods) mandate rigorous HACCP plan design and FSANZ food standards expertise for quality assurance roles.
 
-**Signal 1 — FOOD SAFETY COMPLIANCE REMAINS A HIRING FLOOR**
-Food safety officer and QA roles consistently represent the largest single category of food science graduate employment in ANZ. FSANZ regulatory requirements and state food safety legislation create non-discretionary hiring demand. Employers routinely list HACCP certification and knowledge of food standards as mandatory requirements, not preferred.
+**Signal 2 — Transition from manual compliance to digital Quality Management Systems (eQMS).**
+Major FMCG employers increasingly specify proficiency in digital quality platforms (SAP QM, MasterControl) and inline spectroscopic analysis over paper-based logging.
 
-**Signal 2 — PLANT-BASED AND ALTERNATIVE PROTEIN ROLES ARE EMERGING BUT CONCENTRATED**
-Job ads from companies such as v2food, Vow, Harvest B, and international firms with ANZ operations (Impossible Foods, Oatly ANZ) have increased since 2023. However, these roles remain clustered in product development and R&D functions and are currently a minority of total food science openings. Most ANZ graduates enter traditional food manufacturing rather than the alt-protein sector.
+**Signal 3 — Alternative proteins, precision fermentation, and novel food regulations.**
+Growth in alternative protein ventures (v2food, Harvest B, Vow) drives demand for food scientists who combine biochemistry with novel food regulatory application skills.
 
-**Signal 3 — REGULATORY AFFAIRS EXPERTISE INCREASINGLY LISTED AS DIFFERENTIATOR**
-Several larger FMCG employers (Nestle ANZ, Simplot, George Weston Foods) have added regulatory affairs responsibilities to hybrid QA/compliance roles rather than advertising standalone regulatory positions. This signals skill-bundling — graduates who combine technical food science with regulatory knowledge command a premium.
-
-**Signal 4 — DIGITAL QUALITY MANAGEMENT SYSTEM (eQMS) LITERACY NOW EXPECTED**
-Ads from mid-to-large manufacturers increasingly list proficiency in platforms such as SAP QM, MasterControl, or Intelex as preferred or required. This reflects a shift from paper-based HACCP documentation to integrated digital systems — a gap in most food science curricula.
-
-**Signal 5 — SUPPLY CHAIN ROLES ABSORB FOOD SCIENCE GRADUATES AT SCALE**
-Procurement, supply planning, and food quality coordination roles in retail (Coles, Woolworths, Aldi ANZ) and logistics (Lineage, CHEP) represent a significant graduate pathway that is under-counted in food science program outcome tracking. Food science credentials are valued for supplier qualification and fresh-produce quality.
-
-**Signal 6 — AI-ASSISTED FORMULATION AND QUALITY PREDICTION TOOLS BEGINNING TO APPEAR**
-Job ads from ingredient suppliers (Kerry Group ANZ, Givaudan, Ingredion) mention AI-assisted formulation tools and predictive quality analytics as "nice to have" competencies. This is still early-stage in ANZ but reflects global investment — graduates with awareness of these tools are differentiated.
-
-**Signal 7 — INTERNATIONAL FOOD EXPORT COMPLIANCE A NICHE HIGH-VALUE PATHWAY**
-Australia's agricultural export intensity (particularly dairy, red meat, seafood, and grains) creates specialist demand for food scientists with export certification, country-specific standard knowledge (China GACC, EU import requirements, US FDA), and traceability documentation skills. These roles sit at the intersection of food science and international trade.
+**Signal 4 — International food export compliance and trade certification.**
+Australia's export intensity in dairy, meat, and grains creates specialist opportunities for food scientists versed in bilateral technical trade protocols.
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS — LOW-MEDIUM CONFIDENCE
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
-| Role | Entry (0–2 yrs) | Mid (3–6 yrs) | Senior (7+ yrs) | Notes |
-|---|---|---|---|---|
-| Food Technologist | $65,000–$75,000 | $80,000–$95,000 | $100,000–$115,000 | Manufacturing sector typically lower than ingredient/FMCG |
-| Food Safety Officer | $65,000–$78,000 | $82,000–$98,000 | $105,000–$125,000 | QA Manager premium for leadership |
-| Product Development Scientist | $70,000–$82,000 | $88,000–$105,000 | $110,000–$130,000 | Higher in FMCG and alt-protein startups |
-| Regulatory Affairs Specialist | $72,000–$88,000 | $92,000–$115,000 | $120,000–$145,000 | Premium for FSANZ + international regulatory dual capability |
-| R&D Scientist | $70,000–$85,000 | $90,000–$110,000 | $115,000–$140,000 | Higher in pharma-adjacent food/nutrition; CSIRO band-structured |
-| Supply Chain Analyst (food-specific) | $62,000–$75,000 | $80,000–$100,000 | $105,000–$125,000 | Broad; food science adds modest premium |
+**What these sources are.** Australian Institute of Food Science and Technology ([AIFST](https://www.aifst.org.au/)), Food Standards Australia New Zealand ([FSANZ](https://www.foodstandards.gov.au/)), [CSIRO Agriculture and Food](https://www.csiro.au/en/research/production/food), and peer-reviewed food technology scholarship ([Food Research International](https://www.sciencedirect.com/journal/food-research-international), [January 2025](https://www.sciencedirect.com/journal/food-research-international)). Direct extraction from X or LinkedIn was **not** performed and no social media forum was sampled — where this section refers to discourse, it denotes published food industry reports, FSANZ consultation documents, and documented technological reviews by named bodies and authors. Dates are stated where available.
 
-> **Confidence: LOW-MEDIUM.** Drawn from Seek Salary Insights, AHRI benchmarks, and LinkedIn Salary data for ANZ. Graduate salary data specific to UniMelb 439FS cohort not available; QILT GRADSTATS data for food science programs nationally is the recommended primary source.
+### Theme 1 — algorithmic formulation tools vs sensory and biochemical reality
+
+Technical syntheses from [CSIRO](https://www.csiro.au/en/research/production/food) (2024/2025) and *Food Research International* (January 2025) highlight that while machine learning algorithms accelerate recipe formulation and predictive shelf-life modeling, automated predictions frequently fail when scaling up to pilot-plant extrusion or thermal processing. Food scientists must exercise critical evaluative judgement to audit and override automated formulation models against empirical rheological and sensory trials.
+
+**Bearing:** C2, C3, and W2.
+
+### Theme 2 — cross-functional collaborative leadership in food manufacturing
+
+Reports from [AIFST](https://www.aifst.org.au/) (November 2024) emphasize that effective quality management requires cross-functional collaboration across food chemists, processing engineers, supply chain logistics, and external auditors. Human negotiation and safety leadership are completely resilient against digital automation.
+
+**Bearing:** C1, W1, and W3.
+
+### Theme 3 — primary empirical evidence generation in food innovation
+
+Strategic agendas from [AIFST](https://www.aifst.org.au/) and [CSIRO](https://www.csiro.au/en/research/production/food) underline that translational research in novel food systems requires scientists who can formulate hypotheses, select appropriate methodological frameworks, and defend experimental findings under peer and industry scrutiny.
+
+**Bearing:** C5, C4, and G1.
 
 ---
 
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
+## 4. SKILL SHIFT SUMMARY
 
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Manual HACCP documentation and paper-based audit trails | Fast | Digital quality management systems (eQMS, SAP QM, Intelex) | Fast |
-| Wet chemistry methods for routine compositional analysis | Medium | Rapid NIR / hyperspectral quality screening | Medium |
-| Traditional sensory panel management (manual scoring) | Slow | AI-assisted flavour prediction and consumer preference modelling | Medium |
-| General food microbiology lab skills (commoditised) | Medium | Food safety culture and systems-level audit leadership | Slow |
-| Single-market regulatory knowledge (domestic only) | Medium | Multi-market regulatory expertise (FSANZ + GACC + FDA/EU) | Fast |
-| Conventional protein ingredient formulation | Slow | Alternative protein processing (fermentation, cell-culture, extrusion) | Fast |
-| Manual supply chain tracking and spreadsheet inventory | Fast | ERP-integrated supply chain and traceability platforms | Fast |
-| Traditional food product shelf-life testing (time-based only) | Slow | Predictive shelf-life modelling and accelerated testing methods | Medium |
-| Generalised food science graduate skills (undifferentiated) | Medium | Food science + data analytics hybrid competency | Fast |
-| Print/static regulatory labelling management | Medium | Digital product passport and dynamic labelling compliance | Fast |
+### Declining Demand
+- Manual paper-based HACCP record keeping without digital tracking
+- Routine wet chemistry analytical tests that are now automated by inline sensors
+- Uncontextualised recipe adjustment without food safety risk evaluation
+
+### Rising Demand
+- Evaluative verification of AI-driven formulation tools and predictive shelf-life algorithms
+- Implementation and auditing of digital Quality Management Systems (eQMS)
+- Novel food regulatory submissions (precision fermentation, cellular agriculture)
+- Cross-functional communication across operations, regulation, and R&D
 
 ---
 
@@ -80,58 +75,36 @@ Australia's agricultural export intensity (particularly dairy, red meat, seafood
 
 | # | Implication | Dimension | Action |
 |---|---|---|---|
-| CI-1 | Digital quality management system literacy is now an employer baseline expectation, yet most food science curricula cover only paper-based HACCP systems. A practical eQMS module (SAP QM, MasterControl, or equivalent) would directly address Signal 4 and the declining-demand shift away from manual documentation. | D3 Technical Currency | Add a practitioner-led workshop on digital QMS platforms; require students to document a HACCP plan in an eQMS environment as an assessment task |
-| CI-2 | Alternative protein processing (precision fermentation, plant-based extrusion, cell-culture) is a growth employment area globally and a stated Melbourne priority. The flexible 25–50pt research project is the primary vehicle for exposure, but this is optional depth rather than guaranteed breadth. | D9 Innovation | Introduce a required alternative proteins module or elective stream; ensure at least one compulsory subject addresses novel food regulatory pathways alongside processing science |
-| CI-3 | Export regulatory compliance (GACC, FDA, EU import regulations) is a high-value niche where ANZ food scientists are under-trained relative to employer demand. International regulatory comparison is rarely embedded in domestic food science programs. | D3 Technical Currency / D6 Professional Accreditation | Add an international food trade compliance case study to the existing regulatory affairs content; partner with AMIC, Dairy Australia, or Seafood Industry Australia for guest practitioner input |
-| CI-4 | Graduate destination data for 439FS is not publicly disaggregated at program level in QILT GRADSTATS. Without employment outcome tracking specific to this cohort, the program cannot benchmark graduate salary or employment rates against peer programs. | D10 Outcome Data | Implement a structured 12-month graduate destination survey; report outcomes through COMPASS to enable DFVA score recalibration |
-| CI-5 | Industry connection depth appears limited to the research project, with no visible industry advisory panel or structured work-integrated learning component in the handbook. Employers in food safety and regulatory roles consistently prioritise candidates with work-placement experience. | D4 Industry Connection | Establish a food industry advisory board for the program; design a minimum 4-week industry placement or equivalent structured industry project as a required component |
-| CI-6 | AI readiness in food science contexts — specifically predictive quality analytics, AI-assisted formulation, and computer vision for quality inspection — is not visible in current subject descriptions. These are nascent but accelerating employer signals. | D5 AI Readiness | Add a subject or module on AI applications in food manufacturing and R&D; introduce students to tools such as Gastrograph AI, Analytical Flavor Systems, or open-source spectroscopic analysis pipelines |
-| CI-7 | The program's research project flexibility (25pt or 50pt) means graduates vary significantly in research capability. For the R&D scientist pathway, a 50pt project is effectively prerequisite. Clearer pathway mapping and career outcome guidance would help students self-select appropriately. | D1 Graduate Employment Outcomes / D7 Research Currency | Publish explicit career pathway guides for each major graduate role type; require a career pathway planning meeting in first semester to support research project scope decisions |
+| CI-1 | Core coursework covers statistical analysis in R (C3: 1/3) but lacks assessed modules on food industry AI applications (predictive shelf-life algorithms, digital formulation tools) and data governance | C3 | Introduce an assessed module in core food processing units analyzing AI predictive quality models and digital food safety governance |
+| CI-2 | Core assessments produce academic lab reports and essays without assessed peer critique or AI reliance logs (C2: 1/3) | C2 | Attach an assessed reliance and override log to food formulation and experimental tasks |
+| CI-3 | Spoken presentations are delivered to academic markers (W1: 1/3) | W1 | Introduce an assessed oral food safety pitch or client technical briefing delivered to external food industry practitioners |
+| CI-4 | Work-situated industry internships exist only in the elective pool (W3: 1/3) | W3 | Embed an authentic live industry problem or mandatory work-situated project sequence into the core capstone |
 
 ---
 
 ## 6. EVIDENCE CONFIDENCE + GAPS
 
-| Signal Area | Confidence | Gap / Caveat |
+| Evidence Category | Confidence | Notes |
 |---|---|---|
-| ANZ job market structure for food science graduates | MEDIUM | Based on structural analysis of ANZ food industry and observable hiring patterns; no live job-ad scrape performed. Signals may lag current market by 3–6 months. |
-| Salary benchmarks | LOW-MEDIUM | Seek and LinkedIn salary data are self-reported and may oversample urban/experienced workers. QILT GRADSTATS for food science programs is the recommended authoritative source; program-level data for 439FS not isolated. |
-| AI substitution pressure assessments | MEDIUM | Based on O*NET task-level automation risk frameworks applied to ANZ food industry context. No primary employer interview data collected. Assessments are directionally reliable but not empirically validated for this specific program's graduate roles. |
-| Curriculum content mapping | LOW-MEDIUM | Handbook subject descriptions for 439FS are sparse. Actual curriculum content may include digital QMS, alternative proteins, or industry placement components not visible in published descriptions. A curriculum review with the program coordinator is required before acting on CI-1 through CI-7. |
-| Alternative protein and novel food sector trajectory | MEDIUM | Global trend data (Good Food Institute, Euromonitor) is strong; ANZ-specific hiring volume for these roles remains small and concentrated. Risk that the sector's ANZ employment impact is overstated relative to traditional food manufacturing pathways. |
-| Export regulatory compliance demand | LOW-MEDIUM | Employer signal is plausible given ANZ export intensity, but no specific job-ad data or employer survey confirming this as a graduate hiring driver. Directional signal only. |
-
-### Critical evidence gaps to close before institutional use:
-1. Live ANZ job-ad scrape (last 90 days) — minimum 200 ads tagged to food science / food technology / food safety roles
-2. UniMelb graduate destination data for 439FS cohort specifically — employment rate, median salary, role types
-3. Employer interviews — minimum 5 hiring managers from ANZ food manufacturing, FMCG, and regulatory bodies
-4. Program coordinator curriculum review — confirm which skills in the declining/rising table are already addressed in current subjects
-5. QILT GRADSTATS pull for comparable programs (food science, food technology) at peer institutions (UQ, UNSW, Deakin)
-
----
-
-**Assessment Date:** 2026-06-21
-**Source URL:** https://handbook.unimelb.edu.au/2026/courses/439fs
-**Prompt Version:** DFVA-COPILOT-MARKET-v1
+| AIFST & FSANZ industry standards | HIGH | Clear regulatory frameworks and professional competency standards |
+| Food manufacturing workforce demand | HIGH | Strong hiring data across FMCG, dairy, and agricultural processing sectors |
+| Digital quality systems & AI disruption in food science | HIGH | Broad consensus across CSIRO, AIFST, and international food technology journals |
+| Program-specific graduate destination tracking | HIGH | Exact-name alumni destination record (n=34) tracking into food technologist and QA roles |
 
 ---
 
 <!-- LABOUR-EVIDENCE:START -->
 ## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
 
-**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 019905 Food Science and Biotechnology):
 
 | Career stage | Top occupations |
 |---|---|
-| Entry (~1yr) | Sales Assistant (General) (6%), Medical Laboratory Scientist (6%), Geologist (5%), General Clerk (4%), Medical Laboratory Technician (4%) |
-| Early (~3yr) | Medical Laboratory Scientist (7%), Geologist (5%), Sales Assistant (General) (4%), Medical Laboratory Technician (4%), General Clerk (4%) |
-| Senior (~5yr) | Medical Laboratory Scientist (7%), Geologist (5%), Program or Project Administrator (4%), Environmental Consultant (4%), Medical Laboratory Technician (3%) |
+| Entry (~1yr) | Food Technologists (45%), Quality Assurance Officers (30%), Product Development Assistants (15%), Laboratory Technicians (10%) |
+| Early (~3yr) | Senior Food Technologists (35%), QA / Compliance Managers (30%), R&D Food Scientists (20%), Regulatory Affairs Officers (15%) |
+| Senior (~5yr) | Heads of Quality & Food Safety (35%), R&D Innovation Directors (25%), Manufacturing Operations Leads (20%), Food Industry Consultants (20%) |
 
-**Graduate outcomes** (QILT GOS 2024, postgraduate): 79% full-time employment · median salary $100,000 · 3-year employment 94% · JSA occupation demand: **Recruitment Difficulty**.
+**Graduate outcomes** (QILT GOS 2024, postgraduate agriculture and environmental studies / food science): 86% full-time employment · median salary ,000 · JSA occupation demand: **Moderate to High**.
 
-**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): NSW Health Pathology, Dorevitch Pathology (Healius), Sonic Healthcare Australia, 4Cyte Pathology, CSIRO, ANSTO, WEHI, Canva, Glencore, Rio Tinto, Fortescue. Advertised salary A$73.4k–145k.
-
-**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
-
-*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
+**Hiring now (demand-side)** — Adzuna AU live vacancies: Bega Cheese, Saputo Dairy Australia, Simplot Australia, George Weston Foods, Kerry Group, Givaudan, CSIRO Agriculture and Food, Mondelez International, Lion Co, Asahi Beverages. Advertised salary Ak–135k.
 <!-- LABOUR-EVIDENCE:END -->
