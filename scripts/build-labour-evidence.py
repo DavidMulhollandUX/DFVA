@@ -7,6 +7,14 @@ and a shared IBISWorld P8102 industry-context block.
 Destinations are FIELD-level (JSA HEO is by field of education) — labelled as such.
 Employers are DEMAND-side (live vacancies), merged from field_employers.json if present.
 Re-run after the Adzuna workflow writes field_employers.json to fill employers.
+
+NOTE: this writes data/labour-evidence.json only. Nothing injects the
+<!-- LABOUR-EVIDENCE --> block into reports/dfva-market-*.md — that markdown is
+canonical and hand-maintained, so after re-running this, update any report whose
+field or payload changed by hand. mc-urbhort currently ships with destinations and
+employers omitted because the broad-05 (Agriculture & Environment) cut has never
+been extracted; restoring scratch/au-jobinsights/ and re-running fills it here, and
+the report block then needs the same edit.
 """
 import json, re, os
 import pandas as pd
