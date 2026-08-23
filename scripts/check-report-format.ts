@@ -465,6 +465,14 @@ for (const file of V4_FILES) {
   if (/\d{1,2}\/36/.test(content)) issues.push('carries a v1 composite ("N/36") — forbidden in the v4 family')
   if (/Irreplaceability.*\d\/3|\bB:\s*\d\/3/.test(content)) issues.push('carries an Irreplaceability score — retired in v4')
 
+  // 7. No unfilled scaffold left behind. dfva-v4-report-scaffold.ts derives the
+  //    machine-checkable sections and marks §4/§5 for an author; a report still
+  //    carrying those marks would publish an empty market and implications
+  //    section that every other rule here would happily pass.
+  if (content.includes('TO BE AUTHORED') || /<!-- AUTHOR:S\d/.test(content)) {
+    issues.push('carries unfilled scaffold markers — §4/§5 still need authoring (scripts/dfva-v4-report-scaffold.ts)')
+  }
+
   if (issues.length) errors.push(...issues.map((i) => `${slug}: ${i}`))
 }
 

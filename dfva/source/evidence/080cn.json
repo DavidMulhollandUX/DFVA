@@ -122,6 +122,7 @@
     }
   },
   "panelCv4": {
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2's anchor — 'At least one core unit assesses collaborative practice — group projects with individual accountability, client or stakeholder work, interprofessional activity' — is met by assessed interprofessional work in two compulsory subjects: a marked group oral presentation in PSYC90033 that explicitly requires positioning neuropsychology against other disciplines, and a 25%-weighted assessment on the interdisciplinary Ways of Knowing activity in PSYC90125. Level 3 is not reached: it additionally requires 'at least one assessment requires coordinating work across people AND tools/AI systems', and no assessment anywhere in the extract allocates or appraises a division of work between people and tools or systems — the extract contains no gen-AI or tool-coordination assessment at all. Per the v4.1 migration note the placement evidence is held in W3 and is not counted here.",

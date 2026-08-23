@@ -1,0 +1,150 @@
+{
+  "code": "mc-envlaw",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 1,
+      "rationale": "Level 1 anchor: collaboration/teamwork appears in learning outcomes and graduate attributes, but no core unit assesses it. The graduate attributes claim 'Capacity to value and participate in teamwork', but the course structure specifies no compulsory core unit for all students (100 credit points total, with 87.5-100 credit points chosen from prescribed lists). The only group assessment documented in the extract sits in an elective under 'Further subjects related to course' (LAWS90248 AI and Justice: 'Group in-class presentation'), and the negotiation simulation in LAWS90114 is an elective marked 'Not available in 2026'. Because a student can complete the degree without taking any collaborative unit, level 2's requirement that at least one core unit assesses collaborative practice is not met. Coordinating work across people AND tools/AI systems is completely absent, so level 3 is unreachable.",
+      "evidenceLines": [
+        "Capacity to value and participate in teamwork",
+        "Small class sizes and an intensive teaching format are valuable in encouraging group dynamics and teamwork.",
+        "Group in-class presentation",
+        "Written country position paper/negotiation strategy for negotiation simulation",
+        "Students must complete 100 credit points in total.",
+        "Environmental Law subjects"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1 anchor: reflection appears in outcomes and graduate attributes, but no core unit assesses it against criteria. The course intended learning outcomes claim students 'analyse, critically reflect on and synthesise complex information', and graduate attributes claim the ability to evaluate and adapt existing knowledge. In individual subjects, LAWS90127 sets a 'Reflective / Research Essay' and LAWS70185 ILOs mention reflection on cultural water values. However, level 2 requires criterion-referenced appraisal of the quality of work (peer review, structured critique, portfolio with standards, marking against exemplars), none of which is documented in any assessment table in the extract. Disciplinary critique of law and policy is not evaluative judgement of work quality. No assessment requires documenting or justifying reliance decisions on tools, collaborators or AI outputs, so level 3 fails.",
+      "evidenceLines": [
+        "analyse, critically reflect on and synthesise complex information, concepts and theories in the field of environmental law",
+        "Ability to investigate, evaluate, synthesise and apply existing knowledge in the relevant area(s) with creativity and initiative",
+        "Reflective / Research Essay",
+        "Reflect upon and critically evaluate issues around cultural water values and indigenous peoples’ rights to water."
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor: AI or digital tools appear only as electives or as tool operation/training. The only program-level technology statement is a graduate attribute regarding IT infrastructure availability in the Law Library and classrooms — operational infrastructure access, not curricular capability. AI governance content is present in the syllabus of LAWS90248 AI and Justice, but that subject is an elective listed under 'Further subjects related to course', not a core unit. Level 2 requires core units to address AI capabilities AND limitations/ethics with use-with-limits assessed; there are no core units in which this is documented, and none of the Environmental Law prescribed subjects contains AI content. Core assessment of AI critique or governance (level 3) is absent.",
+      "evidenceLines": [
+        "Advanced working skills in the use of new technology",
+        "The most advanced IT infrastructure is available to Melbourne Law Masters students in the Law Library, the Moot Court Room, classroom settings and for private study.",
+        "LAWS90248\tAI and Justice",
+        "AI and Justice (LAWS90248)",
+        "Further subjects related to course"
+      ]
+    },
+    "C4": {
+      "score": 1,
+      "rationale": "Level 1 anchor: transfer is claimed in outcomes ('apply existing law in the rapidly evolving legal context', 'adaptability and responsibility', 'flexibility of approach') but not assessed in a required core unit. Level 2 requires at least one core assessment demanding application to novel or unfamiliar problems, but the degree prescribes a credit volume from subject lists without compulsory core units for all students. Level 3 requires structured progression toward independent learning through a self-scoped capstone or research project. While self-scoped research papers on coordinator-approved topics appear across elective prescribed subjects, the program documents no structured progression: subjects are standalone intensives without prerequisite chains, there is no capstone, and the Minor Thesis is explicitly excluded from the degree.",
+      "evidenceLines": [
+        "the capacity to identify new laws and/or apply existing law in the rapidly evolving legal context for environmental law",
+        "research and apply such information, concepts and theories to the relevant body of knowledge and practice",
+        "Apply their knowledge and skills, as a practitioner and learner in the field of environmental law, to demonstrate:",
+        "adaptability and responsibility .",
+        "Research paper on a topic approved by the subject coordinator",
+        "Well-developed problem solving abilities, characterised by flexibility of approach"
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 1 anchor: literature-review and secondary scholarship assessment. Substantial assessed research papers (4,000–7,500 words on coordinator-approved topics) are documented across prescribed subjects (worth 70–85% of subject marks), and graduate attributes state research skills are tested in subject assessment. This satisfies level 1's scholarship/literature research anchor. Level 2 requires students to design and conduct an inquiry with methodology selection and data collection, assessed; the research papers in the extract are doctrinal secondary legal scholarship with no empirical data collection or methodology selection documented. Level 3 fails because a primary-evidence project is not required across the degree (several subjects set take-home examinations, and the Minor Thesis is excluded), and no viva or methodology defence under scrutiny is documented.",
+      "evidenceLines": [
+        "Advanced competencies in legal research and analysis",
+        "Class preparation and class discussions are designed to enhance these skills, which are tested in all forms of assessment. All graduates of an LLM will have demonstrated, through subject assessment, the ability to use their research skills to plan, develop and execute substantial research-based project(s) and/or piece(s) of scholarship.",
+        "Appreciation of the design, conduct and reporting of original research",
+        "Research papers and other research tasks are expected to attain a degree of creativity, originality and discovery that befits a postgraduate program of the highest quality, and students are encouraged and assisted to publish original work of a high standard in refereed journals.",
+        "Research paper on a topic approved by the subject coordinator",
+        "Option 1: Take-home examination",
+        "Take-home examination"
+      ]
+    },
+    "adaptiveness": 5,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1 anchor: communication appears in outcomes and graduate attributes, and spoken presentation to peers/staff is assessed across subjects, but no professional genre or audience beyond the teaching team is core-assessed. Program ILOs and graduate attributes claim communication of complex ideas to a variety of audiences, and assessed oral presentations to peers and teaching staff are pervasive across prescribed subjects (e.g. LAWS70100 25%, LAWS70185 10% oral, LAWS70219 20%, LAWS70293 10%, LAWS90115 15%, LAWS90127 20%, LAWS90147 10%, LAWS90168 20%, LAWS90248 15%). Professional genres appear in elective options (LAWS70349 Advisory report, LAWS90352 Legal Research Brief), but no subject is compulsory for all students, and no external audience or practice-derived assessment criteria are documented. Barrie's rule (R2) bars scoring stated attributes.",
+      "evidenceLines": [
+        "Capacity to effectively communicate complex legal ideas and theories, orally and in writing, to a variety of audiences",
+        "Classroom discussion and formal presentations provide an opportunity to hone oral communication skills, and written assessment tasks are graded in part on written communication skills.",
+        "interpret and transmit their knowledge, skills and ideas to specialist and non-specialist audiences",
+        "Class Presentation",
+        "In-class presentation (maximum 8 mins)",
+        "Advisory report",
+        "Legal Research Brief"
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Level 1 anchor: contextualised or scenario-framed tasks appear, but the artefacts produced and criteria applied remain academic. The program documents problem-based framing reaching assessment tasks ('Most subjects approach knowledge by reference to various issues or problems... through class discussion, individual study and assessment tasks'), and explicit case-study and scenario tasks are assessed (LAWS70100 case study assignment, LAWS90088 case study evaluation, LAWS90114 negotiation strategy). However, the dominant assessed artefacts across the degree remain academic: 4,000–7,500 word research papers and 3,000–5,000 word take-home examinations marked by the teaching team. Level 2 requires reproducing a professional task end-to-end judged against criteria drawn from practice in a core unit; the professional-genre tasks (Advisory report in LAWS70349, Legal Research Brief in LAWS90352) are elective options lacking documented practice criteria. Per R4, labels of practical relevance are not scored.",
+      "evidenceLines": [
+        "Well-developed problem solving abilities, characterised by flexibility of approach",
+        "Most subjects approach knowledge by reference to various issues or problems. Students are required to critically analyse problems and identify and develop a range of appropriate solutions through class discussion, individual study and assessment tasks.",
+        "Case study assignment (presentations & written assignment)",
+        "Case study evaluation; In-class component – case study and class participation (10%) and write up (15%)",
+        "Written country position paper/negotiation strategy for negotiation simulation",
+        "Research paper on a topic approved by the subject coordinator",
+        "Take-home examination"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1 anchor: work-situated learning exists only as an optional internship. The course structure lists LAWS70067 International Legal Internship under 'Further subjects related to course' as an elective that students may choose, but is never mandatory. Level 2's placement route requires a core unit placing students in a workplace setting with practitioner supervision and assessment; no core unit in the program provides a placement, practicum or live client project. The v4.2 in-practice route does not apply: the overview describes relevance to professionals and practitioners as well as those with general interest, but the cohort is not documented as already practising professionals, and no core unit assesses activity conducted in a student's own practice with real recipients and an outcome measure. All subjects carry a standard 75% on-campus attendance hurdle.",
+      "evidenceLines": [
+        "LAWS70067\tInternational Legal Internship",
+        "Further subjects related to course",
+        "The specialisation in environmental law provides students with expertise in a dynamic area of law that will continue to grow in importance. The course is of particular relevance to people working in environmental and resources sectors, professionals in government, legal practitioners and those with a broader philosophical or practical interest. The subjects are focused on emerging national and international legal issues and practices, such as in water law, climate change law, animal law, waste management and general planning and development. Other areas include the negotiation of international environmental treaties and the laws surrounding international ‘commons’ areas such as Antarctica, the high seas and outer space.",
+        "Hurdle requirement: A minimum of 75% attendance is required.\tThroughout the teaching period\tN/A"
+      ]
+    },
+    "workplace": 3,
+    "gates": {
+      "G1": {
+        "result": "FAIL",
+        "rationale": "The G1 PASS condition requires a documented coherent specialist core with progressive technical or methodological depth via an all-compulsory specialist core, an accredited sequence, or a staged prerequisite chain. The extract documents none of the three. (a) No all-compulsory specialist core: students with a law degree have zero compulsory subjects and 12.5 credit points of free choice from across the Master of Laws, so an eighth of the degree is interchangeable; the one compulsory subject (Fundamentals of the Common Law) applies only to non-common-law entrants and is a generic MLM legal-method subject, not environmental law. (b) No accredited sequence: no professional accreditation is documented anywhere in the extract. (c) No staged prerequisite chain: all prescribed subjects are standalone 12.5-point level-7 intensives with no prerequisite chain, sequencing or capstone. Furthermore, the prescribed lists include generic non-environmental subjects under 'Further subjects related to course' (e.g. Construction Law, Construction Risk). Precedent in 504aa, 507aa, 526aa, and 502cw binds.",
+        "evidenceLines": [
+          "Students must complete 100 credit points in total.",
+          "Subject options",
+          "Environmental Law subjects",
+          "Further subjects related to course",
+          "LAWS70176\tConstruction Law",
+          "LAWS70149\tConstruction Risk"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "The FAIL condition (recall or scripted responses only) is contradicted by the documented assessment across the extract. Core and prescribed subjects assess 4,000–7,500 word research papers, 3,000–5,000 word take-home examinations, advisory reports, and case-study evaluations. The program documents at graduate attribute level that students must critically analyse problems and develop a range of appropriate solutions through assessment tasks. Subject learning outcomes require evaluating complex trade-offs under high scientific and socio-economic uncertainty (e.g. assessing regulatory efficacy and the precautionary principle in LAWS70100, inter-jurisdictional water conflicts in LAWS70185, carbon pricing vs direct action in LAWS70293, urban sprawl and land use trade-offs in LAWS70349, and toxics/PFAS governance under scientific uncertainty in LAWS90352).",
+        "evidenceLines": [
+          "Most subjects approach knowledge by reference to various issues or problems. Students are required to critically analyse problems and identify and develop a range of appropriate solutions through class discussion, individual study and assessment tasks.",
+          "Take-home examination",
+          "Research paper on a topic approved by the subject coordinator",
+          "Advisory report",
+          "Case study assignment (presentations & written assignment)",
+          "Have a sound general knowledge of the concepts of environmental law and be able to assess the efficacy of the principles of environmental regulation"
+        ]
+      }
+    },
+    "ambiguities": [
+      "Structural ambiguity across all items: the course structure prescribes a credit volume from subject lists (87.5-100 cp) rather than named compulsory subjects. For law degree holders there are zero compulsory subjects; for non-law degree holders only Fundamentals of the Common Law is compulsory. Every level-2 or level-3 anchor requiring that 'a core unit assesses' or that practice recurs 'across the program' is therefore constrained by the absence of a compulsory specialist core, and subjects from prescribed lists were treated as electives per the scoring-direction rule.",
+      "C1 straddled 1 and 2: assessed group presentation is documented in LAWS90248 AI and Justice (15%) and negotiation simulation strategy in LAWS90114 (15%), which would satisfy level 2 if prescribed subjects counted as core. Resolved down to 1 because LAWS90248 is an elective in 'Further subjects', LAWS90114 is marked 'Not available in 2026', and a student can complete the degree without taking any collaborative unit.",
+      "C2 straddled 0 and 1: the course ILO claims students 'critically reflect on' complex information, but this is reflection on subject doctrine rather than appraisal of the quality of work. Scored 1 because reflection is explicitly claimed in program ILOs; no move to 2 is possible because no peer review, structured critique rubric, portfolio with standards, or marking against exemplars exists in the extract.",
+      "C3: LAWS90248 AI and Justice contains substantive AI governance content (automated decision-making, algorithmic bias, transparency, privacy, and regulatory design) that would read as level 3 material if it were core and assessed. Resolved down to 1 because LAWS90248 is an optional elective in 'Further subjects related to course', and no core unit addresses AI.",
+      "C4 straddled 1 and 3 on self-scoped research papers: 4,000-7,500 word research papers on coordinator-approved topics appear across prescribed subjects. Resolved down to 1 because level 3 requires documented structured progression toward independent learning, whereas the extract documents standalone intensives with no prerequisite chain, no capstone, and the Minor Thesis is explicitly excluded.",
+      "C5 straddled 1 and 2: substantial research papers (4,000-7,500 words) are assessed at 70-85% weight across the prescribed list, but the papers are secondary doctrinal legal scholarship without assessed data collection or empirical methodology selection. Level 3 fails because research papers are not universally required (several subjects set take-home exams) and no viva or methodology defence under scrutiny is documented. Scored 1.",
+      "W1 straddled 0 and 1: class presentations and spoken participation are assessed across most prescribed subjects (LAWS70100, LAWS70185, LAWS70219, LAWS70293, LAWS90115, LAWS90127, LAWS90147, LAWS90168, LAWS90248), but none of these subjects is compulsory for all students. Scored 1 based on program-level graduate attributes and pervasive presentation assessment across the prescribed offerings. Professional genres in electives (Advisory report in LAWS70349, Legal Research Brief in LAWS90352) cannot lift to level 2 because they are electives lacking documented practice criteria.",
+      "W2 straddled 1 and 2: problem-based framing and case-study evaluations appear across subjects, but dominant assessed artefacts (research papers, take-home exams) remain academic. Professional artefacts in electives lack documented practice criteria. Scored 1.",
+      "W3 straddled 1 and 2 on the v4.2 in-practice route: the overview mentions relevance to professionals and practitioners, but the cohort is not documented as already practising professionals, and no assessment is conducted in a student's own practice with real recipients or an outcome measure. Optional internship LAWS70067 caps at level 1.",
+      "G1 FAIL: the program has high specialist topical breadth in environmental law, but the G1 PASS condition requires a documented all-compulsory specialist core, an accredited sequence, or a staged prerequisite chain. None of the three is documented in the extract, matching precedent in 504aa, 507aa, 526aa, and 502cw."
+    ],
+    "notScoreable": [
+      "Fundamentals of the Common Law (LAWS70217) — the only compulsory subject (for non-common-law entrants) — has no subject or assessment page in the extract, so its assessment design could not be directly inspected.",
+      "International Legal Internship (LAWS70067) has no subject or assessment page in the extract, so its duration, supervision, and assessment design are unknown beyond its listing as an optional subject in the course structure.",
+      "Assessment criteria, rubrics, and marking standards are not published in the handbook extract for any subject, so criterion-referenced appraisal (C2) and practice-derived criteria (W1/W2) could not be tested directly."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-23"
+    }
+  }
+}

@@ -875,6 +875,176 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "note": "Professional psychology stream; same program-family record the reconciliation package used for 527cl."
     }
   },
+  "mc-actsc": {
+    "code": "mc-actsc",
+    "name": "Master of Actuarial Science",
+    "hasMarketReport": true,
+    "exposure": 97.99,
+    "entryExposure": 97.94,
+    "jirN": 101,
+    "nTitles": 15,
+    "nMedium": 6,
+    "exposureBasis": {
+      "tier": "cognate",
+      "grain": "related-program",
+      "sources": [
+        {
+          "name": "Bachelor of Commerce (Actuarial Studies)",
+          "n": 101
+        }
+      ],
+      "indexVariant": "AIOE-2021",
+      "note": "Actuarial discipline; the only actuarial alumni record (docs/JIR/dfva_jir_map.json named it for mc-actsc)."
+    }
+  },
+  "mc-bamktg": {
+    "code": "mc-bamktg",
+    "name": "Master of Business Administration (Marketing)",
+    "hasMarketReport": true,
+    "exposure": 91.73,
+    "entryExposure": 95.09,
+    "jirN": 422,
+    "nTitles": 15,
+    "nMedium": 9,
+    "exposureBasis": {
+      "tier": "variant",
+      "grain": "program",
+      "sources": [
+        {
+          "name": "Master of Business Administration",
+          "n": 422
+        }
+      ],
+      "indexVariant": "AIOE-2021",
+      "note": "variant of \"Master of Business Administration\""
+    }
+  },
+  "mc-bmedsc": {
+    "code": "mc-bmedsc",
+    "name": "Master of Biomedical Science",
+    "hasMarketReport": true,
+    "exposure": 82.09,
+    "entryExposure": 79.22,
+    "jirN": 380,
+    "nTitles": 48,
+    "nMedium": 32,
+    "exposureBasis": {
+      "tier": "cognate",
+      "grain": "related-program",
+      "sources": [
+        {
+          "name": "Bachelor of Biomedicine (Human Structure and",
+          "n": 90
+        },
+        {
+          "name": "Bachelor of Biomedicine (Neuroscience)",
+          "n": 113
+        },
+        {
+          "name": "Bachelor of Biomedicine (Pathology)",
+          "n": 57
+        },
+        {
+          "name": "Bachelor of Biomedicine (Pharmacology)",
+          "n": 55
+        },
+        {
+          "name": "Bachelor of Biomedicine (Physiology)",
+          "n": 65
+        }
+      ],
+      "indexVariant": "AIOE-2021",
+      "note": "dfva_jir_map 'Bachelor of Biomedicine majors': union of the seven major records.",
+      "excludedSources": [
+        {
+          "name": "Bachelor of Biomedicine (Immunology)",
+          "refusedTitles": [
+            "Scientist"
+          ]
+        },
+        {
+          "name": "Bachelor of Biomedicine (Microbiology)",
+          "refusedTitles": [
+            "Regulatory Reporting Analyst"
+          ]
+        }
+      ]
+    }
+  },
+  "mc-climsci": {
+    "code": "mc-climsci",
+    "name": "Master of Climate Science",
+    "hasMarketReport": true,
+    "exposure": 83.13,
+    "entryExposure": 75.79,
+    "jirN": 32,
+    "nTitles": 15,
+    "nMedium": 9,
+    "exposureBasis": {
+      "tier": "cognate",
+      "grain": "related-program",
+      "sources": [
+        {
+          "name": "Master of Environmental Science",
+          "n": 32
+        }
+      ],
+      "indexVariant": "AIOE-2021",
+      "note": "Closest discipline-matched record."
+    }
+  },
+  "mc-envlaw": {
+    "code": "mc-envlaw",
+    "name": "Master of Environmental Law",
+    "hasMarketReport": true,
+    "exposure": 94.83,
+    "entryExposure": 94.15,
+    "jirN": 676,
+    "nTitles": 15,
+    "nMedium": 6,
+    "exposureBasis": {
+      "tier": "partial",
+      "grain": "related-program",
+      "sources": [
+        {
+          "name": "Master of Laws",
+          "n": 676
+        }
+      ],
+      "indexVariant": "AIOE-2021",
+      "note": "Environmental Law is a Melbourne Law Masters specialisation; the Master of Laws record (n=676) is the program-family record, as the reconciliation package did for specialisation streams."
+    }
+  },
+  "mc-indeng": {
+    "code": "mc-indeng",
+    "name": "Master of Industrial Engineering",
+    "hasMarketReport": true,
+    "exposure": 88.8,
+    "entryExposure": 87.96,
+    "jirN": 113,
+    "nTitles": 26,
+    "nMedium": 15,
+    "exposureBasis": {
+      "tier": "partial",
+      "grain": "related-program",
+      "sources": [
+        {
+          "name": "Master of Mechanical Engineering",
+          "n": 24
+        },
+        {
+          "name": "Master of Engineering Management",
+          "n": 89
+        }
+      ],
+      "indexVariant": "AIOE-2021",
+      "note": "dfva_jir_map: mechanical engineering / engineering management family.",
+      "dominantShare": {
+        "name": "Master of Engineering Management",
+        "share": 0.79
+      }
+    }
+  },
   "mc-mgmthre": {
     "code": "mc-mgmthre",
     "name": "Master of Management (Human Resources)",
@@ -1557,6 +1727,18 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "indexVariant": "AIOE-2021",
     "note": "Professional psychology stream; same program-family record the reconciliation package used for 527cl."
   },
+  "mc-actsc": {
+    "tier": "cognate",
+    "grain": "related-program",
+    "sources": [
+      {
+        "name": "Bachelor of Commerce (Actuarial Studies)",
+        "n": 101
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "Actuarial discipline; the only actuarial alumni record (docs/JIR/dfva_jir_map.json named it for mc-actsc)."
+  },
   "mc-apbusa": {
     "tier": "partial",
     "grain": "related-program",
@@ -1591,6 +1773,18 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     ],
     "indexVariant": "AIOE-2021"
   },
+  "mc-bamktg": {
+    "tier": "variant",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Business Administration",
+        "n": 422
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "variant of \"Master of Business Administration\""
+  },
   "mc-base": {
     "tier": "partial",
     "grain": "related-program",
@@ -1603,6 +1797,48 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "indexVariant": "AIOE-2021",
     "note": "Reconciliation package tier partial."
   },
+  "mc-bmedsc": {
+    "tier": "cognate",
+    "grain": "related-program",
+    "sources": [
+      {
+        "name": "Bachelor of Biomedicine (Human Structure and",
+        "n": 90
+      },
+      {
+        "name": "Bachelor of Biomedicine (Neuroscience)",
+        "n": 113
+      },
+      {
+        "name": "Bachelor of Biomedicine (Pathology)",
+        "n": 57
+      },
+      {
+        "name": "Bachelor of Biomedicine (Pharmacology)",
+        "n": 55
+      },
+      {
+        "name": "Bachelor of Biomedicine (Physiology)",
+        "n": 65
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "dfva_jir_map 'Bachelor of Biomedicine majors': union of the seven major records.",
+    "excludedSources": [
+      {
+        "name": "Bachelor of Biomedicine (Immunology)",
+        "refusedTitles": [
+          "Scientist"
+        ]
+      },
+      {
+        "name": "Bachelor of Biomedicine (Microbiology)",
+        "refusedTitles": [
+          "Regulatory Reporting Analyst"
+        ]
+      }
+    ]
+  },
   "mc-busana": {
     "tier": "partial",
     "grain": "related-program",
@@ -1614,6 +1850,18 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     ],
     "indexVariant": "AIOE-2021",
     "note": "Reconciliation package tier partial."
+  },
+  "mc-climsci": {
+    "tier": "cognate",
+    "grain": "related-program",
+    "sources": [
+      {
+        "name": "Master of Environmental Science",
+        "n": 32
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "Closest discipline-matched record."
   },
   "mc-clind": {
     "tier": "exact",
@@ -1715,6 +1963,18 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     ],
     "indexVariant": "AIOE-2021"
   },
+  "mc-envlaw": {
+    "tier": "partial",
+    "grain": "related-program",
+    "sources": [
+      {
+        "name": "Master of Laws",
+        "n": 676
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "Environmental Law is a Melbourne Law Masters specialisation; the Master of Laws record (n=676) is the program-family record, as the reconciliation package did for specialisation streams."
+  },
   "mc-envsc": {
     "tier": "exact",
     "grain": "program",
@@ -1736,6 +1996,26 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
       }
     ],
     "indexVariant": "AIOE-2021"
+  },
+  "mc-indeng": {
+    "tier": "partial",
+    "grain": "related-program",
+    "sources": [
+      {
+        "name": "Master of Mechanical Engineering",
+        "n": 24
+      },
+      {
+        "name": "Master of Engineering Management",
+        "n": 89
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "dfva_jir_map: mechanical engineering / engineering management family.",
+    "dominantShare": {
+      "name": "Master of Engineering Management",
+      "share": 0.79
+    }
   },
   "mc-intedib": {
     "tier": "partial",
@@ -2103,6 +2383,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     "instrument": "4.1-draft"
   },
   "080cl": {
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2's anchor ('at least one core unit assesses collaborative practice — ... interprofessional activity') is satisfied by the compulsory Ways of Knowing component inside PSYC90125 Core Skills in Psychological Practice, whose interprofessional learning is assessed for marks (25% and 5% written reflections), not merely stated. Level 3 is not reached: it additionally requires at least one assessment that requires coordinating work across people AND tools/AI systems, and no assessment anywhere in the extract allocates or appraises a division of work between people and systems — the extract contains no AI or digital-system content at all. Placement collaboration evidence is excluded here by the one-construct-one-home rule and scores in W3.",
@@ -2245,10 +2526,10 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "adversarial": true,
       "mechanical": true,
       "date": "2026-08-23"
-    },
-    "instrument": "4.1-draft"
+    }
   },
   "080cn": {
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2's anchor — 'At least one core unit assesses collaborative practice — group projects with individual accountability, client or stakeholder work, interprofessional activity' — is met by assessed interprofessional work in two compulsory subjects: a marked group oral presentation in PSYC90033 that explicitly requires positioning neuropsychology against other disciplines, and a 25%-weighted assessment on the interdisciplinary Ways of Knowing activity in PSYC90125. Level 3 is not reached: it additionally requires 'at least one assessment requires coordinating work across people AND tools/AI systems', and no assessment anywhere in the extract allocates or appraises a division of work between people and tools or systems — the extract contains no gen-AI or tool-coordination assessment at all. Per the v4.1 migration note the placement evidence is held in W3 and is not counted here.",
@@ -2381,8 +2662,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "adversarial": true,
       "mechanical": true,
       "date": "2026-08-23"
-    },
-    "instrument": "4.1-draft"
+    }
   },
   "097ab": {
     "instrument": "4.2-draft",
@@ -2976,6 +3256,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "300bb": {
+    "instrument": "4.2-draft",
     "C1": {
       "score": 0,
       "rationale": "Level 0's anchor — 'No collaborative, stakeholder or team-based work is assessed anywhere in the core' — is affirmatively satisfied. The extract carries the complete assessment set for all four compulsory subjects plus the thesis, and every task is an individually authored artefact (problem statement, position paper, literature review, essay, proposal, plan, thesis) or an individual oral defence. Level 1 is not reached either: no course or subject learning outcome and no generic-skills entry names collaboration, teamwork or stakeholder work. The only recurring second party is the candidate's own supervisor, and supervision of an individual research candidature is not collaborative practice under the construct (coordination across people AND tools/AI systems); no tool or AI system is coordinated anywhere.",
@@ -3132,8 +3413,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "adversarial": true,
       "mechanical": true,
       "date": "2026-08-23"
-    },
-    "instrument": "4.1-draft"
+    }
   },
   "305bb": {
     "instrument": "4.2-draft",
@@ -6760,6 +7040,149 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "date": "2026-08-23"
     }
   },
+  "mc-actsc": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 1,
+      "rationale": "Level 1 anchor: collaboration appears in outcomes but no core unit assesses it. The graduate attributes claim teamwork, but every assessment table for the six compulsory core subjects and the two capstones (ACTL90001/2/3, ACTL90006/7, ACTL90021, ACTL90005, ACTL90020) lists only individual assignments, mid-semester tests and end-of-semester exams. The one documented group task sits in ACCT90042, which the structure page lists under ELECTIVE SUBJECTS as one of two 'recommended for Professional Accreditation exemptions' - not core - so the level-2 anchor ('at least one core unit assesses collaborative practice') is unmet. No evidence anywhere of coordinating work across people AND tools/AI systems, so level 3 is out of reach.",
+      "evidenceLines": [
+        "Able to collaborate and be effective in team work.",
+        "Group project (4000 words equivalent, in groups of 3-4 students)",
+        "Two elective subjects (25 points) approved by the Program Director.",
+        "The following two electives are recommended for Professional Accreditation exemptions:",
+        "Individual Assignment 1",
+        "Mid-semester test",
+        "End-of-semester exam"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1 anchor: appraisal of the quality of work is claimed at outcome and graduate-attribute level but no core unit assesses it against criteria. The course ILOs claim judgement about model suitability and critical evaluation of models and literature, and core subject ACTL90021 claims critical review of stochastic models - but ACTL90021's assessment is an individual assignment plus two closed exams, and no core assessment anywhere is documented as peer review, structured critique, portfolio against standards or marking against exemplars, which the level-2 anchor requires. No documented reliance/override justification or process-focused assessment, so level 3 is out of reach (R2).",
+      "evidenceLines": [
+        "Assess the suitability of actuarial, financial and economic models in solving actuarial problems.",
+        "Advanced in their use, critical evaluation and testing of actuarial models.",
+        "Interpret and critically evaluate articles in the actuarial research literature.",
+        "Critically review simple stochastic models for investment returns.",
+        "Individual Assignment",
+        "Mid-Semester Exam",
+        "End-of-Semester Exam"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor: digital/AI content is present but at the tool-operation level, or confined to electives. Core subject ACTL90007 carries one machine-learning ILO ('elementary principles'), and 'use of computer software' recurs as a generic skill across the core - operation, not the critical understanding TEQSA names. The level-2 anchor requires core units to address AI capabilities AND limitations/ethics with use limits assessed; the only documented capability/limitation comparison ('benefits/drawbacks of competing models') is in ACTL90023, an elective. Nothing in the extract addresses bias, accountability, transparency, regulation or data governance, so level 3 is not reachable.",
+      "evidenceLines": [
+        "Explain and apply elementary principles of machine learning.",
+        "The use of software packages applicable to actuarial and statistical modelling;",
+        "Use of computer software",
+        "Compare benefits/drawbacks of competing models and methods, relevant to real problems.",
+        "The following two electives are recommended for Professional Accreditation exemptions:"
+      ]
+    },
+    "C4": {
+      "score": 1,
+      "rationale": "Level 1 anchor: transfer is claimed in outcomes but not assessed. The course ILOs claim independent work with personal accountability, creativity and initiative in applying knowledge, and executing 'a project requiring research or a real-world application' - but no core or capstone assessment is documented as requiring application to novel or unfamiliar problems (level 2): the two capstone subjects, ACTL90005 and ACTL90020, are assessed by fixed-length individual assignments and hurdle exams, with no unseen dataset, case variation or cross-context project described. The level-3 anchor's self-scoped capstone or assessed identification of one's own knowledge gaps is absent; the subjects labelled 'capstone' carry no self-scoping in their documented assessment (R2).",
+      "evidenceLines": [
+        "Execute a project requiring research or a real-world application.",
+        "Demonstrate creativity and initiative in application of knowledge to problem solving and innovation.",
+        "Demonstrate a capacity to successfully work independently with personal accountability.",
+        "Individual Assignment 1",
+        "End-of-semester examination",
+        "Hurdle requirement: Students must pass the final exam to pass the subject."
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 1 anchor: introductory methods training is documented (data sources and the conduct of data analysis in core ACTL90001; estimation procedures and maximum-likelihood estimation in core ACTL90006; applying forecasting models to a supplied mortality dataset in core ACTL90007), and research is claimed only as information retrieval in the generic skills. The level-2 anchor requires students to design AND conduct an inquiry with methodology selection and data collection, assessed - the extract documents modelling of datasets that are supplied, never student data collection or a documented methodology-selection task, and the assessment tables give no inquiry brief. No required primary-evidence project defended under scrutiny, so level 3 is out of reach.",
+      "evidenceLines": [
+        "Describe sources of data, the aims and conducting of data analysis, and the principles of actuarial modelling in the solution of a range of practical problems;",
+        "Research including the retrieval of information from a variety of sources.",
+        "Interpret and critically evaluate articles in the actuarial research literature.",
+        "Describe the approaches to forecasting mortality rates, including the Lee-Carter, age-period-cohort and p-spline regression models, and, using a computer package, apply these models to a mortality dataset.",
+        "Individual Assignment 1"
+      ]
+    },
+    "adaptiveness": 5,
+    "W1": {
+      "score": 0,
+      "rationale": "Level 0 anchor: all core assessment is in academic genres addressed to the marker, and no professional-genre or spoken communication is assessed. Every assessment table across the six core subjects and both capstones lists only written assignments of stated word counts, mid-semester tests and hurdle end-of-semester exams. The discriminator between level 0 and level 1 is whether core assessment adds a presentation to peers or staff; none is documented. Written and oral communication 'to peers and the wider community' appears in the generic skills and 'Independent and effective in communication of ideas' in the graduate attributes, but Barrie's constraint (R2) forbids scoring stated attributes: the only documented spoken/professional-genre task in the extract is a video presentation inside BUSA90525, an optional elective. No professional genre and no audience beyond the teaching team, so level 2 is unmet.",
+      "evidenceLines": [
+        "Written and oral communication of actuarial ideas, theories and solutions to peers and the wider community; and",
+        "Independent and effective in communication of ideas.",
+        "Individual Assignment 1",
+        "Mid-semester exam",
+        "End-of-semester exam",
+        "Hurdle requirement: Students must pass the final exam to pass the subject.",
+        "Professional Identity (5-min video presentation)",
+        "Optional elective, subject to Program Director's approval:"
+      ]
+    },
+    "W2": {
+      "score": 0,
+      "rationale": "Level 0 anchor: entirely decontextualised assessment with no situational framing. Demoted from a submitted 1 on adversarial verification. Level 1 requires contextualised or scenario-framed TASKS to appear; the extract documents no assessment task at all beyond title, word count, timing and weight across all six core ACTL subjects and both capstones (ACTL90001/2/3, ACTL90005/6/7, ACTL90020/21) - every row is an 'Individual Assignment / 1000-1500 words' or a timed exam, the only 'Additional details' note anywhere being ACTL90020's online-exam typesetting logistics. The situational framing originally cited (profit testing of insurance policies, reserving, short-term insurance risk models) comes exclusively from subject ILOs and topic lists, i.e. taught content, which R1/R4 bar from lifting W2 - and the submitted rationale conceded exactly this in its own ambiguities entry while simultaneously asserting that the disciplinary framing of content is not scored up. Under the take-the-lower-level rule that straddle resolves to 0. This matches the cohort precedent in 511aa (W2=0: case-study material documented as taught content and syllabus topics, never as a feature of an assessment task), and is distinguished from the W2=1 precedents 342aa and 504aa, both of which had a documented case-study assessment task.",
+      "evidenceLines": [
+        "Individual Assignment 1",
+        "End-of-semester examination",
+        "Mid semester exam",
+        "Analyse real and hypothetical problems in insurance and superannuation.",
+        "Project expected future cashflows and perform profit testing for various insurance policies.",
+        "Construct risk models appropriate for short term insurance contracts"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1 anchor: work-situated learning exists only as an elective or optional internship. The course structure lists BUSA90525 Business and Economics Internship under 'Optional elective, subject to Program Director's approval', with enrolment capped and selection-based. Its content would otherwise satisfy the level-2/3 placement route (real host organisation, industry supervision, a 90-hour hurdle confirmed by the workplace supervisor, ten assessed learning reflections), but the level-2 anchor requires a CORE unit, and this program's core is the six compulsory actuarial subjects plus two capstones, none of which places students in a workplace. The v4.2 in-practice route does not apply: nothing in the extract documents this cohort as already practising in the profession - the overview describes a pathway for graduates with a bachelor's degree into 'professional entry to the actuarial profession'.",
+      "evidenceLines": [
+        "Optional elective, subject to Program Director's approval:",
+        "This subject involves the completion of a professional work placement (internship) either:",
+        "off campus at an approved host organisation in Australia or overseas OR",
+        "under the joint supervision of an industry and an academic mentor",
+        "Hurdle requirement: Students must participate in a minimum of 90-hours at the work placement to pass the subject. Confirmed by workplace supervisor at the completion of the work placement.",
+        "Learning reflections (300 words each x 10 reflections)",
+        "semester-length subjects comprising 6 compulsory core subjects, 2 capstone subjects and"
+      ]
+    },
+    "workplace": 1,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "PASS condition: a coherent specialist core with progressive technical or methodological depth - here all three routes are present at once. The structure is an all-compulsory specialist core (six compulsory core subjects plus two capstones, every one an actuarial ACTL subject); it is an accredited sequence (Actuaries Institute Australia, with exemptions from the professional examinations of the Actuaries Institute and the IFoA); and it is a staged chain, with Mathematics of Finance I -> II -> III across three teaching periods and Life Insurance Models I -> 2, where ACTL90007 is documented as the groundwork for the capstone Life Contingencies. Nothing generic or interchangeable.",
+        "evidenceLines": [
+          "semester-length subjects comprising 6 compulsory core subjects, 2 capstone subjects and",
+          "Actuaries Institute Australia (AIA)",
+          "If students obtain a sufficiently high pass in the program, they will receive some exemptions from the professional actuarial examinations conducted by the Actuaries Institute and the Institute and Faculty of Actuaries (UK).",
+          "This subject provides the groundwork for the capstone subject Life Contingencies."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "PASS rather than the FAIL condition of 'recall or scripted responses only'. Core assessment is not exam-only: every core and capstone subject carries word-counted written assignments (1000-1500 words) alongside its hurdle exam, and the outcomes those assignments assess require defended trade-off judgements under genuine uncertainty - weighing advantages and disadvantages of competing measures of investment risk (core ACTL90002), critically reviewing stochastic investment models and contextualising risk via utility theory (core ACTL90021), and judging model suitability at course level. Marginal: the extract gives assignment titles and word counts but no task briefs, so the trade-off demand is read from the ILOs the assignments serve rather than from a described task.",
+        "evidenceLines": [
+          "Discuss the advantages and disadvantages of different measures of investment risk;",
+          "Critically review simple stochastic models for investment returns.",
+          "Contextualise the main aspects of risk and insurance using utility theory.",
+          "Assess the suitability of actuarial, financial and economic models in solving actuarial problems.",
+          "Individual Assignment",
+          "Individual Assignment 1"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1 straddled 1 and 2: ACCT90042's 'Group project (4000 words equivalent, in groups of 3-4 students)' is the only assessed collaboration in the extract, but the structure page places it under ELECTIVE SUBJECTS, so the level-2 requirement of a CORE unit fails and the lower level stands.",
+      "C2 straddled 0 and 1: no core assessment is documented as requiring appraisal of quality (level 0's condition holds), but the appraisal claim does exist at outcome/attribute level ('Assess the suitability of ... models', 'critical evaluation and testing of actuarial models'). The anchors are nested - level 1 is level 0's assessment-absence plus an outcome claim - so the outcome claim, not the assessment absence, is the discriminator, and the item scores 1.",
+      "C3 straddled 1 and 2: core ACTL90007 does put machine learning in a compulsory subject, which is more than 'electives only', but level 2 additionally requires limitations/ethics addressed and assessed, and the only benefits/drawbacks comparison in the extract sits in elective ACTL90023. Lower level taken.",
+      "C5 straddled 1 and 2: ACTL90007's ILO applies forecasting models to a mortality dataset using a computer package, which is close to conducting an inquiry, but the dataset is supplied and neither methodology selection nor data collection is documented, and the assessment table names only 'Individual Assignment 1/2'. Lower level taken.",
+      "W2 straddled 0 and 1 and was resolved DOWN to 0 on adversarial verification: the assessment tables carry no task descriptions at all (titles, word counts, timing and weights only), so the situational framing had to be read from subject ILOs and topic lists (profit testing of insurance policies, reserving, short-term insurance risk models) rather than from the tasks themselves. Taught content cannot lift W2, which scores the fidelity of assessment (R1/R4), so no contextualised TASK is documented and level 0 stands - matching the 511aa precedent and distinguished from the 342aa and 504aa W2=1 cases, which each had a documented case-study assessment task.",
+      "W3: BUSA90525 carries placement features that would score 2 or 3 on the placement route (90-hour supervisor-confirmed hurdle, industry and academic supervision, ten assessed reflections), and the internship evidence also reads onto C1 (coordination) and W1 (professional identity presentation). Per one-construct-one-home it is scored only in W3, and only at level 1, because the structure page lists it as an optional elective requiring Program Director approval.",
+      "G2 is marginal for the reason stated in its rationale: assignment titles are documented, task briefs are not, so the trade-off demand is inferred from the ILOs the assignments serve."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-23"
+    }
+  },
   "mc-apbusa": {
     "instrument": "4.1-draft",
     "C1": {
@@ -7173,6 +7596,147 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "date": "2026-08-14"
     }
   },
+  "mc-bamktg": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied many times over: syndicate (group) work with documented individual accountability is assessed in every core module — Business Foundations, People Management, Data Analytics, the marketing core and the consulting capstone — and the Practicum is explicit client/stakeholder work. Level 3 is not reached: it additionally requires at least one assessment where work is coordinated across people AND tools/AI systems (documented role and tool allocation, or the human/system division of work itself assessed). No core assessment line documents any tool or AI allocation; the CompXm/simulation items assess firm performance in a simulation, not the division of labour between people and systems. Ambiguity resolved down per the lower-level rule.",
+      "evidenceLines": [
+        "Business Foundations: Syndicate assignment and presentation ; Equivalent to 700 words individual with 4 – 5 students in a group",
+        "People Management: Syndicate presentation and report; 800 words individual with 4 – 5 students in a group",
+        "Syndicate Project (typically 4 - 5 students per group)",
+        "Syndicate project (4 - 5 students per group)",
+        "Contribution to syndicate",
+        "Students work in syndicates as consultants to social entrepreneurs, who are creating a business plan and sales pitch to obtain external funding.",
+        "Work effectively in diverse teams",
+        "Collaborate with real business partners to apply knowledge in projects"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1 anchor: reflection and self-appraisal appear in course descriptions and outcomes (People Management applies content through 'reflection on work experience'; the capstone asks students to reflect on an integrative activity; PEP outcomes cover identifying one's own skill gaps and receiving feedback) but no core unit assesses appraisal against criteria. The only core assessment that involves peer judgement is 'peer and instructor evaluation of contribution to class learning' — that appraises participation, not the quality of work, and no criteria, exemplars or standards are documented, so the level-2 anchor ('criterion-referenced appraisal of quality: peer review, structured critique, portfolio with standards, marking against exemplars') is not evidenced. Level 3 (documented, justified reliance decisions on a tool/source/collaborator, or assessed strategy adjustment over time) has no support anywhere in the extract. Note the peer/self-assessed item in Leadership and Change is in a marketing ELECTIVE, so it cannot carry a core-assessment anchor. Ambiguous between 1 and 2; resolved down.",
+      "evidenceLines": [
+        "Personal Effectiveness 1: Contribution to class learning (attendance at skills workshops, peer and instructor evaluation of contribution to class learning)",
+        "Theories, models and research will be discussed and applied through case studies, syndicate team assignments, experiential exercises and reflection on work experience.",
+        "They will also be asked to reflect on an integrative activity they have undertaken during their degree.",
+        "Have identified communication, career development, and team skills that need improvement",
+        "Be more comfortable receiving feedback"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor: AI appears only in ELECTIVE subjects — Marketing Communications ('new technologies like artificial intelligence') and Digital Product Management, both listed under the marketing electives, not the compulsory core. The only digital/quantitative content in the compulsory core is the Data Analytics topic of General Management 1, which is statistical tool operation and interpretation; its nearest critical outcome concerns the limitations of data analyses, not of AI. Level 2 requires core units to address AI capabilities AND limitations/ethics with use-with-limits assessed — no core assessment line mentions AI at all — and level 3 requires core assessment of AI critique or governance (bias, accountability, transparency, regulation, data governance) in the discipline's context, of which there is none. Governance language ('legal, ethical and other general requirements') appears only in the elective.",
+      "evidenceLines": [
+        "You will develop fundamentals of how to manage multiple media, stakeholders, digitalisation and new technologies like artificial intelligence.",
+        "The MARKETING ELECTIVE SUBJECTS (37.5 credit points) can be chosen from the marketing electives below:",
+        "Demonstrate legal, ethical and other general requirements in digital product management",
+        "This subject provides the fundamental quantitative skills necessary for an MBA student to extract information from data, through quantitative analysis, to make better managerial decisions.",
+        "Evaluate the robustness and appreciate the limitations of data analyses"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2 anchor is met: core assessment requires application to novel, unfamiliar problems — the compulsory Marketing Research field project runs an actual research project from problem definition onward (assessed as a 40% syndicate project), and the compulsory capstone requires adapting operating plans to changing circumstances in a simulation with an individual competition hurdle. Level 3 requires documented structured progression toward INDEPENDENT learning: a self-scoped capstone/research project, or assessed identification of one's own knowledge gaps together with the plan to close them. Both capstones are externally scoped (a simulation exercise, and a client brief), and while PEP outcomes include having identified skills that need improvement, no assessment line documents an assessed plan to close those gaps — the PEP individual assignments are listed by word count only. Ambiguous between 2 and 3 on the Marketing Research 'problem definition' route; resolved down.",
+      "evidenceLines": [
+        "An important aspect of the subject involves getting hands-on experience with marketing research problems through a field project.",
+        "This project will require students to integrate everything that they have learned to conduct an actual research project from problem definition through a final report and presentation.",
+        "Syndicate Project (typically 4 - 5 students per group)",
+        "evaluate the inflow of information to adapt and change their operating plans in response to changing circumstances.",
+        "Individual assessment, CompXm individual competition",
+        "Integrate knowledge from multiple disciplines to solve a problem"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2 anchor is met exactly: Marketing Research is a compulsory marketing core subject in which students select methodology and collect primary data — developing a research plan, choosing qualitative and quantitative techniques, designing and implementing a survey instrument — and this is assessed as a 40% syndicate field project. Level 3 requires a substantial REQUIRED primary-evidence project with methodology defended under scrutiny (viva, defence, or staged supervised review). The extract documents no defence, viva or staged supervised review of methodology: the assessed components are the syndicate project and a hurdle final examination, and the presentation is mentioned only in the subject description, not as an assessed defence. The other primary-research route, Business in Asia, is marked not available. Ambiguous between 2 and 3; resolved down.",
+      "evidenceLines": [
+        "develop a marketing research plan to investigate the problem (s) under consideration.",
+        "conduct qualitative and quantitative marketing research using a variety of marketing research techniques.",
+        "design and implement a survey instrument to conduct primary research.",
+        "Syndicate Project (typically 4 - 5 students per group)",
+        "Business in Asia\tNot available in 2026"
+      ]
+    },
+    "adaptiveness": 8,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is met: the compulsory Social Entrepreneur Consulting Practicum requires recognised professional genres delivered to an audience beyond the teaching team — an assessed consulting contract (10%) and a syndicate consulting report (50%) delivered and presented to a real social-entrepreneur client. Level 3 is a three-part conjunction and only two parts hold. Repetition and progression hold (the Personal Effectiveness Program runs across the core modules with assessed syndicate presentations in PEP 1, 2 and 3), and a real external audience holds (the client). But the third conjunct — professional conduct or accountability EXPLICITLY among the assessed criteria — is not quotable: the extract gives 'Contribution to syndicate' and attendance hurdles as bare requirements with no stated criteria, and per R4 the assessed-criteria claim cannot be inferred from the professional framing. Resolved down to 2; this was the closest call in the panel.",
+      "evidenceLines": [
+        "Syndicates work through the entire consulting process from receiving the client brief, negotiating the final terms of the consulting project, executing the negotiated consulting activities, and delivering and presenting a final report to the client.",
+        "Consulting contract (equivalent to individual assessment of 1,000 words)",
+        "Syndicate report (equivalent to individual assessment of 2,000 words)",
+        "Personal Effectiveness 2: Syndicate presentation; Staggered through the subject; 400 - Words (equivalent) individual with 4 – 5 students in a group",
+        "Personal Effectiveness 3: Syndicate presentation; Staggered through the subject",
+        "Communication skills: These skills include effective presentations, verbal communication, written communication, and public speaking",
+        "Contribution to syndicate",
+        "Hurdle requirement: 90% attendance to classes and attendance to the final project presentation"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2 anchor is met: the Consulting Practicum reproduces a professional consulting engagement end to end — client brief, negotiated terms, consulting workshops, and the artefacts a practitioner would produce (a consulting contract and a client report) — and the Marketing Research field project produces a practitioner's research report from problem definition. Level 3 requires such tasks to be the program's assessment SPINE (capstone plus earlier scaffolding, or at least one per stage) as well as a genuine constraint of practice. The constraint clause is satisfied (an externally supplied client brief), but the spine clause is not: the 150 credit points of general management core are assessed overwhelmingly by hurdle final examinations, quizzes, class-contribution marks and undescribed syndicate assignments, which sit at the level-1 description of scenario-framed tasks whose artefacts and criteria remain academic. Professional-task assessment is concentrated in the capstones and the marketing core, not scaffolded through the earlier stages. Resolved down. Per R4 no credit is taken from framing words such as 'real-world' or 'practical skills'; only documented task features are scored.",
+      "evidenceLines": [
+        "Syndicates work through the entire consulting process from receiving the client brief, negotiating the final terms of the consulting project, executing the negotiated consulting activities, and delivering and presenting a final report to the client.",
+        "Consulting contract (equivalent to individual assessment of 1,000 words)",
+        "3 x Consulting workshops (participation in workshops and workshop activities; each is equivalent to individual assessment of 600 words) Staggered throughout subject",
+        "This project will require students to integrate everything that they have learned to conduct an actual research project from problem definition through a final report and presentation.",
+        "In particular, groups of students will be asked to undertake an exercise that simulates the management of a firm in preparation for their transition back into the workplace.",
+        "Collective research report and presentation plus a component for syndicate performance in the simulation, report equivalent to 1,500 words for an individual"
+      ]
+    },
+    "W3": {
+      "score": 2,
+      "rationale": "Level 2 anchor, live-client-project route: the Social Entrepreneur Consulting Practicum is a compulsory core subject (an MBA capstone) placing students in a professional-community setting as consultants to real social entrepreneurs, with assessment across a consulting contract, workshops, a syndicate contribution hurdle and a client report. It is short (12.5 of 300 credit points) and stands alone, which is exactly what level 2 describes. Level 3 requires an extended placement or a required sequence of them with practitioner supervision, accountability to the host and structured reflection: no practitioner supervision is documented, no structured reflection is assessed, and there is no sequence — the only other field-based subject, Business in Asia, is marked not available in 2026. Level 1 does not fit because this is core and assessed, not elective or optional. Simulation evidence (CompXm, Business in Complex Environments) is deliberately excluded here and scored in W2 per the construct note.",
+      "evidenceLines": [
+        "Social Entrepreneur Consulting Practicum (12.5 credit points) (capstone subject for MBA)",
+        "Students work in syndicates as consultants to social entrepreneurs, who are creating a business plan and sales pitch to obtain external funding.",
+        "Consulting contract (equivalent to individual assessment of 1,000 words)",
+        "Contribution to syndicate",
+        "Syndicate report (equivalent to individual assessment of 2,000 words)",
+        "Business in Asia\tNot available in 2026"
+      ]
+    },
+    "workplace": 6,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program documents a coherent, all-compulsory specialist core with staged progression: 150 credit points of compulsory general management core plus 37.5 credit points of compulsory marketing core, sequenced General Management 1 (September) → 2 (January) → 3 (Summer Term) and terminating in named capstone subjects for each award. Content is disciplinary rather than interchangeable — accounting, finance, economics, strategy, consumer behaviour, marketing research, marketing strategy — with the later subjects explicitly integrating the earlier ones.",
+        "evidenceLines": [
+          "The MBA/Master of Marketing program includes 150 credit points of compulsory general management core subjects, 37.5 credit points of compulsory marketing core subjects, 75 credit points of MBA elective subjects and 37.5 credit points of marketing elective subjects.",
+          "The GENERAL MANAGEMENT CORE SUBJECTS (150 credit points) include:",
+          "Social Entrepreneur Consulting Practicum (12.5 credit points) (capstone subject for MBA)",
+          "Marketing Strategy (12.5 credit points) (capstone subject for Master of Marketing)"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "The compulsory capstone Business in Complex Environments is a firm-management simulation in which students must respond to information arriving during play, revise operating plans, diagnose the results of their own decisions and defend them — decision-making under genuine uncertainty with accountability, assessed including a hurdle individual competition. The Consulting Practicum adds a live client engagement with negotiated terms. This is well beyond recall or scripted response.",
+        "evidenceLines": [
+          "In particular, groups of students will be asked to undertake an exercise that simulates the management of a firm in preparation for their transition back into the workplace.",
+          "evaluate the inflow of information to adapt and change their operating plans in response to changing circumstances.",
+          "cogently explain and defend their decisions.",
+          "Individual assessment, CompXm individual competition",
+          "Syndicate simulation (4 - 5 students per group)"
+        ]
+      }
+    },
+    "ambiguities": [
+      "W1 (closest call): evidence straddled 2 and 3. Two of level 3's three conjuncts hold — repeated, progressive professional-communication assessment via PEP 1/2/3 syndicate presentations, and delivery to a real external client in the Consulting Practicum. The third conjunct, professional conduct or accountability explicitly among the assessed criteria, is not quotable: 'Contribution to syndicate' and the attendance hurdles are stated as requirements without criteria. Resolved to 2 by the lower-level rule and R4 (no credit for professional framing absent documented task/criteria features).",
+      "C2: straddled 1 and 2. 'peer and instructor evaluation of contribution to class learning' is peer judgement inside core assessment, but it appraises participation rather than the quality of work and no criteria, standards or exemplars are documented. Resolved to 1. Separately, the genuinely criterion-relevant item ('In-class experiential activities, lecturer, peer and self-assessed', Leadership and Change) sits in a marketing ELECTIVE and therefore cannot satisfy a core-assessment anchor.",
+      "C4: straddled 2 and 3. The compulsory Marketing Research field project starts from student 'problem definition', which reads toward a self-scoped research project, but both capstones are externally scoped (simulation exercise; client brief) and no assessment documents a plan to close self-identified knowledge gaps. Resolved to 2.",
+      "C5: straddled 2 and 3. A required core subject does generate primary evidence (survey design and implementation, qualitative and quantitative techniques), but level 3's defence-under-scrutiny requirement has no quotable support — the 'final report and presentation' appears in the subject description, and the assessment table lists only a syndicate project and a hurdle examination. Resolved to 2.",
+      "C1: recurrence of assessed collaborative work is overwhelming and would satisfy the first half of level 3, but the second half (an assessment coordinating work across people AND tools/AI systems, with role and tool allocation documented) has no supporting line. Resolved to 2.",
+      "W2: the level-3 'genuine constraint of practice' clause is satisfied (externally supplied client brief) but the 'assessment spine' clause is not, since the 150-credit-point general management core is assessed mainly by hurdle examinations, quizzes and class contribution. A conjunction with one half unmet resolves to 2.",
+      "Boundary handling: only compulsory subjects (General Management 1–3, Business in Complex Environments, Social Entrepreneur Consulting Practicum, Consumer Behaviour, Marketing Research, Marketing Strategy) were treated as core. Brand Management, Leadership and Change, Marketing Communications, Negotiations, Product Management, Digital Product Management and the MBA electives were excluded from all level-2/3 core-assessment anchors. Business in Asia is listed among core subjects but marked 'Not available in 2026', so no anchor was rested on it.",
+      "Cross-item placement: the client-facing Consulting Practicum evidence is used for its communication genres in W1, its task fidelity in W2 and its workplace membership in W3, each on the distinct construct the item names; the CompXm/Business in Complex Environments simulation is scored in W2 and G2 and deliberately kept out of W3, which excludes simulation."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-23"
+    }
+  },
   "mc-base": {
     "instrument": "4.1-draft",
     "C1": {
@@ -7309,6 +7873,147 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "adversarial": true,
       "mechanical": true,
       "date": "2026-08-14"
+    }
+  },
+  "mc-bmedsc": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Meets level 2: HLTH90021 assesses collaborative practice via a group translation strategy (team of 5-6 developing a written strategy, pitch, and slide deck) with individual accountability assessed via an individual self-assessment and team evaluation component (500 words, 5%) plus group interviews. Fails level 3: collaborative practice does not recur across the program (the 125-point research project is individual supervised research), and no assessment requires coordinating work across people and AI systems or assesses the human-system division of work.",
+      "evidenceLines": [
+        "Written Assignment- As a team of 5-6 develop written strategy for translating a new biomedical discovery into an approved therapeutic use. Self assessment and team evaluation. (2000 words strategy (50%) + 500 words individual self-assessment and team evaluation (5%))",
+        "Be able to work effectively in a team as a both an active team member and as a leader",
+        "Work effectively in teams, both collaboratively and independently"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Meets level 2: core assessment includes explicit criterion-referenced appraisal of work quality, with HLTH90021 assessing a \"500 words individual self-assessment and team evaluation (5%)\" alongside the translation strategy, and Research Project B incorporating providing and responding to peer reviews as an explicit skill in scientific report preparation. Fails level 3: no core assessment requires students to document and justify reliance decisions, defend judgements of AI-output quality, or evidence process-focused strategy adjustment over time.",
+      "evidenceLines": [
+        "Written Assignment- As a team of 5-6 develop written strategy for translating a new biomedical discovery into an approved therapeutic use. Self assessment and team evaluation. (2000 words strategy (50%) + 500 words individual self-assessment and team evaluation (5%))",
+        "Students will also develop skills in managing a scientific research project, writing scientific reports, providing and responding to peer reviews, and making an oral presentation.",
+        "The integration of a “Conversational Questions” assessment will additionally provide opportunity for students’ to critically appraise aspects of experimental design and data analysis along with the current state of literature in their chosen field of research.",
+        "Introduction to Peer-to peer evaluation as a mechanism for enhancing work output."
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Matches level 1: digital tools appear in the core as operational tool training (online modules and hurdle quizzes on record keeping via LabArchives electronic laboratory notebooks and reference managers in BIOM40001; data management in HLTH90021), while computational and data subjects (BINF90002 Elements of Bioinformatics, BIOL90042 Coding and Data Analysis in Biomedicine) exist only as electives. Fails level 2: no core unit addresses AI capabilities and limitations/ethics with assessed use-with-limits, and no core assessment requires critique or governance of AI systems (level 3).",
+      "evidenceLines": [
+        "Students will learn about the importance of accurate research records, data documentation, and effective reference management including the use of an electronic laboratory notebook and reference management software.",
+        "Completion of short quiz after online training modules on record keeping via LabArchives and appropriate reference manager (3 quizzes, approx. 10 mins to complete each assessment)",
+        "Use of modern record keeping tools",
+        "BINF90002\tElements of Bioinformatics",
+        "BIOL90042\tCoding and Data Analysis in Biomedicine"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Meets level 3: the program documents a structured progression toward independent learning anchored by an all-compulsory 125-credit-point research project sequence spanning all four semesters. Students identify their own supervisor and self-scoped project during admission, acquire foundational methods in BIOM40001, conduct pilot studies and literature review in Research Project A (5,000-word literature review, 6,000-word pilot report, oral presentation), and progress to full independent experimental execution and a 20,000-word research report in Research Project B.",
+      "evidenceLines": [
+        "125 credit points of Research Project subjects including:",
+        "37.5 credit points of Research Project A subjects",
+        "87.5 credit points of Research Project B subjects",
+        "Students will undertake a pilot or feasibility study in the area of their Research project. This study will be presented, along with a literature review, as a research report and an oral presentation.",
+        "This subject (Research Project B) provides students with the opportunity to design and conduct, under supervision, independent research in biomedical science, building on the work completed in Research Project A. Students will take responsibility for a research project, including the design of field and/or laboratory experiments; collection, appropriate statistical analysis, and interpretation of data; and oral and written presentations of the results.",
+        "Students will identify an appropriate supervisor and project as part of the application process for the Master of Biomedical Science (MC-BMEDSC)."
+      ]
+    },
+    "C5": {
+      "score": 3,
+      "rationale": "Meets level 3: a substantial primary-evidence research project is required for all students (125 credit points across Research Project A and B, 62.5% of the degree), requiring students to design and conduct experiments, collect and analyse primary data, and write a 20,000-word research report. Methodology and progress are defended under staged supervised review and scrutiny: continuous semester-by-semester supervisor hurdles on laboratory attendance, behaviour, and performance, formal oral Conversational Questions defence on experimental design in BIOM40001 (20%), and oral presentations at the conclusion of both Project A (15 min, 20%) and Project B (15-20 min, 10%).",
+      "evidenceLines": [
+        "This subject (Research Project B) provides students with the opportunity to design and conduct, under supervision, independent research in biomedical science, building on the work completed in Research Project A. Students will take responsibility for a research project, including the design of field and/or laboratory experiments; collection, appropriate statistical analysis, and interpretation of data; and oral and written presentations of the results.",
+        "A research report",
+        "20,000 words",
+        "An oral presentation",
+        "15-20 minutes",
+        "Hurdle requirement: Lab attendance, behaviour and performance assessed by supervisor near end of each semester of enrolment",
+        "Conversational Questions",
+        "7 minutes",
+        "The integration of a “Conversational Questions” assessment will additionally provide opportunity for students’ to critically appraise aspects of experimental design and data analysis along with the current state of literature in their chosen field of research."
+      ]
+    },
+    "adaptiveness": 11,
+    "W1": {
+      "score": 2,
+      "rationale": "Meets level 2: core assessment requires recognised professional and public communication genres judged against professional standards — HLTH90021 assesses a commercial translation strategy, pitch, and pitch slide deck (55%), BIOM40001 assesses a public-facing lay writing assignment (500 words, 25%) and a 3MT oral presentation (20%), and Research Project A/B enforces professional standards through assessed supervisor hurdles on laboratory attendance, behaviour, and performance. Fails level 3: the handbook does not explicitly document delivery to or evaluation by external industry practitioners or external audiences (interviews are conducted during the university exam period without confirmed external panels).",
+      "evidenceLines": [
+        "Written Assignment- As a team of 5-6 develop written strategy for translating a new biomedical discovery into an approved therapeutic use. Self assessment and team evaluation. (2000 words strategy (50%) + 500 words individual self-assessment and team evaluation (5%))",
+        "Lay writing assignment",
+        "500 words",
+        "The students will further leverage resources developed by expert scientific communicators to aid in effective communication of their research, in both written and oral form, to a lay audience.",
+        "3MT oral presentation on student project",
+        "3 minutes",
+        "Hurdle requirement: Lab attendance, behaviour and performance assessed by supervisor near end of each semester of enrolment"
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Meets level 3: authentic practitioner tasks form the core assessment spine across every stage of the degree. Students engage in scaffolded professional practice from Year 1 (research integrity certification, electronic lab notebook management in LabArchives, lay communication, and commercial translation pitches in HLTH90021) through to the 125-point Research Project A and B sequence. In Research Project B, students execute genuine laboratory investigations under professional constraints (live experimental conditions, supervisor-assessed lab conduct hurdles, ethics compliance, and scientific reporting formatted to scientific paper standards rather than an academic essay).",
+      "evidenceLines": [
+        "The report describing the research will more closely resemble a scientific paper than a traditional thesis.",
+        "This subject (Research Project B) provides students with the opportunity to design and conduct, under supervision, independent research in biomedical science, building on the work completed in Research Project A. Students will take responsibility for a research project, including the design of field and/or laboratory experiments; collection, appropriate statistical analysis, and interpretation of data; and oral and written presentations of the results.",
+        "Written Assignment- As a team of 5-6 develop written strategy for translating a new biomedical discovery into an approved therapeutic use. Self assessment and team evaluation. (2000 words strategy (50%) + 500 words individual self-assessment and team evaluation (5%))",
+        "Completion of short quiz after online training modules on record keeping via LabArchives and appropriate reference manager (3 quizzes, approx. 10 mins to complete each assessment)",
+        "Completion of short quiz after online training modules on research integrity (RIOT) (8 quizzes, approx. 15 mins to complete each assessment)",
+        "Hurdle requirement: Lab attendance, behaviour and performance assessed by supervisor near end of each semester of enrolment"
+      ]
+    },
+    "W3": {
+      "score": 0,
+      "rationale": "Matches level 0: no work-integrated learning, placement, practicum, or community-based project appears anywhere in the course structure or elective options. The entire 200 credit points comprise 25 points of compulsory on-campus coursework, 125 points of on-campus/institute laboratory research project subjects, and 50 points of elective subjects (none of which are placement/internship units). Academic research in university or affiliated institute laboratories is scored under C5 and W2 and does not constitute a workplace placement under W3.",
+      "evidenceLines": [
+        "All students must complete:",
+        "25 credit points of Year 1 compulsory subjects",
+        "50 credit points of elective subjects including",
+        "A minimum of 25 credit points of Discipline electives",
+        "A minimum of 12.5 credit points of Industry and Professional electives",
+        "125 credit points of Research Project subjects including:",
+        "37.5 credit points of Research Project A subjects",
+        "87.5 credit points of Research Project B subjects"
+      ]
+    },
+    "workplace": 5,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program documents a coherent, highly structured specialist core with staged methodological and empirical depth: 25 credit points of compulsory Year 1 subjects (methods/integrity and enterprise translation), 125 credit points of compulsory Research Project subjects (staged across Project A pilot/literature review to Project B 20,000-word thesis), and required discipline/industry elective distributions.",
+        "evidenceLines": [
+          "The Master of Biomedical Science requires the successful completion of 200 credit points.",
+          "All students must complete:",
+          "25 credit points of Year 1 compulsory subjects",
+          "125 credit points of Research Project subjects including:",
+          "37.5 credit points of Research Project A subjects",
+          "87.5 credit points of Research Project B subjects"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Assessments require substantial decision-making under uncertainty: the compulsory 125-point Research Project requires students to design experiments, handle empirical data and experimental unpredictability under staged supervisor assessment, and defend experimental design in Conversational Questions (BIOM40001); HLTH90021 assesses a commercial translation strategy and pitch navigating real-world regulatory and economic constraints.",
+        "evidenceLines": [
+          "This subject (Research Project B) provides students with the opportunity to design and conduct, under supervision, independent research in biomedical science, building on the work completed in Research Project A. Students will take responsibility for a research project, including the design of field and/or laboratory experiments; collection, appropriate statistical analysis, and interpretation of data; and oral and written presentations of the results.",
+          "Written Assignment- As a team of 5-6 develop written strategy for translating a new biomedical discovery into an approved therapeutic use. Self assessment and team evaluation. (2000 words strategy (50%) + 500 words individual self-assessment and team evaluation (5%))",
+          "The integration of a “Conversational Questions” assessment will additionally provide opportunity for students’ to critically appraise aspects of experimental design and data analysis along with the current state of literature in their chosen field of research."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1 straddled 2 and 3: assessed collaboration is present in HLTH90021 with individual accountability, but fails level 3 because teamwork does not recur across the degree (the 125-point research project is individual supervised research) and no task assesses coordination between humans and AI systems. Resolved at 2.",
+      "C2 straddled 1 and 2: HLTH90021 assesses a 5% team evaluation and self-assessment component, and Research Project B includes peer review skills, but criteria are not fully elaborated in the handbook. Resolved at 2 because appraisal of quality is an explicit assessed component.",
+      "C3 straddled 0 and 1: no AI content appears in the core, but digital tools (LabArchives electronic lab notebook and reference manager) appear with hurdle training and certification, and computational units sit in the electives. Resolved at 1 under the tool-operation/elective anchor.",
+      "C5 straddled 2 and 3: the 125-point compulsory research project requires primary empirical data collection and a 20,000-word report; methodology defence under scrutiny is evidenced through semester-by-semester supervisor hurdles, Conversational Questions oral defence in BIOM40001, and 15-20 min oral presentations at the end of both Project A and B. Confirmed at 3.",
+      "W1 straddled 2 and 3: HLTH90021 assesses pitch, pitch slide deck, and translation strategy, and BIOM40001 assesses lay writing and 3MT, but delivery to/evaluation by an external industry panel is not explicitly confirmed in the text. Resolved DOWN to 2 by the never-resolve-upward rule.",
+      "W2 straddled 2 and 3: authentic tasks form the entire core spine (150 credit points), and Research Project B explicitly mandates a scientific paper format rather than a traditional thesis, with supervisor-assessed lab conduct hurdles. Confirmed at 3.",
+      "W3 straddled 0 and 1: research projects take place in laboratories/affiliated institutes, but no workplace internship, placement, or practicum appears in the core or elective lists. Scored in C5/W2 under one-construct-one-home, leaving W3 at 0."
+    ],
+    "notScoreable": [
+      "The extract covers the complete course pages, all compulsory Year 1 subjects (BIOM40001, HLTH90021), and all department variants of Research Project A and B (SBS, MMS, MDS, Psych, VisionSci). Individual elective subject pages for discipline and industry electives are not included, but do not affect compulsory core scores."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-23"
     }
   },
   "mc-busana": {
@@ -7455,6 +8160,152 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "adversarial": true,
       "mechanical": true,
       "date": "2026-08-14"
+    }
+  },
+  "mc-climsci": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor: at least one core unit assesses collaborative practice. Compulsory core subject ATOC90004 Current Topics in Climate Science assesses a '20 minute - Group presentation' (20%) and cohort paper discussion workshops (10%), and compulsory core subject ATOC90002 Climate Science for Decision-Making assesses 'Participation in a negotiation session and submitted written assessment' (20%) where students role-play state representatives in a simulated UNFCCC negotiation session. In addition, the core industry project option ATOC90018 assesses an industry charter and presentation. Level 3 is not met: while collaboration recurs across the core, no assessment requires coordinating work across people AND tools/AI systems, no role-and-tool allocation is documented, and no task assesses the division of labour between people and AI systems.",
+      "evidenceLines": [
+        "20 minute - Group presentation",
+        "Participation in weekly two-hour workshops to discuss papers identified by the cohort. Students are assessed on active participation (e.g. taking part in discussions, asking and answering questions) in workshops",
+        "Participation in a negotiation session and submitted written assessment",
+        "The course culminates in a negotiation session where students take on the role of a state representative within the United Nations Framework Convention on Climate Change.",
+        "Leading and participating in teams and managing, persuading and influencing others;"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1 anchor: reflection or appraisal of work appears in generic skills and learning outcomes, but no core unit assesses it against criteria. The course generic skills claim 'demonstrate advanced independent critical enquiry, analysis and reflection' and course ILOs claim 'Critically evaluate and communicate complex climate science information', while core subjects ATOC90004 and ERTH90026 claim judging conflicting arguments and assessing model uncertainties. However, core assessment tables document no criterion-referenced appraisal of quality — no peer review, structured critique, portfolio against standards, or marking against exemplars. Level 3 is completely unevidenced as no reliance or override decisions on tools/AI or process-focused adjustments are documented.",
+      "evidenceLines": [
+        "demonstrate advanced independent critical enquiry, analysis and reflection;",
+        "Critically evaluate and communicate complex climate science information using written reports and oral presentations to specialists and non‐specialists.",
+        "Judge and assess scientific evidence in cases of ambiguity or conflicting arguments;",
+        "Assess different climate models currently in use, including quantification of uncertainty and its implications for future projections; and",
+        "Research proposal and literature review"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor: digital tools and programming appear at the tool-operation level, or AI appears only as electives. Graduate attributes list 'Scientific programming in widely used languages such as Python', and core subjects ERTH90026 and ATOC30008 require writing computer code and building simple numerical models, assessed through programming assignments in ERTH90026. However, this is operational tool use. No core unit addresses AI capabilities and limitations or ethics with use-with-limits assessed (level 2). The only AI subject in the extract is LAWS90203 Science & AI: Legal & Ethical Challenges, which is an elective under Professional Skills (and marked 'Not available in 2026'). Level 3 governance is entirely absent.",
+      "evidenceLines": [
+        "Scientific programming in widely used languages such as Python.",
+        "Implement appropriate numerical methods and write computer code to analyse and understand real-world atmospheric data.",
+        "Students will build a simple climate model and run numerical experiments with different greenhouse gases. Existing knowledge in python programming is recommended but can be acquired throughout the course.",
+        "3 Assignments (Written task plus programming), in weeks 3, 6, and 9.",
+        "LAWS90203\tScience & AI: Legal & Ethical Challenges\tNot available in 2026\t12.5",
+        "COMP90059\tIntroduction to Programming"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3 anchor: the program documents structured progression toward independent learning through a self-scoped capstone or research project. The degree is structured progressively: 25 points of foundational core, 50 points of discipline core, terminating in capstone ATOC90004 alongside a compulsory 25-point Climate Science Project (ATOC90018 or ATOC90019) taken in the final two semesters, with a documented progression prerequisite requiring completion of at least 75 points (including 25 core points). Both 25-point options require self-scoping: ATOC90019 requires developing an independent research focus in discussion with an academic supervisor, submitting an assessed hurdle research proposal and literature review (10%), and presenting progress before producing an 8000-word thesis (75%); ATOC90018 requires negotiating a project charter (5%) and plan (10%) with an industry partner leading to a 5000-word final report (60%).",
+      "evidenceLines": [
+        "Discipline Core Subjects (75 points)",
+        "Note: ATOC90004 is a capstone subject and should be taken towards the end of the course with either ATOC90018 or ATOC90019.",
+        "Students are expected to have sucessfully completed at least 75 points of the Master of Climate Science, including at least 25 points of core.",
+        "This subject allows students to conduct an independent, original research project in a specified area of climate science. The project comprises a review of a body of literature, a review and discussion of prior research, development of a research plan, followed by some original research. The specific focus of the research project will be developed through discussion with an academic supervisor on a topic that is aligned with the student and supervisor’s interests, taking into account the necessary and available expertise, data, and facilities.",
+        "Research proposal and literature review",
+        "Research report, concise thesis. A thesis is the main component of the subject. Theses are expected to be 20-30 pages in length, excluding references, appendices, figures and tables.",
+        "Charter – one-page agreement with the industry partner as to project specifications (approx. 500 words)"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2 anchor: students design and conduct an inquiry with methodology selection and data collection, assessed. In foundational core ATOC30008, students complete a Field-data report (25%) based on observational techniques and monitoring equipment at Creswick; in ERTH90026, students run numerical modeling experiments; and in the compulsory 25-point project (ATOC90019 or ATOC90018), students plan data acquisition/modelling, conduct the investigation, and report findings in an 8000-word thesis or 5000-word report. Level 3 is not met: a primary-evidence research project is not unconditionally required for all students because ATOC90018 (Industry Project) is an alternative route focused on an applied industry problem, and no formal methodology defence under scrutiny (viva or formal defence) is documented. Lower level taken per the ambiguity rule.",
+      "evidenceLines": [
+        "Field-data report",
+        "This subject will involve a face-to-face or virtual field trip to the Creswick campus in week 5 of semester to observe the atmospheric boundary layer state and chemical composition using state of the art monitoring equipment.",
+        "Plan an appropriate program of data acquisition, analysis or generation (eg, modeling) in order to answer the questions being addressed;",
+        "5 minute - oral presentation as part of cohort workshop",
+        "15 minute - Oral Presentation",
+        "Research report, concise thesis. A thesis is the main component of the subject. Theses are expected to be 20-30 pages in length, excluding references, appendices, figures and tables.",
+        "ATOC90018\tClimate Science Industry Project",
+        "ATOC90019\tClimate Science Research Project"
+      ]
+    },
+    "adaptiveness": 9,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1 anchor: communication appears in outcomes and core assessment includes presentations to peers and staff, but no professional genre and no audience beyond the teaching team is documented in the compulsory units. Assessed oral presentations recur across the core: ATOC30006 (assessed practical presentations, 25%), ATOC90016 (oral presentation, 20%), ATOC90004 (group presentation, 20%), and ATOC90019 (two presentations, 15%). ATOC90002 assesses a negotiation session where students role-play UNFCCC state representatives, but this is an in-class simulation assessed by the teaching team without documented external audience or criteria drawn from practice. ATOC90018 assesses communication to industry representatives, but it is one project option of two. Level 2's requirement of a recognised professional genre judged against criteria drawn from professional practice in the compulsory core is unmet.",
+      "evidenceLines": [
+        "Assessed Practical - written work and presentation",
+        "Oral presentation",
+        "20 minute - Group presentation",
+        "Participation in a negotiation session and submitted written assessment",
+        "Communicate complex climate science information using written reports and oral presentations to their peers, academic staff and industry representatives.",
+        "Critically evaluate and communicate complex climate science information using written reports and oral presentations to specialists and non‐specialists."
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Level 1 anchor: contextualised or scenario-framed tasks appear, but the artefacts produced and criteria applied remain academic. Core assessment features rich situational context: ATOC30008 includes a field-data report based on Creswick atmospheric observation instruments; ERTH90026 features programming assignments building climate models and running greenhouse gas experiments; ATOC90002 features a simulated UNFCCC negotiation session and policy analysis; and ATOC90016 assesses extreme weather reports. However, the artefacts produced (reports, problem sheets, essays, presentations, thesis, examinations) and criteria applied remain academic. Level 2 requires reproducing a professional task end to end judged against criteria drawn from professional practice, which is not documented in the core.",
+      "evidenceLines": [
+        "Field-data report",
+        "3 Assignments (Written task plus programming), in weeks 3, 6, and 9.",
+        "Participation in a negotiation session and submitted written assessment",
+        "Report 2",
+        "Essay",
+        "Written examination"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1 anchor: work-situated learning exists only as an elective or optional pathway. SCIE90017 Science and Technology Internship is listed as an elective in the Professional Skills list. The 25-point Climate Science Industry Project (ATOC90018) provides work-situated learning in an industry setting with an industry partner charter, but it is one elective pathway alongside the on-campus academic Research Project (ATOC90019), so workplace placement is not mandatory for all students. Level 2 requires a core unit placing students in a workplace setting; because students may complete the degree through ATOC90019 without any workplace immersion, level 1 applies. The in-practice route does not apply as the cohort is not documented as already practising professionals.",
+      "evidenceLines": [
+        "SCIE90017\tScience and Technology Internship",
+        "ATOC90018\tClimate Science Industry Project",
+        "ATOC90019\tClimate Science Research Project",
+        "This subject will provide practical insights into the role of science and scientific thinking within a genuine workplace context.  Students will be assigned a real world climate science problem identified by an industry partner, allowing the student to develop skills in project management, problem solving and planning, technical reporting, and/or applied science.",
+        "On commencement of the project, students will be required to spend a specific time in the industry setting and to then maintain regular contact with the partner, as well as the project supervisor, across the duration of the subject."
+      ]
+    },
+    "workplace": 3,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "PASS condition: a coherent specialist core with progressive technical and methodological depth. The 200-point structure mandates 25 points of foundational core (ATOC30006, ATOC30008), 75 points of discipline core (ERTH90026, ATOC90002, ATOC90016, capstone ATOC90004, and a 25-point Climate Science Project), structured elective streams with explicit prerequisites (e.g. Calculus 2 prerequisite for Climate Dynamics stream), and a staged prerequisite chain requiring at least 75 points completed prior to capstone project enrolment. This is specialist, cumulative discipline content rather than generic or interchangeable subjects.",
+        "evidenceLines": [
+          "Foundational core (25 points)",
+          "Discipline core (75 points)",
+          "Discipline electives (75 points)",
+          "ATOC30006\tModern and Future Climate",
+          "ATOC30008\tAtmospheric Processes and Composition",
+          "ERTH90026\tClimate Modelling and Climate Change",
+          "ATOC90002\tClimate Science for Decision-Making",
+          "ATOC90016\tWeather and Climate Extremes",
+          "ATOC90004\tCurrent Topics in Climate Science",
+          "Students are expected to have sucessfully completed at least 75 points of the Master of Climate Science, including at least 25 points of core."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "PASS condition: assessments require defended trade-off decisions and projects with real uncertainty and accountability. Core subject ATOC90002 requires students to debate policy options, analyse trade-offs, and participate in a UNFCCC negotiation session; ERTH90026 requires assessing climate model uncertainties and chaos; ATOC90004 requires students to judge scientific evidence in cases of ambiguity or conflicting arguments; and every student must complete a 25-point project (either ATOC90019 research thesis or ATOC90018 industry project) addressing open-ended questions under genuine uncertainty. This goes well beyond recall or scripted responses.",
+        "evidenceLines": [
+          "Discuss the relevance of climate data, scenarios and uncertainties to decision-making;",
+          "Debate differing international perspectives and policy options pertaining to climate issues; and",
+          "Analyse and differentiate between climate policy positions based on varying understandings and uses of climate science.",
+          "Participation in a negotiation session and submitted written assessment",
+          "Assess different climate models currently in use, including quantification of uncertainty and its implications for future projections; and",
+          "Judge and assess scientific evidence in cases of ambiguity or conflicting arguments;"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1 straddled 1 and 2: assessed group work appears in ATOC90004 (20-min group presentation) and ATOC90002 (negotiation session), satisfying level 2. It cannot reach level 3 because human-AI or tool coordination is undocumented.",
+      "C2 straddled 1 and 2: paper discussions are assessed in ATOC90004 workshops, but no criterion-referenced peer review, structured critique rubric, or portfolio against standards is documented in assessment tables. Resolved DOWN to 1 per the scoring-direction rule.",
+      "C3 straddled 1 and 2: scientific programming and numerical modeling are assessed in ERTH90026 and ATOC30008, but only at the tool-operation level; AI ethics/governance appears only as an unavailable elective (LAWS90203). Resolved at 1.",
+      "C4 and C5 cross-reference the 25-point project: C4 scores 3 because structured progression toward an independent self-scoped project is documented and required for all students; C5 resolves DOWN to 2 because a primary research project is one route among two (Research vs Industry) and no formal viva/defence under scrutiny is documented.",
+      "W1 straddled 1 and 2: ATOC90002's UNFCCC simulation is a professional role-play, but assessed by internal examiners without documented criteria drawn from practice; ATOC90018 (industry presentation) is an elective project option. Resolved DOWN to 1.",
+      "W2 straddled 1 and 2: field data, climate modeling experiments, and policy negotiations provide authentic scenario framing, but the artefacts and criteria remain academic. Resolved at 1.",
+      "W3 straddled 1 and 2: ATOC90018 is a 25-point industry project in an industry setting, but it is one elective pathway alongside the on-campus Research Project ATOC90019, so workplace immersion is not mandatory. Resolved DOWN to 1 per the lower-level rule."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-23"
     }
   },
   "mc-clind": {
@@ -8708,6 +9559,153 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "date": "2026-08-14"
     }
   },
+  "mc-envlaw": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 1,
+      "rationale": "Level 1 anchor: collaboration/teamwork appears in learning outcomes and graduate attributes, but no core unit assesses it. The graduate attributes claim 'Capacity to value and participate in teamwork', but the course structure specifies no compulsory core unit for all students (100 credit points total, with 87.5-100 credit points chosen from prescribed lists). The only group assessment documented in the extract sits in an elective under 'Further subjects related to course' (LAWS90248 AI and Justice: 'Group in-class presentation'), and the negotiation simulation in LAWS90114 is an elective marked 'Not available in 2026'. Because a student can complete the degree without taking any collaborative unit, level 2's requirement that at least one core unit assesses collaborative practice is not met. Coordinating work across people AND tools/AI systems is completely absent, so level 3 is unreachable.",
+      "evidenceLines": [
+        "Capacity to value and participate in teamwork",
+        "Small class sizes and an intensive teaching format are valuable in encouraging group dynamics and teamwork.",
+        "Group in-class presentation",
+        "Written country position paper/negotiation strategy for negotiation simulation",
+        "Students must complete 100 credit points in total.",
+        "Environmental Law subjects"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1 anchor: reflection appears in outcomes and graduate attributes, but no core unit assesses it against criteria. The course intended learning outcomes claim students 'analyse, critically reflect on and synthesise complex information', and graduate attributes claim the ability to evaluate and adapt existing knowledge. In individual subjects, LAWS90127 sets a 'Reflective / Research Essay' and LAWS70185 ILOs mention reflection on cultural water values. However, level 2 requires criterion-referenced appraisal of the quality of work (peer review, structured critique, portfolio with standards, marking against exemplars), none of which is documented in any assessment table in the extract. Disciplinary critique of law and policy is not evaluative judgement of work quality. No assessment requires documenting or justifying reliance decisions on tools, collaborators or AI outputs, so level 3 fails.",
+      "evidenceLines": [
+        "analyse, critically reflect on and synthesise complex information, concepts and theories in the field of environmental law",
+        "Ability to investigate, evaluate, synthesise and apply existing knowledge in the relevant area(s) with creativity and initiative",
+        "Reflective / Research Essay",
+        "Reflect upon and critically evaluate issues around cultural water values and indigenous peoples’ rights to water."
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor: AI or digital tools appear only as electives or as tool operation/training. The only program-level technology statement is a graduate attribute regarding IT infrastructure availability in the Law Library and classrooms — operational infrastructure access, not curricular capability. AI governance content is present in the syllabus of LAWS90248 AI and Justice, but that subject is an elective listed under 'Further subjects related to course', not a core unit. Level 2 requires core units to address AI capabilities AND limitations/ethics with use-with-limits assessed; there are no core units in which this is documented, and none of the Environmental Law prescribed subjects contains AI content. Core assessment of AI critique or governance (level 3) is absent.",
+      "evidenceLines": [
+        "Advanced working skills in the use of new technology",
+        "The most advanced IT infrastructure is available to Melbourne Law Masters students in the Law Library, the Moot Court Room, classroom settings and for private study.",
+        "LAWS90248\tAI and Justice",
+        "AI and Justice (LAWS90248)",
+        "Further subjects related to course"
+      ]
+    },
+    "C4": {
+      "score": 1,
+      "rationale": "Level 1 anchor: transfer is claimed in outcomes ('apply existing law in the rapidly evolving legal context', 'adaptability and responsibility', 'flexibility of approach') but not assessed in a required core unit. Level 2 requires at least one core assessment demanding application to novel or unfamiliar problems, but the degree prescribes a credit volume from subject lists without compulsory core units for all students. Level 3 requires structured progression toward independent learning through a self-scoped capstone or research project. While self-scoped research papers on coordinator-approved topics appear across elective prescribed subjects, the program documents no structured progression: subjects are standalone intensives without prerequisite chains, there is no capstone, and the Minor Thesis is explicitly excluded from the degree.",
+      "evidenceLines": [
+        "the capacity to identify new laws and/or apply existing law in the rapidly evolving legal context for environmental law",
+        "research and apply such information, concepts and theories to the relevant body of knowledge and practice",
+        "Apply their knowledge and skills, as a practitioner and learner in the field of environmental law, to demonstrate:",
+        "adaptability and responsibility .",
+        "Research paper on a topic approved by the subject coordinator",
+        "Well-developed problem solving abilities, characterised by flexibility of approach"
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 1 anchor: literature-review and secondary scholarship assessment. Substantial assessed research papers (4,000–7,500 words on coordinator-approved topics) are documented across prescribed subjects (worth 70–85% of subject marks), and graduate attributes state research skills are tested in subject assessment. This satisfies level 1's scholarship/literature research anchor. Level 2 requires students to design and conduct an inquiry with methodology selection and data collection, assessed; the research papers in the extract are doctrinal secondary legal scholarship with no empirical data collection or methodology selection documented. Level 3 fails because a primary-evidence project is not required across the degree (several subjects set take-home examinations, and the Minor Thesis is excluded), and no viva or methodology defence under scrutiny is documented.",
+      "evidenceLines": [
+        "Advanced competencies in legal research and analysis",
+        "Class preparation and class discussions are designed to enhance these skills, which are tested in all forms of assessment. All graduates of an LLM will have demonstrated, through subject assessment, the ability to use their research skills to plan, develop and execute substantial research-based project(s) and/or piece(s) of scholarship.",
+        "Appreciation of the design, conduct and reporting of original research",
+        "Research papers and other research tasks are expected to attain a degree of creativity, originality and discovery that befits a postgraduate program of the highest quality, and students are encouraged and assisted to publish original work of a high standard in refereed journals.",
+        "Research paper on a topic approved by the subject coordinator",
+        "Option 1: Take-home examination",
+        "Take-home examination"
+      ]
+    },
+    "adaptiveness": 5,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1 anchor: communication appears in outcomes and graduate attributes, and spoken presentation to peers/staff is assessed across subjects, but no professional genre or audience beyond the teaching team is core-assessed. Program ILOs and graduate attributes claim communication of complex ideas to a variety of audiences, and assessed oral presentations to peers and teaching staff are pervasive across prescribed subjects (e.g. LAWS70100 25%, LAWS70185 10% oral, LAWS70219 20%, LAWS70293 10%, LAWS90115 15%, LAWS90127 20%, LAWS90147 10%, LAWS90168 20%, LAWS90248 15%). Professional genres appear in elective options (LAWS70349 Advisory report, LAWS90352 Legal Research Brief), but no subject is compulsory for all students, and no external audience or practice-derived assessment criteria are documented. Barrie's rule (R2) bars scoring stated attributes.",
+      "evidenceLines": [
+        "Capacity to effectively communicate complex legal ideas and theories, orally and in writing, to a variety of audiences",
+        "Classroom discussion and formal presentations provide an opportunity to hone oral communication skills, and written assessment tasks are graded in part on written communication skills.",
+        "interpret and transmit their knowledge, skills and ideas to specialist and non-specialist audiences",
+        "Class Presentation",
+        "In-class presentation (maximum 8 mins)",
+        "Advisory report",
+        "Legal Research Brief"
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Level 1 anchor: contextualised or scenario-framed tasks appear, but the artefacts produced and criteria applied remain academic. The program documents problem-based framing reaching assessment tasks ('Most subjects approach knowledge by reference to various issues or problems... through class discussion, individual study and assessment tasks'), and explicit case-study and scenario tasks are assessed (LAWS70100 case study assignment, LAWS90088 case study evaluation, LAWS90114 negotiation strategy). However, the dominant assessed artefacts across the degree remain academic: 4,000–7,500 word research papers and 3,000–5,000 word take-home examinations marked by the teaching team. Level 2 requires reproducing a professional task end-to-end judged against criteria drawn from practice in a core unit; the professional-genre tasks (Advisory report in LAWS70349, Legal Research Brief in LAWS90352) are elective options lacking documented practice criteria. Per R4, labels of practical relevance are not scored.",
+      "evidenceLines": [
+        "Well-developed problem solving abilities, characterised by flexibility of approach",
+        "Most subjects approach knowledge by reference to various issues or problems. Students are required to critically analyse problems and identify and develop a range of appropriate solutions through class discussion, individual study and assessment tasks.",
+        "Case study assignment (presentations & written assignment)",
+        "Case study evaluation; In-class component – case study and class participation (10%) and write up (15%)",
+        "Written country position paper/negotiation strategy for negotiation simulation",
+        "Research paper on a topic approved by the subject coordinator",
+        "Take-home examination"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1 anchor: work-situated learning exists only as an optional internship. The course structure lists LAWS70067 International Legal Internship under 'Further subjects related to course' as an elective that students may choose, but is never mandatory. Level 2's placement route requires a core unit placing students in a workplace setting with practitioner supervision and assessment; no core unit in the program provides a placement, practicum or live client project. The v4.2 in-practice route does not apply: the overview describes relevance to professionals and practitioners as well as those with general interest, but the cohort is not documented as already practising professionals, and no core unit assesses activity conducted in a student's own practice with real recipients and an outcome measure. All subjects carry a standard 75% on-campus attendance hurdle.",
+      "evidenceLines": [
+        "LAWS70067\tInternational Legal Internship",
+        "Further subjects related to course",
+        "The specialisation in environmental law provides students with expertise in a dynamic area of law that will continue to grow in importance. The course is of particular relevance to people working in environmental and resources sectors, professionals in government, legal practitioners and those with a broader philosophical or practical interest. The subjects are focused on emerging national and international legal issues and practices, such as in water law, climate change law, animal law, waste management and general planning and development. Other areas include the negotiation of international environmental treaties and the laws surrounding international ‘commons’ areas such as Antarctica, the high seas and outer space.",
+        "Hurdle requirement: A minimum of 75% attendance is required.\tThroughout the teaching period\tN/A"
+      ]
+    },
+    "workplace": 3,
+    "gates": {
+      "G1": {
+        "result": "FAIL",
+        "rationale": "The G1 PASS condition requires a documented coherent specialist core with progressive technical or methodological depth via an all-compulsory specialist core, an accredited sequence, or a staged prerequisite chain. The extract documents none of the three. (a) No all-compulsory specialist core: students with a law degree have zero compulsory subjects and 12.5 credit points of free choice from across the Master of Laws, so an eighth of the degree is interchangeable; the one compulsory subject (Fundamentals of the Common Law) applies only to non-common-law entrants and is a generic MLM legal-method subject, not environmental law. (b) No accredited sequence: no professional accreditation is documented anywhere in the extract. (c) No staged prerequisite chain: all prescribed subjects are standalone 12.5-point level-7 intensives with no prerequisite chain, sequencing or capstone. Furthermore, the prescribed lists include generic non-environmental subjects under 'Further subjects related to course' (e.g. Construction Law, Construction Risk). Precedent in 504aa, 507aa, 526aa, and 502cw binds.",
+        "evidenceLines": [
+          "Students must complete 100 credit points in total.",
+          "Subject options",
+          "Environmental Law subjects",
+          "Further subjects related to course",
+          "LAWS70176\tConstruction Law",
+          "LAWS70149\tConstruction Risk"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "The FAIL condition (recall or scripted responses only) is contradicted by the documented assessment across the extract. Core and prescribed subjects assess 4,000–7,500 word research papers, 3,000–5,000 word take-home examinations, advisory reports, and case-study evaluations. The program documents at graduate attribute level that students must critically analyse problems and develop a range of appropriate solutions through assessment tasks. Subject learning outcomes require evaluating complex trade-offs under high scientific and socio-economic uncertainty (e.g. assessing regulatory efficacy and the precautionary principle in LAWS70100, inter-jurisdictional water conflicts in LAWS70185, carbon pricing vs direct action in LAWS70293, urban sprawl and land use trade-offs in LAWS70349, and toxics/PFAS governance under scientific uncertainty in LAWS90352).",
+        "evidenceLines": [
+          "Most subjects approach knowledge by reference to various issues or problems. Students are required to critically analyse problems and identify and develop a range of appropriate solutions through class discussion, individual study and assessment tasks.",
+          "Take-home examination",
+          "Research paper on a topic approved by the subject coordinator",
+          "Advisory report",
+          "Case study assignment (presentations & written assignment)",
+          "Have a sound general knowledge of the concepts of environmental law and be able to assess the efficacy of the principles of environmental regulation"
+        ]
+      }
+    },
+    "ambiguities": [
+      "Structural ambiguity across all items: the course structure prescribes a credit volume from subject lists (87.5-100 cp) rather than named compulsory subjects. For law degree holders there are zero compulsory subjects; for non-law degree holders only Fundamentals of the Common Law is compulsory. Every level-2 or level-3 anchor requiring that 'a core unit assesses' or that practice recurs 'across the program' is therefore constrained by the absence of a compulsory specialist core, and subjects from prescribed lists were treated as electives per the scoring-direction rule.",
+      "C1 straddled 1 and 2: assessed group presentation is documented in LAWS90248 AI and Justice (15%) and negotiation simulation strategy in LAWS90114 (15%), which would satisfy level 2 if prescribed subjects counted as core. Resolved down to 1 because LAWS90248 is an elective in 'Further subjects', LAWS90114 is marked 'Not available in 2026', and a student can complete the degree without taking any collaborative unit.",
+      "C2 straddled 0 and 1: the course ILO claims students 'critically reflect on' complex information, but this is reflection on subject doctrine rather than appraisal of the quality of work. Scored 1 because reflection is explicitly claimed in program ILOs; no move to 2 is possible because no peer review, structured critique rubric, portfolio with standards, or marking against exemplars exists in the extract.",
+      "C3: LAWS90248 AI and Justice contains substantive AI governance content (automated decision-making, algorithmic bias, transparency, privacy, and regulatory design) that would read as level 3 material if it were core and assessed. Resolved down to 1 because LAWS90248 is an optional elective in 'Further subjects related to course', and no core unit addresses AI.",
+      "C4 straddled 1 and 3 on self-scoped research papers: 4,000-7,500 word research papers on coordinator-approved topics appear across prescribed subjects. Resolved down to 1 because level 3 requires documented structured progression toward independent learning, whereas the extract documents standalone intensives with no prerequisite chain, no capstone, and the Minor Thesis is explicitly excluded.",
+      "C5 straddled 1 and 2: substantial research papers (4,000-7,500 words) are assessed at 70-85% weight across the prescribed list, but the papers are secondary doctrinal legal scholarship without assessed data collection or empirical methodology selection. Level 3 fails because research papers are not universally required (several subjects set take-home exams) and no viva or methodology defence under scrutiny is documented. Scored 1.",
+      "W1 straddled 0 and 1: class presentations and spoken participation are assessed across most prescribed subjects (LAWS70100, LAWS70185, LAWS70219, LAWS70293, LAWS90115, LAWS90127, LAWS90147, LAWS90168, LAWS90248), but none of these subjects is compulsory for all students. Scored 1 based on program-level graduate attributes and pervasive presentation assessment across the prescribed offerings. Professional genres in electives (Advisory report in LAWS70349, Legal Research Brief in LAWS90352) cannot lift to level 2 because they are electives lacking documented practice criteria.",
+      "W2 straddled 1 and 2: problem-based framing and case-study evaluations appear across subjects, but dominant assessed artefacts (research papers, take-home exams) remain academic. Professional artefacts in electives lack documented practice criteria. Scored 1.",
+      "W3 straddled 1 and 2 on the v4.2 in-practice route: the overview mentions relevance to professionals and practitioners, but the cohort is not documented as already practising professionals, and no assessment is conducted in a student's own practice with real recipients or an outcome measure. Optional internship LAWS70067 caps at level 1.",
+      "G1 FAIL: the program has high specialist topical breadth in environmental law, but the G1 PASS condition requires a documented all-compulsory specialist core, an accredited sequence, or a staged prerequisite chain. None of the three is documented in the extract, matching precedent in 504aa, 507aa, 526aa, and 502cw."
+    ],
+    "notScoreable": [
+      "Fundamentals of the Common Law (LAWS70217) — the only compulsory subject (for non-common-law entrants) — has no subject or assessment page in the extract, so its assessment design could not be directly inspected.",
+      "International Legal Internship (LAWS70067) has no subject or assessment page in the extract, so its duration, supervision, and assessment design are unknown beyond its listing as an optional subject in the course structure.",
+      "Assessment criteria, rubrics, and marking standards are not published in the handbook extract for any subject, so criterion-referenced appraisal (C2) and practice-derived criteria (W1/W2) could not be tested directly."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-23"
+    }
+  },
   "mc-envsc": {
     "instrument": "4.1-draft",
     "C1": {
@@ -8981,6 +9979,154 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "adversarial": true,
       "mechanical": true,
       "date": "2026-08-15"
+    }
+  },
+  "mc-indeng": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor: at least one core unit assesses collaborative practice — group projects with individual accountability, client or stakeholder work, interprofessional activity. Assessed collaborative practice is pervasive across the 175-point compulsory core: ENGR90051 Interdisciplinary Design for Engineers runs team reviews, team demonstrations, and team final submissions with an individual peer feedback and evaluation component (15%); ENGR90037/ENGR90038 Engineering Capstone Project runs group assessments with individual components (30% final report, 30% oral examination hurdle, 10% presentation); and MCEN90054 Design and Manufacturing Practice assesses group design and final reports with individually marked VIVA presentations (hurdled). Assessed group work also recurs in MCEN90053, MCEN90056, MCEN90057, MCEN90058, MAST90014, MGMT90026, and ENGM90011. Level 3 is not met: although collaborative practice recurs throughout the core, the second conjunct fails — no assessment description in the extract requires coordinating work across people AND tools/AI systems with documented role and tool allocation, nor is the division of work between people and systems itself assessed.",
+      "evidenceLines": [
+        "Mid-semester project review (conducted as a team, marked individually). 10-minute interactive discussion supported by 2-page written submission + evidence (e.g. interview transcripts, photographs) Approx. 20 hours of work per student, including project work (~15 hours) and compilation + preparation (~5 hours)",
+        "Final written report (group assessment with individual components), due week 12 of 2nd semester of project. Groups between 2‐4 students.",
+        "Oral examination for each student of up to twenty minutes (group assessment with individual components). Due in the exam period of the 2nd semester of the project.",
+        "Group Design Report (4 student groups 15%). VIVA style presentation, 5 minutes per student (individually marked 5%).",
+        "Group report, maximum 6000 words for a group of 4-5 (1500 words each)",
+        "Demonstrate effective, innovative, and proactive team membership, both as team members and team leaders."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2 anchor: core assessment includes criterion-referenced appraisal of quality — peer review, structured critique, portfolio with standards, marking against exemplars. Core subject ENGR90051 Interdisciplinary Design for Engineers explicitly assesses 'Peer feedback + evaluation (individual)' worth 15% (Feedback: ~8 hours, Evaluation: ~12 hours including teamwork documentation, team discussion + personal reflection), alongside structured iterative project logs and an individual reflection. In addition, the course-level Engineering Practice Hurdle Requirement requires students to document their attainment of graduate attributes in an e-portfolio system according with University and professional accreditation standards. Level 3 is not met: no assessment requires students to document and justify reliance decisions (when they relied on or overrode a tool, source or collaborator), defend judgements of AI-output quality, or evidence strategy adjustment over time.",
+      "evidenceLines": [
+        "Peer feedback + evaluation (individual). Feedback: Approx. 8 hours of work per student. Evaluation: Approx. 12 hours of work, including teamwork documentation, team discussion + personal reflection",
+        "Project log (individual) 0.5 to 1 page, every 2-3 weeks through the semester, 10% total (2.5% per submission).",
+        "Reflection (based on the project logs and the rest of the subject) (individual). Approx. 10 hours of work per student. (Equivalent to approx. 2 pages)",
+        "Promote a positive and collaborative interdisciplinary team atmosphere by appreciating the benefits of diversity in the design process and giving and receiving feedback.",
+        "Students will be introduced early in their degree to the online e‐portfolio system as a way of documenting their attainment of graduate attributes which accord with University and professional accreditation standards. Students will keep a record of their stepwise attainment of these capabilities throughout their engineering studies at Melbourne. The artifacts recorded in the e‐portfolio may include formal study elements, such as design reports, as well as reflections on extracurricular activities such as employment and volunteering activities."
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor: digital tools appear as tool operation/training or digital systems integration without assessed AI ethics/limitations. Core subjects feature substantial digital and automated systems content: MCEN90056 Industry Digital Transformation covers IIoT, digital twins, and digital solutions integration, examining industrial challenges; MCEN90057 Manufacturing Automation and IT covers automation hierarchies, Petri nets, and robotics; MCEN90053 covers discrete event simulation packages; and MAST90014 covers Python and black-box solvers. Level 2 requires core units to address AI capabilities AND limitations/ethics with use-with-limits assessed; the extract contains no artificial intelligence, machine learning, or gen AI capability and limitation/ethics content assessed in any core unit. Level 3 (critique or governance of AI systems — bias, accountability, transparency, regulation, data governance) is entirely absent from the extract.",
+      "evidenceLines": [
+        "Digitalisation affects all aspects of the value chain and all levels of business. This subject embraces the wide range of industrial developments related to digital transformation such as industrial internet-of-things (IIOT) and digital twins. Digital transformation of industrial systems is defined as the application of digital information (from multiple sources, formats, owners) for the enhancement of manufacturing processes, value chains, products and services.",
+        "Analyse the challenges associated with the use of digital solutions at different dimensions.",
+        "Automation and Information Technology (IT) is essential for the survival of a company within the current manufacturing environment. This subject takes a hierarchical view of manufacturing operations which are associated with a task, part, product and order completion. After a broad introduction to the role of automation in industry and beyond, this hierarchical approach to considering manufacturing operations is discussed.  The subject discusses, in turn, the different requirements for manufacturing automation and information systems that are required to manage each of the different levels of the hierarchy culminating in an examination of automation and information systems beyond the factory as they apply to an industrial supply chain.",
+        "Solve optimisation problems arising in industrial frameworks using Python and appropriate black-box solvers."
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2 anchor: at least one core assessment requires application to novel or unfamiliar problems — case variation, unseen datasets, cross-context projects. Multiple core assessments require applying engineering methods to open-ended and novel design challenges: ENGR90051 requires students to address a complex challenge through hands-on design, prototyping, testing, and iteration; MCEN90054 requires synthesizing solutions to open-ended design problems and vaguely defined design tasks to manufacture a functional product; and ENGR90037/ENGR90038 Engineering Capstone Project requires an independent investigation on an approved advanced engineering design or research topic. Level 3 is not met: level 3 requires documented structured progression toward independent learning via 'a self-scoped capstone or research project, or assessed identification of one's own knowledge gaps together with the plan to close them'. In ENGR90037, the capstone topics are approved topics or externally supplied client tasks ('often based on a task required by an external, industrial client... or A project description that will require an explorative approach... adjunct to existing academic research initiatives') rather than student self-scoped inquiries, and the e-portfolio requirement is a record of attribute attainment rather than an assessed gap-identification-and-action plan.",
+      "evidenceLines": [
+        "The subject involves undertaking a substantial group project (typically in groups of three students) requiring an independent investigation on an approved topic in advanced engineering design and / or research. Each project is carried out under the supervision of a member of academic staff and where appropriate an industry partner.",
+        "A well-defined project description, often based on a task required by an external, industrial client. Students will be tutored in the synthesis of practical solutions to complex technical problems within a structured working environment, as if they were professional engineering practitioners; or",
+        "A project description that will require an explorative approach, where students will pursue outcomes associated with new knowledge or understanding, within the engineering science disciplines, often as an adjunct to existing academic research initiatives.",
+        "In this subject, students will actively engage in an interdisciplinary, collaborative and project-based learning environment, offering insights into the professional nature of engineering work. Through a real-world project, students will gain hands-on design experience addressing a complex challenge. The project will require students to integrate discipline knowledge and apply professional skills like teamwork and communication.",
+        "This project-based subject allows students to work individually and in a team environment to design and manufacture a functional product.",
+        "ILO3. Synthesize solutions to open-ended design problems;",
+        "ILO5. Formulate a path for engineering solutions of well-delineated problems for dealing with complex and/or vaguely defined design tasks;"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2 anchor: students design and conduct an inquiry with methodology selection and data collection, assessed. Core units require assessed inquiry design, experimental data planning, and laboratory investigation: MCEN90059 Probability, Reliability and Quality assesses designing and planning for collecting experimental data in industry-based problems; MCEN90055 Manufacturing Processes and Technology assesses hands-on laboratory exercises in real-life scenarios with a laboratory certification hurdle and individual lab assignment; MCEN90054 assesses open-ended design and manufacturing inquiries with hurdled VIVA presentations; and ENGR90037/ENGR90038 requires a 25-point independent investigation in advanced engineering design or research. Level 3 is not met under the lower-level rule: while the 25-point capstone is compulsory and defended via an individual oral examination hurdle (30%) and oral assessment (10%), the capstone allows an industrial client design route ('synthesis of practical solutions to complex technical problems') as an alternative to explorative research, so the mandatory generation of primary empirical evidence across all cohorts is not unambiguously documented.",
+      "evidenceLines": [
+        "The subject involves undertaking a substantial group project (typically in groups of three students) requiring an independent investigation on an approved topic in advanced engineering design and / or research. Each project is carried out under the supervision of a member of academic staff and where appropriate an industry partner.",
+        "Oral examination for each student of up to twenty minutes (group assessment with individual components). Due in the exam period of the 2nd semester of the project.",
+        "Hurdle requirement: Students must achieve at least a pass average for the combination of oral examination and final written report.\tDuring the examination period\t30%",
+        "Oral assessment for each student of up to 15 minutes (group assessment with individual components). Due in the exam period of the 1st semester of the project.",
+        "Group Design Report (4 student groups 15%). VIVA style presentation, 5 minutes per student (individually marked 5%).",
+        " Hurdle Requirement: To pass the subject, students must achieve at least 5/10 total for the VIVA presentations.",
+        "3. Design and plan for collecting experimental data to uncover critical information and knowledge in industry-based problem;",
+        "This subject has a series of laboratory exercises that provide hands-on experience with manufacturing in real-life scenarios.",
+        "Individual lab assigment. ILOs 2, 4 and 6 are addressed in this assessment."
+      ]
+    },
+    "adaptiveness": 9,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 anchor: at least one core assessment requires a recognised professional genre or an audience beyond the teaching team — client brief, consultancy or policy advice, clinical handover, pitch, public-facing artefact — judged against criteria drawn from professional practice. ENGR90037/ENGR90038 Engineering Capstone Project assesses a 'Non-technical presentation to lay-audience of no more than 30 minutes' (10%) and two assignments on Professional Engineering Practice (20%); MCEN90060 assesses a public-facing 'Final Individual Poster Submission' (10%); and ENGR90051 assesses team demonstration and purposeful interaction with stakeholders. Level 3 is not met: although professional communication recurs across the core, the extract does not document that assessments are delivered to or judged by a real external practitioner panel or external client with professional conduct explicitly among the assessed marking criteria.",
+      "evidenceLines": [
+        "Non-technical presentation to lay-audience of no more than 30 minutes (group assessment with individual components). Due week 6-12 of 2nd semester of project.",
+        "Continuous Assessment on Professional Engineering Practice: Assignment 1 (group assessment) due week 4-7 of 1st semester of project.",
+        "Continuous Assessment on Professional Engineering Practice: Assignment 2 (individual assessment) due week 8-12 of 1st semester of project.",
+        "Demonstration (team) Approx. 20 hours of work per student, including project work (~10 hours), demo and presentation and preparation (~10 hours)",
+        "Final Individual Poster Submission.",
+        "Justify, interpret, and communicate (both orally and in writing) theoretical propositions, methodologies, conclusions and professional decisions to specialist and non-specialist audience;",
+        "Demonstrate effective engineering communication skills, including the ability to articulate design concepts and technical information to achieve specific outcomes, and to purposefully interact with a range of stakeholders."
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3 anchor: authentic practitioner tasks are the program's assessment spine rather than a single instance (a capstone plus earlier scaffolding, or at least one per stage) AND at least one carries a genuine constraint of practice — an ambiguous or externally supplied problem, real resource/time limits, a consequential audience, or the profession's own standards of performance. Both conditions are documented in core assessment. First, practitioner-fidelity tasks form the entire core spine across Year 1 and Year 2: ENGR90051 (end-to-end design from problem definition through prototyping and testing to final 10-page submission), MCEN90054 (design and manufacturing of a functional product for structural integrity and concurrent engineering with VIVA hurdles), MCEN90053 (systems engineering simulation project), MCEN90060 (LCA and LCC eco-design reports), and the year-long ENGR90037/ENGR90038 Engineering Capstone Project. Second, these tasks carry genuine constraints of practice: dealing with complex, vaguely defined and open-ended design problems (MCEN90054), real-world stakeholder and sustainability constraints with physical prototyping (ENGR90051), and industrial client project requirements (ENGR90037).",
+      "evidenceLines": [
+        "Students will experience the entire engineering design process, covering problem definition, ideation, concept development, analysis, prototyping, testing and iteration. The project provides practical experience, equipping students with tools and methods to address complex challenges. Students are expected to integrate diverse perspectives, considering factors like stakeholders, sustainability (including environmental and social issues), safety, feasibility, and technical and ethical considerations.",
+        "Final project submission (team) Approx. 20 hours of work per student, including project work (~15 hours, also contributing to Interactive discussion) and submission (~5 hours). In-class activities during semester contribute to the preparation of this submission. (Submission equivalent to approx. 10 pages)",
+        "As manufacturers compete in the global market, their success largely depends on the ability to reduce time in the product development process, improve product quality and productivity, lower cost in the manufacturing process, fulfil customer's requirements and address environmental concerns.  Therefore, this subject aims to equip students with a systematic approach to undertake abstract and concrete design tasks, considering the broader engineering environment and the ability to select suitable manufacturing processes to realize their designs.",
+        "Group Final Report, due in exam period (4 student groups 25%). VIVA style presentation, 5 minutes per student, due Week 12 (individually marked 5%).",
+        "A well-defined project description, often based on a task required by an external, industrial client. Students will be tutored in the synthesis of practical solutions to complex technical problems within a structured working environment, as if they were professional engineering practitioners; or",
+        "Topics covered are grouped in four modules: 1) fundamentals of systems engineering; 2) functional analysis and conceptional modelling; 3) model implementation and discrete event simulation; and, 4) model validation and system evaluation. This subject will include a high level of industry engagement. Real world problems and industry projects will be used as learning instrument to provide first hand experience and to reinforce the system thinking as engineers. Industrial speakers are also invited as guest lectures to provide broader examples of engineering projects.",
+        "Individual LCA report.",
+        "Individual LCC & Eco-design report."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1 anchor: work-situated learning exists only as an elective, an optional internship, or an unassessed extracurricular or careers activity. The program structure includes ENGR90033 Internship as a 25-point elective subject, and the Engineering Practice Hurdle Requirement permits students to satisfy the hurdle via the Skills Towards Employment Program (STEP, a careers activity), ENGR90033 Internship, or an uncredited internship at an approved engineering firm. Level 2 is not met because no core unit places students in a real workplace or professional community with practitioner supervision and assessment; the core consists of 175 credit points of academic/design subjects. The v4.2 in-practice route does not apply as the cohort is not documented as already practising engineers.",
+      "evidenceLines": [
+        "In order to achieve the Engineering Practice Hurdle requirement, students will need to document the attainment of professional skills at an adequate level. This may include the successful completion of any of the following:",
+        "1. Skills Towards Employment Program (STEP)",
+        "2. ENGR90033 Internship subject.",
+        "3. An agreed level of internship at an approved engineering firm (without receiving University credit)",
+        "ENGR90033\tInternship",
+        "Students complete 25 credit points from:",
+        "175 credit points of core subjects"
+      ]
+    },
+    "workplace": 6,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "PASS condition: the program documents a coherent specialist core with progressive technical and methodological depth across all three routes. First, 175 of the 200 credit points (87.5%) are in an all-compulsory specialist industrial engineering core. Second, the program is professionally accredited by Engineers Australia. Third, the core follows a staged prerequisite and design spine from first-year foundational manufacturing, design, simulation, and probability subjects (MCEN90054, MCEN90055, MCEN90058, MCEN90053, MCEN90059, ENGR90051) through advanced digital transformation and lifecycle engineering (MCEN90056, MCEN90060, MAST90014) to the compulsory 25-point Engineering Capstone Project Parts 1 & 2 (ENGR90037/ENGR90038). Content is thoroughly disciplinary and not generic.",
+        "evidenceLines": [
+          "The Master of Industrial Engineering requires the successful completion of 200 credit points.",
+          "175 credit points of core subjects",
+          "Engineers Australia",
+          "Apply and develop a robust understanding of the fundamental scientific and engineering principles underlying the field of industrial engineering;",
+          "Students in this course develop a comprehensive set of skills in manufacturing technologies, system and simulation, operation and business management, and advanced manufacturing and operation techniques. Real-world projects and industry grounding activities help to consolidate theoretical knowledge and prepare students to undertake careers in industries from manufacturing and processing to healthcare, banking and consulting."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "PASS condition: assessments require defended trade-off decisions, open-ended problem solving, and capstone projects with real uncertainty and accountability. In ENGR90037/ENGR90038, students undertake a substantial year-long project addressing complex client or explorative research challenges, defended via a 30% hurdle oral examination, 30% hurdle final report, and continuous assessment. In MCEN90054, students synthesize solutions to open-ended and vaguely defined design tasks, balancing customer requirements, manufacturing feasibility, cost, and environmental concerns, defended in two hurdled VIVA presentations. In ENGR90051, students navigate trade-offs among stakeholders, sustainability, safety, and technical constraints. In MCEN90060, students evaluate triple bottom line trade-offs through LCA and eco-design reports and oral exams. This far exceeds recall or scripted responses.",
+        "evidenceLines": [
+          "A well-defined project description, often based on a task required by an external, industrial client. Students will be tutored in the synthesis of practical solutions to complex technical problems within a structured working environment, as if they were professional engineering practitioners; or",
+          "Hurdle requirement: Students must achieve at least a pass average for the combination of oral examination and final written report.\tDuring the examination period\t30%",
+          "Students will experience the entire engineering design process, covering problem definition, ideation, concept development, analysis, prototyping, testing and iteration. The project provides practical experience, equipping students with tools and methods to address complex challenges. Students are expected to integrate diverse perspectives, considering factors like stakeholders, sustainability (including environmental and social issues), safety, feasibility, and technical and ethical considerations.",
+          "ILO5. Formulate a path for engineering solutions of well-delineated problems for dealing with complex and/or vaguely defined design tasks;",
+          " Hurdle Requirement: To pass the subject, students must achieve at least 5/10 total for the VIVA presentations.",
+          "Analyse triple bottom line of sustainability in an engineering context;"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1 straddled levels 2 and 3: collaborative practice is assessed across nearly all core units (ENGR90051, ENGR90037/8, MCEN90054, MCEN90053, MCEN90056, MCEN90057, MCEN90058, MAST90014, MGMT90026, ENGM90011), satisfying recurrence, but level 3 additionally requires documented role and tool allocation or assessed division of work between people and AI/systems. Because no assessment description explicitly assesses human-system work division, resolved DOWN to 2 per the never-resolve-upward rule.",
+      "C2 straddled levels 1 and 2: ENGR90051 includes an explicit 15% 'Peer feedback + evaluation (individual)' assessment alongside longitudinal project logs and reflection, and the degree features an e-portfolio system against accreditation standards, satisfying level 2's criterion-referenced appraisal/peer review anchor. Level 3 was considered due to the longitudinal project logs, but no documented tool reliance/override decisions or defence of AI-output quality are present, so the score remains at 2.",
+      "C3 straddled levels 0 and 1: digital systems, automation, IIoT, discrete event simulation, and digital transformation are heavily featured in the core (MCEN90056, MCEN90057, MCEN90053, MAST90014), but artificial intelligence capabilities/limitations/ethics are not assessed in core units, capping C3 at 1.",
+      "C4 straddled levels 2 and 3: the program documents a strong design progression through ENGR90051, MCEN90054 and the year-long ENGR90037/8 capstone. Level 3 requires a self-scoped capstone/research project or assessed identification of one's own knowledge gaps with a plan to close them. In ENGR90037, capstones are based on approved topics, industrial client tasks, or academic research adjuncts rather than student self-scoped questions, and the e-portfolio is an attainment record rather than an assessed gap-closing plan. Resolved DOWN to 2.",
+      "C5 straddled levels 2 and 3: the 25-point capstone ENGR90037/8 is compulsory and defended via an individual oral examination hurdle (30%), oral assessment (10%), and lay-audience presentation (10%), alongside hurdled VIVA presentations in MCEN90054. However, because ENGR90037 accommodates an industrial client design route ('synthesis of practical solutions to complex technical problems') alongside explorative research, primary empirical evidence generation is not strictly mandatory for all project routes. Resolved DOWN to 2 per the scoring-direction rule.",
+      "W1 straddled levels 2 and 3: ENGR90037 assesses a non-technical presentation to a lay audience (10%) and professional engineering practice assignments (20%), and MCEN90060 assesses a poster submission (10%), satisfying level 2. Level 3 was not awarded because delivery to or judgement by a real external practitioner panel with explicit assessed professional conduct criteria is not documented for all students.",
+      "W2 straddled levels 2 and 3: practitioner tasks form the core assessment spine across Year 1 and Year 2 (ENGR90051, MCEN90054, MCEN90053, MCEN90060, ENGR90037/8) with genuine constraints of practice (open-ended vaguely defined tasks, physical prototyping/testing, and external industrial client briefs). Both limbs of level 3 are satisfied on documented task features.",
+      "W3: work-situated learning is available through elective ENGR90033 or uncredited/STEP pathways to satisfy the Engineering Practice Hurdle Requirement, but no workplace placement is a compulsory core unit, placing the item squarely at level 1.",
+      "One-construct-one-home allocations: ENGR90051 peer feedback and evaluation was scored under C2 (evaluative judgement) rather than W2; ENGR90037 lay-audience presentation was scored under W1 (audience/genre) and oral examination under C5 (methodological defence/scrutiny), not double counted; MCEN90054 VIVA presentations were scored under C5 (defence under scrutiny) with task fidelity scored in W2."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-23"
     }
   },
   "mc-intedib": {
