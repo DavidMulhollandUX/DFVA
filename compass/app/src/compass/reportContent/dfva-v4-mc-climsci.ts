@@ -1,4 +1,9 @@
-# DFVA v4 DURABILITY REPORT: Master of Climate Science (MC-CLIMSCI)
+// Auto-generated from reports/*.md by scripts/dfva-content-generate.ts — do not edit by hand.
+// Run: npm --prefix scripts run dfva:gen-content
+const content = {
+  title: "Master of Climate Science (MC-CLIMSCI) — Durability Report (v4 draft)",
+  institution: "University of Melbourne",
+  markdown: `# DFVA v4 DURABILITY REPORT: Master of Climate Science (MC-CLIMSCI)
 
 **Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
 **Assessment date:** 2026-08-23
@@ -198,7 +203,7 @@ The §1 exposure value (83.13) is borrowed from the Master of Environmental Scie
 
 **Confidence, restated from the market report.** Medium-high overall, on the strength of documented structural drivers: the ASRS disclosure timeline is published policy, and the field's growth is not in dispute. The market report flags two calibration points of its own. Carbon market roles are "real but early-stage" and the market remains volatile, so CI-4 recommends teaching carbon market literacy "without overstating employment certainty". And the international and multilateral pathway, while genuine, typically requires strong academic profiles and prior field experience that a 1.5-year structure may not fully support.
 
-> **One block of the market report is not used here.** Its `LABOUR-EVIDENCE` footer carries a JSA Higher Education Outcomes destination table for the broad natural-and-physical-sciences field — Medical Laboratory Scientist, Geologist, Sales Assistant — byte-identical to the one in the Bachelor of Science market report. Whether the broad-science field is the right grain for a specialist climate program is exactly the question that block cannot answer, so it is excluded rather than reproduced. The Panel A basis in §1 is unaffected: it comes from the Master of Environmental Science alumni record.
+> **One block of the market report is not used here.** Its \`LABOUR-EVIDENCE\` footer carries a JSA Higher Education Outcomes destination table for the broad natural-and-physical-sciences field — Medical Laboratory Scientist, Geologist, Sales Assistant — byte-identical to the one in the Bachelor of Science market report. Whether the broad-science field is the right grain for a specialist climate program is exactly the question that block cannot answer, so it is excluded rather than reproduced. The Panel A basis in §1 is unaffected: it comes from the Master of Environmental Science alumni record.
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
@@ -221,7 +226,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **cognate** (cognate program), n = 32, 15 destination titles, 9 at medium mapping confidence. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`. Basis note: Closest discipline-matched record.
+**Panel A metadata.** Basis tier **cognate** (cognate program), n = 32, 15 destination titles, 9 at medium mapping confidence. Index variant AIOE-2021; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`. Basis note: Closest discipline-matched record.
 
 **Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-08-23: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 
@@ -295,3 +300,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 33. Barrie SC (2006). Understanding what we mean by the generic attributes of graduates. Higher Education 51:215–241; and Barrie SC (2007), A conceptual framework for the teaching and learning of generic graduate attributes, Studies in Higher Education 32(4):439–458. (Stated graduate attributes are not evidence of attainment — why R2 binds hardest on W1.)
 34. Tomlinson M (2017). Forms of graduate capital and their relationship to graduate employability. Education + Training 59(4):338–352. (Scoping source: social, cultural and psychological capital are student and network properties, not curriculum properties, and are therefore out of scope.)
 35. Lester S, Costley C (2010). Work-based learning at higher education level: value, practice and critique. Studies in Higher Education 35(5):561–575. (Work-based learning in the learner's own employment as an established higher-education mode for in-practice cohorts — the warrant for W3's own-practice route, added in v4.2.) https://doi.org/10.1080/03075070903216635
+`,
+};
+
+export default content;

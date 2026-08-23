@@ -1,4 +1,9 @@
-# DFVA v4 DURABILITY REPORT: Master of Business Administration (Marketing) (MC-BAMKTG)
+// Auto-generated from reports/*.md by scripts/dfva-content-generate.ts — do not edit by hand.
+// Run: npm --prefix scripts run dfva:gen-content
+const content = {
+  title: "Master of Business Administration (Marketing) (MC-BAMKTG) — Durability Report (v4 draft)",
+  institution: "University of Melbourne",
+  markdown: `# DFVA v4 DURABILITY REPORT: Master of Business Administration (Marketing) (MC-BAMKTG)
 
 **Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
 **Assessment date:** 2026-08-23
@@ -220,7 +225,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
-**Panel A metadata.** Basis tier **variant** (measured · parent record), n = 422, 15 destination titles, 9 at medium mapping confidence. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`. Basis note: variant of "Master of Business Administration"
+**Panel A metadata.** Basis tier **variant** (measured · parent record), n = 422, 15 destination titles, 9 at medium mapping confidence. Index variant AIOE-2021; crosswalk \`data/aioe/v31_extension_crosswalk.csv\`. Basis note: variant of "Master of Business Administration"
 
 **Panel C provenance.** Scored from the 2026 handbook capture (35 pages) and verified on 2026-08-23: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 
@@ -295,3 +300,7 @@ below are ordered by headroom, which is not the plan's P-lever order.
 33. Barrie SC (2006). Understanding what we mean by the generic attributes of graduates. Higher Education 51:215–241; and Barrie SC (2007), A conceptual framework for the teaching and learning of generic graduate attributes, Studies in Higher Education 32(4):439–458. (Stated graduate attributes are not evidence of attainment — why R2 binds hardest on W1.)
 34. Tomlinson M (2017). Forms of graduate capital and their relationship to graduate employability. Education + Training 59(4):338–352. (Scoping source: social, cultural and psychological capital are student and network properties, not curriculum properties, and are therefore out of scope.)
 35. Lester S, Costley C (2010). Work-based learning at higher education level: value, practice and critique. Studies in Higher Education 35(5):561–575. (Work-based learning in the learner's own employment as an established higher-education mode for in-practice cohorts — the warrant for W3's own-practice route, added in v4.2.) https://doi.org/10.1080/03075070903216635
+`,
+};
+
+export default content;

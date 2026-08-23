@@ -212,6 +212,26 @@ const reportMeta: Record<
   // mc-mgmthre has no v3 Panel A record, so /insights/v4/mc-mgmthre cannot render it.
   // The markdown report is its only surface until the program is placed.
   "dfva-v4-mc-mgmthre": { score: null, riskBand: null },
+  // v4 extension cohort — Panel C v4.2, drafted 2026-08-23. No v1 composite for
+  // any of them: the v4 family reports its two sub-scales and never a total.
+  "dfva-v4-080cl": { score: null, riskBand: null },
+  "dfva-v4-080cn": { score: null, riskBand: null },
+  "dfva-v4-300bb": { score: null, riskBand: null },
+  "dfva-v4-b-des": { score: null, riskBand: null },
+  "dfva-v4-b-sci": { score: null, riskBand: null },
+  "dfva-v4-dr-philedp": { score: null, riskBand: null },
+  "dfva-v4-mc-actsc": { score: null, riskBand: null },
+  "dfva-v4-mc-bamktg": { score: null, riskBand: null },
+  "dfva-v4-mc-bmedsc": { score: null, riskBand: null },
+  "dfva-v4-mc-climsci": { score: null, riskBand: null },
+  "dfva-v4-mc-envlaw": { score: null, riskBand: null },
+  "dfva-v4-mc-indeng": { score: null, riskBand: null },
+  "dfva-v4-recommend-mc-actsc": { score: null, riskBand: null },
+  "dfva-v4-recommend-mc-bamktg": { score: null, riskBand: null },
+  "dfva-v4-recommend-mc-bmedsc": { score: null, riskBand: null },
+  "dfva-v4-recommend-mc-climsci": { score: null, riskBand: null },
+  "dfva-v4-recommend-mc-envlaw": { score: null, riskBand: null },
+  "dfva-v4-recommend-mc-indeng": { score: null, riskBand: null },
 };
 
 const DIMENSIONS = [

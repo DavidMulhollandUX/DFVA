@@ -110,14 +110,27 @@ function renderModule(key: string): string {
 }
 
 // --- Collect the key set ------------------------------------------------------
-// Parsed from the aggregator (self-describing). The two legacy sub-files are
-// read too so a checkout that predates the per-module layout migrates cleanly;
-// they are deleted after a successful run.
+// `reports/dfva-*.md` IS the key set. This used to be parsed back out of the
+// aggregator it generates, which made the generator self-describing and meant a
+// newly authored report was silently never published — it had to already appear
+// in the file the generator writes. The legacy sub-files are still read so a
+// checkout predating the per-module layout migrates cleanly (and so a key that
+// somehow lost its markdown still fails loudly in renderModule rather than
+// disappearing); they are deleted after a successful run.
 const LEGACY_SUBFILES = ['reportContent.doctorates.ts', 'reportContent.recommend-all.ts']
+// `dfva-faculty-*.md` are briefing documents addressed to a faculty, not one of
+// the four report families deriveTitle() knows (assessment / market / recommend /
+// v4). They are not published through REPORT_CONTENT and are excluded here; any
+// OTHER unrecognised heading is left to fail loudly in deriveTitle.
+const NON_REPORT_PREFIXES = ['dfva-faculty-']
+const keysOnDisk = readdirSync(reportsDir)
+  .filter((f) => f.startsWith('dfva-') && f.endsWith('.md'))
+  .filter((f) => !NON_REPORT_PREFIXES.some((p) => f.startsWith(p)))
+  .map((f) => f.slice(0, -3))
 const keys = [
-  ...new Set([...keysInFile('reportContent.ts'), ...LEGACY_SUBFILES.flatMap(keysInFile)]),
+  ...new Set([...keysOnDisk, ...keysInFile('reportContent.ts'), ...LEGACY_SUBFILES.flatMap(keysInFile)]),
 ].sort()
-if (keys.length === 0) throw new Error('No report keys found in reportContent.ts')
+if (keys.length === 0) throw new Error(`No reports/dfva-*.md found in ${reportsDir}`)
 for (const key of keys) {
   if (!/^dfva-[a-z0-9.-]+$/.test(key)) {
     throw new Error(`Key "${key}" is not filename-safe — refusing to write reportContent/${key}.ts`)
