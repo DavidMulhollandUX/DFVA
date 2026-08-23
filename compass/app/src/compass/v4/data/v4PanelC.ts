@@ -1175,6 +1175,27 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
       "exposureWeighted": 73
     }
+  },
+  "me-dcd": {
+    "code": "me-dcd",
+    "name": "Doctor of Clinical Dentistry",
+    "hasMarketReport": true,
+    "exposure": 60.96,
+    "entryExposure": 60.92,
+    "jirN": 40,
+    "nTitles": 15,
+    "nMedium": 9,
+    "exposureBasis": {
+      "tier": "exact",
+      "grain": "program",
+      "sources": [
+        {
+          "name": "Doctor of Clinical Dentistry",
+          "n": 40
+        }
+      ],
+      "indexVariant": "AIOE-2021"
+    }
   }
 };
 
@@ -2379,6 +2400,28 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     ],
     "indexVariant": "AIOE-2021",
     "note": "Reconciliation package tier partial."
+  },
+  "mc-urbhort": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Urban Horticulture",
+        "n": 44
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "me-dcd": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Doctor of Clinical Dentistry",
+        "n": 40
+      }
+    ],
+    "indexVariant": "AIOE-2021"
   }
 };
 
@@ -13156,6 +13199,303 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "adversarial": true,
       "mechanical": true,
       "date": "2026-08-15"
+    }
+  },
+  "mc-urbhort": {
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: at least one core unit assesses collaborative practice — in fact, assessed collaborative practice appears in multiple core units across the program. In ABPL90337 Managing Urban Landscapes, students complete a 'Group presentation (approximately 5 minutes per student)'; in ERTH90028 Urban Soils, Substrates and Water, students complete 'Framing an urban soil management case study (group oral presentation)'; and in HORT90048 Urban Horticulture Issues & Perspectives (the final-semester capstone), students work in teams of 4-5 to assess, plan and document solutions, assessed via 'Assessment of groups' LMS discussion', 'Group project, problem based and encompassing a technical and multi-disciplinary report due last week of second semester (3000 words per student)', and 'A group presentation due last week of second semester'. Level 3 is not met: although collaborative practice recurs across the core, no core assessment requires coordinating work across people AND tools/AI systems with documented role-and-tool allocation or an assessed division of work between people and systems.",
+      "evidenceLines": [
+        "The subject will be structured around a project in which students will work in teams of 4-5 people to assess, plan and document appropriate solutions for problems associated with an urban landscape.",
+        "Group project, problem based and encompassing a technical and multi-disciplinary report due last week of second semester (3000 words per student)",
+        "Assessment of groups' LMS discussion",
+        "A group presentation due last week of second semester",
+        "Framing an urban soil management case study (group oral presentation)",
+        "Group presentation (approximately 5 minutes per student)",
+        "Oral presentation skills and inter-personal skills for group work under pressure.",
+        "Demonstrate effective team work and presentation skills;",
+        "Ability to participate effectively as a member of a team"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: core assessment includes criterion-referenced appraisal of quality. Compulsory core subject HORT90008 Horticultural Plant Science explicitly assesses a 'Peer-to-peer feedback activity: individual peer-review of a laboratory report (up to a maximum of 750 words)' carrying 10%, directly matching the level-2 peer review anchor. In addition, core subject ABPL90337 assesses a 'Critical thinking and assessment task (paper review)'. Level 3 is not met: no core assessment requires students to document and justify reliance decisions (deciding when to rely on or override a tool, source or collaborator), defend judgements of AI-output quality, or evidence strategy adjustment over time.",
+      "evidenceLines": [
+        "Peer-to-peer feedback activity: individual peer-review of a laboratory report (up to a maximum of 750 words)",
+        "Employ scientific processes to generate and review written laboratory reports.",
+        "Critical thinking and assessment task (paper review)",
+        "evaluate and critically assess the design and functional performance of urban vegetation systems, considering plant health, soil and substrate properties and water management"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor is met: digital tools appear as tool operation/training or within electives. Program-level graduate attributes state graduates will 'be adept at learning in a range of ways, including through information and communication technologies', and electives cover operational digital tools such as Geographic Information Systems (GIS) and remote sensing in ENST90045 Spatial Tools for Ecosystem Management, and statistical data handling in R in AGRI90075. Core units mention online databases and LMS discussion. Level 2 is unmet: no core unit addresses AI capabilities AND limitations/ethics with use limits discussed and assessed. Level 3 (AI critique or governance) is entirely unevidenced.",
+      "evidenceLines": [
+        "be adept at learning in a range of ways, including through information and communication technologies",
+        "ENST90045\tSpatial Tools for Ecosystem Management",
+        "Experience and proficiency in the use of Geographic Information Systems (GIS) on multiple software platforms;",
+        "Understand emerging technologies in spatial data collection and analysis.",
+        "Practical skills working with data in the R software environment",
+        "Literature review and synthesis from a range of sources, including academic journals, online databases, and books;"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: at least one core assessment requires application to novel or unfamiliar problems through cross-context projects and case variations. In capstone HORT90048, students research current local, national or international cases using a problem-based approach to solve real-world problems in an urban landscape ('Group project, problem based and encompassing a technical and multi-disciplinary report...'); in ERTH90028, students complete an 'Urban soil management case study (individual report) up to 3000 words' investigating varied urban landscape scenarios (turf, tree, construction, roads); and in ABPL90337, students complete a 'Landscape Management case study' and 'Urban Park study'. Level 3 is not met: the program does not document structured progression toward independent learning via a self-scoped capstone or research project in the core (research projects FRST90076/77 are discipline electives, and HORT90048 is a staff- and industry-guided team-based case project rather than self-scoped independent inquiry), nor is there assessed identification of one's own knowledge gaps with a plan to close them.",
+      "evidenceLines": [
+        "This subject, undertaken in the final semester of the Masters of Urban Horticulture, provides a basis for students to integrate and apply the knowledge they have gained throughout the course to solve a real world problem.",
+        "Guided by academic staff and industry representatives, students will research current local, national or international cases using a problem based approach to develop planning, design, management, data acquisition and synthesis, and communication skills. The subject will be structured around a project in which students will work in teams of 4-5 people to assess, plan and document appropriate solutions for problems associated with an urban landscape.",
+        "Group project, problem based and encompassing a technical and multi-disciplinary report due last week of second semester (3000 words per student)",
+        "Investigate case studies of soil assessment, analysis and problem solving in different urban landscape scenarios (turf, tree, construction, horticultural, roads, etc.);",
+        "Urban soil management case study (individual report) up to 3000 words",
+        "Landscape Management case study",
+        "FRST90076\tShort Research Project B",
+        "FRST90077\tLong Research Project B"
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 1 anchor is met: introductory methods and literature-review assessments are documented in the core. HORT90004 Plant Production and Establishment explicitly assesses 'One literature review on an aspect of horticultural practice', and core units HORT90008, ERTH90028, and HORT90044 assess structured laboratory and practical reports. Level 2 requires students to design and conduct an inquiry with methodology selection and data collection, assessed; while students perform soil sampling and laboratory tests in ERTH90028 and HORT90008, these are set class practicals rather than student-designed inquiries with methodology selection. Research project subjects (FRST90076/77) and the dedicated methods unit (AGRI90075) are discipline electives rather than compulsory core, and no required primary-evidence project defended under scrutiny (viva/defence) exists in the core (level 3).",
+      "evidenceLines": [
+        "One literature review on an aspect of horticultural practice",
+        "Laboratory report 1 (equivalent to 1000 words)",
+        "Laboratory report 2 (equivalent to 2500 words)",
+        "Practical Report 1 and 2 - Based on work conducted in the practicals",
+        "Undertake field assessments/measurement of soil properties (physical, hydrologic &amp; chemical), including sampling of urban soils for laboratory analysis;",
+        "Basic field and laboratory competencies for urban soil and landscape assessments.",
+        "AGRI90075\tResearch Methods For Life Sciences",
+        "FRST90076\tShort Research Project B",
+        "Minimum of 75 points from:"
+      ]
+    },
+    "adaptiveness": 8,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: at least one core assessment requires a recognised professional genre judged against criteria drawn from professional practice. In HORT90044 Plant Health, students produce a 'Written Assignment - Management Plan' for urban plant health and pest management, accompanied by a '5 Minutes presentation and Poster'; in ERTH90028, students complete an 'Urban soil management case study (individual report) up to 3000 words' and a group oral presentation; in ABPL90337, students complete an 'Urban Park study' and 'Landscape Management case study'; and in HORT90048, students produce a multidisciplinary technical report. Level 3 is not met: while professional spoken presentations recur across multiple core units, no core assessment is documented as delivered to, or judged by, a real external audience or practitioner with professional conduct explicitly among the assessed criteria.",
+      "evidenceLines": [
+        "Written Assignment - Management Plan",
+        "5 Minutes presentation and Poster",
+        "Urban soil management case study (individual report) up to 3000 words",
+        "Framing an urban soil management case study (group oral presentation)",
+        "Landscape Management case study",
+        "Urban Park study",
+        "Group presentation (approximately 5 minutes per student)",
+        "A group presentation due last week of second semester",
+        "Report writing for a professional audience;",
+        "effectively communicate, to a range of audiences, the socio‐ecological, biodiversity, environmental and functional value of urban horticulture to develop creative, vibrant and liveable cities"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: core assessment reproduces professional tasks end-to-end for urban horticulture practitioners. Students produce urban plant health management plans for pest/disease control and safe chemical application (HORT90044), urban soil management case study reports based on field/sampling assessments (ERTH90028), urban park and landscape management studies (ABPL90337), and multidisciplinary problem-based technical reports for urban landscapes (HORT90048). Resolved downward from level 3 on adversarial verification: although authentic tasks recur across the core, they are submitted to the academic teaching team without documented external client delivery, consequential external audiences, real-world resource constraints, or external professional performance standards documented in the assessment tables (R4).",
+      "evidenceLines": [
+        "Written Assignment - Management Plan",
+        "Urban soil management case study (individual report) up to 3000 words",
+        "Urban Park study",
+        "Landscape Management case study",
+        "Group project, problem based and encompassing a technical and multi-disciplinary report due last week of second semester (3000 words per student)",
+        "2 x short answer in-class quizzes based on practical and field trip (10% each), 500 words each",
+        "Report (3000 words)",
+        "Guided by academic staff and industry representatives, students will research current local, national or international cases using a problem based approach to develop planning, design, management, data acquisition and synthesis, and communication skills. The subject will be structured around a project in which students will work in teams of 4-5 people to assess, plan and document appropriate solutions for problems associated with an urban landscape."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1 anchor is met: work-situated learning exists only as an elective. The course structure offers two formal internship subjects (SCIE90017 Science and Technology Internship, 80-100 hours with supervisor-confirmed hurdle; and SCIE90027 Ecosystem Internship, ca. 200 hours / 4-5 weeks FTE with host-institution project and presentation), but both sit within the 'Professional Skills' elective list where students can alternatively satisfy the requirement by taking classroom subjects (SCIE90012 Science Communication or ENST90045 Spatial Tools). Neither internship is compulsory in the 100-point core. The cohort is not documented as existing practitioners (overview states previous industry employment is not essential), so the own-practice route does not apply.",
+      "evidenceLines": [
+        "Professional Skills",
+        "Complete between 12.5 and 25 points of:",
+        "SCIE90017\tScience and Technology Internship",
+        "SCIE90027\tEcosystem Internship",
+        "SCIE90012\tScience Communication",
+        "ENST90045\tSpatial Tools for Ecosystem Management",
+        "Hurdle requirement: 80 hours of satisfactory work placement, confirmed by placement supervisor",
+        "Students will then spend a period of 4-5 weeks (full-time equivalent; ca. 200 hours) working within their host institution i) gaining experience, ii) shadowing institution mentors and iii) working on their internship project.",
+        "Whilst it is beneficial for students to have some experience in the horticultural industry it is not essential to have previous employment to gain entry to the course."
+      ]
+    },
+    "workplace": 5,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "PASS condition is met: the program documents an all-compulsory specialist core of 100 credit points (eight compulsory subjects) establishing technical and methodological depth in urban horticulture — covering plant science (HORT90008), plant production (HORT90004), urban soils and water (ERTH90028), green infrastructure (ENST90048), plant health (HORT90044), landscape management (ABPL90337), plants in landscapes (HORT90033), and a culminating capstone (HORT90048). Coherent disciplinary sequence with no interchangeable generic core.",
+        "evidenceLines": [
+          "100 points of core subjects",
+          "Core Subjects",
+          "HORT90033\tPlants in the Landscape",
+          "HORT90008\tHorticultural Plant Science",
+          "HORT90004\tPlant Production and Establishment",
+          "ERTH90028\tUrban Soils, Substrates and Water",
+          "ENST90048\tGreen Infrastructure for Liveable Cities",
+          "HORT90044\tPlant Health",
+          "ABPL90337\tManaging Urban Landscapes",
+          "HORT90048\tUrban Horticulture Issues & Perspectives",
+          "This subject, undertaken in the final semester of the Masters of Urban Horticulture, provides a basis for students to integrate and apply the knowledge they have gained throughout the course to solve a real world problem."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "PASS condition is met: assessment goes well beyond recall or scripted responses. Core assessments require complex trade-off decisions, diagnostic problem solving, and management plans under uncertainty — including pest and disease management decision-making and control options under regulatory/environmental constraints in HORT90044, soil remediation and alleviation problem solving across diverse landscape typologies in ERTH90028, and a problem-based capstone project assessing and planning solutions for urban landscapes in HORT90048.",
+        "evidenceLines": [
+          "The subject will be structured around a project in which students will work in teams of 4-5 people to assess, plan and document appropriate solutions for problems associated with an urban landscape.",
+          "Group project, problem based and encompassing a technical and multi-disciplinary report due last week of second semester (3000 words per student)",
+          "Written Assignment - Management Plan",
+          "Critical thinking: The ability to think independently and critically through the analysis and decision-making around various control options for plant pests and diseases",
+          "Problem solving; The ability to identify a suitable course of action for diverse plant health scenarios",
+          "Investigate case studies of soil assessment, analysis and problem solving in different urban landscape scenarios (turf, tree, construction, horticultural, roads, etc.);",
+          "Urban soil management case study (individual report) up to 3000 words"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1 straddled 2 and 3: collaborative practice recurs across multiple core subjects (ABPL90337, ERTH90028, HORT90048), but level 3 requires coordinating work across people AND tools/AI systems with assessed role/tool allocation, which is absent from the extract. Lower level (2) taken.",
+      "C2 straddled 1 and 2: HORT90008 includes an explicit assessed 'Peer-to-peer feedback activity: individual peer-review of a laboratory report (up to a maximum of 750 words)' carrying 10%, which satisfies level 2's criterion-referenced appraisal of quality (peer review). Level 3 is not approached because reliance/override justification is unevidenced.",
+      "C4 straddled 2 and 3: HORT90048 acts as a culminating capstone integrating prior knowledge to solve real-world urban landscape problems, but it is structured as a staff/industry-guided group project rather than a self-scoped independent project, and research project subjects (FRST90076/77) are discipline electives. Resolved downward to 2.",
+      "C5 straddled 1 and 2: core subjects include lab and field sampling practicals (ERTH90028, HORT90008) alongside a literature review (HORT90004), but student design of an inquiry with methodology selection is not documented in core assessment (the research methods unit AGRI90075 and research projects FRST90076/77 are electives). Lower level (1) taken per R2 and downward resolution.",
+      "W2 straddled 2 and 3: multiple core subjects assess end-to-end professional artefacts (management plans, soil case studies, park studies, multidisciplinary reports), but assessments are submitted to the teaching team without documented external client delivery, consequential external audiences, or external performance standards. Resolved downward to 2 per R4 and the downward-direction rule.",
+      "W3: SCIE90017 (80-100h placement) and SCIE90027 (200h placement) contain full WIL placement features, but both reside within the Professional Skills elective pool where non-placement subjects can be chosen instead. Scored at level 1 per the elective anchor."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-23"
+    },
+    "instrument": "4.1-draft"
+  },
+  "me-dcd": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 1,
+      "rationale": "Level 1 anchor is matched: 'Collaboration/teamwork appears in learning outcomes, but no core unit assesses it.' Program learning outcomes, generic skills, and graduate attributes emphasize teamwork and collaborative practice ('Capacity to value and participate in projects which require team-work', 'work effectively as a member of a team', 'skills of team work and the ability to work effectively in an oral health care team, including the leader', 'The specialist is often required to lead the team...'). However, every assessment in the documented core research sequence (DENT90108, DENT90109, DENT90110) consists of individual tasks (essays, proposal, literature review, minor thesis, oral presentations). Level 2 fails because no core unit in the extract assesses collaborative practice. Level 3 is unevidenced as no human-AI or team-tool coordination task is assessed. Per the one-construct-one-home rule, clinical teamwork and hospital placement evidence at RDHM/MDC is scored under W3.",
+      "evidenceLines": [
+        "Capacity to value and participate in projects which require team-work",
+        "work effectively as a member of a team",
+        "apply effective, creative and innovation solutions, both independently and co-operatively, to current and future problems",
+        "skills of team work and the ability to work effectively in an oral health care team, including the leader",
+        "The specialist is often required to lead the team in the management of their patients’ oral health as it relates to their specialty area and integrates knowledge and experience with clinical competency to form a framework of comprehensive oral health care."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2 anchor is met: 'Core assessment includes criterion-referenced appraisal of quality: peer review, structured critique, portfolio with standards, marking against exemplars.' DENT90108 includes a dedicated, compulsory 35% assessment task — 'Essay 2: Critical appraisal of literature (exercise)' (3000 words) — designed to assess structured critique and advanced appraisal of published scientific literature against disciplinary research standards, supported by the subject ILO requiring students to 'Systematically search the available literature and demonstrate advanced appraisal of published research literature and evidence'. Level 3 fails: no assessment requires students to document and justify reliance/override decisions on tools or collaborators, defend judgements of AI-output quality, or demonstrate process-focused strategy adjustment over time. Reflective practice and peer review statements in graduate attributes are unassessed outcomes, which R2 and Barrie forbid from lifting the score.",
+      "evidenceLines": [
+        "Essay 2: Critical appraisal of literature (exercise)",
+        "Systematically search the available literature and demonstrate advanced appraisal of published research literature and evidence",
+        "This subject will introduce students to the principles of research and the inherent methods, as well as the methods for critical appraisal of the available scientific literature.",
+        "Critical appraisal of draft documents; developing the ability to exercise critical judgement;",
+        "the ability to provide effective peer review in order to assist colleagues to improve their clinical knowledge and patient care",
+        "a critically reflective approach to practise dentistry based on current evidence and experience"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor is matched: 'AI or digital tools appear only as electives or as tool operation/training — the operational level TEQSA identifies as non-durable.' Digital technology is referenced in generic skills ('be proficient in the appropriate use of contemporary technologies') and graduate attributes ('skills to use contemporary information technology for documentation, including patient records, communication, management of information and applications related to health care'), reflecting purely operational IT use. Level 0 is excluded because digital technology appears in program outcomes. Level 2 fails completely: no core unit addresses AI capabilities AND limitations/ethics with assessed use limits. Level 3 fails a fortiori as no core assessment requires critique or governance of AI systems (bias, accountability, transparency, or data governance).",
+      "evidenceLines": [
+        "be proficient in the appropriate use of contemporary technologies",
+        "skills to use contemporary information technology for documentation, including patient records, communication, management of information and applications related to health care",
+        "Employ the principles of ethical clinical research and of the responsibilities of researchers"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3 anchor is met: 'The program documents structured progression toward independent learning: a self-scoped capstone or research project, or assessed identification of one's own knowledge gaps together with the plan to close them.' The Doctor of Clinical Dentistry documents a compulsory, 3-year, 75-credit-point research progression required of all candidates (DENT90108 -> DENT90109 -> DENT90110). Students self-scope their own research question in an area of clinical interest in consultation with a supervisor ('plan a research investigation in an area of clinical interest. In consultation with a research supervisor and/or the course coordinator, participants will formulate a research question'), produce an assessed research proposal and oral presentation in Year 1, undertake literature review and experimental design in Year 2, and complete data collection, analysis, oral presentation, and a 13,000-word Minor Thesis in Year 3. This is an all-compulsory staged progression toward autonomous research.",
+      "evidenceLines": [
+        "Students plan a research investigation in an area of clinical interest. In consultation with a research supervisor and/or the course coordinator, participants will formulate a research question.",
+        "Formulate a research question answerable with existing research evidence in an area of clinical interest",
+        "Capacity to manage competing demands on time, including self-directed project work",
+        "In DENT90109 students will produce a Literature Review and prepare and present an Oral Presentation (DENT90109); In DENT90110 students will produce a Minor Thesis (which includes the Literature Review as from DENT90109) and prepare and present an oral presentation.",
+        "Minor Thesis (13,000 words, including the 4000 words from the Literature Review)",
+        "Exercise responsibility for their own learning"
+      ]
+    },
+    "C5": {
+      "score": 3,
+      "rationale": "Level 3 anchor is met: 'A substantial project generating primary evidence is REQUIRED (not one route among several), with methodology defended under scrutiny (viva, defence, or staged supervised review).' All candidates in the Doctor of Clinical Dentistry are required to complete the 75-credit-point research sequence (DENT90108 Research Proposal, DENT90109 Research Project A, DENT90110 Research Project B) to graduate. The project requires generating primary evidence ('first-hand experience in experimental design, and in data collection, analysis, and presentation', 'Design experiments', 'Conduct research in biomedical, dental and health sciences'), and methodology is defended under staged supervised review across all three years via three formal oral presentations (15-min oral presentation on question & methodology in Year 1 at 20%; 15-min oral presentation on literature/evidence in Year 2 at 10%; 15-min oral presentation in Year 3 at 10%) culminating in a 13,000-word Minor Thesis (60%).",
+      "evidenceLines": [
+        "This two-part subject provides students with the opportunity to learn the essential skills needed to undertake research. In addition, students will gain first-hand experience in experimental design, and in data collection, analysis, and presentation.",
+        "Conduct research in biomedical, dental and health sciences.",
+        "Design experiments.",
+        "Oral presentation: Research question & methodology (1500 words equivalent)",
+        "Oral presentation of the available evidence related to the project (Literature Review) (1500 words equivalent)",
+        "Literature review",
+        "Minor Thesis (13,000 words, including the 4000 words from the Literature Review)",
+        "All students complete these subjects:"
+      ]
+    },
+    "adaptiveness": 10,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1 anchor is matched: 'Communication or professional conduct appears in learning outcomes or graduate attributes; core assessment adds presentation to peers/staff, but no professional genre and no audience beyond the teaching team.' Program outcomes and graduate attributes heavily emphasize professional communication and conduct ('demonstrate professional skills and attitudes', 'exhibit professional responsibility', 'communicate with patients from diverse backgrounds'). Core assessment includes three 15-minute oral presentations across DENT90108, DENT90109, and DENT90110, but these are academic presentations addressed to academic supervisors and peers. Level 0 is excluded because spoken presentation is assessed. Level 2 fails because no core unit in the extract assesses a recognised professional genre (e.g. clinical case defence, clinical handover, patient brief) or involves an audience beyond the teaching team.",
+      "evidenceLines": [
+        "demonstrate professional skills and attitudes",
+        "exhibit professional responsibility",
+        "Superior capacity to articulate knowledge and understanding in oral and written presentations",
+        "Clearly and effectively communicate scientific knowledge and information to a range of audience in both written and oral format.",
+        "Oral presentation: Research question & methodology (1500 words equivalent)",
+        "Oral presentation (1500 words equivalent)"
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Level 1 anchor is matched: 'Contextualised or scenario-framed tasks appear (case studies, worked scenarios), but the artefact produced and the criteria applied remain academic.' In DENT90108, students plan a research investigation in an area of clinical interest with consideration given to ethics approval and research questions. However, the assessed artefacts (research problem essay, literature critique, research proposal, literature review, and minor thesis) and evaluation criteria remain strictly academic. Level 0 is excluded because tasks are contextually situated in clinical research and ethics rather than abstract decontextualised problem sets. Level 2 fails because no core assessment in the extract reproduces a specialist dental practice task end-to-end producing professional artefacts (such as patient treatment plans or clinical case records).",
+      "evidenceLines": [
+        "Plan a research project, including the steps to obtain ethical approval",
+        "Students plan a research investigation in an area of clinical interest. In consultation with a research supervisor and/or the course coordinator, participants will formulate a research question.",
+        "Essay 1: Research problem",
+        "Essay 3: Research Proposal",
+        "Minor Thesis (13,000 words, including the 4000 words from the Literature Review)"
+      ]
+    },
+    "W3": {
+      "score": 2,
+      "rationale": "Level 2 anchor is met: 'A core unit places students in a real workplace or professional-community setting with practitioner supervision and assessment — placement, practicum, live client project, community-based project'. The course overview and structure document that clinical experience is provided at the Royal Dental Hospital of Melbourne and Melbourne Dental Clinic across 225 credit points of core specialisation subjects in one of seven specialist fields. Level 1 is excluded because clinical training is the compulsory core of the 3-year program rather than an elective or optional internship. Level 3 is not reached: under R2, Level 3 requires assessment evidence documenting practitioner supervision, host accountability hurdles, and structured reflection on professional practice; because the individual specialisation subject assessment tables are omitted from this extract (which captures only the research core), the full conjunctive criteria for Level 3 cannot be verified from the text alone.",
+      "evidenceLines": [
+        "The program is a three-year full time course that provides advanced study and training in all areas of the chosen specialty. Graduates will be prepared for specialty practice, hospital practice or teaching and research in a dental school. Clinical experience is provided currently at the Royal Dental Hospital of Melbourne and its associated clinics under the instruction of staff of the University of Melbourne. Practice also occurs at the new Melbourne Dental Clinic situated at 723 Swanston St, Carlton.",
+        "The Doctor of Clinical Dentistry at The University of Melbourne is offered in seven specialist fields: Endodontics, Oral Medicine, Orthodontics, Paediatric Dentistry, Periodontics and Prosthodontics, which has been accredited by the Australian Dental Council for graduates to register with AHPRA and practice in Australian and New Zealand as a Specialist Dentist within one of these specialties.",
+        "Students choose one specialisation, consisting of 225 points of core subjects"
+      ]
+    },
+    "workplace": 4,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program documents an all-compulsory specialist curriculum with progressive depth and external accreditation: a 300-credit-point program consisting of 75 credit points of common core research subjects (staged across three years: DENT90108 -> DENT90109 -> DENT90110) plus 225 credit points of core specialisation subjects in one of seven specialist disciplines. The entire sequence is accredited by the Australian Dental Council (ADC) for specialist registration with AHPRA, with zero interchangeable or generic elective space.",
+        "evidenceLines": [
+          "The Doctor of Clinical Dentistry at The University of Melbourne is offered in seven specialist fields: Endodontics, Oral Medicine, Orthodontics, Paediatric Dentistry, Periodontics and Prosthodontics, which has been accredited by the Australian Dental Council for graduates to register with AHPRA and practice in Australian and New Zealand as a Specialist Dentist within one of these specialties.",
+          "Australian Dental Council (ADC)",
+          "75 points of course core subjects",
+          "Students choose one specialisation, consisting of 225 points of core subjects",
+          "All students complete these subjects:"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Assessment requires defended methodology, problem formulation, experimental design, and data analysis in a self-scoped 3-year research project (DENT90108, DENT90109, DENT90110) with three oral presentations and a 13,000-word Minor Thesis under experimental uncertainty and ethical constraints. This requires substantial decision-making under uncertainty and defended trade-offs rather than recall or scripted responses.",
+        "evidenceLines": [
+          "Oral presentation: Research question & methodology (1500 words equivalent)",
+          "Essay 3: Research Proposal",
+          "This two-part subject provides students with the opportunity to learn the essential skills needed to undertake research. In addition, students will gain first-hand experience in experimental design, and in data collection, analysis, and presentation.",
+          "Minor Thesis (13,000 words, including the 4000 words from the Literature Review)",
+          "apply effective, creative and innovation solutions, both independently and co-operatively, to current and future problems"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1 straddled 1 and 2: clinical teamwork and interprofessional collaboration in dental hospital clinics are documented in graduate attributes, but per one-construct-one-home, clinical placement activity is scored under W3. The core research units assess only individual tasks, resolving C1 at 1.",
+      "C2 straddled 1 and 2: DENT90108 assesses 'Essay 2: Critical appraisal of literature (exercise)' (35%) which tests structured critique and advanced appraisal of published research against scientific standards. If viewed narrowly as evaluation of external literature rather than peer/self/tool work, it would straddle 1, but following the established benchmark for critical appraisal exercises in core research units (e.g. mc-clind, 244cw), it satisfies Level 2 structured critique.",
+      "C4 straddled 2 and 3: unlike coursework Masters where research is optional or a proposal only (e.g. mc-clind), ME-DCD mandates the full 3-year, 75cp research sequence culminating in a 13,000-word Minor Thesis for all candidates, meeting Level 3's required self-scoped research project anchor.",
+      "W3 straddled 2 and 3: the degree requires 225 credit points of clinical specialisation subjects at the Royal Dental Hospital of Melbourne and Melbourne Dental Clinic. However, because the individual specialisation subject assessment pages were not captured in this extract (only the research core was captured), practitioner supervision hurdles and structured reflection in assessment could not be verified directly from assessment tables. Resolved DOWN to 2 per R2 and the downward-scoring rule.",
+      "W1 and W2: only the core research units are captured with assessment tables in the extract, meaning assessed tasks are academic essays, presentations, and thesis rather than clinical case presentations, holding W1 and W2 at 1."
+    ],
+    "notScoreable": [
+      "C3 — AI-specific content is absent from the extract (no mention of generative AI, machine learning, or algorithmic governance in dentistry). The score of 1 reflects operational digital technology statements in generic skills and graduate attributes.",
+      "Specialisation core subjects — the extract contains only the 75-credit-point research core (DENT90108, DENT90109, DENT90110) and does not include the detailed subject entries and assessment tables for the 225 credit points of clinical specialisation subjects (Endodontics, Oral Medicine, Orthodontics, Paediatric Dentistry, Periodontics, Prosthodontics). W1, W2, and W3 are scored strictly on the documented extract text."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-23"
     }
   }
 };
