@@ -224,6 +224,48 @@ specific, evidence-bound and honest about what does not exist yet.
 
 ---
 
+## Status — what has since been fixed
+
+Two commits on `fix/market-s3-provenance` acted on Finding 1. Figures are
+before/after measured at commit time; the corpus is being extended by concurrent
+authoring, so absolute totals move.
+
+| | Before | After |
+|---|---|---|
+| §3 headings asserting a platform | 60 | 1 (`dh-lld`, deliberately refused) |
+| `platform-sampling-claim` errors | 15 | 0 |
+| Corpus error-severity findings | 165 | 73 |
+| report-lint grandfathered debt | 109 | 87 |
+| ...of which missing sourcing declarations | 62 | 44 |
+
+`639bd12` rewrote 61 §3 headings and added the review harness. `638b342`
+hand-authored 49 §3 body claims across 14 reports and added the house-form
+sourcing declaration to each.
+
+**The rewrites were not automated, and the attempt is worth recording.** A
+rule-based stripper produced sentence fragments — "Their certification as a
+talent attraction strategy." — because the platform clause carries the subject
+and verb of these sentences. The claim is not decorated with false provenance;
+the false provenance *is* its only support. Anything that removes it has to
+supply a new subject, which is authoring, not editing.
+
+### A better standard exists, and it is not this one
+
+Concurrent authoring on `080cl`, `080cn`, `244cw` and `300bb` took the same
+sections further: real bodies named with links and dates (APS, PsyBA, ACPA,
+*Australian Psychologist*), themes restructured to the `### Theme N` house form,
+and `**Bearing:**` lines added. Those files score zero errors. The 14 files fixed
+here score above zero, because stripping invented provenance leaves claims that
+are honest but still unowned — "The consensus among senior practitioners is…".
+
+Treat the work here as the floor: it stops the reports asserting something
+false. The attribution treatment is the target. The 39 `unattributed-discourse`
+and 33 `quoted-theme-without-source` findings that remain are precisely the gap
+between the two, and they should be closed by re-authoring to the attribution
+standard rather than by a second mechanical pass.
+
+---
+
 ## Recommendations
 
 ### For the reports
