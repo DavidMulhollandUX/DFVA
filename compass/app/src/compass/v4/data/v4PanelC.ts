@@ -1339,6 +1339,27 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "indexVariant": "AIOE-2021"
     }
   },
+  "mc-it": {
+    "code": "mc-it",
+    "name": "Master of Information Technology",
+    "hasMarketReport": true,
+    "exposure": 92.91,
+    "entryExposure": 93.46,
+    "jirN": 373,
+    "nTitles": 15,
+    "nMedium": 10,
+    "exposureBasis": {
+      "tier": "exact",
+      "grain": "program",
+      "sources": [
+        {
+          "name": "Master of Information Technology",
+          "n": 373
+        }
+      ],
+      "indexVariant": "AIOE-2021"
+    }
+  },
   "mc-mgmthre": {
     "code": "mc-mgmthre",
     "name": "Master of Management (Human Resources)",
@@ -2615,6 +2636,17 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
       {
         "name": "Master of Information Systems",
         "n": 257
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "mc-it": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Information Technology",
+        "n": 373
       }
     ],
     "indexVariant": "AIOE-2021"
@@ -12820,6 +12852,103 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "mechanical": true,
       "date": "2026-08-15"
     }
+  },
+  "mc-it": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: assessed collaborative practice recurs across the program with individual accountability. In SWEN90016 Software Processes and Management, students work in teams of 5 on a multi-stage software delivery project with individual peer review; in COMP90018 Mobile Computing Systems, teams of 3–4 build mobile applications marked via individual viva hurdles; in COMP90024 Cluster and Cloud Computing, students complete a 50-hour team cloud programming project; and in ELEN90095 Internet of Things, teams of 4–8 complete interactive oral project assessments with continuous teamwork grading. Level 3 is not met: while teams use modern developer toolchains, formal assessed role-and-tool allocation charters dividing work between human developers and automated/AI coding assistants are unevidenced in the assessment tables.",
+      "evidenceLines": [
+        "SWEN90016 Software Processes and Management ... Group Assessment / Project. Team of 5 members ... Peer Review (10%)",
+        "COMP90018 Mobile Computing Systems Programming ... Assignment 2 – Implementation of a mobile phone application by a group, but marked individually (3-4 students) ... The individual VIVA is a hurdle",
+        "ELEN90095 Internet of Things ... Interactive Oral Assessment of Project Work (conducted as a team of 4-8, marked individually) ... Continuous Assessment of Teamwork"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: core assessment includes criterion-referenced appraisal of software quality and system architecture. In SWEN90016, students evaluate peer code and project execution artifacts; in COMP90042 Natural Language Processing, students complete an assessed peer review of other groups' research project essays; and in COMP90018, students defend their mobile architecture and software design choices in an individual viva voce hurdle. Level 3 is not met: no core assessment requires students to document and justify reliance decisions regarding generative AI code generation tools (e.g. Copilot, Cursor, CodeLlama), defend judgements of AI-generated code/test outputs, or evidence systematic debugging and prompt refactoring over time.",
+      "evidenceLines": [
+        "SWEN90016 Software Processes and Management ... Peer Review (10%) ... Software Project Delivery and Presentation",
+        "COMP90042 Natural Language Processing ... 1 peer review assignment of other student groups' research project essays",
+        "COMP90018 Mobile Computing Systems Programming ... The individual VIVA is a hurdle and must be passed"
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: core and specialisation units directly address AI capabilities, algorithmic mechanics, and technical limitations/ethics with limits assessed. In COMP90051 Statistical Machine Learning, students implement and assess machine learning models, evaluating overfitting, regularization, and generalisation boundaries; in COMP90042, students analyze NLP models and hallucination risks; and in COMP90090, students author an essay on ethical issues and privacy in text analytics. Level 3 is not met: while algorithmic mechanics and ethical essays appear, systemic critique of AI governance, statutory accountability, and AI compliance architectures is not guaranteed across all specialisation cores.",
+      "evidenceLines": [
+        "COMP90051 Statistical Machine Learning ... Individual project ... Group project ... machine learning algorithms and limitations",
+        "COMP90090 Text Analytics in Health ... Short essay on ethical issues in health text analytics",
+        "COMP90042 Natural Language Processing ... group-based research project essay"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: core assessment requires students to transfer algorithmic principles, software design patterns, and systems engineering concepts across multiple distinct computing paradigms (cloud architectures, distributed consensus, mobile platforms, and machine learning models). Level 3 is not met: the program does not mandate a universal self-scoped research capstone or assessed identification of one's own technical knowledge gaps with an explicit closure plan across every graduation pathway (the 25-point research project is optional).",
+      "evidenceLines": [
+        "Computational skills necessary to solve theoretical and practical problems for further professional development and for meeting future changes in IT",
+        "COMP90024 Cluster and Cloud Computing ... Group-based Cloud programming assignment system",
+        "SWEN90016 Software Processes and Management ... Software Project Delivery"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: students design and conduct empirical computing inquiries with methodology selection, data collection, and experimental benchmarking. In COMP90015 and COMP90024, students benchmark algorithm efficiency and system throughput; in COMP90051, students empirically evaluate ML model performance on real datasets; and in COMP90083/COMP90086, students complete staged empirical research projects. Level 3 is not met: while vivas occur in COMP90018 and COMP90090, a universal mandatory research project with formal viva defense before an external examination panel is not required across the core.",
+      "evidenceLines": [
+        "COMP90051 Statistical Machine Learning ... Project - Individual project ... Project - Group project",
+        "COMP90083 Advanced Machine Learning ... One staged group research project",
+        "COMP90086 Open-Ended Research Project ... Final, open-ended group research project"
+      ]
+    },
+    "adaptiveness": 10,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: at least one core assessment requires a recognised professional genre judged against criteria drawn from professional practice. In SWEN90016, students produce industry-standard Software Project Execution Plans, architecture specifications, and delivery presentations; in COMP90018, students defend systems in an interactive viva; and in ELEN90095, students deliver professional IoT project demonstrations aligned to ACS standards. Level 3 is not met: while BUSA90473/BUSA90485 feature presentations to host companies, they are elective offerings; core software projects are assessed internally by academic faculty.",
+      "evidenceLines": [
+        "SWEN90016 Software Processes and Management ... Project Execution Plan Artefacts (5%) ... Software Project Delivery and Presentation (35%)",
+        "COMP90018 Mobile Computing Systems Programming ... Assignment 1 ... detailing how their software project will address everyday problems",
+        "ELEN90095 Internet of Things ... Interactive Oral Assessment of Project Work"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: core assessment reproduces professional software engineering and systems development tasks end-to-end (backlog management, architecture design, cloud deployment, automated testing, and release in SWEN90016 and COMP90018). Resolved downward from level 3 on adversarial verification: tasks are submitted to academic instructors without externally supplied live commercial briefs or consequential external client stakeholders documented in the compulsory core (R4).",
+      "evidenceLines": [
+        "SWEN90016 Software Processes and Management ... Software Project Delivery and Presentation",
+        "COMP90024 Cluster and Cloud Computing ... Group-based Cloud programming assignment system",
+        "COMP90018 Mobile Computing Systems Programming ... Implementation of a mobile phone application"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1 anchor is met: simulated development environments, agile sprints, and enterprise server testbeds are embedded across coursework. Level 2 is unmet: while optional 25-point industry internships (e.g. ENGR90033) and practicum subjects (BUSA90473) exist, they are competitive electives rather than a guaranteed core requirement for all graduating students across the cohort.",
+      "evidenceLines": [
+        "Optional 25-point industry placement with local IT organisations as part of the course (available on a competitive basis)",
+        "BUSA90473 Global Business Practicum ... Elective offering",
+        "ENGR90033 Internship ... Elective offering"
+      ]
+    },
+    "workplace": 5,
+    "gates": {
+      "G1": {
+        "status": "PASS",
+        "rationale": "PASS condition is met: the program documents a comprehensive 100-to-200 point specialist graduate curriculum in computer science, software engineering, distributed systems, machine learning, and cybersecurity accredited by the Australian Computer Society (ACS). Rigorous, coherent disciplinary computing core."
+      },
+      "G2": {
+        "status": "PASS",
+        "rationale": "PASS condition is met: assessment explicitly requires complex architectural and algorithmic trade-off decisions under technical uncertainty — including engineering fault-tolerant distributed systems under network partitions and latency in COMP90024, optimizing bias-variance trade-offs under noisy data in COMP90051, and balancing scope, technical debt, and concurrency safety under fixed sprint deadlines in SWEN90016."
+      }
+    },
+    "ambiguities": [
+      "C1 straddled 2 and 3: collaborative team projects recur across SWEN90016, COMP90018, COMP90024, and ELEN90095 with individual accountability (level 2). Level 3 is unmet because explicit human-AI workflow allocation charters are unevidenced.",
+      "C2 straddled 2 and 3: peer code review and viva defense recur across SWEN90016 and COMP90018 (level 2). Level 3 is unmet because generative AI code reliance/override logs are unevidenced.",
+      "C3 straddled 2 and 3: ML algorithm constraints and ethical text analytics are assessed in COMP90051 and COMP90090 (level 2). Level 3 AI governance critique is not universally compulsory across all specialisations.",
+      "C4 straddled 2 and 3: multi-paradigm software transfer is assessed across the core (level 2), but self-capability gap tracking is unevidenced. Scored at 2.",
+      "C5 straddled 2 and 3: empirical algorithm benchmarking satisfies level 2, but oral viva defense under external scrutiny is unevidenced across the core. Scored at 2.",
+      "W1 straddled 2 and 3: professional software engineering deliverables satisfy level 2, but external industry client evaluation is confined to electives. Scored at 2.",
+      "W2 straddled 2 and 3: authentic full-cycle software projects are assessed, but tasks are submitted to academic instructors without live commercial briefs. Resolved downward to 2 per R4.",
+      "W3 straddled 1 and 2: industry placement is competitive and optional (level 1). Scored at 1 per R1."
+    ]
   },
   "mc-journ": {
     "instrument": "4.2-draft",
