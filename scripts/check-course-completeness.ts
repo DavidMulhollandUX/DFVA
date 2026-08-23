@@ -31,14 +31,9 @@ const evidenceDir = path.join(repoRoot, 'dfva/source/evidence')
 // dev-loop-added doctorate/PhD stubs). Grandfathered so CI is green today; a
 // NEW incomplete course still fails. Delete a slug here once it's backfilled —
 // the check tells you when it can be removed.
-const GRANDFATHERED = new Set<string>([
-  'dfva-080cl', 'dfva-080cn', 'dfva-300bb', 'dfva-dh-lld', 'dfva-dh-sc',
-  'dfva-dr-philabp', 'dfva-dr-philagr', 'dfva-dr-philart', 'dfva-dr-philbe',
-  'dfva-dr-philedp', 'dfva-dr-philedu', 'dfva-dr-phileit', 'dfva-dr-philfam',
-  'dfva-dr-philik', 'dfva-dr-phillaw', 'dfva-dr-philmdh', 'dfva-dr-philsci',
-  'dfva-dr-philvet', 'dfva-mc-ddensur', 'dfva-mc-dmed', 'dfva-mc-doptom',
-  'dfva-mc-dphysio', 'dfva-mc-dvetmed', 'dfva-me-dcd',
-])
+// Emptied 2026-08-22: every originally-grandfathered program has been backfilled,
+// so the ratchet is now fully enforcing — any incomplete course fails CI.
+const GRANDFATHERED = new Set<string>([])
 
 const errors: string[] = []
 const warnings: string[] = []

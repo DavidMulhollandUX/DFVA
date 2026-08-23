@@ -1705,6 +1705,14 @@ function ReportDetailView({
             </p>
           </div>
           <div className="flex items-center gap-3">
+            {program?.evidenceConfidence === "low" && (
+              <span
+                className="rounded-full border border-amber-500/40 bg-amber-500/10 px-3 py-1 text-[10px] font-bold tracking-wider text-amber-700 uppercase dark:text-amber-400"
+                title="Scored from a thin handbook capture — see the Market Confidence note in this report"
+              >
+                Limited evidence
+              </span>
+            )}
             {meta?.riskBand && (
               <span
                 className={`rounded-full px-3.5 py-1 text-xs font-bold tracking-wider uppercase ${
