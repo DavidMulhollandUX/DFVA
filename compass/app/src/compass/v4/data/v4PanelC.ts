@@ -963,7 +963,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-anp": {
     "code": "mc-anp",
     "name": "Master of Advanced Nursing Practice",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 76.38,
     "entryExposure": 70.05,
     "jirN": 69,
@@ -976,6 +976,27 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
         {
           "name": "Master of Advanced Nursing Practice",
           "n": 69
+        }
+      ],
+      "indexVariant": "AIOE-2021"
+    }
+  },
+  "mc-ap": {
+    "code": "mc-ap",
+    "name": "Master of Applied Psychology",
+    "hasMarketReport": true,
+    "exposure": 95.57,
+    "entryExposure": 93.63,
+    "jirN": 47,
+    "nTitles": 15,
+    "nMedium": 13,
+    "exposureBasis": {
+      "tier": "exact",
+      "grain": "program",
+      "sources": [
+        {
+          "name": "Master of Applied Psychology",
+          "n": 47
         }
       ],
       "indexVariant": "AIOE-2021"
@@ -1994,6 +2015,17 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
       {
         "name": "Master of Advanced Nursing Practice",
         "n": 69
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "mc-ap": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Applied Psychology",
+        "n": 47
       }
     ],
     "indexVariant": "AIOE-2021"
@@ -8128,6 +8160,137 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "W3, levels 1 vs 2/3: Clinical supervisor-assessed workplace assessments (such as MiniCEX in NURS90068) exist within elective subjects for specialty streams, but no work-situated learning is mandatory in the 50 credit points of common core subjects required of all students. Scored at level 1 (electives only)."
     ],
     "notScoreable": [],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-23"
+    }
+  },
+  "mc-ap": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is met: at least one core unit assesses collaborative practice — group projects with individual accountability. In compulsory core subject PSYC90101 Advanced Social Psychology, students complete 'A 20 minute scenario-based group presentation due weeks 3-12, depending on the group allocation: (20%) This item will be marked individually by the subject coordinator', directly assessing collaborative presentation with explicit individual accountability. In compulsory core subject PSYC90124 Principles of Consulting, students complete a 'Group presentation (approx 4-6 students)' (20%) alongside an individual essay (40%). Furthermore, in the core marketing options (MKTG90004/MKTG90008), group presentations and group project reports are assessed. Level 3 is not reached: no core assessment documents coordinating work across people AND tools or AI systems, nor an assessed division of labour between people and automated systems.",
+      "evidenceLines": [
+        "A 20 minute scenario-based group presentation due weeks 3-12, depending on the group allocation: (20%) This item will be marked individually by the subject coordinator.",
+        "Group presentation (approx 4-6 students)",
+        "Work collaboratively with others in a team to design and communicate policies, strategies, and solutions to address complex problems.",
+        "Group assignment Part A (groups of 3-4)",
+        "Team case presentation (groups of 3-5)"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1 anchor fits: reflection or self-assessment appears in outcomes and course assessments, but no core unit assesses appraisal of work quality against published criteria, rubrics, or exemplars. In compulsory core subject POPH90231 Qualitative Research in Public Health, assessment includes 'A critical reflection on achievement of course objectives through classroom and assessment activities' (500 words, 5%), and PSYC90101 includes a 500-word hurdle reflective thought paper. However, no core assessment requires criterion-referenced peer review, structured appraisal of peers' or tools' work against criteria, or marking against exemplars. No AI reliance or override justification is documented.",
+      "evidenceLines": [
+        "A critical reflection on achievement of course objectives through classroom and assessment activities",
+        "Hurdle Requirements A 500 word reflective thought paper due in week 12. For this task, students will be required to reflect on their learnings throughout the semester.",
+        "Set goals, reflectively self-evaluate and self-direct learning.",
+        "analyse critically, reflect on and synthesise complex information, problems, concepts and theories"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor is met: AI or digital tools appear only as tool operation/training — the operational level TEQSA identifies as non-durable. In compulsory core subject PSYC40005 Advanced Design and Data Analysis, students are trained on statistical software for multivariate model-fitting ('the use of statistical software for model-fitting', 'Execute complex multivariate methods for data analysis'). Level 0 is excluded by this core software execution and generic skills in ICT and digital media. Level 2 is not met because no core unit addresses AI capabilities AND limitations/ethics with use limits assessed, and Level 3 algorithmic governance is absent.",
+      "evidenceLines": [
+        "the use of statistical software for model-fitting.",
+        "Execute complex multivariate methods for data analysis;",
+        "Explain the use, limitations, and risk of targeted advertising via social media.",
+        "Skills"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3 anchor is satisfied: the program documents structured progression toward independent learning via a self-scoped capstone project or internship. The course requires a 25-credit-point Capstone (PSYC90106 Research Project or PSYC90107 Internship) where students self-scope and execute an applied project in consultation with practice and academic mentors, gated behind a progression rule requiring completion of foundational research and data analysis cores (PSYC90100 Applied Research Methods and PSYC40005 Advanced Design and Data Analysis). In addition, core units repeatedly require transfer and application to novel applied scenarios in advertising (PSYC90103), consulting (PSYC90124), and behaviour change (PSYC90102).",
+      "evidenceLines": [
+        "Students must complete 125 points of compulsory subjects, and 25 points of Capstone requirements (PSYC90106 Research Project OR PSYC90107 Internship).",
+        "Completion of the following subjects prior to undertaking the Group Research Project or Internship:",
+        "PSYC90100 Applied Research Methods",
+        "PSYC40005 Advanced Design and Data Analysis",
+        "The syndicate group will work in consultation with their practice and academic mentors to develop a project brief, undertake analysis, and prepare a professional report.",
+        "An Internship Plan",
+        "Analyse real-world problems using social psychological theories"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2 anchor is met: students design and conduct an inquiry with methodology selection and data collection, assessed. Across the compulsory core sequence, students complete substantial research design and empirical inquiry tasks: in POPH90231 Qualitative Research in Public Health, students produce 'A research proposal' (3000 words, 60%) formulating qualitative design, sampling, and analysis; in PSYC90100 Applied Research Methods, students complete a 'Research design assignment' (1500 words, 30%); and in PSYC40005 Advanced Design and Data Analysis, students complete two empirical analysis reports (1000 words 20%, 1500 words 30%). Level 3 is not reached because the substantial primary client research project (PSYC90106) is one capstone route among two (internship option PSYC90107 is available) rather than being universally REQUIRED of all candidates, and no public defence or viva is documented.",
+      "evidenceLines": [
+        "A research proposal",
+        "3000 words",
+        "Research design assignment",
+        "1500 words",
+        "A written report of no more than 1000 words",
+        "A written report of no more than 1500 words",
+        "Formulate a qualitative research design to answer a public health question, including; selecting the population and sample, recruitment methods, data collection tools and approach to analyses."
+      ]
+    },
+    "adaptiveness": 9,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is met: core assessment requires recognised professional genres and oral communication judged against criteria drawn from professional practice. In compulsory core subject PSYC90124 Principles of Consulting, assessment requires a 20-minute consulting group presentation (20%) and consulting problem-solving essay (40%); in PSYC90101 Advanced Social Psychology, assessment includes a 20-minute scenario-based presentation (20%); and in PSYC90103 Psychology of Advertising, students create persuasive campaign messages. In the capstone options, students deliver a Project Presentation to an industry client and professional mentor (PSYC90106, 20%) or an Internship Experience Presentation (PSYC90107, 15%). Level 3 is not reached: core coursework assessments are evaluated by academic teaching staff rather than judged by an external client panel with formal professional conduct grading.",
+      "evidenceLines": [
+        "Group presentation (approx 4-6 students)",
+        "20 minutes",
+        "A 20 minute scenario-based group presentation due weeks 3-12, depending on the group allocation: (20%) This item will be marked individually by the subject coordinator.",
+        "Create persuasive messages based on the theories of influence and persuasion",
+        "A Project Presentation conducted by the group, due at the end of week 12",
+        "An Internship Experience Presentation (Individual presentation)"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2 anchor is met: core assessment reproduces a professional task end to end, producing the artefact a practitioner would produce judged against criteria drawn from practice. In PSYC90124 Principles of Consulting, students use consulting frameworks and case-based practice to design and propose evidence-based solutions to real organizational problems, presented as a team consulting presentation. In PSYC90103 Psychology of Advertising, students construct persuasive communication messages, and in PSYC90100 they develop client-facing research designs. In the capstone (PSYC90106/107), students produce an industry project brief and report (2500 words, 70%) or an internship experience portfolio. Level 3 is not reached because the authentic task spine in core coursework is internally framed without externally supplied live client briefs carrying consequential client constraints across all core units.",
+      "evidenceLines": [
+        "The subject combines didactic teaching to increase student’s understanding of commonly used tools and methods in consulting with case-based practice to design and purpose evidence-based interventions grounded in psychological research.",
+        "Group presentation (approx 4-6 students)",
+        "Create persuasive messages based on the theories of influence and persuasion",
+        "This subject will introduce students to research in applied settings – including the designs and methods commonly used to answer clients’ needs.",
+        "Following the research project conducted throughout the semester, a Project Report describing the research project process and results, due at the end of week 12"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1 anchor is met: work-situated learning exists as an optional internship or selective capstone stream. In the capstone semester, students may select PSYC90107 Internship (25 credit points, placing students in advertising agencies, PR agencies, large corporates, and government departments with hurdle attendance requirements), but it is one of two capstone options alongside the on-campus PSYC90106 Research Project. Because work-situated placement is not a compulsory core requirement for 100% of students, and the cohort is not documented as already practising, Level 2/3 is not reached.",
+      "evidenceLines": [
+        "Students must complete 125 points of compulsory subjects, and 25 points of Capstone requirements (PSYC90106 Research Project OR PSYC90107 Internship).",
+        "This subject will allow select Master of Applied Psychology (MAP) students to take part in an industry internship. The internship will allow students to experience real-world application of their coursework topics.",
+        "The organizations offering placement positions include advertising agencies, communication/PR agencies, research agencies, large corporate firms, and government departments.",
+        "Hurdle requirement: Students must satisfy the hurdle requirement of at least 80% attendance at the Internship. Students who do not satisfy this requirement will not pass the subject."
+      ]
+    },
+    "workplace": 5,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program documents a coherent 125-credit-point compulsory specialist core integrating psychological sciences, marketing, public health, and consulting, with a mandatory prerequisite gate (PSYC90100 and PSYC40005) required prior to capstone entry.",
+        "evidenceLines": [
+          "Students must complete 125 points of compulsory subjects, and 25 points of Capstone requirements (PSYC90106 Research Project OR PSYC90107 Internship).",
+          "Completion of the following subjects prior to undertaking the Group Research Project or Internship:",
+          "PSYC90100 Applied Research Methods",
+          "PSYC40005 Advanced Design and Data Analysis"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Core assessments require defended trade-offs and decision-making under uncertainty, including case-based consulting problem resolution in PSYC90124, heuristic and choice-architecture design in PSYC90104, persuasive campaign design in PSYC90103, and self-scoped client research/internship delivery in the capstone.",
+        "evidenceLines": [
+          "Employ consulting frameworks to synthesise key data, practices, and goals to formulate solutions.",
+          "Use data and evidence from the literature to develop choice-architecture to address real-world problems",
+          "Create persuasive messages based on the theories of influence and persuasion",
+          "The syndicate group will work in consultation with their practice and academic mentors to develop a project brief, undertake analysis, and prepare a professional report."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1 vs W1: Group consulting presentations in PSYC90124 and scenario presentations in PSYC90101 contain both collaborative and communicative evidence. Under one construct, one home, group coordination and individual accountability score in C1, while professional spoken delivery and consulting genres score in W1.",
+      "C2: Reflective writing in POPH90231 (5%) and PSYC90101 (hurdle) represents personal learning reflection rather than criterion-referenced quality appraisal or peer review. Resolved at 1.",
+      "C5: Primary research is executed in PSYC90106, but because PSYC90107 Internship is an alternate option, primary empirical research is not universally required of all students. Scored at 2 on core research design and proposal evidence.",
+      "W3: While PSYC90107 provides substantial 25-point industry placement, it is a selective capstone option rather than a mandatory core requirement for all students. Scored at 1."
+    ],
+    "notScoreable": [
+      "No generative AI or algorithmic governance topics appear in core subject entries, so C3 levels 2 and 3 had no evidence to be evaluated against."
+    ],
     "verified": {
       "adversarial": true,
       "mechanical": true,
