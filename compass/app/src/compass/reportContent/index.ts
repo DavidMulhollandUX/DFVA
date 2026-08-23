@@ -288,6 +288,7 @@ export const REPORT_CONTENT_LOADERS: Record<
   "dfva-v4-mc-sciche": () => import("./dfva-v4-mc-sciche"),
   "dfva-v4-mc-sciear": () => import("./dfva-v4-mc-sciear"),
   "dfva-v4-mc-sciepi": () => import("./dfva-v4-mc-sciepi"),
+  "dfva-v4-mc-sciphy": () => import("./dfva-v4-mc-sciphy"),
   "dfva-v4-mc-scwr": () => import("./dfva-v4-mc-scwr"),
   "dfva-v4-recommend-038ab": () => import("./dfva-v4-recommend-038ab"),
   "dfva-v4-recommend-080cl": () => import("./dfva-v4-recommend-080cl"),
@@ -345,6 +346,7 @@ export const REPORT_CONTENT_LOADERS: Record<
   "dfva-v4-recommend-mc-sciche": () => import("./dfva-v4-recommend-mc-sciche"),
   "dfva-v4-recommend-mc-sciear": () => import("./dfva-v4-recommend-mc-sciear"),
   "dfva-v4-recommend-mc-sciepi": () => import("./dfva-v4-recommend-mc-sciepi"),
+  "dfva-v4-recommend-mc-sciphy": () => import("./dfva-v4-recommend-mc-sciphy"),
   "dfva-v4-recommend-mc-scwr": () => import("./dfva-v4-recommend-mc-scwr"),
 };
 
