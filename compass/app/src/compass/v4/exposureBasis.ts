@@ -60,5 +60,6 @@ export function describeBasis(
   }
 }
 
-export const basisFor = (code: string | undefined): V4PanelABasis | undefined =>
-  code ? v4PanelABasisByCode(code) : undefined;
+export const basisFor = (
+  code: string | undefined,
+): V4PanelABasis | undefined => (code ? v4PanelABasisByCode(code) : undefined);

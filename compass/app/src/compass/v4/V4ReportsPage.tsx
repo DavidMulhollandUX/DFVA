@@ -102,7 +102,9 @@ function ReportCard({ entry }: { entry: ReportIndexEntry }) {
               label="Exposure"
               value={entry.exposure !== null ? entry.exposure.toFixed(1) : "—"}
               hint={
-                entry.exposureTier ? V4_TIER_LABELS[entry.exposureTier] : undefined
+                entry.exposureTier
+                  ? V4_TIER_LABELS[entry.exposureTier]
+                  : undefined
               }
             />
             <Stat
