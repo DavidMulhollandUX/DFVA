@@ -53,6 +53,73 @@ const NEUTRAL_DOT = "#6B7280";
 
 const ITEM_IDS = ["C1", "C2", "C3", "C4", "C5"] as const;
 
+/** Every scored item, in rubric order, with its result. */
+const scoredItems = (
+  r: V4PanelC,
+): Array<{ item: V4RubricItem; score: number }> =>
+  V4_RUBRIC.map((item) => ({
+    item,
+    score: (r[item.id as keyof V4PanelC] as V4ItemResult).score,
+  }));
+
+/** "Digital & AI literacy" → "digital & AI literacy" — only the first character,
+ * so an acronym inside the name survives. */
+const lowerFirst = (s: string): string =>
+  s.charAt(0).toLowerCase() + s.slice(1);
+
+const joinList = (parts: string[]): string =>
+  parts.length <= 1
+    ? parts[0] ?? ""
+    : `${parts.slice(0, -1).join(", ")} and ${parts[parts.length - 1]}`;
+
+/**
+ * The gate clause of the finding sentence. This used to read "with both gates
+ * passed" as a literal, which was true of the pilot program and false the first
+ * time a program with a failing gate reached the page.
+ */
+function gateSummary(r: V4PanelC): string {
+  const failed = V4_GATES.filter(
+    (g) => r.gates[g.id as "G1" | "G2"].result === "FAIL",
+  );
+  if (failed.length === 0) return "every gate passed";
+  if (failed.length === V4_GATES.length) return "no gate passed";
+  return `${joinList(
+    failed.map((g) => `${g.id} (${g.name.toLowerCase()})`),
+  )} not passed`;
+}
+
+/** What the curriculum documents — named from the items that actually scored. */
+function strengthSummary(r: V4PanelC): string {
+  const strong = scoredItems(r).filter((s) => s.score >= 2);
+  if (strong.length === 0) {
+    return "No item reaches the level at which the instrument treats a capability as documented and assessed.";
+  }
+  return `The documented curriculum evidences ${joinList(
+    strong.map((s) => lowerFirst(s.item.name)),
+  )}.`;
+}
+
+/** What it does not — named from the items at or below the outcome-only level. */
+function gapSummary(r: V4PanelC): string {
+  const weak = scoredItems(r).filter((s) => s.score <= 1);
+  if (weak.length === 0) {
+    return "No item sits at or below the level where a capability is claimed but not assessed.";
+  }
+  const tail =
+    " At these levels the capability is absent from the core, or stated in outcomes without an assessment that confirms it.";
+  // When everything is weak the strength sentence has already said so; repeating
+  // all eight item names adds length and no information.
+  if (weak.length === V4_RUBRIC.length) {
+    return `Every item sits at or below the level where a capability may be claimed but is not assessed.${tail}`;
+  }
+  const named = weak.map(
+    (s) => `${s.item.id} ${lowerFirst(s.item.name)} (${s.score}/3)`,
+  );
+  return `It does not document assessed capability in ${joinList(
+    named,
+  )}.${tail}`;
+}
+
 function CardLabel({ children }: { children: React.ReactNode }) {
   return (
     <div className="text-muted-foreground mb-3 flex items-center gap-2 text-xs font-semibold tracking-[0.18em] uppercase">
@@ -621,14 +688,10 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
                   data-testid="finding-block"
                 >
                   On the v4 draft instrument this program scores{" "}
-                  {panelC.adaptiveness}/15 for curriculum adaptiveness, with
-                  both gates passed. The documented curriculum shows a sound
-                  disciplinary foundation and assessed collaborative, appraisal
-                  and inquiry work. It does not document capability specific to
-                  AI-mediated work: no assessment addresses AI capabilities and
-                  limitations (C3 scores {panelC.C3.score}/3), requires
-                  justified reliance decisions on machine-assisted work, or
-                  involves coordination between people and AI tools.
+                  {panelC.adaptiveness}/{V4_ADAPTIVENESS_MAX} for curriculum
+                  adaptiveness and {panelC.workplace}/{V4_WORKPLACE_MAX} for
+                  workplace practice, with {gateSummary(panelC)}.{" "}
+                  {strengthSummary(panelC)} {gapSummary(panelC)}
                 </p>
               </div>
               <div>
