@@ -29,4 +29,9 @@ export const TARGETS: Target[] = [
   // continue targets above, and this target carries the full Claude procedure.
   // Authoring agents are not all Claude; the rules must not be Claude-only.
   { template: 'report-review-skill/SKILL.md.tmpl', output: '.claude/skills/dfva-report-review/SKILL.md' },
+  // Same skill, emitted again to the neutral .agents/skills/ path that Antigravity,
+  // Codex and Goose read (the repo already keeps chief-of-staff and
+  // v4-capture-routine there). Same SKILL.md + YAML frontmatter spec, so one
+  // template serves both; only the location differs.
+  { template: 'report-review-skill/SKILL.md.tmpl', output: '.agents/skills/dfva-report-review/SKILL.md' },
 ]
