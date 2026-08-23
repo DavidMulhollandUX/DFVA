@@ -94,17 +94,17 @@ Competency frameworks from [EIANZ](https://www.eianz.org/) highlight that enviro
 ---
 
 <!-- LABOUR-EVIDENCE:START -->
-## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+## REAL GRADUATE DESTINATIONS (JSA HEO)
 
-**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 050901 Environmental Science):
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **050999 Environmental Studies, n.e.c.** (n = 4,130 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 38.5% of them, and the 5 largest are shown at each stage.
 
 | Career stage | Top occupations |
 |---|---|
-| Entry (~1yr) | Environmental Consultants (35%), Environmental Officers (25%), Spatial Analysts (15%), Sustainability Advisors (15%), Policy Officers (10%) |
-| Early (~3yr) | Senior Environmental Consultants (40%), ESG Advisors (25%), Senior Environmental Scientists (20%), Catchment Planners (15%) |
-| Senior (~5yr) | Principal Environmental Consultants (35%), Sustainability Directors (30%), Environmental Practice Leads (20%), Policy Managers (15%) |
+| Entry (~1yr) | Environmental Consultant (15.0%) · Environmental Research Scientist (6.8%) · Sales Assistant (General) (2.9%) · Urban and Regional Planner (2.9%) · General Clerk (2.9%) |
+| Early (~3yr) | Environmental Consultant (15.3%) · Environmental Research Scientist (6.5%) · Program or Project Administrator (3.9%) · Urban and Regional Planner (2.9%) · General Clerk (2.4%) |
+| Senior (~5yr) | Environmental Consultant (14.5%) · Environmental Research Scientist (6.3%) · Program or Project Administrator (4.6%) · Urban and Regional Planner (2.9%) · General Clerk (2.4%) |
 
-**Graduate outcomes** (QILT GOS 2024, postgraduate environmental science): 79% full-time employment · median salary ,000 · JSA occupation demand: **Shortage**.
+**Field grain, not program grain.** These are graduates of the whole Environmental Studies, n.e.c. field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
 
-**Hiring now (demand-side)** — Adzuna AU live vacancies: GHD, AECOM, Jacobs, WSP, Aurecon, ERM, Beca, Victorian EPA, DCCEEW, Parks Victoria, Melbourne Water. Advertised salary Ak–155k.
+**Graduate outcomes** (QILT GOS 2024, postgraduate Science cut): 79.3% full-time employment · median salary $100,000 · 94.3% at three years · JSA occupation demand: **recruitment difficulty**.
 <!-- LABOUR-EVIDENCE:END -->

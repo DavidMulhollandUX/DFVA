@@ -98,19 +98,17 @@ Commentary from medical research institute leads and [ACTA](https://clinicaltria
 
 ---
 
-## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+## REAL GRADUATE DESTINATIONS (JSA HEO)
 
-**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 010103 Statistics):
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **010103 Statistics** (n = 690 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 39.1% of them, and the 5 largest are shown at each stage.
 
 | Career stage | Top occupations |
 |---|---|
-| Entry (~1yr) | Biostatisticians / Medical Statisticians (45%), Health Data Scientists (25%), Clinical Research Associates (18%), Statistical Analysts (12%) |
-| Early (~3yr) | Senior Biostatisticians (42%), Epidemiological Modellers (28%), Biometrics Project Leads (18%), Clinical Data Managers (12%) |
-| Senior (~5yr) | Principal Biostatisticians / Biometrics Directors (40%), Heads of Clinical Analytics (30%), Academic Research Professors (18%), Health Registry Directors (12%) |
+| Entry (~1yr) | Statistician (11.6%) · Management Consultant (7.2%) · University Tutor (4.3%) · Market Research Analyst (2.9%) · Corporate Treasurer (2.9%) |
+| Early (~3yr) | Statistician (11.6%) · Management Consultant (7.2%) · Market Research Analyst (2.9%) · University Tutor (2.9%) · Corporate Treasurer (2.9%) |
+| Senior (~5yr) | Statistician (13.0%) · Management Consultant (5.8%) · Market Research Analyst (2.9%) · Corporate Treasurer (2.9%) · Policy and Planning Manager (2.9%) |
 
-**Graduate outcomes** (QILT GOS 2024, postgraduate science / mathematics): 91% full-time employment · median salary ,000 · JSA occupation demand: **Moderate–High**.
-
-**Hiring now (demand-side)** — Adzuna AU live vacancies: WEHI, Peter MacCallum Cancer Centre, Murdoch Children's Research Institute (MCRI), Burnet Institute, IQVIA, Parexel, Novotech, Australian Institute of Health and Welfare (AIHW), Victorian Department of Health. Advertised salary Ak–165k.
+**Field grain, not program grain.** These are graduates of the whole Statistics field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
 `,
 };
 

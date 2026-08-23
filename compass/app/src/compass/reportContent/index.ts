@@ -378,6 +378,7 @@ export const REPORT_CONTENT_LOADERS: Record<
   "dfva-v4-recommend-mc-chemeng": () => import("./dfva-v4-recommend-mc-chemeng"),
   "dfva-v4-recommend-mc-climsci": () => import("./dfva-v4-recommend-mc-climsci"),
   "dfva-v4-recommend-mc-clind": () => import("./dfva-v4-recommend-mc-clind"),
+  "dfva-v4-recommend-mc-cs": () => import("./dfva-v4-recommend-mc-cs"),
   "dfva-v4-recommend-mc-datasc": () => import("./dfva-v4-recommend-mc-datasc"),
   "dfva-v4-recommend-mc-ddensur": () => import("./dfva-v4-recommend-mc-ddensur"),
   "dfva-v4-recommend-mc-dmed": () => import("./dfva-v4-recommend-mc-dmed"),

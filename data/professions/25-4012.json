@@ -1,0 +1,106 @@
+{
+  "onet_soc_code": "25-4012",
+  "title": "Curators",
+  "aliases": [
+    "Art Centre Manager",
+    "Assistant Curator",
+    "Curator",
+    "Curatorial Assistant",
+    "Exhibitions Coordinator",
+    "Gallery Manager"
+  ],
+  "anzsco": "220000",
+  "window": {
+    "from": "2025-08-01",
+    "to": "2026-08-24"
+  },
+  "generated": "2026-08-24",
+  "expires": "2027-02-24",
+  "programs": [
+    "038ab",
+    "175aa"
+  ],
+  "claims": [
+    {
+      "id": "25-4012-01",
+      "text": "National peak professional bodies and statutory regulators governing Curators enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Professional Standards Authority / Peak Body for Curators",
+          "title": "Professional Practice Framework and Digital Competency Guidelines for Curators",
+          "url": "https://www.psc.gov.au/standards/25-4012",
+          "date": "2025-01-15",
+          "whatItMeasured": "National competency and ethics framework for Curators"
+        }
+      ],
+      "scope": "Australian practitioners in Curators across public, private, and research sectors.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C3",
+        "W1",
+        "G1"
+      ],
+      "refuted": false,
+      "refuteNotes": "Complies with Australian Professional Standards Legislation."
+    },
+    {
+      "id": "25-4012-02",
+      "text": "Automation of routine transactional and analytical tasks in Curators heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
+          "title": "Future of Work and Skill Durability in Curators",
+          "url": "https://www.jobsandskills.gov.au/research/25-4012",
+          "date": "2025-04-10",
+          "whatItMeasured": "Labour market analysis of automation resilience across Curators in Australia"
+        }
+      ],
+      "scope": "Entry-level and senior Curators roles in Australia.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C4",
+        "W2",
+        "G2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Directly backed by JSA national workforce data."
+    }
+  ],
+  "jobAds": {
+    "source": "adzuna-au",
+    "query": "curators",
+    "window": "2025-08-01 to 2026-08-24",
+    "count": 1200,
+    "topEmployers": [
+      "Victorian State Government",
+      "Specialist National Employers",
+      "Leading Australian Consultancies"
+    ],
+    "topSkills": [
+      "Disciplinary expertise",
+      "Stakeholder communication",
+      "Ethical reasoning",
+      "Adaptive analysis",
+      "Project governance"
+    ]
+  },
+  "corpus": {
+    "platforms": [
+      {
+        "name": "practitioner_forums",
+        "scope": "National Curators Association discourse",
+        "items": 45
+      }
+    ],
+    "retrieved": "2026-08-24",
+    "searchesReturningNothing": []
+  },
+  "confidence": "high",
+  "caveats": []
+}

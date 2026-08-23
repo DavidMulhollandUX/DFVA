@@ -98,19 +98,19 @@ Standards from the [MEAA](https://www.meaa.org/) highlight that high-impact jour
 
 ---
 
-## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+## REAL GRADUATE DESTINATIONS (JSA HEO)
 
-**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 100701 Journalism):
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **100703 Journalism** (n = 5,660 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 46.6% of them, and the 5 largest are shown at each stage.
 
 | Career stage | Top occupations |
 |---|---|
-| Entry (~1yr) | Journalists and Writers (38%), Media Advisers (22%), Digital Content Producers (18%), Public Relations Officers (12%), Policy Officers (10%) |
-| Early (~3yr) | Senior Journalists (35%), Communications Managers (25%), Senior Media Advisers (20%), Podcast Producers (20%) |
-| Senior (~5yr) | Bureau Chiefs / Editors (35%), Directors of Communications (30%), Senior Investigative Journalists (20%), Media Consultants (15%) |
+| Entry (~1yr) | Print Journalist (12.2%) · Public Relations Professional (6.0%) · Sales Assistant (General) (5.1%) · Television Journalist (4.9%) · Journalists and Other Writers nec (4.1%) |
+| Early (~3yr) | Print Journalist (11.0%) · Public Relations Professional (7.8%) · Television Journalist (5.1%) · Journalists and Other Writers nec (4.2%) · Marketing Specialist (4.2%) |
+| Senior (~5yr) | Public Relations Professional (9.4%) · Print Journalist (8.3%) · Marketing Specialist (4.8%) · Journalists and Other Writers nec (4.6%) · Television Journalist (4.4%) |
 
-**Graduate outcomes** (QILT GOS 2024, postgraduate journalism & communications): 67% full-time employment · median salary ,000 · JSA occupation demand: **Met**.
+**Field grain, not program grain.** These are graduates of the whole Journalism field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
 
-**Hiring now (demand-side)** — Adzuna AU live vacancies: ABC, Nine Entertainment, News Corp Australia, Guardian Australia, Schwartz Media, Victorian Government, DFAT, Canva, Atlassian. Advertised salary Ak–135k.
+**Graduate outcomes** (QILT GOS 2024, postgraduate Creative Arts cut): 66.9% full-time employment · median salary $81,000 · 85.8% at three years · JSA occupation demand: **met**.
 `,
 };
 

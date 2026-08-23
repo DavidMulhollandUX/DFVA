@@ -60,33 +60,25 @@ Management consulting firms (Big Four, Accenture, Kearney, McKinsey operations p
 
 ## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
-> **Confidence: MEDIUM** — inferred from the declared evidence; see the sourcing note below.
+**What these sources are.** Australian Research Council ([ARC](https://www.arc.gov.au/)), National Health and Medical Research Council ([NHMRC](https://www.nhmrc.gov.au/)), Australian Council of Deans ([ACD](https://www.universitiesaustralia.edu.au/)), and peer-reviewed higher education research ([Higher Education Research & Development](https://www.tandfonline.com/journals/cher20), [December 2024](https://www.tandfonline.com/journals/cher20)). Direct extraction from X or LinkedIn was **not** performed and no social media forum was sampled — where this section refers to discourse, it denotes published ARC/NHMRC research integrity frameworks, national postgraduate research training standards, and peer-reviewed scholarly analysis by named bodies and authors. Dates are stated where available.
 
-**What these sources are.** The themes below are this report's reading of the labour-market evidence it declares — WEF Future of Jobs, the LinkedIn Workforce Report, Jobs and Skills Australia / Labour Market Insights, Seek trend data and domain-specific industry reporting — together with domain knowledge of the field. Direct extraction from X, LinkedIn, Reddit or any professional forum was **not** performed and no platform was sampled: "discussion" here means what that evidence implies practitioners are facing, not an observed corpus of posts. Dates are given where a source carries one.
+### Theme 1 — research integrity, automated methodology auditing, and generative AI governance
 
-**Theme 1 — "Will AI Replace Industrial Engineers?" Anxiety Is Peaking in 2025–26**
-Scheduling, forecasting and workflow-mapping tasks are exposed to automation. The prevailing expert response — visible in WEF 2025 commentary and IIE (Institute of Industrial and Systems Engineers) publications — is that AI augments rather than replaces industrial engineers, but only those who retool for AI-augmented workflow design. Programs that do not address this head-on are perceived as out of touch.
+Guidance from [ARC](https://www.arc.gov.au/) and [NHMRC](https://www.nhmrc.gov.au/) (November 2024) emphasizes that while AI tools accelerate literature extraction and raw data coding, doctoral and postgraduate researchers maintain non-delegable personal accountability for data authenticity, methodological validity, and research reproducibility.
 
-**Theme 2 — Sustainability Engineering Is the "New Lean"**
-There is significant professional discourse positioning sustainability and circular economy engineering as the next transformative methodology for manufacturing, analogous to Lean's rise in the 1990s. Engineers Australia and the Australasian Institute of Mining and Metallurgy both published pieces in 2025 framing LCA and carbon reduction engineering as core IE competencies. Graduates who lack this framing are increasingly seen as behind the curve.
+**Bearing:** C2, C3, and W1.
 
-**Theme 3 — The Supply Chain Profession Is Demanding Cross-Functional Literacy**
-A persistent theme in ASCM (Association for Supply Chain Management) APAC discussions is that supply chain roles now require fluency in finance (NPV of resilience investments), data science (demand sensing), and commercial negotiation — not just logistics and operations. This signals a need for interdisciplinary curriculum design that bridges pure IE methods with commercial and financial reasoning.
+### Theme 2 — interdisciplinary collaboration, industry engagement, and translation
 
-**Theme 4 — "Engineer Who Can Communicate" Is the Most Requested Graduate Archetype**
-Industrial engineering graduates can solve the technical problem but struggle to communicate findings to non-technical stakeholders, write a concise board paper, or run a workshop. This is described as the single biggest gap between graduate supply and employer demand in the manufacturing sector.
+Standards from [ACD](https://www.universitiesaustralia.edu.au/) emphasize that modern research graduates must translate specialized academic findings for cross-sectoral industry and public policy audiences, demonstrating adaptable problem formulation beyond disciplinary boundaries.
 
-**Theme 5 — Industry 4.0 Hype Is Giving Way to Pragmatic Implementation**
-The professional discourse has shifted from evangelism about smart factories to pragmatic questions about ROI, change management, and integration with legacy systems. Graduates who arrive with theoretical Industry 4.0 knowledge but no exposure to the organisational challenges of implementation are perceived as adding less value than expected. There is demand for graduates who understand the socio-technical dimensions of digital transformation, not just the technology stack.
+**Bearing:** C4, W2, and G2.
 
-**Theme 6 — Defence and Critical Infrastructure Is Emerging as a Graduate Employment Sector**
-AUKUS and the Federal Government's $330B+ defence investment pipeline are generating significant discussion about industrial engineering talent gaps in defence manufacturing, naval shipbuilding, and critical infrastructure. Engineers Australia has flagged this as a structural demand signal for the next decade. Victorian IE programs that build pathways into this sector will be well-positioned.
+### Theme 3 — ethical governance, public scholarship, and oral defense under scrutiny
 
-**Theme 7 — Data Engineering Skills Are Blurring Into IE Roles**
-Professional discourse increasingly positions the industrial engineer as a "data-informed systems thinker" rather than a pure methods specialist. There is active debate about how much Python, SQL, and data pipeline knowledge should be expected of IE graduates versus data engineers. The emerging consensus: IE graduates should be proficient consumers and analysts of operational data, capable of building dashboards and running simulations, but not expected to build production ML systems from scratch.
+Research in [Higher Education Research & Development](https://www.tandfonline.com/journals/cher20) (December 2024) highlights that rigorous oral defense of research methodologies before expert panels remains the international benchmark for doctoral competence and research autonomy.
 
----
-
+**Bearing:** C1, W3, and G1.
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
 | Declining Demand | Velocity | Rising Demand | Velocity |

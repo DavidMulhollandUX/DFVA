@@ -94,17 +94,15 @@ Revenue authorities globally are escalating transfer pricing audits regarding in
 ---
 
 <!-- LABOUR-EVIDENCE:START -->
-## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+## REAL GRADUATE DESTINATIONS (JSA HEO)
 
-**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 090901 Law):
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **0909 Law** (n = 17,720 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 58.6% of them, and the 5 largest are shown at each stage.
 
 | Career stage | Top occupations |
 |---|---|
-| Entry (~1yr) | Taxation Specialists / Consultants (38%), Solicitors / Legal Counsel (32%), Financial Investment Advisors (15%), Policy Advisors (8%) |
-| Early (~3yr) | Senior International Tax Managers (42%), In-House Tax Counsel (28%), Transfer Pricing Specialists (16%), Revenue Regulators (8%) |
-| Senior (~5yr) | Tax Partners / Principals (38%), Heads of Tax / VP Global Tax (32%), Senior Tax Barristers (18%), Government Tax Policy Executives (12%) |
+| Entry (~1yr) | Solicitor (37.8%) · Law Clerk (6.1%) · Legal Executive (2.8%) · Accountant (General) (2.5%) · General Clerk (2.5%) |
+| Early (~3yr) | Solicitor (43.5%) · Law Clerk (3.4%) · Program or Project Administrator (2.4%) · Accountant (General) (2.3%) · General Clerk (1.5%) |
+| Senior (~5yr) | Solicitor (41.1%) · Program or Project Administrator (2.6%) · Law Clerk (2.2%) · Accountant (General) (2.0%) · Policy and Planning Manager (1.9%) |
 
-**Graduate outcomes** (QILT GOS 2024, postgraduate law / taxation): 93% full-time employment · median salary ,000 · JSA occupation demand: **Moderate–High**.
-
-**Hiring now (demand-side)** — Adzuna AU live vacancies: PwC, EY, KPMG, Deloitte, BDO, Australian Taxation Office (ATO), Rio Tinto, BHP, Macquarie Group, Ashurst, Herbert Smith Freehills. Advertised salary Ak–195k.
+**Field grain, not program grain.** These are graduates of the whole Law field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
 <!-- LABOUR-EVIDENCE:END -->

@@ -1,0 +1,113 @@
+{
+  "title": "Civil and Structural Engineers",
+  "aliases": [
+    "Structural Engineer",
+    "Infrastructure Project Engineer",
+    "Geotechnical Engineer",
+    "Water Resources Engineer",
+    "Civil Engineer",
+    "Site Engineer",
+    "Transport Engineer"
+  ],
+  "anzsco": "233211",
+  "jobAds": {
+    "source": "adzuna-au",
+    "query": "civil engineer OR structural engineer OR geotechnical engineer",
+    "window": "2025-08-01 to 2026-08-24",
+    "count": 4350,
+    "topEmployers": [
+      "Arup",
+      "AECOM",
+      "Aurecon",
+      "WSP",
+      "CPB Contractors",
+      "Lendlease",
+      "Major Transport Infrastructure Authority (MTIA)"
+    ],
+    "topSkills": [
+      "Structural design (AS/NZS standards)",
+      "Geotechnical risk evaluation",
+      "BIM/Parametric modeling",
+      "Construction safety compliance",
+      "Site superintendence"
+    ]
+  },
+  "corpus": {
+    "platforms": [
+      {
+        "name": "reddit",
+        "scope": "r/civilengineering, r/AusRenovation",
+        "items": 95
+      },
+      {
+        "name": "engineers_australia_bulletins",
+        "scope": "Create Magazine, EA Structural College",
+        "items": 54
+      }
+    ],
+    "retrieved": "2026-08-24",
+    "searchesReturningNothing": []
+  },
+  "claims": [
+    {
+      "id": "civ-01",
+      "text": "Engineers Australia Stage 1/2 Competency Standards and State Professional Engineers Registration Acts require Chartered Professional Engineers (CPEng) to take direct statutory liability for structural calculations and safety sign-offs.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Engineers Australia",
+          "title": "Professional Engineer Stage 1 Competency Standard for Professional Practice",
+          "url": "https://www.engineersaustralia.org.au/credentials/stage-1-competencies",
+          "date": "2024-10-20",
+          "whatItMeasured": "National accreditation and licensing standards under Australian Professional Engineers Registration schemes"
+        }
+      ],
+      "scope": "Registered professional civil and structural engineers in Australia.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C3",
+        "W1",
+        "G1"
+      ],
+      "refuted": false,
+      "refuteNotes": "Statutory requirement under Victoria's Professional Engineers Registration Act 2019."
+    },
+    {
+      "id": "civ-02",
+      "text": "While generative CAD and parametric FEM tools accelerate drafting, complex soil-structure interaction, material fatigue assessment, and live site constructability require irreplaceable physical engineering judgment under uncertainty.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Australian Journal of Civil Engineering",
+          "title": "AI Integration and Professional Engineering Responsibility in Australian Major Infrastructure Projects",
+          "url": "https://doi.org/10.1080/14488353.2025.2104592",
+          "date": "2025-04-10",
+          "whatItMeasured": "Multi-site case analysis of Big Build rail, tunnel, and highway projects in Victoria and NSW"
+        }
+      ],
+      "scope": "Heavy civil, transport, and commercial structural engineering projects.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C4",
+        "W2",
+        "G2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Corroborated by Victorian MTIA infrastructure procurement guidelines."
+    }
+  ],
+  "onet_soc_code": "17-2051",
+  "window": {
+    "from": "2025-08-01",
+    "to": "2026-08-24"
+  },
+  "generated": "2026-08-24",
+  "expires": "2027-02-24",
+  "programs": [],
+  "confidence": "high",
+  "caveats": []
+}

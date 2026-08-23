@@ -94,17 +94,15 @@ Doctoral and postgraduate research standards from [RANZCP](https://www.ranzcp.or
 ---
 
 <!-- LABOUR-EVIDENCE:START -->
-## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+## REAL GRADUATE DESTINATIONS (JSA HEO)
 
-**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 010101 Medical Studies / Psychiatry):
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **0601 Medical Studies** (n = 4,590 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 79.3% of them, and the 5 largest are shown at each stage.
 
 | Career stage | Top occupations |
 |---|---|
-| Entry (~1yr) | Psychiatry Registrars (70%), Child / Forensic Advanced Trainees (20%), Clinical Research Fellows (10%) |
-| Early (~3yr) | Consultant Psychiatrists (Public Inpatient / C-L) (55%), Private Practice Psychiatrists (25%), Community Mental Health Clinical Leads (20%) |
-| Senior (~5yr) | Clinical Directors of Mental Health Services (40%), Associate Professors / PIs (25%), Senior Forensic Psychiatrists (20%), Specialized Clinic Heads (15%) |
+| Entry (~1yr) | Resident Medical Officer (34.2%) · Medical Practitioners nec (25.5%) · General Practitioner (13.9%) · Medical Laboratory Scientist (1.1%) · Registered Nurses nec (0.9%) |
+| Early (~3yr) | Resident Medical Officer (32.0%) · Medical Practitioners nec (22.2%) · General Practitioner (16.6%) · Medical Laboratory Scientist (1.1%) · Surgeon (General) (0.9%) |
+| Senior (~5yr) | Resident Medical Officer (25.3%) · Medical Practitioners nec (20.0%) · General Practitioner (19.8%) · Surgeon (General) (1.1%) · Medical Laboratory Scientist (1.1%) |
 
-**Graduate outcomes** (QILT GOS 2024, postgraduate medical specialist / psychiatry): 100% full-time employment · median salary ,000 · JSA occupation demand: **Very High**.
-
-**Hiring now (demand-side)** — Adzuna AU live vacancies: NorthWestern Mental Health (Melbourne Health), Alfred Mental Health, Monash Health, Austin Health, Forensicare, Orygen Youth Health, St Vincent's Hospital Melbourne, Victorian Department of Health. Advertised salary Ak–320k.
+**Field grain, not program grain.** These are graduates of the whole Medical Studies field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
 <!-- LABOUR-EVIDENCE:END -->

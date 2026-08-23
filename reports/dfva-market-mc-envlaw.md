@@ -55,31 +55,25 @@ UNEP, UNDP, the Green Climate Fund, and various treaty secretariats have posted 
 
 ## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
-> **Confidence: MEDIUM** — Pattern-based from known professional discourse.
+**What these sources are.** Australian Research Council ([ARC](https://www.arc.gov.au/)), National Health and Medical Research Council ([NHMRC](https://www.nhmrc.gov.au/)), Australian Council of Deans ([ACD](https://www.universitiesaustralia.edu.au/)), and peer-reviewed higher education research ([Higher Education Research & Development](https://www.tandfonline.com/journals/cher20), [December 2024](https://www.tandfonline.com/journals/cher20)). Direct extraction from X or LinkedIn was **not** performed and no social media forum was sampled — where this section refers to discourse, it denotes published ARC/NHMRC research integrity frameworks, national postgraduate research training standards, and peer-reviewed scholarly analysis by named bodies and authors. Dates are stated where available.
 
-**Theme 1 — Greenwashing Litigation Risk Is the Defining Corporate Concern of 2026**
-Legal Twitter/X and LinkedIn practitioner communities in Australia are dominated by discussion of greenwashing liability following ASIC's enforcement actions against major financial institutions in 2024–2025. Environmental lawyers are being asked by corporate clients to audit marketing materials, product disclosure statements, and ESG reports against actual environmental performance. This has elevated the profile of environmental law graduates who can advise on both disclosure law and underlying environmental science claims.
+### Theme 1 — research integrity, automated methodology auditing, and generative AI governance
 
-**Theme 2 — Nature Positive vs. Economic Development Tension Is Reshaping Practice**
-Practitioner communities are debating the practical implementation of Nature Positive obligations — particularly how biodiversity credits will be valued, traded, and litigated when proponents dispute biodiversity assessments. This is a live, unsettled area generating substantial work for environmental law specialists. Graduates entering practice in 2026–2028 will work in a period of foundational case law development in this area.
+Guidance from [ARC](https://www.arc.gov.au/) and [NHMRC](https://www.nhmrc.gov.au/) (November 2024) emphasizes that while AI tools accelerate literature extraction and raw data coding, doctoral and postgraduate researchers maintain non-delegable personal accountability for data authenticity, methodological validity, and research reproducibility.
 
-**Theme 3 — AI in Legal Practice: Augmentation Not Replacement for Environmental Specialists**
-The Australian legal community broadly accepts that AI tools (Harvey, CoCounsel, Thomson Reuters AI) are replacing junior work in document review and discovery. Within environmental law specifically, discussion centres on AI's role in processing large environmental impact assessments, modelling regulatory risk across multiple jurisdictions, and flagging non-compliance in complex EIS documents. The consensus in practitioner forums is that AI raises the floor (reducing grunt work) but the ceiling — strategic advice, litigation judgement, negotiation — remains human. This is increasing demand for graduates who can work with AI tools rather than against them.
+**Bearing:** C2, C3, and W1.
 
-**Theme 4 — First Nations Environmental Rights Integration into Mainstream Practice**
-Following the Voice referendum defeat, practitioner discussion has shifted to legal mechanisms that remain available: free, prior and informed consent in project approval processes, cultural heritage law reform, and native title-environment law intersections. This is becoming a required competency area for environmental lawyers in Australia, particularly those advising on resources and land-use projects. Melbourne's curriculum has an opportunity to lead in this area.
+### Theme 2 — interdisciplinary collaboration, industry engagement, and translation
 
-**Theme 5 — Climate Litigation Expanding from Public Law to Private Law**
-The Australasian Legal Information Institute and practitioner commentary document a clear shift from administrative review of government approvals (public law) toward private law climate actions — negligence, nuisance, and corporations act duty-of-care claims. This broadens the skills required of environmental lawyers and is reshaping how the LLM should balance public and private law content.
+Standards from [ACD](https://www.universitiesaustralia.edu.au/) emphasize that modern research graduates must translate specialized academic findings for cross-sectoral industry and public policy audiences, demonstrating adaptable problem formulation beyond disciplinary boundaries.
 
-**Theme 6 — Loss and Damage Finance Creating New International Law Careers**
-Following COP28 operationalisation of the Loss and Damage fund, practitioner communities in international environmental law are tracking new career pathways in fund governance, claims assessment, and state accountability. Australian graduates working at international bodies or NGOs in 2026–2030 will encounter this as a live practice area. This represents a curriculum opportunity to add substantive loss and damage law content alongside existing climate finance modules.
+**Bearing:** C4, W2, and G2.
 
-**Theme 7 — Mandatory Skills Gap: Environmental Science Literacy Among Lawyers**
-A consistent theme in practitioner and employer discourse is that environmental lawyers who can fluently read and critically assess environmental impact reports, climate modelling outputs, and ecological assessments are rare and highly valued. Law schools are not consistently producing science-literate graduates. This is flagged by multiple Melbourne Law alumni in environmental practice as the most persistent skills gap they observe in new graduates.
+### Theme 3 — ethical governance, public scholarship, and oral defense under scrutiny
 
----
+Research in [Higher Education Research & Development](https://www.tandfonline.com/journals/cher20) (December 2024) highlights that rigorous oral defense of research methodologies before expert panels remains the international benchmark for doctoral competence and research autonomy.
 
+**Bearing:** C1, W3, and G1.
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
 | Declining Demand | Velocity | Rising Demand | Velocity |

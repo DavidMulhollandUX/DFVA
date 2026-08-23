@@ -94,17 +94,15 @@ Guidelines from [IChemE](https://www.icheme.org/) highlight that scaling up nove
 ---
 
 <!-- LABOUR-EVIDENCE:START -->
-## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+## REAL GRADUATE DESTINATIONS (JSA HEO)
 
-**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 030301 Chemical Engineering):
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **030301 Chemical Engineering** (n = 2,890 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 50.5% of them, and the 5 largest are shown at each stage.
 
 | Career stage | Top occupations |
 |---|---|
-| Entry (~1yr) | Chemical Engineers (40%), Process Engineers (35%), Environmental / Safety Engineers (15%), Mining / Metallurgical Engineers (10%) |
-| Early (~3yr) | Senior Chemical Engineers (40%), Lead Process Engineers (30%), Plant Operations Superintendents (15%), Sustainability / Energy Transition Leads (15%) |
-| Senior (~5yr) | Engineering Managers (35%), Principal Process Consultants (30%), Operations Directors (20%), Chief Technical Officers (15%) |
+| Entry (~1yr) | Chemical Engineer (29.8%) · Metallurgist (2.8%) · University Tutor (2.8%) · Engineering Professionals nec (2.4%) · Chemist (2.4%) |
+| Early (~3yr) | Chemical Engineer (29.4%) · Engineering Professionals nec (3.1%) · Metallurgist (2.4%) · Chemist (2.4%) · University Lecturer (2.1%) |
+| Senior (~5yr) | Chemical Engineer (26.6%) · Engineering Professionals nec (3.5%) · Metallurgist (2.4%) · Mechanical Engineer (2.4%) · University Lecturer (2.1%) |
 
-**Graduate outcomes** (QILT GOS 2024, postgraduate engineering): 89% full-time employment · median salary ,000 · JSA occupation demand: **Moderate to High**.
-
-**Hiring now (demand-side)** — Adzuna AU live vacancies: Woodside Energy, BHP, Rio Tinto, Orica, CSL, Viva Energy, ExxonMobil, Arup, Worley, GHD. Advertised salary Ak–160k.
+**Field grain, not program grain.** These are graduates of the whole Chemical Engineering field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
 <!-- LABOUR-EVIDENCE:END -->

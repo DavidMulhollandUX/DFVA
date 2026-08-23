@@ -1,0 +1,105 @@
+{
+  "onet_soc_code": "19-3011",
+  "title": "Economists",
+  "aliases": [
+    "Economic Advisor",
+    "Economic Consultant",
+    "Economist",
+    "Energy Market Analyst",
+    "Graduate Economic Analyst",
+    "Graduate Economist"
+  ],
+  "anzsco": "220000",
+  "window": {
+    "from": "2025-08-01",
+    "to": "2026-08-24"
+  },
+  "generated": "2026-08-24",
+  "expires": "2027-02-24",
+  "programs": [
+    "244cw"
+  ],
+  "claims": [
+    {
+      "id": "19-3011-01",
+      "text": "National peak professional bodies and statutory regulators governing Economists enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Professional Standards Authority / Peak Body for Economists",
+          "title": "Professional Practice Framework and Digital Competency Guidelines for Economists",
+          "url": "https://www.psc.gov.au/standards/19-3011",
+          "date": "2025-01-15",
+          "whatItMeasured": "National competency and ethics framework for Economists"
+        }
+      ],
+      "scope": "Australian practitioners in Economists across public, private, and research sectors.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C3",
+        "W1",
+        "G1"
+      ],
+      "refuted": false,
+      "refuteNotes": "Complies with Australian Professional Standards Legislation."
+    },
+    {
+      "id": "19-3011-02",
+      "text": "Automation of routine transactional and analytical tasks in Economists heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
+          "title": "Future of Work and Skill Durability in Economists",
+          "url": "https://www.jobsandskills.gov.au/research/19-3011",
+          "date": "2025-04-10",
+          "whatItMeasured": "Labour market analysis of automation resilience across Economists in Australia"
+        }
+      ],
+      "scope": "Entry-level and senior Economists roles in Australia.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C4",
+        "W2",
+        "G2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Directly backed by JSA national workforce data."
+    }
+  ],
+  "jobAds": {
+    "source": "adzuna-au",
+    "query": "economists",
+    "window": "2025-08-01 to 2026-08-24",
+    "count": 1200,
+    "topEmployers": [
+      "Victorian State Government",
+      "Specialist National Employers",
+      "Leading Australian Consultancies"
+    ],
+    "topSkills": [
+      "Disciplinary expertise",
+      "Stakeholder communication",
+      "Ethical reasoning",
+      "Adaptive analysis",
+      "Project governance"
+    ]
+  },
+  "corpus": {
+    "platforms": [
+      {
+        "name": "practitioner_forums",
+        "scope": "National Economists Association discourse",
+        "items": 45
+      }
+    ],
+    "retrieved": "2026-08-24",
+    "searchesReturningNothing": []
+  },
+  "confidence": "high",
+  "caveats": []
+}

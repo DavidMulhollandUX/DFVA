@@ -94,17 +94,15 @@ Competency frameworks from [VLAB](https://www.lawlibrary.vic.gov.au/vlab) emphas
 ---
 
 <!-- LABOUR-EVIDENCE:START -->
-## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+## REAL GRADUATE DESTINATIONS (JSA HEO)
 
-**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 090901 Law):
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **0909 Law** (n = 17,720 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 58.6% of them, and the 5 largest are shown at each stage.
 
 | Career stage | Top occupations |
 |---|---|
-| Entry (~1yr) | Solicitors (42%), Legal Officers (18%), Judicial Clerks / Associates (15%), Policy Officers (12%), Management Consultants (8%) |
-| Early (~3yr) | Senior Associates (40%), Senior Legal Officers (20%), In-House Counsel (20%), Barristers (10%) |
-| Senior (~5yr) | Partners / Special Counsel (35%), General Counsel (25%), Principal Legal Officers (20%), Barristers (15%) |
+| Entry (~1yr) | Solicitor (37.8%) · Law Clerk (6.1%) · Legal Executive (2.8%) · Accountant (General) (2.5%) · General Clerk (2.5%) |
+| Early (~3yr) | Solicitor (43.5%) · Law Clerk (3.4%) · Program or Project Administrator (2.4%) · Accountant (General) (2.3%) · General Clerk (1.5%) |
+| Senior (~5yr) | Solicitor (41.1%) · Program or Project Administrator (2.6%) · Law Clerk (2.2%) · Accountant (General) (2.0%) · Policy and Planning Manager (1.9%) |
 
-**Graduate outcomes** (QILT GOS 2024, postgraduate law): 84% full-time employment · median salary ,000 · JSA occupation demand: **Shortage**.
-
-**Hiring now (demand-side)** — Adzuna AU live vacancies: Allens, King & Wood Mallesons, Herbert Smith Freehills, Ashurst, Clayton Utz, MinterEllison, Victorian Government Solicitor's Office, Commonwealth Attorney-General's Department, Macquarie Group, BHP. Advertised salary Ak–180k.
+**Field grain, not program grain.** These are graduates of the whole Law field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
 <!-- LABOUR-EVIDENCE:END -->

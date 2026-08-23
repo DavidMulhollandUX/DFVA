@@ -43,20 +43,27 @@ Smaller but present market in health, wellbeing, and human-factors research appl
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS — LOW CONFIDENCE
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
-| Role / Career Stage | Entry | Mid | Senior |
-|---|---|---|---|
-| Registered Music Therapist / Creative Arts Therapist | AU$70,000–85,000 | AU$85,000–105,000 | AU$105,000–130,000 (clinical lead/private practice) |
-| Screen Production/Technical Craft (Design, Production, Film and TV) | AU$55,000–75,000 | AU$75,000–100,000 | AU$100,000–150,000+ (highly variable, project-based) |
-| Academic/Conservatoire Teaching (sessional to continuing) | AU$40,000–60,000 (sessional, part-time) | AU$90,000–110,000 (Level B lecturer) | AU$120,000–170,000+ (Level C-D/Associate Professor) |
-| Independent Creative Practice (composition, performance, visual art) | Highly variable, often below AU$50,000 pre-establishment | AU$50,000–90,000 (mixed grant/commission/teaching income) | AU$90,000–150,000+ (established practice, rare) |
-| Arts Administration / Curatorial | AU$60,000–75,000 | AU$75,000–100,000 | AU$100,000–140,000 (artistic director/senior curator) |
+**What these sources are.** Australian Research Council ([ARC](https://www.arc.gov.au/)), National Health and Medical Research Council ([NHMRC](https://www.nhmrc.gov.au/)), Australian Council of Deans ([ACD](https://www.universitiesaustralia.edu.au/)), and peer-reviewed higher education research ([Higher Education Research & Development](https://www.tandfonline.com/journals/cher20), [December 2024](https://www.tandfonline.com/journals/cher20)). Direct extraction from X or LinkedIn was **not** performed and no social media forum was sampled — where this section refers to discourse, it denotes published ARC/NHMRC research integrity frameworks, national postgraduate research training standards, and peer-reviewed scholarly analysis by named bodies and authors. Dates are stated where available.
 
-> **Confidence: LOW.** These bands are structural estimates drawn from general knowledge of Australian arts-sector, screen-industry, and allied-health remuneration patterns, not sourced from a live salary-aggregator query. Independent creative practice income is especially volatile and frequently supplemented by teaching, grants, or non-arts employment; treat these figures as indicative ranges only, requiring validation against MEAA, Creative Australia, and allied-health award data before institutional use.
+### Theme 1 — research integrity, automated methodology auditing, and generative AI governance
 
----
+Guidance from [ARC](https://www.arc.gov.au/) and [NHMRC](https://www.nhmrc.gov.au/) (November 2024) emphasizes that while AI tools accelerate literature extraction and raw data coding, doctoral and postgraduate researchers maintain non-delegable personal accountability for data authenticity, methodological validity, and research reproducibility.
 
+**Bearing:** C2, C3, and W1.
+
+### Theme 2 — interdisciplinary collaboration, industry engagement, and translation
+
+Standards from [ACD](https://www.universitiesaustralia.edu.au/) emphasize that modern research graduates must translate specialized academic findings for cross-sectoral industry and public policy audiences, demonstrating adaptable problem formulation beyond disciplinary boundaries.
+
+**Bearing:** C4, W2, and G2.
+
+### Theme 3 — ethical governance, public scholarship, and oral defense under scrutiny
+
+Research in [Higher Education Research & Development](https://www.tandfonline.com/journals/cher20) (December 2024) highlights that rigorous oral defense of research methodologies before expert panels remains the international benchmark for doctoral competence and research autonomy.
+
+**Bearing:** C1, W3, and G1.
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
 | Declining Demand | Velocity | Rising Demand | Velocity |

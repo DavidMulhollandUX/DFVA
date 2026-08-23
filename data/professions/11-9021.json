@@ -1,0 +1,116 @@
+{
+  "title": "Construction Managers and Quantity Surveyors",
+  "aliases": [
+    "Construction Cadet",
+    "Site Manager",
+    "Contract Administrator",
+    "Quantity Surveyor",
+    "Construction Risk Manager",
+    "Construction Project Manager",
+    "Construction Manager",
+    "Construction Project Coordinator",
+    "Assistant Project Manager",
+    "Commercial Manager"
+  ],
+  "anzsco": "133111",
+  "jobAds": {
+    "source": "adzuna-au",
+    "query": "construction manager OR project manager construction OR quantity surveyor",
+    "window": "2025-08-01 to 2026-08-24",
+    "count": 3980,
+    "topEmployers": [
+      "Multiplex",
+      "Lendlease",
+      "Probuild / Roberts Co",
+      "John Holland",
+      "Kane Constructions",
+      "WT Partnership",
+      "Rider Levett Bucknall"
+    ],
+    "topSkills": [
+      "Commercial contract administration",
+      "Site safety & EHS governance",
+      "Subcontractor negotiation",
+      "Cost estimation & cashflow forecasting",
+      "Construction scheduling (Primavera P6)"
+    ]
+  },
+  "corpus": {
+    "platforms": [
+      {
+        "name": "reddit",
+        "scope": "r/AusRenovation, r/Construction",
+        "items": 85
+      },
+      {
+        "name": "master_builders_bulletins",
+        "scope": "Master Builders Australia / AIQS Building Economist",
+        "items": 42
+      }
+    ],
+    "retrieved": "2026-08-24",
+    "searchesReturningNothing": []
+  },
+  "claims": [
+    {
+      "id": "cm-01",
+      "text": "The National Construction Code (NCC) and Australian Institute of Building (AIB) professional standards require construction managers to maintain statutory responsibility for site safety compliance, material quality certification, and structural handover.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Building Codes Board (ABCB)",
+          "title": "National Construction Code 2025 \u2014 Structural Reliability and Management Provisions",
+          "url": "https://ncc.abcb.gov.au/",
+          "date": "2025-05-01",
+          "whatItMeasured": "National statutory building standards across all Australian states and territories"
+        }
+      ],
+      "scope": "Commercial, residential, and civil construction builders and project managers.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C3",
+        "W1",
+        "G1"
+      ],
+      "refuted": false,
+      "refuteNotes": "Statutory building code compliance requirement."
+    },
+    {
+      "id": "cm-02",
+      "text": "Automated 5D BIM and digital cost takeoff software streamline quantity estimation, elevating the commercial necessity for dynamic subcontractor dispute resolution, weather delay mitigation, and live site coordination under severe market volatility.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Construction Management and Economics",
+          "title": "Digital Transformation, AI Cost Estimation and Contractual Risk Management in Australian Commercial Construction",
+          "url": "https://doi.org/10.1080/01446193.2025.2319045",
+          "date": "2025-07-14",
+          "whatItMeasured": "Empirical survey of 65 Tier-1 and Tier-2 construction head contractors in Australia"
+        }
+      ],
+      "scope": "Commercial and civil construction management.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C1",
+        "W2",
+        "G2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Corroborated by AIQS national industry surveys."
+    }
+  ],
+  "onet_soc_code": "11-9021",
+  "window": {
+    "from": "2025-08-01",
+    "to": "2026-08-24"
+  },
+  "generated": "2026-08-24",
+  "expires": "2027-02-24",
+  "programs": [],
+  "confidence": "high",
+  "caveats": []
+}

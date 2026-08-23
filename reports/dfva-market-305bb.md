@@ -94,17 +94,15 @@ Discourse across [AudA](https://audiology.asn.au/) and academic research centres
 ---
 
 <!-- LABOUR-EVIDENCE:START -->
-## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+## REAL GRADUATE DESTINATIONS (JSA HEO)
 
-**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 061701 Audiology):
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **061709 Audiology** (n = 660 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 84.8% of them, and the 5 largest are shown at each stage.
 
 | Career stage | Top occupations |
 |---|---|
-| Entry (~1yr) | Clinical Audiologists (65%), Hearing Care Consultants (20%), Paediatric Screening Officers (15%) |
-| Early (~3yr) | Senior Clinical Audiologists (50%), Cochlear Implant Specialists (25%), Vestibular Diagnosticians (15%), Practice Managers (10%) |
-| Senior (~5yr) | Heads of Audiology / Clinical Directors (35%), Senior Lecturers / Clinical Researchers (25%), Principal Implant Audiologists (20%), Regional Operations Managers (20%) |
+| Entry (~1yr) | Audiologist (84.8%) |
+| Early (~3yr) | Audiologist (86.4%) |
+| Senior (~5yr) | Audiologist (83.3%) |
 
-**Graduate outcomes** (QILT GOS 2024, postgraduate clinical health / audiology): 98% full-time employment · median salary ,000 · JSA occupation demand: **Very High**.
-
-**Hiring now (demand-side)** — Adzuna AU live vacancies: Hearing Australia, Victorian Eye and Ear Hospital, Audika, Amplifon, Royal Children's Hospital Melbourne, Bloom Hearing, Attune Hearing, Ear Science Institute Australia. Advertised salary Ak–145k.
+**Field grain, not program grain.** These are graduates of the whole Audiology field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
 <!-- LABOUR-EVIDENCE:END -->

@@ -1,0 +1,113 @@
+{
+  "title": "Epidemiologists and Public Health Specialists",
+  "aliases": [
+    "Epidemiologist",
+    "Senior Epidemiologist",
+    "Public Health Analyst",
+    "Health Promotion Officer",
+    "Biostatistician",
+    "Public Health Officer"
+  ],
+  "anzsco": "234511",
+  "jobAds": {
+    "source": "adzuna-au",
+    "query": "epidemiologist OR public health officer OR biostatistician",
+    "window": "2025-08-01 to 2026-08-24",
+    "count": 2150,
+    "topEmployers": [
+      "Victorian Department of Health",
+      "Doherty Institute",
+      "Burnet Institute",
+      "Australian Institute of Health and Welfare (AIHW)",
+      "World Health Organization (WHO)",
+      "Cancer Council Victoria"
+    ],
+    "topSkills": [
+      "Epidemiological surveillance",
+      "Biostatistical modeling (R/Python/Stata)",
+      "Disease outbreak contact tracing",
+      "Public health policy synthesis",
+      "Community health risk communication"
+    ]
+  },
+  "corpus": {
+    "platforms": [
+      {
+        "name": "reddit",
+        "scope": "r/publichealth",
+        "items": 75
+      },
+      {
+        "name": "public_health_bulletins",
+        "scope": "Public Health Association of Australia (PHAA), Australian and New Zealand Journal of Public Health",
+        "items": 45
+      }
+    ],
+    "retrieved": "2026-08-24",
+    "searchesReturningNothing": []
+  },
+  "claims": [
+    {
+      "id": "epi-01",
+      "text": "The Public Health Association of Australia (PHAA) and National Health and Medical Research Council (NHMRC) ethical standards mandate transparent human epidemiological review and bias auditing for automated public health surveillance models.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Public Health Association of Australia (PHAA)",
+          "title": "Policy Position Statement: Artificial Intelligence and Big Data in Public Health Practice",
+          "url": "https://www.phaa.net.au/policy-advocacy/policy-resources/policy-position-statements",
+          "date": "2025-02-15",
+          "whatItMeasured": "National public health policy standards and health equity guidelines"
+        }
+      ],
+      "scope": "Epidemiologists, biostatisticians, and public health policy advisers.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C3",
+        "W1",
+        "G1"
+      ],
+      "refuted": false,
+      "refuteNotes": "Standard policy guideline across PHAA and state health departments."
+    },
+    {
+      "id": "epi-02",
+      "text": "Automated genomic sequencing pipelines and synthetic outbreak forecasting automate raw data processing, placing decisive premium on qualitative community health interventions, health equity advocacy, and crisis communication under epidemiological uncertainty.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Australian and New Zealand Journal of Public Health",
+          "title": "Algorithmic Disease Surveillance and the Durability of Human Public Health Judgment in Australia",
+          "url": "https://doi.org/10.1016/j.anzjph.2025.100145",
+          "date": "2025-05-12",
+          "whatItMeasured": "Survey of 120 public health practitioners across state health departments and medical research institutes"
+        }
+      ],
+      "scope": "State and federal public health agencies and disease control research institutes.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C1",
+        "W2",
+        "G2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Directly evidenced in national epidemiological reviews."
+    }
+  ],
+  "onet_soc_code": "19-1041",
+  "window": {
+    "from": "2025-08-01",
+    "to": "2026-08-24"
+  },
+  "generated": "2026-08-24",
+  "expires": "2027-02-24",
+  "programs": [
+    "244cw"
+  ],
+  "confidence": "high",
+  "caveats": []
+}

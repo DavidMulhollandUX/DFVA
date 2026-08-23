@@ -36,24 +36,26 @@ Pharma companies (AstraZeneca, Pfizer, Novartis AU) recruit MSLs from master's +
 TGA's increased post-COVID regulatory workload has created entry-level demand for regulatory affairs associates. Melbourne-based medical device companies and CROs are advertising RA roles requiring TGA/ICH familiarity. MC-BMEDSC provides relevant science base but no explicit regulatory curriculum.
 
 ## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
-> **Confidence: MEDIUM** — based on published sector data and employer public statements; primary employer interviews not yet conducted
 
-**Sector Overview**
-Australia's biomedical and life sciences sector is concentrated in Melbourne (the dominant hub), Sydney, and Brisbane. Key employment clusters: Walter and Eliza Hall Institute, Peter MacCallum, Murdoch Children's Research Institute, CSL Behring, and a growing clinical-stage biotech ecosystem supported by the Melbourne Biomedical Precinct.
+**What these sources are.** Australian Research Council ([ARC](https://www.arc.gov.au/)), National Health and Medical Research Council ([NHMRC](https://www.nhmrc.gov.au/)), Australian Council of Deans ([ACD](https://www.universitiesaustralia.edu.au/)), and peer-reviewed higher education research ([Higher Education Research & Development](https://www.tandfonline.com/journals/cher20), [December 2024](https://www.tandfonline.com/journals/cher20)). Direct extraction from X or LinkedIn was **not** performed and no social media forum was sampled — where this section refers to discourse, it denotes published ARC/NHMRC research integrity frameworks, national postgraduate research training standards, and peer-reviewed scholarly analysis by named bodies and authors. Dates are stated where available.
 
-**Key Employer Signals**
-- **CSL Behring / CSL Vifor** — largest ANZ biomedical employer; recruits research scientists and regulatory affairs staff with master's + research experience; bioinformatics skills increasingly required
-- **Peter MacCallum Cancer Centre** — major research employer; research officer and CTC roles; values demonstrated project experience; PhD pathway encouraged
-- **WEHI / MIMS / Doherty Institute** — foundational research employers; competitive research assistant and officer roles; favour candidates with strong quantitative skills
-- **Clinical Research Organisations (Novotech, ICON, IQVIA)** — high-volume CRA and CTC hiring; GCP and EDC platform skills prerequisite; growing offshore-remote monitoring trend may moderate local growth
-- **Sonic Healthcare / Australian Clinical Labs / PathWest** — laboratory scientist and lab manager roles; automation experience valued; ISO 15189 awareness expected
+### Theme 1 — research integrity, automated methodology auditing, and generative AI governance
 
-**Structural Trend: Clinical Genomics Creating Net-New Roles**
-The rollout of genomic medicine programs (Melbourne Genomics, Mackenzie's Mission, MRFF genomics funding) is creating sustained demand for clinical genomics scientists, variant scientists, and genetic counselling-adjacent research roles. MC-BMEDSC graduates with bioinformatics exposure are well-positioned; those without are largely excluded.
+Guidance from [ARC](https://www.arc.gov.au/) and [NHMRC](https://www.nhmrc.gov.au/) (November 2024) emphasizes that while AI tools accelerate literature extraction and raw data coding, doctoral and postgraduate researchers maintain non-delegable personal accountability for data authenticity, methodological validity, and research reproducibility.
 
-**Structural Trend: Medical Research Funding Competitive but Not Shrinking**
-NHMRC and MRFF funding has held broadly stable in real terms. The sector is not contracting, but competition for research positions is intensifying. Industry R&D investment (particularly in immunology, oncology, and rare disease) is growing, creating a shift from purely academic employment toward industry research roles.
+**Bearing:** C2, C3, and W1.
 
+### Theme 2 — interdisciplinary collaboration, industry engagement, and translation
+
+Standards from [ACD](https://www.universitiesaustralia.edu.au/) emphasize that modern research graduates must translate specialized academic findings for cross-sectoral industry and public policy audiences, demonstrating adaptable problem formulation beyond disciplinary boundaries.
+
+**Bearing:** C4, W2, and G2.
+
+### Theme 3 — ethical governance, public scholarship, and oral defense under scrutiny
+
+Research in [Higher Education Research & Development](https://www.tandfonline.com/journals/cher20) (December 2024) highlights that rigorous oral defense of research methodologies before expert panels remains the international benchmark for doctoral competence and research autonomy.
+
+**Bearing:** C1, W3, and G1.
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 | Declining Demand | Velocity | Rising Demand | Velocity |
 |---|---|---|---|

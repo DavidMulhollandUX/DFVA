@@ -98,19 +98,19 @@ Accreditation frameworks from [AACA](https://www.aaca.org.au/) highlight that ar
 
 ---
 
-## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+## REAL GRADUATE DESTINATIONS (JSA HEO)
 
-**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 040101 Architecture):
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **040101 Architecture** (n = 5,320 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 62.6% of them, and the 5 largest are shown at each stage.
 
 | Career stage | Top occupations |
 |---|---|
-| Entry (~1yr) | Architects (35%), Architectural Draftspersons (25%), Urban Designers (15%), Construction Project Coordinators (15%), Interior Designers (10%) |
-| Early (~3yr) | Registered Architects (40%), Project Architects (30%), Senior Urban Designers (15%), Sustainability / BIM Leads (15%) |
-| Senior (~5yr) | Associate Directors (35%), Principal Architects (30%), Practice Directors (20%), Design Directors (15%) |
+| Entry (~1yr) | Architect (34.2%) · Architectural Draftsperson (17.9%) · Sales Assistant (General) (2.6%) · General Clerk (2.1%) · Construction Project Manager (1.7%) |
+| Early (~3yr) | Architect (36.5%) · Architectural Draftsperson (15.8%) · Construction Project Manager (2.6%) · Sales Assistant (General) (1.5%) · General Clerk (1.1%) |
+| Senior (~5yr) | Architect (36.3%) · Architectural Draftsperson (13.3%) · Construction Project Manager (3.4%) · Program or Project Administrator (1.3%) · Sales Assistant (General) (1.1%) |
 
-**Graduate outcomes** (QILT GOS 2024, postgraduate architecture): 82% full-time employment · median salary ,000 · JSA occupation demand: **Moderate to High**.
+**Field grain, not program grain.** These are graduates of the whole Architecture field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
 
-**Hiring now (demand-side)** — Adzuna AU live vacancies: Woods Bagot, HASSELL, Architectus, Cox Architecture, BVN, Bates Smart, ARM Architecture, Gray Puksand, Fender Katsalidis, NH Architecture. Advertised salary Ak–165k.
+**Graduate outcomes** (QILT GOS 2024, postgraduate Architecture & Building cut): 74.8% full-time employment · median salary $84,500 · 94.8% at three years · JSA occupation demand: **recruitment difficulty**.
 `,
 };
 

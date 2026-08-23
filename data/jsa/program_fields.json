@@ -55,6 +55,13 @@
       "confidence": "high",
       "rationale": "Specialist law masters, 0909 Law."
     },
+    "244cw": {
+      "name": "Master of Public Health",
+      "field": "0613",
+      "fieldName": "Public Health",
+      "confidence": "high",
+      "rationale": "Generalist MPH; graduates are reported across the 0613 Public Health narrow field (061307 Health Promotion, 061311 Epidemiology, 061301 OHS), so the narrow-field aggregate 0613 is the most specific field that covers the cohort rather than one specialisation. Added 2026-08-24: 244cw is v4-scored and published but is absent from scripts/v4_cohort.json and v4_cohort_ext.json, so it had never been assigned a field. Panel A is unaffected — it resolves on its own exact JIR record (\"Master of Public Health\")."
+    },
     "274ab": {
       "name": "Master of Criminology",
       "field": "099903",

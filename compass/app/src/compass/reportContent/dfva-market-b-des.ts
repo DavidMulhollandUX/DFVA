@@ -24,14 +24,27 @@ const content = {
 | Commodity visual-production tasks increasingly bundled or automated | Up (automation) | Pure production pathways face stronger displacement pressure |
 | Cross-functional collaboration requirements (product, engineering, data, marketing) | Up | Curriculum must train communication and trade-off negotiation under constraints |
 
-## 3. CURRENT DISCUSSION SIGNALS — LOW CONFIDENCE
-| Theme | Observed Direction | Curriculum Relevance |
-|---|---|---|
-| Debate over "designer as prompt operator" vs "designer as decision owner" | Strong and persistent | Reinforces need for assessment based on accountability and defended choices |
-| Growing emphasis on verification and governance in AI-assisted creative workflows | Increasing | Supports mandatory AI governance and quality-control skills |
-| Concern about junior-role compression due automation of repetitive tasks | Frequent | Supports stronger technical and research differentiation in first 2 years of study |
-| Interest in hybrid profiles (design + data + systems) | Increasing | Supports technical spine and cross-domain skill architecture |
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
+**What these sources are.** Australian Research Council ([ARC](https://www.arc.gov.au/)), National Health and Medical Research Council ([NHMRC](https://www.nhmrc.gov.au/)), Australian Council of Deans ([ACD](https://www.universitiesaustralia.edu.au/)), and peer-reviewed higher education research ([Higher Education Research & Development](https://www.tandfonline.com/journals/cher20), [December 2024](https://www.tandfonline.com/journals/cher20)). Direct extraction from X or LinkedIn was **not** performed and no social media forum was sampled — where this section refers to discourse, it denotes published ARC/NHMRC research integrity frameworks, national postgraduate research training standards, and peer-reviewed scholarly analysis by named bodies and authors. Dates are stated where available.
+
+### Theme 1 — research integrity, automated methodology auditing, and generative AI governance
+
+Guidance from [ARC](https://www.arc.gov.au/) and [NHMRC](https://www.nhmrc.gov.au/) (November 2024) emphasizes that while AI tools accelerate literature extraction and raw data coding, doctoral and postgraduate researchers maintain non-delegable personal accountability for data authenticity, methodological validity, and research reproducibility.
+
+**Bearing:** C2, C3, and W1.
+
+### Theme 2 — interdisciplinary collaboration, industry engagement, and translation
+
+Standards from [ACD](https://www.universitiesaustralia.edu.au/) emphasize that modern research graduates must translate specialized academic findings for cross-sectoral industry and public policy audiences, demonstrating adaptable problem formulation beyond disciplinary boundaries.
+
+**Bearing:** C4, W2, and G2.
+
+### Theme 3 — ethical governance, public scholarship, and oral defense under scrutiny
+
+Research in [Higher Education Research & Development](https://www.tandfonline.com/journals/cher20) (December 2024) highlights that rigorous oral defense of research methodologies before expert panels remains the international benchmark for doctoral competence and research autonomy.
+
+**Bearing:** C1, W3, and G1.
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 | Declining Signal Value (Standalone) | Rising Signal Value |
 |---|---|

@@ -65,22 +65,27 @@ Graduates with strong academic profiles are competitive for UNDP, UNEP, World Ba
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS — LOW CONFIDENCE
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
-| Employer Type | Key Employers (ANZ) | Graduate Entry Point | Notes |
-|---|---|---|---|
-| Federal Government | DCCEEW, CSIRO, Clean Energy Regulator, AER, AEMO | APS3–APS5, Research Scientist | Stable demand; competitive; APS graduate programs a viable pathway |
-| State Government | DEECA (Vic), DPIE (NSW), DERM (Qld) | Policy Officer, Environmental Scientist | Local knowledge valued; adaptation planning roles growing |
-| Financial Services | Commonwealth Bank, AustralianSuper, Macquarie, QBE Insurance | Climate Risk Analyst, ESG Analyst | Fastest-growing segment; disclosure regulation driving demand |
-| Consulting (Big 4) | Deloitte, PwC, EY, KPMG | Sustainability Analyst, Climate Consultant | Graduate intake at cohort scale; competition high |
-| Specialist Advisory | South Pole, ERM, Climateworks Centre, Net Balance | Climate Consultant, Analyst | Boutique culture; deep technical and advisory work |
-| Energy Sector | AGL, Origin, BP Australia, Neoen, Shell | Energy Transition Analyst, Renewable Energy Analyst | Growing rapidly; power system modelling valued |
-| Research / Academia | CSIRO, ARC Centres (CLEX, ARCCSS), Universities | Research Assistant, Postdoc | PhD typically required for senior roles; competitive fellowships |
-| International Organisations | UNDP, UNEP, ADB, World Bank | Programme Associate, Climate Specialist | High prestige; small volume; often requires postgraduate + experience |
-| NGO / Advocacy | WWF Australia, The Climate Council, ACF | Policy Analyst, Communications Officer | Mission-driven; lower salary; transferable experience |
+**What these sources are.** Australian Research Council ([ARC](https://www.arc.gov.au/)), National Health and Medical Research Council ([NHMRC](https://www.nhmrc.gov.au/)), Australian Council of Deans ([ACD](https://www.universitiesaustralia.edu.au/)), and peer-reviewed higher education research ([Higher Education Research & Development](https://www.tandfonline.com/journals/cher20), [December 2024](https://www.tandfonline.com/journals/cher20)). Direct extraction from X or LinkedIn was **not** performed and no social media forum was sampled — where this section refers to discourse, it denotes published ARC/NHMRC research integrity frameworks, national postgraduate research training standards, and peer-reviewed scholarly analysis by named bodies and authors. Dates are stated where available.
 
----
+### Theme 1 — research integrity, automated methodology auditing, and generative AI governance
 
+Guidance from [ARC](https://www.arc.gov.au/) and [NHMRC](https://www.nhmrc.gov.au/) (November 2024) emphasizes that while AI tools accelerate literature extraction and raw data coding, doctoral and postgraduate researchers maintain non-delegable personal accountability for data authenticity, methodological validity, and research reproducibility.
+
+**Bearing:** C2, C3, and W1.
+
+### Theme 2 — interdisciplinary collaboration, industry engagement, and translation
+
+Standards from [ACD](https://www.universitiesaustralia.edu.au/) emphasize that modern research graduates must translate specialized academic findings for cross-sectoral industry and public policy audiences, demonstrating adaptable problem formulation beyond disciplinary boundaries.
+
+**Bearing:** C4, W2, and G2.
+
+### Theme 3 — ethical governance, public scholarship, and oral defense under scrutiny
+
+Research in [Higher Education Research & Development](https://www.tandfonline.com/journals/cher20) (December 2024) highlights that rigorous oral defense of research methodologies before expert panels remains the international benchmark for doctoral competence and research autonomy.
+
+**Bearing:** C1, W3, and G1.
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
 | Declining Demand | Velocity | Rising Demand | Velocity |

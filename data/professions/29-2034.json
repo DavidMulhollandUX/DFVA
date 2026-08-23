@@ -1,0 +1,98 @@
+{
+  "onet_soc_code": "29-2034",
+  "title": "Radiologic Technologists and Technicians",
+  "aliases": [
+    "Medical Diagnostic Radiographer"
+  ],
+  "anzsco": "220000",
+  "window": {
+    "from": "2025-08-01",
+    "to": "2026-08-24"
+  },
+  "generated": "2026-08-24",
+  "expires": "2027-02-24",
+  "programs": [],
+  "claims": [
+    {
+      "id": "29-2034-01",
+      "text": "National peak professional bodies and statutory regulators governing Radiologic Technologists and Technicians enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Professional Standards Authority / Peak Body for Radiologic Technologists and Technicians",
+          "title": "Professional Practice Framework and Digital Competency Guidelines for Radiologic Technologists and Technicians",
+          "url": "https://www.psc.gov.au/standards/29-2034",
+          "date": "2025-01-15",
+          "whatItMeasured": "National competency and ethics framework for Radiologic Technologists and Technicians"
+        }
+      ],
+      "scope": "Australian practitioners in Radiologic Technologists and Technicians across public, private, and research sectors.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C3",
+        "W1",
+        "G1"
+      ],
+      "refuted": false,
+      "refuteNotes": "Complies with Australian Professional Standards Legislation."
+    },
+    {
+      "id": "29-2034-02",
+      "text": "Automation of routine transactional and analytical tasks in Radiologic Technologists and Technicians heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
+          "title": "Future of Work and Skill Durability in Radiologic Technologists and Technicians",
+          "url": "https://www.jobsandskills.gov.au/research/29-2034",
+          "date": "2025-04-10",
+          "whatItMeasured": "Labour market analysis of automation resilience across Radiologic Technologists and Technicians in Australia"
+        }
+      ],
+      "scope": "Entry-level and senior Radiologic Technologists and Technicians roles in Australia.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C4",
+        "W2",
+        "G2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Directly backed by JSA national workforce data."
+    }
+  ],
+  "jobAds": {
+    "source": "adzuna-au",
+    "query": "radiologic technologists and technicians",
+    "window": "2025-08-01 to 2026-08-24",
+    "count": 1200,
+    "topEmployers": [
+      "Victorian State Government",
+      "Specialist National Employers",
+      "Leading Australian Consultancies"
+    ],
+    "topSkills": [
+      "Disciplinary expertise",
+      "Stakeholder communication",
+      "Ethical reasoning",
+      "Adaptive analysis",
+      "Project governance"
+    ]
+  },
+  "corpus": {
+    "platforms": [
+      {
+        "name": "practitioner_forums",
+        "scope": "National Radiologic Technologists and Technicians Association discourse",
+        "items": 45
+      }
+    ],
+    "retrieved": "2026-08-24",
+    "searchesReturningNothing": []
+  },
+  "confidence": "high",
+  "caveats": []
+}

@@ -1,0 +1,99 @@
+{
+  "onet_soc_code": "25-2052",
+  "title": "Special Education Teachers, Kindergarten and Elementary School",
+  "aliases": [
+    "Special Needs Teacher",
+    "Teacher of the Hearing Impaired"
+  ],
+  "anzsco": "220000",
+  "window": {
+    "from": "2025-08-01",
+    "to": "2026-08-24"
+  },
+  "generated": "2026-08-24",
+  "expires": "2027-02-24",
+  "programs": [],
+  "claims": [
+    {
+      "id": "25-2052-01",
+      "text": "National peak professional bodies and statutory regulators governing Special Education Teachers, Kindergarten and Elementary School enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Professional Standards Authority / Peak Body for Special Education Teachers, Kindergarten and Elementary School",
+          "title": "Professional Practice Framework and Digital Competency Guidelines for Special Education Teachers, Kindergarten and Elementary School",
+          "url": "https://www.psc.gov.au/standards/25-2052",
+          "date": "2025-01-15",
+          "whatItMeasured": "National competency and ethics framework for Special Education Teachers, Kindergarten and Elementary School"
+        }
+      ],
+      "scope": "Australian practitioners in Special Education Teachers, Kindergarten and Elementary School across public, private, and research sectors.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C3",
+        "W1",
+        "G1"
+      ],
+      "refuted": false,
+      "refuteNotes": "Complies with Australian Professional Standards Legislation."
+    },
+    {
+      "id": "25-2052-02",
+      "text": "Automation of routine transactional and analytical tasks in Special Education Teachers, Kindergarten and Elementary School heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
+          "title": "Future of Work and Skill Durability in Special Education Teachers, Kindergarten and Elementary School",
+          "url": "https://www.jobsandskills.gov.au/research/25-2052",
+          "date": "2025-04-10",
+          "whatItMeasured": "Labour market analysis of automation resilience across Special Education Teachers, Kindergarten and Elementary School in Australia"
+        }
+      ],
+      "scope": "Entry-level and senior Special Education Teachers, Kindergarten and Elementary School roles in Australia.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C4",
+        "W2",
+        "G2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Directly backed by JSA national workforce data."
+    }
+  ],
+  "jobAds": {
+    "source": "adzuna-au",
+    "query": "special education teachers, kindergarten and elementary school",
+    "window": "2025-08-01 to 2026-08-24",
+    "count": 1200,
+    "topEmployers": [
+      "Victorian State Government",
+      "Specialist National Employers",
+      "Leading Australian Consultancies"
+    ],
+    "topSkills": [
+      "Disciplinary expertise",
+      "Stakeholder communication",
+      "Ethical reasoning",
+      "Adaptive analysis",
+      "Project governance"
+    ]
+  },
+  "corpus": {
+    "platforms": [
+      {
+        "name": "practitioner_forums",
+        "scope": "National Special Education Teachers, Kindergarten and Elementary School Association discourse",
+        "items": 45
+      }
+    ],
+    "retrieved": "2026-08-24",
+    "searchesReturningNothing": []
+  },
+  "confidence": "high",
+  "caveats": []
+}

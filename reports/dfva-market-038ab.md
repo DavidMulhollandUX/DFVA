@@ -94,17 +94,15 @@ Museum sector guidance from [AMaGA](https://www.amaga.org.au/) (2024/2025) focus
 ---
 
 <!-- LABOUR-EVIDENCE:START -->
-## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+## REAL GRADUATE DESTINATIONS (JSA HEO)
 
-**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 100701 Visual Arts and Crafts):
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **0009 Society and Culture** (n = 21,130 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 26.8% of them, and the 5 largest are shown at each stage.
 
 | Career stage | Top occupations |
 |---|---|
-| Entry (~1yr) | Gallery and Museum Curators (35%), Art Registrars / Collections Officers (28%), Arts Administrators (18%), Exhibition Coordinators (12%) |
-| Early (~3yr) | Senior Curators (32%), Collections Managers (26%), Commercial Gallery Directors (18%), Public Programs Leads (14%) |
-| Senior (~5yr) | Heads of Curatorial / Artistic Directors (35%), Museum Directors (25%), Senior Cultural Policy Executives (20%), Art Advisors (12%) |
+| Entry (~1yr) | Sales Assistant (General) (5.2%) · General Clerk (5.1%) · Secondary School Teacher (3.3%) · Solicitor (2.5%) · Program or Project Administrator (2.2%) |
+| Early (~3yr) | General Clerk (4.1%) · Secondary School Teacher (3.5%) · Program or Project Administrator (3.5%) · Sales Assistant (General) (3.2%) · Solicitor (2.9%) |
+| Senior (~5yr) | Program or Project Administrator (4.4%) · Secondary School Teacher (3.7%) · General Clerk (3.5%) · Solicitor (2.8%) · Sales Assistant (General) (2.2%) |
 
-**Graduate outcomes** (QILT GOS 2024, postgraduate creative arts / curatorship): 85% full-time employment · median salary ,000 · JSA occupation demand: **Moderate**.
-
-**Hiring now (demand-side)** — Adzuna AU live vacancies: National Gallery of Victoria (NGV), Museum Victoria, ACMI, Heide Museum of Modern Art, Shepparton Art Museum, Castlemaine Art Museum, City of Melbourne (Arts & Culture), Leonard Joel, Sullivan+Strumpf. Advertised salary Ak–125k.
+**Field grain, not program grain.** These are graduates of the whole Society and Culture field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
 <!-- LABOUR-EVIDENCE:END -->

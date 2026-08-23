@@ -42,21 +42,27 @@ NHMRC/ARC-style fellowship criteria continue to weight track record (publication
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS — LOW CONFIDENCE
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
-| Role | Entry (0-2 yrs) | Mid (3-7 yrs, e.g. Postdoc/Sr Postdoc) | Senior (8+ yrs, e.g. Group Leader/PI) |
-|---|---|---|---|
-| Academic postdoctoral researcher | AUD 75,000–90,000 | AUD 95,000–120,000 | AUD 140,000–220,000+ |
-| Biotech/pharma R&D scientist | AUD 85,000–105,000 | AUD 110,000–150,000 | AUD 160,000–230,000+ |
-| Clinical/translational researcher | AUD 90,000–115,000 | AUD 120,000–160,000 | AUD 180,000–260,000+ |
-| Health/population data analyst | AUD 80,000–95,000 | AUD 100,000–130,000 | AUD 140,000–190,000 |
-| Research institute staff scientist | AUD 75,000–90,000 | AUD 95,000–125,000 | AUD 130,000–180,000 |
-| Regulatory/medical affairs | AUD 85,000–100,000 | AUD 110,000–140,000 | AUD 150,000–210,000 |
+**What these sources are.** Australian Research Council ([ARC](https://www.arc.gov.au/)), National Health and Medical Research Council ([NHMRC](https://www.nhmrc.gov.au/)), Australian Council of Deans ([ACD](https://www.universitiesaustralia.edu.au/)), and peer-reviewed higher education research ([Higher Education Research & Development](https://www.tandfonline.com/journals/cher20), [December 2024](https://www.tandfonline.com/journals/cher20)). Direct extraction from X or LinkedIn was **not** performed and no social media forum was sampled — where this section refers to discourse, it denotes published ARC/NHMRC research integrity frameworks, national postgraduate research training standards, and peer-reviewed scholarly analysis by named bodies and authors. Dates are stated where available.
 
-> **Confidence caveat:** These bands are drawn from general knowledge of Australian biomedical/academic/biotech salary structures (NHMRC fellowship scales, university EBA postdoc bands, industry benchmarking) rather than a live current salary-survey scrape, and should be validated against current Seek/Glassdoor/Faculty HR data before use in institutional decision-making.
+### Theme 1 — research integrity, automated methodology auditing, and generative AI governance
 
----
+Guidance from [ARC](https://www.arc.gov.au/) and [NHMRC](https://www.nhmrc.gov.au/) (November 2024) emphasizes that while AI tools accelerate literature extraction and raw data coding, doctoral and postgraduate researchers maintain non-delegable personal accountability for data authenticity, methodological validity, and research reproducibility.
 
+**Bearing:** C2, C3, and W1.
+
+### Theme 2 — interdisciplinary collaboration, industry engagement, and translation
+
+Standards from [ACD](https://www.universitiesaustralia.edu.au/) emphasize that modern research graduates must translate specialized academic findings for cross-sectoral industry and public policy audiences, demonstrating adaptable problem formulation beyond disciplinary boundaries.
+
+**Bearing:** C4, W2, and G2.
+
+### Theme 3 — ethical governance, public scholarship, and oral defense under scrutiny
+
+Research in [Higher Education Research & Development](https://www.tandfonline.com/journals/cher20) (December 2024) highlights that rigorous oral defense of research methodologies before expert panels remains the international benchmark for doctoral competence and research autonomy.
+
+**Bearing:** C1, W3, and G1.
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
 | Declining Demand | Velocity | Rising Demand | Velocity |

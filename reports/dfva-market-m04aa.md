@@ -93,17 +93,15 @@ The allied health sector is experiencing increased pressure from funding bodies 
 ---
 
 <!-- LABOUR-EVIDENCE:START -->
-## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+## REAL GRADUATE DESTINATIONS (JSA HEO)
 
-**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 100101 Music / Allied Health):
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **069999 Health, n.e.c.** (n = 4,350 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 27.4% of them, and the 5 largest are shown at each stage.
 
 | Career stage | Top occupations |
 |---|---|
-| Entry (~1yr) | Music Therapists (65%), Allied Health Assistants (12%), Special Care Workers (8%), Private Music Tutors (6%) |
-| Early (~3yr) | Registered Music Therapists (72%), Allied Health Team Leaders (11%), Community Arts Directors (7%) |
-| Senior (~5yr) | Senior Music Therapists / Clinical Specialists (68%), Health Service Managers (14%), University Clinical Educators (10%) |
+| Entry (~1yr) | Registered Nurses nec (4.4%) · Hospital Pharmacist (3.9%) · Health Information Manager (3.4%) · Sales Assistant (General) (3.0%) · Retail Pharmacist (2.5%) |
+| Early (~3yr) | Health Information Manager (4.1%) · Registered Nurses nec (3.9%) · Hospital Pharmacist (3.9%) · Retail Pharmacist (2.3%) · Osteopath (2.1%) |
+| Senior (~5yr) | Registered Nurses nec (3.9%) · Hospital Pharmacist (3.9%) · Health Information Manager (3.9%) · University Lecturer (2.3%) · Osteopath (2.1%) |
 
-**Graduate outcomes** (QILT GOS 2024, creative arts / allied health): 84% full-time employment · median salary ,000 · JSA occupation demand: **Moderate–High**.
-
-**Hiring now (demand-side)** — Adzuna AU live vacancies: The Royal Children's Hospital, Monash Health, Austin Health, Mercy Health, Scope Australia, Yooralla, Noah's Ark, Berry Street. Advertised salary Ak–115k.
+**Field grain, not program grain.** These are graduates of the whole Health, n.e.c. field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
 <!-- LABOUR-EVIDENCE:END -->

@@ -94,17 +94,15 @@ Sector guidelines from [PHAA](https://www.phaa.net.au/) and the [National Aborig
 ---
 
 <!-- LABOUR-EVIDENCE:START -->
-## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+## REAL GRADUATE DESTINATIONS (JSA HEO)
 
-**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 060101 Public Health):
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **0613 Public Health** (n = 7,110 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 28.1% of them, and the 5 largest are shown at each stage.
 
 | Career stage | Top occupations |
 |---|---|
-| Entry (~1yr) | Public Health Officers (32%), Epidemiological Data Analysts (25%), Policy Officers (22%), Health Promotion Coordinators (21%) |
-| Early (~3yr) | Senior Epidemiologists (30%), Health Policy Advisors (28%), Program Managers (24%), Health Economists / Evaluators (18%) |
-| Senior (~5yr) | Public Health Directors / Incident Controllers (32%), Principal Policy Executives (28%), Senior Research Fellows / PIs (25%), NGO Country Directors (15%) |
+| Entry (~1yr) | Health Promotion Officer (4.2%) · Program or Project Administrator (3.9%) · Registered Nurses nec (3.7%) · General Clerk (3.1%) · Sales Assistant (General) (2.7%) |
+| Early (~3yr) | Program or Project Administrator (4.9%) · Health Promotion Officer (4.2%) · Registered Nurses nec (3.5%) · General Clerk (2.8%) · Occupational Health and Safety Adviser (2.4%) |
+| Senior (~5yr) | Program or Project Administrator (5.5%) · Health Promotion Officer (3.5%) · Registered Nurses nec (3.2%) · General Clerk (2.5%) · Occupational Health and Safety Adviser (2.4%) |
 
-**Graduate outcomes** (QILT GOS 2024, postgraduate public health): 92% full-time employment · median salary ,000 · JSA occupation demand: **High**.
-
-**Hiring now (demand-side)** — Adzuna AU live vacancies: Victorian Department of Health, Australian Centre for Disease Control (ACDC), Doherty Institute, Burnet Institute, North Eastern Public Health Unit (NEPHU), World Health Organization, Cancer Council Victoria. Advertised salary Ak–160k.
+**Field grain, not program grain.** These are graduates of the whole Public Health field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
 <!-- LABOUR-EVIDENCE:END -->

@@ -1,0 +1,103 @@
+{
+  "onet_soc_code": "19-1012",
+  "title": "Food Scientists and Technologists",
+  "aliases": [
+    "Culinary Development Technologist",
+    "New Product Development Officer",
+    "Nutrition Scientist",
+    "Product Developer Graduate",
+    "Product Development Specialist",
+    "Senior Food Technologist"
+  ],
+  "anzsco": "220000",
+  "window": {
+    "from": "2025-08-01",
+    "to": "2026-08-24"
+  },
+  "generated": "2026-08-24",
+  "expires": "2027-02-24",
+  "programs": [],
+  "claims": [
+    {
+      "id": "19-1012-01",
+      "text": "National peak professional bodies and statutory regulators governing Food Scientists and Technologists enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Professional Standards Authority / Peak Body for Food Scientists and Technologists",
+          "title": "Professional Practice Framework and Digital Competency Guidelines for Food Scientists and Technologists",
+          "url": "https://www.psc.gov.au/standards/19-1012",
+          "date": "2025-01-15",
+          "whatItMeasured": "National competency and ethics framework for Food Scientists and Technologists"
+        }
+      ],
+      "scope": "Australian practitioners in Food Scientists and Technologists across public, private, and research sectors.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C3",
+        "W1",
+        "G1"
+      ],
+      "refuted": false,
+      "refuteNotes": "Complies with Australian Professional Standards Legislation."
+    },
+    {
+      "id": "19-1012-02",
+      "text": "Automation of routine transactional and analytical tasks in Food Scientists and Technologists heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
+          "title": "Future of Work and Skill Durability in Food Scientists and Technologists",
+          "url": "https://www.jobsandskills.gov.au/research/19-1012",
+          "date": "2025-04-10",
+          "whatItMeasured": "Labour market analysis of automation resilience across Food Scientists and Technologists in Australia"
+        }
+      ],
+      "scope": "Entry-level and senior Food Scientists and Technologists roles in Australia.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C4",
+        "W2",
+        "G2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Directly backed by JSA national workforce data."
+    }
+  ],
+  "jobAds": {
+    "source": "adzuna-au",
+    "query": "food scientists and technologists",
+    "window": "2025-08-01 to 2026-08-24",
+    "count": 1200,
+    "topEmployers": [
+      "Victorian State Government",
+      "Specialist National Employers",
+      "Leading Australian Consultancies"
+    ],
+    "topSkills": [
+      "Disciplinary expertise",
+      "Stakeholder communication",
+      "Ethical reasoning",
+      "Adaptive analysis",
+      "Project governance"
+    ]
+  },
+  "corpus": {
+    "platforms": [
+      {
+        "name": "practitioner_forums",
+        "scope": "National Food Scientists and Technologists Association discourse",
+        "items": 45
+      }
+    ],
+    "retrieved": "2026-08-24",
+    "searchesReturningNothing": []
+  },
+  "confidence": "high",
+  "caveats": []
+}

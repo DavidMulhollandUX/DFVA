@@ -94,17 +94,17 @@ Technical guidelines from [DSAA](https://www.dsaa.org.au/) highlight that data a
 ---
 
 <!-- LABOUR-EVIDENCE:START -->
-## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+## REAL GRADUATE DESTINATIONS (JSA HEO)
 
-**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 080301 Business Analytics & Data Science):
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **080399 Business and Management, n.e.c.** (n = 27,400 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 33.3% of them, and the 5 largest are shown at each stage.
 
 | Career stage | Top occupations |
 |---|---|
-| Entry (~1yr) | Business Analysts (40%), Data Analysts (35%), Commercial Insights Specialists (15%), Junior ML Engineers (10%) |
-| Early (~3yr) | Senior Business Analytics Specialists (40%), Lead Data Scientists (30%), Optimization Analysts (15%), Analytics Consultants (15%) |
-| Senior (~5yr) | Heads of Analytics (35%), Model Risk / AI Governance Directors (25%), Chief Analytics Officers (20%), Principal Analytics Consultants (20%) |
+| Entry (~1yr) | Accountant (General) (9.5%) · General Clerk (3.5%) · Marketing Specialist (3.2%) · Sales Assistant (General) (3.1%) · Management Consultant (3.0%) |
+| Early (~3yr) | Accountant (General) (9.6%) · Marketing Specialist (3.6%) · Sales and Marketing Manager (3.5%) · Management Consultant (3.4%) · Corporate General Manager (2.6%) |
+| Senior (~5yr) | Accountant (General) (8.4%) · Sales and Marketing Manager (3.9%) · Marketing Specialist (3.5%) · Management Consultant (3.1%) · Corporate General Manager (3.0%) |
 
-**Graduate outcomes** (QILT GOS 2024, postgraduate business analytics): 94% full-time employment · median salary ,000 · JSA occupation demand: **High**.
+**Field grain, not program grain.** These are graduates of the whole Business and Management, n.e.c. field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
 
-**Hiring now (demand-side)** — Adzuna AU live vacancies: Commonwealth Bank, ANZ, Macquarie Group, Wesfarmers, Woolworths Group, Coles Analytics, Telstra, Quantium, EY Analytics, Deloitte Data & AI. Advertised salary Ak–220k.
+**Graduate outcomes** (QILT GOS 2024, postgraduate Business & Management cut): 92.3% full-time employment · median salary $124,000 · 96.2% at three years · JSA occupation demand: **met**.
 <!-- LABOUR-EVIDENCE:END -->

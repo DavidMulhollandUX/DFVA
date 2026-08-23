@@ -120,7 +120,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "038ab": {
     "code": "038ab",
     "name": "Master of Art Curatorship",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 76.58,
     "entryExposure": 74.44,
     "jirN": 94,
@@ -185,7 +185,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "097ab": {
     "code": "097ab",
     "name": "Master of Development Studies",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 92.5,
     "entryExposure": 92.94,
     "jirN": 104,
@@ -206,7 +206,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "175aa": {
     "code": "175aa",
     "name": "Master of Arts and Cultural Management",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 85.86,
     "entryExposure": 81.76,
     "jirN": 98,
@@ -227,7 +227,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "192aa": {
     "code": "192aa",
     "name": "Master of International Tax",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 94.83,
     "entryExposure": 94.15,
     "jirN": 676,
@@ -249,7 +249,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "195aa": {
     "code": "195aa",
     "name": "Master of Construction Law",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 95.64,
     "entryExposure": 94.68,
     "jirN": 88,
@@ -270,7 +270,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "277aa": {
     "code": "277aa",
     "name": "Master of Intellectual Property Law",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 95.26,
     "entryExposure": null,
     "jirN": 36,
@@ -313,7 +313,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "305bb": {
     "code": "305bb",
     "name": "Master of Clinical Audiology",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 81.09,
     "entryExposure": 79.31,
     "jirN": 156,
@@ -334,7 +334,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "342aa": {
     "code": "342aa",
     "name": "Master of Psychiatry",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 90.74,
     "entryExposure": 88.67,
     "jirN": 54,
@@ -355,7 +355,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "344ab": {
     "code": "344ab",
     "name": "Master of Public Policy and Management",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 95.04,
     "entryExposure": 92.34,
     "jirN": 165,
@@ -376,7 +376,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "502cw": {
     "code": "502cw",
     "name": "Master of Laws",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 94.83,
     "entryExposure": 94.15,
     "jirN": 676,
@@ -397,7 +397,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "504aa": {
     "code": "504aa",
     "name": "Master of Commercial Law",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 94.39,
     "entryExposure": null,
     "jirN": 63,
@@ -418,7 +418,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "507aa": {
     "code": "507aa",
     "name": "Master of Health and Medical Law",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 94.83,
     "entryExposure": 94.15,
     "jirN": 676,
@@ -440,7 +440,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "510aa": {
     "code": "510aa",
     "name": "Master of Employment and Labour Relations Law",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 94.83,
     "entryExposure": 94.15,
     "jirN": 676,
@@ -462,7 +462,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "511aa": {
     "code": "511aa",
     "name": "Master of Public and International Law",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 95.8,
     "entryExposure": null,
     "jirN": 39,
@@ -483,7 +483,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "526aa": {
     "code": "526aa",
     "name": "Master of Banking and Finance Law",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 94.83,
     "entryExposure": 94.15,
     "jirN": 676,
@@ -505,7 +505,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "527cn": {
     "code": "527cn",
     "name": "Master of Psychology (Clinical Neuropsychology)",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 95.57,
     "entryExposure": 93.63,
     "jirN": 47,
@@ -527,7 +527,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "706aa": {
     "code": "706aa",
     "name": "Master of Social Policy",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 96.05,
     "entryExposure": 95.96,
     "jirN": 66,
@@ -548,7 +548,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "742ab": {
     "code": "742ab",
     "name": "Master of Tax",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 98.37,
     "entryExposure": 98.91,
     "jirN": 57,
@@ -569,7 +569,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "761em": {
     "code": "761em",
     "name": "Master of Engineering Management",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 91.05,
     "entryExposure": 89.03,
     "jirN": 89,
@@ -590,7 +590,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "841ac": {
     "code": "841ac",
     "name": "Bachelor of Oral Health",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 64.6,
     "entryExposure": 60.88,
     "jirN": 61,
@@ -611,7 +611,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "872bb": {
     "code": "872bb",
     "name": "Master of Veterinary Science",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 62.4,
     "entryExposure": 63.57,
     "jirN": 275,
@@ -633,7 +633,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "991aa": {
     "code": "991aa",
     "name": "Master of Biostatistics",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 93.92,
     "entryExposure": 93.92,
     "jirN": null,
@@ -658,7 +658,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "b-agr": {
     "code": "b-agr",
     "name": "Bachelor of Agriculture",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 73,
     "entryExposure": 67.44,
     "jirN": null,
@@ -693,7 +693,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "b-arts": {
     "code": "b-arts",
     "name": "Bachelor of Arts",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 92.09,
     "entryExposure": 90.79,
     "jirN": 2596,
@@ -804,7 +804,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "b-bmed": {
     "code": "b-bmed",
     "name": "Bachelor of Biomedicine",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 82.09,
     "entryExposure": 79.22,
     "jirN": 380,
@@ -856,7 +856,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "b-com": {
     "code": "b-com",
     "name": "Bachelor of Commerce",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 97.01,
     "entryExposure": 96.82,
     "jirN": 8738,
@@ -920,7 +920,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "m04aa": {
     "code": "m04aa",
     "name": "Master of Music Therapy",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 70.67,
     "entryExposure": 68.64,
     "jirN": 43,
@@ -1074,6 +1074,27 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
           ]
         }
       ]
+    }
+  },
+  "mc-chemeng": {
+    "code": "mc-chemeng",
+    "name": "Master of Chemical Engineering",
+    "hasMarketReport": true,
+    "exposure": 89.78,
+    "entryExposure": 91.16,
+    "jirN": 17,
+    "nTitles": 10,
+    "nMedium": 3,
+    "exposureBasis": {
+      "tier": "exact",
+      "grain": "program",
+      "sources": [
+        {
+          "name": "Master of Chemical Engineering",
+          "n": 17
+        }
+      ],
+      "indexVariant": "AIOE-2021"
     }
   },
   "mc-climsci": {
@@ -2142,6 +2163,17 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "indexVariant": "AIOE-2021",
     "note": "Reconciliation package tier partial."
   },
+  "mc-chemeng": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Chemical Engineering",
+        "n": 17
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
   "mc-climsci": {
     "tier": "cognate",
     "grain": "related-program",
@@ -2763,7 +2795,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "mechanical": true,
       "date": "2026-08-19"
     },
-    "instrument": "4.1-draft"
+    "instrument": "4.2-draft"
   },
   "080cl": {
     "instrument": "4.2-draft",
@@ -3225,7 +3257,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
         "The research will incorporate both theoretical inquiry and primary research."
       ]
     },
-    "adaptiveness": 6,
+    "adaptiveness": 8,
     "W1": {
       "score": 2,
       "rationale": "Level 2 requires at least one core assessment using a recognised professional genre or an audience beyond the teaching team, judged against criteria drawn from professional practice. ARTS90024 (Arts Management Placement, a capstone stream) requires '150 hours of on-site work experience' in 'a professional working environment' with assessment including 'Reflective Journal' and 'Research Report or Essay' (6000 words, 60%) — delivered to and judged by workplace supervisors. MULT90064 (Arts Management Project, another capstone) requires a 'Creative Portfolio' (5000 words equivalent, 50%) and a team project delivered under supervision. AMGT90001 includes 'class presentation' assessed against professional management criteria. Not level 3: the anchor requires professional communication assessed repeatedly and progressively across the program AND at least one core assessment delivered to a real external audience or practitioner. The placement (ARTS90024) is one of three capstone options, not progressive across the program.",
@@ -3453,7 +3485,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
         "Independently investigate, examine and analyse existing and emerging legal issues relating to construction projects."
       ]
     },
-    "adaptiveness": 5,
+    "adaptiveness": 6,
     "W1": {
       "score": 2,
       "rationale": "Level 2 requires at least one core assessment using a recognised professional genre or an audience beyond the teaching team, judged against criteria drawn from professional practice. LAWS70270 (Construction Contract Analysis, Drafting) requires 'Interim written assessment' (500 words, 15%) and 'Take-home examination' (4500 words, 85%) — the take-home exam involves drafting and analysing construction contracts, a professional legal genre. LAWS70176 (Construction Law) involves 'construction site visits' and assessment of 'the interaction between the technical, commercial and legal aspects' — judged against professional practice criteria. LAWS70329 (Residential Construction Law) is taught by 'Judge Suzanne Kirton' and 'Dr Matthew Bell (whose PhD was on residential construction regulation)' — assessment criteria drawn from professional practice. Not level 3: the anchor requires professional communication assessed repeatedly and progressively AND at least one core assessment delivered to a real external audience or practitioner. No assessment is delivered to an external audience.",
@@ -3519,7 +3551,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "244cw": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Two compulsory subjects assess collaborative work: POPH90274 (two group presentations and mentor-marked group participation) and POPH90218 (a team presentation of approximately five students). This satisfies the level 2 anchor. The level 3 anchor additionally requires at least one assessment in which work is coordinated across people and tools or AI systems; no such assessment is documented, so level 3 is not awarded.",
@@ -4377,7 +4409,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "439fs": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2 anchor is met: at least one core unit assesses collaborative practice. Core FOOD90007 Advanced Food Processing Technology carries a 'Group written assignment' worth 20%, so level 1 ('no core unit assesses it') is contradicted despite teamwork also appearing in the program generic skills. Not level 3: assessed collaborative practice does not recur across the compulsory core (it is a single group task in one of eight compulsory subjects; the group route in FOOD90043 is only one of three capstone options), and no assessment anywhere in the extract requires coordinating work across people AND tools/AI systems - there is no documented role/tool allocation and no assessed division of work between people and systems.",
@@ -5223,6 +5255,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "526aa": {
+    "instrument": "4.2-draft",
     "C1": {
       "score": 1,
       "rationale": "Level 1 anchor: collaboration/teamwork appears in outcomes and graduate attributes, but no core unit assesses it. The only compulsory unit in the course structure (Fundamentals of the Common Law, required for non-common-law graduates) assesses a case analysis, a research essay and attendance - nothing collaborative. Assessed group work exists only in prescribed-list subjects a student may never take (team presentation in LAWS70106, itself 'Not available in 2026'; group presentations in LAWS90216), so level 2's 'at least one core unit assesses collaborative practice' is not met - the instrument treats elective-only appearance as level 1 (cf. the C3 level-1 anchor). Nothing anywhere documents coordinating work across people AND tools/AI systems, so level 3 is unreachable.",
@@ -5357,11 +5390,10 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     "notScoreable": [
       "C3 (AI half of the construct): the extract contains no occurrence of 'AI', 'artificial intelligence' or 'generative' anywhere - not in the course pages, not in any subject page. The C3 score of 1 rests entirely on the digital/FinTech/blockchain route; the AI capability, limitation, ethics and governance evidence the item asks for is absent rather than negative, and no AI-related level was inferred.",
       "Assessment evidence is present for only 14 of the roughly 35 subjects in the prescribed list; the remaining subject pages are not in the extract. C1, C2, W1 and W2 are therefore scored on a partial sample of the list, which bounds any upward revision more than any downward one."
-    ],
-    "instrument": "4.1-draft"
+    ]
   },
   "527cl": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2 anchor is satisfied: a core unit assesses collaborative practice via 'interprofessional activity'. PSYC90125 Core Skills in Psychological Practice embeds the Ways of Knowing interprofessional program and assesses it directly (25% written reflection on interprofessional learning following the interdisciplinary panel). Not level 3: level 3 requires assessed collaborative practice recurring across the program AND at least one assessment requiring coordination of work across people AND tools/AI systems. Nothing in the extract assesses any division of work between people and systems, or tool/AI allocation — the extract contains no AI or system-coordination assessment at all. Placement-based multidisciplinary work ('Work effectively with a range of professionals and support staff in the workplace') is placement evidence and is housed in W3 per one-construct-one-home, so it does not lift C1.",
@@ -5979,7 +6011,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "746st": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Meets the level-2 anchor 'at least one core unit assesses collaborative practice — group projects with individual accountability': the core unit CVEN90035 assesses two group design reports in groups of five with a per-student workload equivalence (1500 and 500 words per student), i.e. group work with individual accounting. It does not reach level 3, which requires that assessed collaborative practice RECURS across the program AND that at least one assessment requires coordinating work across people AND tools/AI systems: the other core unit (CVEN90024) assesses only individual assignments and an exam, so collaboration sits in one of two core units, and nothing in the extract documents assessed role or tool allocation, or a division of work between people and systems. The teamwork statements in the CVEN90024 generic-skills list are outcome-level claims, which R2 caps at level 1 on their own.",
@@ -8298,7 +8330,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-apbusa": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2 anchor is satisfied: core units assess collaborative practice as group projects, and one capstone assessment documents individual accountability inside the group work (an attendance-and-contribution hurdle). Not level 3: although assessed collaboration recurs across the program, no assessment line documents coordinating work across people AND tools/AI systems — there is no documented role-and-tool allocation and no task where the division of work between people and systems is itself assessed. The Programming for Analytics outcome about environment management 'to support collaborative development' is an outcome, not an assessment, so R2 bars it from lifting the score.",
@@ -8448,7 +8480,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-arch": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2 anchor is satisfied: more than one core unit assesses collaborative practice with individual accountability — Applied Architectural Technology runs three graded group submissions alongside a hurdled individual detailing task, Architectural Practice assesses a group submission on project initiation and procurement, and Introduction to High-Performance Design assesses a group interim proposal. Not level 3: although assessed collaboration recurs across the core, the second conjunct fails — no core assessment requires coordinating work across people AND tools/AI systems, and nothing documents role-and-tool allocation or makes the division of work between people and systems itself assessable. Placement/community evidence is deliberately excluded here and scored in W3 (one construct, one home).",
@@ -8584,7 +8616,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-ba": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2's anchor — 'At least one core unit assesses collaborative practice' — is met many times over: syndicate assignments carry marks in every core subject (General Management 1 and 2, Operations, Managing People, Immersive Business Experience), several with documented individual accountability inside the group ('700 words individual with 4 – 5 students in a group'). Level 3 is a conjunction and its second conjunct fails: no core assessment documents coordinating work across people AND tools/AI systems, and nowhere is the division of work between people and systems itself assessed. The one subject about AI-plus-team work, Generative AI for Business, sits in the elective list, so it cannot carry a core-recurrence claim. Scored at 2, not 3, on the missing human-plus-tool allocation evidence.",
@@ -8852,7 +8884,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-base": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Meets the level-2 anchor: multiple core units assess collaborative practice as syndicate work in groups of 4-5 with a per-student word allocation, i.e. group tasks with individual accountability, and 'Collaborate with real business partners' sits in the program outcomes. Level 3 is not reached because no assessment in the extract requires coordinating work across people AND tools/AI systems — there is no documented role-and-tool allocation, and nothing where the division of work between people and systems is itself assessed. Under v4.1 the placement/live-project route to C1 level 3 has moved to W3, so the Senior Executive Project's workplace character is not scored here.",
@@ -9131,7 +9163,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-busana": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2's anchor — 'at least one core unit assesses collaborative practice — group projects with individual accountability' — is met many times over: syndicate assignments and projects are weighted assessment in Programming Foundations, Business Data Platforms, Decision Making and Optimisation, Statistical Learning, Causal Analytics, Predictive Analytics, Machine Learning & AI, NLP, Marketing Analytics, Supply Chain and Risk Analytics, and the Prof Dev route adds a group-work hurdle. Level 3 is not reached because its second conjunct is undocumented: no assessment in the extract requires coordinating work across people AND tools/AI systems, and no task allocates roles and tools or assesses the division of work between people and systems. Collaboration recurs, but the human-plus-tool coordination the anchor names is absent from every assessment description.",
@@ -9274,6 +9306,123 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "adversarial": true,
       "mechanical": true,
       "date": "2026-08-14"
+    }
+  },
+  "mc-chemeng": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: core units assess collaborative practice across multiple group projects with documented individual accountability. In the 25-point capstone CHEN90022 Chemical Engineering Design Project, students complete team design tasks alongside individual project journals and individual reflections on teamwork, with a mandatory hurdle requiring a pass mark on both individual and team components. In CHEN90013 and CHEN90032, team oral presentations and group project submissions assess collaborative problem solving. Not level 3: although collaboration recurs across all three stages of the program, no assessment task requires students to coordinate work across people AND AI/automated systems, or assesses the explicit allocation of tasks between human engineers and automated agents.",
+      "evidenceLines": [
+        "Several assessment tasks combine to form a capstone project based on authentic practice activities, with input from industry.",
+        "One team-based oral presentation with 3 to 4 team members of approximately 15 to 20 minutes. Students receive an individual assessment.",
+        "One pair-prepared oral presentation of 20 minutes on a chemical process modification and its conceptual design and feasibility.",
+        "Reflection (based on the project logs and the rest of the subject) (individual). Approx. 10 hours of work per student.",
+        "Hurdle requirement: Students must achieve an overall pass mark for each of the individual and team components, i.e., the total score for the project journal, oral presentation x 2 and reflection (individual) must be a pass mark; and the total score for the project progress submission and final report must be a pass mark."
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1 anchor fits: reflection appears in capstone assessment (an individual reflection based on project logs and teamwork), but the core assessment schedule contains no criterion-referenced peer review, structured critique against exemplars, or portfolio evaluated against professional standards. Level 2's criterion-referenced appraisal requirement is not documented in any core assessment. Level 3 is not approached: no core task requires students to document and defend reliance decisions on automated process simulation outputs or AI tools.",
+      "evidenceLines": [
+        "Reflection (based on the project logs and the rest of the subject) (individual). Approx. 10 hours of work per student.",
+        "Team Evaluation: Approx. 12 hours of work, including teamwork documentation, team discussion + personal reflection.",
+        "Cognitive skills to demonstrate mastery of theoretical knowledge and to reflect critically on theory and professional practice."
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Matches the level-1 anchor: digital tools appear as commercial software operation and training. Core subjects (CHEN90032 Process Simulation and Control, CHEN90022 Chemical Engineering Design Project) train students in steady-state and dynamic process simulation packages, equations of state modeling, and numerical process optimization. The level-2 requirement that core units address AI capabilities AND limitations/ethics is absent — the extract contains zero occurrences of artificial intelligence or machine learning in core subject descriptions or assessment schedules, and no AI governance or algorithmic auditing is assessed.",
+      "evidenceLines": [
+        "Students are introduced to steady-state and unsteady-state process simulations using tools including simple spreadsheet packages, commercial-scale simulation packages widely used in the chemical process industry and basic programming.",
+        "Apply chemical engineering process simulation software to model thermodynamic properties, real gas behaviour using equations of state models and complex phase equilibria.",
+        "CHEN90032 Process Simulation and Control"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2 anchor is met: the required 25-point capstone CHEN90022 Chemical Engineering Design Project requires students to apply knowledge from prior units (thermodynamics, transport processes, separation, reactor design, safety, and economics) to the complete design of a complex chemical processing facility and the production of an Environmental Effects Statement on a novel industrial problem. Not level 3: the capstone is an industry-advisor-guided team plant design rather than a self-scoped independent research project, and no core assessment requires students to formally identify their own knowledge gaps with an assessed plan to close them.",
+      "evidenceLines": [
+        "Within this project students will, working in teams under the guidance of an academic advisor, perform design tasks related to the development of a Chemical Process Engineering facility. This capstone project culminates in an Environmental Effects Statement assignment.",
+        "Several industry advisors from the process engineering and environmental areas, provide content to aid students with their capstone project.",
+        "Apply chemical engineering principles to the design of a complete chemical process plant, including mass and energy balances, unit operations, process safety, and economic evaluation."
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Matches level 1: introductory inquiry and research principles are embedded in the curriculum, but the core design sequence utilizes literature benchmarks, industry guidelines, and process simulation models rather than primary empirical laboratory inquiry. Level 2 requires students to design and conduct an inquiry with methodology selection and primary data collection, assessed; while research pathway selectives exist, the core capstone is a design synthesis task rather than an empirical experimental study. Level 3 (a required substantial primary-evidence research project with viva defence) is not part of the standard coursework core.",
+      "evidenceLines": [
+        "Research principles and methods in chemical engineering;",
+        "Students have the opportunity to participate in overseas study, industry-based internships and supervised research placements.",
+        "Prepare a detailed design report incorporating literature review, regulatory review, and technical engineering analysis."
+      ]
+    },
+    "adaptiveness": 7,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is squarely satisfied: core assessment requires multiple recognized professional engineering genres — an Environmental Effects Statement, pair-prepared technical feasibility presentations, safety and HAZOP reviews, and comprehensive plant design reports — judged against professional engineering practice standards with input from industry advisors. Level 3 is not reached: while industry advisors provide content and input, the extract does not document that external practitioners formally assess student presentations or grade professional conduct criteria on a dedicated rubric.",
+      "evidenceLines": [
+        "This capstone project culminates in an Environmental Effects Statement assignment. Several industry advisors from the process engineering and environmental areas, provide content to aid students with their capstone project.",
+        "One team-based oral presentation with 3 to 4 team members of approximately 15 to 20 minutes. Students receive an individual assessment.",
+        "One pair-prepared oral presentation of 20 minutes on a chemical process modification and its conceptual design and feasibility.",
+        "Professional-quality technical reports and oral presentations delivered throughout the semester."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Meets the level-2 anchor: the 25-point capstone CHEN90022 reproduces the professional chemical engineering task end-to-end — preliminary process synthesis, flowsheeting, equipment sizing, process control loops, HAZOP safety review, CAPEX/OPEX estimation, and environmental impact assessment — producing the authentic deliverables (EES, P&ID, plant specification) an engineering consultant produces. Not level 3: written examinations carry significant weight across the prerequisite spine (CHEN90042, CHEN90013, CHEN90032), so authentic deliverables are concentrated in the capstone rather than forming the exclusive assessment spine across all years.",
+      "evidenceLines": [
+        "Several assessment tasks combine to form a capstone project based on authentic practice activities, with input from industry.",
+        "Within this project students will, working in teams under the guidance of an academic advisor, perform design tasks related to the development of a Chemical Process Engineering facility.",
+        "Apply chemical engineering principles to the design of a complete chemical process plant, including mass and energy balances, unit operations, process safety, and economic evaluation."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1 anchor is met: work-situated learning exists as an elective/selective — CHEN90028 Chemical Engineering Internship (12.5 points) is available as a selective subject, alongside the Skills Towards Employment Program (STEP) and approved external industry placements. Level 2 is not reachable because an internship or workplace placement is not a compulsory core requirement for all students in the degree.",
+      "evidenceLines": [
+        "CHEN90028 Chemical Engineering Internship Summer Term (On Campus - Parkville) Semester 1 (On Campus - Parkville) Semester 2 (Early-Start)",
+        "Students have the opportunity to participate in overseas study, industry-based internships and supervised research placements.",
+        "1. Skills Towards Employment Program (STEP) 2. CHEN90028 Industry Project subject 3. An agreed level of internship at an approved engineering firm (without receiving University credit)"
+      ]
+    },
+    "workplace": 5,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program documents a fully accredited professional engineering core: 225 credit points of compulsory chemical engineering subjects accredited by Engineers Australia, the Institution of Chemical Engineers (IChemE), and EUR-ACE, with progressive technical prerequisites running from fundamentals through transport processes, thermodynamics, and reaction kinetics to plant design.",
+        "evidenceLines": [
+          "225 credit points of compulsory subjects",
+          "The Master of Chemical Engineering is fully accredited by Engineers Australia and the Institution of Chemical Engineers (IChemE).",
+          "CHEN20012 Fundamentals of Chemical Engineering",
+          "CHEN30001 Transport Processes",
+          "CHEN90022 Chemical Engineering Design Project"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Assessment requires defended trade-off decisions under real industrial uncertainty: students model chemical plants under varying feedstocks, optimize energy recovery versus capital equipment cost, conduct HAZOP risk analyses under process failure scenarios, and defend chemical process feasibility in oral presentations and environmental impact submissions.",
+        "evidenceLines": [
+          "Develop the skill to interpret real business and engineering problems into process optimization models.",
+          "One pair-prepared oral presentation of 20 minutes on a chemical process modification and its conceptual design and feasibility.",
+          "Perform design tasks related to the development of a Chemical Process Engineering facility. This capstone project culminates in an Environmental Effects Statement assignment."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C2 straddled levels 1 and 2: capstone includes individual reflections on teamwork and project logs, but no criterion-referenced peer review is assessed. Resolved down to 1 per R1/R2.",
+      "C3 straddled levels 1 and 2: extensive commercial simulation software is used, but AI capabilities and ethics are not assessed in the core. Resolved to 1.",
+      "W1 straddled levels 2 and 3: multiple professional genres and industry advisor input exist, but external practitioner grading of conduct is not documented. Resolved to 2.",
+      "W3 straddled levels 0, 1, and 2: an internship subject is offered as a selective, satisfying level 1, but is not required in the core."
+    ],
+    "notScoreable": [
+      "Elective subjects outside the core were not scored for mandatory degree thresholds per R1/R2.",
+      "Industry advisor rubrics in CHEN90022 were not fully enumerated in the handbook extract."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-23"
     }
   },
   "mc-climsci": {
@@ -9423,7 +9572,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-clind": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 1,
       "rationale": "Level 1 anchor exactly: 'Collaboration/teamwork appears in learning outcomes, but no core unit assesses it.' Team-work sits in the course ILOs and generic skills, and the 75cp core clinical subject describes interprofessional collaborative practice as a learning activity ('The student will develop interdisciplinary links...'), but no assessment task in DENT90143/DENT90144 or DENT90108 names collaborative practice: the assessed tasks are individual case presentations, a written assignment, a seminar presentation, a written exam and an individual clinical portfolio. Level 2 fails because it requires that a core unit ASSESSES collaborative practice, and the interprofessional line is a description of learning activities, not of an assessment. Per the one-construct-one-home rule the clinical placement work at RDHM/MDC is scored in W3 and is deliberately not used here.",
@@ -9563,7 +9712,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-cs": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 1,
       "rationale": "Level 2 requires that 'at least one core unit assesses collaborative practice'. The only unconditionally compulsory Year 1 subject is COMP90044 Research Methods, whose every assessment is individual (individual literature review, individual research methods design assignment, individual oral presentation, individual workshop exercises), and the compulsory Year 2 Research Project Parts 1-4 have no subject or assessment page in the extract. Assessed group work is documented only in subjects a student may or may not take: COMP90049 and GEOM90008 sit in the Foundational band (a required band of 25-37.5 credit points chosen from six subjects, three of which - COMP90015, COMP90048, COMP90054 - assess only individually, so the band can be completed without any group assessment), and COMP90042's group project is an elective. Teamwork also appears in subject-level outcomes (GEOM90008 ILO 5). That is the level-1 picture: collaboration appears in outcomes and in choosable units but no compulsory unit is documented to assess it. Level 3 is not reached on any reading - nothing in the extract assesses the division of work between people AND tools/AI systems.",
@@ -9708,7 +9857,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-datasc": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2 ('at least one core unit assesses collaborative practice - group projects with individual accountability') is met repeatedly: COMP90024, COMP90050 and COMP90051 each carry a compulsory group assessment, and the capstone assesses team work with individual accountability via a peer assessment factor. Level 3 fails on its second conjunct: recurrence holds, but no assessment documents coordinating work across people AND tools/AI systems - no role-and-tool allocation, no task where the human/system division of labour is itself assessed.",
@@ -9829,7 +9978,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-ddensur": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2 anchor is satisfied several times over: core units assess collaborative practice through graded group tasks (Professional Practice 1 group presentation, Professional Practice 2 group presentation, both Dental Research Project subjects' group oral presentations, and an assessed collaborative online discussion in Diseases and Dentistry), and teamwork is documented as taught content in the operatory. Level 3 is not reached: the anchor requires, in addition to recurrence, at least one assessment where coordinating work across people AND tools/AI systems is itself assessed — no assessment task in the extract documents allocation of work between people and tools or systems, and no gen-AI system appears anywhere. Placement/clinical-team evidence is deliberately not counted here (it scores in W3), per the one-construct-one-home rule.",
@@ -9966,7 +10115,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-dmed": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2 is satisfied and level 1 is factually contradicted: a compulsory core subject (MEDS90003 Student Conference 1, one of the eight compulsory subjects) assesses a group task as a hurdle, so collaboration is not merely an outcome claim. Level 3 fails on both of its conjuncts as documented: the extract carries no assessment in which the division of work between people AND tools/AI systems is itself assessed (there is no AI or digital-tool content anywhere in the core), and recurrence of assessed collaborative practice across the program cannot be shown because the assessment pages for the Year 2-4 core subjects are absent. Interprofessional teamwork appears only as a course-level outcome statement, which R2 makes insufficient on its own.",
@@ -10105,7 +10254,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-doptom": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2's anchor — 'at least one core unit assesses collaborative practice' — is met several times over: group seminar presentations carry marks in five year-1 subjects and in the year-2 Applied Clinical Training, and the year-2 capstone assesses a team proposal (hurdle), a group poster (hurdle) and team experimental work. Level 3 is not reached: it requires, beyond recurrence, that 'at least one assessment requires coordinating work across people AND tools/AI systems', and nothing in the extract documents an assessed division of work between people and systems, nor any tool/AI allocation. Interprofessional collaboration appears only as an intended learning outcome, which R2 bars from lifting the score. Placement/clinical-team evidence is deliberately not scored here — it homes in W3.",
@@ -10252,7 +10401,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-dphysio": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2 is met several times over: core units assess collaborative practice as group work and as community-stakeholder work. Level 3 fails on its conjunctive second clause - no assessment in the extract requires coordinating work across people AND tools/AI systems, and no task documents role or tool allocation. Recurrence alone does not reach 3. Multidisciplinary-team evidence from the clinical placement subjects is not counted here: per one-construct-one-home, placement evidence scores in W3.",
@@ -10407,7 +10556,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-dvetmed": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2 anchor is satisfied: several core DVM1 subjects carry an assessed 'Group assignment' (5%) alongside learning outcomes that name collaborative practice, so collaboration is assessed in core units, not merely claimed. Level 3 is not reached: the anchor additionally requires at least one assessment where work is coordinated across people AND tools/AI systems (documented role and tool allocation, or the human/system division of labour itself assessed) — nothing in the extract documents any tool or AI system in the division of work, and the group tasks are 500-word assignments with no documented role allocation or individual accountability. Placement/WIL evidence is deliberately excluded here and scored in W3.",
@@ -10533,7 +10682,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-ed": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2 anchor met: a compulsory core unit (EDUC90930 Literacies in Local and Global Contexts, one of the four compulsory First 50-point subjects) assesses collaborative practice through a 30% multimodal group presentation, and teamwork appears in both the course generic skills and that subject's generic skills. Not level 3: nothing in the extract documents assessed collaborative practice recurring across the program, and no assessment requires coordinating work across people AND tools/AI systems — the Capstone's stakeholder map is an individually produced portfolio artefact about stakeholders, not assessed coordination with them. Not level 1 because the collaboration is actually assessed, not merely claimed in outcomes.",
@@ -10821,7 +10970,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-envsc": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2 anchor met: core units assess collaborative practice with individual accountability — EVSC90017's individually-assessed group symposium presentation, and the year-2 Industry Project's group plan, group report and industry-partner assessment of group performance. Not level 3: level 3 requires, on top of recurrence, at least one assessment where work is coordinated across people AND tools/AI systems (documented role and tool allocation, or the division of work between people and systems itself assessed). No core assessment page documents any tool or system allocation, so the human-plus-tool half of the level-3 anchor has no evidence at all.",
@@ -10959,7 +11108,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-gencoun": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2 anchor is met: core units assess collaborative practice through group-assessed tasks — POPH90226's group oral presentation, GENE90022's group presentation and WELF90010's group presentation are all in the 200-credit-point compulsory core. Level 3 is not reached: the anchor requires assessed collaborative practice to recur AND at least one assessment to require coordinating work across people AND tools/AI systems, and no assessment in the extract makes the division of work between people and systems, or role/tool allocation, itself an object of assessment. Teamwork also appears only as an outcome/generic-skill claim in several subjects ('Be meaningful contributors to teams'; 'contribute evidence based genetics and counselling expertise to multidisciplinary clinical teams'), which under R2 cannot lift the score. Placement and multidisciplinary-team participation in PAED90020 is not scored here — one construct, one home: it scores in W3.",
@@ -11244,7 +11393,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-intedib": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2 anchor met: a compulsory core subject assesses collaborative practice with individual accountability. EDUC90333 Introduction to the IB is listed under 'Compulsory subjects' and its first assessment is a paired presentation weighted 10%, with the word allocation specified per student — the anchor's 'group projects with individual accountability' exemplar. Not level 3: no other core assessment is collaborative (all remaining core tasks are individual essays, planning documents, presentations and research reports), so assessed collaboration does not recur across the program; and nothing in the extract requires coordinating work across people AND tools/AI systems, or makes the division of work between people and systems itself assessable. Not level 1, because the collaboration is assessed rather than only stated in outcomes.",
@@ -11393,7 +11542,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-is": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2's anchor — 'At least one core unit assesses collaborative practice — group projects with individual accountability' — is met many times over in the compulsory core: team database design (INFO90002), group case (ISYS90026), group consulting reports (ISYS90045), the staged group ICT Governance Plan with an individual reflection hurdle (ISYS90038), and the group planning report (ISYS90050). Level 3 needs BOTH recurrence AND 'at least one assessment requires coordinating work across people AND tools/AI systems'. Recurrence is documented; the second conjunct is not — no assessed task documents role-and-tool allocation or makes the division of work between people and systems itself assessable. The nearest line is an ILO that hedges ('possibly including the use of project management software'), which is an outcome statement, not assessment evidence (R2). Scored down to 2.",
@@ -11528,7 +11677,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-journ": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 1,
       "rationale": "Level 1 anchor: 'Collaboration/teamwork appears in learning outcomes, but no core unit assesses it.' Teamwork is stated as an outcome in JOUR90010 ('Operate efficiently within a newsroom, whether working independently or within a team.'), JOUR90004 (teamwork strategies) and the elective JOUR90011 (team-based newsroom environments), but every assessed artefact in the core-list subjects is individually produced — news writing exercises, individual portfolios, individual stories. JOUR90010's subject description offers collaboration as an opportunity, not a requirement, and its only non-story component is 'Participation and reflection', which is not documented as assessing collaborative practice. Not level 2 because no core unit's assessment table names a group project, client or stakeholder task; the only genuinely team-assessed item in the extract ('Participation in the live event production') sits in JOUR90030, which is an elective and 'Not available in 2026'. Level 3 is out entirely: nothing assesses the division of work between people and tools/AI systems.",
@@ -11680,7 +11829,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-jurisd": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2 is satisfied: core units assess collaborative practice with individual accountability — Criminal Law and Procedure carries a 'Group research assignment' (2000 words equivalent, 30%) and Principles of Public Law assesses an 'Interactive oral small group discussion (individually assessed)' at 10%, with collaboration named in the assessed learning outcomes of both Criminal Law ('Independently and collaboratively analyse unfamiliar offence provisions') and Public Law ('Work autonomously and collaboratively to solve problems'). Level 3 is not reached: the anchor additionally requires at least one assessment in which work is coordinated across people AND tools/AI systems (documented role and tool allocation, or the human/system division of labour itself assessed), and nothing in the extract documents any such task — no core assessment mentions tools, systems or AI at all. Held at 2 under the lower-level rule.",
@@ -11953,7 +12102,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-nursc": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2 anchor is satisfied several times over: core units assess collaborative practice, including a group project with individual accountability (NURS90155 pairs an assessed group activity with an assessed individual reflection on it). Not level 3: level 3 requires, on top of recurring assessed collaboration, at least one assessment where work is coordinated across people AND tools/AI systems, or where the division of work between people and systems is itself assessed. Nothing in the extract documents an assessment of role-and-tool allocation; the only human-plus-system content (electronic medical records) appears as a learning outcome with 'practical activities', not as an assessed coordination task, and it is homed in C3. Interprofessional collaboration appears in subject overviews and generic-skill lists rather than in any assessment description, so per R1/R2 it cannot lift the score. Placement teamwork is deliberately not counted here (it is homed in W3 per the one-construct-one-home rule).",
@@ -12096,7 +12245,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-phtyph": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 1,
       "rationale": "Level 1, not 2: collaboration and interprofessional practice are pervasive in program and subject outcomes ('Communicate and collaborate with the interdisciplinary clinical team...'; the PHTY90002 and PHTY90003 team-role ILOs), but no core assessment task in the extract is documented as assessing collaborative practice in the level-2 sense — no group project with individual accountability, no assessed interprofessional activity, no assessed coordination of work across people AND tools. The only recurring shared-space task in the core is assessed discussion-board contribution, which is an individually written contribution to a forum rather than documented collaborative practice. Per the ambiguity rule this resolves down. Note also that placement/clinical-attendance evidence is deliberately NOT scored here — it belongs to W3 under the v4.1 migration rule.",
@@ -12244,7 +12393,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-prop": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2 anchor is met: core units assess collaborative practice as group projects with documented individual accountability — Property Development (core) carries a group presentation plus two group assignments, and Corporate Real Estate Management (core) carries two group case-study projects each specified per-student. Level 3 fails on its second, conjunctive clause: no assessment in the extract requires coordinating work across people AND tools/AI systems, and nothing documents role or tool allocation, or makes the division of work between people and systems itself the object of assessment. Industry-standard software (ARGUS) appears only as subject content and an outcome statement, never as an assessed allocation problem, so the human-plus-tool coordination the v4.1 anchor names is absent.",
@@ -12380,7 +12529,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-propsyc": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2 anchor is met: a core unit assesses collaborative practice in the 'interprofessional activity' form the anchor names. PSYC90111 Well-being in Practice (compulsory, Year 1 Sem 1) carries a listed assessment component requiring completion of the 'Ways of Knowing' interprofessional learning program with two submitted reflective activities under a hurdle requirement, so level 1 ('no core unit assesses it') is factually false. Not level 3: no assessment anywhere in the extract requires coordinating work across people AND tools/AI systems — there is no documented role-and-tool allocation task and no assessment of the division of work between people and systems. Placement/patient work is excluded from C1 by the one-construct-one-home rule and scores in W3/W1.",
@@ -12805,7 +12954,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-scibit": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2 anchor is satisfied several times over: core units assess collaborative practice with individual accountability (SKIL90004 group charter and group presentation with per-student Q&A, SCIE90034 group digital folio, SCIE90015 group charter agreement negotiated with an industry partner, SCIE90011 group written reports at 700 words per student). Level 3 is not reached: it requires, on top of recurrence, at least one assessment in which coordinating work across people AND tools/AI systems is itself assessed — a documented role AND tool allocation, or an assessed division of work between people and systems. No core assessment line in the extract allocates or assesses work across tools or AI systems; the group tasks allocate word counts and roles between people only, and the only tool-based task in the core (SKIL90004's project-management software assignment) is individual and scored under C3. Placement/industry-immersion evidence is deliberately not counted here — it scores in W3 per the v4.1 migration note.",
@@ -12946,7 +13095,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-sciche": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 0,
       "rationale": "Anchor 0 ('No collaborative, stakeholder or team-based work is assessed anywhere in the core') is met: every assessment documented in the extract is an individual task — written assignments, individual examinations, and an individual oral presentation of a literature article. Level 1 is not reached because collaboration/teamwork does not appear even in the outcomes: the course generic-skills list names Communication, Critical thinking, Problem solving, Analysis, Time management, Research, Information management and Self-awareness, and no item in it names teamwork, collaboration, stakeholder or interprofessional work. No assessment anywhere requires coordinating work across people AND tools/AI systems, so levels 2 and 3 are unavailable. Per R1 the required research project's supervisor relationship ('negotiated with a student's supervisor') is supervision, not assessed collaborative practice.",
@@ -13099,7 +13248,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-sciear": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Meets the level-2 anchor 'At least one core unit assesses collaborative practice': ATOC90002 (the one named Atmospheric-stream core subject) assesses a role-played multi-party negotiation, GEOL90005 assesses a team presentation with per-student accountability, and GEOL90027 assesses a group-of-four presentation. Not level 3: the collaborative assessment does not recur as a documented program-wide feature (both streams' cores are selection menus, and the 125-point Research Project — the only universally required component — documents only individual assessment), and no assessment requires coordinating work across people AND tools/AI systems with documented role and tool allocation. ERTH90033's 'Debate in teams' and GEOL90005's 'work in a small team' are outcome/generic-skill statements only, which R2 bars from lifting the score.",
@@ -13389,7 +13538,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-sciphy": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 1,
       "rationale": "Level 1 anchor: collaboration appears in learning outcomes but no core unit assesses it. Group work in MC-SCIPHY is stated only as a generic skill repeated across the discipline subjects ('participate as an effective member of a group in discussions and collaborative assignments'), while every documented assessment in those subjects is an individual written assignment or written examination. The one genuinely collaborative assessment in the extract, BUSA90403's syndicate group assessments, sits inside the Professional Skills slot where students take only one of twelve listed subjects, so no student is required to encounter it — it is not core. Not level 2, which needs at least one CORE unit assessing collaborative practice; and nothing anywhere assesses coordination of work across people AND tools/AI systems, which level 3 additionally requires.",
@@ -13826,7 +13975,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-tesol": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Meets the level-2 anchor 'at least one core unit assesses collaborative practice': the compulsory subject Literacies in Local and Global Contexts assesses a multimodal group presentation at 30%, and Teamwork and professional collaboration is a stated program generic skill. Not level 3, which requires BOTH recurrence of assessed collaborative practice across the program AND at least one assessment that requires coordinating work across people AND tools/AI systems. No core (or elective) assessment in the extract documents any allocation of work between people and tools or AI systems, and no role/tool allocation is itself assessed anywhere. Recurring group work does exist but only in the Additional Languages electives (group oral presentation with Q&A in Language in Bilingual Education; group lesson plan in Content and Language Integrated Pedagogy), not in the compulsory core, so even the recurrence half of level 3 rests on optional subjects.",
@@ -13957,7 +14106,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-urbdes": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Meets the level-2 anchor 'at least one core unit assesses collaborative practice — group projects with individual accountability': the core subject Strategic Plan Making assesses two group tasks (20% each) alongside a 50% individually-marked strategic plan, giving assessed collaboration with individual accountability. Not level 3: assessed collaboration does not recur — it is confined to this one core unit (the three core studios and the capstone are assessed by individual jury review), and no core assessment requires coordinating the division of work across people AND tools/AI systems. The studios' 'Engagement' generic-skills statement about contributing to others' work is an outcome statement, not an assessed task (R2).",

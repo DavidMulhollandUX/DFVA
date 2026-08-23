@@ -99,19 +99,17 @@ Monographs from [ANZSOG](https://anzsog.edu.au/) (2024/2025) underline the neces
 
 ---
 
-## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+## REAL GRADUATE DESTINATIONS (JSA HEO)
 
-**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 090103 Policy Studies / Public Policy):
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **090103 Policy Studies** (n = 1,210 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 49.6% of them, and the 5 largest are shown at each stage.
 
 | Career stage | Top occupations |
 |---|---|
-| Entry (~1yr) | Policy Officers (45%), Project Officers (25%), Public Sector Consultants (20%), Research Analysts (10%) |
-| Early (~3yr) | Senior Policy Analysts (40%), Policy Advisers (25%), Senior Consultants / Managers (20%), Governance Specialists (15%) |
-| Senior (~5yr) | Directors of Policy / Executive Officers (35%), Senior Managers / Associate Directors (25%), Principal Policy Advisers (20%), NGO Executives (20%) |
+| Entry (~1yr) | Policy Analyst (10.7%) · Policy and Planning Manager (9.9%) · Program or Project Administrator (9.1%) · General Clerk (3.3%) · General Clerks nfd (3.3%) |
+| Early (~3yr) | Policy Analyst (10.7%) · Policy and Planning Manager (10.7%) · Program or Project Administrator (9.9%) · General Clerk (3.3%) · Chief Executive or Managing Director (2.5%) |
+| Senior (~5yr) | Policy and Planning Manager (13.2%) · Policy Analyst (11.6%) · Program or Project Administrator (9.1%) · Chief Executive or Managing Director (2.5%) · General Clerk (2.5%) |
 
-**Graduate outcomes** (QILT GOS 2024, postgraduate society and culture / public policy): 89% full-time employment · median salary ,000 · JSA occupation demand: **High**.
-
-**Hiring now (demand-side)** — Adzuna AU live vacancies: Victorian Department of Premier and Cabinet, Commonwealth Department of Prime Minister and Cabinet, Department of Transport and Planning, PwC Government Advisory, EY Parthenon, KPMG Australia, Deloitte Public Sector, Brotherhood of St Laurence, Australian Red Cross. Advertised salary Ak–165k.
+**Field grain, not program grain.** These are graduates of the whole Policy Studies field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
 `,
 };
 

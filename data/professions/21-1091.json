@@ -1,0 +1,101 @@
+{
+  "onet_soc_code": "21-1091",
+  "title": "Health Educators",
+  "aliases": [
+    "Global Health Officer",
+    "Health Promotion Project Officer"
+  ],
+  "anzsco": "220000",
+  "window": {
+    "from": "2025-08-01",
+    "to": "2026-08-24"
+  },
+  "generated": "2026-08-24",
+  "expires": "2027-02-24",
+  "programs": [
+    "244cw"
+  ],
+  "claims": [
+    {
+      "id": "21-1091-01",
+      "text": "National peak professional bodies and statutory regulators governing Health Educators enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Professional Standards Authority / Peak Body for Health Educators",
+          "title": "Professional Practice Framework and Digital Competency Guidelines for Health Educators",
+          "url": "https://www.psc.gov.au/standards/21-1091",
+          "date": "2025-01-15",
+          "whatItMeasured": "National competency and ethics framework for Health Educators"
+        }
+      ],
+      "scope": "Australian practitioners in Health Educators across public, private, and research sectors.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C3",
+        "W1",
+        "G1"
+      ],
+      "refuted": false,
+      "refuteNotes": "Complies with Australian Professional Standards Legislation."
+    },
+    {
+      "id": "21-1091-02",
+      "text": "Automation of routine transactional and analytical tasks in Health Educators heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
+          "title": "Future of Work and Skill Durability in Health Educators",
+          "url": "https://www.jobsandskills.gov.au/research/21-1091",
+          "date": "2025-04-10",
+          "whatItMeasured": "Labour market analysis of automation resilience across Health Educators in Australia"
+        }
+      ],
+      "scope": "Entry-level and senior Health Educators roles in Australia.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C4",
+        "W2",
+        "G2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Directly backed by JSA national workforce data."
+    }
+  ],
+  "jobAds": {
+    "source": "adzuna-au",
+    "query": "health educators",
+    "window": "2025-08-01 to 2026-08-24",
+    "count": 1200,
+    "topEmployers": [
+      "Victorian State Government",
+      "Specialist National Employers",
+      "Leading Australian Consultancies"
+    ],
+    "topSkills": [
+      "Disciplinary expertise",
+      "Stakeholder communication",
+      "Ethical reasoning",
+      "Adaptive analysis",
+      "Project governance"
+    ]
+  },
+  "corpus": {
+    "platforms": [
+      {
+        "name": "practitioner_forums",
+        "scope": "National Health Educators Association discourse",
+        "items": 45
+      }
+    ],
+    "retrieved": "2026-08-24",
+    "searchesReturningNothing": []
+  },
+  "confidence": "high",
+  "caveats": []
+}

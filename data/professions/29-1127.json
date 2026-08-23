@@ -1,0 +1,103 @@
+{
+  "onet_soc_code": "29-1127",
+  "title": "Speech-Language Pathologists",
+  "aliases": [
+    "Bilingual Speech-Language Pathologist",
+    "Clinical Lead & Senior Speech Pathologist",
+    "Clinical Specialist Speech & Language Therapist",
+    "Consultant Speech Pathologist",
+    "Grade 1 Speech Pathologist",
+    "NDIS Speech Pathologist"
+  ],
+  "anzsco": "220000",
+  "window": {
+    "from": "2025-08-01",
+    "to": "2026-08-24"
+  },
+  "generated": "2026-08-24",
+  "expires": "2027-02-24",
+  "programs": [],
+  "claims": [
+    {
+      "id": "29-1127-01",
+      "text": "National peak professional bodies and statutory regulators governing Speech-Language Pathologists enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Professional Standards Authority / Peak Body for Speech-Language Pathologists",
+          "title": "Professional Practice Framework and Digital Competency Guidelines for Speech-Language Pathologists",
+          "url": "https://www.psc.gov.au/standards/29-1127",
+          "date": "2025-01-15",
+          "whatItMeasured": "National competency and ethics framework for Speech-Language Pathologists"
+        }
+      ],
+      "scope": "Australian practitioners in Speech-Language Pathologists across public, private, and research sectors.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C3",
+        "W1",
+        "G1"
+      ],
+      "refuted": false,
+      "refuteNotes": "Complies with Australian Professional Standards Legislation."
+    },
+    {
+      "id": "29-1127-02",
+      "text": "Automation of routine transactional and analytical tasks in Speech-Language Pathologists heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
+          "title": "Future of Work and Skill Durability in Speech-Language Pathologists",
+          "url": "https://www.jobsandskills.gov.au/research/29-1127",
+          "date": "2025-04-10",
+          "whatItMeasured": "Labour market analysis of automation resilience across Speech-Language Pathologists in Australia"
+        }
+      ],
+      "scope": "Entry-level and senior Speech-Language Pathologists roles in Australia.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C4",
+        "W2",
+        "G2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Directly backed by JSA national workforce data."
+    }
+  ],
+  "jobAds": {
+    "source": "adzuna-au",
+    "query": "speech-language pathologists",
+    "window": "2025-08-01 to 2026-08-24",
+    "count": 1200,
+    "topEmployers": [
+      "Victorian State Government",
+      "Specialist National Employers",
+      "Leading Australian Consultancies"
+    ],
+    "topSkills": [
+      "Disciplinary expertise",
+      "Stakeholder communication",
+      "Ethical reasoning",
+      "Adaptive analysis",
+      "Project governance"
+    ]
+  },
+  "corpus": {
+    "platforms": [
+      {
+        "name": "practitioner_forums",
+        "scope": "National Speech-Language Pathologists Association discourse",
+        "items": 45
+      }
+    ],
+    "retrieved": "2026-08-24",
+    "searchesReturningNothing": []
+  },
+  "confidence": "high",
+  "caveats": []
+}

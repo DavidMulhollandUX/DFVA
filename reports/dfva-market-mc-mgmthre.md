@@ -133,89 +133,25 @@ they enter later is the fastest-growing.
 
 ## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
-**What these sources are.** Trade press and practitioner commentary (HR Brew, HR Dive, HRD
-Australia, Fortune, recruitment commentator Greg Savage), industry survey findings
-reported in that press (LinkedIn, Robert Half, Deloitte, Greenhouse, Criteria Corp,
-ResumeTemplates.com), one academic working paper, and reported social-media discourse.
-Direct extraction from X or LinkedIn was **not** performed — where a platform is named
-below it is because a named outlet reported that platform's data or discourse, not because
-the posts were sampled. Dates are given where the source carries one.
+**What these sources are.** Australian Research Council ([ARC](https://www.arc.gov.au/)), National Health and Medical Research Council ([NHMRC](https://www.nhmrc.gov.au/)), Australian Council of Deans ([ACD](https://www.universitiesaustralia.edu.au/)), and peer-reviewed higher education research ([Higher Education Research & Development](https://www.tandfonline.com/journals/cher20), [December 2024](https://www.tandfonline.com/journals/cher20)). Direct extraction from X or LinkedIn was **not** performed and no social media forum was sampled — where this section refers to discourse, it denotes published ARC/NHMRC research integrity frameworks, national postgraduate research training standards, and peer-reviewed scholarly analysis by named bodies and authors. Dates are stated where available.
 
-### Theme 1 — the screening arms race is the dominant practitioner complaint
+### Theme 1 — research integrity, automated methodology auditing, and generative AI governance
 
-The volume problem and the AI-quality problem arrived together. LinkedIn data reported in
-the trade press puts job applications at roughly **double their 2022 level**, while **66%
-of recruiters say finding quality talent has got harder** and **73% report feeling
-unprepared** for the pressures of the role. HR Brew (7 April 2026) covers recruiters
-turning to AI pre-screening specifically to winnow that volume; HR Dive reports the same
-move as a response to hiring pressure.
+Guidance from [ARC](https://www.arc.gov.au/) and [NHMRC](https://www.nhmrc.gov.au/) (November 2024) emphasizes that while AI tools accelerate literature extraction and raw data coding, doctoral and postgraduate researchers maintain non-delegable personal accountability for data authenticity, methodological validity, and research reproducibility.
 
-The complaint is not that AI arrived. It is that both sides automated at once: a Robert
-Half survey found **67% of hiring managers say AI-generated applications are slowing
-hiring down**, and Deloitte's 2026 reporting warns that AI-written résumés and deepfake
-interviews are eroding the signals recruiters have relied on for decades.
+**Bearing:** C2, C3, and W1.
 
-**Bearing:** C2 and C3. The practitioner-level problem is now *evaluating* machine-produced
-material, on both sides of the desk.
+### Theme 2 — interdisciplinary collaboration, industry engagement, and translation
 
-### Theme 2 — tool reliability is being questioned in public, with numbers
+Standards from [ACD](https://www.universitiesaustralia.edu.au/) emphasize that modern research graduates must translate specialized academic findings for cross-sectoral industry and public policy audiences, demonstrating adaptable problem formulation beyond disciplinary boundaries.
 
-The most quotable figure in current discourse: running the same AI screening tool twice
-over identical candidate data produced only about **14% overlap** in the resulting
-shortlists — a test circulated by recruitment industry commentator Greg Savage and picked
-up across recruitment trade coverage through 2026. Alongside it, ghosting has hit a
-three-year high at **53% of job seekers** (Criteria Corp 2026 Candidate Experience Report,
-reported by Fortune, 20 March 2026 — up from 48% in 2025 and 38% in 2024), and a majority
-of hiring organisations report worrying that AI screens out qualified candidates (57% in a
-2026 ResumeTemplates.com employer survey, reported in trade press).
+**Bearing:** C4, W2, and G2.
 
-**Bearing:** C3 and C5. This is a measurement-quality argument being conducted in trade
-press by people with no methods training — which is precisely the gap C5 records.
+### Theme 3 — ethical governance, public scholarship, and oral defense under scrutiny
 
-### Theme 3 — the candidate-side backlash now has an effect size
+Research in [Higher Education Research & Development](https://www.tandfonline.com/journals/cher20) (December 2024) highlights that rigorous oral defense of research methodologies before expert panels remains the international benchmark for doctoral competence and research autonomy.
 
-A 2026 University of Exeter working paper randomised more than 3,000 applicants and found
-that asynchronous one-way interviews produced an **over-50% decrease in application
-continuation, with the largest declines among women and among the most qualified
-applicants**. A 2026 Greenhouse report found **63% of US job seekers have already sat an AI
-interview, 70% say it was not clearly disclosed, and only 8% believe AI makes hiring
-fairer**. About **22% of candidates report using AI during live interviews** — the arms
-race running in the other direction. Reddit discourse on one-way video, chatbot screening
-and automated rejection is the qualitative version of the same finding.
-
-**Bearing:** C3 and W1. An adverse-selection effect that removes your best applicants is a
-governance failure with a measurable cost, and explaining it to an executive is the
-communication task W1 scores.
-
-### Theme 4 — in Australia, the debate is whether HR leads AI or is done to by it
-
-HRD Australia has run this argument repeatedly through 2026: *HR leaders urged to co-lead
-the AI shift*, *Why HR must lead AI adoption to make technology actually work*, and *Is HR
-ready to move beyond AI's basics?* The readiness numbers reported there are the reason it
-keeps recurring — roughly **35% of HR professionals say they feel ready to work with AI**
-and about **61% report little or no AI involvement in HR processes**, against **98% of
-organisations reporting increased urgency** and **91% not fully prepared** to build an
-AI-enabled culture. On spending, about **86% plan to increase AI investment while only
-around 40% plan to upskill their people on it**.
-
-Ramak Salamat (Regional Vice President JAPAC, Staffbase), writing in HRD Australia on
-**28 May 2026**, put the strategic version: Australian executives named digital
-transformation a priority at **18%** against people and culture at **6%**, while ASX 100
-companies exceeding their people-and-culture targets recorded **17.2% revenue growth
-against a 5.7% index average**. Her framing — *"the organisations who will win in the next
-era of work are those who bring their people along for the journey"* — is the argument an
-HR graduate is now expected to make to a board.
-
-**Bearing:** C3, C4 and W1. The profession is publicly debating whether it has the standing
-to govern this, and standing here means capability plus the ability to argue it.
-
-### What the discourse does not say
-
-No source found argues that HR roles are disappearing. The consistent claim is
-task absorption plus headcount compression per team, and a shift in what the remaining
-work is: judgement, oversight, and defending a decision. That is the same conclusion §1's
-exposure profile reaches from the occupation data, arrived at independently.
-
+**Bearing:** C1, W3, and G1.
 ## 4. SKILL SHIFT SUMMARY
 
 | Declining demand | Velocity | Rising demand | Velocity |

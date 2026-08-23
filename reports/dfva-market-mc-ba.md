@@ -94,17 +94,17 @@ Executive education frameworks from [AACSB](https://www.aacsb.edu/) (2024/2025) 
 ---
 
 <!-- LABOUR-EVIDENCE:START -->
-## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+## REAL GRADUATE DESTINATIONS (JSA HEO)
 
-**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 080301 Business Management / MBA):
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **080301 Business Management** (n = 23,210 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 31.1% of them, and the 5 largest are shown at each stage.
 
 | Career stage | Top occupations |
 |---|---|
-| Entry (~1yr) | Management Consultants (35%), Strategy Analysts (25%), Business Operations Leads (20%), Product Managers (20%) |
-| Early (~3yr) | Senior Strategy Managers (35%), Engagement Managers (Consulting) (30%), Group Product Managers (20%), Commercial Directors (15%) |
-| Senior (~5yr) | General Managers / COOs (35%), Partners / Associate Directors (Consulting) (25%), VPs of Strategy / Product (25%), Managing Directors (15%) |
+| Entry (~1yr) | Accountant (General) (4.7%) · Sales and Marketing Manager (4.3%) · Corporate General Manager (3.9%) · General Clerk (3.4%) · Management Consultant (3.3%) |
+| Early (~3yr) | Sales and Marketing Manager (4.7%) · Accountant (General) (4.4%) · Corporate General Manager (4.4%) · Management Consultant (3.4%) · Marketing Specialist (2.7%) |
+| Senior (~5yr) | Sales and Marketing Manager (4.9%) · Corporate General Manager (4.7%) · Accountant (General) (4.0%) · Management Consultant (3.0%) · Program or Project Administrator (2.8%) |
 
-**Graduate outcomes** (QILT GOS 2024, postgraduate business & management): 92% full-time employment · median salary ,000 · JSA occupation demand: **High**.
+**Field grain, not program grain.** These are graduates of the whole Business Management field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
 
-**Hiring now (demand-side)** — Adzuna AU live vacancies: McKinsey & Company, Boston Consulting Group, Bain & Company, Deloitte Strategy & AI, PwC Australia, EY-Parthenon, KPMG Strategy, Telstra Corporate, BHP Commercial, Commonwealth Bank Strategy, Canva. Advertised salary Ak–280k.
+**Graduate outcomes** (QILT GOS 2024, postgraduate Business & Management cut): 92.3% full-time employment · median salary $124,000 · 96.2% at three years · JSA occupation demand: **met**.
 <!-- LABOUR-EVIDENCE:END -->
