@@ -38,7 +38,7 @@ Research institutions (CSIRO, WEHI) and deep-tech scale-ups hire specialist IP g
 
 ### Theme 1 — patentability of AI-generated inventions and the human inventorship requirement
 
-Judicial decisions and regulatory consultations across [IP Australia](https://www.ipaustralia.gov.au/) and the [Australian Intellectual Property Journal](https://www.thomsonreuters.com.au/) (August 2024) affirm that under current Australian law (*Commissioner of Patents v Thaler* [2022] FCAFC 62), an inventor must be a human person. Professional discourse focuses on the evidentiary boundary between human prompt engineer / scientist contribution and autonomous machine output, demanding that patent attorneys rigorously document human inventorship chains and inventiveness thresholds in patent filings.
+Judicial decisions and regulatory consultations across [IP Australia](https://www.ipaustralia.gov.au/) and the [Australian Intellectual Property Journal](https://www.thomsonreuters.com.au/) (August 2024) affirm that under current Australian law (*Commissioner of Patents v Thaler* [2022] FCAFC 62), an inventor must be a human person. The live question is the evidentiary boundary between human prompt engineer / scientist contribution and autonomous machine output, demanding that patent attorneys rigorously document human inventorship chains and inventiveness thresholds in patent filings.
 
 **Bearing:** C3, W1, and G2.
 
