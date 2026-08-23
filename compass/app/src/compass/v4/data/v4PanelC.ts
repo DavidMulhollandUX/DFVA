@@ -14242,6 +14242,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     }
   },
   "mc-urbhort": {
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2 anchor is satisfied: at least one core unit assesses collaborative practice — in fact, assessed collaborative practice appears in multiple core units across the program. In ABPL90337 Managing Urban Landscapes, students complete a 'Group presentation (approximately 5 minutes per student)'; in ERTH90028 Urban Soils, Substrates and Water, students complete 'Framing an urban soil management case study (group oral presentation)'; and in HORT90048 Urban Horticulture Issues & Perspectives (the final-semester capstone), students work in teams of 4-5 to assess, plan and document solutions, assessed via 'Assessment of groups' LMS discussion', 'Group project, problem based and encompassing a technical and multi-disciplinary report due last week of second semester (3000 words per student)', and 'A group presentation due last week of second semester'. Level 3 is not met: although collaborative practice recurs across the core, no core assessment requires coordinating work across people AND tools/AI systems with documented role-and-tool allocation or an assessed division of work between people and systems.",
@@ -14400,8 +14401,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "adversarial": true,
       "mechanical": true,
       "date": "2026-08-23"
-    },
-    "instrument": "4.1-draft"
+    }
   },
   "me-dcd": {
     "instrument": "4.2-draft",
