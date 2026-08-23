@@ -3,6 +3,9 @@
 **Status:** adopted 2026-08-22 (`PANELA_BASIS_VERSION = "1.0"`). Resolver:
 `scripts/dfva-panela-basis.ts`; consumed by `scripts/dfva-v4-gen.ts` and guarded by
 `scripts/dfva-panela-coverage-check.ts` (runs in `dfva:check` / CI).
+LLM procedure for scoring a program: `docs/tasks/dfva-panela-scoring.SKILL.md`. Academic
+methods note on the estimated tiers (assumptions, hold-out validity, permitted uses):
+`docs/dfva-panela-estimated-basis-methods.md`.
 
 ## 1. Problem
 

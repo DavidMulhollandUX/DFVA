@@ -201,6 +201,17 @@ After every full assessment, append TypeScript for `compass/app/src/compass/shar
 - For comparisons: full reports each, then head-to-head divergence table
 - If enrollment intent indicated: append direct personal advisory note
 
+## Panel A — Destination AI Exposure (v4)
+
+Exposure is never scored by the assessor. It is resolved from destination data by
+`scripts/dfva-panela-basis.ts` on a stated basis: own alumni record (`exact`/`variant`) →
+program family (`pooled`/`combined`) → curated related program (`cognate`/`partial`) → JSA
+field-of-education list (`field`). If a program has no value or an unmapped title, fix the
+data (override, field assignment, or reviewed crosswalk row) — never the page, never a typed
+number. Field-tier values are placed against the field-basis median, not 90.9. Procedure:
+`docs/tasks/dfva-panela-scoring.SKILL.md`; method: `docs/dfva-v4-panela-basis.md`;
+assumptions and permitted uses of estimated values: `docs/dfva-panela-estimated-basis-methods.md`.
+
 ## Report Metadata
 
 Include at top/bottom:

@@ -59,6 +59,9 @@ program code ─┘
                              mechanical pass: every evidenceLine greps verbatim in the scrape;
                              boundary pass: no evidence line scores in two items
               4 PERSIST      dfva/source/evidence/<code>.json gains the panelCv4 block
+              4a EXPOSURE    resolver gives Panel A on a stated basis (exact → variant → pooled →
+                             combined → cognate/partial → field); dfva:gen-v4 emits it with the label.
+                             No basis / unmapped title = fix the DATA (skill: dfva-panela-scoring)
               5 REPORT       draft reports/dfva-v4-<code>.md per report-template-v4.md
               6 RECOMMEND    draft reports/dfva-v4-recommend-<code>.md per DFVA-V4-RECOMMEND-PROMPT.md
                              (inputs: the verified panelCv4 block + reports/dfva-market-<code>.md)
@@ -99,9 +102,16 @@ Stage rules:
 - **4 PERSIST** — the `panelCv4` block *extends* the existing evidence file; the
   v1 `byDimension` block stays untouched (both instruments coexist through the
   migration, as v2/v3/v3.1 do today).
+- **4a EXPOSURE** — run `cd scripts && npx tsx dfva-panela-audit.ts | grep <code>`.
+  The program must resolve to a tier with 0 unmapped titles before REPORT; if it does
+  not, follow `docs/tasks/dfva-panela-scoring.SKILL.md` (override entry, field
+  assignment, or crosswalk rows via the backfill skill with adversarial review). The
+  scoring agent never writes an exposure figure; the page labels the basis from
+  `V4_PANEL_A_BASIS`. What the estimated tiers mean and may be used for:
+  `docs/dfva-panela-estimated-basis-methods.md`.
 - **5 REPORT** — Panel A exposure, position and stability figures come from the
-  existing generators (`dfva-v3-panela.ts` / `dfva-v31-panela.ts` machinery),
-  never from the scoring agent. Position renders only per the v3.1 §5.2
+  generators (`dfva:gen-v4` for the v4 cohort; `dfva-v3-panela.ts` / `dfva-v31-panela.ts`
+  machinery for the reference cohort), never from the scoring agent. Position renders only per the v3.1 §5.2
   stability rules, against medians re-based in the published v4 cycle.
 - **6 LINT** — the six rules at the foot of `report-template-v4.md`, including:
   every scorecard row cites a reference number, section 5 opens with the
@@ -345,7 +355,7 @@ rescale), and carries it on the v4 record with its **basis**.
 
 Since 2026-08-22 every coursework program in the cohort resolves to a basis
 (`scripts/dfva-panela-basis.ts`; method and Felten justification in
-`docs/dfva-v4-panela-basis.md`): own JIR record (`exact`) → variant parent (`variant`) →
+`docs/dfva-v4-panela-basis.md`; step-by-step for an LLM: `docs/tasks/dfva-panela-scoring.SKILL.md`): own JIR record (`exact`) → variant parent (`variant`) →
 pooled major records (`pooled`) → double-degree components (`combined`) → curated borrow
 from a related program (`cognate` / `partial`, `data/aioe/panela_basis_overrides.json`) →
 JSA HEO field-of-education list (`field`, `data/jsa/`). The report page names the tier; a
@@ -458,6 +468,11 @@ inter-rater evidence rather than one program's.
 1. **Now enforced by the prompt/template:** R1–R4, ambiguity-down, one-construct-one-home,
    no Irreplaceability, reference-numbered scorecard, epistemic-status tags, both sub-scale
    subtotals with no combined total.
+   **Enforced in CI since 2026-08-23 (`dfva-panela-coverage-check.ts`):** every v4-scored
+   coursework program carries an exposure on a stated basis; the generated value and tier
+   equal the resolver's; the reference cohort reproduces its published v3 values; every
+   ANZSCO title in a field list in use is mapped or refused; field-tier programs are never
+   published without `expMedianField`.
 2. **To wire when v4 is adopted (§7 yes):**
    - v4 family in `check-report-format.ts` (lint rules are already written at the
      foot of the template);
