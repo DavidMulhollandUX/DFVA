@@ -221,7 +221,7 @@ def load() -> dict:
 
 def save_queue(q: dict) -> None:
     os.makedirs(OUT, exist_ok=True)
-    tmp = QUEUE + ".tmp"
+    tmp = f"{QUEUE}.{os.getpid()}.tmp"
     with open(tmp, "w") as fh:
         json.dump(q, fh, indent=1, sort_keys=True)
     os.replace(tmp, QUEUE)
