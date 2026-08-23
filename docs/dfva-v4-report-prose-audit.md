@@ -231,11 +231,10 @@ authoring, so absolute totals move.
 
 | | Before | After |
 |---|---|---|
-| §3 headings asserting a platform | 60 | 1 (`dh-lld`, deliberately refused) |
-| `platform-sampling-claim` errors | 15 | 0 |
-| Corpus error-severity findings | 165 | 73 |
-| report-lint grandfathered debt | 109 | 87 |
-| ...of which missing sourcing declarations | 62 | 44 |
+| §3 headings asserting a platform | 60 | **0** |
+| `platform-sampling-claim` errors | 15 | **0** |
+| Corpus error-severity findings | 165 | **0** (181 reports) |
+| report-lint grandfathered debt | 109 | 70 |
 
 `639bd12` rewrote 61 §3 headings and added the review harness. `638b342`
 hand-authored 49 §3 body claims across 14 reports and added the house-form
@@ -257,11 +256,20 @@ and `**Bearing:**` lines added. Those files score zero errors. The 14 files fixe
 here score above zero, because stripping invented provenance leaves claims that
 are honest but still unowned — "The consensus among senior practitioners is…".
 
-Treat the work here as the floor: it stops the reports asserting something
-false. The attribution treatment is the target. The 39 `unattributed-discourse`
-and 33 `quoted-theme-without-source` findings that remain are precisely the gap
-between the two, and they should be closed by re-authoring to the attribution
-standard rather than by a second mechanical pass.
+That gap has since been closed. `b-sci`, `mc-sciear`, `mc-cs` and `mc-journ`
+were re-authored in full (`996e8a5`), and the remaining unowned claims across
+fourteen further reports were cleared in `83d4be9` — theme headings that were
+wholly a quotation with no speaker, and phantom-authority subjects replaced
+either by the claim itself or by the named source already present (IPTA, the
+Dental Board of Australia, WEF/IISE, Mumbrella, AustLII). `dh-lld`'s misfiled
+heading went last (`99c6570`).
+
+Where a real source was buried under invented framing it was kept and promoted,
+not discarded — `mc-journ`'s MEAA verification guidance and regional-masthead
+data are the clearest case. Nothing was invented to make a sentence look sourced.
+
+The corpus now carries **zero error-severity findings across 181 reports**, and
+the gate that keeps it there runs in `dfva:check`.
 
 ---
 
