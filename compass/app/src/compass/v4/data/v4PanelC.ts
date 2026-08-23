@@ -53,7 +53,11 @@ export interface V4Meta {
   workplaceComplete: boolean;
   complete: boolean;
   adaptMedian: number | null;
+  /** Program-grain exposure median (alumni-title basis). */
   expMedian: number;
+  /** Field-grain exposure median (JSA HEO basis) over the same reference cohort; null until every reference program has a field. Field-tier programs are placed against this, never against expMedian. */
+  expMedianField: number | null;
+  panelABasisVersion: string;
   pending: string[];
 }
 
@@ -65,17 +69,41 @@ export const V4_META: V4Meta = {
   "complete": true,
   "adaptMedian": 9,
   "expMedian": 90.9,
+  "expMedianField": 83.21,
+  "panelABasisVersion": "1.0",
   "pending": []
 };
 
+/** Which destination distribution stands for the program (docs/dfva-v4-panela-basis.md).
+ *  exact/variant = own alumni record; pooled/combined = own program family;
+ *  cognate/partial = a related program's record (an assumption, labelled);
+ *  field = JSA HEO field-of-education occupation list (placed against expMedianField). */
+export type V4PanelATier = "exact" | "variant" | "pooled" | "combined" | "cognate" | "partial" | "field";
+export type V4PanelAGrain = "program" | "program-family" | "related-program" | "field";
+export interface V4PanelABasis {
+  tier: V4PanelATier;
+  grain: V4PanelAGrain;
+  sources: { name: string; n: number | null }[];
+  field?: string;
+  dominantShare?: { name: string; share: number };
+  /** Multi-record tiers: records set aside because they carry a refused title. */
+  excludedSources?: { name: string; refusedTitles: string[] }[];
+  /** Field tier: share-weighted mean (Felten aggregation rule). */
+  exposureWeighted?: number;
+  /** Field tier: ANZSCO occupations set aside as unmappable, with the share they carried. */
+  excludedTitles?: { title: string; share: number | null }[];
+  /** Field tier: summed entry-stage share (%) the value stands on. */
+  coverage?: number;
+  indexVariant: "AIOE-2021";
+  note?: string;
+}
+
 /** A program scored on v4 that is not in the v3 registry.
  *
- *  Exposure is instrument-independent, so where the program has its own JIR
- *  alumni record it is computed here by the identical Panel A procedure and
- *  is a measured value, comparable with every other program. Where it has no
- *  such record the fields are null and the page states the absence rather
- *  than estimating it. Either way no POSITION is assigned: that needs a v4
- *  adaptiveness median, which the migration cycle has not yet produced. */
+ *  Exposure is instrument-independent and is computed by the identical Panel A
+ *  procedure for every program; `exposureBasis` records WHICH destination
+ *  distribution it was computed on, so an estimate from a related program or
+ *  a field-of-education list never reads as the program's own measurement. */
 export interface V4OnlyProgram {
   code: string;
   name: string;
@@ -85,6 +113,7 @@ export interface V4OnlyProgram {
   jirN: number | null;
   nTitles: number | null;
   nMedium: number | null;
+  exposureBasis: V4PanelABasis | null;
 }
 
 export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
@@ -96,7 +125,62 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
     "entryExposure": 74.44,
     "jirN": 94,
     "nTitles": 15,
-    "nMedium": 10
+    "nMedium": 10,
+    "exposureBasis": {
+      "tier": "exact",
+      "grain": "program",
+      "sources": [
+        {
+          "name": "Master of Art Curatorship",
+          "n": 94
+        }
+      ],
+      "indexVariant": "AIOE-2021"
+    }
+  },
+  "080cl": {
+    "code": "080cl",
+    "name": "Master of Psychology (Clinical Psychology)/Doctor of Philosophy",
+    "hasMarketReport": true,
+    "exposure": 95.57,
+    "entryExposure": 93.63,
+    "jirN": 47,
+    "nTitles": 15,
+    "nMedium": 13,
+    "exposureBasis": {
+      "tier": "partial",
+      "grain": "related-program",
+      "sources": [
+        {
+          "name": "Master of Applied Psychology",
+          "n": 47
+        }
+      ],
+      "indexVariant": "AIOE-2021",
+      "note": "Professional psychology stream; same program-family record the reconciliation package used for 527cl."
+    }
+  },
+  "080cn": {
+    "code": "080cn",
+    "name": "Master of Psychology (Clinical Neuropsychology)/Doctor of Philosophy",
+    "hasMarketReport": true,
+    "exposure": 95.57,
+    "entryExposure": 93.63,
+    "jirN": 47,
+    "nTitles": 15,
+    "nMedium": 13,
+    "exposureBasis": {
+      "tier": "partial",
+      "grain": "related-program",
+      "sources": [
+        {
+          "name": "Master of Applied Psychology",
+          "n": 47
+        }
+      ],
+      "indexVariant": "AIOE-2021",
+      "note": "Professional psychology stream; same program-family record the reconciliation package used for 527cl."
+    }
   },
   "097ab": {
     "code": "097ab",
@@ -106,7 +190,18 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
     "entryExposure": 92.94,
     "jirN": 104,
     "nTitles": 14,
-    "nMedium": 13
+    "nMedium": 13,
+    "exposureBasis": {
+      "tier": "exact",
+      "grain": "program",
+      "sources": [
+        {
+          "name": "Master of Development Studies",
+          "n": 104
+        }
+      ],
+      "indexVariant": "AIOE-2021"
+    }
   },
   "175aa": {
     "code": "175aa",
@@ -116,17 +211,40 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
     "entryExposure": 81.76,
     "jirN": 98,
     "nTitles": 15,
-    "nMedium": 11
+    "nMedium": 11,
+    "exposureBasis": {
+      "tier": "exact",
+      "grain": "program",
+      "sources": [
+        {
+          "name": "Master of Arts and Cultural Management",
+          "n": 98
+        }
+      ],
+      "indexVariant": "AIOE-2021"
+    }
   },
   "192aa": {
     "code": "192aa",
     "name": "Master of International Tax",
     "hasMarketReport": false,
-    "exposure": null,
-    "entryExposure": null,
-    "jirN": null,
-    "nTitles": null,
-    "nMedium": null
+    "exposure": 94.83,
+    "entryExposure": 94.15,
+    "jirN": 676,
+    "nTitles": 15,
+    "nMedium": 6,
+    "exposureBasis": {
+      "tier": "partial",
+      "grain": "related-program",
+      "sources": [
+        {
+          "name": "Master of Laws",
+          "n": 676
+        }
+      ],
+      "indexVariant": "AIOE-2021",
+      "note": "International Tax is a Melbourne Law Masters specialisation; the Master of Laws record (n=676) is the program-family record, as the reconciliation package did for specialisation streams."
+    }
   },
   "195aa": {
     "code": "195aa",
@@ -136,7 +254,40 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
     "entryExposure": 94.68,
     "jirN": 88,
     "nTitles": 15,
-    "nMedium": 2
+    "nMedium": 2,
+    "exposureBasis": {
+      "tier": "exact",
+      "grain": "program",
+      "sources": [
+        {
+          "name": "Master of Construction Law",
+          "n": 88
+        }
+      ],
+      "indexVariant": "AIOE-2021"
+    }
+  },
+  "300bb": {
+    "code": "300bb",
+    "name": "Doctor of Education",
+    "hasMarketReport": true,
+    "exposure": 92.44,
+    "entryExposure": 94.16,
+    "jirN": 611,
+    "nTitles": 15,
+    "nMedium": 11,
+    "exposureBasis": {
+      "tier": "partial",
+      "grain": "related-program",
+      "sources": [
+        {
+          "name": "Master of Education",
+          "n": 611
+        }
+      ],
+      "indexVariant": "AIOE-2021",
+      "note": "Professional doctorate in education; Master of Education record as for mc-surged / mc-intedib."
+    }
   },
   "305bb": {
     "code": "305bb",
@@ -146,7 +297,18 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
     "entryExposure": 79.31,
     "jirN": 156,
     "nTitles": 15,
-    "nMedium": 5
+    "nMedium": 5,
+    "exposureBasis": {
+      "tier": "exact",
+      "grain": "program",
+      "sources": [
+        {
+          "name": "Master of Clinical Audiology",
+          "n": 156
+        }
+      ],
+      "indexVariant": "AIOE-2021"
+    }
   },
   "342aa": {
     "code": "342aa",
@@ -156,7 +318,18 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
     "entryExposure": 88.67,
     "jirN": 54,
     "nTitles": 14,
-    "nMedium": 7
+    "nMedium": 7,
+    "exposureBasis": {
+      "tier": "exact",
+      "grain": "program",
+      "sources": [
+        {
+          "name": "Master of Psychiatry",
+          "n": 54
+        }
+      ],
+      "indexVariant": "AIOE-2021"
+    }
   },
   "344ab": {
     "code": "344ab",
@@ -166,7 +339,18 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
     "entryExposure": 92.34,
     "jirN": 165,
     "nTitles": 15,
-    "nMedium": 13
+    "nMedium": 13,
+    "exposureBasis": {
+      "tier": "exact",
+      "grain": "program",
+      "sources": [
+        {
+          "name": "Master of Public Policy and Management",
+          "n": 165
+        }
+      ],
+      "indexVariant": "AIOE-2021"
+    }
   },
   "502cw": {
     "code": "502cw",
@@ -176,7 +360,18 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
     "entryExposure": 94.15,
     "jirN": 676,
     "nTitles": 15,
-    "nMedium": 6
+    "nMedium": 6,
+    "exposureBasis": {
+      "tier": "exact",
+      "grain": "program",
+      "sources": [
+        {
+          "name": "Master of Laws",
+          "n": 676
+        }
+      ],
+      "indexVariant": "AIOE-2021"
+    }
   },
   "504aa": {
     "code": "504aa",
@@ -186,27 +381,62 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
     "entryExposure": null,
     "jirN": 63,
     "nTitles": 15,
-    "nMedium": 6
+    "nMedium": 6,
+    "exposureBasis": {
+      "tier": "exact",
+      "grain": "program",
+      "sources": [
+        {
+          "name": "Master of Commercial Law",
+          "n": 63
+        }
+      ],
+      "indexVariant": "AIOE-2021"
+    }
   },
   "507aa": {
     "code": "507aa",
     "name": "Master of Health and Medical Law",
     "hasMarketReport": false,
-    "exposure": null,
-    "entryExposure": null,
-    "jirN": null,
-    "nTitles": null,
-    "nMedium": null
+    "exposure": 94.83,
+    "entryExposure": 94.15,
+    "jirN": 676,
+    "nTitles": 15,
+    "nMedium": 6,
+    "exposureBasis": {
+      "tier": "partial",
+      "grain": "related-program",
+      "sources": [
+        {
+          "name": "Master of Laws",
+          "n": 676
+        }
+      ],
+      "indexVariant": "AIOE-2021",
+      "note": "Health and Medical Law is a Melbourne Law Masters specialisation; the Master of Laws record (n=676) is the program-family record, as the reconciliation package did for specialisation streams."
+    }
   },
   "510aa": {
     "code": "510aa",
     "name": "Master of Employment and Labour Relations Law",
     "hasMarketReport": false,
-    "exposure": null,
-    "entryExposure": null,
-    "jirN": null,
-    "nTitles": null,
-    "nMedium": null
+    "exposure": 94.83,
+    "entryExposure": 94.15,
+    "jirN": 676,
+    "nTitles": 15,
+    "nMedium": 6,
+    "exposureBasis": {
+      "tier": "partial",
+      "grain": "related-program",
+      "sources": [
+        {
+          "name": "Master of Laws",
+          "n": 676
+        }
+      ],
+      "indexVariant": "AIOE-2021",
+      "note": "Employment and Labour Relations Law is a Melbourne Law Masters specialisation; the Master of Laws record (n=676) is the program-family record, as the reconciliation package did for specialisation streams."
+    }
   },
   "511aa": {
     "code": "511aa",
@@ -216,27 +446,62 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
     "entryExposure": null,
     "jirN": 39,
     "nTitles": 12,
-    "nMedium": 5
+    "nMedium": 5,
+    "exposureBasis": {
+      "tier": "exact",
+      "grain": "program",
+      "sources": [
+        {
+          "name": "Master of Public And International Law",
+          "n": 39
+        }
+      ],
+      "indexVariant": "AIOE-2021"
+    }
   },
   "526aa": {
     "code": "526aa",
     "name": "Master of Banking and Finance Law",
     "hasMarketReport": false,
-    "exposure": null,
-    "entryExposure": null,
-    "jirN": null,
-    "nTitles": null,
-    "nMedium": null
+    "exposure": 94.83,
+    "entryExposure": 94.15,
+    "jirN": 676,
+    "nTitles": 15,
+    "nMedium": 6,
+    "exposureBasis": {
+      "tier": "partial",
+      "grain": "related-program",
+      "sources": [
+        {
+          "name": "Master of Laws",
+          "n": 676
+        }
+      ],
+      "indexVariant": "AIOE-2021",
+      "note": "Banking and Finance Law is a Melbourne Law Masters specialisation; the Master of Laws record (n=676) is the program-family record, as the reconciliation package did for specialisation streams."
+    }
   },
   "527cn": {
     "code": "527cn",
     "name": "Master of Psychology (Clinical Neuropsychology)",
     "hasMarketReport": false,
-    "exposure": null,
-    "entryExposure": null,
-    "jirN": null,
-    "nTitles": null,
-    "nMedium": null
+    "exposure": 95.57,
+    "entryExposure": 93.63,
+    "jirN": 47,
+    "nTitles": 15,
+    "nMedium": 13,
+    "exposureBasis": {
+      "tier": "partial",
+      "grain": "related-program",
+      "sources": [
+        {
+          "name": "Master of Applied Psychology",
+          "n": 47
+        }
+      ],
+      "indexVariant": "AIOE-2021",
+      "note": "Professional psychology stream; same program-family record the reconciliation package used for 527cl."
+    }
   },
   "742ab": {
     "code": "742ab",
@@ -246,7 +511,18 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
     "entryExposure": 98.91,
     "jirN": 57,
     "nTitles": 13,
-    "nMedium": 5
+    "nMedium": 5,
+    "exposureBasis": {
+      "tier": "exact",
+      "grain": "program",
+      "sources": [
+        {
+          "name": "Master of Tax",
+          "n": 57
+        }
+      ],
+      "indexVariant": "AIOE-2021"
+    }
   },
   "761em": {
     "code": "761em",
@@ -256,7 +532,18 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
     "entryExposure": 89.03,
     "jirN": 89,
     "nTitles": 15,
-    "nMedium": 10
+    "nMedium": 10,
+    "exposureBasis": {
+      "tier": "exact",
+      "grain": "program",
+      "sources": [
+        {
+          "name": "Master of Engineering Management",
+          "n": 89
+        }
+      ],
+      "indexVariant": "AIOE-2021"
+    }
   },
   "841ac": {
     "code": "841ac",
@@ -266,67 +553,305 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
     "entryExposure": 60.88,
     "jirN": 61,
     "nTitles": 12,
-    "nMedium": 3
+    "nMedium": 3,
+    "exposureBasis": {
+      "tier": "exact",
+      "grain": "program",
+      "sources": [
+        {
+          "name": "Bachelor of Oral Health",
+          "n": 61
+        }
+      ],
+      "indexVariant": "AIOE-2021"
+    }
   },
   "872bb": {
     "code": "872bb",
     "name": "Master of Veterinary Science",
     "hasMarketReport": false,
-    "exposure": null,
-    "entryExposure": null,
-    "jirN": null,
-    "nTitles": null,
-    "nMedium": null
+    "exposure": 62.4,
+    "entryExposure": 63.57,
+    "jirN": 275,
+    "nTitles": 12,
+    "nMedium": 1,
+    "exposureBasis": {
+      "tier": "cognate",
+      "grain": "related-program",
+      "sources": [
+        {
+          "name": "Doctor of Veterinary Medicine",
+          "n": 275
+        }
+      ],
+      "indexVariant": "AIOE-2021",
+      "note": "Veterinary graduate program; DVM is the discipline-matched record."
+    }
   },
   "991aa": {
     "code": "991aa",
     "name": "Master of Biostatistics",
     "hasMarketReport": false,
-    "exposure": null,
-    "entryExposure": null,
+    "exposure": 93.92,
+    "entryExposure": 93.92,
     "jirN": null,
-    "nTitles": null,
-    "nMedium": null
+    "nTitles": 11,
+    "nMedium": 1,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 010103 Statistics",
+          "n": null
+        }
+      ],
+      "field": "010103",
+      "indexVariant": "AIOE-2021",
+      "coverage": 39.1,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 94.97
+    }
   },
   "b-agr": {
     "code": "b-agr",
     "name": "Bachelor of Agriculture",
     "hasMarketReport": false,
-    "exposure": null,
-    "entryExposure": null,
+    "exposure": 73,
+    "entryExposure": 67.44,
     "jirN": null,
-    "nTitles": null,
-    "nMedium": null
+    "nTitles": 13,
+    "nMedium": 5,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 050101 Agricultural Science",
+          "n": null
+        }
+      ],
+      "field": "050101",
+      "indexVariant": "AIOE-2021",
+      "coverage": 41.7,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "excludedTitles": [
+        {
+          "title": "Mixed Crop and Livestock Farm Worker",
+          "share": 2.778
+        },
+        {
+          "title": "Farm, Forestry and Garden Workers nec",
+          "share": 2.778
+        }
+      ],
+      "exposureWeighted": 75.38
+    }
   },
   "b-arts": {
     "code": "b-arts",
     "name": "Bachelor of Arts",
     "hasMarketReport": false,
-    "exposure": null,
-    "entryExposure": null,
-    "jirN": null,
-    "nTitles": null,
-    "nMedium": null
+    "exposure": 92.09,
+    "entryExposure": 90.79,
+    "jirN": 2596,
+    "nTitles": 101,
+    "nMedium": 51,
+    "exposureBasis": {
+      "tier": "pooled",
+      "grain": "program-family",
+      "sources": [
+        {
+          "name": "Bachelor of Arts (Anthropology)",
+          "n": 153
+        },
+        {
+          "name": "Bachelor of Arts (Asian Studies)",
+          "n": 43
+        },
+        {
+          "name": "Bachelor of Arts (Economics)",
+          "n": 196
+        },
+        {
+          "name": "Bachelor of Arts (Gender Studies)",
+          "n": 100
+        },
+        {
+          "name": "Bachelor of Arts (Geography)",
+          "n": 108
+        },
+        {
+          "name": "Bachelor of Arts (History)",
+          "n": 524
+        },
+        {
+          "name": "Bachelor of Arts (Philosophy)",
+          "n": 215
+        },
+        {
+          "name": "Bachelor of Arts (Politics and International",
+          "n": 339
+        },
+        {
+          "name": "Bachelor of Arts (Psychology)",
+          "n": 859
+        },
+        {
+          "name": "Bachelor of Arts (Screen And Cultural Studies)",
+          "n": 59
+        }
+      ],
+      "indexVariant": "AIOE-2021",
+      "note": "union of 18 \"Bachelor of Arts (…)\" records",
+      "excludedSources": [
+        {
+          "name": "Bachelor of Arts (Ancient World Studies)",
+          "refusedTitles": [
+            "Collections Assistant"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Art History)",
+          "refusedTitles": [
+            "Gallery Attendant",
+            "Researcher",
+            "Art Consultant"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Creative Writing)",
+          "refusedTitles": [
+            "Content Manager"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Criminology)",
+          "refusedTitles": [
+            "Justice Officer",
+            "Senior Intelligence Analyst Team Leader"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (English and Theatre Studies)",
+          "refusedTitles": [
+            "Publishing Assistant"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Indigenous Studies)",
+          "refusedTitles": [
+            "Indigenous Education Officer"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Media and Communications)",
+          "refusedTitles": [
+            "Content Manager"
+          ]
+        },
+        {
+          "name": "Bachelor of Arts (Sociology)",
+          "refusedTitles": [
+            "Youth Advisor"
+          ]
+        }
+      ]
+    }
   },
   "b-bmed": {
     "code": "b-bmed",
     "name": "Bachelor of Biomedicine",
     "hasMarketReport": false,
-    "exposure": null,
-    "entryExposure": null,
-    "jirN": null,
-    "nTitles": null,
-    "nMedium": null
+    "exposure": 82.09,
+    "entryExposure": 79.22,
+    "jirN": 380,
+    "nTitles": 48,
+    "nMedium": 32,
+    "exposureBasis": {
+      "tier": "pooled",
+      "grain": "program-family",
+      "sources": [
+        {
+          "name": "Bachelor of Biomedicine (Human Structure and",
+          "n": 90
+        },
+        {
+          "name": "Bachelor of Biomedicine (Neuroscience)",
+          "n": 113
+        },
+        {
+          "name": "Bachelor of Biomedicine (Pathology)",
+          "n": 57
+        },
+        {
+          "name": "Bachelor of Biomedicine (Pharmacology)",
+          "n": 55
+        },
+        {
+          "name": "Bachelor of Biomedicine (Physiology)",
+          "n": 65
+        }
+      ],
+      "indexVariant": "AIOE-2021",
+      "note": "union of 7 \"Bachelor of Biomedicine (…)\" records",
+      "excludedSources": [
+        {
+          "name": "Bachelor of Biomedicine (Immunology)",
+          "refusedTitles": [
+            "Scientist"
+          ]
+        },
+        {
+          "name": "Bachelor of Biomedicine (Microbiology)",
+          "refusedTitles": [
+            "Regulatory Reporting Analyst"
+          ]
+        }
+      ]
+    }
   },
   "b-com": {
     "code": "b-com",
     "name": "Bachelor of Commerce",
     "hasMarketReport": false,
-    "exposure": null,
-    "entryExposure": null,
-    "jirN": null,
-    "nTitles": null,
-    "nMedium": null
+    "exposure": 97.01,
+    "entryExposure": 96.82,
+    "jirN": 8738,
+    "nTitles": 71,
+    "nMedium": 23,
+    "exposureBasis": {
+      "tier": "pooled",
+      "grain": "program-family",
+      "sources": [
+        {
+          "name": "Bachelor of Commerce (Accounting)",
+          "n": 1693
+        },
+        {
+          "name": "Bachelor of Commerce (Actuarial Studies)",
+          "n": 101
+        },
+        {
+          "name": "Bachelor of Commerce (Economics)",
+          "n": 1549
+        },
+        {
+          "name": "Bachelor of Commerce (Finance)",
+          "n": 3546
+        },
+        {
+          "name": "Bachelor of Commerce (Management)",
+          "n": 928
+        },
+        {
+          "name": "Bachelor of Commerce (Marketing)",
+          "n": 921
+        }
+      ],
+      "indexVariant": "AIOE-2021",
+      "note": "union of 6 \"Bachelor of Commerce (…)\" records"
+    }
   },
   "mc-mgmthre": {
     "code": "mc-mgmthre",
@@ -336,9 +861,903 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
     "entryExposure": 91.75,
     "jirN": 28,
     "nTitles": 15,
-    "nMedium": 3
+    "nMedium": 3,
+    "exposureBasis": {
+      "tier": "exact",
+      "grain": "program",
+      "sources": [
+        {
+          "name": "Master of Management (Human Resources)",
+          "n": 28
+        }
+      ],
+      "indexVariant": "AIOE-2021"
+    }
   }
 };
+
+/** Panel A basis for every program scored on v4, reference cohort included
+ *  (their exposure VALUE still comes from v3Programs.ts; this is the label). */
+export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
+  "038ab": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Art Curatorship",
+        "n": 94
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "080cl": {
+    "tier": "partial",
+    "grain": "related-program",
+    "sources": [
+      {
+        "name": "Master of Applied Psychology",
+        "n": 47
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "Professional psychology stream; same program-family record the reconciliation package used for 527cl."
+  },
+  "080cn": {
+    "tier": "partial",
+    "grain": "related-program",
+    "sources": [
+      {
+        "name": "Master of Applied Psychology",
+        "n": 47
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "Professional psychology stream; same program-family record the reconciliation package used for 527cl."
+  },
+  "097ab": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Development Studies",
+        "n": 104
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "175aa": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Arts and Cultural Management",
+        "n": 98
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "192aa": {
+    "tier": "partial",
+    "grain": "related-program",
+    "sources": [
+      {
+        "name": "Master of Laws",
+        "n": 676
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "International Tax is a Melbourne Law Masters specialisation; the Master of Laws record (n=676) is the program-family record, as the reconciliation package did for specialisation streams."
+  },
+  "195aa": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Construction Law",
+        "n": 88
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "244cw": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Public Health",
+        "n": 562
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "300bb": {
+    "tier": "partial",
+    "grain": "related-program",
+    "sources": [
+      {
+        "name": "Master of Education",
+        "n": 611
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "Professional doctorate in education; Master of Education record as for mc-surged / mc-intedib."
+  },
+  "305bb": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Clinical Audiology",
+        "n": 156
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "342aa": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Psychiatry",
+        "n": 54
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "344ab": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Public Policy and Management",
+        "n": 165
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "439fs": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Food Science",
+        "n": 50
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "502cw": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Laws",
+        "n": 676
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "504aa": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Commercial Law",
+        "n": 63
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "507aa": {
+    "tier": "partial",
+    "grain": "related-program",
+    "sources": [
+      {
+        "name": "Master of Laws",
+        "n": 676
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "Health and Medical Law is a Melbourne Law Masters specialisation; the Master of Laws record (n=676) is the program-family record, as the reconciliation package did for specialisation streams."
+  },
+  "510aa": {
+    "tier": "partial",
+    "grain": "related-program",
+    "sources": [
+      {
+        "name": "Master of Laws",
+        "n": 676
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "Employment and Labour Relations Law is a Melbourne Law Masters specialisation; the Master of Laws record (n=676) is the program-family record, as the reconciliation package did for specialisation streams."
+  },
+  "511aa": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Public And International Law",
+        "n": 39
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "526aa": {
+    "tier": "partial",
+    "grain": "related-program",
+    "sources": [
+      {
+        "name": "Master of Laws",
+        "n": 676
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "Banking and Finance Law is a Melbourne Law Masters specialisation; the Master of Laws record (n=676) is the program-family record, as the reconciliation package did for specialisation streams."
+  },
+  "527cl": {
+    "tier": "partial",
+    "grain": "related-program",
+    "sources": [
+      {
+        "name": "Master of Applied Psychology",
+        "n": 47
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "Clinical Psychology stream; the Applied Psychology record is the program-family record used by the reconciliation package (tier partial)."
+  },
+  "527cn": {
+    "tier": "partial",
+    "grain": "related-program",
+    "sources": [
+      {
+        "name": "Master of Applied Psychology",
+        "n": 47
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "Professional psychology stream; same program-family record the reconciliation package used for 527cl."
+  },
+  "742ab": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Tax",
+        "n": 57
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "746st": {
+    "tier": "partial",
+    "grain": "related-program",
+    "sources": [
+      {
+        "name": "Master of Civil Engineering",
+        "n": 48
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "Engineering Structures is a civil-engineering specialisation; reconciliation package tier partial."
+  },
+  "761em": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Engineering Management",
+        "n": 89
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "841ac": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Bachelor of Oral Health",
+        "n": 61
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "872bb": {
+    "tier": "cognate",
+    "grain": "related-program",
+    "sources": [
+      {
+        "name": "Doctor of Veterinary Medicine",
+        "n": 275
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "Veterinary graduate program; DVM is the discipline-matched record."
+  },
+  "991aa": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 010103 Statistics",
+        "n": null
+      }
+    ],
+    "field": "010103",
+    "indexVariant": "AIOE-2021",
+    "coverage": 39.1,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 94.97
+  },
+  "b-agr": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 050101 Agricultural Science",
+        "n": null
+      }
+    ],
+    "field": "050101",
+    "indexVariant": "AIOE-2021",
+    "coverage": 41.7,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "excludedTitles": [
+      {
+        "title": "Mixed Crop and Livestock Farm Worker",
+        "share": 2.778
+      },
+      {
+        "title": "Farm, Forestry and Garden Workers nec",
+        "share": 2.778
+      }
+    ],
+    "exposureWeighted": 75.38
+  },
+  "b-arts": {
+    "tier": "pooled",
+    "grain": "program-family",
+    "sources": [
+      {
+        "name": "Bachelor of Arts (Anthropology)",
+        "n": 153
+      },
+      {
+        "name": "Bachelor of Arts (Asian Studies)",
+        "n": 43
+      },
+      {
+        "name": "Bachelor of Arts (Economics)",
+        "n": 196
+      },
+      {
+        "name": "Bachelor of Arts (Gender Studies)",
+        "n": 100
+      },
+      {
+        "name": "Bachelor of Arts (Geography)",
+        "n": 108
+      },
+      {
+        "name": "Bachelor of Arts (History)",
+        "n": 524
+      },
+      {
+        "name": "Bachelor of Arts (Philosophy)",
+        "n": 215
+      },
+      {
+        "name": "Bachelor of Arts (Politics and International",
+        "n": 339
+      },
+      {
+        "name": "Bachelor of Arts (Psychology)",
+        "n": 859
+      },
+      {
+        "name": "Bachelor of Arts (Screen And Cultural Studies)",
+        "n": 59
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "union of 18 \"Bachelor of Arts (…)\" records",
+    "excludedSources": [
+      {
+        "name": "Bachelor of Arts (Ancient World Studies)",
+        "refusedTitles": [
+          "Collections Assistant"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Art History)",
+        "refusedTitles": [
+          "Gallery Attendant",
+          "Researcher",
+          "Art Consultant"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Creative Writing)",
+        "refusedTitles": [
+          "Content Manager"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Criminology)",
+        "refusedTitles": [
+          "Justice Officer",
+          "Senior Intelligence Analyst Team Leader"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (English and Theatre Studies)",
+        "refusedTitles": [
+          "Publishing Assistant"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Indigenous Studies)",
+        "refusedTitles": [
+          "Indigenous Education Officer"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Media and Communications)",
+        "refusedTitles": [
+          "Content Manager"
+        ]
+      },
+      {
+        "name": "Bachelor of Arts (Sociology)",
+        "refusedTitles": [
+          "Youth Advisor"
+        ]
+      }
+    ]
+  },
+  "b-bmed": {
+    "tier": "pooled",
+    "grain": "program-family",
+    "sources": [
+      {
+        "name": "Bachelor of Biomedicine (Human Structure and",
+        "n": 90
+      },
+      {
+        "name": "Bachelor of Biomedicine (Neuroscience)",
+        "n": 113
+      },
+      {
+        "name": "Bachelor of Biomedicine (Pathology)",
+        "n": 57
+      },
+      {
+        "name": "Bachelor of Biomedicine (Pharmacology)",
+        "n": 55
+      },
+      {
+        "name": "Bachelor of Biomedicine (Physiology)",
+        "n": 65
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "union of 7 \"Bachelor of Biomedicine (…)\" records",
+    "excludedSources": [
+      {
+        "name": "Bachelor of Biomedicine (Immunology)",
+        "refusedTitles": [
+          "Scientist"
+        ]
+      },
+      {
+        "name": "Bachelor of Biomedicine (Microbiology)",
+        "refusedTitles": [
+          "Regulatory Reporting Analyst"
+        ]
+      }
+    ]
+  },
+  "b-com": {
+    "tier": "pooled",
+    "grain": "program-family",
+    "sources": [
+      {
+        "name": "Bachelor of Commerce (Accounting)",
+        "n": 1693
+      },
+      {
+        "name": "Bachelor of Commerce (Actuarial Studies)",
+        "n": 101
+      },
+      {
+        "name": "Bachelor of Commerce (Economics)",
+        "n": 1549
+      },
+      {
+        "name": "Bachelor of Commerce (Finance)",
+        "n": 3546
+      },
+      {
+        "name": "Bachelor of Commerce (Management)",
+        "n": 928
+      },
+      {
+        "name": "Bachelor of Commerce (Marketing)",
+        "n": 921
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "union of 6 \"Bachelor of Commerce (…)\" records"
+  },
+  "mc-apbusa": {
+    "tier": "partial",
+    "grain": "related-program",
+    "sources": [
+      {
+        "name": "Master of Management",
+        "n": 655
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "Reconciliation package tier partial."
+  },
+  "mc-arch": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Architecture",
+        "n": 621
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "mc-ba": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Business Administration",
+        "n": 422
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "mc-base": {
+    "tier": "partial",
+    "grain": "related-program",
+    "sources": [
+      {
+        "name": "Master of Social Policy",
+        "n": 66
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "Reconciliation package tier partial."
+  },
+  "mc-busana": {
+    "tier": "partial",
+    "grain": "related-program",
+    "sources": [
+      {
+        "name": "Master of Management",
+        "n": 655
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "Reconciliation package tier partial."
+  },
+  "mc-clind": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Doctor of Clinical Dentistry",
+        "n": 40
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "Same course under its former award title; the JIR record is titled Doctor of Clinical Dentistry."
+  },
+  "mc-cs": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Computer Science",
+        "n": 41
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "mc-datasc": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Data Science",
+        "n": 96
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "mc-ddensur": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Doctor of Dental Surgery",
+        "n": 194
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "mc-dmed": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Doctor of Medicine",
+        "n": 762
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "mc-doptom": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Doctor of Optometry",
+        "n": 199
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "mc-dphysio": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Doctor of Physiotherapy",
+        "n": 448
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "mc-dvetmed": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Doctor of Veterinary Medicine",
+        "n": 275
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "mc-ed": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Education",
+        "n": 611
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "mc-envsc": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Environmental Science",
+        "n": 32
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "mc-gencoun": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Genetic Counselling",
+        "n": 35
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "mc-intedib": {
+    "tier": "partial",
+    "grain": "related-program",
+    "sources": [
+      {
+        "name": "Master of Education",
+        "n": 611
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "Reconciliation package tier partial."
+  },
+  "mc-is": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Information Systems",
+        "n": 257
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "mc-journ": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Journalism",
+        "n": 51
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "mc-jurisd": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Juris Doctor",
+        "n": 1277
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "mc-mgmthre": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Management (Human Resources)",
+        "n": 28
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "mc-nursc": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Nursing Science",
+        "n": 129
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "mc-phtyph": {
+    "tier": "cognate",
+    "grain": "related-program",
+    "sources": [
+      {
+        "name": "Doctor of Physiotherapy",
+        "n": 448
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "Reconciliation package tier cognate."
+  },
+  "mc-prop": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Property",
+        "n": 65
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "mc-propsyc": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Professional Psychology,",
+        "n": 66
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "mc-scibit": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Biotechnology",
+        "n": 151
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "mc-sciche": {
+    "tier": "cognate",
+    "grain": "related-program",
+    "sources": [
+      {
+        "name": "Bachelor of Science (Chemistry)",
+        "n": 318
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "Reconciliation package tier cognate (discipline-matched bachelor major)."
+  },
+  "mc-sciear": {
+    "tier": "cognate",
+    "grain": "related-program",
+    "sources": [
+      {
+        "name": "Bachelor of Science (Geology)",
+        "n": 46
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "Reconciliation package tier cognate."
+  },
+  "mc-sciphy": {
+    "tier": "cognate",
+    "grain": "related-program",
+    "sources": [
+      {
+        "name": "Bachelor of Science (Physics)",
+        "n": 189
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "Reconciliation package tier cognate."
+  },
+  "mc-surged": {
+    "tier": "partial",
+    "grain": "related-program",
+    "sources": [
+      {
+        "name": "Master of Education",
+        "n": 611
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "Reconciliation package tier partial."
+  },
+  "mc-tesol": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of TESOL",
+        "n": 26
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "mc-urbdes": {
+    "tier": "partial",
+    "grain": "related-program",
+    "sources": [
+      {
+        "name": "Master of Urban Planning",
+        "n": 130
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "Reconciliation package tier partial."
+  }
+};
+
+export const v4PanelABasisByCode = (code: string): V4PanelABasis | undefined =>
+  V4_PANEL_A_BASIS[code.toLowerCase()];
 
 export const v4OnlyProgramByCode = (code: string): V4OnlyProgram | undefined =>
   V4_ONLY_PROGRAMS[code.toLowerCase()];
@@ -514,6 +1933,288 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "adversarial": true,
       "mechanical": true,
       "date": "2026-08-19"
+    },
+    "instrument": "4.1-draft"
+  },
+  "080cl": {
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2's anchor ('at least one core unit assesses collaborative practice — ... interprofessional activity') is satisfied by the compulsory Ways of Knowing component inside PSYC90125 Core Skills in Psychological Practice, whose interprofessional learning is assessed for marks (25% and 5% written reflections), not merely stated. Level 3 is not reached: it additionally requires at least one assessment that requires coordinating work across people AND tools/AI systems, and no assessment anywhere in the extract allocates or appraises a division of work between people and systems — the extract contains no AI or digital-system content at all. Placement collaboration evidence is excluded here by the one-construct-one-home rule and scores in W3.",
+      "evidenceLines": [
+        "This interprofessional curriculum activity brings together students from a range of disciplines to engage with multiple knowledges and ways of knowing.",
+        "Written reflection on interprofessional learning and culturally safe practices following the interdisciplinary panel discussion component of Ways of Knowing program",
+        "Develop an understanding of 'collaborative practice' in interprofessional contexts",
+        "Teamwork and working with others"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Demoted from 2 to 1 on adversarial verification. Level 2 requires 'core assessment includes criterion-referenced appraisal of quality'. A sweep of every assessment table in the extract (21 subject pages) returns no peer review, no structured critique, no portfolio with standards, and no marking against exemplars — the full inventory is essays, exams, written assignments, case formulations, role plays, presentations and placement hurdles. All four construct-bearing lines cited (PSYC90030's 'Demonstrate mastery of the principal criteria...', 'Apply criteria for evaluation of psychological test reliability and validity...', 'Demonstrate practical implementation a critical understanding...', 'Ability to evaluate the quality of data against formal criteria') sit in the Intended learning outcomes and Generic skills blocks, and PSYC90009's 'Appraisal of their own knowledge of diversity...' is a Skills outcome. The only assessment lines cited are the bare task names 'A written report' (PSYC90030, 40%) and 'An essay' (PSYC90015, 50%), which document nothing about criterion-referenced appraisal — inferring that the report IS the appraisal is exactly the plausibility move R1 forbids ('Score what the handbook documents, never what a graduate plausibly can do'). Level 1's anchor is affirmatively documented instead: reflection and self-assessment appear in outcomes and in the graduate attributes ('Skills in self-assessment, reflective thinking and self-awareness'), but no core unit assesses appraisal of work quality against criteria. Not demoted to 0 because level 1's outcome-presence clause is affirmatively met.",
+      "evidenceLines": [
+        "Demonstrate mastery of the principal criteria practicing psychologists use to evaluate the quality of psychological data, as they relate to the clinical assessment of individuals.",
+        "Apply criteria for evaluation of psychological test reliability and validity to enhance the accuracy of psychological classification decisions.",
+        "Demonstrate practical implementation a critical understanding of the strategies employed in evaluating the validity of psychological opinions.",
+        "Ability to evaluate the quality of data against formal criteria",
+        "A written report",
+        "Critically evaluate theoretical models of adult psychological disorders on the basis of empirical literature.",
+        "An essay",
+        "Appraisal of their own knowledge of diversity and reflect on its impact on their clinical effectiveness."
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 0's declarative anchor ('No digital/AI content in any core unit or program-level outcome') is falsified by exactly one line — a program-level outcome naming e-health as an intervention modality — and the only other technology-adjacent content is training in administering and scoring tests, i.e. tool operation, which the level 1 anchor identifies as the non-durable operational level. Level 2 is not reached anywhere: no core unit is documented as addressing AI capabilities AND limitations or ethics, and no assessment addresses use with limits, so the level 3 governance route (bias, accountability, transparency, regulation, data governance) is absent entirely. The extract contains no occurrence of AI, gen AI, algorithms or data governance in any subject.",
+      "evidenceLines": [
+        "They will consider interventions in a range of modalities, including e-health.",
+        "Students are also required to attend 4.5 hours of training in the administration and scoring of neurocognitive tests."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3's anchor ('the program documents structured progression toward independent learning: a self-scoped capstone or research project, or assessed identification of one's own knowledge gaps together with the plan to close them') is met by an assessed sequence: PSYC90003 Literature Review is documented as enabling students to determine a research question by identifying a gap in the literature and is assessed by a hurdle outline and hurdle literature review, then PSYC90029 assesses an oral presentation and a 3000-word report of the student's own research proposal, which then scopes the PhD. Level 2's weaker route is also independently met (case material supplied for formulation and a video-based case study in an observed examination require application to unfamiliar cases), so the score does not rest on transfer alone. The thesis itself is homed in C5 to avoid double counting, and placement evidence is excluded from C4 by rule.",
+      "evidenceLines": [
+        "This review of the literature will enable them to determine a pertinent research question by identifying a gap in the literature.",
+        "Prepare literature review.",
+        "Develop and complete a research proposal of relevance to a research question in clinical psychology or clinical neuropsychology.",
+        "Report of a research proposal (including brief literature review, rationale, and proposed methodology and analysis)",
+        "Oral Presentation of research proposal",
+        "Development of a clinical case formulation and an ensuing intervention plan, based on case material provided.",
+        "Observed Examination (written) - 1.5 hours which includes watching a video based case study"
+      ]
+    },
+    "C5": {
+      "score": 3,
+      "rationale": "Level 3's anchor is met on both of its clauses with assessment evidence, not outcome statements. The substantial primary-evidence project is required rather than one route among several — the award itself rests on thesis examination, PhD Research is a compulsory enrolment in years two to five, and all subjects are compulsory. Methodology is defended under scrutiny at three documented points: a written thesis proposal defended before a Thesis Advisory Committee for Confirmation (staged supervised review), examination by two external examiners, and an oral deliberation (viva), with annual progress review and a completion seminar in between.",
+      "evidenceLines": [
+        "Award of the PhD degree is based on examination of the thesis and an oral deliberation (viva).",
+        "Probationary candidates are required to submit a written thesis proposal and to successfully defend it before a Thesis Advisory Committee for Confirmation.",
+        "A thesis of no more than 100,000 words must be submitted for examination by two external examiners, one of whom will be overseas.",
+        "All full-time candidates must complete an Annual Progress Review and must meet with the Thesis Advisory Committee to discuss progress at least twice each year (equivalent part-time).",
+        "All candidates must present their findings in a Completion Seminar.",
+        "Candidates undertake a substantial piece of original research and complete a thesis which:"
+      ]
+    },
+    "adaptiveness": 10,
+    "W1": {
+      "score": 3,
+      "rationale": "Level 3's three clauses are each documented in assessment. Repeated and progressive: first-year assessed written clinical case formulation and treatment plan, an assessed oral demonstration of interview technique and mental state examination, then second- and third-year assessed case histories, mental state examinations and case-conference presentation of the student's own clinical work, then the completion seminar. Judged by a real external audience or practitioner: case histories and mental state examinations are graded to a standard determined by the placement supervisor, who must be a registered psychologist and PBA-approved supervisor, and first-year clinical work is with real referred clients. Professional conduct and accountability explicitly among the assessed criteria: the satisfactory-demonstration-of-competencies hurdle informed by the site clinical supervisor, the placement contract, and separately the Ethics and Professional Issues assessments on the APS ethical guidelines and an ethical-dilemma case report. Evidence lines used here are distinct from those used for W3.",
+      "evidenceLines": [
+        "Completion of five case histories to a satisfactory standard, including mental state examination, history, diagnosis, formulation, and where relevant treatment recommendations, as appropriate to the placement context to standard determined by placement supervisor.",
+        "Completion of four mental state examinations to standard determined satisfactory by placement supervisor.",
+        "Attendance at, and participation, at 80% of case conference sessions each semester. Presentation of own clinical work to satisfaction of academic staff.",
+        "External supervisors must be registered psychologists and be a Psychology Board of Australia-approved higher degree supervisor.",
+        "In their first year, all students assess and provide treatment for adult clients referred to the University of Melbourne Psychology Clinic.",
+        "Satisfactory demonstration of competencies, informed by regular discussion between the placement coordinator, site clinical supervisor and other relevant educators, and the student.",
+        "Written clinical case formulation",
+        "A written treatment plan",
+        "Oral presentation - demonstration of basic interview techniques, including Mental State Examination",
+        "A small-group oral presentation focusing on clinical communication skills",
+        "Report addressing case study of ethical dilemma",
+        "Rigorously applying professional practice policies and procedures, including as they relate to referral management and record-keeping;"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Scored on coursework task fidelity only, since workplace immersion is W3's construct and evaluative judgement is C2's. Level 2's anchor is clearly met: core coursework assessments require production of the artefacts a clinical psychologist actually produces — a written clinical case formulation, a written treatment plan, an intervention plan built from supplied case material, and timed individual role plays and practical exercises. Level 3 is not taken: while such tasks recur, the second clause requires at least one carrying a genuine constraint of practice, and the extract documents no coursework task with an ambiguous or externally supplied real problem, real resource limits, a consequential audience, or explicit judgement against the profession's own performance standards — the supplied case material is teaching material and the role-play durations (10 and 15 minutes) are class exercise limits. Ambiguous between 2 and 3, resolved down.",
+      "evidenceLines": [
+        "Case Formulation: Development of a clinical case formulation, based on case material provided.",
+        "Intervention Plan (written): Development of a clinical case formulation and an ensuing intervention plan, based on case material provided.",
+        "Written clinical case formulation",
+        "A written treatment plan",
+        "A written assignment focusing on clinical case formulation and intervention planning",
+        "Individual role plays",
+        "Practical class exercise (role-play)",
+        "A practical exercise",
+        "The subject will include opportunities for students to practise newly acquired skills through role-plays and simulated client interactions during the teaching sessions which are primarily full-day workshops."
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3's placement route is met in full on documented curriculum evidence: the work-situated learning is substantial and required (125 days of placement, 30 in first year and 95 across second and third years, in three compulsory placement subjects at 300 and 350 hours each), it is a sequence in the core rather than a single instance, it is supervised by practitioners (registered psychologists, PBA-approved), it is assessed (attendance hurdles, competency demonstration, placement reviews), accountability to the host is documented (placement contract, fortnightly supervisor-endorsed logbook, mid- and end-placement reviews), and structured reflection is a required assessed component. The in-practice route is not needed and the cohort is not documented as already practising.",
+      "evidenceLines": [
+        "Coursework consists of 18 classroom-based subjects taken over the first three years of this five-year course and 125 days of Placement (30 days in the first-year and 95 days spread over second and third-years).",
+        "In addition, all students undertake two second year field placements- one where the focus is on assessment and treatment of children and/or adolescents and the other focusing on clinical work with adults.",
+        "Attendance at placement on rostered placement days to accrue at least 150 hours direct client activity and a further 200 hours of indirect client related activity, including regular (weekly or equivalent as negotiated with the subject coordinator/clinical supervisor) attendance at supervision.",
+        "Completion of placement contract outlining the details of the learning agreement between student and supervisor.",
+        "Submission of record of placement activities (including direct client hours, other client related activity and supervision hours- aka 'logbook'). Students must provide evidence that logbooks are checked and endorsed by their primary placement supervisor at least every fortnight.",
+        "Completion of mid-placement, and end-placement reviews. Attended by supervisor, student, and placement coordinator.",
+        "Satisfactory completion of placement reflection (300-500 words) to satisfaction of placement coordinator."
+      ]
+    },
+    "workplace": 8,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "PASS on the anchor's 'all-compulsory specialist core' and 'accredited sequence' routes simultaneously: every subject is compulsory, the sequence is externally accredited as the required sequence for registration, and the structure is staged year by year with depth building from introductory assessment and basic interventions to advanced psychopathology, advanced practice and a PhD. Nothing generic or interchangeable.",
+        "evidenceLines": [
+          "All subjects are compulsory.",
+          "Australian Psychology Accreditation Council (APAC), providing the required sequence of subjects for graduates wishing to attain generalist registration as a psychologist in Australia as well as competency in knowledge and skills relevant to the clinical psychology specialisation.",
+          "In order to satisfy the requirements of the combined Master of Psychology (Clinical)/PhD students must complete the following subjects:"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "PASS on the anchor's 'assessments require defended trade-off decisions' route and on the live-project route. Assessed ethical-dilemma resolution, assessed decisions about when a brief intervention suffices and when a more complex one is warranted, assessed risk assessment drawing on multiple sources, and a thesis proposal that must be successfully defended before a committee are all decisions under genuine uncertainty with accountability, not recall or scripted response.",
+        "evidenceLines": [
+          "Report addressing case study of ethical dilemma",
+          "The exploration, clarification and possible resolution of selected ethical dilemmas commonly faced by psychologists will be covered and may include:",
+          "Describe brief interventions that are appropriate to particular clients' needs and determine when more complex interventions are appropriate.",
+          "Conducting assessments of risk, including consideration of information from multiple sources if appropriate;",
+          "Probationary candidates are required to submit a written thesis proposal and to successfully defend it before a Thesis Advisory Committee for Confirmation.",
+          "An ability to confront and manage unfamiliar problems"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C3, levels 0 vs 1: the extract has no AI content anywhere and only one digital reference (e-health named as an intervention modality in a program-level outcome), which strictly falsifies level 0's declarative anchor. Level 1's 'electives' clause is inapplicable because all subjects are compulsory, so the score rests on the tool-operation clause (training in administering and scoring tests). Scored at 1 as the lowest level whose anchor is not falsified; this item is the weakest-evidenced of the eight.",
+      "C2, levels 1 vs 2: resolved at 1 on adversarial verification. The scorer initially read PSYC90030's 'A written report' and PSYC90015's 'An essay' as the vehicles for the criterion language that sits in those subjects' outcomes and generic skills blocks; the verification sweep found no assessment table anywhere in the extract documenting peer review, structured critique, portfolio with standards or marking against exemplars, so R2/R1 force the score to level 1 (reflection and self-assessment documented in outcomes only).",
+      "C2, levels 2 vs 3: the placement outcome about evaluating the effectiveness of one's own practice and implementing changes reads like level 3's strategy-adjustment route, but it is a learning outcome rather than a named assessment task, so R2 forced the score down. Moot after the demotion to 1.",
+      "W1 vs W3 (one construct, one home): the three clinical placement subjects carry evidence for both items. It was split by construct — professional-genre artefacts judged by a practitioner (case histories, mental state examinations, case-conference presentation of own clinical work) scored in W1, which its construct names; the immersion evidence (125 days, hours, supervision, contract, logbook, reviews, reflection) scored in W3. No evidence line is used in both items.",
+      "W1, levels 2 vs 3: the 'professional conduct or accountability explicitly among the assessed criteria' clause is carried by the placement competencies hurdle and placement contract plus, separately, the Ethics and Professional Issues assessments, rather than by a single named criterion attached to one task. Scored 3 because both clauses are documented within the same core placement assessment table, but the conduct criterion is inferred from the competency framing rather than itemised.",
+      "W2, levels 2 vs 3: case-based professional tasks do recur across years one to three, satisfying level 3's 'assessment spine' clause, but no coursework task is documented as carrying a genuine constraint of practice (the cases are supplied teaching material, the audience is the marker, and the time limits are class-exercise durations). Ambiguity resolved down to 2. Had placement immersion been scoreable here it would have been 3, but that evidence belongs to W3.",
+      "C4 vs C5: the PhD thesis could have satisfied C4 level 3's 'self-scoped research project' route as well as C5. It was homed in C5, whose construct names primary evidence generation and methodology defence; C4 was scored on the distinct assessed Literature Review and research-proposal sequence."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-23"
+    },
+    "instrument": "4.1-draft"
+  },
+  "080cn": {
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2's anchor — 'At least one core unit assesses collaborative practice — group projects with individual accountability, client or stakeholder work, interprofessional activity' — is met by assessed interprofessional work in two compulsory subjects: a marked group oral presentation in PSYC90033 that explicitly requires positioning neuropsychology against other disciplines, and a 25%-weighted assessment on the interdisciplinary Ways of Knowing activity in PSYC90125. Level 3 is not reached: it additionally requires 'at least one assessment requires coordinating work across people AND tools/AI systems', and no assessment anywhere in the extract allocates or appraises a division of work between people and tools or systems — the extract contains no gen-AI or tool-coordination assessment at all. Per the v4.1 migration note the placement evidence is held in W3 and is not counted here.",
+      "evidenceLines": [
+        "A 20 minute group oral presentation on a neuropsychological rehabilitation plan, including recognition of the role of neuropsychology versus other disciplines",
+        "Written reflection on interprofessional learning and culturally safe practices following the interdisciplinary panel discussion component of Ways of Knowing program",
+        "Develop an understanding of 'collaborative practice' in interprofessional contexts",
+        "Formulate culturally relevant, patient-centred SMART (Specific, Measurable, Attainable, Relevant, Timely) goals for neuropsychological rehabilitation in conjunction with the patient, their family, and the broader rehabilitation team"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Demoted from 2 to 1 on adversarial verification. The level-2 anchor requires core ASSESSMENT with criterion-referenced appraisal of quality. PSYC90030's assessment table lists only 'A written report' (40%) and 'A written examination' (60%) — all four of its quoted evaluation-against-criteria phrases ('Demonstrate mastery of the principal criteria practicing psychologists use to evaluate the quality of psychological data', 'Apply criteria for evaluation of psychological test reliability and validity', 'Ability to evaluate the quality of data against formal criteria') are intended learning outcomes or generic-skills bullets, which R2 caps at 1. The fallback, PSYC90003's 'Prepare literature review.' (2000 words, 0%, hurdle), names no criteria, no standards, no exemplars and no peer review; its critical-appraisal character is imported from the ILO 'Demonstrate the ability to critically evaluate the existing literature', again an outcome statement. The only documented 'portfolio with standards' in the program — the case book completed to the guidelines of the College of Clinical Neuropsychologists — is housed in W2 under one-construct-one-home, and cannot be excluded from C2 while still sustaining C2 at level 2. What remains is exactly level 1: appraisal appears throughout the outcomes, but no core unit assesses it against criteria. The scoring-direction rule (resolve ambiguity to the LOWER level) forces this down.",
+      "evidenceLines": [
+        "Demonstrate mastery of the principal criteria practicing psychologists use to evaluate the quality of psychological data, as they relate to the clinical assessment of individuals.",
+        "Apply criteria for evaluation of psychological test reliability and validity to enhance the accuracy of psychological classification decisions.",
+        "Ability to evaluate the quality of data against formal criteria",
+        "Demonstrate the ability to critically evaluate the existing literature relevant to their research project.",
+        "Prepare literature review.",
+        "Evaluate the effectiveness of their professional practice (in conjunction with clinical supervisors), identifying areas for improvement and implementing changes where needed."
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1's anchor — digital tools appearing 'as tool operation/training — the operational level TEQSA identifies as non-durable' — is the highest level the extract supports. Digital content is present but wholly operational or instrumental: virtual brain dissection and 'interactive virtual technologies' as a delivery modality, and neuroimaging as something to recognise findings on or to appraise as a research method. Level 0 ('No digital/AI content in any core unit or program-level outcome') was considered and rejected because that content does exist. Level 2 requires core units to address 'AI capabilities AND limitations/ethics' and level 3 requires assessed critique or governance of AI systems; a full-text search of the extract returns no occurrence of AI, artificial intelligence, generative tools, algorithms or data governance anywhere, so neither is available.",
+      "evidenceLines": [
+        "Learning by multiple converging modalities, through conventional texts, photographic records, interactive virtual technologies",
+        "The content will be delivered through 12 lectures, accompanied by virtual brain dissection.",
+        "Recognise manifestations of developmental and acquired disorders on structural and functional neuroimaging;",
+        "Identify the strengths and weakness of cognitive neuroscience methods, including MRI, EEG and TMS, to be a better consumer of clinical research where such methods are applied;"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3's anchor — 'The program documents structured progression toward independent learning: a self-scoped capstone or research project, or assessed identification of one's own knowledge gaps together with the plan to close them' — is documented as a staged coursework sequence, not merely asserted: PSYC90003 assesses the student in locating a gap in the literature and converting it into their own research question, and PSYC90029 assesses the resulting self-scoped research proposal twice (20-minute oral, 40%; 3000-word report, 60%), feeding PSYC80004 whose stated purpose is the capacity to carry out independent research. Level 2's floor is independently met by case-based assessments applied to externally supplied, previously unseen case material. Placement evidence is excluded from this item by the v4.1 migration rule and scores in W3 instead; the thesis examination and viva are held in C5 so no evidence is counted twice.",
+      "evidenceLines": [
+        "This review of the literature will enable them to determine a pertinent research question by identifying a gap in the literature.",
+        "Develop and complete a research proposal of relevance to a research question in clinical psychology or clinical neuropsychology.",
+        "Report of a research proposal (including brief literature review, rationale, and proposed methodology and analysis)",
+        "Students will acquire the capacity to carry out independent research, and will demonstrate the ability to make an original contribution to knowledge in the discipline of psychology.",
+        "Case Formulation: Development of a clinical case formulation, based on case material provided."
+      ]
+    },
+    "C5": {
+      "score": 3,
+      "rationale": "Level 3's anchor — 'A substantial project generating primary evidence is REQUIRED (not one route among several), with methodology defended under scrutiny (viva, defence, or staged supervised review)' — is met on both limbs by assessment evidence rather than outcome statements. The thesis is the sole basis of the award, not an optional route, and the scrutiny is triple: a written proposal defended before a Thesis Advisory Committee at Confirmation, examination by two external examiners one of whom is overseas, and an oral deliberation (viva), with a Completion Seminar in addition. This is the level-3 requirement satisfied literally rather than by inference.",
+      "evidenceLines": [
+        "Probationary candidates are required to submit a written thesis proposal and to successfully defend it before a Thesis Advisory Committee for Confirmation.",
+        "Award of the PhD degree is based on examination of the thesis and an oral deliberation (viva).",
+        "A thesis of no more than 100,000 words must be submitted for examination by two external examiners, one of whom will be overseas.",
+        "All candidates must present their findings in a Completion Seminar."
+      ]
+    },
+    "adaptiveness": 10,
+    "W1": {
+      "score": 3,
+      "rationale": "Level 3's anchor has two limbs and both are documented. 'Professional communication is assessed repeatedly and progressively across the program' — marked oral and professional-genre assessment recurs in every coursework year (year 1: PSYC90125 oral demonstration of interviewing and Mental State Examination, 30%; PSYC90082 formal psychological report writing; year 2 onward: weekly case-conference presentations as a hurdle; year 3: PSYC90042 individual oral presentation with question time, 50%). 'At least one core assessment is delivered to, or judged by, a real external audience or practitioner ... with professional conduct or accountability explicitly among the assessed criteria' — the placement hurdle has written summaries of all assessments and interventions judged by field supervisors against requirements approved by the Professional Programs Committee, and professional conduct is explicitly in scope through the assessed requirement to apply professional practice policies including referral management and record-keeping. The course-level outcome about reporting to referral sources is listed for context only; per R2 and Barrie it carries no weight on its own.",
+      "evidenceLines": [
+        "Oral presentation - demonstration of basic interview techniques, including Mental State Examination",
+        "Communicate findings in oral and written formats, including formal psychological reports, using culturally appropriate language.",
+        "Individual oral presentation with interactive question time",
+        "Hurdle requirement: Attendance at a minimum of 80% of university-based case conferences, and presentation of at least 3 cases to the satisfaction of attending teaching staff",
+        "Hurdle requirement: Performance on placement to the satisfaction of field supervisors and the Convenor of Clinical Neuropsychology, formally evaluated against requirements specified approved by the Professional Programs Committee of the School of Psychological Science, a completed logbook of daily placement activities, and written summaries of all assessments/interventions conducted",
+        "Rigorously apply professional practice policies and procedures, including as they relate to referral management and record-keeping, across a range of workplace settings and with recognition of different organisational and cultural practices;",
+        "Graduates will be able to employ advanced communication skills in reporting to and consulting with referral sources."
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3's anchor — 'Such tasks are the program's assessment spine rather than a single instance (a capstone plus earlier scaffolding, or at least one per stage) AND at least one carries a genuine constraint of practice' — is met on documented task features, not on any 'authentic' label (R4). The artefact a practising clinical neuropsychologist produces is what is marked at every stage: written clinical case formulation and written treatment plan in year 1 (50%/50%, both hurdles), diagnostic work-up of a case study in year 1 (30%), a rehabilitation report and plan in year 2 (60%/40%), and case formulation plus intervention plan in year 3 (40%/60%). The genuine constraint of practice is the profession's own standard of performance: the case book must be completed to the guidelines of the College of Clinical Neuropsychologists, and PSYC90033 places students in front of patients and families. Level 1 is excluded because the artefacts and criteria are practitioner ones, not academic ones.",
+      "evidenceLines": [
+        "Written clinical case formulation",
+        "A written treatment plan",
+        "Written report - diagnostic work up of case study",
+        "Intervention Plan (written): Development of a clinical case formulation and an ensuing intervention plan, based on case material provided.",
+        "Hurdle requirement: Completion of a case book according to the guidelines of the College of Clinical Neuropsychologists of the Australian Psychological Society",
+        "During the semester students may be required to make observations regarding a patient's recovery, practice how to design and implement an intervention, or provide psychoeducation and feedback to patients and families, as they explore the various roles of clinical neuropsychologists in rehabilitation settings."
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Level 3's anchor — 'Substantial required work-situated learning: an extended placement or practicum, or a sequence of them, in the core, supervised by a practitioner, assessed, with accountability to the host and structured reflection on professional practice' — is met on every clause via the placement route (the in-practice route added in v4.2 is not needed and not used, as this is a pre-registration cohort). Sequence and extent: a 43-day placement in year 1 followed by two 48-day external field placements of 24 weeks each, against an accreditation floor of 1000 placement hours. Practitioner supervision: all principal field supervisors are AHPRA-registered and College Members. Assessed with accountability to the host: university and field supervisors conjointly determine the pass, and log books must be endorsed every 30 hours or fortnightly. Structured reflection on practice: satisfactory completion is demonstrated through active discussion of individually observed cases with supervisors. Simulation evidence has been held in W2 as the construct requires.",
+      "evidenceLines": [
+        "This field placement and clinical skills subject, extending over forty-three days, introduces students to clinical neuropsychology services in a variety of settings",
+        "A 48 day external field placement concentrating on neuropsychological services in adult neurology/neurosurgery and adult psychiatry. Placement in each setting will extend over 12 weeks. Students will be expected to commit 2 days per week for a total of 24 weeks.",
+        "It is a requirement of the Australian Accreditation Council and the Australian Psychological Society College of Clinical Neuropsychologists that students complete a minimum of 1000 hours of placement training during the two-year Master of Psychology (Clinical Neuropsychology) course.",
+        "All principal field supervisors are registered supervisors with AHPRA, and Members (or eligible for Membership) of the College of Clinical Neuropsychologists of the Australian Psychological Society.",
+        "University and field supervisors will conjointly determine whether the student has passed the placements.",
+        "Hurdle requirement: Students must provide evidence that log books are checked and endorsed every 30 hours of placement or fortnightly, whichever occurs first.",
+        "Hurdle requirement: Satisfactory completion of placement activities is demonstrated through active participation in group discussions of case presentations and active discussion of individually observed cases with supervisors"
+      ]
+    },
+    "workplace": 9,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The G1 PASS condition — 'a coherent specialist core with progressive technical or methodological depth: an all-compulsory specialist core, an accredited sequence, or a staged prerequisite chain' — is satisfied on all three routes at once. The handbook states outright that all subjects are compulsory; the sequence is the one APAC accredits for registration; and the 13 classroom-based subjects are staged across the first three years with placements escalating from observational in year 1 to supervised independent in years 2 and 3. Nothing in the extract is generic or interchangeable — every core subject is neuropsychology-specific or its methodological support.",
+        "evidenceLines": [
+          "The course is comprised of coursework subjects, practical experience through clinical placements and a major research thesis in an area relevant to clinical neuropsychology. All subjects are compulsory.",
+          "providing the required sequence of subjects for graduates wishing to attain generalist registration as a psychologist in Australia",
+          "Accredited by the Australian Psychology Accreditation Council (APAC) and recognised by the Australian Health Practitioner Regulation Agency (AHPRA)",
+          "Coursework consists of 13 classroom-based subjects taken over the first three years of this four-year course (see below).",
+          "In their first year, all students undertake a number of coursework subjects and attend observational placements in a range of healthcare settings."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "The G2 PASS condition — 'Assessments require defended trade-off decisions, or simulations/capstones/live projects with real uncertainty and accountability' — is met rather than the FAIL condition of 'recall or scripted responses only'. Assessed work requires students to justify a chosen therapeutic approach among alternatives, to resolve an ethical dilemma in a marked report, and to confront and manage unfamiliar problems in live clinical settings across varied services. Exams and quizzes exist in the core but are not the whole assessment picture.",
+        "evidenceLines": [
+          "Justify their formulation of and therapeutic approach to a patient's proposed neuropsychological rehabilitation program taking into account appropriate cultural factors",
+          "Report addressing case study of ethical dilemma",
+          "to develop a capacity to work collaboratively, to confront and manage unfamiliar problems",
+          "Students undertake clinical placements in a wide variety of services that cover acute care neurology and neurosurgery, psychiatry, geriatrics, rehabilitation, and paediatrics."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C2 straddled 1 and 2 and was resolved DOWN to 1 on adversarial verification: the assessment tables for PSYC90030 name only 'A written report' and 'A written examination' without stating that criterion-referenced appraisal is what is marked, and PSYC90003's 'Prepare literature review.' hurdle names no criteria, standards, exemplars or peer review — its critical-appraisal character comes from an intended learning outcome, which R2 caps at 1.",
+      "C2 straddled 2 and 3: 'Evaluate the effectiveness of their professional practice (in conjunction with clinical supervisors), identifying areas for improvement and implementing changes where needed' would be the level-3 'strategy adjustment over time' route. R2 and the prompt's rule that a level-3 score requires quoting the assessment task resolved it downward — the line is an intended learning outcome of PSYC90079, and the placement's own hurdle text never names self-evaluation as an assessed product.",
+      "C3 straddled 0 and 1. Level 0 was considered because the program has no digital-literacy curriculum in any recognisable sense; it was rejected because level 0 asserts no digital content exists at all, and virtual brain dissection, 'interactive virtual technologies' and assessed neuroimaging interpretation falsify that. The item therefore sits at 1 with nothing above it available.",
+      "One construct, one home — placement evidence was split by line so that nothing scores twice. The immersion facts (day counts, 1000-hour accreditation floor, AHPRA-registered supervisors, conjoint pass determination, logbook endorsement, discussion of observed cases with supervisors) score in W3. The professional-communication facts inside the same subjects (the hurdle covering written summaries of all assessments and interventions judged by field supervisors, and the case-conference presentation hurdle) score in W1, whose construct names communication to audiences beyond the teaching team and assessed accountability. The case book against College of Clinical Neuropsychologists guidelines scores in W2 as the profession's own standard of performance, not in C2 as a 'portfolio with standards' and not in W3.",
+      "W2's 'genuine constraint of practice' had two candidate routes. The patient-facing route in PSYC90033 is hedged in the handbook ('students may be required to make observations regarding a patient's recovery'), so the score does not rest on it; it rests on the unhedged case-book hurdle, which is a quotable assessment requirement judged against the profession's published guidelines.",
+      "C4 and C5 both had a claim on the doctoral research. The thesis examination, viva, external examiners and Confirmation defence score in C5, whose construct names methodology defended under scrutiny. C4 is scored on the distinct assessed coursework progression toward independent learning (PSYC90003 gap identification, PSYC90029 research proposal, PSYC80004's stated independent-research purpose).",
+      "The award is a combined coursework masters and research doctorate (AQF level 10, 'Doctorate by Research', five years), so the coursework-program framing of several anchors sits awkwardly on it; the two sub-scales were nonetheless scored from documented curriculum evidence only, with no adjustment for award type."
+    ],
+    "notScoreable": [
+      "C3's AI half has no evidence in the extract at all: a full-text search returns no occurrence of 'AI', 'artificial intelligence', 'generative', 'algorithm', 'machine learning', 'software' or 'data governance' anywhere in the course pages or the 14 subject and assessment pages. The score of 1 therefore rests entirely on the digital-tool half of the item; the AI-literacy and AI-governance dimensions are not scoreable from this evidence rather than scored as absent-and-therefore-low."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-23"
     },
     "instrument": "4.1-draft"
   },
@@ -1107,6 +2808,166 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "mechanical": true,
       "date": "2026-08-14"
     }
+  },
+  "300bb": {
+    "C1": {
+      "score": 0,
+      "rationale": "Level 0's anchor — 'No collaborative, stakeholder or team-based work is assessed anywhere in the core' — is affirmatively satisfied. The extract carries the complete assessment set for all four compulsory subjects plus the thesis, and every task is an individually authored artefact (problem statement, position paper, literature review, essay, proposal, plan, thesis) or an individual oral defence. Level 1 is not reached either: no course or subject learning outcome and no generic-skills entry names collaboration, teamwork or stakeholder work. The only recurring second party is the candidate's own supervisor, and supervision of an individual research candidature is not collaborative practice under the construct (coordination across people AND tools/AI systems); no tool or AI system is coordinated anywhere.",
+      "evidenceLines": [
+        "Doctor of Education candidates must complete the following four doctoral-level subjects (each 25 points):",
+        "Graduate research candidates undertaking the Doctor of Education degree will undertake an independent research investigation.",
+        "Research problem statement",
+        "Position paper about research approach",
+        "Limited literature review",
+        "Final essay",
+        "Detailed research proposal",
+        "Critical reasoning and thinking",
+        "Problem solving",
+        "Communication",
+        "Evidence based decision making",
+        "Creativity and innovation",
+        "Project management",
+        "Self-reflection, career awareness and lifelong learning",
+        "Ethical skills"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2's anchor — 'Core assessment includes criterion-referenced appraisal of quality: peer review, structured critique, portfolio with standards, marking against exemplars' — is met by structured critique of the quality of scholarly work in two compulsory subjects: EDUC90867 assesses identification and synthesis of research findings 'of a high quality' and defence of gaps via the Expanded Literature review (60%), and EDUC90868 assesses critique of the strengths and weaknesses of major methodologies via the Final essay (60%). Level 3 is not reached: the anchor requires students to document and justify reliance decisions, defend judgements of AI-output quality, or evidence strategy adjustment over time. The 'Brief report on supervisor feedback on oral defense' is a process-focused hurdle and is the nearest candidate, but the handbook documents only that the report must be submitted — it does not document that students must justify what they accepted, overrode, or changed as a result. Resolved down per the ambiguity rule.",
+      "evidenceLines": [
+        "Identify, analyse and synthesise published research findings that are of a high quality and relevant to addressing their research problem.",
+        "Critically analyse and evaluate existing theories, knowledge, ideas and methods associated with their research problem.",
+        "Identify and defend research gaps within the literature to formulate feasible research questions.",
+        "Expanded Literature review",
+        "Critique the strengths and weaknesses of the major methodologies currently used in the field of educational research.",
+        "Final essay",
+        "Brief report on supervisor feedback on oral defense",
+        "Hurdle requirement: The report on supervisor feedback must be submitted.",
+        "independently and systematically engage in critical reflection, synthesis and evaluation;"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1's anchor — digital tools appearing 'as tool operation/training — the operational level TEQSA identifies as non-durable' — is exactly what the single piece of digital content in the extract is: practical classes on literature search strategies and the effective use of reference management systems and tools, inside compulsory EDUC90867. Level 0 is contradicted because that content does exist in a core unit. Level 2 is not reached: no core unit addresses AI capabilities AND limitations/ethics — the extract contains no mention of artificial intelligence, generative AI, digital literacy or data governance anywhere, and the assessed output of EDUC90867 is the literature review itself, not any appraisal of the tools. The ethics content that does appear ('research ethics and integrity') is research-integrity ethics, not tool or AI ethics, so it cannot lift this item.",
+      "evidenceLines": [
+        "This subject will include practical classes on specific literature search strategies and the effective use of reference management systems and tools as well as classes focusing on the composition and writing of literature reviews.",
+        "Expanded Literature review",
+        "Demonstrate an understanding of, and commitment to research ethics and integrity."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3's anchor — 'The program documents structured progression toward independent learning: a self-scoped capstone or research project' — is met literally and with assessment evidence as R2 requires. The four compulsory subjects form a documented staged progression (framing and justifying one's own research problem, then methodology, then literature, then proposal) toward an independent, self-scoped 55,000-word thesis, and each stage is assessed by weighted artefacts scoped to the candidate's own study: Research problem statement (10%) and Research Plan (60%), Detailed research proposal (70%), Thesis (100%). The progression is gated, not nominal: an H2A average including an H2A in the proposal subject is required to proceed to the thesis. This is scored on the transfer/self-directed-learning route only; the work-integrated route left C4 in v4.1 and is scored in W3.",
+      "evidenceLines": [
+        "In consultation with their supervisors, and starting from their own initial research proposals, Doctor of Education candidates will work toward developing a better understanding of the framing, focus and scope adequate for their own research studies.",
+        "Research problem statement",
+        "Research Plan",
+        "Detailed research proposal",
+        "Graduate research candidates undertaking the Doctor of Education degree will undertake an independent research investigation.",
+        "The second stage of the program consists of a 55,000 word thesis.",
+        "Doctor of Education candidates must gain at least an H2A average in the coursework component, including at least an H2A result in the Doctor of Education Thesis Proposal subject (EDUC90869), to proceed to the thesis.",
+        "Full time Doctor of Education candidates complete their coursework component in their first year, part time Doctor of Education candidates over their first and second years."
+      ]
+    },
+    "C5": {
+      "score": 3,
+      "rationale": "Level 3's anchor — 'A substantial project generating primary evidence is REQUIRED (not one route among several), with methodology defended under scrutiny (viva, defence, or staged supervised review)' — is satisfied on both limbs. The 55,000-word thesis is the sole route to the award and requires designing and executing an original study, not secondary synthesis. Methodology is defended under scrutiny repeatedly and at every stage: an assessed 30-minute oral presentation and defence of the methodological approach (30%), an assessed oral defence of the thesis outline/plan (30%), a required public Completion Seminar before the Advisory Committee, external examination of the thesis, and an oral deliberation (viva) as a condition of the award. The creative/non-traditional route does not weaken this — it must still be justified methodologically at preconfirmation and confirmation.",
+      "evidenceLines": [
+        "Award of the degree is based on completion of the coursework, examination of the thesis and an oral deliberation (viva).",
+        "Design and execute a rigorous, systematic, and defensible research study that makes a significant contribution to new knowledge in the educational research field, demonstrating originality of approach and/or interpretation of the findings, and in some cases, the discovery of new facts.",
+        "Defend why a specific research method is appropriate for answering a specific research question.",
+        "Oral presentation and defense of methodological approach (30 minutes)",
+        "Oral presentation and defense of thesis outline/plan (30 minutes)",
+        "Doctor of Education candidates will be examined on the basis of their thesis which is examined externally. The thesis should normally be 55,000 words, excluding tables, illustrations and bibliography.",
+        "In the six months prior to submission of their thesis, Doctor of Education candidates must present their research findings at a public Completion Seminar attended by their Advisory Committee.",
+        "Inclusion of non-traditional research outputs and creative works need to be justified methodologically in the thesis and at the preconfirmation and confirmation meetings."
+      ]
+    },
+    "adaptiveness": 9,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1's anchor — 'core assessment adds presentation to peers/staff, but no professional genre and no audience beyond the teaching team' — is what the extract documents. Spoken communication is genuinely assessed (three separate weighted oral presentations and defences at 30% each), which rules out level 0. Level 2 requires a recognised professional genre or an audience beyond the teaching team, judged against criteria drawn from professional practice. The assessed oral defences are supervised events whose documented audience is the supervisor (the feedback-report hurdle attaches to each), and every assessed artefact is an academic genre — problem statement, literature review, essay, proposal, thesis. Dissemination 'in the professional arena' and to 'professional audiences' appears only in intended learning outcomes and generic skills, which R2 and Barrie forbid scoring. Resolved down per the ambiguity rule; the competing readings are recorded.",
+      "evidenceLines": [
+        "Oral presentation and defence of literature review",
+        "Oral presentation on and defence of research questions",
+        "Oral presentation and defense of methodological approach (30 minutes)",
+        "Brief report on supervisor feedback on oral defense",
+        "disseminate research findings effectively in the professional arena and in an international context;",
+        "Defend and disseminate the research findings to the international academic community as well as professional audiences.",
+        "Communication",
+        "In the six months prior to submission of their thesis, Doctor of Education candidates must present their research findings at a public Completion Seminar attended by their Advisory Committee."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2's anchor — 'At least one core assessment reproduces a professional task end to end: a real or realistic problem, producing the artefact a practitioner would produce, judged against criteria drawn from practice' — is met for this discipline's criterion situation, which for a research doctorate is the conduct and external examination of an original study. The problem is real rather than set: EDUC90870 assesses articulation of a problem that has arisen in the candidate's work environment (Research problem statement 10%, Research Plan 60%), and the course is documented as enabling research of direct relevance to the candidate's professional role. The end-to-end artefact is the thesis, examined externally against the discipline's own standards. Level 3 is not reached on the evidence available to this item: its second limb requires a genuine constraint of practice, and the strongest such constraint here — external examination and the viva — is homed in C5 under the one-construct-one-home rule, leaving no separately documented constraint (no externally supplied problem, no consequential audience, no documented practice criteria for the coursework artefacts). Scored on documented task features only, per R4.",
+      "evidenceLines": [
+        "Identify and clearly articulate a relevant problem that has arisen in the work environment that requires new knowledge through a rigorous and sustained research study that will make a significant impact on policy and/or practice.",
+        "Research problem statement",
+        "Research Plan",
+        "The Doctor of Education is a research doctorate for experienced professionals with educational responsibilities. Carefully designed to build the knowledge and skills necessary for research at the doctoral level through a tailored coursework program, the course enables experienced educators to design and carry out research projects that have direct relevance to their professional role.",
+        "independently and systematically develop, adapt and implement research methodologies to extend and redefine existing professional practice;",
+        "Detailed research proposal",
+        "The second stage of the program consists of a 55,000 word thesis."
+      ]
+    },
+    "W3": {
+      "score": 0,
+      "rationale": "Level 0's anchor — 'No work-integrated learning, placement, practicum or community-based project appears anywhere in the course structure' — is affirmatively satisfied. The documented structure is 100 points of compulsory coursework, delivered online, plus a time-based thesis; the words placement, practicum, internship and work-integrated learning do not occur anywhere in the extract, so level 1 (WSL as an elective, optional internship or unassessed activity) is not reached either. The v4.2 in-practice route was tested and fails on its own terms: the cohort is documented as already practising ('experienced professionals with educational responsibilities'), but no core unit is documented as assessing activity conducted in the student's own professional practice with real recipients and a documented outcome measure. What the handbook documents is research whose topic is drawn from the work environment and is relevant to the professional role — that is the framing of the task, which scores in W2, not participation in the workplace, which is what this item names.",
+      "evidenceLines": [
+        "The first part of the Doctor of Education consists of 100 points of coursework.",
+        "Semester 1 (Extended) - Online",
+        "Semester 2 (Extended) - Online",
+        "The second stage of the program consists of a 55,000 word thesis.",
+        "Time-based Research (On Campus - Parkville)",
+        "The Doctor of Education is a research doctorate for experienced professionals with educational responsibilities. Carefully designed to build the knowledge and skills necessary for research at the doctoral level through a tailored coursework program, the course enables experienced educators to design and carry out research projects that have direct relevance to their professional role.",
+        "Identify and clearly articulate a relevant problem that has arisen in the work environment that requires new knowledge through a rigorous and sustained research study that will make a significant impact on policy and/or practice."
+      ]
+    },
+    "workplace": 3,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "PASS on the 'all-compulsory specialist core' and 'staged prerequisite chain' conditions together. All four doctoral-level subjects are compulsory with no elective substitution, they are sequenced (foundations and methodology in semester 1, literature review in semester 2, proposal immediately before the thesis), and progression is gated on attainment rather than mere completion — an H2A average including an H2A in the proposal subject is required to proceed. Depth is methodological and progressive, culminating in an externally examined thesis. This is disciplinary identity in educational research, not generic or interchangeable content.",
+        "evidenceLines": [
+          "Doctor of Education candidates must complete four compulsory subjects (each 25 points; see below). One of these, the Doctor of Education Thesis Proposal subject (EDUC90869), must be taken in the semester immediately prior to the commencement of the thesis (i.e. in semester 2 (full-time enrolment) or in semester 4 (part-time enrolment)).",
+          "Doctor of Education candidates must gain at least an H2A average in the coursework component, including at least an H2A result in the Doctor of Education Thesis Proposal subject (EDUC90869), to proceed to the thesis.",
+          "This subject aims to build the methodological literacy of Doctor of Education candidates to a level that is adequate to the doctoral level of study.",
+          "Demonstrate mastery of a substantial body of specialised knowledge at the frontier of a field of research in education.",
+          "Award of the degree is based on completion of the coursework, examination of the thesis and an oral deliberation (viva)."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "PASS: assessment requires defended trade-off decisions under real uncertainty, not recall or scripted responses. EDUC90868 assesses defence of why a specific method is appropriate for a specific question and critique of competing methodologies (Oral presentation and defense of methodological approach, 30%; Final essay, 60%); EDUC90867 assesses defence of research gaps to formulate feasible questions; EDUC90869 assesses definition and defence of a viable topic and research design (Oral presentation and defense of thesis outline/plan, 30%; Detailed research proposal, 70%). The thesis itself carries genuine uncertainty and full accountability, examined externally with a viva.",
+        "evidenceLines": [
+          "Defend why a specific research method is appropriate for answering a specific research question.",
+          "Critique the strengths and weaknesses of the major methodologies currently used in the field of educational research.",
+          "Define and defend a viable topic, research problem and research questions for their doctoral research project.",
+          "Define and defend an appropriate research design and methodology for investigating the topic through a comprehensive doctoral study.",
+          "Oral presentation and defense of thesis outline/plan (30 minutes)",
+          "Demonstrate an understanding of, and commitment to research ethics and integrity with full accountability for personal research outputs.",
+          "Award of the degree is based on completion of the coursework, examination of the thesis and an oral deliberation (viva)."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C2 (2 vs 3): the 'Brief report on supervisor feedback on oral defense' hurdle, repeated in three of the four core subjects, is process-focused assessment and could evidence strategy adjustment over time (level 3), but the handbook documents only that it must be submitted — no requirement to justify what advice was accepted or overridden. Resolved DOWN to 2 by the never-resolve-upward rule.",
+      "C3 (0 vs 1): the extract contains no AI or digital-literacy content at all; the only digital element is training in 'reference management systems and tools'. Level 0 ('no digital/AI content') is contradicted by that clause, and level 1 names tool operation/training exactly, so 1 stands — but the item rests on a single clause.",
+      "W1 (1 vs 2): the required public Completion Seminar is an audience beyond the teaching team, and the optional creative route may take the form of a public exhibition. Neither is documented as core assessment judged against criteria drawn from professional practice (the seminar carries no weighting; the exhibition route is optional and conditional on faculty resourcing, and the thesis assessment is 100% thesis). Resolved DOWN to 1.",
+      "W1 (1 vs 2, second route): 'disseminate research findings effectively in the professional arena', 'Defend and disseminate the research findings ... to professional audiences' and the generic skill 'Communication' are outcome and graduate-attribute statements only. R2 and Barrie (2006, 2007) bar them from lifting the score, so they were excluded rather than treated as ambiguous.",
+      "W2 (2 vs 3): the staged artefacts (problem statement, research plan, literature review, proposal, thesis) do read as an assessment spine with a capstone plus earlier scaffolding, which is level 3's first limb. Level 3's second limb (a genuine constraint of practice) would have been carried by external examination and the viva, but that evidence is homed in C5 under the one-construct-one-home rule and cannot be counted twice. Resolved DOWN to 2.",
+      "W2 vs W3: the work-environment framing of the research problem straddles the two items. Scored in W2 (fidelity of the task) because W3 names participation in a workplace or professional community, which the extract does not document.",
+      "W3 (0 vs 2, in-practice route): the cohort is documented as already practising ('experienced professionals with educational responsibilities'), which opens the v4.2 own-practice route, but no core unit is documented as assessing activity conducted in the student's own practice with real recipients and a documented outcome measure — the research site is never specified. Resolved DOWN to 0, since no elective or optional work-situated activity appears either.",
+      "C4 vs C5: the thesis serves both the self-scoped-progression anchor (C4 level 3) and the primary-evidence anchor (C5 level 3). These are different documented features of the same programme element — the staged, gated progression toward independence versus the generation and external defence of primary evidence — so each item cites the feature its construct names; the viva is cited only in C5."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-23"
+    },
+    "instrument": "4.1-draft"
   },
   "305bb": {
     "instrument": "4.2-draft",

@@ -208,8 +208,11 @@ import r201 from "./reportContent/dfva-recommend-me-dcd";
 import r202 from "./reportContent/dfva-v4-244cw";
 import r203 from "./reportContent/dfva-v4-mc-cs";
 import r204 from "./reportContent/dfva-v4-mc-mgmthre";
-import r205 from "./reportContent/dfva-v4-recommend-244cw";
-import r206 from "./reportContent/dfva-v4-recommend-mc-mgmthre";
+import r205 from "./reportContent/dfva-v4-recommend-080cl";
+import r206 from "./reportContent/dfva-v4-recommend-080cn";
+import r207 from "./reportContent/dfva-v4-recommend-244cw";
+import r208 from "./reportContent/dfva-v4-recommend-300bb";
+import r209 from "./reportContent/dfva-v4-recommend-mc-mgmthre";
 
 export const REPORT_CONTENT: Record<
   string,
@@ -420,6 +423,9 @@ export const REPORT_CONTENT: Record<
   "dfva-v4-244cw": r202,
   "dfva-v4-mc-cs": r203,
   "dfva-v4-mc-mgmthre": r204,
-  "dfva-v4-recommend-244cw": r205,
-  "dfva-v4-recommend-mc-mgmthre": r206,
+  "dfva-v4-recommend-080cl": r205,
+  "dfva-v4-recommend-080cn": r206,
+  "dfva-v4-recommend-244cw": r207,
+  "dfva-v4-recommend-300bb": r208,
+  "dfva-v4-recommend-mc-mgmthre": r209,
 };

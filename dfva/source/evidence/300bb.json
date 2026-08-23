@@ -3,7 +3,7 @@
   "programSlug": "dfva-300bb",
   "byDimension": {
     "D1": {
-      "rationale": "Not a conventional \"entry-level role\" question \u2014 candidates are already senior practitioners returning to or advancing within leadership/policy roles. Scored on the exposure of the *tasks* graduates perform post-completion (advisory, leadership, applied research), which skew toward judgment/accountability, but the program's admission pathway assumes rather than builds this durability, so it is not maximal.",
+      "rationale": "Not a conventional \"entry-level role\" question — candidates are already senior practitioners returning to or advancing within leadership/policy roles. Scored on the exposure of the *tasks* graduates perform post-completion (advisory, leadership, applied research), which skew toward judgment/accountability, but the program's admission pathway assumes rather than builds this durability, so it is not maximal.",
       "recommendations": []
     },
     "D2": {
@@ -29,7 +29,7 @@
       ]
     },
     "D3": {
-      "rationale": "Handbook text gives no evidence of a strong technical/methods core; \"tailored coursework program\" is generic. Professional doctorates in education have historically been critiqued for thin quantitative rigour relative to PhDs \u2014 scored conservatively pending stronger evidence.",
+      "rationale": "Handbook text gives no evidence of a strong technical/methods core; \"tailored coursework program\" is generic. Professional doctorates in education have historically been critiqued for thin quantitative rigour relative to PhDs — scored conservatively pending stronger evidence.",
       "recommendations": [
         {
           "action": "Strengthen the quantitative/methods core in the coursework component with applied educational data analytics (learning analytics, outcome evaluation design)",
@@ -42,7 +42,7 @@
       ]
     },
     "D4": {
-      "rationale": "The thesis is by definition a live, real-stakes research project in the candidate's own professional setting \u2014 high-uncertainty, real accountability \u2014 but this is thesis-level, not embedded in graded coursework assessment design as described.",
+      "rationale": "The thesis is by definition a live, real-stakes research project in the candidate's own professional setting — high-uncertainty, real accountability — but this is thesis-level, not embedded in graded coursework assessment design as described.",
       "recommendations": [
         {
           "action": "Create a structured \"problem of practice to policy brief\" capstone that explicitly teaches AI-augmented research workflows alongside irreducibly human judgment tasks",
@@ -78,11 +78,11 @@
       ]
     },
     "D6": {
-      "rationale": "Clear specialist focus (education leadership/policy/practice) and candidates already carry deep domain expertise from their professional role \u2014 but the *program* itself doesn't obviously deepen technical/scientific specialisation beyond what candidates bring in.",
+      "rationale": "Clear specialist focus (education leadership/policy/practice) and candidates already carry deep domain expertise from their professional role — but the *program* itself doesn't obviously deepen technical/scientific specialisation beyond what candidates bring in.",
       "recommendations": []
     },
     "D7": {
-      "rationale": "Candidates generate primary data via their own applied research project directly relevant to practice \u2014 genuine primary research, defended at thesis examination \u2014 but the \"tailored coursework\" framing suggests less methods rigour than a full PhD, so not maximal.",
+      "rationale": "Candidates generate primary data via their own applied research project directly relevant to practice — genuine primary research, defended at thesis examination — but the \"tailored coursework\" framing suggests less methods rigour than a full PhD, so not maximal.",
       "recommendations": [
         {
           "action": "Require candidates to demonstrate responsible use of AI tools within their own applied research (disclosure, critique, validation) as part of thesis methodology",
@@ -96,11 +96,11 @@
       ]
     },
     "D8": {
-      "rationale": "Educational leadership, policy influence, and applied practice research are irreducibly relational and accountable \u2014 this is core to the entire professional identity the degree serves, not an add-on.",
+      "rationale": "Educational leadership, policy influence, and applied practice research are irreducibly relational and accountable — this is core to the entire professional identity the degree serves, not an add-on.",
       "recommendations": []
     },
     "D9": {
-      "rationale": "No evidence of recent review cycle, advisory-board feedback loop, or AI-related curriculum currency in the handbook text \u2014 scored low pending evidence, consistent with the \"no AI coverage\" finding in D5.",
+      "rationale": "No evidence of recent review cycle, advisory-board feedback loop, or AI-related curriculum currency in the handbook text — scored low pending evidence, consistent with the \"no AI coverage\" finding in D5.",
       "recommendations": [
         {
           "action": "Establish an industry/sector advisory board (principals' associations, department of education) with a documented 2-year curriculum review cycle",
@@ -126,8 +126,167 @@
       ]
     },
     "B": {
-      "rationale": "Rare integration of (a) deep pre-existing domain/professional expertise, (b) doctoral-level research capability, and (c) the trust/accountability of a senior practitioner already embedded in the system \u2014 genuinely hard to substitute with AI or any credential short of this one.",
+      "rationale": "Rare integration of (a) deep pre-existing domain/professional expertise, (b) doctoral-level research capability, and (c) the trust/accountability of a senior practitioner already embedded in the system — genuinely hard to substitute with AI or any credential short of this one.",
       "recommendations": []
+    }
+  },
+  "panelCv4": {
+    "C1": {
+      "score": 0,
+      "rationale": "Level 0's anchor — 'No collaborative, stakeholder or team-based work is assessed anywhere in the core' — is affirmatively satisfied. The extract carries the complete assessment set for all four compulsory subjects plus the thesis, and every task is an individually authored artefact (problem statement, position paper, literature review, essay, proposal, plan, thesis) or an individual oral defence. Level 1 is not reached either: no course or subject learning outcome and no generic-skills entry names collaboration, teamwork or stakeholder work. The only recurring second party is the candidate's own supervisor, and supervision of an individual research candidature is not collaborative practice under the construct (coordination across people AND tools/AI systems); no tool or AI system is coordinated anywhere.",
+      "evidenceLines": [
+        "Doctor of Education candidates must complete the following four doctoral-level subjects (each 25 points):",
+        "Graduate research candidates undertaking the Doctor of Education degree will undertake an independent research investigation.",
+        "Research problem statement",
+        "Position paper about research approach",
+        "Limited literature review",
+        "Final essay",
+        "Detailed research proposal",
+        "Critical reasoning and thinking",
+        "Problem solving",
+        "Communication",
+        "Evidence based decision making",
+        "Creativity and innovation",
+        "Project management",
+        "Self-reflection, career awareness and lifelong learning",
+        "Ethical skills"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2's anchor — 'Core assessment includes criterion-referenced appraisal of quality: peer review, structured critique, portfolio with standards, marking against exemplars' — is met by structured critique of the quality of scholarly work in two compulsory subjects: EDUC90867 assesses identification and synthesis of research findings 'of a high quality' and defence of gaps via the Expanded Literature review (60%), and EDUC90868 assesses critique of the strengths and weaknesses of major methodologies via the Final essay (60%). Level 3 is not reached: the anchor requires students to document and justify reliance decisions, defend judgements of AI-output quality, or evidence strategy adjustment over time. The 'Brief report on supervisor feedback on oral defense' is a process-focused hurdle and is the nearest candidate, but the handbook documents only that the report must be submitted — it does not document that students must justify what they accepted, overrode, or changed as a result. Resolved down per the ambiguity rule.",
+      "evidenceLines": [
+        "Identify, analyse and synthesise published research findings that are of a high quality and relevant to addressing their research problem.",
+        "Critically analyse and evaluate existing theories, knowledge, ideas and methods associated with their research problem.",
+        "Identify and defend research gaps within the literature to formulate feasible research questions.",
+        "Expanded Literature review",
+        "Critique the strengths and weaknesses of the major methodologies currently used in the field of educational research.",
+        "Final essay",
+        "Brief report on supervisor feedback on oral defense",
+        "Hurdle requirement: The report on supervisor feedback must be submitted.",
+        "independently and systematically engage in critical reflection, synthesis and evaluation;"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1's anchor — digital tools appearing 'as tool operation/training — the operational level TEQSA identifies as non-durable' — is exactly what the single piece of digital content in the extract is: practical classes on literature search strategies and the effective use of reference management systems and tools, inside compulsory EDUC90867. Level 0 is contradicted because that content does exist in a core unit. Level 2 is not reached: no core unit addresses AI capabilities AND limitations/ethics — the extract contains no mention of artificial intelligence, generative AI, digital literacy or data governance anywhere, and the assessed output of EDUC90867 is the literature review itself, not any appraisal of the tools. The ethics content that does appear ('research ethics and integrity') is research-integrity ethics, not tool or AI ethics, so it cannot lift this item.",
+      "evidenceLines": [
+        "This subject will include practical classes on specific literature search strategies and the effective use of reference management systems and tools as well as classes focusing on the composition and writing of literature reviews.",
+        "Expanded Literature review",
+        "Demonstrate an understanding of, and commitment to research ethics and integrity."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3's anchor — 'The program documents structured progression toward independent learning: a self-scoped capstone or research project' — is met literally and with assessment evidence as R2 requires. The four compulsory subjects form a documented staged progression (framing and justifying one's own research problem, then methodology, then literature, then proposal) toward an independent, self-scoped 55,000-word thesis, and each stage is assessed by weighted artefacts scoped to the candidate's own study: Research problem statement (10%) and Research Plan (60%), Detailed research proposal (70%), Thesis (100%). The progression is gated, not nominal: an H2A average including an H2A in the proposal subject is required to proceed to the thesis. This is scored on the transfer/self-directed-learning route only; the work-integrated route left C4 in v4.1 and is scored in W3.",
+      "evidenceLines": [
+        "In consultation with their supervisors, and starting from their own initial research proposals, Doctor of Education candidates will work toward developing a better understanding of the framing, focus and scope adequate for their own research studies.",
+        "Research problem statement",
+        "Research Plan",
+        "Detailed research proposal",
+        "Graduate research candidates undertaking the Doctor of Education degree will undertake an independent research investigation.",
+        "The second stage of the program consists of a 55,000 word thesis.",
+        "Doctor of Education candidates must gain at least an H2A average in the coursework component, including at least an H2A result in the Doctor of Education Thesis Proposal subject (EDUC90869), to proceed to the thesis.",
+        "Full time Doctor of Education candidates complete their coursework component in their first year, part time Doctor of Education candidates over their first and second years."
+      ]
+    },
+    "C5": {
+      "score": 3,
+      "rationale": "Level 3's anchor — 'A substantial project generating primary evidence is REQUIRED (not one route among several), with methodology defended under scrutiny (viva, defence, or staged supervised review)' — is satisfied on both limbs. The 55,000-word thesis is the sole route to the award and requires designing and executing an original study, not secondary synthesis. Methodology is defended under scrutiny repeatedly and at every stage: an assessed 30-minute oral presentation and defence of the methodological approach (30%), an assessed oral defence of the thesis outline/plan (30%), a required public Completion Seminar before the Advisory Committee, external examination of the thesis, and an oral deliberation (viva) as a condition of the award. The creative/non-traditional route does not weaken this — it must still be justified methodologically at preconfirmation and confirmation.",
+      "evidenceLines": [
+        "Award of the degree is based on completion of the coursework, examination of the thesis and an oral deliberation (viva).",
+        "Design and execute a rigorous, systematic, and defensible research study that makes a significant contribution to new knowledge in the educational research field, demonstrating originality of approach and/or interpretation of the findings, and in some cases, the discovery of new facts.",
+        "Defend why a specific research method is appropriate for answering a specific research question.",
+        "Oral presentation and defense of methodological approach (30 minutes)",
+        "Oral presentation and defense of thesis outline/plan (30 minutes)",
+        "Doctor of Education candidates will be examined on the basis of their thesis which is examined externally. The thesis should normally be 55,000 words, excluding tables, illustrations and bibliography.",
+        "In the six months prior to submission of their thesis, Doctor of Education candidates must present their research findings at a public Completion Seminar attended by their Advisory Committee.",
+        "Inclusion of non-traditional research outputs and creative works need to be justified methodologically in the thesis and at the preconfirmation and confirmation meetings."
+      ]
+    },
+    "adaptiveness": 9,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1's anchor — 'core assessment adds presentation to peers/staff, but no professional genre and no audience beyond the teaching team' — is what the extract documents. Spoken communication is genuinely assessed (three separate weighted oral presentations and defences at 30% each), which rules out level 0. Level 2 requires a recognised professional genre or an audience beyond the teaching team, judged against criteria drawn from professional practice. The assessed oral defences are supervised events whose documented audience is the supervisor (the feedback-report hurdle attaches to each), and every assessed artefact is an academic genre — problem statement, literature review, essay, proposal, thesis. Dissemination 'in the professional arena' and to 'professional audiences' appears only in intended learning outcomes and generic skills, which R2 and Barrie forbid scoring. Resolved down per the ambiguity rule; the competing readings are recorded.",
+      "evidenceLines": [
+        "Oral presentation and defence of literature review",
+        "Oral presentation on and defence of research questions",
+        "Oral presentation and defense of methodological approach (30 minutes)",
+        "Brief report on supervisor feedback on oral defense",
+        "disseminate research findings effectively in the professional arena and in an international context;",
+        "Defend and disseminate the research findings to the international academic community as well as professional audiences.",
+        "Communication",
+        "In the six months prior to submission of their thesis, Doctor of Education candidates must present their research findings at a public Completion Seminar attended by their Advisory Committee."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2's anchor — 'At least one core assessment reproduces a professional task end to end: a real or realistic problem, producing the artefact a practitioner would produce, judged against criteria drawn from practice' — is met for this discipline's criterion situation, which for a research doctorate is the conduct and external examination of an original study. The problem is real rather than set: EDUC90870 assesses articulation of a problem that has arisen in the candidate's work environment (Research problem statement 10%, Research Plan 60%), and the course is documented as enabling research of direct relevance to the candidate's professional role. The end-to-end artefact is the thesis, examined externally against the discipline's own standards. Level 3 is not reached on the evidence available to this item: its second limb requires a genuine constraint of practice, and the strongest such constraint here — external examination and the viva — is homed in C5 under the one-construct-one-home rule, leaving no separately documented constraint (no externally supplied problem, no consequential audience, no documented practice criteria for the coursework artefacts). Scored on documented task features only, per R4.",
+      "evidenceLines": [
+        "Identify and clearly articulate a relevant problem that has arisen in the work environment that requires new knowledge through a rigorous and sustained research study that will make a significant impact on policy and/or practice.",
+        "Research problem statement",
+        "Research Plan",
+        "The Doctor of Education is a research doctorate for experienced professionals with educational responsibilities. Carefully designed to build the knowledge and skills necessary for research at the doctoral level through a tailored coursework program, the course enables experienced educators to design and carry out research projects that have direct relevance to their professional role.",
+        "independently and systematically develop, adapt and implement research methodologies to extend and redefine existing professional practice;",
+        "Detailed research proposal",
+        "The second stage of the program consists of a 55,000 word thesis."
+      ]
+    },
+    "W3": {
+      "score": 0,
+      "rationale": "Level 0's anchor — 'No work-integrated learning, placement, practicum or community-based project appears anywhere in the course structure' — is affirmatively satisfied. The documented structure is 100 points of compulsory coursework, delivered online, plus a time-based thesis; the words placement, practicum, internship and work-integrated learning do not occur anywhere in the extract, so level 1 (WSL as an elective, optional internship or unassessed activity) is not reached either. The v4.2 in-practice route was tested and fails on its own terms: the cohort is documented as already practising ('experienced professionals with educational responsibilities'), but no core unit is documented as assessing activity conducted in the student's own professional practice with real recipients and a documented outcome measure. What the handbook documents is research whose topic is drawn from the work environment and is relevant to the professional role — that is the framing of the task, which scores in W2, not participation in the workplace, which is what this item names.",
+      "evidenceLines": [
+        "The first part of the Doctor of Education consists of 100 points of coursework.",
+        "Semester 1 (Extended) - Online",
+        "Semester 2 (Extended) - Online",
+        "The second stage of the program consists of a 55,000 word thesis.",
+        "Time-based Research (On Campus - Parkville)",
+        "The Doctor of Education is a research doctorate for experienced professionals with educational responsibilities. Carefully designed to build the knowledge and skills necessary for research at the doctoral level through a tailored coursework program, the course enables experienced educators to design and carry out research projects that have direct relevance to their professional role.",
+        "Identify and clearly articulate a relevant problem that has arisen in the work environment that requires new knowledge through a rigorous and sustained research study that will make a significant impact on policy and/or practice."
+      ]
+    },
+    "workplace": 3,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "PASS on the 'all-compulsory specialist core' and 'staged prerequisite chain' conditions together. All four doctoral-level subjects are compulsory with no elective substitution, they are sequenced (foundations and methodology in semester 1, literature review in semester 2, proposal immediately before the thesis), and progression is gated on attainment rather than mere completion — an H2A average including an H2A in the proposal subject is required to proceed. Depth is methodological and progressive, culminating in an externally examined thesis. This is disciplinary identity in educational research, not generic or interchangeable content.",
+        "evidenceLines": [
+          "Doctor of Education candidates must complete four compulsory subjects (each 25 points; see below). One of these, the Doctor of Education Thesis Proposal subject (EDUC90869), must be taken in the semester immediately prior to the commencement of the thesis (i.e. in semester 2 (full-time enrolment) or in semester 4 (part-time enrolment)).",
+          "Doctor of Education candidates must gain at least an H2A average in the coursework component, including at least an H2A result in the Doctor of Education Thesis Proposal subject (EDUC90869), to proceed to the thesis.",
+          "This subject aims to build the methodological literacy of Doctor of Education candidates to a level that is adequate to the doctoral level of study.",
+          "Demonstrate mastery of a substantial body of specialised knowledge at the frontier of a field of research in education.",
+          "Award of the degree is based on completion of the coursework, examination of the thesis and an oral deliberation (viva)."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "PASS: assessment requires defended trade-off decisions under real uncertainty, not recall or scripted responses. EDUC90868 assesses defence of why a specific method is appropriate for a specific question and critique of competing methodologies (Oral presentation and defense of methodological approach, 30%; Final essay, 60%); EDUC90867 assesses defence of research gaps to formulate feasible questions; EDUC90869 assesses definition and defence of a viable topic and research design (Oral presentation and defense of thesis outline/plan, 30%; Detailed research proposal, 70%). The thesis itself carries genuine uncertainty and full accountability, examined externally with a viva.",
+        "evidenceLines": [
+          "Defend why a specific research method is appropriate for answering a specific research question.",
+          "Critique the strengths and weaknesses of the major methodologies currently used in the field of educational research.",
+          "Define and defend a viable topic, research problem and research questions for their doctoral research project.",
+          "Define and defend an appropriate research design and methodology for investigating the topic through a comprehensive doctoral study.",
+          "Oral presentation and defense of thesis outline/plan (30 minutes)",
+          "Demonstrate an understanding of, and commitment to research ethics and integrity with full accountability for personal research outputs.",
+          "Award of the degree is based on completion of the coursework, examination of the thesis and an oral deliberation (viva)."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C2 (2 vs 3): the 'Brief report on supervisor feedback on oral defense' hurdle, repeated in three of the four core subjects, is process-focused assessment and could evidence strategy adjustment over time (level 3), but the handbook documents only that it must be submitted — no requirement to justify what advice was accepted or overridden. Resolved DOWN to 2 by the never-resolve-upward rule.",
+      "C3 (0 vs 1): the extract contains no AI or digital-literacy content at all; the only digital element is training in 'reference management systems and tools'. Level 0 ('no digital/AI content') is contradicted by that clause, and level 1 names tool operation/training exactly, so 1 stands — but the item rests on a single clause.",
+      "W1 (1 vs 2): the required public Completion Seminar is an audience beyond the teaching team, and the optional creative route may take the form of a public exhibition. Neither is documented as core assessment judged against criteria drawn from professional practice (the seminar carries no weighting; the exhibition route is optional and conditional on faculty resourcing, and the thesis assessment is 100% thesis). Resolved DOWN to 1.",
+      "W1 (1 vs 2, second route): 'disseminate research findings effectively in the professional arena', 'Defend and disseminate the research findings ... to professional audiences' and the generic skill 'Communication' are outcome and graduate-attribute statements only. R2 and Barrie (2006, 2007) bar them from lifting the score, so they were excluded rather than treated as ambiguous.",
+      "W2 (2 vs 3): the staged artefacts (problem statement, research plan, literature review, proposal, thesis) do read as an assessment spine with a capstone plus earlier scaffolding, which is level 3's first limb. Level 3's second limb (a genuine constraint of practice) would have been carried by external examination and the viva, but that evidence is homed in C5 under the one-construct-one-home rule and cannot be counted twice. Resolved DOWN to 2.",
+      "W2 vs W3: the work-environment framing of the research problem straddles the two items. Scored in W2 (fidelity of the task) because W3 names participation in a workplace or professional community, which the extract does not document.",
+      "W3 (0 vs 2, in-practice route): the cohort is documented as already practising ('experienced professionals with educational responsibilities'), which opens the v4.2 own-practice route, but no core unit is documented as assessing activity conducted in the student's own practice with real recipients and a documented outcome measure — the research site is never specified. Resolved DOWN to 0, since no elective or optional work-situated activity appears either.",
+      "C4 vs C5: the thesis serves both the self-scoped-progression anchor (C4 level 3) and the primary-evidence anchor (C5 level 3). These are different documented features of the same programme element — the staged, gated progression toward independence versus the generation and external defence of primary evidence — so each item cites the feature its construct names; the viva is cited only in C5."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-23"
     }
   }
 }
