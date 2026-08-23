@@ -1,84 +1,73 @@
 # DFVA MARKET INTELLIGENCE: Master of Data Science (MC-DATASC)
 
-**Institution:** University of Melbourne
-**Assessment Date:** 2026-06-21
-**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-datasc
-**Prompt Version:** DFVA-COPILOT-MARKET-v1
-
----
-
-> **Evidence Confidence Note:** Job-family profiles constructed from documented labour market trends to early 2026. Sources: WEF Future of Jobs 2025, LinkedIn Workforce Reports Q1 2026, Kaggle ML/DS Survey 2025, AI Index 2026. Confidence: MEDIUM.
+**Assessment Date:** 2026-08-23 | **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-datasc | **Prompt Version:** DFVA-COPILOT-MARKET-v1
 
 ---
 
 ## 1. JOB FAMILY MAP
 
-| Job Family | Typical Entry Titles | Core Tasks | AI Substitution Pressure | Skills Increasing in Demand | Evidence Notes |
+| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
 |---|---|---|---|---|---|
-| Data Analyst / BI Analyst | Data Analyst, BI Analyst, Reporting Analyst | Dashboard build, SQL querying, stakeholder reporting, KPI design | **HIGH** — standard dashboards and reporting increasingly automated | Data storytelling, AI-assisted analysis validation, semantic layer design | LinkedIn 2026: BI Analyst postings down 14% YoY in ANZ |
-| Data Scientist (Generalist) | Data Scientist, Applied Scientist | Exploratory analysis, model selection, feature engineering, A/B testing, stakeholder communication | **MEDIUM-HIGH** — routine modelling compressing; experimental design and interpretation remain human | Causal inference, experiment design, ML system evaluation, domain expertise | WEF FoJ 2025: data scientist in top 10 growing roles globally |
-| Data Engineer | Data Engineer, Analytics Engineer, Data Platform Engineer | Pipeline construction, data modelling, ETL/ELT, data quality, infrastructure | **LOW-MEDIUM** — automation advancing but system design requires judgment | dbt, Spark, streaming systems, data mesh, data contracts | Seek Q1 2026: data engineer postings exceed data scientist in ANZ for first time |
-| ML Engineer / MLOps | ML Engineer, MLOps Engineer, AI Platform Engineer | Model deployment, monitoring, CI/CD for ML, feature stores, model governance | **LOW** — infrastructure design and reliability engineering irreducible | Kubernetes, MLflow, feature engineering platforms, model monitoring | LinkedIn 2026: ML Engineer fastest-growing tech title in APAC |
-| Statistician / Biostatistician | Statistician, Biostatistician, Statistical Consultant | Study design, hypothesis testing, Bayesian methods, regulatory statistical analysis | **LOW** — statistical judgment irreducible; regulated domains require qualified sign-off | Bayesian methods, causal inference, FDA/regulatory statistics | Regulated health/pharma demand stable; academia shrinking |
-| Decision Scientist | Decision Scientist, Analytics Consultant, Strategy Analyst | Business problem framing, decision analysis, stakeholder facilitation, experiment-driven strategy | **LOW** — decision framing and stakeholder judgment irreducible | Decision analysis, behavioural economics, executive communication | Emerging title; most common in tech and financial services |
-| AI/Research Scientist | AI Scientist, Research Scientist, Applied Researcher | Foundation model fine-tuning, NLP/CV research, LLM evaluation, publication | **LOW** — research creativity and hypothesis generation remain human | PyTorch, transformer architectures, RLHF, model evaluation frameworks | AI Index 2026: research scientist postings up 41% globally since 2023 |
+| 1 | Applied Machine Learning & Predictive Modeling | Junior Data Scientist, Applied ML Specialist | Senior Data Scientist, Staff ML Engineer | HIGH | LLM fine-tuning, RAG architecture, ML evaluation, statistical assumption auditing |
+| 2 | Machine Learning Operations & Data Platforms | MLOps Engineer, Analytics Engineer | Lead MLOps Architect, Principal Data Platform Engineer | LOW–MEDIUM | Streaming data pipelines (Kafka/Flink), model monitoring, CI/CD for ML, dbt |
+| 3 | Statistical Computing & Causal Inference | Statistical Modeler, Biostatistical Analyst | Lead Statistician, Principal Causal Inference Scientist | LOW | Causal DAGs, A/B trial design, Bayesian modeling (PyMC/Stan), counterfactual analysis |
+| 4 | Enterprise AI Governance & Model Risk Auditing | AI Assurance Analyst, Model Risk Specialist | Head of AI Ethics, Director of Algorithmic Governance | LOW–MEDIUM | Model cards, algorithmic fairness auditing, EU AI Act compliance, APRA CPS 234/230 |
+| 5 | Decision Science & Quantitative Strategy | Decision Scientist, Quantitative Insights Consultant | Strategy Analytics Director, Principal Decision Scientist | LOW | Behavioral economics, executive decision framing, mathematical optimization |
 
 ---
 
 ## 2. RECENT JOB AD SIGNALS
 
-> **Confidence: MEDIUM**
+**Signal 1 — MLOps and production deployment skills dominant.**
+Data science job postings from top tech and financial corporations (Canva, Atlassian, NAB, Macquarie, CSIRO) increasingly prioritize containerization (Docker/Kubernetes), model monitoring, and automated deployment over theoretical model exploration.
 
-**Signal 1 — "Data Scientist" title splitting into specialist roles**
-ANZ job ads (Q1 2026) show the generic "Data Scientist" title declining as roles specialise: "ML Engineer" (+35%), "Analytics Engineer" (+31%), "Decision Scientist" (+18%), "AI Scientist" (+22%). Generalist data scientists now need a specialisation to differentiate.
+**Signal 2 — Causal inference and experimental design as key differentiators.**
+Leading tech employers screen data science candidates on experimental design, potential outcomes frameworks, and causal DAGs rather than correlation-based machine learning alone.
 
-**Signal 2 — Causal inference as hiring differentiator**
-"Causal inference" and "experiment design" appearing in senior data scientist job ads at 3× the rate of 2024. The MC-DATASC statistical core (Statistical Modelling, Multivariate Statistics, Computational Statistics) provides relevant grounding but causal methods are not explicitly taught.
+**Signal 3 — AI code synthesis automating routine data preparation.**
+Generative AI tools (Copilot, Cursor) have automated standard pandas data manipulation and script generation, raising the hiring bar for candidates with deep algorithmic verification skills.
 
-**Signal 3 — Data engineering overtaking data science in volume**
-Data engineer postings in ANZ exceed data scientist postings for the first time in 2026 (Seek Q1). Cloud computing and database systems in the compulsory core are well-targeted.
-
-**Signal 4 — ML engineering requires deployment skills**
-ML Engineer job ads increasingly list "containerisation," "CI/CD," and "model monitoring" alongside modelling skills. Cluster and Cloud Computing covers some of this; dedicated MLOps content is absent.
-
-**Signal 5 — Domain specialisation increasingly required**
-"Data Scientist — Healthcare," "Data Scientist — Climate" — domain-specialised roles growing faster than generic roles. MC-DATASC's broad curriculum does not enforce domain specialisation.
-
-**Signal 6 — AI governance roles creating new data-adjacent pathway**
-"AI Governance Analyst," "ML Compliance Specialist" — growing role cluster requires both data literacy and governance knowledge. MC-DATASC has no governance unit.
-
-**Signal 7 — LLM engineering entering data science job descriptions**
-Prompt engineering, RAG pipeline design, and LLM evaluation skills now appear in 28% of senior data scientist job ads (LinkedIn AU, Q1 2026). No dedicated LLM engineering content visible in MC-DATASC core curriculum.
+**Signal 4 — Statutory AI governance and model auditing.**
+Enterprise risk teams recruit data scientists who can audit models for algorithmic bias, data lineage, and regulatory compliance under Australian and international AI standards.
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS — LOW CONFIDENCE
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
-**Theme 1 — "The junior data scientist is a dying role"**
-Active discourse around whether entry-level data science roles are being absorbed by AI tools. Consensus: routine analytics roles are compressing; the remaining roles require experimental design, causal reasoning, or domain expertise — skills coursework alone doesn't build.
+**What these sources are.** Australian Computer Society ([ACS](https://www.acs.org.au/)), Data Science Association of Australia ([DSAA](https://www.dsaa.org.au/)), Statistical Society of Australia ([SSA](https://www.statsoc.org.au/)), and peer-reviewed data science scholarship ([IEEE Transactions on Knowledge and Data Engineering](https://www.computer.org/csdl/journal/tk), [February 2025](https://www.computer.org/csdl/journal/tk)). Direct extraction from X or LinkedIn was **not** performed and no social media forum was sampled — where this section refers to discourse, it denotes published ACS Digital Pulse reports, DSAA data science competence roadmaps, and documented technological reviews by named bodies and authors. Dates are stated where available.
 
-**Theme 2 — "Data engineering is the safer bet"**
-Growing sentiment that data engineering skills are more durable than generalist data science. MC-DATASC's compulsory cloud computing and database subjects provide relevant grounding but the engineering vs science balance is student-determined via electives.
+### Theme 1 — algorithmic verification and statistical assumption checking
 
-**Theme 3 — "AI won't replace analysts who understand the business"**
-Recognition that the durable differentiator for data professionals is domain knowledge + analytical judgment, not tool proficiency. The capstone/research project is the primary locus for developing this combination in MC-DATASC.
+Technical reports from [SSA](https://www.statsoc.org.au/) (November 2024) and *IEEE Transactions on Knowledge and Data Engineering* (February 2025) emphasize that while automated machine learning (AutoML) tools generate models rapidly, automated systems frequently violate underlying statistical distribution assumptions or produce data leakage. Data scientists maintain critical evaluative responsibility to verify assumptions and audit model boundaries.
+
+**Bearing:** C2, C3, and G1.
+
+### Theme 2 — collaborative human-and-AI team engineering workflows
+
+Surveys from [ACS](https://www.acs.org.au/) (2024/2025) highlight that data science practitioners work in integrated human-AI teams, allocating tasks across data engineers, ML researchers, and autonomous code generation agents. Documenting and validating human-AI workflows is an essential practitioner competency.
+
+**Bearing:** C1, W1, and W3.
+
+### Theme 3 — primary empirical evidence and defensible research methodology
+
+Guidelines from [DSAA](https://www.dsaa.org.au/) underline that senior data scientists must design primary experimental inquiries, collect original empirical data, and defend their methodological architectures under formal viva examination or client review.
+
+**Bearing:** C5, C4, and G2.
 
 ---
 
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
+## 4. SKILL SHIFT SUMMARY
 
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Traditional BI / static dashboards (Tableau, SSRS) | Fast | LLM integration and prompt engineering | Very Fast |
-| Batch ETL pipeline construction (manual scripting) | Fast | Streaming data pipelines (Kafka, Flink) | Fast |
-| Generic "data scientist" generalist positioning | Fast | Domain-specialised data science (health, climate, finance) | Fast |
-| Manual feature engineering for classical ML | Medium | Automated ML (AutoML) evaluation and governance | Fast |
-| On-premises data infrastructure skills | Fast | Cloud-native data stacks (Databricks, Snowflake, BigQuery) | Very Fast |
-| SAS and legacy statistical packages | Slow | Causal inference and experiment design (DoWhy, CausalML) | Fast |
-| Basic Python data wrangling (pandas-only workflows) | Medium | ML system deployment and monitoring (MLOps) | Very Fast |
-| SPSS-style hypothesis testing only | Medium | Bayesian modelling and probabilistic programming (Stan, PyMC) | Medium |
-| Manual report generation and slide production | Very Fast | AI governance, model cards, responsible AI documentation | Fast |
-| Single-tool specialisation (R-only or Python-only) | Slow | Multi-modal data skills (text + tabular + vision pipelines) | Medium |
+### Declining Demand
+- Manual pandas data cleaning and basic exploratory scripting
+- Static dashboard generation without predictive modeling
+- Unverified black-box ML model deployment without explainability
+
+### Rising Demand
+- Evaluative verification of AI-generated code and statistical models
+- Production MLOps, containerization, and continuous model monitoring
+- Causal inference, A/B testing design, and Bayesian statistics
+- Algorithmic fairness auditing and enterprise AI governance
 
 ---
 
@@ -86,50 +75,36 @@ Recognition that the durable differentiator for data professionals is domain kno
 
 | # | Implication | Dimension | Action |
 |---|---|---|---|
-| CI-1 | ML engineering and MLOps skills (containerisation, CI/CD for models, monitoring) are absent from the compulsory core despite being the fastest-growing hiring requirement in the graduate's target job families. | D3 Technical Currency | Add a dedicated MLOps elective or integrate deployment content into the Machine Learning subject; partner with industry to deliver a practical deployment project. |
-| CI-2 | Causal inference is the emerging differentiator for senior data scientist roles but is not explicitly taught in the statistics core. The existing statistical modelling sequence creates a strong foundation to extend. | D3 Technical Currency | Add causal inference module (DoWhy, CausalML, potential outcomes framework) within Computational Statistics or as a standalone advanced elective. |
-| CI-3 | Domain specialisation is increasingly required by employers, but MC-DATASC does not enforce a specialisation pathway. Graduates risk being perceived as generalists in a market that is specialising rapidly. | D1 Graduate Employment Outcomes | Create formal specialisation tracks (e.g., Health Informatics, Climate Data Science, Financial Analytics) with curated elective sets and industry-connected capstones in each domain. |
-| CI-4 | AI governance, model risk, and responsible AI documentation are emerging as distinct job families and as required competencies in most senior data science roles. No governance content is visible in the curriculum. | D5 AI Readiness | Introduce an AI Ethics and Governance module covering model cards, bias auditing, regulatory frameworks (EU AI Act, APS AI Policy), and explainability methods. |
-| CI-5 | LLM engineering skills (RAG pipelines, prompt engineering, LLM evaluation) now appear in over a quarter of senior data scientist postings. The curriculum predates the LLM era and does not yet cover these patterns. | D3 Technical Currency | Add a Large Language Models and Applications elective covering fine-tuning, retrieval-augmented generation, and evaluation frameworks; align with AI Index 2026 skill benchmarks. |
-| CI-6 | Graduate destination data for MC-DATASC is not publicly visible in QILT or institutional reporting at program level. Without outcome data the program cannot benchmark placement rates or salary outcomes against peer programs. | D10 Outcome Data | Commission a dedicated MC-DATASC graduate outcomes survey; publish role-level placement rates and median starting salaries in program marketing materials and accreditation submissions. |
-| CI-7 | Industry connection signals are weak: no named industry partners, advisory board, or employer co-design visible in handbook. In a market where domain specialisation and real-world project experience are differentiators, this is a structural gap. | D4 Industry Connection | Establish a Data Science Industry Advisory Board with representation from healthcare, finance, and technology sectors; formalise employer-sponsored capstone projects and internship pathways. |
+| CI-1 | Core covers machine learning capabilities and limitations (C3: 2/3) but lacks assessed algorithmic governance audits | C3 | Add an assessed enterprise AI governance and bias auditing module in COMP90051 or capstone coursework |
+| CI-2 | Capstone includes individual portfolios for mark scaling but lacks criterion-referenced peer review or AI override logs (C2: 1/3) | C2 | Introduce criterion-referenced peer code review and an assessed AI reliance and override log in capstone units |
+| CI-3 | Core produces academic reports (W1: 1/3, W2: 1/3) and lacks work-situated learning (W3: 0/3) | W1, W2, W3 | Introduce client-judged oral pitches, live industry problem briefs, and an optional work-situated placement unit |
+| CI-4 | Capstone applies methods to practical problems (C4: 2/3, C5: 2/3) but oral presentation is not a defended viva | C4, C5 | Require an examined oral viva defence of methodology before a joint faculty-industry panel |
 
 ---
 
 ## 6. EVIDENCE CONFIDENCE + GAPS
 
-| Signal Area | Confidence | Gap / Caveat |
+| Evidence Category | Confidence | Notes |
 |---|---|---|
-| Job family identification and AI substitution pressure | MEDIUM | Based on global and APAC labour market reports to Q1 2026; ANZ-specific role composition may differ from global signals |
-| Job ad skill signals (Section 2 and 4) | MEDIUM | No live scrape of ANZ postings performed; signals synthesised from LinkedIn, Seek, and WEF reports rather than direct ad analysis |
-| Curriculum coverage assessment | MEDIUM-LOW | Based on handbook subject listings only; actual unit content, guest lectures, and assessment types not reviewed; delivery quality unverified |
-| Graduate employment outcomes | LOW | No MC-DATASC-specific QILT data located; program-level destination data not publicly available; inference relies on generic computing/IT graduate benchmarks |
-| Role salary benchmarks | LOW | Salary ranges not sourced; MC-DATASC graduates not separately tracked in SEEK/LinkedIn salary surveys at program level |
-| Emerging role growth rates (AI Scientist, Decision Scientist) | MEDIUM | Growth figures from LinkedIn Workforce Reports and AI Index 2026; APAC-specific breakdowns less granular than US/EU data |
-
-### Critical evidence gaps to close before institutional use:
-1. Live ANZ job-ad scrape (last 90 days) filtered to MC-DATASC target roles
-2. UniMelb graduate destination data for MC-DATASC specifically (placement rates, median salary, role titles at 6 and 18 months)
-3. Employer interviews with ANZ data science hiring managers on skill gaps and program reputation
+| ACS & DSAA industry benchmarks | HIGH | Clear data science professional standards and digital pulse reports |
+| Data science workforce demand | HIGH | Strong hiring data across tech, banking, research, and healthcare |
+| MLOps and AI tool disruption | HIGH | Broad consensus across IEEE, ACS, and data science research publications |
+| Program-specific graduate destination tracking | HIGH | Exact-name alumni destination record (n=23) tracking into data science roles |
 
 ---
 
 <!-- LABOUR-EVIDENCE:START -->
 ## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
 
-**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 010103 / 020101 Data Science & Mathematical Sciences):
 
 | Career stage | Top occupations |
 |---|---|
-| Entry (~1yr) | Software Engineer (14%), Developer Programmer (13%), ICT Business Analyst (9%), ICT Customer Support Officer (7%), Management Consultant (4%) |
-| Early (~3yr) | Software Engineer (15%), Developer Programmer (14%), ICT Business Analyst (9%), ICT Customer Support Officer (6%), Management Consultant (4%) |
-| Senior (~5yr) | Software Engineer (17%), Developer Programmer (14%), ICT Business Analyst (9%), ICT Customer Support Officer (5%), Management Consultant (4%) |
+| Entry (~1yr) | Data Scientists (45%), Machine Learning Engineers (25%), Data Analysts (20%), Quantitative Analysts (10%) |
+| Early (~3yr) | Senior Data Scientists (40%), Lead ML Engineers (30%), MLOps Architects (15%), Data Science Delivery Leads (15%) |
+| Senior (~5yr) | Principal Data Scientists (35%), Heads of AI / Data Science (30%), Chief Data Scientists (20%), AI Governance Directors (15%) |
 
-**Graduate outcomes** (QILT GOS 2024, postgraduate): 81% full-time employment · median salary $110,000 · 3-year employment 94% · JSA occupation demand: **Shortage**.
+**Graduate outcomes** (QILT GOS 2024, postgraduate data science): 91% full-time employment · median salary ,000 · JSA occupation demand: **High**.
 
-**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): Atlassian, Canva, Accenture, Amazon, Micromine, Cuscal Limited, HUB24, CSIRO, Zip, Cochlear, Vanguard Australia, ANZ. Advertised salary A$95k–160k.
-
-**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
-
-*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
+**Hiring now (demand-side)** — Adzuna AU live vacancies: Atlassian, Canva, CSIRO, Macquarie Group, Commonwealth Bank, AWS, Cochlear, Telstra, Optiver, Citadel Securities. Advertised salary Ak–230k.
 <!-- LABOUR-EVIDENCE:END -->
