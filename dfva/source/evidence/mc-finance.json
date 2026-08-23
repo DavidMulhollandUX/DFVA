@@ -1,0 +1,104 @@
+{
+  "code": "mc-finance",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: at least one core unit assesses collaborative practice. In compulsory core subject ACCT90002 Financial Statement Analysis, students complete an assessed 'Group assignment (4000 words, in groups of 4-5 students)' (30%); in compulsory core FNCE90047 Financial Markets and Instruments, students complete an assessed 'Group assignment (normally groups of 5-6 students)' (30%); and across core selectives, students complete group projects in teams of 2 to 5 (FNCE90012 Corporate Restructuring and Valuation, FNCE90080 Applied Investment Management, FNCE90082 Applied Risk Management, and FNCE90083 Data Analysis for Finance). Level 3 is not met: no core assessment requires coordinating work across people AND tools/AI systems with documented role-and-tool allocation or an assessed division of work between analysts and algorithmic systems.",
+      "evidenceLines": [
+        "Group assignment (4000 words, in groups of 4-5 students)",
+        "Group assignment (normally groups of 5-6 students).",
+        "Group Project (normally in groups of 2-3 students)",
+        "Major Group Project (3-5 students)",
+        "Group Project (usual group size 3-5 students)",
+        "Take-home group assignment 1 (up to 3 people per group)"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: core assessment includes criterion-referenced appraisal of quality. In ACCT90002 Financial Statement Analysis, students critically appraise corporate accounting disclosures, earnings quality, and distress risk indicators across real-world financial statements; in FNCE90047 and FNCE90012, students evaluate corporate restructuring proposals, debt versus equity financing trade-offs, and firm valuations against market benchmarks; and in FNCE90080, students evaluate portfolio performance against risk-adjusted benchmark hurdle rates. Level 3 is not met: no core assessment requires students to document and justify reliance decisions (deciding when to rely on or override automated DCF models, quantitative backtests, or algorithmic valuation scripts), defend judgements of AI-generated market sentiment or earnings forecasts, or evidence metacognitive strategy adjustment over time.",
+      "evidenceLines": [
+        "Financial Statement Analysis (ACCT90002) ... Critically evaluate alternative financial theories, propositions and arguments",
+        "Group assignment (4000 words, in groups of 4-5 students)",
+        "Corporate Restructuring and Valuation (FNCE90012) ... Group Project (normally in groups of 2-3 students)",
+        "Applied Investment Management (FNCE90080) ... Major Group Project (3-5 students)"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor is met: digital tools appear as tool operation and statistical/econometric software. In ECON90033 Quantitative Analysis of Finance I and ACCT90002 Financial Statement Analysis, students operate econometric and spreadsheet modeling tools to perform statistical regression and financial statement adjustments; in core selectives FNCE90083 and FNCE90084, students apply data analysis and machine learning techniques to financial datasets. Level 2 is unmet: no universally compulsory core unit addresses AI capabilities AND limitations/ethics with use limits discussed and assessed (e.g. algorithmic trading execution risks, machine learning overfitting on financial time series, or LLM financial hallucination bounds). Level 3 (AI critique or financial data governance) is unevidenced in core assessment.",
+      "evidenceLines": [
+        "Quantitative Analysis of Finance I (ECON90033) ... Individual Assignment",
+        "Data Analysis for Finance (FNCE90083) ... Take-home group assignment 1",
+        "Applied Machine Learning in Finance (FNCE90084) ... One individual homework assignment"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: at least one core assessment requires application to novel or unfamiliar problems through unscripted corporate financial cases, market stress scenarios, and valuation challenges. In ACCT90002, FNCE90047, and FNCE90012, students evaluate unscripted corporate case studies, market disruptions, and cross-border investment risks applying core finance theory to novel empirical contexts. Level 3 is not met: while FNCE90081 Applied Research Project provides a self-scoped independent investigation, it is an elective stream restricted to students approved by the Program Director for the research pathway, and therefore does not represent the guaranteed path for all graduating coursework students (R1).",
+      "evidenceLines": [
+        "Group assignment (4000 words, in groups of 4-5 students)",
+        "Corporate Restructuring and Valuation (FNCE90012) ... Group Project (normally in groups of 2-3 students)",
+        "To enrol in the Research pathway for completing the Capstone requirement, students will require Program Director approval."
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 1 anchor is met: financial statement modeling, quantitative data analysis, and literature review are documented across the core. Students complete quantitative assignments, practical case exercises, and examinations in ECON90033, ECON90034, ACCT90002, and FNCE90047. Level 2 requires students to design and conduct an inquiry with methodology selection and data collection, assessed; while students complete technical problem sets and case analyses, and the conditional research pathway (FNCE90081) involves an individual research report, the guaranteed core coursework path assesses set assignments and written exams rather than student-designed empirical investigations with methodology selection. No required primary-evidence research project defended under formal oral viva scrutiny exists across the universally guaranteed core (level 3).",
+      "evidenceLines": [
+        "Individual Assignment ... Quantitative Analysis of Finance I",
+        "Assignment 1 ... Assignment 2 ... Assignment 3 ... Economics of Finance",
+        "Group assignment (4000 words, in groups of 4-5 students) ... Financial Statement Analysis",
+        "Group assignment (normally groups of 5-6 students) ... Financial Markets and Instruments"
+      ]
+    },
+    "adaptiveness": 8,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: at least one core assessment requires a recognised professional genre judged against criteria drawn from professional practice. Across the core, students produce formal 4000-word financial statement analysis consultancy reports (ACCT90002), comprehensive corporate valuation reports (FNCE90047, FNCE90012), and executive investment committee presentations (FNCE90080). Level 3 is not met: while professional valuation and analysis reports recur, no core assessment is documented as delivered to, or judged by, a real external client or financial authority (e.g. investment bank committee, ASIC, APRA, or superannuation investment panel) with professional conduct explicitly among the assessed criteria.",
+      "evidenceLines": [
+        "Group assignment (4000 words, in groups of 4-5 students)",
+        "Group assignment (normally groups of 5-6 students).",
+        "Corporate Restructuring and Valuation (FNCE90012) ... Group Project (normally in groups of 2-3 students)",
+        "Applied Investment Management (FNCE90080) ... Major Group Project (3-5 students)"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: core assessment reproduces professional tasks end-to-end for financial analysts, investment associates, and corporate treasury officers. Students perform full-cycle financial statement adjustments (ACCT90002), econometric risk analysis (ECON90033), capital market asset pricing evaluations (FNCE90047), and corporate merger valuations (FNCE90012). Resolved downward from level 3 on adversarial verification: tasks are submitted to academic instructors without externally supplied live market briefs, real-time trading room pressures, or consequential external stakeholders documented in the assessment tables (R4).",
+      "evidenceLines": [
+        "Group assignment (4000 words, in groups of 4-5 students)",
+        "Group assignment (normally groups of 5-6 students).",
+        "Corporate Restructuring and Valuation (FNCE90012) ... Group Project",
+        "Applied Investment Management (FNCE90080) ... Major Group Project"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1 anchor is met: work-situated learning is not compulsory within the core curriculum. While internship and business practicum electives are offered (BUSA90473 Business Practicum, BUSA90485 Global Business Practicum, BUSA90525 Business and Economics Internship), the Master of Finance does not mandate an assessed, credit-bearing, practitioner-supervised workplace placement or practicum within its compulsory 150-point sequence.",
+      "evidenceLines": [
+        "The Master of Finance requires successful completion of 150 points which includes four compulsory subjects, at least four core subjects and two capstone subjects.",
+        "Students may choose up to two of the following elective subjects: BUSA90473 Business Practicum ... BUSA90525 Business and Economics Internship"
+      ]
+    },
+    "workplace": 5,
+    "gates": {
+      "G1": {
+        "status": "PASS",
+        "rationale": "PASS condition is met: the program documents an extensive 150-point specialist graduate curriculum including a compulsory 50-point core in Quantitative Analysis of Finance I (ECON90033), Economics of Finance (ECON90034), Financial Statement Analysis (ACCT90002), and Financial Markets and Instruments (FNCE90047), followed by advanced finance selectives in Corporate Restructuring, Investment Management, Risk Management, and Machine Learning. Coherent, rigorous disciplinary finance sequence."
+      },
+      "G2": {
+        "status": "PASS",
+        "rationale": "PASS condition is met: assessment goes well beyond deterministic formulaic calculations to require complex financial trade-off decisions under high market and strategic uncertainty — including corporate distress prediction and accounting choice adjustments in ACCT90002, valuation of distressed and merging firms under incomplete information in FNCE90012, portfolio asset allocation under volatile macroeconomic conditions in FNCE90080, and derivative hedging under market liquidity risk in FNCE90082."
+      }
+    },
+    "ambiguities": [
+      "C1 straddled 1 and 2: ACCT90002 and FNCE90047 assess compulsory group assignments (30% each in teams of 4-6), satisfying level 2 collaborative practice anchor. Level 3 is unmet because collaborative human-AI workflow allocation is unevidenced.",
+      "C2 straddled 1 and 2: ACCT90002, FNCE90047, and FNCE90012 assess critical appraisal of accounting quality and firm valuation against market benchmarks, satisfying level 2 quality appraisal. Level 3 is unmet because reliance/override justification is unevidenced.",
+      "C3 straddled 1 and 2: digital and statistical packages appear in core ECON90033 and ACCT90002, but specialized machine learning in finance (FNCE90084) is an elective rather than compulsory core. Scored at level 1 per R1.",
+      "C4 straddled 2 and 3: core subjects assess novel transfer across complex valuation and financial case studies, but the independent research project (FNCE90081) is an elective research pathway requiring Program Director approval and not guaranteed for all students. Scored at 2 per R1.",
+      "C5 straddled 1 and 2: core subjects assess quantitative problem sets and case reports, but student-designed empirical inquiry with methodology selection is not guaranteed in the compulsory coursework path. Lower level (1) taken per R1 and R2.",
+      "W2 straddled 2 and 3: core subjects assess authentic end-to-end valuation and investment analysis, but assessments are submitted to academic instructors without externally supplied live trading briefs or consequential external stakeholders. Resolved downward to 2 per R4."
+    ]
+  }
+}
