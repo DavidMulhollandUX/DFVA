@@ -14,7 +14,10 @@
  *      evidenceConfidence: "low" — i.e. the registry overstates its evidence
  * WARNS on:
  *   - thin captures that ARE correctly flagged (tracked debt; they sit in
- *     data/capture_queue.json for re-capture)
+ *     data/capture_queue.json). Note: for the research doctorates the SOURCE
+ *     page is genuinely ~180-940 chars, so re-running any scraper returns the
+ *     same text — clearing those needs different sources (faculty RHD pages),
+ *     not a better capture tool.
  */
 import { existsSync, readFileSync } from 'node:fs'
 import * as path from 'node:path'
@@ -91,7 +94,7 @@ for (const p of PROGRAMS) {
 
   // Thin or failed capture: acceptable only if the registry says so.
   if (flaggedLow) {
-    warnings.push(`${p.program} (${code}): thin capture, ${cap.chars} chars — flagged evidenceConfidence:"low", queued for re-capture`)
+    warnings.push(`${p.program} (${code}): thin capture, ${cap.chars} chars — flagged evidenceConfidence:"low"; sparse source, needs additional sources not a re-scrape`)
   } else {
     errors.push(
       `${p.program} (${code}): capture is only ${cap.chars} chars (min ${MIN_CAPTURE_CHARS}) ` +
