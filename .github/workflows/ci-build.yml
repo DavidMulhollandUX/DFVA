@@ -2,10 +2,15 @@ name: CI — Wasp build check
 
 # Catches what shipped silently before: broken imports (e.g. the '../' path bug)
 # and type errors. A red build here blocks the merge instead of reaching prod.
+#
+# `dev` is in the push list because the dev line is merged by fast-forward push,
+# not by PR, so the pull_request trigger never fires for it. Without it a type
+# error in a generated module (b-des's stray item-level `instrument`, 2026-08-23)
+# reaches dev unseen and is only discovered when a deploy build fails.
 
 on:
   push:
-    branches: [main]
+    branches: [main, dev]
     paths: ['compass/app/**', 'compass/mcp/**', 'dfva/**', 'reports/**', 'scripts/**']
   pull_request:
     paths: ['compass/app/**', 'compass/mcp/**', 'dfva/**', 'reports/**', 'scripts/**']
