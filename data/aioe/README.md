@@ -22,6 +22,16 @@ v3 Panel A adopts the **Panel A reconciliation package** in `reconciliation/`
   are robust to crosswalk choice; absolute levels are not. See
   `reconciliation/README.txt`.
 
+## v4 destination basis (2026-08-22)
+
+v4 reports resolve Panel A through one tiered resolver, `scripts/dfva-panela-basis.ts`
+(method: `docs/dfva-v4-panela-basis.md`): own record → variant parent → pooled majors →
+combined components → curated cognate/partial (`panela_basis_overrides.json`) → JSA HEO
+field list (`../jsa/`). Every value carries its basis. `program_scoped_crosswalk.csv`
+holds (program, title) mappings for titles refused globally in `crosswalk-refused.json`.
+The resolver reproduces every reference-cohort value in `v2_panelA_authoritative_aioe.csv`
+exactly (guarded by `dfva-panela-coverage-check.ts`).
+
 ## Other files
 
 - `felten_aioe.json` — 774 occupations extracted from the published Felten,

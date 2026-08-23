@@ -1,37 +1,372 @@
 {
   "_comment": "Destination titles adjudicated as NOT mappable to a single O*NET SOC, and titles whose proposed mapping was killed in adversarial review. Read by scripts/destination-profiles.py: `nextbatch` skips refused titles and the programs they hold (a program clears only when EVERY title maps, so a program carrying a refused title cannot clear and its other titles are not live work). Full reasoning per title: docs/tasks/dfva-crosswalk-backfill.SKILL.md. Use `nextbatch N --all` to see the raw queue.",
   "refused": [
-    {"title": "Teacher", "run": "rule 5", "why": "Blocks primary and secondary programs at once; Elementary 25-2021 (84.74) vs Secondary 25-2031 (91.99) is a 7-point swing with no correct answer."},
-    {"title": "Classroom Teacher", "run": "rule 5", "why": "Same level split; blocks mc-teachpr and mc-teachsa simultaneously."},
-    {"title": "Casual Relief Teacher", "run": "rule 5", "why": "Same level split; blocks mc-teachpr and mc-teachsa simultaneously."},
-    {"title": "English Teacher", "run": "rule 5", "why": "Blocks mc-apling (adult TESOL) and mc-teachpr (primary) — different occupations."},
-    {"title": "Assistant Language Teacher", "run": "rule 5", "why": "Names a rank, not an occupation; level unfixed."},
-    {"title": "Learning Support Teacher", "run": "19th", "why": "Special-education level spread; residual 25-2059 is the LOWEST of the family (raw AIOE Preschool 0.375 / K-Elem 0.736 / Middle 1.296 / Secondary 0.959 / All Other -0.663) — picking it is the Management Trainee failure mode."},
-    {"title": "Special Education Teacher", "run": "19th", "why": "Same special-education level spread."},
-    {"title": "Teacher of the Deaf", "run": "19th", "why": "Same special-education level spread."},
-    {"title": "Specialist Remedial Teacher", "run": "19th", "why": "Same special-education level spread."},
-    {"title": "Management Trainee", "run": "overturned 2026-08-17", "why": "Rule 5 fails: 'International Business' names no SOC. Candidates spread 20.4 points and 11-1021 is the lowest, so the row would systematically deflate mc-ib."},
-    {"title": "Crime Prevention Officer", "run": "overturned 2026-08-17; convention #5", "why": "Sworn divisional posting in VIC/NSW vs civilian community-safety read; Delta 43.46 to 33-3051 and the civilian side has no settled SOC."},
-    {"title": "Family Violence & Review Officer", "run": "rule 5; convention #5", "why": "Names a statutory function, not an occupation; 274ab record does not link titles to employers."},
-    {"title": "Technical Leader", "run": "10th", "why": "Names seniority in an unspecified technical discipline; mc-eleceng record does not fix the occupation."},
-    {"title": "Design Assistant", "run": "19th", "why": "Assistant + generic 'design'; the crosswalk's Assistant precedent is 6-for-6 on titles that name the discipline, and this one does not."},
-    {"title": "Senior Product Manager", "run": "killed twice; convention #3", "why": "Product management has no settled SOC — 11-2021 (94.93) is only shippable in a commit that also re-points Product Director (77.30), 15.67 points apart on one occupation at two ranks."},
-    {"title": "Clinical Specialist", "run": "7th", "why": "Industry title (medical-device field role) vs clinical practitioner; unresolved for mc-biomeng."},
-    {"title": "Innovation Manager", "run": "8th", "why": "Generic management title with no discipline anchor."},
-    {"title": "Publishing Assistant", "run": "11th", "why": "Assistant rank with no occupation named; publishing spans editorial and production SOCs."},
-    {"title": "Content Manager", "run": "11th", "why": "Verified candidate set spans marketing, editorial and web SOCs with no O*NET title anchor separating them — see the 11th run's candidate table."},
-    {"title": "Agribusiness Graduate", "run": "9th", "why": "'Graduate' is not an occupation."},
-    {"title": "Research and Development Officer", "run": "9th", "why": "R&D spans the discipline; mc-agsc record does not fix which science."},
-    {"title": "Head of National Beef Development", "run": "9th", "why": "Bespoke industry leadership title with no SOC analogue."},
-    {"title": "Collections Assistant", "run": "overturned 20th", "why": "The Management Trainee shape with a twist — Assistant rank plus a museum/library ambiguity; candidates too far apart."},
-    {"title": "Heritage consultant", "run": "20th", "why": "Heritage work spans archaeology, planning and architecture SOCs; band wider than previously recorded."},
-    {"title": "Heritage Officer", "run": "20th", "why": "Same heritage span; no anchor separates the candidates."}
+    {
+      "title": "Teacher",
+      "run": "rule 5",
+      "why": "Blocks primary and secondary programs at once; Elementary 25-2021 (84.74) vs Secondary 25-2031 (91.99) is a 7-point swing with no correct answer."
+    },
+    {
+      "title": "Classroom Teacher",
+      "run": "rule 5",
+      "why": "Same level split; blocks mc-teachpr and mc-teachsa simultaneously."
+    },
+    {
+      "title": "Casual Relief Teacher",
+      "run": "rule 5",
+      "why": "Same level split; blocks mc-teachpr and mc-teachsa simultaneously."
+    },
+    {
+      "title": "English Teacher",
+      "run": "rule 5",
+      "why": "Blocks mc-apling (adult TESOL) and mc-teachpr (primary) — different occupations."
+    },
+    {
+      "title": "Assistant Language Teacher",
+      "run": "rule 5",
+      "why": "Names a rank, not an occupation; level unfixed."
+    },
+    {
+      "title": "Learning Support Teacher",
+      "run": "19th",
+      "why": "Special-education level spread; residual 25-2059 is the LOWEST of the family (raw AIOE Preschool 0.375 / K-Elem 0.736 / Middle 1.296 / Secondary 0.959 / All Other -0.663) — picking it is the Management Trainee failure mode."
+    },
+    {
+      "title": "Special Education Teacher",
+      "run": "19th",
+      "why": "Same special-education level spread."
+    },
+    {
+      "title": "Teacher of the Deaf",
+      "run": "19th",
+      "why": "Same special-education level spread."
+    },
+    {
+      "title": "Specialist Remedial Teacher",
+      "run": "19th",
+      "why": "Same special-education level spread."
+    },
+    {
+      "title": "Management Trainee",
+      "run": "overturned 2026-08-17",
+      "why": "Rule 5 fails: 'International Business' names no SOC. Candidates spread 20.4 points and 11-1021 is the lowest, so the row would systematically deflate mc-ib."
+    },
+    {
+      "title": "Crime Prevention Officer",
+      "run": "overturned 2026-08-17; convention #5",
+      "why": "Sworn divisional posting in VIC/NSW vs civilian community-safety read; Delta 43.46 to 33-3051 and the civilian side has no settled SOC."
+    },
+    {
+      "title": "Family Violence & Review Officer",
+      "run": "rule 5; convention #5",
+      "why": "Names a statutory function, not an occupation; 274ab record does not link titles to employers."
+    },
+    {
+      "title": "Technical Leader",
+      "run": "10th",
+      "why": "Names seniority in an unspecified technical discipline; mc-eleceng record does not fix the occupation."
+    },
+    {
+      "title": "Design Assistant",
+      "run": "19th",
+      "why": "Assistant + generic 'design'; the crosswalk's Assistant precedent is 6-for-6 on titles that name the discipline, and this one does not."
+    },
+    {
+      "title": "Senior Product Manager",
+      "run": "killed twice; convention #3",
+      "why": "Product management has no settled SOC — 11-2021 (94.93) is only shippable in a commit that also re-points Product Director (77.30), 15.67 points apart on one occupation at two ranks."
+    },
+    {
+      "title": "Clinical Specialist",
+      "run": "7th",
+      "why": "Industry title (medical-device field role) vs clinical practitioner; unresolved for mc-biomeng."
+    },
+    {
+      "title": "Innovation Manager",
+      "run": "8th",
+      "why": "Generic management title with no discipline anchor."
+    },
+    {
+      "title": "Publishing Assistant",
+      "run": "11th",
+      "why": "Assistant rank with no occupation named; publishing spans editorial and production SOCs."
+    },
+    {
+      "title": "Content Manager",
+      "run": "11th",
+      "why": "Verified candidate set spans marketing, editorial and web SOCs with no O*NET title anchor separating them — see the 11th run's candidate table."
+    },
+    {
+      "title": "Agribusiness Graduate",
+      "run": "9th",
+      "why": "'Graduate' is not an occupation."
+    },
+    {
+      "title": "Research and Development Officer",
+      "run": "9th",
+      "why": "R&D spans the discipline; mc-agsc record does not fix which science."
+    },
+    {
+      "title": "Head of National Beef Development",
+      "run": "9th",
+      "why": "Bespoke industry leadership title with no SOC analogue."
+    },
+    {
+      "title": "Collections Assistant",
+      "run": "overturned 20th",
+      "why": "The Management Trainee shape with a twist — Assistant rank plus a museum/library ambiguity; candidates too far apart."
+    },
+    {
+      "title": "Heritage consultant",
+      "run": "20th",
+      "why": "Heritage work spans archaeology, planning and architecture SOCs; band wider than previously recorded."
+    },
+    {
+      "title": "Heritage Officer",
+      "run": "20th",
+      "why": "Same heritage span; no anchor separates the candidates."
+    },
+    {
+      "title": "Mixed Crop and Livestock Farm Worker",
+      "run": "2026-08-23 panela-basis backfill",
+      "why": "ANZSCO 841611 is by definition half crop work and half livestock work; the only Felten cells are 45-2092 Farmworkers, Crop (25.46) and 45-2093 Farmworkers, Farm and Ranch Animals (37.20), 11.74 apart, and the residual 45-2099 that SOC would use for a mixed worker is not in Felten. No tiebreak either way, so over the 10-point line.",
+      "blocks": [
+        "b-agr",
+        "mc-agsc"
+      ]
+    },
+    {
+      "title": "Farm, Forestry and Garden Workers nec",
+      "run": "2026-08-23 panela-basis backfill",
+      "why": "ANZSCO 841999 is a residual spanning three SOC families (crop farmworkers 45-2092 at 25.46, forest and conservation workers 45-4011 at 38.25, landscaping and groundskeeping 37-3011 at 20.15, ranch animal workers 45-2093 at 37.20) and SOC 2010's own residual 45-2099 Agricultural Workers, All Other is absent from the 774 Felten occupations. Spread 18.10 with no tiebreak in the title.",
+      "blocks": [
+        "b-agr",
+        "mc-agsc"
+      ]
+    },
+    {
+      "title": "Gallery Attendant",
+      "run": "2026-08-23 panela-basis backfill",
+      "why": "The Art History major's scope does not change the work: front-of-house invigilation at NGV/NGA is the same job whatever the attendant studied, and it still splits 33-9032 Security Guards (54.29) / 39-3031 Ushers and Lobby Attendants (57.83) / 39-7011 Tour Guides (72.11, the 'Visitor Services Officer' precedent) — 17.82 spread with no O*NET title anchor. Refusal stands.",
+      "blocks": [
+        "b-arts"
+      ]
+    },
+    {
+      "title": "Researcher",
+      "run": "2026-08-23 panela-basis backfill",
+      "why": "The BA scope removes the lab-science cells (19-1029 87.67, 19-4021 70.78) but the pooled record reporting it (Art History, gallery employers, skills Art Curatorship/Collection Management) still splits between a curatorial/provenance researcher 25-4012 Curators (81.15) and a social-science/humanities researcher 19-4061 (92.30, the sibling 'Research Assistant' cell) / 19-3093 (89.78) / 19-3099 (95.24) — 14.09 spread, no tiebreak. The global 'Senior Researcher' precedent is a family-mean imputation the script cannot reproduce.",
+      "blocks": [
+        "b-arts"
+      ]
+    },
+    {
+      "title": "Art Consultant",
+      "run": "2026-08-23 panela-basis backfill",
+      "why": "The Art History scope fixes the domain but not the dealer-vs-curator axis: art advisory is a sales role (41-3099 94.63 / 41-4012 83.19) as often as a curatorial one (25-4012 81.15), 13.48 spread, and the record's public-gallery employers (NGV, NGA, Museums Victoria) do not employ art consultants, so the record cannot say which side this graduate sits on.",
+      "blocks": [
+        "b-arts"
+      ]
+    },
+    {
+      "title": "Justice Officer",
+      "run": "2026-08-23 panela-basis backfill",
+      "why": "'Justice' names a department (DJCS / Court Services Victoria), not an occupation, and the title is used for court-registry/fines administration, community corrections and custodial roles. Plausible SOCs spread 48.92 points — 43-4031 Court, Municipal, and License Clerks (91.38), 21-1092 Probation Officers (76.16), 33-3012 Correctional Officers (42.46) — with no precedent row or record-level tiebreak (Criminology record employers span courts, DJCS and legal services). A wrong row would silently move b-arts by a large amount.",
+      "blocks": [
+        "b-arts"
+      ]
+    },
+    {
+      "title": "Senior Intelligence Analyst Team Leader",
+      "run": "2026-08-23 panela-basis backfill",
+      "why": "Reported by BA (Criminology), whose employer list includes Victoria Police alongside DJCS, OPP and the courts. The existing Intelligence Analyst -> 19-3094 row (97.40, low, FLAGGED) explicitly says to re-examine in a policing/criminology cohort, where 33-3021 Detectives and Criminal Investigators (68.98) 'would be correct'; a sworn team-leader reading adds 33-1012 First-Line Supervisors of Police (59.02). Spread 38.38 (28.42 between the two main candidates) and the record gives no employer-level tiebreak - Victoria Police intelligence analysts are unsworn VPS desk analysts, which is the very argument the 19-3094 row used, so the cohort cue and the work-content cue point opposite ways. Left u",
+      "blocks": [
+        "b-arts"
+      ]
+    },
+    {
+      "title": "Indigenous Education Officer",
+      "run": "2026-08-23 panela-basis backfill",
+      "why": "overturned in review: 'Indigenous' is not merely an audience qualifier here: Aboriginal and Torres Strait Islander Education Worker is a named ANZSCO occupation (422111, Education Aides unit group), whose SOC home is 25-9041 Teacher Assistants (74.36), 20.26 points below the proposal. The Indigenous Studies record pulls ",
+      "blocks": [
+        "b-arts"
+      ]
+    },
+    {
+      "title": "Youth Advisor",
+      "run": "2026-08-23 panela-basis backfill",
+      "why": "BA (Sociology) record whose employers span Parliament of Victoria, DPC, Centre for Multicultural Youth, Orygen and World Vision, so the title is equally a youth-engagement/support role (21-1093 Social and Human Service Assistants, 74.68; 21-1021, 82.09) or a youth-policy advisory post (19-3094 Political Scientists, 97.40). Spread 22.72 with no tiebreak in the record; the Youth Worker row's 21-1093 precedent does not reach 'Advisor', which in VPS usage is a policy grade.",
+      "blocks": [
+        "b-arts"
+      ]
+    },
+    {
+      "title": "Scientist",
+      "run": "2026-08-23 panela-basis backfill",
+      "why": "overturned in review: Bare 'Scientist' is not an occupation and the crosswalk is keyed on title alone, so the 'b-bmed only' caveat in the note is unenforceable (no program_scope was permitted). Even inside the Immunology record the plausible SOCs spread 13.92 points with no tiebreak (19-1022 Microbiologists 80.18 vs 19-1",
+      "blocks": [
+        "b-bmed",
+        "mc-bmedsc"
+      ]
+    },
+    {
+      "title": "Regulatory Reporting Analyst",
+      "run": "2026-08-23 panela-basis backfill",
+      "why": "overturned in review: Refuse, same ground as b-bmed: mc-bmedsc borrows the same Bachelor of Biomedicine (Microbiology) record via the cognate-tier basis override, so the employer list is the same non-link. Banking 13-2099 (96.04) vs pharma regulatory affairs 13-1041 (80.24), 15.80 apart, and the title lexicon points to b",
+      "blocks": [
+        "b-bmed",
+        "mc-bmedsc"
+      ]
+    },
+    {
+      "title": "Dancer or Choreographer",
+      "run": "2026-08-23 panela-basis backfill",
+      "why": "ANZSCO 211112 is a single occupation name covering two distinct Felten occupations, 27-2031 Dancers (0.01) and 27-2032 Choreographers (26.07), a 26.06-point spread with no tiebreak in the occupation definition ('performs dances, and creates and arranges dance'). Picking either side systematically moves b-fadance/mc-dnce by up to 26 points; a midpoint is not a row the script can compute. Leave unmapped until the JSA source can be split by component, or a program-scoped decision is taken.",
+      "blocks": [
+        "b-fadance",
+        "mc-dnce"
+      ]
+    },
+    {
+      "title": "Health Diagnostic and Promotion Professionals nec",
+      "run": "2026-08-23 panela-basis backfill",
+      "why": "overturned in review: Refused. The residual's one identifiable member is the genetic counsellor (ANZSCO 251999 is the code AU genetic counsellors have used, the JSA title universe carries no separate Genetic Counsellor title, and the fields carrying it are Medical Studies nec and Public Health nec, where a genetic-counse",
+      "blocks": [
+        "mc-adolhw",
+        "mc-spmed",
+        "mc-ymhmo"
+      ]
+    },
+    {
+      "title": "School Teachers nfd",
+      "run": "2026-08-23 panela-basis backfill",
+      "why": "overturned in review: No program_scope on the row, so it would be a global row served to every field that lists it: Early Childhood (070101, where Preschool Teachers 25-2011 sit at 64.33), Primary (070103 -> 25-2021, 84.73), Secondary (070105), Special Education (070113, refused family), VET, Higher Education, Linguistic",
+      "blocks": [
+        "mc-apling",
+        "mc-clined",
+        "mc-li",
+        "mc-teachec"
+      ],
+      "unresolved_scopes": [
+        {
+          "scope": "field:070111",
+          "why": "Teacher Education: Higher Education fixes no school level; candidates 25-2011 Preschool (64.33) to 25-2022 Middle (94.25) spread 29.92 with no tiebreak."
+        },
+        {
+          "scope": "field:070115",
+          "why": "School ESL teachers are posted at primary and secondary alike (25-2021 84.73 vs 25-2031 91.98, 7.25 apart) and the adult cell 25-3011 (95.73) is also live, an 11.00 spread; same level-split that refused 'English Teacher' globally, and the field does not fix it."
+        },
+        {
+          "scope": "field:070199",
+          "why": "Teacher Education n.e.c. is a level-agnostic residual; 25-2011 (64.33) to 25-2031 (91.98) spread 27.65 with no tiebreak."
+        },
+        {
+          "scope": "field:070303",
+          "why": "Education Studies fixes no level; 25-2011 (64.33) to 25-2031 (91.98) spread 27.65 with no tiebreak."
+        },
+        {
+          "scope": "field:091521",
+          "why": "Linguistics fixes the domain but not the level (the same failure as 'Assistant Language Teacher' for mc-apling); 25-2021 (84.73) vs 25-2031 (91.98) vs 25-3011 Adult Literacy (95.73), 11.00 spread, no tiebreak."
+        }
+      ]
+    },
+    {
+      "title": "Health Information Manager",
+      "run": "2026-08-23 panela-basis backfill",
+      "why": "overturned in review: Refused. The 16.35-point fork to 11-9111 Medical and Health Services Managers (93.62) has an anchor on each side: O*NET 29-2071 lists Medical Records Director / Health Information Management Director as reported titles, while SOC's 11-9111 illustrative examples include Medical Records Manager, and S",
+      "blocks": [
+        "mc-cat"
+      ]
+    },
+    {
+      "title": "Music Professionals nec",
+      "run": "2026-08-23 panela-basis backfill",
+      "why": "ANZSCO 211299 is the residual of 2112 Music Professionals, whose SOC twins are 27-2041 Music Directors and Composers (84.63) and 27-2042 Musicians and Singers (63.51): a 21.12-point spread, and the residual's members (arrangers, copyists, conductors, music therapists where JSA codes them here for rehab-therapy graduates) fall on both sides with no tiebreak. It blocks four programs (mc-clinrhb, mc-musop, mc-musorp, mc-muspt) across performance and therapy, so a single row cannot be disambiguated by program context.",
+      "blocks": [
+        "mc-clinrhb",
+        "mc-musop",
+        "mc-musorp",
+        "mc-muspt"
+      ]
+    },
+    {
+      "title": "Local Government Legislator",
+      "run": "2026-08-23 panela-basis backfill",
+      "why": "SOC 11-1031 Legislators is absent from the 774 Felten occupations, so no cell exists for the work of legislating. The nearest surviving cells, 11-1011 Chief Executives (95.38) and 11-1021 General and Operations Managers (77.30), spread 18.08 points and neither describes an elected councillor. The item also arrives under ASCED 090513 Counselling, which is an implausible field pairing and suggests source noise; not mapped.",
+      "blocks": [
+        "mc-counsmo",
+        "mc-ntcw"
+      ]
+    },
+    {
+      "title": "Commissioned Defence Force Officer",
+      "run": "2026-08-23 panela-basis backfill",
+      "why": "ANZSCO 139111 is a military commission (Major Group 1, Defence Force Senior Officers/unit group 1391). SOC 2010's military family (55-xxxx) is absent from the 774 Felten occupations, so no SOC exists for the work. Civilian analogues spread too far with no tiebreak: 11-1021 General and Operations Managers (77.30), 11-9199 Managers, All Other (86.58), 17-2011 Aerospace Engineers (95.49) for the engineering fields, 29-1069 Physicians (80.48) for the medicine field, 33-1012 First-Line Supervisors of Police (59.02) as the nearest uniformed-command code: a 36-point spread driven by which field list the graduate came from, which the title does not carry. Leave unmapped.",
+      "blocks": [
+        "mc-eleceng"
+      ]
+    },
+    {
+      "title": "Brewery Worker",
+      "run": "2026-08-23 panela-basis backfill (round 3)",
+      "why": "ANZSCO 831112 covers routine malting, mashing, fermenting, filtering and bottling tasks, and SOC splits that work across 51-3092 Food Batchmakers (54.57), 51-9011 Chemical Equipment Operators and Tenders (51.42), 51-9012 Separating, Filtering, Clarifying, Precipitating, and Still Machine Operators (41.26) and 51-9111 Packaging and Filling Machine Operators (40.29) — a 14.28-point spread with no tiebreak: the beverage reading pulls to 51-3092, the process-plant reading to 51-9012, and no precedent or reported-title anchor can be checked without browsing. No 'All Other' home exists for the whole job."
+    },
+    {
+      "title": "Building Associate",
+      "run": "2026-08-23 panela-basis backfill (round 3)",
+      "why": "ANZSCO 312112 provides technical support on building projects spanning construction supervision, inspection and cost estimating, and the plausible SOCs spread 25.76 points: 13-1051 Cost Estimators (96.18), 11-9021 Construction Managers (88.12), 17-3022 Civil Engineering Technicians (85.81) and 47-4011 Construction and Building Inspectors (70.42). The definition names all three functions without weighting one, so there is no tiebreak; a row would pick the index rather than the work."
+    },
+    {
+      "title": "Special Education Teachers nec",
+      "run": "2026-08-23 panela-basis backfill (round 3)",
+      "why": "Reviewer refused proposed 25-2059. Refused. The Felten 25-2059 cell (47.80) is an artefact: the only O*NET detailed occupation under 25-2059 is 25-2059.01 Adapted Physical Education Specialists, so its AIOE describes adapted PE, not the classroom teaching that ANZSCO 241599 (teachers of the gifted, remedial and other special-needs teachers) actually does. Every genuine special-education teaching cell sits 33-47 points higher (25-2052 Elementary 81.13, 25-2054 Secondary 86.44, 25-2053 Middle 94.48) and the residual carries no level to choose among them, so the plausible SOCs spread 13.35 points (81.13 to 94.48) with no tiebreak and the nec rule's designated home is indefensible. Leave unmapped; the mapper's own flag on the row asked for exactly this call. Check output: 28 rows OK after removal (see scratchpad/global3b.kept.json)."
+    },
+    {
+      "title": "University Lecturer",
+      "run": "2026-08-23 panela-basis backfill (round 3)",
+      "why": "field-scoped refusals only; see unresolved_scopes",
+      "unresolved_scopes": [
+        {
+          "scope": "field:019905",
+          "why": "Food Science and Biotechnology is two disciplines in one code: food science sits in 25-1041 Agricultural Sciences Teachers (81.58, the ag/food-science department cell) and biotechnology in 25-1042 Biological Science Teachers (92.85), 11.27 apart with no way to weight the halves."
+        },
+        {
+          "scope": "field:070111",
+          "why": "Teacher Education: Higher Education's field list is clinicians-turned-educators (Anaesthetist, GP, Nurse Educator, Veterinarian) who lecture in their own discipline, so the discipline is not fixed by the field: 25-1072 Nursing (75.92), 25-1071 Health Specialties (85.63) and 25-1081 Education (92.02) spread 16.10. The existing mc-clined program-scoped row already covers the one cohort where the record fixes it; do not generalise it to the field."
+        }
+      ]
+    }
   ],
   "overturned_with_replacement": [
-    {"title": "Pilot Plant Operator", "killed": "51-8091", "propose": "19-4031", "why": "O*NET 19-4031 carries the literal task 'Operate experimental pilot plants'."},
-    {"title": "Cloud Solution Architect", "killed": "15-1143", "propose": "15-1199", "why": "15-1199.02 lists 'Solutions Architect' as a reported title; 15-1143 is strictly LAN/WAN."},
-    {"title": "Full-Stack Web Developer | Python Django, Javascri", "killed": "15-1132", "propose": "15-1134", "why": "Matches Frontend Developer and Web Developer in the same record; Delta 2.66."},
-    {"title": "Nurse Research Coordinator", "killed": "19-1042", "propose": "29-1141 (applied)", "why": "Senior Clinical Research Nurse -> 29-1141 is the exact precedent; Delta 25.03."},
-    {"title": "Analyst - Financial Crime Operations", "killed": "13-2061, then 13-1041", "propose": "13-2099 (applied)", "why": "O*NET 13-2099.04 Fraud Examiners is the literal home."}
+    {
+      "title": "Pilot Plant Operator",
+      "killed": "51-8091",
+      "propose": "19-4031",
+      "why": "O*NET 19-4031 carries the literal task 'Operate experimental pilot plants'."
+    },
+    {
+      "title": "Cloud Solution Architect",
+      "killed": "15-1143",
+      "propose": "15-1199",
+      "why": "15-1199.02 lists 'Solutions Architect' as a reported title; 15-1143 is strictly LAN/WAN."
+    },
+    {
+      "title": "Full-Stack Web Developer | Python Django, Javascri",
+      "killed": "15-1132",
+      "propose": "15-1134",
+      "why": "Matches Frontend Developer and Web Developer in the same record; Delta 2.66."
+    },
+    {
+      "title": "Nurse Research Coordinator",
+      "killed": "19-1042",
+      "propose": "29-1141 (applied)",
+      "why": "Senior Clinical Research Nurse -> 29-1141 is the exact precedent; Delta 25.03."
+    },
+    {
+      "title": "Analyst - Financial Crime Operations",
+      "killed": "13-2061, then 13-1041",
+      "propose": "13-2099 (applied)",
+      "why": "O*NET 13-2099.04 Fraud Examiners is the literal home."
+    }
   ]
 }

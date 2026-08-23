@@ -23,7 +23,21 @@ assignments.json is a list of:
     {"occupation": "Curatorial Assistant",
      "onet_soc_code": "25-4012",
      "mapping_confidence": "high" | "medium" | "low",
-     "mapping_note": "why this SOC, and what was rejected"}
+     "mapping_note": "why this SOC, and what was rejected",
+     "program_scope": "mc-teachpr"}        # optional — see below
+
+program_scope: a mapping that is correct ONLY inside one program's record (the
+title is ambiguous across programs — "Teacher" is Elementary in mc-teachpr and
+Secondary in mc-teachsa — but the program's discipline fixes it). Scoped rows go
+to data/aioe/program_scoped_crosswalk.csv, keyed on (program_code, occupation),
+and the resolver consults them before the global crosswalk for that program
+only. A scoped row may carry a title that is refused globally; that is its
+purpose. Never scope a row just to dodge a hard global call.
+
+A program_scope of the form "field:<ASCED code>" (e.g. "field:0909") scopes the
+row to one JSA HEO field list instead of one program: the natural key for an
+ANZSCO occupation name whose SOC depends on the discipline the graduates came
+from ("University Lecturer" in the Law list is 25-1112 Law Teachers).
 """
 from __future__ import annotations
 
@@ -35,8 +49,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 FELTEN = ROOT / "data" / "aioe" / "felten_aioe.json"
 CROSSWALK = ROOT / "data" / "aioe" / "v31_extension_crosswalk.csv"
+SCOPED = ROOT / "data" / "aioe" / "program_scoped_crosswalk.csv"
+REFUSED = ROOT / "data" / "aioe" / "crosswalk-refused.json"
 INDEX_SOURCE = "Felten-AIOE (Appendix A, rescaled 0-100)"
 CONFIDENCE = {"high", "medium", "low"}
+SCOPED_FIELDS = ["program_code"]
 FIELDS = [
     "occupation",
     "onet_soc_code",
@@ -64,29 +81,51 @@ def existing() -> dict[str, dict]:
         return {r["occupation"].strip(): r for r in csv.DictReader(fh)}
 
 
+def existing_scoped() -> set[tuple[str, str]]:
+    if not SCOPED.exists():
+        return set()
+    with SCOPED.open() as fh:
+        return {(r["program_code"].strip(), r["occupation"].strip()) for r in csv.DictReader(fh)}
+
+
+def refused() -> set[str]:
+    if not REFUSED.exists():
+        return set()
+    return {r["title"] for r in json.loads(REFUSED.read_text()).get("refused", [])}
+
+
 def build(assignments: list[dict]) -> tuple[list[dict], list[str]]:
     f = felten()
     lo, hi = bounds(f)
     have = existing()
+    have_scoped = existing_scoped()
+    no = refused()
     rows, errs = [], []
-    seen: set[str] = set()
+    seen: set[tuple[str, str]] = set()
 
     for a in assignments:
         occ = (a.get("occupation") or "").strip()
         soc = (a.get("onet_soc_code") or "").strip()
         conf = (a.get("mapping_confidence") or "").strip()
         note = (a.get("mapping_note") or "").strip()
+        scope = (a.get("program_scope") or "").strip().lower()
 
         if not occ:
             errs.append("row with no occupation")
             continue
-        if occ in have:
+        if not scope and occ in have:
             errs.append(f"{occ!r}: already in the crosswalk — remove it from the batch")
             continue
-        if occ in seen:
+        if not scope and occ in no:
+            errs.append(f"{occ!r}: refused in crosswalk-refused.json — map it with program_scope or leave it out")
+            continue
+        if scope and (scope, occ) in have_scoped:
+            errs.append(f"{occ!r} @ {scope}: already in the scoped crosswalk")
+            continue
+        if (scope, occ) in seen:
             errs.append(f"{occ!r}: duplicated within this batch")
             continue
-        seen.add(occ)
+        seen.add((scope, occ))
 
         # Felten is keyed on the 6-digit SOC; O*NET codes carry a .00 suffix.
         src = f.get(soc) or f.get(soc.split(".")[0])
@@ -102,6 +141,7 @@ def build(assignments: list[dict]) -> tuple[list[dict], list[str]]:
 
         rows.append(
             {
+                **({"program_code": scope} if scope else {}),
                 "occupation": occ,
                 "onet_soc_code": soc,
                 "onet_soc_title": src["title"],
@@ -131,19 +171,25 @@ def main() -> None:
         print(f"OK — {len(rows)} row(s) ready:")
         for r in rows:
             print(
-                f"  {r['occupation']:<38} -> {r['onet_soc_code']:<10} "
+                f"  {(('@' + r['program_code'] + ' ') if 'program_code' in r else '') + r['occupation']:<38} -> {r['onet_soc_code']:<10} "
                 f"{r['onet_soc_title'][:34]:<34} index {r['ai_exposure_index']:>6} ({r['mapping_confidence']})"
             )
         return
 
-    write_header = not CROSSWALK.exists() or CROSSWALK.stat().st_size == 0
-    with CROSSWALK.open("a", newline="") as fh:
-        w = csv.DictWriter(fh, fieldnames=FIELDS)
-        if write_header:
-            w.writeheader()
-        for r in rows:
-            w.writerow(r)
-    print(f"appended {len(rows)} row(s) to {CROSSWALK.relative_to(ROOT)}")
+    for target, fields, subset in (
+        (CROSSWALK, FIELDS, [r for r in rows if "program_code" not in r]),
+        (SCOPED, SCOPED_FIELDS + FIELDS, [r for r in rows if "program_code" in r]),
+    ):
+        if not subset:
+            continue
+        write_header = not target.exists() or target.stat().st_size == 0
+        with target.open("a", newline="") as fh:
+            w = csv.DictWriter(fh, fieldnames=fields)
+            if write_header:
+                w.writeheader()
+            for r in subset:
+                w.writerow(r)
+        print(f"appended {len(subset)} row(s) to {target.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,1550 @@
+{
+  "_meta": {
+    "description": "ASCED field of education assigned to each DFVA v4 cohort program; the key for the field tier of Panel A (data/jsa/heo_field_destinations.json).",
+    "classification": "ASCED 2001 (field of education), codes as used in JSA Higher Education Outcomes Table_3",
+    "assigned": "2026-08-22",
+    "rule": "most specific ASCED field the program's graduates are reported under; double degrees take the first component's field; variants take the parent's"
+  },
+  "programs": {
+    "038ab": {
+      "name": "Master of Art Curatorship",
+      "field": "0009",
+      "fieldName": "Society and Culture",
+      "confidence": "medium",
+      "rationale": "Curatorial studies (ASCED 091303) and its narrow field 0913 are absent from the list; fall back to 0009 Society and Culture, alternative 100399 Visual Arts and Crafts n.e.c."
+    },
+    "080cl": {
+      "name": "Master of Psychology (Clinical Psychology)/Doctor of Philosophy",
+      "field": "090701",
+      "fieldName": "Psychology",
+      "confidence": "high",
+      "rationale": "First component Master of Psychology (Clinical) -> 090701; second component PhD."
+    },
+    "080cn": {
+      "name": "Master of Psychology (Clinical Neuropsychology)/Doctor of Philosophy",
+      "field": "090701",
+      "fieldName": "Psychology",
+      "confidence": "high",
+      "rationale": "First component Master of Psychology (Clinical Neuropsychology) -> 090701; second component PhD."
+    },
+    "097ab": {
+      "name": "Master of Development Studies",
+      "field": "0903",
+      "fieldName": "Studies in Human Society",
+      "confidence": "high",
+      "rationale": "Development studies (ASCED 090399) aggregates to 0903 Studies in Human Society."
+    },
+    "175aa": {
+      "name": "Master of Arts and Cultural Management",
+      "field": "080399",
+      "fieldName": "Business and Management, n.e.c.",
+      "confidence": "medium",
+      "rationale": "Arts and cultural management is a management degree without an ASCED field; 080399 Business and Management n.e.c., alternative 100799."
+    },
+    "192aa": {
+      "name": "Master of International Tax",
+      "field": "0909",
+      "fieldName": "Law",
+      "confidence": "high",
+      "rationale": "Melbourne Law School tax program, reported under 0909 Law; 0801 Accounting is the alternative for tax programs housed in business schools."
+    },
+    "195aa": {
+      "name": "Master of Construction Law",
+      "field": "0909",
+      "fieldName": "Law",
+      "confidence": "high",
+      "rationale": "Specialist law masters, 0909 Law."
+    },
+    "274ab": {
+      "name": "Master of Criminology",
+      "field": "099903",
+      "fieldName": "Criminology",
+      "confidence": "high",
+      "rationale": "Criminology, 099903."
+    },
+    "277aa": {
+      "name": "Master of Intellectual Property Law",
+      "field": "0909",
+      "fieldName": "Law",
+      "confidence": "high",
+      "rationale": "Intellectual property law is a specialist law masters, 0909 Law."
+    },
+    "294be": {
+      "name": "Master of Marketing",
+      "field": "080505",
+      "fieldName": "Marketing",
+      "confidence": "high",
+      "rationale": "Marketing, 080505."
+    },
+    "300bb": {
+      "name": "Doctor of Education",
+      "field": "070303",
+      "fieldName": "Education Studies",
+      "confidence": "high",
+      "rationale": "Professional doctorate in education, 070303 Education Studies."
+    },
+    "305bb": {
+      "name": "Master of Clinical Audiology",
+      "field": "061709",
+      "fieldName": "Audiology",
+      "confidence": "high",
+      "rationale": "Clinical audiology, 061709 Audiology."
+    },
+    "342aa": {
+      "name": "Master of Psychiatry",
+      "field": "0601",
+      "fieldName": "Medical Studies",
+      "confidence": "high",
+      "rationale": "Psychiatry (ASCED 060105) is not listed, so it aggregates to the 0601 Medical Studies narrow field."
+    },
+    "344ab": {
+      "name": "Master of Public Policy and Management",
+      "field": "090103",
+      "fieldName": "Policy Studies",
+      "confidence": "high",
+      "rationale": "Public policy and management, 090103 Policy Studies."
+    },
+    "439fs": {
+      "name": "Master of Food Science",
+      "field": "019905",
+      "fieldName": "Food Science and Biotechnology",
+      "confidence": "high",
+      "rationale": "Food science sits in ASCED 019905 Food Science and Biotechnology."
+    },
+    "502cw": {
+      "name": "Master of Laws",
+      "field": "0909",
+      "fieldName": "Law",
+      "confidence": "high",
+      "rationale": "General LLM, 0909 Law."
+    },
+    "504aa": {
+      "name": "Master of Commercial Law",
+      "field": "090901",
+      "fieldName": "Business and Commercial Law",
+      "confidence": "high",
+      "rationale": "Commercial law maps exactly to 090901 Business and Commercial Law."
+    },
+    "507aa": {
+      "name": "Master of Health and Medical Law",
+      "field": "0909",
+      "fieldName": "Law",
+      "confidence": "high",
+      "rationale": "Specialist law masters, 0909 Law."
+    },
+    "510aa": {
+      "name": "Master of Employment and Labour Relations Law",
+      "field": "0909",
+      "fieldName": "Law",
+      "confidence": "high",
+      "rationale": "Specialist law masters, 0909 Law; 080309 Industrial Relations is the non-law alternative."
+    },
+    "511aa": {
+      "name": "Master of Public and International Law",
+      "field": "090909",
+      "fieldName": "International Law",
+      "confidence": "medium",
+      "rationale": "Public and International Law; 090909 International Law captures the international half, 0909 Law the public-law half."
+    },
+    "526aa": {
+      "name": "Master of Banking and Finance Law",
+      "field": "090901",
+      "fieldName": "Business and Commercial Law",
+      "confidence": "medium",
+      "rationale": "Banking and finance law is commercial law, 090901 Business and Commercial Law; 0909 Law is the generic alternative."
+    },
+    "527cl": {
+      "name": "Master of Clinical Psychology",
+      "field": "090701",
+      "fieldName": "Psychology",
+      "confidence": "high",
+      "rationale": "Clinical psychology training is reported under 090701 Psychology."
+    },
+    "527cn": {
+      "name": "Master of Psychology (Clinical Neuropsychology)",
+      "field": "090701",
+      "fieldName": "Psychology",
+      "confidence": "high",
+      "rationale": "Clinical neuropsychology training, 090701 Psychology."
+    },
+    "572at": {
+      "name": "Master of Medicine",
+      "field": "0601",
+      "fieldName": "Medical Studies",
+      "confidence": "high",
+      "rationale": "Postgraduate medicine coursework, 0601 Medical Studies."
+    },
+    "635aa": {
+      "name": "Master of Law and Development",
+      "field": "0909",
+      "fieldName": "Law",
+      "confidence": "high",
+      "rationale": "Specialist law masters, 0909 Law."
+    },
+    "706aa": {
+      "name": "Master of Social Policy",
+      "field": "090103",
+      "fieldName": "Policy Studies",
+      "confidence": "high",
+      "rationale": "Social policy, 090103 Policy Studies."
+    },
+    "742ab": {
+      "name": "Master of Tax",
+      "field": "0909",
+      "fieldName": "Law",
+      "confidence": "high",
+      "rationale": "Melbourne Law School tax program, reported under 0909 Law; 0801 Accounting is the business-school alternative."
+    },
+    "746st": {
+      "name": "Master of Engineering Structures",
+      "field": "0309",
+      "fieldName": "Civil Engineering",
+      "confidence": "high",
+      "rationale": "Structural engineering (ASCED 030903) aggregates to the 0309 Civil Engineering narrow field."
+    },
+    "761em": {
+      "name": "Master of Engineering Management",
+      "field": "039999",
+      "fieldName": "Engineering and Related Technologies, n.e.c.",
+      "confidence": "medium",
+      "rationale": "Engineering management is an engineering-faculty degree; 039999 Engineering n.e.c. chosen over 080315 Project Management / 080399."
+    },
+    "841ac": {
+      "name": "Bachelor of Oral Health",
+      "field": "060799",
+      "fieldName": "Dental Studies, n.e.c.",
+      "confidence": "high",
+      "rationale": "Oral health therapy is reported under 060799 Dental Studies n.e.c."
+    },
+    "872bb": {
+      "name": "Master of Veterinary Science",
+      "field": "061101",
+      "fieldName": "Veterinary Science",
+      "confidence": "high",
+      "rationale": "Veterinary science, 061101."
+    },
+    "991aa": {
+      "name": "Master of Biostatistics",
+      "field": "010103",
+      "fieldName": "Statistics",
+      "confidence": "high",
+      "rationale": "Biostatistics is reported under 010103 Statistics; 061311 Epidemiology is the health-side alternative."
+    },
+    "b-agr": {
+      "name": "Bachelor of Agriculture",
+      "field": "050101",
+      "fieldName": "Agricultural Science",
+      "confidence": "high",
+      "rationale": "Agriculture, 050101 Agricultural Science."
+    },
+    "b-arts": {
+      "name": "Bachelor of Arts",
+      "field": "0009",
+      "fieldName": "Society and Culture",
+      "confidence": "medium",
+      "rationale": "Generalist BA spans many Society and Culture majors; coded to the 0009 broad field, alternative 099999."
+    },
+    "b-bmed": {
+      "name": "Bachelor of Biomedicine",
+      "field": "019901",
+      "fieldName": "Medical Science",
+      "confidence": "high",
+      "rationale": "Biomedicine, 019901 Medical Science."
+    },
+    "b-com": {
+      "name": "Bachelor of Commerce",
+      "field": "0803",
+      "fieldName": "Business and Management",
+      "confidence": "medium",
+      "rationale": "Generalist BCom spans accounting, finance, economics, management and marketing; 0803 Business and Management chosen as the modal field, alternative 0008 broad."
+    },
+    "b-des": {
+      "name": "Bachelor of Design",
+      "field": "0401",
+      "fieldName": "Architecture and Urban Environment",
+      "confidence": "medium",
+      "rationale": "Generalist Bachelor of Design is dominated by architecture/planning/landscape/construction majors, 0401 Architecture and Urban Environment; alternative 1005 Graphic and Design Studies."
+    },
+    "b-faacting": {
+      "name": "Bachelor of Fine Arts (Acting)",
+      "field": "100103",
+      "fieldName": "Drama and Theatre Studies",
+      "confidence": "high",
+      "rationale": "Acting, 100103 Drama and Theatre Studies."
+    },
+    "b-faanim": {
+      "name": "Bachelor of Fine Arts (Animation)",
+      "field": "100701",
+      "fieldName": "Audio Visual Studies",
+      "confidence": "medium",
+      "rationale": "Animation is placed under 100701 Audio Visual Studies (film/screen); 100501 Graphic Arts and Design Studies is the alternative."
+    },
+    "b-fadance": {
+      "name": "Bachelor of Fine Arts (Dance)",
+      "field": "100105",
+      "fieldName": "Dance",
+      "confidence": "high",
+      "rationale": "Dance, 100105."
+    },
+    "b-fafilmtv": {
+      "name": "Bachelor of Fine Arts (Film and Television)",
+      "field": "100701",
+      "fieldName": "Audio Visual Studies",
+      "confidence": "high",
+      "rationale": "Film and television, 100701 Audio Visual Studies."
+    },
+    "b-famusth": {
+      "name": "Bachelor of Fine Arts (Music Theatre)",
+      "field": "100199",
+      "fieldName": "Performing Arts, n.e.c.",
+      "confidence": "medium",
+      "rationale": "Music theatre straddles 100101 Music and 100103 Drama; coded 100199 Performing Arts n.e.c."
+    },
+    "b-fapro": {
+      "name": "Bachelor of Fine Arts (Production)",
+      "field": "100103",
+      "fieldName": "Drama and Theatre Studies",
+      "confidence": "medium",
+      "rationale": "Theatre production (design, stage management) coded 100103 Drama and Theatre Studies; alternative 100199."
+    },
+    "b-fascwri": {
+      "name": "Bachelor of Fine Arts (Screenwriting)",
+      "field": "100701",
+      "fieldName": "Audio Visual Studies",
+      "confidence": "medium",
+      "rationale": "Screenwriting is screen-industry training, 100701 Audio Visual Studies; alternative 100705 Written Communication."
+    },
+    "b-fath": {
+      "name": "Bachelor of Fine Arts (Theatre)",
+      "field": "100103",
+      "fieldName": "Drama and Theatre Studies",
+      "confidence": "high",
+      "rationale": "Theatre, 100103 Drama and Theatre Studies."
+    },
+    "b-favisart": {
+      "name": "Bachelor of Fine Arts (Visual Art)",
+      "field": "100301",
+      "fieldName": "Fine Arts",
+      "confidence": "high",
+      "rationale": "Visual art, 100301 Fine Arts."
+    },
+    "b-mus": {
+      "name": "Bachelor of Music",
+      "field": "100101",
+      "fieldName": "Music",
+      "confidence": "high",
+      "rationale": "Music, 100101."
+    },
+    "b-sci": {
+      "name": "Bachelor of Science",
+      "field": "0001",
+      "fieldName": "Natural and Physical Sciences",
+      "confidence": "medium",
+      "rationale": "Generalist science degree coded to the 0001 broad field, alternative 019999."
+    },
+    "b-sciextd": {
+      "name": "Bachelor of Science (Extended)",
+      "field": "0001",
+      "fieldName": "Natural and Physical Sciences",
+      "confidence": "medium",
+      "rationale": "Variant of the Bachelor of Science; generalist science degree coded to the 0001 broad field, alternative 019999."
+    },
+    "d01lf": {
+      "name": "Master of Creative Writing, Publishing and Editing",
+      "field": "100705",
+      "fieldName": "Written Communication",
+      "confidence": "high",
+      "rationale": "Creative writing, publishing and editing, 100705 Written Communication."
+    },
+    "dr-philedp": {
+      "name": "Master of Psychology (Educational and Developmental)/Doctor of Philosophy",
+      "field": "090701",
+      "fieldName": "Psychology",
+      "confidence": "high",
+      "rationale": "First component Master of Psychology (Ed & Dev) -> 090701; second component PhD."
+    },
+    "j17re": {
+      "name": "Master of Advanced Social Work",
+      "field": "090501",
+      "fieldName": "Social Work",
+      "confidence": "high",
+      "rationale": "Advanced social work, 090501 Social Work."
+    },
+    "m04aa": {
+      "name": "Master of Music Therapy",
+      "field": "069999",
+      "fieldName": "Health, n.e.c.",
+      "confidence": "medium",
+      "rationale": "Music therapy is an allied health profession without an ASCED field; 069999 Health n.e.c. chosen over 061999 Complementary Therapies n.e.c."
+    },
+    "mc-actsc": {
+      "name": "Master of Actuarial Science",
+      "field": "081103",
+      "fieldName": "Insurance and Actuarial Studies",
+      "confidence": "high",
+      "rationale": "Actuarial science, 081103 Insurance and Actuarial Studies."
+    },
+    "mc-actscen": {
+      "name": "Master of Actuarial Science (Enhanced)",
+      "field": "081103",
+      "fieldName": "Insurance and Actuarial Studies",
+      "confidence": "high",
+      "rationale": "Variant of Master of Actuarial Science, 081103 Insurance and Actuarial Studies."
+    },
+    "mc-actscex": {
+      "name": "Master of Actuarial Science (Extended)",
+      "field": "081103",
+      "fieldName": "Insurance and Actuarial Studies",
+      "confidence": "high",
+      "rationale": "Variant of Master of Actuarial Science, 081103 Insurance and Actuarial Studies."
+    },
+    "mc-adolhw": {
+      "name": "Master of Adolescent Health and Wellbeing",
+      "field": "061399",
+      "fieldName": "Public Health, n.e.c.",
+      "confidence": "medium",
+      "rationale": "Adolescent health and wellbeing is a public-health degree; 061399 Public Health n.e.c., alternative 061307 Health Promotion."
+    },
+    "mc-advnpph": {
+      "name": "Master of Advanced Nursing Practice/Master of Public Health",
+      "field": "060399",
+      "fieldName": "Nursing, n.e.c.",
+      "confidence": "high",
+      "rationale": "First component Advanced Nursing Practice -> 060399 Nursing n.e.c.; second component Public Health (0613)."
+    },
+    "mc-aecoenh": {
+      "name": "Master of Applied Econometrics (Enhanced)",
+      "field": "0919",
+      "fieldName": "Economics and Econometrics",
+      "confidence": "high",
+      "rationale": "Variant of Applied Econometrics; econometrics (ASCED 091903) aggregates to 0919 Economics and Econometrics."
+    },
+    "mc-aemtrcs": {
+      "name": "Master of Applied Econometrics",
+      "field": "0919",
+      "fieldName": "Economics and Econometrics",
+      "confidence": "high",
+      "rationale": "Econometrics (ASCED 091903) aggregates to 0919 Economics and Econometrics."
+    },
+    "mc-agsc": {
+      "name": "Master of Agricultural Sciences",
+      "field": "050101",
+      "fieldName": "Agricultural Science",
+      "confidence": "high",
+      "rationale": "Agricultural sciences, 050101."
+    },
+    "mc-aimo": {
+      "name": "Master of Artificial Intelligence",
+      "field": "0201",
+      "fieldName": "Computer Science",
+      "confidence": "high",
+      "rationale": "Artificial intelligence (ASCED 020119) aggregates to 0201 Computer Science."
+    },
+    "mc-anamgt": {
+      "name": "Master of Analytics Management",
+      "field": "080399",
+      "fieldName": "Business and Management, n.e.c.",
+      "confidence": "medium",
+      "rationale": "Analytics management is a business degree without an ASCED field; 080399 Business and Management n.e.c., alternative 0203."
+    },
+    "mc-anp": {
+      "name": "Master of Advanced Nursing Practice",
+      "field": "060399",
+      "fieldName": "Nursing, n.e.c.",
+      "confidence": "high",
+      "rationale": "Advanced nursing practice, 060399 Nursing n.e.c."
+    },
+    "mc-anpnp": {
+      "name": "Master of Advanced Nursing Practice (Nurse Practitioner)",
+      "field": "060399",
+      "fieldName": "Nursing, n.e.c.",
+      "confidence": "high",
+      "rationale": "Nurse practitioner pathway, 060399 Nursing n.e.c."
+    },
+    "mc-ap": {
+      "name": "Master of Applied Psychology",
+      "field": "090701",
+      "fieldName": "Psychology",
+      "confidence": "high",
+      "rationale": "Applied psychology, 090701 Psychology."
+    },
+    "mc-apbusa": {
+      "name": "Master of Applied Business Analytics",
+      "field": "080399",
+      "fieldName": "Business and Management, n.e.c.",
+      "confidence": "medium",
+      "rationale": "Business analytics has no ASCED detailed field; most likely 080399 Business and Management n.e.c., alternative 0203 Information Systems."
+    },
+    "mc-apling": {
+      "name": "Master of Applied Linguistics",
+      "field": "091521",
+      "fieldName": "Linguistics",
+      "confidence": "high",
+      "rationale": "Applied linguistics, 091521 Linguistics."
+    },
+    "mc-app": {
+      "name": "Master of Applied Positive Psychology",
+      "field": "090701",
+      "fieldName": "Psychology",
+      "confidence": "medium",
+      "rationale": "Applied positive psychology is a psychology coursework degree, 090701 Psychology; 0907 Behavioural Science is the alternative for its non-accredited status."
+    },
+    "mc-arch": {
+      "name": "Master of Architecture",
+      "field": "040101",
+      "fieldName": "Architecture",
+      "confidence": "high",
+      "rationale": "Professional architecture degree, 040101 Architecture."
+    },
+    "mc-archcm": {
+      "name": "Master of Architecture/Master of Construction Management",
+      "field": "040101",
+      "fieldName": "Architecture",
+      "confidence": "high",
+      "rationale": "First component Architecture -> 040101; second component Construction Management (040303)."
+    },
+    "mc-archeng": {
+      "name": "Master of Architectural Engineering",
+      "field": "040101",
+      "fieldName": "Architecture",
+      "confidence": "medium",
+      "rationale": "Architectural Engineering combines architecture and structural engineering; coded 040101 Architecture, alternative 0309 Civil Engineering."
+    },
+    "mc-archuch": {
+      "name": "Master of Architecture/Master of Urban Cultural Heritage",
+      "field": "040101",
+      "fieldName": "Architecture",
+      "confidence": "high",
+      "rationale": "First component Architecture -> 040101; second component Urban Cultural Heritage (040199)."
+    },
+    "mc-archud": {
+      "name": "Master of Architecture/Master of Urban Design",
+      "field": "040101",
+      "fieldName": "Architecture",
+      "confidence": "high",
+      "rationale": "First component Architecture -> 040101; second component Urban Design (040103)."
+    },
+    "mc-archup": {
+      "name": "Master of Architecture/Master of Urban Planning",
+      "field": "040101",
+      "fieldName": "Architecture",
+      "confidence": "high",
+      "rationale": "First component Architecture -> 040101; second component Urban Planning (040103)."
+    },
+    "mc-arclarc": {
+      "name": "Master of Architecture/Master of Landscape Architecture",
+      "field": "040101",
+      "fieldName": "Architecture",
+      "confidence": "high",
+      "rationale": "First component Architecture -> 040101; second component Landscape Architecture (040105)."
+    },
+    "mc-arcprop": {
+      "name": "Master of Architecture/Master of Property",
+      "field": "040101",
+      "fieldName": "Architecture",
+      "confidence": "high",
+      "rationale": "First component Architecture -> 040101; second component Property (080503)."
+    },
+    "mc-ba": {
+      "name": "Master of Business Administration",
+      "field": "080301",
+      "fieldName": "Business Management",
+      "confidence": "high",
+      "rationale": "MBA is reported under 080301 Business Management."
+    },
+    "mc-bamktg": {
+      "name": "Master of Business Administration (Marketing)",
+      "field": "080301",
+      "fieldName": "Business Management",
+      "confidence": "high",
+      "rationale": "MBA specialisation takes the parent MBA field, 080301 Business Management; 080505 Marketing is the alternative."
+    },
+    "mc-base": {
+      "name": "Master of Advanced Social Enterprise",
+      "field": "080301",
+      "fieldName": "Business Management",
+      "confidence": "high",
+      "rationale": "Handbook extract shows MC-BASE is the MBA (Senior Executive); either way a Melbourne Business School management degree under 080301 Business Management."
+    },
+    "mc-biomeng": {
+      "name": "Master of Biomedical Engineering",
+      "field": "039903",
+      "fieldName": "Biomedical Engineering",
+      "confidence": "high",
+      "rationale": "Biomedical engineering, 039903."
+    },
+    "mc-biosenh": {
+      "name": "Master of Biostatistics (Enhanced)",
+      "field": "010103",
+      "fieldName": "Statistics",
+      "confidence": "high",
+      "rationale": "Variant of Master of Biostatistics, 010103 Statistics."
+    },
+    "mc-bmedsc": {
+      "name": "Master of Biomedical Science",
+      "field": "019901",
+      "fieldName": "Medical Science",
+      "confidence": "high",
+      "rationale": "Biomedical science, 019901 Medical Science."
+    },
+    "mc-bus": {
+      "name": "Master of Business",
+      "field": "080301",
+      "fieldName": "Business Management",
+      "confidence": "high",
+      "rationale": "Generalist Master of Business, 080301 Business Management."
+    },
+    "mc-busana": {
+      "name": "Master of Business Analytics",
+      "field": "080399",
+      "fieldName": "Business and Management, n.e.c.",
+      "confidence": "medium",
+      "rationale": "Business analytics has no ASCED detailed field; 080399 Business and Management n.e.c. preferred over 0203 Information Systems."
+    },
+    "mc-cat": {
+      "name": "Master of Creative Arts Therapy",
+      "field": "069999",
+      "fieldName": "Health, n.e.c.",
+      "confidence": "medium",
+      "rationale": "Creative arts therapy is an allied health degree without an ASCED field; 069999 Health n.e.c. chosen over 090513 Counselling."
+    },
+    "mc-chemeng": {
+      "name": "Master of Chemical Engineering",
+      "field": "030301",
+      "fieldName": "Chemical Engineering",
+      "confidence": "high",
+      "rationale": "Chemical engineering, 030301."
+    },
+    "mc-civeng": {
+      "name": "Master of Civil Engineering",
+      "field": "0309",
+      "fieldName": "Civil Engineering",
+      "confidence": "high",
+      "rationale": "Civil engineering, 0309 narrow field."
+    },
+    "mc-climsci": {
+      "name": "Master of Climate Science",
+      "field": "0107",
+      "fieldName": "Earth Sciences",
+      "confidence": "medium",
+      "rationale": "Climate science (atmospheric sciences 010707 not listed) aggregates to 0107 Earth Sciences; alternative 050999."
+    },
+    "mc-clind": {
+      "name": "Master of Clinical Dentistry",
+      "field": "060701",
+      "fieldName": "Dentistry",
+      "confidence": "high",
+      "rationale": "Specialist dental training is reported under 060701 Dentistry."
+    },
+    "mc-clined": {
+      "name": "Master of Clinical Education",
+      "field": "070111",
+      "fieldName": "Teacher Education: Higher Education",
+      "confidence": "medium",
+      "rationale": "Clinical education trains health professionals as educators; 070111 Teacher Education: Higher Education chosen over 060199 Medical Studies n.e.c."
+    },
+    "mc-clinrhb": {
+      "name": "Master of Clinical Rehabilitation",
+      "field": "061799",
+      "fieldName": "Rehabilitation Therapies, n.e.c.",
+      "confidence": "high",
+      "rationale": "Clinical rehabilitation for allied health professionals, 061799 Rehabilitation Therapies n.e.c."
+    },
+    "mc-cm": {
+      "name": "Master of Construction Management",
+      "field": "040303",
+      "fieldName": "Building Construction Management",
+      "confidence": "high",
+      "rationale": "Construction management, 040303 Building Construction Management."
+    },
+    "mc-cmprop": {
+      "name": "Master of Construction Management/Master of Property",
+      "field": "040303",
+      "fieldName": "Building Construction Management",
+      "confidence": "high",
+      "rationale": "First component Construction Management -> 040303; second component Property (080503)."
+    },
+    "mc-cncrsc": {
+      "name": "Master of Cancer Sciences",
+      "field": "019901",
+      "fieldName": "Medical Science",
+      "confidence": "medium",
+      "rationale": "Cancer sciences is a biomedical science degree, 019901 Medical Science; alternative 060199 Medical Studies n.e.c."
+    },
+    "mc-comact": {
+      "name": "Master of Commerce (Accounting)",
+      "field": "0801",
+      "fieldName": "Accounting",
+      "confidence": "high",
+      "rationale": "Accounting specialisation, 0801 Accounting."
+    },
+    "mc-comacts": {
+      "name": "Master of Commerce (Actuarial Science)",
+      "field": "081103",
+      "fieldName": "Insurance and Actuarial Studies",
+      "confidence": "high",
+      "rationale": "Actuarial science specialisation, 081103 Insurance and Actuarial Studies."
+    },
+    "mc-comdrfs": {
+      "name": "Master of Commerce (Decision, Risk and Financial Sciences)",
+      "field": "081101",
+      "fieldName": "Banking and Finance",
+      "confidence": "medium",
+      "rationale": "Decision, Risk and Financial Sciences is a quantitative finance degree; 081101 Banking and Finance, alternative 081199."
+    },
+    "mc-comeco": {
+      "name": "Master of Commerce (Economics)",
+      "field": "091901",
+      "fieldName": "Economics",
+      "confidence": "high",
+      "rationale": "Economics specialisation, 091901 Economics."
+    },
+    "mc-comfin": {
+      "name": "Master of Commerce (Finance)",
+      "field": "081101",
+      "fieldName": "Banking and Finance",
+      "confidence": "high",
+      "rationale": "Finance specialisation, 081101 Banking and Finance."
+    },
+    "mc-commgmt": {
+      "name": "Master of Commerce (Management)",
+      "field": "080301",
+      "fieldName": "Business Management",
+      "confidence": "high",
+      "rationale": "Management specialisation, 080301 Business Management."
+    },
+    "mc-commktg": {
+      "name": "Master of Commerce (Marketing)",
+      "field": "080505",
+      "fieldName": "Marketing",
+      "confidence": "high",
+      "rationale": "Marketing specialisation, 080505 Marketing."
+    },
+    "mc-contcs": {
+      "name": "Master of Contemporary Chinese Studies",
+      "field": "099999",
+      "fieldName": "Society and Culture, n.e.c.",
+      "confidence": "medium",
+      "rationale": "Area studies (contemporary China) have no listed ASCED field; 099999 Society and Culture n.e.c., alternative 0903 Studies in Human Society."
+    },
+    "mc-counsmo": {
+      "name": "Master of Counselling",
+      "field": "090513",
+      "fieldName": "Counselling",
+      "confidence": "high",
+      "rationale": "Counselling, 090513."
+    },
+    "mc-cs": {
+      "name": "Master of Computer Science",
+      "field": "0201",
+      "fieldName": "Computer Science",
+      "confidence": "high",
+      "rationale": "Computer science (ASCED 020101) aggregates to the 0201 Computer Science narrow field."
+    },
+    "mc-ctpyart": {
+      "name": "Master of Contemporary Art",
+      "field": "100301",
+      "fieldName": "Fine Arts",
+      "confidence": "high",
+      "rationale": "Contemporary art, 100301 Fine Arts."
+    },
+    "mc-cu": {
+      "name": "Master of Clinical Ultrasound",
+      "field": "0615",
+      "fieldName": "Radiography",
+      "confidence": "high",
+      "rationale": "Clinical ultrasound/sonography is reported under 0615 Radiography."
+    },
+    "mc-culmc": {
+      "name": "Master of Cultural Materials Conservation",
+      "field": "100399",
+      "fieldName": "Visual Arts and Crafts, n.e.c.",
+      "confidence": "medium",
+      "rationale": "Cultural materials conservation has no listed ASCED field (curatorial 091303 absent); coded 100399 Visual Arts and Crafts n.e.c., alternative 0009."
+    },
+    "mc-cybscmo": {
+      "name": "Master of Cyber Security",
+      "field": "029999",
+      "fieldName": "Information Technology, n.e.c.",
+      "confidence": "medium",
+      "rationale": "Cyber security (ASCED 029901 Security Science) is not listed; 029999 Information Technology n.e.c. chosen over 020113 Networks and Communications."
+    },
+    "mc-datasc": {
+      "name": "Master of Data Science",
+      "field": "020199",
+      "fieldName": "Computer Science, n.e.c.",
+      "confidence": "medium",
+      "rationale": "Data science has no ASCED field; 020199 Computer Science n.e.c. chosen over 010103 Statistics."
+    },
+    "mc-ddensur": {
+      "name": "Doctor of Dental Surgery",
+      "field": "060701",
+      "fieldName": "Dentistry",
+      "confidence": "high",
+      "rationale": "Entry-to-practice dentistry, 060701 Dentistry."
+    },
+    "mc-desprod": {
+      "name": "Master of Design and Production",
+      "field": "100103",
+      "fieldName": "Drama and Theatre Studies",
+      "confidence": "medium",
+      "rationale": "VCA design and production (theatre design, stage management) coded 100103 Drama and Theatre Studies; alternative 100199."
+    },
+    "mc-dinfeng": {
+      "name": "Master of Digital Infrastructure Engineering",
+      "field": "0309",
+      "fieldName": "Civil Engineering",
+      "confidence": "medium",
+      "rationale": "Digital infrastructure engineering is a civil/infrastructure program; 0309 Civil Engineering, alternative 039999."
+    },
+    "mc-dmed": {
+      "name": "Doctor of Medicine",
+      "field": "060101",
+      "fieldName": "General Medicine",
+      "confidence": "high",
+      "rationale": "Entry-to-practice medicine, 060101 General Medicine."
+    },
+    "mc-dmktg": {
+      "name": "Master of Digital Marketing",
+      "field": "080505",
+      "fieldName": "Marketing",
+      "confidence": "high",
+      "rationale": "Digital marketing, 080505 Marketing."
+    },
+    "mc-dnce": {
+      "name": "Master of Dance",
+      "field": "100105",
+      "fieldName": "Dance",
+      "confidence": "high",
+      "rationale": "Dance, 100105."
+    },
+    "mc-doptom": {
+      "name": "Doctor of Optometry",
+      "field": "0006",
+      "fieldName": "Health",
+      "confidence": "high",
+      "rationale": "Optometry (ASCED 060901, narrow field 0609 Optical Science) is absent from the list, so fall back to the 0006 Health broad field."
+    },
+    "mc-dphysio": {
+      "name": "Doctor of Physiotherapy",
+      "field": "061701",
+      "fieldName": "Physiotherapy",
+      "confidence": "high",
+      "rationale": "Entry-to-practice physiotherapy, 061701 Physiotherapy."
+    },
+    "mc-dvetmed": {
+      "name": "Doctor of Veterinary Medicine",
+      "field": "061101",
+      "fieldName": "Veterinary Science",
+      "confidence": "high",
+      "rationale": "Entry-to-practice veterinary degree, 061101 Veterinary Science."
+    },
+    "mc-eco": {
+      "name": "Master of Economics",
+      "field": "091901",
+      "fieldName": "Economics",
+      "confidence": "high",
+      "rationale": "Economics, 091901."
+    },
+    "mc-ecosmc": {
+      "name": "Master of Ecosystem Management and Conservation",
+      "field": "050901",
+      "fieldName": "Land, Parks and Wildlife Management",
+      "confidence": "medium",
+      "rationale": "Ecosystem management and conservation coded 050901 Land, Parks and Wildlife Management; alternative 010905 Ecology and Evolution."
+    },
+    "mc-ed": {
+      "name": "Master of Education",
+      "field": "070303",
+      "fieldName": "Education Studies",
+      "confidence": "high",
+      "rationale": "Generalist Master of Education is reported under 070303 Education Studies."
+    },
+    "mc-edebt": {
+      "name": "Master of Education in Evidence-Based Teaching",
+      "field": "070303",
+      "fieldName": "Education Studies",
+      "confidence": "high",
+      "rationale": "Education specialisation for practising teachers, 070303 Education Studies."
+    },
+    "mc-eleceng": {
+      "name": "Master of Electrical Engineering",
+      "field": "031301",
+      "fieldName": "Electrical Engineering",
+      "confidence": "high",
+      "rationale": "Electrical engineering, 031301."
+    },
+    "mc-engysys": {
+      "name": "Master of Energy Systems",
+      "field": "039999",
+      "fieldName": "Engineering and Related Technologies, n.e.c.",
+      "confidence": "medium",
+      "rationale": "Energy systems is interdisciplinary engineering without an ASCED field; 039999 Engineering n.e.c., alternative 031301."
+    },
+    "mc-enrslaw": {
+      "name": "Master of Energy and Resources Law",
+      "field": "0909",
+      "fieldName": "Law",
+      "confidence": "high",
+      "rationale": "Specialist law masters, 0909 Law."
+    },
+    "mc-ensysen": {
+      "name": "Master of Environmental Systems Engineering",
+      "field": "039901",
+      "fieldName": "Environmental Engineering",
+      "confidence": "high",
+      "rationale": "Environmental systems engineering, 039901 Environmental Engineering."
+    },
+    "mc-entrpsp": {
+      "name": "Master of Entrepreneurship",
+      "field": "080399",
+      "fieldName": "Business and Management, n.e.c.",
+      "confidence": "medium",
+      "rationale": "Entrepreneurship has no ASCED field; 080399 Business and Management n.e.c., alternative 080301."
+    },
+    "mc-env": {
+      "name": "Master of Environment",
+      "field": "050999",
+      "fieldName": "Environmental Studies, n.e.c.",
+      "confidence": "high",
+      "rationale": "Interdisciplinary Master of Environment, 050999 Environmental Studies n.e.c."
+    },
+    "mc-enveng": {
+      "name": "Master of Environmental Engineering",
+      "field": "039901",
+      "fieldName": "Environmental Engineering",
+      "confidence": "high",
+      "rationale": "Environmental engineering, 039901."
+    },
+    "mc-envlaw": {
+      "name": "Master of Environmental Law",
+      "field": "0909",
+      "fieldName": "Law",
+      "confidence": "high",
+      "rationale": "Specialist law masters, 0909 Law."
+    },
+    "mc-envsc": {
+      "name": "Master of Environmental Science",
+      "field": "050999",
+      "fieldName": "Environmental Studies, n.e.c.",
+      "confidence": "medium",
+      "rationale": "Environmental science is coded either 050999 Environmental Studies n.e.c. or 019999 Natural and Physical Sciences n.e.c.; chose 050999."
+    },
+    "mc-evalo": {
+      "name": "Master of Evaluation",
+      "field": "090103",
+      "fieldName": "Policy Studies",
+      "confidence": "medium",
+      "rationale": "Program evaluation (MGSE-hosted) coded 090103 Policy Studies; alternative 079999 Education n.e.c."
+    },
+    "mc-filmtv": {
+      "name": "Master of Film and Television",
+      "field": "100701",
+      "fieldName": "Audio Visual Studies",
+      "confidence": "high",
+      "rationale": "Film and television, 100701 Audio Visual Studies."
+    },
+    "mc-finance": {
+      "name": "Master of Finance",
+      "field": "081101",
+      "fieldName": "Banking and Finance",
+      "confidence": "high",
+      "rationale": "Finance, 081101 Banking and Finance."
+    },
+    "mc-finenh": {
+      "name": "Master of Finance (Enhanced)",
+      "field": "081101",
+      "fieldName": "Banking and Finance",
+      "confidence": "high",
+      "rationale": "Variant of Master of Finance, 081101 Banking and Finance."
+    },
+    "mc-foodpi": {
+      "name": "Master of Food and Packaging Innovation",
+      "field": "019905",
+      "fieldName": "Food Science and Biotechnology",
+      "confidence": "medium",
+      "rationale": "Food and packaging innovation coded 019905 Food Science and Biotechnology; alternative 039999 Engineering n.e.c."
+    },
+    "mc-gcclaw": {
+      "name": "Master of Global Competition and Consumer Law",
+      "field": "090901",
+      "fieldName": "Business and Commercial Law",
+      "confidence": "medium",
+      "rationale": "Competition and consumer law is commercial law, 090901 Business and Commercial Law; 0909 Law is the alternative."
+    },
+    "mc-gencoun": {
+      "name": "Master of Genetic Counselling",
+      "field": "069999",
+      "fieldName": "Health, n.e.c.",
+      "confidence": "medium",
+      "rationale": "Genetic counselling is a health profession with no ASCED field; 069999 Health n.e.c. chosen over 090513 Counselling."
+    },
+    "mc-genohlt": {
+      "name": "Master of Genomics and Health",
+      "field": "010909",
+      "fieldName": "Genetics",
+      "confidence": "medium",
+      "rationale": "Genomics and health coded 010909 Genetics; alternative 019901 Medical Science."
+    },
+    "mc-geog": {
+      "name": "Master of Geography",
+      "field": "090309",
+      "fieldName": "Human Geography",
+      "confidence": "medium",
+      "rationale": "Geography at UoM is predominantly human geography, 090309; alternative 010799 Earth Sciences n.e.c. for physical geography."
+    },
+    "mc-geosc": {
+      "name": "Master of Geoscience",
+      "field": "0107",
+      "fieldName": "Earth Sciences",
+      "confidence": "high",
+      "rationale": "Geoscience spans geology and related earth sciences, 0107 Earth Sciences narrow field."
+    },
+    "mc-gmcom": {
+      "name": "Master of Global Media Communication",
+      "field": "100799",
+      "fieldName": "Communication and Media Studies, n.e.c.",
+      "confidence": "high",
+      "rationale": "Global media communication, 100799 Communication and Media Studies n.e.c."
+    },
+    "mc-hrmmo": {
+      "name": "Master of Human Resource Management",
+      "field": "080303",
+      "fieldName": "Human Resource Management",
+      "confidence": "high",
+      "rationale": "Human resource management, 080303."
+    },
+    "mc-humrlaw": {
+      "name": "Master of Human Rights Law",
+      "field": "0909",
+      "fieldName": "Law",
+      "confidence": "high",
+      "rationale": "Specialist law masters, 0909 Law; 090909 International Law is the alternative."
+    },
+    "mc-ib": {
+      "name": "Master of International Business",
+      "field": "080311",
+      "fieldName": "International Business",
+      "confidence": "high",
+      "rationale": "International business, 080311."
+    },
+    "mc-ibl": {
+      "name": "Master of Indigenous Business Leadership",
+      "field": "080301",
+      "fieldName": "Business Management",
+      "confidence": "medium",
+      "rationale": "Indigenous business leadership is a management degree, 080301 Business Management; alternative 080399."
+    },
+    "mc-indeng": {
+      "name": "Master of Industrial Engineering",
+      "field": "030701",
+      "fieldName": "Mechanical Engineering",
+      "confidence": "medium",
+      "rationale": "Industrial engineering (ASCED 030703) is not listed; coded 030701 Mechanical Engineering, alternative 030101 Manufacturing Engineering."
+    },
+    "mc-inslead": {
+      "name": "Master of Instructional Leadership",
+      "field": "070303",
+      "fieldName": "Education Studies",
+      "confidence": "high",
+      "rationale": "Instructional leadership for school leaders, 070303 Education Studies."
+    },
+    "mc-intedib": {
+      "name": "Master of International Education (IB)",
+      "field": "070303",
+      "fieldName": "Education Studies",
+      "confidence": "medium",
+      "rationale": "IB-focused international education degree for practising teachers; 070303 Education Studies chosen over 070199 Teacher Education n.e.c."
+    },
+    "mc-intjour": {
+      "name": "Master of International Journalism",
+      "field": "100703",
+      "fieldName": "Journalism",
+      "confidence": "high",
+      "rationale": "International journalism, 100703 Journalism."
+    },
+    "mc-ir": {
+      "name": "Master of International Relations",
+      "field": "090101",
+      "fieldName": "Political Science",
+      "confidence": "medium",
+      "rationale": "International relations is reported under 090101 Political Science; alternative 0901 narrow field."
+    },
+    "mc-is": {
+      "name": "Master of Information Systems",
+      "field": "0203",
+      "fieldName": "Information Systems",
+      "confidence": "high",
+      "rationale": "Information systems, 0203 narrow field."
+    },
+    "mc-it": {
+      "name": "Master of Information Technology",
+      "field": "0201",
+      "fieldName": "Computer Science",
+      "confidence": "medium",
+      "rationale": "Master of IT is a computing conversion degree, 0201 Computer Science; alternative 029999 Information Technology n.e.c."
+    },
+    "mc-journ": {
+      "name": "Master of Journalism",
+      "field": "100703",
+      "fieldName": "Journalism",
+      "confidence": "high",
+      "rationale": "Journalism, 100703."
+    },
+    "mc-jurisd": {
+      "name": "Juris Doctor",
+      "field": "0909",
+      "fieldName": "Law",
+      "confidence": "high",
+      "rationale": "JD is the general law qualification, reported under 0909 Law."
+    },
+    "mc-larch": {
+      "name": "Master of Landscape Architecture",
+      "field": "040105",
+      "fieldName": "Landscape Architecture",
+      "confidence": "high",
+      "rationale": "Landscape architecture, 040105."
+    },
+    "mc-larchud": {
+      "name": "Master of Landscape Architecture/Master of Urban Design",
+      "field": "040105",
+      "fieldName": "Landscape Architecture",
+      "confidence": "high",
+      "rationale": "First component Landscape Architecture -> 040105; second component Urban Design (040103)."
+    },
+    "mc-larchup": {
+      "name": "Master of Landscape Architecture/Master of Urban Planning",
+      "field": "040105",
+      "fieldName": "Landscape Architecture",
+      "confidence": "high",
+      "rationale": "First component Landscape Architecture -> 040105; second component Urban Planning (040103)."
+    },
+    "mc-li": {
+      "name": "Master of Learning Intervention",
+      "field": "070113",
+      "fieldName": "Teacher Education: Special Education",
+      "confidence": "high",
+      "rationale": "Learning intervention (special/inclusive education), 070113 Teacher Education: Special Education."
+    },
+    "mc-mecheng": {
+      "name": "Master of Mechanical Engineering",
+      "field": "030701",
+      "fieldName": "Mechanical Engineering",
+      "confidence": "high",
+      "rationale": "Mechanical engineering, 030701."
+    },
+    "mc-mgmt": {
+      "name": "Master of Management",
+      "field": "080301",
+      "fieldName": "Business Management",
+      "confidence": "high",
+      "rationale": "Management, 080301 Business Management."
+    },
+    "mc-mgmtact": {
+      "name": "Master of Management (Accounting)",
+      "field": "0801",
+      "fieldName": "Accounting",
+      "confidence": "high",
+      "rationale": "Accounting specialisation, 0801 Accounting."
+    },
+    "mc-mgmtafn": {
+      "name": "Master of Management (Accounting and Finance)",
+      "field": "0801",
+      "fieldName": "Accounting",
+      "confidence": "medium",
+      "rationale": "Accounting and Finance; first-named Accounting -> 0801, alternative 081101 Banking and Finance."
+    },
+    "mc-mgmtein": {
+      "name": "Master of Management (Entrepreneurship and Innovation)",
+      "field": "080399",
+      "fieldName": "Business and Management, n.e.c.",
+      "confidence": "medium",
+      "rationale": "Entrepreneurship and innovation has no ASCED field; 080399 Business and Management n.e.c., alternative 080301."
+    },
+    "mc-mgmtfin": {
+      "name": "Master of Management (Finance)",
+      "field": "081101",
+      "fieldName": "Banking and Finance",
+      "confidence": "high",
+      "rationale": "Finance specialisation, 081101 Banking and Finance."
+    },
+    "mc-mgmtmkt": {
+      "name": "Master of Management (Marketing)",
+      "field": "080505",
+      "fieldName": "Marketing",
+      "confidence": "high",
+      "rationale": "Marketing specialisation, 080505 Marketing."
+    },
+    "mc-mgmtscm": {
+      "name": "Master of Management (Supply Chain Management)",
+      "field": "0803",
+      "fieldName": "Business and Management",
+      "confidence": "high",
+      "rationale": "Supply chain management (ASCED 080321) is not listed, so it aggregates to 0803 Business and Management."
+    },
+    "mc-mktcomm": {
+      "name": "Master of Marketing Communications",
+      "field": "080505",
+      "fieldName": "Marketing",
+      "confidence": "medium",
+      "rationale": "Marketing communications coded 080505 Marketing; alternative 100799 Communication and Media Studies n.e.c."
+    },
+    "mc-mled": {
+      "name": "Master of Modern Languages Education",
+      "field": "070199",
+      "fieldName": "Teacher Education, n.e.c.",
+      "confidence": "medium",
+      "rationale": "Modern languages education for teachers coded 070199 Teacher Education n.e.c.; alternative 070105 Secondary."
+    },
+    "mc-mti": {
+      "name": "Master of Medical Technology Innovation",
+      "field": "039903",
+      "fieldName": "Biomedical Engineering",
+      "confidence": "medium",
+      "rationale": "Medical technology innovation (medicine/engineering joint program) coded 039903 Biomedical Engineering; alternative 080399 for its commercialisation focus."
+    },
+    "mc-mtrneng": {
+      "name": "Master of Mechatronics Engineering",
+      "field": "030701",
+      "fieldName": "Mechanical Engineering",
+      "confidence": "medium",
+      "rationale": "Mechatronics (ASCED 030799/031303) is not listed; coded 030701 Mechanical Engineering, alternative 031303 Electronic Engineering."
+    },
+    "mc-musop": {
+      "name": "Master of Music (Opera Performance)",
+      "field": "100101",
+      "fieldName": "Music",
+      "confidence": "high",
+      "rationale": "Opera performance, 100101 Music."
+    },
+    "mc-musorp": {
+      "name": "Master of Music (Orchestral Performance)",
+      "field": "100101",
+      "fieldName": "Music",
+      "confidence": "high",
+      "rationale": "Orchestral performance, 100101 Music."
+    },
+    "mc-muspt": {
+      "name": "Master of Music (Performance Teaching)",
+      "field": "100101",
+      "fieldName": "Music",
+      "confidence": "high",
+      "rationale": "Music performance teaching, 100101 Music; 070199 is the teacher-education alternative."
+    },
+    "mc-ntcw": {
+      "name": "Master of Narrative Therapy and Community Work",
+      "field": "090513",
+      "fieldName": "Counselling",
+      "confidence": "medium",
+      "rationale": "Narrative therapy and community work coded 090513 Counselling; alternative 090599 Human Welfare Studies n.e.c."
+    },
+    "mc-nursc": {
+      "name": "Master of Nursing Science",
+      "field": "060301",
+      "fieldName": "General Nursing",
+      "confidence": "high",
+      "rationale": "Entry-to-practice nursing, 060301 General Nursing."
+    },
+    "mc-phtypae": {
+      "name": "Master of Physiotherapy (Paediatrics)",
+      "field": "061701",
+      "fieldName": "Physiotherapy",
+      "confidence": "high",
+      "rationale": "Physiotherapy specialisation, 061701 Physiotherapy."
+    },
+    "mc-phtyph": {
+      "name": "Master of Physiotherapy (Pelvic Health)",
+      "field": "061701",
+      "fieldName": "Physiotherapy",
+      "confidence": "high",
+      "rationale": "Physiotherapy specialisation, 061701 Physiotherapy."
+    },
+    "mc-privlaw": {
+      "name": "Master of Private Law",
+      "field": "0909",
+      "fieldName": "Law",
+      "confidence": "high",
+      "rationale": "Specialist law masters, 0909 Law."
+    },
+    "mc-prop": {
+      "name": "Master of Property",
+      "field": "080503",
+      "fieldName": "Real Estate",
+      "confidence": "medium",
+      "rationale": "Property (valuation, development, investment) is reported under 080503 Real Estate; 089903 Valuation is the alternative."
+    },
+    "mc-propsyc": {
+      "name": "Master of Professional Psychology",
+      "field": "090701",
+      "fieldName": "Psychology",
+      "confidence": "high",
+      "rationale": "Professional psychology, 090701 Psychology."
+    },
+    "mc-propup": {
+      "name": "Master of Property/Master of Urban Planning",
+      "field": "080503",
+      "fieldName": "Real Estate",
+      "confidence": "high",
+      "rationale": "First component Property -> 080503 Real Estate; second component Urban Planning (040103)."
+    },
+    "mc-psyched": {
+      "name": "Master of Psychology (Educational and Developmental)",
+      "field": "090701",
+      "fieldName": "Psychology",
+      "confidence": "high",
+      "rationale": "Educational and developmental psychology training, 090701 Psychology."
+    },
+    "mc-pubcom": {
+      "name": "Master of Publishing and Communications",
+      "field": "100705",
+      "fieldName": "Written Communication",
+      "confidence": "medium",
+      "rationale": "Publishing and communications coded 100705 Written Communication; alternative 100799."
+    },
+    "mc-scibif": {
+      "name": "Master of Science (Bioinformatics)",
+      "field": "010999",
+      "fieldName": "Biological Sciences, n.e.c.",
+      "confidence": "medium",
+      "rationale": "Bioinformatics has no ASCED field; 010999 Biological Sciences n.e.c., alternative 020199 Computer Science n.e.c."
+    },
+    "mc-scibio": {
+      "name": "Master of Science (BioSciences)",
+      "field": "0109",
+      "fieldName": "Biological Sciences",
+      "confidence": "high",
+      "rationale": "BioSciences spans several biology fields, 0109 Biological Sciences narrow field."
+    },
+    "mc-scibit": {
+      "name": "Master of Biotechnology",
+      "field": "019905",
+      "fieldName": "Food Science and Biotechnology",
+      "confidence": "high",
+      "rationale": "Biotechnology sits in 019905 Food Science and Biotechnology."
+    },
+    "mc-sciche": {
+      "name": "Master of Science (Chemistry)",
+      "field": "0105",
+      "fieldName": "Chemical Sciences",
+      "confidence": "high",
+      "rationale": "Chemistry specialisations aggregate to the 0105 Chemical Sciences narrow field."
+    },
+    "mc-sciear": {
+      "name": "Master of Science (Earth Sciences)",
+      "field": "0107",
+      "fieldName": "Earth Sciences",
+      "confidence": "high",
+      "rationale": "Earth sciences, 0107 narrow field."
+    },
+    "mc-sciepi": {
+      "name": "Master of Science (Epidemiology)",
+      "field": "061311",
+      "fieldName": "Epidemiology",
+      "confidence": "high",
+      "rationale": "Epidemiology, 061311."
+    },
+    "mc-scimat": {
+      "name": "Master of Science (Mathematics and Statistics)",
+      "field": "0101",
+      "fieldName": "Mathematical Sciences",
+      "confidence": "high",
+      "rationale": "Mathematics and statistics, 0101 Mathematical Sciences narrow field."
+    },
+    "mc-sciphy": {
+      "name": "Master of Science (Physics)",
+      "field": "010301",
+      "fieldName": "Physics",
+      "confidence": "high",
+      "rationale": "Physics, 010301."
+    },
+    "mc-scl": {
+      "name": "Master of Social Change Leadership",
+      "field": "099999",
+      "fieldName": "Society and Culture, n.e.c.",
+      "confidence": "medium",
+      "rationale": "Social change leadership (MGSE-hosted) has no ASCED field; 099999 Society and Culture n.e.c., alternative 079999 Education n.e.c."
+    },
+    "mc-scwr": {
+      "name": "Master of Screenwriting",
+      "field": "100701",
+      "fieldName": "Audio Visual Studies",
+      "confidence": "medium",
+      "rationale": "Screenwriting coded 100701 Audio Visual Studies; alternative 100705 Written Communication."
+    },
+    "mc-socw": {
+      "name": "Master of Social Work",
+      "field": "090501",
+      "fieldName": "Social Work",
+      "confidence": "high",
+      "rationale": "Social work, 090501."
+    },
+    "mc-softeng": {
+      "name": "Master of Software Engineering",
+      "field": "0201",
+      "fieldName": "Computer Science",
+      "confidence": "medium",
+      "rationale": "Software engineering has no listed ASCED field; coded 0201 Computer Science, alternatives 020103 Programming / 031305 Computer Engineering."
+    },
+    "mc-spchpth": {
+      "name": "Master of Speech Pathology",
+      "field": "061707",
+      "fieldName": "Speech Pathology",
+      "confidence": "high",
+      "rationale": "Speech pathology, 061707."
+    },
+    "mc-spmed": {
+      "name": "Master of Sports Medicine",
+      "field": "060199",
+      "fieldName": "Medical Studies, n.e.c.",
+      "confidence": "medium",
+      "rationale": "Sports medicine for medical practitioners coded 060199 Medical Studies n.e.c.; alternative 069903 Human Movement."
+    },
+    "mc-surged": {
+      "name": "Master of Surgical Education",
+      "field": "060199",
+      "fieldName": "Medical Studies, n.e.c.",
+      "confidence": "medium",
+      "rationale": "Surgical education trains surgeons as educators; 060199 Medical Studies n.e.c. chosen over 070111 Teacher Education: Higher Education."
+    },
+    "mc-tchecp": {
+      "name": "Master of Teaching (Early Childhood and Primary)",
+      "field": "070101",
+      "fieldName": "Teacher Education: Early Childhood",
+      "confidence": "high",
+      "rationale": "First-named Early Childhood -> 070101; also covers Primary (070103)."
+    },
+    "mc-teachec": {
+      "name": "Master of Teaching (Early Childhood)",
+      "field": "070101",
+      "fieldName": "Teacher Education: Early Childhood",
+      "confidence": "high",
+      "rationale": "Early childhood teaching, 070101."
+    },
+    "mc-teachpr": {
+      "name": "Master of Teaching (Primary)",
+      "field": "070103",
+      "fieldName": "Teacher Education: Primary",
+      "confidence": "high",
+      "rationale": "Primary teaching, 070103."
+    },
+    "mc-teachsa": {
+      "name": "Master of Teaching (Secondary)",
+      "field": "070105",
+      "fieldName": "Teacher Education: Secondary",
+      "confidence": "high",
+      "rationale": "Secondary teaching, 070105."
+    },
+    "mc-teachsi": {
+      "name": "Master of Teaching (Secondary) Internship",
+      "field": "070105",
+      "fieldName": "Teacher Education: Secondary",
+      "confidence": "high",
+      "rationale": "Internship variant of Master of Teaching (Secondary), 070105."
+    },
+    "mc-tesol": {
+      "name": "Master of TESOL",
+      "field": "070115",
+      "fieldName": "English as a Second Language Teaching",
+      "confidence": "high",
+      "rationale": "TESOL, 070115 English as a Second Language Teaching."
+    },
+    "mc-thtr": {
+      "name": "Master of Theatre",
+      "field": "100103",
+      "fieldName": "Drama and Theatre Studies",
+      "confidence": "high",
+      "rationale": "Theatre, 100103 Drama and Theatre Studies."
+    },
+    "mc-thtrdir": {
+      "name": "Master of Theatre (Directing)",
+      "field": "100103",
+      "fieldName": "Drama and Theatre Studies",
+      "confidence": "high",
+      "rationale": "Theatre directing, 100103 Drama and Theatre Studies."
+    },
+    "mc-thtrdra": {
+      "name": "Master of Theatre (Dramaturgy)",
+      "field": "100103",
+      "fieldName": "Drama and Theatre Studies",
+      "confidence": "high",
+      "rationale": "Dramaturgy, 100103 Drama and Theatre Studies."
+    },
+    "mc-thtrwri": {
+      "name": "Master of Theatre (Writing)",
+      "field": "100103",
+      "fieldName": "Drama and Theatre Studies",
+      "confidence": "high",
+      "rationale": "Theatre writing, 100103 Drama and Theatre Studies; 100705 is the alternative."
+    },
+    "mc-tranint": {
+      "name": "Master of Translation and Interpreting",
+      "field": "091519",
+      "fieldName": "Translating and Interpreting",
+      "confidence": "high",
+      "rationale": "Translation and interpreting, 091519."
+    },
+    "mc-uch": {
+      "name": "Master of Urban and Cultural Heritage",
+      "field": "040199",
+      "fieldName": "Architecture and Urban Environment, n.e.c.",
+      "confidence": "medium",
+      "rationale": "Urban and cultural heritage (built-environment faculty) coded 040199 Architecture and Urban Environment n.e.c.; alternative 090305 History."
+    },
+    "mc-upud": {
+      "name": "Master of Urban Planning/Master of Urban Design",
+      "field": "040103",
+      "fieldName": "Urban Design and Regional Planning",
+      "confidence": "high",
+      "rationale": "Urban Planning / Urban Design, both 040103 Urban Design and Regional Planning."
+    },
+    "mc-urbdes": {
+      "name": "Master of Urban Design",
+      "field": "040103",
+      "fieldName": "Urban Design and Regional Planning",
+      "confidence": "high",
+      "rationale": "Urban design, 040103 Urban Design and Regional Planning."
+    },
+    "mc-urbhort": {
+      "name": "Master of Urban Horticulture",
+      "field": "0501",
+      "fieldName": "Agriculture",
+      "confidence": "high",
+      "rationale": "Horticulture (ASCED 050103) is not listed, so it aggregates to 0501 Agriculture."
+    },
+    "mc-urpl": {
+      "name": "Master of Urban Planning",
+      "field": "040103",
+      "fieldName": "Urban Design and Regional Planning",
+      "confidence": "high",
+      "rationale": "Urban planning, 040103."
+    },
+    "mc-vetstdr": {
+      "name": "Master of Veterinary Studies",
+      "field": "061101",
+      "fieldName": "Veterinary Science",
+      "confidence": "high",
+      "rationale": "Veterinary studies, 061101 Veterinary Science."
+    },
+    "mc-ymhmo": {
+      "name": "Master of Youth Mental Health",
+      "field": "061399",
+      "fieldName": "Public Health, n.e.c.",
+      "confidence": "medium",
+      "rationale": "Youth mental health is a public/mental-health coursework degree; 061399 Public Health n.e.c., alternative 060305 Mental Health Nursing."
+    },
+    "me-dcd": {
+      "name": "Doctor of Clinical Dentistry",
+      "field": "060701",
+      "fieldName": "Dentistry",
+      "confidence": "high",
+      "rationale": "Specialist dental training, 060701 Dentistry."
+    },
+    "n01aa": {
+      "name": "Master of Clinical Research",
+      "field": "019901",
+      "fieldName": "Medical Science",
+      "confidence": "medium",
+      "rationale": "Clinical research methods coded 019901 Medical Science; alternative 060199 Medical Studies n.e.c."
+    }
+  }
+}

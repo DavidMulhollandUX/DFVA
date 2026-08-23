@@ -23,8 +23,29 @@ import {
   renderV4References,
   renderV4RubricTable,
 } from '../dfva/source/rubricV4'
+import {
+  PANELA_BASIS_VERSION,
+  UnmappedTitlesError,
+  fieldExposure,
+  loadPanelAContext,
+  median as medianOf,
+  resolvePanelA,
+  type PanelABasis,
+} from './dfva-panela-basis'
 
 const repoRoot = path.resolve(__dirname, '..')
+
+interface V4OnlyOut {
+  code: string
+  name: string
+  hasMarketReport: boolean
+  exposure: number | null
+  entryExposure: number | null
+  jirN: number | null
+  nTitles: number | null
+  nMedium: number | null
+  exposureBasis: PanelABasis | null
+}
 
 // ---------------------------------------------------------------------------
 // Panel A for v4-only programs.
@@ -38,36 +59,6 @@ const repoRoot = path.resolve(__dirname, '..')
 // The position stays withheld: pairing a measured exposure with a v4
 // adaptiveness needs a v4 median, which the migration cycle has not produced.
 // ---------------------------------------------------------------------------
-
-function parseCsv(p: string): Record<string, string>[] {
-  const text = readFileSync(path.join(repoRoot, p), 'utf8')
-  const rows: string[][] = []
-  let row: string[] = [], field = '', inQuotes = false
-  for (let i = 0; i < text.length; i++) {
-    const c = text[i]
-    if (inQuotes) {
-      if (c === '"') {
-        if (text[i + 1] === '"') { field += '"'; i++ } else inQuotes = false
-      } else field += c
-    } else if (c === '"') inQuotes = true
-    else if (c === ',') { row.push(field); field = '' }
-    else if (c === '\n' || c === '\r') {
-      if (field !== '' || row.length) { row.push(field); rows.push(row); row = []; field = '' }
-      if (c === '\r' && text[i + 1] === '\n') i++
-    } else field += c
-  }
-  if (field !== '' || row.length) { row.push(field); rows.push(row) }
-  const [header, ...body] = rows
-  return body.map((r) => Object.fromEntries(header.map((h, i) => [h, r[i] ?? ''])))
-}
-
-interface PanelA {
-  exposure: number
-  entryExposure: number | null
-  jirN: number | null
-  nTitles: number
-  nMedium: number
-}
 
 /**
  * Program names from the extension-cohort manifest, keyed by code. This is the
@@ -88,73 +79,6 @@ async function loadCohortNames(): Promise<Map<string, string>> {
     // No extension cohort file yet — every program falls back to its code.
   }
   return names
-}
-
-/** The same three crosswalk sources the v3 generator merges, same precedence. */
-function loadCrosswalk(): Map<string, { aioe: number; confidence: string }> {
-  const xw = new Map<string, { aioe: number; confidence: string }>()
-  for (const p of [
-    'data/aioe/reconciliation/reconcile_C_authoritative_288_index.csv',
-    'data/aioe/reconciliation/v2_panelA_new_occupation_crosswalk.csv',
-    'data/aioe/v31_extension_crosswalk.csv',
-  ]) {
-    for (const r of parseCsv(p)) {
-      const t = (r.occupation || '').trim()
-      if (t) xw.set(t, { aioe: parseFloat(r.ai_exposure_index), confidence: r.mapping_confidence || 'high' })
-    }
-  }
-  return xw
-}
-
-/**
- * Loose comparison so a punctuation or case difference cannot hide a record.
- * Must stay identical to the guard's `norm` in dfva-panela-coverage-check.ts —
- * an exact-match lookup here silently reports "no JIR record" for a program that
- * has one, which is the failure the guard exists to catch (511aa's record is
- * titled "Master of Public And International Law", capital "And").
- */
-const normProgramName = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, '')
-
-/**
- * Exposure for one v4-only program, matched to its JIR record by normalised
- * program name. An unmapped destination title throws rather than being skipped:
- * a mean over the subset that happens to be mapped is a different statistic than
- * the one a reader would take it for, and the error only ever runs one way.
- */
-function panelAFor(name: string, xw: Map<string, { aioe: number; confidence: string }>): PanelA | null {
-  const jir = JSON.parse(readFileSync(path.join(repoRoot, 'data', 'jir_data.json'), 'utf8')) as {
-    records: { program: string; n?: number; job_titles?: Record<string, string[]> }[]
-  }
-  const rec =
-    jir.records.find((r) => r.program === name) ??
-    jir.records.find((r) => normProgramName(r.program) === normProgramName(name))
-  if (!rec?.job_titles) return null
-
-  const titles: { title: string; entry: boolean }[] = []
-  const seen = new Set<string>()
-  for (const stage of ['entry', 'early_mid', 'mid_senior'] as const) {
-    for (const t of rec.job_titles[stage] ?? []) {
-      if (seen.has(t)) continue
-      seen.add(t)
-      titles.push({ title: t, entry: stage === 'entry' })
-    }
-  }
-  if (!titles.length) return null
-
-  const vals = titles.map((t) => {
-    const hit = xw.get(t.title)
-    if (!hit) throw new Error(`Unmapped JIR title for "${name}": "${t.title}" — add it to data/aioe/v31_extension_crosswalk.csv`)
-    return { ...t, ...hit }
-  })
-  const mean = (xs: number[]) => xs.reduce((a, b) => a + b, 0) / xs.length
-  const entry = vals.filter((v) => v.entry).map((v) => v.aioe)
-  return {
-    exposure: Math.round(mean(vals.map((v) => v.aioe)) * 100) / 100,
-    entryExposure: entry.length ? Math.round(mean(entry) * 100) / 100 : null,
-    jirN: rec.n ?? null,
-    nTitles: vals.length,
-    nMedium: vals.filter((v) => v.confidence !== 'high').length,
-  }
 }
 
 const banner = (source: string): string =>
@@ -657,19 +581,19 @@ async function appPanelCModule(): Promise<string> {
     if (results[code]) throw new Error(`${code} is a research degree (excludedResearch) but carries a panelCv4 block`)
   }
   const cohortNames = await loadCohortNames()
-  const xw = loadCrosswalk()
-  const v4Only: Record<
-    string,
-    { code: string; name: string; hasMarketReport: boolean; exposure: number | null; entryExposure: number | null; jirN: number | null; nTitles: number | null; nMedium: number | null }
-  > = {}
+  const ctx = loadPanelAContext()
+  const v4Only: Record<string, V4OnlyOut> = {}
+  const unmapped: UnmappedTitlesError[] = []
+  const noBasis: string[] = []
   for (const code of Object.keys(results)) {
     if (allV3Codes.has(code)) continue
     const reportPath = path.join(repoRoot, 'reports', `dfva-v4-${code}.md`)
     // Precedence: the report title, then the cohort manifest, then the code.
     // The code is a last resort and not a name — it is the string the page would
     // show if nothing in the repo knows what the program is called, and it also
-    // matches no JIR record, so it suppresses Panel A as a side effect. Reaching
-    // for the manifest first keeps that fallback for genuinely unknown programs.
+    // matches no JIR record, so it suppresses the own-record tiers as a side
+    // effect. Reaching for the manifest first keeps that fallback for genuinely
+    // unknown programs.
     let name = cohortNames.get(code) ?? code.toUpperCase()
     try {
       const first = (await fs.readFile(reportPath, 'utf8')).split('\n')[0]
@@ -678,9 +602,17 @@ async function appPanelCModule(): Promise<string> {
     } catch {
       // No report drafted yet: the manifest name (or the code) already stands.
     }
-    // The program's name is also the JIR record key. No match means no alumni
-    // record — a real state, carried as nulls.
-    const a = panelAFor(name, xw)
+    // Tiered resolution (docs/dfva-v4-panela-basis.md). A missing tier is a
+    // real state carried as nulls AND reported as a build failure below: every
+    // coursework program in the cohort is meant to resolve to some basis.
+    let a: ReturnType<typeof resolvePanelA> = null
+    try {
+      a = resolvePanelA(code, name, ctx)
+    } catch (e) {
+      if (e instanceof UnmappedTitlesError) unmapped.push(e)
+      else throw e
+    }
+    if (!a && !unmapped.some((u) => u.code === code)) noBasis.push(`${code} ("${name}")`)
     // Whether Part B has anything to show is a fact about the filesystem, not
     // about registry membership — the page used the latter and so kept claiming
     // "no market evidence" beside a rendered market card.
@@ -694,11 +626,70 @@ async function appPanelCModule(): Promise<string> {
       jirN: a?.jirN ?? null,
       nTitles: a?.nTitles ?? null,
       nMedium: a?.nMedium ?? null,
+      exposureBasis: a?.basis ?? null,
     }
     console.log(
       a
-        ? `v4-only ${code}: exposure ${a.exposure} (n=${a.jirN}, ${a.nTitles} titles, ${a.nMedium} medium-confidence)`
-        : `v4-only ${code}: no JIR record for "${name}" — Panel C only`,
+        ? `v4-only ${code}: exposure ${a.exposure} · ${a.basis.tier} (${a.basis.sources.map((s) => s.name).join(' ∪ ')}; n=${a.jirN ?? '—'}, ${a.nTitles} titles, ${a.nMedium} medium-confidence)`
+        : `v4-only ${code}: NO BASIS for "${name}"`,
+    )
+  }
+  if (unmapped.length || noBasis.length) {
+    const lines = [
+      ...unmapped.map((u) => u.message),
+      ...noBasis.map((n) => `${n}: no tier applies — add a panela_basis_overrides.json entry or a \`field\` in scripts/v4_cohort_ext.json`),
+    ]
+    throw new Error(`Panel A basis unresolved for ${unmapped.length + noBasis.length} program(s):\n${lines.join('\n')}`)
+  }
+
+  // Basis for EVERY scored program, reference cohort included. v3Programs.ts
+  // records the reference cohort's reconciled basis as matchTier "exact" even
+  // where the package borrowed a cognate/partial record (mc-surged ← Master of
+  // Education); the report page labels the basis from this map instead. The
+  // guard asserts the resolver reproduces every published v3 exposure, so the
+  // label and the value cannot disagree.
+  const refCohort = JSON.parse(readFileSync(path.join(repoRoot, 'scripts/v4_cohort.json'), 'utf8')) as { code: string; name: string }[]
+  const refNames = new Map(refCohort.map((p) => [p.code, p.name]))
+  // Programs scored under v3 but absent from both cohort files (244cw = mc-phmo alias) take their v3 name.
+  const v3Src = readFileSync(path.join(repoRoot, 'compass/app/src/compass/v3/data/v3Programs.ts'), 'utf8')
+  for (const m of v3Src.matchAll(/code: "([a-z0-9-]+)",\s*name: "([^"]+)"/g)) if (!refNames.has(m[1])) refNames.set(m[1], m[2])
+  const panelABasis: Record<string, PanelABasis> = {}
+  for (const code of Object.keys(results).sort()) {
+    if (v4Only[code]?.exposureBasis) { panelABasis[code] = v4Only[code].exposureBasis!; continue }
+    const name = refNames.get(code) ?? cohortNames.get(code)
+    if (!name) continue
+    try {
+      const r = resolvePanelA(code, name, ctx)
+      if (r) panelABasis[code] = r.basis
+    } catch (e) {
+      if (e instanceof UnmappedTitlesError) unmapped.push(e)
+      else throw e
+    }
+  }
+  if (unmapped.length) throw new Error(`Panel A basis unresolved for reference program(s):\n${unmapped.map((u) => u.message).join('\n')}`)
+
+  // Field-basis median over the reference cohort: field-tier values sit on a
+  // different occupation universe (JSA field lists vs alumni titles) and are
+  // placed against this median, never against the program-grain 90.9.
+  const fieldValues: number[] = []
+  const fieldUnmapped: UnmappedTitlesError[] = []
+  for (const code of referenceCodes) {
+    try {
+      const v = fieldExposure(code, ctx)
+      if (v !== null) fieldValues.push(v)
+    } catch (e) {
+      if (e instanceof UnmappedTitlesError) fieldUnmapped.push(e)
+      else throw e
+    }
+  }
+  if (fieldUnmapped.length) {
+    throw new Error(`Field-basis titles unmapped for reference cohort:\n${fieldUnmapped.map((u) => u.message).join('\n')}`)
+  }
+  const expMedianField =
+    fieldValues.length === referenceCodes.length ? Math.round(medianOf(fieldValues) * 100) / 100 : null
+  if (Object.values(v4Only).some((p) => p.exposureBasis?.tier === 'field') && expMedianField === null) {
+    throw new Error(
+      `field-tier programs exist but only ${fieldValues.length}/${referenceCodes.length} reference programs have a field-basis value — assign \`field\` to every reference program`,
     )
   }
 
@@ -710,8 +701,10 @@ async function appPanelCModule(): Promise<string> {
       workplaceScored.length === referenceCodes.length && referenceCodes.length > 0,
     complete,
     adaptMedian: median,
-    // Panel A is unchanged by v4; the exposure threshold is inherited as-is.
+    // Panel A is unchanged by v4; the program-grain threshold is inherited as-is.
     expMedian: 90.9,
+    expMedianField,
+    panelABasisVersion: PANELA_BASIS_VERSION,
     pending: referenceCodes.filter((c) => typeof results[c]?.adaptiveness !== 'number'),
   }
 
@@ -728,18 +721,27 @@ async function appPanelCModule(): Promise<string> {
     'export interface V4PanelC {\n  instrument: string;\n  C1: V4ItemResult;\n  C2: V4ItemResult;\n  C3: V4ItemResult;\n  C4: V4ItemResult;\n  C5: V4ItemResult;\n  adaptiveness: number;\n  W1?: V4ItemResult;\n  W2?: V4ItemResult;\n  W3?: V4ItemResult;\n  workplace?: number;\n  gates: { G1: V4GateResult; G2: V4GateResult };\n  ambiguities: string[];\n  notScoreable: string[];\n  verified?: { adversarial: boolean; mechanical: boolean; date: string };\n}\n\n' +
     '/** Migration-cycle status. `adaptMedian` is null until every reference-cohort\n' +
     ' *  program is scored on v4; position labels stay withheld while it is null. */\n' +
-    'export interface V4Meta {\n  cohortSize: number;\n  scored: number;\n  workplaceScored: number;\n  workplaceComplete: boolean;\n  complete: boolean;\n  adaptMedian: number | null;\n  expMedian: number;\n  pending: string[];\n}\n\n' +
+    'export interface V4Meta {\n  cohortSize: number;\n  scored: number;\n  workplaceScored: number;\n  workplaceComplete: boolean;\n  complete: boolean;\n  adaptMedian: number | null;\n  /** Program-grain exposure median (alumni-title basis). */\n  expMedian: number;\n  /** Field-grain exposure median (JSA HEO basis) over the same reference cohort; null until every reference program has a field. Field-tier programs are placed against this, never against expMedian. */\n  expMedianField: number | null;\n  panelABasisVersion: string;\n  pending: string[];\n}\n\n' +
     `export const V4_META: V4Meta = ${JSON.stringify(meta, null, 2)};\n\n` +
+    '/** Which destination distribution stands for the program (docs/dfva-v4-panela-basis.md).\n' +
+    ' *  exact/variant = own alumni record; pooled/combined = own program family;\n' +
+    ' *  cognate/partial = a related program\'s record (an assumption, labelled);\n' +
+    ' *  field = JSA HEO field-of-education occupation list (placed against expMedianField). */\n' +
+    'export type V4PanelATier = "exact" | "variant" | "pooled" | "combined" | "cognate" | "partial" | "field";\n' +
+    'export type V4PanelAGrain = "program" | "program-family" | "related-program" | "field";\n' +
+    'export interface V4PanelABasis {\n  tier: V4PanelATier;\n  grain: V4PanelAGrain;\n  sources: { name: string; n: number | null }[];\n  field?: string;\n  dominantShare?: { name: string; share: number };\n  /** Multi-record tiers: records set aside because they carry a refused title. */\n  excludedSources?: { name: string; refusedTitles: string[] }[];\n  /** Field tier: share-weighted mean (Felten aggregation rule). */\n  exposureWeighted?: number;\n  /** Field tier: ANZSCO occupations set aside as unmappable, with the share they carried. */\n  excludedTitles?: { title: string; share: number | null }[];\n  /** Field tier: summed entry-stage share (%) the value stands on. */\n  coverage?: number;\n  indexVariant: "AIOE-2021";\n  note?: string;\n}\n\n' +
     '/** A program scored on v4 that is not in the v3 registry.\n' +
     ' *\n' +
-    ' *  Exposure is instrument-independent, so where the program has its own JIR\n' +
-    ' *  alumni record it is computed here by the identical Panel A procedure and\n' +
-    ' *  is a measured value, comparable with every other program. Where it has no\n' +
-    ' *  such record the fields are null and the page states the absence rather\n' +
-    ' *  than estimating it. Either way no POSITION is assigned: that needs a v4\n' +
-    ' *  adaptiveness median, which the migration cycle has not yet produced. */\n' +
-    'export interface V4OnlyProgram {\n  code: string;\n  name: string;\n  hasMarketReport: boolean;\n  exposure: number | null;\n  entryExposure: number | null;\n  jirN: number | null;\n  nTitles: number | null;\n  nMedium: number | null;\n}\n\n' +
+    ' *  Exposure is instrument-independent and is computed by the identical Panel A\n' +
+    ' *  procedure for every program; `exposureBasis` records WHICH destination\n' +
+    ' *  distribution it was computed on, so an estimate from a related program or\n' +
+    ' *  a field-of-education list never reads as the program\'s own measurement. */\n' +
+    'export interface V4OnlyProgram {\n  code: string;\n  name: string;\n  hasMarketReport: boolean;\n  exposure: number | null;\n  entryExposure: number | null;\n  jirN: number | null;\n  nTitles: number | null;\n  nMedium: number | null;\n  exposureBasis: V4PanelABasis | null;\n}\n\n' +
     `export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = ${JSON.stringify(v4Only, null, 2)};\n\n` +
+    '/** Panel A basis for every program scored on v4, reference cohort included\n' +
+    ' *  (their exposure VALUE still comes from v3Programs.ts; this is the label). */\n' +
+    `export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = ${JSON.stringify(panelABasis, null, 2)};\n\n` +
+    'export const v4PanelABasisByCode = (code: string): V4PanelABasis | undefined =>\n  V4_PANEL_A_BASIS[code.toLowerCase()];\n\n' +
     'export const v4OnlyProgramByCode = (code: string): V4OnlyProgram | undefined =>\n  V4_ONLY_PROGRAMS[code.toLowerCase()];\n\n' +
     '/** Research degrees excluded from Panel C v4 by scope (thesis PhDs, higher\n' +
     ' *  doctorates): no taught curriculum to score. Source: scripts/v4_cohort_ext_exclusions.json. */\n' +

@@ -1,0 +1,571 @@
+{
+  "_meta": {
+    "description": "Curated Panel A basis overrides: programs whose destination distribution is borrowed from a related program's JIR record (tiers cognate / partial), or whose own record carries a different title (tier exact). Consulted only after the own-record tiers (exact/variant/pooled/combined) fail. Method: docs/dfva-v4-panela-basis.md.",
+    "seededFrom": "data/aioe/reconciliation/v2_panelA_authoritative_aioe.csv tiers + docs/JIR/dfva_jir_map.json",
+    "updated": "2026-08-22"
+  },
+  "programs": {
+    "080cl": {
+      "tier": "partial",
+      "sources": [
+        "Master of Applied Psychology"
+      ],
+      "note": "Professional psychology stream; same program-family record the reconciliation package used for 527cl."
+    },
+    "080cn": {
+      "tier": "partial",
+      "sources": [
+        "Master of Applied Psychology"
+      ],
+      "note": "Professional psychology stream; same program-family record the reconciliation package used for 527cl."
+    },
+    "192aa": {
+      "tier": "partial",
+      "sources": [
+        "Master of Laws"
+      ],
+      "note": "International Tax is a Melbourne Law Masters specialisation; the Master of Laws record (n=676) is the program-family record, as the reconciliation package did for specialisation streams."
+    },
+    "294be": {
+      "tier": "cognate",
+      "sources": [
+        "Master of Management (Marketing)"
+      ],
+      "note": "Discipline-matched marketing master."
+    },
+    "300bb": {
+      "tier": "partial",
+      "sources": [
+        "Master of Education"
+      ],
+      "note": "Professional doctorate in education; Master of Education record as for mc-surged / mc-intedib."
+    },
+    "507aa": {
+      "tier": "partial",
+      "sources": [
+        "Master of Laws"
+      ],
+      "note": "Health and Medical Law is a Melbourne Law Masters specialisation; the Master of Laws record (n=676) is the program-family record, as the reconciliation package did for specialisation streams."
+    },
+    "510aa": {
+      "tier": "partial",
+      "sources": [
+        "Master of Laws"
+      ],
+      "note": "Employment and Labour Relations Law is a Melbourne Law Masters specialisation; the Master of Laws record (n=676) is the program-family record, as the reconciliation package did for specialisation streams."
+    },
+    "526aa": {
+      "tier": "partial",
+      "sources": [
+        "Master of Laws"
+      ],
+      "note": "Banking and Finance Law is a Melbourne Law Masters specialisation; the Master of Laws record (n=676) is the program-family record, as the reconciliation package did for specialisation streams."
+    },
+    "527cl": {
+      "tier": "partial",
+      "sources": [
+        "Master of Applied Psychology"
+      ],
+      "note": "Clinical Psychology stream; the Applied Psychology record is the program-family record used by the reconciliation package (tier partial)."
+    },
+    "527cn": {
+      "tier": "partial",
+      "sources": [
+        "Master of Applied Psychology"
+      ],
+      "note": "Professional psychology stream; same program-family record the reconciliation package used for 527cl."
+    },
+    "572at": {
+      "tier": "cognate",
+      "sources": [
+        "Doctor of Medicine"
+      ],
+      "note": "Postgraduate medical program for practising doctors; MD record is the discipline-matched record."
+    },
+    "635aa": {
+      "tier": "partial",
+      "sources": [
+        "Master of Laws"
+      ],
+      "note": "Law and Development is a Melbourne Law Masters specialisation; the Master of Laws record (n=676) is the program-family record, as the reconciliation package did for specialisation streams."
+    },
+    "746st": {
+      "tier": "partial",
+      "sources": [
+        "Master of Civil Engineering"
+      ],
+      "note": "Engineering Structures is a civil-engineering specialisation; reconciliation package tier partial."
+    },
+    "872bb": {
+      "tier": "cognate",
+      "sources": [
+        "Doctor of Veterinary Medicine"
+      ],
+      "note": "Veterinary graduate program; DVM is the discipline-matched record."
+    },
+    "d01lf": {
+      "tier": "exact",
+      "sources": [
+        "Master of Creative Writing, Publishing"
+      ],
+      "note": "Own record; the JIR report title is truncated to 'Master of Creative Writing, Publishing'."
+    },
+    "dr-philedp": {
+      "tier": "partial",
+      "sources": [
+        "Master of Applied Psychology"
+      ],
+      "note": "Professional psychology stream; same program-family record the reconciliation package used for 527cl."
+    },
+    "j17re": {
+      "tier": "cognate",
+      "sources": [
+        "Master of Social Work"
+      ],
+      "note": "Advanced Social Work is the post-qualifying version of the MSW."
+    },
+    "mc-actsc": {
+      "tier": "cognate",
+      "sources": [
+        "Bachelor of Commerce (Actuarial Studies)"
+      ],
+      "note": "Actuarial discipline; the only actuarial alumni record (docs/JIR/dfva_jir_map.json named it for mc-actsc)."
+    },
+    "mc-actscen": {
+      "tier": "cognate",
+      "sources": [
+        "Bachelor of Commerce (Actuarial Studies)"
+      ],
+      "note": "Actuarial discipline; the only actuarial alumni record (docs/JIR/dfva_jir_map.json named it for mc-actsc)."
+    },
+    "mc-actscex": {
+      "tier": "cognate",
+      "sources": [
+        "Bachelor of Commerce (Actuarial Studies)"
+      ],
+      "note": "Actuarial discipline; the only actuarial alumni record (docs/JIR/dfva_jir_map.json named it for mc-actsc)."
+    },
+    "mc-aecoenh": {
+      "tier": "cognate",
+      "sources": [
+        "Master of Economics"
+      ],
+      "note": "Econometrics/economics discipline."
+    },
+    "mc-aemtrcs": {
+      "tier": "cognate",
+      "sources": [
+        "Master of Economics"
+      ],
+      "note": "Econometrics/economics discipline."
+    },
+    "mc-aimo": {
+      "tier": "cognate",
+      "sources": [
+        "Master of Computer Science"
+      ],
+      "note": "AI is a computer-science specialisation."
+    },
+    "mc-anamgt": {
+      "tier": "partial",
+      "sources": [
+        "Master of Management"
+      ],
+      "note": "Business-school analytics master; management family record (as mc-busana)."
+    },
+    "mc-apbusa": {
+      "tier": "partial",
+      "sources": [
+        "Master of Management"
+      ],
+      "note": "Reconciliation package tier partial."
+    },
+    "mc-archeng": {
+      "tier": "partial",
+      "sources": [
+        "Master of Architecture",
+        "Master of Civil Engineering"
+      ],
+      "note": "Architectural engineering spans both records."
+    },
+    "mc-archuch": {
+      "tier": "partial",
+      "sources": [
+        "Master of Architecture",
+        "Master of Urban Planning"
+      ],
+      "note": "Double degree; the urban design / urban cultural heritage component has no record and takes Master of Urban Planning as mc-urbdes does."
+    },
+    "mc-archud": {
+      "tier": "partial",
+      "sources": [
+        "Master of Architecture",
+        "Master of Urban Planning"
+      ],
+      "note": "Double degree; the urban design / urban cultural heritage component has no record and takes Master of Urban Planning as mc-urbdes does."
+    },
+    "mc-base": {
+      "tier": "partial",
+      "sources": [
+        "Master of Social Policy"
+      ],
+      "note": "Reconciliation package tier partial."
+    },
+    "mc-bmedsc": {
+      "tier": "cognate",
+      "sources": [
+        "Bachelor of Biomedicine (Human Structure and",
+        "Bachelor of Biomedicine (Immunology)",
+        "Bachelor of Biomedicine (Microbiology)",
+        "Bachelor of Biomedicine (Neuroscience)",
+        "Bachelor of Biomedicine (Pathology)",
+        "Bachelor of Biomedicine (Pharmacology)",
+        "Bachelor of Biomedicine (Physiology)"
+      ],
+      "note": "dfva_jir_map 'Bachelor of Biomedicine majors': union of the seven major records."
+    },
+    "mc-bus": {
+      "tier": "partial",
+      "sources": [
+        "Master of Management"
+      ],
+      "note": "Generalist business master; Master of Management family record."
+    },
+    "mc-busana": {
+      "tier": "partial",
+      "sources": [
+        "Master of Management"
+      ],
+      "note": "Reconciliation package tier partial."
+    },
+    "mc-climsci": {
+      "tier": "cognate",
+      "sources": [
+        "Master of Environmental Science"
+      ],
+      "note": "Closest discipline-matched record."
+    },
+    "mc-clind": {
+      "tier": "exact",
+      "sources": [
+        "Doctor of Clinical Dentistry"
+      ],
+      "note": "Same course under its former award title; the JIR record is titled Doctor of Clinical Dentistry."
+    },
+    "mc-comact": {
+      "tier": "cognate",
+      "sources": [
+        "Master of Management (Accounting)"
+      ],
+      "note": "Discipline-matched accounting master."
+    },
+    "mc-comacts": {
+      "tier": "cognate",
+      "sources": [
+        "Bachelor of Commerce (Actuarial Studies)"
+      ],
+      "note": "Actuarial discipline; the only actuarial alumni record (docs/JIR/dfva_jir_map.json named it for mc-actsc)."
+    },
+    "mc-comdrfs": {
+      "tier": "cognate",
+      "sources": [
+        "Master of Management (Finance)"
+      ],
+      "note": "Decision, risk and financial sciences — finance discipline."
+    },
+    "mc-comeco": {
+      "tier": "cognate",
+      "sources": [
+        "Master of Economics"
+      ],
+      "note": "Econometrics/economics discipline."
+    },
+    "mc-comfin": {
+      "tier": "cognate",
+      "sources": [
+        "Master of Finance"
+      ],
+      "note": "Discipline-matched finance master."
+    },
+    "mc-commgmt": {
+      "tier": "cognate",
+      "sources": [
+        "Master of Management"
+      ],
+      "note": "Discipline-matched management master."
+    },
+    "mc-commktg": {
+      "tier": "cognate",
+      "sources": [
+        "Master of Management (Marketing)"
+      ],
+      "note": "Discipline-matched marketing master."
+    },
+    "mc-cybscmo": {
+      "tier": "cognate",
+      "sources": [
+        "Master of Information Technology"
+      ],
+      "note": "Cyber security is an IT specialisation."
+    },
+    "mc-dinfeng": {
+      "tier": "cognate",
+      "sources": [
+        "Master of Civil Engineering"
+      ],
+      "note": "Civil/environmental engineering discipline."
+    },
+    "mc-dmktg": {
+      "tier": "cognate",
+      "sources": [
+        "Master of Management (Marketing)"
+      ],
+      "note": "Discipline-matched marketing master."
+    },
+    "mc-ecosmc": {
+      "tier": "cognate",
+      "sources": [
+        "Master of Environment"
+      ],
+      "note": "Environmental-management discipline."
+    },
+    "mc-enrslaw": {
+      "tier": "partial",
+      "sources": [
+        "Master of Laws"
+      ],
+      "note": "Energy and Resources Law is a Melbourne Law Masters specialisation; the Master of Laws record (n=676) is the program-family record, as the reconciliation package did for specialisation streams."
+    },
+    "mc-ensysen": {
+      "tier": "cognate",
+      "sources": [
+        "Master of Civil Engineering"
+      ],
+      "note": "Civil/environmental engineering discipline."
+    },
+    "mc-entrpsp": {
+      "tier": "partial",
+      "sources": [
+        "Master of Management"
+      ],
+      "note": "Business-school master without its own record."
+    },
+    "mc-enveng": {
+      "tier": "cognate",
+      "sources": [
+        "Master of Civil Engineering"
+      ],
+      "note": "Civil/environmental engineering discipline."
+    },
+    "mc-envlaw": {
+      "tier": "partial",
+      "sources": [
+        "Master of Laws"
+      ],
+      "note": "Environmental Law is a Melbourne Law Masters specialisation; the Master of Laws record (n=676) is the program-family record, as the reconciliation package did for specialisation streams."
+    },
+    "mc-foodpi": {
+      "tier": "cognate",
+      "sources": [
+        "Master of Food Science"
+      ],
+      "note": "Discipline-matched record."
+    },
+    "mc-gcclaw": {
+      "tier": "partial",
+      "sources": [
+        "Master of Laws"
+      ],
+      "note": "Global Competition and Consumer Law is a Melbourne Law Masters specialisation; the Master of Laws record (n=676) is the program-family record, as the reconciliation package did for specialisation streams."
+    },
+    "mc-geog": {
+      "tier": "cognate",
+      "sources": [
+        "Bachelor of Arts (Geography)"
+      ],
+      "note": "Discipline-matched major record."
+    },
+    "mc-geosc": {
+      "tier": "cognate",
+      "sources": [
+        "Bachelor of Science (Geology)"
+      ],
+      "note": "As mc-sciear."
+    },
+    "mc-hrmmo": {
+      "tier": "cognate",
+      "sources": [
+        "Master of Management (Human Resources)"
+      ],
+      "note": "Discipline-matched HR master."
+    },
+    "mc-humrlaw": {
+      "tier": "partial",
+      "sources": [
+        "Master of Laws"
+      ],
+      "note": "Human Rights Law is a Melbourne Law Masters specialisation; the Master of Laws record (n=676) is the program-family record, as the reconciliation package did for specialisation streams."
+    },
+    "mc-ibl": {
+      "tier": "partial",
+      "sources": [
+        "Master of Management"
+      ],
+      "note": "Business-school leadership master without its own record."
+    },
+    "mc-indeng": {
+      "tier": "partial",
+      "sources": [
+        "Master of Mechanical Engineering",
+        "Master of Engineering Management"
+      ],
+      "note": "dfva_jir_map: mechanical engineering / engineering management family."
+    },
+    "mc-intedib": {
+      "tier": "partial",
+      "sources": [
+        "Master of Education"
+      ],
+      "note": "Reconciliation package tier partial."
+    },
+    "mc-intjour": {
+      "tier": "cognate",
+      "sources": [
+        "Master of Journalism"
+      ],
+      "note": "Discipline-matched record."
+    },
+    "mc-larchud": {
+      "tier": "partial",
+      "sources": [
+        "Master of Landscape Architecture",
+        "Master of Urban Planning"
+      ],
+      "note": "Double degree; urban design component takes Master of Urban Planning as mc-urbdes does."
+    },
+    "mc-larchup": {
+      "tier": "partial",
+      "sources": [
+        "Master of Landscape Architecture",
+        "Master of Urban Planning"
+      ],
+      "note": "Double degree; urban design component takes Master of Urban Planning as mc-urbdes does."
+    },
+    "mc-mled": {
+      "tier": "partial",
+      "sources": [
+        "Master of TESOL"
+      ],
+      "note": "Languages-education master; TESOL is the nearest language-teaching record."
+    },
+    "mc-phtypae": {
+      "tier": "cognate",
+      "sources": [
+        "Doctor of Physiotherapy"
+      ],
+      "note": "As mc-phtyph."
+    },
+    "mc-phtyph": {
+      "tier": "cognate",
+      "sources": [
+        "Doctor of Physiotherapy"
+      ],
+      "note": "Reconciliation package tier cognate."
+    },
+    "mc-privlaw": {
+      "tier": "partial",
+      "sources": [
+        "Master of Laws"
+      ],
+      "note": "Private Law is a Melbourne Law Masters specialisation; the Master of Laws record (n=676) is the program-family record, as the reconciliation package did for specialisation streams."
+    },
+    "mc-psyched": {
+      "tier": "partial",
+      "sources": [
+        "Master of Applied Psychology"
+      ],
+      "note": "Professional psychology stream; same program-family record the reconciliation package used for 527cl."
+    },
+    "mc-scibio": {
+      "tier": "cognate",
+      "sources": [
+        "Bachelor of Science (Biochemistry and Molecular",
+        "Bachelor of Science (Ecology And Evolutionary",
+        "Bachelor of Science (Genetics)",
+        "Bachelor of Science (Microbiology)",
+        "Bachelor of Science (Zoology)"
+      ],
+      "note": "dfva_jir_map 'Bachelor of Science (bio majors)': union of the BSc biological-science major records."
+    },
+    "mc-sciche": {
+      "tier": "cognate",
+      "sources": [
+        "Bachelor of Science (Chemistry)"
+      ],
+      "note": "Reconciliation package tier cognate (discipline-matched bachelor major)."
+    },
+    "mc-sciear": {
+      "tier": "cognate",
+      "sources": [
+        "Bachelor of Science (Geology)"
+      ],
+      "note": "Reconciliation package tier cognate."
+    },
+    "mc-sciepi": {
+      "tier": "partial",
+      "sources": [
+        "Master of Public Health"
+      ],
+      "note": "dfva_jir_map: Master of Public Health is the program-family record for the epidemiology stream."
+    },
+    "mc-scimat": {
+      "tier": "cognate",
+      "sources": [
+        "Bachelor of Science (Mathematics and Statistics)"
+      ],
+      "note": "Discipline-matched major record."
+    },
+    "mc-sciphy": {
+      "tier": "cognate",
+      "sources": [
+        "Bachelor of Science (Physics)"
+      ],
+      "note": "Reconciliation package tier cognate."
+    },
+    "mc-surged": {
+      "tier": "partial",
+      "sources": [
+        "Master of Education"
+      ],
+      "note": "Reconciliation package tier partial."
+    },
+    "mc-uch": {
+      "tier": "partial",
+      "sources": [
+        "Master of Urban Planning"
+      ],
+      "note": "Urban and cultural heritage sits in the planning program family."
+    },
+    "mc-upud": {
+      "tier": "partial",
+      "sources": [
+        "Master of Urban Planning"
+      ],
+      "note": "Urban design component takes Master of Urban Planning as mc-urbdes does."
+    },
+    "mc-urbdes": {
+      "tier": "partial",
+      "sources": [
+        "Master of Urban Planning"
+      ],
+      "note": "Reconciliation package tier partial."
+    },
+    "mc-vetstdr": {
+      "tier": "cognate",
+      "sources": [
+        "Doctor of Veterinary Medicine"
+      ],
+      "note": "Veterinary graduate program; DVM is the discipline-matched record."
+    }
+  }
+}

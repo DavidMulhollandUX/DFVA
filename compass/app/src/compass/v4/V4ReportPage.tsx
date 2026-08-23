@@ -25,10 +25,18 @@ import {
   V4_PANEL_C,
   V4_RESEARCH_DEGREES,
   v4OnlyProgramByCode,
+  v4PanelABasisByCode,
   v4PanelCByCode,
   type V4ItemResult,
+  type V4PanelABasis,
   type V4PanelC,
 } from "./data/v4PanelC";
+import {
+  V4_TIER_LABELS,
+  basisMedian,
+  describeBasis,
+  isOwnRecord,
+} from "./exposureBasis";
 import { Cite, HowThisRubricWorksDialog } from "./HowThisRubricWorksDialog";
 import { PROGRAMS } from "../sharedProgramData";
 import {
@@ -220,6 +228,7 @@ function V4MiniMatrix({
   adaptiveness,
   envelope,
   workplace,
+  basis,
 }: {
   /** Only the fields the plane needs: a v4-only program supplies the same
    *  three, so registry membership is not what decides whether it renders. */
@@ -227,6 +236,9 @@ function V4MiniMatrix({
   adaptiveness: number;
   envelope: [number, number];
   workplace?: number;
+  /** Decides which exposure median is drawn and whether the point is drawn
+   *  as a measurement (filled) or an estimate (dashed ring). */
+  basis?: V4PanelABasis;
 }) {
   // Peers re-scored on v4.1: plotted on their v4 adaptiveness (not their v3.1
   // value, which is a different instrument) and sized by W. Programs without a
@@ -246,7 +258,12 @@ function V4MiniMatrix({
   // disagree about which instrument's median a program sits above.
   const v4Adapt = V4_META.complete ? V4_META.adaptMedian : null;
   const onV4Medians = v4Adapt !== null;
-  const mx = x(onV4Medians ? V4_META.expMedian : V3_META.expMedian);
+  // Field-tier values sit on a different occupation universe and are placed
+  // against the field-basis median; everything else against the alumni-title
+  // median. Same helper the position chip uses, so line and chip agree.
+  const expMedian = basisMedian(basis) ?? V4_META.expMedian;
+  const ownRecord = basis === undefined || isOwnRecord(basis);
+  const mx = x(onV4Medians ? expMedian : V3_META.expMedian);
   const my = y(v4Adapt ?? V3_META.adaptMedian);
   return (
     <svg
@@ -321,9 +338,12 @@ function V4MiniMatrix({
         cx={x(program.exposure)}
         cy={y(adaptiveness)}
         r={typeof workplace === "number" ? wRadius(workplace) : 7}
-        fill={NEUTRAL_DOT}
-        stroke="var(--color-background)"
+        fill={ownRecord ? NEUTRAL_DOT : "var(--color-background)"}
+        stroke={ownRecord ? "var(--color-background)" : NEUTRAL_DOT}
         strokeWidth={2}
+        strokeDasharray={ownRecord ? undefined : "3 2"}
+        data-testid="v4-program-point"
+        data-basis={basis?.tier ?? "exact"}
       >
         <title>{`${program.name} — adaptiveness ${adaptiveness}/15${
           typeof workplace === "number" ? `, workplace ${workplace}/9` : ""
@@ -495,8 +515,21 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
   // Exposure is instrument-independent, so a v4-only program with its own JIR
   // record carries a measured value computed by the same Panel A procedure.
   const exposure = v3 ? v3.exposure : v4Only?.exposure ?? null;
+  // Which destination distribution the value was computed on (own record,
+  // program family, related program, or field list). Drives the label, the
+  // median it is placed against, and how the plane draws it.
+  const basis = code ? v4PanelABasisByCode(code) : undefined;
+  const expMedian = basisMedian(basis);
   const position =
-    exposure !== null ? v4Quadrant(exposure, panelC.adaptiveness) : null;
+    exposure !== null
+      ? v4Quadrant(exposure, panelC.adaptiveness, basis)
+      : null;
+  const jirN = v3 ? v3.jirN : (v4Only?.jirN ?? null);
+  const nTitles = v3 ? v3.nTitles : (v4Only?.nTitles ?? null);
+  const weightedDiffers =
+    basis?.exposureWeighted !== undefined &&
+    exposure !== null &&
+    Math.abs(basis.exposureWeighted - exposure) > 2.5;
   // v4.1 added W1–W3; a program scored on 4.0-draft has none of them.
   const workplaceScored =
     typeof panelC.workplace === "number" &&
@@ -652,9 +685,23 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
                         >
                           {exposure.toFixed(2)}
                         </p>
-                        <p className="text-muted-foreground text-xs">
-                          measured · portfolio median {V4_META.expMedian}
+                        <p
+                          className="text-muted-foreground text-xs"
+                          data-testid="v4-exposure-basis"
+                        >
+                          {basis ? V4_TIER_LABELS[basis.tier] : "measured"}
+                          {expMedian !== null
+                            ? ` · ${basis?.tier === "field" ? "field-basis" : "portfolio"} median ${expMedian}`
+                            : " · no median published for this basis"}
                         </p>
+                        {weightedDiffers && basis && (
+                          <p
+                            className="text-muted-foreground text-xs"
+                            data-testid="v4-exposure-weighted"
+                          >
+                            share-weighted {basis.exposureWeighted?.toFixed(2)}
+                          </p>
+                        )}
                       </>
                     ) : (
                       <>
@@ -665,7 +712,7 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
                           —
                         </p>
                         <p className="text-muted-foreground text-xs">
-                          not available · no alumni destination record
+                          not available · no destination basis resolved
                         </p>
                       </>
                     )}
@@ -702,9 +749,11 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
                         className="bg-muted text-muted-foreground mt-1 inline-flex items-center gap-2 rounded-full px-4 py-1 text-sm font-semibold"
                         data-testid="v4-position-chip"
                       >
-                        {exposure !== null
-                          ? `No peer comparison yet — ${V4_META.scored} of ${V4_META.cohortSize} programs re-scored`
-                          : "Not placed — no exposure value for this program"}
+                        {exposure === null
+                          ? "Not placed — no exposure value for this program"
+                          : expMedian === null
+                            ? "Not placed — no field-basis median published yet"
+                            : `No peer comparison yet — ${V4_META.scored} of ${V4_META.cohortSize} programs re-scored`}
                       </span>
                     )}
                   </div>
@@ -713,35 +762,61 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
                   {exposure !== null ? (
                     <>
                       The exposure value is independent of the scoring
-                      instrument and is measured on the program's own alumni
-                      destination record (n = {v3 ? v3.jirN : v4Only?.jirN},{" "}
-                      {v3 ? v3.nTitles : v4Only?.nTitles} titles).{" "}
-                      {!v3 && (
+                      instrument. Basis:{" "}
+                      <span data-testid="v4-basis-description">
+                        {describeBasis(basis, jirN, nTitles)}
+                      </span>
+                      . Every basis runs through the same Panel A procedure
+                      (destination title → O*NET-SOC → published Felten AIOE →
+                      unweighted mean); what differs is whose destinations
+                      stand for the program, and that is stated rather than
+                      hidden.{" "}
+                      {basis?.dominantShare && (
                         <>
-                          This program is not in the v3.1 registry, so it has no
-                          adaptiveness score on the published instrument — but
-                          exposure does not depend on the instrument, and its
-                          own alumni record ran through the same Panel A
-                          procedure as every other program.{" "}
+                          {basis.dominantShare.name} holds{" "}
+                          {Math.round(basis.dominantShare.share * 100)}% of the
+                          pooled graduates, so the family value leans on it.{" "}
+                        </>
+                      )}
+                      {basis?.excludedSources?.length ? (
+                        <>
+                          Set aside:{" "}
+                          {basis.excludedSources
+                            .map(
+                              (x) =>
+                                `${x.name} (carries ${x.refusedTitles.join(", ")}, adjudicated unmappable)`,
+                            )
+                            .join("; ")}
+                          .{" "}
+                        </>
+                      ) : null}
+                      {basis?.tier === "field" && (
+                        <>
+                          Field-grain values sample a different occupation
+                          universe from alumni titles, so this program is placed
+                          against the field-basis median of the same reference
+                          cohort, not the alumni-title median.{" "}
                         </>
                       )}
                     </>
                   ) : (
                     <>
-                      This program is outside the assessed portfolio: it has no
-                      alumni destination record, so no exposure value exists and
-                      none is estimated from a related program. What is on this
-                      page is the Panel C half of a DFVA assessment — the
-                      curriculum half — and the position axis stays empty until
-                      Panel A data is gathered for it.{" "}
+                      No destination basis could be resolved for this program —
+                      no alumni record, no program-family or related record, and
+                      no field-of-education list. What is on this page is the
+                      Panel C half of a DFVA assessment — the curriculum half —
+                      and the position axis stays empty until a basis is
+                      recorded.{" "}
                     </>
                   )}
                   {position ? (
                     <>
                       The position is assigned against the v4 medians (exposure{" "}
-                      {V4_META.expMedian}, adaptiveness {V4_META.adaptMedian}),
-                      computed from all {V4_META.cohortSize} reference-cohort
-                      programs re-scored on this instrument.
+                      {expMedian}
+                      {basis?.tier === "field" ? " on the field basis" : ""},
+                      adaptiveness {V4_META.adaptMedian}), computed from all{" "}
+                      {V4_META.cohortSize} reference-cohort programs re-scored
+                      on this instrument.
                     </>
                   ) : exposure !== null ? (
                     <>
@@ -757,11 +832,12 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
                     </>
                   ) : (
                     <>
-                      The label is withheld twice over: there is no exposure
-                      value to place this program on the x-axis, and no v4
-                      adaptiveness median to place it on the y-axis (
-                      {V4_META.scored} of {V4_META.cohortSize} reference
-                      programs re-scored).
+                      The label is withheld: there is no exposure value to place
+                      this program on the x-axis
+                      {V4_META.adaptMedian === null
+                        ? `, and no v4 adaptiveness median yet (${V4_META.scored} of ${V4_META.cohortSize} reference programs re-scored)`
+                        : ""}
+                      .
                     </>
                   )}
                 </p>
@@ -792,10 +868,16 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
                       adaptiveness={panelC.adaptiveness}
                       envelope={envelope}
                       workplace={panelC.workplace}
+                      basis={basis}
                     />
                     <p className="text-muted-foreground mt-1 text-xs">
-                      The filled point is this program on the v4 draft score; no
-                      quadrant is implied. Faded fills are the v3.1 reference
+                      {isOwnRecord(basis) || !basis
+                        ? "The filled point is this program on the v4 draft score"
+                        : `The dashed point is this program on the v4 draft score — dashed because its exposure is a ${V4_TIER_LABELS[basis.tier]} estimate, not its own graduates`}
+                      {basis?.tier === "field"
+                        ? "; the vertical line is the field-basis exposure median"
+                        : ""}
+                      ; no quadrant is implied. Faded fills are the v3.1 reference
                       portfolio, shown for context. Open rings are the programs
                       already re-scored on v4, and each ring&rsquo;s size is its
                       workplace sub-score — W is not an axis, so size is how it
@@ -986,7 +1068,7 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
               part is empty rather than populated from a related program —
               substituting a generic profile for the discipline would present
               inference as observation.
-              {exposure !== null && (
+              {exposure !== null && isOwnRecord(basis) && (
                 <>
                   {" "}
                   Its alumni destination record does exist, and is where the

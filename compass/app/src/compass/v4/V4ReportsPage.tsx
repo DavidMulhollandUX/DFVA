@@ -11,16 +11,33 @@ import {
 } from "./data/v4Rubric";
 import { REPORT_INDEX, type ReportIndexEntry } from "./reportIndex";
 import { V4_QUADRANT_LABELS } from "./v4Position";
+import { V4_TIER_LABELS } from "./exposureBasis";
 
 type StatusFilter = "all" | "current" | "archived" | "research";
 
-function Stat({ label, value }: { label: string; value: string }) {
+function Stat({
+  label,
+  value,
+  hint,
+}: {
+  label: string;
+  value: string;
+  hint?: string;
+}) {
   return (
     <div>
       <p className="text-muted-foreground text-[10px] font-semibold tracking-[0.14em] uppercase">
         {label}
       </p>
       <p className="text-foreground font-mono text-sm">{value}</p>
+      {hint && (
+        <p
+          className="text-muted-foreground text-[10px] leading-tight"
+          data-testid="exposure-basis"
+        >
+          {hint}
+        </p>
+      )}
     </div>
   );
 }
@@ -84,6 +101,9 @@ function ReportCard({ entry }: { entry: ReportIndexEntry }) {
             <Stat
               label="Exposure"
               value={entry.exposure !== null ? entry.exposure.toFixed(1) : "—"}
+              hint={
+                entry.exposureTier ? V4_TIER_LABELS[entry.exposureTier] : undefined
+              }
             />
             <Stat
               label="Adaptiveness"

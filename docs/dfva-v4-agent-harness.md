@@ -340,21 +340,33 @@ A program can be scored on Panel C without being in the assessed portfolio. Expo
 instrument-independent, so it is still computable — but **not** through the v3 Panel A
 generator, which places a program against the reference medians on both axes and so needs
 a v2/v3.1 adaptiveness score the program has never had. `dfva:gen-v4` computes it instead,
-by the identical procedure (JIR titles → SOC-2010 → published Felten index → min–max
-rescale), and carries it on the v4 record. No position is assigned either way: that needs
-a v4 median.
+by the identical procedure (destination titles → SOC-2010 → published Felten index → min–max
+rescale), and carries it on the v4 record with its **basis**.
 
-Two traps sit on this path. Both are silent, both only ever make a program look *less*
-evidenced than it is, and both are now caught by `scripts/dfva-panela-coverage-check.ts`
+Since 2026-08-22 every coursework program in the cohort resolves to a basis
+(`scripts/dfva-panela-basis.ts`; method and Felten justification in
+`docs/dfva-v4-panela-basis.md`): own JIR record (`exact`) → variant parent (`variant`) →
+pooled major records (`pooled`) → double-degree components (`combined`) → curated borrow
+from a related program (`cognate` / `partial`, `data/aioe/panela_basis_overrides.json`) →
+JSA HEO field-of-education list (`field`, `data/jsa/`). The report page names the tier; a
+borrowed or field-grain value is drawn as a dashed ring, never a filled point, and
+field-tier programs are placed against `V4_META.expMedianField`, never 90.9. **"No
+exposure" is no longer a legitimate published state for a coursework program** — if the
+generator reports one, the fix is a basis entry, not page copy.
+
+Three traps sit on this path. All are silent, all only ever make a program look *less*
+evidenced than it is, and all are caught by `scripts/dfva-panela-coverage-check.ts`
 (wired into `dfva:check`):
 
 | Trap | What it looks like | The rule |
 | --- | --- | --- |
 | Wrong source | Program absent from `data/labour-evidence.json` (41 programs) reads as "no alumni record" | `data/jir_data.json` (141 records) is the source of record. labour-evidence is an enrichment layer and is **not** evidence of absence. |
-| Unmapped titles | Record found, but most destination titles are missing from the crosswalk, so the mean is over a handful and the record looks empty | 82 of 141 records have at least one unmapped title. Map into `data/aioe/v31_extension_crosswalk.csv` from `data/aioe/felten_aioe.json` before scoring. `panelAFor` throws rather than averaging a subset. |
+| Unmapped titles | Record found, but destination titles are missing from the crosswalk | Map into `data/aioe/v31_extension_crosswalk.csv` via `scripts/crosswalk-add.py` (procedure: `docs/tasks/dfva-crosswalk-backfill.SKILL.md`) before scoring. The resolver throws rather than averaging a subset. |
+| Refused titles | A record carries a title adjudicated unmappable (`data/aioe/crosswalk-refused.json`, e.g. bare "Teacher") and can never clear globally | Add a **program-scoped** row (`crosswalk-add.py` with `"program_scope"`) where the program's discipline fixes the occupation; otherwise the record is set aside on multi-record tiers (`excludedSources`) or the program falls to the next tier. Never force a global mapping. |
 
-Both fired on MC-MGMTHRE (2026-08-14) and a wrong "no alumni destination record exists"
-claim reached the dev site before either was noticed. The check reproduces both.
+The first two fired on MC-MGMTHRE (2026-08-14) and a wrong "no alumni destination record
+exists" claim reached the dev site before either was noticed. The check reproduces all three,
+and additionally asserts that the resolver reproduces every published reference-cohort value.
 
 ## Worked examples
 

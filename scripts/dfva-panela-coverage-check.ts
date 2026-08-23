@@ -1,6 +1,7 @@
 /**
- * Panel A coverage guard — stops a program being reported as having no alumni
- * destination record when it has one.
+ * Panel A coverage guard — stops a program being reported with no exposure, or
+ * with an exposure computed on something other than the basis the resolver
+ * assigns it.
  *
  * Run: npx tsx dfva-panela-coverage-check.ts   (wired into `dfva:check`)
  *
@@ -10,73 +11,32 @@
  *
  *   1. WRONG SOURCE. The absence was checked against `data/labour-evidence.json`
  *      (41 programs, an enrichment layer) instead of `data/jir_data.json` (141
- *      records, the Panel A source of record). A program absent from the first
- *      and present in the second reads as "no record" and is not.
- *
+ *      records, the Panel A source of record).
  *   2. UNMAPPED TITLES. Even once found, 13 of its 15 destination titles were
- *      absent from the crosswalk, so the record yielded almost nothing and
- *      looked empty in a second, more convincing way.
+ *      absent from the crosswalk, so the record yielded almost nothing.
  *
- * The second cause is not rare: at the time of writing 82 of 141 JIR records
- * carry at least one unmapped title and several carry none that are mapped. So
- * the next program to hit this is not hypothetical — it is most of them.
- *
- * Both failures are silent and both run one way: they only ever make a program
- * look less evidenced than it is. This check makes them loud.
+ * Since 2026-08-22 (docs/dfva-v4-panela-basis.md) every cohort program resolves
+ * to SOME basis — own record, program family, related program, or the JSA HEO
+ * field list — so "no exposure" is never a legitimate published state for a
+ * coursework program, and this guard fails on it. The generator and this guard
+ * share one resolver (dfva-panela-basis.ts) so they cannot disagree about what
+ * a program's basis is; what this guard checks is that the generated module
+ * actually carries what the resolver says.
  */
-import { readFileSync, readdirSync, existsSync } from 'node:fs'
+import { readFileSync, readdirSync } from 'node:fs'
 import * as path from 'node:path'
+import {
+  CROSSWALK_SOURCES,
+  UnmappedTitlesError,
+  loadPanelAContext,
+  lookup,
+  resolvePanelA,
+  titlesOf,
+  type PanelABasis,
+} from './dfva-panela-basis'
 
 const ROOT = path.resolve(__dirname, '..')
-
-function parseCsv(p: string): Record<string, string>[] {
-  const text = readFileSync(path.join(ROOT, p), 'utf8')
-  const rows: string[][] = []
-  let row: string[] = [], field = '', inQuotes = false
-  for (let i = 0; i < text.length; i++) {
-    const c = text[i]
-    if (inQuotes) {
-      if (c === '"') {
-        if (text[i + 1] === '"') { field += '"'; i++ } else inQuotes = false
-      } else field += c
-    } else if (c === '"') inQuotes = true
-    else if (c === ',') { row.push(field); field = '' }
-    else if (c === '\n' || c === '\r') {
-      if (field !== '' || row.length) { row.push(field); rows.push(row); row = []; field = '' }
-      if (c === '\r' && text[i + 1] === '\n') i++
-    } else field += c
-  }
-  if (field !== '' || row.length) { row.push(field); rows.push(row) }
-  const [header, ...body] = rows
-  return body.map((r) => Object.fromEntries(header.map((h, i) => [h, r[i] ?? ''])))
-}
-
-const CROSSWALKS = [
-  'data/aioe/reconciliation/reconcile_C_authoritative_288_index.csv',
-  'data/aioe/reconciliation/v2_panelA_new_occupation_crosswalk.csv',
-  'data/aioe/v31_extension_crosswalk.csv',
-]
-const crosswalk = new Set<string>()
-for (const p of CROSSWALKS) for (const r of parseCsv(p)) {
-  const t = (r.occupation || '').trim()
-  if (t) crosswalk.add(t)
-}
-
-interface JirRecord { program: string; n?: number; job_titles?: Record<string, string[]> }
-const jir = (JSON.parse(readFileSync(path.join(ROOT, 'data/jir_data.json'), 'utf8')) as { records: JirRecord[] }).records
-
-/** Destination titles for a record: entry + early_mid + mid_senior, deduped. */
-function titlesOf(rec: JirRecord): string[] {
-  const out: string[] = [], seen = new Set<string>()
-  for (const stage of ['entry', 'early_mid', 'mid_senior']) {
-    for (const t of rec.job_titles?.[stage] ?? []) if (!seen.has(t)) { seen.add(t); out.push(t) }
-  }
-  return out
-}
-
-/** Loose comparison so a punctuation or case difference cannot hide a record. */
-const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, '')
-const jirByNorm = new Map(jir.map((r) => [norm(r.program), r]))
+const ctx = loadPanelAContext()
 
 const errors: string[] = []
 const notes: string[] = []
@@ -84,12 +44,17 @@ const notes: string[] = []
 // --- which codes already have Panel A through the v3 pipeline ----------------
 const v3Src = readFileSync(path.join(ROOT, 'compass/app/src/compass/v3/data/v3Programs.ts'), 'utf8')
 const v3Codes = new Set([...v3Src.matchAll(/"?code"?: "([a-z0-9-]+)"/g)].map((m) => m[1]))
+const v3Exposure = new Map(
+  [...v3Src.matchAll(/code: "([a-z0-9-]+)",[\s\S]*?exposure: ([\d.]+)/g)].map((m) => [m[1], parseFloat(m[2])]),
+)
 
 // --- the v4-only programs and the exposure the generator gave them -----------
 const v4Src = readFileSync(path.join(ROOT, 'compass/app/src/compass/v4/data/v4PanelC.ts'), 'utf8')
 const v4OnlyBlock = v4Src.match(/export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = (\{[\s\S]*?\n\});/)
-const v4Only: Record<string, { code: string; name: string; exposure: number | null; nTitles: number | null }> =
-  v4OnlyBlock ? JSON.parse(v4OnlyBlock[1]) : {}
+interface V4Only { code: string; name: string; exposure: number | null; nTitles: number | null; exposureBasis: PanelABasis | null }
+const v4Only: Record<string, V4Only> = v4OnlyBlock ? JSON.parse(v4OnlyBlock[1]) : {}
+const metaBlock = v4Src.match(/export const V4_META: V4Meta = (\{[\s\S]*?\n\});/)
+const meta = metaBlock ? (JSON.parse(metaBlock[1]) as { expMedianField: number | null }) : { expMedianField: null }
 
 // --- every program carrying a v4 score --------------------------------------
 const evidenceDir = path.join(ROOT, 'dfva/source/evidence')
@@ -100,69 +65,83 @@ for (const f of readdirSync(evidenceDir)) {
   if (d.panelCv4 && d.code) scored.push(d.code)
 }
 
+// --- 1. reference cohort: the resolver must reproduce the published v3 values -
+// The v3 values were validated against the reconciliation package; if the
+// resolver ever drifts from them, the tiers have changed meaning.
+const refNames = JSON.parse(readFileSync(path.join(ROOT, 'scripts/v4_cohort.json'), 'utf8')) as { code: string; name: string }[]
+for (const p of refNames) {
+  const want = v3Exposure.get(p.code)
+  if (want === undefined) continue
+  try {
+    const r = resolvePanelA(p.code, p.name, ctx)
+    if (!r) errors.push(`${p.code}: reference program resolves to no basis (v3 publishes ${want})`)
+    else if (Math.abs(r.exposure - want) > 0.011) errors.push(`${p.code}: resolver gives ${r.exposure} (${r.basis.tier}) but v3 publishes ${want} — the tiers have drifted`)
+  } catch (e) {
+    if (e instanceof UnmappedTitlesError) errors.push(`${p.code}: reference program hits unmapped titles through the resolver:\n${e.message}`)
+    else throw e
+  }
+}
+
+// --- 2. v4-only programs: generated module must match the resolver ---------
+let fieldTier = 0
 for (const code of scored.sort()) {
-  if (v3Codes.has(code)) continue // Panel A comes from the v3 generator, guarded there
+  if (v3Codes.has(code)) continue // Panel A comes from the v3 generator, guarded above
   const entry = v4Only[code]
   if (!entry) {
     errors.push(`${code}: has a panelCv4 block but no V4_ONLY_PROGRAMS entry — run dfva:gen-v4`)
     continue
   }
-  const rec = jir.find((r) => r.program === entry.name) ?? jirByNorm.get(norm(entry.name))
-
-  // Cause 1: a record exists but the program reports no exposure.
-  if (rec && entry.exposure === null) {
-    errors.push(
-      `${code} ("${entry.name}") reports NO exposure, but data/jir_data.json holds a record ` +
-      `"${rec.program}" (n=${rec.n ?? '?'}, ${titlesOf(rec).length} titles). ` +
-      `Absence of alumni data must be checked against jir_data.json — labour-evidence.json ` +
-      `covers only a subset and is not evidence that no record exists.`,
-    )
+  let r: ReturnType<typeof resolvePanelA> = null
+  try {
+    r = resolvePanelA(code, entry.name, ctx)
+  } catch (e) {
+    if (!(e instanceof UnmappedTitlesError)) throw e
+    errors.push(e.message)
     continue
   }
-
-  if (!rec) {
-    notes.push(`${code} ("${entry.name}"): no JIR record under that name — Panel C only, correctly.`)
+  if (!r) {
+    errors.push(`${code} ("${entry.name}"): no Panel A basis — add a data/aioe/panela_basis_overrides.json entry or a data/jsa/program_fields.json field`)
     continue
   }
-
-  // Cause 2: the exposure was computed over fewer titles than the record holds,
-  // which can only happen by dropping unmapped ones.
-  const titles = titlesOf(rec)
-  const unmapped = titles.filter((t) => !crosswalk.has(t))
-  if (unmapped.length) {
-    errors.push(
-      `${code} ("${entry.name}"): ${unmapped.length} of ${titles.length} destination titles are ` +
-      `not in the crosswalk, so its exposure is computed over a subset — a different statistic ` +
-      `from the one it will be read as. Map them in data/aioe/v31_extension_crosswalk.csv:\n` +
-      unmapped.map((t) => `      - ${t}`).join('\n'),
-    )
-  } else if (entry.nTitles !== null && entry.nTitles !== titles.length) {
-    errors.push(
-      `${code}: exposure covers ${entry.nTitles} titles but the JIR record holds ${titles.length}.`,
-    )
+  if (entry.exposure === null || !entry.exposureBasis) {
+    errors.push(`${code}: generated module carries no exposure, but the resolver gives ${r.exposure} on the ${r.basis.tier} tier — run dfva:gen-v4`)
+    continue
   }
+  if (Math.abs(entry.exposure - r.exposure) > 0.011 || entry.exposureBasis.tier !== r.basis.tier) {
+    errors.push(`${code}: generated ${entry.exposure} (${entry.exposureBasis.tier}) ≠ resolver ${r.exposure} (${r.basis.tier}) — run dfva:gen-v4`)
+  }
+  if (entry.nTitles !== r.nTitles) errors.push(`${code}: generated nTitles ${entry.nTitles} ≠ resolver ${r.nTitles}`)
+  if (r.basis.tier === 'field') fieldTier++
+  if (r.basis.tier !== 'exact') notes.push(`${code}: ${r.basis.tier} basis ← ${r.basis.sources.map((s) => s.name).join(' ∪ ')}`)
+  if (r.basis.excludedSources?.length) notes.push(`${code}: excluded ${r.basis.excludedSources.map((x) => `${x.name} (refused: ${x.refusedTitles.join(', ')})`).join('; ')}`)
+}
+if (fieldTier && meta.expMedianField === null) {
+  errors.push(`${fieldTier} field-tier program(s) published but V4_META.expMedianField is null — they cannot be placed`)
+}
+
+// --- 3. every JSA field list in use must be fully mapped ---------------------
+for (const [code, field] of ctx.cohortFields) {
+  const f = ctx.jsaFields[field]
+  if (!f) { errors.push(`${code}: field ${field} is not in data/jsa/heo_field_destinations.json`); continue }
+  const missing = new Set<string>()
+  for (const stage of ['entry', 'early', 'senior'] as const) for (const d of f[stage] ?? []) if (!lookup(code, d.title, ctx, field) && !ctx.refused.has(d.title)) missing.add(d.title)
+  if (missing.size) errors.push(`field ${field} (${f.name}) used by ${code}: ${missing.size} ANZSCO title(s) unmapped: ${[...missing].join('; ')}`)
 }
 
 // --- standing backlog, reported but not fatal --------------------------------
-// Not an error: these programs are not scored yet, so nothing is being published
-// on partial evidence. It is here so the blocker is visible BEFORE someone
-// scores one of them and reads the silence as an absence of destinations.
 let recordsWithGaps = 0
 const worst: { unmapped: number; total: number; program: string }[] = []
-for (const r of jir) {
+for (const r of ctx.jir) {
   const t = titlesOf(r)
   if (!t.length) continue
-  const u = t.filter((x) => !crosswalk.has(x))
+  const u = t.filter((x) => !ctx.crosswalk.has(x.title) && !ctx.refused.has(x.title))
   if (u.length) { recordsWithGaps++; worst.push({ unmapped: u.length, total: t.length, program: r.program }) }
 }
 worst.sort((a, b) => b.unmapped - a.unmapped)
 
-console.log(`crosswalk: ${crosswalk.size} titles across ${CROSSWALKS.length} sources`)
-console.log(`JIR records: ${jir.length}; ${recordsWithGaps} carry at least one unmapped destination title`)
-if (worst.length) {
-  console.log(`  most affected: ${worst.slice(0, 3).map((w) => `${w.program} (${w.unmapped}/${w.total})`).join(', ')}`)
-  console.log(`  these are not failures — none of them is scored. Map before scoring, not after.`)
-}
+console.log(`crosswalk: ${ctx.crosswalk.size} titles across ${CROSSWALK_SOURCES.length} sources (+${ctx.scoped.size} program-scoped, ${ctx.refused.size} refused)`)
+console.log(`JIR records: ${ctx.jir.length}; ${recordsWithGaps} carry at least one unmapped (non-refused) destination title`)
+if (worst.length) console.log(`  most affected: ${worst.slice(0, 3).map((w) => `${w.program} (${w.unmapped}/${w.total})`).join(', ')}`)
 for (const n of notes) console.log(`  note: ${n}`)
 
 if (errors.length) {
@@ -170,4 +149,4 @@ if (errors.length) {
   for (const e of errors) console.error(`  - ${e}`)
   process.exit(1)
 }
-console.log(`✓ dfva-panela-coverage: ${scored.length} v4-scored program(s), no silent exposure gaps.`)
+console.log(`✓ dfva-panela-coverage: ${scored.length} v4-scored program(s), every one on a stated basis; reference cohort reproduces v3.`)

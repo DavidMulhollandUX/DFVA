@@ -4,7 +4,9 @@ import { v3ProgramByCode } from "../v3/data/v3Programs";
 import {
   V4_ONLY_PROGRAMS,
   V4_RESEARCH_DEGREES,
+  v4PanelABasisByCode,
   v4PanelCByCode,
+  type V4PanelATier,
 } from "./data/v4PanelC";
 import { v4Quadrant, type V4Quadrant } from "./v4Position";
 
@@ -19,6 +21,8 @@ export interface ReportIndexEntry {
   faculty: string;
   status: "current" | "archived" | "research";
   exposure: number | null;
+  /** Which destination distribution the exposure was computed on. */
+  exposureTier: V4PanelATier | null;
   adaptiveness: number | null;
   workplace: number | null;
   position: V4Quadrant | null;
@@ -35,6 +39,7 @@ function entry(
   const v3 = v3ProgramByCode(code);
   const panelC = v4PanelCByCode(code);
   const exposure = v3?.exposure ?? V4_ONLY_PROGRAMS[code]?.exposure ?? null;
+  const basis = v4PanelABasisByCode(code);
   const adaptiveness = panelC?.adaptiveness ?? null;
   return {
     code,
@@ -46,11 +51,12 @@ function entry(
         ? "research"
         : "archived",
     exposure,
+    exposureTier: basis?.tier ?? null,
     adaptiveness,
     workplace: typeof panelC?.workplace === "number" ? panelC.workplace : null,
     position:
       exposure !== null && adaptiveness !== null
-        ? v4Quadrant(exposure, adaptiveness)
+        ? v4Quadrant(exposure, adaptiveness, basis)
         : null,
     archived: { v1, v31: Boolean(v3) },
   };
