@@ -190,12 +190,11 @@ This is the same class of failure the repo already documents for handbook captur
 *"Capture that exists on one machine cannot be re-examined, re-scored, or audited."*
 A fresh clone gets `CLAUDE.md` pointing at rules it does not have.
 
-**Recommendation.** Keep a canonical copy of anything an agent is expected to obey
-in a tracked path, and mirror it into `.claude/`. This audit follows that pattern:
-the review skill's canonical source is `dfva/skills/dfva-report-review/SKILL.md`,
-mirrored by `npm --prefix scripts run dfva:sync-report-review`. The existing
-`dfva:sync-skill` script is the precedent. The `.claude/rules/` files deserve the
-same treatment, but that is a separate change and is not made here.
+**Resolved 2026-08-24.** `.gitignore` now reads `.claude/*` with `!.claude/rules/`
+and `!.claude/skills/`, so the seven rules files and the review skill are version
+controlled while `worktrees/` (942 MB), `logs/`, `subagent-log/` and
+`settings.local.json` stay ignored. A fresh clone now gets the conventions that
+`CLAUDE.md` tells every agent to read.
 
 ---
 
@@ -317,13 +316,11 @@ standard rather than by a second mechanical pass.
 |---|---|
 | `scripts/check-report-prose.py` | The prose and provenance linter. Read-only, ratcheted, genre-aware. |
 | `scripts/report-prose-baseline.json` | 345 tracked findings across 110 reports. |
-| `dfva/skills/dfva-report-review/SKILL.md` | The review skill (canonical, version controlled). |
-| `.claude/skills/dfva-report-review/SKILL.md` | Mirror Claude Code loads. Regenerate with `dfva:sync-report-review`. |
+| `.claude/skills/dfva-report-review/SKILL.md` | The review skill — version controlled, no mirror. |
 | `docs/dfva-v4-report-prose-audit.md` | This document. |
 
 Two npm scripts were added to `scripts/package.json`:
 
 ```bash
 npm --prefix scripts run dfva:report-prose         # run the prose check
-npm --prefix scripts run dfva:sync-report-review   # mirror the skill into .claude/
 ```

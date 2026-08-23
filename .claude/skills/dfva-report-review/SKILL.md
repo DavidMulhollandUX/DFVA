@@ -178,8 +178,9 @@ adding one to `scripts/check-report-prose.py`:
 
 ## Where this file lives
 
-Canonical source: `dfva/skills/dfva-report-review/SKILL.md` (version controlled).
-`.claude/` is gitignored, so the copy Claude Code loads is a mirror. After editing
-the canonical file, run `npm --prefix scripts run dfva:sync-report-review`.
+`.claude/skills/dfva-report-review/SKILL.md`, and it is version controlled —
+`.gitignore` excludes `.claude/*` but re-includes `rules/` and `skills/`, so a
+fresh clone gets this file and the conventions it depends on. There is no mirror
+and no sync step; edit it here.
 - `.claude/rules/conventions.md` — the §3 sourcing rule
 - `scripts/check-report-format.ts` — structure and sourcing lint
