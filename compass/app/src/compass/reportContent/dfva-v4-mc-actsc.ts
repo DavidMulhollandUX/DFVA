@@ -210,8 +210,6 @@ The exposure figure in §1 stands on the Bachelor of Commerce (Actuarial Studies
 
 **Confidence, restated from the market report.** High on AI substitution pressure for traditional actuarial roles (multiple converging industry sources). Medium-high on programming-skill demand. Medium on job-ad volume trends (Seek is directional, and the ANZ specialist-actuarial sample is small) and on climate-risk demand (the regulatory driver is confirmed; the hiring response may lag 12–24 months). **Low** on graduate employment outcomes for this program specifically — the University publishes no granular destination data for MC-ACTSC.
 
-> **One block of the market report is not used here.** Its \`LABOUR-EVIDENCE\` footer carries a JSA Higher Education Outcomes destination table for the broad natural-and-physical-sciences field — Medical Laboratory Scientist, Geologist, Sales Assistant — which is byte-identical to the one in the Bachelor of Science market report and is not the field this program feeds. It is excluded from the tables above rather than reproduced. The Panel A basis in §1 is unaffected: it comes from the actuarial alumni record, not from that block.
-
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
 This section argues from the evidence above; it is interpretation, not observation.
