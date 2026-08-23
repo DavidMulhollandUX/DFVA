@@ -261,71 +261,73 @@ import r254 from "./reportContent/dfva-v4-mc-ddensur";
 import r255 from "./reportContent/dfva-v4-mc-dmed";
 import r256 from "./reportContent/dfva-v4-mc-doptom";
 import r257 from "./reportContent/dfva-v4-mc-dphysio";
-import r258 from "./reportContent/dfva-v4-mc-ed";
-import r259 from "./reportContent/dfva-v4-mc-envlaw";
-import r260 from "./reportContent/dfva-v4-mc-envsc";
-import r261 from "./reportContent/dfva-v4-mc-indeng";
-import r262 from "./reportContent/dfva-v4-mc-is";
-import r263 from "./reportContent/dfva-v4-mc-journ";
-import r264 from "./reportContent/dfva-v4-mc-jurisd";
-import r265 from "./reportContent/dfva-v4-mc-mgmthre";
-import r266 from "./reportContent/dfva-v4-mc-nursc";
-import r267 from "./reportContent/dfva-v4-mc-scibif";
-import r268 from "./reportContent/dfva-v4-mc-scibio";
-import r269 from "./reportContent/dfva-v4-mc-sciepi";
-import r270 from "./reportContent/dfva-v4-mc-scwr";
-import r271 from "./reportContent/dfva-v4-recommend-038ab";
-import r272 from "./reportContent/dfva-v4-recommend-080cl";
-import r273 from "./reportContent/dfva-v4-recommend-080cn";
-import r274 from "./reportContent/dfva-v4-recommend-097ab";
-import r275 from "./reportContent/dfva-v4-recommend-175aa";
-import r276 from "./reportContent/dfva-v4-recommend-192aa";
-import r277 from "./reportContent/dfva-v4-recommend-195aa";
-import r278 from "./reportContent/dfva-v4-recommend-244cw";
-import r279 from "./reportContent/dfva-v4-recommend-277aa";
-import r280 from "./reportContent/dfva-v4-recommend-300bb";
-import r281 from "./reportContent/dfva-v4-recommend-305bb";
-import r282 from "./reportContent/dfva-v4-recommend-342aa";
-import r283 from "./reportContent/dfva-v4-recommend-344ab";
-import r284 from "./reportContent/dfva-v4-recommend-439fs";
-import r285 from "./reportContent/dfva-v4-recommend-502cw";
-import r286 from "./reportContent/dfva-v4-recommend-527cl";
-import r287 from "./reportContent/dfva-v4-recommend-706aa";
-import r288 from "./reportContent/dfva-v4-recommend-746st";
-import r289 from "./reportContent/dfva-v4-recommend-991aa";
-import r290 from "./reportContent/dfva-v4-recommend-b-des";
-import r291 from "./reportContent/dfva-v4-recommend-b-sci";
-import r292 from "./reportContent/dfva-v4-recommend-dr-philedp";
-import r293 from "./reportContent/dfva-v4-recommend-m04aa";
-import r294 from "./reportContent/dfva-v4-recommend-mc-actsc";
-import r295 from "./reportContent/dfva-v4-recommend-mc-anp";
-import r296 from "./reportContent/dfva-v4-recommend-mc-ap";
-import r297 from "./reportContent/dfva-v4-recommend-mc-apbusa";
-import r298 from "./reportContent/dfva-v4-recommend-mc-arch";
-import r299 from "./reportContent/dfva-v4-recommend-mc-ba";
-import r300 from "./reportContent/dfva-v4-recommend-mc-bamktg";
-import r301 from "./reportContent/dfva-v4-recommend-mc-bmedsc";
-import r302 from "./reportContent/dfva-v4-recommend-mc-busana";
-import r303 from "./reportContent/dfva-v4-recommend-mc-chemeng";
-import r304 from "./reportContent/dfva-v4-recommend-mc-climsci";
-import r305 from "./reportContent/dfva-v4-recommend-mc-datasc";
-import r306 from "./reportContent/dfva-v4-recommend-mc-ddensur";
-import r307 from "./reportContent/dfva-v4-recommend-mc-dmed";
-import r308 from "./reportContent/dfva-v4-recommend-mc-doptom";
-import r309 from "./reportContent/dfva-v4-recommend-mc-dphysio";
-import r310 from "./reportContent/dfva-v4-recommend-mc-ed";
-import r311 from "./reportContent/dfva-v4-recommend-mc-envlaw";
-import r312 from "./reportContent/dfva-v4-recommend-mc-envsc";
-import r313 from "./reportContent/dfva-v4-recommend-mc-indeng";
-import r314 from "./reportContent/dfva-v4-recommend-mc-is";
-import r315 from "./reportContent/dfva-v4-recommend-mc-journ";
-import r316 from "./reportContent/dfva-v4-recommend-mc-jurisd";
-import r317 from "./reportContent/dfva-v4-recommend-mc-mgmthre";
-import r318 from "./reportContent/dfva-v4-recommend-mc-nursc";
-import r319 from "./reportContent/dfva-v4-recommend-mc-scibif";
-import r320 from "./reportContent/dfva-v4-recommend-mc-scibio";
-import r321 from "./reportContent/dfva-v4-recommend-mc-sciepi";
-import r322 from "./reportContent/dfva-v4-recommend-mc-scwr";
+import r258 from "./reportContent/dfva-v4-mc-dvetmed";
+import r259 from "./reportContent/dfva-v4-mc-ed";
+import r260 from "./reportContent/dfva-v4-mc-envlaw";
+import r261 from "./reportContent/dfva-v4-mc-envsc";
+import r262 from "./reportContent/dfva-v4-mc-indeng";
+import r263 from "./reportContent/dfva-v4-mc-is";
+import r264 from "./reportContent/dfva-v4-mc-journ";
+import r265 from "./reportContent/dfva-v4-mc-jurisd";
+import r266 from "./reportContent/dfva-v4-mc-mgmthre";
+import r267 from "./reportContent/dfva-v4-mc-nursc";
+import r268 from "./reportContent/dfva-v4-mc-scibif";
+import r269 from "./reportContent/dfva-v4-mc-scibio";
+import r270 from "./reportContent/dfva-v4-mc-sciepi";
+import r271 from "./reportContent/dfva-v4-mc-scwr";
+import r272 from "./reportContent/dfva-v4-recommend-038ab";
+import r273 from "./reportContent/dfva-v4-recommend-080cl";
+import r274 from "./reportContent/dfva-v4-recommend-080cn";
+import r275 from "./reportContent/dfva-v4-recommend-097ab";
+import r276 from "./reportContent/dfva-v4-recommend-175aa";
+import r277 from "./reportContent/dfva-v4-recommend-192aa";
+import r278 from "./reportContent/dfva-v4-recommend-195aa";
+import r279 from "./reportContent/dfva-v4-recommend-244cw";
+import r280 from "./reportContent/dfva-v4-recommend-277aa";
+import r281 from "./reportContent/dfva-v4-recommend-300bb";
+import r282 from "./reportContent/dfva-v4-recommend-305bb";
+import r283 from "./reportContent/dfva-v4-recommend-342aa";
+import r284 from "./reportContent/dfva-v4-recommend-344ab";
+import r285 from "./reportContent/dfva-v4-recommend-439fs";
+import r286 from "./reportContent/dfva-v4-recommend-502cw";
+import r287 from "./reportContent/dfva-v4-recommend-527cl";
+import r288 from "./reportContent/dfva-v4-recommend-706aa";
+import r289 from "./reportContent/dfva-v4-recommend-746st";
+import r290 from "./reportContent/dfva-v4-recommend-991aa";
+import r291 from "./reportContent/dfva-v4-recommend-b-des";
+import r292 from "./reportContent/dfva-v4-recommend-b-sci";
+import r293 from "./reportContent/dfva-v4-recommend-dr-philedp";
+import r294 from "./reportContent/dfva-v4-recommend-m04aa";
+import r295 from "./reportContent/dfva-v4-recommend-mc-actsc";
+import r296 from "./reportContent/dfva-v4-recommend-mc-anp";
+import r297 from "./reportContent/dfva-v4-recommend-mc-ap";
+import r298 from "./reportContent/dfva-v4-recommend-mc-apbusa";
+import r299 from "./reportContent/dfva-v4-recommend-mc-arch";
+import r300 from "./reportContent/dfva-v4-recommend-mc-ba";
+import r301 from "./reportContent/dfva-v4-recommend-mc-bamktg";
+import r302 from "./reportContent/dfva-v4-recommend-mc-bmedsc";
+import r303 from "./reportContent/dfva-v4-recommend-mc-busana";
+import r304 from "./reportContent/dfva-v4-recommend-mc-chemeng";
+import r305 from "./reportContent/dfva-v4-recommend-mc-climsci";
+import r306 from "./reportContent/dfva-v4-recommend-mc-datasc";
+import r307 from "./reportContent/dfva-v4-recommend-mc-ddensur";
+import r308 from "./reportContent/dfva-v4-recommend-mc-dmed";
+import r309 from "./reportContent/dfva-v4-recommend-mc-doptom";
+import r310 from "./reportContent/dfva-v4-recommend-mc-dphysio";
+import r311 from "./reportContent/dfva-v4-recommend-mc-dvetmed";
+import r312 from "./reportContent/dfva-v4-recommend-mc-ed";
+import r313 from "./reportContent/dfva-v4-recommend-mc-envlaw";
+import r314 from "./reportContent/dfva-v4-recommend-mc-envsc";
+import r315 from "./reportContent/dfva-v4-recommend-mc-indeng";
+import r316 from "./reportContent/dfva-v4-recommend-mc-is";
+import r317 from "./reportContent/dfva-v4-recommend-mc-journ";
+import r318 from "./reportContent/dfva-v4-recommend-mc-jurisd";
+import r319 from "./reportContent/dfva-v4-recommend-mc-mgmthre";
+import r320 from "./reportContent/dfva-v4-recommend-mc-nursc";
+import r321 from "./reportContent/dfva-v4-recommend-mc-scibif";
+import r322 from "./reportContent/dfva-v4-recommend-mc-scibio";
+import r323 from "./reportContent/dfva-v4-recommend-mc-sciepi";
+import r324 from "./reportContent/dfva-v4-recommend-mc-scwr";
 
 export const REPORT_CONTENT: Record<
   string,
@@ -589,69 +591,71 @@ export const REPORT_CONTENT: Record<
   "dfva-v4-mc-dmed": r255,
   "dfva-v4-mc-doptom": r256,
   "dfva-v4-mc-dphysio": r257,
-  "dfva-v4-mc-ed": r258,
-  "dfva-v4-mc-envlaw": r259,
-  "dfva-v4-mc-envsc": r260,
-  "dfva-v4-mc-indeng": r261,
-  "dfva-v4-mc-is": r262,
-  "dfva-v4-mc-journ": r263,
-  "dfva-v4-mc-jurisd": r264,
-  "dfva-v4-mc-mgmthre": r265,
-  "dfva-v4-mc-nursc": r266,
-  "dfva-v4-mc-scibif": r267,
-  "dfva-v4-mc-scibio": r268,
-  "dfva-v4-mc-sciepi": r269,
-  "dfva-v4-mc-scwr": r270,
-  "dfva-v4-recommend-038ab": r271,
-  "dfva-v4-recommend-080cl": r272,
-  "dfva-v4-recommend-080cn": r273,
-  "dfva-v4-recommend-097ab": r274,
-  "dfva-v4-recommend-175aa": r275,
-  "dfva-v4-recommend-192aa": r276,
-  "dfva-v4-recommend-195aa": r277,
-  "dfva-v4-recommend-244cw": r278,
-  "dfva-v4-recommend-277aa": r279,
-  "dfva-v4-recommend-300bb": r280,
-  "dfva-v4-recommend-305bb": r281,
-  "dfva-v4-recommend-342aa": r282,
-  "dfva-v4-recommend-344ab": r283,
-  "dfva-v4-recommend-439fs": r284,
-  "dfva-v4-recommend-502cw": r285,
-  "dfva-v4-recommend-527cl": r286,
-  "dfva-v4-recommend-706aa": r287,
-  "dfva-v4-recommend-746st": r288,
-  "dfva-v4-recommend-991aa": r289,
-  "dfva-v4-recommend-b-des": r290,
-  "dfva-v4-recommend-b-sci": r291,
-  "dfva-v4-recommend-dr-philedp": r292,
-  "dfva-v4-recommend-m04aa": r293,
-  "dfva-v4-recommend-mc-actsc": r294,
-  "dfva-v4-recommend-mc-anp": r295,
-  "dfva-v4-recommend-mc-ap": r296,
-  "dfva-v4-recommend-mc-apbusa": r297,
-  "dfva-v4-recommend-mc-arch": r298,
-  "dfva-v4-recommend-mc-ba": r299,
-  "dfva-v4-recommend-mc-bamktg": r300,
-  "dfva-v4-recommend-mc-bmedsc": r301,
-  "dfva-v4-recommend-mc-busana": r302,
-  "dfva-v4-recommend-mc-chemeng": r303,
-  "dfva-v4-recommend-mc-climsci": r304,
-  "dfva-v4-recommend-mc-datasc": r305,
-  "dfva-v4-recommend-mc-ddensur": r306,
-  "dfva-v4-recommend-mc-dmed": r307,
-  "dfva-v4-recommend-mc-doptom": r308,
-  "dfva-v4-recommend-mc-dphysio": r309,
-  "dfva-v4-recommend-mc-ed": r310,
-  "dfva-v4-recommend-mc-envlaw": r311,
-  "dfva-v4-recommend-mc-envsc": r312,
-  "dfva-v4-recommend-mc-indeng": r313,
-  "dfva-v4-recommend-mc-is": r314,
-  "dfva-v4-recommend-mc-journ": r315,
-  "dfva-v4-recommend-mc-jurisd": r316,
-  "dfva-v4-recommend-mc-mgmthre": r317,
-  "dfva-v4-recommend-mc-nursc": r318,
-  "dfva-v4-recommend-mc-scibif": r319,
-  "dfva-v4-recommend-mc-scibio": r320,
-  "dfva-v4-recommend-mc-sciepi": r321,
-  "dfva-v4-recommend-mc-scwr": r322,
+  "dfva-v4-mc-dvetmed": r258,
+  "dfva-v4-mc-ed": r259,
+  "dfva-v4-mc-envlaw": r260,
+  "dfva-v4-mc-envsc": r261,
+  "dfva-v4-mc-indeng": r262,
+  "dfva-v4-mc-is": r263,
+  "dfva-v4-mc-journ": r264,
+  "dfva-v4-mc-jurisd": r265,
+  "dfva-v4-mc-mgmthre": r266,
+  "dfva-v4-mc-nursc": r267,
+  "dfva-v4-mc-scibif": r268,
+  "dfva-v4-mc-scibio": r269,
+  "dfva-v4-mc-sciepi": r270,
+  "dfva-v4-mc-scwr": r271,
+  "dfva-v4-recommend-038ab": r272,
+  "dfva-v4-recommend-080cl": r273,
+  "dfva-v4-recommend-080cn": r274,
+  "dfva-v4-recommend-097ab": r275,
+  "dfva-v4-recommend-175aa": r276,
+  "dfva-v4-recommend-192aa": r277,
+  "dfva-v4-recommend-195aa": r278,
+  "dfva-v4-recommend-244cw": r279,
+  "dfva-v4-recommend-277aa": r280,
+  "dfva-v4-recommend-300bb": r281,
+  "dfva-v4-recommend-305bb": r282,
+  "dfva-v4-recommend-342aa": r283,
+  "dfva-v4-recommend-344ab": r284,
+  "dfva-v4-recommend-439fs": r285,
+  "dfva-v4-recommend-502cw": r286,
+  "dfva-v4-recommend-527cl": r287,
+  "dfva-v4-recommend-706aa": r288,
+  "dfva-v4-recommend-746st": r289,
+  "dfva-v4-recommend-991aa": r290,
+  "dfva-v4-recommend-b-des": r291,
+  "dfva-v4-recommend-b-sci": r292,
+  "dfva-v4-recommend-dr-philedp": r293,
+  "dfva-v4-recommend-m04aa": r294,
+  "dfva-v4-recommend-mc-actsc": r295,
+  "dfva-v4-recommend-mc-anp": r296,
+  "dfva-v4-recommend-mc-ap": r297,
+  "dfva-v4-recommend-mc-apbusa": r298,
+  "dfva-v4-recommend-mc-arch": r299,
+  "dfva-v4-recommend-mc-ba": r300,
+  "dfva-v4-recommend-mc-bamktg": r301,
+  "dfva-v4-recommend-mc-bmedsc": r302,
+  "dfva-v4-recommend-mc-busana": r303,
+  "dfva-v4-recommend-mc-chemeng": r304,
+  "dfva-v4-recommend-mc-climsci": r305,
+  "dfva-v4-recommend-mc-datasc": r306,
+  "dfva-v4-recommend-mc-ddensur": r307,
+  "dfva-v4-recommend-mc-dmed": r308,
+  "dfva-v4-recommend-mc-doptom": r309,
+  "dfva-v4-recommend-mc-dphysio": r310,
+  "dfva-v4-recommend-mc-dvetmed": r311,
+  "dfva-v4-recommend-mc-ed": r312,
+  "dfva-v4-recommend-mc-envlaw": r313,
+  "dfva-v4-recommend-mc-envsc": r314,
+  "dfva-v4-recommend-mc-indeng": r315,
+  "dfva-v4-recommend-mc-is": r316,
+  "dfva-v4-recommend-mc-journ": r317,
+  "dfva-v4-recommend-mc-jurisd": r318,
+  "dfva-v4-recommend-mc-mgmthre": r319,
+  "dfva-v4-recommend-mc-nursc": r320,
+  "dfva-v4-recommend-mc-scibif": r321,
+  "dfva-v4-recommend-mc-scibio": r322,
+  "dfva-v4-recommend-mc-sciepi": r323,
+  "dfva-v4-recommend-mc-scwr": r324,
 };
