@@ -1100,7 +1100,7 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   "mc-civeng": {
     "code": "mc-civeng",
     "name": "Master of Civil Engineering",
-    "hasMarketReport": false,
+    "hasMarketReport": true,
     "exposure": 91.09,
     "entryExposure": 91.98,
     "jirN": 48,
@@ -1156,6 +1156,27 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
         {
           "name": "Master of Construction Management",
           "n": 161
+        }
+      ],
+      "indexVariant": "AIOE-2021"
+    }
+  },
+  "mc-eco": {
+    "code": "mc-eco",
+    "name": "Master of Economics",
+    "hasMarketReport": false,
+    "exposure": 96.53,
+    "entryExposure": 95.84,
+    "jirN": 30,
+    "nTitles": 15,
+    "nMedium": 6,
+    "exposureBasis": {
+      "tier": "exact",
+      "grain": "program",
+      "sources": [
+        {
+          "name": "Master of Economics",
+          "n": 30
         }
       ],
       "indexVariant": "AIOE-2021"
@@ -2335,6 +2356,17 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
       {
         "name": "Doctor of Veterinary Medicine",
         "n": 275
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "mc-eco": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Economics",
+        "n": 30
       }
     ],
     "indexVariant": "AIOE-2021"
@@ -11009,6 +11041,129 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "adversarial": true,
       "mechanical": true,
       "date": "2026-08-14"
+    }
+  },
+  "mc-eco": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: at least one core unit assesses collaborative practice. In compulsory Year 1 core subject ECON40002 Advanced Macroeconomics, students complete an assessed 'Group Presentation (4-5 students per group)' carrying 15% (due from Week 9 to Week 12); in elective/selective unit ECON90013 Labour Economics, students complete 'Three group completed problem sets no more than 6 pages each'. Level 3 is not met: no core assessment requires coordinating work across people AND tools/AI systems with documented role-and-tool allocation or an assessed division of work between people and systems.",
+      "evidenceLines": [
+        "Group Presentation (4-5 students per group)",
+        "Collaborate effectively in teams",
+        "Three group completed problem sets no more than 6 pages each (due in weeks 5, 8 and 11)"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: core assessment includes criterion-referenced appraisal of quality. In ECOM90005 Advanced Econometric Techniques, students are assessed on reproducing published econometric research and critically evaluating econometric estimation methods ('Critically evaluate current econometric research published in the top ranking international economic and econometric journals; Reproduce existing econometric research'); in ECON40002 Advanced Macroeconomics, intended learning outcomes include 'Evaluate the contribution of some recently created knowledge in macroeconomics', assessed through structured problem sets and presentations; and in ECON90013, students produce an individual critical essay evaluating empirical literature. Level 3 is not met: no core assessment requires students to document and justify reliance decisions (deciding when to rely on or override an algorithmic forecasting model, econometric package, or collaborator), defend judgements of AI-generated econometric code, or evidence strategy adjustment over time.",
+      "evidenceLines": [
+        "Critically evaluate current econometric research published in the top ranking international economic and econometric journals",
+        "Reproduce existing econometric research",
+        "Evaluate the contribution of some recently created knowledge in macroeconomics",
+        "Individual essay"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor is met: digital tools appear as tool operation and programming language training. In ECOM90005 Advanced Econometric Techniques, students are introduced to 'a high-level matrix and programming language, Matlab, to provide you with a basis to solve problems which have no closed-form solutions'; econometric software (Stata, R, Python) is operated across coursework. Level 2 is unmet: no core unit addresses AI capabilities AND limitations/ethics with use limits discussed and assessed (e.g. automated machine learning causal inference limits or LLM economic forecasting hallucination risks). Level 3 (AI critique or data governance) is unevidenced in core assessment.",
+      "evidenceLines": [
+        "In an effort to bridge the gap between analytic, closed-form methods and numerical methods, you will also be introduced to a high-level matrix and programming language, Matlab, to provide you with a basis to solve problems which have no closed-form solutions.",
+        "10 weekly assignments, 400 words each",
+        "Three Assignments"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: at least one core assessment requires application to novel or unfamiliar problems through unscripted analytical scenarios and policy variations. Across compulsory units (ECON40001, ECON40002) and Year 2 subjects (ECON90002, ECON90003), students apply advanced theoretical models to novel market failures, strategic game-theoretic interactions, dynamic stochastic macroeconomic shocks, and policy interventions. Level 3 is not met: while Year 2 includes the 25-point capstone sequence (ECON90071 & ECON90072 Economics Research Report), individual handbook extract pages for the research report were not captured in the core syllabus extract and the compulsory Year 1/2 coursework sequence does not document assessed identification of personal learning gaps and a plan to close them. Scored at 2 per R2 and downward resolution.",
+      "evidenceLines": [
+        "Topics to be covered include decision making under uncertainty, the interaction of primal and dual methods of modelling producer and consumer behaviour, the existence and welfare properties of general equilibrium, the theory of market failure and public goods, models of strategic behaviour in oligopoly, an introduction to game theory.",
+        "Apply macroeconomic theory to analyse the potential of macroeconomic policy to improve economic welfare",
+        "Students must enrol in both Parts 1 and 2 of the Research Report in consecutive semesters."
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 1 anchor is met: introductory econometric estimation and literature evaluation are documented across the core. Students complete analytical problem sets, data assignments, and essays in ECON40001, ECON40002, and ECOM40006/ECOM90005. Level 2 requires students to design and conduct an inquiry with methodology selection and data collection, assessed; while elective units (e.g. ECOM90007 Macroeconometrics) include research projects with methodology defense, and Year 2 includes a research report capstone, the unconditionally compulsory coursework units assess set problem sets and examination papers rather than student-designed empirical investigations with methodology selection. No required primary-evidence project defended under formal oral viva scrutiny exists across the compulsory coursework core (level 3).",
+      "evidenceLines": [
+        "10 weekly assignments, 400 words each",
+        "Three Assignments",
+        "Word Problem Set 1",
+        "Word Problem Set 2",
+        "Assignment 1",
+        "Assignment 2"
+      ]
+    },
+    "adaptiveness": 8,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: at least one core assessment requires a recognised professional genre judged against criteria drawn from professional practice. In compulsory core ECON40002 Advanced Macroeconomics, students deliver an assessed 'Group Presentation (4-5 students per group)' (15%); in ECON90013, students complete an individual in-class presentation and policy essay; in ECON90068, students complete case study reports on microeconomic policy. Level 3 is not met: while spoken presentations recur, no core assessment is documented as delivered to, or judged by, a real external economic policy panel (e.g. Reserve Bank of Australia, Commonwealth Treasury, Productivity Commission, or commercial economics consultancies) with professional conduct explicitly among the assessed criteria.",
+      "evidenceLines": [
+        "Group Presentation (4-5 students per group)",
+        "Individual in class presentation (individual)",
+        "Individual essay",
+        "Project 1 (written assessment). Due end of Week 4",
+        "Project 2 (written assessment). Due end of Week 8"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: core assessment reproduces professional tasks end-to-end for economic analysts and econometricians. Students construct and estimate empirical econometric models from raw data (ECOM90005), analyze macroeconomic policy trade-offs under dynamic stochastic shocks (ECON40002), and evaluate market mechanism design and pricing strategies (ECON40001). Resolved downward from level 3 on adversarial verification: tasks are submitted to academic instructors and tutors without externally supplied live policy briefs, real-time central bank forecasting deadlines, or consequential external audiences documented in the assessment tables (R4).",
+      "evidenceLines": [
+        "This course is designed to introduce you to the mathematical underpinnings of the main tools used in empirical economics. Special emphasis will be given to three topics: models of probability, methods of estimation, and methods of inference.",
+        "Apply macroeconomic theory to analyse the potential of macroeconomic policy to improve economic welfare",
+        "Assignment 1",
+        "Assignment 2",
+        "Group Presentation (4-5 students per group)"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1 anchor is met: work-situated learning is not compulsory within the core curriculum. The Master of Economics is structured around advanced theoretical, econometric, and research coursework without a mandatory credit-bearing workplace placement, internship, or practicum in the 200-point core structure.",
+      "evidenceLines": [
+        "The first year of the Master of Economics consists of eight semester-length subjects comprising two core economics subjects, an econometrics subject and five elective subjects.",
+        "The second year of the Master of Economics consists of eight semester-length subjects comprising two economics subjects, an econometrics subject, three elective subjects and the (double subject) Research Report."
+      ]
+    },
+    "workplace": 5,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "PASS condition is met: the program documents an extensive specialist core sequence in advanced microeconomic theory (ECON40001, ECON90002), advanced macroeconomic theory (ECON40002, ECON90003), and advanced econometric techniques (ECOM40006, ECOM90005, ECOM90013) plus the 25-point Research Report capstone. Rigorous mathematical and econometric sequence establishing discipline depth with no interchangeable generic core.",
+        "evidenceLines": [
+          "ECON40001\tAdvanced Microeconomics",
+          "ECON40002\tAdvanced Macroeconomics",
+          "ECON90002\tMicroeconomics",
+          "ECON90003\tMacroeconomics",
+          "ECOM90005\tAdvanced Econometric Techniques",
+          "ECOM40006\tEconometrics 3",
+          "ECON90071\tEconomics Research Report Part 1",
+          "ECON90072\tEconomics Research Report Part 2"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "PASS condition is met: assessment goes well beyond formulaic calculations to require complex trade-off decisions and theoretical problem-solving under economic uncertainty — including decision-making under uncertainty, game-theoretic strategic interactions, and market failure mechanisms in ECON40001/ECON90002, dynamic stochastic macroeconomic stabilization policies in ECON40002/ECON90003, and causal identification under endogeneity and omitted variable bias in ECOM90005.",
+        "evidenceLines": [
+          "Topics to be covered include decision making under uncertainty, the interaction of primal and dual methods of modelling producer and consumer behaviour, the existence and welfare properties of general equilibrium, the theory of market failure and public goods, models of strategic behaviour in oligopoly, an introduction to game theory.",
+          "Apply macroeconomic theory to analyse the potential of macroeconomic policy to improve economic welfare",
+          "Critically evaluate current econometric research published in the top ranking international economic and econometric journals"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1 straddled 1 and 2: ECON40002 assesses a compulsory group presentation (4-5 students, 15%), satisfying level 2's collaborative practice anchor. Level 3 is not met because coordinating work across people AND AI tools with documented role/tool allocation is unevidenced.",
+      "C2 straddled 1 and 2: ECOM90005 assesses reproduction and critical evaluation of published econometric research, and ECON40002 assesses knowledge evaluation, satisfying level 2's criterion-referenced appraisal of quality. Level 3 is not met because reliance/override justification is unevidenced.",
+      "C4 straddled 2 and 3: core subjects assess novel transfer across market equilibria and macroeconomic policies, and Year 2 includes a 25-point research report, but personal learning gap planning is absent and subject pages were not in the extract. Scored at 2 per R2.",
+      "C5 straddled 1 and 2: core subjects assess problem sets and econometric estimation, but student design of an inquiry with methodology selection is not documented in the unconditionally compulsory Year 1 coursework units. Lower level (1) taken per R2.",
+      "W2 straddled 2 and 3: core subjects assess end-to-end econometric modeling and policy evaluation, but assessments are submitted to academic instructors without externally supplied live policy briefs or consequential external stakeholders. Resolved downward to 2 per R4.",
+      "W3: work-situated learning is not a core requirement. Scored at level 1 per the elective anchor."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-24"
     }
   },
   "mc-ed": {
