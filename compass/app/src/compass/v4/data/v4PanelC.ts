@@ -1065,6 +1065,116 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       ],
       "indexVariant": "AIOE-2021"
     }
+  },
+  "mc-scibif": {
+    "code": "mc-scibif",
+    "name": "Master of Science (Bioinformatics)",
+    "hasMarketReport": true,
+    "exposure": 78.62,
+    "entryExposure": 76.89,
+    "jirN": null,
+    "nTitles": 13,
+    "nMedium": 0,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 010999 Biological Sciences, n.e.c.",
+          "n": null
+        }
+      ],
+      "field": "010999",
+      "indexVariant": "AIOE-2021",
+      "coverage": 27.5,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 78.24
+    }
+  },
+  "mc-scibio": {
+    "code": "mc-scibio",
+    "name": "Master of Science (BioSciences)",
+    "hasMarketReport": true,
+    "exposure": 81.42,
+    "entryExposure": 77.86,
+    "jirN": 447,
+    "nTitles": 55,
+    "nMedium": 37,
+    "exposureBasis": {
+      "tier": "cognate",
+      "grain": "related-program",
+      "sources": [
+        {
+          "name": "Bachelor of Science (Biochemistry and Molecular",
+          "n": 141
+        },
+        {
+          "name": "Bachelor of Science (Ecology And Evolutionary",
+          "n": 48
+        },
+        {
+          "name": "Bachelor of Science (Genetics)",
+          "n": 112
+        },
+        {
+          "name": "Bachelor of Science (Microbiology)",
+          "n": 54
+        },
+        {
+          "name": "Bachelor of Science (Zoology)",
+          "n": 92
+        }
+      ],
+      "indexVariant": "AIOE-2021",
+      "note": "dfva_jir_map 'Bachelor of Science (bio majors)': union of the BSc biological-science major records."
+    }
+  },
+  "mc-sciepi": {
+    "code": "mc-sciepi",
+    "name": "Master of Science (Epidemiology)",
+    "hasMarketReport": true,
+    "exposure": 89.46,
+    "entryExposure": 84.77,
+    "jirN": 562,
+    "nTitles": 15,
+    "nMedium": 8,
+    "exposureBasis": {
+      "tier": "partial",
+      "grain": "related-program",
+      "sources": [
+        {
+          "name": "Master of Public Health",
+          "n": 562
+        }
+      ],
+      "indexVariant": "AIOE-2021",
+      "note": "dfva_jir_map: Master of Public Health is the program-family record for the epidemiology stream."
+    }
+  },
+  "mc-scwr": {
+    "code": "mc-scwr",
+    "name": "Master of Screenwriting",
+    "hasMarketReport": true,
+    "exposure": 73.61,
+    "entryExposure": 68.98,
+    "jirN": null,
+    "nTitles": 18,
+    "nMedium": 2,
+    "exposureBasis": {
+      "tier": "field",
+      "grain": "field",
+      "sources": [
+        {
+          "name": "JSA HEO · 100701 Audio Visual Studies",
+          "n": null
+        }
+      ],
+      "field": "100701",
+      "indexVariant": "AIOE-2021",
+      "coverage": 31.2,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 73
+    }
   }
 };
 
@@ -2118,6 +2228,49 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     ],
     "indexVariant": "AIOE-2021"
   },
+  "mc-scibif": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 010999 Biological Sciences, n.e.c.",
+        "n": null
+      }
+    ],
+    "field": "010999",
+    "indexVariant": "AIOE-2021",
+    "coverage": 27.5,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 78.24
+  },
+  "mc-scibio": {
+    "tier": "cognate",
+    "grain": "related-program",
+    "sources": [
+      {
+        "name": "Bachelor of Science (Biochemistry and Molecular",
+        "n": 141
+      },
+      {
+        "name": "Bachelor of Science (Ecology And Evolutionary",
+        "n": 48
+      },
+      {
+        "name": "Bachelor of Science (Genetics)",
+        "n": 112
+      },
+      {
+        "name": "Bachelor of Science (Microbiology)",
+        "n": 54
+      },
+      {
+        "name": "Bachelor of Science (Zoology)",
+        "n": 92
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "dfva_jir_map 'Bachelor of Science (bio majors)': union of the BSc biological-science major records."
+  },
   "mc-scibit": {
     "tier": "exact",
     "grain": "program",
@@ -2153,6 +2306,18 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "indexVariant": "AIOE-2021",
     "note": "Reconciliation package tier cognate."
   },
+  "mc-sciepi": {
+    "tier": "partial",
+    "grain": "related-program",
+    "sources": [
+      {
+        "name": "Master of Public Health",
+        "n": 562
+      }
+    ],
+    "indexVariant": "AIOE-2021",
+    "note": "dfva_jir_map: Master of Public Health is the program-family record for the epidemiology stream."
+  },
   "mc-sciphy": {
     "tier": "cognate",
     "grain": "related-program",
@@ -2164,6 +2329,21 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     ],
     "indexVariant": "AIOE-2021",
     "note": "Reconciliation package tier cognate."
+  },
+  "mc-scwr": {
+    "tier": "field",
+    "grain": "field",
+    "sources": [
+      {
+        "name": "JSA HEO · 100701 Audio Visual Studies",
+        "n": null
+      }
+    ],
+    "field": "100701",
+    "indexVariant": "AIOE-2021",
+    "coverage": 31.2,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 73
   },
   "mc-surged": {
     "tier": "partial",
@@ -11424,6 +11604,272 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "date": "2026-08-15"
     }
   },
+  "mc-scibif": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2's anchor ('At least one core unit assesses collaborative practice — group projects with individual accountability') is met by BINF90018 Skills for Data-intensive Research, a compulsory subject in every stream, which assesses a 4-5 student group project twice (a hurdled group presentation and a hurdled group report). Level 3 is not reached: it requires assessed collaborative practice to RECUR across the program AND at least one assessment where coordinating work across people AND tools/AI systems is itself assessed. The only other core group task (CEDB20003's group poster) is core in the Mathematics/Statistics and Computer Science streams but not the Biology/Biomedicine stream, so recurrence is not documented program-wide, and no assessment documents an allocation of work between people and systems — version control and workflow sharing appear as BINF90018 learning outcomes, never as an assessed division of labour between humans and tools (R2).",
+      "evidenceLines": [
+        "BINF90018\tSkills for Data-intensive Research",
+        "Interactive Oral Assessment (IOA):Group Presentation Group project 4-5 students per group 10h of work required. 10 min talk per group and 10 min Q& A",
+        "Hurdle requirement: Students must achieve 10/20 for group project. Students must attend presentation day\tEnd of the teaching period\t20%",
+        "Group project report (code + text) 4-5 students per group",
+        "Hurdle requirement: Students must achieve 15/30 for group project\t2 Weeks after the end of teaching\t20%",
+        "Manage, organise, and share software and data analysis projects, in independent and teamwork settings.",
+        "Poster; group submission",
+        "Effective teamwork and interdisciplinary collaboration"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "DEMOTED 2→1 on adversarial verification. C2's ladder is about appraising the quality of WORK — level 0 names it as 'their own, peers', or a tool's'. BINF90002's 'Critical Review' (500 words, 10%) is an academic review of the published research literature, mapped to the ILO 'Review and critique bioinformatics applications in the research literature' — it is neither the student's own work, a classmate's, nor a tool's output, and no marking criteria appear anywhere in the extract, so the level-2 head requirement 'criterion-referenced appraisal of quality' is not documented. The supporting evidence collapses on inspection: BINF90018's 'Interpret and assess the quality of coding and data analysis projects' is an ILO (R2 caps outcomes at 1); CEDB20003's 'Reflection tasks; delivered online' (5%) carry no documented criteria AND CEDB20003 is not core in the Biology/Biomedicine stream, so it is not program-wide core; and the only true peer review in the extract, GENE20001's, is documented as 'A written assignment and optional peer reviews' — optional, and also not core for Biology/Biomedicine. Level 1's anchor fits: reflection and critique appear in outcomes and graduate attributes ('advanced independent critical enquiry, analysis and reflection'), but no core unit assesses appraisal of work quality against criteria.",
+      "evidenceLines": [
+        "Critical Review",
+        "500 words",
+        "Review and critique bioinformatics applications in the research literature",
+        "Interpret and assess the quality of coding and data analysis projects.",
+        "Reflection tasks; delivered online",
+        "A written assignment and optional peer reviews",
+        "advanced independent critical enquiry, analysis and reflection"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1's anchor — 'AI or digital tools appear only as electives or as tool operation/training — the operational level TEQSA identifies as non-durable' — describes this core exactly. The core is heavy in digital tool operation (Python programming, algorithms, command line, version control, workflow automation, R-based omics analysis), which the migration note caps at level 1. Every subject that would carry AI content (COMP90049 Introduction to Machine Learning, COMP90089 Machine Learning Applications for Health, COMP90090 Text Analytics for Health) sits in the General Elective list of which students take exactly one. Level 2 is not reached because no core unit is documented as addressing AI capabilities AND their limitations or ethics; BINF90018's reproducibility principles and the program's generic 'ethics of scholarship' attribute are research-practice statements, not assessed treatment of AI limits.",
+      "evidenceLines": [
+        "Use the command-line to read, summarise, and manipulate files and data, and to interact with different computing environments.",
+        "Document computational work utilising version control and software packaging systems.",
+        "Identify and describe the major software tools / analysis pipelines and their application areas",
+        "All Streams - General Elective subjects",
+        "Students must take one 12.5 credit point General elective subject.",
+        "COMP90049\tIntroduction to Machine Learning",
+        "COMP90089\tMachine Learning Applications for Health",
+        "Identify the principles of reproducible research and articulate their importance to scientific practice."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3's anchor is that 'The program documents structured progression toward independent learning: a self-scoped capstone or research project'. The course structure documents exactly that as a required curriculum component, not as an outcome claim: 50 credit points of Research Project subjects taken consecutively by all students, scoped with the project coordinator, gated behind a progression rule requiring 37.5 points of core first, with a required Professional Skills subject that cannot start until the project has begun. That is documented required structure rather than a graduate-attribute statement, which is what R2 forbids relying on. Level 2 is separately met (BINF90017 and COMP90038 assign work on data and problems beyond worked examples), so the item resolves at 3.",
+      "evidenceLines": [
+        "50 credit points of Research Project subjects, undertaken consecutively",
+        "All students undertake a research project for a total of 50 points. The research project comprises of a series of two, three or four subjects which must be completed in consecutive semesters. The research project is normally commenced in the second semester of enrolment. The following research project structures are possible. Students will determine which stream they follow in consultation with the project coordinator.",
+        "Completion of at least 37.5 points of core subjects, or stream specific compulsory subjects, before commencing the research project is normally required. Completed subjects must include BINF90002 and COMP90059 if subject is a required core subject in the stream.",
+        "Note: SCIE90013 should not commence until the Research Project has begun.",
+        "The Master of Science (Bioinformatics) is a coursework masters degree incorporating a research project.",
+        "Project work during semester due around weeks 7 and 11, addressing all Intended Learning Outcomes (ILOs) 1-4.",
+        "Apply key analysis methodologies to transcriptomic data using R, and accurately interpret the results."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2's anchor ('Students design and conduct an inquiry with methodology selection and data collection, assessed') is satisfied by the required 50-point research project sequence, supported by core methods teaching in sampling and experimental design. Level 3 additionally requires that the methodology be 'defended under scrutiny (viva, defence, or staged supervised review)'. The project is staged (Pt 1 / Pt 2 / Pt 3 across consecutive semesters) and scoped in consultation with a project coordinator, which is consistent with a staged supervised review, but no review, defence or viva is documented anywhere in the extract — the research-project subject pages are not present. Evidence consistent with both 2 and 3 resolves DOWN.",
+      "evidenceLines": [
+        "All students undertake a research project for a total of 50 points. The research project comprises of a series of two, three or four subjects which must be completed in consecutive semesters. The research project is normally commenced in the second semester of enrolment. The following research project structures are possible. Students will determine which stream they follow in consultation with the project coordinator.",
+        "50 credit points of Research Project subjects, undertaken consecutively",
+        "the principles of sampling and experimental design;",
+        "You will undertake independent research in bioinformatics with the potential to progress to a PhD.",
+        "Combine reasoning and problem-solving skills to work independently within a bioinformatics research setting."
+      ]
+    },
+    "adaptiveness": 9,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1's anchor fits precisely: communication appears in the course learning outcomes and generic skills, and core assessment adds spoken communication to peers and staff — BINF90018's hurdled group presentation with Q&A on a 'presentation day' — but no core assessment is documented in a recognised professional genre and none is documented as reaching an audience beyond the teaching team. Level 2 would require a client brief, consultancy or policy advice, public-facing artefact or equivalent judged against criteria drawn from professional practice; the remaining core assessment is essays, critical review, written assignments, quizzes and hurdled examinations addressed to the marker. The oral presentations in BTCH90009 and BTCH90005 sit in the elective list, not the core, so they cannot lift the item.",
+      "evidenceLines": [
+        "Communicate scientific information in a variety of written and oral formats;",
+        "Improved verbal and written communication capabilities",
+        "Interactive Oral Assessment (IOA):Group Presentation Group project 4-5 students per group 10h of work required. 10 min talk per group and 10 min Q& A",
+        "Hurdle requirement: Students must achieve 10/20 for group project. Students must attend presentation day\tEnd of the teaching period\t20%",
+        "Essay",
+        "Final Examination"
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "DEMOTED 2→1 on adversarial verification. Level 2 requires a core assessment that 'reproduces a professional task end to end: a real or realistic problem, producing the artefact a practitioner would produce, judged against criteria drawn from practice.' Two of the three conjuncts are undocumented. The extract documents no real or realistic problem for BINF90018's group project — the assessment table says only 'Group project report (code + text) 4-5 students per group / 30 hours (of work required)', with no problem, client, dataset provenance or context of any kind — and no criteria drawn from practice appear for any core assessment. The remaining W2 evidence is ILOs ('Design, reproduce and scale analyses through automated workflows...', 'Document computational work utilising version control and software packaging systems.'), which R2 caps at level 1. The documented core assessment profile is hurdled examinations (BINF90002 50%, BINF90017 60%, COMP90038 60%, COMP90059 60%), essays, written assignments, quizzes and take-home programming assignments — level 1's anchor exactly: contextualised tasks appear (R analysis of transcriptomic data, bioinformatics pipelines, coding projects) but the artefact produced and the criteria applied remain academic. BINF90018's self-description as delivering 'critical professional skills' was disregarded under R4.",
+      "evidenceLines": [
+        "Programming individual assignment (take-home) 12 hours of work required, and Observed Examination (In-Class Quiz) 1-hour test",
+        "Group project report (code + text) 4-5 students per group",
+        "30 hours (of work required)",
+        "Design, reproduce and scale analyses through automated workflows to enhance productivity and consistency.",
+        "Document computational work utilising version control and software packaging systems.",
+        "Interpret and assess the quality of coding and data analysis projects.",
+        "Hurdle requirement: Students must achieve a mark of 50% to successfully pass the subject.\tDuring the examination period\t50%",
+        "A written closed book examination, addressing all Intended Learning Outcomes (ILOs) 1-4."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1's anchor — 'Work-situated learning exists only as an elective, an optional internship' — is exactly the documented position: SCIE90017 Science and Technology Internship appears only in the All Streams General Elective list, from which students take one 12.5-point subject. Level 2 would require a CORE unit placing students in a real workplace or professional-community setting with practitioner supervision; the core contains no placement, practicum, live client project or community-based project. The v4.2 in-practice route does not apply — nothing documents this cohort as already practising in the profession, and the required research project is on-campus research, which is not workplace membership.",
+      "evidenceLines": [
+        "All Streams - General Elective subjects",
+        "Students must take one 12.5 credit point General elective subject.",
+        "SCIE90017\tScience and Technology Internship",
+        "Summer Term (Off Campus)",
+        "Masters (Coursework)Year: 2026Delivered: On Campus (Parkville)"
+      ]
+    },
+    "workplace": 3,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program documents a coherent specialist core with a staged prerequisite chain, which is the G1 PASS condition. 125 credit points of discipline core plus stream-specific compulsory subjects, a subject every stream must complete (BINF90002), explicit prerequisite chains (COMP90059 to COMP90038; MAST90044 to BINF90017; MAST20006 to MAST20005; MAST90044 or MAST20005 to BINF90001), a common second-year bioinformatics core, and a progression rule gating the research project behind 37.5 points of core. This is disciplinary identity, not interchangeable generic content.",
+        "evidenceLines": [
+          "125 credit points of Discipline core subjects including compulsory subjects listed for each stream",
+          "Students in all streams must complete BINF90002 Elements of Bioinformatics.",
+          "Note: Completing COMP90059 meets the prerequisite for COMP90038",
+          "Note: Completing MAST90044 meets prerequisite enrolment requirements for BINF90017",
+          "Note: Completing MAST90044 or MAST20005 meets prerequisite enrolment requirements for BINF90001",
+          "Completion of at least 37.5 points of core subjects, or stream specific compulsory subjects, before commencing the research project is normally required. Completed subjects must include BINF90002 and COMP90059 if subject is a required core subject in the stream."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "G2 passes on the 'simulations/capstones/live projects with real uncertainty and accountability' route: a 50-point research project is required of every student, scoped with a project coordinator and staged across consecutive semesters — inquiry whose result is not known in advance. Defended trade-off decisions are additionally documented in assessed core work: BINF90002's outcome requires selecting an appropriate technology platform and analysis pipeline for different applications (assessed by essay, critical review and hurdled examination), and COMP90038's hurdled examination and semester project work address all ILOs over content that explicitly includes space and time trade-offs. This is beyond recall or scripted response.",
+        "evidenceLines": [
+          "All students undertake a research project for a total of 50 points. The research project comprises of a series of two, three or four subjects which must be completed in consecutive semesters. The research project is normally commenced in the second semester of enrolment. The following research project structures are possible. Students will determine which stream they follow in consultation with the project coordinator.",
+          "Select an appropriate technology platform and analysis pipeline for a variety of different applications",
+          "Topics covered include complexity classes and asymptotic notation; empirical analysis of algorithms; abstract data types including queues, trees, priority queues and graphs; algorithmic techniques including brute force, divide-and-conquer, dynamic programming and greedy approaches; space and time trade-offs; and the theoretical limits of algorithm power.",
+          "Project work during semester due around weeks 7 and 11, addressing all Intended Learning Outcomes (ILOs) 1-4.",
+          "Recognize the design techniques of standard algorithms, and apply these techniques to develop new computational solutions to problems"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1 straddled 2 and 3: BINF90018 assesses a group project whose outcomes cover version control, packaging and workflow sharing, which could be read as coordinating work across people AND tools. Nothing documents the division of work between people and systems as itself assessed, and the second core group task (CEDB20003 group poster) is not core in the Biology/Biomedicine stream, so recurrence program-wide is unproven. Resolved DOWN to 2.",
+      "C2 straddled 1 and 2 and was RESOLVED DOWN TO 1 on adversarial verification (the candidate pass scored 2). The 'Critical Review' in BINF90002 is a discrete assessed critique task, but its object is the published research literature rather than the student's own work, a peer's, or a tool's output — which is what the C2 ladder appraises — and no marking criteria are published anywhere in the extract, so level 2's 'criterion-referenced appraisal of quality' is undocumented. The only genuine peer review in the extract (GENE20001) is optional and not core for the Biology/Biomedicine stream.",
+      "C4 straddled 2 and 3: the level-3 evidence is the documented required research-project structure (50 points, consecutive subjects, progression gate) rather than a quoted assessment task, because the research-project subject pages are absent from the extract. Scored 3 because the level-3 anchor is itself framed as what 'the program documents' and these are compulsory credit-bearing curriculum requirements, not the outcome statements R2 excludes. If the harness requires a quoted assessment task for every level 3 without exception, this item falls to 2.",
+      "C5 straddled 2 and 3: the substantial primary-evidence project is genuinely REQUIRED (not one route among several), satisfying the first half of level 3, but no viva, defence or documented staged supervised review appears in the extract. Resolved DOWN to 2 per the lower-level rule.",
+      "W2 straddled 1 and 2 and was RESOLVED DOWN TO 1 on adversarial verification (the candidate pass scored 2). Two of level 2's three conjuncts are undocumented: the extract gives no problem, client, dataset provenance or context for BINF90018's group project, and no marking criteria drawn from professional practice are published for any core assessment. The remaining support is ILO text, which R2 caps at level 1.",
+      "W1/C1 boundary: BINF90018's group presentation with Q&A carries both collaborative and communicative evidence. Under 'one construct, one home' the group-work fact scores in C1 and the spoken-delivery fact scores in W1; neither was counted twice.",
+      "C4/C5/W3 boundary: the required 50-point research project supports C4's independent-learning progression and C5's inquiry, but is NOT scored in W3 — it is on-campus research, not membership of a workplace or professional community."
+    ],
+    "notScoreable": [
+      "The four second-year all-stream core subjects (BINF90001 Statistics for Bioinformatics, BINF90004 Bioinformatics Case Studies, COMP90014 Algorithms for Bioinformatics, COMP90016 Computational Genomics) have no subject or assessment page in the extract. BINF90004's title alone suggests case-based work relevant to W2 and C4, but with no assessment text it was not scored anywhere.",
+      "The required Professional Skills subject SCIE90013 Communication for Research Scientists has no subject or assessment page in the extract. It is the most likely home for professional-genre communication evidence, so W1's score of 1 is bounded by a coverage gap, not by a positive finding that no such assessment exists.",
+      "All research-project subject pages (BINF90008-BINF90016) are absent, so no assessment task, hurdle or supervision/defence requirement for the 50-point project could be quoted. This directly caps C5 at 2 and is the reason C4's level 3 rests on course-structure requirements rather than a quoted assessment task.",
+      "No core-subject page in the extract mentions generative AI in any form, so C3's treatment of AI capabilities, limitations, ethics or governance could not be assessed positively at level 2 or 3 from core evidence — only the elective machine-learning and digital-health subjects appear."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-23"
+    }
+  },
+  "mc-scibio": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor met: core BIOL90040 assesses collaborative practice with individual accountability (group presentation then individual presentations, 35%; group-prepared written artefact, 15%). Not level 3: assessed collaboration does not recur elsewhere in the core, and no assessment requires coordinating work across people AND tools/AI systems.",
+      "evidenceLines": [
+        "Seminar presentations: each week on a single topic, comprising a group (2-3 students) presentation (20-30 mins), then individual presentations (15 mins)",
+        "Written work: 'wiki-style' summary of the oral presentation, prepared by the group"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2 anchor met: core assessment includes criterion-referenced appraisal of quality - three assessed written peer reviews (30%) in BIOL90040. Not level 3: no core assessment requires documenting and justifying reliance decisions on a tool, source or collaborator, defending AI-output quality, or evidencing strategy adjustment over time.",
+      "evidenceLines": [
+        "Written work: three peer reviews",
+        "Critically evaluate oral and written presentations of peers.",
+        "conduct critical appraisals of draft documents; and"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor: digital content in the core is tool operation only - basic R coding assessed as two coding assignments in computer-based workshops, plus platform use in a participation task. Not level 2: no core unit addresses AI capabilities AND limitations/ethics; the only AI-titled subject in the extract is a non-core Professional Skills option marked not available in 2026.",
+      "evidenceLines": [
+        "use basic coding within the R statistical environment;",
+        "Two coding assignments (equivalent to 600 words each) associated with computer-based workshops",
+        "Participation: social annotation of published papers using the Perusall platform, 50-100 words each week"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3 anchor met: the program documents structured progression toward independent learning via a required 125-point research project taken in sequence, with enrolment advancing Part 1 to Part 4 only on successful completion of the earlier component, and with goal-setting and experiment design named as what the project develops. Assessment evidence is quoted per R2 (committee assessment; Part 1 requirements govern the whole 125 points), though the BIOL90004 subject page itself is absent.",
+      "evidenceLines": [
+        "Research Project, undertaken consecutively in sequence (125 pts)",
+        "Students may only progress through BioScience Research Project subjects upon successful completion of the earlier project component.",
+        "The research project aims to develop a range of experimental and technical skills, a capacity to set goals and to design and plan experiments.",
+        "The assessment requirements detailed in BIOL90004 Research Project Part 1 are applicable to the entire 125 point Research Project."
+      ]
+    },
+    "C5": {
+      "score": 3,
+      "rationale": "Level 3 anchor met: a substantial primary-evidence project is REQUIRED of every student (125 of 200 points, laboratory or field-based experimental research), not one route among several, and it is subject to staged supervised review - a committee responsible for its assessment plus gated progression through four sequential parts. No viva or defence is named; the level-3 route relied on is the staged supervised review.",
+      "evidenceLines": [
+        "The Research Project involves laboratory or field-based experimental research in an area of Ecology and Evolutionary Biology, Genetics, Genomics and Developmental Biology, and Plant Biology.",
+        "Apart from the help and guidance from their supervisor(s) each student also has a committee, which provides additional help and expertise. This committee is responsible for assessment of the research project subject.",
+        "skills in planning, conducting and managing a laboratory or field-based research project, including effective skills in data collection, analysis and interpretation;"
+      ]
+    },
+    "adaptiveness": 11,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1 anchor matches exactly: communication appears in program outcomes and subject generic skills, and core assessment adds presentation to peers and staff (BIOL90040 seminars, oral commentary), but the audience is the class and teaching team. Not level 2: no core assessment documents a recognised professional genre judged against criteria drawn from practice, or an audience beyond the teaching team.",
+      "evidenceLines": [
+        "the ability to communicate scientific concepts and results in oral and written form to specialist and non-specialist audiences.",
+        "employ professional level oral and written communication and presentation skills;",
+        "Participation: quantity and quality of oral commentary during class"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2 anchor met: the required Research Project reproduces the discipline's criterion task end to end - a real laboratory or field research problem, sited in a working research laboratory under a supervisor, assessed by an academic committee. Not level 3: such tasks are not the assessment spine across stages - the coursework core's assessed artefacts are academic genres (quizzes, coding assignments, critical review, synthesis report, seminar), so the project stands as the single instance.",
+      "evidenceLines": [
+        "The project will be based in the laboratory of an academic staff member in the School of BioSciences or an approved external supervisor, depending on the particular research project.",
+        "For full-time students, the project will be taken over four consecutive semesters and will begin on the Monday of the first semester (students can start either semester 1 or semester 2 for mid-year intake) and continue for up to 88 weeks until the end of the fourth semester, minus recreation leave of between 4 and 8 weeks (22 weeks per semester over the four semesters).",
+        "A final synthesis report"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1 anchor matches exactly: work-situated learning exists only as an option - an off-campus internship subject offered among the Professional Skills electives a student 'may also complete'. Not level 2: no core unit places students in a real workplace or professional-community setting with practitioner supervision, and the cohort is not documented as already practising, so the v4.2 in-practice route does not apply.",
+      "evidenceLines": [
+        "And may also complete one of:",
+        "SCIE90017\tScience and Technology Internship",
+        "Semester 2 (Early-Start) (Off Campus)"
+      ]
+    },
+    "workplace": 4,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "A coherent specialist bioscience core with progressive depth: compulsory discipline core plus a 125-point sequenced research project whose parts are gated on completion of the prior component - a staged prerequisite chain, not interchangeable generic content.",
+        "evidenceLines": [
+          "Students must complete 200 points including:",
+          "Discipline Core subjects (25 pts)",
+          "Students may only progress through BioScience Research Project subjects upon successful completion of the earlier project component."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Assessment goes beyond recall or scripted response: a live 88-week laboratory or field research project with genuine methodological uncertainty and accountability to a supervisory committee, and a core statistics option requiring students to justify their own statistical and experimental design decisions.",
+        "evidenceLines": [
+          "The research project aims to develop a range of experimental and technical skills, a capacity to set goals and to design and plan experiments.",
+          "justify their own statistical decisions and experimental designs.",
+          "evaluate a research design and statistical methodology published in scientific literature; and"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C2 straddled 2 and 3: BIOL90002's outcome 'justify their own statistical decisions and experimental designs' plus its assessed 'A critical review' could be read as process/reliance justification, but no assessed task documents reliance on or overriding of a tool, source or collaborator, and BIOL90002 is only one of two core options. Lower-level rule applied - scored 2.",
+      "C5 straddled 2 and 3: the extract states a committee assesses the project and that progression is gated, but never states the student defends methodology to that committee, and the BIOL90004 assessment page is absent. Scored 3 on the anchor's explicit 'staged supervised review' route rather than the viva/defence route; recorded here because the defence element is inferred from the review structure, not quoted directly.",
+      "W1 straddled 1 and 2: the core BIOL90040 peer reviews and seminars are arguably research science's own professional genres, which would reach level 2. But the anchor for level 1 explicitly covers presentation to peers/staff, no audience beyond the teaching team is documented, and no criteria drawn from professional practice are stated. Lower-level rule applied - scored 1.",
+      "W2 straddled 2 and 3: the 125-point project is 62.5% of the degree and could be read as the assessment spine with real time constraints (88 weeks, sequential parts). But level 3 requires the pattern across stages and the coursework core's assessed artefacts are academic genres, so the professional-task instance is singular. Lower-level rule applied - scored 2. No 'authentic'/'real-world' label was relied on (R4).",
+      "W3 straddled 1 and 2: the research project is sited in a working laboratory and may use 'an approved external supervisor', which could be read as a professional-community placement. But it is a university research subject rather than a documented workplace placement with practitioner supervision, and the external-supervisor route is conditional. Lower-level rule applied - scored 1.",
+      "One construct, one home: BIOL90040's seminar presentation carries both collaboration (scored in C1) and communication (W1). The group/individual accountability structure was scored in C1 only; W1 was scored on the presentation-to-peers audience. The Research Project's task fidelity was scored in W2 and its inquiry/primary-evidence character in C5, with no double count in C1 or C4."
+    ],
+    "notScoreable": [
+      "SCIE90013 Communication for Research Scientists is compulsory ('Students must complete:' under Professional Skills subjects) but neither its subject page nor its assessment page is in the extract. The core communication assessment evidence W1 most needs is therefore absent; W1 was scored only on BIOL90040 and program-level outcomes, and would need re-scoring if that page were captured.",
+      "The BIOL90004 BioSciences Research Project Part 1 subject and assessment pages are absent, although the course-structure page states its assessment requirements govern the whole 125-point project. C4, C5, W2 and G2 were scored from course-structure text alone; the actual assessed artefacts, criteria and any defence or hurdle are not documented in this extract."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-23"
+    }
+  },
   "mc-scibit": {
     "instrument": "4.1-draft",
     "C1": {
@@ -11857,6 +12303,157 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "date": "2026-08-15"
     }
   },
+  "mc-sciepi": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 1,
+      "rationale": "Level 1 anchor: collaboration/teamwork appears in learning outcomes and generic skills, but no core unit assesses collaborative practice (group projects with individual accountability, client or stakeholder work, interprofessional activity). Core units assess informal classroom participation and individual oral contributions (POPH90014 'Tutorial Oral Assessment and Participation (15% oral assessment, 5% participation)', POPH90013 'Tutorial and Stata practical participation and contribution' 5%, and POPH90243 'Tutorial contributions - participating in group discussions and informal presentations' 5%), but no group project or collaborative deliverable is assessed in the core. Documented group projects (e.g. COMP90089 AI in health project group activity, GEOM90006 major spatial data analysis group project, GEOM90008 spatial database group proposal) reside strictly in discipline electives. Level 3 is unevidenced as no core assessment requires coordinating work across people and AI tools.",
+      "evidenceLines": [
+        "Implement business and communication skills that are relevant to the workplace.",
+        "be able to initiate and implement constructive change in their communities, including professions and workplaces.",
+        "Tutorial contributions - participating in group discussions and informal presentations",
+        "Tutorial and Stata practical participation and contribution",
+        "Tutorial Oral Assessment and Participation (15% oral assessment, 5% participation)",
+        "collaborative: the ability to work in a team;",
+        "AI in health project proposal (group activity, 3 to 4 students) - Equivalent to 500 words per group",
+        "Discipline Elective Subjects"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1 anchor: appraisal of research and reflective capability appear in course outcomes and graduate attributes, and core subject POPH90243 includes a 'Reflection on the systematic review undertaken in class' (1000 words, 20%), but no core unit assesses criterion-referenced appraisal of quality against explicit standards (peer review, structured critique, portfolio with standards, marking against exemplars). Core units require evaluating published epidemiological literature and questionnaire validity (POPH90014, POPH90242, POPH90243), but this represents external methodological critique rather than criterion-referenced evaluative judgement of student/peer/tool work quality. Level 3 is unevidenced: no assessment requires documenting or justifying reliance/override decisions regarding AI systems or tools, nor process-focused strategy adjustments.",
+      "evidenceLines": [
+        "Demonstrate a critical approach to the appraisal of research work;",
+        "have the ability to demonstrate advanced independent critical enquiry, analysis and reflection;",
+        "Reflect on the epidemiological research process and make recommendations based on these reflections",
+        "Reflection on the systematic review undertaken in class",
+        "Appraise and compose questionnaires to obtain valid and reliable data",
+        "Evaluate epidemiological evidence from experimental and observational studies",
+        "Critique experimental and observational epidemiological studies"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor: digital tools appear in the core at the operational training level (using statistical software packages Stata and Excel to perform analyses and fit regression models), while artificial intelligence and machine learning appear only as electives. Core subjects POPH90013, POPH90144, POPH90145, and POPH90242/243 embed software operations ('Using statistical software', 'Using computers', 'Tutorial and Stata practical'), but do not address AI capabilities, limitations, or ethics (Level 2). Dedicated AI and computational subjects (COMP90089 Machine Learning Applications for Health, MULT90063 Quantum Computing) sit in elective streams, and ethical inquiry in science (SCIE90005) is an unavailable elective ('Not available in 2026'). Level 3 governance is absent.",
+      "evidenceLines": [
+        "Perform simple statistical analyses using appropriate software",
+        "Tutorial and Stata practical participation and contribution",
+        "The subject equips students with the practical skills to apply these regression methods to data from epidemiological studies using the statistical package Stata.",
+        "Practical work estimating rates and fitting models to data will use the statistical package Stata.",
+        "COMP90089\tMachine Learning Applications for Health",
+        "Discipline Elective Subjects",
+        "SCIE90005\tEthics and Responsibility in Science\tNot available in 2026\t12.5"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3 anchor: the program documents structured progression toward independent learning anchored by a mandatory research project component (25-50 points) completed towards the end of the degree. The curriculum progresses from foundational epidemiology and biostatistics (Epidemiology 1, Biostatistics) through advanced methods (Epidemiology 2, Regression Methods, Survival Analysis, Epidemiology in Practice) to a required supervised research project in a self-selected field of choice (50-point Major Research Project via POPH90278/POPH90279 or 25-point Minor Research Project via POPH90280/POPH90283, each taken over two consecutive semesters). This provides a documented pathway to independent research and self-directed inquiry.",
+      "evidenceLines": [
+        "The Master of Science (Epidemiology) gives students the opportunity to undertake a supervised research project in a field of choice as well as a broad range of coursework subjects including a professional skills component, as a pathway to PhD study or to the workforce",
+        "* Research Project component (25-50 points).",
+        "For both the major and minor research project options, these research projects must be completed towards the end of the degree.",
+        "Students will gain research experience in Epidemiology by completing a 50-point major research project.",
+        "Students will gain research experience in Epidemiology by completing a 25-point minor research project option.",
+        "be critical and creative thinkers, with an aptitude for continued self-directed learning;"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2 anchor: students design and conduct an inquiry with methodology selection and data collection, assessed. In core subject POPH90243, students design studies to assess test/questionnaire validity and reliability, and conduct and assess a 'Systematic review and meta-analysis assignment' (35%) and reflective inquiry (20%); in POPH90242, students design experimental and observational studies and apply quantitative bias analyses; and across the 75-point core and mandatory 25-50 point research project component (POPH90278/279 or POPH90280/283), students select methodologies and analyse epidemiological datasets. Level 3 is not met: while a substantial supervised research project is mandatory for all students, the extract does not document a formal methodology defence under scrutiny (such as a viva, public defence, or staged hurdle examination) within the research project subject entries. Per the downward ambiguity resolution rule, level 2 is awarded.",
+      "evidenceLines": [
+        "The Master of Science (Epidemiology) is a coursework masters degree incorporating a supervised research project.",
+        "Research: The ability to initiate, design, and conduct research",
+        "Design experimental and observational epidemiological studies",
+        "Design studies to assess the validity and reliability of questionnaires and tests, and analyse data from such studies",
+        "Systematic review and meta-analysis assignment",
+        "POPH90278\tEpidemiology Research Project Part 1",
+        "POPH90279\tEpidemiology Research Project Part 2",
+        "POPH90280\tEpidemiology Research Project Part 1",
+        "POPH90283\tEpidemiology Research Project Part 2"
+      ]
+    },
+    "adaptiveness": 8,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1 anchor: communication and professional workplace skills appear in course learning outcomes and graduate attributes, and core assessment includes oral presentations to peers and teaching staff, but no professional genre and no audience beyond the teaching team is assessed in the core. Core units assess oral communication and spoken participation in internal tutorial settings (POPH90014 'Tutorial Oral Assessment and Participation (15% oral assessment, 5% participation)', POPH90013 'Tutorial and Stata practical oral assessment' 15%, and POPH90243 'Tutorial contributions - participating in group discussions and informal presentations' 5%). Core written deliverables comprise academic formats (short-answer assignments, exams, and academic systematic reviews). No core unit requires a recognised professional genre (e.g. policy brief, consultancy pitch, clinical handover) or an audience beyond the teaching staff (Level 2).",
+      "evidenceLines": [
+        "Communication: The ability to communicate effectively in writing and orally",
+        "Implement business and communication skills that are relevant to the workplace.",
+        "Tutorial Oral Assessment and Participation (15% oral assessment, 5% participation)",
+        "Tutorial and Stata practical oral assessment",
+        "Tutorial contributions - participating in group discussions and informal presentations",
+        "Written short answer assignment",
+        "Written Short Answer Assignment"
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Level 1 anchor: contextualised or scenario-framed tasks appear in the core, but the artefacts produced and the criteria applied remain academic. Core coursework embeds realistic epidemiological scenarios, datasets, and methods: POPH90243 assesses 'Extended response questions to case studies' (1800 words, 40%) and a 'Systematic review and meta-analysis assignment' (1500 words, 35%); POPH90144 assesses regression modelling reports using Stata on health datasets; and POPH90014/90242 contextualise study designs, causal DAGs, and screening controversies. However, the assessed deliverables are academic essays, short-answer responses, exam papers, and academic reports judged by academic criteria. No core unit reproduces an end-to-end professional task judged against practitioner criteria (Level 2).",
+      "evidenceLines": [
+        "Extended response questions to case studies",
+        "Systematic review and meta-analysis assignment",
+        "Major Assignment [Report]",
+        "Written short answer assignment",
+        "Written Short Answer Assignment",
+        "Written Exam"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1 anchor: work-situated learning exists only as an elective or optional internship. Under Professional Skills subjects, the course offers SCIE90017 Science and Technology Internship (12.5 points) delivered off-campus across Summer, Semester 1, or Semester 2, but it is one elective option among science skills subjects, not a core requirement. The 75-point discipline core and the 25-50 point research project component are conducted on-campus/online academic coursework and laboratory/departmental research, which does not constitute external workplace placement under W3. The in-practice route is inapplicable because the cohort is not documented as already practising professionals.",
+      "evidenceLines": [
+        "Professional Skills Subjects",
+        "SCIE90017\tScience and Technology Internship",
+        "Summer Term (Off Campus)",
+        "Semester 1 (Off Campus)",
+        "Semester 2 (Early-Start) (Off Campus)",
+        "* Discipline Core subjects (75 points);"
+      ]
+    },
+    "workplace": 3,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "PASS condition: the program documents an all-compulsory specialist discipline core (75 points across 6 mandatory subjects: Epidemiology 1, Epidemiology 2, Epidemiology in Practice, Biostatistics, Regression Methods, and Survival Analysis; or the advanced mathematical alternative core stream) with staged prerequisite methodological progression leading directly to a mandatory 25-50 point Epidemiology Research Project component.",
+        "evidenceLines": [
+          "* Discipline Core subjects (75 points);",
+          "POPH90014\tEpidemiology 1",
+          "POPH90242\tEpidemiology 2",
+          "POPH90243\tEpidemiology in Practice",
+          "POPH90013\tBiostatistics",
+          "POPH90144\tRegression Methods in Health Research",
+          "POPH90145\tSurvival Analysis & Regression for Rates",
+          "* Research Project component (25-50 points)."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "PASS condition: core assessments require students to make and defend methodological and analytical decisions under genuine epidemiological uncertainty. Core units explicitly embed 'Working with uncertainty' as a generic skill (POPH90242, POPH90243), requiring students to evaluate confounding structures, construct causal diagrams, quantify bias direction and magnitude, assess screening program performance, and conduct systematic reviews/meta-analyses assessed via extended case-study responses (40%) and substantial written assignments (POPH90242 80%, POPH90243 55%).",
+        "evidenceLines": [
+          "Working with uncertainty",
+          "Judge the impact of effect measure modification on external validity and the implementation of population and clinical interventions",
+          "Assess confounding and collider bias by creating causal diagrams",
+          "Extended response questions to case studies",
+          "Systematic review and meta-analysis assignment",
+          "Reflection on the systematic review undertaken in class"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1 straddled 0 and 1: tutorial participation and informal group discussions are assessed in core POPH90243 (5%) and POPH90014 (5%), and teamwork/collaboration is claimed in generic skills and elective subjects, but no group project or collaborative deliverable is assessed in the core (group projects appear only in electives COMP90089, GEOM90006, GEOM90008). Level 1 is awarded as an outcome/generic skill claim without core collaborative assessment.",
+      "C2 straddled 1 and 2: POPH90243 includes a 'Reflection on the systematic review undertaken in class' (1000 words, 20%) and course attributes claim independent critical enquiry and reflection, but the assessment tables document no criterion-referenced appraisal of quality against explicit rubrics/exemplars or peer review. Per the downward resolution rule, level 1 is awarded.",
+      "C5 straddled 2 and 3: a supervised research project (25 or 50 credit points) is mandatory for all students, but the extract does not document a formal viva or public defence under scrutiny within the subject descriptions. Resolved downward to level 2 per the ambiguity rule.",
+      "W1 straddled 0 and 1: core subjects POPH90014, POPH90013, and POPH90243 assess spoken communication in tutorials (oral assessments and group discussion presentations), clearing level 0, but all communication is delivered to internal markers/peers rather than external professional audiences (level 2). Level 1 is awarded.",
+      "W2 straddled 1 and 2: core coursework features realistic epidemiological problems, case studies, and systematic review assignments, but the artefacts produced and criteria applied remain academic. Level 1 is awarded.",
+      "W3 straddled 0 and 1: SCIE90017 Science and Technology Internship is offered as an elective within Professional Skills, satisfying level 1, but is not part of the compulsory core."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-23"
+    }
+  },
   "mc-sciphy": {
     "instrument": "4.1-draft",
     "C1": {
@@ -11996,6 +12593,157 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "adversarial": true,
       "mechanical": true,
       "date": "2026-08-15"
+    }
+  },
+  "mc-scwr": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor: at least one core unit assesses collaborative practice. FLTV70042 Cinematic Writing assesses a Group Presentation (25%), and FLTV70046 Script Development Hothouse assesses interprofessional collaboration with actors, directors and tutors (active contribution and participation 20%, script development report 80%). Level 3 is not reached because the program documents no assessment requiring the coordination of work across people AND tools/AI systems, and no division of work between people and systems is assessed.",
+      "evidenceLines": [
+        "Group Presentation",
+        "Through working with actors, directors and tutors, this intensive workshop enables students to make significant progress in the development of their first draft script.",
+        "Students learn how to work with actors to workshop a scene from their script and will be required to be on site to write intensively during the hothouse.",
+        "Students will also gain insight into the nature of television as a collaborative writing medium as well as an understanding of the current television landscape. Students will read, analyse and discuss television scripts and attend screenings of TV programs.",
+        "develop an understand of working collaboratively as a writer;",
+        "ability to work collaboratively as part of creative team."
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Level 1 anchor: reflection, self-assessment and peer review appear in outcomes and generic skills, but no core unit assesses appraisal of quality against explicit criteria. The course generic skills claim students \"overcome limitations both critically and creatively\", FLTV70042 generic skills include \"develop positive self critical and peer review skills\", FLTV70041 generic skills include \"analysis and peer feedback\", FLTV70046 ILOs include \"develop skills in hearing and assimilating critical feedback\" and \"heightened skills of critical analysis, both in giving an receiving criticism\", and FLTV70044/47 ILOs claim script analysis and feedback skills. However, core assessment tables list only participation hours, script drafts, development reports, and business folios; no task is documented as criterion-referenced peer review, structured critique against standards, portfolio against standards, or marking against exemplars (Level 2). Level 3 is untouched as no reliance/override decisions or process-focused judgements of AI outputs are documented (R2).",
+      "evidenceLines": [
+        "develop positive self critical and peer review skills;",
+        "analysis and peer feedback;",
+        "develop skills in hearing and assimilating critical feedback.",
+        "heightened skills of critical analysis, both in giving an receiving criticism;",
+        "gain further practice in and understanding of script analysis and feedback;",
+        "further develop script analysis and feedback skills;",
+        "overcome limitations both critically and creatively;"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor: digital/tool content is present only at the tool-operation and new-media level. FLTV70042 core includes learning \"professional script formatting\" and FLTV70045 ILO includes \"develop a business confidence to encourage productivity in all forms of writing, including new media\", delivered alongside \"new media creatives\". Level 2 requires core units to address AI capabilities AND limitations/ethics with use limits assessed; artificial intelligence, machine learning, and algorithmic systems are completely absent from the extract. Level 3 (assessed AI governance, bias, or regulation) is entirely unreachable.",
+      "evidenceLines": [
+        "learn professional script formatting.",
+        "learn skills necessary to develop short film documents and understand correct script formatting;",
+        "develop a business confidence to encourage productivity in all forms of writing, including new media;",
+        "Delivered by industry professionals including representatives from funding bodies, professional writers, distribution companies, new media creatives, directors, and producers, this subject will enable students to define the business aspects of the industry."
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3 anchor: the program documents structured progression toward independent learning through a self-scoped capstone creative project. Progression is staged across the 150-point core from initial craft and concept development (FLTV70041/42/43 in Year 1 Sem 1), through intensive scene work and the self-scoped 37.5-point first draft in FLTV70047 (15,000–20,000 words), culminating in the 37.5-point independent redrafting in FLTV70044 Writing and Rewriting (second draft of 15,000–18,000 words submitted to a professional standard, where students on their own initiative organize readings and actor workshops) and commercialization folio in FLTV70045. This satisfies the self-scoped capstone project progression of level 3.",
+      "evidenceLines": [
+        "Students are expected to write a complete first draft long-form script project, most likely a feature film script or equivalent length television script(s) plus ‘Bible’.",
+        "First Draft Script",
+        "Following on from ‘Major Script Project’ the previous semester, students undertake to write subsequent drafts of their script.",
+        "Students are expected to submit as a minimum a completed second draft long form script; (most likely a feature film script) plus accompanying short documents, or television script(s) of equivalent length plus a ‘Bible’.",
+        "Students may, on their own initiative, organise script readings and/or actor workshops for script development and feedback purposes.",
+        "complete a second draft (minimum) long form script to a professional standard;",
+        "Second Draft major script",
+        "Folio detailing the business strategies behind a major (script) production"
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 1 anchor: introductory research methods training for writers is documented in core units. FLTV70042 introduces students to \"a variety of methods through which writers can access information and inspiration necessary for both their academic and creative work\" with an ILO to \"research, write and present a paper on a topic of their choice\", FLTV70043 has students \"choose and research a topic of interest for their creative work\", and the course ILO claims \"developed skills in research methodology for writers\". Level 2 requires students to design and conduct an inquiry with methodology selection and data collection, assessed; no empirical or field data collection is assessed. The creative capstone produces screenplays and is homed in C4 and W2 per one-construct-one-home, rather than primary research evidence. Level 3 (required primary evidence project defended under viva/scrutiny) is not met.",
+      "evidenceLines": [
+        "demonstrated developed skills in research methodology for writers;",
+        "This subject also introduces students to a variety of methods through which writers can access information and inspiration necessary for both their academic and creative work.",
+        "develop skills enabling the student to research, write and present a paper on a topic of their choice.",
+        "Students will choose and research a topic of interest for their creative work and present their work to the class.",
+        "develop skills that will enable the student to research, write and present a paper on a topic of their choice.",
+        "apply learned knowledge of researching, screenwriting and storytelling craft skills to writing a creative project;"
+      ]
+    },
+    "adaptiveness": 8,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 anchor: core assessments repeatedly require recognised professional genres judged against criteria drawn from professional practice. Assessed tasks include Draft Treatment for Feature Film plus short documents (FLTV70042, 65%), Television Series Development documents / TV Bible (FLTV70043, 65%), Folio detailing the business strategies behind a major script production and submissions to industry funding bodies (FLTV70045, 60%), and feature screenplay drafts (FLTV70047, 90%; FLTV70044, 90%). Level 3 is not reached: while professional communication recurs across the program and industry professionals participate in delivering FLTV70045 and the FLTV70046 Hothouse, the handbook does not document that assessments are judged by an external practitioner panel, nor are professional conduct or accountability explicitly listed among the assessed criteria of any task (R2).",
+      "evidenceLines": [
+        "Draft Treatment for Feature Film plus short documents",
+        "Television Series Development documents",
+        "Students will be made familiar with contemporary TV program development practices and gain an understanding of essential development documents such as the TV series ‘Bible’.",
+        "Folio detailing the business strategies behind a major (script) production",
+        "enable students to prepare submissions to industry funding bodies;",
+        "First Draft Script",
+        "Second Draft major script",
+        "exhibit strong professional, skills, discipline and ethics"
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3 anchor: authentic professional tasks form the program's entire assessment spine (not a single instance) and carry genuine constraints of professional practice. Across the 150-point all-compulsory curriculum there are zero exams or academic essays; every core subject assesses the creation of practitioner artefacts (film treatments, TV bibles, full-length 15,000–20,000 word screenplays, script development reports, and business strategy folios for funding bodies). Practice constraints are documented in FLTV70044 (\"complete a second draft (minimum) long form script to a professional standard\"), FLTV70045 (\"prepare submissions to industry funding bodies\"), and FLTV70046 (intensive on-site workshop constraints with actors and directors).",
+      "evidenceLines": [
+        "Draft Treatment for Feature Film plus short documents",
+        "Television Series Development documents",
+        "First Draft Script",
+        "Second Draft major script",
+        "Folio detailing the business strategies behind a major (script) production",
+        "complete a second draft (minimum) long form script to a professional standard;",
+        "enable students to prepare submissions to industry funding bodies;",
+        "Students learn how to work with actors to workshop a scene from their script and will be required to be on site to write intensively during the hothouse."
+      ]
+    },
+    "W3": {
+      "score": 0,
+      "rationale": "Level 0 anchor: no work-integrated learning, placement, practicum or community-based project appears anywhere in the course structure. The 150-point curriculum consists entirely of on-campus coursework subjects at Southbank. Intensive on-campus workshops with actors/directors in FLTV70046 represent studio simulation, which the rubric explicitly excludes from W3 and homes in W2. The cohort is not documented as already practising professionals, so the in-practice route does not open.",
+      "evidenceLines": [
+        "150-point program of compulsory subjects",
+        "Semester 1 (On Campus - Southbank)",
+        "Semester 2 (On Campus - Southbank)",
+        "Semester 1 (Extended) (On Campus - Southbank)",
+        "Through working with actors, directors and tutors, this intensive workshop enables students to make significant progress in the development of their first draft script."
+      ]
+    },
+    "workplace": 5,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program documents a coherent specialist core with progressive technical depth across an all-compulsory 150-point structure (seven FLTV subjects with zero interchangeable electives), staged sequentially from foundational craft to intensive scene work, long-form drafting, advanced revision, and industry business.",
+        "evidenceLines": [
+          "150-point program of compulsory subjects",
+          "FLTV70041\tStorytelling Workshop",
+          "FLTV70042\tCinematic Writing",
+          "FLTV70043\tWriting for Television",
+          "FLTV70046\tScript Development Hothouse",
+          "FLTV70047\tMajor Screenwriting Project",
+          "FLTV70044\tWriting and Rewriting",
+          "FLTV70045\tBusiness of Screenwriting"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Assessment requires continuous decision-making under genuine creative, narrative and commercial uncertainty, including writing and revising full-length feature scripts and TV series bibles, developing funding submission business folios, and real-time scene rewriting based on actor/director workshops. The FAIL condition (recall or scripted responses only) is completely absent.",
+        "evidenceLines": [
+          "overcome limitations both critically and creatively;",
+          "demonstrate a flexible and innovative approach to current professional challenges",
+          "First Draft Script",
+          "Second Draft major script",
+          "Folio detailing the business strategies behind a major (script) production",
+          "enable students to prepare submissions to industry funding bodies;"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1 straddled 1 and 2: FLTV70042's 25% Group Presentation is an assessed group task in a compulsory subject, and FLTV70046 assesses active contribution to interprofessional actor/director workshops, meeting level 2. Level 3 fails because no division of work between people and AI/tools is assessed.",
+      "C2 straddled 1 and 2: Peer review and critical self-evaluation are prominent across ILOs and generic skills, and subjects include \"Script development report\" and tutorial participation. However, no core assessment is documented as criterion-referenced peer review, structured critique against rubrics, or marking against exemplars. Resolved DOWN to 1 per R2 and the downward ambiguity rule.",
+      "C4 straddled 2 and 3: The 37.5-point First Draft (FLTV70047) and 37.5-point Second Draft (FLTV70044) form a self-scoped long-form creative capstone project with documented staged progression across the degree, meeting level 3's self-scoped capstone project route.",
+      "C5 straddled 1 and 2: Research methods training for writers is documented in FLTV70042 and FLTV70043 (\"methods through which writers can access information and inspiration\", \"research methodology for writers\"). However, no empirical/field data collection is assessed; the creative project produces screenplays rather than primary empirical inquiry evidence, homed in C4 and W2 under one-construct-one-home. Lower level 1 taken.",
+      "W1 straddled 2 and 3: Multiple professional genres are assessed across the core (treatments, TV bibles, scripts, funding folios), satisfying level 2. FLTV70045 is delivered by industry professionals and FLTV70046 involves working with actors/directors, but the handbook does not document external practitioner judging or explicit assessment of professional conduct criteria. Resolved DOWN to 2.",
+      "W2 straddled 2 and 3: Authentic tasks form 100% of the core assessment spine (zero exams or academic essays across the 150 points) and carry documented practice constraints (profession's own standards of performance in FLTV70044, industry funding body submission standards in FLTV70045, on-site live actor workshop constraints in FLTV70046). Level 3 awarded.",
+      "W3 vs W2 boundary: The intensive actor/director workshop in FLTV70046 is on-campus studio simulation, which the rubric explicitly directs to home in W2 rather than W3. With no placement, practicum, or internship in the core or electives, W3 scores 0."
+    ],
+    "notScoreable": [
+      "C3 AI governance anchors: Artificial intelligence, machine learning, and automated systems are not mentioned in the extract; scored on digital tools and new media only.",
+      "Assessment rubrics and criteria: Handbook provides task titles, hours/word counts, timings, and percentages, but no detailed marking criteria text."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-23"
     }
   },
   "mc-surged": {
