@@ -293,6 +293,7 @@ export const REPORT_CONTENT_LOADERS: Record<
   "dfva-v4-mc-surged": () => import("./dfva-v4-mc-surged"),
   "dfva-v4-mc-tesol": () => import("./dfva-v4-mc-tesol"),
   "dfva-v4-mc-urbdes": () => import("./dfva-v4-mc-urbdes"),
+  "dfva-v4-me-dcd": () => import("./dfva-v4-me-dcd"),
   "dfva-v4-recommend-038ab": () => import("./dfva-v4-recommend-038ab"),
   "dfva-v4-recommend-080cl": () => import("./dfva-v4-recommend-080cl"),
   "dfva-v4-recommend-080cn": () => import("./dfva-v4-recommend-080cn"),
@@ -354,6 +355,7 @@ export const REPORT_CONTENT_LOADERS: Record<
   "dfva-v4-recommend-mc-surged": () => import("./dfva-v4-recommend-mc-surged"),
   "dfva-v4-recommend-mc-tesol": () => import("./dfva-v4-recommend-mc-tesol"),
   "dfva-v4-recommend-mc-urbdes": () => import("./dfva-v4-recommend-mc-urbdes"),
+  "dfva-v4-recommend-me-dcd": () => import("./dfva-v4-recommend-me-dcd"),
 };
 
 export function hasReportContent(slug: string): boolean {
