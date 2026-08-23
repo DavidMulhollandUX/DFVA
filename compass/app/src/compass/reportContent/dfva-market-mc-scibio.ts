@@ -44,16 +44,69 @@ Victoria and South Australia agri-tech sectors are advertising plant science and
 **Signal 7 — Environmental Data Analyst Roles Bridging Biology and GIS**
 A growing cluster of roles sits at the intersection of ecology and spatial data — Environmental Data Analysts and Spatial Ecologists using remote sensing, LiDAR, and GIS tools. These roles explicitly require a biological sciences background paired with computational tools, an emerging gap the program could explicitly address.
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
-| Indicator | Signal | Trend |
-|---|---|---|
-| Consulting sector hiring | Environmental consulting firms (ERM, WSP, GHD, Jacobs) maintaining ecology and environmental science headcount | Stable-to-growing driven by infrastructure and mining EIA requirements |
-| Government science agencies | CSIRO, DAFF, Parks Victoria, DEECA, EPA Victoria actively recruiting biological scientists | Growing in biosecurity and biodiversity; stable in core research |
-| Nature Repair Market | Federal Nature Repair Market Act (2023) creating new private-sector demand for biodiversity scientists | Emerging — new employer category forming |
-| PhD pathways | UniMelb, ANU, Monash, CSIRO all absorbing MC-SCIBIO-type graduates into PhD programs | Stable; research intensive program aligns well |
-| Agri-tech startups | Growing cluster of Melbourne/Adelaide agri-tech firms requiring plant science expertise | Growing but small absolute numbers |
-| International demand | NZ, UK, Canada and EU environmental agencies hiring Australian-trained ecologists | Moderate — credential recognition generally smooth |
+**What these sources are.** Commonwealth legislation and regulator pages (Nature Repair Act
+2023, DCCEEW, Clean Energy Regulator), CSIRO corporate statements and programme pages, and
+IBISWorld industry data for environmental consulting. Direct extraction from X or LinkedIn
+was **not** performed and no professional forum was sampled. Dates are given where the
+source carries one. Two claims in the previous version of this section — that environmental
+consultancies are holding or growing ecology headcount, and that CSIRO is "actively
+recruiting" with core research "stable" — are **contradicted** by the sources below and have
+been corrected rather than restated. Claims about PhD absorption, agri-tech clusters and
+international credential recognition are **removed**: no source was found for them.
+
+### Theme 1 — a new biodiversity market exists in law, but the demand from it is still prospective
+
+The [Nature Repair Act 2023](https://www.dcceew.gov.au/environment/environmental-markets/nature-repair-market/legislation)
+commenced on 15 December 2023, establishing a national market in which the
+[Clean Energy Regulator](https://cer.gov.au/news-and-media/news/2024/february/cer-commences-work-nature-repair-market)
+(February 2024) can issue tradeable biodiversity certificates for registered projects. The
+first market method and the supporting Ecological Knowledge System went out for public
+consultation in October 2024, and the November 2025 environmental law reform package amended
+the Act so projects can meet offset obligations under the EPBC Act.
+
+Scope this honestly: the legal architecture is in place and the offset link materially
+raises the likely volume. That is a **forming** employer category, not measured hiring. No
+source consulted reports biodiversity-scientist job numbers attributable to the scheme.
+
+**Bearing:** C5 and W2.
+
+### Theme 2 — environmental consulting is a large employer whose headcount is flat to slightly down
+
+[IBISWorld](https://www.ibisworld.com/australia/employment/environmental-consulting/5610)
+puts environmental consulting in Australia at about **$6.8bn in 2026** with roughly
+**12,750 people employed**, and records employment **declining an average of 0.6% a year
+across 2021–2026**. The industry grew 3.3% a year by revenue between 2019 and 2024 across
+6,271 businesses, and mandatory climate-related financial disclosure under the Treasury Laws
+Amendment Act took effect in January 2025 as a compliance driver.
+
+The correction matters for a graduate reading this: revenue growth and headcount growth have
+come apart. The sector is sizeable and regulation-driven, but it is not adding ecologists at
+the rate its revenue suggests.
+
+**Bearing:** C4 and W3.
+
+### Theme 3 — biosecurity funding is rising while CSIRO headcount is falling
+
+Both things are true at once, and the previous version of this section reported only the
+first. CSIRO's
+[Catalysing Australia's Biosecurity](https://www.csiro.au/en/about/challenges-missions/biosecurity)
+mission forecasts initial co-investment above **$55 million over six years**, on top of the
+**$1 billion over four years** in the Commonwealth's Biosecurity Sustainable Funding Package
+(Budget 2023–24), and the
+[National Biosecurity Strategy](https://www.biosecurity.gov.au/about/national-biosecurity-committee/nbs)
+names a skilled workforce as an explicit objective.
+
+Against that, CSIRO's own
+[statement on its research direction](https://www.csiro.au/en/news/All/News/2025/November/Statement-on-CSIRO-research-direction)
+(November 2025) accompanies a period in which the organisation removed more than **800
+positions over eighteen months**, with a further **300–350** announced, while concentrating
+on a narrower agenda that retains agriculture and biosecurity. "CSIRO is recruiting
+biological scientists" is not a supportable reading; "biosecurity is a funded priority
+inside a shrinking organisation" is.
+
+**Bearing:** C4 and C5.
 
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 

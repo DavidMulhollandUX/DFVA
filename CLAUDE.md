@@ -77,6 +77,11 @@ cd compass/app && wasp start   # server (3001) + client (3000)
 ## Report content pipeline
 `reports/*.md` are the canonical source. Never hand-edit `compass/app/src/compass/reportContent*.ts` — regenerate with `npm --prefix scripts run dfva:gen-content`, then verify with `npm --prefix scripts run dfva:check`. New courses: follow `docs/adding-a-course.md`.
 
+Three sections are authored by judgement, not generated — market report §3 (discussion
+signals), and v4 §4 (market evidence) and §5 (curriculum implications). Procedure, lint
+mechanics and house form: [docs/dfva-report-section-authoring.md](docs/dfva-report-section-authoring.md).
+Source §3 **before** authoring §4 — §4 condenses it.
+
 ## Context
 Part of the SXD-Github workspace at University of Melbourne.
 COMPASS = COMputational Program Assessment & Strategy System. 

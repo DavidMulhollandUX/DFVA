@@ -36,18 +36,57 @@ Ads increasingly require Python fluency alongside R. Data engineering tasks (ETL
 **Signal 7 — International mobility a defining feature of the graduate cohort**
 Job posting volume in the UK (NHS Genomics Medicine Service), US (NIH, biotech clusters), and Singapore (A*STAR, Genome Institute) is significantly higher than ANZ. Graduate forums and LinkedIn data suggest a substantial proportion of Australian bioinformatics MSc graduates take their first or second role offshore.
 
-## 3. CURRENT DISCUSSION SIGNALS (X)
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
-### Hiring Signals
-- Clinical genomics roles in Australia growing with MBS funding for genomic testing. Bioinformatics MSc is the standard entry credential.
-- Pharmaceutical and biotech R&D in ANZ modest but growing — CSL, Mesoblast, and clinical-stage biotechs hiring bioinformaticians.
-- UK and US markets significantly larger — many Australian bioinformatics graduates work overseas.
-- AI/ML in drug discovery (AlphaFold, protein LLMs) creating demand for bioinformaticians who understand both biology and ML.
+**What these sources are.** Peer-reviewed analyses of Australian Medicare claims and
+genomic-testing uptake, Australian genomics programme reporting (Australian Genomics,
+[Melbourne Genomics Health Alliance](https://www.melbournegenomics.org.au/news/first-medicare-funding-genomic-testing-commence-1-may)), and the structural-biology methods literature
+(AlphaFold 3, the ESM protein language models). Direct extraction from X or LinkedIn was
+**not** performed, and no professional forum was sampled — the themes below rest on named
+studies and programme reporting, not on inferred practitioner discourse. Dates are given
+where the source carries one. Claims about ANZ employer hiring volumes are **not** sourced
+here and have been removed rather than restated.
 
-### Discussion Signals
-- "Bioinformatics is becoming computational biology" — shift from tool operation to research design
-- AI in genomics creating both opportunity (accelerated analysis) and risk (tool operator roles compressing)
-- Growing recognition that cross-disciplinary training (biology + CS + statistics) is the durable profile
+### Theme 1 — funded clinical genomics is the demand signal that can actually be measured
+
+Australia's genomic testing is publicly funded in steps, and each step is visible in
+Medicare data. The first Medicare funding for genomic testing commenced 1 May 2020
+(Melbourne Genomics Health Alliance), with [genome sequencing for mitochondrial disease](https://www.nature.com/articles/s41431-026-02053-6) funded from November 2023. [Kong et al.](https://ascpt.onlinelibrary.wiley.com/doi/10.1111/cts.70538), analysing national Medicare data in *Clinical and Translational Science* (2026), find annual cancer-biomarker test claims rose nearly
+**fivefold between 2010 and 2024** — from 5,130 to 25,374 — with median reimbursement per
+test rising from **AU$339 in 2014 to AU$667 in 2024** as multigene panels displaced single
+tests.
+
+That same literature names the constraint directly: these technologies require laboratory
+infrastructure, **bioinformatics capability** and specialist workforce capacity, and the [paediatric genomics literature](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12402192/) (2025) reports clinical-genetics workforce shortages already reshaping who orders tests. The scoping caveat matters — [fewer than **40% of eligible patients**](https://www.nature.com/articles/s41431-023-01417-6) receive exome or genome sequencing within two years of an item's creation, which
+reads as a capacity limit rather than as demand that has already been met.
+
+**Bearing:** C4 and C5. The measurable growth is in interpreting funded clinical tests, not
+in method development.
+
+### Theme 2 — structure prediction moved the boundary between tool use and research design
+
+[AlphaFold 3](https://blog.google/innovation-and-ai/products/google-deepmind-isomorphic-alphafold-3-ai-model/) (Google DeepMind and Isomorphic Labs, May 2024) extended structure prediction
+from single proteins to complexes involving nucleic acids and small molecules, and the ESM
+series — ESMFold, ESM-2, ESM-3 — enables high-throughput structure prediction without
+multiple sequence alignments. Reviews in [*Precision Clinical Medicine*](https://academic.oup.com/pcm/article/8/3/pbaf015/8180385) (2025) and [*Expert Review of Proteomics*](https://www.tandfonline.com/doi/full/10.1080/14789450.2025.2456046) (2025) describe the consequence for practice: work that was a
+multi-step computational project is now a model call, and the residual expertise sits in
+choosing the question, judging when a prediction is unreliable, and designing the
+validation.
+
+**Bearing:** C2 and C3. Evaluative judgement about model output is the part that did not get
+automated.
+
+### Theme 3 — the durable profile is biology *and* computation, and it is a training claim
+
+The framing that bioinformatics is converging on computational biology — from tool
+operation toward research design — is a reading of the methods literature above rather than
+a surveyed finding, and is stated here as interpretation. What the sources do support is
+narrower: [Kong et al.](https://ascpt.onlinelibrary.wiley.com/doi/10.1111/cts.70538) (*Clinical and Translational Science*, 2026) and the Australian [paediatric genomics literature](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12402192/) (2025) name bioinformatics capability as a distinct
+system constraint alongside laboratory infrastructure and specialist workforce capacity —
+an argument for training that spans biology and computation rather than either alone. The
+convergence claim itself carries no survey behind it and should not be read as one.
+
+**Bearing:** C1 and C5.
 
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 | Declining Demand | Velocity | Rising Demand | Velocity |

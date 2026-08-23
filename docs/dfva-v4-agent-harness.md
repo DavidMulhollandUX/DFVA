@@ -109,7 +109,11 @@ Stage rules:
   scoring agent never writes an exposure figure; the page labels the basis from
   `V4_PANEL_A_BASIS`. What the estimated tiers mean and may be used for:
   `docs/dfva-panela-estimated-basis-methods.md`.
-- **5 REPORT** — Panel A exposure, position and stability figures come from the
+- **5 REPORT** — scaffold with `npx tsx scripts/dfva-v4-report-scaffold.ts <code>`, which
+  derives everything except §4 and §5 and leaves them as AUTHOR blocks the lint refuses to
+  publish. Authoring guidance for those two sections:
+  [Authoring market §3, and v4 §4 and §5](dfva-report-section-authoring.md).
+  Panel A exposure, position and stability figures come from the
   generators (`dfva:gen-v4` for the v4 cohort; `dfva-v3-panela.ts` / `dfva-v31-panela.ts`
   machinery for the reference cohort), never from the scoring agent. Position renders only per the v3.1 §5.2
   stability rules, against medians re-based in the published v4 cycle.
@@ -323,6 +327,11 @@ Ranked by what survives scrutiny, best first:
 Legacy market reports (66 of them) predate this rule and are grandfathered in
 `check-report-format.ts`; they warn rather than fail. Remove a slug from
 `MARKET_GRANDFATHERED` once its §3 complies — the lint prints which are ready.
+
+**How to actually do a re-sourcing pass** — the step order, the four outcomes per claim
+(sourced / scoped / corrected / removed), and the exact strings the lint keys on (a bare
+`(Journal, 2026)` counts as zero attributions) — is in
+[Authoring market §3, and v4 §4 and §5](dfva-report-section-authoring.md).
 
 ## The insights page is shared: copy must survive the next program
 
