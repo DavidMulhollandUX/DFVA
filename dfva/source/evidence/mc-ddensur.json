@@ -120,7 +120,7 @@
     }
   },
   "panelCv4": {
-    "instrument": "4.1-draft",
+    "instrument": "4.2-draft",
     "C1": {
       "score": 2,
       "rationale": "Level 2 anchor is satisfied several times over: core units assess collaborative practice through graded group tasks (Professional Practice 1 group presentation, Professional Practice 2 group presentation, both Dental Research Project subjects' group oral presentations, and an assessed collaborative online discussion in Diseases and Dentistry), and teamwork is documented as taught content in the operatory. Level 3 is not reached: the anchor requires, in addition to recurrence, at least one assessment where coordinating work across people AND tools/AI systems is itself assessed \u2014 no assessment task in the extract documents allocation of work between people and tools or systems, and no gen-AI system appears anywhere. Placement/clinical-team evidence is deliberately not counted here (it scores in W3), per the one-construct-one-home rule.",
