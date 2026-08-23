@@ -1,0 +1,96 @@
+{
+  "code": "mc-gmcom",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: at least one core unit assesses collaborative practice. In core subject MECM90031 Audiovisual Communication, students collaborate in production crews on video project development and production journals (75%); in JOUR90027 Global Crisis Reporting, students complete practical crisis simulation reporting tasks; and across media writing and data policy units, structured in-class collaborative debates and group presentations recur (MECM90002, MECM90003, MECM90007). Level 3 is not met: no core assessment requires coordinating work across people AND tools/AI systems with documented role-and-tool allocation or an assessed division of work between communicators and generative AI systems.",
+      "evidenceLines": [
+        "Final project: 4 minute video and production journal (60% video, 15% journal) ... Audiovisual Communication",
+        "A class presentation and site analysis essay ... Mobility, Culture and Communication",
+        "Class presentation ... Media Convergence and Digital Culture",
+        "Oral presentation ... Global Data Policy & Governance"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: core assessment includes criterion-referenced appraisal of quality. In MECM90002 Global Data Policy & Governance, students critically appraise data privacy frameworks, algorithmic governance standards, and platform regulation models; in MECM90017 Media Writing: Rhetoric and Practice, students evaluate rhetorical strategies, framing biases, and discourse construction across three assessed professional media writing portfolios (30%, 30%, 40%); and in MECM90031, students complete reflective production journals appraising aesthetic, narrative, and technical editing choices. Level 3 is not met: no core assessment requires students to document and justify reliance decisions (deciding when to rely on or override generative AI text generators, automated sentiment analysis, or machine translation tools), defend judgements of AI-generated journalistic copy, or evidence strategy adjustment over time.",
+      "evidenceLines": [
+        "An essay ... Global Data Policy & Governance (MECM90002)",
+        "Media Writing: Rhetoric and Practice (MECM90017) ... 1500 words (equivalent) ... 1500 words (equivalent) ... 2000 words (equivalent)",
+        "A reflective essay ... Mobility, Culture and Communication",
+        "Final project: 4 minute video and production journal (60% video, 15% journal)"
+      ]
+    },
+    "C3": {
+      "score": 3,
+      "rationale": "Level 3 anchor is satisfied: core assessment requires critique or governance of AI and algorithmic systems in the discipline's own context — bias, accountability, transparency, regulation, and data governance — well beyond tool operation. In compulsory core subject MECM90002 Global Data Policy & Governance, students complete an assessed essay (50%), oral presentation (25%), and formal policy brief (25%) specifically examining platform data regulation, algorithmic accountability, digital surveillance, and data justice; and in MECM90015 Perspectives on Digital Platforms and MECM90041 Political Economy of Digital Life, students critique algorithmic content distribution, automated moderation, and artificial intelligence policy.",
+      "evidenceLines": [
+        "Global Data Policy & Governance (MECM90002) ... An essay (2500 words, 50%) ... Oral presentation (25%) ... Policy brief (1500 words, 25%)",
+        "Perspectives on Digital Platforms (MECM90015) ... Class presentation (30%) ... Research project (40%)",
+        "Political Economy of Digital Life (MECM90041) ... An essay (40%) ... An essay (50%)"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: at least one core assessment requires application to novel or unfamiliar problems through unscripted global media crisis simulations (JOUR90027), unscripted digital platform policy controversies (MECM90002), and novel creative audiovisual communication briefs (MECM90031). Level 3 is not met: while a self-scoped 12,000-word research thesis (MECM90029/MECM90030) is offered as a capstone pathway, it is an elective stream alongside standard coursework (MECM90043) and internship (MULT90019) routes, and therefore does not represent the guaranteed path for all graduating students (R1).",
+      "evidenceLines": [
+        "Global Crisis Reporting (JOUR90027) ... Crisis simulation / practical task",
+        "Media Writing: Rhetoric and Practice (MECM90017) ... Three professional media portfolios",
+        "Students must choose one of the following capstone options: Capstone option 1 (Thesis) ... Capstone option 2 (Internship) ... Capstone option 3 (MECM90043)"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: students design and conduct an inquiry with methodology selection and data collection, assessed. In capstone subject MECM90043 Global Communication: Theory & Research, students complete a self-designed 5000-word written project-oriented case study and oral presentation with qualitative or quantitative methodology selection and empirical media data collection; and in core MECM90007 Media Convergence and Digital Culture, students complete an assessed 3000-word research essay with primary media content analysis. Level 3 is not met: while the 12,000-word thesis option (MECM90029/30) requires an extended empirical study, it is an elective route (R1), and the standard capstone (MECM90043) is not defended under formal oral viva scrutiny.",
+      "evidenceLines": [
+        "Global Communication: Theory & Research (MECM90043) ... Oral presentation of selected project-oriented case study (20%) ... Written project-oriented case study (5000 words, 50%)",
+        "Media Convergence and Digital Culture (MECM90007) ... A research essay (3000 words, 55%)",
+        "Media & Communications Research Methods (MECM90042) ... Research design assignments"
+      ]
+    },
+    "adaptiveness": 11,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: at least one core assessment requires a recognised professional genre judged against criteria drawn from professional practice. Across the core, students produce formal 1500-word regulatory policy briefs (MECM90002), professional media releases and news features (MECM90017), broadcast-quality audiovisual media packages (MECM90031), and investigative crisis reporting dispatches (JOUR90027). Level 3 is not met: while professional media and policy genres recur, no core assessment is documented as delivered to, or judged by, a real external media organization, government policy body (e.g. ACMA, eSafety Commissioner), or commercial communications agency with professional conduct explicitly among the assessed criteria.",
+      "evidenceLines": [
+        "Global Data Policy & Governance (MECM90002) ... Policy brief (1500 words, 25%)",
+        "Media Writing: Rhetoric and Practice (MECM90017) ... Three professional media writing tasks",
+        "Audiovisual Communication (MECM90031) ... Final project: video and production journal",
+        "Global Crisis Reporting (JOUR90027) ... Crisis reporting exercise"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: core assessment reproduces professional tasks end-to-end for communication directors, media policy advisors, and digital content producers. Students produce full-cycle policy analysis (MECM90002), multimedia journalism portfolios (MECM90017), and broadcast video packages (MECM90031). Resolved downward from level 3 on adversarial verification: tasks are submitted to academic instructors without externally supplied live media briefs, breaking newsroom time pressures, or consequential external stakeholders documented in the assessment tables (R4).",
+      "evidenceLines": [
+        "Global Data Policy & Governance (MECM90002) ... Policy brief",
+        "Media Writing: Rhetoric and Practice (MECM90017) ... Professional media writing portfolio",
+        "Audiovisual Communication (MECM90031) ... Video project and journal"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1 anchor is met: work-situated learning is not compulsory within the core curriculum. While MULT90019 Internship II (Semester Long) is offered as a 25-point capstone option, the Master of Global Media Communication does not mandate an assessed, credit-bearing, practitioner-supervised workplace placement within its compulsory sequence (students can graduate via the coursework capstone MECM90043 or thesis route)."
+    },
+    "workplace": 5,
+    "gates": {
+      "G1": {
+        "status": "PASS",
+        "rationale": "PASS condition is met: the program documents a comprehensive 200-point graduate curriculum including compulsory foundation units in media theory and research methodology (MECM90039, MECM90038), followed by a 75-point core sequence in data policy, digital culture, media writing, and audiovisual production. Coherent, rigorous disciplinary media and communications sequence."
+      },
+      "G2": {
+        "status": "PASS",
+        "rationale": "PASS condition is met: assessment explicitly requires complex strategic and communication trade-off decisions under high public and geopolitical uncertainty — including crisis communication strategy and rapid media response under severe information gaps in JOUR90027, platform policy intervention and regulatory trade-offs under algorithmic uncertainty in MECM90002, and ethical editorial decision-making under conflicting political pressures in MECM90016 and MECM90043."
+      }
+    },
+    "ambiguities": [
+      "C1 straddled 1 and 2: MECM90031 and JOUR90027 assess collaborative video production and crisis simulation exercises, satisfying level 2 collaborative practice. Level 3 is unmet because collaborative human-AI workflow allocation is unevidenced.",
+      "C2 straddled 1 and 2: MECM90002, MECM90017, and MECM90031 assess critical appraisal of data governance, rhetorical framing, and production quality, satisfying level 2 quality appraisal. Level 3 is unmet because reliance/override justification is unevidenced.",
+      "C3 scored at 3: MECM90002 Global Data Policy & Governance directly assesses critical governance, algorithmic accountability, regulation, and data ethics in media platforms, satisfying level 3's discipline-specific AI governance anchor.",
+      "C4 straddled 2 and 3: core subjects assess novel transfer across crisis reporting and platform policy, but the self-scoped thesis (MECM90029/30) is an elective stream and not guaranteed for all students. Scored at 2 per R1.",
+      "C5 straddled 2 and 3: core capstone MECM90043 requires a student-designed 5000-word empirical inquiry with methodology selection (level 2), but a formal thesis with viva defense is elective. Scored at 2 per R1.",
+      "W2 straddled 2 and 3: core subjects assess authentic media writing and video production, but assessments are submitted to academic instructors without externally supplied live client briefs or consequential external stakeholders. Resolved downward to 2 per R4."
+    ]
+  }
+}
