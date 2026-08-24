@@ -64,7 +64,7 @@ Urban greening professionals across ANZ are discussing how consecutive record-br
 Urban forestry and parks management communities are actively debating a shift: LiDAR-based canopy auditing and drone-based vegetation assessment are moving from specialist to expected baseline. Professionals who cannot work with spatial datasets are increasingly disadvantaged in shortlisting for senior roles. This is a curriculum gap risk if URBHORT does not include hands-on GIS/spatial data training.
 
 **Theme 3 — Tension between ecological performance and design aesthetics**
-A persistent professional discourse in ANZ landscape and horticulture circles centres on the conflict between clients who prioritise aesthetic outcomes and practitioners who prioritise ecological function. URBHORT graduates are well-positioned to bridge this divide, but discussion suggests the translation skill (communicating ecological value to non-technical stakeholders) is undersupplied in the workforce.
+Clients who prioritise aesthetic outcomes and practitioners who prioritise ecological function pull in opposite directions, and reconciling the two is a standing problem in ANZ landscape and horticulture work. URBHORT graduates are well positioned to bridge that divide. This report reads the translation skill — communicating ecological value to non-technical stakeholders — as undersupplied in the workforce; nothing consulted for this section measures the shortfall.
 
 **Theme 4 — Biodiversity Net Gain (BNG) frameworks arriving from the UK are reshaping practice**
 Australian planning and environmental professionals are actively tracking UK Biodiversity Net Gain legislation (mandatory from 2024) and anticipating analogous frameworks in Victoria and NSW. Green infrastructure professionals who understand BNG accounting methodologies (habitat units, distinctiveness matrices) are being sought by planning consultancies preparing for this regulatory shift.
@@ -76,7 +76,7 @@ Urban water management, stormwater bioretention, and flood mitigation are conver
 Melbourne City Council's Urban Agriculture Policy and equivalent strategies in Brisbane and Sydney are creating demand for professionals who can design, implement, and manage community food-growing infrastructure. While smaller in volume than other job families, this niche is growing and aligns with emerging community resilience discourse post-COVID.
 
 **Theme 7 — AI-assisted planting design tools are raising quality floor but not replacing expertise**
-Professionals are experimenting with AI tools for species selection (e.g., Greenspace Intelligence, adapted ChatGPT workflows) and planting plan visualisation. The consensus in professional communities is that these tools raise the quality floor for inexperienced practitioners but do not replace expert judgment on site-specific conditions, soil constraints, and long-term ecological trajectory. URBHORT graduates with AI tool fluency plus deep ecological knowledge will be differentially valuable.
+Professionals are experimenting with AI tools for species selection — Greenspace Intelligence and adapted ChatGPT workflows — and for planting plan visualisation. This report reads these tools as raising the quality floor for inexperienced practitioners without replacing expert judgement on site-specific conditions, soil constraints and long-term ecological trajectory. No source consulted for this section tests that split. On either reading, URBHORT graduates with AI tool fluency plus deep ecological knowledge are differentially valuable.
 
 ---
 

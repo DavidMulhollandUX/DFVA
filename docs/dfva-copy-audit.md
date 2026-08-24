@@ -332,17 +332,40 @@ rendered the OpenSaaS setup instructions to the public: "Just add your Product
 IDs! Try it out below with test credit card number 4242 4242 4242 4242 4242".
 That told a visitor the payment path was a demonstration.
 
+### Follow-ups, closed 2026-08-24
+
+**The 17 `unattributed-discourse` errors are fixed.** The corpus now returns
+**zero error-severity findings across all 446 files**. Each fix took one of two
+routes, and no source was invented:
+
+| Report | Route taken |
+|---|---|
+| `mc-bamktg` (3) | Promoted Binet, Field and Sharp out from under an invented "LinkedIn thought leaders" wrapper; restated two themes as the report's own reading |
+| `mc-base` | Rested the claim on the observable fact that Impact Investing Australia, Social Ventures Australia and the Centre for Social Impact all fund the same remediation |
+| `mc-clind` (2) | Restated as the report's reading, with the payback timing marked an inference |
+| `mc-envlaw` | Kept the named tools (Harvey, CoCounsel, Thomson Reuters AI); dropped "the consensus in practitioner forums" |
+| `mc-indeng` | Restated the Python and SQL boundary as a reading, not a standard |
+| `mc-prop` | Rested on the $10B Housing Australia Future Fund, not on "Property Council forums" |
+| `mc-propsyc` | Kept the TGA 2023 scheduling change; marked the pathway unsized |
+| `mc-urbdes` (2) | Kept the Arup ANZ and AECOM public argument; aligned both themes with the section's own "no platform was sampled" declaration |
+| `mc-urbhort` (2) | Kept the named AI tools; marked the workforce shortfall unmeasured |
+| `me-dcd` | Kept Pearl, Overjet and Diagnocat; marked the referral-quality effect an expectation |
+
+Every rewrite states its own sourcing rather than implying one. Where nothing
+backed a claim, the sentence now says so.
+
+**The two dead components are deleted.** `compass/CompetitiveLandscape.tsx` and
+`compass/WhyDFVA.tsx` were unreferenced by `src`, `main.wasp.ts` and the e2e tests.
+
 ### Still open
 
-**17 `unattributed-discourse` errors** sit in market reports as tracked debt:
-`mc-bamktg` (3), `mc-clind` (2), `mc-envlaw` (2), `mc-indeng` (2), `mc-urbdes` (2),
-`mc-urbhort` (2), `mc-base`, `mc-prop`, `mc-propsyc`, `me-dcd`. R3 fixed the line
-numbers, so they are now actionable. Each needs a named outlet, commentator or
-study, which is sourcing judgement rather than a mechanical edit.
-
-**Two dead components** carry the internal name and render nowhere:
-`compass/CompetitiveLandscape.tsx` and `compass/WhyDFVA.tsx`. Delete them, or wire
-them into an authenticated route.
+**The `unattributed-discourse` rule under-detects.** Fixing these 17 surfaced
+sentences the rule misses: "Professional discourse in Australian dental
+communities has intensified", "professional discourse increasingly positions".
+The rule needs a claim verb, so a discourse noun with a state verb passes. The
+same is true of `platform-sampling-claim`, which matches "LinkedIn and X are" but
+not "on LinkedIn and in AMI community discussions are". Both are tightenable, and
+tightening them will surface more tracked debt.
 
 **Plan naming remains a commercial decision.** The display names now read
 "Standard" and "Unlimited", derived from the one thing the plans differ on: whether

@@ -83,7 +83,7 @@ The professional discourse has shifted from evangelism about smart factories to 
 AUKUS and the Federal Government's $330B+ defence investment pipeline are generating significant discussion about industrial engineering talent gaps in defence manufacturing, naval shipbuilding, and critical infrastructure. Engineers Australia has flagged this as a structural demand signal for the next decade. Victorian IE programs that build pathways into this sector will be well-positioned.
 
 **Theme 7 — Data Engineering Skills Are Blurring Into IE Roles**
-Professional discourse increasingly positions the industrial engineer as a "data-informed systems thinker" rather than a pure methods specialist. There is active debate about how much Python, SQL, and data pipeline knowledge should be expected of IE graduates versus data engineers. The emerging consensus: IE graduates should be proficient consumers and analysts of operational data, capable of building dashboards and running simulations, but not expected to build production ML systems from scratch.
+The industrial engineer's role is moving toward data-informed systems work and away from pure methods specialism. How much Python, SQL and data-pipeline knowledge an IE graduate should carry, as against a data engineer, is unsettled. This report's reading is that IE graduates need to be proficient consumers and analysts of operational data — able to build dashboards and run simulations — without being expected to build production ML systems from scratch. No source consulted for this section draws that boundary, so it is a reading rather than a standard.
 
 ---
 

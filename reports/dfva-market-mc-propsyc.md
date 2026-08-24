@@ -78,7 +78,7 @@ Online psychology communities, particularly those active on Instagram and dedica
 National discussions on psychology workforce supply consistently highlight that rural and regional Australia face severe shortages of registered psychologists, while metro areas (especially inner Melbourne) are increasingly saturated. The Victorian government's Rural Health Workforce Strategy and the NWHN are funding rural telehealth expansion. Programs are being scrutinised on whether they actively prepare or incentivise graduates for rural practice.
 
 **Theme 7 — PSYCHEDELIC-ASSISTED THERAPY TRAINING AS AN EMERGING CREDENTIAL**
-Interest in psychedelic-assisted therapy (psilocybin, MDMA) among early-career psychologists has grown since the TGA scheduling changes of 2023. While still a niche pathway, the discourse indicates that graduates who acquire foundational training in this modality (through postgraduate certificates or CPD programs) are differentiated in the emerging integrative mental health market. MPsych programs are not currently required to address this, but it represents a visible CPD-to-credential pipeline forming in the profession.
+Interest in psychedelic-assisted therapy (psilocybin, MDMA) among early-career psychologists has grown since the TGA scheduling changes of 2023. The pathway is still niche and nothing consulted for this section sizes it. This report reads foundational training in the modality, through postgraduate certificates or CPD, as a differentiator in the emerging integrative mental health market. MPsych programs are not currently required to address it, but a CPD-to-credential pipeline is visibly forming in the profession.
 
 ---
 
