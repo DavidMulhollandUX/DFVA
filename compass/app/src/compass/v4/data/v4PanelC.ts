@@ -1246,6 +1246,27 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "note": "Environmental Law is a Melbourne Law Masters specialisation; the Master of Laws record (n=676) is the program-family record, as the reconciliation package did for specialisation streams."
     }
   },
+  "mc-evalo": {
+    "code": "mc-evalo",
+    "name": "Master of Evaluation",
+    "hasMarketReport": true,
+    "exposure": 96.58,
+    "entryExposure": 94.75,
+    "jirN": 86,
+    "nTitles": 13,
+    "nMedium": 6,
+    "exposureBasis": {
+      "tier": "exact",
+      "grain": "program",
+      "sources": [
+        {
+          "name": "Master of Evaluation",
+          "n": 86
+        }
+      ],
+      "indexVariant": "AIOE-2021"
+    }
+  },
   "mc-finance": {
     "code": "mc-finance",
     "name": "Master of Finance",
@@ -2759,6 +2780,17 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
       {
         "name": "Master of Environmental Science",
         "n": 32
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "mc-evalo": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Evaluation",
+        "n": 86
       }
     ],
     "indexVariant": "AIOE-2021"
@@ -12015,11 +12047,11 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     "workplace": 5,
     "gates": {
       "G1": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: comprehensive 200-point multidisciplinary postgraduate qualification spanning environmental sustainability, stakeholder governance, climate change, conservation, waste management, environmental science, and specialized capstone projects across 10 University faculties."
       },
       "G2": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: core assessment explicitly requires navigating high-stakes socio-ecological dilemmas, conflicting community/commercial stakeholder interests, and uncertain climate scenarios (MULT90004, MULT90005)."
       }
     },
@@ -12319,6 +12351,103 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "date": "2026-08-14"
     }
   },
+  "mc-evalo": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: assessed collaborative teamwork recurs across core and compulsory subjects: MULT90004 (group verbal, visual and written report, 3,000w total / 750w each), MULT90005 (collaborative group briefing paper, 1,500w per student), DEVT90009 (case study group presentation), and DEVT90041 (group assignment). Level 3 is not met: formal assessed division-of-labor charters allocating tasks between human evaluators and AI systems (e.g. AI-driven qualitative thematic coding vs human evaluative judgement) are unevidenced.",
+      "evidenceLines": [
+        "MULT90004 Environmental Sustainability ... A group verbal, visual and written report",
+        "MULT90005 Partnerships for Sustainable Futures ... Collaborative (group) briefing paper, to be a combined total of 1500 words per student",
+        "DEVT90009 Development Theories ... Case study group presentation",
+        "DEVT90041 Development Research Design & Assessment ... A group assignment (equivalent to 300 words per student)"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: core assessment requires criterion-referenced evaluative judgement across complex program evaluations, impact assessments (ENST90002 Social Impact Assessment and Evaluation), development research designs (DEVT90041), and multi-stakeholder policy briefing papers (MULT90005). Level 3 is not met: no core assessment requires students to systematically audit, verify, and document reliance and override decisions regarding AI data analytics, synthetic survey analysis, or automated evaluation synthesis tools over time.",
+      "evidenceLines": [
+        "ENST90002 Social Impact Assessment and Evaluation ... Project report (2500 words) ... An essay (2500 words)",
+        "DEVT90041 Development Research Design & Assessment ... A research design essay (3000 words) ... A critical analysis essay",
+        "MULT90005 Partnerships for Sustainable Futures ... Reflective essay (1500 words)"
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: core units utilize and assess quantitative and qualitative data analytics software, survey research design tools, and development research evaluation technologies (DEVT90041 Development Research Design & Assessment, ENST90002 Social Impact Assessment and Evaluation). Level 3 is not met: systemic critique of AI governance in program evaluation (algorithmic bias in social impact models, synthetic control evaluation ethics, and automated performance auditing governance) is not formally assessed across the core.",
+      "evidenceLines": [
+        "DEVT90041 Development Research Design & Assessment ... A research design essay ... A critical analysis essay",
+        "ENST90002 Social Impact Assessment and Evaluation ... Project report",
+        "Demonstrate advanced knowledge and understanding of evaluation theory and practice"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: core assessment requires transfer of evaluation theories, methodology frameworks, and impact assessments across diverse public policy, development, education, welfare, and healthcare contexts (DEVT90002, DEVT90009, DEVT90041, ENST90002). Level 3 is not met: structured identification of personal professional capability gaps with an assessed AES continuing professional learning plan across every student is unevidenced.",
+      "evidenceLines": [
+        "DEVT90002 International Development Project Management ... Professional portfolio / report (2500 words) ... Reflective essay",
+        "DEVT90009 Development Theories ... Research essay ... oral defence",
+        "Apply understandings of evaluation theory and methods to a range of professional settings"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: students design and conduct evaluative inquiries, empirical research designs, and impact evaluations (DEVT90041 Development Research Design essay 3,000w, ENST90002 Project Report 2,500w, and capstone research options). Level 3 is not met: because 100pt candidates can fulfill requirements via coursework or literature review rather than a mandatory primary research thesis defended under universal viva examination, it scores at Level 2.",
+      "evidenceLines": [
+        "DEVT90041 Development Research Design & Assessment ... A research design essay (3000 words)",
+        "ENST90002 Social Impact Assessment and Evaluation ... Project report (2500 words)",
+        "ENST90006 Environmental Research Review (12.5) ... 1000 words ... 4000 words"
+      ]
+    },
+    "adaptiveness": 10,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: professional communication is assessed repeatedly across core units (professional portfolios/reports in DEVT90002, policy briefing papers in MULT90005, oral presentations in DEVT90003/DEVT90009, and impact reports in ENST90002). Level 3 is not met: formal grading of professional conduct and evaluation communication by external registered Australasian Evaluation Society (AES) practitioners across the compulsory core is unevidenced.",
+      "evidenceLines": [
+        "DEVT90002 International Development Project Management ... Professional portfolio / report (2500 words) ... Oral presentation",
+        "MULT90005 Partnerships for Sustainable Futures ... Collaborative (group) briefing paper, to be a combined total of 1500 words per student",
+        "DEVT90009 Development Theories ... 10-minute oral defence of the research essay"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: authentic tasks form a substantial part of core coursework: professional project management portfolios (DEVT90002), social impact evaluations (ENST90002), and stakeholder briefing papers (MULT90005). Level 3 is not met: universal core assessments do not carry the full unyielding external constraints of practice (e.g. real commercial client evaluation contracts with consequential stakeholder scrutiny).",
+      "evidenceLines": [
+        "DEVT90002 International Development Project Management ... Professional porfolio / report (2500 words) ... Progress report",
+        "ENST90002 Social Impact Assessment and Evaluation ... Project report (2500 words)",
+        "MULT90005 Partnerships for Sustainable Futures ... Collaborative (group) briefing paper"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1 anchor is satisfied: work-situated learning is formally structured as an optional capstone/elective route (GEOG90022 Internship with Host Supervisor Assessment Report / ENST90025 Environmental Industry Research) or own-practice evaluation in the student's workplace, but is not mandatory for all students across the universal core.",
+      "evidenceLines": [
+        "GEOG90022 Social Science Internship ... A reflective journal including a log of hours worked and a Host Supervisor Assessment Report",
+        "ENST90025 Environmental Industry Research (25) ... 1500 words ... Hurdle requirement ... 7000 words"
+      ]
+    },
+    "workplace": 5,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "PASS condition is met: comprehensive 100-point professional development qualification in evaluation theory, methodology, ethical practice, program monitoring, impact evaluation, and performance audit."
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "PASS condition is met: core assessment explicitly requires navigating high-stakes evaluation dilemmas, conflicting stakeholder values, ambiguous program outcomes, and ethical data decisions (ENST90002, DEVT90002, MULT90005)."
+      }
+    },
+    "ambiguities": [
+      "C1 straddled 2 and 3: collaborative group projects in MULT90004, MULT90005, DEVT90009, and DEVT90041 satisfy level 2. Level 3 is unmet because explicit human-AI workflow allocation charters are unevidenced.",
+      "C2 straddled 2 and 3: program evaluations and impact assessments satisfy level 2. Level 3 is unmet because AI evaluation analytics auditing and override logs are unevidenced.",
+      "C3 straddled 2 and 3: research design tools and data analytics satisfy level 2, but AI evaluation ethics and automated auditing critique are unevidenced in the core.",
+      "C4 straddled 2 and 3: contextual evaluation transfer is assessed across the core (level 2), but self-capability gap tracking is unevidenced. Scored at 2.",
+      "C5 straddled 2 and 3: empirical research design and project reports satisfy level 2, but a mandatory primary research thesis defended under oral examination is not required for all students. Scored at 2.",
+      "W1 straddled 2 and 3: professional communication is repeatedly assessed (level 2), but external practitioner grading across the universal core is unevidenced.",
+      "W2 straddled 2 and 3: authentic project reports satisfy level 2, but unyielding external client constraints are unevidenced.",
+      "W3 satisfies level 1: internship with supervisor assessment is available as an elective/capstone route, but not universally mandatory in the core."
+    ]
+  },
   "mc-finance": {
     "instrument": "4.2-draft",
     "C1": {
@@ -12403,11 +12532,11 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     "workplace": 5,
     "gates": {
       "G1": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: the program documents an extensive 150-point specialist graduate curriculum including a compulsory 50-point core in Quantitative Analysis of Finance I (ECON90033), Economics of Finance (ECON90034), Financial Statement Analysis (ACCT90002), and Financial Markets and Instruments (FNCE90047), followed by advanced finance selectives in Corporate Restructuring, Investment Management, Risk Management, and Machine Learning. Coherent, rigorous disciplinary finance sequence."
       },
       "G2": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: assessment goes well beyond deterministic formulaic calculations to require complex financial trade-off decisions under high market and strategic uncertainty — including corporate distress prediction and accounting choice adjustments in ACCT90002, valuation of distressed and merging firms under incomplete information in FNCE90012, portfolio asset allocation under volatile macroeconomic conditions in FNCE90080, and derivative hedging under market liquidity risk in FNCE90082."
       }
     },
@@ -12633,11 +12762,11 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     "workplace": 5,
     "gates": {
       "G1": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: the program documents a comprehensive 200-point graduate curriculum including compulsory foundation units in media theory and research methodology (MECM90039, MECM90038), followed by a 75-point core sequence in data policy, digital culture, media writing, and audiovisual production. Coherent, rigorous disciplinary media and communications sequence."
       },
       "G2": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: assessment explicitly requires complex strategic and communication trade-off decisions under high public and geopolitical uncertainty — including crisis communication strategy and rapid media response under severe information gaps in JOUR90027, platform policy intervention and regulatory trade-offs under algorithmic uncertainty in MECM90002, and ethical editorial decision-making under conflicting political pressures in MECM90016 and MECM90043."
       }
     },
@@ -12874,11 +13003,11 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     "workplace": 6,
     "gates": {
       "G1": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: the program documents a comprehensive 100-point specialist graduate curriculum covering evidence-based learning, instructional leadership models, assessment design, and educational research methodologies aligned to the AITSL National Professional Standard for Principals. Coherent, rigorous disciplinary educational leadership sequence."
       },
       "G2": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: assessment explicitly requires complex strategic and pedagogical trade-off decisions under high school and community uncertainty — including diagnosing conflicting student learning trajectories under data ambiguity in EDUC90755, designing intervention strategies for school turnaround under faculty resistance in EDUC90751/EDUC90750, and reforming school-wide assessment architectures under changing curriculum mandates in EDUC90754."
       }
     },
@@ -13113,11 +13242,11 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     "workplace": 5,
     "gates": {
       "G1": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: the program documents a comprehensive 100-to-200 point specialist graduate curriculum in international relations theory, international security, global political economy, international law, and regional diplomacy delivered by the School of Social and Political Sciences and Asia Institute. Coherent, rigorous disciplinary curriculum."
       },
       "G2": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: assessment explicitly requires complex strategic trade-off decisions under severe international uncertainty — including formulating foreign policy responses to escalating geopolitical crises, evaluating diplomatic deterrence options under incomplete intelligence, and negotiating multilateral climate and trade agreements with conflicting state interests."
       }
     },
@@ -13345,11 +13474,11 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     "workplace": 5,
     "gates": {
       "G1": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: the program documents a comprehensive 100-to-200 point specialist graduate curriculum in computer science, software engineering, distributed systems, machine learning, and cybersecurity accredited by the Australian Computer Society (ACS). Rigorous, coherent disciplinary computing core."
       },
       "G2": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: assessment explicitly requires complex architectural and algorithmic trade-off decisions under technical uncertainty — including engineering fault-tolerant distributed systems under network partitions and latency in COMP90024, optimizing bias-variance trade-offs under noisy data in COMP90051, and balancing scope, technical debt, and concurrency safety under fixed sprint deadlines in SWEN90016."
       }
     },
@@ -13735,11 +13864,11 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     "workplace": 5,
     "gates": {
       "G1": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: the program documents a comprehensive 300-point Engineers Australia and EUR-ACE accredited master's curriculum spanning engineering mathematics, solid mechanics, fluid dynamics, thermodynamics, materials science, dynamics, control systems, and mechanical systems design. Rigorous, coherent engineering core."
       },
       "G2": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: assessment explicitly requires complex engineering trade-off decisions under physical and operational uncertainty — including optimizing aerodynamic and thermal efficiency against weight and manufacturing tolerances in MCEN90054, tuning closed-loop control stability under unmodeled plant dynamics in ELEN90055, and resolving competing structural stiffness versus cost constraints under physical prototyping limits in ENGR90051."
       }
     },
@@ -13832,11 +13961,11 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     "workplace": 5,
     "gates": {
       "G1": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: the program documents a comprehensive 200-point graduate management curriculum spanning organizational behavior, accounting, economics, finance, decision analytics, marketing management, operations, and strategic leadership. Rigorous, coherent management core."
       },
       "G2": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: assessment explicitly requires complex strategic and operational trade-off decisions under market uncertainty — including navigating competitive entry barriers and disruptive market threats in MGMT90146, allocating capital under conflicting financial forecasts in MGMT90280, and managing organizational change resistance and workforce restructuring under incomplete information in MGMT90025/MGMT90018."
       }
     },
@@ -13929,11 +14058,11 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     "workplace": 5,
     "gates": {
       "G1": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: the program documents a comprehensive 200-point curriculum accredited by CPA Australia and CAANZ, covering financial accounting, managerial accounting, auditing, taxation, corporate law, quantitative methods, and accounting information systems. Rigorous, coherent professional accounting core."
       },
       "G2": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: assessment explicitly requires complex professional accounting judgements under statutory and commercial ambiguity — including assessing going-concern risks and materiality thresholds under incomplete audit evidence in ACCT90014, selecting appropriate revenue recognition and fair-value valuation models under market volatility in ACCT90012/ACCT90013, and navigating complex tax statutory interpretation in ACCT90016."
       }
     },
@@ -14026,11 +14155,11 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     "workplace": 5,
     "gates": {
       "G1": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: the program documents a comprehensive 200-point curriculum covering corporate financial policy, derivative securities, investment management, accounting for decision making, quantitative methods, and managerial economics. Rigorous, coherent postgraduate finance core."
       },
       "G2": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: assessment explicitly requires complex financial decision-making under severe market volatility, macroeconomic uncertainty, and incomplete information — including pricing exotic options under stochastic volatility in FNCE90011, restructuring corporate capital structure under bankruptcy risks in FNCE90018, and constructing optimal portfolios under dynamic covariance regimes in FNCE90056/FNCE90062."
       }
     },
@@ -14254,11 +14383,11 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     "workplace": 5,
     "gates": {
       "G1": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: the program documents a comprehensive 200-point curriculum accredited by the Australian Marketing Institute (AMI), covering marketing management, consumer psychology, marketing research, B2B marketing, decision analytics, and marketing strategy. Rigorous, coherent postgraduate marketing core."
       },
       "G2": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: assessment explicitly requires complex marketing and strategic decisions under dynamic competitive uncertainty, shifting consumer preferences, and incomplete market data — including multi-period competitive decision-making in MKTG90005 Marketing Strategy simulations, sizing B2B markets under macro volatility in MKTG90048, and formulating sustainable marketing transitions under evolving consumer trust in MKTG90049."
       }
     },
@@ -14351,11 +14480,11 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     "workplace": 5,
     "gates": {
       "G1": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: jointly delivered by the Faculty of Arts (School of Culture and Communication) and the Faculty of Business and Economics, documenting a comprehensive 200-point curriculum integrating marketing management, public relations, media management, consumer insights, marketing metrics, and strategic communications. Rigorous, coherent postgraduate multidisciplinary core."
       },
       "G2": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: assessment explicitly requires complex communications and marketing decisions under severe uncertainty, dynamic public opinion shifts, reputational PR crises, and incomplete media data — including live interactive crisis debates in MECM90044, multi-channel campaign redevelopment under platform volatility in MECM90036, and strategic resource allocation in MGMT90148."
       }
     },
@@ -16176,11 +16305,11 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     "workplace": 9,
     "gates": {
       "G1": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: AASW-accredited 225-credit-point professional entry qualification fully meeting Australian Social Work Education and Accreditation Standards (ASWEAS). Rigorous, comprehensive foundation spanning social work theory, human development, counselling skills, law and ethics, Indigenous practice, social policy, research methodology, and 1,000 hours of supervised field education."
       },
       "G2": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: assessment explicitly requires high-stakes clinical and psychosocial decision-making under severe uncertainty, acute crisis, trauma, child protection vulnerability, and ambiguous family/community dynamics — including risk and vulnerability appraisal in SCWK90054, legal and ethical dilemma resolution in SCWK90055, and live clinical intervention in supervised field placements SCWK90048/SCWK90049."
       }
     },
@@ -16275,11 +16404,11 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     "workplace": 9,
     "gates": {
       "G1": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: accredited by Speech Pathology Australia (SPA) as a 200-point entry-level professional master's degree meeting all national competency standards. Comprehensive foundation spanning speech anatomy/physiology, acoustics, phonetics, linguistics, child language development, dysphagia, adult neurogenic disorders, voice/fluency, and clinical practice."
       },
       "G2": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: assessment explicitly requires high-stakes diagnostic and clinical decision-making under severe clinical uncertainty, acute patient distress, complex neurological presentations, and airway/aspiration safety risks — including live OSCE hurdles across AUDI90029, AUDI90033, AUDI90036, AUDI90039, and AUDI90041 and direct clinical decision-making during COMPASS®-assessed placements."
       }
     },
@@ -16945,11 +17074,11 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     "workplace": 5,
     "gates": {
       "G1": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: accredited by the Planning Institute of Australia (PIA) as a 200-point professional graduate qualification. Comprehensive foundation spanning planning theory and history, planning law and statutory planning, urban economics, strategic plan making, climate change and sustainability, urban coding and design, participatory planning, analytical methods, and the 25-point minor thesis."
       },
       "G2": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: assessment explicitly requires high-stakes decision-making under severe socio-political uncertainty, conflicting community stakeholder values, climate resilience imperatives, and ambiguous development proposals — including statutory permit assessments in ABPL90130, strategic plan formulations in ABPL90131, and public consultation negotiation in ABPL90315."
       }
     },
