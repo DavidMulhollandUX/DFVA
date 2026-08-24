@@ -46,7 +46,21 @@ Run it before handing work back:
 
 ```bash
 python3 scripts/check-report-prose.py --file dfva-market-<code>.md
+python3 scripts/check-report-prose.py --file <code>.json   # an evidence file
+python3 scripts/check-report-prose.py                      # everything
 ```
+
+It covers three things, not one:
+
+- **`reports/dfva-v4-*.md` and `dfva-market-*.md`** — the full rule set.
+- **`reports/dfva-*.md` otherwise** (archived v1, faculty and research-degree
+  reports, genre `legacy`) — the error rules only. They still render at
+  `/reports/archive`, so they must be true; they are not held to house style.
+- **`dfva/source/evidence/*.json`** — the fields you write: `rationale`, `note`,
+  `basis`, `ambiguities`. **Never** run prose rules over `evidenceLines`, `quote`
+  or `anchor`. Those hold handbook text quoted as proof, and `json.loads` has
+  already stripped the quotation marks that would otherwise protect them.
+  Rewriting one breaks the citation.
 
 `error` findings must not ship. `warn` findings need your judgement. `style`
 findings are Google developer-documentation deviations the house may knowingly

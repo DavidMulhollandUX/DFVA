@@ -9,6 +9,39 @@
 set -e
 cd "$(dirname "$0")"
 
+# Guard: this script builds and deploys whatever is checked out locally, with
+# no branch check of its own — Vercel has no git integration on this project.
+# On 2026-08-25 a run from a stale `feat/v4-global-queue` checkout silently
+# overwrote a same-day dev.evidura.ai deploy with day-old content, and stayed
+# live for hours before anyone noticed. Refuse by default unless the working
+# tree is `dev`, clean, and matches origin/dev; pass --force to override for a
+# deliberate one-off (e.g. previewing a feature branch).
+FORCE=false
+for arg in "$@"; do
+  [ "$arg" = "--force" ] && FORCE=true
+done
+if [ "$FORCE" != true ]; then
+  BRANCH=$(git rev-parse --abbrev-ref HEAD)
+  if [ "$BRANCH" != "dev" ]; then
+    echo "❌ On '$BRANCH', not 'dev'. dev.evidura.ai deploys the dev branch."
+    echo "   git switch dev   — or re-run with --force to deploy this branch anyway."
+    exit 1
+  fi
+  if [ -n "$(git status --porcelain)" ]; then
+    echo "❌ Uncommitted changes present — they would deploy without being in git history."
+    echo "   Commit, stash, or re-run with --force."
+    exit 1
+  fi
+  git fetch -q origin dev
+  LOCAL=$(git rev-parse HEAD)
+  REMOTE=$(git rev-parse origin/dev)
+  if [ "$LOCAL" != "$REMOTE" ]; then
+    echo "❌ Local dev ($LOCAL) != origin/dev ($REMOTE)."
+    echo "   git pull   — or re-run with --force to deploy this commit anyway."
+    exit 1
+  fi
+fi
+
 API_URL="${REACT_APP_API_URL:-https://compass-server-sxd.fly.dev}"
 BUILD_DIR=".wasp/out/web-app/build"
 DEV_DIR=".wasp/out/web-app/build-dev"

@@ -93,6 +93,11 @@ interface ReportMarkdownCardProps {
   label: string;
   title: string;
   subtitle: string;
+  /** Render only the sections whose heading this matches. A single report body
+   *  can then be laid out across several parts of a page — the research-degree
+   *  report splits its four sections over Parts A, B and C. Omit to render the
+   *  whole body, which is what every existing caller does. */
+  sectionFilter?: (title: string) => boolean;
 }
 
 /** Lazily loads a generated report body and renders it as a v2 card.
@@ -102,6 +107,7 @@ export function ReportMarkdownCard({
   label,
   title,
   subtitle,
+  sectionFilter,
 }: ReportMarkdownCardProps) {
   const [content, setContent] = useState<ReportContent | null>(null);
   const [missing, setMissing] = useState(false);
@@ -129,7 +135,13 @@ export function ReportMarkdownCard({
     );
   }
 
-  const sections = splitSections(preserveLabelLineBreaks(content.markdown));
+  const all = splitSections(preserveLabelLineBreaks(content.markdown));
+  const sections = sectionFilter
+    ? all.filter((sec) => sectionFilter(sec.title))
+    : all;
+  // A filter that matches nothing means the body changed shape under the
+  // caller. Render nothing rather than an empty card with a heading.
+  if (!sections.length) return null;
 
   return (
     <Card className="mt-6">

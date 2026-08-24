@@ -463,6 +463,20 @@ import r456 from "./reportContent/dfva-v4-recommend-mc-urbdes";
 import r457 from "./reportContent/dfva-v4-recommend-mc-urbhort";
 import r458 from "./reportContent/dfva-v4-recommend-mc-urpl";
 import r459 from "./reportContent/dfva-v4-recommend-me-dcd";
+import r460 from "./reportContent/dfva-v4r-dh-lld";
+import r461 from "./reportContent/dfva-v4r-dh-sc";
+import r462 from "./reportContent/dfva-v4r-dr-philabp";
+import r463 from "./reportContent/dfva-v4r-dr-philagr";
+import r464 from "./reportContent/dfva-v4r-dr-philart";
+import r465 from "./reportContent/dfva-v4r-dr-philbe";
+import r466 from "./reportContent/dfva-v4r-dr-philedu";
+import r467 from "./reportContent/dfva-v4r-dr-phileit";
+import r468 from "./reportContent/dfva-v4r-dr-philfam";
+import r469 from "./reportContent/dfva-v4r-dr-philik";
+import r470 from "./reportContent/dfva-v4r-dr-phillaw";
+import r471 from "./reportContent/dfva-v4r-dr-philmdh";
+import r472 from "./reportContent/dfva-v4r-dr-philsci";
+import r473 from "./reportContent/dfva-v4r-dr-philvet";
 
 export const REPORT_CONTENT: Record<
   string,
@@ -928,4 +942,18 @@ export const REPORT_CONTENT: Record<
   "dfva-v4-recommend-mc-urbhort": r457,
   "dfva-v4-recommend-mc-urpl": r458,
   "dfva-v4-recommend-me-dcd": r459,
+  "dfva-v4r-dh-lld": r460,
+  "dfva-v4r-dh-sc": r461,
+  "dfva-v4r-dr-philabp": r462,
+  "dfva-v4r-dr-philagr": r463,
+  "dfva-v4r-dr-philart": r464,
+  "dfva-v4r-dr-philbe": r465,
+  "dfva-v4r-dr-philedu": r466,
+  "dfva-v4r-dr-phileit": r467,
+  "dfva-v4r-dr-philfam": r468,
+  "dfva-v4r-dr-philik": r469,
+  "dfva-v4r-dr-phillaw": r470,
+  "dfva-v4r-dr-philmdh": r471,
+  "dfva-v4r-dr-philsci": r472,
+  "dfva-v4r-dr-philvet": r473,
 };

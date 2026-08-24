@@ -18,6 +18,7 @@ import {
   V4_REFERENCES,
   V4_RUBRIC,
   V4_WORKPLACE_MAX,
+  type V4RubricGate,
   type V4RubricItem,
 } from "./data/v4Rubric";
 import {
@@ -27,6 +28,7 @@ import {
   v4OnlyProgramByCode,
   v4PanelABasisByCode,
   v4PanelCByCode,
+  type V4GateResult,
   type V4ItemResult,
   type V4PanelABasis,
   type V4PanelC,
@@ -38,7 +40,9 @@ import {
   isOwnRecord,
 } from "./exposureBasis";
 import { Cite, HowThisRubricWorksDialog } from "./HowThisRubricWorksDialog";
+import { gateState, gateSummary, joinList, lowerFirst } from "./gateState";
 import { PROGRAMS } from "../sharedProgramData";
+import { getFaculty } from "../faculty";
 import {
   V4_QUADRANT_LABELS as QUADRANT_LABELS,
   v4Quadrant,
@@ -61,32 +65,6 @@ const scoredItems = (
     item,
     score: (r[item.id as keyof V4PanelC] as V4ItemResult).score,
   }));
-
-/** "Digital & AI literacy" → "digital & AI literacy" — only the first character,
- * so an acronym inside the name survives. */
-const lowerFirst = (s: string): string =>
-  s.charAt(0).toLowerCase() + s.slice(1);
-
-const joinList = (parts: string[]): string =>
-  parts.length <= 1
-    ? parts[0] ?? ""
-    : `${parts.slice(0, -1).join(", ")} and ${parts[parts.length - 1]}`;
-
-/**
- * The gate clause of the finding sentence. This used to read "with both gates
- * passed" as a literal, which was true of the pilot program and false the first
- * time a program with a failing gate reached the page.
- */
-function gateSummary(r: V4PanelC): string {
-  const failed = V4_GATES.filter(
-    (g) => r.gates[g.id as "G1" | "G2"].result === "FAIL",
-  );
-  if (failed.length === 0) return "every gate passed";
-  if (failed.length === V4_GATES.length) return "no gate passed";
-  return `${joinList(
-    failed.map((g) => `${g.id} (${g.name.toLowerCase()})`),
-  )} not passed`;
-}
 
 /** What the curriculum documents — named from the items that actually scored. */
 function strengthSummary(r: V4PanelC): string {
@@ -260,16 +238,152 @@ function RatedV4Item({
         <p className="text-muted-foreground mt-3 mb-1 text-[10px] font-semibold tracking-[0.18em] uppercase">
           Handbook evidence (verbatim)
         </p>
-        <ul className="flex flex-col gap-1">
-          {result.evidenceLines.map((line) => (
+        {result.evidenceLines?.length ? (
+          <ul className="flex flex-col gap-1">
+            {result.evidenceLines.map((line) => (
+              <li
+                key={line}
+                className="border-secondary text-muted-foreground border-l-2 pl-2 text-sm italic"
+              >
+                “{line}”
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p className="text-muted-foreground text-sm">
+            This record cites no verbatim handbook line for the item. The
+            instrument requires one at every level, so the score above rests on
+            the reasoning alone and should be read as uncited.
+          </p>
+        )}
+      </div>
+    </details>
+  );
+}
+
+/** One gate as an expandable row. Gates used to render as a bare pill reading
+ * "G1 Disciplinary foundation ✓", which named an internal identifier and left a
+ * tick mark to carry the whole meaning — a reader had no way to learn what was
+ * tested, what the result decides, or why it landed that way (the rationale sat
+ * in a title attribute, invisible on touch devices). The identifier is now a
+ * small notation and the row states the outcome in words, with the condition
+ * and the rater's reasoning underneath. */
+function GateResult({
+  gate,
+  result,
+}: {
+  gate: V4RubricGate;
+  result: V4GateResult | undefined;
+}) {
+  const state = gateState(result);
+  const met = state === "met";
+  const chip =
+    state === "met"
+      ? { text: "✓ Met", tone: "text-band-resilient bg-[#E8F5EE]" }
+      : state === "not-met"
+        ? { text: "✗ Not met", tone: "text-band-critical bg-[#FDE8E8]" }
+        : { text: "— Not recorded", tone: "text-muted-foreground bg-muted" };
+  const line =
+    state === "met"
+      ? "The curriculum documents what this precondition requires, so the scores above rest on it"
+      : state === "not-met"
+        ? "The curriculum does not document what this precondition requires, which flags the program whatever it scores"
+        : "This program's record carries no readable result for this precondition";
+  return (
+    <details className="group flex-1" data-testid={`gate-${gate.id}`}>
+      <summary className="border-border hover:bg-card-accent flex cursor-pointer list-none items-center gap-3 rounded-lg border p-3 [&::-webkit-details-marker]:hidden">
+        <span
+          aria-hidden="true"
+          className="text-muted-foreground shrink-0 text-xs transition-transform group-open:rotate-90"
+        >
+          ▶
+        </span>
+        <span className="min-w-0 flex-1">
+          <span className="text-foreground block text-sm font-medium">
+            {gate.name}
+          </span>
+          <span className="text-muted-foreground block text-xs">{line}</span>
+        </span>
+        <span
+          className={`shrink-0 rounded-full px-3 py-1 text-xs font-semibold tracking-[0.14em] uppercase ${chip.tone}`}
+        >
+          {chip.text}
+        </span>
+        <span className="text-muted-foreground shrink-0 font-mono text-[10px]">
+          {gate.id}
+        </span>
+      </summary>
+      <div className="bg-card-accent mt-2 mb-1 ml-5 rounded-md p-3">
+        <p className="text-muted-foreground mb-1 text-[10px] font-semibold tracking-[0.18em] uppercase">
+          What this precondition tests
+        </p>
+        <p className="text-muted-foreground text-xs italic">{gate.construct}</p>
+        <p className="text-muted-foreground mt-3 mb-1.5 text-[10px] font-semibold tracking-[0.18em] uppercase">
+          How it is decided
+        </p>
+        <ul className="flex flex-col gap-1.5">
+          {[
+            { label: "Met", text: gate.pass, applies: state === "met" },
+            { label: "Not met", text: gate.fail, applies: state === "not-met" },
+          ].map((condition) => (
             <li
-              key={line}
-              className="border-secondary text-muted-foreground border-l-2 pl-2 text-sm italic"
+              key={condition.label}
+              className={`flex items-start gap-2 rounded-md p-1.5 text-sm ${
+                condition.applies
+                  ? "bg-background border-secondary border-l-2 font-medium"
+                  : "text-muted-foreground"
+              }`}
             >
-              “{line}”
+              <span
+                className={`mt-0.5 shrink-0 rounded-full px-2 py-0.5 text-[10px] font-semibold tracking-[0.14em] uppercase ${
+                  condition.applies
+                    ? "bg-secondary/20 text-foreground"
+                    : "bg-muted"
+                }`}
+              >
+                {condition.label}
+              </span>
+              <span className="min-w-0">
+                {condition.text}
+                {condition.applies && (
+                  <span className="text-secondary-muted-foreground ml-1.5 text-xs font-semibold whitespace-nowrap">
+                    ← this program
+                  </span>
+                )}
+              </span>
             </li>
           ))}
         </ul>
+        <p className="text-muted-foreground mt-3 mb-1 text-[10px] font-semibold tracking-[0.18em] uppercase">
+          {state === "unrecorded"
+            ? "What the record says"
+            : `Why this program was recorded as ${met ? "met" : "not met"}`}
+        </p>
+        <p className="text-foreground text-sm leading-relaxed">
+          {result?.rationale ??
+            "The rater's reasoning for this precondition is not present in this program's record."}
+        </p>
+        <p className="text-muted-foreground mt-3 mb-1 text-[10px] font-semibold tracking-[0.18em] uppercase">
+          Handbook evidence (verbatim)
+        </p>
+        {result?.evidenceLines?.length ? (
+          <ul className="flex flex-col gap-1">
+            {result.evidenceLines.map((evidence) => (
+              <li
+                key={evidence}
+                className="border-secondary text-muted-foreground border-l-2 pl-2 text-sm italic"
+              >
+                “{evidence}”
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p className="text-muted-foreground text-sm">
+            This record cites no verbatim handbook line for the precondition —
+            the reasoning above is all it carries. The scored items are cited
+            line by line; this one is not.
+          </p>
+        )}
       </div>
     </details>
   );
@@ -478,6 +592,193 @@ function V4MiniMatrix({
   );
 }
 
+/** Section routing for the research-degree body. Its four sections map onto the
+ *  same three parts every other Durability Report uses, so a reader moving
+ *  between a scored program and a research degree meets one layout, not two. */
+const V4R_FINDING = (t: string) => /NO v4 SCORE|CARRIED FORWARD/i.test(t);
+const V4R_MARKET = (t: string) => /^MARKET EVIDENCE/i.test(t);
+const V4R_LIMITS = (t: string) => /^LIMITATIONS/i.test(t);
+
+/**
+ * A research degree rendered in the v4 report format.
+ *
+ * It carries no Durability Rating and never will — a research degree is
+ * examined on an original contribution rather than a taught curriculum, and no
+ * destination distribution resolves for one. The page therefore has no score
+ * panel, no matrix and no gates. Everything else is the v4 layout: the same
+ * hero, the same Part A / B / C spine, the same cards. The body is the v4r
+ * report, whose content is carried from the retired v1 instrument.
+ */
+function V4ResearchReport({
+  code,
+  name,
+  faculty,
+  v1,
+}: {
+  code: string;
+  name: string;
+  faculty: string;
+  v1: (typeof PROGRAMS)[number] | undefined;
+}) {
+  return (
+    <InsightsGate>
+      <div className="mx-auto max-w-5xl px-4 py-10">
+        {/* Hero */}
+        <div className="mb-8">
+          <p className="text-muted-foreground mb-2 text-xs font-semibold tracking-[0.18em] uppercase">
+            Durability Assessment · Panel C {V4_INSTRUMENT}
+          </p>
+          <h1 className="text-foreground font-serif text-4xl tracking-tight">
+            {name}
+          </h1>
+          <p className="text-muted-foreground mt-2 font-mono text-sm uppercase">
+            {code.toUpperCase()} · University of Melbourne
+            {faculty ? ` · ${faculty}` : ""}
+          </p>
+          <nav className="text-muted-foreground mt-5 flex flex-wrap gap-x-6 gap-y-1 text-sm">
+            <span className="text-foreground font-medium">In this report:</span>
+            <a href="#finding" className="underline">
+              Part A — The finding
+            </a>
+            <a href="#market" className="underline">
+              Part B — Market evidence
+            </a>
+            <a href="#method" className="underline">
+              Part C — Method &amp; limitations
+            </a>
+          </nav>
+        </div>
+
+        {/* ================= PART A — THE FINDING ================= */}
+        <PartHeading id="finding" part="Part A" title="The finding" />
+
+        <Card className="mb-6">
+          <CardContent className="pt-6">
+            <div
+              className="bg-card-accent text-muted-foreground mb-5 flex items-start gap-2 rounded-md p-3 text-sm"
+              data-testid="v4-research-notice"
+            >
+              <span className="text-foreground text-xs font-semibold tracking-wide uppercase">
+                No rating
+              </span>
+              <span>
+                Research degrees are examined on an original contribution rather
+                than a taught curriculum, and no graduate destination data is
+                published for them, so a Durability Rating does not apply to
+                this program. Part A sets out both reasons in full. The
+                assessment that follows is carried from an earlier instrument
+                and is narrative only — it produces no score, and none should be
+                read into it.
+              </span>
+            </div>
+            <div className="grid gap-4 sm:grid-cols-3">
+              <div>
+                <CardLabel>Exposure</CardLabel>
+                <p className="text-foreground font-mono text-2xl">—</p>
+                <p className="text-muted-foreground text-xs">
+                  no destination basis
+                </p>
+              </div>
+              <div>
+                <CardLabel>Adaptiveness</CardLabel>
+                <p className="text-foreground font-mono text-2xl">—</p>
+                <p className="text-muted-foreground text-xs">
+                  no taught curriculum to score
+                </p>
+              </div>
+              <div>
+                <CardLabel>Position</CardLabel>
+                <p className="text-foreground font-mono text-2xl">—</p>
+                <p className="text-muted-foreground text-xs">needs both axes</p>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+
+        <ReportMarkdownCard
+          slug={`dfva-v4r-${code}`}
+          label="Research degree · v4 era"
+          title="Why this program carries no rating"
+          subtitle="The two independent reasons, and the earlier assessment carried forward as narrative"
+          sectionFilter={V4R_FINDING}
+        />
+
+        {/* ================= PART B — MARKET EVIDENCE ================= */}
+        <PartHeading id="market" part="Part B" title="Market evidence" />
+        <p className="text-muted-foreground mb-5 text-sm">
+          The market evidence is independent of the scoring instrument, so it
+          stands for this program whether or not a rating applies. No
+          improvement plan follows it: an improvement plan is derived from a
+          curriculum score, and there is none here.
+        </p>
+        <ReportMarkdownCard
+          slug={`dfva-v4r-${code}`}
+          label="Provenance"
+          title="How this market evidence was sourced"
+          subtitle="What the market report below rests on, and what it does not"
+          sectionFilter={V4R_MARKET}
+        />
+        <ReportMarkdownCard
+          slug={`dfva-market-${code}`}
+          label="Market Intelligence"
+          title="Labour-Market Intelligence"
+          subtitle="Job families, hiring signals, and skill shifts for this program's destinations — confidence level stated per section"
+        />
+
+        {/* ================= PART C — METHOD & LIMITATIONS ================= */}
+        <PartHeading id="method" part="Part C" title="Method & limitations" />
+        <ReportMarkdownCard
+          slug={`dfva-v4r-${code}`}
+          label="Limitations"
+          title="What this report does not establish"
+          subtitle="Stated bounds on the reading above"
+          sectionFilter={V4R_LIMITS}
+        />
+        {v1 && (
+          <Card className="mt-6">
+            <CardContent className="pt-6">
+              <CardLabel>Earlier instrument</CardLabel>
+              <CardTitle className="text-lg">Archived assessment</CardTitle>
+              <p className="text-muted-foreground mt-1 mb-4 text-sm">
+                The retired v1 assessment this report draws its narrative from,
+                kept for reference. Its composite score and dimension ratings
+                were produced by a different instrument measuring a different
+                construct, and do not carry over.
+              </p>
+              <div className="flex flex-wrap gap-4 text-sm">
+                <Link
+                  to={`/reports/${v1.assessmentSlug}`}
+                  className="text-secondary-muted-foreground underline"
+                  data-testid="archived-v1-link"
+                >
+                  Archived v1 assessment
+                </Link>
+                {v1.recommendSlug && (
+                  <Link
+                    to={`/reports/${v1.recommendSlug}`}
+                    className="text-secondary-muted-foreground underline"
+                  >
+                    Archived v1 improvement plan
+                  </Link>
+                )}
+              </div>
+            </CardContent>
+          </Card>
+        )}
+
+        <div className="mt-10">
+          <Link
+            to="/reports"
+            className="text-secondary-muted-foreground underline"
+          >
+            Back to all reports
+          </Link>
+        </div>
+      </div>
+    </InsightsGate>
+  );
+}
+
 export default function V4ReportPage({ code: codeProp }: { code?: string }) {
   const { code: paramCode } = useParams<{ code: string }>();
   const code = codeProp ?? paramCode;
@@ -501,6 +802,23 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
         }
       : undefined;
 
+  // A research degree renders the whole v4 layout, minus the parts that need a
+  // score. It is not a "no report" state: the report exists and says why no
+  // rating applies.
+  if (
+    code &&
+    V4_RESEARCH_DEGREES.includes(code) &&
+    hasReportContent(`dfva-v4r-${code}`)
+  )
+    return (
+      <V4ResearchReport
+        code={code}
+        name={v1?.program ?? v3?.name ?? code}
+        faculty={v3?.faculty ?? (v1 ? getFaculty(v1.program) : "")}
+        v1={v1}
+      />
+    );
+
   if (!program || !panelC) {
     return (
       <div className="mx-auto max-w-2xl px-4 py-24 text-center">
@@ -513,14 +831,16 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
         {v1 ? (
           <>
             {code && V4_RESEARCH_DEGREES.includes(code) ? (
+              // Reached only by a research degree whose v4r report has not been
+              // authored yet; the 14 that have one render the full layout above.
               <p
                 className="text-muted-foreground mb-6"
                 data-testid="v4-research-notice"
               >
-                Panel C v4 scores taught curriculum structure, which this
-                research degree does not carry, so no v4 Durability Report
-                applies. Its earlier assessment and market intelligence stand as
-                its report.
+                Research degrees are examined on an original contribution rather
+                than a taught curriculum, and no graduate destination data is
+                published for them, so a Durability Rating does not apply. Its
+                earlier assessment and market intelligence stand as its report.
               </p>
             ) : (
               <p
@@ -1079,32 +1399,38 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
                 </p>
               )}
             </div>
-            <div className="mt-4 flex flex-wrap gap-3">
-              {V4_GATES.map((gate) => {
-                const result = panelC.gates[gate.id as "G1" | "G2"].result;
-                return (
-                  <span
+            <div className="border-border mt-6 border-t pt-4">
+              <CardLabel>Preconditions</CardLabel>
+              <p className="text-muted-foreground mb-3 text-sm">
+                The conditions below sit beneath the scored items and are
+                recorded as met or not met rather than scored, so they add
+                nothing to the totals and subtract nothing from them. They say
+                whether the foundation the scores rest on is documented at all.
+                A precondition that is not met flags the program whatever its
+                adaptiveness total, because a capability score is evidence of
+                adaptiveness only where that foundation holds. Open a row for
+                what the condition tests, the wording it was decided against,
+                and why this program was recorded that way.
+              </p>
+              <div className="flex flex-col gap-3 sm:flex-row">
+                {V4_GATES.map((gate) => (
+                  <GateResult
                     key={gate.id}
-                    title={panelC.gates[gate.id as "G1" | "G2"].rationale}
-                    className={`rounded-full px-4 py-1.5 text-xs font-semibold tracking-[0.18em] uppercase ${
-                      result === "PASS"
-                        ? "text-band-resilient bg-[#E8F5EE]"
-                        : "text-band-critical bg-[#FDE8E8]"
-                    }`}
-                  >
-                    {gate.id} {gate.name} {result === "PASS" ? "✓" : "✗"}
-                  </span>
-                );
-              })}
+                    gate={gate}
+                    result={panelC.gates?.[gate.id as "G1" | "G2"]}
+                  />
+                ))}
+              </div>
+              <p className="text-muted-foreground mt-3 text-xs">
+                Disciplinary foundation is a precondition because the TEQSA
+                framework places deep disciplinary knowledge beneath the four
+                capabilities rather than among them
+                <Cite refs={[1]} />. Decision-making under uncertainty was a
+                scored item in earlier versions and became a floor once most
+                programs cleared it. The Irreplaceability item used in v3.1 has
+                been removed in v4.
+              </p>
             </div>
-            <p className="text-muted-foreground mt-3 text-xs">
-              The gates record preconditions rather than adaptiveness: G1 covers
-              disciplinary depth, which the TEQSA framework places beneath the
-              capabilities rather than among them
-              <Cite refs={[1]} />, and G2 covers decision-making under
-              uncertainty. The Irreplaceability item used in v3.1 has been
-              removed in v4.
-            </p>
           </CardContent>
         </Card>
 
@@ -1251,7 +1577,7 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
                     {a}
                   </li>
                 ))}
-                {panelC.notScoreable.map((n) => (
+                {(panelC.notScoreable ?? []).map((n) => (
                   <li key={n} className="border-border border-l-2 pl-3">
                     <span className="text-foreground text-xs font-semibold uppercase">
                       Not in extract:

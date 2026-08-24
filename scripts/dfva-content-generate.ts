@@ -66,7 +66,11 @@ function deriveTitle(key: string, md: string): string {
   const line1 = md.split('\n')[0]
   let name: string
   let suffix: string
-  if (key.startsWith('dfva-market-')) {
+  if (key.startsWith('dfva-v4r-')) {
+    // Research degrees: no v4 score at all, so the title must not imply one.
+    name = line1.replace(/^#+\s*DFVA RESEARCH DEGREE REPORT:\s*/, '')
+    suffix = ' — Research Degree Report'
+  } else if (key.startsWith('dfva-market-')) {
     name = line1.replace(/^#+\s*DFVA MARKET INTELLIGENCE:\s*/, '')
     suffix = ' — Market Intelligence'
   } else if (key.startsWith('dfva-v4-recommend-')) {

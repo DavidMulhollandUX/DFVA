@@ -49,6 +49,7 @@ import { generateMockSyllabus } from "./mockSyllabusData";
 import { RUBRIC, Dimension } from "./data/rubric";
 import type { DimensionEvidence } from "./data/dimensionEvidence";
 import { getFieldForCourse } from "./marketData";
+import { assessmentSlugFor, parseSlug } from "./reportLinks";
 
 // Lazy chunks: CurriculumMap drags in reactflow/dagre/d3/lodash (~180kB min)
 // and is only rendered on the Curriculum tab; the generated evidence map is
@@ -1207,17 +1208,6 @@ function renderMarkdownAsPanels(markdown: string) {
   );
 }
 
-function parseSlug(slug: string): {
-  code: string;
-  type: "assessment" | "market" | "recommend";
-} {
-  if (slug.startsWith("dfva-recommend-"))
-    return { code: slug.slice("dfva-recommend-".length), type: "recommend" };
-  if (slug.startsWith("dfva-market-"))
-    return { code: slug.slice("dfva-market-".length), type: "market" };
-  return { code: slug.slice("dfva-".length), type: "assessment" };
-}
-
 // Report bodies are code-split per slug (see ./reportContent/index). This
 // wrapper fetches the three sibling variants for the program code, and only
 // mounts the (hook-heavy) view once they're loaded — the view can then treat
@@ -1225,10 +1215,10 @@ function parseSlug(slug: string): {
 export default function ReportDetailPage() {
   const { reportSlug } = useParams<{ reportSlug: string }>();
 
-  const { code } = useMemo(() => {
+  const { code, family } = useMemo(() => {
     return reportSlug
       ? parseSlug(reportSlug)
-      : { code: "", type: "assessment" as const };
+      : { code: "", type: "assessment" as const, family: "v1" as const };
   }, [reportSlug]);
 
   const [contentBySlug, setContentBySlug] = useState<
@@ -1239,7 +1229,7 @@ export default function ReportDetailPage() {
     let alive = true;
     setContentReady(false);
     const slugs = [
-      "dfva-" + code,
+      assessmentSlugFor({ code, family }),
       "dfva-market-" + code,
       "dfva-recommend-" + code,
     ];
@@ -1256,7 +1246,7 @@ export default function ReportDetailPage() {
     return () => {
       alive = false;
     };
-  }, [code]);
+  }, [code, family]);
 
   const report = reportSlug ? contentBySlug[reportSlug] : undefined;
 
@@ -1308,19 +1298,23 @@ function ReportDetailView({
   const updateInterventionAction = useAction(updateCourseIntervention);
 
   // 1. Navigation routing & fallbacks
-  const { code, type: currentType } = useMemo(() => {
+  const {
+    code,
+    type: currentType,
+    family,
+  } = useMemo(() => {
     return reportSlug
       ? parseSlug(reportSlug)
-      : { code: "", type: "assessment" as const };
+      : { code: "", type: "assessment" as const, family: "v1" as const };
   }, [reportSlug]);
 
   const slugsByType = useMemo(
     () => ({
-      assessment: "dfva-" + code,
+      assessment: assessmentSlugFor({ code, family }),
       market: "dfva-market-" + code,
       recommend: "dfva-recommend-" + code,
     }),
-    [code],
+    [code, family],
   );
 
   const program = useMemo(() => {
@@ -1437,6 +1431,10 @@ function ReportDetailView({
   // v4 reports carry the draft Panel C v4 instrument: no v1 composite exists
   // for them, so the hero score is suppressed rather than defaulted.
   const isV4Report = slugsByType.assessment.startsWith("dfva-v4-");
+  // dfva-v4r-<code> renders on the v4 page, not here (see ReportPage), so a
+  // v4r slug never reaches this shell. parseSlug still recognises the family so
+  // that if one ever did, the code would not be read as "v4r-<code>" and fall
+  // through to the literal 20 / 36 default below.
   const scoreText: string | null =
     simulatedScore !== null
       ? `${simulatedScore} / 36`

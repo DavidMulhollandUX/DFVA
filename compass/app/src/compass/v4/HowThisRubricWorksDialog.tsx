@@ -195,13 +195,13 @@ export function HowThisRubricWorksDialog() {
               at age 24 to 14 per cent by the mid-thirties, which they attribute
               to the comparatively rapid obsolescence of applied technical
               skills
-              <Cite refs={[6]} />. Disciplinary depth is accordingly treated as
-              a precondition (gate G1): a program that lacks it is flagged
-              whatever its adaptiveness score. The Irreplaceability item used in
-              earlier versions has been removed. Its anchors restated the
-              content of other items, so its high item–total correlation is
-              better explained as a general-impression effect than as a distinct
-              signal.
+              <Cite refs={[6]} />. Disciplinary depth is accordingly recorded as
+              a precondition, met or not met, rather than scored: a program that
+              lacks it is flagged whatever its adaptiveness score. The
+              Irreplaceability item used in earlier versions has been removed.
+              Its anchors restated the content of other items, so its high
+              item–total correlation is better explained as a general-impression
+              effect than as a distinct signal.
             </p>
           </ModalSection>
 

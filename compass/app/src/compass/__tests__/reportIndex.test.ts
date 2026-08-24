@@ -6,7 +6,15 @@ import {
   V4_RESEARCH_DEGREES,
 } from "../v4/data/v4PanelC";
 import { REPORT_INDEX } from "../v4/reportIndex";
-import { codeFromSlug, hasV4, programReportPath } from "../reportLinks";
+import {
+  assessmentSlugFor,
+  codeFromSlug,
+  hasV4,
+  parseSlug,
+  programReportPath,
+  v4rReportSlug,
+} from "../reportLinks";
+import { hasReportContent } from "../reportContent/index";
 
 /**
  * /reports is v4-first: every program the site knows about appears exactly
@@ -63,9 +71,80 @@ describe("reportLinks", () => {
   });
   it("knows which programs carry a v4 score", () => {
     expect(hasV4("mc-mgmthre")).toBe(true);
-    expect(hasV4("mc-urbhort")).toBe(false);
+    // A research degree, not an unscored coursework program: Panel C has no
+    // taught curriculum to read, so this stays false by design. The previous
+    // case (mc-urbhort) went stale the moment that program was scored.
+    expect(hasV4("dr-philsci")).toBe(false);
   });
   it("strips the legacy slug prefix", () => {
     expect(codeFromSlug("dfva-mc-cs")).toBe("mc-cs");
+  });
+
+  // A v4r slug read as "everything after dfva-" yields the code "v4r-dr-philsci",
+  // which matches no program and no market report. The report page then fell
+  // through to its literal 20 / 36 default and rendered an archived-v1 banner
+  // over a report whose whole point is that no score applies.
+  it("reads a research-degree slug as its own family, not as a program code", () => {
+    expect(parseSlug("dfva-v4r-dr-philsci")).toEqual({
+      code: "dr-philsci",
+      type: "assessment",
+      family: "v4r",
+    });
+    expect(assessmentSlugFor(parseSlug("dfva-v4r-dr-philsci"))).toBe(
+      "dfva-v4r-dr-philsci",
+    );
+  });
+
+  it("leaves every other slug family parsing as before", () => {
+    expect(parseSlug("dfva-mc-cs")).toEqual({
+      code: "mc-cs",
+      type: "assessment",
+      family: "v1",
+    });
+    expect(parseSlug("dfva-market-mc-cs").type).toBe("market");
+    expect(parseSlug("dfva-recommend-mc-cs").type).toBe("recommend");
+    expect(assessmentSlugFor(parseSlug("dfva-v4-mc-cs"))).toBe("dfva-v4-mc-cs");
+  });
+});
+
+describe("research-degree reports", () => {
+  // The /reports card links dfva-v4r-<code> directly. Authoring a report the
+  // index cannot reach — which is how the family shipped — is the failure here.
+  it("gives every research degree a reachable v4r report", () => {
+    for (const code of V4_RESEARCH_DEGREES)
+      expect([code, hasReportContent(v4rReportSlug(code))]).toEqual([
+        code,
+        true,
+      ]);
+  });
+
+  it("keeps the market and recommend siblings on the plain program code", () => {
+    const parsed = parseSlug(v4rReportSlug("dr-philsci"));
+    expect(hasReportContent(`dfva-market-${parsed.code}`)).toBe(true);
+    expect(hasReportContent(`dfva-recommend-${parsed.code}`)).toBe(true);
+  });
+
+  // They carry no rating and never will, so they belong after the portfolio
+  // rather than interleaved into it by name.
+  it("sorts every research degree below every other program", () => {
+    const lastNonResearch = REPORT_INDEX.reduce(
+      (acc, e, i) => (e.status !== "research" ? i : acc),
+      -1,
+    );
+    const firstResearch = REPORT_INDEX.findIndex(
+      (e) => e.status === "research",
+    );
+    expect(firstResearch).toBeGreaterThan(lastNonResearch);
+  });
+
+  it("still sorts A-Z within each of the two groups", () => {
+    for (const group of ["research", "other"]) {
+      const names = REPORT_INDEX.filter((e) =>
+        group === "research"
+          ? e.status === "research"
+          : e.status !== "research",
+      ).map((e) => e.name);
+      expect(names).toEqual([...names].sort((a, b) => a.localeCompare(b)));
+    }
   });
 });

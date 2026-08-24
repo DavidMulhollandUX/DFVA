@@ -4,6 +4,7 @@ import { ArrowRight, Search, X } from "lucide-react";
 import { Card, CardContent } from "../../client/components/ui/card";
 import { QUADRANTS } from "../v2/quadrants";
 import { programReportPath } from "../reportLinks";
+import { hasReportContent } from "../reportContent/index";
 import {
   V4_ADAPTIVENESS_MAX,
   V4_INSTRUMENT,
@@ -78,8 +79,17 @@ function StatusBadge({ entry }: { entry: ReportIndexEntry }) {
   );
 }
 
+/** Research degrees have a report of their own (dfva-v4r-<code>) rather than
+ *  only the archived v1 workspace. The card links it directly when it exists,
+ *  and falls back to the v1 report for any research degree not yet authored. */
+function v4rSlug(code: string): string | null {
+  const slug = `dfva-v4r-${code}`;
+  return hasReportContent(slug) ? slug : null;
+}
+
 function ReportCard({ entry }: { entry: ReportIndexEntry }) {
   const current = entry.status === "current";
+  const research = entry.status === "research" ? v4rSlug(entry.code) : null;
   return (
     <Card data-testid="report-card" data-status={entry.status}>
       <CardContent className="flex flex-col gap-4 pt-5">
@@ -122,9 +132,12 @@ function ReportCard({ entry }: { entry: ReportIndexEntry }) {
           </div>
         ) : entry.status === "research" ? (
           <p className="text-muted-foreground text-sm">
-            Panel C v4 scores taught curriculum, which this research degree does
-            not carry. Its archived v1 assessment and market intelligence stand
-            as its report.
+            Research degrees are examined on an original contribution rather
+            than a taught curriculum, and no graduate destination data is
+            published for them, so a Durability Rating does not apply.{" "}
+            {research
+              ? "The report explains why and carries the earlier assessment in full."
+              : "Its earlier assessment and market intelligence stand as its report."}
           </p>
         ) : (
           <p className="text-muted-foreground text-sm">
@@ -142,7 +155,13 @@ function ReportCard({ entry }: { entry: ReportIndexEntry }) {
           }`}
           data-testid="durability-report-link"
         >
-          <span>{current ? "Durability Report" : "Report · archived v1"}</span>
+          <span>
+            {current
+              ? "Durability Report"
+              : research
+                ? "Research degree report"
+                : "Report · archived v1"}
+          </span>
           <ArrowRight className="h-3 w-3" />
         </Link>
       </CardContent>
