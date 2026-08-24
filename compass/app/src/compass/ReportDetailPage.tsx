@@ -1775,9 +1775,14 @@ function ReportDetailView({
               icon: ClipboardList,
             },
           ]
-            // Panel C has no taught curriculum to map or redesign for a
-            // research degree, so those two workspaces are dropped rather
-            // than opened onto mock syllabus data.
+            // Curriculum Map has no taught curriculum to draw for a research
+            // degree, so it is dropped rather than opened onto mock syllabus
+            // data. Redesign is dropped for a different reason: it renders the
+            // v1 recommend sibling, whose diagnostic opens "scored N/36 —
+            // BAND" over a full dimension table. All 14 do. That is the exact
+            // figure this family withholds, and it is prose rather than a
+            // strippable header line, so the tab stays out until a v4r
+            // recommend body exists.
             .filter(
               (tab) =>
                 !isV4rReport || (tab.id !== "map" && tab.id !== "redesign"),
@@ -1853,8 +1858,14 @@ function ReportDetailView({
               {/* SVG Shift & Drift Timeline */}
               <ShiftDriftChart />
 
-              {/* Key Assessment Guidelines Callout */}
-              <div className="border-border bg-muted/20 space-y-3 rounded-xl border p-5">
+              {/* Key Assessment Guidelines Callout. Withheld for a research
+                  degree: it describes what a DFVA score measures and points at
+                  the Redesign tab, and neither exists here. */}
+              <div
+                className={`border-border bg-muted/20 space-y-3 rounded-xl border p-5 ${
+                  isV4rReport ? "hidden" : ""
+                }`}
+              >
                 <h4 className="text-foreground flex items-center gap-1.5 text-xs font-bold uppercase">
                   <ShieldAlert className="text-primary h-4 w-4" />
                   Assessor Quality Standards
