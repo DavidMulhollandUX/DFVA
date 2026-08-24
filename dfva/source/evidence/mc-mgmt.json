@@ -78,11 +78,11 @@
     "workplace": 5,
     "gates": {
       "G1": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: the program documents a comprehensive 200-point graduate management curriculum spanning organizational behavior, accounting, economics, finance, decision analytics, marketing management, operations, and strategic leadership. Rigorous, coherent management core."
       },
       "G2": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: assessment explicitly requires complex strategic and operational trade-off decisions under market uncertainty — including navigating competitive entry barriers and disruptive market threats in MGMT90146, allocating capital under conflicting financial forecasts in MGMT90280, and managing organizational change resistance and workforce restructuring under incomplete information in MGMT90025/MGMT90018."
       }
     },

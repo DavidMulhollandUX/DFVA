@@ -76,11 +76,11 @@
     "workplace": 6,
     "gates": {
       "G1": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: the program documents a comprehensive 100-point specialist graduate curriculum covering evidence-based learning, instructional leadership models, assessment design, and educational research methodologies aligned to the AITSL National Professional Standard for Principals. Coherent, rigorous disciplinary educational leadership sequence."
       },
       "G2": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: assessment explicitly requires complex strategic and pedagogical trade-off decisions under high school and community uncertainty — including diagnosing conflicting student learning trajectories under data ambiguity in EDUC90755, designing intervention strategies for school turnaround under faculty resistance in EDUC90751/EDUC90750, and reforming school-wide assessment architectures under changing curriculum mandates in EDUC90754."
       }
     },

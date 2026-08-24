@@ -84,11 +84,11 @@
     "workplace": 5,
     "gates": {
       "G1": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: the program documents an extensive 150-point specialist graduate curriculum including a compulsory 50-point core in Quantitative Analysis of Finance I (ECON90033), Economics of Finance (ECON90034), Financial Statement Analysis (ACCT90002), and Financial Markets and Instruments (FNCE90047), followed by advanced finance selectives in Corporate Restructuring, Investment Management, Risk Management, and Machine Learning. Coherent, rigorous disciplinary finance sequence."
       },
       "G2": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: assessment goes well beyond deterministic formulaic calculations to require complex financial trade-off decisions under high market and strategic uncertainty — including corporate distress prediction and accounting choice adjustments in ACCT90002, valuation of distressed and merging firms under incomplete information in FNCE90012, portfolio asset allocation under volatile macroeconomic conditions in FNCE90080, and derivative hedging under market liquidity risk in FNCE90082."
       }
     },

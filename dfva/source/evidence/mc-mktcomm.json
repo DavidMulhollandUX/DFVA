@@ -78,11 +78,11 @@
     "workplace": 5,
     "gates": {
       "G1": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: jointly delivered by the Faculty of Arts (School of Culture and Communication) and the Faculty of Business and Economics, documenting a comprehensive 200-point curriculum integrating marketing management, public relations, media management, consumer insights, marketing metrics, and strategic communications. Rigorous, coherent postgraduate multidisciplinary core."
       },
       "G2": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: assessment explicitly requires complex communications and marketing decisions under severe uncertainty, dynamic public opinion shifts, reputational PR crises, and incomplete media data — including live interactive crisis debates in MECM90044, multi-channel campaign redevelopment under platform volatility in MECM90036, and strategic resource allocation in MGMT90148."
       }
     },

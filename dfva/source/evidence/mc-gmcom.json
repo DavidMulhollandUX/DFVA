@@ -76,11 +76,11 @@
     "workplace": 5,
     "gates": {
       "G1": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: the program documents a comprehensive 200-point graduate curriculum including compulsory foundation units in media theory and research methodology (MECM90039, MECM90038), followed by a 75-point core sequence in data policy, digital culture, media writing, and audiovisual production. Coherent, rigorous disciplinary media and communications sequence."
       },
       "G2": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: assessment explicitly requires complex strategic and communication trade-off decisions under high public and geopolitical uncertainty — including crisis communication strategy and rapid media response under severe information gaps in JOUR90027, platform policy intervention and regulatory trade-offs under algorithmic uncertainty in MECM90002, and ethical editorial decision-making under conflicting political pressures in MECM90016 and MECM90043."
       }
     },

@@ -78,11 +78,11 @@
     "workplace": 5,
     "gates": {
       "G1": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: the program documents a comprehensive 200-point curriculum accredited by CPA Australia and CAANZ, covering financial accounting, managerial accounting, auditing, taxation, corporate law, quantitative methods, and accounting information systems. Rigorous, coherent professional accounting core."
       },
       "G2": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: assessment explicitly requires complex professional accounting judgements under statutory and commercial ambiguity — including assessing going-concern risks and materiality thresholds under incomplete audit evidence in ACCT90014, selecting appropriate revenue recognition and fair-value valuation models under market volatility in ACCT90012/ACCT90013, and navigating complex tax statutory interpretation in ACCT90016."
       }
     },

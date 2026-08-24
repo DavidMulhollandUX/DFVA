@@ -80,11 +80,11 @@
     "workplace": 9,
     "gates": {
       "G1": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: accredited by Speech Pathology Australia (SPA) as a 200-point entry-level professional master's degree meeting all national competency standards. Comprehensive foundation spanning speech anatomy/physiology, acoustics, phonetics, linguistics, child language development, dysphagia, adult neurogenic disorders, voice/fluency, and clinical practice."
       },
       "G2": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: assessment explicitly requires high-stakes diagnostic and clinical decision-making under severe clinical uncertainty, acute patient distress, complex neurological presentations, and airway/aspiration safety risks — including live OSCE hurdles across AUDI90029, AUDI90033, AUDI90036, AUDI90039, and AUDI90041 and direct clinical decision-making during COMPASS®-assessed placements."
       }
     },

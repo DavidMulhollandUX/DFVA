@@ -77,11 +77,11 @@
     "workplace": 5,
     "gates": {
       "G1": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: accredited by the Planning Institute of Australia (PIA) as a 200-point professional graduate qualification. Comprehensive foundation spanning planning theory and history, planning law and statutory planning, urban economics, strategic plan making, climate change and sustainability, urban coding and design, participatory planning, analytical methods, and the 25-point minor thesis."
       },
       "G2": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: assessment explicitly requires high-stakes decision-making under severe socio-political uncertainty, conflicting community stakeholder values, climate resilience imperatives, and ambiguous development proposals — including statutory permit assessments in ABPL90130, strategic plan formulations in ABPL90131, and public consultation negotiation in ABPL90315."
       }
     },

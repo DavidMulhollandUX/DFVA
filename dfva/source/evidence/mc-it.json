@@ -78,11 +78,11 @@
     "workplace": 5,
     "gates": {
       "G1": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: the program documents a comprehensive 100-to-200 point specialist graduate curriculum in computer science, software engineering, distributed systems, machine learning, and cybersecurity accredited by the Australian Computer Society (ACS). Rigorous, coherent disciplinary computing core."
       },
       "G2": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: assessment explicitly requires complex architectural and algorithmic trade-off decisions under technical uncertainty — including engineering fault-tolerant distributed systems under network partitions and latency in COMP90024, optimizing bias-variance trade-offs under noisy data in COMP90051, and balancing scope, technical debt, and concurrency safety under fixed sprint deadlines in SWEN90016."
       }
     },

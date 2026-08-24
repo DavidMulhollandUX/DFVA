@@ -78,11 +78,11 @@
     "workplace": 5,
     "gates": {
       "G1": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: the program documents a comprehensive 200-point curriculum accredited by the Australian Marketing Institute (AMI), covering marketing management, consumer psychology, marketing research, B2B marketing, decision analytics, and marketing strategy. Rigorous, coherent postgraduate marketing core."
       },
       "G2": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: assessment explicitly requires complex marketing and strategic decisions under dynamic competitive uncertainty, shifting consumer preferences, and incomplete market data — including multi-period competitive decision-making in MKTG90005 Marketing Strategy simulations, sizing B2B markets under macro volatility in MKTG90048, and formulating sustainable marketing transitions under evolving consumer trust in MKTG90049."
       }
     },

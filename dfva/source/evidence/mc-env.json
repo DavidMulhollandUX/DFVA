@@ -75,11 +75,11 @@
     "workplace": 5,
     "gates": {
       "G1": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: comprehensive 200-point multidisciplinary postgraduate qualification spanning environmental sustainability, stakeholder governance, climate change, conservation, waste management, environmental science, and specialized capstone projects across 10 University faculties."
       },
       "G2": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: core assessment explicitly requires navigating high-stakes socio-ecological dilemmas, conflicting community/commercial stakeholder interests, and uncertain climate scenarios (MULT90004, MULT90005)."
       }
     },

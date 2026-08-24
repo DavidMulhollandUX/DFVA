@@ -72,11 +72,11 @@
     "workplace": 5,
     "gates": {
       "G1": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: the program documents a comprehensive 100-to-200 point specialist graduate curriculum in international relations theory, international security, global political economy, international law, and regional diplomacy delivered by the School of Social and Political Sciences and Asia Institute. Coherent, rigorous disciplinary curriculum."
       },
       "G2": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: assessment explicitly requires complex strategic trade-off decisions under severe international uncertainty — including formulating foreign policy responses to escalating geopolitical crises, evaluating diplomatic deterrence options under incomplete intelligence, and negotiating multilateral climate and trade agreements with conflicting state interests."
       }
     },

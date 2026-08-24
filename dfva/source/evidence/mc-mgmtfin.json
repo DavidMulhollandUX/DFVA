@@ -78,11 +78,11 @@
     "workplace": 5,
     "gates": {
       "G1": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: the program documents a comprehensive 200-point curriculum covering corporate financial policy, derivative securities, investment management, accounting for decision making, quantitative methods, and managerial economics. Rigorous, coherent postgraduate finance core."
       },
       "G2": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: assessment explicitly requires complex financial decision-making under severe market volatility, macroeconomic uncertainty, and incomplete information — including pricing exotic options under stochastic volatility in FNCE90011, restructuring corporate capital structure under bankruptcy risks in FNCE90018, and constructing optimal portfolios under dynamic covariance regimes in FNCE90056/FNCE90062."
       }
     },

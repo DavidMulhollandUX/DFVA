@@ -77,11 +77,11 @@
     "workplace": 5,
     "gates": {
       "G1": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: the program documents a comprehensive 300-point Engineers Australia and EUR-ACE accredited master's curriculum spanning engineering mathematics, solid mechanics, fluid dynamics, thermodynamics, materials science, dynamics, control systems, and mechanical systems design. Rigorous, coherent engineering core."
       },
       "G2": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: assessment explicitly requires complex engineering trade-off decisions under physical and operational uncertainty — including optimizing aerodynamic and thermal efficiency against weight and manufacturing tolerances in MCEN90054, tuning closed-loop control stability under unmodeled plant dynamics in ELEN90055, and resolving competing structural stiffness versus cost constraints under physical prototyping limits in ENGR90051."
       }
     },

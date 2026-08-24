@@ -78,11 +78,11 @@
     "workplace": 9,
     "gates": {
       "G1": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: AASW-accredited 225-credit-point professional entry qualification fully meeting Australian Social Work Education and Accreditation Standards (ASWEAS). Rigorous, comprehensive foundation spanning social work theory, human development, counselling skills, law and ethics, Indigenous practice, social policy, research methodology, and 1,000 hours of supervised field education."
       },
       "G2": {
-        "status": "PASS",
+        "result": "PASS",
         "rationale": "PASS condition is met: assessment explicitly requires high-stakes clinical and psychosocial decision-making under severe uncertainty, acute crisis, trauma, child protection vulnerability, and ambiguous family/community dynamics — including risk and vulnerability appraisal in SCWK90054, legal and ethical dilemma resolution in SCWK90055, and live clinical intervention in supervised field placements SCWK90048/SCWK90049."
       }
     },
