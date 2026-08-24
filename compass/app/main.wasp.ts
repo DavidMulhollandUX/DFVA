@@ -281,7 +281,14 @@ export default app({
     route("ReportDetailRoute", "/reports/:reportSlug", page(ReportPage)),
     // v2 (dev branch): /insights IS the v2 matrix dashboard; v1 hub moves to /insights/v1
     route("InsightsRoute", "/insights", page(MatrixDashboardPage)),
-    route("InsightsV1Route", "/insights/v1", page(InsightsPage)),
+    // InsightsPage renders CompetitiveThreatCard and ImpactReportCard, which
+    // carry internal competitive-strategy commentary written in the first
+    // person about the methodology ("validates DFVA's thesis", "DFVA should
+    // establish its independent assessment category"). That is investor-deck
+    // material, and this route showed it to the institutions being assessed.
+    // Nothing links to /insights/v1, so requiring sign-in costs nothing.
+    // See docs/dfva-copy-audit.md.
+    route("InsightsV1Route", "/insights/v1", page(InsightsPage, { authRequired: true })),
     route("V2ReportRoute", "/insights/program/:code", page(V2ReportPage)),
     route("V3ReportRoute", "/insights/v3/:code", page(V3ReportPage)),
     route("V31ReportRoute", "/insights/v31/:code", page(V31ReportPage)),

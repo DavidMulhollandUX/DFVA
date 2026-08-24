@@ -1,3 +1,5 @@
+import { brand } from "../branding/brandConfig";
+import { BEST_DEAL_CONFIRMED } from "./claims";
 import { CheckCircle } from "lucide-react";
 import { useState } from "react";
 import { useNavigate } from "react-router";
@@ -23,7 +25,11 @@ import {
   SubscriptionStatus,
 } from "./plans";
 
-const bestDealPaymentPlanId: PaymentPlanId = PaymentPlanId.Pro;
+// Highlighting one plan is a comparative claim, so it renders only when
+// BEST_DEAL_CONFIRMED says someone has verified it. Fails closed.
+const bestDealPaymentPlanId: PaymentPlanId | null = BEST_DEAL_CONFIRMED
+  ? PaymentPlanId.Pro
+  : null;
 
 interface PaymentPlanCard {
   name: string;
@@ -36,20 +42,24 @@ export const paymentPlanCards: Record<PaymentPlanId, PaymentPlanCard> = {
   [PaymentPlanId.Hobby]: {
     name: prettyPaymentPlanName(PaymentPlanId.Hobby),
     price: "$9.99",
-    description: "All you need to get started",
+    description: "A monthly subscription with capped usage.",
     features: ["Limited monthly usage", "Basic support"],
   },
   [PaymentPlanId.Pro]: {
     name: prettyPaymentPlanName(PaymentPlanId.Pro),
     price: "$19.99",
-    description: "Our most popular plan",
+    // "Our most popular plan" was OpenSaaS template copy. It stated sales data
+    // that does not exist. See PLAN_POPULARITY_CONFIRMED in ./claims.
+    description: "A monthly subscription with no usage cap.",
     features: ["Unlimited monthly usage", "Priority customer support"],
   },
   [PaymentPlanId.Credits10]: {
     name: prettyPaymentPlanName(PaymentPlanId.Credits10),
     price: "$9.99",
-    description: "One-time purchase of 10 credits for your account",
-    features: ["Use credits for e.g. OpenAI API calls", "No expiration date"],
+    description: "A one-time purchase of 10 credits.",
+    // Nothing in src spends credits yet, so no feature here may say what a
+    // credit buys. See CREDITS_SPENDABLE in ./claims.
+    features: ["10 credits added to your account", "Credits do not expire"],
   },
 };
 
@@ -121,15 +131,18 @@ const PricingPage = () => {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div id="pricing" className="mx-auto max-w-4xl text-center">
           <h2 className="text-foreground mt-2 text-4xl font-bold tracking-tight sm:text-5xl">
-            Pick your <span className="text-primary">pricing</span>
+            Choose a <span className="text-primary">plan</span>
           </h2>
         </div>
+        {/*
+          This paragraph used to carry the OpenSaaS setup instructions — "Just
+          add your Product IDs!" and a test card number — on a public route.
+          It told a visitor the payment path was a demo. Replaced with the one
+          fact a buyer needs.
+        */}
         <p className="text-muted-foreground mx-auto mt-6 max-w-2xl text-center text-lg leading-8">
-          Payments are processed by Stripe. Just add your Product IDs! Try it
-          out below with test credit card number <br />
-          <span className="bg-muted text-muted-foreground rounded-md px-2 py-1 font-mono text-sm">
-            4242 4242 4242 4242 4242
-          </span>
+          Stripe processes every payment. {brand.name} never sees your card
+          details.
         </p>
         {errorMessage && (
           <Alert variant="destructive" className="mt-8">

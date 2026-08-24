@@ -32,6 +32,15 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 REPORTS = ROOT / "reports"
+EVIDENCE = ROOT / "dfva/source/evidence"
+
+# Deliberately NOT scanned: docs/*.md. Running these rules over docs produced 30
+# error findings and all 30 were false positives, because documentation quotes
+# the defects it documents — docs/dfva-market-s3-provenance-rewrites.md and
+# docs/dfva-v4-report-prose-audit.md exist to record bad sentences. Adding docs
+# would fill the baseline with noise and the ratchet would stop meaning anything.
+# Revisit only with error-severity rules, and only after re-testing. See
+# docs/dfva-copy-audit.md.
 BASELINE = Path(__file__).resolve().parent / "report-prose-baseline.json"
 
 # Checks deliberately NOT implemented, with the false positive that killed them.
@@ -44,6 +53,14 @@ RETIRED = {
     "second-person": "Google prefers 'you'; these are institutional assessments "
                      "addressed about a program, not instructions to a reader",
     "american-spelling": "house style is Australian (UoM); a deliberate deviation",
+    "ai-vocabulary/leverage": "a term of art — Meadows *leverage points* in "
+                              "docs/compass-systems-thinking.md, and leverage "
+                              "ratios in finance material; 10+ hits, all precise",
+    "generic-conclusion/Overall": "28 hits, every one the field label "
+                                  "'**Overall Section Exposure:**'; the bare-word "
+                                  "form is kept, the label form is excluded",
+    "unattributed-discourse/consensus study": "a National Academies publication "
+                                              "type, not a claim about discourse",
 }
 
 # --------------------------------------------------------------------- markup
@@ -54,18 +71,38 @@ INLINE_CODE = re.compile(r"`[^`]*`")
 LINK = re.compile(r"\[([^\]]*)\]\(([^)]*)\)")
 BARE_URL = re.compile(r"https?://\S+")
 FOOTREF = re.compile(r"\[\[?\d+\]\]?")
-QUOTED = re.compile(r"[“\"][^”\"\n]{3,400}[”\"]")
+# A quotation may run across a line break; it may not cross a blank line.
+# Before 2026-08-24 this excluded \n entirely, so a two-line quotation was never
+# masked and every tell inside it was reported — 15 false errors in one file.
+QUOTED = re.compile(r"[“\"](?:[^”\"\n]|\n(?!\s*\n)){3,400}[”\"]")
+BLOCKQUOTE = re.compile(r"(?m)^\s{0,3}>+ ?")
 WORD = re.compile(r"[A-Za-z][A-Za-z'-]*")
 
 
+def _blank(m) -> str:
+    """Same-length, same-line-count replacement.
+
+    Every strip below blanks rather than deletes. Deleting shifts offsets and
+    swallows newlines, which is why reported line numbers used to be wrong for
+    everything after the first table, heading or fenced block.
+    """
+    return "".join("\n" if c == "\n" else " " for c in m.group(0))
+
+
+def _blank_link(m) -> str:
+    """Keep the link text, blank the target, preserve total length."""
+    return " " + m.group(1) + " " * (len(m.group(2)) + 3)
+
+
 def strip_markup(t: str) -> str:
-    t = HTML_COMMENT.sub(" ", t)
-    t = FENCED.sub(" ", t)
-    t = INLINE_CODE.sub(" ", t)
-    t = LINK.sub(lambda m: m.group(1), t)
-    t = FOOTREF.sub(" ", t)
-    t = BARE_URL.sub(" ", t)
-    return re.sub(r"[*_]{1,3}", "", t)
+    t = HTML_COMMENT.sub(_blank, t)
+    t = FENCED.sub(_blank, t)
+    t = INLINE_CODE.sub(_blank, t)
+    t = LINK.sub(_blank_link, t)
+    t = FOOTREF.sub(_blank, t)
+    t = BARE_URL.sub(_blank, t)
+    t = BLOCKQUOTE.sub(_blank, t)
+    return re.sub(r"[*_]{1,3}", _blank, t)
 
 
 def mask_quotes(t: str) -> str:
@@ -73,7 +110,19 @@ def mask_quotes(t: str) -> str:
 
     Handbook verbatim and quoted discourse must never be flagged as our prose.
     """
-    return QUOTED.sub(lambda m: " " * len(m.group(0)), t)
+    return QUOTED.sub(_blank, t)
+
+
+def mask_code_and_comments(t: str) -> str:
+    """For rules that read raw text: blank spans that only *describe* a defect.
+
+    A document that documents the linter writes the literal string it detects
+    inside backticks. That is a reference, not an occurrence.
+    """
+    t = HTML_COMMENT.sub(_blank, t)
+    t = FENCED.sub(_blank, t)
+    return INLINE_CODE.sub(_blank, t)
+
 
 
 def body_only(t: str) -> str:
@@ -83,17 +132,18 @@ def body_only(t: str) -> str:
 
 
 def prose_lines(t: str) -> str:
+    """Blank table rows, headings and fenced blocks; keep every line in place."""
     out = []
     fence = False
-    for ln in HTML_COMMENT.sub("", t).split("\n"):
-        if ln.startswith("```"):
+    for ln in HTML_COMMENT.sub(_blank, t).split("\n"):
+        if ln.lstrip().startswith("```"):
             fence = not fence
+            out.append("")
             continue
-        if fence:
+        if fence or ln.strip().startswith(("|", "#")):
+            out.append("")
             continue
-        s = ln.strip()
-        if not s.startswith(("|", "#")):
-            out.append(ln)
+        out.append(ln)
     return "\n".join(out)
 
 
@@ -132,7 +182,7 @@ RULES = [
          pats=[rf"\b{DISCOURSE_NOUN}\s+(emphasis|emphasises|emphasizes|notes?|"
                r"acknowledges?|suggests?|indicates?|frames?|argues?|reports?|holds?|"
                r"reveals?|shows?|confirms?|centres?|centers?|focuses)\b",
-               r"\b(the|an?|growing|emerging|broad|wide)\s+consensus\b",
+               r"\b(the|an?|growing|emerging|broad|wide)\s+consensus\b(?!\s+stud)",
                r"\bthere is (growing|broad|wide|increasing|active)\b",
                r"\b(widely|commonly|generally) (reported|discussed|held|believed|accepted)\b",
                r"\b(many|some|most) (practitioners|employers|academics|commentators|"
@@ -225,7 +275,7 @@ RULES = [
          scope="prose",
          pats=[r"\b(delve|tapestry|pivotal|realm|intricac\w+|interplay|showcas\w+|"
                r"foster\w*|garner\w*|vibrant|meticulous|seamless\w*|groundbreaking|"
-               r"leverag\w+|synerg\w+|transformative|paramount|multifaceted|myriad|"
+               r"synerg\w+|transformative|paramount|multifaceted|myriad|"
                r"plethora|cornerstone|empower\w*|nestled|actionable|impactful|"
                r"learnings|embark|renowned|invaluable|game-chang\w+)\b"]),
     dict(id="filler-phrase", sev="warn", genres=None,
@@ -252,7 +302,11 @@ RULES = [
          pats=[r"\bthe future looks bright\b", r"\bexciting times\b",
                r"\ba step in the right direction\b", r"\bonly time will tell\b",
                r"\bposied for growth\b", r"\bpoised for growth\b",
-               r"(?m)^\s*(In conclusion|To sum up|Overall|Ultimately)\b"]),
+               # "Overall" alone fired 28 times and every hit was the field
+               # label "**Overall Section Exposure:**" in a research-degree
+               # report. Keep the word, exclude the label form.
+               r"(?m)^\s*(In conclusion|To sum up|Ultimately)\b",
+               r"(?m)^\s*Overall\b(?!\s+[A-Z][\w ]{0,40}:)"]),
 
     # ---- Google developer documentation style (style) ---------------------
     dict(id="directional-language", sev="style", genres=None,
@@ -303,7 +357,17 @@ RULES = [
 
 GENRES = (("dfva-v4-recommend-", "recommend"),
           ("dfva-v4-", "v4report"),
-          ("dfva-market-", "market"))
+          ("dfva-market-", "market"),
+          # Archived v1, faculty and research-degree reports. 135 of them still
+          # compile into reportContent/ and resolve at /reports/archive, so they
+          # reach a reader and belong in the check. They are archived, not
+          # maintained, so they carry the error rules only — see LEGACY_SEVERITY.
+          ("dfva-", "legacy"))
+
+# Archived reports are held to truth, not to house style. Running the full rule
+# set over them yields ~1,600 style findings, almost all the ALL-CAPS heading
+# form the check already accepts elsewhere, which would bury the ratchet.
+LEGACY_SEVERITY = {"error"}
 
 
 def genre_of(name: str):
@@ -343,6 +407,7 @@ def scan(path: Path):
     raw = body_only(raw_full)
     prose_src = strip_markup(prose_lines(raw))
     prose = mask_quotes(prose_src)
+    raw_masked = mask_quotes(mask_code_and_comments(raw))
     genre, code = genre_of(path.name)
     heads = headings_of(raw)
     findings = []
@@ -352,7 +417,7 @@ def scan(path: Path):
             continue
         if rule["scope"] == "headings":
             continue
-        text = {"raw": raw, "prose": prose}[rule["scope"]]
+        text = {"raw": raw_masked, "prose": prose}[rule["scope"]]
         seen = set()
         for p in rule["pats"]:
             for m in re.finditer(p, text, re.I):
@@ -373,9 +438,76 @@ def scan(path: Path):
         findings.append({"rule": rid, "sev": r["sev"], "line": 0,
                          "match": txt[:90], "desc": r["desc"], "fix": r["fix"]})
 
+    if genre == "legacy":
+        findings = [f for f in findings if f["sev"] in LEGACY_SEVERITY]
+
     words = WORD.findall(prose_src)
     return {"file": path.name, "genre": genre, "code": code,
             "words": len(words), "findings": findings}
+
+
+# --------------------------------------------------------------- evidence
+# dfva/source/evidence/*.json is ~165k authored words that render on every v4
+# report page via v4PanelC.ts and dimensionEvidence.ts. Scan the fields WE write.
+#
+# Never scan a verbatim field. evidenceLines and its kin hold handbook text
+# quoted as proof; json.loads has already removed the quotation marks, so
+# mask_quotes cannot protect them. Scanning every leaf produced 62 warns and
+# 1 error on this corpus, all false; scanning authored fields only gives 9 and 0.
+AUTHORED_FIELDS = {"rationale", "note", "notes", "basis", "ambiguities",
+                   "caveat", "caveats", "summary", "interpretation"}
+VERBATIM_FIELDS = {"evidenceLines", "quote", "quotes", "anchor", "anchorText",
+                   "verbatim", "excerpt", "sourceText", "url", "sources"}
+
+
+def authored_strings(node, path="", out=None):
+    """Collect (json-path, text) for every authored prose leaf."""
+    out = [] if out is None else out
+    if isinstance(node, dict):
+        for k, v in node.items():
+            if k in VERBATIM_FIELDS:
+                continue
+            authored_strings(v, f"{path}.{k}" if path else k, out)
+    elif isinstance(node, list):
+        for i, v in enumerate(node):
+            authored_strings(v, f"{path}[{i}]", out)
+    elif isinstance(node, str):
+        leaf = path.split(".")[-1].split("[")[0]
+        if leaf in AUTHORED_FIELDS and len(node.split()) >= 5:
+            out.append((path, node))
+    return out
+
+
+def scan_evidence(path: Path):
+    """Prose-scope rules over authored evidence fields. Genre 'evidence'."""
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {"file": path.name, "genre": "evidence", "code": path.stem,
+                "words": 0, "findings": []}
+    findings, words = [], 0
+    for keypath, text in authored_strings(data):
+        prose_src = strip_markup(text)
+        prose = mask_quotes(prose_src)
+        words += len(WORD.findall(prose_src))
+        for rule in RULES:
+            if rule["genres"] or rule["scope"] != "prose":
+                continue
+            seen = set()
+            for pat in rule["pats"]:
+                for m in re.finditer(pat, prose, re.I):
+                    key = (m.start() // 12, m.end() // 12)
+                    if key in seen:
+                        continue
+                    seen.add(key)
+                    findings.append({
+                        "rule": rule["id"], "sev": rule["sev"], "line": 0,
+                        "field": keypath,
+                        "match": " ".join(m.group(0).split())[:90],
+                        "desc": rule["desc"], "fix": rule["fix"],
+                    })
+    return {"file": path.name, "genre": "evidence", "code": path.stem,
+            "words": words, "findings": findings}
 
 
 def key_of(f, res):
@@ -389,12 +521,19 @@ def main():
     ap.add_argument("--json", action="store_true")
     ap.add_argument("--write-baseline", action="store_true")
     ap.add_argument("--severity", default="error,warn,style")
+    ap.add_argument("--no-evidence", action="store_true",
+                    help="skip dfva/source/evidence/*.json")
     a = ap.parse_args()
     want = set(a.severity.split(","))
 
-    files = [REPORTS / a.file] if a.file else sorted(REPORTS.glob("dfva-*.md"))
-    files = [f for f in files if genre_of(f.name)[0]]
-    results = [scan(f) for f in files]
+    if a.file:
+        one = (EVIDENCE if a.file.endswith(".json") else REPORTS) / a.file
+        results = [scan_evidence(one) if a.file.endswith(".json") else scan(one)]
+    else:
+        files = [f for f in sorted(REPORTS.glob("dfva-*.md")) if genre_of(f.name)[0]]
+        results = [scan(f) for f in files]
+        if not a.no_evidence:
+            results += [scan_evidence(f) for f in sorted(EVIDENCE.glob("*.json"))]
 
     base = set()
     if BASELINE.exists() and not a.write_baseline:
@@ -445,7 +584,8 @@ def main():
             if r["file"] != cur:
                 cur = r["file"]
                 print(f"\n  {cur}")
-            loc = f"L{f['line']}" if f["line"] else "heading"
+            loc = (f"L{f['line']}" if f["line"]
+                   else f.get("field") or "heading")
             print(f"    [{f['sev']:5}] {loc:>7}  {f['rule']}: {f['match']}")
             print(f"                     → {f['fix']}")
         errs = sum(1 for _, f in new if f["sev"] == "error")
