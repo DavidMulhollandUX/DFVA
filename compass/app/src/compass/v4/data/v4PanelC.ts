@@ -1659,6 +1659,27 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
       "indexVariant": "AIOE-2021"
     }
   },
+  "mc-urpl": {
+    "code": "mc-urpl",
+    "name": "Master of Urban Planning",
+    "hasMarketReport": true,
+    "exposure": 92.85,
+    "entryExposure": 92.85,
+    "jirN": 130,
+    "nTitles": 15,
+    "nMedium": 6,
+    "exposureBasis": {
+      "tier": "exact",
+      "grain": "program",
+      "sources": [
+        {
+          "name": "Master of Urban Planning",
+          "n": 130
+        }
+      ],
+      "indexVariant": "AIOE-2021"
+    }
+  },
   "me-dcd": {
     "code": "me-dcd",
     "name": "Doctor of Clinical Dentistry",
@@ -3144,6 +3165,17 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
       {
         "name": "Master of Urban Horticulture",
         "n": 44
+      }
+    ],
+    "indexVariant": "AIOE-2021"
+  },
+  "mc-urpl": {
+    "tier": "exact",
+    "grain": "program",
+    "sources": [
+      {
+        "name": "Master of Urban Planning",
+        "n": 130
       }
     ],
     "indexVariant": "AIOE-2021"
@@ -16709,6 +16741,102 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "mechanical": true,
       "date": "2026-08-23"
     }
+  },
+  "mc-urpl": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: assessed collaborative practice recurs across the core: group projects and reports in ABPL90064 Climate Change & Sustainability Planning (group project and report), ABPL90131 Strategic Plan Making (group policy analysis report, 3-4 students), ABPL90135 Analytical Methods (group presentations on quantitative and qualitative research design, 4-person groups), and ABPL90315 Participatory Planning (group tutorial seminar). Level 3 is not met: formal assessed division-of-labor charters allocating tasks between human planners and AI systems (e.g. AI-driven urban density generative tools vs human planning regulatory assessment) are unevidenced.",
+      "evidenceLines": [
+        "ABPL90064 Climate Change & Sustainability Planning ... Group project, and report with an individual contribution",
+        "ABPL90131 Strategic Plan Making ... Policy analysis report (group work 3-4 students)",
+        "ABPL90135 Analytical Methods ... Group presentation (20 minutes) on quantitative research design by a 4-person group ... Group presentation (20 minutes) on qualitative research design",
+        "ABPL90315 Participatory Planning ... Group Tutorial Seminar (3-4 people)"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: core assessment requires criterion-referenced evaluative judgement across complex statutory planning assessments (ABPL90130 Planning Law & Statutory Planning: assessing planning applications for use/development), urban policy briefs and evaluations (ABPL90064), spatial analyses (ABPL90132), and participatory community feedback evaluations (ABPL90315). Level 3 is not met: no core assessment requires students to systematically audit, verify, and document reliance and override decisions regarding GIS spatial modeling tools, generative masterplanning software, or automated land-use suitability algorithms over time.",
+      "evidenceLines": [
+        "ABPL90130 Planning Law & Statutory Planning ... Assignment 1 : Undertake a preliminary assessment of a site ... Assignment 2 :Undertake an assessment of a planning application",
+        "ABPL90064 Climate Change & Sustainability Planning ... Assignment 1 : Essay (policy brief) ... Assignment 2: Essay (policy evaluation)",
+        "ABPL90315 Participatory Planning ... Attend a public consultation event and write a report"
+      ]
+    },
+    "C3": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: core units utilize GIS mapping tools, spatial analysis software, statistical quantitative and qualitative data analytics (ABPL90135 Analytical Methods), and urban coding technologies (ABPL90132 Urban Coding and Design). Level 3 is not met: systemic critique of AI governance in urban planning (algorithmic redlining, smart city surveillance, synthetic demographic simulation biases, and spatial data justice) is not formally assessed across the core.",
+      "evidenceLines": [
+        "ABPL90135 Analytical Methods ... quantitative research design ... qualitative research design",
+        "ABPL90132 Urban Coding and Design ... Tutorial exercises (graphic and written)",
+        "The program also recognises the importance of being able to carry out and communicate research on planning policy and practice, including a compulsory analytical methods subject"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: core assessment requires transfer of statutory, environmental, economic, and design principles across diverse urban contexts (ABPL90130, ABPL90246, ABPL90064, ABPL90131, ABPL90315). Level 3 is not met: while the minor thesis requires self-directed investigation, structured identification of personal professional capability gaps with an assessed learning plan across every student is unevidenced.",
+      "evidenceLines": [
+        "ABPL90246 The Economies of Cities and Regions ... Written Assignment (2000 words) ... Written Assignment (2200 words)",
+        "ABPL90131 Strategic Plan Making ... Policy analysis report ... 2500 words",
+        "ABPL90341 Urban Environmental Policy and Planning ... Individual report on initial opportunities assessment"
+      ]
+    },
+    "C5": {
+      "score": 3,
+      "rationale": "Level 3 anchor is satisfied: a substantial 10,000-word primary research project is REQUIRED for all students across the core (ABPL90396 MSD Minor Thesis Part 1 and ABPL90397 MSD Minor Thesis Part 2, 25 points), featuring a 5,000-word staged research proposal, oral defense presentation, and structured academic supervision.",
+      "evidenceLines": [
+        "All students must complete MSD Minor Thesis both part 1 and 2 (25 points)",
+        "ABPL90396 MSD Minor Thesis Part 1 ... Submission of research proposal (5,000 words) ... Oral presentation based upon research proposals ... Minor Thesis - 10,000 words",
+        "ABPL90397 MSD Minor Thesis Part 2 ... Please refer to ABPL90396 MSD Minor Thesis Part 1"
+      ]
+    },
+    "adaptiveness": 11,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: professional communication is assessed repeatedly across core studio and policy units (policy briefs in ABPL90064, statutory site assessments in ABPL90130, strategic plans in ABPL90131, oral presentations in ABPL90135, public consultation reports in ABPL90315, and thesis presentations in ABPL90396). Level 3 is not met: formal grading of professional conduct and communication by external registered PIA practitioners across the compulsory core is unevidenced.",
+      "evidenceLines": [
+        "ABPL90130 Planning Law & Statutory Planning ... Assignment 2 :Undertake an assessment of a planning application",
+        "ABPL90315 Participatory Planning ... Group Tutorial Seminar (3-4 people), 40 minutes (including presentation and Q&A)",
+        "ABPL90396 MSD Minor Thesis Part 1 ... Oral presentation based upon research proposals"
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Level 3 anchor is satisfied: authentic tasks form the program's assessment spine across every semester (statutory planning assessments evaluating real site planning applications in ABPL90130, climate sustainability policy briefs in ABPL90064, strategic urban plan formulations in ABPL90131, urban design coding in ABPL90132, and real public consultation participation in ABPL90315) AND carry genuine constraints of practice — Victoria Planning Provisions (VPPs), statutory planning timelines, municipal stakeholder conflicts, economic viability, and community public hearings.",
+      "evidenceLines": [
+        "ABPL90130 Planning Law & Statutory Planning ... Assignment 1 : Undertake a preliminary assessment of a site and its surrounds. Determine the planning provisions ... Assignment 2 :Undertake an assessment of a planning application",
+        "ABPL90064 Climate Change & Sustainability Planning ... Assignment 1 : Essay (policy brief) ... Group project, and report",
+        "ABPL90315 Participatory Planning ... Attend a public consultation event and write a report"
+      ]
+    },
+    "W3": {
+      "score": 0,
+      "rationale": "Level 0 anchor: the compulsory core consists of campus-based coursework, studio subjects, and the minor thesis (ABPL90396/ABPL90397). Planning internships (ABPL90288 or equivalent) are available as elective options but are not mandatory for all students in the core.",
+      "evidenceLines": [
+        "All students must complete: 100 credit points of core subjects, 25 credit points of Capstone subjects (MSD Minor Thesis both Part 1 and 2), 75 credit points of elective subjects"
+      ]
+    },
+    "workplace": 5,
+    "gates": {
+      "G1": {
+        "status": "PASS",
+        "rationale": "PASS condition is met: accredited by the Planning Institute of Australia (PIA) as a 200-point professional graduate qualification. Comprehensive foundation spanning planning theory and history, planning law and statutory planning, urban economics, strategic plan making, climate change and sustainability, urban coding and design, participatory planning, analytical methods, and the 25-point minor thesis."
+      },
+      "G2": {
+        "status": "PASS",
+        "rationale": "PASS condition is met: assessment explicitly requires high-stakes decision-making under severe socio-political uncertainty, conflicting community stakeholder values, climate resilience imperatives, and ambiguous development proposals — including statutory permit assessments in ABPL90130, strategic plan formulations in ABPL90131, and public consultation negotiation in ABPL90315."
+      }
+    },
+    "ambiguities": [
+      "C1 straddled 2 and 3: collaborative group projects in ABPL90064, ABPL90131, ABPL90135, and ABPL90315 satisfy level 2. Level 3 is unmet because explicit human-AI workflow allocation charters are unevidenced.",
+      "C2 straddled 2 and 3: statutory assessment and policy evaluation satisfy level 2. Level 3 is unmet because AI spatial modeling auditing and override logs are unevidenced.",
+      "C3 straddled 2 and 3: GIS methods and urban coding satisfy level 2, but AI spatial ethics and smart city surveillance critique are not formally assessed in the core. Scored at 2.",
+      "C4 straddled 2 and 3: contextual policy transfer is assessed across the core (level 2), but self-capability gap tracking is unevidenced. Scored at 2.",
+      "C5 satisfies level 3: mandatory 10,000-word MSD Minor Thesis (25 credit points) across the core with staged 5,000-word proposal, oral presentation defense, and academic supervision.",
+      "W1 straddled 2 and 3: professional communication is repeatedly assessed (level 2), but external practitioner grading across the compulsory core is unevidenced.",
+      "W2 satisfies level 3: authentic tasks spine with real planning permits, Victoria Planning Provisions, and public consultation constraints.",
+      "W3 scores 0: internships are electives; no compulsory placement block in the core."
+    ]
   },
   "me-dcd": {
     "instrument": "4.2-draft",

@@ -151,6 +151,7 @@ export const REPORT_CONTENT_LOADERS: Record<
   "dfva-market-mc-tesol": () => import("./dfva-market-mc-tesol"),
   "dfva-market-mc-urbdes": () => import("./dfva-market-mc-urbdes"),
   "dfva-market-mc-urbhort": () => import("./dfva-market-mc-urbhort"),
+  "dfva-market-mc-urpl": () => import("./dfva-market-mc-urpl"),
   "dfva-market-me-dcd": () => import("./dfva-market-me-dcd"),
   "dfva-mc-actsc": () => import("./dfva-mc-actsc"),
   "dfva-mc-apbusa": () => import("./dfva-mc-apbusa"),
@@ -362,6 +363,7 @@ export const REPORT_CONTENT_LOADERS: Record<
   "dfva-v4-mc-tesol": () => import("./dfva-v4-mc-tesol"),
   "dfva-v4-mc-urbdes": () => import("./dfva-v4-mc-urbdes"),
   "dfva-v4-mc-urbhort": () => import("./dfva-v4-mc-urbhort"),
+  "dfva-v4-mc-urpl": () => import("./dfva-v4-mc-urpl"),
   "dfva-v4-me-dcd": () => import("./dfva-v4-me-dcd"),
   "dfva-v4-recommend-038ab": () => import("./dfva-v4-recommend-038ab"),
   "dfva-v4-recommend-080cl": () => import("./dfva-v4-recommend-080cl"),
@@ -463,6 +465,7 @@ export const REPORT_CONTENT_LOADERS: Record<
   "dfva-v4-recommend-mc-tesol": () => import("./dfva-v4-recommend-mc-tesol"),
   "dfva-v4-recommend-mc-urbdes": () => import("./dfva-v4-recommend-mc-urbdes"),
   "dfva-v4-recommend-mc-urbhort": () => import("./dfva-v4-recommend-mc-urbhort"),
+  "dfva-v4-recommend-mc-urpl": () => import("./dfva-v4-recommend-mc-urpl"),
   "dfva-v4-recommend-me-dcd": () => import("./dfva-v4-recommend-me-dcd"),
 };
 
