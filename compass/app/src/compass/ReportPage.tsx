@@ -11,16 +11,24 @@ const V4Report = lazy(() => import("./v4/V4ReportPage"));
  * a legacy slug (dfva-<code>, dfva-market-<code>, dfva-recommend-<code>,
  * dfva-v4-<code>) routes to the archived v1 markdown workspace and anything
  * else is a program code rendered on the current v4 Durability Report.
+ *
+ * dfva-v4r-<code> is the exception. It is a report body rather than an archived
+ * assessment, and it renders in the v4 format on the program's own page — so
+ * the slug resolves to the same page /reports/<code> does, keeping the links
+ * already published against it alive.
  */
+const V4R_PREFIX = "dfva-v4r-";
+
 export default function ReportPage() {
   const { reportSlug = "" } = useParams<{ reportSlug: string }>();
+  const code = reportSlug.startsWith(V4R_PREFIX)
+    ? reportSlug.slice(V4R_PREFIX.length)
+    : reportSlug.startsWith("dfva-")
+      ? null
+      : reportSlug;
   return (
     <Suspense fallback={null}>
-      {reportSlug.startsWith("dfva-") ? (
-        <LegacyReport />
-      ) : (
-        <V4Report key={reportSlug} code={reportSlug} />
-      )}
+      {code === null ? <LegacyReport /> : <V4Report key={code} code={code} />}
     </Suspense>
   );
 }

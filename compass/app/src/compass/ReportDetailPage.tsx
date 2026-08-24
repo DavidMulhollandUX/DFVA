@@ -1431,16 +1431,14 @@ function ReportDetailView({
   // v4 reports carry the draft Panel C v4 instrument: no v1 composite exists
   // for them, so the hero score is suppressed rather than defaulted.
   const isV4Report = slugsByType.assessment.startsWith("dfva-v4-");
-  // A research degree carries no v4 score, and its v1 composite is withheld on
-  // purpose: a number beside an unscored program invites the comparison the
-  // report exists to rule out. Without this the hero fell through to the
-  // literal 20 / 36 default, because no PROGRAMS row matches a v4r slug.
-  const isV4rReport = family === "v4r";
+  // dfva-v4r-<code> renders on the v4 page, not here (see ReportPage), so a
+  // v4r slug never reaches this shell. parseSlug still recognises the family so
+  // that if one ever did, the code would not be read as "v4r-<code>" and fall
+  // through to the literal 20 / 36 default below.
   const scoreText: string | null =
     simulatedScore !== null
       ? `${simulatedScore} / 36`
-      : meta?.score ??
-        (isV4Report || isV4rReport ? null : `${program?.score ?? 20} / 36`);
+      : meta?.score ?? (isV4Report ? null : `${program?.score ?? 20} / 36`);
 
   // 7. Form submission: Update intervention assignment
   async function handleAssignOwner(e: React.FormEvent<HTMLFormElement>) {
@@ -1666,25 +1664,7 @@ function ReportDetailView({
           <ArrowLeft className="h-4 w-4" />
           All reports
         </Link>
-        {isV4rReport ? (
-          <div
-            className="bg-card-accent text-muted-foreground mb-4 flex flex-wrap items-center gap-2 rounded-md px-3 py-2 text-sm"
-            data-testid="research-degree-report-banner"
-          >
-            <span className="text-foreground text-xs font-semibold tracking-wide uppercase">
-              Research degree
-            </span>
-            <span>
-              This program carries no v4 score. Section 1 sets out why; the
-              assessment below is carried from the retired v1 instrument as
-              narrative only.{" "}
-              <Link to={`/reports/${code}`} className="underline">
-                Program page
-              </Link>
-              .
-            </span>
-          </div>
-        ) : !isV4Report ? (
+        {!isV4Report && (
           <div
             className="bg-card-accent text-muted-foreground mb-4 flex flex-wrap items-center gap-2 rounded-md px-3 py-2 text-sm"
             data-testid="archived-report-banner"
@@ -1701,7 +1681,7 @@ function ReportDetailView({
               .
             </span>
           </div>
-        ) : null}
+        )}
         <div className="flex flex-wrap items-start justify-between gap-4">
           <div>
             <div className="flex items-center gap-2">
@@ -1717,11 +1697,9 @@ function ReportDetailView({
             <p className="text-muted-foreground mt-1">
               {report.institution} ·{" "}
               {program?.level ||
-                (isV4rReport
-                  ? "Graduate research · no v4 score"
-                  : isV4Report
-                    ? "Panel C v4 (draft instrument)"
-                    : "Undergraduate")}
+                (isV4Report
+                  ? "Panel C v4 (draft instrument)"
+                  : "Undergraduate")}
             </p>
           </div>
           <div className="flex items-center gap-3">
@@ -1774,36 +1752,23 @@ function ReportDetailView({
               label: "Redesign Workspace",
               icon: ClipboardList,
             },
-          ]
-            // Curriculum Map has no taught curriculum to draw for a research
-            // degree, so it is dropped rather than opened onto mock syllabus
-            // data. Redesign is dropped for a different reason: it renders the
-            // v1 recommend sibling, whose diagnostic opens "scored N/36 —
-            // BAND" over a full dimension table. All 14 do. That is the exact
-            // figure this family withholds, and it is prose rather than a
-            // strippable header line, so the tab stays out until a v4r
-            // recommend body exists.
-            .filter(
-              (tab) =>
-                !isV4rReport || (tab.id !== "map" && tab.id !== "redesign"),
-            )
-            .map((tab) => {
-              const isActive = activeTab === tab.id;
-              return (
-                <button
-                  key={tab.id}
-                  onClick={() => setActiveTab(tab.id)}
-                  className={`flex items-center gap-2 border-b-2 px-5 py-3 text-sm font-semibold transition-all outline-none ${
-                    isActive
-                      ? "border-primary text-primary bg-muted/10 font-bold"
-                      : "text-muted-foreground hover:text-foreground hover:border-border border-transparent"
-                  }`}
-                >
-                  <tab.icon className="h-4 w-4" />
-                  {tab.label}
-                </button>
-              );
-            })}
+          ].map((tab) => {
+            const isActive = activeTab === tab.id;
+            return (
+              <button
+                key={tab.id}
+                onClick={() => setActiveTab(tab.id)}
+                className={`flex items-center gap-2 border-b-2 px-5 py-3 text-sm font-semibold transition-all outline-none ${
+                  isActive
+                    ? "border-primary text-primary bg-muted/10 font-bold"
+                    : "text-muted-foreground hover:text-foreground hover:border-border border-transparent"
+                }`}
+              >
+                <tab.icon className="h-4 w-4" />
+                {tab.label}
+              </button>
+            );
+          })}
         </div>
       </div>
 
@@ -1858,14 +1823,8 @@ function ReportDetailView({
               {/* SVG Shift & Drift Timeline */}
               <ShiftDriftChart />
 
-              {/* Key Assessment Guidelines Callout. Withheld for a research
-                  degree: it describes what a DFVA score measures and points at
-                  the Redesign tab, and neither exists here. */}
-              <div
-                className={`border-border bg-muted/20 space-y-3 rounded-xl border p-5 ${
-                  isV4rReport ? "hidden" : ""
-                }`}
-              >
+              {/* Key Assessment Guidelines Callout */}
+              <div className="border-border bg-muted/20 space-y-3 rounded-xl border p-5">
                 <h4 className="text-foreground flex items-center gap-1.5 text-xs font-bold uppercase">
                   <ShieldAlert className="text-primary h-4 w-4" />
                   Assessor Quality Standards
