@@ -1,0 +1,97 @@
+{
+  "code": "mc-env",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: assessed collaborative teamwork recurs across the universal core: MULT90004 Environmental Sustainability (group verbal, visual and written report, 3,000 words total / 750 words per student) and MULT90005 Partnerships for Sustainable Futures (collaborative group briefing paper, combined total of 1,500 words per student). Level 3 is not met: formal assessed division-of-labor charters allocating tasks between human team members and AI systems (e.g. AI-driven environmental data synthesis vs human interdisciplinary policy negotiation) are unevidenced.",
+      "evidenceLines": [
+        "MULT90004 Environmental Sustainability ... A group verbal, visual and written report - the written report to be a combined total of about 3,000 words (approx 750 words per student)",
+        "MULT90005 Partnerships for Sustainable Futures ... Collaborative (group) briefing paper, to be a combined total of 1500 words per student",
+        "Apply skills and knowledge of sustainability effectively in cross-disciplinary teams"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: core assessment requires criterion-referenced evaluative judgement across complex sustainability policy briefs, reflective essays on multi-stakeholder partnerships (MULT90005), and research essays evaluating conflicting environmental evidence (MULT90004). Level 3 is not met: no core assessment requires students to systematically audit, verify, and document reliance and override decisions regarding AI environmental modeling tools, climate simulation engines, or generative policy drafting algorithms over time.",
+      "evidenceLines": [
+        "MULT90004 Environmental Sustainability ... An individual research essay of about 3,000 words due before the end of semester",
+        "MULT90005 Partnerships for Sustainable Futures ... Reflective essay (1500 words) ... Collaborative (group) briefing paper",
+        "Critically evaluate environmental change and propose pathways to realise this change"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor: digital research tools and environmental literature databases are utilized in core units (MULT90004, MULT90005), but digital/AI tool operation, computational environmental modeling, and AI data governance are not explicitly assessed in the universal core.",
+      "evidenceLines": [
+        "Environmental Sustainability is one of two core subjects for the Master of Environment degree ... context of policy, management, and governance across scales and sectors",
+        "MULT90005 Partnerships for Sustainable Futures ... Developing, implementing and evaluating pathways for sustainable futures thus often requires cooperation across institutions"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: core assessment requires transfer of interdisciplinary environmental principles, governance frameworks, and sustainability models across diverse ecological and policy contexts (MULT90004, MULT90005). Level 3 is not met: structured identification of personal capability gaps with an assessed continuing professional learning plan across every student is unevidenced.",
+      "evidenceLines": [
+        "MULT90004 Environmental Sustainability ... An individual written task of about 1,200 words ... An individual research essay of about 3,000 words",
+        "MULT90005 Partnerships for Sustainable Futures ... Individual task (1500 words)",
+        "Demonstrate specialised knowledge in an environmental discipline or field of practice"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: all students in the 200-point pathway must complete at least 12.5 points from a compulsory capstone menu (ENST90006 Environmental Research Review, ENST90007/ENST90016 Research Project, ENST90025/ENST90020 Industry Research, or SCIE90017 Internship). Level 3 is not met: because students may satisfy the requirement via a 12.5pt literature review (ENST90006) or an internship (SCIE90017), a substantial primary evidence-generating research project defended under formal oral examination is not guaranteed for every cohort member.",
+      "evidenceLines": [
+        "Students in a 200 point pathway will complete at least 12.5 of subjects from a list of capstone experience subjects",
+        "ENST90006 Environmental Research Review (12.5) ... 1000 words ... 4000 words",
+        "ENST90007 Environmental Research Project (25) ... 1500 words ... Hurdle requirement ... 7000 words"
+      ]
+    },
+    "adaptiveness": 9,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: professional communication is assessed repeatedly across the core (collaborative policy briefing papers in MULT90005, group visual, verbal and written reports in MULT90004, and capstone presentations). Level 3 is not met: formal evaluation of professional conduct and communication by external registered environmental practitioners across the universal core is unevidenced (external supervisor grading is limited to elective/capstone internship options).",
+      "evidenceLines": [
+        "MULT90004 Environmental Sustainability ... A group verbal, visual and written report",
+        "MULT90005 Partnerships for Sustainable Futures ... Collaborative (group) briefing paper, to be a combined total of 1500 words per student",
+        "Communicate complex environmental knowledge and research effectively to a range of audiences"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: core assessments feature authentic task design including multi-stakeholder policy briefing papers (MULT90005) and interdisciplinary sustainability analysis reports (MULT90004). Level 3 is not met: universal core assessments do not carry the full unyielding external constraints of practice (e.g. statutory EPA compliance deadlines, formal environmental court proceedings, or commercial EIA client mandates).",
+      "evidenceLines": [
+        "MULT90005 Partnerships for Sustainable Futures ... Developing, implementing and evaluating pathways for sustainable futures thus often requires cooperation across institutions, sectors, and communities",
+        "MULT90004 Environmental Sustainability ... interdisciplinary understanding of critical environmental sustainability issues ... in the context of policy, management, and governance"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1 anchor is satisfied: work-situated learning is formally structured as a capstone option (SCIE90017 Science and Technology Internship, SCIE90027 Ecosystem Internship, or ENST90025 Environmental Industry Research) or elective, but is not mandatory for all students across the universal core.",
+      "evidenceLines": [
+        "Students must complete at least 12.5 points from the following compulsory capstone subjects ... SCIE90017 Science and Technology Internship ... SCIE90027 Ecosystem Internship",
+        "SCIE90017 Science and Technology Internship ... Hurdle requirement: 80 hours of satisfactory work placement, confirmed by placement supervisor"
+      ]
+    },
+    "workplace": 5,
+    "gates": {
+      "G1": {
+        "status": "PASS",
+        "rationale": "PASS condition is met: comprehensive 200-point multidisciplinary postgraduate qualification spanning environmental sustainability, stakeholder governance, climate change, conservation, waste management, environmental science, and specialized capstone projects across 10 University faculties."
+      },
+      "G2": {
+        "status": "PASS",
+        "rationale": "PASS condition is met: core assessment explicitly requires navigating high-stakes socio-ecological dilemmas, conflicting community/commercial stakeholder interests, and uncertain climate scenarios (MULT90004, MULT90005)."
+      }
+    },
+    "ambiguities": [
+      "C1 straddled 2 and 3: collaborative group projects in MULT90004 and MULT90005 satisfy level 2. Level 3 is unmet because explicit human-AI workflow allocation charters are unevidenced.",
+      "C2 straddled 2 and 3: policy evaluations and stakeholder analyses satisfy level 2. Level 3 is unmet because AI environmental model auditing and override logs are unevidenced.",
+      "C3 scored at 1: digital research tools are used, but computational environmental modeling and AI data governance are not assessed in the core.",
+      "C4 straddled 2 and 3: contextual policy transfer is assessed across the core (level 2), but self-capability gap tracking is unevidenced. Scored at 2.",
+      "C5 straddled 2 and 3: compulsory capstone menu exists, but students can choose a 12.5pt literature review (ENST90006) or internship (SCIE90017) rather than a mandatory primary research thesis. Scored at 2.",
+      "W1 straddled 2 and 3: professional communication is repeatedly assessed (level 2), but external practitioner grading across the universal core is unevidenced.",
+      "W2 straddled 2 and 3: authentic multi-stakeholder briefing papers satisfy level 2, but unyielding statutory constraints across every semester are unevidenced.",
+      "W3 satisfies level 1: 80-hour internship (SCIE90017) is an available capstone option, but not universally mandatory in the core."
+    ]
+  }
+}
