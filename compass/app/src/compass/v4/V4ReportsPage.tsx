@@ -4,6 +4,7 @@ import { ArrowRight, Search, X } from "lucide-react";
 import { Card, CardContent } from "../../client/components/ui/card";
 import { QUADRANTS } from "../v2/quadrants";
 import { programReportPath } from "../reportLinks";
+import { hasReportContent } from "../reportContent/index";
 import {
   V4_ADAPTIVENESS_MAX,
   V4_INSTRUMENT,
@@ -78,8 +79,17 @@ function StatusBadge({ entry }: { entry: ReportIndexEntry }) {
   );
 }
 
+/** Research degrees have a report of their own (dfva-v4r-<code>) rather than
+ *  only the archived v1 workspace. The card links it directly when it exists,
+ *  and falls back to the v1 report for any research degree not yet authored. */
+function v4rSlug(code: string): string | null {
+  const slug = `dfva-v4r-${code}`;
+  return hasReportContent(slug) ? slug : null;
+}
+
 function ReportCard({ entry }: { entry: ReportIndexEntry }) {
   const current = entry.status === "current";
+  const research = entry.status === "research" ? v4rSlug(entry.code) : null;
   return (
     <Card data-testid="report-card" data-status={entry.status}>
       <CardContent className="flex flex-col gap-4 pt-5">
@@ -123,8 +133,11 @@ function ReportCard({ entry }: { entry: ReportIndexEntry }) {
         ) : entry.status === "research" ? (
           <p className="text-muted-foreground text-sm">
             Panel C v4 scores taught curriculum, which this research degree does
-            not carry. Its archived v1 assessment and market intelligence stand
-            as its report.
+            not carry, and Panel A resolves to no destination basis for it, so
+            no v4 score of any kind applies.{" "}
+            {research
+              ? "Its research degree report sets out why, and carries the earlier assessment as narrative."
+              : "Its archived v1 assessment and market intelligence stand as its report."}
           </p>
         ) : (
           <p className="text-muted-foreground text-sm">
@@ -134,7 +147,7 @@ function ReportCard({ entry }: { entry: ReportIndexEntry }) {
         )}
 
         <Link
-          to={programReportPath(entry.code)}
+          to={research ? `/reports/${research}` : programReportPath(entry.code)}
           className={`flex items-center justify-center gap-1.5 rounded-lg border py-2.5 text-xs font-semibold transition-colors ${
             current
               ? "bg-secondary/10 hover:bg-secondary/20 border-secondary/40 text-foreground"
@@ -142,7 +155,13 @@ function ReportCard({ entry }: { entry: ReportIndexEntry }) {
           }`}
           data-testid="durability-report-link"
         >
-          <span>{current ? "Durability Report" : "Report · archived v1"}</span>
+          <span>
+            {current
+              ? "Durability Report"
+              : research
+                ? "Research degree report"
+                : "Report · archived v1"}
+          </span>
           <ArrowRight className="h-3 w-3" />
         </Link>
       </CardContent>
