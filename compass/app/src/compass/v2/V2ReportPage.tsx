@@ -616,13 +616,13 @@ export default function V2ReportPage() {
           slug={`dfva-market-${program.code}`}
           label="Market Intelligence"
           title="Labour-Market Intelligence"
-          subtitle="Job families, hiring signals, and discussion themes for this program's destinations — from the DFVA market-intelligence pipeline"
+          subtitle="Job families, hiring signals, and discussion themes for this program's destinations — from the Evidura market-intelligence pipeline"
         />
         <ReportMarkdownCard
           slug={`dfva-recommend-${program.code}`}
           label="Redesign Recommendations"
           title="Improvement Plan"
-          subtitle="Score-to-action mapping and prioritised interventions — from the DFVA recommendation pipeline"
+          subtitle="Score-to-action mapping and prioritised interventions — from the Evidura recommendation pipeline"
         />
 
         <div className="mt-6">

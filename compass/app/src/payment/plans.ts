@@ -37,8 +37,11 @@ export const paymentPlans = {
 
 export function prettyPaymentPlanName(planId: PaymentPlanId): string {
   const planToName: Record<PaymentPlanId, string> = {
-    [PaymentPlanId.Hobby]: "Hobby",
-    [PaymentPlanId.Pro]: "Pro",
+    // Display names describe the one thing the plans actually differ on:
+    // whether monthly usage is capped. The enum values stay as they are because
+    // they map to Stripe price IDs.
+    [PaymentPlanId.Hobby]: "Standard",
+    [PaymentPlanId.Pro]: "Unlimited",
     [PaymentPlanId.Credits10]: "10 Credits",
   };
   return planToName[planId];

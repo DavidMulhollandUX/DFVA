@@ -34,7 +34,7 @@ const content = {
 
 5. **Signal 5 — Public hospital specialist recruitment gaps.** Victorian and national public dental hospital systems periodically report difficulty filling specialist staff positions, particularly in oral medicine and paediatric dentistry, reflecting both undersupply of specialists relative to hospital need and the pull of higher-earning private practice.
 
-6. **Signal 6 — AI diagnostic tool adoption in general dental practice increasing specialist referral quality.** As general dentists increasingly use AI radiograph-screening tools (Pearl, Overjet, Diagnocat) in routine practice, anecdotal industry commentary suggests earlier and better-documented referrals into specialist care — a potential referral-volume tailwind for specialists rather than a threat.
+6. **Signal 6 — AI diagnostic tool adoption in general dental practice increasing specialist referral quality.** As general dentists increasingly use AI radiograph-screening tools (Pearl, Overjet, Diagnocat) in routine practice, earlier and better-documented referrals into specialist care are a plausible consequence — a referral-volume tailwind for specialists rather than a threat. No source consulted for this report measures that effect, so it is a stated expectation rather than an observation.
 
 ---
 

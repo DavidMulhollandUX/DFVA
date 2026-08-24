@@ -63,13 +63,13 @@ Traditional consumer research roles are contracting in volume but growing in sen
 > **Confidence: MEDIUM** — Pattern-based from known professional discourse.
 
 **Theme 1 — The "AI Strategist" Identity Gap in Marketing**
-Marketing professionals on LinkedIn and in Australian Marketing Institute (AMI) community discussions are actively debating who owns AI governance within marketing teams. The emerging consensus is that mid-senior marketers need to become "AI strategists" — not tool operators, but people who can set policy, evaluate vendor claims, and integrate AI into brand-safe workflows. MBA programmes are seen as under-delivering on this skill.
+Who owns AI governance inside a marketing team is unsettled: the responsibility sits across brand, legal, data and procurement, and no standard model has emerged in ANZ practice. This report reads the demand as a change in what mid-senior marketers are expected to do — set AI policy, evaluate vendor claims and integrate AI into brand-safe workflows, rather than operate the tools. Nothing consulted for this section measures how widely that expectation has settled, so treat it as this report's reading.
 
 **Theme 2 — Attribution Is Broken and Getting Harder**
 Across APAC marketing forums and Mumbrella's Australian coverage, there is sustained discussion about the collapse of reliable multi-touch attribution as privacy laws tighten and walled gardens (Meta, Google, TikTok) restrict data sharing. Marketers are increasingly turning to media mix modelling (MMM) and incrementality testing as alternatives — skills not commonly taught in traditional MBA marketing curricula.
 
 **Theme 3 — The Brand vs Performance Pendulum Swinging Back Toward Brand**
-Following several years of over-investment in performance marketing, there is growing industry discourse — amplified by LinkedIn thought leaders including Byron Sharp advocates and Les Binet/Peter Field's long-run effectiveness data — about the importance of brand-building investment. ANZ marketers are discussing how to make the business case for brand to CFOs, which is a leadership skill with clear MBA relevance.
+Les Binet and Peter Field's long-run effectiveness research, and Byron Sharp's work on how brands grow, are the standard references marketers cite when arguing for brand-building investment against short-run performance spend. The practical question those references leave open — how to make that business case to a CFO — is a leadership skill rather than a channel skill.
 
 **Theme 4 — Creator Economy and Influencer Marketing Professionalising**
 The influencer marketing sector in Australia has matured significantly, with the ACCC's updated disclosure guidelines and the growth of long-form creator partnerships replacing one-off posts. Marketing professionals are discussing the need for structured creator relationship management, ROI frameworks for influencer spend, and brand safety protocols — topics that have entered mainstream marketing management rather than remaining a specialist niche.
@@ -81,7 +81,7 @@ Following the Optus and Medibank data breaches and the Commonwealth's updated Pr
 With generative AI producing volume content at near-zero marginal cost, professional marketing discussions consistently flag that content creation as a differentiating skill is collapsing in value. The premium has shifted decisively to content strategy, audience architecture, and editorial governance — determining what gets made and why, rather than making it. This is reshaping the value proposition of MBA-level marketing graduates.
 
 **Theme 7 — B2B Marketing as an Underserved Career Path for MBA Graduates**
-There is growing recognition in ANZ marketing communities that B2B marketing — particularly in professional services, technology, and industrial sectors — offers strong career trajectories for MBA graduates but is underrepresented in MBA marketing curricula, which tend to focus on FMCG and consumer brand cases. LinkedIn data shows B2B marketing roles in Australia growing faster than B2C, driven by the SaaS and fintech sectors.
+B2B marketing — in professional services, technology and industrial sectors — is a career path MBA marketing curricula under-serve, because teaching cases skew to FMCG and consumer brands. This report reads ANZ B2B demand as growing faster than B2C on the strength of the SaaS and fintech sectors. No retrieval was performed for this section, so that direction is a reading rather than a measurement.
 
 ---
 
