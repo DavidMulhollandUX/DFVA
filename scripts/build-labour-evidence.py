@@ -27,12 +27,35 @@ MARKETDATA = REPO / 'compass/app/src/compass/marketData.ts'
 EMPLOYERS = REPO / 'scratch/au-jobinsights/field_employers.json'
 OUT = REPO / 'data/labour-evidence.json'
 
-# Target = the 41 programs that have assessment reports.
+# Target = the programs that have a v1 assessment report (reports/dfva-<code>.md).
+# The filter must exclude every OTHER report family that shares the dfva- prefix:
+# dfva-market-*, dfva-recommend-*, dfva-v4-*, dfva-v4-recommend-*, cross/faculty rollups.
+# Matching on substrings alone let the v4 families through once they existed — as of
+# 2026-08-24 that returned 111 codes, 44 of them 'v4-' prefixed, which would have written
+# junk keys ('v4-038ab', ...) into data/labour-evidence.json on the next run.
 REPORT_CODES = sorted(
     f.name[len('dfva-'):-len('.md')]
     for f in (REPO / 'reports').glob('dfva-*.md')
-    if not re.search(r'(market|recommend|cross|faculty)', f.name)
+    if not re.match(r'dfva-(market|recommend|v\d|cross|faculty)', f.name)
 )
+
+# --- input guard -------------------------------------------------------------
+# XLSX and JOIN live under scratch/au-jobinsights/, which is NOT in the repository.
+# Without them this script cannot run, so data/labour-evidence.json is currently
+# FROZEN: it can be read but not reproduced (audited 2026-08-24,
+# docs/dfva-labour-evidence-footer-audit.md). Fail with the reason rather than a
+# pandas traceback, and say what restoring it needs.
+_missing = [str(p.relative_to(REPO)) for p in (XLSX, JOIN) if not p.exists()]
+if _missing:
+    raise SystemExit(
+        'build-labour-evidence: cannot run — missing input(s): ' + ', '.join(_missing) + '\n'
+        'data/labour-evidence.json is frozen until these are restored. They were never\n'
+        'committed (scratch/ is outside the repo), which is the same failure that made\n'
+        'docs/dfva-go8-comparison.md unreproducible. Restore them UNDER data/ so the next\n'
+        'clone can rebuild, then update XLSX/JOIN above.\n'
+        'The <!-- LABOUR-EVIDENCE --> report block does NOT depend on this script:\n'
+        'scripts/build-market-footer.py regenerates it from committed data only.'
+    )
 
 # --- JSA HEO destinations per field (VERIFIED FOE_BROAD mapping, this session) ---
 df = pd.read_excel(XLSX, sheet_name='Table_3', header=6)
