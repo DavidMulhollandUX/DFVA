@@ -75,4 +75,12 @@ export const REPORT_INDEX: ReportIndexEntry[] = [
   ...Object.values(V4_ONLY_PROGRAMS)
     .filter((p) => !PROGRAMS.some((q) => q.assessmentSlug === `dfva-${p.code}`))
     .map((p) => entry(p.code, p.name, getFaculty(p.name), false)),
-].sort((a, b) => a.name.localeCompare(b.name));
+]
+  // Research degrees sort last regardless of name. They carry no Durability
+  // Rating and never will, so they are a footnote to the portfolio rather than
+  // a run of D-named programs interrupting it; everything else stays A–Z.
+  .sort(
+    (a, b) =>
+      Number(a.status === "research") - Number(b.status === "research") ||
+      a.name.localeCompare(b.name),
+  );

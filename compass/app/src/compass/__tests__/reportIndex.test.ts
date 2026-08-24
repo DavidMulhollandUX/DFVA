@@ -123,4 +123,28 @@ describe("research-degree reports", () => {
     expect(hasReportContent(`dfva-market-${parsed.code}`)).toBe(true);
     expect(hasReportContent(`dfva-recommend-${parsed.code}`)).toBe(true);
   });
+
+  // They carry no rating and never will, so they belong after the portfolio
+  // rather than interleaved into it by name.
+  it("sorts every research degree below every other program", () => {
+    const lastNonResearch = REPORT_INDEX.reduce(
+      (acc, e, i) => (e.status !== "research" ? i : acc),
+      -1,
+    );
+    const firstResearch = REPORT_INDEX.findIndex(
+      (e) => e.status === "research",
+    );
+    expect(firstResearch).toBeGreaterThan(lastNonResearch);
+  });
+
+  it("still sorts A-Z within each of the two groups", () => {
+    for (const group of ["research", "other"]) {
+      const names = REPORT_INDEX.filter((e) =>
+        group === "research"
+          ? e.status === "research"
+          : e.status !== "research",
+      ).map((e) => e.name);
+      expect(names).toEqual([...names].sort((a, b) => a.localeCompare(b)));
+    }
+  });
 });

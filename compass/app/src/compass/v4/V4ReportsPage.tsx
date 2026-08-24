@@ -132,12 +132,12 @@ function ReportCard({ entry }: { entry: ReportIndexEntry }) {
           </div>
         ) : entry.status === "research" ? (
           <p className="text-muted-foreground text-sm">
-            Panel C v4 scores taught curriculum, which this research degree does
-            not carry, and Panel A resolves to no destination basis for it, so
-            no v4 score of any kind applies.{" "}
+            Research degrees are examined on an original contribution rather
+            than a taught curriculum, and no graduate destination data is
+            published for them, so a Durability Rating does not apply.{" "}
             {research
-              ? "Its research degree report sets out why, and carries the earlier assessment as narrative."
-              : "Its archived v1 assessment and market intelligence stand as its report."}
+              ? "The report explains why and carries the earlier assessment in full."
+              : "Its earlier assessment and market intelligence stand as its report."}
           </p>
         ) : (
           <p className="text-muted-foreground text-sm">
@@ -147,7 +147,7 @@ function ReportCard({ entry }: { entry: ReportIndexEntry }) {
         )}
 
         <Link
-          to={research ? `/reports/${research}` : programReportPath(entry.code)}
+          to={programReportPath(entry.code)}
           className={`flex items-center justify-center gap-1.5 rounded-lg border py-2.5 text-xs font-semibold transition-colors ${
             current
               ? "bg-secondary/10 hover:bg-secondary/20 border-secondary/40 text-foreground"

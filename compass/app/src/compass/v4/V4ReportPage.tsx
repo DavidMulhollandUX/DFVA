@@ -39,6 +39,7 @@ import {
 } from "./exposureBasis";
 import { Cite, HowThisRubricWorksDialog } from "./HowThisRubricWorksDialog";
 import { PROGRAMS } from "../sharedProgramData";
+import { getFaculty } from "../faculty";
 import {
   V4_QUADRANT_LABELS as QUADRANT_LABELS,
   v4Quadrant,
@@ -478,6 +479,193 @@ function V4MiniMatrix({
   );
 }
 
+/** Section routing for the research-degree body. Its four sections map onto the
+ *  same three parts every other Durability Report uses, so a reader moving
+ *  between a scored program and a research degree meets one layout, not two. */
+const V4R_FINDING = (t: string) => /NO v4 SCORE|CARRIED FORWARD/i.test(t);
+const V4R_MARKET = (t: string) => /^MARKET EVIDENCE/i.test(t);
+const V4R_LIMITS = (t: string) => /^LIMITATIONS/i.test(t);
+
+/**
+ * A research degree rendered in the v4 report format.
+ *
+ * It carries no Durability Rating and never will — a research degree is
+ * examined on an original contribution rather than a taught curriculum, and no
+ * destination distribution resolves for one. The page therefore has no score
+ * panel, no matrix and no gates. Everything else is the v4 layout: the same
+ * hero, the same Part A / B / C spine, the same cards. The body is the v4r
+ * report, whose content is carried from the retired v1 instrument.
+ */
+function V4ResearchReport({
+  code,
+  name,
+  faculty,
+  v1,
+}: {
+  code: string;
+  name: string;
+  faculty: string;
+  v1: (typeof PROGRAMS)[number] | undefined;
+}) {
+  return (
+    <InsightsGate>
+      <div className="mx-auto max-w-5xl px-4 py-10">
+        {/* Hero */}
+        <div className="mb-8">
+          <p className="text-muted-foreground mb-2 text-xs font-semibold tracking-[0.18em] uppercase">
+            Durability Assessment · Panel C {V4_INSTRUMENT}
+          </p>
+          <h1 className="text-foreground font-serif text-4xl tracking-tight">
+            {name}
+          </h1>
+          <p className="text-muted-foreground mt-2 font-mono text-sm uppercase">
+            {code.toUpperCase()} · University of Melbourne
+            {faculty ? ` · ${faculty}` : ""}
+          </p>
+          <nav className="text-muted-foreground mt-5 flex flex-wrap gap-x-6 gap-y-1 text-sm">
+            <span className="text-foreground font-medium">In this report:</span>
+            <a href="#finding" className="underline">
+              Part A — The finding
+            </a>
+            <a href="#market" className="underline">
+              Part B — Market evidence
+            </a>
+            <a href="#method" className="underline">
+              Part C — Method &amp; limitations
+            </a>
+          </nav>
+        </div>
+
+        {/* ================= PART A — THE FINDING ================= */}
+        <PartHeading id="finding" part="Part A" title="The finding" />
+
+        <Card className="mb-6">
+          <CardContent className="pt-6">
+            <div
+              className="bg-card-accent text-muted-foreground mb-5 flex items-start gap-2 rounded-md p-3 text-sm"
+              data-testid="v4-research-notice"
+            >
+              <span className="text-foreground text-xs font-semibold tracking-wide uppercase">
+                No rating
+              </span>
+              <span>
+                Research degrees are examined on an original contribution rather
+                than a taught curriculum, and no graduate destination data is
+                published for them, so a Durability Rating does not apply to
+                this program. Part A sets out both reasons in full. The
+                assessment that follows is carried from an earlier instrument
+                and is narrative only — it produces no score, and none should be
+                read into it.
+              </span>
+            </div>
+            <div className="grid gap-4 sm:grid-cols-3">
+              <div>
+                <CardLabel>Exposure</CardLabel>
+                <p className="text-foreground font-mono text-2xl">—</p>
+                <p className="text-muted-foreground text-xs">
+                  no destination basis
+                </p>
+              </div>
+              <div>
+                <CardLabel>Adaptiveness</CardLabel>
+                <p className="text-foreground font-mono text-2xl">—</p>
+                <p className="text-muted-foreground text-xs">
+                  no taught curriculum to score
+                </p>
+              </div>
+              <div>
+                <CardLabel>Position</CardLabel>
+                <p className="text-foreground font-mono text-2xl">—</p>
+                <p className="text-muted-foreground text-xs">needs both axes</p>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+
+        <ReportMarkdownCard
+          slug={`dfva-v4r-${code}`}
+          label="Research degree · v4 era"
+          title="Why this program carries no rating"
+          subtitle="The two independent reasons, and the earlier assessment carried forward as narrative"
+          sectionFilter={V4R_FINDING}
+        />
+
+        {/* ================= PART B — MARKET EVIDENCE ================= */}
+        <PartHeading id="market" part="Part B" title="Market evidence" />
+        <p className="text-muted-foreground mb-5 text-sm">
+          The market evidence is independent of the scoring instrument, so it
+          stands for this program whether or not a rating applies. No
+          improvement plan follows it: an improvement plan is derived from a
+          curriculum score, and there is none here.
+        </p>
+        <ReportMarkdownCard
+          slug={`dfva-v4r-${code}`}
+          label="Provenance"
+          title="How this market evidence was sourced"
+          subtitle="What the market report below rests on, and what it does not"
+          sectionFilter={V4R_MARKET}
+        />
+        <ReportMarkdownCard
+          slug={`dfva-market-${code}`}
+          label="Market Intelligence"
+          title="Labour-Market Intelligence"
+          subtitle="Job families, hiring signals, and skill shifts for this program's destinations — confidence level stated per section"
+        />
+
+        {/* ================= PART C — METHOD & LIMITATIONS ================= */}
+        <PartHeading id="method" part="Part C" title="Method & limitations" />
+        <ReportMarkdownCard
+          slug={`dfva-v4r-${code}`}
+          label="Limitations"
+          title="What this report does not establish"
+          subtitle="Stated bounds on the reading above"
+          sectionFilter={V4R_LIMITS}
+        />
+        {v1 && (
+          <Card className="mt-6">
+            <CardContent className="pt-6">
+              <CardLabel>Earlier instrument</CardLabel>
+              <CardTitle className="text-lg">Archived assessment</CardTitle>
+              <p className="text-muted-foreground mt-1 mb-4 text-sm">
+                The retired v1 assessment this report draws its narrative from,
+                kept for reference. Its composite score and dimension ratings
+                were produced by a different instrument measuring a different
+                construct, and do not carry over.
+              </p>
+              <div className="flex flex-wrap gap-4 text-sm">
+                <Link
+                  to={`/reports/${v1.assessmentSlug}`}
+                  className="text-secondary-muted-foreground underline"
+                  data-testid="archived-v1-link"
+                >
+                  Archived v1 assessment
+                </Link>
+                {v1.recommendSlug && (
+                  <Link
+                    to={`/reports/${v1.recommendSlug}`}
+                    className="text-secondary-muted-foreground underline"
+                  >
+                    Archived v1 improvement plan
+                  </Link>
+                )}
+              </div>
+            </CardContent>
+          </Card>
+        )}
+
+        <div className="mt-10">
+          <Link
+            to="/reports"
+            className="text-secondary-muted-foreground underline"
+          >
+            Back to all reports
+          </Link>
+        </div>
+      </div>
+    </InsightsGate>
+  );
+}
+
 export default function V4ReportPage({ code: codeProp }: { code?: string }) {
   const { code: paramCode } = useParams<{ code: string }>();
   const code = codeProp ?? paramCode;
@@ -501,6 +689,23 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
         }
       : undefined;
 
+  // A research degree renders the whole v4 layout, minus the parts that need a
+  // score. It is not a "no report" state: the report exists and says why no
+  // rating applies.
+  if (
+    code &&
+    V4_RESEARCH_DEGREES.includes(code) &&
+    hasReportContent(`dfva-v4r-${code}`)
+  )
+    return (
+      <V4ResearchReport
+        code={code}
+        name={v1?.program ?? v3?.name ?? code}
+        faculty={v3?.faculty ?? (v1 ? getFaculty(v1.program) : "")}
+        v1={v1}
+      />
+    );
+
   if (!program || !panelC) {
     return (
       <div className="mx-auto max-w-2xl px-4 py-24 text-center">
@@ -513,30 +718,16 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
         {v1 ? (
           <>
             {code && V4_RESEARCH_DEGREES.includes(code) ? (
+              // Reached only by a research degree whose v4r report has not been
+              // authored yet; the 14 that have one render the full layout above.
               <p
                 className="text-muted-foreground mb-6"
                 data-testid="v4-research-notice"
               >
-                Panel C v4 scores taught curriculum structure, which this
-                research degree does not carry, and Panel A resolves to no
-                destination basis for it, so no v4 score of any kind applies.
-                {hasReportContent(`dfva-v4r-${code}`) ? (
-                  <>
-                    {" "}
-                    The{" "}
-                    <Link
-                      to={`/reports/dfva-v4r-${code}`}
-                      className="underline"
-                      data-testid="v4r-report-link"
-                    >
-                      research degree report
-                    </Link>{" "}
-                    sets out why, and carries the earlier assessment as
-                    narrative.
-                  </>
-                ) : (
-                  " Its earlier assessment and market intelligence stand as its report."
-                )}
+                Research degrees are examined on an original contribution rather
+                than a taught curriculum, and no graduate destination data is
+                published for them, so a Durability Rating does not apply. Its
+                earlier assessment and market intelligence stand as its report.
               </p>
             ) : (
               <p
