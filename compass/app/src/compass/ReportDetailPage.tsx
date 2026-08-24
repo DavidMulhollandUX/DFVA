@@ -49,6 +49,7 @@ import { generateMockSyllabus } from "./mockSyllabusData";
 import { RUBRIC, Dimension } from "./data/rubric";
 import type { DimensionEvidence } from "./data/dimensionEvidence";
 import { getFieldForCourse } from "./marketData";
+import { assessmentSlugFor, parseSlug } from "./reportLinks";
 
 // Lazy chunks: CurriculumMap drags in reactflow/dagre/d3/lodash (~180kB min)
 // and is only rendered on the Curriculum tab; the generated evidence map is
@@ -1207,17 +1208,6 @@ function renderMarkdownAsPanels(markdown: string) {
   );
 }
 
-function parseSlug(slug: string): {
-  code: string;
-  type: "assessment" | "market" | "recommend";
-} {
-  if (slug.startsWith("dfva-recommend-"))
-    return { code: slug.slice("dfva-recommend-".length), type: "recommend" };
-  if (slug.startsWith("dfva-market-"))
-    return { code: slug.slice("dfva-market-".length), type: "market" };
-  return { code: slug.slice("dfva-".length), type: "assessment" };
-}
-
 // Report bodies are code-split per slug (see ./reportContent/index). This
 // wrapper fetches the three sibling variants for the program code, and only
 // mounts the (hook-heavy) view once they're loaded — the view can then treat
@@ -1225,10 +1215,10 @@ function parseSlug(slug: string): {
 export default function ReportDetailPage() {
   const { reportSlug } = useParams<{ reportSlug: string }>();
 
-  const { code } = useMemo(() => {
+  const { code, family } = useMemo(() => {
     return reportSlug
       ? parseSlug(reportSlug)
-      : { code: "", type: "assessment" as const };
+      : { code: "", type: "assessment" as const, family: "v1" as const };
   }, [reportSlug]);
 
   const [contentBySlug, setContentBySlug] = useState<
@@ -1239,7 +1229,7 @@ export default function ReportDetailPage() {
     let alive = true;
     setContentReady(false);
     const slugs = [
-      "dfva-" + code,
+      assessmentSlugFor({ code, family }),
       "dfva-market-" + code,
       "dfva-recommend-" + code,
     ];
@@ -1256,7 +1246,7 @@ export default function ReportDetailPage() {
     return () => {
       alive = false;
     };
-  }, [code]);
+  }, [code, family]);
 
   const report = reportSlug ? contentBySlug[reportSlug] : undefined;
 
@@ -1308,19 +1298,23 @@ function ReportDetailView({
   const updateInterventionAction = useAction(updateCourseIntervention);
 
   // 1. Navigation routing & fallbacks
-  const { code, type: currentType } = useMemo(() => {
+  const {
+    code,
+    type: currentType,
+    family,
+  } = useMemo(() => {
     return reportSlug
       ? parseSlug(reportSlug)
-      : { code: "", type: "assessment" as const };
+      : { code: "", type: "assessment" as const, family: "v1" as const };
   }, [reportSlug]);
 
   const slugsByType = useMemo(
     () => ({
-      assessment: "dfva-" + code,
+      assessment: assessmentSlugFor({ code, family }),
       market: "dfva-market-" + code,
       recommend: "dfva-recommend-" + code,
     }),
-    [code],
+    [code, family],
   );
 
   const program = useMemo(() => {
@@ -1437,10 +1431,16 @@ function ReportDetailView({
   // v4 reports carry the draft Panel C v4 instrument: no v1 composite exists
   // for them, so the hero score is suppressed rather than defaulted.
   const isV4Report = slugsByType.assessment.startsWith("dfva-v4-");
+  // A research degree carries no v4 score, and its v1 composite is withheld on
+  // purpose: a number beside an unscored program invites the comparison the
+  // report exists to rule out. Without this the hero fell through to the
+  // literal 20 / 36 default, because no PROGRAMS row matches a v4r slug.
+  const isV4rReport = family === "v4r";
   const scoreText: string | null =
     simulatedScore !== null
       ? `${simulatedScore} / 36`
-      : meta?.score ?? (isV4Report ? null : `${program?.score ?? 20} / 36`);
+      : meta?.score ??
+        (isV4Report || isV4rReport ? null : `${program?.score ?? 20} / 36`);
 
   // 7. Form submission: Update intervention assignment
   async function handleAssignOwner(e: React.FormEvent<HTMLFormElement>) {
@@ -1666,7 +1666,25 @@ function ReportDetailView({
           <ArrowLeft className="h-4 w-4" />
           All reports
         </Link>
-        {!isV4Report && (
+        {isV4rReport ? (
+          <div
+            className="bg-card-accent text-muted-foreground mb-4 flex flex-wrap items-center gap-2 rounded-md px-3 py-2 text-sm"
+            data-testid="research-degree-report-banner"
+          >
+            <span className="text-foreground text-xs font-semibold tracking-wide uppercase">
+              Research degree
+            </span>
+            <span>
+              This program carries no v4 score. Section 1 sets out why; the
+              assessment below is carried from the retired v1 instrument as
+              narrative only.{" "}
+              <Link to={`/reports/${code}`} className="underline">
+                Program page
+              </Link>
+              .
+            </span>
+          </div>
+        ) : !isV4Report ? (
           <div
             className="bg-card-accent text-muted-foreground mb-4 flex flex-wrap items-center gap-2 rounded-md px-3 py-2 text-sm"
             data-testid="archived-report-banner"
@@ -1683,7 +1701,7 @@ function ReportDetailView({
               .
             </span>
           </div>
-        )}
+        ) : null}
         <div className="flex flex-wrap items-start justify-between gap-4">
           <div>
             <div className="flex items-center gap-2">
@@ -1699,9 +1717,11 @@ function ReportDetailView({
             <p className="text-muted-foreground mt-1">
               {report.institution} ·{" "}
               {program?.level ||
-                (isV4Report
-                  ? "Panel C v4 (draft instrument)"
-                  : "Undergraduate")}
+                (isV4rReport
+                  ? "Graduate research · no v4 score"
+                  : isV4Report
+                    ? "Panel C v4 (draft instrument)"
+                    : "Undergraduate")}
             </p>
           </div>
           <div className="flex items-center gap-3">
@@ -1754,23 +1774,31 @@ function ReportDetailView({
               label: "Redesign Workspace",
               icon: ClipboardList,
             },
-          ].map((tab) => {
-            const isActive = activeTab === tab.id;
-            return (
-              <button
-                key={tab.id}
-                onClick={() => setActiveTab(tab.id)}
-                className={`flex items-center gap-2 border-b-2 px-5 py-3 text-sm font-semibold transition-all outline-none ${
-                  isActive
-                    ? "border-primary text-primary bg-muted/10 font-bold"
-                    : "text-muted-foreground hover:text-foreground hover:border-border border-transparent"
-                }`}
-              >
-                <tab.icon className="h-4 w-4" />
-                {tab.label}
-              </button>
-            );
-          })}
+          ]
+            // Panel C has no taught curriculum to map or redesign for a
+            // research degree, so those two workspaces are dropped rather
+            // than opened onto mock syllabus data.
+            .filter(
+              (tab) =>
+                !isV4rReport || (tab.id !== "map" && tab.id !== "redesign"),
+            )
+            .map((tab) => {
+              const isActive = activeTab === tab.id;
+              return (
+                <button
+                  key={tab.id}
+                  onClick={() => setActiveTab(tab.id)}
+                  className={`flex items-center gap-2 border-b-2 px-5 py-3 text-sm font-semibold transition-all outline-none ${
+                    isActive
+                      ? "border-primary text-primary bg-muted/10 font-bold"
+                      : "text-muted-foreground hover:text-foreground hover:border-border border-transparent"
+                  }`}
+                >
+                  <tab.icon className="h-4 w-4" />
+                  {tab.label}
+                </button>
+              );
+            })}
         </div>
       </div>
 
