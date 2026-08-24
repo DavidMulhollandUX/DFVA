@@ -1,13 +1,13 @@
 {
-  "timestamp_utc": "2026-08-23T12:17:03Z",
-  "timestamp_local": "2026-08-23 22:17:03",
-  "action": "idle",
-  "attempted": 0,
-  "saved": 0,
+  "timestamp_utc": "2026-08-24T02:35:14Z",
+  "timestamp_local": "2026-08-24 12:35:14",
+  "action": "capture",
+  "attempted": 14,
+  "saved": 14,
   "failed": 0,
   "assembled": [],
   "reason": "",
   "minutes_remaining": 0,
-  "details": "All target pages in flight or complete",
-  "queue_summary": "57 program(s) prioritised — 23 still to assemble"
+  "details": "Batch finished: 14 saved, 0 failed. Latest: mc-evalo/subj-mult90005-assessment (1017 chars).",
+  "queue_summary": "57 program(s) prioritised — 0 still to assemble"
 }
