@@ -714,11 +714,18 @@ async function appPanelCModule(): Promise<string> {
     ' *  overwritten: which anchor clause failed on scrutiny is response-process\n' +
     ' *  evidence, and the IRR study reads it. */\n' +
     'export interface V4Adjudication {\n  originalScore: number;\n  demotedTo?: number;\n  promotedTo?: number;\n  reason: string;\n}\n\n' +
-    'export interface V4ItemResult {\n  score: number;\n  rationale: string;\n  evidenceLines: string[];\n  adjudication?: V4Adjudication;\n}\n\n' +
-    'export interface V4GateResult {\n  result: "PASS" | "FAIL";\n  rationale: string;\n  evidenceLines: string[];\n}\n\n' +
+    '/** `evidenceLines` is optional for the same reason as on a gate: a record can\n' +
+    ' *  carry none, and absent is not empty. The report names the omission on the\n' +
+    ' *  page — an uncited score stays visible as uncited. */\n' +
+    'export interface V4ItemResult {\n  score: number;\n  rationale: string;\n  evidenceLines?: string[];\n  adjudication?: V4Adjudication;\n}\n\n' +
+    '/** `evidenceLines` is optional because a gate record can carry none. Absent\n' +
+    ' *  is not the same as empty: the report says so on the page rather than\n' +
+    ' *  rendering a silent gap, so a precondition decided without verbatim\n' +
+    ' *  handbook lines is visible as such. */\n' +
+    'export interface V4GateResult {\n  result: "PASS" | "FAIL";\n  rationale: string;\n  evidenceLines?: string[];\n}\n\n' +
     '/** W1–W3 and `workplace` are optional: programs scored before v4.1 carry\n' +
     ' *  only the adaptive sub-scale and must be re-scored, not back-filled. */\n' +
-    'export interface V4PanelC {\n  instrument: string;\n  C1: V4ItemResult;\n  C2: V4ItemResult;\n  C3: V4ItemResult;\n  C4: V4ItemResult;\n  C5: V4ItemResult;\n  adaptiveness: number;\n  W1?: V4ItemResult;\n  W2?: V4ItemResult;\n  W3?: V4ItemResult;\n  workplace?: number;\n  gates: { G1: V4GateResult; G2: V4GateResult };\n  ambiguities: string[];\n  notScoreable: string[];\n  verified?: { adversarial: boolean; mechanical: boolean; date: string };\n}\n\n' +
+    'export interface V4PanelC {\n  instrument: string;\n  C1: V4ItemResult;\n  C2: V4ItemResult;\n  C3: V4ItemResult;\n  C4: V4ItemResult;\n  C5: V4ItemResult;\n  adaptiveness: number;\n  W1?: V4ItemResult;\n  W2?: V4ItemResult;\n  W3?: V4ItemResult;\n  workplace?: number;\n  gates: { G1: V4GateResult; G2: V4GateResult };\n  ambiguities: string[];\n  /** Optional: a record that lists no coverage limits omits the key rather than\n   *  asserting the empty list, which would read as \"nothing was unscoreable\". */\n  notScoreable?: string[];\n  verified?: { adversarial: boolean; mechanical: boolean; date: string };\n}\n\n' +
     '/** Migration-cycle status. `adaptMedian` is null until every reference-cohort\n' +
     ' *  program is scored on v4; position labels stay withheld while it is null. */\n' +
     'export interface V4Meta {\n  cohortSize: number;\n  scored: number;\n  workplaceScored: number;\n  workplaceComplete: boolean;\n  complete: boolean;\n  adaptMedian: number | null;\n  /** Program-grain exposure median (alumni-title basis). */\n  expMedian: number;\n  /** Field-grain exposure median (JSA HEO basis) over the same reference cohort; null until every reference program has a field. Field-tier programs are placed against this, never against expMedian. */\n  expMedianField: number | null;\n  panelABasisVersion: string;\n  pending: string[];\n}\n\n' +

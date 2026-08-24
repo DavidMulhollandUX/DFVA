@@ -18,6 +18,7 @@ import {
   V4_REFERENCES,
   V4_RUBRIC,
   V4_WORKPLACE_MAX,
+  type V4RubricGate,
   type V4RubricItem,
 } from "./data/v4Rubric";
 import {
@@ -27,6 +28,7 @@ import {
   v4OnlyProgramByCode,
   v4PanelABasisByCode,
   v4PanelCByCode,
+  type V4GateResult,
   type V4ItemResult,
   type V4PanelABasis,
   type V4PanelC,
@@ -38,6 +40,7 @@ import {
   isOwnRecord,
 } from "./exposureBasis";
 import { Cite, HowThisRubricWorksDialog } from "./HowThisRubricWorksDialog";
+import { gateState, gateSummary, joinList, lowerFirst } from "./gateState";
 import { PROGRAMS } from "../sharedProgramData";
 import { getFaculty } from "../faculty";
 import {
@@ -62,32 +65,6 @@ const scoredItems = (
     item,
     score: (r[item.id as keyof V4PanelC] as V4ItemResult).score,
   }));
-
-/** "Digital & AI literacy" → "digital & AI literacy" — only the first character,
- * so an acronym inside the name survives. */
-const lowerFirst = (s: string): string =>
-  s.charAt(0).toLowerCase() + s.slice(1);
-
-const joinList = (parts: string[]): string =>
-  parts.length <= 1
-    ? parts[0] ?? ""
-    : `${parts.slice(0, -1).join(", ")} and ${parts[parts.length - 1]}`;
-
-/**
- * The gate clause of the finding sentence. This used to read "with both gates
- * passed" as a literal, which was true of the pilot program and false the first
- * time a program with a failing gate reached the page.
- */
-function gateSummary(r: V4PanelC): string {
-  const failed = V4_GATES.filter(
-    (g) => r.gates[g.id as "G1" | "G2"].result === "FAIL",
-  );
-  if (failed.length === 0) return "every gate passed";
-  if (failed.length === V4_GATES.length) return "no gate passed";
-  return `${joinList(
-    failed.map((g) => `${g.id} (${g.name.toLowerCase()})`),
-  )} not passed`;
-}
 
 /** What the curriculum documents — named from the items that actually scored. */
 function strengthSummary(r: V4PanelC): string {
@@ -261,16 +238,152 @@ function RatedV4Item({
         <p className="text-muted-foreground mt-3 mb-1 text-[10px] font-semibold tracking-[0.18em] uppercase">
           Handbook evidence (verbatim)
         </p>
-        <ul className="flex flex-col gap-1">
-          {result.evidenceLines.map((line) => (
+        {result.evidenceLines?.length ? (
+          <ul className="flex flex-col gap-1">
+            {result.evidenceLines.map((line) => (
+              <li
+                key={line}
+                className="border-secondary text-muted-foreground border-l-2 pl-2 text-sm italic"
+              >
+                “{line}”
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p className="text-muted-foreground text-sm">
+            This record cites no verbatim handbook line for the item. The
+            instrument requires one at every level, so the score above rests on
+            the reasoning alone and should be read as uncited.
+          </p>
+        )}
+      </div>
+    </details>
+  );
+}
+
+/** One gate as an expandable row. Gates used to render as a bare pill reading
+ * "G1 Disciplinary foundation ✓", which named an internal identifier and left a
+ * tick mark to carry the whole meaning — a reader had no way to learn what was
+ * tested, what the result decides, or why it landed that way (the rationale sat
+ * in a title attribute, invisible on touch devices). The identifier is now a
+ * small notation and the row states the outcome in words, with the condition
+ * and the rater's reasoning underneath. */
+function GateResult({
+  gate,
+  result,
+}: {
+  gate: V4RubricGate;
+  result: V4GateResult | undefined;
+}) {
+  const state = gateState(result);
+  const met = state === "met";
+  const chip =
+    state === "met"
+      ? { text: "✓ Met", tone: "text-band-resilient bg-[#E8F5EE]" }
+      : state === "not-met"
+        ? { text: "✗ Not met", tone: "text-band-critical bg-[#FDE8E8]" }
+        : { text: "— Not recorded", tone: "text-muted-foreground bg-muted" };
+  const line =
+    state === "met"
+      ? "The curriculum documents what this precondition requires, so the scores above rest on it"
+      : state === "not-met"
+        ? "The curriculum does not document what this precondition requires, which flags the program whatever it scores"
+        : "This program's record carries no readable result for this precondition";
+  return (
+    <details className="group flex-1" data-testid={`gate-${gate.id}`}>
+      <summary className="border-border hover:bg-card-accent flex cursor-pointer list-none items-center gap-3 rounded-lg border p-3 [&::-webkit-details-marker]:hidden">
+        <span
+          aria-hidden="true"
+          className="text-muted-foreground shrink-0 text-xs transition-transform group-open:rotate-90"
+        >
+          ▶
+        </span>
+        <span className="min-w-0 flex-1">
+          <span className="text-foreground block text-sm font-medium">
+            {gate.name}
+          </span>
+          <span className="text-muted-foreground block text-xs">{line}</span>
+        </span>
+        <span
+          className={`shrink-0 rounded-full px-3 py-1 text-xs font-semibold tracking-[0.14em] uppercase ${chip.tone}`}
+        >
+          {chip.text}
+        </span>
+        <span className="text-muted-foreground shrink-0 font-mono text-[10px]">
+          {gate.id}
+        </span>
+      </summary>
+      <div className="bg-card-accent mt-2 mb-1 ml-5 rounded-md p-3">
+        <p className="text-muted-foreground mb-1 text-[10px] font-semibold tracking-[0.18em] uppercase">
+          What this precondition tests
+        </p>
+        <p className="text-muted-foreground text-xs italic">{gate.construct}</p>
+        <p className="text-muted-foreground mt-3 mb-1.5 text-[10px] font-semibold tracking-[0.18em] uppercase">
+          How it is decided
+        </p>
+        <ul className="flex flex-col gap-1.5">
+          {[
+            { label: "Met", text: gate.pass, applies: state === "met" },
+            { label: "Not met", text: gate.fail, applies: state === "not-met" },
+          ].map((condition) => (
             <li
-              key={line}
-              className="border-secondary text-muted-foreground border-l-2 pl-2 text-sm italic"
+              key={condition.label}
+              className={`flex items-start gap-2 rounded-md p-1.5 text-sm ${
+                condition.applies
+                  ? "bg-background border-secondary border-l-2 font-medium"
+                  : "text-muted-foreground"
+              }`}
             >
-              “{line}”
+              <span
+                className={`mt-0.5 shrink-0 rounded-full px-2 py-0.5 text-[10px] font-semibold tracking-[0.14em] uppercase ${
+                  condition.applies
+                    ? "bg-secondary/20 text-foreground"
+                    : "bg-muted"
+                }`}
+              >
+                {condition.label}
+              </span>
+              <span className="min-w-0">
+                {condition.text}
+                {condition.applies && (
+                  <span className="text-secondary-muted-foreground ml-1.5 text-xs font-semibold whitespace-nowrap">
+                    ← this program
+                  </span>
+                )}
+              </span>
             </li>
           ))}
         </ul>
+        <p className="text-muted-foreground mt-3 mb-1 text-[10px] font-semibold tracking-[0.18em] uppercase">
+          {state === "unrecorded"
+            ? "What the record says"
+            : `Why this program was recorded as ${met ? "met" : "not met"}`}
+        </p>
+        <p className="text-foreground text-sm leading-relaxed">
+          {result?.rationale ??
+            "The rater's reasoning for this precondition is not present in this program's record."}
+        </p>
+        <p className="text-muted-foreground mt-3 mb-1 text-[10px] font-semibold tracking-[0.18em] uppercase">
+          Handbook evidence (verbatim)
+        </p>
+        {result?.evidenceLines?.length ? (
+          <ul className="flex flex-col gap-1">
+            {result.evidenceLines.map((evidence) => (
+              <li
+                key={evidence}
+                className="border-secondary text-muted-foreground border-l-2 pl-2 text-sm italic"
+              >
+                “{evidence}”
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p className="text-muted-foreground text-sm">
+            This record cites no verbatim handbook line for the precondition —
+            the reasoning above is all it carries. The scored items are cited
+            line by line; this one is not.
+          </p>
+        )}
       </div>
     </details>
   );
@@ -1286,32 +1399,38 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
                 </p>
               )}
             </div>
-            <div className="mt-4 flex flex-wrap gap-3">
-              {V4_GATES.map((gate) => {
-                const result = panelC.gates[gate.id as "G1" | "G2"].result;
-                return (
-                  <span
+            <div className="border-border mt-6 border-t pt-4">
+              <CardLabel>Preconditions</CardLabel>
+              <p className="text-muted-foreground mb-3 text-sm">
+                The conditions below sit beneath the scored items and are
+                recorded as met or not met rather than scored, so they add
+                nothing to the totals and subtract nothing from them. They say
+                whether the foundation the scores rest on is documented at all.
+                A precondition that is not met flags the program whatever its
+                adaptiveness total, because a capability score is evidence of
+                adaptiveness only where that foundation holds. Open a row for
+                what the condition tests, the wording it was decided against,
+                and why this program was recorded that way.
+              </p>
+              <div className="flex flex-col gap-3 sm:flex-row">
+                {V4_GATES.map((gate) => (
+                  <GateResult
                     key={gate.id}
-                    title={panelC.gates[gate.id as "G1" | "G2"].rationale}
-                    className={`rounded-full px-4 py-1.5 text-xs font-semibold tracking-[0.18em] uppercase ${
-                      result === "PASS"
-                        ? "text-band-resilient bg-[#E8F5EE]"
-                        : "text-band-critical bg-[#FDE8E8]"
-                    }`}
-                  >
-                    {gate.id} {gate.name} {result === "PASS" ? "✓" : "✗"}
-                  </span>
-                );
-              })}
+                    gate={gate}
+                    result={panelC.gates?.[gate.id as "G1" | "G2"]}
+                  />
+                ))}
+              </div>
+              <p className="text-muted-foreground mt-3 text-xs">
+                Disciplinary foundation is a precondition because the TEQSA
+                framework places deep disciplinary knowledge beneath the four
+                capabilities rather than among them
+                <Cite refs={[1]} />. Decision-making under uncertainty was a
+                scored item in earlier versions and became a floor once most
+                programs cleared it. The Irreplaceability item used in v3.1 has
+                been removed in v4.
+              </p>
             </div>
-            <p className="text-muted-foreground mt-3 text-xs">
-              The gates record preconditions rather than adaptiveness: G1 covers
-              disciplinary depth, which the TEQSA framework places beneath the
-              capabilities rather than among them
-              <Cite refs={[1]} />, and G2 covers decision-making under
-              uncertainty. The Irreplaceability item used in v3.1 has been
-              removed in v4.
-            </p>
           </CardContent>
         </Card>
 
@@ -1458,7 +1577,7 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
                     {a}
                   </li>
                 ))}
-                {panelC.notScoreable.map((n) => (
+                {(panelC.notScoreable ?? []).map((n) => (
                   <li key={n} className="border-border border-l-2 pl-3">
                     <span className="text-foreground text-xs font-semibold uppercase">
                       Not in extract:
