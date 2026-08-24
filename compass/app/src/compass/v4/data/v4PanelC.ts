@@ -11,17 +11,24 @@ export interface V4Adjudication {
   reason: string;
 }
 
+/** `evidenceLines` is optional for the same reason as on a gate: a record can
+ *  carry none, and absent is not empty. The report names the omission on the
+ *  page — an uncited score stays visible as uncited. */
 export interface V4ItemResult {
   score: number;
   rationale: string;
-  evidenceLines: string[];
+  evidenceLines?: string[];
   adjudication?: V4Adjudication;
 }
 
+/** `evidenceLines` is optional because a gate record can carry none. Absent
+ *  is not the same as empty: the report says so on the page rather than
+ *  rendering a silent gap, so a precondition decided without verbatim
+ *  handbook lines is visible as such. */
 export interface V4GateResult {
   result: "PASS" | "FAIL";
   rationale: string;
-  evidenceLines: string[];
+  evidenceLines?: string[];
 }
 
 /** W1–W3 and `workplace` are optional: programs scored before v4.1 carry
@@ -40,7 +47,9 @@ export interface V4PanelC {
   workplace?: number;
   gates: { G1: V4GateResult; G2: V4GateResult };
   ambiguities: string[];
-  notScoreable: string[];
+  /** Optional: a record that lists no coverage limits omits the key rather than
+   *  asserting the empty list, which would read as "nothing was unscoreable". */
+  notScoreable?: string[];
   verified?: { adversarial: boolean; mechanical: boolean; date: string };
 }
 
