@@ -4139,3 +4139,27 @@
   Details: Batch finished: 14 saved, 0 failed. Latest: mc-evalo/subj-mult90005-assessment (1017 chars).
   Queue: 57 program(s) prioritised — 0 still to assemble
 ------------------------------------------------------------
+[2026-08-25 22:53:55] ACTION=CAPTURE attempted=2 saved=2 failed=0
+  Details: Batch finished: 2 saved, 0 failed. Latest: mc-evalo/subj-educ90719 (1808 chars).
+  Queue: 57 program(s) prioritised — 1 still to assemble
+------------------------------------------------------------
+[2026-08-26 00:09:59] ACTION=CAPTURE attempted=2 saved=2 failed=0
+  Details: Batch finished: 2 saved, 0 failed. Latest: mc-evalo/subj-mast90078 (1984 chars).
+  Queue: 57 program(s) prioritised — 1 still to assemble
+------------------------------------------------------------
+[2026-08-26 00:14:16] ACTION=CAPTURE attempted=2 saved=2 failed=0
+  Details: Batch finished: 2 saved, 0 failed. Latest: 274ab/subj-crim90008 (2742 chars).
+  Queue: 57 program(s) prioritised — 1 still to assemble
+------------------------------------------------------------
+[2026-08-26 00:18:52] ACTION=CAPTURE attempted=2 saved=2 failed=0
+  Details: Batch finished: 2 saved, 0 failed. Latest: 274ab/subj-crim90010 (2310 chars).
+  Queue: 57 program(s) prioritised — 1 still to assemble
+------------------------------------------------------------
+[2026-08-26 06:46:47] ACTION=CAPTURE attempted=2 saved=2 failed=0
+  Details: Batch finished: 2 saved, 0 failed. Latest: 274ab/subj-asia90001 (4476 chars).
+  Queue: 57 program(s) prioritised — 1 still to assemble
+------------------------------------------------------------
+[2026-08-26 07:11:49] ACTION=CAPTURE attempted=2 saved=2 failed=0
+  Details: Batch finished: 2 saved, 0 failed. Latest: 274ab/subj-crim90009 (2458 chars).
+  Queue: 57 program(s) prioritised — 1 still to assemble
+------------------------------------------------------------
