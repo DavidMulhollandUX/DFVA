@@ -493,7 +493,7 @@
     "43-9061": "pending",
     "43-9081": "pending",
     "43-9111": "pending",
-    "45-1011": "in_progress",
+    "45-1011": "done",
     "45-2011": "in_progress",
     "45-2091": "in_progress",
     "45-2093": "pending",
@@ -508,13 +508,9 @@
   },
   "attempts": {
     "11-1011": 1,
-    "45-1011": 1
+    "45-1011": 2
   },
   "leases": {
-    "45-1011": {
-      "worker": "autoloop",
-      "claimed_at": "2026-08-25T21:10:11.916463+00:00"
-    },
     "45-2011": {
       "worker": "autoloop",
       "claimed_at": "2026-08-25T21:10:11.976367+00:00"
@@ -536,6 +532,12 @@
       "soc": "45-1011",
       "status": "retry",
       "note": "stale lease cleared after TERMINAL_CWD lock-timeout failure"
+    },
+    {
+      "at": "2026-08-25T21:28:25.949730+00:00",
+      "soc": "45-1011",
+      "status": "done",
+      "note": "commit 036c9ed; admitted 8; refuted 0; L5 corpus empty (15 items all off-population); Factiva omitted unattended"
     }
   ]
 }
