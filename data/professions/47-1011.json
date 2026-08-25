@@ -1,98 +1,108 @@
 {
-  "onet_soc_code": "47-1011",
-  "title": "First-Line Supervisors/Managers of Construction Trades and Extraction Workers",
-  "aliases": [
-    "Construction Supervisor"
-  ],
-  "anzsco": "220000",
-  "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
-  },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
-  "programs": [],
-  "claims": [
+ "onet_soc_code": "47-1011",
+ "title": "First-Line Supervisors/Managers of Construction Trades and Extraction Workers",
+ "aliases": ["Construction Supervisor"],
+ "anzsco": "220000",
+ "window": {"from": "2025-08-01", "to": "2026-08-26"},
+ "generated": "2026-08-26",
+ "expires": "2027-02-26",
+ "researchMethod": "empirical-five-lane-v1",
+ "programs": [],
+ "claims": [
+  {
+   "id": "c01",
+   "text": "Infrastructure Australia's 2025 Market Capacity Report (released 13 November 2025) estimates Australia's infrastructure workforce at 204,000 workers as at October 2025 against an estimated shortage of 141,000 workers needed to deliver the five-year Major Public Infrastructure Pipeline, a shortage projected to peak at about 300,000 in 2027, with the pipeline itself up 14% year on year to $242 billion.",
+   "lane": "L2",
+   "tier": "government-advisory-report-dated",
+   "sources": [
     {
-      "id": "47-1011-01",
-      "text": "National peak professional bodies and statutory regulators governing First-Line Supervisors/Managers of Construction Trades and Extraction Workers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for First-Line Supervisors/Managers of Construction Trades and Extraction Workers",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for First-Line Supervisors/Managers of Construction Trades and Extraction Workers",
-          "url": "https://www.psc.gov.au/standards/47-1011",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for First-Line Supervisors/Managers of Construction Trades and Extraction Workers"
-        }
-      ],
-      "scope": "Australian practitioners in First-Line Supervisors/Managers of Construction Trades and Extraction Workers across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "47-1011-02",
-      "text": "Automation of routine transactional and analytical tasks in First-Line Supervisors/Managers of Construction Trades and Extraction Workers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in First-Line Supervisors/Managers of Construction Trades and Extraction Workers",
-          "url": "https://www.jobsandskills.gov.au/research/47-1011",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across First-Line Supervisors/Managers of Construction Trades and Extraction Workers in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior First-Line Supervisors/Managers of Construction Trades and Extraction Workers roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
+     "publisher": "Infrastructure Australia",
+     "title": "2025 Infrastructure Market Capacity Report",
+     "url": "https://www.infrastructureaustralia.gov.au/reports/2025-infrastructure-market-capacity-report",
+     "date": "2025-11-13",
+     "whatItMeasured": "National audit of workforce, plant and materials capacity against the five-year Major Public Infrastructure Pipeline; workforce size and shortage estimates as at October 2025"
     }
+   ],
+   "scope": "Public infrastructure construction nationally, across occupational groups including trades workers and labourers. It measures sector-wide capacity pressure, not demand for first-line supervisors specifically, though sustained delivery pressure is where supervisory hiring concentrates.",
+   "disposition": "scoped",
+   "supersedes": null,
+   "bearing": [],
+   "refuted": false,
+   "refuteNotes": "Lens 1 (source real): Australian Government statutory advisory body, report page resolves HTTP 200 with release date 13 November 2025 and downloadable PDF; figures verified verbatim in captured text. Lens 2 (population fit): industry-wide population, wider than this occupation; scoped accordingly. Lens 3 (in window): October 2025 reference data, November 2025 release, inside window. No refuter overturned."
+  },
+  {
+   "id": "c02",
+   "text": "Construction industry employment in Australia stood at approximately 1,371,500 in the February 2026 quarter, per Jobs and Skills Australia's occupation and industry profile (data current as of March 2026), an all-time high for the series shown from 2008.",
+   "lane": "L2",
+   "tier": "government-statistical",
+   "sources": [
+    {
+     "publisher": "Jobs and Skills Australia",
+     "title": "Construction - Occupation and Industry Profiles",
+     "url": "https://www.jobsandskills.gov.au/data/occupation-and-industry-profiles/industries/construction",
+     "date": "2026-03-01",
+     "whatItMeasured": "Quarterly ABS Labour Force Survey-based employment estimate for the construction industry, February 2026 reference period"
+    }
+   ],
+   "scope": "The whole construction industry, not first-line supervisors specifically. JSA notes ABS has temporarily suspended publishing some LFS industry series during survey modernisation, so subsequent quarters may not be comparable.",
+   "disposition": "scoped",
+   "supersedes": null,
+   "bearing": [],
+   "refuted": false,
+   "refuteNotes": "Lens 1 (source real): Commonwealth statutory body profile page resolves HTTP 200 with stated currency date March 2026 and sourced data table. Lens 2 (population fit): industry-aggregate, wider than this occupation; scoped. Lens 3 (in window): February 2026 reference period, inside window. No refuter overturned."
+  },
+  {
+   "id": "c03",
+   "text": "Reuters reported on 12 August 2026 that Australian residential builders are at capacity limits while pursuing the National Housing Accord target of 1.2 million new homes by 2029, citing official data showing new dwelling commencements fell 11.2% in the first quarter of 2026 compared with the previous quarter, with builders unable to find workers.",
+   "lane": "L3",
+   "tier": "wire-service-dated",
+   "sources": [
+    {
+     "publisher": "Reuters",
+     "title": "Australia promised 1.2 million new homes, but builders are at their limits",
+     "url": "https://www.reuters.com/world/asia-pacific/australia-promised-12-million-new-homes-builders-are-their-limits-2026-08-12/",
+     "date": "2026-08-12",
+     "whatItMeasured": "Wire-service reporting combining ABS dwelling commencement statistics for Q1 2026 with firsthand builder accounts of worker scarcity"
+    }
+   ],
+   "scope": "Residential building nationally. Worker-scarcity anecdotes are attributed to individual builders, not a survey. Says nothing specific about supervisors versus trades, and nothing about AI or automation.",
+   "disposition": "scoped",
+   "supersedes": null,
+   "bearing": [],
+   "refuted": false,
+   "refuteNotes": "Lens 1 (source real): major wire service, URL carries dateline 2026-08-12, resolves HTTP 200. Lens 2 (population fit): residential building sector; relevant to this occupation because site supervision scales with active builds, but it is not occupation-specific evidence. Lens 3 (in window): August 2026, inside window. No refuter overturned."
+  }
+ ],
+ "jobAds": {
+  "source": "adzuna-au",
+  "query": "construction site supervisor",
+  "retrieved": "2026-08-26",
+  "count": 127,
+  "topEmployers": ["Enerven", "W3Global", "Indev", "Mellross Homes", "SEE Group", "PRC Building Services", "Weyn Constructions", "Nexta Homes"],
+  "topSkills": ["quality assurance", "commercial management", "residential building", "civil works", "safety/WHS", "white card"],
+  "notes": "Demand spread across civil infrastructure, residential and electrical infrastructure employers. No listing mentions AI skills."
+ },
+ "corpus": {
+  "platforms": [
+   {"name": "reddit", "scope": "r/Construction, r/ConstructionManagers", "items": 6},
+   {"name": "hackernews", "scope": "keyword sweep", "items": 20},
+   {"name": "youtube", "scope": "keyword sweep", "items": 1},
+   {"name": "github", "scope": "keyword sweep", "items": 12},
+   {"name": "grounding", "scope": "web sweep", "items": 0}
   ],
-  "jobAds": {
-    "source": "adzuna-au",
-    "query": "first-line supervisors/managers of construction trades and extraction workers",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
-    "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
-    ],
-    "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ]
-  },
-  "corpus": {
-    "platforms": [
-      {
-        "name": "practitioner_forums",
-        "scope": "National First-Line Supervisors/Managers of Construction Trades and Extraction Workers Association discourse",
-        "items": 45
-      }
-    ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": []
-  },
-  "confidence": "high",
-  "caveats": []
+  "retrieved": "2026-08-26",
+  "searchesReturningNothing": [
+   "Factiva omitted: unattended run",
+   "last30days grounding: no-results",
+   "No in-scope items: reddit threads are US/UK practitioners, HN/youtube/github results off-topic or non-AU; no Australian site-supervisor discourse found",
+   "X coverage degraded (bird_authenticated: false); TikTok and Instagram unconfigured (has_scrapecreators: false)",
+   "L1 lane returned no in-window instrument specific to this occupation; nearest instruments (jurisdictional industrial manslaughter laws) predate the window"
+  ]
+ },
+ "confidence": "medium",
+ "caveats": [
+  "No L1 claim: no regulatory change inside the window names this occupation directly; jurisdictional WHS industrial manslaughter provisions predate August 2025.",
+  "Factiva omitted (unattended run).",
+  "L5 corpus declared but contains zero in-scope Australian practitioner items."
+ ]
 }
