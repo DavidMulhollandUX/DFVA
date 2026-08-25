@@ -9,59 +9,34 @@
     "Director, Surveys and Evaluation",
     "Evaluation Advisor"
   ],
-  "anzsco": "220000",
+  "anzsco": "224711",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2026-02-28",
+    "to": "2026-08-25"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-25",
+  "expires": "2027-02-25",
   "programs": [
     "097ab",
     "761em"
   ],
   "claims": [
     {
-      "id": "13-1111-01",
-      "text": "National peak professional bodies and statutory regulators governing Management Analysts enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
+      "id": "ma-01",
+      "text": "Deloitte Australia expects AI to automate about one third of routine consulting tasks within three years, and is more than tripling its managed services business toward $1 billion by 2030 in response.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
       "sources": [
         {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Management Analysts",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Management Analysts",
-          "url": "https://www.psc.gov.au/standards/13-1111",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Management Analysts"
+          "publisher": "Australian Financial Review (Edmund Tadros)",
+          "title": "Deloitte Australia CEO Joanne Gorton says AI could automate 30% of consulting tasks in three years",
+          "url": "https://www.afr.com/companies/professional-services/deloitte-s-1b-back-office-bet-as-ai-automates-30pc-of-consulting-tasks-20260506-p5zubv",
+          "date": "2026-05-07",
+          "whatItMeasured": "Deloitte Australia chief executive's stated internal estimate of automatable consulting task share and the firm's managed-services investment plan"
         }
       ],
-      "scope": "Australian practitioners in Management Analysts across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "13-1111-02",
-      "text": "Automation of routine transactional and analytical tasks in Management Analysts heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Management Analysts",
-          "url": "https://www.jobsandskills.gov.au/research/13-1111",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Management Analysts in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Management Analysts roles in Australia.",
-      "disposition": "sourced",
+      "scope": "One firm's stated internal estimate and strategy. A CEO statement, not a measured study; it does not establish an industry-wide automation rate.",
+      "disposition": "scoped",
       "supersedes": null,
       "bearing": [
         "C4",
@@ -69,38 +44,163 @@
         "G2"
       ],
       "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
+      "refuteNotes": "3 of 3 skeptics failed to overturn: outlet verified (AFR Professional Services editor), population matches (Deloitte Australia advisory), date inside window (2026-05-07)."
+    },
+    {
+      "id": "ma-02",
+      "text": "Australian professional-services reporting links AI automation pressure most directly to junior professional work: Deloitte targets tasks mostly done by junior staff and MinterEllison has cut its graduate cohort.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Australian Financial Review",
+          "title": "Professional Life: AI automation hits young professionals hardest",
+          "url": "https://www.afr.com/companies/professional-services/ai-automation-hits-young-professionals-hardest-20260512-p5zw1z",
+          "date": "2026-05-13",
+          "whatItMeasured": "Firm announcements reported in the AFR newsletter: Deloitte's view that AI automates routine junior tasks, and MinterEllison's reduced graduate intake"
+        }
+      ],
+      "scope": "Large professional-services firms' graduate hiring as reported in one newsletter item. Not a labour-market statistic on graduate destinations.",
+      "disposition": "scoped",
+      "supersedes": null,
+      "bearing": [
+        "C4",
+        "W2"
+      ],
+      "refuted": false,
+      "refuteNotes": "3 of 3 failed to overturn: URL resolves, outlet and authorship verified, within window."
+    },
+    {
+      "id": "ma-03",
+      "text": "A survey of 34 Australian and New Zealand general contractors found high conviction that AI will shape competitive position but low readiness: 74 per cent believed AI will decide who wins their market within three years while 9 per cent rated their data foundation as actually working.",
+      "lane": "L2",
+      "tier": "industry-survey-n",
+      "sources": [
+        {
+          "publisher": "Visibuild",
+          "title": "Beyond the Theatre: State of AI in Australian Construction (2026)",
+          "url": "https://visibuild.com/news/state-of-ai-in-construction/",
+          "date": "2026-08-19",
+          "whatItMeasured": "Self-reported conviction and readiness scores from n=34 AU/NZ general contractors surveyed May 2026, on projects $20m-$2bn"
+        }
+      ],
+      "scope": "Construction contractors only, self-reported, vendor-published directional research with n=34. It is evidence about construction firms' AI readiness, not about consultants.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C5",
+        "W3"
+      ],
+      "refuted": false,
+      "refuteNotes": "Survey parameters declared by publisher (n=34, May 2026); publisher states its own limitations. Kept for the client-side readiness picture that consultancies sell into."
+    },
+    {
+      "id": "ma-04",
+      "text": "In semi-structured interviews with 23 Australian construction-sector experts, BIM and drones showed traction while AI remained largely at pilot or emerging stage, with digital skills gaps named as a barrier to adoption.",
+      "lane": "L2",
+      "tier": "scholarly-peer-reviewed",
+      "sources": [
+        {
+          "publisher": "Journal of Innovation and Knowledge (Siriwardhana, Moehler & Fang)",
+          "title": "Construction 4.0 in Australia: Evaluating technological implementation, organisational adaptation and skills development",
+          "url": "https://doi.org/10.1016/j.jik.2025.100822",
+          "date": "2025-11-01",
+          "whatItMeasured": "Thematic analysis of semi-structured interviews with n=23 Australian Construction 4.0 experts (quantity surveyors, architects, project managers, engineers, academics) on technology adoption determinants and skills gaps"
+        }
+      ],
+      "scope": "Australian construction sector, purposive sample of 23 experts, qualitative. It characterises client-side adoption maturity, not consultant employment.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C5",
+        "G1"
+      ],
+      "refuted": false,
+      "refuteNotes": "Peer-reviewed (JIK vol 10 no 6, Nov 2025), DOI resolves via Monash research portal, n=23 stated in abstract, Australian population."
+    },
+    {
+      "id": "ma-05",
+      "text": "Practitioners in consulting communities report clients producing AI-generated decks without consultant support, and discuss AI-generated quality problems in published reports; engagement centres on whether polish now signals rigour.",
+      "lane": "L5",
+      "tier": "forum-discourse-declared",
+      "sources": [
+        {
+          "publisher": "r/consulting (Reddit)",
+          "title": "I just saw a client create a deck using AI and present to leadership, completely without any consulting support",
+          "url": "https://www.reddit.com/r/consulting/comments/1vfjpib/i_just_saw_a_client_create_a_deck_using_ai_and/",
+          "date": "2026-08-04",
+          "whatItMeasured": "Practitioner thread, score 351 and 117 comments at capture, on clients bypassing consultants with AI decks"
+        },
+        {
+          "publisher": "r/consulting (Reddit)",
+          "title": "PwC published reports on AI marred by AI hallucinations",
+          "url": "https://www.reddit.com/r/consulting/comments/1vb21h6/pwc_published_reports_on_ai_marred_by_ai/",
+          "date": "2026-07-30",
+          "whatItMeasured": "Practitioner thread, score 340, discussing hallucinations in a Big Four AI report"
+        }
+      ],
+      "scope": "Self-selected English-language Reddit consulting communities over a declared window. Not prevalence in the profession; sentiment is a judgement anchored to these quotes, not a measured score.",
+      "disposition": "scoped",
+      "supersedes": null,
+      "bearing": [
+        "C4",
+        "W2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Posts verified against arctic-shift archive (scores, comment counts, dates match). Two of three skeptics failed to overturn the third defaulted on representativeness, which scoping addresses."
     }
   ],
   "jobAds": {
-    "source": "adzuna-au",
-    "query": "management analysts",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
-    "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
-    ],
+    "source": "workforce-australia-vacancy-count",
+    "query": "ANZSCO 224711 Management Consultant vacancy listing",
+    "window": "retrieved 2026-08-25",
+    "count": 169,
+    "topEmployers": [],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "Communication Skills",
+      "Change Management",
+      "Stakeholder Management",
+      "Project Management",
+      "Building Relationships"
     ]
   },
   "corpus": {
     "platforms": [
       {
-        "name": "practitioner_forums",
-        "scope": "National Management Analysts Association discourse",
-        "items": 45
+        "name": "reddit",
+        "scope": "r/consulting, r/managementconsulting, r/Big4 via last30days",
+        "items": 16
+      },
+      {
+        "name": "hackernews",
+        "scope": "last30days sweep",
+        "items": 31
+      },
+      {
+        "name": "youtube",
+        "scope": "last30days sweep",
+        "items": 2
+      },
+      {
+        "name": "github",
+        "scope": "last30days sweep",
+        "items": 32
       }
     ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": []
+    "retrieved": "2026-08-25",
+    "searchesReturningNothing": [
+      "grounding: unreachable (keyless web search unavailable)",
+      "polymarket: ran, no results",
+      "x: unauthenticated (bird_authenticated false) - coverage degraded, not recorded as silence",
+      "tiktok/instagram: skipped-unconfigured (no ScrapeCreators key)",
+      "adzuna-au: no API credentials configured - L4 falls back to Workforce Australia public vacancy count",
+      "factiva: unattended run - omitted per constraint 3"
+    ]
   },
-  "confidence": "high",
-  "caveats": []
+  "confidence": "medium",
+  "caveats": [
+    "L3-led claim set graded medium because Factiva was unavailable (constraint 3).",
+    "L4 uses Workforce Australia's public ANZSCO vacancy count instead of Adzuna: no Adzuna API credentials are configured on this machine.",
+    "The L2 claims describe construction-sector client organisations, which are adjacent to rather than identical with the destination profession."
+  ]
 }
