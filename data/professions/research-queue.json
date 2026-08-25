@@ -495,7 +495,7 @@
     "43-9111": "pending",
     "45-1011": "done",
     "45-2011": "done",
-    "45-2091": "in_progress",
+    "45-2091": "done",
     "45-2093": "pending",
     "47-1011": "pending",
     "47-2061": "pending",
@@ -509,14 +509,10 @@
   "attempts": {
     "11-1011": 1,
     "45-1011": 2,
-    "45-2011": 1
+    "45-2011": 1,
+    "45-2091": 1
   },
-  "leases": {
-    "45-2091": {
-      "worker": "autoloop",
-      "claimed_at": "2026-08-25T21:10:12.031654+00:00"
-    }
-  },
+  "leases": {},
   "runs": [
     {
       "at": "2026-08-25T14:08:14.087155+00:00",
@@ -541,6 +537,12 @@
       "soc": "45-2011",
       "status": "done",
       "note": "commit bcb7210; admitted 5; refuted 0; L5 corpus empty (30 items off-population); Factiva omitted unattended"
+    },
+    {
+      "at": "2026-08-25T21:40:29.443925+00:00",
+      "soc": "45-2091",
+      "status": "done",
+      "note": "commit 4e04927; admitted 3; refuted 0; L5 corpus empty (38 items off-population); Factiva omitted unattended"
     }
   ]
 }
