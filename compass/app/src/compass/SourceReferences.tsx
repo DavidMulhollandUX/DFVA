@@ -16,6 +16,8 @@ export type SourceKey =
   | "onetSoc"
   | "handbook"
   | "dfvaRubric"
+  | "dfvaRubricV4"
+  | "teqsaAdaptive"
   | "qiltGos"
   | "jsaHeoData"
   | "adzunaData"
@@ -160,6 +162,37 @@ const SOURCES: Record<
     usedFor:
       "The 0–3 anchor definitions for the five scored curriculum dimensions and both pass/fail gates. The anchors are reproduced in full in the curriculum section of this report.",
   },
+  dfvaRubricV4: {
+    group: "curriculum",
+    citation: (
+      <>
+        Evidura. (2026). <em>DFVA assessment rubric, v4 instrument</em>{" "}
+        [Internal methodology record].
+      </>
+    ),
+    usedFor:
+      "The 0–3 anchor definitions for the eight v4 scored items (five adaptive, three workplace) and both pass/fail preconditions. The anchors are reproduced in full in each program's Durability Report curriculum section.",
+    grain:
+      "Single-rater scoring against published anchor definitions, adversarially verified; verification dates are recorded per program.",
+  },
+  teqsaAdaptive: {
+    group: "curriculum",
+    citation: (
+      <>
+        Tertiary Education Quality and Standards Agency. (2026).{" "}
+        <em>Assuring quality learning in a gen AI-integrated future: the role
+        of adaptive capabilities</em>. TEQSA.
+      </>
+    ),
+    links: [
+      {
+        label: "https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities",
+        href: "https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities",
+      },
+    ],
+    usedFor:
+      "The capability names the v4 rubric's item constructs reference — the four adaptive capabilities and the disciplinary foundation placed beneath them.",
+  },
   qiltGos: {
     group: "labour",
     citation: (
@@ -193,7 +226,7 @@ const SOURCES: Record<
       },
     ],
     usedFor:
-      "Field-of-education destination shares and occupation shortage ratings in the improvement plans; also the destination basis of the superseded v2 exposure measurement.",
+      "Field-of-education destination shares and occupation shortage ratings in the improvement plans; also the destination basis of the superseded v2 exposure measurement, and the field-of-education occupation lists behind v4's field-grain exposure tier.",
     grain: "Field-of-education grain — not per degree; administrative records.",
   },
   adzunaData: {

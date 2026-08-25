@@ -8,7 +8,11 @@ export type GlossaryTerm =
   | "aioe"
   | "destinationExposure"
   | "adaptiveness"
+  | "adaptivenessV4"
+  | "workplace"
   | "gates"
+  | "gatesV4"
+  | "exposureBasisTier"
   | "medianQuadrant"
   | "positionConfidence"
   | "envelope"
@@ -47,13 +51,29 @@ const GLOSSARY: Record<
     term: "Curriculum Adaptiveness (…/15)",
     def: "The sum of five curriculum dimensions, each scored 0–3 from handbook evidence: systems thinking, technical depth, AI literacy, research methods, and irreplaceability. It measures how the curriculum builds capabilities that resist AI substitution.",
   },
+  adaptivenessV4: {
+    term: "Curriculum Adaptiveness (…/15, v4)",
+    def: "The v4 instrument's adaptive sub-scale: five curriculum items (distributed cognition & relational capability, hybrid metacognition & evaluative judgement, digital & AI literacy including governance, life-long learning & transfer, inquiry & evidence generation), each scored 0–3 from handbook evidence against published anchors. It measures how the curriculum builds capabilities that hold up under AI exposure. This is a different instrument from the earlier five-dimension sum — the two totals are never comparable.",
+  },
+  workplace: {
+    term: "Workplace readiness (…/9, v4)",
+    def: "The v4 instrument's second sub-scale: three items (professional communication & conduct, authentic task design, work-situated learning), each scored 0–3. It is reported separately from adaptiveness because it measures readiness for the workplace graduates enter, not defence against substitution — the two sub-scales are never summed with each other.",
+  },
   gates: {
     term: "Gates",
     def: "Two pass/fail floors — decision-making under uncertainty, and domain depth. Nearly all programs sit at the same level on these, so scoring them would add no information; instead a curriculum change that breaks one is flagged regardless of what it does to the scored total.",
   },
+  gatesV4: {
+    term: "Preconditions (v4 gates)",
+    def: "Two pass/fail preconditions checked before the scored items are read: G1, disciplinary foundation (a coherent specialist core), and G2, decision-making under uncertainty. A failure flags the program regardless of its item scores — including programs whose position label looks strong, which is why gate results are shown beside every position. A result can also be unrecorded, which is reported as such rather than resolved into either outcome.",
+  },
+  exposureBasisTier: {
+    term: "Exposure basis tier",
+    def: 'Which destination distribution a program\'s exposure was computed on: measured on its own graduates ("exact" or "variant"), pooled across a program family, borrowed from a related or cognate program (an estimate, labelled as such), or a field-of-education occupation list. Borrowed and field values are placed against the appropriate median and marked on charts — an estimate never reads as this program\'s own measurement.',
+  },
   medianQuadrant: {
     term: "Portfolio median / position",
-    def: 'Positions (e.g. "High exposure · low adaptiveness") are defined by whether a program sits above or below the median of the assessed portfolio on each axis. They are relative to this portfolio at this assessment — not absolute grades, and not comparable across institutions.',
+    def: 'Positions (e.g. "High exposure · low adaptiveness") are defined by whether a program sits above or below the median of the assessed portfolio on each axis. On v4 the exposure median depends on the value\'s basis: program-grain values are placed against the alumni-title median, field-grain values against the field-basis median. Positions are relative to this portfolio at this assessment — not absolute grades, and not comparable across institutions.',
   },
   positionConfidence: {
     term: "Position confidence",
