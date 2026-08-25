@@ -85,3 +85,7 @@ scrapes/v4/inbox/
 /go8_*.txt
 /output.txt
 scraping/
+
+# Profession research payloads stay out of version control; the sha256 manifest is committed.
+data/professions/*/raw/*
+!data/professions/*/raw/MANIFEST.sha256
