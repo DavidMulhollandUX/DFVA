@@ -1,9 +1,9 @@
 // Auto-generated from reports/*.md by scripts/dfva-content-generate.ts — do not edit by hand.
 // Run: npm --prefix scripts run dfva:gen-content
 const content = {
-  title: "Master of Banking and Financial Services Law (526AA) — Market Intelligence",
+  title: "Master of Banking and Finance Law (526AA) — Market Intelligence",
   institution: "University of Melbourne",
-  markdown: `# DFVA MARKET INTELLIGENCE: Master of Banking and Financial Services Law (526AA)
+  markdown: `# DFVA MARKET INTELLIGENCE: Master of Banking and Finance Law (526AA)
 
 **Assessment Date:** 2026-08-23 | **Source URL:** https://handbook.unimelb.edu.au/2026/courses/526aa | **Prompt Version:** DFVA-COPILOT-MARKET-v1
 

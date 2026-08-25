@@ -1,9 +1,9 @@
 // Auto-generated from reports/*.md by scripts/dfva-content-generate.ts — do not edit by hand.
 // Run: npm --prefix scripts run dfva:gen-content
 const content = {
-  title: "Master of Veterinary Science (Clinical) (872BB) — Market Intelligence",
+  title: "Master of Veterinary Science (872BB) — Market Intelligence",
   institution: "University of Melbourne",
-  markdown: `# DFVA MARKET INTELLIGENCE: Master of Veterinary Science (Clinical) (872BB)
+  markdown: `# DFVA MARKET INTELLIGENCE: Master of Veterinary Science (872BB)
 
 **Assessment Date:** 2026-08-23 | **Source URL:** https://handbook.unimelb.edu.au/2026/courses/872bb | **Prompt Version:** DFVA-COPILOT-MARKET-v1
 

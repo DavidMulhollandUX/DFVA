@@ -1,4 +1,4 @@
-# DFVA MARKET INTELLIGENCE: Master of Veterinary Science (Clinical) (872BB)
+# DFVA MARKET INTELLIGENCE: Master of Veterinary Science (872BB)
 
 **Assessment Date:** 2026-08-23 | **Source URL:** https://handbook.unimelb.edu.au/2026/courses/872bb | **Prompt Version:** DFVA-COPILOT-MARKET-v1
 

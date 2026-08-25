@@ -18,7 +18,13 @@ export type V4Verified = V4PanelC["verified"];
 /** Names only the passes actually recorded. Empty when neither succeeded. */
 function passes(v: NonNullable<V4Verified>): string[] {
   const out: string[] = [];
-  if (v.adversarial) out.push("reviewed adversarially");
+  if (typeof v.adversarial === "object" && v.adversarial !== null) {
+    out.push(
+      `reviewed adversarially across all ${v.adversarial.reviewed.length} scored items`,
+    );
+  } else if (v.adversarial) {
+    out.push("reviewed adversarially");
+  }
   if (v.mechanical)
     out.push("its quoted evidence verified against the source text");
   return out;

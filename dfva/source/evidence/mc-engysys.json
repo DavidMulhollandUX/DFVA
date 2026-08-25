@@ -97,7 +97,7 @@
       },
       "G2": {
         "result": "PASS",
-        "rationale": "PASS condition is met: assessment goes well beyond formulaic calculations to require complex trade-off decisions under technological, financial, and policy uncertainty \u2014 including balancing grid stability against intermittent renewable generation in ELEN90069 and ENGR90029, capital investment trade-offs under volatile wholesale electricity pricing in FNCE90060 and ENGR90030, and decarbonisation pathway selection under regulatory uncertainty in ENGR90032.",
+        "rationale": "PASS condition is met: assessment goes well beyond formulaic calculations to require complex trade-off decisions under technological, financial, and policy uncertainty — including balancing grid stability against intermittent renewable generation in ELEN90069 and ENGR90029, capital investment trade-offs under volatile wholesale electricity pricing in FNCE90060 and ENGR90030, and decarbonisation pathway selection under regulatory uncertainty in ENGR90032.",
         "evidenceLines": [
           "Two assignments (25% each) not exceeding 12 pages each, one due mid-semester and the other at the end of semester",
           "Two assignments (25% each) not exceeding 20 pages each, one due mid-semester and the other at the end of semester",
@@ -117,8 +117,8 @@
     "notScoreable": [],
     "verified": {
       "adversarial": true,
-      "mechanical": false,
-      "date": "2026-08-24"
+      "mechanical": true,
+      "date": "2026-08-25"
     }
   }
 }

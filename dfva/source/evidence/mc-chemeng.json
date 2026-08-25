@@ -23,7 +23,7 @@
     },
     "C3": {
       "score": 1,
-      "rationale": "Matches the level-1 anchor: digital tools appear as commercial software operation and training. Core subjects (CHEN90032 Process Simulation and Control, CHEN90022 Chemical Engineering Design Project) train students in steady-state and dynamic process simulation packages, equations of state modeling, and numerical process optimization. The level-2 requirement that core units address AI capabilities AND limitations/ethics is absent \u2014 the extract contains zero occurrences of artificial intelligence or machine learning in core subject descriptions or assessment schedules, and no AI governance or algorithmic auditing is assessed.",
+      "rationale": "Matches the level-1 anchor: digital tools appear as commercial software operation and training. Core subjects (CHEN90032 Process Simulation and Control, CHEN90022 Chemical Engineering Design Project) train students in steady-state and dynamic process simulation packages, equations of state modeling, and numerical process optimization. The level-2 requirement that core units address AI capabilities AND limitations/ethics is absent — the extract contains zero occurrences of artificial intelligence or machine learning in core subject descriptions or assessment schedules, and no AI governance or algorithmic auditing is assessed.",
       "evidenceLines": [
         "Students are introduced to steady-state and unsteady-state process simulations using tools including simple spreadsheet packages, commercial-scale simulation packages widely used in the chemical process industry and basic programming.",
         "Apply chemical engineering process simulation software to model thermodynamic properties, real gas behaviour using equations of state models and physical property estimation of pure components and mixtures",
@@ -51,7 +51,7 @@
     "adaptiveness": 7,
     "W1": {
       "score": 2,
-      "rationale": "Level 2 anchor is squarely satisfied: core assessment requires multiple recognized professional engineering genres \u2014 an Environmental Effects Statement, pair-prepared technical feasibility presentations, safety and HAZOP reviews, and comprehensive plant design reports \u2014 judged against professional engineering practice standards with input from industry advisors. Level 3 is not reached: while industry advisors provide content and input, the extract does not document that external practitioners formally assess student presentations or grade professional conduct criteria on a dedicated rubric.",
+      "rationale": "Level 2 anchor is squarely satisfied: core assessment requires multiple recognized professional engineering genres — an Environmental Effects Statement, pair-prepared technical feasibility presentations, safety and HAZOP reviews, and comprehensive plant design reports — judged against professional engineering practice standards with input from industry advisors. Level 3 is not reached: while industry advisors provide content and input, the extract does not document that external practitioners formally assess student presentations or grade professional conduct criteria on a dedicated rubric.",
       "evidenceLines": [
         "This capstone project culminates in an Environmental Effects Statement assignment. Several industry advisors from the process engineering and environmental areas, provide content to aid students with their capstone project.",
         "One team-based oral presentation with 3 to 4 team members of approximately 15 to 20 minutes. Students receive an individual assessment.",
@@ -61,7 +61,7 @@
     },
     "W2": {
       "score": 2,
-      "rationale": "Meets the level-2 anchor: the 25-point capstone CHEN90022 reproduces the professional chemical engineering task end-to-end \u2014 preliminary process synthesis, flowsheeting, equipment sizing, process control loops, HAZOP safety review, CAPEX/OPEX estimation, and environmental impact assessment \u2014 producing the authentic deliverables (EES, P&ID, plant specification) an engineering consultant produces. Not level 3: written examinations carry significant weight across the prerequisite spine (CHEN90042, CHEN90013, CHEN90032), so authentic deliverables are concentrated in the capstone rather than forming the exclusive assessment spine across all years.",
+      "rationale": "Meets the level-2 anchor: the 25-point capstone CHEN90022 reproduces the professional chemical engineering task end-to-end — preliminary process synthesis, flowsheeting, equipment sizing, process control loops, HAZOP safety review, CAPEX/OPEX estimation, and environmental impact assessment — producing the authentic deliverables (EES, P&ID, plant specification) an engineering consultant produces. Not level 3: written examinations carry significant weight across the prerequisite spine (CHEN90042, CHEN90013, CHEN90032), so authentic deliverables are concentrated in the capstone rather than forming the exclusive assessment spine across all years.",
       "evidenceLines": [
         "Several assessment tasks combine to form a capstone project based on authentic practice activities, with input from industry.",
         "Within this project students, in teams of three or four, perform design tasks related to the development of a Chemical Process Engineering facility.",
@@ -70,7 +70,7 @@
     },
     "W3": {
       "score": 1,
-      "rationale": "Level 1 anchor is met: work-situated learning exists as an elective/selective \u2014 CHEN90028 Chemical Engineering Internship (12.5 points) is available as a selective subject, alongside the Skills Towards Employment Program (STEP) and approved external industry placements. Level 2 is not reachable because an internship or workplace placement is not a compulsory core requirement for all students in the degree.",
+      "rationale": "Level 1 anchor is met: work-situated learning exists as an elective/selective — CHEN90028 Chemical Engineering Internship (12.5 points) is available as a selective subject, alongside the Skills Towards Employment Program (STEP) and approved external industry placements. Level 2 is not reachable because an internship or workplace placement is not a compulsory core requirement for all students in the degree.",
       "evidenceLines": [
         "CHEN90028 Chemical Engineering Internship Summer Term (On Campus - Parkville) Semester 1 (On Campus - Parkville) Semester 2 (Early-Start)",
         "Students have the opportunity to participate in overseas study, industry-based internships and supervised research placements.",
@@ -112,8 +112,8 @@
     ],
     "verified": {
       "adversarial": true,
-      "mechanical": false,
-      "date": "2026-08-23"
+      "mechanical": true,
+      "date": "2026-08-25"
     }
   }
 }

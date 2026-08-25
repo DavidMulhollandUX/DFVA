@@ -4,12 +4,12 @@
     "instrument": "4.2-draft",
     "C1": {
       "score": 2,
-      "rationale": "Level 2 anchor is satisfied: at least one core unit assesses collaborative practice \u2014 in fact, assessed collaborative practice appears across multiple core units. In ABPL90086 Environmental Systems, students complete a 'Class group presentation' (10%) and an 'Advanced ESD group report' (25%) in pairs; in ABPL90312 Cost Management, students complete 'Assignment 1 \u2013 Group assignment (2-3 students) focusing on measurement of quantities' (25%) and 'Assignment 3 \u2013 Group assignment (2-3 students): Pricing Bills of Quantities' (25%); in ABPL90313 Management of Construction, students deliver 'presentations (in pairs)'; and in ABPL90324 Materials and Structures, students complete 'One group assignment equivalent to 1000 words per student' (20%). Level 3 is not met: no core assessment requires coordinating work across people AND tools/AI systems with documented role-and-tool allocation or an assessed division of work between people and systems.",
+      "rationale": "Level 2 anchor is satisfied: at least one core unit assesses collaborative practice — in fact, assessed collaborative practice appears across multiple core units. In ABPL90086 Environmental Systems, students complete a 'Class group presentation' (10%) and an 'Advanced ESD group report' (25%) in pairs; in ABPL90312 Cost Management, students complete 'Assignment 1 – Group assignment (2-3 students) focusing on measurement of quantities' (25%) and 'Assignment 3 – Group assignment (2-3 students): Pricing Bills of Quantities' (25%); in ABPL90313 Management of Construction, students deliver 'presentations (in pairs)'; and in ABPL90324 Materials and Structures, students complete 'One group assignment equivalent to 1000 words per student' (20%). Level 3 is not met: no core assessment requires coordinating work across people AND tools/AI systems with documented role-and-tool allocation or an assessed division of work between people and systems.",
       "evidenceLines": [
         "Class group presentation, outlining the ESD report that outlines overall environmental system strategies for the delivery of environmentally sound healthy building with zero energy operation (equivalent to 300 words per student, 600 words per presentation from a two-student group)",
         "Advanced ESD group report (1250 words per student, 2,500 words per submission from a two-student group)",
-        "Assignment 1 \u2013 Group assignment (2-3 students) focusing on measurement of quantities for (i) Masonry Trade and (ii) Finishes Trade, (1250 words equivalent per student)",
-        "Assignment 3\u2013 Group assignment ( 2- 3 students ): Pricing Bills of Quantities for various Trades",
+        "Assignment 1 – Group assignment (2-3 students) focusing on measurement of quantities for (i) Masonry Trade and (ii) Finishes Trade, (1250 words equivalent per student)",
+        "Assignment 3– Group assignment ( 2- 3 students ): Pricing Bills of Quantities for various Trades",
         "Essay due in week 7 and presentations (in pairs) held in weeks 8 to 12",
         "One group assignment equivalent to 1000 words per student"
       ]
@@ -30,7 +30,7 @@
         "Assignment, focussing on numerical techniques related to construction productivity",
         "Describe the application of computer software to measurement of building works.",
         "The subject also examines alliancing and partnering contracts, performance-based contracts as well as contract management in the context of BIM-based projects.",
-        "Assignment 1 \u2013 Group assignment (2-3 students) focusing on measurement of quantities"
+        "Assignment 1 – Group assignment (2-3 students) focusing on measurement of quantities"
       ]
     },
     "C4": {
@@ -71,9 +71,9 @@
       "score": 2,
       "rationale": "Level 2 anchor is satisfied: core assessment reproduces professional tasks end-to-end for construction managers and quantity surveyors. Students perform quantity measurement for excavation, concrete, formwork, and reinforcement from architectural plans (ABPL90312), price bills of quantities for trade packages, evaluate contract delay and variation claims under standard construction contracts (ABPL90335), and design construction sequencing for steel and prestressed concrete systems (ABPL90293/435). Resolved downward from level 3 on adversarial verification: tasks are submitted to the academic teaching staff without externally supplied live site constraints, consequential external stakeholders, or real-world contractual liability documented in the assessment tables (R4).",
       "evidenceLines": [
-        "Assignment 1 \u2013 Group assignment (2-3 students) focusing on measurement of quantities for (i) Masonry Trade and (ii) Finishes Trade",
-        "Assignment 2\u2013 Individual assignment focusing on measurement of quantities for Excavation Works, Concrete, Formwork, and Reinforcement",
-        "Assignment 3\u2013 Group assignment ( 2- 3 students ): Pricing Bills of Quantities for various Trades",
+        "Assignment 1 – Group assignment (2-3 students) focusing on measurement of quantities for (i) Masonry Trade and (ii) Finishes Trade",
+        "Assignment 2– Individual assignment focusing on measurement of quantities for Excavation Works, Concrete, Formwork, and Reinforcement",
+        "Assignment 3– Group assignment ( 2- 3 students ): Pricing Bills of Quantities for various Trades",
         "Written assignment focusing on variations, delays and conflict/dispute.",
         "Assignment 1: design and proposed construction process for reinforced concrete elements",
         "Assignment 2 , is an exercise to document and report comprehensively on a selected residential building under construction"
@@ -91,7 +91,7 @@
     "gates": {
       "G1": {
         "result": "PASS",
-        "rationale": "PASS condition is met: the program documents an all-compulsory specialist core of 100 credit points establishing technical, legal, and managerial depth in construction management \u2014 covering Construction of Buildings (ABPL90292), Steel Construction (ABPL90293), Concrete Construction (ABPL90435), Cost Management (ABPL90312), Management of Construction (ABPL90313), Materials and Structures (ABPL90324), Environmental Systems (ABPL90086), and Contract Management (ABPL90335). Coherent professional sequence with no interchangeable generic core.",
+        "rationale": "PASS condition is met: the program documents an all-compulsory specialist core of 100 credit points establishing technical, legal, and managerial depth in construction management — covering Construction of Buildings (ABPL90292), Steel Construction (ABPL90293), Concrete Construction (ABPL90435), Cost Management (ABPL90312), Management of Construction (ABPL90313), Materials and Structures (ABPL90324), Environmental Systems (ABPL90086), and Contract Management (ABPL90335). Coherent professional sequence with no interchangeable generic core.",
         "evidenceLines": [
           "Students must complete all of the Year 1 core subjects before progressing to the second year of the degree.",
           "ABPL90292\tConstruction of Buildings",
@@ -106,7 +106,7 @@
       },
       "G2": {
         "result": "PASS",
-        "rationale": "PASS condition is met: assessment requires complex trade-off decisions, diagnostic problem-solving, and professional judgement under commercial and legal uncertainty \u2014 including evaluating variations, delays, and conflict resolution options under contract law in ABPL90335, pricing volatile trade packages in ABPL90312, and designing structural construction processes under constructability constraints in ABPL90293/435.",
+        "rationale": "PASS condition is met: assessment requires complex trade-off decisions, diagnostic problem-solving, and professional judgement under commercial and legal uncertainty — including evaluating variations, delays, and conflict resolution options under contract law in ABPL90335, pricing volatile trade packages in ABPL90312, and designing structural construction processes under constructability constraints in ABPL90293/435.",
         "evidenceLines": [
           "Written assignment focusing on variations, delays and conflict/dispute.",
           "Pricing Bills of Quantities for various Trades",
@@ -126,8 +126,8 @@
     "notScoreable": [],
     "verified": {
       "adversarial": true,
-      "mechanical": false,
-      "date": "2026-08-24"
+      "mechanical": true,
+      "date": "2026-08-25"
     }
   }
 }

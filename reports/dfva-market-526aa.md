@@ -1,4 +1,4 @@
-# DFVA MARKET INTELLIGENCE: Master of Banking and Financial Services Law (526AA)
+# DFVA MARKET INTELLIGENCE: Master of Banking and Finance Law (526AA)
 
 **Assessment Date:** 2026-08-23 | **Source URL:** https://handbook.unimelb.edu.au/2026/courses/526aa | **Prompt Version:** DFVA-COPILOT-MARKET-v1
 

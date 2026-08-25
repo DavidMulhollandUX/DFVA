@@ -1,9 +1,9 @@
 // Auto-generated from reports/*.md by scripts/dfva-content-generate.ts — do not edit by hand.
 // Run: npm --prefix scripts run dfva:gen-content
 const content = {
-  title: "Master of Science (MC-SCIEPI) — Market Intelligence",
+  title: "Master of Science (Epidemiology) (MC-SCIEPI) — Market Intelligence",
   institution: "University of Melbourne",
-  markdown: `# DFVA MARKET INTELLIGENCE: Master of Science (MC-SCIEPI)
+  markdown: `# DFVA MARKET INTELLIGENCE: Master of Science (Epidemiology) (MC-SCIEPI)
 
 **Assessment Date:** 2026-05-15 | **Source URL:** https://handbook.unimelb.edu.au/2025/courses/mc-sciepi | **Prompt Version:** DFVA-COPILOT-MARKET-v1
 

@@ -50,7 +50,7 @@ export interface V4PanelC {
   /** Optional: a record that lists no coverage limits omits the key rather than
    *  asserting the empty list, which would read as "nothing was unscoreable". */
   notScoreable?: string[];
-  verified?: { adversarial: boolean; mechanical: boolean; date: string };
+  verified?: { /** `true` on records written before the coverage contract (2026-08-25); the object form names the items actually attacked. */ adversarial: boolean | { reviewed: string[]; date: string }; mechanical: boolean; date: string };
 }
 
 /** Migration-cycle status. `adaptMedian` is null until every reference-cohort
@@ -4088,8 +4088,8 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     "notScoreable": [],
     "verified": {
       "adversarial": true,
-      "mechanical": false,
-      "date": "2026-08-22"
+      "mechanical": true,
+      "date": "2026-08-25"
     }
   },
   "195aa": {
@@ -4449,8 +4449,8 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     ],
     "verified": {
       "adversarial": true,
-      "mechanical": false,
-      "date": "2026-08-23"
+      "mechanical": true,
+      "date": "2026-08-25"
     }
   },
   "300bb": {
@@ -10080,8 +10080,8 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     ],
     "verified": {
       "adversarial": true,
-      "mechanical": false,
-      "date": "2026-08-23"
+      "mechanical": true,
+      "date": "2026-08-25"
     }
   },
   "mc-civeng": {
@@ -10214,8 +10214,8 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     "notScoreable": [],
     "verified": {
       "adversarial": true,
-      "mechanical": false,
-      "date": "2026-08-24"
+      "mechanical": true,
+      "date": "2026-08-25"
     }
   },
   "mc-climsci": {
@@ -10630,8 +10630,8 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     "notScoreable": [],
     "verified": {
       "adversarial": true,
-      "mechanical": false,
-      "date": "2026-08-24"
+      "mechanical": true,
+      "date": "2026-08-25"
     }
   },
   "mc-cs": {
@@ -11723,8 +11723,8 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     "notScoreable": [],
     "verified": {
       "adversarial": true,
-      "mechanical": false,
-      "date": "2026-08-24"
+      "mechanical": true,
+      "date": "2026-08-25"
     }
   },
   "mc-ed": {
@@ -11985,8 +11985,8 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     "notScoreable": [],
     "verified": {
       "adversarial": true,
-      "mechanical": false,
-      "date": "2026-08-24"
+      "mechanical": true,
+      "date": "2026-08-25"
     }
   },
   "mc-env": {
