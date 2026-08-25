@@ -1,6 +1,6 @@
 # Plan: close the v4 evidence gaps
 
-**Status:** steps 0-5 complete; step 6 remaining, 2026-08-25 · **Branch:** `feat/v4-global-queue`
+**Status:** complete, 2026-08-25 · **Branch:** `feat/v4-global-queue`
 
 Four gaps remain between the v4 corpus and a report page whose every claim is
 backed. This plan sequences them, states what each one costs, and names the exit
@@ -153,6 +153,17 @@ cannot reopen:
 3. Every scored program carries at least one gate evidence line per gate.
    **Met 2026-08-25.**
 4. Every scored program carries `verified: {adversarial: true, mechanical: true}`.
+   **Met 2026-08-25.**
+
+5. Added after the fact: a program's own course page must name the program.
+   `mc-evalo` passed checks 1 to 3 at 100% while scored on another degree — every
+   line faithfully quoted from the wrong document. Reported by
+   `dfva:verify-evidence`; not in `--strict`, since the failure it catches cannot
+   be cleared by an edit.
+
+6. Added after the fact: every published report block quote must be in the
+   capture. The records are not the only copy — 25 report quotes had drifted from
+   their corrected records. In `--strict`.
 
 Never stamp `verified` from the matcher. The field is a record of work someone
 did; deriving it from the tool that checks it would make the check circular, and
@@ -167,7 +178,7 @@ Step 2  tail drift  DONE ── mechanical
 Step 3  paraphrase  DONE ── judgement, no score moved
 Step 4  no source   DONE ── judgement, no score moved
 Step 5  gate evidence DONE ── judgement, no gate flipped
-Step 6  adversarial      ── reviews the settled scores  [REMAINING]
+Step 6  adversarial DONE ── 16 demotions, one gate flip, one program re-scored
 ```
 
 Steps 2 to 5 are program-scoped and parallelisable: 25 programs in the union,
