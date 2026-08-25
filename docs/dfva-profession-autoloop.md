@@ -49,16 +49,16 @@ runs up to three batch workers concurrently. Each SOC must independently:
 
 ## Schedule and chaining
 
-The job runs every two hours. The recurring tick is the chain: each fresh run
-reads the same durable queue, claims up to nine unfinished SOCs, delegates three
-independent source-family batches and integrates their validated files. Runs use
-the repository as `workdir`, so Hermes serialises top-level ticks with other
-workdir jobs; delegated research lanes run concurrently.
+The job runs every hour. The recurring tick is the chain: each fresh run
+reads the same durable queue, claims up to four unfinished SOCs in one
+source-family batch, researches them and advances the queue. Runs use absolute
+paths (no `workdir`) so they do not contend for the TERMINAL_CWD lock held by the
+DFVA v4 pipeline jobs; delegated research lanes run concurrently within the run.
 
-At 248 remaining SOCs, the theoretical ceiling is nine SOCs per two-hour tick.
-Allowing retries and source delays, a realistic target is 20–40 SOCs per day,
-or roughly 6–12 days. The queue is resumable after restarts, rate limits, or
-model failures.
+At 244 remaining SOCs and four per hourly tick, the theoretical ceiling is 96
+SOCs per day. Allowing retries and source delays, a realistic target is 60–90
+SOCs per day, or roughly 3–4 days. The queue is resumable after restarts, rate
+limits, or model failures.
 
 ## Factiva
 
