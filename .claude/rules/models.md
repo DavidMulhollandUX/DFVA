@@ -158,3 +158,16 @@
 - `.claude/worktrees/v4-reports-12/compass/app/src/compass/__tests__/syllabusSchema.test.ts`
 - `.claude/worktrees/v4-reports-12/compass/app/src/compass/syllabusSchema.ts`
 - `.claude/worktrees/v4-reports-12/docs/structured-curriculum-schema.md`
+
+## New Models (added 2026-08-25)
+- `.claude/worktrees/agitated-bose-42aeda/compass/app/migrations/20260608080213_add_assessment_job/migration.sql`
+- `.claude/worktrees/agitated-bose-42aeda/compass/app/migrations/20260620032330_extend_compass_models/migration.sql`
+- `.claude/worktrees/agitated-bose-42aeda/compass/app/migrations/20260705234000_baseline_drifted_tables/migration.sql`
+- `.claude/worktrees/agitated-bose-42aeda/compass/app/migrations/20260705234022_review_fixes_schema/migration.sql`
+- `.claude/worktrees/agitated-bose-42aeda/compass/app/migrations/20260719060454_add_fragility_incidents/migration.sql`
+- `.claude/worktrees/agitated-bose-42aeda/compass/app/migrations/20260822020000_add_t1_connector/migration.sql`
+- `.claude/worktrees/agitated-bose-42aeda/compass/app/migrations/migration_lock.toml`
+- `.claude/worktrees/agitated-bose-42aeda/compass/app/schema.prisma`
+- `.claude/worktrees/agitated-bose-42aeda/compass/app/src/compass/__tests__/syllabusSchema.test.ts`
+- `.claude/worktrees/agitated-bose-42aeda/compass/app/src/compass/syllabusSchema.ts`
+- `.claude/worktrees/agitated-bose-42aeda/docs/structured-curriculum-schema.md`

@@ -210,3 +210,15 @@ Tools: `get_assessment`, `query_assessments`, `cross_program_analysis`, `get_met
 ## New Routes (added 2026-08-23)
 - `.claude/skills/dfva-report-review/SKILL.md`
 - `dfva/skills/dfva-report-review/SKILL.md`
+
+## New Routes (added 2026-08-25)
+- `.agents/skills/dfva-report-review/SKILL.md`
+- `.claude/worktrees/agitated-bose-42aeda/.agents/skills/dfva-report-review/SKILL.md`
+- `.claude/worktrees/agitated-bose-42aeda/.claude/skills/dfva-report-review/SKILL.md`
+- `.claude/worktrees/agitated-bose-42aeda/compass/app/src/compass/api/auth.ts`
+- `.claude/worktrees/agitated-bose-42aeda/design-system/react/ds-bundle/_preview/BandBadge.js`
+- `.claude/worktrees/agitated-bose-42aeda/design-system/react/ds-bundle/_preview/Button.js`
+- `.claude/worktrees/agitated-bose-42aeda/design-system/react/ds-bundle/_preview/Card.js`
+- `.claude/worktrees/agitated-bose-42aeda/design-system/react/ds-bundle/_preview/ScoreDisplay.js`
+- `.claude/worktrees/agitated-bose-42aeda/design-system/react/ds-bundle/_preview/StrataMark.js`
+- `.claude/worktrees/agitated-bose-42aeda/design-system/react/ds-bundle/_preview/ValidationSignalCard.js`
