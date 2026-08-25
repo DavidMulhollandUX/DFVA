@@ -1,6 +1,6 @@
 # Plan: close the v4 evidence gaps
 
-**Status:** steps 0 and 2-5 complete, 2026-08-25 · **Branch:** `feat/v4-global-queue`
+**Status:** steps 0-5 complete; step 6 remaining, 2026-08-25 · **Branch:** `feat/v4-global-queue`
 
 Four gaps remain between the v4 corpus and a report page whose every claim is
 backed. This plan sequences them, states what each one costs, and names the exit
@@ -23,7 +23,7 @@ confirmed.
 | --- | --- | --- |
 | A. Unmatched evidence lines | 144 lines, 23 programs | mixed — see the split |
 | B. Gate records with no evidence | 16 programs, 32 gate records | sourcing from captures on disk |
-| C. Subjects cited but never captured | 2 subjects, 2 programs | capture, needs an attended run |
+| C. Subjects cited but never captured | 2 subjects, 2 programs | resolved — neither subject belongs to its program |
 | D. Adversarial pass not run | 17 programs, 123 ambiguities | judgement |
 
 **Every affected program is already fully captured** — zero pending pages across
@@ -69,23 +69,26 @@ decision, so they are set in the tool rather than judged per line: at or above
 0.85 similarity to the nearest capture passage is tail drift, 0.55 to 0.85 is a
 paraphrase, below that no source exists.
 
-## Step 1 — capture the two missing subjects (gap C)
+## Step 1 — the two missing subjects (gap C) — RESOLVED, no capture needed
 
-`ABPL90396` (`mc-cm`) and `ACCT90029` (`mc-mgmtact`) are cited as evidence and
-appear in neither capture. Neither was ever **planned** for capture — they are
-absent from the queue's page list, so no amount of re-running the queue finds
-them. Fix the queue plan, then capture.
+`ABPL90396` (`mc-cm`) and `ACCT90029` (`mc-mgmtact`) were cited as evidence and
+appeared in neither capture. Steps 2 to 5 cleared them from the evidence lines,
+and checking the live handbook on 2026-08-25 showed why neither was ever
+captured — capturing them was never the fix:
 
-This runs first because `mc-cm` carries 4 no-source lines and some may resolve
-once its missing subject page exists.
+- **`ABPL90396` is MSD Minor Thesis Part 1**, a Melbourne School of Design
+  thesis subject. `mc-cm`'s W3 rationale calls it "ABPL90396 Construction
+  Internship". It is not a construction-management subject at all, which is why
+  it is absent from that program's page set. `mc-urpl` cites the same code
+  correctly, and it is present in `mc-urpl`'s capture.
+- **`ACCT90029` does not exist.** The handbook returns 404. `mc-mgmtact`'s W3
+  rationale offers it as an example of an internship or practicum elective.
 
-Needs an attended session: the handbook serves a real hCaptcha and unattended
-capture cannot clear it. Pace at one page per 20–30s.
-
-```bash
-python3 scripts/build-capture-queue.py
-python3 scripts/v4-capture-queue.py
-```
+Both survive only in **rationale** prose, which no guard checks. Neither
+inflates a score: each supports a limiting finding — that work-integrated
+learning is elective rather than compulsory — so the W3 conclusions do not
+depend on the fabricated example. Correcting the prose is rater work; carried
+into step 6.
 
 ## Step 2 — correct the tail-drift lines (29 lines) — DONE
 
@@ -159,7 +162,7 @@ the seven withdrawn claims show the existing records cannot seed it either.
 
 ```
 Step 0  tooling     DONE ── unblocks 2,3,4
-Step 1  capture (2 subj) ── unblocks part of 4        [attended]
+Step 1  capture     MOOT ── neither subject belongs to its program
 Step 2  tail drift  DONE ── mechanical
 Step 3  paraphrase  DONE ── judgement, no score moved
 Step 4  no source   DONE ── judgement, no score moved
