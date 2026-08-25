@@ -187,6 +187,33 @@ ls scrapes/v4/*.txt | xargs -n1 basename | sed 's/.txt//'
 The scoring prompt is read from dist at run time, so the workflow never embeds a
 copy of the rubric.
 
+### Three rules for running a batch
+
+These are disciplines, not mechanisms — nothing enforces them mechanically. Each
+traces to a defect that actually occurred in the August 2026 audit.
+
+1. **Never truncate agent input.** Pass file paths. Where data must be inlined,
+   assert the full length reached the prompt, or fan out one agent per item. An
+   inlined `JSON.stringify(scored).slice(0, 6000)` cut the payload mid-item, the
+   reviewer returned a verdict that read as complete over C1–C3 only, and C4,
+   C5, W1–W3 and both gates reached the record unattacked — one of them wrong
+   (the coverage contract added to `VERDICT.reviewed` now catches the subset,
+   but the rule prevents the truncation in the first place).
+
+2. **Validate a sweep before quoting its number.** Prototypes in that audit
+   reported 367, 109, 60 and 14 defects; all were artefacts of the matching (a
+   greedy regex, a two-rung ladder read as one rung, British against American
+   spelling). The real counts were 2, then 1. Hand-verify at least three hits
+   before stating a count.
+
+3. **Prefer a narrow reliable guard to a broad noisy one.** A full
+   subject-code-to-title check is not viable: "LAWS90352 Legal Research Brief"
+   names an assessment and is correct prose, so a broad guard would fire on
+   legitimate text and train people to skip it. The duplicate-capture guard
+   (`check-capture-duplicates.ts`) is the same trade measured — 244 hits across
+   all raw pages against exactly 1 useful hit once legitimately shared `subj-`
+   pages are excluded.
+
 The single-program pipeline below remains the reference for the full per-program
 flow including report drafting.
 

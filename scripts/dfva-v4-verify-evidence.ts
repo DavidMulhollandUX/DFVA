@@ -20,12 +20,16 @@
  * whose comma-split atoms do not all resolve is retried whole, so prose commas
  * ("a group verbal, visual and written report") do not produce false failures.
  *
- * REPORT-ONLY BY DEFAULT. This never writes `verified` into an evidence record:
- * stamping a verification from a matcher that is subtly wrong would recreate the
- * exact defect it exists to catch. Run it, read it, then decide.
+ * REPORT-ONLY BY DEFAULT... except `--stamp`, which IS the writer. The persist
+ * agent used to hand-write `verified.mechanical` — a deterministic property of
+ * two files it cannot establish — so seven records claimed a pass they failed.
+ * `--stamp` writes `mechanical` from THIS script's own computed result per
+ * program (and refreshes `date`). It never touches `adversarial`: this script
+ * has no view on whether an adversarial review happened.
  *
  *   npx tsx dfva-v4-verify-evidence.ts            # report, always exit 0
- *   npx tsx dfva-v4-verify-evidence.ts --strict   # fail on a false mechanical claim
+ *   npx tsx dfva-v4-verify-evidence.ts --strict   # fail on either direction of disagreement
+ *   npx tsx dfva-v4-verify-evidence.ts --stamp    # write mechanical from the computed result
  *   npx tsx dfva-v4-verify-evidence.ts --code mc-it
  *   npx tsx dfva-v4-verify-evidence.ts --suggest              # nearest capture text
  *   npx tsx dfva-v4-verify-evidence.ts --suggest --kind tail-drift
@@ -39,9 +43,11 @@
  * matched. The check below is the one that would have caught it: a program's own
  * course page must name the program or carry its code.
  */
-import { readdirSync, readFileSync, existsSync } from 'node:fs'
+import { readdirSync, readFileSync, writeFileSync, existsSync } from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+
+import { loadV4Names } from './lib-v4-names'
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const EVIDENCE = path.join(ROOT, 'dfva/source/evidence')
@@ -49,6 +55,7 @@ const CAPTURE = path.join(ROOT, 'scrapes/v4')
 
 const argv = process.argv.slice(2)
 const STRICT = argv.includes('--strict')
+const STAMP = argv.includes('--stamp')
 const SUGGEST = argv.includes('--suggest')
 const ONLY = argv.includes('--code') ? argv[argv.indexOf('--code') + 1] : null
 const KIND = argv.includes('--kind') ? argv[argv.indexOf('--kind') + 1] : null
@@ -266,10 +273,45 @@ const gapless = rows.filter((r) => !r.noCapture && r.unmatched.length === 0)
 console.log(`  programs fully confirmed: ${gapless.length}/${rows.length}`)
 
 const falseClaims = rows.filter((r) => r.claimsMechanical && (r.unmatched.length > 0 || r.noCapture))
-if (falseClaims.length) {
-  console.log(`\n❌ ${falseClaims.length} record(s) claim mechanical verification they do not pass:`)
-  for (const r of falseClaims) console.log(`   ${r.code}: ${r.unmatched.length} unmatched`)
+// Bidirectional: an UNDER-claim is also a defect. Seven records demoted during
+// the audit still read mechanical:false after their evidence was corrected, so
+// the page under-claimed verification it would have passed. --strict now fails
+// on either direction of disagreement between the stamp and the computed result.
+const underClaims = rows.filter(
+  (r) => !r.claimsMechanical && !r.noCapture && r.unmatched.length === 0 && pHasVerified(r.code),
+)
+function pHasVerified(code: string): boolean {
+  const doc = JSON.parse(readFileSync(path.join(EVIDENCE, `${code}.json`), 'utf8')) as {
+    panelCv4?: PanelC
+  }
+  return Boolean(doc.panelCv4?.verified)
 }
+if (falseClaims.length || underClaims.length) {
+  console.log(`\n❌ ${falseClaims.length + underClaims.length} record(s) disagree with the computed result:`)
+  for (const r of falseClaims) console.log(`   ${r.code}: claims mechanical:true, ${r.unmatched.length} unmatched`)
+  for (const r of underClaims) console.log(`   ${r.code}: passes every line but stamps mechanical:false — run --stamp`)
+}
+if (STAMP) {
+  const today = new Date().toISOString().slice(0, 10)
+  let stamped = 0
+  for (const f of readdirSync(EVIDENCE).sort()) {
+    if (!f.endsWith('.json')) continue
+    const fp = path.join(EVIDENCE, f)
+    const doc = JSON.parse(readFileSync(fp, 'utf8')) as { code?: string; panelCv4?: PanelC }
+    if (!doc.panelCv4 || !doc.code) continue
+    const row = rows.find((r) => r.code === doc.code)
+    if (!row) continue
+    const verified = doc.panelCv4.verified
+    if (!verified) continue // --stamp corrects an existing stamp; it never invents a record
+    const computed = !row.noCapture && row.unmatched.length === 0
+    if (verified.mechanical === computed) continue
+    doc.panelCv4.verified = { ...verified, mechanical: computed, date: today }
+    writeFileSync(fp, `${JSON.stringify(doc, null, 2)}\n`)
+    stamped++
+  }
+  console.log(`\nStamped mechanical from the computed result on ${stamped} record(s).`)
+}
+
 if (SUGGEST) {
   const all = rows.flatMap((r) => r.suggestions.map((s) => ({ ...s, code: r.code })))
   const shown = KIND ? all.filter((s) => s.kind === KIND) : all
@@ -304,16 +346,7 @@ if (SUGGEST) {
 // one known case cannot be cleared by an edit, only by a recapture and a
 // re-score, and failing the build before that work exists would only teach
 // people to pass --no-verify.
-const V4_NAMES = new Map<string, string>()
-{
-  const panelSrc = readFileSync(
-    path.join(ROOT, 'compass/app/src/compass/v4/data/v4PanelC.ts'),
-    'utf8',
-  )
-  const re = /"code":\s*"([^"]+)",\s*\n\s*"name":\s*"([^"]+)"/g
-  let m: RegExpExecArray | null
-  while ((m = re.exec(panelSrc))) if (!V4_NAMES.has(m[1])) V4_NAMES.set(m[1], m[2])
-}
+const V4_NAMES = loadV4Names()
 
 const misidentified: Array<{ code: string; url: string; name: string }> = []
 const badCapture = new Set<string>()
@@ -473,6 +506,10 @@ if (staleQuotes.length) {
 
 if (
   STRICT &&
-  (falseClaims.length || staleQuotes.length || outOfScope.length || phantomCodes.length)
+  (falseClaims.length ||
+    underClaims.length ||
+    staleQuotes.length ||
+    outOfScope.length ||
+    phantomCodes.length)
 )
   process.exit(1)

@@ -13,6 +13,7 @@ import { readFileSync, readdirSync, existsSync } from 'node:fs'
 import * as path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { V4_RESEARCH_DEGREES } from '../compass/app/src/compass/v4/data/v4PanelC'
+import { loadV4Names, normaliseDegreeName } from './lib-v4-names'
 
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const reportsDir = path.join(repoRoot, 'reports')
@@ -189,6 +190,24 @@ const ATTRIBUTION_PATTERNS = [
 const countAttributions = (text: string): number =>
   ATTRIBUTION_PATTERNS.reduce((n, re) => n + [...text.matchAll(re)].length, 0)
 
+// ── H9 guard: the H1 must name the RIGHT degree, not just any degree ──
+// check-report-format used to verify the title's FORMAT only. A market report
+// shipped titled "Master of Business Analytics" for an MBA/Master of Marketing
+// program. Compare the parsed name against the generated v4 registry; compare
+// only where the registry has a name for the code.
+const V4_NAMES = loadV4Names()
+function checkTitleName(slug: string, firstLine: string, issues: string[]): void {
+  const m = firstLine.match(/\(([^)]+)\)\s*$/)
+  const nameMatch = firstLine.match(/^[^:]+:\s*(.+?)\s*\([^)]*\)\s*$/)
+  if (!m || !nameMatch) return
+  const code = m[1].toLowerCase()
+  const expected = V4_NAMES.get(code)
+  if (!expected) return
+  if (normaliseDegreeName(nameMatch[1]) !== normaliseDegreeName(expected)) {
+    issues.push(`title names "${nameMatch[1]}" but the registry has "${expected}" for ${m[1]}`)
+  }
+}
+
 for (const file of MARKET_FILES) {
   const slug = file.replace('.md', '')
   const grandfathered = MARKET_GRANDFATHERED.has(slug)
@@ -200,6 +219,7 @@ for (const file of MARKET_FILES) {
   if (!/^# DFVA MARKET INTELLIGENCE: .+ \(.+\)$/.test(firstLine)) {
     issues.push(`title mismatch: "${firstLine}"`)
   }
+  checkTitleName(slug, firstLine, issues)
 
   // Sections use ## (H2), not ### (H3)
   // Flag only mis-leveled numbered TOP-LEVEL sections (### N. NAME), not intentional

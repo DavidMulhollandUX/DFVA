@@ -33,6 +33,9 @@ if (!Array.isArray(codes) || codes.length === 0) {
   )
 }
 
+// H2: the full set of items the adversarial reviewer must attest to attacking.
+const REVIEWABLE = ['C1', 'C2', 'C3', 'C4', 'C5', 'W1', 'W2', 'W3', 'G1', 'G2']
+
 const ITEM = {
   type: 'object',
   required: ['score', 'rationale', 'evidenceLines'],
@@ -76,9 +79,18 @@ const SCORE_SCHEMA = {
 }
 const VERDICT = {
   type: 'object',
-  required: ['upheld', 'demotions', 'unquotable'],
+  required: ['upheld', 'demotions', 'unquotable', 'reviewed'],
   properties: {
     upheld: { type: 'boolean' },
+    reviewed: {
+      // Coverage contract (H2). A verdict used to record conclusions only, so
+      // "no finding" and "never looked" were indistinguishable and an inlined,
+      // truncated payload let C4-C5 and W1-W3 reach the record unattacked. The
+      // reviewer must now name every item it attacked.
+      type: 'array',
+      items: { enum: REVIEWABLE },
+      minItems: REVIEWABLE.length,
+    },
     demotions: {
       type: 'array',
       items: {
@@ -119,9 +131,18 @@ const results = await pipeline(
         `(2) Try to refute every gate PASS. ` +
         `(3) Check each evidenceLines entry appears VERBATIM in the extract; list any that do ` +
         `not in "unquotable". An item with an unquotable line drops to the highest level its ` +
-        `remaining evidence supports. Default to refuting when uncertain.`,
+        `remaining evidence supports. Default to refuting when uncertain. ` +
+        `(4) In "reviewed", list EVERY item you actually attacked — all of C1-C5, W1-W3 and the ` +
+        `gates G1, G2. A verdict that omits any of them is rejected.`,
       { label: `verify:${code}`, phase: 'Verify', schema: VERDICT },
-    ).then((verdict) => ({ code, scored, verdict })),
+    ).then((verdict) => {
+      // H2: the schema alone cannot prove the reviewer read what it listed, but
+      // a thrown stage drops this program to null and skips persist — an
+      // incompletely reviewed program is never written.
+      const missing = REVIEWABLE.filter((i) => !verdict.reviewed.includes(i))
+      if (missing.length) throw new Error(`verify:${code} missing ${missing.join(', ')}`)
+      return { code, scored, verdict }
+    }),
   (r) =>
     agent(
       `Apply these verified Panel C v4 results for "${r.code}": ${JSON.stringify(r)}. ` +
@@ -131,26 +152,56 @@ const results = await pipeline(
         `(2) Merge the panelCv4 block into dfva/source/evidence/${r.code}.json, preserving the ` +
         `existing v1 "byDimension" content untouched. Most cohort programs have no evidence ` +
         `file yet — if it is absent, create it as {"code": "${r.code}", "panelCv4": {...}} and ` +
-        `do NOT invent any v1 content. Stamp ` +
-        `"verified": {"adversarial": true, "mechanical": true, "date": "<today>"}. ` +
-        `(3) Do NOT write any report file — this pass produces scores only. ` +
-        `Return {code, adaptiveness, gates, ambiguities}.`,
+        `do NOT invent any v1 content. ` +
+        `Do NOT write a "verified" block, and do not change any existing one — the guard ` +
+        `script owns that field (run dfva-v4-verify-evidence.ts --stamp after the cohort). ` +
+        `(3) Do NOT raise any item score above its value in the scored block you were given. ` +
+        `The only permitted changes are demotions named in verdict.demotions. If you believe ` +
+        `the evidence supports a higher level, say so in your returned notes instead — an ` +
+        `increase needs a fresh capture and a fresh scoring pass. ` +
+        `(4) Do NOT write any report file — this pass produces scores only. ` +
+        `Return {code, adaptiveness, workplace, gates, ambiguities, items}, where items lists ` +
+        `EVERY panel item as {item, before, after} — before = the score in the block you were ` +
+        `given, after = the score you wrote.`,
       {
         label: `persist:${r.code}`,
         phase: 'Persist',
         schema: {
           type: 'object',
-          required: ['code', 'adaptiveness', 'workplace'],
+          required: ['code', 'adaptiveness', 'workplace', 'items'],
           properties: {
             code: { type: 'string' },
             adaptiveness: { type: 'integer' },
             workplace: { type: 'integer' },
             gates: { type: 'object' },
             ambiguities: { type: 'array', items: { type: 'string' } },
+            items: {
+              type: 'array',
+              items: {
+                type: 'object',
+                required: ['item', 'before', 'after'],
+                properties: {
+                  item: { type: 'string' },
+                  before: { type: 'integer' },
+                  after: { type: 'integer' },
+                },
+              },
+            },
           },
         },
       },
-    ),
+    ).then((persisted) => {
+      // H3: the writer may demote on a reviewer's word, never raise at write-up
+      // from the same evidence, and never move an item no reviewer proposed.
+      for (const { item, before, after } of persisted.items) {
+        if (after > before)
+          throw new Error(`persist:${r.code} raised ${item} ${before}→${after}`)
+        const proposed = r.verdict.demotions.find((d) => d.item === item)
+        if (after !== before && proposed?.to !== after)
+          throw new Error(`persist:${r.code} changed ${item} with no matching demotion`)
+      }
+      return persisted
+    }),
 )
 
 const done = results.filter(Boolean)
