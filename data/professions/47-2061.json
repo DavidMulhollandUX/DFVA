@@ -1,98 +1,107 @@
 {
-  "onet_soc_code": "47-2061",
-  "title": "Construction Laborers",
-  "aliases": [
-    "Builder's Labourer"
-  ],
-  "anzsco": "220000",
-  "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
-  },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
-  "programs": [],
-  "claims": [
+ "onet_soc_code": "47-2061",
+ "title": "Construction Laborers",
+ "aliases": ["Builder's Labourer"],
+ "anzsco": "220000",
+ "window": {"from": "2025-08-01", "to": "2026-08-26"},
+ "generated": "2026-08-26",
+ "expires": "2027-02-26",
+ "researchMethod": "empirical-five-lane-v1",
+ "programs": [],
+ "claims": [
+  {
+   "id": "c01",
+   "text": "Safe Work Australia confirms Australia will adopt the Workplace Exposure Limits for Airborne Contaminants (WEL list) from 1 December 2026, replacing the Workplace Exposure Standards (WES list) after WHS ministers agreed to a harmonised transition implemented into the WHS laws of the Commonwealth, states and territories; the change covers respirable crystalline silica among other contaminants.",
+   "lane": "L1",
+   "tier": "regulation-instrument-dated",
+   "sources": [
     {
-      "id": "47-2061-01",
-      "text": "National peak professional bodies and statutory regulators governing Construction Laborers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Construction Laborers",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Construction Laborers",
-          "url": "https://www.psc.gov.au/standards/47-2061",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Construction Laborers"
-        }
-      ],
-      "scope": "Australian practitioners in Construction Laborers across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "47-2061-02",
-      "text": "Automation of routine transactional and analytical tasks in Construction Laborers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Construction Laborers",
-          "url": "https://www.jobsandskills.gov.au/research/47-2061",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Construction Laborers in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Construction Laborers roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
+     "publisher": "Safe Work Australia",
+     "title": "Workplace Exposure Limits - airborne contaminants",
+     "url": "https://www.safeworkaustralia.gov.au/safety-topic/managing-health-and-safety/workplace-exposure-limits-airborne-contaminants",
+     "date": "2026-01-01",
+     "whatItMeasured": "Official statement of the WES-to-WEL transition date (1 December 2026) and the WHS ministers' agreement, as the binding exposure-standard instrument"
     }
+   ],
+   "scope": "All airborne contaminants, including respirable crystalline silica. Binding exposure-standard change that sets the lawful dust-exposure ceiling for construction and demolition labourers; it is not an employment, automation or wage instrument.",
+   "disposition": "scoped",
+   "supersedes": null,
+   "bearing": [],
+   "refuted": false,
+   "refuteNotes": "Lens 1 (source real): statutory national work-health body, page resolves HTTP 200 and is the authoritative transition statement. Lens 2 (population fit): applies to any worker exposed to airborne contaminants including labourers on dusty construction/demolition tasks. Lens 3 (in window): transition dated 1 December 2026, announced/active in 2026, inside window. No refuter overturned."
+  },
+  {
+   "id": "c02",
+   "text": "The Australian Centre for Disease Control (CDC) published updated national guidance on 1 July 2026 stating that around 4% of Australian workers are at risk of exposure to respirable crystalline silica across construction, demolition, tunnelling, mining, masonry and engineered stone, with researchers estimating current workplace exposure could lead to more than 83,000 future cases; it reaffirms the 2024 nationwide ban on the importation and use of engineered stone.",
+   "lane": "L3",
+   "tier": "government-health-guidance-dated",
+   "sources": [
+    {
+     "publisher": "Australian Centre for Disease Control (CDC)",
+     "title": "Updated national guidance helps doctors protect Aussie workers from silica dust",
+     "url": "https://www.cdc.gov.au/newsroom/news-and-articles/updated-national-guidance-helps-doctors-protect-aussie-workers-silica-dust",
+     "date": "2026-07-01",
+     "whatItMeasured": "Government health-agency release on updated clinical guidance, the share of workers exposed to silica, and the projected future case burden"
+    }
+   ],
+   "scope": "Health-professional guidance and disease-burden estimates, not a new binding instrument. Relevant to construction labourers because cutting, grinding and demolition generate silica dust; the 2024 engineered-stone ban predates the window and is noted only as background.",
+   "disposition": "scoped",
+   "supersedes": null,
+   "bearing": [],
+   "refuted": false,
+   "refuteNotes": "Lens 1 (source real): official Australian CDC news page, resolves HTTP 200, dated 1 July 2026. Lens 2 (population fit): construction and demolition are named exposure industries, so the 4% / 83,000 figures include this occupation. Lens 3 (in window): July 2026, inside window. Dissent recorded: the 83,000 figure is a forward estimate from researchers, not a confirmed case count."
+  },
+  {
+   "id": "c03",
+   "text": "2026 rate cards for Australian construction labour classify a CW1 General Construction Labourer under the Building and Construction General On-site Award (MA000020) with an award pay floor of about $33.94 to $38.00 per hour (from 1 July 2025), while labour-hire charge rates for the same worker run higher (about $51 to $64 per hour ex-GST); EBA-covered site labourers carry higher floors still.",
+   "lane": "L3",
+   "tier": "trade-rate-card-dated",
+   "sources": [
+    {
+     "publisher": "EIR Labour Hire",
+     "title": "CW1 vs CW4 vs EBA - Construction Rates 2026",
+     "url": "https://eirlabourhire.com.au/cw1-vs-cw4-vs-eba-construction-rates",
+     "date": "2026-01-01",
+     "whatItMeasured": "Private labour-hire vendor's 2026 rate card for CW1 general construction labourer award pay rates and charge rates, referencing Award MA000020 from 1 July 2025"
+    }
+   ],
+   "scope": "Vendor-published rate card, not an official award document; the pay-floor figures mirror the Building and Construction General On-site Award but are presented by a commercial supplier. It describes pay structure, not employment levels or automation.",
+   "disposition": "scoped",
+   "supersedes": null,
+   "bearing": [],
+   "refuted": false,
+   "refuteNotes": "Lens 1 (source real): active labour-hire vendor page, resolves HTTP 200, references the named Award (MA000020) and effective date 1 July 2025. Lens 2 (population fit): CW1 general labourer is this occupation's award classification; the figures are consistent with the Award floor the vendor claims to follow. Lens 3 (in window): 2026 rate card, inside window. Dissent recorded: figures are vendor-stated, so held at trade tier rather than as official award data."
+  }
+ ],
+ "jobAds": {
+  "source": "adzuna-au",
+  "query": "construction labourer",
+  "retrieved": "2026-08-26",
+  "count": 589,
+  "topEmployers": ["Buildsafe", "EIR Labour Hire", "HAYS", "Buildsafe Queensland", "Synaco Global Recruitment", "JV Recruitment", "DSC Personnel", "Dash Group"],
+  "topSkills": ["construction labouring", "safety", "white card", "civil works", "driver licence", "tickets"],
+  "notes": "The top employers are labour-hire firms (Buildsafe, EIR, HAYS, Synaco), a structural signal that much general labouring is engaged through intermediaries rather than direct hire. No listing mentions AI skills."
+ },
+ "corpus": {
+  "platforms": [
+   {"name": "reddit", "scope": "r/Construction, r/ConstructionWorkers", "items": 3},
+   {"name": "hackernews", "scope": "keyword sweep", "items": 3},
+   {"name": "youtube", "scope": "keyword sweep", "items": 2},
+   {"name": "github", "scope": "keyword sweep", "items": 12},
+   {"name": "grounding", "scope": "web sweep", "items": 0}
   ],
-  "jobAds": {
-    "source": "adzuna-au",
-    "query": "construction laborers",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
-    "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
-    ],
-    "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ]
-  },
-  "corpus": {
-    "platforms": [
-      {
-        "name": "practitioner_forums",
-        "scope": "National Construction Laborers Association discourse",
-        "items": 45
-      }
-    ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": []
-  },
-  "confidence": "high",
-  "caveats": []
+  "retrieved": "2026-08-26",
+  "searchesReturningNothing": [
+   "Factiva omitted: unattended run",
+   "last30days grounding: no-results",
+   "No in-scope items: reddit threads are US/UK, HN/youtube/github off-topic; no Australian construction-labourer practitioner discourse found",
+   "X coverage degraded (bird_authenticated: false); TikTok and Instagram unconfigured (has_scrapecreators: false)"
+  ]
+ },
+ "confidence": "medium",
+ "caveats": [
+  "L5 corpus declared but contains zero in-scope Australian practitioner items.",
+  "Factiva omitted (unattended run); L2/L3 rest on public sources.",
+  "c03 wage figures are vendor-stated; the official Award floor is referenced but not independently retrieved here."
+ ]
 }
