@@ -42,6 +42,22 @@ if [ "$FORCE" != true ]; then
   fi
 fi
 
+# Guard: the build below resolves `wasp/*` imports out of .wasp/out/sdk. That
+# directory is generated, gitignored, and easy to lose — a bare `wasp build`
+# clears .wasp/out and then fails on the Dummy email provider, leaving nothing
+# behind. Without this check vite dies on an ESM module-resolution stack trace
+# that says nothing about the cause.
+if [ ! -d .wasp/out/sdk ]; then
+  echo "❌ .wasp/out/sdk is missing — the Wasp SDK has not been generated here."
+  echo "   Regenerate it, then re-run this script:"
+  echo "     scripts/dev-db.sh start     # from the repo root"
+  echo "     cd compass/app && wasp start"
+  echo "   Never run a bare \`wasp build\` to fix this: it fails on the Dummy"
+  echo "   email provider by design and clears .wasp/out on the way. Use"
+  echo "   ./wasp-build.sh if you want to test a production build."
+  exit 1
+fi
+
 API_URL="${REACT_APP_API_URL:-https://compass-server-sxd.fly.dev}"
 BUILD_DIR=".wasp/out/web-app/build"
 DEV_DIR=".wasp/out/web-app/build-dev"

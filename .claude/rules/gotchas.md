@@ -30,6 +30,21 @@
 
 - **Postgres is NOT Docker.** It runs via Apple's `container` CLI (`dfva-pg`). `wasp start db` refuses to run because `DATABASE_URL` is set in `.env.server` (custom-db mode). Use `scripts/dev-db.sh start` + `wasp start`.
 - **After a Mac reboot** the loopback publish rule drops — re-run `scripts/dev-db.sh start` (and `container system start` if the service is down).
+- **Never run a bare `wasp build`.** It always fails here —
+  `app.emailSender must not be set to Dummy when building for production` — because
+  `main.wasp.ts` keeps `provider: "Dummy"` so local `wasp start` prints confirmation
+  links to the server log. `deploy-server.sh` flips it to SMTP for the build and
+  reverts via an `EXIT` trap. The damage is the order of events: `wasp build` clears
+  `.wasp/out` **before** it fails, so the generated SDK goes with it and
+  `deploy-dev.sh` can no longer build the frontend. Use `compass/app/wasp-build.sh`
+  to test a production build (same flip, same trap, refuses on a dirty
+  `main.wasp.ts`), or `wasp start` to put `.wasp/out` back.
+- **A stale `.wasp/out/web-app/build` is NOT a stale-deploy risk.** `deploy-dev.sh`
+  runs `npx vite build`, which reads `compass/app/src` directly and overwrites that
+  directory — the build dir's date says nothing about what ships. What does matter
+  is `.wasp/out/sdk`, which resolves the `wasp/*` imports; `deploy-dev.sh` now
+  checks for it up front rather than dying on an ESM module-resolution stack trace.
+
 - **`wasp db migrate-dev` falsely reports "Can not connect to database"** (wasp 0.22.0 quirk). Use `DATABASE_URL=… npx prisma migrate dev --schema compass/app/.wasp/out/db/schema.prisma` instead.
 - **`DFVA_MOCK=true` in dev** — OpenAI/Stripe/S3 keys in `.env.server` are dummies; the mock service returns hardcoded assessments for the programs in `src/compass/sharedProgramData.ts`. Don't debug "broken" integrations; set `DFVA_MOCK=false` + real `OPENAI_API_KEY` for the real pipeline.
 - **`compass-static/` is deleted** (decommissioned 2026-07-04). All UI work goes in `compass/app`. Ignore any stale references to it.
