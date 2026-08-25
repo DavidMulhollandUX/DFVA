@@ -1809,76 +1809,76 @@
      "ts": "2026-08-25T14:18:51+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/crim90010/assessment": {
-     "chars": 0,
+     "chars": 1412,
      "slot": "subj-crim90010-assessment",
-     "status": "inflight",
-     "ts": "2026-08-25T13:33:08+00:00"
+     "status": "done",
+     "ts": "2026-08-25T22:26:38+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/crim90011": {
-     "chars": 0,
+     "chars": 2867,
      "slot": "subj-crim90011",
-     "status": "inflight",
-     "ts": "2026-08-25T13:33:08+00:00"
+     "status": "done",
+     "ts": "2026-08-25T22:27:05+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/crim90011/assessment": {
-     "chars": 0,
+     "chars": 1630,
      "slot": "subj-crim90011-assessment",
-     "status": "inflight",
-     "ts": "2026-08-25T13:33:08+00:00"
+     "status": "done",
+     "ts": "2026-08-25T21:22:24+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/crim90015": {
-     "chars": 0,
+     "chars": 2670,
      "slot": "subj-crim90015",
-     "status": "inflight",
-     "ts": "2026-08-25T13:33:08+00:00"
+     "status": "done",
+     "ts": "2026-08-25T21:22:50+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/crim90015/assessment": {
-     "chars": 0,
+     "chars": 1430,
      "slot": "subj-crim90015-assessment",
-     "status": "inflight",
-     "ts": "2026-08-25T13:33:08+00:00"
+     "status": "done",
+     "ts": "2026-08-25T23:14:48+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/crim90017": {
-     "chars": 0,
+     "chars": 2668,
      "slot": "subj-crim90017",
-     "status": "inflight",
-     "ts": "2026-08-25T13:33:08+00:00"
+     "status": "done",
+     "ts": "2026-08-25T23:15:15+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/crim90017/assessment": {
-     "chars": 0,
+     "chars": 1408,
      "slot": "subj-crim90017-assessment",
-     "status": "inflight",
-     "ts": "2026-08-25T13:33:08+00:00"
+     "status": "done",
+     "ts": "2026-08-25T22:38:19+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/crim90018": {
-     "chars": 0,
+     "chars": 2660,
      "slot": "subj-crim90018",
-     "status": "inflight",
-     "ts": "2026-08-25T13:33:08+00:00"
+     "status": "done",
+     "ts": "2026-08-25T22:38:45+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/crim90018/assessment": {
      "chars": 0,
      "slot": "subj-crim90018-assessment",
      "status": "inflight",
-     "ts": "2026-08-25T13:33:08+00:00"
+     "ts": "2026-08-25T22:41:24+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/crim90019": {
      "chars": 0,
      "slot": "subj-crim90019",
      "status": "inflight",
-     "ts": "2026-08-25T13:33:08+00:00"
+     "ts": "2026-08-25T22:41:24+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/crim90019/assessment": {
-     "chars": 0,
+     "chars": 1356,
      "slot": "subj-crim90019-assessment",
-     "status": "inflight",
-     "ts": "2026-08-25T13:33:08+00:00"
+     "status": "done",
+     "ts": "2026-08-25T22:44:14+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/crim90020": {
-     "chars": 0,
+     "chars": 2145,
      "slot": "subj-crim90020",
-     "status": "inflight",
-     "ts": "2026-08-25T13:33:08+00:00"
+     "status": "done",
+     "ts": "2026-08-25T22:44:41+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/crim90020/assessment": {
      "chars": 0,
@@ -15551,7 +15551,7 @@
      "chars": 0,
      "slot": "subj-educ90715",
      "status": "inflight",
-     "ts": "2026-08-25T21:11:09+00:00"
+     "ts": "2026-08-25T23:14:34+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/educ90715/assessment": {
      "chars": 0,
@@ -15563,7 +15563,7 @@
      "chars": 0,
      "slot": "subj-educ90716",
      "status": "inflight",
-     "ts": "2026-08-25T21:11:09+00:00"
+     "ts": "2026-08-25T23:14:34+00:00"
     },
     "https://handbook.unimelb.edu.au/2026/subjects/educ90716/assessment": {
      "chars": 0,
