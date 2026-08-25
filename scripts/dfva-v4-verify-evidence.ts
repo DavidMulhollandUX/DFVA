@@ -29,6 +29,15 @@
  *   npx tsx dfva-v4-verify-evidence.ts --code mc-it
  *   npx tsx dfva-v4-verify-evidence.ts --suggest              # nearest capture text
  *   npx tsx dfva-v4-verify-evidence.ts --suggest --kind tail-drift
+ *
+ * CAPTURE IDENTITY. Matching every line against a capture proves nothing if the
+ * capture is the wrong program. mc-evalo was scored on the Master of
+ * Environment's Development specialisation: its courses/mc-evalo/course-structure
+ * block came back byte-identical to the components/mc-env-spec-3 block, and the
+ * queue then planned its subject pages off that wrong structure, so all 34
+ * subject pages captured belong to the other program. Every evidence line
+ * matched. The check below is the one that would have caught it: a program's own
+ * course page must name the program or carry its code.
  */
 import { readdirSync, readFileSync, existsSync } from 'node:fs'
 import path from 'node:path'
@@ -289,4 +298,53 @@ if (SUGGEST) {
     for (const l of r.unmatched.slice(0, 3)) console.log(`    ${l.slice(0, 150)}`)
   }
 }
+// --- capture identity ------------------------------------------------------
+// A page fetched under /courses/<code> that names neither the program nor the
+// code is not that program's page. Reported, not yet wired into --strict: the
+// one known case cannot be cleared by an edit, only by a recapture and a
+// re-score, and failing the build before that work exists would only teach
+// people to pass --no-verify.
+const V4_NAMES = new Map<string, string>()
+{
+  const panelSrc = readFileSync(
+    path.join(ROOT, 'compass/app/src/compass/v4/data/v4PanelC.ts'),
+    'utf8',
+  )
+  const re = /"code":\s*"([^"]+)",\s*\n\s*"name":\s*"([^"]+)"/g
+  let m: RegExpExecArray | null
+  while ((m = re.exec(panelSrc))) if (!V4_NAMES.has(m[1])) V4_NAMES.set(m[1], m[2])
+}
+
+const misidentified: Array<{ code: string; url: string; name: string }> = []
+for (const r of rows) {
+  if (r.noCapture) continue
+  const name = V4_NAMES.get(r.code)
+  if (!name) continue
+  const raw = readFileSync(path.join(CAPTURE, `${r.code}.txt`), 'utf8')
+  const parts = raw.split(/^===== SOURCE: (\S+) =====$/m)
+  for (let i = 1; i < parts.length; i += 2) {
+    const url = parts[i]
+    const body = parts[i + 1] ?? ''
+    if (!new RegExp(`/courses/${r.code}(/|$)`).test(url)) continue
+    if (body.trim().length < 400) continue
+    const nb = norm(body)
+    if (nb.includes(norm(name)) || nb.includes(r.code.toLowerCase())) continue
+    misidentified.push({ code: r.code, url, name })
+  }
+}
+if (misidentified.length) {
+  console.log(
+    `\n❌ ${misidentified.length} capture(s) hold a page that is not the program's:`,
+  )
+  for (const m of misidentified) {
+    console.log(`   ${m.code} (${m.name}) — ${m.url} names neither the program nor its code`)
+  }
+  console.log(
+    '   A capture that is the wrong program makes every matched line meaningless.\n' +
+      '   Fix by recapturing and re-scoring, never by editing the evidence.',
+  )
+} else {
+  console.log('\n✓ capture identity: every own-course page names its program')
+}
+
 if (STRICT && falseClaims.length) process.exit(1)
