@@ -1,9 +1,8 @@
 # DFVA v4 DURABILITY REPORT: Master of Evaluation (MC-EVALO)
 
 **Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
-**Assessment date:** 2026-08-24
-**Handbook vintage:** 2026 · **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-evalo (course, attributes, structure) plus the overview and assessment pages of the compulsory subjects — 37 pages captured
-**Course Director:** Joshua McGrane
+**Assessment date:** 2026-08-25
+**Handbook vintage:** 2026 · **Source URL(s):** https://handbook.unimelb.edu.au/2026/courses/mc-evalo (course, attributes, structure) plus the overview and assessment pages of the compulsory subjects — 18 pages captured
 
 > **Draft-instrument notice.** Panel C v4.2 is a working-draft instrument
 > ([v4 recommendation §7](../docs/dfva-panelc-v4-recommendation.md), 2026-08-13;
@@ -20,11 +19,11 @@
 
 **Destination AI Exposure: 96.58.** Destination titles are crosswalked to the published Felten AIOE index and rescaled 0–100 by the Panel A procedure used for every other program; 6 of 13 titles carry medium mapping confidence. Basis: measured on the program's own alumni destination record (n = 86, 13 titles). The portfolio median is 90.9, so this program sits **above** it.
 
-**Curriculum Adaptiveness: 10 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
+**Curriculum Adaptiveness: 6 / 15.** Scored on Panel C v4.2 sub-scale A [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) from 2026 handbook evidence: anchors are declarative statements about documented curriculum evidence, level 3 requires assessment evidence, and ambiguous evidence resolves to the lower level.
 
-**Workplace Practice: 5 / 9.** Scored on sub-scale W [[19]](https://www.legislation.gov.au/F2021L00488) in the same pass, from the same extract. The position axis remains adaptiveness alone; the workplace sub-score is reported beside it, not folded into the axis, and the two are never added together.
+**Workplace Practice: 3 / 9.** Scored on sub-scale W [[19]](https://www.legislation.gov.au/F2021L00488) in the same pass, from the same extract. The position axis remains adaptiveness alone; the workplace sub-score is reported beside it, not folded into the axis, and the two are never added together.
 
-**Position: High exposure · high adaptiveness.** Assigned against the v4 medians (exposure 90.9, adaptiveness 9), computed from all 34 reference-cohort programs re-scored on this instrument. This is the deterministic median rule the site applies, not a probabilistic stability class.
+**Position: High exposure · low adaptiveness.** Assigned against the v4 medians (exposure 90.9, adaptiveness 9), computed from all 34 reference-cohort programs re-scored on this instrument. This is the deterministic median rule the site applies, not a probabilistic stability class.
 
 ## 2. PANEL C v4.2 SCORECARD — Basis: scored
 
@@ -33,110 +32,197 @@ combined total: the sub-scores are reported side by side and never added.
 
 | Item | Score | Rationale (anchor-referenced) |
 | --- | --- | --- |
-| C1 Distributed cognition & relational capability [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[5]](https://doi.org/10.1093/qje/qjx022)[[7]](https://doi.org/10.1016/j.techfore.2016.08.019) | 2 | Level 2 anchor is satisfied: assessed collaborative teamwork recurs across core and compulsory subjects: MULT90004 (group verbal, visual and written report, 3,000w total / 750w each), MULT90005 (collaborative group briefing paper, 1,500w per student), DEVT90009 (case study group presentation), and DEVT90041 (group assignment). Level 3 is not met: formal assessed division-of-labor charters allocating tasks between human evaluators and AI systems (e.g. AI-driven qualitative thematic coding vs human evaluative judgement) are unevidenced. |
-| C2 Hybrid metacognition & evaluative judgement [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[4]](https://doi.org/10.1007/s10734-017-0220-3)[[3]](https://www.teqsa.gov.au/sites/default/files/2023-09/assessment-reform-age-artificial-intelligence-discussion-paper.pdf) | 2 | Level 2 anchor is satisfied: core assessment requires criterion-referenced evaluative judgement across complex program evaluations, impact assessments (ENST90002 Social Impact Assessment and Evaluation), development research designs (DEVT90041), and multi-stakeholder policy briefing papers (MULT90005). Level 3 is not met: no core assessment requires students to systematically audit, verify, and document reliance and override decisions regarding AI data analytics, synthetic survey analysis, or automated evaluation synthesis tools over time. |
-| C3 Digital & AI literacy, including governance [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[13][[11]](https://doi.org/10.1145/3313831.3376727)[[12]](https://unesdoc.unesco.org/ark:/48223/pf0000391105)[[2]](https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/) | 2 | Level 2 anchor is satisfied: core units utilize and assess quantitative and qualitative data analytics software, survey research design tools, and development research evaluation technologies (DEVT90041 Development Research Design & Assessment, ENST90002 Social Impact Assessment and Evaluation). Level 3 is not met: systemic critique of AI governance in program evaluation (algorithmic bias in social impact models, synthetic control evaluation ethics, and automated performance auditing governance) is not formally assessed across the core. |
-| C4 Life-long learning & transfer [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[9]](https://www.nationalacademies.org/read/13398/chapter/2)[[10]](https://doi.org/10.1007/s10459-025-10413-y)[[2]](https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/) | 2 | Level 2 anchor is satisfied: core assessment requires transfer of evaluation theories, methodology frameworks, and impact assessments across diverse public policy, development, education, welfare, and healthcare contexts (DEVT90002, DEVT90009, DEVT90041, ENST90002). Level 3 is not met: structured identification of personal professional capability gaps with an assessed AES continuing professional learning plan across every student is unevidenced. |
-| C5 Inquiry & evidence generation [14][15][[7]](https://doi.org/10.1016/j.techfore.2016.08.019) | 2 | Level 2 anchor is satisfied: students design and conduct evaluative inquiries, empirical research designs, and impact evaluations (DEVT90041 Development Research Design essay 3,000w, ENST90002 Project Report 2,500w, and capstone research options). Level 3 is not met: because 100pt candidates can fulfill requirements via coursework or literature review rather than a mandatory primary research thesis defended under universal viva examination, it scores at Level 2. |
-| **Adaptive capabilities** | **10 / 15** | |
-| W1 Professional communication & conduct [[19]](https://www.legislation.gov.au/F2021L00488)[[20]](https://www.qilt.edu.au/surveys/employer-satisfaction-survey-%28ess%29)[[21]](https://www.dewr.gov.au/skills-information-training-providers/resources/core-skills-work-developmental-framework)[[31]](https://www.naceweb.org/career-readiness/competencies/career-readiness-defined)[[5]](https://doi.org/10.1093/qje/qjx022)[[32]](https://doi.org/10.1086/504455) | 2 | Level 2 anchor is satisfied: professional communication is assessed repeatedly across core units (professional portfolios/reports in DEVT90002, policy briefing papers in MULT90005, oral presentations in DEVT90003/DEVT90009, and impact reports in ENST90002). Level 3 is not met: formal grading of professional conduct and evaluation communication by external registered Australasian Evaluation Society (AES) practitioners across the compulsory core is unevidenced. |
-| W2 Authentic task design [[22]](https://doi.org/10.1007/BF02504676)[[23]](https://doi.org/10.1080/02602938.2017.1412396)[[25]](https://doi.org/10.1016/j.stueduc.2021.101030)[26][[24]](https://doi.org/10.1080/02602938.2024.2404634) | 2 | Level 2 anchor is satisfied: authentic tasks form a substantial part of core coursework: professional project management portfolios (DEVT90002), social impact evaluations (ENST90002), and stakeholder briefing papers (MULT90005). Level 3 is not met: universal core assessments do not carry the full unyielding external constraints of practice (e.g. real commercial client evaluation contracts with consequential stakeholder scrutiny). |
-| W3 Work-situated learning [[19]](https://www.legislation.gov.au/F2021L00488)[27][[29]](https://doi.org/10.1080/07294360.2016.1139551)[[28]](https://doi.org/10.1007/s10734-017-0216-z)[[35]](https://doi.org/10.1080/03075070903216635)[[30]](https://www.education.gov.au/australian-universities-accord/resources/final-report) | 1 | Level 1 anchor is satisfied: work-situated learning is formally structured as an optional capstone/elective route (GEOG90022 Internship with Host Supervisor Assessment Report / ENST90025 Environmental Industry Research) or own-practice evaluation in the student's workplace, but is not mandatory for all students across the universal core. |
-| **Workplace practice** | **5 / 9** | |
+| C1 Distributed cognition & relational capability [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[5]](https://doi.org/10.1093/qje/qjx022)[[7]](https://doi.org/10.1016/j.techfore.2016.08.019) | 0 | Level 0 anchor - 'No collaborative, stakeholder or team-based work is assessed anywhere in the core' - is affirmatively satisfied, and the score is lowered from a submitted 1 on adversarial challenge. The level-1 anchor requires collaboration or teamwork to appear in LEARNING OUTCOMES; in this capture it does not. The five outcomes blocks - the four course intended learning outcomes and the outcome lists of EDUC90847, EDUC90848, EDUC90850 and EDUC90747 - name no collaboration, teamwork, group or stakeholder work. The only stakeholder and client language sits in the Graduate attributes block ('communicating with clients and stakeholders') and in subject-overview taught-topic prose ('stakeholder engagement strategies'), neither of which is a learning outcome. The omission is deliberate instrument drafting: C2 level 1 reads 'outcomes or graduate attributes', W1 level 1 reads 'learning outcomes or graduate attributes', C3 level 0 reads 'any core unit or program-level outcome', while C1 level 1 reads 'learning outcomes' alone. The nearest outcome, EDUC90747's 'Communicate findings in written and verbal forms', is communication to an audience, which is the W1 construct. On the level-0 test itself, every assessed task in the compulsory core is an individually authored artefact - EDUC90847's Project and Synthesis exercise, EDUC90848's Online exercises, Midterm Exam and Research Proposal, EDUC90850's Practical activities and Case-based analysis, and EDUC90747's proposal, written task and individual oral presentation. The one interactive task, EDUC90847's critical reflection on peers' projects, is appraisal of the quality of work and scores in C2 under the one-construct-one-home rule; the capstone's real-project route is workplace immersion and scores in W3. Elective content cannot lift the item above level 1. This matches the settled treatment of 511aa, 742ab and 300bb, each of which scores 0 on the same structure. |
+| C2 Hybrid metacognition & evaluative judgement [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[4]](https://doi.org/10.1007/s10734-017-0220-3)[[3]](https://www.teqsa.gov.au/sites/default/files/2023-09/assessment-reform-age-artificial-intelligence-discussion-paper.pdf) | 2 | Level 2 anchor - 'Core assessment includes criterion-referenced appraisal of quality: peer review, structured critique, portfolio with standards, marking against exemplars' - is met by named, weighted assessment in the compulsory core, so R2 is satisfied. EDUC90847 assesses 'Community: Critical reflection on peer's projects (4 x 250 word posts)' at 20%, which is peer review, against the subject learning outcome 'Assess quality in evaluation practice'. EDUC90850 assesses 'Case-based analysis' at 65% against the outcome 'Analyse and criticize evaluation products', and its outcomes name the standards the critique is referenced to ('Identify different sets of standards, competencies and ethics for practice'). EDUC90848 states it 'prepares students to critically appraise the quality of existing evaluations'. Level 3 is not met: no assessment task requires students to document and justify reliance decisions - when they relied on or overrode a tool, source or collaborator - to defend judgements of AI-output quality, or to evidence strategy adjustment over time. The nearest evidence is the capstone outcome 'Critically discuss one's self knowledge and skills in the evaluation field' and the capstone overview's statement that the project is an opportunity to reflect on what the course taught, both of which are statements attached to no assessment row, which R2 forbids scoring at level 3. |
+| C3 Digital & AI literacy, including governance [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[13][[11]](https://doi.org/10.1145/3313831.3376727)[[12]](https://unesdoc.unesco.org/ark:/48223/pf0000391105)[[2]](https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/) | 0 | Level 0 anchor - 'No digital/AI content in any core unit or program-level outcome' - holds literally. The four course-level intended learning outcomes, the three graduate-attribute statements, and the overviews and outcome lists of all four compulsory subjects (EDUC90847, EDUC90848, EDUC90850, EDUC90747) name no digital tool, software, data system, automation or artificial intelligence. EDUC90850's content list is 'the nature and purposes of evaluation, the logic of evaluation, types of evaluations, values, and professional standards'; EDUC90847's is evaluation methods, planning, stakeholder engagement and reporting. Level 1 is not met: it requires AI or digital tools to appear at least as electives or as tool operation and training, and no elective in the list of seven is documented as digital or AI content - the capture for those subjects is assessment tables only, and none names a tool, platform or software. The word 'online' throughout the capture denotes delivery mode ('Delivered: Online', 'Term 2 (Online)', 'Online quiz', 'via video conference'), not documented digital-literacy curriculum, and R1 forbids crediting mode as content. |
+| C4 Life-long learning & transfer [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[9]](https://www.nationalacademies.org/read/13398/chapter/2)[[10]](https://doi.org/10.1007/s10459-025-10413-y)[[2]](https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/) | 3 | Level 3 anchor - 'The program documents structured progression toward independent learning: a self-scoped capstone or research project' - is met on assessment evidence, not outcome statements, so R2 is satisfied. EDUC90747 Evaluation Capstone is compulsory, is 'taken in the final semester of the Master of Evaluation', draws on theory, knowledge and skills developed throughout the program, and requires students to 'scope and complete an individual project'. The scoping is itself an assessed, weighted task: 'A project proposal indicating content, scope, and plan', 1000 words, Week 4, 20%, with the outcome 'Plan evaluation activities or plan a literature review'. That is a self-scoped capstone, documented and assessed, positioned at the end of a staged program of four compulsory subjects. Level 2 is comfortably cleared beneath it: EDUC90850's 'Case-based analysis' at 65% applies analytic methods to cases against the outcome 'Define and explain methods to analyse programs and apply them to simple cases', and EDUC90848's research proposal requires methodological choice for an unfamiliar evaluation context. |
+| C5 Inquiry & evidence generation [14][15][[7]](https://doi.org/10.1016/j.techfore.2016.08.019) | 1 | Level 1 anchor - 'Introductory methods unit; literature-review assessment' - is what the compulsory core documents, and the score is lowered from a submitted 2 on adversarial challenge. The methods unit is EDUC90848 Applied Research Methodology, which 'equips students with practical skills to select appropriate research methodologies for conducting evaluation research across diverse contexts' and assesses that selection in a 60% 'Final Project: Research Proposal' against the outcomes 'Formulate research questions and operationalise relevant constructs using appropriate tools' and 'Demonstrate knowledge of basic foundations of research design including ethical requirements of research involving human subjects'. The literature-review assessment is present too, as the capstone's second route, 'a critical review of a particular body of literature in evaluation'. Level 2 is not met. Its anchor is a conjunction - 'Students design and conduct an inquiry with methodology selection and data collection, assessed' - and only the design half is documented. The EDUC90848 task is a proposal and stops at the proposal; it selects a methodology and collects nothing. Conduct and data collection are documented nowhere in the compulsory core: EDUC90847's assessment row states only 'Project', its length and its weight - '3000 words (equivalent) ... Week 8 ... 60%' - and says nothing about what the project collects or from whom. The conducting language, 'Apply evaluation theory to designing and conducting an evaluation', is an intended learning outcome, and R2 caps at 1 a capability that appears in outcomes but is never assessed. The capstone does not supply the missing half either: its data route is one of two - 'either 1) a participation in a real evaluation project ... or 2) a critical review of a particular body of literature' - and its outcome is likewise disjunctive ('Analyse data and synthesize research findings ... or analyse and argue on theories and findings from the evaluation literature'), so a student can complete the program without collecting any data. Level 3, which additionally requires primary-evidence generation to be REQUIRED and the methodology defended under scrutiny, fails a fortiori. |
+| **Adaptive capabilities** | **6 / 15** | |
+| W1 Professional communication & conduct [[19]](https://www.legislation.gov.au/F2021L00488)[[20]](https://www.qilt.edu.au/surveys/employer-satisfaction-survey-%28ess%29)[[21]](https://www.dewr.gov.au/skills-information-training-providers/resources/core-skills-work-developmental-framework)[[31]](https://www.naceweb.org/career-readiness/competencies/career-readiness-defined)[[5]](https://doi.org/10.1093/qje/qjx022)[[32]](https://doi.org/10.1086/504455) | 1 | Level 1 anchor - 'Communication or professional conduct appears in learning outcomes or graduate attributes; core assessment adds presentation to peers/staff, but no professional genre and no audience beyond the teaching team' - is met exactly. The outcome side is satisfied by EDUC90747's 'Communicate findings in written and verbal forms' and by the graduate attribute naming skill in 'communicating with clients and stakeholders'. The spoken side is satisfied by a compulsory, universal task: the capstone's 20-minute 'Oral presentation at the end of term that provides a synthesis of the Capstone project', carried as a hurdle requirement. Level 2 is not met: no core assessment is documented as a recognised professional genre judged against criteria drawn from practice, and no audience beyond the teaching team is documented. The capstone written task is 'such as an article or project report', so the professional genre is one option and the academic genre the other, and R3 resolves that downward; the oral presentation is delivered in person or by video conference with no external panel, client or practitioner named. Evaluation reporting appears as taught content in EDUC90847's topic list but attaches to no assessment row, which R2 excludes. |
+| W2 Authentic task design [[22]](https://doi.org/10.1007/BF02504676)[[23]](https://doi.org/10.1080/02602938.2017.1412396)[[25]](https://doi.org/10.1016/j.stueduc.2021.101030)[26][[24]](https://doi.org/10.1080/02602938.2024.2404634) | 1 | Level 1 anchor - 'Contextualised or scenario-framed tasks appear (case studies, worked scenarios), but the artefact produced and the criteria applied remain academic' - is affirmatively met, and the score is lowered from a submitted 2, which the adversarial pass refuted unanimously on three lenses. EDUC90850's 65% 'Case-based analysis' is exactly a case-study task, on cases the subject's own outcome calls simple - 'Define and explain methods to analyse programs and apply them to simple cases' - and EDUC90847's 20% 'Synthesis exercise' is academic in form. The level-2 anchor reads, in full: 'At least one core assessment reproduces a professional task end to end: a real or realistic problem, producing the artefact a practitioner would produce, judged against criteria drawn from practice.' That is a three-part conjunction. The submitted rationale quoted only the first two parts and dropped the third, and dropping it is how the wrong score got in. The third part is plainly undocumented: no assessment row anywhere in this capture states any criterion, rubric or standard. Every assessment table in the capture carries the same three columns - 'Description Timing Percentage' - so each row records what the task is, how long it is, when it falls and what it is worth, and nothing about how it is judged. Nothing in the capture therefore says the criteria are drawn from practice, and R1 forbids supplying them from what a practising evaluator plausibly would be held to. The realism conjunct is unearned as well. EDUC90848's 60% 'Final Project: Research Proposal' is the artefact a practising evaluator produces before fieldwork, and the subject documents contextual design constraints - 'designing applied studies to suit different contexts and evaluative purposes', 'considering stakeholder needs, resources, and other contextual factors' - but the only real problem documented in the core is the capstone's real-project route, which is one of two options and is already housed in W3 under the one-construct-one-home rule. R3 resolves the straddle downward. |
+| W3 Work-situated learning [[19]](https://www.legislation.gov.au/F2021L00488)[27][[29]](https://doi.org/10.1080/07294360.2016.1139551)[[28]](https://doi.org/10.1007/s10734-017-0216-z)[[35]](https://doi.org/10.1080/03075070903216635)[[30]](https://www.education.gov.au/australian-universities-accord/resources/final-report) | 1 | Level 1 anchor - 'Work-situated learning exists only as an elective, an optional internship, or an unassessed extracurricular or careers activity' - is met. The cohort is documented as already practising, so the v4.2 in-practice route is open to this program: the overview names 'policy and program planners, trainers, teachers, performance auditors, internal monitoring and evaluation staff, project staff, managers, medical staff, and independent consultants' drawn from the public sector, non-government agencies and business. Work-situated activity appears once, as an option: the capstone project is 'either 1) a participation in a real evaluation project ... or 2) a critical review of a particular body of literature'. Level 2 is not met on either route. On the placement route, no core unit places students in a workplace with practitioner supervision. On the in-practice route, no core unit requires activity conducted in the student's own professional practice with real recipients and a documented outcome measure - the real-project route is elective within the capstone, the handbook does not require the project to sit in the student's own workplace, and no host or workplace supervisor assessment, hours log or accountability to workplace stakeholders is documented. R3 resolves the optional route downward. |
+| **Workplace practice** | **3 / 9** | |
 
-**C1 Distributed cognition & relational capability — 2/3**
+**C1 Distributed cognition & relational capability — 0/3**
 
-> MULT90004 Environmental Sustainability ... A group verbal, visual and written report
+> Demonstrate advanced knowledge and understanding of evaluation theory and practice.
 >
-> MULT90005 Partnerships for Sustainable Futures ... Collaborative (group) briefing paper, to be a combined total of 1500 words per student
+> Apply understandings of evaluation theory and methods to a range of professional settings.
 >
-> DEVT90009 Development Theories ... Case study group presentation
+> Apply evaluation theory to designing and conducting an evaluation
 >
-> DEVT90041 Development Research Design & Assessment ... A group assignment (equivalent to 300 words per student)
+> Formulate research questions and operationalise relevant constructs using appropriate tools
+>
+> Analyse and criticize evaluation products
+>
+> Communicate findings in written and verbal forms
+>
+> Project ... 3000 words (equivalent) ... Week 8 ... 60%
+>
+> Final Project: Research Proposal ... 3000 words ... Week 9 ... 60%
+>
+> Case-based analysis ... 3250 words ... End of the teaching period ... 65%
+>
+> Students complete four compulsory subjects and four elective subjects.
 
 **C2 Hybrid metacognition & evaluative judgement — 2/3**
 
-> ENST90002 Social Impact Assessment and Evaluation ... Project report (2500 words) ... An essay (2500 words)
+> Community: Critical reflection on peer's projects (4 x 250 word posts) ... 1000 words (total) ... From Week 1 to Week 6 ... 20%
 >
-> DEVT90041 Development Research Design & Assessment ... A research design essay (3000 words) ... A critical analysis essay
+> Assess quality in evaluation practice
 >
-> MULT90005 Partnerships for Sustainable Futures ... Reflective essay (1500 words)
+> Analyse and criticize evaluation products
+>
+> Case-based analysis ... 3250 words ... End of the teaching period ... 65%
+>
+> Identify different sets of standards, competencies and ethics for practice
+>
+> prepares students to critically appraise the quality of existing evaluations
+>
+> Critically discuss one's self knowledge and skills in the evaluation field
+>
+> The project is designed to provide an opportunity to practice from and reflect on learnings they have gained from the course.
 
-**C3 Digital & AI literacy, including governance — 2/3**
+**C3 Digital & AI literacy, including governance — 0/3**
 
-> DEVT90041 Development Research Design & Assessment ... A research design essay ... A critical analysis essay
+> This subject provides students with an introduction to evaluation fundamentals, including: the nature and purposes of evaluation, the logic of evaluation, types of evaluations, values, and professional standards.
 >
-> ENST90002 Social Impact Assessment and Evaluation ... Project report
+> This subject focuses on connecting theory to evaluation practice.
 >
-> Demonstrate advanced knowledge and understanding of evaluation theory and practice
+> Topics include: evaluation-specific tools and methods; planning, conducting and managing evaluations; stakeholder engagement strategies; and evaluation reporting.
+>
+> Demonstrate advanced knowledge and understanding of evaluation theory and practice.
+>
+> Formulate research questions and operationalise relevant constructs using appropriate tools
+>
+> The Master of Evaluation is a program conducted purely online, of professional development catering for the needs of those who wish to prepare for a leadership role in evaluation theory, method, and practice at local, national and international levels.
 
-**C4 Life-long learning & transfer — 2/3**
+**C4 Life-long learning & transfer — 3/3**
 
-> DEVT90002 International Development Project Management ... Professional portfolio / report (2500 words) ... Reflective essay
+> EDUC90747 Evaluation Capstone is taken in the final semester of the Master of Evaluation.
 >
-> DEVT90009 Development Theories ... Research essay ... oral defence
+> Drawing on theory, knowledge, and skills developed throughout the Master of Evaluation, students scope and complete an individual project.
 >
-> Apply understandings of evaluation theory and methods to a range of professional settings
+> A project proposal indicating content, scope, and plan ... 1000 words (equivalent) ... Week 4 ... 20%
+>
+> Plan evaluation activities or plan a literature review
+>
+> Define and explain methods to analyse programs and apply them to simple cases
+>
+> Students complete four compulsory subjects and four elective subjects.
 
-**C5 Inquiry & evidence generation — 2/3**
+**C5 Inquiry & evidence generation — 1/3**
 
-> DEVT90041 Development Research Design & Assessment ... A research design essay (3000 words)
+> This subject equips students with practical skills to select appropriate research methodologies for conducting evaluation research across diverse contexts.
 >
-> ENST90002 Social Impact Assessment and Evaluation ... Project report (2500 words)
+> Final Project: Research Proposal ... 3000 words ... Week 9 ... 60%
 >
-> ENST90006 Environmental Research Review (12.5) ... 1000 words ... 4000 words
+> Formulate research questions and operationalise relevant constructs using appropriate tools
+>
+> Demonstrate knowledge of basic foundations of research design including ethical requirements of research involving human subjects
+>
+> Project ... 3000 words (equivalent) ... Week 8 ... 60%
+>
+> Apply evaluation theory to designing and conducting an evaluation
+>
+> The capstone project is either 1) a participation in a real evaluation project, which leads to the production of a report, or 2) a critical review of a particular body of literature in evaluation, which leads to the production of a journal article.
+>
+> Analyse data and synthesize research findings for evaluation purposes or analyse and argue on theories and findings from the evaluation literature
 
-**W1 Professional communication & conduct — 2/3**
+**W1 Professional communication & conduct — 1/3**
 
-> DEVT90002 International Development Project Management ... Professional portfolio / report (2500 words) ... Oral presentation
+> Communicate findings in written and verbal forms
 >
-> MULT90005 Partnerships for Sustainable Futures ... Collaborative (group) briefing paper, to be a combined total of 1500 words per student
+> They will demonstrate a high level of skill designing and conducting evaluation and research activities and communicating with clients and stakeholders.
 >
-> DEVT90009 Development Theories ... 10-minute oral defence of the research essay
+> Oral presentation at the end of term that provides a synthesis of the Capstone project. This can be done via video conference. ... 20 minutes ... Hurdle requirement: Students must complete this task to pass the subject ... Late in the teaching period
+>
+> A written task (such as an article or project report), due end of term ... 4000 words (equivalent) ... End of the teaching period ... 80%
+>
+> Topics include: evaluation-specific tools and methods; planning, conducting and managing evaluations; stakeholder engagement strategies; and evaluation reporting.
 
-**W2 Authentic task design — 2/3**
+**W2 Authentic task design — 1/3**
 
-> DEVT90002 International Development Project Management ... Professional porfolio / report (2500 words) ... Progress report
+> Case-based analysis ... 3250 words ... End of the teaching period ... 65%
 >
-> ENST90002 Social Impact Assessment and Evaluation ... Project report (2500 words)
+> Define and explain methods to analyse programs and apply them to simple cases
 >
-> MULT90005 Partnerships for Sustainable Futures ... Collaborative (group) briefing paper
+> Synthesis exercise ... 1000 words ... Week 9 ... 20%
+>
+> Description Timing Percentage
+>
+> Final Project: Research Proposal ... 3000 words ... Week 9 ... 60%
+>
+> Through hands-on activities, students will develop competencies in designing applied studies to suit different contexts and evaluative purposes.
+>
+> considering stakeholder needs, resources, and other contextual factors
+>
+> The capstone project is either 1) a participation in a real evaluation project, which leads to the production of a report, or 2) a critical review of a particular body of literature in evaluation, which leads to the production of a journal article.
 
 **W3 Work-situated learning — 1/3**
 
-> GEOG90022 Social Science Internship ... A reflective journal including a log of hours worked and a Host Supervisor Assessment Report
+> Our students include policy and program planners, trainers, teachers, performance auditors, internal monitoring and evaluation staff, project staff, managers, medical staff, and independent consultants.
 >
-> ENST90025 Environmental Industry Research (25) ... 1500 words ... Hurdle requirement ... 7000 words
+> They are drawn from the public sector, non-government agencies, and business in areas such as education, welfare, and health.
+>
+> The capstone project is either 1) a participation in a real evaluation project, which leads to the production of a report, or 2) a critical review of a particular body of literature in evaluation, which leads to the production of a journal article.
+>
+> Drawing on theory, knowledge, and skills developed throughout the Master of Evaluation, students scope and complete an individual project.
+>
+> Students should choose four elective subjects from the following list.
 
 ## 3. GATES — Basis: scored
 
-- **G1 Disciplinary foundation:** PASS — PASS condition is met: comprehensive 100-point professional development qualification in evaluation theory, methodology, ethical practice, program monitoring, impact evaluation, and performance audit.
-- **G2 Decision-making under uncertainty:** PASS — PASS condition is met: core assessment explicitly requires navigating high-stakes evaluation dilemmas, conflicting stakeholder values, ambiguous program outcomes, and ethical data decisions (ENST90002, DEVT90002, MULT90005).
+- **G1 Disciplinary foundation:** PASS — PASS condition is met: the program documents a coherent specialist core with progressive methodological depth. All four compulsory subjects are evaluation subjects - EDUC90850 Foundations of Evaluation (nature, logic, types, values and professional standards), EDUC90847 Practice of Evaluation (methods, planning, conducting and managing evaluations, reporting), EDUC90848 Applied Research Methodology (research design, methodological decision-making, ethics), and EDUC90747 Evaluation Capstone - and the capstone is positioned by the course structure at the end of the sequence, drawing on the whole program. All seven electives are evaluation subjects too, so there is no generic or interchangeable content anywhere in the 100 points.
+- **G2 Decision-making under uncertainty:** PASS — PASS condition is met: core assessment requires defended trade-off decisions rather than recall. EDUC90848 is built on methodological choice under conditions the handbook states are complex and contested - 'the complexities of methodological decision-making within real-world evaluation contexts' - and assesses it in a 60% research proposal that must match evaluation questions and purposes to methods against stakeholder needs, resources and other contextual factors. The course-level graduate attributes name the value conflict that makes those decisions contested, and the compulsory capstone requires a self-scoped project defended in a hurdle oral presentation.
 
 ## 4. MARKET EVIDENCE — Basis: reported
 
-The market context is condensed from [`reports/dfva-market-mc-evalo.md`](dfva-market-mc-evalo.md), which synthesises published professional guidelines, technical reports, and peer-reviewed evaluation research from the Australasian Evaluation Society ([AES](https://www.aes.asn.au/)), the American Evaluation Association ([AEA](https://www.eval.org/)), the European Evaluation Society ([EES](https://europeanevaluation.org/)), the International Development Evaluation Association ([IDEAS](https://ideas-global.org/)), the Australian National Audit Office ([ANAO](https://www.anao.gov.au/)), the Productivity Commission ([PC](https://www.pc.gov.au/)), the Department of the Prime Minister and Cabinet ([PM&C](https://www.pmc.gov.au/)), and peer-reviewed studies in *American Journal of Evaluation* and *Evaluation and Program Planning*.
+Condensed from [the market intelligence report](dfva-market-mc-evalo.md), which was
+rewritten on 2026-08-25 after the earlier version was found to have been authored against a
+different program's handbook capture. Its headline confidence is **MEDIUM**.
 
-Destination titles map to four primary employment streams:
+**Destination job families.**
 
-| Job family | Entry roles (yr 1–2) | Growth roles (yr 3–5) | AI exposure | Substitution pressure | Skills increasing in demand |
-| --- | --- | --- | --- | --- | --- |
-| Monitoring, Evaluation, Research & Learning (MERL) | Monitoring & Evaluation (M&E) Officer, Evaluation Analyst | Senior MERL Advisor, Evaluation Practice Lead | 96.58 | MEDIUM | Mixed-methods evaluation synthesis, theory-of-change modelling, participatory data collection, automated dashboard verification |
-| Public Policy, Impact Assessment & Program Evaluation | Program Evaluator, Policy Impact Analyst | Principal Evaluation Manager, Performance Audit Lead | 96.58 | LOW TO MEDIUM | Counterfactual impact estimation, Treasury business case evaluation, statutory program reviews, royal commission policy analysis |
-| Strategic Advisory, Social Impact & Philanthropic Evaluation | Social Impact Consultant, Philanthropic Evaluation Officer | Senior Director of Social Impact, Strategic Evaluation Partner | 94.75 | LOW | Social return on investment (SROI), systems-change evaluation, collective impact measurement, philanthropic grant impact auditing |
-| International Development & Humanitarian Evaluation | Development Evaluation Specialist, Humanitarian M&E Officer | Head of Evaluation (Multilateral/NGO), Principal Evaluation Consultant | 96.58 | LOW TO MEDIUM | DFAT / UN evaluation standard compliance, conflict-sensitive evaluation, localization metrics, cross-cultural evaluation facilitation |
+| Job family | Entry titles | AI substitution pressure | Skills rising in that family |
+| --- | --- | --- | --- |
+| Australian government program evaluation and performance audit | Evaluation Officer, Policy Officer, Project Officer | Low-medium — synthesis and drafting automate, but accountability for a published finding does not transfer to a tool | Impact evaluation design, counterfactual reasoning, evaluation planning inside the budget cycle, evidence standards |
+| Monitoring, evaluation and learning in development and humanitarian agencies | Monitoring and Evaluation Officer, Research Assistant | Medium — routine indicator reporting is the most automatable part of the role and a large share of entry work | Mixed-methods design, theory-of-change work, localisation of measurement, documented AI use under agency policy |
+| Evaluation consultancy | Research Assistant, Analyst | Medium — proposal drafting and literature synthesis compress; scoping with a client and defending a method do not | Scoping and costing an evaluation, stakeholder facilitation, value-for-money methods, quality assurance of assisted analysis |
+| NGO and philanthropic impact measurement | Evaluation Officer, Program Officer | Low — the binding constraint is contested value judgements across funders, staff and communities | Values-engaged evaluative thinking, cultural safety, outcome measurement for non-market outcomes |
 
-The signals and skill shifts identified in the market intelligence map directly to the curriculum capabilities scored in Panel C:
+The §1 exposure value (96.58) is measured on **this program's own alumni destination record**
+(n = 86, 13 titles), not borrowed from a cognate program and not a field-of-education
+estimate. Six of the 13 titles carry only medium mapping confidence, so the figure is
+better read as a band than a point. It sits above the portfolio median of 90.9, which says
+the recorded destinations are language- and analysis-heavy occupations — a statement about
+task composition, not about whether the roles persist. The market report corrects an earlier
+reading of the same number as "cognitive insulation", which inverts the index. Separately,
+the JSA field-of-education footer in that report is 090103 Policy Studies at the whole-field
+grain and corroborates the destination shape only; it is not this cohort's distribution.
 
-| Signal / skill shift | Direction | Bearing |
+**Signals and skill shifts.**
+
+| Signal or shift | Direction | Bears on |
 | --- | --- | --- |
-| Generative AI qualitative coding auditing, thematic model validation, and synthetic data critique | Rising | C2, C3 |
-| Human-AI collaborative theory-of-change modelling and rapid evidence synthesis | Rising | C1, W1, G1 |
-| Values-engaged evaluative thinking, stakeholder negotiation, and institutional politics | Rising | C1, W2, G2 |
-| Indigenous data sovereignty (CARE Principles) and culturally responsive evaluation design | Rising | C3, W1 |
-| Routine manual interview transcription and basic descriptive keyword counting | Declining | C3, C2 |
+| Commonwealth evaluation machinery built ahead of the workforce — Commonwealth Evaluation Policy, the Australian Centre for Evaluation in Treasury (July 2023), the APS Evaluation Profession (February 2025) | Rising | C4, W3 |
+| In-house APS evaluation units growing and mostly advisory — 89% advisory services, 82% capability building, 71% delivering evaluations (ACE, February 2025) | Rising, shifting toward commissioning | W1, C1 |
+| Professional AI guidance converging on the evaluator's documented decision record — UNEG ethical principles (2025), UK Evaluation Society practitioner guidelines (2025), AES workshop (February–March 2026) | Rising fast | C2, C3 |
+| Structured self-appraisal against published standards as the profession's own capability instrument — AES competency framework, 95 competencies over seven domains, with an online self-assessment | Rising, medium | C4, C2 |
+| Cultural safety in evaluation defined by First Nations people in situ — Productivity Commission Indigenous Evaluation Strategy; AES First Nations position | Rising | C1, W1 |
+| Routine indicator compilation and periodic monitoring reporting without outcome attribution | Declining | W2, C5 |
+| Manual transcription and first-pass coding of interview material | Declining fast | C2, C5 |
+| Descriptive literature summarising without appraisal against quality standards | Declining | C2 |
+| Scoping and costing an evaluation with a commissioner, including value-for-money framing | Rising | W1, W2, C1 |
 
-*Market evidence confidence is rated HIGH across peak international evaluation societies, Commonwealth audit/evaluation authorities, and peer-reviewed evaluation journals.*
+**Confidence, restated from the market report.** Medium. The strongest element is the
+Commonwealth policy layer: named instruments with published dates, and figures taken from
+the Australian Centre for Evaluation's own reporting rather than inferred. Two weaknesses
+are declared at source. The AI material is *guidance*, not adoption measurement — nothing
+consulted shows what practising evaluators actually do, only what their professional bodies
+ask of them. And the rewrite removed rather than restated four claims from the earlier
+version, including all advertised-vacancy and salary figures and a recruitment claim built
+on the Indigenous evaluation policy; no count of advertised roles appears anywhere here.
 
 ## 5. CURRICULUM IMPLICATIONS — Basis: inferred
 
@@ -148,31 +234,30 @@ below are ordered by headroom, which is not the plan's P-lever order.
 
 | Item | Score | Implication | Cost | Sources |
 | --- | --- | --- | --- | --- |
-| W3 Work-situated learning | 1/3 | Introduce a required work-based evaluation project conducted in the student's own professional practice | Supervision and host organisation liaison | [[19]](https://www.legislation.gov.au/F2021L00488)[27][[29]](https://doi.org/10.1080/07294360.2016.1139551)[[35]](https://doi.org/10.1080/03075070903216635) |
-| C1 Distributed cognition & relational capability | 2/3 | Require students in DEVT90009/DEVT90041 to submit an assessed Human-AI Evaluation Workflow Charter | Minor rubric update; zero additional credit points | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[5]](https://doi.org/10.1093/qje/qjx022)[[7]](https://doi.org/10.1016/j.techfore.2016.08.019) |
-| C2 Hybrid metacognition & evaluative judgement | 2/3 | Introduce an assessed 'AI Qualitative Coding & Synthesis Override Log' in ENST90002/DEVT90041 where students critique and override AI-generated thematic tags | Low teaching overhead; evaluation rubric integration | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[4]](https://doi.org/10.1007/s10734-017-0220-3)[[3]](https://www.teqsa.gov.au/sites/default/files/2023-09/assessment-reform-age-artificial-intelligence-discussion-paper.pdf) |
-| C3 Digital & AI literacy, including governance | 2/3 | Embed an assessed Algorithmic Evaluation Bias & Indigenous Data Governance module in DEVT90041/ENST90002 | Modest curriculum development; AI evaluation ethics focus | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[13][[11]](https://doi.org/10.1145/3313831.3376727)[[12]](https://unesdoc.unesco.org/ark:/48223/pf0000391105)[[2]](https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/) |
-| C4 Life-long learning & transfer | 2/3 | Embed an assessed evaluator professional capability gap analysis and AES development plan in DEVT90002 | Low administrative overhead; online module integration | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[9]](https://www.nationalacademies.org/read/13398/chapter/2)[[10]](https://doi.org/10.1007/s10459-025-10413-y)[[2]](https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/) |
-| C5 Inquiry & evidence generation | 2/3 | Mandate primary empirical evaluation project defense across all capstones | Academic supervision scaling for online cohort | [14][15][[7]](https://doi.org/10.1016/j.techfore.2016.08.019) |
-| W1 Professional communication & conduct | 2/3 | Partner with external AES practitioners to evaluate final stakeholder presentations in DEVT90002/ENST90002 | External practitioner honoraria and scheduling | [[19]](https://www.legislation.gov.au/F2021L00488)[[20]](https://www.qilt.edu.au/surveys/employer-satisfaction-survey-%28ess%29) |
-| W2 Authentic task design | 2/3 | Integrate unyielding external client evaluation constraints and live organizational data requirements | Modest scenario design effort | [[22]](https://doi.org/10.1007/BF02504676)[[23]](https://doi.org/10.1080/02602938.2017.1412396) |
+| C1 Distributed cognition & relational capability | 0/3 | Every job family in §4 is commissioned work performed for a client, and APS evaluation units are shifting toward advising and commissioning rather than producing; the compulsory core assesses no collaborative, client or stakeholder task at all. | The program is fully online with terms as short as nine weeks, so synchronous group work is a real scheduling constraint; an asynchronous client-role task in EDUC90847 avoids it but adds a second marking artefact to a subject already carrying three. | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[5]](https://doi.org/10.1093/qje/qjx022)[[7]](https://doi.org/10.1016/j.techfore.2016.08.019) |
+| C3 Digital & AI literacy, including governance | 0/3 | UNEG, the UK Evaluation Society and the AES all now ask evaluators to account for assisted analysis, and no compulsory subject or program-level outcome names a digital tool at all — the widest single gap between the market evidence and the documented curriculum. | Moving from 0 to 2 means new content in EDUC90848, which is already the most crowded core subject; the staff capability exists in the faculty but the displaced material has to come from somewhere, and elective placement would not move the score. | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[13][[11]](https://doi.org/10.1145/3313831.3376727)[[12]](https://unesdoc.unesco.org/ark:/48223/pf0000391105)[[2]](https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/) |
+| W1 Professional communication & conduct | 1/3 | Commissioned evaluation is judged by whoever commissioned it; the only assessed spoken task is a hurdle synthesis presented to the teaching team, and the written capstone task may be a journal article rather than an evaluation report. | Specifying the capstone artefact as a report in the commissioning genre is a documentation change; marking it against criteria drawn from AES practice needs those criteria authored and moderated, which is the real cost. | [[19]](https://www.legislation.gov.au/F2021L00488)[[20]](https://www.qilt.edu.au/surveys/employer-satisfaction-survey-%28ess%29)[[21]](https://www.dewr.gov.au/skills-information-training-providers/resources/core-skills-work-developmental-framework)[[31]](https://www.naceweb.org/career-readiness/competencies/career-readiness-defined)[[5]](https://doi.org/10.1093/qje/qjx022)[[32]](https://doi.org/10.1086/504455) |
+| W3 Work-situated learning | 1/3 | The cohort is documented as already practising — policy planners, performance auditors, internal monitoring and evaluation staff, consultants — so the instrument's own-practice route is open, but the real-project capstone is one of two options and carries no workplace accountability. | The route already exists; the cost is requiring it, which excludes students between roles, and specifying a workplace outcome measure and a named stakeholder, which shifts assessment design into workplaces the faculty does not control. | [[19]](https://www.legislation.gov.au/F2021L00488)[27][[29]](https://doi.org/10.1080/07294360.2016.1139551)[[28]](https://doi.org/10.1007/s10734-017-0216-z)[[35]](https://doi.org/10.1080/03075070903216635)[[30]](https://www.education.gov.au/australian-universities-accord/resources/final-report) |
+| C5 Inquiry & evidence generation | 1/3 | Impact evaluation design and counterfactual reasoning are the rising skills in the largest destination family, and design is taught and assessed well; what no compulsory subject assesses is conducting the inquiry and collecting the data, so the documented curriculum stops at the proposal. | Moving from 1 to 2 needs one core task to require data collection and be marked on it, and EDUC90847's 60% Project is the obvious site because it already carries the conducting outcome; the cost is the human-ethics load that a fully online cohort collecting real data puts on the faculty, and a nine-week term to carry it in. | [14][15][[7]](https://doi.org/10.1016/j.techfore.2016.08.019) |
+| W2 Authentic task design | 1/3 | Two core artefacts — the EDUC90848 research proposal and the EDUC90747 report — are what a practising evaluator actually produces, which matches the destinations; what is missing is the other half of the anchor, because no assessment row in the handbook states any criterion, so nothing documents that these tasks are judged the way practice judges them. | The cheapest workplace lever, because it is documentation before it is redesign: publishing marking criteria for the EDUC90848 proposal drawn from AES practice standards changes no task, no weighting and no teaching. Authoring and moderating those criteria, and getting them into the handbook rather than the LMS, is the whole of the work. | [[22]](https://doi.org/10.1007/BF02504676)[[23]](https://doi.org/10.1080/02602938.2017.1412396)[[25]](https://doi.org/10.1016/j.stueduc.2021.101030)[26][[24]](https://doi.org/10.1080/02602938.2024.2404634) |
+| C2 Hybrid metacognition & evaluative judgement | 2/3 | Appraisal of quality is already assessed twice in the core, and the market evidence points one step further: the assessable object professional guidance now names is the record of what was relied on and what was overridden. | The cheapest adaptive lever here — it re-weights existing tasks in EDUC90850 and EDUC90747 rather than adding content, but the reliance record only means something once C3 gives students something to reason about. | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[4]](https://doi.org/10.1007/s10734-017-0220-3)[[3]](https://www.teqsa.gov.au/sites/default/files/2023-09/assessment-reform-age-artificial-intelligence-discussion-paper.pdf) |
+| C4 Life-long learning & transfer | 3/3 | At the instrument maximum, carried by a compulsory capstone the student scopes themselves, with the scoping assessed at 20% in week 4. The AES competency self-assessment in §4 is the profession's own version of the same practice. | None — no intervention proposed and none needed. | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[9]](https://www.nationalacademies.org/read/13398/chapter/2)[[10]](https://doi.org/10.1007/s10459-025-10413-y)[[2]](https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/) |
 
 ## 6. EVIDENCE CONFIDENCE & LIMITATIONS — Basis: reported
 
 **Panel A metadata.** Basis tier **exact** (measured), n = 86, 13 destination titles, 6 at medium mapping confidence. Index variant AIOE-2021; crosswalk `data/aioe/v31_extension_crosswalk.csv`.
 
-**Panel C provenance.** Scored from the 2026 handbook capture (37 pages) and verified on 2026-08-24: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
+**Panel C provenance.** Scored from the 2026 handbook capture (18 pages) and verified on 2026-08-25: adversarial refutation of every level-3 score and every gate PASS (run), verbatim evidence check (run), and the construct-boundary pass.
 
-**Ambiguities and construct-boundary notes** (8):
+**Ambiguities and construct-boundary notes** (7):
 
-- C1 straddled 2 and 3: collaborative group projects in MULT90004, MULT90005, DEVT90009, and DEVT90041 satisfy level 2. Level 3 is unmet because explicit human-AI workflow allocation charters are unevidenced.
-- C2 straddled 2 and 3: program evaluations and impact assessments satisfy level 2. Level 3 is unmet because AI evaluation analytics auditing and override logs are unevidenced.
-- C3 straddled 2 and 3: research design tools and data analytics satisfy level 2, but AI evaluation ethics and automated auditing critique are unevidenced in the core.
-- C4 straddled 2 and 3: contextual evaluation transfer is assessed across the core (level 2), but self-capability gap tracking is unevidenced. Scored at 2.
-- C5 straddled 2 and 3: empirical research design and project reports satisfy level 2, but a mandatory primary research thesis defended under oral examination is not required for all students. Scored at 2.
-- W1 straddled 2 and 3: professional communication is repeatedly assessed (level 2), but external practitioner grading across the universal core is unevidenced.
-- W2 straddled 2 and 3: authentic project reports satisfy level 2, but unyielding external client constraints are unevidenced.
-- W3 satisfies level 1: internship with supervisor assessment is available as an elective/capstone route, but not universally mandatory in the core.
+- C1 straddled 0 and 1 and resolved to 0 on adversarial challenge. The level-1 anchor names learning outcomes only, while C2, C3 and W1 name graduate attributes or program-level outcomes explicitly, so the graduate attribute 'communicating with clients and stakeholders' and the taught topic 'stakeholder engagement strategies' cannot carry the item to 1. Level 0's own test - no assessed collaborative work in the core - is affirmatively satisfied, so the evidence is consistent with 0 and R3 applies.
+- C2 straddled 2 and 3: peer review in EDUC90847 and criterion-referenced critique in EDUC90850 satisfy level 2, but the reflection on one's own knowledge and skills that level 3 would need sits in capstone outcomes with no assessment row, so R2 holds it at 2.
+- C3 straddled 0 and 1: 'online' delivery, an online quiz in an elective and video-conference presentation are mode, not documented digital or AI curriculum, and R1 forbids crediting mode as content. No elective is documented as digital or AI content either, so level 1's own condition fails and the item sits at 0.
+- C5 straddled 1 and 2 and resolved to 1 on adversarial challenge. Level 2 is a conjunction - design and conduct, with methodology selection and data collection, assessed - and only design is documented: EDUC90848's 60% research proposal selects a methodology and stops at the proposal. Conduct survives only as EDUC90847's intended learning outcome 'Apply evaluation theory to designing and conducting an evaluation', whose assessment row records nothing but 'Project', its length and its weight, so R2 caps it at 1; and the capstone's data route is one of two, so R3 confirms the lower level.
+- W1 straddled 1 and 2: the hurdle oral presentation and the capstone written task come close to a professional genre, but the written task is 'an article or project report' - one academic option, one professional - and no audience beyond the teaching team and no criteria drawn from practice are documented. R3 resolves down to 1.
+- W2 straddled 1 and 2 and resolved to 1 on adversarial challenge. The level-2 anchor has three conjuncts - a real or realistic problem, the artefact a practitioner would produce, and judgement 'against criteria drawn from practice' - and the third is undocumented: no assessment row in this capture states any criterion, rubric or standard, because the tables carry only description, timing and percentage. The realism conjunct rests on the capstone's real-project route, which is optional and is scored in W3. Level 1's own test is affirmatively met by the 65% case-based analysis on simple cases and the 20% synthesis exercise, so R3 resolves down to 1.
+- W3 straddled 1 and 2: the cohort is documented as already practising, which opens the v4.2 in-practice route, but the real-project capstone option is one of two routes and carries no documented workplace supervision, outcome measure or accountability to workplace stakeholders. R3 resolves down to 1.
 
 **Standing v4 limitations.**
 

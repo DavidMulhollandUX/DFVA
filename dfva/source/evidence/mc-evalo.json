@@ -3,108 +3,147 @@
   "panelCv4": {
     "instrument": "4.2-draft",
     "C1": {
-      "score": 2,
-      "rationale": "Level 2 anchor is satisfied: assessed collaborative teamwork recurs across core and compulsory subjects: MULT90004 (group verbal, visual and written report, 3,000w total / 750w each), MULT90005 (collaborative group briefing paper, 1,500w per student), DEVT90009 (case study group presentation), and DEVT90041 (group assignment). Level 3 is not met: formal assessed division-of-labor charters allocating tasks between human evaluators and AI systems (e.g. AI-driven qualitative thematic coding vs human evaluative judgement) are unevidenced.",
+      "score": 0,
+      "rationale": "Level 0 anchor - 'No collaborative, stakeholder or team-based work is assessed anywhere in the core' - is affirmatively satisfied, and the score is lowered from a submitted 1 on adversarial challenge. The level-1 anchor requires collaboration or teamwork to appear in LEARNING OUTCOMES; in this capture it does not. The five outcomes blocks - the four course intended learning outcomes and the outcome lists of EDUC90847, EDUC90848, EDUC90850 and EDUC90747 - name no collaboration, teamwork, group or stakeholder work. The only stakeholder and client language sits in the Graduate attributes block ('communicating with clients and stakeholders') and in subject-overview taught-topic prose ('stakeholder engagement strategies'), neither of which is a learning outcome. The omission is deliberate instrument drafting: C2 level 1 reads 'outcomes or graduate attributes', W1 level 1 reads 'learning outcomes or graduate attributes', C3 level 0 reads 'any core unit or program-level outcome', while C1 level 1 reads 'learning outcomes' alone. The nearest outcome, EDUC90747's 'Communicate findings in written and verbal forms', is communication to an audience, which is the W1 construct. On the level-0 test itself, every assessed task in the compulsory core is an individually authored artefact - EDUC90847's Project and Synthesis exercise, EDUC90848's Online exercises, Midterm Exam and Research Proposal, EDUC90850's Practical activities and Case-based analysis, and EDUC90747's proposal, written task and individual oral presentation. The one interactive task, EDUC90847's critical reflection on peers' projects, is appraisal of the quality of work and scores in C2 under the one-construct-one-home rule; the capstone's real-project route is workplace immersion and scores in W3. Elective content cannot lift the item above level 1. This matches the settled treatment of 511aa, 742ab and 300bb, each of which scores 0 on the same structure.",
       "evidenceLines": [
-        "MULT90004 Environmental Sustainability ... A group verbal, visual and written report",
-        "MULT90005 Partnerships for Sustainable Futures ... Collaborative (group) briefing paper, to be a combined total of 1500 words per student",
-        "DEVT90009 Development Theories ... Case study group presentation",
-        "DEVT90041 Development Research Design & Assessment ... A group assignment (equivalent to 300 words per student)"
+        "Demonstrate advanced knowledge and understanding of evaluation theory and practice.",
+        "Apply understandings of evaluation theory and methods to a range of professional settings.",
+        "Apply evaluation theory to designing and conducting an evaluation",
+        "Formulate research questions and operationalise relevant constructs using appropriate tools",
+        "Analyse and criticize evaluation products",
+        "Communicate findings in written and verbal forms",
+        "Project ... 3000 words (equivalent) ... Week 8 ... 60%",
+        "Final Project: Research Proposal ... 3000 words ... Week 9 ... 60%",
+        "Case-based analysis ... 3250 words ... End of the teaching period ... 65%",
+        "Students complete four compulsory subjects and four elective subjects."
       ]
     },
     "C2": {
       "score": 2,
-      "rationale": "Level 2 anchor is satisfied: core assessment requires criterion-referenced evaluative judgement across complex program evaluations, impact assessments (ENST90002 Social Impact Assessment and Evaluation), development research designs (DEVT90041), and multi-stakeholder policy briefing papers (MULT90005). Level 3 is not met: no core assessment requires students to systematically audit, verify, and document reliance and override decisions regarding AI data analytics, synthetic survey analysis, or automated evaluation synthesis tools over time.",
+      "rationale": "Level 2 anchor - 'Core assessment includes criterion-referenced appraisal of quality: peer review, structured critique, portfolio with standards, marking against exemplars' - is met by named, weighted assessment in the compulsory core, so R2 is satisfied. EDUC90847 assesses 'Community: Critical reflection on peer's projects (4 x 250 word posts)' at 20%, which is peer review, against the subject learning outcome 'Assess quality in evaluation practice'. EDUC90850 assesses 'Case-based analysis' at 65% against the outcome 'Analyse and criticize evaluation products', and its outcomes name the standards the critique is referenced to ('Identify different sets of standards, competencies and ethics for practice'). EDUC90848 states it 'prepares students to critically appraise the quality of existing evaluations'. Level 3 is not met: no assessment task requires students to document and justify reliance decisions - when they relied on or overrode a tool, source or collaborator - to defend judgements of AI-output quality, or to evidence strategy adjustment over time. The nearest evidence is the capstone outcome 'Critically discuss one's self knowledge and skills in the evaluation field' and the capstone overview's statement that the project is an opportunity to reflect on what the course taught, both of which are statements attached to no assessment row, which R2 forbids scoring at level 3.",
       "evidenceLines": [
-        "ENST90002 Social Impact Assessment and Evaluation ... Project report (2500 words) ... An essay (2500 words)",
-        "DEVT90041 Development Research Design & Assessment ... A research design essay (3000 words) ... A critical analysis essay",
-        "MULT90005 Partnerships for Sustainable Futures ... Reflective essay (1500 words)"
+        "Community: Critical reflection on peer's projects (4 x 250 word posts) ... 1000 words (total) ... From Week 1 to Week 6 ... 20%",
+        "Assess quality in evaluation practice",
+        "Analyse and criticize evaluation products",
+        "Case-based analysis ... 3250 words ... End of the teaching period ... 65%",
+        "Identify different sets of standards, competencies and ethics for practice",
+        "prepares students to critically appraise the quality of existing evaluations",
+        "Critically discuss one's self knowledge and skills in the evaluation field",
+        "The project is designed to provide an opportunity to practice from and reflect on learnings they have gained from the course."
       ]
     },
     "C3": {
-      "score": 2,
-      "rationale": "Level 2 anchor is satisfied: core units utilize and assess quantitative and qualitative data analytics software, survey research design tools, and development research evaluation technologies (DEVT90041 Development Research Design & Assessment, ENST90002 Social Impact Assessment and Evaluation). Level 3 is not met: systemic critique of AI governance in program evaluation (algorithmic bias in social impact models, synthetic control evaluation ethics, and automated performance auditing governance) is not formally assessed across the core.",
+      "score": 0,
+      "rationale": "Level 0 anchor - 'No digital/AI content in any core unit or program-level outcome' - holds literally. The four course-level intended learning outcomes, the three graduate-attribute statements, and the overviews and outcome lists of all four compulsory subjects (EDUC90847, EDUC90848, EDUC90850, EDUC90747) name no digital tool, software, data system, automation or artificial intelligence. EDUC90850's content list is 'the nature and purposes of evaluation, the logic of evaluation, types of evaluations, values, and professional standards'; EDUC90847's is evaluation methods, planning, stakeholder engagement and reporting. Level 1 is not met: it requires AI or digital tools to appear at least as electives or as tool operation and training, and no elective in the list of seven is documented as digital or AI content - the capture for those subjects is assessment tables only, and none names a tool, platform or software. The word 'online' throughout the capture denotes delivery mode ('Delivered: Online', 'Term 2 (Online)', 'Online quiz', 'via video conference'), not documented digital-literacy curriculum, and R1 forbids crediting mode as content.",
       "evidenceLines": [
-        "DEVT90041 Development Research Design & Assessment ... A research design essay ... A critical analysis essay",
-        "ENST90002 Social Impact Assessment and Evaluation ... Project report",
-        "Demonstrate advanced knowledge and understanding of evaluation theory and practice"
+        "This subject provides students with an introduction to evaluation fundamentals, including: the nature and purposes of evaluation, the logic of evaluation, types of evaluations, values, and professional standards.",
+        "This subject focuses on connecting theory to evaluation practice.",
+        "Topics include: evaluation-specific tools and methods; planning, conducting and managing evaluations; stakeholder engagement strategies; and evaluation reporting.",
+        "Demonstrate advanced knowledge and understanding of evaluation theory and practice.",
+        "Formulate research questions and operationalise relevant constructs using appropriate tools",
+        "The Master of Evaluation is a program conducted purely online, of professional development catering for the needs of those who wish to prepare for a leadership role in evaluation theory, method, and practice at local, national and international levels."
       ]
     },
     "C4": {
-      "score": 2,
-      "rationale": "Level 2 anchor is satisfied: core assessment requires transfer of evaluation theories, methodology frameworks, and impact assessments across diverse public policy, development, education, welfare, and healthcare contexts (DEVT90002, DEVT90009, DEVT90041, ENST90002). Level 3 is not met: structured identification of personal professional capability gaps with an assessed AES continuing professional learning plan across every student is unevidenced.",
+      "score": 3,
+      "rationale": "Level 3 anchor - 'The program documents structured progression toward independent learning: a self-scoped capstone or research project' - is met on assessment evidence, not outcome statements, so R2 is satisfied. EDUC90747 Evaluation Capstone is compulsory, is 'taken in the final semester of the Master of Evaluation', draws on theory, knowledge and skills developed throughout the program, and requires students to 'scope and complete an individual project'. The scoping is itself an assessed, weighted task: 'A project proposal indicating content, scope, and plan', 1000 words, Week 4, 20%, with the outcome 'Plan evaluation activities or plan a literature review'. That is a self-scoped capstone, documented and assessed, positioned at the end of a staged program of four compulsory subjects. Level 2 is comfortably cleared beneath it: EDUC90850's 'Case-based analysis' at 65% applies analytic methods to cases against the outcome 'Define and explain methods to analyse programs and apply them to simple cases', and EDUC90848's research proposal requires methodological choice for an unfamiliar evaluation context.",
       "evidenceLines": [
-        "Internship in Development (DEVT90002) ... Professional porfolio / report (2500 words) ... Reflective essay",
-        "DEVT90009 Development Theories ... Research essay ... oral defence",
-        "Apply understandings of evaluation theory and methods to a range of professional settings"
+        "EDUC90747 Evaluation Capstone is taken in the final semester of the Master of Evaluation.",
+        "Drawing on theory, knowledge, and skills developed throughout the Master of Evaluation, students scope and complete an individual project.",
+        "A project proposal indicating content, scope, and plan ... 1000 words (equivalent) ... Week 4 ... 20%",
+        "Plan evaluation activities or plan a literature review",
+        "Define and explain methods to analyse programs and apply them to simple cases",
+        "Students complete four compulsory subjects and four elective subjects."
       ]
     },
     "C5": {
-      "score": 2,
-      "rationale": "Level 2 anchor is satisfied: students design and conduct evaluative inquiries, empirical research designs, and impact evaluations (DEVT90041 Development Research Design essay 3,000w, ENST90002 Project Report 2,500w, and capstone research options). Level 3 is not met: because 100pt candidates can fulfill requirements via coursework or literature review rather than a mandatory primary research thesis defended under universal viva examination, it scores at Level 2.",
+      "score": 1,
+      "rationale": "Level 1 anchor - 'Introductory methods unit; literature-review assessment' - is what the compulsory core documents, and the score is lowered from a submitted 2 on adversarial challenge. The methods unit is EDUC90848 Applied Research Methodology, which 'equips students with practical skills to select appropriate research methodologies for conducting evaluation research across diverse contexts' and assesses that selection in a 60% 'Final Project: Research Proposal' against the outcomes 'Formulate research questions and operationalise relevant constructs using appropriate tools' and 'Demonstrate knowledge of basic foundations of research design including ethical requirements of research involving human subjects'. The literature-review assessment is present too, as the capstone's second route, 'a critical review of a particular body of literature in evaluation'. Level 2 is not met. Its anchor is a conjunction - 'Students design and conduct an inquiry with methodology selection and data collection, assessed' - and only the design half is documented. The EDUC90848 task is a proposal and stops at the proposal; it selects a methodology and collects nothing. Conduct and data collection are documented nowhere in the compulsory core: EDUC90847's assessment row states only 'Project', its length and its weight - '3000 words (equivalent) ... Week 8 ... 60%' - and says nothing about what the project collects or from whom. The conducting language, 'Apply evaluation theory to designing and conducting an evaluation', is an intended learning outcome, and R2 caps at 1 a capability that appears in outcomes but is never assessed. The capstone does not supply the missing half either: its data route is one of two - 'either 1) a participation in a real evaluation project ... or 2) a critical review of a particular body of literature' - and its outcome is likewise disjunctive ('Analyse data and synthesize research findings ... or analyse and argue on theories and findings from the evaluation literature'), so a student can complete the program without collecting any data. Level 3, which additionally requires primary-evidence generation to be REQUIRED and the methodology defended under scrutiny, fails a fortiori.",
       "evidenceLines": [
-        "DEVT90041 Development Research Design & Assessment ... A research design essay (3000 words)",
-        "ENST90002 Social Impact Assessment and Evaluation ... Project report (2500 words)",
-        "ENST90006 Environmental Research Review (12.5) ... 1000 words ... 4000 words"
+        "This subject equips students with practical skills to select appropriate research methodologies for conducting evaluation research across diverse contexts.",
+        "Final Project: Research Proposal ... 3000 words ... Week 9 ... 60%",
+        "Formulate research questions and operationalise relevant constructs using appropriate tools",
+        "Demonstrate knowledge of basic foundations of research design including ethical requirements of research involving human subjects",
+        "Project ... 3000 words (equivalent) ... Week 8 ... 60%",
+        "Apply evaluation theory to designing and conducting an evaluation",
+        "The capstone project is either 1) a participation in a real evaluation project, which leads to the production of a report, or 2) a critical review of a particular body of literature in evaluation, which leads to the production of a journal article.",
+        "Analyse data and synthesize research findings for evaluation purposes or analyse and argue on theories and findings from the evaluation literature"
       ]
     },
-    "adaptiveness": 10,
+    "adaptiveness": 6,
     "W1": {
-      "score": 2,
-      "rationale": "Level 2 anchor is satisfied: professional communication is assessed repeatedly across core units (professional portfolios/reports in DEVT90002, policy briefing papers in MULT90005, oral presentations in DEVT90003/DEVT90009, and impact reports in ENST90002). Level 3 is not met: formal grading of professional conduct and evaluation communication by external registered Australasian Evaluation Society (AES) practitioners across the compulsory core is unevidenced.",
+      "score": 1,
+      "rationale": "Level 1 anchor - 'Communication or professional conduct appears in learning outcomes or graduate attributes; core assessment adds presentation to peers/staff, but no professional genre and no audience beyond the teaching team' - is met exactly. The outcome side is satisfied by EDUC90747's 'Communicate findings in written and verbal forms' and by the graduate attribute naming skill in 'communicating with clients and stakeholders'. The spoken side is satisfied by a compulsory, universal task: the capstone's 20-minute 'Oral presentation at the end of term that provides a synthesis of the Capstone project', carried as a hurdle requirement. Level 2 is not met: no core assessment is documented as a recognised professional genre judged against criteria drawn from practice, and no audience beyond the teaching team is documented. The capstone written task is 'such as an article or project report', so the professional genre is one option and the academic genre the other, and R3 resolves that downward; the oral presentation is delivered in person or by video conference with no external panel, client or practitioner named. Evaluation reporting appears as taught content in EDUC90847's topic list but attaches to no assessment row, which R2 excludes.",
       "evidenceLines": [
-        "Internship in Development (DEVT90002) ... Professional porfolio / report (2500 words) ... Oral presentation",
-        "MULT90005 Partnerships for Sustainable Futures ... Collaborative (group) briefing paper, to be a combined total of 1500 words per student",
-        "DEVT90009 Development Theories ... 10-minute oral defence of the research essay"
+        "Communicate findings in written and verbal forms",
+        "They will demonstrate a high level of skill designing and conducting evaluation and research activities and communicating with clients and stakeholders.",
+        "Oral presentation at the end of term that provides a synthesis of the Capstone project. This can be done via video conference. ... 20 minutes ... Hurdle requirement: Students must complete this task to pass the subject ... Late in the teaching period",
+        "A written task (such as an article or project report), due end of term ... 4000 words (equivalent) ... End of the teaching period ... 80%",
+        "Topics include: evaluation-specific tools and methods; planning, conducting and managing evaluations; stakeholder engagement strategies; and evaluation reporting."
       ]
     },
     "W2": {
-      "score": 2,
-      "rationale": "Level 2 anchor is satisfied: authentic tasks form a substantial part of core coursework: professional project management portfolios (DEVT90002), social impact evaluations (ENST90002), and stakeholder briefing papers (MULT90005). Level 3 is not met: universal core assessments do not carry the full unyielding external constraints of practice (e.g. real commercial client evaluation contracts with consequential stakeholder scrutiny).",
+      "score": 1,
+      "rationale": "Level 1 anchor - 'Contextualised or scenario-framed tasks appear (case studies, worked scenarios), but the artefact produced and the criteria applied remain academic' - is affirmatively met, and the score is lowered from a submitted 2, which the adversarial pass refuted unanimously on three lenses. EDUC90850's 65% 'Case-based analysis' is exactly a case-study task, on cases the subject's own outcome calls simple - 'Define and explain methods to analyse programs and apply them to simple cases' - and EDUC90847's 20% 'Synthesis exercise' is academic in form. The level-2 anchor reads, in full: 'At least one core assessment reproduces a professional task end to end: a real or realistic problem, producing the artefact a practitioner would produce, judged against criteria drawn from practice.' That is a three-part conjunction. The submitted rationale quoted only the first two parts and dropped the third, and dropping it is how the wrong score got in. The third part is plainly undocumented: no assessment row anywhere in this capture states any criterion, rubric or standard. Every assessment table in the capture carries the same three columns - 'Description Timing Percentage' - so each row records what the task is, how long it is, when it falls and what it is worth, and nothing about how it is judged. Nothing in the capture therefore says the criteria are drawn from practice, and R1 forbids supplying them from what a practising evaluator plausibly would be held to. The realism conjunct is unearned as well. EDUC90848's 60% 'Final Project: Research Proposal' is the artefact a practising evaluator produces before fieldwork, and the subject documents contextual design constraints - 'designing applied studies to suit different contexts and evaluative purposes', 'considering stakeholder needs, resources, and other contextual factors' - but the only real problem documented in the core is the capstone's real-project route, which is one of two options and is already housed in W3 under the one-construct-one-home rule. R3 resolves the straddle downward.",
       "evidenceLines": [
-        "Internship in Development (DEVT90002) ... Professional porfolio / report (2500 words) ... Progress report",
-        "ENST90002 Social Impact Assessment and Evaluation ... Project report (2500 words)",
-        "MULT90005 Partnerships for Sustainable Futures ... Collaborative (group) briefing paper"
+        "Case-based analysis ... 3250 words ... End of the teaching period ... 65%",
+        "Define and explain methods to analyse programs and apply them to simple cases",
+        "Synthesis exercise ... 1000 words ... Week 9 ... 20%",
+        "Description Timing Percentage",
+        "Final Project: Research Proposal ... 3000 words ... Week 9 ... 60%",
+        "Through hands-on activities, students will develop competencies in designing applied studies to suit different contexts and evaluative purposes.",
+        "considering stakeholder needs, resources, and other contextual factors",
+        "The capstone project is either 1) a participation in a real evaluation project, which leads to the production of a report, or 2) a critical review of a particular body of literature in evaluation, which leads to the production of a journal article."
       ]
     },
     "W3": {
       "score": 1,
-      "rationale": "Level 1 anchor is satisfied: work-situated learning is formally structured as an optional capstone/elective route (GEOG90022 Internship with Host Supervisor Assessment Report / ENST90025 Environmental Industry Research) or own-practice evaluation in the student's workplace, but is not mandatory for all students across the universal core.",
+      "rationale": "Level 1 anchor - 'Work-situated learning exists only as an elective, an optional internship, or an unassessed extracurricular or careers activity' - is met. The cohort is documented as already practising, so the v4.2 in-practice route is open to this program: the overview names 'policy and program planners, trainers, teachers, performance auditors, internal monitoring and evaluation staff, project staff, managers, medical staff, and independent consultants' drawn from the public sector, non-government agencies and business. Work-situated activity appears once, as an option: the capstone project is 'either 1) a participation in a real evaluation project ... or 2) a critical review of a particular body of literature'. Level 2 is not met on either route. On the placement route, no core unit places students in a workplace with practitioner supervision. On the in-practice route, no core unit requires activity conducted in the student's own professional practice with real recipients and a documented outcome measure - the real-project route is elective within the capstone, the handbook does not require the project to sit in the student's own workplace, and no host or workplace supervisor assessment, hours log or accountability to workplace stakeholders is documented. R3 resolves the optional route downward.",
       "evidenceLines": [
-        "International Internship in Environment (GEOG90022) ... A reflective journal including a log of hours worked and a Host Supervisor Assessment Report",
-        "ENST90025 Environmental Industry Research (25) ... 1500 words ... Hurdle requirement ... 7000 words"
+        "Our students include policy and program planners, trainers, teachers, performance auditors, internal monitoring and evaluation staff, project staff, managers, medical staff, and independent consultants.",
+        "They are drawn from the public sector, non-government agencies, and business in areas such as education, welfare, and health.",
+        "The capstone project is either 1) a participation in a real evaluation project, which leads to the production of a report, or 2) a critical review of a particular body of literature in evaluation, which leads to the production of a journal article.",
+        "Drawing on theory, knowledge, and skills developed throughout the Master of Evaluation, students scope and complete an individual project.",
+        "Students should choose four elective subjects from the following list."
       ]
     },
-    "workplace": 5,
+    "workplace": 3,
     "gates": {
       "G1": {
         "result": "PASS",
-        "rationale": "PASS condition is met: comprehensive 100-point professional development qualification in evaluation theory, methodology, ethical practice, program monitoring, impact evaluation, and performance audit.",
+        "rationale": "PASS condition is met: the program documents a coherent specialist core with progressive methodological depth. All four compulsory subjects are evaluation subjects - EDUC90850 Foundations of Evaluation (nature, logic, types, values and professional standards), EDUC90847 Practice of Evaluation (methods, planning, conducting and managing evaluations, reporting), EDUC90848 Applied Research Methodology (research design, methodological decision-making, ethics), and EDUC90747 Evaluation Capstone - and the capstone is positioned by the course structure at the end of the sequence, drawing on the whole program. All seven electives are evaluation subjects too, so there is no generic or interchangeable content anywhere in the 100 points.",
         "evidenceLines": [
-          "The Master of Evaluation is a program conducted purely online, of professional development catering for the needs of those who wish to prepare for a leadership role in evaluation theory, method, and practice at local, national and international levels.",
+          "The Master of Evaluation is a 100 point coursework classified course. Students complete four compulsory subjects and four elective subjects.",
+          "EDUC90747 Evaluation Capstone is taken in the final semester of the Master of Evaluation.",
           "The course aims to enable students to become familiar with theories underlying policy and program development, the roles of various types of evaluation, ethical practice, and key concepts and approaches to evaluation.",
           "Demonstrate an appreciation of professional responsibilities and ethical principles that should characterise leaders in the evaluation field."
         ]
       },
       "G2": {
         "result": "PASS",
-        "rationale": "PASS condition is met: core assessment explicitly requires navigating high-stakes evaluation dilemmas, conflicting stakeholder values, ambiguous program outcomes, and ethical data decisions (ENST90002, DEVT90002, MULT90005).",
+        "rationale": "PASS condition is met: core assessment requires defended trade-off decisions rather than recall. EDUC90848 is built on methodological choice under conditions the handbook states are complex and contested - 'the complexities of methodological decision-making within real-world evaluation contexts' - and assesses it in a 60% research proposal that must match evaluation questions and purposes to methods against stakeholder needs, resources and other contextual factors. The course-level graduate attributes name the value conflict that makes those decisions contested, and the compulsory capstone requires a self-scoped project defended in a hurdle oral presentation.",
         "evidenceLines": [
-          "Environmental sustainability issues are often complex, controversial and associated with uncertain conditions.",
-          "Manage complex and uncertain issues and situations",
-          "Analyse complex, field-based activities connected with development."
+          "The subject emphasises the complexities of methodological decision-making within real-world evaluation contexts and prepares students to critically appraise the quality of existing evaluations.",
+          "considering stakeholder needs, resources, and other contextual factors",
+          "Evaluate social research literature to make informed decisions",
+          "They will understand the existence of multiple sets of values, how those affect the task of evaluation, and how to make the values conversation an explicit component of evaluation work.",
+          "Final Project: Research Proposal ... 3000 words ... Week 9 ... 60%"
         ]
       }
     },
     "ambiguities": [
-      "C1 straddled 2 and 3: collaborative group projects in MULT90004, MULT90005, DEVT90009, and DEVT90041 satisfy level 2. Level 3 is unmet because explicit human-AI workflow allocation charters are unevidenced.",
-      "C2 straddled 2 and 3: program evaluations and impact assessments satisfy level 2. Level 3 is unmet because AI evaluation analytics auditing and override logs are unevidenced.",
-      "C3 straddled 2 and 3: research design tools and data analytics satisfy level 2, but AI evaluation ethics and automated auditing critique are unevidenced in the core.",
-      "C4 straddled 2 and 3: contextual evaluation transfer is assessed across the core (level 2), but self-capability gap tracking is unevidenced. Scored at 2.",
-      "C5 straddled 2 and 3: empirical research design and project reports satisfy level 2, but a mandatory primary research thesis defended under oral examination is not required for all students. Scored at 2.",
-      "W1 straddled 2 and 3: professional communication is repeatedly assessed (level 2), but external practitioner grading across the universal core is unevidenced.",
-      "W2 straddled 2 and 3: authentic project reports satisfy level 2, but unyielding external client constraints are unevidenced.",
-      "W3 satisfies level 1: internship with supervisor assessment is available as an elective/capstone route, but not universally mandatory in the core."
-    ]
+      "C1 straddled 0 and 1 and resolved to 0 on adversarial challenge. The level-1 anchor names learning outcomes only, while C2, C3 and W1 name graduate attributes or program-level outcomes explicitly, so the graduate attribute 'communicating with clients and stakeholders' and the taught topic 'stakeholder engagement strategies' cannot carry the item to 1. Level 0's own test - no assessed collaborative work in the core - is affirmatively satisfied, so the evidence is consistent with 0 and R3 applies.",
+      "C2 straddled 2 and 3: peer review in EDUC90847 and criterion-referenced critique in EDUC90850 satisfy level 2, but the reflection on one's own knowledge and skills that level 3 would need sits in capstone outcomes with no assessment row, so R2 holds it at 2.",
+      "C3 straddled 0 and 1: 'online' delivery, an online quiz in an elective and video-conference presentation are mode, not documented digital or AI curriculum, and R1 forbids crediting mode as content. No elective is documented as digital or AI content either, so level 1's own condition fails and the item sits at 0.",
+      "C5 straddled 1 and 2 and resolved to 1 on adversarial challenge. Level 2 is a conjunction - design and conduct, with methodology selection and data collection, assessed - and only design is documented: EDUC90848's 60% research proposal selects a methodology and stops at the proposal. Conduct survives only as EDUC90847's intended learning outcome 'Apply evaluation theory to designing and conducting an evaluation', whose assessment row records nothing but 'Project', its length and its weight, so R2 caps it at 1; and the capstone's data route is one of two, so R3 confirms the lower level.",
+      "W1 straddled 1 and 2: the hurdle oral presentation and the capstone written task come close to a professional genre, but the written task is 'an article or project report' - one academic option, one professional - and no audience beyond the teaching team and no criteria drawn from practice are documented. R3 resolves down to 1.",
+      "W2 straddled 1 and 2 and resolved to 1 on adversarial challenge. The level-2 anchor has three conjuncts - a real or realistic problem, the artefact a practitioner would produce, and judgement 'against criteria drawn from practice' - and the third is undocumented: no assessment row in this capture states any criterion, rubric or standard, because the tables carry only description, timing and percentage. The realism conjunct rests on the capstone's real-project route, which is optional and is scored in W3. Level 1's own test is affirmatively met by the 65% case-based analysis on simple cases and the 20% synthesis exercise, so R3 resolves down to 1.",
+      "W3 straddled 1 and 2: the cohort is documented as already practising, which opens the v4.2 in-practice route, but the real-project capstone option is one of two routes and carries no documented workplace supervision, outcome measure or accountability to workplace stakeholders. R3 resolves down to 1."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-25"
+    }
   }
 }
