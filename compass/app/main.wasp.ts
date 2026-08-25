@@ -20,6 +20,7 @@ import AssessorPage from "./src/compass/AssessorPage" with { type: "ref" };
 import ReportsPage from "./src/compass/ReportsPage" with { type: "ref" };
 import ReportPage from "./src/compass/ReportPage" with { type: "ref" };
 import V4ReportsPage from "./src/compass/v4/V4ReportsPage" with { type: "ref" };
+import V4InsightsPage from "./src/compass/v4/V4InsightsPage" with { type: "ref" };
 import InsightsPage from "./src/compass/InsightsPage" with { type: "ref" };
 import MatrixDashboardPage from "./src/compass/v2/MatrixDashboardPage" with { type: "ref" };
 import V2ReportPage from "./src/compass/v2/V2ReportPage" with { type: "ref" };
@@ -280,7 +281,7 @@ export default app({
     route("ReportsArchiveRoute", "/reports/archive", page(ReportsPage)),
     route("ReportDetailRoute", "/reports/:reportSlug", page(ReportPage)),
     // v2 (dev branch): /insights IS the v2 matrix dashboard; v1 hub moves to /insights/v1
-    route("InsightsRoute", "/insights", page(MatrixDashboardPage)),
+    route("InsightsRoute", "/insights", page(V4InsightsPage)),
     // InsightsPage renders CompetitiveThreatCard and ImpactReportCard, which
     // carry internal competitive-strategy commentary written in the first
     // person about the methodology ("validates DFVA's thesis", "DFVA should
