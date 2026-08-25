@@ -2,97 +2,175 @@
   "onet_soc_code": "45-2091",
   "title": "Agricultural Equipment Operators",
   "aliases": [
-    "Agricultural and Horticultural Mobile Plant Operator"
+    "Agricultural and Horticultural Mobile Plant Operator",
+    "Farm Machinery Operator",
+    "Machinery Operator"
   ],
   "anzsco": "220000",
   "window": {
     "from": "2025-08-01",
-    "to": "2026-08-24"
+    "to": "2026-08-26"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-26",
+  "expires": "2027-02-26",
+  "researchMethod": "empirical-five-lane-v1",
   "programs": [],
   "claims": [
     {
-      "id": "45-2091-01",
-      "text": "National peak professional bodies and statutory regulators governing Agricultural Equipment Operators enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
+      "id": "c01",
+      "text": "Adoption of autonomous and semi-autonomous machinery among Australian grain growers rose from 27% to 45% between the first (2024) and second (results published April 2026) waves of a national survey by Grain Producers Australia, the Tractor and Machinery Association of Australia and the Society of Precision Agriculture Australia, with tractors and sprayers the most common entry point and grower interest in learning more rising to 69%.",
+      "lane": "L2",
+      "tier": "industry-survey-national",
       "sources": [
         {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Agricultural Equipment Operators",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Agricultural Equipment Operators",
-          "url": "https://www.psc.gov.au/standards/45-2091",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Agricultural Equipment Operators"
+          "publisher": "Grain Producers Australia",
+          "title": "Autonomous Farm Machinery | Code of Practice and survey snapshot",
+          "url": "https://grainproducers.com.au/codeofpractice",
+          "date": "2026-04-01",
+          "whatItMeasured": "Second-wave survey of 200+ Australian grain producers (Autonomous Farm Machinery use in Australia - a snapshot 2026): adoption share, entry-point machine types, learning preferences"
+        },
+        {
+          "publisher": "Grain Producers Australia",
+          "title": "Autonomous farm machinery uptake caught between interest and adoption realities",
+          "url": "https://www.grainproducers.com.au/post/autonomous-farm-machinery-uptake-caught-between-interest-and-adoption-realities",
+          "date": "2026-05-05",
+          "whatItMeasured": "Peak-body release confirming cost, return on investment and regional connectivity as primary adoption barriers"
         }
       ],
-      "scope": "Australian practitioners in Agricultural Equipment Operators across public, private, and research sectors.",
-      "disposition": "sourced",
+      "scope": "Grain producers (broadacre cropping) nationally. 'Adoption' includes semi-autonomous functions such as autosteer guidance, not only fully driverless machines, and is self-reported. Says nothing directly about operator employment levels.",
+      "disposition": "scoped",
       "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
+      "bearing": [],
       "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
+      "refuteNotes": "Lens 1 (source real): peak body's own site, both pages resolve 200, post carries datePublished 2026-05-05, results stated as published April 2026. Lens 2 (population fit): grain growers, which is where this occupation's automation exposure is concentrated; horticulture covered separately by c03. Lens 3 (in window): April-May 2026, inside window. No refuter overturned."
     },
     {
-      "id": "45-2091-02",
-      "text": "Automation of routine transactional and analytical tasks in Agricultural Equipment Operators heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
+      "id": "c02",
+      "text": "A Code of Practice for Agricultural Mobile Field Machinery with Autonomous Functions in Australia, developed by Grain Producers Australia with the Tractor and Machinery Association and the Society of Precision Agriculture Australia, guides safe work procedures for semi-autonomous and autonomous mobile field machinery used in planting, spraying, fertilising and harvesting in grain production systems.",
+      "lane": "L1",
+      "tier": "industry-code-of-practice",
       "sources": [
         {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Agricultural Equipment Operators",
-          "url": "https://www.jobsandskills.gov.au/research/45-2091",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Agricultural Equipment Operators in Australia"
+          "publisher": "Grain Producers Australia",
+          "title": "Autonomous Farm Machinery | Code of Practice",
+          "url": "https://grainproducers.com.au/codeofpractice",
+          "date": "2021-07-01",
+          "whatItMeasured": "Industry code of practice scope statement and development history (development from 2019, released July 2021 per page updates)"
         }
       ],
-      "scope": "Entry-level and senior Agricultural Equipment Operators roles in Australia.",
-      "disposition": "sourced",
+      "scope": "Voluntary industry code, not statute or regulation; compliance is not legally enforceable as written here. Grain production systems are its stated focus. It is the closest instrument to a governing standard for autonomous field machinery, so WHS duties under the model Act still apply alongside it.",
+      "disposition": "scoped",
       "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
+      "bearing": [],
       "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
+      "refuteNotes": "Lens 1: primary page resolves 200 with dated update history. Lens 2: covers the machine classes this occupation operates. Lens 3: standing instrument predating the window; retained as L1 context per the plan's freshness rule. Dissent: it is industry-led rather than statutory, so the tier records exactly that."
+    },
+    {
+      "id": "c03",
+      "text": "Hort Innovation and the Almond Board of Australia ran a completed demonstration project (AS17002, Demonstration of functional driverless tractor for Australian horticulture) trialling a retrofitted driverless tractor with remote monitoring in Australian almond orchards; the technology contractor linked grower interest to difficulty staffing tractor seats, including night shifts.",
+      "lane": "L3",
+      "tier": "project-register-and-trade-reporting",
+      "sources": [
+        {
+          "publisher": "Hort Innovation",
+          "title": "AS17002 - Demonstration of functional driverless tractor for Australian horticulture (project register)",
+          "url": "https://www.horticulture.com.au/information-hub/our-projects/project-reports/as17002",
+          "date": "2026-08-26",
+          "whatItMeasured": "Grower-funded R&D register entry recording AS17002 as a completed project (page undated; retrieved 2026-08-26)"
+        },
+        {
+          "publisher": "Tree Crop (industry magazine)",
+          "title": "Driverless tractor trial on track",
+          "url": "https://treecrop.com.au/news/driverless-tractor-trial-track",
+          "date": "2024-06-30",
+          "whatItMeasured": "Trade report of the trial's GOtrack retrofit, remote monitoring app, demonstration days, and AME Group commentary that staffing tractor seats including night shifts was getting harder (article undated; approximate date flagged)"
+        }
+      ],
+      "scope": "One horticultural trial in almonds. Demonstrates technical feasibility and employer motivation, not displacement of operators at scale. The quoted contractor commentary comes from an undated trade article and should be re-dated before print use.",
+      "disposition": "scoped",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Lens 1: Hort Innovation register resolves 200; treecrop page resolves 200 but publishes no dateline, so one refuter overturned on dating grounds. Lens 2: population fit for horticulture operators. Lens 3: project completion date uncertain; claim survives two-to-one with the dating dissent carried into scope."
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "agricultural equipment operators",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "farm machinery operator (113 results); plant operator agriculture (13 results)",
+    "window": "listings posted within 90 days of 2026-08-26",
+    "count": 126,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "West Hills Farm",
+      "River Agriculture (Warren)",
+      "Rural Enterprises",
+      "Kalahari Farms",
+      "Category 5 Labour Management",
+      "Skilled Jobs Australia (x3)",
+      "Barrie Arnold (x2)"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ]
+      "machinery operation",
+      "spraying",
+      "livestock handling",
+      "tractor work",
+      "maintenance",
+      "harvest operations",
+      "truck driving"
+    ],
+    "notes": "Precision-technology keywords are nearly absent from ad text (autosteer/GPS/guidance <=1 mention across 126 listings), despite c01 showing 45% adoption of autonomous or semi-autonomous machinery among growers. Ads describe conventional operating skills; demand for precision-tech operator skills is not yet visible in ad language."
   },
   "corpus": {
     "platforms": [
       {
-        "name": "practitioner_forums",
-        "scope": "National Agricultural Equipment Operators Association discourse",
-        "items": 45
+        "name": "reddit",
+        "scope": "requested r/farming, r/Tractors, r/Agriculture; returned items mostly US-politics and meme threads, none on Australian operator experience of autonomy",
+        "items": 8
+      },
+      {
+        "name": "hackernews",
+        "scope": "plan queries; generic autonomy items, none agricultural-operator specific",
+        "items": 22
+      },
+      {
+        "name": "github",
+        "scope": "plan queries; noise",
+        "items": 7
+      },
+      {
+        "name": "youtube",
+        "scope": "plan queries; Clarkson's Farm trailer only",
+        "items": 1
       }
     ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": []
+    "retrieved": "2026-08-26",
+    "searchesReturningNothing": [
+      {
+        "source": "grounding",
+        "status": "no-results"
+      },
+      {
+        "source": "x",
+        "status": "auth-failed (unauthenticated bird session)"
+      },
+      {
+        "source": "tiktok",
+        "status": "skipped-unconfigured (no scrapecreators key)"
+      },
+      {
+        "source": "instagram",
+        "status": "skipped-unconfigured (no scrapecreators key)"
+      },
+      {
+        "source": "Factiva",
+        "status": "omitted: unattended run (constraint 3)"
+      }
+    ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "High confidence rests on the L1/L2 core (peak-body survey plus code of practice); the declared L5 corpus contained zero items from Australian machinery operators, so practitioner-discourse signals are absent rather than negative.",
+    "Factiva omitted: unattended run.",
+    "'agricultural equipment operator' as a title barely appears in the Australian market; ads use 'farm machinery operator' and 'mobile plant operator'.",
+    "ANZSCO code carried over from the synthetic record (220000 placeholder) pending crosswalk confirmation."
+  ]
 }

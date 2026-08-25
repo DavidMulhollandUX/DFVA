@@ -1,29 +1,52 @@
-# Deep Research Evidence Log: Agricultural Equipment Operators (45-2091)
+# Evidence log — 45-2091 Agricultural Equipment Operators
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Run: 2026-08-26, autoloop worker `autoloop`. Method: empirical-five-lane-v1.
+Declared L5 window: 180 days to 2026-08-26. Record window: 2025-08-01 to 2026-08-26.
 
-## Admitted Claims and Verified Citations
+## c01 — GPA/TMA/SPAA autonomous farm machinery survey, second wave (L2)
 
-### Claim `45-2091-01` (L1 · regulatory)
+- Source: Grain Producers Australia, Autonomous Farm Machinery / Code of Practice page. HTTP 200. Results stated as "published in April 2026".
+- Quote: "Adoption of autonomous and semi-autonomous machinery has increased from 27 per cent to 45 per cent of growers, with tractors and sprayers the most common entry point for use on farm. Interest in the technology is also strengthening, with 69 per cent of growers indicating they want to learn more".
+- Corroborating source: GPA post "Autonomous farm machinery uptake caught between interest and adoption realities", datePublished 2026-05-05. HTTP 200. Confirms barriers: "cost and connectivity issues are limiting uptake".
 
-> "National peak professional bodies and statutory regulators governing Agricultural Equipment Operators enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+## c02 — Code of Practice for Agricultural Mobile Field Machinery with Autonomous Functions (L1 industry code)
 
-- **Scope:** Australian practitioners in Agricultural Equipment Operators across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Agricultural Equipment Operators** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Agricultural Equipment Operators](https://www.psc.gov.au/standards/45-2091) — *What it measured:* National competency and ethics framework for Agricultural Equipment Operators
+- Source: same GPA page (HTTP 200); page update history includes 1 July 2021 (release period).
+- Quote: "The Code is designed to guide: Mobile machinery with semi-autonomous and autonomous functions used in agricultural field operations; The development and evaluation of safe work procedures for use of this machinery."
+- Scope note recorded on the claim: voluntary industry code, not statute.
 
----
+## c03 — AS17002 driverless tractor demonstration, almonds (L3)
 
-### Claim `45-2091-02` (L2 · scholarly)
+- Source: Hort Innovation project register, AS17002 page. HTTP 200. Register records the project as completed ("Completed project ... Demonstration of functional driverless tractor for Australian horticulture (AS17002)").
+- Source: Tree Crop magazine report (HTTP 200, undated dateline — flagged on the claim).
+- Quote (AME Group managing director Cam Clifford): "Trying to find staff to work those hours and sit in tractors going up and down rows is getting harder and harder, and that's aside from the cost side of it."
 
-> "Automation of routine transactional and analytical tasks in Agricultural Equipment Operators heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
+## L4 — Adzuna AU
 
-- **Scope:** Entry-level and senior Agricultural Equipment Operators roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Agricultural Equipment Operators](https://www.jobsandskills.gov.au/research/45-2091) — *What it measured:* Labour market analysis of automation resilience across Agricultural Equipment Operators in Australia
+Queries run 2026-08-26, max_days_old=90, raw payloads under `raw/`:
 
----
+| Query | Count | Mean advertised salary |
+|---|---|---|
+| farm machinery operator | 113 | $89,434 |
+| plant operator agriculture | 13 | $85,000 |
+
+Skills recounted from raw listing text (farm machinery operator, n=20 returned listings): machinery
+19, spray 6, livestock 7, tractor 5, maintenance 5, harvest 4, truck 4, driver 3. Precision-tech
+keywords (autosteer/GPS/guidance) at or near zero — recorded in `jobAds.notes`.
+
+## L5 — last30days engine
+
+- Command and plan: `raw/l5-plan.json`, `--days 180 --as-of 2026-08-26 --subreddits farming,Tractors,Agriculture --max-source-fetches 6`.
+- Outcome: reddit ok (8), hackernews ok (22), github ok (7), youtube ok (1), grounding no-results. X unauthenticated; TikTok/Instagram unconfigured; Factiva omitted (unattended run).
+- **Zero items concern Australian machinery operators' experience of autonomy.** Reddit returns are US-politics and meme threads; the only tractor-adjacent content is a Clarkson's Farm trailer. No claim drawn from L5.
+
+## Refute pass
+
+Three lenses per claim. All three claims survived at least two lenses. Dissents carried into
+scope: c03's trade article carries no dateline (dating lens overturned; claim survives on the
+register plus corroborating reporting two-to-one). c01's adoption figure includes semi-autonomous
+functions such as autosteer — captured explicitly in scope so it cannot read as driverless adoption.
+
+## Caps reached
+
+None.
