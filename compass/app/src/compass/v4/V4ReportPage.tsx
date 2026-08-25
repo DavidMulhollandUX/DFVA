@@ -3,6 +3,9 @@ import { Card, CardContent, CardTitle } from "../../client/components/ui/card";
 import { InsightsGate } from "../InsightsGate";
 import { hasReportContent } from "../reportContent/index";
 import { MatrixAreaLabels } from "../matrixAreaLabels";
+// Scale bounds and the workplace-sizing rule come from plotScale.ts, shared
+// with the insights portfolio matrix so both figures plot on one scale.
+import { X_MAX, X_MIN, wRadius } from "./plotScale";
 import { ReportMarkdownCard } from "../v2/components/ReportMarkdownCard";
 import { QUADRANTS } from "../v2/quadrants";
 import {
@@ -52,9 +55,6 @@ import {
   V4_QUADRANT_LABELS as QUADRANT_LABELS,
   v4Quadrant,
 } from "./v4Position";
-
-const X_MIN = 60;
-const X_MAX = 100;
 
 /** v4 has no quadrant until the migration cycle re-bases the medians, so the
  * program dot is deliberately neutral — no quadrant colour may be implied. */
@@ -393,14 +393,6 @@ function GateResult({
     </details>
   );
 }
-
-/** Dot radius encoding the workplace sub-score. W is not on either axis — the
- * position runs on adaptiveness alone — so size is how it earns its place on
- * the figure. It also does the work the axes cannot: six scored programs sit at
- * adaptiveness 9 with W spanning the full 2–9 range, and without this they plot
- * as one indistinguishable stack. */
-const wRadius = (workplace: number) =>
-  3 + (Math.max(0, Math.min(9, workplace)) / 9) * 5;
 
 /** The exposure–adaptiveness plane. Two cohorts are drawn: the v3.1 reference
  * portfolio faded for orientation, and the programs already re-scored on v4.1,
