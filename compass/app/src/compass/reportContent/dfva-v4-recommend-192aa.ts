@@ -7,7 +7,7 @@ const content = {
 
 **Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
 **Assessment date:** 2026-08-22 · **Derived from:** the verified panelCv4 scoring + reports/dfva-market-192aa.md
-**Position basis:** Destination AI Exposure 94.83 (partial basis) × Curriculum Adaptiveness 5/15 (v4.2 draft, sub-scale A) · Workplace practice 3/9 (sub-scale W, reported beside the axis, not in it) — no v1 composite
+**Position basis:** Destination AI Exposure 94.83 (partial basis) × Curriculum Adaptiveness 6/15 (v4.2 draft, sub-scale A) · Workplace practice 3/9 (sub-scale W, reported beside the axis, not in it) — no v1 composite
 
 > Citation marks in the Sources columns refer to the numbered list in
 > [References](#references); full citations are given there and not repeated in
@@ -22,7 +22,7 @@ interpretation, not observation.*
 
 The Master of International Tax provides a prestigious, globally recognized specialist legal qualification. G1 passes on a comprehensive specialist curriculum covering foundations, tax treaties, transfer pricing, and comparative international tax doctrine, and G2 passes on defended trade-off analysis under legal and economic uncertainty in take-home examinations and in-class policy debates.
 
-However, the program faces high exposure (94.83) alongside significant headroom on both sub-scales: **5 / 15 on Adaptiveness** and **3 / 9 on Workplace**. Most critically, C3 (0/3) and W3 (0/3) are completely unaddressed in the compulsory core: there is zero digital/AI literacy content despite profound industry disruption by Pillar Two compliance engines and legal AI models, and work-situated learning is absent from the degree structure. On workplace practice, W2 (1/3) relies on academic take-home essays rather than authentic practitioner deliverables (e.g. formal tax advice memoranda or private ruling requests). On adaptiveness, C1 (1/3) and C2 (1/3) lack assessed group collaboration with individual grading, criterion-referenced rubrics, and AI reliance/override logs.
+However, the program faces high exposure (94.83) alongside significant headroom on both sub-scales: **6 / 15 on Adaptiveness** and **3 / 9 on Workplace**. Most critically, C3 (0/3) and W3 (0/3) are completely unaddressed in the compulsory core: there is zero digital/AI literacy content despite profound industry disruption by Pillar Two compliance engines and legal AI models, and work-situated learning is absent from the degree structure. On workplace practice, W2 (1/3) relies on academic take-home essays rather than authentic practitioner deliverables (e.g. formal tax advice memoranda or private ruling requests). On adaptiveness, C1 (1/3) and C2 (1/3) lack assessed group collaboration with individual grading, criterion-referenced rubrics, and AI reliance/override logs.
 
 | Item | Sub-scale | Score | Levels below maximum | Market evidence for the gap | Priority |
 |---|---|---|---|---|---|
@@ -34,7 +34,7 @@ However, the program faces high exposure (94.83) alongside significant headroom 
 | C4 Life-long learning & transfer | Adaptive | 2 / 3 | 1 | Direct — Core applies complex international tax rules to novel multi-jurisdictional scenarios (LAWS70006, LAWS70323), but lacks a mandatory self-scoped research capstone or personal learning plan. | 6 |
 | C5 Inquiry & evidence generation | Adaptive | 2 / 3 | 1 | Direct — Core offers independent research paper options (LAWS70319, LAWS70009), but primary research is an elective route and lacks an oral viva defence under scrutiny. | 7 |
 | W1 Professional communication & conduct | Workplace | 2 / 3 | 1 | Direct — Core assesses communication to non-specialist audiences, but tasks are marked internally by academic staff rather than judged by external revenue authority or Big 4 practitioner panels. | 8 |
-| **Adaptive capabilities** | **Adaptive** | **5 / 15** | **10** | — | — |
+| **Adaptive capabilities** | **Adaptive** | **6 / 15** | **10** | — | — |
 | **Workplace practice** | **Workplace** | **3 / 9** | **6** | — | — |
 
 Priority orders items by size of gap. The P-numbers in the tables that follow are a
@@ -101,15 +101,15 @@ sub-scales tracked separately, never summed.
 
 | Lever | Item | From | To | Change | Cumulative adaptive | Cumulative workplace |
 |---|---|---|---|---|---|---|
-| P1 | C3 | 0 | 1 | +1 adaptive | 6 / 15 | 3 / 9 |
-| P2 | W2 | 1 | 2 | +1 workplace | 6 / 15 | 4 / 9 |
-| P3 | C1 | 1 | 2 | +1 adaptive | 7 / 15 | 4 / 9 |
-| P4 | C2 | 1 | 2 | +1 adaptive | 8 / 15 | 4 / 9 |
-| P5 | C3 | 1 | 2 | +1 adaptive | 9 / 15 | 4 / 9 |
-| P6 | C3 | 2 | 3 | +1 adaptive | 10 / 15 | 4 / 9 |
-| P7 | C2 | 2 | 3 | +1 adaptive | 11 / 15 | 4 / 9 |
-| P8 | W1 | 2 | 3 | +1 workplace | 11 / 15 | 5 / 9 |
-| P9 | W3 | 0 | 2 | +2 workplace | 11 / 15 | 7 / 9 |
+| P1 | C3 | 0 | 1 | +1 adaptive | 7 / 15 | 3 / 9 |
+| P2 | W2 | 1 | 2 | +1 workplace | 7 / 15 | 4 / 9 |
+| P3 | C1 | 1 | 2 | +1 adaptive | 8 / 15 | 4 / 9 |
+| P4 | C2 | 1 | 2 | +1 adaptive | 9 / 15 | 4 / 9 |
+| P5 | C3 | 1 | 2 | +1 adaptive | 10 / 15 | 4 / 9 |
+| P6 | C3 | 2 | 3 | +1 adaptive | 11 / 15 | 4 / 9 |
+| P7 | C2 | 2 | 3 | +1 adaptive | 12 / 15 | 4 / 9 |
+| P8 | W1 | 2 | 3 | +1 workplace | 12 / 15 | 5 / 9 |
+| P9 | W3 | 0 | 2 | +2 workplace | 12 / 15 | 7 / 9 |
 
 What does **not** move a score:
 

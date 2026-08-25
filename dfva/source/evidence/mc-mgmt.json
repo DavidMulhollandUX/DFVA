@@ -4,16 +4,16 @@
     "instrument": "4.2-draft",
     "C1": {
       "score": 2,
-      "rationale": "Level 2 anchor is satisfied: assessed collaborative practice recurs across almost every subject in the program with individual accountability. In MGMT90146 Strategic Management, students collaborate in groups of 4–5 on a 5000-word Capstone Board Report alongside individual case study and exam assessment; in MGMT90141, groups of 3–5 complete staged business analysis projects; in MGMT90140, teams deliver management competency projects; and in MGMT90280, teams deliver data analytics projects and presentations. Level 3 is not met: while teams use modern collaboration software and digital analytics tools, formal assessed role-and-tool allocation charters dividing work between human managers and AI agentic systems are unevidenced.",
+      "rationale": "Level 2 anchor is satisfied: assessed collaborative practice recurs across almost every subject in the program with individual accountability. In MGMT90146 Strategic Management, students collaborate in groups of 4-5 on a 5000-word Capstone Board Report alongside an individual end-of-semester exam; in MGMT90141, groups of 3–5 complete staged business analysis projects; in MGMT90140, teams deliver management competency projects; and in MGMT90280, teams deliver data analytics projects and presentations. Level 3 is not met: while teams use modern collaboration software and digital analytics tools, formal assessed role-and-tool allocation charters dividing work between human managers and AI agentic systems are unevidenced.",
       "evidenceLines": [
-        "MGMT90146 Strategic Management ... Capstone Board Report (groups of 4-5) ... 5000 words ... Individual case study ... Exam",
+        "MGMT90146 Strategic Management ... Capstone Board Report (groups of 4-5) ... 5000 words ... End of semester Exam",
         "MGMT90141 Business Analysis and Decision Making ... Group assignment (usually in groups of 3-5) ... 2000 words ... 4000 words",
         "MGMT90280 Managerial Decision Analytics ... Group assignment (groups of 4-6) ... 5000 words ... Group presentation"
       ]
     },
     "C2": {
       "score": 2,
-      "rationale": "Level 2 anchor is satisfied: core assessment includes criterion-referenced appraisal of managerial strategies, business models, and organizational behaviour in case studies and reflective reports. In MGMT90140 Management Competencies, students complete an individual reflective report appraising their own managerial style and leadership competencies; in MGMT90146, students evaluate corporate strategies and competitive trade-offs in an individual case study. Level 3 is not met: no core assessment requires students to document and justify reliance decisions regarding generative AI strategic tools, defend judgements of AI-generated consulting frameworks/analytics, or evidence systematic override logs over time.",
+      "rationale": "Level 2 anchor is satisfied: core assessment includes criterion-referenced appraisal of managerial strategies, business models, and organizational behaviour in case studies and reflective reports. In MGMT90140 Management Competencies, students complete a 2000-word critical reflection on their own competence development, and in MGMT90018 Managing Behaviour in Organisations an individual assignment appraises behaviour in organisations. Level 3 is not met: no core assessment requires students to document and justify reliance decisions regarding generative AI strategic tools, defend judgements of AI-generated consulting frameworks/analytics, or evidence systematic override logs over time.",
       "evidenceLines": [
         "MGMT90140 Management Competencies ... Critical reflection on competence development ... 2000 words",
         "MGMT90146 Strategic Management ... Capstone Strategy Statement (groups of 4-5) ... 1200 words",
@@ -21,12 +21,12 @@
       ]
     },
     "C3": {
-      "score": 2,
-      "rationale": "Level 2 anchor is satisfied: core and foundation subjects address decision analytics, quantitative modeling, and emerging digital technologies with analytical limits assessed. In MGMT90280 Managerial Decision Analytics, students evaluate data analytics models, predictive regression, and decision tree limits in business; in MGMT90141, students model business decisions under quantitative constraints. Level 3 is not met: systemic critique of AI governance, algorithmic bias in automated workforce management, statutory AI compliance frameworks, or corporate data sovereignty is not formally assessed in the core.",
+      "score": 1,
+      "rationale": "Level 1 anchor is met and level 2 is not: AI appears in this program only as an elective. MGMT90267 Artificial Intelligence in Organisations sits in the elective list, from which students choose three subjects, and it is the single mention of AI anywhere in the capture — no core or foundation subject addresses AI at all, and nothing addresses AI limitations or ethics. What the core does document is the operational level TEQSA identifies as non-durable. In MGMT90280 Managerial Decision Analytics, the subject covers prescriptive and predictive analytics, with the power and limitations of optimisation and data analytical techniques stated as an intended learning outcome, alongside 'Appreciate software capabilities used for business analysis'; both outcomes attach to an assessment table of a mid-semester test, a group assignment, a group presentation and an end-of-semester exam, none of which documents AI limits being assessed. In MGMT90141, students apply empirical and analytical approaches to practical business situations. The line 'Critically review new decision analytics and emerging technologies' is a course-level intended learning outcome, not subject evidence — and under R2 it cannot support any level above 1. Level 3 is likewise not met: no core assessment requires critique or governance of AI systems.",
       "evidenceLines": [
-        "MGMT90280 Managerial Decision Analytics ... Group assignment (groups of 4-6) ... Group presentation",
-        "MGMT90141 Business Analysis and Decision Making ... Group assignment ... 4000 words",
-        "Critically review new decision analytics and emerging technologies"
+        "Elective subjects (37.5 points) ... Students must complete three subjects from the following list: ... MGMT90267 Artificial Intelligence in Organisations",
+        "MGMT90280 Managerial Decision Analytics ... Key topics covered include both prescriptive and predictive analytics.",
+        "Appreciate software capabilities used for business analysis"
       ]
     },
     "C4": {
@@ -39,18 +39,18 @@
       ]
     },
     "C5": {
-      "score": 2,
-      "rationale": "Level 2 anchor is satisfied: students design and conduct secondary and mixed-method business inquiries, analyzing organizational datasets, benchmarking market competitors, and formulating strategic recommendations backed by empirical business evidence in MGMT90146, MGMT90280, and MGMT90141. Level 3 is not met: no universal mandatory primary-evidence thesis with oral viva defense before an external examination panel is required across the core.",
+      "score": 1,
+      "rationale": "Level 1 anchor is met and level 2 is not: what the capture documents is a methods-style unit plus literature-review assessment. MGMT90141 Business Analysis and Decision Making states that the subject content 'will include conceptual foundations, practical tools, and case studies to discuss the costs, benefits and risks of the various analytical methods that will be introduced', and lists the generic skill 'Research skills through the preparation of the written exercises'; MGMT90280 lists 'Research skills through the search and review of literature and preparation of the written exercises'. The assessment rows previously relied on — the 5000-word Capstone Board Report in MGMT90146, a 5000-word group assignment in MGMT90280 and a 4000-word group assignment in MGMT90141 — are bare assessment-table rows, and neither they nor any surrounding overview documents methodology selection or data collection. The level 2 anchor is therefore unevidenced and R3 resolves the ambiguity to the lower level. Level 3 is likewise not met: no substantial primary-evidence project is required and no methodology is defended under scrutiny.",
       "evidenceLines": [
-        "MGMT90146 Strategic Management ... Capstone Board Report (groups of 4-5) ... 5000 words",
-        "MGMT90280 Managerial Decision Analytics ... Group assignment ... 5000 words",
-        "MGMT90141 Business Analysis and Decision Making ... Group assignment ... 4000 words"
+        "MGMT90141 Business Analysis and Decision Making ... The subject content will include conceptual foundations, practical tools, and case studies to discuss the costs, benefits and risks of the various analytical methods that will be introduced.",
+        "Research skills through the preparation of the written exercises",
+        "Research skills through the search and review of literature and preparation of the written exercises"
       ]
     },
-    "adaptiveness": 10,
+    "adaptiveness": 8,
     "W1": {
       "score": 2,
-      "rationale": "Level 2 anchor is satisfied: at least one core assessment requires a recognised professional management genre judged against commercial practice criteria. In MGMT90146, students author formal 5000-word Capstone Board Reports; in MKTG90037, students deliver executive strategy presentations; in MGMT90201, students deliver comprehensive business plans; and in MGMT90148, students produce commercial consulting proposals. Level 3 is not met: presentations and board reports in core MGMT90146 are evaluated internally by academic faculty without documented compulsory external corporate boards or client panels.",
+      "rationale": "Level 2 anchor is satisfied: at least one core assessment requires a recognised professional management genre judged against commercial practice criteria. In MGMT90146, students author formal 5000-word Capstone Board Reports; in MKTG90037, students deliver a group presentation with a written summary; in MGMT90201, students deliver comprehensive business plans; and in MGMT90148, an elective capstone option, students produce a written report, proposal or plan. Level 3 is not met: presentations and board reports in core MGMT90146 are evaluated internally by academic faculty without documented compulsory external corporate boards or client panels.",
       "evidenceLines": [
         "MGMT90146 Strategic Management ... Capstone Board Report (groups of 4-5) ... 5000 words",
         "MKTG90037 Managing for Value Creation ... Group assignment ... comprising 20 minute presentation and 1000 word written summary",
@@ -59,7 +59,7 @@
     },
     "W2": {
       "score": 2,
-      "rationale": "Level 2 anchor is satisfied: core assessment reproduces professional managerial and consulting tasks end-to-end (environmental scanning, financial/operational analysis, organizational design, strategic choice formulation, and board-level reporting in MGMT90146 and MGMT90141). Resolved downward from level 3 on adversarial verification: case briefs are academic/published Harvard business cases without live externally supplied commercial briefs carrying consequential third-party client constraints in the compulsory core (R4).",
+      "rationale": "Level 2 anchor is satisfied: core assessment reproduces professional managerial and consulting tasks end-to-end (environmental scanning, financial/operational analysis, organizational design, strategic choice formulation, and board-level reporting in MGMT90146 and MGMT90141). Resolved downward from level 3 on adversarial verification: assessment is built on the subject's own business strategy simulation and on seminar case studies, not on an externally supplied live client brief carrying consequential third-party constraints in the compulsory core (R4).",
       "evidenceLines": [
         "MGMT90146 Strategic Management ... Capstone Board Report (groups of 4-5)",
         "MGMT90141 Business Analysis and Decision Making ... Group assignment",
@@ -68,7 +68,7 @@
     },
     "W3": {
       "score": 1,
-      "rationale": "Level 1 anchor is met: simulated corporate boardrooms, executive role-plays, and mock consulting engagements appear across coursework. Level 2 is unmet: BUSA90473 (Business Practicum) and BUSA90485 (Global Business Practicum) are elective capstone options alongside MGMT90148, so workplace placement is not a universal requirement for the entire cohort (R1).",
+      "rationale": "Level 1 anchor is met: the only work-situated subjects (BUSA90473 Business Practicum, BUSA90485 Global Business Practicum and BUSA90525 Business and Economics Internship) are capstone options or electives, so work-situated learning exists only as an elective. Level 2 is unmet: no core unit places students in a real workplace or professional-community setting, so workplace placement is not a universal requirement for the entire cohort (R1).",
       "evidenceLines": [
         "Students complete one of the following subjects: ... MGMT90148 Consulting Principles and Practice ... BUSA90485 Global Business Practicum ... BUSA90473 Business Practicum",
         "Elective subjects (37.5 points) ... Students must complete three subjects from the following list: ... BUSA90485 Global Business Practicum ... BUSA90473 Business Practicum",
@@ -88,7 +88,7 @@
       },
       "G2": {
         "result": "PASS",
-        "rationale": "PASS condition is met: assessment explicitly requires complex strategic and operational trade-off decisions under market uncertainty — including navigating competitive entry barriers and disruptive market threats in MGMT90146, allocating capital under conflicting financial forecasts in MGMT90280, and managing organizational change resistance and workforce restructuring under incomplete information in MGMT90025/MGMT90018.",
+        "rationale": "PASS condition is met: assessment explicitly requires complex strategic and operational trade-off decisions under market uncertainty. In the compulsory capstone MGMT90146 Strategic Management, 'In a business strategy simulation students are required to make decisions, assess outcomes, and compete with other management teams for resources, opportunities and markets', assessed through a group Capstone Simulation and a 5000-word Capstone Board Report.",
         "evidenceLines": [
           "In a business strategy simulation students are required to make decisions, assess outcomes, and compete with other management teams for resources, opportunities and markets.",
           "Capstone Simulation (groups of 4-5), approximately 5 hours work per week across semester ... Capstone Board Report (groups of 4-5) ... 5000 words",
@@ -99,12 +99,17 @@
     "ambiguities": [
       "C1 straddled 2 and 3: collaborative team projects recur across MGMT90146, MGMT90141, MGMT90140, and MGMT90280 with individual exam hurdles (level 2). Level 3 is unmet because explicit human-AI workflow allocation charters are unevidenced.",
       "C2 straddled 2 and 3: reflective managerial writing and case evaluation recur across MGMT90140 and MGMT90146 (level 2). Level 3 is unmet because generative AI strategic reliance/override logs are unevidenced.",
-      "C3 straddled 2 and 3: decision analytics and quantitative modeling are assessed in MGMT90280 and MGMT90141 (level 2). Level 3 AI governance/algorithmic bias critique is not formally assessed in the core.",
+      "C3 resolved at 1: AI appears only as the elective MGMT90267, and no core unit addresses AI capabilities or limitations/ethics. The level 2 anchor is not met; the assessed core content is analytics technique and software use, which caps at level 1.",
       "C4 straddled 2 and 3: multi-domain business transfer is assessed across the core (level 2), but self-capability gap tracking is unevidenced. Scored at 2.",
-      "C5 straddled 2 and 3: empirical business case inquiries satisfy level 2, but oral viva defense under external scrutiny is unevidenced across the core. Scored at 2.",
+      "C5 resolved at 1: MGMT90141 is a methods-style unit and the assessed written work is literature review and case analysis (level 1). Methodology selection and data collection are unevidenced, so R3 resolves the ambiguity downward from 2.",
       "W1 straddled 2 and 3: professional board reports and executive presentations satisfy level 2, but external client evaluation is confined to elective capstone routes. Scored at 2.",
       "W2 straddled 2 and 3: authentic full-cycle management tasks are assessed, but tasks are based on published case studies without live commercial client briefs. Resolved downward to 2 per R4.",
       "W3 straddled 1 and 2: business practicum is an elective capstone option among three (level 1). Scored at 1 per R1."
-    ]
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-25"
+    }
   }
 }

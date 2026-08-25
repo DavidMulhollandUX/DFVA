@@ -316,6 +316,7 @@ const V4_NAMES = new Map<string, string>()
 }
 
 const misidentified: Array<{ code: string; url: string; name: string }> = []
+const badCapture = new Set<string>()
 for (const r of rows) {
   if (r.noCapture) continue
   const name = V4_NAMES.get(r.code)
@@ -330,6 +331,7 @@ for (const r of rows) {
     const nb = norm(body)
     if (nb.includes(norm(name)) || nb.includes(r.code.toLowerCase())) continue
     misidentified.push({ code: r.code, url, name })
+    badCapture.add(r.code)
   }
 }
 if (misidentified.length) {
@@ -347,4 +349,36 @@ if (misidentified.length) {
   console.log('\n✓ capture identity: every own-course page names its program')
 }
 
-if (STRICT && falseClaims.length) process.exit(1)
+// --- report block quotes ---------------------------------------------------
+// The record is not the only place a handbook quote is published. Each
+// reports/dfva-v4-<code>.md repeats evidence as block quotes, and those are a
+// separate copy that drifts: the Aug-2026 adversarial pass corrected records and
+// left 25 report quotes behind, including a "FNCE90056 ... Assignment (1000
+// words equivalent)" that fused a non-existent task to another row's word count.
+// This checks the published copy, not just the record.
+const staleQuotes: Array<{ code: string; quote: string }> = []
+for (const r of rows) {
+  if (r.noCapture) continue
+  // A capture that is the wrong program fails identity below; its quotes are
+  // stale for that reason and are not a separate, fixable defect.
+  if (badCapture.has(r.code)) continue
+  const reportPath = path.join(ROOT, `reports/dfva-v4-${r.code}.md`)
+  if (!existsSync(reportPath)) continue
+  const text = norm(readFileSync(path.join(CAPTURE, `${r.code}.txt`), 'utf8'))
+  for (const line of readFileSync(reportPath, 'utf8').split(/\r?\n/)) {
+    if (!line.startsWith('> ')) continue
+    const body = line.slice(2).trim()
+    // Only quotes that name a subject — prose pull-quotes are not evidence.
+    if (!/^[A-Z]{4}\d{5}/.test(body)) continue
+    if (classify(body, text) !== 'unmatched') continue
+    staleQuotes.push({ code: r.code, quote: body.slice(0, 110) })
+  }
+}
+if (staleQuotes.length) {
+  console.log(`\n❌ ${staleQuotes.length} published report quote(s) not in the capture:`)
+  for (const q of staleQuotes) console.log(`   ${q.code}: ${q.quote}`)
+} else {
+  console.log('✓ report quotes: every published block quote is in its capture')
+}
+
+if (STRICT && (falseClaims.length || staleQuotes.length)) process.exit(1)
