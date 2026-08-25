@@ -4,7 +4,7 @@
     "instrument": "4.2-draft",
     "C1": {
       "score": 2,
-      "rationale": "Level 2 anchor is satisfied: assessed collaborative practice recurs systematically across every single accounting and management core subject with individual exam accountability and group presentations. In ACCT90002 Financial Statement Analysis, students collaborate in groups of 4–5 on a 4000-word financial analysis report; in ACCT90010 Strategic Performance Management, teams of 4–5 complete a 5000-word strategic assignment; in ACCT90012 Corporate Reporting, groups deliver a 5000-word corporate reporting report; and in ACCT90014 Auditing, teams deliver a 5000-word assurance project. Level 3 is not met: while teams use modern accounting and spreadsheet tools, formal assessed role-and-tool allocation charters dividing work between human accountants and autonomous AI audit/financial modeling agents are unevidenced.",
+      "rationale": "Level 2 anchor is satisfied: assessed collaborative practice recurs systematically across every single accounting and management core subject with individual exam accountability and group presentations. In ACCT90002 Financial Statement Analysis, students collaborate in groups of 4\u20135 on a 4000-word financial analysis report; in ACCT90010 Strategic Performance Management, teams of 4\u20135 complete a 5000-word strategic assignment; in ACCT90012 Corporate Reporting, groups deliver a 5000-word corporate reporting report; and in ACCT90014 Auditing, teams deliver a 5000-word assurance project. Level 3 is not met: while teams use modern accounting and spreadsheet tools, formal assessed role-and-tool allocation charters dividing work between human accountants and autonomous AI audit/financial modeling agents are unevidenced.",
       "evidenceLines": [
         "ACCT90002 Financial Statement Analysis ... Group assignment (4000 words, in groups of 4-5 students) ... 800-1000 words (each) ... Exam",
         "ACCT90012 Corporate Reporting ... Group assignment (5000 words, in groups of 4-5 students) ... 1000-1250 words (each) ... Exam",
@@ -24,7 +24,7 @@
       "score": 2,
       "rationale": "Level 2 anchor is satisfied: core units directly address accounting information systems, internal control frameworks, database structures, quantitative modeling, and IT audit constraints. In ACCT90030 Information Processes & Control, students analyze accounting system architecture, data flows, and internal control frameworks with assessed presentations and assignments; in ECOM90009 Quantitative Methods for Business, students complete quantitative modeling tasks. Level 3 is not met: systemic critique of AI governance in corporate financial reporting, algorithmic audit bias, regulatory data protection (APRA/ASIC), or statutory tax AI governance is not formally assessed in the core.",
       "evidenceLines": [
-        "ACCT90030 Information Processes & Control ... Individual assignments ... Group presentation (20 minutes, including Q&A)",
+        "ACCT90030 Information Processes & Control ... Individual Assignment ... Group presentation (20 minutes, including Q&A)",
         "ECOM90009 Quantitative Methods for Business ... Group Assignment 1 ... Group Assignment 2 ... Group Written Assignment",
         "Employ a range of tools of analysis pertinent to the evaluation of evidence in business sector"
       ]
@@ -54,7 +54,7 @@
       "evidenceLines": [
         "ACCT90002 Financial Statement Analysis ... Group assignment (4000 words, in groups of 4-5 students)",
         "ACCT90014 Auditing and Assurance Services ... Group assignment (5000 words)",
-        "ACCT90030 Information Processes & Control ... Group presentation (20 minutes, in groups of 4–5 students, including a Q&A session; all students must present)"
+        "ACCT90030 Information Processes & Control ... Group presentation (20 minutes, in groups of 4\u20135 students, including a Q&A session; all students must present)"
       ]
     },
     "W2": {
@@ -83,7 +83,7 @@
       },
       "G2": {
         "result": "PASS",
-        "rationale": "PASS condition is met: assessment explicitly requires complex professional accounting judgements under statutory and commercial ambiguity — including assessing going-concern risks and materiality thresholds under incomplete audit evidence in ACCT90014, selecting appropriate revenue recognition and fair-value valuation models under market volatility in ACCT90012/ACCT90013, and navigating complex tax statutory interpretation in ACCT90016."
+        "rationale": "PASS condition is met: assessment explicitly requires complex professional accounting judgements under statutory and commercial ambiguity \u2014 including assessing going-concern risks and materiality thresholds under incomplete audit evidence in ACCT90014, selecting appropriate revenue recognition and fair-value valuation models under market volatility in ACCT90012/ACCT90013, and navigating complex tax statutory interpretation in ACCT90016."
       }
     },
     "ambiguities": [

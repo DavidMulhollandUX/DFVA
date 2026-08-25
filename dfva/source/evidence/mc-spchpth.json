@@ -8,7 +8,7 @@
       "evidenceLines": [
         "AUDI90028 Voice, Fluency and Swallowing Disorders ... Group presentation (1500 words) ... Hurdle requirement",
         "AUDI90027 Clinical Processes A ... Completion of written reflections and required tasks for two pre-clinical experiences",
-        "AUDI90032 Speech Pathology Clinical Practice 1 ... Completion of one Simulated Clinical Practice Assessment (SCPA) ... Assessment during one clinical placement"
+        "AUDI90032\tSpeech Pathology Practice 1 ... Completion of one Simulated Clinical Practice Assessment (SCPA) ... Assessment during one clinical placement"
       ]
     },
     "C2": {
@@ -52,29 +52,29 @@
     "adaptiveness": 10,
     "W1": {
       "score": 3,
-      "rationale": "Level 3 anchor is satisfied: professional communication is assessed repeatedly and progressively across the program (multiple OSCE hurdles in AUDI90029, AUDI90033, AUDI90036, AUDI90039, AUDI90041, oral case presentations, clinical portfolios) AND delivered to and judged by registered clinical speech pathology supervisors across mandatory workplace placements (AUDI90032, AUDI90033, AUDI90039) using the validated national COMPASS® (Competency Assessment in Speech Pathology) instrument, with professional conduct, ethics, and therapeutic communication directly graded.",
+      "rationale": "Level 3 anchor is satisfied: professional communication is assessed repeatedly and progressively across the program (multiple OSCE hurdles in AUDI90029, AUDI90033, AUDI90036, AUDI90039, AUDI90041, oral case presentations, clinical portfolios) AND delivered to and judged by registered clinical speech pathology supervisors across mandatory workplace placements (AUDI90032, AUDI90033, AUDI90039) using the validated national COMPASS\u00ae (Competency Assessment in Speech Pathology) instrument, with professional conduct, ethics, and therapeutic communication directly graded.",
       "evidenceLines": [
-        "AUDI90032 Speech Pathology Clinical Practice 1 ... Passing end Placement COMPASS® (Competency assessment in Speech Pathology) at Novice Level ... 100% attendance and participation",
-        "AUDI90033 Speech Pathology Clinical Practice 2 ... Assessment of two clinical placements. Students' clinical performance during each placement will be assessed via COMPASS®",
-        "AUDI90039 Speech Pathology Clinical Practice 3 ... The COMPASS® Assessments and the Clinical Portfolio are to be submitted"
+        "AUDI90032\tSpeech Pathology Practice 1 ... Passing end Placement COMPASS\u00ae (Competency assessment in Speech Pathology) at Novice Level ... 100% attendance and participation",
+        "AUDI90033\tSpeech Pathology Practice 2 ... Assessment of two clinical placements. Students' clinical performance during each placement will be assessed via COMPASS\u00ae",
+        "AUDI90039\tSpeech Pathology Practice 3 ... The COMPASS\u00ae Assessments and the Clinical Portfolio are to be submitted"
       ]
     },
     "W2": {
       "score": 3,
-      "rationale": "Level 3 anchor is satisfied: authentic tasks form the program's assessment spine across every semester (Objective Structured Clinical Examinations [OSCEs] in AUDI90029/AUDI90033/AUDI90036/AUDI90039/AUDI90041, Simulated Clinical Practice Assessments [SCPA] in AUDI90032, complex adult/paediatric case formulations) AND carry genuine constraints of practice — real patients with acute aphasia, paediatric feeding distress, progressive dysarthria, strict time constraints, and live clinical safety standards across hospital and community placements.",
+      "rationale": "Level 3 anchor is satisfied: authentic tasks form the program's assessment spine across every semester (Objective Structured Clinical Examinations [OSCEs] in AUDI90029/AUDI90033/AUDI90036/AUDI90039/AUDI90041, Simulated Clinical Practice Assessments [SCPA] in AUDI90032, complex adult/paediatric case formulations) AND carry genuine constraints of practice \u2014 real patients with acute aphasia, paediatric feeding distress, progressive dysarthria, strict time constraints, and live clinical safety standards across hospital and community placements.",
       "evidenceLines": [
-        "AUDI90032 Speech Pathology Clinical Practice 1 ... Completion of one Simulated Clinical Practice Assessment (SCPA) ... Assessment during one clinical placement",
+        "AUDI90032\tSpeech Pathology Practice 1 ... Completion of one Simulated Clinical Practice Assessment (SCPA) ... Assessment during one clinical placement",
         "AUDI90036 Clinical Processes C ... OSCE - Paediatric focused (40%) ... OSCE - Adult focused (40%)",
         "AUDI90041 Complex Case Models in Speech Pathology ... 3 case studies (1x oral, 1x written and 1x video) ... 2 Objective Structured Clinical Exams"
       ]
     },
     "W3": {
       "score": 3,
-      "rationale": "Level 3 anchor is satisfied: substantial required work-situated learning: multiple extended clinical placement blocks (AUDI90032, AUDI90033, AUDI90039) in the compulsory core, supervised by certified Speech Pathology Australia practitioners, assessed via the national COMPASS® competency framework, with direct accountability to healthcare/educational host organisations and structured clinical portfolios.",
+      "rationale": "Level 3 anchor is satisfied: substantial required work-situated learning: multiple extended clinical placement blocks (AUDI90032, AUDI90033, AUDI90039) in the compulsory core, supervised by certified Speech Pathology Australia practitioners, assessed via the national COMPASS\u00ae competency framework, with direct accountability to healthcare/educational host organisations and structured clinical portfolios.",
       "evidenceLines": [
-        "AUDI90032 Speech Pathology Clinical Practice 1 ... Assessment during one clinical placement ... Passing end Placement COMPASS®",
-        "AUDI90033 Speech Pathology Clinical Practice 2 ... Assessment of two clinical placements ... COMPASS® and Clinical Portfolio",
-        "AUDI90039 Speech Pathology Clinical Practice 3 ... Assessment of two clinical placements ... COMPASS® Assessments and Clinical Portfolio"
+        "AUDI90032\tSpeech Pathology Practice 1 ... Assessment during one clinical placement ... Passing end Placement COMPASS\u00ae",
+        "AUDI90033\tSpeech Pathology Practice 2 ... Assessment of two clinical placements ... COMPASS\u00ae and Clinical Portfolio",
+        "AUDI90039\tSpeech Pathology Practice 3 ... Assessment of two clinical placements ... COMPASS\u00ae Assessments and Clinical Portfolio"
       ]
     },
     "workplace": 9,
@@ -85,7 +85,7 @@
       },
       "G2": {
         "result": "PASS",
-        "rationale": "PASS condition is met: assessment explicitly requires high-stakes diagnostic and clinical decision-making under severe clinical uncertainty, acute patient distress, complex neurological presentations, and airway/aspiration safety risks — including live OSCE hurdles across AUDI90029, AUDI90033, AUDI90036, AUDI90039, and AUDI90041 and direct clinical decision-making during COMPASS®-assessed placements."
+        "rationale": "PASS condition is met: assessment explicitly requires high-stakes diagnostic and clinical decision-making under severe clinical uncertainty, acute patient distress, complex neurological presentations, and airway/aspiration safety risks \u2014 including live OSCE hurdles across AUDI90029, AUDI90033, AUDI90036, AUDI90039, and AUDI90041 and direct clinical decision-making during COMPASS\u00ae-assessed placements."
       }
     },
     "ambiguities": [
@@ -94,9 +94,9 @@
       "C3 straddled 2 and 3: acoustics software and AAC technologies satisfy level 2, but AI healthcare governance and dialect bias critique are not formally assessed in the core. Scored at 2.",
       "C4 straddled 2 and 3: lifespan transfer is assessed across the core (level 2), but self-capability gap tracking is unevidenced. Scored at 2.",
       "C5 straddled 2 and 3: evidence-based clinical inquiries satisfy level 2, but a universal primary-data thesis with viva defense is unevidenced. Scored at 2.",
-      "W1 satisfies level 3: external evaluation by certified Speech Pathology Australia clinical educators using national COMPASS® instruments across multiple placement blocks.",
+      "W1 satisfies level 3: external evaluation by certified Speech Pathology Australia clinical educators using national COMPASS\u00ae instruments across multiple placement blocks.",
       "W2 satisfies level 3: authentic tasks spine with live patient/simulated OSCEs and real clinical constraints across all stages.",
-      "W3 satisfies level 3: substantial required clinical placements in hospitals, rehabilitation centres, schools, and community clinics with COMPASS® competency assessments."
+      "W3 satisfies level 3: substantial required clinical placements in hospitals, rehabilitation centres, schools, and community clinics with COMPASS\u00ae competency assessments."
     ]
   }
 }

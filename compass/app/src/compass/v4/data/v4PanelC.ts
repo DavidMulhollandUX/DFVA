@@ -4012,7 +4012,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "rationale": "Level 2 requires at least one core assessment requiring application to novel or unfamiliar problems. LAWS70006 (International Tax: Principles, Structure) requires a 'Take-home examination' (4000 words, 70%) covering 'rules for the taxation and avoidance of double tax of residents' foreign income' and 'rules for the taxation of non-residents' Australian source income' — applying principles to unseen problems. LAWS70323 (Foundations of Tax Law) has a 'Written task' (90 minutes, 20%) and 'Written Assignment' (3000 words, 60%) applying tax law to 'a range of commonly encountered circumstances'. LAWS70319 (Tax Policy) has 'In-class task' (1 hour, Day 5, 20%) and 'Take-home examination' (4000 words, 70%) requiring analysis of 'major issues in tax policy'. Not level 3: no self-scoped capstone or research project with identification of knowledge gaps is required (the research paper option in some subjects is one of two options, not required).",
       "evidenceLines": [
         "Be able to critically examine, analyse, interpret and assess the effectiveness of Australia's rules for the taxation of inbound and outbound transactions",
-        "Have the cognitive and technical skills to independently examine, research and analyse current and emerging legal issues relating on international taxation",
+        "Have the skills to independently examine, research and analyse current and emerging legal issues relating on international taxation",
         "Be able to critically examine, analyse, interpret and apply the core Australian income tax rules as they apply to a range of commonly encountered circumstances"
       ]
     },
@@ -4023,7 +4023,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
         "Option 2: Research paper on a topic approved by the subject coordinator",
         "6000 words",
         "17 February 2027\t100%",
-        "Have the cognitive and technical skills to independently examine, research and analyse current and emerging legal issues relating on international taxation"
+        "Have the skills to independently examine, research and analyse current and emerging legal issues relating on international taxation"
       ]
     },
     "adaptiveness": 5,
@@ -4422,7 +4422,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
           "Many of the specialisation's subjects are accredited by the Trans-Tasman IP Attorneys Board (TTIPAB). This program is recommended for those seeking accreditation as a patent and/or trade marks attorney in Australia and New Zealand, and for those seeking to develop their expertise in intellectual property law more generally.",
           "By satisfactorily completing appropriate subjects, a suitably qualified person may be accredited with satisfying all of the topic groups necessary for registration as a trade marks attorney and for registration as a patent attorney. Applicants seeking registration as a patent attorney and/or trade marks attorney should first seek advice from the TTIPAB and the Law School on subject selection at the time of enrolment. For more information, please visit the Melbourne Law School Intellectual Property Law specialisation or the Trans-Tasman IP Attorneys Board.",
           "This subject follows on from Patent Law (which is a prerequisite) and provides students with the knowledge and practical skills required for the filing, prosecution and maintenance of an application for protection under the Australian and New Zealand patents legislation, for both local and international inventions, as well as in the major international and national jurisdictions of interest to Australian and New Zealand innovators. The lecturers are a team of experienced patent attorneys and/or patent lawyers. The subject meets the Trans-Tasman IP Attorneys Board (TTIPAB) requirements for 'Topic Group F’. Persons seeking qualification for registration as a trans-Tasman patent attorney, and in-depth knowledge about the practical application of patent law, will in particular benefit from the subject.",
-          "This subject builds on the material covered in the Trade Marks and Unfair Competition subject. Trade Mark Practice focusses on the procedures and practices of the Australian Trade Marks Office in obtaining and maintaining registered trademarks. It covers the relevant aspects of New Zealand trade mark procedures and practice where these are different from those in Australia. Thus, this subject is particularly valuable for students wishing to prosecute trade mark applications through those offices. The rights, privileges and professional responsibilities of a patent attorney and a trade marks attorney are also covered in the wider context of attorneys’ professional conduct. The lecturers in the subject have extensive experience in the obtaining of trade mark registrations and the subject meets the Trans-Tasman IP Attorneys Board (TTIPAB) requirements for ‘Topic Group B’ and ‘Topic Group D’."
+          "This subject builds on the material covered in the Trade Marks and Unfair Competition subject. Trade Mark Practice focusses on the procedures and practices of the Australian Trade Marks Office in obtaining and maintaining registered trademarks. It covers the relevant aspects of New Zealand trade mark procedures and practice where these are different from those in Australia. Thus, this subject is particularly valuable for students wishing to prosecute trade mark applications through those offices. The rights, privileges and responsibilities of a patent attorney and a trade marks attorney are also covered in the wider context of attorneys’ professional conduct. The lecturers in the subject have extensive experience in the obtaining of trade mark registrations and the subject meets the Trans-Tasman IP Attorneys Board (TTIPAB) requirements for ‘Topic Group B’ and ‘Topic Group D’."
         ]
       },
       "G2": {
@@ -9973,7 +9973,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
         "One team-based oral presentation with 3 to 4 team members of approximately 15 to 20 minutes. Students receive an individual assessment.",
         "One pair-prepared oral presentation of 20 minutes on a chemical process modification and its conceptual design and feasibility.",
         "Reflection (based on the project logs and the rest of the subject) (individual). Approx. 10 hours of work per student.",
-        "Hurdle requirement: Students must achieve an overall pass mark for each of the individual and team components, i.e., the total score for the project journal, oral presentation x 2 and reflection (individual) must be a pass mark; and the total score for the project progress submission and final report must be a pass mark."
+        "Students must achieve an overall pass mark for each of the individual and team components, i.e., the total score for the project journal, oral presentation x 2 and reflection (individual) must be a pass mark; and the total score for the project progress submission and final project submission (team) must be a pass mark."
       ]
     },
     "C2": {
@@ -10121,7 +10121,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "rationale": "Level 2 anchor is satisfied: at least one core assessment requires application to novel or unfamiliar problems through cross-context projects and unscripted design cases. In CVEN90060 Integrated Infrastructure Design, students integrate structural, geotechnical, and energy systems to design complex civil engineering infrastructure (e.g. multi-story residential/commercial complexes) under unscripted boundary and sustainability constraints; in CVEN90044 Sustainable Infrastructure Development, students apply engineering principles to the multi-decade redevelopment of Fisherman's Bend; in CVEN90049, students apply structural design codes to novel building geometries. Level 3 is not met: the program does not document structured progression toward independent learning via a self-scoped capstone or research thesis in the compulsory core with assessed identification of personal learning gaps and a plan to close them.",
       "evidenceLines": [
         "This subject provides students with authentic, team-based experience in integrated civil engineering design, reflecting real-world professional practice. Students will work collaboratively on project-based design tasks focused on a major civil engineering system (e.g. an apartment building).",
-        "Investigate and define complex civil engineering design problems considering functional and sustainability requirements, given site conditions and societal constraints",
+        "Investigate and define complex civil engineering design problems considering functional and sustainability requirements, given site conditions.",
         "Group Design Portfolio-Technical Industry Accepted Report on Fisherman Bend Development",
         "Design project – Detailed design report to be completed by a group of 5 students."
       ]
@@ -10130,7 +10130,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "score": 1,
       "rationale": "Level 1 anchor is met: introductory laboratory practicals and technical reports are documented across the core. Students complete laboratory practical reports in CVEN30010 Structural Theory and Design, ENEN20002 Earth Processes, and ENGR30002 Fluid Mechanics. Level 2 requires students to design and conduct an inquiry with methodology selection and data collection, assessed; while students conduct laboratory tests on soils, concrete, and fluids, these are set class practicals with predetermined experimental procedures rather than student-designed investigations. Dedicated research project subjects (e.g. CVEN90067) are elective pathways, and no required primary-evidence research project defended under formal viva scrutiny exists across the compulsory core (level 3).",
       "evidenceLines": [
-        "One individual laboratory report, workload equivalent to 500 words. ILOs 1, 3-6 are addressed in the laboratory report.",
+        "One individual laboratory report, workload equivalent to 500 words. ILOs 1, 3-6 are addressed in the report.",
         "One laboratory class with a group written report (3 team members/group). 1500 words in total for the group assignment",
         "Practical Report 1.",
         "Practical Report 2.",
@@ -10179,10 +10179,10 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
         "rationale": "PASS condition is met: the program documents an extensive compulsory core establishing technical and methodological depth in civil engineering — covering Structural Theory and Design (CVEN30010, CVEN90049), Fluid Mechanics & Hydraulics (ENGR30002, CVEN90051), Earth Processes & Geotechnics (ENEN20002), Sustainable Infrastructure Development (CVEN90044), Transport Systems (CVEN90050), Civil Engineering Management (CVEN90075), and Integrated Infrastructure Design (CVEN90060). Coherent professional engineering sequence accredited by Engineers Australia.",
         "evidenceLines": [
           "Students will acquire core civil engineering skills in the areas of structural, geotechnical, transportation and hydraulic engineering, sustainability, environmental processes and project management.",
-          "CVEN30010\tStructural Theory and Design",
+          "CVEN30009\tStructural Theory and Design",
           "CVEN90049\tStructural Design",
           "CVEN90051\tCivil Hydraulics",
-          "CVEN90050\tTransport Systems",
+          "CVEN90048\tTransport Systems",
           "CVEN90044\tSustainable Infrastructure Development",
           "CVEN90060\tIntegrated Infrastructure Design",
           "CVEN90075\tCivil Engineering Management"
@@ -10192,7 +10192,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
         "result": "PASS",
         "rationale": "PASS condition is met: assessment goes well beyond formulaic calculations to require complex trade-off decisions under structural, environmental, and geotechnical uncertainty — including multidisciplinary trade-offs between structural stability, geotechnical capacity, energy efficiency, and embodied carbon in CVEN90060, flood risk and coastal sediment transport under hydraulic variability in CVEN90051, and precinct-scale sustainability trade-offs in CVEN90044.",
         "evidenceLines": [
-          "Investigate and define complex civil engineering design problems considering functional and sustainability requirements, given site conditions and societal constraints",
+          "Investigate and define complex civil engineering design problems considering functional and sustainability requirements, given site conditions.",
           "Synthesise and integrate structural, geotechnical, and energy design concepts to develop sustainable, innovative, and practical engineering solutions",
           "Project #1: River Hydraulics This assessment consists of an individual, computer-based project applying fluid mechanics to solve river hydraulic engineering problems",
           "Group Design Portfolio-Technical Industry Accepted Report on Fisherman Bend Development"
@@ -11883,7 +11883,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "score": 2,
       "rationale": "Level 2 anchor is satisfied: core assessment includes criterion-referenced appraisal of quality. In ENGR90029 Analysing Energy Systems, students complete four quantitative assignments analyzing thermodynamic efficiencies, energy conversion bounds, and comparative economic viability of low-carbon technologies; in ENGR90028, students deliver criterion-referenced oral presentations evaluating national energy transition strategies; and in the 25-point capstone project (ENGR90031), students complete 'One oral presentation followed by an oral examination summarising the project findings'. Level 3 is not met: no core assessment requires students to document and justify reliance decisions (deciding when to rely on or override an energy grid simulation package, automated dispatch model, or collaborator), defend judgements of AI-generated renewable generation forecasts, or evidence strategy adjustment over time.",
       "evidenceLines": [
-        "Four assignments (10% per assignment); each of no more than 10 pages. (13-15 hours per assignment). ILOs 1 and 4 are addressed in these assignments.",
+        "Four assignments (10% per assignment); each of no more than 10 pages. (13-15 hours per assignment). Intended Learning Outcomes (ILOs) 1 to 4 are addressed in the assignments",
         "Class participation - One small group oral presentation during the semester (5%) and assessment of individual contributions to lectures and tutorials (5%)",
         "One oral presentation followed by an oral examination summarising the project findings"
       ]
@@ -11892,7 +11892,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "score": 1,
       "rationale": "Level 1 anchor is met: digital tools appear as tool operation and engineering simulation software. In ELEN90069 Electrical Power Systems, students complete continuous project work and assignments utilizing power flow simulation software; in ENGR90029 Analysing Energy Systems, students operate numerical modeling tools to evaluate complex energy systems; in MAST90014, students complete 'a computational implementation of an industrial optimisation model'. Level 2 is unmet: no core unit addresses AI capabilities AND limitations/ethics with use limits discussed and assessed (e.g. machine learning renewable forecasting error bounds or automated electricity dispatch algorithmic risks). Level 3 (AI critique or energy data governance) is unevidenced in core assessment.",
       "evidenceLines": [
-        "Continuous assessment of project work and assignments (approximately 40-45 hours of work per student) during the semester",
+        "Continuous assessment of project work and assignments (approximately 40-45 hours of work per student)",
         "Four assignments (10% per assignment); each of no more than 10 pages. (13-15 hours per assignment).",
         "A written assignment including a computational implementation of an industrial optimisation model"
       ]
@@ -11935,7 +11935,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "evidenceLines": [
         "Two assignments (25% each) not exceeding 12 pages each, one due mid-semester and the other at the end of semester",
         "Two assignments (25% each) not exceeding 20 pages each, one due mid-semester and the other at the end of semester",
-        "Continuous assessment of project work and assignments (approximately 40-45 hours of work per student) during the semester",
+        "Continuous assessment of project work and assignments (approximately 40-45 hours of work per student)",
         "Four assignments (10% per assignment); each of no more than 10 pages."
       ]
     },
@@ -11967,7 +11967,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
         "evidenceLines": [
           "Two assignments (25% each) not exceeding 12 pages each, one due mid-semester and the other at the end of semester",
           "Two assignments (25% each) not exceeding 20 pages each, one due mid-semester and the other at the end of semester",
-          "Continuous assessment of project work and assignments (approximately 40-45 hours of work per student) during the semester",
+          "Continuous assessment of project work and assignments (approximately 40-45 hours of work per student)",
           "Four assignments (10% per assignment); each of no more than 10 pages."
         ]
       }
@@ -11993,7 +11993,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "score": 2,
       "rationale": "Level 2 anchor is satisfied: assessed collaborative teamwork recurs across the universal core: MULT90004 Environmental Sustainability (group verbal, visual and written report, 3,000 words total / 750 words per student) and MULT90005 Partnerships for Sustainable Futures (collaborative group briefing paper, combined total of 1,500 words per student). Level 3 is not met: formal assessed division-of-labor charters allocating tasks between human team members and AI systems (e.g. AI-driven environmental data synthesis vs human interdisciplinary policy negotiation) are unevidenced.",
       "evidenceLines": [
-        "MULT90004 Environmental Sustainability ... A group verbal, visual and written report - the written report to be a combined total of about 3,000 words (approx 750 words per student)",
+        "MULT90004 Environmental Sustainability ... A group verbal, visual and written report - the written report to be a combined total of about 3,000 words",
         "MULT90005 Partnerships for Sustainable Futures ... Collaborative (group) briefing paper, to be a combined total of 1500 words per student",
         "Apply skills and knowledge of sustainability effectively in cross-disciplinary teams"
       ]
@@ -13436,7 +13436,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "rationale": "Level 2 anchor is satisfied: core and specialisation units directly address AI capabilities, algorithmic mechanics, and technical limitations/ethics with limits assessed. In COMP90051 Statistical Machine Learning, students implement and assess machine learning models, evaluating overfitting, regularization, and generalisation boundaries; in COMP90042, students analyze NLP models and hallucination risks; and in COMP90090, students author an essay on ethical issues and privacy in text analytics. Level 3 is not met: while algorithmic mechanics and ethical essays appear, systemic critique of AI governance, statutory accountability, and AI compliance architectures is not guaranteed across all specialisation cores.",
       "evidenceLines": [
         "COMP90051 Statistical Machine Learning ... Individual project ... Group project ... machine learning algorithms and limitations",
-        "COMP90090 Text Analytics in Health ... Short essay on ethical issues in health text analytics",
+        "COMP90090\tText Analytics for Health ... Short essay on ethical issues in health text analytics",
         "COMP90042 Natural Language Processing ... group-based research project essay"
       ]
     },
@@ -13453,7 +13453,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "score": 2,
       "rationale": "Level 2 anchor is satisfied: students design and conduct empirical computing inquiries with methodology selection, data collection, and experimental benchmarking. In COMP90015 and COMP90024, students benchmark algorithm efficiency and system throughput; in COMP90051, students empirically evaluate ML model performance on real datasets; and in COMP90083/COMP90086, students complete staged empirical research projects. Level 3 is not met: while vivas occur in COMP90018 and COMP90090, a universal mandatory research project with formal viva defense before an external examination panel is not required across the core.",
       "evidenceLines": [
-        "COMP90051 Statistical Machine Learning ... Project - Individual project ... Project - Group project",
+        "COMP90051 Statistical Machine Learning ... Project- Invididual project. ... Project- Group project.",
         "COMP90083 Advanced Machine Learning ... One staged group research project",
         "COMP90086 Open-Ended Research Project ... Final, open-ended group research project"
       ]
@@ -13482,7 +13482,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "rationale": "Level 1 anchor is met: simulated development environments, agile sprints, and enterprise server testbeds are embedded across coursework. Level 2 is unmet: while optional 25-point industry internships (e.g. ENGR90033) and practicum subjects (BUSA90473) exist, they are competitive electives rather than a guaranteed core requirement for all graduating students across the cohort.",
       "evidenceLines": [
         "Optional 25-point industry placement with local IT organisations as part of the course (available on a competitive basis)",
-        "BUSA90473 Global Business Practicum ... Elective offering",
+        "BUSA90485\tGlobal Business Practicum ... Elective offering",
         "ENGR90033 Internship ... Elective offering"
       ]
     },
@@ -13809,7 +13809,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "rationale": "Level 2 anchor is satisfied: assessed collaborative practice recurs across the program with individual accountability. In ENGR90051 Interdisciplinary Design for Engineers, students collaborate in multidisciplinary teams with individual project logs, mid-semester reviews, and team demonstrations subject to individual passing hurdles; in MCEN90054 Design and Manufacturing Practice, teams of 4 deliver group design reports with individual viva defense hurdles; in MCEN30021 Mechanical Systems Design, teams of 3 deliver concept and final design reports with individual physical demonstration oral assessments; and in ELEN90055 Control Systems, small groups of 2–3 complete continuous project work. Level 3 is not met: while teams use modern CAD/FEA tools, formal assessed role-and-tool allocation charters dividing work between human engineers and automated AI/generative design systems are unevidenced.",
       "evidenceLines": [
         "ENGR90051 Interdisciplinary Design for Engineers ... Project log (individual) ... Mid-semester project review (conducted as a team, marked individually) ... Demonstration (team) ... Students must achieve an overall pass mark for each of the individual and team components",
-        "MCEN90054 Design and Manufacturing Practice ... Group Design Report (4 student groups 15%). VIVA style presentation, 5 minutes per student (individually marked hurdle) ... Group Final Report ... Hurdle Requirement: To pass the subject, students must achieve at least 5/10 total for the VIVA presentations",
+        "MCEN90054 Design and Manufacturing Practice ... Group Design Report (4 student groups 15%). VIVA style presentation, 5 minutes per student (individually marked 5%). ... Group Final Report ... Hurdle Requirement: To pass the subject, students must achieve at least 5/10 total for the VIVA presentations",
         "MCEN30021 Mechanical Systems Design ... Concept design report (team of 3) ... Final design report (team of 3) ... Physical demonstration and interactive oral assessment (individual)"
       ]
     },
@@ -14019,7 +14019,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "score": 2,
       "rationale": "Level 2 anchor is satisfied: core units directly address accounting information systems, internal control frameworks, database structures, quantitative modeling, and IT audit constraints. In ACCT90030 Information Processes & Control, students analyze accounting system architecture, data flows, and internal control frameworks with assessed presentations and assignments; in ECOM90009 Quantitative Methods for Business, students complete quantitative modeling tasks. Level 3 is not met: systemic critique of AI governance in corporate financial reporting, algorithmic audit bias, regulatory data protection (APRA/ASIC), or statutory tax AI governance is not formally assessed in the core.",
       "evidenceLines": [
-        "ACCT90030 Information Processes & Control ... Individual assignments ... Group presentation (20 minutes, including Q&A)",
+        "ACCT90030 Information Processes & Control ... Individual Assignment ... Group presentation (20 minutes, including Q&A)",
         "ECOM90009 Quantitative Methods for Business ... Group Assignment 1 ... Group Assignment 2 ... Group Written Assignment",
         "Employ a range of tools of analysis pertinent to the evaluation of evidence in business sector"
       ]
@@ -16347,7 +16347,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "evidenceLines": [
         "AUDI90028 Voice, Fluency and Swallowing Disorders ... Group presentation (1500 words) ... Hurdle requirement",
         "AUDI90027 Clinical Processes A ... Completion of written reflections and required tasks for two pre-clinical experiences",
-        "AUDI90032 Speech Pathology Clinical Practice 1 ... Completion of one Simulated Clinical Practice Assessment (SCPA) ... Assessment during one clinical placement"
+        "AUDI90032\tSpeech Pathology Practice 1 ... Completion of one Simulated Clinical Practice Assessment (SCPA) ... Assessment during one clinical placement"
       ]
     },
     "C2": {
@@ -16393,16 +16393,16 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "score": 3,
       "rationale": "Level 3 anchor is satisfied: professional communication is assessed repeatedly and progressively across the program (multiple OSCE hurdles in AUDI90029, AUDI90033, AUDI90036, AUDI90039, AUDI90041, oral case presentations, clinical portfolios) AND delivered to and judged by registered clinical speech pathology supervisors across mandatory workplace placements (AUDI90032, AUDI90033, AUDI90039) using the validated national COMPASS® (Competency Assessment in Speech Pathology) instrument, with professional conduct, ethics, and therapeutic communication directly graded.",
       "evidenceLines": [
-        "AUDI90032 Speech Pathology Clinical Practice 1 ... Passing end Placement COMPASS® (Competency assessment in Speech Pathology) at Novice Level ... 100% attendance and participation",
-        "AUDI90033 Speech Pathology Clinical Practice 2 ... Assessment of two clinical placements. Students' clinical performance during each placement will be assessed via COMPASS®",
-        "AUDI90039 Speech Pathology Clinical Practice 3 ... The COMPASS® Assessments and the Clinical Portfolio are to be submitted"
+        "AUDI90032\tSpeech Pathology Practice 1 ... Passing end Placement COMPASS® (Competency assessment in Speech Pathology) at Novice Level ... 100% attendance and participation",
+        "AUDI90033\tSpeech Pathology Practice 2 ... Assessment of two clinical placements. Students' clinical performance during each placement will be assessed via COMPASS®",
+        "AUDI90039\tSpeech Pathology Practice 3 ... The COMPASS® Assessments and the Clinical Portfolio are to be submitted"
       ]
     },
     "W2": {
       "score": 3,
       "rationale": "Level 3 anchor is satisfied: authentic tasks form the program's assessment spine across every semester (Objective Structured Clinical Examinations [OSCEs] in AUDI90029/AUDI90033/AUDI90036/AUDI90039/AUDI90041, Simulated Clinical Practice Assessments [SCPA] in AUDI90032, complex adult/paediatric case formulations) AND carry genuine constraints of practice — real patients with acute aphasia, paediatric feeding distress, progressive dysarthria, strict time constraints, and live clinical safety standards across hospital and community placements.",
       "evidenceLines": [
-        "AUDI90032 Speech Pathology Clinical Practice 1 ... Completion of one Simulated Clinical Practice Assessment (SCPA) ... Assessment during one clinical placement",
+        "AUDI90032\tSpeech Pathology Practice 1 ... Completion of one Simulated Clinical Practice Assessment (SCPA) ... Assessment during one clinical placement",
         "AUDI90036 Clinical Processes C ... OSCE - Paediatric focused (40%) ... OSCE - Adult focused (40%)",
         "AUDI90041 Complex Case Models in Speech Pathology ... 3 case studies (1x oral, 1x written and 1x video) ... 2 Objective Structured Clinical Exams"
       ]
@@ -16411,9 +16411,9 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
       "score": 3,
       "rationale": "Level 3 anchor is satisfied: substantial required work-situated learning: multiple extended clinical placement blocks (AUDI90032, AUDI90033, AUDI90039) in the compulsory core, supervised by certified Speech Pathology Australia practitioners, assessed via the national COMPASS® competency framework, with direct accountability to healthcare/educational host organisations and structured clinical portfolios.",
       "evidenceLines": [
-        "AUDI90032 Speech Pathology Clinical Practice 1 ... Assessment during one clinical placement ... Passing end Placement COMPASS®",
-        "AUDI90033 Speech Pathology Clinical Practice 2 ... Assessment of two clinical placements ... COMPASS® and Clinical Portfolio",
-        "AUDI90039 Speech Pathology Clinical Practice 3 ... Assessment of two clinical placements ... COMPASS® Assessments and Clinical Portfolio"
+        "AUDI90032\tSpeech Pathology Practice 1 ... Assessment during one clinical placement ... Passing end Placement COMPASS®",
+        "AUDI90033\tSpeech Pathology Practice 2 ... Assessment of two clinical placements ... COMPASS® and Clinical Portfolio",
+        "AUDI90039\tSpeech Pathology Practice 3 ... Assessment of two clinical placements ... COMPASS® Assessments and Clinical Portfolio"
       ]
     },
     "workplace": 9,

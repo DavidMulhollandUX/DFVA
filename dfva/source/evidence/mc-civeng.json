@@ -41,7 +41,7 @@
       "rationale": "Level 2 anchor is satisfied: at least one core assessment requires application to novel or unfamiliar problems through cross-context projects and unscripted design cases. In CVEN90060 Integrated Infrastructure Design, students integrate structural, geotechnical, and energy systems to design complex civil engineering infrastructure (e.g. multi-story residential/commercial complexes) under unscripted boundary and sustainability constraints; in CVEN90044 Sustainable Infrastructure Development, students apply engineering principles to the multi-decade redevelopment of Fisherman's Bend; in CVEN90049, students apply structural design codes to novel building geometries. Level 3 is not met: the program does not document structured progression toward independent learning via a self-scoped capstone or research thesis in the compulsory core with assessed identification of personal learning gaps and a plan to close them.",
       "evidenceLines": [
         "This subject provides students with authentic, team-based experience in integrated civil engineering design, reflecting real-world professional practice. Students will work collaboratively on project-based design tasks focused on a major civil engineering system (e.g. an apartment building).",
-        "Investigate and define complex civil engineering design problems considering functional and sustainability requirements, given site conditions and societal constraints",
+        "Investigate and define complex civil engineering design problems considering functional and sustainability requirements, given site conditions.",
         "Group Design Portfolio-Technical Industry Accepted Report on Fisherman Bend Development",
         "Design project \u2013 Detailed design report to be completed by a group of 5 students."
       ]
@@ -50,7 +50,7 @@
       "score": 1,
       "rationale": "Level 1 anchor is met: introductory laboratory practicals and technical reports are documented across the core. Students complete laboratory practical reports in CVEN30010 Structural Theory and Design, ENEN20002 Earth Processes, and ENGR30002 Fluid Mechanics. Level 2 requires students to design and conduct an inquiry with methodology selection and data collection, assessed; while students conduct laboratory tests on soils, concrete, and fluids, these are set class practicals with predetermined experimental procedures rather than student-designed investigations. Dedicated research project subjects (e.g. CVEN90067) are elective pathways, and no required primary-evidence research project defended under formal viva scrutiny exists across the compulsory core (level 3).",
       "evidenceLines": [
-        "One individual laboratory report, workload equivalent to 500 words. ILOs 1, 3-6 are addressed in the laboratory report.",
+        "One individual laboratory report, workload equivalent to 500 words. ILOs 1, 3-6 are addressed in the report.",
         "One laboratory class with a group written report (3 team members/group). 1500 words in total for the group assignment",
         "Practical Report 1.",
         "Practical Report 2.",
@@ -99,10 +99,10 @@
         "rationale": "PASS condition is met: the program documents an extensive compulsory core establishing technical and methodological depth in civil engineering \u2014 covering Structural Theory and Design (CVEN30010, CVEN90049), Fluid Mechanics & Hydraulics (ENGR30002, CVEN90051), Earth Processes & Geotechnics (ENEN20002), Sustainable Infrastructure Development (CVEN90044), Transport Systems (CVEN90050), Civil Engineering Management (CVEN90075), and Integrated Infrastructure Design (CVEN90060). Coherent professional engineering sequence accredited by Engineers Australia.",
         "evidenceLines": [
           "Students will acquire core civil engineering skills in the areas of structural, geotechnical, transportation and hydraulic engineering, sustainability, environmental processes and project management.",
-          "CVEN30010\tStructural Theory and Design",
+          "CVEN30009\tStructural Theory and Design",
           "CVEN90049\tStructural Design",
           "CVEN90051\tCivil Hydraulics",
-          "CVEN90050\tTransport Systems",
+          "CVEN90048\tTransport Systems",
           "CVEN90044\tSustainable Infrastructure Development",
           "CVEN90060\tIntegrated Infrastructure Design",
           "CVEN90075\tCivil Engineering Management"
@@ -112,7 +112,7 @@
         "result": "PASS",
         "rationale": "PASS condition is met: assessment goes well beyond formulaic calculations to require complex trade-off decisions under structural, environmental, and geotechnical uncertainty \u2014 including multidisciplinary trade-offs between structural stability, geotechnical capacity, energy efficiency, and embodied carbon in CVEN90060, flood risk and coastal sediment transport under hydraulic variability in CVEN90051, and precinct-scale sustainability trade-offs in CVEN90044.",
         "evidenceLines": [
-          "Investigate and define complex civil engineering design problems considering functional and sustainability requirements, given site conditions and societal constraints",
+          "Investigate and define complex civil engineering design problems considering functional and sustainability requirements, given site conditions.",
           "Synthesise and integrate structural, geotechnical, and energy design concepts to develop sustainable, innovative, and practical engineering solutions",
           "Project #1: River Hydraulics This assessment consists of an individual, computer-based project applying fluid mechanics to solve river hydraulic engineering problems",
           "Group Design Portfolio-Technical Industry Accepted Report on Fisherman Bend Development"

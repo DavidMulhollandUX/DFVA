@@ -17,7 +17,7 @@
       "score": 2,
       "rationale": "Level 2 anchor is satisfied: core assessment includes criterion-referenced appraisal of quality. In ENGR90029 Analysing Energy Systems, students complete four quantitative assignments analyzing thermodynamic efficiencies, energy conversion bounds, and comparative economic viability of low-carbon technologies; in ENGR90028, students deliver criterion-referenced oral presentations evaluating national energy transition strategies; and in the 25-point capstone project (ENGR90031), students complete 'One oral presentation followed by an oral examination summarising the project findings'. Level 3 is not met: no core assessment requires students to document and justify reliance decisions (deciding when to rely on or override an energy grid simulation package, automated dispatch model, or collaborator), defend judgements of AI-generated renewable generation forecasts, or evidence strategy adjustment over time.",
       "evidenceLines": [
-        "Four assignments (10% per assignment); each of no more than 10 pages. (13-15 hours per assignment). ILOs 1 and 4 are addressed in these assignments.",
+        "Four assignments (10% per assignment); each of no more than 10 pages. (13-15 hours per assignment). Intended Learning Outcomes (ILOs) 1 to 4 are addressed in the assignments",
         "Class participation - One small group oral presentation during the semester (5%) and assessment of individual contributions to lectures and tutorials (5%)",
         "One oral presentation followed by an oral examination summarising the project findings"
       ]
@@ -26,7 +26,7 @@
       "score": 1,
       "rationale": "Level 1 anchor is met: digital tools appear as tool operation and engineering simulation software. In ELEN90069 Electrical Power Systems, students complete continuous project work and assignments utilizing power flow simulation software; in ENGR90029 Analysing Energy Systems, students operate numerical modeling tools to evaluate complex energy systems; in MAST90014, students complete 'a computational implementation of an industrial optimisation model'. Level 2 is unmet: no core unit addresses AI capabilities AND limitations/ethics with use limits discussed and assessed (e.g. machine learning renewable forecasting error bounds or automated electricity dispatch algorithmic risks). Level 3 (AI critique or energy data governance) is unevidenced in core assessment.",
       "evidenceLines": [
-        "Continuous assessment of project work and assignments (approximately 40-45 hours of work per student) during the semester",
+        "Continuous assessment of project work and assignments (approximately 40-45 hours of work per student)",
         "Four assignments (10% per assignment); each of no more than 10 pages. (13-15 hours per assignment).",
         "A written assignment including a computational implementation of an industrial optimisation model"
       ]
@@ -69,7 +69,7 @@
       "evidenceLines": [
         "Two assignments (25% each) not exceeding 12 pages each, one due mid-semester and the other at the end of semester",
         "Two assignments (25% each) not exceeding 20 pages each, one due mid-semester and the other at the end of semester",
-        "Continuous assessment of project work and assignments (approximately 40-45 hours of work per student) during the semester",
+        "Continuous assessment of project work and assignments (approximately 40-45 hours of work per student)",
         "Four assignments (10% per assignment); each of no more than 10 pages."
       ]
     },
@@ -101,7 +101,7 @@
         "evidenceLines": [
           "Two assignments (25% each) not exceeding 12 pages each, one due mid-semester and the other at the end of semester",
           "Two assignments (25% each) not exceeding 20 pages each, one due mid-semester and the other at the end of semester",
-          "Continuous assessment of project work and assignments (approximately 40-45 hours of work per student) during the semester",
+          "Continuous assessment of project work and assignments (approximately 40-45 hours of work per student)",
           "Four assignments (10% per assignment); each of no more than 10 pages."
         ]
       }
