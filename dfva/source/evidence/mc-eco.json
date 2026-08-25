@@ -100,7 +100,7 @@
       },
       "G2": {
         "result": "PASS",
-        "rationale": "PASS condition is met: assessment goes well beyond formulaic calculations to require complex trade-off decisions and theoretical problem-solving under economic uncertainty — including decision-making under uncertainty, game-theoretic strategic interactions, and market failure mechanisms in ECON40001/ECON90002, dynamic stochastic macroeconomic stabilization policies in ECON40002/ECON90003, and causal identification under endogeneity and omitted variable bias in ECOM90005.",
+        "rationale": "PASS condition is met: assessment goes well beyond formulaic calculations to require complex trade-off decisions and theoretical problem-solving under economic uncertainty \u2014 including decision-making under uncertainty, game-theoretic strategic interactions, and market failure mechanisms in ECON40001/ECON90002, dynamic stochastic macroeconomic stabilization policies in ECON40002/ECON90003, and causal identification under endogeneity and omitted variable bias in ECOM90005.",
         "evidenceLines": [
           "Topics to be covered include decision making under uncertainty, the interaction of primal and dual methods of modelling producer and consumer behaviour, the existence and welfare properties of general equilibrium, the theory of market failure and public goods, models of strategic behaviour in oligopoly, an introduction to game theory.",
           "Apply macroeconomic theory to analyse the potential of macroeconomic policy to improve economic welfare",
@@ -119,7 +119,7 @@
     "notScoreable": [],
     "verified": {
       "adversarial": true,
-      "mechanical": true,
+      "mechanical": false,
       "date": "2026-08-24"
     }
   }

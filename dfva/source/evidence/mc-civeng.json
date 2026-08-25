@@ -4,13 +4,13 @@
     "instrument": "4.2-draft",
     "C1": {
       "score": 2,
-      "rationale": "Level 2 anchor is satisfied: at least one core unit assesses collaborative practice — in fact, assessed collaborative teamwork recurs across multiple core subjects. In CVEN90060 Integrated Infrastructure Design, students complete a 'Conceptual Design Report Group assessment' (10%), a 'Functional Design Report Group assessment' (40%), and a 'Functional Design Presentation Individual Assessment: Team presentation on the final design (~20 min)' (15%); in CVEN90049 Structural Design, students complete a 'Design project - Conceptual design report to be completed by a group of 5 students' and a 'Detailed design report to be completed by a group of 5 students'; in CVEN90044 Sustainable Infrastructure Development, students complete a 'Group Design Portfolio-Technical Industry Accepted Report on Fisherman Bend Development' (30%); in CVEN90050 Transport Systems, students complete two group written assignments; in CVEN90075 Civil Engineering Management, students complete five team project reports (5 x 10%); and in ENEN20002 Earth Processes, students complete three written group assignments and a group lab report. Level 3 is not met: no core assessment requires coordinating work across people AND tools/AI systems with documented role-and-tool allocation or an assessed division of work between people and systems.",
+      "rationale": "Level 2 anchor is satisfied: at least one core unit assesses collaborative practice \u2014 in fact, assessed collaborative teamwork recurs across multiple core subjects. In CVEN90060 Integrated Infrastructure Design, students complete a 'Conceptual Design Report Group assessment' (10%), a 'Functional Design Report Group assessment' (40%), and a 'Functional Design Presentation Individual Assessment: Team presentation on the final design (~20 min)' (15%); in CVEN90049 Structural Design, students complete a 'Design project - Conceptual design report to be completed by a group of 5 students' and a 'Detailed design report to be completed by a group of 5 students'; in CVEN90044 Sustainable Infrastructure Development, students complete a 'Group Design Portfolio-Technical Industry Accepted Report on Fisherman Bend Development' (30%); in CVEN90050 Transport Systems, students complete two group written assignments; in CVEN90075 Civil Engineering Management, students complete five team project reports (5 x 10%); and in ENEN20002 Earth Processes, students complete three written group assignments and a group lab report. Level 3 is not met: no core assessment requires coordinating work across people AND tools/AI systems with documented role-and-tool allocation or an assessed division of work between people and systems.",
       "evidenceLines": [
         "Conceptual Design Report Group assessment: Group written report on conceptual design. 20 hours (per student)",
         "Functional Design Report Group assessment: Group written report on final (functional) design. 60 hours (per student)",
         "Functional Design Presentation Individual Assessment: Team presentation on the final design (~20 min)",
         "Design project - Conceptual design report to be completed by a group of 5 students.",
-        "Design project – Detailed design report to be completed by a group of 5 students.",
+        "Design project \u2013 Detailed design report to be completed by a group of 5 students.",
         "Group Design Portfolio-Technical Industry Accepted Report on Fisherman Bend Development; done in stages and completed as a final report (equivalent of 2500 words per student)",
         "Three written group assignments (3 team members/group). 1500 words in total for the group assignment"
       ]
@@ -21,7 +21,7 @@
       "evidenceLines": [
         "Preliminary Design Report Individual assessment: Group written report on preliminary design. Individuals will be assessed orally with the hurdle requirement to demonstrate a genuine contribution of the individual to the report.",
         "Functional Design Presentation Individual Assessment: Team presentation on the final design (~20 min) Individuals will be assessed orally with the hurdle requirement to demonstrate a genuine contribution to the presentation.",
-        "Design project – 5-minute individual oral assessment on the conceptual design, to be conducted during tutorial sessions",
+        "Design project \u2013 5-minute individual oral assessment on the conceptual design, to be conducted during tutorial sessions",
         "Design project- 5-minute individual oral assessment on the detailed design, to be conducted during the tutorial sessions",
         "Note: Students are required to participate in a peer review survey process to allow the coordinator to assess individual contributions"
       ]
@@ -43,7 +43,7 @@
         "This subject provides students with authentic, team-based experience in integrated civil engineering design, reflecting real-world professional practice. Students will work collaboratively on project-based design tasks focused on a major civil engineering system (e.g. an apartment building).",
         "Investigate and define complex civil engineering design problems considering functional and sustainability requirements, given site conditions and societal constraints",
         "Group Design Portfolio-Technical Industry Accepted Report on Fisherman Bend Development",
-        "Design project – Detailed design report to be completed by a group of 5 students."
+        "Design project \u2013 Detailed design report to be completed by a group of 5 students."
       ]
     },
     "C5": {
@@ -66,8 +66,8 @@
         "Conceptual Design Report Group assessment: Group written report on conceptual design.",
         "Functional Design Report Group assessment: Group written report on final (functional) design.",
         "Functional Design Presentation Individual Assessment: Team presentation on the final design (~20 min)",
-        "Design project – Detailed design report to be completed by a group of 5 students.",
-        "Design project – 5-minute individual oral assessment on the conceptual design"
+        "Design project \u2013 Detailed design report to be completed by a group of 5 students.",
+        "Design project \u2013 5-minute individual oral assessment on the conceptual design"
       ]
     },
     "W2": {
@@ -75,8 +75,8 @@
       "rationale": "Level 2 anchor is satisfied: core assessment reproduces professional tasks end-to-end for practicing civil and structural engineers. Students execute full-cycle integrated infrastructure design across structural, geotechnical, and energy domains from concept to functional design (CVEN90060), design structural frames compliant with Australian Standards (CVEN90049), perform hydrodynamic river and coastal modeling (CVEN90051), and formulate precinct sustainability portfolios (CVEN90044). Resolved downward from level 3 on adversarial verification: tasks are submitted to academic staff and teaching assistants without externally supplied client briefs, live construction site constraints, or consequential external stakeholders documented in the assessment tables (R4).",
       "evidenceLines": [
         "Students will work collaboratively on project-based design tasks focused on a major civil engineering system (e.g. an apartment building). The project emphasises sustainable and multidisciplinary solutions primarily focused on structural, geotechnical, and energy design.",
-        "Design project – Conceptual design report to be completed by a group of 5 students.",
-        "Design project – Detailed design report to be completed by a group of 5 students.",
+        "Design project \u2013 Conceptual design report to be completed by a group of 5 students.",
+        "Design project \u2013 Detailed design report to be completed by a group of 5 students.",
         "Project #1: River Hydraulics This assessment consists of an individual, computer-based project applying fluid mechanics to solve river hydraulic engineering problems",
         "Group Design Portfolio-Technical Industry Accepted Report on Fisherman Bend Development"
       ]
@@ -96,7 +96,7 @@
     "gates": {
       "G1": {
         "result": "PASS",
-        "rationale": "PASS condition is met: the program documents an extensive compulsory core establishing technical and methodological depth in civil engineering — covering Structural Theory and Design (CVEN30010, CVEN90049), Fluid Mechanics & Hydraulics (ENGR30002, CVEN90051), Earth Processes & Geotechnics (ENEN20002), Sustainable Infrastructure Development (CVEN90044), Transport Systems (CVEN90050), Civil Engineering Management (CVEN90075), and Integrated Infrastructure Design (CVEN90060). Coherent professional engineering sequence accredited by Engineers Australia.",
+        "rationale": "PASS condition is met: the program documents an extensive compulsory core establishing technical and methodological depth in civil engineering \u2014 covering Structural Theory and Design (CVEN30010, CVEN90049), Fluid Mechanics & Hydraulics (ENGR30002, CVEN90051), Earth Processes & Geotechnics (ENEN20002), Sustainable Infrastructure Development (CVEN90044), Transport Systems (CVEN90050), Civil Engineering Management (CVEN90075), and Integrated Infrastructure Design (CVEN90060). Coherent professional engineering sequence accredited by Engineers Australia.",
         "evidenceLines": [
           "Students will acquire core civil engineering skills in the areas of structural, geotechnical, transportation and hydraulic engineering, sustainability, environmental processes and project management.",
           "CVEN30010\tStructural Theory and Design",
@@ -110,7 +110,7 @@
       },
       "G2": {
         "result": "PASS",
-        "rationale": "PASS condition is met: assessment goes well beyond formulaic calculations to require complex trade-off decisions under structural, environmental, and geotechnical uncertainty — including multidisciplinary trade-offs between structural stability, geotechnical capacity, energy efficiency, and embodied carbon in CVEN90060, flood risk and coastal sediment transport under hydraulic variability in CVEN90051, and precinct-scale sustainability trade-offs in CVEN90044.",
+        "rationale": "PASS condition is met: assessment goes well beyond formulaic calculations to require complex trade-off decisions under structural, environmental, and geotechnical uncertainty \u2014 including multidisciplinary trade-offs between structural stability, geotechnical capacity, energy efficiency, and embodied carbon in CVEN90060, flood risk and coastal sediment transport under hydraulic variability in CVEN90051, and precinct-scale sustainability trade-offs in CVEN90044.",
         "evidenceLines": [
           "Investigate and define complex civil engineering design problems considering functional and sustainability requirements, given site conditions and societal constraints",
           "Synthesise and integrate structural, geotechnical, and energy design concepts to develop sustainable, innovative, and practical engineering solutions",
@@ -130,7 +130,7 @@
     "notScoreable": [],
     "verified": {
       "adversarial": true,
-      "mechanical": true,
+      "mechanical": false,
       "date": "2026-08-24"
     }
   }

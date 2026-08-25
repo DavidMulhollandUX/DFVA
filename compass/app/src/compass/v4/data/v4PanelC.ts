@@ -4088,7 +4088,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     "notScoreable": [],
     "verified": {
       "adversarial": true,
-      "mechanical": true,
+      "mechanical": false,
       "date": "2026-08-22"
     }
   },
@@ -4449,7 +4449,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     ],
     "verified": {
       "adversarial": true,
-      "mechanical": true,
+      "mechanical": false,
       "date": "2026-08-23"
     }
   },
@@ -10076,7 +10076,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     ],
     "verified": {
       "adversarial": true,
-      "mechanical": true,
+      "mechanical": false,
       "date": "2026-08-23"
     }
   },
@@ -10210,7 +10210,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     "notScoreable": [],
     "verified": {
       "adversarial": true,
-      "mechanical": true,
+      "mechanical": false,
       "date": "2026-08-24"
     }
   },
@@ -10628,7 +10628,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     "notScoreable": [],
     "verified": {
       "adversarial": true,
-      "mechanical": true,
+      "mechanical": false,
       "date": "2026-08-24"
     }
   },
@@ -11721,7 +11721,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     "notScoreable": [],
     "verified": {
       "adversarial": true,
-      "mechanical": true,
+      "mechanical": false,
       "date": "2026-08-24"
     }
   },
@@ -11983,7 +11983,7 @@ export const V4_PANEL_C: Record<string, V4PanelC> = {
     "notScoreable": [],
     "verified": {
       "adversarial": true,
-      "mechanical": true,
+      "mechanical": false,
       "date": "2026-08-24"
     }
   },
