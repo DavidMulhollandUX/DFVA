@@ -27,6 +27,8 @@
  *   npx tsx dfva-v4-verify-evidence.ts            # report, always exit 0
  *   npx tsx dfva-v4-verify-evidence.ts --strict   # fail on a false mechanical claim
  *   npx tsx dfva-v4-verify-evidence.ts --code mc-it
+ *   npx tsx dfva-v4-verify-evidence.ts --suggest              # nearest capture text
+ *   npx tsx dfva-v4-verify-evidence.ts --suggest --kind tail-drift
  */
 import { readdirSync, readFileSync, existsSync } from 'node:fs'
 import path from 'node:path'
@@ -38,7 +40,9 @@ const CAPTURE = path.join(ROOT, 'scrapes/v4')
 
 const argv = process.argv.slice(2)
 const STRICT = argv.includes('--strict')
+const SUGGEST = argv.includes('--suggest')
 const ONLY = argv.includes('--code') ? argv[argv.indexOf('--code') + 1] : null
+const KIND = argv.includes('--kind') ? argv[argv.indexOf('--kind') + 1] : null
 
 const ITEMS = ['C1', 'C2', 'C3', 'C4', 'C5', 'W1', 'W2', 'W3'] as const
 
@@ -78,6 +82,46 @@ function atoms(line: string): string[] {
   return out.map(norm).filter((a) => a.length > 2)
 }
 
+/** Dice coefficient over character bigrams. Cheap, order-insensitive enough to
+ *  survive a reflowed clause, and strict enough that an unrelated passage does
+ *  not score as a near miss. */
+function similarity(a: string, b: string): number {
+  const grams = (s: string): Map<string, number> => {
+    const m = new Map<string, number>()
+    for (let i = 0; i < s.length - 1; i++) {
+      const g = s.slice(i, i + 2)
+      m.set(g, (m.get(g) ?? 0) + 1)
+    }
+    return m
+  }
+  if (a.length < 2 || b.length < 2) return a === b ? 1 : 0
+  const ga = grams(a), gb = grams(b)
+  let shared = 0
+  for (const [g, n] of ga) shared += Math.min(n, gb.get(g) ?? 0)
+  return (2 * shared) / (a.length - 1 + b.length - 1)
+}
+
+/** How far the recorded line sits from the nearest real passage. The boundaries
+ *  are what separate a transcription fix from a scoring decision: a tail-drift
+ *  line can be corrected to the capture text, a no-source line cannot be
+ *  corrected at all and has to be withdrawn or re-evidenced by a rater. */
+export type Kind = 'tail-drift' | 'paraphrase' | 'no-source'
+const kindOf = (ratio: number): Kind =>
+  ratio >= 0.85 ? 'tail-drift' : ratio >= 0.55 ? 'paraphrase' : 'no-source'
+
+/** The fragment that actually failed, so the suggestion targets the defect
+ *  rather than the whole line. */
+function probeOf(line: string, text: string): string {
+  const frags = line
+    .split(/\s*(?:\.\.\.|…)\s*/)
+    .map((f) => norm(f))
+    .filter((f) => f.length > 2)
+  const bad = frags.filter((f) => !text.includes(f))
+  if (bad.length > 0) return bad[0]
+  const a = atoms(line).filter((x) => !text.includes(x))
+  return a[0] ?? norm(line)
+}
+
 type Verdict = 'verbatim' | 'elided' | 'unmatched'
 
 function classify(line: string, text: string): Verdict {
@@ -93,14 +137,23 @@ function classify(line: string, text: string): Verdict {
   return 'unmatched'
 }
 
-const linesOf = (p: PanelC): string[] => {
-  const out: string[] = []
+const linesOf = (p: PanelC): Array<[string, string]> => {
+  const out: Array<[string, string]> = []
   for (const id of ITEMS) {
     const item = p[id] as ItemLike | undefined
-    if (item?.evidenceLines) out.push(...item.evidenceLines)
+    for (const l of item?.evidenceLines ?? []) out.push([id, l])
   }
-  for (const g of ['G1', 'G2']) out.push(...(p.gates?.[g]?.evidenceLines ?? []))
+  for (const g of ['G1', 'G2'])
+    for (const l of p.gates?.[g]?.evidenceLines ?? []) out.push([g, l])
   return out
+}
+
+interface Suggestion {
+  item: string
+  kind: Kind
+  ratio: number
+  recorded: string
+  capture: string
 }
 
 interface Row {
@@ -112,6 +165,7 @@ interface Row {
   gateLines: number
   missingSubjects: string[]
   claimsMechanical: boolean
+  suggestions: Suggestion[]
 }
 
 const rows: Row[] = []
@@ -133,15 +187,42 @@ for (const f of readdirSync(EVIDENCE).sort()) {
     gateLines: ['G1', 'G2'].reduce((n, g) => n + (p.gates?.[g]?.evidenceLines?.length ?? 0), 0),
     missingSubjects: [],
     claimsMechanical: p.verified?.mechanical === true,
+    suggestions: [],
   }
   if (!row.noCapture) {
-    const text = norm(readFileSync(capturePath, 'utf8'))
+    const raw = readFileSync(capturePath, 'utf8')
+    const text = norm(raw)
+    // Candidate passages for a suggestion: capture lines long enough to be a
+    // quotable claim rather than a table cell or a heading fragment.
+    const candidates = raw
+      .split(/\r?\n/)
+      .map((l) => norm(l))
+      .filter((l) => l.length > 20)
     const seen = new Set<string>()
-    for (const line of linesOf(p)) {
+    for (const [item, line] of linesOf(p)) {
       const v = classify(line, text)
       if (v === 'verbatim') row.verbatim++
       else if (v === 'elided') row.elided++
-      else row.unmatched.push(line)
+      else {
+        row.unmatched.push(line)
+        const probe = probeOf(line, text)
+        let best = '', ratio = 0
+        for (const c of candidates) {
+          // Length gate first: scoring every candidate against every probe is
+          // the only slow part of this script.
+          if (Math.abs(c.length - probe.length) > Math.max(60, probe.length))
+            continue
+          const r = similarity(probe, c)
+          if (r > ratio) { ratio = r; best = c }
+        }
+        row.suggestions.push({
+          item,
+          kind: kindOf(ratio),
+          ratio,
+          recorded: probe,
+          capture: best,
+        })
+      }
       // A cited subject whose code is absent was scored from a page never captured.
       for (const code of line.match(/\b[A-Z]{4}\d{5}\b/g) ?? []) {
         if (!text.includes(norm(code)) && !seen.has(code)) { seen.add(code); row.missingSubjects.push(code) }
@@ -180,8 +261,29 @@ if (falseClaims.length) {
   console.log(`\n❌ ${falseClaims.length} record(s) claim mechanical verification they do not pass:`)
   for (const r of falseClaims) console.log(`   ${r.code}: ${r.unmatched.length} unmatched`)
 }
-if (tu > 0 && !STRICT) {
-  console.log('\nUnmatched lines (first 3 per program):')
+if (SUGGEST) {
+  const all = rows.flatMap((r) => r.suggestions.map((s) => ({ ...s, code: r.code })))
+  const shown = KIND ? all.filter((s) => s.kind === KIND) : all
+  const tally = new Map<Kind, number>()
+  for (const s of all) tally.set(s.kind, (tally.get(s.kind) ?? 0) + 1)
+  console.log('\nUnmatched lines by kind:')
+  for (const k of ['tail-drift', 'paraphrase', 'no-source'] as Kind[]) {
+    console.log(`  ${k.padEnd(12)} ${tally.get(k) ?? 0}`)
+  }
+  console.log(
+    `\n${shown.length} suggestion(s)${KIND ? ` of kind ${KIND}` : ''} — ` +
+      'accept a tail-drift by replacing the recorded text with the capture text; ' +
+      'a paraphrase and a no-source are rater decisions, not transcription fixes.',
+  )
+  let current = ''
+  for (const s of shown) {
+    if (s.code !== current) { current = s.code; console.log(`\n${s.code}`) }
+    console.log(`  ${s.item}  ${s.kind}  ${s.ratio.toFixed(2)}`)
+    console.log(`    recorded: ${s.recorded.slice(0, 160)}`)
+    console.log(`    capture : ${s.capture ? s.capture.slice(0, 160) : '— no near passage in this capture —'}`)
+  }
+} else if (tu > 0 && !STRICT) {
+  console.log('\nUnmatched lines (first 3 per program). Run --suggest for the nearest capture text.')
   for (const r of rows.filter((x) => x.unmatched.length)) {
     console.log(`  ${r.code}`)
     for (const l of r.unmatched.slice(0, 3)) console.log(`    ${l.slice(0, 150)}`)

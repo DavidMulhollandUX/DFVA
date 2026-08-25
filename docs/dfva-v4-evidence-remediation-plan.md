@@ -34,9 +34,9 @@ capture backlog. Only gap C needs the browser.
 
 | Kind | Count | What it means | Can a score change? |
 | --- | --- | --- | --- |
-| Tail drift | 30 | the quote is right until its last clause — `mc-civeng` records "done in stages and completed as a final report" where the handbook reads "done in stages for a final submission in Week 10" | rarely |
-| Paraphrase | 73 | the passage exists but was tidied — `mc-eco` records "Collaborate effectively in teams" for "collaborate and be effective in team work." | sometimes |
-| No source | 41 | no near match anywhere in the capture — `mc-cm` records "critique project planning and scheduling strategies" | often |
+| Tail drift | 29 | the quote is right until its last clause — `mc-civeng` records "done in stages and completed as a final report" where the handbook reads "done in stages for a final submission in Week 10" | rarely |
+| Paraphrase | 79 | the passage exists but was tidied — `mc-eco` records "Collaborate effectively in teams" for "collaborate and be effective in team work." | sometimes |
+| No source | 36 | no near match anywhere in the capture — `mc-cm` records "critique project planning and scheduling strategies" | often |
 
 Worst affected: `mc-civeng` (21), `mc-it` (17), `mc-spchpth` (17),
 `mc-chemeng` (14), `mc-engysys` (10), `mc-gmcom` (9), `mc-mktcomm` (9).
@@ -47,7 +47,7 @@ transcription pass.
 
 ## Step 0 — build the tool that makes the rest cheap
 
-Add `--suggest` to `dfva-v4-verify-evidence.ts`. For every unmatched line it
+**Done** — `--suggest` is on `dfva-v4-verify-evidence.ts`. For every unmatched line it
 prints the closest passage in that program's capture, the similarity ratio and
 the inferred kind, as a diff a rater can accept or reject:
 
@@ -58,7 +58,16 @@ mc-civeng C1  tail-drift  0.91
 ```
 
 Without this, each of the 144 lines is a manual hunt through a 35-page capture.
-With it, batches 1 and 2 become review rather than search. Build this first.
+With it, steps 2 and 3 become review rather than search.
+
+```bash
+npm --prefix scripts run dfva:verify-evidence -- --suggest --kind tail-drift
+```
+
+The kind boundaries are what separate a transcription fix from a scoring
+decision, so they are set in the tool rather than judged per line: at or above
+0.85 similarity to the nearest capture passage is tail drift, 0.55 to 0.85 is a
+paraphrase, below that no source exists.
 
 ## Step 1 — capture the two missing subjects (gap C)
 
@@ -78,7 +87,7 @@ python3 scripts/build-capture-queue.py
 python3 scripts/v4-capture-queue.py
 ```
 
-## Step 2 — correct the tail-drift lines (30 lines)
+## Step 2 — correct the tail-drift lines (29 lines)
 
 Replace each recorded line with the capture text `--suggest` proposes. Same
 passage, accurate transcription. Re-check the item score only where the
@@ -86,7 +95,7 @@ correction removes the clause the score rested on.
 
 Exit: `dfva:verify-evidence` reports 0 tail-drift.
 
-## Step 3 — resolve the paraphrases (73 lines)
+## Step 3 — resolve the paraphrases (79 lines)
 
 For each, the rater decides whether the true text still evidences the score at
 the recorded level. Most will hold — the passage exists and says materially the
@@ -96,14 +105,14 @@ assessed scores 1 regardless of wording.
 
 Work program by program with the capture open, not line by line across programs.
 
-## Step 4 — settle the no-source lines (41 lines)
+## Step 4 — settle the no-source lines (36 lines)
 
 The hard set. For each: find the real passage, or withdraw the line and re-score
 the item without it. A withdrawal that leaves an item with no evidence must move
 that item's score, or the score was never evidence-based.
 
-Concentrate on `mc-chemeng` (8), `mc-civeng` (7), `mc-it` (7) and `mc-gmcom` (6),
-which hold 68% of them.
+Run `--suggest --kind no-source` first: a line whose nearest passage prints as
+"no near passage in this capture" is the strongest candidate for withdrawal.
 
 ## Step 5 — source the gate evidence (gap B, 16 programs)
 
@@ -147,7 +156,7 @@ the seven withdrawn claims show the existing records cannot seed it either.
 ## Sequencing and why
 
 ```
-Step 0  tooling          ── unblocks 2,3,4
+Step 0  tooling     DONE ── unblocks 2,3,4
 Step 1  capture (2 subj) ── unblocks part of 4        [attended]
 Step 2  tail drift  (30) ── mechanical
 Step 3  paraphrase  (73) ── judgement, scores may move
