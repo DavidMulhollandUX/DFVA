@@ -1,99 +1,128 @@
 {
-  "onet_soc_code": "45-2093",
-  "title": "Farmworkers, Farm and Ranch Animals",
-  "aliases": [
-    "Beef Cattle Farm Worker",
-    "Stablehand"
-  ],
-  "anzsco": "220000",
-  "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
-  },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
-  "programs": [],
-  "claims": [
+ "onet_soc_code": "45-2093",
+ "title": "Farmworkers, Farm and Ranch Animals",
+ "aliases": ["Beef Cattle Farm Worker", "Stablehand"],
+ "anzsco": "220000",
+ "window": {"from": "2025-08-01", "to": "2026-08-26"},
+ "generated": "2026-08-26",
+ "expires": "2027-02-26",
+ "researchMethod": "empirical-five-lane-v1",
+ "programs": [],
+ "claims": [
+  {
+   "id": "c01",
+   "text": "Victoria's new regulations under the Prevention of Cruelty to Animals Act 1986, announced 10 December 2025, allow cattle producers to use approved virtual fencing and herding technology, subject to approval conditions including using approved technologies, completing manufacturer training, maintaining a physical boundary fence, and regular collar checks.",
+   "lane": "L1",
+   "tier": "regulation-instrument-dated",
+   "sources": [
     {
-      "id": "45-2093-01",
-      "text": "National peak professional bodies and statutory regulators governing Farmworkers, Farm and Ranch Animals enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Farmworkers, Farm and Ranch Animals",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Farmworkers, Farm and Ranch Animals",
-          "url": "https://www.psc.gov.au/standards/45-2093",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Farmworkers, Farm and Ranch Animals"
-        }
-      ],
-      "scope": "Australian practitioners in Farmworkers, Farm and Ranch Animals across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "45-2093-02",
-      "text": "Automation of routine transactional and analytical tasks in Farmworkers, Farm and Ranch Animals heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Farmworkers, Farm and Ranch Animals",
-          "url": "https://www.jobsandskills.gov.au/research/45-2093",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Farmworkers, Farm and Ranch Animals in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Farmworkers, Farm and Ranch Animals roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
+     "publisher": "Government of Victoria (Premier)",
+     "title": "Victoria Gives Virtual Fencing The Green Light",
+     "url": "https://www.premier.vic.gov.au/victoria-gives-virtual-fencing-green-light",
+     "date": "2025-12-10",
+     "whatItMeasured": "Ministerial announcement of the POCTA Act regulations permitting virtual fencing for Victorian cattle producers, with the approval-condition requirements stated"
     }
+   ],
+   "scope": "Victoria only, cattle only; electronic collars for other species still require a scientific licence under the POCTA Act. It establishes what is lawful and required, not how many farms adopt it or what happens to stockworker employment.",
+   "disposition": "scoped",
+   "supersedes": null,
+   "bearing": [],
+   "refuted": false,
+   "refuteNotes": "Lens 1 (source real): official Victorian Government media release, resolves HTTP 200 with publication date Wednesday 10 December 2025 and a linked PDF. Lens 2 (population fit): governs the containment/herding task this occupation performs on cattle in Victoria; does not speak to other states (covered separately in c02) or other species. Lens 3 (in window): December 2025, inside the window. No refuter overturned."
+  },
+  {
+   "id": "c02",
+   "text": "New South Wales approved virtual fencing for commercial use in the same week as Victoria (December 2025), under the NSW Guide to Animal Welfare for Virtual Fencing of Cattle, which requires supplier training, regular monitoring, audio or vibration cues before electric cues, and restricts use to cattle; the Australian market has two main providers, Halter and Gallagher's eShepherd.",
+   "lane": "L3",
+   "tier": "trade-press-dated",
+   "sources": [
+    {
+     "publisher": "Beef Central",
+     "title": "Two states approve virtual fencing for commercial use",
+     "url": "https://www.beefcentral.com/news/two-states-approve-virtual-fencing-for-commercial-use/",
+     "date": "2025-12-12",
+     "whatItMeasured": "Trade press report of the NSW approval and its welfare-guide requirements, plus identification of Halter and eShepherd as the two main Australian providers"
+    }
+   ],
+   "scope": "Reporting of the NSW instrument through trade press rather than the primary NSW document; provider counts come from trade press and vendor statements. Says nothing about adoption rates or labour effects.",
+   "disposition": "scoped",
+   "supersedes": null,
+   "bearing": [],
+   "refuted": false,
+   "refuteNotes": "Lens 1 (source real): established AU beef trade outlet, resolves HTTP 200, dateline 12/12/2025. Lens 2 (population fit): describes instruments governing cattle containment work this occupation performs in NSW; the provider detail is market structure, not worker outcomes. Lens 3 (in window): December 2025, inside window. Dissent recorded: the NSW requirements are quoted second-hand, so the claim is held at trade-press tier rather than raised to L1."
+  },
+  {
+   "id": "c03",
+   "text": "Australian agricultural employment averaged about 247,000 people over the four quarters to November 2025, down 10.3% year on year and 11.6% from a decade earlier, according to ABS Labour Force Survey figures reported in ABARES' Snapshot of Australian Agriculture 2026.",
+   "lane": "L2",
+   "tier": "government-statistical",
+   "sources": [
+    {
+     "publisher": "ABARES (Department of Agriculture, Fisheries and Forestry)",
+     "title": "Snapshot of Australian Agriculture 2026",
+     "url": "https://www.agriculture.gov.au/abares/products/insights/snapshot-of-australian-agriculture",
+     "date": "2026-01-01",
+     "whatItMeasured": "ABS Labour Force Survey-based estimate of agricultural employment averaged over the four quarters to November 2025 and comparisons with prior year and decade"
+    }
+   ],
+   "scope": "The whole agriculture industry, not livestock farm hands specifically. ABARES itself flags that official statistics incompletely capture seasonal and labour-hire workers. It indicates sector-level workforce contraction, not occupation-level displacement.",
+   "disposition": "scoped",
+   "supersedes": null,
+   "bearing": [],
+   "refuted": false,
+   "refuteNotes": "Lens 1 (source real): federal department research publication, resolves HTTP 200, cites ABS 2025e. Lens 2 (population fit): industry-aggregate population, wider than this occupation; scoped accordingly rather than read as an occupation effect. Lens 3 (in window): four quarters to November 2025, inside window; page is the 2026 edition. No refuter overturned."
+  },
+  {
+   "id": "c04",
+   "text": "In the United States, robotic milking adoption reached 13 percent of dairy farms with 150 to 499 head by 2021 and was concentrated on midsized dairies, per USDA Economic Research Service analysis published June 2026 - evidence that automated milking substitutes for manual milking labour at commercially relevant farm sizes.",
+   "lane": "L2",
+   "tier": "government-statistical-international",
+   "sources": [
+    {
+     "publisher": "USDA Economic Research Service",
+     "title": "Robotic milking gains ground, especially among midsized dairies",
+     "url": "http://www.ers.usda.gov/data-products/charts-of-note/114194",
+     "date": "2026-06-02",
+     "whatItMeasured": "US dairy survey-based robotic milking adoption shares by herd size, with commentary on which farm sizes adopt and why small farms do not"
+    }
+   ],
+   "scope": "United States dairy herds; NOT evidence about Australian dairy farms or Australian milking labour. Used only as directional evidence that automatic milking systems are viable at mid-sized herd scale comparable to Australian dairy herds.",
+   "disposition": "scoped",
+   "supersedes": null,
+   "bearing": [],
+   "refuted": false,
+   "refuteNotes": "Lens 1 (source real): USDA ERS charts-of-note page resolves HTTP 200 with dateline 6/2/2026. Lens 2 (population fit): fails for Australia - refuter upheld, population is US dairies. Lens 3 (in window): published June 2026 describing 2021 survey wave; publication inside window. Claim survives 2 of 3 (source real and in-window fail to overturn) and is scoped explicitly as non-AU."
+  }
+ ],
+ "jobAds": {
+  "source": "adzuna-au",
+  "query": "farm hand livestock",
+  "retrieved": "2026-08-26",
+  "count": 13,
+  "topEmployers": ["University of Tasmania", "Stone Axe Pastoral Company", "CP Farm Operations", "Paspaley Pastoral", "Gunn Agri Partners", "Stockyard Beef", "Drover Ag Recruitment", "Donohoe Pastoral Co"],
+  "topSkills": ["cattle work", "sheep work", "livestock handling", "breeding programs", "fencing", "irrigation"],
+  "notes": "Listings span beef stations, sheep/cropping mixes, and research farms; live-on arrangements common; no listing mentions automation or AI skills."
+ },
+ "corpus": {
+  "platforms": [
+   {"name": "reddit", "scope": "r/farming, r/Agriculture", "items": 3},
+   {"name": "hackernews", "scope": "keyword sweep", "items": 24},
+   {"name": "youtube", "scope": "keyword sweep", "items": 1},
+   {"name": "github", "scope": "keyword sweep", "items": 3},
+   {"name": "grounding", "scope": "web sweep", "items": 0}
   ],
-  "jobAds": {
-    "source": "adzuna-au",
-    "query": "farmworkers, farm and ranch animals",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
-    "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
-    ],
-    "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ]
-  },
-  "corpus": {
-    "platforms": [
-      {
-        "name": "practitioner_forums",
-        "scope": "National Farmworkers, Farm and Ranch Animals Association discourse",
-        "items": 45
-      }
-    ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": []
-  },
-  "confidence": "high",
-  "caveats": []
+  "retrieved": "2026-08-26",
+  "searchesReturningNothing": [
+   "Factiva omitted: unattended run",
+   "last30days grounding: no-results",
+   "No in-scope practitioner items: the reddit/HN/youtube/github items returned were US policy, cropping-machinery and off-topic content; none concerned Australian livestock farm workers",
+   "X coverage degraded (bird_authenticated: false); TikTok and Instagram unconfigured (has_scrapecreators: false)"
+  ]
+ },
+ "confidence": "medium",
+ "caveats": [
+  "L5 ran clean but found no in-scope practitioner discourse; the corpus is declared empty rather than quiet-by-evidence.",
+  "Factiva omitted (unattended run), so L3 rests on public trade press only.",
+  "c04 is United States evidence, admitted only as directional and scoped accordingly."
+ ]
 }
