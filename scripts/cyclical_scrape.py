@@ -227,7 +227,10 @@ async def main(uni_key: str = "unimelb", dry_run: bool = False):
     # Update pending status
     updated_scraped = {h["code"] for h in handbook if h.get("success")}
     remaining = [c for c in all_codes if c not in updated_scraped]
-    if config["code_prefix"]:
+    # Mirror the start-of-run filter: an explicit queue is already scoped, so
+    # don't re-apply the prefix filter to it (gc-/gd-/sc-/pr- codes would be
+    # dropped from the tally even though they were queued and scraped).
+    if config["code_prefix"] and not using_queue:
         remaining = [c for c in remaining if c.startswith(config["code_prefix"])]
 
     with open(pending_file, "w") as f:
