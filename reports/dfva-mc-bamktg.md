@@ -1,4 +1,4 @@
-## DFVA REPORT: Master of Business Administration (Marketing) (MC-BAMKTG)
+## DFVA REPORT: Master of Business Administration/Master of Marketing (MC-BAMKTG)
 **Institution:** University of Melbourne | **Level:** Master (Coursework) | **Duration:** 2 years (200 credit points)
 
 **Assessment date:** 2026-06-20  
@@ -6,7 +6,7 @@
 **Prompt version:** DFVA-COPILOT-PROMPT-v1 + DFVA-COPILOT-MARKET-v1  
 
 ### 1. PROGRAM PROFILE
-The Master of Business Administration (Marketing) at the University of Melbourne is a specialist MBA stream combining core business administration content with a marketing specialisation. The program targets marketing professionals seeking managerial advancement and career-changers entering marketing leadership.
+The Master of Business Administration/Master of Marketing at the University of Melbourne is a 300-credit-point dual award combining 150 credit points of compulsory general management core with a 37.5-credit-point compulsory marketing core, plus MBA and marketing electives. The program targets marketing professionals seeking managerial advancement and career-changers entering marketing leadership.
 
 Core management subjects are combined with marketing electives covering consumer behaviour, digital marketing, brand strategy, marketing analytics, and market research. The program provides AACSB-accredited business education with a marketing depth track.
 
@@ -64,7 +64,7 @@ Specific threats:
 - **AI personalisation engines** — dynamic content optimisation replacing manual segmentation and targeting
 
 ### 7. VERDICT
-The Master of Business Administration (Marketing) is **HIGH RISK** (19/36) — a credential whose primary professional domain is experiencing acute AI disruption. Content generation, campaign optimisation, performance analytics, and market research are all under significant AI compression, and the executional domain the credential targets is changing faster than the curriculum reflects. The path to resilience runs through two things: genuine brand-strategy expertise (human cultural understanding and consumer empathy AI lacks) and AI-governance capability (which lets graduates sit above the automation layer rather than within it).
+The Master of Business Administration/Master of Marketing is **HIGH RISK** (19/36) — a credential whose primary professional domain is experiencing acute AI disruption. Content generation, campaign optimisation, performance analytics, and market research are all under significant AI compression, and the executional domain the credential targets is changing faster than the curriculum reflects. The path to resilience runs through two things: genuine brand-strategy expertise (human cultural understanding and consumer empathy AI lacks) and AI-governance capability (which lets graduates sit above the automation layer rather than within it).
 
 ### 8. RECOMMENDATIONS
 | Priority | Action | Dimension | Market Signal Link | Effort |

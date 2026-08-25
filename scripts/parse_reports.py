@@ -38,7 +38,7 @@ PROGRAM_MAPPINGS = {
     "mc-clind": ("Master of Clinical Dentistry", "Master · 3 years"),
     "mc-busana": ("Master of Business Analytics", "Master · 1 year"),
     "mc-base": ("Master of Advanced Social Enterprise", "Master · 1.5 years"),
-    "mc-bamktg": ("Master of Business Administration (Marketing)", "Master · 2 years"),
+    "mc-bamktg": ("Master of Business Administration/Master of Marketing", "Master · 2 years"),
     "mc-ba": ("Master of Business Administration", "Master · 2 years"),
     "mc-arch": ("Master of Architecture", "Master · 3 years"),
     "mc-apbusa": ("Master of Applied Business Analytics", "Master · 1.5 years"),

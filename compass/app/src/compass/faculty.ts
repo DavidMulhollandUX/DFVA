@@ -23,7 +23,7 @@ const PROGRAM_FACULTY: Record<string, string> = {
   "Master of Advanced Social Enterprise": "Business & Economics",
   "Master of Applied Business Analytics": "Business & Economics",
   "Master of Business Administration": "Business & Economics",
-  "Master of Business Administration (Marketing)": "Business & Economics",
+  "Master of Business Administration/Master of Marketing": "Business & Economics",
   "Master of Business Analytics": "Business & Economics",
   "Master of Information Systems": "Business & Economics",
   // Education

@@ -1013,24 +1013,27 @@ export const V4_ONLY_PROGRAMS: Record<string, V4OnlyProgram> = {
   },
   "mc-bamktg": {
     "code": "mc-bamktg",
-    "name": "Master of Business Administration (Marketing)",
+    "name": "Master of Business Administration/Master of Marketing",
     "hasMarketReport": true,
-    "exposure": 91.73,
-    "entryExposure": 95.09,
-    "jirN": 422,
-    "nTitles": 15,
-    "nMedium": 9,
+    "exposure": 88.95,
+    "entryExposure": 89.11,
+    "jirN": null,
+    "nTitles": 13,
+    "nMedium": 2,
     "exposureBasis": {
-      "tier": "variant",
-      "grain": "program",
+      "tier": "field",
+      "grain": "field",
       "sources": [
         {
-          "name": "Master of Business Administration",
-          "n": 422
+          "name": "JSA HEO · 080301 Business Management",
+          "n": null
         }
       ],
+      "field": "080301",
       "indexVariant": "AIOE-2021",
-      "note": "variant of \"Master of Business Administration\""
+      "coverage": 31.1,
+      "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+      "exposureWeighted": 89.47
     }
   },
   "mc-bmedsc": {
@@ -2515,16 +2518,19 @@ export const V4_PANEL_A_BASIS: Record<string, V4PanelABasis> = {
     "indexVariant": "AIOE-2021"
   },
   "mc-bamktg": {
-    "tier": "variant",
-    "grain": "program",
+    "tier": "field",
+    "grain": "field",
     "sources": [
       {
-        "name": "Master of Business Administration",
-        "n": 422
+        "name": "JSA HEO · 080301 Business Management",
+        "n": null
       }
     ],
+    "field": "080301",
     "indexVariant": "AIOE-2021",
-    "note": "variant of \"Master of Business Administration\""
+    "coverage": 31.1,
+    "note": "field-of-education occupation list (ATO-linked), not this program's own graduates",
+    "exposureWeighted": 89.47
   },
   "mc-base": {
     "tier": "partial",
