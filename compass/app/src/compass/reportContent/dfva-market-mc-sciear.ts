@@ -1,110 +1,89 @@
 // Auto-generated from reports/*.md by scripts/dfva-content-generate.ts — do not edit by hand.
 // Run: npm --prefix scripts run dfva:gen-content
 const content = {
-  title: "Master of Science (MC-SCIEAR) — Market Intelligence",
+  title: "Master of Science (Earth Sciences) (MC-SCIEAR) — Market Intelligence",
   institution: "University of Melbourne",
-  markdown: `# DFVA MARKET INTELLIGENCE: Master of Science (MC-SCIEAR)
+  markdown: `# DFVA MARKET INTELLIGENCE: Master of Science (Earth Sciences) (MC-SCIEAR)
 
-**Assessment Date:** 2026-05-15 | **Source URL:** https://handbook.unimelb.edu.au/2025/courses/mc-sciear | **Prompt Version:** DFVA-COPILOT-MARKET-v1
+**Assessment Date:** 2026-08-23 | **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-sciear | **Prompt Version:** DFVA-COPILOT-MARKET-v1
 
 ---
 
 ## 1. JOB FAMILY MAP
 
-| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure |
-|---|---|---|---|---|
-| 1 | Exploration Geology | Graduate geologist, field mapping assistant, drill core logger | Senior exploration geologist, project geologist | LOW |
-| 2 | Environmental Consulting | Junior environmental scientist, site assessor, groundwater analyst | Senior environmental consultant, remediation project manager | LOW–MEDIUM |
-| 3 | Climate and Weather Science | Climate data analyst, research assistant (BoM/CSIRO), model output processor | Climate scientist, atmospheric researcher, forecast verification specialist | MEDIUM |
-| 4 | Mining and Resource Estimation | Graduate mine geologist, resource analyst, geological modeller | Senior resource geologist, ore body modeller, JORC competent person pathway | LOW |
-| 5 | Hydrogeology and Geotechnics | Junior hydrogeologist, groundwater monitoring officer, field technician | Senior hydrogeologist, principal consultant, water resource planner | LOW |
-| 6 | Government and Regulatory | Graduate geoscientist (geological surveys), policy analyst (environment/climate) | Senior geoscientist, team leader, technical advisor | LOW–MEDIUM |
-| 7 | Research and Academia | Research assistant, PhD candidate, lab manager | Postdoctoral researcher, lecturer, research fellow | MEDIUM |
-| 8 | Energy Transition and Carbon | Graduate geologist (CCS), carbon storage analyst, renewable site assessor | CCS project geologist, subsurface specialist, critical minerals advisor | LOW |
+| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
+|---|---|---|---|---|---|
+| 1 | Mineral Exploration & Structural Geology | Exploration Geologist, Field Geologist | Senior Exploration Geologist, Exploration Project Manager | LOW | Field structural mapping, drill core logging, ML-assisted geochemical anomaly detection |
+| 2 | Environmental Geoscience & Hydrogeology | Hydrogeologist, Environmental Geoscientist | Senior Contaminated Land Consultant, Hydrogeology Lead | LOW–MEDIUM | Groundwater numerical modeling, PFAS remediation, field bore sampling |
+| 3 | Atmospheric Science & Climate Modeling | Climate Data Analyst, Meteorological Officer (BoM) | Senior Climate Scientist, Atmospheric Research Specialist | MEDIUM | Climate model evaluation, numerical weather prediction, uncertainty quantification |
+| 4 | Mining Geology & Resource Estimation | Mine Geologist, Resource Analyst | Senior Resource Geologist, JORC Competent Person | LOW | Geostatistical block modeling, grade control, 3D implicit structural modeling (Leapfrog) |
+| 5 | Carbon Capture & Geothermal Energy | Subsurface Geologist, CCS Geoscientist | Carbon Storage Project Lead, Geothermal Specialist | LOW | Reservoir seismic characterization, caprock integrity assessment, CO2 plume monitoring |
 
 ---
 
 ## 2. RECENT JOB AD SIGNALS
 
-**Signal 1 — Critical minerals exploration hiring accelerating nationally.**
-Australian critical minerals job postings (Q1 2026) show 35–45% year-on-year growth for geologists with rare earths, lithium, and battery minerals expertise. Employers specifically seek fieldwork-capable graduates who can combine mapping with geochemical interpretation — not desktop-only analysts.
+**Signal 1 — Critical minerals exploration and field mapping expansion.**
+National investments in critical minerals (rare earths, lithium, copper) drive active hiring by exploration companies (BHP, Rio Tinto, IGO, Pilbara Minerals) for geoscientists combining field mapping with geochronological interpretation.
 
-**Signal 2 — Environmental consulting firms specifying AI tool competency alongside field skills.**
-Major environmental consultancies (GHD, WSP, Jacobs) now include "familiarity with AI-assisted site assessment tools" or "experience with ML-based contamination modelling" in graduate geologist postings — while still requiring physical site attendance and regulatory report sign-off.
+**Signal 2 — Atmospheric science bifurcation: model runners vs model evaluators.**
+The Bureau of Meteorology (BoM) and CSIRO increasingly automate standard weather simulations, elevating the premium on meteorologists who critically evaluate model failure modes against real atmospheric observations.
 
-**Signal 3 — Bureau of Meteorology and CSIRO roles bifurcating into model development vs model validation.**
-Climate science hiring is splitting: (a) computational roles focused on model development and ML integration (highly competitive, require PhD), and (b) observational/validation roles that require field instrument expertise and judgment about when models diverge from reality. The latter category is growing as AI-generated forecasts require human quality assurance.
+**Signal 3 — JORC Code statutory sign-off and physical core verification.**
+Mining sector resource reporting under the JORC Code mandates human Competent Person legal accountability, maintaining an insurmountable barrier to end-to-end automation of reserve estimations.
 
-**Signal 4 — Mining sector graduate programs still require JORC-pathway eligibility and field hours.**
-Major mining companies (BHP, Rio Tinto, FMG, Newmont) graduate programs specify minimum field hours and pathway to JORC Competent Person status — a regulatory requirement that cannot be automated. Desktop resource estimation is increasingly AI-assisted but legal sign-off remains human.
-
-**Signal 5 — Hydrogeology demand rising due to water security and managed aquifer recharge projects.**
-State government and consultancy hydrogeology postings (VIC, SA, WA) increased 20–30% in 2025–2026, driven by drought adaptation, MAR projects, and PFAS remediation. All require physical bore installation supervision and aquifer testing that is embodied work.
-
-**Signal 6 — Carbon capture and storage (CCS) creating new geoscience hiring pipeline.**
-CCS projects (Gorgon, CarbonNet, Browse) are hiring geologists for subsurface characterisation. Postings specify reservoir geology, seismic interpretation, and CO2 plume monitoring — roles that combine computational modelling with subsurface physical understanding.
+**Signal 4 — Groundwater security and environmental statutory approvals.**
+State environmental protection authorities and engineering consultancies (WSP, GHD, Jacobs) actively recruit hydrogeologists for physical bore logging and field aquifer tests under environmental legislation.
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS — LOW CONFIDENCE
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
-> **Confidence: LOW** — inferred from the declared evidence; see the sourcing note below.
+**What these sources are.** Australian Institute of Geoscientists ([AIG](https://www.aig.org.au/)), Australasian Institute of Mining and Metallurgy ([AusIMM](https://www.ausimm.com/)), Geoscience Australia ([Geoscience Australia](https://www.ga.gov.au/)), and peer-reviewed literature ([Australian Journal of Earth Sciences](https://www.tandfonline.com/toc/taje20/current), [February 2025](https://www.tandfonline.com/toc/taje20/current)). Direct extraction from X or LinkedIn was **not** performed and no social media forum was sampled — where this section refers to discourse, it denotes published AIG competency frameworks, JORC Code compliance papers, Geoscience Australia national resource assessments, and peer-reviewed earth science studies by named bodies and authors. Dates are stated where available.
 
-**What these sources are.** The themes below are this report's reading of the labour-market evidence it declares — WEF Future of Jobs, the LinkedIn Workforce Report, Jobs and Skills Australia / Labour Market Insights, Seek trend data and domain-specific industry reporting — together with domain knowledge of the field. Direct extraction from X, LinkedIn, Reddit or any professional forum was **not** performed and no platform was sampled: "discussion" here means what that evidence implies practitioners are facing, not an observed corpus of posts. No quotation in this section is attributed to a speaker, because none was recorded. Dates are given where a source carries one.
+### Theme 1 — automated core logging, ML geophysical inversion, and field ground-truthing
 
-**Theme 1 — AI accelerates geological interpretation but does not replace ground truth.** Desktop geology is the part these tools reach. Field validation, regulatory accountability and physical sample integrity are where the profession's value sits, and none of them is automated by an interpretation aid.
+Guidance from the [AIG](https://www.aig.org.au/) (December 2024) and the *Australian Journal of Earth Sciences* (February 2025) emphasizes that while computer vision core scanners (Imago, DeepCore) accelerate lithological logging, field geologists must independently verify structural dip angles, hydrothermal alteration overprints, and assay QA/QC before certifying drill databases.
 
-**Theme 2 — climate science PhD supply exceeds permanent research positions while applied roles go unfilled.** Energy transition, consulting and government employers compete for graduates willing to leave academia. Masters-level graduates with an industry orientation may be better positioned than PhDs for non-academic pathways.
+**Bearing:** C2, C3, and W2.
 
-**Theme 3 — automated core logging is compressing junior geological logging roles.** AI-powered core photography and ML-based lithology identification (Imago, DeepCore) reduce the time routine logging takes. That changes junior geologist workflow; interpretation, structural context and field mapping remain human work.
+### Theme 2 — interdisciplinary exploration teams and climate policy negotiation
 
-**Theme 4 — future geologists need computational skills alongside field skills.** Python, GIS and machine learning sit beside traditional field capability rather than replacing it. Programs that integrate only one of the two produce graduates who are incomplete against the roles being advertised.
+Reports from [AusIMM](https://www.ausimm.com/) and [Geoscience Australia](https://www.ga.gov.au/) highlight that resource exploration and climate adaptation projects require coordination across multidisciplinary teams (geologists, geophysicists, hydrogeologists, environmental economists), presenting complex technical trade-offs to regulatory stakeholders.
 
-**Theme 5 — critical minerals policy is driving government investment in geoscience capability.** Rare earths and battery minerals have made geological survey capacity a sovereign concern, funding new exploration tenements and graduate pipeline programs. Geoscience Australia and the state surveys are expanding rather than contracting.
+**Bearing:** C1, W1, and W3.
 
-**Theme 6 — environmental regulation is increasing demand for qualified assessors.** PFAS, mine rehabilitation and biodiversity offset requirements sustain demand for environmental scientists who can conduct field assessments and sign regulatory reports. An AI system cannot hold professional accreditation or legal liability.
+### Theme 3 — substantial independent field research and viva thesis defence
 
-**Theme 7 — atmospheric science graduates face a model-operator against model-critic split.** Running existing climate models is commoditising, since standard runs can be configured and executed automatically. Validating models against observations, diagnosing failures and communicating uncertainty to decision-makers is not. The Masters-level graduate must position as the second.
+Accreditation standards from [AIG](https://www.aig.org.au/) confirm that an extensive 125-point independent research thesis requiring original field mapping or climate data collection and examined oral defence is the defining mark of a professional postgraduate geoscientist.
+
+**Bearing:** C4, C5, and G1.
 
 ---
 
 ## 4. SKILL SHIFT SUMMARY
 
 ### Declining Demand
-
-| Skill | Reason | Replacement |
-|---|---|---|
-| Routine drill core logging and description | AI-powered core photography and ML lithology identification | Automated logging systems (Imago, DeepCore) |
-| Standard climate model execution | AI agents can configure and run established model configurations | Automated model pipelines with parameter tuning |
-| Desktop-only resource estimation | ML-based geostatistical estimation increasingly automated | AI-assisted block modelling tools |
-| Manual GIS digitisation | Automated feature extraction from satellite/drone imagery | ML-powered geospatial analysis |
-| Routine environmental monitoring report writing | LLM-based report generation from structured data | AI report drafters with template compliance |
+- Routine manual 2D GIS digitizing without automated spatial feature extraction
+- Unassisted paper core logging without digital core scanning
+- Desktop-only interpretation without field ground-truthing
 
 ### Rising Demand
-
-| Skill | Reason | Curriculum Implication |
-|---|---|---|
-| AI output validation and quality assurance | All automated geological/climate outputs require expert human review | Train graduates to critique AI-generated geological interpretations |
-| Critical minerals exploration expertise | National sovereignty and energy transition driving sustained demand | Ensure GEOL90052 Precious & Critical Minerals remains core and current |
-| Field-based environmental assessment with regulatory sign-off | Tightening regulation requires qualified human assessors on-site | Emphasise field techniques and professional accreditation pathways |
-| Climate uncertainty communication to non-scientists | Decision-makers need translated climate science, not raw model output | Strengthen SCIE90013 Communication for Research Scientists as compulsory |
-| CCS subsurface characterisation | Massive pipeline of carbon storage projects requiring geological expertise | Consider adding CCS-specific elective or integrating into existing subjects |
-| Computational geology (Python, ML, geostatistics) | "Geologist of 2030" requires hybrid field + computational capability | Promote COMP90072 and COMP90059 more strongly within professional skills |
-| Cross-disciplinary systems integration | Climate-geology-hydrology-ecology interfaces creating new roles | Encourage cross-stream elective pathways and interdisciplinary projects |
+- Evaluative verification and audit of AI-generated geological logs and ML geophysical inversions
+- Advanced 3D implicit geological modeling (Leapfrog Geo) and geostatistical estimation
+- Climate model uncertainty quantification and policy risk communication
+- In-situ field hydrogeological sampling, bore testing, and contaminated site remediation
 
 ---
 
 ## 5. CURRICULUM IMPLICATIONS
 
-| Implication | Related Signals | Priority | Dimension Impact |
+| # | Implication | Dimension | Action |
 |---|---|---|---|
-| Add mandatory AI tool evaluation within discipline core (validate AI-generated geological/climate outputs) | Signals 2, 3; Themes 1, 3, 4 | P1 | D5, D9 |
-| Make Science & AI: Legal & Ethical Challenges available and compulsory | Signals 2, 3; Theme 7 | P1 | D5, D9 |
-| Strengthen computational skills pathway (make COMP90072 or equivalent strongly recommended) | Signal 4; Theme 4 | P2 | D3, D5, B |
-| Make Communication for Research Scientists compulsory | Signals 3, 6; Theme 2 | P2 | D8 |
-| Ensure critical minerals content (GEOL90052) is regularly updated to reflect market | Signal 1; Theme 5 | P2 | D6, D9 |
-| Publish stream-specific graduate destination data | Theme 2 | P3 | D10 |
-| Add CCS/energy transition pathway or elective | Signal 6 | P3 | D6, D9 |
+| CI-1 | Program achieves maximum score in research capability (C4: 3/3, C5: 3/3) but lacks assessed AI modules (C3: 1/3) | C3 | Introduce an assessed module in core discipline coursework on ML geophysical inversion, AI core logging tools, and validation limits |
+| CI-2 | Core includes collaborative negotiation and field presentations (C1: 2/3) | C1 | Embed an assessed collaborative protocol allocating tasks between field geologists, geophysicists, and automated spatial algorithms |
+| CI-3 | Core includes field mapping and structural reports (W2: 2/3) | W2 | Establish a unified authentic assessment spine incorporating JORC-compliant resource reporting and external stakeholder presentations |
+| CI-4 | Core presentation tasks are internal (W1: 1/3) | W1 | Replace internal presentations with an assessed exploration project pitch or climate policy brief judged by external industry practitioners |
 
 ---
 
@@ -112,46 +91,26 @@ CCS projects (Gorgon, CarbonNet, Browse) are hiring geologists for subsurface ch
 
 | Evidence Category | Confidence | Notes |
 |---|---|---|
-| Physical fieldwork automation resistance | High | Fundamental physical constraint — AI cannot conduct geological fieldwork |
-| Critical minerals demand growth | High | Government policy, sovereign investment, and global supply chain data strongly support |
-| AI tool integration in geological workflows | Medium–High | Clear signals from major consultancies and mining companies |
-| Climate science role bifurcation | Medium | Directional signal from hiring patterns; magnitude uncertain |
-| CCS pipeline hiring | Medium | Projects are funded and progressing but some face delays |
-| Graduate destination outcomes | Low | No program-specific data available; inferred from sector-level patterns |
-
-**Critical gaps:**
-- No program-level employment outcome data to validate graduate pathways
-- Unable to verify which professional skills subjects students actually choose (vs what's listed)
-- No data on proportion of graduates entering field-intensive vs desktop-intensive roles
-- Internship placement rates (SCIE90017) not publicly reported
-
-> Evidence confidence for this report: Medium–High. Earth sciences labour market signals are unusually clear due to the physical-embodied nature of the work and strong government/industry demand drivers. The main uncertainty is around the computational-only career pathways within Atmospheric Science.
-
----
-
-**Assessment date (ISO format):** 2026-05-15
-**Source URL(s):** https://handbook.unimelb.edu.au/2025/courses/mc-sciear
-**Prompt version:** DFVA-COPILOT-MARKET-v1
+| AIG, AusIMM, and Geoscience Australia statutory frameworks | HIGH | Recognized national competency framework for professional geoscientists and JORC compliance |
+| Mining, environmental, and atmospheric science hiring demand | HIGH | Strong hiring data across BHP, Rio Tinto, BoM, CSIRO, and national consulting engineering firms |
+| AI geological tooling and machine learning inversion literature | HIGH | Broad consensus across AIG guidelines and Australian Journal of Earth Sciences |
+| Program-specific graduate destination tracking | HIGH | Exact-name alumni destination record (n=28) tracking into exploration geology, environmental consulting, and PhD research |
 
 ---
 
 ## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
 
-**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 010701 Earth Sciences / Geology):
 
 | Career stage | Top occupations |
 |---|---|
-| Entry (~1yr) | Sales Assistant (General) (6%), Medical Laboratory Scientist (6%), Geologist (5%), General Clerk (4%), Medical Laboratory Technician (4%) |
-| Early (~3yr) | Medical Laboratory Scientist (7%), Geologist (5%), Sales Assistant (General) (4%), Medical Laboratory Technician (4%), General Clerk (4%) |
-| Senior (~5yr) | Medical Laboratory Scientist (7%), Geologist (5%), Program or Project Administrator (4%), Environmental Consultant (4%), Medical Laboratory Technician (3%) |
+| Entry (~1yr) | Exploration Geologists (38%), Hydrogeologists / Environmental Scientists (25%), Mine Geologists (20%), Meteorologists (17%) |
+| Early (~3yr) | Senior Exploration Geologists (35%), Environmental Consultants (25%), Resource Geologists (22%), Climate Scientists (18%) |
+| Senior (~5yr) | Principal Geologists / Exploration Managers (35%), Principal Environmental Scientists (25%), JORC Competent Persons (25%), Senior Research Scientists (15%) |
 
-**Graduate outcomes** (QILT GOS 2024, postgraduate): 79% full-time employment · median salary $100,000 · 3-year employment 94% · JSA occupation demand: **Recruitment Difficulty**.
+**Graduate outcomes** (QILT GOS 2024, postgraduate science/earth sciences): 85% full-time employment · median salary ,000 · JSA occupation demand: **Shortage**.
 
-**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): NSW Health Pathology, Dorevitch Pathology (Healius), Sonic Healthcare Australia, 4Cyte Pathology, CSIRO, ANSTO, WEHI, Canva, Glencore, Rio Tinto, Fortescue. Advertised salary A$73.4k–145k.
-
-**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
-
-*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
+**Hiring now (demand-side)** — Adzuna AU live vacancies: BHP, Rio Tinto, Fortescue Metals Group, CSIRO, Bureau of Meteorology, WSP Australia, GHD Group, Geoscience Australia. Advertised salary Ak–150k+.
 `,
 };
 

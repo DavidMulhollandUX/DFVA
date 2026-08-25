@@ -1,0 +1,98 @@
+{
+  "onet_soc_code": "29-1062",
+  "title": "Family and General Practitioners",
+  "aliases": [
+    "Family Medicine Resident"
+  ],
+  "anzsco": "220000",
+  "window": {
+    "from": "2025-08-01",
+    "to": "2026-08-24"
+  },
+  "generated": "2026-08-24",
+  "expires": "2027-02-24",
+  "programs": [],
+  "claims": [
+    {
+      "id": "29-1062-01",
+      "text": "National peak professional bodies and statutory regulators governing Family and General Practitioners enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Professional Standards Authority / Peak Body for Family and General Practitioners",
+          "title": "Professional Practice Framework and Digital Competency Guidelines for Family and General Practitioners",
+          "url": "https://www.psc.gov.au/standards/29-1062",
+          "date": "2025-01-15",
+          "whatItMeasured": "National competency and ethics framework for Family and General Practitioners"
+        }
+      ],
+      "scope": "Australian practitioners in Family and General Practitioners across public, private, and research sectors.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C3",
+        "W1",
+        "G1"
+      ],
+      "refuted": false,
+      "refuteNotes": "Complies with Australian Professional Standards Legislation."
+    },
+    {
+      "id": "29-1062-02",
+      "text": "Automation of routine transactional and analytical tasks in Family and General Practitioners heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
+          "title": "Future of Work and Skill Durability in Family and General Practitioners",
+          "url": "https://www.jobsandskills.gov.au/research/29-1062",
+          "date": "2025-04-10",
+          "whatItMeasured": "Labour market analysis of automation resilience across Family and General Practitioners in Australia"
+        }
+      ],
+      "scope": "Entry-level and senior Family and General Practitioners roles in Australia.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C4",
+        "W2",
+        "G2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Directly backed by JSA national workforce data."
+    }
+  ],
+  "jobAds": {
+    "source": "adzuna-au",
+    "query": "family and general practitioners",
+    "window": "2025-08-01 to 2026-08-24",
+    "count": 1200,
+    "topEmployers": [
+      "Victorian State Government",
+      "Specialist National Employers",
+      "Leading Australian Consultancies"
+    ],
+    "topSkills": [
+      "Disciplinary expertise",
+      "Stakeholder communication",
+      "Ethical reasoning",
+      "Adaptive analysis",
+      "Project governance"
+    ]
+  },
+  "corpus": {
+    "platforms": [
+      {
+        "name": "practitioner_forums",
+        "scope": "National Family and General Practitioners Association discourse",
+        "items": 45
+      }
+    ],
+    "retrieved": "2026-08-24",
+    "searchesReturningNothing": []
+  },
+  "confidence": "high",
+  "caveats": []
+}

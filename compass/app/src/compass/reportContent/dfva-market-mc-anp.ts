@@ -108,23 +108,17 @@ This supports the requirement for authentic, practice-based inquiry and evaluati
 
 ---
 
-## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+## REAL GRADUATE DESTINATIONS (JSA HEO)
 
-**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **060399 Nursing, n.e.c.** (n = 13,180 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 80.2% of them, and the 5 largest are shown at each stage.
 
 | Career stage | Top occupations |
 |---|---|
-| Entry (~1yr) | Registered Nurses nec (15%), Physiotherapist (6%), Registered Nurse (Medical) (6%), Resident Medical Officer (5%), Registered Nurse (Critical Care and Emergency) (5%) |
-| Early (~3yr) | Registered Nurses nec (14%), Physiotherapist (6%), Registered Nurse (Medical) (6%), Registered Nurse (Critical Care and Emergency) (5%), Occupational Therapist (4%) |
-| Senior (~5yr) | Registered Nurses nec (14%), Physiotherapist (6%), Registered Nurse (Medical) (5%), Registered Nurse (Critical Care and Emergency) (5%), Occupational Therapist (4%) |
+| Entry (~1yr) | Registered Nurses nec (27.2%) · Registered Nurse (Critical Care and Emergency) (14.9%) · Registered Nurse (Medical) (13.4%) · Registered Nurse (Surgical) (4.6%) · Registered Nurse (Aged Care) (4.6%) |
+| Early (~3yr) | Registered Nurses nec (26.6%) · Registered Nurse (Critical Care and Emergency) (15.3%) · Registered Nurse (Medical) (12.7%) · Registered Nurse (Community Health) (4.5%) · Registered Nurse (Surgical) (4.2%) |
+| Senior (~5yr) | Registered Nurses nec (25.9%) · Registered Nurse (Critical Care and Emergency) (14.8%) · Registered Nurse (Medical) (11.8%) · Registered Nurse (Community Health) (5.2%) · Registered Nurse (Perioperative) (4.1%) |
 
-**Graduate outcomes** (QILT GOS 2024, postgraduate): 87% full-time employment · median salary $103,000 · 3-year employment 95% · JSA occupation demand: **Shortage**.
-
-**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): Healthcare Australia (HCA), UnitingCare Queensland, Alfred Health, Melbourne Health, Austin Health, Monash Health, St Vincent's Hospital, Bolton Clarke, Mercy Health, Ramsay Health Care. Advertised salary A$85k–145k.
-
-**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
-
-*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
+**Field grain, not program grain.** These are graduates of the whole Nursing, n.e.c. field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
 `,
 };
 

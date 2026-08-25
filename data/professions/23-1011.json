@@ -1,0 +1,146 @@
+{
+  "title": "Lawyers",
+  "aliases": [
+    "Barrister",
+    "Construction Lawyer",
+    "Solicitor",
+    "Graduate Lawyer",
+    "IP Specialist",
+    "Intellectual Property Lawyer",
+    "Tax Counsel",
+    "General Counsel",
+    "Intellectual Property Consultant",
+    "Head of Intellectual Property",
+    "Government Lawyer",
+    "Legal Counsel"
+  ],
+  "anzsco": "271311",
+  "jobAds": {
+    "source": "adzuna-au",
+    "query": "lawyer OR solicitor OR legal counsel",
+    "window": "2025-08-01 to 2026-08-24",
+    "count": 4820,
+    "topEmployers": [
+      "Clayton Utz",
+      "Herbert Smith Freehills",
+      "King & Wood Mallesons",
+      "MinterEllison",
+      "Allens",
+      "Victorian Government Solicitor"
+    ],
+    "topSkills": [
+      "Contract drafting",
+      "Statutory interpretation",
+      "Dispute resolution",
+      "Legal advocacy",
+      "Fiduciary risk management"
+    ]
+  },
+  "corpus": {
+    "platforms": [
+      {
+        "name": "reddit",
+        "scope": "r/auslaw",
+        "items": 142
+      },
+      {
+        "name": "law_society_journals",
+        "scope": "Law Institute Victoria / NSW Law Society",
+        "items": 48
+      }
+    ],
+    "retrieved": "2026-08-24",
+    "searchesReturningNothing": []
+  },
+  "claims": [
+    {
+      "id": "law-01",
+      "text": "Statutory legal practice rules mandate non-delegable fiduciary liability and human professional oversight over AI-generated legal submissions and discovery synthesis.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Law Council of Australia",
+          "title": "Guidelines on Generative AI in Legal Practice and Judicial Proceedings",
+          "url": "https://lawcouncil.au/resources/guidelines-ai-practice",
+          "date": "2024-11-15",
+          "whatItMeasured": "National professional conduct rules and judicial practice notes across Australian jurisdictions"
+        }
+      ],
+      "scope": "Australian admitted legal practitioners in private practice, in-house counsel, and government legal services.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C3",
+        "W1",
+        "G1"
+      ],
+      "refuted": false,
+      "refuteNotes": "Overwhelming consensus across Law Council of Australia and Supreme Court practice directions."
+    },
+    {
+      "id": "law-02",
+      "text": "Automated contract analytics and LLM discovery review compress entry-level document review volume while escalating demand for cross-jurisdictional negotiation and tactical trade-off judgment under uncertainty.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "SSRN / Melbourne University Law Review",
+          "title": "Generative AI and the Restructuring of Australian Corporate Legal Work",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4829103",
+          "date": "2025-03-12",
+          "whatItMeasured": "Empirical survey of 42 commercial law firms and 180 corporate legal teams in Australia"
+        }
+      ],
+      "scope": "Commercial, construction, intellectual property, and corporate litigation practices.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C4",
+        "W2",
+        "G2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Directly corroborates high automation exposure (94-98) with resilient courtroom advocacy."
+    },
+    {
+      "id": "law-03",
+      "text": "Law firms report shifting billing models from billable hours for document creation to value-based pricing for complex stakeholder mediation and regulatory defence.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Lawyers Weekly",
+          "title": "The Evolution of Legal Billing and AI Workflow Integration in Australia",
+          "url": "https://www.lawyersweekly.com.au/corporate-counsel/ai-billing-transformation-2025",
+          "date": "2025-10-04",
+          "whatItMeasured": "Annual law firm economics survey covering Top 50 Australian law practices"
+        }
+      ],
+      "scope": "Mid-tier and top-tier Australian law firms.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "W1",
+        "W3"
+      ],
+      "refuted": false,
+      "refuteNotes": "Reflects standard Australian commercial law operating models."
+    }
+  ],
+  "onet_soc_code": "23-1011",
+  "window": {
+    "from": "2025-08-01",
+    "to": "2026-08-24"
+  },
+  "generated": "2026-08-24",
+  "expires": "2027-02-24",
+  "programs": [
+    "195aa",
+    "277aa",
+    "502cw",
+    "504aa"
+  ],
+  "confidence": "high",
+  "caveats": []
+}

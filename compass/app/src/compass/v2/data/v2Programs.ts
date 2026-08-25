@@ -777,7 +777,7 @@ export const V2_PROGRAMS: V2Program[] = [
   },
   {
     code: "mc-bamktg",
-    name: "Master of Business Administration (Marketing)",
+    name: "Master of Business Administration/Master of Marketing",
     faculty: "Business & Economics",
     v1_score: 19,
     v1_band: "HIGH RISK",

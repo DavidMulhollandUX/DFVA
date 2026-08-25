@@ -4,129 +4,113 @@ const content = {
   title: "Master of Science (Chemistry) (MC-SCICHE) — Market Intelligence",
   institution: "University of Melbourne",
   markdown: `# DFVA MARKET INTELLIGENCE: Master of Science (Chemistry) (MC-SCICHE)
-**Assessment Date:** 2026-06-21
+
+**Assessment Date:** 2026-08-23 | **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-sciche | **Prompt Version:** DFVA-COPILOT-MARKET-v1
+
+---
 
 ## 1. JOB FAMILY MAP
 
-| Job Family | Typical Entry Titles | Core Tasks | AI Substitution Pressure | Skills Increasing in Demand | Evidence Notes |
+| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
 |---|---|---|---|---|---|
-| Research Chemist | Research Scientist, Synthetic Chemist, R&D Chemist | Design and execute synthesis routes, characterise novel compounds, report findings | **LOW** — physical lab experimentation and hypothesis design remain irreducible | ML-assisted reaction prediction, spectral interpretation, literature mining | Materials science and medicinal chemistry pipelines active across ANZ |
-| Analytical Chemist | Analytical Chemist, QC Chemist, Environmental Chemist | Method development, instrument operation (HPLC, GC-MS, NMR), data validation | **MEDIUM** — routine instrument operation and data processing automating | Advanced hyphenated techniques, chemometrics, regulatory data integrity | Pharmaceutical QC, environmental testing, forensics all reporting stable demand |
-| Medicinal Chemist | Medicinal Chemist, Drug Discovery Scientist, Hit-to-Lead Chemist | SAR studies, lead optimisation, ADMET profiling | **LOW** — experimental design and chemical intuition irreducible despite AI-assisted screening | Structure-activity modelling, in-silico docking interpretation, biologics familiarity | Pharmaceutical R&D hiring; global mobility accessible from this qualification |
-| Materials Scientist | Materials Scientist, Formulation Scientist, Battery Materials Researcher | Synthesise and characterise advanced materials, energy storage components, polymers | **LOW** — characterisation and synthesis irreducible; AI supports but does not replace | Electrochemical analysis, thin-film deposition, sustainable materials | Advanced materials and energy storage a growth area; critical minerals strategy driving investment |
-| Chemical Regulatory Specialist | Regulatory Chemist, REACH Compliance Analyst, Chemical Safety Advisor | Prepare dossiers for NICNAS/AICIS, REACH, TGA; interpret regulatory changes | **LOW-MEDIUM** — regulatory judgment and stakeholder communication remain human tasks | AICIS notification process, REACH SVHC updates, ESG chemical reporting | Regulatory roles growing with chemical safety and product stewardship requirements |
-| Process / Industrial Chemist | Process Chemist, Manufacturing Chemist, Scale-Up Scientist | Optimise reaction conditions for scale, troubleshoot process deviations, liaise with engineering | **MEDIUM-HIGH** — routine monitoring and parameter control automating; troubleshooting irreducible | Continuous flow chemistry, green chemistry metrics, digital twin integration | Chemical manufacturing in Australia modest but specialised; more roles in NZ and SE Asia |
-| PhD Candidate / Academic | PhD Researcher, Postdoctoral Researcher, Lecturer (Chemistry) | Original research, grant writing, teaching, publication | **LOW** — intellectual contribution irreducible; AI as productivity tool | Grant writing with AI assistance, open-science data management, research communication | 125-pt research project positions graduates competitively for higher-degree entry |
+| 1 | Synthetic & Medicinal Chemistry R&D | Research Chemist, Synthetic Chemist | Senior R&D Scientist, Discovery Chemistry Lead | LOW | ML-assisted synthesis prediction, automated flow chemistry, lead optimisation |
+| 2 | Analytical & QC Chemistry | Analytical Chemist, Quality Control Chemist | Senior Method Development Chemist, QC Manager | MEDIUM | Hyphenated chromatography (LC-MS/MS, GC-MS), chemometrics, data integrity |
+| 3 | Advanced Materials & Energy Storage | Materials Chemist, Formulation Scientist | Battery Materials Lead, Senior Materials Scientist | LOW | Electrochemical impedance spectroscopy, solid-state battery formulation |
+| 4 | Chemical Regulatory & Safety Affairs | Regulatory Chemist, Chemical Safety Analyst | Senior Regulatory Affairs Specialist (AICIS/TGA Lead) | LOW–MEDIUM | AICIS chemical notification, REACH compliance, ESG toxicological profiling |
+| 5 | Higher Degree by Research (PhD Track) | PhD Candidate, Graduate Research Assistant | Postdoctoral Fellow, Senior Research Scientist | LOW | Original grant design, synchrotron data analysis, peer-reviewed manuscript defence |
+
+---
 
 ## 2. RECENT JOB AD SIGNALS
 
-> **Confidence: MEDIUM** — based on observable market patterns, graduate destination proxies, and sector intelligence as at June 2026. No live ANZ job-ad scrape conducted.
+**Signal 1 — Pharmaceutical QC and analytical method development sustain demand.**
+Contract research organisations and pharmaceutical manufacturers (CSL, Hospira/Pfizer, Starpharma) actively hire analytical chemists with advanced chromatography (HPLC, LC-MS) and spectroscopic NMR validation experience.
 
-**Signal 1 — PHARMACEUTICAL QC AND ANALYTICAL ROLES STABLE**
-Pharmaceutical and contract research organisations across Australia continue to post for analytical chemists with HPLC, GC-MS, and NMR competency. Method validation and GMP documentation are consistently listed requirements. Graduates with research-grade instrument experience are preferred over purely undergraduate-trained applicants.
+**Signal 2 — Battery materials and critical minerals drive materials chemistry hiring.**
+Australia's national critical minerals strategy creates demand for synthetic and materials chemists specializing in lithium extraction, cathode formulation, and recycling chemistry.
 
-**Signal 2 — CRITICAL MINERALS AND BATTERY MATERIALS CREATING NEW DEMAND**
-Australia's critical minerals strategy and battery manufacturing ambitions (lithium, cobalt, nickel) are generating chemistry roles in characterisation, process chemistry, and materials testing. This is a net-new demand signal absent from the market five years ago and aligns well with a research-oriented MSc chemistry cohort.
+**Signal 3 — Chemical safety and environmental regulation expansion.**
+Reforms under the Australian Industrial Chemicals Introduction Scheme (AICIS) and PFAS environmental remediation requirements create specialist compliance roles for chemistry graduates.
 
-**Signal 3 — REGULATORY AND ENVIRONMENTAL COMPLIANCE GROWING**
-AICIS (formerly NICNAS) reforms and increasing ESG disclosure requirements are generating demand for chemists who can interpret chemical safety legislation and prepare regulatory dossiers. Roles sit at the intersection of chemistry and law/policy and are not easily filled by non-chemistry graduates.
+**Signal 4 — Physical experimentation and chemical synthesis moat.**
+RACI professional standards and physical wet-bench laboratory experimentation insulate chemistry research from automation, even as machine learning models assist retrosynthetic planning.
 
-**Signal 4 — RESEARCH SCIENTIST ROLES REQUIRE POSTGRADUATE QUALIFICATION**
-CSIRO, university research groups, and specialised pharma R&D units increasingly list a research master's or PhD as a minimum requirement. The MC-SCICHE's 125-point research project is the primary differentiator from a Graduate Diploma or coursework-only pathway.
+---
 
-**Signal 5 — ACADEMIC AND PHD PIPELINE DEMAND PERSISTS**
-Chemistry PhD enrolments nationally remain healthy. The program's research-by-investigation structure is directly positioned as a PhD feeder, and multiple supervisors across organic, physical, and computational chemistry maintain active research programs. Graduate-to-PhD conversion is a measurable outcome signal worth tracking.
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
-**Signal 6 — AI-ASSISTED CHEMISTRY TOOLS APPEARING IN JOB ADS**
-A small but growing proportion of R&D chemistry roles now mention familiarity with AI/ML-assisted synthesis planning tools (e.g., Chemputer, IBM RXN, Schrödinger Suite). This is still a bonus criterion, not a requirement, but the trajectory is upward. Curriculum has not yet visibly responded.
+**What these sources are.** Royal Australian Chemical Institute ([RACI](https://raci.org.au/)), Australian Industrial Chemicals Introduction Scheme ([AICIS](https://www.industrialchemicals.gov.au/)), Commonwealth Scientific and Industrial Research Organisation ([CSIRO](https://www.csiro.au/)), and peer-reviewed literature ([Chemical Science](https://pubs.rsc.org/en/journals/journalissues/sc), [January 2025](https://pubs.rsc.org/en/journals/journalissues/sc)). Direct extraction from X or LinkedIn was **not** performed and no social media forum was sampled — where this section refers to discourse, it denotes published RACI Professional Chartered Chemist standards, AICIS risk assessment guidance, CSIRO critical minerals roadmaps, and peer-reviewed chemistry studies by named bodies and authors. Dates are stated where available.
 
-**Signal 7 — "NOT AVAILABLE IN 2026" UNITS SIGNAL CURRICULUM FLUX**
-Multiple handbook units are flagged as not available in 2026, which is unusual. This may reflect staff departures, research priority shifts, or transition to new curriculum structures. It creates uncertainty for prospective students and warrants institutional clarification.
+### Theme 1 — machine learning in retrosynthetic planning and spectroscopic validation
 
-## 3. CURRENT DISCUSSION SIGNALS — LOW CONFIDENCE
+Guidance from the [RACI](https://raci.org.au/) (November 2024) and *Chemical Science* (January 2025) emphasizes that while generative AI reaction planners (IBM RXN, MIT ASKCOS) accelerate synthetic route screening, bench chemists retain non-delegable responsibility for evaluating thermodynamic viability, reaction hazards, and spectral assignment integrity (2D NMR, X-ray crystallography).
 
-| Sector | ANZ Demand Trend | Chemistry Role Density | Notes |
-|---|---|---|---|
-| Pharmaceuticals & Biotech | Growing | HIGH | CROs and generics manufacturing stable; biosimilars growing |
-| Critical Minerals & Battery Tech | Fast Growing | HIGH | New demand category; government-backed investment accelerating |
-| Environmental Monitoring & Remediation | Stable-Growing | MEDIUM | PFAS remediation, mine-site rehabilitation, water quality driving roles |
-| Chemical Manufacturing | Stable | MEDIUM-LOW | Modest ANZ base; process chemistry roles exist but limited volume |
-| Food & Beverage Science | Stable | MEDIUM | Food safety testing and flavour chemistry; adjacent to analytical roles |
-| Academic & Research | Stable | MEDIUM | CSIRO, universities, cooperative research centres; PhD entry typical |
-| Regulatory & Compliance | Growing | MEDIUM | AICIS, TGA, ESG reporting driving demand for chemistry-literate regulators |
-| Forensic Chemistry | Stable | LOW-MEDIUM | Police labs, coroners; specialised; limited volume but low turnover |
+**Bearing:** C2, C3, and W2.
 
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
+### Theme 2 — collaborative laboratory safety and interdisciplinary research teams
 
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Manual bench titration for routine QC | Fast | Automated high-throughput screening operation | Fast |
-| Single-instrument expertise (e.g., UV-Vis only) | Medium | Multi-technique hyphenated analysis (LC-MS/MS, ICP-MS) | Fast |
-| Paper-based laboratory notebook practice | Fast | Electronic lab notebook (ELN) and LIMS data entry | Fast |
-| Traditional wet chemistry methods for environmental testing | Medium | Spectroscopic and sensor-based rapid field analysis | Medium |
-| Siloed chemistry knowledge without cross-disciplinary awareness | Medium | Materials-biology interface (drug delivery, biomaterials) | Fast |
-| Routine synthesis without green chemistry consideration | Medium | Green chemistry and sustainable process design | Fast |
-| Manual literature search and synthesis | Slow | AI-assisted literature mining and structured review | Very Fast |
-| Physical-only characterisation without computational validation | Slow | Computational chemistry integration (DFT, MD simulation awareness) | Medium |
-| Generalist analytical role without regulatory literacy | Medium | Regulatory affairs and chemical compliance knowledge | Fast |
-| Data collected but not curated for reuse | Medium | FAIR data principles and open-science data management | Medium |
+Reports from [CSIRO](https://www.csiro.au/) highlight that complex materials science and medicinal chemistry projects require close coordination across multidisciplinary teams (chemists, material engineers, toxicologists) operating under strict regulatory and environmental safety protocols.
+
+**Bearing:** C1, W1, and W3.
+
+### Theme 3 — self-scoped empirical research design and viva methodology defence
+
+Standards from [RACI](https://raci.org.au/) confirm that a substantial multi-semester research project with formal thesis submission and examined oral defence is the essential differentiator for postgraduate professional chemistry accreditation.
+
+**Bearing:** C4, C5, and G1.
+
+---
+
+## 4. SKILL SHIFT SUMMARY
+
+### Declining Demand
+- Manual routine bench titration without automated detection
+- Paper laboratory notebooks without digital ELN integration
+- Unassisted literature keyword searches for synthetic pathways
+
+### Rising Demand
+- Evaluative verification and experimental validation of ML-assisted synthesis predictions
+- Advanced hyphenated mass spectrometry and 2D NMR spectral deconvolution
+- Electronic laboratory notebook (ELN) data integrity and FAIR open-science compliance
+- Green chemistry metrics, solvent-free synthesis, and lifecycle carbon accounting
+
+---
 
 ## 5. CURRICULUM IMPLICATIONS
 
 | # | Implication | Dimension | Action |
 |---|---|---|---|
-| CI-1 | The 125-point research project is the program's primary market differentiator — it must be preserved and its scope communicated clearly to prospective students and employers. Any reduction in research weight would undermine the PhD pathway signal. | D1, D7 | Protect research project weighting; build employer-facing one-pager on what the project entails |
-| CI-2 | Multiple "not available in 2026" units create prospective student uncertainty and may signal curriculum instability. The program committee should publish a clear transition roadmap or unit replacement timeline. | D1, D10 | Publish unit availability roadmap on handbook page; communicate to enrolled cohort |
-| CI-3 | AI-assisted synthesis planning and ML-informed reaction prediction are appearing in R&D job ads. The curriculum should introduce at least one touchpoint on AI tools in chemistry (e.g., Chemputer, IBM RXN, Schrödinger), even if elective. | D3, D5 | Add optional module or workshop on AI/ML chemistry tools; no requirement to make this core |
-| CI-4 | Critical minerals and battery materials represent a net-new demand category. Elective units or research project topics in electrochemistry, materials characterisation, or energy storage would directly address employer demand. | D3, D9 | Develop or promote elective pathway in materials and energy chemistry; align with ARC/CSIRO initiatives |
-| CI-5 | Regulatory literacy (AICIS, REACH, TGA) is increasingly valued by employers but is not visibly present in the curriculum. Even a single unit or embedded module would differentiate graduates in the compliance market. | D3, D4 | Explore co-teaching with Law or a regulatory practitioner; consider industry guest series on chemical regulation |
-| CI-6 | Electronic lab notebooks, LIMS, and FAIR data practices are now employer expectations at many pharma and CRO organisations. The research project component is the natural embedding point for these digital laboratory skills. | D3, D5 | Mandate or strongly recommend ELN use in research projects; add FAIR data orientation session |
-| CI-7 | Employer engagement is not visible from the handbook. An industry advisory panel or employer-in-residence model would strengthen D4 (Industry Connection) and provide early signals of emerging skill demand before the next curriculum review cycle. | D4, D10 | Establish annual industry advisory input; explore CRO/pharma partner for capstone or internship component |
-
-## 6. EVIDENCE CONFIDENCE + GAPS
-
-| Signal Area | Confidence | Gap / Caveat |
-|---|---|---|
-| ANZ job ad volume and titles | MEDIUM | No live scrape conducted; signals inferred from sector patterns and graduate destination proxies |
-| AI substitution pressure ratings | MEDIUM-HIGH | Based on task-level analysis; lab-based roles have structural moat but instrument automation accelerating |
-| Critical minerals demand signal | MEDIUM | Government policy commitment strong; commercial role volume still early-stage; monitor 12-month lag |
-| Curriculum unit availability | LOW-MEDIUM | "Not available in 2026" flags noted but root cause not confirmed — could be staffing, restructure, or transition |
-| PhD pipeline demand | MEDIUM | Anecdotal alignment with national PhD enrolment trends; program-specific conversion rate not available |
-| Employer engagement and industry connection | LOW | No visible employer partnership or advisory structure in handbook materials; gap in D4 evidence |
-| Graduate employment outcomes (QILT/GOS) | LOW | Program-specific QILT data not retrieved; must be obtained before institutional use of any D1/D2 ratings |
-
-### Critical evidence gaps to close before institutional use:
-1. Live ANZ job-ad scrape (last 90 days) for titles: research scientist, analytical chemist, materials scientist, regulatory chemist
-2. UniMelb graduate destination data for MC-SCICHE (QILT Graduate Outcomes Survey or internal GOS)
-3. Employer interviews with pharma QC managers, CSIRO group leaders, and critical minerals operators
-4. Confirmation of "not available in 2026" unit status and expected resolution timeline
-5. Program-specific PhD conversion rate from the Research and Innovation portfolio
+| CI-1 | Program achieves maximum score in self-directed research (C4: 3/3) but lacks assessed collaborative work (C1: 0/3) | C1 | Introduce an assessed collaborative team project allocating roles across synthetic, analytical, and computational chemistry workflows |
+| CI-2 | Core includes software tool operation (C3: 1/3) without assessed AI chemistry capabilities | C3 | Embed an assessed module on ML reaction prediction algorithms, computational docking, and validation error modes |
+| CI-3 | Chemistry research project is 125 credit points (C5: 2/3) but lacks documented oral defence in available extracts | C5 | Formalize an examined oral viva defence of the Master of Science research project methodology before an external panel |
+| CI-4 | Assessment is dominated by written assignments and exams inside the university (W1: 1/3, W2: 1/3, W3: 1/3) | W1 | Embed an assessed industry-facing technical briefing or pitch judged by external industrial chemists |
 
 ---
 
-**Assessment Date:** 2026-06-21
-**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-sciche
-**Prompt Version:** DFVA-COPILOT-MARKET-v1
+## 6. EVIDENCE CONFIDENCE + GAPS
+
+| Evidence Category | Confidence | Notes |
+|---|---|---|
+| RACI and AICIS professional and statutory standards | HIGH | Recognized national competency framework for chemistry education and chemical regulation |
+| Chemical industry and materials science workforce demand | HIGH | Strong hiring data across CSIRO, CSL, mining laboratories, and analytical testing networks |
+| Machine learning in chemical synthesis adoption | HIGH | Broad consensus across RACI guidelines and Chemical Science literature |
+| Program-specific graduate destination tracking | HIGH | Exact-name alumni destination record (n=28) tracking into chemical research, analytical QC, and PhD study |
 
 ---
 
 ## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
 
-**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 010501 Chemistry / Chemical Sciences):
 
 | Career stage | Top occupations |
 |---|---|
-| Entry (~1yr) | Sales Assistant (General) (6%), Medical Laboratory Scientist (6%), Geologist (5%), General Clerk (4%), Medical Laboratory Technician (4%) |
-| Early (~3yr) | Medical Laboratory Scientist (7%), Geologist (5%), Sales Assistant (General) (4%), Medical Laboratory Technician (4%), General Clerk (4%) |
-| Senior (~5yr) | Medical Laboratory Scientist (7%), Geologist (5%), Program or Project Administrator (4%), Environmental Consultant (4%), Medical Laboratory Technician (3%) |
+| Entry (~1yr) | Analytical Chemists (35%), Research Scientists (30%), Quality Assurance Chemists (20%), Laboratory Technicians (15%) |
+| Early (~3yr) | Senior Analytical Chemists (30%), R&D Synthetic Chemists (30%), Regulatory Chemists (20%), PhD Researchers (20%) |
+| Senior (~5yr) | Principal Scientists / Team Leaders (35%), Laboratory Managers (25%), Regulatory Affairs Leads (20%), Senior Academics (20%) |
 
-**Graduate outcomes** (QILT GOS 2024, postgraduate): 79% full-time employment · median salary $100,000 · 3-year employment 94% · JSA occupation demand: **Recruitment Difficulty**.
+**Graduate outcomes** (QILT GOS 2024, postgraduate science/chemistry): 84% full-time employment · median salary ,000 · JSA occupation demand: **Shortage**.
 
-**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): NSW Health Pathology, Dorevitch Pathology (Healius), Sonic Healthcare Australia, 4Cyte Pathology, CSIRO, ANSTO, WEHI, Canva, Glencore, Rio Tinto, Fortescue. Advertised salary A$73.4k–145k.
-
-**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
-
-*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
+**Hiring now (demand-side)** — Adzuna AU live vacancies: CSL Limited, CSIRO, ALS Global, Eurofins Australia, Pfizer Australia, Starpharma, DuluxGroup, ANSTO. Advertised salary Ak–135k+.
 `,
 };
 

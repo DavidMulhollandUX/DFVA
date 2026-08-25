@@ -98,19 +98,17 @@ Economic analysis by [LPA](https://liveperformance.com.au/) (2024/2025) highligh
 
 ---
 
-## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+## REAL GRADUATE DESTINATIONS (JSA HEO)
 
-**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 100701 Arts & Cultural Management):
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **080399 Business and Management, n.e.c.** (n = 27,400 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 33.3% of them, and the 5 largest are shown at each stage.
 
 | Career stage | Top occupations |
 |---|---|
-| Entry (~1yr) | Arts Administrators (34%), Assistant Producers (26%), Event Coordinators (22%), Marketing & Ticketing Officers (18%) |
-| Early (~3yr) | General Managers / Producers (30%), Operations Managers (25%), Development / Philanthropy Managers (20%), Cultural Program Officers (15%), Box Office Directors (10%) |
-| Senior (~5yr) | Executive Directors / CEOs (32%), Artistic Directors / Festival Directors (28%), Heads of Cultural Policy (22%), Senior Creative Producers (18%) |
+| Entry (~1yr) | Accountant (General) (9.5%) · General Clerk (3.5%) · Marketing Specialist (3.2%) · Sales Assistant (General) (3.1%) · Management Consultant (3.0%) |
+| Early (~3yr) | Accountant (General) (9.6%) · Marketing Specialist (3.6%) · Sales and Marketing Manager (3.5%) · Management Consultant (3.4%) · Corporate General Manager (2.6%) |
+| Senior (~5yr) | Accountant (General) (8.4%) · Sales and Marketing Manager (3.9%) · Marketing Specialist (3.5%) · Management Consultant (3.1%) · Corporate General Manager (3.0%) |
 
-**Graduate outcomes** (QILT GOS 2024, postgraduate creative arts / arts management): 88% full-time employment · median salary ,000 · JSA occupation demand: **Moderate**.
-
-**Hiring now (demand-side)** — Adzuna AU live vacancies: Melbourne Theatre Company (MTC), Arts Centre Melbourne, Melbourne Symphony Orchestra, RISING, Malthouse Theatre, Australian Centre for Contemporary Art (ACCA), Creative Victoria, City of Melbourne, Circus Oz, Chunky Move. Advertised salary Ak–138k.
+**Field grain, not program grain.** These are graduates of the whole Business and Management, n.e.c. field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
 `,
 };
 

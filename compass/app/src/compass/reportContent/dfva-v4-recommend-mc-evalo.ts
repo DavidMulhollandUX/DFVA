@@ -1,0 +1,240 @@
+// Auto-generated from reports/*.md by scripts/dfva-content-generate.ts — do not edit by hand.
+// Run: npm --prefix scripts run dfva:gen-content
+const content = {
+  title: "Master of Evaluation (MC-EVALO) — Improvement Plan (v4 draft)",
+  institution: "University of Melbourne",
+  markdown: `# DFVA v4 IMPROVEMENT PLAN: Master of Evaluation (MC-EVALO)
+
+**Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
+**Assessment date:** 2026-08-25 · **Derived from:** the verified panelCv4 scoring + reports/dfva-market-mc-evalo.md
+**Position basis:** Destination AI Exposure 96.58 (exact basis) × Curriculum Adaptiveness 6/15 (v4.2 draft, sub-scale A) · Workplace practice 3/9 (sub-scale W, reported beside the axis, not in it) — no v1 composite
+
+> Citation marks in the Sources columns refer to the numbered list in
+> [References](#references); full citations are given there and not repeated in
+> the body.
+
+## 1. DIAGNOSTIC SUMMARY — Basis: inferred
+
+*This plan argues from the scored evidence and market data above; it is
+interpretation, not observation.*
+
+The two sub-scales fail in the same place, and that is the finding. Adaptiveness is 6/15
+and workplace practice 3/9, but neither number is evenly distributed: C4 sits at the
+instrument maximum while C1 and C3 sit at zero. The program is unusually strong at making
+one student work independently and unusually weak at everything involving another party or
+another tool. EDUC90747 is a compulsory, self-scoped capstone taken in the final semester,
+with the scoping itself assessed at 20% in week 4 — that is a level-3 anchor met on
+assessment evidence, not on an outcome claim. Both gates pass: G1 on an all-compulsory
+specialist core in which all four core subjects and all seven electives are evaluation
+subjects, and G2 on EDUC90848's 60% research proposal, which requires methodological choice
+against stakeholder needs, resources and other contextual factors.
+
+The two zeros are not the same kind of zero. C3 is a literal absence: no compulsory subject,
+no course-level intended learning outcome and no graduate attribute names a digital tool,
+software, data system or artificial intelligence, and no elective does either — the word
+"online" throughout the handbook is delivery mode, which R1 forbids crediting as content.
+C1 is narrower and turns on drafting. Stakeholder and client language *is* present, in the
+graduate attributes ("communicating with clients and stakeholders") and in EDUC90847's taught
+topics ("stakeholder engagement strategies"), but C1's level-1 anchor names learning outcomes
+alone where C2, C3 and W1 name graduate attributes or program-level outcomes explicitly. The
+outcomes blocks carry none of it, and every assessed task in the compulsory core is
+individually produced, so level 0's own test is affirmatively satisfied. The consequence for
+this plan is practical: P1 is a documentation change that costs a course-approval cycle, and
+P4 is not.
+
+C5 and W2 sit at 1 for a third reason, and it is the same reason twice: the handbook
+documents what each task is and never documents what it does or how it is judged. C5's
+level-2 anchor asks for an inquiry designed *and* conducted, with data collection assessed;
+EDUC90848's 60% research proposal is design and stops at design, EDUC90847's assessment row
+says only "Project", 3000 words, week 8, 60%, and the conducting language lives in an
+intended learning outcome, which R2 caps at 1. W2's level-2 anchor is a three-part
+conjunction whose third part is judgement "against criteria drawn from practice"; no
+assessment row anywhere in this capture states a criterion, a rubric or a standard, because
+the tables carry description, timing and percentage and nothing else. Both were scored 2 in
+the submitted pass and both were refuted. That matters for sequencing more than for the
+number: P2 and P8 were written against a base that no longer holds, and each now has a
+prior step to clear first.
+
+The workplace side is bounded by the same structural fact from a different direction. This is
+a fully online professional-development program whose cohort the handbook documents as
+already practising — policy and program planners, performance auditors, internal monitoring
+and evaluation staff, managers, independent consultants, drawn from the public sector,
+non-government agencies and business. That opens the instrument's v4.2 own-practice route for
+W3, and the capstone already offers participation in a real evaluation project. It is one of
+two routes, with no documented workplace supervision, outcome measure or accountability, so
+it scores 1. W3 here is a specification problem, not a partnership problem — which makes it
+cheaper to move for this program than for almost any other in the cohort.
+
+| Item | Sub-scale | Score | Levels below maximum | Market evidence for the gap | Priority |
+|---|---|---|---|---|---|
+| C1 Distributed cognition & relational capability | Adaptive | 0 / 3 | 3 | Direct — all four destination job families are commissioned work performed for a client, and ACE reports APS in-house evaluation units as mostly advisory (89%) and capability-building (82%) rather than delivery, so coordination with a commissioner is the growing part of the role | 1 |
+| C3 Digital & AI literacy, including governance | Adaptive | 0 / 3 | 3 | Direct — UNEG (2025), the UK Evaluation Society (2025) and the AES (workshop, February–March 2026) all now ask evaluators to account for assisted analysis, against a core that names no digital or AI content anywhere | 2 |
+| C5 Inquiry & evidence generation | Adaptive | 1 / 3 | 2 | Direct — impact evaluation design and counterfactual reasoning are the rising skills in the largest destination family, and ACE's stated priority is rigorous impact evaluation including randomised trials, against a core that assesses the design of an inquiry and never its conduct | 5 |
+| C2 Hybrid metacognition & evaluative judgement | Adaptive | 2 / 3 | 1 | Direct — the assessable object professional guidance names is the evaluator's record of what was relied on and what was overridden; first-pass coding and descriptive summarising are on the declining side | 7 |
+| C4 Life-long learning & transfer | Adaptive | 3 / 3 | 0 | At the instrument maximum — no intervention is proposed and none is needed; the AES competency self-assessment is the profession's own form of the same practice | 8 |
+| **Adaptive capabilities** | **Adaptive** | **6 / 15** | **9** | — | — |
+| W1 Professional communication & conduct | Workplace | 1 / 3 | 2 | Direct — commissioned evaluation is judged by whoever commissioned it, and scoping and costing an evaluation with a commissioner is on the rising side of the skill shift | 3 |
+| W3 Work-situated learning | Workplace | 1 / 3 | 2 | Indirect — the cohort is documented as already practising, which is what opens the own-practice route; justified on skill development and professional identity, with no employment-rate claim made | 4 |
+| W2 Authentic task design | Workplace | 1 / 3 | 2 | Direct — the evaluation proposal and the evaluation report are the artefacts the destinations actually produce, against routine indicator compilation on the declining side; what no assessment row documents is the criteria those artefacts are judged by | 6 |
+| **Workplace practice** | **Workplace** | **3 / 9** | **6** | — | — |
+
+Priority orders items by size of gap. The P-numbers in the tables that follow are a
+different ordering — sequenced by effort and dependency — so an item's priority and its
+P-number do not correspond.
+
+## 2. SCORE-TO-ACTION MAP — Basis: inferred
+
+| Item | Now → target | Anchor requirement at the target level (verbatim) | Curriculum action | Sources |
+|---|---|---|---|---|
+| C1 Distributed cognition & relational capability | 0 → 1 | "Collaboration/teamwork appears in learning outcomes, but no core unit assesses it." | Add collaboration or stakeholder work to the intended learning outcomes of EDUC90847 — the graduate attribute and the taught topic already say it, the outcomes block does not | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[5]](https://doi.org/10.1093/qje/qjx022)[[7]](https://doi.org/10.1016/j.techfore.2016.08.019) |
+| C1 Distributed cognition & relational capability | 1 → 2 | "At least one core unit assesses collaborative practice — group projects with individual accountability, client or stakeholder work, interprofessional activity." | Assess a stakeholder or commissioner deliverable in EDUC90847, produced for a named client role with individual accountability; asynchronous by design, since the program is fully online | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[5]](https://doi.org/10.1093/qje/qjx022)[[7]](https://doi.org/10.1016/j.techfore.2016.08.019) |
+| C1 Distributed cognition & relational capability | 2 → 3 | "Assessed collaborative practice recurs across the program AND at least one assessment requires coordinating work across people AND tools/AI systems — e.g. a team capstone with documented role and tool allocation, or a task where the division of work between people and systems is itself assessed." | Extend the deliverable across EDUC90847 and EDUC90747 and require the allocation of work between the student, collaborators and any assisted-analysis tool to be documented and itself assessed | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[5]](https://doi.org/10.1093/qje/qjx022)[[7]](https://doi.org/10.1016/j.techfore.2016.08.019) |
+| C3 Digital & AI literacy, including governance | 0 → 1 | "AI or digital tools appear only as electives or as tool operation/training — the operational level TEQSA identifies as non-durable." | Name assisted-analysis tools and their operation in at least the elective methods subjects (EDUC90716, EDUC90717, MAST90078), which currently document assessment tables only | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[13][[11]](https://doi.org/10.1145/3313831.3376727)[[12]](https://unesdoc.unesco.org/ark:/48223/pf0000391105)[[2]](https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/) |
+| C3 Digital & AI literacy, including governance | 1 → 2 | "Core units address AI capabilities AND limitations/ethics; use with limits discussed and assessed." | Teach and assess in EDUC90848 what assisted analysis can and cannot do in evaluation — its failure modes, its limits on qualitative material, and the ethics of using it on human-subject data | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[13][[11]](https://doi.org/10.1145/3313831.3376727)[[12]](https://unesdoc.unesco.org/ark:/48223/pf0000391105)[[2]](https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/) |
+| C3 Digital & AI literacy, including governance | 2 → 3 | "Core assessment requires critique or governance of AI systems in the discipline's own context — bias, accountability, transparency, regulation or data governance — beyond tool operation." | Add assessed critique of AI governance on evaluation's own terrain — accountability for machine-assisted findings, transparency to commissioners, data governance and Indigenous data sovereignty | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[13][[11]](https://doi.org/10.1145/3313831.3376727)[[12]](https://unesdoc.unesco.org/ark:/48223/pf0000391105)[[2]](https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/) |
+| W1 Professional communication & conduct | 1 → 2 | "At least one core assessment requires a recognised professional genre or an audience beyond the teaching team — client brief, consultancy or policy advice, clinical handover, pitch, public-facing artefact — judged against criteria drawn from professional practice." | Specify the EDUC90747 written task as an evaluation report in the commissioning genre rather than "an article or project report", and mark it against criteria drawn from AES practice | [[19]](https://www.legislation.gov.au/F2021L00488)[[20]](https://www.qilt.edu.au/surveys/employer-satisfaction-survey-%28ess%29)[[21]](https://www.dewr.gov.au/skills-information-training-providers/resources/core-skills-work-developmental-framework)[[31]](https://www.naceweb.org/career-readiness/competencies/career-readiness-defined)[[5]](https://doi.org/10.1093/qje/qjx022)[[32]](https://doi.org/10.1086/504455) |
+| W1 Professional communication & conduct | 2 → 3 | "Professional communication is assessed repeatedly and progressively across the program AND at least one core assessment is delivered to, or judged by, a real external audience or practitioner (industry panel, client, patient or simulated patient, public exhibition), with professional conduct or accountability explicitly among the assessed criteria." | Build a rising criteria set across EDUC90847's stakeholder deliverable and the capstone, and have the hurdle oral presentation judged by an external practitioner with conduct and accountability named in the criteria | [[19]](https://www.legislation.gov.au/F2021L00488)[[20]](https://www.qilt.edu.au/surveys/employer-satisfaction-survey-%28ess%29)[[21]](https://www.dewr.gov.au/skills-information-training-providers/resources/core-skills-work-developmental-framework)[[31]](https://www.naceweb.org/career-readiness/competencies/career-readiness-defined)[[5]](https://doi.org/10.1093/qje/qjx022)[[32]](https://doi.org/10.1086/504455) |
+| W3 Work-situated learning | 1 → 2 | "A core unit places students in a real workplace or professional-community setting with practitioner supervision and assessment — placement, practicum, live client project, community-based project — OR, for a cohort documented as already practising in the profession, a core unit assesses activity conducted in the student's own professional practice with real recipients and a documented outcome measure — but it is short or stands alone." | Make the real-project route in EDUC90747 an assessed own-practice route: activity conducted in the student's own workplace, with real recipients and a documented outcome measure | [[19]](https://www.legislation.gov.au/F2021L00488)[27][[29]](https://doi.org/10.1080/07294360.2016.1139551)[[28]](https://doi.org/10.1007/s10734-017-0216-z)[[35]](https://doi.org/10.1080/03075070903216635)[[30]](https://www.education.gov.au/australian-universities-accord/resources/final-report) |
+| W3 Work-situated learning | 2 → 3 | "Substantial required work-situated learning: an extended placement or practicum, or a sequence of them, in the core, supervised by a practitioner, assessed, with accountability to the host and structured reflection on professional practice — OR, for a cohort documented as already practising, a required sequence of assessed own-practice activity with structured reflection and documented accountability to workplace stakeholders (trainees, patients, clients or employer)." | Require a sequence rather than a single instance — own-practice activity assessed in EDUC90847 as well as EDUC90747, with structured reflection and documented accountability to a named workplace stakeholder | [[19]](https://www.legislation.gov.au/F2021L00488)[27][[29]](https://doi.org/10.1080/07294360.2016.1139551)[[28]](https://doi.org/10.1007/s10734-017-0216-z)[[35]](https://doi.org/10.1080/03075070903216635)[[30]](https://www.education.gov.au/australian-universities-accord/resources/final-report) |
+| C2 Hybrid metacognition & evaluative judgement | 2 → 3 | "Assessment requires students to document and justify reliance decisions — when they relied on or overrode a tool, source or collaborator; defend judgements of AI-output quality; or evidence strategy adjustment over time (process-focused assessment)." | Attach a reliance record to the EDUC90747 project and the EDUC90850 case-based analysis — what source, tool or collaborator was relied on, what was overridden, and the evidence behind each decision | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[4]](https://doi.org/10.1007/s10734-017-0220-3)[[3]](https://www.teqsa.gov.au/sites/default/files/2023-09/assessment-reform-age-artificial-intelligence-discussion-paper.pdf) |
+| C5 Inquiry & evidence generation | 1 → 2 | "Students design and conduct an inquiry with methodology selection and data collection, assessed." | Require one core task to collect evidence and be assessed on the collection, not only on the design — EDUC90847's 60% Project already carries the conducting outcome, so the change is to its assessment specification | [14][15][[7]](https://doi.org/10.1016/j.techfore.2016.08.019) |
+| C5 Inquiry & evidence generation | 2 → 3 | "A substantial project generating primary evidence is REQUIRED (not one route among several), with methodology defended under scrutiny (viva, defence, or staged supervised review)." | Add a staged supervised methodology review to both capstone routes, or make the real-evaluation route the required one so primary evidence is not optional | [14][15][[7]](https://doi.org/10.1016/j.techfore.2016.08.019) |
+| W2 Authentic task design | 1 → 2 | "At least one core assessment reproduces a professional task end to end: a real or realistic problem, producing the artefact a practitioner would produce, judged against criteria drawn from practice." | Publish, in the subject specification, the criteria the EDUC90848 research proposal is marked against, drawn from AES practice standards rather than from academic writing conventions | [[22]](https://doi.org/10.1007/BF02504676)[[23]](https://doi.org/10.1080/02602938.2017.1412396)[[25]](https://doi.org/10.1016/j.stueduc.2021.101030)[26][[24]](https://doi.org/10.1080/02602938.2024.2404634) |
+| W2 Authentic task design | 2 → 3 | "Such tasks are the program's assessment spine rather than a single instance (a capstone plus earlier scaffolding, or at least one per stage) AND at least one carries a genuine constraint of practice — an ambiguous or externally supplied problem, real resource/time limits, a consequential audience, or the profession's own standards of performance." | Convert one assessed component in EDUC90847 and one in EDUC90850 into practitioner artefacts judged against practice criteria, and give the capstone an externally supplied problem with a real reporting deadline | [[22]](https://doi.org/10.1007/BF02504676)[[23]](https://doi.org/10.1080/02602938.2017.1412396)[[25]](https://doi.org/10.1016/j.stueduc.2021.101030)[26][[24]](https://doi.org/10.1080/02602938.2024.2404634) |
+
+## 3. MARKET ALIGNMENT — Basis: reported → inferred
+
+Each lever below corresponds to named evidence in the market report. Confidence is that
+report's own, restated and not re-derived: its headline is MEDIUM, and §6 there records HIGH
+for the Commonwealth policy instruments and for the AES standards, MEDIUM for the AI guidance
+(which measures what professional bodies ask, never what practitioners do) and for the
+Australian discourse synthesis, and HIGH for this program's own alumni destination record.
+Advertised-vacancy volumes and salary bands are recorded there as ABSENT and appear nowhere
+in this table.
+
+| Lever | Item | Market evidence | Location in market report | Confidence |
+|---|---|---|---|---|
+| P1 | C1 | Every destination family is commissioned work performed for a client, and the named employers span DFAT, UN agencies, the World Bank, consultancies and NGOs. The outcomes block is the only place the program does not already say so. | §1 job family map; §2 signal 4 | HIGH |
+| P2 | C2 | Professional AI guidance has converged on the evaluator's documented decision record — UNEG's ethical principles (2025), the UK Evaluation Society's practitioner guidelines (2025) and the AES workshop (February–March 2026). A reliance record is the assessable trace of that. | §3 theme 2; §4 rising demand | MEDIUM |
+| P3 | W1 | Commissioned evaluation is judged by whoever commissioned it; scoping and costing an evaluation with a commissioner is on the rising side, and the AES competency framework and ethical guidelines are what stands in for a licence in this profession. | §2 signal 4; §4 rising demand; §3 theme 3 | HIGH |
+| P4 | W3 | The handbook documents the cohort as already practising — performance auditors, internal monitoring and evaluation staff, consultants — which is exactly the condition the instrument's own-practice route was added for. Justified on skill development and professional identity [[29]](https://doi.org/10.1080/07294360.2016.1139551), never on employment rates, which work-integrated learning was not found to raise [[28]](https://doi.org/10.1007/s10734-017-0216-z). | §1 job family map; §2 signal 1 | MEDIUM |
+| P5 | C5 | ACE's stated priority is championing high-quality impact evaluations including randomised trials, and impact evaluation design and counterfactual reasoning are the rising skills in the largest destination family. | §2 signal 1; §1 job family 1; §4 rising demand | HIGH |
+| P6 | C1 | APS in-house evaluation units are growing and mostly advisory (89%) and capability-building (82%) rather than delivering (71%), so the role is increasingly coordinating an evaluation across people and systems rather than producing one alone. | §2 signal 2 | HIGH |
+| P7 | C3 | No compulsory subject, course outcome or graduate attribute names any digital or AI content, while three professional bodies published practitioner guidance on it inside eighteen months. This is the widest gap in the report between market evidence and documented curriculum. | §3 theme 2; §5 implication CI-2 | MEDIUM |
+| P8 | W2 | The evaluation proposal and the evaluation report are the artefacts the destinations actually produce; routine indicator compilation and descriptive summarising are on the declining side. | §4 declining and rising demand; §1 job family map | MEDIUM |
+| P9 | C3 | Cultural safety in evaluation is defined by First Nations people in situ under the Productivity Commission's Indigenous Evaluation Strategy and the AES position, and accountability for machine-assisted findings is what UNEG's principles govern — the governance terrain is evaluation's own, not generic AI ethics. | §3 themes 2 and 4 | MEDIUM |
+| P10 | W1 | Entry to this profession is portfolio- and reference-driven rather than licensed, which raises the value of work products that a practitioner outside the teaching team has judged. | §2 signal 4; §3 theme 3 | MEDIUM |
+| P11 | W3 | The same in-practice cohort supports a sequence rather than a single instance, and ACE's capability-building workstream is explicitly about practitioners already in post. | §2 signals 1 and 2; §3 theme 1 | MEDIUM |
+
+## 4. PRIORITISED INTERVENTIONS — Basis: inferred
+
+Documentation-only work comes first, and here it is unusually productive. P1 moves C1 off
+zero by writing into the learning outcomes what the graduate attributes and the EDUC90847
+topic list already say, and P4 activates a capstone route the program already runs. Two of
+the three cheapest levers are specification, not redesign.
+
+| # | Item | Action | Anchor satisfied | Effort | Sequence | Sources |
+|---|---|---|---|---|---|---|
+| P1 | C1 | Add collaboration and stakeholder work to EDUC90847's intended learning outcomes, where the graduate attributes and the taught topic list already carry it | C1 level 1 | Low | Term 1; subject-entry documentation only | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[5]](https://doi.org/10.1093/qje/qjx022)[[7]](https://doi.org/10.1016/j.techfore.2016.08.019) |
+| P2 | C5 | Specify and publish a staged supervised methodology review on both EDUC90747 routes, assessed as a defence of design, method choice and inference limits | C5 level 3 defence-under-scrutiny clause; it does not by itself lift the item, which now needs assessed data collection for level 2 (P5 or the EDUC90847 route) and a required primary-evidence project for level 3 | Low | Term 1; assessment-brief edit | [14][15][[7]](https://doi.org/10.1016/j.techfore.2016.08.019) |
+| P3 | W1 | Specify the EDUC90747 written task as an evaluation report in the commissioning genre rather than "an article or project report", marked against published criteria drawn from AES practice | W1 level 2 | Low–medium | Term 1; documentation first, then criteria authorship and moderation | [[19]](https://www.legislation.gov.au/F2021L00488)[[20]](https://www.qilt.edu.au/surveys/employer-satisfaction-survey-%28ess%29)[[21]](https://www.dewr.gov.au/skills-information-training-providers/resources/core-skills-work-developmental-framework)[[31]](https://www.naceweb.org/career-readiness/competencies/career-readiness-defined)[[5]](https://doi.org/10.1093/qje/qjx022)[[32]](https://doi.org/10.1086/504455) |
+| P4 | W3 | Convert the capstone's real-project route into an assessed own-practice route: activity in the student's own workplace with real recipients and a documented outcome measure | W3 level 2 | Medium | Term 2; specification plus a fallback for students between roles | [[19]](https://www.legislation.gov.au/F2021L00488)[27][[29]](https://doi.org/10.1080/07294360.2016.1139551)[[28]](https://doi.org/10.1007/s10734-017-0216-z)[[35]](https://doi.org/10.1080/03075070903216635)[[30]](https://www.education.gov.au/australian-universities-accord/resources/final-report) |
+| P5 | C2 | Attach a reliance record to the EDUC90747 project and the EDUC90850 case-based analysis — what was relied on, what was overridden, and the evidence behind each decision | C2 level 3 (content depends on P7) | Medium | After P7; re-weights existing tasks rather than adding one | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[4]](https://doi.org/10.1007/s10734-017-0220-3)[[3]](https://www.teqsa.gov.au/sites/default/files/2023-09/assessment-reform-age-artificial-intelligence-discussion-paper.pdf) |
+| P6 | C1 | Assess a stakeholder or commissioner deliverable in EDUC90847, produced asynchronously for a named client role with individual accountability | C1 level 2 | Medium | Next teaching cycle; one assessment addition in a subject already carrying three | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[5]](https://doi.org/10.1093/qje/qjx022)[[7]](https://doi.org/10.1016/j.techfore.2016.08.019) |
+| P7 | C3 | Teach and assess in EDUC90848 what assisted analysis can and cannot do in evaluation — failure modes, limits on qualitative material, and ethics of use on human-subject data | C3 level 2 (level 1 is subsumed; elective placement would not move the score) | Medium | Next teaching cycle; displaces existing content in the most crowded core subject | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[13][[11]](https://doi.org/10.1145/3313831.3376727)[[12]](https://unesdoc.unesco.org/ark:/48223/pf0000391105)[[2]](https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/) |
+| P8 | W2 | Convert one assessed component in EDUC90847 and one in EDUC90850 into practitioner artefacts judged against practice criteria, and give the capstone an externally supplied problem with a real reporting deadline | W2 levels 2 and 3 together — practice criteria carry the level-2 clause the item currently fails, and the spine and constraint clauses carry level 3 | Medium–high | After P3 and P6; touches three core subjects | [[22]](https://doi.org/10.1007/BF02504676)[[23]](https://doi.org/10.1080/02602938.2017.1412396)[[25]](https://doi.org/10.1016/j.stueduc.2021.101030)[26][[24]](https://doi.org/10.1080/02602938.2024.2404634) |
+| P9 | C3 | Add assessed governance critique on evaluation's own terrain — accountability for machine-assisted findings, transparency to commissioners, data governance, and Indigenous data sovereignty under the Indigenous Evaluation Strategy | C3 level 3 | Medium–high | After P7 | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[13][[11]](https://doi.org/10.1145/3313831.3376727)[[12]](https://unesdoc.unesco.org/ark:/48223/pf0000391105)[[2]](https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/) |
+| P10 | W1 | Have the hurdle oral presentation judged by an external practitioner and build a rising criteria set across EDUC90847 and EDUC90747, with conduct and accountability named among the criteria | W1 level 3 (after P3; external judging depends on practitioner availability) | Medium–high | After P3 and P6 | [[19]](https://www.legislation.gov.au/F2021L00488)[[20]](https://www.qilt.edu.au/surveys/employer-satisfaction-survey-%28ess%29)[[21]](https://www.dewr.gov.au/skills-information-training-providers/resources/core-skills-work-developmental-framework)[[31]](https://www.naceweb.org/career-readiness/competencies/career-readiness-defined)[[5]](https://doi.org/10.1093/qje/qjx022)[[32]](https://doi.org/10.1086/504455) |
+| P11 | W3 | Require a sequence of own-practice activity — assessed in EDUC90847 as well as EDUC90747 — with structured reflection and documented accountability to a named workplace stakeholder | W3 level 3 | High | After P4; a course-design decision, not an assessment edit | [[19]](https://www.legislation.gov.au/F2021L00488)[27][[29]](https://doi.org/10.1080/07294360.2016.1139551)[[28]](https://doi.org/10.1007/s10734-017-0216-z)[[35]](https://doi.org/10.1080/03075070903216635)[[30]](https://www.education.gov.au/australian-universities-accord/resources/final-report) |
+| P12 | C1 | Require the allocation of work between the student, collaborators and any assisted-analysis tool to be documented and itself assessed in the capstone | C1 level 3 (both conjuncts; depends on P6 and P7) | High | After P6 and P7 | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[5]](https://doi.org/10.1093/qje/qjx022)[[7]](https://doi.org/10.1016/j.techfore.2016.08.019) |
+
+P4 and P11 are justified by skill development, employment relevance and professional identity
+formed through participation in a community of practice [[29]](https://doi.org/10.1080/07294360.2016.1139551), not by employment outcomes:
+work-integrated learning was not found to raise full-time employment rates [[28]](https://doi.org/10.1007/s10734-017-0216-z). The usual
+equity cost of placement — unpaid work, relocation, the limits of the Commonwealth Prac
+Payment [[30]](https://www.education.gov.au/australian-universities-accord/resources/final-report) — does not apply in its usual form here, because the instrument's own-practice
+route [[35]](https://doi.org/10.1080/03075070903216635) uses employment the cohort already has. A different equity cost replaces it:
+requiring own-practice activity excludes students between roles, in study leave, or changing
+sector, and any specification needs a documented alternative for them.
+
+## 5. GATE GUARDRAILS — Basis: scored
+
+| Gate | Status | Evidence carrying the gate | Constraint on redesign | Sources |
+|---|---|---|---|---|
+| G1 Disciplinary foundation | PASS | PASS condition is met: the program documents a coherent specialist core with progressive methodological depth. All four compulsory subjects are evaluation subjects - EDUC90850 Foundations of Evaluation (nature, logic, types, values and professional standards), EDUC90847 Practice of Evaluation (methods, planning, conducting and managing evaluations, reporting), EDUC90848 Applied Research Methodology (research design, methodological decision-making, ethics), and EDUC90747 Evaluation Capstone - and the capstone is positioned by the course structure at the end of the sequence, drawing on the whole program. All seven electives are evaluation subjects too, so there is no generic or interchangeable content anywhere in the 100 points. | Every intervention above adds to the compulsory core or its assessment; none removes an evaluation subject or substitutes generic content. P7 and P9 place AI material inside EDUC90848 as evaluation-methods content, not as a standalone technology subject, and P8 draws assessment weight between existing core tasks rather than displacing a subject. Closing the capstone literature-review route (the alternative to P2) would narrow the core rather than broaden it, which is why P2 is specified as a review applied to both routes. | [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities)[[6]](https://doi.org/10.1093/qje/qjaa021) |
+| G2 Decision-making under uncertainty | PASS | PASS condition is met: core assessment requires defended trade-off decisions rather than recall. EDUC90848 is built on methodological choice under conditions the handbook states are complex and contested - 'the complexities of methodological decision-making within real-world evaluation contexts' - and assesses it in a 60% research proposal that must match evaluation questions and purposes to methods against stakeholder needs, resources and other contextual factors. The course-level graduate attributes name the value conflict that makes those decisions contested, and the compulsory capstone requires a self-scoped project defended in a hurdle oral presentation. | The gate rests on EDUC90848's 60% research proposal and on the self-scoped capstone. P8 gives the capstone an externally supplied problem and a real deadline, which strengthens the gate; P2 makes the methodological defence explicit rather than implied. Nothing above converts the proposal into a scripted or template task, and no intervention should: re-weighting EDUC90848 for P7 must take weight from the online exercises or the midterm, never from the proposal. | [16] |
+
+## 6. WHAT WOULD CHANGE THE SCORE — Basis: inferred
+
+Each row assumes the rows above it have landed; the cumulative columns are the two
+sub-scales tracked separately, never summed, and both run from the scored base of 6 / 15
+and 3 / 9. The ladder is ordered by item, not by the P-numbers of §4, so a row here and a
+lever there with the same number are not the same piece of work.
+
+| Lever | Item | From | To | Change | Cumulative adaptive | Cumulative workplace |
+|---|---|---|---|---|---|---|
+| P1 | C1 | 0 | 1 | +1 adaptive | 7 / 15 | 3 / 9 |
+| P2 | C1 | 1 | 2 | +1 adaptive | 8 / 15 | 3 / 9 |
+| P3 | C1 | 2 | 3 | +1 adaptive | 9 / 15 | 3 / 9 |
+| P4 | C3 | 0 | 1 | +1 adaptive | 10 / 15 | 3 / 9 |
+| P5 | C3 | 1 | 2 | +1 adaptive | 11 / 15 | 3 / 9 |
+| P6 | C3 | 2 | 3 | +1 adaptive | 12 / 15 | 3 / 9 |
+| P7 | W1 | 1 | 2 | +1 workplace | 12 / 15 | 4 / 9 |
+| P8 | W1 | 2 | 3 | +1 workplace | 12 / 15 | 5 / 9 |
+| P9 | W3 | 1 | 2 | +1 workplace | 12 / 15 | 6 / 9 |
+| P10 | W3 | 2 | 3 | +1 workplace | 12 / 15 | 7 / 9 |
+| P11 | C2 | 2 | 3 | +1 adaptive | 13 / 15 | 7 / 9 |
+| P12 | C5 | 1 | 2 | +1 adaptive | 14 / 15 | 7 / 9 |
+| P13 | C5 | 2 | 3 | +1 adaptive | 15 / 15 | 7 / 9 |
+| P14 | W2 | 1 | 2 | +1 workplace | 15 / 15 | 8 / 9 |
+| P15 | W2 | 2 | 3 | +1 workplace | 15 / 15 | 9 / 9 |
+
+What does **not** move a score:
+
+| Change | Why it does not move a score | Governing rule | Sources |
+|---|---|---|---|
+| Rewriting a course or subject learning outcome to name the capability | An outcome statement is not assessment evidence; the item stays at the level its assessed evidence supports | R2 (level 3 needs assessment evidence); Barrie on stated attributes [33] | [33] |
+| Relabelling an existing task "authentic", "real-world" or "industry-relevant" | W2 is scored from documented task features against the discipline's criterion situation, never from the label | R4; Gulikers et al. [[22]](https://doi.org/10.1007/BF02504676); Fawns et al. on the label as a thought-terminating cliché [[24]](https://doi.org/10.1080/02602938.2024.2404634) | [[22]](https://doi.org/10.1007/BF02504676)[[24]](https://doi.org/10.1080/02602938.2024.2404634) |
+| Adding or promoting an elective that would satisfy the anchor | Every level-2 and level-3 anchor in this instrument requires CORE placement; an elective leaves the cohort's guaranteed curriculum unchanged | Anchor wording ("core unit", "required"); the cohort-wide reading of HESF 1.4.3 [[19]](https://www.legislation.gov.au/F2021L00488) | [[19]](https://www.legislation.gov.au/F2021L00488) |
+
+## REFERENCES
+
+1. Lodge JM, de Barba P, Ainscough L, et al. (2026). Assuring quality learning in a gen AI-integrated future: The role of adaptive capabilities. TEQSA. https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities
+2. Lodge JM, et al. (2025). Australian Framework for Artificial Intelligence in Higher Education. ACSES. (Principles 4 & 6.) https://www.acses.edu.au/publication/australian-framework-for-artificial-intelligence-in-higher-education/
+3. Lodge JM, Howard S, Bearman M, Dawson P & Associates (2023). Assessment reform for the age of artificial intelligence. TEQSA. https://www.teqsa.gov.au/sites/default/files/2023-09/assessment-reform-age-artificial-intelligence-discussion-paper.pdf
+4. Tai J, Ajjawi R, Boud D, Dawson P, Panadero E (2018). Developing evaluative judgement: enabling students to make decisions about the quality of work. Higher Education 76:467–481. https://doi.org/10.1007/s10734-017-0220-3
+5. Deming DJ (2017). The growing importance of social skills in the labor market. Quarterly Journal of Economics 132(4):1593–1640. https://doi.org/10.1093/qje/qjx022
+6. Deming DJ, Noray K (2020). Earnings dynamics, changing job skills, and STEM careers. Quarterly Journal of Economics 135(4):1965–2005. https://doi.org/10.1093/qje/qjaa021
+7. Frey CB, Osborne MA (2017). The future of employment: how susceptible are jobs to computerisation? Technological Forecasting & Social Change 114:254–280. https://doi.org/10.1016/j.techfore.2016.08.019
+8. Brynjolfsson E, Mitchell T, Rock D (2018). What can machines learn, and what does it mean for occupations and the economy? AEA Papers & Proceedings 108:43–47. (The SML rubric — the declarative-anchor form R1 copies.) https://doi.org/10.1257/pandp.20181019
+9. Pellegrino JW, Hilton ML (eds) (2012). Education for Life and Work: Developing Transferable Knowledge and Skills in the 21st Century. National Research Council. https://www.nationalacademies.org/read/13398/chapter/2
+10. Measuring adaptive expertise and adaptive performance in (becoming) healthcare professionals: a scoping review of measurement instruments (2025). Advances in Health Sciences Education. https://doi.org/10.1007/s10459-025-10413-y
+11. Long D, Magerko B (2020). What is AI literacy? Competencies and design considerations. CHI 2020. https://doi.org/10.1145/3313831.3376727
+12. UNESCO (2024). AI competency framework for students. https://unesdoc.unesco.org/ark:/48223/pf0000391105
+13. European Commission JRC — DigComp (Digital Competence Framework for Citizens); basis of the Australian Digital Capability Framework (DEWR, 2022).
+14. Boyer EL (1990). Scholarship Reconsidered: Priorities of the Professoriate. Carnegie Foundation.
+15. Brew A (2006). Research and Teaching: Beyond the Divide. Palgrave Macmillan.
+16. Knight FH (1921). Risk, Uncertainty and Profit. Houghton Mifflin.
+17. Kane MT (2013). Validating the interpretations and uses of test scores. Journal of Educational Measurement 50(1):1–73. (The validity-argument frame for the v4 evidence plan.)
+18. Woods L, Lyons K, et al. (2026). Assessing the effectiveness of artificial intelligence education and training for healthcare workers: a systematic review. BMC Medical Education 26:549. (The construct-validity critique v4 answers.) https://doi.org/10.1186/s12909-026-08969-3
+19. Higher Education Standards Framework (Threshold Standards) 2021, F2021L00488. Clause 1.4.2(b)–(d) (generic and employment-related learning outcomes, applied in disciplinary context), 1.4.3 (assessment must confirm the outcomes), 5.4.1 (work-integrated learning and placements are quality assured, including supervision). https://www.legislation.gov.au/F2021L00488
+20. QILT Employer Satisfaction Survey (ESS) — national employer ratings across five graduate attribute domains: foundation, adaptive, collaborative, technical and employability skills. (2025 national results: technical 94.0%, foundation 93.3%, adaptive 90.7%, collaborative 88.6%, employability 86.2%.) https://www.qilt.edu.au/surveys/employer-satisfaction-survey-%28ess%29
+21. Core Skills for Work Developmental Framework (Australian Government, 2013). Three clusters — navigate the world of work, interact with others, get the work done — over ten skill areas and five performance stages. Anchor-content source; a VET framework, not a higher-education construct authority. https://www.dewr.gov.au/skills-information-training-providers/resources/core-skills-work-developmental-framework
+22. Gulikers JTM, Bastiaens TJ, Kirschner PA (2004). A five-dimensional framework for authentic assessment. Educational Technology Research and Development 52(3):67–86. (Task, physical context, social context, result/form, criteria; authenticity is a continuum defined against the criterion situation — design rule R4.) https://doi.org/10.1007/BF02504676
+23. Villarroel V, Bloxham S, Bruna D, Bruna C, Herrera-Seda C (2018). Authentic assessment: creating a blueprint for course design. Assessment & Evaluation in Higher Education 43(5):840–854. (Realism, cognitive challenge, evaluative judgement — the third dimension is DFVA C2, not W2.) https://doi.org/10.1080/02602938.2017.1412396
+24. Fawns T, Bearman M, Dawson P, Nieminen JH, Ashford-Rowe K, Willey K, Jensen LX, Damşa C, Press N (2024). Authentic assessment: from panacea to criticality. Assessment & Evaluation in Higher Education 50(3):396–408. (The label risks becoming a 'thought-terminating cliché' — the constraint behind R4.) https://doi.org/10.1080/02602938.2024.2404634
+25. Sokhanvar Z, Salehi K, Sokhanvar F (2021). Advantages of authentic assessment for improving the learning experience and employability skills of higher education students: a systematic literature review. Studies in Educational Evaluation 70:101030. (26 studies, 2010–2019; outcomes largely student self-report.) https://doi.org/10.1016/j.stueduc.2021.101030
+26. Gibbs G, Simpson C (2004). Conditions under which assessment supports students' learning. Learning and Teaching in Higher Education 1:3–31. (Assessment governs what and how students study — the mechanism warrant for scoring assessment design rather than curriculum statement.)
+27. Kuh GD (2008). High-Impact Educational Practices: What They Are, Who Has Access to Them, and Why They Matter. AAC&U. (Internships, capstones, undergraduate research, collaborative and community-based learning; shared features include sustained time and effort, feedback, and application in novel settings.)
+28. Jackson D, Collings D (2018). The influence of work-integrated learning and paid work during studies on graduate employment and underemployment. Higher Education 76:403–425. (WIL did NOT raise full-time employment rates; evidence for better relevance and quality of employment — the honest bound on the W3 claim.) https://doi.org/10.1007/s10734-017-0216-z
+29. Jackson D (2016). Re-conceptualising graduate employability: the importance of pre-professional identity. Higher Education Research & Development 35(5):925–939. (Identity formed through participation in communities of practice — the mechanism distinguishing W3 from W2.) https://doi.org/10.1080/07294360.2016.1139551
+30. Australian Universities Accord Final Report (2024), Department of Education. (WIL as national priority; placement poverty and the Commonwealth Prac Payment — the equity limitation declared against W3.) https://www.education.gov.au/australian-universities-accord/resources/final-report
+31. NACE Career Readiness Competencies (rev. April 2024). Eight competencies: career & self-development, communication, critical thinking, equity & inclusion, leadership, professionalism, teamwork, technology. https://www.naceweb.org/career-readiness/competencies/career-readiness-defined
+32. Heckman JJ, Stixrud J, Urzua S (2006). The effects of cognitive and noncognitive abilities on labor market outcomes and social behavior. Journal of Labor Economics 24(3):411–482. https://doi.org/10.1086/504455
+33. Barrie SC (2006). Understanding what we mean by the generic attributes of graduates. Higher Education 51:215–241; and Barrie SC (2007), A conceptual framework for the teaching and learning of generic graduate attributes, Studies in Higher Education 32(4):439–458. (Stated graduate attributes are not evidence of attainment — why R2 binds hardest on W1.)
+34. Tomlinson M (2017). Forms of graduate capital and their relationship to graduate employability. Education + Training 59(4):338–352. (Scoping source: social, cultural and psychological capital are student and network properties, not curriculum properties, and are therefore out of scope.)
+35. Lester S, Costley C (2010). Work-based learning at higher education level: value, practice and critique. Studies in Higher Education 35(5):561–575. (Work-based learning in the learner's own employment as an established higher-education mode for in-practice cohorts — the warrant for W3's own-practice route, added in v4.2.) https://doi.org/10.1080/03075070903216635
+`,
+};
+
+export default content;

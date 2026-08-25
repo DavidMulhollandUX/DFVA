@@ -41,6 +41,11 @@ import {
 } from "./exposureBasis";
 import { Cite, HowThisRubricWorksDialog } from "./HowThisRubricWorksDialog";
 import { gateState, gateSummary, joinList, lowerFirst } from "./gateState";
+import {
+  verificationBody,
+  verificationClause,
+  verificationSummary,
+} from "./verificationState";
 import { PROGRAMS } from "../sharedProgramData";
 import { getFaculty } from "../faculty";
 import {
@@ -1029,12 +1034,10 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
               <div>
                 <CardLabel>How firm is this</CardLabel>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  This is a single-rater pilot of a draft instrument. The
-                  scoring was reviewed adversarially and its quoted evidence
-                  verified against the source text
-                  {panelC.verified ? ` (${panelC.verified.date})` : ""}; no
-                  inter-rater study has yet been conducted on v4, and the
-                  content-validity panel has not yet been convened.{" "}
+                  This is a single-rater pilot of a draft instrument.{" "}
+                  {verificationClause(panelC.verified)}; no inter-rater study
+                  has yet been conducted on v4, and the content-validity panel
+                  has not yet been convened.{" "}
                   <a
                     href="#method"
                     className="text-secondary-muted-foreground underline"
@@ -1554,22 +1557,16 @@ export default function V4ReportPage({ code: codeProp }: { code?: string }) {
         </MethodDetails>
 
         <MethodDetails
-          summary={`Scoring integrity — adversarial + verbatim verification passed${
-            panelC.verified ? ` (${panelC.verified.date})` : ""
-          }; ${panelC.ambiguities.length} recorded ambiguit${
+          summary={`${verificationSummary(panelC.verified)}; ${
+            panelC.ambiguities.length
+          } recorded ambiguit${
             panelC.ambiguities.length === 1 ? "y" : "ies"
           }`}
         >
           <Card className="border-0 shadow-none">
             <CardContent className="pt-4">
               <p className="text-muted-foreground mb-3 text-sm">
-                Each evidence passage shown on this page was verified to appear
-                verbatim in the captured 2026 handbook text (20 pages: the
-                course, structure and attributes pages, the six compulsory
-                subjects, and two capstone routes with their assessment pages),
-                and each level-boundary judgement was reviewed adversarially.
-                The judgements in which the evidence was consistent with two
-                levels are recorded below:
+                {verificationBody(panelC.verified)}
               </p>
               <ul className="text-muted-foreground flex flex-col gap-2 text-sm">
                 {panelC.ambiguities.map((a) => (

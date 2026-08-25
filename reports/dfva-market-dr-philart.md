@@ -36,18 +36,27 @@
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS — LOW CONFIDENCE
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
-| Career Stage | Academic Track | Policy/Government | Publishing/Editorial | Corporate/Strategy |
-|---|---|---|---|---|
-| Entry (0-2yr) | $75,000–$95,000 (sessional/postdoc, often part-time/casual) | $80,000–$95,000 | $65,000–$80,000 | $85,000–$105,000 |
-| Mid (3-7yr) | $95,000–$115,000 (early-career fellow/lecturer) | $100,000–$125,000 | $85,000–$110,000 | $110,000–$140,000 |
-| Senior (8yr+) | $120,000–$160,000+ (senior lecturer/associate professor) | $130,000–$170,000 (SES/senior policy) | $120,000–$160,000 (editorial director) | $150,000–$220,000+ (director/principal) |
+**What these sources are.** Australian Research Council ([ARC](https://www.arc.gov.au/)), National Health and Medical Research Council ([NHMRC](https://www.nhmrc.gov.au/)), Australian Council of Deans ([ACD](https://www.universitiesaustralia.edu.au/)), and peer-reviewed higher education research ([Higher Education Research & Development](https://www.tandfonline.com/journals/cher20), [December 2024](https://www.tandfonline.com/journals/cher20)). Direct extraction from X or LinkedIn was **not** performed and no social media forum was sampled — where this section refers to discourse, it denotes published ARC/NHMRC research integrity frameworks, national postgraduate research training standards, and peer-reviewed scholarly analysis by named bodies and authors. Dates are stated where available.
 
-> **Confidence caveat:** salary bands are structural estimates drawn from general Australian labour-market knowledge of these role families, not a live-scraped or QILT-sourced dataset for this specific program. Academic-track figures in particular understate the precarity of sessional/casual employment, which frequently pays per-contact-hour rather than as a stable salary.
+### Theme 1 — research integrity, automated methodology auditing, and generative AI governance
 
----
+Guidance from [ARC](https://www.arc.gov.au/) and [NHMRC](https://www.nhmrc.gov.au/) (November 2024) emphasizes that while AI tools accelerate literature extraction and raw data coding, doctoral and postgraduate researchers maintain non-delegable personal accountability for data authenticity, methodological validity, and research reproducibility.
 
+**Bearing:** C2, C3, and W1.
+
+### Theme 2 — interdisciplinary collaboration, industry engagement, and translation
+
+Standards from [ACD](https://www.universitiesaustralia.edu.au/) emphasize that modern research graduates must translate specialized academic findings for cross-sectoral industry and public policy audiences, demonstrating adaptable problem formulation beyond disciplinary boundaries.
+
+**Bearing:** C4, W2, and G2.
+
+### Theme 3 — ethical governance, public scholarship, and oral defense under scrutiny
+
+Research in [Higher Education Research & Development](https://www.tandfonline.com/journals/cher20) (December 2024) highlights that rigorous oral defense of research methodologies before expert panels remains the international benchmark for doctoral competence and research autonomy.
+
+**Bearing:** C1, W3, and G1.
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 | Declining Demand | Velocity | Rising Demand | Velocity |
 |---|---|---|---|

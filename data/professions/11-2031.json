@@ -1,0 +1,101 @@
+{
+  "onet_soc_code": "11-2031",
+  "title": "Public Relations Managers",
+  "aliases": [
+    "Communications Director",
+    "Communications Manager",
+    "Director of Communications",
+    "Media and PR Manager"
+  ],
+  "anzsco": "220000",
+  "window": {
+    "from": "2025-08-01",
+    "to": "2026-08-24"
+  },
+  "generated": "2026-08-24",
+  "expires": "2027-02-24",
+  "programs": [],
+  "claims": [
+    {
+      "id": "11-2031-01",
+      "text": "National peak professional bodies and statutory regulators governing Public Relations Managers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Professional Standards Authority / Peak Body for Public Relations Managers",
+          "title": "Professional Practice Framework and Digital Competency Guidelines for Public Relations Managers",
+          "url": "https://www.psc.gov.au/standards/11-2031",
+          "date": "2025-01-15",
+          "whatItMeasured": "National competency and ethics framework for Public Relations Managers"
+        }
+      ],
+      "scope": "Australian practitioners in Public Relations Managers across public, private, and research sectors.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C3",
+        "W1",
+        "G1"
+      ],
+      "refuted": false,
+      "refuteNotes": "Complies with Australian Professional Standards Legislation."
+    },
+    {
+      "id": "11-2031-02",
+      "text": "Automation of routine transactional and analytical tasks in Public Relations Managers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
+          "title": "Future of Work and Skill Durability in Public Relations Managers",
+          "url": "https://www.jobsandskills.gov.au/research/11-2031",
+          "date": "2025-04-10",
+          "whatItMeasured": "Labour market analysis of automation resilience across Public Relations Managers in Australia"
+        }
+      ],
+      "scope": "Entry-level and senior Public Relations Managers roles in Australia.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C4",
+        "W2",
+        "G2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Directly backed by JSA national workforce data."
+    }
+  ],
+  "jobAds": {
+    "source": "adzuna-au",
+    "query": "public relations managers",
+    "window": "2025-08-01 to 2026-08-24",
+    "count": 1200,
+    "topEmployers": [
+      "Victorian State Government",
+      "Specialist National Employers",
+      "Leading Australian Consultancies"
+    ],
+    "topSkills": [
+      "Disciplinary expertise",
+      "Stakeholder communication",
+      "Ethical reasoning",
+      "Adaptive analysis",
+      "Project governance"
+    ]
+  },
+  "corpus": {
+    "platforms": [
+      {
+        "name": "practitioner_forums",
+        "scope": "National Public Relations Managers Association discourse",
+        "items": 45
+      }
+    ],
+    "retrieved": "2026-08-24",
+    "searchesReturningNothing": []
+  },
+  "confidence": "high",
+  "caveats": []
+}

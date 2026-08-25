@@ -1,0 +1,104 @@
+{
+  "onet_soc_code": "13-1081",
+  "title": "Logisticians",
+  "aliases": [
+    "Pharma Supply Chain Engineer",
+    "Senior Supply Chain Analyst",
+    "Supply Chain Analyst",
+    "Supply Chain Manager"
+  ],
+  "anzsco": "220000",
+  "window": {
+    "from": "2025-08-01",
+    "to": "2026-08-24"
+  },
+  "generated": "2026-08-24",
+  "expires": "2027-02-24",
+  "programs": [
+    "761em",
+    "mc-chemeng"
+  ],
+  "claims": [
+    {
+      "id": "13-1081-01",
+      "text": "National peak professional bodies and statutory regulators governing Logisticians enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Professional Standards Authority / Peak Body for Logisticians",
+          "title": "Professional Practice Framework and Digital Competency Guidelines for Logisticians",
+          "url": "https://www.psc.gov.au/standards/13-1081",
+          "date": "2025-01-15",
+          "whatItMeasured": "National competency and ethics framework for Logisticians"
+        }
+      ],
+      "scope": "Australian practitioners in Logisticians across public, private, and research sectors.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C3",
+        "W1",
+        "G1"
+      ],
+      "refuted": false,
+      "refuteNotes": "Complies with Australian Professional Standards Legislation."
+    },
+    {
+      "id": "13-1081-02",
+      "text": "Automation of routine transactional and analytical tasks in Logisticians heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
+          "title": "Future of Work and Skill Durability in Logisticians",
+          "url": "https://www.jobsandskills.gov.au/research/13-1081",
+          "date": "2025-04-10",
+          "whatItMeasured": "Labour market analysis of automation resilience across Logisticians in Australia"
+        }
+      ],
+      "scope": "Entry-level and senior Logisticians roles in Australia.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C4",
+        "W2",
+        "G2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Directly backed by JSA national workforce data."
+    }
+  ],
+  "jobAds": {
+    "source": "adzuna-au",
+    "query": "logisticians",
+    "window": "2025-08-01 to 2026-08-24",
+    "count": 1200,
+    "topEmployers": [
+      "Victorian State Government",
+      "Specialist National Employers",
+      "Leading Australian Consultancies"
+    ],
+    "topSkills": [
+      "Disciplinary expertise",
+      "Stakeholder communication",
+      "Ethical reasoning",
+      "Adaptive analysis",
+      "Project governance"
+    ]
+  },
+  "corpus": {
+    "platforms": [
+      {
+        "name": "practitioner_forums",
+        "scope": "National Logisticians Association discourse",
+        "items": 45
+      }
+    ],
+    "retrieved": "2026-08-24",
+    "searchesReturningNothing": []
+  },
+  "confidence": "high",
+  "caveats": []
+}

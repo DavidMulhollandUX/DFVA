@@ -94,17 +94,15 @@ Standards from the [Dental Board of Australia](https://www.dentalboard.gov.au/) 
 ---
 
 <!-- LABOUR-EVIDENCE:START -->
-## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+## REAL GRADUATE DESTINATIONS (JSA HEO)
 
-**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 060701 Dental Studies):
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **060701 Dentistry** (n = 3,740 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 72.5% of them, and the 5 largest are shown at each stage.
 
 | Career stage | Top occupations |
 |---|---|
-| Entry (~1yr) | Dental Practitioners (88%), Resident Medical/Dental Officers (8%), Health Service Managers (4%) |
-| Early (~3yr) | Dental Practitioners (86%), Specialist Dentists (8%), Dental Practice Managers (6%) |
-| Senior (~5yr) | Dental Practitioners (82%), Specialist Dentists (12%), Practice Principals (6%) |
+| Entry (~1yr) | Dentist (57.8%) · Dental Therapist (5.3%) · Dental Hygienist (4.8%) · Dental Assistant (2.1%) · Dental Specialist (2.1%) |
+| Early (~3yr) | Dentist (49.5%) · Dental Therapist (5.9%) · Dental Hygienist (4.5%) · Dental Specialist (2.1%) · Dental Assistant (1.1%) |
+| Senior (~5yr) | Dentist (44.4%) · Dental Therapist (5.3%) · Dental Hygienist (5.1%) · Dental Specialist (2.7%) · University Lecturer (0.5%) |
 
-**Graduate outcomes** (QILT GOS 2024, postgraduate dentistry): 96% full-time employment · median salary ,000 · JSA occupation demand: **Shortage**.
-
-**Hiring now (demand-side)** — Adzuna AU live vacancies: Dental Health Services Victoria (DHSV), Bupa Dental, Pacific Smiles Group, National Dental Care, 1300SMILES, Primary Dental, Royal Dental Hospital of Melbourne. Advertised salary Ak–220k+.
+**Field grain, not program grain.** These are graduates of the whole Dentistry field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
 <!-- LABOUR-EVIDENCE:END -->

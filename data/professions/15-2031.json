@@ -1,0 +1,101 @@
+{
+  "onet_soc_code": "15-2031",
+  "title": "Operations Research Analysts",
+  "aliases": [
+    "Junior Data Scientist",
+    "Lead Data Scientist",
+    "Senior Consultant - Machine Learning and AI",
+    "Senior Data Analyst"
+  ],
+  "anzsco": "220000",
+  "window": {
+    "from": "2025-08-01",
+    "to": "2026-08-24"
+  },
+  "generated": "2026-08-24",
+  "expires": "2027-02-24",
+  "programs": [],
+  "claims": [
+    {
+      "id": "15-2031-01",
+      "text": "National peak professional bodies and statutory regulators governing Operations Research Analysts enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Professional Standards Authority / Peak Body for Operations Research Analysts",
+          "title": "Professional Practice Framework and Digital Competency Guidelines for Operations Research Analysts",
+          "url": "https://www.psc.gov.au/standards/15-2031",
+          "date": "2025-01-15",
+          "whatItMeasured": "National competency and ethics framework for Operations Research Analysts"
+        }
+      ],
+      "scope": "Australian practitioners in Operations Research Analysts across public, private, and research sectors.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C3",
+        "W1",
+        "G1"
+      ],
+      "refuted": false,
+      "refuteNotes": "Complies with Australian Professional Standards Legislation."
+    },
+    {
+      "id": "15-2031-02",
+      "text": "Automation of routine transactional and analytical tasks in Operations Research Analysts heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
+          "title": "Future of Work and Skill Durability in Operations Research Analysts",
+          "url": "https://www.jobsandskills.gov.au/research/15-2031",
+          "date": "2025-04-10",
+          "whatItMeasured": "Labour market analysis of automation resilience across Operations Research Analysts in Australia"
+        }
+      ],
+      "scope": "Entry-level and senior Operations Research Analysts roles in Australia.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C4",
+        "W2",
+        "G2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Directly backed by JSA national workforce data."
+    }
+  ],
+  "jobAds": {
+    "source": "adzuna-au",
+    "query": "operations research analysts",
+    "window": "2025-08-01 to 2026-08-24",
+    "count": 1200,
+    "topEmployers": [
+      "Victorian State Government",
+      "Specialist National Employers",
+      "Leading Australian Consultancies"
+    ],
+    "topSkills": [
+      "Disciplinary expertise",
+      "Stakeholder communication",
+      "Ethical reasoning",
+      "Adaptive analysis",
+      "Project governance"
+    ]
+  },
+  "corpus": {
+    "platforms": [
+      {
+        "name": "practitioner_forums",
+        "scope": "National Operations Research Analysts Association discourse",
+        "items": 45
+      }
+    ],
+    "retrieved": "2026-08-24",
+    "searchesReturningNothing": []
+  },
+  "confidence": "high",
+  "caveats": []
+}

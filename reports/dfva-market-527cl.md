@@ -94,17 +94,17 @@ Accreditation standards from [PsyBA](https://www.psychologyboard.gov.au/) requir
 ---
 
 <!-- LABOUR-EVIDENCE:START -->
-## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+## REAL GRADUATE DESTINATIONS (JSA HEO)
 
-**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 090701 Psychology / Clinical Psychology):
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **090701 Psychology** (n = 24,170 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 36.6% of them, and the 5 largest are shown at each stage.
 
 | Career stage | Top occupations |
 |---|---|
-| Entry (~1yr) | Provisional Psychologists (60%), Mental Health Clinicians (25%), Clinical Research Officers (10%), Psychometrists (5%) |
-| Early (~3yr) | Clinical Psychologists (Registrars / Endorsed) (65%), Senior Mental Health Clinicians (20%), Private Practitioners (10%), Allied Health Team Leaders (5%) |
-| Senior (~5yr) | Senior Endorsed Clinical Psychologists (40%), Private Practice Directors (30%), Clinic Directors / Lead Psychologists (20%), Senior Clinical Researchers (10%) |
+| Entry (~1yr) | Psychologists nec (11.3%) · Clinical Psychologist (7.9%) · General Clerk (3.4%) · Sales Assistant (General) (3.4%) · Social Worker (2.8%) |
+| Early (~3yr) | Psychologists nec (12.0%) · Clinical Psychologist (9.1%) · Social Worker (3.3%) · General Clerk (2.6%) · Program or Project Administrator (2.4%) |
+| Senior (~5yr) | Psychologists nec (12.1%) · Clinical Psychologist (9.3%) · Social Worker (3.4%) · Program or Project Administrator (2.7%) · General Clerk (2.1%) |
 
-**Graduate outcomes** (QILT GOS 2024, postgraduate clinical psychology): 96% full-time employment · median salary ,000 · JSA occupation demand: **Shortage**.
+**Field grain, not program grain.** These are graduates of the whole Psychology field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
 
-**Hiring now (demand-side)** — Adzuna AU live vacancies: Orygen, Royal Melbourne Hospital, Melbourne Health, Monash Health, The Alfred, Headspace National, Mind Australia, St Vincent's Hospital Melbourne, Victorian Department of Health, Private Practice Networks. Advertised salary Ak–165k.
+**Graduate outcomes** (QILT GOS 2024, postgraduate Health cut): 87.1% full-time employment · median salary $103,000 · 95.2% at three years · JSA occupation demand: **shortage**.
 <!-- LABOUR-EVIDENCE:END -->

@@ -98,19 +98,19 @@ Publications from the [ACS](https://www.acs.org.au/) highlight that modern digit
 
 ---
 
-## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+## REAL GRADUATE DESTINATIONS (JSA HEO)
 
-**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 020101 Information Systems):
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **0203 Information Systems** (n = 4,950 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 43.6% of them, and the 5 largest are shown at each stage.
 
 | Career stage | Top occupations |
 |---|---|
-| Entry (~1yr) | ICT Business Analysts (35%), Systems Analysts (25%), Technology Consultants (15%), Data Analysts (15%), Project Coordinators (10%) |
-| Early (~3yr) | Senior Business Analysts (35%), Solutions Architects (25%), Technology Strategy Consultants (20%), IT Project Managers (20%) |
-| Senior (~5yr) | Enterprise Architects (35%), Technology Directors (30%), GRC / AI Governance Leads (20%), Principal Consultants (15%) |
+| Entry (~1yr) | ICT Business Analyst (9.7%) · ICT Customer Support Officer (5.9%) · Management Consultant (5.1%) · Developer Programmer (5.1%) · Software Engineer (4.2%) |
+| Early (~3yr) | ICT Business Analyst (9.7%) · Management Consultant (5.5%) · ICT Customer Support Officer (5.3%) · Developer Programmer (5.1%) · Software Engineer (4.8%) |
+| Senior (~5yr) | ICT Business Analyst (9.3%) · Software Engineer (5.5%) · Developer Programmer (5.1%) · Management Consultant (4.8%) · ICT Customer Support Officer (4.2%) |
 
-**Graduate outcomes** (QILT GOS 2024, postgraduate information systems): 81% full-time employment · median salary ,000 · JSA occupation demand: **Shortage**.
+**Field grain, not program grain.** These are graduates of the whole Information Systems field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
 
-**Hiring now (demand-side)** — Adzuna AU live vacancies: Atlassian, Canva, Accenture, Deloitte, PwC, KPMG, ANZ Bank, Telstra, AWS, Microsoft, Victorian Department of Premier and Cabinet. Advertised salary Ak–165k.
+**Graduate outcomes** (QILT GOS 2024, postgraduate Information Technology cut): 81.2% full-time employment · median salary $110,000 · 94.1% at three years · JSA occupation demand: **shortage**.
 `,
 };
 

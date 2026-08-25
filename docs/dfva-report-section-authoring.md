@@ -15,6 +15,10 @@ The *principles* for §3 live in [the v4 agent harness](dfva-v4-agent-harness.md
 document is the **procedure and the mechanics**: what to run, in what order, and the exact
 strings the lint keys on. Read the harness section first; it is not repeated here.
 
+The procedure below re-sources prose that already exists. The task that produces sourced
+material *before* any prose is written — profession-grain, five evidence lanes, a claim
+ledger — is [Deep research task: profession discourse, market, and news](dfva-profession-deep-research.md).
+
 ## Order of operations (this matters)
 
 **§3 before §4.** §4 condenses the market report's §3. Authoring §4 from an unsourced §3

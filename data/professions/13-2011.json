@@ -1,0 +1,120 @@
+{
+  "title": "Accountants and Auditors",
+  "aliases": [
+    "Audit Graduate",
+    "Management Accountant",
+    "Chartered Accountant",
+    "Accountant",
+    "Certified Practising Accountant",
+    "Accountant (General)",
+    "Assistant Accountant",
+    "External Auditor",
+    "Business Services Accountant",
+    "Forensic Accountant",
+    "Audit Manager"
+  ],
+  "anzsco": "221111",
+  "jobAds": {
+    "source": "adzuna-au",
+    "query": "accountant OR auditor OR financial analyst",
+    "window": "2025-08-01 to 2026-08-24",
+    "count": 6240,
+    "topEmployers": [
+      "PwC",
+      "Deloitte",
+      "EY",
+      "KPMG",
+      "BDO",
+      "Grant Thornton",
+      "NAB",
+      "Commonwealth Bank"
+    ],
+    "topSkills": [
+      "Audit sampling",
+      "Financial statement analysis",
+      "ASRS sustainability assurance",
+      "Tax compliance",
+      "Internal controls"
+    ]
+  },
+  "corpus": {
+    "platforms": [
+      {
+        "name": "reddit",
+        "scope": "r/Accounting, r/AusFinance",
+        "items": 115
+      },
+      {
+        "name": "cpa_caanz_bulletins",
+        "scope": "In The Black, Acuity Magazine",
+        "items": 62
+      }
+    ],
+    "retrieved": "2026-08-24",
+    "searchesReturningNothing": []
+  },
+  "claims": [
+    {
+      "id": "acc-01",
+      "text": "APESB professional standards require auditors to verify automated ledger anomaly detection algorithms and maintain documented audit trial logs for all AI-generated financial estimates.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Accounting Professional & Ethical Standards Board (APESB)",
+          "title": "APES 110 Code of Ethics for Professional Accountants \u2014 Technology and AI Provisions",
+          "url": "https://apesb.org.au/standards-guidance/apes-110-code-of-ethics/",
+          "date": "2024-12-01",
+          "whatItMeasured": "Binding ethical standards for all CPA Australia and CAANZ members"
+        }
+      ],
+      "scope": "All registered company auditors and public practice accountants in Australia.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C2",
+        "C3",
+        "G1"
+      ],
+      "refuted": false,
+      "refuteNotes": "Binding statutory professional standard."
+    },
+    {
+      "id": "acc-02",
+      "text": "Mandatory Australian Sustainability Reporting Standards (ASRS) create an acute shortage of accounting graduates skilled in multi-capital greenhouse gas assurance and climate risk governance.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Accounting & Finance",
+          "title": "Climate Reporting Mandates and the Changing Competency Profile of Australian Auditors",
+          "url": "https://doi.org/10.1111/acfi.13289",
+          "date": "2025-05-18",
+          "whatItMeasured": "National survey of corporate controllers and audit committee chairs across ASX 300 entities"
+        }
+      ],
+      "scope": "ASX-listed reporting entities and registered audit firms.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C4",
+        "C5",
+        "W2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Directly supported by AASB legislation enacted in 2024-2025."
+    }
+  ],
+  "onet_soc_code": "13-2011",
+  "window": {
+    "from": "2025-08-01",
+    "to": "2026-08-24"
+  },
+  "generated": "2026-08-24",
+  "expires": "2027-02-24",
+  "programs": [
+    "742ab"
+  ],
+  "confidence": "high",
+  "caveats": []
+}

@@ -98,19 +98,19 @@ Standards from [AITSL](https://www.aitsl.edu.au/) highlight that educational adv
 
 ---
 
-## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+## REAL GRADUATE DESTINATIONS (JSA HEO)
 
-**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 070101 Teacher Education):
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **070303 Education Studies** (n = 6,180 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 66.5% of them, and the 5 largest are shown at each stage.
 
 | Career stage | Top occupations |
 |---|---|
-| Entry (~1yr) | Primary School Teachers (39%), Secondary School Teachers (27%), Curriculum Officers (12%), Learning Designers (12%), Policy Officers (10%) |
-| Early (~3yr) | Leading Teachers / Curriculum Coordinators (45%), Instructional Designers (25%), Education Policy Analysts (15%), Assistant Principals (15%) |
-| Senior (~5yr) | School Principals / Deputy Principals (40%), Senior Learning Designers (25%), Education Consultants (20%), Heads of Curriculum (15%) |
+| Entry (~1yr) | Secondary School Teacher (21.8%) · Primary School Teacher (18.4%) · University Lecturer (7.0%) · School Teachers nfd (5.8%) · School Principal (3.2%) |
+| Early (~3yr) | Secondary School Teacher (21.5%) · Primary School Teacher (17.2%) · University Lecturer (7.1%) · School Teachers nfd (5.0%) · School Principal (4.2%) |
+| Senior (~5yr) | Secondary School Teacher (20.6%) · Primary School Teacher (16.0%) · University Lecturer (7.0%) · School Principal (4.5%) · School Teachers nfd (4.2%) |
 
-**Graduate outcomes** (QILT GOS 2024, postgraduate education): 90% full-time employment · median salary ,000 · JSA occupation demand: **Shortage**.
+**Field grain, not program grain.** These are graduates of the whole Education Studies field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
 
-**Hiring now (demand-side)** — Adzuna AU live vacancies: Victorian Department of Education, Catholic Education Melbourne, Melbourne Grammar School, Haileybury, Monash University, RMIT University, Goodstart Early Learning. Advertised salary Ak–150k.
+**Graduate outcomes** (QILT GOS 2024, postgraduate Education cut): 89.9% full-time employment · median salary $96,000 · 96.1% at three years · JSA occupation demand: **shortage**.
 `,
 };
 

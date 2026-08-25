@@ -328,6 +328,10 @@ Legacy market reports (66 of them) predate this rule and are grandfathered in
 `check-report-format.ts`; they warn rather than fail. Remove a slug from
 `MARKET_GRANDFATHERED` once its §3 complies — the lint prints which are ready.
 
+**Where the material comes from in the first place** — the profession-grain deep research
+task (five evidence lanes, claim ledger, refute pass, persisted per SOC code) is
+[Deep research task: profession discourse, market, and news](dfva-profession-deep-research.md).
+
 **How to actually do a re-sourcing pass** — the step order, the four outcomes per claim
 (sourced / scoped / corrected / removed), and the exact strings the lint keys on (a bare
 `(Journal, 2026)` counts as zero attributions) — is in

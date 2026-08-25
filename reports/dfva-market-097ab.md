@@ -94,17 +94,15 @@ Discourse across [ACFID](https://acfid.asn.au/) and regional climate networks em
 ---
 
 <!-- LABOUR-EVIDENCE:START -->
-## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+## REAL GRADUATE DESTINATIONS (JSA HEO)
 
-**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 099901 Development Studies):
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **0903 Studies in Human Society** (n = 8,720 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 26.6% of them, and the 5 largest are shown at each stage.
 
 | Career stage | Top occupations |
 |---|---|
-| Entry (~1yr) | Development Program Officers (32%), MERL Assistants (24%), Policy Officers (20%), Humanitarian Project Officers (14%), Community Development Workers (10%) |
-| Early (~3yr) | Senior Program Managers (30%), M&E Specialists (25%), GEDSI Advisors (18%), Sustainable Development Consultants (15%), Policy Analysts (12%) |
-| Senior (~5yr) | Country Directors / Regional Representatives (28%), Heads of Program Quality (25%), Senior DFAT / UN Diplomats (22%), ESG Practice Leaders (15%), Executive Directors (10%) |
+| Entry (~1yr) | Sales Assistant (General) (5.0%) · Primary School Teacher (4.2%) · General Clerk (4.2%) · Secondary School Teacher (2.8%) · Program or Project Administrator (2.4%) |
+| Early (~3yr) | Primary School Teacher (4.7%) · General Clerk (3.8%) · Program or Project Administrator (3.7%) · Sales Assistant (General) (3.0%) · Secondary School Teacher (2.9%) |
+| Senior (~5yr) | Primary School Teacher (4.7%) · Program or Project Administrator (4.4%) · General Clerk (3.2%) · Secondary School Teacher (3.1%) · Office Manager (1.9%) |
 
-**Graduate outcomes** (QILT GOS 2024, postgraduate humanities & social sciences): 87% full-time employment · median salary ,000 · JSA occupation demand: **Moderate–High**.
-
-**Hiring now (demand-side)** — Adzuna AU live vacancies: Department of Foreign Affairs and Trade (DFAT), Oxfam Australia, Care Australia, World Vision, Save the Children, Plan International, Tetra Tech International Development, Cardno / DT Global, Coffey / IDP, Australian Red Cross. Advertised salary Ak–145k.
+**Field grain, not program grain.** These are graduates of the whole Studies in Human Society field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
 <!-- LABOUR-EVIDENCE:END -->

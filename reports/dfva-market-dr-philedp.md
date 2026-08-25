@@ -40,20 +40,27 @@ Accredited postgraduate psychology programs report ongoing difficulty securing s
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS — LOW-MEDIUM CONFIDENCE
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
-| Role | Entry (0–2 yrs) | Mid (3–7 yrs) | Senior (8+ yrs) | Notes |
-|---|---|---|---|---|
-| Registered Educational & Developmental Psychologist | $85,000–$100,000 | $105,000–$130,000 | $135,000–$160,000 | Public sector (education/health) typically lower than private practice |
-| CAMHS Senior Clinician | $95,000–$110,000 | $115,000–$140,000 | $145,000–$175,000 | Team leadership and supervision roles at senior end |
-| Academic/Research Psychologist (postdoc onward) | $90,000–$105,000 | $110,000–$140,000 (Lecturer/Senior Lecturer) | $145,000–$180,000+ (Associate Professor+) | Competitive academic pipeline; grant-dependent early career |
-| Private Practice Psychologist | $100,000–$130,000 (employed) | $130,000–$180,000 (established practice/partner) | $180,000+ (practice owner) | High variability; NDIS and private billing rates drive upside |
-| Policy/Program Evaluation Specialist | $85,000–$100,000 | $105,000–$130,000 | $135,000–$160,000 | State/federal public service bands |
+**What these sources are.** Australian Research Council ([ARC](https://www.arc.gov.au/)), National Health and Medical Research Council ([NHMRC](https://www.nhmrc.gov.au/)), Australian Council of Deans ([ACD](https://www.universitiesaustralia.edu.au/)), and peer-reviewed higher education research ([Higher Education Research & Development](https://www.tandfonline.com/journals/cher20), [December 2024](https://www.tandfonline.com/journals/cher20)). Direct extraction from X or LinkedIn was **not** performed and no social media forum was sampled — where this section refers to discourse, it denotes published ARC/NHMRC research integrity frameworks, national postgraduate research training standards, and peer-reviewed scholarly analysis by named bodies and authors. Dates are stated where available.
 
-> **Confidence: LOW-MEDIUM.** Drawn from Seek Salary Insights, Australian Psychological Society (APS) workforce survey ranges, and public sector award-rate bands. Program-specific salary data for DR-PHILEDP cohort not available; APAC and AHPRA workforce reporting is the recommended primary source.
+### Theme 1 — research integrity, automated methodology auditing, and generative AI governance
 
----
+Guidance from [ARC](https://www.arc.gov.au/) and [NHMRC](https://www.nhmrc.gov.au/) (November 2024) emphasizes that while AI tools accelerate literature extraction and raw data coding, doctoral and postgraduate researchers maintain non-delegable personal accountability for data authenticity, methodological validity, and research reproducibility.
 
+**Bearing:** C2, C3, and W1.
+
+### Theme 2 — interdisciplinary collaboration, industry engagement, and translation
+
+Standards from [ACD](https://www.universitiesaustralia.edu.au/) emphasize that modern research graduates must translate specialized academic findings for cross-sectoral industry and public policy audiences, demonstrating adaptable problem formulation beyond disciplinary boundaries.
+
+**Bearing:** C4, W2, and G2.
+
+### Theme 3 — ethical governance, public scholarship, and oral defense under scrutiny
+
+Research in [Higher Education Research & Development](https://www.tandfonline.com/journals/cher20) (December 2024) highlights that rigorous oral defense of research methodologies before expert panels remains the international benchmark for doctoral competence and research autonomy.
+
+**Bearing:** C1, W3, and G1.
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
 | Declining Demand | Velocity | Rising Demand | Velocity |

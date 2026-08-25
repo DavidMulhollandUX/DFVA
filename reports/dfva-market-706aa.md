@@ -94,17 +94,15 @@ The [Australian Treasury Evaluation Toolkit](https://evaluation.treasury.gov.au/
 ---
 
 <!-- LABOUR-EVIDENCE:START -->
-## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+## REAL GRADUATE DESTINATIONS (JSA HEO)
 
-**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 090301 Sociology & Social Policy):
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **090103 Policy Studies** (n = 1,210 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 49.6% of them, and the 5 largest are shown at each stage.
 
 | Career stage | Top occupations |
 |---|---|
-| Entry (~1yr) | Policy and Planning Managers (28%), Social Professionals nec (21%), Program Officers (14%), Research Analysts (11%) |
-| Early (~3yr) | Senior Policy Advisors (32%), Social Strategy Consultants (18%), Non-Profit Program Directors (15%), Policy Evaluation Leads (12%) |
-| Senior (~5yr) | Policy and Planning Directors (30%), Management Consultants (22%), Public Sector Executives (18%), Research Directors (12%) |
+| Entry (~1yr) | Policy Analyst (10.7%) · Policy and Planning Manager (9.9%) · Program or Project Administrator (9.1%) · General Clerk (3.3%) · General Clerks nfd (3.3%) |
+| Early (~3yr) | Policy Analyst (10.7%) · Policy and Planning Manager (10.7%) · Program or Project Administrator (9.9%) · General Clerk (3.3%) · Chief Executive or Managing Director (2.5%) |
+| Senior (~5yr) | Policy and Planning Manager (13.2%) · Policy Analyst (11.6%) · Program or Project Administrator (9.1%) · Chief Executive or Managing Director (2.5%) · General Clerk (2.5%) |
 
-**Graduate outcomes** (QILT GOS 2024, postgraduate social policy / humanities): 87% full-time employment · median salary ,000 · JSA occupation demand: **Moderate–High**.
-
-**Hiring now (demand-side)** — Adzuna AU live vacancies: Department of Social Services (DSS), Department of Families, Fairness and Housing (DFFH), Brotherhood of St Laurence, Australian Red Cross, Urbis, Nous Group, ARTD Consultants, ACOSS, Berry Street. Advertised salary Ak–138k.
+**Field grain, not program grain.** These are graduates of the whole Policy Studies field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
 <!-- LABOUR-EVIDENCE:END -->

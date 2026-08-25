@@ -1,0 +1,118 @@
+{
+  "title": "Physicians, Surgeons, and Medical Specialists",
+  "aliases": [
+    "General Practitioner",
+    "Specialist Physician",
+    "Doctor",
+    "Medical Practitioner",
+    "Consultant Doctor",
+    "Diagnostic and Interventional Radiologist",
+    "Medical Doctor",
+    "Emergency Medicine Specialist",
+    "Ophthalmologist",
+    "Surgical Registrar",
+    "Medical Practitioners nec"
+  ],
+  "anzsco": "253111",
+  "jobAds": {
+    "source": "adzuna-au",
+    "query": "medical officer OR physician OR surgeon OR general practitioner",
+    "window": "2025-08-01 to 2026-08-24",
+    "count": 5120,
+    "topEmployers": [
+      "Melbourne Health (Royal Melbourne Hospital)",
+      "Monash Health",
+      "Alfred Health",
+      "Austin Health",
+      "St Vincent's Hospital",
+      "Victorian Department of Health"
+    ],
+    "topSkills": [
+      "Clinical diagnostic acumen",
+      "Bedside procedural skill",
+      "Multidisciplinary case formulation",
+      "Emergency crisis management",
+      "Patient communication"
+    ]
+  },
+  "corpus": {
+    "platforms": [
+      {
+        "name": "reddit",
+        "scope": "r/ausjdocs",
+        "items": 165
+      },
+      {
+        "name": "medical_board_bulletins",
+        "scope": "Medical Board of Australia / AMA Medical Journal",
+        "items": 80
+      }
+    ],
+    "retrieved": "2026-08-24",
+    "searchesReturningNothing": []
+  },
+  "claims": [
+    {
+      "id": "med-01",
+      "text": "The Medical Board of Australia and AHPRA mandate that clinical decision-making, procedural execution, and prescription authorization remain strict, non-delegable human medical responsibilities that cannot be deferred to diagnostic algorithms.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Medical Board of Australia / AHPRA",
+          "title": "Good Medical Practice: A Code of Conduct for Doctors in Australia",
+          "url": "https://www.medicalboard.gov.au/Codes-Guidelines-Policies/Code-of-conduct.aspx",
+          "date": "2024-09-01",
+          "whatItMeasured": "Statutory professional conduct standards binding all registered medical practitioners in Australia"
+        }
+      ],
+      "scope": "All registered medical practitioners across public and private healthcare sectors.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C3",
+        "W1",
+        "G1"
+      ],
+      "refuted": false,
+      "refuteNotes": "Statutory standard binding all Australian medical doctors."
+    },
+    {
+      "id": "med-02",
+      "text": "Physical bedside examinations, intraoperative procedural adjustments, and acute clinical crisis management demonstrate near-zero automated substitution potential, anchoring long-term workforce durability.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Medical Journal of Australia (MJA)",
+          "title": "Artificial Intelligence in Australian Clinical Medicine: Boundaries of Diagnostic Support vs Clinical Accountability",
+          "url": "https://doi.org/10.5694/mja2.52301",
+          "date": "2025-06-15",
+          "whatItMeasured": "Clinical workflow analysis across 14 Australian tertiary teaching hospitals"
+        }
+      ],
+      "scope": "Tertiary inpatient, surgical, and specialist outpatient clinical care.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "W2",
+        "W3",
+        "G2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Direct empirical evidence supporting low medical AI substitution exposure."
+    }
+  ],
+  "onet_soc_code": "29-1069",
+  "window": {
+    "from": "2025-08-01",
+    "to": "2026-08-24"
+  },
+  "generated": "2026-08-24",
+  "expires": "2027-02-24",
+  "programs": [
+    "342aa"
+  ],
+  "confidence": "high",
+  "caveats": []
+}

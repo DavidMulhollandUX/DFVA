@@ -1,5 +1,5 @@
 /** Bump on every PROGRAMS change to invalidate stale client caches. */
-export const CACHE_VERSION = 5;
+export const CACHE_VERSION = 6;
 
 export interface DimensionScore {
   label: string;
@@ -694,7 +694,7 @@ export const PROGRAMS: ProgramReport[] = [
     handbookUrl: "https://handbook.unimelb.edu.au/2026/courses/mc-ba",
   },
   {
-    program: "Master of Business Administration (Marketing)",
+    program: "Master of Business Administration/Master of Marketing",
     institution: "University of Melbourne",
     level: "Master · 2 years",
     date: "2026-06-09",

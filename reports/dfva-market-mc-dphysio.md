@@ -94,17 +94,15 @@ Guidelines from the [APC](https://physiocouncil.com.au/) highlight that doctor-l
 ---
 
 <!-- LABOUR-EVIDENCE:START -->
-## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+## REAL GRADUATE DESTINATIONS (JSA HEO)
 
-**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 061701 Physiotherapy):
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **061701 Physiotherapy** (n = 9,830 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 87.0% of them, and the 5 largest are shown at each stage.
 
 | Career stage | Top occupations |
 |---|---|
-| Entry (~1yr) | Physiotherapists (88%), Health Promotion Officers (5%), Rehabilitation Assistants (4%), Research Assistants (3%) |
-| Early (~3yr) | Senior Physiotherapists (55%), Private Practice Clinicians (25%), Clinical Specialists (10%), Allied Health Team Leaders (10%) |
-| Senior (~5yr) | Principal Physiotherapists / Clinic Owners (45%), Clinical Directors (30%), Titled Sports / Neuro Specialists (15%), Academic Clinicians (10%) |
+| Entry (~1yr) | Physiotherapist (82.9%) · Therapy Aide (0.9%) · Sales Assistant (General) (0.9%) · Life Scientists nec (0.8%) · General Clerk (0.6%) |
+| Early (~3yr) | Physiotherapist (83.3%) · Life Scientists nec (0.7%) · Therapy Aide (0.3%) · Sales Assistant (General) (0.3%) · Exercise Physiologist (0.3%) |
+| Senior (~5yr) | Physiotherapist (79.7%) · Life Scientists nec (0.7%) · Exercise Physiologist (0.3%) · Fitness Instructor (0.2%) · Therapy Aide (0.2%) |
 
-**Graduate outcomes** (QILT GOS 2024, postgraduate physiotherapy): 96% full-time employment · median salary ,000 · JSA occupation demand: **National Shortage**.
-
-**Hiring now (demand-side)** — Adzuna AU live vacancies: Melbourne Health, Monash Health, Austin Health, St Vincent's Hospital, Healthscope, Kieser Australia, Back In Motion, Epworth Healthcare, Cabrini Health. Advertised salary Ak–145k+.
+**Field grain, not program grain.** These are graduates of the whole Physiotherapy field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
 <!-- LABOUR-EVIDENCE:END -->

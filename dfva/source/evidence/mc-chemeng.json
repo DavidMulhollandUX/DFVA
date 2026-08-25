@@ -10,7 +10,7 @@
         "One team-based oral presentation with 3 to 4 team members of approximately 15 to 20 minutes. Students receive an individual assessment.",
         "One pair-prepared oral presentation of 20 minutes on a chemical process modification and its conceptual design and feasibility.",
         "Reflection (based on the project logs and the rest of the subject) (individual). Approx. 10 hours of work per student.",
-        "Hurdle requirement: Students must achieve an overall pass mark for each of the individual and team components, i.e., the total score for the project journal, oral presentation x 2 and reflection (individual) must be a pass mark; and the total score for the project progress submission and final report must be a pass mark."
+        "Students must achieve an overall pass mark for each of the individual and team components, i.e., the total score for the project journal, oral presentation x 2 and reflection (individual) must be a pass mark; and the total score for the project progress submission and final project submission (team) must be a pass mark."
       ]
     },
     "C2": {
@@ -18,8 +18,7 @@
       "rationale": "Level 1 anchor fits: reflection appears in capstone assessment (an individual reflection based on project logs and teamwork), but the core assessment schedule contains no criterion-referenced peer review, structured critique against exemplars, or portfolio evaluated against professional standards. Level 2's criterion-referenced appraisal requirement is not documented in any core assessment. Level 3 is not approached: no core task requires students to document and defend reliance decisions on automated process simulation outputs or AI tools.",
       "evidenceLines": [
         "Reflection (based on the project logs and the rest of the subject) (individual). Approx. 10 hours of work per student.",
-        "Team Evaluation: Approx. 12 hours of work, including teamwork documentation, team discussion + personal reflection.",
-        "Cognitive skills to demonstrate mastery of theoretical knowledge and to reflect critically on theory and professional practice."
+        "Peer feedback + evaluation (individual). Feedback: Approx. 8 hours of work per student. Evaluation: Approx. 12 hours of work, including teamwork documentation, team discussion + personal reflection"
       ]
     },
     "C3": {
@@ -27,7 +26,7 @@
       "rationale": "Matches the level-1 anchor: digital tools appear as commercial software operation and training. Core subjects (CHEN90032 Process Simulation and Control, CHEN90022 Chemical Engineering Design Project) train students in steady-state and dynamic process simulation packages, equations of state modeling, and numerical process optimization. The level-2 requirement that core units address AI capabilities AND limitations/ethics is absent \u2014 the extract contains zero occurrences of artificial intelligence or machine learning in core subject descriptions or assessment schedules, and no AI governance or algorithmic auditing is assessed.",
       "evidenceLines": [
         "Students are introduced to steady-state and unsteady-state process simulations using tools including simple spreadsheet packages, commercial-scale simulation packages widely used in the chemical process industry and basic programming.",
-        "Apply chemical engineering process simulation software to model thermodynamic properties, real gas behaviour using equations of state models and complex phase equilibria.",
+        "Apply chemical engineering process simulation software to model thermodynamic properties, real gas behaviour using equations of state models and physical property estimation of pure components and mixtures",
         "CHEN90032 Process Simulation and Control"
       ]
     },
@@ -35,18 +34,18 @@
       "score": 2,
       "rationale": "Level 2 anchor is met: the required 25-point capstone CHEN90022 Chemical Engineering Design Project requires students to apply knowledge from prior units (thermodynamics, transport processes, separation, reactor design, safety, and economics) to the complete design of a complex chemical processing facility and the production of an Environmental Effects Statement on a novel industrial problem. Not level 3: the capstone is an industry-advisor-guided team plant design rather than a self-scoped independent research project, and no core assessment requires students to formally identify their own knowledge gaps with an assessed plan to close them.",
       "evidenceLines": [
-        "Within this project students will, working in teams under the guidance of an academic advisor, perform design tasks related to the development of a Chemical Process Engineering facility. This capstone project culminates in an Environmental Effects Statement assignment.",
+        "Within this project students, in teams of three or four, perform design tasks related to the development of a Chemical Process Engineering facility. This capstone project culminates in an Environmental Effects Statement assignment.",
         "Several industry advisors from the process engineering and environmental areas, provide content to aid students with their capstone project.",
-        "Apply chemical engineering principles to the design of a complete chemical process plant, including mass and energy balances, unit operations, process safety, and economic evaluation."
+        "Students will conduct chemical plant feasibility and design studies through a series of assignments that analyse process plant feasibility, the sensitivity of process economics to external influences and consider the technological, market, environmental and other effects on project viability. Students will learn how to design chemical plants, including the necessary documentation, and consider control strategies for safe operation."
       ]
     },
     "C5": {
       "score": 1,
       "rationale": "Matches level 1: introductory inquiry and research principles are embedded in the curriculum, but the core design sequence utilizes literature benchmarks, industry guidelines, and process simulation models rather than primary empirical laboratory inquiry. Level 2 requires students to design and conduct an inquiry with methodology selection and primary data collection, assessed; while research pathway selectives exist, the core capstone is a design synthesis task rather than an empirical experimental study. Level 3 (a required substantial primary-evidence research project with viva defence) is not part of the standard coursework core.",
       "evidenceLines": [
-        "Research principles and methods in chemical engineering;",
+        "CHEN90023 Chemical Engineering Research Project",
         "Students have the opportunity to participate in overseas study, industry-based internships and supervised research placements.",
-        "Prepare a detailed design report incorporating literature review, regulatory review, and technical engineering analysis."
+        "Be able to evaluate data from a range of sources to allow a coherent professional engineering technical report to be prepared"
       ]
     },
     "adaptiveness": 7,
@@ -65,8 +64,8 @@
       "rationale": "Meets the level-2 anchor: the 25-point capstone CHEN90022 reproduces the professional chemical engineering task end-to-end \u2014 preliminary process synthesis, flowsheeting, equipment sizing, process control loops, HAZOP safety review, CAPEX/OPEX estimation, and environmental impact assessment \u2014 producing the authentic deliverables (EES, P&ID, plant specification) an engineering consultant produces. Not level 3: written examinations carry significant weight across the prerequisite spine (CHEN90042, CHEN90013, CHEN90032), so authentic deliverables are concentrated in the capstone rather than forming the exclusive assessment spine across all years.",
       "evidenceLines": [
         "Several assessment tasks combine to form a capstone project based on authentic practice activities, with input from industry.",
-        "Within this project students will, working in teams under the guidance of an academic advisor, perform design tasks related to the development of a Chemical Process Engineering facility.",
-        "Apply chemical engineering principles to the design of a complete chemical process plant, including mass and energy balances, unit operations, process safety, and economic evaluation."
+        "Within this project students, in teams of three or four, perform design tasks related to the development of a Chemical Process Engineering facility.",
+        "One written schematic developing a Piping and Instrumentation Diagram and an oral defence of the schematic. 45-50 hours to complete within four weeks."
       ]
     },
     "W3": {
@@ -75,7 +74,7 @@
       "evidenceLines": [
         "CHEN90028 Chemical Engineering Internship Summer Term (On Campus - Parkville) Semester 1 (On Campus - Parkville) Semester 2 (Early-Start)",
         "Students have the opportunity to participate in overseas study, industry-based internships and supervised research placements.",
-        "1. Skills Towards Employment Program (STEP) 2. CHEN90028 Industry Project subject 3. An agreed level of internship at an approved engineering firm (without receiving University credit)"
+        "1. Skills Towards Employment Program (STEP) 2. CHEN90028 Industry Project subject 3. An agreed level of internship at an approved engineering form (without receiving University credit)"
       ]
     },
     "workplace": 5,
@@ -85,9 +84,9 @@
         "rationale": "The program documents a fully accredited professional engineering core: 225 credit points of compulsory chemical engineering subjects accredited by Engineers Australia, the Institution of Chemical Engineers (IChemE), and EUR-ACE, with progressive technical prerequisites running from fundamentals through transport processes, thermodynamics, and reaction kinetics to plant design.",
         "evidenceLines": [
           "225 credit points of compulsory subjects",
-          "The Master of Chemical Engineering is fully accredited by Engineers Australia and the Institution of Chemical Engineers (IChemE).",
+          "Professional accreditation ... Engineers Australia",
           "CHEN20012 Fundamentals of Chemical Engineering",
-          "CHEN30001 Transport Processes",
+          "CHEN30016 Momentum, Mass and Heat Transfer",
           "CHEN90022 Chemical Engineering Design Project"
         ]
       },
@@ -95,7 +94,7 @@
         "result": "PASS",
         "rationale": "Assessment requires defended trade-off decisions under real industrial uncertainty: students model chemical plants under varying feedstocks, optimize energy recovery versus capital equipment cost, conduct HAZOP risk analyses under process failure scenarios, and defend chemical process feasibility in oral presentations and environmental impact submissions.",
         "evidenceLines": [
-          "Develop the skill to interpret real business and engineering problems into process optimization models.",
+          "Analyse and evaluate competing economic, environmental and social impacts criteria in generating feasibility studies for new projects and re-developments",
           "One pair-prepared oral presentation of 20 minutes on a chemical process modification and its conceptual design and feasibility.",
           "Perform design tasks related to the development of a Chemical Process Engineering facility. This capstone project culminates in an Environmental Effects Statement assignment."
         ]
@@ -113,7 +112,7 @@
     ],
     "verified": {
       "adversarial": true,
-      "mechanical": true,
+      "mechanical": false,
       "date": "2026-08-23"
     }
   }

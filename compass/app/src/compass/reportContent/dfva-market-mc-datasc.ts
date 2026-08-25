@@ -98,19 +98,19 @@ Guidelines from [DSAA](https://www.dsaa.org.au/) underline that senior data scie
 
 ---
 
-## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+## REAL GRADUATE DESTINATIONS (JSA HEO)
 
-**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 010103 / 020101 Data Science & Mathematical Sciences):
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **020199 Computer Science, n.e.c.** (n = 840 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 46.4% of them, and the 5 largest are shown at each stage.
 
 | Career stage | Top occupations |
 |---|---|
-| Entry (~1yr) | Data Scientists (45%), Machine Learning Engineers (25%), Data Analysts (20%), Quantitative Analysts (10%) |
-| Early (~3yr) | Senior Data Scientists (40%), Lead ML Engineers (30%), MLOps Architects (15%), Data Science Delivery Leads (15%) |
-| Senior (~5yr) | Principal Data Scientists (35%), Heads of AI / Data Science (30%), Chief Data Scientists (20%), AI Governance Directors (15%) |
+| Entry (~1yr) | Software Engineer (11.9%) · Developer Programmer (11.9%) · Sales Assistant (General) (3.6%) · ICT Customer Support Officer (3.6%) · Web Developer (3.6%) |
+| Early (~3yr) | Software Engineer (14.3%) · Developer Programmer (13.1%) · Web Developer (4.8%) · Electronic Equipment Trades Worker (2.4%) · Systems Administrator (2.4%) |
+| Senior (~5yr) | Software Engineer (14.3%) · Developer Programmer (13.1%) · Systems Administrator (3.6%) · Web Developer (3.6%) · ICT Business Analyst (2.4%) |
 
-**Graduate outcomes** (QILT GOS 2024, postgraduate data science): 91% full-time employment · median salary ,000 · JSA occupation demand: **High**.
+**Field grain, not program grain.** These are graduates of the whole Computer Science, n.e.c. field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
 
-**Hiring now (demand-side)** — Adzuna AU live vacancies: Atlassian, Canva, CSIRO, Macquarie Group, Commonwealth Bank, AWS, Cochlear, Telstra, Optiver, Citadel Securities. Advertised salary Ak–230k.
+**Graduate outcomes** (QILT GOS 2024, postgraduate Information Technology cut): 81.2% full-time employment · median salary $110,000 · 94.1% at three years · JSA occupation demand: **shortage**.
 `,
 };
 

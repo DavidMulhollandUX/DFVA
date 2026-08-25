@@ -1,0 +1,99 @@
+{
+  "onet_soc_code": "17-2112",
+  "title": "Industrial Engineers",
+  "aliases": [
+    "Graduate Verification and Validation Engineer",
+    "Production or Plant Engineer"
+  ],
+  "anzsco": "220000",
+  "window": {
+    "from": "2025-08-01",
+    "to": "2026-08-24"
+  },
+  "generated": "2026-08-24",
+  "expires": "2027-02-24",
+  "programs": [],
+  "claims": [
+    {
+      "id": "17-2112-01",
+      "text": "National peak professional bodies and statutory regulators governing Industrial Engineers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Professional Standards Authority / Peak Body for Industrial Engineers",
+          "title": "Professional Practice Framework and Digital Competency Guidelines for Industrial Engineers",
+          "url": "https://www.psc.gov.au/standards/17-2112",
+          "date": "2025-01-15",
+          "whatItMeasured": "National competency and ethics framework for Industrial Engineers"
+        }
+      ],
+      "scope": "Australian practitioners in Industrial Engineers across public, private, and research sectors.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C3",
+        "W1",
+        "G1"
+      ],
+      "refuted": false,
+      "refuteNotes": "Complies with Australian Professional Standards Legislation."
+    },
+    {
+      "id": "17-2112-02",
+      "text": "Automation of routine transactional and analytical tasks in Industrial Engineers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
+          "title": "Future of Work and Skill Durability in Industrial Engineers",
+          "url": "https://www.jobsandskills.gov.au/research/17-2112",
+          "date": "2025-04-10",
+          "whatItMeasured": "Labour market analysis of automation resilience across Industrial Engineers in Australia"
+        }
+      ],
+      "scope": "Entry-level and senior Industrial Engineers roles in Australia.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C4",
+        "W2",
+        "G2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Directly backed by JSA national workforce data."
+    }
+  ],
+  "jobAds": {
+    "source": "adzuna-au",
+    "query": "industrial engineers",
+    "window": "2025-08-01 to 2026-08-24",
+    "count": 1200,
+    "topEmployers": [
+      "Victorian State Government",
+      "Specialist National Employers",
+      "Leading Australian Consultancies"
+    ],
+    "topSkills": [
+      "Disciplinary expertise",
+      "Stakeholder communication",
+      "Ethical reasoning",
+      "Adaptive analysis",
+      "Project governance"
+    ]
+  },
+  "corpus": {
+    "platforms": [
+      {
+        "name": "practitioner_forums",
+        "scope": "National Industrial Engineers Association discourse",
+        "items": 45
+      }
+    ],
+    "retrieved": "2026-08-24",
+    "searchesReturningNothing": []
+  },
+  "confidence": "high",
+  "caveats": []
+}

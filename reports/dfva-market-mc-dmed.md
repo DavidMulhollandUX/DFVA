@@ -94,17 +94,15 @@ Standards from the [AMC](https://www.amc.org.au/) highlight that doctor-leaders 
 ---
 
 <!-- LABOUR-EVIDENCE:START -->
-## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+## REAL GRADUATE DESTINATIONS (JSA HEO)
 
-**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 010701 / 060101 Medicine & Surgery):
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **060101 General Medicine** (n = 13,900 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 88.5% of them, and the 5 largest are shown at each stage.
 
 | Career stage | Top occupations |
 |---|---|
-| Entry (~1yr) | Resident Medical Officers / Interns (92%), General Practitioners in Training (5%), Medical Researchers (3%) |
-| Early (~3yr) | Medical Registrars (45%), Surgical Registrars (25%), GP Registrars (20%), Emergency Medicine Registrars (10%) |
-| Senior (~5yr) | Consultant Physicians / Specialists (40%), General Practitioners (FRACGP) (35%), Consultant Surgeons (15%), Medical Directors (10%) |
+| Entry (~1yr) | Resident Medical Officer (37.3%) · Medical Practitioners nec (30.4%) · General Practitioner (16.6%) · Medical Laboratory Scientist (0.7%) · Ambulance Officer (0.6%) |
+| Early (~3yr) | Resident Medical Officer (34.7%) · Medical Practitioners nec (27.1%) · General Practitioner (19.6%) · Medical Laboratory Scientist (0.8%) · Ambulance Officer (0.6%) |
+| Senior (~5yr) | Resident Medical Officer (27.3%) · Medical Practitioners nec (25.7%) · General Practitioner (22.4%) · Anaesthetist (1.1%) · Medical Laboratory Scientist (0.7%) |
 
-**Graduate outcomes** (QILT GOS 2024, postgraduate medicine): 99% full-time employment · median salary ,000 (intern base, scaling rapidly post-fellowship to k–k+) · JSA occupation demand: **National Shortage**.
-
-**Hiring now (demand-side)** — Adzuna AU live vacancies: Melbourne Health, Monash Health, Austin Health, Alfred Health, Northern Health, Peninsula Health, Barwon Health, Victorian Department of Health. Advertised salary Ak–280k+.
+**Field grain, not program grain.** These are graduates of the whole General Medicine field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
 <!-- LABOUR-EVIDENCE:END -->

@@ -2,7 +2,7 @@
 
 **Instrument:** DFVA 4.2-draft — Panel C v4.2 on the TEQSA adaptive capabilities [[1]](https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/assuring-quality-learning-gen-ai-integrated-future-role-adaptive-capabilities) and the HESF generic and employment-related learning outcomes [[19]](https://www.legislation.gov.au/F2021L00488)
 **Assessment date:** 2026-08-23 · **Derived from:** the verified panelCv4 scoring + reports/dfva-market-mc-ap.md
-**Position basis:** Destination AI Exposure 95.57 (exact basis) × Curriculum Adaptiveness 9/15 (v4.2 draft, sub-scale A) · Workplace practice 6/9 (sub-scale W, reported beside the axis, not in it) — no v1 composite
+**Position basis:** Destination AI Exposure 95.57 (exact basis) × Curriculum Adaptiveness 9/15 (v4.2 draft, sub-scale A) · Workplace practice 5/9 (sub-scale W, reported beside the axis, not in it) — no v1 composite
 
 > Citation marks in the Sources columns refer to the numbered list in
 > [References](#references); full citations are given there and not repeated in

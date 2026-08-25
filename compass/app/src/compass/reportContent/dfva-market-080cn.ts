@@ -98,19 +98,17 @@ Professional standards from [PsyBA](https://www.psychologyboard.gov.au/) (2024/2
 
 ---
 
-## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+## REAL GRADUATE DESTINATIONS (JSA HEO)
 
-**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 090701 Psychology):
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **090701 Psychology** (n = 24,170 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 36.6% of them, and the 5 largest are shown at each stage.
 
 | Career stage | Top occupations |
 |---|---|
-| Entry (~1yr) | Clinical Neuropsychology Registrars (65%), Postdoctoral Research Fellows (20%), Hospital Neuropsychologists (15%) |
-| Early (~3yr) | Senior Clinical Neuropsychologists (55%), Neuropsychology Lecturers / Researchers (25%), Private Neuropsychology Practitioners (20%) |
-| Senior (~5yr) | Heads of Neuropsychology / Neurology Services (40%), Associate Professors / Lab Heads (30%), Principal Medico-Legal Experts (20%), Private Practice Directors (10%) |
+| Entry (~1yr) | Psychologists nec (11.3%) · Clinical Psychologist (7.9%) · General Clerk (3.4%) · Sales Assistant (General) (3.4%) · Social Worker (2.8%) |
+| Early (~3yr) | Psychologists nec (12.0%) · Clinical Psychologist (9.1%) · Social Worker (3.3%) · General Clerk (2.6%) · Program or Project Administrator (2.4%) |
+| Senior (~5yr) | Psychologists nec (12.1%) · Clinical Psychologist (9.3%) · Social Worker (3.4%) · Program or Project Administrator (2.7%) · General Clerk (2.1%) |
 
-**Graduate outcomes** (QILT GOS 2024, postgraduate psychology): 97% full-time employment · median salary ,000 · JSA occupation demand: **Very High**.
-
-**Hiring now (demand-side)** — Adzuna AU live vacancies: Alfred Health, Royal Melbourne Hospital, Austin Health, Monash Health, St Vincent's Hospital Melbourne, Victorian Rehabilitation Centre, Florey Institute of Neuroscience and Mental Health. Advertised salary Ak–180k.
+**Field grain, not program grain.** These are graduates of the whole Psychology field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
 `,
 };
 

@@ -1,0 +1,114 @@
+{
+  "code": "mc-mecheng",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: assessed collaborative practice recurs across the program with individual accountability. In ENGR90051 Interdisciplinary Design for Engineers, students collaborate in multidisciplinary teams with individual project logs, mid-semester reviews, and team demonstrations subject to individual passing hurdles; in MCEN90054 Design and Manufacturing Practice, teams of 4 deliver group design reports with individual viva defense hurdles; in MCEN30021 Mechanical Systems Design, teams of 3 deliver concept and final design reports with individual physical demonstration oral assessments; and in ELEN90055 Control Systems, small groups of 2\u20133 complete continuous project work. Level 3 is not met: while core subjects use FEA software (MCEN30017, MCEN90026), formal assessed role-and-tool allocation charters dividing work between human engineers and automated AI/generative design systems are unevidenced.",
+      "evidenceLines": [
+        "ENGR90051 Interdisciplinary Design for Engineers ... Project log (individual) ... Mid-semester project review (conducted as a team, marked individually) ... Demonstration (team) ... Students must achieve an overall pass mark for each of the individual and team components",
+        "MCEN90054 Design and Manufacturing Practice ... Group Design Report (4 student groups 15%). VIVA style presentation, 5 minutes per student (individually marked 5%). ... Group Final Report ... Hurdle Requirement: To pass the subject, students must achieve at least 5/10 total for the VIVA presentations",
+        "MCEN30021 Mechanical Systems Design ... Concept design report (team of 3) ... Final design report (team of 3) ... Physical demonstration and interactive oral assessment (individual)"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: core assessment includes criterion-referenced appraisal of engineering models and physical designs. In ENGR90051, students maintain iterative project logs every 2\u20133 weeks and author an individual structured reflection evaluating their own design decisions and teamwork; in MCEN90054, students defend their group design and manufacturing reports in two VIVA style presentations under a combined pass hurdle; and in MCEN30021, students defend physical design demonstrations in interactive oral assessments. Level 3 is not met: no core assessment requires students to document and justify reliance decisions regarding AI-based generative design or topology optimization tools, defend judgements of AI simulation outputs, or evidence systematic override logs over time.",
+      "evidenceLines": [
+        "ENGR90051 Interdisciplinary Design for Engineers ... Project log (individual) 0.5 to 1 page, every 2-3 weeks ... Reflection (based on the project logs and the rest of the subject) (individual)",
+        "MCEN90054 Design and Manufacturing Practice ... VIVA style presentation, 5 minutes per student (individually marked 5%) ... Hurdle Requirement: To pass the subject, students must achieve at least 5/10 total for the VIVA presentations",
+        "MCEN30021 Mechanical Systems Design ... Physical demonstration and interactive oral assessment (individual)"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor is met: AI or digital tools appear only as electives or as tool operation and training. Every digital element in the compulsory core is tool operation. ENGR20005 Numerical Methods in Engineering assesses 'Assignment 1 - individual written report, including coding'; MCEN30017 assesses 'Attendance and participation in Finite Element Analysis (FEA) workshops'; MCEN90026 Solid Mechanics requires students to 'Utilise FEA software to solve stress analysis problems'; MCEN90008 requires students to 'Use Matlab to find numerical solutions'; and in ELEN90055 Control Systems, students analyse the stability, performance and robustness of feedback interconnections and the fundamental limitations in design, using software tools to simulate and design automatic control systems. Level 2 is unmet: no core unit addresses AI capabilities together with limitations or ethics, with use limits discussed and assessed. Artificial intelligence appears exactly twice in the capture, and neither instance is core assessment. The first is an unassessed program-level outcome, 'be able to evaluate, defend and execute decisions in an interdisciplinary context that include sustainability, process efficiency, automation and artificial intelligence, equity, safety, ethics, privacy and security'; the second is the Group B electives MCEN90048 Artificial Intelligence for Engineers and ELEN90095 AI for Robotics. A capability that appears in learning outcomes but is never assessed scores 1 (R2), and the C3 migration note caps tool-operation content at level 1. Level 3, critique or governance of AI systems in the discipline's own context, is unevidenced in core assessment.",
+      "evidenceLines": [
+        "ENGR20005 Numerical Methods in Engineering ... Assignment 1 - individual written report, including coding ... Assignment 2 ... Assignment 3",
+        "MCEN90026 Solid Mechanics ... Two modelling projects of equal weight and approximately 1000 words each",
+        "ELEN90055 Control Systems ... Continuous assessment of submitted project work, completed in small groups"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: core assessment requires transfer of mechanics, thermodynamics, fluid dynamics, and materials principles across multiple complex engineering contexts (from micro-scale materials in MCEN90014 to aero-thermal systems in MCEN90015/MCEN90008 and full mechatronic systems in MCEN30021). Level 3 is not met: while the Engineering Practice Hurdle requires students to maintain an e-portfolio of capability attainment, structured self-capability gap tracking with an assessed plan to close them in the core coursework is unevidenced.",
+      "evidenceLines": [
+        "be able to apply mechanical engineering knowledge, including thermodynamics, fluid mechanics, solid mechanics, materials, dynamics, control, manufacturing and design, to analyse, evaluate and design",
+        "MCEN90054 Design and Manufacturing Practice ... Individual design report ... Individual Manufacturing Report",
+        "ENGR90051 Interdisciplinary Design for Engineers ... Final project submission"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: students design and conduct experimental investigations and empirical laboratory inquiries across multiple core units (MCEN30018, MCEN90008, MCEN90014, MCEN90038, and MCEN90054), selecting measurement methodologies, collecting physical data, and defending results in technical reports and vivas. Level 3 is not met: while MCEN90054 and MCEN30021 feature oral vivas, a universal mandatory primary-evidence thesis with external viva defense before an external examination panel is unevidenced in the core.",
+      "evidenceLines": [
+        "MCEN30018 Thermodynamics and Fluid Mechanics ... Two laboratory reports ... Note: Some laboratory reports and assignments will be completed in teams of two",
+        "MCEN90008 Fluid Dynamics ... One practical laboratory report of up to 2000 words",
+        "MCEN90014 Materials Engineering ... 2 laboratory sessions with group written reports ... Hurdle requirement: Attendance at the labs and submission of written lab reports as required are compulsory"
+      ]
+    },
+    "adaptiveness": 9,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: at least one core assessment requires a recognised professional engineering genre judged against Engineers Australia professional criteria. In MCEN90054, students author formal Engineering Design Reports, Manufacturing Plans, and deliver oral viva presentations; in ENGR90051, students deliver professional multidisciplinary project reviews; and in MCEN30021, students produce formal mechanical systems design documentation. Level 3 is not met: project demonstrations and vivas are evaluated internally by academic faculty without documented compulsory external industry client panels.",
+      "evidenceLines": [
+        "MCEN90054 Design and Manufacturing Practice ... Individual design report (1250 words) ... Group Design Report (3000 words) ... VIVA style presentation",
+        "ENGR90051 Interdisciplinary Design for Engineers ... Mid-semester project review ... Demonstration (team) ... Final project submission",
+        "MCEN30021 Mechanical Systems Design ... Concept design report ... Final design report"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: core assessment reproduces professional mechanical engineering design, prototyping, and manufacturing tasks end-to-end (concept generation, design analysis, physical prototyping and manufacture of a functional product in MCEN90054, ENGR90051 and MCEN30021). Resolved downward from level 3 on adversarial verification: design briefs are academically framed without live externally supplied commercial briefs carrying consequential third-party client constraints in the core (R4).",
+      "evidenceLines": [
+        "MCEN90054 Design and Manufacturing Practice ... Group Design Report ... Individual Manufacturing Report ... Group Final Report",
+        "ENGR90051 Interdisciplinary Design for Engineers ... Demonstration (team) ... Final project submission",
+        "MCEN30021 Mechanical Systems Design ... Concept design report ... Final design report ... Physical demonstration"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1 anchor is met: assessed laboratory classes in MCEN30018, MCEN90008, MCEN90014 and MCEN90038, and a design-and-manufacture project in MCEN90054, appear across the core. Level 2 is unmet: the Engineering Practice Hurdle allows completing the STEP program (non-placement) or optional internship ENGR90033, so guaranteed workplace placement is not a universal curriculum requirement for all graduating students (R1).",
+      "evidenceLines": [
+        "In order to achieve the Engineering Practice Hurdle requirement, students will need to document the attainment of professional skills at an adequate level. This may include the successful completion of any of the following: 1. Skills Towards Employment Program (STEP) 2. ENGR90033 Internship subject 3. An agreed level of internship at an approved engineering form (without receiving University credit)",
+        "Group B electives ... ENGR90033 Internship"
+      ]
+    },
+    "workplace": 5,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "PASS condition is met: the program documents a comprehensive 300-point Engineers Australia and EUR-ACE accredited master's curriculum spanning engineering mathematics, solid mechanics, fluid dynamics, thermodynamics, materials science, dynamics, control systems, and mechanical systems design. Rigorous, coherent engineering core.",
+        "evidenceLines": [
+          "The Master of Mechanical Engineering requires the successful completion of 300 credit points. ... 225 credit points of compulsory subjects",
+          "Professional accreditation ... EURACE ... Engineers Australia",
+          "The core subject lists are divided into specific year levels, reflecting the recommended order of completing the course."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "PASS condition is met: assessment explicitly requires complex engineering trade-off decisions under physical and operational uncertainty \u2014 including synthesising solutions to open-ended, vaguely defined design tasks defended in VIVA presentations in MCEN90054, designing feedback interconnections for stability, performance and robustness in ELEN90055, and weighing stakeholder, sustainability, safety and feasibility considerations across a real-world design project in ENGR90051.",
+        "evidenceLines": [
+          "MCEN90054 Design and Manufacturing Practice ... VIVA style presentation, 5 minutes per student (individually marked 5%) ... Hurdle Requirement: To pass the subject, students must achieve at least 5/10 total for the VIVA presentations",
+          "ELEN90055 Control Systems ... Continuous assessment of submitted project work, completed in small groups (2-3 students), not exceeding at total of 20 pages of reports, due at least two weeks apart in the second half of semester.",
+          "ENGR90051 Interdisciplinary Design for Engineers ... Demonstration (team) ... Interactive discussion (conducted as a team, marked individually). Up to 15 mins (based on work completed throughout the entire semester)."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1 straddled 2 and 3: collaborative team design projects recur across ENGR90051, MCEN90054, MCEN30021, and ELEN90055 with individual viva hurdles (level 2). Level 3 is unmet because explicit human-AI workflow allocation charters are unevidenced.",
+      "C2 straddled 2 and 3: project logs, reflective writing, and viva defense recur across ENGR90051 and MCEN90054 (level 2). Level 3 is unmet because generative AI/topology optimization override logs are unevidenced.",
+      "C3 straddled 1 and 2: numerical coding and FEA tool operation are assessed in ENGR20005, MCEN30017 and MCEN90026, but artificial intelligence appears only as an unassessed program-level outcome and as Group B electives. Lower level (1) taken per R1 and R2.",
+      "C4 straddled 2 and 3: multi-domain mechanical transfer is assessed across the core (level 2), but self-capability gap tracking is unevidenced. Scored at 2.",
+      "C5 straddled 2 and 3: empirical laboratory investigations satisfy level 2, but oral viva defense under external scrutiny is unevidenced across the core. Scored at 2.",
+      "W1 straddled 2 and 3: professional engineering documentation satisfies level 2, but external industry client evaluation is unevidenced in the core. Scored at 2.",
+      "W2 straddled 2 and 3: authentic full-cycle design and manufacturing projects are assessed, but tasks are academically framed without live commercial briefs. Resolved downward to 2 per R4.",
+      "W3 straddled 1 and 2: industry placement is optional under the STEP hurdle route (level 1). Scored at 1 per R1."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-25"
+    }
+  }
+}

@@ -55,7 +55,7 @@ Guidelines from [ASI](https://www.steel.org.au/) and [CIA](https://concreteinsti
 
 ### Theme 3 — primary empirical evidence and defended structural testing
 
-Engineers Australia research frameworks highlight that high-performance structural systems (mass timber, modular steel) require engineers who can design empirical physical tests, interpret laboratory sensor data, and defend their design methodologies under peer review.
+Reports from [Engineers Australia](https://www.engineersaustralia.org.au/) (November 2024) and the [Journal of Structural Engineering](https://ascelibrary.org/journal/jsendh) highlight that high-performance structural systems (mass timber, modular steel) require engineers who can design empirical physical tests, interpret laboratory sensor data, and defend their design methodologies under peer review.
 
 **Bearing:** C5, C4, and G1.
 
@@ -98,19 +98,19 @@ Engineers Australia research frameworks highlight that high-performance structur
 
 ---
 
-## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+## REAL GRADUATE DESTINATIONS (JSA HEO)
 
-**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 030901 Civil & Structural Engineering):
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **0309 Civil Engineering** (n = 6,620 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 66.0% of them, and the 5 largest are shown at each stage.
 
 | Career stage | Top occupations |
 |---|---|
-| Entry (~1yr) | Structural Engineers (45%), Civil Engineers (30%), Site / Construction Engineers (15%), Graduate BIM Specialists (10%) |
-| Early (~3yr) | Senior Structural Engineers (45%), Project Engineers (Infrastructure) (25%), Façade Specialists (15%), Engineering Consultants (15%) |
-| Senior (~5yr) | Structural Technical Directors (35%), Principal Structural Engineers (30%), Construction Project Managers (20%), Engineering Associates (15%) |
+| Entry (~1yr) | Civil Engineer (46.7%) · Structural Engineer (7.1%) · Engineering Professionals nec (2.4%) · Construction Project Manager (2.0%) · Geotechnical Engineer (1.8%) |
+| Early (~3yr) | Civil Engineer (47.1%) · Structural Engineer (7.9%) · Construction Project Manager (3.0%) · Engineering Professionals nec (2.4%) · Geotechnical Engineer (2.0%) |
+| Senior (~5yr) | Civil Engineer (44.4%) · Structural Engineer (7.3%) · Construction Project Manager (4.4%) · Engineering Professionals nec (2.3%) · Program or Project Administrator (2.0%) |
 
-**Graduate outcomes** (QILT GOS 2024, postgraduate engineering): 88% full-time employment · median salary ,000 · JSA occupation demand: **Shortage**.
+**Field grain, not program grain.** These are graduates of the whole Civil Engineering field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
 
-**Hiring now (demand-side)** — Adzuna AU live vacancies: Arup, WSP Australia, Aurecon, AECOM, Jacobs, Beca, Mott MacDonald, CPB Contractors, John Holland, Multiplex. Advertised salary Ak–155k.
+**Graduate outcomes** (QILT GOS 2024, postgraduate Engineering cut): 88.3% full-time employment · median salary $111,000 · 97.5% at three years · JSA occupation demand: **shortage**.
 `,
 };
 

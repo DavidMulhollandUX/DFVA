@@ -129,21 +129,15 @@ Commentary from global behavioural strategy firms (including [The Behavioural In
 ---
 
 <!-- LABOUR-EVIDENCE:START -->
-## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+## REAL GRADUATE DESTINATIONS (JSA HEO)
 
-**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **090701 Psychology** (n = 24,170 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 36.6% of them, and the 5 largest are shown at each stage.
 
 | Career stage | Top occupations |
 |---|---|
-| Entry (~1yr) | Psychologists nec (22%), Market Research Analysts (14%), Policy and Planning Managers (9%), University Lecturers and Tutors (8%), Advertising and Marketing Professionals nec (7%) |
-| Early (~3yr) | Psychologists nec (20%), Management Consultants (15%), Market Research Analysts (12%), Policy and Planning Managers (10%), Human Resource Professionals (8%) |
-| Senior (~5yr) | Management Consultants (18%), Psychologists nec (16%), Research and Development Managers (12%), Policy and Planning Managers (11%), Marketing Directors (9%) |
+| Entry (~1yr) | Psychologists nec (11.3%) · Clinical Psychologist (7.9%) · General Clerk (3.4%) · Sales Assistant (General) (3.4%) · Social Worker (2.8%) |
+| Early (~3yr) | Psychologists nec (12.0%) · Clinical Psychologist (9.1%) · Social Worker (3.3%) · General Clerk (2.6%) · Program or Project Administrator (2.4%) |
+| Senior (~5yr) | Psychologists nec (12.1%) · Clinical Psychologist (9.3%) · Social Worker (3.4%) · Program or Project Administrator (2.7%) · General Clerk (2.1%) |
 
-**Graduate outcomes** (QILT GOS 2024, postgraduate psychology / behavioural science): 86% full-time employment · median salary $98,500 · 3-year employment 94% · JSA occupation demand: **Moderate–High**.
-
-**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): The Behavioural Insights Team (BIT), Department of Premier and Cabinet Victoria, Ipsos Australia, Forethought, ORIMA Research, Decision Design, Canva, Atlassian, EY (People & Change), Nous Group, Social Deck. Advertised salary A$75k–135k.
-
-**Sector context:** Applied psychology and behavioural science expertise is increasingly embedded in public policy, customer experience design, and digital product strategy. Demand is driven by evidence-based policy mandates and the need to govern digital influence architectures.
-
-*Sources: JSA HEO Work & Occupation (090701 Psychology); QILT GOS 2024; Adzuna AU. Destinations are field-of-education level; employers are demand-side (not alumni).*
+**Field grain, not program grain.** These are graduates of the whole Psychology field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
 <!-- LABOUR-EVIDENCE:END -->

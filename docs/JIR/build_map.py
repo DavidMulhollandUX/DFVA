@@ -58,7 +58,7 @@ matches = [
     {"dfva_code": "mc-scibif", "dfva_name": "Master of Science (Bioinformatics)", "tier": "none", "jir_name": None, "jir_n": None},
     {"dfva_code": "mc-sciepi", "dfva_name": "Master of Science (Epidemiology)", "tier": "none", "jir_name": "Master of Public Health", "jir_n": None},
     {"dfva_code": "mc-actsc", "dfva_name": "Master of Actuarial Science", "tier": "none", "jir_name": "Bachelor of Commerce (Actuarial Studies)", "jir_n": None},
-    {"dfva_code": "mc-bamktg", "dfva_name": "Master of Business Administration (Marketing)", "tier": "none", "jir_name": None, "jir_n": None},
+    {"dfva_code": "mc-bamktg", "dfva_name": "Master of Business Administration/Master of Marketing", "tier": "none", "jir_name": None, "jir_n": None},
     {"dfva_code": "b-sci", "dfva_name": "Bachelor of Science", "tier": "none", "jir_name": "23 BSc-major reports", "jir_n": None},
     
     # Additional DFVA programs with JIR matches found in scraping

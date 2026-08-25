@@ -299,11 +299,11 @@ They know what the data in their domain doesn't measure — the gap between what
 They use AI analytics tools fluently but critically. They know when the AI-generated insight is right and when it's wrong, and they have the domain knowledge to distinguish between them. That critical layer — not just analytical competence but analytical judgment in a specific context — is their professional asset."""
 },
 
-# ─── mc-bamktg — Master of Business Administration (Marketing) ──────────────
+# ─── mc-bamktg — Master of Business Administration/Master of Marketing ──────────────
 "mc-bamktg": {
 "score": 17, "riskBand": "HIGH RISK",
 "q1": "YES", "q2": "UNCERTAIN", "q3": "UNCERTAIN",
-"profile": """The Master of Business Administration (Marketing) at the University of Melbourne is a specialist MBA stream combining core business administration content with a marketing specialisation. The program targets marketing professionals seeking managerial advancement and career-changers entering marketing leadership.
+"profile": """The Master of Business Administration/Master of Marketing at the University of Melbourne is a 300-credit-point dual award combining 150 credit points of compulsory general management core with a 37.5-credit-point compulsory marketing core, plus MBA and marketing electives. The program targets marketing professionals seeking managerial advancement and career-changers entering marketing leadership.
 
 Core management subjects are combined with marketing electives covering consumer behaviour, digital marketing, brand strategy, marketing analytics, and market research. The program provides AACSB-accredited business education with a marketing depth track.
 
@@ -322,7 +322,7 @@ Specific threats:
 - **AI analytics (GA4 AI insights, Amplitude AI)** — automated performance interpretation and recommendation generation
 - **AI personalisation engines** — dynamic content optimisation replacing manual segmentation and targeting""",
 
-"verdict": """**The Master of Business Administration (Marketing) is HIGH RISK — a credential whose primary professional domain is experiencing acute AI disruption.**
+"verdict": """**The Master of Business Administration/Master of Marketing is HIGH RISK — a credential whose primary professional domain is experiencing acute AI disruption.**
 
 Marketing is one of the fields where AI tools have had the fastest and deepest impact. Content generation, campaign optimisation, performance analytics, and market research are all experiencing significant AI compression. The marketing MBA credential signals managerial capability, but the executional domain it is designed for is changing faster than the curriculum reflects.
 

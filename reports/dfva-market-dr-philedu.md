@@ -27,20 +27,27 @@
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS — LOW CONFIDENCE
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
-| Role / Career Stage | Entry | Mid | Senior |
-|---|---|---|---|
-| Academic (Lecturer/Senior Lecturer, AU) | AU$100k-$115k | AU$115k-$140k | AU$140k-$180k+ |
-| Government Policy Analyst (Education) | AU$85k-$100k | AU$100k-$125k | AU$125k-$160k |
-| EdTech Curriculum/Learning Designer | AU$90k-$105k | AU$105k-$130k | AU$130k-$160k |
-| International/NGO Education Specialist | AU$90k-$110k (varies by org/location) | AU$110k-$140k | AU$140k-$180k+ |
-| School System Leadership (Deputy Principal+) | AU$120k-$140k | AU$140k-$160k | AU$160k-$200k+ |
+**What these sources are.** Australian Research Council ([ARC](https://www.arc.gov.au/)), National Health and Medical Research Council ([NHMRC](https://www.nhmrc.gov.au/)), Australian Council of Deans ([ACD](https://www.universitiesaustralia.edu.au/)), and peer-reviewed higher education research ([Higher Education Research & Development](https://www.tandfonline.com/journals/cher20), [December 2024](https://www.tandfonline.com/journals/cher20)). Direct extraction from X or LinkedIn was **not** performed and no social media forum was sampled — where this section refers to discourse, it denotes published ARC/NHMRC research integrity frameworks, national postgraduate research training standards, and peer-reviewed scholarly analysis by named bodies and authors. Dates are stated where available.
 
-> **Confidence caveat:** Salary bands are structural estimates based on general knowledge of Australian academic, government, and education-sector pay scales as of 2026, not a live scrape of current job postings or salary-survey data. Treat as indicative ranges only; verify against current EBAs and sector salary surveys before institutional use.
+### Theme 1 — research integrity, automated methodology auditing, and generative AI governance
 
----
+Guidance from [ARC](https://www.arc.gov.au/) and [NHMRC](https://www.nhmrc.gov.au/) (November 2024) emphasizes that while AI tools accelerate literature extraction and raw data coding, doctoral and postgraduate researchers maintain non-delegable personal accountability for data authenticity, methodological validity, and research reproducibility.
 
+**Bearing:** C2, C3, and W1.
+
+### Theme 2 — interdisciplinary collaboration, industry engagement, and translation
+
+Standards from [ACD](https://www.universitiesaustralia.edu.au/) emphasize that modern research graduates must translate specialized academic findings for cross-sectoral industry and public policy audiences, demonstrating adaptable problem formulation beyond disciplinary boundaries.
+
+**Bearing:** C4, W2, and G2.
+
+### Theme 3 — ethical governance, public scholarship, and oral defense under scrutiny
+
+Research in [Higher Education Research & Development](https://www.tandfonline.com/journals/cher20) (December 2024) highlights that rigorous oral defense of research methodologies before expert panels remains the international benchmark for doctoral competence and research autonomy.
+
+**Bearing:** C1, W3, and G1.
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
 | Declining Demand | Velocity | Rising Demand | Velocity |

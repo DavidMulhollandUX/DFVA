@@ -98,19 +98,19 @@ Strategic agendas from [AIFST](https://www.aifst.org.au/) and [CSIRO](https://ww
 
 ---
 
-## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
+## REAL GRADUATE DESTINATIONS (JSA HEO)
 
-**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 019905 Food Science and Biotechnology):
+**Where graduates of this field actually work** — [JSA Higher Education Outcomes](https://www.jobsandskills.gov.au/publications/higher-education-outcomes-exploring-administrative-data) (ATO tax-linked administrative data, Table_3, workbook dated 2025-12-04), field of education **019905 Food Science and Biotechnology** (n = 1,480 completions). Shares are the percentage of the field's graduates in wage or salary work; the field's ten most common entry occupations account for 41.9% of them, and the 5 largest are shown at each stage.
 
 | Career stage | Top occupations |
 |---|---|
-| Entry (~1yr) | Food Technologists (45%), Quality Assurance Officers (30%), Product Development Assistants (15%), Laboratory Technicians (10%) |
-| Early (~3yr) | Senior Food Technologists (35%), QA / Compliance Managers (30%), R&D Food Scientists (20%), Regulatory Affairs Officers (15%) |
-| Senior (~5yr) | Heads of Quality & Food Safety (35%), R&D Innovation Directors (25%), Manufacturing Operations Leads (20%), Food Industry Consultants (20%) |
+| Entry (~1yr) | Food Technologist (13.5%) · Quality Assurance Manager (4.1%) · Sales Assistant (General) (4.1%) · Chemistry Technician (3.4%) · General Clerk (2.7%) |
+| Early (~3yr) | Food Technologist (15.5%) · Quality Assurance Manager (5.4%) · Chemistry Technician (3.4%) · Chemist (2.0%) · Organisation and Methods Analyst (2.0%) |
+| Senior (~5yr) | Food Technologist (14.9%) · Quality Assurance Manager (6.1%) · Chemistry Technician (2.7%) · Organisation and Methods Analyst (2.0%) · Wine Maker (2.0%) |
 
-**Graduate outcomes** (QILT GOS 2024, postgraduate agriculture and environmental studies / food science): 86% full-time employment · median salary ,000 · JSA occupation demand: **Moderate to High**.
+**Field grain, not program grain.** These are graduates of the whole Food Science and Biotechnology field of education at every completion level — not this program's graduates, and not a per-degree distribution. ANZSCO-6 does not encode seniority, so the 1/3/5-year lists move little for most fields.
 
-**Hiring now (demand-side)** — Adzuna AU live vacancies: Bega Cheese, Saputo Dairy Australia, Simplot Australia, George Weston Foods, Kerry Group, Givaudan, CSIRO Agriculture and Food, Mondelez International, Lion Co, Asahi Beverages. Advertised salary Ak–135k.
+**Graduate outcomes** (QILT GOS 2024, postgraduate Science cut): 79.3% full-time employment · median salary $100,000 · 94.3% at three years · JSA occupation demand: **recruitment difficulty**.
 `,
 };
 

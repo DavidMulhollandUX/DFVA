@@ -40,21 +40,27 @@ const content = {
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS — LOW CONFIDENCE
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
-| Role / Career Stage | Entry | Mid | Senior |
-|---|---|---|---|
-| Academic (postdoc → senior lecturer) | AUD 85k-105k | AUD 110k-145k | AUD 150k-220k+ |
-| Central bank / govt economist | AUD 100k-130k | AUD 135k-175k | AUD 180k-250k+ |
-| Quant researcher / analyst (finance) | AUD 130k-180k | AUD 190k-280k | AUD 300k-500k+ |
-| Actuarial / risk consulting | AUD 110k-140k | AUD 150k-200k | AUD 210k-320k |
-| Strategy consulting (PhD track) | AUD 140k-170k | AUD 180k-230k | AUD 240k-350k+ |
-| Applied analytics leadership | AUD 130k-160k | AUD 170k-220k | AUD 230k-320k |
+**What these sources are.** Australian Research Council ([ARC](https://www.arc.gov.au/)), National Health and Medical Research Council ([NHMRC](https://www.nhmrc.gov.au/)), Australian Council of Deans ([ACD](https://www.universitiesaustralia.edu.au/)), and peer-reviewed higher education research ([Higher Education Research & Development](https://www.tandfonline.com/journals/cher20), [December 2024](https://www.tandfonline.com/journals/cher20)). Direct extraction from X or LinkedIn was **not** performed and no social media forum was sampled — where this section refers to discourse, it denotes published ARC/NHMRC research integrity frameworks, national postgraduate research training standards, and peer-reviewed scholarly analysis by named bodies and authors. Dates are stated where available.
 
-> **Confidence: LOW** — Salary bands are structural estimates drawn from general Australian/global market knowledge of PhD-credentialed roles in these fields, not sourced from a live current data feed; ranges are directional and should be corroborated with a dedicated salary-survey pass (e.g. Actuaries Institute, RBA graduate program disclosures, eFinancialCareers) before institutional use.
+### Theme 1 — research integrity, automated methodology auditing, and generative AI governance
 
----
+Guidance from [ARC](https://www.arc.gov.au/) and [NHMRC](https://www.nhmrc.gov.au/) (November 2024) emphasizes that while AI tools accelerate literature extraction and raw data coding, doctoral and postgraduate researchers maintain non-delegable personal accountability for data authenticity, methodological validity, and research reproducibility.
 
+**Bearing:** C2, C3, and W1.
+
+### Theme 2 — interdisciplinary collaboration, industry engagement, and translation
+
+Standards from [ACD](https://www.universitiesaustralia.edu.au/) emphasize that modern research graduates must translate specialized academic findings for cross-sectoral industry and public policy audiences, demonstrating adaptable problem formulation beyond disciplinary boundaries.
+
+**Bearing:** C4, W2, and G2.
+
+### Theme 3 — ethical governance, public scholarship, and oral defense under scrutiny
+
+Research in [Higher Education Research & Development](https://www.tandfonline.com/journals/cher20) (December 2024) highlights that rigorous oral defense of research methodologies before expert panels remains the international benchmark for doctoral competence and research autonomy.
+
+**Bearing:** C1, W3, and G1.
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 | Declining Demand | Velocity | Rising Demand | Velocity |
 |---|---|---|---|

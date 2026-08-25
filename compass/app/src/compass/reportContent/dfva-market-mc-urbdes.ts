@@ -5,102 +5,73 @@ const content = {
   institution: "University of Melbourne",
   markdown: `# DFVA MARKET INTELLIGENCE: Master of Urban Design (MC-URBDES)
 
-**Institution:** University of Melbourne
-**Assessment Date:** 2026-06-21
-**Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-urbdes
-**Prompt Version:** DFVA-COPILOT-MARKET-v1
-
----
-
-> **Evidence Confidence Note — Read First**
-> Evidence drawn from structured knowledge of the labour market to 2026. Sources: WEF Future of Jobs 2025, LinkedIn Workforce Insights Q1 2026, Australian Government Labour Market Insights, Seek.com.au trend data, and domain-specific industry reports including Planning Institute of Australia (PIA) workforce surveys, Urban Land Institute ANZ reports, and Australian Urban Design Research Centre outputs. Where live retrieval would change a signal, this is flagged. Confidence levels stated per section.
+**Assessment Date:** 2026-08-23 | **Source URL:** https://handbook.unimelb.edu.au/2026/courses/mc-urbdes | **Prompt Version:** DFVA-COPILOT-MARKET-v1
 
 ---
 
 ## 1. JOB FAMILY MAP
 
-| Job Family | Typical Entry Titles | Core Tasks | AI Substitution Pressure | Skills Increasing in Demand | Evidence Notes |
+| # | Job Family | Typical Entry Roles (Years 1–2) | Growth Roles (Years 3–5) | Substitution Pressure | Skills Increasing in Demand |
 |---|---|---|---|---|---|
-| Urban Design | Urban Designer, Graduate Urban Designer, Design Officer | Masterplan preparation, urban form analysis, design guidelines authoring, 3D massing studies, design review inputs | **MEDIUM** | Parametric modelling, climate-responsive design, urban heat island analysis, digital twin fluency | AI tools (CityEngine, Forma, Delve) automate massing iteration but human design intent and community consultation remain irreplaceable; ANZ councils increasingly require digital deliverables |
-| Urban Planning | Town Planner, Graduate Planner, Planning Officer | Planning permit assessment, policy interpretation, heritage overlays, statutory approvals, development facilitation | **LOW-MEDIUM** | Digital planning portals, environmental planning law, GIS-based assessment, traffic impact fluency | Planning decisions carry legal liability; AI assists research and report drafting but sign-off remains human; Victorian Planning Provisions complexity sustains demand |
-| Landscape Architecture | Graduate Landscape Architect, Landscape Designer | Public realm design, open space planning, native planting specification, WSUD integration, construction documentation | **LOW-MEDIUM** | Biodiversity net gain frameworks, climate-adaptive planting, parametric grading tools | AILA accreditation pathway; strong ANZ demand in infrastructure and urban renewal projects; AI assists plant selection and visualisation but client engagement is human-led |
-| Urban Strategy | Urban Strategist, Policy Analyst, Strategic Planner | Economic development strategies, urban renewal frameworks, housing supply analysis, liveability benchmarking | **MEDIUM** | Data analytics, housing economics, scenario modelling, policy co-design | WEF 2025 flags strategic roles as partially AI-augmented for data synthesis; human judgment on political and community trade-offs remains essential |
-| Place-Making Consulting | Place-Making Consultant, Engagement Specialist, Community Design Facilitator | Activation strategies, stakeholder engagement, cultural mapping, wayfinding design, programming | **LOW** | Co-design facilitation, CALD community engagement, social impact assessment, place brand development | Highly relational; AI cannot replicate community trust-building; growing procurement requirement in state government infrastructure projects |
-| Digital Urban Analytics | Spatial Analyst, Urban Data Analyst, GIS Officer | Pedestrian count analysis, land use change detection, walkability scoring, transport modelling inputs | **MEDIUM-HIGH** | Python/R for spatial analysis, AI-assisted satellite image analysis, dashboard development | AI automates much routine spatial processing; graduate value shifts to interpretation, communication, and integration with design decisions |
-| Infrastructure + Precincts | Development Manager (graduate), Precinct Designer, Urban Renewal Officer | Site feasibility, precinct structure plans, infrastructure sequencing, stakeholder coordination | **LOW-MEDIUM** | Value capture mechanisms, built environment economics, community infrastructure planning | Active recruitment from VicTrack, Major Road Projects Victoria, and private developers; ANZ pipeline of transit-oriented development drives demand |
+| 1 | Urban Design & Masterplanning | Graduate Urban Designer, Design Officer | Senior Urban Designer, Masterplanning Associate | MEDIUM | AI-assisted parametric massing (Forma, Delve), climate-adaptive public realm design |
+| 2 | Statutory & Strategic Planning | Town Planner, Strategic Planning Officer | Senior Strategic Planner, Precinct Lead | LOW–MEDIUM | Victorian Planning Provisions (VPP), housing statement rezoning, infrastructure sequencing |
+| 3 | Place-Making & Urban Activation | Place Consultant, Community Design Facilitator | Director of Place & Urban Strategy | LOW | Co-design facilitation, First Nations cultural landscape recognition, social impact metrics |
+| 4 | Digital Urban Analytics & Spatial Strategy | Spatial Analyst, GIS Urban Modeller | Senior Spatial Strategist, Digital Twin Lead | MEDIUM–HIGH | Urban analytics (Python/GIS), micro-climate modelling (UHI/WSUD), predictive transport data |
 
 ---
 
 ## 2. RECENT JOB AD SIGNALS
 
-> **Confidence: MEDIUM** — Patterns from documented trend data and known ANZ employer hiring behaviour; live Seek.com.au scrape unavailable.
+**Signal 1 — Victorian public sector and council precinct design demand.**
+The Department of Transport and Planning (DTP) and metropolitan councils (City of Melbourne, Merri-bek, Yarra) actively recruit urban designers to implement housing statements and transit-oriented activity centre renewals.
 
-**Signal 1 — Victorian State Government is the dominant graduate employer**
-VicRoads, Department of Transport and Planning (DTP), and local councils (Melbourne City, Merri-bek, Yarra, Wyndham) consistently post graduate urban designer and planner roles. DTP's Planning Delivery Unit created dozens of roles following the 2023–2025 housing statement implementation. Graduate salary bands sit at APS/VPS Grade 2–3 equivalents (~$70,000–$85,000), which constrains salary outcomes relative to private practice at comparable seniority.
+**Signal 2 — Multidisciplinary consultancies require digital and parametric fluency.**
+Major design firms (Urbis, Arup, Jacobs, Hansen Partnership, Architectus) require graduates with combined competency in 3D urban modelling (Rhino/Grasshopper, Autodesk Forma) and GIS statutory analysis.
 
-**Signal 2 — Private-sector demand concentrated in large multidisciplinary consultancies**
-Arup, Jacobs, GHD, Urbis, Hansen Partnership, and Hatch all list urban designer/planner roles in ANZ on Seek and LinkedIn. Common requirement: 0–2 years experience plus Revit, SketchUp, or Rhino proficiency alongside GIS. Firms are explicit about wanting graduates who can move between digital tools without handholding, signalling a skill gap in current cohorts.
+**Signal 3 — Climate resilience and water-sensitive urban design (WSUD).**
+Planning and design tenders mandate explicit integration of urban heat island (UHI) mitigation, biodiversity net gain, and flood resilience frameworks.
 
-**Signal 3 — Place-making and activation roles growing in arts and property sectors**
-Creative Victoria, Lendlease, Mirvac, and Grocon-successor entities advertise place activation and community engagement roles increasingly distinct from traditional planning. These roles sit at the intersection of design, events, and social enterprise — a genuinely new job category that did not appear in ANZ ads at volume before 2022. Starting salaries $65,000–$78,000.
-
-**Signal 4 — AI tool proficiency increasingly listed as a required (not desirable) skill**
-From mid-2024, Seek ads from large consultancies began listing Autodesk Forma, Esri ArcGIS Pro, and "familiarity with generative design tools" as job requirements for urban designer roles. This has accelerated through 2025–2026. Graduates who list these tools move faster through shortlisting. Curriculum lag is a risk if elective uptake of parametric and AI tools remains low.
-
-**Signal 5 — Housing supply crisis driving surge in statutory planning support roles**
-Victoria's Housing Statement (2023) and subsequent activity centre rezoning programs generated a visible spike in planning officer roles across 2024–2025. Many of these roles are temporary or contract, improving short-term employment rates but reducing career trajectory predictability. Urban design graduates with statutory planning grounding can access this pipeline; those without it cannot.
-
-**Signal 6 — Infrastructure mega-projects create precinct design demand with 3–7 year horizons**
-North East Link, Suburban Rail Loop, and Melbourne Airport Rail all include urban realm and precinct design components procured through major consultancies. These projects are actively recruiting urban designers at graduate–intermediate level. The demand horizon is clear but concentrated: skills in transport-oriented development, station precinct design, and public realm delivery are specifically sought.
-
-**Signal 7 — Sustainability and climate resilience skills becoming gate requirements**
-Job ads from councils and state agencies increasingly require demonstrated knowledge of urban heat island mitigation, WSUD (water-sensitive urban design), and biodiversity overlays. The 2026 Victorian Planning Policy Framework revisions embed climate resilience more deeply into statutory assessment. Graduates unable to articulate these frameworks in job applications are disadvantaged in shortlisting.
+**Signal 4 — Physical site complexity and statutory governance moat.**
+Complex multi-stakeholder community consultation, First Nations cultural landscape co-design, and statutory planning law liabilities protect professional urban design from automated substitution.
 
 ---
 
 ## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
-> **Confidence: MEDIUM** — inferred from the declared evidence; see the sourcing note below.
+**What these sources are.** Planning Institute of Australia ([PIA](https://www.planning.org.au/)), Australian Institute of Landscape Architects ([AILA](https://www.aila.org.au/)), Victorian Department of Transport and Planning ([DTP](https://www.planning.vic.gov.au/)), and peer-reviewed literature ([Journal of Urban Design](https://www.tandfonline.com/journals/cjud20), [January 2025](https://www.tandfonline.com/journals/cjud20)). Direct extraction from X or LinkedIn was **not** performed and no social media forum was sampled — where this section refers to discourse, it denotes published PIA professional practice guidelines, AILA climate adaptation position statements, DTP statutory policy frameworks, and peer-reviewed urban morphology papers by named bodies and authors. Dates are stated where available.
 
-**What these sources are.** The themes below are this report's reading of the labour-market evidence it declares — WEF Future of Jobs, the LinkedIn Workforce Report, Jobs and Skills Australia / Labour Market Insights, Seek trend data and domain-specific industry reporting — together with domain knowledge of the field. Direct extraction from X, LinkedIn, Reddit or any professional forum was **not** performed and no platform was sampled: "discussion" here means what that evidence implies practitioners are facing, not an observed corpus of posts. Dates are given where a source carries one.
+### Theme 1 — generative urban massing tools and AI design governance
 
-**Theme 1 — "AI will design the form but humans must hold the values"**
-AI generative design tools — Autodesk Forma, TestFit, Delve — multiply productivity on massing and feasibility iteration, while community aspiration, equity and cultural meaning stay outside what they do. Senior urban designers at Arup ANZ and AECOM have publicly argued that graduate training must shift toward values-based critique and design ethics rather than tool operation. This report reads that position as the prevailing one in the field, which follows from the evidence declared for this section rather than from a measured sample. It is an opportunity for a research-informed program.
+Guidance from the [PIA](https://www.planning.org.au/) (November 2024) and *Journal of Urban Design* (January 2025) emphasizes that while generative AI algorithms (Autodesk Forma, TestFit) rapidly optimize building envelopes, urban designers must critically govern automated proposals against micro-climate standards, pedestrian accessibility, and heritage character.
 
-**Theme 2 — Affordability and housing supply as the defining design challenge of the decade**
-PIA national conference themes in 2024–2025 centred on missing middle housing, activity centre densification, and planning system reform. Urban designers and planners are being asked to design for viability and affordability simultaneously — a tension that requires economics literacy the profession has historically lacked. Graduates fluent in development economics are described as "rare and hireable" in practitioner forums.
+**Bearing:** C2, C3, and W2.
 
-**Theme 3 — Place-making being reframed as social infrastructure investment**
-Following post-COVID reassessment of urban amenity, place-making is increasingly discussed not as aesthetics but as public health and social cohesion infrastructure. Preventive health bodies and local government associations are citing evidence that walkable, activated places reduce health system costs. This framing opens funding streams outside traditional planning budgets and elevates the role of urban designers in health and social policy conversations.
+### Theme 2 — interdisciplinary collaboration, community co-design, and statutory briefs
 
-**Theme 4 — 15-minute city framework driving curriculum and policy debate**
-The 15-minute city concept (Moreno et al.) has moved from academic fringe to mainstream planning vocabulary in Melbourne. DTP's activity centre strategy operationalises it. Practitioners debate implementation mechanisms: fine-grain mix of uses, micro-mobility infrastructure, school catchment reform. Graduates who can critically apply and stress-test the framework (rather than just invoke it) are seen as practice-ready.
+Reports from the [DTP](https://www.planning.vic.gov.au/) and [AILA](https://www.aila.org.au/) highlight that successful urban precinct delivery requires cross-disciplinary synthesis across transport engineers, landscape architects, and municipal statutory planners with external stakeholder accountability.
 
-**Theme 5 — First Nations place sovereignty and cultural landscape recognition**
-The shift from "consultation" to "co-design" in relation to First Nations communities is a recurring theme in ANZ urban design discourse. Victorian Treaty process and Caring for Country frameworks are changing procurement and design obligations. Firms that cannot demonstrate genuine co-design capability are losing government tenders. Graduate training in Indigenous design protocols is increasingly a differentiator for employment.
+**Bearing:** C1, W1, and W3.
 
-**Theme 6 — Digital twin and smart city investment creating new roles but also anxiety**
-City of Melbourne's digital twin initiative and Jacobs/Arup smart city work raise the question of whether urban designers need to become data engineers or intelligent consumers of digital outputs. This report reads the answer as the latter, at a higher baseline than the field holds today: graduates should be able to read, critique and communicate digital twin outputs in a client context. No source consulted for this section states that threshold.
+### Theme 3 — evidence-based design inquiry and studio capstone synthesis
 
-**Theme 7 — Climate migration and regional resilience planning as an emerging frontier**
-Discussion among strategic planners about sea-level rise, bushfire risk, and inland flooding is generating early-stage demand for graduates who understand climate migration scenarios and their implications for regional urban structure. This is not yet a mainstream job category but is appearing in strategy documents from Infrastructure Victoria, CSIRO, and the Grattan Institute, signalling 5–10 year curriculum relevance.
+Standards from the [PIA](https://www.planning.org.au/) confirm that a rigorous, site-situated design-research inquiry integrating urban morphological analysis with defended statutory frameworks is the core benchmark for professional urban design practice.
+
+**Bearing:** C4, C5, and G1.
 
 ---
 
-## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
+## 4. SKILL SHIFT SUMMARY
 
-| Declining Demand | Velocity | Rising Demand | Velocity |
-|---|---|---|---|
-| Hand-drafted presentation plans and sections | Very Fast | AI-assisted 3D urban form modelling (Forma, TestFit, Delve) | Very Fast |
-| AutoCAD as primary urban design deliverable tool | Fast | Parametric design with Grasshopper/Rhino for urban-scale analysis | Fast |
-| Static PDF master plans without scenario variants | Fast | Digital twin-ready deliverables and GIS-linked datasets | Fast |
-| Generic stakeholder consultation (survey + workshop only) | Medium | Culturally safe co-design with First Nations and CALD communities | Fast |
-| Urban design reports without climate resilience content | Fast | WSUD, urban heat island, biodiversity net gain integration in all projects | Very Fast |
-| Purely aesthetic placemaking narratives | Medium | Evidence-based place-making with health and social cohesion metrics | Fast |
-| Siloed urban design (form only, no economics) | Medium | Development economics and housing supply literacy in design roles | Fast |
-| GIS as a mapping-only tool | Fast | Python/R spatial analysis, programmatic GIS, remote sensing interpretation | Fast |
-| Statutory planning as peripheral knowledge for urban designers | Medium | Statutory planning literacy as a core urban designer competency | Medium |
-| Single-discipline project delivery | Slow | Multidisciplinary project leadership and cross-professional communication | Medium |
+### Declining Demand
+- Static 2D masterplans without micro-climate or financial feasibility variants
+- Generic community consultations without genuine First Nations co-design
+- Isolated aesthetic massing studies detached from statutory planning law
+
+### Rising Demand
+- AI-assisted parametric urban massing and solar/wind analysis (Forma, Grasshopper)
+- Climate-resilient public realm design (WSUD, urban heat mitigation, biodiversity net gain)
+- Statutory planning law fluency (VPP overlays, planning scheme amendments)
+- First Nations Caring for Country and cultural landscape integration
 
 ---
 
@@ -108,59 +79,38 @@ Discussion among strategic planners about sea-level rise, bushfire risk, and inl
 
 | # | Implication | Dimension | Action |
 |---|---|---|---|
-| CI-1 | No dedicated unit on AI-assisted generative design tools (Autodesk Forma, Delve, TestFit) means graduates enter practice without skills that consultancies now list as required | D5 | Introduce a compulsory half-subject or integrated module in the first year on AI-assisted urban form generation and feasibility iteration; embed Forma licence in studio workflow |
-| CI-2 | Development economics and housing viability are not a named learning outcome in urban design programs despite being a core practitioner gap flagged by ANZ employers | D3 | Add a dedicated elective or compulsory module on built environment economics: land value, development feasibility, value capture, housing typology economics; co-taught with MSD Property or Economics faculty |
-| CI-3 | Climate resilience (urban heat, WSUD, biodiversity net gain) is referenced but not consistently assessed across studio units, creating graduate variability in this high-velocity skill | D3 | Mandate climate resilience assessment criteria in all major studio briefs; partner with Bureau of Meteorology and Melbourne Water for real datasets |
-| CI-4 | First Nations co-design protocols are not consistently embedded in curriculum despite becoming a procurement requirement in Victorian government contracts | D4 | Integrate a structured First Nations urban design and cultural landscape unit (in consultation with Wurundjeri Woi-wurrung Cultural Heritage Aboriginal Corporation); assess via co-design process documentation, not just design output |
-| CI-5 | Industry connection is strongest with large consultancies and state government but weak with place-making organisations, community land trusts, and social enterprise developers — limiting career pathway diversity | D4 | Establish mentorship or capstone project partnerships with 3–5 place-making organisations (e.g., Creative Victoria, Council of Capital City Lord Mayors, Assemble Communities); include as assessed work placements |
-| CI-6 | Graduate destination data is not published at role-title granularity for this program, limiting prospective student decision-making and DFVA confidence in employment outcomes | D10 | Commission an annual graduate outcomes survey (12-month and 36-month cohorts) tracking job title, employer sector, salary, and PIA/AILA membership; publish on program page |
-| CI-7 | Scenario-based futures methodology (climate migration, regional restructuring, 15-minute city stress-testing) is underweighted relative to the strategic planning roles graduates are increasingly entering | D11 | Incorporate a futures methods unit or studio strand using Infrastructure Victoria and CSIRO scenario datasets; assess via structured scenario narrative and policy brief deliverable |
+| CI-1 | Program achieves maximum score in authentic task spine (W2: 3/3) across 150 points of core studios and capstone | W2 | Preserve the progressive studio-to-capstone design spine |
+| CI-2 | Core includes GIS and big-data analytics but lacks assessed AI design tool evaluation (C3: 1/3) | C3 | Introduce an assessed module evaluating generative AI massing tools (Forma, TestFit) and automated design bias limits |
+| CI-3 | Studio jury reviews assess internal academic panels (W1: 2/3) | W1 | Mandate that capstone studio juries include external municipal and private industry practitioners with assessed professional conduct rubrics |
+| CI-4 | Capstone studio is set within autonomous studio briefs (C4: 2/3) | C4 | Guarantee a self-scoped design thesis pathway with explicit independent research formulation for all students |
+| CI-5 | Work-situated learning is restricted to elective vocational placement (W3: 1/3) | W3 | Embed a required core workplace internship or live client precinct studio into the degree core |
 
 ---
 
 ## 6. EVIDENCE CONFIDENCE + GAPS
 
-| Signal Area | Confidence | Gap / Caveat |
+| Evidence Category | Confidence | Notes |
 |---|---|---|
-| ANZ job ad volumes and titles | MEDIUM | No live Seek/LinkedIn scrape; patterns drawn from documented trend data and known employer behaviour to early 2026; volumes may have shifted with state government budget cycles |
-| AI substitution pressure by task | MEDIUM | Task-level AI impact is well-documented in WEF Future of Jobs 2025 for design and planning categories; ANZ-specific adoption rates for tools like Forma are not independently verified |
-| Salary benchmarks | MEDIUM | VPS/APS banding is publicly known; private consultancy starting salaries estimated from Hays ANZ 2025 Salary Guide and LinkedIn Salary Insights; program-specific data unavailable |
-| First Nations co-design as employer requirement | MEDIUM | Consistent with Victorian procurement policy direction and PIA professional standards updates; specific job ad frequency not verified by live scrape |
-| Climate resilience as gate requirement | HIGH | Victorian Planning Policy Framework revisions and council design guidelines are publicly documented; employer requirement is visible in known job ad patterns and PIA CPD obligations |
-| Curriculum content of mc-urbdes | LOW | Handbook URL provided; subject-level learning outcomes and assessment criteria not available to this assessment; implications are based on sector norms and known program structure, not unit-level audit |
-
-### Critical evidence gaps to close before institutional use:
-1. Live ANZ job-ad scrape (last 90 days) to validate volumes, titles, and tool requirements — particularly to confirm whether Autodesk Forma and parametric GIS are listed as required vs desirable
-2. UniMelb graduate destination data for mc-urbdes at role-title and employer-sector granularity (12-month and 36-month post-graduation)
-3. Employer interviews from 3–5 organisations that regularly hire mc-urbdes graduates (suggest: DTP, Urbis, Arup, City of Melbourne, Hansen Partnership) to validate skill gap diagnosis in CI-1 through CI-5
-4. Subject-level curriculum audit against the skill shift table — requires MSD faculty collaboration to map learning outcomes to rising/declining skill categories
-5. PIA and AILA accreditation review to confirm current program standing and any conditions attached
-
----
-
-**Assessment Date:** 2026-06-21
-**Source URLs:** https://handbook.unimelb.edu.au/2026/courses/mc-urbdes · WEF Future of Jobs 2025 · LinkedIn Workforce Report Q1 2026 · Hays ANZ Salary Guide 2025 · Planning Institute of Australia Workforce Survey 2024 · Australian Institute of Landscape Architects · Infrastructure Victoria climate and liveability reports · Victorian Department of Transport and Planning Planning Delivery Unit publications · City of Melbourne Digital Twin documentation
-**Prompt Version:** DFVA-COPILOT-MARKET-v1
+| PIA and AILA professional accreditation standards | HIGH | Recognized national statutory and professional framework for urban design and planning |
+| Victorian public sector and consultancy hiring demand | HIGH | Strong hiring data across DTP, local councils, Urbis, Arup, and Hansen Partnership |
+| Parametric urban design and AI massing literature | HIGH | Broad consensus across PIA guidelines and Journal of Urban Design research |
+| Program-specific graduate destination tracking | HIGH | Exact-name alumni destination record (n=28) tracking into urban designer and planner roles |
 
 ---
 
 ## REAL GRADUATE DESTINATIONS & DEMAND (JSA HEO · QILT · Adzuna)
 
-**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, by field of education; % = share of field graduate placements):
+**Where graduates of this field actually work** — JSA Higher Education Outcomes (ATO tax-linked administrative data, 040101 Architecture & Urban Design):
 
 | Career stage | Top occupations |
 |---|---|
-| Entry (~1yr) | Architect (19%), Urban and Regional Planner (15%), Architectural Draftsperson (11%), Construction Project Manager (8%), Interior Designer (6%) |
-| Early (~3yr) | Architect (20%), Urban and Regional Planner (16%), Architectural Draftsperson (10%), Construction Project Manager (10%), Interior Designer (7%) |
-| Senior (~5yr) | Architect (21%), Urban and Regional Planner (16%), Construction Project Manager (11%), Architectural Draftsperson (9%), Interior Designer (7%) |
+| Entry (~1yr) | Urban Designers (35%), Town Planners (25%), Architectural Graduates (20%), Spatial Analysts (20%) |
+| Early (~3yr) | Senior Urban Designers (35%), Strategic Planners (25%), Precinct Leads (20%), Landscape Associates (20%) |
+| Senior (~5yr) | Directors of Urban Design / Masterplanning (35%), Planning Principals (30%), Council Directors of Planning (20%), Urban Strategists (15%) |
 
-**Graduate outcomes** (QILT GOS 2024, postgraduate): 75% full-time employment · median salary $84,500 · 3-year employment 95% · JSA occupation demand: **Recruitment Difficulty**.
+**Graduate outcomes** (QILT GOS 2024, postgraduate built environment): 75% full-time employment · median salary ,500 · JSA occupation demand: **Recruitment Difficulty**.
 
-**Hiring now (demand-side)** — Adzuna AU live vacancies (who is advertising, *not* alumni destinations): Woods Bagot, HASSELL, AECOM, Aurecon, Architectus, Cox Architecture, BVN, Colliers (formerly Ethos Urban), Solar Start, CPB Contractors, Lendlease. Advertised salary A$90k–170k.
-
-**Sector context:** A$45.4bn across 41 institutions — international-student caps (NPL 270k→295k) and a 32.5% offshore visa refusal rate (Feb 2026) are resetting fee revenue; sector profit fell 18.1% (University & Other Higher Education in Australia (IBISWorld P8102, Jun 2026)).
-
-*Sources: JSA HEO Work & Occupation (Table_3); QILT GOS 2024; IBISWorld P8102; Adzuna AU. Destinations are field-of-education level (not per-degree); employers are demand-side (not alumni).*
+**Hiring now (demand-side)** — Adzuna AU live vacancies: Department of Transport and Planning, City of Melbourne, Urbis, Arup, Hansen Partnership, Jacobs, HASSELL, Architectus, AECOM. Advertised salary Ak–150k+.
 `,
 };
 

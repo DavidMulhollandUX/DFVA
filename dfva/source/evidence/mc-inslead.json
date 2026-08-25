@@ -1,0 +1,112 @@
+{
+  "code": "mc-inslead",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: at least one core unit assesses collaborative practice. In compulsory core subject EDUC90755 Evidence for Learning and Teaching, students complete an assessed 'Group presentation to class' (1000 words equivalent, 20%), listed separately from the subject's report on longitudinal data. EDUC90751 Understanding Schools lists collaborative team work and formative critique of other students' writing among its generic skills, but neither is an assessment item. Level 3 is not met: no core assessment requires coordinating work across people AND tools/AI systems with documented role-and-tool allocation or an assessed division of work between instructional leaders and automated analytics tools.",
+      "evidenceLines": [
+        "Group presentation to class (1000 words (equivalent), 20%) ... Evidence for Learning and Teaching",
+        "Understanding Schools (EDUC90751) ... Generic skills ... Engage in collaborative team work ... Provide formative critique of the writing of other students."
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: core assessment includes criterion-referenced appraisal of quality. In compulsory core EDUC90753 Leading Learning and Teaching, students complete an assessed 2500-word 'Self-capability assessment' (50%); in core capstone subject EDUC90750 Leading Schools Through Leading Self, students complete two 2500-word 'Action-reflection assignments' (50% each); in EDUC90754 Leading Assessment, students analyse evidence on school and system assessment policy and practice; and in EDUC90751 Understanding Schools, students complete an assessed 4000-word 'Informed reflection on case study' (80%). Level 3 is not met: no core assessment requires students to document and justify reliance decisions (deciding when to rely on or override automated student diagnostic software, AI lesson generators, or machine learning learning analytics), defend judgements of AI educational outputs, or evidence strategy adjustment over time.",
+      "evidenceLines": [
+        "Leading Learning and Teaching (EDUC90753) ... Self-capability assessment (2500 words, 50%)",
+        "Leading Schools Through Leading Self (EDUC90750) ... Action-reflection assignment (2500 words, 50%) ... Action-reflection assignment (2500 words, 50%)",
+        "Understanding Schools (EDUC90751) ... Informed reflection on case study (4000 words, 80%)",
+        "Leading Assessment (EDUC90754) ... Analysis of evidence on school and system assessment policy and practice"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor is met: use of evidence and data appears across the core; the program's only digital content is a graduate attribute reference to information and communication technologies plus the AI and digital electives EDUC91331 Generative AI in Education and EDUC91329 Digital Transformation in Education. EDUC90755 Evidence for Learning and Teaching assesses a 'Report on longitudinal data' (2000 words, 40%) and EDUC90754 Leading Assessment an 'Analysis of evidence on school and system assessment policy and practice' (2500 words, 50%); no software or statistical tool is named in either subject. Level 2 is unmet: no compulsory core unit addresses AI capabilities AND limitations/ethics with use limits discussed and assessed (e.g. algorithmic bias in automated student marking, generative AI policy in school assessment, or student data privacy risks under LLM deployment). Level 3 (educational AI governance) is unevidenced in core assessment.",
+      "evidenceLines": [
+        "Report on longitudinal data (2000 words, 40%) ... Evidence for Learning and Teaching",
+        "Analysis of evidence on school and system assessment policy and practice (2500 words, 50%) ... Leading Assessment"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Level 3 anchor is satisfied: the program documents structured progression toward independent learning through an assessed self-capability gap analysis and a practitioner inquiry carried out in the student's own setting. In compulsory core subject EDUC90753 Leading Learning and Teaching, students complete an assessed 2500-word 'Self-capability assessment' (50%) in which candidates self-assess their capabilities against the research literature and the AITSL National Professional Standard for Principals; in core capstone subject EDUC90750 Leading Schools Through Leading Self, students complete two 2500-word 'Action-reflection assignments'; and in the capstone sequence, students develop a research proposal in EDUC90786 Leading Educational Research from a set of topics introduced in that subject, then carry out and report the project in their own setting as a 4250-word written report (85%) in EDUC90752 Researching Leadership Practice.",
+      "evidenceLines": [
+        "Leading Learning and Teaching (EDUC90753) ... Self-capability assessment (2500 words, 50%)",
+        "Researching Leadership Practice (EDUC90752) ... A written report (4250 words, 85%) ... preparation work ... completed in EDUC90786 Leading Educational Research",
+        "Leading Schools Through Leading Self (EDUC90750) ... Action-reflection assignment (2500 words, 50%)"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: students design and conduct an inquiry with methodology selection and data collection, assessed. In the required capstone sequence EDUC90786 Leading Educational Research and EDUC90752 Researching Leadership Practice, students formulate a research question, select educational research methodologies, collect and analyse empirical school data, and produce a 4250-word written research report (85%) alongside an oral presentation. Level 3 is not met: while a substantial primary-evidence practitioner research project is required in EDUC90752, the oral presentation is recorded only as a hurdle requirement, with no examiner or audience specified, so methodology defended under scrutiny is unevidenced.",
+      "evidenceLines": [
+        "Leading Educational Research (EDUC90786) ... Research proposal (2000 words, 40%) ... Literature review (3000 words, 60%)",
+        "Researching Leadership Practice (EDUC90752) ... A written report (4250 words, 85%) ... An oral presentation on the research-based project (10 minutes, Hurdle)"
+      ]
+    },
+    "adaptiveness": 10,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: at least one core assessment requires a recognised professional genre judged against criteria drawn from professional practice. Across the core, students produce a report on longitudinal data (EDUC90755, 2000 words, 40%), a discussion of how within-school assessment practices can be strengthened (EDUC90754, 2500 words, 50%), and a practitioner research report in a form such as a journal article or report (EDUC90752, 4250 words, 85%), in a course aligned to the AITSL National Professional Standard for Principals. Level 3 is not met: while professional school leadership reports recur, no core assessment is documented as delivered to, or judged by, a real external school council, regional educational directorate, or statutory accreditation authority with professional conduct explicitly among the assessed criteria.",
+      "evidenceLines": [
+        "Evidence for Learning and Teaching (EDUC90755) ... Report on longitudinal data (2000 words, 40%)",
+        "Leading Assessment (EDUC90754) ... Discussion of how within-school assessment practices can be strengthened (2500 words, 50%)",
+        "Researching Leadership Practice (EDUC90752) ... A written report (4250 words, 85%)"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: core assessment reproduces professional tasks end-to-end for school principals, instructional coaches, and curriculum directors. Students report on longitudinal data (EDUC90755), analyse evidence on school and system assessment policy and practice (EDUC90754), and implement an intervention or innovation in their own setting (EDUC90752). Resolved downward from level 3 on adversarial verification: tasks are submitted to academic instructors without externally supplied live school review briefs or consequential external stakeholders documented in the assessment tables (R4).",
+      "evidenceLines": [
+        "Evidence for Learning and Teaching (EDUC90755) ... Report on longitudinal data",
+        "Leading Assessment (EDUC90754) ... Analysis of evidence on school and system assessment policy and practice",
+        "Researching Leadership Practice (EDUC90752) ... students will implement an intervention or innovation designed to address an issue associated with instructional practice"
+      ]
+    },
+    "W3": {
+      "score": 2,
+      "rationale": "Level 2 anchor is satisfied: for an in-practice cohort of practicing and aspiring educators, core units assess activity conducted in the student's own professional practice with real recipients and documented outcome measures. In EDUC90752 Researching Leadership Practice and EDUC90750 Leading Schools Through Leading Self, students implement leadership interventions and action-reflection inquiries directly within their own schools/workplaces. Level 3 is not met: while own-practice activity with structured reflection is embedded across the core, documented accountability to external workplace stakeholders (e.g. school governing boards, regional superintendents, or teacher cohorts) is unevidenced in the assessment tables.",
+      "evidenceLines": [
+        "The Master of Instructional Leadership aims to equip aspiring and practising educational leaders from all fields of education ... has a strong emphasis on the use of research and evidence in school leaders’ professional practice.",
+        "Researching Leadership Practice (EDUC90752) ... A written report (4250 words, 85%)",
+        "Leading Schools Through Leading Self (EDUC90750) ... Action-reflection assignment (2500 words, 50%) ... Action-reflection assignment (2500 words, 50%)"
+      ]
+    },
+    "workplace": 6,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "PASS condition is met: the program documents 50 credit points of compulsory specialist subjects plus a 50-point option — either the sequenced capstone (EDUC90750, EDUC90786, EDUC90752) with one Master of Education elective, or the research option (EDUC90419 Education Research Methodology and EDUC91197 Research Project in Education) — aligned to the AITSL National Professional Standard for Principals. Coherent, rigorous disciplinary educational leadership sequence.",
+        "evidenceLines": [
+          "The Master of Instructional Leadership requires the successful completion of 100 credit points ... 50 credit points of compulsory subjects",
+          "Note that the 2 capstone subjects (EDUC90786 then EDUC90752) must still be completed in sequence.",
+          "The course aligns with the Australian Institute for Teaching and School Leadership National Professional Standard for Principals."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "PASS condition is met: assessment requires complex strategic and pedagogical trade-off decisions under school and community uncertainty — students implement an intervention in their own setting and document planning and implementation decisions (EDUC90752), explore alternative rival hypotheses about impact (EDUC90755), and discuss how within-school assessment practices can be strengthened (EDUC90754).",
+        "evidenceLines": [
+          "students will implement an intervention or innovation designed to address an issue associated with instructional practice, or that will lead to improvements in teacher quality and student learning and achievement. As part of their project, students will be expected to document planning and implementation decisions, and also research the impact of the intervention on teachers and school students.",
+          "Leading Assessment (EDUC90754) ... Discussion of how within-school assessment practices can be strengthened (2500 words, 50%)",
+          "Understanding Schools (EDUC90751) ... Informed reflection on case study (4000 words, 80%)"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1 straddled 1 and 2: EDUC90755 assesses a group presentation to class (20%), satisfying level 2 collaborative practice. Level 3 is unmet because collaborative human-AI workflow allocation is unevidenced.",
+      "C2 straddled 1 and 2: EDUC90753, EDUC90751 and the core capstone subject EDUC90750 assess self-capability appraisal and structured reflection on practice, satisfying level 2 quality appraisal. Level 3 is unmet because reliance/override justification is unevidenced.",
+      "C3 straddled 1 and 2: use of evidence and data appears in core EDUC90755 and EDUC90754, but no software or statistical tool is named in either subject, and digital transformation and generative AI in education (EDUC91329, EDUC91331) are electives rather than compulsory core. Scored at level 1 per R1.",
+      "C4 scored at 3: EDUC90753 requires an assessed self-assessment of capabilities against the research literature and the AITSL standard, and the capstone sequence requires a practitioner research project carried out and reported in the student's own setting, satisfying level 3's structured progression toward independent learning.",
+      "C5 straddled 2 and 3: EDUC90752 requires a primary-evidence research report with methodology selection (level 2), but the oral presentation is recorded only as a hurdle requirement, with no examiner or audience specified. Scored at 2 per R1/R3.",
+      "W2 straddled 2 and 3: core subjects assess reporting on school data, analysis of assessment policy and practice, and an intervention implemented in the student's own setting, but assessments are submitted to academic instructors without externally supplied live review briefs. Resolved downward to 2 per R4.",
+      "W3 scored at 2: in-practice cohort undertakes assessed own-practice action-reflection and practitioner research in their own schools. Level 3 is unmet because formal external stakeholder accountability is unevidenced."
+    ],
+    "verified": {
+      "adversarial": true,
+      "mechanical": true,
+      "date": "2026-08-25"
+    }
+  }
+}

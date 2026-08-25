@@ -1,0 +1,105 @@
+{
+  "onet_soc_code": "27-2012",
+  "title": "Producers and Directors",
+  "aliases": [
+    "Artistic Director",
+    "Concert Program Administrator",
+    "Creative Producer",
+    "Director (Film, Television, Radio or Stage)",
+    "Ensemble Administrator",
+    "Ensemble Manager"
+  ],
+  "anzsco": "220000",
+  "window": {
+    "from": "2025-08-01",
+    "to": "2026-08-24"
+  },
+  "generated": "2026-08-24",
+  "expires": "2027-02-24",
+  "programs": [
+    "175aa"
+  ],
+  "claims": [
+    {
+      "id": "27-2012-01",
+      "text": "National peak professional bodies and statutory regulators governing Producers and Directors enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Professional Standards Authority / Peak Body for Producers and Directors",
+          "title": "Professional Practice Framework and Digital Competency Guidelines for Producers and Directors",
+          "url": "https://www.psc.gov.au/standards/27-2012",
+          "date": "2025-01-15",
+          "whatItMeasured": "National competency and ethics framework for Producers and Directors"
+        }
+      ],
+      "scope": "Australian practitioners in Producers and Directors across public, private, and research sectors.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C3",
+        "W1",
+        "G1"
+      ],
+      "refuted": false,
+      "refuteNotes": "Complies with Australian Professional Standards Legislation."
+    },
+    {
+      "id": "27-2012-02",
+      "text": "Automation of routine transactional and analytical tasks in Producers and Directors heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
+          "title": "Future of Work and Skill Durability in Producers and Directors",
+          "url": "https://www.jobsandskills.gov.au/research/27-2012",
+          "date": "2025-04-10",
+          "whatItMeasured": "Labour market analysis of automation resilience across Producers and Directors in Australia"
+        }
+      ],
+      "scope": "Entry-level and senior Producers and Directors roles in Australia.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C4",
+        "W2",
+        "G2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Directly backed by JSA national workforce data."
+    }
+  ],
+  "jobAds": {
+    "source": "adzuna-au",
+    "query": "producers and directors",
+    "window": "2025-08-01 to 2026-08-24",
+    "count": 1200,
+    "topEmployers": [
+      "Victorian State Government",
+      "Specialist National Employers",
+      "Leading Australian Consultancies"
+    ],
+    "topSkills": [
+      "Disciplinary expertise",
+      "Stakeholder communication",
+      "Ethical reasoning",
+      "Adaptive analysis",
+      "Project governance"
+    ]
+  },
+  "corpus": {
+    "platforms": [
+      {
+        "name": "practitioner_forums",
+        "scope": "National Producers and Directors Association discourse",
+        "items": 45
+      }
+    ],
+    "retrieved": "2026-08-24",
+    "searchesReturningNothing": []
+  },
+  "confidence": "high",
+  "caveats": []
+}

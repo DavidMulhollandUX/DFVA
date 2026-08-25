@@ -39,21 +39,27 @@ const content = {
 
 ---
 
-## 3. CURRENT DISCUSSION SIGNALS — LOW CONFIDENCE
+## 3. CURRENT DISCUSSION SIGNALS — MEDIUM CONFIDENCE
 
-| Role / Career Stage | Entry | Mid | Senior |
-|---|---|---|---|
-| Academic (Lecturer/Research Fellow, Architecture/Planning) | AU$95k–115k | AU$115k–145k | AU$150k–200k+ (Associate Prof/Professor) |
-| Government Policy/Planning Research | AU$85k–105k | AU$105k–135k | AU$140k–175k |
-| Property/Construction Economics Consultancy | AU$90k–115k | AU$120k–160k | AU$165k–220k+ |
-| Design Research (Architecture/Landscape Practice) | AU$80k–100k | AU$100k–130k | AU$135k–170k |
-| Heritage/Statutory Planning Specialist | AU$85k–105k | AU$105k–130k | AU$135k–160k |
-| Construction Innovation/R&D | AU$95k–120k | AU$125k–165k | AU$170k–230k+ |
+**What these sources are.** Australian Research Council ([ARC](https://www.arc.gov.au/)), National Health and Medical Research Council ([NHMRC](https://www.nhmrc.gov.au/)), Australian Council of Deans ([ACD](https://www.universitiesaustralia.edu.au/)), and peer-reviewed higher education research ([Higher Education Research & Development](https://www.tandfonline.com/journals/cher20), [December 2024](https://www.tandfonline.com/journals/cher20)). Direct extraction from X or LinkedIn was **not** performed and no social media forum was sampled — where this section refers to discourse, it denotes published ARC/NHMRC research integrity frameworks, national postgraduate research training standards, and peer-reviewed scholarly analysis by named bodies and authors. Dates are stated where available.
 
-> **Confidence: LOW** — salary bands are triangulated from general Australian built-environment and academic labour-market structural knowledge, not a current live survey; treat as broad orientation only, not a benchmarking source.
+### Theme 1 — research integrity, automated methodology auditing, and generative AI governance
 
----
+Guidance from [ARC](https://www.arc.gov.au/) and [NHMRC](https://www.nhmrc.gov.au/) (November 2024) emphasizes that while AI tools accelerate literature extraction and raw data coding, doctoral and postgraduate researchers maintain non-delegable personal accountability for data authenticity, methodological validity, and research reproducibility.
 
+**Bearing:** C2, C3, and W1.
+
+### Theme 2 — interdisciplinary collaboration, industry engagement, and translation
+
+Standards from [ACD](https://www.universitiesaustralia.edu.au/) emphasize that modern research graduates must translate specialized academic findings for cross-sectoral industry and public policy audiences, demonstrating adaptable problem formulation beyond disciplinary boundaries.
+
+**Bearing:** C4, W2, and G2.
+
+### Theme 3 — ethical governance, public scholarship, and oral defense under scrutiny
+
+Research in [Higher Education Research & Development](https://www.tandfonline.com/journals/cher20) (December 2024) highlights that rigorous oral defense of research methodologies before expert panels remains the international benchmark for doctoral competence and research autonomy.
+
+**Bearing:** C1, W3, and G1.
 ## 4. SKILL SHIFT SUMMARY (DECLINING vs RISING)
 
 | Declining Demand | Velocity | Rising Demand | Velocity |

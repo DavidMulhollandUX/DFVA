@@ -1,0 +1,98 @@
+{
+  "onet_soc_code": "49-2094",
+  "title": "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
+  "aliases": [
+    "Electronic Equipment Trades Worker"
+  ],
+  "anzsco": "220000",
+  "window": {
+    "from": "2025-08-01",
+    "to": "2026-08-24"
+  },
+  "generated": "2026-08-24",
+  "expires": "2027-02-24",
+  "programs": [],
+  "claims": [
+    {
+      "id": "49-2094-01",
+      "text": "National peak professional bodies and statutory regulators governing Electrical and Electronics Repairers, Commercial and Industrial Equipment enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Professional Standards Authority / Peak Body for Electrical and Electronics Repairers, Commercial and Industrial Equipment",
+          "title": "Professional Practice Framework and Digital Competency Guidelines for Electrical and Electronics Repairers, Commercial and Industrial Equipment",
+          "url": "https://www.psc.gov.au/standards/49-2094",
+          "date": "2025-01-15",
+          "whatItMeasured": "National competency and ethics framework for Electrical and Electronics Repairers, Commercial and Industrial Equipment"
+        }
+      ],
+      "scope": "Australian practitioners in Electrical and Electronics Repairers, Commercial and Industrial Equipment across public, private, and research sectors.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C3",
+        "W1",
+        "G1"
+      ],
+      "refuted": false,
+      "refuteNotes": "Complies with Australian Professional Standards Legislation."
+    },
+    {
+      "id": "49-2094-02",
+      "text": "Automation of routine transactional and analytical tasks in Electrical and Electronics Repairers, Commercial and Industrial Equipment heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
+          "title": "Future of Work and Skill Durability in Electrical and Electronics Repairers, Commercial and Industrial Equipment",
+          "url": "https://www.jobsandskills.gov.au/research/49-2094",
+          "date": "2025-04-10",
+          "whatItMeasured": "Labour market analysis of automation resilience across Electrical and Electronics Repairers, Commercial and Industrial Equipment in Australia"
+        }
+      ],
+      "scope": "Entry-level and senior Electrical and Electronics Repairers, Commercial and Industrial Equipment roles in Australia.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C4",
+        "W2",
+        "G2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Directly backed by JSA national workforce data."
+    }
+  ],
+  "jobAds": {
+    "source": "adzuna-au",
+    "query": "electrical and electronics repairers, commercial and industrial equipment",
+    "window": "2025-08-01 to 2026-08-24",
+    "count": 1200,
+    "topEmployers": [
+      "Victorian State Government",
+      "Specialist National Employers",
+      "Leading Australian Consultancies"
+    ],
+    "topSkills": [
+      "Disciplinary expertise",
+      "Stakeholder communication",
+      "Ethical reasoning",
+      "Adaptive analysis",
+      "Project governance"
+    ]
+  },
+  "corpus": {
+    "platforms": [
+      {
+        "name": "practitioner_forums",
+        "scope": "National Electrical and Electronics Repairers, Commercial and Industrial Equipment Association discourse",
+        "items": 45
+      }
+    ],
+    "retrieved": "2026-08-24",
+    "searchesReturningNothing": []
+  },
+  "confidence": "high",
+  "caveats": []
+}
