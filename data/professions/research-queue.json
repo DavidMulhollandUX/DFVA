@@ -493,7 +493,7 @@
     "43-9061": "pending",
     "43-9081": "pending",
     "43-9111": "pending",
-    "45-1011": "pending",
+    "45-1011": "retry",
     "45-2011": "pending",
     "45-2091": "pending",
     "45-2093": "pending",
@@ -507,7 +507,8 @@
     "53-5031": "pending"
   },
   "attempts": {
-    "11-1011": 1
+    "11-1011": 1,
+    "45-1011": 1
   },
   "leases": {},
   "runs": [
@@ -516,6 +517,12 @@
       "soc": "11-1011",
       "status": "done",
       "note": "commit 8491471b91cab24979604bede4f14aa9be048e6f; admitted 6; refuted 2; empty lanes none; Factiva omitted; L5 grounding unreachable, X unauthenticated, polymarket no-results; Adzuna 643"
+    },
+    {
+      "at": "2026-08-25T20:59:31.236568+00:00",
+      "soc": "45-1011",
+      "status": "retry",
+      "note": "stale lease cleared after TERMINAL_CWD lock-timeout failure"
     }
   ]
 }
