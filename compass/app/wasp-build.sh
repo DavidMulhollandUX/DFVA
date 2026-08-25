@@ -20,16 +20,23 @@
 set -e
 cd "$(dirname "$0")"
 
-if ! git diff --quiet -- main.wasp.ts; then
-  echo "❌ main.wasp.ts has uncommitted changes."
-  echo "   This script rewrites it in place and restores it with 'git checkout',"
-  echo "   which would discard your edits. Commit or stash them first."
-  exit 1
-fi
+# Both files are restored with `git checkout` below, which would discard edits.
+# package-lock.json is in the list because switching to SMTP makes Wasp install
+# nodemailer and write it into the lockfile — collateral of the flip, not a real
+# dependency change. (deploy-server.sh performs the same flip and does NOT
+# restore the lockfile, so a prod deploy leaves that entry behind.)
+for f in main.wasp.ts package-lock.json; do
+  if ! git diff --quiet -- "$f"; then
+    echo "❌ $f has uncommitted changes."
+    echo "   This script rewrites it and restores it with 'git checkout',"
+    echo "   which would discard your edits. Commit or stash them first."
+    exit 1
+  fi
+done
 
 echo "📧 Switching emailSender Dummy → SMTP for the build..."
 # Restore main.wasp.ts however this exits — success, failure, or Ctrl-C.
-trap 'echo "↩️  Reverting main.wasp.ts emailSender → Dummy"; git checkout -- main.wasp.ts 2>/dev/null || true' EXIT
+trap 'echo "↩️  Reverting main.wasp.ts and package-lock.json"; git checkout -- main.wasp.ts package-lock.json 2>/dev/null || true' EXIT
 sed -i '' 's/provider: "Dummy",/provider: "SMTP",/' main.wasp.ts
 
 echo "🔨 wasp build..."
