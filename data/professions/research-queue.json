@@ -255,7 +255,7 @@
     "53-5031"
   ],
   "status": {
-    "11-1011": "pending",
+    "11-1011": "done",
     "11-1021": "pending",
     "11-2011": "pending",
     "11-2021": "pending",
@@ -506,7 +506,16 @@
     "51-9012": "pending",
     "53-5031": "pending"
   },
-  "attempts": {},
+  "attempts": {
+    "11-1011": 1
+  },
   "leases": {},
-  "runs": []
+  "runs": [
+    {
+      "at": "2026-08-25T14:08:14.087155+00:00",
+      "soc": "11-1011",
+      "status": "done",
+      "note": "commit 8491471b91cab24979604bede4f14aa9be048e6f; admitted 6; refuted 2; empty lanes none; Factiva omitted; L5 grounding unreachable, X unauthenticated, polymarket no-results; Adzuna 643"
+    }
+  ]
 }
