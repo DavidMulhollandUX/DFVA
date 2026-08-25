@@ -1,5 +1,6 @@
 {
   "onet_soc_code": "11-1011",
+  "researchMethod": "empirical-five-lane-v1",
   "title": "Chief Executives",
   "aliases": [
     "Chief Executive or Managing Director",
@@ -8,29 +9,31 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2026-02-26",
+    "to": "2026-08-25"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-25",
+  "expires": "2027-02-25",
   "programs": [],
   "claims": [
     {
-      "id": "11-1011-01",
-      "text": "National peak professional bodies and statutory regulators governing Chief Executives enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
+      "id": "ce-01",
+      "text": "APRA's 2026 supervisory review found AI use accelerating across banks, insurers and superannuation trustees while governance and assurance lagged, and expected entities to close those gaps under existing prudential standards.",
       "lane": "L1",
-      "tier": "regulatory",
+      "tier": "regulator-supervisory-review",
       "sources": [
         {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Chief Executives",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Chief Executives",
-          "url": "https://www.psc.gov.au/standards/11-1011",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Chief Executives"
+          "publisher": "Australian Prudential Regulation Authority",
+          "title": "APRA calls for a step-change in AI-related risk management and governance",
+          "url": "https://www.apra.gov.au/news-and-publications/apra-calls-step-change-ai-related-risk-management-and-governance",
+          "date": "2026-04-30",
+          "whatItMeasured": "Findings and expectations from APRA's targeted supervisory review of AI deployment and governance across banks, insurers and superannuation trustees",
+          "quote": "governance, risk management, assurance and operational resilience practices are not keeping pace with the scale, speed, and complexity of AI adoption.",
+          "httpStatus": 200
         }
       ],
-      "scope": "Australian practitioners in Chief Executives across public, private, and research sectors.",
-      "disposition": "sourced",
+      "scope": "APRA-regulated financial entities only. The letter explicitly creates no additional requirements and does not measure chief executives across other sectors.",
+      "disposition": "scoped",
       "supersedes": null,
       "bearing": [
         "C3",
@@ -38,24 +41,52 @@
         "G1"
       ],
       "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
+      "refuteNotes": "3 of 3 skeptics failed to overturn: the primary regulator source is real, the claim is restricted to the regulated population and the publication is inside the window."
     },
     {
-      "id": "11-1011-02",
-      "text": "Automation of routine transactional and analytical tasks in Chief Executives heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
+      "id": "ce-02",
+      "text": "A four-country survey of nearly 6,000 senior business executives, including 602 Australian firms, found 69% of firms used AI, more than two-thirds of executives used it for about 1.5 hours a week on average, and 59% of Australian firms reported current use.",
       "lane": "L2",
-      "tier": "scholarly",
+      "tier": "institutional-working-paper-representative-surveys",
       "sources": [
         {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Chief Executives",
-          "url": "https://www.jobsandskills.gov.au/research/11-1011",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Chief Executives in Australia"
+          "publisher": "National Bureau of Economic Research (Yotzov et al.)",
+          "title": "Firm Data on AI",
+          "url": "https://www.nber.org/papers/w34836",
+          "date": "2026-03",
+          "whatItMeasured": "Parallel surveys of nearly 6,000 senior executives at firms in the US, UK, Germany and Australia, including 602 Australian firms, covering firm adoption, executives' personal use and expected firm effects",
+          "quote": "We survey nearly 6,000 senior business executives at US, UK, German, and Australian firms to develop new evidence on AI adoption and its effects on jobs, productivity, and output.",
+          "httpStatus": 200
         }
       ],
-      "scope": "Entry-level and senior Chief Executives roles in Australia.",
-      "disposition": "sourced",
+      "scope": "Mostly CEOs, CFOs and senior finance managers, not CEOs alone. The personal-use averages are four-country results; only the 59% firm-adoption figure is Australia-specific.",
+      "disposition": "scoped",
+      "supersedes": null,
+      "bearing": [
+        "C4",
+        "W2"
+      ],
+      "refuted": false,
+      "refuteNotes": "3 of 3 skeptics failed to overturn: the working paper and methods resolve, the mixed senior-executive population is preserved and the March 2026 revision is inside the window."
+    },
+    {
+      "id": "ce-03",
+      "text": "In EY-Parthenon's survey of 60 Australian CEOs, 44% ranked large-scale reskilling among their top two workforce priorities, 41% prioritised redesigning roles around human-AI work and 20% prioritised reduced hiring in selected roles.",
+      "lane": "L2",
+      "tier": "institutional-survey-declared-n",
+      "sources": [
+        {
+          "publisher": "EY-Parthenon / FT Longitude",
+          "title": "Australian CEOs prioritise reskilling over job cuts as AI adoption accelerates",
+          "url": "https://www.ey.com/en_au/newsroom/2026/05/australian-ceos-prioritise-reskilling-over-job-cuts-as-ai-adoption-accelerates",
+          "date": "2026-05-14",
+          "whatItMeasured": "Anonymous online survey of 60 Australian CEOs in March and April 2026 on AI investment, workforce priorities, enterprise impacts and regulatory clarity",
+          "quote": "44 per cent of Australian CEOs rank large-scale reskilling and upskilling as a first or second workforce priority over the next three years and a further 41 per cent prioritise redesigning roles to combine human and AI capabilities.",
+          "httpStatus": 200
+        }
+      ],
+      "scope": "A small, large-company, vendor-commissioned survey of stated priorities. It does not measure implemented workforce changes or economy-wide employment effects.",
+      "disposition": "scoped",
       "supersedes": null,
       "bearing": [
         "C4",
@@ -63,38 +94,178 @@
         "G2"
       ],
       "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
+      "refuteNotes": "3 of 3 skeptics failed to overturn: the primary release identifies the fieldwork and sample, Australian CEOs directly match the occupation and both fieldwork and publication fall inside the window."
+    },
+    {
+      "id": "ce-04",
+      "text": "Gartner's survey of 469 CEOs and senior business executives found 80% expected AI to force medium-to-high operational-capability change; 32% expected adaptable AI to assist human decisions and 27% expected operations primarily without human intervention by the end of 2028.",
+      "lane": "L2",
+      "tier": "institutional-survey-declared-n",
+      "sources": [
+        {
+          "publisher": "Gartner",
+          "title": "Gartner Survey Reveals 80% of CEOs Say AI Will Force Operational Capability Overhauls",
+          "url": "https://www.gartner.com/en/newsroom/press-releases/2026-04-23-gartner-survey-reveals-80-percent-of-ceos-say-artificial-intelligence-will-force-operational-capability-overhauls",
+          "date": "2026-04-23",
+          "whatItMeasured": "Survey expectations from 469 CEOs and other senior business executives worldwide, conducted across three quarters ending in Q4 2025, about operational change and autonomous capabilities",
+          "quote": "The survey found that 54% of CEOs said their automation was limited to specific tasks; by the end of 2028, only 13% expect to remain at this level.",
+          "httpStatus": 403,
+          "verification": "Browser-rendered page captured successfully; scripted request blocked with HTTP 403, not 404."
+        }
+      ],
+      "scope": "Worldwide mixed CEO and senior-executive expectations collected through Q4 2025. These are forecasts, not observed adoption, and are not Australia-specific.",
+      "disposition": "scoped",
+      "supersedes": null,
+      "bearing": [
+        "C4",
+        "W3",
+        "G2"
+      ],
+      "refuted": false,
+      "refuteNotes": "3 of 3 skeptics failed to overturn: the primary release and sample details were captured, chief executives are directly included with the mixed population retained and the publication is inside the window."
+    },
+    {
+      "id": "ce-05",
+      "text": "Commonwealth Bank chief executive Matt Comyn publicly warned that AI would produce job losses across the economy while arguing that Australia need not trade away copyright protections to attract AI investment.",
+      "lane": "L3",
+      "tier": "trade-press-dated-named-commentator",
+      "sources": [
+        {
+          "publisher": "Australian Financial Review (James Eyers)",
+          "title": "CBA boss warns of job losses from AI, argues to protect copyright",
+          "url": "https://www.afr.com/companies/financial-services/cba-boss-warns-of-job-losses-from-ai-argues-to-protect-copyright-20260525-p6008o",
+          "date": "2026-05-26",
+          "whatItMeasured": "A named Australian bank chief executive's public forecast and policy position as reported by the AFR",
+          "quote": "Commonwealth Bank chief executive Matt Comyn says the Albanese government does not need to choose between copyright protections for creative industries and artificial intelligence investment in Australia, and warns that there will be job losses across the economy from the emerging technology.",
+          "httpStatus": 200
+        }
+      ],
+      "scope": "One CEO's forecast reported in trade press. It is not a measured employment effect, a consensus of CEOs or evidence about CBA's own staffing plan.",
+      "disposition": "scoped",
+      "supersedes": null,
+      "bearing": [
+        "C4",
+        "W2"
+      ],
+      "refuted": false,
+      "refuteNotes": "3 of 3 skeptics failed to overturn: the article and statement resolve, the claim is limited to one named Australian CEO and it was published inside the window."
+    },
+    {
+      "id": "ce-06",
+      "text": "In the declared r/ceo sample, a moderator banned AI-generated posts and comments as spam and a security risk to members' businesses; the archived thread had a score of 41 and 13 comments.",
+      "lane": "L5",
+      "tier": "forum-discourse-declared",
+      "sources": [
+        {
+          "publisher": "r/ceo (Reddit), verified through arctic-shift",
+          "title": "Remember: AI is banned here.",
+          "url": "https://www.reddit.com/r/ceo/comments/1u27znq/remember_ai_is_banned_here/",
+          "date": "2026-06-10",
+          "whatItMeasured": "One moderation thread in r/ceo, archived with score 41, 13 comments and 18,126 subreddit subscribers at capture",
+          "quote": "Our community is anti-advertising and anti-AI because these are security risks to our businesses, take that crap somewhere else.",
+          "httpStatus": 403,
+          "verificationUrl": "https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1u27znq",
+          "verificationHttpStatus": 200
+        }
+      ],
+      "scope": "Community moderation and provenance concerns only. User identities were not verified as chief executives; this does not establish profession-wide sentiment or workplace AI use.",
+      "disposition": "scoped",
+      "supersedes": null,
+      "bearing": [
+        "C3",
+        "W1"
+      ],
+      "refuted": false,
+      "refuteNotes": "2 of 3 skeptics failed to overturn: the archived source and date are verified. The population skeptic overturned because user identities are unverified, so the claim is restricted to community moderation rather than the profession."
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "chief executives",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "chief executive",
+    "window": "retrieved 2026-08-25; current Adzuna AU listings",
+    "count": 643,
+    "sampledListings": 250,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Harbison",
+      "City of Joondalup",
+      "Scout Talent",
+      "SA Health",
+      "Estee Lauder"
     ],
+    "topEmployerCounts": {
+      "Harbison": 7,
+      "City of Joondalup": 7,
+      "Scout Talent": 5,
+      "SA Health": 5,
+      "Estee Lauder": 4
+    },
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ]
+      "Governance",
+      "Operations",
+      "Strategic Leadership",
+      "Communication",
+      "Business Development"
+    ],
+    "topSkillCounts": {
+      "Governance": 23,
+      "Operations": 19,
+      "Strategic Leadership": 4,
+      "Communication": 4,
+      "Business Development": 3
+    },
+    "methodNote": "Adzuna returned 643 current matches for the exact phrase query. Employer and skill frequencies were recomputed from the first 250 relevance-ranked listings, not from all 643 matches. Job ads are demand signals, not graduate destinations."
   },
   "corpus": {
     "platforms": [
       {
-        "name": "practitioner_forums",
-        "scope": "National Chief Executives Association discourse",
-        "items": 45
+        "name": "reddit",
+        "scope": "r/ceo, r/Entrepreneur, r/smallbusiness and r/startups via last30days",
+        "items": 5,
+        "uniqueItems": 4,
+        "state": "ok"
+      },
+      {
+        "name": "hackernews",
+        "scope": "last30days sweep",
+        "items": 20,
+        "state": "ok"
+      },
+      {
+        "name": "youtube",
+        "scope": "last30days sweep",
+        "items": 4,
+        "state": "ok"
+      },
+      {
+        "name": "github",
+        "scope": "last30days sweep",
+        "items": 27,
+        "state": "ok"
+      },
+      {
+        "name": "polymarket",
+        "scope": "last30days sweep",
+        "items": 0,
+        "state": "no-results"
       }
     ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": []
+    "retrieved": "2026-08-25",
+    "searchesReturningNothing": [
+      "Factiva omitted: unattended run",
+      "grounding: unreachable (keyless web search unavailable), not recorded as silence",
+      "polymarket: no-results",
+      "x: unauthenticated (bird_authenticated false), coverage degraded and not recorded as silence",
+      "tiktok/instagram: skipped-unconfigured (no ScrapeCreators key)",
+      "hackernews, youtube and github: results returned but no additional occupation-fit practitioner claim survived",
+      "L1: no occupation-wide chief-executive regulator exists; the admitted APRA finding is sector-limited"
+    ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "High confidence follows the rule: one L1 claim, three L2 claims and a declared L5 corpus. It does not mean every source generalises to all chief executives.",
+    "The strongest Australian occupation-specific survey has 60 respondents and covers large companies.",
+    "The NBER and Gartner findings mix CEOs with other senior executives; only claims that preserve that population were admitted.",
+    "The r/ceo item records moderation practice in a self-selected forum whose user identities were not verified.",
+    "Adzuna employer and skill rankings use a 250-listing relevance sample from 643 current matches."
+  ]
 }
