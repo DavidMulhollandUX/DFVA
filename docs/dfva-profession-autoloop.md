@@ -3,8 +3,10 @@
 ## Purpose
 
 The Hermes cron job `DFVA Profession Deep Research Autoloop` replaces the
-synthetic profession corpus incrementally. Each scheduled run completes one
-profession and the next scheduled run automatically takes the next pending SOC.
+synthetic profession corpus incrementally. Each scheduled run processes up to
+three source-family batches in parallel,
+with up to three professions per batch. The next scheduled run automatically
+takes the next pending batches.
 
 ## Durable state
 
@@ -26,7 +28,8 @@ python3 scripts/dfva-profession-queue.py block 13-2011 --note "requires user aut
 
 ## Run contract
 
-One run processes exactly one pending SOC. It must:
+A batch worker processes up to three related pending SOCs. The top-level tick
+runs up to three batch workers concurrently. Each SOC must independently:
 
 1. Read `docs/dfva-profession-deep-research.md` and
    `docs/tasks/dfva-profession-discourse.SKILL.md`.
@@ -46,12 +49,15 @@ One run processes exactly one pending SOC. It must:
 
 ## Schedule and chaining
 
-The job runs every four hours. The recurring tick is the chain: each fresh run
-reads the same durable queue and selects the next unfinished SOC. Runs use the
-repository as `workdir`, so Hermes serialises them with other workdir jobs.
+The job runs every two hours. The recurring tick is the chain: each fresh run
+reads the same durable queue, claims up to nine unfinished SOCs, delegates three
+independent source-family batches and integrates their validated files. Runs use
+the repository as `workdir`, so Hermes serialises top-level ticks with other
+workdir jobs; delegated research lanes run concurrently.
 
-At 248 remaining SOCs, the nominal duration is approximately 41 days at six
-successful runs per day. The queue is resumable after restarts, rate limits, or
+At 248 remaining SOCs, the theoretical ceiling is nine SOCs per two-hour tick.
+Allowing retries and source delays, a realistic target is 20–40 SOCs per day,
+or roughly 6–12 days. The queue is resumable after restarts, rate limits, or
 model failures.
 
 ## Factiva

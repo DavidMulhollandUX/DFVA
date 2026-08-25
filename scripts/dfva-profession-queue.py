@@ -79,13 +79,29 @@ def reconcile(st: dict) -> dict:
     for soc in current:
         if soc not in st["queue"]:
             st["queue"].append(soc)
+        current_status = st["status"].get(soc)
+        # An explicit lease wins while a worker is assembling files. A partially
+        # written empirical marker must not turn the SOC done before verification.
+        if current_status == "in_progress" and soc in st.get("leases", {}):
+            continue
         if is_empirical(soc):
             st["status"][soc] = "done"
-        elif st["status"].get(soc) == "done":
+        elif current_status == "done":
             st["status"][soc] = "pending"
         else:
             st["status"].setdefault(soc, "pending")
     return st
+
+
+def claim(st: dict, soc: str, worker: str) -> None:
+    """Reserve a SOC so concurrent workers cannot select it again."""
+    if st["status"].get(soc) not in {"pending", "retry"}:
+        raise ValueError(f"{soc} is not claimable: {st['status'].get(soc)}")
+    st["status"][soc] = "in_progress"
+    st["leases"][soc] = {
+        "worker": worker,
+        "claimed_at": datetime.now(timezone.utc).isoformat(),
+    }
 
 
 def next_pending(st: dict) -> str | None:
@@ -109,11 +125,20 @@ def summary(st: dict) -> dict:
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("action", choices=["init", "next", "status", "done", "retry", "block"])
+    ap.add_argument("action", choices=["init", "next", "status", "claim", "done", "retry", "block"])
     ap.add_argument("soc", nargs="?")
     ap.add_argument("--note", default="")
+    ap.add_argument("--worker", default="cron")
     args = ap.parse_args()
     st = reconcile(load())
+
+    if args.action == "claim":
+        if not args.soc or args.soc not in st["status"]:
+            ap.error("a queued SOC is required")
+        try:
+            claim(st, args.soc, args.worker)
+        except ValueError as exc:
+            ap.error(str(exc))
 
     if args.action in {"done", "retry", "block"}:
         if not args.soc or args.soc not in st["status"]:
@@ -121,6 +146,7 @@ def main() -> None:
         new_status = {"done": "done", "retry": "retry", "block": "blocked"}[args.action]
         st["status"][args.soc] = new_status
         st["attempts"][args.soc] = st["attempts"].get(args.soc, 0) + 1
+        st["leases"].pop(args.soc, None)
         st["runs"].append({
             "at": datetime.now(timezone.utc).isoformat(),
             "soc": args.soc,
