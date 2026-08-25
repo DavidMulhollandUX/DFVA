@@ -2,99 +2,283 @@
   "onet_soc_code": "45-1011",
   "title": "First-Line Supervisors/Managers of Farming, Fishing, and Forestry Workers",
   "aliases": [
-    "Program Leader Arboriculture and Nursery"
+    "Program Leader Arboriculture and Nursery",
+    "Farm Supervisor",
+    "Horticulture Team Leader",
+    "Irrigation Supervisor"
   ],
   "anzsco": "220000",
   "window": {
     "from": "2025-08-01",
-    "to": "2026-08-24"
+    "to": "2026-08-26"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-26",
+  "expires": "2027-02-26",
+  "researchMethod": "empirical-five-lane-v1",
   "programs": [
     "mc-urbhort"
   ],
   "claims": [
     {
-      "id": "45-1011-01",
-      "text": "National peak professional bodies and statutory regulators governing First-Line Supervisors/Managers of Farming, Fishing, and Forestry Workers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
+      "id": "c01",
+      "text": "SafeWork NSW launched a 12-month Farm Safety Training Program pilot on 21 May 2026, inviting up to 1,000 agricultural workers to complete a certificate course for working on farms, with outcomes informing whether an industry-specific safety card is introduced.",
       "lane": "L1",
-      "tier": "regulatory",
+      "tier": "regulator-media-release",
       "sources": [
         {
-          "publisher": "Australian Professional Standards Authority / Peak Body for First-Line Supervisors/Managers of Farming, Fishing, and Forestry Workers",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for First-Line Supervisors/Managers of Farming, Fishing, and Forestry Workers",
-          "url": "https://www.psc.gov.au/standards/45-1011",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for First-Line Supervisors/Managers of Farming, Fishing, and Forestry Workers"
+          "publisher": "SafeWork NSW",
+          "title": "Farm Safety Training Program launched to boost safety outcomes for agriculture and farming workers",
+          "url": "https://www.safework.nsw.gov.au/news/safework-media-releases/farm-safety-training-program-launched-to-boost-safety-outcomes-for-agriculture-and-farming-workers",
+          "date": "2026-05-21",
+          "whatItMeasured": "State regulator program launch: pilot size (~1,000 workers), duration (12 months) and safety-card feasibility evaluation"
+        },
+        {
+          "publisher": "Work Safety Hub",
+          "title": "Weekly WHS Round-Up 12th to 26th May 2026",
+          "url": "https://worksafetyhub.com.au/blog/weekly-whs-round-up-12th-to-26th-may-2026",
+          "date": "2026-05-26",
+          "whatItMeasured": "Independent WHS consultancy summary confirming the SafeWork NSW launch date and pilot terms"
         }
       ],
-      "scope": "Australian practitioners in First-Line Supervisors/Managers of Farming, Fishing, and Forestry Workers across public, private, and research sectors.",
+      "scope": "NSW jurisdiction only. About WHS training and supervision capability, not about AI, automation, or hiring demand.",
       "disposition": "sourced",
       "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
+      "bearing": [],
       "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
+      "refuteNotes": "Lens 1 (source real): regulator's own site, resolves 200, page carries 21 May 2026 date. Lens 2 (population fit): NSW agricultural workers including supervisors acting under PCBU direction - claim states NSW explicitly. Lens 3 (in window): 2026-05-21 inside window. No refuter overturned."
     },
     {
-      "id": "45-1011-02",
-      "text": "Automation of routine transactional and analytical tasks in First-Line Supervisors/Managers of Farming, Fishing, and Forestry Workers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
+      "id": "c02",
+      "text": "Under model WHS laws the primary duty sits with the person conducting a business or undertaking (PCBU) to ensure workers' health and safety so far as is reasonably practicable, with consultation duties; workers hold a reciprocal duty of reasonable care (s28 model WHS Act). Safe Work Australia maintains an agriculture-specific duties tool stating these obligations.",
+      "lane": "L1",
+      "tier": "regulator-guidance-standing",
       "sources": [
         {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in First-Line Supervisors/Managers of Farming, Fishing, and Forestry Workers",
-          "url": "https://www.jobsandskills.gov.au/research/45-1011",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across First-Line Supervisors/Managers of Farming, Fishing, and Forestry Workers in Australia"
+          "publisher": "Safe Work Australia",
+          "title": "General duties - agriculture duties tool",
+          "url": "https://safeworkaustralia.gov.au/duties-tool/agriculture/workers/general-duties",
+          "date": "2026-08-26",
+          "whatItMeasured": "Standing national regulator guidance restating PCBU and worker duties under the model WHS Act as applied to agriculture (page undated; retrieved 2026-08-26)"
         }
       ],
-      "scope": "Entry-level and senior First-Line Supervisors/Managers of Farming, Fishing, and Forestry Workers roles in Australia.",
+      "scope": "Legal framework binding farm businesses in harmonised jurisdictions (Victoria differs under OHS Act 2004). First-line supervisors are in scope as workers and potentially as officers, but this is not evidence of practice, sentiment, or technology use.",
+      "disposition": "scoped",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Lens 1: safeworkaustralia.gov.au official, resolves 200. Lens 2: national framework, claim scoped to harmonised jurisdictions. Lens 3: standing instrument, not time-boxed; dated by retrieval and flagged as such rather than given a false publication date. No refuter overturned."
+    },
+    {
+      "id": "c03",
+      "text": "Agriculture remains one of the highest-risk NSW industries, with 11 workplace fatalities on NSW farms in 2025; SafeWork NSW delivered Women in Agriculture safety workshops to more than 80 women across six regional towns in May 2026, and expanded the $1,000 Small Business Safety Rebate to drones in August 2025, receiving more than 20 drone applications.",
+      "lane": "L1",
+      "tier": "regulator-program-via-regional-press",
+      "sources": [
+        {
+          "publisher": "Moree Online News",
+          "title": "Workshops take women across regional NSW from paddock to pilot",
+          "url": "https://moreeonlinenews.com.au/2026/05/29/workshops-take-women-across-regional-nsw-from-paddock-to-pilot",
+          "date": "2026-05-29",
+          "whatItMeasured": "Regional press report of SafeWork NSW workshop program, 2025 NSW farm fatality count (11), and drone rebate uptake (>20 applications)"
+        }
+      ],
+      "scope": "NSW only. Fatality figure is reported via regional press citing the state government, not read from the registry. Drone rebate uptake indicates technology-assisted safety adoption but is a subsidy-application count, not fleet data.",
+      "disposition": "scoped",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Lens 1: outlet resolves 200 with dateline 2026-05-29. Lens 2: NSW-specific figures stated as NSW. Lens 3: in window. Dissent noted: press secondary to regulator, so tier lowered accordingly."
+    },
+    {
+      "id": "c04",
+      "text": "Australia's rural Research and Development Corporations, through the Growing a Digital Future project, assess that the future agricultural workforce will be shaped by technologies that augment or automate how people operate, naming navigation robotics, process automation and decision-support tools as most influential, and are building a Digital Capability Framework to guide educator training.",
+      "lane": "L2",
+      "tier": "institutional-study",
+      "sources": [
+        {
+          "publisher": "Cotton Research and Development Corporation",
+          "title": "Digital technology reinventing the agricultural workforce",
+          "url": "https://crdc.com.au/digital-technology-reinventing-agricultural-workforce",
+          "date": "2025-06-30",
+          "whatItMeasured": "RDC program statement of the Digital Capability Framework project: which technology classes are expected to augment versus automate agricultural work"
+        }
+      ],
+      "scope": "National agricultural workforce across all occupations and skill tiers. Does not isolate first-line supervisors, does not measure current adoption, and expresses expectations rather than observed effects.",
+      "disposition": "scoped",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Lens 1: crdc.com.au official RDC site, resolves 200, page dated 30 June 2025. Lens 2: national grain-belt framing, not supervisor-specific - reflected in scope. Lens 3: June 2025, just outside the strict 180-day discourse window but within the record's 12-month window; retained as L2 institutional position, not news."
+    },
+    {
+      "id": "c05",
+      "text": "CSIRO's Ag2050 program, run with the Department of Agriculture, Fisheries and Forestry, published farming-system scenarios toward 2050 and maintains a Responsible AI in agriculture workstream examining how AI contributes at farm and food-system level.",
+      "lane": "L2",
+      "tier": "institutional-study",
+      "sources": [
+        {
+          "publisher": "CSIRO Ag2050",
+          "title": "Responsible AI in agriculture",
+          "url": "https://research.csiro.au/ag2050/responsible-ai-in-agriculture",
+          "date": "2024-11-18",
+          "whatItMeasured": "National science agency program description: Ag2050 scenarios collaboration with DAFF and planned AI paper series plus co-design process"
+        }
+      ],
+      "scope": "Foresight and research programming, not current supervisory practice. Says nothing about whether any supervisor role has changed.",
+      "disposition": "scoped",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Lens 1: research.csiro.au official, resolves 200, metadata date 2024-11-18. Lens 2: national foresight, not occupation-specific - scoped. Lens 3: predates window; retained deliberately as background context because L1/L2 claims age well under the plan's freshness rule."
+    },
+    {
+      "id": "c06",
+      "text": "Horticulture recruitment demand in 2026 is reported to be concentrated at the top of the operational hierarchy rather than the picking line, with irrigation supervisors among five critical hires named for 2026; one specialist recruiter reports that none of its irrigation-role placements in the twelve months to July 2026 came from a job advertisement.",
+      "lane": "L3",
+      "tier": "trade-commentary-dated",
+      "sources": [
+        {
+          "publisher": "March Talent Partners",
+          "title": "Australian Horticulture 2026: 5 Critical Hires on Water",
+          "url": "https://marchtalentpartners.com.au/insights-post/australian-horticulture-2026-critical-hires",
+          "date": "2026-07-14",
+          "whatItMeasured": "Specialist horticulture recruiter's placement experience: role mix (orchard manager, irrigation manager, irrigation supervisor, assistant farm manager, development lead) and direct-approach sourcing"
+        },
+        {
+          "publisher": "March Talent Partners",
+          "title": "Orchard Manager 2026: Critical Corporate Hiring Outlook",
+          "url": "https://marchtalentpartners.com.au/insights-post/orchard-manager-2026-hiring-outlook",
+          "date": "2026-05-21",
+          "whatItMeasured": "Recruiter observation that corporate/fund-backed growers dominate orchard management hiring, citing Indeed Hiring Lab 3.3% monthly job-switch rate for agriculture and forestry, October 2025"
+        }
+      ],
+      "scope": "One recruitment firm's own placements, which is self-selected and commercially motivated. Not a market survey, not ABS data, and not transferable to government or amenity horticulture employers.",
+      "disposition": "scoped",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Lens 1: both pages resolve 200 with verifiable dates (2026-07-14, 2026-05-21). Lens 2: population is the firm's corporate-grower client base - captured in scope, dissent recorded that the underlying Indeed Hiring Lab statistic was not independently checked. Lens 3: both in window."
+    },
+    {
+      "id": "c07",
+      "text": "The Fair Work Commission's 2025-26 annual wage review set a 4.75% general increase and lifted the lowest award classifications to the new $26.44 national minimum wage, an effective rise of close to 6% from 1 July 2026 for employers with workers at base Horticulture Award classifications.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Australian Rural & Regional News",
+          "title": "Wage decision hits hard: NSW Farmers",
+          "url": "https://arr.news/2026/06/04/wage-decision-hits-hard-nsw-farmers",
+          "date": "2026-06-04",
+          "whatItMeasured": "Report of the FWC wage determination parameters (4.75% general increase; lowest classification floor raised to $26.44/hour NMW) and NSW Farmers' cost commentary"
+        }
+      ],
+      "scope": "Award-reliant farm employers nationally. The quoted reaction is industry association advocacy. Establishes wage-cost pressure, not hiring volumes or automation behaviour.",
       "disposition": "sourced",
       "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
+      "bearing": [],
       "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
+      "refuteNotes": "Lens 1: outlet resolves 200, URL-carried date 2026-06-04 matches content. Lens 2: national award settings, correctly attributed. Lens 3: in window. No refuter overturned; dissent that FWC primary document was not fetched directly, so figures rest on the report."
+    },
+    {
+      "id": "c08",
+      "text": "Australia's agricultural workforce stood near 258,900 in May 2025 (ABS), down roughly 11% year-on-year, while award minimum rates for 2026-27 place a Pastoral Award Level 4 (supervisor) at $27.08 per hour ($33.85 casual).",
+      "lane": "L3",
+      "tier": "data-aggregator-dated",
+      "sources": [
+        {
+          "publisher": "Farm Work Australia",
+          "title": "State of Farm Work Australia 2026: Key Statistics",
+          "url": "https://farmworkaustralia.com.au/state-of-farm-work-australia",
+          "date": "2026-04-01",
+          "whatItMeasured": "Third-party annual data snapshot citing ABS May 2025 employment (258,900), year-on-year change (~-11%), visa-worker counts, and 2026-27 award minimum rates"
+        }
+      ],
+      "scope": "Aggregator figures must be re-checked against the ABS release and the Fair Work Commission wage order before print use; the site is not a statistical agency. Supervisor rate is the Pastoral Award Level 4 classification only; horticulture supervision may fall under other awards.",
+      "disposition": "scoped",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Lens 1: resolves 200, states 'Updated April 2026'. Lens 2: national figures, labelled as third-party aggregation in scope. Lens 3: April 2026 update inside window. Dissent recorded: primary ABS/FWC documents not independently opened this run; claim kept at L3 tier for that reason."
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "first-line supervisors/managers of farming, fishing, and forestry workers",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "farm supervisor (37 results); horticulture team leader (8 results)",
+    "window": "listings posted within 90 days of 2026-08-26",
+    "count": 45,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Inghams Enterprises (poultry, multiple)",
+      "Pace Farm",
+      "Zerella Fresh",
+      "Ceres Poultry Group",
+      "Green by Nature (x2)",
+      "City of Rockingham",
+      "City of Tea Tree Gully",
+      "Glascott Landscape and Civil",
+      "Fruitscapes",
+      "Weeding Women"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "livestock handling",
+      "leadership/supervision",
+      "machinery operation",
+      "irrigation",
+      "poultry husbandry",
+      "team leadership"
     ]
   },
   "corpus": {
     "platforms": [
       {
-        "name": "practitioner_forums",
-        "scope": "National First-Line Supervisors/Managers of Farming, Fishing, and Forestry Workers Association discourse",
-        "items": 45
+        "name": "reddit",
+        "scope": "requested r/Agriculture, r/farming, r/horticulture, r/ausagriculture; engine returned items from unrelated subreddits (r/Futurology, r/AIDangers, r/ArtificialInteligence, r/AiAutomations, r/StartupFuture)",
+        "items": 5
+      },
+      {
+        "name": "hackernews",
+        "scope": "plan queries; returned generic AI-industry items",
+        "items": 6
+      },
+      {
+        "name": "youtube",
+        "scope": "plan queries; returned AI-tool tutorials unrelated to farm supervision",
+        "items": 4
       }
     ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": []
+    "retrieved": "2026-08-26",
+    "searchesReturningNothing": [
+      {
+        "source": "github",
+        "status": "no-results"
+      },
+      {
+        "source": "grounding",
+        "status": "no-results"
+      },
+      {
+        "source": "x",
+        "status": "auth-failed (unauthenticated bird session; coverage degraded)"
+      },
+      {
+        "source": "tiktok",
+        "status": "skipped-unconfigured (no scrapecreators key)"
+      },
+      {
+        "source": "instagram",
+        "status": "skipped-unconfigured (no scrapecreators key)"
+      },
+      {
+        "source": "Factiva",
+        "status": "omitted: unattended run (constraint 3)"
+      }
+    ]
   },
-  "confidence": "high",
-  "caveats": []
+  "confidence": "medium",
+  "caveats": [
+    "L5 corpus was collected and declared but contained zero items about this occupation's practitioners; all 15 retrieved items were off-population generic AI content. Discussion signals therefore rest entirely on L1-L3.",
+    "Factiva omitted (unattended run), so L3 cannot reach high confidence under constraint 3.",
+    "Adzuna keyword recall is imperfect: 'farm supervisor' returns some non-supervisory farm-hand roles and one warehouse supervisor listing; counts are indicative demand, not audited vacancy totals.",
+    "ANZSCO code carried over from the synthetic record (220000 placeholder) pending crosswalk confirmation."
+  ]
 }
