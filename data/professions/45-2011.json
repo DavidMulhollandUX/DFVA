@@ -2,97 +2,211 @@
   "onet_soc_code": "45-2011",
   "title": "Agricultural Inspectors",
   "aliases": [
-    "Biosecurity Officer"
+    "Biosecurity Officer",
+    "Quarantine Officer",
+    "Biosecurity Compliance Officer"
   ],
   "anzsco": "220000",
   "window": {
     "from": "2025-08-01",
-    "to": "2026-08-24"
+    "to": "2026-08-26"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-26",
+  "expires": "2027-02-26",
+  "researchMethod": "empirical-five-lane-v1",
   "programs": [],
   "claims": [
     {
-      "id": "45-2011-01",
-      "text": "National peak professional bodies and statutory regulators governing Agricultural Inspectors enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
+      "id": "c01",
+      "text": "The Australian National Audit Office's performance audit Delivery of the Biosecurity Workforce (Report No. 32, 2024-25, tabled 21 May 2025) found gaps in DAFF's workforce planning, skills tracking, scheduling and data management, including whether biosecurity officers are properly authorised and competent, and made seven recommendations, all accepted by DAFF.",
       "lane": "L1",
-      "tier": "regulatory",
+      "tier": "national-audit-instrument",
       "sources": [
         {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Agricultural Inspectors",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Agricultural Inspectors",
-          "url": "https://www.psc.gov.au/standards/45-2011",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Agricultural Inspectors"
+          "publisher": "Australian National Audit Office",
+          "title": "Auditor-General Report No. 32 2024-25: Delivery of the Biosecurity Workforce",
+          "url": "https://anao.gov.au/sites/default/files/2025-05/Auditor-General_Report_2024-25_32.pdf",
+          "date": "2025-05-21",
+          "whatItMeasured": "Independent performance audit of DAFF's biosecurity workforce planning, authorisation and competence arrangements"
+        },
+        {
+          "publisher": "Freight & Trade Alliance",
+          "title": "FTA / APSA Biosecurity Report 20, 27 May 2025",
+          "url": "https://ftalliance.com.au/newsdetails/36253",
+          "date": "2025-05-27",
+          "whatItMeasured": "Industry summary of the ANAO findings and DAFF's acceptance of all seven recommendations via the Transformation Action Plan"
         }
       ],
-      "scope": "Australian practitioners in Agricultural Inspectors across public, private, and research sectors.",
+      "scope": "Commonwealth DAFF biosecurity officers. Does not cover state and territory biosecurity officers (Agriculture Victoria, NSW DPI, councils) who appear separately in job-ad data.",
       "disposition": "sourced",
       "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
+      "bearing": [],
       "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
+      "refuteNotes": "Lens 1 (source real): primary ANAO document on anao.gov.au, resolves 200, tabled 21 May 2025. Lens 2 (population fit): audit population is exactly this occupation at Commonwealth level. Lens 3 (in window): tabled May 2025, predating the sweep window start; retained deliberately because L1 instruments age well under the plan's freshness rule."
     },
     {
-      "id": "45-2011-02",
-      "text": "Automation of routine transactional and analytical tasks in Agricultural Inspectors heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
+      "id": "c02",
+      "text": "Amended pre-arrival reporting obligations under the Biosecurity Amendment (2025 Measures No. 1) Regulations took effect 27 February 2026, requiring operators of international non-scheduled flights to lodge a Non-Scheduled Pre-Arrival Report before departing their last overseas port, with compliance and enforcement provisions for failures.",
+      "lane": "L1",
+      "tier": "regulation-commenced",
       "sources": [
         {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Agricultural Inspectors",
-          "url": "https://www.jobsandskills.gov.au/research/45-2011",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Agricultural Inspectors in Australia"
+          "publisher": "Freight & Trade Alliance",
+          "title": "FTA / APSA Biosecurity Report 09, 3 March 2026",
+          "url": "https://ftalliance.com.au/advocacydetail/4784",
+          "date": "2026-03-03",
+          "whatItMeasured": "Dated industry report of the regulation's commencement date (27 February 2026) and its operational requirements"
         }
       ],
-      "scope": "Entry-level and senior Agricultural Inspectors roles in Australia.",
-      "disposition": "sourced",
+      "scope": "Non-scheduled flight pathway. Adds checking workload for biosecurity officers at affected ports; no measured effect size on officer numbers or inspection time.",
+      "disposition": "scoped",
       "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
+      "bearing": [],
       "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
+      "refuteNotes": "Lens 1: resolves 200, dateline matches URL (03032026); underlying regulation named precisely. Lens 2: Australian border-inspection population. Lens 3: commenced inside window. Dissent: regulation read via industry newsletter rather than the Federal Register of Legislation; kept at scoped tier."
+    },
+    {
+      "id": "c03",
+      "text": "DAFF expanded its Self Assessed Clearance (SAC) Air Cargo Compliance Verification program, which uses random inspections to test compliance with import requirements, and concluded the 2025-26 Brown Marmorated Stink Bug risk season on 1 May 2026, ending heightened seasonal intervention settings for goods shipped from target risk countries after 30 April 2026.",
+      "lane": "L1",
+      "tier": "operational-settings-via-industry-report",
+      "sources": [
+        {
+          "publisher": "Freight & Trade Alliance",
+          "title": "FTA / APSA Biosecurity Report 18, 5 May 2026",
+          "url": "https://ftalliance.com.au/newsdetails/40367",
+          "date": "2026-05-05",
+          "whatItMeasured": "Operational compliance-program changes reported from DAFF engagement: ACCV expansion intent and BMSB seasonal measure end date"
+        }
+      ],
+      "scope": "Air cargo and seasonal sea-cargo pathways. Describes where inspection effort is targeted, not how many inspectors are employed or what they earn.",
+      "disposition": "scoped",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Lens 1: resolves 200, dated newsletter. Lens 2: Australian import-inspection population. Lens 3: May 2026, in window. No refuter overturned."
+    },
+    {
+      "id": "c04",
+      "text": "Since 2023 DAFF has trialled 3D x-ray screening of incoming baggage at Brisbane and Melbourne airports, with biosecurity officers assessing scanned images from remote screening rooms, supported by assistive biosecurity detection algorithms.",
+      "lane": "L1",
+      "tier": "regulator-trial-background",
+      "sources": [
+        {
+          "publisher": "Global Agriculture (reproducing DAFF release)",
+          "title": "3D x-ray trial to add another dimension to airport biosecurity",
+          "url": "https://global-agriculture.com/global-agriculture/3d-x-ray-trial-to-add-another-dimension-to-airport-biosecurity",
+          "date": "2023-09-06",
+          "whatItMeasured": "DAFF announcement: two 3D x-ray units installed, remote image assessment by officers, assistive detection algorithms, initial testing from August 2023"
+        },
+        {
+          "publisher": "Mirage News",
+          "title": "3D X-Ray Trial Enhances Airport Biosecurity",
+          "url": "https://miragenews.com/3d-x-ray-trial-enhances-airport-biosecurity-1078352",
+          "date": "2023-09-01",
+          "whatItMeasured": "Corroborating reproduction of the same DAFF release"
+        }
+      ],
+      "scope": "Airport passenger baggage pathway, trial footing as announced. Establishes that algorithm-assisted screening sits alongside rather than replaces officers as designed. Does not establish current national deployment, accuracy in operations, or any staffing effect.",
+      "disposition": "scoped",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Lens 1: both reproductions resolve 200 and carry the DAFF deputy secretary's quoted remarks; primary DAFF page not located this run, dissent recorded. Lens 2: exact occupation population. Lens 3: September 2023, well outside the sweep window; admitted as standing technology context only, mirroring the treatment of other pre-window L1 material."
+    },
+    {
+      "id": "c05",
+      "text": "Commentary on e-commerce parcel biosecurity risk reports that false-positive rates have kept automated image classification from fully automated decisions, leaving the technology useful as a triage layer alongside detector dogs and human officers, while parcel volumes make whole-consignment inspection impossible.",
+      "lane": "L3",
+      "tier": "industry-blog-commentary",
+      "sources": [
+        {
+          "publisher": "forestry-quarantine.org (industry blog)",
+          "title": "E-commerce Parcels and Biosecurity Risk: The Volume Problem in 2026",
+          "url": "https://forestry-quarantine.org/blog/2026-05-05-ecommerce-biosecurity-parcels",
+          "date": "2026-05-05",
+          "whatItMeasured": "Commentary claiming DAFF piloted automated image classification with AI vendors, that public pilot results show false-positive rates too high for fully automated decisioning, and detector-dog program expansion of eight teams in 2024"
+        }
+      ],
+      "scope": "Unattributed industry blog; the claimed DAFF pilot results were not verified against a DAFF source this run. Use as a lead for verification, not as print support. Detector-dog expansion figure likewise unverified against DAFF.",
+      "disposition": "scoped",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Lens 1 (source real): blog resolves 200 and is dated, but publishes no named authors; one refuter overturned on authority grounds. Lens 2 (population fit): Australian border biosecurity, fits. Lens 3 (in window): May 2026, fits. Survives two-to-one with the authority dissent captured in scope."
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "agricultural inspectors",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "biosecurity officer (17 results); agricultural inspector (0 results)",
+    "window": "listings posted within 90 days of 2026-08-26",
+    "count": 17,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Hinchinbrook Shire Council (x2)",
+      "DEECA (Vic)",
+      "South Burnett Regional Council",
+      "NSW Department of Primary Industries ('Primary Industries')",
+      "Agriculture Victoria (x2)"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "compliance",
+      "pest animal and weed management",
+      "regulatory inspection",
+      "community engagement"
     ]
   },
   "corpus": {
     "platforms": [
       {
-        "name": "practitioner_forums",
-        "scope": "National Agricultural Inspectors Association discourse",
-        "items": 45
+        "name": "reddit",
+        "scope": "requested r/biosecurity, r/invasivespecies, r/Agriculture; engine returned items from unrelated subreddits",
+        "items": 12
+      },
+      {
+        "name": "hackernews",
+        "scope": "plan queries",
+        "items": 12
+      },
+      {
+        "name": "github",
+        "scope": "plan queries",
+        "items": 5
+      },
+      {
+        "name": "youtube",
+        "scope": "plan queries",
+        "items": 1
       }
     ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": []
+    "retrieved": "2026-08-26",
+    "searchesReturningNothing": [
+      {
+        "source": "grounding",
+        "status": "no-results"
+      },
+      {
+        "source": "x",
+        "status": "auth-failed (unauthenticated bird session)"
+      },
+      {
+        "source": "tiktok",
+        "status": "skipped-unconfigured (no scrapecreators key)"
+      },
+      {
+        "source": "instagram",
+        "status": "skipped-unconfigured (no scrapecreators key)"
+      },
+      {
+        "source": "Factiva",
+        "status": "omitted: unattended run (constraint 3)"
+      }
+    ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "High confidence rests on the L1 core (ANAO audit plus 2025 regulations); the declared L5 corpus contained zero items about Australian biosecurity practitioners, so discussion signals (report section 3) remain thin even though the regulatory record is strong.",
+    "Factiva omitted: unattended run.",
+    "'agricultural inspector' returns zero Adzuna listings while 'biosecurity officer' returns 17: the Australian labour market uses the biosecurity title almost exclusively.",
+    "ANZSCO code carried over from the synthetic record (220000 placeholder) pending crosswalk confirmation."
+  ]
 }
