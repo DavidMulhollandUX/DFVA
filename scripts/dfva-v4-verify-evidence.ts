@@ -349,6 +349,96 @@ if (misidentified.length) {
   console.log('\n✓ capture identity: every own-course page names its program')
 }
 
+// --- subject scope -----------------------------------------------------------
+// A fragment found SOMEWHERE in the capture proves less than it looks. mc-mgmtfin
+// cited "FNCE90056 Investment Management ... Assignment (1000 words equivalent)";
+// FNCE90056 assesses ten weekly quizzes and two examinations and has no
+// assignment, but the word "Assignment" and the figure "1000 words (equivalent)"
+// both occur elsewhere in the file, so the unscoped check passed it. Where a line
+// names a subject whose pages were captured, its remaining fragments must sit on
+// that subject's own pages — or on the program's course, structure and component
+// pages, which legitimately carry statements like "Capstone Option 1".
+const outOfScope: Array<{ code: string; line: string; fragment: string }> = []
+for (const r of rows) {
+  if (r.noCapture || badCapture.has(r.code)) continue
+  const raw = readFileSync(path.join(CAPTURE, `${r.code}.txt`), 'utf8')
+  const bySubject = new Map<string, string[]>()
+  const coursePages: string[] = []
+  const parts = raw.split(/^===== SOURCE: (\S+) =====$/m)
+  for (let i = 1; i < parts.length; i += 2) {
+    const body = norm(parts[i + 1] ?? '')
+    const m = parts[i].match(/\/subjects\/([a-z]{4}\d{5})/)
+    if (m) {
+      const k = m[1].toUpperCase()
+      bySubject.set(k, [...(bySubject.get(k) ?? []), body])
+    } else {
+      coursePages.push(body)
+    }
+  }
+  const course = coursePages.join(' | ')
+  const doc = JSON.parse(
+    readFileSync(path.join(EVIDENCE, `${r.code}.json`), 'utf8'),
+  ) as { panelCv4?: PanelC }
+  for (const [, line] of linesOf(doc.panelCv4 ?? {})) {
+    const frags = line.split(/\s*(?:\.\.\.|…)\s*/).map((f) => f.trim()).filter(Boolean)
+    const named = frags[0]?.match(/^([A-Z]{4}\d{5})\b/)?.[1]
+    if (!named || !bySubject.has(named)) continue
+    const scope = `${(bySubject.get(named) ?? []).join(' | ')} | ${course}`
+    for (const f of frags.slice(1)) {
+      if (scope.includes(norm(f))) continue
+      const a = atoms(f)
+      if (a.length > 0 && a.every((x) => scope.includes(x))) continue
+      outOfScope.push({ code: r.code, line: line.slice(0, 80), fragment: f.slice(0, 70) })
+      break
+    }
+  }
+}
+if (outOfScope.length) {
+  console.log(`\n❌ ${outOfScope.length} evidence line(s) quote text that is not on the subject they name:`)
+  for (const o of outOfScope) console.log(`   ${o.code}: ${o.line}\n      off-subject: ${o.fragment}`)
+} else {
+  console.log('✓ subject scope: every quoted fragment sits on the subject it names')
+}
+
+// --- rationale subject codes --------------------------------------------------
+// Rationale prose is published on the page and no check reads it. A full
+// code-to-title check is not viable — "LAWS90352 Legal Research Brief" names an
+// assessment, not the subject, and that is legitimate — but a code cited for a
+// program whose capture never mentions it cannot be evidence about that program.
+// This is the ABPL90396 / ACCT90029 / CVEN90067 class.
+const phantomCodes: Array<{ code: string; item: string; subject: string }> = []
+for (const r of rows) {
+  if (r.noCapture) continue
+  const cap = norm(readFileSync(path.join(CAPTURE, `${r.code}.txt`), 'utf8'))
+  const doc = JSON.parse(
+    readFileSync(path.join(EVIDENCE, `${r.code}.json`), 'utf8'),
+  ) as { panelCv4?: PanelC }
+  const p = doc.panelCv4 ?? {}
+  const prose: Array<[string, string]> = []
+  for (const id of [...ITEMS, 'G1', 'G2']) {
+    const holder = (id === 'G1' || id === 'G2' ? p.gates?.[id] : p[id]) as
+      | { rationale?: string }
+      | undefined
+    if (holder?.rationale) prose.push([id, holder.rationale])
+  }
+  for (const a of (p.ambiguities as string[] | undefined) ?? []) prose.push(['ambiguity', a])
+  const seen = new Set<string>()
+  for (const [item, t] of prose) {
+    for (const m of t.matchAll(/\b([A-Z]{4}\d{5})\b/g)) {
+      const subj = m[1]
+      if (cap.includes(norm(subj)) || seen.has(subj)) continue
+      seen.add(subj)
+      phantomCodes.push({ code: r.code, item, subject: subj })
+    }
+  }
+}
+if (phantomCodes.length) {
+  console.log(`\n❌ ${phantomCodes.length} subject code(s) named in rationale prose but absent from the capture:`)
+  for (const c of phantomCodes) console.log(`   ${c.code} ${c.item}: ${c.subject}`)
+} else {
+  console.log('✓ rationale subjects: every code named in prose appears in its capture')
+}
+
 // --- report block quotes ---------------------------------------------------
 // The record is not the only place a handbook quote is published. Each
 // reports/dfva-v4-<code>.md repeats evidence as block quotes, and those are a
@@ -381,4 +471,8 @@ if (staleQuotes.length) {
   console.log('✓ report quotes: every published block quote is in its capture')
 }
 
-if (STRICT && (falseClaims.length || staleQuotes.length)) process.exit(1)
+if (
+  STRICT &&
+  (falseClaims.length || staleQuotes.length || outOfScope.length || phantomCodes.length)
+)
+  process.exit(1)
