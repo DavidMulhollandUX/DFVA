@@ -17,6 +17,7 @@
     "dfva:deck": "python3 build-evidura-deck.py",
     "dfva:sync-skill": "cp ../dfva/dist/claude-skill/SKILL.md ~/.claude/skills/dfva/SKILL.md",
     "dfva:panela-coverage": "npx tsx dfva-panela-coverage-check.ts",
+    "dfva:verify-evidence": "npx tsx dfva-v4-verify-evidence.ts",
     "dfva:capture-check": "npx tsx check-capture-provenance.ts",
     "dfva:capture-queue": "python3 build-capture-queue.py",
     "dfva:reports-index": "npx tsx dfva-reports-index-check.ts",
