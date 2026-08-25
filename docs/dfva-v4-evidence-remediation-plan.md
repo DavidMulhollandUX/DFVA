@@ -1,6 +1,6 @@
 # Plan: close the v4 evidence gaps
 
-**Status:** proposed, 2026-08-25 · **Branch:** `feat/v4-global-queue`
+**Status:** steps 0 and 2-5 complete, 2026-08-25 · **Branch:** `feat/v4-global-queue`
 
 Four gaps remain between the v4 corpus and a report page whose every claim is
 backed. This plan sequences them, states what each one costs, and names the exit
@@ -87,7 +87,7 @@ python3 scripts/build-capture-queue.py
 python3 scripts/v4-capture-queue.py
 ```
 
-## Step 2 — correct the tail-drift lines (29 lines)
+## Step 2 — correct the tail-drift lines (29 lines) — DONE
 
 Replace each recorded line with the capture text `--suggest` proposes. Same
 passage, accurate transcription. Re-check the item score only where the
@@ -95,7 +95,7 @@ correction removes the clause the score rested on.
 
 Exit: `dfva:verify-evidence` reports 0 tail-drift.
 
-## Step 3 — resolve the paraphrases (79 lines)
+## Step 3 — resolve the paraphrases (79 lines) — DONE
 
 For each, the rater decides whether the true text still evidences the score at
 the recorded level. Most will hold — the passage exists and says materially the
@@ -105,7 +105,7 @@ assessed scores 1 regardless of wording.
 
 Work program by program with the capture open, not line by line across programs.
 
-## Step 4 — settle the no-source lines (36 lines)
+## Step 4 — settle the no-source lines (36 lines) — DONE
 
 The hard set. For each: find the real passage, or withdraw the line and re-score
 the item without it. A withdrawal that leaves an item with no evidence must move
@@ -114,7 +114,7 @@ that item's score, or the score was never evidence-based.
 Run `--suggest --kind no-source` first: a line whose nearest passage prints as
 "no near passage in this capture" is the strongest candidate for withdrawal.
 
-## Step 5 — source the gate evidence (gap B, 16 programs)
+## Step 5 — source the gate evidence (gap B, 16 programs) — DONE
 
 All 16 carry gate **rationales** but no `evidenceLines`. Both gates are
 sourceable from captures already on disk:
@@ -145,8 +145,10 @@ cannot reopen:
 
 1. No record claims a verification pass it fails. **Already met and guarded** —
    `--strict` is in the `dfva:check` chain.
-2. `unmatched == 0` across all scored programs.
+2. `unmatched == 0` across all scored programs. **Met 2026-08-25** — 5,404
+   lines, 100% present, 104/104 programs confirmed.
 3. Every scored program carries at least one gate evidence line per gate.
+   **Met 2026-08-25.**
 4. Every scored program carries `verified: {adversarial: true, mechanical: true}`.
 
 Never stamp `verified` from the matcher. The field is a record of work someone
@@ -158,11 +160,11 @@ the seven withdrawn claims show the existing records cannot seed it either.
 ```
 Step 0  tooling     DONE ── unblocks 2,3,4
 Step 1  capture (2 subj) ── unblocks part of 4        [attended]
-Step 2  tail drift  (30) ── mechanical
-Step 3  paraphrase  (73) ── judgement, scores may move
-Step 4  no source   (41) ── judgement, scores likely move
-Step 5  gate evidence    ── judgement, gates may flip
-Step 6  adversarial      ── reviews the settled scores
+Step 2  tail drift  DONE ── mechanical
+Step 3  paraphrase  DONE ── judgement, no score moved
+Step 4  no source   DONE ── judgement, no score moved
+Step 5  gate evidence DONE ── judgement, no gate flipped
+Step 6  adversarial      ── reviews the settled scores  [REMAINING]
 ```
 
 Steps 2 to 5 are program-scoped and parallelisable: 25 programs in the union,
@@ -175,3 +177,21 @@ sequential.
   including design rule R2 on unassessed outcomes
 - [docs/dfva-v4-capture-system.md](dfva-v4-capture-system.md) — the capture
   runbook for step 1
+
+## Carried into step 6: subject titles in rationales
+
+The evidence lines are now all true; the **rationales** are not fully checked.
+Five name a subject by a title the handbook gives to a different subject:
+
+| Program | Rationale says | The 2026 handbook says |
+| --- | --- | --- |
+| `mc-civeng` C1, C4 | CVEN90044 "Sustainable Infrastructure Development" | CVEN90044 is Engineering Site Characterisation |
+| `mc-civeng` C1 | CVEN90075 "Civil Engineering Management" | CVEN90075 is Transport Infrastructure Design |
+| `mc-civeng` C1 | CVEN90050 "Transport Systems" | CVEN90050 is Geotechnical Engineering; Transport Systems is CVEN90048 |
+| `mc-it` C1 | ELEN90095 "Internet of Things" | ELEN90095 is AI for Robotics |
+
+Verified against the live handbook on 2026-08-25, which agrees with the captures
+in every case. These were left unedited on purpose: correcting the code and
+correcting the title make different claims, and choosing between them is the
+rater's call. `mc-civeng` C3 also names analysis packages ("Space Gass",
+"Strand7") that appear nowhere in its capture.
