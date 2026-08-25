@@ -6,7 +6,7 @@
       "score": 2,
       "rationale": "Level 2 anchor is satisfied: at least one core unit assesses collaborative practice. In compulsory core subject ENGR90028 Introduction to Energy Systems, students complete an assessed 'small group oral presentation during the semester (5%) and assessment of individual contributions'; in core finance/management option FNCE90060 Financial Management, students complete 'Group (normally 3-4 students per group) homework assignments to be assessed online via the LMS'; in MGMT90141 Business Decision Analysis, students complete two group assignments in teams of 3-5 and an associated team presentation; in ENEN90033, students complete 'One group task 1000 words per person'; and in MAST90014 Optimization, students complete 'One group project: consisting of six students to a group including one group written report and one oral presentation'. Level 3 is not met: no core assessment requires coordinating work across people AND tools/AI systems with documented role-and-tool allocation or an assessed division of work between people and systems.",
       "evidenceLines": [
-        "Class participation - One small group oral presentation during the semester (5%) and assessment of individual contributions to lectures and tutorials (5%)",
+        "Class participation - One small group oral presentation during the semester (5%) and assessment of individual student participation over the semester (5%)",
         "Group (normally 3-4 students per group) homework assignments to be assessed online via the LMS",
         "Group assignment (usually in groups of 3-5)",
         "Presentation associated with group assignment",
@@ -18,7 +18,7 @@
       "rationale": "Level 2 anchor is satisfied: core assessment includes criterion-referenced appraisal of quality. In ENGR90029 Analysing Energy Systems, students complete four quantitative assignments analyzing thermodynamic efficiencies, energy conversion bounds, and comparative economic viability of low-carbon technologies; in ENGR90028, students deliver criterion-referenced oral presentations evaluating national energy transition strategies; and in the 25-point capstone project (ENGR90031), students complete 'One oral presentation followed by an oral examination summarising the project findings'. Level 3 is not met: no core assessment requires students to document and justify reliance decisions (deciding when to rely on or override an energy grid simulation package, automated dispatch model, or collaborator), defend judgements of AI-generated renewable generation forecasts, or evidence strategy adjustment over time.",
       "evidenceLines": [
         "Four assignments (10% per assignment); each of no more than 10 pages. (13-15 hours per assignment). Intended Learning Outcomes (ILOs) 1 to 4 are addressed in the assignments",
-        "Class participation - One small group oral presentation during the semester (5%) and assessment of individual contributions to lectures and tutorials (5%)",
+        "Class participation - One small group oral presentation during the semester (5%) and assessment of individual student participation over the semester (5%)",
         "One oral presentation followed by an oral examination summarising the project findings"
       ]
     },
@@ -58,7 +58,7 @@
       "evidenceLines": [
         "Two assignments (25% each) not exceeding 12 pages each, one due mid-semester and the other at the end of semester",
         "Two assignments (25% each) not exceeding 20 pages each, one due mid-semester and the other at the end of semester",
-        "Class participation - One small group oral presentation during the semester (5%) and assessment of individual contributions to lectures and tutorials (5%)",
+        "Class participation - One small group oral presentation during the semester (5%) and assessment of individual student participation over the semester (5%)",
         "Report on a case study model",
         "Oral presentation on case study model"
       ]
@@ -90,9 +90,9 @@
           "ENGR90028 Introduction to Energy Systems",
           "ENGR90029 Analysing Energy Systems",
           "ELEN90069 Electrical Power Systems",
-          "One of FNCE90060 Financial Management, ECON90015 Managerial Economics or MGMT90141 Business Decision Analysis",
-          "ENGR90030 Managing Energy Systems",
-          "ENGR90032 Energy Systems in Low Carbon Futures"
+          "One of FNCE90060 Financial Management, ECON90015 Managerial Economics or an elective",
+          "ENGR90030 Non-renewable Energy",
+          "ENGR90032 Energy Supply & Value Chains"
         ]
       },
       "G2": {

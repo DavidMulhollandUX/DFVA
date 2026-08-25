@@ -34,7 +34,7 @@
       "score": 2,
       "rationale": "Level 2 anchor is satisfied: core assessment requires transfer of evaluation theories, methodology frameworks, and impact assessments across diverse public policy, development, education, welfare, and healthcare contexts (DEVT90002, DEVT90009, DEVT90041, ENST90002). Level 3 is not met: structured identification of personal professional capability gaps with an assessed AES continuing professional learning plan across every student is unevidenced.",
       "evidenceLines": [
-        "DEVT90002 International Development Project Management ... Professional portfolio / report (2500 words) ... Reflective essay",
+        "Internship in Development (DEVT90002) ... Professional porfolio / report (2500 words) ... Reflective essay",
         "DEVT90009 Development Theories ... Research essay ... oral defence",
         "Apply understandings of evaluation theory and methods to a range of professional settings"
       ]
@@ -53,7 +53,7 @@
       "score": 2,
       "rationale": "Level 2 anchor is satisfied: professional communication is assessed repeatedly across core units (professional portfolios/reports in DEVT90002, policy briefing papers in MULT90005, oral presentations in DEVT90003/DEVT90009, and impact reports in ENST90002). Level 3 is not met: formal grading of professional conduct and evaluation communication by external registered Australasian Evaluation Society (AES) practitioners across the compulsory core is unevidenced.",
       "evidenceLines": [
-        "DEVT90002 International Development Project Management ... Professional portfolio / report (2500 words) ... Oral presentation",
+        "Internship in Development (DEVT90002) ... Professional porfolio / report (2500 words) ... Oral presentation",
         "MULT90005 Partnerships for Sustainable Futures ... Collaborative (group) briefing paper, to be a combined total of 1500 words per student",
         "DEVT90009 Development Theories ... 10-minute oral defence of the research essay"
       ]
@@ -62,7 +62,7 @@
       "score": 2,
       "rationale": "Level 2 anchor is satisfied: authentic tasks form a substantial part of core coursework: professional project management portfolios (DEVT90002), social impact evaluations (ENST90002), and stakeholder briefing papers (MULT90005). Level 3 is not met: universal core assessments do not carry the full unyielding external constraints of practice (e.g. real commercial client evaluation contracts with consequential stakeholder scrutiny).",
       "evidenceLines": [
-        "DEVT90002 International Development Project Management ... Professional porfolio / report (2500 words) ... Progress report",
+        "Internship in Development (DEVT90002) ... Professional porfolio / report (2500 words) ... Progress report",
         "ENST90002 Social Impact Assessment and Evaluation ... Project report (2500 words)",
         "MULT90005 Partnerships for Sustainable Futures ... Collaborative (group) briefing paper"
       ]
@@ -71,7 +71,7 @@
       "score": 1,
       "rationale": "Level 1 anchor is satisfied: work-situated learning is formally structured as an optional capstone/elective route (GEOG90022 Internship with Host Supervisor Assessment Report / ENST90025 Environmental Industry Research) or own-practice evaluation in the student's workplace, but is not mandatory for all students across the universal core.",
       "evidenceLines": [
-        "GEOG90022 Social Science Internship ... A reflective journal including a log of hours worked and a Host Supervisor Assessment Report",
+        "International Internship in Environment (GEOG90022) ... A reflective journal including a log of hours worked and a Host Supervisor Assessment Report",
         "ENST90025 Environmental Industry Research (25) ... 1500 words ... Hurdle requirement ... 7000 words"
       ]
     },
@@ -79,11 +79,21 @@
     "gates": {
       "G1": {
         "result": "PASS",
-        "rationale": "PASS condition is met: comprehensive 100-point professional development qualification in evaluation theory, methodology, ethical practice, program monitoring, impact evaluation, and performance audit."
+        "rationale": "PASS condition is met: comprehensive 100-point professional development qualification in evaluation theory, methodology, ethical practice, program monitoring, impact evaluation, and performance audit.",
+        "evidenceLines": [
+          "The Master of Evaluation is a program conducted purely online, of professional development catering for the needs of those who wish to prepare for a leadership role in evaluation theory, method, and practice at local, national and international levels.",
+          "The course aims to enable students to become familiar with theories underlying policy and program development, the roles of various types of evaluation, ethical practice, and key concepts and approaches to evaluation.",
+          "Demonstrate an appreciation of professional responsibilities and ethical principles that should characterise leaders in the evaluation field."
+        ]
       },
       "G2": {
         "result": "PASS",
-        "rationale": "PASS condition is met: core assessment explicitly requires navigating high-stakes evaluation dilemmas, conflicting stakeholder values, ambiguous program outcomes, and ethical data decisions (ENST90002, DEVT90002, MULT90005)."
+        "rationale": "PASS condition is met: core assessment explicitly requires navigating high-stakes evaluation dilemmas, conflicting stakeholder values, ambiguous program outcomes, and ethical data decisions (ENST90002, DEVT90002, MULT90005).",
+        "evidenceLines": [
+          "Environmental sustainability issues are often complex, controversial and associated with uncertain conditions.",
+          "Manage complex and uncertain issues and situations",
+          "Analyse complex, field-based activities connected with development."
+        ]
       }
     },
     "ambiguities": [

@@ -24,7 +24,7 @@
       "score": 2,
       "rationale": "Level 2 anchor is satisfied: core units directly address accounting information systems, internal control frameworks, database structures, quantitative modeling, and IT audit constraints. In ACCT90030 Information Processes & Control, students analyze accounting system architecture, data flows, and internal control frameworks with assessed presentations and assignments; in ECOM90009 Quantitative Methods for Business, students complete quantitative modeling tasks. Level 3 is not met: systemic critique of AI governance in corporate financial reporting, algorithmic audit bias, regulatory data protection (APRA/ASIC), or statutory tax AI governance is not formally assessed in the core.",
       "evidenceLines": [
-        "ACCT90030 Information Processes & Control ... Individual Assignment ... Group presentation (20 minutes, including Q&A)",
+        "ACCT90030 Information Processes & Control ... Computerised ERP practice sets ... Group presentation (20 minutes, in groups of 4\u20135 students, including a Q&A session; all students must present and answer questions, 4\u20135 minutes per student)",
         "ECOM90009 Quantitative Methods for Business ... Group Assignment 1 ... Group Assignment 2 ... Group Written Assignment",
         "Employ a range of tools of analysis pertinent to the evaluation of evidence in business sector"
       ]
@@ -54,7 +54,7 @@
       "evidenceLines": [
         "ACCT90002 Financial Statement Analysis ... Group assignment (4000 words, in groups of 4-5 students)",
         "ACCT90014 Auditing and Assurance Services ... Group assignment (5000 words)",
-        "ACCT90030 Information Processes & Control ... Group presentation (20 minutes, in groups of 4\u20135 students, including a Q&A session; all students must present)"
+        "ACCT90030 Information Processes & Control ... Group presentation (20 minutes, in groups of 4\u20135 students, including a Q&A session; all students must present and answer questions, 4\u20135 minutes per student)"
       ]
     },
     "W2": {
@@ -71,19 +71,29 @@
       "rationale": "Level 1 anchor is met: simulated corporate accounting environments, mock audit engagements, and ERP software labs appear across coursework. Level 2 is unmet: internship and practicum subjects (e.g. BUSA90473, ACCT90029) are elective options rather than a mandatory core requirement for the entire cohort (R1).",
       "evidenceLines": [
         "The Master of Management (Accounting) 200 Point (200pt) program consists of sixteen subjects, comprising five foundation subjects, three discipline core subjects, one capstone subject and seven elective subjects",
-        "Accounting electives ... ACCT90029 Accounting Internship",
-        "BUSA90473 Business Practicum ... Elective offering"
+        "Students must complete one subject from any of the following lists: ... Work Integrated Learning electives ... BUSA90473 Business Practicum",
+        "Work Integrated Learning electives ... BUSA90525 Business and Economics Internship"
       ]
     },
     "workplace": 5,
     "gates": {
       "G1": {
         "result": "PASS",
-        "rationale": "PASS condition is met: the program documents a comprehensive 200-point curriculum accredited by CPA Australia and CAANZ, covering financial accounting, managerial accounting, auditing, taxation, corporate law, quantitative methods, and accounting information systems. Rigorous, coherent professional accounting core."
+        "rationale": "PASS condition is met: the program documents a comprehensive 200-point curriculum accredited by CPA Australia and CAANZ, covering financial accounting, managerial accounting, auditing, taxation, corporate law, quantitative methods, and accounting information systems. Rigorous, coherent professional accounting core.",
+        "evidenceLines": [
+          "Students in the Master of Management (Accounting) complete a specialist core to develop their knowledge and skills in financial accounting, managerial accounting, auditing, taxation, corporate reporting and accounting information systems.",
+          "The Master of Management (Accounting) is accredited by Certified Practising Accountants Australia (CPA Australia) and Chartered Accountants Australia and New Zealand (CAANZ).",
+          "Discipline core subjects ... Students must complete all of the following subjects: ... ACCT90014 Auditing and Assurance Services ... Capstone subject ... ACCT90033 Integrated Accounting Studies"
+        ]
       },
       "G2": {
         "result": "PASS",
-        "rationale": "PASS condition is met: assessment explicitly requires complex professional accounting judgements under statutory and commercial ambiguity \u2014 including assessing going-concern risks and materiality thresholds under incomplete audit evidence in ACCT90014, selecting appropriate revenue recognition and fair-value valuation models under market volatility in ACCT90012/ACCT90013, and navigating complex tax statutory interpretation in ACCT90016."
+        "rationale": "PASS condition is met: assessment explicitly requires complex professional accounting judgements under statutory and commercial ambiguity \u2014 including assessing going-concern risks and materiality thresholds under incomplete audit evidence in ACCT90014, selecting appropriate revenue recognition and fair-value valuation models under market volatility in ACCT90012/ACCT90013, and navigating complex tax statutory interpretation in ACCT90016.",
+        "evidenceLines": [
+          "Auditing and Assurance Services (ACCT90014) ... Apply the concepts and processes used by audit and assurance service providers to gather evidence and formulate judgments with respect to the underlying information ... Group assignment (5000 words, in groups of 4-5 students)",
+          "Corporate Reporting (ACCT90012) ... Resolve accounting issues by reference to the conceptual framework and accounting standards, including those not covered in the subject ... Group assignment ( 5000 words, in groups of 4-5 students)",
+          "Taxation for Business Decision Making (ACCT90016) ... Group written assignment (3000 words, in groups of 3-4 students) ... Group presentation (10 minutes, in groups of 3-4 students)"
+        ]
       }
     },
     "ambiguities": [

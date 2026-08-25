@@ -6,7 +6,7 @@
       "score": 1,
       "rationale": "Level 1 anchor is met: students engage in seminar discussions and collaborative policy debates across core coursework. Level 2 is unmet across the whole cohort under the common denominator rule (R1): while capstone option POLS90034 International Policymaking in Practice assesses a group capstone project (6000 words, 40%) and group presentation (10%), students in alternative capstone options (POLS90066 Minor Thesis or POLS90009 Internship) complete solely individual assessments, leaving group collaboration non-guaranteed for the entire graduating cohort.",
       "evidenceLines": [
-        "Collaborative and teamwork skills through working with fellow students",
+        "Team work and professional networking",
         "POLS90034 International Policymaking in Practice ... Capstone project (Group) (6000 words (total), 40%)",
         "POLS90028 International Relations Theory ... A 2 hour mid-semester written exam (40%) ... A research essay (60%)"
       ]
@@ -23,7 +23,7 @@
       "score": 1,
       "rationale": "Level 1 anchor is met: digital research databases, treaty repositories, and geopolitical datasets appear across coursework. Level 2 is unmet: no compulsory core unit addresses AI capabilities AND limitations/ethics in international affairs (such as automated influence operations, algorithmic open-source intelligence analysis, or synthetic media in foreign policy) with use limits discussed and assessed. Specialised cyberpolitics subjects (e.g. POLS90065 Cyberpolitics in International Relations) exist only as optional electives.",
       "evidenceLines": [
-        "Research, writing and communication ... use of online foreign policy and treaty databases",
+        "Research, writing and communication ... engagement with electronic databases",
         "POLS90065 Cyberpolitics in International Relations ... Elective offering"
       ]
     },
@@ -73,11 +73,21 @@
     "gates": {
       "G1": {
         "result": "PASS",
-        "rationale": "PASS condition is met: the program documents a comprehensive 100-to-200 point specialist graduate curriculum in international relations theory, international security, global political economy, international law, and regional diplomacy delivered by the School of Social and Political Sciences and Asia Institute. Coherent, rigorous disciplinary curriculum."
+        "rationale": "PASS condition is met: the program documents a comprehensive 100-to-200 point specialist graduate curriculum in international relations theory, international security, global political economy, international law, and regional diplomacy delivered by the School of Social and Political Sciences and Asia Institute. Coherent, rigorous disciplinary curriculum.",
+        "evidenceLines": [
+          "The Master of International Relations combines advanced study in the field of international relations, with relevant professional skills development, and an electives program that is specifically designed to offer breadth and depth of expertise.",
+          "Compulsory subject (12.5 points): ... POLS90028 International Relations Theory",
+          "The course offers a pathway to further academic study by developing students’ understanding of International Relations theory and practice."
+        ]
       },
       "G2": {
         "result": "PASS",
-        "rationale": "PASS condition is met: assessment explicitly requires complex strategic trade-off decisions under severe international uncertainty — including formulating foreign policy responses to escalating geopolitical crises, evaluating diplomatic deterrence options under incomplete intelligence, and negotiating multilateral climate and trade agreements with conflicting state interests."
+        "rationale": "PASS condition is met: assessment explicitly requires complex strategic trade-off decisions under severe international uncertainty — including formulating foreign policy responses to escalating geopolitical crises, evaluating diplomatic deterrence options under incomplete intelligence, and negotiating multilateral climate and trade agreements with conflicting state interests.",
+        "evidenceLines": [
+          "students work in teams to transfer their knowledge of global politics gained in the Master's degree to practical, real world problems in international relations",
+          "students will identify pressing political issues, analyse their key drivers, and develop a research, policy, or campaign project to address them",
+          "International Policymaking in Practice (POLS90034) ... Capstone project (Group) (6000 words (total), 40%)"
+        ]
       }
     },
     "ambiguities": [

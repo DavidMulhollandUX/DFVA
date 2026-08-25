@@ -71,18 +71,28 @@
       "score": 0,
       "rationale": "Level 0 anchor: the compulsory core consists of campus-based coursework, studio subjects, and the minor thesis (ABPL90396/ABPL90397). Planning internships (ABPL90288 or equivalent) are available as elective options but are not mandatory for all students in the core.",
       "evidenceLines": [
-        "All students must complete: 100 credit points of core subjects, 25 credit points of Capstone subjects (MSD Minor Thesis both Part 1 and 2), 75 credit points of elective subjects"
+        "All students must complete: ... 100 credit points of core subjects ... 25 credit points of Capstone subjects (MSD Minor Thesis both Part 1 and 2) ... 75 credit points of elective subjects"
       ]
     },
     "workplace": 5,
     "gates": {
       "G1": {
         "result": "PASS",
-        "rationale": "PASS condition is met: accredited by the Planning Institute of Australia (PIA) as a 200-point professional graduate qualification. Comprehensive foundation spanning planning theory and history, planning law and statutory planning, urban economics, strategic plan making, climate change and sustainability, urban coding and design, participatory planning, analytical methods, and the 25-point minor thesis."
+        "rationale": "PASS condition is met: accredited by the Planning Institute of Australia (PIA) as a 200-point professional graduate qualification. Comprehensive foundation spanning planning theory and history, planning law and statutory planning, urban economics, strategic plan making, climate change and sustainability, urban coding and design, participatory planning, analytical methods, and the 25-point minor thesis.",
+        "evidenceLines": [
+          "It is expected that graduates of the Master of Urban Planning will have completed the academic requirements for membership of Planning Institute of Australia (PIA)",
+          "Core subjects ... ABPL90134 Planning Theory and History ... ABPL90130 Planning Law & Statutory Planning ... ABPL90131 Strategic Plan Making ... ABPL90132 Urban Coding and Design",
+          "All students must complete MSD Minor Thesis both part 1 and 2 (25 points)."
+        ]
       },
       "G2": {
         "result": "PASS",
-        "rationale": "PASS condition is met: assessment explicitly requires high-stakes decision-making under severe socio-political uncertainty, conflicting community stakeholder values, climate resilience imperatives, and ambiguous development proposals — including statutory permit assessments in ABPL90130, strategic plan formulations in ABPL90131, and public consultation negotiation in ABPL90315."
+        "rationale": "PASS condition is met: assessment explicitly requires high-stakes decision-making under severe socio-political uncertainty, conflicting community stakeholder values, climate resilience imperatives, and ambiguous development proposals — including statutory permit assessments in ABPL90130, strategic plan formulations in ABPL90131, and public consultation negotiation in ABPL90315.",
+        "evidenceLines": [
+          "Assignment 2 :Undertake an assessment of a planning application for use and development, including a critical review of the process",
+          "Strategic plan, including implementation and monitoring/evaluation plan (individual work)",
+          "Attend a public consultation event and write a report"
+        ]
       }
     },
     "ambiguities": [

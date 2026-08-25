@@ -11,7 +11,7 @@
         "Functional Design Presentation Individual Assessment: Team presentation on the final design (~20 min)",
         "Design project - Conceptual design report to be completed by a group of 5 students.",
         "Design project \u2013 Detailed design report to be completed by a group of 5 students.",
-        "Group Design Portfolio-Technical Industry Accepted Report on Fisherman Bend Development; done in stages and completed as a final report (equivalent of 2500 words per student)",
+        "Group Design Portfolio-Technical Industry Accepted Report on Fisherman Bend Development; done in stages for a final submission in Week 10. ILO's 2 - 8.",
         "Three written group assignments (3 team members/group). 1500 words in total for the group assignment"
       ]
     },
@@ -21,19 +21,19 @@
       "evidenceLines": [
         "Preliminary Design Report Individual assessment: Group written report on preliminary design. Individuals will be assessed orally with the hurdle requirement to demonstrate a genuine contribution of the individual to the report.",
         "Functional Design Presentation Individual Assessment: Team presentation on the final design (~20 min) Individuals will be assessed orally with the hurdle requirement to demonstrate a genuine contribution to the presentation.",
-        "Design project \u2013 5-minute individual oral assessment on the conceptual design, to be conducted during tutorial sessions",
-        "Design project- 5-minute individual oral assessment on the detailed design, to be conducted during the tutorial sessions",
-        "Note: Students are required to participate in a peer review survey process to allow the coordinator to assess individual contributions"
+        "Design project \u2013 5-minute individual oral assessment on the conceptual design, to be conducted during the workshop. Workload equivalent to 400 words per student.",
+        "Design project- 5-minute individual oral assessment on the detailed design, to be conducted during the workshop.",
+        "Note: Students are required to participate in a peer review survey process to allow the coordinator to allocate individual marks for the group assignments."
       ]
     },
     "C3": {
       "score": 1,
       "rationale": "Level 1 anchor is met: digital tools appear as tool operation and engineering simulation software. In CVEN90051 Civil Hydraulics, students complete three individual computer-based project reports applying hydraulic modeling software (River Hydraulics, Sediment Transport, Coastal Hydraulics); students operate structural analysis software (Space Gass, Strand7) in CVEN90049 and transport simulation tools in CVEN90050. Level 2 is unmet: no core unit addresses AI capabilities AND limitations/ethics with use limits discussed and assessed (e.g. generative structural layout optimization or machine learning flood modeling error limits). Level 3 (AI critique or digital data governance) is unevidenced in core assessment.",
       "evidenceLines": [
-        "Project #1: River Hydraulics This assessment consists of an individual, computer-based project applying fluid mechanics to solve river hydraulic engineering problems",
-        "Project #2: Sediment Transport This assessment consists of an individual, computer-based project applying fluid mechanics to solve sediment transport engineering problems",
-        "Project #3: Coastal Hydraulics This assessment consists of an individual, computer-based project applying fluid mechanics to solve coastal hydraulic engineering problems",
-        "use modern engineering tools and software for structural analysis and design"
+        "Project #1: River Hydraulics This assessment consists of an individual, computer-based project applied to the topic of river hydraulics, equivalent to approximately 1000 words.",
+        "Project #2: Sediment Transport This assessment consists of an individual, computer-based project applied to the topic of sediment transport in natural rivers, equivalent to approximately 1000 words.",
+        "Project #3: Coastal Hydraulics This assessment consists of an individual, computer-based project applied to the topic of coastal hydraulics, equivalent to approximately 500 words.",
+        "Use commercial structural analysis packages to analyse structures"
       ]
     },
     "C4": {
@@ -51,7 +51,7 @@
       "rationale": "Level 1 anchor is met: introductory laboratory practicals and technical reports are documented across the core. Students complete laboratory practical reports in CVEN30010 Structural Theory and Design, ENEN20002 Earth Processes, and ENGR30002 Fluid Mechanics. Level 2 requires students to design and conduct an inquiry with methodology selection and data collection, assessed; while students conduct laboratory tests on soils, concrete, and fluids, these are set class practicals with predetermined experimental procedures rather than student-designed investigations. Dedicated research project subjects (e.g. CVEN90067) are elective pathways, and no required primary-evidence research project defended under formal viva scrutiny exists across the compulsory core (level 3).",
       "evidenceLines": [
         "One individual laboratory report, workload equivalent to 500 words. ILOs 1, 3-6 are addressed in the report.",
-        "One laboratory class with a group written report (3 team members/group). 1500 words in total for the group assignment",
+        "One laboratory class with a group written report (3 team members/group). 1500 words in total for the group report (per student a workload equivalent to 500 words).",
         "Practical Report 1.",
         "Practical Report 2.",
         "One group assignment (report of lab work), on one of the projects offered."
@@ -62,7 +62,7 @@
       "score": 2,
       "rationale": "Level 2 anchor is satisfied: at least one core assessment requires a recognised professional genre judged against criteria drawn from professional practice. Across the core, students produce Industry Accepted Technical Reports for precinct development (CVEN90044), Conceptual, Preliminary, and Functional Design Reports (CVEN90060), Detailed Structural Design Calculations and Drawings (CVEN90049), and deliver formal 20-minute team design presentations and individual oral defences. Level 3 is not met: while professional genres recur, no core assessment is documented as delivered to, or judged by, a real external client, municipal planning authority, or Engineers Australia panel with professional conduct explicitly among the assessed criteria.",
       "evidenceLines": [
-        "Group Design Portfolio-Technical Industry Accepted Report on Fisherman Bend Development; done in stages and completed as a final report (equivalent of 2500 words per student)",
+        "Group Design Portfolio-Technical Industry Accepted Report on Fisherman Bend Development; done in stages for a final submission in Week 10. ILO's 2 - 8.",
         "Conceptual Design Report Group assessment: Group written report on conceptual design.",
         "Functional Design Report Group assessment: Group written report on final (functional) design.",
         "Functional Design Presentation Individual Assessment: Team presentation on the final design (~20 min)",
@@ -77,7 +77,7 @@
         "Students will work collaboratively on project-based design tasks focused on a major civil engineering system (e.g. an apartment building). The project emphasises sustainable and multidisciplinary solutions primarily focused on structural, geotechnical, and energy design.",
         "Design project \u2013 Conceptual design report to be completed by a group of 5 students.",
         "Design project \u2013 Detailed design report to be completed by a group of 5 students.",
-        "Project #1: River Hydraulics This assessment consists of an individual, computer-based project applying fluid mechanics to solve river hydraulic engineering problems",
+        "Project #1: River Hydraulics This assessment consists of an individual, computer-based project applied to the topic of river hydraulics, equivalent to approximately 1000 words.",
         "Group Design Portfolio-Technical Industry Accepted Report on Fisherman Bend Development"
       ]
     },
@@ -100,12 +100,12 @@
         "evidenceLines": [
           "Students will acquire core civil engineering skills in the areas of structural, geotechnical, transportation and hydraulic engineering, sustainability, environmental processes and project management.",
           "CVEN30009\tStructural Theory and Design",
-          "CVEN90049\tStructural Design",
+          "CVEN90049\tStructural Theory and Design 2",
           "CVEN90051\tCivil Hydraulics",
           "CVEN90048\tTransport Systems",
-          "CVEN90044\tSustainable Infrastructure Development",
+          "CVEN90044\tEngineering Site Characterisation",
           "CVEN90060\tIntegrated Infrastructure Design",
-          "CVEN90075\tCivil Engineering Management"
+          "CVEN90075\tTransport Infrastructure Design"
         ]
       },
       "G2": {
@@ -113,8 +113,8 @@
         "rationale": "PASS condition is met: assessment goes well beyond formulaic calculations to require complex trade-off decisions under structural, environmental, and geotechnical uncertainty \u2014 including multidisciplinary trade-offs between structural stability, geotechnical capacity, energy efficiency, and embodied carbon in CVEN90060, flood risk and coastal sediment transport under hydraulic variability in CVEN90051, and precinct-scale sustainability trade-offs in CVEN90044.",
         "evidenceLines": [
           "Investigate and define complex civil engineering design problems considering functional and sustainability requirements, given site conditions.",
-          "Synthesise and integrate structural, geotechnical, and energy design concepts to develop sustainable, innovative, and practical engineering solutions",
-          "Project #1: River Hydraulics This assessment consists of an individual, computer-based project applying fluid mechanics to solve river hydraulic engineering problems",
+          "Develop and evaluate optimal conceptual, preliminary and functional design solutions within an integrated multidisciplinary framework.",
+          "Project #1: River Hydraulics This assessment consists of an individual, computer-based project applied to the topic of river hydraulics, equivalent to approximately 1000 words.",
           "Group Design Portfolio-Technical Industry Accepted Report on Fisherman Bend Development"
         ]
       }

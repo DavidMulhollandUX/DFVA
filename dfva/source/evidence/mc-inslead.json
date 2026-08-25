@@ -61,14 +61,14 @@
       "evidenceLines": [
         "Evidence for Learning and Teaching (EDUC90755) ... Report on longitudinal data",
         "Leading Assessment (EDUC90754) ... Analysis of evidence on school and system assessment policy and practice",
-        "Researching Leadership Practice (EDUC90752) ... Practitioner research project report"
+        "Researching Leadership Practice (EDUC90752) ... students will implement an intervention or innovation designed to address an issue associated with instructional practice"
       ]
     },
     "W3": {
       "score": 2,
       "rationale": "Level 2 anchor is satisfied: for an in-practice cohort of practicing and aspiring educators, core units assess activity conducted in the student's own professional practice with real recipients and documented outcome measures. In EDUC90752 Researching Leadership Practice and EDUC90750 Leading Schools Through Leading Self, students implement leadership interventions and action-reflection inquiries directly within their own schools/workplaces. Level 3 is not met: while own-practice activity with structured reflection is embedded across the core, documented accountability to external workplace stakeholders (e.g. school governing boards, regional superintendents, or teacher cohorts) is unevidenced in the assessment tables.",
       "evidenceLines": [
-        "The Master of Instructional Leadership aims to equip aspiring and practising educational leaders... with a strong emphasis on the use of research and evidence in school leaders’ professional practice.",
+        "The Master of Instructional Leadership aims to equip aspiring and practising educational leaders from all fields of education ... has a strong emphasis on the use of research and evidence in school leaders’ professional practice.",
         "Researching Leadership Practice (EDUC90752) ... A written report (4250 words, 85%)",
         "Leading Schools Through Leading Self (EDUC90750) ... Action-reflection assignment (2500 words, 50%) ... Action-reflection assignment (2500 words, 50%)"
       ]
@@ -77,11 +77,21 @@
     "gates": {
       "G1": {
         "result": "PASS",
-        "rationale": "PASS condition is met: the program documents a comprehensive 100-point specialist graduate curriculum covering evidence-based learning, instructional leadership models, assessment design, and educational research methodologies aligned to the AITSL National Professional Standard for Principals. Coherent, rigorous disciplinary educational leadership sequence."
+        "rationale": "PASS condition is met: the program documents a comprehensive 100-point specialist graduate curriculum covering evidence-based learning, instructional leadership models, assessment design, and educational research methodologies aligned to the AITSL National Professional Standard for Principals. Coherent, rigorous disciplinary educational leadership sequence.",
+        "evidenceLines": [
+          "The Master of Instructional Leadership requires the successful completion of 100 credit points ... 50 credit points of compulsory subjects",
+          "Note that the 2 capstone subjects (EDUC90786 then EDUC90752) must still be completed in sequence.",
+          "The course aligns with the Australian Institute for Teaching and School Leadership National Professional Standard for Principals."
+        ]
       },
       "G2": {
         "result": "PASS",
-        "rationale": "PASS condition is met: assessment explicitly requires complex strategic and pedagogical trade-off decisions under high school and community uncertainty — including diagnosing conflicting student learning trajectories under data ambiguity in EDUC90755, designing intervention strategies for school turnaround under faculty resistance in EDUC90751/EDUC90750, and reforming school-wide assessment architectures under changing curriculum mandates in EDUC90754."
+        "rationale": "PASS condition is met: assessment explicitly requires complex strategic and pedagogical trade-off decisions under high school and community uncertainty — including diagnosing conflicting student learning trajectories under data ambiguity in EDUC90755, designing intervention strategies for school turnaround under faculty resistance in EDUC90751/EDUC90750, and reforming school-wide assessment architectures under changing curriculum mandates in EDUC90754.",
+        "evidenceLines": [
+          "students will implement an intervention or innovation designed to address an issue associated with instructional practice, or that will lead to improvements in teacher quality and student learning and achievement. As part of their project, students will be expected to document planning and implementation decisions, and also research the impact of the intervention on teachers and school students.",
+          "Leading Assessment (EDUC90754) ... Discussion of how within-school assessment practices can be strengthened (2500 words, 50%)",
+          "Understanding Schools (EDUC90751) ... Informed reflection on case study (4000 words, 80%)"
+        ]
       }
     },
     "ambiguities": [

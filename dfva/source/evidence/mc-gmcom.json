@@ -35,9 +35,8 @@
       "score": 2,
       "rationale": "Level 2 anchor is satisfied: at least one core assessment requires application to novel or unfamiliar problems through unscripted global media crisis simulations (JOUR90027), unscripted digital platform policy controversies (MECM90002), and novel creative audiovisual communication briefs (MECM90031). Level 3 is not met: while a self-scoped 12,000-word research thesis (MECM90029/MECM90030) is offered as a capstone pathway, it is an elective stream alongside standard coursework (MECM90043) and internship (MULT90019) routes, and therefore does not represent the guaranteed path for all graduating students (R1).",
       "evidenceLines": [
-        "Global Crisis Reporting (JOUR90027) ... Crisis simulation / practical task",
-        "Media Writing: Rhetoric and Practice (MECM90017) ... Three professional media portfolios",
-        "Students must choose one of the following capstone options: Capstone option 1 (Thesis) ... Capstone option 2 (Internship) ... Capstone option 3 (MECM90043)"
+        "Media Writing: Rhetoric and Practice (MECM90017) ... Advertising Folio including in-class simulations of observed tasks ... News Folio including in-class simulations of observed tasks ... Politics Folio including interactive oral",
+        "Students must choose one of the following capstone options ... Capstone option 1 ... MECM90029 Media and Communications Thesis Part 1 ... Capstone option 2 ... MULT90019 Internship II (Semester Long) ... Capstone option 3 ... MECM90043 Global Communication: Theory & Research"
       ]
     },
     "C5": {
@@ -46,7 +45,7 @@
       "evidenceLines": [
         "Global Communication: Theory & Research (MECM90043) ... Oral presentation of selected project-oriented case study (20%) ... Written project-oriented case study (5000 words, 50%)",
         "Media Convergence and Digital Culture (MECM90007) ... A research essay (3000 words, 55%)",
-        "Media & Communications Research Methods (MECM90042) ... Research design assignments"
+        "Media & Communications Research Methods (MECM90042) ... Mock ethics application (2000 words, 40%) ... Research proposal (2500 words, 50%)"
       ]
     },
     "adaptiveness": 11,
@@ -55,9 +54,9 @@
       "rationale": "Level 2 anchor is satisfied: at least one core assessment requires a recognised professional genre judged against criteria drawn from professional practice. Across the core, students produce formal 1500-word regulatory policy briefs (MECM90002), professional media releases and news features (MECM90017), broadcast-quality audiovisual media packages (MECM90031), and investigative crisis reporting dispatches (JOUR90027). Level 3 is not met: while professional media and policy genres recur, no core assessment is documented as delivered to, or judged by, a real external media organization, government policy body (e.g. ACMA, eSafety Commissioner), or commercial communications agency with professional conduct explicitly among the assessed criteria.",
       "evidenceLines": [
         "Global Data Policy & Governance (MECM90002) ... Policy brief (1500 words, 25%)",
-        "Media Writing: Rhetoric and Practice (MECM90017) ... Three professional media writing tasks",
-        "Audiovisual Communication (MECM90031) ... Final project: video and production journal",
-        "Global Crisis Reporting (JOUR90027) ... Crisis reporting exercise"
+        "Media Writing: Rhetoric and Practice (MECM90017) ... Advertising Folio including in-class simulations of observed tasks ... News Folio including in-class simulations of observed tasks ... Politics Folio including interactive oral",
+        "Audiovisual Communication (MECM90031) ... Final project: 4 minute video and production journal (60% video, 15% journal)",
+        "Global Crisis Reporting (JOUR90027) ... Media Report (1500 words, 30%)"
       ]
     },
     "W2": {
@@ -65,8 +64,8 @@
       "rationale": "Level 2 anchor is satisfied: core assessment reproduces professional tasks end-to-end for communication directors, media policy advisors, and digital content producers. Students produce full-cycle policy analysis (MECM90002), multimedia journalism portfolios (MECM90017), and broadcast video packages (MECM90031). Resolved downward from level 3 on adversarial verification: tasks are submitted to academic instructors without externally supplied live media briefs, breaking newsroom time pressures, or consequential external stakeholders documented in the assessment tables (R4).",
       "evidenceLines": [
         "Global Data Policy & Governance (MECM90002) ... Policy brief",
-        "Media Writing: Rhetoric and Practice (MECM90017) ... Professional media writing portfolio",
-        "Audiovisual Communication (MECM90031) ... Video project and journal"
+        "Media Writing: Rhetoric and Practice (MECM90017) ... Advertising Folio including in-class simulations of observed tasks ... News Folio including in-class simulations of observed tasks",
+        "Audiovisual Communication (MECM90031) ... Final project: 4 minute video and production journal (60% video, 15% journal)"
       ]
     },
     "W3": {
@@ -77,11 +76,21 @@
     "gates": {
       "G1": {
         "result": "PASS",
-        "rationale": "PASS condition is met: the program documents a comprehensive 200-point graduate curriculum including compulsory foundation units in media theory and research methodology (MECM90039, MECM90038), followed by a 75-point core sequence in data policy, digital culture, media writing, and audiovisual production. Coherent, rigorous disciplinary media and communications sequence."
+        "rationale": "PASS condition is met: the program documents a comprehensive 200-point graduate curriculum including compulsory foundation units in media theory and research methodology (MECM90039, MECM90038), followed by a 75-point core sequence in data policy, digital culture, media writing, and audiovisual production. Coherent, rigorous disciplinary media and communications sequence.",
+        "evidenceLines": [
+          "All compulsory and capstone subjects must be completed to be eligible to graduate from the program. Capstone subjects must be completed in the final hundred points of the program.",
+          "Foundation compulsory subjects (37.5 points) (must be taken in the first year) ... MECM90039 Understanding Media & Communications ... MECM90038 Researching Media & Communications",
+          "Core subjects (75 points) ... Capstone subjects (25 to 50 points)"
+        ]
       },
       "G2": {
         "result": "PASS",
-        "rationale": "PASS condition is met: assessment explicitly requires complex strategic and communication trade-off decisions under high public and geopolitical uncertainty — including crisis communication strategy and rapid media response under severe information gaps in JOUR90027, platform policy intervention and regulatory trade-offs under algorithmic uncertainty in MECM90002, and ethical editorial decision-making under conflicting political pressures in MECM90016 and MECM90043."
+        "rationale": "PASS condition is met: assessment explicitly requires complex strategic and communication trade-off decisions under high public and geopolitical uncertainty — including crisis communication strategy and rapid media response under severe information gaps in JOUR90027, platform policy intervention and regulatory trade-offs under algorithmic uncertainty in MECM90002, and ethical editorial decision-making under conflicting political pressures in MECM90016 and MECM90043.",
+        "evidenceLines": [
+          "Global Data Policy & Governance (MECM90002) ... The subject will assess case studies and encourage critical debates of digital policy development. ... Written case study (1500 words, 25%)",
+          "Digital Politics (MECM90016) ... A detailed essay (1500 words, 40%) ... A case study (3000 words, 60%)",
+          "Global Communication: Theory & Research (MECM90043) ... Oral presentation of selected project-oriented case study (20 minutes, 20%) ... Written project-oriented case study (5000 words, 50%)"
+        ]
       }
     },
     "ambiguities": [

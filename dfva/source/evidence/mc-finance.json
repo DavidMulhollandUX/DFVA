@@ -78,18 +78,28 @@
       "rationale": "Level 1 anchor is met: work-situated learning is not compulsory within the core curriculum. While internship and business practicum electives are offered (BUSA90473 Business Practicum, BUSA90485 Global Business Practicum, BUSA90525 Business and Economics Internship), the Master of Finance does not mandate an assessed, credit-bearing, practitioner-supervised workplace placement or practicum within its compulsory 150-point sequence.",
       "evidenceLines": [
         "The Master of Finance requires successful completion of 150 points which includes four compulsory subjects, at least four core subjects and two capstone subjects.",
-        "Students may choose up to two of the following elective subjects: BUSA90473 Business Practicum ... BUSA90525 Business and Economics Internship"
+        "Students may choose up to two of the following elective subjects: ... BUSA90473 Business Practicum ... BUSA90525 Business and Economics Internship"
       ]
     },
     "workplace": 5,
     "gates": {
       "G1": {
         "result": "PASS",
-        "rationale": "PASS condition is met: the program documents an extensive 150-point specialist graduate curriculum including a compulsory 50-point core in Quantitative Analysis of Finance I (ECON90033), Economics of Finance (ECON90034), Financial Statement Analysis (ACCT90002), and Financial Markets and Instruments (FNCE90047), followed by advanced finance selectives in Corporate Restructuring, Investment Management, Risk Management, and Machine Learning. Coherent, rigorous disciplinary finance sequence."
+        "rationale": "PASS condition is met: the program documents an extensive 150-point specialist graduate curriculum including a compulsory 50-point core in Quantitative Analysis of Finance I (ECON90033), Economics of Finance (ECON90034), Financial Statement Analysis (ACCT90002), and Financial Markets and Instruments (FNCE90047), followed by advanced finance selectives in Corporate Restructuring, Investment Management, Risk Management, and Machine Learning. Coherent, rigorous disciplinary finance sequence.",
+        "evidenceLines": [
+          "The Master of Finance requires successful completion of 150 points which includes four compulsory subjects, at least four core subjects and two capstone subjects.",
+          "Students must complete the following four compulsory subjects: ... ECON90033 Quantitative Analysis of Finance I ... ECON90034 Economics of Finance ... ACCT90002 Financial Statement Analysis ... FNCE90047 Financial Markets and Instruments",
+          "Students must complete at least four of the following finance subjects:"
+        ]
       },
       "G2": {
         "result": "PASS",
-        "rationale": "PASS condition is met: assessment goes well beyond deterministic formulaic calculations to require complex financial trade-off decisions under high market and strategic uncertainty — including corporate distress prediction and accounting choice adjustments in ACCT90002, valuation of distressed and merging firms under incomplete information in FNCE90012, portfolio asset allocation under volatile macroeconomic conditions in FNCE90080, and derivative hedging under market liquidity risk in FNCE90082."
+        "rationale": "PASS condition is met: assessment goes well beyond deterministic formulaic calculations to require complex financial trade-off decisions under high market and strategic uncertainty — including corporate distress prediction and accounting choice adjustments in ACCT90002, valuation of distressed and merging firms under incomplete information in FNCE90012, portfolio asset allocation under volatile macroeconomic conditions in FNCE90080, and derivative hedging under market liquidity risk in FNCE90082.",
+        "evidenceLines": [
+          "Class participation (based on the students in class discussion of both a firm valuation exercise developed over weeks 2 through 4; and three small merger and acquisition cases discussed in weeks, 6, 8 and 9)",
+          "There will be an extensive use of real-world cases throughout the course to illustrate both successful and unsuccessful risk management practices.",
+          "Analyse financial statement information to assess the financial position (solvency and liquidity) and to make predictions about corporate survival"
+        ]
       }
     },
     "ambiguities": [

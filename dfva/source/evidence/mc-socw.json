@@ -42,7 +42,7 @@
       "score": 2,
       "rationale": "Level 2 anchor is satisfied: core assessment requires students to design and conduct social work research and practice evaluations: SCWK90069 Researching Social Work Practice 1 (individual research proposal poster and 10-minute oral presentation), SCWK90058 Researching Social Work Practice 2 (3000-word written inquiry), and SCWK90056 Program Planning and Evaluation (3000-word evaluation report). Level 3 is not met: while students deliver an oral presentation of their research proposal in SCWK90069, a substantial primary-evidence generation thesis defended under a formal viva or external panel examination across the entire cohort is unevidenced.",
       "evidenceLines": [
-        "SCWK90069 Researching Social Work Practice 1 ... Written essay (2000 words) ... Individual research proposal (poster) and 10 minute oral presentation (3000 words equivalent)",
+        "SCWK90069 Researching Social Work Practice 1 ... Written essay (2000 words) ... Individual research proposal (poster) and 10 minute oral presentation (3000 words (equivalent))",
         "SCWK90058 Researching Social Work Practice 2 ... 2 worksheets ... Written essay (3000 words)",
         "SCWK90056 Program Planning and Evaluation ... 3000 words ... Class presentation"
       ]
@@ -79,11 +79,21 @@
     "gates": {
       "G1": {
         "result": "PASS",
-        "rationale": "PASS condition is met: AASW-accredited 225-credit-point professional entry qualification fully meeting Australian Social Work Education and Accreditation Standards (ASWEAS). Rigorous, comprehensive foundation spanning social work theory, human development, counselling skills, law and ethics, Indigenous practice, social policy, research methodology, and 1,000 hours of supervised field education."
+        "rationale": "PASS condition is met: AASW-accredited 225-credit-point professional entry qualification fully meeting Australian Social Work Education and Accreditation Standards (ASWEAS). Rigorous, comprehensive foundation spanning social work theory, human development, counselling skills, law and ethics, Indigenous practice, social policy, research methodology, and 1,000 hours of supervised field education.",
+        "evidenceLines": [
+          "This is an AASW-accredited qualification. It is an entry qualification into the social work profession and has been determined to meet the Australian Social Work Education and Accreditation Standards (ASWEAS).",
+          "225-point program: ... 18 compulsory subjects (212.5 points)",
+          "In order for students to undertake Supervised Field Placement 1A and 1B (SCWK90048/49) they must complete SCWK90053 Counselling and Interviewing Skills, SCWK90066 Social Work Theory and Practice, and SCWK90072 Professional Identity 1."
+        ]
       },
       "G2": {
         "result": "PASS",
-        "rationale": "PASS condition is met: assessment explicitly requires high-stakes clinical and psychosocial decision-making under severe uncertainty, acute crisis, trauma, child protection vulnerability, and ambiguous family/community dynamics — including risk and vulnerability appraisal in SCWK90054, legal and ethical dilemma resolution in SCWK90055, and live clinical intervention in supervised field placements SCWK90048/SCWK90049."
+        "rationale": "PASS condition is met: assessment explicitly requires high-stakes clinical and psychosocial decision-making under severe uncertainty, acute crisis, trauma, child protection vulnerability, and ambiguous family/community dynamics — including risk and vulnerability appraisal in SCWK90054, legal and ethical dilemma resolution in SCWK90055, and live clinical intervention in supervised field placements SCWK90048/SCWK90049.",
+        "evidenceLines": [
+          "Assessing Risk and Vulnerability (SCWK90054) ... Psychosocial risk assessment (2500 words, 50%)",
+          "Legal and Ethical Contexts of Practice (SCWK90055) ... Critically assess ethical issues and dilemmas and utilise steps in the ethical decision-making process",
+          "Supervised Field Placement 1A (SCWK90048) ... Apply critical thinking in discussions that require professional decision making."
+        ]
       }
     },
     "ambiguities": [

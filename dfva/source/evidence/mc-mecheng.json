@@ -16,7 +16,7 @@
       "rationale": "Level 2 anchor is satisfied: core assessment includes criterion-referenced appraisal of engineering models and physical designs. In ENGR90051, students maintain iterative project logs every 2\u20133 weeks and author an individual structured reflection evaluating their own design decisions and teamwork; in MCEN90054, students defend their design calculations and manufacturing tolerances in two staged viva voce hurdles; and in MCEN30021, students defend physical design demonstrations in interactive oral assessments. Level 3 is not met: no core assessment requires students to document and justify reliance decisions regarding AI-based generative design or topology optimization tools, defend judgements of AI simulation outputs, or evidence systematic override logs over time.",
       "evidenceLines": [
         "ENGR90051 Interdisciplinary Design for Engineers ... Project log (individual) 0.5 to 1 page, every 2-3 weeks ... Reflection (based on the project logs and the rest of the subject) (individual)",
-        "MCEN90054 Design and Manufacturing Practice ... VIVA style presentation, 5 minutes per student (individually marked hurdle)",
+        "MCEN90054 Design and Manufacturing Practice ... VIVA style presentation, 5 minutes per student (individually marked 5%) ... Hurdle Requirement: To pass the subject, students must achieve at least 5/10 total for the VIVA presentations",
         "MCEN30021 Mechanical Systems Design ... Physical demonstration and interactive oral assessment (individual)"
       ]
     },
@@ -70,19 +70,29 @@
       "score": 1,
       "rationale": "Level 1 anchor is met: high-fidelity manufacturing workshops, fluid mechanics wind-tunnel laboratories, and simulated engineering project teams appear across the core. Level 2 is unmet: the Engineering Practice Hurdle allows completing the STEP program (non-placement) or optional internship ENGR90033, so guaranteed workplace placement is not a universal curriculum requirement for all graduating students (R1).",
       "evidenceLines": [
-        "In order to achieve the Engineering Practice Hurdle requirement, students will need to document the attainment of professional skills at an adequate level. This may include the successful completion of any of the following: 1. Skills Towards Employment Program (STEP), 2. ENGR90033 Internship subject, 3. An agreed level of internship at an approved engineering form (without receiving University credit)",
-        "ENGR90033 Internship ... Elective offering"
+        "In order to achieve the Engineering Practice Hurdle requirement, students will need to document the attainment of professional skills at an adequate level. This may include the successful completion of any of the following: 1. Skills Towards Employment Program (STEP) 2. ENGR90033 Internship subject 3. An agreed level of internship at an approved engineering form (without receiving University credit)",
+        "Group B electives ... ENGR90033 Internship"
       ]
     },
     "workplace": 5,
     "gates": {
       "G1": {
         "result": "PASS",
-        "rationale": "PASS condition is met: the program documents a comprehensive 300-point Engineers Australia and EUR-ACE accredited master's curriculum spanning engineering mathematics, solid mechanics, fluid dynamics, thermodynamics, materials science, dynamics, control systems, and mechanical systems design. Rigorous, coherent engineering core."
+        "rationale": "PASS condition is met: the program documents a comprehensive 300-point Engineers Australia and EUR-ACE accredited master's curriculum spanning engineering mathematics, solid mechanics, fluid dynamics, thermodynamics, materials science, dynamics, control systems, and mechanical systems design. Rigorous, coherent engineering core.",
+        "evidenceLines": [
+          "The Master of Mechanical Engineering requires the successful completion of 300 credit points. ... 225 credit points of compulsory subjects",
+          "Professional accreditation ... EURACE ... Engineers Australia",
+          "The core subject lists are divided into specific year levels, reflecting the recommended order of completing the course."
+        ]
       },
       "G2": {
         "result": "PASS",
-        "rationale": "PASS condition is met: assessment explicitly requires complex engineering trade-off decisions under physical and operational uncertainty \u2014 including optimizing aerodynamic and thermal efficiency against weight and manufacturing tolerances in MCEN90054, tuning closed-loop control stability under unmodeled plant dynamics in ELEN90055, and resolving competing structural stiffness versus cost constraints under physical prototyping limits in ENGR90051."
+        "rationale": "PASS condition is met: assessment explicitly requires complex engineering trade-off decisions under physical and operational uncertainty \u2014 including optimizing aerodynamic and thermal efficiency against weight and manufacturing tolerances in MCEN90054, tuning closed-loop control stability under unmodeled plant dynamics in ELEN90055, and resolving competing structural stiffness versus cost constraints under physical prototyping limits in ENGR90051.",
+        "evidenceLines": [
+          "MCEN90054 Design and Manufacturing Practice ... VIVA style presentation, 5 minutes per student (individually marked 5%) ... Hurdle Requirement: To pass the subject, students must achieve at least 5/10 total for the VIVA presentations",
+          "ELEN90055 Control Systems ... Continuous assessment of submitted project work, completed in small groups (2-3 students), not exceeding at total of 20 pages of reports, due at least two weeks apart in the second half of semester.",
+          "ENGR90051 Interdisciplinary Design for Engineers ... Demonstration (team) ... Interactive discussion (conducted as a team, marked individually). Up to 15 mins (based on work completed throughout the entire semester)."
+        ]
       }
     },
     "ambiguities": [

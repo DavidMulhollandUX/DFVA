@@ -7,7 +7,7 @@
       "rationale": "Level 2 anchor is satisfied: assessed collaborative teamwork recurs systematically across marketing and management core subjects with individual exam accountability and group presentations. In MKTG90004 Marketing Management, students complete group assignments and presentations; in MKTG90008 Consumers and Consumption, teams deliver a 4000-word project and case presentation; in MKTG90011 Marketing Research, groups of 3–5 complete an 8000-word equivalent research project; and in MKTG90005 Marketing Strategy, teams deliver a 3000-word strategic assignment, oral defense, and competitive simulation. Level 3 is not met: while teams utilize marketing simulation platforms and digital analytics tools, formal assessed role-and-tool allocation charters dividing work between human marketing strategists and autonomous AI campaign/generative marketing agents are unevidenced.",
       "evidenceLines": [
         "MKTG90004 Marketing Management ... Group assignment Part A (2000 words) ... Part B (4000 words) ... Group presentation",
-        "MKTG90011 Marketing Research ... Group project (groups of 3-5, 8000 words equivalent)",
+        "MKTG90011 Marketing Research ... Group project (groups of 3-5) ... 8000 words (equivalent)",
         "MKTG90005 Marketing Strategy ... Group assignment (3000 words) ... Group presentation with oral defense ... Group-based simulation exercise"
       ]
     },
@@ -17,7 +17,7 @@
       "evidenceLines": [
         "MKTG90005 Marketing Strategy ... Group presentation with oral defense ... Group-based simulation exercise",
         "MKTG90008 Consumers and Consumption ... Group assignment (4000 words) ... Team case presentation",
-        "MKTG90011 Marketing Research ... Group project (8000 words equivalent)"
+        "MKTG90011 Marketing Research ... Group project (groups of 3-5) ... 8000 words (equivalent)"
       ]
     },
     "C3": {
@@ -26,7 +26,7 @@
       "evidenceLines": [
         "Utilize artificial intelligence and digital marketing tools to optimize marketing strategies",
         "MGMT90280 Managerial Decision Analytics ... Group assignment (5000 words) ... Group presentation",
-        "MKTG90011 Marketing Research ... Group project (8000 words equivalent)"
+        "MKTG90011 Marketing Research ... Group project (groups of 3-5) ... 8000 words (equivalent)"
       ]
     },
     "C4": {
@@ -42,7 +42,7 @@
       "score": 2,
       "rationale": "Level 2 anchor is satisfied: students design and conduct secondary and empirical market research investigations, designing surveys, analyzing consumer datasets, and interpreting econometric and conjoint analysis data in MKTG90011 (8000-word group project) and MKTG90008. Level 3 is not met: no universal mandatory primary-evidence thesis with oral viva defense before an external examination panel is required across the core.",
       "evidenceLines": [
-        "MKTG90011 Marketing Research ... Group project (groups of 3-5, 8000 words equivalent)",
+        "MKTG90011 Marketing Research ... Group project (groups of 3-5) ... 8000 words (equivalent)",
         "Employ both qualitative and quantitative research methods to analyse data and enhance marketing strategies",
         "MKTG90008 Consumers and Consumption ... Group assignment (4000 words)"
       ]
@@ -53,7 +53,7 @@
       "rationale": "Level 2 anchor is satisfied: core assessment requires recognised professional marketing genres judged against industry standards — comprehensive Marketing Strategy Plans and Oral Defense Presentations (MKTG90005), Market Research Briefs and Client Deliverables (MKTG90011), and B2B Value Proposition Pitches (MKTG90048). Level 3 is not met: presentations and reports in core marketing units are evaluated internally by academic faculty without documented compulsory external CMO or client brand panels across all streams.",
       "evidenceLines": [
         "MKTG90005 Marketing Strategy ... Group assignment (3000 words) ... Group presentation with oral defense",
-        "MKTG90011 Marketing Research ... Group project (8000 words equivalent)",
+        "MKTG90011 Marketing Research ... Group project (groups of 3-5) ... 8000 words (equivalent)",
         "MKTG90048 B2B Marketing ... Group assignment (5000 words)"
       ]
     },
@@ -62,7 +62,7 @@
       "rationale": "Level 2 anchor is satisfied: core assessment reproduces professional strategic marketing, market segmentation, and competitive brand positioning tasks end-to-end (complex market research design, competitive dynamic simulation, sustainability audit, and pricing strategies in MKTG90004, MKTG90005, MKTG90011, MKTG90048, MKTG90049). Resolved downward from level 3 on adversarial verification: case briefs and simulations are academically structured without live externally supplied commercial briefs carrying consequential third-party client constraints in the compulsory core (R4).",
       "evidenceLines": [
         "MKTG90005 Marketing Strategy ... Group-based simulation exercise ... Group assignment",
-        "MKTG90011 Marketing Research ... Group project (8000 words equivalent)",
+        "MKTG90011 Marketing Research ... Group project (groups of 3-5) ... 8000 words (equivalent)",
         "MKTG90048 B2B Marketing ... Group assignment (5000 words)"
       ]
     },
@@ -72,18 +72,28 @@
       "evidenceLines": [
         "The 200 Point (200pt) Master of Management (Marketing) consists of 16 subjects comprising four foundation subjects, two core subjects, four discipline core subjects, two capstone subjects and four elective subjects",
         "Capstone selective subjects ... BUSA90473 Business Practicum ... BUSA90485 Global Business Practicum ... BUSA90525 Business and Economics Internship",
-        "Students must complete one of the following subjects ... Capstone selectives"
+        "Students must complete one of the following subjects ... Capstone selective subjects"
       ]
     },
     "workplace": 5,
     "gates": {
       "G1": {
         "result": "PASS",
-        "rationale": "PASS condition is met: the program documents a comprehensive 200-point curriculum accredited by the Australian Marketing Institute (AMI), covering marketing management, consumer psychology, marketing research, B2B marketing, decision analytics, and marketing strategy. Rigorous, coherent postgraduate marketing core."
+        "rationale": "PASS condition is met: the program documents a comprehensive 200-point curriculum accredited by the Australian Marketing Institute (AMI), covering marketing management, consumer psychology, marketing research, B2B marketing, decision analytics, and marketing strategy. Rigorous, coherent postgraduate marketing core.",
+        "evidenceLines": [
+          "The Master of Management (Marketing) is an accredited program with the Australian Marketing Institute.",
+          "The 200 Point (200pt) Master of Management (Marketing) consists of 16 subjects comprising four foundation subjects, two core subjects, four discipline core subjects, two capstone subjects and four elective subjects.",
+          "Discipline core subjects ... MKTG90008 Consumers and Consumption ... MKTG90011 Marketing Research ... MKTG90048 B2B Marketing ... MKTG90049 Marketing, Society and Sustainability"
+        ]
       },
       "G2": {
         "result": "PASS",
-        "rationale": "PASS condition is met: assessment explicitly requires complex marketing and strategic decisions under dynamic competitive uncertainty, shifting consumer preferences, and incomplete market data — including multi-period competitive decision-making in MKTG90005 Marketing Strategy simulations, sizing B2B markets under macro volatility in MKTG90048, and formulating sustainable marketing transitions under evolving consumer trust in MKTG90049."
+        "rationale": "PASS condition is met: assessment explicitly requires complex marketing and strategic decisions under dynamic competitive uncertainty, shifting consumer preferences, and incomplete market data — including multi-period competitive decision-making in MKTG90005 Marketing Strategy simulations, sizing B2B markets under macro volatility in MKTG90048, and formulating sustainable marketing transitions under evolving consumer trust in MKTG90049.",
+        "evidenceLines": [
+          "MKTG90005 Marketing Strategy ... Group-based simulation exercise (usually in groups of 4-5) ... Group presentation with oral defense (usually in groups of 4-5)",
+          "The subject is application-oriented and makes extensive use of a simulation.",
+          "These are skills students will acquire through their participation in a 'real-life' client-sponsored project."
+        ]
       }
     },
     "ambiguities": [

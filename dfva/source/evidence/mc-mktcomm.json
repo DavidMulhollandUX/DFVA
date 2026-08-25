@@ -8,16 +8,16 @@
       "evidenceLines": [
         "MECM90036 Foundations of Marketing & Communication ... Group Communications Analysis Report & Content Development Pitch (2500 words) ... Group Marketing Campaign Strategy Report and Concept Pitch (2500 words)",
         "MKTG90004 Marketing Management ... Group assignment Part A (2000 words) ... Part B (4000 words) ... Group presentation",
-        "MKTG90011 Marketing Research ... Group project (groups of 3-5, 8000 words equivalent)"
+        "MKTG90011 Marketing Research ... Group project (groups of 3-5) ... 8000 words (equivalent)"
       ]
     },
     "C2": {
       "score": 2,
       "rationale": "Level 2 anchor is satisfied: core assessment requires criterion-referenced appraisal of communication campaigns, public relations crises, consumer research evidence, and strategic pitches. In MECM90044 Public Relations and Communications, students complete case-based interactive oral assessments and debates; in MECM90036, students critically evaluate and redevelop marketing communications campaigns; and in MKTG90011, students evaluate empirical research datasets. Level 3 is not met: no core assessment requires students to document and justify reliance decisions regarding AI-generated marketing copy, synthetic PR crisis simulations, or automated media analytics with systematic override logs over time.",
       "evidenceLines": [
-        "MECM90044 Public Relations and Communications ... Case-based interactive oral assessment (2000 words equivalent) ... Interactive oral assessment: Debate",
+        "MECM90044 Public Relations and Communications ... Case-based interactive oral assessment ... 2000 words (equivalent) ... Interactive oral assessment: Debate",
         "MECM90036 Foundations of Marketing & Communication ... Individual Marketing Communications Campaign Redevelopment (4000 words)",
-        "MKTG90011 Marketing Research ... Group project (8000 words equivalent)"
+        "MKTG90011 Marketing Research ... Group project (groups of 3-5) ... 8000 words (equivalent)"
       ]
     },
     "C3": {
@@ -34,7 +34,7 @@
       "rationale": "Level 2 anchor is satisfied: core assessment requires transfer of communication theory, brand strategy, PR management, and marketing research principles across diverse sectors (corporate brand management, non-profit advocacy, public sector communications, and digital platform environments in MECM90036, MECM90044, MECM90034, and MKTG90004). Level 3 is not met: the program does not mandate a universal self-scoped research project or assessed identification of one's own communications capability gaps with an explicit closure plan across every graduation pathway.",
       "evidenceLines": [
         "MECM90044 Public Relations and Communications ... Case-based interactive oral assessment ... Interactive oral assessment: Debate ... Written essay",
-        "MECM90034 Media and Communication Management ... Group project: Seminar presentation ... Case study essay ... Project",
+        "MECM90034 Marketing & Media in a Global Context ... Group project: Seminar presentation ... Case study essay ... Research paper (2000 words)",
         "MECM90036 Foundations of Marketing & Communication ... Individual Marketing Communications Campaign Redevelopment (4000 words)"
       ]
     },
@@ -42,8 +42,8 @@
       "score": 2,
       "rationale": "Level 2 anchor is satisfied: students design and conduct secondary and empirical communications/market research inquiries, interpreting audience datasets, survey findings, and media metrics in MKTG90011 (8000-word group project) and MECM90035. Level 3 is not met: while research thesis pathways exist (MECM90032/MECM90033), they are selective capstone routes rather than a universal requirement with mandatory oral viva defense across the entire cohort.",
       "evidenceLines": [
-        "MKTG90011 Marketing Research ... Group project (groups of 3-5, 8000 words equivalent)",
-        "MECM90035 Critical and Cultural Perspectives ... Research essay (1500 words) ... Reflective essay",
+        "MKTG90011 Marketing Research ... Group project (groups of 3-5) ... 8000 words (equivalent)",
+        "MECM90035 Integrated Marketing Communications ... Research essay (1500 words) ... Reflective essay",
         "Critically engage with research in marketing and communications, demonstrating the ability to interpret, evaluate, and apply relevant scholarly and industry-based evidence"
       ]
     },
@@ -62,8 +62,8 @@
       "rationale": "Level 2 anchor is satisfied: core assessment reproduces professional marketing communication campaigns, public relations crisis management scenarios, and media strategy pitches end-to-end (MECM90036, MECM90044, MKTG90004, MKTG90011). Resolved downward from level 3 on adversarial verification: case briefs and PR crisis simulations in the compulsory core are academically structured without live externally supplied commercial briefs carrying consequential third-party client constraints (R4).",
       "evidenceLines": [
         "MECM90036 Foundations of Marketing & Communication ... Group Marketing Campaign Strategy Report and Concept Pitch ... Individual Marketing Communications Campaign Redevelopment",
-        "MECM90044 Public Relations and Communications ... Case-based interactive oral assessment (2000 words equivalent) ... Interactive oral assessment: Debate",
-        "MKTG90011 Marketing Research ... Group project (8000 words equivalent)"
+        "MECM90044 Public Relations and Communications ... Case-based interactive oral assessment ... 2000 words (equivalent) ... Interactive oral assessment: Debate",
+        "MKTG90011 Marketing Research ... Group project (groups of 3-5) ... 8000 words (equivalent)"
       ]
     },
     "W3": {
@@ -72,18 +72,28 @@
       "evidenceLines": [
         "All students are required to complete one Capstone stream (at least 25 points)",
         "Capstone subjects ... 25 credit points of Capstone stream 1 or 25 credit points of Capstone stream 2 or 25 credit points of Capstone stream 3 or 50 credit points of Capstone stream 4",
-        "MECM90024 Media and Communications Internship ... MKTG90032 Applied Syndicate Project"
+        "MULT90019 Internship II (Semester Long) ... MKTG90032 Applied Syndicate Project"
       ]
     },
     "workplace": 5,
     "gates": {
       "G1": {
         "result": "PASS",
-        "rationale": "PASS condition is met: jointly delivered by the Faculty of Arts (School of Culture and Communication) and the Faculty of Business and Economics, documenting a comprehensive 200-point curriculum integrating marketing management, public relations, media management, consumer insights, marketing metrics, and strategic communications. Rigorous, coherent postgraduate multidisciplinary core."
+        "rationale": "PASS condition is met: jointly delivered by the Faculty of Arts (School of Culture and Communication) and the Faculty of Business and Economics, documenting a comprehensive 200-point curriculum integrating marketing management, public relations, media management, consumer insights, marketing metrics, and strategic communications. Rigorous, coherent postgraduate multidisciplinary core.",
+        "evidenceLines": [
+          "Compulsory subjects ... 125 points ... The following three subjects must be taken in the first 50 points of the program ... MECM90036 Foundations of Marketing & Communication ... MKTG90004 Marketing Management ... MECM90044 Public Relations and Communications",
+          "50 credit points of compulsory subjects must be taken in the first 50 points of the program ... 75 credit points of compulsory subjects in the remaining 150 points of the program ... All compulsory and capstone subjects must be completed to be eligible to graduate from the program",
+          "Coordinator ... Faculty of Arts: ... Faculty of Business and Economics:"
+        ]
       },
       "G2": {
         "result": "PASS",
-        "rationale": "PASS condition is met: assessment explicitly requires complex communications and marketing decisions under severe uncertainty, dynamic public opinion shifts, reputational PR crises, and incomplete media data — including live interactive crisis debates in MECM90044, multi-channel campaign redevelopment under platform volatility in MECM90036, and strategic resource allocation in MGMT90148."
+        "rationale": "PASS condition is met: assessment explicitly requires complex communications and marketing decisions under severe uncertainty, dynamic public opinion shifts, reputational PR crises, and incomplete media data — including live interactive crisis debates in MECM90044, multi-channel campaign redevelopment under platform volatility in MECM90036, and strategic resource allocation in MGMT90148.",
+        "evidenceLines": [
+          "MECM90044 Public Relations and Communications ... Case-based interactive oral assessment ... 2000 words (equivalent) ... Interactive oral assessment: Debate",
+          "MECM90036 Foundations of Marketing & Communication ... Individual Marketing Communications Campaign Redevelopment ... 4000 words (equivalent)",
+          "MGMT90148 Consulting Principles and Practice ... Team-based presentation (normally in groups of 4-6) ... Written report, proposal or plan (groups of 4-6 students)"
+        ]
       }
     },
     "ambiguities": [

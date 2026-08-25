@@ -15,8 +15,8 @@
       "score": 2,
       "rationale": "Level 2 anchor is satisfied: core assessment includes criterion-referenced appraisal of managerial strategies, business models, and organizational behaviour in case studies and reflective reports. In MGMT90140 Management Competencies, students complete an individual reflective report appraising their own managerial style and leadership competencies; in MGMT90146, students evaluate corporate strategies and competitive trade-offs in an individual case study. Level 3 is not met: no core assessment requires students to document and justify reliance decisions regarding generative AI strategic tools, defend judgements of AI-generated consulting frameworks/analytics, or evidence systematic override logs over time.",
       "evidenceLines": [
-        "MGMT90140 Management Competencies ... Individual reflective report ... 2000 words",
-        "MGMT90146 Strategic Management ... Individual strategic case study ... 1200 words",
+        "MGMT90140 Management Competencies ... Critical reflection on competence development ... 2000 words",
+        "MGMT90146 Strategic Management ... Capstone Strategy Statement (groups of 4-5) ... 1200 words",
         "MGMT90018 Managing Behaviour in Organisations ... Individual assignment ... 1000 words"
       ]
     },
@@ -70,20 +70,30 @@
       "score": 1,
       "rationale": "Level 1 anchor is met: simulated corporate boardrooms, executive role-plays, and mock consulting engagements appear across coursework. Level 2 is unmet: BUSA90473 (Business Practicum) and BUSA90485 (Global Business Practicum) are elective capstone options alongside MGMT90148, so workplace placement is not a universal requirement for the entire cohort (R1).",
       "evidenceLines": [
-        "Students complete one of the following subjects: MGMT90148 Consulting Principles and Practice, BUSA90485 Global Business Practicum, BUSA90473 Business Practicum",
-        "BUSA90473 Business Practicum ... Elective capstone option",
-        "BUSA90485 Global Business Practicum ... Elective capstone option"
+        "Students complete one of the following subjects: ... MGMT90148 Consulting Principles and Practice ... BUSA90485 Global Business Practicum ... BUSA90473 Business Practicum",
+        "Elective subjects (37.5 points) ... Students must complete three subjects from the following list: ... BUSA90485 Global Business Practicum ... BUSA90473 Business Practicum",
+        "MGMT90146 Strategic Management ... Capstone Simulation (groups of 4-5), approximately 5 hours work per week across semester"
       ]
     },
     "workplace": 5,
     "gates": {
       "G1": {
         "result": "PASS",
-        "rationale": "PASS condition is met: the program documents a comprehensive 200-point graduate management curriculum spanning organizational behavior, accounting, economics, finance, decision analytics, marketing management, operations, and strategic leadership. Rigorous, coherent management core."
+        "rationale": "PASS condition is met: the program documents a comprehensive 200-point graduate management curriculum spanning organizational behavior, accounting, economics, finance, decision analytics, marketing management, operations, and strategic leadership. Rigorous, coherent management core.",
+        "evidenceLines": [
+          "The Master of Management 200 Point (200pt) program consists of 16 subjects comprising ... Foundation subjects (50 points) ... Core subjects (25 points) ... Discipline core subjects (62.5 points) ... Capstone subjects (25 points)",
+          "Students must complete the following subjects in their first semester of study: ... MGMT90141 Business Analysis and Decision Making ... MKTG90037 Managing for Value Creation ... MGMT90140 Management Competencies",
+          "Students must complete the following subjects in their second semester of study: ... MGMT90018 Managing Behaviour in Organisations ... MGMT90280 Managerial Decision Analytics"
+        ]
       },
       "G2": {
         "result": "PASS",
-        "rationale": "PASS condition is met: assessment explicitly requires complex strategic and operational trade-off decisions under market uncertainty — including navigating competitive entry barriers and disruptive market threats in MGMT90146, allocating capital under conflicting financial forecasts in MGMT90280, and managing organizational change resistance and workforce restructuring under incomplete information in MGMT90025/MGMT90018."
+        "rationale": "PASS condition is met: assessment explicitly requires complex strategic and operational trade-off decisions under market uncertainty — including navigating competitive entry barriers and disruptive market threats in MGMT90146, allocating capital under conflicting financial forecasts in MGMT90280, and managing organizational change resistance and workforce restructuring under incomplete information in MGMT90025/MGMT90018.",
+        "evidenceLines": [
+          "In a business strategy simulation students are required to make decisions, assess outcomes, and compete with other management teams for resources, opportunities and markets.",
+          "Capstone Simulation (groups of 4-5), approximately 5 hours work per week across semester ... Capstone Board Report (groups of 4-5) ... 5000 words",
+          "In applying empirical and analytical approaches to practical situations, students will develop insights into both the nature of the business problems as well as methods that are used for identifying and evaluating alternative solutions."
+        ]
       }
     },
     "ambiguities": [

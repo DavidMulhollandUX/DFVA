@@ -15,9 +15,9 @@
       "score": 2,
       "rationale": "Level 2 anchor is satisfied: core assessment includes criterion-referenced appraisal of financial assets, derivative valuation, corporate capital structure decisions, and investment performance in complex market case studies. In FNCE90011 Derivative Securities, students evaluate option pricing bounds and hedging strategies; in FNCE90018 Corporate Financial Policy, students appraise M&A financing and payout policies; in FNCE90056 Investment Management, students evaluate portfolio performance against benchmarks; and in FNCE90062 Capstone, students critically evaluate corporate valuation models. Level 3 is not met: no core assessment requires students to document and justify reliance decisions regarding AI-driven financial analysis, algorithmic trading signals, or automated portfolio optimization tools with systematic override logs over time.",
       "evidenceLines": [
-        "FNCE90011 Derivative Securities ... Mid-semester test ... Final Examination",
+        "FNCE90011 Derivative Securities ... One Mid-semester Test ... End-of semester examination",
         "FNCE90018 Corporate Financial Policy ... Final Examination",
-        "FNCE90062 Capstone Studies in Finance ... Group presentation ... Group Assignment (5000 words)"
+        "FNCE90062 Capstone Studies in Finance ... Group (5-6 students) presentation of final report ... Group (5-6 students) Assignment (5000 words)"
       ]
     },
     "C3": {
@@ -34,16 +34,15 @@
       "rationale": "Level 2 anchor is satisfied: core assessment requires transfer of financial economics, derivative pricing, corporate finance, and accounting principles across diverse market contexts, industries, and macro regimes (from corporate capital budgeting in FNCE90018 to investment portfolios in FNCE90056 and complex valuation in FNCE90062). Level 3 is not met: the program does not mandate a universal self-scoped research project or assessed identification of one's own finance capability gaps with an explicit closure plan across every graduation pathway.",
       "evidenceLines": [
         "FNCE90018 Corporate Financial Policy ... Final Examination",
-        "FNCE90056 Investment Management ... Assignment ... Final Examination",
-        "FNCE90062 Capstone Studies in Finance ... Group Assignment (5000 words)"
+        "FNCE90056 Investment Management ... Mid-semester examination ... End-of-semester examination",
+        "FNCE90062 Capstone Studies in Finance ... Group (5-6 students) Assignment (5000 words)"
       ]
     },
     "C5": {
       "score": 2,
       "rationale": "Level 2 anchor is satisfied: students design and conduct secondary and empirical financial investigations, analyzing market pricing anomalies, corporate disclosures, and portfolio returns against financial models in FNCE90018, FNCE90056, and FNCE90062. Level 3 is not met: no universal mandatory primary-evidence thesis with oral viva defense before an external examination panel is required across the core.",
       "evidenceLines": [
-        "FNCE90056 Investment Management ... Assignment (1000 words equivalent)",
-        "FNCE90062 Capstone Studies in Finance ... Group Assignment (5000 words)",
+        "FNCE90062 Capstone Studies in Finance ... Group (5-6 students) Assignment (5000 words)",
         "Execute a project requiring research or real-world application"
       ]
     },
@@ -52,7 +51,6 @@
       "score": 2,
       "rationale": "Level 2 anchor is satisfied: core assessment requires recognised professional finance genres judged against statutory and market standards — formal Investment Pitches and Portfolio Valuation Reports (FNCE90056), Corporate Financial Policy Advisory Reports (FNCE90018), and Capstone Financial Reports & Oral Presentations (FNCE90062). Level 3 is not met: presentations and reports in core finance units are evaluated internally by academic faculty without documented compulsory external investment committee or fund manager panels.",
       "evidenceLines": [
-        "FNCE90056 Investment Management ... Assignment (1000 words equivalent)",
         "FNCE90062 Capstone Studies in Finance ... Group (5-6 students) presentation of final report scheduled during the final meeting",
         "FNCE90062 Capstone Studies in Finance ... Group (5-6 students) Assignment (5000 words)"
       ]
@@ -62,8 +60,7 @@
       "rationale": "Level 2 anchor is satisfied: core assessment reproduces professional financial modeling, corporate capital policy design, and portfolio management tasks end-to-end (complex DCF valuation, options hedging, portfolio rebalancing, and M&A financing in FNCE90011, FNCE90018, FNCE90056, FNCE90062). Resolved downward from level 3 on adversarial verification: case briefs are academically framed from historical financial data without live externally supplied commercial briefs carrying consequential third-party client constraints in the compulsory core (R4).",
       "evidenceLines": [
         "FNCE90018 Corporate Financial Policy ... Final Examination",
-        "FNCE90056 Investment Management ... Assignment",
-        "FNCE90062 Capstone Studies in Finance ... Group Assignment (5000 words)"
+        "FNCE90062 Capstone Studies in Finance ... Group (5-6 students) Assignment (5000 words)"
       ]
     },
     "W3": {
@@ -71,19 +68,29 @@
       "rationale": "Level 1 anchor is met: simulated trading environments, financial lab modeling, and mock corporate valuation case studies appear across coursework. Level 2 is unmet: internship and practicum subjects (e.g. BUSA90473, FNCE90065) are elective options rather than a mandatory core requirement for the entire cohort (R1).",
       "evidenceLines": [
         "The Master of Management (Finance) 200 Point (200pt) program consists of sixteen subjects, comprising five foundation subjects, three discipline core subjects, one capstone subject and seven elective subjects",
-        "Finance electives ... General electives offering internship options",
-        "BUSA90473 Business Practicum ... Elective offering"
+        "Work Integrated Learning electives ... BUSA90525 Business and Economics Internship",
+        "Work Integrated Learning electives ... BUSA90473 Business Practicum"
       ]
     },
     "workplace": 5,
     "gates": {
       "G1": {
         "result": "PASS",
-        "rationale": "PASS condition is met: the program documents a comprehensive 200-point curriculum covering corporate financial policy, derivative securities, investment management, accounting for decision making, quantitative methods, and managerial economics. Rigorous, coherent postgraduate finance core."
+        "rationale": "PASS condition is met: the program documents a comprehensive 200-point curriculum covering corporate financial policy, derivative securities, investment management, accounting for decision making, quantitative methods, and managerial economics. Rigorous, coherent postgraduate finance core.",
+        "evidenceLines": [
+          "The Master of Management (Finance) 200 Point (200pt) program consists of sixteen subjects, comprising five foundation subjects, three discipline core subjects, one capstone subject and seven elective subjects.",
+          "Discipline core subjects ... Students must complete all of the following subjects: ... FNCE90011 Derivative Securities ... FNCE90018 Corporate Financial Policy ... FNCE90056 Investment Management",
+          "Capstone subject ... Students must complete the following subject in their final semester of study: ... FNCE90062 Capstone Studies in Finance"
+        ]
       },
       "G2": {
         "result": "PASS",
-        "rationale": "PASS condition is met: assessment explicitly requires complex financial decision-making under severe market volatility, macroeconomic uncertainty, and incomplete information — including pricing exotic options under stochastic volatility in FNCE90011, restructuring corporate capital structure under bankruptcy risks in FNCE90018, and constructing optimal portfolios under dynamic covariance regimes in FNCE90056/FNCE90062."
+        "rationale": "PASS condition is met: assessment explicitly requires complex financial decision-making under severe market volatility, macroeconomic uncertainty, and incomplete information — including pricing exotic options under stochastic volatility in FNCE90011, restructuring corporate capital structure under bankruptcy risks in FNCE90018, and constructing optimal portfolios under dynamic covariance regimes in FNCE90056/FNCE90062.",
+        "evidenceLines": [
+          "Working in groups, students will develop analyst reports on topics including firm valuation, capital structure, mergers and acquisitions, corporate governance, and other contemporary issues and present these for assessment using a range of relevant pedagogical approaches.",
+          "Decision-making skills through making a single recommendation of the best choice in applied settings when the various parties affected by that decision do not share a set of common preferences",
+          "Develop research skills to assist in decision making and the formulation of valid and justifiable arguments to support suggested solutions to problems."
+        ]
       }
     },
     "ambiguities": [

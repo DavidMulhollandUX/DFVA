@@ -20,8 +20,7 @@
       "evidenceLines": [
         "Assignment, critiquing a project plan for a small scale building",
         "An open book examination equivalent to 2000 words focussing on a wide range of management issues covered during the semester",
-        "understand and apply the principles of project management in the construction industry",
-        "critique project planning and scheduling strategies"
+        "Understand the basic theories of management and project management"
       ]
     },
     "C3": {
@@ -29,8 +28,8 @@
       "rationale": "Level 1 anchor is met: digital tools appear as tool operation and analytical methods. Students learn numerical techniques for construction productivity in ABPL90313, quantity takeoff and spreadsheet pricing in ABPL90312, and structural calculation tools in ABPL90324 and ABPL90293. Level 2 is unmet: no core unit explicitly addresses AI capabilities AND limitations/ethics with use limits discussed and assessed (e.g. automated 5D BIM or AI cost modeling error bounds). Level 3 (AI critique or digital data governance) is entirely unevidenced in core assessment.",
       "evidenceLines": [
         "Assignment, focussing on numerical techniques related to construction productivity",
-        "demonstrate competence in the use of cost estimation software and spreadsheets",
-        "understand the application of Building Information Modelling (BIM) and digital technologies in construction",
+        "Describe the application of computer software to measurement of building works.",
+        "The subject also examines alliancing and partnering contracts, performance-based contracts as well as contract management in the context of BIM-based projects.",
         "Assignment 1 \u2013 Group assignment (2-3 students) focusing on measurement of quantities"
       ]
     },
@@ -85,8 +84,7 @@
       "rationale": "Level 1 anchor is met: work-situated learning is available through elective internship pathways (e.g. ABPL90396 Construction Internship) or industry electives, but no compulsory placement or practicum unit is required in the 100-point core. While the degree is designed both for entry-level graduates and returning industry practitioners, the own-practice assessment route is not a formal required core mechanism with documented employer accountability.",
       "evidenceLines": [
         "These areas provide graduates with the foundation for a future career in construction or academia. They are also designed for those returning to study from the industry",
-        "Course structure includes core subjects and specialized electives",
-        "ABPL90396\tMultidisciplinary Internship"
+        "100 points of Year 1 core subjects ... 50 points of multidisciplinary electives."
       ]
     },
     "workplace": 5,
@@ -95,7 +93,7 @@
         "result": "PASS",
         "rationale": "PASS condition is met: the program documents an all-compulsory specialist core of 100 credit points establishing technical, legal, and managerial depth in construction management \u2014 covering Construction of Buildings (ABPL90292), Steel Construction (ABPL90293), Concrete Construction (ABPL90435), Cost Management (ABPL90312), Management of Construction (ABPL90313), Materials and Structures (ABPL90324), Environmental Systems (ABPL90086), and Contract Management (ABPL90335). Coherent professional sequence with no interchangeable generic core.",
         "evidenceLines": [
-          "Core subjects provide the foundation for construction management practice",
+          "Students must complete all of the Year 1 core subjects before progressing to the second year of the degree.",
           "ABPL90292\tConstruction of Buildings",
           "ABPL90293\tSteel and Composite Construction Systems",
           "ABPL90435\tConcrete Construction Systems",

@@ -33,7 +33,7 @@
       "rationale": "Level 2 anchor is satisfied: core assessment requires transfer of interdisciplinary environmental principles, governance frameworks, and sustainability models across diverse ecological and policy contexts (MULT90004, MULT90005). Level 3 is not met: structured identification of personal capability gaps with an assessed continuing professional learning plan across every student is unevidenced.",
       "evidenceLines": [
         "MULT90004 Environmental Sustainability ... An individual written task of about 1,200 words ... An individual research essay of about 3,000 words",
-        "MULT90005 Partnerships for Sustainable Futures ... Individual task (1500 words)",
+        "MULT90005 Partnerships for Sustainable Futures ... Project review ... 1500 words",
         "Demonstrate specialised knowledge in an environmental discipline or field of practice"
       ]
     },
@@ -76,11 +76,21 @@
     "gates": {
       "G1": {
         "result": "PASS",
-        "rationale": "PASS condition is met: comprehensive 200-point multidisciplinary postgraduate qualification spanning environmental sustainability, stakeholder governance, climate change, conservation, waste management, environmental science, and specialized capstone projects across 10 University faculties."
+        "rationale": "PASS condition is met: comprehensive 200-point multidisciplinary postgraduate qualification spanning environmental sustainability, stakeholder governance, climate change, conservation, waste management, environmental science, and specialized capstone projects across 10 University faculties.",
+        "evidenceLines": [
+          "Students who undertake the Master of Environment may either pursue one of eleven major fields of study, or the tailored specialisation.",
+          "Each specialisation offers a specific choice of subjects, in addition to two core subjects which all students must complete.",
+          "Students in a 200 point pathway will complete at least 12.5 of subjects from a list of capstone experience subjects."
+        ]
       },
       "G2": {
         "result": "PASS",
-        "rationale": "PASS condition is met: core assessment explicitly requires navigating high-stakes socio-ecological dilemmas, conflicting community/commercial stakeholder interests, and uncertain climate scenarios (MULT90004, MULT90005)."
+        "rationale": "PASS condition is met: core assessment explicitly requires navigating high-stakes socio-ecological dilemmas, conflicting community/commercial stakeholder interests, and uncertain climate scenarios (MULT90004, MULT90005).",
+        "evidenceLines": [
+          "Environmental sustainability issues are often complex, controversial and associated with uncertain conditions.",
+          "A class participation component including leading of tutorial discussions and engagement in scenario activities",
+          "Collaborative (group) briefing paper, to be a combined total of 1500 words per student. Each student contributes to research, analysis, integration"
+        ]
       }
     },
     "ambiguities": [
